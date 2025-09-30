@@ -29,10 +29,10 @@
 </script>
 <script src="http://web.archive.org/web/20140925144833js_/http://global.fncstatic.com/static/v/all/js/ag.jquery.js?201409161136"></script>
 <script src="http://web.archive.org/web/20140925144833js_/http://ads.foxnews.com/js/ad.js"></script>
-<script src="http://web.archive.org/web/20140925144833js_/http://global.fncstatic.com/static/v/all/js/ag.base.js?201409161136"></script><link rel="schema.dc" href="http://purl.org/dc/elements/1.1/"> 
-<link rel="schema.dcterms" href="http://purl.org/dc/terms/"> 
-<link rel="schema.prism" href="http://prismstandard.org/namespaces/basic/2.1/"> 
-<link rel="schema.iptc" href="http://iptc.org/std/nar/2006-10-01/"> 
+<script src="http://web.archive.org/web/20140925144833js_/http://global.fncstatic.com/static/v/all/js/ag.base.js?201409161136"></script><link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<link rel="schema.prism" href="http://prismstandard.org/namespaces/basic/2.1/">
+<link rel="schema.iptc" href="http://iptc.org/std/nar/2006-10-01/">
 <title>US existing home sales drop 1.8 percent in August;  slowdown in investors buying homes | Fox News</title>
 			 	<meta name="dc.title" content="US existing home sales drop 1.8 percent in August;  slowdown in investors buying homes">
 <meta name="dc.creator" content="">
@@ -88,12 +88,12 @@
 		<script src="http://web.archive.org/web/20140925144833js_/http://global.fncstatic.com/static/v/all/js/article.rs.js?201409161136"></script>
 
 <!--[if lt IE 9]>
-	<script src="http://global.fncstatic.com/static/v/all/js/html5shiv.js"></script> 
+	<script src="http://global.fncstatic.com/static/v/all/js/html5shiv.js"></script>
 	<link rel="stylesheet" href="http://global.fncstatic.com/static/v/fn2/site/css/ie.rs.css" type="text/css">
 <![endif]-->
 
-<script> FOX.site.topInit(); </script><link rel="apple-touch-icon" href="http://web.archive.org/web/20140925144833im_/http://global.fncstatic.com/static/v/fn2/img/us/72x72-foxnews-us.png"> 	
-		<meta name="apple-mobile-web-app-title" content="Us">	
+<script> FOX.site.topInit(); </script><link rel="apple-touch-icon" href="http://web.archive.org/web/20140925144833im_/http://global.fncstatic.com/static/v/fn2/img/us/72x72-foxnews-us.png">
+		<meta name="apple-mobile-web-app-title" content="Us">
 		</head>
 	<body class="us">
 		<div id="drawer">
@@ -341,7 +341,7 @@
 		  <div><div><div><div class="mod-ad-1 ad-container">
  <div class="ad gpt" id="desktop-728x90"></div>
    </div>
-</div></div></div>		
+</div></div></div>
 		  	<div><div><script type="text/javascript">
 		var vcmArticleInfo = {
 			vcmId: "79f84ac098d98410VgnVCM200000d6c1a8c0RCRD",
@@ -412,31 +412,31 @@
 			<h2><a href="http://web.archive.org/web/20140925144833/http://www.foxnews.com/category/us/economy">ECONOMY</a></h2>
 			<h1 itemprop="headline">US existing home sales drop 1.8 percent in August;  slowdown in investors buying homes</h1>
 			<div class="article-info">
-			<div> 		
+			<div>
 			 		<time itemprop="datePublished" pubdate datetime="2014-09-22T10:08-04:00">Published September 22, 2014</time><div itemprop="sourceOrganization" itemscope itemtype="http://schema.org/Organization"><a target="_blank" itemprop="name" href="http://web.archive.org/web/20140925144833/http://www.ap.org/">Associated Press</a></div></div>
-			</div>		
-			
+			</div>
+
 			<div class="social-count">
 					<div>
 		                <a class="fbk" href="#"><span>Facebook</span></a><span class="fbk">0</span>
 		                <a class="twt" href="#"><span>Twitter</span></a><span class="twt">0</span>
 		                <a class="email" href="#"><span>Email</span></a>
-			            <a class="print" href="#"><span>Print</span></a>	                
+			            <a class="print" href="#"><span>Print</span></a>
 		            </div>
 	            </div>
             <div itemprop="articleBody">
-			
+
 			<div class="m">
 						<img src="http://web.archive.org/web/20140925144833im_/http://a57.foxnews.com/global.fncstatic.com/static/managed/img/fn2/feeds/Associated Press/2014/09/22/876/493/Home Sales-1.jpg?ve=1&amp;tl=1" alt="Home Sales-1.jpg" itemprop="image">
 						<div class="caption">
 							<p itemtype="http://schema.org/Organization" itemscope="" itemprop="sourceOrganization">In this Thursday, May 29, 2014 photo, prospective buyer Mary Tuttle, right, checks out antique lighting fixtures while looking at a home with real estate broker Nancy Dowson, left, with Keller Williams Realty, in Miami Shores, Fla. The National Association of Realtors reports, on Monday, Sept. 22, 2014, on sales of existing homes in August. (AP Photo/Wilfredo Lee)<span itemprop="name" class="source">&nbsp;(The Associated Press)</span></p>
 						</div>
 					</div>
-						
+
 					<p><span class="dateline">WASHINGTON &#8211; &nbsp;</span>Fewer Americans bought homes in August, as investors retreated from real estate and first-time buyers remained scarce.</p>              <p>The National Association of Realtors says sales of existing homes fell 1.8 percent to a seasonally adjusted annual rate of 5.05 million. That snaps a four-month streak of gains. August sales are down from a July rate of 5.14 million, a figure that was revised slightly downward.</p><div class="mod-16"><div class="mod-ad-4 ad-container"><div class="ad gpt" id="tablet-300x250"></div><p class="advert-txt">ADVERTISEMENT</p></div><div class="mod-ad-4 ad-container"><div class="ad gpt" id="mobile-300x250"></div><p class="advert-txt">ADVERTISEMENT</p></div></div>              <p>Much of the slowdown came from the exodus of investors, who had been buying properties in the aftermath of the housing bust and recession. Investors accounted for just 12 percent of August purchases, compared to 17 percent a year earlier.</p>              <p>Overall, the pace of home sales has dropped 5.3 percent year-over-year.</p>              <p>Rising prices through much of 2013 and weak income growth priced out many would-be buyers.</p></div></div>
-		
+
 	</article><!-- /article -->
-	
+
 	<div id="rail">
 		<div><div><section class="mod-2">
 			 <div class="mod-ad-2 ad-container">
@@ -470,14 +470,14 @@
 	 	<a href="http://web.archive.org/web/20140925144833/http://www.foxbusiness.com/industries/2014/09/25/dollar-hits-four-year-high/"><img src="http://web.archive.org/web/20140925144833im_/http://a57.foxnews.com/global.fncstatic.com/static/managed/img/fb2/news/300/96/dollar.jpg?ve=1&amp;tl=1" alt="The dollar hit a four-year high and oil hovered near a two-year low on Thursday, as investors wagered the United States will be one of the few economies healthy enough to wean itself off central bank aid in the near future."></a>
 	  	</div>
    <h3>
-	  <a href="http://web.archive.org/web/20140925144833/http://www.foxbusiness.com/industries/2014/09/25/dollar-hits-four-year-high/">	  		
+	  <a href="http://web.archive.org/web/20140925144833/http://www.foxbusiness.com/industries/2014/09/25/dollar-hits-four-year-high/">
 	  		Dollar Hits Four-Year High <span class="type type-article"></span>
- 				
+
  				</a>
-	  </h3>   	
+	  </h3>
 <meta itemprop="datePublished" content="2014-09-25T13:06:28Z">
 <meta itemprop="description" name="description" content="The dollar hit a four-year high and oil hovered near a two-year low on Thursday, as investors wagered the United States will be one of the few economies healthy enough to wean itself off central...">
-</li><!-- closing dv-item li -->        
+</li><!-- closing dv-item li -->
 	</ul><!-- closing dv-encap ul -->
 	</div></div>
 		<div class="c-item  c-item-last">
@@ -489,19 +489,19 @@
 		      </a>
 		<meta itemprop="datePublished" content="2014-09-25T13:02:57Z">
 <meta itemprop="description" name="description" content="Apple Inc released a workaround for iPhone 6 and iPhone 6 Plus users who reported a drop in cellular service and the inability to use the fingerprint reading Touch ID after downloading the iOS...">
-</li><!-- closing dv-item li -->        
+</li><!-- closing dv-item li -->
 	<li class="dv-item article-ct dv-item-last" itemprop="itemListElement">
 	        <a href="http://web.archive.org/web/20140925144833/http://www.foxbusiness.com/economy-policy/2014/09/25/durable-goods-orders-tumble-business-spending-plans-rebound/">
 		Durable Goods Orders Post Biggest Ever Drop<span class="type type-article"></span>
 		      </a>
 		<meta itemprop="datePublished" content="2014-09-25T12:32:59Z">
 <meta itemprop="description" name="description" content="Orders for long-lasting goods tumbled as the prior boost from aircraft unwound, but a rebound in business spending pointed to underlying strength.">
-</li><!-- closing dv-item li -->        
+</li><!-- closing dv-item li -->
 	</ul><!-- closing dv-encap ul -->
 	</div></div>
 		<div class="c-foot">
                 <div class="advert">
-	<div class="ad dc" id="taxes-292x30">	
+	<div class="ad dc" id="taxes-292x30">
 		</div>
 	</div>
 </div>
@@ -509,7 +509,7 @@
    </div><div><section class="mod-8">
 <header><h2>
 				    Trending in U.S.</h2>
-			     </header><ul>		
+			     </header><ul>
 		<li class="article-ct ">
 			 	<article itemid="" itemtype="http://schema.org/NewsArticle" itemscope="">
 			 	<a href="http://web.archive.org/web/20140925144833/http://www.foxnews.com/us/2014/09/25/woman-punched-on-film-by-california-highway-patrol-officer-reaches-15m/" target="">
@@ -586,8 +586,8 @@
 					  <li class="last">
 							<a href="#">CD Rates</a>
 						</li>
-					  </ul><!-- /c-nav -->				
-				</div>			
+					  </ul><!-- /c-nav -->
+				</div>
 		<div class="c-body"><!-- / start of body div-->
 		<div class="c-item c-item-first c-active">
 				<div class="tickerdata">
@@ -602,51 +602,51 @@
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&amp;prods=1" onclick="window.open(this.href);return false;">30 Y Fixed</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=2&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=1" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="decrease">4.12% 
-         	    
+      <td class="decrease">4.12%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-down.gif" alt="dw"></td>
-      <td class="black week">4.21% 
+      <td class="black week">4.21%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&amp;prods=2" onclick="window.open(this.href);return false;">15 Y Fixed</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=2&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=10" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="decrease">3.21% 
-         	    
+      <td class="decrease">3.21%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-down.gif" alt="dw"></td>
-      <td class="black week">3.27% 
+      <td class="black week">3.27%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&amp;prods=4" onclick="window.open(this.href);return false;">30 Y Fixed Jumbo</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=2&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=325" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">4.89% 
-         	    
+      <td class="increase">4.89%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">4.63% 
+      <td class="black week">4.63%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&amp;prods=6" onclick="window.open(this.href);return false;">5/1 ARM</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=2&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=341" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="decrease">3.30% 
-         	    
+      <td class="decrease">3.30%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-down.gif" alt="dw"></td>
-      <td class="black week">3.51% 
+      <td class="black week">3.51%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/partners/funnel/mortgage-rates.aspx?pid=p:foxbz&amp;prods=7" onclick="window.open(this.href);return false;">5/1 Jumbo ARM</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=2&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=359" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="decrease">3.57% 
-         	    
+      <td class="decrease">3.57%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-down.gif" alt="dw"></td>
-      <td class="black week">3.74% 
+      <td class="black week">3.74%
          <a href="#">&nbsp;</a></td>
    </tr>
 </table>
@@ -667,57 +667,57 @@
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&amp;prods=437" onclick="window.open(this.href);return false;">$30K HELOC </a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=30" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td>4.29% 
-         	    
+      <td>4.29%
+
       </td>
       <td>
          			--
-         
+
       </td>
-      <td class="black week">4.29% 
+      <td class="black week">4.29%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&amp;prods=507" onclick="window.open(this.href);return false;">$50K HELOC </a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=522" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td>4.04% 
-         	    
+      <td>4.04%
+
       </td>
       <td>
          			--
-         
+
       </td>
-      <td class="black week">4.04% 
+      <td class="black week">4.04%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&amp;prods=438" onclick="window.open(this.href);return false;">$30K Loan</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=240" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">5.10% 
-         	    
+      <td class="increase">5.10%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">5.09% 
+      <td class="black week">5.09%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&amp;prods=506" onclick="window.open(this.href);return false;">$50K Loan</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=528" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">4.53% 
-         	    
+      <td class="increase">4.53%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">4.52% 
+      <td class="black week">4.52%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/home-equity/?pid=p:foxbz&amp;prods=457" onclick="window.open(this.href);return false;">$75K Loan</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=472" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">4.53% 
-         	    
+      <td class="increase">4.53%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">4.52% 
+      <td class="black week">4.52%
          <a href="#">&nbsp;</a></td>
    </tr>
 </table>
@@ -738,60 +738,60 @@
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/auto/?pid=p:foxbz&amp;prods=40" onclick="window.open(this.href);return false;">36 M New</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=45" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td>2.93% 
-         	    
+      <td>2.93%
+
       </td>
       <td>
          			--
-         
+
       </td>
-      <td class="black week">2.93% 
+      <td class="black week">2.93%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/auto/?pid=p:foxbz&amp;prods=42" onclick="window.open(this.href);return false;">36 M Used</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=223" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="decrease">3.46% 
-         	    
+      <td class="decrease">3.46%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-down.gif" alt="dw"></td>
-      <td class="black week">3.47% 
+      <td class="black week">3.47%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/auto/?pid=p:foxbz&amp;prods=39" onclick="window.open(this.href);return false;">48 M New</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=23" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td>3.22% 
-         	    
+      <td>3.22%
+
       </td>
       <td>
          			--
-         
+
       </td>
-      <td class="black week">3.22% 
+      <td class="black week">3.22%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/auto/?pid=p:foxbz&amp;prods=74" onclick="window.open(this.href);return false;">48 M Used</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=227" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">2.99% 
-         	    
+      <td class="increase">2.99%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">2.98% 
+      <td class="black week">2.98%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/auto/?pid=p:foxbz&amp;prods=41" onclick="window.open(this.href);return false;">60 M New</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=8&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=234" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td>3.24% 
-         	    
+      <td>3.24%
+
       </td>
       <td>
          			--
-         
+
       </td>
-      <td class="black week">3.24% 
+      <td class="black week">3.24%
          <a href="#">&nbsp;</a></td>
    </tr>
 </table>
@@ -812,31 +812,31 @@
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&amp;prods=14&amp;local=true" onclick="window.open(this.href);return false;">6 month</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=7&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=156" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">0.37% 
-         	    
+      <td class="increase">0.37%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">0.35% 
+      <td class="black week">0.35%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr class="grey">
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&amp;prods=15&amp;local=true" onclick="window.open(this.href);return false;">1 yr</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=7&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=50" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">0.70% 
-         	    
+      <td class="increase">0.70%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">0.69% 
+      <td class="black week">0.69%
          <a href="#">&nbsp;</a></td>
    </tr>
    <tr>
       <td class="first"><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/cd-investments/?pid=p:foxbz&amp;prods=19&amp;local=true" onclick="window.open(this.href);return false;">5 yr</a></td>
       <td><a href="http://web.archive.org/web/20140925144833/http://www.bankrate.com/funnel/graph/?pid=p:foxbz&amp;cat=7&amp;state=zz&amp;d=1825&amp;t=Line&amp;ids=138" onclick="window.open(this.href);return false;"><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-2.gif" alt="Graph"></a></td>
-      <td class="increase">1.47% 
-         	    
+      <td class="increase">1.47%
+
       </td>
       <td><img src="http://web.archive.org/web/20140925144833im_/http://www.fbnstatic.com/static/v/fb2/img/icon-up.gif" alt="up"></td>
-      <td class="black week">1.39% 
+      <td class="black week">1.39%
          <a href="#">&nbsp;</a></td>
    </tr>
 </table>
@@ -858,7 +858,7 @@
 		</div>
       	</div>
    </div></div></div><!-- /rail -->
-	
+
 	<div class="outbrain"><div class="fox-ob-placement" data-article-placement="1" data-fbk="1" data-widget-id="AR_9"></div></div><!-- /outbrain -->
 	<div class="outbrain"><div class="fox-ob-placement" data-article-placement="6" data-fbk="1" data-widget-id="MB_3"></div></div><!-- /outbrain Moble-->
 	<div class="mod-24">
@@ -866,7 +866,7 @@
 		<div class="sharing"><ul><li class="social-fb"></li><li class="social-tw"></li><li class="social-gg"></li><li class="social-in"></li></ul></div><!-- /sharing -->
 	</div><!-- /mod-24 -->
 	<div class="mod-11">
-		<div class="OUTBRAIN" data-article-placement="3" data-fbk="1" data-widget-id="AR_10"></div>					
+		<div class="OUTBRAIN" data-article-placement="3" data-fbk="1" data-widget-id="AR_10"></div>
 	</div><!-- /mod 11 -->
 	<div class="ad cu" id="cu_article_3"></div>
 	<div class="ad cu" id="cu_article_4"></div>
@@ -881,8 +881,8 @@
 	</div>
 </div>
 
-</div><!-- doc -->  
-		</div><!-- wrapper -->    	  	
+</div><!-- doc -->
+		</div><!-- wrapper -->
 			<!-- footer from c:import -->
 				<footer id="bottom" class="fn">
 	<div>
@@ -968,7 +968,7 @@
  <img src="http://web.archive.org/web/20140925144833im_/http://metrics.foxnews.com/b/ss/foxnews/1/H22.1--NS/1411656423857?pageName=noscript:us:subsection:article&amp;g=http://www.foxnews.com/us/2014/09/22/us-existing-home-sales-drop-18-percent-in-august-slowdown-in-investors-buying/" style="display:none;" width="0" height="0" border="0" alt="">
  <img src="//web.archive.org/web/20140925144833im_/http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-801796h&amp;cg=0&amp;cc=1&amp;si=http://www.foxnews.com/us/2014/09/22/us-existing-home-sales-drop-18-percent-in-august-slowdown-in-investors-buying/&amp;ts=noscript&amp;rnd=1411656423857" style="display:none;" width="0" height="0" border="0" alt="">
  <img src="http://web.archive.org/web/20140925144833im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=9013181&amp;c3=&amp;c4=http://www.foxnews.com/us/2014/09/22/us-existing-home-sales-drop-18-percent-in-august-slowdown-in-investors-buying/&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.2&amp;cj=1" style="display:none;" width="0" height="0" border="0" alt="">
-</noscript> 	
+</noscript>
 </body>
 </html>
 <!--

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Look, if your spouse works as a mergers and acquisitions manager at a big public company, and her company acquires another public company, a
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Insider trading
-    
-  
+
+
 
 Look, if your spouse works as a mergers and acquisitions manager at a big public company, and her company acquires another public company,  and you “methodically sold all [your] positions in both [your] individual brokerage account and [your] Roth IRA (totaling approximately $2.16 million)” to buy shares of the target stock before the deal was announced, and then you sell the target stock when the deal is announced and make a profit of $1.76 million: That is insider trading and you will get arrested. I don’t need to know any more facts. Your spouse worked on the deal, you sold everything you owned to buy the target stock, the regulators can very easily put those two facts together, and when they ask you what happened and you are like “crazy coincidence right?” they will absolutely not believe you, nor should they. Bad, bad, bad look.
 No, the only question is: Will your spouse get arrested? Because there are   two possibilities here:
@@ -80,37 +80,37 @@ Well, so, she’s not working long hours anymore.
 After Loudon’s confession, Loudon’s wife moved out of their house and generally ceased all contact with Loudon. A few weeks later, Loudon delivered a handwritten note to his wife apologizing for violating her trust and asking for her forgiveness. Loudon’s wife initiated divorce proceedings in June 2023.
 I think that’s the worst insider trading case I’ve ever read? Between her prompt reporting to BP, their review of her texts and emails, and the immediate divorce, it seems pretty clear she wasn’t in on the insider trading. Still, terrible.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Activist Man vs. Activist Man
-    
-  
+
+
 
 I   wrote a few weeks ago about Bill Ackman’s plan to raise a new closed-end fund for US retail investors. I started by talking about Ackman’s existing closed-end fund for retail investors, Pershing Square Holdings (PSH), which is listed in Europe and which, at this point, is Ackman’s main investing vehicle,  holding about $12.3 billion of his $15.8 billion of net assets under management.
   [1]
@@ -150,11 +150,11 @@ Here are the  interview and Ackman’s X post. Closed-end fund activism  is a p
 Sometimes management’s long-term plans are good and worth the money, other times they aren’t. Here, management won.
 When we previously talked about PSH, I emphasized what a good idea it was, and is, for Ackman (or any other hedge fund manager) to have a permanent capital vehicle. If you run a hedge fund and you have disappointing performance, your investors can   ask for their money back, and eventually you have to give it to them, and then you don’t run a hedge fund anymore. If you run a closed-end fund and you have disappointing performance, no one can ask for their money back — that’s kind of what “closed-end” means — and so you get to keep running a hedge fund forever. But not literally; you can’t keep running even a closed-end fund forever if you keep disappointing your investors. There is a safety valve. The safety valve is that someone can buy up all the shares and do activism on you.
 
-  
-    
+
+
       Private credit
-    
-  
+
+
 
 Just a very dumb simple model of private credit is:
 	People — asset managers,  sovereign wealth funds,  banks,  rich individuals, whoever — have flocked into private credit because it can  offer higher yields than traditional bonds and syndicated bank loans.	Why would you want to borrow from them? “Private credit has higher yields than bank loans” is a great pitch to lenders, who want to receive higher yields, but it is a bad pitch to borrowers, who want to pay lower yields.
@@ -171,11 +171,11 @@ The changing market conditions offer an opportunity to banks, which were saddled
 
 This is the good and bad side of the “private credit is faster and more decisive” point: If you got a commitment letter from some banks for a leveraged buyout financing in 2022, and then rates shot up, then when that financing closed months later you got an outrageously good deal. (Ask  Elon Musk.) But the banks were burned by the outrageously good deals they gave out in 2022, so they could only offer pretty bad deals in 2023. Now they are back.
 
-  
-    
+
+
       Private IPO
-    
-  
+
+
 
 If you do a “private IPO,” what does the P stand for? “Private initial public offering”? You see the problem. Here’s  the Wall Street Journal:
 
@@ -190,11 +190,11 @@ I suggested a few weak counterarguments:
 
 Eh. Anyway the “semantics” point seems right. Lots of private companies have done trades — private placements, Series G fundraising rounds,   employee tender offers, etc. — that have the essential shape of “the company stays private but somebody buys stock.” What makes a trade a “private IPO” instead of “selling stock”? Is it that the buyer of the stock is a mutual fund? I think the answer might be “it is pitched to you that way by an investment bank.”
 
-  
-    
+
+
       Maybe don’t put the money in the BOXX?
-    
-  
+
+
 
 Last week I   described BOXX, the Alpha Architect 1-3 Month Box ETF, an exchange-traded fund that is meant to pay money-market interest rates without taxes, using options strategies. I wrote: “The first thing you want to do is turn interest income into capital gains. … In some sense this should be easy.” Some assets pay you a return that is called “interest,” which is fixed and paid in installments and taxed at ordinary income rates; other assets pay you a return that is called “appreciation,” which you receive when you sell the asset and which is taxed at lower capital gains rates. There is some economic equivalence between these things; assets that don’t pay interest generally appreciate at some rate that compensates you for the use of your money, sort of like interest does.
 The trick is to find an asset that appreciates at the risk-free rate, i.e., that reliably pays you roughly the same return as short-term Treasury bills, but in the form of “appreciation” rather than “interest.” The simplest way to do that would be with a zero-coupon bond — a bond that doesn’t make quarterly interest payments, but just pays you back more at the end than you put in at the beginning — but that’s too simple, and the US tax code looks through that trick and treats the appreciation on a zero-coupon bond as interest. 
@@ -204,11 +204,11 @@ But several readers emailed to point out that, at least sometimes, the US tax c
  So a simple transaction like “buy a stock and sell it forward” probably produces ordinary income, not capital gains.
 Do BOXX’s box spreads produce ordinary income? My understanding is that there is a common view that box spreads are not “conversion transactions,” and in particular that box spreads with index options are covered by different rules. But I do not claim to be an expert, or to give tax advice, and apparently some people disagree. 
 
-  
-    
+
+
       Who controls Byju’s?
-    
-  
+
+
 
 Is it … Byju? A few years ago, we talked about John Schnatter, the founder and papa of Papa John’s International Inc., who got in a   fight for control of his corporate child. He was a big but not controlling shareholder, and the former but not current chief executive officer; also the company was named after him, with a possessive apostrophe-s. These advantages were large, though not decisive; he never did come back as CEO, and was reduced to  maybe eating 40 pizzas in 30 days to prove that he didn’t even like the pizza anymore anyway.
 Last month we   talked about another possessive-apostrophe-s company, Byju’s, once “the world’s most valuable edutech,” but now not so much. We talked about Byju’s because it was trying to do a rights offering, hoping to raise $200 million at a “post-money valuation … of $220 million to $225 million, a 99% drop from the $22 billion valuation that the startup had attained in 2022,” oops oops oops oops oops. Raising $200 million at a $220 million post-money valuation
@@ -223,28 +223,28 @@ Raveendran claimed in the letter that the extraordinary general meeting lacked t
 
 Ah. If I ran a company that was once worth $22 billion and is now worth $25 million, I would be hesitant to say things like “this momentum is irreversible,” but I guess that’s why I don’t.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 China’s   Quant Clampdown Risks Damaging Fragile Markets for Years. The  Hedge Funds That Changed the Game. How  Klarna’s boardroom spat exposed a schism at Sequoia Capital. Risk Models Behind World’s Best   Hedge Fund Strategy Are Getting a Lot Harder to Crack. The  Third Network.  European banks promise €120bn of shareholder returns on interest rate gains. Venezuela Calls in   Oil Debt It Once Traded Away for Literal Beans. Billionaire Forrest Calls on LME to   Identify ‘Clean’ Nickel. Indonesia to wipe out  global nickel rivals, warns French miner Eramet chief. Jack Ma-Backed Ant Outbids Citadel Securities for   Credit Suisse’s China JV. Popular   China Swap Trade Cools, Signaling Lower Demand for Bonds. US Republicans call for  McKinsey to be banned from federal contracts. Bundesbank burns through more than €20bn to cover huge losses. Peter Thiel’s $100,000 Offer to  Skip College Is More Popular Than Ever. Leap Day  accounting.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] See slide 26  here. That is the equity value, that is, assets minus debt. I have   previously cited gross assets ($18.2 billion total, $14.6 billion in PSH), but since we’re talking about discount to net asset value here the equity value seems more relevant.
 
 
   [2] That is, you *can* buy PSH — under the ticker PSHZF — in the US, but it does not trade on a stock exchange and, because it is not registered under the Investment Company Act, Pershing Square can’t market to US investors. Also it is a  passive foreign investment company for US tax purposes, which might be  unpleasant.
 
 
-  [3] Marc Rubinstein has a good recent  column on the discount. 
+  [3] Marc Rubinstein has a good recent  column on the discount.
 
 
   [4] Again, not entirely; the  2024 investor presentation mentions an “energy hedge,” “interest rate swaptions” and “all other positions” as smallish negative contributors to performance. But as a rough cut, “it’s 10 stocks” gets you reasonably close these days.
 
 
-  [5] On my crude math, if you put $100 into the portfolio and it grows at 20% per year, you’ll end up with about $619 worth of stock in 10 years. If you instead pay 1.5% annual management fees and 16% on that same performance, you’ll end up with $415, or 33% less. The impact is greater the better the performance. Here is  another calculation. 
+  [5] On my crude math, if you put $100 into the portfolio and it grows at 20% per year, you’ll end up with about $619 worth of stock in 10 years. If you instead pay 1.5% annual management fees and 16% on that same performance, you’ll end up with $415, or 33% less. The impact is greater the better the performance. Here is  another calculation.
 
 
   [6] Also, if you do the crude thing I suggest — buy PSH, crack it open, sell the stocks — you have a lot of market risk during the trade, and selling the stocks all at once might drag their prices down. In practice the better way to do this is what Elliott apparently did: You buy PSH and *short* the underlying stocks *simultaneously*, managing your market risk and not moving the price too far either way. (Though your trading — long PSH, short the portfolio — will have the effect of reducing the discount.)
@@ -256,48 +256,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] That’s actually a 99.9% drop, right? Like $22 billion to $20 million, down 99.9%, before the new money comes in.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -308,46 +308,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckj00i.5jd8/f22cc7f1.gif" alt="" border="0" /></a>

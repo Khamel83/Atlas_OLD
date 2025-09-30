@@ -16,11 +16,11 @@ def test_monitoring_integration():
     """Test monitoring system with alert manager"""
     print("🧪 Testing Monitoring + Alert Integration")
     print("=" * 50)
-    
+
     # Initialize systems
     monitor = AtlasMonitor()
     alert_manager = AtlasAlertManager()
-    
+
     # Get current metrics
     print("📊 Collecting system metrics...")
     try:
@@ -29,10 +29,10 @@ def test_monitoring_integration():
     except Exception as e:
         print(f"❌ Monitoring error: {e}")
         return False
-    
+
     # Check thresholds and generate alerts if needed
     alerts = []
-    
+
     # CPU threshold (80%)
     if system_metrics.cpu_percent > 80:
         alerts.append({
@@ -43,7 +43,7 @@ def test_monitoring_integration():
             'severity': 'WARNING' if system_metrics.cpu_percent < 90 else 'CRITICAL',
             'message': f"High CPU usage: {system_metrics.cpu_percent:.1f}%"
         })
-    
+
     # Memory threshold (85%)
     if system_metrics.memory_percent > 85:
         alerts.append({
@@ -54,7 +54,7 @@ def test_monitoring_integration():
             'severity': 'WARNING' if system_metrics.memory_percent < 95 else 'CRITICAL',
             'message': f"High memory usage: {system_metrics.memory_percent:.1f}%"
         })
-    
+
     # Disk space threshold (90%)
     if system_metrics.disk_percent > 90:
         alerts.append({
@@ -65,7 +65,7 @@ def test_monitoring_integration():
             'severity': 'CRITICAL',
             'message': f"Critical disk usage: {system_metrics.disk_percent:.1f}% (Free: {system_metrics.disk_free_gb:.1f}GB)"
         })
-    
+
     # Process alerts
     if alerts:
         print(f"🚨 {len(alerts)} alerts triggered:")
@@ -84,20 +84,20 @@ def test_monitoring_integration():
         alert_manager.process_alert(test_alert)
         print("✅ No alerts triggered - system within normal parameters")
         print("✅ Test alert sent to verify integration")
-    
+
     # Display current status
     print("\n📊 Current System Status:")
     print(f"  CPU: {system_metrics.cpu_percent:.1f}%")
     print(f"  Memory: {system_metrics.memory_percent:.1f}%")
     print(f"  Disk Free: {system_metrics.disk_free_gb:.1f}GB")
     print(f"  Load Average: {system_metrics.load_average}")
-    
+
     print("\n📋 Atlas Application Status:")
     print(f"  API Response Time: {atlas_metrics.api_response_time:.3f}s")
     print(f"  Database Size: {atlas_metrics.database_size_mb:.1f}MB")
     print(f"  Content Records: {atlas_metrics.content_records}")
     print(f"  Service Health: {atlas_metrics.service_health}")
-    
+
     # Display alert manager status
     alert_status = alert_manager.get_alert_status()
     print(f"\n📋 Alert Manager Status:")
@@ -105,23 +105,23 @@ def test_monitoring_integration():
     print(f"  Webhook enabled: {alert_status['configuration']['webhook_enabled']}")
     print(f"  Total alerts sent: {alert_status['state']['total_alerts_sent']}")
     print(f"  Active suppressions: {alert_status['state']['active_suppressions']}")
-    
+
     return True
 
 def main():
     """Main test function"""
     print("🚀 Atlas Monitoring + Alert Integration Test")
     print("=" * 50)
-    
+
     success = test_monitoring_integration()
-    
+
     if success:
         print("\n✅ Integration test completed successfully!")
         print("🎯 Monitoring and alerting system ready for production")
     else:
         print("\n❌ Integration test failed")
         return 1
-    
+
     return 0
 
 if __name__ == "__main__":

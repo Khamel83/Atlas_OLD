@@ -7,15 +7,15 @@
 
 View this post on the web at https://www.notboring.co/p/attention-is-all-you-need
 
-Welcome to the 1,205 newly Not Boring people who have joined us over the past week! If you haven’t subscribed, join 194,036 smart, curious folks by subscribing here: 
+Welcome to the 1,205 newly Not Boring people who have joined us over the past week! If you haven’t subscribed, join 194,036 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Secureframe [ https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Prospects are asking about security earlier in the buying cycle. Companies need a way to get compliant that is faster and takes less employee involvement. With Secureframe [ https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] you can get compliant in weeks—not months—so you can focus on growing your business. 
 Secureframe makes it fast and easy to get SOC 2, ISO 27001, HIPAA, PCI & GDPR compliant. With guided workflows and one-click integrations, the entire process is automated and backed by a support team of industry experts.
 Get compliant fast with Secureframe.
 Click here [ https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to set up a demo. Mention “Not Boring” during your demo to get 20% off your first year of Secureframe. 
 Hi friends 👋,
-Happy Monday! I had a lot of fun writing this one. 
-While I’ve written about AI, I haven’t written much about OpenAI because there’s already so much attention on the company that it’s been hard to find much new to say. GPT-4 is amazing. There will be implications for white collar workers. Here are 75 things you didn’t know you could do with ChatGPT 🧵 👇 Are foundation models defensible? Are GPT Wrappers defensible? 
+Happy Monday! I had a lot of fun writing this one.
+While I’ve written about AI, I haven’t written much about OpenAI because there’s already so much attention on the company that it’s been hard to find much new to say. GPT-4 is amazing. There will be implications for white collar workers. Here are 75 things you didn’t know you could do with ChatGPT 🧵 👇 Are foundation models defensible? Are GPT Wrappers defensible?
 Then, on Thursday, OpenAI introduced ChatGPT plugins, and the more I thought about it, the more excited I got. Through a series of seeming accidents, great product, and user pull, OpenAI has attracted attention, turned that attention into the must-use API, and with the release of plugins, is turning that attention into a platform unlike any platform that exists, one that ingests the capabilities of the apps built on it.
 If OpenAI chooses to, it can build an Apex Aggregator and define the new best business model on the internet. We need to lay some groundwork to explain why.
 Let’s get to it. 
@@ -76,7 +76,7 @@ Then OpenAI announced ChatGPT plugins [ https://substack.com/redirect/8a25df10-e
 To read about ChatGPT plugins, how OpenAI could create the Apex Aggregator, and the choices it’s going to have to make…
 Thanks to Dan [ https://substack.com/redirect/eaaee3ce-fc0a-4f86-bedc-a8be198ed21e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing, Anton [ https://substack.com/redirect/d654c98d-2149-4b75-950d-687932066400?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for teaching me about Attention is All You Need, and Ben Thompson [ https://substack.com/redirect/eabb6db7-5ddf-426d-a77a-db6ec79983f9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the insights that keep on giving (and congrats on 10 years!)!
 That’s all for today. If you found today’s post useful, share it with a friend or two. If you didn’t, thanks for making it all the way down here anyway :) We’ll be back in your inbox on Friday with another Weekly Dose of Optimism.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEV3T0Rnd09UUTNMQ0pwWVhRaU9qRTJOems1TWpBMk5Ua3NJbVY0Y0NJNk1UWTRNalV4TWpZMU9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlloMDhkVkZua081Tmp0SmlWcGh3WlZJNHZhdXdMQ2ZZS1VjcHd0MzZ5cVUiLCJwIjoxMTA4ODA5NDcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc5OTIwNjU5LCJleHAiOjE2ODI1MTI2NTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.NEntAZFjP12BLHN3WDRTFf0nmJLs3_sEyBnHJSx0F2w?

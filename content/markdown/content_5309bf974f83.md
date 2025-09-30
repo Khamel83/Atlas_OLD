@@ -94,7 +94,7 @@ window['optimizely'] = window['optimizely'] || []; window['optimizely'].push(["c
     })();
 </script>
 <script type="text/javascript">
-var utag_data = 
+var utag_data =
 {"page_level_1":"magazine","page_level_2":"story","page_level_3":"2016","page_level_4":"02","page_level_5":"rfk-jr-why-arabs-dont-trust-america-213601","organization_uuid":"anonymous","organization_name":"anonymous","user_login_type":"anonymous","us_em":"anonymous","content_uuid":"0000014c-eceb-dbae-af6f-fffb30d40000/00000152-b3db-ddac-a576-b7ff58270000","distribution_channel":"politico","content_id":"213601","lead_media":"full-width","content_tag":"Washington And The World|Middle East|Robert F. Kennedy Jr.|Iraq War|John Foster Dulles|CIA|POLITICO Magazine","free_paid_content":"free","publication_date":"20160222","site_section":"magazine","ad_unit_section":"magazine","viewport_ads_id":"pol-vp","event_type":"story","page_format":"1 of 1","magazine_content_format":"online","site_domain":"www.politico.com","site_url":"http://web.archive.org/web/20250823181835/https://www.politico.com/magazine/story/2016/02/rfk-jr-why-arabs-dont-trust-america-213601","internal_site_id":"politico-magazine","page_type":"story","content_byline":"By Robert F. Kennedy, Jr.","content_author":"Robert F. Kennedy, Jr.","content_source":"Magazine","original_headline":"Why the Arabs Donât Want Us in Syria","current_headline":"Why the Arabs Donât Want Us in Syria","page_name":"story - 213601 - 20160222 - Why the Arabs Donât Want Us in Syria","enable_prebid":"true"};
 
 utag_data["spokenlayer"] = document.getElementById('spokenlayer-audio-player-container') != null ? "true" : "false";

@@ -30,7 +30,7 @@ listen ( https://puck.news/podcast_episode/hubo-fulu-inside-a-shock-streaming-ma
 Let’s
 get to it…
 
- 
+
 
 Player of the Week: David
 Gandler
@@ -40,7 +40,7 @@ Perhaps the biggest winner in Disney’s decision to merge its Hulu+Live TV with
 is Gandler, the co-founder and C.E.O. of the publicly traded streamer, who will run the combined entity. While Fubo was making headway with its antitrust case against Venu, this combination will offer Gandler much more leverage in negotiations with programming networks. As my friend Ted Hearn noted in Policyband ( https://www.policyband.com/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F9%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), his excellent substack, Fubo’s stock surge helped Gandler
 personally. Per Teddy, Gandler received 1.3 million new restricted stock units on January 1, worth $1.8 million. After the announcement on Monday, that value ballooned to $6.9 million.
 
- 
+
 
 Runner-up: Roger
 Goodell
@@ -49,7 +49,7 @@ Goodell
 The fact that NFL viewership is only down 2 percent this season is nothing short of
 remarkable, especially considering all the headwinds the league faced this season, including fewer Monday Night Football simulcasts on ABC and ESPN (MNF was down 14 percent) and one less Christmas Day game. 
 
- 
+
 
 Down to the J.V.: Skip Bayless
 ------------------------------
@@ -177,7 +177,7 @@ live games, and there’s not much that Norby can do to change how they are prod
 But this won’t be easy, either. Not only will Norby not have access to a Bristol budget, he’ll be working within the strictures of Diamond’s—sorry, Main Street’s—post-bankruptcy austerity plan. And the paradigm for success on these platforms is complex. For decades, R.S.N. executives bled money building out original programming, trying to retain viewers by expanding pre- and postgame shows, airing batting practice and shootarounds,
 etcetera. Even the content that was able to attract audiences, like Fox Sports Net’s Best Damn Sports Show Period, were simply too costly to produce and didn’t bring in enough money. For its part, Main Street already has a couple of FanDuel-branded shows in its rotation. This will be a fun comeback attempt, both business and professional, to watch play out.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -201,7 +201,7 @@ of the Disney-Fubo deal leaves me with a lingering question: What if Venu launch
 On WWE changes: “The rumor was always that Vince McMahon was against having
 sponsorships on the ring mat, and Nick Khan saw it as one way they could still monetize. Here’s to Puck sponsoring The High Chief Tribal Chief/Hobbs & Shaw 2 match between Roman Reigns and The Rock.” —A Varsity subscriber
 
- 
+
 
 Have a great weekend,
 
@@ -247,6 +247,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUTl59Ik9vV7F4DavjdH0=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F9%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

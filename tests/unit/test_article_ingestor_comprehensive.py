@@ -33,9 +33,9 @@ class TestArticleIngestorInitialization:
             "data_directory": str(test_env.temp_dir),
             "log_path": str(test_env.temp_dir / "test.log")
         }
-        
+
         ingestor = ArticleIngestor(config)
-        
+
         assert ingestor.config == config
         assert ingestor.get_content_type() == ContentType.ARTICLE
         assert ingestor.get_module_name() == "article_ingestor"
@@ -45,7 +45,7 @@ class TestArticleIngestorInitialization:
         """Test that ArticleFetcher is properly initialized."""
         config = {"data_directory": str(test_env.temp_dir)}
         ingestor = ArticleIngestor(config)
-        
+
         assert ingestor.fetcher is not None
         assert hasattr(ingestor.fetcher, 'config')
 
@@ -77,13 +77,13 @@ class TestUrlProcessing:
             </body>
         </html>
         """
-        
+
         mock_response = Mock()
         mock_response.status_code = 200
         mock_response.text = sample_html
         mock_response.headers = {'content-type': 'text/html'}
         mock_response.url = "https://example.com/article"
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': sample_html,
             'success': True,
@@ -91,7 +91,7 @@ class TestUrlProcessing:
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/article"])
-        
+
         assert result['success_count'] > 0
         assert len(result['results']) > 0
 
@@ -103,16 +103,16 @@ class TestUrlProcessing:
             "https://example.com/article2",
             "https://example.com/article3"
         ]
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article') as mock_fetch:
             mock_fetch.return_value = {
                 'content': '<html><body>Test</body></html>',
                 'success': True,
                 'status_code': 200
             }
-            
+
             result = ingestor.process_urls(urls)
-        
+
         assert mock_fetch.call_count == len(urls)
         assert result['total_count'] == len(urls)
 
@@ -125,9 +125,9 @@ class TestUrlProcessing:
             "ftp://invalid.com",
             None
         ]
-        
+
         result = ingestor.process_urls(invalid_urls)
-        
+
         # Should handle invalid URLs gracefully
         assert 'error_count' in result
         assert result['error_count'] > 0
@@ -140,16 +140,16 @@ class TestUrlProcessing:
             "https://example.com/article",  # Duplicate
             "https://example.com/article"   # Another duplicate
         ]
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article') as mock_fetch:
             mock_fetch.return_value = {
                 'content': '<html><body>Test</body></html>',
                 'success': True,
                 'status_code': 200
             }
-            
+
             result = ingestor.process_urls(duplicate_urls)
-        
+
         # Should deduplicate URLs
         assert mock_fetch.call_count < len(duplicate_urls)
 
@@ -182,7 +182,7 @@ class TestMetadataExtraction:
             </body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
@@ -190,7 +190,7 @@ class TestMetadataExtraction:
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         # Should extract metadata successfully
         assert result['success_count'] > 0
 
@@ -209,14 +209,14 @@ class TestMetadataExtraction:
             <body>Content</body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert result['success_count'] > 0
 
     @pytest.mark.unit
@@ -233,14 +233,14 @@ class TestMetadataExtraction:
             <body>Content</body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert result['success_count'] > 0
 
     @pytest.mark.unit
@@ -265,14 +265,14 @@ class TestMetadataExtraction:
             <body>Content</body>
         </html>
         '''
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert result['success_count'] > 0
 
 
@@ -302,14 +302,14 @@ class TestContentProcessing:
             </body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert result['success_count'] > 0
 
     @pytest.mark.unit
@@ -329,28 +329,28 @@ class TestContentProcessing:
             </body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert result['success_count'] > 0
 
     @pytest.mark.unit
     def test_empty_content_handling(self, ingestor):
         """Test handling of empty or minimal content."""
         html_content = "<html><body></body></html>"
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/empty"])
-        
+
         # Should handle empty content gracefully
         assert 'error_count' in result or 'success_count' in result
 
@@ -368,9 +368,9 @@ class TestErrorHandling:
         """Test handling of network errors."""
         with patch.object(ingestor.fetcher, 'fetch_article') as mock_fetch:
             mock_fetch.side_effect = requests.exceptions.ConnectionError("Network error")
-            
+
             result = ingestor.process_urls(["https://example.com/test"])
-        
+
         assert 'error_count' in result
         assert result['error_count'] > 0
 
@@ -384,21 +384,21 @@ class TestErrorHandling:
             'error': 'Not Found'
         }):
             result = ingestor.process_urls(["https://example.com/404"])
-        
+
         assert 'error_count' in result
 
     @pytest.mark.unit
     def test_malformed_html_handling(self, ingestor):
         """Test handling of malformed HTML."""
         malformed_html = "<html><head><title>Test</title><body><p>Missing closing tags"
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': malformed_html,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/malformed"])
-        
+
         # Should handle malformed HTML without crashing
         assert 'success_count' in result or 'error_count' in result
 
@@ -407,9 +407,9 @@ class TestErrorHandling:
         """Test handling of request timeouts."""
         with patch.object(ingestor.fetcher, 'fetch_article') as mock_fetch:
             mock_fetch.side_effect = requests.exceptions.Timeout("Timeout")
-            
+
             result = ingestor.process_urls(["https://example.com/slow"])
-        
+
         assert 'error_count' in result
 
     @pytest.mark.unit
@@ -422,14 +422,14 @@ class TestErrorHandling:
             <body><p>Content with émojis and accénts</p></body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_with_encoding,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/encoding"])
-        
+
         assert result['success_count'] > 0
 
 
@@ -453,7 +453,7 @@ class TestFileOperations:
             <body><p>Test content for saving</p></body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
@@ -461,11 +461,11 @@ class TestFileOperations:
             'url': 'https://example.com/save-test'
         }):
             result = ingestor.process_urls(["https://example.com/save-test"])
-        
+
         # Check that files were created in output directory
         output_files = list(test_env.temp_dir.rglob("*.json"))
         markdown_files = list(test_env.temp_dir.rglob("*.md"))
-        
+
         assert len(output_files) > 0 or len(markdown_files) > 0
 
     @pytest.mark.unit
@@ -481,7 +481,7 @@ class TestFileOperations:
             <body><p>Content</p></body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
@@ -489,7 +489,7 @@ class TestFileOperations:
             'url': 'https://example.com/metadata-test'
         }):
             result = ingestor.process_urls(["https://example.com/metadata-test"])
-        
+
         # Should have preserved metadata
         assert result['success_count'] > 0
 
@@ -513,7 +513,7 @@ class TestPerformance:
             <body>{large_content}</body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
@@ -521,11 +521,11 @@ class TestPerformance:
         }):
             import time
             start_time = time.time()
-            
+
             result = ingestor.process_urls(["https://example.com/large"])
-            
+
             end_time = time.time()
-        
+
         # Should complete within reasonable time
         assert end_time - start_time < 10.0
         assert result['success_count'] > 0
@@ -534,7 +534,7 @@ class TestPerformance:
     def test_batch_processing_performance(self, ingestor):
         """Test performance of processing multiple articles."""
         urls = [f"https://example.com/article{i}" for i in range(10)]
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': '<html><body>Test</body></html>',
             'success': True,
@@ -542,11 +542,11 @@ class TestPerformance:
         }):
             import time
             start_time = time.time()
-            
+
             result = ingestor.process_urls(urls)
-            
+
             end_time = time.time()
-        
+
         # Should process all articles within reasonable time
         assert end_time - start_time < 30.0
         assert result['total_count'] == len(urls)
@@ -574,14 +574,14 @@ class TestSecurityConsiderations:
             </body>
         </html>
         """
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': malicious_html,
             'success': True,
             'status_code': 200
         }):
             result = ingestor.process_urls(["https://example.com/malicious"])
-        
+
         # Should handle malicious content without executing scripts
         assert 'success_count' in result or 'error_count' in result
 
@@ -594,10 +594,10 @@ class TestSecurityConsiderations:
             "file:///etc/passwd",
             "http://localhost:22/ssh-attack"
         ]
-        
+
         # Should reject or safely handle suspicious URLs
         result = ingestor.process_urls(suspicious_urls)
-        
+
         # Most should be rejected or handled safely
         assert 'error_count' in result
 
@@ -606,7 +606,7 @@ class TestSecurityConsiderations:
         """Test prevention of path traversal attacks."""
         # Simulate malicious filename that could cause path traversal
         html_content = "<html><head><title>../../../etc/passwd</title></head><body>Test</body></html>"
-        
+
         with patch.object(ingestor.fetcher, 'fetch_article', return_value={
             'content': html_content,
             'success': True,
@@ -614,13 +614,13 @@ class TestSecurityConsiderations:
             'url': 'https://example.com/../../../malicious'
         }):
             result = ingestor.process_urls(["https://example.com/../../../malicious"])
-        
+
         # Should not create files outside the designated directory
         sensitive_paths = [
             "/etc/passwd",
             "../../../etc/passwd",
             str(test_env.temp_dir.parent / "malicious_file")
         ]
-        
+
         for path in sensitive_paths:
             assert not Path(path).exists(), f"Path traversal created: {path}"

@@ -143,7 +143,7 @@ counterprogramming. But presented with so many ways to press an advantage over h
 Sotheby’s moved so far, so fast, that Cerutti was able to improve his own negotiating position with consignors while still maintaining an edge over his rivals across town. It would have been hard for him not to do it. The situation brings to
 mind a quote attributed to McDonald’s genius Ray Kroc. “If my competitor were drowning,” Kroc supposedly said—and I’ve heard more than a few C.E.O.s repeat this quote—“I’d walk over and put a hose right in his mouth.”
 
- 
+
 
 Endnotes…
 -----------
@@ -216,6 +216,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT8T41crW2ka_s54Blbqc=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F22%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F22%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

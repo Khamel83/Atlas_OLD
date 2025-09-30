@@ -51,10 +51,10 @@ Theyâve waited more than a decade in Downey. Theyâve tried all the usu
 
 **Liftoff & Letdown**: The American middle class is floundering, and it has been for decades. The Post examines the mystery of whatâs gone wrong, and shows what the country must focus on to get the economy working for everyone again.
 
-**Chapter 2:** [The devalued American worker](/sf/business/2014/12/14/the-devalued-american-worker/)  
-**Chapter 3:** [The college trap that keeps people poor](/sf/business/2014/12/15/the-college-trap-that-keeps-people-poor/)  
-**Chapter 4:** [A black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)  
-**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)  
+**Chapter 2:** [The devalued American worker](/sf/business/2014/12/14/the-devalued-american-worker/)
+**Chapter 3:** [The college trap that keeps people poor](/sf/business/2014/12/15/the-college-trap-that-keeps-people-poor/)
+**Chapter 4:** [A black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)
+**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)
 **Chapter 6:** [What went wrong, and how to fix it](/sf/business/2014/12/19/fixing-the-broken-talent-flow/)
 
 Those jobs arenât coming back. Not at the old North American Rockwell plant, and not in thousands of similarly socked towns.
@@ -131,10 +131,10 @@ Heâs just not sure how theyâll get there.
 
 *An earlier version of this story misnamed one of the items made at the Rockwell plant. They made moon rockets, not moon landers. This version has been corrected.*
 
-*Story by Jim Tankersley  
-Photos by Bonnie Jo Mount  
-Video by Whitney Shefte  
-Graphic by Darla Cameron, Ted Mellnik  
+*Story by Jim Tankersley
+Photos by Bonnie Jo Mount
+Video by Whitney Shefte
+Graphic by Darla Cameron, Ted Mellnik
 Produced by Emily Yount, Dwuan June*
 
 #### Credits
@@ -181,7 +181,7 @@ The American middle class is floundering, and it has been for decades. The Post 
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

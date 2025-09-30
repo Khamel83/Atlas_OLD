@@ -55,7 +55,7 @@
     <link rel="modulepreload" crossorigin href="/static/chunks/provider-Clg3ybSk.js">
     <link rel="modulepreload" crossorigin href="/static/chunks/useOverlay-SyqV_1C9.js">
     <link rel="stylesheet" crossorigin href="/static/assets/bundle-C7xa2MTN.css">
-    
+
     <link rel="stylesheet" href="/static/assets/ColumnSignup-DrpgVBLr.css">
     <link rel="stylesheet" href="/static/assets/ArticleList-BQzyisWG.css">
     <link rel="stylesheet" href="/static/assets/Header-B87R-6J9.css">

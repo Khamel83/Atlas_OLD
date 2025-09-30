@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Back in 2020 and 2021, as pharmaceutical companies were racing to develop and distribute a Covid-19 vaccine, I wrote a few times about the v
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ozempic
-    
-  
+
+
 
 Back in 2020 and 2021, as pharmaceutical companies were racing to develop and distribute a Covid-19 vaccine, I  wrote a few  times about the vaccine and index funds. The idea was:
 	A global pandemic is bad for business: People are locked down, no one is going to restaurants or flying on planes, lots of companies are losing money.	A broadly available vaccine would be good for business: Cruise-ship companies and airlines and mall owners and every other company would benefit if a vaccine was developed quickly and distributed widely.	Most US publicly traded companies — pharmaceutical companies and cruise-ship companies and mall owners and everyone else — are owned in large part by the same group of big asset managers, index funds and  quasi-indexers and other diversified investors.	Therefore, the universal owners of the stock market should be calling up the pharma companies and saying things like “pool your knowledge to make a vaccine fast, and don’t worry about who gets the credit,” and “once you have a vaccine, throw everything at mass producing it and then distribute it cheap to everyone.” This might cost the pharma companies a lot of money, but it would be good for their owners, the universal shareholders, so they should do it. They should sacrifice their profits for the broader profits of the business world, not out of selflessness but because they work for their owners, who own the whole business world.
@@ -94,37 +94,37 @@ The drugs, which suppress patients’ appetites, have exploded in popularity in 
 I do hope that some universal owners are doing the math. As a rough cut, 24 million Ozempic prescriptions at  $1,000 a month is like $288 billion a year in revenue to drug makers, with high margins. I suppose by 2035 a lot of that pricing probably gets competed down, though; also surely some of it will be paid for by insurance companies (also owned by universal shareholders!).
 Meanwhile the average Ozempic user probably isn’t cutting her budget for groceries, cigarettes, alcohol, Instagram, etc. by $1,000 a month? I would guess? Maybe it is a positive? I do think that it would be a crowning achievement of postmodern capitalism if the corporate world, in aggregate, was able to make more money by charging people for not consuming stuff than it does by selling them stuff. But in any case it seems like something for universal shareholders to think about.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff
-    
-  
+
+
 
 A simple version of the charges against Sam Bankman-Fried would be something like “people deposited money at his crypto exchange, FTX, and he stole it and gave it to his crypto trading firm, Alameda Research, which  squandered it on dumb crypto trades and endorsement deals.”
 But this story is not exactly right. There was not money sitting in customer accounts that was then transferred to Alameda accounts and squandered. FTX was a futures exchange; it  did not keep money in a box for customers. The money in your FTX account was just money that FTX owed you. Nor did Alameda need to steal the money; FTX was a leveraged futures exchange, and traders like Alameda could, in the ordinary course of business, borrow money from FTX based on their crypto positions. The problem, ultimately, at FTX, was that it owed customers a lot of money, but it couldn’t pay them, because Alameda owed FTX a lot of money, but it couldn’t pay it, because it had squandered the money on dumb crypto trades and endorsement deals.
@@ -179,11 +179,11 @@ Also, again, even if everything at FTX was working the way it was supposed to, t
 But FTX lied about how much money was in the backstop fund, Wang said. In court we saw the code that generated the fake number published on the website: it took the daily trading volume on FTX, multiplied it by a random number, divided it by a billion, and added it to the existing number displayed on the site. It had nothing to do with the actual amount of money in the insurance fund.
 When she says “a random number,” she means literally “numpy.random.normal(7500, 3000).” (Molly White tweeted the code snippet that prosecutors displayed.) If you are reassuring customers that their money is safe because you have a fund of cash to cover any losses, and you display the amount of cash in the fund on your website, and the number you display comes from a random number generator, that looks like fraud!
 
-  
-    
+
+
       Subpoena Elon’s Cooperation
-    
-  
+
+
 
 For a while, I have  pondered a small but annoying  question: Why hasn’t the US Securities and Exchange Commission sued Elon Musk for violating disclosure rules when he first bought up Twitter Inc. stock? In early 2022, Musk started buying Twitter stock; by March 14 he owned more than 5% of the company. Under SEC rules, that meant he had to disclose his position within 10 days, by March 24. In fact he  waited until April 4 to disclose his position, an extra 11 days. During those 11 days, he bought a bunch more stock, getting to 9.1% of the company. Once he announced his position, late, on April 4, the stock jumped, as the market correctly anticipated that he would end up buying all of Twitter at a premium. By waiting to disclose, he was able to buy more stock in secret, before the price rose; I have estimated that this saved him about $143 million.
   [4]
@@ -217,11 +217,11 @@ Musk: [obscenity]
 I do not know what they were hoping to get out of that interview. But whatever it was, they tried again two weeks later. And then a year later they asked for another interview, because now they have reviewed more documents and I suppose have more damning evidence that … Musk … filed the form late? I kind of sympathize with Musk’s apparent view that this is a waste of time.
 To be fair, he SEC is looking into “potential violations of various provisions of the federal securities laws,” and while the 10-day thing is the most obvious violation it is perhaps not the most important. Musk originally disclosed his position on Schedule 13G (for passive investors), and I think there’s quite a strong case that he should have disclosed it on Schedule 13D (for investors looking to influence the company), and that is a more nuanced factual question that probably requires reading documents and asking Musk about his intent. Also there were lots of other public statements about Musk’s run at Twitter, particularly on Musk’s own Twitter account, and I suppose the SEC might be interested in whether any of them were untrue or misleading or whatever. Might as well deal with all of these issues rigorously, and all together, so, sure, keep reading documents and hauling Musk back in to ask him what he was thinking.
 
-  
-    
+
+
       X ad revenue
-    
-  
+
+
 
 When I first graduated from college, and was broke, I got a lot of phone calls from fundraisers for my college, asking me to donate. I was like “you have billions of dollars, and I have tens of dollars, and you want me to give you money?” And they were like “okay, fair, but we don’t really want the money. What we want is to be able to report that a high percentage of recent alumni donate, because that makes us look good. If you send us a dollar, then you count as a donor, and we juice our numbers.” I never did it, or found that rationale all that compelling (look good to whom?), but I suppose it was my first exposure to accounting manipulation.
 Similarly, when Elon Musk took over Twitter Inc., renamed it X, and made it unpleasant, a lot of advertisers apparently stopped advertising on Twitter. And then when Linda Yaccarino became the chief executive officer of X and called up all the advertisers and asked them to come back, I assume many of them said something to the effect of “ugh, no, look at it.” And I assume she said, well, look, I’d like to be able to say that most of our advertisers returned, so if you spend ten dollars on ads, I get to check that box and it doesn’t cost you very much. And some of the advertisers were like “okay fine here’s literally ten dollars.”  Media Matters reports:
@@ -234,19 +234,19 @@ Visa and Nissan are similarly spending just a fraction of what they spent pre-Mu
 
 I wonder if you can pay $10 to target Twitter ads just at Elon Musk, so he sees that you are still advertising and doesn’t  get mad at you.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How Schonfeld fell into  Millennium’s embrace. China’s Rich Entrust Total Strangers to  Sneak Cash Out of the Country. The Owner of the NYSE Wants to  Expedite Your Mortgage. Goldin Awarded 2023  Economics Nobel Prize for Pay-Gap Work. Nelson Peltz Boosts  Disney Stake, Seeks Board Seats. ExxonMobil’s talks with Pioneer herald ‘new era’ of  shale consolidation. Investor in  Evergrande’s Electric Car Unit to Pause Payments. Ex-SPAC Car Seller  Shift Will Shut Down, File for Bankruptcy.  Yellow’s Bankruptcy Sparks a Battle to Reset Trucking Competition.  Arm Wins Bullish Wall Street Reviews as Valuation Seen Supported. US law firms ask staff to spend  more time in the office. A Fake Loan Could Mean Real Trouble for  George Santos. “One locked-out man got into a physical skirmish with a security guard” trying to hear  Kim Kardashian speak at a private equity conference. “Public accounting ‘was pretty much a  death sentence for my dreams.’” “The pastor had been working as a fence, the middleman buying stolen goods from thieves and reselling them for a profit, according to prosecutors.” Parking in New York City Really Is Worse Than Ever.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Except for, like, Zoom Video Communications Inc.? Obviously not *every* company benefits in the same way.
 
 
-  [2] For what it’s worth, when I said “blowout” what I meant was “situations in which a customer’s position falls below margin requirements, and so you blow them out by selling their position.” 
+  [2] For what it’s worth, when I said “blowout” what I meant was “situations in which a customer’s position falls below margin requirements, and so you blow them out by selling their position.”
 
 
   [3] Also, I mean, the Celsius guy was  very much arrested. That happened after Bankman-Fried’s January Substack post but, come on, we all knew it was coming.
@@ -258,48 +258,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] The title of this section is a reference to an  obliquely rude tweet that Musk once wrote about the SEC. He says lots of rude things about the SEC.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -310,46 +310,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjmn8r.5huu/eb9a0686.gif" alt="" border="0" /></a>

@@ -182,7 +182,7 @@ window.guardian.config.ophan.browserId = getCookieValue("bwid");
 					<!-- Comscore Identifier: comscorekw=commentisfree -->
                     <img src="https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=commentisfree" />
                 </noscript>
-				
+
                 <!-- The following script does not vary between browsers that support modules and those that do not -->
 <script defer src="https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6%2Ces7%2Ces2017%2Ces2018%2Ces2019%2Cdefault-3.6%2CHTMLPictureElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CURLSearchParams%2Cfetch%2CNodeList.prototype.forEach%2Cnavigator.sendBeacon%2Cperformance.now%2CPromise.allSettled&flags=gated&callback=guardianPolyfilled&unknown=polyfill&cacheClear=1"></script>
 <script type="module" src="https://assets.guim.co.uk/assets/frameworks.client.web.08a4f0f5eb5f6aab0bee.js"></script>

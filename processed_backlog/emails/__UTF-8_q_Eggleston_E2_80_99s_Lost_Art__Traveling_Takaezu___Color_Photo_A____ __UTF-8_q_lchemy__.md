@@ -27,7 +27,7 @@ But first, here’s Julie on a major ceramicist whose work is building momentum�
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 The Takaezu Boomlet
 -------------------
@@ -120,7 +120,7 @@ The secret of the dye transfer process was in the color separation. Though it fr
 Stricherz had the control to make it extremely flexible, and produce a strikingly different print from one hour to the next. Imagine the joy that Eggleston must have felt to work alongside him tweaking the colors, tones, and highlights. “You can radically change the print,” Stricherz said. “What you’re trying to do is make a print that looks as close to that transparency as can be done. And that’s really what William Eggleston wants. He wants a faithful reproduction of the transparency at full
 frame.”
 
- 
+
 
 Endnotes…
 -----------
@@ -185,7 +185,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVhysWDKztdwTkrded-4w=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

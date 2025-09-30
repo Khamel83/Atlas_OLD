@@ -7,14 +7,14 @@
 	=utf-8BIHRoZSBSdWxlcw===_Wed,_04_Dec_2024_18-36-48_+0000_19392f606672d3e5.eml
 **Processed:** 2025-08-24T19:13:06.503350
 
-Money Stuff 
- A plausible model of traders at big investment banks might be: They are 
-playing a game of poker with their customers, in which they selectiv 
+Money Stuff
+ A plausible model of traders at big investment banks might be: They are
+playing a game of poker with their customers, in which they selectiv
 
 
- 
+
 <https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- 
+
 <https://sli.bloomberg.com/click?s=825881&stpe=default&li=11917799&m=21d6dea82d6b16615cf44233be620525&p=12042024>
 
 
@@ -23,235 +23,235 @@ Citi sales traders
 
 A plausible model of traders at big investment banks might be:
 
- * They are playing a game of poker with their customers, in which they 
-selectively use and withhold information in order to make the bank more money. 
-(And the customers do the same to them.) 
- * Some of the stuff that the traders do would look, to an outsider, 
-“dishonest.” Because it is! They arenot in a game of perfect information; they 
-do not have an obligation to tell their customers everything that might be of 
-interest to them. The essential fact of trading isadverse selection 
+ * They are playing a game of poker with their customers, in which they
+selectively use and withhold information in order to make the bank more money.
+(And the customers do the same to them.)
+ * Some of the stuff that the traders do would look, to an outsider,
+“dishonest.” Because it is! They arenot in a game of perfect information; they
+do not have an obligation to tell their customers everything that might be of
+interest to them. The essential fact of trading isadverse selection
 <https://www.bloomberg.com/opinion/articles/2024-05-14/amc-is-back-too?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-; the reason that a trade happens is, often, that the two sides of the trade 
-have different information. The bank traders are in the business of making 
-trades happen; if everyone always had the same information their business would 
-be harder. 
- * Some of this stuff — bluffing and withholding and shading information — is 
-acceptable under the rules of the game that they are playing. (In many cases, 
-for instance, a customer would not expect the bank to tell her the name of the 
-customer on the other side of a trade that the bank is arranging.) Some of the 
-stuff is unacceptable. (Insider trading is illegal.) 
- * And some stuff is in a gray area. I used to write 
+; the reason that a trade happens is, often, that the two sides of the trade
+have different information. The bank traders are in the business of making
+trades happen; if everyone always had the same information their business would
+be harder.
+ * Some of this stuff — bluffing and withholding and shading information — is
+acceptable under the rules of the game that they are playing. (In many cases,
+for instance, a customer would not expect the bank to tell her the name of the
+customer on the other side of a trade that the bank is arranging.) Some of the
+stuff is unacceptable. (Insider trading is illegal.)
+ * And some stuff is in a gray area. I used to write
 <https://www.bloomberg.com/opinion/articles/2015-12-08/when-can-bond-traders-lie-to-their-customers-?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- alot 
+ alot
 <https://www.bloomberg.com/view/articles/2018-05-04/bond-traders-can-lie-to-customers-again?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- about USprosecutions 
+ about USprosecutions
 <https://www.bloomberg.com/opinion/articles/2015-09-08/nomura-bond-traders-bought-low-and-sold-high?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- ofbond traders 
+ ofbond traders
 <https://www.bloomberg.com/view/articles/2018-06-06/maybe-lying-about-bond-prices-is-fine?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- who lied to their customers about the prices they had paid for bonds: They’d 
-say “I paid 90 for this and I can sell it to you at 90.25,” when really they 
-had paid 87. US courts were divided on the question of whether that was 
-illegal: Some of these traders were convicted and had their convictions 
-reversed on appeal. My readers were also divided, with some people emailing to 
-say “no that’s obviously illegal come on” and others emailing to say “no people 
-do that all the time, that’s fine.” 
- * There is no a priori way to know which is which. Basically if everyone in 
-the market — the traders at the bank, the traders at competing banks, and the 
-customers — all think that some sort of bluffing or misdirection is okay, then 
-it is. If everyone thinks it isn’t, then it isn’t. If opinions vary, then … I 
-don’t know? Ideally you’d get everyone together in a room to work out “we’re 
-allowed to lie about X, Y and Z but not A, B and C,” but that is hard for 
-various reasons. [1]  <> Often the practical answer is that, if regulators or 
-prosecutors think it’s bad, then it’s not allowed. 
- * In particular, if you are a trader at a bank, you might not know what is 
-allowed, but you really do need to figure it out. You get some sort of general 
-compliance training that is like “we always act ethically and put our 
-customers’ interests first,” you get told some specific things that you are not 
-allowed to do (because people havepreviously gotten in trouble for doing them), 
-and then you go back to your desk and watch what the senior traders do. If the 
-senior traders are all manipulating Libor, then youlearn to manipulate Libor 
-<https://graphics.wsj.com/libor-unraveling-tom-hayes/>. And then, sometimes, 
+ who lied to their customers about the prices they had paid for bonds: They’d
+say “I paid 90 for this and I can sell it to you at 90.25,” when really they
+had paid 87. US courts were divided on the question of whether that was
+illegal: Some of these traders were convicted and had their convictions
+reversed on appeal. My readers were also divided, with some people emailing to
+say “no that’s obviously illegal come on” and others emailing to say “no people
+do that all the time, that’s fine.”
+ * There is no a priori way to know which is which. Basically if everyone in
+the market — the traders at the bank, the traders at competing banks, and the
+customers — all think that some sort of bluffing or misdirection is okay, then
+it is. If everyone thinks it isn’t, then it isn’t. If opinions vary, then … I
+don’t know? Ideally you’d get everyone together in a room to work out “we’re
+allowed to lie about X, Y and Z but not A, B and C,” but that is hard for
+various reasons. [1]  <> Often the practical answer is that, if regulators or
+prosecutors think it’s bad, then it’s not allowed.
+ * In particular, if you are a trader at a bank, you might not know what is
+allowed, but you really do need to figure it out. You get some sort of general
+compliance training that is like “we always act ethically and put our
+customers’ interests first,” you get told some specific things that you are not
+allowed to do (because people havepreviously gotten in trouble for doing them),
+and then you go back to your desk and watch what the senior traders do. If the
+senior traders are all manipulating Libor, then youlearn to manipulate Libor
+<https://graphics.wsj.com/libor-unraveling-tom-hayes/>. And then, sometimes,
 you go to prison.
-Anyway Bloomberg’s Cathy Chan reports on Citigroup Inc.’s former Asia 
-high-touch equities desk 
+Anyway Bloomberg’s Cathy Chan reports on Citigroup Inc.’s former Asia
+high-touch equities desk
 <https://www.bloomberg.com/news/articles/2024-12-03/citigroup-haunted-for-years-after-firing-traders-in-hong-kong-singapore-tokyo?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
 , which it fired in 2019:
 
-Five years on and several employment lawsuits later, Citigroup is still 
-dealing with the fallout from its decision to dismantle its Asia high-touch 
-equities sales trading desk, where traders bought and sold stocks for clients 
-via phone calls, electronic messaging and other person-to-person interactions. 
-The saga has put a spotlight on a question facing Citigroup and its peers 
-around the world: Who should take the blame when banks get caught breaking the 
+Five years on and several employment lawsuits later, Citigroup is still
+dealing with the fallout from its decision to dismantle its Asia high-touch
+equities sales trading desk, where traders bought and sold stocks for clients
+via phone calls, electronic messaging and other person-to-person interactions.
+The saga has put a spotlight on a question facing Citigroup and its peers
+around the world: Who should take the blame when banks get caught breaking the
 rules?
 
-For at least a decade, the [Hong Kong Securities and Futures Commission] said, 
-Citigroup’s traders misrepresented the bank’s own financial interest in stock 
-trades as client interest when they were trying to drum up business. In 
-essence, they had at times indicated there was real customer demand to buy and 
+For at least a decade, the [Hong Kong Securities and Futures Commission] said,
+Citigroup’s traders misrepresented the bank’s own financial interest in stock
+trades as client interest when they were trying to drum up business. In
+essence, they had at times indicated there was real customer demand to buy and
 sell specific stocks when it didn’t exist.
 
-The high-touch sales trading desk’s job was to get customers to do big stock 
-trades, with particular “pressure to generate more transactions in ten of Hong 
-Kong’s largest stocks under a ‘Citi 10’ initiative.” It turns out that if you 
-call customers and say “hey would you like to trade some big stocks,” they will 
-tend to say no, but if you call them and say “hey I have a big motivated seller 
-of Stock XYZ on the other line, do you want some,” they might say yes. So 
-instead of calling clients and saying “we’d like you to trade these 10 stocks 
-with us,” the desk would send them “indications of interest” (IOIs) suggesting 
-thatother clients wanted to trade those 10 stocks, even when that wasn’t true. 
-And then the clients who got the IOIs would do trades with Citi, so the system 
+The high-touch sales trading desk’s job was to get customers to do big stock
+trades, with particular “pressure to generate more transactions in ten of Hong
+Kong’s largest stocks under a ‘Citi 10’ initiative.” It turns out that if you
+call customers and say “hey would you like to trade some big stocks,” they will
+tend to say no, but if you call them and say “hey I have a big motivated seller
+of Stock XYZ on the other line, do you want some,” they might say yes. So
+instead of calling clients and saying “we’d like you to trade these 10 stocks
+with us,” the desk would send them “indications of interest” (IOIs) suggesting
+thatother clients wanted to trade those 10 stocks, even when that wasn’t true.
+And then the clients who got the IOIs would do trades with Citi, so the system
 worked.
 
-Was this allowed? Well, no, said the SFC. You can see why it wouldn’t be. The 
-IOIs were fake, so this stuff was dishonest. “Clients generally prefer 
-transactions on an agency basis (ie, natural liquidity) over facilitation,”said 
-the SFC 
+Was this allowed? Well, no, said the SFC. You can see why it wouldn’t be. The
+IOIs were fake, so this stuff was dishonest. “Clients generally prefer
+transactions on an agency basis (ie, natural liquidity) over facilitation,”said
+the SFC
 <https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=22PR6>
- when it fined Citi in 2022, so this wasmaterially dishonest: The clients 
-wanted to do trades where the bank matched them up with other clients, rather 
-than trades where the bank itself was on the other side, so they were misled 
-about something that was important to them. Wetalked about this last year 
+ when it fined Citi in 2022, so this wasmaterially dishonest: The clients
+wanted to do trades where the bank matched them up with other clients, rather
+than trades where the bank itself was on the other side, so they were misled
+about something that was important to them. Wetalked about this last year
 <https://www.bloomberg.com/opinion/articles/2023-03-07/ftx-wants-its-bitcoins-back-from-grayscale?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-, when the SFC banned one of the traders. Citi had to pay fines, and it 
+, when the SFC banned one of the traders. Citi had to pay fines, and it
 naturally fired the people who did the illegal stuff.
 
-And how could it not? If you don’t fire the people who did the illegal stuff, 
-then that suggests that youcondone it. Citi’s problem, as a bank, is how to 
-convey to employees “you are not allowed to send fake IOIs.” I suppose that it 
-is technically possible to keep everyone around and send out a memo saying “new 
-rule, no fake IOIs, we understand that some of you have been sending out fake 
-IOIs and that’s okay, you didn’t know, but from now on don’t do it.” But that 
-is never really what regulators want to hear — to the SFC, this was not “new 
-rule, no fake IOIs” but rather “how could you not have known this was 
+And how could it not? If you don’t fire the people who did the illegal stuff,
+then that suggests that youcondone it. Citi’s problem, as a bank, is how to
+convey to employees “you are not allowed to send fake IOIs.” I suppose that it
+is technically possible to keep everyone around and send out a memo saying “new
+rule, no fake IOIs, we understand that some of you have been sending out fake
+IOIs and that’s okay, you didn’t know, but from now on don’t do it.” But that
+is never really what regulators want to hear — to the SFC, this was not “new
+rule, no fake IOIs” but rather “how could you not have known this was
 dishonest?” — so you can understand why Citi had to fire the people who did it.
 
-On the other hand, those people have a genuine case that they didn’t know. 
+On the other hand, those people have a genuine case that they didn’t know.
 Chan:
 
-At least three former Citigroup equity sales traders have filed lawsuits 
-against the bank, accusing it of conducting unfair and hostile internal 
-investigations and scapegoating them after regulators identified the 
+At least three former Citigroup equity sales traders have filed lawsuits
+against the bank, accusing it of conducting unfair and hostile internal
+investigations and scapegoating them after regulators identified the
 problematic market practices. …
 
-Around two months ago, Citigroup and one of the fired traders settled 
+Around two months ago, Citigroup and one of the fired traders settled
 <https://www.bloomberg.com/news/articles/2024-10-03/ex-citi-asia-desk-trader-settles-case-after-unfair-dismissal-win?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- a UK employmentlawsuit 
+ a UK employmentlawsuit
 <https://www.bloomberg.com/news/articles/2023-10-05/ex-citi-banker-sues-firm-for-firing-during-dishonest-decade?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-, after a tribunal judgeruled 
+, after a tribunal judgeruled
 <https://www.bloomberg.com/news/articles/2023-12-12/ex-citigroup-trader-wins-unfair-dismissal-london-lawsuit-over-asia-trades?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- that the trader had beenunfairly 
+ that the trader had beenunfairly
 <https://assets.publishing.service.gov.uk/media/66191396c1d297c6ad1dfe57/Mr_I_Weir_-v-_Citigroup_Global_Markets_Limited_-_3206911_2021_-_Judgment.pdf>
  dismissed.
 
-That trader argued that 
+That trader argued that
 <https://www.bloomberg.com/news/articles/2023-10-05/ex-citi-banker-sues-firm-for-firing-during-dishonest-decade?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- “there was scarce compliance training while he was in his role from 2014 and 
-had raised concerns numerous times about the processes.” Nobody told him that 
-he wasn’t allowed to do this, he said, and a court agreed.Citi wasn’t allowed 
-to do it, so it had to fire him, but he didn’t know that he wasn’t allowed to 
+ “there was scarce compliance training while he was in his role from 2014 and
+had raised concerns numerous times about the processes.” Nobody told him that
+he wasn’t allowed to do this, he said, and a court agreed.Citi wasn’t allowed
+to do it, so it had to fire him, but he didn’t know that he wasn’t allowed to
 do it, so Citi wasn’t allowed to fire him.
 
- 
+
 <https://sli.bloomberg.com/click?s=868432&stpe=default&li=11917799&m=21d6dea82d6b16615cf44233be620525&p=12042024>
 
- 
+
 <https://sli.bloomberg.com/click?s=868432&stpe=default&li=11917799&m=21d6dea82d6b16615cf44233be620525&p=12042024>
 
 Sentiment analysis
 
-Is finance good? I would naively have imagined that, if you went out and asked 
-people that question, the answers they would give would depend on the current 
+Is finance good? I would naively have imagined that, if you went out and asked
+people that question, the answers they would give would depend on the current
 facts. Like:
 
- * If the economy was booming, people would mostly say “oh yes finance is 
-good.” 
- * If there was just a big banking crisis, a lot of people would say “no 
+ * If the economy was booming, people would mostly say “oh yes finance is
+good.”
+ * If there was just a big banking crisis, a lot of people would say “no
 finance is terrible, those banksters are evil, and the financial industry is a
-great vampire squid 
+great vampire squid
 <https://www.rollingstone.com/politics/politics-news/the-great-american-bubble-machine-195229/>
- wrapped around the face of humanity, relentlessly jamming its blood funnel 
+ wrapped around the face of humanity, relentlessly jamming its blood funnel
 into anything that smells like money.”
-When finance has been doing well, people like it; when it has been doing 
+When finance has been doing well, people like it; when it has been doing
 poorly, they don’t.
 
 Or that was my theory, but I am apparently, entertainingly, wrong. Here is “
-Does Finance Benefit Society? A Language Embedding Approach 
-<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3655263>,” by Manish Jha, 
-Hongyi Liu and Asaf Manela, finding that actually “popular sentiment toward 
+Does Finance Benefit Society? A Language Embedding Approach
+<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3655263>,” by Manish Jha,
+Hongyi Liu and Asaf Manela, finding that actually “popular sentiment toward
 finance” is a …leading indicator?
 
-We measure popular sentiment toward finance by applying a large language model 
-to millions of books published in eight countries over hundreds of years. We 
-extensively validate this measure both internally and externally. We document 
-persistent differences in finance sentiment across countries despite ample 
-time-series variation. Books written in the languages of more capitalist 
-countries discuss finance in a more positive context. Finance sentiment is 
-correlated with survey-based measures of financial market participation and 
-income inequality. Finance sentiment declines one year before rather than after 
-financial crises. Positive shocks to finance sentiment are followed by higher 
+We measure popular sentiment toward finance by applying a large language model
+to millions of books published in eight countries over hundreds of years. We
+extensively validate this measure both internally and externally. We document
+persistent differences in finance sentiment across countries despite ample
+time-series variation. Books written in the languages of more capitalist
+countries discuss finance in a more positive context. Finance sentiment is
+correlated with survey-based measures of financial market participation and
+income inequality. Finance sentiment declines one year before rather than after
+financial crises. Positive shocks to finance sentiment are followed by higher
 output and credit growth.
 
-That is, if people (or, rather, writers of books) say “oh yes finance is 
+That is, if people (or, rather, writers of books) say “oh yes finance is
 good,” that implies that the economywill boom:
 
-Shocks to finance sentiment lead to higher future output and credit growth. … 
-We find that a one percent improvement in finance sentiment leads to a gradual 
-and persistent increase in GDP growth of about 20 basis points in each of the 
-ten years following the shock. … We find that some, but not all, of the 
-positive effects of finance sentiment on output growth can be attributed to its 
+Shocks to finance sentiment lead to higher future output and credit growth. …
+We find that a one percent improvement in finance sentiment leads to a gradual
+and persistent increase in GDP growth of about 20 basis points in each of the
+ten years following the shock. … We find that some, but not all, of the
+positive effects of finance sentiment on output growth can be attributed to its
 positive effect on credit growth.
 
-To the extent that these impulse responses identify a causal effect of finance 
-sentiment, they suggest that positive public perceptions of the financial 
+To the extent that these impulse responses identify a causal effect of finance
+sentiment, they suggest that positive public perceptions of the financial
 sector indeed benefit society.
 
-Whereas if people (book writers) say “no finance is terrible,” that implies 
+Whereas if people (book writers) say “no finance is terrible,” that implies
 that therewill be a financial crisis:
 
-Finance sentiment drops one year before periods of banking distress … but 
-remains relatively flat in their aftermath. Consistent with the idea that a 
-deterioration of sentiment toward finance can transform a mild recession into a 
-severe financial crisis … we find that declines in finance sentiment predict a 
-higher probability of banking distress in the following year, even after 
-controlling for lags of credit growth. ... Note that delays in the publication 
-of books would strengthen the finding that changes in financial sentiment 
-precede periods of banking distress. However ... these publication lags are 
+Finance sentiment drops one year before periods of banking distress … but
+remains relatively flat in their aftermath. Consistent with the idea that a
+deterioration of sentiment toward finance can transform a mild recession into a
+severe financial crisis … we find that declines in finance sentiment predict a
+higher probability of banking distress in the following year, even after
+controlling for lags of credit growth. ... Note that delays in the publication
+of books would strengthen the finding that changes in financial sentiment
+precede periods of banking distress. However ... these publication lags are
 likely modest, typically lasting less than a year
 
-Honestly an amazing result. I suppose it suggests various trades (not 
-investing advice!). If you read a new novel that is like “the banksters are 
-evil,” thatpredicts a banking crisis, and you should sell bank stocks. If you 
-run a macro hedge fund, you should probably get an LLM to read all of the new 
+Honestly an amazing result. I suppose it suggests various trades (not
+investing advice!). If you read a new novel that is like “the banksters are
+evil,” thatpredicts a banking crisis, and you should sell bank stocks. If you
+run a macro hedge fund, you should probably get an LLM to read all of the new
 books and see if they predict a bank crisis or strong economic growth.
 
-Or, if you work in publishing, you can read all the new books before anyone 
-else, so you can get an early sense of the vibes. If all the new books think 
-that hedge funds are evil, then you have advance warning of a financial crisis, 
-maybe. (“Publication lags are likely modest, typically lasting less than a 
-year,” but that’s a long time!) Can you trade on that information? Can yousell 
-it? Join an expert network and do $10,000-an-hour consultations with hedge 
-funds where you are like “all the literary novelists are pretty down on 
-financial capitalism this year” and the hedge funds use that to short the 
-banking sector? Is this insider trading? Buying short-dated out-of-the-money 
-put options on Goldman Sachs because you had insider access to not-yet-public 
-poetry collections? [2]  <> It is difficult to get the news from poems 
+Or, if you work in publishing, you can read all the new books before anyone
+else, so you can get an early sense of the vibes. If all the new books think
+that hedge funds are evil, then you have advance warning of a financial crisis,
+maybe. (“Publication lags are likely modest, typically lasting less than a
+year,” but that’s a long time!) Can you trade on that information? Can yousell
+it? Join an expert network and do $10,000-an-hour consultations with hedge
+funds where you are like “all the literary novelists are pretty down on
+financial capitalism this year” and the hedge funds use that to short the
+banking sector? Is this insider trading? Buying short-dated out-of-the-money
+put options on Goldman Sachs because you had insider access to not-yet-public
+poetry collections? [2]  <> It is difficult to get the news from poems
 <https://www.goodreads.com/quotes/9565-it-is-difficult-to-get-the-news-from-poems-yet>
-, but it is apparently notimpossible with good enough artificial intelligence 
+, but it is apparently notimpossible with good enough artificial intelligence
 tools.
 
-I suppose there is a less jokey interpretation of this paper that goes 
+I suppose there is a less jokey interpretation of this paper that goes
 something like this:
 
- * Society is a complicated thing. 
- * Finance is a meta-layer on top of society that encodes, in some complicated 
-and impossible-to-reconstruct way, the attitudes and structures of society. 
- * Books are also a meta-layer that encode, in some different complicated way, 
-the attitudes and structures of society. 
- * Large language models are good at figuring out these encodings, and 
+ * Society is a complicated thing.
+ * Finance is a meta-layer on top of society that encodes, in some complicated
+and impossible-to-reconstruct way, the attitudes and structures of society.
+ * Books are also a meta-layer that encode, in some different complicated way,
+the attitudes and structures of society.
+ * Large language models are good at figuring out these encodings, and
 translating between them.
-“A society that is cheerful about credit will have good access to credit” 
-seems plausible, and I guess maybe that cheerfulness shows up in books before 
+“A society that is cheerful about credit will have good access to credit”
+seems plausible, and I guess maybe that cheerfulness shows up in books before
 it does in credit markets.
 
 
@@ -259,73 +259,73 @@ HPS
 
 My half-joking model of private credit is something like:
 
- * There is a huge boom in private credit, leveraged finance bankers are 
-getting huge pay packages to jump to private credit, and traditional asset 
-managers are nakedly desperate to buy private credit managers to get into the 
-game. 
- * Therefore, I wrote last month 
+ * There is a huge boom in private credit, leveraged finance bankers are
+getting huge pay packages to jump to private credit, and traditional asset
+managers are nakedly desperate to buy private credit managers to get into the
+game.
+ * Therefore, I wrote last month
 <https://www.bloomberg.com/opinion/articles/2024-11-05/algorithmic-pricing-for-kale?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-, “if you have spent 20 minutes doing leveraged finance at a bank, now is the 
-time for you to start your own private credit firm.” 
- * The problem, though, is that with all the money flowing into the strategy, 
-it is hard to do it well. Iwrote in October 
+, “if you have spent 20 minutes doing leveraged finance at a bank, now is the
+time for you to start your own private credit firm.”
+ * The problem, though, is that with all the money flowing into the strategy,
+it is hard to do it well. Iwrote in October
 <https://www.bloomberg.com/opinion/articles/2024-10-24/apple-s-card-was-confusing?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-: “A huge boom in private credit is a difficult thing for a private credit 
-manager to manage: There’s so much money coming in, so many competitors getting 
-into the space, that it’s hard to stick to tough underwriting criteria and do 
-only the good deals. You have to do so many deals to keep up, and they can’t 
-all be good.” 
- * So, really, if you ever spent 20 minutes doing leveraged finance, two years 
-agowas the time to start a private credit firm, and now is the time to sell it. 
-When I said that in October, I was writing about rumors that HPS Investment 
-Partners, the private credit firm, was looking to sell itself to BlackRock Inc. 
-I quoted aFinancial Times article 
-<https://www.ft.com/content/e7872f36-1aa4-4a98-8225-d6ed0cf2934b> quoting an 
+: “A huge boom in private credit is a difficult thing for a private credit
+manager to manage: There’s so much money coming in, so many competitors getting
+into the space, that it’s hard to stick to tough underwriting criteria and do
+only the good deals. You have to do so many deals to keep up, and they can’t
+all be good.”
+ * So, really, if you ever spent 20 minutes doing leveraged finance, two years
+agowas the time to start a private credit firm, and now is the time to sell it.
+When I said that in October, I was writing about rumors that HPS Investment
+Partners, the private credit firm, was looking to sell itself to BlackRock Inc.
+I quoted aFinancial Times article
+<https://www.ft.com/content/e7872f36-1aa4-4a98-8225-d6ed0cf2934b> quoting an
 HPS adviser on the private credit boom:
 
-“If you’re caught in a tidal wave, your boat will go faster,” one HPS adviser 
-said. “If you were small and important before you are bigger and important 
+“If you’re caught in a tidal wave, your boat will go faster,” one HPS adviser
+said. “If you were small and important before you are bigger and important
 today and all you had to do was show up to work.”
 
-But when can you stop showing up to work? This week BlackRock did indeed 
-announce 
+But when can you stop showing up to work? This week BlackRock did indeed
+announce
 <https://www.bloomberg.com/news/articles/2024-12-03/blackrock-to-buy-credit-firm-hps-in-12-billion-all-stock-deal?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- that it is buying HPS, for $12 billion,making its three co-founders 
+ that it is buying HPS, for $12 billion,making its three co-founders
 <https://www.bloomberg.com/news/articles/2024-12-03/fink-mints-more-fortunes-bigger-than-his-in-private-markets-push?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- billionaires. Certainly ifI had founded a private credit firm and sold it to 
-BlackRock this week, following my half-joking model I would (1) congratulate 
-myself for my market timing and (2) ride off into the sunset with my billions 
+ billionaires. Certainly ifI had founded a private credit firm and sold it to
+BlackRock this week, following my half-joking model I would (1) congratulate
+myself for my market timing and (2) ride off into the sunset with my billions
 of dollars.
 
-This is not, however, what BlackRock wants, or for all I know even what the 
-HPS founders want. Bloomberg’sSilla Brush reports 
+This is not, however, what BlackRock wants, or for all I know even what the
+HPS founders want. Bloomberg’sSilla Brush reports
 <https://www.bloomberg.com/news/articles/2024-12-04/blackrock-s-new-deals-task-fink-with-hanging-onto-key-talent?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
 :
 
-HPS leadership will run a combined private financing unit at BlackRock, which 
+HPS leadership will run a combined private financing unit at BlackRock, which
 will have about $220 billion of private credit assets.
 
-There’s a $675 million retention package for roughly 800 HPS employees, and 
-founders Scott Kapnick, Scot French and Michael Patterson will join BlackRock’s 
+There’s a $675 million retention package for roughly 800 HPS employees, and
+founders Scott Kapnick, Scot French and Michael Patterson will join BlackRock’s
 global executive committee.
 
 Kapnick, the CEO of HPS, will serve as an observer of BlackRock’s board.
 
-On top of the $12 billion that BlackRock will pay HPS’ owners, including the 
-top three executives, they stand to make additional payouts of up to 1.6 
+On top of the $12 billion that BlackRock will pay HPS’ owners, including the
+top three executives, they stand to make additional payouts of up to 1.6
 million more BlackRock shares in five years depending on financial performance.
 
-“It’s all stock,” Kapnick told analysts. “You don’t need to know anything more 
+“It’s all stock,” Kapnick told analysts. “You don’t need to know anything more
 than that from me about what I think about this transaction.”
 
-I mean, if I were timing the private credit market, shifting my ownership of a 
-private credit firm into ownership of a giant diversified asset manager might 
-look like a good trade, but I get his point. They’re going to keep coming to 
+I mean, if I were timing the private credit market, shifting my ownership of a
+private credit firm into ownership of a giant diversified asset manager might
+look like a good trade, but I get his point. They’re going to keep coming to
 work:
 
-“While this path is quicker to market than a 10-year organic build, it does 
-come with execution risk as money, power and integration issues” arise over 
-time, Evercore ISI’s Glenn Schorr wrote in a note Tuesday, adding that this is 
+“While this path is quicker to market than a 10-year organic build, it does
+come with execution risk as money, power and integration issues” arise over
+time, Evercore ISI’s Glenn Schorr wrote in a note Tuesday, adding that this is
 a people-led business whose “assets go up and down the elevator every day.”
 
 
@@ -333,179 +333,179 @@ Memecoins
 
 Sure okay <https://www.ft.com/content/66fe7655-704a-407f-8f20-a3f081296a36>:
 
-There are millions of memecoins, which can easily be set up using online 
-memecoin generators. They have no business model, cash flow or fundamental 
-value, and do not give their owners a share of any physical asset. Instead, 
-these highly volatile tokens rely on their popularity among traders to generate 
+There are millions of memecoins, which can easily be set up using online
+memecoin generators. They have no business model, cash flow or fundamental
+value, and do not give their owners a share of any physical asset. Instead,
+these highly volatile tokens rely on their popularity among traders to generate
 liquidity.
 
-“They have no value, they never will have value,” Charles Hoskinson, 
-co-founder of the Cardano blockchain, said about memecoins recently. “There’s 
-no utility behind them, nobody wants them — when they lose their lustre they go 
+“They have no value, they never will have value,” Charles Hoskinson,
+co-founder of the Cardano blockchain, said about memecoins recently. “There’s
+no utility behind them, nobody wants them — when they lose their lustre they go
 to zero.” …
 
-All memecoins require niche knowledge of internet culture: MOO DENG refers to 
-a Thai pygmy hippo who went viral because of her playful energy; PNUT refers to 
-an orphaned squirrel called Peanut who was euthanised by New York authorities, 
-and whose death Trump was “fired up” about, according to vice-president-elect 
-JD Vance; CHILLGUY represents a meme of a relaxed, cartoon dog with his hands 
+All memecoins require niche knowledge of internet culture: MOO DENG refers to
+a Thai pygmy hippo who went viral because of her playful energy; PNUT refers to
+an orphaned squirrel called Peanut who was euthanised by New York authorities,
+and whose death Trump was “fired up” about, according to vice-president-elect
+JD Vance; CHILLGUY represents a meme of a relaxed, cartoon dog with his hands
 in his pockets, which is going viral on TikTok. …
 
-The market size of PNUT has hit $1.2bn, while PEPE, referencing a comic frog 
-character, has a market cap of $8.2bn — more than that of British supermarket 
-chain Sainsbury’s. BONK, a cartoon dog made after the collapse of exchange FTX 
-in an effort to cheer up traders using the Solana blockchain, has a market cap 
+The market size of PNUT has hit $1.2bn, while PEPE, referencing a comic frog
+character, has a market cap of $8.2bn — more than that of British supermarket
+chain Sainsbury’s. BONK, a cartoon dog made after the collapse of exchange FTX
+in an effort to cheer up traders using the Solana blockchain, has a market cap
 of $3bn.
 
-I feel like there are two ways to approach this. One is the finance way: The 
-present value of the expected future cash flows to owners of Sainsbury’s, or 
-whatever, is larger than the expected future cash flows to owners of PEPE, or 
-whatever, since the PEPE cash flows are absolutely capped at zero. [3]  <> 
-Therefore it is striking and sort of depressing that the market value of PEPE 
+I feel like there are two ways to approach this. One is the finance way: The
+present value of the expected future cash flows to owners of Sainsbury’s, or
+whatever, is larger than the expected future cash flows to owners of PEPE, or
+whatever, since the PEPE cash flows are absolutely capped at zero. [3]  <>
+Therefore it is striking and sort of depressing that the market value of PEPE
 is higher.
 
-The other is a sort of sociological approach. Financial markets consist of 
-people sitting at computers and clicking buttons to buy and sell stuff. The 
-stuff that they are more excited to buy will have a higher price than the stuff 
-that they are less excited to buy. You can probably get some people excited 
-about owning the future cash flows of Sainsbury’s, so there is some demand for 
-Sainsbury’s stock. But it is notobvious that this would be more exciting than, 
-you know, a cartoon of a frog, [4]  <> or a dead squirrel, or whatever. If you 
-are looking for “stuff that people on computers want to click on,” viral 
-Internet memes are intuitively more promising than “supermarket cash flows.” 
+The other is a sort of sociological approach. Financial markets consist of
+people sitting at computers and clicking buttons to buy and sell stuff. The
+stuff that they are more excited to buy will have a higher price than the stuff
+that they are less excited to buy. You can probably get some people excited
+about owning the future cash flows of Sainsbury’s, so there is some demand for
+Sainsbury’s stock. But it is notobvious that this would be more exciting than,
+you know, a cartoon of a frog, [4]  <> or a dead squirrel, or whatever. If you
+are looking for “stuff that people on computers want to click on,” viral
+Internet memes are intuitively more promising than “supermarket cash flows.”
 
-We talked last month 
+We talked last month
 <https://www.bloomberg.com/opinion/articles/2024-11-07/prediction-markets-are-a-thing-now?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- about Nick Whitaker and J. Zachary Mazlish’sargument 
-<https://worksinprogress.co/issue/why-prediction-markets-arent-popular/> that 
-prediction markets will never be that popular because they “are not a natural 
-gambling device, due to various factors including their long time horizons and 
-often esoteric topics.” I am not so sure about that claim; I feel like 
-prediction markets could find lots of stuff that people will want to gamble on. 
-But it is the rightsort of argument for modern markets: The point is that the 
-natural way to analyze markets these days is “how fun are they?” Memecoins are, 
+ about Nick Whitaker and J. Zachary Mazlish’sargument
+<https://worksinprogress.co/issue/why-prediction-markets-arent-popular/> that
+prediction markets will never be that popular because they “are not a natural
+gambling device, due to various factors including their long time horizons and
+often esoteric topics.” I am not so sure about that claim; I feel like
+prediction markets could find lots of stuff that people will want to gamble on.
+But it is the rightsort of argument for modern markets: The point is that the
+natural way to analyze markets these days is “how fun are they?” Memecoins are,
 apparently, pretty fun.
 
 
 Things happen
 
-UnitedHealth Executive Fatally Shot 
+UnitedHealth Executive Fatally Shot
 <https://www.bloomberg.com/news/articles/2024-12-04/unitedhealthcare-ceo-brian-thompson-fatally-shot-in-manhattan?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- in NYC on Investor Day. Trump PicksAtkins 
+ in NYC on Investor Day. Trump PicksAtkins
 <https://www.bloomberg.com/news/articles/2024-12-04/trump-names-paul-atkins-as-sec-chair?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
 , Ex-SEC Commissioner, to Succeed Gensler. Ex-Celsius CEOMashinsky Pleads Guilty
- 
+
 <https://www.bloomberg.com/news/articles/2024-12-03/ex-celsius-ceo-alex-mashinsky-to-plead-guilty-in-us-fraud-case?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- in Crypto Fraud Case. Businesses Soon Will Be Able to Pay$10 Million Bills 
+ in Crypto Fraud Case. Businesses Soon Will Be Able to Pay$10 Million Bills
 <https://www.bloomberg.com/news/articles/2024-12-04/businesses-soon-will-be-able-to-pay-10-million-bills-instantly?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- Instantly. London Stock MarketShrinks 
+ Instantly. London Stock MarketShrinks
 <https://www.bloomberg.com/news/articles/2024-12-04/london-stock-market-shrinks-at-fastest-pace-in-over-a-decade-on-takeover-wave?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
  at Fastest Pace in Over a Decade. Activist shareholder intensifies campaign for
-Rio <https://www.ft.com/content/f66b3564-6809-4bba-b11c-cdef6a38de47> to quit 
-London. Mitsubishi Corp Loses $90 Million in SuspectedCopper Fraud 
+Rio <https://www.ft.com/content/f66b3564-6809-4bba-b11c-cdef6a38de47> to quit
+London. Mitsubishi Corp Loses $90 Million in SuspectedCopper Fraud
 <https://www.bloomberg.com/news/articles/2024-12-04/mitsubishi-corp-loses-90-million-in-suspected-china-metal-fraud?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-. Bank of America Expands Debt-Swap Footprint WithEcuador Deal 
+. Bank of America Expands Debt-Swap Footprint WithEcuador Deal
 <https://www.bloomberg.com/news/articles/2024-12-03/bofa-arranges-bond-tender-for-ecuador-as-new-debt-swap-kicks-off?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-. Utah orders A-Cap insurers to cease new business after777 debacle 
+. Utah orders A-Cap insurers to cease new business after777 debacle
 <https://www.ft.com/content/d1b2c472-9687-4506-9998-ece1dc68c5d7?_bhlid=0bda129820a255b75b7926e01675e2a50634d067>
-. Trump’s Threat Over anImaginary Currency 
+. Trump’s Threat Over anImaginary Currency
 <https://www.wsj.com/finance/currencies/trumps-threat-over-an-imaginary-currency-risks-backfiring-on-the-u-s-dollar-8b50a25a?mod=itp_wsj>
  Risks Backfiring on the U.S. Dollar. Delaware Judge Who Rejected Musk’s Payday
-Faces Backlash 
+Faces Backlash
 <https://news.bloomberglaw.com/daily-labor-report/delaware-judge-who-rejected-musks-payday-faces-backlash>
-.What’s Next 
+.What’s Next
 <https://www.wsj.com/business/autos/elon-musk-tesla-pay-explained-16edb662?mod=itp_wsj>
- in the Legal Battle Over Elon Musk’s $100 Billion Pay Deal. Fidelitymarks up 
+ in the Legal Battle Over Elon Musk’s $100 Billion Pay Deal. Fidelitymarks up
 <https://www.axios.com/2024/12/01/elon-musk-x-fidelity-mark-up?_bhlid=055e5aba4b7f28583f32471c7444b18078eafd25>
- the value of its stake in Elon Musk's X. The Israeli Investigator Who 
-Delivered Dirt onExxon’s Enemies 
+ the value of its stake in Elon Musk's X. The Israeli Investigator Who
+Delivered Dirt onExxon’s Enemies
 <https://www.wsj.com/business/eitan-arusy-hacking-investigation-exxon-elliott-management-15b8faf3?mod=hp_featst_pos3>
-.Cyberattack 
+.Cyberattack
 <https://www.wsj.com/articles/cyberattack-and-financial-troubles-force-stolis-u-s-arm-to-file-for-bankruptcy-230f32f8?mod=itp_wsj&ru=yahoo>
  and Financial Troubles Force Stoli’s U.S. Arm to File for Bankruptcy. UBS
-‘Stunned’ by Mafia Analogy 
+‘Stunned’ by Mafia Analogy
 <https://www.bloomberg.com/news/articles/2024-12-04/ubs-stunned-by-mafia-analogy-at-whistleblower-harassment-trial?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- at Whistleblower Harassment Trial. A Day in the Life of aPool-Chair Policeman 
+ at Whistleblower Harassment Trial. A Day in the Life of aPool-Chair Policeman
 <https://www.wsj.com/lifestyle/travel/vacation-resort-etiquette-pool-chairs-778c3975?mod=hp_listc_pos1>
 .
 
-If you'd like to get Money Stuff in handy email form, right in your inbox, 
-pleasesubscribe at this link 
+If you'd like to get Money Stuff in handy email form, right in your inbox,
+pleasesubscribe at this link
 <http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a>
-. Or you can subscribe to Money Stuff and other great Bloomberg newslettershere 
+. Or you can subscribe to Money Stuff and other great Bloomberg newslettershere
 <https://login.bloomberg.com/newsletters>. Thanks!
 
 
- <https://link.chtbl.com/Money-Stuff-Podcast-Newsletter> 
+ <https://link.chtbl.com/Money-Stuff-Podcast-Newsletter>
 
 
-[1] One arguable example of this is that, a decade ago, big banks  got in 
-trouble 
+[1] One arguable example of this is that, a decade ago, big banks  got in
+trouble
 <https://www.bloomberg.com/opinion/articles/2015-05-20/bank-fine-scorecard-follow-along-at-home-?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- for some of their conduct in foreign exchange markets 
+ for some of their conduct in foreign exchange markets
 <https://www.bloomberg.com/opinion/articles/2014-11-12/banks-manipulated-foreign-exchange-in-ways-you-can-t-teach?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
-. Some of the stuff they did was bad chat rooms in which they coordinated their 
-buying and selling, which seems like an obvious antitrust problem — the chat 
-rooms had names like “the Cartel” and did kind of seem like people knew they 
-were wrong. Other stuff, though, involved “pre-hedging” of trades that would 
-fix at the closing price; this pre-hedging tended to have the effect of moving 
-prices in the direction that favored the bank and disfavored the customer. 
-There was I think some genuine disagreement about whether that was obviously 
-fine, and customers signing up for these fix-based trades knew or should have 
-known that the banks would pre-hedge them, or whether it was sneaky 
-front-running at the expense of customers. And one result 
+. Some of the stuff they did was bad chat rooms in which they coordinated their
+buying and selling, which seems like an obvious antitrust problem — the chat
+rooms had names like “the Cartel” and did kind of seem like people knew they
+were wrong. Other stuff, though, involved “pre-hedging” of trades that would
+fix at the closing price; this pre-hedging tended to have the effect of moving
+prices in the direction that favored the bank and disfavored the customer.
+There was I think some genuine disagreement about whether that was obviously
+fine, and customers signing up for these fix-based trades knew or should have
+known that the banks would pre-hedge them, or whether it was sneaky
+front-running at the expense of customers. And one result
 <https://www.bloomberg.com/opinion/articles/2016-05-27/fx-conduct-and-disappearing-bonds?cmpid=BBD120424_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241204&utm_campaign=moneystuff>
- was a new global code of conduct for the FX market, basically spelling out 
-more clearly what sort of pre-hedging was allowed so that everyone could be on 
-the same page. It’s not that pre-hedging is a priori good or a priori bad, it’s 
+ was a new global code of conduct for the FX market, basically spelling out
+more clearly what sort of pre-hedging was allowed so that everyone could be on
+the same page. It’s not that pre-hedging is a priori good or a priori bad, it’s
 that everyone needs to understand what is and is not allowed.
 
-[2] I cannot resist pretending that this paper is about literary novels and 
-poems, but in fact the “text data includes five-word sentences (5-grams) 
-containing the stem of the word ‘finance’ in eight languages, between 1870 and 
-2009, extracted from the 2012 edition of the Google Books Ngram Corpus,” which 
-“comes from Google scans of over 8 million books or 6% of all books ever 
-published.” So it’s probably mostly nonfiction. They do not break down 
+[2] I cannot resist pretending that this paper is about literary novels and
+poems, but in fact the “text data includes five-word sentences (5-grams)
+containing the stem of the word ‘finance’ in eight languages, between 1870 and
+2009, extracted from the 2012 edition of the Google Books Ngram Corpus,” which
+“comes from Google scans of over 8 million books or 6% of all books ever
+published.” So it’s probably mostly nonfiction. They do not break down
 predictive power by genre however.
 
-[3] By which I mean the cash flows *from* the underlying business, which does 
-not exist. The cash flows to PEPE holders are obviously not zero, in the sense 
+[3] By which I mean the cash flows *from* the underlying business, which does
+not exist. The cash flows to PEPE holders are obviously not zero, in the sense
 that they can sell their coins to other people.
 
-[4] I understand that Pepe the Frog has some political symbolism 
-<https://en.wikipedia.org/wiki/Pepe_the_Frog> beyond just being a cartoon of a 
+[4] I understand that Pepe the Frog has some political symbolism
+<https://en.wikipedia.org/wiki/Pepe_the_Frog> beyond just being a cartoon of a
 frog. Presumably this is part of what people are excited about.
 
 
-Follow Us  <https://www.facebook.com/bloombergopinion>  
-<https://www.instagram.com/bloombergopinion/>  <https://twitter.com/bopinion>  
-Get the newsletter 
-<https://www.bloomberg.com/account/newsletters/money-stuff?source=NLshare> 
+Follow Us  <https://www.facebook.com/bloombergopinion>
+<https://www.instagram.com/bloombergopinion/>  <https://twitter.com/bopinion>
+Get the newsletter
+<https://www.bloomberg.com/account/newsletters/money-stuff?source=NLshare>
 
 
-Like getting this newsletter?  Subscribe to Bloomberg.com 
+Like getting this newsletter?  Subscribe to Bloomberg.com
 <https://www.bloomberg.com/subscriptions?utm_medium=email&utm_source=newsletter&utm_campaign=moneystuff&utm_content=tout-money-stuff&utm_term=>
- for unlimited access to trusted, data-driven journalism and subscriber-only 
+ for unlimited access to trusted, data-driven journalism and subscriber-only
 insights.
 
-Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the 
-Terminal delivers information and analysis that financial professionals can’t 
-find anywhere else.Learn more 
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the
+Terminal delivers information and analysis that financial professionals can’t
+find anywhere else.Learn more
 <https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab>
 .
 
-Want to sponsor this newsletter?  Get in touch here 
+Want to sponsor this newsletter?  Get in touch here
 <https://www.bloombergmedia.com/contact/?utm_medium=email&utm_source=newsletter&utm_campaign=moneystuff>
 .
 
- You received this message because you are subscribed to Bloomberg's Money 
-Stuff newsletter. 
-Unsubscribe 
+ You received this message because you are subscribed to Bloomberg's Money
+Stuff newsletter.
+Unsubscribe
 <https://login.bloomberg.com/newsletters?source=newsletter_unsub&email=bloomberg@khamel.com&hash=3878bee49d8b2b98e3953b8420dc7f54053a9a7e>
- |Bloomberg.com <http://bloomberg.com> | Contact Us 
-<http://www.bloomberg.com/feedback?alcmpid=mostpop> 
+ |Bloomberg.com <http://bloomberg.com> | Contact Us
+<http://www.bloomberg.com/feedback?alcmpid=mostpop>
 
- <https://www.liveintent.com/powered-by>  |  
-<https://www.liveintent.com/ad-choices> 
-Bloomberg L.P. 731 Lexington, New York, NY, 10022  
+ <https://www.liveintent.com/powered-by>  |
+<https://www.liveintent.com/ad-choices>
+Bloomberg L.P. 731 Lexington, New York, NY, 10022
 <https://links.message.bloomberg.com/e/eh?_t=f574328d4d0c4c359b90d8e49b10e21d&_m=3e89ad33beeb41be835d5640dbc247f8&_e=T0uqE4nzm_1ZP6ee9wng6BSRP0IY7b9fTTJSSX55ald3A58nbDQI6qr1l-JHKN64xoVqWdCDM7_yWuvciDD3obeLhMXZsttquAqbTUENbK1Jp-bc2A05jJ-7qLsJgkUuz2iwVjTjMFHMauUkT0Z-b0--Ze4aG5cTD59ymnAbTZ9rVNMWBOwJ_cWtM4GVleNSPdHn-bJhqPfnJqeOJ8dVpkekWdIp2UC1rHP3d7CZBBDhm3QG2Vccg6U29kRgBn3q-aCxNety-0t_yjixAizBFw%3D%3D>

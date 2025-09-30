@@ -12,7 +12,7 @@
 
 # wsj.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![wsj.com]()
 

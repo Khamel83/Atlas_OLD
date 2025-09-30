@@ -113,9 +113,9 @@
     <div id="skip">
       <a href="#content">Jump to Navigation</a>
     </div>
-    
+
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    
+
 <div id="page" class="page">
 
 <header id="header">
@@ -124,8 +124,8 @@
           <img src="/themes/gw_basic/logo.png" alt="Home"/>
         </a>
         <p class="header-donate"><a href="https://secure.givewell.org/" class="header-btn-donate visible">Donate</a></p>
-      
-      
+
+
               <div id="header-region">
           <span class="search-btn-open"></span>
             <div class="region region-header">
@@ -152,11 +152,11 @@
           <span class="btn-close"></span>
         </div>
       </div>
-    </form> 
+    </form>
   </div>
 </div>
 <nav role="navigation" aria-labelledby="" id="block-system-main-menu" class="block block-menu navigation menu--main">
-            
+
   <h2 class="visually-hidden">Main menu</h2>
 
 <div class="content">
@@ -169,7 +169,7 @@
         <a href="/Our-Top-Charities" data-drupal-link-system-path="node/3593">Our Top Charities</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/our-giving-funds" data-drupal-link-system-path="node/3538">Our Giving Funds</a>
@@ -187,7 +187,7 @@
         <a href="https://airtable.com/appGuFtOIb1eodoBu/shrcjog1m8jLc68Zt">List of Grants</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/research/funding-cuts" data-drupal-link-system-path="node/4214">USAID</a>
@@ -202,7 +202,7 @@
         <a href="/research/global-health-forecasts-march-2025" title="Forecasts on Future US Government Global Health Funding" data-drupal-link-system-path="node/4252">Forecasts on Future Funding</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/research" data-drupal-link-system-path="node/3587">Research</a>
@@ -226,7 +226,7 @@
         <a href="/impact-estimates" data-drupal-link-system-path="node/3768">How We Produce Impact Estimates</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item">
         <a href="/about/our-mistakes" data-drupal-link-system-path="node/3475">Our Mistakes</a>
@@ -265,7 +265,7 @@
         <a href="/updates" data-drupal-link-system-path="node/2135">Stay Updated</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item">
         <a href="http://blog.givewell.org">Blog</a>
@@ -316,7 +316,7 @@
         <a href="/gwuk/about" data-drupal-link-system-path="node/3690">Donate to GiveWell UK</a>
               </li>
         </ul>
-  
+
               </li>
         </ul>
 
@@ -327,12 +327,12 @@
 </div>
 
 </div>
-      
+
     </div>
   </header>
   <div id="main">
     <section id="content">
-  
+
       <div id="content-header">
         <div class="container">
 
@@ -360,7 +360,7 @@
 
 </div>
 </aside>
-          
+
         </div>
       </div>
 
@@ -370,11 +370,11 @@
     <div id="block-gw-basic-system-main" class="block block-system block-system-main-block">
 
 <div class="content">
-            
+
 <article class="node node--type-page node--view-mode-full">
 
 <div class="node__content">
-    
+
       <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__items">
               <div class="field-item"><div class="toc-filter"><div class="overview">Unlimit Health, formerly known as the SCI Foundation, formerly known as the Schistosomiasis Control Initiative, was one of GiveWell’s top-rated charities from 2011 to 2022. We <a href="https://www.givewell.org/how-we-work/criteria">updated our criteria</a> for top charities in August 2022 and due to these changes, Unlimit Health is no longer one of our top charities.
 <p>This does not reflect an update to our view of Unlimit Health. The change was motivated by our desire to clarify our recommendations to donors, not by any shift in our thinking about Unlimit Health. More information is available in <a href="https://blog.givewell.org/2022/08/17/changes-to-top-charity-criteria">this blog post</a>.</p>
@@ -403,151 +403,151 @@
 </li><li>Unlimit Health may use additional funding to, in part, treat adults in areas with moderate or high risk of schistosomiasis infection, as part of a strategy to stop transmission of the parasite. While this strategy has the potential to be cost-effective by decreasing infection rates in children over the long-term, we have not seen sufficient evidence to support it and do not currently believe it meets our criteria for evidence and cost-effectiveness.
 </li></ul>
 <div id="top"  class="toc toc-responsive">
-  
+
   <h3 class="toc-title">Table of Contents</h3>
 
 <div class="toc-desktop toc toc-tree toc-list tableofcontents-processed">
 
 <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Summary">Summary</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Our_review_process">Our review process</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#Whatdotheydo">What do they do?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Unlimit_Healths_role_in_mass_drug_administration_programs">Unlimit Health’s role in mass drug administration programs</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Major_funding_sources_for_Unlimit_Healths_work">Major funding sources for Unlimit Health’s work</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#BreakdownofSCIsspending">Breakdown of Unlimit Health’s spending</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Spendingbreakdownbycountry">Spending breakdown by country</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Spendingbreakdownwithincountryprograms">Spending breakdown within country programs</a>
           </li>
-  
+
     </ul>
 
 </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="has-children">
       <a href="#Doesitwork">Does it work?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Independentevidenceofprogrameffectiveness">Is there independent evidence that the program is effective?</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#Are_deworming_pills_delivered_to_and_ingested_by_recipients">Are deworming pills delivered to and ingested by recipients?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Coverage_surveys">Coverage surveys</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Prevalence_and_intensity_studies">Prevalence and intensity studies</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="no-children">
       <a href="#Are_Unlimit_Health-s_monitoring_results_representative_of_its_work_overall">Are Unlimit Health's monitoring results representative of its work overall?</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#baseline">What is the likely impact per treatment in Unlimit Health's programs compared with the independent studies on the impact of deworming?</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Are_there_any_negative_or_offsetting_impacts">Are there any negative or offsetting impacts?</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="has-children">
       <a href="#Whatdoyougetforyourdollar">What do you get for your dollar?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Unlimit_Health-s_estimates">Unlimit Health's estimates</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Our_approach">Our approach</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Our_analysis">Our analysis</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Shortcomings_of_our_analysis">Shortcomings of our analysis</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="has-children">
       <a href="#Isthereroomformorefunding">Is there room for more funding?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Room_for_more_funding_analysis">Room for more funding analysis</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Grant_investigation_process">Grant investigation process</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Unlimit_Health-s_room_for_more_funding">Unlimit Health's room for more funding</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="no-children">
       <a href="#Unlimit_Health_as_an_organization">Unlimit Health as an organization</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Sources">Sources</a>
           </li>
-  
+
     </ul>
 
 </div>
@@ -929,7 +929,7 @@
 <li><strong>Length of time between MDA and survey:</strong> This varies between less than a month and nine months in the coverage surveys we have seen from Unlimit Health. Intuitively, the more time that passes, the less likely children are to remember accurately and the more likely they are to confuse past MDAs. Ethiopia (2018) had the shortest interval, at 0-2 months, and Liberia (2018) had the longest, at 3-9 months, of the surveys for which we have seen information about the length of time between the MDA occurring and the survey occurring. Other surveys were generally carried out 2-4 months after the MDA.<a class="see-footnote" id="footnoteref25" title=" See this spreadsheet, &quot;Methods&quot; sheet, column D. " href="#footnote25">25</a>
 
 </li><li><strong>Verification questions:</strong> In Côte d'Ivoire, Malawi, Uganda, Zanzibar, Zambia, Ethiopia, Madagascar, Mauritania, Liberia, Burundi, Niger, Nigeria, the Democratic Republic of the Congo, and Tanzania, surveyors asked some verification questions in at least one of the coverage surveys that we have seen, such as whether respondents recognized pills or dose poles presented by the interviewers, what they thought of the pills (praziquantel is very large and tastes bitter), and how many pills they took.<a class="see-footnote" id="footnoteref26" title=" See this spreadsheet, &quot;Methods&quot; sheet, column T as well as the sources in the &quot;Report&quot; column. " href="#footnote26">26</a>
- 
+
 <ul>
 <li>In Mozambique (2015), respondents were asked whether they recognized the dose pole used in schistosomiasis MDAs. However, in that survey parents were surveyed on their children's behalf<a class="see-footnote" id="footnoteref27" title=" &quot;The actual sample included caretakers of 578 children.&quot; SCI Mozambique coverage survey 2015, Pg. 5. Note that we have only received permission to publish a summary of this report. Quotation is from the full, unpublished report. " href="#footnote27">27</a>
  and most children (79%) received drugs at school,<a class="see-footnote" id="footnoteref28" title=" SCI Mozambique coverage survey 2015, Pg. 23. Note that we have only received permission to publish a summary of this report. Quotation is from the full, unpublished report. " href="#footnote28">28</a>
@@ -1008,7 +1008,7 @@
 <p>Limitations of the prevalence and intensity study data include:</p>
 <ul>
 <li><strong>Monitoring of selected locations in some countries.</strong> It appears that, in the Niger and Burundi pilot studies, locations included in the study were selectively chosen rather than selected to be a representative sample of treated areas. In the Côte d'Ivoire, Ethiopia, Liberia, Madagascar, Malawi and Tanzania studies, schools were sampled randomly from locations at medium and high risk of infection in line with a stratified statistical approach. We are uncertain how locations in the Burundi (2007/8-2017) study were chosen.<a class="see-footnote" id="footnoteref62" title="  Niger:  &quot;Eight villages located in schistosomiasis endemic regions were randomly selected to represent the two main transmission patterns in Niger: six villages located near permanent (Tabalak, Kokorou) or semi-permanent (Kaou, Mozague, Rouafi, and Sabon Birni) ponds and two (Saga Fondo, Sanguile) located along the Niger River. The villages represented the south-western region (Tillabéry) and the central-northern region (Tahoua) of the country, with four villages from each region. One village is located in the Sudanian climatic zone and the seven others are in the Sahelian climatic zone.&quot; Tohon et al. 2008, Pg. 2. Unlimit Health told us that these locations &quot;are not representative of the treatment population as a whole. They were selected to indicate the impact of treatment in schools with varying prevalence and intensity of both [types of schistosomiasis].&quot; Anna Phillips, SCI Country Program Manager for Burkina Faso and Niger, email to GiveWell, October 13, 2011.  Burundi pilot survey: “More precisely, the 12 schools were chosen based on 3 zones-believed at the time that they would have the majority of NTDs. 4 schools were selected randomly so that they represent the ‘STHs +Schisto +oncho’ zone (these were Musenyi, Nyamibu, Munyika, Rukinga); then another 4 schools were selected randomly so that they represent the ‘STHs +oncho’ zone (Mirombero, Kizuga, Ruzibira, Mudende) and finally 4 schools were selected randomly so that they represent STHs only endemic areas (Gatwe, Ruko, Condi, Gitobo). Such decisions were based on available historic data. Thus, SCI Programme Manager advised not to stratify the statistical analysis by province and so such results (i.e. stratification by province) are not presented anywhere in this report.” Koukounari 2011 Pg. 6. Burundi other schools: it appears that schools were selected to be representative, though this is not fully clear in the reports we have seen.  Styles 2011 says, &quot;The selection of schools was done randomly from the non-pilot provinces; taking into account 11 separate ecological zones.&quot; Pg. 13. Koukounari 2011 says, “At baseline (2008) there were recruited 5700 children while the follow-up rate one year later was 53.42% (3045/5700). For these set of studies as they were designed to cover almost all of the country, it is worthwhile to also examine stratifications of analyses by district and such results are also presented in the following subsections. However, in most of the districts the children were coming only from 1 school (see relevant graphs for district whenever n&lt;200; when this is the case then this is only 1 school per district and thus results should be treated there with caution and programmatic decisions to be taken with reservations). Whenever/wherever this is the case, results should be interpreted with caution as just 1 school would be quite ‘risky’ to represent inference/decisions for a whole district.” Pg. 16. Malawi: The schools seem to have been selected in a way that makes them representative of districts with moderate to high prevalence, which are those districts that receive annual treatment (low prevalence districts receive more limited treatment). The schools were selected only from districts found to have moderate schistosomiasis prevalence in Unlimit Health's mapping: &quot;Method of sentinel site selection: SCI’s protocol is to monitor only in those districts where prevalence of schistosomiasis is moderate or high i.e. SCI does not monitor in non-endemic or low prevalence districts where a full control program is not implemented. All districts except Mzuzu City surveyed in the mapping in February 2012 were determined to have moderate prevalence of S. haematobium, and consequently all districts except Mzuzu City were included in the selection of sites to be monitored for this species (see Table 1). S. mansoni infection was more focal and only present at moderate prevalence in Chiradzulu, Blantrye Rural, Lilongwe City and Lilongwe Rural East. Following district stratification by S. mansoni infection, such that the number of schools selected for S. mansoni monitoring, reflected the frequency of moderate risk areas in the monitoring areas, 22 schools were selected that would be monitor S. haematobium infection with a subset of 9 schools which also monitor S. mansoni infection. Due to the low prevalence of STH’s, STH infection was only monitored in those schools where the Kato-Katz slides were already prepared for S. mansoni.&quot; SCI Malawi panel study, Pg. 4; Unlimit Health's senior biostatistician told us that the sampling method would produce a sample representative of the treated districts. Michelle Clements, SCI Senior Biostatistician, conversation with GiveWell, October 15, 2014. Details on the sampling procedure for all other studies are given in the &quot;Methods&quot; sheet in this spreadsheet.  " href="#footnote62">62</a>
- 
+
 </li><li><strong>Attrition of schools from the sample.</strong> In Liberia, nearly one-third of the schools surveyed during the baseline year could not be re-visited in the follow-up year (which Unlimit Health attributes to inaccurate school identity numbers, school closures, and/or inaccurate recording of GPS coordinates), and were replaced by nearby schools.<a class="see-footnote" id="footnoteref63" title="  &quot;Baseline Impact M&amp;E surveys took place in 38 schools in three provinces of Liberia (Bong, Nimba, Lofa) in Nov-Dec 2012, as part of the ICOSA programme.&quot; SCI Liberia panel study baseline report, Pg 3. SCI Liberia impact survey follow up recommendations report 2013:  &quot;Eleven of the baseline schools (with code 1, 7, 9, 16, 17, 18, 20, 23, 24, 25, 28) could not be re-visited in 2013 and were substituted by schools as close as possible. Three of these new schools (code 39, 41, 48) were deemed to be too far away from the corresponding baseline schools to serve as their follow up and were added to the analysis as independent new schools.&quot; Pg 4. Survey recommendations table, Pg 6:  &quot;School identity numbers were not always correct.&quot; &quot;Many of the GPS coordinates were not recorded correctly.&quot; &quot;Schools closed between years of data collection.&quot;    " href="#footnote63">63</a>
  In Madagascar, two out of twenty-nine locations could not be revisited and were not replaced.<a class="see-footnote" id="footnoteref64" title=" See the &quot;Methods&quot; sheet, cells Q10 and R10, in this spreadsheet. " href="#footnote64">64</a>
 
@@ -1018,7 +1018,7 @@
 </li><li><strong>Different methods of measurement for the prevalence of <em>S. mansoni</em> lead to different prevalence rates in Burundi (2007/8-2017).</strong> In Burundi (2007/8-2017), both the rapid urine-based Circulating Cathodic Antigen (CCA) and Kato-Katz methods are used to measure the prevalence of <em>S. mansoni</em>. Prevalence using the CCA method is always higher and for one school was nearly fifty times higher. It is unclear which method is used in the reported results, or whether the same method is used in the baseline and each follow-up survey.<a class="see-footnote" id="footnoteref67" title=" &quot;Prevalence with CCA is always higher (or equal if 0) than with KK. Prevalence using CCA with trace positive is between 3 and nearly 50 times larger than with KK.&quot; SCI Burundi impact survey recommendations report 2017, p.7. " href="#footnote67">67</a>
 
 </li><li><strong>The procedure used to sample children changed between the baseline and follow-up surveys in Malawi.</strong> In the second, third and fourth follow-up surveys in Malawi, children were sampled by age, not by grade as in the baseline. It is unclear whether the age distribution of children in these follow-ups is fully comparable to the baseline, and so whether prevalence rates are comparable.<a class="see-footnote" id="footnoteref68" title=" For further details, see the &quot;Methods&quot; sheet, cell S12 in this spreadsheet. " href="#footnote68">68</a>
-  
+
 </li><li><strong>Small sample size in the Democratic Republic of the Congo.</strong> The survey in the Democratic Republic of the Congo (2018) included only three schools.<a class="see-footnote" id="footnoteref69" title="  “This survey included baseline results for 18 schools in Tshopo, Ubangi Nord and Uele co-ordinations (Phase III) and follow-up year 2 (FU2) results for 1 schools in Kongo Central and 2 schools in Kasai Mbujimayi (Phase I).”  “The number of schools followed-up Phase 1 FU2 n=3 is too small to determine whether the results are representative, or of statistical significance, in evaluating programme impact and informing programmatic actions.”  SCI DRC impact survey recommendations report, 2017-2018, Pg. 2. " href="#footnote69">69</a>
 
 </li></ul>
@@ -2905,7 +2905,7 @@ Fiona Fleming: "Yes it would, participants in all these surveys receive treatmen
 <p></p></li>
                                 <li class="footnote" id="footnote69"><a class="footnote-label" href="#footnoteref69">69</a>
 <ul>
-<li>“This survey included baseline results for 18 schools in Tshopo, Ubangi Nord and Uele co-ordinations (Phase III) and follow-up year 2 (FU2) results for 1 schools in Kongo Central and 2 schools in Kasai Mbujimayi (Phase I).” 
+<li>“This survey included baseline results for 18 schools in Tshopo, Ubangi Nord and Uele co-ordinations (Phase III) and follow-up year 2 (FU2) results for 1 schools in Kongo Central and 2 schools in Kasai Mbujimayi (Phase I).”
 </li><li>“The number of schools followed-up Phase 1 FU2 <em>n</em>=3 is too small to determine whether the results are representative, or of statistical significance, in evaluating programme impact and informing programmatic actions.”
 </li></ul>
 <p><strong>SCI DRC impact survey recommendations report, 2017-2018</strong>, Pg. 2.</p>
@@ -3035,7 +3035,7 @@ The main cost elements include: the programme specific expenditure; the opportun
 </li><li>Unlimit Health also shared data on total treatments for all NTDs in 2018-19 with us. <a class="source-definition" href="https://www.givewell.org/files/DWDA%202009/SCI/SCI_Foundation_2018_19_DRC_NTD_treatments.xls">SCI Foundation, 2018-19 DRC NTD treatments</a>
 </li></ul>
 <p></p></li>
-                                <li class="footnote" id="footnote92"><a class="footnote-label" href="#footnoteref92">92</a> 
+                                <li class="footnote" id="footnote92"><a class="footnote-label" href="#footnoteref92">92</a>
 <ul>
 <li>For example, see sheets "SCI 2018-19 treatment numbers" and "SCI 2017-18 Final Treatment No" in our <a href="https://docs.google.com/spreadsheets/d/11qABbPZYnPH5NZlngj81sYct_-nS90M5tnkDJVy3w10/edit?usp=sharing">2020 analysis of SCI's cost per person dewormed per year</a>.
 </li><li>"I note that you mention in your request below the sharing of deworming figures only for the SCI assigned health zones. In 2018/19, SCI funding was allocated on the basis of the total number of SCH treatments targeted nationally. If only those deworming treatments in the SCI assigned health zones are considered against that funding, it will influence dramatically the cost of those treatments given that the number will be significantly lower. The NTD Programme have used the assignation of health zones by partner to streamline the overall management of the programme for administrative purposes, thus if SCI funding was being considered against treatment delivery, we would recommend that either of the options above are used, rather than the deworming treatments in SCI assigned health zones only." Lynsey Blair, Head of Programmes, SCI Foundation, email to GiveWell, July 6, 2020 (unpublished)
@@ -3082,7 +3082,7 @@ The main cost elements include: the programme specific expenditure; the opportun
   <a href="#top"> </a>
 </div></div></div>
           </div>
-  
+
   </div>
 
 </article>
@@ -3098,22 +3098,22 @@ The main cost elements include: the programme specific expenditure; the opportun
 <aside id="sidebar-second" class="column sidebar second">
             <div class="region region-sidebar-second">
     <div id="block-relatedcontentonsci" class="block block-block-content block-block-contentb74f773a-a736-4b01-ae31-8ff1d5267267">
-  
+
       <h2>Related Content on Unlimit Health</h2>
 
 <div class="content">
-            
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field-item"><ul>
 <li><a href="https://www.givewell.org/international/top-charities/schistosomiasis-control-initiative/updates">All content on Unlimit Health</a>
 </li><li><a href="http://blog.givewell.org/category/schistosomiasis-control-initiative/">All blog posts on Unlimit Health</a>
 </li><li><a href="https://www.givewell.org/international/site-visits/october-2011">Malawi site visit</a>
 </li></ul>
 </div>
-      
+
     </div>
 </div>
 <div id="block-aggregatorfeed-8" role="complementary" class="block block-aggregator block-aggregator-feed-block">
-  
+
       <h2>Related Blog Posts</h2>
 
 <div class="content">
@@ -3136,7 +3136,7 @@ The main cost elements include: the programme specific expenditure; the opportun
         <div class="region region-footer">
             <div class="region region-footer">
     <nav role="navigation" aria-labelledby="block-gw-basic-menu-menu-footer-menu-menu" id="block-gw-basic-menu-menu-footer-menu" class="block block-menu footer-menu menu--menu-footer-menu">
-            
+
   <h2 class="visually-hidden" id="block-gw-basic-menu-menu-footer-menu-menu">Footer Menu</h2>
 
 <div class="content">
@@ -3168,9 +3168,9 @@ The main cost elements include: the programme specific expenditure; the opportun
 <div id="block-gw-basic-block-36" class="block social block-block-content block-block-content9ab71374-47c0-4ec2-aba8-c86fb1f98658">
 
 <div class="content">
-            
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="social">   <h2>Follow Us:</h2>   <ul>       <li><a href="https://facebook.com/givewell.org" class="facebook" target="_blank" title="Facebook">Facebook</a></li>       <li><a href="https://twitter.com/GiveWell" class="twitter" target="_blank" title="Twitter">Twitter</a></li>       <li><a href="https://www.linkedin.com/company/givewell/" class="linkedin" title="LinkedIn">Linkedin</a></li> </ul> </div> <div class="subscribe"> <h2>Subscribe to email updates:</h2> <form action="https://eepurl.com/gJx5aT" class="email-subscribe" target="_blank" method="post"><input type="text" name="EMAIL" id="txt-email" placeholder="email address"><input type="hidden" name="MERGE1" id="txt-name" value="."><input type="submit" value="Submit" title="Submit"></form></div> <div class="copyright">GiveWell, aka The Clear Fund (a tax-exempt 501(c)(3) public charity), was founded in 2007. We serve donors across the globe; GiveWell's donors are based primarily in the United States, United Kingdom, Australia, Germany, and Canada. This work is licensed under a Creative Commons <span class="nowrap">Attribution-Noncommercial-Share</span> alike 3.0 United States License</div></div>
-      
+
     </div>
 </div>
 
@@ -3179,7 +3179,7 @@ The main cost elements include: the programme specific expenditure; the opportun
 </div>
       </div>
     </footer>
-  
+
 </div>
 
 </div>

@@ -45,7 +45,7 @@
 
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<title>Real Estate CEO Pro-Recession If It Benefits Employers</title>
 	<meta name="description" content="The executive told Wall Street analysts that a recession could “good” if “unemployment … puts employers back in the driver seat.”" />
 	<link rel="canonical" href="https://theintercept.com/2022/08/24/unemployment-recession-worker-power-douglas-emmett/" />
@@ -166,7 +166,7 @@
   </a>
 
 <div id="page" class="min-h-screen flex flex-col">
-    
+
 <header class="site-header z-[100] xl:z-50 site-header--article xl:grid-cols-article-header xl:grid w-full fixed top-[var(--safe-top)] left-0 print:static print:flex print:justify-center">
   <div
       class="site-header__logo-wrapper h-[77px] xl:h-[110px] w-full pl-5 sm:pl-10 xl:pl-[30px] flex relative border-b border-b-[#333] xl:border-b-0 print:bg-transparent bg-body print:w-auto print:pl-0"
@@ -179,13 +179,13 @@
           data-ga-track="site navigation"
           data-ga-track-action="logo click"
       >
-        
+
 <svg viewBox="0 0 140 50" aria-label="The Intercept" fill="currentColor" class=""><path d="M51.731 30.458c1.246 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766M40.789 8.601c1.247 0 2.265 1.424 2.265 3.206l-4.606.559c.127-2.442.891-3.765 2.341-3.765m51.985 21.857c1.247 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766m35.521 16.005H140v-2.188h-11.705v2.188zm-21.653-14.784c.279-.101.61-.178 1.272-.178 2.544 0 4.275 1.68 4.275 5.42 0 3.104-1.705 5.216-4.173 5.216a4.68 4.68 0 0 1-1.374-.229V31.679zm-37.99 1.527h3.18v-4.097c-.61-.254-1.017-.356-1.603-.356-.992 0-2.188.662-3.435 1.654l-.916.713v-2.367h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h9.313v-.865l-2.367-.763v-9.39c.611-.229 1.68-.407 1.934-.407l.84 1.374zm11.832-4.453c-3.995 0-8.372 2.494-8.372 8.066 0 4.631 3.079 6.82 6.412 6.82 1.146 0 2.469-.153 4.402-.967l2.341-.993-.33-.916c-.586.229-1.4.382-2.545.382-3.155 0-5.547-1.883-5.547-6.132 0-2.952 1.705-4.555 3.257-4.555.153 0 .331.025.484.102l1.399 2.646h2.926v-3.613c-1.17-.433-2.773-.84-4.427-.84m43.308-2.264h-1.171l-5.521 3.18v1.069l1.857.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.33.076-.916.101-1.246.101-1.858 0-3.079-.687-3.079-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm-83.664 0h-1.171l-5.522 3.18v1.069l1.858.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.331.076-.916.101-1.247.101-1.857 0-3.078-.687-3.078-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm18.498 8.804v-.407c0-2.189-1.476-6.133-6.437-6.133-3.766 0-7.558 2.494-7.558 8.066 0 4.555 3.334 6.82 6.972 6.82 1.069 0 2.621-.178 4.428-.967l2.264-.993-.33-.916c-.586.229-1.4.382-2.596.382-2.799 0-5.878-1.628-6.005-5.852h9.262zm41.044 0v-.407c0-2.189-1.476-6.133-6.438-6.133-3.766 0-7.557 2.494-7.557 8.066 0 4.555 3.333 6.82 6.972 6.82 1.068 0 2.62-.178 4.427-.967l2.265-.993-.331-.916c-.585.229-1.4.382-2.596.382-2.798 0-5.877-1.628-6.005-5.852h9.263zM47.685 13.435v-.407c0-2.188-1.476-6.132-6.438-6.132-3.766 0-7.557 2.493-7.557 8.066 0 4.555 3.333 6.819 6.972 6.819 1.069 0 2.621-.178 4.427-.967l2.265-.992-.331-.916c-.585.229-1.399.382-2.595.382-2.799 0-5.878-1.629-6.005-5.853h9.262zM6.438 25.598v15.725l-2.468.942v.992h10.865v-.992l-2.468-.942V25.598l2.468-.942v-.992H3.97v.992l2.468.942zm25.343 16.031V33.74c0-2.926-1.094-4.987-4.045-4.987-1.222 0-2.138.382-3.334.916l-2.163.942v-1.858h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h8.804v-.865l-1.858-.763v-9.924c.458-.127 1.247-.204 1.833-.204 1.577 0 2.875.865 2.875 3.461v6.667l-1.858.763v.865h8.804v-.865l-2.112-.763zm74.861-12.876h-.662l-6.285 1.272v.967l2.112.637v15.598l-2.112.763v.865h9.567v-.865l-2.62-.763v-3.588h.992c5.954 0 9.287-3.614 9.287-8.626 0-4.301-3.002-6.26-5.241-6.26-.891 0-2.443.535-3.868 1.247l-.967.483h-.203v-1.73zm-75.115-8.982v-7.888c0-2.926-1.094-4.987-4.046-4.987-1.221 0-2.137.381-3.333.916l-2.163.941V0h-.662l-4.911 1.807H0v4.911h2.316l.941-3.028h3.181v15.776l-2.468.941v.993h10.61v-.993l-2.213-.941V3.69h4.783v16.081l-1.857.763v.866h8.55v-.866l-1.858-.763V9.873c.458-.127 1.247-.229 1.832-.229 1.578 0 2.875.865 2.875 3.46v6.667l-1.857.763v.866h8.804v-.866l-2.112-.763z"/></svg>
       </a>
 
 <div class="ml-auto site-header__logo-container flex xl:ml-0 xl:-order-1 h-[77px] xl:h-auto">
                   <div class="xl:hidden flex items-center">
-            
+
 <a
   class="need-originating-referrer px-5 uppercase w-max font-sans text-accentDark leading-6 text-base font-bold flex"
   href="https://join.theintercept.com/donate/now/?source=web_intercept_20250310_Main-Menu-CTA_support-us&#038;referrer_post_id=405939&#038;referrer_url=https%3A%2F%2Ftheintercept.com%2F2022%2F08%2F24%2Funemployment-recession-worker-power-douglas-emmett%2F"
@@ -193,7 +193,7 @@
   >
   Support Us</a>
           </div>
-        
+
         <div class="print:hidden header__hamburger flex border-l border-l-[#333] px-5 xl:border-l-0 xl:px-0 items-center">
           <button
               type="button"
@@ -209,7 +209,7 @@
             class="print:hidden dynamic-support-button absolute right-0 bottom-0 hidden xl:flex z-[-1] [&.button-visible]:translate-y-full transition-transform duration-150"
             data-module="DynamicSupportButton"
         >
-          
+
 <a
   class="need-originating-referrer p-4 uppercase font-sans text-white font-bold flex bg-accentLight text-[18px]"
   href="https://join.theintercept.com/donate/now/?source=web_intercept_20250310_Main-Menu-CTA_support-us&#038;referrer_post_id=405939&#038;referrer_url=https%3A%2F%2Ftheintercept.com%2F2022%2F08%2F24%2Funemployment-recession-worker-power-douglas-emmett%2F"
@@ -237,7 +237,7 @@
       data-ga-track="site navigation"
       data-ga-track-action="logo click"
     >
-      
+
 <svg viewBox="0 0 140 50" aria-label="The Intercept" fill="currentColor" class=""><path d="M51.731 30.458c1.246 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766M40.789 8.601c1.247 0 2.265 1.424 2.265 3.206l-4.606.559c.127-2.442.891-3.765 2.341-3.765m51.985 21.857c1.247 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766m35.521 16.005H140v-2.188h-11.705v2.188zm-21.653-14.784c.279-.101.61-.178 1.272-.178 2.544 0 4.275 1.68 4.275 5.42 0 3.104-1.705 5.216-4.173 5.216a4.68 4.68 0 0 1-1.374-.229V31.679zm-37.99 1.527h3.18v-4.097c-.61-.254-1.017-.356-1.603-.356-.992 0-2.188.662-3.435 1.654l-.916.713v-2.367h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h9.313v-.865l-2.367-.763v-9.39c.611-.229 1.68-.407 1.934-.407l.84 1.374zm11.832-4.453c-3.995 0-8.372 2.494-8.372 8.066 0 4.631 3.079 6.82 6.412 6.82 1.146 0 2.469-.153 4.402-.967l2.341-.993-.33-.916c-.586.229-1.4.382-2.545.382-3.155 0-5.547-1.883-5.547-6.132 0-2.952 1.705-4.555 3.257-4.555.153 0 .331.025.484.102l1.399 2.646h2.926v-3.613c-1.17-.433-2.773-.84-4.427-.84m43.308-2.264h-1.171l-5.521 3.18v1.069l1.857.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.33.076-.916.101-1.246.101-1.858 0-3.079-.687-3.079-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm-83.664 0h-1.171l-5.522 3.18v1.069l1.858.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.331.076-.916.101-1.247.101-1.857 0-3.078-.687-3.078-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm18.498 8.804v-.407c0-2.189-1.476-6.133-6.437-6.133-3.766 0-7.558 2.494-7.558 8.066 0 4.555 3.334 6.82 6.972 6.82 1.069 0 2.621-.178 4.428-.967l2.264-.993-.33-.916c-.586.229-1.4.382-2.596.382-2.799 0-5.878-1.628-6.005-5.852h9.262zm41.044 0v-.407c0-2.189-1.476-6.133-6.438-6.133-3.766 0-7.557 2.494-7.557 8.066 0 4.555 3.333 6.82 6.972 6.82 1.068 0 2.62-.178 4.427-.967l2.265-.993-.331-.916c-.585.229-1.4.382-2.596.382-2.798 0-5.877-1.628-6.005-5.852h9.263zM47.685 13.435v-.407c0-2.188-1.476-6.132-6.438-6.132-3.766 0-7.557 2.493-7.557 8.066 0 4.555 3.333 6.819 6.972 6.819 1.069 0 2.621-.178 4.427-.967l2.265-.992-.331-.916c-.585.229-1.399.382-2.595.382-2.799 0-5.878-1.629-6.005-5.853h9.262zM6.438 25.598v15.725l-2.468.942v.992h10.865v-.992l-2.468-.942V25.598l2.468-.942v-.992H3.97v.992l2.468.942zm25.343 16.031V33.74c0-2.926-1.094-4.987-4.045-4.987-1.222 0-2.138.382-3.334.916l-2.163.942v-1.858h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h8.804v-.865l-1.858-.763v-9.924c.458-.127 1.247-.204 1.833-.204 1.577 0 2.875.865 2.875 3.461v6.667l-1.858.763v.865h8.804v-.865l-2.112-.763zm74.861-12.876h-.662l-6.285 1.272v.967l2.112.637v15.598l-2.112.763v.865h9.567v-.865l-2.62-.763v-3.588h.992c5.954 0 9.287-3.614 9.287-8.626 0-4.301-3.002-6.26-5.241-6.26-.891 0-2.443.535-3.868 1.247l-.967.483h-.203v-1.73zm-75.115-8.982v-7.888c0-2.926-1.094-4.987-4.046-4.987-1.221 0-2.137.381-3.333.916l-2.163.941V0h-.662l-4.911 1.807H0v4.911h2.316l.941-3.028h3.181v15.776l-2.468.941v.993h10.61v-.993l-2.213-.941V3.69h4.783v16.081l-1.857.763v.866h8.55v-.866l-1.858-.763V9.873c.458-.127 1.247-.229 1.832-.229 1.578 0 2.875.865 2.875 3.46v6.667l-1.857.763v.866h8.804v-.866l-2.112-.763z"/></svg>
     </a>
   </div>
@@ -266,7 +266,7 @@
 <li id="menu-item-490652" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-490652"><a href="https://theintercept.com/collections/chilling-dissent/">Chilling Dissent</a></li>
 </ul></div>
           <a class="offcanvas__cta" href="https://join.theintercept.com/donate/now/?source=web_intercept_20250310_Main-Menu-CTA_support-us&#038;referrer_url=https%3A%2F%2Ftheintercept.com%2F" target="_blank">Support Us <span class="font-icons icon-TI_Arrow_02_Right ml-1.5"></span></a>
-    
+
     <div id="offcanvas-menu-2" class="menu-menu-2-container"><ul id="menu-menu-2" class="offcanvas__menu offcanvas__menu--2"><li id="menu-item-427785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-427785"><a href="https://theintercept.com/special-investigations/">Special Investigations</a></li>
 <li id="menu-item-427786" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-427786"><a href="https://theintercept.com/voices/">Voices</a></li>
 <li id="menu-item-427789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-427789"><a href="/podcasts/">Podcasts</a></li>
@@ -391,10 +391,10 @@
     </ul>
 
 <div class="offcanvas__small-text">
-      
+
               <p>© THE INTERCEPT</p>
                     <p>ALL RIGHTS RESERVED</p>
-      
+
               <div class="flex gap-5 mt-7">
                       <a href="https://theintercept.com/terms-use/" >Terms of Use</a>
                                 <a href="https://theintercept.com/privacy-policy/" >Privacy</a>
@@ -426,7 +426,7 @@
             About          </a>
         </li>
                   <li class="flex flex-grow">
-            
+
 <a
   class="need-originating-referrer flex px-[15px] items-center flex-grow w-max leading-snug text-white bg-accentLight"
   href="https://join.theintercept.com/donate/now/?source=web_intercept_20250310_Main-Menu-CTA_support-us&#038;referrer_post_id=405939&#038;referrer_url=https%3A%2F%2Ftheintercept.com%2F2022%2F08%2F24%2Funemployment-recession-worker-power-douglas-emmett%2F"
@@ -439,9 +439,9 @@
   </div>
 </div>
     <div id="content" class="site-content flex-grow site-content--articles">
-      
+
       <main>
-        
+
 <article id="post-405939" class="relative xl:mt-[60px] print:mt-0 post-405939 post type-post status-publish format-standard has-post-thumbnail hentry category-politics">
   <header class="bg-body xl:bg-transparent article-header xl:max-w-[45rem] mx-auto px-5 sm:px-10 xl:px-5 pt-[77px] xl:pt-6 xl:border-l border-border print:pt-5 print:bg-transparent">
     <div class="max-w-[42.5rem] xl:max-w-none xl:mx-auto">
@@ -449,7 +449,7 @@
         Real Estate CEO: Recession Could Be “Good” If &#8220;Unemployment … Puts Employers Back in the Driver Seat&#8221;      </h1>
               <p class="post__excerpt mt-3">
           The executive told Wall Street analysts that joblessness could help companies “bring people back in the office … where they want them.”         </p>
-            
+
 <div class="article-byline mt-2.5 xl:mt-0 flex gap-2.5 justify-between article-byline--multiple pb-5 xl:pb-7 xl:pt-4">
   <div class="article-byline__wrapper flex gap-4">
           <div class="article-byline__avatar hidden md:flex gap-2.5">
@@ -622,7 +622,7 @@
         loading="eager"
     />
     <div class="max-w-[47.5rem] w-full xl:max-w-[45rem] xl:mx-auto px-5 sm:px-10 xl:px-5 xl:border-l border-border">
-    
+
 <div class="image__caption pt-3 mb-10 text-left font-mono text-[13px] leading-[1.53] text-body">
       <span>A man walks near the New York Stock Exchange on July 12, 2022, in New York.</span>
         <span class="text-[#7e7e7e]">Photo: John Smith/VIEWpress</span>
@@ -631,9 +631,9 @@
 <div
     class="entry-content entry-content--new"
     id="real-estate-ceo-recession-could-be-good-if-unemployment-puts-employers-back-in-the-driver-seat">
-  
+
   <div class="entry-content__content">
-    
+
     <p><u>The CEO and</u> president of Douglas Emmett Inc., a real estate corporation worth over $3 billion and based in Santa Monica, California, said on an August 2 <a href="https://www.fool.com/earnings/call-transcripts/2022/08/02/douglas-emmett-dei-q2-2022-earnings-call-transcrip/">corporate earnings call</a> that a recession could be “good” for the commercial real estate business “if it comes with a level of unemployment that puts employers back in the driver seat and allows them to get all their employees back into the office.” The executive, Jordan Kaplan, then repeated that “the thought would be that unemployment would be up. And therefore, employers would be in the driver seat to bring people back in the office, which is where they want them.”</p>
 <p>“Rather than that,” Kaplan added, “I would not be pleased to have us going into a recession.” He noted that “recessions are a revenue-hitting activity. And if my tenants are feeling the impact of recession, then I can&#8217;t imagine how I think that&#8217;s good.”</p>
 <p>Kaplan made the remarks in response to a question from Citigroup analyst Michael Griffin, who said that “we&#8217;ve seen some of your office peers come out and say potentially that a recession could be good for the office space. … Curious kind of to get your thoughts of what we could expect from an impact on the portfolio, just given the central recessionary environment on the horizon.”</p>
@@ -1041,7 +1041,7 @@
             $15          </label>
         </div>
           </div>
-  
+
   <div class="flex gap-1.5" role="group" aria-label="Select recurring period">
           <div class="max-w-[110px] flex flex-[0_1_110px]">
         <input
@@ -1132,7 +1132,7 @@
                 <span class="info">
                                       <a href="mailto:ken.klippenstein@theintercept.com" class="mr-2" data-module="AuthorEmail" >
                                       ken.klippenstein@theintercept.com                                      </a>
-                  
+
                                   </span>
               </span>
                                                                                                                                         <span class="author-footer-metadata">
@@ -1142,7 +1142,7 @@
                 <span class="info">
                                       <a href="https://twitter.com/kenklippenstein" class="mr-2">
                                       @kenklippenstein                                      </a>
-                  
+
                                       <span class="text-[#999]">on X</span>
                                   </span>
               </span>
@@ -1184,7 +1184,7 @@
                 <span class="info">
                                       <a href="mailto:jon.schwarz@theintercept.com" class="mr-2" data-module="AuthorEmail" >
                                       jon.schwarz@theintercept.com                                      </a>
-                  
+
                                   </span>
               </span>
                                                                                                                                         <span class="author-footer-metadata">
@@ -1194,7 +1194,7 @@
                 <span class="info">
                                       <a href="https://twitter.com/Schwarz" class="mr-2">
                                       @Schwarz                                      </a>
-                  
+
                                       <span class="text-[#999]">on X</span>
                                   </span>
               </span>
@@ -1212,7 +1212,7 @@
   <a class="content-card__link" href="https://theintercept.com/2022/08/10/intercepted-inflation-bank-of-america-worker-power/">
           <div class="content-card__image">
         <img width="440" height="440" src="https://theintercept.com/wp-content/uploads/2022/08/bankofamerica_intercepted.jpg?w=440&amp;h=440&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />      </div>
-    
+
     <div class="content-card__content">
       <h3 class="content-card__title">
         How Fiscal Hawks Are Using Inflation as an Excuse to Tamp Down Worker Power      </h3>
@@ -1224,7 +1224,7 @@
   <a class="content-card__link" href="https://theintercept.com/2022/07/29/bank-of-america-worker-conditions-worse/">
           <div class="content-card__image">
         <img width="440" height="440" src="https://theintercept.com/wp-content/uploads/2022/07/GettyImages-505563332-inflation-bank-of-america-1.jpg?w=440&amp;h=440&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="A customer uses an automated teller machine (ATM) inside of the Bank of America Corp. Financial Center in New York, U.S., on Friday, Jan. 12, 2016. Bank of America is scheduled to report earnings data on January 19. Photographer: John Taggart/Bloomberg via Getty Images" loading="lazy" />      </div>
-    
+
     <div class="content-card__content">
       <h3 class="content-card__title">
         Bank of America Memo, Revealed: “We Hope” Conditions for American Workers Will Get Worse      </h3>
@@ -1236,7 +1236,7 @@
   <a class="content-card__link" href="https://theintercept.com/2018/04/01/federal-job-guaranteed-jobs-program/">
           <div class="content-card__image">
         <img width="440" height="440" src="https://theintercept.com/wp-content/uploads/2018/03/Guaranteed-Jobs-1522357802.jpg?w=440&amp;h=440&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="NEW YORK - SEPTEMBER 18: People use a career center at the Brooklyn Public Library to look for job opportunities or career education courses on September 18, 2009 in the Brooklyn borough of New York City. While the nation&#039;s economy continues to show signs of recovery, joblessness remains stubborn. New York City&#039;s unemployment rate has now risen to a 16-year high at 10.3%.  (Photo by Spencer Platt/Getty Images)" loading="lazy" />      </div>
-    
+
     <div class="content-card__content">
       <h3 class="content-card__title">
         A Guaranteed &#8220;Jobs for All&#8221; Program Is Gaining Traction Among 2020 Democratic Hopefuls      </h3>
@@ -1248,7 +1248,7 @@
   <a class="content-card__link" href="https://theintercept.com/2017/07/17/the-incredible-lost-history-of-how-civil-rights-plus-full-employment-equals-freedom/">
           <div class="content-card__image">
         <img width="440" height="440" src="https://theintercept.com/wp-content/uploads/2017/07/civil-rights-full-employment-1500057052.jpg?w=440&amp;h=440&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="Large crowds gather at the Lincoln Memorial to demonstrate for the civil rights movement in Washington, D.C., on August 28, 1963. (AP Photo)" loading="lazy" />      </div>
-    
+
     <div class="content-card__content">
       <h3 class="content-card__title">
         The Incredible Lost History of How “Civil Rights Plus Full Employment Equals Freedom”      </h3>
@@ -1264,7 +1264,7 @@
   <h2 class="font-sans font-bold text-[20px] text-body mb-5 leading-[1.1] tracking-wider uppercase title-with-border">
     Latest Stories  </h2>
   <div class="space-y-[50px]">
-    
+
 <article class="wide-story-card">
   <a href="https://theintercept.com/2025/09/15/ice-deport-wire-transfer-surveillance-trac/" class="group flex flex-col items-start sm:flex-row gap-4 sm:gap-10">
     <div class="flex-1 xl:group-hover:bg-accentLight xl:group-focus:bg-accentLight">
@@ -1369,7 +1369,7 @@
     <div class="flex flex-col xl:flex-row flex-wrap">
       <div class="xl:w-1/2 mb-10 ml-[-3px] print:mb-0">
         <a href="/" class="w-[8.75rem] block text-body">
-          
+
 <svg viewBox="0 0 140 50" aria-label="The Intercept" fill="currentColor" class=""><path d="M51.731 30.458c1.246 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766M40.789 8.601c1.247 0 2.265 1.424 2.265 3.206l-4.606.559c.127-2.442.891-3.765 2.341-3.765m51.985 21.857c1.247 0 2.264 1.425 2.264 3.206l-4.605.56c.127-2.443.89-3.766 2.341-3.766m35.521 16.005H140v-2.188h-11.705v2.188zm-21.653-14.784c.279-.101.61-.178 1.272-.178 2.544 0 4.275 1.68 4.275 5.42 0 3.104-1.705 5.216-4.173 5.216a4.68 4.68 0 0 1-1.374-.229V31.679zm-37.99 1.527h3.18v-4.097c-.61-.254-1.017-.356-1.603-.356-.992 0-2.188.662-3.435 1.654l-.916.713v-2.367h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h9.313v-.865l-2.367-.763v-9.39c.611-.229 1.68-.407 1.934-.407l.84 1.374zm11.832-4.453c-3.995 0-8.372 2.494-8.372 8.066 0 4.631 3.079 6.82 6.412 6.82 1.146 0 2.469-.153 4.402-.967l2.341-.993-.33-.916c-.586.229-1.4.382-2.545.382-3.155 0-5.547-1.883-5.547-6.132 0-2.952 1.705-4.555 3.257-4.555.153 0 .331.025.484.102l1.399 2.646h2.926v-3.613c-1.17-.433-2.773-.84-4.427-.84m43.308-2.264h-1.171l-5.521 3.18v1.069l1.857.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.33.076-.916.101-1.246.101-1.858 0-3.079-.687-3.079-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm-83.664 0h-1.171l-5.522 3.18v1.069l1.858.178v10.076c0 1.807 1.425 2.647 3.435 2.647.942 0 2.697-.306 3.868-.662l2.035-.636-.178-.941c-.331.076-.916.101-1.247.101-1.857 0-3.078-.687-3.078-2.977v-7.455l4.351.229v-2.163h-4.351v-2.646zm18.498 8.804v-.407c0-2.189-1.476-6.133-6.437-6.133-3.766 0-7.558 2.494-7.558 8.066 0 4.555 3.334 6.82 6.972 6.82 1.069 0 2.621-.178 4.428-.967l2.264-.993-.33-.916c-.586.229-1.4.382-2.596.382-2.799 0-5.878-1.628-6.005-5.852h9.262zm41.044 0v-.407c0-2.189-1.476-6.133-6.438-6.133-3.766 0-7.557 2.494-7.557 8.066 0 4.555 3.333 6.82 6.972 6.82 1.068 0 2.62-.178 4.427-.967l2.265-.993-.331-.916c-.585.229-1.4.382-2.596.382-2.798 0-5.877-1.628-6.005-5.852h9.263zM47.685 13.435v-.407c0-2.188-1.476-6.132-6.438-6.132-3.766 0-7.557 2.493-7.557 8.066 0 4.555 3.333 6.819 6.972 6.819 1.069 0 2.621-.178 4.427-.967l2.265-.992-.331-.916c-.585.229-1.399.382-2.595.382-2.799 0-5.878-1.629-6.005-5.853h9.262zM6.438 25.598v15.725l-2.468.942v.992h10.865v-.992l-2.468-.942V25.598l2.468-.942v-.992H3.97v.992l2.468.942zm25.343 16.031V33.74c0-2.926-1.094-4.987-4.045-4.987-1.222 0-2.138.382-3.334.916l-2.163.942v-1.858h-.661l-6.285 1.272v.967l2.112.637v10l-2.112.763v.865h8.804v-.865l-1.858-.763v-9.924c.458-.127 1.247-.204 1.833-.204 1.577 0 2.875.865 2.875 3.461v6.667l-1.858.763v.865h8.804v-.865l-2.112-.763zm74.861-12.876h-.662l-6.285 1.272v.967l2.112.637v15.598l-2.112.763v.865h9.567v-.865l-2.62-.763v-3.588h.992c5.954 0 9.287-3.614 9.287-8.626 0-4.301-3.002-6.26-5.241-6.26-.891 0-2.443.535-3.868 1.247l-.967.483h-.203v-1.73zm-75.115-8.982v-7.888c0-2.926-1.094-4.987-4.046-4.987-1.221 0-2.137.381-3.333.916l-2.163.941V0h-.662l-4.911 1.807H0v4.911h2.316l.941-3.028h3.181v15.776l-2.468.941v.993h10.61v-.993l-2.213-.941V3.69h4.783v16.081l-1.857.763v.866h8.55v-.866l-1.858-.763V9.873c.458-.127 1.247-.229 1.832-.229 1.578 0 2.875.865 2.875 3.46v6.667l-1.857.763v.866h8.804v-.866l-2.112-.763z"/></svg>
         </a>
       </div>
@@ -1443,7 +1443,7 @@ _stq.push([ "clickTrackerInit", "220955519", "405939" ]);
               data-module-variant-percent-1="50"
         >
           <div data-variant="Control">
-        
+
 <div
   class="inline-wall invisible fixed top-0 left-0 z-[1000] w-full h-full transition-all duration-300 group"
   data-module="InlineWall"
@@ -1655,7 +1655,7 @@ _stq.push([ "clickTrackerInit", "220955519", "405939" ]);
             $15          </label>
         </div>
           </div>
-  
+
   <div class="flex gap-1.5" role="group" aria-label="Select recurring period">
           <div class="max-w-[110px] flex flex-[0_1_110px]">
         <input
@@ -1709,7 +1709,7 @@ _stq.push([ "clickTrackerInit", "220955519", "405939" ]);
 </div>
       </div>
           <div data-variant="After Test NoAds">
-        
+
 <div
   class="inline-wall invisible fixed top-0 left-0 z-[1000] w-full h-full transition-all duration-300 group"
   data-module="InlineWall"
@@ -1925,7 +1925,7 @@ _stq.push([ "clickTrackerInit", "220955519", "405939" ]);
             $15          </label>
         </div>
           </div>
-  
+
   <div class="flex gap-1.5" role="group" aria-label="Select recurring period">
           <div class="max-w-[110px] flex flex-[0_1_110px]">
         <input
@@ -2145,7 +2145,7 @@ _stq.push([ "clickTrackerInit", "220955519", "405939" ]);
             $15          </label>
         </div>
           </div>
-  
+
   <div class="flex gap-1.5" role="group" aria-label="Select recurring period">
           <div class="max-w-[110px] flex flex-[0_1_110px]">
         <input

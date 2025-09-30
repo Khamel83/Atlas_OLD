@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • October 10, 1999 
+Unknown author • October 10, 1999
 
 ![nytimes.com]()
 

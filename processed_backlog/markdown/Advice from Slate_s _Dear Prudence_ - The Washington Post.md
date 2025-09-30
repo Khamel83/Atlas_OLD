@@ -12,7 +12,7 @@
 
 # live.washingtonpost.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![live.washingtonpost.com]()
 

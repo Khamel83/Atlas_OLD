@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch." />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-35684 single-format-standard wp-theme-fd-modern-6-0 post-template post-template-single-feature-php elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,40 +436,40 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-feature-post" class="archive-post">
 
 <div class="centered sixteen columns">
-                
+
 	    <div class="meta-bar">
     		<strong><a href="https://flowingdata.com/category/projects/data-underload/" rel="category tag">Data Underload</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/kidding/" rel="tag">kidding</a>, <a href="https://flowingdata.com/tag/listicle/" rel="tag">listicle</a>    		    	</div><!-- end meta-bar -->
-        
-                
+
+
         	    <h1>19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch.</h1>
-		
-        
-    			
+
+
+
 	            <div class="author">
     		By <strong><a href="https://flowingdata.com/about" title="Visit Nathan Yau&#8217;s website" rel="author external">Nathan Yau</a></strong>
     	</div><!-- @end .author -->
-                
-		
-		        
-		
-		
+
+
+
+
+
                 <div class="archive-featured-image">
             		        <img fetchpriority="high" width="954" height="524" src="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" class="attachment-full size-full wp-post-image" alt="" title="19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch." decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png 954w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-210x115.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-720x395.png 720w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-768x422.png 768w" sizes="(max-width: 954px) 100vw, 954px" data-attachment-id="35695" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/mindblown-featured-pattern/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" data-orig-size="954,524" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mindblown-featured-pattern" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-720x395.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" />		            </div>
             </div>
 
 <div class="entry ten columns offset-by-three">
-                
-        
+
+
         <p>Many lists of maps promise to change the way you see the world, but this one actually does. The maps above don&#8217;t count towards the 19, so your world view hasn&#8217;t changed yet. However, the binocular-like image represents your upcoming experience. You look around. Nothing. Look more. Nothing. Then maps catch your eye, and boom. Something. Your life transforms into something you never thought possible. </p>
 <p>Time to blow your mind.<br />
 <span id="more-35684"></span></p>
@@ -516,16 +516,16 @@ img.wp-smiley, img.emoji {
 <p>Finally, we end on a relaxed note. Sometimes you must relax the mind so that you can blow it up again tomorrow.</p>
 <p><img loading="lazy" decoding="async" data-attachment-id="35701" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/kitten-states/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" data-orig-size="625,499" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Nappy nap." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-620x495.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" src="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" alt="Nappy nap." width="625" height="499" class="alignnone size-full wp-image-35701" srcset="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-210x167.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-620x495.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
 <p>It&#8217;s time for a short nap.</p>
-    
-	
-        
-		
+
+
+
+
     </div><!-- @end .entry -->
     <div class="clr"></div>
-    
+
 	<div class="ten columns offset-by-three" style="margin-bottom:1rem">
         <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -554,10 +554,10 @@ img.wp-smiley, img.emoji {
 
 <!-- </div> -->
 	</div>
-	
-    
-    
-    
+
+
+
+
 	<div class="clr"></div>
 
 <div id="join-now" style='margin-bottom:0;' class="sixteen columns">
@@ -568,12 +568,12 @@ img.wp-smiley, img.emoji {
     			                </div>
             </div>
 		</div><!-- @end #join-now -->
-	
+
 		<div class="clr"></div>
 
 <div id="favorites" class="container across post-list" style="margin-top:2rem;margin-bottom:0">
             <h3 class="toplevel sixteen columns" style="border-top:none">Favorites</h3>
-            
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2020/01/21/name-guess/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -583,8 +583,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2015/10/26/top-brewery-road-trip-routed-algorithmically/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -594,8 +594,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2019/06/14/kids-nokids/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -605,8 +605,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2020/08/04/finding-the-new-age-for-your-age/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -616,13 +616,13 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
+
                                 </div>
 
 </div><!-- @end #single-post -->
 
 <div class="clr"></div>
-        
+
 </div><!-- end #content-wrapper -->
 
 <div id="footer-wrapper">

@@ -94,7 +94,7 @@ window['optimizely'] = window['optimizely'] || []; window['optimizely'].push(["c
     })();
 </script>
 <script type="text/javascript">
-var utag_data = 
+var utag_data =
 {"page_level_1":"magazine","page_level_2":"story","page_level_3":"2015","page_level_4":"11","page_level_5":"paris-attacks-war-no-one-can-name-213364","organization_uuid":"anonymous","organization_name":"anonymous","user_login_type":"anonymous","us_em":"anonymous","content_uuid":"0000014c-eceb-dbae-af6f-fffb30d40000/00000151-10ba-d9e3-a5dd-d2beda6a0000","distribution_channel":"politico","content_id":"213364","lead_media":"full-width","content_tag":"Washington And The World|Paris Terror Attacks|ISIL|Terrorism|War|Military|Syria|POLITICO Magazine","free_paid_content":"free","publication_date":"20151116","site_section":"magazine","ad_unit_section":"magazine","viewport_ads_id":"pol-vp","event_type":"story","page_format":"1 of 1","magazine_content_format":"online","site_domain":"www.politico.com","site_url":"http://web.archive.org/web/20211021222354/https://www.politico.com/magazine/story/2015/11/paris-attacks-war-no-one-can-name-213364","internal_site_id":"politico-magazine","page_type":"story","content_byline":"By Michael Hirsh","content_author":"Michael Hirsh","content_source":"Magazine","original_headline":"The War No One Can Name","current_headline":"The War No One Can Name","page_name":"story - 213364 - 20151116 - The War No One Can Name","enable_prebid":"true"};
 
 utag_data["spokenlayer"] = document.getElementById('spokenlayer-audio-player-container') != null ? "true" : "false";

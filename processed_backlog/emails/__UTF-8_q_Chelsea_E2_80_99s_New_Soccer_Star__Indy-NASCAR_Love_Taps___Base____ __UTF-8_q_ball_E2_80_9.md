@@ -24,7 +24,7 @@ all the deal chatter in the owner’s suites and rumblings in corner offices. Th
 alert: The National Women’s Soccer League kicks off its 13th season next week, so I invited commissioner Jessica Berman on The Varsity podcast to discuss the league’s breakthrough 12th season, record attendance, and soaring TV viewership. (Check out a sneak preview, below.) Also, make sure you listen to yesterday’s podcast. Axios’s Sara Fischer and I covered Ted Leonsis’s growing media ambitions,
 among other topics.
 
- 
+
 
 Player of the Week: Nick Khan
 -----------------------------
@@ -33,7 +33,7 @@ It was hardly a surprise to see UFC president Dana White front and
 center during Wednesday’s announcement that parentco TKO would partner with the Saudis on a new boxing venture. White, after all, has always fantasized about expanding the UFC into boxing. But I was surprised to learn about the involvement of WWE president and TKO board member Nick Khan. Perhaps I shouldn’t have been. A former CAA agent, Khan enjoys massive influence at TKO given his expertise in media rights negotiations, live event promotion, and high-profile talent
 relations. Also, Khan began his sports career managing James “Lights Out” Toney and Manny Pacquiao…
 
- 
+
 
 Down to the J.V.: Nico Harrison
 -------------------------------
@@ -122,7 +122,7 @@ services.
 Sources describe talks on both these issues as far along, though no announcement is planned in the next few weeks. An understated goal for both companies is for ESPN to eventually offer the FanDuel R.S.N.s as add-on packages to its ESPN+ and Flagship subscribers, but sources insist that this is not part of the current talks—and probably won’t be anytime soon. Last November, Main Street entered into a deal to make its channels available on Amazon Prime, a deal that
 precludes other media companies from pursuing a similar framework for an undetermined length of time. To cut the Amazon deal, Main Street needed MLB’s approval. I can’t imagine the league would rubber-stamp a similar deal with a network that just walked away from a national package of games.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -137,7 +137,7 @@ think Nexstar could use local Nats rights for former-NBC-turned-indie WDVM (form
 On the MASN deal: “I don’t think anyone is shocked by this eventual
 outcome, although I’m very interested to see what comes in its place—and if it changes again in 2028, with Manfred’s desire to bring all of the broadcast rights together.” —A media veteran
 
- 
+
 
 Have a great weekend. See you Monday,
 John
@@ -163,7 +163,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVbldDp6bIxx9k0ugrypc=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

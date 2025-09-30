@@ -7,7 +7,7 @@
 
 # thisrecording Resources and Information.
 
-Unknown author • April 08, 2011 
+Unknown author • April 08, 2011
 
 ![thisrecording Resources and Information.](http://img.sedoparking.com/templates/logos/sedo_logo.png)
 

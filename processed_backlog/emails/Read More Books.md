@@ -75,7 +75,7 @@ So I’ll leave you with a passage from CS Lewis that Michael Dempsey tweeted th
 “If we are all going to be destroyed by an atomic bomb, let that bomb when it comes find us doing sensible and human things – praying, working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts – not huddled together like frightened sheep and thinking about bombs. They may break our bodies (any microbe can do that) but they need not dominate our minds.” 
 So go vote, enjoy today for what it is, spend time with family and friends, and read. 
 “In other words, do not let us begin by exaggerating the novelty of our situation.” 
-That’s all for today. We’ll be back in your inbox Friday with a Weekly Dose. 
+That’s all for today. We’ll be back in your inbox Friday with a Weekly Dose.
 God Bless America 🇺🇸
 Thanks for reading,
 Packy

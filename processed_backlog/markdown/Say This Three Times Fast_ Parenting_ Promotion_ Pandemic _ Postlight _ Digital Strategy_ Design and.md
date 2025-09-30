@@ -12,13 +12,13 @@
 
 # We are now Launch
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![We are now Launch](https://cdn.prod.website-files.com/651cafca3af6eb8924162286/652daff0ede5a828792f234e_63b5e422667c181974838148_Icon%2032.png)
 
-Hello, we're now  
-  
-Years in the making, Postlight will now be known as Launch by NTT DATA.  
-  
-This is not a mere change of logo, email address, or legal name, but rather the unification of Postlight with some of the best digital companies on the planet. 
+Hello, we're now
+
+Years in the making, Postlight will now be known as Launch by NTT DATA.
+
+This is not a mere change of logo, email address, or legal name, but rather the unification of Postlight with some of the best digital companies on the planet.
 

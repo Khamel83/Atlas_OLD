@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I wrote last Thursday about a speech that Gary Gensler, the chair of the US Securities and Exchange Commission, gave about securities regula
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Crypto rules
-    
-  
+
+
 
 I   wrote last Thursday about a speech that Gary Gensler, the chair of the US Securities and Exchange Commission, gave about securities regulation and crypto. My basic point was that Gensler wants the SEC to have jurisdiction over basically all of crypto, because basically every crypto token is a security, but that he does not seem to have any interest in writing new rules to accommodate the crypto market. Gensler’s approach would put the SEC in charge of crypto, and then more or less ban crypto, and I am not sure that is a winning position for him to take.
 Today I want to come back to one bit of  Gensler’s speech that I think represents an important philosophical disconnect between the SEC and the crypto world. Gensler said:
@@ -91,63 +91,63 @@ Temperamentally I do not think the SEC likes this, and I think that Gensler mean
 For the SEC, having the rules develop informally by a process of collaboration makes sense. Someone comes in and says “can we do X?” You meet them. You ask them questions. You look them in the eye. You look at their backgrounds and their backers and get a sense of whether they are good people. (The fact that they came to you suggests that they want to be compliant; people who just read the rules on their own might be dodging your scrutiny.) They tell you what they’re doing and you evaluate it and you say “sure yeah that seems fine, for you.” They go off and do it and you see if it works. If it works out okay, then you are a little bit more generous to the next person who walks into your office looking to do something similar. If it works out terribly, then you walk it back. You proceed incrementally, by trial and error, evaluating each request not just on how well it complies with the specific written rules but on what you think about the project, its promoters and their motivations. If some big regulated public company shows up at your office with a bunch of former SEC lawyers and asks to do a thing, you might let them. If two scruffy 20-somethings show up at your office with no lawyers at all and ask to do the same thing, you might not. These choices might be totally rational as a matter of investor protection and incremental development of the rules in a new area. 
 Philosophically I sympathize with the crypto industry here: There should be clear rules that are open and available to everyone. Practically I am pretty sympathetic to the SEC. But mostly I just want to point out that there is a disconnect. And if your vision of crypto is about disrupting the traditional financial system, then this might look like the SEC protecting the traditional system from disruption. “Just come in and talk to us,” the SEC says, but you might hear that as “you can’t do anything in crypto without talking to us first.” 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Twitter vote
-    
-  
+
+
 
 Twitter Inc.’s shareholders are voting today on whether to sell the company to Elon Musk at $54.20 per share. Twitter closed yesterday at $41.41 per share. There is not much suspense here. If you have stock that is worth $41.41 per share, and someone wants to buy it from you at $54.20, you should let him. Twitter is easily going to get its votes.
   [1]
@@ -162,20 +162,20 @@ A third complication is that Twitter’s  biggest shareholder is, uh, Elon Musk,
   [3]
  and he’s trying to get out of the deal. Could he vote his 9.5% stake in Twitter against the deal, thus preventing it from closing? Well. The merger agreement (section 6.2(d)) says that he has to vote in favor of the deal, but he claims to have terminated the agreement (three times!) so perhaps he no longer feels bound by that, and it is a bit awkward for him to vote yes on a deal that he wants to get out of. What will he do? Eh, it doesn’t really matter; I’m pretty sure that Twitter is going to get a huge majority and won’t actually need Musk’s votes.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Twitter whistle-blower
-    
-  
+
+
 
 Surely the   highest-variance aspect of the Twitter vs. Musk saga is Zatko’s whistle-blower complaint. If Zatko can make a compelling case that Twitter is horribly bad — that its information security is so bad that it violates the law, that it has fraudulently concealed its problems, etc. — then that is probably Musk’s best argument to get out of the deal: Twitter is doing fraud, it has suffered a material adverse effect, etc. If Zatko is just a run-of-the-mill paranoid security researcher who is aggrieved about being fired and making mountains out of molehills, then his complaint will quickly be kicked out of court and won’t affect the Musk deal. Zatko’s credibility — whether he’s telling the truth, and also whether he is exaggerating or underselling the importance of Twitter’s problems — is a key input into your evaluation of Twitter’s stock value. The more credible he is, the less likely it is that Twitter will get $54.20 per share, and the less Twitter will be worth without Musk’s deal.
 So if you are a hedge fund, or an expert-network firm working on behalf of hedge funds, you obviously want to know how credible he is. You might, for instance, want to talk to some of his old coworkers to get a feel for him. You might offer to pay them a lot of money for a one-hour phone call, because you might have a lot of money riding on the Twitter deal, which means specifically that you have a lot of money riding on your evaluation of Zatko’s credibility.
@@ -186,11 +186,11 @@ That said I particularly enjoyed this reaction:
 Two members of Musk’s team, who asked not to be named, owing to the sensitivity of the ongoing litigation, said that they also had no connection to the inquiries. “There’s a lot of hedge funds currently betting that the deal flows. And so they’re doing everything they possibly can to undermine that not happening,” one of them told me. “It’s obviously wrong. You can’t discredit a witness, as opposed to listening to what he has to say and taking seriously these security threats. . . . That should be the priority, not making a buck.”
 Yeah no of course, right, Elon Musk’s priority in evaluating Zatko’s complaint is solely about “taking seriously these security threats”; he has no economic interest at all in Zatko’s credibility and is just dispassionately following the truth wherever it leads.
 
-  
-    
+
+
       People are worried about bond market liquidity
-    
-  
+
+
 
 This theme is   having a nice little comeback:
 
@@ -200,11 +200,11 @@ Among other suggestions, a report from the nearly $2 trillion asset manager urge
 
 Here is  the report. When I was young and naive, I thought that “all-to-all trading” meant that big asset managers like Pimco would want to sell bonds, and big asset managers like BlackRock Inc. would want to buy bonds, and they would meet on some sort of exchange platform and trade bonds with each other. But the stock market is all-to-all, and it’s mostly big asset managers trading stocks with intermediaries: High-frequency traders buy from the sellers and sell to the buyers. I suppose it’s more electronic and competitive — the HFTs are largely “non-bank liquidity providers” — but still, it’s not easy to get rid of middlemen.
 
-  
-    
+
+
       How M&A happens
-    
-  
+
+
 
 Last week Anthony Scaramucci’s SkyBridge Capital   announced that Sam Bankman-Fried’s FTX Ventures would acquire 30% of SkyBridge; the deal apparently also includes an option for FTX to buy 85% of SkyBridge. From the outside it is not hard to guess at the motivations of the principals. Bankman-Fried has lots of money and has been an opportunistic acquirer in a crypto bear market; buying SkyBridge presumably gives him some more mainstream distribution for crypto products. Scaramucci has had a rough year and needs the money;  the Financial Times reports:
 
@@ -218,15 +218,15 @@ He said he proposed lunch to discuss the possibility of a partnership, as well a
 
 What percentage of mergers and acquisitions do you think are driven by people trying to avoid spending time with their children? 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US   Inflation Tops Forecasts, Cementing Odds of Big Fed Hike. Congresspeople just love  trading individual stocks. U.S. Banks Lost a Record  $370 Billion in Deposits Last Quarter. How Wall Street stormed  the music business. Wall Street-Backed Crypto Exchange   EDX Markets Is Set for November Debut. KKR Makes Piece of PE Fund Available  on Public Blockchain. Fidelity Weighs  Bitcoin Trading on Brokerage Platform. SEC Charges  VMware with Misleading Investors by Obscuring Financial Performance. Tippee Pleads Guilty In First Ever  Cryptocurrency Insider Trading Case. Beware  Ryan Cohen, the Meme-Stock King. The Billionaire Hedge Fund Manager Who Wants to Build NFL Rosters.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is different from Digital World Acquisition Corp., the special purpose acquisition company that has a deal to buy Donald Trump’s social media company and   can’t get the votes to extend the deadline to complete that deal, for a couple of reasons. The main one is probably that Twitter is owned by index funds, merger arbitrageurs and other institutions, while DWAC is mainly owned by retail Trump enthusiasts, who tend not to vote. But also voting on a merger is slightly more salient than voting on a necessary extension to complete that merger. “Do you want $54.20” is a simple question; “do you want to delay a year to have a good chance of getting $25-ish of value rather than getting $10.20 next week” is more confusing.
 
 
@@ -236,114 +236,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The link in that sentence goes to Twitter’s merger proxy, which lists Vanguard Group as the biggest shareholder, a footnote cites to an April 8 Vanguard filing for Vanguard’s holdings. Bloomberg’s HDS page shows Vanguard disposing of some shares after that filing but before the record date for the Twitter meeting, leaving Musk as the biggest shareholder. Either way it’s close though.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

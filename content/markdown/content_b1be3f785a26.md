@@ -74,11 +74,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div data-nc-container="top-left">
       <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
-        
-          
+
+
             Wes Kao
-          
-        
+
+
       </a>
     </div>
     <div data-nc-container="top-center"></div>
@@ -124,10 +124,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </button>
     </div>
     <div data-nc-container="bottom-center">
-      
+
     </div>
     <div data-nc-container="bottom-right">
-      
+
       <a href="/search" class="Mobile-bar-search" data-nc-element="search-icon" aria-label="Search">
         <svg class="Icon Icon--search" viewBox="0 0 20 20">
           <use xlink:href="/assets/ui-icons.svg#search-icon"></use>
@@ -140,68 +140,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
       <div class="Mobile-overlay-menu-main">
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
-          
-  
-    
-      
-        
+
+
+
+
+
           <a href="/about" class="Mobile-overlay-nav-item">
             About
           </a>
-        
-      
-    
-    
-  
-    
-      
-        
+
+
+
+
+
+
+
+
           <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="articles">
             <span class="Mobile-overlay-nav-item--folder-label">Resources</span>
           </button>
-        
-      
-    
-    
-  
-    
-    
+
+
+
+
+
+
+
       <a href="https://maven.com/wes-kao/executive-communication-influence" target="_blank" class="Mobile-overlay-nav-item">
         Course
       </a>
-    
-  
-    
-      
-        
+
+
+
+
+
           <a href="/coaching" class="Mobile-overlay-nav-item">
             Coaching
           </a>
-        
-      
-    
-    
-  
-    
-      
-        
+
+
+
+
+
+
+
+
           <a href="/contact" class="Mobile-overlay-nav-item">
             Contact
           </a>
-        
-      
-    
-    
-  
-    
-    
+
+
+
+
+
+
+
       <a href="https://weskao.com/newsletter-homepage" class="Mobile-overlay-nav-item">
         Newsletter
       </a>
 
 </nav>
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
-          
+
         </nav>
       </div>
       <div class="Mobile-overlay-folders" data-content-field="navigation">
@@ -210,25 +210,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="articles">
         <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
       </button>
-      
-        
+
+
           <a href="/best-articles" class="Mobile-overlay-folder-item">
             Popular posts
           </a>
-        
-      
-        
+
+
+
           <a href="/resources" class="Mobile-overlay-folder-item">
             Articles
           </a>
-        
-      
-        
+
+
+
           <a href="/podcasts" class="Mobile-overlay-folder-item">
             Podcasts
           </a>
-        
-      
+
+
     </div>
 
 </div>
@@ -244,18 +244,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="Parallax-host-outer">
       <div class="Parallax-host" data-parallax-host>
-        
-          
-            
-              
-                
-                
-                  
-                
-              
-            
-          
-        
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
 
@@ -282,16 +282,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </div>
           <div data-nc-container="top-center">
-            
-            
+
+
               <div class="Header-social" data-nc-element="social">
-                
+
   <nav class="SocialLinks" data-content-field="connected-accounts">
     <div class="SocialLinks-inner">
     <a href="https://x.com/Entrepreneur/status/1443637810582462469" target="_blank" class="SocialLinks-link x-formerly-twitter-unauth" style="">
         <div>
           <svg class="SocialLinks-link-svg" viewBox="0 0 64 64">
-            
+
             <use class="SocialLinks-link-icon" xlink:href="#x-formerly-twitter-unauth-icon"></use>
             <use class="SocialLinks-link-mask" xlink:href="#x-formerly-twitter-unauth-mask"></use>
           </svg>
@@ -301,7 +301,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </nav>
 
 </div>
-            
+
           </div>
           <div data-nc-container="top-right">
 
@@ -315,26 +315,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
             <div data-nc-container="bottom-left">
               <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
-                
+
   <div class="Header-nav-inner">
     <a href="/about" class="Header-nav-item" data-test="template-nav">About</a><span class="Header-nav-item Header-nav-item--folder">
 
 <a href="/articles" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">Resources</a>
 
 <span class="Header-nav-folder">
-        
-          
+
+
             <a href="/best-articles" class="Header-nav-folder-item" data-test="template-nav">Popular posts</a>
-          
-        
-          
+
+
+
             <a href="/resources" class="Header-nav-folder-item" data-test="template-nav">Articles</a>
-          
-        
-          
+
+
+
             <a href="/podcasts" class="Header-nav-folder-item" data-test="template-nav">Podcasts</a>
-          
-        
+
+
       </span>
     </span><a href="https://maven.com/wes-kao/executive-communication-influence" target="_blank" class="Header-nav-item">Course</a><a href="/coaching" class="Header-nav-item Header-nav-item--active" data-test="template-nav">Coaching</a><a href="/contact" class="Header-nav-item" data-test="template-nav">Contact</a><a href="https://weskao.com/newsletter-homepage" class="Header-nav-item">Newsletter</a>
   </div>
@@ -344,18 +344,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div data-nc-container="bottom-center">
 
 <a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
-                
-                  
+
+
                     Wes Kao
-                  
-                
+
+
               </a>
 
 </div>
             <div data-nc-container="bottom-right">
 
 <nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav" data-content-field="navigation">
-                
+
               </nav>
 
 </div>
@@ -365,7 +365,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="Content-outer">
 
 <main class="Main Main--page" >
-            
+
               <section class="Main-content" data-content-field="main-content">
                 <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1750178319297" id="page-65dfa235777535444ce4ecef"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-sqsp-block="text" id="block-65dfa235777535444ce4ecf0"><div class="sqs-block-content">
 
@@ -379,16 +379,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="form-submission-html-66319a466ee402133c1718f3" class="sqs-form-block-submission-html" data-submission-html=""></div>
 
 <div class="sqs-site-style-form form-wrapper"
-  
+
 >
-  
+
   <div class="form-inner-wrapper"  hidden>
     <form
        data-form-id="66319a466ee402133c1718f3"
        data-success-redirect=""
        data-dynamic-strings
        autocomplete="on"
-       
+
        method="POST"
        action="https://wes-kao-2las.squarespace.com"
        novalidate
@@ -402,40 +402,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
   return false;
 })(this);"
-       
+
     >
-      
+
         <div class="field-list clear">
 
 <div id="text-f1098535-8643-4e40-b769-c8b1848753bf" class="form-item field text required">
-                
+
             <label class="title" for="text-f1098535-8643-4e40-b769-c8b1848753bf-field">
               Name
-              
+
                 <span class="required" aria-hidden="true">*</span>
-              
+
             </label>
-          
-                
+
+
                 <input
                     class="field-element text"
                     type="text"
                     id="text-f1098535-8643-4e40-b769-c8b1848753bf-field"
-                    
+
                     aria-required="true"
                 />
               </div>
 
 <div id="email-yui_3_17_2_1_1714525575794_21878" class="form-item field email required">
-                
+
             <label class="title" for="email-yui_3_17_2_1_1714525575794_21878-field">
               Email
-              
+
                 <span class="required" aria-hidden="true">*</span>
-              
+
             </label>
-          
-                
+
+
                 <input
                     class="field-element"
                     id="email-yui_3_17_2_1_1714525575794_21878-field"
@@ -443,81 +443,81 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     type="email"
                     autocomplete="email"
                     spellcheck="false"
-                    
+
                     aria-required="true"
                 />
               </div>
 
 <div id="text-b0c115bb-187a-4983-be70-03c4d8accfe3" class="form-item field text required">
-                
+
             <label class="title" for="text-b0c115bb-187a-4983-be70-03c4d8accfe3-field">
               LinkedIn URL
-              
+
                 <span class="required" aria-hidden="true">*</span>
-              
+
             </label>
-          
-                
+
+
                 <input
                     class="field-element text"
                     type="text"
                     id="text-b0c115bb-187a-4983-be70-03c4d8accfe3-field"
-                    
+
                     aria-required="true"
                 />
               </div>
 
 <div id="text-c6a37c4d-afc1-448b-88ff-f2e725503472" class="form-item field text">
-                
+
             <label class="title" for="text-c6a37c4d-afc1-448b-88ff-f2e725503472-field">
               Company
-              
+
             </label>
-          
-                
+
+
                 <input
                     class="field-element text"
                     type="text"
                     id="text-c6a37c4d-afc1-448b-88ff-f2e725503472-field"
-                    
-                    
+
+
                 />
               </div>
 
 <fieldset
                   id="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb"
                   class="form-item field checkbox"
-                  
+
               >
-                
+
             <legend class="title">
               I'm interested in
-              
+
             </legend>
-          
-                
-                
+
+
+
                 <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="1:1 Executive coaching"/> 1:1 Executive coaching</label></div>
-                
+
                 <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="Advisory consulting"/> Advisory consulting</label></div>
-                
+
                 <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="Keynote (fireside chat, all-hands, ERG, etc)"/> Keynote (fireside chat, all-hands, ERG, etc)</label></div>
-                
+
               </fieldset>
 
 <div id="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53" class="form-item field textarea">
-                
+
             <label class="title" for="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53-field">
-              What would you like to work on together? 
-              
+              What would you like to work on together?
+
             </label>
-          
+
                 <div class="description">Please share a bit more about your situation, what gaps you want to fill, and the impact it would make for you. I look forward to learning more about you!</div>
                 <textarea
                     class="field-element "
                     id="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53-field"
-                    
-                    
+
+
                 ></textarea>
               </div>
 
@@ -525,8 +525,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="captcha-container
         align-left
-        
-        
+
+
         "
         data-theme="light"
       ></div>
@@ -534,7 +534,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div data-animation-role="button"
         class="
           form-button-wrapper
-          
+
         "
       >
         <input
@@ -558,7 +558,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </div></div></div></div></div>
               </section>
-            
+
           </main>
 
 </div>

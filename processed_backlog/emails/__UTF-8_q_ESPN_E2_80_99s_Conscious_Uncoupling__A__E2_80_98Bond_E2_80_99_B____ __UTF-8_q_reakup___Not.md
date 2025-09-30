@@ -26,7 +26,7 @@ Rubio’s layering at State; and Peter Hamby surveyed the left’s ’28 options
 
 Check out these stories, and others, via the links below. And stick around for the backstory on how it all came together.
 
- 
+
 
 FASHION
 FASHION
@@ -43,7 +43,7 @@ meanwhile…
 
 Sarah Shapiro has more info ( https://puck.news/how-stauds-new-fundraising-will-help-it-scale/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the new Staud financing.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -56,7 +56,7 @@ and…
 
 Julie Davich assesses ( https://puck.news/inside-the-growing-market-for-gertrude-abercrombies-art/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Gertrude Abercrombie’s growing market.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -72,7 +72,7 @@ meanwhile…
 
 Eriq Gardner contextualizes ( https://puck.news/two-hollywood-vaccine-mandate-cases-could-soon-face-a-jury/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a game-changing lawsuit.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -80,7 +80,7 @@ WALL STREET
 Bill Cohan
 unpacks ( https://puck.news/maybe-elon-musks-x-isnt-such-a-financial-disaster-after-all/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the X turnaround and captures ( https://puck.news/richard-haass-and-the-wise-men-of-wall-street-sound-off-on-trump/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the banker chatter about Trump.
 
- 
+
 
 MEDIA
 MEDIA
@@ -93,7 +93,7 @@ and…
 John Ourand has ( https://puck.news/the-nba-all-star-game-was-a-flop-but-business-is-booming/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the NBA All-Star Weekend readout, and
 news and notes ( https://puck.news/which-channel-is-nascar-on-answer-most-of-them/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from NASCAR’s media adventure.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -109,7 +109,7 @@ meanwhile…
 
 Peter Hamby reads the cross tabs ( https://puck.news/democrats-post-kamala-future-mark-cuban-the-rock-stephen-a-smith/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the Dems’ too-early ’28 options.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -147,7 +147,7 @@ The Powers That Be ( https://puck.news/podcast_episode/hakeems-nuclear-option/?u
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 Pastime &
 The Present
@@ -181,7 +181,7 @@ But if you have time to read only one piece, I’d turn your attention to Matt
 Belloni’s latest masterstroke, Why the Broccolis Gave Up Bond ( https://puck.news/what-is-amazon-going-to-do-with-james-bond/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), which focuses on how the stewards of the 007 franchise capitulated to Amazon’s will and endless balance sheet. It’s a story about technological transformation—both what’s gained, and what’s lost along the way. And in that regard, it’s the story of our time, and precisely what you should expect
 from Puck.
 
- 
+
 
 Have a great weekend,
 
@@ -198,6 +198,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVLeeYqJGOb8NTFhijWU8=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F22%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

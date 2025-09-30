@@ -103,12 +103,12 @@ Bellotti’s Bally Good Show & Arnault Musical Chairs ( https://puck.news/bellot
 The designer’s Milan spectacle featured leather, lewd fur, and fashion editors picking the shelves bare. Plus, the latest Arnault
 family maneuvers.
 
- 
+
 
 Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 You could say Simone Bellotti came into Bally like a lamb and went out like a lion. His
 first show, just a year and a half ago, was a modest proposal, but the cowbells ringing on the bags and dangling off his now-famous moccasins showed that the designer wasn’t afraid to make a little noise. For his fourth season, Bellotti had a soundtrack designed for the runway by Berlin DJ and producer PLO Man, and “curated by Threes.” I’m not going to act like I know what any of those words mean, but the noise was assertive, just like the collection.
@@ -162,7 +162,7 @@ C.E.O. at Dior, is exiting her role in July. I find that part of the narrative a
 If
 Delphine is on her way out of Dior, I hope she is going to run the Fashion Group, which needs a person with taste, experience, and discipline to ensure the next generation of Jonathan Andersons come to fruition. Regardless, the Arnault family game of succession continues, whether or not the exceedingly polite family wants to admit it.
 
- 
+
 
 What
 I’m Reading… and Looking at…
@@ -196,7 +196,7 @@ Babydoll tops are back. [After School ( https://afterschool.substack.com/p/bhad-
 I am obsessed with Jennifer Lawrence in this grey
 sweatshirt and trench; this is her truest self. [Vogue ( https://www.vogue.com/article/jennifer-lawrence-leopard-print-revival?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Shout out to my Condé Nasties who are required to work from the office four days a
 week from now on. I hope you’re all provided with the desk space ( https://x.com/condeunion/status/1892957520836038974?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) you deserve!
@@ -218,6 +218,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVXj060Y6urHBFepLjjfw=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

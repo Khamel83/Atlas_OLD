@@ -45,7 +45,7 @@ Now, here is Julie with a quick look at a show that opened yesterday…
 Julie Davich
 Julie Davich
 
- 
+
 
 Gallery Hopping With Julie:
 Barkley L. Hendricks
@@ -145,7 +145,7 @@ they are not in the immediate vicinity. For clients in evacuation zones, we have
 It will take years for Los Angeles to recover from these fires. Our hearts go out to everyone who lost something, but especially to those who lost everything. Please donate
 here ( https://www.gofundme.com/c/act/wildfire-relief/california?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) so we can help.
 
- 
+
 
 Endnotes…
 -----------
@@ -220,6 +220,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUUo2_mYmVRopKkvcvVpI=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

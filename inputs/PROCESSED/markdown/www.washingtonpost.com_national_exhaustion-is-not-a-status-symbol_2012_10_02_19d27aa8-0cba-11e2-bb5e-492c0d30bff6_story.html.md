@@ -7,7 +7,7 @@
 
 # www.washingtonpost.com
 
-Unknown author • October 02, 2012 
+Unknown author • October 02, 2012
 
 ![www.washingtonpost.com]()
 

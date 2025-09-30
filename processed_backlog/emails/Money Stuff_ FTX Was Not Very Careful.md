@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.I don’t want to minimize the likelihood of intentional fraud and theft. S
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       FTX
-    
-  
+
+
 
 I don’t want to minimize the likelihood of intentional fraud and theft. Stuff seems bad. But I want to say that the story of FTX also reads like what would happen if you and a few of your college friends set up a gigantic international financial exchange after like a year or two of working in finance. Oh, your friends are smart. They have decent intuitions about financial stuff; they have good ideas for what products to trade and how to trade them; they can code up a good-looking website. But do they have hard-won expertise, built up over many years, in accounting controls and business processes for running a giant organization? Are they excited about making sure all the paperwork is correct? No, that stuff is boring. Your friends are traders and engineers, not accountants and compliance officers. Also there just aren’t that many of them, and they are running a huge exchange; they are too busy for paperwork. They move fast and break things. They break so many things.
 Here is the  first day declaration from the chief executive officer of FTX Trading Ltd., John J. Ray III, in FTX’s Chapter 11 bankruptcy case in Delaware. Ray has not been the CEO of FTX for long, “having accepted this position in the early morning hours of November 11, 2022,” and imagine getting that 4:30 a.m. phone call. Before that, Ray had nothing to do with FTX; its CEO was its 30-year-old founder, Sam Bankman-Fried. But Ray is an old hand at big bankruptcies — he has “been the Chief Restructuring Officer or Chief Executive Officer in several of the largest corporate failures in history,” including Enron Corp. — so he got the call here. “I am over the age of 18,” says Ray in his declaration, and it seems relevant.
@@ -112,63 +112,63 @@ like, “oh FTX doesn’t have a bank account, I guess people can wire to Alamed
 
 Honestly I think that if I started a gigantic financial exchange with my college buddies I would not mess this one up, but who knows. The point here is: Does FTX even know what it owes to customers? I cannot feel 100% confident, either from Ray’s declaration or from those DMs, that the answer is yes.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bankruptcy procedure
-    
-  
+
+
 
 We talked above about FTX’s Chapter 11 bankruptcy filing in Delaware, but actually things are a bit more complicated than that. FTX — under its new CEO, John Ray — has filed a voluntary Chapter 11 bankruptcy petition in Delaware. But there is a competing bankruptcy: Last week Bahamian regulators put FTX’s Bahamas legal entity, FTX Digital Markets, into liquidation and  appointed joint provisional liquidators, and those liquidators have filed a Chapter 15 US bankruptcy case in New York.
   [6]
@@ -193,20 +193,20 @@ The Debtors thus have credible evidence that the Bahamian government is responsi
 I … what? Is the claim here that the Bahamian government is working for Bankman-Fried? That Bankman-Fried is working for the Bahamian government? That, in either case, Bankman-Fried and Bahamian regulators conspired to hack FTX to drain customer money before FTX’s bankruptcy management could get their hands on it?
 I assume not; I assume this is mostly a jurisdictional dispute about which set of lawyers and regulators and judges should supervise the money, and that the Bahamian government would disagree that their efforts to access and secure FTX’s money were “unauthorized.” But there does seem to be a certain amount of distrust. Bankman-Fried and other (former) FTX executives are Americans, and FTX was headquartered in the Bahamas not because it was founded there but because the Bahamas offered a friendlier regulatory environment than the US did. Now that FTX is bust, its lawyers might worry that the regulatory environment in the Bahamas was too friendly.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       DMing through it
-    
-  
+
+
 
 One thing that I   like to   say around here is that it is good for your career, in finance, to lose a billion dollars. Losing a billion dollars indicates, to your next employer or investors, that someone — presumably someone smart, who had a billion dollars — trusted you with a billion dollars. It shows that you had the ability and nerve to take risks, which is (within reason) an attractive quality in high finance. And presumably you learned valuable lessons about whatever went wrong, and next time you will take better risks and make a lot of money instead of losing it.
 I think of this as applying mostly to traders at big banks and hedge funds, but it has broader applicability. Adam Neumann incinerated truly titanic amounts of investor money at WeWork Inc., which was bad, and got him removed as chief executive officer of WeWork. But it was also … impressive? And so if you are an investor, and Adam Neumann calls you and says “hey can you put money into my new thing,” you might think thoughts like:
@@ -231,19 +231,19 @@ Mr. Friedberg showed this friend the text message he sent to Mr. Bankman-Fried a
 
 On the one hand, it does seem like FTX was what you’d get if a half-dozen college buddies ran a global financial exchange with no supervision. On the other hand, there were in fact hundreds of employees, including a chief regulatory officer. They resigned in shock when they learned about FTX’s insolvency and its misuse of customer money. But presumably they knew about the … emojis in the chats? It is one thing for a small group of top executives, who all live with each other, to do intentional fraud and keep it secret from the rest of the company. But the “complete failure of corporate controls and … complete absence of trustworthy financial information” seems like something someone might have noticed.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Dell to   Pay $1 Billion to Settle Suit Over 2018 Stock Conversion. Elon Musk Recently Floated  Possibility of Having a Successor at Tesla, a Board Member Says. SpaceX   Illegally Fired Workers for Criticizing Musk and Company Culture, Complaint Claims. EY split threatens to weaken both sides of firm, say retired partners. US   Mortgage Rates Post Biggest Drop Since 1981, Falling to 6.61%. Meta Employees, Security Guards Fired for  Hijacking User Accounts.  Yale and Harvard law schools shun influential rankings. Tennessee AG Investigating   Antitrust Violations in Taylor Swift Ticket Presale. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I'm kidding, obviously it is boilerplate. But still.
 
 
-  [2] “The FTX Group’s approach to human resources combined employees of various entities and outside contractors, with unclear records and lines of responsibility.  At this time, the Debtors have been unable to prepare a complete list of who worked for the FTX Group as of the Petition Date, or the terms of their employment.  Repeated attempts to locate certain presumed employees to confirm their status have been unsuccessful to date.” 
+  [2] “The FTX Group’s approach to human resources combined employees of various entities and outside contractors, with unclear records and lines of responsibility.  At this time, the Debtors have been unable to prepare a complete list of who worked for the FTX Group as of the Petition Date, or the terms of their employment.  Repeated attempts to locate certain presumed employees to confirm their status have been unsuccessful to date.”
 
 
   [3] Maybe it’ll work. I too can read third-party sources, and here is  Liz Hoffman at Semafor reporting that “Sam Bankman-Fried shopped a $4.7 billion grab-bag of venture investments, ranging from fintech firms to crypto assets, around Wall Street in a bid to raise money,” and listing some of the investments. I suppose Ray will call up those companies — “Dave, a mobile-banking app aimed at younger customers,” “Stocktwits, an online forum for traders to share ideas and make investments,” etc. — and say, like, “hey, uh, I’m at FTX, weird question but do we … own … your stock?” See what they say!
@@ -261,114 +261,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Here the filing cites the Vox article quoting Bankman-Fried’s direct messages.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

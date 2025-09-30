@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If you own 10% of a business, and it made $1 million of profits this year, how much do you have to pay in taxes on that income?In the US, th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       KisanKraft
-    
-  
+
+
 
 If you own 10% of a business, and it made $1 million of profits this year, how much do you have to pay in taxes on that income?
 In the US, there are two common answers to this question. One is that your income includes 10% of the business’s income, so you have $100,000 of income and pay, say, $37,000 of taxes on it (at the top federal income tax rate of  37%). This is the normal way that, for instance, law firms are taxed: A partner who owns a one-tenth share of the law firm counts 10% of the firm’s income in her income, and pays taxes on it. It’s the normal way that   most hedge fund managers are taxed. More generally, it’s the normal way that partnerships, limited partnerships, many limited liability companies and a lot of corporations
@@ -115,37 +115,37 @@ Here is the  government’s brief, which I find more convincing. Among other thi
  even though she doesn’t actually get paid any interest until the end.
 My sense is that nobody actually wants to declare pass-through taxation of LLCs unconstitutional. This case would not have made it to the Supreme Court a few years ago. But the “billionaire minimum tax” idea raises the stakes: If Congress really might tax any increase in wealth, whether or not it is realized, then that opens up a lot of new taxing possibilities, which makes people nervous. But if Congress can’t tax any unrealized increase in wealth, then that closes off a lot of taxes that already exist.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hamas insider trading
-    
-  
+
+
 
 My  Fifth Law of Insider Trading is “don’t do it by planting bombs at a company and shorting its stock,” but I suppose there’s an argument the other way. My point was that if you are fundamentally an insider trader, getting into terrorism is a bad career move: You are much more likely to get in much more trouble if you add some bombing to your white-collar crimes. But from the other perspective, if you are fundamentally a terrorist, I suppose it makes sense to get into insider trading? If you were going to blow up a company’s facilities anyway, for ideological reasons, I can see why you’d also want to make money trading on it. There are laws against insider trading, but they may not provide much additional deterrence.
 Anyway many, many readers sent me stories about  this new paper, by Robert Jackson and Joshua Mitts, suggesting that Hamas might have insider traded ahead of its October 7 attacks on Israel. Well, no, they suggest that someone might have traded on advance knowledge of the attacks, not necessarily Hamas:
@@ -153,11 +153,11 @@ Recent scholarship shows that informed traders increasingly disguise trades in e
 All in all this strikes me as inconclusive: There was abnormal trading in the ETF, but the ETF is tiny; there was basically one day (Oct. 2, a week before the attacks) with $12 million or so of trades, and otherwise the ETF traded a few hundred thousand dollars’ worth per day in the two weeks before Oct. 7, below its usual daily volume. “While the magnitude of additional trading in the Israeli ETF is abnormal, it is not large in absolute terms, likely owing to the limited trading volume and liquidity in that ETF,” they write. They place more emphasis on the trading on the Tel Aviv Stock Exchange, but here is a report claiming that they overestimate that trading due to a mistake about quoting conventions. And there is some US option trading, where they say that “the evidence we present is consistent with substantial block trades that occurred on October 2 rather than ordinary market-making activity.”
 I have trouble imagining Hamas calling an options market maker to do block trades. But I also don’t really understand why outside tippees would have advance knowledge of the attacks and do all their trading a week ahead of time: Wouldn’t a more ordinary model involve information leaking out over time and leading to increased trading in the days leading up to the event? But, anyway, there you go, some people apparently did make some money trading ahead of the October 7 attacks.
 
-  
-    
+
+
       Private markets are the new public markets
-    
-  
+
+
 
 One model you could have is that there is some market for the shares of private tech startups, and there is some market for the shares of public tech companies, and those markets are distinct, and the private market can go up while the public one goes down or vice versa, but in the long run they are linked by the necessity for tech startups to go public.
 Like you could imagine a market where private investors — venture capitalists, growth funds, etc. — will pay 5x revenue for a certain sort of tech company, and public investors will pay 3x revenue, and so that sort of company says “I’d rather stay private because I am worth more that way.” But there are pressures on the company to eventually go public. It has employees who get paid in stock options and need to be able to cash out. (Though you can do an   employee tender to take care of that.) And its venture capital investors are funds with finite lives; eventually they need to return cash to their own investors, which means they need to sell shares — generally in an initial public offering or a strategic acquisition — to get that cash. And so private markets can’t have a higher valuation than public markets forever; eventually there needs to be some convergence. 
@@ -173,20 +173,20 @@ Continuation funds, which are common in private equity but rare in venture capit
 
 In principle there’s no reason that private investors couldn’t just hold on to their favorite tech companies forever. The typical 10-year fund life is an obstacle, but not an insurmountable one.
 
-  
-    
+
+
       The WeWork guy
-    
-  
+
+
 
 We   talked last week about a guy who bought a bunch of short-dated out-of-the money call options (and stock) on WeWork Inc. and then allegedly put out a fake press release announcing that he was going to buy WeWork at a premium. This naturally caused the stock to go up, making his options and stock more valuable, except that due to formatting errors and other delays he didn’t get the press release out until 5:12 p.m. on a Friday, at which point his options had expired, the market was closed and he didn’t make any money. WeWork filed for bankruptcy that weekend and the stock didn’t reopen until Wednesday, at which point everyone knew the press release was fake.
 Several readers emailed to point out that actually you have until 5:30 p.m. on the expiration date to exercise your options, so in theory the guy could have gotten the press release out late, quickly exercised his options and sold the stock. Still, that would not really help: The stock went up, in after-hours trading, on his fake press release, but it barely got above the strike prices of some of his options, and that only later in the evening after the options expired. The trick with this thing is to actually move the stock price (and, more important, the options price) during trading hours, and then sell your options (rather than exercising them), and if you wait until 5:12 most of the gamblers have gone home and it doesn’t work.
 
-  
-    
+
+
       Analyst cliques
-    
-  
+
+
 
 I don’t know, here is just an extremely relatable Business Insider article about how some investment banking analysts  don’t hang out with other investment banking analysts:
 
@@ -199,15 +199,15 @@ Some of the pettiness seems right out of the movies.
 
 Terrific stuff. There are traditional problems at Wall Street banks that come from the nature of the work (stressful, lucrative, risk-taking, etc.) or the nature of the usual recruits, but an underestimated problem in banking is that it employs a lot of young people in their first job out of college, and sometimes they like a little drama. I just wish this story was, like, Madison did some rogue trading because of the bubble tea incident.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Ego, Fear and Money: How the A.I. Fuse Was Lit. Microsoft Is Happy Being the Co-Pilot on the   OpenAI Rocket Ship. Shut up and take our money, investors say about  financial advice. Nasdaq  penny stocks. Alaska Air Reaches Deal to  Buy Hawaiian Airlines.  Gold price hits all-time high as traders bet on interest rate cuts. Defense Stocks  Benefit From War, Renewing ESG Debate for Everyday Investors.   Spotify Cuts 1,500 Jobs, CEO Ek Says Streamer Must Be Leaner. The Opioid Victims Who Won’t Sign Off on  Purdue’s $6 Billion Settlement. The Chicken Tycoons vs. the Antitrust Hawks.  Binance Copped a $4 Billion Plea but Is Still Fighting the SEC. How Suspects   Laundered Billions in Singapore for Years. Mallinckrodt Avoids $40 Million SEC Fine in Medicaid Overcharge Case. Credit Suisse   AT1 Fallout Widens in Japan With More Lawsuits. Uber, Jabil and Builders FirstSource Set to   Join S&P 500. Chinese borrowers default in record numbers as economic crisis deepens. Chinese developer  Evergrande wins more time for restructuring deal. UBS  sells Credit Suisse jet used by Horta-Osório during Covid breaches. KISS   Avatars Go On Tour After Paul Stanley, Gene Simmons Retire.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Corporations that elect to be taxed as pass-through entities are called “S corporations.”
 
 
@@ -238,48 +238,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] Eh really it’s a constant percentage of accreted principal (lower than $10 in the first year, higher than $10 in the last), but this is more intuitive.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -290,46 +290,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjznk1.65rj/57d33b35.gif" alt="" border="0" /></a>

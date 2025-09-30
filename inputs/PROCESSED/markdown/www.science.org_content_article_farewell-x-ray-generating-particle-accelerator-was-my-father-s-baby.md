@@ -7,15 +7,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-www.science.org  
-  
-Verify you are human by completing the action below.  
-  
-www.science.org needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.science.org to respond... 
+www.science.org
+
+Verify you are human by completing the action below.
+
+www.science.org needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.science.org to respond...
 

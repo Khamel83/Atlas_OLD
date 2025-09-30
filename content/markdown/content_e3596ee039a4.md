@@ -121,7 +121,7 @@ This copy is for your personal, noncommercial use only. You can order presentati
 <h1><nyt_headline version="1.0" type=" ">In a Graying Population, Business Opportunity</nyt_headline></h1>
 <nyt_byline>	<h6 class="byline">By NATASHA SINGER</h6>
 </nyt_byline>
- 
+
 <nyt_text>
 <div id="articleBody">
  <nyt_correction_top>
@@ -254,7 +254,7 @@ Professor Coughlin started AgeLab in 1999 to address what he calls &ldquo;the lo
 More than a decade later, with boomers starting to turn 65, experts like Professor Coughlin hope to make gray the new green. Their job would be easier if it were fun to wear Agnes.        </p>
 
 <nyt_correction_bottom>	<div class="articleCorrection">
-<p><span class="italic">This article has been revised to reflect the following correction:</span></p><p><strong>Correction: February 13, 2011</strong></p><p><span class="italic"><p>An article last Sunday about the market for new products for an aging  population erroneously included a service among those offered by the  Mirabella, a retirement community in Portland, Ore. It does not provide  Toyota Priuses as loaner cars to residents. (A sister Mirabella  community in Seattle does provide its residents with the loaner cars.)</p></span></p>	
+<p><span class="italic">This article has been revised to reflect the following correction:</span></p><p><strong>Correction: February 13, 2011</strong></p><p><span class="italic"><p>An article last Sunday about the market for new products for an aging  population erroneously included a service among those offered by the  Mirabella, a retirement community in Portland, Ore. It does not provide  Toyota Priuses as loaner cars to residents. (A sister Mirabella  community in Seattle does provide its residents with the loaner cars.)</p></span></p>
 </div>
 </nyt_correction_bottom>
 <nyt_update_bottom>
@@ -271,8 +271,8 @@ More than a decade later, with boomers starting to turn 65, experts like Profess
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20111124130035im_/http://up.nytimes.com/?d=0//&amp;t=&amp;s=0&amp;ui=0&amp;r=http%3a%2f%2fwww%2enytimes%2ecom%2f2011%2f02%2f06%2fbusiness%2f06aging%2ehtml%3fpagewanted%3dall&amp;u=www%2enytimes%2ecom%2f2011%2f02%2f06%2fbusiness%2f06aging%2ehtml%3fpagewanted%3dprint">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

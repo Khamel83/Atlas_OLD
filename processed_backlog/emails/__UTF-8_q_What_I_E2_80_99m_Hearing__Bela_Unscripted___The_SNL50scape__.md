@@ -23,12 +23,12 @@ inside the big SNL50 anniversary special, which is basically my Super Bowl. (For
 P.S.A.: Monday’s What I’m Hearing will arrive a day early, on Sunday, due to me taking President’s Day off.
 
 Surprise your Valentine with Puck! Just click
-here 
+here
 ( https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Femail.puck.news%2Fe%2Fc%2FeyJlbWFpbF9pZCI6ImRnVDJ4Z1lEQUtBdm55OEJsRDkwMWZnYVNsUlZTMW5SZlJ0eCIsImhyZWYiOiJodHRwczovL3B1Y2submV3cy9qb2luLz91dG1fY2FtcGFpZ249V2hhdCtJJTI3bStIZWFyaW5nKy0rU1VCU0NSSUJFUlMrJTI4MSUyRjYlMkYyNSUyOVx1MDAyNnV0bV9jb250ZW50PVdoYXQrSSUyN20rSGVhcmluZystK1NVQlNDUklCRVJTKyUyODElMkY2JTJGMjUlMjlcdTAwMjZ1dG1fbWVkaXVtPWVtYWlsX2FjdGlvblx1MDAyNnV0bV9zb3VyY2U9Y3VzdG9tZXIuaW9cdTAwMjZ1dG1fdGVybT1mNmM2MDYwMDlmMmZhMDJmIiwiaW50ZXJuYWwiOiJmNmM2MDYwMDlmMmZhMDJmIiwibGlua19pZCI6NTU4Njc5fQ%2F56d8a623a6b910d4d800f4e23f81ea4e3544234655f50df002affd635b2e9e98&data=05%7C02%7C%7Cd92d35023f914959077508dd2eed6085%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638718319255398499%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=WvqqJV26MvHSkk1NP4Pnb47au2j26Ym%2FgvYtDtRZS5w%3D&reserved=0&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Got a news tip or an idea for me? Just reply to this email or message me on Signal at 310-804-3198.
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts: SNL50
 edition
@@ -430,7 +430,7 @@ That’s pretty good! About what?
 
 About a new project. That’s all I can tell you because it’s new. You’ll figure it out eventually.
 
- 
+
 
 See you Sunday,
 
@@ -451,6 +451,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVA2AIj4mqL_EvNrVpDmk=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

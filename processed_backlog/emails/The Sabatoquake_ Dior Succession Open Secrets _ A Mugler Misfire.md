@@ -48,7 +48,7 @@ here ( https://open.spotify.com/show/0QzJQbXngjCAM1RSZrgIdn?utm_campaign=IC+Excl
 Mentioned in this issue: Sabato De Sarno, Gucci, Kering, Virginie Viard, Chanel, François-Henri Pinault, LVMH, Marco Bizzarri, Hedi Slimane, Alessandro Michele, Bally, Jil Sander, Simone
 Bellotti, Delphine Arnault, Dior, Jonathan Anderson, Loewe, Kim Jones, Maria Grazia Chiuri, Marc Jacobs, Saint Laurent, Anna Wintour, L’Oréal, Kate Middleton, Michelle Obama, and many more…
 
- 
+
 
 Three
 Things You Should Know…
@@ -145,6 +145,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=IC+Exclusi
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU3cL3JJXcGx_QjVNfQ2M=&utm_campaign=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -117,7 +117,7 @@ There’s something for everyone in this end-of-year mailbag, whether you’re a
 strategic-group obsessive (yes, they exist), a Blake Lively hater or stan ( https://puck.news/blake-livelys-hot-haircare-launch-comes-back-down-to-earth/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (yes, they, too, exist), or simply betting on the date of the next Chanel price hike (we do not endorse gambling). The breadth of the questions here reflects the influence of the fashion and beauty industries on the culture at large, so we’ve assembled a dream team to
 answer them: beauty correspondent Rachel Strugatz, retail expert Sarah Shapiro, and of course, yours truly. We’ll be covering it all as Line Sheet goes to five days a week starting January 6. Let’s get started…
 
- 
+
 
 Why is an American LVMH so difficult to achieve, besides
 the heritage of the brands and the fact that Arnault saw this all before everyone else did and his timing cannot be duplicated?  
@@ -217,7 +217,7 @@ running a department.
 Here’s what I think has really changed: Many aspiring retail execs are learning the ropes at direct-to-consumer brands and retail startups. I’m sure you’ve heard the popular startup idiom about “building the plane while you fly it.” If the startup succeeds (big if!), you could ride the wave of career growth as it expands. Whether you choose the structured or startup route, success still boils down to two things: mastering P&L management
 and having that sixth sense for what customers want. Those skills are never going away.
 
- 
+
 
 That’s it from Line Sheet this week. R.I.P. bag charms. 
 
@@ -248,6 +248,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUBTLdDxcTj1wEmIx82R0=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

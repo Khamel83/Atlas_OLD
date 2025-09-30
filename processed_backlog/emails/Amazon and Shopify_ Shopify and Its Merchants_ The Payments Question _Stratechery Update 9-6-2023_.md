@@ -118,7 +118,7 @@ The Stratechery Update is intended for a single recipient, but occasional forwar
 
 Thanks for being a subscriber, and have a great day!
 
-* 
+*
 
 Although technically Amazon.com took years to move to AWS ↩︎ ( #rf1-11519 )
 

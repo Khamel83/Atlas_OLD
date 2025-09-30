@@ -153,36 +153,36 @@ def create_backup():
     # Create backup directory
     backup_dir = Path("backups")
     backup_dir.mkdir(exist_ok=True)
-    
+
     # Create backup filename with timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_filename = f"atlas_backup_{timestamp}.tar.gz"
     backup_path = backup_dir / backup_filename
-    
+
     # Directories to backup
     backup_dirs = [
         "config",
         "data",
         "output"
     ]
-    
+
     # Create backup archive
     with tarfile.open(backup_path, "w:gz") as tar:
         for backup_dir in backup_dirs:
             if os.path.exists(backup_dir):
                 tar.add(backup_dir)
-    
+
     print(f"Backup created: {backup_path}")
-    
+
     # Remove backups older than 30 days
     cleanup_old_backups(backup_dir, 30)
-    
+
     return backup_path
 
 def cleanup_old_backups(backup_dir, days):
     """Remove backups older than specified days"""
     cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
-    
+
     for backup_file in backup_dir.glob("atlas_backup_*.tar.gz"):
         if datetime.datetime.fromtimestamp(backup_file.stat().st_mtime) < cutoff:
             backup_file.unlink()
@@ -237,17 +237,17 @@ def backup_to_s3(bucket_name, backup_dirs):
     # Create temporary backup file
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     temp_backup = f"/tmp/atlas_backup_{timestamp}.tar.gz"
-    
+
     # Create backup archive
     with tarfile.open(temp_backup, "w:gz") as tar:
         for backup_dir in backup_dirs:
             if os.path.exists(backup_dir):
                 tar.add(backup_dir)
-    
+
     # Upload to S3
     s3 = boto3.client('s3')
     s3_key = f"backups/atlas_backup_{timestamp}.tar.gz"
-    
+
     try:
         s3.upload_file(temp_backup, bucket_name, s3_key)
         print(f"Backup uploaded to S3: s3://{bucket_name}/{s3_key}")
@@ -339,7 +339,7 @@ def check_disk_space(threshold=90):
     total = disk_usage.total
     used = disk_usage.used
     percentage = (used / total) * 100
-    
+
     return percentage > threshold, percentage
 
 def check_memory_usage(threshold=90):
@@ -355,19 +355,19 @@ def send_alert(subject, message):
     smtp_user = os.getenv("SMTP_USER")
     smtp_password = os.getenv("SMTP_PASSWORD")
     recipient = os.getenv("ALERT_RECIPIENT", "admin@localhost")
-    
+
     if not smtp_user or not smtp_password:
         print("SMTP not configured, skipping alert")
         return
-    
+
     # Create message
     msg = MIMEMultipart()
     msg["From"] = "atlas@localhost"
     msg["To"] = recipient
     msg["Subject"] = subject
-    
+
     msg.attach(MIMEText(message, "plain"))
-    
+
     # Send email
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
@@ -382,17 +382,17 @@ def send_alert(subject, message):
 def main():
     """Main monitoring function"""
     alerts = []
-    
+
     # Check disk space
     disk_alert, disk_percentage = check_disk_space()
     if disk_alert:
         alerts.append(f"Disk usage critical: {disk_percentage:.1f}%")
-    
+
     # Check memory usage
     memory_alert, memory_percentage = check_memory_usage()
     if memory_alert:
         alerts.append(f"Memory usage critical: {memory_percentage:.1f}%")
-    
+
     # Send alerts if any issues found
     if alerts:
         subject = "Atlas System Alert"
@@ -424,6 +424,6 @@ Throughout this series, you've learned:
 7. How to automate content ingestion
 8. How to maintain and backup your system
 
-Thank you for watching this Atlas tutorial series. I hope you found it helpful and that you're now able to make the most of your Atlas installation. If you have any questions or feedback, please leave a comment below. 
+Thank you for watching this Atlas tutorial series. I hope you found it helpful and that you're now able to make the most of your Atlas installation. If you have any questions or feedback, please leave a comment below.
 
 Don't forget to like and subscribe for more tutorials and updates. Until next time, happy content processing with Atlas!

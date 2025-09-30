@@ -191,11 +191,11 @@
 <div class="main-container">
               <div class="container">
               </div>
-        
+
     <div class="page-content">
       <div class="container">      <div class="region region-content">
       <section id="block-system-main" class="block block-system clearfix">
-      
+
   <article id="node-7507" class="node node-journal-article clearfix" about="/publicsquare/2019/06/13/eleven-tactics-suburban-retrofit" typeof="sioc:Item foaf:Document">
   <div class="journal-article "><img typeof="foaf:Image" class="img-responsive" src="https://www.cnu.org/sites/default/files/styles/public_square_feature_image/public/lancaster-after_1.jpg?itok=AYF-UrR2" width="1880" height="1200" alt="" /><div class="image-credit">Lancaster Boulevard, Lancaster, California, where the city has invested in the public realm.</div></div>  <div class="category">
     <a href="/publicsquare/category/retrofit" class="btn">Retrofit</a>

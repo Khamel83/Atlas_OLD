@@ -193,7 +193,7 @@ At the same time, the fact that all of Big Tech is on board and, given their sup
 
 In this view these proposed E.U. regulations are simply the first salvo in what may be the defining war of the digital era: will centralized — and thus controllable — entities win, or will there be a flowering on the fringe of open models that truly explore the potential of AI, for better or for worse.
 
-* 
+*
 
 One surprising conclusion of these regulatory battles is that it is China which is arguably the greatest advocate for the Westphalian system today, and that the Great Firewall, while deleterious for Chinese freedom, may have been a gift in terms of Western freedom ↩︎ ( #rf1-10951 )
 

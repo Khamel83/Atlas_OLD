@@ -52,7 +52,7 @@ All yours, Eriq…
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts...
 -------------------
@@ -206,7 +206,7 @@ particularly fair. (Incidentally, California’s 2nd appellate division will hol
 Maybe Freedman has his eyes on a favorable precedent, or perhaps he likes his odds of setting his own. He’ll surely be arguing that the Times overstepped by
 coordinating with Lively’s team and taking their word about a filing with the California Civil Rights Department. Either way, the Hollywood attorney might want to tread carefully. A lawyer who so regularly texts reporters might not like how this one turns out.
 
- 
+
 
 Thanks, Eriq. Interesting stuff. If you want to send Eriq comments,
 story ideas, or well-wishes for the Rams in the playoffs, he’s at 646-729-4824. I’ll be back on Thursday. 
@@ -266,6 +266,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUQ4iFym3Bz62MSxwUk7g=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

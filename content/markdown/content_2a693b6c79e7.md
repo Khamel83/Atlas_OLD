@@ -12,7 +12,7 @@
 
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v24.8 (Yoast SEO v24.8) - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://www.vice.com/en/article/gal-gadot-fake-ai-porn/" />
 	<meta property="og:locale" content="en_US" />
@@ -443,8 +443,8 @@ window.location.href = url.toString();
     domainKey: 'GgqPm0euZqC0SNVytjfNCPEreUlWs7i8LIH5',
     sw: '/wp-content/themes/vice-2024/pushly-sdk-worker.js',
   });
-  
-  
+
+
 document.addEventListener("DOMContentLoaded", function () {
   if (document.querySelector(".unlock-button")) {
     const pageKey = "reloaded_" + window.location.pathname;
@@ -495,7 +495,7 @@ document.body.className = document.body.className.replace('no-js','js');
 			data-component="language-picker"
 		>
 			+ English		</button>
-		
+
 	<button type="button" class="language-picker__button language-picker__button--close">
 		Close	</button>
 
@@ -943,7 +943,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906543 post type-post status-publish format-standard has-post-thumbnail hentry category-life category-news tag-life tag-news tag-shopkeeper sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img loading="lazy" width="300" height="157" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="Shopkeeper Nearly Loses Arm After Thief Bites Them" style="width:100%;height:100%;object-fit:cover;" decoding="async" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Shopkeeper-Nearly-Loses-Arm-After-Thief-Bites-Them.jpg?resize=600,314 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">DHA</figcaption></figure>
 
@@ -955,7 +955,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906523 post type-post status-publish format-standard has-post-thumbnail hentry category-life tag-autumn tag-fall tag-grandma-hobbies tag-hobbies tag-life sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="157" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="5 &#039;Grandma Hobbies&#039; to Get You in the Fall Spirit" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/5-Grandma-Hobbies-to-Get-You-in-the-Fall-Spirit.jpg?resize=600,314 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Maskot/Getty Images</figcaption></figure>
 
@@ -967,7 +967,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/sammi-caramela/" title="Posts by Sammi Caramela" class="author url fn" rel="author">Sammi Caramela</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906514 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming tag-game-bugs tag-game-mistakes tag-gaming tag-gaming-news tag-gaming-trailers tag-hollow-knight tag-hollow-knight-silksong tag-indie-games tag-silksong tag-team-cherry tag-video-game-news tag-video-game-trailers tag-video-games tag-waypoint sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="154" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="Hollow Knight Silksong Players Discover Hilarious Development Mistake Left in the Game" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg 2880w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=300,154 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=768,395 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=1024,526 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=1536,789 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=2048,1052 2048w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=600,308 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Hollow-Knight-Silksong-Players-Discover-Hilarious-Development-Mistake-Left-in-the-Game.jpg?resize=2000,1028 2000w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Screenshot: Team Cherry</figcaption></figure>
 
@@ -979,7 +979,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/brent-koepp/" title="Posts by Brent Koepp" class="author url fn" rel="author">Brent Koepp</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906492 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming tag-game-leaks tag-gaming tag-insomniac-games tag-marvel-wolverine tag-marvels-wolverine tag-playstation tag-playstation-5 tag-ps5 tag-sony-playstation tag-waypoint tag-wolverine-ps5 sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="154" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="Marvel’s Wolverine PS5 Release Date Leaked According to New Report" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg 2880w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=300,154 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=768,395 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=1024,526 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=1536,789 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=2048,1052 2048w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=600,308 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Marvels-Wolverine-PS5-Release-Date-Leaked-According-to-New-Report.jpg?resize=2000,1028 2000w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Screenshot: Insomniac Games</figcaption></figure>
 
@@ -991,7 +991,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/brent-koepp/" title="Posts by Brent Koepp" class="author url fn" rel="author">Brent Koepp</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906499 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-aliens tag-chile tag-patagonia tag-trail-cams tag-ufo tag-wildlife-camera-trap sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="169" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png 2000w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=300,169 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=768,432 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=1024,576 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=1536,864 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=1920,1080 1920w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=600,338 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/mysterious-lights-caught-on-trail-cam-in-chile-wilderness.png?resize=480,270 480w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Generic trail cams. Photo: NeagoneFo / Getty Images</figcaption></figure>
 
@@ -1003,7 +1003,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 		</div>
-	
+
 	</li></ul></div>
 </section>
 
@@ -1033,7 +1033,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/lauren-boisvert/" title="Posts by Lauren Boisvert" class="author url fn" rel="author">Lauren Boisvert</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1906483 post type-post status-publish format-standard has-post-thumbnail hentry category-life tag-american tag-american-dream tag-cost-of-living sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="576" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?w=1024" class="attachment-large size-large wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png 2000w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=300,169 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=768,432 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=1024,576 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=1536,864 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=1920,1080 1920w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=600,338 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/how-much-does-the-american-dream-cost-in-2025.png?resize=480,270 480w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">Photo: bauhaus1000 / Getty Images</figcaption></figure>
 
@@ -1045,7 +1045,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1906477 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming tag-game-freak tag-game-leaks tag-gaming tag-nintendo tag-nintendo-switch-2 tag-plza tag-plza-dlc tag-pokemon tag-pokemon-legends tag-pokemon-legends-z-a tag-pokemon-legends-z-a-dlc tag-pokemon-legends-z-a-mega-dimension tag-switch-2 tag-the-pokemon-company tag-waypoint sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="526" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?w=1024" class="attachment-large size-large wp-post-image" alt="Pokémon Legends Z-A Mega Dimension DLC Leaks 14 New Mega Evolutions" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg 2880w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=300,154 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=768,395 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=1024,526 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=1536,789 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=2048,1052 2048w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=600,308 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Pokemon-Legends-Z-A-Mega-Dimension-DLC-Leaks-14-New-Mega-Evolutions.jpg?resize=2000,1028 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">Screenshot: The Pokémon Company</figcaption></figure>
 
@@ -1057,7 +1057,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/brent-koepp/" title="Posts by Brent Koepp" class="author url fn" rel="author">Brent Koepp</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1904353 post type-post status-publish format-standard has-post-thumbnail hentry category-music tag-camron tag-hip-hop tag-jim-jones tag-music tag-noisey sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="576" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?w=1024" class="attachment-large size-large wp-post-image" alt="Cam&#039;ron Admits He Doesn&#039;t Think He&#039;ll Ever Be Friends With Jim Jones Again" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?resize=300,169 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?resize=768,432 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?resize=1024,576 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?resize=600,338 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Camron-Admits-He-Doesnt-Think-Hell-Ever-Be-Friends-With-Jim-Jones-Again.jpg?resize=480,270 480w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">(Photo by Johnny Nunez/WireImage)</figcaption></figure>
 
@@ -1069,7 +1069,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/caleb-catlin/" title="Posts by Caleb Catlin" class="author url fn" rel="author">Caleb Catlin</a></p>
 </div>
 			</div>
-		
+
 		</li></ul></div>
 	</div>
 </section>
@@ -1392,7 +1392,7 @@ fbq('track', 'Purchase', eventData);
             localStorage.removeItem('cb_selected_plan_id_purchase_event');
             localStorage.removeItem('cb_selected_plan_name');
             localStorage.removeItem('cb_selected_plan_price');
-        } 
+        }
     }, 3000); // 3 sec wait is enough (avoid 5 sec delay)
 </script>
 
@@ -1495,7 +1495,7 @@ fbq('track', 'Purchase', eventData);
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script src="https://www.vice.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
 <script id="moment-js-after">

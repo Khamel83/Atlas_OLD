@@ -38,7 +38,7 @@ Aeon Financial is incorporated in Delaware, operates from mail-drop boxes in Chi
 
 Â
 
-**HOMES FOR THE TAKING:**  
+**HOMES FOR THE TAKING:**
 LIENS, LOSS AND PROFITEERS â Part 4 of 4
 
 [**Part 1**](/sf/investigative/2013/09/08/left-with-nothing/): How a small debt becomes a big problem
@@ -49,8 +49,8 @@ LIENS, LOSS AND PROFITEERS â Part 4 of 4
 
 Â
 
-**More from the series**  
-â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)  
+**More from the series**
+â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)
 â¢ [Full coverage](/sf/investigative/collection/homes-for-the-taking/)
 
 Yet no other tax lien purchaser in the District has been more aggressive in recent years, buying the liens placed on properties when owners fell behind on their taxes, then charging families thousands in fees to save their homes from foreclosure.
@@ -308,7 +308,7 @@ Ted Mellnik, Emily Chow
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

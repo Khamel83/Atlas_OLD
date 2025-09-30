@@ -32,7 +32,7 @@ If you remain unconvinced, I can’t recommend Feel’s straight-leg jeans enoug
 Mentioned in this issue: Nike, Skims, Kim Kardashian, Jens and Emma Grede, Michael Jordan, Tiffany, LVMH, Dior, Elliott Hill, Victoria’s Secret, Les Wexner, Lululemon, Vuori, Alo, Drewpsie, MAC Cosmetics, Vogue, Edward Enninful, Saks, Marc Metrick, Neiman
 Marcus, Bergdorf Goodman, Coach, Michael Kors, The White Lotus, Gucci, and many more…
 
- 
+
 
 Three
 and a Half Things You Should Know…
@@ -135,7 +135,7 @@ While Nike would never enter the same sort of arrangement they brokered 41 years
 and Emma Grede, Kim’s partners ( https://puck.news/skims-ceo-jens-grede-does-not-like-celebrity-brands/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in the venture, the question is whether they see Skims as the centerpiece of their own empire—the Victoria’s Secret to Les Wexner’s Limited Brands. If so, they may want to go through the pains of building and scaling Skims themselves, even if it exposes them to the whims of the
 public markets. But that’s a question almost always solved by money. Either way, a lot of rich people are about to get much richer.
 
- 
+
 
 What I’m Reading...
 ---------------------
@@ -163,7 +163,7 @@ built brands that overly rely on their unique talents. [New York ( https://www.v
 Congrats to one of my faves, my Puck partner Bill Cohan, who won the case in which former Coach C.E.O. Jide Zeitlin sued him for defamation. Justice!
 [ProPublica ( https://www.propublica.org/article/jide-zeitlin-coach-kate-spade-tapestry-defamation-lawsuit-ends?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… How bad would you feel today if you were a celebrity who wasn’t
 invited to the SNL 50th special? Way worse than being excluded from any fashion show! 
@@ -218,6 +218,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVFghikjtiPf4LIFF7xtY=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What if fundamental analysis of stock prices was a temporary phenomenon? I have previously written my half-joking history of stock markets i
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Trump SPAC
-    
-  
+
+
 
 What if fundamental analysis of stock prices was a temporary phenomenon? I have  previously written my half-joking history of stock markets in three eras:
 	For hundreds of years, stock markets existed, you could buy and sell stocks, but you had limited access to high-quality public financial information, and no access at all to Microsoft Excel, so it was pretty hard to estimate a company’s future cash flows and discount them back to present value. Stock-market speculation was a psychological gambling game. “The actual, private object of the most skilled investment today,” wrote Keynes, is “to outwit the crowd, and to pass the bad, or depreciating, half-crown to the other fellow.”	Then, starting in about the late 1930s, a favorable set of conditions came together for the rise of fundamental analysis. Public companies were required to publish audited financial statements, so you could analyze their cash flows. Books were written explaining how to do so. There were lots of fairly stable industrial companies, so you could predict their cash flows. Eventually, computer technology made it possible to do this more quickly and reliably. Mutual funds grew up with professional investors who did this analysis. Later, the development of leveraged buyout technology made it possible for you to realize the value of a company’s cash flows: If your fundamental analysis of a company said that it was worth more than its stock price, you could buy all the stock and take the cash flows for yourself. The result is that it was possible to do fundamental analysis, and there was a clear plausible link between that fundamental analysis and the value of the stock.	But eventually — like, three years ago? — people realized that there was a flaw in that reasoning. While the value of a company’s cash flows probably does set a real floor under its stock price — if the stock is worth less than the cash flows, someone can buy the company and take the cash flows — it does not put a ceiling on the price. If the stock has cash flows worth $10, and you want to pay $20 for it, I can’t stop you, and I cannot directly monetize the difference: I can’t, like, sell all the stock for $20 and then buy it back for $10; I can’t force the price down to the fundamental value. If everyone just collectively decides to pay $20 for a thing with cash flows of $10, or $0, then it’s worth $20, isn’t it? There is no law of nature requiring that a stock’s price has to equal the present value of its future cash flows, or even that it has to equal the market’s collective estimate of its future cash flows. That’s just a matter of tradition, and the tradition is only like 80 years old. But the tradition could always change. Now maybe stocks will trade based on … I don’t know, something else, collective attention, online sentiment, the desire to “outwit the crowd.” Stocks can once again be pure tokens in a psychological gambling game.
@@ -98,37 +98,37 @@ One other important point from Lipschultz’s article:
 The heightened valuation has made it costly and risky to bet against with short sellers facing annual financing costs of 500% to borrow, according to brokerages. That makes it the most expensive US company to bet against with over $100 million of short interest by a large margin, data from financial analytics firm S3 Partners show.
 Again, fundamental value is a floor on stock price, but not a ceiling. If you think that a stock is overvalued, you can’t do anything to force it down to fair value. You can’t just short unlimited shares: You have to borrow them, and pay 500% per year to do so, and not many shares are available to borrow. But even if you could short all you wanted for free, people could keep buying them! The price could keep going up. It’s possible that the old rules of fundamental value still apply. But are you sure?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       April Fools!
-    
-  
+
+
 
 Ugh sure fine  here’s a roundup of corporate April Fools’ Day pranks, including Elon Musk tweeting that he’s joining Disney “as their Chief DEI Officer” to “make their content MORE woke,” hilarious. And here is a story about Citigroup Inc. Chief Executive Officer Jane Fraser  doing pranks at work:
 
@@ -139,11 +139,11 @@ It was March 31.
 
 There are few more “you had to be there” genres of comedy than corporate pranks, and particularly pranks that a boss plays on her underlings. “A classic Fraser prank is to ‘celebrate’ birthdays or work anniversaries by displaying embarrassing photos of her targets.” Okay super.
 
-  
-    
+
+
       Insider trading (1)
-    
-  
+
+
 
 All the way back in 2013 I coined what I eventually called the “Second Law of Insider Trading,” which is, if you are going to do insider trading, “don’t do it by buying short-dated out-of-the-money call options on merger targets.” “They check for that,” I sometimes add. I am pleased to report that this has apparently become an official position of the US Securities and Exchange Commission:
 “It baffles me that folks still think that they could buy way-out-of-the-money call options before some announcement, and not think that they’ll trigger some sort of alert or some sort of tool that we have out there looking at this information and get caught,” Gurbir Grewal, the SEC’s enforcement chief, said earlier [in March]. He didn’t reference any particular case or investigation.
@@ -161,11 +161,11 @@ Qsar responded, “If we break 10 new 52 week highs could follow[.] The payout c
 
 I dunno. If you assume they were insider trading, then I suppose those texts “demonstrated that they knew they had obtained material nonpublic information by attempting to concoct an alternative explanation for their eventual trades.” But if you don’t assume that, then I suppose it is nice to have texts saying “I like the stock” before you go out and buy call options.
 
-  
-    
+
+
       Insider trading (2)
-    
-  
+
+
 
 The rough rule of US insider trading law is that it is illegal to trade stock when (1) you have material nonpublic information and (2) you have some obligation to somebody not to use it to trade that stock. Most straightforwardly:
 	A company has fiduciary obligations to its shareholders, and isn’t supposed to trade in its own stock without disclosing all material information.	A company’s employees have fiduciary obligations to the company, and aren’t supposed to trade its stock when they have material nonpublic information.	A company’s various service providers — bankers, lawyers, etc. — have confidentiality obligations to the company and aren’t supposed to use inside information to trade its stock.
@@ -186,11 +186,11 @@ That’s unusually indirect: Bechtolsheim did not work at Acacia. He did not wor
   [5]
  its executives asked Bechtolsheim for advice, and he allegedly went and bought Acacia call options. He worked for a company that talked to a company that thought about competing with a company that bought a company, and he traded that last company’s stock. That’s about as outside as insider trading gets, but probably enough.
 
-  
-    
+
+
       Don’t put it in texts!
-    
-  
+
+
 
 In Canada, a former analyst at an investment management firm sued her firm for wrongful dismissal and whistleblower violations. As part of the discovery in that lawsuit, she has to turn over some of her text messages to her former firm. Two of her friends — who presumably work in finance, possibly at the same firm — sued her, anonymously, to prevent her from turning over their texts. Because the texts are bad. Here is a somewhat funny Canadian court opinion dismissing that lawsuit and saying sure, go ahead, turn over those texts:
 
@@ -200,15 +200,15 @@ The real gravamen of the plaintiffs’ complaint is that the plaintiffs swear th
 
 Sadly the judge does not reproduce the texts. But apparently they’re very good!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Bridgewater CEO's Turnaround Hinges on Wooing Restless Clients.  Giant Merger Deals Stage a Comeback. Inside the Russian Shadow Trade for Weapons Parts,  Fueled by Crypto. SNB Research Details Billions Needed to   Keep Currency in Check. Huge AI funding leads to hype and ‘grifting’, warns DeepMind’s Demis Hassabis. Tupperware Delays Filing Annual Results Amid  Accountant Shortage. Crypto group Copper launches review after  ‘embarrassing’ sushi party.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Incidentally, when I read about an internet publishing business with $4 million of revenue, my first thought is to compare it to prominent one-person email newsletters, some of which seem to bring in mid-seven-digit revenues. Trump Media & Technology Group is about as lucrative as a top Substack newsletter, but vastly more expensive to run.
 
 
@@ -224,48 +224,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Well, it wasn’t really an unsolicited ping. From the complaint: “Tech Company A and Acacia engaged in confidential discussions concerning Tech Company A’s potential acquisition of Acacia from April 2019 through July 8, 2019. On the morning of July 8, 2019,1 a representative of Acacia contacted Tech Company A’s Chief Financial Officer (‘CFO’) to inform him that another company had made an offer to acquire Acacia and inquired whether Tech Company A would be in a position to submit a competing offer for Acacia.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -276,46 +276,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckrra9.5ikr/c4b79ecd.gif" alt="" border="0" /></a>

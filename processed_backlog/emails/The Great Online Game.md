@@ -15,12 +15,12 @@ Plus, the spreadsheets are always ready to share: beyond just collaborating with
 Everything in Rows [https://email.mg2.substack.com/c/eJxFkd1qxCAUhJ8m3nVRTzTJhReF0tcI_pxkpVGD0Za8fc0u7IJ40GGc4dPqgmvKp9rTUci1zeXcUUX8OzYsBTOpB-bZO8UkH0H0E3Gqd2wUI_HHvGTEoP2mSq5I9mo2b3XxKT4clHJB7ooyYQYt6NIDg0WMvAfUDqTpDZgFzTNXV-cxWlT4i_lMEcmm7qXsHXx2_LutnP6Om03hOsF3LWE-Us0WO_h61-24vJSAztfQFKNjfN1aHXbt13g5UjEp-7h-BH1yyhnx6hpUMMq44HS6sRvl4wjSguYaDJ8kF4uVTPYghgntxLqehpXfjmqOou3PVY5k9Xq6yT93HXB7CA3O3Gao0ZdzxqjNhu7JrTzxP0jOK7bC7VvcrMsFnUrBGAwDwJNTAwuSDdBPE2nJLjVXfIf-A12GnDA] is formula-based. It’s kind of like if Excel, Airtable, and Zapier had a baby, plus access to databases that normally live behind paywalls.
 It’s really incredible already, and it’s still in beta. Rows wants Not Boring readers -- people who love finance & tech -- to be among the early adopters. You should just try it for yourself, on me:
 Hi friends 👋 ,
-Happy belated Mother’s Day to all the not boring moms! 
-Most of the time at Not Boring, I write about companies, with facts and figures and histories and graphs. Occasionally, I’ll write about concepts and business models, like the Metaverse, DAOs, or APIs. Sometimes, I’ll let you into my brain to see what’s going on in there before an idea is fully baked, when its just a bunch of wisps starting to form a braid. 
+Happy belated Mother’s Day to all the not boring moms!
+Most of the time at Not Boring, I write about companies, with facts and figures and histories and graphs. Occasionally, I’ll write about concepts and business models, like the Metaverse, DAOs, or APIs. Sometimes, I’ll let you into my brain to see what’s going on in there before an idea is fully baked, when its just a bunch of wisps starting to form a braid.
 Today is one of those pieces. It’s shorter. It’s meant to be interactive. Most of the fun will happen when you take the idea and try to apply it to your own work or life. 
 To be clear, much of today’s essay is based on my own personal experience. I fully understand that not everyone has the luxury of having a roof over their head, food on the table, and an internet connection. Many people can’t afford the time to play the game. 
 But if you take the hours it takes to read Not Boring, you’re probably already playing the Great Online Game to some degree. You read this because you want to know how the online economy works, and how you can play it better. But you can’t play to win unless you know you’re playing.
-Let’s get to it. 
+Let’s get to it.
 The Great Online Game
 (Click this if you just want to jump to reading online)
 This didn’t start as a piece about games. I set out to answer this question: why are tech growth stocks sagging while crypto moons and value roars back? 

@@ -21,7 +21,7 @@
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, minimum-scale=1">
 <link rel="icon" type="image/png" href="http://web.archive.org/web/20220602132404im_/https://passle-net.s3.amazonaws.com/CustomDesign/60911cb2fac91e0ecc38ae4b/2021-05-04-14-10-30-322-609155d65354840460b16683.ico"/>
 
@@ -78,7 +78,7 @@
                 'security_storage': 'denied',
                 'wait_for_update': 2000 //allow 2 seconds for the cookie control to load and update settings
             });
-        </script> 
+        </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="http://web.archive.org/web/20220602132404js_/https://www.googletagmanager.com/gtag/js?id=UA-7169720-14"></script>
 <script>
@@ -104,7 +104,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <link href="http://web.archive.org/web/20220602132404cs_/https://dukb55syzud3u.cloudfront.net/Assets/CustomCSS?passleShortcode=102fwij" rel="stylesheet" type="text/css" media="all"/>    <link href="http://web.archive.org/web/20220602132404cs_/https://dukb55syzud3u.cloudfront.net/ClientWebv2/Styles/LayoutBundle?v=mVwKj5BC08U0FcXdFthJZ24EF25URLpZ9KKOil4L2041" rel="stylesheet" media="all">
-    
+
     <link href="http://web.archive.org/web/20220602132404cs_/https://dukb55syzud3u.cloudfront.net/ClientWebv2/Styles/PostViewBundle?v=3feTt7kCgeGpFw-1J4SReaptjfaQFN40GxzIK0Zi1Z81" rel="stylesheet" media="all">
 
 <script>
@@ -148,7 +148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
 <div class="client-content">
-                
+
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="http://web.archive.org/web/20220602132404if_/https://www.googletagmanager.com/ns.html?id=GTM-W882ML" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -1342,7 +1342,7 @@ $(this).find('.form-control').focus();
     			</ul>
     		</li>
     	</ul>
-    </div>   
+    </div>
 </div>
 
 </div>
@@ -1350,7 +1350,7 @@ $(this).find('.form-control').focus();
                         <div class="container">
                             <div class="navigation-bar__first-line">
                                 <div>
-                                    
+
         <a class="controls__link" href="/web/20220602132404/https://blog.alixpartners.com/">All Posts</a>
 
 <a class="button subscribe-button" href="http://web.archive.org/web/20220602132404/https://pssle.co/all-insights/s/102fwij" aria-label="Subscribe">
@@ -1365,7 +1365,7 @@ $(this).find('.form-control').focus();
 </div>
 
 <div class="navigation-bar__second-line">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -1397,7 +1397,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -1618,7 +1618,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -1777,7 +1777,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -1915,7 +1915,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -2055,7 +2055,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -2195,7 +2195,7 @@ $(this).find('.form-control').focus();
                 <i class="far fa-star"></i>
             </a>
             <span class="action-buttons__counter like-button__counter action-button-number">
-                
+
             </span>
         </div>
     </div>
@@ -2438,13 +2438,13 @@ $(this).find('.form-control').focus();
 
 <script>
     (function(){
-        
+
         var css = ".cc-banner,.cc-revoke,.cc-window{display:none!important}body.optanon-popup-bg-visible{overflow:hidden}body.optanon-popup-bg-visible #optanon #cookie-consent-wrapper{display:block}body #optanon #cookie-consent-wrapper{position:fixed;right:0;top:0;max-width:450px;height:100%;z-index:7001;background:#fff;overflow-y:auto;overflow-x:hidden;display:none}body #optanon #cookie-consent-wrapper *{font-family:Roboto,'Noto Sans SC','Noto Sans JP'}body #optanon #cookie-consent-wrapper #center-tile-banner-popup{position:relative;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;transform:none;width:auto;height:auto;border-radius:0;background:0 0}body #optanon #cookie-consent-wrapper .optanon-alert-box-wrapper .optanon-alert-box-body{margin:40px 40px 24px 40px}body #optanon #cookie-consent-wrapper .optanon-alert-box-wrapper .optanon-alert-box-title{border-bottom:1px solid #eee}body #optanon #cookie-consent-wrapper .optanon-alert-box-wrapper .optanon-alert-box-title .center-tile-banner-title{color:#000;font-weight:900!important;font-size:20px;font-weight:700;line-height:26px;margin-bottom:24px;text-transform:uppercase}body #optanon #cookie-consent-wrapper .optanon-alert-box-wrapper .optanon-alert-box-button-container{height:auto;text-align:center;margin:0 auto}body #optanon #cookie-consent-wrapper .optanon-alert-box-wrapper .optanon-alert-box-notice{font-size:12px;line-height:18px;margin-top:20px;margin-bottom:10px;color:#333}body #optanon #cookie-consent-wrapper .optanon-alert-box-accept-button{height:auto;min-width:138px;border-radius:0;background-color:#428227!important;margin-bottom:0;display:inline-block;padding:8px 13px}body #optanon #cookie-consent-wrapper .optanon-alert-box-yes-i-accept{height:18px;font-size:15px;font-weight:700;letter-spacing:-1px;line-height:18px;text-align:center;padding-top:0}body #optanon #cookie-consent-wrapper .optanon-alert-box-yes-i-accept button{cursor:pointer;font-size:16px;font-weight:700;text-transform:uppercase}body #optanon #cookie-consent-wrapper .optanon-alert-box-more-info-button{display:none}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper{display:block;position:relative;margin:0 40px 24px;width:auto!important;min-height:0;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .optanon-bottom-spacer,body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .optanon-button-wrapper.optanon-allow-all-button.optanon-allow-all{display:none}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .center-tile-more-info-text{float:none;margin:18px auto 0}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .center-tile-more-info-text,body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .center-tile-more-info-text *{text-align:center}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .optanon-white-button-middle{float:none;display:inline-block;background-color:#428227!important}body #optanon #cookie-consent-wrapper #optanon-popup-wrapper .optanon-white-button-middle button{font-size:16px;font-weight:700;text-transform:uppercase;cursor:pointer}body #optanon #cookie-consent-wrapper #optanon-popup-top{height:auto;border-color:#eee}body #optanon #cookie-consent-wrapper #optanon-popup-top p{display:none}body #optanon #cookie-consent-wrapper #optanon-popup-body{margin-top:20px;width:auto;height:auto}body #optanon #cookie-consent-wrapper #optanon-popup-body .optanon-popup-body-content{margin-left:auto;margin-right:auto}body #optanon #cookie-consent-wrapper #optanon-popup-body .optanon-popup-body-content:not(:first-child){margin-top:18px}body #optanon #cookie-consent-wrapper #optanon-popup-body .center-tile-preference-group-name{margin-top:0;margin-left:auto;margin-right:auto;margin-bottom:5px}body #optanon #cookie-consent-wrapper #optanon-popup-body input+.center-tile-preference-group-name{margin-left:5px}body #optanon #cookie-consent-wrapper #optanon-popup-body,body #optanon #cookie-consent-wrapper #optanon-popup-body .optanon-main-info-text{font-size:12px;line-height:18px;color:#333}body #optanon #cookie-consent-wrapper #optanon-popup-bottom{float:none}body #optanon #cookie-consent-wrapper #optanon-popup-bottom .optanon-button-wrapper{float:none;margin:18px auto 0;text-align:center}body #optanon #cookie-consent-wrapper .center-tile-more-info-text{display:none}";
         var head = document.head || document.getElementsByTagName('head')[0],
             style = document.createElement('style');
 
 head.appendChild(style);
-        
+
         style.type = 'text/css';
         if (style.styleSheet){
           // This is required for IE8 and below.
@@ -2452,7 +2452,7 @@ head.appendChild(style);
         } else {
           style.appendChild(document.createTextNode(css));
         }
-        
+
     })();
 </script>
 
@@ -2472,7 +2472,7 @@ $optanon.append($cookieConsentWrapper);
 
 $cookieConsentWrapper.append($("#optanon-popup-wrapper, #center-tile-banner-popup"));
     }
-}   
+}
 </script>
 
 <script src="http://web.archive.org/web/20220602132404js_/https://cdn.cookielaw.org/consent/559e6b0f-50cf-4a89-98b9-5cbac3506be4.js" type="text/javascript" charset="UTF-8"></script>
@@ -2481,33 +2481,33 @@ $cookieConsentWrapper.append($("#optanon-popup-wrapper, #center-tile-banner-popu
 
 <script>
 (function(){
-    
+
     var $body = $("body");
-    
+
     new MutationObserver(function (mutationsList, observer) {
 
 if ($("#optanon-popup-bg").is(":visible")) {
-    
+
             if (!$body.hasClass("optanon-popup-bg-visible")) {
-    
+
                 $body.addClass("optanon-popup-bg-visible");
-    
+
                 dataLayer.push({ 'event': 'cookie_consent_event' });
             }
         }
-    
+
         else {
-    
+
             if ($body.hasClass("optanon-popup-bg-visible")) {
-    
+
                 $body.removeClass("optanon-popup-bg-visible");
-    
+
                 dataLayer.push({ 'event': 'cookie_consent_event' });
             }
         }
-        
+
     }).observe($body[0], { attributes: true, childList: true, subtree: true });
-    
+
 })();
 </script>
 

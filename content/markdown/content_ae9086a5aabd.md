@@ -1152,7 +1152,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_chanel" data-slug="p1-chanel" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p1-chanel_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-chanel_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-chanel_600.webm">
                             <div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p1-chanel"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:39</h6>
@@ -1164,7 +1164,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_change" data-slug="p1-change" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p1-change_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-change_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-change_600.webm">
 	                     	<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p1-change"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:22</h6>
@@ -1176,7 +1176,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_dancing" data-slug="p1-dancing" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p1-dancing_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-dancing_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p1-dancing_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p1-dancing"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:36</h6>
@@ -1486,7 +1486,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_papa" data-slug="p2-papa" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p2-papa_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p2-papa_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p2-papa_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p2-papa"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:58</h6>
@@ -1498,7 +1498,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_poem" data-slug="p2-poem" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p2-poem_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p2-poem_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p2-poem_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p2-poem"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 1:00</h6>
@@ -1822,9 +1822,9 @@ if (!isMobile) {
                                     </div>
                                     <div class="video_thumb">
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_childhood" data-slug="p3-childhood" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p3-childhood_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p3-childhood_600.mp4"
-                                            data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p3-childhood_600.webm">	
+                                            data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p3-childhood_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p3-childhood"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 1:19</h6>
@@ -2122,7 +2122,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_breathing" data-slug="p4-breathing" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p4-breathing_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p4-breathing_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p4-breathing_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p4-breathing"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:29</h6>
@@ -2134,7 +2134,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_teacher" data-slug="p4-teacher" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p4-teacher_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p4-teacher_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p4-teacher_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p4-teacher"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:50</h6>
@@ -2539,7 +2539,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_bartendaz" data-slug="p5-bartendaz" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p5-bartendaz_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p5-bartendaz_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p5-bartendaz_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p5-bartendaz"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:41</h6>
@@ -2551,7 +2551,7 @@ if (!isMobile) {
                                         <span class="nytmm_videoBoxLink nytmm_videoNoteTrigger clearfix" id="nytmm_videoNoteTrigger_singing" data-slug="p5-singing" data-poster="https://static01.nyt.com/packages/images/multimedia/bundles/projects/2013/ChildPoverty/p5-singing_600.jpg" data-mp4="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p5-singing_600.mp4"
                                             data-webm="https://static01.nyt.com/packages/video/multimedia/bundles/projects/2013/ChildPoverty/p5-singing_600.webm">
 							<div class="nytmm_buildable nytmm_videoThumb_image" data-type="videothumb" data-slug="p5-singing"></div>
-							
+
 							<div class="nytmm_play nytmm-2013ChildPovertyDeploy-icons playButton"></div>
 							<div class="video_info">
 								<h6>Video | 0:15</h6>

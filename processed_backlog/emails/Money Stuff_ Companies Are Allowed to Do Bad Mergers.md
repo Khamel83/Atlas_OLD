@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         As a first approximation, if you are the chief executive officer of a big public company, you can do whatever you want. You are the boss, yo
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bad mergers
-    
-  
+
+
 
 As a first approximation, if you are the chief executive officer of a big public company, you can do whatever you want. You are the boss, you write the checks, and if you want to spend your company’s money on buying yourself a nicer office chair or upgrading the corporate jet, you can. If you are the CEO of a ball bearings company and you want to open a film studio so that you can hang out with movie stars, sure, you’re the boss. Or if you are the CEO of a payments company and you want to buy Jay-Z’s music streaming company because you like hanging out with Jay-Z, you can do that.
 This is only a first approximation, of course, and there are constraints. There are legal constraints: You can’t do crimes, or conceal what you’re doing from your board, or take bribes. But the main constraints are probably something like:
@@ -101,37 +101,37 @@ But that’s all fine: “Although the facts emphasized by Plaintiff do not gene
   [5]
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       First Citizens Valley
-    
-  
+
+
 
 In March, First Citizens BancShares Inc.   bought most of Silicon Valley Bank from the Federal Deposit Insurance Corp., which had seized SVB when it failed earlier that month. The price that First Citizens paid for SVB was, loosely speaking, negative $16.5 billion: It took over about $110.1 billion of SVB’s assets and assumed $93.6 billion of liabilities, for a discount of $16.5 billion.
 Today, First Citizens   reported earnings for the first quarter, and the way accounting works is pretty much that that discount counts as earnings. Not all of it: First Citizens has some reason to be conservative,
@@ -159,11 +159,11 @@ Instead, the FDIC effectively gave it the capital: It sold First Citizens $107
 
 The FDIC’s insurance fund took a big loss on SVB, but the loss was not driven entirely by the fact that SVB’s deposits were bigger than the market value of its assets. The loss also came from the fact that the FDIC was paying to recapitalize the banking system. The problem was that SVB’s losses left it undercapitalized, and the fix was to hand SVB to some other bank and make it well-capitalized. And that costs money.
 
-  
-    
+
+
       Elsewhere in bank earnings
-    
-  
+
+
 
 We have   talked a   bunch recently about two different ways of looking at banks and interest-rate risk. One theory, which I have called Theory 1, is that banks have short-term liabilities (deposits) and long-term assets (bonds, loans), and so when interest rates go up their costs go up and their assets lose value: Banks are at risk of bad things if interest rates go up. This theory is plainly correct as applied to Silicon Valley Bank or First Republic, both of which disappeared because rising rates left them insolvent.
 The other theory, which I have called Theory 2, is that banks actually have long-term liabilities (because their depositors are loyal and not very interest-rate-sensitive) matched with long-term assets, and that when interest rates go up banks make more money by charging more for loans without paying much more for deposits: Banks benefit from raising interest rates. This theory seems correct as applied to most of the other banks. At the Financial Times,  Stephen Gandel reports:
@@ -181,11 +181,11 @@ Runs are … due to the nature of the deposit franchise. When a deposit is withd
 
 The deposit franchise is both more valuable and more fragile as rates go up. For banks overall, rising rates have been profitable, but for some banks they have been fatal.
 
-  
-    
+
+
       Capital call financing
-    
-  
+
+
 
 One important issue in modern financial markets is settlement time. It used to be that, if you bought a stock from me on a stock exchange, we would meet at the exchange and agree on the trade, and then I would go back to my vault and get my stock certificates, while you would go to your bank and stand in line and fill out a form and get a sack of gold coins to pay me, and then we’d meet back up to hand over the certificates and coins, and we traveled between the exchange and the bank and the vault and the meeting place on foot, and we took long lunches, etc., and so all of this took a week: We’d agree a trade on Monday, and hand over shares and coins the following Monday. Only in the 1990s did US stock markets move to three-business-day (“T+3”) settlement. Only this year did the Securities and Exchange Commission finalize rules to move to one-business-day (“T+1”) settlement; they won’t fully take effect until May 2024. The US stock market — one of the fastest-moving financial markets — still takes two days between agreeing on a trade and actually handing over the money.
 People get mad about this delay, but for the most part it is not about, like, archaic computer systems. For the most part it is about financing. If trades settled instantly — if you agreed to buy a stock from me on the stock exchange at 12:02 on a Monday, and then we exchanged cash for shares at 12:02:00.001 — then everyone would need to pre-fund their accounts. You would need to keep cash somewhere accessible to the exchange at all times, so that as soon as your buy order got filled the money would be there. With T+2 or T+1 settlement, you can agree to do a trade and then go find the money. Maybe you have it invested in Treasury bills to get some yield, and the two-day delay lets you sell the bills to get the cash to buy the stock. Or maybe you need to borrow the money, from a bank or prime broker, to fund the trade. Big market makers and hedge funds are often levered, and someone else advances them the money to pay for their trades. It is helpful to have a day or two to line up that borrowing.
@@ -206,19 +206,19 @@ The risk for the banks is that the investor will renege on their commitment, whi
 
 One possibility is that, in a weaker environment for startup investing and venture capital generally, startups will be willing to wait a few weeks to get their VC money?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US   Default Insurance Cost Eclipses Brazil, Mexico as X-Day Nears. Wall Street Leaders Warn of   ‘Unthinkable’ Fallout If US Defaults. Is  picking stocks by throwing darts better than indexing? US   Antitrust Enforcers Are Chilling Big Mergers. Bonds Backed by Apartments Are Under Stress as Housing Market Cools. The new ‘blood diamonds’: the elaborate plan to  halt Russia’s trade. Saudi Aramco’s Profit Slides as  Oil Boom Cools. Startups Are Scooping Up Big Tech’s  Cast-Off Workers. Jane Street, Jump  Pull Back Crypto Trading Over US Regulatory Uncertainty. Miami’s  Love Affair With Crypto Is Souring as Bitcoin Faithful Flock to the City. Binance slams  US crypto crackdown and makes bid for UK oversight. Ex-Coinbase Worker Gets Two-Year Prison Term in First  Cryptocurrency Insider-Trading Case. Tucker Carlson Says He’s Launching a New Show   on Twitter. Steve Schwarzman Holds Off Giving Money to DeSantis After   Meeting Him. Shrimp Cocktail Has Entered Its  $30 Era. Air New Zealand to Rent   Bunk Beds to Economy Passengers for $100 an Hour. Congrats  Buddy Holly!
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I don’t mean to emphasize shareholder value too much here; any form of “is this best for the company in the long term” is fine. Some CEOs self-consciously think about customers, not shareholders, etc., but in ways that seem to be good for shareholders in the long run.
 
 
-  [2] If the CEO owns enough super-voting stock, the board is only a temporary constraint: The CEO can fire the board if they try to fire him. (We 
+  [2] If the CEO owns enough super-voting stock, the board is only a temporary constraint: The CEO can fire the board if they try to fire him. (We
 talk about this dynamic from time to time because it is fun.) Still the board has fiduciary duties to do the right thing for minority shareholders, even if it gets them fired.
 
 
@@ -228,7 +228,7 @@ talk about this dynamic from time to time because it is fun.) Still the board ha
   [4] These quotes are me quoting Chancellor McCormick quoting a 2006 Chancery Court decision, In re The Walt Disney Co. Derivative Litigation.
 
 
-  [5] Incidentally, I 
+  [5] Incidentally, I
 write a lot around here about how “everything is securities fraud”: Every bad thing that happens to a public company can be characterized as securities fraud, because shareholders bought the stock thinking that the bad thing wouldn’t happen, so they can claim they were deceived by the company’s disclosures. If the Delaware rule is, kind of, “nothing is a breach of fiduciary duties,” then surely the right move for shareholder lawsuits is to sue for securities fraud instead? “You didn’t disclose in your risk factors that Jack Dorsey was hanging out with Jay-Z, so  your stock was overvalued,” etc.
 
 
@@ -241,7 +241,7 @@ write a lot around here about how “everything is securities fraud”: Every ba
   [8] The lower number here comes largely from loan loss provisions on the SVB assets that do not get counted in the gain-on-acquisition math.
 
 
-  [9] Again, see slide 19 of the presentation: $110.1 billion of assets minus $2.8 billion of adjustments gets you about $107.3 billion of assets at fair values. And the price was $93.6 billion of assumed deposits, plus $500 million of top-up payment to the FDIC, or $94.1 billion total. This is a little casual, and in fact some of the purchase price adjustments are not strictly about the fair value of SVB’s *assets*. For instance there’s a $230 million benefit for the “core deposit intangible,” that is, sort of, the deposit franchise. And First Citizens takes a $220 million benefit from “discount on purchase money note”: Part of the assumed liabilities was a $35 billion loan from the FDIC to First Citizens to provide long-term funding for some of the SVB loans, and that loan was at below-market rates, creating an additional benefit for First Citizens. 
+  [9] Again, see slide 19 of the presentation: $110.1 billion of assets minus $2.8 billion of adjustments gets you about $107.3 billion of assets at fair values. And the price was $93.6 billion of assumed deposits, plus $500 million of top-up payment to the FDIC, or $94.1 billion total. This is a little casual, and in fact some of the purchase price adjustments are not strictly about the fair value of SVB’s *assets*. For instance there’s a $230 million benefit for the “core deposit intangible,” that is, sort of, the deposit franchise. And First Citizens takes a $220 million benefit from “discount on purchase money note”: Part of the assumed liabilities was a $35 billion loan from the FDIC to First Citizens to provide long-term funding for some of the SVB loans, and that loan was at below-market rates, creating an additional benefit for First Citizens.
 
 
   [10] See page 6 of the earnings release.
@@ -250,48 +250,48 @@ write a lot around here about how “everything is securities fraud”: Every ba
   [11] I’m being a bit cute; most of the delay here is caused by the need to get regulatory approvals and a shareholder vote. If those were instantaneous, you’d probably see the financing markets adapt by getting quicker.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -302,46 +302,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cipv0c.5mhx/4c701ac1.gif" alt="" border="0" /></a>

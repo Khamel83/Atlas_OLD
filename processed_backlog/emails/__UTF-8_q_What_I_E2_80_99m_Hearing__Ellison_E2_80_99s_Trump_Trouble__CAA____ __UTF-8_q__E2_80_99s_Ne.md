@@ -28,7 +28,7 @@ here ( https://puck.news/join/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%28
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts…
 --------------------
@@ -147,7 +147,7 @@ Trump shenanigans—and Trump and Carr know it.
 The irony here is that Larry Ellison, the mega-billionaire and Trump supporter whose money is largely financing the Paramount acquisition, is probably as ideologically aligned with the president as any possible owner of CBS besides Don Jr. Which is why the most likely outcome here seems to be Carr keeping Shari and David in a sauna for a few months, Shari writing an embarrassingly fat
 check so Trump can extract his pound of flesh and scream that he was right all along, and Carr approving the deal with a public statement vowing to monitor and police media bias now and into the future, ultimately giving Larry and his son what they want.
 
- 
+
 
 See you Monday,
 
@@ -181,6 +181,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU3zVpDsmOGIU1nMQwsEM=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

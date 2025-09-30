@@ -175,7 +175,7 @@ challenge is that we don’t know the salon network. We don’t know how to opti
 Another high-level source told me that Henkel, which counts GOT2B, Schwarzkopf, and Joico among its haircare brands, was at one time looking at Bumble and Bumble and Aveda. I think this would be a good fit—as would Yellow Wood Partners, which in 2023 completed its acquisition of Suave, another haircare
 brand, albeit mass priced. A person with knowledge of the matter told me that Lauder’s haircare brands are not for sale at this time. “The goal is to put them in the right spots and to turn them around,” this person said. Really, the only place for Smashbox and Glamglow to go is private equity, but I’m not sure why Lauder doesn’t just shutter them altogether, like it did with Becca Cosmetics a few years ago. 
 
- 
+
 
 What
 Rachel’s Reading…
@@ -194,7 +194,7 @@ important people in all of beauty. [WWD ( https://wwd.com/beauty-industry-news/b
 Tate McRae is in high demand for beauty brands. Hailey Bieber’s Rhode just tapped the 21-year-old singer to be the face of its new Lip Shape, and this week, Kenvue’s Neutrogena announced McRae as
 its new ambassador. [Elle ( https://www.elle.com/beauty/makeup-skin-care/a63652167/tate-mcrae-neutrogena-favorite-products-interview-2025/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Rachel and me. Remember that I love tips and you are more than welcome to
 text me at +1 646-241-3902. Also, can anyone help me track down a lawsuit in France?
@@ -248,6 +248,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU2Le4aK3opHLJWv2tQlE=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

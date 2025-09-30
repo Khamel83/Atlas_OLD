@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Roughly speaking the way the US stock market works is that all of the sto
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Crypto custody
-    
-  
+
+
 
 Roughly speaking the way the US stock market works is that all of the stocks are in one place. The place is called DTC, the Depository Trust Company, which in some sense owns almost all of the stocks. If you own a stock, what you own is an entry on a list at your brokerage, saying that you are entitled to some of the stocks that it is holding onto for clients, and what your brokerage has is an entry on a list at DTC, saying that it is entitled to some of the stocks that DTC is holding onto. (And what DTC mostly owns is entries on lists at all the companies, or their transfer agents, saying that it owns the stocks that those companies issue.) 
 One thing this means is that when I buy some stock from you, the way we settle that transaction — the way you actually deliver the stock to me — is by updating DTC’s list. We tell DTC about the transaction, it increments the stock in my account (really my broker’s, who increments my account) and decrements the stock in yours. This is far more efficient than if, for instance, you owned your stock in the form of paper stock certificates, and to settle trades you had to courier those certificates over to me, which is pretty much how things worked in the olden days.
@@ -107,89 +107,89 @@ If you are the SEC, and crypto people say “please write clear transparent rule
 And that is the stereotype: The industry is ruthless and creative about exploiting the rules, and the regulators are constantly playing catch-up.
 I just want to say that in crypto right now the SEC is being ruthless and creative about exploiting legal provisions to expand its powers, and the industry seems to be playing catch-up. Just an unusual situation!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Soligenix
-    
-  
+
+
 
 We have talked before about the problems of meme-stock corporate governance, and particularly the problem of meme-stock shareholder voting. The problem is:
 	If you’re a weird public company with a very retail investor base, you will have a hard time getting your shareholders to vote on anything, since retail shareholders stereotypically do not vote.	If you’re a weird public company with a very retail investor base, you will probably end up needing your shareholders to vote for something or other, because you’re weird.
@@ -219,20 +219,20 @@ Is this legal? I mean, the answer is:
 
 The large majority of the shareholders who bothered to vote wanted this result; Soligenix just found a way to give it to them. 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Designated counsel
-    
-  
+
+
 
 Most of the time, if you are a person and you want to borrow money from a bank, the bank sends you a contract — a credit card agreement, say — and you sign it. If you send them back a markup of the agreement with some suggested changes to make it more friendly to you, they will not even understand what you are talking about. Nobody at the bank has the job of negotiating that agreement with you; that is not an agreement that gets negotiated. You just sign the form that they send you, or you don’t get the money.
 At higher levels of finance, things are more equal and the leverage shifts. If you are a big corporation and you want to borrow money from a bank, they bank will send you a credit agreement, your lawyers will mark it up, your lawyers will negotiate with the bank’s lawyers and eventually you will agree on the terms. The bank wants your business and can be much more flexible with the contract than it would be with a retail customer.
@@ -250,11 +250,11 @@ There are sort of two points here:
 
 That is, the designated counsel are a result of the lenders not having much negotiating leverage, not (only) a cause. But rates are up, conditions are tighter, and now “direct lending units at firms such as Blackstone - which declined to comment for this story - are said to be drawing up lists of preferred law firms to act as designated counsel and actively pushing back when certain law firms are selected for the role.”
 
-  
-    
+
+
       People are worried about CEO narcissism
-    
-  
+
+
 
 Here is a paper called “The beguiling behaviour of narcissistic CEOs: Evidence from repurchase announcements,” by Evans Ofosu Boamah and Shantanu Banerjee of Lancaster University, which on one level finds that companies with narcissistic chief executive officers are more likely to announce large share buybacks, but less likely to actually complete those buybacks:
 Using signature characteristics as a measure of narcissism, we find that US firms with narcissist CEOs are more likely to make repurchase announcements and announce higher repurchase dollar amounts. However, these firms are less likely to follow through. They repurchase less and a small dollar amount when they make an actual repurchase in the announcement year. The higher rate and amount of repurchase announcements are more pronounced in poorly-governed firms with narcissistic CEOs. These results are robust to various specifications including a difference-in-difference specification using CEOs’ exogenous turnover, controlling for other CEO traits and using an alternative measure of narcissism based on pronoun usage in CEO communications. Collectively, the results presented in this study demonstrate that narcissist CEOs play a critical role in the intensity of share repurchase announcements and their executions, particularly for firms with weaker governance structure.
@@ -262,16 +262,16 @@ But at another level it demonstrates that financial academics can spend their ti
 Psychology literature argues that handwriting styles reflect personality (Chaudhari and Thakkar, 2019). In line with this, we measure CEO narcissism using the area per character signature size narcissism measure. Using an unobtrusive measure such as signature size reduces the  reactivity, researcher expectation and demand characteristics that can weaken the measure’s validity (Chatterjee and Hambrick, 2007). We draw a rectangle that touches the CEO signature’s edges to measure the area per character signature size. We measure the area by multiplying the length and width of the rectangle. We measure CEO narcissism by dividing the area by the number of characters in the CEO’s signed name. According to our prediction, the greater a CEO’s narcissism score, as measured by the signature size, the more likely the announcement of repurchases and target a larger dollar amount.
 I feel like that’s the sort of thing you can do in academia. If you work at a hedge fund and you go to your boss and say “I am going to predict how much stock our portfolio companies will buy back by taking a tape measure to the CEO’s signature in the proxy statement,” what would your boss say? I actually don’t know? I feel like I am going to get some emails that are like “I work at a hedge fund and we use handwriting analysis all the time to predict short-term stock price moves.” Really finance is the study of human behavior and I guess signing your name really big is a human behavior like anything else, apparently one that correlates with stock buyback announcements.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The SEC approves  T+1 settlement. “‘It was like working for   Stalin or Hitler or something,’ says Jimmy Watson Jr., [John] McAfee’s former bodyguard and business partner.” Tech start-ups face dilemma over  expiring staff stock options. From   Math Camp to Handcuffs: FTX’s Downfall Was an Arc of Brotherhood and Betrayal. The Rainmakers: Meet the  20 powerhouse bankers who orchestrated the biggest deals of 2022 and defied a down market. Missed signals: behind Trafigura’s $577mn loss on  non-existent nickel. Credit Suisse’s Klein Says   First Boston Staff Will Own Firm. EU Sanctions Aim to Make Banks   Divulge Frozen Russian Assets. Adani  halts $847mn acquisition of coal-fired power plant in India. Turkey’s Latest   Lira Defense Is More-Costly Forward Contracts. JPMorgan’s Kolanovic Warns of ‘Volmageddon 2.0’ Risk in Options. Ex-JPMorgan Executive’s   Jeffrey Epstein Emails Revealed in Lawsuit Against Bank. Bing’s A.I. Chat Reveals Its Feelings: ‘I Want to Be Alive.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] These tend to be exchanges where you can trade, like, Ether or Solana for Ethereum- or Solana-based stablecoins, etc., not exchanges where you can trade *Bitcoins* for *actual dollars*, just because Venmo or whatever aren’t on the blockchain. 
+
+  [1] These tend to be exchanges where you can trade, like, Ether or Solana for Ethereum- or Solana-based stablecoins, etc., not exchanges where you can trade *Bitcoins* for *actual dollars*, just because Venmo or whatever aren’t on the blockchain.
 
 
   [2] See pages 11-12 of  the SEC’s proposed rule, which are maybe a touch argumentative about how much Congress really *intended* to cover non-security assets. “Earlier versions of this bill show that Congress considered retaining the current rule’s funds and securities formulation,” says a footnote; basically the argument is that “assets” must mean something more than “funds and securities,” because an early draft said “funds and securities” and then was changed to “assets.”
@@ -283,7 +283,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] In fact, in September 2022, Soligenix asked its shareholders to authorize more shares, but the vote failed. Soligenix said in a securities filing: “Despite support for Proposal 2 exceeding 80% of the votes cast on the proposal, Proposal 2 did not receive the affirmative vote of holders of more than 50% of the Company’s issued and outstanding shares of Common Stock and, therefore, was not approved. A large proportion of the stockholders holding shares through banks, brokers or other nominees could not be identified or were unresponsive to the Company’s outreach in urging them to vote their shares.” The shareholders who voted wanted to authorize more shares, but most shareholders didn’t vote.
 
 
-  [5] I learned of this because we 
+  [5] I learned of this because we
 talked yesterday about Purple Innovations Inc.’s PRPLS preferred shares, each of which had 10,000 votes, and reader Patrick Corn emailed to say that he could top that with a million votes per share.
 
 
@@ -296,114 +296,114 @@ talked yesterday about Purple Innovations Inc.’s PRPLS preferred shares, each 
   [8] Specifically, there were about 43 million common shares and 43,335 preferred shares (with 43.3 billion *votes*) outstanding a month before the vote. There were about 18.6 billion votes for the reverse split, about 3 billion votes against, and about 591 million abstentions, meaning that roughly half of the shares voted one way or the other (or even filled out a proxy to abstain). But the other half were canceled, with the result that the proposal got 84% of the vote.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

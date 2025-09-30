@@ -25,7 +25,7 @@
 <meta charset="UTF-8">
 <meta name="robots" content="noarchive"/><meta name="altmetric_type" content="news">
 <meta name="viewport" content="width=device-width,initial-scale=1"><!--Render the heads templates for digital objects, Head templates are used to include additional meta tags specially used for digital objects-->
-    
+
 <link rel="canonical" href="http://web.archive.org/web/20231122193637/https://www.science.org/content/article/how-big-average-penis"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -44,24 +44,24 @@
     <meta property="og:image" content="http://web.archive.org/web/20231122193637im_/https://www.science.org/do/10.1126/science.aaa7934/abs/sn-penislength.jpg"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="400"/>
- 
+
 <script type="text/javascript" src="http://web.archive.org/web/20231122193637js_/https://play.cadmore.media/js/EMBED.js"></script>
 
 <link rel="icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/favicon-2e8a2b125385ae5ae8b5890099c6f845.ico" type="image/x-icon"/>
-        
-        
+
+
             <link rel="icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/favicon-16x16-93a3ddc0ff5a9069e65a9b6a84e0dd1b.png" type="image/png" sizes="16x16"/>
-        
-        
+
+
             <link rel="icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/favicon-32x32-da7530e24672f255e6c1269e845c61a0.png" type="image/png" sizes="32x32"/>
-        
-        
+
+
             <link rel="apple-touch-icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/touch-icon-ipad-f07fc248077d69452cf6ab09c7df85db.png" sizes="152x152"/>
-        
-        
+
+
             <link rel="apple-touch-icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/touch-icon-iphone-retina-c2122c3927d48388693f76df982eab90.png" sizes="180x180"/>
-        
-        
+
+
             <link rel="apple-touch-icon" href="/web/20231122193637im_/https://www.science.org/products/aaas/releasedAssets/images/favicon/favicon/touch-icon-ipad-retina-7ab15a896e9d26885a8e8406bcf95ea5.png" sizes="167x167"/>
 
 <link rel="stylesheet" href="/web/20231122193637cs_/https://www.science.org/products/aaas/releasedAssets/css/build-869dafa875841f67981d.css" media="all" id="build-style-sheet">
@@ -70,10 +70,10 @@
                         var ua = navigator.userAgent;
                         /* MSIE used to detect old browsers and Trident used to newer ones*/
                         var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
-          
-                        return is_ie; 
+
+                        return is_ie;
                     }
-                    
+
                     if(isIE()) {
                         document.write('<link rel="stylesheet" href="/products/aaas/releasedAssets/css/build-style-fallback-60f5fe57f8971d3cecd1.css" media="all" />')
                         var buildCss = document.getElementById('build-style-sheet');
@@ -81,7 +81,7 @@
                     }
                 </script>
         <link rel="stylesheet" href="/web/20231122193637cs_/https://www.science.org/products/aaas/releasedAssets/css/print-869dafa875841f67981d.css" media="print">
-    
+
         <script>
         try {
             document.documentElement.classList.add('js');
@@ -189,7 +189,7 @@ if(window.WebyGam) {
 
 <ul class="main-menu nav align-items-center">
   <li class="nav-item">
-          
+
   </li>
   <li class="nav-item p-0 mr-lg-4">
     <a href="#header-quick-search-wrapper" title="Search" aria-controls="header-quick-search-wrapper" aria-expanded="false" data-toggle="collapse" class="btn btn-animate-bg quick-search__toggle p-0 d-flex align-items-center justify-content-center collapsed"><i class="icon-search"></i></a>
@@ -281,7 +281,7 @@ if(window.WebyGam) {
   </li>
   <li class="nav-item nav-item--secondary font-weight-bold">
     <a href="/web/20231122193637/https://www.science.org/blogs" class="nav-link">blogs</a>
-  </li>  
+  </li>
   <li class="nav-item nav-item--secondary font-weight-bold">
     <a href="/web/20231122193637/https://www.science.org/content/page/visualizations" class="nav-link">visualizations</a>
   </li>
@@ -396,9 +396,9 @@ if(window.WebyGam) {
 													</ul>
 													<div class="mb-3">
 														<h1 class="news-article__hero__title">How big is the average penis?</h1>
-													
+
 														<h2 class="news-article__hero__subtitle h5 font-weight-normal serif mt-1">Scientists are refining what constitutes "normal"</h2>
-													
+
 													</div>
 													<ul role="list" class="list-inline news-article__hero__bottom-meta position-relative text-xxs text-uppercase py-3 pb-xl-4">
 														<li role="listitem" class="list-inline-item py-1"><span class="news-article__hero__date font-weight-bold">3 Mar 2015</span></li><li role="listitem" class="list-inline-item py-1"><span class="mr-1">By</span><a href="/web/20231122193637/https://www.science.org/content/author/david-shultz" class="news-article__hero__bottom-meta-link" title="David Shultz">David Shultz</a></li>
@@ -424,7 +424,7 @@ if(window.WebyGam) {
 							<div class="news-article-body position-relative container-fluid">
 								<div class="row">
 									<div class="col-12 col-lg-8 col-xl-8 offset-lg-2 offset-xl-0">
-									
+
 										<div class="row pb-4 pb-xl-5 mr-xl-4x">
 
 <div class="col-12 pr-xl-2">
@@ -438,41 +438,41 @@ if(window.WebyGam) {
 
 <div class="bodySection" data-interstitial="3">
 														<style type="text/css"></style>
-														
-														
+
+
 														<html><body><p><a href="http://web.archive.org/web/20231122193637/https://www.youtube.com/watch?v=8DoARSlv-HU&amp;t=1m37s">"I was in the pool!"</a> George Costanza's distress at the "shrinkage" of his penis after exiting a cold pool was hilarious in the 1994<em> Seinfeld</em> episode, but for many men concern over the length and girth of their reproductive organ is no laughing matter. Now, a new study could assuage such worries with what may be the most accurate penis-size measurements to date.</p> <p>Many earlier studies relied on self-reporting, which doesn't always yield reliable results. "People tend to overestimate themselves," says David Veale, a psychiatrist at the South London and Maudsley NHS Foundation Trust. So when Veale and his team set out to settle the score on penile proportions, they decided to compile data from clinicians who followed a standardized measuring procedure.</p> <p>Published today in the <em>British Journal of Urology International</em>, <a href="http://web.archive.org/web/20231122193637/http://doi.wiley.com/10.1111/bju.13010">their new study synthesizes data from 17 previous academic papers that included measurements from a total of 15,521 men from around the world</a>. The data enabled the researchers to calculate averages and model the estimated distribution of penile dimensions across humanity. "It still just strikes me how many men have questions and insecurities and concerns about their own penis size. We actually do need good data on it," says Debra Herbenick, a behavioral scientist at Indiana University, Bloomington, who was not involved in the study.</p> <p>According to the team's analysis, the average flaccid, pendulous penis is 9.16 cm (3.61 inches) in length; the average erect penis is 13.12 cm (5.16 inches) long. The corresponding girth measurements are 9.31 cm (3.66 inches) for a flaccid penis and 11.66 cm (4.59 inches) for an erect one.</p> <p>A graph of the size distribution shows that outliers are rare. A 16-cm (6.3-inch) erect penis falls into the 95th percentile: Out of 100 men, only five would have a penis larger than 16 cm. Conversely, an erect penis measuring 10 cm (3.94 inches) falls into the 5th percentile: Only five out of 100 men would have a penis smaller than 10 cm.</p> <figure class="news-article__figure border-light-gray _original_"><div class="news-article__figure__image__wrapper"><img alt="" class="news-article__figure__image mb-2" src="/web/20231122193637im_/https://www.science.org/do/10.1126/science.aaa7934/full/xsn-penisdimensions-rev-1644966012243.png"/><figcaption class="news-article__figure__caption"><span class="text-sm text-gray letter-spacing-default"><span class="text-xxs ml-1 text-uppercase"/></span></figcaption></div></figure> <p>Gentlemen, if you're eager to see how you measure up, you'll need to follow the same measurement procedure used in the study. All length measurements were made from the pubic bone to the tip of the glans on the top side of the penis. Any fat covering the pubic bone was compressed before measurement, and any additional length provided by foreskin was not counted. Circumference was measured at the base of the penis or around the middle of the shaft, as the two sites were deemed equivalent.</p> <p>The researchers concluded that there was no strong evidence to link penis size to other physical features such as height, body mass index, or even shoe size. Yes, it seems that the only definite conclusion that can be drawn about a fellow with big socks is that he probably has big feet. Likewise, the study found no significant correlation between genital dimensions and race or ethnicity, although Veale points out that their study was not designed to probe such associations, because much of the data used were from studies of Caucasian men.</p> <p>It's easy to laugh at poor George Costanza for his shrunken manhood, but some reports suggest that only about 55% of men are satisfied with their penis size. Some seek potentially dangerous surgical solutions to a problem that, according to Veale, is often only in their head. Men "seem to have a very distorted picture of what [size] other men are, and what they believe they should be," Veale says.</p> <p>Pornography, in which male performers are often selected for their extremely large genitalia, may be partly to blame. Similarly, Herbenick points to the myriad spam e-mails that assert that 17.78 cm (7 inches) is average for an erection, when in reality such a member would place its owner in about the 98th percentile. It's best to just ignore those ads in any case, Veale says. "There are no effective lotions or potions or pills."</p><script defer src="http://web.archive.org/web/20231122193637js_/https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;82a39f55ae2924e8&quot;,&quot;b&quot;:1,&quot;version&quot;:&quot;2023.10.0&quot;,&quot;token&quot;:&quot;fd35e09e6f6c4295b7260d5c09bf2450&quot;}" crossorigin="anonymous"></script>
 </body></html>
 														<script type="text/javascript"></script>
 													</div>
 
 </article>
-											
+
 												<hr class="w-50 mb-4 ml-0"/>
-											
+
 											</div>
 
 <div class="col-12">
 												<div class="news-article-content-footer mb-3">
-												
+
 													<span class="text-sm letter-spacing-default">doi: 10.1126/science.aaa7934</span>
-												
+
 													<div class="col-12 col-md-9 px-0 mb-3">
-													
+
 														<div class="news-article__tags">
 															<h4 class="text-xs text-uppercase my-3 letter-spacing-default">Relevant tags:</h4>
 															<div class="d-flex flex-wrap">
 														<a href="/web/20231122193637/https://www.science.org/topic/category/biology" title="Biology" class="btn btn-tag text-uppercase mr-3 mb-3 btn-outline-primary">Biology</a>
-														
+
 															</div>
 														</div>
-													
+
 													</div>
 
 <h2 class="h4 title--decorated mb-4">About the author</h2>
-													
-														
+
+
 <div class="news-article__about-author d-flex mb-4">
-	
+
 	<div class="news-article__about-author__content">
 		<div class="d-flex flex-wrap">
 			<h4><a href="/web/20231122193637/https://www.science.org/content/author/david-shultz" class="news-article__about-author__title animation-underline text-hover-primary text-reset mr-1">David Shultz</a></h4>
@@ -480,13 +480,13 @@ if(window.WebyGam) {
 				<a href="http://web.archive.org/web/20231122193637/https://www.twitter.com/@dshultz14"><i aria-hidden="true" class="icon-twitter text-hover-primary text-gray text-md ml-1"></i><span class="sr-only">Twitter</span></a>
 			</div>
 		</div>
-	
+
 		<h5 class="news-article__about-author__subtitle text-sm text-gray letter-spacing-default font-weight-normal mt-1 mb-2 pb-1">
 			Author
 		</h5>
-	
+
 		<div aria-expanded="false" id="author1" class="mb-0 serif mt-2 pt-1 text-ellipses truncated david-shultz">
-			
+
 		</div>
 		<a data-toggle="collapse" data-label-more="View more" data-label-less="View less" href="#" data-target=".david-shultz" role="button" aria-expanded="false" aria-controls="david-shultz" class="text-xs btn view-more text-primary px-0 collapsed"></a>
 	</div>
@@ -509,7 +509,7 @@ if(window.WebyGam) {
 				<span>
 					22 Nov 2023
 				</span>
-			</time>			
+			</time>
 		</div>
 		<div class="card-header mb-2">
 			<a href="/web/20231122193637/https://www.science.org/content/article/news-glance-new-cancer-institute-head-nih-s-applied-research-tilt-and-bias-free" title="News at a glance: New cancer institute head, NIH’s applied research tilt, and bias-free clinical algorithms" class="text-reset animation-underline font-weight-bold">News at a glance: New cancer institute head, NIH’s applied research tilt, and bias-free clinical algorithms</a>
@@ -532,7 +532,7 @@ if(window.WebyGam) {
 				<span>
 					22 Nov 2023
 				</span>
-			</time>			
+			</time>
 		</div>
 		<div class="card-header mb-2">
 			<a href="/web/20231122193637/https://www.science.org/content/article/how-astrophysics-center-achieved-gender-parity" title="How this astrophysics center achieved gender parity" class="text-reset animation-underline font-weight-bold">How this astrophysics center achieved gender parity</a>
@@ -555,7 +555,7 @@ if(window.WebyGam) {
 				<span>
 					22 Nov 2023
 				</span>
-			</time>			
+			</time>
 		</div>
 		<div class="card-header mb-2">
 			<a href="/web/20231122193637/https://www.science.org/content/article/feeling-full-researchers-pinpoint-neurons-prevent-eating-too-much-too" title="Feeling full? Researchers pinpoint neurons that prevent eating too much, too fast" class="text-reset animation-underline font-weight-bold">Feeling full? Researchers pinpoint neurons that prevent eating too much, too fast</a>
@@ -920,11 +920,11 @@ This HTML widget must only be edited at specific article scopes. It is intended 
 	if ($('html#pb-editor').length) {
 	    return false;
 	}
-	
+
 	// Get the interstitial HTML, save it, and remove the original instance
 	var html=$('#interstitial-content').html();
 	$('#interstitial-content').remove();
-	
+
 	// Get the targeted paragraph number
 	var target = $('.bodySection').attr('data-interstitial');
 	// If target is not assigned, then set it to 3
@@ -1763,7 +1763,7 @@ var injectThese = document.querySelectorAll('img.inject-me');
     </div>
 
 <script src="/web/20231122193637js_/https://www.science.org/products/aaas/releasedAssets/js/main.bundle-cc4bf7a4b76e64f675f0.js"></script>
-        
+
 <script type="text/javascript" src="/web/20231122193637js_/https://www.science.org/wro/msr3~product.js"></script>
 
 <div id="weby_cookie_consent"></div>

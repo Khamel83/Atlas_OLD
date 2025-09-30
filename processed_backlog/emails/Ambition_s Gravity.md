@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/ambitions-gravity
 
-Welcome to the 1,145 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 221,445 smart, curious folks by subscribing here: 
+Welcome to the 1,145 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 221,445 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Slack [ https://substack.com/redirect/275f06ce-3ea7-4b34-a17e-ba6e6bac8985?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 What’s the first thing founders do when starting a company? Buy a website domain? File incorporation docs? Add “Stealth” to their LinkedIn?
 Nope. The first thing founders do is start a new Slack Workspace [ https://substack.com/redirect/275f06ce-3ea7-4b34-a17e-ba6e6bac8985?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
@@ -18,9 +18,9 @@ Find what you need, share what you know. From files to photos to conversations, 
 Connect instantly with huddles. Fun fact, Dan and I have never scheduled a video meeting. But we huddle all the time. With huddles you can talk, video chat, or share your screen instantly with anyone in your Slack.
 Right now, you can save 50% off your first 3 months of Slack Pro [ https://substack.com/redirect/275f06ce-3ea7-4b34-a17e-ba6e6bac8985?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Hi friends 👋,
-Happy Wednesday! 
-There’s something electric happening. Optimism is spreading. People are doing big things. And you can, too. 
-Let’s get to it. 
+Happy Wednesday!
+There’s something electric happening. Optimism is spreading. People are doing big things. And you can, too.
+Let’s get to it.
 Ambition’s Gravity
 Tell me, what is it you plan to do
 with your one wild and precious life?

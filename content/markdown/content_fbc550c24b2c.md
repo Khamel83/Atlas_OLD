@@ -22,7 +22,7 @@
 
 <script>
 var pageRedirect = "";
-var urlRedirect = ""; 
+var urlRedirect = "";
 if(pageRedirect!="") window.location.replace(pageRedirect);
 else if(urlRedirect!="") window.location.replace(urlRedirect);
 </script>
@@ -70,7 +70,7 @@ else if(urlRedirect!="") window.location.replace(urlRedirect);
 <link href="/web/20231210174839cs_/https://www.museumoflondon.org.uk/concrete/css/jquery-magnific-popup.css" rel="stylesheet" type="text/css" media="all">
 
 <script>
-    
+
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:732198,hjsv:6};
@@ -79,7 +79,7 @@ else if(urlRedirect!="") window.location.replace(urlRedirect);
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://web.archive.org/web/20231210174839/https://static.hotjar.com/c/hotjar-','.js?sv=');
-    
+
 </script>
 <link rel="canonical" href="https://web.archive.org/web/20231210174839/https://www.museumoflondon.org.uk/discover/testy-teeth-dental-interventions-19th-century-london"/>
 <link rel="alternate" href="https://web.archive.org/web/20231210174839/https://www.museumoflondon.org.uk/discover/testy-teeth-dental-interventions-19th-century-london"/>
@@ -1048,17 +1048,17 @@ Hidden London </span>
 <script type="text/javascript" src="/web/20231210174839js_/https://www.museumoflondon.org.uk/concrete/js/jquery-cookie.js"></script>
 <script>
 
-$(document).ready( function (e) {    	
-		
-		
+$(document).ready( function (e) {
+
+
 		var molSignupPopups = mol.cookieList("mol_signup_popups"),
 		signupPopupMouseHandler = function (e) {
 
 if(e.pageY < mol.signupPopupProps.yHeight){
     			document.removeEventListener('mousemove', signupPopupMouseHandler, false);
-    			mol.showModalPopup(	molSignupPopups, 
+    			mol.showModalPopup(	molSignupPopups,
     									mol.signupPopupProps.version,
-    									mol.signupPopupProps.el,  
+    									mol.signupPopupProps.el,
     									mol.signupPopupProps.date
     								);
     		}
@@ -1070,9 +1070,9 @@ mol.signupPopupProps.date = new Date();
 
 if( $(window).width() < 1025 ){ //touch
 				setTimeout(function(){
-					mol.showModalPopup(	molSignupPopups, 
-											mol.signupPopupProps.version, 
-											mol.signupPopupProps.el, 
+					mol.showModalPopup(	molSignupPopups,
+											mol.signupPopupProps.version,
+											mol.signupPopupProps.el,
 											mol.signupPopupProps.date
 										);
 				},60000);
@@ -1085,7 +1085,7 @@ if( $(window).width() < 1025 ){ //touch
 
 $("#email-signup-popup").on('keypress',function(e) {
 			    if(e.which == 13) {
-			        
+
 			        var firstname = $("#firstname-signup-popup").val()
 					var lastname = $("#lastname-signup-popup").val()
 			        var email = $("#email-signup-popup").val()
@@ -1094,7 +1094,7 @@ $("#email-signup-popup").on('keypress',function(e) {
 													email,
 													"popup",
 													molSignupPopups,
-													mol.signupPopupProps.version, 
+													mol.signupPopupProps.version,
 													mol.signupPopupProps.date
 												);
 				    }
@@ -1105,17 +1105,17 @@ $("#submit-via-js-popup").click(function(){
 var firstname = $("#firstname-signup-popup").val()
 				var lastname = $("#lastname-signup-popup").val()
 				var email = $("#email-signup-popup").val()
-				
+
 				mol.signupInputHandler(			firstname,
 												lastname,
 												email,
 												"popup",
 												molSignupPopups,
-												mol.signupPopupProps.version, 
+												mol.signupPopupProps.version,
 												mol.signupPopupProps.date
 											);
-			});   
-		}		
+			});
+		}
 	});
 
 </script>

@@ -24,7 +24,7 @@
 <!-- charset must appear in the first 1024 bytes of the document -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Nutrigenetics in the Light of Human Evolution | Journal of Nutrigenetics and Nutrigenomics | Karger Publishers</title>
-        
+
     <script type="text/javascript" data-cmp-ab="1" src="http://web.archive.org/web/20250618225055js_/https://cdn.consentmanager.net/delivery/autoblocking/eb400f96a9bb.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="1"></script><script data-cmp-ab="2">window.cmp_block_ignoredomains = ['widgets-p-eu.figstatic.com', 'widgets.figshare.com','widgets-s-eu.figstatic.com','widgets.figsh.com'];</script>
 
 <script type="text/javascript" defer src="//web.archive.org/web/20250618225055js_/https://js.trendmd.com/trendmd.min.js" data-trendmdconfig="{&quot;element&quot;:&quot;#trendmd-suggestions&quot;}"></script>
@@ -84,9 +84,9 @@
 App.CurrentSubdomain = 'jnn';
             App.SiteURL = 'karger.com/jnn';
         </script>
-    
-    
-    
+
+
+
     <link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250618225055cs_/https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
 
 <meta name="citation_author" content="Verginelli, Fabio"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_author" content="Aru, Federica"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_author" content="Battista, Pasquale"/><meta name="citation_author_institution" content="Human Movement Sciences, G. d’Annunzio University, and Center of Excellence on Aging (Ce.S.I.), G. d’Annunzio University Foundation, Chieti, Italy"/><meta name="citation_author" content="Mariani-Costantini, Renato"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_title" content="Nutrigenetics in the Light of Human Evolution"/><meta name="citation_firstpage" content="91"/><meta name="citation_lastpage" content="102"/><meta name="citation_doi" content="10.1159/000228251"/><meta name="citation_journal_title" content="Journal of Nutrigenetics and Nutrigenomics"/><meta name="citation_journal_abbrev" content="Journal of Nutrigenetics and Nutrigenomics"/><meta name="citation_volume" content="2"/><meta name="citation_issue" content="2"/><meta name="citation_publication_date" content="2009/08/01"/><meta name="citation_issn" content="1661-6499"/><meta name="citation_publisher" content="S. Karger AG"/><meta name="citation_pdf_url" content="https://karger.com/jnn/article-pdf/2/2/91/3029251/000228251.pdf"/>
@@ -178,7 +178,7 @@ var keys = ["hum_karger_ad_personalization"];
                 })
             }
         })
-        
+
     });
 </script>
 
@@ -211,8 +211,8 @@ var keys = ["hum_karger_ad_personalization"];
 
 <div class="ad-banner js-ad-banner">
     <div class="widget-AdBlock widget-instance-HeaderAd">
-        
- 
+
+
     </div>
 
 </div>
@@ -450,7 +450,7 @@ var keys = ["hum_karger_ad_personalization"];
         </ul>
 
 </nav>
-    
+
 </div>
 
 <input type="hidden" class="hfEnableEnhancedAutoSuggest" value="false" name="searchScope" aria-hidden="true"/>
@@ -464,9 +464,9 @@ var keys = ["hum_karger_ad_personalization"];
                     <legend><span class="screenreader-text">header search</span></legend>
                     <div class="navbar-search-input_wrap">
                         <label for="MicrositeSearchTerm-SitePageHeader"><span class="screenreader-text">search input</span></label>
-                        
+
                         <input class="navbar-search-input microsite-search-term at-microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SitePageHeader" data-autosuggest-results="micrositeAutoCompleteResults-SitePageHeader" data-autosuggest-id="MicrositeSearchTerm-SitePageHeader" data-searchfilter="search-filter-SitePageHeader" placeholder="Search..." type="text" maxlength="255" autocomplete="off" id="MicrositeSearchTerm-SitePageHeader" title="search input">
-                        
+
                         <input type="hidden" name="hfAutoCompleteMaxResults" class="hfAutoCompleteMaxResults" value="6" aria-hidden="true"/>
                         <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" class="hfSolrAutoSuggestMinimumCharactersLength" value="2" aria-hidden="true"/>
                         <input type="hidden" name="hfSolrJournalName" class="hfSolrJournalName" value="" aria-hidden="true"/>
@@ -516,7 +516,7 @@ hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdo
 
 <div class="site-theme-header-menu-item view-cart-wrap">
     <a href="http://web.archive.org/web/20250618225055/https://karger.com/store/cart" class="view-cart" rel="nofollow">
-        <span class="text-cart"></span> 
+        <span class="text-cart"></span>
         <i class="access-icon icon-availability_cart"></i>
         <span class="items-in-cart"></span>
     </a>
@@ -527,7 +527,7 @@ hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdo
 
 <div class="site-theme-header-menu-item view-cart-wrap">
     <a href="http://web.archive.org/web/20250618225055/https://karger.com/store/cart" class="view-cart" rel="nofollow">
-        <span class="text-cart"></span> 
+        <span class="text-cart"></span>
         <i class="access-icon icon-availability_cart"></i>
         <span class="items-in-cart"></span>
     </a>
@@ -540,7 +540,7 @@ hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdo
 <!-- DESKTOP SIGN IN -->
         <div class="site-theme-header-menu-item not-authenicated">
             <a href="javascript:;" class="dropdown-toggle signin at-signin-dropdown at-signin-username" id="header-account-info-user-fullname" data-login-location="/SignIn/LoginForm/LoginFormPopup?returnUrl=" data-theme-dropdown-trigger="sign-in-dropdown" aria-controls="sign-in-dropdown" aria-expanded="false" rel="nofollow">
-                
+
 Login                <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i>
             </a>
             <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form at-signin-dropdown-panel" id="sign-in-dropdown" data-theme-dropdown="sign-in-dropdown">
@@ -567,7 +567,7 @@ Login                <i class="icon-general_arrow-down arrow-icon"><span class="
 <div class="navbar-menu_wrap">
             <a class="mobile-site-menu-toggle" data-theme-dropdown-trigger="microsite-nav-menu" aria-controls="microsite-nav-menu" aria-expanded="false" href="javascript:;"><i class="icon-menu_hamburger"><span class="screenreader-text">Toggle Menu</span></i><span class="tablet-menu-label">Menu</span></a>
             <nav class="navbar-menu" id="microsite-nav-menu" data-theme-dropdown="microsite-nav-menu">
-                
+
             </nav>
 </div><!-- /.navbar -->
 
@@ -620,7 +620,7 @@ August 2009        </div>
                 </a>
     </div>
 
-</div> 
+</div>
     </div>
 
 </div>
@@ -630,13 +630,13 @@ August 2009        </div>
 <div id="ContentColumn" class="page-column page-column--center center-content can-stick">
         <div class="article-browse_content-wrap js-content-standard">
                 <div class="widget-ArticleMainView widget-instance-ArticleMainView_Abstract">
-        
+
 <div class="article-browse-top article-browse-mobile-nav empty">
     <div class="article-browse-mobile-nav-inner">
         <button type="button" class="btn toggle-left-col toggle-left-col__article">Article Navigation</button>
     </div>
 </div>    <div class="content-inner-wrap">
-        
+
     <div class="widget-ArticleTopInfo widget-instance-ArticleTopInfo_Abstract">
         <div class="module-widget article-top-widget content-metadata_wrap">
 
@@ -857,7 +857,7 @@ August 2009        </div>
 
 </div>
     <div class="widget-ArticleLinks widget-instance-ArticleLinks_Abstract">
-         
+
     </div>
 <div class="toolbar-wrap vt-toolbar-wrap" role="navigation">
     <div class="toolbar-inner-wrap">
@@ -928,7 +928,7 @@ August 2009        </div>
     </li>
 
 </ul>
-  
+
 </li>
 
 <li class="toolbar-item item-tools">
@@ -940,7 +940,7 @@ August 2009        </div>
             </span>
         </a>
     </div>
- 
+
     </div>
 
 </li>
@@ -991,9 +991,9 @@ August 2009        </div>
                     <legend><span class="screenreader-text">toolbar search</span></legend>
                     <div class="navbar-search-input_wrap">
                         <label for="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract"><span class="screenreader-text">search input</span></label>
-                        
+
                         <input class="navbar-search-input microsite-search-term at-microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract" data-autosuggest-results="micrositeAutoCompleteResults-SiteSearch_ArticleMainView_Abstract" data-autosuggest-id="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract" data-searchfilter="search-filter-SiteSearch_ArticleMainView_Abstract" placeholder="Search..." type="text" maxlength="255" autocomplete="off" id="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract" title="search input">
-                        
+
                         <input type="hidden" name="hfAutoCompleteMaxResults" class="hfAutoCompleteMaxResults" value="6" aria-hidden="true"/>
                         <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" class="hfSolrAutoSuggestMinimumCharactersLength" value="2" aria-hidden="true"/>
                         <input type="hidden" name="hfSolrJournalName" class="hfSolrJournalName" value="" aria-hidden="true"/>
@@ -1040,12 +1040,12 @@ August 2009        </div>
 <h2 scrollto-destination="9616894" id="9616894" data-section-title="Abstract" class="abstract-title jumplink-heading">Abstract</h2>
             <div class="">
                 <div id="9616894-content" class="article-section-wrapper js-article-section js-content-section  " data-section-parent-id="0">
-                    
+
                     <section class="abstract"><p>Bio-cultural adaptations to new foods played a key role in human evolution. The fossil record and sequence differences between human and chimpanzee genes point to a major dietary shift at the stem of human evolution. The earliest representatives of the human lineage diverged from the ancestors of chimpanzees because of their better adaptation to hard and abrasive foods. Bipedalism and modifications of the hand, which allowed tool manufacture and use, impacted on dietary flexibility, facilitating access to foods of animal origin. This promoted major anatomic, physiologic and metabolic adaptations. Encephalization, which requires high-quality diet, characterizes the evolutionary sequence that, through the <em>Homo ergaster/erectus</em> stages, led to our species, <em>Homo sapiens</em>, which originated in Africa about 200,000 years ago. At the end of the Ice Age, climatic changes and human impact determined a major food crisis, which triggered the agricultural revolution. This affected nutrition and health, with rapid evolutionary adaptations through the selection of genetic variants that allowed better utilization of new foods, different in relation to geography and culture. Today population growth, globalization and economic pressure powerfully affect diets worldwide. We must take into account our evolutionary past to meet the present nutritional challenges.</p></section>
                 </div>
                     <div class="article-metadata-panel clearfix rs_skip">
     <div class="widget-SolrResourceMetadata widget-instance-ContentMetadata_ArticleFulltext_Article">
-        
+
         <div class="content-metadata-keywords">
             <div class="content-metadata-keywords-title">Keywords:</div>
                     <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Culture&quot;}">Culture</a><span>,</span>
@@ -1073,7 +1073,7 @@ August 2009        </div>
 </div>
 
 <div class="permissionstatement-section-wrapper ">
-            
+
             <div class="copyright copyright-statement">© 2009 S. Karger AG, Basel</div><div class="copyright copyright-year">2009</div><div class="license "><div class="license-p">Copyright / Drug Dosage / Disclaimer</div><div class="license-p">Copyright: All rights reserved. No part of this publication may be translated into other languages, reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying, recording, microcopying, or by any information storage and retrieval system, without permission in writing from the publisher.</div><div class="license-p">Drug Dosage: The authors and the publisher have exerted every effort to ensure that drug selection and dosage set forth in this text are in accord with current recommendations and practice at the time of publication. However, in view of ongoing research, changes in government regulations, and the constant flow of information relating to drug therapy and drug reactions, the reader is urged to check the package insert for each drug for any changes in indications and dosage and for added warnings and precautions. This is particularly important when the recommended agent is a new and/or infrequently employed drug.</div><div class="license-p">Disclaimer: The statements, opinions and data contained in this publication are solely those of the individual authors and contributors and not of the publishers and the editor(s). The appearance of advertisements or/and product references in the publication is not a warranty, endorsement, or approval of the products or services advertised or of their effectiveness, quality or safety. The publisher and the editor(s) disclaim responsibility for any injury to persons or property resulting from any ideas, methods, instructions or products referred to in the content or advertisements.</div></div>
         </div>
 <!-- /foreach -->
@@ -1081,7 +1081,7 @@ August 2009        </div>
 <span id="UserHasAccess" data-userhasaccess="False"></span>
 
 </div><!-- /.widget-items -->
-</div><!-- /.module-widget --> 
+</div><!-- /.module-widget -->
     </div>
                 <div class="article-top-info-user-restricted-options">You do not currently have access to this content.</div>
 
@@ -1095,10 +1095,10 @@ August 2009        </div>
 </div>
 <div class="user-comments-wrap js-userComments">
     <div class="widget-UserCommentBody widget-instance-UserCommentBody">
-         
+
     </div>
     <div class="widget-UserComment widget-instance-UserComment">
-         
+
     </div>
 
 </div>
@@ -1128,7 +1128,7 @@ August 2009        </div>
 <div class="login-form__section-wrap">
 
 <div class="widget-ExternalLogin widget-instance-loginForm_ExternalLogin">
-        
+
     <div class="login-form__section">
         <div class="external-login-provider">
 
@@ -1138,7 +1138,7 @@ August 2009        </div>
                 </a>
         </div>
             </div>
- 
+
     </div>
 
 <div class="login-form_section login-form__row--lower">
@@ -1156,12 +1156,12 @@ August 2009        </div>
 
 </div>
     </div>
- 
+
     </div>
 
 </div>
     <div class="widget-RestoreGuestAccess widget-instance-ArticlePage_RestoreGuestAccess">
-         
+
     </div>
                     <input type="hidden" id="resourceId" value="181391"/>
                     <input type="hidden" id="resourceTypeId" value="3"/>
@@ -1213,12 +1213,12 @@ August 2009        </div>
 </div>
 
 </div>
- 
+
     </div>
 </div><!-- /.unauth-wrap -->
 
 <div class="widget-DeepDyve widget-instance-ArticlePage_DeepDyveLink">
-        
+
 <div class="js-deep-dyve-container">
     <div class="deep-dyve-title">
         Rental
@@ -1236,15 +1236,15 @@ August 2009        </div>
         </span>
     </div>
 
-</div> 
+</div>
     </div>
-            
+
         </div>
-    </div> 
+    </div>
     <div id="Sidebar" class="page-column page-column--right">
     <div class="widget-AdBlock widget-instance-ArticlePageTopSidebar">
-        
- 
+
+
     </div>
 
 <div class="sidebar-widget_wrap">
@@ -1296,7 +1296,7 @@ August 2009        </div>
             <!-- Altmetrics -->
     <div id="altmetricEmbedId" runat="server" class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="10.1159/000228251" data-link-target="_blank"></div>
          <script type="text/javascript" src="http://web.archive.org/web/20250618225055js_/https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
- 
+
     </div>
 
 </div>
@@ -1322,7 +1322,7 @@ August 2009        </div>
 
 </div>
 
-</div> 
+</div>
     </div>
     <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B1">
         <div class="widget widget-dynamic article-article-cited-by article-cited-by" data-count="1">
@@ -1343,12 +1343,12 @@ August 2009        </div>
                 <a href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/crossref-citedby/181391" rel="nofollow">CrossRef (7)</a>
             </div>
     </div>
-</div> 
+</div>
     </div>
 
 </div>
 
-</div> 
+</div>
     </div>
     <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B2">
         <div class="widget widget-dynamic articlelistnewandpopular article-list-new-popular" data-count="1">
@@ -1412,12 +1412,12 @@ August 2009        </div>
             </section>
         <div class="spinner"></div>
     </div>
- 
+
     </div>
 
 </div>
 
-</div> 
+</div>
     </div>
     <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B3">
         <div class="widget widget-dynamic article-related-content-solr-articles related-content-solr" data-count="1">
@@ -1451,40 +1451,40 @@ August 2009        </div>
 </div>
         </div>
     </div>
- 
+
     </div>
 
 </div>
 
-</div> 
+</div>
     </div>
 
 </div>
 
-</div> 
+</div>
     </div>
 
 </div>
 
-</div> 
+</div>
     </div>
 
 </div>
 
 <div class="widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
-        
- 
+
+
     </div>
 
-</div> 
+</div>
 </div>
 
 <div class="widget-Lockss widget-instance-Article_Lockss">
-         
+
     </div>
 
 <div class="widget-VideoListAccess widget-instance-Article_VideoListAccess">
-         
+
     </div>
 
 </div><!-- /.content-main_content -->
@@ -1496,16 +1496,16 @@ August 2009        </div>
 
 <div class="ad-banner js-ad-banner ad-banner-footer">
     <div class="widget-AdBlock widget-instance-FooterAd">
-        
- 
+
+
     </div>
 
 </div>
 
 <div class="sticky-footer-ad js-sticky-footer-ad">
     <div class="widget-AdBlock widget-instance-StickyAd">
-        
- 
+
+
     </div>
 
 </div>
@@ -1521,7 +1521,7 @@ August 2009        </div>
                     </ul>
     </div>
     </div>
- 
+
     </div>
 
 <div class="site-theme-footer">
@@ -1747,8 +1747,8 @@ August 2009        </div>
 
 <div class="ad-banner js-ad-interstitial">
     <div class="widget-AdBlock widget-instance-Interstitial">
-        
- 
+
+
     </div>
 
 </div>
@@ -1785,7 +1785,7 @@ August 2009        </div>
     <div id="noAccessForm">
         <div class="spinner"></div>
     </div>
-</div> 
+</div>
     </div>
 
 <script type="text/javascript">
@@ -1818,8 +1818,8 @@ August 2009        </div>
 
 <div class="ad-banner js-ad-riser ad-banner-riser">
     <div class="widget-AdBlock widget-instance-RiserAd">
-        
- 
+
+
     </div>
 
 </div>

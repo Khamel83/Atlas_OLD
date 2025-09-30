@@ -33,7 +33,7 @@ Determines how transcription accuracy affects search results.
 
 **Test Modes:**
 - **Full Suite**: Complete comprehensive testing
-- **Quick Test**: Fast subset for rapid feedback  
+- **Quick Test**: Fast subset for rapid feedback
 - **Transcription Focus**: Transcription-specific validation
 - **Status Check**: Current system status
 - **Trends**: Historical performance analysis
@@ -114,7 +114,7 @@ pip install psutil  # For system monitoring
 Add to environment or config for enhanced testing:
 ```bash
 export OPENROUTER_API_KEY="your_key_here"
-export OPENAI_API_KEY="your_key_here" 
+export OPENAI_API_KEY="your_key_here"
 export ASSEMBLYAI_API_KEY="your_key_here"
 export DEEPGRAM_API_KEY="your_key_here"
 ```
@@ -223,7 +223,7 @@ Check detailed logs in:
 
 ### With Existing Atlas System
 - Uses existing configuration management
-- Leverages current logging infrastructure  
+- Leverages current logging infrastructure
 - Compatible with existing data structures
 - Integrates with current error handling
 

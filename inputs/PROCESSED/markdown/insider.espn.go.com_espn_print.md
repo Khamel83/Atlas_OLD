@@ -7,13 +7,13 @@
 
 # Your ultimate World Cup betting guide
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Your ultimate World Cup betting guide]()
 
-To see exclusive Insider features, become an ESPN Insider. Already an Insider? Sign in here.  
-  
-  
-  
-Become an Insider | Insider Benefits 
+To see exclusive Insider features, become an ESPN Insider. Already an Insider? Sign in here.
+
+
+
+Become an Insider | Insider Benefits
 

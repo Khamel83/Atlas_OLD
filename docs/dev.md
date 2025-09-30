@@ -14,7 +14,7 @@
 ┌─────────────────────────────────────┐
 │ End-to-End Tests (test_e2e.py)     │ ← Full user workflows
 ├─────────────────────────────────────┤
-│ Integration Tests (test_web_*)      │ ← Component integration  
+│ Integration Tests (test_web_*)      │ ← Component integration
 ├─────────────────────────────────────┤
 │ Unit Tests (test_cognitive_*)       │ ← Individual components
 ├─────────────────────────────────────┤
@@ -53,7 +53,7 @@ def __init__(self, metadata_manager_or_config = None):
 ```
 
 **Template Compatibility**:
-```python  
+```python
 # PROBLEM: Web templates expected simple objects
 for item in results:
     assert hasattr(item, 'title')  # Failed
@@ -99,7 +99,7 @@ forgotten.append(type('Item', (), {
 # DON'T test implementation details
 def test_internal_cache_structure():  # Brittle
 
-# DO test user-facing behavior  
+# DO test user-facing behavior
 def test_mobile_dashboard_loads():    # Robust
     response = client.get("/mobile")
     assert "Atlas - Cognitive AI" in response.text
@@ -126,7 +126,7 @@ except Exception:
 
 #### **Autonomous Test Generation**
 - **AI-Generated Tests**: Use LLMs to generate edge cases
-- **Property-Based Testing**: Hypothesis library for random input validation  
+- **Property-Based Testing**: Hypothesis library for random input validation
 - **Visual Regression Testing**: Screenshot comparisons for UI consistency
 
 #### **Real-World Validation**
@@ -143,7 +143,7 @@ except Exception:
 
 Tests should answer:
 - **"What does this feature do?"** → Behavior tests
-- **"How should I use this API?"** → Integration tests  
+- **"How should I use this API?"** → Integration tests
 - **"What happens when things go wrong?"** → Error condition tests
 - **"Is this system healthy?"** → End-to-end tests
 

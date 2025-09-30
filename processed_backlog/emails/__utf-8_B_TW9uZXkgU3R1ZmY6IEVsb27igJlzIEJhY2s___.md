@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: I apparently have some very bad sins to atone for.Well! That was stupid. To recap. In April of this year, Elon Musk announ
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: I apparently have some very bad sins to atone for.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Well! That was stupid. 
 To recap. In April of this year,   Elon Musk announced that he had bought about 9.2% of the stock of Twitter Inc. He agreed to   join Twitter’s board of directors, and then   changed his mind. He offered to   take Twitter private at $54.20 per share and then, to my considerable surprise, actually went out and   lined up $46 billion of financing to do it. Twitter’s board of directors   consulted its financial advisers, who stage-whispered “SAY YES,” and it said yes. On April 25, three weeks after Musk’s first announcement, he   signed a merger agreement to buy Twitter for $54.20 in cash.
@@ -121,74 +121,74 @@ We have not heard much about those equity commitments in the last few months; wh
 Also: Is he going to try to raise more money? Is he going to go out to potential investors again and say “changed my mind, Twitter is great now, this’ll be fun, can I pencil you in for $1 billion?” We   talked on Monday about Musk’s friend Jason Calacanis, who was trying to raise a special-purpose vehicle to invest in Musk’s Twitter deal, tapping individual investors with a $250,000 minimum. (“What’s going on with you marketing an SPV to randos? This is not ok,” texted Musk.) Will they restart that? Every little bit helps, no? What does the disclosure document for that investment look like? “Yes Elon Musk has said that Twitter is a dysfunctional fraudulent conspiracy, but everything is fine now, and it’s an accelerant to creating X, the everything app.” Choose wisely.
 Anyway I’m tired of this and I have a new retirement plan. Every time this newsletter starts with “Programming note: Money Stuff will be off tomorrow,” Musk does something outrageous, and Twitter’s stock swings up or down. So I’m going to buy a bunch of Twitter straddles and then take a vacation, while Twitter is still public and that trick can still work. I’ll make a fortune.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
+
+
 
 Ray Dalio   Gives Up Control of Bridgewater in Final Succession Step.   Citadel’s Flagship Hedge Fund Gains 29% in Year of Market Turmoil.  Retail Real Estate Is Enjoying Its Biggest Revival in Years. Home Builders Offer to  Sell Homes in Bulk at Discount to Investors. Juul Moves to Enter Financing Talks for Potential Bankruptcy. 'Please mom!' Kids enticed by  web3 projects with plush toys, adorable avatars. Meet the  investment banker who caught Aaron Judge's 62nd home run.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] “Twitter may ask a court in Delaware, where it filed its suit, for protections that would force Mr. Musk to follow through with his new proposal,”  reports the New York Times. Also though I mean … let’s say they just trusted him and dropped the lawsuit, and then he said “psych!” and backed out again. They’d sue him again, in the same court, and the judge would *not be amused*. This is not a good trick.
 
 
   [2] Technically this would leave Musk obligated under the agreement, but without the financing he’d only have to pay a $1 billion breakup fee rather than actually close the deal. Obviously there would be arguments about this — mainly, arguments about whether Musk intentionally blew up his debt financing and so   has to come up with the money himself — but I will not get into them because this situation seems quite fanciful.
 
 
-  [3] So Bloomberg reports that Musk’s decision to surrender “may have been influenced by almost a half-dozen rulings by Delaware Chancery Judge Kathaleen St. J. McCormick over the last three months that went Twitter’s way and frustrated Musk’s efforts to show he had legitimate grounds to cancel the deal. ‘It was pretty clear from her rulings the judge was laser-focused on the agreement and not the stuff Musk wanted to talk about,’ said Brian Quinn, a Boston College law professor who focuses on merger-and-acquisition disputes. ‘His grand theory involving the bots didn’t seem to be gaining any traction with her.’” 
+  [3] So Bloomberg reports that Musk’s decision to surrender “may have been influenced by almost a half-dozen rulings by Delaware Chancery Judge Kathaleen St. J. McCormick over the last three months that went Twitter’s way and frustrated Musk’s efforts to show he had legitimate grounds to cancel the deal. ‘It was pretty clear from her rulings the judge was laser-focused on the agreement and not the stuff Musk wanted to talk about,’ said Brian Quinn, a Boston College law professor who focuses on merger-and-acquisition disputes. ‘His grand theory involving the bots didn’t seem to be gaining any traction with her.’”
 
 
   [4] Meanwhile it was tempting —  I was tempted — to think that a possible settlement could involve (1) canceling the deal and (2) Musk writing Twitter a whopping great check ($10 billion??) to get out of it. If Musk didn’t want to own Twitter, it seemed mean to force him, and certainly a lot of Twitter employees and users are not that jazzed about the company’s future ownership. He could just pay some money to get out. But if Musk buys Twitter, he only has to put up like  $26 billion of his own money — the rest comes from debt and  equity financing sources — and he *owns Twitter*. If he pays a giant termination fee, he has to put up $10 billion or whatever of his own money, and he *gets nothing*. Better to pay $26 billion for a company than $10 billion for nothing.
@@ -197,117 +197,117 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] The package is $12.5 billion of debt that will be sold to investors — $6.5 billion of loans, $3 billion of secured bonds and $3 billion of unsecured bonds — plus a $500 million revolver that the banks will hold.
 
 
-  [6] The  form of equity commitment letter is attached to Musk’s  securities filing about his co-investors. It says that it terminates on “the valid termination of the Merger Agreement.” Did that happen? Musk did send  three letters terminating the merger agreement, and technically none of them have been ruled invalid. If his co-investors back out, can they argue that he validly terminated? Can he argue that he didn’t? 
+  [6] The  form of equity commitment letter is attached to Musk’s  securities filing about his co-investors. It says that it terminates on “the valid termination of the Merger Agreement.” Did that happen? Musk did send  three letters terminating the merger agreement, and technically none of them have been ruled invalid. If his co-investors back out, can they argue that he validly terminated? Can he argue that he didn’t?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@
 
 # www.thisismarvelous.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![www.thisismarvelous.com]()
 

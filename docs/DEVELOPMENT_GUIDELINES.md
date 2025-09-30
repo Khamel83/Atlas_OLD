@@ -39,14 +39,14 @@ SAVE_FOLDER = "/Users/username/Documents/atlas"
 
 **Always use .env for**:
 - **Credentials**: API keys, passwords, tokens
-- **Paths**: File/directory paths, URLs, endpoints  
+- **Paths**: File/directory paths, URLs, endpoints
 - **Limits**: Timeouts, retry counts, batch sizes
 - **Features**: Enable/disable flags, mode switches
 - **Services**: Port numbers, host addresses
 
 ### Configuration Best Practices
 
-1. **Update env.template**: Add new variables with descriptions  
+1. **Update env.template**: Add new variables with descriptions
 2. **Add to .env**: Use Atlas secrets pattern `VAR=${VAR:-default}`
 3. **Add to ~/.secrets/atlas.env**: Set actual secret values with `export VAR=value`
 4. **Provide defaults**: Use sensible fallback values
@@ -64,17 +64,17 @@ class EmailConfig:
     def __init__(self):
         # Required - will fail if not set
         self.enabled = os.environ.get('GMAIL_ENABLED', 'false').lower() == 'true'
-        
+
         # Optional with sensible defaults
         self.sync_frequency = int(os.environ.get('GMAIL_SYNC_FREQUENCY', '30'))
         self.max_emails = int(os.environ.get('GMAIL_MAX_EMAILS_PER_SYNC', '100'))
-        
+
         # Paths with defaults
         self.credentials_path = os.environ.get(
-            'GMAIL_CREDENTIALS_PATH', 
+            'GMAIL_CREDENTIALS_PATH',
             'email_download_historical/credentials.json'
         )
-        
+
         # Validate required settings
         if self.enabled and not os.path.exists(self.credentials_path):
             raise ValueError(f"Gmail enabled but credentials not found: {self.credentials_path}")
@@ -96,7 +96,7 @@ class EmailConfig:
 - Log configuration values at startup (mask secrets)
 - Use logger from `helpers.config`
 
-### Documentation  
+### Documentation
 - Update CLAUDE.md for major features
 - Document .env variables in env.template
 - Create setup guides for manual steps

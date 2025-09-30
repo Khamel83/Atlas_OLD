@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What a weird job John Ray has. I suppose that in general, if a company hires a new chief executive officer, the new CEO will have some disag
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 What a weird job John Ray has. I suppose that in general, if a company hires a new chief executive officer, the new CEO will have some disagreements with the previous CEO, and some incentive to make a meal of those disagreements. For one thing, CEOs are generally people with strong opinions. Also the new CEO was hired for a reason; quite possibly the old CEO did do something wrong. Also the new CEO can make himself look better by making the old one look worse: The more you say “oh man the previous guy really messed everything up, what a disaster this place is,” the more credit you will get for any improvements.
 Also I mean, separately, the former CEO of FTX Trading Ltd. really did mess the place up a lot, so Ray objectively has a lot to complain about. 
@@ -90,37 +90,37 @@ I don’t know, is storing your secret passwords in Amazon’s Secrets Manager a
 Alameda also lacked appropriate documentation as to the description or usage of private keys. For example, a key for $600 million dollars’ worth of crypto assets was titled with four non-descriptive words, and stored with no information about what the key was for, or who might have relevant information about it. The Debtors identified other keys to millions of dollars in crypto assets that were simply titled “use this” or “do not use,” with no further context.
 Incredibly relatable. Who among us has not saved our most precious data in a file titled “use this one”? This works, I guess, imperfectly, if your company is basically a half-dozen friends in a suite in the Bahamas. But it’s not best practices, and in particular, if the friends who run the company all get kicked out for incompetence and criminality and angry professionals come in to clean up the mess, they will be very annoyed to find all the crypto stored like this. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       He liked the bonds
-    
-  
+
+
 
 One fun little financial story of 2017 and 2018 involved the bonds of American Media Inc., the publisher of the National Enquirer. AMI was majority-owned by a hedge fund firm named Chatham Asset Management LLC. It had some bonds outstanding. Those bonds did not trade much, but they traded some, and they kept trading at higher and higher prices. By November 2017, some AMI bonds were trading at lower yields than the bonds of Apple Inc.
   [2]
@@ -163,11 +163,11 @@ Accordingly, the Clients paid Chatham an estimated $11,000,000 in performance an
 
 Part of the $19 million settlement is paying back that $11 million to investors. But the SEC doesn’t quite say that this is why Chatham did this. You could argue that this sort of thing — trading bonds back and forth with yourself in a way that raises their prices — is market manipulation, that the goal was to raise prices to charge higher fees. But the SEC doesn’t say that: It says, more or less in so many words, that the reason for the trading is that Chatham really liked the bonds, that it “still believed in the merits of the investment” even when it had to sell them, so it kept buying them back. The higher prices and higher fees were just a happy byproduct.
 
-  
-    
+
+
       APE Endgame
-    
-  
+
+
 
 You know the story. AMC Entertainment Holdings Inc. became a meme stock, so it sensibly sold a ton of stock to raise money and pay down debt. Eventually it   ran out of stock to sell: Its corporate charter authorizes about 524 million shares of common stock, and it has sold basically all of them. Shareholders did not seem interested in amending the charter to authorize more shares, because they were worried about dilution and/or because they are retail investors who tend not to vote their shares at all. The way it works is that a majority of the outstanding shares need to approve the charter amendment to issue new shares, so not voting is the same as voting no.
 But AMC’s charter also allows the board to issue “blank-check” preferred stock, that is, preferred stock with any terms the board wants. So AMC   started issuing a new type of preferred stock called APEs, AMC Preferred Equity Units, which are meant to be identical to the common stock: They have the same economic rights, same voting rights, etc. AMC did a quasi-stock-split in which shareholders got one APE for each common share they held, and then it started selling new APEs to raise more money.
@@ -190,11 +190,11 @@ And then AMC and the suing shareholders went to the Delaware judge and asked her
 
 To me those awkward elements are a good reason for the court to want a settlement — let AMC and its shareholders work this out and don’t get too involved — but I guess once the court is involved this much she has to make sure that what she’s signing off on is legal.
 
-  
-    
+
+
       Black swans
-    
-  
+
+
 
 The basic idea of a “black swan fund” is that you have $100 invested in normal assets somewhere else, and you pay the black swan fund like $1 a year for insurance. In a normal year, your normal assets go up 15% or whatever and you make $15, and your black-swan premium is just an expense; you lose the dollar, for a net return of 14%. And in a catastrophic year, your normal assets go down 20% or whatever and you lose $20, but your black-swan insurance pays out and you get back $20, for a net return of 0%, which is pretty good.
 What is the performance of the black swan fund in the normal year? Well, negative 100%, give or take. (These are stylized schematic numbers, don’t take them too seriously.) But the black-swan manager doesn’t think of it that way, and you probably shouldn’t either. Instead the argument is something like: “If you didn’t have this black-swan insurance, you’d have to invest much more conservatively, keep more assets in cash, etc., so your return on your $100 of normal assets would only be like 8%. But the insurance gives you the confidence to invest more aggressively, so you made 15% on your normal assets, though you paid 1% for that insurance. So really the black swan fund added 6% to your overall return.”
@@ -210,15 +210,15 @@ To compound the confusion, Universa’s AUM — now $16.4 billion — is actuall
 
 Universa’s clients have $16.4 billion of assets (somewhere else) that they protect by paying premium to Universa, and “what Universa does,” in the long term, “is raise [that $16.4 billion] portfolio’s rate of returns as a direct consequence of lowering its systematic risk.” But what Universa does in any particularly disastrous month for the stock market is earn a 3,612% return on that month’s premium. Most of the time Universa leads with the first thing — lowering systemic risk — but in the months where it 36x’s its money it leads with that.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 First Republic  Suspends Dividends on Preferred Stock. A $1.5 Trillion Wall of Debt Is Looming for   US Commercial Properties.  European commercial real estate: the cracks are starting to show. Declines in Loan Values Are Widespread Among Banks. Lenders  Lost $301 for Each Mortgage They Made Last Year.  Deposit insurance maximization as a service. Auditors  Didn’t Flag Risks Building Up in Banks. China’s financial sector rocked by expansion of  anti-corruption drive. Private Equity’s  Food Binge Goes Sour. “The  private equity business model keeps getting democratized.” “Forty-six percent of consumer brand marketers say they will increase their  metaverse budgets this year, and only 12% say they will spend less.” “Being able to sense someone  messing with a website in real-time, moving the menu items around and forgetting to close an HTML tag here and there, is a neat feeling.” Scaramucci’s  SkyBridge Capital Was Spiraling, and Then Came FTX. Fyre Festival  II.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The full report  is here (pdf), or you can find it at document 1242 on  the bankruptcy docket.
 
 
@@ -237,48 +237,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Those are taken from Bloomberg’s HP pages (for AMC Equity and APE Equity) for 3/13/2023 through 4/06/2023.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -289,46 +289,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciizb0.5ing/b1efdaad.gif" alt="" border="0" /></a>

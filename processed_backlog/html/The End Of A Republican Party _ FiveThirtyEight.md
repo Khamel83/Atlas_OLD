@@ -9,7 +9,7 @@
 
 ILLUSTRATIONS BY MARCO CIBOLA
 
-Analysis by [Harry Enten](/contributors/harry-enten/).  
+Analysis by [Harry Enten](/contributors/harry-enten/).
 Research by [David Nield](https://fivethirtyeight.com/contributors/david-nield/).
 
 Legend has it that after leveling Carthage in the Third Punic War, Roman army generals ordered that the city’s fields be sown with salt so that they’d lie fallow for years, Roman generals not being particularly well known for their benevolence in victory.
@@ -223,7 +223,7 @@ The prospect that the GOP leaders wouldn’t even be able to agree on why Trump 
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

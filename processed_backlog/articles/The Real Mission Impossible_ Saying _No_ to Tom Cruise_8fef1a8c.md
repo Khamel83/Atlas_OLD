@@ -103,7 +103,7 @@ A veteran of Tom Cruise movies laughs when asked how Robbins is likely to fare. 
 
 Sign up for THR news straight to your inbox every day
 
-[Subscribe 
+[Subscribe
 Sign Up](https://cloud.email.hollywoodreporter.com/signup/)
 
 * [Obituaries](https://www.hollywoodreporter.com/t/obituaries/)

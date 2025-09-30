@@ -28,7 +28,7 @@ But before we get there…
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 Gallery Hopping With Julie
 --------------------------
@@ -162,7 +162,7 @@ top lot, meanwhile, is a Joan Mitchell painting ( https://www.phillips.com/detai
 house has two Christopher Wool works on offer. One, Lester’s Sister (My Brain), from 2000, plays with Wool’s themes of mechanical reproduction and gestural abstraction; it’s backed by a guarantor at £1.2 million. The other ( https://www.phillips.com/detail/christopher-wool/UK010125/6?utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), one of the few small word paintings ever to come to auction, with the phrase “You Make Me,” is estimated at £600,000. There’s
 also an early 1931 painting by Le Corbusier, estimated ( https://www.phillips.com/detail/le-corbusier/UK010125/13?utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at £950,000. 
 
- 
+
 
 Endnotes…
 -----------
@@ -179,7 +179,7 @@ people at USAID, who are under attack for simply having done their jobs creating
 I’m not sure we should be rooting for the art purchases to be halted. But it really isn’t clear from Barrón-López’s story what the actual status of the program is now. She quotes a spokesperson at State saying
 the program was suspended, but that person could provide no concrete details. That said, the long-term value of the Art in Embassies program should be evaluated in a proper process. It certainly should not be blamed for Elon Musk’s attacks on the rest of the State Department and USAID.
 
- 
+
 
 We can all contemplate while we wait to be in touch again on Tuesday. Let’s
 speak then.
@@ -233,6 +233,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVWRaSSadMp1O_hvU-4yM=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

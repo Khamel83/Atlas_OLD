@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One lesson of the Silicon Valley Bank failure is that some bank deposits are better than others. Lots of US regional banks were doing more o
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Depositors
-    
-  
+
+
 
 One lesson of the Silicon Valley Bank failure is that some bank deposits are better than others. Lots of US regional banks were doing more or less the same thing in 2021: They were taking money from depositors, promising to give it back whenever the depositors wanted, paying 0% interest on those deposits, and investing the money in long-term bonds at like 2% interest. Then interest rates went up and those bonds were worth much less than they used to be. If the depositors all asked for their money back at the same time, as is their right, the banks would have to sell the bonds at a big loss, leaving them without enough money to pay depositors. On the other hand if all the depositors kept their money in the bank as rates went up, without even demanding higher interest rates on their checking accounts, then the bank would be fine. The bank would be great, even: As rates go up, the bank will earn more on its assets,
   [1]
@@ -95,37 +95,37 @@ The bank, they agreed, will figure it all out.
 
 This is the same exact story as SVB — a network of investors and founders who bump into each other in California and chat about the craziness at their bank — but with different outcomes. SVB’s customers worked each other up and took their money out; First Republic’s customers — at least some of them — calmed each other down and kept their money in. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Serta
-    
-  
+
+
 
 Schematically, here’s how distressed debt exchanges work. A company borrows $100 from creditors and then runs into trouble. It goes to the creditors and says “we can’t pay you back the $100 we owe you right now, and in fact we need another $20 to keep running our business. Tell you what: You exchange your existing loans for some new loans that mature two years later, and also lend us some new cash. In exchange, we’ll give you all of our assets as collateral, so if we go bankrupt you’ll get paid off before all of our other creditors. If you agree to this exchange, you’ll be first in line to get paid. If you don’t agree to the exchange, you can keep your old loans, but you’ll be last in line.”
   [3]
@@ -160,11 +160,11 @@ Jones, however, allowed a claim to proceed that said the 2020 transaction violat
 
 I guess. I don’t really disagree; this feels to me more like an “open market purchase” than not. The minority lenders are not wrong that there’s something unsettling about letting some lenders jump ahead of others in privately negotiated transactions, but that does seem to be how the market works now.
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 “If you are a mining company and you build a structurally unsound tailings dam to hold your mine waste, and it collapses and kills … people, is that securities fraud?” I   asked that question four years ago and  here is the answer, though you already knew the answer:
 
@@ -173,11 +173,11 @@ The Securities and Exchange Commission [yesterday] announced that Vale S.A., a 
 
 We talked about the SEC’s case   last year, and there is something a little weird about the “ESG-related disclosures” language. I like to say around here that everything is securities fraud: If a public company does a bad thing and the stock price drops, someone will sue, claiming that the company did not adequately disclose that it was going to do the bad thing. What “everything is securities fraud” means is that securities fraud is not confined to the financial statements: If a company gets hacked, or if its chief executive officer commits sexual harassment, someone will sue for that too, because you can always find something that the company said that looks false in light of the bad news. If the bad news has to do with environmental, social or governance issues, you can say that “public companies can and should be held accountable for material misrepresentations in their ESG-related disclosures,” but there’s really no need to bring ESG into it: The broad rule is that public companies are accountable for absolutely everything they say if it turns out to be wrong and the stock price drops. 
 
-  
-    
+
+
       AMCazon
-    
-  
+
+
 
 I have to say, if I were Jeff Bezos, sure I’d buy AMC Entertainment Holdings Inc. Just, like, that’s a very good joke? What is the point of being one of the richest people in the world if you are not occasionally spending a few billion dollars on ridiculous larks? Elon Musk bought Twitter for $46 billion as a joke, though to be fair he seems to resent that pretty intensely. Bezos could probably get AMC for, what, $5 billion or so? And then he’d own AMC and that would be cool or whatever, but mostly just announcing the deal — saying “hey kids I’m buying a meme stock” like a year after that stopped being a thing — would be one of the great jokes of 21st-century capital markets. What else is he doing with his time that’s so important? 
 Anyway  here is a blog post:
@@ -188,11 +188,11 @@ It would also throw a lifeline to AMC, the world’s largest theater chain whose
 
 Is this true? I have no idea and I absolutely do not care at all; I am passing it along because it is funny. Analysts seem to doubt it. AMC’s stock closed up 13.2% yesterday. 
 
-  
-    
+
+
       Black swans
-    
-  
+
+
 
 Here is a charming  Spectator profile of Nassim Nicholas Taleb by Rosie Gray, basically painting him as a gruff curmudgeon with a heart of gold and a love of Twitter beef:
 Taleb described his carefully planned method for posting. “What people don’t realize is I have my Twitter fights prepared at least a week in advance,” he said. “And I use that downtime, traffic jam in an Uber or something like that, to start executing.” 
@@ -202,69 +202,69 @@ But here is his best line:
 Taleb had been busy. He had already published two papers since the new year, on statistical concepts that I asked him to explain to me as if I was five years old, to which he said, “you’re not five years old.”
 She’s not! That’s the goal, isn’t it? Say smart things about complicated topics in a way that your audience can understand and appreciate, without treating them like children.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS Veteran   Ermotti Returns to Lead Credit Suisse Takeover. Carl Icahn Wants to Bring  Illumina’s Old CEO Back, Disney-Style. People are worried about   Treasury market liquidity. As Interest Rates Rose, Banks Did a  Balance-Sheet Switcheroo. Binance Crackdown   Threatens US Trading Firms, Alarming Market. Binance Sees  $2 Billion in Outflows as Troubles Compound. Binance hid extensive  links to China for several years. FDIC Tells Signature’s   Crypto Clients to Close Their Accounts By April 5. A Rapid-Finance World Must Ready for a  Slow-Motion Banking Crisis. JPMorgan CEO Jamie Dimon to Be Deposed in   Epstein Lawsuits. $335,000 Pay for   ‘AI Whisperer’ Jobs Appears in Red-Hot Market. Ivy League Prices Are Pushing   $90,000 a Year. “Two New Yorkers who created a popular financial news show on Russian state television and cashed in on the crypto boom have emerged as key advisers to the Salvadoran government on its  adoption of bitcoin.” New York's Richest Enclaves Are Shutting Out the   Weed Business. Some Guy Bought the  Flatiron Building and Didn’t Pay for It.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In my simplified description in the text, the bank has a bunch of long-term fixed-rate bonds at 2%, which won’t pay any more as rates go up, but actual banks have some mix of long-term fixed-rate bonds, floating-rate loans, shorter-term investments, etc., and will make more on their assets as rates go up.
 
 
   [2] A related point, which  I have mentioned before, is that the customers were also very exposed to interest rates: In a low-rate environment, tech startups are very valuable and raise lots of money and park it at SVB; in a high-rate environment, tech startups are less valuable and can’t raise money and spend down their money at SVB to meet payroll. There are basically four reasons that SVB’s customers might have taken money out of SVB: (1) they could get higher interest rates elsewhere, (2) they needed to spend the money, (3) they read SVB’s financial statements and worried about its solvency or (4) they worried about other customers running on SVB so they got their own money out first. It seems like SVB’s customers were unusually likely to withdraw money for Reasons 2, 3 and 4: They needed more money as rates went up (Reason 2), and they are more networked and pay more attention than most bank depositors (Reasons 3 and 4). Meanwhile all the good customer service, and the loan covenants, meant that SVB’s customers were probably less likely than most bank depositors to take their money out to get a higher rate elsewhere (Reason 1). If SVB was mostly focused on that worry — “will higher interest rates cause our depositors to move money to higher-yielding accounts elsewhere?” — it might have concluded that it was fine; the other worries are what got it.
 
 
-  [3] This is very schematic and elides things like exit consents where the exchanging holders vote to strip protections from the old loans on their way out, other changes in economic terms (consent payments or higher rates on the new loans), etc. 
+  [3] This is very schematic and elides things like exit consents where the exchanging holders vote to strip protections from the old loans on their way out, other changes in economic terms (consent payments or higher rates on the new loans), etc.
 
 
   [4] Or there are more complicated versions — moving assets into subsidiaries, etc. — and a lot of lawyers and investors invest a lot of time in figuring out creative new ways to do this stuff.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cigeyx.5n9r/8e492dd5.gif" alt="" border="0" /></a>

@@ -9,67 +9,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are two ways for companies to hold elections for their boards of directors. The normal way is that the company has, say, seven board s
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       PRPLS
-    
-  
+
+
 
 There are two ways for companies to hold elections for their boards of directors. The normal way is that the company has, say, seven board seats, and each shareholder gets to vote for up to seven directors, and each share voted for a candidate counts as one vote, and whichever seven candidates get the most votes win. Most of the time, the company nominates seven people, they are the only choices, and the shareholders just vote for them. But sometimes there will be a contested election: An activist shareholder will nominate candidates (perhaps seven, perhaps fewer) and run a proxy fight to try to get shareholders to vote for her candidates, and the shareholders will end up electing either the company’s candidates or the activist’s or, occasionally, a mix of the two slates.
 The other way — it is called “cumulative” voting — is that each shareholder gets seven votes per share, but can assign them to whichever candidate or candidates she wants. She can vote all seven votes for one candidate, if she wants, or four for one and three for another, or one each for seven candidates, or whatever. And then whichever candidate gets the most total votes wins.
@@ -103,89 +103,89 @@ Ten thousand votes per PRPLS! I mean, each common share gets 1/100th of a PRPLS,
 I dunno, seems fine? A lot of the time, when companies try to fight off a big shareholder, they do it with things that discriminate against that shareholder: most classically a   poison pill (basically threatening to give a ton of new stock to every shareholder except the one you don’t like), though there is also the time that CBS Corp.’s board of directors tried to   issue a bunch of new stock to take away the super-voting rights of Shari Redstone, its controlling shareholder. Here, every shareholder — Coliseum and otherwise — gets the same PRPLS and the same voting rights, but the board has changed how the votes get counted.
 Mostly we just live in a golden age of blank-check preferred stock with weird voting rights and fun acronyms. I don’t think that a lot of companies will copy this idea, just because you need a really specific set of circumstances (pretty much: a single shareholder with more than about 35% of the stock and less than 50%, whom the board doesn’t like) for this to make any sense. But if anyone does, will they use Purple’s PRPLS name? As a little tribute? Or will they have to come up with their own acronym?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Distress
-    
-  
+
+
 
 My   general theory of   distressed-debt investing is:
 	There is a company that does not have enough money to pay back its debts.	So 51% of its creditors go to the company and say “pay us back 100 cents on the dollar, and in exchange we will approve an amendment to your debt documents that allows you to pay the other 49% zero cents on the dollar.”	The company does this, to buy time and avoid bankruptcy.	Eventually it goes bankrupt anyway, the 51% holders are in a relatively good position, and the 49% holders are not.
@@ -203,20 +203,20 @@ The stances strike some observers as inconsistent.
 
 I mean, compared to what? It would also be a bad look not to try to get paid as much as they can. “Angelo Gordon believes that the technical differences between Revlon and Serta transactions leave it on the correct side of both, according to court filings and people familiar with their thinking,” and, sure, the technical differences. The correct side of every deal is the side that gets paid.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Disney
-    
-  
+
+
 
 I think it would be fun to work in some sort of middle management role at a big public company and also be friends with a big scary activist investor. Everyone would have to walk on eggshells around you just a bit, and if you ever disagreed with your boss, or if your boss tried to demote you or fire you for something that you did, you could call up your activist buddy to run a proxy fight to get the whole board and management team replaced. “I was not happy with my bonus this year so I had my friend take over the company and fire everyone.” Just a weird dynamic. 
 We  talk sometimes about the odd governance dynamics of corporate chief executive officers who are also controlling shareholders: Technically the CEO works for the board, and the board can fire the CEO, but the board works for the shareholders, and the shareholder-CEO can fire the board. There is a standoff; the corporate hierarchy circles back on itself. This would be like that but weirder. You work for your boss who works for the CEO who works for the board who works for the shareholders who work for you.
@@ -232,11 +232,11 @@ Is the story here that Iger, the CEO, demoted Perlmutter, the head of a division
 Early in the summer of 2022, Isaac Perlmutter, an employee and shareholder of the Company, who currently serves as Chairman of Marvel Entertainment, and previously served as Chief Executive Officer of Marvel, called Bob Chapek, then the Chief Executive Officer of the Company, to urge Mr. Chapek to meet with Nelson Peltz, the Chief Executive Officer of Trian Management. Mr. Chapek noted that he had business travel coming up in Paris, France, and thus his schedule near term would not work. Mr. Perlmutter responded that Mr. Peltz was vacationing on his yacht somewhere off the coast of France and so geography would not be an impediment. Mr. Perlmutter told Mr. Chapek he should have a “friendly lunch” with Mr. Peltz in France and it would be a good investment of his time. Mr. Perlmutter’s assistant worked with Mr. Chapek’s office and Mr. Peltz’s office to organize the meeting over a lunch.
 “Hey Bob would you like to meet with a famous activist investor?” “Oooh I’d love to, really I would, but I’m gonna be in France, sorry, quel dommage.” “That’s okay, he’s on a yacht somewhere off France, he can come to you.” Imagine being the law firm associate writing that paragraph at midnight in your office. Sounds nice!
 
-  
-    
+
+
       Crypto taxes
-    
-  
+
+
 
 The basic proposition of crypto shadow banks like Celsius Network Ltd. was:
 	You deposit your crypto with Celsius.	Celsius pays you some very high interest rate on your crypto,   as much as 18%, and uses your crypto to make risky bets.	Celsius loses the money, can’t give you back your crypto, and goes bankrupt.
@@ -248,7 +248,7 @@ Interest earned on bank accounts, certificates of deposit and corporate bonds is
 But in a quirk of last year’s crypto collapse, investors are now receiving tax bills for money locked up on platforms like Celsius and Voyager Digital, which have frozen customer withdrawals as they undergo bankruptcy proceedings.
 It could hardly come at a worse time for crypto investors. Not only have digital asset prices plunged in the wake of FTX’s collapse, but inflation, high housing costs and rising interest rates are also making it more difficult for everyday people to afford regular expenses — let alone taxes on investments they’ve likely lost. 
 
-Paying 18% interest into your account, and then not letting you withdraw the money from the account, ends up giving you negative cash flow; you’d have been better off without the interest. In 
+Paying 18% interest into your account, and then not letting you withdraw the money from the account, ends up giving you negative cash flow; you’d have been better off without the interest. In
 other Celsius news:
 
 Celsius Network Ltd has proposed a plan that calls for most users to recover the majority of their assets and allows NovaWulf Digital Management to manage a restructured version of the bankrupt crypto lender.
@@ -259,11 +259,11 @@ The plan also calls for Celsius users to reap any benefits of a trust that will 
 
 Huge   growth area in crypto, really, tokenizing the right to sue the people who made money in the last crypto boom.
 
-  
-    
+
+
       Bonus caps
-    
-  
+
+
 
 One of the weirdest cases of unintended consequences in financial regulation is that, after the 2008 financial crisis, European Union regulators passed rules requiring banks to give their senior employees enormous raises. I mean, technically, the rules were designed to cap bonuses: The theory was that banks took on excessive risks because their employees were trying to maximize their bonuses, so the solution was to cap bonuses at, essentially, two times the bankers’ salary. But the very very very very very obvious, yet somehow apparently unintended, effect of this rule was to push banks to raise salaries (or offer other sorts of quasi-fixed pay, like “role-based allowances,” that don’t count as bonuses), so that senior employees could still get large paychecks. But now the paychecks are more guaranteed than they used to be: Instead of getting most of their pay from a once-a-year bonus that could be zeroed if things go poorly, senior European bankers now get a bigger chunk of their pay in regular monthly installments. This is very nice for them! Thanks, regulators!
 The UK, having left the EU, is no longer required to follow those rules, and is  considering getting rid of them. At FT Alphaville, Craig Coben points out that  this will be bad for UK bankers:
@@ -273,129 +273,129 @@ That’s why these bankers appreciate a lifeboat of role-based allowances in cas
 
 I suppose at the margin that will cause the more risk-averse people to leave the banks, and more risk-loving people to join? Hmm.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Yes, Elon Musk created a special system for  showing you all his tweets first. Tesla Investor Gerber Tells EV Maker He’s  Pursuing Board Seat. Elon Musk Nears   World’s Richest Title Again. Elon Musk Gave $1.9 Billion of Tesla Shares to Charity Last Year. Morgan Stanley  Doubles Down on ESG Despite the Politics. Influential local US banks fight back against Republicans’ ESG attacks. Credit Suisse Pays Double to Lure Investors to Its Bond Offering. Goldman Sachs  scraps idea for direct-to-consumer credit card after strategy shift. Central Bankers in Bunkers Keep   Ukraine’s War Economy Afloat. Investors Pour Into  Chinese Stock Funds in Reopening Bet. China Stock Slide Puts Hedge Funds’   Crowded Trade at Risk.   Adani Group Touts Cash Reserves in Bid to Calm Investors.  Subway Confirms It Is Seeking Buyers.  Vice Media Gets $30 Million-Plus Lifeline From Fortress as Bills Pile Up. Swiss Say   Confiscating Russian Assets Would Undermine Law. Albanian gangs set up hundreds of  spy cameras to keep ahead of police. America's Priciest Neighborhoods Are Changing as the Ultra-Rich   Move to Florida. James Van Der Beek: “I enjoy working with brands and  I love adding value.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Mostly because not all shareholders vote in all elections; if you start with 45% of the vote then it’s not like anyone else is going to get 46%. In last year’s (uncontested) director elections at Purple, about  67 million shares were eligible to vote, and only about  56 million did; getting 45% of the total shares would have been enough to win the vote.
 
 
   [2] For preferred-share-cap reasons similar to those we   discussed in AMC.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

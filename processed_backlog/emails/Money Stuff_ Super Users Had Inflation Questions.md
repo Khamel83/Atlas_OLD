@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One thing that I think about from time to time is that the notion of “material nonpublic information” is outdated and incoherent. In the old
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Super users
-    
-  
+
+
 
 One thing that I think about from time to time is that the notion of “material nonpublic information” is outdated and incoherent. In the olden days, you could have some simple intuitions about what constituted insider trading. Some news would obviously be material to a company’s stock price: If you knew that the company was about to announce a merger, or earnings that were much higher than analysts’ expectations, then you could expect that the stock would trade up a lot. So you could buy the stock before the announcement, wait a few days, and then sell the stock at a big profit right after the announcement.
 Insider trading — trading on this sort of material nonpublic information — is generally illegal, and regulators policed it in intuitive ways: They look at stocks that move a lot on earnings or merger announcements and see if there’s any suspicious trading by anyone who might have inside information.
@@ -82,37 +82,37 @@ But the emails show that the employee did engage in extended, one-on-one email e
 
 I think that there was once a view that sending hedge funds an inflation data release in advance is obviously bad, but answering their technical questions after the information is released is fine. The super users were the ones who really cared about the data, and helping them understand it better was good customer service and didn’t really hurt anyone else. But I’m not sure people think that anymore.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Pawan Passi
-    
-  
+
+
 
 Pawan Passi was the head of equity syndicate at Morgan Stanley. Big banking clients — corporations, private equity firms — would sometimes come to Morgan Stanley for block trades, saying “we’re going to sell a big block of stock in Company X after the close today and we will want a bid from you, but don’t tell anyone, this is highly confidential.” Passi would then call some of his favorite hedge fund customers and say “hey, there’s a big block of Company X coming after the close today, get ready.” The hedge funds would then short the stock, knowing that they would be able to buy at a discount in the block trade and make a quick profit. Morgan Stanley would be better positioned to win the block trade, because it had already lined up buyers (the hedge funds). Good for Morgan Stanley, good for Passi, good for the hedge funds.
 Bad for the client — the seller of the block — who expected Morgan Stanley to keep the deal confidential and who probably got a lower price on the trade.
@@ -130,11 +130,11 @@ I love it.
  Really the least they could do! Presumably Passi’s knowledge of the block trade market will be helpful to a block trade specialist. But also developing a reputation for helping out down-on-their-luck equity syndicate bankers should be helpful to a block trade specialist. If your business is partnering with banks for block trades, being nice to the bankers might encourage more banks to partner with you.
 Honestly though this story would be funnier if Passi turned up, not at CaaS or one of the other hedge funds he helped, but at Blackstone or Oaktree or one of the other private equity firms he harmed. Really Blackstone should hire him as its head of block trades. On the one hand, probably bad incentives. On the other hand, he knows all the tricks. 
 
-  
-    
+
+
       Starlink
-    
-  
+
+
 
 The basic rule is that neither public nor private companies are allowed to lie to their investors to raise money. Securities fraud is securities fraud, whether you are public or private. 
 The more advanced rule is … look, things are a bit laxer for private companies. (Not legal advice!) A public company is, in some sense, always on the record: If a public-company chief executive officer says something on television or social media, the stock will move, and if it later turns out to be false then someone will sue. A private company does not have that risk, since its stock doesn’t trade; its main risk of committing fraud is when it raises money directly from investors. If its CEO says something false on television, the company can clean that up later when it does a financing round, sending out an offering memo that says “by the way our CEO said some numbers on TV last month, but here are the real numbers.” 
@@ -149,11 +149,11 @@ Starlink, which provides space-based internet service to more than 2.6 million c
 
 I am always on the lookout for private companies that report customized profitability metrics that make them look less profitable than GAAP would, but I never seem to find any.
 
-  
-    
+
+
       Oh McKinsey
-    
-  
+
+
 
 The basic analysis of banking is:
 	A bank owns a pile of assets: loans, bonds, etc. Say they are worth $100 today.	The bank is funded mostly by senior claims on those assets: bank deposits and other forms of debt that really should get paid back. Say the bank has $90 of debt outstanding against its $100 of assets.	The bank also has a little sliver of equity: its shareholders have the residual claim on those assets, after the senior claims paid back. Here the bank has $10 of equity; depositors and other creditors are entitled to the first $90 of the bank’s assets, but anything left over — currently $10 — goes to the shareholders.	The shareholders, therefore, have a close-to-the-money call option on the bank’s assets: If the assets turn out to be worth more than $90, the shareholders get the excess, but if they turn out to be worth less than $90, the shareholders get nothing. In particular, if the assets turn out to be worth zero — if all $100 of assets turn out to be fake and the bank is worthless — then the shareholders only lose their $10; the other $90 of the losses fall on the depositors. (Or the deposit insurance fund, the taxpayers, etc.)	This option is more valuable if volatility is higher. If the bank’s assets have a 50/50 chance of ending up worth $98 or $102, then the shareholders will get back either $8 or $12 after paying off the debt, for an expected value of $10. (And the depositors will always get back their $90.) If the bank’s assets have a 50/50 chance of ending up worth $70 or $130, then the shareholders will get back either $0 or $40, for an expected value of $20. And the depositors will get back $90 in the good case, but only $70 — a catastrophe, a bank failure — in the bad case.	The bank’s executives have fiduciary duties to shareholders, and probably own a lot of stock themselves, so they want to make the stock more valuable.	Again, the theoretically correct way to make the stock more valuable is to make the assets more volatile, to make the bank riskier, to increase the value of the shareholders’ option.	Everything else about banks — bank regulation, prudential supervision, capital and liquidity requirements, deposit insurance, rules about bonuses and clawbacks, bank culture and training, speeches by politicians, depictions of banks in popular culture — is about mitigating this essential problem. The essential problem is that, if you look at a bank’s capital structure with some financial sophistication but also some naivety, you will say “wait the bank works for the shareholders, the shareholders have an at-the-money option on the assets, and the way to increase shareholder value is to increase the volatility of those assets.”
@@ -168,11 +168,11 @@ This was good advice, that McKinsey gave him!
   [4]
  Find a niche, specialize, make a big bet: Diversification makes you safer but reduces the variance of your returns; specialization increases the variance and thus the likelihood of making a lot of money for shareholders. Also the likelihood of going to zero.
 
-  
-    
+
+
       Ed Thorp
-    
-  
+
+
 
 The famous story about mathematician, card counter and hedge fund pioneer Ed Thorp is that he figured out the Black-Scholes formula for option pricing before Black, Scholes and Merton did, but, unlike them, he didn’t publish it. They did, and won a Nobel Prize.
   [5]
@@ -184,11 +184,11 @@ I think I said something like that. Well, maybe I’d modify it to “push the m
 
 He gets into details on his approach, which involves diet, exercise, some supplements, and apparently not yet transfusions of young people’s blood because “I’m not under pressure to stretch for these things that might work because I’m doing OK right now,” but “if I were in bad shape, I might need to take some risk to get into less bad shape.” He also mentions that he missed out on investing in Renaissance Technologies in the 1980s, because he “learned that [Jim Simons] smoked in meetings” and “just didn’t want the exposure.” (To smoke, presumably, not to Renaissance’s strategy.) You can construct a rough hierarchy of Thorp’s priorities in which trading profits come ahead of academic glory, but longevity comes ahead of trading profits. Seems like a reasonable hierarchy.
 
-  
-    
+
+
       Sheep
-    
-  
+
+
 
 A feature of modern finance is that “environmental sustainability” is a financial product. There are financial engineers, working at hedge funds and banks, whose job is to structure and source and package and sell units of environmental sustainability. There are many ways to create units of environmental sustainability, and eventually modern finance will find all of them. Sometimes this means solar power or carbon capture, sometimes it means creative accounting for not cutting down trees, and sometimes you will find yourself working at a hedge fund and spending your time hiring sheep to mow your lawn:
 
@@ -212,15 +212,15 @@ On the other hand, are the sheep good at mowing the lawn? There are contrarian
 
 Yes right the sheep still need to make financial sense.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Chinese Cement Maker Halted After 99% Crash in 15 Minutes. Bond Trader Places Record SOFR Futures Bet on Eve of Inflation Data. How the US Steel Takeover Became About Biden and Swing States. OpenAI and Meta ready new AI models capable of ‘reasoning.’ EU court rules in favour of Russian oligarchs Fridman and Aven in blow to sanctions regime. NYSE Is Trying to Get Japanese Companies to List in the US. HSBC to Sell Argentina Business in Latest Market Exit. Starbucks Is Designing Quieter Stores to Make Sure It Gets Your Order Right. The Real Estate Nightmare Unfolding in Downtown St. Louis. Billionaires’ playgrounds’: the $1mn fees upending Florida’s golf clubs. The Merchant Banker Who Could Win the Masters.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I’m not *sure* this is true. Arguably Passi’s leaks made the market price of the stock more *accurate* — it reflected the expected impact of the block — and reduced his risk bidding on the block, allowing him to make a more aggressive bid than if he had to guess at the price impact. You could imagine Morgan Stanley’s bids being systematically higher with pre-sold/leaked block trades than with fully at-risk block trades. The problem is that many of these trades were bid out to multiple banks, so there’s a decent chance that *one* bank would underestimate the risk and bid higher for a non-leaked trade than it would for one whose impact was fully reflected in the price. In any case, the clients told Morgan Stanley to keep the blocks confidential, which presumably means *they* thought that leaks would get them a worse price.
 
 
@@ -236,48 +236,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Well, Black didn’t, because he died and Nobels aren’t awarded posthumously, but that feels like a technicality and the Nobel citation discusses him prominently. Another technicality that some people sometimes get fussy about is that it is “the Bank of Sweden Prize in Economic Sciences in Memory of Alfred Nobel,” not quite a Nobel Prize.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -288,46 +288,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cku007.646h/9cac18d8.gif" alt="" border="0" /></a>

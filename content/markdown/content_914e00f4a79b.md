@@ -199,7 +199,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h6 class="kicker">Inquiry</h6>
 <h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">The Cyborg in Us All</nyt_headline></h1>
 <nyt_byline>    <h6 class="byline">By PAGAN KENNEDY</h6>
@@ -281,7 +281,7 @@ function getSharePasskey() {
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -294,11 +294,11 @@ function getSharePasskey() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p>
-&ldquo;Fingers!&rdquo; Gerwin Schalk sputtered, waving his hands around in the air. &ldquo;Fingers are made to pick up a hammer.&rdquo; He prodded the table, mimicking the way we poke at computer keyboards. &ldquo;It&rsquo;s totally ridiculous,&rdquo; he said.        </p> 
+&ldquo;Fingers!&rdquo; Gerwin Schalk sputtered, waving his hands around in the air. &ldquo;Fingers are made to pick up a hammer.&rdquo; He prodded the table, mimicking the way we poke at computer keyboards. &ldquo;It&rsquo;s totally ridiculous,&rdquo; he said.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->   
+
+<!--forceinline-->
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20120530014854/http://www.nytimes.com/imagepages/2011/09/18/magazine/18mindreading.html','18mindreading_html','width=576,height=730,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -309,20 +309,20 @@ function getSharePasskey() {
 <h6 class="credit">Albany Medical College</h6>
 <p class="caption">Platinum electrodes, used to record seizures, cover part of the brain in an epilepsy patient. Those electrodes collect electrical signals from the brain, some of which can be transformed into computer commands.                            </p>
 </div>
-  
+
 <div class="columnGroup doubleRule">    </div></div>            <script type="text/javascript">
         if (typeof NYTDVideoManager != "undefined") {
             NYTDVideoManager.setAllowMultiPlayback(false);
         }
-        
+
         function displayCompanionBanners(banners, tracking) {
             tmDisplayBanner(banners, "videoAdContent", 300, 250, null, tracking);
         }
-        </script> 
+        </script>
 <div class="articleInline runaroundLeft" style="margin-top: -11px">        <h6 class="sectionHeader flushBottom">Multimedia</h6>
-</div>                                                  
+</div>
 <div class="articleInline runaroundLeft firstArticleInline">
-<div class="story">  
+<div class="story">
 <div class="wideThumb">
 <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/interactive/2011/09/18/magazine/14Mag-cyborg.html?ref=magazine">
 <img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com//images/2011/09/12/magazine/mag-18inquiry/mag-18inquiry-thumbWide.jpg" width="190" height="126" alt="" border="0"/>
@@ -351,7 +351,7 @@ Bits</a></h3>
 The latest from the Times Technology blog. <a href="http://web.archive.org/web/20120530014854/http://bits.blogs.nytimes.com/">Go to Bits Â»</a></p>
 </div>
 </div>
-   
+
 </div>
 <div id="readerscomment" class="inlineLeft"></div>
 <div class="articleBody">
@@ -369,7 +369,7 @@ But for Schalk &mdash; and many others in the field &mdash; the ultimate goal is
 </nyt_text>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -380,7 +380,7 @@ But for Schalk &mdash; and many others in the field &mdash; the ultimate goal is
 </div>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div id="articleExtras">
 <div class="expandedToolsRight">
 <div class="articleTools">
@@ -422,7 +422,7 @@ But for Schalk &mdash; and many others in the field &mdash; the ultimate goal is
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -447,11 +447,11 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra subColumns">
 <div class="column">
-<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>    </div>                
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>    </div>
 <div class="column lastColumn">
 <div class="emailAlertModule module">
 <h5 class="sectionHeaderSm">Get Free E-mail Alerts on These Topics</h5>
@@ -494,10 +494,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
         google_hints="The Cyborg in Us All";google_ad_channel="archive, archive_magazine, archive_Magazine";
 </script>
 <!-- ADXINFO classification="feature_squares" campaign="ARTICLE_GOOGLE_SPONLINK_2012"--><script language="JavaScript" type="text/javascript">
-    
+
     // Sponlink_short
 
-NYTD.GoogleAds.getGoogleAds("AFC", { 
+NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
 	google_ad_channel:'left',
         ad_target_list:'sponLink'
@@ -611,7 +611,7 @@ Advertisements	    </h4>
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -631,8 +631,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -761,7 +761,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -837,8 +837,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20120530014854im_/http://up.nytimes.com/?d=0/15/&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2011%2f09%2f18%2fmagazine%2fthe%2dcyborg%2din%2dus%2dall%2ehtml%3fref%3dmagazine">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

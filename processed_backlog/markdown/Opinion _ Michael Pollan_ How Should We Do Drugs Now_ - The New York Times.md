@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • July 09, 2021 
+Unknown author • July 09, 2021
 
 ![nytimes.com]()
 

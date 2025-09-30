@@ -19,7 +19,7 @@ war, and Netflix is on the receiving end of one of the dumbest media suits of th
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts...
 -------------------
@@ -146,7 +146,7 @@ As for the video… did it show kissing, or just Coppola leaning in and whisperi
 So, this one is likely headed to trial—though an appeal has already been filed, since anti-SLAPP rulings in California can be immediately challenged. If it doesn’t settle, look for a possible courtroom showdown between one of the world’s most famous directors and one of Hollywood’s largest trade
 publications. Naturally, all the Penske outlets are covering this ruling as aggressively as they are the Lively-Baldoni fight. Just kidding.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday night. See you then.
 
@@ -197,6 +197,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVQBcFk9kHkWa_WvTiwYo=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -39,7 +39,7 @@ Fourteen people said no. Sixteen said maybe. Thirty-eight people said yes. These
 <script>
 // Immediately set theme on page load
 (function() {
-    var storedTheme = localStorage.getItem('theme') || 
+    var storedTheme = localStorage.getItem('theme') ||
         (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     if (storedTheme) {
         document.documentElement.setAttribute('data-theme', storedTheme);
@@ -81,9 +81,9 @@ $(document).ready(function() {
 	$(".post .footnote a:last-of-type").removeAttr("target");
 
 $("time.timeago").timeago().css("visibility", "visible");
-	
+
 	$('h2').widowFix();
-	
+
 	$(".post p strong:contains('Update:')").each(function() {
 	    $( this ).addClass("post-update-title").html("Update" + ((typeof $( this ).attr('title') !== typeof undefined && $( this ).attr('title') !== false) ? "<span class='post-update-timestamp'> ·  " + $( this ).attr("title") + "</span>" : ""));
 	  });

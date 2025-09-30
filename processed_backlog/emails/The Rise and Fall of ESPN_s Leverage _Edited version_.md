@@ -171,7 +171,7 @@ Second, for all of the talk about ESPN, it’s worth noting that its content is 
 
 The biggest long-term question, though, has to be around sports itself. Sports leagues could extract ever higher rights fees from ESPN because ESPN could extract ever higher affiliate fees from cable TV providers; if the latter is broken than the former is as well. Yes, vMVPDs like YouTube TV will still exist — and be big winners — and Disney still plans an ESPN streaming service. All of those options, though, entail dramatically increased customer choice; leagues like the NBA have shrugged off declining ratings with the certainty that they would, via cable TV subscribers, get paid regardless, but now the choice isn’t just whether to click the remote, but whether to simply click cancel and watch something else. Better to re-bundle sooner rather than later!
 
-* 
+*
 
 Yes, I know I just said “protocol” twice ↩︎ ( #rf1-11503 )
 

@@ -115,7 +115,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
   <div class="region-inner region-topper-second-inner">
     <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
   <div class="block-inner clearfix">
-            
+
     <div class="content clearfix">
       <form class="search-form" role="search" aria-label="Site Search" action="/publications/great-risk-shift-new-economic-insecurity-and-decline-american-dream" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
   <div class="form-item form-type-textfield form-item-search-block-form">
@@ -154,7 +154,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
     <nav id="main-menu-navigation" role="navigation" aria-label="Main Menu" class="navigation">
                   <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
   <div class="block-inner clearfix">
-            
+
     <div class="content clearfix">
       <ul class="menu"><li class="first leaf menu-home"><a href="/">Home</a></li>
 <li class="collapsed menu-people"><a href="/people">People</a></li>
@@ -178,7 +178,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
 </div>
 </div>
 </header>
-  
+
       <main  id="section-content" class="section section-content" role="main">
   <div id="section-content-inner">
       <div id="zone-header" class="zone zone-header clearfix container-12">
@@ -186,12 +186,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
   <div class="region-inner region-header-first-inner">
     <div class="block block-views block-rotating-header-image-block block-views-rotating-header-image-block odd block-without-title" id="block-views-rotating-header-image-block">
   <div class="block-inner clearfix">
-            
+
     <div class="content clearfix">
       <div id="block-views-rotating_header_image-block-ajax-content" class="ajaxblocks-wrapper"><script type="text/javascript"></script><noscript><div class="view view-rotating-header-image view-id-rotating_header_image view-display-id-block view-dom-id-569b2a6e79564aa1e3e90959d0c5adef">
-        
-  
-  
+
+
+
       <div class="view-content">
       <div class="flex-nav-container">
   <div class="flexslider-content flexslider clearfix" id="flexslider-1">
@@ -202,12 +202,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
   </div>
 </div>
     </div>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div></noscript></div>    </div>
   </div>
 </div>
@@ -216,7 +216,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
   </div>
 <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  <div id="zone-content" class="zone zone-content clearfix container-12">
           <div id="breadcrumb" class="grid-12"><nav class="breadcrumb" role="navigation" aria-label="You are here"><a href="/">Home</a><span class="tic"> > </span><a href="/publications">Publications</a><span class="tic"> > </span>The Great Risk Shift: The New Economic Insecurity and the Decline of the American Dream</nav></div>
-    
+
     <div id="moved-sidenav-wrapper" class="moved-sidenav-wrapper grid-12">
        <div id="moved-sidenav" class="moved-sidenav" data-set="append-sidenav"></div>
     </div>
@@ -228,11 +228,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
 </h1>
                         <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
   <div class="block-inner clearfix">
-            
+
     <div class="content clearfix">
       <article about="/publications/great-risk-shift-new-economic-insecurity-and-decline-american-dream" typeof="sioc:Item foaf:Document" class="node node-publications node-published node-not-promoted node-not-sticky author-14 odd clearfix" id="node-publications-454">
   <!--    -->
-    <span property="dc:title" content="The Great Risk Shift: The New Economic Insecurity and the Decline of the American Dream" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+    <span property="dc:title" content="The Great Risk Shift: The New Economic Insecurity and the Decline of the American Dream" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   <div class="content clearfix">
     <div class="field field-name-field-publication-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="https://politicalscience.yale.edu/sites/default/files/books_hacker_jacob_greatriskshift.jpg" width="120" height="179" alt="" /></div></div></div><div class="field field-name-field-professor field-type-entityreference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/people/jacob-hacker">Jacob Hacker</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>America&#8217;s leaders say the economy is strong and getting stronger. But the safety net that once protected us is fast unraveling. With retirement plans in growing jeopardy while health coverage erodes, more and more economic risk is shifting from government and business onto the fragile shoulders of the American family.<br />
 In The Great Risk Shift , Jacob S. Hacker lays bare this unsettling new economic climate, showing how it has come about, what it is doing to our families, and how we can fight back. Behind this shift, he contends, is the Personal Responsibility Crusade, eagerly embraced by corporate leaders and Republican politicians who speak of a nirvana of economic empowerment, an “ownership society” in which Americans are free to choose. But as Hacker reveals, the result has been quite different: a harsh new world of economic insecurity, in which far too many Americans are free to lose.</p>
@@ -246,7 +246,7 @@ In The Great Risk Shift , Jacob S. Hacker lays bare this unsettling new economic
 
 <div class="clearfix">
           <nav class="links node-links clearfix"></nav>
-    
+
       </div>
 </article>
     </div>
@@ -257,7 +257,7 @@ In The Great Risk Shift , Jacob S. Hacker lays bare this unsettling new economic
   </div>
 </div>  </div>
 </main>
-  
+
       <footer id="section-footer" class="section section-footer" role="contentinfo">
   <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  <div id="zone-footer" class="zone zone-footer clearfix container-12">
     <div  class="grid-2 region region-footer-first" id="region-footer-first">
@@ -278,7 +278,7 @@ In The Great Risk Shift , Jacob S. Hacker lays bare this unsettling new economic
   <div class="region-inner region-footer-third-inner">
     <div class="block block-menu sharing block-menu-social-buttons block-menu-menu-social-buttons odd block-without-title" id="block-menu-menu-social-buttons">
   <div class="block-inner clearfix">
-            
+
     <div class="content clearfix">
       <ul class="menu"><li class="first leaf menu-facebook"><a href="https://www.facebook.com/Yale-University-Political-Science-Department-119570088799077/" title="Yale Political Science Department FaceBook Page" class="fa fa-facebook-square" target="_blank"><span>Facebook</span></a></li>
 <li class="leaf menu-twitter"><a href="http://www.twitter.com/yale" class="fa fa-twitter"><span>Twitter</span></a></li>
@@ -303,7 +303,7 @@ In The Great Risk Shift , Jacob S. Hacker lays bare this unsettling new economic
       sz.src = '//siteimproveanalytics.com/js/siteanalyze_66356571.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
       })();
-      
+
 //--><!]]>
 </script>
 <script type="text/javascript" src="https://politicalscience.yale.edu/sites/default/files/js/js_JMVekk522eOkII71K9F5yD4Su-iRqPdTR_-LxjPAtMk.js"></script>

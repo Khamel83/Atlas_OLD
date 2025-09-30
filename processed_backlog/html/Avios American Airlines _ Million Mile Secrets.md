@@ -173,7 +173,7 @@ Step 11 – Choose Your Preferred Seats
 
 ### Bottom Line
 
-You can easily add your American Airlines frequent flyer number to a British Airways Avios points booking.  
+You can easily add your American Airlines frequent flyer number to a British Airways Avios points booking. 
 
 Your American Airlines frequent flyer number allows you to pick your seats.
 

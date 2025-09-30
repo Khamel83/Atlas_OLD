@@ -7,71 +7,71 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I mean here’s a diagram: And then here’s a slightly annotated diagram%3Cp%3EThis%20is%20far%20too%20glib,%20and%20a%20reasonable%20annotatio
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI
-    
-  
+
+
 
 I mean  here’s a diagram:
  
 
 
-    
+
 
 And then here’s a slightly annotated diagram
   [1]
 :
 
 
-    
+
 
 In the first diagram, the word “controls” appears four times, and if you trace it through, you will see that the board of directors of OpenAI ultimately controls each entity in the organization. All of OpenAI answers to its ultimate decision-making body, an independent nonprofit board of directors who do not own any equity in the OpenAI entities and who, broadly speaking, appoint themselves. They answer to their own consciences, not to any investors. “The Nonprofit’s principal beneficiary is humanity, not OpenAI investors,”  explains OpenAI.
 In the second diagram, I have written the word “MONEY” in large green letters.
@@ -127,37 +127,37 @@ But if you are on the board of directors of a nonprofit, you might be more incli
 
 On the other hand, if the story here is “OpenAI’s board of directors found a Rogue Capitalism at OpenAI, and moved to kill it before it could destroy their nice nonprofit mission,” well, it’s also not clear that that worked. (It’s not clear that it’s true, either: Shear tweeted this morning that “the board did *not* remove Sam over any specific disagreement on safety, their reasoning was completely different from that. I’m not crazy enough to take this job without board support for commercializing our awesome models.”) Capitalism, like the metaphorical superintelligent robot, is pretty crafty. If the board killed the Rogue Capitalism at OpenAI, it will pop up again elsewhere. “Ahahaha you fools,” say Microsoft and the OpenAI employees and, like, the abstract concept of Silicon Valley startup investing generally. “You trusted in the formalities of corporate governance, I outwitted you easily!”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Negative emissions
-    
-  
+
+
 
 The math is something like this:
 	If you burn oil or coal to make electricity, you are taking carbon that was buried in the earth for millions of years and putting it into the atmosphere, which is bad. Burning oil or coal for electricity has carbon emissions.	If you burn trees to make electricity, that’s better. You can plant new trees to replace the ones you cut down and burn, and the new trees will take carbon out of the atmosphere and store it in the trees instead. You can’t do that with coal — it will take millions of years to replace any coal you burn — but you more or less can with trees, over some plausible time horizon.	Burning trees is thus much cleaner than burning coal. Does it have zero emissions? I mean? No? But the accounting for this stuff is tricky and stylized. If you have a program that replaces each tree you cut down with a new tree, over the long term does that program have zero net emissions? Maybe? Arguably? Depending on how you count?	Carbon capture technology exists to take at least some of the carbon dioxide produced at an electric power plant, capture it, and store it in the earth instead of releasing it into the atmosphere. In theory, you can burn coal, capture the carbon, and end up with zero carbon emissions going into the atmosphere. (In practice there are issues, including that “It’s so energy-intensive that if you add CCS [carbon capture and storage] to a coal plant, you’re roughly doubling the amount of coal you need.”)	If you combine Points 3 and 4, you might burn trees to produce electricity (arguably zero emissions) and use carbon capture to store the carbon dioxide you produce, resulting in negative emissions. Each tree you burn takes carbon out of the atmosphere. As a matter of accounting conventions anyway.
@@ -175,11 +175,11 @@ Counting the emissions again when biomass is burned is therefore either a mathem
 
 Often I find myself writing around here about the accounting gimmick of claiming carbon credits by not cutting down trees. The gimmick of claiming the credits by cutting them down was new to me.
 
-  
-    
+
+
       Centerview sleep lawsuit
-    
-  
+
+
 
 Everyone understands the basic deal for investment banking analysts. The good news is that they get prestige, a nice paycheck, good exit options and intense training in financial modeling and dealmaking. The bad news is that they work too much, are always at the office, can’t make social plans and don’t get much sleep.
 If you are a smart ambitious young person you might think to yourself “I would like the upsides of that deal, but without the downsides.” In recent years, we have seen analysts at a number of banks try to renegotiate the deal. At Goldman Sachs Group Inc. a few years ago,   they wrote a whole pitchbook being like “we should be able to go home sometimes.”
@@ -195,24 +195,24 @@ Centerview said it was within its rights to terminate Shiber, claiming that she 
 Harsh, and yet you can see where they are coming from. Working investment banking hours isn’t good for anyone, and if you create a precedent like “you don’t have to work all night if you need sleep” then who will work all night?
 Anyway after she was fired Shiber seems to have taken a third popular approach to getting the benefits of the investment banking job without the downsides: “She now is a financial analyst at Google in California where her day wraps up between 5pm and 8pm.” Seems like a good job!
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 I am not going to write much about Elon Musk’s increasingly frequent endorsement of antisemitic conspiracy theories, followed by   winking half-backtrack tweets saying things like “I wish only the best for humanity,” because this is not particularly fun and I do not really know what is up with the guy. I just want to say that I’m on Threads at  @itismattlevine and I’ll probably dial back my Twitter/X use.
 I have seen calls for Twitter/X’s nominal CEO Linda Yaccarino to fire Musk, which is interesting, though obviously she is not going to do that. It would be a funny move though! Go all OpenAI on him.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Rithm Completes Deal to Buy Hedge Fund   Sculptor After Monthslong Drama. Citigroup Cuts Over 300 Senior Manager Roles in Latest Restructuring. Office Landlords  Can’t Get a Loan Anymore. A $1.5 Trillion Loan Market Gets Stung by   Anti-ESG Movement. Private equity resorts to buying back companies after  IPO flops. ' Baby Shark' Trademarks Owner Scores $2.45M Default Win.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is far too glib, and a reasonable annotation would also have a big “MONEY,” and also perhaps a “TALENT,” written next to “Employees & other investors.” I don’t *really* mean to assert that the thing that matters here is *Microsoft*; the issue is between, on the one side, a nonprofit board of directors, and, on the other side, the investors and employees who want to get paid and generally be at a profitable startup rather than a sort of drowsy nonprofit.
 
 
@@ -246,48 +246,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [11] Charlie Warzel  threaded: “One thing in the OpenAI stuff that feels consistent (based on some internal convos I've had) is that a group of people that are *laser focused on the doomer elements of AI and the more abstract principle of AGI for the betterment of humanity* might also be the same people who do not fully think through the more human/money elements of firing the figurehead of the generative AI movement and pissing off the company that invested $10 billion in a very specific company/vision.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -298,46 +298,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjwjyk.5huu/e83097e5.gif" alt="" border="0" /></a>

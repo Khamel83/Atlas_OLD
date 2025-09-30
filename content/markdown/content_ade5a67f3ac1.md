@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="American Daily Routine" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-49946 single-format-standard wp-theme-fd-modern-6-0 post-template post-template-single-feature-php elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,38 +436,38 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-feature-post" class="archive-post">
 
 <div class="centered sixteen columns">
-                
+
 	    <div class="meta-bar">
     		<strong><a href="https://flowingdata.com/category/projects/data-underload/" rel="category tag">Data Underload</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/time-use/" rel="tag">time use</a>    		    	</div><!-- end meta-bar -->
-        
-                
+
+
         	    <h1>American Daily Routine</h1>
-		
-        
-    			
+
+
+
 	            <div class="author">
     		By <strong><a href="https://flowingdata.com/about" title="Visit Nathan Yau&#8217;s website" rel="author external">Nathan Yau</a></strong>
     	</div><!-- @end .author -->
-                
-		
-		        
-		
-		
+
+
+
+
+
             </div>
 
 <div class="entry ten columns offset-by-three">
-                
-        
+
+
         <p>Sleep. Work. Play. Rinse and repeat. This is the gist of most people&#8217;s daily routine, but the amount of time varies as more responsibilities kick in. Some people spend more time taking care of others in the house, some don&#8217;t have a paying job, and of course, the weekday schedule is usually different from the weekend&#8217;s.<br />
 <span id="more-49946"></span></p>
 <p>The chart below shows a picture of the American daily routine and how it changes for different groups. Each bar represents an activity, and they sort by the time of day that most people are engaged in an activity. Color indicates the percentage of people during a given time frame.</p>
@@ -486,16 +486,16 @@ img.wp-smiley, img.emoji {
 <li>This is based on 2015 and 2016 data from the American Time Use Survey. I used the <a href="https://www.ipums.org/timeuse.shtml">IPUMS time use extract builder</a> to download the data, which is much easier than sifting through the government FTP.</li>
 <li>I used Python to aggregate the data, <a href="http://r-project.org">R</a> to analyze and play around with the aggregates, and <a href="https://d3js.org">d3.js</a> to visualize here.</li>
 </ul>
-    
-	
-        
-		
+
+
+
+
     </div><!-- @end .entry -->
     <div class="clr"></div>
-    
+
 	<div class="ten columns offset-by-three" style="margin-bottom:1rem">
         <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -518,7 +518,7 @@ img.wp-smiley, img.emoji {
     	<div class="clear-line"></div>
     </div>
 </div>
-    	
+
     	<div class="charttypes"><h3 class="toplevel">Chart Type Used</h3><a href="https://flowingdata.com/charttype/heatmap/"><img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/chart-types/heatmap-thumb.png" alt="Heatmap" title="Heatmap" class="thumbnail" /></a></div>
 
 <!-- <div class="ten columns offset-by-three"> -->
@@ -526,10 +526,10 @@ img.wp-smiley, img.emoji {
 
 <!-- </div> -->
 	</div>
-	
-    
-    
-    
+
+
+
+
 	<div class="clr"></div>
 
 <div id="join-now" style='margin-bottom:0;' class="sixteen columns">
@@ -540,12 +540,12 @@ img.wp-smiley, img.emoji {
     			                </div>
             </div>
 		</div><!-- @end #join-now -->
-	
+
 		<div class="clr"></div>
 
 <div id="favorites" class="container across post-list" style="margin-top:2rem;margin-bottom:0">
             <h3 class="toplevel sixteen columns" style="border-top:none">Favorites</h3>
-            
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2016/12/06/how-people-like-you-spend-their-time/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -555,8 +555,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2023/05/23/all-the-household-types-in-the-u-s/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -566,8 +566,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2014/02/05/where-people-run/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -577,8 +577,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2017/07/25/divorce-and-occupation/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -588,13 +588,13 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
+
                                 </div>
 
 </div><!-- @end #single-post -->
 
 <div class="clr"></div>
-        
+
 </div><!-- end #content-wrapper -->
 
 <div id="footer-wrapper">

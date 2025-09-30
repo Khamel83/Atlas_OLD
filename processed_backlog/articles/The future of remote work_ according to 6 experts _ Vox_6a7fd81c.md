@@ -136,7 +136,7 @@ Scenario 2: Since remote workers do not bear a fixed daily cost of commuting to 
 
 **Fairweather:** Historically, recessions have lasted longer because it takes time for workers to move to job opportunities. If a salesperson in Cleveland lost her job, she may have had to move to San Francisco to find another sales job. But with remote work, you can do a sales job from anywhere. Hopefully this recession is shorter than historical recessions *because* of remote work.
 
-See More: 
+See More:
 
 * [Future of Work](/future-of-work)
 * [Technology](/technology)

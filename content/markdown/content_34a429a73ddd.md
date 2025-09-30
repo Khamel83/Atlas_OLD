@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Big chicken" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-36889 single-format-standard wp-theme-fd-modern-6-0 elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,72 +436,72 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-post" class="archive-post eleven columns">
 
 <div class="nine columns offset-by-two alpha">
-		
-                        
-        
+
+
+
 		        <h1>
                 Big chicken                </h1>
-		
+
     </div>
     <div class="clr"></div>
-    
+
     <div class="byinfo two columns alpha">
-                        
+
         <a href="https://flowingdata.com/2014/10/03/big-chicken/">October 3, 2014</a>
-        
+
                 <div style="margin-top:1.5rem">
             <h3 class="toplevel">Topic</h3>
     		<strong><a href="https://flowingdata.com/category/visualization/infographics/" rel="category tag">Infographics</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/chicken/" rel="tag">chicken</a>, <a href="https://flowingdata.com/tag/food/" rel="tag">food</a>        </div>
-                
-        
+
+
             </div>
-    
+
     <div class="nine columns omega">
-        
-                
+
+
         <div class="archive-featured-image">
                         <img fetchpriority="high" width="620" height="358" src="https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken-620x358.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken-620x358.jpg 620w, https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken-210x121.jpg 210w, https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken.jpg 800w" sizes="(max-width: 620px) 100vw, 620px" data-attachment-id="36890" data-permalink="https://flowingdata.com/2014/10/03/big-chicken/big-chicken/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken.jpg" data-orig-size="800,463" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Big chicken" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken-620x358.jpg" data-large-file="https://flowingdata.com/wp-content/uploads/2014/10/Big-chicken.jpg" />                    </div>
                 <!-- <div class="clr"></div> -->
-        
-        
+
+
         <div class="entry">
-                                    
+
                 <p>From Vox and <a href="http://ps.oxfordjournals.org/content/early/2014/09/26/ps.2014-04291.abstract">research from Zuidhof et al.</a>, <a href="http://www.vox.com/xpress/2014/10/2/6875031/chickens-breeding-farming-boilers-giant">chickens are quite big these days</a>.</p>
 <blockquote><p>The one on the left is a breed from 1957. The middle one is a 1978 breed. And the one on the right is a commercial 2005 breed called the Ross 308 broiler. They&#8217;re all the same age. And the modern breed is much, much, much larger.</p></blockquote>
 <p>When I was learning to cook, I&#8217;d follow recipes from my mom&#8217;s old cookbooks that she had when she was in college. One of my favorite dishes, steamed chicken with ginger and scallions, called for a three- to four-pound chicken. It totally screwed up my cooking times, and we ended up with many undercooked and overcooked chickens.</p>
-                
-                
-                                        
+
+
+
             <div class="clr"></div>
         </div><!-- @end .entry -->
-        
-        
+
+
                 <div style="border-top:1px solid #e8e8e8;padding-top:1.5rem">
     		<!-- Begin Mailchimp Signup Form -->
             <h3 class="toplevel" style="margin-bottom:0">FlowingData Delivered to Your Inbox</h3>
     		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     		<style type="text/css">
     			#mc_embed_signup{
-    				background:#fff; clear:left; 
+    				background:#fff; clear:left;
     				font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
-    				font-size: .9rem; 
+    				font-size: .9rem;
     			}
     			#mc_embed_signup form {
     				padding-left: 0;
     			}
-    			#mc_embed_signup input.email { 
-    				font-size: 1rem; 
-    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important; 
+    			#mc_embed_signup input.email {
+    				font-size: 1rem;
+    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important;
     			}
     			#mc_embed_signup .input-group label { vertical-align: middle; }
     			#mc_embed_signup .input-group ul { padding: 0 !important; }
@@ -532,13 +532,13 @@ img.wp-smiley, img.emoji {
     		</form>
     		</div>
     		<!--End mc_embed_signup-->
-            
+
             <div class="clr"></div>
         </div><!-- @end newsletter signup -->
-                
-		
+
+
                 <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -564,8 +564,8 @@ img.wp-smiley, img.emoji {
 
 </div>
     <div class="clr"></div>
-    
-    <div class="nine columns offset-by-two alpha">    
+
+    <div class="nine columns offset-by-two alpha">
     <span id="comments"></span>
 
 </div>
@@ -580,15 +580,15 @@ img.wp-smiley, img.emoji {
                      <a href="https://flowingdata.com/membership/">
                 <p>Support an independent FlowingData, and get extra visualization goodness.</p>
                 <p><small>Become a member &rarr;</small></p>
-                        
+
         </a>
-    </div><!-- @end membership-sidebar --> 
-         
-    
-	
-    	
-    
-    
+    </div><!-- @end membership-sidebar -->
+
+
+
+
+
+
     <div id="book-sidebar" class="sec">
         <h3 class="toplevel" style="margin-bottom:1em">Second Edition</h3>
         <a href="https://book.flowingdata.com/">
@@ -601,18 +601,18 @@ img.wp-smiley, img.emoji {
         <div class="clr"></div>
         <br />
     </div><!-- @end book-sidebar -->
-    
-    
-	
-    
-        
-    
-    
-    
-    
-    
-	
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!-- @end #sidebar -->
 
 <div class="clr"></div>

@@ -1252,7 +1252,7 @@ background-color: #C6FF00;
 .pagination .page-button.disabled {
 color: #80868b;
 background-color: #f1f3f4
-}    
+}
 --></style>
 <style id='template-skin-1' type='text/css'><!--
 
@@ -1350,11 +1350,11 @@ pre, code {
            transition: right 0.2s;
            top: 0;
          }
-      
+
       	 .popout-search .widget {
            margin: 0;
       	 }
-         
+
          .popout-search #BlogSearch2_form .popout-options {
       	   padding-right: 24px;
            width: calc(100% - 48px);
@@ -1917,14 +1917,14 @@ html, .header-inner a {
            position: fixed;
            width: 100%;
          }
-      
+
          .adb-hero-logo {
       	   height: 80px;
            position: absolute;
            top: 12px;
            left: 16px;
          }
-      
+
          .adb-footer-btm {
            display: flex;
            margin: 0 24px;
@@ -2234,7 +2234,7 @@ html, .header-inner a {
            display: flex;
            align-items: center;
          }
-      
+
          .adb-socials-divider {
            color: #DADCE0;
            font-size: 40px;
@@ -2518,11 +2518,11 @@ html, .header-inner a {
            .adb-socials-category {
            	display: none;
            }
-      
+
            .adb-hero-title {
             padding-left: 152px;
            }
-      
+
            .adb-hero-logo {
             height: 52px;
             top: 12px;
@@ -2829,7 +2829,7 @@ html, .header-inner a {
 [data-about-pullquote], [data-is-preview], [data-about-syndication] {
            display: none;
          }
-         
+
         #imgFull {
             display: block;
             margin: 10px auto;
@@ -2862,7 +2862,7 @@ html, .header-inner a {
 
 #imgCaption {
             text-align: center;
-            font-style: italic; 
+            font-style: italic;
             font-size: 85%;
             margin: -5px 0 10px 0;
             padding: 0;
@@ -3177,7 +3177,7 @@ html, .header-inner a {
 
 <p>For detailed guidance on transitioning to 64-bit, see <a href="https://developer.android.com/google/play/requirements/64-bit" target="_blank">Support 64-bit architectures</a>.</p>
 
-<h2><span style="font-size: x-large;">How to test</span></h2> 
+<h2><span style="font-size: x-large;">How to test</span></h2>
 <ul><ul>
 <li>The <a href="https://developer.android.com/studio/run/emulator" target="_blank">Google TV emulator</a> image for macOS devices with Apple Silicon is configured for a 64-bit userspace and may be used for app testing and verification.</li></ul><ul>
 <li>The <a href="https://en.wikipedia.org/wiki/Nvidia_Shield_TV" target="_blank">Nvidia Shield</a> (models P2571, P2897 and P2897) have both 32-bit and 64-bit userspace compatibility and may be used for testing on physical hardware. If your app contains 64-bit libraries, they will be used automatically.</li></ul><ul>

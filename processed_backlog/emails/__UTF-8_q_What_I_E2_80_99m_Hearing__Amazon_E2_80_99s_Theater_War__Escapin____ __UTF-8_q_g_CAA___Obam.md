@@ -42,7 +42,7 @@ future and takes a big bet on ethical investing, Yasmin, Robert, and Eric find t
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts…
 --------------------
@@ -182,7 +182,7 @@ festivals and their fancy logos are leveraged by prestige movies to connote an a
 Amazon may be positioning itself as the friendly neighborhood streamer to the theater industry, but like Netflix and Apple, it ultimately cares only about its global streaming ambitions, not its ability to make money in a declining business. And that incentive isn’t changing, despite the “commitment” to the multiplex. The
 question is whether Amazon can leverage theaters to achieve its actual goals more than the theaters can leverage Amazon to serve theirs, and what victory looks like for both sides.   
 
- 
+
 
 See you Monday,
 
@@ -244,6 +244,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT4tz5DtNiLzQMk1CDfBw=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -52,7 +52,7 @@ meanwhile…
 Sarah Shapiro identifies ( https://puck.news/is-the-gap-renaissance-just-a-marketing-mirage/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Gap’s make-or-break retail
 moment.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -65,7 +65,7 @@ and…
 Julie Davich
 conveys ( https://puck.news/newsletter_content/remnick-on-a-i-ari-unchained-lorne-mania-3/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the buying opportunities in Gstaad.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -83,7 +83,7 @@ meanwhile…
 Eriq Gardner unearths ( https://puck.news/two-hollywood-vaccine-mandate-cases-could-soon-face-a-jury/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 a loaded Disney culture war suit.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -91,7 +91,7 @@ WALL STREET
 Bill Cohan
 prophesies ( https://puck.news/trumps-carried-interest-insurrection/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about the carried interest threat and offers ( https://puck.news/the-latest-wall-street-trend-double-bonuses/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) some Goldman kremlinology.
 
- 
+
 
 MEDIA
 MEDIA
@@ -104,7 +104,7 @@ and…
 John Ourand
 has the latest details ( https://puck.news/espn-eyes-out-clause-in-mlb-deal/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the ESPN-MLB renegotiation… and Bristol’s NFL media deal heat ( https://puck.news/could-espn-take-redzone-off-the-nfls-hands/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -122,7 +122,7 @@ meanwhile…
 Peter Hamby presages ( https://puck.news/rick-caruso-political-ambitions-expand-beyond-los-angeles/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the
 Kamala-Caruso showdown in California.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -161,7 +161,7 @@ The Powers That Be ( https://puck.news/podcast_episode/the-mar-lago-story-behind
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 All the
 President’s Yes-Men
@@ -217,7 +217,7 @@ bullshit assassin—the kind of guy made for a new era when old political fault 
 
 Indeed, more than anything else, this realignment is the story of our time—and it’s one with endless applications across our economy. It’s also precisely what you should expect to read about in Puck.
 
- 
+
 
 Have a great weekend,
 
@@ -236,6 +236,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVCdsWIfGBsgcasznVAdM=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

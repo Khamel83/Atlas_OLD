@@ -7,7 +7,7 @@
 
 # How the Tinder App Became a Success
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![How the Tinder App Became a Success](http://www.gq.com/web/20141009025010im_/http://www.gq.com/favicon.ico)
 

@@ -95,13 +95,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="wp-ada-compliance-focus-styles-css" href="http://web.archive.org/web/20231209094420cs_/https://us.macmillan.com/wp-content/plugins/wp-ada-compliance/public-styles.css?ver=1701769068" media="all"/>
 <style id="wp-ada-compliance-focus-styles-inline-css">
 a:active, a:focus,
-button:focus, button:active, 
+button:focus, button:active,
 input:focus, input:active,
 textarea:focus, textarea:active,
 area:focus, area:active,
-select:focus, select:active,  
-iframe:focus, iframe:active, 
-details:focus, details:active, 
+select:focus, select:active,
+iframe:focus, iframe:active,
+details:focus, details:active,
 .wp-ada-elementor-title:focus, .wp-ada-elementor-title:active{
    outline: 2px solid #5E9ED6 !important;
     outline: 5px auto -webkit-browser-ring-color !important;
@@ -1123,8 +1123,8 @@ The Death of the Artist </div>
 				<div class="book-card__img">
 					<a href="{{item.url}}" class="book-card__link">
 						{{{item.bookImage}}}
-					</a> 
-				</div> 
+					</a>
+				</div>
 			{{/if}}
 			<div class="book-card__content">
 				{{#if item.title}}
@@ -1145,7 +1145,7 @@ The Death of the Artist </div>
 					{{{item.bookCategory}}}
 				{{/if}}
 			</div>
-		</div> 
+		</div>
 	</div>
 </script><script type="text/html" id="author-card">
 	<div class="author-card book-card">
@@ -1154,8 +1154,8 @@ The Death of the Artist </div>
 				<div class="book-card__img author-card__img">
 					<a href="{{item.url}}" class="book-card__link">
 						{{{item.image}}}
-					</a> 
-				</div> 
+					</a>
+				</div>
 			{{/if}}
 			<div class="book-card__content">
 				{{#if item.name}}
@@ -1168,7 +1168,7 @@ The Death of the Artist </div>
 					<p class="book-card__author p3">By {{item.contributorByLine}}</p>
 				{{/if}}
 			</div>
-		</div> 
+		</div>
 	</div>
 </script><script type="text/html" id="search-box">
 	<form action="/search" method="get" novalidate="novalidate">
@@ -1176,14 +1176,14 @@ The Death of the Artist </div>
 			<div class="select-input header-search__select-input h4">
 				<select name="searchType" required="required" class="js-search-type select-input__el" aria-label="Search Type">
 					<option value="products">Book</option>
-					<option value="contributors">Author</option> 
+					<option value="contributors">Author</option>
 				</select>
 				<div class="select-input__focus"></div>
 				<span class="select-input__icon"></span>
 				<p class="select-input__error"></p>
 			</div>
 			<div class="text-input header-search__text-input">
-				<input type="search" name="q" id="search-field" autocapitalize="sentences" placeholder="Search for books, author..." class="text-input__el supafolio-search-box__input" /> 
+				<input type="search" name="q" id="search-field" autocapitalize="sentences" placeholder="Search for books, author..." class="text-input__el supafolio-search-box__input" />
 				<div class="text-input__focus"></div>
 				<label for="searchQuery" class="text-input__label">Search for books, authors...</label>
 				<p class="text-input__error p1" style="display: none;">There was an error.</p>
@@ -1213,18 +1213,18 @@ The Death of the Artist </div>
 		</div>
 		<div class="book-grid__grid-empty-image">
 			<picture data-module="image" class="img fit-cover book-grid__grid-empty-image-wrapper">
-				<img 
+				<img
 				src="http://web.archive.org/web/20231209094420/https://us.macmillan.com/wp-content/themes/macmillan-publishers/src/assets/images/Book_Quiz_Person.png"
 				alt="Try searching for something else!" class="img__el is-fallback" />
-			</picture> 
-		</div> 
+			</picture>
+		</div>
 	</div>
 </script> <script>
-if(jQuery){	  
-jQuery(document).ready(function($){	
+if(jQuery){
+jQuery(document).ready(function($){
 jQuery(window).load(function(event) {
 
-//setTimeout(function(){	
+//setTimeout(function(){
 	jQuery('i[class*=fa-]').each(function( ) {
 
 if((jQuery(this).attr('title') === undefined || jQuery(this).attr('title') === '')
@@ -1235,15 +1235,15 @@ if((jQuery(this).attr('title') === undefined || jQuery(this).attr('title') === '
 //}, 500);
 
 });
-}); 
+});
 }
 </script>
 <script>
-if(jQuery){		  
-jQuery(document).ready(function($){	  
+if(jQuery){
+jQuery(document).ready(function($){
 jQuery('a[href*="#"]:not([href="#"])').on('click', function(event){
 
-// add exception for accordions	
+// add exception for accordions
 var tabsnav = '';
 if(jQuery(this).parent().parent() !== 'undefined')
 var tabsnav = jQuery(this).parent().parent().attr('class');
@@ -1254,17 +1254,17 @@ var wpada_selectedid = jQuery(this).attr('href');
 
 // removed check for https because it was making links in current page not change focus
 //if(wpada_selectedid.indexOf("#") != '-1' && wpada_selectedid.indexOf("http") == '-1' ){
-	
+
 if(wpada_selectedid.indexOf("#") != '-1'){
 event.preventDefault();
 jQuery("html").css("scroll-behavior",'smooth');
 
 window.location = jQuery(this).attr('href');
-}  
+}
 } // end exception for accordions
 
-}); 
-}); 
+});
+});
 }
 </script>
 <script>
@@ -1289,10 +1289,10 @@ setTimeout(function(){
 jQuery( ".flexslider" ).each(function() {
 
 // add region role and label to wrapper
-jQuery( this ).attr('role','region');     
+jQuery( this ).attr('role','region');
 jQuery( this).attr('aria-label','image carousel');
 
-// add navigation role and label to slider navigation  
+// add navigation role and label to slider navigation
 jQuery(this).find(".flex-control-nav" ).attr('role','navigation');
 jQuery(this).find(".flex-control-nav" ).attr('aria-label','previous and next navigation');
 jQuery(this).find(".flex-control-nav" ).attr('aria-label','pagination');
@@ -1314,7 +1314,7 @@ wp_ada_compliance_swiperInstance = wp_ada_compliance_imageCarousel.data( 'flexsl
 // add markings and label slides
 	var totalslides = 0;
 	var slidenumber = 1;
-	totalslides = jQuery(this).find('.slides li').length; 
+	totalslides = jQuery(this).find('.slides li').length;
 	jQuery(this).find('.slides li').each(function(key,slide) {
 
 // remove aria-live from parent
@@ -1322,9 +1322,9 @@ jQuery(slide).parent().removeAttr('aria-live');
 
 if(slidenumber < totalslides) slidenumber++;
 		else slidenumber =1;
-		
-	jQuery( slide ).attr('aria-label','slide '+slidenumber+' of '+totalslides);	
-	
+
+	jQuery( slide ).attr('aria-label','slide '+slidenumber+' of '+totalslides);
+
 	jQuery(slide ).attr('role','group');
 
 var alttext = '';
@@ -1332,7 +1332,7 @@ var alttext = '';
 	if(jQuery(slide).find('a').length >0 && jQuery(slide).find('img').length >0){
 		  alttext = jQuery(slide).find('img').attr('alt');
 		//if(alttext === '' || alttext === 'undefined') alttext = 'Alt Text Not Provided';
-	
+
 	if(jQuery(slide).find('a').html().search('<span class="screen-reader-text">'+alttext+'</span>') === -1  && alttext != '')
 	jQuery(slide).find('a').append('<span class="screen-reader-text">'+alttext+'</span>');
 	jQuery(slide).find('img').attr('aria-hidden','true');
@@ -1349,7 +1349,7 @@ var alttext = '';
 	}
 	jQuery(slide).attr('aria-atomic','true');
     jQuery(slide).find('a').removeAttr('tabindex');
-   } else{		
+   } else{
     jQuery(slide).attr('aria-hidden','true');
     jQuery(slide).attr('aria-current','false');
 	if(typeof(wp_ada_compliance_swiperInstance) !== "undefined" && wp_ada_compliance_swiperInstance.started !== true){
@@ -1361,18 +1361,18 @@ var alttext = '';
 	jQuery(slide).attr('aria-atomic','true');
    jQuery(slide).find('a').attr('tabindex','-1');
    }
-	  
+
 	});
 
 // add labels to navigation
 	jQuery(this).find('.flex-control-paging li').each(function(key,carousel) {
 	slidenumber = jQuery( carousel ).find('a').html();
-	jQuery( carousel ).find('a').attr('aria-label','Go to slide '+slidenumber);	  
+	jQuery( carousel ).find('a').attr('aria-label','Go to slide '+slidenumber);
 	});
 
 // monitor for slide to change and reset aria-hidden and aria-current values
 if(typeof(wp_ada_compliance_swiperInstance) !== "undefined" ){
-	
+
 wp_ada_compliance_swiperInstance.on('DOMSubtreeModified', function (current, previous) {
 
 if(wp_ada_compliance_swiperInstance.stopped === true){
@@ -1395,7 +1395,7 @@ jQuery(slide).attr('aria-hidden','true');
    jQuery(slide).find('a').attr('tabindex','-1');
    jQuery(slide).attr('aria-live','off');
    }
- 
+
 });
 
 }, 500);
@@ -1441,10 +1441,10 @@ setTimeout(function(){
 jQuery( ".owl-carousel" ).each(function() {
 
 // add region role and label to wrapper
-jQuery( this ).attr('role','region');     
+jQuery( this ).attr('role','region');
 jQuery( this).attr('aria-label','image carousel');
 
-// add navigation role and label to slider navigation  
+// add navigation role and label to slider navigation
 jQuery(this).find(".owl-nav" ).attr('role','navigation');
 jQuery(this).find(".owl-nav button" ).removeAttr('role');
 jQuery(this).find(".owl-nav" ).attr('aria-label','previous and next navigation');
@@ -1453,7 +1453,7 @@ jQuery(this).find(".owl-dots" ).attr('aria-label','pagination');
 // move previous and next navigation buttons before slides
 	jQuery(this).prepend(jQuery(this).find(".owl-nav" ).detach());
 	jQuery(this).find(".owl-nav button" ).css('z-index','20000');
-	
+
 	// add pause button
      jQuery(this).prepend('<div class="wp-ada-compliance-carousel-pause"><button class="wp-ada-compliance-carousel-stop" aria-label="play" ><i class="fas fa-play"></i> </button><button class="wp-ada-compliance-carousel-start" aria-label="pause"><i class="fas fa-pause"></i></button></div>');
 
@@ -1462,7 +1462,7 @@ if(typeof owl_carousel_autoplay !== 'undefined' && owl_carousel_autoplay === tru
 	 }else {
 		jQuery('.wp-ada-compliance-carousel-start').hide();
 	 }
- 
+
 	jQuery(".wp-ada-compliance-carousel-pause button" ).attr("aria-live",'off');
 	jQuery(".wp-ada-compliance-carousel-pause button" ).attr("aria-hidden",'true');
 	jQuery(".wp-ada-compliance-carousel-pause button" ).attr("tabindex",'-1');
@@ -1470,21 +1470,21 @@ if(typeof owl_carousel_autoplay !== 'undefined' && owl_carousel_autoplay === tru
 // add markings and label slides
 	var totalslides = 0;
 	var slidenumber = 1;
-	totalslides = jQuery(this).find('.owl-item').length; 
+	totalslides = jQuery(this).find('.owl-item').length;
 	jQuery(this).find('.owl-item').each(function(key,slide) {
 
 if(slidenumber < totalslides) slidenumber++;
 		else slidenumber =1;
-		
-	jQuery( slide ).attr('aria-label','slide '+slidenumber+' of '+totalslides);	
-	
+
+	jQuery( slide ).attr('aria-label','slide '+slidenumber+' of '+totalslides);
+
 	jQuery(slide ).attr('role','group');
 
 var alttext = '';
 	// move alt text to link and hide image to alt text from being read multiple times
 	if(jQuery(slide).find('a').length >0 && jQuery(slide).find('img').length >0){
 		  alttext = jQuery(slide).find('img').attr('alt');
-	
+
 	if(jQuery(slide).find('a').html().search('<span class="screen-reader-text">'+alttext+'</span>') === -1  && alttext != '')
 	jQuery(slide).find('a').append('<span class="screen-reader-text">'+alttext+'</span>');
 	jQuery(slide).find('img').attr('aria-hidden','true');
@@ -1497,20 +1497,20 @@ var alttext = '';
      jQuery(slide).attr('aria-live','off');
 	jQuery(slide).attr('aria-atomic','true');
     jQuery(slide).find('a').removeAttr('tabindex');
-   } else{		
+   } else{
     jQuery(slide).attr('aria-hidden','true');
     jQuery(slide).attr('aria-current','false');
     jQuery(slide).attr('aria-live','off');
 	jQuery(slide).attr('aria-atomic','true');
    jQuery(slide).find('a').attr('tabindex','-1');
    }
-	  
+
 	});
 
 // add labels to navigation
 	jQuery(this).find('.owl-dot').each(function(key,carousel) {
 	slidenumber = key+1;
-	jQuery( carousel ).attr('aria-label','Go to slide '+slidenumber);	  
+	jQuery( carousel ).attr('aria-label','Go to slide '+slidenumber);
 	});
 
 // monitor for slide to change and reset aria-hidden and aria-current values
@@ -1521,8 +1521,8 @@ if(owl_navigation_clicked){
 var currentItem = e.item.index;
 
 // add current markings and hide images that are not visible using aria-hidden
-jQuery(this).find('.owl-item').each(function( key, slide ) {    
-if(key === currentItem){  
+jQuery(this).find('.owl-item').each(function( key, slide ) {
+if(key === currentItem){
   jQuery(slide).attr('aria-current','true');
   jQuery(slide).attr('aria-hidden','false');
 

@@ -9,7 +9,7 @@ Advertisement
 
 #### Calvin and Hobbes
 
-By Bill Watterson](/web/20221013001628/https://www.gocomics.com/calvinandhobbes) 
+By Bill Watterson](/web/20221013001628/https://www.gocomics.com/calvinandhobbes)
 
 Follow
 
@@ -73,7 +73,7 @@ January 17, 2018](/web/20221013001628/https://www.gocomics.com/comics/lists/1643
 #### Featured Comment
 
 [Comment Policy](https://web.archive.org/web/20221013001628/https://www.gocomics.com/help/comment_policy)
-[Hide All Comments](/web/20221013001628/https://www.gocomics.com/comments/show/feature_item/2827562) 
+[Hide All Comments](/web/20221013001628/https://www.gocomics.com/comments/show/feature_item/2827562)
 [Show All Comments](/web/20221013001628/https://www.gocomics.com/comments/show/feature_item/2827562)
 
 1. [![8d4e8ad6 4494 4665 8009 edd51c3035f8](https://web.archive.org/web/20221013001628im_/https://avatar.amuniversal.com/user_avatars/avatars_gocomicsver3/1219000/1219345/8D4E8AD6-4494-4665-8009-EDD51C3035F8.jpeg)](/web/20221013001628/https://www.gocomics.com/profile/1219345 "View Храм С.О.Д. (Templo S.U.D. ucraniano)'s Profile")

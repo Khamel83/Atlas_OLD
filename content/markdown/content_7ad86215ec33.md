@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >The Death of the Hunch</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Campaigns used to guess which ads were most effective. Now they can prove it. How Obama’s embrace of empiricism could swing the 2012 race.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -901,7 +901,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="145"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-1@published"
-  
+
 >Two weeks ago, top Obama campaign advisers Jim Messina and David Axelrod announced a $25 million national television buy, a figure rightfully <a href="http://www.huffingtonpost.com/2012/05/07/obama-campaign-ads-25-million_n_1496063.html">acknowledged</a> with a sense of wonder, given that there were still six months to go before Election Day. But anyone waiting for coast-to-coast shock-and awe must be disappointed. The ads have rolled out at a desultory trickle: a <a href="http://abcnews.go.com/blogs/politics/2012/05/obama-swing-state-ad-touts-first-term-record/">nine-state buy</a> for a 60-second overview of Obama’s first-term successes; <a href="http://abcnews.go.com/blogs/politics/2012/05/obama-focuses-on-education-in-florida-nevada-tv-ad/">a Spanish-language health-care ad</a> running in Florida and another in English about higher-education costs appearing there and in Nevada; and a long ad about Bain Capital that reportedly cost <a href="http://abcnews.go.com/blogs/politics/2012/05/new-obama-ad-steel-to-air-one-day-only/">less than $100,000</a> to place in markets across five states. In other words, the Obama team has broken nearly every piece of received wisdom that media consultants like to offer about the intensity and duration necessary for television ads to be successful in the modern era.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -912,14 +912,14 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="125"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-2@published"
-  
+
 >But scattered, unsustained messaging has become the unlikely hallmark of the well-funded Chicago campaign. The strategy was put into play even before Romney emerged as the Republican nominee. There was the late-November <a href="http://my.news.yahoo.com/obama-campaign-launches-first-ads-161923445.html">advertising run on satellite systems</a> that the campaign called “tiny,” and then silence until a brief January <a href="http://politicalticker.blogs.cnn.com/2012/01/18/obama-launches-first-re-election-tv-ads/">broadcast-buy</a> across six states focusing on energy, ethics, and the Koch brothers. An isolated flight of brochures about health-care legislation hit mailboxes in March, timed to Supreme Court arguments on the subject. In voluminous (if not easily audited by outsiders) online ads and targeted email blasts, the campaign has addressed seemingly every topic or theme imaginable: taxes paid by oil companies, the “war on women,” and a variety of local issues of interest in battleground states.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="113"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-3@published"
-  
+
 >If these forays seem random, it’s because at least some of them almost certainly are. To those familiar with the campaign’s operations, such irregular efforts at paid communication are indicators of an experimental revolution underway at Obama’s Chicago headquarters. They reflect a commitment to using randomized trials, the result of a flowering partnership between Obama’s team and the <a href="http://www.nytimes.com/2010/10/31/magazine/31politics-t.html?_r=1&pagewanted=all">Analyst Institute</a>, a secret society of Democratic researchers committed to the practice, according to several people with knowledge of the arrangement. (Through a spokeswoman, Analyst Institute officials declined to comment on the group’s work with Obama and referred all questions to the campaign’s press office, which did not respond to an inquiry on the subject.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -998,7 +998,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="100"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-4@published"
-  
+
 >The Obama campaign’s “experiment-informed programs”—known as EIP in the lefty tactical circles where they’ve become the vogue in recent years—are designed to track the impact of campaign messages as voters process them in the real world, instead of relying solely on artificial environments like focus groups and surveys. The method combines the two most exciting developments in electioneering practice over the last decade: the use of randomized, controlled experiments able to isolate cause and effect in political activity and the <a href="https://www.slate.com/articles/news_and_politics/victory_lab/2012/01/romney_s_iowa_win_it_took_a_lot_more_than_money_.html">microtargeting statistical models</a> that can calculate the probability a voter will hold a particular view based on hundreds of variables.</p>
 
 <figure
@@ -1082,28 +1082,28 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-6@published"
-  
+
 >Obama’s campaign has already begun rolling out messages to small test audiences. Analysts then rely on an extensive, ongoing microtargeting operation to discern which slivers of the electorate are most responsive, and to which messages. This cycle of trial and error offers empirically minded electioneers an upgrade over the current régime of approaching voters based on hunches.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-7@published"
-  
+
 >“In the first experiment you probably have no idea,” says Avi Feller, a Harvard graduate student and former Obama White House aide who has written about political experiments. “But by the 20<sup>th</sup> randomized trial you can start to say ‘we’ve seen this group be more responsive.’ You can start to do better than just wild guesses.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="1"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-8@published"
-  
+
 >***</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="155"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-9@published"
-  
+
 >The Analyst Institute was formed in 2007 to organize an expanding research portfolio produced by liberal consultants and institutions that were adopting techniques from medicine and the social sciences to better run campaigns. Many of the group’s early experiments focused on voter turnout, often tracking the impact of motivational techniques that were informed by behavioral psychology. Experimenters would randomly assign voters to different get-out-the-vote treatments and measure after an election whether one group turned out at a higher rate than the other. This was relatively straightforward and inexpensive—whether someone votes can be tracked on publicly available electoral rolls—and required only a campaign or institution willing to hold out a control sample for tests. But even this was too demanding a burden for many political players: While institutions like the AFL-CIO and Rock the Vote signed up, candidates were typically unwilling to make such a commitment for research that wouldn’t yield insights until after the election.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1182,14 +1182,14 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="107"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-10@published"
-  
+
 >While turnout experiments were good for isolating whether an individual phone call, door knock, or piece of mail could mobilize citizens, they couldn’t track how voters chose between candidates. For that, campaigns continued to rely on many of the same techniques they had used for measuring public opinion for a half-century. They would look at the issues that self-described “undecided” voters said mattered most to them, or what those people saw as the strengths and weaknesses of each of the candidates. Researchers would typically gather small samples of those voters for focus groups, to get a feel for the language and images that they would respond to.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="85"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-11@published"
-  
+
 >From those qualitative and quantitative sources, media strategists would develop specific messages. To test them, pollsters would present voters with an argument or piece of information (the deficit has increased under Obama, Romney put a dog on the roof of his car) and ask if it made them “more or less likely” to support the candidate. In some cases, pollsters would ask respondents how they planned to vote, then read them descriptions of the candidates and ask the vote-choice question again to see who moved.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1214,7 +1214,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="87"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-12@published"
-  
+
 >The messages that were most persuasive in polls typically became the stuff of television spots, candidate speeches, online ads, direct-mail pieces, and robocalls. In the heat of a race, campaigns of any significant size would run tracking polls, which allow strategists to spot daily movement they could attribute to campaign activity. But the polls lacked the ability to account for cause and effect. Did the candidate’s numbers move because of her new TV ad about the economy or her new mail piece about abortion—or despite them both?</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1239,7 +1239,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="128"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-13@published"
-  
+
 >The Analyst Institute convinced many of the left’s leading institutions that randomized-control trials could be adapted to answer such questions empirically. In March 2008, after John McCain had become his party’s nominee and as Democrats still struggled to pick theirs, the AFL-CIO wanted to determine how to most effectively define the Republican in the eyes of its membership. Working with the Analyst Institute, the AFL’s political department developed three different direct-mail attacks on McCain. One highlighted the senator’s economic-policy agenda and one (called “McBush”) portrayed him as a clone of the unpopular incumbent. A third was presented a testimonial from an old white union electrician and navy veteran who conceded a McCain strength at the outset. “War hero? Absolutely,” the veteran says. “Voice for working families? No way.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1282,7 +1282,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="108"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-14@published"
-  
+
 >The AFL assigned Ohio union members to one of the three programs, and after mailing them conducted polling interviews with around 1,000 people in each group. Recipients of the “policy” and “McBush” mailers seemed unmoved by the messages they contained: around 38 percent of each universe supported McCain, almost indistinguishable from his support within a control group that had received no contact at all from the AFL. But the “testimonial” left its mark on the Republican candidate: only 32 percent of its recipients said they supported McCain, a drop of 5.6 percent against the control. The AFL made the testimonial a central part of its mail program nationwide.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1325,7 +1325,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="104"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-15@published"
-  
+
 >But the AFL was measuring only the average impact of each message across the entire swath that received it. What if certain types of people were more likely to respond to specific messages than others? Elsewhere, political statisticians had succeeded in developing new methods of disaggregating the electorate so that campaigns could target individual voters instead of entire precincts and media markets or broad demographic categories. Many settled on the statistical models known collectively as microtargeting: algorithms weighing as many as 1,000 different personal variables to generate probabilities predicting whether individual citizens would vote, whom they would support, and their views on specific issues.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1350,21 +1350,21 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="86"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-16@published"
-  
+
 >But many attending the Analyst Institute’s monthly lunch sessions were bothered by the fact that those models were still built on the spine of traditional polling, which relied on voters to describe how open-minded they would be to new arguments. They wondered whether it would be possible to fuse the real-world empiricism of experiments with the granular profiles made possible by microtargeting. What if campaigns tried out their messages on voters, then used their databases to identify the distinctive characteristics of the people whose minds changed?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="1"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-17@published"
-  
+
 >***</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="89"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-18@published"
-  
+
 >In the summer of 2010, the Democratic women’s group EMILY’s List was eager to help state treasurer Robin Carnahan in her run for an open Missouri senate seat, but wasn’t sure what types of arguments they should make on her behalf. The group was interested in communicating with rural independent women in the state, but wasn’t sure what it ought to say. Would it be more effective to present voters with hard-edged attacks on Carnahan’s opponent, Congressman Roy Blunt, or a more balanced account of the candidates’ contrasting positions?</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1425,14 +1425,14 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="114"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-19@published"
-  
+
 >EMILY’s List had been one of the groups involved in the Analyst Institute’s launch, and the two collaborated again on an experiment-informed program to refine its pro-Carnahan tactics. The design was straightforward: EMILY’s List would have its consultant prepare two different direct-mail flights of four pieces each. One would be comparative (“Here’s where Congressman Roy Blunt and Robin Carnahan stand on working families”) and the other purely negative focusing on the Republican’s known vulnerabilities (“Blunt has proven he’s not on our side” and “Blunt doesn’t know the difference between lobbying and legislating”). A sample of rural independent women voters would be randomly selected, and assigned to receive one of the two flights of mail.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="62"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-20@published"
-  
+
 >On Aug. 31, after all four pieces of mail had been delivered, the Analyst Institute commissioned polling interviews with 5,912 voters in the state. Among those who had received the negative mail, 38.3 percent supported Carnahan—one point ahead of those who received the comparative message and three points ahead of a control group that received no mail at all from EMILY’s List.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1457,7 +1457,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="105"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-21@published"
-  
+
 >Experimenters then set out to identify the attributes that distinguished voters who had been moved by the negative message toward supporting Carnahan. Using census data, they learned that almost all the movement had come from voters in neighborhoods in the third socioeconomic quartile. Women living in precincts with an average annual household income between $37,500 and $45,000 had increased their support for Carnahan by over 10 percent, while the other three quartiles moved barely at all. Other predictive characteristics were revealed as well: Those in areas with the densest populations moved most, as did those in the precincts with the highest concentration of single parents.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1500,21 +1500,21 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="53"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-22@published"
-  
+
 >By Sept. 5, EMILY’s List not only had the confidence to know that its negative mail would have more impact than the comparative material, but could begin trawling through a Missouri voter file to pluck the targets most likely to be persuaded by it: women in upper-middle class towns crowded with single parents.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="1"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-23@published"
-  
+
 >***</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="71"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-24@published"
-  
+
 >Four years ago, the Obama campaign used experimental methods to test nearly all of its online communications, randomizing the design of Web pages, the timing of text message blasts, and the language of email solicitations to measure their relative effectiveness. (Dan Siroker, who worked online analytics for Obama in 2008 and now counts the re-election campaign as a client of his company Optimizely, describes the process known as A/B testing <a href="http://blog.optimizely.com/how-obama-raised-60-million-by-running-an-exp">here</a>.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1557,7 +1557,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="82"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-25@published"
-  
+
 >But that ethic never fully translated offline, where effects are much harder to measure than tallying clicks. During the summer of 2008, Obama advisers had casual interactions with Analyst Institute officials and ultimately integrated many of the group’s best practices for get-out-the-vote tactics. The campaign briefly considered including an experimental component into its otherwise robust data efforts, but the compressed period between the primaries and the general election offered little time to upend a national communications strategy for the sake of testing.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1582,7 +1582,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="61"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-26@published"
-  
+
 >This campaign is a different story. The experimental ethic was embraced by campaign leadership at the outset of the re-election effort. The formal arrangement with the Analyst Institute, which appears (according to federal filings) to cover a $22,000 monthly retainer, marks the group’s most significant engagement ever with a candidate’s campaign. An institute analyst is now based at the Chicago headquarters.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1607,14 +1607,14 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="119"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-27@published"
-  
+
 >The Obama campaign’s long reach and big budget should significantly expand the frontiers of experimental politics, which have been limited by a tax code that prevents academic and nonprofit researchers from disseminating partisan messages. A presidential campaign faces no such restriction, and political operatives familiar with testing methods believe it should be possible to randomize Obama’s messages not only by household (as in the EMILY’s List test) but by larger political units—like media markets or cable systems—to track the effects of mass media. (<a href="http://www.thevictorylab.com/">Rick Perry’s 2006 gubernatorial re-election</a> randomized its broadcast buys over a three-week period, but the goal of the project was to test the impact of advertising at different levels and not the effectiveness of specific messages.)</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="95"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-28@published"
-  
+
 >Plenty of instinct and art remain in the Obama campaign’s approach to message development. The early stages of the process resemble the traditional model, with media strategists relying on massive amounts of conventional polling from outside firms to track the electorate’s mood and campaign dynamics, and on focus groups to add impressionistic texture and a venue to audition specific images and language. The ads and direct-mail brochures that emerge from this process can then be assigned to small groups of voters under experimental conditions, pitted against one another in various combinations and across different audiences.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1693,21 +1693,21 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="106"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-29@published"
-  
+
 >That full testing cycle can take around two weeks. In the case of mail, that includes the time it takes to design, print, and mail a piece—and a window for polling before and after to see what impact it had on opinions. Then analysts can model the attributes of those who were moved by the mail. Is an ad about the auto bailout more likely to persuade upscale or downscale voters? Did younger voters respond differently than older ones to information about particular provisions of the health-care bill? Are attacks on Romney’s Bain record more salient with those leaning toward Obama or those leaning toward Romney?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="87"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-30@published"
-  
+
 >Before making strategic adjustments based on the experimental findings, however, analysts have to consider whether the differences they find among voters really reflect the workings of the campaign’s messages and not just statistical noise. “The key issue when dealing with subgroup analysis is it gets very easy to keep looking until you find something—what statisticians call ‘data-dredging,’ ” says Feller. “I could go through each variable: Do women respond differently than men? Do 85-year-old people respond differently than 75-year-olds? Do cat owners respond differently than dog owners?”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="68"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-31@published"
-  
+
 >There is still, then, room at Obama’s Chicago headquarters for old-fashioned political intuition. What looks like a spring of experimentation will soon give way to a summer of analysis and strategic adjustments. Statisticians will find patterns, and political hands—relying in part on findings from other, more traditional methods—will discern whether those patterns can be exploited, and perhaps test them again. By fall, the hypotheses will outnumber the hunches.</p>
 
 <div
@@ -1772,7 +1772,7 @@ width="250"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1807,7 +1807,7 @@ width="250"
   class="slate-adnode"
   data-adnode="news_and_politics/victory_lab"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-dd1e7f825cf5db845e130a16a3a6972c-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1858,7 +1858,7 @@ width="250"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1883,7 +1883,7 @@ width="250"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2393,7 +2393,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

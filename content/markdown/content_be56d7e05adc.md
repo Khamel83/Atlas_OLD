@@ -39,7 +39,7 @@
 </script>
 
 <!-- OsanoScriptEnabled: true -->
-    
+
         <link rel="preload" href="http://web.archive.org/web/20250618225055/https://cmp.osano.com/AzZdRbSORDOOzF9W/67a788d8-9344-4c9b-a3c2-89b5073ee231/osano.js" as="script">
         <script src="http://web.archive.org/web/20250618225055js_/https://cmp.osano.com/AzZdRbSORDOOzF9W/67a788d8-9344-4c9b-a3c2-89b5073ee231/osano.js" nonce="951e5932a24c22ea-SJC"></script>
         <script nonce="951e5932a24c22ea-SJC">
@@ -84,54 +84,54 @@
 
 <script id="adobeDigitalData" registrationcompleted="false">window.adobeDataLayer = window.adobeDataLayer || [];
 window.adobeDataLayer.push({"site":{"environment":"LIVE","hub":"pericles","locale":"en-US"},"user":{"login-status":"guest","admin-type":"non-admin","identities":[{"type":"SmartGroupUser","uuid":"b238ab85-6bb4-49e4-84ca-a0d9f3ee5a35"},{"type":"SmartGroupUser","uuid":"89490c0a-0b70-4215-8ec1-6aa771253899"},{"type":"UserAgentUser","uuid":"0e2f8739-e7e0-49ba-9073-8af413ddb0f2"},{"type":"RegionUser","uuid":"3c5060a1-6620-438f-862b-902a4d4cd4ac"},{"type":"ReferrerUser","uuid":"40301140-49d1-406a-876e-057b249dcb52"},{"type":"ReferrerUser","uuid":"5a2c1d70-1255-4a45-95f3-a3aa3a2771fb"},{"type":"SmartGroupUser","uuid":"da88d808-3f7b-4bde-9210-10862b6d121b"},{"type":"SmartGroupUser","uuid":"8c72a733-117a-4bc9-a682-13475f13e6a3"},{"type":"ReferrerUser","uuid":"6401b279-b825-4f41-a389-04e29feb967f"},{"type":"SmartGroupUser","uuid":"b7acda8c-ce18-451b-a68d-e14b72f9b5b8"},{"type":"WebCrawlerUser","uuid":"e6a54e12-b843-452b-a6ac-eb8ea8e20461"},{"type":"SmartGroupUser","uuid":"b2dbfe27-ecae-4bb6-bb0d-d75e5caa3762"},{"type":"BasicGroup","uuid":"2f6750d5-f13f-4356-939b-048ac1423e64"}]},"content":{"item":{"title":"Prevention and reversal of dental caries: role of low level fluoride","doi":"10.1111/j.1600-0528.1999.tb01989.x","access":"no","type":"article","topics":[{"taxonomyUri":"global-subject-codes","topicLabel":"Community Dentistry \u0026 Public Health","topicUri":"dn72"},{"taxonomyUri":"global-subject-codes","topicLabel":"Dental Professional Practice","topicUri":"dn70"},{"taxonomyUri":"global-subject-codes","topicLabel":"General Dentistry","topicUri":"dn00"},{"taxonomyUri":"global-subject-codes","topicLabel":"DENTISTRY","topicUri":"dn"}],"published-date":"2007-02-14","access-denial":"no","format-available":["Abstract","Cited by","First page image","PDF","References"],"format-viewed":"abstract","auth-type":"license"},"group":{"doi":"10.1111/com.1999.27.issue-1","access":"no","type":"issue","volume":"27","issue":"1","published-date":"1999-02-01","topics":[{"taxonomyUri":"global-subject-codes","topicLabel":"Community Dentistry \u0026 Public Health","topicUri":"dn72"},{"taxonomyUri":"global-subject-codes","topicLabel":"Dental Professional Practice","topicUri":"dn70"},{"taxonomyUri":"global-subject-codes","topicLabel":"General Dentistry","topicUri":"dn00"},{"taxonomyUri":"global-subject-codes","topicLabel":"DENTISTRY","topicUri":"dn"}]},"series":{"title":"Community Dentistry and Oral Epidemiology","doi":"10.1111/(ISSN)1600-0528","access":"no","type":"journal","code":"16000528","eissn":"1600-0528","topics":[{"taxonomyUri":"kevel-site-ids","topicLabel":"Site ID for journal: (Community Dentistry and Oral Epidemiology)","topicUri":"1293746"},{"taxonomyUri":"gpt-zonename","topicLabel":"commun-dent-oral-epidem_CDOE","topicUri":"commun-dent-oral-epidem_cdoe"},{"taxonomyUri":"global-subject-codes","topicLabel":"Community Dentistry \u0026 Public Health","topicUri":"dn72"},{"taxonomyUri":"global-subject-codes","topicLabel":"Dental Professional Practice","topicUri":"dn70"},{"taxonomyUri":"global-subject-codes","topicLabel":"General Dentistry","topicUri":"dn00"},{"taxonomyUri":"global-subject-codes","topicLabel":"DENTISTRY","topicUri":"dn"},{"taxonomyUri":"gpt-sitename","topicLabel":"wly.dentistry_000041","topicUri":"wly.dentistry_000041"},{"taxonomyUri":"programmatic-ads-support","topicLabel":"Programmatic Ads Enabled","topicUri":"programmatic-ads-enabled"},{"taxonomyUri":"gpt-publisherid","topicLabel":"21618997260","topicUri":"21618997260"},{"taxonomyUri":"kevel_site_ids","topicLabel":"Site ID for journal: (Community Dentistry and Oral Epidemiology)","topicUri":"1293746"}]}},"page":{"brand":"wol","type":"article","primary-section":"journal","secondary-section":"article","tertiary-section":"abs"}});</script>
-                    
-                
-            
-        
-    
-        
-            
-                
-                
-                
-                
-                
-            
-        
-    
-        
-            
-                
-                
-                
-                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <script type="text/javascript">var $DoubleClickSite = "wly.dentistry_000041";
 var $DoubleClickZone = "commun-dent-oral-epidem_cdoe";
 var $WileyGooglePublisherID = 21618997260;
 var $GooglePublisherCategory = "/21618997260/wly.dentistry_000041/commun-dent-oral-epidem_cdoe";</script>
-                    
-                
-            
-        
-    
-        
-            
-                
-                
-                
-                    
-                    
-                    
-                
-            
-        
-    
-        
-            
-                
-                
-                
-                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <meta name="robots" content="noarchive"/><meta name="description" content="Dental caries is a bacterially based disease that progresses when acid produced by bacterial action on dietary fermentable carbohydrates diffuses into the tooth and dissolves the mineral, that is, de..."/>
 
 <meta property="og:title" content="Prevention and reversal of dental caries: role of low level fluoride"/>
@@ -179,7 +179,7 @@ var $GooglePublisherCategory = "/21618997260/wly.dentistry_000041/commun-dent-or
     if (!$WileyGooglePublisherID) {
         var $WileyGooglePublisherID = 21618997260;
     };
-	
+
     if (!$DoubleClickSite || $DoubleClickSite === "undefined-site") {
         switch ("pericles") {
             case "acsess.onlinelibrary.wiley.com":
@@ -206,7 +206,7 @@ var $GooglePublisherCategory = "/21618997260/wly.dentistry_000041/commun-dent-or
         ;
     }
     ;
- 
+
     if (!$DoubleClickZone || $DoubleClickZone === "undefined-zone") {
         switch ("pericles") {
             case "acsess.onlinelibrary.wiley.com":
@@ -414,11 +414,11 @@ if(isProgrammaticAdsEnabled) {
 </style>
 
 <!-- Get whether TNSI is in live or test mode -->
-    
+
     <!-- Get the configured TNSI Javascript version number -->
-    
+
     <!-- Get the configured TNSI MerchantID -->
-    
+
     <!-- Add "TEST" to beginning of merchant ID when running in test mode -->
 
 <!-- loading Javascript for using the persistence Service -->
@@ -632,7 +632,7 @@ if (isBrowserChrome()) {
 </nav>
 
 <div id="pb-page-content" data-ng-non-bindable>
-                
+
             <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
 
 <div data-widget-def="pageHeader" data-widget-id="62175478-b98a-43d5-90f2-1f2045ac1a7e" class="pageHeader">
@@ -680,12 +680,12 @@ if (isBrowserChrome()) {
 <div data-widget-def="eCommerceCartIndicatorWidget" data-widget-id="4a9f7c04-a273-4a25-91fb-8e7bd9970288" class="cart-indicator__wrapper">
 
 <div class="eCommerceCartIndicatorWidget">
-    
-        
-        
-            
-        
-    
+
+
+
+
+
+
 </div>
 
 </div>
@@ -709,16 +709,16 @@ if (isBrowserChrome()) {
                         Individual login
                     </a>
                 </li>
-                
+
                     <li><i aria-hidden="true" class="icon-account_balance"></i>
                         <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/ssostart?redirectUri=%2Fdoi%2Fabs%2F10.1111%2Fj.1600-0528.1999.tb01989.x">
-                            
+
                             Institutional login
                         </a>
                     </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/registration?redirectUri=%2Fdoi%2Fabs%2F10.1111%2Fj.1600-0528.1999.tb01989.x&amp;acdl-redirect=true" class="btn" redirecturi="/doi/abs/10.1111/j.1600-0528.1999.tb01989.x" acdl-redirect="true" data-acdl-registration--step="registration initiated" data-acdl-event="registration-initiated" data-acdl-registration--cta-region="header">
                         REGISTER
@@ -813,7 +813,7 @@ a2a_config.thanks = {
    <section class="article-section article-section__abstract" lang="en" data-lang="en" lang-name="English" id="section-1-en">
       <h3 class="article-section__header main abstractlang_en main">Abstract –</h3>
       <div class="article-section__content en main">
-         
+
          <p>Dental caries is a bacterially based disease that progresses when acid produced by bacterial action on dietary fermentable carbohydrates diffuses into the tooth and dissolves the mineral, that is, demineralization. Pathological factors including acidogenic bacteria (mutans streptococci and lactobacilli), salivary dysfunction, and dietary carbohydrates are related to caries progression. Protective factors which include salivary calcium, phosphate and proteins, salivary flow, and fluoride in saliva can balance, prevent or reverse dental caries. Fluoride works primarily via topical mechanisms which include (1) inhibition of demineralization at the crystal surfaces inside the tooth, (2) enhancement of remineralization at the crystal surfaces (the resulting remineralized layer is very resistant to acid attack), and (3) inhibition of bacterial enzymes. Fluoride in drinking water and in fluoride-containing products reduces tooth decay via these mechanisms. Low but slightly elevated levels of fluoride in saliva and plaque provided from these sources help prevent and reverse caries by inhibiting demineralization and enhancing remineralization. The level of fluoride incorporated into dental mineral by systemic ingestion is insufficient to play a significant role in caries prevention. The effect of systemically ingested fluoride on caries is minimal. Fluoride “supplements” can be best used as a topical delivery system by sucking or chewing tablets or lozenges prior to ingestion.</p>
          </div>
    </section>
@@ -824,831 +824,831 @@ a2a_config.thanks = {
       </h2>
       <div class="accordion__content" style="display: none;" role="region" aria-labelledby="references-section-1" id="ss1">
          <ul class="rlist separator">
-            
-            
+
+
             <li data-bib-id="b1"><span class="bullet">1</span>
-               <span class="author">Kaste LM.</span>, 
-<span class="author">Selwitz RH.</span>, 
-<span class="author">Oldakowski RJ.</span>, 
-<span class="author">Brunelle JA.</span>, 
-<span class="author">Winn DM.</span>, 
-<span class="author">Brown LJ.</span>. 
-<span class="articleTitle">Coronal caries in the primary and permanent dentition of children and adolescents 1–17 years of age: United States, 1988–1991</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Kaste LM.</span>,
+<span class="author">Selwitz RH.</span>,
+<span class="author">Oldakowski RJ.</span>,
+<span class="author">Brunelle JA.</span>,
+<span class="author">Winn DM.</span>,
+<span class="author">Brown LJ.</span>.
+<span class="articleTitle">Coronal caries in the primary and permanent dentition of children and adolescents 1–17 years of age: United States, 1988–1991</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1996</span>; <span class="vol">75</span>: <span class="pageFirst">631</span>–<span class="pageLast">41</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/002203459607502S03</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8594087&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F002203459607502S03&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1996UB20900003&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F002203459607502S03&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D75%26publication_year%3D1996%26pages%3D631-41%26journal%3DJ%2BDent%2BRes%26author%3DLM.%2BKaste%26author%3DRH.%2BSelwitz%26author%3DRJ.%2BOldakowski%26author%3DJA.%2BBrunelle%26author%3DDM.%2BWinn%26author%3DLJ.%2BBrown%26title%3DCoronal%2Bcaries%2Bin%2Bthe%2Bprimary%2Band%2Bpermanent%2Bdentition%2Bof%2Bchildren%2Band%2Badolescents%2B1%25E2%2580%259317%2Byears%2Bof%2Bage%253A%2BUnited%2BStates%252C%2B1988%25E2%2580%25931991&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F002203459607502S03&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b2"><span class="bullet">2</span>
-                <span class="groupName">National Center for Health Statistics</span>.  <span class="bookTitle">Vital and health statistics</span>. Series 11. No. 144. Vol. DHEW Pub. No. HRA 75–1626. 
+                <span class="groupName">National Center for Health Statistics</span>.  <span class="bookTitle">Vital and health statistics</span>. Series 11. No. 144. Vol. DHEW Pub. No. HRA 75–1626.
             Washington (DC)
           : Government Printing Office; <span class="pubYear">1974</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%2BNational%2BCenter%2Bfor%2BHealth%2BStatistics.%2BVital%2Band%2Bhealth%2Bstatistics.%2BSeries%2B11.%2BNo.%2B144.%2BVol.%2BDHEW%2BPub.%2BNo.%2BHRA%2B75%25E2%2580%25931626.%2B%250A%2BWashington%2B%2528DC%2529%250A%2B%253A%2BGovernment%2BPrinting%2BOffice%253B%2B1974.%250A&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b3"><span class="bullet">3</span>
                 <span class="groupName">NIDR</span>.  <span class="bookTitle">The prevalence of dental caries in United States children: The National Dental Caries Prevalence Survey</span>: 1979–80. NIH Publication No. 82–3245. National Institutes of Health; <span class="pubYear">1981</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%2BNIDR.%2BThe%2Bprevalence%2Bof%2Bdental%2Bcaries%2Bin%2BUnited%2BStates%2Bchildren%253A%2BThe%2BNational%2BDental%2BCaries%2BPrevalence%2BSurvey%253A%2B1979%25E2%2580%259380.%2BNIH%2BPublication%2BNo.%2B82%25E2%2580%25933245.%2BNational%2BInstitutes%2Bof%2BHealth%253B%2B1981.%250A&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b4"><span class="bullet">4</span>
-               <span class="author">Brunelle JA.</span>. 
-<span class="articleTitle">Oral health of United States children: The National Survey of Dental caries in US School Children: 1986–87. Vol. NIH Pub. No. 89–2247</span>. 
-<i>National Institute of Dental Research;</i> 
+               <span class="author">Brunelle JA.</span>.
+<span class="articleTitle">Oral health of United States children: The National Survey of Dental caries in US School Children: 1986–87. Vol. NIH Pub. No. 89–2247</span>.
+<i>National Institute of Dental Research;</i>
                <span class="pubYear">1989</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1989%26journal%3DNational%2BInstitute%2Bof%2BDental%2BResearch%253B%26author%3DJA.%2BBrunelle%26title%3DOral%2Bhealth%2Bof%2BUnited%2BStates%2Bchildren%253A%2BThe%2BNational%2BSurvey%2Bof%2BDental%2Bcaries%2Bin%2BUS%2BSchool%2BChildren%253A%2B1986%25E2%2580%259387.%2BVol.%2BNIH%2BPub.%2BNo.%2B89%25E2%2580%25932247&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b5"><span class="bullet">5</span>
-               <span class="author">Speechley M.</span>, 
-<span class="author">Johnston DW.</span>. 
-<span class="articleTitle">Some evidence from Ontario, Canada, of a reversal in the caries decline</span>. 
-<i>Caries Res</i> 
+               <span class="author">Speechley M.</span>,
+<span class="author">Johnston DW.</span>.
+<span class="articleTitle">Some evidence from Ontario, Canada, of a reversal in the caries decline</span>.
+<i>Caries Res</i>
                <span class="pubYear">1996</span>; <span class="vol">30</span>: <span class="pageFirst">423</span>–<span class="pageLast">7</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000262354</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaK2s7gtFGrtg%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000262354&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8946102&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000262354&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1996VR00800007&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000262354&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D30%26publication_year%3D1996%26pages%3D423-7%26journal%3DCaries%2BRes%26author%3DM.%2BSpeechley%26author%3DDW.%2BJohnston%26title%3DSome%2Bevidence%2Bfrom%2BOntario%252C%2BCanada%252C%2Bof%2Ba%2Breversal%2Bin%2Bthe%2Bcaries%2Bdecline&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000262354&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b6"><span class="bullet">6</span>
-               <span class="author">Winn DM.</span>, 
-<span class="author">Brunelle JA.</span>, 
-<span class="author">Selwitz RH.</span>, 
-<span class="author">Kaste LM.</span>, 
-<span class="author">Oldakowski RJ.</span>, 
-<span class="author">Kingman A.</span>, <i>et al</i> . 
-<span class="articleTitle">Coronal and root caries in the dentition of adults in the United States, 1988–1991</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Winn DM.</span>,
+<span class="author">Brunelle JA.</span>,
+<span class="author">Selwitz RH.</span>,
+<span class="author">Kaste LM.</span>,
+<span class="author">Oldakowski RJ.</span>,
+<span class="author">Kingman A.</span>, <i>et al</i> .
+<span class="articleTitle">Coronal and root caries in the dentition of adults in the United States, 1988–1991</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1996</span>; <span class="vol">75</span>: <span class="pageFirst">642</span>–<span class="pageLast">51</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/002203459607502S04</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D75%26publication_year%3D1996%26pages%3D642-51%26journal%3DJ%2BDent%2BRes%26author%3DDM.%2BWinn%26author%3DJA.%2BBrunelle%26author%3DRH.%2BSelwitz%26author%3DLM.%2BKaste%26author%3DRJ.%2BOldakowski%26author%3DA.%2BKingman%26title%3DCoronal%2Band%2Broot%2Bcaries%2Bin%2Bthe%2Bdentition%2Bof%2Badults%2Bin%2Bthe%2BUnited%2BStates%252C%2B1988%25E2%2580%25931991&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F002203459607502S04&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b7"><span class="bullet">7</span>
-               <span class="author">Jenkins GN.</span>. 
-<span class="articleTitle">Recent changes in dental caries</span>. 
-<i>Br Med J</i> 
+               <span class="author">Jenkins GN.</span>.
+<span class="articleTitle">Recent changes in dental caries</span>.
+<i>Br Med J</i>
                <span class="pubYear">1985</span>; <span class="vol">291</span>: <span class="pageFirst">1297</span>–<span class="pageLast">8</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1136/bmj.291.6505.1297</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3933640&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1136%2Fbmj.291.6505.1297&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1985ATX1800001&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1136%2Fbmj.291.6505.1297&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D291%26publication_year%3D1985%26pages%3D1297-8%26journal%3DBr%2BMed%2BJ%26author%3DGN.%2BJenkins%26title%3DRecent%2Bchanges%2Bin%2Bdental%2Bcaries&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1136%2Fbmj.291.6505.1297&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b8"><span class="bullet">8</span>
-               <span class="author">Hargreaves JA.</span>, 
-<span class="author">Thomson GW.</span>, 
-<span class="author">Wagg BJ.</span>. 
-<span class="articleTitle">Changes in caries prevalence in Isle of Lewis children between 1971 and 1981</span>. 
-<i>Caries Res</i> 
+               <span class="author">Hargreaves JA.</span>,
+<span class="author">Thomson GW.</span>,
+<span class="author">Wagg BJ.</span>.
+<span class="articleTitle">Changes in caries prevalence in Isle of Lewis children between 1971 and 1981</span>.
+<i>Caries Res</i>
                <span class="pubYear">1983</span>; <span class="vol">17</span>: <span class="pageFirst">554</span>–<span class="pageLast">9</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260717</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaL2c%252FlsFagsg%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260717&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6580082&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260717&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1983RQ90500011&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260717&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D17%26publication_year%3D1983%26pages%3D554-9%26journal%3DCaries%2BRes%26author%3DJA.%2BHargreaves%26author%3DGW.%2BThomson%26author%3DBJ.%2BWagg%26title%3DChanges%2Bin%2Bcaries%2Bprevalence%2Bin%2BIsle%2Bof%2BLewis%2Bchildren%2Bbetween%2B1971%2Band%2B1981&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260717&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b9"><span class="bullet">9</span>
-               <span class="author">Burt BA.</span>, 
-<span class="author">Fejerskov O.</span>. 
- <span class="chapterTitle">Water fluoridation</span>. In:  <span class="editor">O. Fejerskov</span>, 
- <span class="editor">J. Ekstrand</span>, 
- <span class="editor">BA. Burt</span>, editors . 
- <span class="bookTitle">Fluoride in dentistry</span>. 
+               <span class="author">Burt BA.</span>,
+<span class="author">Fejerskov O.</span>.
+ <span class="chapterTitle">Water fluoridation</span>. In:  <span class="editor">O. Fejerskov</span>,
+ <span class="editor">J. Ekstrand</span>,
+ <span class="editor">BA. Burt</span>, editors .
+ <span class="bookTitle">Fluoride in dentistry</span>.
             Copenhagen
           : Munksgaard; <span class="pubYear">1996</span>. p.  <span class="pageFirst">275</span>–<span class="pageLast">90</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1996%26pages%3D275-90%26author%3DBA.%2BBurt%26author%3DO.%2BFejerskov%26title%3DFluoride%2Bin%2Bdentistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b10"><span class="bullet">10</span>
-               <span class="author">Murray JJ.</span>, 
-<span class="author">Rugg-Gunn AJ.</span>, 
-<span class="author">Jenkins GN.</span>. 
- <span class="bookTitle">Fluorides in caries prevention</span>.  <span class="edition">3rd ed</span>. 
+               <span class="author">Murray JJ.</span>,
+<span class="author">Rugg-Gunn AJ.</span>,
+<span class="author">Jenkins GN.</span>.
+ <span class="bookTitle">Fluorides in caries prevention</span>.  <span class="edition">3rd ed</span>.
             London
           : Wright; <span class="pubYear">1992</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1992%26author%3DJJ.%2BMurray%26author%3DAJ.%2BRugg%25E2%2580%2590Gunn%26author%3DGN.%2BJenkins%26title%3DFluorides%2Bin%2Bcaries%2Bprevention&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b11"><span class="bullet">11</span>
-               <span class="author">Newbrun E.</span>. 
-<span class="articleTitle">Effectiveness of water fluoridation</span>. 
-<i>J Public Health Dent</i> 
+               <span class="author">Newbrun E.</span>.
+<span class="articleTitle">Effectiveness of water fluoridation</span>.
+<i>J Public Health Dent</i>
                <span class="pubYear">1989</span>; <span class="vol">49</span>: <span class="pageFirst">279</span>–<span class="pageLast">89</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1111/j.1752-7325.1989.tb02086.x</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=2681730&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1111%2Fj.1752-7325.1989.tb02086.x&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1989AX82000004&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1111%2Fj.1752-7325.1989.tb02086.x&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D49%26publication_year%3D1989%26pages%3D279-89%26journal%3DJ%2BPublic%2BHealth%2BDent%26author%3DE.%2BNewbrun%26title%3DEffectiveness%2Bof%2Bwater%2Bfluoridation&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1111%2Fj.1752-7325.1989.tb02086.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b12"><span class="bullet">12</span>
-               <span class="author">Newbrun E.</span>. 
- <span class="bookTitle">Cariology</span>.  <span class="edition">3rd ed</span>. 
+               <span class="author">Newbrun E.</span>.
+ <span class="bookTitle">Cariology</span>.  <span class="edition">3rd ed</span>.
             Chicago
           : Quintessence; <span class="pubYear">1989</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1989%26author%3DE.%2BNewbrun%26title%3DCariology&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b13"><span class="bullet">13</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Ten Cate JM.</span>. 
- <span class="chapterTitle">Physicochemical aspects of fluoride-enamel interactions</span>. In:  <span class="editor">J. Ekstrand</span>, 
- <span class="editor">O. Fejerskov</span>, 
- <span class="editor">LM. Silverstone</span>, editors . 
- <span class="bookTitle">Fluoride in dentistry</span>. 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Ten Cate JM.</span>.
+ <span class="chapterTitle">Physicochemical aspects of fluoride-enamel interactions</span>. In:  <span class="editor">J. Ekstrand</span>,
+ <span class="editor">O. Fejerskov</span>,
+ <span class="editor">LM. Silverstone</span>, editors .
+ <span class="bookTitle">Fluoride in dentistry</span>.
             Copenhagen
           : Munksgaard; <span class="pubYear">1988</span>. p.  <span class="pageFirst">125</span>–<span class="pageLast">49</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1988%26pages%3D125-49%26author%3DJDB.%2BFeatherstone%26author%3DJM.%2BCate%26title%3DFluoride%2Bin%2Bdentistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b14"><span class="bullet">14</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Glena R.</span>, 
-<span class="author">Shariati M.</span>, 
-<span class="author">Shields CP.</span>. 
-<span class="articleTitle">Dependence of in vitro demineralization and remineralization of dental enamel on fluoride concentration</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Glena R.</span>,
+<span class="author">Shariati M.</span>,
+<span class="author">Shields CP.</span>.
+<span class="articleTitle">Dependence of in vitro demineralization and remineralization of dental enamel on fluoride concentration</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1990</span>; <span class="vol">69</span>: <span class="pageFirst">620</span>–<span class="pageLast">5</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345900690S121</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaK3cXhvFWru7c%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345900690S121&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=2312892&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345900690S121&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1990CW30000008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345900690S121&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D69%26publication_year%3D1990%26pages%3D620-5%26journal%3DJ%2BDent%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DR.%2BGlena%26author%3DM.%2BShariati%26author%3DCP.%2BShields%26title%3DDependence%2Bof%2Bin%2Bvitro%2Bdemineralization%2Band%2Bremineralization%2Bof%2Bdental%2Benamel%2Bon%2Bfluoride%2Bconcentration&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345900690S121&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b15"><span class="bullet">15</span>
-               <span class="author">Anderson MH.</span>, 
-<span class="author">Bales DJ.</span>, 
-<span class="author">Omnell K.-A.</span>. 
-<span class="articleTitle">Modern management of dental caries: the cutting edge is not the dental burr</span>. 
-<i>J Am Dent Assoc</i> 
+               <span class="author">Anderson MH.</span>,
+<span class="author">Bales DJ.</span>,
+<span class="author">Omnell K.-A.</span>.
+<span class="articleTitle">Modern management of dental caries: the cutting edge is not the dental burr</span>.
+<i>J Am Dent Assoc</i>
                <span class="pubYear">1993</span>; <span class="vol">124</span>: <span class="pageFirst">37</span>–<span class="pageLast">44</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.14219/jada.archive.1993.0134</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1993LG40900007&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.14219%2Fjada.archive.1993.0134&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D124%26publication_year%3D1993%26pages%3D37-44%26journal%3DJ%2BAm%2BDent%2BAssoc%26author%3DMH.%2BAnderson%26author%3DDJ.%2BBales%26author%3DK.%25E2%2580%2590A.%2BOmnell%26title%3DModern%2Bmanagement%2Bof%2Bdental%2Bcaries%253A%2Bthe%2Bcutting%2Bedge%2Bis%2Bnot%2Bthe%2Bdental%2Bburr&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.14219%2Fjada.archive.1993.0134&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b16"><span class="bullet">16</span>
-               <span class="author">Arends J.</span>, 
-<span class="author">Ten Bosch, JJ.</span>. 
- <span class="chapterTitle">In vivo de- and remineralization of dental enamel</span>.In: <span class="editor">SA. Leach</span>, editor . 
- <span class="bookTitle">Factors relating to demineralization and remineralization of the teeth</span>. 
+               <span class="author">Arends J.</span>,
+<span class="author">Ten Bosch, JJ.</span>.
+ <span class="chapterTitle">In vivo de- and remineralization of dental enamel</span>.In: <span class="editor">SA. Leach</span>, editor .
+ <span class="bookTitle">Factors relating to demineralization and remineralization of the teeth</span>.
             Ox-ford
           : IRL Pr <span class="pubYear">1985</span>; p.  <span class="pageFirst">1</span>–<span class="pageLast">11</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1985%26pages%3D1-11%26author%3DJ.%2BArends%26author%3DJJ.%2BBosch%26title%3DFactors%2Brelating%2Bto%2Bdemineralization%2Band%2Bremineralization%2Bof%2Bthe%2Bteeth&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b17"><span class="bullet">17</span>
-               <span class="author">Ten Cate JM.</span>, 
-<span class="author">Duijsters PPE.</span>. 
-<span class="articleTitle">Influence of fluoride in solution on tooth demineralization. II. Microradiographic data</span>. 
-<i>Caries Res</i> 
+               <span class="author">Ten Cate JM.</span>,
+<span class="author">Duijsters PPE.</span>.
+<span class="articleTitle">Influence of fluoride in solution on tooth demineralization. II. Microradiographic data</span>.
+<i>Caries Res</i>
                <span class="pubYear">1983</span>; <span class="vol">17</span>: <span class="pageFirst">513</span>–<span class="pageLast">9</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260711</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6580076&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260711&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1983RQ90500005&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260711&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D17%26publication_year%3D1983%26pages%3D513-9%26journal%3DCaries%2BRes%26author%3DJM.%2BCate%26author%3DPPE.%2BDuijsters%26title%3DInfluence%2Bof%2Bfluoride%2Bin%2Bsolution%2Bon%2Btooth%2Bdemineralization.%2BII.%2BMicroradiographic%2Bdata&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260711&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b18"><span class="bullet">18</span>
-               <span class="author">Ten Cate JM.</span>, 
-<span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">Mechanistic aspects of the interactions between fluoride and dental enamel</span>. 
-<i>Crit Rev Oral Biol</i> 
+               <span class="author">Ten Cate JM.</span>,
+<span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">Mechanistic aspects of the interactions between fluoride and dental enamel</span>.
+<i>Crit Rev Oral Biol</i>
                <span class="pubYear">1991</span>; <span class="vol">2</span>: <span class="pageFirst">283</span>–<span class="pageLast">96</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/10454411910020030101</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1892991&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F10454411910020030101&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1991GC86400001&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F10454411910020030101&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D2%26publication_year%3D1991%26pages%3D283-96%26journal%3DCrit%2BRev%2BOral%2BBiol%26author%3DJM.%2BCate%26author%3DJDB.%2BFeatherstone%26title%3DMechanistic%2Baspects%2Bof%2Bthe%2Binteractions%2Bbetween%2Bfluoride%2Band%2Bdental%2Benamel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F10454411910020030101&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b19"><span class="bullet">19</span>
-               <span class="author">Hamilton IR.</span>, 
-<span class="author">Bowden GHW.</span>. 
- <span class="chapterTitle">Fluoride effects on oral bacteria</span>. In:  <span class="editor">O. Fejerskov</span>, 
- <span class="editor">J. Ekstrand</span>, 
- <span class="editor">BA. Burt</span>, editors . 
- <span class="bookTitle">Fluoride in dentistry</span>. 
+               <span class="author">Hamilton IR.</span>,
+<span class="author">Bowden GHW.</span>.
+ <span class="chapterTitle">Fluoride effects on oral bacteria</span>. In:  <span class="editor">O. Fejerskov</span>,
+ <span class="editor">J. Ekstrand</span>,
+ <span class="editor">BA. Burt</span>, editors .
+ <span class="bookTitle">Fluoride in dentistry</span>.
             Copenhagen
           : Munksgaard; <span class="pubYear">1996</span>. p.  <span class="pageFirst">230</span>–<span class="pageLast">51</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1996%26pages%3D230-51%26author%3DIR.%2BHamilton%26author%3DGHW.%2BBowden%26title%3DFluoride%2Bin%2Bdentistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b20"><span class="bullet">20</span>
-               <span class="author">Loesche WJ.</span>, 
-<span class="author">Hockett RN.</span>, 
-<span class="author">Syed SA.</span>. 
-<span class="articleTitle">The predominant cultivable flora of tooth surface plaque removed from institutionalized subjects</span>. 
-<i>Archs Oral Biol</i> 
+               <span class="author">Loesche WJ.</span>,
+<span class="author">Hockett RN.</span>,
+<span class="author">Syed SA.</span>.
+<span class="articleTitle">The predominant cultivable flora of tooth surface plaque removed from institutionalized subjects</span>.
+<i>Archs Oral Biol</i>
                <span class="pubYear">1973</span>; <span class="vol">17</span>: <span class="pageFirst">1311</span>–<span class="pageLast">25</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1016/0003-9969(72)90164-1</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=4506984&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0003-9969%2872%2990164-1&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1972N379800008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0003-9969%2872%2990164-1&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D17%26publication_year%3D1973%26pages%3D1311-25%26journal%3DArchs%2BOral%2BBiol%26author%3DWJ.%2BLoesche%26author%3DRN.%2BHockett%26author%3DSA.%2BSyed%26title%3DThe%2Bpredominant%2Bcultivable%2Bflora%2Bof%2Btooth%2Bsurface%2Bplaque%2Bremoved%2Bfrom%2Binstitutionalized%2Bsubjects&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1016%2F0003-9969%2872%2990164-1&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b21"><span class="bullet">21</span>
-               <span class="author">Loesche WJ.</span>. 
-<span class="articleTitle">Role of Streptococcus mutans in human dental decay</span>. 
-<i>FEMS Microbiol Rev</i> 
+               <span class="author">Loesche WJ.</span>.
+<span class="articleTitle">Role of Streptococcus mutans in human dental decay</span>.
+<i>FEMS Microbiol Rev</i>
                <span class="pubYear">1986</span>; <span class="vol">50</span>: <span class="pageFirst">353</span>–<span class="pageLast">80</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3540569&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_22_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1986F177000001&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_22_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D50%26publication_year%3D1986%26pages%3D353-80%26journal%3DFEMS%2BMicrobiol%2BRev%26author%3DWJ.%2BLoesche%26title%3DRole%2Bof%2BStreptococcus%2Bmutans%2Bin%2Bhuman%2Bdental%2Bdecay&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b22"><span class="bullet">22</span>
-               <span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">An updated understanding of the mechanism of dental decay and its prevention</span>. 
-<i>Nutr Q</i> 
+               <span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">An updated understanding of the mechanism of dental decay and its prevention</span>.
+<i>Nutr Q</i>
                <span class="pubYear">1990</span>; <span class="vol">14</span>: <span class="pageFirst">5</span>–<span class="pageLast">11</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D14%26publication_year%3D1990%26pages%3D5-11%26journal%3DNutr%2BQ%26author%3DJDB.%2BFeatherstone%26title%3DAn%2Bupdated%2Bunderstanding%2Bof%2Bthe%2Bmechanism%2Bof%2Bdental%2Bdecay%2Band%2Bits%2Bprevention&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b23"><span class="bullet">23</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Rodgers BE.</span>. 
-<span class="articleTitle">The effect of acetic, lactic and other organic acids on the formation of artificial carious lesions</span>. 
-<i>Caries Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Rodgers BE.</span>.
+<span class="articleTitle">The effect of acetic, lactic and other organic acids on the formation of artificial carious lesions</span>.
+<i>Caries Res</i>
                <span class="pubYear">1981</span>; <span class="vol">15</span>: <span class="pageFirst">377</span>–<span class="pageLast">85</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260541</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL3MXkvFGjuro%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260541&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6942921&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260541&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1981MC95600006&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260541&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D15%26publication_year%3D1981%26pages%3D377-85%26journal%3DCaries%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DBE.%2BRodgers%26title%3DThe%2Beffect%2Bof%2Bacetic%252C%2Blactic%2Band%2Bother%2Borganic%2Bacids%2Bon%2Bthe%2Bformation%2Bof%2Bartificial%2Bcarious%2Blesions&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260541&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b24"><span class="bullet">24</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Mellberg JR.</span>. 
-<span class="articleTitle">Relative rates of progress of artificial carious lesions in bovine, ovine and human enamel</span>. 
-<i>Caries Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Mellberg JR.</span>.
+<span class="articleTitle">Relative rates of progress of artificial carious lesions in bovine, ovine and human enamel</span>.
+<i>Caries Res</i>
                <span class="pubYear">1981</span>; <span class="vol">15</span>: <span class="pageFirst">109</span>–<span class="pageLast">14</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260508</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaL3M7jsFKrtg%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260508&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6937246&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260508&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1981KS16900016&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260508&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D15%26publication_year%3D1981%26pages%3D109-14%26journal%3DCaries%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DJR.%2BMellberg%26title%3DRelative%2Brates%2Bof%2Bprogress%2Bof%2Bartificial%2Bcarious%2Blesions%2Bin%2Bbovine%252C%2Bovine%2Band%2Bhuman%2Benamel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260508&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b25"><span class="bullet">25</span>
-               <span class="author">Geddes DAM.</span>. 
-<span class="articleTitle">Acids produced by human dental plaque metabolism in situ</span>. 
-<i>Caries Res</i> 
+               <span class="author">Geddes DAM.</span>.
+<span class="articleTitle">Acids produced by human dental plaque metabolism in situ</span>.
+<i>Caries Res</i>
                <span class="pubYear">1975</span>; <span class="vol">9</span>: <span class="pageFirst">98</span>–<span class="pageLast">109</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260149</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaE2MXlsFOktw%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260149&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1054298&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260149&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1975V157500001&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260149&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D9%26publication_year%3D1975%26pages%3D98-109%26journal%3DCaries%2BRes%26author%3DDAM.%2BGeddes%26title%3DAcids%2Bproduced%2Bby%2Bhuman%2Bdental%2Bplaque%2Bmetabolism%2Bin%2Bsitu&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260149&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b26"><span class="bullet">26</span>
-               <span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">Diffusion phenomena and enamel caries development. Cariology Today. International congress, Zurich, 1983</span>. 
-<i>Karger;</i> 
+               <span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">Diffusion phenomena and enamel caries development. Cariology Today. International congress, Zurich, 1983</span>.
+<i>Karger;</i>
                <span class="pubYear">1984</span>. p.  <span class="pageFirst">259</span>–<span class="pageLast">68</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1984%26pages%3D259-68%26journal%3DKarger%253B%26author%3DJDB.%2BFeatherstone%26title%3DDiffusion%2Bphenomena%2Band%2Benamel%2Bcaries%2Bdevelopment.%2BCariology%2BToday.%2BInternational%2Bcongress%252C%2BZurich%252C%2B1983&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b27"><span class="bullet">27</span>
-               <span class="author">Silverstone LM.</span>. 
-<span class="articleTitle">The structure of carious enamel, including the early lesion</span>. 
-<i>Oral Sci Rev</i> 
+               <span class="author">Silverstone LM.</span>.
+<span class="articleTitle">The structure of carious enamel, including the early lesion</span>.
+<i>Oral Sci Rev</i>
                <span class="pubYear">1973</span>; <span class="vol">3</span>: <span class="pageFirst">100</span>–<span class="pageLast">60</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaE2c%252FpvFCiug%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_28_2%3ACOI&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=AMBIGUOUS+4591492%2C4523661&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_28_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D3%26publication_year%3D1973%26pages%3D100-60%26journal%3DOral%2BSci%2BRev%26author%3DLM.%2BSilverstone%26title%3DThe%2Bstructure%2Bof%2Bcarious%2Benamel%252C%2Bincluding%2Bthe%2Bearly%2Blesion&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b28"><span class="bullet">28</span>
-               <span class="author">LeGeros RZ.</span>. 
- <span class="chapterTitle">Calcium phosphates in oral biology and medicine</span>.  <span class="editor">HM. Myers</span>, editor . 
- <span class="bookTitle">Monographs in oral science</span>. 
+               <span class="author">LeGeros RZ.</span>.
+ <span class="chapterTitle">Calcium phosphates in oral biology and medicine</span>.  <span class="editor">HM. Myers</span>, editor .
+ <span class="bookTitle">Monographs in oral science</span>.
             Basel
           : Karger; <span class="pubYear">1991</span>. Vol.  <span class="vol">15</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1991%26author%3DRZ.%2BLeGeros%26title%3DMonographs%2Bin%2Boral%2Bscience&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b29"><span class="bullet">29</span>
-               <span class="author">LeGeros RZ.</span>, 
-<span class="author">Trautz OR.</span>, 
-<span class="author">LeGeros JP.</span>, 
-<span class="author">Klein E.</span>. 
-<span class="articleTitle">Carbonate substitution in the apatite structure</span>. 
-<i>Bull Soc Chim Fr</i> 
+               <span class="author">LeGeros RZ.</span>,
+<span class="author">Trautz OR.</span>,
+<span class="author">LeGeros JP.</span>,
+<span class="author">Klein E.</span>.
+<span class="articleTitle">Carbonate substitution in the apatite structure</span>.
+<i>Bull Soc Chim Fr</i>
                <span class="pubYear">1968</span>(Spec Iss): <span class="vol">17</span>  <span class="pageFirst">12</span>–<span class="pageLast">8</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D17%26publication_year%3D1968%26pages%3D12-8%26journal%3DBull%2BSoc%2BChim%2BFr%26author%3DRZ.%2BLeGeros%26author%3DOR.%2BTrautz%26author%3DJP.%2BLeGeros%26author%3DE.%2BKlein%26title%3DCarbonate%2Bsubstitution%2Bin%2Bthe%2Bapatite%2Bstructure&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b30"><span class="bullet">30</span>
-               <span class="author">LeGeros RZ.</span>. 
- <span class="otherTitle">Crystallographic studies of the carbonate substitution in the apatite structure</span> [ <span class="otherTitle">PhD thesis</span>]. 
+               <span class="author">LeGeros RZ.</span>.
+ <span class="otherTitle">Crystallographic studies of the carbonate substitution in the apatite structure</span> [ <span class="otherTitle">PhD thesis</span>].
             New York
           : <span class="pubYear">1967</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250ALeGeros%2BRZ..%2B%250A%2BCrystallographic%2Bstudies%2Bof%2Bthe%2Bcarbonate%2Bsubstitution%2Bin%2Bthe%2Bapatite%2Bstructure%2B%255B%2BPhD%2Bthesis%255D.%2B%250A%2BNew%2BYork%250A%2B%253A%2B1967.%250A&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b31"><span class="bullet">31</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Mayer I.</span>, 
-<span class="author">Driessens FCM.</span>, 
-<span class="author">Verbeeck RMH.</span>, 
-<span class="author">Heijligers HJM.</span>. 
-<span class="articleTitle">Synthetic apatites containing Na, Mg, and CO3 and their comparison with tooth enamel mineral</span>. 
-<i>Calcif Tissue Int</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Mayer I.</span>,
+<span class="author">Driessens FCM.</span>,
+<span class="author">Verbeeck RMH.</span>,
+<span class="author">Heijligers HJM.</span>.
+<span class="articleTitle">Synthetic apatites containing Na, Mg, and CO3 and their comparison with tooth enamel mineral</span>.
+<i>Calcif Tissue Int</i>
                <span class="pubYear">1983</span>; <span class="vol">35</span>: <span class="pageFirst">169</span>–<span class="pageLast">71</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1007/BF02405026</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL3sXhslKqu7c%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405026&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6850399&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405026&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1983QE54600008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405026&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D35%26publication_year%3D1983%26pages%3D169-71%26journal%3DCalcif%2BTissue%2BInt%26author%3DJDB.%2BFeatherstone%26author%3DI.%2BMayer%26author%3DFCM.%2BDriessens%26author%3DRMH.%2BVerbeeck%26author%3DHJM.%2BHeijligers%26title%3DSynthetic%2Bapatites%2Bcontaining%2BNa%252C%2BMg%252C%2Band%2BCO3%2Band%2Btheir%2Bcomparison%2Bwith%2Btooth%2Benamel%2Bmineral&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1007%2FBF02405026&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b32"><span class="bullet">32</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Pearson S.</span>, 
-<span class="author">LeGeros RZ.</span>. 
-<span class="articleTitle">An IR method for quantification of carbonate in carbonated-apatites</span>. 
-<i>Caries Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Pearson S.</span>,
+<span class="author">LeGeros RZ.</span>.
+<span class="articleTitle">An IR method for quantification of carbonate in carbonated-apatites</span>.
+<i>Caries Res</i>
                <span class="pubYear">1984</span>; <span class="vol">18</span>: <span class="pageFirst">63</span>–<span class="pageLast">6</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260749</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL2cXhvF2msA%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260749&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6580956&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260749&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1984RW55700011&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260749&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D18%26publication_year%3D1984%26pages%3D63-6%26journal%3DCaries%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DS.%2BPearson%26author%3DRZ.%2BLeGeros%26title%3DAn%2BIR%2Bmethod%2Bfor%2Bquantification%2Bof%2Bcarbonate%2Bin%2Bcarbonated%25E2%2580%2590apatites&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260749&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b33"><span class="bullet">33</span>
-               <span class="author">Budz JA.</span>, 
-<span class="author">LoRe M.</span>, 
-<span class="author">Nancollas GH.</span>. 
-<span class="articleTitle">Hydroxyapatite and carbonated-apatite as models for the dissolution behavior of human dental enamel</span>. 
-<i>Adv Dent Res</i> 
+               <span class="author">Budz JA.</span>,
+<span class="author">LoRe M.</span>,
+<span class="author">Nancollas GH.</span>.
+<span class="articleTitle">Hydroxyapatite and carbonated-apatite as models for the dissolution behavior of human dental enamel</span>.
+<i>Adv Dent Res</i>
                <span class="pubYear">1987</span>; <span class="vol">1</span>: <span class="pageFirst">314</span>–<span class="pageLast">21</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3504182&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_34_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D1%26publication_year%3D1987%26pages%3D314-21%26journal%3DAdv%2BDent%2BRes%26author%3DJA.%2BBudz%26author%3DM.%2BLoRe%26author%3DGH.%2BNancollas%26title%3DHydroxyapatite%2Band%2Bcarbonated%25E2%2580%2590apatite%2Bas%2Bmodels%2Bfor%2Bthe%2Bdissolution%2Bbehavior%2Bof%2Bhuman%2Bdental%2Benamel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b34"><span class="bullet">34</span>
-               <span class="author">Curzon MEJ.</span>, 
-<span class="author">Featherstone JDB.</span>. 
- <span class="chapterTitle">Chemical composition of enamel</span>. In:  <span class="editor">EP. Lazzari</span>, editor . 
- <span class="bookTitle">Handbook of experimental aspects of oral biochemistry</span>. 
+               <span class="author">Curzon MEJ.</span>,
+<span class="author">Featherstone JDB.</span>.
+ <span class="chapterTitle">Chemical composition of enamel</span>. In:  <span class="editor">EP. Lazzari</span>, editor .
+ <span class="bookTitle">Handbook of experimental aspects of oral biochemistry</span>.
             Florida
           : CRC Pr; <span class="pubYear">1983</span>. p.  <span class="pageFirst">123</span>–<span class="pageLast">35</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1983%26pages%3D123-35%26author%3DMEJ.%2BCurzon%26author%3DJDB.%2BFeatherstone%26title%3DHandbook%2Bof%2Bexperimental%2Baspects%2Bof%2Boral%2Bbiochemistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b35"><span class="bullet">35</span>
-                <span class="editor">MEJ. Curzon</span>, 
- <span class="editor">TW. Cutress</span>, editors . 
- <span class="bookTitle">Trace elements and dental disease</span>. 
+                <span class="editor">MEJ. Curzon</span>,
+ <span class="editor">TW. Cutress</span>, editors .
+ <span class="bookTitle">Trace elements and dental disease</span>.
             Littleton
           : John Wright; <span class="pubYear">1983</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1983%26author%3DMEJ.%2BCurzon%26author%3DTW.%2BCutress%26title%3DTrace%2Belements%2Band%2Bdental%2Bdisease&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b36"><span class="bullet">36</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Goodman P.</span>, 
-<span class="author">MacLean JD.</span>. 
-<span class="articleTitle">Electron microscope study of defect zones in dental enamel</span>. 
-<i>J Ultrastruc Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Goodman P.</span>,
+<span class="author">MacLean JD.</span>.
+<span class="articleTitle">Electron microscope study of defect zones in dental enamel</span>.
+<i>J Ultrastruc Res</i>
                <span class="pubYear">1979</span>; <span class="vol">67</span>: <span class="pageFirst">117</span>–<span class="pageLast">23</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1016/S0022-5320(79)80001-5</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaE1M3kt1Sgsg%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2FS0022-5320%2879%2980001-5&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=469984&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2FS0022-5320%2879%2980001-5&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1979HB48500001&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2FS0022-5320%2879%2980001-5&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D67%26publication_year%3D1979%26pages%3D117-23%26journal%3DJ%2BUltrastruc%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DP.%2BGoodman%26author%3DJD.%2BMacLean%26title%3DElectron%2Bmicroscope%2Bstudy%2Bof%2Bdefect%2Bzones%2Bin%2Bdental%2Benamel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1016%2FS0022-5320%2879%2980001-5&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b37"><span class="bullet">37</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Nelson DGA.</span>, 
-<span class="author">McLean JD.</span>. 
-<span class="articleTitle">An electron microscope study of modifications to defect regions in dental enamel and synthetic apatites</span>. 
-<i>Caries Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Nelson DGA.</span>,
+<span class="author">McLean JD.</span>.
+<span class="articleTitle">An electron microscope study of modifications to defect regions in dental enamel and synthetic apatites</span>.
+<i>Caries Res</i>
                <span class="pubYear">1981</span>; <span class="vol">15</span>: <span class="pageFirst">278</span>–<span class="pageLast">88</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260527</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL3MXitVKks74%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260527&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6940661&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260527&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1981LS54800002&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260527&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D15%26publication_year%3D1981%26pages%3D278-88%26journal%3DCaries%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DDGA.%2BNelson%26author%3DJD.%2BMcLean%26title%3DAn%2Belectron%2Bmicroscope%2Bstudy%2Bof%2Bmodifications%2Bto%2Bdefect%2Bregions%2Bin%2Bdental%2Benamel%2Band%2Bsynthetic%2Bapatites&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260527&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b38"><span class="bullet">38</span>
-               <span class="author">Nelson DGA.</span>, 
-<span class="author">McLean JD.</span>. 
-<span class="articleTitle">High-resolution electron microscopy of octacalcium phosphate and its hydrolysis products</span>. 
-<i>Calcif Tissue Int</i> 
+               <span class="author">Nelson DGA.</span>,
+<span class="author">McLean JD.</span>.
+<span class="articleTitle">High-resolution electron microscopy of octacalcium phosphate and its hydrolysis products</span>.
+<i>Calcif Tissue Int</i>
                <span class="pubYear">1984</span>; <span class="vol">36</span>: <span class="pageFirst">219</span>–<span class="pageLast">32</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1007/BF02405321</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL2cXkslSitbg%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405321&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6430505&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405321&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1984SG93700014&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1007%2FBF02405321&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D36%26publication_year%3D1984%26pages%3D219-32%26journal%3DCalcif%2BTissue%2BInt%26author%3DDGA.%2BNelson%26author%3DJD.%2BMcLean%26title%3DHigh%25E2%2580%2590resolution%2Belectron%2Bmicroscopy%2Bof%2Boctacalcium%2Bphosphate%2Band%2Bits%2Bhydrolysis%2Bproducts&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1007%2FBF02405321&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b39"><span class="bullet">39</span>
-               <span class="author">Nelson DGA.</span>, 
-<span class="author">McLean JD.</span>. 
- <span class="chapterTitle">Direct observation of near-atomic details in synthetic and biological apatite crystallites</span>. In:  <span class="editor">RW. Fearnhead</span>, 
- <span class="editor">S. Suga</span>, editors . 
- <span class="bookTitle">Tooth enamel IV</span>. 
+               <span class="author">Nelson DGA.</span>,
+<span class="author">McLean JD.</span>.
+ <span class="chapterTitle">Direct observation of near-atomic details in synthetic and biological apatite crystallites</span>. In:  <span class="editor">RW. Fearnhead</span>,
+ <span class="editor">S. Suga</span>, editors .
+ <span class="bookTitle">Tooth enamel IV</span>.
             Amsterdam
-            , 
+            ,
             Netherlands
           : Elsevier Science; <span class="pubYear">1984</span>. p.  <span class="pageFirst">47</span>–<span class="pageLast">51</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1984%26pages%3D47-51%26author%3DDGA.%2BNelson%26author%3DJD.%2BMcLean%26title%3DTooth%2Benamel%2BIV&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b40"><span class="bullet">40</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Silverstone LM.</span>. 
- <span class="chapterTitle">The caries process – morphological and chemical events</span>. In:  <span class="editor">G. Nikiforuk</span>, editor . 
- <span class="bookTitle">Understanding dental caries</span>. 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Silverstone LM.</span>.
+ <span class="chapterTitle">The caries process – morphological and chemical events</span>. In:  <span class="editor">G. Nikiforuk</span>, editor .
+ <span class="bookTitle">Understanding dental caries</span>.
             Basel
           : Karger; <span class="pubYear">1985</span>. p.  <span class="pageFirst">261</span>–<span class="pageLast">89</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1985%26pages%3D261-89%26author%3DJDB.%2BFeatherstone%26author%3DLM.%2BSilverstone%26title%3DUnderstanding%2Bdental%2Bcaries&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b41"><span class="bullet">41</span>
-               <span class="author">Robinson C.</span>, 
-<span class="author">Kirkham J.</span>, 
-<span class="author">Weatherell JA.</span>. 
- <span class="chapterTitle">Fluoride in teeth and bone</span>. In:  <span class="editor">O. Fejerskov</span>, 
- <span class="editor">J. Ekstrand</span>, 
- <span class="editor">BA. Burt</span>, editors . 
- <span class="bookTitle">Fluoride in dentistry</span>.  <span class="edition">2nd ed</span>. 
+               <span class="author">Robinson C.</span>,
+<span class="author">Kirkham J.</span>,
+<span class="author">Weatherell JA.</span>.
+ <span class="chapterTitle">Fluoride in teeth and bone</span>. In:  <span class="editor">O. Fejerskov</span>,
+ <span class="editor">J. Ekstrand</span>,
+ <span class="editor">BA. Burt</span>, editors .
+ <span class="bookTitle">Fluoride in dentistry</span>.  <span class="edition">2nd ed</span>.
             Copenhagen
           : Munksgaard; <span class="pubYear">1996</span>. p.  <span class="pageFirst">69</span>–<span class="pageLast">87</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1996%26pages%3D69-87%26author%3DC.%2BRobinson%26author%3DJ.%2BKirkham%26author%3DJA.%2BWeatherell%26title%3DFluoride%2Bin%2Bdentistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b42"><span class="bullet">42</span>
-               <span class="author">Nelson DGA.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Duncan JF.</span>, 
-<span class="author">Cutress TW.</span>. 
-<span class="articleTitle">Effect of carbonate and fluoride on the dissolution behaviour of synthetic apatites</span>. 
-<i>Caries Res</i> 
+               <span class="author">Nelson DGA.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Duncan JF.</span>,
+<span class="author">Cutress TW.</span>.
+<span class="articleTitle">Effect of carbonate and fluoride on the dissolution behaviour of synthetic apatites</span>.
+<i>Caries Res</i>
                <span class="pubYear">1983</span>; <span class="vol">17</span>: <span class="pageFirst">200</span>–<span class="pageLast">11</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260668</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL3sXhtF2lsLY%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260668&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6573961&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260668&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1983QJ89200002&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260668&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D17%26publication_year%3D1983%26pages%3D200-11%26journal%3DCaries%2BRes%26author%3DDGA.%2BNelson%26author%3DJDB.%2BFeatherstone%26author%3DJF.%2BDuncan%26author%3DTW.%2BCutress%26title%3DEffect%2Bof%2Bcarbonate%2Band%2Bfluoride%2Bon%2Bthe%2Bdissolution%2Bbehaviour%2Bof%2Bsynthetic%2Bapatites&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260668&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b43"><span class="bullet">43</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Shields CP.</span>, 
-<span class="author">Khademazad B.</span>, 
-<span class="author">Oldershaw MD.</span>. 
-<span class="articleTitle">Acid reactivity of carbonated-apatites with strontium and fluoride substitutions</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Shields CP.</span>,
+<span class="author">Khademazad B.</span>,
+<span class="author">Oldershaw MD.</span>.
+<span class="articleTitle">Acid reactivity of carbonated-apatites with strontium and fluoride substitutions</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1983</span>; <span class="vol">62</span>: <span class="pageFirst">1049</span>–<span class="pageLast">53</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345830620100801</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL2cXivFGqug%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345830620100801&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6578233&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345830620100801&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1983RM46900008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345830620100801&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D62%26publication_year%3D1983%26pages%3D1049-53%26journal%3DJ%2BDent%2BRes%26author%3DJDB.%2BFeatherstone%26author%3DCP.%2BShields%26author%3DB.%2BKhademazad%26author%3DMD.%2BOldershaw%26title%3DAcid%2Breactivity%2Bof%2Bcarbonated%25E2%2580%2590apatites%2Bwith%2Bstrontium%2Band%2Bfluoride%2Bsubstitutions&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345830620100801&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b44"><span class="bullet">44</span>
-               <span class="author">Fejerskov O.</span>, 
-<span class="author">Thylstrup A.</span>, 
-<span class="author">Larsen MJ.</span>. 
-<span class="articleTitle">Rational use of fluorides in caries prevention</span>. 
-<i>Acta Odontol Scand</i> 
+               <span class="author">Fejerskov O.</span>,
+<span class="author">Thylstrup A.</span>,
+<span class="author">Larsen MJ.</span>.
+<span class="articleTitle">Rational use of fluorides in caries prevention</span>.
+<i>Acta Odontol Scand</i>
                <span class="pubYear">1981</span>; <span class="vol">39</span>: <span class="pageFirst">241</span>–<span class="pageLast">9</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.3109/00016358109162285</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL3MXlvVSmsr4%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.3109%2F00016358109162285&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=7034449&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.3109%2F00016358109162285&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1981MJ23500007&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.3109%2F00016358109162285&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D39%26publication_year%3D1981%26pages%3D241-9%26journal%3DActa%2BOdontol%2BScand%26author%3DO.%2BFejerskov%26author%3DA.%2BThylstrup%26author%3DMJ.%2BLarsen%26title%3DRational%2Buse%2Bof%2Bfluorides%2Bin%2Bcaries%2Bprevention&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.3109%2F00016358109162285&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b45"><span class="bullet">45</span>
-               <span class="author">Moreno EC.</span>, 
-<span class="author">Kresak M.</span>, 
-<span class="author">Zahradnick RT.</span>. 
-<span class="articleTitle">Physicochemical aspects of fluoride-apatite systems relevant to the study of dental caries</span>. 
-<i>Caries Res</i> 
+               <span class="author">Moreno EC.</span>,
+<span class="author">Kresak M.</span>,
+<span class="author">Zahradnick RT.</span>.
+<span class="articleTitle">Physicochemical aspects of fluoride-apatite systems relevant to the study of dental caries</span>.
+<i>Caries Res</i>
                <span class="pubYear">1977</span>; <span class="vol">11</span>: <span class="pageFirst">142</span>–<span class="pageLast">8</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260299</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=318568&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260299&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1977CM37700008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260299&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D11%26publication_year%3D1977%26pages%3D142-8%26journal%3DCaries%2BRes%26author%3DEC.%2BMoreno%26author%3DM.%2BKresak%26author%3DRT.%2BZahradnick%26title%3DPhysicochemical%2Baspects%2Bof%2Bfluoride%25E2%2580%2590apatite%2Bsystems%2Brelevant%2Bto%2Bthe%2Bstudy%2Bof%2Bdental%2Bcaries&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260299&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b46"><span class="bullet">46</span>
-               <span class="author">Whitford GM.</span>, 
-<span class="author">Schuster GS.</span>, 
-<span class="author">Pashley HD.</span>, 
-<span class="author">Venkateswarlu P.</span>. 
-<span class="articleTitle">Fluoride uptake by Streptococcus mutans 6715</span>. 
-<i>Infect Immun</i> 
+               <span class="author">Whitford GM.</span>,
+<span class="author">Schuster GS.</span>,
+<span class="author">Pashley HD.</span>,
+<span class="author">Venkateswarlu P.</span>.
+<span class="articleTitle">Fluoride uptake by Streptococcus mutans 6715</span>.
+<i>Infect Immun</i>
                <span class="pubYear">1977</span>; <span class="vol">18</span>: <span class="pageFirst">680</span>–<span class="pageLast">7</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaE1cXosFOiuw%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_47_2%3ACOI&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=22490&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_47_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1977EF34000018&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_47_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D18%26publication_year%3D1977%26pages%3D680-7%26journal%3DInfect%2BImmun%26author%3DGM.%2BWhitford%26author%3DGS.%2BSchuster%26author%3DHD.%2BPashley%26author%3DP.%2BVenkateswarlu%26title%3DFluoride%2Buptake%2Bby%2BStreptococcus%2Bmutans%2B6715&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b47"><span class="bullet">47</span>
-               <span class="author">Van Louveren C.</span>. 
-<span class="articleTitle">The antimicrobial action of fluoride and its role in caries inhibition</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Van Louveren C.</span>.
+<span class="articleTitle">The antimicrobial action of fluoride and its role in caries inhibition</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1990</span>; <span class="vol">69</span>: <span class="pageFirst">676</span>–<span class="pageLast">81</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345900690S131</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=2179329&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345900690S131&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D69%26publication_year%3D1990%26pages%3D676-81%26journal%3DJ%2BDent%2BRes%26author%3DC.%2BLouveren%26title%3DThe%2Bantimicrobial%2Baction%2Bof%2Bfluoride%2Band%2Bits%2Brole%2Bin%2Bcaries%2Binhibition&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345900690S131&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b48"><span class="bullet">48</span>
-               <span class="author">Brown WE.</span>, 
-<span class="author">Gregory TM.</span>, 
-<span class="author">Chow LC.</span>. 
-<span class="articleTitle">Effects of fluoride on enamel solubility and cariostasis</span>. 
-<i>Caries Res</i> 
+               <span class="author">Brown WE.</span>,
+<span class="author">Gregory TM.</span>,
+<span class="author">Chow LC.</span>.
+<span class="articleTitle">Effects of fluoride on enamel solubility and cariostasis</span>.
+<i>Caries Res</i>
                <span class="pubYear">1977</span>; <span class="vol">11</span>: <span class="pageFirst">118</span>–<span class="pageLast">22</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260298</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=318567&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260298&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1977CM37700007&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260298&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D11%26publication_year%3D1977%26pages%3D118-22%26journal%3DCaries%2BRes%26author%3DWE.%2BBrown%26author%3DTM.%2BGregory%26author%3DLC.%2BChow%26title%3DEffects%2Bof%2Bfluoride%2Bon%2Benamel%2Bsolubility%2Band%2Bcariostasis&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260298&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b49"><span class="bullet">49</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">O'Reilly MM.</span>, 
-<span class="author">Shariati M.</span>, 
-<span class="author">Brugler S.</span>. 
- <span class="chapterTitle">Enhancement of remineralization in vitro and in vivo</span>. In:  <span class="editor">SA. Leach</span>, editor . 
- <span class="bookTitle">Factors relating to demineralization and remineralization of the teeth</span>. 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">O'Reilly MM.</span>,
+<span class="author">Shariati M.</span>,
+<span class="author">Brugler S.</span>.
+ <span class="chapterTitle">Enhancement of remineralization in vitro and in vivo</span>. In:  <span class="editor">SA. Leach</span>, editor .
+ <span class="bookTitle">Factors relating to demineralization and remineralization of the teeth</span>.
             Oxford
           : IRL Pr; <span class="pubYear">1986</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1986%26author%3DJDB.%2BFeatherstone%26author%3DMM.%2BO%2527Reilly%26author%3DM.%2BShariati%26author%3DS.%2BBrugler%26title%3DFactors%2Brelating%2Bto%2Bdemineralization%2Band%2Bremineralization%2Bof%2Bthe%2Bteeth&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b50"><span class="bullet">50</span>
-               <span class="author">O'Reilly MM.</span>, 
-<span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">De- and remineralization around orthodontic appliances: an in vivo study</span>. 
-<i>Am J Orthod</i> 
+               <span class="author">O'Reilly MM.</span>,
+<span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">De- and remineralization around orthodontic appliances: an in vivo study</span>.
+<i>Am J Orthod</i>
                <span class="pubYear">1987</span>; <span class="vol">92</span>: <span class="pageFirst">33</span>–<span class="pageLast">40</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1016/0889-5406(87)90293-9</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3300270&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0889-5406%2887%2990293-9&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1987J161800007&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0889-5406%2887%2990293-9&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D92%26publication_year%3D1987%26pages%3D33-40%26journal%3DAm%2BJ%2BOrthod%26author%3DMM.%2BO%2527Reilly%26author%3DJDB.%2BFeatherstone%26title%3DDe%25E2%2580%2590%2Band%2Bremineralization%2Baround%2Borthodontic%2Bappliances%253A%2Ban%2Bin%2Bvivo%2Bstudy&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1016%2F0889-5406%2887%2990293-9&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b51"><span class="bullet">51</span>
-               <span class="author">Bruun C.</span>, 
-<span class="author">Givskov H.</span>, 
-<span class="author">Thylstrup A.</span>. 
-<span class="articleTitle">Whole saliva fluoride after toothbrushing with NaF and MFP dentifrices with different F concentrations</span>. 
-<i>Caries Res</i> 
+               <span class="author">Bruun C.</span>,
+<span class="author">Givskov H.</span>,
+<span class="author">Thylstrup A.</span>.
+<span class="articleTitle">Whole saliva fluoride after toothbrushing with NaF and MFP dentifrices with different F concentrations</span>.
+<i>Caries Res</i>
                <span class="pubYear">1984</span>; <span class="vol">18</span>: <span class="pageFirst">282</span>–<span class="pageLast">8</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000260778</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL2cXps1Kqsw%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260778&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6584220&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260778&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1984SL02500014&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1159%2F000260778&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D18%26publication_year%3D1984%26pages%3D282-8%26journal%3DCaries%2BRes%26author%3DC.%2BBruun%26author%3DH.%2BGivskov%26author%3DA.%2BThylstrup%26title%3DWhole%2Bsaliva%2Bfluoride%2Bafter%2Btoothbrushing%2Bwith%2BNaF%2Band%2BMFP%2Bdentifrices%2Bwith%2Bdifferent%2BF%2Bconcentrations&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000260778&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b52"><span class="bullet">52</span>
-               <span class="author">Zero DT.</span>, 
-<span class="author">Raubertas RF.</span>, 
-<span class="author">Pedersen AM.</span>, 
-<span class="author">Fu J.</span>, 
-<span class="author">Hayes AL.</span>, 
-<span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">Fluoride concentrations in plaque, whole saliva and ductal saliva after applications of home-use fluoride agents</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Zero DT.</span>,
+<span class="author">Raubertas RF.</span>,
+<span class="author">Pedersen AM.</span>,
+<span class="author">Fu J.</span>,
+<span class="author">Hayes AL.</span>,
+<span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">Fluoride concentrations in plaque, whole saliva and ductal saliva after applications of home-use fluoride agents</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1992</span>; <span class="vol">71</span>: <span class="pageFirst">1768</span>–<span class="pageLast">75</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345920710110201</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaK3sXjt12itQ%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345920710110201&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1401438&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345920710110201&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1992JW89600002&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345920710110201&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D71%26publication_year%3D1992%26pages%3D1768-75%26journal%3DJ%2BDent%2BRes%26author%3DDT.%2BZero%26author%3DRF.%2BRaubertas%26author%3DAM.%2BPedersen%26author%3DJ.%2BFu%26author%3DAL.%2BHayes%26author%3DJDB.%2BFeatherstone%26title%3DFluoride%2Bconcentrations%2Bin%2Bplaque%252C%2Bwhole%2Bsaliva%2Band%2Bductal%2Bsaliva%2Bafter%2Bapplications%2Bof%2Bhome%25E2%2580%2590use%2Bfluoride%2Bagents&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345920710110201&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b53"><span class="bullet">53</span>
-               <span class="author">Billings RJ.</span>, 
-<span class="author">Meyerowitz C.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Espeland MA.</span>, 
-<span class="author">Fu J.</span>, 
-<span class="author">Cooper LF.</span>. 
-<span class="articleTitle">Retention of topical fluoride in the mouths of xerostomic subjects</span>. 
-<i>Caries Res</i> 
+               <span class="author">Billings RJ.</span>,
+<span class="author">Meyerowitz C.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Espeland MA.</span>,
+<span class="author">Fu J.</span>,
+<span class="author">Cooper LF.</span>.
+<span class="articleTitle">Retention of topical fluoride in the mouths of xerostomic subjects</span>.
+<i>Caries Res</i>
                <span class="pubYear">1988</span>; <span class="vol">33</span>: <span class="pageFirst">306</span>–<span class="pageLast">10</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1159/000261126</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D33%26publication_year%3D1988%26pages%3D306-10%26journal%3DCaries%2BRes%26author%3DRJ.%2BBillings%26author%3DC.%2BMeyerowitz%26author%3DJDB.%2BFeatherstone%26author%3DMA.%2BEspeland%26author%3DJ.%2BFu%26author%3DLF.%2BCooper%26title%3DRetention%2Bof%2Btopical%2Bfluoride%2Bin%2Bthe%2Bmouths%2Bof%2Bxerostomic%2Bsubjects&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1159%2F000261126&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b54"><span class="bullet">54</span>
-               <span class="author">Meyerowitz C.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Billings RJ.</span>, 
-<span class="author">Eisenberg AD.</span>, 
-<span class="author">Fu J.</span>, 
-<span class="author">Shariati M.</span>, <i>et al</i> . 
-<span class="articleTitle">Use of and intra-oral model to evaluate 0.05 sodium fluoride mouthrinse in radiation-induced hyposalivation</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Meyerowitz C.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Billings RJ.</span>,
+<span class="author">Eisenberg AD.</span>,
+<span class="author">Fu J.</span>,
+<span class="author">Shariati M.</span>, <i>et al</i> .
+<span class="articleTitle">Use of and intra-oral model to evaluate 0.05 sodium fluoride mouthrinse in radiation-induced hyposalivation</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1991</span>; <span class="vol">70</span>: <span class="pageFirst">894</span>–<span class="pageLast">8</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345910700050601</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaK3M3hslaquw%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345910700050601&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=2022771&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345910700050601&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1991FK31200006&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345910700050601&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D70%26publication_year%3D1991%26pages%3D894-8%26journal%3DJ%2BDent%2BRes%26author%3DC.%2BMeyerowitz%26author%3DJDB.%2BFeatherstone%26author%3DRJ.%2BBillings%26author%3DAD.%2BEisenberg%26author%3DJ.%2BFu%26author%3DM.%2BShariati%26title%3DUse%2Bof%2Band%2Bintra%25E2%2580%2590oral%2Bmodel%2Bto%2Bevaluate%2B0.05%2Bsodium%2Bfluoride%2Bmouthrinse%2Bin%2Bradiation%25E2%2580%2590induced%2Bhyposalivation&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345910700050601&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b55"><span class="bullet">55</span>
-               <span class="author">Leverett DH.</span>, 
-<span class="author">Proskin HM.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Adair SM.</span>, 
-<span class="author">Eisenberg AD.</span>, 
-<span class="author">Mundorff-Shrestha, SA.</span>, <i>et al</i>. 
-<span class="articleTitle">Caries risk assessment in a longitudinal discrimination study</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Leverett DH.</span>,
+<span class="author">Proskin HM.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Adair SM.</span>,
+<span class="author">Eisenberg AD.</span>,
+<span class="author">Mundorff-Shrestha, SA.</span>, <i>et al</i>.
+<span class="articleTitle">Caries risk assessment in a longitudinal discrimination study</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1993</span>; <span class="vol">72</span>: <span class="pageFirst">538</span>–<span class="pageLast">43</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345930720021101</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8380821&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345930720021101&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1993KK85700011&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345930720021101&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D72%26publication_year%3D1993%26pages%3D538-43%26journal%3DJ%2BDent%2BRes%26author%3DDH.%2BLeverett%26author%3DHM.%2BProskin%26author%3DJDB.%2BFeatherstone%26author%3DSM.%2BAdair%26author%3DAD.%2BEisenberg%26author%3DSA.%2BMundorff%25E2%2580%2590Shrestha%26title%3DCaries%2Brisk%2Bassessment%2Bin%2Ba%2Blongitudinal%2Bdiscrimination%2Bstudy&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345930720021101&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b56"><span class="bullet">56</span>
-               <span class="author">Leverett DH.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Proskin HM.</span>, 
-<span class="author">Adair SM.</span>, 
-<span class="author">Eisenberg AD.</span>, 
-<span class="author">Mundorff-Shrestha, SA.</span>, <i>et al</i>. 
-<span class="articleTitle">Caries risk assessment by a cross-sectional discrimination model</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Leverett DH.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Proskin HM.</span>,
+<span class="author">Adair SM.</span>,
+<span class="author">Eisenberg AD.</span>,
+<span class="author">Mundorff-Shrestha, SA.</span>, <i>et al</i>.
+<span class="articleTitle">Caries risk assessment by a cross-sectional discrimination model</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1993</span>; <span class="vol">72</span>: <span class="pageFirst">529</span>–<span class="pageLast">37</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/00220345930720021001</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8423251&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345930720021001&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1993KK85700010&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F00220345930720021001&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D72%26publication_year%3D1993%26pages%3D529-37%26journal%3DJ%2BDent%2BRes%26author%3DDH.%2BLeverett%26author%3DJDB.%2BFeatherstone%26author%3DHM.%2BProskin%26author%3DSM.%2BAdair%26author%3DAD.%2BEisenberg%26author%3DSA.%2BMundorff%25E2%2580%2590Shrestha%26title%3DCaries%2Brisk%2Bassessment%2Bby%2Ba%2Bcross%25E2%2580%2590sectional%2Bdiscrimination%2Bmodel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F00220345930720021001&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b57"><span class="bullet">57</span>
-               <span class="author">Shields CP.</span>, 
-<span class="author">Moss ME.</span>, 
-<span class="author">Featherstone JDB.</span>, 
-<span class="author">Proskin HM.</span>, 
-<span class="author">Billings RJ.</span>. 
-<span class="articleTitle">Chemical analysis of saliva: a longitudinal study</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Shields CP.</span>,
+<span class="author">Moss ME.</span>,
+<span class="author">Featherstone JDB.</span>,
+<span class="author">Proskin HM.</span>,
+<span class="author">Billings RJ.</span>.
+<span class="articleTitle">Chemical analysis of saliva: a longitudinal study</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1995</span>; <span class="vol">74</span>: <span class="pageFirst">15</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1995QA00800032&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_58_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D74%26publication_year%3D1995%26pages%3D15%26journal%3DJ%2BDent%2BRes%26author%3DCP.%2BShields%26author%3DME.%2BMoss%26author%3DJDB.%2BFeatherstone%26author%3DHM.%2BProskin%26author%3DRJ.%2BBillings%26title%3DChemical%2Banalysis%2Bof%2Bsaliva%253A%2Ba%2Blongitudinal%2Bstudy&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b58"><span class="bullet">58</span>
-               <span class="author">Shields CP.</span>, 
-<span class="author">Moss ME.</span>, 
-<span class="author">Billings RJ.</span>, 
-<span class="author">Featherstone JDB.</span>. 
-<span class="articleTitle">A longitudinal chemical analysis of saliva [abstract]</span>. 
-<i>J Dent Res</i> 
+               <span class="author">Shields CP.</span>,
+<span class="author">Moss ME.</span>,
+<span class="author">Billings RJ.</span>,
+<span class="author">Featherstone JDB.</span>.
+<span class="articleTitle">A longitudinal chemical analysis of saliva [abstract]</span>.
+<i>J Dent Res</i>
                <span class="pubYear">1997</span>; <span class="vol">76</span>(Spec Iss).
                <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D76%26publication_year%3D1997%26journal%3DJ%2BDent%2BRes%26author%3DCP.%2BShields%26author%3DME.%2BMoss%26author%3DRJ.%2BBillings%26author%3DJDB.%2BFeatherstone%26title%3DA%2Blongitudinal%2Bchemical%2Banalysis%2Bof%2Bsaliva%2B%255Babstract%255D&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b59"><span class="bullet">59</span>
-               <span class="author">Featherstone JDB.</span>. 
- <span class="chapterTitle">Clinical implications of early caries detection: new strategies for caries prevention</span>. In:  <span class="editor">GH. Stookey</span>, 
- <span class="editor">B. Beiswanger</span>, editors . 
+               <span class="author">Featherstone JDB.</span>.
+ <span class="chapterTitle">Clinical implications of early caries detection: new strategies for caries prevention</span>. In:  <span class="editor">GH. Stookey</span>,
+ <span class="editor">B. Beiswanger</span>, editors .
  <span class="bookTitle">Indiana Conference 1996: Early Detection of Dental Caries</span>. Indiana University; <span class="pubYear">1996</span>. p.  <span class="pageFirst">285</span>–<span class="pageLast">93</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1996%26pages%3D285-93%26author%3DJDB.%2BFeatherstone%26title%3DIndiana%2BConference%2B1996%253A%2BEarly%2BDetection%2Bof%2BDental%2BCaries&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b60"><span class="bullet">60</span>
-               <span class="author">Krasse B.</span>. 
-<span class="articleTitle">Biological factors as indicators of future caries</span>. 
-<i>Int Dent J</i> 
+               <span class="author">Krasse B.</span>.
+<span class="articleTitle">Biological factors as indicators of future caries</span>.
+<i>Int Dent J</i>
                <span class="pubYear">1988</span>; <span class="vol">38</span>: <span class="pageFirst">219</span>–<span class="pageLast">25</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3063665&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_61_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D38%26publication_year%3D1988%26pages%3D219-25%26journal%3DInt%2BDent%2BJ%26author%3DB.%2BKrasse%26title%3DBiological%2Bfactors%2Bas%2Bindicators%2Bof%2Bfuture%2Bcaries&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b61"><span class="bullet">61</span>
-               <span class="author">Ellen RP.</span>. 
-<span class="articleTitle">Microbiological assays for dental caries and periodontal disease susceptibility</span>. 
-<i>Oral Sci Rev</i> 
+               <span class="author">Ellen RP.</span>.
+<span class="articleTitle">Microbiological assays for dental caries and periodontal disease susceptibility</span>.
+<i>Oral Sci Rev</i>
                <span class="pubYear">1976</span>; <span class="vol">8</span>: <span class="pageFirst">3</span>–<span class="pageLast">23</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=10540&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_62_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D8%26publication_year%3D1976%26pages%3D3-23%26journal%3DOral%2BSci%2BRev%26author%3DRP.%2BEllen%26title%3DMicrobiological%2Bassays%2Bfor%2Bdental%2Bcaries%2Band%2Bperiodontal%2Bdisease%2Bsusceptibility&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b62"><span class="bullet">62</span>
-               <span class="author">Alaluusua S.</span>, 
-<span class="author">Kleemola-Kujala E.</span>, 
-<span class="author">Nystrom M.</span>, 
-<span class="author">Evalahti M.</span>, 
-<span class="author">Gronroos L.</span>. 
-<span class="articleTitle">Caries in the primary teeth and salivary S. mutans and lactobacillus levels as indicators of caries in permanent teeth</span>. 
-<i>Pediat Dent</i> 
+               <span class="author">Alaluusua S.</span>,
+<span class="author">Kleemola-Kujala E.</span>,
+<span class="author">Nystrom M.</span>,
+<span class="author">Evalahti M.</span>,
+<span class="author">Gronroos L.</span>.
+<span class="articleTitle">Caries in the primary teeth and salivary S. mutans and lactobacillus levels as indicators of caries in permanent teeth</span>.
+<i>Pediat Dent</i>
                <span class="pubYear">1987</span>; <span class="vol">9</span>: <span class="pageFirst">126</span>–<span class="pageLast">30</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3475681&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_63_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D9%26publication_year%3D1987%26pages%3D126-30%26journal%3DPediat%2BDent%26author%3DS.%2BAlaluusua%26author%3DE.%2BKleemola%25E2%2580%2590Kujala%26author%3DM.%2BNystrom%26author%3DM.%2BEvalahti%26author%3DL.%2BGronroos%26title%3DCaries%2Bin%2Bthe%2Bprimary%2Bteeth%2Band%2Bsalivary%2BS.%2Bmutans%2Band%2Blactobacillus%2Blevels%2Bas%2Bindicators%2Bof%2Bcaries%2Bin%2Bpermanent%2Bteeth&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b63"><span class="bullet">63</span>
-               <span class="author">Klock B.</span>, 
-<span class="author">Krasse B.</span>. 
-<span class="articleTitle">Microbial and salivary conditions in 9- to 12-year-old children</span>. 
-<i>Scand J Dent Res</i> 
+               <span class="author">Klock B.</span>,
+<span class="author">Krasse B.</span>.
+<span class="articleTitle">Microbial and salivary conditions in 9- to 12-year-old children</span>.
+<i>Scand J Dent Res</i>
                <span class="pubYear">1977</span>; <span class="vol">85</span>: <span class="pageFirst">56</span>–<span class="pageLast">63</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=14393&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_64_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1977CT33100011&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_64_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D85%26publication_year%3D1977%26pages%3D56-63%26journal%3DScand%2BJ%2BDent%2BRes%26author%3DB.%2BKlock%26author%3DB.%2BKrasse%26title%3DMicrobial%2Band%2Bsalivary%2Bconditions%2Bin%2B9%25E2%2580%2590%2Bto%2B12%25E2%2580%2590year%25E2%2580%2590old%2Bchildren&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b64"><span class="bullet">64</span>
-               <span class="author">Seppa L.</span>, 
-<span class="author">Hausen H.</span>. 
-<span class="articleTitle">Frequency of initial caries lesions as predictor of future caries increment in children</span>. 
-<i>Scand J Dent Res</i> 
+               <span class="author">Seppa L.</span>,
+<span class="author">Hausen H.</span>.
+<span class="articleTitle">Frequency of initial caries lesions as predictor of future caries increment in children</span>.
+<i>Scand J Dent Res</i>
                <span class="pubYear">1988</span>; <span class="vol">96</span>: <span class="pageFirst">9</span>–<span class="pageLast">13</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3422510&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_65_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1988L859300002&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_65_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D96%26publication_year%3D1988%26pages%3D9-13%26journal%3DScand%2BJ%2BDent%2BRes%26author%3DL.%2BSeppa%26author%3DH.%2BHausen%26title%3DFrequency%2Bof%2Binitial%2Bcaries%2Blesions%2Bas%2Bpredictor%2Bof%2Bfuture%2Bcaries%2Bincrement%2Bin%2Bchildren&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b65"><span class="bullet">65</span>
-               <span class="author">Loesche WJ.</span>, 
-<span class="author">Eklund S.</span>, 
-<span class="author">Earnest R.</span>, 
-<span class="author">Burt BA.</span>. 
-<span class="articleTitle">Longitudinal investigation of bacteriology of human fissure decay: epidemiological studies in molars shortly after eruption</span>. 
-<i>Infect Immun</i> 
+               <span class="author">Loesche WJ.</span>,
+<span class="author">Eklund S.</span>,
+<span class="author">Earnest R.</span>,
+<span class="author">Burt BA.</span>.
+<span class="articleTitle">Longitudinal investigation of bacteriology of human fissure decay: epidemiological studies in molars shortly after eruption</span>.
+<i>Infect Immun</i>
                <span class="pubYear">1984</span>; <span class="vol">46</span>: <span class="pageFirst">765</span>–<span class="pageLast">72</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaL2M%252FltlCqug%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_66_2%3ACOI&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=6500709&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_66_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1984TU54900026&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_66_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D46%26publication_year%3D1984%26pages%3D765-72%26journal%3DInfect%2BImmun%26author%3DWJ.%2BLoesche%26author%3DS.%2BEklund%26author%3DR.%2BEarnest%26author%3DBA.%2BBurt%26title%3DLongitudinal%2Binvestigation%2Bof%2Bbacteriology%2Bof%2Bhuman%2Bfissure%2Bdecay%253A%2Bepidemiological%2Bstudies%2Bin%2Bmolars%2Bshortly%2Bafter%2Beruption&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b66"><span class="bullet">66</span>
-               <span class="author">Kingman A.</span>, 
-<span class="author">Little W.</span>, 
-<span class="author">Gomez I.</span>, 
-<span class="author">Heifitz SB.</span>, 
-<span class="author">Driscoll WS.</span>, 
-<span class="author">Sheats R.</span>, <i>et al</i> . 
-<span class="articleTitle">Salivary levels of Streptococcus mutans and lactobacilli and dental caries experience in a US adolescent population</span>. 
-<i>Community Dent Oral Epidem</i> 
+               <span class="author">Kingman A.</span>,
+<span class="author">Little W.</span>,
+<span class="author">Gomez I.</span>,
+<span class="author">Heifitz SB.</span>,
+<span class="author">Driscoll WS.</span>,
+<span class="author">Sheats R.</span>, <i>et al</i> .
+<span class="articleTitle">Salivary levels of Streptococcus mutans and lactobacilli and dental caries experience in a US adolescent population</span>.
+<i>Community Dent Oral Epidem</i>
                <span class="pubYear">1988</span>; <span class="vol">16</span>: <span class="pageFirst">98</span>–<span class="pageLast">103</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1111/j.1600-0528.1988.tb01852.x</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3162865&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1111%2Fj.1600-0528.1988.tb01852.x&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1988M682100009&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1111%2Fj.1600-0528.1988.tb01852.x&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D16%26publication_year%3D1988%26pages%3D98-103%26journal%3DCommunity%2BDent%2BOral%2BEpidem%26author%3DA.%2BKingman%26author%3DW.%2BLittle%26author%3DI.%2BGomez%26author%3DSB.%2BHeifitz%26author%3DWS.%2BDriscoll%26author%3DR.%2BSheats%26title%3DSalivary%2Blevels%2Bof%2BStreptococcus%2Bmutans%2Band%2Blactobacilli%2Band%2Bdental%2Bcaries%2Bexperience%2Bin%2Ba%2BUS%2Badolescent%2Bpopulation&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1111%2Fj.1600-0528.1988.tb01852.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b67"><span class="bullet">67</span>
-               <span class="author">Ten Cate JM.</span>, 
-<span class="author">Mundorff-Shrestha SA.</span>. 
-<span class="articleTitle">Working group report: Laboratory models for caries (In vitro and animal models)</span>. 
-<i>Adv Dent Res</i> 
+               <span class="author">Ten Cate JM.</span>,
+<span class="author">Mundorff-Shrestha SA.</span>.
+<span class="articleTitle">Working group report: Laboratory models for caries (In vitro and animal models)</span>.
+<i>Adv Dent Res</i>
                <span class="pubYear">1995</span>; <span class="vol">9</span>: <span class="pageFirst">332</span>–<span class="pageLast">4</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8615952&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_68_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D9%26publication_year%3D1995%26pages%3D332-4%26journal%3DAdv%2BDent%2BRes%26author%3DJM.%2BCate%26author%3DSA.%2BMundorff%25E2%2580%2590Shrestha%26title%3DWorking%2Bgroup%2Breport%253A%2BLaboratory%2Bmodels%2Bfor%2Bcaries%2B%2528In%2Bvitro%2Band%2Banimal%2Bmodels%2529&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b68"><span class="bullet">68</span>
-               <span class="author">Featherstone JDB.</span>, 
-<span class="author">Zero DT.</span>. 
- <span class="chapterTitle">Laboratory and human studies to elucidate the mechanism of action of fluoride-containing dentifrices</span>. In:  <span class="editor">G. Emberry</span>, 
- <span class="editor">R. Rolla</span>, editors . 
- <span class="bookTitle">Clinical and biological aspects of dentifrices</span>. 
+               <span class="author">Featherstone JDB.</span>,
+<span class="author">Zero DT.</span>.
+ <span class="chapterTitle">Laboratory and human studies to elucidate the mechanism of action of fluoride-containing dentifrices</span>. In:  <span class="editor">G. Emberry</span>,
+ <span class="editor">R. Rolla</span>, editors .
+ <span class="bookTitle">Clinical and biological aspects of dentifrices</span>.
             Oxford
           : Oxford Univ Pr; <span class="pubYear">1992</span>. p.  <span class="pageFirst">41</span>–<span class="pageLast">50</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1992%26pages%3D41-50%26author%3DJDB.%2BFeatherstone%26author%3DDT.%2BZero%26title%3DClinical%2Band%2Bbiological%2Baspects%2Bof%2Bdentifrices&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b69"><span class="bullet">69</span>
-               <span class="author">Arends J.</span>, 
-<span class="author">Nelson DGA.</span>, 
-<span class="author">Dijkman AG.</span>, 
-<span class="author">Jongebloed WL.</span>. 
- <span class="chapterTitle">Effect of various fluorides on enamel structure and chemistry</span>. In:  <span class="editor">B. Guggenheim</span>, editor . 
- <span class="bookTitle">Cariology Today, Int. Congr</span>., 
+               <span class="author">Arends J.</span>,
+<span class="author">Nelson DGA.</span>,
+<span class="author">Dijkman AG.</span>,
+<span class="author">Jongebloed WL.</span>.
+ <span class="chapterTitle">Effect of various fluorides on enamel structure and chemistry</span>. In:  <span class="editor">B. Guggenheim</span>, editor .
+ <span class="bookTitle">Cariology Today, Int. Congr</span>.,
             Zurich
-            . 
+            .
             Basel
-            , 
+            ,
             Switzerland
           : Karger, <span class="pubYear">1983</span>: <span class="pageFirst">245</span>–<span class="pageLast">58</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1983%26pages%3D245-58%26author%3DJ.%2BArends%26author%3DDGA.%2BNelson%26author%3DAG.%2BDijkman%26author%3DWL.%2BJongebloed%26title%3DCariology%2BToday%252C%2BInt.%2BCongr&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b70"><span class="bullet">70</span>
-               <span class="author">Zero DT.</span>. 
-<span class="articleTitle">In situ caries models</span>. 
-<i>Adv Dent Res</i> 
+               <span class="author">Zero DT.</span>.
+<span class="articleTitle">In situ caries models</span>.
+<i>Adv Dent Res</i>
                <span class="pubYear">1995</span>; <span class="vol">9</span>: <span class="pageFirst">214</span>–<span class="pageLast">30</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1177/08959374950090030501</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=8615944&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F08959374950090030501&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1995TA12800015&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1177%2F08959374950090030501&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D9%26publication_year%3D1995%26pages%3D214-30%26journal%3DAdv%2BDent%2BRes%26author%3DDT.%2BZero%26title%3DIn%2Bsitu%2Bcaries%2Bmodels&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1177%2F08959374950090030501&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b71"><span class="bullet">71</span>
-               <span class="author">Larsen MJ.</span>. 
-<span class="articleTitle">Chemically induced in vitro lesions in dental enamel</span>. 
-<i>Scand J Dent Res</i> 
+               <span class="author">Larsen MJ.</span>.
+<span class="articleTitle">Chemically induced in vitro lesions in dental enamel</span>.
+<i>Scand J Dent Res</i>
                <span class="pubYear">1974</span>; <span class="vol">82</span>: <span class="pageFirst">496</span>–<span class="pageLast">509</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaE2MXht1arsrs%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_72_2%3ACOI&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=4531100&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_72_2%3APMID&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1974U873200004&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=e_1_2_1_72_2%3AISI&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D82%26publication_year%3D1974%26pages%3D496-509%26journal%3DScand%2BJ%2BDent%2BRes%26author%3DMJ.%2BLarsen%26title%3DChemically%2Binduced%2Bin%2Bvitro%2Blesions%2Bin%2Bdental%2Benamel&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b72"><span class="bullet">72</span>
-               <span class="author">Larsen MJ.</span>. 
-<span class="articleTitle">An investigation of the theoretical back-ground for the stability of calcium phosphate salts and their mutual conversion in aqueous solutions</span>. 
-<i>Arch Oral Biol</i> 
+               <span class="author">Larsen MJ.</span>.
+<span class="articleTitle">An investigation of the theoretical back-ground for the stability of calcium phosphate salts and their mutual conversion in aqueous solutions</span>.
+<i>Arch Oral Biol</i>
                <span class="pubYear">1986</span>; <span class="vol">31</span>: <span class="pageFirst">757</span>–<span class="pageLast">61</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1016/0003-9969(86)90008-7</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ACAS%3A528%3ADyaL2sXlsFOlsg%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0003-9969%2886%2990008-7&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=3479063&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0003-9969%2886%2990008-7&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1986F077300008&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1016%2F0003-9969%2886%2990008-7&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D31%26publication_year%3D1986%26pages%3D757-61%26journal%3DArch%2BOral%2BBiol%26author%3DMJ.%2BLarsen%26title%3DAn%2Binvestigation%2Bof%2Bthe%2Btheoretical%2Bback%25E2%2580%2590ground%2Bfor%2Bthe%2Bstability%2Bof%2Bcalcium%2Bphosphate%2Bsalts%2Band%2Btheir%2Bmutual%2Bconversion%2Bin%2Baqueous%2Bsolutions&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1016%2F0003-9969%2886%2990008-7&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b73"><span class="bullet">73</span>
-               <span class="author">Stephen KW.</span>, 
-<span class="author">Campbell D.</span>. 
-<span class="articleTitle">Caries reduction and cost benefit after 3 years of sucking fluoride tablets daily at school. A double blind trial</span>. 
-<i>British Dent J</i> 
+               <span class="author">Stephen KW.</span>,
+<span class="author">Campbell D.</span>.
+<span class="articleTitle">Caries reduction and cost benefit after 3 years of sucking fluoride tablets daily at school. A double blind trial</span>.
+<i>British Dent J</i>
                <span class="pubYear">1978</span>; <span class="vol">144</span>: <span class="pageFirst">202</span>–<span class="pageLast">6</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.1038/sj.bdj.4804066</span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=32&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=1%3ASTN%3A280%3ADyaE1c7ksVCqsA%253D%253D&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1038%2Fsj.bdj.4804066&amp;linkType=COI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">CAS</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=8&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=416842&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1038%2Fsj.bdj.4804066&amp;linkType=PMID&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">PubMed</a></span><span><a href="/web/20250618225055/https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&amp;dbid=128&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;key=A1978EV19100010&amp;getFTLinkType=true&amp;doiForPubOfPage=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;refDoi=10.1038%2Fsj.bdj.4804066&amp;linkType=ISI&amp;linkSource=FULL_TEXT&amp;linkLocation=Reference" class="visitable" target="_blank">Web of Science®</a></span><span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D144%26publication_year%3D1978%26pages%3D202-6%26journal%3DBritish%2BDent%2BJ%26author%3DKW.%2BStephen%26author%3DD.%2BCampbell%26title%3DCaries%2Breduction%2Band%2Bcost%2Bbenefit%2Bafter%2B3%2Byears%2Bof%2Bsucking%2Bfluoride%2Btablets%2Bdaily%2Bat%2Bschool.%2BA%2Bdouble%2Bblind%2Btrial&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;doiOfLink=10.1038%2Fsj.bdj.4804066&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b74"><span class="bullet">74</span>
-               <span class="author">Ekstrand J.</span>. 
- <span class="chapterTitle">Fluoride metabolism</span>. In:  <span class="editor">O. Fejerskov</span>, 
- <span class="editor">J. Ekstrand</span>, 
- <span class="editor">BA. Burt</span>, editors . 
- <span class="bookTitle">Fluoride in dentistry</span>. 
+               <span class="author">Ekstrand J.</span>.
+ <span class="chapterTitle">Fluoride metabolism</span>. In:  <span class="editor">O. Fejerskov</span>,
+ <span class="editor">J. Ekstrand</span>,
+ <span class="editor">BA. Burt</span>, editors .
+ <span class="bookTitle">Fluoride in dentistry</span>.
             Copenhagen
           : Munksgaard; <span class="pubYear">1996</span>. p.  <span class="pageFirst">55</span>–<span class="pageLast">68</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi"></span><div class="getFTR__content getFTR__placeholder"></div>
                   <span><a class="google-scholar visitable" href="/web/20250618225055/https://onlinelibrary.wiley.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D1996%26pages%3D55-68%26author%3DJ.%2BEkstrand%26title%3DFluoride%2Bin%2Bdentistry&amp;doi=10.1111%2Fj.1600-0528.1999.tb01989.x&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></li>
-            
+
             <li data-bib-id="b75"><span class="bullet">75</span>
-               <span class="author">Brown LJ.</span>, 
-<span class="author">Winn DM.</span>, 
-<span class="author">White BA.</span>. 
-<span class="articleTitle">Dental caries, restoration and tooth conditions in U.S. adults, 1988–1991</span>. 
-<i>J Am Dent Assoc</i> 
+               <span class="author">Brown LJ.</span>,
+<span class="author">Winn DM.</span>,
+<span class="author">White BA.</span>.
+<span class="articleTitle">Dental caries, restoration and tooth conditions in U.S. adults, 1988–1991</span>.
+<i>J Am Dent Assoc</i>
                <span class="pubYear">1996</span>; <span class="vol">127</span>: <span class="pageFirst">1315</span>–<span class="pageLast">25</span>.
 
 <div class="extra-links getFTR"><span class="hidden data-doi">10.14219/jada.archive.1996.0442</span><div class="getFTR__content getFTR__placeholder"></div>
@@ -1721,7 +1721,7 @@ if (articleRef) { articleRef.style.display = "none"; }
 <h2 class="sr-only">
                 Additional links
             </h2>
-        
+
         <div class="container"><div class="row"><div class=" col-md-3">
 
 <div class="footer-links mb-3">
@@ -1769,7 +1769,7 @@ if (articleRef) { articleRef.style.display = "none"; }
       <li><a href="http://web.archive.org/web/20250618225055/https://hub.wiley.com/community/support/onlinelibrary">Contact Us</a></li>
       <li><a href="http://web.archive.org/web/20250618225055/https://www.wiley.com/customer-success/wiley-online-library-training-hub">Training and Support</a></li>
     <li><a href="http://web.archive.org/web/20250618225055/https://onlinelibrary.wiley.com/dmca-notification-policy">DMCA &amp; Reporting Piracy</a></li>
- 
+
     </ul>
   </div>
 </div><div class=" col-md-3">
@@ -1806,7 +1806,7 @@ if (articleRef) { articleRef.style.display = "none"; }
 </div>
 
 <style type="text/css">
-        
+
         .DST-copyright {
                 max-width: 340px;
                 float: right;
@@ -1827,7 +1827,7 @@ if (articleRef) { articleRef.style.display = "none"; }
 </div>
 
 <div class="footer-logo pull-left">
-        
+
 <a href="http://web.archive.org/web/20250618225055/https://www.wiley.com/" title="Wiley Home Page" aria-label="Wiley"><img alt="Wiley Home Page" src="/web/20250618225055im_/https://onlinelibrary.wiley.com/pb-assets/tmp-images/footer-logo-wiley-1510029248417.png"></a>
 
 </div>
@@ -1858,7 +1858,7 @@ if (articleRef) { articleRef.style.display = "none"; }
 
 <div class="modal__body">
             <div class="ssoLogin">
-                
+
             </div>
 
 <h2 id="loginPopupHead">Log in to Wiley Online Library</h2>
@@ -1866,7 +1866,7 @@ if (articleRef) { articleRef.style.display = "none"; }
 <div class="login-form">
 
 <form action="/web/20250618225055/https://onlinelibrary.wiley.com/action/doLogin?societyURLCode=" class="bordered" method="post"><input type="hidden" name="id" value="67065c09-4a88-49cd-934c-ac707951d35c"/>
-        
+
             <input type="hidden" name="popup" value="true"/>
 
 <input type="hidden" name="loginUri" value="/doi/abs/10.1111/j.1600-0528.1999.tb01989.x"/>
@@ -1878,84 +1878,84 @@ if (articleRef) { articleRef.style.display = "none"; }
         <div class="label">
 
 <label for="username">Email or Customer ID</label>
-                
-            
+
+
         </div>
-        
-        
-            
-            
+
+
+
+
                 <input id="username" class="login" type="text" name="login" value="" size="15" placeholder="Enter your email" autocorrect="off" spellcheck="false" autocapitalize="off" required="true"/>
-            
-        
-        
-                    
+
+
+
+
                         <div class="actions">
-                            
+
                         </div>
-                    
-                
+
+
     </div>
 
 <div class="input-group">
         <div class="label">
             <label for="password">Password</label>
         </div>
-        
-        
-            
-            
+
+
+
+
                 <input id="password" class="password" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password" autocorrect="off" spellcheck="false" autocapitalize="off" required="true"/>
-            
-        
+
+
         <span class="password-eye-icon icon-eye hidden" role="button" tabindex="0" aria-label="Password visibility" aria-pressed="false"></span>
-        
-                
+
+
     </div>
 
 <div class="actions">
-                            
+
                             <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/requestResetPassword" class="link show-request-reset-password">
                                 Forgot password?
                             </a>
                         </div>
-                    
-                
-            
-        
-        
+
+
+
+
+
         <div class="loginExtraBeans-dropZone" data-pb-dropzone="loginExtraBeans">
-            
+
         </div>
 
 <div class="align-end">
-                    
-                    
-                        
-                            
+
+
+
+
                             <span class="submit ">
                                 <input class="button btn submit primary no-margin-bottom accessSubmit" type="submit" name="submitButton" value="Log In"/>
                             </span>
-                        
-                        
-                    
+
+
+
                 </div></form>
     <div class="societySpecificInstructions">
-        
+
     </div>
 </div>
 
 <div class="login-container clearfix form-btn">
                     <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/registration?acdl-redirect=true" class="linkBtn float-left" acdl-redirect="true" data-acdl-registration--step="registration initiated" data-acdl-event="registration-initiated" data-acdl-registration--cta-region="login modal">
-                        
+
                         NEW USER <span aria-hidden="true">&gt;</span>
                     </a>
-                    
+
                         <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/ssostart?redirectUri=%2Fdoi%2Fabs%2F10.1111%2Fj.1600-0528.1999.tb01989.x" class="linkBtn float-right instituation-login">
-                            
+
                             INSTITUTIONAL LOGIN <span aria-hidden="true">&gt;</span>
                         </a>
-                    
+
                 </div>
 
 </div>
@@ -2003,12 +2003,12 @@ if (articleRef) { articleRef.style.display = "none"; }
 </div>
 <div id="pswd_info" class="pass-strength-popup js__pswd_info" style="display: none;">
     <h4 id="length">
-        
-            
+
+
                 Your password must have 10 characters or more:
-            
-            
-        
+
+
+
     </h4>
     <ul>
         <li id="letter" class="invalid">
@@ -2026,7 +2026,7 @@ if (articleRef) { articleRef.style.display = "none"; }
     </ul>
     <span class="strength">Too Short</span>
 </div>
-                        
+
                     </div>
                     <input class="button primary submit" type="submit" value="Submit" disabled="disabled"/></form>
                 <a href="#" class="fakeFormLastElement"></a>
@@ -2045,7 +2045,7 @@ if (articleRef) { articleRef.style.display = "none"; }
         <a href="#" class="close" role="button" aria-label="close dialog"><i class="icon-tools_close"></i></a>
         <div class="modal__header">
             <div class="logoDropZone" data-pb-dropzone="logoDropZone">
-                
+
             </div>
 
 <h2 id="createAccountPopupHead">Create a new account</h2>
@@ -2064,7 +2064,7 @@ if (articleRef) { articleRef.style.display = "none"; }
                 </div></form>
             <div class="center">
                 <a href="/web/20250618225055/https://onlinelibrary.wiley.com/action/showLogin" class="show-login">
-                    
+
                     Returning user
                 </a>
             </div>
@@ -2091,26 +2091,26 @@ if (articleRef) { articleRef.style.display = "none"; }
 <div class="error"></div>
 
 <form action="/web/20250618225055/https://onlinelibrary.wiley.com/action/requestResetPassword" class="request-reset-password-form" method="post"><input type="hidden" name="requestResetPassword" value="true"/>
-    
-        
-        
+
+
+
             <div class="input-group">
 
 <div class="input-group">
         <div class="label">
 
 <label for="email">Email</label>
-                
-            
+
+
         </div>
-        
-        
-            
-            
+
+
+
+
                 <input id="email" class="email" type="text" name="email" value="" size="15" placeholder="Enter your email" autocorrect="off" spellcheck="false" autocapitalize="off"/>
-            
-        
-        
+
+
+
     </div>
 
 </div>

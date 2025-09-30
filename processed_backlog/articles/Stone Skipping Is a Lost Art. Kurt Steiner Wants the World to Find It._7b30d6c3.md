@@ -193,7 +193,7 @@ Suddenly, folks wanted to hear what Mountain Man had to say. But the record had 
 
 Paula hoped the record might quell an obsession that was contributing to the destruction of their marriage. But when she asked Kurt to cut back, she sounded to him like the pharmacist in Erie years before—only this time the medication was actually helping him.
 
-At the same time, his great rivalry faded. Russ suffered nerve flare-ups and polymyalgia rheumatica, an inflammatory condition that causes pain and stiffness. In 2014, Russ’s mother died. Then he got cancer, and by 2017, his T-shirts hung off him like bedsheets. That year Russ won his final Mackinac with a 31-skip Jesus fish. Soon after, Kurt visited him in Franklin. “We finally had that grand realization. It was a real kinship,”  
+At the same time, his great rivalry faded. Russ suffered nerve flare-ups and polymyalgia rheumatica, an inflammatory condition that causes pain and stiffness. In 2014, Russ’s mother died. Then he got cancer, and by 2017, his T-shirts hung off him like bedsheets. That year Russ won his final Mackinac with a 31-skip Jesus fish. Soon after, Kurt visited him in Franklin. “We finally had that grand realization. It was a real kinship,”
 Kurt told me.
 
 “This wasn’t about us,” he continued. “This was bigger shit. We fought hard enough, we beat each other up enough, that we didn’t have anything to prove to each other anymore. And now we were just friends.”
@@ -222,7 +222,7 @@ Kurt would like skipping to be less commercial, of course—he still believes it
 
 To stay the course, Kurt has one more wild ambition: to become the world record holder in both skimming *and* skipping. That would mean beating Dougie Isaacs, which is possible: Kurt has already thrown a rock to within 26 feet of Isaacs’s record. One thing holding him back is his financial situation and the cost of gas. Another is his body. Soon after I left Pennsylvania, Kurt had surgery on his busted shoulder, and he fears his 2022 season may already be over.
 
-It’s not his only challenge, though. One day Kurt would love to coach a female skipper and make his sport more inclusive. Fast-pitch softball techniques could easily be adapted to skipping, he told me—  
+It’s not his only challenge, though. One day Kurt would love to coach a female skipper and make his sport more inclusive. Fast-pitch softball techniques could easily be adapted to skipping, he told me—
 especially at Mackinac, where raw power counts for way less.
 
 But finding somebody with whom he could skip into his twilight years is a tougher test. “I’ve had to accept that there are things about myself I’m never gonna get right,” he said. Sometimes he dreams he’s dating a woman with brittle, walnut-like teeth that crumble when he tries to kiss her. “Maybe the most responsible thing for me to do…,” he said, tailing off. “I have to accept that I’m gonna be alone.”

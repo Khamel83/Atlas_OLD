@@ -44,7 +44,7 @@ It's honestly hard to keep track of OpenAI's AGI definitions these days — CEO 
 
 I already published two examples of Deep Research in last Tuesday's Stratechery Update ( https://stratechery.com/2025/apple-earnings-openai-deep-research-the-unbundling-of-substantiation/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7ImFydGljbGUiOiJDTDVYUDR4Q0Y4cVRLdXlLWTR3aTEiLCJhdWQiOlsiM2gzMWpGNHlUcXYyYTNjSE54QlpycCIsIkNLU21Fa2liUWFkM1pwcW5DVktGaSIsIkplclNkU0FpQnlGaDFla1lQTUU5blYiLCJKZHd4OXpwb1VZY1FucmhucU42UmF1IiwiTWRYRFlDTEtVMVBFNFJQZ3NaaFo5biIsIkNDQjY3a1V0V245WWJvZGtOZnB2SnMiLCJGUnRvQ25Ob1JjOFFCWW1vQ0tMSDVQIiwiV3Robkw5RHdqOUJDbWlBZmFqckNkIiwiNkFnMk1XZmNCeFl3OWtwR2o3ZDVZUSIsIkVINmhCVUVSa3FZV1FpWFZiMzRtVHgiLCJBczY3UHJkRGpURTRtZnNRWUM3RHJFIiwiUDFOVEMxeHRzUW4xQW1lUld5V3JVayIsIlFiYWgzb2JjcWl0OHQ3RlVNZTVTbXYiLCJZRlBndDduYmVBTnJpUzhTdXRCcGVjIiwiOGpaVHBvbm92OU13d2RkZ1lrVGliSiIsIk1RQnp1c0N3NlE1VDVMeHRWbzFkb0EiLCJMWWN3RGdYVHZmZUNneGRRQ2Qzdnh6IiwiWTZUVmZCU0NQTExYVDR3dkZRRmZTbyJdLCJkaXN0cm8iOiJDTDVjN3QzbW5SZ1dRNFZiOHNqZzEiLCJ1cmkiOlsiaHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyNS9hcHBsZS1lYXJuaW5ncy1vcGVuYWktZGVlcC1yZXNlYXJjaC10aGUtdW5idW5kbGluZy1vZi1zdWJzdGFudGlhdGlvbi8iXX0sImV4cCI6MTc0MTc5NDM5MSwiaWF0IjoxNzM5MjAyMzkxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.RSMaNZ7N5J6uPn4O_NS0Sag_-SP3hJ3c3tLNq7zTn6YMpZNoaLhdsNc7zK4c4YJSPXQGqXirG-Hni14uwQw7w3LPaOYa8KCnRGROtodXH9h-Qk7Yuj5QCIt4jJf7oExZV3n3Hr1pdWtrvxEcBP7kt3ayclWNPnVAco3VFZb_k-CQBXS41LESdVBDnJPnEkIS2J9eD6IScPif95TMOARHHWayxZIZKlpLtileo8LIzNw8q739Nw28x6uXjuLZIhGw2dIzKSX4VzaUlmbq-wEn7OwlfKQRCa6wEUA0M2liwaGCF6jul78wH3lqzAMa7c268fju4DcWCUwOPfoDxWVcXQ ). While I suggest reading the whole thing, to summarize:
 
-* 
+*
 
 First, I published my (brief) review of Apples recent earnings ( https://www.apple.com/newsroom/2025/01/apple-reports-first-quarter-results/ ) , including three observations:
 
@@ -52,13 +52,13 @@ First, I published my (brief) review of Apples recent earnings ( https://www.app
 * China sales were down again, but this wasn’t a new trend: it actually goes back nearly a decade, but you can only see that if you realize how the Huawei chip ban gave Apple a temporary boost in the country.
 * While Apple executives claimed that Apple Intelligence drove iPhone sales, there really wasn’t any evidence in the geographic sales numbers supporting that assertion.
 
-* 
+*
 
 Second, I published a Deep Research report using a generic prompt:
 
 I am Ben Thompson, the author of Stratechery. This is important information because I want you to understand my previous analysis of Apple, and the voice in which I write on Stratechery. I want a research report about Apple's latest earnings in the style and voice of Stratechery that is in line with my previous analysis.
 
-* 
+*
 
 Third, I published a Deep Research report using a prompt that incorporated my takeaways from the earnings:
 

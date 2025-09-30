@@ -18,7 +18,7 @@
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.3.1 (Yoast SEO v25.3.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://a16z.com/its-time-to-build/">
 	<meta property="og:locale" content="en_US">
@@ -114,8 +114,8 @@ img.wp-smiley, img.emoji {
 .page-bio-health-health-builders .bh-cta-banner .top-layer {right: 0;}
 
 .page-bio-health-bio-builders .bh-cta-banner .top-layer {right: 0;}		</style>
-		
-    
+
+
     <script>
     const MUNCHKIN_ID = '382-JZB-798';
     const MUNCHKIN_SCRIPT_URL = '//munchkin.marketo.net/munchkin.js';
@@ -219,17 +219,17 @@ document.addEventListener('cookieConsentAccepted', handleCookieConsent);
 function initAnalytics() {
         if (typeof gtag !== "undefined") {
             console.log("Analytics initialized");
-            
+
             var eventParams = {};
-            
+
             if (typeof window.pageVerticalCategory !== "undefined") {
                 eventParams.vertical_category = window.pageVerticalCategory;
             }
-            
+
             if (typeof window.pageCategories !== "undefined") {
                 eventParams.page_categories = window.pageCategories;
             }
-            
+
             if (Object.keys(eventParams).length > 0) {
                 gtag("event", "page_view", eventParams);
             }
@@ -445,9 +445,9 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
         </div>
     </div>
             <div class="header-progress"><span style="width: 0%;"></span></div>
-    
+
     </header>
-                                        
+
         <style>
         .article-banner--new {
             --a16z-share-theme: #ed8c00;
@@ -458,9 +458,9 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
 <div class="article-banner--new sm">
             <div class="img">
                             <picture>
-                    
+
                                             <source media="(max-width: 768px)" srcset="https://a16z.com/wp-content/themes/a16z/assets/images/article/banner-corporate-sm-mobile.jpg"></source>
-                    
+
                     <img src="https://a16z.com/wp-content/themes/a16z/assets/images/article/banner-corporate-sm.jpg" alt="">
                 </picture>
                     </div>
@@ -468,7 +468,7 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
                 <div class="inner">
                                                     <h1>It&rsquo;s Time to Build</h1>
                                                     <p class="auth"><a href="https://a16z.com/author/marc-andreessen/">Marc Andreessen</a></p>
-            
+
             <div class="controls-panel">
                                     <div class="share-holder">
     <div class="social--networks js-dropdown">
@@ -495,7 +495,7 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
             <div class="container">
                 <div class="cols-wrapper">
                     <div class="aside-col">
-                        
+
                                             </div>
 
                     <div class="content-col" data-hyperlinks-target="_blank">
@@ -503,7 +503,7 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
                                                                                     <div class="posted-on">
   Posted April 18, 2020 </div>
                         </div>
-                        
+
                         <div class="wp-content tombstone-enable">
                                                         <p>Every Western institution was unprepared for the coronavirus pandemic, despite many prior warnings. This monumental failure of institutional effectiveness will reverberate for the rest of the decade, but it&rsquo;s not too early to ask why, and what we need to do about it.</p>
 <p>Many of us would like to pin the cause on one political party or another, on one government or another. But the harsh reality is that it all failed&mdash;no Western country, or state, or city was prepared&mdash;and despite hard work and often extraordinary sacrifice by many people within these institutions. So the problem runs deeper than your favorite political opponent or your home nation.</p>
@@ -516,7 +516,7 @@ window.pageCategories = 'bio-health, building-in-bio, building-in-healthcare, co
                         <div class="form-hold">
                             <div class="marketo--form-wrapper">
                                 <form class="form-esignup" data-embedded-form-id="1633" data-forminstance="subscribe-inline-content-1" target="_blank" id="mktoForm-1633" data-thankyou-message="#widget-signup-ty-1" data-thankyou-container="#widget-signup-form-1"></form>
-                            
+
                                 <div id="widget-signup-ty-1" class="thankyou-message">
                                     <div class="thankyou-message-inner">
                                         <h4>Thanks for signing up.</h4>

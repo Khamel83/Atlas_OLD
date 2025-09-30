@@ -10,11 +10,11 @@
 
 ---
 
-# 
+#
 
-Unknown author • August 10, 2022 
+Unknown author • August 10, 2022
 
 ![](https://web-static.archive.org/_static/images/archive.ico)
 
-The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this.
 

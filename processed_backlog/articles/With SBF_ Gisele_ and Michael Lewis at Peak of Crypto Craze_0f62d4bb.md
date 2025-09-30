@@ -118,7 +118,7 @@ The next time I saw him was in November 2022, in the lobby beneath his $30 milli
 * [chapters](//nymag.com/intelligencer/tags/chapters/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

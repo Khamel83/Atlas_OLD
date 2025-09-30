@@ -33,7 +33,7 @@ class TestCognitiveFeatures(unittest.TestCase):
             "document_output_path": os.path.join(self.temp_dir, "documents"),
         }
         self.metadata_manager = MetadataManager(self.config)
-        
+
         # Create sample metadata files for testing
         self._create_sample_data()
 
@@ -45,7 +45,7 @@ class TestCognitiveFeatures(unittest.TestCase):
     def _create_sample_data(self):
         """Create sample metadata files for testing."""
         os.makedirs(os.path.join(self.temp_dir, "documents", "metadata"), exist_ok=True)
-        
+
         # Create sample metadata items
         sample_items = [
             {
@@ -70,7 +70,7 @@ class TestCognitiveFeatures(unittest.TestCase):
             },
             {
                 "uid": "old_tech_article",
-                "content_type": "document", 
+                "content_type": "document",
                 "source": "https://example.com/old-tech",
                 "title": "Technology Overview from 2020",
                 "status": "success",
@@ -92,7 +92,7 @@ class TestCognitiveFeatures(unittest.TestCase):
             {
                 "uid": "ml_tutorial",
                 "content_type": "document",
-                "source": "https://example.com/ml-tutorial", 
+                "source": "https://example.com/ml-tutorial",
                 "title": "Machine Learning Fundamentals",
                 "status": "success",
                 "tags": ["machine-learning", "AI", "education", "tutorial"],
@@ -129,7 +129,7 @@ class TestCognitiveFeatures(unittest.TestCase):
                 "type_specific": {}
             }
         ]
-        
+
         # Save metadata files
         for item in sample_items:
             filepath = os.path.join(
@@ -142,14 +142,14 @@ class TestCognitiveFeatures(unittest.TestCase):
         """Test ProactiveSurfacer with MetadataManager."""
         surfacer = ProactiveSurfacer(self.metadata_manager)
         forgotten_items = surfacer.surface_forgotten_content(n=5)
-        
+
         # Should return at least the old item
         self.assertGreater(len(forgotten_items), 0)
-        
+
         # Check that items are ContentMetadata instances
         for item in forgotten_items:
             self.assertIsInstance(item, ContentMetadata)
-            
+
         # Check that old item is included
         titles = [item.title for item in forgotten_items]
         self.assertIn("Technology Overview from 2020", titles)
@@ -158,16 +158,16 @@ class TestCognitiveFeatures(unittest.TestCase):
         """Test PatternDetector with MetadataManager."""
         detector = PatternDetector(self.metadata_manager)
         patterns = detector.find_patterns(n=10)
-        
+
         # Should return patterns dictionary
         self.assertIsInstance(patterns, dict)
         self.assertIn("top_tags", patterns)
         self.assertIn("top_sources", patterns)
-        
+
         # Check that common tags are detected
         top_tags = patterns["top_tags"]
         self.assertGreater(len(top_tags), 0)
-        
+
         # Machine-learning and AI should appear multiple times
         tag_names = [tag[0] for tag in top_tags]
         self.assertIn("machine-learning", tag_names)
@@ -177,10 +177,10 @@ class TestCognitiveFeatures(unittest.TestCase):
         """Test TemporalEngine with MetadataManager."""
         engine = TemporalEngine(self.metadata_manager)
         relationships = engine.get_time_aware_relationships(max_delta_days=7)
-        
+
         # Should return relationships between recent items
         self.assertIsInstance(relationships, list)
-        
+
         # Check relationship structure
         for rel in relationships:
             self.assertEqual(len(rel), 3)  # (item1, item2, days_apart)
@@ -192,14 +192,14 @@ class TestCognitiveFeatures(unittest.TestCase):
         """Test RecallEngine with MetadataManager."""
         engine = RecallEngine(self.metadata_manager)
         due_items = engine.schedule_spaced_repetition(n=5)
-        
+
         # Should return items for review
         self.assertIsInstance(due_items, list)
-        
+
         # Items should be ContentMetadata instances
         for item in due_items:
             self.assertIsInstance(item, ContentMetadata)
-            
+
         # Items with old last_reviewed should be prioritized
         if len(due_items) > 0:
             titles = [item.title for item in due_items]
@@ -209,19 +209,19 @@ class TestCognitiveFeatures(unittest.TestCase):
     def test_question_engine_integration(self):
         """Test QuestionEngine generates questions from content."""
         engine = QuestionEngine()
-        
+
         # Test with sample content
         sample_content = """
-        Machine learning is a subset of artificial intelligence that enables 
+        Machine learning is a subset of artificial intelligence that enables
         computers to learn and make decisions without being explicitly programmed.
         Key algorithms include neural networks, decision trees, and support vector machines.
         """
-        
+
         questions = engine.generate_questions(sample_content)
-        
+
         # Should generate multiple questions
         self.assertGreater(len(questions), 0)
-        
+
         # Questions should be strings
         for question in questions:
             self.assertIsInstance(question, str)
@@ -236,26 +236,26 @@ class TestCognitiveFeatures(unittest.TestCase):
             "document_output_path": os.path.join(empty_temp_dir, "documents"),
         }
         empty_manager = MetadataManager(empty_config)
-        
+
         try:
             # Test each feature with no data
             surfacer = ProactiveSurfacer(empty_manager)
             forgotten = surfacer.surface_forgotten_content(n=5)
             self.assertEqual(len(forgotten), 0)
-            
+
             detector = PatternDetector(empty_manager)
             patterns = detector.find_patterns(n=5)
             self.assertIsInstance(patterns, dict)
             self.assertEqual(len(patterns.get("top_tags", [])), 0)
-            
+
             temporal = TemporalEngine(empty_manager)
             relationships = temporal.get_time_aware_relationships(max_delta_days=30)
             self.assertEqual(len(relationships), 0)
-            
+
             recall = RecallEngine(empty_manager)
             due_items = recall.schedule_spaced_repetition(n=5)
             self.assertEqual(len(due_items), 0)
-            
+
         finally:
             import shutil
             shutil.rmtree(empty_temp_dir, ignore_errors=True)
@@ -264,16 +264,16 @@ class TestCognitiveFeatures(unittest.TestCase):
         """Test cognitive features work with status filters."""
         # Test with only successful items
         surfacer = ProactiveSurfacer(self.metadata_manager)
-        
+
         # Get all metadata and check we have mix of statuses
         all_metadata = self.metadata_manager.get_all_metadata()
         statuses = set(item.status for item in all_metadata)
         self.assertIn(ProcessingStatus.SUCCESS, statuses)
         self.assertIn(ProcessingStatus.PENDING, statuses)
-        
+
         # Cognitive features should handle mixed statuses appropriately
         forgotten = surfacer.surface_forgotten_content(n=10)
-        
+
         # Should only return successful items (pending items shouldn't be surfaced)
         for item in forgotten:
             self.assertEqual(item.status, ProcessingStatus.SUCCESS)
@@ -283,28 +283,28 @@ class TestCognitiveFeatures(unittest.TestCase):
         # 1. Surface forgotten content
         surfacer = ProactiveSurfacer(self.metadata_manager)
         forgotten = surfacer.surface_forgotten_content(n=5)
-        
+
         # 2. Analyze patterns
         detector = PatternDetector(self.metadata_manager)
         patterns = detector.find_patterns(n=5)
-        
+
         # 3. Find temporal relationships
         temporal = TemporalEngine(self.metadata_manager)
         relationships = temporal.get_time_aware_relationships(max_delta_days=30)
-        
+
         # 4. Schedule recall
         recall = RecallEngine(self.metadata_manager)
         due_items = recall.schedule_spaced_repetition(n=5)
-        
+
         # 5. Generate questions for forgotten content
         if forgotten:
             question_engine = QuestionEngine()
             sample_item = forgotten[0]
             content = sample_item.type_specific.get("content", sample_item.title)
             questions = question_engine.generate_questions(content)
-            
+
             self.assertGreater(len(questions), 0)
-        
+
         # Verify all components returned reasonable results
         self.assertTrue(isinstance(forgotten, list))
         self.assertTrue(isinstance(patterns, dict))

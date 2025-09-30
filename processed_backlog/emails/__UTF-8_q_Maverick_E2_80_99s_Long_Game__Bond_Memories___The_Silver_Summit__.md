@@ -36,7 +36,7 @@ Sara Fischer’s appearance ( https://puck.news/podcast_episode/igers-fubo-curve
 Mentioned in this issue: Phil Mickelson, Tiger Woods, LIV Golf, Greg Norman, PGA Tour, LeBron James, Luka Dončić, Victor Wembanyama, Nikola Jokić, Giannis Antetokounmpo, UBS Group, Magic Johnson, Adam
 Silver, ESPN, Roger Goodell, F1, Maverick Carter, EuroLeague, Geoff Prentice, Grady Burnett, Madison Square Garden Sports, Fox, Mike Cavanagh, Brian Roberts, and many, many more… 
 
- 
+
 
 Player of the Week: Jack
 Swarbrick
@@ -50,7 +50,7 @@ against Notre Dame will be as financially beneficial to Maryland and Rutgers as 
 That’s the handiwork of Jack Swarbrick, Notre Dame’s former athletic
 director, who forged a deal with the ACC 10 years ago which has allowed Notre Dame to participate in the conference in its other sports but remain independent in football. This year, the Fighting Irish also benefitted from Swarbrick’s push to expand the CFP to a 12-team format. Three years ago, lest we forget, it was Swarbrick who moved swiftly to promote defensive coordinator Marcus Freeman as head coach to replace Brian Kelly. What a legacy.
 
- 
+
 
 Down to the J.V.: Pete Distad
 -----------------------------
@@ -58,7 +58,7 @@ Down to the J.V.: Pete Distad
 Spulu (I mean Venu), the woebegone sports streaming service from Disney,
 Fox, and Warner Bros. Discovery, was supposed to launch last August, only to be put on life support when Fubo filed an antitrust case. Still, Venu C.E.O. Pete Distad and his team kept hiring and strategizing. They got a reprieve last Monday, when Disney and Fubo reached a deal, but it was short-lived. Four days later, Venu was no more, and Distad’s 10-month stint came to an end.
 
- 
+
 
 The Starting Five
 -----------------
@@ -155,7 +155,7 @@ increasingly successful in this environment.
 
 The other factor motivating leagues to work with the large-cap streamers is their global reach. Ever since David Stern’s earliest days, he knew that the NBA’s largest total addressable market existed overseas. But it’s a big world out there, and there may be room for a fringe competitor as well. 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -197,7 +197,7 @@ On Marchand’s petting zoo: “The Marchand jokes are getting old. As the sayin
 
 On Comcast’s cliff path: “Did you really use the phrase ‘antebellum times’?” —A media comms exec
 
- 
+
 
 I’m taking it easy Monday in observance of M.L.K. Day. Look for my
 next missive on Thursday. Have a great week.
@@ -258,6 +258,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUceGrFrbtkwT9Jc8aqRg=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

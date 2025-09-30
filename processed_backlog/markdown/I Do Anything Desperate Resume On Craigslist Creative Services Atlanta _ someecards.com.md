@@ -12,7 +12,7 @@
 
 # Page not found /2011/02/08/i-do-anything-desperate-resume-on-craigslist-creative-services-atlanta/
 
-Unknown author • February 08, 2011 
+Unknown author • February 08, 2011
 
 ![Page not found /2011/02/08/i-do-anything-desperate-resume-on-craigslist-creative-services-atlanta/](https://cdn.someecards.com/assets/images/icons/apple-touch-icon-57x57.png)
 

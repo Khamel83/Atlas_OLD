@@ -18,11 +18,11 @@ Stay compliant with the latest regulations and requirements including ISO 27001,
 Automate responses to RFPs and security questionnaires with AI.
 Secureframe is trusted by hyper-growth organizations: AngelList, Ramp, Lob, Remote, and thousands of other businesses. Schedule your personalized demo of Secureframe today.
 Hi friends 👋,
-Happy Monday! If you listened to the All-In pod [ https://substack.com/redirect/f15ca448-7c1a-43e0-80a9-2b7b3ec89a38?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] this weekend, you might be concerned that there’s really no point in starting a startup, learning how to code, or doing … anything anymore.  
-Don’t quit just yet. 
+Happy Monday! If you listened to the All-In pod [ https://substack.com/redirect/f15ca448-7c1a-43e0-80a9-2b7b3ec89a38?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] this weekend, you might be concerned that there’s really no point in starting a startup, learning how to code, or doing … anything anymore.
+Don’t quit just yet.
 When we have intelligence “too cheap to meter,” history suggests that we’ll find ways to put it all to work, with latent demand left to spare.
 BTW, I won’t be offended if you watch SpaceX’s first flight test of the Starship, the largest rocket ever to fly, while you read. You can watch it here [ http://intelligence superabundance, floating brains, bumper to bumper traffic on a road below, moebius, Hieronymus Bosch, surreal --ar 2:1 ].
-Let’s get to it. 
+Let’s get to it.
 Intelligence Superabundance
 Will AI steal our jobs, let us work less, or force us to do more, better? 
 Induced demand, Jevons Paradox, the Marchetti constant, and consumer psychology 101 suggest that the increased supply of intelligence will create more demand for tasks that require intelligence, that we’ll turn gains in intelligence efficiency into ways of doing new things that weren’t previously feasible. 
@@ -74,9 +74,9 @@ Maybe. But I doubt it.
 I suspect that the increased supply of work will induce demand for that very human skill of figuring out just what we should be working on. It would be a tragic self-own if we used our new superpowers to endlessly sue each other back and forth. 
 Will it force us to change how we work? Of course. Will it push us to differentiate [ https://substack.com/redirect/cc36cbfe-b463-4e36-934a-ec7e7535b87c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]? Absolutely.
 But that could be a wonderful opportunity. Instead of worrying yourself into paralysis, digging your heels in to do more of the same thing, or planning your next lawsuit, I’d encourage you to take some of your newfound free time to paint a vision of the future you want to build with superabundant intelligence, and then get to work.
-Thanks to Dan [ https://substack.com/redirect/211ac028-9ae4-47b4-bd4b-c094ee5658eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://substack.com/redirect/e30ce220-295f-4000-8154-897e0f14de6e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
+Thanks to Dan [ https://substack.com/redirect/211ac028-9ae4-47b4-bd4b-c094ee5658eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://substack.com/redirect/e30ce220-295f-4000-8154-897e0f14de6e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today. We’ll be back in your inbox on Friday AM with the Weekly Dose.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEUxTWpZNU1UTTBMQ0pwWVhRaU9qRTJPREUzTXpZek5URXNJbVY0Y0NJNk1UWTRORE15T0RNMU1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlJTSmtHTDRTSGoyU3E5MVQ0X291QlZfVmNWa2c0SW5vczBsOHZVZGI0WlkiLCJwIjoxMTUyNjkxMzQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjgxNzM2MzUxLCJleHAiOjE2ODQzMjgzNTEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.0z6DICZkZNmiPJkLf9vP-QFZP50Q77FlTcDGr4LoKJc?

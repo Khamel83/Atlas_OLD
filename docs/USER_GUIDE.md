@@ -5,7 +5,7 @@ Atlas is a comprehensive personal content ingestion, processing, and search syst
 ## Table of Contents
 
 1. [Quick Start](#quick-start)
-2. [System Overview](#system-overview)  
+2. [System Overview](#system-overview)
 3. [Content Processing](#content-processing)
 4. [Search & Discovery](#search--discovery)
 5. [Analytics Dashboard](#analytics-dashboard)
@@ -222,7 +222,7 @@ Key configuration options in `.env`:
 # Database Configuration
 DATABASE_URL=sqlite:///atlas.db
 
-# API Configuration  
+# API Configuration
 API_HOST=0.0.0.0
 API_PORT=8000
 
@@ -362,7 +362,7 @@ RECENCY_WEIGHT=0.2
 # System status
 python atlas_status.py --detailed
 
-# Test all components  
+# Test all components
 python -m pytest tests/ -v
 
 # Check database integrity

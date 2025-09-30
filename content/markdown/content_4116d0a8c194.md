@@ -33,7 +33,7 @@
 <meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="theme-color" content="#ffffff">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- Add to home screen for iOS -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" sizes="180x180" href="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/app/icons/apple-touch-icon.png">
@@ -46,7 +46,7 @@
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/app/icons/favicon.png">
 <link rel="shortcut icon" href="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/app/icons/favicon.ico">
-	
+
 <!--
 		 _     _ _           ____          _          _____ _    ___
 		| |   (_) | _____   / ___|___   __| | ___    | ____| |__|__ \
@@ -144,7 +144,7 @@ pmc_meta=pmc_meta || {}, pmc_meta.omni_visit_id = window.pmc_cookies.omni_visit_
 		<script>
 			window.pmc_is_adblocked = false;
 		</script>
-		
+
 <script>
 window.tp = window.tp || [];
 
@@ -190,7 +190,7 @@ tp.push(['setCustomVariable', key, val]);
 		if(window.pmc &&  window.pmc.tracking && window.pmc.tracking.get_properties_string) {
 			queryString = window.pmc.tracking.get_properties_string();
 		}
-		
+
 		const utmParams = queryString.match(/utm_([^=]+)\=([^&#]+)/g);
 
 if(utmParams && 0 < utmParams.length) {
@@ -290,7 +290,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 		<script type="text/javascript">
 			var pmc_ga_dimensions = {"dimension40":"tax-artist","dimension68":"anonymous"};
 			var pmc_ga_mapped_dimensions = {"page-type":"40","page-subtype":"41","id":"42","author":"43","category":"44","tag":"45","vertical":"46","primary-category":"47","primary-vertical":"48","publish-year":"49","publish-month":"50","publish-day":"51","publish-hour":"52","publish-minute":"53","protocol":"54","paywall-entitlement":"55","paywall-sub-level-required":"56","paywall-sub-roadblock-hit":"57","paywall-acct-type":"58","paywall-acct-id":"59","paywall-org-name":"60","paywall-org-id":"61","paywall-auth-provider":"62","paywall-logged-in":"63","publish-timestamp-gmt":"64","publish-timestamp":"65","publish-day-of-week":"66","omni-visit-id":"67","user-type":"68","a-b-test":"69","experiment-name":"70","paywall-special-product-code":"71","paywall-product-code":"72","post-options":"73","child-post-id":"74","page-variant-name":"75","pageview-id":"76"};
-			
+
 			window.pmc_ga_dimensions_requiring_c0002 = [];
 			pmc_ga_dimensions_requiring_c0002["dimension54"]
 				= document.location.protocol.replace(':', '');
@@ -301,7 +301,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 							if( 'undefined' !== typeof pmc_meta && 'string' === typeof pmc_meta.omni_visit_id ){
 				dim["dimension67"] = pmc_meta.omni_visit_id;
 			}
-		
+
 		try {
 						var pmc_piano_reporting_cookie = JSON.parse(pmc.cookie.get('pmc_piano_reporting')) || {};
 
@@ -442,8 +442,8 @@ ga('set', 'location', location_url);
 
 ga('require', 'displayfeatures');					ga('set', ga3Dimensions);
 					window.pmcGaCustomDimensions = ga3Dimensions;
-				
-				
+
+
 				if ( 'undefined' !== typeof Rollbar && 'undefined' !== typeof window.pmcGARollbar ) {
 					Rollbar.debug( 'ga3PageviewBefore', window.pmcGARollbar.getParams() );
 				}
@@ -605,7 +605,7 @@ blogherads.adq.push(function () {
     "logo": "http://web.archive.org/web/20231016063853/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/build/svg/billboard.svg"
 }
 			</script>
-			
+
 <style type="text/css">
 article #connatix-contextual-player {
 	aspect-ratio: 16/9;
@@ -668,7 +668,7 @@ if ( 'function' === typeof gtag ) {
 
 gtag( 'config', 'AW-608454122' );
 							gtag( 'config', 'G-DJBCNPKNBT', { 'send_page_view': false } );
-		
+
 		</script>
 			<style>img#wpstats{display:none}</style>
 		<link rel="alternate" type="application/rss+xml" title="Billboard Feed" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/feed/rss/"/><link rel="alternate" type="application/rss+xml" title="Billboard » Chris Isaak Feed" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/artist/chris-isaak/feed/"/>		<script>
@@ -697,13 +697,13 @@ var pmc_site_config = {"rot13_hostname":"jjj.ovyyobneq.pbz","hostname":"www.bill
 
 (function ( blogherads ) {
 		blogherads.adq.push( function () {
-			
+
 							blogherads.setConf( 'vertical', 'chris-isaak' );
-			
-			
-			
-			
-			
+
+
+
+
+
 			blogherads.setTargeting( 'ci', 'artist-299194' );
 blogherads.setTargeting( 'pt', 'landing' );
 blogherads.setTargeting( 'kw', ["chris-isaak","archive"] );
@@ -791,7 +791,7 @@ if (blogherads.setADmantXData) {
 				a.appendChild(r);
 			})(window,document,'//web.archive.org/web/20231016063853/https://static.hotjar.com/c/hotjar-','.js?sv=');
 		</script>
-		
+
 <!-- Chartbeat Tag Start -->
 <script type="text/plain" class="optanon-category-C0004">
 	(function() {
@@ -869,7 +869,7 @@ function gtag_report_conversion(url) {
 	<div id="skin-ad-inject-container">
 			<div class="admz " id="adm-responsive-skin-ad">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style="" class="pmc-adm-boomerang-pub-div " data-priority="11">
 	<div id="gpt-dsk-tab-ros-skin-uid0" class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -890,7 +890,7 @@ function gtag_report_conversion(url) {
 
 <!-- End Placeholder for Responsive Skin Ad -->
 
-<div id="main-wrapper" class="u-overflow-hidden"> 
+<div id="main-wrapper" class="u-overflow-hidden">
 	<div id="pmc-reg-rd-overlay-banner" class="pmc-reg-rd-overlay-banner">
 	<a href="#" class="btn-close">&#x000D7;</a>
 	<div class="message"></div>
@@ -904,7 +904,7 @@ function gtag_report_conversion(url) {
 <div class="ad_block above-header-ad lrv-u-background-color-black">
 					<div class="admz " id="adm-header">
 					<div class="adma boomerang " data-device="Desktop" data-width="728">
-				
+
 <div style="min-width:728px;min-height:90px;" class="pmc-adm-boomerang-pub-div " data-priority="12">
 	<div id="div-gpt-dsk-tab-ros-leaderboard-uid1" class=" adw-728 adh-90" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -923,12 +923,12 @@ function gtag_report_conversion(url) {
 			</div>
 				</div>
 			</div>
-			
-		
+
+
 <header class="header // js-Header lrv-u-margin-lr-auto">
 	<div class="js-Header-contents">
 		<div class="s-Header__direct-sticky js-show-when-sticky u-width-100p lrv-u-background-color-brand-secondary-dark">
-							
+
 <div class="header-sticky // u-max-width-100vw">
 
 <div class="lrv-u-flex lrv-u-justify-content-space-between lrv-u-align-items-center u-padding-lr-1@desktop lrv-u-padding-tb-050">
@@ -941,32 +941,32 @@ function gtag_report_conversion(url) {
 
 <div class="lrv-u-flex lrv-u-flex-basis-30p lrv-u-justify-content-center lrv-u-align-items-center">
 			<div class="main-menu // u-display-none@mobile-max u-display-none@desktop-max lrv-u-flex-grow-1 u-width-100p@desktop-xl-max lrv-u-padding-t-025">
-	
+
 <nav class="o-nav  ">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-u-justify-content-space-between@desktop lrv-u-justify-content-space-evenly@desktop-xl lrv-u-justify-content-center a-space-children-horizontal@desktop-xl a-space-children--60@custom a-space-children--390@desktop u-font-sflyout-15 lrv-u-text-transform-uppercase u-letter-spacing-0100 a-font-primary u-font-weight-bold lrv-u-margin-lr-1">
 										<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/pro/">
 	Business</a>
 				</li>
@@ -988,14 +988,14 @@ function gtag_report_conversion(url) {
 					</div>
 				</div>
 			</div>
-			
+
 	<button class="c-button larva   js-subscription-anonymous js-subscription-login-link a-font-primary a-font-secondary-bold lrv-u-background-color-transparent lrv-u-color-brand-accent-blue:hover lrv-u-color-white lrv-u-padding-lr-125@desktop-xl lrv-u-padding-tb-050 lrv-u-margin-lr-050 u-border-a-1@desktop-xl u-height-36 lrv-u-border-color-white lrv-u-border-color-brand-accent-blue:hover lrv-u-text-transform-uppercase u-font-sflyout-15 u-font-weight-bold u-hidden@desktop-max u-letter-spacing-0100 lrv-u-cursor-pointer" type="submit">
 
 <span class="c-button__inner ">
 		LOGIN	</span>
 
 <span class="lrv-a-screen-reader-only">Login</span>
-	
+
 	</button>
 							<div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-border-color-grey-light">
 
@@ -1006,13 +1006,13 @@ function gtag_report_conversion(url) {
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--r-0 lrv-a-glue--t-0 lrv-u-height-100p" data-header-search-trigger="">
-			
+
 	<form class="search-form  lrv-u-height-100p lrv-u-position-absolute" action="/web/20231016063853/https://www.billboard.com/" role="search" method="get">
 		<label class="">
 			<span class="lrv-a-screen-reader-only">Search for:</span>
@@ -1025,7 +1025,7 @@ function gtag_report_conversion(url) {
 
 </div>
 						<div class="lrv-u-display-inline-flex lrv-u-align-items-center">
-				
+
 <div class="lrv-u-flex lrv-u-margin-l-auto lrv-u-margin-r-1 u-hidden@print u-hidden@desktop-max lrv-a-hidden js-subscription-authenticated">
 	<span class="a-font-primary-medium-s lrv-u-padding-tb-050 lrv-u-padding-l-2 lrv-u-font-size-16 a-subscription-account-menu">
 		<button aria-controls="my-account-menu" aria-haspopup="true" class="lrv-u-font-size-14 a-font-primary-medium lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-color-white lrv-u-background-color-transparent u-letter-spacing-0063 lrv-u-color-brand-accent-blue:hover u-width-100">
@@ -1037,12 +1037,12 @@ function gtag_report_conversion(url) {
 
 <ul class="lrv-u-padding-a-025" id="my-account-menu">
 			<li class="lrv-u-display-block lrv-u-text-align-left  lrv-u-padding-lr-1 u-border-b-1 lrv-u-border-color-grey-light data-qat-subscription-manage-account">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Manage Account</a>
 			</li>
 			<li class="lrv-u-display-block lrv-u-text-align-left lrv-u-padding-lr-1">
-				
+
 	<button class="c-button larva   js-subscription-logout-link lrv-u-background-color-transparent lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-width-100p lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016 lrv-u-cursor-pointer" type="">
 
 <span class="c-button__inner ">
@@ -1059,7 +1059,7 @@ function gtag_report_conversion(url) {
 						<div id="pmc-piano-pro-mobile-header-button" class="lrv-u-flex u-width-100 u-display-none@desktop lrv-u-padding-t-025"></div>
 					</div>
 					<div class="lrv-a-hidden js-subscription-authenticated">
-													
+
 <a class="c-link  lrv-a-unstyle-linka-span2 lrv-u-color-brand-primary u-font-size-13 u-letter-spacing-0039 lrv-u-font-weight-bold lrv-u-text-transform-uppercase lrv-u-padding-a-050 lrv-u-background-color-white" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Account</a>
 											</div>
@@ -1071,11 +1071,11 @@ function gtag_report_conversion(url) {
 					</div>
 		<div class="main-menu-container js-hide-when-sticky">
 			<div class="s-Header__direct-sticky u-width-100p lrv-u-background-color-brand-secondary-dark">
-				
+
 <div class="header-main-stack-bar // lrv-u-flex lrv-u-flex-wrap-wrap lrv-u-align-items-center lrv-u-border-b-1@desktop lrv-u-border-color-grey-dark lrv-u-background-color-brand-secondary-dark u-background-white@desktop-max u-box-shadow-header-main u-width-100p lrv-u-justify-content-space-between">
 	<div class="lrv-u-flex lrv-u-width-100p lrv-u-justify-content-center lrv-u-padding-tb-075@desktop lrv-u-border-b-1@desktop lrv-u-border-color-grey-dark lrv-u-margin-lr-050@mobile-max">
 		<div class="lrv-u-flex lrv-u-justify-content-start lrv-u-align-items-center lrv-u-flex-grow-1 lrv-u-flex-basis-20p lrv-u-padding-l-150">
-			
+
 	<button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-MegaMenu-Trigger lrv-u-color-grey:hover lrv-a-hover-effect">
 
 <svg class="c-icon   lrv-u-color-black lrv-u-margin-lr-100 lrv-u-margin-t-025 u-color-white@desktop u-height-30 u-width-30 u-width-23@mobile-max">
@@ -1083,8 +1083,8 @@ function gtag_report_conversion(url) {
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Open menu</span>
-	
-	
+
+
 	</button>
 			<div class="lrv-u-display-none lrv-u-display-none@desktop-xl lrv-u-display-block@desktop lrv-u-margin-l-050">
 				<div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-border-color-grey-light u-height-36">
@@ -1092,19 +1092,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-white lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon   lrv-u-display-block u-width-22 u-height-22 lrv-u-margin-tb-050 lrv-u-margin-l-150 lrv-a-hover-effect u-color-black@mobile-max" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<div data-st-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -1127,19 +1127,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button  o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect lrv-u-color-black">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon  lrv-u-display-block lrv-u-width-24 lrv-u-height-24 lrv-u-color-brand-primary:hover" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-n0325@mobile-max u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<form class="search-form " action="/web/20231016063853/https://www.billboard.com/" role="search" method="get">
 		<label class="">
 			<span class="lrv-a-screen-reader-only">Search for:</span>
@@ -1153,14 +1153,14 @@ function gtag_report_conversion(url) {
 </div>
 			</div>
 						<div class="lrv-u-flex lrv-u-justify-content-end lrv-u-position-relative u-width-100p@desktop u-width-100p@desktop-xl u-display-none@desktop-max">
-				
+
 	<button class="c-button larva   js-subscription-anonymous js-subscription-login-link a-font-primary a-font-secondary-bold lrv-u-background-color-transparent lrv-u-color-brand-accent-blue:hover lrv-u-color-white lrv-u-padding-lr-125@desktop-xl lrv-u-padding-tb-050 lrv-u-margin-lr-050 u-border-a-1@desktop-xl u-height-36 lrv-u-border-color-white lrv-u-border-color-brand-accent-blue:hover lrv-u-text-transform-uppercase u-font-sflyout-15 u-font-weight-bold u-hidden@desktop-max u-letter-spacing-0100 lrv-u-cursor-pointer" type="submit">
 
 <span class="c-button__inner ">
 		LOGIN	</span>
 
 <span class="lrv-a-screen-reader-only">Login</span>
-	
+
 	</button>
 				<div class=" js-subscription-anonymous lrv-u-position-relative lrv-u-flex lrv-u-align-items-center lrv-u-line-height-normal u-display-none@tablet-max js-subscribe-header-button lrv-u-margin-lr-050 u-height-36">
 					<div class="js-subscribe-header-button js-subscribe-header-flyout lrv-a-unstyle-button lrv-u-display-inline-flex lrv-u-align-items-center">
@@ -1173,7 +1173,7 @@ function gtag_report_conversion(url) {
 					</div>
 				</div>
 				<div class="lrv-u-display-inline-flex lrv-u-align-items-center">
-					
+
 <div class="lrv-u-flex lrv-u-margin-l-auto lrv-u-margin-r-1 u-hidden@print u-hidden@desktop-max lrv-a-hidden js-subscription-authenticated">
 	<span class="a-font-primary-medium-s lrv-u-padding-tb-050 lrv-u-padding-l-2 lrv-u-font-size-16 a-subscription-account-menu">
 		<button aria-controls="my-account-menu" aria-haspopup="true" class="lrv-u-font-size-14 a-font-primary-medium lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-color-white lrv-u-background-color-transparent u-letter-spacing-0063 lrv-u-color-brand-accent-blue:hover u-width-100">
@@ -1185,12 +1185,12 @@ function gtag_report_conversion(url) {
 
 <ul class="lrv-u-padding-a-025" id="my-account-menu">
 			<li class="lrv-u-display-block lrv-u-text-align-left  lrv-u-padding-lr-1 u-border-b-1 lrv-u-border-color-grey-light data-qat-subscription-manage-account">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Manage Account</a>
 			</li>
 			<li class="lrv-u-display-block lrv-u-text-align-left lrv-u-padding-lr-1">
-				
+
 	<button class="c-button larva   js-subscription-logout-link lrv-u-background-color-transparent lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-width-100p lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016 lrv-u-cursor-pointer" type="">
 
 <span class="c-button__inner ">
@@ -1207,7 +1207,7 @@ function gtag_report_conversion(url) {
 							<div id="pmc-piano-pro-mobile-header-button" class="lrv-u-flex u-width-100 u-display-none@desktop lrv-u-padding-t-025"></div>
 						</div>
 						<div class="lrv-a-hidden js-subscription-authenticated">
-															
+
 <a class="c-link  lrv-a-unstyle-linka-span2 lrv-u-color-brand-primary u-font-size-13 u-letter-spacing-0039 lrv-u-font-weight-bold lrv-u-text-transform-uppercase lrv-u-padding-a-050 lrv-u-background-color-white" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Account</a>
 													</div>
@@ -1223,19 +1223,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-white lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon   lrv-u-display-block u-width-22 u-height-22 lrv-u-margin-tb-050 lrv-u-margin-l-150 lrv-a-hover-effect u-color-black@mobile-max" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<div data-st-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -1245,32 +1245,32 @@ function gtag_report_conversion(url) {
 		<div class="lrv-u-flex lrv-u-flex-grow-1 lrv-u-flex-basis-60p">
 			<div class="lrv-u-flex a-glue@desktop-max lrv-u-width-100vw a-glue--l-n50@desktop-max lrv-u-align-items-center u-margin-r-auto@desktop-xl u-width-100p@desktop">
 				<div class="main-menu // u-display-none@mobile-max u-display-none@desktop-max lrv-u-flex-grow-1 u-width-100p@desktop-xl-max lrv-u-padding-t-025">
-	
+
 <nav class="o-nav  ">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-u-justify-content-space-between@desktop lrv-u-justify-content-space-evenly@desktop-xl lrv-u-justify-content-center a-space-children-horizontal@desktop-xl a-space-children--60@custom a-space-children--390@desktop u-font-sflyout-15 lrv-u-text-transform-uppercase u-letter-spacing-0100 a-font-primary u-font-weight-bold lrv-u-margin-lr-1">
 										<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/pro/">
 	Business</a>
 				</li>
@@ -1287,37 +1287,37 @@ function gtag_report_conversion(url) {
 		</div>
 		<div class="main-sub-menu-container-esp js-hide-when-sticky lrv-u-flex lrv-u-background-color-white u-height-45">
 			<div class="main-sub-menu // u-padding-tb-075@desktop u-display-none@mobile-max lrv-u-width-100p u-box-shadow-header-main lrv-u-position-relative u-z-index-middle-bottom">
-	
+
 <nav class="o-nav  ">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-u-justify-content-center lrv-a-space-children-horizontal a-space-children--60@custom lrv-u-justify-content-space-evenly@desktop lrv-u-font-size-15 u-letter-spacing-0043 a-font-primary-medium-s u-display-none@mobile-max">
 										<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-dark" href="http://web.archive.org/web/20231016063853/https://www.billboardlatinmusicweek.com/">
 	Latin Music Week</a>
 				</li>
 							<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-dark" href="/web/20231016063853/https://www.billboard.com/c/business/chart-beat/">
 	Chart Beat</a>
 				</li>
 							<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-dark" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/charts/tiktok-billboard-top-50/">
 	TikTok Billboard Top 50</a>
 				</li>
 							<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-dark" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/charts/hot-100/">
 	Billboard Hot 100</a>
 				</li>
 							<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-dark" href="/web/20231016063853/https://www.billboard.com/t/global/">
 	Global</a>
 				</li>
 							<li class="o-nav__list-item ">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest lrv-u-background-color-brand-primary lrv-u-background-color-white:hover lrv-u-padding-lr-050 lrv-u-padding-tb-025" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/">
 	Español</a>
 				</li>
@@ -1326,11 +1326,11 @@ function gtag_report_conversion(url) {
 </div>
 		</div>
 		<div class="s-Header__direct-sticky u-width-100p lrv-u-background-color-brand-secondary-dark u-display-block@moblie-max u-display-none@desktop">
-			
+
 <div class="header-main-stack-bar // lrv-u-flex lrv-u-flex-wrap-wrap lrv-u-align-items-center lrv-u-border-b-1@desktop lrv-u-border-color-grey-dark lrv-u-background-color-brand-secondary-dark u-background-white@desktop-max u-box-shadow-header-main u-width-100p lrv-u-justify-content-space-between">
 	<div class="lrv-u-flex lrv-u-width-100p lrv-u-justify-content-center lrv-u-padding-tb-075@desktop lrv-u-border-b-1@desktop lrv-u-border-color-grey-dark lrv-u-margin-lr-050@mobile-max">
 		<div class="lrv-u-flex lrv-u-justify-content-start lrv-u-align-items-center lrv-u-flex-grow-1 lrv-u-flex-basis-20p lrv-u-padding-l-150">
-			
+
 	<button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-MegaMenu-Trigger lrv-u-color-grey:hover lrv-a-hover-effect">
 
 <svg class="c-icon   lrv-u-color-black lrv-u-margin-lr-100 lrv-u-margin-t-025 u-color-white@desktop u-height-30 u-width-30 u-width-23@mobile-max">
@@ -1338,8 +1338,8 @@ function gtag_report_conversion(url) {
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Open menu</span>
-	
-	
+
+
 	</button>
 			<div class="lrv-u-display-none lrv-u-display-none@desktop-xl lrv-u-display-block@desktop lrv-u-margin-l-050">
 				<div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-border-color-grey-light u-height-36">
@@ -1347,19 +1347,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-white lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon   lrv-u-display-block u-width-22 u-height-22 lrv-u-margin-tb-050 lrv-u-margin-l-150 lrv-a-hover-effect u-color-black@mobile-max" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<div data-st-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -1382,19 +1382,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button  o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect lrv-u-color-black">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon  lrv-u-display-block lrv-u-width-24 lrv-u-height-24 lrv-u-color-brand-primary:hover" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-n0325@mobile-max u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<form class="search-form " action="/web/20231016063853/https://www.billboard.com/" role="search" method="get">
 		<label class="">
 			<span class="lrv-a-screen-reader-only">Search for:</span>
@@ -1408,14 +1408,14 @@ function gtag_report_conversion(url) {
 </div>
 			</div>
 						<div class="lrv-u-flex lrv-u-justify-content-end lrv-u-position-relative u-width-100p@desktop u-width-100p@desktop-xl u-display-none@desktop-max">
-				
+
 	<button class="c-button larva   js-subscription-anonymous js-subscription-login-link a-font-primary a-font-secondary-bold lrv-u-background-color-transparent lrv-u-color-brand-accent-blue:hover lrv-u-color-white lrv-u-padding-lr-125@desktop-xl lrv-u-padding-tb-050 lrv-u-margin-lr-050 u-border-a-1@desktop-xl u-height-36 lrv-u-border-color-white lrv-u-border-color-brand-accent-blue:hover lrv-u-text-transform-uppercase u-font-sflyout-15 u-font-weight-bold u-hidden@desktop-max u-letter-spacing-0100 lrv-u-cursor-pointer" type="submit">
 
 <span class="c-button__inner ">
 		LOGIN	</span>
 
 <span class="lrv-a-screen-reader-only">Login</span>
-	
+
 	</button>
 				<div class=" js-subscription-anonymous lrv-u-position-relative lrv-u-flex lrv-u-align-items-center lrv-u-line-height-normal u-display-none@tablet-max js-subscribe-header-button lrv-u-margin-lr-050 u-height-36">
 					<div class="js-subscribe-header-button js-subscribe-header-flyout lrv-a-unstyle-button lrv-u-display-inline-flex lrv-u-align-items-center">
@@ -1428,7 +1428,7 @@ function gtag_report_conversion(url) {
 					</div>
 				</div>
 				<div class="lrv-u-display-inline-flex lrv-u-align-items-center">
-					
+
 <div class="lrv-u-flex lrv-u-margin-l-auto lrv-u-margin-r-1 u-hidden@print u-hidden@desktop-max lrv-a-hidden js-subscription-authenticated">
 	<span class="a-font-primary-medium-s lrv-u-padding-tb-050 lrv-u-padding-l-2 lrv-u-font-size-16 a-subscription-account-menu">
 		<button aria-controls="my-account-menu" aria-haspopup="true" class="lrv-u-font-size-14 a-font-primary-medium lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-color-white lrv-u-background-color-transparent u-letter-spacing-0063 lrv-u-color-brand-accent-blue:hover u-width-100">
@@ -1440,12 +1440,12 @@ function gtag_report_conversion(url) {
 
 <ul class="lrv-u-padding-a-025" id="my-account-menu">
 			<li class="lrv-u-display-block lrv-u-text-align-left  lrv-u-padding-lr-1 u-border-b-1 lrv-u-border-color-grey-light data-qat-subscription-manage-account">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Manage Account</a>
 			</li>
 			<li class="lrv-u-display-block lrv-u-text-align-left lrv-u-padding-lr-1">
-				
+
 	<button class="c-button larva   js-subscription-logout-link lrv-u-background-color-transparent lrv-u-text-align-center lrv-u-color-grey-dark lrv-u-font-family-primary lrv-u-padding-tb-075 lrv-u-width-100p lrv-u-color-brand-primary:hover lrv-u-display-block lrv-u-font-size-14 a-font-primary-medium u-letter-spacing-0016 lrv-u-cursor-pointer" type="">
 
 <span class="c-button__inner ">
@@ -1462,7 +1462,7 @@ function gtag_report_conversion(url) {
 							<div id="pmc-piano-pro-mobile-header-button" class="lrv-u-flex u-width-100 u-display-none@desktop lrv-u-padding-t-025"></div>
 						</div>
 						<div class="lrv-a-hidden js-subscription-authenticated">
-															
+
 <a class="c-link  lrv-a-unstyle-linka-span2 lrv-u-color-brand-primary u-font-size-13 u-letter-spacing-0039 lrv-u-font-weight-bold lrv-u-text-transform-uppercase lrv-u-padding-a-050 lrv-u-background-color-white" href="/web/20231016063853/https://www.billboard.com/my-account">
 	Account</a>
 													</div>
@@ -1478,19 +1478,19 @@ function gtag_report_conversion(url) {
 <button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex js-ExpandableSearch-trigger lrv-u-color-white lrv-u-color-brand-primary:hover lrv-u-padding-a-00 is-ExpandableSearch-open-button:hover lrv-a-hover-effect">
 
 <span class="lrv-a-screen-reader-only" title="Plus Icon">Search</span>
-	
+
 <svg class="c-icon   lrv-u-display-block u-width-22 u-height-22 lrv-u-margin-tb-050 lrv-u-margin-l-150 lrv-a-hover-effect u-color-black@mobile-max" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#search"/>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
-	
+
 	<div class="expandable-search__target // lrv-a-glue-parent js-ExpandableSearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner lrv-a-glue lrv-a-glue--t-0 lrv-a-glue--l-0 lrv-u-height-100p u-margin-l-0@desktop u-margin-l-0@desktop-max u-margin-t-n0300" data-header-search-trigger="">
-			
+
 	<div data-st-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -1500,32 +1500,32 @@ function gtag_report_conversion(url) {
 		<div class="lrv-u-flex lrv-u-flex-grow-1 lrv-u-flex-basis-60p">
 			<div class="lrv-u-flex a-glue@desktop-max lrv-u-width-100vw a-glue--l-n50@desktop-max lrv-u-align-items-center u-margin-r-auto@desktop-xl u-width-100p@desktop">
 				<div class="main-menu // u-display-none@mobile-max u-display-none@desktop-max lrv-u-flex-grow-1 u-width-100p@desktop-xl-max lrv-u-padding-t-025">
-	
+
 <nav class="o-nav  ">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-u-justify-content-space-between@desktop lrv-u-justify-content-space-evenly@desktop-xl lrv-u-justify-content-center a-space-children-horizontal@desktop-xl a-space-children--60@custom a-space-children--390@desktop u-font-sflyout-15 lrv-u-text-transform-uppercase u-letter-spacing-0100 a-font-primary u-font-weight-bold lrv-u-margin-lr-1">
 										<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-align-items-center lrv-u-flex">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-a-font-primary-l lrv-a-unstyle-link lrv-u-color-brand-primary:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-color-grey-lightest  lrv-u-padding-r-075@desktop" href="/web/20231016063853/https://www.billboard.com/pro/">
 	Business</a>
 				</li>
@@ -1553,176 +1553,176 @@ function gtag_report_conversion(url) {
 		<div class="artist-info-chart-history // lrv-a-wrapper lrv-u-padding-lr-00@mobile-max lrv-u-padding-b-150">
 	<div class="u-max-width-960 lrv-u-margin-lr-auto">
 		<div class="lrv-u-flex lrv-u-justify-content-center">
-							
+
 <div class="c-lazy-image  u-width-118">
-	
+
 			<div class="lrv-a-crop-1x1 u-width-118" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://charts-static.billboard.com/img/1987/04/chris-isaak-075-344x344.jpg" alt="An image of Chris Isaak" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  a-font-primary-bold-l u-font-size-30 lrv-u-color-grey lrv-u-background-color-black u-width-250 lrv-u-padding-b-150 lrv-u-flex u-align-items-flex-end lrv-u-justify-content-center u-width-100p@mobile-max">
 
-Chart History		
-	
+Chart History
+
 </h3>
 					</div>
 
 <h1 id="section-heading" class="c-heading larva  a-font-primary-bold-xxl u-font-size-60@tablet lrv-u-font-size-36 u-line-height-125 lrv-u-padding-b-050 lrv-u-padding-t-1 lrv-u-padding-lr-1@mobile-max u-border-b-2 lrv-u-color-white lrv-u-border-color-black lrv-u-text-align-center">
 
 Chris Isaak
-	
+
 	</h1>
 
 </div>
 </div>
 <div class="artist-chart-history-top // lrv-a-wrapper u-background-color-grey-lightest@mobile-max u-padding-b-250 lrv-u-padding-t-1@mobile-max u-padding-b-125@mobile-max">
 	<div class="u-max-width-960 lrv-u-margin-lr-auto">
-		
+
 		<div class="lrv-a-grid a-cols2@tablet u-grid-gap-150 u-grid-gap-050@mobile-max">
 			<div class="">
-									
+
 <nav class="o-nav  lrv-js-MobileHeightToggle a-hover-dropup-artist lrv-u-position-relative lrv-u-padding-lr-150 lrv-u-padding-lr-075@mobile-max lrv-u-padding-t-2 lrv-u-padding-t-1@mobile-max lrv-u-padding-b-150 lrv-u-padding-b-075@mobile-max lrv-u-background-color-black artist-chart-selector-nav" data-selected="1479786-HSI">
 
 <h3 id="artist-chart-selector" class="o-nav__title a-font-primary-medium-m lrv-u-background-color-black lrv-u-color-white lrv-u-width-100p lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-invert lrv-a-icon-after:margin-l-auto lrv-u-cursor-pointer lrv-js-MobileHeightToggle-trigger a-hover-dropup-trigger-artist lrv-u-padding-b-050 lrv-u-border-b-1 lrv-u-border-color-white artist-chart-selector-title" tabindex="0">Billboard Hot 100</h3>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-u-background-color-white lrv-js-MobileHeightToggle-target a-hover-dropup-target-artist" aria-labelledby="artist-chart-selector">
 										<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479786-HSI">
 	Billboard Hot 100</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479788-TLP">
 	Billboard 200</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479790-HSB">
 	Radio Songs</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="6334933-TSL">
 	Top Album Sales</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479792-HDS">
 	Digital Song Sales</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479823-TFM">
 	Pop Airplay</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479846-ARK">
 	Hot Rock &#038; Alternative&nbsp;Songs</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479825-ASI">
 	Adult Contemporary</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479851-RCK">
 	Top Rock Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479827-ATF">
 	Adult Pop Airplay</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="5801853-RTT">
 	Mainstream Rock Airplay</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479853-MRT">
 	Alternative Airplay</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1524233-RKT">
 	Rock Digital Song&nbsp;Sales</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="5802059-AAA">
 	Adult Alternative Airplay</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1235105227-RTE">
 	Hot Rock Songs</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1235105260-RKC">
 	Top Rock &#038; Alternative&nbsp;Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479962-TCL">
 	Top Current Album&nbsp;Sales</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="8532090-TLC">
 	Catalog Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479906-IND">
 	Independent Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479910-XML">
 	Top Holiday Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="6414064-CNS">
 	Canadian Digital Song&nbsp;Sales</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479948-HBU">
 	Bubbling Under Hot&nbsp;100</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1479926-TAS">
 	Tastemaker Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="9527686-GAT">
 	Greatest of All Time Adult Alternative&nbsp;Artists</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="6738705-LUS">
 	LyricFind U.S.</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1480001-ALP">
 	Australia Albums</a>
 				</li>
 							<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-accent a-font-primary-medium-s lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-border-b-1 lrv-u-border-color-white lrv-u-background-color-black:hover lrv-u-color-white:hover a-artist-chart-history-changer" href="#" rel="1524225-OCL">
 	The Official U.K. Albums&nbsp;Chart</a>
 				</li>
@@ -1733,13 +1733,13 @@ Chris Isaak
 <div class="lrv-a-grid a-cols3 u-grid-gap-150 u-grid-gap-050@mobile-max lrv-u-height-100p">
 				<div class="lrv-u-height-100p" aria-label="Number One Hits - 0">
 					<div class="lrv-u-background-color-brand-accent-yellow lrv-u-height-100p lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center lrv-u-align-items-center u-padding-tb-075" aria-hidden="true">
-													
+
 <span class="c-span  a-font-primary-bold u-font-size-34 u-line-height-120 u-letter-spacing-0063 artist-stat-1">
 
 0
 </span>
-						
-													
+
+
 <span class="c-span  a-font-primary-bold-l lrv-u-font-size-18 lrv-u-line-height-small">
 
 No. 1 Hits
@@ -1749,13 +1749,13 @@ No. 1 Hits
 
 <div class="lrv-u-height-100p" aria-label="Top Ten Hits - 1">
 					<div class="lrv-u-background-color-brand-accent-yellow lrv-u-height-100p lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center lrv-u-align-items-center u-padding-tb-075" aria-hidden="true">
-													
+
 <span class="c-span  a-font-primary-bold u-font-size-34 u-line-height-120 u-letter-spacing-0063 artist-stat-2">
 
 1
 </span>
-						
-													
+
+
 <span class="c-span  a-font-primary-bold-l lrv-u-font-size-18 lrv-u-line-height-small">
 
 Top 10 Hits
@@ -1765,13 +1765,13 @@ Top 10 Hits
 
 <div class="lrv-u-height-100p" aria-label="Songs - 2">
 					<div class="lrv-u-background-color-brand-accent-yellow lrv-u-height-100p lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center lrv-u-align-items-center u-padding-tb-075" aria-hidden="true">
-													
+
 <span class="c-span  a-font-primary-bold u-font-size-34 u-line-height-120 u-letter-spacing-0063 artist-stat-3">
 
 2
 </span>
-						
-													
+
+
 <span class="c-span  a-font-primary-bold-l lrv-u-font-size-18 lrv-u-line-height-small">
 
 Songs
@@ -1790,53 +1790,53 @@ Songs
 					</div>
 
 <div class="artist-chart-history-sticky-wrapper lrv-u-position-relative">
-							
+
 <h3 id="title-of-a-story" class="c-title  a-font-primary-bold-m lrv-u-text-transform-uppercase lrv-u-text-align-center lrv-u-color-white lrv-u-background-color-black lrv-u-padding-tb-025 u-hidden@tablet artist-chart-title">
 
-Billboard Hot 100		
-	
+Billboard Hot 100
+
 </h3>
-			
+
 							<div class="artist-chart-history-header // lrv-u-text-align-center lrv-u-background-color-brand-primary lrv-u-color-white lrv-u-flex lrv-u-align-items-center lrv-u-text-transform-uppercase lrv-u-line-height-small" aria-hidden="true">
-											
+
 <div class="o-chart-results-list-header__item  // lrv-u-padding-tb-075 lrv-u-flex-grow-1 lrv-u-text-align-left lrv-u-padding-lr-2">
-	
+
 <span class="c-span  a-font-primary-medium-l u-hidden@mobile-max artist-chart-title">
 
 Billboard Hot 100
 </span>
 
 </div>
-											
+
 <div class="o-chart-results-list-header__item  // lrv-u-padding-tb-075 u-width-143@tablet u-width-82@mobile-max u-padding-lr-250@tablet lrv-u-padding-lr-050@mobile-max">
-	
+
 <span class="c-span  a-font-primary-medium-xxs u-font-size-11@mobile-max  u-line-height-125 lrv-u-display-block">
 
 Debut Date
 </span>
 
 </div>
-											
+
 <div class="o-chart-results-list-header__item  // lrv-u-padding-tb-075 u-width-72 u-width-55@mobile-max lrv-u-padding-lr-1@tablet">
-	
+
 <span class="c-span  a-font-primary-medium-xxs u-font-size-11@mobile-max  u-line-height-125 lrv-u-display-block">
 
 Peak Pos.
 </span>
 
 </div>
-											
+
 <div class="o-chart-results-list-header__item  // lrv-u-padding-tb-075 u-width-143@tablet u-width-82@mobile-max u-padding-lr-250@tablet lrv-u-padding-lr-075@mobile-max">
-	
+
 <span class="c-span  a-font-primary-medium-xxs u-font-size-11@mobile-max  u-line-height-125 lrv-u-display-block">
 
 Peak Date
 </span>
 
 </div>
-											
+
 <div class="o-chart-results-list-header__item  // lrv-u-padding-tb-075 u-width-72 u-width-55@mobile-max">
-	
+
 <span class="c-span  a-font-primary-medium-xxs u-font-size-11@mobile-max  u-line-height-125 lrv-u-display-block">
 
 Wks on Chart
@@ -1849,15 +1849,15 @@ Wks on Chart
 <div class="artist-chart-history-items">
 							<div class="o-chart-results-list-row // lrv-u-flex lrv-u-flex-direction-column@mobile-max u-height-100 lrv-u-background-color-white">
 	<div class="o-chart-results-list__item // lrv-u-flex lrv-u-flex-direction-column lrv-u-flex-grow-1 lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-padding-lr-2 lrv-u-padding-lr-1@mobile-max lrv-u-padding-tb-050@mobile-max" aria-label="Name - Wicked Game Chris Isaak">
-					
+
 <h3 id="title-of-a-story" class="c-title  a-no-trucate a-font-primary-bold-s u-letter-spacing-0021 lrv-u-font-size-18@tablet lrv-u-font-size-16 u-line-height-125 u-line-height-normal@mobile-max a-truncate-ellipsis u-max-width-330 u-max-width-230@tablet-only artist-chart-row-title">
 
-Wicked Game		
-	
+Wicked Game
+
 </h3>
-		
+
 								<span class="c-label  a-no-trucate a-font-primary-s lrv-u-font-size-14@mobile-max u-line-height-normal@mobile-max u-letter-spacing-0021 lrv-u-display-block a-truncate-ellipsis-2line u-max-width-330 u-max-width-230@tablet-only artist-chart-row-artist" aria-hidden="true">
-	
+
 	Chris Isaak
 </span>
 			</div>
@@ -1865,7 +1865,7 @@ Wicked Game
 <div class="lrv-u-flex lrv-u-height-100p u-background-color-grey-lightest@mobile-max u-height-37@mobile-max">
 		<div class="o-chart-results-list__item // u-width-143@tablet u-width-67@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-justify-content-flex-end@mobile-max u-flex-grow-1@mobile-max lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-padding-r-075@mobile-max" aria-label="Debut Date - 12 01 1990">
 										<span class="c-label  a-font-primary-m lrv-u-border-b-1 lrv-u-border-color-brand-primary artist-chart-row-debut-date" aria-hidden="true">
-	
+
 	<a href="http://web.archive.org/web/20231016063853/https://www.billboard.com/charts/hot-100/1991-03-02" class="c-label__link ">
 	12.01.90	</a>
 
@@ -1874,19 +1874,19 @@ Wicked Game
 
 <div class="o-chart-results-list__item // u-width-72 u-width-55@mobile-max lrv-u-flex lrv-u-flex-direction-column lrv-u-align-items-center lrv-u-justify-content-center u-background-color-white-064@mobile-max lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Peak Position - 6 for 0 Weeks">
 										<span class="c-label  a-font-primary-bold-m lrv-u-font-size-28@tablet lrv-u-padding-b-025 lrv-u-padding-b-00@mobile-max artist-chart-row-peak-pos" aria-hidden="true">
-	
+
 	6
 </span>
-			
+
 										<span class="c-label  a-font-accent u-font-size-13 u-font-size-11@mobile-max u-letter-spacing-0039 lrv-u-line-height-small lrv-u-color-grey-darkest u-background-color-yellow lrv-u-text-align-center lrv-u-padding-a-025 lrv-u-padding-tb-00@mobile-max u-width-100p@mobile-max artist-chart-row-peak-week lrv-a-hidden" aria-hidden="true">
-	
+
 	12 Wks
 </span>
 					</div>
 
 <div class="o-chart-results-list__item // u-width-143@tablet u-width-82@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Peak Date - 03 02 1991">
 										<span class="c-label  a-font-primary-m lrv-u-border-b-1 lrv-u-border-color-brand-primary artist-chart-row-peak-date" aria-hidden="true">
-	
+
 	<a href="#" class="c-label__link ">
 	03.02.91	</a>
 
@@ -1895,7 +1895,7 @@ Wicked Game
 
 <div class="o-chart-results-list__item // u-width-72 u-width-55@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-background-color-white-064@mobile-max lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Weeks on Chart 24">
 										<span class="c-label  a-font-primary-m artist-chart-row-week-on-chart" aria-hidden="true">
-	
+
 	24
 </span>
 					</div>
@@ -1903,15 +1903,15 @@ Wicked Game
 </div>
 							<div class="o-chart-results-list-row // lrv-u-flex lrv-u-flex-direction-column@mobile-max u-height-100 lrv-u-background-color-white">
 	<div class="o-chart-results-list__item // lrv-u-flex lrv-u-flex-direction-column lrv-u-flex-grow-1 lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-padding-lr-2 lrv-u-padding-lr-1@mobile-max lrv-u-padding-tb-050@mobile-max" aria-label="Name - Somebody's Crying Chris Isaak">
-					
+
 <h3 id="title-of-a-story" class="c-title  a-no-trucate a-font-primary-bold-s u-letter-spacing-0021 lrv-u-font-size-18@tablet lrv-u-font-size-16 u-line-height-125 u-line-height-normal@mobile-max a-truncate-ellipsis u-max-width-330 u-max-width-230@tablet-only artist-chart-row-title">
 
-Somebody&#039;s Crying		
-	
+Somebody&#039;s Crying
+
 </h3>
-		
+
 								<span class="c-label  a-no-trucate a-font-primary-s lrv-u-font-size-14@mobile-max u-line-height-normal@mobile-max u-letter-spacing-0021 lrv-u-display-block a-truncate-ellipsis-2line u-max-width-330 u-max-width-230@tablet-only artist-chart-row-artist" aria-hidden="true">
-	
+
 	Chris Isaak
 </span>
 			</div>
@@ -1919,7 +1919,7 @@ Somebody&#039;s Crying
 <div class="lrv-u-flex lrv-u-height-100p u-background-color-grey-lightest@mobile-max u-height-37@mobile-max">
 		<div class="o-chart-results-list__item // u-width-143@tablet u-width-67@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-justify-content-flex-end@mobile-max u-flex-grow-1@mobile-max lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-padding-r-075@mobile-max" aria-label="Debut Date - 06 10 1995">
 										<span class="c-label  a-font-primary-m lrv-u-border-b-1 lrv-u-border-color-brand-primary artist-chart-row-debut-date" aria-hidden="true">
-	
+
 	<a href="http://web.archive.org/web/20231016063853/https://www.billboard.com/charts/hot-100/1995-08-05" class="c-label__link ">
 	06.10.95	</a>
 
@@ -1928,19 +1928,19 @@ Somebody&#039;s Crying
 
 <div class="o-chart-results-list__item // u-width-72 u-width-55@mobile-max lrv-u-flex lrv-u-flex-direction-column lrv-u-align-items-center lrv-u-justify-content-center u-background-color-white-064@mobile-max lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Peak Position - 45 for 0 Weeks">
 										<span class="c-label  a-font-primary-bold-m lrv-u-font-size-28@tablet lrv-u-padding-b-025 lrv-u-padding-b-00@mobile-max artist-chart-row-peak-pos" aria-hidden="true">
-	
+
 	45
 </span>
-			
+
 										<span class="c-label  a-font-accent u-font-size-13 u-font-size-11@mobile-max u-letter-spacing-0039 lrv-u-line-height-small lrv-u-color-grey-darkest u-background-color-yellow lrv-u-text-align-center lrv-u-padding-a-025 lrv-u-padding-tb-00@mobile-max u-width-100p@mobile-max artist-chart-row-peak-week lrv-a-hidden" aria-hidden="true">
-	
+
 	12 Wks
 </span>
 					</div>
 
 <div class="o-chart-results-list__item // u-width-143@tablet u-width-82@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Peak Date - 08 05 1995">
 										<span class="c-label  a-font-primary-m lrv-u-border-b-1 lrv-u-border-color-brand-primary artist-chart-row-peak-date" aria-hidden="true">
-	
+
 	<a href="#" class="c-label__link ">
 	08.05.95	</a>
 
@@ -1949,7 +1949,7 @@ Somebody&#039;s Crying
 
 <div class="o-chart-results-list__item // u-width-72 u-width-55@mobile-max lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-background-color-white-064@mobile-max lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light" aria-label="Weeks on Chart 20">
 										<span class="c-label  a-font-primary-m artist-chart-row-week-on-chart" aria-hidden="true">
-	
+
 	20
 </span>
 					</div>
@@ -1966,7 +1966,7 @@ Somebody&#039;s Crying
 
 <div class="admz " id="adm-footer">
 					<div class="adma boomerang " data-device="Desktop" data-width="728">
-				
+
 <div style="min-width:728px;min-height:115px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="11">
 	<div id="div-gpt-dsk-tab-ros-footer-uid2" class=" adw-728 adh-90" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1987,12 +1987,12 @@ Somebody&#039;s Crying
 
 <footer class="footer // site-footer">
 						<div class="lrv-a-wrapper lrv-u-padding-t-2 lrv-u-margin-b-050">
-				
+
 <a class="" href="http://web.archive.org/web/20231016063853/https://pmc.com/" rel="noopener noreferrer" target="_blank">
 	<span class="lrv-a-screen-reader-only">Icon Link</span>
 
 <span class="lrv-a-screen-reader-only" title="">PMC Logo</span>
-	
+
 <svg class="c-icon  u-max-width-100 lrv-u-max-height-50 lrv-u-color-black" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#pmc-logo"/>
 	</svg>
@@ -2005,461 +2005,461 @@ Somebody&#039;s Crying
 <h2 id="section-heading" class="c-heading larva  a-font-primary-bold-l lrv-u-margin-b-075">
 
 Most Popular
-	
+
 	</h2>
 
 <div class="a-children-border-vertical a-children-border-width-1 a-children-border--grey-light">
-					
+
 <div class="o-card lrv-u-flex lrv-u-height-100p lrv-u-color-brand-primary:hover lrv-u-padding-r-1 a-counter-increment a-counter-before a-counter-config--footer-most-popular">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.hollywoodreporter.com/tv/tv-news/daredevil-marvel-disney-1235614518/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-padding-l-125" rel="nofollow">
-	
-	
-	
-		
-		
-		
+
+
+
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-025 u-height-16">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 421.291 98.115" style="height:100%"><path data-name="Path 2511" d="M400.157 37.746l-2.864 9.313c-5.224 17.109-12.849 22.056-17.19 22.056-3.631 0-5.126-2.621-5.126-8.619 0-17.084 11.158-37.637 19.7-37.637 4.28 0 8.198 5.871 5.48 14.887zm21.089-37c.142-.49-.061-.744-.44-.744h-16.969a.708.708 0 00-.759.711c0 .318.175.5.428.5h7.749l-9.045 29.7c-.28-5.744-3.8-9.488-9.036-9.488-12.881 0-26.718 16.191-26.718 31.566 0 12.065 6.753 17.443 12.936 17.443 5.311 0 10.9-4.214 14.986-12.539-1.58 8.622 2.1 12.539 7.7 12.539 4.065 0 8.175-2.8 14.037-16.972.194-.467-.042-.774-.514-.774a.653.653 0 00-.656.461c-5.578 12.817-8.7 14.965-10.751 14.965-1.956 0-3.03-1.441-1.012-8.232zm-91.622 58.256c0-8.844 4.628-25.76 11.553-32.91a9.79 9.79 0 017.2-3.412c4.2 0 7.192 2.6 7.192 10.179 0 8.844-4.629 25.758-11.552 32.91a9.793 9.793 0 01-7.2 3.413c-4.205 0-7.193-2.6-7.193-10.18zm34.381-18.6c0-11.2-7.835-18.98-16.34-18.98-14.248 0-26.48 14.818-26.48 30.031 0 11.2 7.834 18.978 16.339 18.978 14.251.004 26.481-14.814 26.481-30.025zm-68.356-14.31a9.794 9.794 0 017.2-3.412c4.2 0 7.192 2.6 7.192 10.179 0 8.844-4.63 25.758-11.554 32.91a9.787 9.787 0 01-7.193 3.413c-4.206 0-7.193-2.6-7.193-10.18-.004-8.844 4.623-25.76 11.548-32.91zm-3.652 44.343c14.248 0 26.481-14.818 26.481-30.029 0-11.2-7.835-18.98-16.34-18.98-14.249 0-26.482 14.818-26.482 30.031 0 11.197 7.835 18.978 16.341 18.978zm-23.842-48.742a5.275 5.275 0 10-.1 10.549 5.133 5.133 0 004.8-3.266 18.544 18.544 0 01.27 3.186c0 16.119-13.839 36.322-23.561 36.322-3.313 0-5.6-2.1-2.514-10.951l10.767-34.908h-9.81l-6.781 22.064c-5.164 16.422-12.823 23.795-17.335 23.795-3.052 0-4.841-2.236-2.512-9.8l10.713-35.311c.14-.488-.063-.744-.442-.744h-16.282a.709.709 0 00-.758.713c0 .318.174.5.428.5h7.063l-8.989 29.351c-3.463 11.258 1.782 17.246 9.538 17.246 5.514 0 11.382-5.99 15.575-15.06-1.8 9.248 2.743 15.06 9.479 15.06 14.192 0 26.981-23.2 26.981-38.687 0-7.498-2.791-10.059-6.53-10.059zm-107.576 31a.651.651 0 00-.654.461c-5.578 12.817-8.7 14.965-10.751 14.965-1.957 0-3.03-1.441-1.014-8.232L166.228.748c.141-.49-.062-.744-.442-.744h-16.282a.708.708 0 00-.758.711c0 .318.176.5.428.5h7.062L139.594 55.66c-2.719 9.967.982 14.775 7.464 14.775 4.064 0 8.174-2.8 14.037-16.972.192-.467-.042-.774-.52-.774zm-25.134 0a.653.653 0 00-.655.461c-5.577 12.817-8.7 14.965-10.751 14.965-1.957 0-3.029-1.441-1.013-8.232L141.093.748c.141-.49-.062-.744-.441-.744H124.37a.708.708 0 00-.758.711c0 .318.175.5.427.5h7.063L114.459 55.66c-2.718 9.967.983 14.775 7.465 14.775 4.064 0 8.174-2.8 14.037-16.972.192-.467-.043-.774-.516-.774zm-43.33 13.08a9.785 9.785 0 01-7.194 3.413c-4.206 0-7.193-2.6-7.193-10.18 0-8.844 4.627-25.758 11.553-32.91a9.788 9.788 0 017.194-3.412c4.206 0 7.193 2.6 7.193 10.179 0 8.84-4.629 25.754-11.553 32.906zm3.653-44.343c-14.248 0-26.481 14.818-26.481 30.031 0 11.2 7.836 18.978 16.34 18.978 14.249 0 26.48-14.818 26.48-30.029 0-11.203-7.832-18.984-16.339-18.984zm-29.4 46.6h-9.031L77.769 1.216h8.393a.707.707 0 00.758-.711c0-.318-.174-.5-.427-.5H59.167a.708.708 0 00-.758.711c0 .318.175.5.428.5h8.4l-9.908 32.409H30.175l9.912-32.414h7.795A.708.708 0 0048.64.5c0-.32-.174-.5-.428-.5H20.885a.708.708 0 00-.758.711c0 .318.175.5.428.5h9.005L9.128 68.025H.759a.708.708 0 00-.759.713c0 .319.175.5.428.5h27.326a.708.708 0 00.758-.711c0-.318-.174-.5-.428-.5h-8.429l10.149-33.191h27.155L46.81 68.025h-7.769a.707.707 0 00-.758.713c0 .319.174.5.427.5h27.326a.708.708 0 00.758-.711c0-.32-.175-.502-.428-.502zm100.587-44.692c0 .242.121.392.311.412a10.02 10.02 0 001.33.086h5.728l-.145.865-8.737 28.432c-3.438 11.426 1.829 17.236 9.454 17.3a8.467 8.467 0 001.11-.061c4.928-.582 10.148-5.518 14.367-14.492.008-.016-.108.371-.1.355l-7.267 23.5c-3.915 13.008-8.613 16.834-13.7 16.969a18.647 18.647 0 01-3.115-.182c-3.695-.535-6.369-2.093-7.757-4.326a5.3 5.3 0 003.454.942 5.436 5.436 0 004.036-2.364 5.5 5.5 0 00.912-3.441 5.432 5.432 0 00-2.633-4.305 5.371 5.371 0 00-3.083-.734 5.474 5.474 0 00-4.705 3.435 6.834 6.834 0 00-.495 2.9c.181 4.844 4.649 8.617 11.046 9.25a20.6 20.6 0 002.116.1c9.835-.071 19.762-5.014 24.9-21.858l16.353-53.496h-9.812l-4.582 14.924c-.061.2-1.495 4.861-1.56 5.047-5.806 18.726-13.266 25.755-17.957 25.879a5.083 5.083 0 01-1.029-.08c-2.479-.477-3.556-3.049-1.976-8.516l11.017-36.508c.1-.363-.041-.56-.291-.592a9.911 9.911 0 00-1.759-.152h-13.574c-.058 0-1.207.019-1.238.051a.653.653 0 00-.619.66zm69.586 57.291l-1.253 4.051h10.336l-1.328 4.341h-10.351l-1.308 4.231h12.976l-1.339 4.4h-19.013l6.551-21.428h19.015l-1.348 4.4zm-19.69-.375h-5.942l-1.832 5.994h5.471c2.463 0 4.023-.727 4.685-2.885l.059-.189c.583-1.906-.18-2.92-2.441-2.92zm8.564 3.4l-.16.524c-.9 3.027-3.149 4.867-6.769 5.548l3.813 7.926h-6.376l-3.247-7.361h-4.835l-2.249 7.361h-6.052l6.553-21.428h12.223c6.173.002 8.436 3.057 7.099 7.432zm91.063-3.4h-5.942l-1.832 5.994h5.471c2.463 0 4-.727 4.658-2.885l.059-.189c.583-1.906-.153-2.92-2.417-2.92zm8.564 3.4l-.161.524c-.9 3.027-3.15 4.867-6.768 5.548l3.813 7.926h-6.376l-3.248-7.361h-4.834l-2.249 7.361h-6.052l6.553-21.428h12.223c6.173.002 8.432 3.057 7.099 7.432zm62.7-3.4H381.8l-1.832 5.994h5.471c2.462 0 4.024-.727 4.685-2.885l.058-.189c.582-1.906-.179-2.92-2.441-2.92zm8.564 3.4l-.16.524c-.9 3.027-3.15 4.867-6.769 5.548l3.813 7.926h-6.377l-3.247-7.361h-4.834l-2.25 7.361h-6.05l6.552-21.428h12.224c6.172.002 8.435 3.057 7.097 7.432zm-24.81-3.027l1.348-4.4h-19.015l-6.554 21.427h19.014l1.339-4.4h-12.975l1.309-4.231h10.351l1.328-4.341h-10.337l1.254-4.051zm-106.3-.375h-5.4l-2.021 6.623h5.072c2.56 0 4.1-.848 4.716-2.875l.144-.475c.722-2.367.048-3.271-2.511-3.271zm8.713 3.594l-.24.767c-1.317 4.323-4.269 6.305-10.194 6.305h-6.937l-2.057 6.734h-6.051l6.551-21.428h11.268c6.826.002 8.975 3.331 7.66 7.624zm75.039-3.219l1.348-4.4h-21.2l-1.348 4.4h7.8l-5.211 17.025h6.083l5.21-17.025zm-154.9-64.186l2.034-6.656h6.393l-2.034 6.656h4.817l5.027-16.443h-4.81l-1.92 6.281h-6.393l1.921-6.281h-4.818l-5.028 16.443zm-17.324 0h4.808l3.943-12.89h5.289l1.085-3.553h-16.14l-1.087 3.553h6.053zm46.44 0l1.087-3.554h-9.694l.9-2.9h7.943l1.073-3.506h-7.932l.907-2.933h9.656l1.091-3.553h-14.5l-5.02 16.448zm70.011 69.118c.974-3.221-.573-5.268-4.4-5.268-3.486 0-5.378 1.555-6.324 4.65l-1.042 3.381c-.974 3.221.574 5.268 4.4 5.268 3.486 0 5.378-1.555 6.324-4.651m-15.553-4.552c1.873-6.127 5.957-8.621 13.373-8.621 6.955 0 11.059 3.845 8.82 11.16L298 89.494c-1.873 6.127-5.957 8.621-13.373 8.621-6.955 0-11.059-3.846-8.82-11.16z"/></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075 u-min-height-36">
 
-'Daredevil' Hits Reset Button as Marvel Overhauls Its TV Business		
-	
+'Daredevil' Hits Reset Button as Marvel Overhauls Its TV Business
+
 </h3>
 									</div>
 
 </div>
 
 </a>
-	
+
 </div>
-					
+
 <div class="o-card lrv-u-flex lrv-u-height-100p lrv-u-color-brand-primary:hover lrv-u-padding-r-1 a-counter-increment a-counter-before a-counter-config--footer-most-popular">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.sheknows.com/entertainment/articles/2870069/eric-trump-financial-aide-phone-call/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-padding-l-125" rel="nofollow">
-	
-	
-	
-		
-		
-		
+
+
+
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-025 u-height-16">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2703.627 521.613" style="height:100%;width:auto"><g fill="#100f0d"><path d="M1262.31 189.872h-61.897l-121.708 124.49V6.963h-44.51V514.66h44.51V347.745l164.132 166.914h60.507l-180.128-183.606 139.095-141.181m215.636-6.955c-40.334 0-93.187 18.779-112.654 65.375v-58.42h-44.517v324.787h44.517V334.53c1.387-78.59 56.32-107.799 108.494-107.799 52.16 0 91.8 38.252 91.8 100.844v187.083h44.506v-189.17c0-89.716-53.546-142.572-132.146-142.572m331.32 296.274c-68.854 0-125.187-50.77-125.187-127.969 0-76.501 56.333-125.88 125.187-125.88 68.16 0 125.88 49.379 125.88 125.88 0 77.2-57.72 127.968-125.88 127.968zm0-296.273c-92.494 0-169.694 65.375-169.694 168.304 0 102.93 77.2 170.392 169.694 170.392 92.493 0 170.386-67.461 170.386-170.392 0-102.929-77.893-168.304-170.386-168.304m621 6.955l-94.587 257.327-95.28-257.327h-45.907l-94.586 258.022-95.28-258.022h-47.987l124.493 324.787h38.947l96.667-265.672L2317.6 514.659h38.947l121.013-324.787h-47.293m190.6 146.051l-47.987-11.824c-23.64-5.563-50.067-18.779-50.067-49.379 0-30.601 25.734-52.161 63.28-52.161 32 0 60.507 19.474 62.6 48.684h43.12c-2.093-58.42-52.16-88.326-106.413-88.326-61.893 0-107.107 38.251-107.107 91.108 0 54.246 36.867 77.894 82.774 89.02l46.586 11.128c33.387 8.346 51.467 25.732 51.467 52.16 0 32.688-28.507 55.64-75.107 55.64-47.293 0-72.333-27.821-77.2-54.944h-41.026c5.56 61.898 61.893 94.584 118.226 94.584 67.454 0 119.614-36.86 119.614-94.584 0-37.556-19.467-75.808-82.76-91.106m-2423.151-2.088c-16.236-30.6-42.699-66.766-47.427-89.02-4.432-20.864 3.802-41.034 36.488-41.034 22.256 0 31.931 6.26 34.591 18.778 2.808 13.214-4.504 18.084-.41 34.078 3.546 16.691 21.211 27.819 39.989 27.819 21.56 0 31.374-15.995 26.498-38.947-7.682-36.164-47.584-57.028-102.526-57.028-74.417 0-123.798 55.638-111.386 114.059 6.162 25.73 18.584 51.464 36.464 79.979 21.846 34.078 40.188 54.942 45.951 82.066 3.355 12.518 5.24 41.032-41.357 41.032-25.037 0-48.266-11.128-50.482-21.56-2.512-11.822 10.911-17.386 6.33-38.946-3.546-16.69-17.228-31.99-40.179-31.99-22.95 0-33.714 18.082-29.28 38.945 9.012 42.423 67.483 68.853 117.556 68.853 92.5 0 131.936-50.075 121.488-95.976-7.092-33.383-19.532-49.379-42.308-91.108"/><path d="M603.88 493.795c-6.955 0-14.648-3.478-17.013-14.606-4.728-22.256 4.601-43.814 40.317-124.489 28.535-65.376 32.005-88.325 28.016-107.103-9.648-48.684-41.77-59.116-84.89-59.116-50.769 0-110.417 46.598-144.977 119.622h-2.781l50.341-146.051c15.138-46.596 22.632-70.241 17.166-95.975-8.083-34.773-36.294-66.07-90.54-66.07-45.206 0-78.684 25.733-93.379 74.416l16.23 7.65c14.19-44.51 40.697-60.506 55.998-60.506 11.823 0 18.42 4.868 20.932 16.692 2.956 13.909-2.496 34.077-23.676 98.061L254.168 513.964c12.621-2.782 34.435-4.868 53.212-4.868 15.3 0 43.71 2.78 54.585 4.868l30.276-93.194c28.484-91.803 66.338-146.05 99.331-177.346 17.865-17.387 41.443-34.079 60.916-34.079 9.041 0 13.005 5.564 14.335 11.823 4.389 17.387-20.276 58.421-46.811 116.84-25.04 55.639-37.037 97.367-31.276 124.49 7.64 32.687 31.885 58.42 81.264 58.42 58.42 0 94.55-36.165 111.548-67.46l-15.43-10.433c-15.606 31.296-42.765 50.77-62.238 50.77m297.29-287.927c19.585 0 34.107 16.53 34.107 38.477 0 60.827-70.737 97.942-131.15 110.355 13-73.025 46.968-148.832 97.042-148.832zm98.07 42.239c0-31.982-32.217-59.626-102.46-59.626-98.41 0-209.501 87.026-209.501 191.528 0 77.546 53.601 140.91 148.684 140.91 68.385 0 131.737-43.834 156.132-100.96l-15.9-8.072c-24.87 52.61-82.314 88.862-124.348 88.862-25.038 0-41.607-12.518-49.247-45.206-5.276-21.559-5.37-51.465-1.735-83.456 69.822-13.612 198.375-53.119 198.375-123.98"/></g></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075 u-min-height-36">
 
-Eric Trump Has Found Himself in Hot Water When One of the Family’s Financial Aides Shed Light on a Certain Phone Call		
-	
+Eric Trump Has Found Himself in Hot Water When One of the Family’s Financial Aides Shed Light on a Certain Phone Call
+
 </h3>
 									</div>
 
 </div>
 
 </a>
-	
+
 </div>
-					
+
 <div class="o-card lrv-u-flex lrv-u-height-100p lrv-u-color-brand-primary:hover lrv-u-padding-r-1 a-counter-increment a-counter-before a-counter-config--footer-most-popular">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.artnews.com/art-news/news/yayoi-kusama-deep-regret-anti-black-statements-exhibition-sfmoma-1234682506/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-padding-l-125" rel="nofollow">
-	
-	
-	
-		
-		
-		
+
+
+
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-025 u-height-14">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 786.5 137.4" style="height:100%;width:auto"><path class="st0" d="M49.8.1c-7.3 19.8-14.7 39.5-22.1 59.2C18.6 83.6 9.2 108.7 0 133.5h32.1c1.3-3.7 2.5-7.9 3.8-12 1.4-4.7 2.9-9.9 4.5-14.1l.6-1.6h51.1l.6 1.6c1.5 4.3 3 9.4 4.4 14.3 1.2 4.1 2.4 8.1 3.5 11.8h32.7c-9.7-26.4-20.4-54.8-30.8-82.4l-.5-1.4C95.6 32.8 89.4 16 83.4 0 72 .2 60.9.2 49.8.1zm35 83.6H47.6l1-3.2c2.6-8 5.2-15.4 7.8-22.5 2.6-7.2 5.2-14.6 7.8-22.6l2.3-7.2 2.3 7.2c2.4 7.8 5 15.1 7.4 22.1l.1.2c2.5 7.2 5.1 14.7 7.6 22.8l.9 3.2zm95 2.6h13.3c7.6 0 14.5 4.5 17.3 11.1 3.2 7.2 3.9 14.5 4.6 21.5.5 5.2 1 10.1 2.5 14.7h31.1c-1.5-5.8-2.3-11.6-3-17.2-1-7.3-1.9-14.8-4.5-22.3-2.6-9.2-8.4-15.6-15.5-17.2l-7.7-1.8 7.3-2.8c14.9-5.8 20.8-26.7 17.8-42.7-.7-4.3-2.9-9.2-3.2-9.7C230.5 3.5 211.7.6 201.3.3c-15.1-.1-27.2-.1-41-.1h-25.6v49.2c0 28.1.1 57.2-.1 84.2h31.3V86.3h13.9zM166 63.1V25.8h25.4c5.9 0 13.2.7 18.1 6 5.5 6 5.2 14.9 2.4 21-2.7 6-8.4 9.7-15.3 10-3.6.2-5.8.2-10.9.2h-17.3l-2.4.1zm374.1-18.5c-.5-.4-.9-.8-1.4-1.1-7.5-5.8-17-8.8-26.5-9.3-13.9-.7-28.3 4-38.4 13.5-12.9 12.2-18.1 31.4-15.1 48.8 1.6 9.2 5.4 18.2 11.7 25.2 11.2 12.4 29.2 17 45.8 15.2 7.8-.8 15.2-3.1 21.8-7.3 6.4-4 12.5-10.5 15.2-17.7-7.5-2.8-15.4-5.7-22.8-8.5-3.9 5.3-8.1 8.3-14.4 10.1-5.9 1.7-12 1.4-17.6-1.3-7.9-3.9-13.5-12.1-14.1-20.9h73.6c.2-8.9-.9-18-4-26.4-2.7-7.7-7.4-15-13.8-20.3zm-55.7 29s3.5-18.4 23.5-18.4S531 73.3 531 73.3l-46.6.3zm191.7-36.3c-2.9 11.4-5.8 21.8-8.7 31.9v.1c-2.4 8.6-4.9 17.4-7.4 26.9l-1.8 6.9-1.6-7c-2.4-10.4-4.8-20-7.1-29.2-2.4-9.4-4.8-19-7.2-29.6h-28.9c-2.3 10.2-4.6 19.9-6.7 28.4-2.4 9.8-4.8 19.9-7.3 31l-1.6 7.2-1.8-7.2c-2.9-11.2-5.8-21.5-8.6-31.4-2.5-8.9-5.2-18.1-7.8-28h-29.8c5.9 19.1 11.9 38.4 17.8 57.2l.1.4c4.2 13.3 8.2 26.3 12.3 39.4h30.8c2.4-10.2 4.9-19.6 7.2-28.8v-.2c2.6-10.2 5.4-20.7 8-32.1l1.7-7.2 1.7 7.2c2.4 10 4.9 19.3 7.2 28.3v.1c2.7 10.4 5.5 21.1 8.3 32.8h30.9c10.1-32.3 20.2-64.6 30.2-96.9h-29.9v-.2zM359 .2H245.5v26.5h41.1v107h31.2v-107h41.1V.2h.1zM426.6 117v16.6h28.3V68.2c-.1-10.8-2.7-17.7-9.1-23.8-8.7-8-23-9.4-32.7-8.1-9 1.4-15 3.7-19.9 7.7l-3.2 2.6-.7-4.1c-.4-2.4-.9-4.5-1.4-6.3h-31.2c1.5 6.8 2.4 18.5 2.4 23.5v1c.2 18.3.5 61.2.6 72.8H388V85.7c0-6.8 2-13 5.7-17.6 6.1-7 17.9-8.4 26.2-3.1 6.1 4.6 6.5 12.8 6.7 17.7V117z"/><path d="M743.6 137.4c26 0 42.9-12.4 42.9-31.6 0-24.9-22-29.4-39.7-32.9h-.2c-10-2-17.9-3.6-17.9-8.5 0-5.2 6.1-8.9 14.8-8.9 12.2 0 23.1 5.6 28.4 11.1l.5.5 10.9-19.2-.4-.3c-11.1-8.8-24.7-13.4-39.4-13.4-23.8 0-40.4 12.8-40.4 31.2 0 23.7 21.3 28 38.4 31.5 10.7 2.2 19.2 3.9 19.2 9.6 0 6.2-5.7 9.7-15.8 9.7-12 0-26.3-6.8-33.3-13.4l-.5-.5-11.7 19.5.3.3c10.4 9.6 26.8 15.3 43.9 15.3z"/></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075 u-min-height-36">
 
-Yayoi Kusama Expresses "Deep Regret" For Anti-Black Statements Ahead of Exhibition at SFMOMA		
-	
+Yayoi Kusama Expresses "Deep Regret" For Anti-Black Statements Ahead of Exhibition at SFMOMA
+
 </h3>
 									</div>
 
 </div>
 
 </a>
-	
+
 </div>
-					
+
 <div class="o-card lrv-u-flex lrv-u-height-100p lrv-u-color-brand-primary:hover lrv-u-padding-r-1 a-counter-increment a-counter-before a-counter-config--footer-most-popular">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.vibe.com/news/movies-tv/will-packer-chris-brown-stomp-the-yard-1234801591/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-padding-l-125" rel="nofollow">
-	
-	
-	
-		
-		
-		
+
+
+
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-025 u-height-12">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 217.262 57.924" style="height:100%"><defs><style>.b{fill:#000}</style></defs><path class="b" d="M41.241 57.925H7.216L0 .134h22.011l4.6 38.593L39.321.134h23.864zM67.189.067h23.964v57.791H67.189zM134.648 40.18c0 6.09-1.655 7.911-5.4 7.911h-4.3V31.907h4.3c3.939 0 5.4 2.019 5.4 8.275m20.223 1.092c0-10.459-5.1-12.214-11.949-13.67 6.918-1.39 11.949-3.31 11.949-13.306 0-12.379-11.585-14.3-21.216-14.3h-32.636v57.923h32.636c10.029 0 21.216-2.317 21.216-16.649M134.648 16.88c0 5.859-1.721 7.414-5.4 7.414h-4.3V9.83h4.3c3.674 0 5.4 1.82 5.4 7.05M217.262 31.974V15.06C217.262 2.681 202.235 0 189.426 0c-12.875 0-27.77 2.648-27.77 15.06v26.215c0 14.332 14.233 16.649 27.77 16.649 13.471 0 27.836-2.284 27.836-16.649V35.28h-21.514v5.263c0 6.09-1.324 7.547-5.1 7.547-3.873 0-5.163-1.456-5.163-7.547V31.97zm-31.775-15.457c0-5.23 1.589-6.686 5.163-6.686s5.1 1.456 5.1 6.686v7.514h-10.263z"/></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075 u-min-height-36">
 
-Will Packer Finally Explains Why Chris Brown Was Only In ‘Stomp The Yard’ For "10 Minutes And 50 Seconds"		
-	
+Will Packer Finally Explains Why Chris Brown Was Only In ‘Stomp The Yard’ For "10 Minutes And 50 Seconds"
+
 </h3>
 									</div>
 
 </div>
 
 </a>
-	
+
 </div>
 			</div>
 </section>
 
 <div class="a-span2 a-span3@desktop-xl">
-									
+
 <section class="newswire // lrv-a-wrapper lrv-u-padding-b-150 lrv-u-padding-b-00@mobile-max">
 
 <h2 id="section-heading" class="c-heading larva  a-font-primary-bold-l lrv-u-margin-b-125 lrv-u-margin-b-1@mobile-max">
 
 You May Also Like
-	
+
 	</h2>
 
 <div class="js-Flickity js-Flickity--newswire js-Flickity--isContained js-Flickity--nav-top-right js-Flickity--bordered-buttons js-Flickity--isFreeScroll">
 					<div class="js-Flickity-loading">Loading...</div>
-		
+
 									<div class="js-Flickity-cell u-border-t-3 lrv-u-border-color-brand-primary lrv-u-padding-t-125">
-						
+
 <div class="o-card lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-color-brand-primary:hover">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.hollywoodreporter.com/tv/tv-news/tm-logan-thriller-29-seconds-series-adaptation-big-light-productions-1235618370/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p" rel="nofollow">
-	
-	
-	
-					
+
+
+
+
 <div class="c-lazy-image   lrv-a-hover-effect lrv-a-hover-effect--fade">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://www.hollywoodreporter.com/wp-content/uploads/2023/10/TM-Logan-.jpeg?resize=225,169" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-1 lrv-u-margin-b-075 lrv-u-display-inline-flex lrv-u-color-black u-height-16">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 421.291 98.115" style="height:100%"><path data-name="Path 2511" d="M400.157 37.746l-2.864 9.313c-5.224 17.109-12.849 22.056-17.19 22.056-3.631 0-5.126-2.621-5.126-8.619 0-17.084 11.158-37.637 19.7-37.637 4.28 0 8.198 5.871 5.48 14.887zm21.089-37c.142-.49-.061-.744-.44-.744h-16.969a.708.708 0 00-.759.711c0 .318.175.5.428.5h7.749l-9.045 29.7c-.28-5.744-3.8-9.488-9.036-9.488-12.881 0-26.718 16.191-26.718 31.566 0 12.065 6.753 17.443 12.936 17.443 5.311 0 10.9-4.214 14.986-12.539-1.58 8.622 2.1 12.539 7.7 12.539 4.065 0 8.175-2.8 14.037-16.972.194-.467-.042-.774-.514-.774a.653.653 0 00-.656.461c-5.578 12.817-8.7 14.965-10.751 14.965-1.956 0-3.03-1.441-1.012-8.232zm-91.622 58.256c0-8.844 4.628-25.76 11.553-32.91a9.79 9.79 0 017.2-3.412c4.2 0 7.192 2.6 7.192 10.179 0 8.844-4.629 25.758-11.552 32.91a9.793 9.793 0 01-7.2 3.413c-4.205 0-7.193-2.6-7.193-10.18zm34.381-18.6c0-11.2-7.835-18.98-16.34-18.98-14.248 0-26.48 14.818-26.48 30.031 0 11.2 7.834 18.978 16.339 18.978 14.251.004 26.481-14.814 26.481-30.025zm-68.356-14.31a9.794 9.794 0 017.2-3.412c4.2 0 7.192 2.6 7.192 10.179 0 8.844-4.63 25.758-11.554 32.91a9.787 9.787 0 01-7.193 3.413c-4.206 0-7.193-2.6-7.193-10.18-.004-8.844 4.623-25.76 11.548-32.91zm-3.652 44.343c14.248 0 26.481-14.818 26.481-30.029 0-11.2-7.835-18.98-16.34-18.98-14.249 0-26.482 14.818-26.482 30.031 0 11.197 7.835 18.978 16.341 18.978zm-23.842-48.742a5.275 5.275 0 10-.1 10.549 5.133 5.133 0 004.8-3.266 18.544 18.544 0 01.27 3.186c0 16.119-13.839 36.322-23.561 36.322-3.313 0-5.6-2.1-2.514-10.951l10.767-34.908h-9.81l-6.781 22.064c-5.164 16.422-12.823 23.795-17.335 23.795-3.052 0-4.841-2.236-2.512-9.8l10.713-35.311c.14-.488-.063-.744-.442-.744h-16.282a.709.709 0 00-.758.713c0 .318.174.5.428.5h7.063l-8.989 29.351c-3.463 11.258 1.782 17.246 9.538 17.246 5.514 0 11.382-5.99 15.575-15.06-1.8 9.248 2.743 15.06 9.479 15.06 14.192 0 26.981-23.2 26.981-38.687 0-7.498-2.791-10.059-6.53-10.059zm-107.576 31a.651.651 0 00-.654.461c-5.578 12.817-8.7 14.965-10.751 14.965-1.957 0-3.03-1.441-1.014-8.232L166.228.748c.141-.49-.062-.744-.442-.744h-16.282a.708.708 0 00-.758.711c0 .318.176.5.428.5h7.062L139.594 55.66c-2.719 9.967.982 14.775 7.464 14.775 4.064 0 8.174-2.8 14.037-16.972.192-.467-.042-.774-.52-.774zm-25.134 0a.653.653 0 00-.655.461c-5.577 12.817-8.7 14.965-10.751 14.965-1.957 0-3.029-1.441-1.013-8.232L141.093.748c.141-.49-.062-.744-.441-.744H124.37a.708.708 0 00-.758.711c0 .318.175.5.427.5h7.063L114.459 55.66c-2.718 9.967.983 14.775 7.465 14.775 4.064 0 8.174-2.8 14.037-16.972.192-.467-.043-.774-.516-.774zm-43.33 13.08a9.785 9.785 0 01-7.194 3.413c-4.206 0-7.193-2.6-7.193-10.18 0-8.844 4.627-25.758 11.553-32.91a9.788 9.788 0 017.194-3.412c4.206 0 7.193 2.6 7.193 10.179 0 8.84-4.629 25.754-11.553 32.906zm3.653-44.343c-14.248 0-26.481 14.818-26.481 30.031 0 11.2 7.836 18.978 16.34 18.978 14.249 0 26.48-14.818 26.48-30.029 0-11.203-7.832-18.984-16.339-18.984zm-29.4 46.6h-9.031L77.769 1.216h8.393a.707.707 0 00.758-.711c0-.318-.174-.5-.427-.5H59.167a.708.708 0 00-.758.711c0 .318.175.5.428.5h8.4l-9.908 32.409H30.175l9.912-32.414h7.795A.708.708 0 0048.64.5c0-.32-.174-.5-.428-.5H20.885a.708.708 0 00-.758.711c0 .318.175.5.428.5h9.005L9.128 68.025H.759a.708.708 0 00-.759.713c0 .319.175.5.428.5h27.326a.708.708 0 00.758-.711c0-.318-.174-.5-.428-.5h-8.429l10.149-33.191h27.155L46.81 68.025h-7.769a.707.707 0 00-.758.713c0 .319.174.5.427.5h27.326a.708.708 0 00.758-.711c0-.32-.175-.502-.428-.502zm100.587-44.692c0 .242.121.392.311.412a10.02 10.02 0 001.33.086h5.728l-.145.865-8.737 28.432c-3.438 11.426 1.829 17.236 9.454 17.3a8.467 8.467 0 001.11-.061c4.928-.582 10.148-5.518 14.367-14.492.008-.016-.108.371-.1.355l-7.267 23.5c-3.915 13.008-8.613 16.834-13.7 16.969a18.647 18.647 0 01-3.115-.182c-3.695-.535-6.369-2.093-7.757-4.326a5.3 5.3 0 003.454.942 5.436 5.436 0 004.036-2.364 5.5 5.5 0 00.912-3.441 5.432 5.432 0 00-2.633-4.305 5.371 5.371 0 00-3.083-.734 5.474 5.474 0 00-4.705 3.435 6.834 6.834 0 00-.495 2.9c.181 4.844 4.649 8.617 11.046 9.25a20.6 20.6 0 002.116.1c9.835-.071 19.762-5.014 24.9-21.858l16.353-53.496h-9.812l-4.582 14.924c-.061.2-1.495 4.861-1.56 5.047-5.806 18.726-13.266 25.755-17.957 25.879a5.083 5.083 0 01-1.029-.08c-2.479-.477-3.556-3.049-1.976-8.516l11.017-36.508c.1-.363-.041-.56-.291-.592a9.911 9.911 0 00-1.759-.152h-13.574c-.058 0-1.207.019-1.238.051a.653.653 0 00-.619.66zm69.586 57.291l-1.253 4.051h10.336l-1.328 4.341h-10.351l-1.308 4.231h12.976l-1.339 4.4h-19.013l6.551-21.428h19.015l-1.348 4.4zm-19.69-.375h-5.942l-1.832 5.994h5.471c2.463 0 4.023-.727 4.685-2.885l.059-.189c.583-1.906-.18-2.92-2.441-2.92zm8.564 3.4l-.16.524c-.9 3.027-3.149 4.867-6.769 5.548l3.813 7.926h-6.376l-3.247-7.361h-4.835l-2.249 7.361h-6.052l6.553-21.428h12.223c6.173.002 8.436 3.057 7.099 7.432zm91.063-3.4h-5.942l-1.832 5.994h5.471c2.463 0 4-.727 4.658-2.885l.059-.189c.583-1.906-.153-2.92-2.417-2.92zm8.564 3.4l-.161.524c-.9 3.027-3.15 4.867-6.768 5.548l3.813 7.926h-6.376l-3.248-7.361h-4.834l-2.249 7.361h-6.052l6.553-21.428h12.223c6.173.002 8.432 3.057 7.099 7.432zm62.7-3.4H381.8l-1.832 5.994h5.471c2.462 0 4.024-.727 4.685-2.885l.058-.189c.582-1.906-.179-2.92-2.441-2.92zm8.564 3.4l-.16.524c-.9 3.027-3.15 4.867-6.769 5.548l3.813 7.926h-6.377l-3.247-7.361h-4.834l-2.25 7.361h-6.05l6.552-21.428h12.224c6.172.002 8.435 3.057 7.097 7.432zm-24.81-3.027l1.348-4.4h-19.015l-6.554 21.427h19.014l1.339-4.4h-12.975l1.309-4.231h10.351l1.328-4.341h-10.337l1.254-4.051zm-106.3-.375h-5.4l-2.021 6.623h5.072c2.56 0 4.1-.848 4.716-2.875l.144-.475c.722-2.367.048-3.271-2.511-3.271zm8.713 3.594l-.24.767c-1.317 4.323-4.269 6.305-10.194 6.305h-6.937l-2.057 6.734h-6.051l6.551-21.428h11.268c6.826.002 8.975 3.331 7.66 7.624zm75.039-3.219l1.348-4.4h-21.2l-1.348 4.4h7.8l-5.211 17.025h6.083l5.21-17.025zm-154.9-64.186l2.034-6.656h6.393l-2.034 6.656h4.817l5.027-16.443h-4.81l-1.92 6.281h-6.393l1.921-6.281h-4.818l-5.028 16.443zm-17.324 0h4.808l3.943-12.89h5.289l1.085-3.553h-16.14l-1.087 3.553h6.053zm46.44 0l1.087-3.554h-9.694l.9-2.9h7.943l1.073-3.506h-7.932l.907-2.933h9.656l1.091-3.553h-14.5l-5.02 16.448zm70.011 69.118c.974-3.221-.573-5.268-4.4-5.268-3.486 0-5.378 1.555-6.324 4.65l-1.042 3.381c-.974 3.221.574 5.268 4.4 5.268 3.486 0 5.378-1.555 6.324-4.651m-15.553-4.552c1.873-6.127 5.957-8.621 13.373-8.621 6.955 0 11.059 3.845 8.82 11.16L298 89.494c-1.873 6.127-5.957 8.621-13.373 8.621-6.955 0-11.059-3.846-8.82-11.16z"/></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075">
 
-MIPCOM: Big Light Productions Gets Series Adaptation Rights for T.M. Logan Thriller ’29 Seconds’		
-	
+MIPCOM: Big Light Productions Gets Series Adaptation Rights for T.M. Logan Thriller ’29 Seconds’
+
 </h3>
 									</div>
 
 <div class="lrv-u-margin-t-auto lrv-u-flex lrv-u-flex-direction-column">
-		
-					
+
+
 <time class="c-timestamp  a-font-primary-medium-xxs lrv-u-color-grey-dark lrv-u-order-100" datetime="00:00-YY-DD-MM">
-	3 hrs ago	
+	3 hrs ago
 </time>
 
 </div>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </div>
 		</div>
 									<div class="js-Flickity-cell u-border-t-3 lrv-u-border-color-grey-light lrv-u-padding-t-125">
-						
+
 <div class="o-card lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-color-brand-primary:hover">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.vibe.com/news/entertainment/jeannie-mai-speaks-on-divorce-1234801967/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p" rel="nofollow">
-	
-	
-	
-					
+
+
+
+
 <div class="c-lazy-image   lrv-a-hover-effect lrv-a-hover-effect--fade">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://www.vibe.com/wp-content/uploads/2023/10/GettyImages-1484991760-e1697225846775.jpg?resize=225,169" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-1 lrv-u-margin-b-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-1 u-height-12">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 217.262 57.924" style="height:100%"><defs><style>.b{fill:#000}</style></defs><path class="b" d="M41.241 57.925H7.216L0 .134h22.011l4.6 38.593L39.321.134h23.864zM67.189.067h23.964v57.791H67.189zM134.648 40.18c0 6.09-1.655 7.911-5.4 7.911h-4.3V31.907h4.3c3.939 0 5.4 2.019 5.4 8.275m20.223 1.092c0-10.459-5.1-12.214-11.949-13.67 6.918-1.39 11.949-3.31 11.949-13.306 0-12.379-11.585-14.3-21.216-14.3h-32.636v57.923h32.636c10.029 0 21.216-2.317 21.216-16.649M134.648 16.88c0 5.859-1.721 7.414-5.4 7.414h-4.3V9.83h4.3c3.674 0 5.4 1.82 5.4 7.05M217.262 31.974V15.06C217.262 2.681 202.235 0 189.426 0c-12.875 0-27.77 2.648-27.77 15.06v26.215c0 14.332 14.233 16.649 27.77 16.649 13.471 0 27.836-2.284 27.836-16.649V35.28h-21.514v5.263c0 6.09-1.324 7.547-5.1 7.547-3.873 0-5.163-1.456-5.163-7.547V31.97zm-31.775-15.457c0-5.23 1.589-6.686 5.163-6.686s5.1 1.456 5.1 6.686v7.514h-10.263z"/></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075">
 
-Jeannie Mai Speaks On “Devastating” Divorce, Calls Daughter Her “North Star”		
-	
+Jeannie Mai Speaks On “Devastating” Divorce, Calls Daughter Her “North Star”
+
 </h3>
 									</div>
 
 <div class="lrv-u-margin-t-auto lrv-u-flex lrv-u-flex-direction-column">
-		
-					
+
+
 <time class="c-timestamp  a-font-primary-medium-xxs lrv-u-color-grey-dark lrv-u-order-100" datetime="00:00-YY-DD-MM">
-	2 days ago	
+	2 days ago
 </time>
 
 </div>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </div>
 		</div>
 									<div class="js-Flickity-cell u-border-t-3 lrv-u-border-color-grey-light lrv-u-padding-t-125">
-						
+
 <div class="o-card lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-color-brand-primary:hover">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://wwd.com/business-news/media/giovanni-aduffredi-named-esquire-italy-esquire-editor-in-chief-1235875611/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p" rel="nofollow">
-	
-	
-	
-					
+
+
+
+
 <div class="c-lazy-image   lrv-a-hover-effect lrv-a-hover-effect--fade">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://wwd.com/wp-content/uploads/2023/10/ESQ-29-COVER-ABBONATI-costa.png?resize=225,169" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-1 lrv-u-margin-b-075 lrv-u-display-inline-flex lrv-u-color-black lrv-u-margin-b-1 u-height-12">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 119.51 35.11" style="height:100%"><g data-name="Layer 2"><path d="M99.76 35.11c10.25 0 19.75-3.7 19.75-17.56S110 0 99.76 0h-9.23l-3.69 13.81v21.3zm-2.63-9V9h2.81c6.42 0 9.18 2.24 9.18 8.56s-2.76 8.57-9.18 8.57zm-47.65 9h10l5-18.73 5 18.73h10.1L89 0h-9.47l-4.91 19.19L69.52 0H60l-5.18 19.43-4.68-18.21-4.87 18.25 4.21 15.64zm-40.07 0h10.11l5-18.77 5 18.77h10L48.92 0H39.6l-5 19.33L29.49 0H20l-5.1 19.19L10 0H0l9.41 35.11z" data-name="Layer 1"/></g></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075">
 
-Italy’s Esquire Names New Editor in Chief		
-	
+Italy’s Esquire Names New Editor in Chief
+
 </h3>
 									</div>
 
 <div class="lrv-u-margin-t-auto lrv-u-flex lrv-u-flex-direction-column">
-		
-					
+
+
 <time class="c-timestamp  a-font-primary-medium-xxs lrv-u-color-grey-dark lrv-u-order-100" datetime="00:00-YY-DD-MM">
-	2 hrs ago	
+	2 hrs ago
 </time>
 
 </div>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </div>
 		</div>
 									<div class="js-Flickity-cell u-border-t-3 lrv-u-border-color-grey-light lrv-u-padding-t-125">
-						
+
 <div class="o-card lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-color-brand-primary:hover">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.sportico.com/leagues/college-sports/2023/iowa-women-basketball-attendance-record-outdoor-game-1234742107/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p" rel="nofollow">
-	
-	
-	
-					
+
+
+
+
 <div class="c-lazy-image   lrv-a-hover-effect lrv-a-hover-effect--fade">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://www.sportico.com/wp-content/uploads/2023/10/GettyImages-1250609308-e1697377384114.jpg?resize=225,169" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-1 lrv-u-margin-b-075 lrv-u-display-inline-flex lrv-u-color-black u-height-16">
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewbox="0 0 803 211" xml:space="preserve" style="height:100%" enable-background="new 0 0 803 211"><style>.st0{fill-rule:evenodd;clip-rule:evenodd}</style><g id="Symbols"><g id="Logo-_x2F_-Sportico" transform="translate(0 -1)"><g id="sportico-logo"><path id="Fill-1" class="st0" d="M70.4 72.3L46.7 62.2c-5.3-2.4-7.9-5.4-7.9-9.8 0-7.3 6.6-10.7 15.8-10.7 16.1 0 32.5 9.6 44.9 21.6V22.4c-7.5-7.1-24.6-15-43.2-15C24.8 7.4 0 26.3 0 55.8 0 79.1 14.6 89.6 32.5 98l26.3 11.6c6 2.6 12 5.6 12 13.1 0 8.1-7.7 12.2-19.9 12.2-18.6 0-36.2-11.1-50.1-21.4v40.2c10.7 7.7 28.5 15.2 49.2 15.2 33.2 0 59.1-18.6 59.1-50.5 0-23.7-13.2-35.2-38.7-46.1"/><g id="Group-5" transform="translate(118 52.153)"><defs><filter id="Adobe_OpacityMaskFilter" x=".7" y=".6" width="122" height="158.4"><fecolormatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><path id="Fill-3" d="M61.5 82.8c-12.6 0-21.8-9.8-21.8-24.2s9.2-24.2 21.8-24.2c12.4 0 21.8 9.8 21.8 24.2s-9.4 24.2-21.8 24.2M70.2.6c-14.1 0-24 5.1-29.7 9.8V3.2H.7V159h39.8v-52.2c5.8 4.7 15.6 9.8 29.7 9.8 29.3 0 52.4-24.6 52.4-58 .1-33.4-23-58-52.4-58" mask="url(#mask-2_1_)" fill-rule="evenodd" clip-rule="evenodd"/></g><path id="Fill-6" class="st0" d="M309.8 135c-12.4 0-21.2-9.6-21.2-24.2s8.8-24.2 21.2-24.2c12.4 0 21.2 9.6 21.2 24.2 0 14.5-8.8 24.2-21.2 24.2m0-82.2c-32.7 0-60.6 24-60.6 58s27.8 58 60.6 58c32.7 0 60.6-24 60.6-58-.1-34-27.9-58-60.6-58"/><path id="Fill-8" class="st0" d="M503.6 123.4v-32h25.7v-36h-25.7V22.6l-39.8 11.6v21.2h-10.4c-14.8-.2-25.9 4.7-32.5 13.3V55.4h-39.8v110.9h39.8v-49.9c0-18.4 12.5-25 32.5-25h10.4v36.3c0 28 19.5 41.1 43.4 41.1 7.5 0 16.1-1.3 22.5-4.3v-34.9c-4.1 3.2-9 5.1-14.1 5.1-6.6.1-12-3.2-12-11.3"/><g id="Group-12" transform="translate(540 .153)"><defs><filter id="Adobe_OpacityMaskFilter_1_" x=".9" y=".8" width="44.1" height="43.2"><fecolormatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><path id="Fill-10" d="M23.1.8h-.4C10.7.8.9 10.2.9 22.4.9 34.6 10.7 44 22.7 44h.4c12 0 21.8-9.4 21.8-21.6C44.9 10.3 35.1.8 23.1.8" mask="url(#mask-4_1_)" fill-rule="evenodd" clip-rule="evenodd"/></g><path id="Fill-13" class="st0" d="M543 166.2h39.8V55.4H543z"/><path id="Fill-15" class="st0" d="M593.6 110.8c0 34.2 28 58 59.7 58 7.9 0 15-.9 21.2-2.8v-36.8c-5.6 3-10.3 5.1-18.6 5.1-12.6 0-24.4-8.8-24.4-23.5s11.8-23.5 24.4-23.5c8.3 0 13.1 2.1 18.6 5.1V55.6c-6.2-1.9-13.3-2.8-21.2-2.8-31.7 0-59.7 23.7-59.7 58"/><path id="Fill-16" class="st0" d="M741.7 135c-12.4 0-21.2-9.6-21.2-24.2s8.8-24.2 21.2-24.2c12.4 0 21.2 9.6 21.2 24.2 0 14.5-8.8 24.2-21.2 24.2m0-82.2c-32.7 0-60.6 24-60.6 58s27.8 58 60.6 58c32.7 0 60.6-24 60.6-58s-27.8-58-60.6-58"/></g></g></g></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075">
 
-Iowa’s Clark Adds Triple Double to Cap NCAA Record Crowd Day		
-	
+Iowa’s Clark Adds Triple Double to Cap NCAA Record Crowd Day
+
 </h3>
 									</div>
 
 <div class="lrv-u-margin-t-auto lrv-u-flex lrv-u-flex-direction-column">
-		
-					
+
+
 <time class="c-timestamp  a-font-primary-medium-xxs lrv-u-color-grey-dark lrv-u-order-100" datetime="00:00-YY-DD-MM">
-	4 hrs ago	
+	4 hrs ago
 </time>
 
 </div>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </div>
 		</div>
 									<div class="js-Flickity-cell u-border-t-3 lrv-u-border-color-grey-light lrv-u-padding-t-125">
-						
+
 <div class="o-card lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-color-brand-primary:hover">
 
 <a tabindex="0" href="http://web.archive.org/web/20231016063853/https://www.rollingstone.com/tv-movies/tv-movie-features/love-is-blind-season-5-izzy-zapata-stacy-netflix-reunion-johnie-1234854840/" class="lrv-a-unstyle-link lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p" rel="nofollow">
-	
-	
-	
-					
+
+
+
+
 <div class="c-lazy-image   lrv-a-hover-effect lrv-a-hover-effect--fade">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" data-lazy-src="http://web.archive.org/web/20231016063853/https://www.rollingstone.com/wp-content/uploads/2023/10/Love_Is_Blind_n_S5_E7_00_29_07_10R.jpg?resize=225,169" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
-		
+
 					<div class="c-svg lrv-u-margin-t-1 lrv-u-margin-b-075 lrv-u-display-inline-flex lrv-u-color-black u-height-16">
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 216.86 38.68" style="height:100%"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M198.45 26.22l-.58 3h-10.33l.51-3c1.58 0 1.8-.14 2-1.51l1.12-7.42c.19-1.27-.58-1.7-1.32-1.7-1.48 0-3.05 1.56-3.32 3.36l-.93 6c-.13.86 0 1.24 1.78 1.24l-.47 3h-10.47l.54-3c1.89 0 2.22-.27 2.4-1.43l1.24-7.66c.09-.53 0-.62-.43-.62h-2.28l.47-2.62 9.36-4 .27.27-.43 2.36a8.82 8.82 0 015.77-2.59c2.69 0 4.48 2.53 4.48 5.22a11.18 11.18 0 01-.19 2.05l-1.24 7.54c-.21 1.27 0 1.51 2 1.51M160.59 10.79l-1.78 3.79a5.9 5.9 0 00-2.13-.42h-2.13l-1.43 8.78c-.26 1.57 0 1.85.85 1.85s1.79-.46 3.41-1.93l1.39 2.74c-1.92 2-4.37 4.18-7.47 4.18-3.3 0-4.75-1.88-4.75-4.87a14.37 14.37 0 01.19-2.09l1.39-8.66h-2.43l.58-3.32h2.32l.54-3.52 6.38-2.59.42.42-.89 5.61z"/><path d="M147.86 1.32a79.42 79.42 0 00-2 8.62h-3.71a10.38 10.38 0 00.46-2.67c0-1.61-1.8-2.63-4.53-2.63s-4.64 1.42-4.68 3.21.62 2.4 2.75 3.91l3.71 2.63c3.45 2.44 5.53 4.72 5.46 8.66-.12 6.55-5.66 9.86-12.77 9.86a17.48 17.48 0 01-4.17-.54 12.57 12.57 0 00-2.9-.54 4.71 4.71 0 00-2.17.58l-.58-.31c-.44-3.17-1.14-6.82-1.7-9.47l3.87-.93c1 4.8 3.24 7 8.08 7 3.17 0 4.87-1.54 4.91-4s-1.19-3.36-3.44-4.84c-1-.65-2-1.3-2.94-1.93a17 17 0 01-2.63-2.09 8.73 8.73 0 01-2.48-6.58c.09-5.13 4.7-8.78 10.95-8.78 2.61 0 4.65.65 7 .78a12.16 12.16 0 002.94-.35zM81 4.45C81 6.87 78.39 9 75.65 9c-1.4 0-3-.59-3-2.55 0-2.91 3-4.87 5.41-4.87a2.81 2.81 0 013 2.86M80.41 10.13l-2.36 14.31c-.26 1.61-.3 1.78 2 1.78l-.46 3H68.81l.46-3c1.77 0 2.29-.43 2.44-1.39l1.2-7.83c.07-.46.07-.51-.39-.51H70l.47-2.62 9.63-4zM70.82 1.16L67 24.33c-.29 1.73-.09 1.89 1.62 1.89l-.46 3H57.67l.46-3c1.85 0 2.31-.36 2.51-1.66L63.28 8.2c.08-.55 0-.62-.39-.62h-2.44l.47-2.67 9.63-4zM216.86 16.71l-11.76 5.41c.24 2 1.37 3.37 3.21 3.37s2.59-1.09 2.59-1.59a1.08 1.08 0 00-.19-.62 1 1 0 01-.27-.62.65.65 0 01.16-.46 3.52 3.52 0 012.62-1.12 2.55 2.55 0 012.6 2.59c0 3.41-3.33 6.15-8.55 6.15s-8.82-3.12-8.82-9c0-5.29 4.71-11 10.6-11 4.93 0 7.06 2.48 7.81 6.89m-6.15-.93c-.05-1.71-.75-2.2-1.74-2.2s-2.76 1.39-3.36 4.48zM177.6 18.22c0 5.81-4.18 11.64-10.83 11.64-5 0-8.27-2.95-8.27-8.82S163 9.75 169.25 9.75c4.86 0 8.35 3.06 8.35 8.47m-6.69-1.55c0-2.13-.7-3.09-2-3.09-1.84 0-3.83 3.89-3.83 9.43 0 2.13.72 3.06 2 3.06 1.95 0 3.83-4.51 3.83-9.4"/><path d="M125.66 12.14c0 1.24-1.09 2.75-2.13 2.75-.35 0-.47-.25-.65-.5a1 1 0 00-.47-.35A1.28 1.28 0 00122 14c-1.12 0-1.94 1.27-1.94 2.4v.77a6.77 6.77 0 01-1 3.45 9.37 9.37 0 01-7.85 4.33 9.78 9.78 0 01-3.52-.51 1.23 1.23 0 00-.31.78c0 .79.62 1 1.58 1 2 0 3.8-.31 5.65-.31 3.17 0 5.45 1.56 5.45 4.48 0 5.2-7.92 8.36-15.31 8.36-4.4 0-8.63-1.27-8.63-5 0-1.85 1.06-3.28 3.48-4.45h-8.75l.5-3c1.76 0 1.93-.16 2.09-1.27l1.16-7.74a1.32 1.32 0 00-1.31-1.62A3.92 3.92 0 0090 18.68l-1 6.38c-.12.8.05 1.16 1.71 1.16l-.47 3h-10l.5-3c1.73 0 1.79-.25 1.93-1.16l1.28-8c.08-.53 0-.58-.39-.58h-2.49l.5-2.66 9.59-4 .27.27-.43 2.36a9.1 9.1 0 015.65-2.59c3.06 0 4.57 2.87 4.57 5.49 0 .29-.08 1-.12 1.28l-1.32 8.24c-.16 1 .54 1.29 1.51 1.35a5.15 5.15 0 013.45-3.44 6.41 6.41 0 01-1.74-4.72c0-5.21 4.7-8.39 9.47-8.39a7.46 7.46 0 016.38 3c1.09-1.9 2.64-3 4.26-3a2.42 2.42 0 012.59 2.47m-12.07 3.18c0-1.06-.41-2-1.27-2-2 0-2.83 3.66-2.83 5.84 0 1.53.32 2.17 1.36 2.17 1.74 0 2.74-4 2.74-6m-1.08 16.9c0-.44-.41-.74-1.35-.74s-2.17.16-3.29.16a10.64 10.64 0 01-4.91-1 2.71 2.71 0 00-1.2 2.25c0 1.25 1.64 2.28 3.44 2.28 4.79 0 7.31-1.75 7.31-2.94M49.16 18.22c0 5.78-4.16 11.64-10.83 11.64-5 0-8.28-2.95-8.28-8.82S34.57 9.75 40.8 9.75c4.86 0 8.36 3.06 8.36 8.47m-6.69-1.55c0-2.13-.71-3.09-2-3.09-1.84 0-3.82 3.89-3.82 9.43 0 2.13.71 3.06 2 3.06 2 0 3.83-4.51 3.83-9.4"/><path d="M59.72 1.28l-3.87 23.59c-.16 1-.17 1.35 1.66 1.35l-.46 3h-3.17c1.74.81 3.44 2.07 3.44 3.71 0 3.16-3.1 5.69-11.26 5.69-15.06 0-25-7.7-28.42-19.26H15l-1.16 7.27c-.22 1.39-.2 1.84 2.28 2l1.7.12-.69 3.55c-2.46-.15-5.19-.27-7.9-.27-2.47 0-5.06.13-7.5.27l.58-3.55c.64 0 1.08 0 1.51-.08a5.28 5.28 0 001.12-.23 1.87 1.87 0 001.36-1.52L10 4.76a17.23 17.23 0 00-3.06.85c-.81.33-1.7 1.06-1.7 1.66a1.08 1.08 0 00.16.62 1.31 1.31 0 01.31.7.7.7 0 01-.2.46 4 4 0 01-2.86 1.16A2.64 2.64 0 010 7.54c0-4.15 5.18-5.8 8.51-6.46A67.17 67.17 0 0119.8 0C27.47 0 33 2.39 33 8.43c0 5-3.77 8.18-7.81 9.55 3.07 9.59 10.58 16.79 20.23 16.79 3.65 0 4.95-1.57 4.95-3.09A2.37 2.37 0 0048 29.24h-1.51l.58-3c1.07 0 2.26-.09 2.44-1.2L52.25 8c0-.31-.07-.43-.38-.43h-2.56l.51-2.71L59.41 1zM25.33 8.7a4.75 4.75 0 00-4.91-5.06c-.66 0-2.31 0-2.9.07l-1.93 12h1.27c4.61 0 8.47-3 8.47-7"/></g></g></svg></div>
-		
-		
+
+
 		<div class="o_category ">
 					</div>
 
 <div class="c_title ">
-							
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-medium-xs u-letter-spacing-0026 lrv-u-margin-b-075">
 
-‘Love Is Blind’: Izzy Is ‘Proud’ of His Time on the Netflix Dating Show		
-	
+‘Love Is Blind’: Izzy Is ‘Proud’ of His Time on the Netflix Dating Show
+
 </h3>
 									</div>
 
 <div class="lrv-u-margin-t-auto lrv-u-flex lrv-u-flex-direction-column">
-		
-					
+
+
 <time class="c-timestamp  a-font-primary-medium-xxs lrv-u-color-grey-dark lrv-u-order-100" datetime="00:00-YY-DD-MM">
-	2 hrs ago	
+	2 hrs ago
 </time>
 
 </div>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </div>
 		</div>
 			</div>
 </section>
 							</div>
 		</div>
-	
+
 	<div id="piano-sticky-footer" class="js-subscription-sticky-footer a-subscription-sticky-footer"></div>
 	<div class="lrv-u-background-color-black lrv-u-color-white js-subscription-sticky-footer-target">
 		<div class="lrv-a-wrapper lrv-u-padding-a-2@mobile-max u-padding-t-450@tablet u-padding-b-525@tablet">
 			<div class="lrv-u-flex">
 				<div class="left-content a-hidden-for-side-skin">
-					
+
 <div class="c-lazy-image  lrv-u-flex-shrink-0 lrv-u-margin-r-1 u-margin-r-225@desktop-xl u-width-180 u-width-318@desktop-xl a-hidden@desktop-max">
 			<a href="http://web.archive.org/web/20231016063853/https://www.billboard.com/offer" class="c-lazy-image__link lrv-a-unstyle-link">
-	
-	
+
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="http://web.archive.org/web/20231016063853im_/https://cdn.shopify.com/s/files/1/0237/2843/products/2020_04_540x.jpg?v=1581608516" data-lazy-src="http://web.archive.org/web/20231016063853/https://www.billboard.com/wp-content/uploads/2023/10/ghostwriter-billboard-cover-10092023-1500.jpg?w=788" alt="Ghostwriter Billboard Cover" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
-	
+
+
 			</a>
 	</div>
 				</div>
@@ -2473,125 +2473,125 @@ Iowa’s Clark Adds Triple Double to Cap NCAA Record Crowd Day
 								<a href="http://web.archive.org/web/20231016063853/https://www.billboard.com/frequently-asked-questions/" class="a-font-primary-bold-xs lrv-u-border-a-1 lrv-u-border-color-grey-dark lrv-u-color-white lrv-u-display-inline-block lrv-u-padding-lr-1 lrv-u-padding-tb-075 lrv-u-text-align-center lrv-u-text-transform-uppercase lrv-u-width-100p">
 									Customer Service								</a>
 							</section>
-							
+
 <div class="footer-menus // lrv-a-grid lrv-a-cols3@tablet lrv-u-background-color-black lrv-u-color-white a-span3 lrv-u-height-100p">
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Billboard" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Billboard</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Billboard">
 						<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
 				<div class="pmc-piano-footer-sub-button a-subscription-footer-nav__subscriber-link js-subscription-footer-subscribe-link lrv-u-width-75p lrv-u-width-100p@mobile-max js-subscription-login-link"></div>
 			</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/about-us/">
 	About Us</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/accessibility/">
 	Accessibility</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/advertise/">
 	Advertise</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://shop.billboard.com/">
 	Shop</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://billboardevents.com/">
 	Events</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/careers-listing/">
 	Careers</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/contact-us/">
 	Contact Us</a>
 				</li>
 						</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Legal" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Legal</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Legal">
 										<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/privacy-policy/">
 	Privacy Policy</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/terms-of-use/">
 	Terms of Use</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/privacy-policy/#california">
 	California Privacy Rights</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://optout.aboutads.info/?c=2&amp;lang=EN">
 	Ad Choices</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/contact-us/">
 	Reprints &amp; Permissions</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link privacy-consent" href="#">
 	Privacy Preferences</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/opt-out">
 	Your Privacy Choices</a>
 				</li>
 						</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Sitemap" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Sitemap</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Sitemap">
 										<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/pro/">
 	Pro</a>
 				</li>
@@ -2602,16 +2602,16 @@ Iowa’s Clark Adds Triple Double to Cap NCAA Record Crowd Day
 
 <div class="u-margin-b-125@tablet">
 							<section class="footer-social // lrv-u-flex lrv-u-margin-b-150 lrv-u-padding-t-1@mobile-max u-flex-direction-column@mobile-max">
-	
+
 <h3 id="title-of-a-story" class="c-title  a-font-primary-bold-m lrv-u-line-height-copy lrv-u-margin-r-1 lrv-u-text-align-center@mobile-max lrv-u-padding-b-050@mobile-max lrv-u-margin-r-00@mobile-max">
 
-Follow Us		
-	
+Follow Us
+
 </h3>
-	
+
 <ul class="o-social-list  lrv-a-unstyle-list lrv-u-flex lrv-u-justify-content-center">
 			<li class="o-social-list__item ">
-			
+
 			<a href="http://web.archive.org/web/20231016063853/https://www.facebook.com/billboard" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-display-block lrv-u-color-white lrv-u-margin-r-1 lrv-u-padding-a-050 lrv-u-padding-tb-050 lrv-u-border-radius-50p lrv-u-background-color-grey-darkest lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover lrv-u-margin-lr-050@mobile-max" target="">
 
 <svg class="c-icon  lrv-u-display-block u-width-14 u-height-14">
@@ -2622,11 +2622,11 @@ Follow Us
 
 facebook
 </span>
-	
+
 	</a>
 		</li>
 			<li class="o-social-list__item ">
-			
+
 			<a href="http://web.archive.org/web/20231016063853/https://twitter.com/billboard" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-display-block lrv-u-color-white lrv-u-margin-r-1 lrv-u-padding-a-050 lrv-u-padding-tb-050 lrv-u-border-radius-50p lrv-u-background-color-grey-darkest lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover lrv-u-margin-lr-050@mobile-max" target="">
 
 <svg class="c-icon  lrv-u-display-block u-width-14 u-height-14">
@@ -2637,11 +2637,11 @@ facebook
 
 facebook
 </span>
-	
+
 	</a>
 		</li>
 			<li class="o-social-list__item ">
-			
+
 			<a href="http://web.archive.org/web/20231016063853/https://instagram.com/billboard" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-display-block lrv-u-color-white lrv-u-margin-r-1 lrv-u-padding-a-050 lrv-u-padding-tb-050 lrv-u-border-radius-50p lrv-u-background-color-grey-darkest lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover lrv-u-margin-lr-050@mobile-max" target="">
 
 <svg class="c-icon  lrv-u-display-block u-width-14 u-height-14">
@@ -2652,11 +2652,11 @@ facebook
 
 facebook
 </span>
-	
+
 	</a>
 		</li>
 			<li class="o-social-list__item ">
-			
+
 			<a href="http://web.archive.org/web/20231016063853/https://www.pinterest.com/billboard/" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-display-block lrv-u-color-white lrv-u-margin-r-1 lrv-u-padding-a-050 lrv-u-padding-tb-050 lrv-u-border-radius-50p lrv-u-background-color-grey-darkest lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover lrv-u-margin-lr-050@mobile-max" target="">
 
 <svg class="c-icon  lrv-u-display-block u-width-14 u-height-14">
@@ -2667,11 +2667,11 @@ facebook
 
 facebook
 </span>
-	
+
 	</a>
 		</li>
 			<li class="o-social-list__item ">
-			
+
 			<a href="http://web.archive.org/web/20231016063853/https://www.youtube.com/c/Billboard" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-display-block lrv-u-color-white lrv-u-margin-r-1 lrv-u-padding-a-050 lrv-u-padding-tb-050 lrv-u-border-radius-50p lrv-u-background-color-grey-darkest lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover lrv-u-margin-lr-050@mobile-max" target="">
 
 <svg class="c-icon  lrv-u-display-block u-width-14 u-height-14">
@@ -2682,7 +2682,7 @@ facebook
 
 facebook
 </span>
-	
+
 	</a>
 		</li>
 	</ul>
@@ -2690,15 +2690,15 @@ facebook
 						</div>
 
 <div class="lrv-u-padding-t-150 lrv-u-padding-b-150 lrv-u-border-t-1 lrv-u-border-color-grey-darkest lrv-u-text-align-center a-hidden@tablet">
-							
+
 <section class="footer-tip //  ">
-	
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-bold-m">
 
-Have a Tip?		
-	
+Have a Tip?
+
 </h3>
-	
+
 	<p class="c-tagline  a-font-primary-s lrv-u-margin-t-025@mobile-max lrv-u-padding-t-050@tablet">Send us a tip using our anonymous form.</p>
 
 <a class="c-button larva  lrv-a-icon-after a-icon-after-10 lrv-u-background-color-grey-darkest lrv-a-icon-arrow-right lrv-a-icon-invert a-font-primary-bold-xs lrv-u-text-transform-uppercase lrv-u-color-white lrv-u-padding-tb-075 lrv-u-padding-lr-2@desktop-xl lrv-u-padding-lr-150@desktop lrv-u-padding-lr-1 lrv-u-background-color-brand-primary:hover" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/tip-us/" target="" rel="">
@@ -2707,42 +2707,42 @@ Have a Tip?
 		Send us a tip	</span>
 
 <span class="lrv-a-screen-reader-only">Send us a tip</span>
-	
+
 	</a>
 </section>
 						</div>
 
 <div class="lrv-u-border-t-1 lrv-u-border-color-grey-darkest lrv-u-padding-tb-150 lrv-u-padding-b-00@mobile-max">
-							
+
 <section class="footer-newsletter // lrv-u-color-white lrv-u-background-color-black lrv-u-margin-b-025">
 	<div class="lrv-u-flex u-flex-direction-column@mobile-max lrv-u-text-align-center@mobile-max lrv-u-margin-b-1">
-		
+
 <h3 id="title-of-a-story" class="c-title  a-font-primary-bold-m u-margin-r-075@tablet lrv-u-margin-b-00">
 
-The Daily		
-	
+The Daily
+
 </h3>
-		
+
 	<p class="c-tagline  a-font-primary-s u-line-height-160 lrv-u-margin-tb-00 lrv-u-margin-lr-2@mobile-max lrv-u-margin-t-050@mobile-max">A daily briefing on what matters in the music industry</p>
 
 </div>
-	
+
 <form class="o-email-capture-form lrv-js-EmailCapture  pmc-recaptcha-enterprise-form" method="post" action="http://web.archive.org/web/20231016063853/https://cloud.email.billboard.com/api/" name="email-capture-form" target="_blank">
 
 <div class="o-email-capture-form__inner lrv-u-flex lrv-u-background-color-grey-darkest lrv-u-padding-a-075 u-width-50p@tablet">
-		
+
 <div class="c-email-field   lrv-u-border-b-1 lrv-u-border-color-white lrv-u-margin-r-1 lrv-u-width-100p">
 	<label class="c-email-field__label lrv-a-hidden" for="newsletter_email">Your email</label>
 	<input class="c-email-field__input lrv-u-background-color-transparent lrv-u-color-white u-outline-none a-font-primary-xs" name="EmailAddress" id="newsletter_email" required type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
 </div>
-		
+
 	<button class="c-button larva  lrv-a-unstyle-button lrv-u-cursor-pointer lrv-a-icon-after a-icon-after-14 lrv-a-icon-arrow-right lrv-a-icon-invert lrv-u-color-white lrv-u-padding-l-075 lrv-u-padding-tb-00 a-icon-color-brand-accent-blue:hover" type="submit">
 
 <span class="c-button__inner a-font-accent-bold-s lrv-u-text-transform-uppercase lrv-u-color-white u-letter-spacing-003125 a-hidden">
 		Sign Up	</span>
 
 <span class="lrv-a-screen-reader-only">Sign Up</span>
-	
+
 	</button>
 	</div>
 
@@ -2751,17 +2751,17 @@ The Daily
 	<input type="hidden" name="__successPage" data-email-capture-success-url="https://cloud.email.billboard.com/signup/?signup=success" value=""/>
 
 <input type="hidden" name="Source" id="footer" value="footer"/>
-			
+
 <input type="hidden" name="BB_Daily_Opted_In" id="footer_bb_daily_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_Daily_Opt_In_Date" id="footer_bb_daily_opt_in_date" value="2023-10-16"/>
-			
+
 <input type="hidden" name="BB_BNA_Opted_In" id="footer_bb_bna_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_BNA_Opt_In_Date" id="footer_bb_bna_opt_in_date" value="2023-10-16"/>
-			
+
 <input type="hidden" name="BB_MustRead_Opted_In" id="footer_bb_mustread_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_MustRead_Opt_In_Date" id="footer_bb_mustread_opt_in_date" value="2023-10-16"/>
 	</form>
 
@@ -2774,15 +2774,15 @@ The Daily
 
 <div class="lrv-a-floated-parent lrv-u-display-none@mobile-max">
 						<div class="lrv-u-padding-t-2@mobile-max lrv-u-padding-b-1@mobile-max">
-							
+
 <section class="footer-tip //  ">
-	
+
 <h3 id="title-of-a-story" class="c-title   a-font-primary-bold-m">
 
-Have a Tip?		
-	
+Have a Tip?
+
 </h3>
-	
+
 	<p class="c-tagline  a-font-primary-s lrv-u-margin-t-025@mobile-max lrv-u-padding-t-050@tablet">Send us a tip using our anonymous form.</p>
 
 <a class="c-button larva  lrv-a-icon-after a-icon-after-10 lrv-u-background-color-grey-darkest lrv-a-icon-arrow-right lrv-a-icon-invert a-font-primary-bold-xs lrv-u-text-transform-uppercase lrv-u-color-white lrv-u-padding-tb-075 lrv-u-padding-lr-2@desktop-xl lrv-u-padding-lr-150@desktop lrv-u-padding-lr-1 lrv-u-background-color-brand-primary:hover" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/tip-us/" target="" rel="">
@@ -2791,132 +2791,132 @@ Have a Tip?
 		Send us a tip	</span>
 
 <span class="lrv-a-screen-reader-only">Send us a tip</span>
-	
+
 	</a>
 </section>
 						</div>
 					</div>
 
 <div class="lrv-a-grid lrv-a-cols4@tablet u-grid-gap-0@mobile-max u-border-t-1@tablet lrv-u-border-color-grey-darkest lrv-u-padding-t-1 u-margin-b-125@tablet a-hidden@mobile-max">
-						
+
 <div class="footer-menus // lrv-a-grid lrv-a-cols3@tablet lrv-u-background-color-black lrv-u-color-white a-span3 lrv-u-height-100p">
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Billboard" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Billboard</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Billboard">
 						<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
 				<div class="pmc-piano-footer-sub-button a-subscription-footer-nav__subscriber-link js-subscription-footer-subscribe-link lrv-u-width-75p lrv-u-width-100p@mobile-max js-subscription-login-link"></div>
 			</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/about-us/">
 	About Us</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/accessibility/">
 	Accessibility</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/advertise/">
 	Advertise</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://shop.billboard.com/">
 	Shop</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://billboardevents.com/">
 	Events</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/careers-listing/">
 	Careers</a>
 				</li>
 							<li class="a-subscription-footer-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/contact-us/">
 	Contact Us</a>
 				</li>
 						</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Legal" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Legal</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Legal">
 										<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/privacy-policy/">
 	Privacy Policy</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/terms-of-use/">
 	Terms of Use</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/privacy-policy/#california">
 	California Privacy Rights</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://optout.aboutads.info/?c=2&amp;lang=EN">
 	Ad Choices</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/contact-us/">
 	Reprints &amp; Permissions</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link privacy-consent" href="#">
 	Privacy Preferences</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="http://web.archive.org/web/20231016063853/https://pmc.com/opt-out">
 	Your Privacy Choices</a>
 				</li>
 						</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle lrv-u-border-a-1@mobile-max u-border-r-1 lrv-u-border-color-grey-darkest lrv-u-height-100p lrv-u-padding-a-1@mobile-max">
 
 <h4 id="footer-menu-Sitemap" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-margin-b-075 lrv-u-margin-b-00@mobile-max lrv-u-width-100p@mobile-max lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet lrv-a-icon-invert lrv-u-cursor-pointer a-font-primary-bold-m">Sitemap</h4>
-			
+
 			<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="footer-menu-Sitemap">
 										<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 				</li>
 							<li class="o-nav__list-item lrv-a-font-primary-s lrv-u-padding-tb-050 lrv-u-color-brand-accent-blue:hover">
-					
+
 <a class="c-link  lrv-a-unstyle-link " href="/web/20231016063853/https://www.billboard.com/pro/">
 	Pro</a>
 				</li>
@@ -2941,7 +2941,7 @@ Have a Tip?
 	<span class="lrv-a-screen-reader-only">Icon Link</span>
 
 <span class="lrv-a-screen-reader-only" title="">PMC Logo</span>
-	
+
 <svg class="c-icon  lrv-u-max-width-150 lrv-u-max-height-50 lrv-u-color-black" aria-hidden="true">
 	<use xlink:href="/web/20231016063853im_/https://www.billboard.com/artist/chris-isaak/chart-history/hsi/#pmc-logo"/>
 	</svg>
@@ -2962,7 +2962,7 @@ Have a Tip?
 <nav class="o-nav  lrv-u-text-transform-uppercase lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-flex@tablet lrv-js-MobileHeightToggle lrv-a-hover-dropup@tablet" data-dropdown="" aria-label="pmc-footer">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-u-padding-lr-1 lrv-u-margin-tb-00 lrv-u-padding-t-1 lrv-u-padding-t-050@tablet lrv-u-padding-b-050 lrv-u-width-100p lrv-a-icon-after lrv-a-icon-arrow-down lrv-a-icon-after:margin-l-auto lrv-u-cursor-pointer lrv-js-MobileHeightToggle-trigger lrv-a-hover-dropup-trigger@tablet a-font-primary-medium-xs">Our Sites</h4>
-			
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-u-background-color-white lrv-u-padding-b-050 lrv-js-MobileHeightToggle-target lrv-a-hover-dropup-target@tablet lrv-u-box-shadow-medium@tablet">
 					<li class="o-nav__list-item lrv-u-color-grey-medium-dark">
 				<a class="c-link  lrv-a-unstyle-link lrv-u-display-block lrv-u-background-color-brand-primary:hover lrv-u-color-white:hover a-font-primary-medium-xs lrv-u-padding-lr-1 lrv-u-padding-tb-050" href="http://web.archive.org/web/20231016063853/https://artnews.com/" rel="nofollow">
@@ -3076,7 +3076,7 @@ Have a Tip?
 
 <div class="expandable-search__target // ">
 		<div class="expandable_search__inner " data-header-search-trigger="">
-			
+
 	<div data-st-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -3086,21 +3086,21 @@ Have a Tip?
 <!-- Subscription Block -->
 					<div class="lrv-u-display-inline-flex lrv-u-width-100p lrv-u-display-none@desktop lrv-u-border-b-1 lrv-u-padding-tb-2 lrv-u-padding-lr-1 lrv-u-border-color-grey-light u-border-b-0@desktop js-subscription-anonymous">
 						<div class="lrv-u-width-50p lrv-u-margin-r-075 lrv-u-display-inline-flex lrv-u-align-items-center"><div id="pmc-piano-mobile-mega-button" class="lrv-u-display-inline-block lrv-u-width-100p lrv-u-display-none@desktop"></div></div>
-						<div class="lrv-u-width-50p"> 
+						<div class="lrv-u-width-50p">
 	<button class="c-button larva   js-subscription-login-link a-font-primary lrv-u-font-size-14 u-letter-spacing-0016 lrv-u-color-white lrv-u-background-color-white:hover lrv-a-hover-effect lrv-u-text-transform-uppercase lrv-u-display-inline-block lrv-u-padding-a-050 lrv-u-border-a-1 lrv-u-width-100p lrv-u-text-align-center lrv-u-border-color-white lrv-u-background-color-black lrv-u-color-brand-primary:hover" type="submit">
 
 <span class="c-button__inner ">
 		Login	</span>
 
 <span class="lrv-a-screen-reader-only">Login</span>
-	
+
 	</button>
  </div>
 					</div>
 
 <div class="lrv-u-display-block lrv-u-display-none@desktop lrv-u-border-color-grey-light u-border-b-0@desktop  js-subscription-authenticated">
 						<div class="lrv-u-width-100p lrv-u-display-block lrv-u-display-none@desktop lrv-u-border-b-1 lrv-u-padding-tb-1 lrv-u-padding-lr-1 lrv-u-border-color-grey-light u-border-b-0@desktop lrv-a-hidden">
-							
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary lrv-u-font-size-14 u-letter-spacing-0016 lrv-u-color-white lrv-u-background-color-white:hover lrv-a-hover-effect lrv-u-text-transform-uppercase lrv-u-display-inline-block lrv-u-padding-a-050 lrv-u-border-a-1 lrv-u-text-align-center lrv-u-background-color-brand-primary lrv-u-border-color-brand-primary lrv-u-color-brand-primary:hover" href="">
 	</a>
 						</div>
@@ -3108,7 +3108,7 @@ Have a Tip?
 
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-32@desktop lrv-u-font-size-20 lrv-u-font-weight-bold u-padding-a-1@desktop-max lrv-u-padding-b-050" href="#">
 	Account</a>
 
@@ -3122,18 +3122,18 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link js-subscription-manage-account lrv-u-color-black lrv-u-color-grey:hover lrv-u-font-size-18@desktop u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/my-account/">
 	Manage Account</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link js-subscription-logout-link lrv-u-color-black lrv-u-color-grey:hover lrv-u-font-size-18@desktop u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="">
 	Log Out</a>
 			</li>
 			</ul>
 </li>
-	
+
 </ul>
 					</div>
 					<button class="mega-menu__close-button // js-MegaMenu-Trigger lrv-u-background-color-transparent u-display-inline-flex lrv-u-justify-content-center lrv-u-align-items-center lrv-u-flex-shrink-0 lrv-u-border-a-0 a-become-close-button a-become-close-button--trigger a-hidden@desktop-max u-height-50 u-width-50">
@@ -3144,7 +3144,7 @@ Have a Tip?
 
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-charts" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="/web/20231016063853/https://www.billboard.com/charts/">
 	Charts</a>
 
@@ -3158,52 +3158,52 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-charts">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/">
 	All Charts</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/hot-100/">
 	Hot 100</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/billboard-200/">
 	Billboard 200</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/billboard-global-200/">
 	Global 200</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/h/top-music-hits-world-international-song-charts/">
 	Hits Of The World</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/business/chart-beat/">
 	Chart Beat</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/tiktok-billboard-top-50/">
 	TikTok Billboard Top 50</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/song-breaker/">
 	Song Breaker</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/year-end/">
 	Year-End Charts</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/charts/decade-end/">
 	Decade-End Charts</a>
 			</li>
@@ -3211,7 +3211,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-music" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/music/">
 	Music</a>
 
@@ -3225,52 +3225,52 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-music">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/">
 	Music News</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/pop/">
 	Pop</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/rb-hip-hop/">
 	R&amp;B/Hip-Hop</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/latin/">
 	Latin</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/rock/">
 	Rock</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/awards/">
 	Awards</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/chart-beat/">
 	Chart Beat</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/concerts/">
 	Concerts</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/c/music/features/">
 	Features</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/music/">
 	Reviews</a>
 			</li>
@@ -3278,7 +3278,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-culture" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/">
 	Culture</a>
 
@@ -3292,22 +3292,22 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-culture">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/events/">
 	Events</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/lifestyle/">
 	Lifestyle</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/politics/">
 	Politics</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/culture/tv-film/">
 	TV/Film</a>
 			</li>
@@ -3315,7 +3315,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-media" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/">
 	Media</a>
 
@@ -3329,22 +3329,22 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-media">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/lists/">
 	Lists</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/photos-media/">
 	Photos</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/media/podcasts/">
 	Podcasts</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/video/">
 	Videos</a>
 			</li>
@@ -3352,7 +3352,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-business" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="/web/20231016063853/https://www.billboard.com/pro/">
 	Business</a>
 
@@ -3366,37 +3366,37 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-business">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/business/business-news/">
 	Business News</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/business/legal/">
 	Legal</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/t/touring/">
 	Touring</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/business/publishing/">
 	Publishing</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/business/radio/">
 	Radio</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/business/record-labels/">
 	Record Labels</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="/web/20231016063853/https://www.billboard.com/pro/">
 	View All Pro</a>
 			</li>
@@ -3404,7 +3404,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-pro-tools" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="#">
 	Pro Tools</a>
 
@@ -3418,17 +3418,17 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-pro-tools">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/songwriters-producers/">
 	Songwriters &amp; Producers</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/song-index/">
 	Song Index</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/artist-index/">
 	Artist Index</a>
 			</li>
@@ -3436,7 +3436,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-billboard-espanol" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/">
 	Billboard Español</a>
 
@@ -3450,22 +3450,22 @@ Have a Tip?
 
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-billboard-espanol">
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/noticias/">
 	Noticias</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/musica/">
 	Música</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/negocios/">
 	Negocios</a>
 			</li>
 					<li class="mega-menu__child-list-item // lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop">
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-font-size-18@desktop lrv-u-color-grey:hover u-color-brand-secondary:hover@desktop-max u-padding-a-1@desktop-max lrv-u-padding-tb-025 lrv-u-display-block" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/c/espanol/cultura-entretenimiento/">
 	Cultura y Entretenimiento</a>
 			</li>
@@ -3473,7 +3473,7 @@ Have a Tip?
 </li>
 			<li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-border-b-1 lrv-u-border-color-grey-light u-border-b-0@desktop" data-collapsible="collapsed">
 	<h3 id="mega-menu-item-honda-music" class="mega-menu-item-heading lrv-u-flex lrv-u-align-items-center lrv-u-color-white u-border-b-2@desktop lrv-u-border-color-brand-primary a-become-color-white-on-expand">
-		
+
 <a class="c-link  lrv-a-unstyle-link a-font-primary-bold lrv-u-font-size-28@desktop-xl lrv-u-font-size-18 lrv-u-color-grey:hover u-padding-a-1@desktop-max lrv-u-padding-b-050" href="http://web.archive.org/web/20231016063853/https://www.billboard.com/hubs/honda/">
 	Honda Music</a>
 
@@ -3488,7 +3488,7 @@ Have a Tip?
 <ul class="mega-menu__child-list // lrv-js-MobileHeightToggle-target lrv-a-unstyle-list u-background-white@desktop-max u-color-white@desktop u-padding-t-050@desktop a-font-primary" data-collapsible-panel="" data-collapsible-breakpoint="mobile-only" aria-labelledby="mega-menu-item-honda-music">
 			</ul>
 </li>
-	
+
 </ul>
 
 <div class="mega-menu-subscribe-link mega-menu-content lrv-u-color-white lrv-a-floated-right a-hidden@desktop-max">
@@ -3500,16 +3500,16 @@ Have a Tip?
 				</div>
 
 </div>
-			
+
 <footer class="mega-menu__footer // a-font-primary lrv-u-width-100p lrv-u-margin-lr-auto u-margin-t-2@desktop lrv-u-margin-b-1@desktop u-max-width-1000 lrv-u-background-color-black lrv-u-color-white">
 	<div class="lrv-u-flex u-flex-direction-column@desktop-max lrv-u-padding-tb-1 u-padding-tb-150@desktop u-border-tb-2@desktop lrv-u-border-color-grey">
 		<section class="lrv-u-flex u-flex-direction-column@desktop-max u-flex-basis-40p@desktop lrv-u-align-items-center u-margin-r-1@desktop u-margin-b-1@desktop-max">
 			<h3 class="a-font-primary-bold-m u-font-size-16@desktop-max lrv-u-margin-b-050"></h3>
 			<div class="u-padding-l-1@desktop">
-				
+
 <ul class="o-social-list  lrv-a-unstyle-list">
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 <a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-border-radius-50p lrv-u-color-white lrv-u-background-color-brand-primary lrv-u-color-brand-accent:hover lrv-u-margin-lr-050" href="http://web.archive.org/web/20231016063853/https://www.facebook.com/billboard" rel="noopener noreferrer">
 	<span class="lrv-a-screen-reader-only">Follow Billboard on facebook</span>
 
@@ -3520,7 +3520,7 @@ Have a Tip?
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 <a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-border-radius-50p lrv-u-color-white lrv-u-background-color-brand-primary lrv-u-color-brand-accent:hover lrv-u-margin-lr-050" href="http://web.archive.org/web/20231016063853/https://twitter.com/billboard" rel="noopener noreferrer">
 	<span class="lrv-a-screen-reader-only">Follow Billboard on twitter</span>
 
@@ -3531,7 +3531,7 @@ Have a Tip?
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 <a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-border-radius-50p lrv-u-color-white lrv-u-background-color-brand-primary lrv-u-color-brand-accent:hover lrv-u-margin-lr-050" href="http://web.archive.org/web/20231016063853/https://instagram.com/billboard" rel="noopener noreferrer">
 	<span class="lrv-a-screen-reader-only">Follow Billboard on instagram</span>
 
@@ -3542,7 +3542,7 @@ Have a Tip?
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 <a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-border-radius-50p lrv-u-color-white lrv-u-background-color-brand-primary lrv-u-color-brand-accent:hover lrv-u-margin-lr-050" href="http://web.archive.org/web/20231016063853/https://www.pinterest.com/billboard/" rel="noopener noreferrer">
 	<span class="lrv-a-screen-reader-only">Follow Billboard on pinterest</span>
 
@@ -3553,7 +3553,7 @@ Have a Tip?
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 <a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-border-radius-50p lrv-u-color-white lrv-u-background-color-brand-primary lrv-u-color-brand-accent:hover lrv-u-margin-lr-050" href="http://web.archive.org/web/20231016063853/https://www.youtube.com/c/Billboard" rel="noopener noreferrer">
 	<span class="lrv-a-screen-reader-only">Follow Billboard on youtube</span>
 
@@ -3570,16 +3570,16 @@ Have a Tip?
 <section class="lrv-u-flex@desktop lrv-u-text-align-center u-max-width-280@desktop-max lrv-u-margin-lr-auto lrv-u-width-100p lrv-u-align-items-center u-padding-l-2@desktop u-flex-1">
 			<h3 class="a-font-primary-bold-m u-font-size-16@desktop-max lrv-u-margin-b-050 lrv-u-margin-t-050@desktop"></h3>
 			<div class="lrv-u-flex-grow-1 lrv-u-padding-l-1@desktop">
-				
+
 <form class="o-email-capture-form lrv-js-EmailCapture mega-menu-newsletter lrv-u-background-color-grey-darkest lrv-u-padding-a-050 a-font-primary pmc-recaptcha-enterprise-form" method="post" action="http://web.archive.org/web/20231016063853/https://cloud.email.billboard.com/api/" name="email-capture-form" target="_blank">
 
 <div class="o-email-capture-form__inner lrv-u-flex lrv-u-font-size-16">
-		
+
 <div class="c-email-field  u-flex-1">
 	<label class="c-email-field__label lrv-a-screen-reader-only" for="MegaMenuEmailAddress"></label>
 	<input class="c-email-field__input a-font-primary-xs lrv-u-padding-a-025 lrv-u-width-100p mega-menu-newsletter__input" name="EmailAddress" id="MegaMenuEmailAddress" required type="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
 </div>
-		
+
 	<button class="c-button larva  lrv-a-unstyle-button lrv-u-cursor-pointer lrv-a-icon-after a-icon-after-14   lrv-u-color-white lrv-u-padding-l-075 lrv-u-padding-tb-00 a-icon-color-brand-accent-blue:hover mega-menu-newsletter__submit lrv-a-icon-after a-icon-arrow-2-right u-font-size-0 lrv-u-padding-r-025" type="submit">
 
 <span class="c-button__inner a-font-accent-bold-s lrv-u-text-transform-uppercase lrv-u-color-white u-letter-spacing-003125 a-hidden">
@@ -3593,17 +3593,17 @@ Have a Tip?
 	<input type="hidden" name="__successPage" data-email-capture-success-url="https://cloud.email.billboard.com/signup/?signup=success" value=""/>
 
 <input type="hidden" name="Source" id="mega_menu_source" value="MegaMenu"/>
-			
+
 <input type="hidden" name="BB_Daily_Opted_In" id="mega_menu_bb_daily_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_Daily_Opt_In_Date" id="mega_menu_bb_daily_opt_in_date" value="2023-10-16"/>
-			
+
 <input type="hidden" name="BB_BNA_Opted_In" id="mega_menu_bb_bna_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_BNA_Opt_In_Date" id="mega_menu_bb_bna_opt_in_date" value="2023-10-16"/>
-			
+
 <input type="hidden" name="BB_MustRead_Opted_In" id="mega_menu_bb_mustread_opted_in" value="yes"/>
-			
+
 <input type="hidden" name="BB_MustRead_Opt_In_Date" id="mega_menu_bb_mustread_opt_in_date" value="2023-10-16"/>
 	</form>
 
@@ -3616,42 +3616,42 @@ Have a Tip?
 
 <div class="lrv-u-background-color-black lrv-a-grid a-cols2@desktop u-grid-gap-0@desktop-max u-padding-tb-150@desktop">
 		<div class="lrv-u-padding-tb-050 u-padding-b-125@desktop-max lrv-u-overflow-auto">
-			
+
 <nav class="o-nav  lrv-u-flex u-justify-content-center@desktop-max">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-align-items-center lrv-u-a-unstyle-list lrv-u-line-height-large u-justify-content-center@desktop-max u-flex-wrap-wrap u-margin-lr-auto@mobile-max">
 										<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="/web/20231016063853/https://www.billboard.com/about-us/">
 	About Us</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="/web/20231016063853/https://www.billboard.com/accessibility/">
 	Accessibility</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="/web/20231016063853/https://www.billboard.com/advertise/">
 	Advertise</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="http://web.archive.org/web/20231016063853/https://shop.billboard.com/">
 	Shop</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="http://web.archive.org/web/20231016063853/https://billboardevents.com/">
 	Events</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="http://web.archive.org/web/20231016063853/https://pmc.com/careers-listing/">
 	Careers</a>
 				</li>
 							<li class="o-nav__list-item  c-label lrv-u-color-white a-font-primary-xs">
-					
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-brand-accent:hover lrv-a-hover-effect" href="/web/20231016063853/https://www.billboard.com/contact-us/">
 	Contact Us</a>
 				</li>

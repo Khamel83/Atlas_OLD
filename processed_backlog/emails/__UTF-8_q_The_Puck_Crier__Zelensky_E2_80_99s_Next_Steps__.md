@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qThe_Puck_Crier_Zelensky=E2=80=99s_Next_Steps=_Tue,_11_Mar_2025_15-01-11_+0000_19585b996a1757c2.eml
 **Processed:** 2025-08-24T19:13:13.447628
 
-Puck logo ( https://puck.news/?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Julia Ioffe IC ( https://puck.news/my-account/billing/?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear reader,     
@@ -31,7 +31,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 swash divider
-Facebook ( https://facebook.com/puckdotnews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_content=Julia+Ioffe+IC+Call+-+SUBSCRIBER+Upsell+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

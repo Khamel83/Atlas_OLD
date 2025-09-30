@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here is the basic situation at Credit Suisse Group AG. It had a lot of liabilities (bank deposits, derivatives, etc.). It had a lot of asset
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 
 Here is the basic situation at Credit Suisse Group AG. It had a lot of liabilities (bank deposits, derivatives, etc.). It had a lot of assets (bonds, loans, derivatives, etc.). If you valued those assets and liabilities using US generally accepted accounting principles
   [1]
@@ -96,44 +96,44 @@ UBS on Tuesday guided that it would recognize a “material gain” from the neg
 
 I mean presumably UBS (and Credit Suisse) is looking to take all the charges it can: Better to write everything down, sell assets at a loss, reserve for liabilities, etc., now, so that you can report a fluky profit of, say, $40 billion instead of $57 billion next quarter and then report nice profits in the quarters after that. If you’ve got any hidden losses, next quarter is the time to stop hiding them, since no one will notice them under the avalanche of weird profits.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Getty
-    
-  
+
+
 
 Let’s say there’s a smallish public company that you like. To make things more concrete, say it’s Getty Images Holdings Inc., which went public last year by merging with a special purpose acquisition company; last Friday its stock closed at $5.06 per share, for an equity market capitalization of $2 billion. You buy some stock, expecting it to go up. It does not go up. You think the company could do a better job — you think it has a valuable business but management is not maximizing its potential — so you send some letters to the executives and board of directors with your ideas for improvements. You get no answer, and things do not improve.
 You decide that these people don’t know what they’re doing and that the only way to maximize the company’s potential is if someone buys the company, fires management, and runs it in the way that you think is better. And you think that someone would do that: The company is valuable but mismanaged, and a smart buyer could pay a premium for it and still make a lot of money by running it right.
 So you send some more letters to the board saying “hey you should hire bankers to run an auction and find someone to buy the company.” Still no response.
 Now what do you do? Well:
-	Send more letters? That’s not going very well.	
-You could go out and find someone to buy the company. Call up potential buyers, explain the value proposition, and get one of them to pay, say, $4 billion to buy the whole company at a premium. This is hard, though, because you don’t work there and can’t really commit to anything on behalf of the company. You could call up a big private equity firm and say “hey you should buy Getty Images,” and they will say “hmm maybe, when can we start due diligence,” and you will say “oh I don’t know I don’t work there, why don’t you call them?” Not that helpful. (In the specific case of Getty, it’s even harder, because three big shareholders — the Getty family, Koch Industries Inc. and Neuberger Berman Group LLC — combine to own about 85% of the company and control the board, so it’s not like a hostile deal is possible: Any potential buyer would have to work with the board.)	
+	Send more letters? That’s not going very well.
+You could go out and find someone to buy the company. Call up potential buyers, explain the value proposition, and get one of them to pay, say, $4 billion to buy the whole company at a premium. This is hard, though, because you don’t work there and can’t really commit to anything on behalf of the company. You could call up a big private equity firm and say “hey you should buy Getty Images,” and they will say “hmm maybe, when can we start due diligence,” and you will say “oh I don’t know I don’t work there, why don’t you call them?” Not that helpful. (In the specific case of Getty, it’s even harder, because three big shareholders — the Getty family, Koch Industries Inc. and Neuberger Berman Group LLC — combine to own about 85% of the company and control the board, so it’s not like a hostile deal is possible: Any potential buyer would have to work with the board.)
 You could buy the whole company yourself. But it’s not like you have $4 billion lying around.
 
 There is — and this is not legal or investing or M&A or any other sort of advice — another option, sort of a combination of Options 2 and 3. It goes like this. You put out a press release offering to buy the company yourself. “I will buy this company at $10 per share, or $4 billion total,” you say. Because you do not have $4 billion, you make it clear in the press release that your offer is contingent on financing, and on the board engaging with you.
@@ -156,11 +156,11 @@ The stock closed up 31% yesterday, at $6.63 per share; it got as high as $8.18 y
 THIS LETTER ALSO REFERENCES THE SIZE OF OUR RESPECTIVE CURRENT HOLDINGS OF GETTY. OUR VIEWS AND OUR HOLDINGS COULD CHANGE AT ANY TIME. WE MAY TAKE ANY OF THESE OR OTHER ACTIONS REGARDING GETTY WITHOUT UPDATING THIS LETTER OR PROVIDING ANY NOTICE WHATSOEVER OF ANY SUCH CHANGES (EXCEPT AS OTHERWISE REQUIRED BY LAW). WE MAY SELL OR SOME OF ALL OF OUR HOLDINGS OF GETTY AT ANY TIME WITHOUT NOTICE.
 I personally would not want to issue this announcement and then sell my stock, but that is just me, and nothing here is any sort of advice about anything! Just interesting things to think about.
 
-  
-    
+
+
       First Republic
-    
-  
+
+
 
 A schematic picture of US regional banks goes something like this. In 2021, banks were borrowing at 0% by taking deposits from customers in accounts that paid no interest, and they were lending at 3% by making mortgage loans or buying Treasury bonds. In 2023, depositors are less interested in deposit accounts that pay no interest, since they can get 5% interest on safe short-term investments like  Treasury bills or money market funds. Meanwhile the market interest rates on mortgages and Treasury bonds have also gone up; the 10-year Treasury yields about 3.4% and   mortgage rates are at like 6.4%.
 That is potentially bad news for banks. There are two ways for that to go. It can be acutely bad news. Acute bad news looks like this:
@@ -200,15 +200,15 @@ Executives confirmed on Monday that the firm is seeking strategic options. Bloom
 
 It’s pretty easy to lend to a zombie bank, but harder to buy one.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Wall Street Is Finally Going to Make Money Off   the Permian. SEC’s  Climate-Disclosure Rule Isn’t Here, but It May as Well Be, Many Businesses Say. These Online Detectives Have Raised $300 Million to Keep Lies From Triggering  the Next Bank Run. Japanese gaming company suffers $30mn Credit Suisse  AT1 bond hit. Jack Dorsey-Backed   Bluesky Attracts More Users as Twitter Falters. (Follow me on  Bluesky!) Coinbase Takes Jab at SEC With   Lawsuit Over Rule Petition. Republicans’   Stablecoin Bill Draft Would Expand States’ Powers. Terra Co-Founder Shin, Nine Others   Indicted by South Korea. ‘How to Buy Gold’ Hits a Google Record as  Crypto Investors Chase World’s Oldest Asset. Fallen hedge fund star seeks to reinvent himself as  thought leader after jail term.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Yes, US GAAP.
 
 
@@ -227,48 +227,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] At Semafor,  Liz Hoffman argues for a plan to rescue First Republic in which the big banks just agree to take a few billion dollars of losses, sort of out of public spiritedness. “U.S. banks paid a combined $8.3 billion into the FDIC’s deposit-insurance fund last year, and that figure is heavily weighted toward the biggest banks. They’ll be paying for First Republic’s failure one way or another.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -279,46 +279,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cimgak.5k6l/c073b2c3.gif" alt="" border="0" /></a>

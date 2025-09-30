@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20220705040132/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -194,7 +194,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -321,7 +321,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
   </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -335,7 +335,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="meta">
           <div class="meta__author">
-            <span>by:</span> 
+            <span>by:</span>
             <a class="meta__caps" rel="author" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Article Header" data-ga-destination-url="/users/310405-leslie-stephens/articles" href="/web/20220705040132/https://food52.com/users/310405-leslie-stephens/articles">Leslie Stephens</a>
           </div>
 
@@ -343,7 +343,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
             <div class="meta__date">
               <span>October&nbsp;22,&nbsp;2015</span>
             </div>
-          
+
           <div class="meta__comments">
             <a href="javascript:void(0);" class="js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header" data-ga-destination-url="none">
               <span class="icon__comments"></span>
@@ -432,7 +432,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
                   <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Seafood" data-ga-destination-url="/tags/seafood" href="/web/20220705040132/https://food52.com/tags/seafood">Seafood</a></li>
               </ul>
             </div>
-            
+
 <div class="comments-teaser">
   <div class="comments-teaser__icons">
     <span class="icon__comments"></span>
@@ -547,7 +547,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">
@@ -768,9 +768,9 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
         f52.inputs.gtmCoreData = gtmCoreData;
       })();
     </script>
-    
-    
-  
+
+
+
     <script>
       (function() {
         if (typeof(f52) === 'undefined') {

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         It is sometimes useful to think that the shareholders of a bank are not its owners; they are just renting it from its creditors. Schematical
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 
 It is sometimes useful to think that the shareholders of a bank are not its owners; they are just renting it from its creditors. Schematically, a bank borrows a bunch of money from depositors and other creditors and uses the money to make loans and buy securities and do other risky investments. If the investments end up being worth more than the deposits, the shareholders keep what’s left. If the investments end up being worth less than the deposits then, uh, that’s bad. Then the shareholders don’t own the bank anymore, for one thing, but that’s really the least of your problems. The real problem is that the depositors can’t lose money; the banking system relies on bank deposits being usable as money. “Banks are speculative investment funds grafted on top of critical infrastructure,” Matt Klein  wrote last week. The liabilities (deposits, etc.) are the critical infrastructure; the assets (loans, securities) are the speculative investment fund. The bank is a machine for   turning safe deposits into risky investments. If the investments end up being worth less than the deposits, then regulators and central banks step in and there is some sort of rushed rescue to make sure that the depositors still get paid. 
 One important consequence of this is that the equity of the bank — the shareholders’ ownership stake — is just a tiny sliver resting on top of an enormous iceberg of liabilities. In a good profitable conservative bank, there might be $100 of assets, $90 of liabilities and thus $10 of equity. The liabilities are certain and knowable, things like deposits that really need to be paid back at 100 cents on the dollar.
@@ -96,37 +96,37 @@ The badwill is the difference between the price that UBS paid for the assets and
  If Credit Suisse’s valuation was too high by 10%, then UBS still makes out okay. 
 Of course banks aren’t allowed to operate with too thin a sliver of equity, and UBS will have to make sure that its capital ratios are high enough to support the new much larger bank. After the deal, “the bank remains capitalized well above its target of 13%,” UBS announced, while  Swiss regulators announced that “the takeover will result in a larger bank, for which the current regulations require higher capital buffers,” but they “will grant appropriate transitional periods for these to be built up.” Now UBS owns Credit Suisse; it would like to be able to hang onto it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AT1s
-    
-  
+
+
 
 After the 2008 financial crisis, European banks issued a lot of what are called “additional tier 1 capital securities,” or “contingent convertibles,” or AT1s or CoCos. The way an AT1 works is like this:
 	It is a bond, has a fixed face amount, and pays regular interest. 	It is perpetual — the bank never has to pay it back — but the bank can pay it back after five years, and generally does.	If the bank’s common equity tier 1 capital ratio — a measure of its regulatory capital — ffalls below 7%, then the AT1 is written down to zero: It never needs to be paid back; it just goes away completely.
@@ -182,11 +182,11 @@ The clauses that led to the bonds being marked to zero aren’t common. Only the
 
 It is just possible that the explanation is that AT1 investors don’t read the terms of their securities? Anyway  European Union and  UK banking authorities put out statements saying in effect that they would never do what the Swiss authorities did here, and that (in the Bank of England’s words) “AT1 instruments rank ahead of CET1 and behind T2 in the hierarchy. Holders of such instruments should expect to be exposed to losses in resolution or insolvency in the order of their positions in this hierarchy.” If you read that very closely, it does not quite say that AT1 instruments can’t be written off in a shotgun merger over the weekend that preserves some value for the equity (not “resolution or insolvency”!), but I guess there’s no reason to read it too closely.
 
-  
-    
+
+
       Sadly, Bitcoin
-    
-  
+
+
 
 A key idea in derivatives is no-arbitrage pricing. Let’s say that the price of some metal is $100 today, and you think it will be $300 in three months. What should be the price of a futures contract on that metal with delivery in three months? The wrong answer is $300. Let’s say you bid $300 for that contract. I will sell you that contract. I will buy the metal for $100 today. I will put it in my garage. In three months, I will deliver the metal to you, and you will pay me $300. I have made $200 of free money.
 I mean, not free, I had to use some space in my garage. In practice the futures price will differ from the spot price for various reasons (interest rates, storage costs, etc.). But none of those reasons, generally, are “I think the price will be higher in the future.” If you think the price will be higher in the future, you can buy it now, and wait.
@@ -210,16 +210,16 @@ Explanation 1 seems somewhat unlikely. (Yesterday his counterparty tweeted “S
 Explanation 3 seems like the most plausible? Srinivasan himself went on a Twitter Spaces on Saturday and said well, look, everyone is pointing out that this trade makes no sense and I should just buy Bitcoin, but “I’m doing it to ring the fire alarm” and to “put out the bit signal.” He’s doing it to draw attention to Bitcoin and get people to buy it. “Hyperbitcoinization may come at you fast, so don't wait on us to get Bitcoin,” he tweeted, in a thread about the bet.
 Is … that … uh … weird? The US Commodity Futures Trading Commission regulates trading in Bitcoin derivatives, and this bet is, among other things, a Bitcoin derivative. And my impression is that US regulators do not like it when people knowingly enter into uneconomic derivative contracts with the goal of drawing attention and driving up the price of the underlying commodity. We have talked, for instance, about   the case against Bill Hwang, who is accused of market manipulation because he kept buying swaps on stocks at prices higher than the market price, or about   the CFTC’s case against Don Wilson (which the CFTC lost), accusing him of bidding for futures contracts at the prices he thought they were worth rather than at the market price. If you think that Bitcoin should be worth $1 million and you buy it for $26,000, that’s an economic trade. If you think that Bitcoin should be worth $1 million and you noisily buy it for $1 million, that’s arguably something else.
 
-  
-    
-      Things happen
-    
-  
 
-Fed and Global Central Banks Move to   Boost Dollar Funding. 
+
+      Things happen
+
+
+
+Fed and Global Central Banks Move to   Boost Dollar Funding.
 First Republic Slumps to Record Low on Downgrade, Bank Talks. Jamie Dimon Leading Efforts to Craft New First Republic Bank Rescue Plan. BlackRock explored rival Credit Suisse takeover bid. Before Collapse of Silicon Valley Bank, the Fed Spotted Big Problems. Apollo and Rivals Pushed Aside in  Scrum to Own a Piece of SVB. Silicon Valley Bank was warned by BlackRock that risk controls were weak. The Dizzying Array of Accounting Gimmicks Preventing Silicon Valley Bank’s Failure From Affecting the  Debt Ceiling.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am oversimplifying here in various ways. For instance, of course a bank, like any other company (but more so!), can have contingent liabilities that are hard to measure: If a bank is going to have to pay a big settlement for doing some crimes, but hasn’t negotiated it yet, you know that there is a lurking liability but you don’t know how big it is. Also a big international bank will tend to have large derivative liabilities whose value depends on market conditions: A $100 bank deposit is a $100 liability, but a written credit default swap is a liability whose value changes minute by minute. Also  there is DVA: Banks measure some of their own liabilities at market value, not face amount.
 
 
@@ -241,7 +241,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] See pages 86-87 of  the prospectus. The 7% trigger is a “Contingency Event”; the regulatory one is a “Viability Event.” The prospectus also says (page 23): “In the case of any such cancellation, FINMA may not be required to follow any order of priority, which means, among other things, that the Notes could be cancelled in whole or in part prior to the cancellation of any or all of CSG’s equity capital.”
 
 
-  [8] To be fair, there is a recent Credit Suisse presentation suggesting that the AT1 ranks ahead of the common. Perhaps Credit Suisse never read the document either. 
+  [8] To be fair, there is a recent Credit Suisse presentation suggesting that the AT1 ranks ahead of the common. Perhaps Credit Suisse never read the document either.
 
 
   [9] We have   talked about Bitcoin futures pricing before, and I have emphasized storage costs. You don’t need to keep your Bitcoins in your garage, but you do need to keep them on the blockchain, or on a crypto exchange, and that’s arguably much worse than your garage.
@@ -250,48 +250,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] If you absolutely must get cute about it you could buy some Bitcoin call options where you pay, like,  $15 today for the right to buy Bitcoin at $500,000 in three months, but this is much too cute and I am going to ignore it. I used to sell options for a living, and the lesson I took away from that is that almost nobody who thinks they should be buying options is right. In any case though a $500,000 three-month Bitcoin call option is effectively free.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -302,46 +302,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cie8np.5jep/32ae0f7e.gif" alt="" border="0" /></a>

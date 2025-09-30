@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Two basic features of private equity economics are that if you raise a fund and you spend $1 billion to buy a company, and you do a good job
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Continuation fund
-    
-  
+
+
 
 Two basic features of private equity economics are that if you raise a fund and you spend $1 billion to buy a company, and you do a good job running the company and it becomes worth $5 billion, then:
 	You charge a management fee — say, 2% per year — on the $1 billion you paid for the company, not the $5 billion it’s currently worth.	If you sell the company — to a strategic buyer or another private equity firm or in an initial public offering — you collect $800 million of carry (20% of the value that you added to the company), but you can’t charge the management fees anymore.
@@ -87,37 +87,37 @@ I suppose it is easier to raise a new fund if it is getting a good deal than if 
 Buyout groups respond that they give investors in their original fund a choice: they can become an investor in the continuation fund or walk away. But the idea of a real choice, with an option for the deal to be called off, “is a bit of a pink unicorn that never really exists”, according to a managing director at an investment firm that allocates cash to buyout groups. Several pension fund executives said they were given too little time to make the decision.
 If you buy a company for $1 billion and make it worth $5 billion, and then you tell your investors that you will buy it from them at $3 billion but they can stay in, then (1) they kind of have to stay in, no? and (2) now they’re paying you management fees on $3 billion for another 10 years.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BlackRock
-    
-  
+
+
 
 The dilemma if you are BlackRock Inc. is:
 	A lot of your customers are concerned about environmental, social and governance issues, believe that the climate transition is coming, and want to make green or ESG investments with a firm that cares about ESG. Also many politicians around the world are concerned about these issues and will apply regulatory pressure to make you more ESG.	Some of your customers, and some politicians, want the opposite: They want you to invest more in oil and coal companies, they want you to oppose corporate diversity efforts, they are generally anti-ESG.	You are enormous and your job is to please everyone.
@@ -141,11 +141,11 @@ The idea is that BlackRock gives you a menu of voting policies, and you choose 
 Really what BlackRock should do is partner with some unexpected Republicans to roll out some new proxy voting policies. Throw Donald Trump $1 million for 15 minutes of his time checking some boxes, and then let investors choose the Donald Trump MAGA Values Policy to vote their shares. Ron DeSantis couldn’t criticize that! The Vivek Ramaswamy Anti-Woke Policy. The Kid Rock Proxy Voting Policy.
 You don’t need to limit yourself to anti-ESG Republicans, either. The Greta Thunberg Voting Policy. The Amin Nasser Voting Policy! The Taylor Swift Voting Policy. The Mr. Beast Voting Policy. Honestly this is such a good stupid idea; BlackRock should get like 30 celebrities to pick some broad proxy voting guidelines and let retail customers choose their favorite celebrity to guide their shareholder voting. It is absolutely absolutely absolutely rational for individual retail investors not to care at all how their proxies are voted, their proxy votes cannot possibly matter, any retail investor who is concerned about proxy voting is concerned purely for symbolic identity reasons. Might as well market to that.
 
-  
-    
+
+
       Bank of crypto
-    
-  
+
+
 
 The weird thing is, right now is a great time to be the bank of crypto. Historically there are two problems, in the US, with being the go-to bank for cryptocurrency exchanges and stablecoin issuers:
 	Crypto companies had a bit of a history of lawbreaking, so you would want to make very sure that they were doing all the appropriate know-your-customer/anti-money-laundering checks, and not stealing customer money, before agreeing to provide them with banking services.	Crypto prices were volatile and there was a history of “bank runs” in crypto, which might leave you vulnerable to a real bank run: If a crypto exchange got $1 billion of customer money and deposited it in your bank, its customers might want all their money back tomorrow, which would mean that you would have to pay back that $1 billion tomorrow. The deposits were flighty.
@@ -174,11 +174,11 @@ Crypto “provides a very good use case for us to prove our tech capabilities”
 
 Yes, right, as a general matter,  the correct move for a regional bank is to borrow short, lend long, and invest a lot in building relationships with the depositors so they don’t all take their money out at once. It does seem like there’d be a niche for the crypto bank though. Who cares about the relationship? It’s flighty money, but it’s cheap money; take it!
 
-  
-    
+
+
       X valuation
-    
-  
+
+
 
 How much is Twitter worth? I guess it is called X Corp. now. Elon Musk bought it last October for about $44 billion; at the time he   said he was overpaying. He had a few co-investors who have to report their portfolios publicly, and they, uh, agree he overpaid.  Fidelity has marked down its Twitter stake by almost two-thirds since the deal. And  here’s this:
 
@@ -199,11 +199,11 @@ Ed Hammond   wrote in June that Musk should just take Twitter public again, and 
 
 If Twitter is a private company and you own almost all of the equity, you are mainly exposed to its cash flows, not the meme potential of its stock. If you take it public and sell a bunch of stock to your ardent fans, the business results matter less, and your ability to attract attention matters more. Surely, given the facts here, that increases the valuation?
 
-  
-    
+
+
       Typo leak
-    
-  
+
+
 
 If you have some secret information that you want to communicate to the US Army, I guess you would email it to, like, tips@army.mil?
   [3]
@@ -216,17 +216,17 @@ Control of the .ML domain will revert on Monday from Zuurbier to Mali’s govern
 
 “Much of the email flow is spam and none is marked as classified,” and apparently if you work in the US military and you email someone else in the US military, the system prevents this typo. But if you are an outside contractor, or an Army officer emailing from your personal account, all bets are off. “Around a dozen people mistakenly requested recovery passwords for an intelligence community system to be sent to Mali.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Wall Street Sees Glimmer of Hope for   Investment-Banking Revival. Morgan Stanley’s Dealmaking, Trading Businesses Dent Earnings.   BofA Leans on Wall Street, Not Main Street, for Strong Earnings. PNC Kicks Off   Regional Bank Earnings by Slashing Guidance. Schwab Shares Rise After Firm Forecasts   Growth for Bank Deposits. Buyout groups raise debt against portfolios to  return cash as dealmaking slows. More Americans Are Getting   Turned Down for Loans, Fed Data Shows. The  Shale Industry Is Dropping Drilling Rigs, Fast. Binance  Cuts Back Employee Benefits, Citing Decline in Profit. Microsoft-Activision Deal Poised to   Close Later Than Planned. Elon Musk’s Twitter Asks Court to  Terminate FTC Settlement. Elizabeth Warren urges SEC to investigate Tesla over Twitter ties, corporate governance. Deutsche Bank Draws Fresh ECB Scrutiny Over   FX Sales. Energy Startup Says It Has Achieved   Geothermal Tech Breakthrough. The SEC is   pivoting from crypto to AI.
   [4]
  Work from home, and  golf. Even North America’s  Elk Have Regional Dialects. Fastest  Wiener Dog in the West. Divorce  parties. Stew  old.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Presumably this lowers the amount of carry you can earn in the new fund, but a dollar now is better than a dollar later. There are some complications around hurdle rates.
 
 
@@ -239,48 +239,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] This joke is stolen from  Twitter user @Bonecondor.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj4f1k.5kxj/834b1b9f.gif" alt="" border="0" /></a>

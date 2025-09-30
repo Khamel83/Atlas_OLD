@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: This is the last Money Stuff of 2022. We’ll be back the first week of January. Happy holidays!Of course there will be seve
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: This is the last Money Stuff of 2022. We’ll be back the first week of January. Happy holidays!
 
-  
-    
+
+
       FTX
-    
-  
+
+
 
 Of course there will be several FTX movies, and maybe the most cinematic scene in the whole story is the meeting that Caroline Ellison, the chief executive officer of Alameda Research, FTX’s affiliated trading firm, held to tell her employees that they’d been stealing FTX customer money. Imagine! Imagine coming into the company all-hands meeting at the lucrative trading firm you work at, in the Bahamas, far away from your friends and family and competitors, in a slightly cult-like environment where your  every need is catered to out of the firm’s enormous profits. And then your 28-year-old boss is like “so guys, a little bad news, actually we’re a Ponzi? Sorry if I didn’t mention that earlier.” Everyone quit immediately, but much too late. 
 That meeting happened on Nov. 9, the day after FTX death-spiraled and tried to sell itself to Binance, and has been reported before. But now Ellison is cooperating with prosecutors and regulators, so we have their version of her version of the meeting and, oof. Here is how the US Commodity Futures Trading Commission describes it:
@@ -107,89 +107,89 @@ He went on in a cynical vein:
 In fact, you can even finance this, right? You put X token in a borrow lending protocol and borrow dollars with it. If you think it's worth like less than two thirds of that, you could even just like put some in there, take the dollars out. Never, you know, give the dollars back. You just get liquidated eventually. 
 And that is what happened: FTX got liquidated eventually, and now he’s facing fraud charges. But it was not obvious, in advance, that that was how it had to go. Maybe the box was life-changing, a world-altering protocol that was gonna replace all the big banks. Maybe you never get liquidated; maybe  everyone will keep believing in the box until it becomes real. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       APE!
-    
-  
+
+
 
 Honestly the APE thing is pretty clever. AMC Entertainment Holdings Inc. has one incredible advantage and one bizarre constraint. The advantage is that AMC is really really good at raising equity: It rode last year’s meme-stock wave   more expertly than anyone else, using retail investors’ enthusiasm for its stock to sell lots of stock at attractive prices to pay down debt. 
 The constraint is that, like most public companies, AMC has a corporate charter that limits the number of shares it can issue, and it is   basically all out of shares. To get more shares, it needs to get a majority of its shareholders to approve an amendment to the corporate charter authorizing more shares, and this is hard, for two reasons:
@@ -219,137 +219,137 @@ As part of the agreement, Antara has agreed to hold their APE units for up to 90
 
 I don’t know! It’s a very elegant trade. I suppose if you wanted to quibble, you could argue that AMC’s shareholders didn’t want it to issue more shares, so it found sort of a clever back-door way to rig the vote to allow it to issue more shares. If you are a shareholder who plans to vote no, you might be annoyed. But I tend to think that selling tons of shares into a meme-stock market was the best possible move for AMC, and its great corporate finance innovation. AMC’s management may not be giving shareholders exactly what they want, but it’s giving them what they should want, and that really is management’s job.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
 
-JPMorgan’s Credit-Trading Loss Hinged on 
-Internal Valuations. Sam Bankman-Fried’s $250 Million 
+
+
+JPMorgan’s Credit-Trading Loss Hinged on
+Internal Valuations. Sam Bankman-Fried’s $250 Million
 Bail Bond Approved by Judge in NY. Behind a  Wall Street headhunter's rapid ascent lie accusations of harassment and abuse. Elon Musk’s Campaign to Win Back  Twitter Advertisers Isn’t Going Well. Musk’s Frequent Twitter Polls Are at Risk of   Bot Manipulation. Fired Twitter Manager Sues Over   Stock-Option Cancellation. “What’s specifically addictive about Twitter is it tells you  what the void thinks.” You can sue a movie studio for  deceptive trailers. Giant Laser From ‘Star Trek’ to Be Tested in Fusion Breakthrough.   'Die Hard' Tower in Los Angeles Lacks Christmas Cheer Ahead of Its Debt Deadline. “Unlike traditional cryptocurrencies, like Bitcoin and Ethereum, which are completely digital, usually without physical form,  Manischewitz Crypto Gelt is made from milk chocolate, in packaging that mirrors the most well-known logos of popular cryptocurrency.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also that the SEC explicitly  argues that FTT is a security, which seems pretty obvious to me — the SEC   thinks everything is a security, and FTT is obviously   sort of a stock substitute for FTX.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

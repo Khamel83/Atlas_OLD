@@ -8,17 +8,17 @@
 | --- | --- | --- |
 | [Print and Go Back](#) | **ESPN.com:** Page 2 | [[Print without images](print?id=6583758&type=Story&imagesPrint=off)] |
 
-  
+
 **Tuesday, May 24, 2011**
-At its apex, Macho Man was wrestling  
+At its apex, Macho Man was wrestling
 
 
 ---
 
 
-By Bill Simmons  
-ESPN.com  
-  
+By Bill Simmons
+ESPN.com
+
 
 
 January 1980. A Saturday morning. I am watching wrestling only because I can't find anything else. A younger guy with blond hair is battling an older guy with a barrel chest, curly black hair, bushy sideburns and an oversized noggin crammed where his neck should be. Young Guy gets knocked out of the ring accidentally. Older Guy holds the ropes apart, politely invites Young Guy back in … then gets sucker punched by Young Guy. The crowd is appalled. The announcer is appalled. Hell, I am appalled.
@@ -75,7 +75,7 @@ Bill Simmons is a columnist for ESPN.com and the author of the recent New York T
 
 [Back to Page 2]( http://espn.go.com/espn/page2/)
 
-  
+
 
 |  |
 | --- |
@@ -85,5 +85,4 @@ Bill Simmons is a columnist for ESPN.com and the author of the recent New York T
 | [• Snibbe: An illustrated history of Page 2](http://www.espn.com/espn/page2/story/_/id/7807953/cartoonist-kurt-snibbe-illustrated-celebration-espn-page-2) |
 | [Philbrick, Gallo: Farewell podcast](#) Listen |
 
-  
-  
+

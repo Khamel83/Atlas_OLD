@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The idea of a blockchain is that you want to do bank transfers without a bank. You want people to be able to do transactions, and have them 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        The idea of a blockchain is that you want to do bank transfers without a bank. You want people to be able to do transactions, and have them
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Merge
-    
-  
+
+
 
 The idea of a blockchain is that you want to do bank transfers without a bank. You want people to be able to do transactions, and have them confirmed, and have there be some canonical agreed list of the transactions, but you don’t want to trust some central party to do it. 
 At a high level, the blockchain solution is to confirm transactions by letting everyone keep a copy of the transaction ledger. And then the official ledger is based on consensus among people who have some demonstrated stake in the system. What that has often meant in practice — what it means in Bitcoin and what it originally meant in Ethereum — is “proof of work.” What you do is, you buy a bunch of computers, and you set them to work solving meaningless math problems, and whoever solves the most math problems the fastest gets to confirm a block of Bitcoin transactions, and they are rewarded with some newly minted Bitcoins and then everyone starts over solving more math problems to confirm more transactions. Buying the computers, and paying for the electricity to run them to solve the math problems, demonstrates your commitment to Bitcoin: It would be crazy to spend all that money on computers and electricity to confirm fake transactions, which would undermine the value of Bitcoin and thus of your investment.
@@ -107,63 +107,63 @@ As guardians of the Ethereum network, these entities will have to decide whether
 The idea is that if Coinbase and Binance are confirming all of the Ethereum transactions, and the US Treasury goes to them and says “hey don’t confirm any Ethereum transactions from the following list of Russian-affiliated addresses,” they’ll do what Treasury says rather than risking unpleasantness with the US government. And so the Ethereum blockchain will become a policy arm of the US government (or other governments with power over stakers), like the dollar financial system is. I am not so sure about this worry: As Chipolina notes, Bitcoin mining is also pretty concentrated, including in US public companies, and I suppose that the Treasury could lean on Bitcoin miners to exclude Russian transactions too. But, sure. Centralization exposes crypto to more effective regulation; if a million anonymous users confirm transactions then they’re hard to censor, but if six big exchanges confirm transactions then those exchanges will want to stay on the good side of regulators.
 I suppose one more point is that if you are a big US-based crypto exchange and you are paying staking rewards on Ethereum, does that make your offering a security that needs to be registered under US Securities and Exchange Commission rules? An interest-paying crypto lending product is probably a security, the SEC   said last year, and while it is   not exactly rushing to clarify the situation for staking, you might worry. “There is regulatory uncertainty regarding the status of our staking, lending, rewards, and other yield-generating activities under the U.S. federal and state securities laws,”  says Coinbase Global Inc. in its SEC filings, and with the Merge that might be a bigger risk.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Vacation banking
-    
-  
+
+
 
 A widespread belief among investment bankers is that you have to work 100-hour weeks, at least early in your career, to be good at the job. There is a lot to learn, and you need to get it down by heart; you need to demonstrate total commitment to your bank and its clients; you need to respond to client requests instantly even if it takes all night; you need to absorb the culture of banking. This stuff just can’t be done in 40 hours a week. Maybe 80; maybe you can have a few protected weekends or work-free vacations. But it’s not a 9-to-5 job.
 A lot of people find this belief weird and implausible. “Why not hire twice as many people, pay them half as much and let them work 40 hours a week,” those people ask. “Nonsense,” old-school investment bankers say, “that wouldn’t work at all, you don’t understand anything.” I am a former investment banker myself, and I tend to think that the bankers make some good points. But I don’t know. It’s possible that they — we — all have blinders on, that we were hazed by our banking experiences and unthinkingly pass on the mistakes that were inflicted on us to the next generation. Maybe it would be better to hire more people and work them 40 hours a week; maybe they’d be better bankers if they had more time to think and sleep and socialize. I don’t know. There are not really any controlled experiments.
@@ -184,20 +184,20 @@ Well. If in 20 years the Málaga alums are the ones running Citi — if their e
   [5]
  — then I suppose that would change? If the Málaga plan is so good, why would you have to move on from it? 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Musk Twitter stuff
-    
-  
+
+
 
 Yes, well,  clearly:
 
@@ -227,15 +227,15 @@ Well, that’s fine, and I think I have been pretty clear around here that (1) I
   [10]
  but not 95%. Some hedge funds are betting that Musk can’t get out of the deal, but the market has some doubts.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 A Dubious Truck, a Whistleblower Army, and Inept Spies: Inside the Very Weird   Nikola Saga. Dueling Portraits of Nikola Founder  Trevor Milton Presented at Securities-Fraud Trial. Nikola Whistle-Blower Made $600,000 Off Short Sale,   Jury Told. Terra Co-Founder   Do Kwon Faces Arrest Warrant in South Korea. Milk, Diapers and Checking Accounts:   Banking Comes to Walmart. EU targets €140bn from  windfall taxes on energy companies. Credit Suisse-Tycoon Clash Has   Wealth Industry Holding Its Breath. Adam Neumann Handing Over Part of Property Holdings to Fund Startup. Chinese Rush to   Repay Mortgages Gains Momentum in Abrupt U-Turn. SEC Proposes Rules to Improve Risk Management in Clearance and Settlement and to Facilitate Additional Central Clearing for the U.S.  Treasury Market. U.S. Banking Regulator Appoints New  Climate Risk Chief. The mechanics and mayhem of  autocallables. Ferrari Unveils First   $390,000 SUV With a Plea: ‘Don't Call It an SUV.’ Morrisons turns volume of  check out beeps down as mark of respect to Queen. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Satoshi Nakamoto  says: “If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.”
 
 
@@ -260,120 +260,120 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] And in fact you could plausibly have the view that it is *good* for the world, the product, etc., for Musk to own Twitter. Twitter's current management comes in for a lot of criticism, and Musk has a lot of talents, and if you like his views on free speech you might want him to own Twitter.
 
 
-  [9] Law professor Robert Anderson tweeted the other day about Twitter’s law firm: “Wachtell Lipton has always been the law firm that said the sole focus on short-term shareholder value was destructive for companies and the broader economy. Now, it's arguing that a court should order a company sold to a man it says acts in bad faith, doesn't live up to his commitments, is causing irreparable harm to the company, unfairly disparages the company and its management, is causing turmoil among its employees, and on and on. Why? To serve the best interests of the company? No, to serve short-term shareholder value, in the form of $54.20.” I take his point: Wachtell, Lipton, Rosen & Katz (disclosure: where I used to work) has very consistently taken the position that corporate boards don’t have to listen to activist shareholders pursuing short-term value maximization, that they can consider the interests of all stakeholders in their companies. And from their filings in this case, they sure don’t seem to think that Elon Musk would be the best owner of Twitter from the perspective of the company, its stakeholders, or the world generally. They just think that shareholders should get their $54.20 because a deal’s a deal. 
+  [9] Law professor Robert Anderson tweeted the other day about Twitter’s law firm: “Wachtell Lipton has always been the law firm that said the sole focus on short-term shareholder value was destructive for companies and the broader economy. Now, it's arguing that a court should order a company sold to a man it says acts in bad faith, doesn't live up to his commitments, is causing irreparable harm to the company, unfairly disparages the company and its management, is causing turmoil among its employees, and on and on. Why? To serve the best interests of the company? No, to serve short-term shareholder value, in the form of $54.20.” I take his point: Wachtell, Lipton, Rosen & Katz (disclosure: where I used to work) has very consistently taken the position that corporate boards don’t have to listen to activist shareholders pursuing short-term value maximization, that they can consider the interests of all stakeholders in their companies. And from their filings in this case, they sure don’t seem to think that Elon Musk would be the best owner of Twitter from the perspective of the company, its stakeholders, or the world generally. They just think that shareholders should get their $54.20 because a deal’s a deal.
 
 
   [10] This depends on your assumptions about timing and how much Twitter is worth without the Musk deal. But if you assume standalone Twitter — after this deal falls apart, after it gets battered in court and in Congress, etc. — is worth about $20, then betting on the deal closing by buying stock at $41.74 means that you make $12.46 if you’re right and lose $21.74 if you’re wrong, suggesting roughly 3-to-2 implied odds in favor of closing.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -240,7 +240,7 @@ function onbenjiload() {
 </div>
 
 </header>
-		
+
 	<div class="container__access-control">
 		<div class="content">
 			<div class="ad-unit">
@@ -254,7 +254,7 @@ function onbenjiload() {
 	<div class="content-wrap">
 		<div class="content">
 			<section class="author-profile">
-				
+
 				<header>
 					<h1 class="author-profile__name">Kirsten Korosec</h1>
 									</header>
@@ -278,7 +278,7 @@ function onbenjiload() {
 				Ev startup Fisker cut its 2023 production target for the fourth time			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T14:25:05-08:00">
 		Dec 01, 2023	</time>
@@ -312,7 +312,7 @@ function onbenjiload() {
 				Tesla Cybertruck delivery event: Everything Elon revealed about the EV pickup			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:50:35-08:00">
 		Dec 01, 2023	</time>
@@ -346,7 +346,7 @@ function onbenjiload() {
 				Big wins for Latin America, climate tech momentum and Rover&#8217;s $2.3B sale			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T07:05:57-08:00">
 		Dec 01, 2023	</time>
@@ -380,7 +380,7 @@ function onbenjiload() {
 				Innovation or folly? The Cybertruck will test whether anyone still trusts Tesla			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-29T10:25:11-08:00">
 		Nov 29, 2023	</time>
@@ -414,7 +414,7 @@ function onbenjiload() {
 				GM to slash spending at Cruise by &#8216;hundreds of millions of dollars&#8217;			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-29T06:33:30-08:00">
 		Nov 29, 2023	</time>
@@ -448,7 +448,7 @@ function onbenjiload() {
 				Rivian launches leasing program for its all-electric R1T pickup in 14 states			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-27T12:00:58-08:00">
 		Nov 27, 2023	</time>
@@ -482,7 +482,7 @@ function onbenjiload() {
 				Bruised Cruise shifts gears in scaled-down robotaxi comeback plan			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-22T15:51:26-08:00">
 		Nov 22, 2023	</time>
@@ -516,7 +516,7 @@ function onbenjiload() {
 				Tech CEO Austin Russell&#8217;s bid to buy Forbes fails			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-21T10:54:07-08:00">
 		Nov 21, 2023	</time>
@@ -550,7 +550,7 @@ function onbenjiload() {
 				Ford downsizes EV battery factory plan			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-21T08:38:29-08:00">
 		Nov 21, 2023	</time>
@@ -584,7 +584,7 @@ function onbenjiload() {
 				Rivian CEO RJ Scaringe is now taking over the top product role at the EV maker			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-20T13:05:34-08:00">
 		Nov 20, 2023	</time>
@@ -618,7 +618,7 @@ function onbenjiload() {
 				Cruise co-founder and CEO Kyle Vogt resigns			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-19T18:22:52-08:00">
 		Nov 19, 2023	</time>
@@ -652,7 +652,7 @@ function onbenjiload() {
 				Cruise&#8217;s mea culpa and everything that stood out at the LA Auto Show			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-19T15:18:06-08:00">
 		Nov 19, 2023	</time>
@@ -686,7 +686,7 @@ function onbenjiload() {
 				GM absorbs commercial EV unit BrightDrop, CEO is out			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T15:53:20-08:00">
 		Nov 16, 2023	</time>
@@ -720,7 +720,7 @@ function onbenjiload() {
 				Cruise suspends employee stock program, corp bonuses moved up			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T12:21:19-08:00">
 		Nov 16, 2023	</time>
@@ -754,7 +754,7 @@ function onbenjiload() {
 				Amazon to sell cars online, starting with Hyundai			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T10:22:16-08:00">
 		Nov 16, 2023	</time>
@@ -788,7 +788,7 @@ function onbenjiload() {
 				The all-electric Lucid Gravity SUV finally makes its debut with 440 miles of range			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T09:09:52-08:00">
 		Nov 16, 2023	</time>
@@ -822,7 +822,7 @@ function onbenjiload() {
 				Toyota is turning to startup Redwood Materials for critical battery materials			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T04:00:56-08:00">
 		Nov 16, 2023	</time>
@@ -856,7 +856,7 @@ function onbenjiload() {
 				Arrival secures emergency cash so it can sell itself			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-15T07:11:55-08:00">
 		Nov 15, 2023	</time>
@@ -890,7 +890,7 @@ function onbenjiload() {
 				Cruise spirals and LTA&#8217;s airship breaks cover in Silicon Valley			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-12T17:59:06-08:00">
 		Nov 12, 2023	</time>
@@ -924,7 +924,7 @@ function onbenjiload() {
 				OpenAI&#8217;s DevDay, reinventing the REIT and good actors in crypto			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-10T07:05:56-08:00">
 		Nov 10, 2023	</time>
@@ -960,7 +960,7 @@ function onbenjiload() {
 	</div><!-- end React-root duplication div -->
 </div><!--end #root-->
 	<script type="application/javascript">
-		if ( ! window.isSSR ) { 
+		if ( ! window.isSSR ) {
 			(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'428726','qstrings': { 'et': 'custom','ea': 'page view','product_id': window.location.pathname,'site': 'techcrunch' },}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","http://web.archive.org/web/20231201234640/https://s.yimg.com/wi/ytc.js","dotq");
 		}
 	</script>

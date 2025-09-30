@@ -34,7 +34,7 @@ class TranscriptSearchIndexer:
                     schema_sql = f.read()
 
                 conn = sqlite3.connect(self.db_path)
-                
+
                 # Use executescript for better multi-line statement handling
                 # But first clean up comments and extra whitespace
                 cleaned_sql_lines = []
@@ -43,9 +43,9 @@ class TranscriptSearchIndexer:
                     # Skip comment-only lines but preserve inline comments for context
                     if line and not line.startswith('--'):
                         cleaned_sql_lines.append(line)
-                
+
                 cleaned_sql = '\n'.join(cleaned_sql_lines)
-                
+
                 try:
                     conn.executescript(cleaned_sql)
                     conn.commit()
@@ -56,7 +56,7 @@ class TranscriptSearchIndexer:
                     self.logger.error(f"Error executing schema script: {e}")
                     # Fallback to creating basic tables without FTS/triggers
                     self._create_basic_tables(conn)
-                    
+
                 conn.close()
             else:
                 self.logger.warning(f"Schema file not found: {schema_path}")
@@ -72,7 +72,7 @@ class TranscriptSearchIndexer:
     def _create_basic_tables(self, conn):
         """Create basic tables without advanced features if schema fails."""
         cursor = conn.cursor()
-        
+
         # Basic transcript segments table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS transcript_segments (
@@ -93,7 +93,7 @@ class TranscriptSearchIndexer:
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
-        
+
         # Basic topic clusters table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS topic_clusters (
@@ -107,7 +107,7 @@ class TranscriptSearchIndexer:
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
-        
+
         # Basic speakers table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS transcript_speakers (
@@ -124,13 +124,13 @@ class TranscriptSearchIndexer:
                 UNIQUE(normalized_name)
             )
         """)
-        
+
         # Basic indexes
         cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_segments_speaker ON transcript_segments(speaker)")
         cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_segments_content_uid ON transcript_segments(content_uid)")
         cursor.execute("CREATE INDEX IF NOT EXISTS idx_topic_clusters_name ON topic_clusters(topic_name)")
         cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_speakers_name ON transcript_speakers(normalized_name)")
-        
+
         conn.commit()
         self.logger.info("Created basic transcript search tables")
 
@@ -281,7 +281,7 @@ class TranscriptSearchIndexer:
                     topic_id, current_count = result
                     cursor.execute(
                         """
-                        UPDATE topic_clusters 
+                        UPDATE topic_clusters
                         SET keywords = ?, content_count = ?, updated_at = CURRENT_TIMESTAMP
                         WHERE id = ?
                     """,
@@ -336,7 +336,7 @@ class TranscriptSearchIndexer:
                     speaker_id, current_segments, current_words = result
                     cursor.execute(
                         """
-                        UPDATE transcript_speakers 
+                        UPDATE transcript_speakers
                         SET segment_count = ?, total_word_count = ?, last_appearance = CURRENT_TIMESTAMP,
                             updated_at = CURRENT_TIMESTAMP
                         WHERE id = ?
@@ -534,7 +534,7 @@ class TranscriptSearchIndexer:
                 f"""
                 SELECT ts.*, COUNT(*) as topic_overlap
                 FROM transcript_segments ts
-                WHERE ts.id != ? 
+                WHERE ts.id != ?
                 AND (
                     {' OR '.join(["ts.topic_tags LIKE ?" for _ in source_topics])}
                 )
@@ -598,9 +598,9 @@ class TranscriptSearchIndexer:
             # Top speakers by content
             cursor.execute(
                 """
-                SELECT speaker_name, segment_count, total_word_count 
-                FROM transcript_speakers 
-                ORDER BY total_word_count DESC 
+                SELECT speaker_name, segment_count, total_word_count
+                FROM transcript_speakers
+                ORDER BY total_word_count DESC
                 LIMIT 10
             """
             )
@@ -612,9 +612,9 @@ class TranscriptSearchIndexer:
             # Top topics
             cursor.execute(
                 """
-                SELECT topic_name, content_count 
-                FROM topic_clusters 
-                ORDER BY content_count DESC 
+                SELECT topic_name, content_count
+                FROM topic_clusters
+                ORDER BY content_count DESC
                 LIMIT 10
             """
             )

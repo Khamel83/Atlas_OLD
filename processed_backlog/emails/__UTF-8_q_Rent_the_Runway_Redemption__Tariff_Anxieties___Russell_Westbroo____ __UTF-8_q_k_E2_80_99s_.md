@@ -29,7 +29,7 @@ find a scoop on NBA star and legit fashion connoisseur Russell Westbrook’s sli
 Tish Weinstock and I discuss Gucci, her experience walking the Chloé show, and what we liked about Demna’s “normal” clothes at Balenciaga. She also explains the inception of her book, How to Be a Goth: Notes on Undead Style. Listen here ( https://open.spotify.com/episode/3vkKN2bOPS33G0iIztB5A7?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and
 here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
-🛍️ Sarah has something for those of you with the Shoppies: I am here to inform you—perhaps regrettably, if you’re blister prone—that jelly shoes are back for Summer 2025. The most novel version—nothing like The Row’s ( https://www.vogue.com/article/jennifer-lawrence-controversial-summer-shoes-the-row-jelly-flats?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—are Bottega Veneta jelly intrecciato ( https://go.shopmy.us/p-14281312?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Mary Janes, which are nearly sold out on Net-a-Porter and Ssense 
+🛍️ Sarah has something for those of you with the Shoppies: I am here to inform you—perhaps regrettably, if you’re blister prone—that jelly shoes are back for Summer 2025. The most novel version—nothing like The Row’s ( https://www.vogue.com/article/jennifer-lawrence-controversial-summer-shoes-the-row-jelly-flats?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—are Bottega Veneta jelly intrecciato ( https://go.shopmy.us/p-14281312?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Mary Janes, which are nearly sold out on Net-a-Porter and Ssense
 ( https://go.shopmy.us/p-14309815?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Then, there’s the Vince mule ( https://go.shopmy.us/p-14281332?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—most definitely riffing on The Row, but with a wider
 basket weave that makes them lighter. For those determined to resist the trend because they already road tested it in kindergarten, the Emme Parsons rubber pool flat ( https://go.shopmy.us/p-14281344?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from last year has returned in a cool-looking, knotted flip-flop ( https://go.shopmy.us/p-14281361?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). My one bit of advice is that if you are in the market for a waterproof-ish
 shoe, buy it now, because these types sell out fast. —Sarah Shapiro
@@ -172,7 +172,7 @@ What’s the value prop for brands to partner with Rent the Runway?
 I think the analogy here is actually Sephora. This is what I aspire to be. Seven or eight years ago, Sephora changed their strategy from having all of the blockbuster brands on their platform to one where they were going to showcase indie brands and ensure that they were a
 discovery engine for beauty, so that people come into that store multiple times a week, whether online or in person. We’ve become this entirely new marketing channel for coveted brands to acquire future customers of all ages, and I think the brands are seeing this in their data. So the hottest brands in the world are coming to us now because they see us as a marketing opportunity, and a place where customers can really find the latest and greatest in designer fashion in constant rotation.
 
- 
+
 
 What
 We’re Reading…
@@ -187,7 +187,7 @@ a list of store recs from the Jacquemus team. It’s really good. [Magasin ( htt
 Rachel Tashjian offers advice for men entering their “big pant era.” What you consider “big” is relative, though: Maybe start with Alex Mill’s straight-leg ( https://go.shopmy.us/p-14281248?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) chino. Very nice.
 [Instagram ( https://www.instagram.com/reel/DG_NyN2RQO5/?igsh=NjZiM2M3MzIxNA%3D%3D&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Line Sheet. By the way, I’m curious if you, too, received a weird email from Matches this
 past week. (We all know that Matches shut down last summer and is currently attempting a B2B revival.) If you feel like you’ve seen a ghost, you are not alone. One theory is that something is up with the purchase confirmation tool a lot of retailers use. (Someone wrote to me to say that they’ve received similarly bizarre emails from J.Crew and a contact lens company.) Anyway, I reached out to a rep from Frasers, the company that owns Matches, to figure out what was up. If you have any ideas, let
@@ -209,6 +209,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVh34_uoFytDo0NXjOJmU=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

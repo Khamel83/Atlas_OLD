@@ -37,9 +37,9 @@ times, Paramount Global executives who are mulling a settlement with President T
 * Pure Ari gold: Ari Emanuel got quite punchy during a live taping of the Freakonomics podcast last night, attacking Sam “The Swindler” Altman, dropping some Jeffrey Epstein insinuations about Bill Gates, and defending Elon Musk, whom he described as “a close friend.” Ari also said he confronted
 Jeffrey Katzenberg over the Democrats’ handling of the 2024 presidential election—hardly a rare occurrence in Hollywood these days—and chided the party for “telling lies” about Biden while “calling everyone liars.” WSJ’s Joe Flint has some of the highlights ( https://x.com/JBFlint/status/1890263671877877890?utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
 
- 
+
+
 
 A MESSAGE FROM OUR SPONSOR
 
@@ -172,6 +172,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Roo
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVB1Wfe51WTaWSqhdEhyI=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

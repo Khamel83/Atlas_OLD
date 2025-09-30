@@ -7,7 +7,7 @@ Posted on Feb 11, 2025
 
 Subscribe to BuzzFeed Daily NewsletterCaret Down
 
-  
+
 
 # The Anti-SNARF Manifesto
 
@@ -87,8 +87,8 @@ Before I go, I want to tell you about something big we are starting to build. **
 
 I can’t share much more yet, but I am very excited, after years of being beholden to other platforms, to take the big step of making our own.
 
-We are in the lab developing it now!  
-  
+We are in the lab developing it now!
+
 [Sign up here](https://www.buzzfeed.com/island) if you want early access and reach out to bfisland@buzzfeed.com if you want to collaborate with us.
 
 ![Illustration of a small island with palm trees under a sky with clouds spelling &quot;Join Us.&quot;](https://img.buzzfeed.com/buzzfeed-static/static/2025-02/11/14/asset/602e38a962c0/sub-buzz-656-1739285248-1.png)

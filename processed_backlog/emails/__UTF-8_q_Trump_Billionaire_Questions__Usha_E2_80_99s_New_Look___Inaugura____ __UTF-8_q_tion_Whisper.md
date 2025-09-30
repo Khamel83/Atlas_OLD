@@ -29,7 +29,7 @@ Day notes from my partners Lauren Sherman and Abby Livingston…
 Lauren Sherman
 Lauren Sherman
 
- 
+
 
 * Who’s stylin’
 who: Pretty much every woman in politics works with a stylist, but many of those relationships remain under wraps for various reasons. Politicians and political spouses often opt for discretion—spending money on a stylist can seem frivolous—even if their heavily scrutinized wardrobes are a primary communication tool. Consider how secretive Kamala Harris and Leslie Fremar were about
@@ -216,6 +216,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUhvjOBeB0eH70F3tAUFI=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

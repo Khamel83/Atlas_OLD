@@ -17,7 +17,7 @@
 
 #### After Each Component:
 ```
-COMPRESS CONTEXT: 
+COMPRESS CONTEXT:
 - Component X: ✅ WORKING (basic implementation)
 - Component Y: ⏭️ SKIPPED (dependency issue, will retry)
 - Moving to Component Z...
@@ -46,7 +46,7 @@ COMPRESS ALL PREVIOUS CONTEXT
 
 ### **Hanging Indicators:**
 - Planning for >2 prompts
-- "I need to understand..." 
+- "I need to understand..."
 - Reading excessive context
 - Waiting for dependencies
 
@@ -97,6 +97,6 @@ No more analysis - start coding now
 
 If model hangs for >10 minutes:
 1. **Interrupt**: Force stop current task
-2. **Reset**: "CLEAR CONTEXT - START FRESH" 
+2. **Reset**: "CLEAR CONTEXT - START FRESH"
 3. **Skip**: Move to next atomic task
 4. **Continue**: Keep momentum going

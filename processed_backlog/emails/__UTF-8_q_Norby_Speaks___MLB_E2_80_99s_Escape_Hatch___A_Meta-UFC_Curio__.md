@@ -23,7 +23,7 @@ yesterday’s episode ( https://puck.news/podcast_episode/liv-and-let-die/?utm_c
 Disney to work on the company’s D.T.C. businesses. I’m legit thrilled that Julia’s back at Puck ( https://x.com/loudmouthjulia/status/1899524441261887792?utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Starting today, she’s also joining The Varsity family, contributing her ingenious insights a few times a week. And starting next month, we’ll be expanding this product to a third private email per week focused on Julia’s proprietary analysis. Send feedback and fan mail to
 JAlexander@puck.news ( jalexander@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Player of the Week: Brian
 Roberts
@@ -36,7 +36,7 @@ course, recently picked up rights to the Women’s World Cup in 2027 and 2031—
 More than many organizations, however, the I.O.C. places an extreme premium on trust in its partnerships, and it’s clear Roberts has earned the loyalty of soon-to-retire I.O.C. president Thomas
 Bach. Of course, the $3 billion in rights fees that he promised couldn’t have hurt, either.
 
- 
+
 
 Down to the J.V.: Collin
 Morikawa
@@ -46,7 +46,7 @@ Yes, it’s annoying that the PGA Tour player refused to talk to the media after
 three-shot lead with five-holes to play. I might even be persuaded to forgive him for telling reporters, days later, that he “doesn’t owe anyone anything.” But Morikawa’s lack of self-awareness is astonishing. Just before that remark, he acknowledged that professional golfers “make so much money.” The golfer was explaining why he thinks “monetary fines are useless” as a punishment for slow game play. But as Eamon Lynch noted on my podcast yesterday, it’s incredible that Morikawa
 “said those two statements as though they’re entirely unconnected to each other.” As Don Draper says, that’s what the money is for!
 
- 
+
 
 The Starting Five
 -----------------
@@ -139,7 +139,7 @@ programming alone is but a small retaining wall blunting the tsunami of the trip
 In this landscape, programming cannot compete with the headwinds. Boffo NFL ratings couldn’t prevent parentco Paramount from selling to Skydance and RedBird for a depressing $8 billion. Cognizant of this transformation, legacy media companies
 have either spun their linear assets or are preparing them for sea now. Vertically integrated org charts and better broadcasting will certainly improve the R.S.N. experience, but that’s a far cry from reviving a model that everyone is exiting. And yet that is sort of the charm of Norby’s decision to devote his third act to this challenge.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -159,7 +159,7 @@ Correction: “You wrote that Adam Schefter is on Bluesky, but he’s not. There
 [Ed note: No dinner
 for Marchand tonight.]
 
- 
+
 
 Have a great weekend. See you Monday,
 
@@ -210,7 +210,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVkipcDPCxg6z_3ydpddk=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

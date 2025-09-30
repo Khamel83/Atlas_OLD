@@ -167,7 +167,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -232,7 +232,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -261,7 +261,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -303,8 +303,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -358,7 +358,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -372,20 +372,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -470,7 +470,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -484,7 +484,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -492,7 +492,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -500,7 +500,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -508,10 +508,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -525,7 +525,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -602,7 +602,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -610,7 +610,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -618,7 +618,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -626,10 +626,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -643,7 +643,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -676,7 +676,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -691,7 +691,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Apple on Your Eyes</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Can staring at an iPad hurt your vision?</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -848,7 +848,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="21"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-0@published"
-  
+
 ><strong><em>Also in Slate, Michael Agger takes a close look at <a data-linktype="Internal" href="https://www.slate.com/id/2249434/">Apple’s guided iPad tours</a>, and Magnum Photos fondly remembers <a scrollbars='true' status='true' resizable='true' href='http://todayspictures.slate.com/20100405/' linktype='External'>reading on paper</a>.</em></strong></p>
 
 <figure
@@ -868,14 +868,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="109"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-2@published"
-  
+
 > Whether Apple’s new tablet computer <a data-linktype="External" href="http://www.wired.com/magazine/2010/03/ff_tablet_levy">marks a revolution</a> <a data-linktype="External" href="http://www.newsweek.com/id/235565">in personal computing</a> or <a data-linktype="External" href="http://www.crunchgear.com/2010/01/27/the-ipad-our-take/">misses that mark entirely</a>, one thing is clear: Whoever buys the iPad, which lands on April 3, will spend more time than ever in front of a screen. The rest of us aren’t far behind. Smaller and faster microchips continue to consolidate the movie theater, the television, and the book onto a single viewing plane, and one that’s getting progressively closer to our eyes. As our viewing technology evolves—from the desktop to the laptop, the smartphone, and now the tablet—we’re being sucked ever closer, and for increasing periods of time, to the flickering glow of our screens.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="139"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-3@published"
-  
+
 >Manufacturers, in response, have tried to make our intimate relationships with their devices less physically demanding. In the realm of electronic reading, the iPad will compete with <a data-linktype="External" href="http://www.amazon.com/gp/product/B0015T963C?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0015T963C">Amazon’s Kindle</a>, Barnes & Noble’s Nook, and the Sony Reader—each of which displays text in <a data-linktype="External" href="http://en.wikipedia.org/wiki/E_Ink">E Ink</a>, a technology that mimics certain aspects of the printed page. Those companies argue that E Ink makes reading more ergonomic than it would be on self-illuminated screens like the iPad or your personal computer. They boast of having displays that “<a data-linktype="External" href="http://www.barnesandnoble.com/nook/features/">go easy on your eyes</a>,” “<a data-linktype="External" href="http://www.amazon.com/gp/product/B0015T963C?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0015T963C">with the same appearance and readability</a>” of regular paper. There’s no doubt that a long session of computer-based reading can leave your eyes irritated and your brain woolly. But are self-illuminated screens really to blame? And will long days and nights curled up with the iPad only make things worse?</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -954,14 +954,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="114"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-4@published"
-  
+
 >Let’s tackle the gravest concern: that reading off a computer might give us something worse than tired eyes. For years, doctors have wondered if monitors might cause permanent vision damage. It’s a <a data-linktype="External" href="http://www.visiontherapy.net/articles/myopia.html#1">tempting</a> <a data-linktype="External" href="http://www.visiontherapy.net/articles/myopia.html#1">charge</a>. Consider that the prevalence of myopia has <a data-linktype="External" href="http://archopht.ama-assn.org/cgi/content/short/127/12/1632">risen by two-thirds</a> in the United States since the 1970s and that the shocking spread of nearsightedness coincides almost exactly with the perfusion of computers in our workplaces and homes. Several studies from the 1980s and early ‘90s found specific <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/1787950">correlations</a> between myopia and <a data-linktype="External" href="http://trove.nla.gov.au/work/16563026">computer use</a> or <a data-linktype="External" href="http://docs.google.com/viewer?a=v&q=cache:C3d5RlnV-aYJ:smj.sma.org.sg/2804/2804smj3.pdf+myopia+in+ten+year+old+children+SL+Ling&hl=en&gl=us&pid=bl&srcid=ADGEESgDnxnV5HXqMTxvKa5F_bPL_1UvbeLDdCKEmrdOcfpi9H1Injwz50Sr7wJcvzWSkI61zQZMfcIyE7Fkch_I8pkQk-v-OHtPt_C">sitting close to the television</a>. There’s also evidence from extremely late adopters: Myopia among Alaskan Inuits, for instance, <a data-linktype="External" href="http://www.visiontherapy.net/articles/myopia.html#2">reportedly skyrocketed</a> after they were introduced to television.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="107"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-5@published"
-  
+
 >The most recent and rigorous research, however, has refuted the early studies: Screens don’t cause myopia. A <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/8888885">1996 review</a> concluded that “there is no compelling evidence” of computer use producing or aggravating myopia any more than other forms of “nearwork”—like reading, data entry, and embroidery. So working in front of a monitor could make you shortsighted, but so might staring at an old-fashioned book. To figure out how any form of reading might affect the eyes, doctors needed to track subjects over several years and compare their rates of myopia to the number of hours they spent reading, watching TV, using the computer, or playing video games.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1004,7 +1004,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="138"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-6@published"
-  
+
 >Researchers in <a data-linktype="External" href="http://www.iovs.org/cgi/content/abstract/48/8/3524">one study</a>, published in 2007, followed 514 non-myopic California third-graders for five years. By eighth grade, just over 20 percent of the children had become nearsighted. The most important factor distinguishing those children from others was genetic: Children were five times as likely to develop myopia if they had two myopic parents instead of none, and twice as likely if just one parent was nearsighted. The amount of time they spent doing “nearwork” was irrelevant. Those findings largely confirm a <a data-linktype="External" href="http://www.iovs.org/cgi/content/abstract/47/5/1839">similar study</a>, published in 2006, of nearly 1,000 Singaporean children. In that case, children who developed myopia read just as many books as the others. Though genetics were less powerful in the Singapore study, parents’ eyesight still predicted whether a child would develop myopia better than any other factor. (Among adults, the <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2760254/">story</a> is the same.)</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1029,7 +1029,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-7@published"
-  
+
 >But the root causes of myopia are still a mystery, and some researchers haven’t let go of the idea that reading—on a printed page or a computer monitor—can damage your vision. Most prominently, <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/10726783">Norwegian ophthalmologists found</a> myopia was more likely to develop among undergraduates who spent the most time studying. Even so, they found no link between television or computer use and myopia. And a limitation of almost all these myopia studies is their heavy reliance on surveys, rather than direct observation, to measure time spent reading or sitting at the keyboard. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1090,7 +1090,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="160"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-8@published"
-  
+
 >There’s plenty of evidence, however, that books, computers, and televisions can give us what ophthalmologists call “transient myopia”—that bleary-eyed, slow-to-focus feeling you get after a long stretch of reading. To focus on anything close, our eyeballs rotate toward each other, so that their sight lines converge at the point of interest. Then, a ring of muscle behind each iris contracts, allowing each lens to bulge into a more spherical shape. In their resting state, our eyes tend to focus about 2 feet ahead of us and cross paths about 2 feet farther, though those distances can vary greatly. Just an hour of reading (from a page or a screen) at 20 centimeters’ distance <a data-linktype="External" href="http://www.iovs.org/cgi/content/abstract/28/4/743">shifts these resting states several inches closer</a> to our nose, causing a temporary lack of focus on distant objects. Transient myopia won’t cause permanent nearsightedness, but it’s a major inconvenience—and not one to be taken lightly, given how much time we spend reading and staring at screens.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1115,7 +1115,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="34"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-9@published"
-  
+
 >We’ve been observing these general effects for centuries. In his 1713 magnum opus, <a data-linktype="External" href="http://ajph.aphapublications.org/cgi/content/full/91/9/1380"><em>De Morbis Artificum Diatriba</em></a> [Diseases of Workers], Italian physician Bernardino Ramazzini described reading-induced transient myopia long before it had a name:</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1140,7 +1140,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="59"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-10@published"
-  
+
 ><blockquote>Those who remain seated and work with their hands are threatened with another misfortune from having to keep the eyes continually fixed on those black letters, for they gradually contract weakness of vision, and when their eyes are not strong to begin with they are afflicted with dimness of sight, suffusions (bloodshot eyes) and other diseases of the eyes.</blockquote></p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1165,7 +1165,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="80"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-11@published"
-  
+
 >The advent of computer screens has put a modern twist on these historical ailments. Ophthalmologists have coined the term “<a data-linktype="External" href="http://www.aoa.org/x5374.xml">computer vision syndrome</a>” to describe an amalgam of symptoms that most often includes eyestrain, headache, dry eyes, and blurry vision, as well the neck and back pain that result from poor posture. Somewhere <a data-linktype="External" href="http://dx.doi.org/10.1016/j.chb.2007.09.004">between 14 percent and 23 percent</a> of computer users in the United States may experience computer vision syndrome, though up to 90 percent complain of its constituent symptoms. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1190,7 +1190,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="111"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-12@published"
-  
+
 >Screens’ <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/15850814">greatest contribution</a> to visual discomfort may be rooted in how terribly engaging they are. During conversation, we blink about 15 times per minute. Blinking wipes away debris and refreshes the eye’s surface with new tears to keep our eyes moist and lubricated for smooth functioning. While reading (either on <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/9399231">paper</a> or a <a data-linktype="External" href="http://www.springerlink.com/content/6t2k5ca3u528jptx/">screen</a>), our involuntary <a data-linktype="External" href="http://www.springerlink.com/content/2k7042kplu2bv4v4/">blink rate slows profoundly</a>, to typically fewer than six blinks each minute, leading to dryness and irritation. Desktop displays can make this even worse: When you’re looking up at a monitor (as opposed to down in your hands or your lap), your eyes tend to be open wider, with more surface area exposed to evaporation.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1233,7 +1233,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="76"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-13@published"
-  
+
 >Researchers also <a data-linktype="External" href="http://dx.doi.org/10.1016/j.chb.2007.09.004">blame lighting conditions</a> for much of computer vision syndrome. Computer screens are typically higher-contrast, brighter, and reflect glare more than paper. Self-illumination often results in computer screens shining much brighter than their surroundings. As we shift from the screen to the environment and back again, our pupils contract, dilate, and contract again—a potential source of eyestrain, headaches, and fatigue. The great contrasts that computers can produce in a single window can cause similar problems. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1258,7 +1258,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="102"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-14@published"
-  
+
 >There’s plenty we can do. Ophthalmologists now recommend that a screen be less than three times brighter or dimmer than its surroundings, and 5 degrees to 40 degrees below your horizontal line of sight—the <a data-linktype="External" href="http://www.ingentaconnect.com/content/hfes/hfproc/2005/00000049/00000008/art00002">sweet spot for optimizing</a> both eye and neck comfort. To stimulate tear production, try daily eyelid massages. If you have some spare change, prescription <a data-linktype="External" href="http://www.aoa.org/x5381.xml">computer glasses</a> <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/12365690">could help</a>. Simple fixes, like converting text to the <a data-linktype="External" href="http://www.ncbi.nlm.nih.gov/pubmed/16553067">more legible Arial and Verdana</a> typefaces, may reduce eyestrain. It’s also a good idea to follow the 20/20/20 rule—look at something 20 feet away for 20 seconds every 20 minutes of computer use.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1283,14 +1283,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="120"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-15@published"
-  
+
 >As screens come closer to approximating (and in some instances, exceeding) the readability of the printed page, our eyes may strain less to overcome computer-specific annoyances such as glare, high contrast, and the like. The success of the iPad—and any other device that asks us to spend ever-longer stretches glued to a screen—will depend in part on how well it minimizes eyestrain. To this end, Steve Jobs appears to be listening: The iPad and newer laptops automatically adjust their brightness to match ambient lighting. Yet photons are photons and nearwork is nearwork. No matter the medium, staring in front of our noses for hours on end will never feel great. But let’s rest somewhat easier knowing it won’t blind us.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="11"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-16@published"
-  
+
 ><em>Become a fan of </em> <a data-linktype="External" href="http://www.facebook.com/Slate"><em><strong>Slate</strong> on Facebook</em></a><em>. Follow us on </em> <a data-linktype="External" href="http://www.twitter.com/Slate"><em>Twitter</em></a><em>.</em></p>
 
 <div
@@ -1355,7 +1355,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1390,7 +1390,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="technology/science"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-3072a45b257419aad5d33e230e212f13-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1441,7 +1441,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1466,7 +1466,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1976,7 +1976,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

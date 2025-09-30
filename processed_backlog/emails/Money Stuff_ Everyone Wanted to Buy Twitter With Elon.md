@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A good starting point for thinking about Elon Musk’s decision to buy Twitter Inc., back in April, is that it did not involve any spreadsheet
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Elon texts
-    
-  
+
+
 
 A good starting point for thinking about Elon Musk’s decision to buy Twitter Inc., back in April, is that it did not involve any spreadsheets. Like, when Musk decided to offer $54.20 per share to buy Twitter, that was not based on any detailed financial modeling; Musk’s offers to buy companies are generally pretty whimsical, and 420 is a weed joke. Eventually, as the deal started to go bad,   Musk demanded that Twitter send him its bankers’ working financial model, which is pretty unusual in big public mergers and acquisitions, and suggests that Musk might not have had a working model of his own.
   [1]
@@ -126,63 +126,63 @@ Look if you called up an investment bank they could put together a slide deck fo
 Like I said, these texts came out in preparation for a trial this month about whether Musk will still have to buy Twitter. Musk’s basic argument in that trial is that he was misled about what he was buying:   Originally he claimed that Twitter was lying to him about how many spam bots it has, but there was never any evidence for that — it turns out that even Musk’s own data scientists basically agreed with Twitter’s numbers — and now he has moved on to more baroque theories of how   Twitter is defrauding the public with bad information-security practices. One obvious conclusion that you can draw from these texts is that Musk did not care about any of these things before he signed the deal; he was not having detailed text chats with his advisers about how he could optimize growth of monetizable daily active users. (Perhaps he was keeping those conversations on email?) 
 But all of these texts happened against a background of Twitter being a public company; broadly speaking, Musk and Ellison and Bankman-Friend and Calacanis and everyone else would have been more or less justified in assuming “well, Twitter’s public filings are accurate, and its stock price reflects what the market thinks it is worth, and if Elon Musk’s magic is worth a 50% premium then buying it at a 25% premium is a good deal.” You don’t need a detailed financial model; the efficient markets hypothesis tells you that the current price of the stock is the best estimate of its fundamental value, as long as it is not successfully concealing a huge fraud. Musk’s argument is that it was concealing a huge fraud, and that its public filings were full of lies about bots, or about information security, or whatever.   This seems like a stretch to me, but if he’s right that the filings are misleading then it is not really a defense to say “but you didn’t read them.” Of course he didn’t read them! He was relying on everyone else to read them and come up with a fair price; that’s the efficient markets hypothesis. And then he was going to pay more than that fair price and still make money; that’s the Elon Markets Hypothesis.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 
 An oversimplified but useful description of a credit default swap is that it is a bet that some company will default on its debt. We make this bet for some period of time, say five years, and I pay you $X per year, which is called the “premium” or more often the “CDS spread.” And then if the company defaults during the five years, you pay me back $100. And if it doesn’t, you pay me nothing and keep the spread.
 This is wrong in lots of important ways that I am simply not going to discuss here, and I will ignore your emails pointing them out, but it is roughly right.
@@ -205,20 +205,20 @@ And the Wall Street Journal  notes:
 The beleaguered lender’s share price fell around 8% in early trading on Monday. The apparent trigger for the latest selloff was nothing more than its bankers calling customers and investors this weekend to reassure them that all is in hand despite a jump in its credit-default swaps on Friday.
 Yeah, no, high on the list of calls that you never want to get is “hi, this is your bank, we just wanted to tell you that everything is fine here, how are you?”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Kim Kardashian
-    
-  
+
+
 
 I suppose there are some people — there might be one person — maybe there isn’t, I don’t know — whose social media consumption is mainly:
 	Kim Kardashian’s Instagram, and	US Securities and Exchange Commission Chair Gary Gensler’s YouTube channel.
@@ -233,11 +233,11 @@ The SEC’s order finds that Kardashian failed to disclose that she was paid $25
 
 I would have been stronger there? I do not give investing advice around here, but a reasonable rule of thumb is “when celebrities or influencers endorse investment opportunities, especially crypto asset securities, that definitely means that those investment products are wrong for all investors”? Like, who was EthereumMax right for? Also, when celebrities and influencers endorse a crypto thing you’ve never heard of, it definitely means they got paid to do it? Honestly if you get an Instagram post from an influencer promoting a crypto thing and not disclosing that she was paid for it, the investment opportunity is to send a whistleblower letter to the SEC. Maybe they’ll pay you for pointing it out. 
 
-  
-    
+
+
       McKinsey
-    
-  
+
+
 
 I suppose that if you work at McKinsey & Co. and you go to do on-campus recruiting, you will meet a lot of idealistic students, and you will talk to them about McKinsey’s commitment to pro bono work and the value of its consulting on behalf of, you know, governments and nonprofits and nice companies. And then some of them will say “well I keep reading  all these  stories about how you use the power of consulting for  evil,” and then I am sure you have some sort of canned response to assuage them and redirect them to the things you want to talk about. (As a former lawyer, I feel like I have a sense of what the canned responses sound like — “the most important thing is client loyalty,” “everyone is entitled to consultants,” “we help the evil clients be 17% less evil,” etc.)
 But do you ever meet with a college senior who is like “I read about your work  advising opioid makers to pay pharmacies bounties when patients overdosed, and that is the sort of innovative outside-the-box thinking that I want to be involved in”? Do you ever get recruits who self-select into the Evil Department? Having worked at (and done on-campus recruiting for) an investment bank, I’m gonna bet the answer is yes. What do you do with those recruits? Do your eyes light up? Are you like “yes, you we can put to work”? Or are you like “uh look we regretfully do some evil stuff, sure, but we’re gonna get in trouble if we start hiring people who are too excited about it”? I don’t know.
@@ -248,15 +248,15 @@ In a slide deck prepared for Altria, formerly Philip Morris, McKinsey offered id
 
 Imagine starting smoking, or smoking more, because of an app. “Just need to smoke one more pack to win a small prize in my smartphone app.” I feel like if Altria hired me for advice on how to keep people smoking cigarettes I would  say things like “what you do is you put nicotine in the cigarettes, nicotine is highly addictive and then people won’t be able to stop smoking.” I guess that’s the advice you’d get from the people who are too enthusiastic about joining the Evil Department? But then what were the app people thinking?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Liz Truss  backs down on 45% tax rate cut in major U-turn. Demand for   Aluminum Slows in Another Sign of Troubled Economy. Boaz Weinstein Reveals the Secret Trade That Helped Make Him Famous. A broken  insurance market threatens Florida and its star governor. Celsius Network founder withdrew $10mn  ahead of bankruptcy. London Gold Dealer   Runs Out of Bullion as Truss Budget Shocks. Texas’   ESG Attack Sweeps Up Some Funds That Aren’t Really ESG. Employees Who Shift to 4-Day Week Devote New Free Time to   Sleep. Australians petition to put  Steve Irwin on new currency, replacing Queen Elizabeth. Backing Lindt, Swiss Court Orders Lidl to ‘Destroy’ Its  Chocolate Bunnies. Chipotle’s ‘  Proof of Steak’ Crypto Promo Sells Out Early. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I kid: The point of that request was to be annoying, not to get a working model. Surely Musk’s bankers at Morgan Stanley had their own financial models that they could have shared with him (and probably tried to!), not least because they committed for a lot of debt financing, and *banks* don't do that without a financial model.
 
 
@@ -269,114 +269,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Bloomberg’s CDSW page will give you a more standard-model calculation of implied probability of default from CDS prices, though you will need to put in a recovery assumption to have this probability be meaningful. (And it will be the implied probability over the CDS term, not per year.)
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

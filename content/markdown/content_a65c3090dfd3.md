@@ -67,7 +67,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var __dataLayer = {"page":{"content_publish_date":"07\/07\/2015","content_publish_time":"09:36","content_last_update_date":"07\/07\/2015","content_last_update_time":"12:52","contentcategory":"","section_1":"","section_2":"","story_title":"NBA Free-Agency Winners and Losers","story_id":281106,"author":"","page_name":"the-triangle","content_type":"the-triangle","app_version":"1.0.4","device_type":"Desktop","prev_page":false},"site":{"baseDomain":"grantland.com","otguid":"0191cec3-baf4-761d-81fa-034310bf96b3","nsl":2},"detailsEndpoint":"https:\/\/grantland.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/"};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <meta name='robots' content='max-image-preview:large' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
@@ -122,7 +122,7 @@ var countryCookie = getCountryCookie();
 		<body class="wp-singular grantland_sports-template-default single single-grantland_sports postid-281106 wp-theme-espn-grantland ad-pre-head slug-nba-free-agency-winners-and-losers"> <!-- id="home" -->
 			<div class="ad-unit pre-head">
 		<div id="ad-Banner" class="ad-banner" data-defer="none"></div>	</div>
-	
+
 <div id="overlayad" class="ad-unit ad-slot-overlay">
 	<div id="ad-Overlay" class="ad-overlay" data-defer="none"></div></div>
 <div id="wallpaperad" class="ad-unit ad-slot-wallpaper">
@@ -171,7 +171,7 @@ var countryCookie = getCountryCookie();
 			<div class="page-lede">
 			<h1><a href="https://grantland.com/the-triangle/"><img src="https://grantland.com/wp-content/themes/espn-grantland/img/the-triangle-logo.png" alt=""></a></h1>
 		</div>
-		
+
 </nav><!--end .nav -->
 
 <div role="main">
@@ -187,7 +187,7 @@ var countryCookie = getCountryCookie();
 <img src="https://grantland.com/wp-content/uploads/2015/07/lamarcus-aldridge-tri1-e1436238559384.jpg?w=2048" srcset="https://grantland.com/wp-content/uploads/2015/07/lamarcus-aldridge-tri1-e1436238559384.jpg?w=2048 2048w,https://grantland.com/wp-content/uploads/2015/07/lamarcus-aldridge-tri1-e1436238559384.jpg?w=1024 1024w,https://grantland.com/wp-content/uploads/2015/07/lamarcus-aldridge-tri1-e1436238559384.jpg?w=750 750w,https://grantland.com/wp-content/uploads/2015/07/lamarcus-aldridge-tri1-e1436238559384.jpg?w=450 450w" sizes="(min-width: 54em) 674px, 100vw" alt="" class="featured-image" />
 
 </span><!-- .feature -->
-									
+
 							<div class="pull">
 								<p class="byline category"><a href="https://grantland.com/tags/2015-nba-free-agency/">2015 NBA Free Agency</a></p>
 								<small class="byline">
@@ -367,7 +367,7 @@ var countryCookie = getCountryCookie();
 											<li>
 							<h3><a href="https://grantland.com/the-triangle/nhl-grab-bag-lets-get-spooky/" name="&lpos=mod_more&lid=The Triangle5" >NHL Grab Bag: Let’s Get Spooky </a> <span class="byline"><time>October 30, 2015</time></span></h3>
 						</li>
-					
+
 				</ul>
 				<p class="more"><a href="https://grantland.com/the-triangle/">See all The Triangle</a></p>
 			</section>
@@ -378,7 +378,7 @@ var countryCookie = getCountryCookie();
 					<!--end layout-main-->
 
 <aside class="layout-sidebar" id="layout-sidebar">
-						
+
 		<div class="articles-seek">
 			<div class="contain">
 
@@ -437,7 +437,7 @@ var countryCookie = getCountryCookie();
 		</section>
 					<div class="ad-unit boombox">
 				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
-		
+
 					</aside>
 				</div>
 				<!--end layout-two-col-->
@@ -468,7 +468,7 @@ var countryCookie = getCountryCookie();
 			<a class="" href="https://disneytermsofuse.com/english/">Terms of Use</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/">Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/">Your US State Privacy Rights</a> | <a class="" href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children&#039;s Online Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/">Interest-Based Ads</a> | <a class="" href="http://www.nielsen.com/digitalprivacy">About Nielsen Measurement</a> | <a class="ot-cmp-link" href="https://privacy.thewaltdisneycompany.com/en/dnssmpi/">Do Not Sell My Personal Information</a> | <a class="" href="https://www.espn.com/espn/news/story?page=contact-index">Contact Us</a> | <a class="" href="https://disneyadsales.com/">Disney Ad Sales Site</a>		</p>
 		<p>
 			&copy; 2025 ESPN Enterprises, Inc. All rights reserved.		</p>
-		
+
 		<p>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=grantland.com" rel="generator nofollow" class="powered-by-wpcom">WordPress VIP</a></p>
 	</div>
 </footer>

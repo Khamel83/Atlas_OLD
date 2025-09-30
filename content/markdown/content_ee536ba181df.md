@@ -128,14 +128,14 @@ var SF_LDATA = {"ajax_url":"http:\/\/web.archive.org\/web\/20230925090856\/https
 <script type="text/javascript" src="http://web.archive.org/web/20230925090856js_/https://idahocapitalsun.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.4" id="search-filter-plugin-chosen-js"></script>
 <script type="text/javascript" src="http://web.archive.org/web/20230925090856js_/https://idahocapitalsun.com/wp-content/themes/genesis-child/js/main.js?ver=5.8.7" id="child-theme-js-js"></script>
 <link rel="https://api.w.org/" href="https://idahocapitalsun.com/wp-json/"/><link rel="alternate" type="application/json" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/wp-json/wp/v2/posts/10561"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://idahocapitalsun.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://idahocapitalsun.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://idahocapitalsun.com/wp-includes/wlwmanifest.xml"/>
 <meta name="generator" content="WordPress 5.8.7"/>
 <link rel="shortlink" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/?p=10561"/>
 <link rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidahocapitalsun.com%2F2023%2F02%2F16%2Facross-the-country-a-big-backlash-to-new-renewables-is-mounting%2F"/>
 <link rel="alternate" type="text/xml+oembed" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidahocapitalsun.com%2F2023%2F02%2F16%2Facross-the-country-a-big-backlash-to-new-renewables-is-mounting%2F&amp;format=xml"/>
 <link rel="preconnect" href="http://web.archive.org/web/20230925090856/https://fonts.gstatic.com/">
     <link href="http://web.archive.org/web/20230925090856cs_/https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Barlow:wght@400;500;600;700;800&amp;family=Montserrat:wght@700;800&amp;family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;display=swap" rel="stylesheet">
-      
+
         <script src="http://web.archive.org/web/20230925090856js_/https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
         </script>
 <!-- Google Tag Manager -->
@@ -174,7 +174,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <input class="form-control mr-sm-2 headerSearchInput px-2 searchShow" type="text" class="search-field" name="s" placeholder="Search" value="" style="display:none">
                 <button value="search" class="headerSearchBtn searchShow" type="submit" style="display:none"><i class="fas fa-search"></i></button>
                 <i class="fas fa-search searchHide" id="searchIcon" onclick="openSearch()"></i>
-            </form> 
+            </form>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -205,11 +205,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <a class="nav-link" href="/web/20230925090856/https://idahocapitalsun.com/donate">DONATE</a>
                     </li>
                 </ul>
-                
+
 <form id="searchform" role="search" method="get" action="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/" class="form-inline my-2 my-lg-0 navSearch">
 	<span>
 		<a href="http://web.archive.org/web/20230925090856/https://twitter.com/idahocapitalsun" target="_blank"><i class="fab fa-twitter"></i></a>
-		<a href="http://web.archive.org/web/20230925090856/https://www.facebook.com/idahocapitalsun" target="_blank"><i class="fab fa-facebook-f"></i></a>     
+		<a href="http://web.archive.org/web/20230925090856/https://www.facebook.com/idahocapitalsun" target="_blank"><i class="fab fa-facebook-f"></i></a>
 	</span>
 	<input class="form-control mr-sm-2 headerSearchInput px-2 searchShow" type="text" class="search-field" name="s" placeholder="Search" value="" style="display:none">
 	<button value="search" class="headerSearchBtn searchShow" type="submit" style="display:none"><i class="fas fa-search"></i></button>
@@ -251,10 +251,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
                     <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
                         <div class="row">
-                             
+
                                 <h5 id="dataTime" style="display:none;">4:15</h5>
                                 <h5 id="dataType" style="display:none;">News Story</h5>
-                                
+
                                 <div class="col-12">
                                     <ul id="dataCats" class="singleCategoryUL" style="list-style: none;">
                                     <li><a class="singleCategory" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/category/environment">Environment</a></li><li><a class="singleCategory" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/category/government-politics">Government + Politics</a></li><li><a class="singleCategory" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/category/living">Living</a></li>                                    </ul>
@@ -265,7 +265,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                     <h6 class="singleBylineContainer"><span class="singleByline">By: </span><span class="singleBylineAuthor"><a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/robertzullo/" title="Posts by Robert Zullo" class="author url fn" rel="author">Robert Zullo</a> </span><span class="singleByline">- February 16, 2023 </span><span class="singleByline singleBylineSpacer">4:15 am</span></h6>
                                 </div>
-                                
+
                                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 singleSocialShares">
                                     <span>
                                         <a target="_blank" href="http://web.archive.org/web/20230925090856/https://twitter.com/intent/tweet?text=Across+the+country%2C+a+big+backlash+to+new+renewables+is+mounting&amp;url=https%3A%2F%2Fidahocapitalsun.com%2F2023%2F02%2F16%2Facross-the-country-a-big-backlash-to-new-renewables-is-mounting%2F&amp;via=idahocapitalsun">
@@ -273,28 +273,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </a>
                                         <a target="_blank" href="http://web.archive.org/web/20230925090856/https://www.linkedin.com/shareArticle?mini=true&amp;url=https://idahocapitalsun.com/2023/02/16/across-the-country-a-big-backlash-to-new-renewables-is-mounting/&amp;title=Across+the+country%2C+a+big+backlash+to+new+renewables+is+mounting">
                                             <i class="fab fa-linkedin-in"></i>
-                                        </a> 
+                                        </a>
                                         <a href="http://web.archive.org/web/20230925090856/https://www.facebook.com/sharer.php?u=https%3A%2F%2Fidahocapitalsun.com%2F2023%2F02%2F16%2Facross-the-country-a-big-backlash-to-new-renewables-is-mounting%2F">
-                                            <i class="fab fa-facebook-f"></i>   
-                                        </a>  
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
                                         <a target="_blank" href="/web/20230925090856/https://idahocapitalsun.com/cdn-cgi/l/email-protection#8ab5f9ffe8e0efe9feb7cbe9f8e5f9f9a1fee2efa1e9e5ffe4fef8f3afb8c9a1eba1e8e3eda1e8ebe9e1e6ebf9e2a1fee5a1e4effda1f8efe4effdebe8e6eff9a1e3f9a1e7e5ffe4fee3e4edacebe7fab1e8e5eef3b7e2fefefaf9b0a5a5e3eeebe2e5e9ebfae3feebe6f9ffe4a4e9e5e7a5b8bab8b9a5bab8a5bbbca5ebe9f8e5f9f9a7fee2efa7e9e5ffe4fef8f3a7eba7e8e3eda7e8ebe9e1e6ebf9e2a7fee5a7e4effda7f8efe4effdebe8e6eff9a7e3f9a7e7e5ffe4fee3e4eda5">
                                             <i class="fas fa-envelope"></i>
-                                        </a> 
+                                        </a>
                                         <a onclick="copyLinkShare('http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/2023/02/16/across-the-country-a-big-backlash-to-new-renewables-is-mounting/')">
-                                            <i class="fas fa-link"></i>   
-                                            
-                                        </a>  
+                                            <i class="fas fa-link"></i>
+
+                                        </a>
                                         <a onclick="printArticle()">
-                                            <i class="fas fa-print"></i>  
-                                        </a>                               
+                                            <i class="fas fa-print"></i>
+                                        </a>
                                     </span>
                                 </div>
                             </div>
                             <div class="row singleFeatImageRow">
                                 <div class="col-12 px-0">
                                                                             <figure class="singleFeaturedImage"> <a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/2023/02/16/across-the-country-a-big-backlash-to-new-renewables-is-mounting/"><img width="1024" height="735" src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-1024x735.jpg" class="attachment-large size-large wp-post-image" alt="Wind turbines in Hardin County, Ohio," loading="lazy" srcset="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-1024x735.jpg 1024w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-300x215.jpg 300w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-150x108.jpg 150w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-768x552.jpg 768w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-1536x1103.jpg 1536w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/02/IMG_7032-2048x1471.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"/></a> </figure>
-                                      
-                                    <p class="singleImageCaption"><i class="fas fa-camera"></i> Wind turbines in Hardin County, Ohio, on Feb. 3, 2023. (Robert Zullo/ States Newsroom)</p> 
+
+                                    <p class="singleImageCaption"><i class="fas fa-camera"></i> Wind turbines in Hardin County, Ohio, on Feb. 3, 2023. (Robert Zullo/ States Newsroom)</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -333,7 +333,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
     </a>
-	
+
 <p><span style="font-weight: 400;">“My guess is that we’re going to need a lot of renewables built on public lands further west, just because we’re seeing so much opposition growing up, especially sort of the middle of the country that’s already very dense on wind,” said Rich Powell, CEO of</span><a target="_blank" href="http://web.archive.org/web/20230925090856/https://clearpath.org/about-us/"><span style="font-weight: 400;"> Clear Path</span></a><span style="font-weight: 400;">, a nonprofit policy group working to curb carbon emissions, during a </span><a target="_blank" href="http://web.archive.org/web/20230925090856/https://acore-org.zoom.us/webinar/register/WN_Y7k2ZL1RQFKH0mgLYlC0Iw"><span style="font-weight: 400;">panel discussion</span></a><span style="font-weight: 400;"> on the state of the electric grid since the deadly 2021 winter storm Uri.</span></p>
 <p><strong>    <h4 class="editorialSubhed">Solar developments, wind turbines take up more space, bring more NIMBY complaints</h4>
 
@@ -354,7 +354,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</div>
 	</div>
-	
+
 <p><span style="font-weight: 400;">Though Zartman, the Republican former county commissioner from Ohio, acknowledged that some of the loudest pushback comes from conservatives, he said he sees a “mix” of motivation in opponents, including major resistance to changes to the skyline. (Some renewable projects even in </span><a target="_blank" href="http://web.archive.org/web/20230925090856/https://www.sierraclub.org/sierra/2021-4-fall/feature/nimby-threat-renewable-energy"><span style="font-weight: 400;">famously liberal areas</span></a><span style="font-weight: 400;"> have sparked major opposition).</span><b> </b></p>
 <p><span style="font-weight: 400;">“I haven’t seen anywhere on a deed that it tells you you have control over your horizon and your view,” he said. </span></p>
 <p><strong>    <h4 class="editorialSubhed">Renewable energy &#8216;does have downsides’</h4>
@@ -489,7 +489,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
     </a>
-	
+
 <p>“My guess is that we’re going to need a lot of renewables built on public lands further west, just because we’re seeing so much opposition growing up, especially sort of the middle of the country that’s already very dense on wind,” said Rich Powell, CEO of<a href="http://web.archive.org/web/20230925090856/https://clearpath.org/about-us/"> Clear Path</a>, a nonprofit policy group working to curb carbon emissions, during a <a href="http://web.archive.org/web/20230925090856/https://acore-org.zoom.us/webinar/register/WN_Y7k2ZL1RQFKH0mgLYlC0Iw">panel discussion</a> on the state of the electric grid since the deadly 2021 winter storm Uri.</p>
 <p><strong>    <h4>Solar developments, wind turbines take up more space, bring more NIMBY complaints</h4>
 
@@ -510,7 +510,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</div>
 	</div>
-	
+
 <p>Though Zartman, the Republican former county commissioner from Ohio, acknowledged that some of the loudest pushback comes from conservatives, he said he sees a “mix” of motivation in opponents, including major resistance to changes to the skyline. (Some renewable projects even in <a href="http://web.archive.org/web/20230925090856/https://www.sierraclub.org/sierra/2021-4-fall/feature/nimby-threat-renewable-energy">famously liberal areas</a> have sparked major opposition).<b> </b></p>
 <p>“I haven’t seen anywhere on a deed that it tells you you have control over your horizon and your view,” he said. </p>
 <p><strong>    <h4>Renewable energy &#8216;does have downsides’</h4>
@@ -628,15 +628,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="row singleBottomRow">
                         <div class="col-xxl-1 col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0"></div>
 
-<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12"> 
-                            <div class="row authorBoxRow"><div class="col-3"><div class="authorBoxAvatar"><img src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/09/zullo-300x300-1-150x150.jpeg" width="96" height="96" alt="Robert Zullo" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo"/></div></div><div class="col-9"><span class="authorBoxName"><a href="/web/20230925090856/https://idahocapitalsun.com/author/robertzullo"><h6>Robert Zullo</h6></a><a href="/web/20230925090856/https://idahocapitalsun.com/cdn-cgi/l/email-protection#bdcfc7c8d1d1d2fdcec9dcc9d8ced3d8cacecfd2d2d093ded2d0"><i class="fas fa-envelope"></i></a><a href="http://web.archive.org/web/20230925090856/https://twitter.com/rczullo"><i class="fab fa-twitter"></i></a></span><div class="authorBoxDescription"><p>Robert Zullo is a national energy reporter based in southern Illinois focusing on renewable power and the electric grid. Robert joined States Newsroom in 2018 as the founding editor of the Virginia Mercury. Before that, he spent 13 years as a reporter and editor at newspapers in Virginia, New Jersey, Pennsylvania and Louisiana. He has a bachelor's degree from the College of William and Mary in Williamsburg, Virginia. He grew up in Miami, Florida, and central New Jersey.</p></div><a class="authorBoxMore" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/robertzullo">MORE FROM AUTHOR</a></div></div> 
+<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12">
+                            <div class="row authorBoxRow"><div class="col-3"><div class="authorBoxAvatar"><img src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/09/zullo-300x300-1-150x150.jpeg" width="96" height="96" alt="Robert Zullo" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo"/></div></div><div class="col-9"><span class="authorBoxName"><a href="/web/20230925090856/https://idahocapitalsun.com/author/robertzullo"><h6>Robert Zullo</h6></a><a href="/web/20230925090856/https://idahocapitalsun.com/cdn-cgi/l/email-protection#bdcfc7c8d1d1d2fdcec9dcc9d8ced3d8cacecfd2d2d093ded2d0"><i class="fas fa-envelope"></i></a><a href="http://web.archive.org/web/20230925090856/https://twitter.com/rczullo"><i class="fab fa-twitter"></i></a></span><div class="authorBoxDescription"><p>Robert Zullo is a national energy reporter based in southern Illinois focusing on renewable power and the electric grid. Robert joined States Newsroom in 2018 as the founding editor of the Virginia Mercury. Before that, he spent 13 years as a reporter and editor at newspapers in Virginia, New Jersey, Pennsylvania and Louisiana. He has a bachelor's degree from the College of William and Mary in Williamsburg, Virginia. He grew up in Miami, Florida, and central New Jersey.</p></div><a class="authorBoxMore" href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/robertzullo">MORE FROM AUTHOR</a></div></div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-6 col-sm-12 col-12 relatedCol"> 
+                        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-6 col-sm-12 col-12 relatedCol">
                             <h4 class="relatedNewsTitle">Related News</h4>
                             <div class="crp_related  "><div class="row"><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/2023/02/06/new-u-s-house-natural-resources-chair-opposes-limits-on-fossil-fuel-development/" class="crp_link post-10221"><figure><img src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-300x200.jpg" class="crp_thumb crp_featured" alt="New U.S. House Natural Resources chair opposes limits on fossil fuel development" title="New U.S. House Natural Resources chair opposes limits on fossil fuel development" srcset="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-300x200.jpg 300w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-150x100.jpg 150w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-768x512.jpg 768w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c.jpg 799w" sizes="(max-width: 300px) 100vw, 300px" srcset="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-300x200.jpg 300w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-150x100.jpg 150w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c-768x512.jpg 768w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/45846495012_8e2acb141c_c.jpg 799w"/></figure><span class="crp_title">New U.S. House Natural Resources chair opposes limits on&hellip;</span></a><span class="crp_author">  by <a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/jacob-fischler/">Jacob Fischler</a></span> <span class="crp_date"> February 6, 2023</span> </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/2023/01/09/read-idaho-gov-brad-littles-2023-state-of-the-state-address/" class="crp_link post-9825"><figure><img src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-300x200.jpg" class="crp_thumb crp_featured" alt="Read Idaho Gov. Brad Little's 2023 State of the State Address" title="Read Idaho Gov. Brad Little's 2023 State of the State Address" srcset="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-300x200.jpg 300w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-1024x683.jpg 1024w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-150x100.jpg 150w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-768x512.jpg 768w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-1536x1024.jpg 1536w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2023/01/230109r1-1841-med-2048x1365.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px"/></figure><span class="crp_title">Read Idaho Gov. Brad Little's 2023 State of the State&hellip;</span></a><span class="crp_author">  by <a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/christina-lords/">Christina Lords</a></span> <span class="crp_date"> January 9, 2023</span> </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/2022/12/13/idaho-river-sports-center-of-the-universe-for-river-boaters-celebrates-end-of-an-era/" class="crp_link post-9522"><figure><img src="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-300x187.jpg" class="crp_thumb crp_featured" alt="Idaho River Sports – center of the universe for river boaters – celebrates end of an era" title="Idaho River Sports – center of the universe for river boaters – celebrates end of an era" srcset="http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-300x187.jpg 300w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-1024x640.jpg 1024w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-150x94.jpg 150w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-768x480.jpg 768w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-1536x959.jpg 1536w, http://web.archive.org/web/20230925090856im_/https://idahocapitalsun.com/wp-content/uploads/2022/12/Stan-Kolby-Jo-Cassin-on-Park-Center-Pond-by-Rob-Lesser-2048x1279.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px"/></figure><span class="crp_title">Idaho River Sports – center of the universe for river&hellip;</span></a><span class="crp_author">  by <a href="http://web.archive.org/web/20230925090856/https://idahocapitalsun.com/author/steve-stuebner/">Steve Stuebner</a></span> <span class="crp_date"> December 13, 2022</span> </div></div><div class="crp_clear"></div></div>                        </div>
                         <div class="col-xxl-1 col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0"></div>
                     </div>
-                </div>    
+                </div>
             </div>
         </main><!-- .site-main -->
     </div><!-- .content-area -->

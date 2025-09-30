@@ -5,7 +5,7 @@
 
 Arts has moved! You can find [new stories here](https://slate.com/culture).
 
-![Daryl Morey, general manager of the Houston Rockets speaks during a press conference announcing the signing of Jeremy Lin at Toyota Center on July 19, 2012 in Houston, Texas.  ](/content/dam/slate/articles/arts/books/2016/12/161202_BOOKS_daryl-morey.jpg.CROP.promo-xlarge2.jpg "161202_BOOKS_daryl-morey") 
+![Daryl Morey, general manager of the Houston Rockets speaks during a press conference announcing the signing of Jeremy Lin at Toyota Center on July 19, 2012 in Houston, Texas.  ](/content/dam/slate/articles/arts/books/2016/12/161202_BOOKS_daryl-morey.jpg.CROP.promo-xlarge2.jpg "161202_BOOKS_daryl-morey")
 
 Daryl Morey, general manager of the Houston Rockets, announcing the signing of Jeremy Lin at Toyota Center on July 19, 2012, in Houston.
 

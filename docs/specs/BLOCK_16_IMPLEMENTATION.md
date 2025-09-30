@@ -160,12 +160,12 @@ Block 16 extends Atlas with comprehensive email newsletter integration capabilit
 **Description**: Set up Gmail API authentication and credentials
 **Estimated Time**: 30 minutes
 **Dependencies**: Manual setup complete (see docs/GMAIL_SETUP_GUIDE.md)
-**Pre-requisites**: 
+**Pre-requisites**:
 - credentials.json in email_download_historical/
 - GMAIL_ENABLED=true in .env
 - "Newsletter" label exists in Gmail
 
-### Task: email-download-test  
+### Task: email-download-test
 **Command**: `python -c "from helpers.email_ingestor import test_email_download; test_email_download()"`
 **Description**: Test email download functionality with small batch
 **Estimated Time**: 15 minutes
@@ -200,7 +200,7 @@ Block 16 extends Atlas with comprehensive email newsletter integration capabilit
 - [ ] **Push to GitHub**: `git push origin feat/block-16-email-integration`
 - [ ] **Update progress**: Document completed email features in commits
 
-### Documentation Updates  
+### Documentation Updates
 - [ ] **Update CLAUDE.md**: Add email integration capabilities to system status
 - [ ] **Code documentation**: Document Gmail API integration and processing logic
 - [ ] **API documentation**: Update docs for new email processing endpoints

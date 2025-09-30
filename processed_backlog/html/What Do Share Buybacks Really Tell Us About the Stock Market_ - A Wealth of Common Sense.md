@@ -51,8 +51,8 @@ The best thing most investors can learn from this data is the fact that it’s g
 
 Everyone knows this but that doesn’t make it easier to put it into practice.
 
-Sources:  
-[Buybacks at $46 Billion Dwarf Everything in U.S. Market (Bloomberg)](http://www.bloomberg.com/news/articles/2015-03-04/buybacks-at-46-billion-a-month-dwarf-everything-in-u-s-market)  
+Sources:
+[Buybacks at $46 Billion Dwarf Everything in U.S. Market (Bloomberg)](http://www.bloomberg.com/news/articles/2015-03-04/buybacks-at-46-billion-a-month-dwarf-everything-in-u-s-market)
 [Capital Allocation – Updated (Credit Suisse)](http://covestreetcapital.com/wp-content/uploads/2015/07/Mauboussin-June-2015.pdf)
 
 
@@ -70,7 +70,7 @@ Discussions found on the web
 1. Ben, thanks for the post. I agree with the overall point about not being able to time the market, but was gaffed a bit when I saw you wrote this “buybacks and dividends are basically identical to the end investor” Your statement may be true to investors in tax protected accounts but I would not assume that is the norm. From an average investors perspective buybacks are better as they don’t destroy their value through taxes. The buyback vs dividend explained <http://www.hitinvestmentsllc.com/stockbuybackadividendalternative/>
 
    * That’s valid. I guess I was thinking about tax deferred accounts, but there’s an obvious advantage to buybacks with a longer holding period. I guess it really matters whether or not the company is making timely buybacks or not.
-   * While that is a classic, finance textbook argument, it ignores the fact that paying owners of an asset a cash dividend makes them free to make their own re-investment decision with those proceeds. Management is substituting their judgment that I as an owner of XYZ want to own MORE of XYZ with the cash instead of some other investment opportunity that I have available. There are many cases when I manage my own portfolio where I believe that I can re-invest the cash (after taxes) much better than management can. If I end up deciding that XYZ is, in fact, the best place for my investment capital, then I can go ahead and purchase those shares.  
+   * While that is a classic, finance textbook argument, it ignores the fact that paying owners of an asset a cash dividend makes them free to make their own re-investment decision with those proceeds. Management is substituting their judgment that I as an owner of XYZ want to own MORE of XYZ with the cash instead of some other investment opportunity that I have available. There are many cases when I manage my own portfolio where I believe that I can re-invest the cash (after taxes) much better than management can. If I end up deciding that XYZ is, in fact, the best place for my investment capital, then I can go ahead and purchase those shares.
      Since management teams have historically shown this pro-cyclical tendency to buy their own shares (and other companies) at precisely the wrong time in the cycle, I prefer my own investment decisions over theirs. In addition, I prefer the management discipline that comes alongside a dividend payout, though the stigma attached to slashing a dividend payout has diminished since the financial crisis.
 
      + I encourage you to read this article on why the dividend may be dead – <http://www.hitinvestmentsllc.com/endthedividend/>

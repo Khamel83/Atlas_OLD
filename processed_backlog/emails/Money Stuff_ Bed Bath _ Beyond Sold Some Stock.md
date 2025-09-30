@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In May 2020, Hertz Global Holdings Inc. filed for bankruptcy. Then its stock went up, in an early burst of enthusiasm for what would later b
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath & Beyond
-    
-  
+
+
 
 In May 2020, Hertz Global Holdings Inc. filed for bankruptcy. Then its stock went up, in an early burst of enthusiasm for what would later be called meme stocks. Hertz thought, well, if our stock is going up, we should sell some stock, to raise money to pay off our creditors — that is pretty much our duty as a company in bankruptcy. So it went to the bankruptcy court to ask for permission to sell stock, and the court was like “sure I guess, good for creditors,” and Hertz launched an at-the-market offering to sell up to $500 million of common stock to retail investors at the prevailing market price. The prospectus included a warning to the effect of (1) Hertz is bankrupt and (2) “we expect that common stock holders would not receive a recovery” in bankruptcy: basically, a warning that the stock was worthless. But if people wanted to buy it, go ahead!
 People did want to buy it, at least a little bit, but the US Securities and Exchange Commission quickly called up Hertz to say no, that’s not allowed, you can’t just sell stock to retail investors at market prices when you are bankrupt. “Fraud in plain sight,” a lawyer called it: Hertz knew the stock was worthless and was, in some sense, tricking people into buying it, even though it did explicitly tell them that it was worthless. The offering was quickly shut down. As it turns out the stock was not worthless,  Hertz exited bankruptcy with significant recovery for the equity, and probably the SEC should have let it sell stock to retail investors, but never mind.
@@ -128,89 +128,89 @@ There are, however, two problems with that plan:
 
 What Bed Bath has done here, I think, is that it has sold the right to do meme-stock offerings to some institutional investors. The investors get the ability to pick their spots to sell stock, and can get the stock at a discount from Bed Bath. They also get warrants: If they succeed in saving the company, they have a lot of equity upside. In exchange, they are putting up a lot of the money now, and promising to put up $800 million more whenever Bed Bath wants it, as long as they keep being able to sell it profitably. I am not sure, but it looks a lot like meme-stock financial engineering.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Certificate of Dumb Investment
-    
-  
+
+
 
 In the US, investments are mostly either public or private. Public investments are things like stocks that trade on the stock exchange, and anyone can buy them. Private investments are not traded on the stock exchange, and for the most part you need to be an “accredited investor” to buy them. “Accredited investor” is  a legal category; it is mainly a wealth/income test — if you make $200,000 a year or have at least $1 million of net worth, you’re probably accredited — though you can also be accredited if you have certain securities licenses. 
 The basic tension in the regulation of private investments is that most of the best investments are private, and most of the worst investments are also private. US public companies tend to be large, mature, profitable, stable and well regulated; they rarely vanish overnight due to fraud, but their fastest-growing days are generally behind them by the time they go public. The fast-growing exciting companies, the ones that will be the dominant public companies of the future, the next Googles or Apples or whatever, are mostly private. Also though the unaudited frauds: all private. 
@@ -232,20 +232,20 @@ I acknowledge that I am an idiot. I acknowledge that I have been swindled into m
 
 Do those two versions mean the same thing? Kind of! But you want it to be clear!
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       The CEO! Of Goldman Sachs! Is also! A DJ!!!!!
-    
-  
+
+
 
 When David Solomon was a senior executive at Goldman Sachs Group Inc. and also a DJ, he and some of his advisers worried that he could not balance those two activities. “Some advisers told him to hang it up,” a 2019  Fortune profile (  that I   quote a   lot) reported. I  once imagined the Disney movie of Solomon’s life:
 I want to see the crusty older bankers telling Solomon to give up his dreams of being a DJing investment banker. “David, you’re a good banker, one of the best. But this DJing stuff won’t fly, not at Goldman Sachs, which as you know is one of Wall Street’s most storied institutions. You’ve got to give up these childish dreams, hang up your chunky headphones, and focus on the work.” And then Solomon will say “yes you’re right, it’s for the best,” and there will be a sad scene of him putting the headphones in a closet and giving them a long sad lingering look, and then he will meet a wise old guru (Lloyd Blankfein) who will sing a little song telling him “look into your heart, it will tell you what to do, about the DJing.” And then Solomon will sing the big showstopper song (“How Little I Care”), the gist of which is “actually I have decided that I can be both a successful investment banker and a DJ, watch out world.”
@@ -270,15 +270,15 @@ In addition to Ms. Erdoes and Mr. Cohn, Carlyle approached a number of high-prof
 
 I’m a little hurt they didn’t ask me.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Powell Says   Further Rate Hikes Needed Amid ‘Strong’ Labor Market. Distressed Funds Including Oaktree Scoop Up   Adani Bonds. Gautam Adani’s  ports business to repay $600mn in race to cut debt. Meta Asks   Many Managers To Get Back To Making Things or Leave. Iran’s ‘ghost fleet’ switches into Russian oil. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] See  the pricing term sheet: “23,685 shares of Series A Convertible Preferred Stock with a stated value of $10,000 per share.”
 
 
@@ -297,114 +297,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] See pages B-2 to B-3 (on forced exercise), B-12 to B-13 (on equity conditions) and B-15 (on price failure) of  the prospectus.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

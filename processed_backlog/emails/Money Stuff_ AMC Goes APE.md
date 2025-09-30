@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        My basic meme-stock corporate finance advice is that, if you are a public company, and people want to pay a lot of money for your stock for 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        My basic meme-stock corporate finance advice is that, if you are a public company, and people want to pay a lot of money for your stock for
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       APE
-    
-  
+
+
 
 My basic meme-stock corporate finance advice is that, if you are a public company, and people want to pay a lot of money for your stock for no real reason, you should sell it to them.
   [1]
@@ -127,68 +127,68 @@ The company has faced unsubstantiated conspiracy theories on the internet that t
 And Adam Aron is a sensible guy but he knows his audience; here  he is on Twitter a few weeks ago:
 
 
-    
 
-     
+
+
 I would not think too hard about any of that, but I feel obligated to mention it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Twitter
-    
-  
+
+
 
 The situation is that the richest person in the world, Elon Musk, has $44 billion riding on the question of whether Twitter Inc. is doing a massive long-running fraud on its users, its advertisers and its shareholders. Musk has claimed that it is, with no evidence at all, just a vague feeling that he has. If he’s right and there is a massive fraud, then he can get out of his agreement to buy Twitter for about $44 billion. If he’s wrong, he has to buy Twitter. 
 This situation is extremely well known. There are incentives. If you have something to do with Twitter, or you know something about Twitter, or you are in the business of counting Twitter bots, then you should take a few minutes and ask yourself: Well, do I know anything about Twitter doing any massive frauds? If you do … look, I don’t know exactly what you can do with that. I am not at all sure that you can actually go to Elon Musk and be like “hey I’ve got a pile of fraud documents, they’re yours for $1 billion.” (He could send you a subpoena and get them for free?) Even if you did strike a deal with him, he’s notoriously bad about sticking to his deals. Still. I just have a vague general sense that saving the richest person in the world $44 billion is a good career move. 
@@ -211,20 +211,20 @@ The rest of the complaint is mostly like that too. The gist of it is that, when 
 But if you believe Zatko’s claims, you could spin some legal arguments from them. (Ann Lipton has  a good Twitter thread analyzing what Zatko’s claims could mean for Musk.) If Twitter was bad at safeguarding user data, did that violate the law (including in particular its  2011 settlement with the Federal Trade Commission over user data)? Were Twitter’s securities filings misleading, because they didn’t disclose all of its security vulnerabilities? When all this stuff comes out, will that cause a “material adverse effect” on Twitter’s business, which will let Musk get out of the deal? Meh, I don’t know. 
 Even if these claims are true, and even if they are evidence of fraud or material adverse effect, they are not evidence of anything that Musk has been complaining about. Musk would have to, like, send Twitter a new termination letter saying “never mind about the bot stuff, now I’m terminating the deal because of the security vulnerability stuff.” But he could do that, why not. He’s not limited to the excuses he’s already tried; if people keep finding him new excuses to get out of the deal, he can try those too. Maybe one will work.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Pump-hack-and-dump
-    
-  
+
+
 
 The basic mechanics of a pump-and-dump scam are that you acquire a bunch of some penny stock for very little money (by buying it in the open market, or more often by being an insider of the penny-stock company), and then you trick naive public investors into buying the stock from you for more money. There are some pretty well-known traditional methods for tricking the public:
 	Especially if you control the company, you go around issuing press releases about how the company has found a cure for cancer or is pivoting to the blockchain or whatever. Retail investors are fooled and buy the stock.	Even if you don’t control the company, you put out a fake press release saying that Tesla Inc. has offered to buy the company, and then dump your stock quickly while the market is fooled.	You sell some stock to your friend for $0.02, she sells it back to you for $0.03, you sell it back to her for $0.04, she sells it back to you for $0.05, you post on some message boards saying “THIS STOCK IS SOARING, LOOK AT THIS PRICE ACTION,” and then you sell to the readers of those message-board posts for $0.06 and split the profits with your friend.	You post on a message board saying “hey I’m gonna pump this stock” and other people say “sure all right sounds fun.” They buy the stock as part of a conscious game of musical chairs: Someone will be left holding the bag, overpaying for worthless stock and unable to sell before it collapses, but everyone has fun playing the game and trying to get out in time.
@@ -236,21 +236,21 @@ According to the SEC’s complaint, in late 2017 and early 2018, hackers accesse
 
 Sure? If you can just hack into a bunch of brokerage accounts and turn them into zombies to buy your penny stocks, you don’t even need to bother with fake press releases. Very efficient.
 
-  
-    
+
+
       Hologram crypto fraud
-    
-  
+
+
 
 The basic form of cryptocurrency fraud is that you send a venture capitalist a Twitter direct message saying “hi can you send me the password to your NFT wallet” and he replies “sure, here you go!” and you take all of his non-fungible tokens. On the other hand I guess there are  more baroque approaches:
 A set of hackers managed to impersonate Binance chief communications officer (CCO) Patrick Hillmann in a series of video calls with several representatives of cryptocurrency projects. The attackers used what Hillman described as an AI hologram, a deepfake of his image for this objective, and managed to fool some representatives of these projects, making them think Hillmann was helping them get listed on the exchange.
 I’m not sure I even understand why that would be valuable (did hologram Hillmann ask these projects to pay for those fake listings?) but, sure, hologram crypto fraud.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 It’s been a while  but here’s this again: 
 
@@ -261,11 +261,11 @@ That said, Wall Street firms have been experimenting with blockchain projects fo
 
 In 2017, when we talked about this a lot, my view was that saying “blockchain blockchain blockchain!” was a way to get the chief executive officer of your bank excited about a project to upgrade trading systems and databases. Apparently not that excited. Excited enough to get around to it in 2022.
 
-  
-    
+
+
       The deli closed
-    
-  
+
+
 
 Huh, there you go:
 
@@ -277,15 +277,15 @@ Makamer, a bioplastics startup, merged with the deli’s owner, Hometown Interna
 
 We  talked about the  deli a  lot last  year. Now it is a bioplastics company. The consensus around the deli was that it was not really a $100 million publicly traded deli: It was a shell company that would eventually be used to take some other weird company public, and the deli was just sort of a placeholder. That all happened pretty much as expected.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Julian Robertson, Hedge-Fund Guru to ‘Tiger Cubs,’ Dies at 90. IPO Market Faces  Worst Year in Two Decades. Musk Subpoenas Ex-Twitter CEO Dorsey in   Battle Over Buyout. How  Occidental Petroleum Captured Warren Buffett’s Eye. Revlon’s  furious stock rally complicates cosmetics maker’s bankruptcy.   SoftBank’s Epic Losses Reveal Masayoshi Son’s Broken Business Model. Najib Razak, Malaysia’s Ex-Prime Minister, to Be Imprisoned After Losing Final  1MDB Appeal. Companies Are Cutting Back on  Maternity and Paternity Leave. Wild video shows  escaped bull rampaging through Israeli bank.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I also   occasionally dabble in more complicated meme-stock corporate finance advice about, like, selling volatility or whatever. But “if people want to overpay for your stock, sell it to them” is the *basic* advice.
 
 
@@ -316,114 +316,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] Incidentally  AMC’s FAQ says, about shorting the APEs: “Short selling is legal in the United States and permitted by the New York Stock Exchange. Therefore, AMC Preferred Equity units can be sold short in the same way that other equity securities on the NYSE can be sold short, and there is no action that AMC can take to prevent short selling.” I suppose you could take the other side of the trade in the text — go long AMC and short APE — as a bet that they will *diverge*, that APE will go to zero while AMC rallies. I dunno.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

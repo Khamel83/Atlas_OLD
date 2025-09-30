@@ -489,9 +489,9 @@ class ReadingListImporter:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    INSERT INTO reading_list_items 
+                    INSERT INTO reading_list_items
                     (url, url_hash, title, preview_text, date_added, date_last_viewed,
-                     read_status, tags, bookmark_id, site_name, word_count, 
+                     read_status, tags, bookmark_id, site_name, word_count,
                      estimated_reading_time, import_source)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
@@ -530,7 +530,7 @@ class ReadingListImporter:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    UPDATE reading_list_items 
+                    UPDATE reading_list_items
                     SET title = ?, preview_text = ?, date_added = ?, date_last_viewed = ?,
                         read_status = ?, tags = ?, bookmark_id = ?, site_name = ?,
                         word_count = ?, estimated_reading_time = ?, import_source = ?,
@@ -598,7 +598,7 @@ class ReadingListImporter:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    INSERT INTO reading_list_imports 
+                    INSERT INTO reading_list_imports
                     (import_source, file_path, total_items, new_items, updated_items,
                      failed_items, duplicate_items, processing_time, import_status, error_log)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -934,7 +934,7 @@ class ReadingListImporter:
                 # Basic statistics
                 basic_stats = conn.execute(
                     """
-                    SELECT 
+                    SELECT
                         COUNT(*) as total_items,
                         COUNT(CASE WHEN processing_status = 'completed' THEN 1 END) as processed,
                         COUNT(CASE WHEN processing_status = 'pending' THEN 1 END) as pending,

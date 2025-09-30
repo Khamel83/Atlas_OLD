@@ -195,19 +195,19 @@ What is most compelling about Meta, though, are their investments in AI ( https:
 
 In fact, I suspect there is room for both, and their respective market opportunities may follow the distinction I noted above between AR and VR: Apple has its eyes set on the real world, and Meta the virtual one; I just wish one of them would help me get my work done.
 
-* 
+*
 
 You can disable it completely, which I have done for many people in my life ↩︎ ( #rf1-12278 )
 
-* 
+*
 
 Including my built-in display, which in this picture is 14″; the photo is old, but representative enough. ↩︎ ( #rf2-12278 )
 
-* 
+*
 
 My single favorite feature of Vision Pro is Optic ID: it works perfectly every time, without thought; you don’t need to perfectly place your (dry) finger like Touch ID, or hold your phone just so like Face ID. It’s completely seamless and very satisfying. ↩︎ ( #rf3-12278 )
 
-* 
+*
 
 I think this quote from NBA Commissioner Adam Silver in Sportico ( https://www.sportico.com/business/media/2024/nba-apple-vision-pro-app-video-all-star-1234765290/ ) does miss the point, however:
 
@@ -215,7 +215,7 @@ I think this quote from NBA Commissioner Adam Silver in Sportico ( https://www.s
 
 Actually, no, I do want to sit courtside. It’s one of the most incredible experiences you can have as a fan. Moreover, you don’t even need any production: if I want the score, I can look up at the scoreboard; the announcer is the in-arena PA system. Don’t overthink this! ↩︎ ( #rf4-12278 )
 
-* 
+*
 
 At this stage in my life, I much prefer wearing glasses (I can’t have LASIK surgery), so I need the Zeiss lens inserts; they are easy-to-use, but they do make the Vision Pro worse in my experience. First, eye-tracking worked much better without them, and second, bright scenes will induce reflections on the lenses that are very distracting. Moreover, if you stop using the lenses and switch to contacts, you have to re-do hand and eye calibration and re-setup Optic ID ↩︎ ( #rf5-12278 )
 

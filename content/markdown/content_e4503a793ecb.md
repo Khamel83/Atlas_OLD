@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Why Liberals Loved to Hate Antonin Scalia</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >He presented cruel, demeaning views in thought-provoking and stirring ways.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -901,14 +901,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="65"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-1@published"
-  
+
 >Here is one of the hardest things about losing Antonin Scalia: His views were often ugly and wrong, but the ways he expressed them were thought-provoking and stirring. He was the most three-dimensional justice with an often two-dimensional worldview. History will likely remember him as someone who was gloriously, powerfully on the wrong side of so many important questions. But history will surely remember him.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-2@published"
-  
+
 >As a liberal you are certainly free to hate Scalia, and sometimes it seemed he worked overtime to earn your hate. He gloried in it. He wrote cruel, demeaning things about whole groups of Americans—and even if you didn’t belong to one of those groups, Scalia was the fifth vote on what many of us consider towering historic injustices, from <em>Bush v. Gore</em> to <em>Citizens United.</em></p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -919,14 +919,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="99"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-3@published"
-  
+
 >His arguments would sometimes creep right up to the line of cartoonish parody and then dance right over that line. He wrote things like this passage from his <em>Lawrence v. Texas</em> dissent, in which he argued that states had the right to make sodomy illegal: “Many Americans do not want persons who openly engage in homosexual conduct as partners in their business, as scoutmasters for their children, as teachers in their children’s schools, or as boarders in their home. They view this as protecting themselves and their families from a lifestyle that they believe to be immoral and destructive.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-4@published"
-  
+
 >You want to shake him, right? But then, I can also recall what it was like to read a Scalia dissent back in law school, where amid all the turgid plodding and the footnotes and the case citations of his black-robed brethren, this arcing, sparking full nova exploded into your consciousness: “He is outrageous,” you would think, just as some part of your mind also hissed, “but I want to be on <em>his </em>team.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1005,14 +1005,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="122"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-5@published"
-  
+
 >For years and years, I told anyone who asked that the day the high court lost Scalia would be the day I quit covering it. On that day, which came Saturday, I knew the court was also losing everything dramatic and absurd and quotable, even as it lost its cartoon supervillain. What would be left when the man in full was gone? I won’t miss his mockery or the casual slights. In some ways he prefigured the 2016 election, with all of its <a href="https://www.slate.com/articles/news_and_politics/politics/2016/02/donald_trump_turned_the_gop_debate_into_a_cage_match.html">finger-pointing, rage, and quick-on-the-trigger sound bites</a>. Still, I fear that the court will be a less vivid, less passionate place in his absence, even as some of the most hateful of the court’s views will now perhaps be moderated.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="76"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-6@published"
-  
+
 >For those of you who shuddered whenever Scalia dropped one of his “<a href="https://www.law.cornell.edu/supct/html/94-1039.ZD.html">Kulturkampf</a>” bombs, or his casual slurs about “racial entitlements,” I hear you. Scalia will probably always be remembered for one of his last questions from the bench—a question that epitomized his maddening tendency to say the most controversial things in the most painful ways. At a December argument about the future of affirmative action in higher education, he deployed a formulation that rocked the courtroom:</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1055,14 +1055,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-7@published"
-  
+
 ><blockquote>There are those who contend that it does not benefit African-Americans to get them into the University of Texas where they do not do well, as opposed to having them go to a less-advanced school, a less—a slower-track school where they do well. One of the briefs pointed out that most of the black scientists in this country don’t come from schools like the University of Texas.</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="41"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-8@published"
-  
+
 >People gasped in the chamber. The Internet ate its head off for a few days, and Scalia made hay by doing what he did best—saying something that had been earnestly briefed and argued in the most inflammatory way he could muster.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1087,7 +1087,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="63"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-9@published"
-  
+
 >So rage all you want, liberal friends. Scalia invited and welcomed and celebrated it. Toward the end of his career, he <a href="http://nymag.com/news/features/antonin-scalia-2013-10/">bemoaned the bitter partisanship of Washington</a>, without acknowledging that he was as polarizing as those he deplored for being polarizing. In that way too he set the stage for this election cycle and the <a href="https://www.slate.com/articles/news_and_politics/politics/2016/02/justice_antonin_scalia_s_death_may_lead_to_a_constitutional_crisis.html">ideological battle that will rage to fill his seat</a>.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1112,7 +1112,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-10@published"
-  
+
 >But then also recall what former Justice David Souter said, in his <a href="https://www.brennancenter.org/justice-brennan-remarks">eulogy for William Brennan</a>, in 1997. Brennan, Souter explained, was a man with whom we would all need to reckon long after he was physically gone:</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1155,14 +1155,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="70"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-11@published"
-  
+
 ><blockquote>If our next decision is meant to follow the course he set, we will reach out to him, and if we will not accept his direction we will have to grapple with him. But year after year, in subject after subject of the national law, we will either accept the inheritance of his thinking, or we will have to face him squarely and make good on our challenge to him.</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="67"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-12@published"
-  
+
 >Whether you choose to think of him as a hero or a hater, a fully-realized ideological visionary, or a caricature of an arch-conservative, the same is true of Scalia. For years, the law and the other justices will shadow box with him, reckon with his vast intellectual legacy, and perhaps—if the arc of the universe indeed bends toward tolerance and fairness and generosity—eventually put him to rest.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1187,7 +1187,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-13@published"
-  
+
 >But give Scalia one more thing: On a Shakespearian court he was a Shakespearian figure. Nobody but Scalia could have written, airily, that “this Court has never held that the Constitution forbids the execution of a convicted defendant who has had a full and fair trial but is later able to convince a <em>habeas</em> court that he is ‘actually’ innocent.” To describe the execution of an innocent man as fully constitutional takes operatic levels of chutzpah.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1230,14 +1230,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="137"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-14@published"
-  
+
 >In my years covering the court, I ground my molars into dust most weeks, wondering how Scalia could make being so wrong seem so intriguing. Prisoners, women, gays, minorities, workers, and living constitutionalism lost a great intellectual foe on Saturday. And in the coming months we may be witness to one of the nastiest constitutional battles in a generation. But for now, I am still trying to absorb the fact that a man who seemed like he would live, and love, and scoff, and snort forever was not immortal. And that as reprehensible as so many of his views were, we will be wrestling with him for decades to come. Asked for his reflections on <em>Bush v. Gore</em>, the justice was fond of saying, “Get over it.”  We will not get over Scalia for a long, long time.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="8"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-15@published"
-  
+
 ><a href="https://www.slate.com/topics/a/antonin_scalia0.html"><strong><em>See more of Slate’s coverage of Antonin Scalia.</em></strong></a></p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1334,7 +1334,7 @@ width="1180"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1369,7 +1369,7 @@ width="1180"
   class="slate-adnode"
   data-adnode="news_and_politics/jurisprudence"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-3386802245914c6f7ce7867dde6dc7e8-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1420,7 +1420,7 @@ width="1180"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1445,7 +1445,7 @@ width="1180"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1955,7 +1955,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

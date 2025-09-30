@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Last August, Ryan Cohen did a very funny joke. Cohen — founder of online pet-food retailer Chewy, chairman of the board at GameStop Corp. an
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       [Moon emoji]
-    
-  
+
+
 
 Last August, Ryan Cohen did a very funny joke. Cohen — founder of online pet-food retailer Chewy, chairman of the board at GameStop Corp. and general meme-stock influencer and activist — had spent about $121 million
   [1]
@@ -72,17 +72,17 @@ Well, not impeccable. Some Bed Bath shareholders sued him for securities fraud a
 This is a very weird theory! You could imagine that if Cohen was doing a pump-and-dump, he might tweet things like “Bed Bath’s earnings this quarter will be great” or “excited to announce our new turnaround plan for Bed Bath” or what have you. He did not. Instead, the shareholders object to tweets like this:
 
 
-    
+
 
 And, most of all,  this:
 
 
-    
+
 
 Get it? CNBC tweeted something about someone saying (correctly!) that Bed Bath’s stock was heading to $1, with an archive photo of a woman pushing a shopping cart at a Bed Bath store. Cohen looked at the photo and said “at least her cart is full,” which honestly is not a ringing endorsement of Bed Bath’s business strategy or future financial performance. But — and this is the key part of the lawsuit — then he added … well actually it just looks to me like a smiley face? But when I hover over it, Twitter tells me it is the “Full moon with face” emoji. Here is another rendering of it, from  a judge’s opinion on this lawsuit last week:
 
 
-    
+
 
 Sure, okay, a moon. The judge goes on (citations omitted):
 Some online communities understand the smiley moon emoji to mean “to the moon” or “take it to the moon.” In other words, according to Plaintiff, Cohen was telling his hundreds of thousands of followers that Bed Bath’s stock was going up and that they should buy or hold. They did so, sending the price soaring.
@@ -115,37 +115,37 @@ But in the world of meme stocks, there are no reasonable investors. What matter
   [4]
  Similarly, if you accurately disclose your holding of a meme stock, and then for boring technical reasons you have to disclose it again, and meme-stock investors misinterpret your new filing to mean that you are bullish, and the stock shoots up with no news, then they have been misled, and if you didn’t mislead them then who did? Well, they misled themselves, really. But if meme-stock investors are desperate to deceive themselves, and you take advantage of their desire, maybe that’s fraud too.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Barclays
-    
-  
+
+
 
 The basic life of a coverage investment banker is that you travel around to meet with your clients and talk to them about (1) what they want to do and (2) what you want them to do. So you come in, you chat a bit about sports and their families, you ask “what’s new with you,” they tell you about their business and financial concerns, and you listen intently and try to think of solutions to their problems, ideally but not necessarily solutions that involve paying your bank a big fee. Then you crack open a pitchbook that your analysts prepared, saying, like, “here’s why you should do a leveraged recap” or “here are four smaller competitors you could buy” or “the convertible bond market is hot and you could get great terms right now” or whatever.
 Ideally, every so often, the client will say “you know what, you’re right, we should buy that competitor, I’d never thought of that before but it makes total sense,” and she will hire you to do the deal and pay you a big fee. That is part of why you brought the pitchbook. But it’s not the only reason; your hit rate will be low. Mostly you are trotting out these suggestions to improve your client relationship, to make your client think that you are smart and have a lot of ideas, that you spend time thinking about her problems and trying to find creative solutions, that you know everyone in her sector and can make deals happen, and also that you have a big brain trust back at your bank who can execute all sorts of transactions for her. And then when she does want to do a deal — maybe one you pitched, maybe not — she will call you and give you a fee, because of your loyalty and creativity and hard work and deep bench of subject-matter experts.
@@ -163,11 +163,11 @@ Part of that goal involves becoming less reliant on one of Barclays’s specialt
 
 Yes right if you are a senior investment banker from Lehman who enjoys pitching clients on mergers and leveraged finance deals, and now you have to fill out a weekly form asking how many times you have pitched Barclays’ cash-management services to your clients and what they said, you will be rankled. Your client time is precious; you have an hour to discuss golf and mergers, and you do not want to waste it on cash management, even if that happens to be a better idea for the bank.
 
-  
-    
+
+
       WorldOrb
-    
-  
+
+
 
 Maybe the most important paper in economics is the one about how people sometimes give themselves painful electric shocks just because that is an option that’s available to them:
 For 15 minutes, the team left participants alone in a lab room in which they could push a button and shock themselves if they wanted to. The results were startling: Even though all participants had previously stated that they would pay money to avoid being shocked with electricity, 67% of men and 25% of women chose to inflict it on themselves rather than just sit there quietly and think, the team reports online today in Science.
@@ -189,15 +189,15 @@ Worldcoin's token launched on Monday at $1.70 and jumped as high as $3.58 before
 
 Nobody is going to turn down getting their eyes scanned by a chrome orb, that is just science. Oh a guy is building a superintelligent AI and also compiling a permanent electronic identification database of all humans, that’s great, that’s not an alarming science-fiction premise at all. I feel like if you made that movie you’d have to have some plausible back story about how the AI convinced people to hand over their iris scans to the AI, but in the real world you don’t.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  AMC-APE Bet Has Handed 150% Gains — and 260% Losses — to Traders.  Rouble-Tether crypto trading surged as Wagner rebellion erupted. SEC asked Coinbase to halt trading in  everything except bitcoin, CEO says. UBS to Dispose of   Risky Credit Suisse Loans to Asian Clients. MUFG Says It Handled Credit Suisse Debt Sales ‘  Mostly Properly.’  BlackRock Clashes With Hedge-Fund Giant Over Control of Funds. Traders Brace for $102 Billion Wave of   Treasury Bond Sales. Home Insurers Are Charging More and  Insuring Less. Banks Lean On  ‘Hot’ Deposits to Shore Up Balance Sheets. The Fall of a Trucking Giant: Why  Yellow Is on the Verge of Collapse. Trucking Giant Yellow  Shuts Down Operations. Bodegas Put on Notice as Visa Fights Back on   Card Surcharges. Walmart Buys   Tiger Global’s Flipkart Stake for $1.4 Billion. Audit firms fight to block expansion of  fraud detection role. Cannabis Industry Confronts Billion-Dollar Threat:  Weak Weed. Miami’s Overflowing   Septic Tanks and Trash Piles Test Appeal to Rich. Man who spent $14K to  transform himself into collie steps out for first-ever walk in public. A  46,000-year-old worm found in Siberian permafrost was brought back to life, and started having babies.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That is about $119 million to buy 7.78 million shares of stock, and about $2 million more to buy call options on another 1.67 million shares.
 
 
@@ -217,48 +217,48 @@ fraud on the market” theory, which says that if a stock trades in an efficient
   [6] Lol.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj775m.6831/64dfec61.gif" alt="" border="0" /></a>

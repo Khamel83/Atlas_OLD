@@ -34,12 +34,12 @@ I need you to autonomously implement Atlas development Blocks 7-10. You are work
 
 FIRST, read these files to understand the project:
 1. QWEN_CODER_INSTRUCTIONS.md - Your complete autonomous development instructions
-2. CLAUDE.md - Project context and current status  
+2. CLAUDE.md - Project context and current status
 3. docs/specs/BLOCKS_7-10_IMPLEMENTATION.md - Detailed implementation specifications
 
 THEN, start implementing Block 7.1: Advanced Siri Shortcuts Integration.
 
-Your goal is to work systematically through all implementation blocks until you run out of tokens or complete all work. 
+Your goal is to work systematically through all implementation blocks until you run out of tokens or complete all work.
 
 Start by running the startup script to understand the current state:
 ./start_work.sh
@@ -61,7 +61,7 @@ BEGIN NOW - START CODING WITHIN 2 PROMPTS MAX.
 
 ### **Systematic Implementation:**
 1. **Block 7**: Enhanced Apple Features (iOS integration, voice processing)
-2. **Block 8**: Personal Analytics Dashboard (web interface, insights)  
+2. **Block 8**: Personal Analytics Dashboard (web interface, insights)
 3. **Block 9**: Enhanced Search & Indexing (semantic search, knowledge graphs)
 4. **Block 10**: Advanced Content Processing (AI summarization, recommendations)
 
@@ -81,7 +81,7 @@ BEGIN NOW - START CODING WITHIN 2 PROMPTS MAX.
 Qwen-Coder will work through 180+ specific tasks across 4 major blocks, implementing features like:
 - iOS Siri Shortcuts with voice commands
 - Real-time web dashboard with analytics
-- Semantic search with vector embeddings  
+- Semantic search with vector embeddings
 - AI-powered content summarization and recommendations
 
 ### **Token Efficiency:**

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I kind of can’t believe this worked? Here are Bloomberg’s Philip Lagerkranser and Joanna Ossinger this morning: Bitcoin and other cryptocurr
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       CZ vs. SBF
-    
-  
+
+
 
 I kind of can’t believe this worked? Here are Bloomberg’s Philip Lagerkranser and Joanna Ossinger this morning:
 
@@ -103,63 +103,63 @@ The disadvantage is that it is probably in your long-term interest for people to
 
 Well. Another advantage of doing it is that a day later you might be able to buy your valuable competitor for peanuts. One possible reading of this situation is that CZ did some tweets and got himself a $30 billion crypto exchange for pennies on the dollar. But it seems like a dangerous game to play. Bankman-Fried was rescuing crypto firms a few months ago; now he needs a rescue. What lessons should Zhao learn from that?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Robinhood IPO Access
-    
-  
+
+
 
 We have   talked a   couple of   times before about Robinhood Markets Inc.’s “IPO Access” program, where Robinhood customers got to buy some initial public offerings at the IPO price. The pitch to Robinhood customers, I have argued, is that the customers get to buy stock at the IPO price and thus benefit from the “IPO pop” when the stock starts trading. Instead of watching institutions buy at $100 in the IPO and then having to buy at $150 in the aftermarket, you can buy at $100 in the IPO. The pitch to IPO issuers, I have argued, is that if Robinhood customers buy in the IPO they will pump up the IPO price, so that the issuer can benefit from the IPO pop: Instead of selling to institutions at $100 and watching the stock run to $150 in the aftermarket as Robinhood customers buy it, the company can just sell directly to the Robinhood customers at $150. These pitches cannot both be entirely true.
 That is oversimplified and perhaps unfair, but if you believe it then you would expect the Robinhood IPOs to perform poorly: The shares should be overpriced in the IPO, and then trade worse afterward than other, non-Robinhood IPOs. The product that Robinhood was marketing to issuers was, in some sense, price-insensitive demand. You’d expect its customers to get a worse price.
@@ -171,20 +171,20 @@ All 23 IPOs that Robinhood opened up to its customers have declined by double-di
 
 Well, yes, right.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Don’t call bribes chickens
-    
-  
+
+
 
 That is a headline that   I have used before, because there is some history of people using “chicken” as a weird euphemism/codename for “bribe.” But here is  the more literal version:
 
@@ -193,11 +193,11 @@ Last April, authorities in the eastern province of Zhejiang launched an official
 The video, posted on Sunday by the Zhejiang provincial supervisory committee on the social media platform WeChat, showed footage of officers raiding his mansion. They found bags after bags of frozen meat in his freezer, including chickens, ducks, and fish stuffed with plastic-wrapped gold bars and jewelery.
 
 
-  
-    
+
+
       Have your weekly staff meeting on the big screen
-    
-  
+
+
 
 The   strategy of AMC Entertainment Holdings Inc. for the last year or two has   pretty much   been “announce meme stuff,” and while I am not sure that still works the way it used to, I do admire  their commitment to the bit:
 
@@ -215,15 +215,15 @@ Byrne Hobart  writes:
 The other notable thing about this deal is that AMC was hurt by Covid on the revenue side, but helped on the financing side, since it acquired an army of dedicated retail investors. They may have decided that their company is structurally long the pandemic and its second-order effects, and have found a way for this to affect their fundamentals as well as their stock price.
 Another possibility is that the pandemic was, for quasi-mystical reasons that no one quite understands, a golden age for AMC, and they are doing everything they can to recapture that. If you just remind people of the pandemic, maybe they will buy AMC stock? “Zoom meetings,” you say, and that triggers a Pavlovian response where AMC’s stock goes up. It doesn’t have to make sense; it is a sort of sympathetic magic, “do pandemic things and then AMC’s stock goes up.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 SoftBank Billionaire Masayoshi Son to  Drop Flamboyant Earnings Presentation. Credit Suisse   Spinoff Asks If World Needs a New Investment Bank. US stock  hedging strategies backfire during market rout. Wall Street’s Alchemists Turbocharged   Wild Swings in Treasuries. Musk discusses putting all of Twitter behind a paywall. Twitter’s   Big Debt Bills Add Urgency to Musk’s Turnaround Plans. Tyson Foods CFO Arrested After Authorities Say He Fell Asleep in  Wrong House. UBS chief risk officer quits to become  professional photographer. ‘Billionaire Gucci Master’ Gets 11 Years in Prison for Fraud. Texas High Schoolers Must Retake SATs After Tests  Fly Off UPS Truck. Palmer Luckey Made a VR Headset That  Kills the User If They Die in the Game.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not ... any sort of advice, really, in these volatile times for crypto exchanges.
 
 
@@ -233,114 +233,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Oh yeah, they still have   those APEs.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

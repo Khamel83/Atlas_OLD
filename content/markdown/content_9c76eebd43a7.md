@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >The Coming Democratic Majority? Not So Fast.</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >The right fears it. The left dreams of it. But both may be deceived in assuming demographics will change how America votes anytime soon.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -901,21 +901,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="49"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-1@published"
-  
+
 >Last summer, an anonymous writer by the pseudonym of Publius Decius Mus wrote in the <em><a href="http://www.claremont.org/crb/basicpage/the-flight-93-election/">Claremont Review of Books</a></em> that electing Donald Trump was the last chance to save the United States from certain doom. Invoking one of the planes hijacked by al-Qaida terrorists on 9/11, he argued that:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="50"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-2@published"
-  
+
 ><blockquote>2016 is the Flight 93 election: charge the cockpit or you die. You may die anyway. You—or the leader of your party—may make it into the cockpit and not know how to fly or land the plane. There are no guarantees. Except one: if you don’t try, death is certain.</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="54"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-3@published"
-  
+
 >In Publius’ telling, the “deck is stacked” against conservatives. The media and universities are opposed to their very existence, drawing young Americans to the left. The country’s demographic transformation is even more worrying: “[T]he ceaseless importation of Third World foreigners,” Publius wrote, “means that the electorate grows more left, more Democratic” at every election.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -926,14 +926,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="112"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-4@published"
-  
+
 >Since it was <a href="http://www.npr.org/2017/02/05/513532432/looking-at-the-ideological-argument-for-trumpism">revealed</a> that the author behind the pseudonym is none other than Michael Anton, a former speechwriter for George W. Bush who has since become one of the most influential national security staffers in Donald Trump’s White House, commentators like Jonathan Chait have <a href="http://nymag.com/daily/intelligencer/2017/02/americas-leading-authoritarian-intellectual-works-for-trump.html">pointed out</a> just how hateful and dangerous his rhetoric was. But rereading Anton’s essay a few days ago, I was more struck by something else: The left strongly disagrees with the conclusions Anton draws and abhors the racially charged language he uses. But large parts of the left actually share his main premise. Like him, they believe that liberals are “on the cusp of a permanent victory.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="124"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-5@published"
-  
+
 >John Judis and Ruy Teixeira first promised that “white America” would soon be “supplanted by multiracial, multiethnic America” in 2002. Back then, their argument, summarized in their book <a href="http://www.amazon.com/dp/0743254783/?tag=slatmaga-20"><em>The Emerging Democratic Majority</em></a><em>, </em>was surprising and controversial. But over the following years, it quickly went mainstream. Because of the growing number of minority voters, Alan Abramowitz of Emory University <a href="http://www.huffingtonpost.com/2009/04/13/pemanent-democratic-major_n_186257.html">wrote in 2009</a>, “the Democratic Party enjoys a large advantage over the Republican Party—an advantage that is almost certain to continue growing for the foreseeable future.” By the run-up to the 2016 election, the idea of the coming Democratic majority <a href="https://www.theatlantic.com/magazine/archive/2016/01/why-america-is-moving-left/419112/">was</a> received <a href="https://www.theatlantic.com/politics/archive/2016/08/why-democrats-keep-winning-presidential-elections/497345/">wisdom</a>. (In fact, the idea has proved so beguiling that many writers have <a href="https://www.nytimes.com/2017/02/21/opinion/move-left-democrats.html?_r=0">doubled down</a> on it even since Trump ascended to the presidency.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1012,14 +1012,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-6@published"
-  
+
 >The argument for the inevitable Democratic majority relies on two basic ideas: First, young Americans are much more liberal than old Americans—so the country will move to the left as young liberals reach voting age and old conservatives pass away. Second, minorities are much more liberal than whites—so the country will move to the left as the share of minority voters grows, and America becomes “majority-minority.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="59"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-7@published"
-  
+
 >Both arguments seem plausible on their face. In the days after the election, for example, a striking map made the rounds on the internet. What, it asked, would the electoral map have looked like if only people younger than 26 had been allowed to vote? The sea of blue speaks for itself: Clinton would have won in a landslide.</p>
 
 <aside class="clay-tweet" data-uri="slate.com/_components/clay-tweet/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-8@published" >
@@ -1067,7 +1067,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="70"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-9@published"
-  
+
 >But when you start to look at the details, the picture becomes much more gray-on-gray. The viral map is highly misleading and radically <a href="https://www.cnet.com/news/map-showing-young-voters-blue-millennials-democrats-us/">overstated support for Hilary Clinton among young people</a>. In fact, it simply isn’t true that most young people are liberal. On the contrary, a recent Gallup study shows that only 30 percent of millennials call themselves liberal—while 28 percent identify as conservative and 40 percent as moderate.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1092,14 +1092,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="60"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-10@published"
-  
+
 >This helps to explain why the vote share for Trump was higher among the young, and especially among young whites, than that viral map suggests. You’ve probably heard that a majority of white women voted for Donald Trump. But you may not have heard that <a href="https://news.vice.com/story/white-people-voted-to-elect-donald-trump">whites younger than 30 also broke for Trump</a>, by a margin of 48 to 43.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="86"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-11@published"
-  
+
 >More broadly, many countries outside the United States demonstrate that young people need not be more averse to voting for far-right populists than old people. In France, for example, Marine Le Pen’s National Front does much better among the young than the old. So while it’s true that comparatively few millennials pulled the trigger for Donald Trump in 2016, they might well go for a more youthful, culturally savvy right-wing populist in the future—the same agenda, say, but promoted by an Ivanka rather than a Donald.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1160,21 +1160,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-12@published"
-  
+
 >Finally, there is a lot of evidence that people become more conservative as they age. Over the past 50 years, young Americans have consistently been more liberal than their elders—and yet, liberals somehow never achieved the crushing majorities that were predicted for them at every turn. So, <a href="https://www.theguardian.com/commentisfree/2015/nov/03/do-we-become-more-conservative-with-age-young-old-politics">as James Tilley has persuasively argued</a> in the British case, right-wing parties “probably shouldn’t be too worried about their support base thinning out and being replaced by younger, less conservative generations.” Today’s young will, like their parents, probably become more conservative as they get older.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-13@published"
-  
+
 >Democrats, in short, can’t bank on coasting to future victory thanks to liberal millennials. But what about the fact that America’s demography is rapidly changing and will, <a href="https://www.census.gov/newsroom/press-releases/2015/cb15-tps16.html">according to the U.S. Census Bureau</a>, turn “majority-minority” right around 2044?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="93"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-14@published"
-  
+
 >Once again, the story turns out to be more complicated the closer you look. When Donald Trump boasted that he would have more success attracting minority voters than Mitt Romney or John McCain, most people didn’t believe him for a moment. I certainly didn’t. And yet, he <a href="https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/11/trump-got-more-votes-from-people-of-color-than-romney-did-heres-the-data/?utm_term=.8a6d91c6703b">attracted as many Latino voters as McCain did</a> eight years before and actually bested McCain’s share of the vote among black Americans. (It helped Trump, of course, that he wasn’t running against a rising star who might go on to become the nation’s first black president.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1235,14 +1235,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="84"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-15@published"
-  
+
 >If Democrats can’t take the loyalty of minority voters for granted today, when their opponent calls Mexicans rapists and Muslims terrorists, they should beware of assuming that most minority voters will stick with them many years into the future, when the most important dividing lines will have shifted. Decades ago, Irish Americans reliably voted Democratic. Today, they overwhelmingly vote Republican. Projecting their future voting behavior would have been impossible then, and projecting the future voting behavior of Latinos and black Americans is impossible now.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="47"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-16@published"
-  
+
 >There is also evidence that Latinos and black Americans don’t actually see themselves as particularly liberal. As Lanae Erickson Hatalsky and Jim Kessler of the centrist think tank Third Way recently <a href="http://www.thirdway.org/report/why-demography-does-not-equal-destiny">pointed out</a>, there are actually more conservatives than liberals among both Latino and black American voters.</p>
 
 <figure
@@ -1345,7 +1345,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-18@published"
-  
+
 >So how will voting patterns change if the Republican candidate is brown or black? And how might Democrats’ “inevitable” majority be undermined if the growth of minority voters continues to be concentrated in states, such as New York and California, that are already deep blue? Or if Republicans manage to shutter even more polling stations in nonwhite areas and pass even stricter voting laws aimed at disenfranchising minority voters? We simply do not know.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1370,7 +1370,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="141"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-19@published"
-  
+
 >That’s not all: Because identity is not as static as we tend to assume, it may take much longer for America to become majority-minority than is commonly assumed. The figures are especially striking for Latinos. Among Americans born in Spanish-speaking countries, <a href="http://www.nber.org/books/borj06-1">only 1 percent</a> call themselves non-Hispanic white on the census. Among their children, that figure jumps to 17 percent. Among their grandchildren, it is 27 percent. This “flight to whiteness” is even more pronounced among the rapidly growing number of children born to mixed Latino/non-Latino parents. As <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3207354/">Brian Duncan and Stephen J. Trejo</a> find in a seminal study on the topic, “almost everyone (97 percent) with Hispanic ancestors on both sides of their family identified as Hispanic in the census, whereas the corresponding rate was only 21 percent for those with Hispanic ancestors on just one side of their family.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1413,21 +1413,21 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-20@published"
-  
+
 >The upshot is clear: Most commentators assume that Democrats will get to enjoy their “inevitable demographic majority” around 2040. But factoring in the likely effect of changing identities, this could take until 2060 or even 2080. And to think that the future favors you because you can count on a clear demographic advantage half a lifetime from now seems like a classic case of wishful thinking.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="55"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-21@published"
-  
+
 >The myth of the inevitable demographic majority is one of the most dangerous ideas in American politics. It drives the paranoia of conservatives like Anton, who think that it’s worth letting Donald Trump fly the plane of state if the alternative is certain death. But it also lulls liberals into a perilous sense of complacency.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="120"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-22@published"
-  
+
 >That is especially true of activists who want the Democratic National Committee to swing to the left—to embrace a proudly progressive platform and to adopt an unapologetic form of identity politics. If Donald Trump represents an older, lesser America that is slowly dying out, and Democrats can win simply by mobilizing their growing base, it seems to follow that there’s no need to speak to the plurality of Americans who consider themselves politically moderate. But America has never been a left-wing country, and this is unlikely to change anytime soon. Democrats still need to earn the votes of lots of moderates and whites to oust Donald Trump from the White House. Refusing to recognize this is not going to help.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1506,14 +1506,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="132"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-23@published"
-  
+
 >By the same token, Democrats who think the party already has all the answers will be tempted to draw the wrong conclusions from the fact that the party’s demographic majority is neither near nor inevitable. If most voters continue to be white and/or moderate, they will say, then all we need to do is to find a candidate who has a little less political baggage, and holds somewhat more moderate views, than Hillary Clinton. But the problem with Clinton wasn’t just that she had plenty of baggage. It’s also that her campaign lacked an uplifting narrative and a core policy promise. To do better, future Democratic candidates will need to be able to articulate a bold vision for the future and to promise a better life to the overwhelming majority of Americans.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="61"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-24@published"
-  
+
 >Demography, despite the dreams of the left and the fears of the right, is not destiny. Tempting though it is for liberals to think that history is on their side, there is no realistic substitute to winning the battle of ideas. To beat Trump, Democrats will have to build a convincing case they can take to the nation as a whole.</p>
 
 <div
@@ -1589,7 +1589,7 @@ width="590"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1624,7 +1624,7 @@ width="590"
   class="slate-adnode"
   data-adnode="news_and_politics/the_good_fight"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-bdde4b2158eeb7d09e3a1fcc03e7256f-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1675,7 +1675,7 @@ width="590"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1700,7 +1700,7 @@ width="590"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2210,7 +2210,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

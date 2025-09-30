@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I suppose we will end up finding a number of answers to that question. Will some ChatGPT-style large language model manage to do some inside
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is ChatGPT securities fraud?
-    
-  
+
+
 
 I suppose we will end up finding a number of answers to that question. Will some ChatGPT-style large language model manage to do some insider trading? Will it, like, ingest some corpus of data that includes inside information, and then use it to answer questions like “which stocks should I buy?” Will some big company’s corporate development department use the model to answer questions like “should we buy Company X and what price should we pay for it,” and will the developers of the model use that information nefariously? Will the model itself become sentient, get a Robinhood account and use that information nefariously? Etc.
 Or I mean will someone ask ChatGPT a question like “what companies are frauds,” and ChatGPT will cheerfully and confidently say “oh Company Y is a total fraud, their revenues are super inflated,” and then people will short the stock, and then it will turn out that Company Y is fine and ChatGPT is just really good at confidently making stuff up? Is that securities fraud? By whom? (Or: Ask “what stocks are good,” ChatGPT says “Company Z is great, they have found a cure for cancer and their revenue will double,” people buy the stock, it was all made up.) Will sell-side analysts or journalists use ChatGPT to do their work, and will ChatGPT introduce market-moving factual mistakes? 
@@ -74,37 +74,37 @@ The impact of ChatGPT, an OpenAI tool that surged in popularity last year, began
 And I tell you what, when I see that a public company has announced bad news and its stock dropped, I look for the lawsuits. We are early yet — the stock dropped yesterday — but lawyers move fast; I have not yet seen any lawsuits filed, but at least  two law  firms have announced “investigations” of Chegg and are looking for clients.
 At this point the lawsuits seem a bit far-fetched: “You should have warned us months ago that artificial intelligence would hurt your business” is unfair given how quickly ChatGPT has exploded from nowhere to become a cultural and business phenomenon. But now everyone is on notice! If you are not warning your shareholders now about how AI could hurt your business, and then it does hurt your business, you’re gonna get sued.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hindenburg v. Icahn
-    
-  
+
+
 
 Yesterday short seller Hindenburg Research released a short report on Carl Icahn’s company, Icahn Enterprises LP, and it is just mechanically very neat. Here is the schematic claim:
 	You have a company that is 85% owned by one guy. It owns $100 worth of stuff.	Every year it declares a 45% dividend, meaning that it pays out $45 of cash from its $100 worth of stuff.	The main guy says “that’s okay, no dividend for me, just give me my dividend in extra shares.” Everyone else gets cash.	That means the company only has to come up with $6.75 of cash for that 30% dividend.	The market is like “this is amazing, this company has a huge dividend,” and the stock trades up. It trades to a market capitalization of $300, three times its net asset value, purely as a dividend investment. This gives it a 15% dividend yield, i.e., the $45 dividend divided by the $300 stock value is 15%, making it one of the highest-yielding stocks available.	The company takes advantage of this fact to sell stock: It sells 2.25% of the company ($6.75 worth of stock) to raise the money to pay out the $6.75 cash dividend. (Implicitly it also sells $38.25 of stock to the main guy in lieu of his cash dividend, keeping his stake at 85%.
@@ -138,21 +138,21 @@ If — using my schematic numbers above — the stock fell from $300 (overvalu
  When your stock is overvalued, you sell stock; when your stock is undervalued, you buy it back. Somehow Icahn is doing both!
 Still in some sense the core of Hindenburg’s thesis is “this stock trades at a 218% premium to net asset value, which is weirdly high,” and it’s hard to argue with that, though also a bit hard to see why the market never noticed it before. The stock closed at $50.42 on Monday; it was trading around $32.69 at noonish today. Still plenty of room to sell stock to fund dividends though.
 
-  
-    
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
       APE Amendment
   [5]
 
 
-    
-  
+
+
 
 We have  talked a  few times about a problem that AMC Entertainment Holdings Inc. has, and its clever solution. The problem is that AMC, a meme-stock company, would like to sell bushels of stock to its enthusiastic retail shareholders to raise money to buy gold mines or whatever, but it has already sold so much stock that it is out of authorized shares: Its corporate charter only allows it to issue about 524 million shares, and it has sold pretty much all of them. It can amend the charter, but, under Delaware law, that requires a majority vote of all of AMC’s shares, and for the most part retail shareholders — even enthusiastic meme-stock retail shareholders — just don’t vote. So it can’t get enough votes to amend the charter.
 The solution was to issue a new class of stock — called APEs, AMC Preferred Equity units — that votes with the common stock, to sell a lot of APEs to sympathetic hedge funds who will vote to amend the charter, and to make it so that the APEs, in effect, automatically vote: If you own some APEs and don’t vote them, your APEs are voted proportionally to how all the other APEs are voted. 
@@ -169,11 +169,11 @@ In recent years, due to a wider dispersion of shares among retail holders and po
 This seems like a rational change in the law for the meme-stock era, and a better solution than the APE stuff.
 Meanwhile the APE lawsuit is still ongoing, and I’m not sure which way this cuts? On the one hand, the new law, if adopted, suggests that AMC was right to identify a problem and fix it; it’s hard to say that AMC shouldn’t have gotten around the shareholder voting requirement when the Delaware legislature now agrees that the requirement was too strict. On the other hand, if there is going to be a legislative fix, you kind of don’t need the clunky APE mechanic anymore, which might make a judge less inclined to approve it.
 
-  
-    
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 There is an obvious, popular but not particularly good reason to be worried about stock buybacks, which is something like “companies should not spend their money on buying back their own stock, but on building factories and paying higher salaries and researching new products and paying down debt and building up a cash reserve in case of disaster.”
   [6]
@@ -203,15 +203,15 @@ Or, I mean, you write in the disclosure “we decided to buy back stock at $50 b
 But a third thing that the rules will do is require disclosure about executives selling into the buyback: “Issuers will also be required to include a checkbox indicating whether certain officers and directors traded in the relevant securities in the four business days before or after the announcement of the repurchase plan or program,” and will have to disclose “any policies and procedures relating to purchases and sales of the issuer’s securities during a repurchase program by its officers and directors, including any restriction on such transactions.” 
 In general, a lot of SEC rules are written in code, and in particular “companies will have to disclose any policies restricting X” means “companies should not allow X”: The SEC here is conveying its preference that companies not allow their executives to sell into stock buybacks. In the fights over stock buybacks, this strikes me as kind of a weird niche concern, but it’s the SEC’s weird niche concern. If you think that stock buybacks are bad specifically because they give executives an opportunity to sell stock, then the simple solution is to restrict executives from selling stock during stock buybacks, and that is, sort of, what the SEC is doing here.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US Turns to Familiar Name to Clean Up $114 Billion Banking Mess:   BlackRock. Wall Street Rattled by Selloff, Trading Halts at Two   Small Banks. Why Washington  Let JPMorgan Buy First Republic. Three failed US banks had one thing in common:  KPMG. Schwartz kicks off  Carlyle tenure with lots of listening but no big ideas. SEC’s Gensler   Blasts Hedge Fund Fees as Agency Readies Rules. Shell, BP and Total  out-trade Vitol, Trafigura, Mercuria and Gunvor. Olive Garden Owner to Buy Ruth’s Hospitality Group. Harley-Davidson Struggles With  Repossessing Bikes From Owners Late With Payments. SEC Alleges  Son and Father-in-Law Touted Faith to Target Church Members in $20 Million Offering Fraud.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Say that the main shareholder owns 85 shares and everyone else owns 15. Net asset value is $100 ($1 per share) and the market cap is $300 ($3 per share). The main shareholder takes his dividend in shares ($38.25 of shares); everyone else gets it in cash ($6.75 of cash). The main shareholder gets an extra 12.75 shares ($38.25 divided by $3 share price), giving him a total of 97.75 shares; the other shareholders keep their 15 shares, and 2.25 new shares are sold to fund the cash dividend, for a total of 115 shares. The main shareholder now owns 85% of the pot (97.75 divided by 130), which still has a value of $100.
 
 
@@ -236,48 +236,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Another obvious and popular reason to be worried about stock buybacks is that they are stock manipulation: Companies that buy back their stock are pushing up the price (by buying stock), which makes the price artificially high, which is deceptive. (Until 1982, this theory was popular enough that open-market stock buybacks were rare, but in 1982 the US Securities and Exchange Commission adopted a rule saying that buybacks that followed certain procedures would not be treated as stock manipulation.) I tend to think that companies buying their stock because they think it is good is no more manipulative than anyone else buying their stock because they think it is good, but you do hear this theory sometimes.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -288,46 +288,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cioapl.5lpz/40685728.gif" alt="" border="0" /></a>

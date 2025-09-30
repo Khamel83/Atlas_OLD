@@ -3,268 +3,268 @@
 **Source:** inputs/New Docs/reader/grantland.com_features_best-sports-movie-villain-of-all-time.html
 **Processed:** 2025-08-24T19:14:15.375688
 
-Hi, America. My friend Shea and I are big fans of sports movies. It’s very convenient, then, that we both happen to write for Grantland, which is a place where you can do things like create arbitrary lists ranking the best fictional quarterbacks in history, as we did back in March.  
-  
-After fighting the first Van Der Beek War, I knew I wanted to get back together and create another totally frivolous list of sports movie things with Shea, but I didn’t know what to do until Shea started tweeting about the movie Hardball a couple months ago. You remember Hardball! No, not the incredible baseball game from the early ’90s. Hardball is the Keanu Reeves sports movie that isn’t The Replacements.  
-  
-Shea: Real quick, because somehow Bill has never seen Hardball so it’s possible you haven’t, either: Hardball is a movie that came out in 2001, in which Keanu Reeves tries to save the youths of black America by giving them pizza and letting them listen to rap while they play baseball because I guess black people aren’t any good at baseball unless they can listen to rap while they play it. It’s mostly an OK way to spend two hours, save for G-Baby. G-Baby, the smallest player on the team and younger brother to one of its best players, is probably the most adorable, charming kid that will ever be. But he’s too young to officially be on the team. So when Keanu shows up to practice with a boxful of uniforms, there isn’t one in there for G-Baby. G-Baby asks where his is and Keanu’s like, “Hey, fuck off. You’re not on the team.” G-Baby, broken in two, cries. It’s heartbreaking.  
-  
-Keanu ends up letting G-Baby stick around and be a manager/mascot. And that should’ve been OK, except it’s not. Because in the final game we see the team play, which is against the league’s best squad and is the match to see who goes to the championship, Keanu lets G-Baby have an at-bat. G-Baby ends up getting the game-winning RBI because G-Baby is a world-beater. And it’s lovely. But then, oh hey, guess what, when Keanu drops G-Baby and his older brother off after the game, they end up walking into a gang initiation. A stray bullet hits G-Baby in the chest. He dies.  
-  
-WTF, man?  
-  
-Bill: So, it was settled. We had to run through the most evil, wretched, vile, repugnant, loathsome, repellent, sickening, degenerate, despicable, abhorrent, reprehensible, obnoxious, grim, vicious, nefarious, wicked, appalling villains in sports movie history. As with last time, let’s start with the award ceremony before we get to the top 10.  
-  
-Best Villain Line  
-  
-Shea: Here’s what I pray for every single day, Bill:  
-  
-I pray that, at, say, 75 years old — or maybe 80 or even 85, depending on whether my body has turned into goop by then — I pray that I get into some sort of life-threatening accident. Maybe I get attacked by a shark, or maybe I wander onto a train track and get obliterated, or maybe all of the carne guisada I’ve eaten eventually just chokes my heart to near death. Either way, I want to be lying on a hospital bed, with my wife and sons and Kawhi Leonard by my side. I’m plugged into all sorts of machines. I’m just a mess. Nobody knows whether I’m going to make it through the day. And so I’m there, lifeless and still, and they’re all heartbroken and crying and asking God to save me or whatever and that’s when the doctor walks in.  
-  
-He stands at the foot of my bed, robotic and dead-eyed, looking at me. My wife, she realizes he’s there, and she runs up to him. “Doc! Doc!” she screams. “What’s the prognosis?! Is he going to make it?!” And he slowly turns his gaze and he opens his mouth and says five words to her: “If he dies, he dies.” And then he walks out of the room.  
-  
-Malibooyah. That’s the dream.  
-  
-Ivan Drago’s “If he dies, he dies” line in Rocky IV is the only line delivered by a villain in a sports movie that has ever really mattered. It’s transcendent. If there’s a word that’s more meaningful than “transcendent,” then it’s that. Dolph Lundgren was perfectly cast for the perfect role in the perfect movie, and he delivered that line with a perfect amount of dissonance (and disdain) at a perfect moment with perfect pitch. Nothing truer or more real has ever happened in my life or anyone’s life before or after. “If he dies, he dies” will live on for all of time. We should all aspire to create such things. We should all aspire to have our deaths prefaced by it.  
-  
-Bill: My problem with “If he dies, he dies” is that it might almost be too ubiquitous to be a truly evil line anymore. It’s been reclaimed. “Sweep the leg, Johnny” became a joke and the name of a Chicago math-rock band that nobody else liked but me. “Nosetalgia” or not, Piers freaking Morgan is bringing up that line in tweets to try to set up boxing matches with Jeremy Clarkson. Nothing is more uncool and less scary than that.  
-  
-Now, “I must break you”? That’s a line.  
-  
-Best Villain Monologue  
-  
-Shea: Easy. Bill Murray in the showdown match against Woody Harrelson in 1996’s surprisingly entertaining bowling movie Kingpin. Bill doesn’t even say any actual words. It’s a body monologue. And it’s beautiful. He prances around, celebrating himself and pickling Woody, and I just love it. There’s nothing quite like taunting. It touches me. It makes my heart warm. It’s always my favorite part of any sport. Plus, in this particular case, Murray’s shtick is made all the more enjoyable because he actually beats Harrelson in the showdown. The only thing better than in-game gloating is winning after you in-game gloat.  
-  
-However! If we’re including fighting movies, I might swap this out with Ryan’s monologue while goading Jake into their first fight in 2008’s Never Back Down. Ryan was an all-world villain in that movie. He was the perfect mixture of white privilege, condescension, and actual skill, which serve together as monumentally devastating multipliers. Here’s the clip. Watch it. Let the hate in your bones grow and grow.  
-  
-Bill: I don’t know that it’s technically a sports movie, and I don’t know that he’s necessarily the villain, but both seem close enough to being true that I’m going to run with it. Walter Sobchak’s eulogy for Donny in The Big Lebowski is the first thing that comes to mind for me when I hear the word “monologue.” It’s a wonderful microcosm of John Goodman’s character that takes the bizarre turns of somebody else’s life and uses it to inform and affirm his own interests before clumsily failing in the worst possible manner.  
-  
-Villain With the Best Chance to Turn It Around and Become Likable  
-  
-Shea: It’s gotta be Drago, right? I mean, if you really think about it, was he even a villain? Wasn’t he just a very talented boxer? He killed Apollo Creed, but that didn’t seem to be a thing he set out to do, like, say, Chong Li did in Bloodsport. It was just a thing that happened. He could’ve been a little more sensitive about it, but maybe he only appeared to be insensitive. Maybe in Russia the phrase “If he dies, he dies” is how they console people? Or maybe it comes across different in Russian? Did you ever even think of that? Did you ever even have an open mind?  
-  
-Drago was an elite athlete.  
-  
-If LeBron can reinvent himself after “The Decision,” Drago can reinvent himself after The Murder.  
-  
-Bill: I don’t know, Shea. We basically had a real-life equivalent of Ivan Drago in MMA with Fedor Emelianenko, and he really never became a likable figure. Sure, there was that photo of him eating ice cream. But, like, 30 fights into his career, he was still making people’s children cry in the ring just by being near them. I tried putting “If he dies, he dies” into Russian on Google Translator and ran it back into English again on a different translator and then kept repeating that cycle and this is what I got:  
-  
-1. If he dies, he dies  
-  
-2. If he die, he dies  
-  
-3. If it will die, it dies  
-  
-4. If he dies, she dies  
-  
-5. If he dies, she will die  
-  
-WHAT? If Drago killed Rocky, he was going to go after Adrian next. I can’t abide by that, Shea. No way he ever turns babyface.  
-  
-I’m going to go with Wolf “The Dentist” Stansson from D2: The Mighty Ducks. The movie definitely overplays his villainous tendencies and unfairly avoids his strengths. Wolf Stansson is an incredible freaking coach. Sure, Gordon Bombay managed to get a team mostly made of Minnesota junior rec league players to be the core of an American national team. Wolf Stansson single-handedly built Team Iceland into a world power. Iceland has virtually no good hockey program whatsoever. The climate isn’t even really all that cooperative with a youth hockey program. And yet, somehow, Stansson has this team in the finals, where — let’s be honest — his boys are attacked by thugs and kids who use lassoes midplay. There is no way Stansson didn’t follow some David Blatt–style career path and end up revered as a legendary coach in the NHL someday. Probably the Red Wings, too.  
-  
-Villain With the Worst Chance to Turn It Around and Become Likable  
-  
-Shea: Racism in Remember the Titans. There’s no hope.  
-  
-Bill: I’m taking The Beast from The Sandlot. Mainly because The Beast is a dog, and dogs don’t have free will.  
-  
-Most Heinous Act  
-  
-Shea: Oh, man. We’re getting into dicey territory here. This probably has to go to Tong Po, the rubber-faced monster that lorded over Thailand’s kickboxing circuit in 1989’s Kickboxer. If you’ll recall, in that particular movie he (1) crippled Jean-Claude Van Damme’s brother, (2) indirectly encouraged the knifing of a dog, and (3) beat and then raped Van Damme’s girlfriend solely so he could mention to Van Damme during their fight that he’d beaten and raped his girlfriend. If you want to keep going …  
-  
-In Kickboxer 2 he (4) kills Van Damme and the brother he maimed, (5) has his manager hire people to burn down a gym that belongs to the protagonist (the remaining brother of the two Po murdered), which results in a child’s death, and (6) kills another man in the ring just because he doesn’t have anything better to do.  
-  
-Bill: Well, I’m not topping that.  
-  
-Worst Ideological Beliefs  
-  
-Shea: Higher Learning isn’t necessarily a sports movie, but Omar Epps and Tyra Banks both play college track stars, so that’s close enough. Worst Ideological Beliefs go to the neo-Nazis on campus, one of whom eventually goes on a sniper shooting spree and shoots several people, including Tyra and then eventually himself. What a terrible moment that was. I mean, like, how does the student governing body allow there to be a neo-Nazi stronghold on campus? When I was in college we couldn’t even start a pingpong club. :(  
-  
-Bill: Oh, I think the Nazis in Victory will do. Do I have to pick just one? Can I pick the cheatin’-ass referee? Evil on so many levels.  
-  
-Least Realistic-Looking Villain  
-  
-Shea: White Goodman from Dodgeball.  
-  
-I miss when Ben Stiller was funny. :(  
-  
-Bill: I would probably go with James Van Der Beek’s quarterback character in Angus, because someone that dreamy couldn’t possibly be a villain. OK, I won’t mention JVDB again.  
-  
-Shea, there’s a simple rule to Ben Stiller that makes everything easier to understand. When Ben Stiller tries to play a normal, everyday dude, his movies are often awful. The Ben Stiller Rule holds that the weirder and less realistic a Ben Stiller character is in a movie, the more funny it is likely to be. It’s almost perfect. No really, look at this graphic:  
-  
-It even applies to other Ben Stiller projects. The funniest sketches on The Ben Stiller Show were the weird ones. Even this incredibly unfortunate forgotten cameo in a Limp Bizkit video is funny because it’s a movie star cameoing in a Limp Bizkit video. That Dodgeball character could not exist in this or any other world, and because of that, it’s no surprise that Dodgeball is a wildly entertaining movie.  
-  
-Best Villainous Feud  
-  
-Shea: More inspiring than Rocky vs. Drago in Rocky IV. More ruthless than Tupac vs. Kyle in Above the Rim. More bloodthirsty than Iceland vs. America in The Mighty Ducks 2.  
-  
-Rick Moranis vs. Ed O’Neill in 1994’s Little Giants. They played peewee football coaches, but really they played metaphors for life. The goofy Moranis, an underwhelming figure with a knobby existence, coached a team comprised of the town’s castoff children (asthmatics and talentless saps and nerds) while O’Neill, a midlevel success story turned high-class by the microscope of Small Town, America, coached the town’s best, richest, most talented recruits. That was a football battle that echoed forever, one that shifted not only the legacy of each of the coaches, but also the thought pattern of the country.  
-  
-Bill: Very tough to beat. But I’m going with Happy Gilmore vs. Shooter McGavin in Happy Gilmore. Basically revitalized golf. Managed to make Happy Gilmore strong without making Shooter McGavin’s game any weaker in the process (besides the “You eat pieces of shit?” line, which took away a key Shooter McGavin burn). We also saw only the end of the first season between the two; you know they were going to go back on tour the next year and fans were going to realize that Happy Gilmore was kind of a jerk and that they should really cheer for the guy who was good at golf. Wait, can I go back and give the Best Chance to Turn It Around award to Shooter McGavin?  
-  
-Most Attractive Villain  
-  
-Shea: Oh my god. It’s not even close. Tommy from Warrior is the most attractive villain who’s ever been. A former Marine with a troubled background played by the amazing (and yoked) Tom Hardy? Bro, forget about it. Give him all the awards. I just rewatched all the important clips from that movie. I’m not even using my hands to type this. I’m using my boner. He was a villain only in the loosest context, and really maybe not even then, but still: I’m never passing up the opportunity to gawk. Most Attractive Villain: Tommy.  
-  
-Bill: They weren’t stripping off a cardboard cutout of Tommy in Warrior, man. Rachel Phelps in Major League! Sure, she wanted to sell the team and was basically a female Jeffrey Loria. At least she wasn’t a female Donald Sterling! And, besides, after the events of Major League II, you have to figure she sold the team and made a healthy profit, which means she was also rich.  
-  
-Or Drago for cheekbones alone.  
-  
-Shea: I mean, I’d definitely rather have sex with Tommy than Rachel. Look at him. Who can deny that?  
-  
-Least Attractive Villain  
-  
-Shea: Wow. Duh. Tong Po, the aforementioned hideous villain from Kickboxer. In a landslide. What an unfortunate face. Thankfully, it was mostly fake. The story:  
-  
-Do you remember the guy in Bloodsport who gets his leg broken by Chong Li? This guy right here:  
-  
-That’s Michel Qissi. He and Jean-Claude Van Damme actually came to America together to be movie stars. In Bloodsport, Qissi played a bit fighter named Suan Parades. In Kickboxer, a heavily made-up Qissi played Tong Po. I guess they couldn’t find any Thai kickboxers in Thailand? I don’t know. Whatever. Either way, Qissi played Po. How’s that for a bit of trivia?  
-  
-Oh, another loop in history: In 1990, Van Damme starred in a movie called Lionheart, in which he fought in an underground fighting circuit to earn money to send to his dead brother’s family. Qissi had a small role in that film as well. But the main bad guy there, Attila, was played by Michel Qissi’s brother Abdel. I can’t think of a situation in which you’d need to know any of this information, but I also can’t think of a reason you shouldn’t have it on hand.  
-  
-Bill: The pitcher Henry Rowengartner taunts with “pitcher’s got a big butt” in Rookie of the Year. I mean, start with the big butt and go from there. Sure, he’s not the primary villain. But I can’t find a video of the guy Rowengartner strikes out with the underhand pitch to end the game, and he was the guy I was originally going to pick. So this is good enough.  
-  
-THE TERRIBLE 10  
-  
-10. Sidney Deane in White Men Can’t Jump  
-  
-Shea: Here’s the thing. Wesley Snipes technically wasn’t the villain in White Men Can’t Jump. Really, there wasn’t one, unless you wanted to be very clever and say the villain of the movie was something like Billy Hoyle’s self-destructive tendencies or whatever, in which case I want you to know that everybody you know secretly hates you.  
-  
-Bill: This was almost entirely what I got out of going to college.  
-  
-Shea: So there was no real villain for all of White Men Can’t Jump, least of all Wesley Snipes’s perfectly played Sidney Deane character. But there was one particular moment when Snipes did the most villainous thing of all.  
-  
-After approaching Billy and arranging for them to play in a big two-on-two tournament, the two set out playing satellite two-on-two games against people who didn’t know how good Billy was. They played this team and that team at this court or that court, beating each for a few hundred bucks. Then, after a string of wins, Sidney set up a game in which he and Billy would play against a team for nearly $2,000 (most of which is put up by Billy). Billy and Sidney end up losing that game, but only because Sidney was friends with the guys they lost to and he’d already set it up ahead of time that he’d throw the game so he could collect all of Billy’s money. There is basically nothing more dastardly than that, than hustling the guy you’re supposed to be hustling with. When Billy’s girlfriend figured out he’d been duped, when she made Billy go to Sidney’s apartment and confront him about it and Sidney confirmed what happened, that was the moment I stopped trusting people forever. And that’s the whole point of villains: to get you to realize the world can be a terrible place.  
-  
-Bill: That’s the thing! It’s really hard to dislike Sidney Deane, even when he’s hustling Billy at the beginning, if only because his hustle is so complete. In fact, it’s pretty hard to hate Wesley Snipes in general. He sounds pretty nuts from all the stories you hear about him on the Blade sets, and he went to jail and everything, but he’s charismatic! I bet he’s like a cooler Willie Mays Hayes in real life.  
-  
-9. Shooter McGavin in Happy Gilmore  
-  
-Bill: So wildly disappointed that Shooter McGavin didn’t make it further on the list. What a bad guy. Oh man. Start with the name. Shooter McGavin is the perfect sort of name that you would give to a golfer who’s supposed to be casual but isn’t casual at all. Try to come up with a better name for Shooter McGavin’s character than Shooter McGavin. I guarantee you won’t come close. Shooter McGavin is as good of a name as Happy Gilmore is a shitty name.  
-  
-Within 30 seconds of seeing Shooter McGavin onscreen, you know everything about Shooter McGavin that you need to know. Shooter McGavin went to Stanford. The PGA Tour covered up at least one affair he had with somebody on staff. He really, really likes Jim Nantz. Unironically. Like they go out to eat on a semiregular basis during the tour season, always to a upper-echelon chain steak house, always ordering the same thing. He lives in a gated community in Florida and has a huge ranch in Arizona. He would oldbrag about not being on Twitter. He got very angry when his first-class upgrades didn’t clear. All of this is conjecture about Shooter McGavin, and yet I’m sure all of it is true.  
-  
-What helps is that he really doesn’t have a reason to get angry at Happy Gilmore, but he does anyway. It shouldn’t bother him that this idiot who can’t really play golf has somehow made it on tour. The people who were cheering for Happy mostly weren’t coming from Shooter’s crowds. The increase in television ratings should create larger rights fees, which should create bigger prize pools, and given Shooter’s standing on the tour, he should make more money. The only thing he really has to do is avoid angering Happy into becoming a better golfer, which is exactly what he does.  
-  
-This is such a wonderful performance from Christopher McDonald that it has become his signature character to an extent that might not be matched elsewhere. I guess Ving Rhames is kinda always going to be Marsellus Wallace. But if you see Christopher McDonald acting in something else, you look at the screen and say, “Hey, it’s Shooter McGavin!” even if you’re sitting in a room by yourself and it’s kinda weird that you’re announcing things to nobody in particular. It’s such a career-defining part that TMZ’s report on McDonald’s DUI arrest is headlined “Shooter McGavin Takes Unhappy DWI Mug Shot.”  
-  
-8. Bull in Over the Top  
-  
-Shea: Two things here …  
-  
-First: Dude, the ’80s were so dope. I love that someone went to Warner Bros. and was like, “We should do an action-drama movie about a truck-driving arm wrestler, and we should get Sylvester Stallone to star in it, and we should give him $12 million to do so,” and then someone at Warner Bros. was like, “Oh my god, that is EXACTLY what we should do,” AND THEN THEY ACTUALLY DID THAT SHIT.  
-  
-If we figure for inflation, $12 million in 1987 comes out to more than $25.1 million today. TWENTY-FIVE MILLION ONE HUNDRED THOUSAND. For a movie about arm wrestling. For a bit of context: Matt Damon gets about $18 million per movie today; Brad Pitt gets about $20 million per; Tom Cruise gets $22 million per. What a truly spectacular time period to have been a movie star the ’80s were. We’re never going to see an era like that in Hollywood again. R.I.P. to big-budget arm-wrestling movies.  
-  
-Bill: I just want to note that the screenplay for Over the Top was written by Stallone and Stirling Silliphant. Stirling Silliphant! Oh, and this movie made $5.1 million in its opening weekend. The Los Angeles Times couldn’t believe that it did worse than Mannequin. You know, because who can’t fathom taking your girlfriend out to see the arm-wrestling movie the weekend it comes out?  
-  
-Shea: Second: Bull Hurley — OH MY GOD. What a mountain. What a just gross, unlikable mountain. Lots of times, villains will end up being either a very specific kind of intimidating cool (like Tupac in Above the Rim, for example) or backwardly charming (like Freddy Krueger in the Nightmare on Elm Street series). Not Bull, though. Bull wasn’t cool and he wasn’t witty and he wasn’t anything that could be stretched out to reach even the very edge of enjoyment. He never seemed to exist beyond any scene other than the one he happened to be in at any particular moment. He didn’t look like he might maybe be a good person in a different context, or like he’d ever even been anything other than a human monster. Bull looked like he enjoyed committing hate crimes. Bull looked like he was a fan of domestic violence. Bull accelerated villainy past all the fun stuff and right into a terrible reality. I mean, really, if Bull walked up behind you right now and grabbed you by the back of the neck and decided he wanted to do things to you, those were just some things that were about to be done to you. That’s it. That’s all. There’s no other option. Sorry, butthole. It was nice knowing you.  
-  
-True villain.  
-  
-Bill: I have serious reservations about the sportsbook that was taking action on this arm-wrestling competition. I’m pretty sure it would have been way more lucrative for the contestants to bet serious money on the competition around town and rig the actual arm-wrestling contest, especially given that the sportsbook didn’t really seem to be concerned that one of the contestants was betting $7,000 on himself to win. They didn’t recognize him when he came to cash his ticket? Lincoln Hawk also seems like the kind of guy who would have left his ticket in his jeans and washed it by accident. Maybe that was going to be the plot of Over the Top 2. Or Over the Top 2 was going to be a Desert Bus–esque trucking movie. Hopefully the latter.  
-  
-7. Chong Li in Bloodsport  
-  
-Shea: The bloodthirsty maniac Chong Li. Man.  
-  
-You know what was so wild about Chong Li, who, BTW, has remained since 1988 as the all-time greatest karate movie villain? The slow reveal of exactly how deranged and maniacal he really was. Since I’ve reached adulthood, it seems like movies try to start out with very aggressive, deliberately violent scenes to establish immediately that the villain in that particular movie is ultra evil. (My favorite versions: Philip Seymour Hoffman in 2006’s Mission: Impossible III and Heath Ledger as the Joker in The Dark Knight.) In Bloodsport, though, Chong Li’s amorality is gently unraveled, and only ever done as a byproduct of the story, never as the catalyst for it. It’s basically perfect. Some highlights:  
-  
-• The first time we see Li he is dead-eyed, staring at three blocks of ice that he’s about to demolish. (Not that crazy. Fighters break blocks of stuff all the time.  
-  
-• The first time we hear Li talk, it’s to indirectly flex on Jean-Claude Van Damme after JCVD has just broken a brick into dust. (A little crazy, but not noticeably so; maybe he’s just a guy who likes to talk trash?)  
-  
-• After Ray Jackson, Van Damme’s oversize friend, crumples a man’s nose in during a fight, he walks up to the edge of the platform, his face and chest covered in someone else’s blood, points at Li, then shouts, “I’m gonna kill you, man! Yeah, you, man! You got it!” Li responds by offering little more than a slightly puzzled look, followed by a smile (or, at least, what he thinks a human smile is supposed to look like), followed by a head nod, followed by a death stare. (This is when everyone should’ve started to figure out that Li was all the way nuts.)  
-  
-• In his first fight, Li barely bothers to protect himself. He walks through his opponent’s kick, parries another, grabs him into a sleeper hold, then puts him to sleep. He doesn’t just let him go, though. He waves to the crowd, then crushes the guy in the side of the head, then throws him off the mat, then silently dances around while the crowd cheers him on. (Here’s where I would’ve been like, “Nah, you know what? This ain’t for me.”)  
-  
-• In a later fight, he incapacitates his opponent, then breaks his leg just because. Again, he punctuates this with his wildly creepy Silent Celebration. (RUN, EVERYONE. THIS MOTHERFUCKER IS INSANE.)  
-  
-• When Li ends up fighting Jackson, Li beats him, then attempts to kill him by stomping his head in. (You’ll notice that his end-of-fight moves are getting more and more vicious. A precursor to … )  
-  
-• In a fight that precedes the final match, Li beats a guy, attempts to cave in the guy’s skull as the guy lies helpless on the mat, and then breaks the guy’s neck to make absolutely certain he dies. He expresses disdain and contempt in the face of everyone’s shock, and then finally decides to break his silence, but only to tell JCVD he’s going to kill him next.  
-  
-What a master.  
-  
-Far as I’m concerned, no movie villain has ever been as quietly brilliant and understated as Chong Li. He should’ve finished first here, Bill. (AND FOR EVERYONE READING, I RANKED HIM FIRST ON MY LIST, OBVS.) When he finds out that he didn’t, know that I’m telling him it was because you ranked him so low.  
-  
-Bill: Yeah, karate movies aren’t sports movies. This is a Jean-Claude Van Damme movie, which is really its own genre. Shooter McGavin was no. 1 on my list and he wasn’t even on yours, Shea. We come from different worlds. When we find those rare spots where we agree, it’s where we find the truly transcendent villains. Let’s work together.  
-  
-6. Wolf “The Dentist” Stansson in D2: The Mighty Ducks  
-  
-Bill: I already covered Stansson’s backstory and why I think he ends up redeeming himself in the long run, but he’s such a wonderful villain in this movie. Somebody put together a video clip of great Stansson scenes and it covers his two best moments in the movie. First, when he deflates the beach ball that Team USA has been using — not with his bare hands, but while wearing hockey gloves, which is somehow infinitely tougher and more villainous. Then Bombay insults Stansson’s short professional career without warning. How annoying could one man possibly be? It’s no surprise that Stansson then slashes Bombay’s bad knee during the ensuing game of three-bar. If anything, Stansson took it easy on Bombay. If he had slew-footed him, Stansson would be higher on this list.  
-  
-Also, just from his nickname and tenor alone, I guarantee that Stansson would have been one of the most popular hockey players in YouTube history. There would be all kinds of music videos and best-of clips for him, even though I guess canon suggests he retired 20 years before YouTube ever existed. Sean McIndoe would link to a Wolf Stansson video once a month minimum. Once every couple of weeks if he made it to the Leafs.  
-  
-Shea: My favorite part of this movie was when the Ducks try the flying V and get demolished. I was real young when I watched this, so I remember seeing that and immediately thinking that Iceland was indestructible.  
-  
-My second favorite part of the movie was that it had the kid from The People Under the Stairs in it. At the time, I was really thinking that all movies were real, that all the characters existed in the same universe, that they could all overlap. So I was very glad to see that he was able to pull his life together after such a traumatic experience.  
-  
-5. Ernie McCracken in Kingpin  
-  
-Bill: You can have your last decade of Bill Murray movies in which he plays the same bitter, wise old man in everything. I will take Bill Murray in Kingpin over everything else. McCracken is like a sleazier version of Shooter McGavin who has achieved the same level of dominance over the craft he’s chosen with a tenth of the actual return, so he feels more desperate and naturally acts more aggressively. Ernie McCracken has the same status and morality as a local used-car magnate, and that is the exact level of unearned gravitas that fits Bill Murray. I guess the Kingpin universe is a little more surreal, which seems weird given that Happy Gilmore gets into a fistfight with Bob Barker at one point, but I can’t imagine Happy Gilmore having his hand mutilated 20 minutes into the movie and it being quite as appropriate as it is for Roy Munson (another fantastic name) in Kingpin.  
-  
-Again, though, I have serious bookmaking reservations. Claudia’s ex-boyfriend Stanley bets $500,000 on Big Ern to beat Roy in the finals, apparently doubling his stake in the process when McCracken rolls those three consecutive strikes to do so. First off, what casino is taking a $500,000 bet on one side of a bowling matchup? That doesn’t scream shady to you? And then, even more distressingly, how on earth is perennial contender Ernie McCracken even money against Roy Munson, a one-armed long shot who hasn’t been on the bowling tour for years? Munson’s seriously -120? Where is all this money coming in on Munson from? Bowling syndicate? Did they make their money betting on safeties in the Super Bowl? I hear that’s a really lucrative bet.  
-  
-Shea: One time I bet $40 that the Spurs would beat the Lakers by 75 points. They didn’t cover.  
-  
-4. Johnny Lawrence in The Karate Kid  
-  
-Shea: Johnny Lawrence is maybe the most iconic high school bad guy who’s ever been. Everything about him was just so perfectly hatable. He was (probably) cool and (definitely) handsome and (very likely) a star athlete, but in the worst way possible all around. Even his coiffed hair managed to look smug and entitled. I mean, just LOOK at it:  
-  
-That’s the hair of a man who hates the world. That’s the hair of a villain.  
-  
-In retrospect, his categorization as a villain is probably all wrong. I mean, yeah, he was a bad guy in the movie, but really he was just a foot soldier for the despicable John Kreese, leader of the Cobra Kai. That’s who really had the black heart. Lawrence was just a high school upperclassman trying to balance a budding martial arts career, a girlfriend with wandering eyes, and an overbearing father figure. Lawrence even goes so far as to praise Daniel LaRusso at the end of the movie after he loses to LaRusso in the tournament. Lawrence was probably an OK dude once you got to know him. But we all watched this as kids, so his villainy was just sort of imprinted on us, I guess. Poor Johnny. He never stood a chance.  
-  
-Bill: Was it really that big of a surprise that the Daniel-Ali relationship didn’t work out? Ali went to college while Daniel stuck around Reseda and didn’t really do anything besides hang out with his weird older male friend, so while I’m sure there were plenty of awkward phone calls in which Daniel tried to keep “us” going, I can’t really blame Ali for moving on to that football player from UCLA. I mean, I guess I can’t prove it, but I’m pretty sure Daniel LaRusso would have been terrible in bed.  
-  
-3. Rachel Phelps from Major League/Major League II  
-  
-Bill: So evil they had to bring her back for the sequel! The problem in writing about Rachel Phelps now, having mentioned her before, is that the bar for “asshole owner” has risen from Jeffrey Loria to Donald Sterling. Rachel Phelps was vile and disingenuous, but at least she hated everybody on that team equally, you know? Actually, she let Pedro Cerrano practice his Buddhist beliefs in the locker room in Major League II while the rest of the team really didn’t seem to respect his religious views very much.  
-  
-I guess I wonder about the valuation of the Indians. Phelps wanted to move them to Miami really badly during the original Major League because they were going to give her a new stadium. (Life sorta imitates art.) Her plan is to make them so awful that fewer than 800,000 people show up to the ballpark during the season, which would be an attendance figure of 9,756 people per game, which seems downright impossible to imagine nowadays, but wasn’t the case back then; Cleveland actually averaged 9,063 fans per game in 1984. We know the team has a radio deal. Let’s assume its television deal in the ’80s was for peanuts. The team also gets hot toward the end of the season, to the point that Cleveland Stadium starts selling out. The Indians go into the playoffs and, as we learn in the playoffs, lose in the ALCS to the White Sox.  
-  
-Rachel Phelps is so pissed by what happens that she sells the team to just-retired third baseman Roger Dorn. How on earth? I know Dorn was a high-priced free agent once upon a time, but there’s no way he saved so much money that he could have afforded to buy a Major League Baseball team, let alone one that had just won its division and appeared to be on the up-and-up. And then, the Indians are so bad within months — and Dorn is so obviously broke after signing just one free agent, Jack Parkman — that Dorn sells the team back to Phelps? Doesn’t the commissioner’s office vet these things? Oh, not really, you say? Forget all that, then, I guess.  
-  
-What do you think Phelps does with the team after Major League II? The Indians make it to the World Series, so even if they lose there, they’re getting national television money and appear to be a perennial playoff contender. Does Phelps just hold on to the team and profit from it? Does she realize she can just live in Miami and doesn’t have to be in attendance in Cleveland every day? Does it bother her that somebody has taken the name and identity of her center fielder and nobody seems to care? This is what I think about when I think about Rachel Phelps.  
-  
-Shea: You think a lot about Rachel Phelps.  
-  
-2. Clubber Lang in Rocky III  
-  
-Bill: That speech Shea gave during the awards section about how Ivan Drago was less a villain and more an incredible fighter who just happened to not know his limits really got to me. I think he’s right on, and we both agree that Clubber Lang was more of a villain than it might seem. Drago probably wasn’t trying to kill Apollo Creed; it just worked out that way. Clubber was definitely trying to fuck Mickey up when he shoved him. That was no Pedro-spinning-Zimmer move.  
-  
-It’s also kinda unfair that Lang never got a rematch against Rocky after they split the first two fights. There’s no way they didn’t get a third fight between those two in closed circuit for serious money. I mean, Clubber Lang doesn’t even come up again.  
-  
-Shea: Two things:  
-  
-First: I agree. Clubber should’ve gotten that rematch. There’s just no way it doesn’t happen. He earned it. He deserved it. Shame on the fight promoters for not pulling that together.  
-  
-Second: Remember the scene where he charged up Rocky at Rocky’s press conference? Clubber was the no. 1 contender in the world and he showed up to the press conference just to goad Rock. Everything was perfect. The way he kept telling Mickey, “Shut up, old man!” The way he got Adrian’s attention by shouting, “Hey, woman! Hey, woman!” The way he told her to COME BACK TO HIS APARTMENT, HAHAHA. Oh, man.  
-  
-Or remember the scene right before he and Rocky first fought, where he completely disregarded Apollo Creed? Creed walked over to wish him good luck in his fight and Clubber slapped his hand away, telling him, “I don’t need no has-been messing up my corner.” Dogg, that’s amazing. And he just kept going, laying into him, insulting him and threatening him and plucking his feathers off. It was just beautiful. Nobody ever said anything in any movie more perfectly than Clubber hissed, “Come on, Creeeeeeed” when he was pickling Apollo. It was master-class villainy.  
-  
-Or remember the scene in which Clubber is being interviewed on TV after he’d beaten Rocky and the interviewer asks if he accepts Rocky’s challenge to fight again and Clubber tells him he doesn’t accept the challenge because Rocky isn’t a challenge, but that he’ll gladly beat him up again? That’s amazing. Clubber Lang would’ve been a billionaire if he were a boxer today. Nobody was a better marketer. Nobody sold a fight more. Nobody in the Rocky galaxy was ever any more vicious, any more intimidating than Clubber. He’s the king, and one of my all-time favorite movie characters. Good on him for sneaking up this far on the list. But still, he couldn’t top …  
-  
-1. Birdie in Above the Rim  
-  
-Shea: Perfection. Clubber was loud and abrasive and occasionally oafish, and that was so much fun to watch (particularly in contrast to Rocky’s sterilized humility). But Birdie? Man. He was a great white shark in a bandanna.  
-  
-Just, really, I mean, I don’t even know how to write about how perfect Tupac was in that role. I need a special keyboard with new letters nobody’s ever seen before that would allow me to come up with new words nobody’s ever read before to properly explain why he’s the greatest sports movie villain of all time.  
-  
-He was just so smart and devastatingly handsome and ruthless and terrible and furiously intimidating in the most breathtaking way possible. More than that, he fluttered through all those characteristics seamlessly, flipping from warm and likable to deadly and vicious without any hint of irony. (It’s a trait that Tupac possessed in real life, too — that he was able, basically on cue, to turn the world to ash with his gaze is one of the reasons that he will for all of time be the more interesting one between him and Biggie.) Birdie played people, manipulated people, discarded people, and did so as a reactionary measure just as often as a calculated one.  
-  
-When the goofy and innocent-eyed and darling fifth wheel Bugaloo interrupts a team meeting that Birdie is hosting, Birdie responds by (figuratively) undressing him in front of everyone. It’s the saddest part of the movie.  
-  
-When Flip, the neighborhood bum, talks back to him after being accosted, Birdie responds by creeping up on him while he sleeps, waking him up, letting him gain just enough consciousness to understand that it’s Birdie standing over him, and then slitting his throat with a razor blade over and over again. It’s the most startling part of the movie.  
-  
-And when Birdie’s team ends up losing the end-of-movie basketball tournament on a last-second alley-oop, he responds by ordering his second-in-command out on a shooting spree in the middle of the crowded basketball court. It’s the most unsettling part of the movie. (So much so, in fact, that you can’t find a clip of it on the Internet. This one here is as close as it gets, and it cuts off before the gun is taken out of the bag … )  
-  
-https://www.youtube.com/watch?v=lPyIrspkEx0?t=4m16s  
-  
-Birdie was no joke, man.  
-  
-Tupac wasn’t either.  
-  
+Hi, America. My friend Shea and I are big fans of sports movies. It’s very convenient, then, that we both happen to write for Grantland, which is a place where you can do things like create arbitrary lists ranking the best fictional quarterbacks in history, as we did back in March.
+
+After fighting the first Van Der Beek War, I knew I wanted to get back together and create another totally frivolous list of sports movie things with Shea, but I didn’t know what to do until Shea started tweeting about the movie Hardball a couple months ago. You remember Hardball! No, not the incredible baseball game from the early ’90s. Hardball is the Keanu Reeves sports movie that isn’t The Replacements.
+
+Shea: Real quick, because somehow Bill has never seen Hardball so it’s possible you haven’t, either: Hardball is a movie that came out in 2001, in which Keanu Reeves tries to save the youths of black America by giving them pizza and letting them listen to rap while they play baseball because I guess black people aren’t any good at baseball unless they can listen to rap while they play it. It’s mostly an OK way to spend two hours, save for G-Baby. G-Baby, the smallest player on the team and younger brother to one of its best players, is probably the most adorable, charming kid that will ever be. But he’s too young to officially be on the team. So when Keanu shows up to practice with a boxful of uniforms, there isn’t one in there for G-Baby. G-Baby asks where his is and Keanu’s like, “Hey, fuck off. You’re not on the team.” G-Baby, broken in two, cries. It’s heartbreaking.
+
+Keanu ends up letting G-Baby stick around and be a manager/mascot. And that should’ve been OK, except it’s not. Because in the final game we see the team play, which is against the league’s best squad and is the match to see who goes to the championship, Keanu lets G-Baby have an at-bat. G-Baby ends up getting the game-winning RBI because G-Baby is a world-beater. And it’s lovely. But then, oh hey, guess what, when Keanu drops G-Baby and his older brother off after the game, they end up walking into a gang initiation. A stray bullet hits G-Baby in the chest. He dies.
+
+WTF, man?
+
+Bill: So, it was settled. We had to run through the most evil, wretched, vile, repugnant, loathsome, repellent, sickening, degenerate, despicable, abhorrent, reprehensible, obnoxious, grim, vicious, nefarious, wicked, appalling villains in sports movie history. As with last time, let’s start with the award ceremony before we get to the top 10.
+
+Best Villain Line
+
+Shea: Here’s what I pray for every single day, Bill:
+
+I pray that, at, say, 75 years old — or maybe 80 or even 85, depending on whether my body has turned into goop by then — I pray that I get into some sort of life-threatening accident. Maybe I get attacked by a shark, or maybe I wander onto a train track and get obliterated, or maybe all of the carne guisada I’ve eaten eventually just chokes my heart to near death. Either way, I want to be lying on a hospital bed, with my wife and sons and Kawhi Leonard by my side. I’m plugged into all sorts of machines. I’m just a mess. Nobody knows whether I’m going to make it through the day. And so I’m there, lifeless and still, and they’re all heartbroken and crying and asking God to save me or whatever and that’s when the doctor walks in.
+
+He stands at the foot of my bed, robotic and dead-eyed, looking at me. My wife, she realizes he’s there, and she runs up to him. “Doc! Doc!” she screams. “What’s the prognosis?! Is he going to make it?!” And he slowly turns his gaze and he opens his mouth and says five words to her: “If he dies, he dies.” And then he walks out of the room.
+
+Malibooyah. That’s the dream.
+
+Ivan Drago’s “If he dies, he dies” line in Rocky IV is the only line delivered by a villain in a sports movie that has ever really mattered. It’s transcendent. If there’s a word that’s more meaningful than “transcendent,” then it’s that. Dolph Lundgren was perfectly cast for the perfect role in the perfect movie, and he delivered that line with a perfect amount of dissonance (and disdain) at a perfect moment with perfect pitch. Nothing truer or more real has ever happened in my life or anyone’s life before or after. “If he dies, he dies” will live on for all of time. We should all aspire to create such things. We should all aspire to have our deaths prefaced by it.
+
+Bill: My problem with “If he dies, he dies” is that it might almost be too ubiquitous to be a truly evil line anymore. It’s been reclaimed. “Sweep the leg, Johnny” became a joke and the name of a Chicago math-rock band that nobody else liked but me. “Nosetalgia” or not, Piers freaking Morgan is bringing up that line in tweets to try to set up boxing matches with Jeremy Clarkson. Nothing is more uncool and less scary than that.
+
+Now, “I must break you”? That’s a line.
+
+Best Villain Monologue
+
+Shea: Easy. Bill Murray in the showdown match against Woody Harrelson in 1996’s surprisingly entertaining bowling movie Kingpin. Bill doesn’t even say any actual words. It’s a body monologue. And it’s beautiful. He prances around, celebrating himself and pickling Woody, and I just love it. There’s nothing quite like taunting. It touches me. It makes my heart warm. It’s always my favorite part of any sport. Plus, in this particular case, Murray’s shtick is made all the more enjoyable because he actually beats Harrelson in the showdown. The only thing better than in-game gloating is winning after you in-game gloat.
+
+However! If we’re including fighting movies, I might swap this out with Ryan’s monologue while goading Jake into their first fight in 2008’s Never Back Down. Ryan was an all-world villain in that movie. He was the perfect mixture of white privilege, condescension, and actual skill, which serve together as monumentally devastating multipliers. Here’s the clip. Watch it. Let the hate in your bones grow and grow.
+
+Bill: I don’t know that it’s technically a sports movie, and I don’t know that he’s necessarily the villain, but both seem close enough to being true that I’m going to run with it. Walter Sobchak’s eulogy for Donny in The Big Lebowski is the first thing that comes to mind for me when I hear the word “monologue.” It’s a wonderful microcosm of John Goodman’s character that takes the bizarre turns of somebody else’s life and uses it to inform and affirm his own interests before clumsily failing in the worst possible manner.
+
+Villain With the Best Chance to Turn It Around and Become Likable
+
+Shea: It’s gotta be Drago, right? I mean, if you really think about it, was he even a villain? Wasn’t he just a very talented boxer? He killed Apollo Creed, but that didn’t seem to be a thing he set out to do, like, say, Chong Li did in Bloodsport. It was just a thing that happened. He could’ve been a little more sensitive about it, but maybe he only appeared to be insensitive. Maybe in Russia the phrase “If he dies, he dies” is how they console people? Or maybe it comes across different in Russian? Did you ever even think of that? Did you ever even have an open mind?
+
+Drago was an elite athlete.
+
+If LeBron can reinvent himself after “The Decision,” Drago can reinvent himself after The Murder.
+
+Bill: I don’t know, Shea. We basically had a real-life equivalent of Ivan Drago in MMA with Fedor Emelianenko, and he really never became a likable figure. Sure, there was that photo of him eating ice cream. But, like, 30 fights into his career, he was still making people’s children cry in the ring just by being near them. I tried putting “If he dies, he dies” into Russian on Google Translator and ran it back into English again on a different translator and then kept repeating that cycle and this is what I got:
+
+1. If he dies, he dies
+
+2. If he die, he dies
+
+3. If it will die, it dies
+
+4. If he dies, she dies
+
+5. If he dies, she will die
+
+WHAT? If Drago killed Rocky, he was going to go after Adrian next. I can’t abide by that, Shea. No way he ever turns babyface.
+
+I’m going to go with Wolf “The Dentist” Stansson from D2: The Mighty Ducks. The movie definitely overplays his villainous tendencies and unfairly avoids his strengths. Wolf Stansson is an incredible freaking coach. Sure, Gordon Bombay managed to get a team mostly made of Minnesota junior rec league players to be the core of an American national team. Wolf Stansson single-handedly built Team Iceland into a world power. Iceland has virtually no good hockey program whatsoever. The climate isn’t even really all that cooperative with a youth hockey program. And yet, somehow, Stansson has this team in the finals, where — let’s be honest — his boys are attacked by thugs and kids who use lassoes midplay. There is no way Stansson didn’t follow some David Blatt–style career path and end up revered as a legendary coach in the NHL someday. Probably the Red Wings, too.
+
+Villain With the Worst Chance to Turn It Around and Become Likable
+
+Shea: Racism in Remember the Titans. There’s no hope.
+
+Bill: I’m taking The Beast from The Sandlot. Mainly because The Beast is a dog, and dogs don’t have free will.
+
+Most Heinous Act
+
+Shea: Oh, man. We’re getting into dicey territory here. This probably has to go to Tong Po, the rubber-faced monster that lorded over Thailand’s kickboxing circuit in 1989’s Kickboxer. If you’ll recall, in that particular movie he (1) crippled Jean-Claude Van Damme’s brother, (2) indirectly encouraged the knifing of a dog, and (3) beat and then raped Van Damme’s girlfriend solely so he could mention to Van Damme during their fight that he’d beaten and raped his girlfriend. If you want to keep going …
+
+In Kickboxer 2 he (4) kills Van Damme and the brother he maimed, (5) has his manager hire people to burn down a gym that belongs to the protagonist (the remaining brother of the two Po murdered), which results in a child’s death, and (6) kills another man in the ring just because he doesn’t have anything better to do.
+
+Bill: Well, I’m not topping that.
+
+Worst Ideological Beliefs
+
+Shea: Higher Learning isn’t necessarily a sports movie, but Omar Epps and Tyra Banks both play college track stars, so that’s close enough. Worst Ideological Beliefs go to the neo-Nazis on campus, one of whom eventually goes on a sniper shooting spree and shoots several people, including Tyra and then eventually himself. What a terrible moment that was. I mean, like, how does the student governing body allow there to be a neo-Nazi stronghold on campus? When I was in college we couldn’t even start a pingpong club. :(
+
+Bill: Oh, I think the Nazis in Victory will do. Do I have to pick just one? Can I pick the cheatin’-ass referee? Evil on so many levels.
+
+Least Realistic-Looking Villain
+
+Shea: White Goodman from Dodgeball.
+
+I miss when Ben Stiller was funny. :(
+
+Bill: I would probably go with James Van Der Beek’s quarterback character in Angus, because someone that dreamy couldn’t possibly be a villain. OK, I won’t mention JVDB again.
+
+Shea, there’s a simple rule to Ben Stiller that makes everything easier to understand. When Ben Stiller tries to play a normal, everyday dude, his movies are often awful. The Ben Stiller Rule holds that the weirder and less realistic a Ben Stiller character is in a movie, the more funny it is likely to be. It’s almost perfect. No really, look at this graphic:
+
+It even applies to other Ben Stiller projects. The funniest sketches on The Ben Stiller Show were the weird ones. Even this incredibly unfortunate forgotten cameo in a Limp Bizkit video is funny because it’s a movie star cameoing in a Limp Bizkit video. That Dodgeball character could not exist in this or any other world, and because of that, it’s no surprise that Dodgeball is a wildly entertaining movie.
+
+Best Villainous Feud
+
+Shea: More inspiring than Rocky vs. Drago in Rocky IV. More ruthless than Tupac vs. Kyle in Above the Rim. More bloodthirsty than Iceland vs. America in The Mighty Ducks 2.
+
+Rick Moranis vs. Ed O’Neill in 1994’s Little Giants. They played peewee football coaches, but really they played metaphors for life. The goofy Moranis, an underwhelming figure with a knobby existence, coached a team comprised of the town’s castoff children (asthmatics and talentless saps and nerds) while O’Neill, a midlevel success story turned high-class by the microscope of Small Town, America, coached the town’s best, richest, most talented recruits. That was a football battle that echoed forever, one that shifted not only the legacy of each of the coaches, but also the thought pattern of the country.
+
+Bill: Very tough to beat. But I’m going with Happy Gilmore vs. Shooter McGavin in Happy Gilmore. Basically revitalized golf. Managed to make Happy Gilmore strong without making Shooter McGavin’s game any weaker in the process (besides the “You eat pieces of shit?” line, which took away a key Shooter McGavin burn). We also saw only the end of the first season between the two; you know they were going to go back on tour the next year and fans were going to realize that Happy Gilmore was kind of a jerk and that they should really cheer for the guy who was good at golf. Wait, can I go back and give the Best Chance to Turn It Around award to Shooter McGavin?
+
+Most Attractive Villain
+
+Shea: Oh my god. It’s not even close. Tommy from Warrior is the most attractive villain who’s ever been. A former Marine with a troubled background played by the amazing (and yoked) Tom Hardy? Bro, forget about it. Give him all the awards. I just rewatched all the important clips from that movie. I’m not even using my hands to type this. I’m using my boner. He was a villain only in the loosest context, and really maybe not even then, but still: I’m never passing up the opportunity to gawk. Most Attractive Villain: Tommy.
+
+Bill: They weren’t stripping off a cardboard cutout of Tommy in Warrior, man. Rachel Phelps in Major League! Sure, she wanted to sell the team and was basically a female Jeffrey Loria. At least she wasn’t a female Donald Sterling! And, besides, after the events of Major League II, you have to figure she sold the team and made a healthy profit, which means she was also rich.
+
+Or Drago for cheekbones alone.
+
+Shea: I mean, I’d definitely rather have sex with Tommy than Rachel. Look at him. Who can deny that?
+
+Least Attractive Villain
+
+Shea: Wow. Duh. Tong Po, the aforementioned hideous villain from Kickboxer. In a landslide. What an unfortunate face. Thankfully, it was mostly fake. The story:
+
+Do you remember the guy in Bloodsport who gets his leg broken by Chong Li? This guy right here:
+
+That’s Michel Qissi. He and Jean-Claude Van Damme actually came to America together to be movie stars. In Bloodsport, Qissi played a bit fighter named Suan Parades. In Kickboxer, a heavily made-up Qissi played Tong Po. I guess they couldn’t find any Thai kickboxers in Thailand? I don’t know. Whatever. Either way, Qissi played Po. How’s that for a bit of trivia?
+
+Oh, another loop in history: In 1990, Van Damme starred in a movie called Lionheart, in which he fought in an underground fighting circuit to earn money to send to his dead brother’s family. Qissi had a small role in that film as well. But the main bad guy there, Attila, was played by Michel Qissi’s brother Abdel. I can’t think of a situation in which you’d need to know any of this information, but I also can’t think of a reason you shouldn’t have it on hand.
+
+Bill: The pitcher Henry Rowengartner taunts with “pitcher’s got a big butt” in Rookie of the Year. I mean, start with the big butt and go from there. Sure, he’s not the primary villain. But I can’t find a video of the guy Rowengartner strikes out with the underhand pitch to end the game, and he was the guy I was originally going to pick. So this is good enough.
+
+THE TERRIBLE 10
+
+10. Sidney Deane in White Men Can’t Jump
+
+Shea: Here’s the thing. Wesley Snipes technically wasn’t the villain in White Men Can’t Jump. Really, there wasn’t one, unless you wanted to be very clever and say the villain of the movie was something like Billy Hoyle’s self-destructive tendencies or whatever, in which case I want you to know that everybody you know secretly hates you.
+
+Bill: This was almost entirely what I got out of going to college.
+
+Shea: So there was no real villain for all of White Men Can’t Jump, least of all Wesley Snipes’s perfectly played Sidney Deane character. But there was one particular moment when Snipes did the most villainous thing of all.
+
+After approaching Billy and arranging for them to play in a big two-on-two tournament, the two set out playing satellite two-on-two games against people who didn’t know how good Billy was. They played this team and that team at this court or that court, beating each for a few hundred bucks. Then, after a string of wins, Sidney set up a game in which he and Billy would play against a team for nearly $2,000 (most of which is put up by Billy). Billy and Sidney end up losing that game, but only because Sidney was friends with the guys they lost to and he’d already set it up ahead of time that he’d throw the game so he could collect all of Billy’s money. There is basically nothing more dastardly than that, than hustling the guy you’re supposed to be hustling with. When Billy’s girlfriend figured out he’d been duped, when she made Billy go to Sidney’s apartment and confront him about it and Sidney confirmed what happened, that was the moment I stopped trusting people forever. And that’s the whole point of villains: to get you to realize the world can be a terrible place.
+
+Bill: That’s the thing! It’s really hard to dislike Sidney Deane, even when he’s hustling Billy at the beginning, if only because his hustle is so complete. In fact, it’s pretty hard to hate Wesley Snipes in general. He sounds pretty nuts from all the stories you hear about him on the Blade sets, and he went to jail and everything, but he’s charismatic! I bet he’s like a cooler Willie Mays Hayes in real life.
+
+9. Shooter McGavin in Happy Gilmore
+
+Bill: So wildly disappointed that Shooter McGavin didn’t make it further on the list. What a bad guy. Oh man. Start with the name. Shooter McGavin is the perfect sort of name that you would give to a golfer who’s supposed to be casual but isn’t casual at all. Try to come up with a better name for Shooter McGavin’s character than Shooter McGavin. I guarantee you won’t come close. Shooter McGavin is as good of a name as Happy Gilmore is a shitty name.
+
+Within 30 seconds of seeing Shooter McGavin onscreen, you know everything about Shooter McGavin that you need to know. Shooter McGavin went to Stanford. The PGA Tour covered up at least one affair he had with somebody on staff. He really, really likes Jim Nantz. Unironically. Like they go out to eat on a semiregular basis during the tour season, always to a upper-echelon chain steak house, always ordering the same thing. He lives in a gated community in Florida and has a huge ranch in Arizona. He would oldbrag about not being on Twitter. He got very angry when his first-class upgrades didn’t clear. All of this is conjecture about Shooter McGavin, and yet I’m sure all of it is true.
+
+What helps is that he really doesn’t have a reason to get angry at Happy Gilmore, but he does anyway. It shouldn’t bother him that this idiot who can’t really play golf has somehow made it on tour. The people who were cheering for Happy mostly weren’t coming from Shooter’s crowds. The increase in television ratings should create larger rights fees, which should create bigger prize pools, and given Shooter’s standing on the tour, he should make more money. The only thing he really has to do is avoid angering Happy into becoming a better golfer, which is exactly what he does.
+
+This is such a wonderful performance from Christopher McDonald that it has become his signature character to an extent that might not be matched elsewhere. I guess Ving Rhames is kinda always going to be Marsellus Wallace. But if you see Christopher McDonald acting in something else, you look at the screen and say, “Hey, it’s Shooter McGavin!” even if you’re sitting in a room by yourself and it’s kinda weird that you’re announcing things to nobody in particular. It’s such a career-defining part that TMZ’s report on McDonald’s DUI arrest is headlined “Shooter McGavin Takes Unhappy DWI Mug Shot.”
+
+8. Bull in Over the Top
+
+Shea: Two things here …
+
+First: Dude, the ’80s were so dope. I love that someone went to Warner Bros. and was like, “We should do an action-drama movie about a truck-driving arm wrestler, and we should get Sylvester Stallone to star in it, and we should give him $12 million to do so,” and then someone at Warner Bros. was like, “Oh my god, that is EXACTLY what we should do,” AND THEN THEY ACTUALLY DID THAT SHIT.
+
+If we figure for inflation, $12 million in 1987 comes out to more than $25.1 million today. TWENTY-FIVE MILLION ONE HUNDRED THOUSAND. For a movie about arm wrestling. For a bit of context: Matt Damon gets about $18 million per movie today; Brad Pitt gets about $20 million per; Tom Cruise gets $22 million per. What a truly spectacular time period to have been a movie star the ’80s were. We’re never going to see an era like that in Hollywood again. R.I.P. to big-budget arm-wrestling movies.
+
+Bill: I just want to note that the screenplay for Over the Top was written by Stallone and Stirling Silliphant. Stirling Silliphant! Oh, and this movie made $5.1 million in its opening weekend. The Los Angeles Times couldn’t believe that it did worse than Mannequin. You know, because who can’t fathom taking your girlfriend out to see the arm-wrestling movie the weekend it comes out?
+
+Shea: Second: Bull Hurley — OH MY GOD. What a mountain. What a just gross, unlikable mountain. Lots of times, villains will end up being either a very specific kind of intimidating cool (like Tupac in Above the Rim, for example) or backwardly charming (like Freddy Krueger in the Nightmare on Elm Street series). Not Bull, though. Bull wasn’t cool and he wasn’t witty and he wasn’t anything that could be stretched out to reach even the very edge of enjoyment. He never seemed to exist beyond any scene other than the one he happened to be in at any particular moment. He didn’t look like he might maybe be a good person in a different context, or like he’d ever even been anything other than a human monster. Bull looked like he enjoyed committing hate crimes. Bull looked like he was a fan of domestic violence. Bull accelerated villainy past all the fun stuff and right into a terrible reality. I mean, really, if Bull walked up behind you right now and grabbed you by the back of the neck and decided he wanted to do things to you, those were just some things that were about to be done to you. That’s it. That’s all. There’s no other option. Sorry, butthole. It was nice knowing you.
+
+True villain.
+
+Bill: I have serious reservations about the sportsbook that was taking action on this arm-wrestling competition. I’m pretty sure it would have been way more lucrative for the contestants to bet serious money on the competition around town and rig the actual arm-wrestling contest, especially given that the sportsbook didn’t really seem to be concerned that one of the contestants was betting $7,000 on himself to win. They didn’t recognize him when he came to cash his ticket? Lincoln Hawk also seems like the kind of guy who would have left his ticket in his jeans and washed it by accident. Maybe that was going to be the plot of Over the Top 2. Or Over the Top 2 was going to be a Desert Bus–esque trucking movie. Hopefully the latter.
+
+7. Chong Li in Bloodsport
+
+Shea: The bloodthirsty maniac Chong Li. Man.
+
+You know what was so wild about Chong Li, who, BTW, has remained since 1988 as the all-time greatest karate movie villain? The slow reveal of exactly how deranged and maniacal he really was. Since I’ve reached adulthood, it seems like movies try to start out with very aggressive, deliberately violent scenes to establish immediately that the villain in that particular movie is ultra evil. (My favorite versions: Philip Seymour Hoffman in 2006’s Mission: Impossible III and Heath Ledger as the Joker in The Dark Knight.) In Bloodsport, though, Chong Li’s amorality is gently unraveled, and only ever done as a byproduct of the story, never as the catalyst for it. It’s basically perfect. Some highlights:
+
+• The first time we see Li he is dead-eyed, staring at three blocks of ice that he’s about to demolish. (Not that crazy. Fighters break blocks of stuff all the time.
+
+• The first time we hear Li talk, it’s to indirectly flex on Jean-Claude Van Damme after JCVD has just broken a brick into dust. (A little crazy, but not noticeably so; maybe he’s just a guy who likes to talk trash?)
+
+• After Ray Jackson, Van Damme’s oversize friend, crumples a man’s nose in during a fight, he walks up to the edge of the platform, his face and chest covered in someone else’s blood, points at Li, then shouts, “I’m gonna kill you, man! Yeah, you, man! You got it!” Li responds by offering little more than a slightly puzzled look, followed by a smile (or, at least, what he thinks a human smile is supposed to look like), followed by a head nod, followed by a death stare. (This is when everyone should’ve started to figure out that Li was all the way nuts.)
+
+• In his first fight, Li barely bothers to protect himself. He walks through his opponent’s kick, parries another, grabs him into a sleeper hold, then puts him to sleep. He doesn’t just let him go, though. He waves to the crowd, then crushes the guy in the side of the head, then throws him off the mat, then silently dances around while the crowd cheers him on. (Here’s where I would’ve been like, “Nah, you know what? This ain’t for me.”)
+
+• In a later fight, he incapacitates his opponent, then breaks his leg just because. Again, he punctuates this with his wildly creepy Silent Celebration. (RUN, EVERYONE. THIS MOTHERFUCKER IS INSANE.)
+
+• When Li ends up fighting Jackson, Li beats him, then attempts to kill him by stomping his head in. (You’ll notice that his end-of-fight moves are getting more and more vicious. A precursor to … )
+
+• In a fight that precedes the final match, Li beats a guy, attempts to cave in the guy’s skull as the guy lies helpless on the mat, and then breaks the guy’s neck to make absolutely certain he dies. He expresses disdain and contempt in the face of everyone’s shock, and then finally decides to break his silence, but only to tell JCVD he’s going to kill him next.
+
+What a master.
+
+Far as I’m concerned, no movie villain has ever been as quietly brilliant and understated as Chong Li. He should’ve finished first here, Bill. (AND FOR EVERYONE READING, I RANKED HIM FIRST ON MY LIST, OBVS.) When he finds out that he didn’t, know that I’m telling him it was because you ranked him so low.
+
+Bill: Yeah, karate movies aren’t sports movies. This is a Jean-Claude Van Damme movie, which is really its own genre. Shooter McGavin was no. 1 on my list and he wasn’t even on yours, Shea. We come from different worlds. When we find those rare spots where we agree, it’s where we find the truly transcendent villains. Let’s work together.
+
+6. Wolf “The Dentist” Stansson in D2: The Mighty Ducks
+
+Bill: I already covered Stansson’s backstory and why I think he ends up redeeming himself in the long run, but he’s such a wonderful villain in this movie. Somebody put together a video clip of great Stansson scenes and it covers his two best moments in the movie. First, when he deflates the beach ball that Team USA has been using — not with his bare hands, but while wearing hockey gloves, which is somehow infinitely tougher and more villainous. Then Bombay insults Stansson’s short professional career without warning. How annoying could one man possibly be? It’s no surprise that Stansson then slashes Bombay’s bad knee during the ensuing game of three-bar. If anything, Stansson took it easy on Bombay. If he had slew-footed him, Stansson would be higher on this list.
+
+Also, just from his nickname and tenor alone, I guarantee that Stansson would have been one of the most popular hockey players in YouTube history. There would be all kinds of music videos and best-of clips for him, even though I guess canon suggests he retired 20 years before YouTube ever existed. Sean McIndoe would link to a Wolf Stansson video once a month minimum. Once every couple of weeks if he made it to the Leafs.
+
+Shea: My favorite part of this movie was when the Ducks try the flying V and get demolished. I was real young when I watched this, so I remember seeing that and immediately thinking that Iceland was indestructible.
+
+My second favorite part of the movie was that it had the kid from The People Under the Stairs in it. At the time, I was really thinking that all movies were real, that all the characters existed in the same universe, that they could all overlap. So I was very glad to see that he was able to pull his life together after such a traumatic experience.
+
+5. Ernie McCracken in Kingpin
+
+Bill: You can have your last decade of Bill Murray movies in which he plays the same bitter, wise old man in everything. I will take Bill Murray in Kingpin over everything else. McCracken is like a sleazier version of Shooter McGavin who has achieved the same level of dominance over the craft he’s chosen with a tenth of the actual return, so he feels more desperate and naturally acts more aggressively. Ernie McCracken has the same status and morality as a local used-car magnate, and that is the exact level of unearned gravitas that fits Bill Murray. I guess the Kingpin universe is a little more surreal, which seems weird given that Happy Gilmore gets into a fistfight with Bob Barker at one point, but I can’t imagine Happy Gilmore having his hand mutilated 20 minutes into the movie and it being quite as appropriate as it is for Roy Munson (another fantastic name) in Kingpin.
+
+Again, though, I have serious bookmaking reservations. Claudia’s ex-boyfriend Stanley bets $500,000 on Big Ern to beat Roy in the finals, apparently doubling his stake in the process when McCracken rolls those three consecutive strikes to do so. First off, what casino is taking a $500,000 bet on one side of a bowling matchup? That doesn’t scream shady to you? And then, even more distressingly, how on earth is perennial contender Ernie McCracken even money against Roy Munson, a one-armed long shot who hasn’t been on the bowling tour for years? Munson’s seriously -120? Where is all this money coming in on Munson from? Bowling syndicate? Did they make their money betting on safeties in the Super Bowl? I hear that’s a really lucrative bet.
+
+Shea: One time I bet $40 that the Spurs would beat the Lakers by 75 points. They didn’t cover.
+
+4. Johnny Lawrence in The Karate Kid
+
+Shea: Johnny Lawrence is maybe the most iconic high school bad guy who’s ever been. Everything about him was just so perfectly hatable. He was (probably) cool and (definitely) handsome and (very likely) a star athlete, but in the worst way possible all around. Even his coiffed hair managed to look smug and entitled. I mean, just LOOK at it:
+
+That’s the hair of a man who hates the world. That’s the hair of a villain.
+
+In retrospect, his categorization as a villain is probably all wrong. I mean, yeah, he was a bad guy in the movie, but really he was just a foot soldier for the despicable John Kreese, leader of the Cobra Kai. That’s who really had the black heart. Lawrence was just a high school upperclassman trying to balance a budding martial arts career, a girlfriend with wandering eyes, and an overbearing father figure. Lawrence even goes so far as to praise Daniel LaRusso at the end of the movie after he loses to LaRusso in the tournament. Lawrence was probably an OK dude once you got to know him. But we all watched this as kids, so his villainy was just sort of imprinted on us, I guess. Poor Johnny. He never stood a chance.
+
+Bill: Was it really that big of a surprise that the Daniel-Ali relationship didn’t work out? Ali went to college while Daniel stuck around Reseda and didn’t really do anything besides hang out with his weird older male friend, so while I’m sure there were plenty of awkward phone calls in which Daniel tried to keep “us” going, I can’t really blame Ali for moving on to that football player from UCLA. I mean, I guess I can’t prove it, but I’m pretty sure Daniel LaRusso would have been terrible in bed.
+
+3. Rachel Phelps from Major League/Major League II
+
+Bill: So evil they had to bring her back for the sequel! The problem in writing about Rachel Phelps now, having mentioned her before, is that the bar for “asshole owner” has risen from Jeffrey Loria to Donald Sterling. Rachel Phelps was vile and disingenuous, but at least she hated everybody on that team equally, you know? Actually, she let Pedro Cerrano practice his Buddhist beliefs in the locker room in Major League II while the rest of the team really didn’t seem to respect his religious views very much.
+
+I guess I wonder about the valuation of the Indians. Phelps wanted to move them to Miami really badly during the original Major League because they were going to give her a new stadium. (Life sorta imitates art.) Her plan is to make them so awful that fewer than 800,000 people show up to the ballpark during the season, which would be an attendance figure of 9,756 people per game, which seems downright impossible to imagine nowadays, but wasn’t the case back then; Cleveland actually averaged 9,063 fans per game in 1984. We know the team has a radio deal. Let’s assume its television deal in the ’80s was for peanuts. The team also gets hot toward the end of the season, to the point that Cleveland Stadium starts selling out. The Indians go into the playoffs and, as we learn in the playoffs, lose in the ALCS to the White Sox.
+
+Rachel Phelps is so pissed by what happens that she sells the team to just-retired third baseman Roger Dorn. How on earth? I know Dorn was a high-priced free agent once upon a time, but there’s no way he saved so much money that he could have afforded to buy a Major League Baseball team, let alone one that had just won its division and appeared to be on the up-and-up. And then, the Indians are so bad within months — and Dorn is so obviously broke after signing just one free agent, Jack Parkman — that Dorn sells the team back to Phelps? Doesn’t the commissioner’s office vet these things? Oh, not really, you say? Forget all that, then, I guess.
+
+What do you think Phelps does with the team after Major League II? The Indians make it to the World Series, so even if they lose there, they’re getting national television money and appear to be a perennial playoff contender. Does Phelps just hold on to the team and profit from it? Does she realize she can just live in Miami and doesn’t have to be in attendance in Cleveland every day? Does it bother her that somebody has taken the name and identity of her center fielder and nobody seems to care? This is what I think about when I think about Rachel Phelps.
+
+Shea: You think a lot about Rachel Phelps.
+
+2. Clubber Lang in Rocky III
+
+Bill: That speech Shea gave during the awards section about how Ivan Drago was less a villain and more an incredible fighter who just happened to not know his limits really got to me. I think he’s right on, and we both agree that Clubber Lang was more of a villain than it might seem. Drago probably wasn’t trying to kill Apollo Creed; it just worked out that way. Clubber was definitely trying to fuck Mickey up when he shoved him. That was no Pedro-spinning-Zimmer move.
+
+It’s also kinda unfair that Lang never got a rematch against Rocky after they split the first two fights. There’s no way they didn’t get a third fight between those two in closed circuit for serious money. I mean, Clubber Lang doesn’t even come up again.
+
+Shea: Two things:
+
+First: I agree. Clubber should’ve gotten that rematch. There’s just no way it doesn’t happen. He earned it. He deserved it. Shame on the fight promoters for not pulling that together.
+
+Second: Remember the scene where he charged up Rocky at Rocky’s press conference? Clubber was the no. 1 contender in the world and he showed up to the press conference just to goad Rock. Everything was perfect. The way he kept telling Mickey, “Shut up, old man!” The way he got Adrian’s attention by shouting, “Hey, woman! Hey, woman!” The way he told her to COME BACK TO HIS APARTMENT, HAHAHA. Oh, man.
+
+Or remember the scene right before he and Rocky first fought, where he completely disregarded Apollo Creed? Creed walked over to wish him good luck in his fight and Clubber slapped his hand away, telling him, “I don’t need no has-been messing up my corner.” Dogg, that’s amazing. And he just kept going, laying into him, insulting him and threatening him and plucking his feathers off. It was just beautiful. Nobody ever said anything in any movie more perfectly than Clubber hissed, “Come on, Creeeeeeed” when he was pickling Apollo. It was master-class villainy.
+
+Or remember the scene in which Clubber is being interviewed on TV after he’d beaten Rocky and the interviewer asks if he accepts Rocky’s challenge to fight again and Clubber tells him he doesn’t accept the challenge because Rocky isn’t a challenge, but that he’ll gladly beat him up again? That’s amazing. Clubber Lang would’ve been a billionaire if he were a boxer today. Nobody was a better marketer. Nobody sold a fight more. Nobody in the Rocky galaxy was ever any more vicious, any more intimidating than Clubber. He’s the king, and one of my all-time favorite movie characters. Good on him for sneaking up this far on the list. But still, he couldn’t top …
+
+1. Birdie in Above the Rim
+
+Shea: Perfection. Clubber was loud and abrasive and occasionally oafish, and that was so much fun to watch (particularly in contrast to Rocky’s sterilized humility). But Birdie? Man. He was a great white shark in a bandanna.
+
+Just, really, I mean, I don’t even know how to write about how perfect Tupac was in that role. I need a special keyboard with new letters nobody’s ever seen before that would allow me to come up with new words nobody’s ever read before to properly explain why he’s the greatest sports movie villain of all time.
+
+He was just so smart and devastatingly handsome and ruthless and terrible and furiously intimidating in the most breathtaking way possible. More than that, he fluttered through all those characteristics seamlessly, flipping from warm and likable to deadly and vicious without any hint of irony. (It’s a trait that Tupac possessed in real life, too — that he was able, basically on cue, to turn the world to ash with his gaze is one of the reasons that he will for all of time be the more interesting one between him and Biggie.) Birdie played people, manipulated people, discarded people, and did so as a reactionary measure just as often as a calculated one.
+
+When the goofy and innocent-eyed and darling fifth wheel Bugaloo interrupts a team meeting that Birdie is hosting, Birdie responds by (figuratively) undressing him in front of everyone. It’s the saddest part of the movie.
+
+When Flip, the neighborhood bum, talks back to him after being accosted, Birdie responds by creeping up on him while he sleeps, waking him up, letting him gain just enough consciousness to understand that it’s Birdie standing over him, and then slitting his throat with a razor blade over and over again. It’s the most startling part of the movie.
+
+And when Birdie’s team ends up losing the end-of-movie basketball tournament on a last-second alley-oop, he responds by ordering his second-in-command out on a shooting spree in the middle of the crowded basketball court. It’s the most unsettling part of the movie. (So much so, in fact, that you can’t find a clip of it on the Internet. This one here is as close as it gets, and it cuts off before the gun is taken out of the bag … )
+
+https://www.youtube.com/watch?v=lPyIrspkEx0?t=4m16s
+
+Birdie was no joke, man.
+
+Tupac wasn’t either.
+
 He’s the king. He’s the greatest sports movie villain that’s ever been.

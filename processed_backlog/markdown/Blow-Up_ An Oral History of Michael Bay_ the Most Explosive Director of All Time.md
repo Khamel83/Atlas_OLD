@@ -12,7 +12,7 @@
 
 # An Oral History of Transformers Director Michael Bay
 
-Unknown author • November 20, 2007 
+Unknown author • November 20, 2007
 
 ![An Oral History of Transformers Director Michael Bay](http://www.gq.com/web/20150302114817im_/http://www.gq.com/favicon.ico)
 

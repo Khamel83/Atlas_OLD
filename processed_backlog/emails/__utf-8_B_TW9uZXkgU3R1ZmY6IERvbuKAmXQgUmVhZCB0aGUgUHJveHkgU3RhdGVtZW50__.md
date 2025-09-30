@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We have talked a few times recently about a stylized fact of US public companies, which is that retail shareholders don’t vote. When a compa
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Shareholder voting
-    
-  
+
+
 
 We have talked a few times recently about a stylized fact of US public companies, which is that retail shareholders don’t vote. When a company has its annual meeting and sends out proxy statements and asks its shareholders to vote on questions like “should our board of directors be re-elected” and “do you approve of management’s compensation plan” and “do you approve of our audit firm” and “should we write a report about our greenhouse gas emissions,” its ordinary individual shareholders throw those proxy statements in the garbage and do not vote on those questions.
 One reason that retail shareholders don’t vote is that it is hard to reach them: They have busy lives, they get a lot of junk mail, they throw it all away. Plus the company itself generally   won’t know who its retail shareholders are, and will have to communicate using a multi-tiered indirect approach (sending proxies to brokers who send them to shareholders, etc.) that doesn’t reach shareholders very efficiently.
@@ -112,63 +112,63 @@ That's right: The pretty clear implication of this order is that, if you are a p
   [5]
  They might be right, but it’s a weird thing to say on SEC letterhead.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Opposite ESG
-    
-  
+
+
 
 I guess there are three ways to invest in stocks in the modern US:
 	Invest just to make money.	Invest to promote your values, and you are a Democrat.	Invest to promote your values, and you are a Republican.
@@ -193,20 +193,20 @@ Sure okay. Elsewhere in, uh, anti-ESG metaphors, here’s a Bloomberg article ti
 Even the creator of the “Dilbert” cartoon is taking potshots at an investment strategy that focuses on risks tied to the environment, social and corporate governance. In a series of illustrations published last week, author Scott Adams criticized ESG, comparing it to a “colicky” baby with “firehouse diarrhea.”
 Great.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Crypto investing philosophy
-    
-  
+
+
 
 I don’t know much about Mark Carnegie, “Australia’s highest-profile cryptocurrency investor,” but I enjoyed these quotes about the Terra blockchain and its blown-up cryptocurrency Luna:
 
@@ -218,23 +218,23 @@ He said Mr Kwon and other crypto entrepreneurs operating stablecoins were engage
 See I would quibble that what Terra actually rediscovered was death-spiral financing, not leveraged banking, but I agree with the general sentiment. If you come to crypto because (1) you are very self-confident and (2) you don’t know anything about traditional finance and don’t want to find out, then you will have a lot of fun repeating and magnifying the historical errors of traditional finance.
 Also: “With a Ponzi scheme you are trying to get in and out early”! A reasonable trading approach. A problem in a lot of crypto investing is that if there is some token that makes some attractive promises, and it has gone up a lot and well-regarded investors are buying it, you cannot be entirely sure if they are buying it because (1) they have an informed belief that the attractive promises are true and the thing will be worth money in the long term or (2) they think it’s a Ponzi but want to get in and out early. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Trump Sued by New York Over   ‘Fraudulent’ Asset Valuations. Investors in Donald Trump’s media Spac  push for better terms as clock runs out. Banks Offload $8.55 Billion of   Citrix Debt at Rock-Bottom Prices. Dimon     Blasts Higher Capital Requirements as Bank CEOs Head to Washington. US banks threaten to leave Mark Carney’s green alliance over  legal risks. How  Goldman Sachs Found a Friend in America’s Small Businesses. Stablecoin Issuer  Tether Ordered to Produce Documents Showing Backing of USDT. Binance and FTX Make Top Bids for Bankrupt Lender  Voyager. A $29 Billion   Derivatives Market Faces Squeeze in Japan. EY Faces Knotty Split of Its Lucrative Tax Business. FDA warns against potentially deadly ‘NyQuil Chicken Challenge.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not none: There are people who buy small blocks of stock, submit shareholder proposals, go to annual meetings and generally try to make trouble at public companies. These people are generally committed activists and/or cranks, though, not regular shareholders.
 
 
   [2] Empirically BlackRock often gets criticized for its voting record. Also there are countervailing considerations where you might want to go to *corporate pension managers* and say “oh we always vote with management, we’re very nice.” Still the abstract consideration seems valid, and BlackRock does market its voting record.
 
 
-  [3] Also if you are an institutional manager you probably subscribe to proxy advisory services which to some extent outsource this work, though there are 
-various controversies there and you might not want to outsource it too much. 
+  [3] Also if you are an institutional manager you probably subscribe to proxy advisory services which to some extent outsource this work, though there are
+various controversies there and you might not want to outsource it too much.
 
 
   [4] To be clear, you should probably read the proxies, because they have information that might inform your buying and selling decisions. You just shouldn’t worry about voting.
@@ -243,114 +243,114 @@ various controversies there and you might not want to outsource it too much.
   [5] I assume that there is also a sort of covert fight over ESG going on here: The three majority SEC commissioners think that investment managers should pay more attention to voting on shareholder proposals because that will probably promote more ESG goals, while the two Republicans think managers should pay less attention to voting because that will probably reduce the focus on ESG. I am not sure that that’s true, though; Vivek Ramaswamy of Strive Asset Management has been pushing anti-ESG through shareholder pressure, and you could imagine in a couple of years shareholder proposals *often* being a tool for shareholders to push back against managers who they think are too “woke” or too committed to ESG. (See the next section!)
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

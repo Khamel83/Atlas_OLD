@@ -7,8 +7,8 @@
 
 Google Cloud Next 2024 was Google's most impressive assertion yet that it has the AI scale advantage and is determined to use it.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/gemini-1-5-and-googles-nature/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dlbWluaS0xLTUtYW5kLWdvb2dsZXMtbmF0dXJlLyJdfSwiZXhwIjoxNzE1MzU0NDYzLCJpYXQiOjE3MTI3NjI0NjMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.TQKJoSzXdyqvbUk9tFPnndj9atzJ8zolYDpJyerbGo8NtDT0hV6AviqpPBZ5USA4SuprUOSX1lsW5fX7BGPE9SMfKyCuDgoi-vZ1e_KWcOIW_cvokabuJwRU-b97GeiunGs-oyfvp2EtRqyxASSH0xL8GsUgD6xdaMvDAV0OH7d5AZq40m22kDssi4WqYQdGXaee7lYhP-OTrZbCiKDOShSBz4MAyFA-96j7ior52eVVtzoEwF6ShXyAzC1CcboAwzx6zbi4-ESpkF-KiNKIoU81mhpQ2gzOgGMLpMzrmMWz-M-4VH7ycwg-MZuGkk9BYQPGjQca0C7Q5UXcArVhaw)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -123,22 +123,22 @@ Google is facing many of the same challenges after its decades long dominance of
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNTM1NDQ2MywiaWF0IjoxNzEyNzYyNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.ur2mptQiLP1f1OrA1lYsSb-Q3is5J8KK40M_vSbPHnSUBC8FzKND6KN4tQCBAqtAYOVgWrKtvZE9S2FwxIlQrojzWykYtZKFA5r7vmacl0vVPOrImClqQlUUNZQNrJctBqVipkFznrry5I5PTZ4DVNhH5UFHA1clNyMl5xZnJ97Mj3yWIMZEWPSElb0MJ449mg7q3piequEjVkXn6B97qFXOjjSIwbyWJjaRANBiORBc-i4HNkBsUz3ujBNVtTjZnNCu1kyxJFgTaSFw4v75V87BN-0tX_0Jd5Mw2h4vy7qvs_LPvq6BcMtojdFYLL_is6RuxUjWcMKcpEGR-mwtgQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNTM1NDQ2MywiaWF0IjoxNzEyNzYyNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.ur2mptQiLP1f1OrA1lYsSb-Q3is5J8KK40M_vSbPHnSUBC8FzKND6KN4tQCBAqtAYOVgWrKtvZE9S2FwxIlQrojzWykYtZKFA5r7vmacl0vVPOrImClqQlUUNZQNrJctBqVipkFznrry5I5PTZ4DVNhH5UFHA1clNyMl5xZnJ97Mj3yWIMZEWPSElb0MJ449mg7q3piequEjVkXn6B97qFXOjjSIwbyWJjaRANBiORBc-i4HNkBsUz3ujBNVtTjZnNCu1kyxJFgTaSFw4v75V87BN-0tX_0Jd5Mw2h4vy7qvs_LPvq6BcMtojdFYLL_is6RuxUjWcMKcpEGR-mwtgQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*

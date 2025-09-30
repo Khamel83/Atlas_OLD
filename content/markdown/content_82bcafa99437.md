@@ -69,7 +69,7 @@ span.a2a_svg.a2a_s__default.a2a_s_a2a {background-color: #0073aa!important;trans
 span.a2a_svg.a2a_s__default.a2a_s_a2a:hover,
 span.a2a_svg.a2a_s__default.a2a_s_a2a:focus {background-color: #a75523!important;opacity:1!important;}
 .a2a_menu a.a2a_i:visited, .a2a_menu a.a2a_more,
-a.a2a_i, a.a2a_i:visited{color: #444!important;} 
+a.a2a_i, a.a2a_i:visited{color: #444!important;}
 a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 
 <title>Chen, Candice | Milken Institute School of Public Health | The George Washington University</title>
@@ -102,12 +102,12 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 <header>
 
 <section class="region region-alert">
-    
+
 <div id="block-gwfilesystemalertblock" class="settings-tray-editable block block-gwu-alert-block block-gwu-legacy-alert-block" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
-      
+
 <div id='alert-html'>
 </div>
 
@@ -117,11 +117,11 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 </section>
 
 <section class="row region region-page-above">
-    
+
 <div class="container">
-  
-  
-  
+
+
+
   <!-- BEGIN PATTERN: 'gw-header' -->
 <style>
   .gw-header-subtitle {
@@ -131,14 +131,14 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 
 <div class="gw-header-block d-flex align-items-center container">
   <div class="gw-header-link d-flex align-items-center">
-   
-    
+
+
                                  <a href="https://publichealth.gwu.edu/" class="d-flex flex-column">
 
 <img src="/modules/custom/gwu_blocks/images/gw-header-image-53.png" alt="Milken Institute School of Public Health site logo" class="gw-header-image image image--primary img-fluid mr-md-4" />
 
 </a>
-                         
+
         <div class="gw-header-text">
                <a href="https://publichealth.gwu.edu/"> <p class="gw-header-title">
             Milken Institute School of Public Health
@@ -146,9 +146,9 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
           <p class="gw-header-subtitle">
             &nbsp;
          </p></a>
-        
+
     </div>
-  
+
   </div>
       <div id="cta-block" class="cta-btn">
       <a href="https://publichealth.gwu.edu/request-information" aria-label="Request Info; " target="">
@@ -167,9 +167,9 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 
 <div  class="navbar navbar-expand-xl row pb-0" id="navbar-main" id="navbar" role="banner">
             <div class="mr-md-auto w-100 pb-0">
-        
-  
-              
+
+
+
   <div class="visually-hidden" id="block-main-bootstrap-navigation-menu">Main Bootstrap Navigation</div>
 
 <!-- BEGIN PATTERN: 'gw-multilevel-navbar' -->
@@ -182,7 +182,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 <img src="/modules/custom/gwu_content_types/img/gw_mono_0_0.png" alt="GW Home" class="image image--primary img-fluid" />
 
 </a>
-    
+
     <!--<button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
       <span class="navbar-toggler-icon"></span>
     </button>-->
@@ -190,283 +190,283 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 <div id="navbarContent" class="collapse navbar-collapse d-flex justify-content-end">
 
 <ul class="navbar-nav d-flex flex-wrap justify-content-end" >
-    
-    
+
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-1" href="/about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">About</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-1">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-1" href="/about/leadership" class="nav-link dropdown-item">Leadership</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-2" href="/about/dean" class="nav-link dropdown-item">Message from the Dean</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-3" href="/faculty-directory" class="nav-link dropdown-item">Faculty Directory</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-4" href="/our-strategic-plan" class="nav-link dropdown-item">Our Strategic Plan</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-5" href="/about/administrative-offices" class="nav-link dropdown-item">Administrative Offices</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-6" href="/about/pressroom" class="nav-link dropdown-item">Pressroom</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-7" href="/about/events" class="nav-link dropdown-item">Events</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-8" href="/about/jobs" class="nav-link dropdown-item">Jobs</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-1-9" href="/about/accreditation" class="nav-link dropdown-item">Accreditation</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-2" href="/admissions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Admissions &amp; Financial Aid</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-2">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-2-1" href="/admissions/graduate-admissions" class="nav-link dropdown-item">Graduate Admissions</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-2-2" href="/admissions/graduate/tuition-funding" class="nav-link dropdown-item">Tuition and Funding Opportunities</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-2-3" href="/admissions/undergraduate-admissions" class="nav-link dropdown-item">Undergraduate Admissions</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-2-4" href="/admissions/contact-us" class="nav-link dropdown-item">Contact Us</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-3" href="/academics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Academics</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-3">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-1" href="/academics/programs" class="nav-link dropdown-item">Academic Programs</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-2" href="/academics/undergraduate-advising" class="nav-link dropdown-item">Undergraduate Advising</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-3" href="/academics/advising" class="nav-link dropdown-item">Graduate Advising</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-4" href="/academics/courses" class="nav-link dropdown-item">Courses</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-5" href="/office-applied-public-health" class="nav-link dropdown-item">Office of Applied Public Health (OAPH)</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-6" href="/interprofessional-education-gwsph" class="nav-link dropdown-item">Interprofessional Education at GWSPH</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-7" href="/academics/graduation" class="nav-link dropdown-item">Graduation</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-8" href="/academics/forms" class="nav-link dropdown-item">Academic Forms</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-9" href="/academic-integrity" class="nav-link dropdown-item">Academic Integrity Requirements</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-3-10" href="/academics/program-archive" class="nav-link dropdown-item">Program Archive</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-4" href="/research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Research</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-4">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-1" href="/research/ore" class="nav-link dropdown-item">Office of Research Excellence</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-2" href="/research/centers-institutes" class="nav-link dropdown-item">Organized Research Centers</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-3" href="/research/research-integrity-compliance-and-ethics" class="nav-link dropdown-item">Research Integrity, Compliance, &amp; Ethics</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-4" href="/research/gwsph-research-funding" class="nav-link dropdown-item">Research Funding</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-5" href="/research/research-measurement-administration" class="nav-link dropdown-item">Research Measurement &amp; Administration</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-6" href="https://blogs.gwu.edu/pod2/" class="nav-link dropdown-item">Public Health and Law Research Support (PH&amp;L RST)</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-7" href="/research/pre-and-post-award-unit" class="nav-link dropdown-item">Pre &amp; Post Award (PH&amp;L RST)</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-8" href="/research/gwsph-research-day" class="nav-link dropdown-item">GWSPH Research Day</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-9" href="/ore-research-brief-archives" class="nav-link dropdown-item">ORE Research Brief Archives</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-4-10" href="/research-toolkit" class="nav-link dropdown-item">Research Toolkit</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-5" href="/departments" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Departments</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-5">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-1" href="/departments/biostatistics-and-bioinformatics" class="nav-link dropdown-item">Biostatistics and Bioinformatics</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-2" href="/departments/environmental-and-occupational-health" class="nav-link dropdown-item">Environmental and Occupational Health</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-3" href="/departments/epidemiology" class="nav-link dropdown-item">Epidemiology</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-4" href="/departments/exercise-and-nutrition-sciences" class="nav-link dropdown-item">Exercise and Nutrition Sciences</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-5" href="/departments/global-health" class="nav-link dropdown-item">Global Health</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-6" href="/departments/health-policy-and-management" class="nav-link dropdown-item">Health Policy and Management</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-5-7" href="/departments/prevention-and-community-health" class="nav-link dropdown-item">Prevention and Community Health</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-6" href="/resources" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Resources</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-6">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-6-1" href="/about/administrative-offices/communications-office" class="nav-link dropdown-item">Communications</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-6-2" href="/services/alumni" class="nav-link dropdown-item">For Alumni</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-6-3" href="/resources-students" class="nav-link dropdown-item">For Students</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-6-4" href="/faculty" class="nav-link dropdown-item">For Faculty</a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-7" href="/office-inclusive-excellence" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Diversity &amp; Inclusion</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-7">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-7-1" href="https://publichealth.gwu.edu/office-inclusive-excellence" class="nav-link dropdown-item">Mission and Goals </a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-7-2" href="https://publichealth.gwu.edu/inclusive-excellence-committee" class="nav-link dropdown-item">Inclusive Excellence Committee</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-7-3" href="https://publichealth.gwu.edu/office-inclusive-excellence-monthly-highlights-june" class="nav-link dropdown-item">Monthly Highlights and Events </a>
-                    
+
       </li>
         </ul>
 
 </li>
-    
+
             <span class="d-flex align-items-center nav-divider"></span>
         <li class="nav-item dropdown"><a id="dropdownMenu-main-8" href="/give" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Give</a>
 
 <ul class="dropdown-menu border-0 shadow gw-dropdown-menu" aria-labelledby="dropdownMenu-main-8">
-    
-    
+
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-8-1" href="/donors-making-difference" class="nav-link dropdown-item">Donors Making a Difference</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-8-2" href="/give/opportunities" class="nav-link dropdown-item">Giving Opportunities</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-8-3" href="/ways-give" class="nav-link dropdown-item">Ways to Give</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-8-4" href="/frequently-asked-questions-about-giving" class="nav-link dropdown-item">Frequently Asked Questions about Giving</a>
-                    
+
       </li>
-    
+
               <li class="dropdown-submenu"><a id="dropdownMenu-main-8-5" href="/milken-institute-sph-development-staff" class="nav-link dropdown-item">Milken Institute SPH Development Staff</a>
-                    
+
       </li>
         </ul>
 
@@ -1232,12 +1232,12 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
   </div>
 
 <div class="searchblox-search search-form search-searchblox-search-form collapse settings-tray-editable block block-gwu-gps-block block-gwu-gse-search" data-drupal-selector="searchblox-search" id="block-searchbloxsearch" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
-      
+
 <form action="/departments/health-policy-and-management/candice-chen" method="post" id="searchblox-search" accept-charset="UTF-8">
-  
+
 <div data-drupal-selector="edit-basic" id="edit-basic" class="form-group">
 <div class="form-group js-form-item form-item js-form-type-textfield form-item-search-keys js-form-item-search-keys form-no-label">
         <input data-drupal-selector="edit-search-keys" type="text" id="edit-search-keys" name="search_keys" value="" size="60" maxlength="128" class="form-control" />
@@ -1254,11 +1254,11 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
   </div>
 
 <div id="block-breadcrumbs" class="settings-tray-editable block block-system block-system-breadcrumb-block {{ container }}" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
-      
-  
+
+
 <nav class="ml-3 gw-breadcrumb" aria-label="breadcrumb">
   <ul class="breadcrumb bg-transparent">
                   <li class="breadcrumb-item"><a href="/">Home</a></li>
@@ -1290,17 +1290,17 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
     <div class="row">
 
 <div class="col-sm-12">
-                          
+
 <div class="views-element-container settings-tray-editable block block-views block-views-blockgw-view-local-alert-gw-local-alert" id="block-gw-view-local-alert" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
-      
+
 <div class="form-group"><div class="gw-local-alert view view-gw-view-local-alert view-id-gw_view_local_alert view-display-id-gw_local_alert js-view-dom-id-dceaac91caf1d561addd5586caacefaf7148e5252332a8721518528d40ce9c5d">
-  
-    
-      
-  
+
+
+
+
           </div>
 </div>
 
@@ -1308,16 +1308,16 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
   </div>
 
 </div>
-              
-      
-      
+
+
+
       <section class="main-content col order-last col-sm-12" id="content" role="main">
 
 <a id="main-content"></a>
                       <div data-drupal-messages-fallback class="hidden"></div>
 <div id="block-mainpagecontent" class="block block-system block-system-main-block">
-  
-    
+
+
       <div class="content">
 
 <main class="main-content published">
@@ -1330,7 +1330,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 
 <div class="container px-0">  <div class="row">
     <div class="col-md-4 col-12">
-      
+
       <p class="h1 heading-1 d-md-none ">Candice Chen</p>
 
 <img src="/sites/g/files/zaxdzs4586/files/styles/d07/public/2023-05/candice-chen.jpg?itok=V0yUHOe9" alt="Candice Chen" class="image image--primary img-fluid" />
@@ -1340,17 +1340,17 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 <div class="col-md-8 col-12">
             <div class="person-info">
         <h1 class="heading-2 d-none d-md-block">Candice Chen</h1>
-        
+
                               <p class="person-title">Associate Professor</p>
-                  
+
                 <p class="faculty-type">Full-time Faculty</p>
                 <hr class="my-4 ml-0">
 
 <p class="person-dept"><strong>School:</strong> Milken Institute School of Public Health</p>
-        
+
                   <p class="person-dept"><strong>Department:</strong> Health Policy and Management</p>
-        
-        
+
+
                 <p class="person-contact mb-1"><strong>Contact:</strong></p>
 
 <div class="container">  <div class="row two-column">
@@ -1374,12 +1374,12 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 <div class="gw-phone d-flex">
   <div class="phone-icon">
    <span class="phone-icon fa fa-phone"></span>
-  </div> 
+  </div>
   <div class="phone-details">
         <strong>Office Phone:</strong>
-    
+
           <span class="gw-number">202-994-4243</span>
-      </div>   
+      </div>
 </div>
 <!-- END PATTERN: 'gw-phone' -->
                                                                                                             </div>
@@ -1387,7 +1387,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
                                                                                                                                           </div>
         </div>
                 <div class="col-md-6 col-sm-12">
-              
+
                   <!-- BEGIN PATTERN: 'gw-address' -->
 
 <div class="gw-address">
@@ -1406,7 +1406,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 </div>
 <!-- END PATTERN: 'gw-address' -->
 
-<br>              
+<br>
                   <!-- BEGIN PATTERN: 'gw-address' -->
 
 <div class="gw-address">
@@ -1435,14 +1435,14 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 
 <div class="container px-0">  <div class="row one-column">
     <div class="col">
-                
+
             <div class="clearfix text-formatted field field--name-field-gw-person-biography field--type-text-with-summary field--label-hidden field__item"><p>Dr. Chen is an Associate Professor in the Department of Health Policy and Management, focused on health workforce, primary care, and health professions and graduate medical education research and policy.&nbsp; She has both national and global expertise.&nbsp; Her research includes examination of the role of medical schools in addressing high priority workforce needs in primary care, underserved communities, and diversity; the role of graduate medical education in the cost practice patterns of physicians; and the status and challenges faced by medical schools in Sub-Saharan Africa.</p>
 
 <p>Prior to rejoining the George Washington University, Dr. Chen&nbsp;was the Director of the Division of Medicine and Dentistry in the Bureau of Health Workforce at the Health Resources and Services Administration, where she led programs to enhance training in primary care, oral health, and geriatrics, including graduate medical education programs in children’s hospitals and Teaching Health Centers.&nbsp; The Division's programs focused on addressing health workforce needs, particularly in rural and underserved communities.</p>
 
 <p>Dr. Chen is also a board certified pediatrician. She received her medical degree from Baylor College of Medicine and her Masters of Public Health from the George Washington University with a concentration in Community Oriented Primary Care.</p>
 </div>
-      
+
             </div>
   </div>
 </div>
@@ -1455,12 +1455,12 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
         <hr>
         <nav class="nav">
           <ul class="nav nav-tabs" id="gw-person-person-tabs" role="tablist">
-      
-      
-                                        
-                
-                
-                
+
+
+
+
+
+
                 <li class="nav-item gw-nav-item" aria-controls=expertise-tab role=tab aria-selected=false >
           <a class="active nav-link" href="#expertise" data-toggle=tab id=expertise-tab >
                           <span class="gw-tab-icon fa fa-lightbulb fa-2x"></span>
@@ -1500,7 +1500,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
                   <a data-toggle="collapse" class="d-flex align-items-center" href="#collapse-expertise"  aria-controls="collapse-expertise">
 
 <span class="gw-tab-icon fa fa-lightbulb fa-2x mr-3"></span>
-                    
+
                     Expertise
                   </a>
                 </span>
@@ -1529,7 +1529,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
                   <a data-toggle="collapse" class="d-flex align-items-center" href="#collapse-education"  aria-controls="collapse-education">
 
 <span class="gw-tab-icon fa fa-graduation-cap fa-2x mr-3"></span>
-                    
+
                     Education
                   </a>
                 </span>
@@ -1560,7 +1560,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
                   <a data-toggle="collapse" class="d-flex align-items-center" href="#collapse-teaching"  aria-controls="collapse-teaching">
 
 <span class="gw-tab-icon fa fa-university fa-2x mr-3"></span>
-                    
+
                     Teaching
                   </a>
                 </span>
@@ -1583,7 +1583,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
                   <a data-toggle="collapse" class="d-flex align-items-center" href="#collapse-publications"  aria-controls="collapse-publications">
 
 <span class="gw-tab-icon fa fa-book-open fa-2x mr-3"></span>
-                    
+
                     Publications
                   </a>
                 </span>
@@ -1625,10 +1625,10 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
   </div>
 
 <div id="block-gw-main-theme-gwhtmlblock-2" class="settings-tray-editable block block-gwu-blocks block-gwu-html-block" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
-      
+
   <style>
 /* first & last name on same line*/
 .slate-form #form_question_5baae049-c0d6-4154-92e6-ac6f83f09747,  /* First Name */
@@ -1647,7 +1647,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 }
 /* hides preferred name */
 .slate-form #form_question_9ed32061-8e70-4674-a30f-5b13a1d2b9b3 {
-    display: none !important;  
+    display: none !important;
 }
 /* set label above input field */
 .slate-form .form_question {
@@ -1770,7 +1770,7 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
 .slate-form .form_header {
     display: none !important;
 }
-/*hiding first <br> tag above the birthday question*/ 
+/*hiding first <br> tag above the birthday question*/
 .slate-form div#form_question_c42b69d4-0f9a-4fac-a1df-988733561a8f br:first-of-type{
     display: none !important;
 }
@@ -1842,10 +1842,10 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
     color: var(--GW_DarkBlue);
     background: var(--GW_HoverBuff);
     border-color: var(--GW_HoverBuff);
-    transition: 
-        color 0.15s ease-in-out, 
-        background-color 0.15s ease-in-out, 
-        border-color 0.15s ease-in-out, 
+    transition:
+        color 0.15s ease-in-out,
+        background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out,
         box-shadow 0.15s ease-in-out;
 }
 /* submit button container */
@@ -1870,8 +1870,8 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
     background: var(--GW_White);
     color: var(--GW_DarkBlue);
     border-radius: 0.2rem;
-    box-shadow: 
-        rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
         rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em;
 }
 .slate-form.slate-form-card-shadow header {
@@ -1885,8 +1885,8 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
     border-radius: 0.25rem;
     background: #e8e8e8;
     padding: 2rem;
-    box-shadow: 
-        rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
         rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em;
 }
 .slate-form.slate-form-gray-card .action.form_action_submit{
@@ -1894,8 +1894,8 @@ a.a2a_i:hover,a.a2a_i:focus,a.a2a_i:active{color:#444!important;}</style>
     padding-bottom: .5rem;
     text-align: center;
 }
-.slate-form.slate-form-gray-card .action button:hover, 
-.slate-form.slate-form-gray-card .action button:focus, 
+.slate-form.slate-form-gray-card .action button:hover,
+.slate-form.slate-form-gray-card .action button:focus,
 .slate-form.slate-form-gray-card .action button:active {
     background: var(--GW_White);
     border-color: var(--GW_DarkBlue);
@@ -1949,10 +1949,10 @@ waitForElement('.form_label', () => {
 <div class="footer-wrapper border-top">
       <footer class="footer container" role="contentinfo">
                   <section class="row region region-footer">
-    
+
 <div class="container">
-  
-  
+
+
 <div class="gw-footer">
 
 <!-- BEGIN PATTERN: 'gw-footer-4col' -->
@@ -1990,19 +1990,19 @@ waitForElement('.form_label', () => {
               </span>
 </span>
 <!-- END PATTERN: 'gw-social-facebook' -->
-      
-              
+
+
 <!-- BEGIN PATTERN: 'gw-social-instagram' -->
 
 <span class="gw-social">
   <span class="gw-social-link-instagram">
      <a href="https://www.instagram.com/gwpublichealth/"><span class="mr-1 social-icon fa-brands fa-instagram fa-2x" title="Instagram"></span></a>
-           
+
         </span>
 </span>
 <!-- END PATTERN: 'gw-social-instagram' -->
-      
-              
+
+
 <!-- BEGIN PATTERN: 'gw-social-twitter' -->
 
 <span class="gw-social">
@@ -2011,8 +2011,8 @@ waitForElement('.form_label', () => {
               </span>
 </span>
 <!-- END PATTERN: 'gw-social-twitter' -->
-      
-              
+
+
 <!-- BEGIN PATTERN: 'gw-social-youtube' -->
 
 <span class="gw-social">
@@ -2021,10 +2021,10 @@ waitForElement('.form_label', () => {
               </span>
 </span>
 <!-- END PATTERN: 'gw-social-youtube' -->
-      
-      
-      
-                
+
+
+
+
 <!-- BEGIN PATTERN: 'gw-social-linkedin' -->
 
 <span class="gw-social">
@@ -2033,9 +2033,9 @@ waitForElement('.form_label', () => {
               </span>
 </span>
 <!-- END PATTERN: 'gw-social-linkedin' -->
-      
+
               <p>&nbsp;</p><p><span class="spamspan" data-spamspan-class="btn btn-GW_DarkBlue btn-block"><span class="u">gwsphweb</span><img class="spamspan-image" alt="at" src="/modules/contrib/spamspan/image.gif" width="16" height="16" /><span class="d">gwu<span class="o"> [dot] </span>edu</span><span class="t"> (<span class="text">Website Support</span>)</span></span></p>
-      
+
     </div>
       </div>
   </div>
@@ -2053,17 +2053,17 @@ waitForElement('.form_label', () => {
 <div class="global-remote-footer bg-primary">
       <footer class=" container" role="contentinfo">
                   <section class="row region region-global-footer">
-    
+
 <div id="block-gwremotefooterblock" class="settings-tray-editable block block-gwu-remote-footer-block" data-drupal-settingstray="editable">
-  
-    
+
+
       <div class="content">
 
 <div class="row clearfix" style="background-color:#033d5a; color:white;">
     <section class="container">
       <div class="gw-bottom-block clearfix js-gw-bottom-block-exists">
         <style type="text/css">.gw-bottom-block-column-1 a {text-decoration: none; border-bottom: none;display:block;}
-.gw-bottom-block-column-1 a:hover, .gw-bottom-block-column-1 a:focus {text-decoration: none; border-bottom: none;} 
+.gw-bottom-block-column-1 a:hover, .gw-bottom-block-column-1 a:focus {text-decoration: none; border-bottom: none;}
 .remote-global-footer {background-color: #033c5a; color:#fff; font-size: 0.8125rem;}
 .remote-global-footer .col{max-width: 100%; display: flex; flex-direction: column; align-items: center;}
 .remote-global-footer .gw-bottom-block-column-2 a {color:#fff; border-bottom:1px solid #fff;text-decoration: none;font-family: "Gibson-Regular", Helvetica, Arial, sans-serif;}

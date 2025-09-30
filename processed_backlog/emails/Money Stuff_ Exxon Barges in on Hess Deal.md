@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I worry that perhaps nobody knows how mergers work. Not in like a “let me tell you” sense, but in an “everything is fundamentally unknowable
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Stabroek
-    
-  
+
+
 
 I worry that perhaps nobody knows how mergers work. Not in like a “let me tell you” sense, but in an “everything is fundamentally unknowable” sense. Lots of contracts between companies have provisions that say that the companies can’t transfer them to someone else. If you hire McKinsey & Co. to do some consulting for you, you don’t want Joe’s Consulting to show up for the engagement and say “oh yeah we bought this contract from McKinsey, that’s fine right?” So the contract will say that neither side can assign its rights and obligations under the contract to anyone else.
 So an incredibly basic question in mergers and acquisitions is: If we acquire Company X, do we keep all of its contracts? Or do those contracts have “anti-assignment” provisions that would be triggered by an acquisition?
@@ -95,37 +95,37 @@ Still, I see the arbitrageurs’ point. “We owe it to our investors and partne
 The possibility that Exxon might eventually make a bid for Hess outright might have contributed to the [merger arbitrage] spread narrowing, Boucher added.
 If Exxon just acquired Hess itself, I guess this joint venture wouldn’t be a problem.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Avid oopsie
-    
-  
+
+
 
 Elsewhere in “nobody knows how _____ work”: Really nobody knows how convertible bonds work. I mean, a lot of people have the general idea (they’re bonds that can convert into stock). But they are somewhat weird instruments with odd nooks and crannies, and, while they are not rare, neither are they all that common. Lots of companies will never do a convertible in their lives. Generally financially literate people — chief financial officers and corporate treasurers, industry investment bankers — will probably have a decent working knowledge of bond deals and bank loans and stock offerings and mergers, because they come up a lot; they might be less familiar with convertibles.
 I, on the other hand, used to be a convertible bond investment banker, so I have somewhat more than the usual familiarity with them. I could tell you, for instance, that it is common in the US for a convertible to be done as a Rule 144A offering, meaning that the bonds are sold to large “qualified institutional buyers” (QIBs) in a private placement and then can’t be resold to retail investors. Doing a 144A deal is generally faster and cheaper than doing a public deal that is registered with the US Securities and Exchange Commission, and retail investors don’t really buy convertibles anyway.
@@ -155,11 +155,11 @@ This is a bad oopsie by Avid, which probably should have put a reminder in its c
  The holder owns “at least 25%” of the bonds (the amount required to accelerate), and there are $143.75 million of bonds outstanding; 20 points on 25% of $143.75 million is $7.2 million. Plus interest. 
 That’s the thing about efficient markets, man. You might quite reasonably find section 4.06(e) of this 2021 convertible bond indenture, the section covering restricted transfer legends, boring, and not want to think about it. Avid quite reasonably found it boring, and did not think about it. But for someone who did find it interesting enough to pay attention, there was $7 million of prize money just lying around for the taking. 
 
-  
-    
+
+
       NYCB
-    
-  
+
+
 
 The thing about troubled banks is:
 	There is no better news story, for a troubled bank, than “Troubled Bank Raises Equity Capital.” The trouble, at a troubled bank, always is that the market has lost faith that its assets have enough value to pay back all of its creditors (depositors, etc.) with an ample cushion of shareholder money left over. Raising money from shareholders just fixes the trouble. Oh there’s other stuff — probably earnings are going to be rough for a while even after the balance-sheet hole is filled, and you’ve got to fix whatever management problems led to the trouble — but at some level a troubled bank is just a binary question — will it fix its balance-sheet hole or not? — and if it does, then the stock should rally.	There is no worse news story, for a troubled bank, than “Troubled Bank Tries to Raise Equity Capital.” The market practice, these days, is that troubled banks try to raise capital quietly, and then go out and announced that they have done it. If they announce that they’re trying, that suggests to the market that their discreet calls to potential investors didn’t work, and it causes panic. There are many reasons that   Silicon Valley Bank failed last year, but a big one is that, when it ran into trouble, it launched a public stock offering to fix the trouble. The offering itself caused a panic that sank the bank.
@@ -188,11 +188,11 @@ Catching the proverbial knife set up Mnuchin’s firm and the other investors fo
 
 Yes, the very most valuable service that you can provide to a troubled bank is quickly giving it enough money to strengthen their balance sheet. You can charge a lot for that.
 
-  
-    
+
+
       Lyft 
-    
-  
+
+
 
 Oh   come on:
 
@@ -212,11 +212,11 @@ Thus, Defendants knew or were almost certain to know of the misstatement on or s
 
 I feel like this theory of efficient markets goes too far? “If there’s a typo in the adjusted EBITDA margin forecast in the second page of an earnings release from a widely followed company, eagle-eyed analysts will spot it within minutes and call the company to correct it.” I know that I often say around here that “everything is securities fraud,” but I have   already said that this wasn’t, and I think I’ll stick to that.
 
-  
-    
+
+
       Fake bankruptcy!
-    
-  
+
+
 
 The  classic move is: You buy stock in a company, you put out a fake press release saying that you — or Amalgamated Amalgamators Inc., or Warren Buffett — have proposed to acquire the company at a 50% premium to its current price, automated news-writing algorithms pick up your press release, automated trading algorithms buy stock, the stock goes up, you sell your stock at a profit, and everyone pretty quickly realizes it’s a hoax and the stock goes down again. There are two problems with this:
 	It is illegal and you’ll probably get caught.	While it technically works, in the sense that you can pretty reliably generate a brief small stock-price pop with a fake merger announcement, people who actually do it have an absolutely bizarre track record of messing it up and not making any money on it. It is baffling to me, but they put all this work into filing fake press releases and then forget to sell their stock while it’s up. I  wrote in 2015 about an accused serial fake-merger hoaxer who, according to the US Securities and Exchange Commission complaint against him, manipulated three different stocks with fake mergers and lost money on each one of them. And we  talked a few months ago about a guy who allegedly did a hoax merger manipulation on WeWork Inc. just before it filed for bankruptcy, but who put out the fake press release after market hours and so couldn’t sell his stock at a profit — in fact, couldn’t sell it at all before the bankruptcy filing.
@@ -233,16 +233,16 @@ Even the brief existence of such fake filings can trigger computer-driven court 
 
 “Snail-mailed”! How are you going to trade on that?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed’s Powell Says Significant Changes to   Bank Capital Plan Likely. JPMorgan  pursued Discover deal before Capital One’s $35bn offer. ‘Sued on both sides’:  SEC braces for lawsuits from supporters and critics of climate rule. China Scrutinizes   Bond Buying at Smaller Banks as Market Soars. The Lehman liquidators taking on China’s  Evergrande.  Bitcoin Bulls Cite a Simple Reason for Its Rally: Not Enough Coins. Step Aside Pickleball, America’s New Local Battle Is Over  Cricket.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Loosely, the first sort of provision — “you can’t sell this contract to someone else” — is an “anti-assignment” provision, while the second — “if you get acquired we can get out of the contract” — is a “change of control” provision. 
+
+  [1] Loosely, the first sort of provision — “you can’t sell this contract to someone else” — is an “anti-assignment” provision, while the second — “if you get acquired we can get out of the contract” — is a “change of control” provision.
 
 
   [2] Page 80 of  the Chevron/Hess merger proxy says: “The Stabroek JOA contains a right of first refusal (the Stabroek ROFR) provision that, if applicable to a change of control transaction and properly exercised, provides the Stabroek Parties with a right to acquire the participating interest in the Stabroek Block held by the Stabroek Party subject to such transaction (at a value that is based on the portion of the value of the change of control transaction that reasonably should be allocated to such participating interest and is increased to reflect a tax gross-up).” So basically: 1. You figure out how much Chevron is paying for Hess (a  $60 billion headline enterprise value, though it’s an all-stock deal so that moves around with Chevron’s stock price). 2. You figure out how much of the purchase price is meant to pay for the Stabroek block (obviously debatable, though you can probably get a reasonable estimate). 3. Hess effectively gets that payment from Chevron tax-free: It’s an all-stock merger that doesn’t trigger any tax on the Stabroek interest. But if Exxon were to buy just the Stabroek interest from Hess, for cash, that *would* be a taxable transaction, and the contract requires Exxon to gross Hess up for the taxes. So Exxon would have to pay Hess more for the project than (an arbitrator calculates that) Chevron is paying.
@@ -254,7 +254,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Technically a “convertible” is a bond issued by a company that is convertible into its stock, while an “exchangeable” is a bond issued by a company that is convertible into a different company’s stock — commonly,  as here, a bond issued by a financing subsidiary convertible into its parent’s stock.
 
 
-  [5] See section 6.01 of  the indenture, governing events of default, and section 6.02, governing acceleration. In particular, most covenant defaults require 60 days’ notice and can be cured (section 6.01(g)), but failure to pay interest can’t be (section 6.01(a)). 
+  [5] See section 6.01 of  the indenture, governing events of default, and section 6.02, governing acceleration. In particular, most covenant defaults require 60 days’ notice and can be cured (section 6.01(g)), but failure to pay interest can’t be (section 6.01(a)).
 
 
   [6] Also arguably its lawyers should have sent it a reminder? Its bankers? I mean, no, I was a convertibles banker and it would never in a million years have occurred to me to ping my clients a year after issuing their bonds to say “hey remember to unrestrict the CUSIP”; that was someone else’s problem. Whose? Nobody’s?
@@ -266,48 +266,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] This  Craig Coben piece at FT Alphaville lays out the case against SVB’s public offering: “Investors must assess the equity offering on the basis of a repaired balance sheet. They must know you don’t actually need them.” And: “The (much) bigger issue is that the offering was not underwritten or already subscribed-for. Ideally, Goldman Sachs would have spoken with a small group of investors before the equity offering by ‘wall-crossing’ them. … And ideally, SVB’s press release would have said that the entire offering was subscribed for or guaranteed by a series of reputable investors.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -318,46 +318,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cklo9v.5il4/c507dc0b.gif" alt="" border="0" /></a>

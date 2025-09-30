@@ -23,7 +23,7 @@ warnings.warn(
 
 class ATPTranscriptScraper:
     """Compatibility wrapper for ATPTranscriptScraper"""
-    
+
     def __init__(self, base_url: str = "https://catatp.fm"):
         self.base_url = base_url
         self.manager = TranscriptManager()
@@ -32,17 +32,17 @@ class ATPTranscriptScraper:
             DeprecationWarning,
             stacklevel=2
         )
-    
+
     def scrape_transcript(self, url: str) -> Optional[str]:
         """Scrape single transcript - compatibility method"""
         transcript_info = TranscriptInfo(url=url, title="ATP Episode", source="atp")
         result = self.manager.fetch_transcript(transcript_info)
         return result.content if result else None
-    
+
     def discover_episodes(self, limit: int = 50) -> List[Dict]:
         """Discover ATP episodes - compatibility method"""
         transcripts = self.manager.discover_transcripts('atp', limit=limit)
-        
+
         # Convert to old format for compatibility
         episodes = []
         for transcript in transcripts:
@@ -51,9 +51,9 @@ class ATPTranscriptScraper:
                 'title': transcript.title,
                 'episode_number': transcript.episode_number
             })
-        
+
         return episodes
-    
+
     def get_episode_transcript(self, episode_url: str) -> Optional[str]:
         """Get episode transcript - compatibility method"""
         return self.scrape_transcript(episode_url)

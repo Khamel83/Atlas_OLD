@@ -48,7 +48,7 @@
 <meta property="og:url" content="http://web.archive.org/web/20250621124810/https://www.ahajournals.org/doi/10.1161/STROKEAHA.123.042528"/>
 
 <meta property="og:image" content="http://web.archive.org/web/20250621124810im_/https://www.ahajournals.org/cms/asset/7e98dc14-243d-424a-bc18-0ff6ee3b5ebe/strokeaha.123.042528.fig03.jpg"/>
-        
+
             <meta property="og:image:width" content="2000"/>
             <meta property="og:image:height" content="1568"/>
 
@@ -96,7 +96,7 @@ else
     15142240
 -->
  <!-- In publication scope -->
-  
+
      <!-- All other journals and groups -->
       <script type="text/javascript" src="http://web.archive.org/web/20250621124810js_/https://cdn.cookielaw.org/consent/15142240-95b5-4b6c-933b-1c2caa1bad2a/OtAutoBlock.js" nonce="95339e644b8dfaa6-SJC"></script>
       <script src="http://web.archive.org/web/20250621124810js_/https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="15142240-95b5-4b6c-933b-1c2caa1bad2a" nonce="95339e644b8dfaa6-SJC"></script>
@@ -116,7 +116,7 @@ else
 <!-- End Google Tag Manager -->
 
 <div id="pb-page-content" data-ng-non-bindable>
-                
+
             <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
 
 <div class="disable-header-scrolling">
@@ -174,7 +174,7 @@ googletag.enableServices();
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0'); });
 </script>
 </div>
-            
+
         </div>
 
 </div>
@@ -200,19 +200,19 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 </div></div></div></div><div class="header-right-content header-row__item d-flex justify-content-end h-100 flex-grow-1"><ul class="nav align-items-center justify-content-end w-100"><li class="nav-item d-none d-xl-flex pr-16 border-0 h-100 border-white border-left align-items-center"></li><li class="nav-item d-flex p-0 header-icon justify-content-center h-100 border-white border-left align-items-center">
 
 <div class="eCommerceCartIndicatorWidget">
-    
-        
-        
+
+
+
             <a href="/web/20250621124810/https://www.ahajournals.org/action/showCart?FlowID=1" id="cartLabel" title="Show shopping cart" class="shopping-cart-indicator">
                     <span class="position-relative mr-lg-0 mr-0 pt-lg-0 pr-lg-0">
                         <span class="icon-component "><svg aria-hidden="true"><use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/aha/releasedAssets/icons/icons.spritemap.svg#cart"></use></svg></span>
                         <span class="shopping-cart-indicator__badge d-none" data-id="cart-size">0</span>
                     </span>
-                
+
                 <span class="shopping-cart-indicator__label font-weight-bold text-deep-gray">Cart</span>
             </a>
-        
-    
+
+
 </div>
 </li><li class="nav-item d-flex p-0 header-icon justify-content-center h-100 border-white border-left align-items-center">
 
@@ -259,7 +259,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 <ul class="header-sidebar__nav border-top text-uppercase list-unstyled">
 	<li class="nav-item nav-item--primary font-weight-bold border-bottom">
 		<a data-toggle="collapse" href="#publications" role="button" aria-expanded="false" aria-controls="publications" class="nav-link d-flex px-0 py-16 collapsed">
-			Publications 
+			Publications
 			<span class="icon-component">
 				<svg aria-hidden="true">
 					<use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/aan/releasedAssets/icons/icons.spritemap.svg#arrows-down">
@@ -315,7 +315,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 
 <li class="nav-item nav-item--primary font-weight-bold border-bottom">
 		<a data-toggle="collapse" href="#information" role="button" aria-expanded="false" aria-controls="information" class="nav-link d-flex px-0 py-16 collapsed">
-			Information 
+			Information
 			<span class="icon-component">
 				<svg aria-hidden="true">
 					<use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/aan/releasedAssets/icons/icons.spritemap.svg#arrows-down">
@@ -341,7 +341,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 
 <li class="nav-item nav-item--primary font-weight-bold border-bottom">
 		<a data-toggle="collapse" href="#submit-publish" role="button" aria-expanded="false" aria-controls="submit-publish" class="nav-link d-flex px-0 py-16">
-			Submit &amp; Publish 
+			Submit &amp; Publish
 			<span class="icon-component">
 				<svg aria-hidden="true">
 					<use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/aan/releasedAssets/icons/icons.spritemap.svg#arrows-down">
@@ -373,7 +373,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 
 <li class="nav-item nav-item--primary font-weight-bold border-bottom">
 		<a data-toggle="collapse" href="#resources" role="button" aria-expanded="false" aria-controls="resources" class="nav-link d-flex px-0 py-16">
-			Resources 
+			Resources
 			<span class="icon-component">
 				<svg aria-hidden="true">
 					<use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/aan/releasedAssets/icons/icons.spritemap.svg#arrows-down">
@@ -531,7 +531,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 				</select>
 			</div>
 			<div class="form-check custom-control custom-checkbox py-2"><input id="direct-import" type="checkbox" name="direct" value="true" checked="checked" class="custom-control-input"><label for="direct-import" class="custom-control-label text-uppercase font-weight-bold">Direct Import</label></div>
-		</fieldset>           
+		</fieldset>
 		<footer class="form-footer">
 			<input onclick="onCitMgrSubmit()" class="btn btn-primary" type="submit" name="submit" value="Download">
 		</footer>
@@ -555,12 +555,12 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
     <p>
         Check if you have access through your login credentials or your institution to get full access on this article.
     </p>
-    
+
         <a href="/web/20250621124810/https://www.ahajournals.org/action/ssostart?idp=https://ahasso.heart.org&amp;redirectUri=%2Fdoi%2F10.1161%2FSTROKEAHA.123.042528" class="btn btn-primary btn-sm mb-8 mb-sm-0">
             <i aria-hidden="true" class="icon-user-o"></i>
             <span>Personal login</span>
         </a>
-    
+
     <a href="/web/20250621124810/https://www.ahajournals.org/action/ssostart?redirectUri=%2Fdoi%2F10.1161%2FSTROKEAHA.123.042528" class="btn btn-primary btn-sm mb-8 mb-sm-0">
     <i class="icon-institution"></i>
     <span>Institutional Login</a></span>
@@ -571,12 +571,12 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 <input type="hidden" name="redirectUri" value="/doi/10.1161/STROKEAHA.123.042528"/>
 
 <input type="hidden" name="loginUri" value=""/>
-        
+
             <input type="hidden" name="popup" value="true"/>
-        
-        
-            
-            
+
+
+
+
                 <div class="form-row">
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
@@ -585,20 +585,20 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
         <div class="label ">
 
 <label for="login">Email</label>
-                
-            
-            
+
+
+
         </div>
-        
-        
+
+
         <input id="login" class="form-control" type="text" name="login" value="" size="15" placeholder="Enter your email" aria-required="true"/>
-        
-                            
+
+
     </div>
 
 </div>
                         <div class="actions raa-form__reset-password text-right mt-n4">
-                            
+
                         </div>
                     </div>
 
@@ -608,14 +608,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 <div class="form-group">
         <div class="label ">
             <label for="password">Password</label>
-            
+
         </div>
-        
-        
+
+
         <input id="password" class="form-control" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password" aria-required="true"/>
         <span class="password-eye-icon icon-eye hidden"></span>
-        
-                            
+
+
     </div>
 
 </div>
@@ -625,33 +625,33 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
                         </div>
                     </div>
                 </div>
-            
-        
+
+
         <div class="form-row mt-4">
             <div class="col-12 col-sm-6 text-left">
                 <div class="custom-control custom-checkbox">
-                    
-                        
-                        
+
+
+
                             <input id="cea65e15-93dd-4573-856d-aa8b5a9b17bd-remember" class="custom-control-input" type="checkbox" name="remember" value="true"/>
-                        
-                    
+
+
                     <label for="cea65e15-93dd-4573-856d-aa8b5a9b17bd-remember" class="custom-control-label">
                         Keep me logged in
                     </label>
                 </div>
             </div>
-            
-                
+
+
                     <div class="col text-right">
                         <button type="submit" data-dismiss="modal" class="btn btn-submit">
                             <span>Login</span>
                             <span aria-hidden="true" class="icon-arrow-right ml-3"></span>
                         </button>
                     </div>
-                
-                
-            
+
+
+
         </div>
         <div class="form-row border-top mt-3 pt-3">
             <div class="col raa-form__register">
@@ -660,28 +660,28 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
                     here
                 </a>
             </div>
-            
-            
+
+
         </div></form>
 </div>
 </div>
 </div>
 
 <div class="pill__item eCommercePurchaseAccessWidgetContainer">
-        
-            
+
+
                 <div class="save-for-later">
-                    
+
                         <a data-bind="saveItem" data-doi="10.1161/STROKEAHA.123.042528" class="save-for-later-link" href="/web/20250621124810/https://www.ahajournals.org/action/saveItem?doi=10.1161/STROKEAHA.123.042528">
                             <i aria-hidden="true" class="icon-heart"></i>
                             Save for later
                         </a>
-                    
+
                     <a class="saved-go-cart d-none" href="/web/20250621124810/https://www.ahajournals.org/action/showCart?FlowID=2">Item saved, go to cart</a>
                 </div>
-            
-            
-        
+
+
+
         <h5>Purchase Options</h5>
         <p>Purchase this article to access the full text.</p>
 
@@ -693,13 +693,13 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-0');
 
 <header>
                                 <p class="purchase-item__title">
-                                    
-                                        
+
+
                                             Purchase access to this journal for 24 hours
-                                        
-                                        
-                                        
-                                    
+
+
+
+
                                 </p>
                                 <div class="purchaseMessage d-none info" data-item="JOURNAL-PPV-STR-ELECTRONIC-USD-10.1161/STROKEAHA.123.042528-52">
                                     <p></p>
@@ -802,7 +802,7 @@ googletag.enableServices();
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-1'); });
 </script>
 </div>
-            
+
         </div>
 
 <div data-widget-def="graphQueryWidget" data-widget-id="d36b7d68-07d5-4ff7-8c85-a59be839619a" class="mt-24">
@@ -850,7 +850,7 @@ googletag.enableServices();
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-2'); });
 </script>
 </div>
-            
+
         </div>
 
 </aside></article><div data-extent="article-wrapper"><div class="core-container"></div><div class="ux-modal-container"><div id="submit-comment" role="dialog" tabindex="-1" aria-hidden="true" aria-labelledby="submitResponseModalTitle" class="modal fade comment__modal"><div class="modal-dialog modal-fullscreen-sm-down h-auto modal-lg"><div class="modal-content"><div class="modal-form"><div class="modal-header d-flex align-items-center justify-content-between p-16"><h2 id="submitResponseModalTitle" class="modal-header__title">Submit a Response to This Article</h2><button type="button" data-dismiss="modal" data-toggle="modal" data-target="#submit-comment" aria-label="close" class="close text-regular"><span class="icon-component "><svg aria-hidden="true" style=""><use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/wk/aha/releasedAssets/icons/icons-777f6aab9078da564370747a5e757bb9.spritemap.svg#close"></use></svg></span><span class="sr-only">Close</span></button></div><form id="js-comment-form" action="/web/20250621124810/https://www.ahajournals.org/action/submitComment" method="POST"><input type="hidden" name="doi" value="10.1161/STROKEAHA.123.042528"/><div class="modal-body"><div class="compose-wrapper"><h3 class="modal-body--title">Compose eLetter</h3><div class="form-group"><label for="eletterTitle">Title:</label><input type="text" id="eletterTitle" name="title" placeholder="eg. Re. this article..." required="required" class="form-control"/></div><div class="form-group"><label for="eletterComment">Comment text:</label><textarea rows="8" name="comment" id="eletterComment" required="required" tabindex="-1" class="tinyMCEInput"></textarea></div></div><div class="contribs-wrapper mb-24"><div class="modal-body--title-wrapper"><h3 class="modal-body--title">Contributors</h3><span class="required-field">(all fields are required)</span></div><div class="contribs-forms-wrapper"><div id="#contribForm[INDEX]" class="comment-contrib-form"><div class="hidden comment-contrib-form__remove-wrapper"><button class="comment-contrib-form__remove btn d-flex align-items-center"><span>Remove Contributor</span><span class="icon-component "><svg aria-hidden="true" style=""><use xlink:href="/web/20250621124810im_/https://www.ahajournals.org/specs/products/wk/aha/releasedAssets/icons/icons-777f6aab9078da564370747a5e757bb9.spritemap.svg#close"></use></svg></span></button></div><div class="form-group"><label for="contribFirstName[INDEX]">First Name:</label><input type="text" id="contribFirstName[INDEX]" name="firstName" placeholder="eg. John" required="required" class="form-control comment-contrib-form__input"/></div><div class="form-group"><label for="contribLastName[INDEX]">Last Name:</label><input type="text" id="contribLastName[INDEX]" name="lastName" placeholder="eg. Doe" required="required" class="form-control comment-contrib-form__input"/></div><div class="form-group"><label for="contribEmail[INDEX]">Email:</label><input type="email" id="contribEmail[INDEX]" name="email" placeholder="eg. example@gmail.com" required="required" class="form-control comment-contrib-form__input"/></div><div class="form-group mb-0"><label for="contribAffiliation[INDEX]">Affiliation:</label><input type="text" id="contribAffiliation[INDEX]" name="affiliation" placeholder="eg. Royal Free Hospital" required="required" class="form-control comment-contrib-form__input"/></div></div></div><div class="add-another-contributor"><button id="commentAddContrib" type="button" class="btn btn-primary rounded-0">Add Another Contributor        </button></div></div><div class="statement-wrapper"><h3 class="modal-body--title">Statement of Competing Interests</h3><div class="form-group"><label>Competing Interests?</label><div><div class="form-check custom-control custom-radio"><input id="statementRadioYes" name="competingInterests" type="radio" value="yes" checked="checked" class="custom-control-input"/><label for="statementRadioYes" class="custom-control-label">YES</label></div><div class="form-check custom-control custom-radio"><input id="statementRadioNo" name="competingInterests" type="radio" value="no" class="custom-control-input"/><label for="statementRadioNo" class="custom-control-label">NO</label></div></div></div><div class="form-group disclosures-textarea-group"><label for="commentDisclosures">Please describe the competing interests</label><textarea rows="8" name="disclosures" id="commentDisclosures" required="required" tabindex="-1" class="tinyMCEInput"></textarea></div></div><div class="captcha-wrapper mb-24">
@@ -874,7 +874,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-2');
         <div class="dialog-body p-16">
             <div class="dialog-message">
                 <p class="m-0">
-                    
+
                 </p>
             </div>
         </div>
@@ -991,7 +991,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1529604360245-2');
       <img src="http://web.archive.org/web/20250621124810im_/https://www.ahajournals.org/pb-assets/privacyoptions29x14-1734724368.png" alt="opt-out icon" class="d-inline-block mb-4"/></a>
   </li>
   <!-- OneTrust Cookies Settings button start -->
-<li role="listitem" class="list-inline-item mr-8"> 
+<li role="listitem" class="list-inline-item mr-8">
 <div class="text-center">
   <button id="ot-sdk-btn" class="ot-sdk-show-settings" style="border: 0 !important; font-size: 0.875rem; color: #fff !important;">
     Cookie Settings

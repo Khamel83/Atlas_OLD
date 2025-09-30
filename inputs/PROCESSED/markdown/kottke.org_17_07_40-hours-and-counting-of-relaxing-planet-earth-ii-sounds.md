@@ -7,11 +7,11 @@
 
 # 40 Hours of Relaxing Planet Earth II Sounds
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![40 Hours of Relaxing Planet Earth II Sounds](https://i.ytimg.com/vi/2QPbriKs_sI/sddefault.jpg)
 
-40 Hours of Relaxing Planet Earth II Sounds  
-  
-The producers of Planet Earth II (aka probably the best thing I’ve watched in the past year) shot a loooooot of footage for the program. Most of it got cut, but they’ve cut some of it together into these 10-hour videos of relaxing sights and sounds. So far, they’ve done mountains, the jungle, island, and desert. 
+40 Hours of Relaxing Planet Earth II Sounds
+
+The producers of Planet Earth II (aka probably the best thing I’ve watched in the past year) shot a loooooot of footage for the program. Most of it got cut, but they’ve cut some of it together into these 10-hour videos of relaxing sights and sounds. So far, they’ve done mountains, the jungle, island, and desert.
 

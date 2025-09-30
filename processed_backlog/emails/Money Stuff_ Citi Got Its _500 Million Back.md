@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In 2016, Revlon Inc. borrowed money from some banks and hedge funds. Citigroup Inc. was the administrative agent on the loan, in charge of d
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Citi Revlon
-    
-  
+
+
 
 In 2016, Revlon Inc. borrowed money from some banks and hedge funds. Citigroup Inc. was the administrative agent on the loan, in charge of doing stuff like forwarding payments from Revlon to the lenders. Revlon ran into some financial trouble and set out to modify its debt in an aggressive way that disadvantaged some of the lenders on that term loan. This made those lenders mad, and they geared up to sue Revlon. Just as they were about to sue, in August 2020, Citi accidentally paid off the whole loan — $900 million — with its own money. We talked about this in detail   last year, and it still makes me laugh and cringe. Citi was helping Revlon with the loan modification, and its loan-modification software had an unbelievably janky user interface, and a Citi back-office person pressed the wrong button and paid off the whole loan. Oops.
 The next day Citi realized what it had done and emailed the lenders to be like “sorry that money wasn’t meant for you, please send it back.” This is a thing that happens! In high finance, sometimes sophisticated counterparties send each other mistaken transfers, and then they email and say “sorry about that, wrong number,” and then the counterparties send it back. These people deal with each other repeatedly, and you can’t just keep money that a bank sends you by accident, both as a legal matter and as a norm of politeness. But in this particular case the lenders really wanted the money (because Revlon was in distress, the loan was worth a fraction of its face value, and getting paid off early at par was good) and were already pretty mad at Citi (because it was helping Revlon do the aggressive modification that disadvantaged them), so lenders who held about $500 million of the loan didn’t send the money back to Citi and said “see you in court.”
@@ -91,63 +91,63 @@ But this doctrine is dumb and no one in the world of syndicated lending actually
 
 And this — the “Revlon blocker” saying that you have to give back the money — has become an almost universal rule. Law professor  Eric Talley found that there are about “between 150 and 200 Revlon blockers disclosed per month among publicly listed companies,” versus just one loan agreement that explicitly adopted the discharge-for-value rule. Nobody in the loan market really thought that Revlon’s lenders should get to keep this money, and now they don’t.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Twitter v. Musk
-    
-  
+
+
 
 The state of play is:
 	Elon Musk 		wants to get out of his deal to buy Twitter Inc. for $44 billion for reasons of his own. The market crashed since he signed the deal, making him less rich and Twitter less valuable, so he doesn’t want to pay the $44 billion. Or he has realized that owning Twitter would be a headache and not that fun. Or he’s gotten bored, or he just thinks it’s funnier to get out of the deal. I don’t know.	The definitive merger agreement that Musk signed does not allow Musk to get out of the deal because he changed his mind.	So he has spent the last few months looking for excuses that do let him out of the deal. If Twitter committed fraud to trick him into signing the merger agreement, or if it has suffered certain kinds of “material adverse effect” on its business, or if it made misrepresentations in the merger agreement that would likely lead to a material adverse effect, or if it has violated its covenants under the merger agreement, then Musk can walk away from the deal.	Musk found some excuses and  sent Twitter a letter terminating the merger agreement, and Twitter wrote back to say “no these excuses are no good, you still have to close, see you in court,” and there’s a trial scheduled to start Oct. 17.	The first set of excuses that Musk came up with — claims that Twitter is lying about how many spam bot accounts it has, claims that Twitter has   violated its covenant to give Musk information that he asks for (by not giving him enough spam bot information), claims that Twitter has violated its covenant to operate in the “ordinary course of business” (by firing a few people) — were not very good.	But he kind of gets unlimited chances, and he keeps looking around for new excuses. And he’s the richest person in the world, so if you find an excuse for him, that seems career-enhancing.	Last month, Peiter “Mudge” Zatko, Twitter’s former head of security,   publicized a whistle-blower complaint that seemed weirdly written for Musk. (It has a section titled “Lying about Bots to Elon Musk,” even though Zatko seems to agree with Twitter that its actual disclosures about bots are accurate.) Zatko made a bunch of claims about Twitter violating legal settlements, having bad information-security practices and hiding them from the board and shareholders, misusing intellectual property, all sorts of miscellaneous stuff. Could any of those things   amount to fraud, or a material adverse effect? Maybe?	So Musk  sent Twitter another termination letter, saying, in effect, I know I’ve already terminated this merger agreement for the bot stuff, but just in case I am terminating it again for the Mudge stuff. And Twitter sent back  a letter saying “no,” and this stuff   got added to the list of issues in the trial, which is still scheduled to start Oct. 17.
@@ -164,20 +164,20 @@ The main point I want to make here is that this is very generalizable. If you kn
   [2]
 ; if he terminates the agreement 100 times with 100 excuses and 99 of them are laughed out of court, but the 100th works, then that’s good enough for him.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Nikola
-    
-  
+
+
 
 You could have a model of the startup life cycle that goes like this:
 	Some young visionary weirdo has a dream. She tells this dream to venture capitalists, who decide whether or not to give her money.	Venture capitalists reward, mainly, audacity. The more outrageous her dream is, the more outrageous she is, the more likely they are to give her money. Venture capitalists are philosophically in the business of investing in 100 companies and hoping that three of them have 100x returns. Conservative steady earners are not what they want. They want huge world-changing ideas that will probably fail, but if they succeed will be the next Facebook. Outrageous ambition, unhindered by the boring constraints of the real world, is what they want.   Masayoshi Son told Adam Neumann that he “appreciated how he was crazy, but thought that he needed to be crazier.”	If the founder is weird and visionary enough, she gets money from VCs, and then tries to build her dream at a startup.	Most of these startups fail, because their dreams are in fact impossible. They close up and return $0 to their VC investors, who are fine with that. Most startups are supposed to fail. If you don’t have some failures, you’re not dreaming big enough.	Some succeed, build a functioning product, find product-market fit and get on the road to profitability. 	Then they go public, perhaps to raise more money, or perhaps just to cash out their founders and VCs.	The public markets reward, mainly, steadiness and transparency. The more outrageous the founder’s ideas, the more nervous they will make the bankers and lawyers hired to take the company public.	Some founders will mature along with their companies, become more realistic after years in the trenches building products, and grow into being plausible public-company chief executive officers. Other founders will get kicked out just before the initial public offering; the companies will replace them with steady professional CEOs more suited to run public companies. Others will continue to be excitable weirdos but their lawyers will try to rein them in as much as possible.	It helps that the only companies going public are the ones who succeeded: They may not be profitable yet, but they have a real product, real revenue, demonstrated product-market fit, a good business plan, etc. So when their excitable weirdo CEOs make outrageous promises, they might actually come true.
@@ -187,7 +187,7 @@ I don’t want to say that this model is empirically true in every respect, but 
 
 On this model, the very worst thing that could happen to a startup founder might be skipping too quickly from Step 2 to Step 7. You’re a wild-eyed visionary, you wander around telling venture capitalists outrageous things, they are like “you are so crazy, I love it, be crazier,” you write down “BE CRAZIER” on your to-do list, you go home, you go to bed, the next day you wake up and do an IPO: You will be too crazy for the IPO! You need to have a few years to mellow and mature between the VCs telling you to be crazy and the IPO lawyers telling you to stick to verifiable facts. Adam Neumann never got to take WeWork public; he tried, but there was too much craziness in the Neumann-led WeWork for the IPO to work.
 And on this model, the SPAC boom — the rise of special purpose acquisition companies that tend to take unprofitable startups public early, before they even have a product, on the strength of projections about future profits — seems pretty dangerous.
-This week 
+This week
 Trevor Milton goes on trial for allegedly doing fraud at Nikola Corp., the electric-vehicle startup that went public via SPAC; its stock traded as high as $79.73 when the SPAC deal was announced, and it closed at $5.36 yesterday. Nikola   is most famous for making a video showing its truck moving; it had not made a working truck yet, so it rolled the truck down a hill so it looked like it could drive. I feel like if you did that for Masayoshi Son, and he was impressed and said “that truck sure can drive,” and then you were like “nah we rolled it down a hill, gotcha!” he would appreciate your craziness and give you $50 billion. But if you do it for public investors you will get arrested.
 Here is an even  better story about Milton:
 
@@ -196,15 +196,15 @@ In one tweet, Mr. Milton wrote that the Badger would have a drinking fountain us
 
 I am not sure I have ever read a better encapsulation of what it means to be a startup founder. You throw out a wildly ambitious vision of the future in your pitch meetings, and then you go back to the office and google around to see if it’s possible. You just can’t do that with a public company, is the problem.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman Plans to   Cut Several Hundred Jobs Starting This Month. Wall St jobs are  hot again as tech and crypto lay off staff. Josh Harris   has a new investing firm. French Power Operator Makes   $60 Million Trading Error. How a CEO Rescued  a Big Bet on Big Oil; ‘There Were a Lot of Doubters.’ Visa, Mastercard, Amex to Track Gun Shops With  New Merchant Code. Can  Mike Novogratz’s Comeback Narrative Survive the Crypto Crash? Dan Loeb  pulls back from call for Disney to spin off ESPN. The Other “ MoviePass Economy.” Derek Jeter to Start New   Trading-Card Venture as Market Booms. MLB’s Mariners Resist Return to Office With $50 ‘Work from the Ballpark’ Offer. Elon Musk’s Ex-Girlfriend Auctions Billionaire’s Photos,   Mementos From College. “In the fall of that year, he wound up in solitary confinement again, this time for  participating by pay phone in a podcast (‘Dumpster Fyre’) about the Fyre Festival.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There isn’t. When I wrote this, the district court had said that there was, but the appeals court sensibly found that that’s not really what New York law says.
 
 
@@ -214,114 +214,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] One salient objection to the model is: Well, *Theranos* never went public, and Elizabeth Holmes was nonetheless charged and   convicted for doing fraud. I do think that is an unusual outcome. I don’t think it’s really the law that you can do whatever wild fraud you want in a VC-backed startup, but is there a sense in which it is socially acceptable?  Maybe, a little?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

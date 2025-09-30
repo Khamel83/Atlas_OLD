@@ -343,7 +343,7 @@ class TestAtlasSearchEngine:
         search_engine.index.search.assert_called_once()
         call_args = search_engine.index.search.call_args
         search_params = call_args[1]
-    
+
         assert "filter" in search_params
         filter_expr = search_params["filter"]
         assert "content_type = 'article'" in filter_expr

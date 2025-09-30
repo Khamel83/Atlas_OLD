@@ -13,10 +13,10 @@ As the old saying goes, “Get someone to use your product, get a user for a day
 I’ve been a fan of the API-first business model since writing about it back in 2020 [ https://substack.com/redirect/9ab37b53-d06f-45c7-994e-db6bc36756a1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. Half the battle is building APIs that handle mission critical but non-core work for your customers. The other half is making it as easy for them to integrate your APIs as possible. Speakeasy [ https://substack.com/redirect/848a6391-45b7-429e-a865-d10c800520d5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] can help integrate API users 50% faster. 
 Creating a frictionless API experience for your partners and customers no longer requires an army of engineers. Speakeasy’s platform makes crafting type-safe, idiomatic client libraries for enterprise APIs easy. That means you can unlock API revenue while keeping your team focused on what matters most: shipping new products. Make SDK generation part of your API’s CI/CD and distribute libraries that users love at a fraction of the cost of maintaining them in-house. Let Speakeasy handle your mission-critical, non-core work so you can do the same for your customers. 
 If you know what any of those terms meant, and if those pain points sound familiar, you should check out Speakeasy [ https://substack.com/redirect/848a6391-45b7-429e-a865-d10c800520d5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-Hi friends 👋, 
-Happy Wednesday! I’m sending a day late because I spent the weekend at the Roots of Progress Institute’s Progress Conference [ https://substack.com/redirect/97fdf814-8d58-4deb-acfe-abb3d914d50a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and the last couple of days in San Francisco. 
-As much of a New Yorker as I am, I gotta say, it feels like SF is back. People are turning ideas into products, and at the right price point, products turn into progress. This is an essay based on conversations from the past week on how to do that. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Wednesday! I’m sending a day late because I spent the weekend at the Roots of Progress Institute’s Progress Conference [ https://substack.com/redirect/97fdf814-8d58-4deb-acfe-abb3d914d50a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and the last couple of days in San Francisco.
+As much of a New Yorker as I am, I gotta say, it feels like SF is back. People are turning ideas into products, and at the right price point, products turn into progress. This is an essay based on conversations from the past week on how to do that.
+Let’s get to it.
 What Do You Do With An Idea?
 I’ve noticed a common refrain speaking with founders building physical things: 
 “This is an old idea, actually, from the…” 
@@ -127,7 +127,7 @@ That would imply that we don’t necessarily need more researchers; we just need
 In addition to making new Einsteins [ https://substack.com/redirect/03e9b1bf-f689-4992-ad08-e922a4ab185c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]  - genius researchers will always be important – we need to make new Vanderbilts and Fords and Wrights. Tinkerers who can pluck from the pile of withered ideas and combine them in new ways. We might also need new Librarians, who can help surface those great old ideas, and track which technologies and costs might make them economically viable after all of these years. Maybe that’s where AI can be most helpful. 
 Of course, we need to reverse the regulatory ratchet that makes new ideas and old ones more expensive to build. We need more people working on policy that helps drive down the cost of implementing good ideas. The faster and less expensive it is to build, test, and iterate, the smaller the gap between a good idea and its contribution to progress. 
 And as we start to turn more ideas into more products, I suspect that new ideas will become surprisingly easy to find. Just as models need new training data to get smarter, we need to try more things to discover which questions our researchers should ask next. 
-Thanks to Claude for editing, to Eli for letting me use his slides, and to Jason and Heike for putting on an incredible conference. 
+Thanks to Claude for editing, to Eli for letting me use his slides, and to Jason and Heike for putting on an incredible conference.
 That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose.
 Thanks for reading,
 Packy

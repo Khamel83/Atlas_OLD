@@ -12,7 +12,7 @@
 function OptanonWrapper() {
     NPR_OptanonWrapper = true;
     document.dispatchEvent(new CustomEvent('npr:DataConsentAvailable'));
-    
+
     OneTrust.OnConsentChanged(function() {
         document.dispatchEvent(new CustomEvent('npr:DataConsentChanged'));
     });
@@ -317,7 +317,7 @@ tp.push(["init", function() {
 </li><li class="submenu__item">
     <a href="https://www.npr.org/podcasts/510374/trumps-terms"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"trump&#39;s terms ","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510374\/trumps-terms"}' >
         <img src="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100.jpg"   class=" lazy" alt="" loading="lazy" />
-        Trump's Terms 
+        Trump's Terms
     </a>
 </li></ul>
 
@@ -425,13 +425,13 @@ tp.push(["init", function() {
 </div>         <div class="program-block">
                         Heard on             <a href="https://www.npr.org/programs/morning-edition/2009/12/29/121969073/">Morning Edition</a>
          </div>
-         
+
 <!-- END CLASS="PROGRAM-BLOCK" -->
       </div>
-      
+
 <!-- END CLASS="STORY-META__ONE-INNER" -->
    </div>
-   
+
 <!-- END CLASS="STORY-META__ONE" -->
    <div class="story-meta__two">
             <div id="storybyline" class="storybyline-wrap linkLocation">
@@ -451,11 +451,11 @@ tp.push(["init", function() {
 </div>
             </div>
          </div>
-         
+
 <!-- END CLASS="BUCKETWRAP BYLINE" -->
       </div>
    </div>
-   
+
 <!-- END CLASS="STORY-META__TWO" -->
 </div>
 
@@ -470,7 +470,7 @@ tp.push(["init", function() {
                     <b class="audio-module-listen-icon icn-play"></b>
                     <b class="audio-module-listen-text">
                         <b class="audio-module-cta">
-                            
+
                             Listen
                         </b>
                         <b class="audio-module-listen-duration">
@@ -639,7 +639,7 @@ https://media.npr.org/assets/music/news/2009/12/towerbway-20e6efa452d6046e0439c4
 <div id="callout-end-of-story-mount-piano-wrap" class="callout-end-of-story-mount-piano-wrap">
       <div id="callout-end-of-story-mount-piano" class="callout-end-of-story-mount-piano">
          </div>
-   
+
 <!-- END ID="CALLOUT-END-OF-STORY-MOUNT-PIANO" CLASS="CALLOUT-END-OF-STORY-MOUNT-PIANO" -->
 </div>
 
@@ -723,7 +723,7 @@ https://media.npr.org/assets/music/news/2009/12/towerbway-20e6efa452d6046e0439c4
 </section>   <div id="main-sidebar">
             <div id="right-rail-content-widgets-mount">
                </div>
-      
+
 <!-- END ID="RIGHT-RAIL-CONTENT-WIDGETS-MOUNT" -->
       <aside id="ad-standard-wrap" class="ad-wrap standard" aria-label="advertisement">
     <div class="ad-header "><span>Sponsor Message</span></div>
@@ -736,7 +736,7 @@ https://media.npr.org/assets/music/news/2009/12/towerbway-20e6efa452d6046e0439c4
 
 </aside>
    </div>
-   
+
 <!-- END ID="MAIN-SIDEBAR" -->
 </div>
 

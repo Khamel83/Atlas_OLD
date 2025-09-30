@@ -12,11 +12,11 @@
 
 # Wellcome
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Wellcome](http://mosaicscience.com/icons/favicon.ico)
 
-Our website uses cookies  
-  
-We use cookies to make our website work. To help us make our marketing and website better, we’d like your consent to use cookies on behalf of third parties too. 
+Our website uses cookies
+
+We use cookies to make our website work. To help us make our marketing and website better, we’d like your consent to use cookies on behalf of third parties too.
 

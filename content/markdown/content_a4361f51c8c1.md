@@ -75,23 +75,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="30145095" />
-  
+
     <meta name="ncbi_uid" content="30145095" />
-  
+
     <meta name="log_displayeduids" content="30145095" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="Retrospective analysis of 400 men electing to have penile cosmetic correction with the Penuma device demonstrates improvements in girth (56.7% increase) and high and sustained patient satisfaction, self-confidence, and self-esteem with minimal and manageable adverse events. Elist JJ, Valenzuela R, H …"><meta name="keywords" content="pmid:30145095, doi:10.1016/j.jsxm.2018.07.006, James J Elist, Robert Valenzuela, Alireza Hosseini, Adult, Aged, Erectile Dysfunction / surgery*, Humans, Male, Middle Aged, Patient Satisfaction*, Penile Prosthesis*, Penis / surgery*, Postoperative Complications, Retrospective Studies, Silicones*, Surgery, Plastic, Surveys and Questionnaires, Young Adult, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="A Single-Surgeon Retrospective and Preliminary Evaluation of the Safety and Effectiveness of the Penuma Silicone Sleeve Implant for Elective Cosmetic Correction of the Flaccid Penis - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/30145095/"><meta property="og:description" content="Retrospective analysis of 400 men electing to have penile cosmetic correction with the Penuma device demonstrates improvements in girth (56.7% increase) and high and sustained patient satisfaction, self-confidence, and self-esteem with minimal and manageable adverse events. Elist JJ, Valenzuela R, H …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="A Single-Surgeon Retrospective and Preliminary Evaluation of the Safety and Effectiveness of the Penuma Silicone Sleeve Implant for Elective Cosmetic Correction of the Flaccid Penis - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/30145095/"><meta name="twitter:description" content="Retrospective analysis of 400 men electing to have penile cosmetic correction with the Penuma device demonstrates improvements in girth (56.7% increase) and high and sustained patient satisfaction, self-confidence, and self-esteem with minimal and manageable adverse events. Elist JJ, Valenzuela R, H …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -115,8 +115,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/30145095/">
 
 <meta name="citation_volume" content="15">
-  
-  
+
+
     <meta name="citation_issue" content="9">
 
 <meta name="citation_doi" content="10.1016/j.jsxm.2018.07.006">
@@ -156,7 +156,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -280,10 +280,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -300,7 +300,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -312,7 +312,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -321,8 +321,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -330,7 +330,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -338,7 +338,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -349,8 +349,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -405,7 +405,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -419,7 +419,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -506,7 +506,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -517,13 +517,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="vtPpf4Gel2mzjzidJnpQBAGHQC8lOydBlJm4wdJb7KukQAngU3fUbmWKlfJD8ugu">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -555,7 +555,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -914,7 +914,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1071,7 +1071,7 @@
 <div class="article-page" id="article-page" data-article-pmid="30145095">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1079,22 +1079,22 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://academic.oup.com/jsm/article-lookup/doi/10.1016/j.jsxm.2018.07.006"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=7898&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=30145095&amp;db=pubmed&amp;nlmid=101230693"
          title="See full text options at Silverchair Information Systems"
-         
+
          data-ga-category="full_text"
          data-ga-action="Silverchair Information Systems"
          data-ga-label="30145095"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--academic.oup.com-images-oup_pubmed.png" alt="Silverchair Information Systems full text link"><span class="text">
-            
+
               Silverchair Information Systems
-            
+
           </span></a>
 </div>
 
@@ -1302,20 +1302,20 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1339,9 +1339,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Sex+Med%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Sex Med">
@@ -1358,15 +1358,15 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2018 Sep;15(9):1216-1223.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.jsxm.2018.07.006.
       </span>
-    
-    
-    
+
+
+
       <span class="secondary-date">
         Epub 2018 Aug 23.
       </span>
@@ -1374,12 +1374,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   A Single-Surgeon Retrospective and Preliminary Evaluation of the Safety and Effectiveness of the Penuma Silicone Sleeve Implant for Elective Cosmetic Correction of the Flaccid Penis
 
 </h1>
@@ -1448,10 +1448,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1461,40 +1461,40 @@ Affiliations
             Affiliations
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA, USA.</li>
-            
+
               <li data-affiliation-id="full-view-affiliation-2"
                   id="full-view-affiliation-2"
               ><sup class="key">2</sup> Department of Urology, Icahn School of Medicine at Mount Sinai, New York, NY, USA.</li>
-            
+
               <li data-affiliation-id="full-view-affiliation-3"
                   id="full-view-affiliation-3"
               ><sup class="key">3</sup> Department of Urology, Icahn School of Medicine at Mount Sinai, New York, NY, USA. Electronic address: jhillelsohn@gmail.com.</li>
-            
+
               <li data-affiliation-id="full-view-affiliation-4"
                   id="full-view-affiliation-4"
               ><sup class="key">4</sup> Department of Urology, MEC, Beverly Hills, CA, USA.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">30145095</strong>
@@ -1502,13 +1502,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1525,7 +1525,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1535,36 +1535,36 @@ Affiliations
       <div class="short-view" id="short-view-heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   A Single-Surgeon Retrospective and Preliminary Evaluation of the Safety and Effectiveness of the Penuma Silicone Sleeve Implant for Elective Cosmetic Correction of the Flaccid Penis
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">James J Elist</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         J Sex Med<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2018 Sep</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1596,7 +1596,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1610,19 +1610,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1646,9 +1646,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Sex+Med%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Sex Med">
@@ -1665,15 +1665,15 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2018 Sep;15(9):1216-1223.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.jsxm.2018.07.006.
       </span>
-    
-    
-    
+
+
+
       <span class="secondary-date">
         Epub 2018 Aug 23.
       </span>
@@ -1681,7 +1681,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1733,36 +1733,36 @@ Affiliations
             Affiliations
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA, USA.</li>
-            
+
               <li data-affiliation-id="short-view-affiliation-2"
                   id="short-view-affiliation-2"
               ><sup class="key">2</sup> Department of Urology, Icahn School of Medicine at Mount Sinai, New York, NY, USA.</li>
-            
+
               <li data-affiliation-id="short-view-affiliation-3"
                   id="short-view-affiliation-3"
               ><sup class="key">3</sup> Department of Urology, Icahn School of Medicine at Mount Sinai, New York, NY, USA. Electronic address: jhillelsohn@gmail.com.</li>
-            
+
               <li data-affiliation-id="short-view-affiliation-4"
                   id="short-view-affiliation-4"
               ><sup class="key">4</sup> Department of Urology, MEC, Beverly Hills, CA, USA.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">30145095</strong>
@@ -1770,13 +1770,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1793,7 +1793,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1801,8 +1801,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1831,97 +1831,97 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
         <strong class="sub-title">
           Background:
         </strong>
-      
+
       Silicone blocks and sleeves are simple devices used in cosmetic surgery. They are generally viewed as safe and effective; however, there is little information on their use in the penis.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Aim:
         </strong>
-      
+
       This study evaluates a large single-surgeon series using a novel silicone sleeve penile implant (Penuma) to cosmetically correct the flaccid penis.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Methods:
         </strong>
-      
+
       526 patients underwent elective cosmetic penile surgery using a silicone sleeve penile implant between 2009 and 2014. Institutional Review Board approval was obtained for a retrospective analysis, and study consent was obtained from 400 patients. Penile circumference was measured before surgery, immediately after surgery, and 30-90 days after the implant surgery. Using the nonvalidated Augmentation Phalloplasty Patient Selection and Satisfaction Inventory (APPSSI), changes in self-confidence, self-esteem, and satisfaction scores were assayed 6-8 weeks postoperatively. Scores were again assayed 2-6 years postoperatively in 77% of patients. The questionnaires rated patient self-confidence, self-esteem, and satisfaction as very low, low, medium, high, or very high.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Main outcome measure:
         </strong>
-      
+
       Outcomes include changes in penile measurements; changes in APPSSI satisfaction, self-confidence, and self-esteem scores; and incidences of adverse events.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Results:
         </strong>
-      
+
       In the 400 patients, the implantation of the Penuma silicone implant increased midshaft circumference from an average of 8.5 ± 1.2 cm to 13.4 ± 1.9 cm (56.7% increase; P &lt; .001). A 2-category improvement in self-confidence and self-esteem was noted in 83% of patients 6-8 weeks postoperatively. On long-term follow-up (2-6 years; mean 4 years), 72% patients remained improved (2-category improvement in APPSSI scoring), and 81% of subjects reported "high" or "very high" levels of satisfaction. The most frequently reported postoperative complications were seroma (4.8%), scar formation (4.5%), and infection (3.3%). No patients reported any changes in sexual function, erections, or ejaculation. 3% experienced adverse events necessitating device removal.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Clinical implications:
         </strong>
-      
+
       The Penuma silicone implant can help patients cosmetically correct the penis with increased flaccid penile girth and achieve enhanced self-confidence and self-esteem over the short- and long term.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Strengths and limitations:
         </strong>
-      
+
       Strengths include the large number of subjects (400 men) and the long-term follow-up period (2-6 years). Limitations include the retrospective and single-surgeon (inventor) nature of the study; the presence of 126 non-consenting subjects, potentially impacting the complication rate; and the APPSSI's lack of validation.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Conclusion:
         </strong>
-      
+
       Retrospective analysis of 400 men electing to have penile cosmetic correction with the Penuma device demonstrates improvements in girth (56.7% increase) and high and sustained patient satisfaction, self-confidence, and self-esteem with minimal and manageable adverse events. Elist JJ, Valenzuela R, Hillelsohn J, et al. A Single-Surgeon, Retrospective, and Preliminary Evaluation of the Safety and Effectiveness of the Penuma Silicone Sleeve Implant for Elective Cosmetic Correction of the Flaccid Penis. J Sex Med 2018;15:1216-1223.
     </p>
 
 </div>
 
 <p>
-      
+
         <strong class="sub-title">
           Keywords:
         </strong>
-      
+
       Cosmetic; Erect Penis; Flaccid Penis; Implant; Penile Girth; Penile Size; Penuma; Phalloplasty; Self-Confidence; Siilicone.
     </p>
 
@@ -1940,15 +1940,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/38571490/"
@@ -1956,39 +1956,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="38571490"
        data-ga-label="">
-      
+
         A multi-institutional update on surgical outcomes after penile silicone sleeve implantation.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Siegal AR, Celtik KE, Razdan S, Sljivich M, Kansas B, Shah B, Levine LA, Valenzuela RJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Siegal AR, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Ther Adv Urol. 2024 Apr 2;16:17562872241241858. doi: 10.1177/17562872241241858. eCollection 2024 Jan-Dec.</span>
     <span class="docsum-journal-citation short-journal-citation">Ther Adv Urol. 2024.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">38571490</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/36198339/"
@@ -1996,39 +1996,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="36198339"
        data-ga-label="">
-      
+
         Outcomes of a Single Center's Initial Experience With the Penuma® Penile Implant.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Siegal AR, Zisman A, Sljivich M, Razdan S, Valenzuela RJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Siegal AR, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Urology. 2023 Jan;171:236-243. doi: 10.1016/j.urology.2022.07.066. Epub 2022 Oct 2.</span>
     <span class="docsum-journal-citation short-journal-citation">Urology. 2023.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">36198339</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/39372547/"
@@ -2036,39 +2036,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="39372547"
        data-ga-label="">
-      
+
         Outcomes and patient satisfaction after Penuma silicone implant surgery via two surgical approaches.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Salkowski M, Levine LA.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Salkowski M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Ther Adv Urol. 2024 Sep 26;16:17562872241280021. doi: 10.1177/17562872241280021. eCollection 2024 Jan-Dec.</span>
     <span class="docsum-journal-citation short-journal-citation">Ther Adv Urol. 2024.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">39372547</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/33903044/"
@@ -2076,39 +2076,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="33903044"
        data-ga-label="">
-      
+
         Penile Implant Surgery Satisfaction Assessment.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Manfredi C, Fortier É, Faix A, Martínez-Salamanca JI.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Manfredi C, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Sex Med. 2021 May;18(5):868-874. doi: 10.1016/j.jsxm.2021.03.007. Epub 2021 Apr 24.</span>
     <span class="docsum-journal-citation short-journal-citation">J Sex Med. 2021.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">33903044</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/34183291/"
@@ -2116,42 +2116,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="34183291"
        data-ga-label="">
-      
+
         Technological Advances in Penile Implant Surgery.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Barnard JT, Cakir OO, Ralph D, Yafi FA.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Barnard JT, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Sex Med. 2021 Jul;18(7):1158-1166. doi: 10.1016/j.jsxm.2021.04.011. Epub 2021 Jun 25.</span>
     <span class="docsum-journal-citation short-journal-citation">J Sex Med. 2021.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">34183291</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=30145095"
@@ -2160,7 +2160,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2169,15 +2169,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/36650316/"
@@ -2185,39 +2185,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="36650316"
        data-ga-label="">
-      
+
         Celebrating 50 years of penile implants.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Wilson SK, Gross MS.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Wilson SK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Int J Impot Res. 2023 Nov;35(7):596-600. doi: 10.1038/s41443-023-00663-y. Epub 2023 Jan 17.</span>
     <span class="docsum-journal-citation short-journal-citation">Int J Impot Res. 2023.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">36650316</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
+
   <span class="no-abstract spaced-citation-item citation-part">No abstract available.</span>
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/40061444/"
@@ -2225,39 +2225,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="40061444"
        data-ga-label="">
-      
+
         Unveiling consumer interest and regional disparities: comparative analysis of online search trends for penile aesthetic procedures.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Abou Chawareb E, Banton J, Hammad MAM, Lumbiganon S, Azad B, Miller J, Yafi FA.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Abou Chawareb E, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Sex Med. 2025 Mar 8;13(1):qfaf013. doi: 10.1093/sexmed/qfaf013. eCollection 2025 Feb.</span>
     <span class="docsum-journal-citation short-journal-citation">Sex Med. 2025.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">40061444</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/37056790/"
@@ -2265,39 +2265,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="37056790"
        data-ga-label="">
-      
+
         Clinical recommendations on penile reconstructive and prosthetic surgery: a consensus statement from the Asia-Pacific Society of Sexual Medicine.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Chung E, Moon DG, Hui J, Chang HC, Hakim L, Nagao K, Tan R, Mak SK, Tantiwongse K, Lin H, Mai DBT, Nguyen Q, Tan HM, Sato Y, Jiann BP, Park K, Xin ZC, Park HJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Chung E, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Sex Med. 2023 Apr 11;11(2):qfad003. doi: 10.1093/sexmed/qfad003. eCollection 2023 Apr.</span>
     <span class="docsum-journal-citation short-journal-citation">Sex Med. 2023.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">37056790</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/34045688/"
@@ -2305,39 +2305,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="34045688"
        data-ga-label="">
-      
+
         Multidisciplinary approach and management of patients who seek medical advice for penile size concerns: a narrative review.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Schifano N, Cakir OO, Castiglione F, Montorsi F, Garaffa G.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Schifano N, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Int J Impot Res. 2022 Aug;34(5):434-451. doi: 10.1038/s41443-021-00444-5. Epub 2021 May 27.</span>
     <span class="docsum-journal-citation short-journal-citation">Int J Impot Res. 2022.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">34045688</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/39925742/"
@@ -2345,42 +2345,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="39925742"
        data-ga-label="">
-      
+
         The first reported case of suprapubic migration of the Penuma penile implant as a post-operative complication: A case report.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Sökmen D, Albayrak AT, Başağa Y, Sertkaya Z.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Sökmen D, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Urol Case Rep. 2025 Jan 18;59:102951. doi: 10.1016/j.eucr.2025.102951. eCollection 2025 Mar.</span>
     <span class="docsum-journal-citation short-journal-citation">Urol Case Rep. 2025.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">39925742</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=30145095"
@@ -2389,7 +2389,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -3030,12 +3030,12 @@ Affiliations
       <button class="close-overlay" tabindex="2">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://academic.oup.com/jsm/article-lookup/doi/10.1016/j.jsxm.2018.07.006"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=7898&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=30145095&amp;db=pubmed&amp;nlmid=101230693"
          title="See full text options at Silverchair Information Systems"
          tabindex="1"
@@ -3043,9 +3043,9 @@ Affiliations
          data-ga-action="Silverchair Information Systems"
          data-ga-label="30145095"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--academic.oup.com-images-oup_pubmed.png" alt="Silverchair Information Systems full text link"><span class="text">
-            
+
               Silverchair Information Systems
-            
+
           </span></a>
 </div>
 
@@ -3085,31 +3085,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -3123,19 +3123,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F30145095%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F30145095%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F30145095%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3351,7 +3351,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3378,7 +3378,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

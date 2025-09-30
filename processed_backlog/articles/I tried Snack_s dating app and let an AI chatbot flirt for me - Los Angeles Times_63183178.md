@@ -5,7 +5,7 @@
 
 By [Jaimie Ding](https://www.latimes.com/people/jaimie-ding)Staff Writer
 
-April 26, 2023 5 AM PT 
+April 26, 2023 5 AM PT
 
 [For Subscribers](https://www.latimes.com/topic/for-la-times-subscribers)
 
@@ -22,7 +22,7 @@ April 26, 2023 5 AM PT
   + Copy Link URL Copied!
   + Print
 
-![Ai_DropCap_B](https://ca-times.brightspotcdn.com/dims4/default/81d0d6b/2147483647/strip/true/crop/230x228+0+0/resize/115x114!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe7%2Fc2%2Faf9b52504766a3cb8a9eba3a92bd%2Fb.jpg) 
+![Ai_DropCap_B](https://ca-times.brightspotcdn.com/dims4/default/81d0d6b/2147483647/strip/true/crop/230x228+0+0/resize/115x114!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe7%2Fc2%2Faf9b52504766a3cb8a9eba3a92bd%2Fb.jpg)
 
 Brown hair, dark eyes, a little bit of scruff. Jackson looked charming in his baby-blue button-up tee and the fanny pack he wore slung across his chest.
 

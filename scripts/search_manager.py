@@ -448,7 +448,7 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
     # Health command
-    
+
 
     # Setup command
     setup_parser = subparsers.add_parser("setup", help="Set up search index")

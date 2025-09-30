@@ -7,65 +7,65 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here’s a simple model of a block trade. There’s a public company, its stock trades on the exchange, its current price is $100. A big shareho
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Block trades
-    
-  
+
+
 
 Here’s a simple model of a block trade. There’s a public company, its stock trades on the exchange, its current price is $100. A big shareholder wants to sell a block of a million shares. This will drive down the price: supply and demand, more sellers than buyers, etc. Let’s say that fully selling all of the shares will drive the price down by $3.
 You’re a bank, and the seller comes to you and says: “I want to do a block trade. I want you to buy all this stock at a firm price and resell it at your own risk. You have to buy it after the market closes in two hours; I’ll call you for your bid then.” How much should you bid? Well, on my numbers in the previous paragraph, the stock is at $100, selling all the shares will take $3 off the price, and you’ll be able to resell it at $97. So you should bid, like, $96, to add a little cushion (in case that $3 estimate of the price impact is wrong) and some profit for you.
 But in fact the stock will move around over the next two hours. Maybe in two hours it’ll be $99, or $101. And reselling the stock will drive it down by $3. So really your bid should be (1) whatever the closing price is in two hours minus (2) say, $4 (the $3 effect of the sale, plus $1 for your profits). And in fact the seller will probably ask you for a bid that is not a dollar price but a discount (percentage or dollars) to the last sale price. If the stock closes at $99.73 and your bid is “down $4” then your bid is $95.73.
 You have two hours to come up with your bid. You have two goals:
-	
-Accuracy: You want your bid to accurately reflect the price at which you can resell the stock (plus a little profit for you); you don’t want to pay $98 if you’ll have to resell the stock at $95.	
+
+Accuracy: You want your bid to accurately reflect the price at which you can resell the stock (plus a little profit for you); you don’t want to pay $98 if you’ll have to resell the stock at $95.
 Competitiveness: The seller is probably calling a bunch of banks, and will take the highest price (the lowest discount to the last sale). So you want to offer the highest price.
 
 Here is a good trick: You spend those two hours selling all the stock. You pre-sell the million shares that the seller is offering; you sell them short. As you do this, naturally, the price declines, from $100 to $97, to reflect all of that selling. (Also maybe other stuff happens — maybe there’s economic news or other big buyers or sellers or whatever — so the stock ends up at $96 or $98 or whatever, but the $3 effect of all the selling is fully incorporated into the price.) And then at the end of that process you go to the seller and bid “down $1”: That is, you’ll pay $1 less than the last price; if the last price was $97 you’ll pay $96.
@@ -112,37 +112,37 @@ You can get some deniability on these calls. Though some sellers know to look ou
 Prior to the purchaser being selected, please do not engage in any discussion with potential investors or purchasers, even hypothetical ones, including discussions in which several names are mentioned in order to solicit general interest.
 The other point is that this is illegal, but apparently not that illegal. Morgan Stanley paid a total of $249 million of penalties to the SEC and $153 million to the Justice Department, though there is overlap in those numbers. (And some of the payment is for restitution to the block sellers who got ripped off.) Meanwhile Passi will pay $250,000 to the SEC and agreed to a deferred prosecution agreement in the criminal case: He  has to “demonstrate good behavior and fulfill the terms of the DPA, in which case PASSI will not be further prosecuted criminally.” So it’s not quite real insider trading: If you do this stuff they don’t send you to jail; you get a warning first.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 The most normal way to be a tech entrepreneur goes something like this:
 	You take your best idea and found a company to do it.	If you need more money to do the idea, you raise capital from outside investors, lowering your ownership of the company from 100% to 50% or 20% or 10% or whatever, depending on how much money you need and what valuation the investors are willing to give your idea.	If you have some additional ideas, well, you’ve already got this company, it’s already got capital, it’s probably making money, so you might as well have the company do the other ideas too.
@@ -173,11 +173,11 @@ And yet there is something pretty obnoxious about it. He can keep doing this! W
 In general, with normal workers, the tension is that you want to pay them enough to motivate them, but not so much that they “call in rich” and stop working. With Elon Musk, who is on some days the richest man in the world, you might think this would not be a huge problem. You might think “well, whatever motivated him to work night and day to increase his wealth from tens of billions to hundreds of billions of dollars, it probably wasn't his paycheck, so we can rely on his intrinsic motivation to solve big problems and get glory for himself.”
 But that is wrong: Musk has plenty of intrinsic motivation, sure, but no particular reason to solve big problems for Tesla, as opposed to the many other companies that he has started or could start. It turns out that the problem of motivation is much worse for him. He’s got too much going on, and too much money; his companies need to compete for his attention, and that competition is expensive.
 
-  
-    
+
+
       GIP
-    
-  
+
+
 
 When I was an investment banker, I sometimes had to fly to the middle of the country to pitch potential deals. On the one hand, this was good, this was the point, my whole goal as an investment banker was after all to get mandated on large lucrative deals, and the way to do that was to fly around meeting with important clients and impressing them. On the other hand, it was bad, because I did not like flying off to places, or meeting with important clients, or trying to impress them. I did not like, and was not good at, the travel and social elements of the job. So eventually I quit to become a blogger.
 In this, I am very much like Adebayo Ogunlesi, except (1) he was a much better investment banker, (2) he did it for longer and (3) he quit to become a billionaire instead?  The Financial Times reports:
@@ -189,11 +189,11 @@ I mean, completely fair, and basically why I left. But “after that ‘kick in 
 Though Ogunlesi will have his first boss in 18 years, he said [BlackRock CEO Larry] Fink, a friend since both worked at First Boston, has downplayed the potential for conflict: “Larry said to me: ‘You will be on the board of directors, you will be my boss’. I think we have mutually assured destruction.”
 All the best friendships are premised on mutually assured destruction.
 
-  
-    
+
+
       Grayscale
-    
-  
+
+
 
 We   talked last week about the long-awaited approval of spot Bitcoin exchange-traded funds in the US. It has been widely assumed that these ETFs would be good for the price of Bitcoin: Spot Bitcoin ETFs are a convenient and easy way for normal people (and traditional institutions) to own Bitcoin, and now that they are here, perhaps more people (and institutions) will buy Bitcoin through the ETFs. Demand for the ETFs will drive demand for Bitcoin, because each dollar that flows into the ETFs will ultimately, through arbitrage, go to buying Bitcoins.
 But there is another, minimalist view you could take of the ETF approvals:
@@ -213,15 +213,15 @@ The hedge fund manager said that his trading desk noted that holders of the shar
 
 “Shifting to lower-fee alternatives” should be neutral for Bitcoin — “Selling one Bitcoin product to buy another should not impact Bitcoin’s price, said Zach Pandl, Grayscale’s managing director or research” — but just getting out entirely would lower the price, and GBTC holders haven’t been able to do that for years.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Goldman Tops Estimates as Stock Trading Surges Past Expectations. Morgan Stanley Wealth Unit Beats Forecasts as Traders Fall Short. Morgan Stanley CEO Ted Pick Inherits a Bank That’s Never Been   More Boring. The Last Man Standing in  Crypto. China Weighs   More Stimulus With $139 Billion of Special Bonds. Argentina, Turkey Lure Investors Seeking High-Yield Bond Returns. South Korea Alleges   Naked Short Selling by Two More Global Banks. The Green Investor Calling Out Biden’s Climate Law for   Enriching Bankers and Consultants. Got $60 Million? Goldman Sachs Wants to Lend You More. Evercore Grows Real Estate Arm as Clients Look to Private Credit. Large Backers of  Private Equity Are Asking For Their Money Back. Bill Ackman Is Bringing Activist Playbook to America’s   Culture Wars. Bill Ackman escalates Business Insider  plagiarism feud with legal threat. The M.B.A.s Who  Can’t Find Jobs. The $65 Million Perk for CEOs: Personal Use of the  Corporate Jet Has Soared. Trump-Tied   SPAC Jumps After Former President’s Decisive Iowa Win. Crash Parties, Escape Dull Chitchat and Make Powerful Friends: What  Davos Elites Know. Bitcoin is a  special-interest group. “They flew business class for the  extra luggage allowances, and moved £1 million or more by checking-in three or four suitcases.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In this simple model you’re selling all the stock at $97, but realistically you are probably averaging down — selling some at $100, some at $99, some at $98, etc., so that you actually sell for an average price of $98.50 or whatever. Whereas once the block trade is announced, the price might jump down, and you’d have to resell all of it at a lower price. I am keeping things simple in the text but this is a potentially important advantage: Your bid is a discount to the last sale, but if you sell into the bid your average selling price could be quite a bit higher than the last sale.
 
 
@@ -231,7 +231,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] In my simple model, your bid is the same with or without the trick. But the point of the trick is that you end up with better information in the auction than the other banks, so the other banks’ bids are less competitive, so you win the auction with a fat safe profit margin. Without this trick, every bank would be bidding its best guess at the clearing price, and the most overconfident bank would win. If some bank thought “we can sell this down $2 and only need $0.25 of profit,” they’d bid $97.75 and win the auction; but if you pre-sell the stock down to $97 they’ll bid $94.75 and lose to your bid of $96.
 
 
-  [4] "Blackstone, Oaktree Burned by Morgan Stanley’s Block-Trade Leaks," 
+  [4] "Blackstone, Oaktree Burned by Morgan Stanley’s Block-Trade Leaks,"
 reports Bloomberg News about the Morgan Stanley block-trade leaks, and presumably they're annoyed.
 
 
@@ -247,48 +247,48 @@ reports Bloomberg News about the Morgan Stanley block-trade leaks, and presumabl
   [8] Bloomberg data shows 692.4 million shares of GBTC outstanding on Wednesday, before the ETF approval, 690.1 million on Thursday and 677.7 million on Friday.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -299,46 +299,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck942y.65ri/d2fc7992.gif" alt="" border="0" /></a>

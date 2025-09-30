@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.1 (Yoast SEO v25.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Tickets - Disrupt 2025 | TechCrunch</title>
 	<meta name="description" content="TechCrunch Disrupt 2025 is the startup epicenter for tech and VC leaders. Taking place at Moscone West in San Francisco from October 27-29, 2025." />
@@ -55,7 +55,7 @@ if (sessionValue && !window.tenupDataLayer[param]) {
 				window.tenupDataLayer[param] = sessionValue[param];
 			}
 		});
-		
+
 		// Push the abstracted datalayer to the GTM datalayer.
 		dataLayer.push(window.tenupDataLayer);
 
@@ -316,7 +316,7 @@ data-wp-init="callbacks.onInit"
 				class="event-content-tabs-header__main-navigation-list"
 				data-wp-bind--aria-expanded="state.isMobileMenuOpen"
 				>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link"
@@ -324,7 +324,7 @@ data-wp-init="callbacks.onInit"
 															>
 								Overview							</a>
 													</li>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link event-content-tabs-header__navigation-item-link--active event-content-tabs-header__navigation-item-link--has-subtabs"
@@ -348,7 +348,7 @@ data-wp-init="callbacks.onInit"
 										</li>
 																	</ul>
 													</li>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link"
@@ -356,7 +356,7 @@ data-wp-init="callbacks.onInit"
 															>
 								Hotel							</a>
 													</li>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link"
@@ -364,7 +364,7 @@ data-wp-init="callbacks.onInit"
 															>
 								Speakers							</a>
 													</li>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link"
@@ -372,7 +372,7 @@ data-wp-init="callbacks.onInit"
 															>
 								Agenda							</a>
 													</li>
-					
+
 						<li class="event-content-tabs-header__navigation-item">
 							<a
 								class="event-content-tabs-header__navigation-item-link"
@@ -425,7 +425,7 @@ data-wp-init="callbacks.onInit"
 	</header>
 
 <div class="event-content-tabs-content">
-		
+
 <h1 class="wp-block-heading alignfull has-text-align-center has-white-color has-green-700-background-color has-text-color has-background has-link-color wp-elements-cdf122d57c8a834cbc95233470f8db58" id="h-techcrunch-disrupt-2025-tickets" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">TechCrunch Disrupt 2025 Tickets</h1>
 
 <div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -441,15 +441,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $637			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$1,594			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>INVESTOR PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633448" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -485,15 +485,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $598			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$1,346			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>ATTENDEE PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633446" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -523,15 +523,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $668			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$1,113			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>FOUNDER PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633447" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -563,15 +563,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $231			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$425			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>NON-PROFIT PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633450" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -604,15 +604,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $181			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$313			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>STUDENT PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633451" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -642,15 +642,15 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE $138			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__price">
 				$231			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>EXPO+ PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633449" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -684,17 +684,17 @@ data-wp-init="callbacks.onInit"
 	<div class="wp-block-tc23-event-registration__wrapper">
 					<div class="wp-block-tc23-event-registration__discount">
 				SAVE 15%			</div>
-		
+
 					<div class="wp-block-tc23-event-registration__name">
 				Starting at			</div>
-		
+
 					<div class="wp-block-tc23-event-registration__price">
 				$266			</div>
-		
-		
+
+
 					<div class="wp-block-tc23-event-registration__expiration">
 				<strong>BUNDLE PASS</strong>			</div>
-		
+
 		<div class="wp-block-button wp-block-tc23-event-registration__button btn">
 			<a class="wp-block-button__link wp-element-button btn__link wp-block-tc23-event-registration__show-widget-button" data-event-id="703253" data-widget-id="633455" href="#">Buy Now</a>					</div>
 		<div class="wp-block-tc23-event-registration__content">
@@ -1071,7 +1071,7 @@ data-wp-init="callbacks.onInit"
 <div class="wp-block-group site-footer alignfull has-black-500-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained">
 	<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
 	<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-	
+
 <figure class="wp-block-image size-large wp-block-pattern"><a href="https://techcrunch.com"><img decoding="async" data-destinationLink="https://techcrunch.com" data-event="clickable_image" src="https://techcrunch.com/wp-content/themes/tc-24/dist/svg/tc-logo.svg" alt="TechCrunch Logo" /></a></figure>
 
 <ul class="wp-block-social-links is-content-justification-left is-layout-flex wp-container-core-social-links-is-layout-1 wp-block-social-links-is-layout-flex"><li class="wp-social-link wp-social-link-x  wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://twitter.com/techcrunch" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M13.982 10.622 20.54 3h-1.554l-5.693 6.618L8.745 3H3.5l6.876 10.007L3.5 21h1.554l6.012-6.989L15.868 21h5.245l-7.131-10.378Zm-2.128 2.474-.697-.997-5.543-7.93H8l4.474 6.4.697.996 5.815 8.318h-2.387l-4.745-6.787Z" /></svg><span class="wp-block-social-link-label screen-reader-text">X</span></a></li>
@@ -1104,7 +1104,7 @@ data-wp-init="callbacks.onInit"
 
 <p class="copyright has-white-color has-text-color has-link-color has-body-3-font-size wp-elements-f0016982546dff006dc63c54c577a605 wp-block-paragraph">© 2024 Yahoo.</p>
 	</div>
-	
+
 </footer>
 </div>
 <script type="application/json" id="wp-script-module-data-@wordpress/interactivity">
@@ -1149,7 +1149,7 @@ data-wp-init="callbacks.onInit"
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script type="text/javascript" src="https://techcrunch.com/_static/??-eJydzTsOAjEMRdENEUyGSKkQa4kcwyTKT7bDiN0DU01N9apzH2zDYG9KTUFXqiSgaBYHL2qxM9jLHBCDhhLexCCMkAUevJN4znKCQwFL+o6p04wyn6ntMexMEJPoT8oamP5wh8d7vVnvrt46v9j8AdIfRac=" ></script><script id="google-recaptcha-js-extra">
 var reCAPTCHA = {"siteKey":"6LcKaMEUAAAAACNhMymsVMHg25lFfksvZZO9EMTZ"};

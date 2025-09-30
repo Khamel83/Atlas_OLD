@@ -20,7 +20,7 @@
     <meta property="og:url" content="https://www.ampereanalysis.com/content-spend-to-grow-2-in-2024-after-strike-hit-2023"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@AmpereAnalysis" />
     <meta name="twitter:title" content="Content spend to grow 2% in 2024, after strike-hit 2023" />
@@ -28,7 +28,7 @@
     <meta name="twitter:image" content="https://aa-web-files.s3.amazonaws.com/static/img/ampere_new_logo.png" />
     <meta name="twitter:image:alt" content="Ampere Analysis Logo" />
     <meta name="twitter:creator:id" content="@AmpereAnalysis" />
-    
+
     <meta name="companies" content="" />
     <meta name="stock-tickers" content="" />
 
@@ -50,7 +50,7 @@
         <script>
             window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11276295655');
         </script>
-        
+
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
         <script>
@@ -75,9 +75,9 @@
           }
         })});
         </script>
-        
-    
-                
+
+
+
         <script>
   (function () {
     var webSdkScript = document.createElement("script");
@@ -94,7 +94,7 @@ webSdkScript.onload = () => {
           version: "1.0.0",
           environment: "production",
         },
-        
+
       });
 
 // Load instrumentations at the onLoad event of the web-SDK and after the above configuration.
@@ -134,7 +134,7 @@ webSdkScript.onload = () => {
 
 </head>
     <body>
-        
+
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRRT9T8WLL"></script>
             <script>
                 let custom_user_id = '';
@@ -165,7 +165,7 @@ gtag('set', 'user_properties', {
         <!-- End of HubSpot Embed Code -->
 
 <nav class="navbar navbar-expand-md navbar-dark amp-v2-bg-blue fixed-top p-0">
-    
+
     <a class="pt-2 pb-2 ps-1 " href="/">
         <img src="https://aa-web-files.s3.amazonaws.com/static/img/ampere_analysis_white_transparent.png" height="60px" style="margin-top: -5px; margin-bottom: -5px; margin-left: -8px;">
     </a>
@@ -189,7 +189,7 @@ gtag('set', 'user_properties', {
                                 <a href="/products/?sub=media">MEDIA</a>
                             </h6>
                             <ul class="list-unstyled mt-2 amp-nav-down-list amp-v2-media-nav-list">
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/media-consumer">
                                         <div>
@@ -206,7 +206,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/markets-operators">
                                         <div>
@@ -223,7 +223,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/markets-content">
                                         <div>
@@ -240,7 +240,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/commissioning">
                                         <div>
@@ -257,7 +257,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/movies">
                                         <div>
@@ -274,13 +274,13 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                         <div class="col-md-4 px-4 nav-dropdown-separator">
                             <h6 class="amp-v2-media">&nbsp;</h6>
                             <ul class="list-unstyled mt-2 amp-nav-down-list amp-v2-media-nav-list">
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/analytics-cross-platform">
                                         <div>
@@ -297,7 +297,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/analytics-vod">
                                         <div>
@@ -314,7 +314,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/analytics-svod">
                                         <div>
@@ -331,7 +331,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/svod-economics-us">
                                         <div>
@@ -348,7 +348,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/svod-economics-uk">
                                         <div>
@@ -365,7 +365,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                         <div class="col-md-4 px-4 nav-dropdown-separator">
@@ -374,7 +374,7 @@ gtag('set', 'user_properties', {
                                 <a href="/products/?sub=games">GAMES</a>
                             </h6>
                             <ul class="list-unstyled mt-2 amp-nav-down-list amp-v2-games-nav-list">
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/games-markets">
                                         <div>
@@ -391,7 +391,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/games-analytics">
                                         <div>
@@ -408,7 +408,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/games-consumer">
                                         <div>
@@ -425,13 +425,13 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                             <h6 class="amp-v2-sports pt-4">
                                 <a href="/products/?sub=sports">SPORT</a>
                             </h6>
                             <ul class="list-unstyled mt-2 amp-nav-down-list amp-v2-sports-nav-list">
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/sports-media-rights">
                                         <div>
@@ -448,7 +448,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/sports-financials">
                                         <div>
@@ -465,7 +465,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/sports-consumer">
                                         <div>
@@ -482,7 +482,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="d-none d-md-block">
                                     <a href="/products/app/sponsorship">
                                         <div>
@@ -499,7 +499,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -510,7 +510,7 @@ gtag('set', 'user_properties', {
 <li class="nav-item ">
             <a class="text-center amp-nav" href="/reports">Reports</a>
         </li>
-        
+
         <li class="nav-item ">
             <a class="text-center amp-nav amp-nav-wide" href="/insights">Insights</a>
         </li>
@@ -533,7 +533,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li>
                                     <a class="amp-dropdown-link" href="/press">
                                         <div>
@@ -542,7 +542,7 @@ gtag('set', 'user_properties', {
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li>
                                     <a class="amp-dropdown-link" href="/people">
                                         <div>
@@ -580,9 +580,9 @@ gtag('set', 'user_properties', {
                     </div>
                 </div>
             </div>
-        </li>            
+        </li>
         <div class="amp-nav-btn-cont">
-            
+
             <li class="nav-item text-center">
                 <div class="w-100" style="padding-top: 3px;">
                     <a class="btn btn-outline-info amp-nav-btn" href="/register_interest">
@@ -590,14 +590,14 @@ gtag('set', 'user_properties', {
                     </a>
                 </div>
             </li>
-            
+
             <li class="nav-item text-center">
                 <div class="w-80" style="padding-top: 3px;">
-                
+
                     <a class="btn btn-secondary amp-nav-login" href="/accounts/login/">
                         Login
                     </a>
-                
+
                 </div>
             </li>
         </div>
@@ -610,16 +610,16 @@ gtag('set', 'user_properties', {
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            
+
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
     <div class="container mb-5">
 
 <div class="row pt-5">
@@ -627,18 +627,18 @@ gtag('set', 'user_properties', {
 <div class="col-md-3 d-none d-sm-none d-md-block">
                 <div style=" position: sticky; top: 120px;">
                     <div class="row">
-                        
+
                         <div class="col px-0">
-                            
-                                
+
+
                                 <div class="w-100 profile-container">
                                     <img class="profile-image" src="https://aa-web-files.s3.amazonaws.com/media/staff_profiles/pic1/Hannah-W-1.png?AWSAccessKeyId=ASIATLFHRLWNMW5SMV75&amp;Signature=%2B20%2BgskVar7klY9S7U%2B1BHY1F8c%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEAAaCWV1LXdlc3QtMSJGMEQCIHqi91k87sXZTb1sWUxIjKyhI3ewkUlB1i3PLF%2Fw3MVHAiBs4kHQ%2BRhF1Se1Yc4kl3HT7KraqIsNJC1e6lUpjIcNzCqzBQh5EAcaDDIzMDEzMjExMjc5NCIM64N1nIiOWvwgrL1LKpAFjwgByZJhuVb2TLOOFCTCRwx3nUzmnecNrE%2BfKYHNPmw24fPtQrVdXW%2FujviNpzhuqrHT%2BIgWtEI%2FZ48KBNy%2Ft8ZPjjh95Uzx7gXX2CsNV1TvtULty1%2BIdYrJ1A5%2BE2GQ%2Fz7EUYWfbYgifOUKWJIGerVKkeqz7NKdM0gcc3lWoz47wZ2fhrL4SsrWN0gkbWYikO%2BoOrfphscQhuXbP4mUemT6NOb1aR0neU1StQvUdaL%2BQOaNoVPqEU5t0rObW7%2FVT9OLOvKYl0iuCAX9JA2c0YCQibMr%2Bl00w5KgFK6pMFkrgU7s78A9WPtUhcMm1GzyFzMREJj4EJyKQdNHCEJIalO880UTW56TQreXMW%2FUDA4v7JfH5%2B%2B3m6kzebjzmxbNx%2B2WPK%2F6uH%2FcuuVFCHdQlBcqZWa3vGPEoCY2WhiWfxUCpgOH7iu3ldH3TNc8PCjRLlQ%2FFpqf8YD8Xcw5uWfsMdSB1fp0Oxn6uhWQ57eJXuh5LlawtVvxDt2jV58ZQbMUl0T%2FzBGmY2TjP4Hilgsci40tpeYfrX0rjqPiS2lnvhPumOuD%2BzqUF6DpQaE%2F7mymGlaJlQZerZ1IVXpaQpdnrpOmg0%2F8Km%2FZ6CI%2FRe61QD82n79m%2BZIXVXNLJahE5WIrcja73I%2BTExSgj2kAe%2FkVkTwTvKSHvb56a2j8wdPqkGLa0UX0kYmqOZUjGiK1QMyLfGmlEUAub1Qc%2F1c01w%2Fv86a87dxau0CYxgJMCZ6c7%2BCvI0ShDxjiN%2B7qprWs5wZ3atTRDO7R5JGQ6IQ5OlNmSo7BrXYZmxrAXTE%2FJTSN%2Fv40haT2HENNUB0PPUb6l%2BQO%2B4ngMpANZTSk71P%2F9BKPwlHM4ZZbOmDZ%2FPUdgvbkca0w7O2gxgY6sgFDta7lc49pV609YG2ET3hkqRD5p1O%2F2uJIkN%2FdN7SUATHCKqRnxaF7J%2B%2Fds3FyNTBQp%2FoILNSJvI5WvfnXuEKtMb%2Fd6y7JWXIw3jGAnOGVeSZ2KpwYv7QW46ju0k3vCEOOyWFgA3YWCCx3E5guRpc4w92RY2TywudNENl%2BffuE2ojiLQ9Z3TjqtJrGwXmnSisEDKLbtIUpdTNFYCr5Csrl8EMNiJIWHdRiYZwKz3s8Esx1&amp;Expires=1757964525" width="100%" height="285" style="margin-right: -15px; object-fit: cover;" loading="lazy">
                                     <div class="profile-text"> HANNAH WALSH</div>
                                 </div>
-                                
-                            
+
+
                         </div>
-                        
+
                     </div>
 
 <div class="row py-1">
@@ -664,7 +664,7 @@ gtag('set', 'user_properties', {
                 </div>
             </a>
         </div>
-        
+
     </div>
 </div>
 
@@ -687,14 +687,14 @@ gtag('set', 'user_properties', {
                 <div>
                     <div class="col">
                         <span class="report-meta"><small class="report-meta-date">02/02/2024 - HANNAH WALSH</small></span>
-                        
-                        
+
+
                             <h5 class="report-title py-4">Content spend to grow 2% in 2024, after strike-hit 2023</h5>
 
 <div class="fw-lighter">
                                 <p>In 2024, Ampere Analysis forecasts global content spend will increase by 2% year-on-year, following a plateau in content investment growth in 2023. Last year was predicted to deliver comparable growth, but WGA and SAG-AFTRA strike action led to a two percentage point decline relative to original expectations. Ampere has just published its forecast, with the analysts anticipating that the industry will reach $247bn in 2024, up on 2023&rsquo;s $243bn.</p><p><div class="infogram-embed" data-id="7e6be18f-d1d0-4220-94dc-e55aa4831fb6" data-type="interactive" data-title="Global content spend 2024"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script></p><p>Despite production reaching a near-complete halt in the USA, global streaming services were able to weather the storm and continue a steady delivery of new original content in 2023 with the help of non-US productions. With a continued focus on international productions, the delayed release of US original titles, and an increased desire for sports rights, global streaming services are set to increase their total content spend by 7% in 2024 to $46bn.</p><p>Content investment by commercial broadcasters worldwide largely remains stagnant as they battle weaknesses in the TV advertising market. However, while the US broadcasters were worst hit throughout the industrial action in 2023, the 2024 presidential election is set to bolster advertising revenue and content spend, preventing further decline this coming year. By contrast, US theatrical studios are set to see a 14% year-on-year decline in content investment in 2024 due to the after-effects of strike action, and ongoing focus on cost-efficiency in a cinema market that remains depressed post-COVID.</p>
                             </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -713,20 +713,20 @@ gtag('set', 'user_properties', {
                     How Europe’s commercial broadcasters are restructuring for success
                 </h5>
                 <p class="card-text fw-light" style="font-size: 14px;">
-                    
-                        
+
+
                             <p class="card-text fw-lighter" style='min-height: 120px;'>This report explores the different strategies that European commercial broadcasters have adopted to support revenues and activity within a challenging macroeconomic climate</p>
-                        
-                    
+
+
                 </p>
             </div>
         </a>
         <div class="card-body d-flex justify-content-between align-items-end" style="max-height: 80px; position: absolute; bottom: 0; left: 0; width: 100%;">
             <h4 class="amp-v2-media" style="font-size: 16px; font-weight: 500;">Markets - Content</h4>
             <div class="d-flex align-items-center p-2 amp-icon-bg-media" style="border-radius: 50%;">
-                
+
                     <img src=https://aa-web-files.s3.amazonaws.com/static/img/media_logo.svg height="30px">
-                
+
             </div>
         </div>
     </div>
@@ -743,20 +743,20 @@ gtag('set', 'user_properties', {
                     A health check for the UK TV market
                 </h5>
                 <p class="card-text fw-light" style="font-size: 14px;">
-                    
-                        
+
+
                             <p class="card-text fw-lighter" style='min-height: 120px;'>This presentation, given at the British Screen Forum event in Manchester in March 2025, looks at the current state of the UK TV market in terms of content spend and commissioning, identifying both the …</p>
-                        
-                    
+
+
                 </p>
             </div>
         </a>
         <div class="card-body d-flex justify-content-between align-items-end" style="max-height: 80px; position: absolute; bottom: 0; left: 0; width: 100%;">
             <h4 class="amp-v2-media" style="font-size: 16px; font-weight: 500;">Markets - Content</h4>
             <div class="d-flex align-items-center p-2 amp-icon-bg-media" style="border-radius: 50%;">
-                
+
                     <img src=https://aa-web-files.s3.amazonaws.com/static/img/media_logo.svg height="30px">
-                
+
             </div>
         </div>
     </div>
@@ -773,27 +773,27 @@ gtag('set', 'user_properties', {
                     Theatrical: Analysing the US studios’ successes in 2024
                 </h5>
                 <p class="card-text fw-light" style="font-size: 14px;">
-                    
-                        
+
+
                             <p class="card-text fw-lighter" style='min-height: 120px;'>This report looks at the theatrical releases by the US &#x27;Big 5&#x27; studios during 2024, and analyses which films and strategies were most able to capture audience interest, and help studios in turning a …</p>
-                        
-                    
+
+
                 </p>
             </div>
         </a>
         <div class="card-body d-flex justify-content-between align-items-end" style="max-height: 80px; position: absolute; bottom: 0; left: 0; width: 100%;">
             <h4 class="amp-v2-media" style="font-size: 16px; font-weight: 500;">Markets - Content</h4>
             <div class="d-flex align-items-center p-2 amp-icon-bg-media" style="border-radius: 50%;">
-                
+
                     <img src=https://aa-web-files.s3.amazonaws.com/static/img/media_logo.svg height="30px">
-                
+
             </div>
         </div>
     </div>
 </div>
-                
-            
-            
+
+
+
         </div>
     </div>
 
@@ -809,7 +809,7 @@ gtag('set', 'user_properties', {
             width: 320px !important;
         }
     }
-    
+
     form>div {
         height: auto;
     }
@@ -907,7 +907,7 @@ input::placeholder {
 
 <!-- Modal body -->
       <div class="modal-body">
-        
+
       </div>
 
 <!-- Modal footer -->
@@ -993,8 +993,8 @@ input::placeholder {
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        
-        
+
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const tooltipBtn = document.getElementById('tooltipBtn');
@@ -1006,7 +1006,7 @@ if(tooltipBtn) {
                 tooltipBtn.addEventListener('click', function () {
                     const alertContainer = document.getElementById('alertContainer');
                     const alertDiv = document.createElement('div');
-                    
+
                     alertDiv.className = 'alert alert-secondary alert-dismissible fade show';
                     alertDiv.role = 'alert';
                     alertDiv.innerHTML = `
@@ -1015,13 +1015,13 @@ if(tooltipBtn) {
                         <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Close"></button>
                     `;
                     alertContainer.appendChild(alertDiv);
-    
+
                     setTimeout(() => {
-                        alertDiv.classList.remove('show'); 
+                        alertDiv.classList.remove('show');
                         alertDiv.classList.add('fade-out');
                         setTimeout(() => {
-                            alertDiv.remove(); 
-                        }, 0); 
+                            alertDiv.remove();
+                        }, 0);
                     }, 2000);
                 });
             }

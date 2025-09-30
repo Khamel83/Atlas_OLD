@@ -9,7 +9,7 @@
 		<head>
 										<script src="https://y884.wbaltv.com/script.js"></script>
 													<script src="https://experiments.parsely.com/vip-experiments.js?apiKey=hearst-10023.hearst.com" data-enable-live-updates="true"></script>
-			
+
 							<script>
 	!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/hearst_tv/wbaltv_com/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();
 </script>
@@ -216,7 +216,7 @@ window.HTV_DP_CF = false;</script><script>!function(n){if(!window.cnx){window.cn
 ( function( d ) {
 	var env = "prod";
 	var s = document.createElement( "script" );
-	
+
 	s.async = true;
 	s.fetchPriority = "high";
 
@@ -243,7 +243,7 @@ switch ( env ) {
 d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 } )( document );
 </script>
-				
+
 				<div class="site-content">
 					<a href="#" class="skip-to-content">Skip to content</a>
 <script id="weather-images" type="text/x-json">
@@ -293,7 +293,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <!-- / headers/nowcast -->
 <!-- headers/main -->
 
-<header class="header">    
+<header class="header">
     <div class="header-inner">
         <button
             class="header-button header-sidepanel-button"
@@ -373,7 +373,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 											 	height="44"
 											 	width="133" />
                             </a>
-        
+
         <ul class="nav-menu"><li class="nav-item" data-id="1">
             <a id="brazeSubscribe" href="/subscribe" class="nav-item-braze-subscribe">
                 <i class="fa fa-envelope nav-item-braze-subscribe-icon" aria-hidden="true"></i>
@@ -392,8 +392,8 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <script type="text/template" class="alerts-block-template">
 	<div class="alerts--items">
 		<% if ( count > 0 ) { %>
-			
-			
+
+
 			<% if ( weatherAlerts > 0 ) { %>
 				<span class="alerts--item" tabindex="-1" aria-hidden="true" role="alert"  aria-label="Weather Alert">
 					<a target="_top" href="/alerts" class="link" tabindex="-1">
@@ -518,7 +518,7 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 </div>
 <!-- / weather/overlay -->
 <main>
-				
+
 			<!-- blocks/ad.twig -->
 <div class="ad-overlay ">
 	<div class="ad-container "
@@ -544,10 +544,10 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 <!-- blocks/ad.twig -->
 
 </div>
-	
-	
+
+
 	<div class="articles-container">
-		
+
 <!-- article/blocks/content -->
 	<script type="text/javascript">var HRSTArticles = HRSTArticles || {};
 HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"] = {};
@@ -637,29 +637,29 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
 <div id="wrapper--marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences" class="article--wrapper">
 	<article>
 		<div class="article-content" data-id="3e37e0e5-e4bd-4714-aa99-1d3c88955c6d" data-canonical-url="https://www.wbaltv.com/article/marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences/34898642" data-share-url="/article/marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences/34898642">
-			
+
 		<div class="article-content--header">
-						
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<h1 class="article-headline--title">Mosby: Sentencing review unit to take critical look at prison sentences</h1>
 			</section>
 <!-- /article/blocks/headline -->
 
 </div>
-	
+
 		<div class="article-content--body">
 			<div class="article-content--body-wrapper">
-																		
-									
+
+
 <!-- article/blocks/poster-media -->
 <div class="article-poster-media-wrapper">
 	<div class="article-poster-media">
-					
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">Mosby: Sentencing review unit to take critical look at prison sentences</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -672,7 +672,7 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
 <div class="transcript" data-video-id="66332bb9-9b3b-4882-b85d-99250ac976f8">
 													GUARANTEE FOR RELEASE, AND THERE ARE SPECIFIC GUIDELINES FOR WHO QUALIFIES. &gt;&gt; LENGTHY AND EXTENDED INCARCERATION OFTEN DOES NOT SUPPORT COMMUNITY SAFETY. KAI: BALTIMORE CITY STATE’S ATTORNEY MARILYN MOSBY SAYS HER OFFICE’S NEW SENTENCING REVIE UNIT, ANNOUNCED MONDAY, HAS ALREADY STARTED REVIEWING CASES. INVOLVING INMATES SERVING LIFE SENTENCES WHO FIRST AN FOREMOST HAVE A DOCUMENTED MEDICAL CONDITION THAT PUTS THEM AT GREATER RISK OF ILLNESS OR DEATH IF THEY CONTRACT THE CORONAVIRUS. OTHER CRITERIA FOR REVIE INCLUDES INMATES OVER 60 WHO’VE SERVED MORE THAN 25 YEARS OF LIFE SENTENCE AND INMATES WHO’VE SERVED MORE THAN 25 YEARS FOR CRIMES COMMITTED AS JUVENILES. THE PRIMARY MOTIVATION IN DEVELOPING THE UNIT, MOSBY EXPLAINED, IS TO ADDRESS RACIAL INEQUALITY AND MASS INCARCERATION. &gt;&gt; WHEN YOU LOOK AT OVER 2,000 INDIVIDUALS THAT ARE CURRENT SERVING LIFE SENTENC OVER THE STATE OF MARYLAND AND THE FACT THAT EIGHT OUT OF 10 OF THEM ARE BLACK THERE’S A DISPROPORTIONATILITY THAT IS BEING IMPOSED UPON THESE PEOPLE. AND IN LIGHT OF COVID, WHICH HAS EXACERBATED THAT EPIDEMIC IN WAYS THAT THE ENTIRE COUNTRY CAN NOW SEE, WE ARE USING THAT AS A LEGAL MECHANISM TO DO THESE REVIEWS. KAI: CONSULTATION WITH THE VICTIM OR THE VICTIM’S FAMILY IS A PART OF THE REVIEW PROCESS. DARRYL GREEN WAS INVITED TO SPEAK IN SUPPORT OF THE UNIT. HIS BROTHER’S KILLER SERVED 25 YEARS BEFORE DARRYL TESTIFIED FOR HIS RELEASE. &gt;&gt; SOME OF US, WE THINK THAT WE CAN LOCK INDIVIDUALS UP AND THROW AWAY THE KEY. EVERYBODY DESERVES A SECOND CHANCE. &gt;&gt; WE WILL HAVE A LENGTHY REVIEW PROCESS. KAI: FORMER STATE DEPUTY PUBLIC DEFENDER BECKY FELDMAN’S BROTHER WAS KILLED 20 YEARS AGO. SHE HELPED LAUNCH THE UNIT AND WILL SERVE SERVE AS DIVISION CHIEF. &gt;&gt; WE WILL LINK VICTIMS UP WITH SUPPORT SERVICES AND WE WILL BE OFFERING THEM THE OPPORTUNITY TO PARTICIPATE IN RESTORATIVE JUSTICE. KAI: THE UNIT WILL ALSO CONSIDER CONDUCT WHILE INCARCERATED, EXPRESSED REMORSE, FAMILY AND COMMUNITY SUPPORT, AND LIKELIHOOD OF REOFFENDIN WE REACHED OUT FOR COMMENT FROM POLICE COMMISSIONER HARRISON AND THE POLICE UNION ABOUT THE NEW UNIT. NEITHER RESPON
 											</div>
-					
+
 																					<div class="tablet-desktop">
 					<div class="article-branding">
 						<img data-src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/site_branding/wbal.png"
@@ -736,10 +736,10 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
 <!-- blocks/ad.twig -->
 
 <div class="mobile">
-							
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">Mosby: Sentencing review unit to take critical look at prison sentences</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -790,26 +790,26 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
 
 </div>
 					</div>
-	
-						
+
+
 					<div class="article-content--body-teaser">
-						
+
 					</div>
-	
+
 					<div class="article-content--body-text-raw">
 						A new specialized unit in the Baltimore City State's Attorney's Office will look at select cases to determine if they should recommend an early release -- but there's specific criteria.The new unit includes a review process. It's not a guarantee for release and there are specific guidelines for who qualifies."Lengthy and extended incarceration often does not support community safety,” Baltimore City State’s Attorney Marilyn Mosby said.Mosby said her office's new Sentencing Review Unit, announced Monday, has already started reviewing cases involving inmates serving life sentences who, first and foremost, have a documented medical condition that puts them at greater risk of illness or death if they contract the coronavirus.Other criteria for review include:Inmates over 60 who've served more than 25 years of a life sentence.Inmates who've served more than 25 years for crimes committed as juveniles.The primary motivation in developing the unit, Mosby explained, is to address racial inequality and mass incarceration."When you look at over 2,000 individuals that are currently serving life sentences over the state of Maryland, and the fact that 8 out of 10 of them are Black, there's a disproportionality that is being imposed upon these people,” Mosby said. "And in light of COVID which has exacerbated that epidemic in ways that the entire country can now see we are using that as a legal mechanism to do these reviews."Consultation with the victim, or the victim's family, is a part of the review process.Darryl Green was invited to speak in support of the unit. His brother's killer served 25 years before Green testified for his release."Some of us, we think that we can lock individuals up and throw away the key. Everybody deserves a second chance,” Green said.Former state deputy Public Defender Becky Feldman's brother was killed 20 years ago. She helped launch the unit and will serve as division chief."We will link victims up with support services and we will be offering them the opportunity to participate in restorative justice,” Feldman said.The unit will also consider:Conduct while incarcerated.Expressed remorse.Family and community support.Likelihood of re-offending.WBAL-TV 11 News reached out for comment from Baltimore Police Commissioner Michael Harrison and the city police union about the new unit but neither responded.
 					</div>
-	
+
 					<div class="article-content--body-text">
 						<strong class="dateline">BALTIMORE &mdash;</strong> 													<p>A new specialized unit in the Baltimore City State's Attorney's Office will look at select cases to determine if they should recommend an early release -- but there's specific criteria.</p><p>The new unit includes a review process. It's not a guarantee for release and there are specific guidelines for who qualifies.</p>    <div class="mobile">
-        
+
 <!-- article/blocks/weather-box -->
 <div class="weather-box-container">
     <div id="mobile-weather" class="weather-sidebar" style="background-image: url('https://assets.htvapps.com/assets/images/weather/unknown_sm.599fcc7.jpg');">
         <div class="weather-watch-header">
             <a href="/article/quiet-start-to-workweek-but-rain-chances-return-tuesday-into-wednesday/66100881" class="weather-watch-link" rel="nofollow">
                 <div class="weather-logo">
-                                            <img src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/weather_team_logo/WBAL_WX.png" 
+                                            <img src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/weather_team_logo/WBAL_WX.png"
                             alt="Weather Team Logo" />
                                     </div>
                 <span class="weather-watch-text">Latest Forecast</span>
@@ -841,7 +841,7 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
             <div class="weather-error" style="display: none;">
                 <div>No weather data available</div>
             </div>
-            
+
             <div class="weather-tabs-container">
                 <div class="feed-item-header tabs weather-tabs-header">
                     <h2 class="js-tab open weather-tab weather-tab-item" data-tab-id="hourly" onclick="switchWeatherTab('hourly', this); return false;">HOURLY</h2>
@@ -858,7 +858,7 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
                     </div>
                 </a>
             </div>
-            
+
             <div class="weather-tabs-container">
                 <div class="weather-tabs-header">
                     <div class="weather-tab-item open" data-tab="radar">RADAR</div>
@@ -868,12 +868,12 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
         </div>
         <div class="weather-map-content">
             <div class="map-content-radar" id="mobile-weather-radar">
-                <div onclick="toggleFullscreen('mobile-weather-radar');" 
+                <div onclick="toggleFullscreen('mobile-weather-radar');"
                     class="fullscreen-button">
                     <i class="fa fa-expand" aria-hidden="true"></i>
                 </div>
                 <iframe src="https://d2cmvbq7sxx33j.cloudfront.net/radar/wbal-embedradar.html"
-                        class="weather-iframe" 
+                        class="weather-iframe"
                         allowfullscreen>
                 </iframe>
             </div>
@@ -885,9 +885,9 @@ HRSTArticles["3e37e0e5-e4bd-4714-aa99-1d3c88955c6d"].article = {
 function toggleFullscreen(elementId) {
     var element = document.getElementById(elementId);
     if (!element) return;
-    
+
     var icon = element.querySelector('.fa-expand, .fa-times');
-    
+
     if (!document.fullscreenElement) {
         element.requestFullscreen().then(() => {
             icon.classList.remove('fa-expand');
@@ -924,38 +924,38 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>`;
     }
-    
+
     function initializeWeatherBox(container) {
 
 function switchWeatherTab(tabName, clickedElement) {
             container.querySelectorAll('[data-tab-id]').forEach(function(tab) {
                 tab.classList.remove('open');
             });
-            
+
             clickedElement.classList.add('open');
-            
+
             container.querySelectorAll('[data-content-id]').forEach(function(content) {
                 content.style.display = 'none';
             });
-            
+
             var targetContent = container.querySelector('[data-content-id="' + tabName + '"]');
             if (targetContent) {
                 targetContent.style.display = 'block';
             }
         }
-        
+
         function loadWeatherData() {
             var location = { zip: window.DEFAULT_ZIPCODE };
-            
+
             try {
                 var storedLocation = localStorage.getItem('htv.zip.last');
                 if (storedLocation) {
                     location = JSON.parse(storedLocation);
                 }
             } catch (e) {}
-            
+
             var apiUrl = (window.DEWY_HOSTNAME || '') + '/api/v1/weather/full/' + location.zip;
-            
+
             if (window.fetch) {
                 fetch(apiUrl)
                     .then(function(response) { return response.json(); })
@@ -991,32 +991,32 @@ function updateWeatherAlertsBar(weatherData) {
                 }
             }
         }
-        
+
         function updateCurrentWeather(weatherData) {
             if (weatherData.current) {
                 var tempEl = container.querySelector('.weather-grid--current-temp-value');
                 if (tempEl) tempEl.textContent = weatherData.current.temp_f || '';
-                
+
                 var iconEl = container.querySelector('.weather-grid--current-icon');
                 if (iconEl && weatherData.current.icon_name) {
                     iconEl.className = 'weather-grid--current-icon weather-current-icon icon icon-weather-' + weatherData.current.icon_name;
                 }
-                
+
                 var skyEl = container.querySelector('.weather-grid--sky');
                 if (skyEl) skyEl.textContent = weatherData.current.sky || '';
-                
+
                 var feelsEl = container.querySelector('.weather-grid--feels');
                 if (feelsEl) feelsEl.textContent = (weatherData.current.feels_like_f || weatherData.current.temp_f || '') + '°F';
             }
         }
-        
+
         function updateForecastTabs(weatherData) {
             if (weatherData.hourly) {
                 var hourlyContainer = container.querySelector('.weather-hourly-forecast');
                 if (hourlyContainer) {
                     var html = '';
                     var maxHours = Math.min(5, weatherData.hourly.length);
-                    
+
                     for (var i = 0; i < maxHours; i++) {
                         var hour = weatherData.hourly[i];
                         html += generateForecastItem({
@@ -1029,13 +1029,13 @@ function updateWeatherAlertsBar(weatherData) {
                     hourlyContainer.innerHTML = html;
                 }
             }
-            
+
             if (weatherData.daily) {
                 var dailyContainer = container.querySelector('.weather-daily-forecast');
                 if (dailyContainer) {
                     var html = '';
                     var maxDays = Math.min(5, weatherData.daily.length);
-                    
+
                     for (var i = 0; i < maxDays; i++) {
                         var day = weatherData.daily[i];
                         var dayName = getShortDayName(day.day);
@@ -1051,7 +1051,7 @@ html += generateForecastItem({
                 }
             }
         }
-        
+
         function getShortDayName(dayName) {
             switch (dayName) {
                 case 'Today':
@@ -1076,17 +1076,17 @@ html += generateForecastItem({
                     return dayName;
             }
         }
-        
+
         container.querySelectorAll('[data-tab-id]').forEach(function(tab) {
             tab.onclick = function() {
                 switchWeatherTab(this.getAttribute('data-tab-id'), this);
                 return false;
             };
         });
-        
+
         loadWeatherData();
     }
-    
+
     document.querySelectorAll('.weather-sidebar').forEach(function(weatherBox) {
         initializeWeatherBox(weatherBox);
     });
@@ -1122,7 +1122,7 @@ document.addEventListener('fullscreenchange', function() {
 <!-- blocks/ad.twig -->
 
 </div>
-    
+
     </div>
 <!-- article/blocks/side-floater -->
 <p>"Lengthy and extended incarceration often does not support community safety,” Baltimore City State’s Attorney Marilyn Mosby said.</p><p>Mosby said her office's new Sentencing Review Unit, announced Monday, has already started reviewing cases involving inmates serving life sentences who, first and foremost, have a documented medical condition that puts them at greater risk of illness or death if they contract the coronavirus.</p><p>Other criteria for review include:</p><ul><li>Inmates over 60 who've served more than 25 years of a life sentence.</li><li>Inmates who've served more than 25 years for crimes committed as juveniles.</li><li>The primary motivation in developing the unit, Mosby explained, is to address racial inequality and mass incarceration.</li></ul>
@@ -1135,17 +1135,17 @@ document.addEventListener('fullscreenchange', function() {
 </div>
 
 </div>
-	
-	
-						
-						
+
+
+
+
 														</div>
-	
+
 																</div>
 		</div>
 
 <div class="article-social-branding share-content horizontal infinite-scroll">
-				
+
 <!-- blocks/share-content/share-widget -->
 <div class="share-content js-share-container article-social"
 		data-content-url="/article/marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences/34898642"
@@ -1170,15 +1170,15 @@ document.addEventListener('fullscreenchange', function() {
 				<i class="icon icon-facebook"></i></a>
 			</span>
 		</li>
-	
+
 			<li class="share-content--utils-action twitter">
 							<a href="#" class="js-share-social js-share-twitter"  aria-label="Share this article to Twitter">
 						<span aria-hidden="true">
 				<i class="icon icon-twitter"></i></a>
 			</span>
 		</li>
-	
-	
+
+
 			<li class="share-content--utils-action copy-link">
 			<a href="#" class="js-share-link"  aria-label="Copy this link to clipboard" role="button">
 				<span aria-hidden="true">
@@ -1215,7 +1215,7 @@ document.addEventListener('fullscreenchange', function() {
 </div>
 
 </li>
-	
+
 	</ul>
 <!-- /blocks/share-content/share-content-options -->
 
@@ -1223,9 +1223,9 @@ document.addEventListener('fullscreenchange', function() {
 <!-- /blocks/share-content/share-widget -->
 
 </div>
-	
-			
-			
+
+
+
 					<div class="article-content--footer no-cream">
 				<h2 class="article-footer--header">Top Picks</h2>
 				<div class="grid-content horizontal-list three-cols">
@@ -1246,9 +1246,9 @@ document.addEventListener('fullscreenchange', function() {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">Nighttime golfing in 1992 – was anyone hit?</div>
 
 <div class="feed-item-utils  ">
@@ -1276,9 +1276,9 @@ document.addEventListener('fullscreenchange', function() {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">&#039;The Pitt&#039; wins drama Emmy Award as the &#039;The Studio&#039; breaks Emmys comedy record</div>
 
 <div class="feed-item-utils  ">
@@ -1306,9 +1306,9 @@ document.addEventListener('fullscreenchange', function() {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">2025 Emmy Awards: See the full list of winners</div>
 
 <div class="feed-item-utils  ">
@@ -1336,9 +1336,9 @@ document.addEventListener('fullscreenchange', function() {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">All the celebrity red-carpet looks at the 2025 Emmy Awards</div>
 
 <div class="feed-item-utils  ">
@@ -1353,12 +1353,12 @@ document.addEventListener('fullscreenchange', function() {
 </div>
 				</div>
 			</div>
-			
+
 				<div class="clear"></div>
 			</div>
 	</article>
 	<div id="sidelist--marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences">
-		
+
 <!-- article/blocks/sidelist -->
 <aside class="article-sidelist-wrapper full-height">
 						<div class="ad-track">
@@ -1378,14 +1378,14 @@ document.addEventListener('fullscreenchange', function() {
 </div>
 			</div>
 							<div class="desktop-only">
-				
+
 <!-- article/blocks/weather-box -->
 <div class="weather-box-container">
     <div id="desktop-weather" class="weather-sidebar" style="background-image: url('https://assets.htvapps.com/assets/images/weather/unknown_sm.599fcc7.jpg');">
         <div class="weather-watch-header">
             <a href="/article/quiet-start-to-workweek-but-rain-chances-return-tuesday-into-wednesday/66100881" class="weather-watch-link">
                 <div class="weather-logo">
-                                            <img src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/weather_team_logo/WBAL_WX.png" 
+                                            <img src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/weather_team_logo/WBAL_WX.png"
                             alt="Weather Team Logo" />
                                     </div>
                 <span class="weather-watch-text">Latest Forecast</span>
@@ -1417,7 +1417,7 @@ document.addEventListener('fullscreenchange', function() {
             <div class="weather-error" style="display: none;">
                 <div>No weather data available</div>
             </div>
-            
+
             <div class="weather-tabs-container">
                 <div class="feed-item-header tabs weather-tabs-header">
                     <h2 class="js-tab open weather-tab weather-tab-item" data-tab-id="hourly" onclick="switchWeatherTab('hourly', this); return false;">HOURLY</h2>
@@ -1434,7 +1434,7 @@ document.addEventListener('fullscreenchange', function() {
                     </div>
                 </a>
             </div>
-            
+
             <div class="weather-tabs-container">
                 <div class="weather-tabs-header">
                     <div class="weather-tab-item open" data-tab="radar">RADAR</div>
@@ -1444,12 +1444,12 @@ document.addEventListener('fullscreenchange', function() {
         </div>
         <div class="weather-map-content">
             <div class="map-content-radar" id="desktop-weather-radar">
-                <div onclick="toggleFullscreen('desktop-weather-radar');" 
+                <div onclick="toggleFullscreen('desktop-weather-radar');"
                     class="fullscreen-button">
                     <i class="fa fa-expand" aria-hidden="true"></i>
                 </div>
                 <iframe src="https://d2cmvbq7sxx33j.cloudfront.net/radar/wbal-embedradar.html"
-                        class="weather-iframe" 
+                        class="weather-iframe"
                         allowfullscreen>
                 </iframe>
             </div>
@@ -1461,9 +1461,9 @@ document.addEventListener('fullscreenchange', function() {
 function toggleFullscreen(elementId) {
     var element = document.getElementById(elementId);
     if (!element) return;
-    
+
     var icon = element.querySelector('.fa-expand, .fa-times');
-    
+
     if (!document.fullscreenElement) {
         element.requestFullscreen().then(() => {
             icon.classList.remove('fa-expand');
@@ -1500,38 +1500,38 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>`;
     }
-    
+
     function initializeWeatherBox(container) {
 
 function switchWeatherTab(tabName, clickedElement) {
             container.querySelectorAll('[data-tab-id]').forEach(function(tab) {
                 tab.classList.remove('open');
             });
-            
+
             clickedElement.classList.add('open');
-            
+
             container.querySelectorAll('[data-content-id]').forEach(function(content) {
                 content.style.display = 'none';
             });
-            
+
             var targetContent = container.querySelector('[data-content-id="' + tabName + '"]');
             if (targetContent) {
                 targetContent.style.display = 'block';
             }
         }
-        
+
         function loadWeatherData() {
             var location = { zip: window.DEFAULT_ZIPCODE };
-            
+
             try {
                 var storedLocation = localStorage.getItem('htv.zip.last');
                 if (storedLocation) {
                     location = JSON.parse(storedLocation);
                 }
             } catch (e) {}
-            
+
             var apiUrl = (window.DEWY_HOSTNAME || '') + '/api/v1/weather/full/' + location.zip;
-            
+
             if (window.fetch) {
                 fetch(apiUrl)
                     .then(function(response) { return response.json(); })
@@ -1567,32 +1567,32 @@ function updateWeatherAlertsBar(weatherData) {
                 }
             }
         }
-        
+
         function updateCurrentWeather(weatherData) {
             if (weatherData.current) {
                 var tempEl = container.querySelector('.weather-grid--current-temp-value');
                 if (tempEl) tempEl.textContent = weatherData.current.temp_f || '';
-                
+
                 var iconEl = container.querySelector('.weather-grid--current-icon');
                 if (iconEl && weatherData.current.icon_name) {
                     iconEl.className = 'weather-grid--current-icon weather-current-icon icon icon-weather-' + weatherData.current.icon_name;
                 }
-                
+
                 var skyEl = container.querySelector('.weather-grid--sky');
                 if (skyEl) skyEl.textContent = weatherData.current.sky || '';
-                
+
                 var feelsEl = container.querySelector('.weather-grid--feels');
                 if (feelsEl) feelsEl.textContent = (weatherData.current.feels_like_f || weatherData.current.temp_f || '') + '°F';
             }
         }
-        
+
         function updateForecastTabs(weatherData) {
             if (weatherData.hourly) {
                 var hourlyContainer = container.querySelector('.weather-hourly-forecast');
                 if (hourlyContainer) {
                     var html = '';
                     var maxHours = Math.min(5, weatherData.hourly.length);
-                    
+
                     for (var i = 0; i < maxHours; i++) {
                         var hour = weatherData.hourly[i];
                         html += generateForecastItem({
@@ -1605,13 +1605,13 @@ function updateWeatherAlertsBar(weatherData) {
                     hourlyContainer.innerHTML = html;
                 }
             }
-            
+
             if (weatherData.daily) {
                 var dailyContainer = container.querySelector('.weather-daily-forecast');
                 if (dailyContainer) {
                     var html = '';
                     var maxDays = Math.min(5, weatherData.daily.length);
-                    
+
                     for (var i = 0; i < maxDays; i++) {
                         var day = weatherData.daily[i];
                         var dayName = getShortDayName(day.day);
@@ -1627,7 +1627,7 @@ html += generateForecastItem({
                 }
             }
         }
-        
+
         function getShortDayName(dayName) {
             switch (dayName) {
                 case 'Today':
@@ -1652,17 +1652,17 @@ html += generateForecastItem({
                     return dayName;
             }
         }
-        
+
         container.querySelectorAll('[data-tab-id]').forEach(function(tab) {
             tab.onclick = function() {
                 switchWeatherTab(this.getAttribute('data-tab-id'), this);
                 return false;
             };
         });
-        
+
         loadWeatherData();
     }
-    
+
     document.querySelectorAll('.weather-sidebar').forEach(function(weatherBox) {
         initializeWeatherBox(weatherBox);
     });
@@ -1681,16 +1681,16 @@ document.addEventListener('fullscreenchange', function() {
 <!-- /article/blocks/weather-box -->
 
 </div>
-			
-			
+
+
 		<div class="article-sidelist js-sidelist-sticky-menu">
 			<h2 class="article-sidelist--header" data-text-cream="RECOMMENDED" data-text-toppicks="TOP PICKS">
 				&nbsp;
 			</h2>
 			<ul></ul>
 		</div>
-		
-					
+
+
 			<div class="article-ad rectangle scrollable">
 			<!-- blocks/ad.twig -->
 <div class="ad-rectangle ">
@@ -1723,9 +1723,9 @@ document.addEventListener('fullscreenchange', function() {
 // Align Sidelist at the beginning of content media
 					var headline = document.querySelector("#wrapper--marilyn-mosby-announces-sentencing-review-unit-to-take-critical-look-at-prison-sentences .article-headline");
 					var offset = headline.getBoundingClientRect().height;
-					
+
 					track.style.paddingTop = offset + "px";
-				
+
 				var observer = new ResizeObserver((entries) => {
 					if (getComputedStyle(aside).display === 'none') {
 						return;
@@ -1914,7 +1914,7 @@ observer.observe(parent);
 <div class="sticky-bottom">
 					<div class="viafoura-container">
 											</div>
-					
+
 <!-- blocks/sticky-bottom-ad.twig -->
 <div class="ad-sticky-container">
 	<span
@@ -1939,7 +1939,7 @@ observer.observe(parent);
 <script type="text/javascript">
 						!(function(j,_name){j[_name]=j[_name]||function e(){(e.q=e.q||[]).push(arguments)},j[_name].v=j[_name].v||2,j[_name].s="3";!(function(j,e,M,U){function T(M,U){try{T=j.localStorage,(M=JSON.parse(T[decodeURI(decodeURI('%67%65%257%34It%256%35%25%36%64'))]("_aQS02NTE3MURFNkVGMzAwRjAyQzhBNERFNDItMTE")).lgk||[])&&(U=j[e].pubads())&&M.forEach((function(j){j&&j[0]&&U.setTargeting(j[0],j[1]||"")}))}catch(q){}var T}try{(U=j[e]=j[e]||{}).cmd=U.cmd||[],typeof U.pubads===M?T():typeof U.cmd.unshift===M?U.cmd.unshift(T):U.cmd.push(T)}catch(q){}})(window,decodeURI(decodeURI('%256%37o%25%36f%67%25%36ce%74%61%2567')),"function");;})(window,decodeURI(decodeURI('%2561%2564%256%64%2569%2572a%256c')));!(function(j,e,M,U){M=j.createElement(e),j=j.getElementsByTagName(e)[0],M.async=1,M.src="https://handsomelythumb.com/public/js/idvtx3ziqff4.app.js",(U=0)&&U(M),j.parentNode.insertBefore(M,j)})(document,"script");
 					</script>
-				
+
 									<script async src="https://accounts.google.com/gsi/client" fetchpriority="low"></script>
 <script>
 		window.addEventListener("load", (event) => {
@@ -1989,7 +1989,7 @@ setSubscribedTextToDiv();
 
 let userEmail = '';
 				try {
-						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;   
+						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;
 				} catch (e) {
 						console.error('Error decoding google one tap jwt');
 				}
@@ -2008,7 +2008,7 @@ if (window.Metaphor?.signUpBraze && userEmail) {
 						window.Metaphor.signUpBraze(userEmail, window.GOOGLE_ONE_TAP_BRAZE_SUBSCRIPTION_GROUP, 'google-onetap-signupbraze');
 				}
 		};
-		
+
 		function setSubscribedTextToDiv() {
 				if (document.getElementById("brazeSubscribeText")) {
 						document.getElementById("brazeSubscribeText").innerHTML = 'Subscribed';

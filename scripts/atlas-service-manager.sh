@@ -6,7 +6,7 @@
 ATLAS_TARGET="atlas.target"
 SERVICES=(
     "atlas-api"
-    "atlas-manager" 
+    "atlas-manager"
     "atlas-google-search"
     "atlas-web"
     "atlas-health-monitor"
@@ -28,7 +28,7 @@ print_header() {
 print_service_status() {
     local service="$1"
     local status=$(systemctl is-active "$service" 2>/dev/null || echo "unknown")
-    
+
     case $status in
         "active")
             echo -e "  ${GREEN}✅ $service: RUNNING${NC}"
@@ -59,11 +59,11 @@ show_status() {
     for service in "${SERVICES[@]}"; do
         print_service_status "${service}.service"
     done
-    
+
     echo ""
     echo "Overall Atlas Status:"
     print_service_status "$ATLAS_TARGET"
-    
+
     echo ""
     echo "Resource Usage:"
     echo "$(systemctl show atlas-api.service --property=MainPID --value 2>/dev/null | xargs -I {} ps -p {} -o pid,pcpu,pmem,cmd --no-headers 2>/dev/null || echo 'API: Not running')"
@@ -110,18 +110,18 @@ emergency_restart() {
     check_sudo
     print_header
     echo -e "${RED}🚨 Emergency restart - killing all Atlas processes...${NC}"
-    
+
     # Kill any hung Atlas processes
     pkill -f "python.*atlas" || true
     pkill -f "python.*api/main.py" || true
     pkill -f "python.*google_search_worker" || true
-    
+
     sleep 2
-    
+
     # Restart services
     systemctl daemon-reload
     systemctl restart "$ATLAS_TARGET"
-    
+
     sleep 5
     show_status
 }
@@ -132,7 +132,7 @@ usage() {
     echo ""
     echo "Commands:"
     echo "  status                 Show service status (default)"
-    echo "  start                  Start all Atlas services" 
+    echo "  start                  Start all Atlas services"
     echo "  stop                   Stop all Atlas services"
     echo "  restart                Restart all Atlas services"
     echo "  emergency              Emergency restart (kills processes)"
@@ -155,7 +155,7 @@ install_services() {
         echo -e "${RED}❌ Installation script not found${NC}"
         exit 1
     fi
-    
+
     echo -e "${BLUE}🔧 Installing Atlas SystemD services...${NC}"
     bash /home/ubuntu/dev/atlas/scripts/install-systemd-services.sh
 }
@@ -168,7 +168,7 @@ case "${1:-status}" in
     "start")
         start_services
         ;;
-    "stop") 
+    "stop")
         stop_services
         ;;
     "restart")

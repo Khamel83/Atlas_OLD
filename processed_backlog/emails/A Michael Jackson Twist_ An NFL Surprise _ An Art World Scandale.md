@@ -24,7 +24,7 @@ Scarborough; Tara Palmeri dissected the Dems’ Fetterman fascination; and Peter
 
 Check out these stories, and others, via the links below. And stick around for the backstory on how it all came together.
 
- 
+
 
 FASHION
 FASHION
@@ -41,7 +41,7 @@ meanwhile…
 
 Sarah Shapiro details ( https://puck.news/the-vuori-reality-distortion-complex/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Vuori mega-growth story.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -53,7 +53,7 @@ and…
 
 Julie Davich picks through ( https://puck.news/an-art-collections-escape-from-los-angeles/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Kathleen Kennedy’s art collection.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -70,7 +70,7 @@ meanwhile…
 
 Scott Mendelson gathers ( https://puck.news/five-crucial-box-office-questions-for-2025/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the industry’s biggest box office questions for ’25.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -78,7 +78,7 @@ WALL STREET
 Bill Cohan
 peruses ( https://puck.news/goldman-sachs-plans-for-life-beyond-david-solomon/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the bank-succession league tables.
 
- 
+
 
 MEDIA
 MEDIA
@@ -90,7 +90,7 @@ and…
 
 John Ourand unpacks ( https://puck.news/the-nfls-playoff-ratings-slump/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the NFL’s surprising ratings dip.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -107,7 +107,7 @@ meanwhile…
 
 John Heilemann and Joe Scarborough exchange ( https://puck.news/joe-scarborough-versus-the-volcano/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) inauguration notes.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -148,7 +148,7 @@ lawsuit on The Powers That Be.
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 Billionaires
 at the Gate
@@ -183,7 +183,7 @@ the company will shed hundreds of jobs while it invests in hiring more than 100 
 Indeed, the news has never been more complicated, and the way we
 receive it has never been more balkanized, and yet both matter more than ever. These are the stories of our time, and precisely what you should expect to read in Puck.
 
- 
+
 
 Have a great weekend,
 
@@ -202,6 +202,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUnbWEstN7kMbIctgM4Ec=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The Grayscale Bitcoin Trust is a pot that contains Bitcoins. Shares of the trust — each representing a share of ownership of the Bitcoins in
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX vs. Grayscale
-    
-  
+
+
 
 The Grayscale Bitcoin Trust is a pot that contains Bitcoins. Shares of the trust — each representing a share of ownership of the Bitcoins in the pot — trade publicly on OTC Markets like shares of stock. If you have some Bitcoins and want shares of the pot, you can go to Grayscale Investments LLC — which runs the trust — and give them your Bitcoins, and they will give you back shares in the pot. If you have shares of the pot and you want some Bitcoins, however, you can’t go to Grayscale and ask for the Bitcoins back. The pot is one-way. Bitcoins can come in, but they cannot leave.
 This is suboptimal product design for customers, but it is very very good product design for Grayscale. As an asset manager, it is just good business to run a pot of money that can increase (when people put in Bitcoins) but not decrease (they can’t take them out).
@@ -111,89 +111,89 @@ I mean. Seems reasonable? I suppose that the sequencing here is: 
 
 Also there is something pretty funny about FTX’s tone here, as the aggrieved victims of alleged crypto malfeasance. “This action arises out of Defendants’ brazen abuse of their control over nearly $19 billion of digital assets held in two trusts to enrich themselves at the expense of trust shareholders.” That sentence is about Grayscale! Wait until FTX’s lawyers hear what FTX did.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Indications of interest
-    
-  
+
+
 
 The trading business at an investment bank consists largely of matching up customers who want to buy securities with customers who want to sell those securities. One way to do that is to sit by the phone waiting for customers to call: If the customers want to sell, you buy, if they want to buy, you sell, and over time you’ll end up moving securities from customers who don’t want them to customers who do. But most of the time you are rewarded for showing a bit more hustle than that. If you call a customer and say “hey, anything you want to buy and/or sell,” she might say yes, and then you have half a trade and just have to find the other half.
 Of course she might say no, and then you don’t have a trade. A slightly more compelling approach might be to call up the customer and say “hey, I know you have a bunch of XYZ stock, and I have another customer who wants to buy it, are you interested?” She could still say no, but you have planted the seed, in her mind, that she should do the trade. Also you have suggested that you are the best bank to do it, because you have another customer who wants to buy it. If she does decide to sell the XYZ stock, she might assume that cold-calling some other bank will get her a worse price (because they don’t want it), while calling you back will get her a good price (because you already have an enthusiastic buyer lined up). 
@@ -214,20 +214,20 @@ A number of clients had complained about the quality and accuracy of CGMAL’s I
 
 Note the point that the fake indications “would be shown to the head of the Facilitation Desk for agreement before they were posted”: If Citi called a customer and said “hey we think we have someone who wants to buy your XYZ stock,” and the customer said “sure let’s sell it,” Citi would scurry to find an actual buyer, but sometimes they wouldn’t be able to. At that point, rather than go back to the customer and say “whoops we were wrong, no buyer,” Citi would have to buy the stock itself: “The Facilitation Desk would step in to provide liquidity when traders failed to source natural liquidity upon client enquiry.” So Shaw had to make sure that the Facilitation Desk was actually willing to buy the stock, before he went out and pretended that someone else was.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Bribes
-    
-  
+
+
 
 Oldest story in the world: Rio Tinto Plc, a global mining company, wanted to win some mining rights in Guinea. It needed a local representative to help it navigate Guinean politics, so it found “a French investment banker and former classmate of the Senior Government Official” in charge of the mining-rights decision, and hired him as a consultant. The consultant “had no direct work experience relating to the mining business,” but he was buddies with the guy making the decision, and that is the main thing you want.
 The etiquette here is that the consultant should do a good job of advocating for Rio Tinto, making relevant arguments and providing analyses of the benefits of Rio Tinto’s plans and oh yes absolutely having a nice dinner with the government official and reminiscing about their school days. Friendly but also professional. And in return Rio Tinto should pay him a nice consulting fee. But if Rio Tinto were to hand him a sack of cash, and he were to take some of the cash out of the sack for himself and hand the rest to the government official, that would be bad! But you can see how the boundaries might be blurry. He is a consultant, Rio Tinto is not supervising him closely, and the whole point of the arrangement is that he is closer to the official than they are. 
@@ -245,139 +245,139 @@ Days after Rio Tinto made the initial payment to the Consultant and placed the r
 
 That transaction was blocked, but eventually he used some of the money to pay for T-shirts for the government official’s re-election campaign, which actually seems like the sort of payment that US law would be more comfortable with, but apparently not. Rio Tinto paid a $15 million penalty. The worst part is that it paid Guinea $700 million for the mining rights (not counting the $10.5 million consulting payment), and “Rio Tinto ultimately never developed blocks three and four of the Simandou region or extracted anything of value from them,” oops.
 
-  
-    
+
+
       Who controls a company?
-    
-  
+
+
 
 Elon Musk is the majority shareholder of Twitter Inc. and, as far as I can tell, its acting chief executive officer. He keeps firing everyone at the company who doesn’t do what he wants, and  most of the people who do. He keeps modifying its algorithm to make his own tweets more prominent. I think it is safe to say that he controls Twitter. And yet. If you work at Twitter, and you see him go into the bathroom, and you barricade him in the bathroom and don’t let him out, does that mean that you control Twitter? Probably not? But he’s  not taking any chances:
 Billionaire Elon Musk is routinely followed around Twitter headquarters by two “bulky” bodyguards—even when he goes to the restroom, according to a Twitter engineer. The two bearded guards went viral back in January after they accompanied Musk at a securities fraud trial, and appear to have accompanied him to Twitter after his $44 billion purchase of the social media site. A Twitter engineer identified only as Sam told BBC News: “Wherever he goes in the office, there are at least two bodyguards—very bulky, tall, Hollywood movie bodyguards. Even when [he goes] to the restroom.” He said the constant use of bodyguards suggested that Musk, who has sacked a huge number of Twitter staff including coders, does not trust his remaining staff at Twitter HQ in San Francisco.
 I have to say, nobody makes being a billionaire look less fun than Elon Musk. He is the richest person in the world! He decided to   buy his favorite toy to make it more closely align with his personal tastes, so he did that, and it worked! And yet it seems miserable every day.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Silicon Valley’s Obsession With   Killer Rogue AI Helps Bury Bad Behavior. The   Debt Ceiling Is the Risk Wall Street Doesn’t Want to Think About. Private credit edges out banks to offer Carlyle largest direct loan of its kind. Sustainable Funds Dodged Outflows in 2022 Market Rout. Stripe Faces $3.5 Billion Tax Bill as   Employees' Shares Expire. JetBlue, Spirit Brace for Justice Department Lawsuit to  Block Airlines’ Merger. Greece months away from  investment-grade rating, says central bank chief. To split or not to split:  EY confronts the question. Fast-Money   Quants Are Buying Stocks as Human Traders Stay Put. SoFi Bank Sues to Stop Biden’s Student   Loan Repayment Pause. SEC Files Emergency Action Against Miami Investment Adviser BKCoin and Principal Kevin Kang for Orchestrating $100 Million  Crypto Fraud Scheme. Lawyer Seeking Millions From Cash-Advance Firm’s Boss Is  Beaten With Flashlight. What   Seating Says About Power Around Xi at China’s NPC Meeting. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Obviously the dollar value of the pot can decrease, and has, when the market value of Bitcoin goes down.
 
 
   [2] This oversimplifies, and there were other problems — the   collapse of Luna, rising interest rates, falling crypto prices generally — that led to the crypto collapse last year. Alameda in particular doesn't seem to have had that much Grayscale exposure at the end. But, again, Grayscale does get a mention in a lot of the filings.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

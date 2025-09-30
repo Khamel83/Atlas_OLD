@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • September 20, 2023 
+Unknown author • September 20, 2023
 
 ![nytimes.com]()
 

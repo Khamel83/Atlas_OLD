@@ -2,7 +2,7 @@
 """
 Source Analyzer for Atlas
 
-This module implements content discovery capabilities for Atlas, automatically 
+This module implements content discovery capabilities for Atlas, automatically
 finding related repositories, code examples, and technical resources.
 """
 
@@ -15,7 +15,7 @@ import json
 
 class SourceAnalyzer:
     """Content discovery and source analysis system"""
-    
+
     def __init__(self):
         """Initialize the source analyzer"""
         self.github_patterns = [
@@ -23,7 +23,7 @@ class SourceAnalyzer:
             r'https?://www\.github\.com/([^/]+)/([^/]+)',
             r'github\.com/([^/]+)/([^/]+)'
         ]
-        
+
         self.documentation_patterns = [
             r'https?://docs\.python\.org',
             r'https?://reactjs\.org',
@@ -46,7 +46,7 @@ class SourceAnalyzer:
             r'https?://developer\.apple\.com/documentation',
             r'https?://getbootstrap\.com/docs'
         ]
-        
+
         self.technical_resource_patterns = [
             r'https?://stackoverflow\.com/questions',
             r'https?://medium\.com',
@@ -59,43 +59,43 @@ class SourceAnalyzer:
             r'https?://security\.googleblog\.com',
             r'https?://krebsonsecurity\.com'
         ]
-    
+
     def analyze_content(self, content: str) -> Dict[str, Any]:
         """
         Analyze content for related sources and technical resources
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             Dict[str, Any]: Analysis results
         """
         print("Analyzing content for related sources...")
-        
+
         # Detect GitHub repositories
         github_repos = self._detect_github_repos(content)
-        
+
         # Detect documentation links
         documentation_links = self._detect_documentation_links(content)
-        
+
         # Detect technical resources
         technical_resources = self._detect_technical_resources(content)
-        
+
         # Extract code examples
         code_examples = self._extract_code_examples(content)
-        
+
         # Extract technical terms
         technical_terms = self._extract_technical_terms(content)
-        
+
         # Find related repositories
         related_repos = self._find_related_repositories(technical_terms)
-        
+
         # Find related tutorials
         related_tutorials = self._find_related_tutorials(technical_terms)
-        
+
         # Find related articles
         related_articles = self._find_related_articles(technical_terms)
-        
+
         # Build analysis results
         analysis = {
             'github_repos': github_repos,
@@ -108,25 +108,25 @@ class SourceAnalyzer:
             'related_articles': related_articles,
             'analysis_timestamp': '2023-05-01T12:00:00Z'  # In a real implementation, this would be current time
         }
-        
+
         print(f"Analysis complete: Found {len(github_repos)} repos, "
               f"{len(documentation_links)} docs, "
               f"{len(technical_resources)} resources")
-        
+
         return analysis
-    
+
     def _detect_github_repos(self, content: str) -> List[Dict[str, Any]]:
         """
         Detect GitHub repository URLs in content
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             List[Dict[str, Any]]: Detected GitHub repositories
         """
         repos = []
-        
+
         for pattern in self.github_patterns:
             matches = re.findall(pattern, content, re.IGNORECASE)
             for match in matches:
@@ -134,32 +134,32 @@ class SourceAnalyzer:
                     owner, repo = match[0], match[1]
                     # Clean repo name (remove trailing characters)
                     repo = re.split(r'[/?#]', repo)[0]
-                    
+
                     repo_info = {
                         'url': f"https://github.com/{owner}/{repo}",
                         'owner': owner,
                         'name': repo,
                         'full_name': f"{owner}/{repo}"
                     }
-                    
+
                     # Avoid duplicates
                     if repo_info not in repos:
                         repos.append(repo_info)
-        
+
         return repos
-    
+
     def _detect_documentation_links(self, content: str) -> List[Dict[str, Any]]:
         """
         Detect documentation links in content
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             List[Dict[str, Any]]: Detected documentation links
         """
         links = []
-        
+
         for pattern in self.documentation_patterns:
             matches = re.findall(pattern, content, re.IGNORECASE)
             for match in matches:
@@ -172,21 +172,21 @@ class SourceAnalyzer:
                         'type': 'documentation',
                         'domain': urlparse(url).netloc
                     })
-        
+
         return links
-    
+
     def _detect_technical_resources(self, content: str) -> List[Dict[str, Any]]:
         """
         Detect technical resources in content
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             List[Dict[str, Any]]: Detected technical resources
         """
         resources = []
-        
+
         for pattern in self.technical_resource_patterns:
             matches = re.findall(pattern, content, re.IGNORECASE)
             for match in matches:
@@ -199,37 +199,37 @@ class SourceAnalyzer:
                         'type': 'technical_resource',
                         'domain': urlparse(url).netloc
                     })
-        
+
         return resources
-    
+
     def _extract_code_examples(self, content: str) -> List[Dict[str, Any]]:
         """
         Extract code examples from content
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             List[Dict[str, Any]]: Extracted code examples
         """
         examples = []
-        
+
         # Look for code blocks in markdown-style content
         # Pattern for fenced code blocks: ```language\n...\n```
         fenced_pattern = r'```([a-zA-Z]*)\n(.*?)\n```'
         matches = re.findall(fenced_pattern, content, re.DOTALL)
-        
+
         for language, code in matches:
             examples.append({
                 'content': code.strip(),
                 'language': language or self._detect_language(code),
                 'type': 'fenced_code_block'
             })
-        
+
         # Look for inline code (single backticks)
         inline_pattern = r'`([^`\n]+)`'
         inline_matches = re.findall(inline_pattern, content)
-        
+
         for code in inline_matches:
             if self._looks_like_api_reference(code):
                 examples.append({
@@ -237,22 +237,22 @@ class SourceAnalyzer:
                     'language': self._detect_language(code),
                     'type': 'inline_code'
                 })
-        
+
         return examples
-    
+
     def _extract_technical_terms(self, content: str) -> List[str]:
         """
         Extract technical terms from content
-        
+
         Args:
             content (str): Content to analyze
-            
+
         Returns:
             List[str]: Extracted technical terms
         """
         # Simple technical term extraction (in a real implementation, use NLP)
         content_lower = content.lower()
-        
+
         # Common technical terms
         technical_terms = [
             'python', 'javascript', 'java', 'go', 'rust', 'c++', 'c#',
@@ -280,30 +280,30 @@ class SourceAnalyzer:
             'monitoring', 'logging', 'observability',
             'debugging', 'profiling', 'troubleshooting'
         ]
-        
+
         # Find terms in content
         found_terms = []
         for term in technical_terms:
             if term in content_lower:
                 found_terms.append(term)
-        
+
         return list(set(found_terms))  # Remove duplicates
-    
+
     def _find_related_repositories(self, technical_terms: List[str]) -> List[Dict[str, Any]]:
         """
         Find related repositories based on technical terms
-        
+
         Args:
             technical_terms (List[str]): Technical terms to search for
-            
+
         Returns:
             List[Dict[str, Any]]: Related repositories
         """
         # In a real implementation, this would query GitHub API or similar
         # For now, we'll return placeholder results
-        
+
         repos = []
-        
+
         # Map technical terms to popular repositories
         term_to_repo = {
             'python': [
@@ -332,12 +332,12 @@ class SourceAnalyzer:
                 {'owner': 'kubernetes-sigs', 'name': 'kustomize', 'description': 'Customization of kubernetes YAML configurations'}
             ]
         }
-        
+
         # Find repositories for each technical term
         for term in technical_terms:
             if term in term_to_repo:
                 repos.extend(term_to_repo[term])
-        
+
         # Remove duplicates
         seen = set()
         unique_repos = []
@@ -346,24 +346,24 @@ class SourceAnalyzer:
             if repo_key not in seen:
                 seen.add(repo_key)
                 unique_repos.append(repo)
-        
+
         return unique_repos[:10]  # Limit to top 10
-    
+
     def _find_related_tutorials(self, technical_terms: List[str]) -> List[Dict[str, Any]]:
         """
         Find related tutorials based on technical terms
-        
+
         Args:
             technical_terms (List[str]): Technical terms to search for
-            
+
         Returns:
             List[Dict[str, Any]]: Related tutorials
         """
         # In a real implementation, this would query tutorial sites or APIs
         # For now, we'll return placeholder results
-        
+
         tutorials = []
-        
+
         # Map technical terms to popular tutorials
         term_to_tutorial = {
             'python': [
@@ -392,12 +392,12 @@ class SourceAnalyzer:
                 {'title': 'Kubernetes Operators', 'url': 'https://example.com/k8s-operators', 'level': 'advanced'}
             ]
         }
-        
+
         # Find tutorials for each technical term
         for term in technical_terms:
             if term in term_to_tutorial:
                 tutorials.extend(term_to_tutorial[term])
-        
+
         # Remove duplicates
         seen = set()
         unique_tutorials = []
@@ -406,24 +406,24 @@ class SourceAnalyzer:
             if tutorial_key not in seen:
                 seen.add(tutorial_key)
                 unique_tutorials.append(tutorial)
-        
+
         return unique_tutorials[:10]  # Limit to top 10
-    
+
     def _find_related_articles(self, technical_terms: List[str]) -> List[Dict[str, Any]]:
         """
         Find related articles based on technical terms
-        
+
         Args:
             technical_terms (List[str]): Technical terms to search for
-            
+
         Returns:
             List[Dict[str, Any]]: Related articles
         """
         # In a real implementation, this would query article databases or APIs
         # For now, we'll return placeholder results
-        
+
         articles = []
-        
+
         # Map technical terms to popular articles
         term_to_article = {
             'python': [
@@ -452,12 +452,12 @@ class SourceAnalyzer:
                 {'title': 'Kubernetes in Production: Lessons Learned', 'url': 'https://example.com/k8s-production', 'source': 'ProductionStories'}
             ]
         }
-        
+
         # Find articles for each technical term
         for term in technical_terms:
             if term in term_to_article:
                 articles.extend(term_to_article[term])
-        
+
         # Remove duplicates
         seen = set()
         unique_articles = []
@@ -466,16 +466,16 @@ class SourceAnalyzer:
             if article_key not in seen:
                 seen.add(article_key)
                 unique_articles.append(article)
-        
+
         return unique_articles[:10]  # Limit to top 10
-    
+
     def _detect_language(self, code: str) -> str:
         """
         Detect programming language from code snippet
-        
+
         Args:
             code (str): Code snippet
-            
+
         Returns:
             str: Detected language
         """
@@ -492,14 +492,14 @@ class SourceAnalyzer:
             return 'rust'
         else:
             return 'unknown'
-    
+
     def _looks_like_api_reference(self, text: str) -> bool:
         """
         Check if text looks like an API reference
-        
+
         Args:
             text (str): Text to check
-            
+
         Returns:
             bool: True if looks like API reference
         """
@@ -511,13 +511,13 @@ class SourceAnalyzer:
             r'^public\s+[a-zA-Z_][a-zA-Z0-9_]*',  # Java/C# methods
             r'^[A-Z][a-zA-Z0-9]*\.[a-zA-Z_][a-zA-Z0-9_]*'  # Static method calls
         ]
-        
+
         return any(re.match(pattern, text.strip()) for pattern in api_patterns)
-    
+
     def get_analysis_stats(self) -> Dict[str, Any]:
         """
         Get source analysis statistics
-        
+
         Returns:
             Dict[str, Any]: Analysis statistics
         """
@@ -536,29 +536,29 @@ def main():
     """Example usage of SourceAnalyzer"""
     # Create analyzer
     analyzer = SourceAnalyzer()
-    
+
     # Sample content
     content = """
     Check out these great repositories:
     - https://github.com/python/cpython for the Python interpreter
     - https://github.com/facebook/react for the React library
     - https://github.com/tensorflow/tensorflow for machine learning
-    
+
     Also see the official documentation:
     - https://docs.python.org/3/ for Python documentation
     - https://reactjs.org/docs/getting-started.html for React documentation
-    
+
     And these technical resources:
     - https://stackoverflow.com/questions/12345678 for Python questions
     - https://medium.com/@user/python-tutorial for tutorials
-    
+
     Here's a Python code example:
     ```python
     def hello_world():
         print("Hello, World!")
         return True
     ```
-    
+
     And a JavaScript example:
     ```javascript
     function helloWorld() {
@@ -566,21 +566,21 @@ def main():
         return true;
     }
     ```
-    
+
     Dependencies in requirements.txt:
     requests==2.25.1
     beautifulsoup4==4.9.3
     flask==2.0.1
-    
+
     Dependencies in package.json:
     "express": "^4.17.1",
     "lodash": "^4.17.21"
     """
-    
+
     # Analyze content
     print("Analyzing content for related sources...")
     analysis = analyzer.analyze_content(content)
-    
+
     # Display results
     print(f"\nAnalysis Results:")
     print(f"  GitHub Repos: {len(analysis['github_repos'])}")
@@ -591,54 +591,54 @@ def main():
     print(f"  Related Repositories: {len(analysis['related_repositories'])}")
     print(f"  Related Tutorials: {len(analysis['related_tutorials'])}")
     print(f"  Related Articles: {len(analysis['related_articles'])}")
-    
+
     # Display GitHub repos
     if analysis['github_repos']:
         print(f"\nGitHub Repositories Found:")
         for repo in analysis['github_repos'][:3]:
             print(f"  - {repo['full_name']}: {repo['url']}")
-    
+
     # Display documentation links
     if analysis['documentation_links']:
         print(f"\nDocumentation Links Found:")
         for link in analysis['documentation_links'][:3]:
             print(f"  - {link['domain']}: {link['url']}")
-    
+
     # Display technical resources
     if analysis['technical_resources']:
         print(f"\nTechnical Resources Found:")
         for resource in analysis['technical_resources'][:3]:
             print(f"  - {resource['domain']}: {resource['url']}")
-    
+
     # Display code examples
     if analysis['code_examples']:
         print(f"\nCode Examples Found:")
         for example in analysis['code_examples'][:2]:
             print(f"  - {example['language']}: {example['content'][:50]}...")
-    
+
     # Display technical terms
     if analysis['technical_terms']:
         print(f"\nTechnical Terms Found:")
         print(f"  - {', '.join(analysis['technical_terms'][:10])}")
-    
+
     # Display related repositories
     if analysis['related_repositories']:
         print(f"\nRelated Repositories Found:")
         for repo in analysis['related_repositories'][:3]:
             print(f"  - {repo['owner']}/{repo['name']}: {repo['description']}")
-    
+
     # Display related tutorials
     if analysis['related_tutorials']:
         print(f"\nRelated Tutorials Found:")
         for tutorial in analysis['related_tutorials'][:3]:
             print(f"  - {tutorial['title']} ({tutorial['level']}): {tutorial['url']}")
-    
+
     # Display related articles
     if analysis['related_articles']:
         print(f"\nRelated Articles Found:")
         for article in analysis['related_articles'][:3]:
             print(f"  - {article['title']} [{article['source']}]: {article['url']}")
-    
+
     # Get analysis stats
     stats = analyzer.get_analysis_stats()
     print(f"\nAnalysis Statistics:")

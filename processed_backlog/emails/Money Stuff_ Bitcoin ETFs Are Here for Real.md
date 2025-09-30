@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday. Taking a step back here, there is something really cool abou
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       Bitcoin ETF
-    
-  
+
+
 
 Taking a step back here, there is something really cool about what Bitcoin has accomplished, in some ways much cooler than  Satoshi Nakamoto’s original vision for it. The original vision of Bitcoin was that it would be “electronic cash,” a way for people to send payments to each other without involving a bank or other intermediary. Fifteen years later, I mean, there has been some progress along those lines; some people sometimes do pay for some goods and services using Bitcoin. But it has not exactly taken over the world of payments. El Salvador made Bitcoin legal tender and required all businesses to accept it, and even there it is  not that widely used. In big developed economies, despite years of crypto proselytizing, people still much prefer fiat currency and traditional banks.
 And yet the price of Bitcoin has gone from zero in 2009 to $46,000-ish today, not on widespread adoption as a payments mechanism, but because people — lots of people, crypto evangelists but also regular retail investors and quite traditional investment strategists at big institutional investment firms — view it as a “store of value.” Which means that they think its price will go up, or at least not go down, robustly and for the long term. They buy Bitcoin at $46,000 not because they plan to use it as digital cash, but because they think other people will buy it at $47,000, or $470,000 or whatever. 
@@ -74,37 +74,37 @@ The approvals mark a rare capitulation by the SEC following opposition that last
 
 There is something pure about this, as Bitcoin news. A Bitcoin ETF is vastly less useful, as a payments mechanism or a way to supplant the traditional financial system, than just buying Bitcoin: Instead of an alternative peer-to-peer payments system in which everyone can hold their Bitcoins directly and transfer them to each other without middlemen, this is a crypto thing that you can hold in your traditional brokerage account and not use for payments at all. But it is more useful as a store of value: You can hold it in your brokerage account, where you hold your stores of value. You don’t have to mess around with an alternative financial system; you can just isolate the store-of-value component of Bitcoin and hold it directly. And so the price of Bitcoin ran up in anticipation of the ETF approvals, because everyone expected that the ETFs would lead to more people holding Bitcoin as a store of value. Which is the best reason for Bitcoin to go up.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sell the news
-    
-  
+
+
 
 The SEC approved the spot Bitcoin ETFs a little after the close yesterday (Wednesday) afternoon. A little after the close on Tuesday afternoon, the SEC’s account on X (formerly Twitter) tweeted that it had approved spot Bitcoin ETFs. That turned out to be fake; the SEC’s Twitter got hacked. The SEC had to walk back that statement on Tuesday, and then walk it forward again on Wednesday. We   talked about this yesterday. “Nyah nyah nyah nyah nyah,” I wrote.
 When the Bitcoin ETFs got fake-approved on Tuesday, the   price of Bitcoin “posted a relatively modest jump to almost $48,000 from about $46,700 before falling back toward $45,000” when it turned out to be fake. I was a little perplexed — everyone expected the ETFs to be approved by today, so the fake tweet didn’t add much fake information, and the retraction didn’t add much real information — but whatever. The fun fact is that, when Bitcoin ETFs got approved for real on Wednesday, the price of Bitcoin … jumped to a bit more than $49,000, from a bit more than $46,000,   before falling back:
@@ -128,11 +128,11 @@ Specifically with regard to bitcoin, an analysis of 157 crypto exchanges found t
 I joked yesterday that the SEC should deny all of these applications, saying “We were going to approve them, but it turns out that the Bitcoin market is still too vulnerable to manipulation, as you can tell by the fact that someone hacked our Twitter to manipulate Bitcoin.” Crenshaw makes that argument!
 Indeed, just yesterday, prior to the issuance of our approval Order, one of the SEC’s social media accounts was compromised, and an unauthorized post falsely indicated that we had approved spot bitcoin ETFs. Unsurprisingly, the price of spot bitcoin suffered “whiplash” in the minutes and hours following the false tweet. While the facts underlying this misconduct hopefully will be uncovered by law enforcement in the future, I will be monitoring what may be yet another attempt to profit from wrongdoing in this market.
 
-  
-    
+
+
       Interest
-    
-  
+
+
 
 You could imagine, I suppose, a “physical dollar ETF” that worked like this:
 	You send money to the ETF issuer.
@@ -158,11 +158,11 @@ But the modern vision of crypto, or at least the 2022 vision of crypto, was like
 Still, in the long run, if you have a giant pot full of electronic financial assets, and if there is demand to borrow those assets, won’t you want to lend them? Ten years from now, if Bitcoin ETFs are still around, is it more likely that they will be “physical” ETFs, just holding inert Bitcoins in a pot, or that they will be money-market-ish ETFs, lending out their Bitcoins to earn interest and passing it along to their investors? 
 Of course today the answer is “physical”; the prospectuses for today’s Bitcoin ETFs say that they will hold the Bitcoins in custody, not that they will lend them. (Here is  Grayscale’s, and here’s  BlackRock’s.) And SEC Chair Gary Gensler’s statement on the Bitcoin ETF approvals says: “Importantly, today’s Commission action is cabined to ETPs holding one non-security commodity, bitcoin. It should in no way signal the Commission’s willingness to approve listing standards for crypto asset securities.” Bitcoin lending is a security, in Gensler’s view, and not something he wants to approve at this point. 
 
-  
-    
+
+
       Cash vs. in-kind
-    
-  
+
+
 
 One other what-will-the-future-bring sort of point about Bitcoin ETFs. The normal way that, say, a stock index ETF works is:
 	Normal people buy and sell shares of the ETF on the exchange: They don’t actually give any money to the ETF issuer; they just trade in the secondary market.	Arbitrageurs make sure that the price of the ETF and the price of the index stay in line: If the price of ETF shares gets too high, arbs will sell ETF shares and buy the underlying index.	To complete the arbitrage, a few big banks or trading firms, called “authorized participants,” can exchange the ETF shares for the underlying index: They can collect a basket of all the stocks in the index, deliver them to the ETF issuer, and get back some new ETF shares (this is called “creation), or they can collect some ETF shares, deliver them to the ETF issuer for retirement, and get back a basket of the underlying stocks (this is called “redemption”).
@@ -177,11 +177,11 @@ The problem is that, to be an authorized participant in the ETF, you have to be 
   [7]
 
 
-  
-    
+
+
       BTFP carry trade
-    
-  
+
+
 
 Last year the Federal Reserve  created a program to allow banks to borrow short-term at long-term rates? I mean, sort of. What it did was create the  Bank Term Funding Program, which has  the following features:
 	Banks can borrow “for a term of up to one year,” prepayable without penalty.	The interest rate is the one-year overnight index swap rate plus 10 basis points, fixed at the time of borrowing.
@@ -201,11 +201,11 @@ The benefit will eventually shrink, if not evaporate completely. The program is 
 
 Good trade! 
 
-  
-    
+
+
       Griftco
-    
-  
+
+
 
 If you start a shell company, use it to acquire an exploration-stage mining property that is not currently producing anything, and then use the company to apply for a Canadian provincial government program that provides up to $200,000 of taxpayer money to fund exploration projects, should you give that company a name like … “Griftco Corp.”? I mean,
 	no, but	this guy seems fun,  I’m going to allow it:
@@ -218,15 +218,15 @@ Mr. Irwin says that nobody at those companies ever raised concerns about the opt
 
 It’s very important that if you do start a company called Griftco and use it to apply for taxpayer money, you are very careful to do everything by the book. If you get in trouble, at Griftco, nobody is not going to believe you that it was ironic. Also that Globe and Mail article notes that another recipient of Ontario Junior Exploration Program funding is a company called “Money Money Money,” but they weren’t able to talk to whoever chose that name.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Chesapeake to Create No. 1 US   Gas Driller in $7.4 Billion Deal. Hedge funds take on private equity in battle for  distressed companies. Citigroup’s Jane Fraser Embarks on Another   Pivotal Year of Bank Cuts. There’s Finally Hope for the   Office Real Estate Market.   Goldman Sachs Traders Get Their Swagger Back in Stocks. Morgan Stanley Names 155 to   Managing Director as Class Shrinks. Bitcoin X hack an ‘embarrassment’ for  cyber security-conscious SEC. Google   Lays Off Hundreds in Hardware, Voice Assistant Teams. Skydance Backers Explore All-Cash Deal to Gain Control of  Paramount. Enthusiasm Ebbs for a Diversity Initiative in Venture Capital. Ex-Goldman Manager Sues Bank Over   Mental Health Crisis. Lloyds Bank Manager Awarded £450,000 After Winning Case Over   Racist Slur He Made. Employee’s Lawsuit Calls Financial Firm ‘Alcohol-Fueled Sexual Cauldron.’  Blocked Toilets Close Eton, Boarding School for Britain’s Elite Sons. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In this section I will elide the actual process of ETF creation and redemption, where you buy and sell shares in the open market and authorized participants trade against you and then create and redeem shares with the issuer. Doesn’t matter for our purposes here.
 
 
@@ -242,7 +242,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] This is non-technical; technically they earn “stock lending fees,” not “interest,” and the mechanism is more complicated than that. (They lend stocks, take back cash collateral, invest the cash, earn interest, pass some but not all of the interest back to the share borrower, and keep a bit of the interest as their stock-lending fee.) For instance, the  BlackRock iShares Core S&P 500 ETF says “The Fund may lend securities representing up to one-third of the value of the Fund’s total assets.”
 
 
-  [6] In its order approving the ETFs yesterday, the SEC noted in a footnote that “The Proposals under consideration by the Commission in this order only contemplate cash creation and redemption by authorized participants. Accordingly, in-kind creation and redemption processes by authorized participants, and their relative benefits or drawbacks, are outside the scope of this order.” But the SEC seems to have, you know, hinted that it preferred that. 
+  [6] In its order approving the ETFs yesterday, the SEC noted in a footnote that “The Proposals under consideration by the Commission in this order only contemplate cash creation and redemption by authorized participants. Accordingly, in-kind creation and redemption processes by authorized participants, and their relative benefits or drawbacks, are outside the scope of this order.” But the SEC seems to have, you know, hinted that it preferred that.
 
 
   [7] I have   said before that a spot Bitcoin ETF is a much simpler and more sensible structure than a Bitcoin *futures* ETF, which the SEC approved several years ago. Some readers pushed back: The spot ETF is simpler and more intuitive for an investor, maybe, but it’s *more complicated* for an arbitrageur or authorized participant. This, roughly, is why. Trading regulated exchange-traded futures against ETF shares is fairly straightforward; trading both Bitcoins and ETF shares is a bit harder.
@@ -251,48 +251,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Because overnight lending is overnight and you can terminate your BTFP borrowing at any time. If at any point the overnight rate falls below the BTFP rate, you just close out both sides of the trade.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -303,46 +303,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck83pj.5ima/c70b00c5.gif" alt="" border="0" /></a>

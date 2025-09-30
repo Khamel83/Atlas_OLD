@@ -9,67 +9,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One lesson of traditional finance that crypto is learning these days is: “If you’ve got a bazooka, and people know you’ve got it, you may no
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BlockFiles
-    
-  
+
+
 
 One  lesson of traditional finance that crypto is learning these days is: “If you’ve got a bazooka, and people know you’ve got it, you may not have to take it out.” For instance:
 	There is a small opaque crypto lending platform that is rumored to be in trouble.	Its depositors want their money back. 	It doesn’t have their money, either because the money is locked up in long-term loans or because it lost the money or   some combination or otherwise.	There is a “run on the bank.”	To solve the problem, the lending platform agrees to take a   desperation bailout from some bigger, more stable, better-known crypto exchange. The big exchange agrees to guarantee the lending platform’s customer deposits, or at least gives it an ample line of credit to pay out depositors. In exchange, the exchange gets to take over the lending platform, and its existing owners get more or less nothing.	The run on the bank stops. The depositors don’t want their money back, because now instead of being depositors at the small lending platform, they are depositors of the large stable crypto exchange. Their money is safe, backed by the deep pockets of the large exchange, and they can go back to earning crypto interest or whatever.
@@ -95,63 +95,63 @@ We  talked about the FTT token a few weeks ago, in tones of horror. Basically th
 It turned out that   FTX’s balance sheet consisted largely of FTT and other, similar tokens that it had made up and that represented bets on the future of FTX’s businesses. Basically FTX took in a lot of real money and … lost it somehow … and convinced itself that the money was still there because it still had a lot of tokens that it had made up? And those tokens did have a market value; they traded in cryptocurrency markets, and so you could calculate how much FTX’s stash of those tokens were worth at their market prices. Of course if FTX had actually tried to sell all those tokens the price would have cratered, so that market value was not real, and now it has collapsed. FTX is not going to sell its stash of FTT and SRM and MAPS tokens for billions of dollars to make all of its customers whole; those tokens were worth billions of dollars when people had confidence in FTX, and now that confidence is shattered and so are the tokens.
 But back over the summer, FTT was totally a thing! And so it is possible that when FTX extended a loan to BlockFi to shore up its customers’ confidence, it loaned BlockFi tokens. “Here, have some magic beans we made up, people really believe in them,” FTX could have said to BlockFi, and over the summer that would have been enough. “Ah, BlockFi has some FTX magic beans, everything is fine,” customers could have said, and the bank run would have halted. Now the beans no longer work, and BlockFi is bankrupt.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Greenwashing
-    
-  
+
+
 
 The US Securities and Exchange Commission has been doing kind of a weird crackdown on investment funds focused on environmental, social and governance investing. The basic problem is that people worry that these funds aren’t really doing much good, that they are not seriously committed to ESG, that they are just buying the stocks they would buy anyway and using “ESG” for marketing purposes.
 You could imagine the SEC looking at this situation and saying: Okay, if you want to call yourself an ESG fund, here is what you need to do. You need to do certain kinds of research, have a certain percentage of your fund invested in companies with a certain level of carbon emissions and board diversity and whatever, I don’t know. The SEC could set substantive rules for what counts as ESG, and then hold funds to those standards. And in fact the SEC has   proposed rules to do something like that, though, in SEC fashion, they are pretty disclosure-oriented, more like “quantify your greenhouse gas emissions” than “keep your emissions below X.” But even those rules are controversial, and for understandable reasons. It is not clear that the SEC has the expertise to decide what counts as ESG; it is possible that it should give ESG fund managers a lot of leeway to decide what counts as ESG and how to achieve it.
@@ -171,20 +171,20 @@ Also, by the way, disclosure, I used to work at Goldman Sachs Group Inc., and fo
 In 2018, GSAM FE developed promotional “pitch books” that supplemented other materials, such as mutual fund prospectuses, with more information about the ESG Investment Products. From February 2018 through July 2019, GSAM FE disseminated pitch books to at least 57 entities that represented primarily intermediaries. At a high level, the pitch books referred to the questionnaire and related materiality matrix as “[p]roprietary ESG investment tools” that “inform[ed] stock selection and portfolio construction” and were “[c]onsidered in determining position sizing.” Low-resolution images of the questionnaire and matrix were included but were not legible. 
 When you want your pitch book to convey the message “we have a questionnaire,” but you also want to keep the questions secret, you put a blurry copy of the questionnaire in the pitch book. Love it. My collection included a treasured page where we listed previous clients who had done some transaction, but the transactions were not publicly disclosed, so for client confidentiality reasons all of the names were blacked out. There were no other details on the page, just the list of clients, and they were all blacked out. Just a page of black bars. Banking is great.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Collateralized fund obligation
-    
-  
+
+
 
 The  basic move in finance is:
 	You have some cash flows.	You put them all into a box.	You slice the box into junior and senior claims.	You sell the senior claims to people who want safe cash flows, and the junior claims to people who want exciting leveraged risk.
@@ -205,11 +205,11 @@ Azalea told the FT that it structured transactions with “downside risk mitigat
 
 Yeah look if your private equity investments return 15% per year and you can lever them up by borrowing long-term from retail at 4% per year then that is a pretty good trade? 
 
-  
-    
+
+
       Big short, small mistake
-    
-  
+
+
 
 Imagine that you thought in early 2008 that subprime mortgages would be trouble, so you bought a large credit default swap on mortgage bonds. In September 2008, Lehman Brothers files for bankruptcy, subprime mortgage bonds are in trouble, and you decide to settle up your bet for a big profit. You pull up the CDS contract to get the contact information for your counterparty, so you can call them up and ask for your money, and, whoops! Your counterparty is Lehman Brothers. You could call them, but they won’t send you the money. You made the right bet, but with the wrong person.
 At the Information,  Margaux MacColl has a story about “The Pissed-Off Crypto Traders Who Predicted—and Profited From—the FTX Implosion,” mostly by shorting FTT, the token that FTX issued and that seems to have contributed to its bankruptcy. FTT was trading above $25 at the start of this month; it’s at about $1.29 today. If you shorted FTT a month ago to bet on FTX’s collapse, you made a lot of money. Unless:
@@ -221,11 +221,11 @@ At 7 p.m. that day, Zhang was sitting in a hotel room when he got a text from hi
 
 One thing about the crypto financial system is that, when it’s centralized, it’s really centralized. Crypto exchanges are full-service financial institutions; in traditional finance banks and brokers and exchanges are generally separate entities, but in crypto one company — generally called an “exchange” — holds your money and crypto for you and operates the exchange. If you want to bet against the exchange, you might find yourself making that bet on the exchange, and taking the credit risk of the exchange. Probably a bad idea!
 
-  
-    
+
+
       Elon Markets Hypothesis Goat Sacrifice Idol
-    
-  
+
+
 
 “The way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk,”   I wrote last year, and while I am not quite sure that it remains true — so far Musk’s proximity seems to be bad for Twitter Inc.’s cash flows, anyway — it is definitely still a part of postmodern financial analysis. In particular, if you have some crypto project, which almost by definition doesn’t have cash flows, you will value Musk proximity very highly. (Look at   Dogecoin, etc.)
 How can you obtain Musk proximity? I don’t really know — nothing in this column is ever Musk proximity advice
@@ -244,129 +244,129 @@ The idea of the sculpture came together last year. “It was an evening joke tha
 
 Would it? In what sense? There are pictures.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 JPMorgan, Other Banks in Talks to Reimburse  Scammed Zelle Customers. EU in race to settle differences over level of  cap on Russian oil price. Chevron to Resume   Venezuela Oil Output as US Eases Sanctions. Exxon Mobil Has a  Potash Problem in the Permian Basin. Puerto Rico’s  Power Failures Worsen After Private Takeover. Nervous auditors turn up the heat on crypto clients. FTX Chaos Prompts Reckoning on Dubai’s Embrace of Crypto Giants. Bahamas reels from FTX collapse: ‘Crypto was going to be our way out.’ FTX Tensions Intensify as   Bahamas Blasts Company’s New Chief Ray. Have the  Anticapitalists Reached Harvard Business School? Crypto’s Brutal Slump Has Finally Caught Up With Bitcoin ATMs.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am not going to bother distinguishing the roles of FTX and Alameda in these bailouts because it now seems like the boundaries between those entities were pretty pretty porous; if FTX and Alameda didn’t care about the difference why should I?
 
 
   [2] I mean, I   did once analyze the Elon Musk proximity options of the kid who built the Elon Musk private jet tracker, and said that “flying on a private jet with Elon Musk is worth so much more than $50,000,” but I do not think he could have acted on that advice.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • January 28, 2024 
+Unknown author • January 28, 2024
 
 ![nytimes.com]()
 

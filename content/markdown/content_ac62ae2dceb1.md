@@ -275,7 +275,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -374,7 +374,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="Flowchart: Should you vaccinate your child?"/>
@@ -418,16 +418,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl="1" class="wp-singular post-template-default single single-post postid-38811 single-format-standard wp-theme-fd-modern-6-0 elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/">
                         <img src="http://web.archive.org/web/20250821085347im_/https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png"/>
                     </a>
@@ -447,71 +447,71 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-post" class="archive-post eleven columns">
 
 <div class="nine columns offset-by-two alpha">
-		
-                        
-        
+
+
+
 		        <h1>
                 Flowchart: Should you vaccinate your child?                </h1>
-		
+
     </div>
     <div class="clr"></div>
-    
+
     <div class="byinfo two columns alpha">
-                        
+
         <a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/2015/01/30/flowchart-should-you-vaccinate-your-child/">January 30, 2015</a>
-        
+
                 <div style="margin-top:1.5rem">
             <h3 class="toplevel">Topic</h3>
     		<strong><a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/category/miscellaneous-data/" rel="category tag">Miscellaneous</a></strong>  &nbsp;/&nbsp; <a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/tag/flowchart/" rel="tag">flowchart</a>, <a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/tag/vaccination/" rel="tag">vaccination</a>        </div>
-                
-        
+
+
             </div>
-    
+
     <div class="nine columns omega">
-        
-                
+
+
         <div class="archive-featured-image">
                         <img fetchpriority="high" width="620" height="1142" src="http://web.archive.org/web/20250821085347im_/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart-620x1142.png" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="http://web.archive.org/web/20250821085347im_/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart-620x1142.png 620w, http://web.archive.org/web/20250821085347im_/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart-210x387.png 210w, http://web.archive.org/web/20250821085347im_/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart.png 700w" sizes="(max-width: 620px) 100vw, 620px" data-attachment-id="38812" data-permalink="http://web.archive.org/web/20250821085347/https://flowingdata.com/2015/01/30/flowchart-should-you-vaccinate-your-child/vaccine-flowchart/" data-orig-file="http://web.archive.org/web/20250821085347/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart.png" data-orig-size="700,1289" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Vaccine flowchart" data-image-description="" data-image-caption="" data-medium-file="http://web.archive.org/web/20250821085347/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart-620x1142.png" data-large-file="http://web.archive.org/web/20250821085347/https://flowingdata.com/wp-content/uploads/2015/01/Vaccine-flowchart.png"/>                    </div>
                 <!-- <div class="clr"></div> -->
-        
-        
+
+
         <div class="entry">
-                                    
+
                 <p>Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. </p>
 <p>Yes. <a href="http://web.archive.org/web/20250821085347/https://medium.com/the-nib/should-you-vaccinate-your-child-7810fd781903">A handy flowchart by Scott Bateman</a>.</p>
-                
-                
-                                        
+
+
+
             <div class="clr"></div>
         </div><!-- @end .entry -->
-        
-        
+
+
                 <div style="border-top:1px solid #e8e8e8;padding-top:1.5rem">
     		<!-- Begin Mailchimp Signup Form -->
             <h3 class="toplevel" style="margin-bottom:0">FlowingData Delivered to Your Inbox</h3>
     		<link href="//web.archive.org/web/20250821085347cs_/https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     		<style type="text/css">
     			#mc_embed_signup{
-    				background:#fff; clear:left; 
+    				background:#fff; clear:left;
     				font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
-    				font-size: .9rem; 
+    				font-size: .9rem;
     			}
     			#mc_embed_signup form {
     				padding-left: 0;
     			}
-    			#mc_embed_signup input.email { 
-    				font-size: 1rem; 
-    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important; 
+    			#mc_embed_signup input.email {
+    				font-size: 1rem;
+    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important;
     			}
     			#mc_embed_signup .input-group label { vertical-align: middle; }
     			#mc_embed_signup .input-group ul { padding: 0 !important; }
@@ -542,13 +542,13 @@ img.wp-smiley, img.emoji {
     		</form>
     		</div>
     		<!--End mc_embed_signup-->
-            
+
             <div class="clr"></div>
         </div><!-- @end newsletter signup -->
-                
-		
+
+
                 <div class="yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list">
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -574,8 +574,8 @@ img.wp-smiley, img.emoji {
 
 </div>
     <div class="clr"></div>
-    
-    <div class="nine columns offset-by-two alpha">    
+
+    <div class="nine columns offset-by-two alpha">
     <span id="comments"></span>
 
 </div>
@@ -590,15 +590,15 @@ img.wp-smiley, img.emoji {
                      <a href="http://web.archive.org/web/20250821085347/https://flowingdata.com/membership/">
                 <p>Support an independent FlowingData, and get extra visualization goodness.</p>
                 <p><small>Become a member &rarr;</small></p>
-                        
+
         </a>
-    </div><!-- @end membership-sidebar --> 
-         
-    
-	
-    	
-    
-    
+    </div><!-- @end membership-sidebar -->
+
+
+
+
+
+
     <div id="book-sidebar" class="sec">
         <h3 class="toplevel" style="margin-bottom:1em">Second Edition</h3>
         <a href="http://web.archive.org/web/20250821085347/https://book.flowingdata.com/">
@@ -611,18 +611,18 @@ img.wp-smiley, img.emoji {
         <div class="clr"></div>
         <br/>
     </div><!-- @end book-sidebar -->
-    
-    
-	
-    
-        
-    
-    
-    
-    
-    
-	
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!-- @end #sidebar -->
 
 <div class="clr"></div>

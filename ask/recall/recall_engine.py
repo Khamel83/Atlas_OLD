@@ -40,7 +40,7 @@ class RecallResult:
     metadata: Dict[str, Any]
     recalled_at: str
     snippet: Optional[str] = None
-    
+
     def __post_init__(self):
         if self.recalled_at is None:
             self.recalled_at = datetime.now().isoformat()
@@ -58,7 +58,7 @@ class RecallContext:
     min_relevance: float = 0.3
     include_snippets: bool = True
     semantic_search: bool = False
-    
+
     def __post_init__(self):
         if self.keywords is None:
             self.keywords = []
@@ -81,23 +81,23 @@ class SpacedRepetitionItem:
 class RecallEngine:
     """
     Comprehensive recall engine for Atlas.
-    
+
     Provides both intelligent content search and spaced repetition:
     - Keyword-based search
     - Semantic similarity (when available)
-    - Time-based filtering  
+    - Time-based filtering
     - Tag-based categorization
     - Context-aware ranking
     - Spaced repetition scheduling
     - Learning progress tracking
     """
-    
+
     def __init__(self, metadata_manager=None, config: Dict[str, Any] = None):
         """Initialize RecallEngine."""
         self.config = config or {}
         if not config and load_config:
             self.config = load_config()
-            
+
         # Support both direct injection and automatic initialization
         if metadata_manager:
             self.metadata_manager = metadata_manager
@@ -108,7 +108,7 @@ class RecallEngine:
                     self.metadata_manager = MetadataManager(self.config)
                 except Exception:
                     pass
-        
+
         # Search configuration
         self.relevance_weights = {
             "title_match": 0.4,
@@ -116,7 +116,7 @@ class RecallEngine:
             "content_match": 0.2,
             "recency": 0.1
         }
-        
+
         # Time period mappings
         self.time_periods = {
             "recent": 7,    # days
@@ -126,49 +126,49 @@ class RecallEngine:
             "year": 365,
             "all": None
         }
-    
+
     # ========================================
     # CONTENT SEARCH & RECALL METHODS
     # ========================================
-    
+
     def recall(self, context: RecallContext) -> List[RecallResult]:
         """
         Recall content based on provided context.
-        
+
         Args:
             context: Recall context with search parameters
-            
+
         Returns:
             List of recalled content items ordered by relevance
         """
         start_time = datetime.now()
-        
+
         if not self.metadata_manager:
             return self._mock_recall(context)
-            
+
         try:
             # Get all available content
             all_content = self._get_searchable_content()
-            
+
             # Apply filters
             filtered_content = self._apply_filters(all_content, context)
-            
+
             # Score and rank results
             scored_results = self._score_and_rank(filtered_content, context)
-            
+
             # Convert to RecallResult objects
             recall_results = self._create_recall_results(scored_results, context)
-            
+
             # Calculate search stats
             search_time = (datetime.now() - start_time).total_seconds() * 1000
             self._log_recall_stats(all_content, recall_results, search_time)
-            
+
             return recall_results[:context.max_results]
-            
+
         except Exception as e:
             print(f"Error during recall: {e}")
             return self._mock_recall(context)
-    
+
     def quick_search(self, query: str, max_results: int = 5) -> List[RecallResult]:
         """Quick search for immediate results."""
         context = RecallContext(
@@ -178,7 +178,7 @@ class RecallEngine:
             min_relevance=0.2
         )
         return self.recall(context)
-    
+
     def recall_by_tags(self, tags: List[str], max_results: int = 10) -> List[RecallResult]:
         """Recall content by specific tags."""
         context = RecallContext(
@@ -187,7 +187,7 @@ class RecallEngine:
             time_period="all"
         )
         return self.recall(context)
-    
+
     def recall_recent(self, days: int = 7, max_results: int = 10) -> List[RecallResult]:
         """Recall recent content."""
         context = RecallContext(
@@ -196,25 +196,25 @@ class RecallEngine:
             min_relevance=0.1  # Lower threshold for recent content
         )
         return self.recall(context)
-    
+
     def recall_similar(self, reference_uid: str, max_results: int = 5) -> List[RecallResult]:
         """Recall content similar to a reference item."""
         if not self.metadata_manager:
             return []
-            
+
         try:
             # Find the reference content
             reference_item = None
             all_content = self._get_searchable_content()
-            
+
             for item in all_content:
                 if getattr(item, 'uid', None) == reference_uid:
                     reference_item = item
                     break
-            
+
             if not reference_item:
                 return []
-            
+
             # Extract keywords from reference item
             keywords = []
             if hasattr(reference_item, 'tags'):
@@ -222,7 +222,7 @@ class RecallEngine:
             if hasattr(reference_item, 'title'):
                 title_words = re.findall(r'\b[a-zA-Z]{4,}\b', reference_item.title.lower())
                 keywords.extend(title_words[:3])
-            
+
             context = RecallContext(
                 keywords=keywords,
                 tags=getattr(reference_item, 'tags', [])[:2],
@@ -230,22 +230,22 @@ class RecallEngine:
                 max_results=max_results + 1,  # +1 to exclude reference item
                 min_relevance=0.2
             )
-            
+
             results = self.recall(context)
-            
+
             # Filter out the reference item itself
             filtered_results = [r for r in results if r.uid != reference_uid]
-            
+
             return filtered_results[:max_results]
-            
+
         except Exception as e:
             print(f"Error finding similar content: {e}")
             return []
-    
+
     # ========================================
     # SPACED REPETITION METHODS (Legacy Support)
     # ========================================
-    
+
     def get_items_for_review(self, limit=10) -> List[SpacedRepetitionItem]:
         """
         Get optimally scheduled review items using enhanced MetadataManager methods.
@@ -253,7 +253,7 @@ class RecallEngine:
         """
         if not self.metadata_manager:
             return []
-            
+
         try:
             # Use the new get_recall_items method if available
             if hasattr(self.metadata_manager, 'get_recall_items'):
@@ -280,11 +280,11 @@ class RecallEngine:
             enhanced_items.sort(key=lambda x: x.review_urgency, reverse=True)
 
             return enhanced_items
-            
+
         except Exception as e:
             print(f"Error getting review items: {e}")
             return []
-    
+
     def mark_reviewed(self, content_metadata, success=True, difficulty_rating=None):
         """
         Mark a content item as reviewed with enhanced feedback tracking.
@@ -314,7 +314,7 @@ class RecallEngine:
             content_metadata.type_specific["next_review_date"] = next_review_date.isoformat()
 
             self.metadata_manager.save_metadata(content_metadata)
-            
+
         except Exception as e:
             print(f"Error marking content as reviewed: {e}")
 
@@ -334,19 +334,19 @@ class RecallEngine:
         except Exception as e:
             print(f"Error in schedule_spaced_repetition: {e}")
             return []
-    
+
     # ========================================
     # ANALYTICS AND INSIGHTS
     # ========================================
-    
+
     def get_recall_suggestions(self) -> List[str]:
         """Get suggestions for what to recall based on content analysis."""
         if not self.metadata_manager:
             return ["machine learning", "productivity", "technology"]
-            
+
         try:
             all_content = self._get_searchable_content()
-            
+
             # Analyze tags for popular topics
             tag_counts = Counter()
             for item in all_content:
@@ -354,41 +354,41 @@ class RecallEngine:
                     for tag in item.tags:
                         if tag:
                             tag_counts[tag.lower()] += 1
-            
+
             # Get most common tags as suggestions
             suggestions = [tag for tag, count in tag_counts.most_common(10) if count >= 2]
-            
+
             return suggestions[:8]
-            
+
         except Exception as e:
             print(f"Error generating suggestions: {e}")
             return ["recent content", "articles", "podcasts"]
-    
+
     def analyze_recall_patterns(self) -> Dict[str, Any]:
         """Analyze patterns in content for better recall recommendations."""
         if not self.metadata_manager:
             return {"error": "No metadata manager available"}
-            
+
         try:
             all_content = self._get_searchable_content()
-            
+
             # Content type distribution
             type_counts = Counter()
             tag_counts = Counter()
             monthly_counts = defaultdict(int)
-            
+
             for item in all_content:
                 # Content type analysis
                 if hasattr(item, 'content_type'):
                     content_type = getattr(item.content_type, 'value', item.content_type) if hasattr(item.content_type, 'value') else item.content_type
                     type_counts[content_type] += 1
-                
+
                 # Tag analysis
                 if hasattr(item, 'tags'):
                     for tag in item.tags:
                         if tag:
                             tag_counts[tag.lower()] += 1
-                
+
                 # Time analysis
                 if hasattr(item, 'created_at'):
                     try:
@@ -399,7 +399,7 @@ class RecallEngine:
                             monthly_counts[month_key] += 1
                     except Exception:
                         pass
-            
+
             return {
                 "total_items": len(all_content),
                 "content_types": dict(type_counts.most_common()),
@@ -407,18 +407,18 @@ class RecallEngine:
                 "monthly_distribution": dict(sorted(monthly_counts.items())[-12:]),  # Last 12 months
                 "searchable_items": len([item for item in all_content if self._is_searchable(item)])
             }
-            
+
         except Exception as e:
             return {"error": f"Analysis failed: {e}"}
-    
+
     def get_content_gaps(self) -> List[str]:
         """Identify gaps in content coverage by topics or domains."""
         if not self.metadata_manager:
             return ["AI ethics", "sustainability", "digital privacy"]
-            
+
         try:
             all_content = self._get_searchable_content()
-            
+
             # Extract all tags and topics
             all_tags = set()
             for item in all_content:
@@ -426,7 +426,7 @@ class RecallEngine:
                     for tag in item.tags:
                         if tag:
                             all_tags.add(tag.lower())
-            
+
             # Define common knowledge domains
             knowledge_domains = {
                 "technology": ["ai", "machine learning", "software", "programming", "data science"],
@@ -438,48 +438,48 @@ class RecallEngine:
                 "education": ["learning", "pedagogy", "curriculum", "assessment", "cognitive science"],
                 "psychology": ["cognition", "behavior", "emotion", "development", "social psychology"]
             }
-            
+
             # Find underrepresented domains
             gaps = []
             for domain, keywords in knowledge_domains.items():
                 domain_tags = [tag for tag in all_tags if any(keyword in tag for keyword in keywords)]
                 if len(domain_tags) < 2:  # Less than 2 tags in this domain
                     gaps.append(domain)
-            
+
             return gaps
-            
+
         except Exception as e:
             print(f"Error identifying content gaps: {e}")
             return ["interdisciplinary topics", "emerging fields", "historical context"]
-    
+
     def get_reading_progress(self) -> Dict[str, Any]:
         """Get insights into reading/consumption progress."""
         if not self.metadata_manager:
             return {"total_items": 100, "consumed_items": 65, "completion_rate": 0.65}
-            
+
         try:
             all_content = self._get_searchable_content()
-            
+
             # Count consumed items (would need integration with actual consumption tracking)
             consumed_count = 0
             word_count_total = 0
             word_count_consumed = 0
-            
+
             for item in all_content:
                 # For now, we'll assume 50% are "consumed" - in a real implementation,
                 # this would check against actual consumption data
                 if hasattr(item, 'uid') and hash(item.uid) % 2 == 0:  # Mock consumption check
                     consumed_count += 1
-                    
+
                     if hasattr(item, 'word_count'):
                         word_count_consumed += item.word_count or 0
-                        
+
                 if hasattr(item, 'word_count'):
                     word_count_total += item.word_count or 0
-            
+
             completion_rate = consumed_count / len(all_content) if all_content else 0
             word_completion_rate = word_count_consumed / word_count_total if word_count_total > 0 else 0
-            
+
             return {
                 "total_items": len(all_content),
                 "consumed_items": consumed_count,
@@ -489,16 +489,16 @@ class RecallEngine:
                 "word_completion_rate": word_completion_rate,
                 "reading_pace": word_count_consumed / max(len(all_content), 1)  # Words per item
             }
-            
+
         except Exception as e:
             print(f"Error calculating reading progress: {e}")
             return {"error": "Failed to calculate reading progress"}
-    
+
     def get_review_analytics(self):
         """Get analytics about review performance and patterns (legacy method)."""
         if not self.metadata_manager:
             return {"error": "No metadata manager available"}
-            
+
         try:
             all_items = self.metadata_manager.get_all_metadata()
 
@@ -536,62 +536,62 @@ class RecallEngine:
             }
         except Exception as e:
             return {"error": f"Review analytics failed: {e}"}
-    
+
     # ========================================
     # PRIVATE HELPER METHODS
     # ========================================
-    
+
     def _get_searchable_content(self) -> List[Any]:
         """Get all content available for search."""
         if hasattr(self.metadata_manager, 'list_all_content'):
             all_content = self.metadata_manager.list_all_content()
         else:
             all_content = self.metadata_manager.get_all_metadata()
-        
+
         # Filter to searchable items
         return [item for item in all_content if self._is_searchable(item)]
-    
+
     def _is_searchable(self, item: Any) -> bool:
         """Determine if an item is searchable."""
         # Must have at least title or tags
         has_title = hasattr(item, 'title') and item.title
         has_tags = hasattr(item, 'tags') and item.tags
-        
+
         return has_title or has_tags
-    
+
     def _needs_review(self, item: Any) -> bool:
         """Determine if an item needs review (for spaced repetition)."""
         if not hasattr(item, 'type_specific') or not item.type_specific:
             return True  # Never reviewed
-            
+
         next_review = item.type_specific.get('next_review_date')
         if not next_review:
             return True
-            
+
         try:
             next_review_date = datetime.fromisoformat(next_review.replace('Z', '+00:00'))
             return datetime.now() >= next_review_date
         except Exception:
             return True
-    
+
     def _apply_filters(self, content_items: List[Any], context: RecallContext) -> List[Any]:
         """Apply context filters to content items."""
         filtered = content_items
-        
+
         # Time period filter
         if context.time_period and context.time_period != "all":
             days = self.time_periods.get(context.time_period)
             if days:
                 cutoff_date = datetime.now() - timedelta(days=days)
                 time_filtered = []
-                
+
                 for item in filtered:
                     try:
                         if hasattr(item, 'created_at'):
                             created_at = item.created_at
                         else:
                             created_at = getattr(item, 'date', '')
-                            
+
                         if created_at:
                             content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                             if content_date >= cutoff_date:
@@ -599,9 +599,9 @@ class RecallEngine:
                     except Exception:
                         # Include items without valid dates
                         time_filtered.append(item)
-                
+
                 filtered = time_filtered
-        
+
         # Content type filter
         if context.content_types:
             type_filtered = []
@@ -614,7 +614,7 @@ class RecallEngine:
                     # Include items without content type
                     type_filtered.append(item)
             filtered = type_filtered
-        
+
         # Tag filter
         if context.tags:
             tag_filtered = []
@@ -624,55 +624,55 @@ class RecallEngine:
                     if any(tag.lower() in item_tags for tag in context.tags):
                         tag_filtered.append(item)
             filtered = tag_filtered
-        
+
         return filtered
-    
+
     def _score_and_rank(self, content_items: List[Any], context: RecallContext) -> List[Tuple[Any, float]]:
         """Score and rank content items by relevance."""
         scored_items = []
-        
+
         for item in content_items:
             score = self._calculate_relevance_score(item, context)
             if score >= context.min_relevance:
                 scored_items.append((item, score))
-        
+
         # Sort by score (descending)
         scored_items.sort(key=lambda x: x[1], reverse=True)
-        
+
         return scored_items
-    
+
     def _calculate_relevance_score(self, item: Any, context: RecallContext) -> float:
         """Calculate relevance score for an item."""
         score = 0.0
-        
+
         # Title matching
         if context.query or context.keywords:
             title_score = self._calculate_title_score(item, context)
             score += title_score * self.relevance_weights["title_match"]
-        
+
         # Tag matching
         if context.tags or context.keywords:
             tag_score = self._calculate_tag_score(item, context)
             score += tag_score * self.relevance_weights["tag_match"]
-        
+
         # Content matching (if available)
         content_score = self._calculate_content_score(item, context)
         score += content_score * self.relevance_weights["content_match"]
-        
+
         # Recency boost
         recency_score = self._calculate_recency_score(item)
         score += recency_score * self.relevance_weights["recency"]
-        
+
         return min(score, 1.0)  # Cap at 1.0
-    
+
     def _calculate_title_score(self, item: Any, context: RecallContext) -> float:
         """Calculate title-based relevance score."""
         if not hasattr(item, 'title') or not item.title:
             return 0.0
-        
+
         title = item.title.lower()
         score = 0.0
-        
+
         # Query matching
         if context.query:
             query_lower = context.query.lower()
@@ -684,29 +684,29 @@ class RecallEngine:
                 matches = sum(1 for word in query_words if word in title)
                 if matches > 0:
                     score += 0.4 * (matches / len(query_words))
-        
+
         # Keyword matching
         if context.keywords:
             keyword_matches = sum(1 for keyword in context.keywords if keyword.lower() in title)
             if keyword_matches > 0:
                 score += 0.6 * (keyword_matches / len(context.keywords))
-        
+
         return min(score, 1.0)
-    
+
     def _calculate_tag_score(self, item: Any, context: RecallContext) -> float:
         """Calculate tag-based relevance score."""
         if not hasattr(item, 'tags') or not item.tags:
             return 0.0
-        
+
         item_tags = [tag.lower() for tag in item.tags]
         score = 0.0
-        
+
         # Direct tag matches
         if context.tags:
             tag_matches = sum(1 for tag in context.tags if tag.lower() in item_tags)
             if tag_matches > 0:
                 score += 0.8 * (tag_matches / len(context.tags))
-        
+
         # Keyword matches in tags
         if context.keywords:
             keyword_matches = 0
@@ -715,22 +715,22 @@ class RecallEngine:
                     keyword_matches += 1
             if keyword_matches > 0:
                 score += 0.6 * (keyword_matches / len(context.keywords))
-        
+
         return min(score, 1.0)
-    
+
     def _calculate_content_score(self, item: Any, context: RecallContext) -> float:
         """Calculate content-based relevance score."""
         if not context.query and not context.keywords:
             return 0.0
-        
+
         # For now, return moderate score based on content availability
         if hasattr(item, 'content_path') and item.content_path:
             return 0.3
         elif hasattr(item, 'content') and item.content:
             return 0.5
-        
+
         return 0.0
-    
+
     def _calculate_recency_score(self, item: Any) -> float:
         """Calculate recency-based relevance score."""
         try:
@@ -738,13 +738,13 @@ class RecallEngine:
                 created_at = item.created_at
             else:
                 created_at = getattr(item, 'date', '')
-                
+
             if not created_at:
                 return 0.0
-            
+
             content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
             days_ago = (datetime.now() - content_date).days
-            
+
             # Exponential decay: newer content gets higher scores
             if days_ago <= 7:
                 return 1.0
@@ -756,23 +756,23 @@ class RecallEngine:
                 return 0.2
             else:
                 return 0.1
-                
+
         except Exception:
             return 0.0
-    
+
     def _create_recall_results(self, scored_items: List[Tuple[Any, float]], context: RecallContext) -> List[RecallResult]:
         """Create RecallResult objects from scored items."""
         results = []
-        
+
         for item, score in scored_items:
             # Generate recall reason
             reason = self._generate_recall_reason(item, context, score)
-            
+
             # Extract snippet if requested
             snippet = None
             if context.include_snippets:
                 snippet = self._extract_snippet(item, context)
-            
+
             # Create result
             result = RecallResult(
                 uid=getattr(item, 'uid', 'unknown'),
@@ -785,31 +785,31 @@ class RecallEngine:
                 recalled_at=datetime.now().isoformat(),
                 snippet=snippet
             )
-            
+
             results.append(result)
-        
+
         return results
-    
+
     def _generate_recall_reason(self, item: Any, context: RecallContext, score: float) -> str:
         """Generate human-readable reason for why item was recalled."""
         reasons = []
-        
+
         if context.query:
             if hasattr(item, 'title') and context.query.lower() in item.title.lower():
                 reasons.append(f"title matches '{context.query}'")
-        
+
         if context.tags and hasattr(item, 'tags'):
             matching_tags = [tag for tag in context.tags if tag.lower() in [t.lower() for t in item.tags]]
             if matching_tags:
                 reasons.append(f"tagged as {', '.join(matching_tags[:2])}")
-        
+
         if context.keywords:
             # Check for keyword matches
             if hasattr(item, 'title'):
                 title_keywords = [kw for kw in context.keywords if kw.lower() in item.title.lower()]
                 if title_keywords:
                     reasons.append(f"contains keywords: {', '.join(title_keywords[:2])}")
-        
+
         # Recency
         try:
             if hasattr(item, 'created_at'):
@@ -821,27 +821,27 @@ class RecallEngine:
                         reasons.append("recently added")
         except Exception:
             pass
-        
+
         if score > 0.8:
             reasons.append("high relevance")
-        
+
         if not reasons:
             return "general match"
-        
+
         return ", ".join(reasons[:3])
-    
+
     def _extract_snippet(self, item: Any, context: RecallContext) -> Optional[str]:
         """Extract a relevant snippet from the content."""
         # Simple snippet extraction - would be enhanced with full content access
         if hasattr(item, 'title') and item.title:
             return item.title[:200] + "..." if len(item.title) > 200 else item.title
-        
+
         return None
-    
+
     def _extract_metadata(self, item: Any) -> Dict[str, Any]:
         """Extract metadata from item for result."""
         metadata = {}
-        
+
         if hasattr(item, 'tags'):
             metadata['tags'] = item.tags
         if hasattr(item, 'created_at'):
@@ -850,18 +850,18 @@ class RecallEngine:
             metadata['word_count'] = item.word_count
         if hasattr(item, 'author'):
             metadata['author'] = item.author
-        
+
         return metadata
-    
+
     def _log_recall_stats(self, all_content: List[Any], results: List[RecallResult], search_time: float):
         """Log recall operation statistics."""
         # This could be enhanced to log to a proper analytics system
         pass
-    
+
     # ========================================
     # SPACED REPETITION HELPER METHODS
     # ========================================
-    
+
     def _get_review_data(self, metadata):
         """Extract review-specific data from metadata."""
         if not hasattr(metadata, 'type_specific') or not metadata.type_specific:
@@ -872,7 +872,7 @@ class RecallEngine:
                 "difficulty_rating": 3,
                 "next_review_date": None
             }
-            
+
         return {
             "last_reviewed": metadata.type_specific.get("last_reviewed"),
             "review_count": metadata.type_specific.get("review_count", 0),
@@ -896,7 +896,7 @@ class RecallEngine:
         content_type = getattr(metadata, 'content_type', 'article')
         if hasattr(content_type, 'value'):
             content_type = content_type.value
-            
+
         type_difficulty = {
             "article": 1.0,
             "youtube": 0.8,
@@ -968,7 +968,7 @@ class RecallEngine:
             multiplier = 0.3
 
         return max(1, int(base_interval * multiplier))
-    
+
     def _mock_recall(self, context: RecallContext) -> List[RecallResult]:
         """Mock recall when metadata manager unavailable."""
         mock_results = [
@@ -1006,37 +1006,37 @@ class RecallEngine:
                 snippet="A deep dive into artificial intelligence trends..."
             )
         ]
-        
+
         # Filter by context
         filtered = []
         for result in mock_results:
             # Apply content type filter
             if context.content_types and result.content_type not in context.content_types:
                 continue
-            
+
             # Apply relevance filter
             if result.relevance_score < context.min_relevance:
                 continue
-            
+
             # Apply query filter (simple check)
             if context.query:
                 if context.query.lower() not in result.title.lower():
                     continue
-            
+
             filtered.append(result)
-        
+
         return filtered[:context.max_results]
 
 
 if __name__ == "__main__":
     # Example usage
     engine = RecallEngine()
-    
+
     # Quick search
     print("Quick Search Results:")
     print("=" * 40)
     quick_results = engine.quick_search("machine learning", max_results=3)
-    
+
     for i, result in enumerate(quick_results, 1):
         print(f"\n{i}. {result.title}")
         print(f"   Type: {result.content_type}")
@@ -1044,7 +1044,7 @@ if __name__ == "__main__":
         print(f"   Reason: {result.recall_reason}")
         if result.snippet:
             print(f"   Snippet: {result.snippet}")
-    
+
     # Contextual recall
     print(f"\n\nContextual Recall:")
     print("=" * 40)
@@ -1054,13 +1054,13 @@ if __name__ == "__main__":
         content_types=["article"],
         max_results=5
     )
-    
+
     contextual_results = engine.recall(context)
     for i, result in enumerate(contextual_results, 1):
         print(f"\n{i}. {result.title}")
         print(f"   Relevance: {result.relevance_score:.2f}")
         print(f"   Reason: {result.recall_reason}")
-    
+
     # Spaced repetition
     print(f"\n\nSpaced Repetition Review:")
     print("=" * 40)
@@ -1069,7 +1069,7 @@ if __name__ == "__main__":
         print(f"\n{i}. {getattr(item.metadata, 'title', 'Unknown Title')}")
         print(f"   Urgency: {item.review_urgency:.2f}")
         print(f"   Difficulty: {item.difficulty_score:.2f}")
-    
+
     # Get suggestions
     print(f"\n\nRecall Suggestions:")
     print("=" * 40)

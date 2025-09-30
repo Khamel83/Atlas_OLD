@@ -21,7 +21,7 @@ if (OptanonWrapperCounter == 1)
             {
                 var trigger_event = new Event("tcf_consent_setup");
                 window.dispatchEvent(trigger_event);
- 
+
                 var OABCcookieName = "OptanonAlertBoxClosed";
                 var bannerAcceptBtn = document.getElementById("onetrust-accept-btn-handler");
                 var pcAllowAllBtn = document.getElementById("accept-recommended-btn-handler");
@@ -55,14 +55,14 @@ pcSaveBtn.addEventListener("click", function() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
         FlyerTalk - The world&#039;s most popular frequent flyer community - FlyerTalk is a living, growing community where frequent travelers around the world come to exchange knowledge and experiences about everything miles and points related.        </title>
-        
+
         <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.flyertalk.com/feed" />
         <link rel="alternate" type="text/xml" title="RSS .92" href="https://www.flyertalk.com/feed/rss" />
         <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://www.flyertalk.com/feed/atom" />
         <link rel="pingback" href="https://www.flyertalk.com/xmlrpc.php" />
 
 <meta property="og:description" content="FlyerTalk is a living, growing community where frequent travelers around the world come to exchange knowledge and experiences about everything miles and points related." />
-                                        
+
 <!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
 <meta name="description" content="FlyerTalk is a living, growing community where frequent travelers around the world come to exchange knowledge and experiences about everything miles and points related." />
 <meta name="keywords" content="#throwbackthursday, 737 max, a220, a350, a380, accor, aer lingus, air berlin, air canada, air china, air france, air india, air new zealand, airbnb, airbnb, airbus, aircraft, airlines, airports, alaska airlines, all nippon airways, alliances, american airlines, american express, apps, ask the pilot, boeing, boutique, british airways, car rental, cathay pacific, celebrities, chase, choice hotels, clear, club carlson, columns, covid-19, credit cards, crewed talk, cruises, delta air lines, dreamliner, emirates, etihad airways, faa, fees, flyer advice, flyertalk 101, flyertalk awards, food &amp; drink, frontier airlines, fyi, global entry, have miles will travel, hawaiian airlines, hilton, hotels, hyatt, ihg, in flight entertainment, incidents, interviews, interviews, japan airlines, jetblue airways, kimpton, klm, korean air, latam, lounges, lufthansa, malaysia airlines, marriott, mile high manners, news, norwegian air, offbeat, oneworld, opinion, other chains, passengers, pilots, play air, polaris, premium fare deals, priority pass, qantas, qatar airways, quarterly reports, radisson, reports from the forum, resorts, reviews, rewards, rideshare, ritz-carlton, routes, ryanair, seats, security, singapore airlines, skyteam, southwest airlines, speculation station, spirit airlines, sponsored, star alliance, starwood, style, sun country airlines, technology, the american express centurion lounges, tips, trip report, trusted traveler programs, tsa precheck, turkish airlines, united airlines, united club, virgin atlantic, virgin australia, we called and asked, westjet airlines, worst passenger of the week, wow air, wyndham rewards" />
@@ -412,7 +412,7 @@ body,
 	}
 
 </style>
-	
+
 <style type="text/css">
 
 </style>
@@ -625,7 +625,7 @@ apstag.fetchBids({
 },{once:true});
 		</script>
 
-<link rel="canonical" href="https://www.flyertalk.com" />                                
+<link rel="canonical" href="https://www.flyertalk.com" />
         <style>
             #consent_blackbar {
                 position: fixed;
@@ -638,7 +638,7 @@ apstag.fetchBids({
         <div id="consent_blackbar"></div>
 
 <script type="text/plain" class="optanon-category-C0004" src="//s.ntv.io/serve/load.js" data-ntv-set-no-auto-start async></script>
-        
+
         <!-- Google Tag Manager -->
         <script type="text/plain" class="optanon-category-C0002">
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -646,23 +646,23 @@ apstag.fetchBids({
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-W3JNSQ4');</script>
-        <!-- End Google Tag Manager --> 
-        
+        <!-- End Google Tag Manager -->
+
         <!-- Google tag (gtag.js) -->
-        <script type="text/plain" class="optanon-category-C0002" 
+        <script type="text/plain" class="optanon-category-C0002"
         async src="https://www.googletagmanager.com/gtag/js?id=G-YGLPLMG5XS"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-                
+
           gtag('config', 'G-YGLPLMG5XS');
         </script>
 
 <!-- Embed instagram script -->
-        
+
         <!-- Add Media Element Headers -->
-        
+
     </head>
 <body class="home blog wp-theme-topnews">
 
@@ -674,7 +674,7 @@ apstag.fetchBids({
 <div id="adSkin">
                     <div id="div-gpt-ad-22-0"></div>
                 </div>
-            
+
     <div id="site">
 
 <header id="global_header" class="homepage" v-bind:class="{ expanded: isMainExpanded, scrolling: !isOnTop }">
@@ -694,7 +694,7 @@ apstag.fetchBids({
                 <img v-if="!isOnTop" width="200" height="39" alt="Flyertalk" v-cloak src="https://www.flyertalk.com/wp-content/themes/topnews/images/logos/FlyerTalk-Logo-V2.png">
             </a>
             <a href="#" class="logo homepage expanded" v-if="isMainExpanded" v-cloak><img src="https://www.flyertalk.com/wp-content/themes/topnews/images/logos/FlyerTalk-Logo-V2-white.png"></a>
-        
+
         <div class="social_media">
             <a href="https://www.facebook.com/flyertalkforums" alt="Facebook" target="_blank">
                 <i class="fab fa-facebook-f"></i>
@@ -705,7 +705,7 @@ apstag.fetchBids({
         </div>
 
 <div class="user_area">
-            
+
                 <div class="logInBtn" v-on:click="toggleMenu('login')" href="/forum/login.php" v-bind:class="{ expanded: activeMenu == 'login' }">Log In</div>
                 <a href="/forum/register.php" class="yellow-btn">Sign Up</a>
 
@@ -762,7 +762,7 @@ apstag.fetchBids({
                 </div>
             </div>
             <div class="login_area ">
-                
+
                     <a href="/forum/register.php" class="yellow-btn">Sign Up</a>
                     <a href="/forum/login.php">Log In</a>
 
@@ -1010,7 +1010,7 @@ apstag.fetchBids({
             <span id="logInBtn" class="yellow-btn" v-on:click="doLogin">Log In</span><a href="/forum/login.php?do=lostpw">Forgot Password</a>
             <p>By logging into your account, you agree to our <a href="https://www.internetbrands.com/ibterms/" target="_blank">Terms of Use</a> and <a href="https://www.internetbrands.com/privacy/privacy-main.html" target="_blank">Privacy Policy</a>, and the use of cookies as described therein.</p>
         </div>
-    
+
 </header>
 
 <script src="/forum/clientscript/vbulletin_md5.js?v=3938"></script>
@@ -1235,7 +1235,7 @@ apstag.fetchBids({
                     <input id="homeSearch" type="text" placeholder="Search Discussions..." v-model="searchQuery" v-on:keyup.enter="doSearch">
                     <a href="/forum/trending.php">See All</a>
                     <div class="discussionTypes" v-on:click="showDiscussionTypesDropdown = !showDiscussionTypesDropdown">
-                        <img width="15" height="16" alt="Show discussion types" src="https://www.flyertalk.com/wp-content/themes/topnews/images/homepage/ico-thumbs-white.png">                       
+                        <img width="15" height="16" alt="Show discussion types" src="https://www.flyertalk.com/wp-content/themes/topnews/images/homepage/ico-thumbs-white.png">
                     </div>
                                         <div class="discussionTypesDropdown" v-bind:class="{ expanded: showDiscussionTypesDropdown }">
                                                     <a href="/forum/airlines-mileage-programs-374"><img src="https://www.flyertalk.com/wp-content/themes/topnews/images/homepage/forum-icons/ico-plane-blue.png">Airlines & Mileage Programs</a>
@@ -1505,7 +1505,7 @@ apstag.fetchBids({
     </section>
 
 <section id="myflyertalk">
-                    
+
             <div class="containerLoggedOut">
                 <h2><img width="60" height="38" alt="Join the discussion" src="https://www.flyertalk.com/wp-content/themes/topnews/images/homepage/bubble.png">Join the<br>Discussion</h2>
                 <p>FlyerTalk is the largest expert travel community. Sign up to ask questions and get answers for all your travel needs.</p>
@@ -1604,7 +1604,7 @@ apstag.fetchBids({
 </div>
 <footer id="foot-wrap" class="left relative">
 
-		
+
     		<div id="foot-leader" class="left relative">
 			<script type="text/plain" class="optanon-category-C0002">
 			    (function(h,o,t,j,a,r){
@@ -1617,7 +1617,7 @@ apstag.fetchBids({
 			    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 			</script>
 		</div>
-		
+
 	<style>
 		#teconsent a {
 			color: #ffffff !important;
@@ -1631,7 +1631,7 @@ apstag.fetchBids({
 		<div style="text-align: center;margin-bottom: 20px;">
 			<div id="teconsent"></div>
 		</div>
-		
+
 		<div id="footer_nav">
 			<div class="menu-footer-menu-container">
 				<ul id="menu-footer-menu" class="menu">

@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="csrf-param" content="authenticity_token" />
 <meta name="csrf-token" content="uah5MRf2x4iWAruxDxHy2rduZ6NVoXPctAAg7ShLxX3WM4DyWes9q_V3YtQcXB0YiNhW8lmtY3AiPly6zIjmIg" />
-  
+
   <meta name="action-cable-url" content="/cable" />
       <link rel="alternate" type="application/rss+xml" title="Recent Additions" href="https://oll.libertyfund.org/rss/recent_additions.rss" />
     <link rel="alternate" type="application/feed+json" title="Recent Additions" href="https://oll.libertyfund.org/rss/recent_additions.json" />
@@ -231,7 +231,7 @@
 </div>
 
 <div class="sticky-top mt-3" style="top: 1rem">
-  
+
   <div class="related-card">
   <h3 class="h5 related-card-header">
     Part of: <a href="/publications/liberty-matters/alberto-mingardi-vilfredo-pareto-liberalism-november-2018">Alberto Mingardi, “Liberty and Cynicism: Was Vilfredo Pareto a Liberal?” (November 2018)</a>
@@ -367,7 +367,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="legal text-muted bg-dark">
     ©Copyright 2003 –
     2025

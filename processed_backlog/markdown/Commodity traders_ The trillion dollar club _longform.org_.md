@@ -12,7 +12,7 @@
 
 # reuters.com
 
-Unknown author • October 21, 2011 
+Unknown author • October 21, 2011
 
 ![reuters.com]()
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        There are two main ways for companies to finance themselves, debt and equity. Debt financing means that you borrow money and promise to pay 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        There are two main ways for companies to finance themselves, debt and equity. Debt financing means that you borrow money and promise to pay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Debt and equity
-    
-  
+
+
 
 There are two main ways for companies to finance themselves, debt and equity. Debt financing means that you borrow money and promise to pay it back on some set schedule with some set interest rate. Your creditors are entitled to exactly what you owe them, and if they don’t get it then they can sue you for the money, or put you into bankruptcy if you don’t have it.
 Equity financing means that you sell stock to investors and you never have to pay it back. Your shareholders are not entitled to anything specific; there is no particular amount of money that they have to get back or any schedule for when they get it. But they are   in some loose sense part-owners of the company, they have a residual claim on its cash flows, and they vaguely hope to one day get their money back through dividends or stock buybacks or mergers. They can’t make you share the profits in any direct way,
@@ -88,37 +88,37 @@ If I ran, oh, just for instance a private equity firm that employed a lot of ver
   [4]
  You can be very clever indeed with your creditors.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Reciprocal deposits
-    
-  
+
+
 
 In the US, there are basically two kinds of bank deposits. Bank deposits of up to $250,000, per customer, per bank, are insured by the US Federal Deposit Insurance Corp.; they are backed by the full faith and credit of the US government. Deposits above $250,000 are not insured by the FDIC; they are safe if the bank is safe and risky if the bank is risky. Recently many US regional banks have looked risky.
 The FDIC does not really price this difference. A bank can’t go to the FDIC and say “I’d like to pay you for insurance on all my deposits up to $1 million”; it doesn’t work that way. In fact the FDIC doesn’t exactly charge banks a premium for the insurance it does provide. Banks  pay assessments to the FDIC for deposit insurance, but “the assessment base has always been more than just insured deposits”: It used to be all deposits, and now it is all liabilities. It’s not like a bank pays a premium of 0.1% on deposits up to $250,000 to cover insurance, and 0% on deposits over $250,000 because they are uninsured: It pays 0.1% on everything and only gets insurance on the first $250,000.
@@ -142,11 +142,11 @@ The argument against raising the cap on FDIC deposit insurance from $250,000 to 
   [5]
  If deposit insurance is synthetically infinite, that has the same problem.
 
-  
-    
+
+
       JPM vs. USVI
-    
-  
+
+
 
 A truly odd development in modern financial regulation is that people sometimes think, or at least say, that the primary responsibility for combating crimes lies with banks rather than the police. The way this works is:
 	Banks do have some deputized responsibility to stop crime, to flag suspicious financial activity and raise it with law enforcement.	When they fail to do that, the government can fine them a lot of money and hold a stern press conference about holding them responsible for their bad behavior.	When the police fail to catch criminals, the government can’t fine them a lot of money, and the optics of a stern press conference about police failings are not nearly as good.
@@ -161,11 +161,11 @@ In a statement, a spokeswoman for the U.S. Virgin Islands attorney general said:
 
 Did the Virgin Islands attorney general have a responsibility to stop Jeffrey Epstein’s human trafficking in the Virgin Islands? Did Virgin Islands law enforcement have perhaps more ability to stop Epstein’s human trafficking in the Virgin Islands than his bank did? Not the point.
 
-  
-    
+
+
       Oil trading
-    
-  
+
+
 
 Financial markets place an enormous premium on speed, and have spent the last few hundred years getting faster and faster. By now it has reached the point that in many markets, if someone offered to sell you a thing at a price, it would be embarrassingly slow for you to respond to them a millisecond later. Come on! Markets move fast, people are busy, you can’t just lounge around considering your options for a whole millisecond. Government contracting  works differently:
 
@@ -178,15 +178,15 @@ The fixed price meant companies would have to swallow the risk of the market sli
 
 So they have revised their approach to ask companies to submit offers based on a differential to benchmark crude prices, so that the government, rather than the companies, takes the oil price risk. Still I am struck by “proposals due May 31 and contracts expected to be awarded June 9.” Probably “thinking more like a trader” does mean “price oil trades on differentials rather than absolute levels.” But might it also mean “lift offers while you’re on the phone rather than getting back to them in two weeks”?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Debt-Limit Talks Stall as   Time Runs Short to Avert US Default. Debt-Ceiling Drama Has Some   T-Bills Trading Like Junk Bonds. Debt-Ceiling Fight Sends Investors Hunting for  New Havens. Citigroup   Abandons Banamex Sale, Plans 2025 IPO Instead. Five banks  broke competition law over UK government bonds, watchdog says. The Biggest Challenge for Twitter’s New CEO Will Be  Managing Elon Musk. Schwarzman Says Blackstone in Talks to   Buy Regional Bank Assets. PacWest Sells  Real-Estate Lending Unit. Cayman Islands Regulator Exploring Legal Options After FDIC  Seized SVB Deposits.   Fundrise Seeks $500 Million Credit Fund for Real Estate Distress. Court Questions Criteria for Carson Block’s $14 Million  SEC Whistleblower Award. Crypto Startup Says It Found Path to   Register With SEC Under a Broker Rule. Russian [Crypto Exchange Operator] Indicted in U.S. Lobbies for Freedom Through a  Prisoner Swap. The Long Fight Over ‘Taco Tuesday.’ Final day to  return Bed Bath & Beyond and Buy Buy Baby items nears.  Ray Dalio SoHo pergola fight.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Well, not directly, but   they can do this through activism, proxy fights, hostile takeovers, etc., and in fact returning capital to shareholders is one of the more common goals of activism. Also  one of the most famous corporate law cases ever *was* some shareholders suing a company to pay a dividend, and winning, but that was in 1916 and you don’t see a lot of that since.
 
 
@@ -202,48 +202,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pleas
   [5] Another argument against raising the cap is that it would hurt IntraFi’s business? We have   talked about this before: A business that consists purely of engineering around FDIC caps might go away if the caps do.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -254,46 +254,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciszfz.63gi/a48d9d89.gif" alt="" border="0" /></a>

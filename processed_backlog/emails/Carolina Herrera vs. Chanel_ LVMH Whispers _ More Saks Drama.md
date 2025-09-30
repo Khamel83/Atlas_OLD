@@ -28,7 +28,7 @@ here ( https://podcasts.apple.com/us/podcast/white-lotus-collabmania-nikes-woman
 Mentioned in this issue: Puig, Good Girl, Carolina Herrera, Marc Metrick, Saks Global layoffs, Fendi, Pierre-Emmanuel
 Angeloglou, Ramon Ros, LVMH, Dear John letters, Hennessy, Alexandre Arnault, Walmart, Target, PerfumeTok, Paco Rabanne, Gucci, L’Oréal, Coty, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -131,7 +131,7 @@ the industry. Puig has sidestepped that designer licensing arms race: Ninety-fiv
 Beyond the strong brand story or clever packaging, however, the success of Good Girl contains a lesson about social media, too. Good Girl is a fixture on TikTok and one of few designer fragrances that get a lot of airtime across PerfumeTok, where perfume collectors show off their
 stashes. Good Girl was recently featured in a video called “Perfumes that make men go crazy” that racked up 1.3 million views. Another, which had 3.3 million views, features Good Girl as a top “sexy” fragrance. “This is the reference point for today’s generation,” said an executive with knowledge of Puig’s business. Or maybe, in a visual medium like TikTok, there’s still nothing sexier than a stiletto-shaped bottle.
 
- 
+
 
 What
 Rachel Is Reading…
@@ -150,7 +150,7 @@ Eyewitness Beauty should’ve been on there. Both offer great industry insights 
 I predicted this months ago, so I’m not surprised that Alex Cooper and Alix Earle have parted ways. Earle is too big for the network at
 this point. [Variety ( https://variety.com/2025/digital/news/alix-earle-hot-mess-podcast-dropped-alex-cooper-1236320220/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Rachel and me. Very interesting that Suzanne Koller
 styled the Gucci show. (As you may well know, she’s a close collaborator of new-new-new Bottega designer Louise Trotter.)
@@ -204,6 +204,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVRJiRg-GefjdM7c13Xmw=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

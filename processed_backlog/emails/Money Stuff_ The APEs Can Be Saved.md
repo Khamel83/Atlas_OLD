@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The story in brief. AMC Entertainment Holdings Inc. became a meme-stock company and sold a lot of stock to retail investors to raise money t
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AMC 
-    
-  
+
+
 
 The   story in brief. AMC Entertainment Holdings Inc. became a meme-stock company and sold a lot of stock to retail investors to raise money to buy, among other things,   a gold mine. Eventually it sold all the common stock that its corporate charter allowed it to sell, and it couldn’t get its shareholders to approve more, because meme-stock investors mostly don’t vote. So it created a new type of preferred stock, AMC Preferred Equity Units (APEs), and   gave out one APE for every share of common stock. Then it sold more APEs to raise more money. Then it held another shareholder vote, in which the common shares and APEs voted together as a single class, to approve (1) issuing new shares and (2) converting the APEs into common stock. This vote was   somewhat rigged (the APEs would surely vote yes, and the voting mechanics basically turned non-voting APEs into yes votes), and AMC   won it.
 Before it could convert the APEs into common stock, though, a class of common shareholders   sued, claiming that this was all rigged and illegitimate. AMC and the class eventually settled this lawsuit for   a deal in which (1) each APE would convert into one new common share but (2) each old common share would convert into about 1.13 new common shares.
@@ -75,7 +75,7 @@ Now, I am overstating it somewhat. The settlement wouldn’t release AMC from a
 This seems right? Vice Chancellor Zurn raised it in court and everyone kind of ignored her; she writes:
 I raised the fact that the Release included APE claims released by common stockholders at argument to Plaintiffs and the defendants. Plaintiffs’ counsel first tried to describe the APEs as a share split to color the APE claims as appurtenant to the common shares, then deferred to the defendants’ counsel, and then wondered aloud if the defendants would drop that part of the Release. The defendants’ counsel simply insisted they were “entitled to complete peace.”
 Anyway this seems obviously fixable:
-	File a revised settlement releasing only the common claims, not the APE ones.	Get that approved by the court.	
+	File a revised settlement releasing only the common claims, not the APE ones.	Get that approved by the court.
 Go ahead and convert the APEs into common.	If any APEholders want to sue, let them. Maybe they will win, and a court will give them some extra shares. Most likely they won’t, because this works out pretty well for them and they don’t have a ton to complain about.
   [2]
 
@@ -93,37 +93,37 @@ The settlement’s backers want Zurn to weigh the new version of the deal withou
 
 It’s pretty easy to revise the settlement to accommodate the judge’s concerns: In the sentence of the settlement that says “‘Released Plaintiffs’ Claims’ means any and all actions … that related to the ownership of Common Stock and/or AMC Preferred Equity Units,” just cross out the words “and/or AMC Preferred Equity Units.” So that’s what they did.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       DWAC
-    
-  
+
+
 
 In October 2021, Trump Media & Technology Group  announced that it would go public by merging with Digital World Acquisition Corp., a special purpose acquisition company. This was certainly the first I had ever heard of Trump Media & Technology Group, and I am pretty sure I am not alone. It seemed, at the time, pretty half-baked. There were some plans for launching a social media site called Truth Social, but it did not exist yet. There was an investor presentation, but it was not replete with financial or business information: I  pointed out that “there is not a single dollar sign in the whole deck.”
 Digital World Acquisition Corp., meanwhile, was a SPAC that had gone public only a few weeks earlier. It had raised $287.5 million from investors, at $10 per share, to hunt for a company to take public. “We intend to focus on middle market and emerging growth technology-focused companies in the Americas, in SaaS and Technology or Fintech and Financial Services,”  it told prospective investors. And: “We have not selected any specific business combination target and we have not, nor has anyone on our behalf, initiated any substantive discussions, directly or indirectly, with any business combination target.”
@@ -149,11 +149,11 @@ But meanwhile … look, I do not use Truth Social, but I gather that it exists,
 Also, to be clear, this SEC settlement is very good news for DWAC and TMTG. Any resolution is good news; what was bad, for DWAC, was the limbo that it was in with the SEC. The SEC has now signed off, at least in concept, on the idea that DWAC can file some amended disclosure, get a shareholder vote, and close its merger. When it does, TMTG gets DWAC’s $287.5 million, plus probably the $1 billion of PIPE money, plus a public stock-market listing and the ability to raise more money. The stock has drifted down since the glory days, but it closed at $20.08 on Friday, after the SEC settlement was announced, up 50% from the day before. There’s still some investor excitement here.
 When this SPAC deal was first announced, back in October 2021,   I wrote that “it does feel a little bit like all of recent financial history has been leading up to this moment.” For instance, “meme stocks have prepared everyone for the notion that the value of a stock is based on the fervor of its community of online fans, not its projected cash flows.” TMTG is the purest form of meme stock: It launched as a meme stock before it was actually a company, and used its meme-stock status to sort of, maybe, bootstrap its way into being a company.
 
-  
-    
+
+
       X
-    
-  
+
+
 
 Last year, when Elon Musk was toying with the idea of buying Twitter Inc. — asking to be on the board, quitting the board in a huff, saying he would buy the company, saying he wouldn’t buy it, etc. — he mused that, instead of buying Twitter, he could just start a competing social media platform.
   [5]
@@ -170,11 +170,11 @@ But if you traveled back in time two years and said “two years from now, Twitt
  Facebook/Meta/Mark Zuckerberg have a lot of experience running popular social media platforms, and they employ a lot of people who have built social media platforms (some of them hired from Twitter!), while Musk mostly has experience tweeting (now called x’ing???) and employs strikingly few people who have built social media platforms, because he fired most of them. There is a certain inertia that causes people to stay on Twitter, but if you get rid of Twitter I’m not sure the inertia will fully carry over to X.
 I guess my question is, what was he paying for? Musk didn’t want Twitter for its employees (whom he fired) or its code (which he trashes regularly) or its brand (which he abandoned) or its most dedicated users (whom he is working to drive away); he just wanted an entirely different Twitter-like service. Surely he could have built that for less than $44 billion? Mark Zuckerberg did!
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 If a beer company sends beer to a transgender influencer and right-wing influencers get mad about it and boycott the beer, is that securities fraud? Buddy everything is … well, technically this is a shareholder derivative action for breach of fiduciary duty, and more technically it’s just a guy talking about a shareholder derivative action, but still  here you go:
 
@@ -186,15 +186,15 @@ Speaking to Fox News on Thursday night about the letter, DeSantis said the state
 
 Sure.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The   Great M&A Slump Is Shaking Up Giants of Investment Banking. FOMO Drives Investors as  IPO Market Awakens From Long Slumber.  Julius Baer pulls in more than $10bn after Credit Suisse collapse. Jamie Dimon Is   Boss Bankers Crave, Investor Survey Shows. Wall Street Is Grappling With Crypto’s Trillion-Dollar   Custody Question. US junk loan market hit with flurry of  credit rating downgrades. Russia Defies Sanctions by  Selling Oil Above Price Cap.  Chinese Money Flees the Western World. Apollo Is Opposing Push to Tighten Rule for Key  Insurance Business. Chevron  Waives Retirement Age for CEO Mike Wirth. “Once users have  proved they are not robots, they can be issued one of the company’s tokens.”  Barbie Girl, in the Style of Six Classical Composers. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Each common shareholder would get a bonus share of common stock for every 7.5 shares they held.
 
 
@@ -204,57 +204,57 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] A very minor exception is that some hedge funds were (publicly announced as) anchor investors in DWAC’s initial public offering, apparently without knowing that it was doing a deal with Trump, and after the deal was announced they  hurried to exit their positions and said some version of “we didn’t know this was a Trump thing.” I suppose this caused them some embarrassment. On the other hand they made a ton of money in the rush to exit!
 
 
-  [4] Just, come on. If you sell shares worth $94 to the public for $10, and then you buy some in the market at $10, you have left a lot of money on the table. Just keep all of the shares and sell them to the public at $94 when the deal is announced! 
+  [4] Just, come on. If you sell shares worth $94 to the public for $10, and then you buy some in the market at $10, you have left a lot of money on the table. Just keep all of the shares and sell them to the public at $94 when the deal is announced!
 
 
   [5] For instance,  in March 2022, after Musk had bought a stake in Twitter but before he offered to take it private, he had a discussion with Twitter’s chief executive officer, Parag Agrawal, and its board chairman, Bret Taylor, in which “Mr. Musk stated that he was considering various options with respect to his ownership, including potentially joining the Twitter Board, seeking to take Twitter private or starting a competitor to Twitter.”
 
 
-  [6] The obvious winner would be “a Twitter-like service called ‘BlueSky’ sort of started by Jack Dorsey and designed to be more of a protocol and less of a company,” except that in the real world it’s tiny, invitation-only and mostly journalists. 
+  [6] The obvious winner would be “a Twitter-like service called ‘BlueSky’ sort of started by Jack Dorsey and designed to be more of a protocol and less of a company,” except that in the real world it’s tiny, invitation-only and mostly journalists.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -265,46 +265,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj5mwb.5mha/0b3e7535.gif" alt="" border="0" /></a>

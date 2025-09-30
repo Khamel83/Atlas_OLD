@@ -7,246 +7,246 @@
 
 
 
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
-  
-    
+
+
       Meme activism
-    
-  
+
+
 The basic issue is that right now everything is dumb. You can complain about that, or you can embrace it. In investing in 2021, “my channel checks and fundamental modeling suggest that this company will grow earnings faster than the market expects so I will buy it with a price target 20% above today’s price” might sound smarter than “this company’s chief executive officer just tweeted a picture of a dog at Elon Musk so I’m going to buy out-of-the-money call options expiring Friday because the stock will go up 200% today,” but the latter approach happens to work better right now. This is all well and good if you’re a retail investor on Reddit; you just buy the right memes at the right time and get rich. (This is really, really not investing advice!) You are essentially a passive observer; your job is to notice which companies are doing the dumbest things and then buy them. (Read the previous parenthetical!)But other people are active participants in this dumb economy and can nudge companies to be dumber so their stocks will go up. This most obviously works for the chief executive officers of companies. If you are the CEO of a public company, I want you to consider very seriously going to an investment conference with no pants on. Your stock will go up, your shareholders will be happy and your cost of financing will go down. “Why would my stock go up because I don’t wear pants,” you ask me, and I say, shh, shh, it just will, don’t ask why. “I have my dignity, I am not going to go to an important business conference with no pants on just to amuse some apes on Reddit,” you say, and I say: You are not as committed to maximizing shareholder value as I thought you were. I  wrote last month:There is a traditional view of corporate social media in which a board would tell its chief executive officer to be cautious and anodyne on Twitter. There are many things that can go wrong with an unhinged Twitter presence, and not a lot that can go right, is what your lawyer would probably tell you. But the last few years have altered that calculation, and now the things that can go right are like “raising billions of dollars of retail capital when you need it most, at all-time-high valuations.” Arguably it’s a breach of fiduciary duties not to be weird on Twitter all the time.But a similar analysis works for professional activist investors. If you are an activist and you are writing a letter to the CEO of an underperforming company saying “you should sell off your non-core divisions and return the cash to shareholders,” I want you to tear up that letter and instead write one saying “you should order Teslas for all of your employees, put a picture of a Shiba Inu on all of your products, and announce that your non-core divisions will now mine crypto.” Is this a good use of shareholder money? Man, who cares, the point is that the stock will go up 200% and you’ll be able to sell your position at a huge profit. I once wrote some advice for activists:Buy some stock in a struggling company and, instead of going out and pitching your plans to BlackRock and Vanguard, get on Reddit and say like “if my board slate is elected we’re gonna take XYZ Co. to the moon and squeeze those short sellers, rocket emoji rocket emoji rocket emoji, not a proxy solicitation, read my SEC filings for full disclosures.” Draw a picture of an ape riding a rocket and slap it on your proxy statement. Call your activist fund Diamond Hands Capital LP. Basically you want to buy stock in a company, push it to become a meme stock, and then sell the stock at a huge profit to people on Reddit.Here is, I guess, a real letter from real activist investor NuOrion Advisors[1] to the chairman and CEO of Macy’s Inc.:Macy’s share price is materially undervalued and requires urgent action to unlock value. We believe that by adopting the strategies discussed below, Macy’s would be worth more than $75 per share.Macy’s should form partnerships with EV car companies (e.g. Tesla, Lucid or Rivian) to showcase their products on the ground floor of Macy’s 100 top landmark stores (e.g. Herald Square, Marshall Field, Union Square) and to use their massive parking footprint to build an EV charging network. Atom Power, a leader in EV charging, is adding more than a 1000 charge points in NYC alone- Atom Power could similarly add charging stations throughout the Macy’s store footprint. We believe that direct association with EV companies will drive enormous traffic to Macy’s stores.In addition, Macy’s should announce immediately that they are partnering with various Crypto platforms to allow digital payments. Macy’s can be one of the first major retailers to accept Crypto, joining companies like Starbucks and Whole Foods.There’s more but those are the main things. “Macy’s should put out a press release about electric cars and another one about crypto,” is the gist here. Honestly that is the best corporate finance advice you’re gonna get in November 2021! It’s stupid, sure — people are going to drive into the Macy’s in Herald Square to charge their Teslas?????? — and it is not, like, sophisticated differentiated advice; anyone on Reddit could have told you to do this. But it is correct.Of course public companies resist doing these obvious trades because, you know, they make absolutely no business sense. What I am saying here is, let go of that. Say words about crypto. Say words about electric cars. Tweet a picture of a dog. Your stock will go up. Your shareholders will be rich and happy. You can raise lots of money to finance normal good businessy things, because your stock is at an all-time high, because you got in a fight with Elon Musk on Twitter or changed your avatar to a Bored Ape or whatever. Lower your cost of capital. Embrace the stupidity.Here is NuOrion’s actual case for crashing lots of Teslas through the windows of Macy’s stores:Macys.com needs to have competitive access to capital, the ability to attract additional top talent, and the agility of modern online fashion to best serve its customers.This is the GameStop strategy.[2] GameStop Corp. became the great meme stock of 2021, partly through some promising business developments but mostly through somewhat out-of-the-blue Reddit enthusiasm. But because it was a meme, it had huge business advantages in terms of “competitive access to capital” and “ability to attract additional top talent.” I  wrote in June:A year ago, GameStop’s stock closed at $5.07 per share, down 7% year-over-year, and it was not hiring talent from Amazon or raising a billion dollars by selling stock. Yesterday, GameStop’s stock closed at $302.56, up 5,867% year-over-year, and it is. … This is as close as you’re ever going to come to a company’s stock going up 5,000% in a few months for no reason. Seems like that might be good for business! If you can make your stock go up for dumb reasons, you can sell stock for a lot of money and use the money to do good things that make your stock go up for good reasons. Though honestly that is not too relevant to the activist investor, who can just sell when the stock goes up for the dumb reasons. “Do crypto and electric-vehicle memes” is to 2021 activism what “do stock buybacks” was to 2016 activism. They’re a little short-termist! But they’re what the market wants.I suppose the value added by the activist here is, like … credibility? Again, I think that if you are the CEO of a public company you should absolutely go around getting in Twitter fights and not wearing pants and talking about crypto. But if you go to your board of directors with this strategy they will say “what?” and you will say “this is what shareholders like these days” and they will say “what?” and you will say “look at these comments I found on Reddit” and they will say “what?” and it will not necessarily be the productive conversation you want. Whereas if an activist sends a company a letter saying “do the crypto thing” then that is tangible evidence that your shareholders — your real, professional, institutional shareholders — want you to start memeing it up. What are you waiting for?
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in saying things about electric cars
-    
-  
+
+
 Look the important thing is to say things about electric cars:Tesla Inc. and Hertz Global Holdings Inc. are negotiating over how quickly Hertz will receive deliveries from a bulk order of 100,000 Tesla electric cars for its rental fleet, according to people familiar with the matter.Hertz on Oct. 25 said it had placed “an initial order of 100,000 Teslas by the end of 2022.” The press release included no statement from Tesla and Tesla Chief Executive Elon Musk on Monday raised doubt about the deal when he tweeted that no contract had been signed yet.Some Tesla officials were surprised by how quickly Hertz said the order would be filled and had been expecting to deliver roughly 10,000 vehicles a year to Hertz, one of the people said. Another one of the people said the press release was shared with Tesla representatives. Wall Street expects Tesla to deliver nearly 900,000 vehicles globally this year.The two companies are hammering out details of a deal that would specify the timing of deliveries, the people said. Tesla is still expected to supply the 100,000 vehicles at the list price to Hertz, with timing of the deliveries being the key issue, the people said.I remain mostly untroubled by this; as I  wrote the other day, if Hertz wants to buy 100,000 Teslas at the full retail price, it can just go on Tesla’s website and click “buy” 100,000 times. Hertz wants the cars and Tesla wants the money, it’s fine.The problem is that Tesla still can’t make cars fast enough to satisfy all of its customers, and adding 100,000 cars to the backlog is going to exacerbate that problem, but for Tesla that’s a fairly a nice problem to have. For Hertz it’s a less nice problem to have — they have to wait for the cars — but the benefit of saying “we are buying a ton of Teslas” accrues mostly when you say it, not when you take delivery. They got to announce it; the rest is details.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 One way to tell the story of Credit Suisse Group AG and Archegos Capital Management is that Archegos was a big hedge fund, Credit Suisse loaned it a lot of money to buy stocks, the stocks went down, Archegos didn’t pay back the money, Credit Suisse lost billions of dollars, and in penance it is shutting down its business of lending money to hedge funds and instead shifting its focus to helping rich people manage their money. That version of the story is almost true. Bloomberg News  reports today:Credit Suisse Group AG will exit the hedge fund business at the heart of the Archegos Capital Management scandal and shift more resources to wealth management as it seeks to draw a line under a tumultuous year.The bank is discontinuing most prime brokerage after the implosion of Bill Hwang’s family office cost it billions of dollars and is moving about $3 billion of capital from the investment bank to the private bank. The Swiss lender is also simplifying its structure into four divisions, including a single unit that groups together its wealth management businesses, as reported earlier this week by Bloomberg. Chairman Antonio Horta-Osorio has spent the past six months conducting a root-and-branch review of Credit Suisse after disastrous risk lapses wiped out billions in profit, plunged the bank into crisis and led to an overhaul of top management. He stopped short of the radical changes that characterised Deutsche Bank AG’s overhaul three years ago, electing to pare back areas that backfired while investing in the more stable businesses of helping the world’s wealthy manage their fortunes. But my first sentence is not quite true. There is one small inaccuracy, which is that Archegos was not actually a big hedge fund.[3] Functionally, it was a big hedge fund: It was big ($20 billion of assets at its peak), it was run by a former “Tiger Cub” hedge fund manager (Hwang), and its relationship with Credit Suisse was through the prime brokerage division that finances hedge funds. But actually it was a big family office. It was not a hedge fund; it did not manage money for outside clients. It managed Bill Hwang’s fortune. A family office, particularly at that scale, is not quite the same thing as a rich person’s personal brokerage account; Archegos had well-paid professional employees (with, presumably, some of their own money invested in Archegos) and its own legal entity and so forth. But it is kind of like a rich person’s personal brokerage account, in that Hwang called the shots, answered to no one but himself, and managed the money basically to fund his own lifestyle and philanthropy. Presumably Credit Suisse’s very best wealth managers, its top experts at “helping the world’s wealthy manage their fortunes,” had relationships with billionaires who were not so different from Hwang in terms of wealth or financial sophistication or risk appetite or the trades they were doing. They just came in through the “wealth management” door rather than the “prime brokerage” door.[4]We have  talked in detail about the failures of risk management that led Credit Suisse to lose $5.5 billion lending money to Bill Hwang. They were essentially not intellectual failures but social failures. Credit Suisse did not fail to understand the risk of its loans. It understood the risks perfectly, knew that it needed more collateral, but dragged its feet in asking for that collateral and, when it did ask, allowed Archegos to drag its feet in responding. That is in some sense just how banks behave sometimes with big lucrative clients: “If we don’t get this collateral we might lose billions on a catastrophic collapse” sounds bad when I type it here, but when stocks are going up it feels somewhat abstract to the relationship manager, whereas “if I call the client and ask for more collateral he will be annoyed and say cutting things and our five-minute conversation will be painfully awkward and then I’ll feel bad all afternoon” feels very real and immediate. Plus the client might say no and take his business elsewhere! Then the relationship manager might get fired! Exactly as fired as she’d be if the bank lost billions on a catastrophic collapse! Incentives!I suppose you can wonder: If instead of showing up at the door of Credit Suisse’s prime brokerage division with a  $200 million family office that he eventually grew to $20 billion, Hwang had shown up at the door of Credit Suisse’s private bank with a $200 million family fortune and asked for some help growing it to $20 billion — help like, say, getting leverage on single-stock bets through total return swaps — what would have been different? Would Credit Suisse have said “no, we don’t do that kind of leverage for our private wealth customers, but can we interest you in  some Greensill notes?” Would it have given Hwang some leverage but, as his positions grew into the billions, would it have said “hey this is our biggest and most levered private wealth client, let’s dial that back a bit”? Whereas he went strangely unnoticed in the hedge fund business? I don’t know the answer. My general impression is that banks have more tools to deal strictly with private wealth clients than with big hedge funds: Hedge funds often deal with banks on terms of rough equality, demanding two-way collateral posting and objective marks and so forth, while private wealth clients are sort of fancy retail clients who are more subject to the bank’s risk-management whims. On the other hand my impression is that bankers who deal with private wealth clients are mostly in the business of getting more business, and lean into, like, wining and dining and flattering and pitching their clients, while the traders and prime brokers who deal with hedge funds are usually a bit more in the business of risk management and think more about protecting themselves from their customers. So in general it could go either way, though in Hwang’s particular case it is hard to see how private wealth could have been more obsequious than prime brokerage was. It could have had lower leverage limits though.Anyway I guess the point is that it is tempting to say “Credit Suisse’s lending-to-hedge-funds business lost a zillion dollars so it is shutting that down and focusing on the business of helping rich people get richer.” But those businesses are not so different from each other!
-  
-    
+
+
       Banking culture
-    
-  
+
+
 Would you say that right now is a boom time for investment banks? I am not sure. Statistically it seems like the answer is yes. The big banks are  as profitable as they have ever been. The New York securities industry bonus pool — a decent proxy for Wall Street pay — for 2020 was the third-highest ever, behind only 2006 and 2007, which were indisputably boomy years. Also people are busy. Mergers and underwritings and SPAC deals are all active; activity leads to money.And yet. Anecdotally, when I talk to my friends who are still in banking, they complain that the compensation and the sense of fun aren’t what they used to be. Arguably all bankers have said that forever, but it does seem like, on a relative basis, investment banks do not have the swagger that they had in 2006 and 2007. Post-crisis reforms have turned the big investment banks into regulated bank holding companies and moved some of the most swaggery businesses out of the banks; you can’t really run a private equity fund or a prop trading desk at a bank anymore.Meanwhile the big tech companies have taken over the banks’ prominent cultural position of, like, “rich and evil.” I worked at Goldman Sachs Group Inc. from 2007 to 2011, and I do think that part of the appeal at the time was that everyone hated us. “A great vampire squid wrapped around the face of humanity, relentlessly jamming its blood funnel into anything that smells like money” is, in its way, kind of flattering! Now that’s just Facebook though. (Sorry, Meta Platforms Inc.) People might still hate Goldman when they think about it, but mostly they don’t.Also the crypto industry is now the leading place to make quick inexplicable fortunes from financial innovation. Also Goldman Sachs is doing consumer banking and retail robo-advising. It’s all fine, just fine, these are public companies managing to a solid return on equity for their shareholders. They used to be something else though.On the other hand this is some absolute boom-time behavior:When one Citi analyst informed a superior by email that he’d caught COVID and was heading to the hospital, the VP replied and gave him a new assignment. “No time off. He was like, ‘Oh, thanks for letting me know. I actually have a staffing for you.’”I have heard stories like that before, but those were 2007 stories. Those were stories of “money was pouring down on us in torrents and we needed every available person to grab a bucket and collect it.” Those were stories of seniors saying to juniors, look, I love money, and you love money, and there is so much money, you gotta get some money in the hospital. Obviously the juniors were not happy about it! Because it is terrible. But it was in a sense the bargain they had made. Later they would be handed a pile of money and feel pleased.That anecdote is from this Jen Wieczner story in Intelligencer about the complaints of junior investment bankers, at Goldman and Citi and elsewhere, over the last year or so. The best-known of these complaints was the Goldman PowerPoint in which junior analysts complained that they were being abused; one said “I’ve been through foster care and this is arguably worse.” Wieczner reports on the reaction:In the middle and higher echelons of Goldman, the analysts’ plight received little sympathy. Randy Habeeb was working as a trader in the bank’s New York office when the PowerPoint leaked. “To be honest with you, I was actually really pissed,” he told me. “It’s kind of like an unwritten code that you just don’t talk about it. You kind of just man up and do it.” He’s since left Goldman to start his own firm, Habeeb Capital, where he sits in front of a faux-grass wall and keeps on his desk a mug with the words “F***er in Charge of You F***ing F***s.” Even the survey’s most disturbing allegations failed to resonate with longtime bankers. “I haven’t been in foster care,” said a former Goldman executive, who started as an analyst. “But that struck me as somewhat dramatic. Either highly dramatic, or they had a great foster-care experience!”Well. Look. That's mean. But if it’s like “this is the unavoidable price of admission to an elite club of vast wealth and influence” then you can kind of see where they’re coming from. But Habeeb left! The club is just, meh, whatever. Wieczner writes:This year’s raises brought the starting salary for investment bankers to at least $100,000, not including annual bonuses, which often double their total compensation.And yet it’s not at all clear that the extra lucre has restored equilibrium to the investment-banking bargain — a job that has always sucked and always paid well enough to convince hordes of Ivy Leaguers to apply anyway. On top of salary and bonus, analyst posts have traditionally offered a chance to see how Wall Street operates up close before providing off-ramps to sweet gigs in hedge funds and private equity. Today, all three of these major perks are less compelling than they were just a few years ago. Tech pays better; the pandemic has deprived analysts of observing much of anything; and banking experience is not remotely a prerequisite to enter the hottest sectors in finance, namely venture capital and crypto.For many new investment bankers, the deal they struck for their first two years out of college is looking like an increasingly out-of-the-money trade.What if investment banking has become not a golden ticket but a normal job, except it’s a normal job with 120-hour weeks and a culture of weird macho hazing? That seems bad.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Zillow’s Flipping Halt Marks  Major Collapse in Housing Push. Sequoia borrows Wall Street’s playbook in chase for ‘permanent capital.’ SoftBank’s $100 Billion Fund for Startups  Pays Too Little to Retain Top Talent. Hertz Files for Stock Offering, Applies to Return to Nasdaq. Options Activity Tied to Avis, Meme Stocks Explodes.  Shiba Whale Wallet With Billions Captivates Sleuths. China Is Blowing Up One of the World’s Most Lucrative  Bond Bets. Where Investors Go for the Best Corporate Access. Cathie Wood’s Ark Dumps 3.9 Million  Zillow Shares. What ESG Investing and Ozy Media Have in Common. Yacht Full of Climate Scientists Plots  Giant Sea Gate to Save Manhattan. Crypto Investors Buy 40 Acres of Land in Wyoming to Build Blockchain City. South Carolina lottery drawing comes up 7-7-7-7, record number of tickets win.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] “NuOrion Advisors is a private investment firm that makes direct investments in undervalued corporate fallen angels that can regain their economic strength,” says its press release. The Wall Street Journal described it in connection with an activist situation at Avon Products Inc. in 2015: “NuOrion was formed in 2014 to invest in troubled companies. Its investments are funded by wealthy families on a deal-by-deal basis. It was founded by Guy Phillips, former head of the global consumer and retail investment-banking business at UBS Group AG, who first approached Barington with the idea of investing in Avon.”[2] Except that GameStop did not really choose to become a meme stock; that just sort of happened exogenously. Arguably this is the *Tesla* strategy: Do memes, get a retail following, sell stock, etc. But it is also the AMC strategy. It’s  the Microstrategy strategy. CEOs understand now that doing meme-y things can lower their cost of capital. [3] Arguably another inaccuracy is that I say that Credit Suisse loaned Archegos money to buy stocks, whereas in fact Archegos mostly bought those stocks synthetically through total return swaps with Credit Suisse, but again those are functionally the same thing.[4] One reason Hwang came in through that door is that he *used to* manage a big hedge fund — Tiger Asia — and so was sort of accustomed to that service. If you run a hedge fund and then return all your outside money to manage your own wealth, that’s a “family office,” but everyone still treats it like a hedge fund.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

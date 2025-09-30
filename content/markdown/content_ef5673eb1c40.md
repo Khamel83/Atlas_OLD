@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"06\/02\/2016","content_publish_time":"14:49","content_last_update_date":"09\/27\/2017","content_last_update_time":"16:46","contentcategory":"Crowdsourcing,Music,Weddings","section_1":"culture","section_2":"culture:music","story_title":"The Ultimate Wedding Playlist","story_id":116982,"author":"Walt Hickey","page_name":"fivethirtyeight:culture:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Crowdsourcing","Music","Weddings"],"word_count":1484},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>The Ultimate Wedding Playlist | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":116982,"section":"culturemusic","seg_a
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The Ultimate Wedding Playlist" />
@@ -204,7 +204,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -223,13 +223,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											The Ultimate Wedding Playlist									</div>
 				<a href="https://fivethirtyeight.com/features/the-ultimate-wedding-playlist/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/the-ultimate-wedding-playlist/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -293,7 +293,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -302,7 +302,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -319,7 +319,7 @@ display: none;
 								<time class="datetime updated" title="2016-06-02T18:49:49+00:00">2:49 PM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									The Ultimate Wedding Playlist								</h1>
@@ -329,10 +329,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/walt-hickey/" title="" class="author url fn" rel="author">Walt Hickey</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/music/" class="term " name="">Music</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -345,7 +345,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?w=1150 2x">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg 1280w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2016/06/gettyimages-554372759.jpg?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -356,9 +356,9 @@ display: none;
 <figcaption class="caption featured-image-caption">
 													<p class="credits">Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>In early May, I <a href="https://fivethirtyeight.com/features/help-us-make-the-ultimate-wedding-playlist/">asked</a> FiveThirtyEight readers to send in their wedding reception set lists, and good God, did you deliver. I received 163 playlists<span class="espn-footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&lt;p&gt;The response was so great that I’m being a bit choosy with what we’re including here: I pulled playlists that have been played (or will be played) during the dance portion of a wedding reception. Thank you also to all the DJs who sent in their generic set list — I plan to write a separate story on that data.&lt;/p&gt;
 "><sup id="ss-1">1</sup></span> with 9,281 songs among them.</p>
@@ -967,7 +967,7 @@ display: none;
 <p>My first thought was that different songs get phased out <a href="https://www.youtube.com/watch?v=0ONY-RzqB7E">survival-of-the-fittest style</a>. In 10 years’ time, perhaps “Low” will be the sole vestige of 2007, and its contemporaries — “Cupid Shuffle,” “<a href="http://imgur.com/6E5mj2p">Paper Planes</a>” and “Electric Feel” — will be lost to time. But then I saw the distribution of release years, and I contrived a new theory.</p>
 <figure id="attachment_116992" class="wp-caption alignnone" style="">
 					<img decoding="async" class="size-full wp-image-116992" src="https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png" alt="hickey-weddingplaylist-1" width="575" height="576" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=75,75 75w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=300,300 300w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=768,769 768w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=1022,1024 1022w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=511,512 511w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=431,432 431w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=351,352 351w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=225,225 225w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=449,450 449w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=260,260 260w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=160,160 160w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=575,576 575w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=155,155 155w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=100,100 100w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=60,60 60w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=686,687 686w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=150,150 150w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=75,75 75w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=300,300 300w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=768,769 768w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=1022,1024 1022w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=511,512 511w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=431,432 431w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=351,352 351w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=225,225 225w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=449,450 449w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=260,260 260w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=160,160 160w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=575,576 575w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=155,155 155w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=100,100 100w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=60,60 60w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=686,687 686w, https://fivethirtyeight.com/wp-content/uploads/2016/06/hickey-weddingplaylist-1.png?resize=150,150 150w"></figure>
-		
+
 <p><span style="line-height:1.5;">There are peaks centering on the mid-1960s, the early 1980s and (obviously) the last few years. Now, I don’t have any hard proof for this theory besides [expressively waves hand at that chart], but here’s what I think is causing the funky trimodal distribution above: Everyone at the wedding — the couple, their parents, their parents’ parents — gets a few songs from when they were in their late teens and early 20s. Let’s do some back-of-the-napkin math. According to the U.S. census, the </span><a style="line-height:1.5;" href="http://www.census.gov/hhes/families/files/graphics/MS-2.pdf">median age at first marriage</a><span style="line-height:1.5;"> for the bride is about 27, so for a 2016 wedding, we can approximate that she was born around 1989. That means her parents would have gotten married in the late 1980s — let’s just say 1986. Mom would have been 22 or so back then based on the census data, which would place her birth around 1964. That would put the 2016 bride’s grandparents’ wedding around the early 1960s, when the median marriage age for women was 20.</span></p>
 <p>So it isn’t so much that “‘Uptown Funk’ will be absent from weddings within 10 years,” but rather “‘Uptown Funk’ may be absent from weddings within 10 years, but it could make a hell of a comeback in 25 years when the 2016 couple’s offspring starts getting married.”</p>
 <p>In the end, receptions are another reflection of the whole point of weddings: starting something new and uncertain and kind of frightening, but beginning it in something traditional and established and fundamentally familiar. As the old saying goes, “something old, something new, something borrowed, <a href="https://www.youtube.com/watch?v=IYH7_GzP4Tg">to the window, to the wall, ’til the sweat</a> … [redacted],” or some crap like that.</p>

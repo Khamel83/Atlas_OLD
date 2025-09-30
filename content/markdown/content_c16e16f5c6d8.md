@@ -9,24 +9,24 @@
 <html lang="en">
 
 <head>
-  
+
         <meta charset="utf-8"/>
 	    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
 	    <meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" href="/content/dam/prnewswire/icons/2019-Q4-PRN-Icon-32-32.png" type="image/png"/>
     	<meta name="adobeLaunchScript" content="//assets.adobedtm.com/launch-ENb957f6e7383d4549b191e1190ed5476e.min"/>
 		<script type="text/javascript" src="https://widgets.financialcontent.com/cision/stockquote.js" async></script>
 
-<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script> 
-    
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
 <link rel="stylesheet" href="/etc.clientlibs/prncom/clientlibs/newspage-clientlibs.min.css" type="text/css">
 
 <meta itemprop="description" content="/PRNewswire/ -- SiriusXM Holdings Inc. (NASDAQ: SIRI), the leading audio entertainment company in North America, announced today that its subsidiary, Sirius XM..."/>
     <meta name="description" content="/PRNewswire/ -- SiriusXM Holdings Inc. (NASDAQ: SIRI), the leading audio entertainment company in North America, announced today that its subsidiary, Sirius XM..."/>
     <meta itemprop='inLanguage' http-equiv='Content-Language' content="en-US"/>
-    
-    
+
+
         <link rel="icon" href="/content/dam/prnewswire/icons/2019-Q4-PRN-Icon-32-32.png" type="image/png"/>
-    
+
     <title>SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts</title>
     <meta name="author" content="Sirius XM Holdings Inc."/>
     <meta name='Publisher' content="Cision PR Newswire"/>
@@ -43,53 +43,53 @@
     <meta itemprop="keywords" content="Sirius XM Holdings Inc."/>
     <meta name="keywords" content="Sirius XM Holdings Inc."/>
     <meta name="twitter:card" content="summary_large_image"/>
-    
-    
+
+
         <meta name="twitter:site" content="@PRNewswire"/>
-    
+
     <meta name="twitter:title" content="SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts"/>
     <meta name="twitter:description" content="/PRNewswire/ -- SiriusXM Holdings Inc. (NASDAQ: SIRI), the leading audio entertainment company in North America, announced today that its subsidiary, Sirius XM..."/>
-    
+
         <meta name="twitter:image" content="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=twitter"/>
-    
+
     <meta property="og:title" content="SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts"/>
     <meta property="og:type" content="articles"/>
     <meta property="og:description" content="/PRNewswire/ -- SiriusXM Holdings Inc. (NASDAQ: SIRI), the leading audio entertainment company in North America, announced today that its subsidiary, Sirius XM..."/>
-    
-        
-            
+
+
+
                 <meta property="og:image" content="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=facebook"/>
-            
+
                 <meta property="og:image" content="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=facebook"/>
-            
+
                 <meta property="og:image" content="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=facebook"/>
-            
-        
-    
-    
-    
+
+
+
+
+
         <meta name="assetURLS" content="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg"/>
-    
+
         <meta name="assetURLS" content="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg"/>
-    
-     
+
+
     <meta property="og:url" content="https://www.prnewswire.com/news-releases/siriusxm-and-audio-up-inc-enter-into-creative-and-strategic-agreement-to-develop-new-original-scripted-podcasts-and-audio-entertainment-concepts-301396824.html"/>
 
 <meta name="robots" content="index, follow, max-image-preview:large"/>
-                    
-                    
-                    
-                
-                
+
+
+
+
+
                 <link rel="canonical" href="https://www.prnewswire.com/news-releases/siriusxm-and-audio-up-inc-enter-into-creative-and-strategic-agreement-to-develop-new-original-scripted-podcasts-and-audio-entertainment-concepts-301396824.html"/>
 
 <meta id="sharingTitle" content="SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts"/>
     <meta id="sharingDesc" content="Audio Up Completes $12 Million Fundraising Effort - Current Round Led by SiriusXM"/>
-     
-    
-    
+
+
+
     <!-- Additional Authorable Meta tags -->
-    
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -116,9 +116,9 @@
             }
         }
     </script>
- 
+
 			 	<style>
-			 		
+
 /* Style Definitions */
 span.prnews_span
 {
@@ -161,28 +161,28 @@ margin:0in;
     <div class="container">
         <nav class="navbar navbar-junior" aria-label="primary">
                 <div>
-                    
-                        
-                        <ul class="nav navbar-nav"> 
+
+
+                        <ul class="nav navbar-nav">
                                 <li>
                                 <a href="/resources/" target="_self">Resources</a>
-                              </li> 
+                              </li>
                                 <li>
                                 <a href="/resources/articles/" target="_self">Blog</a>
                               </li> <li>
                            <a href="https://prnmedia.prnewswire.com/" target="_blank">Journalists</a>
                              </li>
                                   </ul>
-                    
-                    
-                        
+
+
+
                       <ul class="nav navbar-nav navbar-right"><li>
                                            <a href="https://app.prnewswire.com/login/auto" target="_blank">Client Login</a>
                                      </li>   <li class="bg-brand-secondary ">
                                     <a href="https://www.prnewswire.com/account/online-membership-form/" target="_self">Send a Release</a>
                                 </li>
                                  </ul>
-                    
+
                 </div>
         </nav>
     </div>
@@ -193,44 +193,44 @@ margin:0in;
                 <div class="navbar-header">
 
 <a class="navbar-brand" href="/" target="_self">
-        
-        
-            
+
+
+
             <img class="img-responsive " src="/content/dam/prnewswire/homepage/prn_cision_logo_desktop.png" title="Return to PR Newswire homepage" alt="Return to PR Newswire homepage" loading="lazy" onerror="this.onerror=null; this.src=''"/>
-            
-            
-        
+
+
+
     </a>
                </div>
                <div>
 
 <ul class="nav navbar-nav">
-		
+
 			<li class="dropdown" id="news">
-				
-				
+
+
 					<a href="/news-releases/" target="_self" data-subnav="news">News</a>
-				
+
 			</li>
-		
+
 			<li class="dropdown" id="products">
-				
-				
+
+
 					<a href="/products/overview/" target="_self" data-subnav="products">Products</a>
-				
+
 			</li>
-		
+
 			<li class="dropdown" id="contact">
-				
-				
+
+
 					<a href="/contact-us/" target="_self" data-subnav="contact">Contact</a>
-				
+
 			</li>
-		
+
 	</ul>
 
 </div>
-				
+
                     <div>
 
 <script>
@@ -238,24 +238,24 @@ margin:0in;
 			siteSearchProperties = JSON.parse(siteSearchProperties);
 		</script>
 	   		<div id="sitesearch">
-	   		
+
 
 	 <div class="pull-right">
           <button data-toggle="modal" data-target="#search-modal" class="search_btn">
               Search<span aria-hidden="true" class="btr bt-search bt-lg text-muted"></span>
-             
-             
+
+
             <input type="hidden" id="pathPrefix" name="pathPrefix"/>
             <input type="hidden" id="siteValue" name="siteValue" value="prnewswire"/>
             <input type="hidden" id="langValue" name="langValue" value="en"/>
         </button>
      </div>
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
 
 <div class="modal fade modal-qs-search" id="search-modal" tabindex="-1">
           <div role="dialog" aria-modal="true" aria-label="Search" class="modal-dialog modal-lg">
@@ -312,7 +312,7 @@ margin:0in;
 
                         <div id="eraResponseJson"> </div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -320,123 +320,123 @@ margin:0in;
             </div>
           </div>
         </div>
-	
+
 	   		</div>
 
 </div>
-				
+
            </nav>
-           
+
     </div>
 </section>
 
 <div class="navigation-menu" id="sub-nav-tier" style="display: none;">
                     <div class="nav-subnav hidden-xs">
 						<div class="container">
-							
-								
+
+
 									<nav class="navbar news" id="mainNav-news" style="display: none;" aria-label="news">
 
 <ul class="nav nav-pills tier-two  ">
-    
-      
-        
-          
-          
-          
+
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="1-submenu" title="News in Focus"> News in Focus </a>
-              
-                
-                  
+
+
+
                   <ul class="dropdown-menu tier-three" id="1-submenu">
                     <li class="row">
                       <div class="col-sm-12">
                         <div class="nav-list-item">
-                          
-	
-	
-	
-	
-		
-		
-			
+
+
+
+
+
+
+
+
 				<div class="col-sm-4">
 					<ul class="nav-tier col_item col_item_list2">
 						<li><h2><a href="/news-releases/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | News in Focus | Browse News Releases&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}" class="media-heading omniture-subnav" style="font-weight:bold">Browse News Releases</a></h2></li>
-						
-							
-							
-	
+
+
+
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/news-releases-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All News Releases
 			</a>
 		</li>
-	
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/all-public-company-news/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All Public Company
 			</a>
 		</li>
-	
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/english-releases/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">English-only
 			</a>
 		</li>
 
 <li><h2><a class="media-heading omniture-subnav" href="/news-releases/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | News in Focus | Browse News Releases | News Releases Overview&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">News Releases Overview</a></h2></li>
-								
-							
-							
-						
-						
-						
+
+
+
+
+
+
 					</ul>
 				</div>
-			
-		
-			
+
+
+
 				<div class="col-sm-4">
 					<ul class="nav-tier col_item col_item_list2">
 						<li><h2><a href="/news-releases/multimedia/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | News in Focus | Multimedia Gallery&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}" class="media-heading omniture-subnav" style="font-weight:bold">Multimedia Gallery</a></h2></li>
-						
-							
-							
-	
+
+
+
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/multimedia/multimedia-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All Multimedia
 			</a>
 		</li>
-	
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/photos/photos-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All Photos
 			</a>
 		</li>
-	
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/videos/videos-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All Videos
 			</a>
 		</li>
 
 <li><h2><a class="media-heading omniture-subnav" href="/news-releases/multimedia/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | News in Focus | Multimedia Gallery | Multimedia Gallery Overview&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}"> Multimedia Gallery Overview</a></h2></li>
-								
-								
-							
-							
-						
-						
-						
+
+
+
+
+
+
+
 					</ul>
 				</div>
-			
-		
-			
+
+
+
 				<div class="col-sm-4">
 					<ul class="nav-tier col_item col_item_list2">
 						<li><h2><a href="/news-releases/latest-news-topics/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | News in Focus | Trending Topics&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}" class="media-heading omniture-subnav" style="font-weight:bold">Trending Topics</a></h2></li>
-						
-							
-							
-	
+
+
+
+
 		<li>
 			<a class="omniture-subnav" href="/news-releases/latest-news-topics/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">All Trending Topics
 			</a>
@@ -449,21 +449,21 @@ margin:0in;
                       </div>
                     </li>
                   </ul>
-                
-              
-              
+
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="2-submenu" title="Business &amp; Money"> Business &amp; Money </a>
-              
-              
-                
-                  
+
+
+
+
                   <ul class="dropdown-menu tier-three">
     <li class="row">
         <ul class="nav-tier">
@@ -562,20 +562,20 @@ margin:0in;
         </a></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/general-business-latest-news/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Business &amp; Money | General Business | General Business Overview &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">General Business Overview</a></h2></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/general-business-latest-news/general-business-latest-news-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Business &amp; Money | General Business | View All General Business  &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">View All General Business </a></h2></li></ul>
     </li>
 </ul>
-                
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="3-submenu" title="Science &amp; Tech"> Science &amp; Tech </a>
-              
-              
-                
-                  
+
+
+
+
                   <ul class="dropdown-menu tier-three">
     <li class="row">
         <ul class="nav-tier">
@@ -653,20 +653,20 @@ margin:0in;
         </a></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/telecommunications-latest-news/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Science &amp; Tech | Telecomm­unications | Telecomm­unications Overview &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">Telecomm­unications Overview</a></h2></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/telecommunications-latest-news/telecommunications-latest-news-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Science &amp; Tech | Telecomm­unications | View All Telecomm­unications  &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">View All Telecomm­unications </a></h2></li></ul>
     </li>
 </ul>
-                
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="4-submenu" title="Lifestyle &amp; Health"> Lifestyle &amp; Health </a>
-              
-              
-                
-                  
+
+
+
+
                   <ul class="dropdown-menu tier-three">
     <li class="row">
         <ul class="nav-tier">
@@ -743,20 +743,20 @@ margin:0in;
         </a></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/travel-latest-news/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Lifestyle &amp; Health | Travel | Travel Overview &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">Travel Overview</a></h2></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/travel-latest-news/travel-latest-news-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Lifestyle &amp; Health | Travel | View All Travel  &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">View All Travel </a></h2></li></ul>
     </li>
 </ul>
-                
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="5-submenu" title="Policy &amp; Public Interest"> Policy &amp; Public Interest </a>
-              
-              
-                
-                  
+
+
+
+
                   <ul class="dropdown-menu tier-three">
     <li class="row">
         <ul class="nav-tier">
@@ -786,20 +786,20 @@ margin:0in;
         </a></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/policy-public-interest-latest-news/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Policy &amp; Public Interest | Policy &amp; Public Interest | Policy &amp; Public Interest Overview &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">Policy &amp; Public Interest Overview</a></h2></li><li><h2><a class="media-heading omniture-subnav" href="/news-releases/policy-public-interest-latest-news/policy-public-interest-latest-news-list/" data-omniture="{&quot;SubNavigationLink&quot;:&quot;NR | Policy &amp; Public Interest | Policy &amp; Public Interest | View All Policy &amp; Public Interest  &quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">View All Policy &amp; Public Interest </a></h2></li></ul>
     </li>
 </ul>
-                
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class="nav-dropdown dropdown fw nav-title">
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" tabindex="0" aria-expanded="false" aria-controls="6-submenu" title="People &amp; Culture"> People &amp; Culture </a>
-              
-              
-                
-                  
+
+
+
+
                   <ul class="dropdown-menu tier-three">
     <li class="row"> <div class="col-sm-12">
         <ul class="nav-tier"><li><h2><a href="/news-releases/multicultural-latest-news/" class="media-heading omniture-subnav" data-omniture="{&quot;SubNavigationLink&quot;:&quot;&quot;,&quot;FormSubNavBar&quot;:&quot;true&quot;}">People &amp; Culture</a></h2></li>
@@ -910,193 +910,193 @@ margin:0in;
                 <a href="/sv/pressmeddelanden/" class="omniture-subnav" target="_self" data-omniture="">Sverige
 				</a>
             </li>
-        
-    
+
+
 </ul>
-            
+
     </div>
     </li>
 </ul>
-                
-              
+
+
             </li>
-          
-        
-        
-          
-        
-      
-      
-      
-      
-    
+
+
+
+
+
+
+
+
+
+
   </ul>
 
 </nav>
-								
+
 									<nav class="navbar products" id="mainNav-products" style="display: none;" aria-label="products">
 
 <ul class="nav nav-pills tier-two  ">
-    
-      
-      
-        
-          
-          
-          
+
+
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/products/overview/" class="omniture-sub-menu" title="Overview" target="_self" aria-current="false">Overview</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/pr-distribution-and-placement/" class="omniture-sub-menu" title="Distribution by PR Newswire" target="_self" aria-current="false">Distribution by PR Newswire</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/ai-press-release/" class="omniture-sub-menu" title="AI Tools" target="_self" aria-current="false">AI Tools</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/multichannel-amplification/" class="omniture-sub-menu" title="Multichannel Amplification" target="_self" aria-current="false">Multichannel Amplification</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/guaranteed-paid-placement/" class="omniture-sub-menu" title="Guaranteed Paid Placement" target="_self" aria-current="false">Guaranteed Paid Placement</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/socialboost/" class="omniture-sub-menu" title="SocialBoost" target="_self" aria-current="false">SocialBoost</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/products/all-products/" class="omniture-sub-menu" title="All Products" target="_self" aria-current="false">All Products</a>
-              
-              
+
+
             </li>
-          
-        
-      
-      
-      
-    
+
+
+
+
+
+
   </ul>
 
 </nav>
-								
+
 									<nav class="navbar contact" id="mainNav-contact" style="display: none;" aria-label="contact">
 
 <ul class="nav nav-pills tier-two  ">
-    
-      
-      
-      
-        
-          
-          
-          
+
+
+
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/contact-us/general-inquiries/" class="omniture-sub-menu" title="General Inquiries" target="_self" aria-current="false">General Inquiries</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/contact-us/editorial-bureaus/" class="omniture-sub-menu" title="Editorial Bureaus" target="_self" aria-current="false">Editorial Bureaus</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/contact-us/partnerships/" class="omniture-sub-menu" title="Partnerships" target="_self" aria-current="false">Partnerships</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/contact-us/media-inquiries/" class="omniture-sub-menu" title="Media Inquiries" target="_self" aria-current="false">Media Inquiries</a>
-              
-              
+
+
             </li>
-          
-        
-          
-          
-          
+
+
+
+
+
             <li class=" ">
-              
+
                 <a href="/contact-us/worldwide-offices/" class="omniture-sub-menu" title="Worldwide Offices" target="_self" aria-current="false">Worldwide Offices</a>
-              
-              
+
+
             </li>
-          
-        
-      
-      
-    
+
+
+
+
+
   </ul>
 
 </nav>
-								
-							
+
+
 						</div>
                     </div>
                 </div>
@@ -1115,12 +1115,12 @@ margin:0in;
                 </a>
             </li>
             <li>
-                
+
     <a class="navbar-brand" href="/" target="_self">
-        
-        
+
+
             <img class="img-responsive " src="/content/dam/prnewswire/homepage/prn_cision_logo_mobile.png" title="PR Newswire: news distribution, targeting and monitoring" alt="PR Newswire: news distribution, targeting and monitoring"/>
-        
+
     </a>
             </li>
         </ul>
@@ -1203,50 +1203,50 @@ margin:0in;
 </nav>
 
 <nav id="nav-mobile" aria-label="Mobile menu" role="dialog" aria-modal="true">
-    
+
 <div id="mm-panel-default" class="Panel">
     <ul id="mm-default">
 
 <li class="mm-footer">
-		
+
 		<a href="https://www.prnewswire.com/account/online-membership-form/" target="_self">Send a Release</a>
-		
-		
+
+
 		</li>
-    
+
          <li class="mm-footer">
-		
-		
+
+
 		<a href="https://app.prnewswire.com/login/auto" target="_blank">Client Login</a>
-		
+
 		</li>
-    
+
          <li class="mm-footer">
-		
+
 		<a href="/resources/" target="_self">Resources</a>
-		
-		
+
+
 		</li>
-    
+
          <li class="mm-footer">
-		
-		
+
+
 		<a href="/resources/articles" target="_blank">Blog</a>
-		
+
 		</li>
-    
+
          <li class="mm-footer">
-		
-		
+
+
 		<a href="https://prnmedia.prnewswire.com/" target="_blank">Journalists</a>
-		
+
 		</li>
-    
+
          <li class="mm-footer">
-		
+
 		<a href="/rss/" target="_self">RSS</a>
-		
-		
+
+
 		</li>
 
 <!-- <div data-sly-test="false" class="cq-placeholder" data-emptytext="edit the social component"></div>
@@ -1266,8 +1266,8 @@ margin:0in;
                   </a>
 
 </li>
-      
-      
+
+
     </ul>
 </div>
 
@@ -1278,405 +1278,405 @@ margin:0in;
 
 <li>
                     <span>News in Focus</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-  
-			
+
+
                     <li>
                         <a href="/news-releases/">Browse All News
                       </a>
                     </li>
-        
+
                     <li>
                         <a href="/news-releases/multimedia/">Multimedia Gallery
                       </a>
                     </li>
-        
+
                     <li>
                         <a href="/news-releases/latest-news-topics/">Trending Topics
                       </a>
                     </li>
-        
-    
+
+
 </ul>
-                    
+
                 </li>
 
 <li>
                     <span>Business &amp; Money</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-    
-        
-            
-                
-				  
+
+
+
+
+
                     <li>
                         <a href="/news-releases/automotive-transportation-latest-news/">Auto &amp; Transportation
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/business-technology-latest-news/">Business Technology
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/entertainment-media-latest-news/">Entertain­ment &amp; Media
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/financial-services-latest-news/">Financial Services &amp; Investing
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/general-business-latest-news/">General Business
                       </a>
                     </li>
-				  
-				  
-                
-            
-        
-    
+
+
+
+
+
+
 </ul>
-                    
+
                 </li>
 
 <li>
                     <span>Science &amp; Tech</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-    
-        
-            
-                
-				  
+
+
+
+
+
                     <li>
                         <a href="/news-releases/consumer-technology-latest-news/">Consumer Technology
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/energy-latest-news/">Energy &amp; Natural Resources
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/environment-latest-news/">Environ­ment
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/heavy-industry-manufacturing-latest-news/">Heavy Industry &amp; Manufacturing
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/telecommunications-latest-news/">Telecomm­unications
                       </a>
                     </li>
-				  
-				  
-                
-            
-        
-    
+
+
+
+
+
+
 </ul>
-                    
+
                 </li>
 
 <li>
                     <span>Lifestyle &amp; Health</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-    
-        
-            
-                
-				  
+
+
+
+
+
                     <li>
                         <a href="/news-releases/consumer-products-retail-latest-news/">Consumer Products &amp; Retail
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/entertainment-media-latest-news/">Entertain­ment &amp; Media
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/health-latest-news/">Health
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/sports-latest-news/">Sports
                       </a>
                     </li>
-				  
-				  
-                
-            
-                
-				  
+
+
+
+
+
+
                     <li>
                         <a href="/news-releases/travel-latest-news/">Travel
                       </a>
                     </li>
-				  
-				  
-                
-            
-        
-    
+
+
+
+
+
+
 </ul>
-                    
+
                 </li>
 
 <li>
                     <span>Policy &amp; Public Interest</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-    
-        
-    
+
+
+
 </ul>
-                    
+
                 </li>
 
 <li>
                     <span>People &amp; Culture</span>
-                    
-                        
+
+
                         <ul class="tier-three" data-section="news">
-    
-        
-            
-                
-				  
-				  
+
+
+
+
+
+
 				    <li>
-					  
+
                         <a href="/news-releases/multicultural-latest-news/">People &amp; Culture
                       </a>
-					  
+
                     </li>
                   <!--   <li>
                         <a href="#">In-Language News
                       </a>
                     </li>
 					-->
-				  
-                
-            
-        
-    
+
+
+
+
+
 </ul>
-                    
+
                 </li>
 
 <li class="mm-footer">
                            <a href="https://www.prnewswire.com/account/online-membership-form/" target="self">Send a Release</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://app.prnewswire.com/login/auto" target="self">Client Login</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/" target="self">Resources</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/articles" target="self">Blog</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://prnmedia.prnewswire.com/" target="self">Journalists</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/rss/" target="self">RSS</a>
                         </li>
-                    
-                
+
+
                 <li class="mm-footer mm-social">
-                    
-                        
+
+
                              <a aria-label="Visit our social media page on Twitter" href="https://twitter.com/PRNewswire" target="self">
                                 <i class="fab fab-twitter"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on Facebook" href="https://www.facebook.com/pages/PR-Newswire/26247320522" target="self">
                                 <i class="fab fab-facebook-alt"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on LinkedIn" href="https://www.linkedin.com/company/pr-newswire/" target="self">
                                 <i class="fab fab-linkedin-alt"></i>
-                            </a>                             
-                        
-                    
+                            </a>
+
+
                 </li>
             </ul>
         </div>
 
 <input type="hidden" class="mobile-nav-tabs" value="News" data-link="/news-releases/"/>
-    
+
         <div id="mm-panel-products" class="Panel parent-panel">
             <ul id="mm-products" role="tabpanel" data-section="Products">
 
 <li class="">
-                        
+
                             <a href="/products/overview.html" title="Overview" target="_self">Overview</a>
-                        
-                        
+
+
             </li>
 
 <li class="">
-                        
+
                             <a href="/pr-distribution-and-placement/" title="Distribution by PR Newswire" target="_self">Distribution by PR Newswire</a>
-                        
-                        
+
+
             </li>
 
 <li class="">
-                        
+
                             <a href="/ai-press-release/" title="AI Tools" target="_self">AI Tools</a>
-                        
-                        
+
+
             </li>
 
 <li class="">
-                        
+
                             <a href="/multichannel-amplification/" title="Multichannel Amplification" target="_self">Multichannel Amplification</a>
-                        
-                        
+
+
             </li>
 
 <li class="">
-                        
+
                             <a href="/socialboost/" title="SocialBoost" target="_self">SocialBoost</a>
-                        
-                        
+
+
             </li>
 
 <li class="">
-                        
+
                             <a href="/products/all-products.html" title="All Products" target="_self">All Products</a>
-                        
-                        
+
+
             </li>
 
 <li class="mm-footer">
                            <a href="https://www.prnewswire.com/account/online-membership-form/" target="self">Send a Release</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://app.prnewswire.com/login/auto" target="self">Client Login</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/" target="self">Resources</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/articles" target="self">Blog</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://prnmedia.prnewswire.com/" target="self">Journalists</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/rss/" target="self">RSS</a>
                         </li>
-                    
-                
+
+
                 <li class="mm-footer mm-social">
-                    
-                        
+
+
                              <a aria-label="Visit our social media page on Twitter" href="https://twitter.com/PRNewswire" target="self">
                                 <i class="fab fab-twitter"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on Facebook" href="https://www.facebook.com/pages/PR-Newswire/26247320522" target="self">
                                 <i class="fab fab-facebook-alt"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on LinkedIn" href="https://www.linkedin.com/company/pr-newswire/" target="self">
                                 <i class="fab fab-linkedin-alt"></i>
-                            </a>                             
-                        
-                    
+                            </a>
+
+
                 </li>
             </ul>
         </div>
 
 <input type="hidden" class="mobile-nav-tabs" value="Products" data-link="/products/overview.html"/>
-    
+
         <div id="mm-panel-contact" class="Panel parent-panel">
             <ul id="mm-contact" role="tabpanel" data-section="Contact">
 
@@ -1713,44 +1713,44 @@ margin:0in;
 <li class="mm-footer">
                            <a href="https://www.prnewswire.com/account/online-membership-form/" target="self">Send a Release</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://app.prnewswire.com/login/auto" target="self">Client Login</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/" target="self">Resources</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/resources/articles" target="self">Blog</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="https://prnmedia.prnewswire.com/" target="self">Journalists</a>
                         </li>
-                    
+
                         <li class="mm-footer">
                            <a href="/rss/" target="self">RSS</a>
                         </li>
-                    
-                
+
+
                 <li class="mm-footer mm-social">
-                    
-                        
+
+
                              <a aria-label="Visit our social media page on Twitter" href="https://twitter.com/PRNewswire" target="self">
                                 <i class="fab fab-twitter"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on Facebook" href="https://www.facebook.com/pages/PR-Newswire/26247320522" target="self">
                                 <i class="fab fab-facebook-alt"></i>
-                            </a>                             
-                        
+                            </a>
+
                              <a aria-label="Visit our social media page on LinkedIn" href="https://www.linkedin.com/company/pr-newswire/" target="self">
                                 <i class="fab fab-linkedin-alt"></i>
-                            </a>                             
-                        
-                    
+                            </a>
+
+
                 </li>
             </ul>
         </div>
@@ -1769,46 +1769,46 @@ margin:0in;
 	<input type="hidden" id="desktopImageWidth" name="desktopImageWidth" value="400"/>
 	<input type="hidden" id="logoWidth" name="logoWidth" value="200"/>
 	<input type="hidden" id="minCarouselWidth" name="minCarouselWidth" value="200"/>
-	
-	
-		
-		
-			
-			
-				
- 
-  
-    
+
+
+
+
+
+
+
+
+
+
     <article class="news-release inline-gallery-template">
-    
+
     <header class="container release-header">
       <div class="custom-container">
         <div class="row">
           <div class="col-sm-12">
-      
-	
-	
+
+
+
 		<div class="row detail-headline">
 			<div class="col-sm-8 col-vcenter col-xs-12 ">
-				
+
 					<h1>SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts
-						
-						
-						
+
+
+
 					</h1>
 
 <p class="subtitle">Audio Up Completes $12 Million Fundraising Effort - Current Round Led by SiriusXM</p>
-					
-				
+
+
 			</div>
-			
+
 				<div class="col-sm-4 col-xs-12 col-vcenter">
 					<div class="image logo logo-wrapper" data-src="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=publish" data-asset-type="photo" data-asset-label="Logo" data-download-url="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg" data-tweet-text="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" data-pinterest-text="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" data-linkedin-text="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" data-facebook-share-text="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" data-twitter-share-url="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=twitter" data-facebook-share-url="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=facebook" data-pinterest-share-url="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=publish" data-linkedin-share-url="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?p=linkedin" onclick="omniture_corousal('Carousel Page','Photo Open','https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg','Logo');">
 						<a role="button" href="#" class="tablogofocus">
 							<img class="img-responsive" title="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" data-getimg="https://mma.prnewswire.com/media/128150/sirius_xm_radio_logo.jpg?w=200" alt="SIRIUS XM logo. (PRNewsFoto/SIRIUS XM Radio)" loading="lazy"/></a>
 					</div>
 				</div>
-			
+
 		</div>
 
 </div>
@@ -1818,82 +1818,82 @@ margin:0in;
           <hr/>
         </div>
       </div>
-      
-	
-		 
-		 
-		
-		
-		
-		
+
+
+
+
+
+
+
+
 			<input type="hidden" id="isWhatsApp" value="enabled"/>
-		
+
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-7 swaping-class-left">
 				<h2 class="meta">News provided by</h2>
-				
-					
-						
-							
+
+
+
+
 								<a href="/news/sirius-xm-holdings-inc./">
-							
-						
+
+
 						<strong>Sirius XM Holdings Inc.
-							
-								
+
+
 									<span aria-hidden="true" class="btb bt-long-arrow-right"></span>
-								
-							
-							
+
+
+
 						</strong>
 						</a>
-					
-				
+
+
 				<p class="mb-no">Oct 11, 2021, 09:00 ET</p>
 			</div>
-			
+
 				<div class="col-lg-4 col-md-4 col-sm-5 swaping-class-right">
 
 <div class="social-share-circle pull-right hidden-xs">
 						<h2 class="meta text-uppercase mb-s">Share this article</h2>
 						<div class="social-links">
 							<ul class="list-unstyled">
-								
+
 									<a href="javascript:;" class="btn-facebook" aria-label="facebook sharing" onclick="sharing_url('facebook','top nav','www.prnewswire.com')">
 										<li class="social-facebook">
 											<span aria-hidden="true"><i class="fab fab-facebook-alt"></i></span>
 										</li>
 									</a>
-								
-								
+
+
 								<a href="javascript:;" class="btn-twitter" aria-label="twitter sharing" onclick="shareIt(this,'Twitter','top nav')" data-tweet-text="SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts" data-twitter-share-url="https://www.prnewswire.com/news-releases/siriusxm-and-audio-up-inc-enter-into-creative-and-strategic-agreement-to-develop-new-original-scripted-podcasts-and-audio-entertainment-concepts-301396824.html">
 									<li class="social-twitter">
 										<span aria-hidden="true"> <i class="fab fab-twitter"></i></span>
 									</li>
 								</a>
-								
+
 									<a href="javascript:;" class="btn-linkedin" aria-label="linkedin sharing" onclick="sharing_url('linkedin','top nav','www.prnewswire.com')">
 										<li class="social-linkedin">
 											<span aria-hidden="true"><i class="fab fab-linkedin-alt"></i></span>
 										</li>
 									</a>
-									
+
 										<a href="javascript:;" class="btn-whatsapp" aria-label="Whatsapp sharing" onclick="sharing_url('whatsapp','top nav','www.prnewswire.com')">
 											<li class="social-whatsapp">
 												<span aria-hidden="true"><i class="fab fab-whatsapp"></i></span>
 											</li>
 										</a>
-									
-									
+
+
 										<a href="javascript:;" class="btn-pinterest" aria-label="pinterest sharing" onclick="sharing_url('pinterest','top nav','www.prnewswire.com')">
 											<li class="social-pinterest">
 												<span aria-hidden="true"><i class="fab fab-pinterest"></i></span>
 											</li>
 										</a>
-									
-								
-								
-								
+
+
+
+
 								<a class="hidden-xs btn-email" href="javascript:;" aria-label="email sharing" onclick="sharing_url('Email','top nav','www.prnewswire.com')">
 									<li>
 										<span aria-hidden="true"> <i class="bts bt-envelope"></i></span>
@@ -1905,7 +1905,7 @@ margin:0in;
 								<div class="TCimg"><img src="data:image/jpg;base64,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" data-src="data:image/jpg;base64,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"/></div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 				<!-- Button trigger modal -->
@@ -1922,7 +1922,7 @@ margin:0in;
 								<p class="meta text-uppercase mb-s">Share this article</p>
 								<div class="social-links">
 									<ul class="list-unstyled">
-										
+
 											<a href="javascript:;" onclick="sharing_url('facebook','','www.prnewswire.com')">
 												<li class="social-facebook"><i class="fab fab-facebook-alt"></i></li>
 											</a>
@@ -1933,34 +1933,34 @@ margin:0in;
 											<a href="javascript:;" onclick="sharing_url('linkedin','','www.prnewswire.com')">
 												<li class="social-linkedin"><i class="fab fab-linkedin-alt"></i></li>
 											</a>
-											
+
 												<a href="javascript:;" class="btn-whatsapp" aria-label="Whatsapp sharing" onclick="sharing_url('whatsapp','top nav','www.prnewswire.com')">
 													<li class="social-whatsapp">
 														<span aria-hidden="true"><i class="fab fab-whatsapp"></i></span>
 													</li>
 												</a>
-											
-											
+
+
 												<a href="javascript:;" onclick="sharing_url('pinterest','','www.prnewswire.com')">
 													<li class="social-pinterest"><i class="fab fab-pinterest"></i>
 													</li>
 												</a>
-											
-										
-										
-										
+
+
+
+
 									</ul>
 									<div class="weixinTC hidden">
 										<div class="TCtop " id="qrCodeMobile"><span class="TCtopLeft">Share to</span><span class="TCtopRight"><span class="TCtopClose" onclick="weChatMobHide()">X</span></span></div>
 										<div class="TCimg"><img src="data:image/jpg;base64,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" data-src="data:image/jpg;base64,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"/></div>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
-			
+
 		</div>
 
 <div class="row">
@@ -1973,7 +1973,7 @@ margin:0in;
     <section class="release-body container ">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
-          
+
             <p><span class="xn-location">NEW YORK</span> and <span class="xn-location">LOS ANGELES</span>, <span class="xn-chron">Oct. 11, 2021</span> /PRNewswire/ --&nbsp;SiriusXM Holdings Inc. (NASDAQ: <a class="ticket-symbol" data-toggle="modal" href="#financial-modal">SIRI</a>), the leading audio entertainment company in <span class="xn-location">North America</span>, announced today that its subsidiary, <b>Sirius XM Radio Inc.</b>, has entered into a new creative programming and strategic agreement with <b>Audio Up</b>, an innovative podcast and audio entertainment production studio.</p>
             <div class="continue-reading text-center mt-xl visible-xs-block">
               <span>
@@ -1988,59 +1988,59 @@ margin:0in;
                 <div class="row">
 
 <div class="col-sm-12">
-                     
-                    
+
+
                   </div>
                   <div class="col-sm-12 clearfix">
-                    
-                      
-  
-    
-    
+
+
+
+
+
 
     <figure>
-      
 
-      
+
+
         <div class="image lightbox-item " data-src="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=publish" data-asset-type="photo" data-asset-id="Life_After_Debt_Aug_17_Event.jpg" data-asset-label="General" data-sub-html="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-tweet-text="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-facebook-share-text="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-linkedin-text="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-download-url="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=publish" data-pinterest-text="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-twitter-share-url="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=twitter" data-linkedin-share-url="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=linkedin" data-facebook-share-url="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=facebook" data-pinterest-share-url="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?p=facebook" onclick="omniture_corousal('Carousel Page','Photo Open','https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg','General');">
-          
+
           <a href="#" class="tabfocus" role="button"><img title="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" data-getimg="https://mma.prnewswire.com/media/1656853/Jared_Gutstadt_Headshot.jpg?w=400" id="imageid_2" alt="Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)" class="gallery-thumb img-responsive" rel="newsImage" itemprop="contentUrl" loading="lazy"/></a>
           <span class="fa fa-arrows-alt arrow_styles" aria-hidden="true"></span>
         </div>
-      
 
-      
+
+
 
       <figcaption>
         Audio Up CEO and Founder Jared Gutstadt (Credit: Bridger Scott/Source: Audio Up Inc.)
       </figcaption>
     </figure>
-    
+
 
     <!-- if video/audio/not yotube -->
-    
-  
-    
-    
+
+
+
+
 
     <figure>
-      
 
-      
+
+
         <div class="image lightbox-item " data-src="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=publish" data-asset-type="photo" data-asset-id="Life_After_Debt_Aug_17_Event.jpg" data-asset-label="General" data-download-url="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=publish" data-twitter-share-url="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=twitter" data-linkedin-share-url="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=linkedin" data-facebook-share-url="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=facebook" data-pinterest-share-url="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?p=facebook" onclick="omniture_corousal('Carousel Page','Photo Open','https://mma.prnewswire.com/media/1656852/Audio_Up.jpg','General');">
-          
+
           <a href="#" class="tabfocus" role="button"><img data-getimg="https://mma.prnewswire.com/media/1656852/Audio_Up.jpg?w=400" id="imageid_2" class="gallery-thumb img-responsive" rel="newsImage" itemprop="contentUrl" loading="lazy"/></a>
           <span class="fa fa-arrows-alt arrow_styles" aria-hidden="true"></span>
         </div>
-      
 
-      
+
+
 
       <figcaption>
-        
+
       </figcaption>
     </figure>
-    
+
 
     <!-- if video/audio/not yotube -->
 
@@ -2052,24 +2052,24 @@ margin:0in;
               <p>Under the agreement, Audio Up is expected to create new original scripted podcasts for SiriusXM and its owned audio platforms - which include the SXM App, Pandora, and Stitcher - while also collaborating with SiriusXM to develop new audio entertainment concepts and forge new promotional and distribution synergies across SiriusXM properties, furthering SiriusXM's place as a leader in podcast hosting, production, distribution, analytics, and monetization.&nbsp;</p>
             </p>
            	  <p>The agreement gives SiriusXM an exclusive "first-look" co-production option for new Audio Up original podcast concepts, with accompanying options for exclusive distribution across SiriusXM properties, as well as exclusive rights to manage and sell advertising inventory and sponsorship in connection with any podcast produced for SiriusXM through its SXM Media combined sales organization.&nbsp;</p>
-           	  <p>In addition, Audio Up announced today that it has completed a <span class="xn-money">$12 million</span> Series B funding round led by SiriusXM. <span class="xn-person">Andrew Moss</span>, SiriusXM's Senior Vice President, Business Affairs and Programming Operations, has also joined the Board of Directors of Audio Up.</p><p>Audio Up, established in 2020 by <span class="xn-person">Jared Gutstadt</span>, creator of the Jingle Punks creative music agency and <i>Adweek</i>'s 2020 Podcast Innovator and Producer of the Year, is a podcast content production studio that has built a slate of distinctive, original scripted audio entertainment featuring marquee names across music (Machine Gun Kelly, 24kGoldn, <span class="xn-person">Miranda Lambert</span>, Nelly), <span class="xn-location">Hollywood</span> (<span class="xn-person">Anthony Anderson</span>, <span class="xn-person">Garrett Hedlund</span>, Jason&nbsp;Alexander, <span class="xn-person">Gary Busey</span>), publishing (James Ellroy, <span class="xn-person">Stephen King</span>), and more.</p><p>Forthcoming new Audio Up original podcast series include <b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=338733315&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Ftheplayboyinterview&amp;a=The+Playboy+Interview" rel="nofollow" target="_blank">The Playboy Interview</a></i></b><b>,</b>&nbsp;which presents teleplay-type reenactments of some of the most iconic Playboy Interview conversations in history, featuring <span class="xn-person">Taye Diggs</span> as <span class="xn-person">Muhammad Ali</span>, <span class="xn-person">Rosanna Arquette</span> as Betty Friedan, <span class="xn-person">Gina Gershon</span> as Oriana Fallaci, among others.</p><p>A variety of original podcasts from Audio Up's back catalog will also be re-presented across the SXM App, Pandora, and Stitcher, including:</p><ul type="disc"> 
- <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1732325084&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fhalloweeninhell&amp;a=Halloween+in+Hell" rel="nofollow" target="_blank">Halloween in Hell</a></i></b><b><i>: </i></b>A first-of-its-kind, 4-part scripted music/horror mini-series set in a fictitious satanic reality show, featuring multi-platinum artists Machine Gun Kelly and 24kGoldn. Other shows in Audio Up's hit "In Hell" podcast franchise include <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1831257719&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fvalentinesdayinhell&amp;a=Valentine%27s+Day+in+Hell" rel="nofollow" target="_blank"><b><i>Valentine's Day in Hell</i></b></a><b>&nbsp;</b>and<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1041111016&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fprominhell&amp;a=%C2%A0Prom+in+Hell" rel="nofollow" target="_blank">&nbsp;<b><i>Prom in Hell</i></b></a><b><i>.</i></b> <br class="dnr"><br class="dnr"></li> 
- <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2724489839&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Funcledrank&amp;a=The+Ballad+of+Uncle+Drank%3A" rel="nofollow" target="_blank">The Ballad of Uncle Drank:</a></i></b><b>&nbsp;</b>A&nbsp;dark-edged musical comedy starring country hip-hop superstar Nelly and <span class="xn-location">Hollywood</span> legends <span class="xn-person">Gary Busey</span> and <span class="xn-person">Luke Wilson</span> that tells the tragi-comic story of fictional "beach-country" singer Uncle Drank (Busey), with an original soundtrack on <span class="xn-person">Warner Records</span> featuring songs from Nelly, <span class="xn-person">Blanco Brown</span> and others from the country music realm. <br class="dnr"><br class="dnr"></li> 
- <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3209302676&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fbedtimestories&amp;a=Bedtime+Stories+of+the+Ingleside+Inn%3A" rel="nofollow" target="_blank">Bedtime Stories of the Ingleside Inn:</a></i></b>&nbsp;A scripted audio docu-drama starring <span class="xn-person">Lance Bass</span> (who also produces, alongside Oscar-winner <span class="xn-person">Michael Sugar</span>), and <span class="xn-person">Jason Alexander</span> as <span class="xn-person">Mel Haber</span>, the legendary 70s-era <span class="xn-location">Palm Springs</span> hotelier who brought glitz and glamour to the desert, attracting a slew of iconic regular guests including <span class="xn-person">Frank Sinatra</span>, <span class="xn-person">Liz Taylor</span>, and <span class="xn-person">Howard Hughes</span>. <br class="dnr"><br class="dnr"></li> 
- <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2141948268&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fherotheband&amp;a=Sonic+Leap" rel="nofollow" target="_blank">Sonic Leap</a></i></b><b><i>:&nbsp;</i></b>The completely made-up backstory of real-life rock act "Hero the Band" – four <span class="xn-location">Atlanta</span>-based fraternal brothers who get sent back to 1985 to "change their future and the future of music." Actor <span class="xn-person">Anthony Anderson</span> makes his podcast acting debut in this nostalgic scripted musical series. Rap star Trippie Redd co-stars and contributes music. The series unlocks the debut album from the <span class="xn-location">Atlanta</span>-based band, to be released on Audio Up Records. <br class="dnr"><br class="dnr"></li> 
- <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3922246029&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fmakeitupaswego&amp;a=Make+It+Up+as+We+Go%3A" rel="nofollow" target="_blank">Make It Up as We Go:</a></i></b><b><i>&nbsp;</i></b>The first-ever scripted country podcast musical, which tells the story of an ambitious young female singer (portrayed by series co-creator <span class="xn-person">Scarlett Burke</span>, who also contributes original music) who heads to <span class="xn-location">Nashville's</span> male-dominated country hit factory to make her fame. Executive-produced by <span class="xn-person">Miranda Lambert</span>, who plays herself in the series. SiriusXM will re-distribute Season 1 and premiere the forthcoming 2<sup>nd</sup> season featuring <span class="xn-person">Garrett Hedlund</span> and award-winning <span class="xn-location">Nashville</span> songwriter <span class="xn-person">Liz Rose</span>.</li> 
+           	  <p>In addition, Audio Up announced today that it has completed a <span class="xn-money">$12 million</span> Series B funding round led by SiriusXM. <span class="xn-person">Andrew Moss</span>, SiriusXM's Senior Vice President, Business Affairs and Programming Operations, has also joined the Board of Directors of Audio Up.</p><p>Audio Up, established in 2020 by <span class="xn-person">Jared Gutstadt</span>, creator of the Jingle Punks creative music agency and <i>Adweek</i>'s 2020 Podcast Innovator and Producer of the Year, is a podcast content production studio that has built a slate of distinctive, original scripted audio entertainment featuring marquee names across music (Machine Gun Kelly, 24kGoldn, <span class="xn-person">Miranda Lambert</span>, Nelly), <span class="xn-location">Hollywood</span> (<span class="xn-person">Anthony Anderson</span>, <span class="xn-person">Garrett Hedlund</span>, Jason&nbsp;Alexander, <span class="xn-person">Gary Busey</span>), publishing (James Ellroy, <span class="xn-person">Stephen King</span>), and more.</p><p>Forthcoming new Audio Up original podcast series include <b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=338733315&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Ftheplayboyinterview&amp;a=The+Playboy+Interview" rel="nofollow" target="_blank">The Playboy Interview</a></i></b><b>,</b>&nbsp;which presents teleplay-type reenactments of some of the most iconic Playboy Interview conversations in history, featuring <span class="xn-person">Taye Diggs</span> as <span class="xn-person">Muhammad Ali</span>, <span class="xn-person">Rosanna Arquette</span> as Betty Friedan, <span class="xn-person">Gina Gershon</span> as Oriana Fallaci, among others.</p><p>A variety of original podcasts from Audio Up's back catalog will also be re-presented across the SXM App, Pandora, and Stitcher, including:</p><ul type="disc">
+ <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1732325084&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fhalloweeninhell&amp;a=Halloween+in+Hell" rel="nofollow" target="_blank">Halloween in Hell</a></i></b><b><i>: </i></b>A first-of-its-kind, 4-part scripted music/horror mini-series set in a fictitious satanic reality show, featuring multi-platinum artists Machine Gun Kelly and 24kGoldn. Other shows in Audio Up's hit "In Hell" podcast franchise include <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1831257719&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fvalentinesdayinhell&amp;a=Valentine%27s+Day+in+Hell" rel="nofollow" target="_blank"><b><i>Valentine's Day in Hell</i></b></a><b>&nbsp;</b>and<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=1041111016&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fprominhell&amp;a=%C2%A0Prom+in+Hell" rel="nofollow" target="_blank">&nbsp;<b><i>Prom in Hell</i></b></a><b><i>.</i></b> <br class="dnr"><br class="dnr"></li>
+ <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2724489839&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Funcledrank&amp;a=The+Ballad+of+Uncle+Drank%3A" rel="nofollow" target="_blank">The Ballad of Uncle Drank:</a></i></b><b>&nbsp;</b>A&nbsp;dark-edged musical comedy starring country hip-hop superstar Nelly and <span class="xn-location">Hollywood</span> legends <span class="xn-person">Gary Busey</span> and <span class="xn-person">Luke Wilson</span> that tells the tragi-comic story of fictional "beach-country" singer Uncle Drank (Busey), with an original soundtrack on <span class="xn-person">Warner Records</span> featuring songs from Nelly, <span class="xn-person">Blanco Brown</span> and others from the country music realm. <br class="dnr"><br class="dnr"></li>
+ <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3209302676&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fbedtimestories&amp;a=Bedtime+Stories+of+the+Ingleside+Inn%3A" rel="nofollow" target="_blank">Bedtime Stories of the Ingleside Inn:</a></i></b>&nbsp;A scripted audio docu-drama starring <span class="xn-person">Lance Bass</span> (who also produces, alongside Oscar-winner <span class="xn-person">Michael Sugar</span>), and <span class="xn-person">Jason Alexander</span> as <span class="xn-person">Mel Haber</span>, the legendary 70s-era <span class="xn-location">Palm Springs</span> hotelier who brought glitz and glamour to the desert, attracting a slew of iconic regular guests including <span class="xn-person">Frank Sinatra</span>, <span class="xn-person">Liz Taylor</span>, and <span class="xn-person">Howard Hughes</span>. <br class="dnr"><br class="dnr"></li>
+ <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2141948268&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fherotheband&amp;a=Sonic+Leap" rel="nofollow" target="_blank">Sonic Leap</a></i></b><b><i>:&nbsp;</i></b>The completely made-up backstory of real-life rock act "Hero the Band" – four <span class="xn-location">Atlanta</span>-based fraternal brothers who get sent back to 1985 to "change their future and the future of music." Actor <span class="xn-person">Anthony Anderson</span> makes his podcast acting debut in this nostalgic scripted musical series. Rap star Trippie Redd co-stars and contributes music. The series unlocks the debut album from the <span class="xn-location">Atlanta</span>-based band, to be released on Audio Up Records. <br class="dnr"><br class="dnr"></li>
+ <li><b><i><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3922246029&amp;u=https%3A%2F%2Fwww.audioup.com%2Fshows%2Fmakeitupaswego&amp;a=Make+It+Up+as+We+Go%3A" rel="nofollow" target="_blank">Make It Up as We Go:</a></i></b><b><i>&nbsp;</i></b>The first-ever scripted country podcast musical, which tells the story of an ambitious young female singer (portrayed by series co-creator <span class="xn-person">Scarlett Burke</span>, who also contributes original music) who heads to <span class="xn-location">Nashville's</span> male-dominated country hit factory to make her fame. Executive-produced by <span class="xn-person">Miranda Lambert</span>, who plays herself in the series. SiriusXM will re-distribute Season 1 and premiere the forthcoming 2<sup>nd</sup> season featuring <span class="xn-person">Garrett Hedlund</span> and award-winning <span class="xn-location">Nashville</span> songwriter <span class="xn-person">Liz Rose</span>.</li>
 </ul><p>"Podcasts have only scratched the surface of their potential as a powerful driver for discovery, and an entertainment medium with virtually no creative boundaries," said Audio Up CEO and Founder, <b><span class="xn-person">Jared Gutstadt</span>.</b> "With the vast reach and wide diversity of listeners that SiriusXM, Pandora and Stitcher together represent, we not only have a massive new multi-platform outlet for our original programming, but in SiriusXM we have a creative ally who shares our ambitions to keep pushing podcasting forward."</p><p>Audio Up is expected to be an additional creative driver for SiriusXM in connecting artists, labels, brands, and creators of all types in developing new audio entertainment programming across SiriusXM channels, and exploring new possibilities for original scripted, podcasts and branded audio content opportunities for advertisers.</p><p>"Whether it's inventing a new breed of boundary-breaking original podcasts or developing innovative audio concepts that let brands and creators connect with listeners in new ways, Jared and Audio Up have become the place where talent meets technology," said <b><span class="xn-person">Scott Greenstein</span></b>, President and Chief Creative Officer of SiriusXM. "Audio Up is known for creating podcasts that combine music, entertainment, and rich storytelling to create bold new listening experiences, and we're thrilled to welcome them to our extended SiriusXM family."</p><p>The agreement follows SiriusXM's acquisition of leading podcast platform <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2206096416&amp;u=https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Fsiriusxm-completes-acquisition-of-stitcher-301154696.html&amp;a=Stitcher" rel="nofollow" target="_blank">Stitcher</a>&nbsp;and its execution of several high-profile exclusive podcast content deals, including the acquisition of<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=322499551&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3285103-1%26h%3D3201847878%26u%3Dhttps%253A%252F%252Finvestor.siriusxm.com%252Finvestor-overview%252Fpress-releases%252Fpress-release-details%252F2021%252FSiriusXM-Acquires-Roman-Mars-99-Invisible-Podcast%252Fdefault.aspx%26a%3DRoman%2BMars%2527%2B99%2525%2BInvisible%2BPodcast&amp;a=%C2%A0Roman+Mars%27+99%25+Invisible%C2%A0podcast" rel="nofollow" target="_blank">&nbsp;Roman Mars' <i>99% Invisible</i>&nbsp;podcast</a>&nbsp;and the&nbsp;<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3583801102&amp;u=https%3A%2F%2Finvestor.siriusxm.com%2Finvestor-overview%2Fpress-releases%2Fpress-release-details%2F2021%2FSeth-Rogen-To-Launch-Original-Podcast-Series-With-SiriusXMs-Stitcher%2Fdefault.aspx&amp;a=launch" rel="nofollow" target="_blank">launch</a> of <span class="xn-person">Seth Rogen's</span> original podcast series,<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3985859044&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3285103-1%26h%3D822682450%26u%3Dhttps%253A%252F%252Finvestor.siriusxm.com%252Finvestor-overview%252Fpress-releases%252Fpress-release-details%252F2021%252FStitcher-Releases-Trailer-For-New-Original-Podcast-Series-Storytime-With-Seth-Rogen%252Fdefault.aspx%26a%3DStorytime%2BWith%2BS&amp;a=%C2%A0Storytime+With+S" rel="nofollow" target="_blank">&nbsp;<i>Storytime With S</i></a><a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=3484704003&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3285103-1%26h%3D2464043271%26u%3Dhttps%253A%252F%252Finvestor.siriusxm.com%252Finvestor-overview%252Fpress-releases%252Fpress-release-details%252F2021%252FStitcher-Releases-Trailer-For-New-Original-Podcast-Series-Storytime-With-Seth-Rogen%252Fdefault.aspx%26a%3Deth%2BRogen&amp;a=eth+Rogen" rel="nofollow" target="_blank"><i>eth Rogen</i></a>.</p><p><b><u>About SiriusXM<br class="dnr"></u></b>Sirius XM Holdings Inc. (NASDAQ: <a class="ticket-symbol" data-toggle="modal" href="#financial-modal">SIRI</a>) is the leading audio entertainment company in <span class="xn-location">North America</span>, and the premier programmer and platform for subscription and digital advertising-supported audio products. SiriusXM's platforms collectively reach approximately 150 million listeners, the largest digital audio audience across paid and free tiers in <span class="xn-location">North America</span>, and deliver music, sports, talk, news, comedy, entertainment and podcasts. Pandora, a subsidiary of SiriusXM, is the largest ad-supported audio entertainment streaming service in the U.S. SiriusXM's subsidiaries Stitcher, Simplecast and AdsWizz make it a leader in podcast hosting, production, distribution, analytics and monetization. The Company's advertising sales organization, which operates as SXM Media, leverages its scale, cross-platform sales organization and ad tech capabilities to deliver results for audio creators and advertisers. SiriusXM, through Sirius XM Canada Holdings, Inc., also offers satellite radio and audio entertainment in <span class="xn-location">Canada</span>. In addition to its audio entertainment businesses, SiriusXM offers connected vehicle services to automakers. For more about SiriusXM, please go to:&nbsp;<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3318665-1&amp;h=2497133385&amp;u=http%3A%2F%2Fwww.siriusxm.com%2F&amp;a=www.siriusxm.com" rel="nofollow" target="_blank">www.siriusxm.com</a>.</p><p><b><u>About Audio Up<br class="dnr"></u></b>Audio Up Media is a podcast content production studio, housing a world of infinite, audio-based properties. Headed by Audio Up CEO and <i>Adweek</i>'s 2020 Podcast Innovator of the Year and Podcast Producer of the Year recipient, <span class="xn-person">Jared Gutstadt</span> (formerly of the Jingle Punks), Audio Up is building an ecosystem of premium entertainment content within the music and audio space. From fictional scripted podcasts, which include a Marvel-like universe of musicals, where the records themselves become the story foundation, to one-on-one interview formats, Audio Up's goal is to create a new and innovative form of IP.&nbsp; They are bringing audio blockbusters to life and taking this media from black and white, into technicolor. Current properties include the riveting top 20 crime podcast <i>Where The Bodies Are Buried</i>, <span class="xn-person">Michael Cohen's</span> new chart-topping podcast <i>Mea Culpa</i>, and recent Webby honoree in&nbsp;Podcasts: Interview/Talk Show<i>,</i><b>&nbsp;</b><i>Going to Bed with Garcelle</i> with&nbsp;Garcelle Beauvais.&nbsp; Scripted projects include 2021 Webby nominee <i>Make It Up As We Go</i> with <span class="xn-person">Scarlett Burke</span>, <span class="xn-person">Miranda Lambert</span>, <span class="xn-person">Lindsay Ell</span> and other huge country entertainment; recent Webby honoree for Best Limited Entertainment Series Podcast <i>Halloween in Hell</i> with Machine Gun Kelly, 24kGoldn and iann dior; and <i>Strawberry Spring</i>, the first-ever adaptation of the classic short story by <span class="xn-person">Stephen King</span>, and current number one trending podcast globally, according to charitable, starring <span class="xn-person">Garrett Hedlund</span> and <span class="xn-person">Milo Ventimiglia</span>.</p><p><b>Source: SiriusXM</b></p><p><b>SiriusXM media contact:<br class="dnr"></b><span class="xn-person">Patrick Reilly</span><br class="dnr"><a href="/cdn-cgi/l/email-protection#75051401071c161e5b07101c19190c35061c071c00060d185b161a18" rel="nofollow" target="_blank"><span class="__cf_email__" data-cfemail="3d4d5c494f545e56134f58545151447d4e544f54484e4550135e5250">[email&#160;protected]</span></a></p><p><b>Audio Up media contact:<br class="dnr"></b><span class="xn-person">Greg Cortez</span><br class="dnr"><a href="/cdn-cgi/l/email-protection#57302532307934382523322d1763652032242379393223" rel="nofollow" target="_blank"><span class="__cf_email__" data-cfemail="47203522206924283533223d0773753022343369292233">[email&#160;protected]</span></a></p><p>SOURCE Sirius XM Holdings Inc.</p><img alt="" src="https://rt.prnewswire.com/rt.gif?NewsItemId=NY35101&amp;Transmission_Id=202110110900PR_NEWS_USPR_____NY35101&amp;DateId=20211011" style="border:0px; width:1px; height:1px;"><h4> Related Links</h4><p> <a title="Link to http://www.siriusxm.com" href="http://www.siriusxm.com" class="linkOnClick" data-include="" rel="nofollow" target="_blank">http://www.siriusxm.com</a><br></p>
-          
-		  
-          
+
+
+
         </div>
       </div>
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
-          
-          
-            
-    
+
+
+
+
 <link rel="stylesheet" href="/etc.clientlibs/prncom/components/content/prnWidgetButton/clientlib.min.css" type="text/css">
 
 <div class="newsFeaturedSection ">
@@ -2079,22 +2079,22 @@ margin:0in;
 
 </div>
         <div class="newFeaturedIcon">
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="featuredIcon-col">
                         <div class="icon-bg">
                             <img src="/content/dam/newsfeatured/icon3.png" alt="icon3"/>
@@ -2105,7 +2105,7 @@ Newsrooms &amp;<br />
 Influencers
                         </div>
                     </div>
-                
+
                     <div class="featuredIcon-col">
                         <div class="icon-bg">
                             <img src="/content/dam/newsfeatured/icon1.png" alt="icon1"/>
@@ -2116,7 +2116,7 @@ Digital Media<br />
 Outlets
                         </div>
                     </div>
-                
+
                     <div class="featuredIcon-col">
                         <div class="icon-bg">
                             <img src="/content/dam/newsfeatured/icon2.png" alt="icon2"/>
@@ -2127,17 +2127,17 @@ Journalists<br />
 Opted In
                         </div>
                     </div>
-                
-            
-        
-            
+
+
+
+
         </div>
         <div class="bottom-section">
             <a href="https://www.prnewswire.com/account/online-membership-form/?site_refer=press-release-widget" class="btnCustom">GET STARTED</a>
         </div>
     </div>
 </div>
-          
+
         </div>
       </div>
     </section>
@@ -2147,7 +2147,7 @@ Opted In
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h3 class="modal-title" id="financial-modalLabel">Modal title</h3>
-        </div>		
+        </div>
      </div>
    </div>
 </div>
@@ -2158,15 +2158,15 @@ Opted In
         <div class="col-lg-10 col-lg-offset-1">
           <div class="row releaseList-section">
         <div class="col-sm-8 source-section">
-          
+
 	<h2 class="heading2">Also from this source</h2>
-	
-		
-			
+
+
+
 				<div class="row" role="group" aria-label="Also From this Source">
-					
-						
-							
+
+
+
 								<div class="col-sm-3">
 									<a href="dave-stephenson-joins-siriusxms-board-of-directors-302548633.html">
 										<div class="imgSec  photo-wrap">
@@ -2175,10 +2175,10 @@ Opted In
 </div>
 									</a>
 								</div>
-							
-						
-					
-					
+
+
+
+
 					<div class="col-sm-9">
 						<div class="contentSec">
 								<a class="omniture-news-release-readMore-clicks" href="dave-stephenson-joins-siriusxms-board-of-directors-302548633.html" data-omniture='{"page":"Also from this source","val":"1"}' title="">
@@ -2188,11 +2188,11 @@ Opted In
 						</div>
 					</div>
 				</div>
-			
+
 				<div class="row" role="group" aria-label="Also From this Source">
-					
-						
-							
+
+
+
 								<div class="col-sm-3">
 									<a href="siriusxm-to-present-at-the-2025-bofa-media-communications--entertainment-conference-and-the-2025-goldman-sachs-communacopia--technology-conference-302544142.html">
 										<div class="imgSec  photo-wrap">
@@ -2201,10 +2201,10 @@ Opted In
 </div>
 									</a>
 								</div>
-							
-						
-					
-					
+
+
+
+
 					<div class="col-sm-9">
 						<div class="contentSec">
 								<a class="omniture-news-release-readMore-clicks" href="siriusxm-to-present-at-the-2025-bofa-media-communications--entertainment-conference-and-the-2025-goldman-sachs-communacopia--technology-conference-302544142.html" data-omniture='{"page":"Also from this source","val":"2"}' title="">
@@ -2214,11 +2214,11 @@ Opted In
 						</div>
 					</div>
 				</div>
-			
-		
+
+
 		<div class="row">
 			<div class="col-sm-12">
-				
+
 				<a href="/news/sirius-xm-holdings-inc./" class="prweb-textlink">
 					More Releases From This Source
 					<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none">
@@ -2233,21 +2233,21 @@ Opted In
 						</defs>
 					</svg>
 				</a>
-				
+
 				<div class="border-line"></div>
 			</div>
 		</div>
 
 </div>
-        
+
         <div class="col-sm-4 explore-section">
-          
-    
-    
+
+
+
         <h2 class="heading2">Explore</h2>
-        
+
         <div class="row">
-            
+
                 <div class="col-sm-6 col-xs-6 py-7" role="group" aria-label="category">
                     <a href="/news-releases/entertainment-media-latest-news/radio-list/">
                         <div class="imgSec">
@@ -2257,7 +2257,7 @@ Opted In
                         <p class="img-title"><a href="/news-releases/entertainment-media-latest-news/radio-list/">Radio</a></p>
 
 </div>
-            
+
                 <div class="col-sm-6 col-xs-6 py-7" role="group" aria-label="category">
                     <a href="/news-releases/entertainment-media-latest-news/entertainment-list/">
                         <div class="imgSec">
@@ -2267,7 +2267,7 @@ Opted In
                         <p class="img-title"><a href="/news-releases/entertainment-media-latest-news/entertainment-list/">Entertainment</a></p>
 
 </div>
-            
+
                 <div class="col-sm-6 col-xs-6 py-7" role="group" aria-label="category">
                     <a href="/news-releases/business-technology-latest-news/broadcast-tech-list/">
                         <div class="imgSec">
@@ -2277,7 +2277,7 @@ Opted In
                         <p class="img-title"><a href="/news-releases/business-technology-latest-news/broadcast-tech-list/">Broadcast Tech</a></p>
 
 </div>
-            
+
                 <div class="col-sm-6 col-xs-6 py-7" role="group" aria-label="category">
                     <a href="/news-releases/business-technology-latest-news/computer-electronics-list/">
                         <div class="imgSec">
@@ -2287,7 +2287,7 @@ Opted In
                         <p class="img-title"><a href="/news-releases/business-technology-latest-news/computer-electronics-list/">Computer &amp; Electronics</a></p>
 
 </div>
-            
+
         </div>
 
 <a href="/news-releases/" class="prweb-textlink no-border">
@@ -2304,18 +2304,18 @@ Opted In
             </defs>
         </svg>
     </a>
-    
+
     <div class="border-line"></div>
 
 </div>
-        
+
       </div>
         </div>
       </div>
     </section>
-  
-  
-  
+
+
+
   <!--<section class="fw-bg fw-bg--gray-lightest just-read">
     <div class="container">
       <sly data-sly-use.social="./template/fragments/socialSharing.html" data-sly-call="org.apache.sling.scripting.sightly.apps.prncom.components.structure.newsreleasepage.template.fragments.socialSharing__002e__html$1@1b4b4cb"
@@ -2326,38 +2326,38 @@ Opted In
   <input type="hidden" value="vvro5y6e50o" id="publicKey"/>
 
 </main>
-  
-	
-    	 
-		
-        
-        
+
+
+
+
+
+
         	<input type="hidden" id="pageName" value="www.prnewswire.com_SiriusXM and Audio Up Inc. Enter Into Creative and Strategic Agreement to Develop New Original Scripted Podcasts and Audio Entertainment Concepts"/>
-        
-		
-			
-		
-		
-			
-			
+
+
+
+
+
+
+
 				<input type="hidden" id="channel" value="PRN News Releases"/>
 				<input type="hidden" id="prop6" value="PRN_News Releases"/>
-			
+
 			<input type="hidden" id="evar77" value="www.prnewswire.com"/>
-		
+
 		<input type="hidden" id="events" value="event10"/>
 		<input type="hidden" id="prop9" value="en-US"/>
-		<input type="hidden" id="prop35" value="RAD,ENT,BRD,CPR"/>     
-		<input type="hidden" id="prop37" value="LIC"/>  
+		<input type="hidden" id="prop35" value="RAD,ENT,BRD,CPR"/>
+		<input type="hidden" id="prop37" value="LIC"/>
 		<input type="hidden" id="prop47" value="Inline"/>
-		
+
 			<input type="hidden" id="prop74" value="https://www.prnewswire.com/news-releases/siriusxm-and-audio-up-inc-enter-into-creative-and-strategic-agreement-to-develop-new-original-scripted-podcasts-and-audio-entertainment-concepts-301396824.html"/>
-		
+
 		<input type="hidden" id="prop26" value="Oct 11, 2021, 09:00 ET"/>
 		<input type="hidden" id="evar19" value="202110110900PR_NEWS_USPR_____NY35101"/>
 		<input type="hidden" id="evar17" value="3535101"/>
 		<input type="hidden" id="evar18" value="NY35101"/>
-		<input type="hidden" id="isNewsDetails" value="true"/> 
+		<input type="hidden" id="isNewsDetails" value="true"/>
         <input type="hidden" id="companies" value="Sirius XM Holdings Inc.,Audio Up"/>
         <input type="hidden" id="accountNumber" value="149349"/>
         <input type="hidden" id="transmissionId" value="202110110900PR_NEWS_USPR_____NY35101"/>
@@ -2365,7 +2365,7 @@ Opted In
 		<input type="hidden" id="evar78" value="2021-10-11"/>
 
 <div>
-			 
+
 <footer id="js-footer" class="py-0">
 	<div class="main-footer">
 		<div class="container">
@@ -2378,27 +2378,27 @@ Opted In
     <h2 class="omniture-footer-main">Contact PR Newswire</h2>
 </div>
 <ul class="footer-contact">
-    
+
         <li>
-            
+
                 <div class="pull-left">
                     <span aria-hidden="true" class="btr bt-mobile bt-lg hidden-xs"></span>
                 </div>
-            
+
             <div class="footer-num ">
-                
+
                     <a href="tel:Call%20PR%20Newswire%20at%20888-776-0942">Call PR Newswire at 888-776-0942</a></br>
-                
+
                 from 8 AM - 9 PM ET
             </div>
         </li>
-    
-    
-    
-    
+
+
+
+
         <li><a class="chatLink" href="javascript://Chat" style="display: none;" id="chatLinkFooter">Chat with an Expert</a>
         </li>
-    
+
 </ul>
 <style>
     .footer-contact li {
@@ -2414,29 +2414,29 @@ Opted In
             <button class="dropdown-toggle btn-style" aria-controls="dropdown-menu-contact-us" type="button" data-toggle="dropdown" aria-expanded="false">Contact Us
                 <span aria-hidden="true" class="btb bt-angle-up"></span></button>
             <ul id="dropdown-menu-contact-us" class="dropdown-menu">
-                
-                    
+
+
                         <li>
                             <a title="General Inquiries" href="/contact-us/general-inquiries/" target="_self">General Inquiries</a>
                         </li>
-                    
+
                         <li>
                             <a title="Editorial Bureaus" href="/contact-us/editorial-bureaus/" target="_self">Editorial Bureaus</a>
                         </li>
-                    
+
                         <li>
                             <a title="Partnerships" href="/contact-us/partnerships/" target="_self">Partnerships</a>
                         </li>
-                    
+
                         <li>
                             <a title="Media Inquiries" href="/contact-us/media-inquiries/" target="_self">Media Inquiries</a>
                         </li>
-                    
+
                         <li>
                             <a title="Worldwide Offices" href="/contact-us/worldwide-offices/" target="_self">Worldwide Offices</a>
                         </li>
-                    
-                
+
+
             </ul>
         </div>
 
@@ -2445,111 +2445,111 @@ Opted In
 <div class="footerSocial"><!-- <div data-sly-test="false" class="cq-placeholder" data-emptytext="Edit the social component"></div>
  -->
 <div class="social-links hidden-xs">
-   
-   
+
+
        <a href="https://twitter.com/PRNewswire" title="Twitter" aria-label="Twitter" target="_blank"><span aria-hidden="true" class="fab fab-twitter"></span></a>
-   
+
        <a href="https://www.facebook.com/PR-Newswire-26247320522/" title="Facebook" aria-label="Facebook" target="_blank"><span aria-hidden="true" class="fab fab-facebook-alt"></span></a>
-   
+
        <a href="https://www.linkedin.com/company/pr-newswire/" title="LinkedIn" aria-label="LinkedIn" target="_blank"><span aria-hidden="true" class="fab fab-linkedin-alt"></span></a>
-   
+
   </div></div>
 
 <div class='hidden-xs'>
-						
+
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12 hidden-xs">
 
 <div class="footerList">
-	
+
         <div class="footer-head">
-		
-		
+
+
         <h2 class="omniture-footer-main hidden-xs">Products</h2>
-		
+
         </div>
 
 <ul class="list-unstyled">
-        
-            
-                
+
+
+
                 <li>
-                    <a class="omniture-footer-main" title="For Marketers" href="/products/marketing/" target="_self">For Marketers</a>   
+                    <a class="omniture-footer-main" title="For Marketers" href="/products/marketing/" target="_self">For Marketers</a>
                 </li>
-            
-                
+
+
                 <li>
-                    <a class="omniture-footer-main" title="For Public Relations" href="/products/public-relations/" target="_self">For Public Relations</a>   
+                    <a class="omniture-footer-main" title="For Public Relations" href="/products/public-relations/" target="_self">For Public Relations</a>
                 </li>
-            
-                
+
+
                 <li>
-                    <a class="omniture-footer-main" title="For IR &amp; Compliance" href="/products/ir-compliance/" target="_self">For IR &amp; Compliance</a>   
+                    <a class="omniture-footer-main" title="For IR &amp; Compliance" href="/products/ir-compliance/" target="_self">For IR &amp; Compliance</a>
                 </li>
-            
-                
+
+
                 <li>
-                    <a class="omniture-footer-main" title="For Agency" href="/products/agency/" target="_self">For Agency</a>   
+                    <a class="omniture-footer-main" title="For Agency" href="/products/agency/" target="_self">For Agency</a>
                 </li>
-            
-                
+
+
                 <li>
-                    <a class="omniture-footer-main" title="All Products" href="/products/all-products/" target="_self">All Products</a>   
+                    <a class="omniture-footer-main" title="All Products" href="/products/all-products/" target="_self">All Products</a>
                 </li>
-            
-        
+
+
 		</ul></div>
 
 <div class='hidden-xs'>
-						
+
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12 hidden-xs">
 
 <div class="footerList">
-	
+
         <div class="footer-head">
-		
+
         <h2 class="omniture-footer_subsites hidden-xs">About</h2>
-		
-		
+
+
         </div>
 
 <ul class="list-unstyled">
-        
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="About PR Newswire" href="/about-pr-newswire/" target="_blank">About PR Newswire</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="About Cision" href="https://www.cision.com/us/?utm_medium=website&utm_source=prnewswire&utm_content=cishomepage&utm_campaign=prnewswire" target="_blank">About Cision</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="Become a Publishing Partner" href="/contact-us/prnewswire-partners/" target="_blank">Become a Publishing Partner</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="Become a Channel Partner" href="/contact-us/become-a-partner/" target="_blank">Become a Channel Partner</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="Careers" href="https://www.cision.com/careers/" target="_blank">Careers</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="Accessibility Statement" href="https://www.cision.com/about/accessibility/" target="_blank">Accessibility Statement</a>
                 </li>
-                
-            
-        
+
+
+
 		</ul></div>
 
 <div class="footerDropdown">
@@ -2558,125 +2558,125 @@ Opted In
             <button class="dropdown-toggle btn-style" aria-controls="dropdown-menu-global-sites" type="button" data-toggle="dropdown" aria-expanded="false">Global Sites
                 <span aria-hidden="true" class="btb bt-angle-up"></span></button>
             <ul id="dropdown-menu-global-sites" class="dropdown-menu">
-                
-                    
+
+
                         <li>
                             <a title="APAC" href="https://www.prnewswire.com/apac/" target="_blank">APAC</a>
                         </li>
-                    
+
                         <li>
                             <a title="APAC - Simplified Chinese" href="https://www.prnasia.com/" target="_blank">APAC - Simplified Chinese</a>
                         </li>
-                    
+
                         <li>
                             <a title="APAC - Traditional Chinese" href="https://www.prnewswire.com/apac/zh/" target="_blank">APAC - Traditional Chinese</a>
                         </li>
-                    
+
                         <li>
                             <a title="Brazil" href="https://prnewswire.com.br/" target="_blank">Brazil</a>
                         </li>
-                    
+
                         <li>
                             <a title="Canada" href="https://www.newswire.ca/" target="_blank">Canada</a>
                         </li>
-                    
+
                         <li>
                             <a title="Czech" href="/cs/tiskova-zprava/" target="_blank">Czech</a>
                         </li>
-                    
+
                         <li>
                             <a title="Denmark" href="/da/pressemeddelelser/" target="_blank">Denmark</a>
                         </li>
-                    
+
                         <li>
                             <a title="Finland" href="/fi/lehdistotiedotteet/" target="_blank">Finland</a>
                         </li>
-                    
+
                         <li>
                             <a title="France" href="/fr/communiques-de-presse/" target="_blank">France</a>
                         </li>
-                    
+
                         <li>
                             <a title="Germany" href="/de/pressemitteilungen/" target="_blank">Germany</a>
                         </li>
-                    
+
                         <li>
                             <a title="India" href="/in/" target="_blank">India</a>
                         </li>
-                    
+
                         <li>
                             <a title="Indonesia" href="https://www.prnewswire.com/id/" target="_blank">Indonesia</a>
                         </li>
-                    
+
                         <li>
                             <a title="Israel" href="/il/news-releases/" target="_blank">Israel</a>
                         </li>
-                    
+
                         <li>
                             <a title="Italy" href="/it/comunicati-stampa/" target="_blank">Italy</a>
                         </li>
-                    
+
                         <li>
                             <a title="Japan" href="https://www.prnewswire.com/jp/" target="_blank">Japan</a>
                         </li>
-                    
+
                         <li>
                             <a title="Korea" href="https://www.prnewswire.com/kr/" target="_blank">Korea</a>
                         </li>
-                    
+
                         <li>
                             <a title="Mexico" href="https://prnewswire.com.mx/" target="_blank">Mexico</a>
                         </li>
-                    
+
                         <li>
                             <a title="Middle East" href="/ae/news-releases/" target="_blank">Middle East</a>
                         </li>
-                    
+
                         <li>
                             <a title="Middle East - Arabic" href="https://www.prnewswire.com/ae/ar/news-releases/" target="_blank">Middle East - Arabic</a>
                         </li>
-                    
+
                         <li>
                             <a title="Netherlands" href="/nl/persberichten/" target="_blank">Netherlands</a>
                         </li>
-                    
+
                         <li>
                             <a title="Norway" href="/no/pressemeldinger/" target="_blank">Norway</a>
                         </li>
-                    
+
                         <li>
                             <a title="Poland" href="/pl/komunikat-prasowy/" target="_blank">Poland</a>
                         </li>
-                    
+
                         <li>
                             <a title="Portugal" href="/pt/comunicados-de-imprensa/" target="_blank">Portugal</a>
                         </li>
-                    
+
                         <li>
                             <a title="Russia" href="/ru/press-releases/" target="_blank">Russia</a>
                         </li>
-                    
+
                         <li>
                             <a title="Slovakia" href="/sk/tlacova-sprava/" target="_blank">Slovakia</a>
                         </li>
-                    
+
                         <li>
                             <a title="Spain" href="/es/comunicados-de-prensa/" target="_blank">Spain</a>
                         </li>
-                    
+
                         <li>
                             <a title="Sweden" href="/sv/pressmeddelanden/" target="_blank">Sweden</a>
                         </li>
-                    
+
                         <li>
                             <a title="United Kingdom" href="https://www.prnewswire.co.uk/" target="_blank">United Kingdom</a>
                         </li>
-                    
+
                         <li>
                             <a title="Vietnam" href="https://www.prnewswire.com/vn/" target="_blank">Vietnam</a>
                         </li>
-                    
-                
+
+
             </ul>
         </div>
 
@@ -2687,7 +2687,7 @@ Opted In
 </div>
 
 <div class='hidden-xs'>
-						
+
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12 hidden-xs">
@@ -2695,36 +2695,36 @@ Opted In
 <div class="footerList">
 
 <div class="footer-head">
-         
+
 			<h2>My Services</h2>
-			
+
         </div>
-    
-     
+
+
 		<ul class="list-unstyled">
-        
-            
-                
+
+
+
                 <li>
-                    <a class="omniture-footer-main" title="All New Releases" href="/news-releases/" target="_self">All New Releases</a>   
+                    <a class="omniture-footer-main" title="All New Releases" href="/news-releases/" target="_self">All New Releases</a>
                 </li>
-            
+
                 <li>
                 <a class="omniture-footer_subsites" title="Platform" href="https://portal.prnewswire.com/Login.aspx" target="_blank">Platform</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="ProfNet" href="https://profnet.prnewswire.com/ProfNetHome/What-is-Profnet.aspx" target="_blank">ProfNet</a>
                 </li>
-                
-            
+
+
                 <li>
                 <a class="omniture-footer_subsites" title="Data Privacy" href="https://gdpr.cision.com/" target="_blank">Data Privacy</a>
                 </li>
-                
-            
-        
+
+
+
 		</ul></div>
 
 <div class="customrte">
@@ -2745,7 +2745,7 @@ Opted In
 </div>
 
 <div>
-						
+
 					</div>
 				</div>
 				<!-- Footer Mobile View Specific Code -->
@@ -2754,11 +2754,11 @@ Opted In
 <div class="footer-head">
         	<h2><a href="/contact-us" target="_self">Contact PR Newswire</a></h2>
         </div>
-    
+
     	<div class="footer-head">
         	<h2><a href="/products/overview" target="_self">Products</a></h2>
         </div>
-    
+
     	<div class="footer-head">
         	<h2><a href="/about-pr-newswire" target="_self">About</a></h2>
         </div>
@@ -2768,18 +2768,18 @@ Opted In
 
 <a href="" title="" class="dropdown-toggle icon-toggle mobile-my-services hidden-lg hidden-sm" data-toggle="dropdown" data-icon-toggle="footer-services-dropup">My Services <i class="btr bt-angle-up"></i></a>
         <ul class="dropdown-menu">
-            
-                
+
+
                     <li><a title="All News Releases" href="/news-releases/" target="_self">All News Releases</a>
                     </li>
-                
+
                     <li><a title="Platform" href="https://portal.prnewswire.com/Login.aspx" target="_blank">Platform</a>
                     </li>
-                
+
                     <li><a title="ProfNet" href="https://profnet.prnewswire.com/ProfNetHome/What-is-Profnet.aspx" target="_blank">ProfNet</a>
                     </li>
-                
-            
+
+
         </ul>
 
 </div>
@@ -2802,21 +2802,21 @@ Opted In
                 <div class="row">
                   <div class="col-md-9 col-sm-9 col-lg-9 col-xs-12">
                     <ul>
-                        
-                          
+
+
                           	<li><a class="omniture-footer-links" href="/terms-of-use/" title="Terms of Use" target="_self">Terms of Use</a></li>
-                          
+
                           	<li><a class="omniture-footer-links" href="https://www.cision.com/legal/privacy-policy/" title="Privacy Policy" target="_blank">Privacy Policy</a></li>
-                          
+
                           	<li><a class="omniture-footer-links" href="/prn-information-security-policy/" title="Information Security Policy" target="_self">Information Security Policy</a></li>
-                          
+
                           	<li><a class="omniture-footer-links" href="/sitemap/" title="Site Map" target="_self">Site Map</a></li>
-                          
+
                           	<li><a class="omniture-footer-links" href="/rss/" title="RSS" target="_self">RSS</a></li>
-                          
+
                           	<li><a class="omniture-footer-links" href="/cookies/" title="Cookies" target="_self">Cookies</a></li>
-                          
-                        
+
+
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 ">

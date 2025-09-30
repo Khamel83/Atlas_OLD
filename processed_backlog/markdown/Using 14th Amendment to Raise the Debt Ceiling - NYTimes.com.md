@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • July 25, 2011 
+Unknown author • July 25, 2011
 
 ![nytimes.com]()
 

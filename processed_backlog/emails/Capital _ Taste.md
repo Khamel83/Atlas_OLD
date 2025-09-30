@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/capital-and-taste
 
-Welcome to the 2,139 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 162,527 smart, curious folks by subscribing here: 
+Welcome to the 2,139 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 162,527 smart, curious folks by subscribing here:
 🎧  For the audio version, listen on Spotify [ https://substack.com/redirect/a058683b-676f-4a95-ad5f-4e4cbee1a69b?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/7e03fdd5-0e21-42eb-9295-3020c0917c4a?r=9p0gt ]
 Today’s Not Boring, the whole thing, is brought to you by… Capital [ https://substack.com/redirect/f6f9198f-5ccc-4d58-a0d3-b72acaa90610?r=9p0gt ]
 Capital [ https://substack.com/redirect/f6f9198f-5ccc-4d58-a0d3-b72acaa90610?r=9p0gt ] is banking built for founders. If that sounds like you, sign up for a Capital account today [ https://substack.com/redirect/f6f9198f-5ccc-4d58-a0d3-b72acaa90610?r=9p0gt ], whether you’re just raising your first million or doing millions in ARR.

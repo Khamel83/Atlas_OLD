@@ -70,9 +70,9 @@ We'll create a simple OPML file with a podcast feed:
   </head>
   <body>
     <outline text="Technology">
-      <outline 
-        title="Tech Podcast" 
-        type="rss" 
+      <outline
+        title="Tech Podcast"
+        type="rss"
         xmlUrl="https://example.com/tech-podcast.xml" />
     </outline>
   </body>

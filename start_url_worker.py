@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 
 class URLWorker:
     """Worker to process URL jobs from the unified queue"""
-    
+
     def __init__(self, db_path="data/atlas.db"):
         self.db_path = db_path
         self.worker_id = f"url_worker_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -36,34 +36,34 @@ class URLWorker:
         # Import and initialize the strategy progression engine
         from helpers.strategy_progression_engine import StrategyProgressionEngine
         self.workflow_engine = StrategyProgressionEngine(db_path)
-    
+
     def get_next_job(self):
         """Get next URL processing job from queue"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.execute("""
-                UPDATE worker_jobs 
+                UPDATE worker_jobs
                 SET status = 'running', assigned_worker = ?, assigned_at = ?
                 WHERE id = (
-                    SELECT id FROM worker_jobs 
+                    SELECT id FROM worker_jobs
                     WHERE status = 'pending' AND type = 'url_processing'
-                    ORDER BY priority DESC, created_at ASC 
+                    ORDER BY priority DESC, created_at ASC
                     LIMIT 1
                 )
                 RETURNING id, type, data, priority, status, created_at
             """, (self.worker_id, datetime.now().isoformat()))
-            
+
             row = cursor.fetchone()
             if row:
                 return {
                     'id': row[0],
-                    'type': row[1], 
+                    'type': row[1],
                     'data': json.loads(row[2]),
                     'priority': row[3],
                     'status': row[4],
                     'created_at': row[5]
                 }
             return None
-    
+
     def process_url_job(self, job):
         """Process a single URL job using the content processing pipeline"""
         try:
@@ -113,7 +113,7 @@ class URLWorker:
             logger.error(f"❌ {error_msg}")
             self.fail_job(job['id'], error_msg)
             return False
-    
+
     def complete_job(self, job_id, result):
         """Mark job as completed"""
         with sqlite3.connect(self.db_path) as conn:
@@ -135,14 +135,14 @@ class URLWorker:
                 WHERE id = ?
             """, (datetime.now().isoformat(), error, job_id))
             conn.commit()
-    
+
     def run(self):
         """Main worker loop"""
         logger.info(f"🚀 Starting URL worker {self.worker_id}")
         self.running = True
-        
+
         processed_count = 0
-        
+
         while self.running:
             try:
                 job = self.get_next_job()
@@ -154,14 +154,14 @@ class URLWorker:
                 else:
                     # No jobs available, wait a bit
                     time.sleep(5)
-                    
+
             except KeyboardInterrupt:
                 logger.info("👋 Worker stopped by user")
                 break
             except Exception as e:
                 logger.error(f"Worker error: {e}")
                 time.sleep(10)  # Wait before retrying
-        
+
         logger.info(f"✅ Worker finished. Processed {processed_count} URLs total")
 
 def main():

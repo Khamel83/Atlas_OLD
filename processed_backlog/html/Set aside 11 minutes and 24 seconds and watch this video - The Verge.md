@@ -10,7 +10,7 @@
 
 # Set aside 11 minutes and 24 seconds and watch this video
 
- / 
+ /
 
 ## This video has too many cooks
 
@@ -50,7 +50,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207091504im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207091504/http://theverge.com/)
 

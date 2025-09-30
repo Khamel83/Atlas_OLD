@@ -38,7 +38,7 @@
   </script>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v21.5) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>The Dedicated Support Crews Behind the Brutal Badwater 135</title>
 	<meta name="description" content="Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible." />
@@ -152,7 +152,7 @@ body.search-is-active .c-search-modal {
 	  padding-top: 220px;
   }
 }		</style>
-		
+
     <!-- global js vars -->
 <script id="js_gpt_ad_vars">
     var gpt_ad_vars = {"id":"21732621108","property":"outside_online","wordcount":"300","uam":"","abv":"ool","disableAds":false,"disableInArticleJwPlayer":true,"targets":{"env":"production","ID":"2711756","Type":"post-flexible-layout","Title":"What It Takes to Crew the Hardest Race on Earth","Category":"outdoor-adventure","Subcategory":"exploration-survival","Tag":"evergreen,outside-features,ultrarunning","ad_cat":""}};
@@ -205,9 +205,9 @@ body.search-is-active .c-search-modal {
   <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
       <script async src="data:text/javascript,%20%20%20%20%28function%20%28%29%20%7B%20%20%20%20%20%20function%20getCookie%28name%29%20%7B%20%20%20%20%20%20%20%20const%20value%20%3D%20%60%3B%20%24%7Bdocument.cookie%7D%60%3B%20%20%20%20%20%20%20%20const%20parts%20%3D%20value.split%28%60%3B%20%24%7Bname%7D%3D%60%29%3B%20%20%20%20%20%20%20%20if%20%28parts.length%20%3D%3D%3D%202%29%20return%20parts.pop%28%29.split%28%27%3B%27%29.shift%28%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20trackConsentClick%28type%29%20%7B%20%20%20%20%20%20%20%20const%20eventName%20%3D%20%27Element%20Clicked%27%3B%20%20%20%20%20%20%20%20const%20payload%20%3D%20%7B%20%20%20%20%20%20%20%20%20%20name%3A%20%60cookie-consent-%24%7Btype%7D%60%2C%20%20%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20%20%20const%20track%20%3D%20window%3F.analytics%3F.track%3B%20%20%20%20%20%20%20%20if%20%28track%29%20%7B%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%7D%20else%20%7B%20%20%20%20%20%20%20%20%20%20document.addEventListener%28%27analyticsReady%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20function%20registerConsentListener%28dataLayer%2C%20securitiEventName%2C%20analyticsEventName%29%20%7B%20%20%20%20%20%20%20%20dataLayer.push%28%5B%20%20%20%20%20%20%20%20%20%20securitiEventName%2C%20%20%20%20%20%20%20%20%20%20%28sdk%2C%20consent%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20trackConsentClick%28analyticsEventName%29%3B%20%20%20%20%20%20%20%20%20%20%7D%2C%20%20%20%20%20%20%20%20%5D%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20function%20parseJwt%28token%29%20%7B%20%20%20%20%20%20%20%20const%20base64Url%20%3D%20token.split%28%27.%27%29%5B1%5D%3B%20%20%20%20%20%20%20%20const%20base64%20%3D%20base64Url.replace%28%2F-%2Fg%2C%20%27%2B%27%29.replace%28%2F_%2Fg%2C%20%27%2F%27%29%3B%20%20%20%20%20%20%20%20const%20jsonPayload%20%3D%20decodeURIComponent%28atob%28base64%29.split%28%27%27%29.map%28function%28c%29%20%7B%20%20%20%20%20%20%20%20%20%20return%20%27%25%27%20%2B%20%28%2700%27%20%2B%20c.charCodeAt%280%29.toString%2816%29%29.slice%28-2%29%3B%20%20%20%20%20%20%20%20%7D%29.join%28%27%27%29%29%3B%20%20%20%20%20%20%20%20return%20JSON.parse%28jsonPayload%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20window.s__c%20%3D%20true%3B%20%20%20%20%20%20window.addEventListener%28%27message%27%2C%20function%28ev%29%20%7B%20%20%20%20%20%20%20%20if%20%28ev.data.message%20%3D%3D%3D%20%27consent_given%27%29%20%7B%20%20%20%20%20%20%20%20%20%20if%20%28%21window.s__c_i_g%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20setTimeout%28%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.s__c_i_g%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%201%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20window.s__c_g%20%3D%20ev.data.consentStatuses%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20var%20s%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20s.src%20%3D%20%27https%3A%2F%2Fcdn-prod.securiti.ai%2Fconsent%2Fcookie-consent-sdk-loader.js%27%3B%20%20%20%20%20%20s.setAttribute%28%27data-tenant-uuid%27%2C%20%27b9175515-2a76-4948-b708-5ea88d27483c%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-domain-uuid%27%2C%20window.securiti_id%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-backend-url%27%2C%20%27https%3A%2F%2Fapp.securiti.ai%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-skip-css%27%2C%20%27false%27%29%3B%20%20%20%20%20%20s.defer%20%3D%20true%3B%20%20%20%20%20%20var%20parent_node%20%3D%20document.head%20%7C%7C%20document.body%3B%20%20%20%20%20%20parent_node.appendChild%28s%29%3B%20%20%20%20%20%20s.addEventListener%28%27load%27%2C%20function%28%29%20%7B%20%20%20%20%20%20%20%20window.initCmp%28%29%3B%20%20%20%20%20%20%20%20window.SecuritiDataLayer%20%3D%20window.SecuritiDataLayer%20%7C%7C%20%5B%5D%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickAccept%27%2C%20%27accepted%27%29%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickDismiss%27%2C%20%27declined%27%29%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20const%20pidCookie%20%3D%20getCookie%28%27_pid%27%29%3B%20%20%20%20%20%20%20%20%20%20if%20%28pidCookie%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20const%20pidPayload%20%3D%20parseJwt%28pidCookie%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.setConsentBannerParams%28%7Buuid%3A%20pidPayload.uuid%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20console.log%28%27Consent%20banner%20params%20set%20with%27%2C%20pidPayload.uuid%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%7D%20catch%20%28error%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27Error%20setting%20consent%20banner%20params%27%2C%20error%29%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%7D%29%28%29%20%20"></script>
   <!-- Securiti Cookies Consent Notice end  -->
-      
-  
-    
+
+
+
 <script>
   (function(h,o,u,n,d) {
     h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
@@ -230,7 +230,7 @@ body.search-is-active .c-search-modal {
       allowedTracingUrls: ['prod-api.rivt.com', 'accounts.outsideonline.com']
     });
   })
-</script>  
+</script>
 <!-- Permutive Script -->
 <script async src="data:text/javascript,%28function%20%28%29%20%7B%20%20%20%20const%20WORKSPACE_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20const%20WORKSPACE_API_KEY%20%3D%20%27e288066f-1695-4790-bb1b-104f4845302f%27%3B%20%20%20%20const%20ORGANIZATION_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20let%20hasLoadedPermutive%20%3D%20false%3B%20%20%20%20%20%20%20%20const%20analyticsData%20%3D%20%7B%22authors%22%3A%5B%22Devin%20Kelly%22%5D%2C%22categories%22%3A%5B%22outdoor-adventure%2Cexploration-survival%22%5D%2C%22tags%22%3A%5B%22evergreen%22%2C%22outside-features%22%2C%22ultrarunning%22%5D%2C%22domain%22%3A%22%3C%3Canalytics_vars.domain%3E%3E%22%2C%22post_uuid%22%3A%223a0f29719b11c9cd6219e3fbe7ad49a6%22%2C%22publish_date%22%3A%22July%2029%2C%202025%22%2C%22title%22%3A%22What%20It%20Takes%20to%20Crew%20the%20Hardest%20Race%20on%20Earth%22%7D%3B%20%20%20%20const%20categoriesArray%20%3D%20analyticsData%3F.categories%3F.%5B0%5D%3F.split%28%27%2C%27%29%20%7C%7C%20%5B%5D%3B%20%20%20%20const%20membershipRawData%20%3D%20localStorage.getItem%28%27pom_user_props%27%29%3B%20%20%20%20const%20membershipData%20%3D%20membershipRawData%20%3F%20JSON.parse%28membershipRawData%29%20%3A%20%7B%7D%3B%20%20%20%20const%20data%20%3D%20%7B%20%20%20%20%20%20%22Authors%22%3A%20analyticsData%3F.authors%20%7C%7C%20%5B%5D%2C%20%20%20%20%20%20%22SubCategory%22%3A%20categoriesArray.length%20%3E%200%20%3F%20%5BcategoriesArray%5BcategoriesArray.length%20-%201%5D%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22categories%22%3A%20categoriesArray%2C%20%20%20%20%20%20%22membership_type%22%3A%20membershipData.membership_type%20%3F%20%5BmembershipData.membership_type%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22page_type%22%3A%20%5Banalytics_vars.page_type%5D%2C%20%20%20%20%20%20%22signedIn%22%3A%20document.cookie.indexOf%28%22_pid%3D%22%29%20%3E%20-1%20%3F%20true%20%3A%20false%2C%20%20%20%20%20%20%22tags%22%3A%20analyticsData%3F.tags%20%7C%7C%20%5B%5D%20%20%20%20%7D%3B%20%20%20%20function%20loadPermutiveScript%28%29%20%7B%20%20%20%20%20%20%20%20if%20%28hasLoadedPermutive%20%7C%7C%20%28%21localStorage.getItem%28%27ampflags%27%29%3F.includes%28%27%22enable-permutive%22%3Atrue%27%29%20%26%26%20%21location.search.includes%28%27permutive%3Dy%27%29%29%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20return%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20hasLoadedPermutive%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%21function%28e%2Co%2Cn%2Ci%29%7Bif%28%21e%29%7Be%3De%7C%7C%7B%7D%2Cwindow.permutive%3De%2Ce.q%3D%5B%5D%3Bvar%20t%3Dfunction%28%29%7Breturn%28%5B1e7%5D%2B-1e3%2B-4e3%2B-8e3%2B-1e11%29.replace%28%2F%5B018%5D%2Fg%2Cfunction%28e%29%7Breturn%28e%5E%28window.crypto%7C%7Cwindow.msCrypto%29.getRandomValues%28new%20Uint8Array%281%29%29%5B0%5D%2615%3E%3Ee%2F4%29.toString%2816%29%7D%29%7D%3Be.config%3Di%7C%7C%7B%7D%2Ce.config.apiKey%3Do%2Ce.config.workspaceId%3Dn%2Ce.config.environment%3De.config.environment%7C%7C%22production%22%2C%28window.crypto%7C%7Cwindow.msCrypto%29%26%26%28e.config.viewId%3Dt%28%29%29%3Bfor%28var%20g%3D%5B%22addon%22%2C%22identify%22%2C%22track%22%2C%22trigger%22%2C%22query%22%2C%22segment%22%2C%22segments%22%2C%22ready%22%2C%22on%22%2C%22once%22%2C%22user%22%2C%22consent%22%5D%2Cr%3D0%3Br%3Cg.length%3Br%2B%2B%29%7Bvar%20w%3Dg%5Br%5D%3Be%5Bw%5D%3Dfunction%28o%29%7Breturn%20function%28%29%7Bvar%20n%3DArray.prototype.slice.call%28arguments%2C0%29%3Be.q.push%28%7BfunctionName%3Ao%2Carguments%3An%7D%29%7D%7D%28w%29%7D%7D%7D%28window.permutive%2CWORKSPACE_API_KEY%2CWORKSPACE_ID%2C%7B%22consentRequired%22%3A%20true%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.googletag%3Dwindow.googletag%7C%7C%7B%7D%2Cwindow.googletag.cmd%3Dwindow.googletag.cmd%7C%7C%5B%5D%2Cwindow.googletag.cmd.push%28function%28%29%7Bif%280%3D%3D%3Dwindow.googletag.pubads%28%29.getTargeting%28%22permutive%22%29.length%29%7Bvar%20e%3Dwindow.localStorage.getItem%28%22_pdfps%22%29%3Bwindow.googletag.pubads%28%29.setTargeting%28%22permutive%22%2Ce%3FJSON.parse%28e%29%3A%5B%5D%29%3Bvar%20o%3Dwindow.localStorage.getItem%28%22permutive-id%22%29%3Bo%26%26%28window.googletag.pubads%28%29.setTargeting%28%22puid%22%2Co%29%2Cwindow.googletag.pubads%28%29.setTargeting%28%22ptime%22%2CDate.now%28%29.toString%28%29%29%29%2Cwindow.permutive.config.viewId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvvid%22%2Cwindow.permutive.config.viewId%29%2Cwindow.permutive.config.workspaceId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvwid%22%2Cwindow.permutive.config.workspaceId%29%7D%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20permutive.addon%28%27web%27%2C%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22page%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22oolsites%22%3A%20data%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20script%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20%20%20script.src%20%3D%20%60https%3A%2F%2F%24%7BORGANIZATION_ID%7D.edge.permutive.app%2F%24%7BWORKSPACE_ID%7D-web.js%60%3B%20%20%20%20%20%20%20%20script.async%20%3D%20true%3B%20%20%20%20%20%20%20%20document.head.appendChild%28script%29%3B%20%20%20%20%7D%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20window.addEventListener%28%27flagsready%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20%7D%29%3B%7D%29%28%29"></script>
 <!-- Securiti Cookies Consent Notice end  -->
@@ -278,7 +278,7 @@ body.search-is-active .c-search-modal {
         </a>
       </div>
     </div>
-  
+
         <div class="c-thinbanner c-thinbanner--standard js-thin-banner">
       <div class="l-wrap">
         <a href="/membership?utm_medium=on-site&utm_source=outsideonline&utm_term=presale&utm_content=thinbanner&utm_campaign=warrenmiller2025" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "thinbanner-cta", "type": "link"}}'>
@@ -342,7 +342,7 @@ body.search-is-active .c-search-modal {
 
 <script>
   window.featuredMenuItemData = null;
-  
+
   window.SITE_BASE_URL = 'https://accounts.outsideonline.com/oidc-frontend';
 
 </script>
@@ -528,25 +528,25 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 </header>
 
 <div class="c-sub-header">
-  
+
     </div>
 
 <div class="c-search-modal">
-        
+
   <button role="button" class="o-button c-search-modal__close js-toggle"    aria-label=Close data-toggled=.search-is-active data-prefix=search>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
               </button>
   <div class="c-search-modal__form l-container--s u-padding">
-    
+
 <form class="c-search-form" id="search-form" action="https://www.outsideonline.com" method="get" accept-charset="UTF-8" role="search">
   <fieldset class="c-search-form__fieldset o-fieldset">
     <label class="o-form-item__label is-vishidden" for="s">Search</label>
     <input class="o-form-item__search" name="s" id="s" type="text" value="" placeholder="Search Outside">
-          
+
   <button role="button" class="o-button o-form-item__button"    aria-label=Search>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.41 20.41"><path d="M20.41,19l-5.76-5.76a8.24,8.24,0,1,0-1.41,1.41L19,20.41ZM2,8.2a6.2,6.2,0,1,1,6.2,6.2A6.21,6.21,0,0,1,2,8.2Z"></path></svg>  </span>
               <span>Search</span>
@@ -561,8 +561,8 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
   </div>
       <main role="document">
                                 <div class="c-hero-media__image c-hero-media__image--longform js-toggle"  data-prefix=content-modal data-toggled=body>
-                            
-    
+
+
   <picture class="o-picture">
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
               <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=1600&enable=upscale&quality=100" media="(min-width: 1200px)">
@@ -570,25 +570,25 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
               <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=960&enable=upscale&quality=100" media="(min-width: 720px)">
               <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=1:1&width=720&enable=upscale&quality=100" media="(min-width: 500px)">
             <!--[if IE 9]></video><![endif]-->
-              
+
       <img  class="o-image no-lazy"
             src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=1:1&width=600&enable=upscale&quality=100"
     alt="ultrarunners line up at the start of the Badwater 135"
-                
+
   />
   </picture>
-    
+
           <div class="c-hero-media__credit o-small">(Photo: Matt Shapiro)</div>
-    
-    
+
+
   </div>
               <div class="l-content-wrap l-wrap">
           <div class="l-main l-container">
 
 <div class="c-content-modal">
-        
+
   <button role="button" class="o-button c-content-modal__close js-toggle"    aria-label=Close data-toggled=body data-prefix=content-modal>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
               </button>
@@ -596,12 +596,12 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
     <div class="c-content-modal__body">
 
 <div class="c-content-modal-media__image">
-                
+
   <figure class="o-figure">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=1200&enable=upscale 1200w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=25:14&width=500&enable=upscale"
@@ -609,7 +609,7 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
               height="405"
               width="720"
                     style="--aspect-ratio:720/405" data-aspect-ratio
-    
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Runners at the start of the Badwater 135 as the sun sets and the race begins (Photo: Matt Shapiro)</figcaption>
@@ -623,14 +623,14 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
   <div class="c-content-single-flexible-layout__wrap l-container has-sidebar">
     <div class="c-content-single-flexible-layout__container l-container--m u-spacing--double">
       <div class="c-content-single-flexible-layout__header u-spacing">
-                                    
+
   <h1 class="o-heading o-heading__secondary o-heading__secondary--xxl">
           What It Takes to Crew the Hardest Race on Earth
       </h1>
-            
+
   <hr class="o-hr o-hr--yellow">
-            
-    
+
+
   <div class="o-meta">
 
 <div class="o-meta-date">
@@ -641,26 +641,26 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
         </time>
       </span>
       </div>
-    
+
           </div>
-            
-        
+
+
   <div bp="7--max" class="o-dek o-dek--large">
     <p>Every year, ultrarunners sign up to compete in a brutal race that stretches 135 miles across Death Valley in the high heat of summer. Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible.</p>
   </div>
-                  
+
   <hr class="o-hr o-hr--small">
       </div>
               <div class="c-content-single-flexible-layout__content u-spacing--double" data-hide-els="main + main">
           <div class="c-content-single-flexible-layout__body">
-                          
+
   <div class="o-content-cta">
     <p class="o-content-cta-text">
-      New perk: Easily find new routes and hidden gems, upcoming running events, and more near you. Your weekly Local Running Newsletter has everything you need to lace up! 
+      New perk: Easily find new routes and hidden gems, upcoming running events, and more near you. Your weekly Local Running Newsletter has everything you need to lace up!
       <a href="https://run.outsideonline.com/get-all-the-latest-from-your-running-community/" class="o-content-cta-link" data-analytics-event="click" data-analytics-data='{"name":"Element Clicked","props":{"destination_url":"https://run.outsideonline.com/get-all-the-latest-from-your-running-community/","domain":"<<analytics_vars.domain>>","name":"in-content-cta","type":"link"}}'>Subscribe today</a>.
     </p>
   </div>
-                              
+
     <div class="o-rich-text  has-dropcap"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>Just past midnight somewhere along the long road between Darwin and Lone Pine, California, driving a car littered with Cheez-It boxes, baby wipes, and crushed cans of energy drinks and coffee, Andrew Boyd tried to decide if he should tell Kaylee Frederick something important. As the crew chief of Frederick’s third consecutive Badwater 135 run, Boyd was the keeper of the pace secrets. Not even Frederick knew whether she was on pace to achieve her goal of besting the 20 to 29 female age group record of 32 hours and 31 minutes. She had spent the previous day listening to Boyd’s encouragement, and now, in the darkness outside of Death Valley, she was just hours away from breaking 32. She would need, however, to dig deep—to run most of the way up Mount Whitney’s Portal Road. The margins were too close; she didn’t have time to take a break or a quick nap. Every step, truly, had to count.</p>
 <p>Boyd knew this. I noticed the mischievous, whimsical shift in his tone that I had come to recognize over the past two days. He turned to the other two members of Frederick’s crew: Liz Myers and Marissa Sisson, his thought-partners in crime.</p>
@@ -686,35 +686,35 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
         </div>
           </main>
       <section class="c-flexible-layout-modules u-spacing--double ">
-    
+
   <div class="c-flexible-layout u-spacing--double">
-                  
-                
+
+
   <div class="c-layout-image c-layout-image--full-bleed ">
     <div class="c-layout-image__container ">
-            
+
   <figure class="o-figure c-layout-image__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=5:8&width=375&enable=upscale 375w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=5:8&width=500&enable=upscale 500w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=1600&enable=upscale 1600w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?width=500&enable=upscale"
     alt="runner posing with american flag at badwater basin sign"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Kaylee Frederick posing at the beginning of the Badwater 135, at Badwater Basin, 282 feet below sea level. (Photo: Matt Shapiro)</figcaption>
       </figure>
     </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>Held in the high heat of the summer in the middle of Death Valley, Badwater 135 is billed as the toughest footrace on earth. Despite the focus in our culture on the limitless potential of individual athletes, the truth is that a race like Badwater shows the deep limitations that each human has if they are not supported by other humans.</p>
 <p>As the race director, Chris Kostman, announced at the athlete briefing, “Seven times more people have summited Mount Everest than have completed this race.” The race begins at the lowest point in North America, the Badwater Basin, which sinks 282 feet below sea level, and where temperatures routinely top out above 120 degrees. (This year, with reported temperatures ranging from 116 to 118 degrees, was labeled a “cool year” by seasoned racers.) From there, the race summits two mountain passes before climbing to the top of Whitney Portal Road, where it finishes above 8,000 feet, right at the base of the hiking trail that climbs to the top of the continental United States’s highest peak. The race begins at nightfall. Runners emerge into morning light somewhere near the mile 42 checkpoint at the small waypoint of Stovepipe Wells, where, in 1926, the first hotel was built in Death Valley, just a few miles from a stovepipe that a thoughtful, considerate prospector shoved into a much-needed well so that travelers could find water that once was perpetually hidden under the valley’s sandy dunes. From there, racers begin a day of running that offers no shade and no respite from the sun. They suffer along a long and lonely road that warps with twirling mirages of heat, where even the wind feels less like a breeze and more like swallowing the inner workings of an oven that has been burning for centuries.</p>
@@ -731,38 +731,38 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
     </div>
   </section>
-                        
+
   <div class="c-layout-image-with-blockquote">
     <div class="c-layout-image-with-blockquote__container">
-        
+
   <pullquote class="o-pullquote c-layout-image-with-blockquote__pullquote u-shift--left--at-large has-figcaption" >
     <div class="o-pullquote__container">
               “Seven times more people have summited Mount Everest than have completed this race.”
                 </div>
   </pullquote>
-            
+
   <figure class="o-figure c-layout-image-with-blockquote__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=8:3&width=1600&enable=upscale 1600w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=25:14&width=500&enable=upscale"
     alt="desert road with mountains in back and runner running"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Canadian runner Jeff Pelletier on the course (Photo: Floris Gierman)</figcaption>
       </figure>
     </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>Thinking of crewing someone as they run through Death Valley is like thinking of crewing someone as they run through a 146,000,000,920-square-foot pizza oven. It is a strange place. I noticed, upon arrival, that everything is named after the devil. Devil’s Cornfield. Devil’s Golf Course. If the devil lived in a miner’s cabin, I am sure it would be alongside Furnace Creek, which is where the devil bathes. There are ghost towns, like Cerro Gordo, hidden high in the hills, at the tail end of roads that snake their way through canyons where vultures no longer fly, the bones of long-dead miners already picked clean. And there are the remnants of small industries built around sulfate and borax, the latter of which is used to kill insects. I saw, once, a lone dragonfly float above the road. But only once. And yet, there is still life.</p>
 <p>A small town of Darwin, five miles up from Owens Lake, has a town population sign that reads “50…Or So.” There, I met a woman named Ursula, who drives down to watch the race each year. In town, there are over a dozen sculptures in plain view, scattered into different people’s yards. Some are porcelain bone-white, gesturing at the soft sensuality of bodies. Others: a remarkable, polished darkness. Cubes of what must be granite, shined so bright and so smooth I could have cleaned my teeth with them as my mirror. Above, a sun burned the ends of my hair. Sometimes in the Valley, you realize that you are the only proof of life. Nothing is a ghost town if you are standing in it. However, for two days in July, this long and lonely road through the desert is filled with people.</p>
@@ -782,48 +782,48 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
     </div>
   </section>
-                        
-  
+
+
   <div class="c-layout-image-side-by-side l-wrap">
     <div class="c-layout-image-side-by-side__container l-container">
-                                              
+
   <figure class="o-figure c-layout-image-side-by-side__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/the-k.jpg?crop=1:1&width=720&enable=upscale 720w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/the-k.jpg?crop=1:1&width=500&enable=upscale"
     alt="runner with crew member and glowing K"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Frederick posing at the van with the neon K next to crew member Marissa Sisson (Photo: Devin Kelly)</figcaption>
       </figure>
-                                              
+
   <figure class="o-figure c-layout-image-side-by-side__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/strong-mind.jpg?crop=1:1&width=720&enable=upscale 720w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/strong-mind.jpg?crop=1:1&width=500&enable=upscale"
     alt=""Strong mind, strong finish" written on arm"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">A reminder written on Frederick's arm: "Strong mind, strong finish" (Photo: Devin Kelly)</figcaption>
       </figure>
           </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>The race started at seemingly just the moment that the sky turned an unimaginable shade of darkness: blue-black and deep. The runners became headlamps and neon vests, little dots of light bouncing along the horizon line. At the start of the race, Frederick maintained a steady, relaxed pace, with Boyd ecstatic about her quiet confidence. On Frederick’s arm, written in Sharpie, was the phrase <i>Strong mind, strong finish</i>.</p>
 <p>The crewing began the moment the race did, with Boyd driving a few miles ahead and pulling to the side of the road along with other support vehicles. We searched for Frederick’s lamp-lit arrival under a night sky freckled with stars. This announced the cadence of the day. Frederick kept running through our early aid stations, slowing just enough to grab a new handheld bottle while we spritzed her down with cold water. Even at 10 P.M., it was still 103 degrees. As she ran away, the crew discussed. Sisson wrote down notes in her spreadsheets. She measured the water level of each bottle Frederick returned. She did this calmly. And then she calmly let us know something: Frederick wasn’t drinking enough—only 6 to 8 ounces of each 16-ounce bottle. And so, Boyd’s work began.</p>
@@ -839,33 +839,33 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
     </div>
   </section>
-                        
-                
+
+
   <div class="c-layout-image c-layout-image--default l-wrap u-shift--left--at-large">
     <div class="c-layout-image__container l-container">
-            
+
   <figure class="o-figure c-layout-image__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=375&enable=upscale 375w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=500&enable=upscale 500w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=800&enable=upscale 960w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=500&enable=upscale"
     alt="running crew poses at race finish"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">From left: The author, Sisson, Frederick, Boyd, Myers (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
       </figure>
     </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>I set out to pace Frederick at mile 54, 18 miles before Panamint Springs, as she climbed up to Towne Pass, which sits at 5,000 feet. Before I went off, Boyd strapped an old-school gym interval trainer to my waist, which he set to beep at 100 seconds and then again at 20 seconds. “We need to keep her reined in,” Boyd told me. We’d powerhike for 100 seconds, and jog for 20. This is how Frederick climbed: steady, relentless, metronomic. When she summited the pass, the beeper came off, and Sisson paced a flying Frederick who seemed to careen downhill.</p>
 <p>The valley after Towne Pass feels like <i>the</i> Death Valley. From the summit of the pass, you can see the long road stretching out ahead, the waystop of Panamint Springs looming strange and surreal like some ancient town in the distance. In this oven-like chamber between two ridgelines, the heat swells. I could feel it in my mouth. I put my hand on the car’s window, and it simmered. At one aid stop, Sisson noticed Frederick’s legs were chewed up and red with pending heat rash, and she asked Frederick to stand still. Sisson got down on her knees and slathered Frederick’s legs in diaper rash cream. Right there. On the side of the road. By the end of the race, Frederick’s legs were so covered in the zinc-filled, pasty, and white rash cream that I imagine she could’ve been inches away from the sun and not been burned at all. As Frederick ran down that lone valley road, other runners dry-heaved in the distance. They were like twigs cracking under an invisible weight.</p>
@@ -884,38 +884,38 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
     </div>
   </section>
-                        
+
   <div class="c-layout-image-with-blockquote">
     <div class="c-layout-image-with-blockquote__container">
-        
+
   <pullquote class="o-pullquote c-layout-image-with-blockquote__pullquote u-shift--left--at-large has-figcaption" >
     <div class="o-pullquote__container">
               There were constellations decorating the night sky and constellations decorating the desert. It wasn’t the runners I saw; it was the crews.
                 </div>
   </pullquote>
-            
+
   <figure class="o-figure c-layout-image-with-blockquote__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=8:3&width=1600&enable=upscale 1600w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=25:14&width=500&enable=upscale"
     alt="crew member helps racer"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">A crew member helps a runner (Photo: Floris Gierman)</figcaption>
       </figure>
     </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>That small switch of mood, a gentle nudge towards joy, is part of the work of a crew. I remember how, the day after the race, I walked into Jake’s Saloon, Lone Pine’s lone bar—the kind of place with swinging doors, a trough to piss in, and a bartender who went to the local high school and has never left town. I pulled up to a table of crew members and pacers for other runners. Smelly, tired, smiling crackerjack smiles and drinking Coors Light, they were swapping stories of life <i>out there</i>. They reminded me of teachers at the school’s end-of-year happy hour. When I asked them about how they made it through, one person—Frank Bigham, who crewed 11th-place finisher David Bone—mentioned something similar to that marathon of miles I’d experienced with my crew. Bingham said the crew adopted a “pit stop crewing” mentality in the later stages of the race, trying to minimize any time spent standing or sitting still. Bingham said they kept repeating one phrase over and over again: “Stop is the enemy.”</p>
 <p>Frederick only stopped once in the time between miles 75 and the finish—at mile 104, along a straight road that seemed to never end. Myers set a five-minute timer, and Frederick put her cream-covered legs up on the car’s dashboard and drank a Mountain Dew. In the meantime, the crew was hard at work—lacing up new shoes, grabbing a fresh singlet, refilling bottles. When Frederick stood up, it was for the last time. She wouldn’t sit until the finish.</p>
@@ -931,48 +931,48 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
     </div>
   </section>
-                        
-  
+
+
   <div class="c-layout-image-side-by-side l-wrap">
     <div class="c-layout-image-side-by-side__container l-container">
-                                              
+
   <figure class="o-figure c-layout-image-side-by-side__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/finish-2.jpg?crop=1:1&width=720&enable=upscale 720w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/finish-2.jpg?crop=1:1&width=500&enable=upscale"
     alt="Frederick crossing the finish line"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Frederick crossing the finish line (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
       </figure>
-                                              
+
   <figure class="o-figure c-layout-image-side-by-side__image">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/hug.jpg?crop=1:1&width=720&enable=upscale 720w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/hug.jpg?crop=1:1&width=500&enable=upscale"
     alt="Sisson and Frederick hugging"
-                
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Sisson and Frederick hugging (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
       </figure>
           </div>
   </div>
-                        
+
   <section class="c-layout-text l-wrap l-content-wrap">
     <div class="l-main">
       <div class="l-container has-sidebar">
         <div class="c-layout-text__body l-container--m">
-                
+
     <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>At the finish line, the morning moon was disappearing, and the top of the Eastern Sierras began to glow with the burnt orange of morning. There were only a few people, I thought, closer to the sun or moon in the country than any of us were. I thought about how, 32 hours earlier, I had walked out into Badwater Basin on the salt flats, far enough away from the start line that I felt as close to alone as I could. There, nearly 300 feet below sea level, standing on a dried lakebed of thick, desert-like salt, I had the distinct sensation that no one else in the country was as far away from the moon as I was. In such a landscape, I felt more on the moon than on Earth. It was lonely. We are a lonely species despite our togetherness. But there is something about running through one of the loneliest stretches of land on Earth that reminds me of how much we need each other.</p>
 <p>It’s funny. A day after the race, a friend asked me: “Do you know who Michael Collins is?”</p>
@@ -989,7 +989,7 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
       <div class="l-container u-spacing">
                                       <div class="u-flex">
           <div class="c-utility-tray">
-                                        
+
           <script async src="data:text/javascript,%20%20%20%20%20%20function%20getFlags%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20let%20flags%20%3D%20initialFlags%3B%20%20%20%20%20%20%20%20if%20%28flags%29%20return%20flags.detail%3B%20%20%20%20%20%20%20%20const%20ampFlagStore%20%3D%20localStorage.getItem%28%27ampflags%27%29%3B%20%20%20%20%20%20%20%20if%20%28%21ampFlagStore%29%20return%20null%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20flags%20%3D%20JSON.parse%28ampFlagStore%29%3B%20%20%20%20%20%20%20%20%7D%20catch%20%28e%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27error%20parsing%20ampflags%3A%20%27%2C%20e%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20return%20flags%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20displayCommentButton%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20const%20flags%20%3D%20getFlags%28initialFlags%29%3B%20%20%20%20%20%20%20%20if%20%28flags%20%26%26%20flags%5B%27enable-comment-button%27%5D%29%20%7B%20%20%20%20%20%20%20%20%20%20const%20styleComment%20%3D%20document.createElement%28%27style%27%29%3B%20%20%20%20%20%20%20%20%20%20const%20commentLinks%20%3D%20document.querySelectorAll%28%22.js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8%22%29%3B%20%20%20%20%20%20%20%20%20%20commentLinks.forEach%28%28link%2C%20index%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20link.classList.remove%28%22u-hide%22%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20styleComment.innerText%20%2B%3D%20%27.o-utility-button.o-utility-button__comment%20%7Bdisplay%3A%20inline-flex%7D%27%3B%20%20%20%20%20%20%20%20%20%20document.head.appendChild%28styleComment%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20determineButtonsVisibility%28event%29%20%7B%20%20%20%20%20%20%20%20displayCommentButton%28event%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20determineButtonsVisibility%28%29%3B%20%20%20%20%20%20window.addEventListener%28%22flagsready%22%2C%20determineButtonsVisibility%2C%20false%29%3B%20%20%20%20"></script>
 
 <a class="js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8 o-utility-button o-utility-button__comment u-hide"
@@ -1001,30 +1001,30 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
       <div class='o-utility-button__icon comment'></div>
       <span>Comment</span>
     </a>
-  
+
           <out-high-five-reaction contentUid="https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/" displayCounter></out-high-five-reaction>
-  
+
   </div>
         </div>
-        
-  
+
+
   <div class="c-tags">
     <span class="c-tags__title">Filed to:</span>
     <ul class="c-tags__list">
                       <li class="c-tags__item" data-tag="evergreen">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/evergreen/" target="_self" >
               evergreen
           </a>
         </li>
                               <li class="c-tags__item" data-tag="outside-features">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/outside-features/" target="_self" >
               Long Reads
           </a>
         </li>
                               <li class="c-tags__item" data-tag="ultrarunning">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/ultrarunning/" target="_self" >
               Ultrarunning
           </a>
@@ -1038,7 +1038,7 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
       </div>
     </div>
   </section>
-    
+
 <div class="o-ad-footer l-wrap u-flex u-justify-content--center u-padding--double--top">
   <div class="o-ad o-ad--footer">
     <div class="js-ad" data-child-zone="footer-ool" data-size='["fluid",[970,250],[728,90],[468,60],[320,100],[320,50],[300,250],[300,100],[300,50],[336,280],[1,1]]' data-size-map='[[[1100, 0],[[970,250],[1,1]]],[[970, 0],[[728, 90],[468, 60],[1,1]]],[[728, 0],["fluid",[468, 60],[1,1]]],[[0, 0],["fluid",[300, 250],[320, 100],[300, 100],[320, 50],[300, 50],[336,280],[1,1]]]]'></div>
@@ -1050,11 +1050,11 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
                   <div class="c-main-footer__inner u-spacing--triple">
                       <section class="c-magazine-promo o-section u-spacing">
                               <h2 class="o-section__heading">Join Outside+</h2>
-              
+
                               <a class="c-magazine-promo__cover u-display--inline-block" href="/outsideplus">
                   <img class="lazy" data-src="https://cdn.outsideonline.com/wp-content/uploads/2023/10/Landing-Image-bottom-1-1.png?width=200" alt="" width="200" height="263">
                 </a>
-              
+
                               <div class="u-spacing--double u-space--triple--bottom">
                                       <p bp="4--max" class="c-magazine-promo__copy u-center-block u-font--secondary u-padding--half--right u-padding--half--left"><strong>Enjoy coverage of racing, history, food, culture, travel, and tech with access to unlimited digital content from Outside Network's iconic brands.</strong></p>
                                                         <a href="/outsideplus" class="c-magazine-promo__cta o-button o-button--gold" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "/outsideplus", "domain": "<<analytics_vars.domain>>", "name": "footer-print-subscribe", "type": "button"}}'>Learn More</a>

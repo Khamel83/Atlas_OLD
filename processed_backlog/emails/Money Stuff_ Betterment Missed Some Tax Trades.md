@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        “Any one may so arrange his affairs that his taxes shall be as low as possible,” said Learned Hand; “he is not bound to choose that pattern 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        “Any one may so arrange his affairs that his taxes shall be as low as possible,” said Learned Hand; “he is not bound to choose that pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Betterment
-    
-  
+
+
 
 “Any one may so arrange his affairs that his taxes shall be as low as possible,”  said Learned Hand; “he is not bound to choose that pattern which will best pay the Treasury; there is not even a patriotic duty to increase one’s taxes.” But what about the reverse? If you are an investment adviser with a fiduciary duty to your clients, do you have an obligation to minimize their taxes? You do have a duty to be loyal and diligent and do a good job for them; you try to maximize their risk-adjusted return, and generally speaking reducing taxes increases returns more reliably than does, like, having a lot of investment skill. “I will buy stocks that go up, so my clients have high returns”: hard to do. “I will sell stocks that have gone down and rotate into similar stocks to generate losses to shield my clients’ capital gains”: pretty straightforward as these things go.
 On the other hand, if you fail to minimize your clients’ taxes, it would be a little weird for a government regulator to come in and punish you. It’s not clear that government regulators have, you know, an interest in encouraging tax minimization? But here is a  US Securities and Exchange Commission enforcement action fining Betterment LLC $9 million for not fulfilling its fiduciary duty to minimize its customers’ taxes. Well, technically the fine is for advertising that it did a better job of minimizing taxes than it actually did:
@@ -66,37 +66,37 @@ The SEC’s order finds that, from 2016 to 2019, Betterment, in communicating wi
 For instance, for a while Betterment told clients that it  scanned their portfolios every day for tax-loss-harvesting opportunities, but in fact it was only scanning them every other day. Eventually it fixed this problem and went back to scanning them every day, but in the meantime “approximately 25,000 clients lost approximately $1.9 million in potential tax benefits as a result of the undisclosed change in scanning frequency.” The US government got $1.9 million more in revenue because Betterment was not checking every client’s portfolio every day to minimize taxes. Which was bad I guess.
 We   talked a while back about a  ProPublica investigation into tax-loss harvesting that big banks like Goldman Sachs Group Inc. do on behalf of their ultra-high-net-worth clients. ProPublica confronted Goldman with its findings and Goldman basically said, oh, right, a few of these trades were probably too aggressive, but for the most part (in ProPublica’s words) “the bank will continue its broader practice of finding similar stocks that achieve the same effect.” “It would be irresponsible not to,” I wrote: Goldman is a fiduciary, its customers are paying it for tax optimization, so it does the best job it can do of optimizing their taxes. One could object, on public-spiritedness grounds, but that really is the job. And if you don’t do it diligently, you will get in trouble.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath
-    
-  
+
+
 
 I just want to put it out there that a really interesting securities fraud lawsuit against Bed Bath & Beyond Inc. is, like, two weeks away.   Bloomberg News reports:
 
@@ -113,11 +113,11 @@ Somebody is buying Bed Bath stock today at $0.46, possibly from the company its
 On the one hand: If you are a company, you have some fiduciary obligations to your shareholders, and it seems like poor form to sell them stock moments before you file for bankruptcy and render the stock worthless. They will definitely be mad at you, and they will definitely be able to make some argument of the form “you knew more about the risks than you told us, and you tricked us into buying stock.” “  Everything is securities fraud,” I often say; every bad thing that happens to a company can also be characterized as securities fraud. Going bankrupt is bad, so there you go.
 On the other hand: You absolutely did not trick them. They tricked themselves, if anything, though you took advantage of their self-deception. US securities law is basically founded on full disclosure, and if you say “hey here’s some stock but FYI we’re about to go bankrupt,” then arguably you have done all that the law requires of you. (Also saying that might make people more likely to buy the stock? People love a dare.) Also if you are a company and you are moments away from bankruptcy, arguably your fiduciary obligations are to your creditors, not your shareholders, so going out and raising more money from shareholders so that you can immediately hand it over to creditors is exactly what you are supposed to be doing.
 
-  
-    
+
+
       Duration
-    
-  
+
+
 
 Bank runs are largely a self-reinforcing phenomenon: If people worry about a bank, they will take their money out, which will lead to the bank not having enough money, which will make more people worry and take their money out, etc.
 But the recent set of   bank runs in the US were caused largely by regional banks’ unrealized losses on their long-term bond portfolios as interest rates rose: The banks borrowed short-term from depositors to invest long-term in safe bonds, and as interest rates went up those bonds lost value, leaving the banks undercapitalized and causing depositors to flee. That is a partially self-reinforcing phenomenon: If your depositors are all fleeing, you have to sell bonds to get cash to give to the depositors, further driving down the bonds’ prices. (And the Fed stepped in to break this cycle in part by   promising to lend money against those bonds, so they don’t have to be sold.) 
@@ -146,11 +146,11 @@ I guess they should have hedged, but broadly speaking if you were a bank in 2020
   [4]
  The banking business model is inherently risky, and hedging it so that it is no longer risky also makes it no longer a business model.
 
-  
-    
+
+
       Gensler vs. crypto
-    
-  
+
+
 
 US Securities and Exchange Commission Chair Gary Gensler  testified at a hearing of the House Financial Services hearing yesterday about crypto regulation. We have   talked a   lot   about SEC   regulation of crypto recently, and I want to point out three things about his testimony.
 First of all,   my general view of crypto regulation in 2023 has been that Gensler and the SEC want to crack down on crypto, and the financial crisis in crypto last year — especially the failure of FTX Trading Ltd., whose   now-indicted leaders gave a lot of money to politicians to try to shape crypto regulation — has given them the political cover to do so. In 2021, people in crypto would say that the SEC’s posture was stifling innovation, and they’d get a sympathetic hearing in Congress and the press; in 2023, we have more data on how that innovation turned out, and there is less sympathy. 
@@ -167,11 +167,11 @@ Third, there was pushback against Gensler for not owning or using crypto. “I
 This seems like a simple mistake. Nobody asks the administrator of the Drug Enforcement Administration if she has ever used meth. “How can you regulate meth if you have never used meth” is a non sequitur. “How can you understand meth if you have never used meth,” similarly, has easy answers: You can look at the science and sociology of how it affects people, decide that it’s bad, and regulate it accordingly. 
 If you start from the assumption that crypto is the future of payments, or of the financial system, or of art or identity or the web or whatever, then, sure, the people regulating it should understand its mechanics and possibly be users and enthusiasts themselves. If you don’t start from that assumption, though, it seems reasonable to let the regulators examine the effects of crypto and decide whether it’s good or bad. I think it is plausible for a regulator to look at crypto’s track record in 2022 and say “we need much more restrictive anti-fraud enforcement in crypto” without using crypto himself, or understanding the technical workings of a blockchain, or whatever. He can judge by the effects. Nobody would say to the prosecutors looking into the FTX bankruptcy, “how can you prosecute this case if you never even owned any   FTT tokens?” Owning   FTT tokens is not a prerequisite to understanding or prosecuting FTX. Arguably owning FTT tokens is proof that you didn’t understand FTX. 
 
-  
-    
+
+
       T-Swift vs. FTX
-    
-  
+
+
 
 I do feel like if I were an enormously wealthy celebrity — like, Tom Brady- or Taylor Swift-level celebrity — and someone came to me with a large bag of money and said “hi we will give you this bag of money in exchange for recording a brief message endorsing our company,” I would probably ask questions like “is your company doing crime?” I am not saying that every celebrity should have a detailed due diligence checklist and ask penetrating legal or business questions of every company that they endorse. But if I am saying that if you are an enormously wealthy celebrity, (1) you have a lot of money, so one more bag of money doesn’t matter that much and (2) your reputation is very valuable, so lending your credibility to a crime is very expensive for you. Anyway  good for Taylor Swift:
 
@@ -187,16 +187,16 @@ I will say that, among FTX’s problems, “selling unregistered securities” d
  what with the   bigger problem of FTX   going bankrupt because billions of dollars of customer money   was missing. Taylor Swift did not exactly ask FTX the correct due diligence questions. And there are some frauds that are designed to be robust to the obvious due diligence questions, to trap superficially sophisticated investors, to reassure you that they are not doing the illegal thing that you think they’re doing, and to misdirect you from the fact that they are doing a different illegal thing.
 On the other hand there are lots of other frauds where they ask you for money, and you ask them if they are doing a particular crime, and they say “eep, gotta go!” even though they are in fact doing some entirely different crime. If you are doing a fraud, it’s probably easier not to deal with people who have any sort of suspicions, even the wrong ones. If you ask a crypto exchange “are you selling unregistered securities” and they say “oh no, we would never do that, here is a legal opinion from a reputable firm,” that doesn’t mean that you are safe; they might be doing other crimes instead. But if you ask them that and they say “mumble mumble look over there” and run away, then you dodged a bullet.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Morgan Stanley Profits Slide Amid Investment-Banking Slump. Goldman Sachs Misses Out on Lending Bonanza. Banks Betting on Paris Say There Really Is  Life After London. Deutsche Bank Mulls  Shrinking Executive Board in Cost Drive. Denmark Arrests Eight People on  Power Price Manipulation Charge. Credit Suisse files High Court claim against SoftBank in $440mn dispute. Credit Suisse Failed to  Probe Nazi Past, Senate Committee Says. Office Building Owners Snubbed by Life Insurance Lenders. FTX US’s Former Head Kicks Off Trading Hub for Futures and Crypto. The  Repo Man Returns as More Americans Fall Behind on Car Payments. Tesla  Slashes Prices of Key Models Again Ahead of Earnings. Ray Dalio Set to Open Branch of Family Office in Abu Dhabi. “I  feel better as a creditor in China than I do in Switzerland.” MillerKnoll CEO Sparks Viral Outrage After Telling Staff to ‘Leave Pity City.’ Coming Soon From the Producers of The Wolf of Wall Street:  NFTs.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] No,  technically, from its broker/investment banker, B. Riley Principal Capital II LLC, who is buying the stock to sell it into the market, and who will presumably also be named in the lawsuit. 
+
+  [1] No,  technically, from its broker/investment banker, B. Riley Principal Capital II LLC, who is buying the stock to sell it into the market, and who will presumably also be named in the lawsuit.
 
 
   [2] And through credit spreads, though that too can be hedged, and if banks had huge credit losses people would complain that they should have hedged more. The stylized model of a modern US bank is less “the bank takes deposits, makes mortgages, and earns a spread for taking the credit risk of the mortgages” and more “the bank takes deposits, makes mortgages, sells the credit risk to Fannie Mae or Freddie Mac and earns money for taking the duration risk of the mortgages.”
@@ -217,48 +217,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] In particular, the SEC *has*   brought an enforcement action against FTX, but for defrauding its equity investors, not for offering unregistered securities. This doesn’t mean that the SEC concedes the point that all of its token listings were not securities, just that it’s not top of mind for anyone.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cil529.5lqb/95738d20.gif" alt="" border="0" /></a>

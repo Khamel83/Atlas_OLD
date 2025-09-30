@@ -62,10 +62,10 @@ If you’re with us that more energy consumption is a good thing, then we have g
 The challenge, of course, is that the sources of energy humanity has ridden to such great heights also happen to be bad for the environment. The CO2, methane, and other greenhouse gasses emitted when they’re burned pose an existential risk to the planet. Even if they didn’t harm the environment, fossil fuels will eventually run out, even if we find increasingly clever ways to dig them up. 
 So the goal is to not just replace fossil fuels with cleaner energy sources, but to produce oodles and oodles of clean, abundant energy, multiples more than we produce and consume today. 
 For much, much more — including how we’ll produce all that clean energy, a history of fusion, and an overview of the startups racing to achieve ignition…
-If this button breaks, you can find the full essay at Not Boring [ https://substack.com/redirect/411ed924-9056-4585-a810-6214af5c01ec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: 
-Thanks to Rahul [ https://substack.com/redirect/c94964b8-6835-495f-aee4-b8b5293b9a55?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the collaboration and to Dan [ https://substack.com/redirect/44f0586e-54ac-4f1d-8363-88f0f0675c82?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
+If this button breaks, you can find the full essay at Not Boring [ https://substack.com/redirect/411ed924-9056-4585-a810-6214af5c01ec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]:
+Thanks to Rahul [ https://substack.com/redirect/c94964b8-6835-495f-aee4-b8b5293b9a55?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the collaboration and to Dan [ https://substack.com/redirect/44f0586e-54ac-4f1d-8363-88f0f0675c82?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today! We’ll be back in your inbox a couple times later this week 👀
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEl5T1RBMU16SXhMQ0pwWVhRaU9qRTJPRFEzTlRrMk5EQXNJbVY0Y0NJNk1UWTROek0xTVRZME1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjFHb1hCYlVwbUlkLUh0N1JnZTJPeERVampyWUpCM0VMRThzd2VnbW5ZM00mZXhwaXJlcz0zNjVkIiwicCI6MTIyOTA1MzIxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY4NDc1OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.v0JShsLnMiKLHzMSeg1E7MtmEziImz4CEfxcDBaoDAc?

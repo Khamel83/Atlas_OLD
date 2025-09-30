@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.1 (Yoast SEO v25.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M | TechCrunch</title>
 	<meta name="description" content="Google will pay $400 million to buy London-based artificial intelligence company DeepMind. The deal, but not the exact price, was confirmed to Re/code by Google. We&#039;ve emailed Google and DeepMind for comment." />
@@ -60,7 +60,7 @@ if (sessionValue && !window.tenupDataLayer[param]) {
 				window.tenupDataLayer[param] = sessionValue[param];
 			}
 		});
-		
+
 		// Push the abstracted datalayer to the GTM datalayer.
 		dataLayer.push(window.tenupDataLayer);
 
@@ -350,19 +350,19 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 						<img width="149" height="16" src="https://techcrunch.com/wp-content/uploads/2024/09/tc-lockup.svg" class="wp-block-techcrunch-site-header__logo-small__img" alt="" decoding="async" />						<span class="screen-reader-text">TechCrunch Desktop Logo</span>
 					</a>
 				</figure>
-			
+
 							<figure class="wp-block-techcrunch-site-header__logo-mobile">
 					<a href="https://techcrunch.com">
 						<img width="47" height="24" src="https://techcrunch.com/wp-content/uploads/2024/09/tc-logo-mobile.svg" class="wp-block-techcrunch-site-header__logo-mobile__img" alt="" decoding="async" />						<span class="screen-reader-text">TechCrunch Mobile Logo</span>
 					</a>
 				</figure>
-			
-			
+
+
 <div
 	class="wp-block-techcrunch-main-navigation"	data-wp-bind--aria-hidden="state.isSearchOpen"
 >
 	<div class="wp-block-techcrunch-main-navigation__inner">
-		
+
 <nav class="items-justified-left no-wrap wp-block-navigation is-content-justification-left is-nowrap is-layout-flex wp-container-core-navigation-is-layout-1 wp-block-navigation-is-layout-flex" aria-label="Redesign: Primary Navigation"><ul class="wp-block-navigation__container items-justified-left no-wrap wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Latest" data-destinationLink="/latest/" data-event="navigation" class="wp-block-navigation-item__content"  href="/latest/"><span class="wp-block-navigation-item__label">Latest</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Startups" data-destinationLink="/category/startups/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/startups/"><span class="wp-block-navigation-item__label">Startups</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Venture" data-destinationLink="/category/venture/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/venture/"><span class="wp-block-navigation-item__label">Venture</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Apple" data-destinationLink="/tag/apple/" data-event="navigation" class="wp-block-navigation-item__content"  href="/tag/apple/"><span class="wp-block-navigation-item__label">Apple</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Security" data-destinationLink="/category/security/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/security/"><span class="wp-block-navigation-item__label">Security</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="AI" data-destinationLink="/category/artificial-intelligence/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/artificial-intelligence/"><span class="wp-block-navigation-item__label">AI</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Apps" data-destinationLink="/category/apps/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/apps/"><span class="wp-block-navigation-item__label">Apps</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Disrupt 2025" data-destinationLink="https://techcrunch.com/events/tc-disrupt-2025/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/events/tc-disrupt-2025/"><span class="wp-block-navigation-item__label">Disrupt 2025</span></a></li></ul></nav>
 
 <div class="wp-block-techcrunch-menu-divider"></div>
@@ -373,7 +373,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 
 <div class="wp-block-techcrunch-menu-utility">
 	<div class="wp-block-techcrunch-menu-utility__inner">
-		
+
 <div
 	class="wp-block-techcrunch-site-search"	data-wp-interactive="techcrunch/site-search"
 	data-wp-on--focusout="techcrunch/site-header::callbacks.handleFocusOutsideSearch"
@@ -384,7 +384,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 		data-wp-bind--aria-hidden="techcrunch/site-header::!state.isSearchOpen"
 		data-wp-on--keydown="actions.handleSuggestedSearchArrowKeys"
 	>
-		
+
 <form role="search" method="get" action="https://techcrunch.com/" class="wp-block-search__button-inside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper " ><input autocomplete="off" data-wp-on--keydown="actions.queryAutoSearch" class="wp-block-search__input" id="wp-block-search__input-1" placeholder="Search..." value="" type="search" name="s" required /><button aria-label="Submit" class="wp-block-search__button wp-element-button" type="submit" >Submit</button></div></form>
 		<div aria-hidden="true"
 			class="wp-block-techcrunch-site-search__suggestions"
@@ -430,7 +430,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 		data-wp-bind--aria-hidden="techcrunch/site-header::!state.isMegaMenuOpen"
 	>
 		<div class="wp-block-techcrunch-mega-menu__content-inner">
-			
+
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">
 <h3 class="wp-block-heading wp-block-techcrunch-mega-menu__heading" id="h-topics">Topics</h3>
@@ -679,7 +679,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </header>
 
 <div class="wp-block-group has-gray-100-background-color has-background hero-ad-container is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-bottom:0">
-	
+
 <div class="ad-unit ad-unit--desktop ad-unit--edge-to-edge ad-unit--has-placeholder ad-unit--display wp-block-tc-ads-ad-slot">
 	<div class="ad-unit__ad" id="us-tc-ros-dt-top-center" data-unitcode="us_tc_ros_dt_top_center" data-test="us_tc_ros_dt_top_center" >
 	</div>
@@ -705,7 +705,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 				<div class="article-hero__category">
 																				</div>
 				<div class="article-hero__share">
-					
+
 <div class="is-horizontal wp-block-techcrunch-social-share">
 		<div class="wp-block-techcrunch-social-share__wrapper">
 		<a class="wp-block-techcrunch-social-share__link" aria-label="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftechcrunch.com%2F2014%2F01%2F26%2Fgoogle-deepmind%2F" target="_blank" rel="noopener" data-ga-event-category="social share right rail" data-ga-event-action="click" data-ga-event-label="facebook" data-datalayer="{&quot;event&quot;: &quot;social_share&quot;,&quot;socialNetwork&quot;: &quot;facebook&quot;}" style="--position: 1;">
@@ -728,18 +728,18 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 					<h1 class="article-hero__title wp-block-post-title">Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M</h1>																				</div>
 				<div class="article-hero__bottom ">
 																									<div class="article-hero__authors">
-						
+
 <div class="is-style-default wp-block-tc23-author-card">
-	
-									
+
+
 									<div class="wp-block-group wp-block-tc23-author-card__info is-layout-flow wp-block-group-is-layout-flow">
-										
+
 <div class="wp-block-tc23-author-card-name">
 			<a class="wp-block-tc23-author-card-name__link" href="https://techcrunch.com/author/catherine-shu/">Catherine Shu</a>
 	</div>
 
 </div>
-									
+
 								</div>
 					</div>
 					<div class="article-hero__date">
@@ -770,9 +770,9 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </div>
 
 <main class="wp-block-group template-content is-layout-constrained wp-block-group-is-layout-constrained">
-	
+
 	<div class="wp-block-columns article is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
-		
+
 		<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 			<div class="entry-content wp-block-post-content is-layout-constrained wp-block-post-content-is-layout-constrained"><p id="speakable-summary">Google will buy London-based artificial intelligence company <a rel="nofollow" target="_blank" href="http://deepmind.com/">DeepMind</a>. <a rel="nofollow" target="_blank" href="https://www.theinformation.com/google-beat-facebook-for-deepmind-creates-ethics-board">The Information</a> reports that the acquisition price was more than $500 million, and that Facebook was also in talks to buy the startup late last year. DeepMind confirmed the acquisition to us, but couldn&#8217;t disclose deal terms.</p>
 <p>The acquisition was <a rel="nofollow" target="_blank" href="http://recode.net/2014/01/26/exclusive-google-to-buy-artificial-intelligence-startup-deepmind-for-400m/?utm_source=rc_twitter">originally confirmed by Google to Re/code</a>.</p>
@@ -871,23 +871,23 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </div>
 
 <div class="has-odd-items wp-block-techcrunch-post-authors">
-			
+
 <div class="is-style-post-authors wp-block-tc23-author-card">
-	
-	
+
+
 	<div class="wp-block-group wp-block-tc23-author-card__user-media is-layout-flow wp-block-group-is-layout-flow">
-		
+
 <div class="wp-block-tc23-author-card-image">
 	<img src="https://techcrunch.com/wp-content/uploads/2021/07/Image-from-iOS-1.jpg?w=150" alt="Catherine Shu" class="wp-block-tc_author-card__image" loading="lazy">
 </div>
 
 <div class="wp-block-group wp-block-tc23-author-card__user-info is-layout-flow wp-block-group-is-layout-flow">
-			
+
 <div class="wp-block-tc23-author-card-name">
 			Catherine Shu	</div>
 
 <div class="wp-block-group wp-block-tc23-author-card__user-meta is-layout-flow wp-block-group-is-layout-flow">
-				
+
 <div class="wp-block-tc23-author-card-title">
 	<p>
 		<span class="wp-block-tc23-author-card-title__title">Senior Reporter</span>
@@ -912,9 +912,9 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 	</div>
 
 </div>
-			
+
 		</div>
-		
+
 	</div>
 
 <div class="wp-block-tc23-author-card-bio">
@@ -927,23 +927,23 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 <div class="wp-block-button is-style-link">
 		<a data-ctaText="View Bio" data-destinationLink="https://techcrunch.com/author/catherine-shu/" data-event="button" class="wp-block-button__link wp-element-button has-inline-icon" href="https://techcrunch.com/author/catherine-shu/">View Bio <svg class="uikit-icon" style="width: 1em;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="var(--c-svg, currentColor)" d="M16.5 12 9 19.5l-1.05-1.05L14.4 12 7.95 5.55 9 4.5z"/></svg></a>
 	</div>
-	
+
 </div>
 	</div>
 
 </div>
 
 <div class="wp-block-column article-sidebar is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 316px">
-			
+
 			<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-7 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:0">
-				
+
 <div class="ad-unit ad-unit--mobile ad-unit--has-placeholder ad-unit--display wp-block-tc-ads-ad-slot has-background has-gray-100-background-color">
 	<div class="ad-unit__ad" id="us-tc-ros-mw-mid-center" data-unitcode="us_tc_ros_mw_mid_center" data-test="us_tc_ros_mw_mid_center" >
 	</div>
 </div>
 
 </div>
-			
+
 			<div class="wp-block-template-part wp-block-template-part--sidebar-variation-1-articles">
 <div class="wp-block-group sidebar-variation-1 is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-13 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
@@ -1135,9 +1135,9 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </div>
 </div>
 		</div>
-		
+
 	</div>
-	
+
 </main>
 
 <div class="seamless-scroll wp-block-techcrunch-seamless-scroll" data-wp-interactive="techcrunch/seamless-scroll" data-wp-run--setupPostLoadObserver="callbacks.setupPostLoadObserver" data-wp-class--in-view="state.isInView" data-wp-class--has-error="techcrunch/seamless-scroll-container::state.hasError" data-wp-class--is-fetching="techcrunch/seamless-scroll-container::context.isFetching" data-wp-class--is-prefetching="techcrunch/seamless-scroll-container::context.isPrefetching" data-wp-bind--hidden="techcrunch/seamless-scroll-container::!state.hasMorePosts">
@@ -1249,7 +1249,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script type="text/javascript" src="https://techcrunch.com/_static/??-eJydzTsOAjEMRdENEUyGSKkQa4kcwyTKT7bDiN0DU01N9apzH2zDYG9KTUFXqiSgaBYHL2qxM9jLHBCDhhLexCCMkAUevJN4znKCQwFL+o6p04wyn6ntMexMEJPoT8oamP5wh8d7vVnvrt46v9j8AdIfRac=" ></script><script id="google-recaptcha-js-extra">
 var reCAPTCHA = {"siteKey":"6LcKaMEUAAAAACNhMymsVMHg25lFfksvZZO9EMTZ"};

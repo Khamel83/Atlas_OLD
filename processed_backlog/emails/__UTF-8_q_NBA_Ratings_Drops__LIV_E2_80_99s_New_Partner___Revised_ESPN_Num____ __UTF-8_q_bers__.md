@@ -22,14 +22,14 @@ Welcome back to The Varsity, my twice-weekly private email on the sports media i
 
 🚨 Pod alert! On this weekend’s Varsity podcast, I’ll be joined by Constance Schwartz-Morini, co-founder of the talent management and production company SMAC Entertainment. You might know her as the driving force behind the post-football careers of Hall of Famers like Michael Strahan and Deion Sanders. Also, be sure to check out my conversation ( https://open.spotify.com/episode/2zuY8HpCgtGSWEyhVsRC4R?si=kX9z3RrKRJuNpYWH4qVTPQ&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Seth Wickersham, ESPN’s “Belichick whisperer,” who opines on the complex Brady and Kraft of it all.
 
- 
+
 
 Player of the Week: Rick Welts
 ------------------------------
 
 What a win for the Dallas Mavericks, who convinced one of the most respected executives in all of sports to come out of retirement to be the team’s chief executive. Welts’ résumé speaks for itself: He started as a ball boy for the Supersonics and went on to work for the NBA, where he came up with the concept for All-Star Weekend. But perhaps his most significant accomplishment occurred five years ago, when he opened Chase Center in San Francisco, a city where it’s nearly impossible to build anything given all the regulations. (The Warriors were just named the NBA’s most valuable franchise, at $9.14 billion, including real estate, basically double the average NBA valuation of $4.6 billion, per Sportico.) Welts’ top priority: Figure out how to build a similar arena in Dallas.
 
- 
+
 
 Down to the J.V.: Greg Sankey
 -----------------------------
@@ -40,7 +40,7 @@ I singled out the SEC commissioner, currently the most powerful figure in colleg
 
 Naturally, the NFL’s own even more experienced grinfuckers responded by placing two top-tier games on broadcast networks to go head-to-head with TNT’s schedule: Texans-Chiefs on NBC and Steelers-Ravens on Fox. You don’t need to wait for the Nielsen numbers to know that these games will deplete the CFP viewership.
 
- 
+
 
 The Starting Five
 -----------------
@@ -107,7 +107,7 @@ Of course, grizzled sports media veterans have their own theory about the rating
 
 At least the NBA is not alone. The strength of the NFL (which is essentially flat in terms of viewership this year) and college football has taken a lot of the oxygen away from other sports, as well: Along with the NBA, college basketball (both men’s and women’s) and the NHL are down double digits.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -119,7 +119,7 @@ to Berry’s point, some people might be subscribing for Mike Clay analysis, sur
 
 On Venu’s rough week: “Death sentence? Feels a bit dramatic for a ruling that wasn’t a surprise. Venu is pro-consumer and pro-competition. Hopefully, the Second Circuit panel of judges ultimately sees this. Oral arguments set for January 6th… hopefully decision to follow shortly after.” —A passionate Venu supporter
 
- 
+
 
 Back on Monday,
 
@@ -174,6 +174,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT4eaLvTH45GCxWzevikw=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

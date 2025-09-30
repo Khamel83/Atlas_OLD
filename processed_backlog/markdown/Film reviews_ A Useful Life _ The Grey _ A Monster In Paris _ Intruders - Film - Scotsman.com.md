@@ -12,15 +12,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-www.scotsman.com  
-  
-Verify you are human by completing the action below.  
-  
-www.scotsman.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.scotsman.com to respond... 
+www.scotsman.com
+
+Verify you are human by completing the action below.
+
+www.scotsman.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.scotsman.com to respond...
 

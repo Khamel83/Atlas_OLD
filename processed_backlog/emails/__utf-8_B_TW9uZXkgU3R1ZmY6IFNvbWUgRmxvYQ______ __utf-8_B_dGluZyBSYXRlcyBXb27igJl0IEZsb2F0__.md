@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Banks often raise money by issuing fixed-to-floating-rate preferred stock: They sell shares for $25, and for some fixed period (often five, 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Banks often raise money by issuing fixed-to-floating-rate preferred stock: They sell shares for $25, and for some fixed period (often five,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Libor
-    
-  
+
+
 
 Banks often raise money by issuing fixed-to-floating-rate  preferred stock: They sell shares for $25, and for some fixed period (often five, seven or 10 years) those shares pay an annual dividend of, say, 6% ($1.50 per year, or $0.375 per quarter). And then after that they start paying a dividend that changes each quarter based on some benchmark interest rate. Usually the preferred stock is perpetual — the bank never has to pay it back — but it is callable: After it switches from a fixed to a floating rate, the bank can decide to pay it back at par ($25 per share). The rough idea is:
 	For the bank, this looks like perpetual preferred stock, which counts as good loss-absorbing regulatory capital.	For investors, this looks a bit like a medium-term bond: The preferred is perpetual, but it only has five to 10 years of fixed-rate interest-rate risk; after that the bank will either call it, or it will pay a market-based interest rate and so should trade fairly close to par.
@@ -104,37 +104,37 @@ Each series of State Street’s Preferred Stock listed in Annex 3 to this press 
 That is, some of State Street’s preferreds are in the same boat as PennyMac’s: They currently have a fixed rate (“the Commencement Date for each such series follows the LIBOR Replacement Date”), so their current interest rate doesn’t change due to the Libor Act. And when they move to a floating rate in the future, there is fallback language saying that, if there’s no Libor, they just use the previous quarter’s rate. Which will be the fixed rate, forever.
 Obviously PennyMac could call the preferred stocks at their first call date in 2024. This would mean paying investors $25 for shares that currently trade below $22. And then PennyMac could replace them with new preferred stock that pays a higher dividend rate, say SOFR plus 6%. That would be nice, for investors; it would give the investors roughly the experience (seven years of fixed payments, then perpetual floating-rate payments) that they signed up for. But, you know, why? PennyMac has lucked into cheap(ish) perpetual financing, and it would be a bit silly to give it up.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bitcoin futures ETFs
-    
-  
+
+
 
 The basic story is:
 	There is obviously demand for a Bitcoin exchange-traded fund, a thing that you can trade on the stock exchange and hold in your brokerage account that gives you exposure to the price of Bitcoin. If you could make that, people would buy it.	The easy way to make that would be to create an ETF that holds a pot of Bitcoins, issues shares of the pot, and allows arbitrageurs to exchange Bitcoins for shares and vice versa. That is roughly the way, you know, stock and bond ETFs work, and it is good and straightforward.	However, in the US, the Securities and Exchange Commission has adamantly opposed this method — the spot Bitcoin ETF — due to some combination of weird concerns about manipulation on crypto exchanges plus, I think, a general philosophical desire not to make it too easy for retail investors or traditional institutions to buy crypto.	You need SEC approval to list a new ETF, the SEC has not approved any spot Bitcoin ETFs, so there aren’t any in the US.	So some people came up with a clever workaround,   the Bitcoin futures ETF, where they raise a pot of money and use it to trade Bitcoin futures on regulated commodity exchanges. The ETF shares represent a claim on those futures rather than on a pot of Bitcoin.	That’s pretty good — the futures prices track Bitcoin prices pretty well — though there’s some tracking error and it’s more expensive than just sitting on a pot of Bitcoins.	Crucially, the SEC has approved Bitcoin futures ETFs: They trade only regulated futures listed on US commodity exchanges, so the SEC can’t really complain that their markets are manipulated.
@@ -155,11 +155,11 @@ I hesitate to say this, but when I think about derivatives-based ETFs outside of
 
 If you run a Bitcoin futures ETF, and you see the spot Bitcoin ETFs coming for you, are you at least considering opening a 2x levered Bitcoin ETF? I’m sure the SEC would love that.
 
-  
-    
+
+
       Credit
-    
-  
+
+
 
 For … I want to say my entire career as an investment banker and then financial writer, there was a standard story about corporate loan and bond terms, and it went like this:
 	There were a lot of investors with a lot of money looking for yield, and not that much yield available.	Therefore, when companies wanted to borrow money, they had a lot of leeway to write documents (loan agreements, bond indentures) that were favorable to them. Loans were often “covenant-lite,” and the documents often allowed companies to do various tricky maneuvers that would   disadvantage some creditors.	Every so often lenders would notice, and complain, and push back, and sometimes even win — some of the most egregious terms proposed by borrowers were   rejected by the market — but broadly things were pretty borrower-friendly. Lenders would complain, but then they would lend anyway.
@@ -173,11 +173,11 @@ The tougher fundraising environment has given hedge funds much more negotiating 
 
 The broad story in credit markets for a long time has been that the borrowers shape the transaction, not the lenders. Not anymore. The broad story has been that lenders make loans, but complain a lot about the terms. Now the lenders are positively bragging about the terms!
 
-  
-    
+
+
       Private banking
-    
-  
+
+
 
 If you are a private banker whose job is lending money to wealthy people, one part of the job is being ingratiating and charming and polite to the wealthy people so they will want to borrow money from you, and another part of the job is, when they ask to borrow money, actually getting them the money quickly and with a minimum of inconvenience. The first part of the job is probably easier to select and train for, but the second part is probably more useful for the clients.
 Here is a fun Wall Street Journal profile of Jane Heller, a private banker to “titans of industry like Carl Icahn and A-list celebrities like [Martha] Stewart” at Bank of America Corp., whose approach seems to involve (1) being somewhat rude to clients, though in a charming way:
@@ -194,11 +194,11 @@ There are probably lessons here. (If you are a private banker, would you rather 
 In recent months, Heller has been deeply involved in renegotiating Icahn’s loans after the activist investor came under attack from a well-known short seller. “She gives you the feeling that she does have your interests at least right up with her own,” Icahn says. 
 At least right up there! Imagine if Carl Icahn got the feeling, from his banker, that she put his interests ahead of her own. Surely he wouldn’t trust her! If you go to Carl Icahn and say “hey Carl I am just looking out for you, I don’t care about myself,” he knows you are lying. If you go to him and say “I’m looking out for myself but you’ll do okay too,” you are speaking his language.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Walter Isaacson’s biography of Elon Musk is coming out this week, there are various  previews of it, and it seems like it will be quite something. If you like reading about Elon Musk — and if you are reading Money Stuff there is a decent chance that you like reading about Elon Musk, though it is also possible that, like me, you have had enough Elon Musk content for a while — then there is a lot to read about Elon Musk.
 I particularly enjoyed  Shawn McCreesh’s profile of Isaacson in New York magazine, which includes the sentence “Isaacson writes that Grimes was furious when she found out later and wasn’t at all sure whether she would ever allow her Musk babies (a boy named X and a girl named Y and a new baby boy named Techno Mechanicus) to hang out with Zilis’s Musk babies (a boy named Strider Sekhar Sirius and a girl named Azure Astra Alice).”
@@ -209,16 +209,16 @@ Or there is Jennifer Szalai’s  review of the book in the New York Times, whi
 Reading this book, one begins to wonder if the old bird-site [Twitter] will be Musk’s Waterloo. “He thought of it as a technology company,” Isaacson writes, “when in fact it was an advertising medium based on human emotions and relationships.” Isaacson believes that Musk wanted to buy Twitter because he had been so bullied as a kid and “now he could own the playground.” It’s an awkward metaphor, but that’s also what makes it perfect. Owning a playground won’t stop you from getting bullied. If you think about it, owning a playground won’t get you much of anything at all.
 Well, right. But getting bullied can cause you to buy the playground.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 
 Arm Considers Raising IPO Price Range. VinFast’s 504% Rally Burns Traders Playing  Greater Fool Theory. UBS to Cut Hundreds of   Wealth Jobs in Asia as Activity Slows. Former Bank of Ireland chief  leaves Credit Suisse. Mizuho seeks to break curse over  foreign forays on Wall Street. A Primer on  Multi-Strategy Hedge Funds. China Eases Rules for   Insurers Buying Stocks in Support Measure. PwC to curtail  consulting work for US audit clients to reduce conflict risk. Ex-US prison counselor admits  accepting bribe from Galleon's Rajaratnam. Boss of Failed Crypto Exchange Gets   11,000-Year Sentence. Influx of  Russian fraudsters gives Turkish cyber crime hub new lease of life. “We find that  better-looking individuals are more likely to own stocks and invest a larger share of wealth in stocks.” “Have  the money date in your sexy clothes.” “I used to think something like this could only happen in Europe,  or St. Louis.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Here I am quoting from the  PennyMac prospectus, but others are similar. Here’s a  State Street Corp. one.
 
 
@@ -228,55 +228,55 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] This doesn’t make a ton of sense, and if you think that the market for spot Bitcoin is highly vulnerable to manipulation you shouldn’t like Bitcoin derivatives that much better, but here we are.
 
 
-  [4] Or, for slightly different reasons, a big stash of 
+  [4] Or, for slightly different reasons, a big stash of
 VIX.
 
 
   [5] Also a careful answer only about hot tubs and  not ketamine!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -287,46 +287,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjg9tm.5jeg/84d40b12.gif" alt="" border="0" /></a>

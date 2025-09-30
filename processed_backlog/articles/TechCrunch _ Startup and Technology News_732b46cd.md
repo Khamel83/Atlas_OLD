@@ -5,7 +5,7 @@
 
 [![logo](https://techcrunch.com/wp-content/uploads/2024/10/desktop-logo.svg)](/)
 
-![Screenshot of "KPop Demon Hunters"](https://techcrunch.com/wp-content/uploads/2025/08/kpop-demon-hunters.jpeg?w=668) 
+![Screenshot of "KPop Demon Hunters"](https://techcrunch.com/wp-content/uploads/2025/08/kpop-demon-hunters.jpeg?w=668)
 
 [Media & Entertainment](https://techcrunch.com/category/media-entertainment/)
 
@@ -15,7 +15,7 @@
 
 6 hours ago
 
-![In this photo illustration, the logo of Apple Inc. is displayed on a smartphone screen, with the company's iconic black apple symbol visible in the background.](https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?w=668) 
+![In this photo illustration, the logo of Apple Inc. is displayed on a smartphone screen, with the company's iconic black apple symbol visible in the background.](https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?w=668)
 
 [Hardware](https://techcrunch.com/category/hardware/)
 
@@ -25,7 +25,7 @@
 
 12 hours ago
 
-![Intel Headquarters Robert Noyce Building in Santa Clara, California at night with Intel sign lit up.](https://techcrunch.com/wp-content/uploads/2023/08/newsroom-robert-noyce-bldg-2.jpg.rendition.intel_.web_.1920.1080.jpg?w=668) 
+![Intel Headquarters Robert Noyce Building in Santa Clara, California at night with Intel sign lit up.](https://techcrunch.com/wp-content/uploads/2023/08/newsroom-robert-noyce-bldg-2.jpg.rendition.intel_.web_.1920.1080.jpg?w=668)
 
 [Government & Policy](https://techcrunch.com/category/government-policy/)
 
@@ -63,7 +63,7 @@
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/latest/)
 
-* ![Jakarta](https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1405746444.jpg?w=563) 
+* ![Jakarta](https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1405746444.jpg?w=563)
 
   [Startups](https://techcrunch.com/category/startups/)
 
@@ -71,7 +71,7 @@
 
   + [Kate Park](https://techcrunch.com/author/kate-park/)
   4 hours ago
-* ![Bluesky logo (a butterfly) on a field of stars](https://techcrunch.com/wp-content/uploads/2024/10/bluesky_media_kit_banner_4.jpg?w=500) 
+* ![Bluesky logo (a butterfly) on a field of stars](https://techcrunch.com/wp-content/uploads/2024/10/bluesky_media_kit_banner_4.jpg?w=500)
 
   [Social](https://techcrunch.com/category/social/)
 
@@ -79,7 +79,7 @@
 
   + [Sarah Perez](https://techcrunch.com/author/sarah-perez/)
   5 hours ago
-* ![](https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2174202847.jpg?w=563) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2174202847.jpg?w=563)
 
   In Brief
 
@@ -87,7 +87,7 @@
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   5 hours ago
-* ![Screenshot of "KPop Demon Hunters"](https://techcrunch.com/wp-content/uploads/2025/08/kpop-demon-hunters.jpeg?w=668) 
+* ![Screenshot of "KPop Demon Hunters"](https://techcrunch.com/wp-content/uploads/2025/08/kpop-demon-hunters.jpeg?w=668)
 
   [Media & Entertainment](https://techcrunch.com/category/media-entertainment/)
 
@@ -95,7 +95,7 @@
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   6 hours ago
-* ![Waymo Driver Jaguar I-Pace mapping NYC at grand central](https://techcrunch.com/wp-content/uploads/2021/11/Untitled-1.jpg?w=668) 
+* ![Waymo Driver Jaguar I-Pace mapping NYC at grand central](https://techcrunch.com/wp-content/uploads/2021/11/Untitled-1.jpg?w=668)
 
   [Transportation](https://techcrunch.com/category/transportation/)
 
@@ -103,7 +103,7 @@
 
   + [Kirsten Korosec](https://techcrunch.com/author/kirsten-korosec/)
   8 hours ago
-* ![In this photo illustration, the logo of Apple Inc. is displayed on a smartphone screen, with the company's iconic black apple symbol visible in the background.](https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?w=563) 
+* ![In this photo illustration, the logo of Apple Inc. is displayed on a smartphone screen, with the company's iconic black apple symbol visible in the background.](https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?w=563)
 
   [Hardware](https://techcrunch.com/category/hardware/)
 
@@ -111,7 +111,7 @@
 
   + [Lauren Forristal](https://techcrunch.com/author/lauren-forristal/)
   12 hours ago
-* ![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559) 
+* ![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559)
 
   In Brief
 
@@ -119,7 +119,7 @@
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   12 hours ago
-* ![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562) 
+* ![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562)
 
   In Brief
 
@@ -127,7 +127,7 @@
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   1 day ago
-* ![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=562) 
+* ![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=562)
 
   In Brief
 
@@ -135,7 +135,7 @@
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   1 day ago
-* ![Intel Headquarters Robert Noyce Building in Santa Clara, California at night with Intel sign lit up.](https://techcrunch.com/wp-content/uploads/2023/08/newsroom-robert-noyce-bldg-2.jpg.rendition.intel_.web_.1920.1080.jpg?w=668) 
+* ![Intel Headquarters Robert Noyce Building in Santa Clara, California at night with Intel sign lit up.](https://techcrunch.com/wp-content/uploads/2023/08/newsroom-robert-noyce-bldg-2.jpg.rendition.intel_.web_.1920.1080.jpg?w=668)
 
   [Government & Policy](https://techcrunch.com/category/government-policy/)
 
@@ -187,83 +187,83 @@ Put your brand in front of 10,000+ tech and VC leaders across all three days of 
 
 Catch up on trending topics
 
-![](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198049873.jpg?w=668) 
+![](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198049873.jpg?w=668)
 
 [Apps](https://techcrunch.com/category/apps/)
 
 ### [WWDC 2025 live updates: iOS 26, Liquid Glass, Apple Intelligence updates, and everything else revealed](https://techcrunch.com/storyline/wwdc-2025-live-updates-a-fresh-look-for-ios-a-dedicated-gaming-app-and-more/)
 
-29 Stories 
+29 Stories
 
 Jun 9, 2025
 
-![](https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2191835813.jpg?w=668) 
+![](https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2191835813.jpg?w=668)
 
 [Enterprise](https://techcrunch.com/category/enterprise/)
 
 ### [Google I/O 2025 live coverage: Google AI Ultra, Project Mariner, Gemini app updates, and more](https://techcrunch.com/storyline/google-i-o-2025-live-coverage-google-ai-ultra-project-mariner-gemini-app-updates-and-more/)
 
-62 Stories 
+62 Stories
 
 May 20, 2025
 
-![Elon Musk next to large red Tesla logo](https://techcrunch.com/wp-content/uploads/2025/01/tesla-elon-illustration-getty.jpg?w=668) 
+![Elon Musk next to large red Tesla logo](https://techcrunch.com/wp-content/uploads/2025/01/tesla-elon-illustration-getty.jpg?w=668)
 
 [Transportation](https://techcrunch.com/category/transportation/)
 
 ### [Tesla earnings wrap up: Elon Musk talks DOGE, Trump and tariffs, robotaxis, AI, and cheap EVs](https://techcrunch.com/storyline/tesla-q1-earnings-live-updates/)
 
-27 Stories 
+27 Stories
 
 Apr 22, 2025
 
-![Jensen Huang, co-founder and chief executive officer of Nvidia Corp., ByteDance](https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?w=668) 
+![Jensen Huang, co-founder and chief executive officer of Nvidia Corp., ByteDance](https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?w=668)
 
 [AI](https://techcrunch.com/category/artificial-intelligence/)
 
 ### [Nvidia GTC 2025 live updates: Blackwell Ultra, GM partnerships, and two ‘personal AI supercomputers’](https://techcrunch.com/storyline/nvidia-gtc-2025-live-updates-blackwell-ultra-gm-partnerships-and-two-personal-ai-supercomputers/)
 
-33 Stories 
+33 Stories
 
 Mar 17, 2025
 
-![](https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2201521857.jpg?w=668) 
+![](https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2201521857.jpg?w=668)
 
 [AI](https://techcrunch.com/category/artificial-intelligence/)
 
 ### [SXSW 2025 live coverage: Health tips from Bryan Johnson, concerns about Elon Musk, and what it’s like to actually ride a Waymo Uber on the conference’s final day](https://techcrunch.com/storyline/sxsw-2025-live-coverage-health-tips-from-bryan-johnson-concerns-about-elon-musk-and-what-its-like-to-actually-ride-a-waymo-uber-on-the-conferences-final-day/)
 
-36 Stories 
+36 Stories
 
 Mar 7, 2025
 
-![The Google DeepMind website on a laptop computer arranged in New York, US,](https://techcrunch.com/wp-content/uploads/2024/12/getty-gemini-laptop.jpg?w=668) 
+![The Google DeepMind website on a laptop computer arranged in New York, US,](https://techcrunch.com/wp-content/uploads/2024/12/getty-gemini-laptop.jpg?w=668)
 
 [Enterprise](https://techcrunch.com/category/enterprise/)
 
 ### [Alphabet earnings live updates: AI, Gemini 2.0, Google Cloud, and more](https://techcrunch.com/storyline/alphabet-earnings-live-updates-ai-gemini-2-0-google-cloud-and-more/)
 
-12 Stories 
+12 Stories
 
 Feb 4, 2025
 
-![](https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2159726076.jpg?w=668) 
+![](https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2159726076.jpg?w=668)
 
 [Transportation](https://techcrunch.com/category/transportation/)
 
 ### [Tesla earnings live updates: Promising ‘return to growth’ and cheaper cars](https://techcrunch.com/storyline/tesla-earnings-live-updates-elon-new-evs-ai-and-more/)
 
-35 Stories 
+35 Stories
 
 Jan 29, 2025
 
-![](https://techcrunch.com/wp-content/uploads/2024/01/004-handson-galaxy-s24plus-cobaltviolet-chat-assist.jpg?w=668) 
+![](https://techcrunch.com/wp-content/uploads/2024/01/004-handson-galaxy-s24plus-cobaltviolet-chat-assist.jpg?w=668)
 
 [Hardware](https://techcrunch.com/category/hardware/)
 
 ### [Samsung Unpacked 2025 live updates: Galaxy S25, new AI features, and more](https://techcrunch.com/storyline/samsung-unpacked-2025-live-updates-galaxy-s25-new-ai-features-and-more/)
 
-8 Stories 
+8 Stories
 
 Jan 22, 2025
 
@@ -273,7 +273,7 @@ Jan 22, 2025
 
 * ### [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
 
-  San Francisco, CA 
+  San Francisco, CA
 
    October 27 – 29, 2025
 
@@ -282,7 +282,7 @@ Jan 22, 2025
   [Book Exhibit Table](https://techcrunch.com/events/tc-disrupt-2025/exhibit)
 * ### [StrictlyVC Palo Alto](https://techcrunch.com/events/strictlyvc-palo-alto/)
 
-  Palo Alto, CA 
+  Palo Alto, CA
 
    December 3, 2025
 
@@ -331,7 +331,7 @@ By submitting your email, you agree to our [Terms](/terms-of-service/) and [Priv
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/startups/)
 
-![Jakarta](https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1405746444.jpg?w=668) 
+![Jakarta](https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1405746444.jpg?w=668)
 
 [Startups](https://techcrunch.com/category/startups/)
 
@@ -341,7 +341,7 @@ By submitting your email, you agree to our [Terms](/terms-of-service/) and [Priv
 
 4 hours ago
 
-![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559) 
+![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559)
 
 In Brief
 
@@ -381,7 +381,7 @@ In Brief
 
 ![Katie Haun at a StrictlyVC event in Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600468213_62f341085a_k_47e92b.jpg)
 
-[Crypto](https://techcrunch.com/category/cryptocurrency/) 
+[Crypto](https://techcrunch.com/category/cryptocurrency/)
 
 ## [Katie Haun makes the case for tokenizing more of the world](https://techcrunch.com/video/katie-haun-makes-the-case-for-tokenizing-more-of-the-world/)
 
@@ -391,7 +391,7 @@ June 19, 2025
 
 More From:
 
-* ![](https://techcrunch.com/wp-content/uploads/2025/07/250113_PRO_Setting__6_Gray_PF_Detail_Focused_Layers3_16x9@2x.jpg?w=668) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/07/250113_PRO_Setting__6_Gray_PF_Detail_Focused_Layers3_16x9@2x.jpg?w=668)
 
   [Hardware](https://techcrunch.com/category/hardware/)
 
@@ -399,7 +399,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jul 1, 2025
-* ![Ali Partovi, Russell Kaplan and Maxwell Zeff during a StrictlyVC Menlo Park event](https://techcrunch.com/wp-content/uploads/2025/06/54599379557_cb205ad0cc_k.jpg?w=563) 
+* ![Ali Partovi, Russell Kaplan and Maxwell Zeff during a StrictlyVC Menlo Park event](https://techcrunch.com/wp-content/uploads/2025/06/54599379557_cb205ad0cc_k.jpg?w=563)
 
   [Startups](https://techcrunch.com/category/startups/)
 
@@ -407,7 +407,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 20, 2025
-* ![Navin Chaddha at a StrictlyVC Event in Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600471818_d3a53b9566_k.jpg?w=562) 
+* ![Navin Chaddha at a StrictlyVC Event in Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600471818_d3a53b9566_k.jpg?w=562)
 
   [Startups](https://techcrunch.com/category/startups/)
 
@@ -415,7 +415,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 19, 2025
-* ![Baiju Bhatt at a StrictlyVC event at Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600453199_ecab3dbe28_k.jpg?w=563) 
+* ![Baiju Bhatt at a StrictlyVC event at Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600453199_ecab3dbe28_k.jpg?w=563)
 
   [Space](https://techcrunch.com/category/space/)
 
@@ -423,7 +423,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 19, 2025
-* ![Katie Haun at a StrictlyVC event in Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600468213_62f341085a_k_47e92b.jpg?w=525) 
+* ![Katie Haun at a StrictlyVC event in Menlo Park](https://techcrunch.com/wp-content/uploads/2025/06/54600468213_62f341085a_k_47e92b.jpg?w=525)
 
   [Crypto](https://techcrunch.com/category/cryptocurrency/)
 
@@ -431,7 +431,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 19, 2025
-* ![illustration of chatbot on a laptop screen](https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1364050120-1.jpg?w=563) 
+* ![illustration of chatbot on a laptop screen](https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1364050120-1.jpg?w=563)
 
   [AI](https://techcrunch.com/category/artificial-intelligence/)
 
@@ -439,7 +439,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 17, 2025
-* ![](https://techcrunch.com/wp-content/uploads/2025/06/54569911197_ff62ddf4af_k.jpg?w=562) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/06/54569911197_ff62ddf4af_k.jpg?w=562)
 
   [AI](https://techcrunch.com/category/artificial-intelligence/)
 
@@ -447,7 +447,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 9, 2025
-* ![](https://techcrunch.com/wp-content/uploads/2025/06/54570972414_9ca12d236b_k.jpg?w=562) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/06/54570972414_9ca12d236b_k.jpg?w=562)
 
   [AI](https://techcrunch.com/category/artificial-intelligence/)
 
@@ -455,7 +455,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 9, 2025
-* ![](https://techcrunch.com/wp-content/uploads/2025/06/54570954634_0a4491d0f6_k.jpg?w=562) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/06/54570954634_0a4491d0f6_k.jpg?w=562)
 
   [AI](https://techcrunch.com/category/artificial-intelligence/)
 
@@ -463,7 +463,7 @@ More From:
 
   + [TC Video](https://techcrunch.com/author/tc-video/)
   Jun 9, 2025
-* ![Jared Kaplan on stage at TechCrunch Sessions AI](https://techcrunch.com/wp-content/uploads/2025/06/AI-Sessions-Anthropic-Kaplan.jpg?w=562) 
+* ![Jared Kaplan on stage at TechCrunch Sessions AI](https://techcrunch.com/wp-content/uploads/2025/06/AI-Sessions-Anthropic-Kaplan.jpg?w=562)
 
   [AI](https://techcrunch.com/category/artificial-intelligence/)
 
@@ -476,7 +476,7 @@ More From:
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/artificial-intelligence/)
 
-![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=668) 
+![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=668)
 
 In Brief
 
@@ -486,7 +486,7 @@ In Brief
 
 12 hours ago
 
-![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562) 
+![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562)
 
 In Brief
 
@@ -524,7 +524,7 @@ In Brief
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/security/)
 
-![a photo of a red emergency stop button](https://techcrunch.com/wp-content/uploads/2025/08/kill-switch-2153076353.jpg?w=668) 
+![a photo of a red emergency stop button](https://techcrunch.com/wp-content/uploads/2025/08/kill-switch-2153076353.jpg?w=668)
 
 In Brief
 
@@ -534,7 +534,7 @@ In Brief
 
 2 days ago
 
-![North Korea's leader Kim Jong Un attends a wreath laying ceremony at the Ho Chi Minh mausoleum in Hanoi on March 2, 2019.](https://techcrunch.com/wp-content/uploads/2025/08/kim-jong-un-north-korea.jpg?w=562) 
+![North Korea's leader Kim Jong Un attends a wreath laying ceremony at the Ho Chi Minh mausoleum in Hanoi on March 2, 2019.](https://techcrunch.com/wp-content/uploads/2025/08/kim-jong-un-north-korea.jpg?w=562)
 
 [Security](https://techcrunch.com/category/security/)
 
@@ -573,7 +573,7 @@ In Brief
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/venture)
 
-![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=668) 
+![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=668)
 
 In Brief
 
@@ -583,7 +583,7 @@ In Brief
 
 1 day ago
 
-![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=668) 
+![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=668)
 
 In Brief
 
@@ -593,7 +593,7 @@ In Brief
 
 1 day ago
 
-![Apple app store icon](https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?w=668) 
+![Apple app store icon](https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?w=668)
 
 [Social](https://techcrunch.com/category/social/)
 
@@ -603,7 +603,7 @@ In Brief
 
 2 days ago
 
-![Labubu elves](https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2229884585.jpg?w=668) 
+![Labubu elves](https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2229884585.jpg?w=668)
 
 [Venture](https://techcrunch.com/category/venture/)
 
@@ -616,7 +616,7 @@ In Brief
 
 2 days ago
 
-![StrictlyVC New York City December 2024](https://techcrunch.com/wp-content/uploads/2025/04/StrictlyVC-NYC-2024.jpg?w=668) 
+![StrictlyVC New York City December 2024](https://techcrunch.com/wp-content/uploads/2025/04/StrictlyVC-NYC-2024.jpg?w=668)
 
 [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
 
@@ -626,7 +626,7 @@ In Brief
 
 3 days ago
 
-![Pukar Hamal, SecurityPal](https://techcrunch.com/wp-content/uploads/2025/08/Pukar-Hamal-SecurityPal.webp?w=668) 
+![Pukar Hamal, SecurityPal](https://techcrunch.com/wp-content/uploads/2025/08/Pukar-Hamal-SecurityPal.webp?w=668)
 
 [Venture](https://techcrunch.com/category/venture/)
 
@@ -636,7 +636,7 @@ In Brief
 
 4 days ago
 
-![Dr. Debra L. Emmons Vice President & CTO The Aerospace Corporation, Even Rogers CEO and Co-Founder True Anomaly, and Tim Solms CEO Slingshot Aerospace on stage at TechCrunch Disrupt 2024 on Monday, Oct. 28, 2024.](https://techcrunch.com/wp-content/uploads/2024/10/54100789283_605f466d0f_o.jpg?w=668) 
+![Dr. Debra L. Emmons Vice President & CTO The Aerospace Corporation, Even Rogers CEO and Co-Founder True Anomaly, and Tim Solms CEO Slingshot Aerospace on stage at TechCrunch Disrupt 2024 on Monday, Oct. 28, 2024.](https://techcrunch.com/wp-content/uploads/2024/10/54100789283_605f466d0f_o.jpg?w=668)
 
 [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
 
@@ -646,7 +646,7 @@ In Brief
 
 4 days ago
 
-![Edward Aryee and Raj Kadiyala](https://techcrunch.com/wp-content/uploads/2025/08/Edward-Aryee-and-Raj-Kadiyala.jpg?w=668) 
+![Edward Aryee and Raj Kadiyala](https://techcrunch.com/wp-content/uploads/2025/08/Edward-Aryee-and-Raj-Kadiyala.jpg?w=668)
 
 [Venture](https://techcrunch.com/category/venture/)
 
@@ -662,7 +662,7 @@ In Brief
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/apps/)
 
-![Bluesky logo (a butterfly) on a field of stars](https://techcrunch.com/wp-content/uploads/2024/10/bluesky_media_kit_banner_4.jpg?w=668) 
+![Bluesky logo (a butterfly) on a field of stars](https://techcrunch.com/wp-content/uploads/2024/10/bluesky_media_kit_banner_4.jpg?w=668)
 
 [Social](https://techcrunch.com/category/social/)
 
@@ -672,7 +672,7 @@ In Brief
 
 5 hours ago
 
-![TikTok India](https://techcrunch.com/wp-content/uploads/2025/08/tiktok-india.jpg?w=563) 
+![TikTok India](https://techcrunch.com/wp-content/uploads/2025/08/tiktok-india.jpg?w=563)
 
 [Apps](https://techcrunch.com/category/apps/)
 
@@ -710,7 +710,7 @@ In Brief
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/category/transportation/)
 
-![Waymo Driver Jaguar I-Pace mapping NYC at grand central](https://techcrunch.com/wp-content/uploads/2021/11/Untitled-1.jpg?w=668) 
+![Waymo Driver Jaguar I-Pace mapping NYC at grand central](https://techcrunch.com/wp-content/uploads/2021/11/Untitled-1.jpg?w=668)
 
 [Transportation](https://techcrunch.com/category/transportation/)
 
@@ -720,7 +720,7 @@ In Brief
 
 8 hours ago
 
-![Oway logo](https://techcrunch.com/wp-content/uploads/2025/08/oway-logo.jpg?w=563) 
+![Oway logo](https://techcrunch.com/wp-content/uploads/2025/08/oway-logo.jpg?w=563)
 
 [Transportation](https://techcrunch.com/category/transportation/)
 
@@ -756,7 +756,7 @@ In Brief
 
 ## In Brief
 
-* ![](https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2174202847.jpg?w=563) 
+* ![](https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2174202847.jpg?w=563)
 
   In Brief
 
@@ -764,7 +764,7 @@ In Brief
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   5 hours ago
-* ![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559) 
+* ![The Grok app on a smartphone](https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?w=559)
 
   In Brief
 
@@ -772,7 +772,7 @@ In Brief
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   12 hours ago
-* ![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562) 
+* ![the logos of Open AI displayed on both computer and smart phone screen](https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?w=562)
 
   In Brief
 
@@ -780,7 +780,7 @@ In Brief
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   1 day ago
-* ![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=562) 
+* ![The logo and lettering of global online mail order company Amazon can be seen on the façade of Amazon Germany's headquarters in Parkstadt Schwabing in Munich (Bavaria).](https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217247219.jpg?w=562)
 
   In Brief
 
@@ -788,7 +788,7 @@ In Brief
 
   + [Anthony Ha](https://techcrunch.com/author/anthony-ha/)
   1 day ago
-* ![iPhone 16 Pro Max Siri held in hand](https://techcrunch.com/wp-content/uploads/2024/09/CMC_7975.jpg?w=563) 
+* ![iPhone 16 Pro Max Siri held in hand](https://techcrunch.com/wp-content/uploads/2024/09/CMC_7975.jpg?w=563)
 
   In Brief
 
@@ -796,7 +796,7 @@ In Brief
 
   + [Amanda Silberling](https://techcrunch.com/author/amanda-silberling/)
   2 days ago
-* ![Jensen Huang, co-founder and chief executive officer of Nvidia Corp](https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?w=562) 
+* ![Jensen Huang, co-founder and chief executive officer of Nvidia Corp](https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?w=562)
 
   In Brief
 
@@ -809,7 +809,7 @@ In Brief
 
 [See More ![](/wp-content/themes/tc-24/assets/svg/arrow-up-right.svg)](/podcasts/)
 
-![](https://techcrunch.com/wp-content/uploads/2024/10/Equity-2024-2.jpg) 
+![](https://techcrunch.com/wp-content/uploads/2024/10/Equity-2024-2.jpg)
 
 ### Equity
 
@@ -821,7 +821,7 @@ Updated: Aug 22, 2025
 
 [Explore All](https://techcrunch.com/podcasts/equity/)
 
-![](https://techcrunch.com/wp-content/uploads/2024/10/strictlyvc-download-podcast-art.png) 
+![](https://techcrunch.com/wp-content/uploads/2024/10/strictlyvc-download-podcast-art.png)
 
 ### StrictlyVC Download
 

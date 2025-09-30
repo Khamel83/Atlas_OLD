@@ -1,8 +1,8 @@
 # Content Export & Integration Formats
 
-**Date**: August 18, 2025  
-**Status**: 🎯 PLANNED  
-**Priority**: MEDIUM - User Experience  
+**Date**: August 18, 2025
+**Status**: 🎯 PLANNED
+**Priority**: MEDIUM - User Experience
 **Parent Task**: Post Enhanced Search Implementation
 
 ## Executive Summary
@@ -108,7 +108,7 @@ After enhanced search and transcript indexing, create **multiple export formats*
        def export_content(self, content_ids, format, template):
            # Flexible export with format-specific rendering
            # Metadata preservation and template application
-           
+
        def batch_export(self, filters, formats):
            # Bulk export with progress tracking
            # Multiple format generation in single operation

@@ -14,7 +14,7 @@ python testing/unified_testing_dashboard.py
 **Expected Outcome**: Complete validation of all ingestion components with performance baselines.
 
 ### 2. Test Podcast Transcription with Your OPML
-**Priority: High** 
+**Priority: High**
 **Estimated Time: 25 minutes**
 
 ```bash
@@ -178,7 +178,7 @@ Based on performance benchmark results:
 ## Immediate Next Steps
 
 1. **Run the unified testing dashboard** to get comprehensive system validation
-2. **Test podcast transcription** with your existing OPML data  
+2. **Test podcast transcription** with your existing OPML data
 3. **Review results** and implement any critical fixes
 4. **Configure optimal settings** based on performance analysis
 5. **Set up regular monitoring** for ongoing validation

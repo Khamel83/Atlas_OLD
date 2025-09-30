@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        We have talked a few times around here about two theories of banking, which I have unhelpfully labeled Theory 1 and Theory 2: Theory 1 says 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        We have talked a few times around here about two theories of banking, which I have unhelpfully labeled Theory 1 and Theory 2: Theory 1 says
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bank branches
-    
-  
+
+
 
 We have   talked a   few   times around   here about two theories of banking, which I have unhelpfully labeled Theory 1 and Theory 2:
 	Theory 1 says that banks borrow short to lend long: They take in deposits and use them to make long-term loans and buy long-term bonds, but the deposits are short-term (you can take your money out of the bank at any time) and so banks have a lot of funding risk (they might run out of money) and interest-rate risk (when rates go up, their assets will lose value and their liabilities will not).	Theory 2 says that actually bank deposits are long-term funding: Depositors can take their money out, but they reliably don’t, because they have long-term relationships with their banks; the banks invest a lot in building those relationships to get this cheap long-term funding, and they can use it to make long-term investments.
@@ -80,37 +80,37 @@ They write:
 Our paper highlights the importance of branch density and its implications for deposits stability. Lower branch density allows banks to attract deposit flows and expand funding capacity. However, low branch density also lessens the value of the bank-depositor relationship—shifting the depositor base to corporations and tech-savvy depositors with large, mostly uninsured deposits. These changes to the composition of the depositor base turn out to be detrimental during market downturns: banks with lower branch density experience larger deposit outflows and worse stock performance.
 At some level, you would have expected (and SVB did expect) that Silicon Valley Bank had pretty good and sticky relationships with its depositors. Its depositors, by all accounts, loved SVB. SVB made loans to startups and venture funds and founders that other banks wouldn’t make, at attractive rates, thus attracting loyal customers; it also required some of those borrowers to keep their cash at SVB, making those deposits contractually sticky. But those relationships did not really save SVB, and part of the reason might be that SVB’s customers, enthusiastic as they were, were tech-savvy business customers who were on the internet all day, and had no problem withdrawing money over the internet. Whereas if you just build branches in every small town, you will attract the sort of depositors who walk into the branch to deposit their money. And those are the customers you want when you run into trouble.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ripple
-    
-  
+
+
 
 Ripple Labs Inc. is a company that raised money to build a global interbank payments network by selling hundreds of millions of dollars of a crypto token, XRP, that would be valuable if it succeeded in building that network. In 2020, the US Securities and Exchange Commission sued Ripple, arguing that it was doing unregistered securities offerings when it sold this speculative investment to fund its business. On Thursday, the federal judge in the case, Analisa Torres,  handed down an opinion finding that Ripple was doing unregistered securities offerings when it sold XRP directly to institutional purchasers, but it was not doing unregistered securities offerings when it sold hundreds of millions of dollars of XRP to anonymous purchasers on crypto exchanges.
 I found this strange, and I   wrote about it on Friday. I guess my main points were (1) it is strange for XRP to sometimes be a security and sometimes not and (2) if it is going to be sometimes a security and sometimes not, it is strange to give the protections of the securities laws only to sophisticated institutional buyers who conduct due diligence and negotiate directly with the issuers, and not to public buyers on exchanges.
@@ -149,11 +149,11 @@ Before Thursday’s ruling, “it wasn’t resonating,” one senior Republican 
 
 The Ripple ruling, on its face, seems to make it very hard to protect retail investors from crypto fraud or to mandate any sort of disclosures about new crypto projects. Reversing that ruling on appeal and endorsing the SEC’s view that most crypto tokens are securities would solve that problem — but would also probably lead to more or less   a ban on crypto in the US. A legislative compromise that lets somebody regulate crypto, but not the SEC, seems more likely now than it was a few days ago.
 
-  
-    
+
+
       Timing
-    
-  
+
+
 
 The best time to plant a tree is 30 years ago, and  the second-best time is now, but that does not work for investing. The best time to buy into a big investing trend is just before it becomes a big investing trend, and the worst time is at the peak. Anyway here’s a story about Cathie Wood’s  ARK Innovation exchange-traded fund:
 
@@ -171,11 +171,11 @@ Some venture leaders say they are abandoning the once-popular strategy in favor 
 
 I suppose if you managed a venture capital firm in 2021, you could have said “ehh, this market looks toppy, I am going to hold off on making any investments for a year or two and wait for valuations to correct,” and that might have in some sense worked out well for you and your investors. But all the incentives work the other way. People wanted to give you money, and wanted you to deploy it. You were selected into your job as a venture capitalist due to your optimism about technology businesses. As tech companies got more expensive, your natural move was to raise bigger funds to be able to pay for them. And then those big funds took the losses when the market crashed.
 
-  
-    
+
+
       $2 bill
-    
-  
+
+
 
 Traditionally a very important part of Wall Street is pranks, and these guys did a great Wall Street prank:
 
@@ -197,11 +197,11 @@ While it was published, the second prank didn’t gain the same traction.
 
 It certainly did not. I remember seeing that and thinking it was a brilliant callback, but in the intervening years I have sometimes told people about this — “when Citi’s stock hit $1 somebody taped half a $2 bill to the door” — and have always been met by blank stares. Good to have it in the historical record now.
 
-  
-    
+
+
       Who can say what Odysseus means
-    
-  
+
+
 
 I like this,  this is good investor relations:
 
@@ -216,15 +216,15 @@ Well, I do think this would be a fun strategy:
 	Announce on Friday morning that you will announce make-or-break drug trial results on Monday, but not what they are.	Go on LinkedIn and post a cryptic but inspirational passage from Greek epic suggesting that you have finally reached safety after many long trials.	Stock goes up.	Sell stock.	Announce bad results on Monday.	Be like “what, I just like poetry, that wasn’t about the trial results.”
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Regional Banks   Battle for Deposits With Tougher US Rules Looming. Planet Boglehead:   Vanguard Struggles to Win Over the World. Dimon says private equity giants are ‘dancing in the streets’ over tougher bank rules. Markets Appear Convinced the Fed Can Pull Off a  Soft Landing. Microsoft to face EU competition probe over  Teams and Office bundling. Musk Says   Twitter Cash Flow Still Negative, Lifts Rate Limit. Private Company  Valuations Show Signs of Recovery. Wanda Warns of   $200 Million Shortfall on Bond, Surprising Market. Share Buybacks and Executive Compensation: Assessing Key Criticisms. “Zero Cost” Majority Attacks on Permissionless Blockchains. How  Allbirds Lost Its Way. At Least 100 Visitors  Trapped in Agatha Christie’s Home After Single Road In is Blocked.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Some of the sales “contracts expressly stated that the Institutional Buyer was purchasing XRP ‘solely to resell or otherwise distribute . . . and not to use [XRP] as an [e]nd [u]ser or for any other purpose,’” writes Judge Torres. And: “These restrictions are inconsistent with the notion that XRP was used as a currency or for some other consumptive use.”
 
 
@@ -234,48 +234,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Another classic approach — healthier? much less healthy? — is this, from 2012, when I did work at Dealbreaker: “Our junior guy came in this morning hung over and stinking like booze. After a few of us made comments on how awful he looked, he responded by letting us know that he's in good enough shape to run a marathon, right now. Almost in sync and without hesitation, we said ‘done.’” He did.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -286,46 +286,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj44lw.5mh7/6b5cadc2.gif" alt="" border="0" /></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Sometimes people argue that insider trading is good. We want market prices to be accurate, to reflect all available information; that way th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ‘Sports’ betting
-    
-  
+
+
 
 Sometimes people argue that insider trading is good. We want market prices to be accurate, to reflect all available information; that way the best projects will get financed and people will be able to buy and sell assets at prices that reflect their real values. Letting, say, corporate executives buy their stocks when they know good news is coming, or sell them when they know bad news is coming, makes prices more accurate. So we should encourage it. That is the theory. You don’t hear it a lot these days about the stock market, but you do hear it sometimes. Here’s a recent Planet Money episode halfheartedly making the case.
 Outside of the stock market, though, this idea is more popular. “In boxing, it’s generally accepted — if not condoned — that [managers] sometimes bet on their fighters to win,” the Wall Street Journal noted last month, though other bets can lead to suspicions of manipulation. Other sports sometimes have   stricter rules about insider betting, but not always.
@@ -80,37 +80,37 @@ So here’s a funny TikTok from a guy pretending that he was “the Super Bowl s
 I live here in Vegas and when I saw that you could bet on whether or not there would be a streaker during the Super Bowl, I knew I had to go down to the casino and place a $20,000 bet. After I placed the bet, I went and bought a ticket for $10,000 so that I could control my own destiny. … It was honestly totally worth it, I spent $10,000 on the ticket but I made 20 back on the wager, so I’m up $10,000. Yeah I had to spend a night in jail but I absolutely had a ball being center stage in front of 80,000 people.
 I don’t think this is true; he seems to be a TikTok comedian and doesn’t appear to be one of the actual streakers at Sunday’s Super Bowl. But the math kind of works? An online sportsbook did apparently offer +300 odds (a $100 bet returns $400) on “unauthorized person will enter field of play,” so you could bet $5,000, pay $10,000 for the ticket, run onto the field and make a profit. The more people can bet on random events, the more random events there might be.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       This meeting could have been an AI-generated summary
-    
-  
+
+
 
 The basic question with the current crop of artificial intelligence tools is: Will they automate the less valuable parts of white-collar jobs, allowing lots of knowledge workers to be more productive and do more interesting work? Or will they automate the most valuable parts of white-collar jobs, or all the parts, putting employees out of work or reducing them to executing the machines’ instructions?
 For instance, there is a standard view that large language models will be able to replace some of the work of hedge fund analysts, giving portfolio managers the ability to generate and test and analyze more ideas and do their jobs better. But we   talked yesterday about a hedge fund that plans to employ human analysts to generate ideas,  but then “a systematic algorithm will create a portfolio based on the ideas.” You automate out the boss who makes the final decision, but you keep the human grunt workers who provide the inputs to that decision.
@@ -134,11 +134,11 @@ The problem was that no one named Bob was on the call and no one spoke about pro
 Yeah, but you see how that happened, right? If I told you “write a summary of a meeting at an ad agency,” you’d probably include the sentence “Bob spoke about product strategy” too. Maybe even if you went to the meeting! You probably weren’t paying attention the whole time either; the AI model can half-listen to the meeting just as well as you can. Large language models are not in the business of interpreting reality and summarizing it accurately; they’re in the business of completing texts in plausible ways. That is a risky approach to financial modeling but an incredibly efficient approach to summarizing meetings.
 Elsewhere: “AI Is Starting to Threaten White-Collar Jobs. Few Industries Are Immune.”
 
-  
-    
+
+
       PE pay for performance
-    
-  
+
+
 
 We  talked the other day about Carlyle Group Inc.’s plan to pay its employees more out of performance fees (which vary from year to year depending on how successfully Carlyle’s funds exit their investments) and less out of management fees (which are pretty stable from year to year). My point was that there is a sort of arbitrage: Carlyle’s shareholders prefer stable recurring fees, so they place a higher multiple on the management fees than the performance fees, while Carlyle’s employees really ought to be motivated to deliver good performance, so Carlyle should pay them mostly out of performance fees. It’s a win-win: Give the shareholders the management fees to satisfy their desire for stability, and give the employees the performance fees to motivate them.
 But of course there was a bit of sleight of hand in that argument: Carlyle’s shareholders value stable management fees more, I said, while Carlyle’s employees are motivated by variable performance fees. Those things are not parallel. It’s not a real arbitrage. Carlyle’s shareholders value stable income more than risky performance, and Carlyle’s employees also probably value stable income more than risky performance. They don’t want to be motivated! They want to be paid. If you’re taking some stable management fees away from the employees, and replacing them with at-risk performance fees, you have to give the employees more to make it worth their while.
@@ -153,11 +153,11 @@ You have to pay them $300 million more in the good years to make up for paying t
   [1]
  But the dealmakers do value stability.
 
-  
-    
+
+
       Indian options trading
-    
-  
+
+
 
 In general, if someone tells you that they know how to make a fortune trading in the stock market, and that, for a fee, they will use that skill to make you a fortune in the stock market (or to teach you how to make a fortune), you should ask: Why? What’s in it for them? They can just make money for themselves in the stock market; why do they need your money?
 Sometimes there is a satisfactory answer. We   talked yesterday about multistrategy hedge funds, which have a pretty good reputation these days, and which answer the question by saying “we will take 59 cents of every dollar that we generate with your money.” What’s their incentive to make profits for you in the stock market? They take most of the profits! Very satisfactory answer.
@@ -178,63 +178,63 @@ Sebi examined Ansari’s personal brokerage account to reveal how successful he 
 He lost $347,695 trading and made 172 million rupees (roughly $2 million) selling courses. Good trade, for him, until he had to give the fees back.
 I have to say, I love the regulatory strategy of just reporting the actual trading results of online trading influencers? Sebi must have had fun reading those brokerage statements. I feel like the US Securities and Exchange Commission should do that. Like if you sell investment courses and post online about your trades, the SEC should just reply to all of your posts “you lost $37,000 last month and have never been profitable.” Dispel the mystique a little.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Activist Carl Icahn Takes Stake in   JetBlue, Eyeing Board Seat.   Annuities are driving credit demand. Tougher  Rent Laws Are Behind Trouble at NYCB. MSCI to Remove Swath of   China Stocks From Indexes as Markets Sink. It’s Crunch Time for One of  Europe’s Last Big Wall Street Players. Raising Trillions of Dollars Might Be the Easy Part of  Altman’s Chip Plan. Endeavor’s Autry Stephens Is   Richest US Oilman After Diamondback Deal. IPOs Broaden in Busy Week With Goldman Bullish on More Deals. Bitcoin Surges to   $50,000 for the First Time Since 2021 on ETF Demand.   Macquarie Banker Who Earned More Than Jamie Dimon Steps Down. Tankers Tied to the   Russian Oil Trade Grind to a Halt Following US Sanctions. Cash-Flush Buyers Dip Into  Distressed Commercial Real Estate. Brazilian football: the next frontier in global sport? Snowstorm Will Disrupt NYC Commute and Close Schools on Tuesday.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Does it? The argument against is something like "Carlyle's performance represents a much smaller percentage of an outside shareholder's net worth than it does of a Carlyle managing director, so the Carlyle MD should be more afraid of volatility." The argument for is something like "a Carlyle MD probably is more optimistic about Carlyle's performance than an outside investor is."
 
 
   [2] I suppose this means that, if you are trying to run an investing fraud on *me*, the trick is to charge really high fees. I do not know if this generalizes.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -245,46 +245,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckfyoi.5jdk/e7385420.gif" alt="" border="0" /></a>

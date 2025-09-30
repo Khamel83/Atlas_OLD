@@ -62,7 +62,7 @@ As markets become more liquid and legible, beta improves while alpha erodes. The
 Know what you want to stand out for, how you’re different [ https://link.sbstck.com/redirect/67a77d59-3b6f-41ff-9a27-4de38f933466?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], what you can do that no one else can that can’t be captured by an algorithm or simple market signals, at least not yet. 
 There’s a market for almost everything. 
 The most valuable things will always be the ones that are hardest to price.
-Thanks to Dan [ https://link.sbstck.com/redirect/650719e4-61b6-4fd3-9f8d-4c783b041532?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://link.sbstck.com/redirect/a3bd13d6-e57a-4e8b-beb3-86c19c3b5b48?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
+Thanks to Dan [ https://link.sbstck.com/redirect/650719e4-61b6-4fd3-9f8d-4c783b041532?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://link.sbstck.com/redirect/a3bd13d6-e57a-4e8b-beb3-86c19c3b5b48?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today! We’ll be back in your inbox on Friday with the Weekly Dose.
 Thanks for reading,
 Packy

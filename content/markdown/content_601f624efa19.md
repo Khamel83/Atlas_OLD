@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >See You in Court, Mr. Assange</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Why the First Amendment won’t necessarily protect WikiLeaks.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -877,21 +877,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-1@published"
-  
+
 > Besides providing the public with unprecedented access to classified government documents, Julian Assange and his WikiLeaks enterprise may provide an answer to a question left open since the Supreme Court decided <a data-linktype="External" href="http://www.oyez.org/cases/1970-1979/1970/1970_1873/">the Pentagon Papers case</a> almost 40 years ago: Can a publisher be prosecuted for disseminating truthful information illegally obtained by a source without offending the First Amendment?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-2@published"
-  
+
 >Like many complex questions of constitutional law pitting competing interests of the highest order against one another, the answer is:  It depends. But based on precedent—and, almost as relevant, on the current composition of the Supreme Court—it seems likely that the court would allow a case against Assange. The problem would be getting him to court.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="162"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-3@published"
-  
+
 >The Supreme Court has never addressed this issue head on in the years since the Pentagon Papers case. But in related cases it has found that holding the publishers of  illegally obtained information legally accountable violated the First Amendment, most recently in 2001 in <em> <a data-linktype="External" href="http://www.law.cornell.edu/supct/html/99-1687.ZS.html">Bartnicki v. Vopper</a></em>.  In that case, the stakes were relatively low and any potential damage from publication of the information illegally obtained by the source was localized. The case concerned a conversation between the president of a Pennsylvania teachers’ union and the union’s chief negotiator illegally intercepted by a union opponent and turned over to the host of a local radio show. When the radio host broadcast the conversation, the union president and negotiator sued him for civil damages under a federal law that made it unlawful for any person to “willfully disclose … to any other person the contents of any wire or oral communication, knowing or having reason to know that the information was obtained” illegally.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -902,14 +902,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="45"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-4@published"
-  
+
 >The Supreme Court assumed for the purposes of the case that the actions of the radio host (and other media) violated the law. Still, it found that the First Amendment prohibited the lawsuit. So what does <em>Bartnicki</em> tell us about the government’s chances against Assange?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="120"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-5@published"
-  
+
 >The first question is whether Assange violated any federal law. Justice and Defense Department officials have focused on a section of the 1917 Espionage Act that makes it a crime punishable by up to 10 years in prison for anyone “having unauthorized possession of … any document … or information relating to the national defense which information the possessor has reason to believe could be used to the injury of the United States or to the advantage of any foreign nation,” either to “willfully communicate … the same to any person not entitled to receive it,” or to “willfully retain the same and fail to deliver it to the officer or employee of the United States entitled to receive it.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -988,14 +988,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="85"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-6@published"
-  
+
 >Recognizing that good defense lawyers would put up a fight on each of them, let’s assume Assange meets the elements of the crime:  1) he had unauthorized possession of classified documents; 2) they related to the national defense; 3) he had reason to believe the documents could be used to injure the United States or advantage a foreign nation, and 4) he willfully communicated the cables to people not entitled to receive them.  Let’s also assume the government can get Assange into a U.S. court.  </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="164"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-7@published"
-  
+
 >Any First Amendment analysis concerning publication of classified documents must start with the Pentagon Papers case. In that 1971 case, the Supreme Court rejected the government’s plea for an order prohibiting the <em>New York Times</em> and the <em>Washington Post</em> from publishing a leaked top secret study on America’s policy in Vietnam. While it was a landmark victory for the press, the six justices in the majority agreed on very little except the result. (Each of them issued his own written opinion in addition to the half page per curium opinion they all joined.) The result was that, in the absence of a law passed by Congress, the courts could not take the drastic step of imposing a <em>pre</em>-publication restraint on the press. They disagreed, for example, on whether publication of the documents qualified as “communicat[ing],” “deliver[ing],” or “transmit[ting]” as those terms were used in the Espionage Act.  Thus, the court expressed no opinion on whether the First Amendment prevented <em>post</em>-publication prosecution of the publishers.  </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1038,7 +1038,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-8@published"
-  
+
 >As we know, with their Supreme Court victory in hand, the <em>Times</em> and <em>Post</em> went ahead publishing portions—but not all, and arguably not the most controversial parts—of the 7,000-page Defense Department report.  The government never tried to prosecute the publishers.  And the courts were never called on to answer the questions left open by the Pentagon Papers case. </p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1063,21 +1063,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="70"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-9@published"
-  
+
 >Thirty years later, in <em>Bartnicki</em>, the court inched closer to resolving “whether, in cases where information has been acquired unlawfully by a newspaper or by a source, government may ever punish not only the unlawful acquisition, but the ensuing publication as well.”  While the six-member majority once again sided with the media, a close examination of the court’s rationale indicates the First Amendment shield might not be available to Assange.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="13"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-10@published"
-  
+
 >The court began its analysis by accepting as true the following three assertions: </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="35"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-11@published"
-  
+
 >1) The disseminators (publishers and broadcasters) played no part in illegally obtaining the information.<br/>2) No law prohibited the disseminators’ receipt of the illegally obtained information.<br/>3) The subject matter of the conversation was of public concern.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1102,7 +1102,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-12@published"
-  
+
 >Then the court balanced the interest in promoting public discourse and the free flow of information about matters of public concern, on the one hand, against the interests in promoting private speech and in discouraging illegal interception of private conversations, on the other. The great public interest in the information tipped the scales, the court said.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1145,7 +1145,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="129"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-13@published"
-  
+
 >A potential Assange prosecution would differ in several important respects. First, it would be a criminal case, and instead of monetary damages a prison sentence would hang in the balance. Next, the second <em>Bartnicki</em> court assumption—that there is no law against the receipt of illegally obtained information—doesn’t hold for Assange: The Espionage Act prohibits that very thing. In addition, the first <em>Bartnicki </em>assumption—that Assange played no part in obtaining the information—is less clear: Did the leaker receive assistance or encouragement from Assange? Finally, the balance of interests is different—while the matters covered by the WikiLeaks disclosures might be of more monumental public concern, the potential damage to national security and foreign policy prerogatives is far more grave than the personal reputational injury alleged by a union president and negotiator.  </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1188,7 +1188,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="160"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-14@published"
-  
+
 >But let’s not get too bogged down with legal analysis. Supreme Court prognostication is about counting votes. <em>Bartnicki</em> was a 6-3 decision. In the majority were Justices John Paul Stevens (its author), Sandra Day O’Connor, Anthony Kennedy, David Souter, Ruth Bader Ginsburg, and Stephen Breyer. Dissenting were Chief Justice William Rehnquist, and Justices Antonin Scalia and Clarence Thomas. Since <em>Bartnicki</em>, the chief justice has been replaced by his former law clerk, John Roberts, and we’ll assume he will vote the same way as his old boss, and that Scalia and Thomas will stay put. O’Connor has been replaced by Samuel Alito, and we can assume he’ll join the dissenters in siding with the government. That makes four votes to allow prosecution. Let’s assume that Justices Sonia Sotomayor and Elena Kagan vote as their predecessors (Souter and Stevens, respectively) did and that Ginsburg again sides with the media, though on these close calls involving nonideological issues such speculation is particularly dangerous.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1231,14 +1231,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="35"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-15@published"
-  
+
 >That leaves the enigmatic Kennedy and the pragmatic Breyer. We’ll leave Kennedy and his quirky First Amendment jurisprudence in a familiar place—in the middle—and focus on Breyer, who tipped his hand in the <em>Bartnicki</em> case.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="114"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-16@published"
-  
+
 >Breyer (joined by O’Connor) wrote a separate concurring opinion in <em>Bartnicki</em> to emphasize that his vote, as it often is, was strictly limited to the facts of the case, especially the three assumptions the court made. He stressed that “[f]or one thing, the broadcasters here engaged in no unlawful activity other than the ultimate publication of the information another had previously obtained. They ‘neither encouraged nor participated directly or indirectly in the interception.’”  He continued:  “No one claims that they ordered, counseled, encouraged, or otherwise aided or abetted the interception, the later delivery of the tape by the interceptor to an intermediary, or the tape’s still later delivery by the intermediary to the media.” </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1281,14 +1281,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="39"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-17@published"
-  
+
 >This might be a more difficult conclusion to reach when it comes to Assange and WikiLeaks, whose Website boasts “military-grade encryption protection” for its “anonymous electronic drop box” and other protections for potential contributors of “restricted or censored material.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-18@published"
-  
+
 >Most important, Breyer reiterated that the statutes at play in <em>Bartnicki</em> “do not forbid the receipt of the tape itself,” and the court’s ruling “does not apply to punishing parties for obtaining the relevant information unlawfully.”  This would be extremely difficult for Assange to claim because the Espionage Act makes it a crime to receive and retain documents “connected with the national defense” if the receiver has “reason to believe” they were obtained illegally. </p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1331,7 +1331,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="89"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-19@published"
-  
+
 >Finally, Breyer concluded that the privacy expectations of the union president and negotiator were “unusually low” because their discussion involved suggestions of committing violent acts to get their way in the negotiation, while the “public interest in defeating those expectations is unusually high.” In a case against Assange, both interests would be much higher—the national security and diplomatic secrecy interests would be far more serious than they were in <em>Bartnicki</em>, while the subject matter of the leaked documents are of paramount public concern<em>. </em>The balance would be much closer.  </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1356,28 +1356,28 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="88"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-20@published"
-  
+
 >And in close cases like this one, where the smallest of factual distinctions can significantly alter constitutional outcomes, differences between WikiLeaks and more traditional media might matter to Breyer, the court’s most media-friendly and technologically savvy member, and other justices. Courts have not had an easy time drawing a clear line between new and old media for First Amendment purposes. This case has new media concerned it might get second-class treatment and old media fearing the extreme circumstances of an Assange case could make bad law for them.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="93"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-21@published"
-  
+
 >Reading the concurrences, a task not so different from reading tea leaves, it looks like a majority of the justices in both <em>Bartnicki</em> and the Pentagon Papers case indicated a willingness to permit prosecution over a First Amendment challenge in circumstances likely to be presented in an Espionage Act case against Assange or other WikiLeakers.  That just leaves the government the challenge of finding Assange, getting him to the United States, and proving all the complicated elements of the crime in the face of the legal, territorial, technological smoke screens Assange has created.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="24"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-22@published"
-  
+
 >If it can do that, this case—let’s call it the Foggy Bottom Papers case—may answer that grand constitutional question left unanswered 40 years ago.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="8"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-b9115aa615bce67593738b56fd786741-component-23@published"
-  
+
 ><em>Like </em><strong><em>Slate </em></strong><em>on </em> <a scrollbars='true' status='true' resizable='true' href='http://www.facebook.com/slate' linktype='External'><em>Facebook</em></a><em>. Follow us on </em> <a scrollbars='true' status='true' resizable='true' href='https://editor.slate.com//editor/http/www.twitter.com/slate' linktype='External'><em>Twitter</em></a><em>.</em></p>
 
 <div
@@ -1442,7 +1442,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1477,7 +1477,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="news_and_politics/jurisprudence"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-b9115aa615bce67593738b56fd786741-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1528,7 +1528,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1553,7 +1553,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2063,7 +2063,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

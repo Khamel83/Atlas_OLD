@@ -98,7 +98,7 @@
 function OptanonWrapper() { }
 </script>
 <!-- OneTrust Cookies Consent Notice end for pewtrusts.org -->
-	
+
 		<script type="application/ld+json">
 		{"mainEntityOfPage":{"@type":"WebPage","@id":"http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/the-pandemic-prompted-people-to-move-but-many-didnt-go-far"},"headline":"The Pandemic Prompted People to Move, But Many Didn’t Go Far","description":"Permanent moves jumped 15% in March 2020.","image":["http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/-/media/post-launch-images/2022/03/ap_21035677247895/16x9_m.jpg","http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/-/media/post-launch-images/2022/03/ap_21035677247895/1x1_s.jpg"],"author":[{"@type":"Person","name":"Tim Henderson","url":"http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/about/tim-henderson"}],"publisher":{"@type":"Organization","name":"The Pew Charitable Trusts","logo":{"@type":"ImageObject","url":"http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/-/media/files/pew-header-logo-svg.svg"}},"datePublished":"2022-03-23T01:00:00-04:00","@context":"http://web.archive.org/web/20230410004343/https://schema.org","@type":"BlogPosting"}
 	</script>
@@ -127,7 +127,7 @@ function OptanonWrapper() { }
 
 </div>
                         <div class="global-header__top-right">
-                            
+
   <nav class="primary-nav js-primary-nav" aria-label="primary">
     <div class="primary-nav__menu-wrap js-menu">
       <ul class="primary-nav__menu" role="menubar">
@@ -136,7 +136,7 @@ function OptanonWrapper() { }
                             <a href="/web/20230410004343/https://www.pewtrusts.org/en/topics" class="primary-nav__main-nav-link js-primary-nav-top-link" role="menuitem" id="menu1-trigger" aria-haspopup="true" aria-controls="menu1" aria-expanded="false">Topics</a>
   <div class="primary-nav__submenu js-submenu" role="none presentation">
     <div class="container-wide--100" role="none presentation">
-      
+
     <ul class="primary-nav__topics-menu" role="menu" aria-labelledby="menu0-trigger" aria-orientation="vertical">
             <li class="primary-nav__topics-col" role="none presentation">
                 <a href="/web/20230410004343/https://www.pewtrusts.org/en/topics#communities" class="js-primary-nav-sub-link" role="menuitem">Communities</a>
@@ -205,7 +205,7 @@ function OptanonWrapper() { }
                             <a href="/web/20230410004343/https://www.pewtrusts.org/en/projects" class="primary-nav__main-nav-link js-primary-nav-top-link" role="menuitem" id="menu2-trigger" aria-haspopup="true" aria-controls="menu2" aria-expanded="false">Projects</a>
   <div class="primary-nav__submenu js-submenu" role="none presentation">
     <div class="container-wide--100" role="none presentation">
-      
+
     <ul class="primary-nav__topics-menu" role="menu" aria-labelledby="menu0-trigger" aria-orientation="vertical">
             <li class="primary-nav__topics-col" role="none presentation">
                 <a href="/web/20230410004343/https://www.pewtrusts.org/en/projects#communities" class="js-primary-nav-sub-link" role="menuitem">Communities</a>
@@ -545,7 +545,7 @@ function OptanonWrapper() { }
                                 </button>
     <div class="primary-nav__submenu js-submenu" role="none presentation">
         <div class="container--100" role="none presentation">
-            
+
     <ul class="primary-nav__topics-menu" role="menu" aria-labelledby="menu1-trigger" aria-orientation="vertical">
             <li class="primary-nav__topics-col" role="none presentation">
                 <a href="/web/20230410004343/https://www.pewtrusts.org/en/topics#communities" class="js-primary-nav-sub-link" role="menuitem">Communities</a>
@@ -619,7 +619,7 @@ function OptanonWrapper() { }
                                 </button>
     <div class="primary-nav__submenu js-submenu" role="none presentation">
         <div class="container--100" role="none presentation">
-            
+
     <ul class="primary-nav__topics-menu" role="menu" aria-labelledby="menu2-trigger" aria-orientation="vertical">
             <li class="primary-nav__topics-col" role="none presentation">
                 <a href="/web/20230410004343/https://www.pewtrusts.org/en/projects#communities" class="js-primary-nav-sub-link" role="menuitem">Communities</a>
@@ -845,7 +845,7 @@ By: <a href="/web/20230410004343/https://www.pewtrusts.org/en/research-and-analy
     </div>
 </section><section class="container container--bleed   " id="Container-6fc89535-8dd1-40c5-b7f0-c53502763c64" style="background-color:;">
     <div class="container__col container__col--bleed">
-        
+
 <div class="page-toolbar__wrapper" id="">
 	<div class="page-toolbar">
 		<div class="container container--100">
@@ -931,7 +931,7 @@ By: <a href="/web/20230410004343/https://www.pewtrusts.org/en/research-and-analy
         </ul>
       </div>
     </div>
-    
+
   </div>
 </div>								<!-- Language Selector -->
 
@@ -941,7 +941,7 @@ By: <a href="/web/20230410004343/https://www.pewtrusts.org/en/research-and-analy
 	        Read Mode
 	    </label>
 	    <label class="content-toolbar--switchbackground">
-	        
+
 	        <input id="content-toolbar--togglereadmode" type="checkbox"/>
 	        <span class="content-toolbar--switchforeground"/>
 	    </label>
@@ -1090,7 +1090,7 @@ The Pandemic Prompted People to Move, But Many Didn’t Go Far				</span>
 </div>
 			</div>
 			<div class="flexible-promo__overlay" style="background-image: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.1) 15%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.5) 60%,rgba(0,0,0,.6) 75%,rgba(0,0,0,.7) 100%)"></div>
-			
+
 			</a>
 
 <div class="flexible-promo__modal-content js-modal-content">
@@ -1181,7 +1181,7 @@ The Pandemic Prompted People to Move, But Many Didn’t Go Far				</span>
 </div>
 			</div>
 			<div class="flexible-promo__overlay" style="background-image: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.1) 15%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.5) 60%,rgba(0,0,0,.6) 75%,rgba(0,0,0,.7) 100%)"></div>
-			
+
 			</a>
 
 <div class="flexible-promo__modal-content js-modal-content">
@@ -1275,7 +1275,7 @@ The Pandemic Prompted People to Move, But Many Didn’t Go Far				</span>
 </div>
 			</div>
 			<div class="flexible-promo__overlay" style="background-image: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.1) 15%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.5) 60%,rgba(0,0,0,.6) 75%,rgba(0,0,0,.7) 100%)"></div>
-			
+
 			</a>
 
 <div class="flexible-promo__modal-content js-modal-content">
@@ -1387,7 +1387,7 @@ AUTHOR        </span>
         <input type="hidden" name="searchId" value="{F9D3CF04-16AA-4049-8332-D11454A2C5D5}"/>
 
 <div class="blog-post-filter__title">EXPLORE MORE FROM STATELINE</div>
-        
+
             <div class="form__field form__field--dropdown">
                 <div class="blog-post-filter__section-title">Places</div>
                 <select name="places" onchange="this.form.submit()" class="js-form-dropdown">
@@ -1545,11 +1545,11 @@ AUTHOR        </span>
     <li>Any use online should include a link back to our website.</li>
     <li>Follow Pew&rsquo;s&nbsp;<a href="http://web.archive.org/web/20230410004343/https://www.pewtrusts.org/en/about/terms-and-conditions">Terms and Conditions</a>.</li>
 </ul></p>
-        
-        
-        
-        
-        
+
+
+
+
+
     </div>
 </div>
 
@@ -1647,7 +1647,7 @@ AUTHOR        </span>
 
 <div class="interstitial-popup-wrapper">
         <div class="interstitial-popup js-interstitial-popup xdbpe" data-xdbpe="7B8475B2-AA92-4A99-9C54-3C3C05AEB91B" data-model="{&quot;datasourceGuid&quot;:&quot;{8F15C56E-F22B-4849-95B0-38FDFEC5B81E}&quot;,&quot;promoItemPath&quot;:&quot;/sitecore/content/PewTrusts_org/Home/Shared Components/Shared Interstitials/Broadband Journey&quot;,&quot;delayAmount&quot;:50.0,&quot;maxWidth&quot;:&quot;Small&quot;,&quot;backgroundOverlayOpacity&quot;:0.5,&quot;delayMethod&quot;:&quot;Scroll Depth&quot;,&quot;displayMode&quot;:&quot;Modal&quot;,&quot;borderColor&quot;:&quot;#B0B0B0&quot;,&quot;backgroundOverlayColor&quot;:&quot;#E1E1E1&quot;}">
-            
+
             <section class="container container--bleed   " id="Container-d8105ac2-6619-4042-8afb-ee4b02468b09" style="background-color:;">
     <div class="container__col container__col--bleed">
         <section class="container container--100  " id="">
@@ -1673,7 +1673,7 @@ AUTHOR        </span>
 								<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(min-width: 56.9375em)">
 								<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(min-width: 29.4375em)">
 								<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(max-width: 29.375em)">
-								
+
 							</source></source></source></picture>
 							<figcaption class="u-visuallyhidden"></figcaption>
 						</figure>
@@ -1694,7 +1694,7 @@ AUTHOR        </span>
 </div>
 			</div>
 			<div class="flexible-promo__overlay" style="background-image: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.1) 15%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.5) 60%,rgba(0,0,0,.6) 75%,rgba(0,0,0,.7) 100%)"></div>
-			
+
 			</a>
 
 <div class="flexible-promo__modal-content js-modal-content">
@@ -1708,7 +1708,7 @@ AUTHOR        </span>
 											<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(min-width: 56.9375em)">
 											<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(min-width: 29.4375em)">
 											<source srcset="/web/20230410004343im_/https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/03/23/1x,  2x" media="(max-width: 29.375em)">
-											
+
 										</source></source></source></picture>
 									</a>
 									<figcaption class="u-visuallyhidden"></figcaption>
@@ -1729,7 +1729,7 @@ AUTHOR        </span>
 </section>
     </div>
 </section>
-        
+
         </div>
     </div>
 
@@ -1809,7 +1809,7 @@ AUTHOR        </span>
                             <span id="Explore-99b8054e-23e0-46a8-ad78-c2ae312c2307" class="global-footer__title">
                                 Explore
                             </span>                        <div class="footer-nav__col-wrapper">
-                            
+
 		<ul class="footer-nav__col" aria-labelledby="Explore-99b8054e-23e0-46a8-ad78-c2ae312c2307">
 					<li>
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/topics" class="footer-nav__link">Topics</a>					</li>
@@ -1819,14 +1819,14 @@ AUTHOR        </span>
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/about/news-room" class="footer-nav__link">News Room</a>					</li>
 					<li>
 <a href="http://web.archive.org/web/20230410004343/http://www.pewresearch.org/" class="footer-nav__link" rel="noopener noreferrer" target="_blank">Pew Research Center</a>					</li>
-		    
+
 		</ul>
 
 </div>
                 </div>                <div class="footer-nav__section has-1">
                             <span class="global-footer__title" id="About-23ac7099-d33f-4911-af04-c33658d6bdae">
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/about">About</a>                            </span>                        <div class="footer-nav__col-wrapper">
-                            
+
 		<ul class="footer-nav__col" aria-labelledby="About-23ac7099-d33f-4911-af04-c33658d6bdae">
 					<li>
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/about/mission-and-values" class="footer-nav__link">Mission &amp; Values</a>					</li>
@@ -1836,7 +1836,7 @@ AUTHOR        </span>
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/about/contact-us" class="footer-nav__link">Contact Us</a>					</li>
 					<li>
 <a href="/web/20230410004343/https://www.pewtrusts.org/en/about/careers" class="footer-nav__link">Careers</a>					</li>
-		    
+
 		</ul>
 
 </div>
@@ -1886,7 +1886,7 @@ AUTHOR        </span>
     </nav>
 
 </div>
-                    
+
 		<div class="newsletter-signup newsletter-signup--footer">
 			<span class="global-footer__title">SIGN UP FOR WEEKLY UPDATES</span>
 			<form class="js-footer-newsletter-signup" name="etForm" novalidate="novalidate" method="post" action="" target="_blank" data-component="Configuration">

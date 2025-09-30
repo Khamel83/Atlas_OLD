@@ -89,7 +89,7 @@ atlas_tutorial_08_maintenance_backup.mp4
 
 ### Introduction Template
 ```
-Hello and welcome to the [Tutorial Title] tutorial for Atlas. 
+Hello and welcome to the [Tutorial Title] tutorial for Atlas.
 In this video, I'll show you how to [brief description of what the tutorial covers].
 By the end of this tutorial, you'll be able to [what the viewer will be able to do].
 
@@ -104,7 +104,7 @@ Now that we've covered [previous section], let's move on to [next section].
 
 ### Conclusion Template
 ```
-That's it for the [tutorial title] tutorial. 
+That's it for the [tutorial title] tutorial.
 You should now be able to [what the viewer can do after watching].
 
 In the next tutorial, we'll cover [teaser for next tutorial].

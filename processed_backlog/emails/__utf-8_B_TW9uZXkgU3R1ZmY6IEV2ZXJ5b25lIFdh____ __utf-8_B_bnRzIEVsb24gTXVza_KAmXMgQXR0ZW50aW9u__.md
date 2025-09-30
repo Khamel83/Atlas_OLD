@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         You could have a model of Elon Musk that is like: He runs a bunch of different companies and owns large stakes in each of them. They all nom
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elon Musk attention auction (1)
-    
-  
+
+
 
 You could have a model of Elon Musk that is like:
 	He runs a bunch of different companies and owns large stakes in each of them.	They all nominally do different things — cars, rockets, tunnels, brain implants, artificial intelligence, complaining on the internet — but there is a lot of overlap. Most of them employ engineers who move somewhat fungibly among companies, and most of them seem to have big plans for artificial intelligence.	Each time he comes up with a value-creating idea, he can more or less freely choose which company to implement it at.	He is motivated by money.	Therefore, he should implement the idea at the company that maximizes its contribution to his net worth.
@@ -90,37 +90,37 @@ A lot of those names are familiar from Musk’s deal to buy Twitter. Maybe they 
   [3]
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elon Musk attention auction (2)
-    
-  
+
+
 
 I really don’t know what I would advise here:
 
@@ -132,13 +132,13 @@ Musk’s compensation was originally approved by Tesla shareholders in 2018, but
 Yes: Giving $46 billion of stock to Elon Musk really would dilute the other shareholders. That’s just true. When Tesla initially proposed the pay package in 2018, the tradeoff was “we’ll give him $56 billion of stock if he increases the value of the company by $600 billion,” which was probably a good deal prospectively. (Shareholders thought so, though Glass Lewis recommended against it at the time.) But now that increase in valuation has already happened,
   [4]
  so the judge’s ruling gives Tesla shareholders the chance to get it for free. Musk did all the work already, and they don’t have to pay him for it! As a strict economic calculation, maybe they should keep the money.
-On the other hand, that does seem unfair, which probably will motivate some institutional shareholders to vote to give him the money. But the bigger problem is that if you really do take away this money, that will definitely demotivate him. If Tesla’s shareholders vote not to give Musk the bag of money that he wants, he will sulk, and his sulking will probably involve working 168-hour weeks at several of his many other companies. Back in January — before his pay package was overturned — he was 
+On the other hand, that does seem unfair, which probably will motivate some institutional shareholders to vote to give him the money. But the bigger problem is that if you really do take away this money, that will definitely demotivate him. If Tesla’s shareholders vote not to give Musk the bag of money that he wants, he will sulk, and his sulking will probably involve working 168-hour weeks at several of his many other companies. Back in January — before his pay package was overturned — he was
 already saying that he would need more money from Tesla, and that otherwise he would be “uncomfortable growing Tesla to be a leader in AI & robotics.” He could very easily do his AI stuff at xAI, or SpaceX, or his other companies; creating value there rather than at Tesla.
 I guess the question is, can Tesla win the auction for Musk’s attention? It has some advantages:
 	It’s the company that made him, for a while, the richest person in the world; surely he has some sentimental attachment to it.	It’s still, by a significant margin, his biggest company, which means that it has more ability to say “sure here you go here’s $50 billion” than, say, Boring Co. does.	It’s his only public company, which means that it is his most liquid asset: When he needed $44 billion to buy Twitter Inc., the natural move was to sell and borrow against his Tesla shares, because those were the easiest things to turn into money. 
 
 It has some disadvantages:
-	It’s a public company, so it has more disclosure, more scrutiny, more risk of shareholder lawsuits, and more oversight from judges. If SpaceX had paid Musk $56 billion, he’d have kept the money, but when Tesla did it a Delaware judge got to intervene to take the money back. Tesla’s board is trying to solve this problem by 
+	It’s a public company, so it has more disclosure, more scrutiny, more risk of shareholder lawsuits, and more oversight from judges. If SpaceX had paid Musk $56 billion, he’d have kept the money, but when Tesla did it a Delaware judge got to intervene to take the money back. Tesla’s board is trying to solve this problem by
 moving Tesla’s incorporation to Texas, where the judges will presumably (no one knows!) let Musk do whatever he wants. But that requires a majority vote of all the shareholders, which might be hard to get, and even in Texas Tesla will be subject to more oversight and disclosure than the private companies are.	He only owns 13% of the stock; if you assume (as he has said) that he’d rather be at 25%, then that means giving him an even more enormous dilutive pay package to keep his attention.	Because Tesla stock is Musk’s most liquid asset, it’s the thing he will sell first — to pay taxes, to buy Twitter, to buy whatever else he might want to buy. This creates the risk of perpetual dilution: He gets down to 13%, Tesla gives him $70 billion of stock to get him back up to 25%, he sells down to 13% again to buy something else, Tesla gives him more stock to get back to 25%, he sells it again, etc.
 
 Elsewhere, here’s a story about how “Tesla Harnesses an Influencer Army on $45 Billion Musk Pay Vote”:
@@ -149,27 +149,27 @@ That bank “doesn’t seem to care to lose customers,” she wrote on X. “Unb
 
 Obviously Tesla is the most attractive investment opportunity in the Musk universe for retail investors, because it’s the only one you can buy on the stock exchange. But for institutions the problem seems harder. 
 
-  
-    
+
+
       Gamma squeeze
-    
-  
+
+
 
 Probably the story of meme stocks goes something like this:
 	Because of social media, retail investors are more able to coordinate with each other to all buy the same stock at the same time.	Because it is fun and occasionally lucrative, they do.	Some structural feature of the modern stock market gives them leverage. The story is not just “when a lot of retail investors buy a stock at once, it goes up”; it’s “when a lot of retail investors buy a stock at once, that causes big institutional traders to buy the stock too, so it goes up.”
 
-Steps 1 and 2 of that story are surely true, and possibly sufficient to explain a lot of meme-stock activity. Step 3 is a bit murkier, and not absolutely necessary; it is imaginable that, if enough individuals on Reddit buy a stock, the stock will go up a lot. Still most people seem to believe some form of Step 3. The 
+Steps 1 and 2 of that story are surely true, and possibly sufficient to explain a lot of meme-stock activity. Step 3 is a bit murkier, and not absolutely necessary; it is imaginable that, if enough individuals on Reddit buy a stock, the stock will go up a lot. Still most people seem to believe some form of Step 3. The
 two main forms are:
 	The short squeeze: If a lot of retail investors buy a stock all at once, its price will go up enough that hedge funds who had shorted the stock will have to get out of their positions. Those hedge funds will also have to buy the stock, and then it will really go up a lot.	The gamma squeeze: If a lot of retail investors buy call options on a stock at once, the options market makers who sell them the options will have to buy the underlying stock as a hedge for the call options they sold. This will also push up the stock. And the market makers’ hedge is dynamic, meaning that as the stock goes up they have to buy even more stock to remain properly hedged, in a virtuous cycle that further pushes up the stock.
 
-This is not investment advice, and you should not believe these stories too literally; there are no perpetual-motion machines in finance. After the 2021 meme-stock mania, the US Securities and Exchange Commission 
+This is not investment advice, and you should not believe these stories too literally; there are no perpetual-motion machines in finance. After the 2021 meme-stock mania, the US Securities and Exchange Commission
 released a report finding some evidence of gamma squeezes and short squeezes, but not really endorsing either theory. And, again, “everyone bought the stock at once” is at least a theoretically sufficient explanation, without any of these technical factors.
 You could also add a third form of retail leverage, which goes something like:
 	Everyone noticed, in 2021, that retail investors on Reddit could move stocks. So they updated their models, in various ways, to reflect this. They started paying more attention to social media, trying to buy stocks that retail investors were talking about. And if they were short sellers, they started paying extra-close attention, so that they could immediately get out of any short positions that looked like they were becoming meme stocks. The result of this is that, as soon as retail investors start buying a meme stock, fast-money institutions — momentum-tracking hedge funds, social-media-tracking funds, factor-neutral funds, nervous short sellers — will also start buying that stock, and it will go up.
 
-One theory that I have heard about 
+One theory that I have heard about
 the recent meme-stock aftershock — in which the X account of Keith Gill, the famous GameStop bull known as Roaring Kitty, tweeted some stuff that caused the stock to rally — involves this sort of retail leverage. Gill tweeted, everyone online was like “cool we’re getting the band back together,” some retail investors bought some stock, and tons of professional investors were like “ah this again” and also smashed the buy button. When everyone has internalized the fact that retail investors can move markets, that makes it more true.
-Anyway 
+Anyway
 here’s a story about Nvidia options:
 
 Nvidia Corp. may not be a classic meme stock, yet when it comes to option trading during the latest leg of the rally, it certainly acts like one.
@@ -177,11 +177,11 @@ Call option trading jumped on Tuesday to the fourth-highest notional level with 
 Thousands of near-worthless call contracts set to expire at the end of this week suddenly rallied 1000% or more when shares opened sharply higher. This put pressure on option dealer desks who had sold those contracts to adjust their hedges by buying more shares. This creates a feedback loop as the buying drove shares higher, bringing more options into the money and forcing dealers to buy even more shares to stay balanced.
 
 
-  
-    
+
+
       Is Ozempic bad for business?
-    
-  
+
+
 
 A fun thesis is “the rise of GLP-1 agonist medications for obesity will lead to crashing global demand for sugar, so you should short sugar futures.” It’s a great story about how the world works: Changing consumer preferences lead to changing demand for commodities, and if the consumer preferences are changed by a drug, then (1) that will have an effect on commodity prices and (2) that’s cool and weird. 
 On the other hand it’s probably not true? Or maybe you can tell a story where in 50 years half of the world is on GLP-1 drugs and nobody eats sugar, but that is, you know, a lot of sugar crops from now. Here is a very fun story about how sugar traders have absolutely no interest in this thesis, but it’s so cool that people want to talk about it even though they end each sentence by muttering “… in 2035”:
@@ -200,11 +200,11 @@ Haque stressed that sugar demand is still growing in emerging markets, where the
 
 But one day!
 
-  
-    
+
+
       American Lidar
-    
-  
+
+
 
 If you come across a company named “American _______ Corp.” (with the relevant product in the blank), what should you assume about how American it is? Three possibilities are:
 	It is very American and patriotic, emphasizing its patriotic bona fides as a marketing strategy.	It is a normal amount of American: Companies used to have pretty bland names, and “American Express” or “American Airlines” were once standard ways to name companies that were located in the US.	Gotcha! It’s controlled by the Chinese military.
@@ -217,14 +217,14 @@ A month after it set up American Lidar to be its manufacturing facility in the U
 A Hesai spokeswoman said the name American Lidar was a placeholder, but the company wanted to communicate that the products would be made and sold in the U.S. Hesai has since paused plans for the American Lidar facility, blaming the fallout from being labeled a Chinese military entity.
 Hesai filed a lawsuit this month against the Defense Department, asserting it should be removed from the list because it has no affiliation with any military and isn’t controlled by the Chinese government.
 
-It reminds me a little bit of how 
+It reminds me a little bit of how
 Saudi Aramco issued bonds through an entity called GreenSaif Pipelines Bidco, and those bonds ended up in an environmental, social and governance index, because the name started with “Green,” though it degenerated from there to “Pipelines.” There will be some people (1) who want to avoid companies allegedly affiliated with the Chinese military but (2) whose due diligence will consist of looking at the name. So you might as well put “American” in the name.
 
-  
-    
+
+
       Corporate rap
-    
-  
+
+
 
 If you are very good at insulting people in rap songs, you can have a lucrative career as a popular rapper. But if you are very good at praising people in rap songs and pretending that you are insulting them, you can have surprisingly lucrative career “making fun” of chief executive officers at corporate events:
 
@@ -238,22 +238,22 @@ Oliver, who recently died at 19 years old, didn’t actually fly private, though
 “When the Egon text hits the phone you immediately read, praying he’ll use the English language but all that you see is a handful of gibberish typed by a toddler in mittens,” James sang. “If you respond wrong, better have your resignation written.”
 I bet he gets a lot of mileage out of those bars. Put any two-syllable executive name in there for “Egon” and all the employees at the offsite will be like “ooh got him, he really nailed his brusque texting habit.” He had “nearly $10 million in revenue” in 2023 from 112 shows.
 
-  
-    
-      Things happen
-    
-  
 
-Convertible arbitrage 
-is back. ConocoPhillips to Acquire 
-Marathon Oil in $17 Billion Deal. Anglo Won’t Extend 
-BHP Deadline, Threatening $49 Billion Bid. ‘Not Gonna Be Pretty:’ Covid-Era Homebuyers Face Huge 
-Rate Jump. Private-Equity Giants Near Settlements With SEC Over Texting Violations. Jefferies Demands 
-Weiss Claw Back $30 Million in Bonus Payouts. Ex-Pioneer CEO says he was ‘scapegoated’ in Opec collusion case. Goldman Racks Up $21 Billion for Its Largest 
-Private Credit Pool. Why 
+
+      Things happen
+
+
+
+Convertible arbitrage
+is back. ConocoPhillips to Acquire
+Marathon Oil in $17 Billion Deal. Anglo Won’t Extend
+BHP Deadline, Threatening $49 Billion Bid. ‘Not Gonna Be Pretty:’ Covid-Era Homebuyers Face Huge
+Rate Jump. Private-Equity Giants Near Settlements With SEC Over Texting Violations. Jefferies Demands
+Weiss Claw Back $30 Million in Bonus Payouts. Ex-Pioneer CEO says he was ‘scapegoated’ in Opec collusion case. Goldman Racks Up $21 Billion for Its Largest
+Private Credit Pool. Why
 Dave & Buster’s Is Transforming Its Arcades Into Casinos. “Researchers haven’t nailed down precisely why more money is associated with more happiness.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Of course the reverse is also possible. Musk *did* call for a “pause” on AI development a year ago; possibly “AI, but bury it underground” really is the best idea.
 
 
@@ -266,48 +266,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] And been partially reversed: Tesla peaked in 2021, and has been below the pay package's $650 billion valuation target since January.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -318,46 +318,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl5nzw.5jbq/bfa97829.gif" alt="" border="0" /></a>

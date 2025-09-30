@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Every so often a company needs to sell stock, but it doesn’t have any stock to sell. There is some restriction in its corporate charter sayi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Canna Global
-    
-  
+
+
 
 Every so often a company needs to sell stock, but it doesn’t have any stock to sell. There is some restriction in its corporate charter saying that it can’t issue any more stock,
   [1]
@@ -109,37 +109,37 @@ The latest news is that Canna’s transfer agent, Continental Stock Transfer & T
 Continental Stock Transfer & Trust Company, New York, NY, stock transfer agent and trustee for Canna Global Acquisition Corp. (NASDAQ: CNGL, CNGLU and CNGLW), announced today that, in light of the failure of Liqueous LP to return 724,000 shares of Canna Global Class A common shares issued to them based on instructions from Canna Global in contravention of its Certificate of Incorporation, and in the absence of an agreement by which Liqueous would provide a backstop guarantee insuring payment of full trust value for said 724,000 shares should they be presented for redemption, Continental as trustee has itself agreed to guarantee the payment of full trust value for the 724,000 Class A common shares of Canna Global in the event of a redemption or liquidation event.
 I don’t know what to tell you. People sometimes worry that naked short sellers are going around creating “phantom shares” in public companies to drive down the price and make trouble. That almost never actually happens. But it did here.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       24-hour trading
-    
-  
+
+
 
 I have thought sometimes that financial markets should be divided into two clearly demarcated regimes, which I once called the Nice Market and the Fun Market. The Nice Market has rules, and the rules aim to achieve fairness, informative asset prices and efficient capital formation. The Fun Market has fewer rules, and it aims to achieve fun. The Nice Market, like all financial markets, tolerates a certain amount of speculation, because speculation can be good for price efficiency and liquidity. The Fun Market mostly encourages gambling.
 And then if you want fairness and efficient pricing — if you are a buy-and-hold index investor looking to invest your retirement funds in equity claims on the economy at prices reflecting the market’s sense of the present value of future cash flows — you invest in the Nice Market. And if you want to gamble, you invest in the Fun Market.
@@ -164,11 +164,11 @@ I have often argued that the stock market should be open half an hour a day, to
 
 It’s not perfect but it feels like the right idea.
 
-  
-    
+
+
       Elsewhere in fun markets
-    
-  
+
+
 
 I don’t know man:
 
@@ -181,11 +181,11 @@ Gill’s filing with the Securities and Exchange Commission, dated June 24 and m
 
 Here's Keith Gill’s Schedule 13G, because Keith Gill is a 13G filer now. Good for him. There is not actually a box on Schedule 13G labeled “Check the appropriate box to designate whether you are a cat,” but you can kind of type whatever you want, and he did. Obviously it will be funny if Chewy founder Ryan Cohen controls GameStop and GameStop … mascot? … Keith Gill controls Chewy, but honestly not that funny. It feels like there are diminishing returns to all of this, both as a matter of market impact and as a matter of comedy. But, sure, if you have the magic ability to make a stock go up just by talking about it, that is intoxicating, and you’ll do what you can to hold onto it.
 
-  
-    
+
+
       Chutzpah
-    
-  
+
+
 
 Some US states have passed laws making it illegal for employers to discriminate against employees (or potential employees) based on their criminal records. The natural arbitrage is:
 	Get a job.	Steal from your employer.	When you get fired, say “no, I have committed a crime, and you can’t discriminate against me based on my criminal record, so you can’t fire me.”
@@ -201,27 +201,27 @@ In 2021, the state’s Labor and Industry Review Commission found the Oconomowoc
 
 That was reversed on appeal, but it’s now before the state supreme court, so who knows. It’s possible that the rule is that, if you commit crimes at work, you can be fired or prosecuted, but not both.
 
-  
-    
+
+
       Chevron
-    
-  
+
+
 
 It’s been a wild few days for the US Supreme Court, and I am not going to cover it in any depth, but I should note that the Court overruled Chevron last week, meaning that courts no longer have to defer to regulatory agencies’ interpretations of laws. I wrote last Thursday: “I continue to think that there is a live possibility that, in the not too distant future, the Supreme Court will rule that the SEC has no power to make rules, and all of its rules are invalid. But not today.” Kind of Friday, though.
 I have written around here about the US Securities and Exchange Commission’s regulatory agenda in the last few years — things like its new climate disclosure rules or swaps disclosure rules or private funds rules — and I kind of wish I hadn’t. 
 Anyway, here’s Noah Feldman at Bloomberg Opinion on Chevron. Here’s Rachel Barkow. Today I think the Supreme Court ruled that the president can order anyone murdered without consequence? Which really seems like a more expansive regulatory power than interpreting statutes. We have fun around here, thinking about the rules and how they work and what sorts of things you can construct, if you are clever, to take advantage of the rules. I find myself already missing that sort of fun. I worry that there are no rules anymore.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The World Economic Forum in Davos, the place where billionaires fly in on private jets to find solutions to income inequality and climate change, is allegedly a toxic workplace. The foreign investors left stranded in Evergrande’s web of Chinese debt. Philippines courts investors for ‘China-free’ nickel supply chain. A Real-Estate Fund Industry Is Bleeding Billions After Starwood Capped Withdrawals. BlackRock Enters Booming Market for Stock ETFs With a 100% Hedge. Citi was money launderers’ favourite bank, US law enforcement officials say. Boeing Scoops Up Spirit AeroSystems, Its Troubled 737 Supplier. UniCredit Seeks Clarity From Court After ECB Orders Russia Cuts. Nomura seeks global acquisitions to expand wealth management business. Wall Street Cop Finra Goes Quiet on the Beat as Its Caseload Plunges. Sovereign Haircuts: 200 Years of Creditor Losses. Morgan Stanley to join Goldman and JPMorgan in scrapping UK bonus cap. Bain’s new boss says consultancy pulling back from work in China. Chicken Soup for the Soul Files for Chapter 11 Bankruptcy. Eton Parents Rush to Pay School Fees in Advance as Tax Hit Looms. How Tractor Supply Decided to End DEI, and Fast. “The old private equity model of 40 years ago where people think you borrow as much as you can, go play golf, and see if it all worked out in five years.” Tennis clubs grapple with surge in demand for padel and pickleball. Watch a baseball game on the toilet.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Most typically, this is a problem of “
-authorized shares”: The certificate of incorporation (the charter) says “the company can issue up to 100 million shares of common stock,” or whatever, and it has 99.97 million shares outstanding and wants to sell another 20 million shares to raise money. 
+authorized shares”: The certificate of incorporation (the charter) says “the company can issue up to 100 million shares of common stock,” or whatever, and it has 99.97 million shares outstanding and wants to sell another 20 million shares to raise money.
 
 
   [2] Often it takes the form of “blank check preferred stock.” Typically a corporate charter that says “the company can issue up to 100 million shares of common stock” will go on to say “and up to 20 million shares of preferred stock, which can have whatever terms the board of directors wants.” If the charter authorizes the board to issue preferred stock and set whatever terms it wants (a “blank check” for the board), it can issue preferred stock with terms that mirror the common. So you issue, like, 1 million shares of new preferred stock, and the terms of the preferred stock are (1) each share is entitled to the same economic rights (dividends, etc.) as 20 common shares, (2) each share gets to vote with the common stock and has 20 votes and (3) the company will, at the next chance it gets, ask its shareholders to vote to authorize more shares, and if and when the shareholders approve, each share of preferred stock will automatically convert into 20 shares of common stock. And typically you can build in some protections for the buyer: It buys the preferred shares at a discount to the price of real shares, the preferred shares get to vote along with the regular shares, the preferred shares get any dividends that the regular shares get, if the preferred shares don’t flip into real shares within some reasonable time, there’s some penalty (the company has to pay back the money, or pay interest), etc. But for our purposes here, the preferred shares are a class of shares that function like IOUs for future common shares.
@@ -233,48 +233,48 @@ authorized shares”: The certificate of incorporation (the charter) says “the
   [4] Several readers emailed me about it, many of them complaining that Liqueous’s sales might be *insider trading*: Liqueous knew the material facts about this deal, but the market didn’t, and it apparently sold the stock while everyone else was unaware. This seems plausible to me, but not the biggest problem!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -285,46 +285,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
   <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cldx80.460g/88608783.gif" alt="" border="0" /></a>

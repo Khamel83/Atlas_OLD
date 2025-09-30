@@ -61,7 +61,7 @@ and…
 Rachel Strugatz has a very candid chat ( https://puck.news/julia-hunter-on-growing-goop-out-of-its-awkward-phase/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Julia
 Hunter, Goop’s new fixer.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -69,7 +69,7 @@ ART MARKET
 Marion Maneker
 ponders ( https://puck.news/32-million-for-judy-garlands-ruby-slippers-is-just-the-beginning/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the record-breaking auction of the Mona Lisa of memorabilia.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -82,7 +82,7 @@ and…
 Eriq Gardner shares a
 delectable grab bag ( https://puck.news/trumps-doj-civil-rights-division-pick-harmeet-dhillon-has-her-sights-on-dei/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of Trump-era Hollywood legal horrors.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -90,7 +90,7 @@ WALL STREET
 Bill Cohan
 flips through ( https://puck.news/what-david-zaslavs-reorg-means-for-the-future-of-wbd/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Zaz’s cable dealbook and hitches a ride ( https://puck.news/the-rise-fall-and-return-of-zero-g/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) into space. 
 
- 
+
 
 SILICON VALLEY
 SILICON VALLEY
@@ -98,7 +98,7 @@ SILICON VALLEY
 Baratunde Thurston and Bill
 contemplate ( https://puck.news/how-ai-will-or-wont-change-wall-street/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Wall Street’s role in the A.I. revolution, presented by Meta.
 
- 
+
 
 MEDIA
 MEDIA
@@ -110,7 +110,7 @@ and…
 
 John Ourand dissects ( https://puck.news/the-nba-needs-a-christmas-miracle/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the NBA and NFL’s battle for Christmas.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -127,7 +127,7 @@ meanwhile…
 Abby Livingston
 investigates ( https://puck.news/aoc-wont-lead-oversight-but-her-stock-is-still-trending-up/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the A.O.C.-Nancy Pelosi beef. 
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -167,7 +167,7 @@ The Powers That Be
 Peter and Marion pick through the mess at Sotheby’s on
 The Powers That Be ( https://puck.news/podcast_episode/sothebys-layoff-saga/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 D.C.’s
 Long December
@@ -218,7 +218,7 @@ But if you only have time to read one thing this weekend, I’d refer you to
 Bill Cohan’s latest brilliant entry in Puck’s David Zaslav oeuvre: Zaz in Cable Wonderland ( https://puck.news/what-david-zaslavs-reorg-means-for-the-future-of-wbd/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), which I previewed last week. Yes, yes, I know that Puck occasionally manifests a fair amount of alacrity when it comes to the Warner Bros. Discovery C.E.O. and his deal machinations. But, as Bill notes, the Zaz endgame is becoming
 increasingly clear as he separates out his cable assets, brings on an expensive team of dealmakers and deal lawyers, and signals his intention to the market. After all, the guy isn’t simply gesturing at how he’ll remake his own company, but also a new model for the media business. It’s the story of our time and, as always, precisely what you should expect from Puck.
 
- 
+
 
 Happy holidays,
 
@@ -238,6 +238,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT6Xb1KWLoHmcsBPzLPA8=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

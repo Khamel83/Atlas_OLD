@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"07\/27\/2017","content_publish_time":"16:27","content_last_update_date":"07\/28\/2017","content_last_update_time":"10:40","contentcategory":"Religion","section_1":"politics","section_2":"politics:religion","story_title":"American Muslims Are A Diverse Group With Changing Views","story_id":158981,"author":"Dhrumil Mehta","page_name":"fivethirtyeight:politics:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Religion"],"word_count":1383},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>American Muslims Are A Diverse Group With Changing Views | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":158981,"section":"politicsreligion","s
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="American Muslims Are A Diverse Group With Changing Views" />
@@ -205,7 +205,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -224,13 +224,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											American Muslims Are A Diverse Group With Changing Views									</div>
 				<a href="https://fivethirtyeight.com/features/american-muslims-are-a-diverse-group-with-changing-views/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/american-muslims-are-a-diverse-group-with-changing-views/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -294,7 +294,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -303,7 +303,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -320,7 +320,7 @@ display: none;
 								<time class="datetime updated" title="2017-07-27T20:27:14+00:00">4:27 PM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									American Muslims Are A Diverse Group With Changing Views								</h1>
@@ -330,10 +330,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/dhrumil-mehta/" title="" class="author url fn" rel="author">Dhrumil Mehta</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/religion/" class="term " name="">Religion</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -350,7 +350,7 @@ display: none;
 <p>“The key theme that we see regarding U.S. Muslims is diversity,” Mohamed told reporters on Tuesday, ahead of the report’s release. “Among immigrants, no single ethnic group has a majority. … Among U.S.-born Muslims, no racial group has a majority.”</p>
 <figure id="attachment_159050" class="wp-caption aligncenter" style="">
 					<img fetchpriority="high" decoding="async" class="size-full wp-image-159050" src="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png" alt="" width="575" height="976" srcset="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=44,75 44w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=177,300 177w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=768,1304 768w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=603,1024 603w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=905,1536 905w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=302,512 302w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=255,432 255w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=207,352 207w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=133,225 133w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=265,450 265w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=153,260 153w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=94,160 94w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=339,576 339w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=91,155 91w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=59,100 59w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=35,60 35w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=405,687 405w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=44,75 44w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=177,300 177w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=768,1304 768w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=603,1024 603w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=905,1536 905w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=302,512 302w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=255,432 255w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=207,352 207w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=133,225 133w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=265,450 265w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=153,260 153w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=94,160 94w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=339,576 339w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=91,155 91w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=59,100 59w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=35,60 35w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-1.png?resize=405,687 405w"></figure>
-		
+
 <p>American Muslims are also <a href="http://www.pewforum.org/2017/07/26/political-and-social-views/pf_2017-06-26_muslimamericans-04new-01/">ideologically diverse</a>. A plurality identify as moderate, with around 30 percent identifying as liberal and about 20 percent identifying as conservative. However, a large majority of Muslims in the U.S. <a href="http://www.pewforum.org/2017/07/26/political-and-social-views/">prefer the Democratic Party</a>, and that hasn’t changed since the 2007 Pew survey of Muslim Americans, the first in this series. In the 2016 presidential election, <a href="http://www.pewforum.org/2017/07/26/political-and-social-views/pf_2017-06-26_muslimamericans-04new-03/">78 percent</a> of Muslim American voters said they voted for Hillary Clinton, which is a much lower share than the 92 percent who said they voted for Barack Obama in 2008.<span class="espn-footnote-link" data-footnote-id="4" data-footnote-url="#fn-4" data-footnote-content="&lt;p&gt;Eight percent said they voted for Donald Trump in 2016; 4 percent said they voted for John McCain in 2008. Pew didn’t ask about the 2012 election in its most recent survey of Muslim Americans.&lt;/p&gt;
 "><sup id="ss-4">4</sup></span></p>
 <section class="viz">
@@ -487,7 +487,7 @@ display: none;
 <p>Another notable shift that the 2017 survey found was an increase in the share of American Muslims who say that homosexuality should be accepted by society, reflecting <a href="https://projects.fivethirtyeight.com/obama-polling-trends/">broader trends</a> in the U.S. population as a whole. This change in attitude was present in <a href="http://www.pewforum.org/2017/07/26/political-and-social-views/pf_2017-06-26_muslimamericans-04new-06/">almost every subgroup</a> of American Muslims, not just the younger generation.</p>
 <figure id="attachment_159057" class="wp-caption aligncenter" style="">
 					<img decoding="async" class="size-full wp-image-159057" src="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png" alt="" width="575" height="609" srcset="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=71,75 71w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=283,300 283w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=768,813 768w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=967,1024 967w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=483,512 483w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=408,432 408w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=332,352 332w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=212,225 212w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=425,450 425w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=245,260 245w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=151,160 151w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=544,576 544w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=146,155 146w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=94,100 94w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=57,60 57w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=649,687 649w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=71,75 71w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=283,300 283w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=768,813 768w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=967,1024 967w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=483,512 483w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=408,432 408w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=332,352 332w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=212,225 212w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=425,450 425w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=245,260 245w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=151,160 151w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=544,576 544w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=146,155 146w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=94,100 94w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=57,60 57w, https://fivethirtyeight.com/wp-content/uploads/2017/07/mehta-muslim-survey-21.png?resize=649,687 649w"></figure>
-		
+
 <p>Ani Zonneveld told me that this finding doesn’t surprise her. She is the founder and president of <a href="http://www.mpvusa.org/">Muslims for Progressive Values</a>, a group that advocates for lesbian, gay, bisexual, transgender, queer and intersex inclusion in the Muslim community. “We have seen the shift by way of affirmation of our position of LGBT rights from straight Muslims through social media,” Zonneveld said in an email. She said she has seen some mosques framing homosexuality as a human rights issue — but she also criticized Muslim institutions and policy organizations, saying that they haven’t gone far enough in advocacy for LGBT issues. In a July 5 news release, Muslims for Progressive Values <a href="http://www.mpvusa.org/mpv-calls-out/">said</a> it was asked to dismantle its booth and leave the Islamic Society of North America’s convention because of its beliefs. The Islamic Society of North America declined to comment.</p>
 <p>In addition to surveying the attitudes of American Muslims, Pew has asked the public about its perceptions of Islam and of Muslims. Although the new Pew report hints at the idea that the public’s view of Muslims in recent years <a href="http://www.pewforum.org/2017/07/26/how-the-u-s-general-public-views-muslims-and-islam/pf_2017-06-26_muslimamericans-07-07/">has improved</a>, Mohamed said that “about half of the public says Islam is not part of mainstream society, so we don’t see full acceptance of the Muslim community by the larger public.” He said Muslims continue to be rated more negatively by the larger public than Catholics, Jews, Hindus and many other religious groups are.<span class="espn-footnote-link" data-footnote-id="7" data-footnote-url="#fn-7" data-footnote-content='&lt;p&gt;&lt;a href="http://bridge.georgetown.edu/wp-content/uploads/pdf/The-Super-Survey.pdf#page=19"&gt;Several surveys&lt;/a&gt; over the past decade have shown that Americans consistently rank Muslims unfavorably compared with other religious groups.&lt;/p&gt;
 '><sup id="ss-7">7</sup></span> <a href="http://bridge.georgetown.edu/wp-content/uploads/pdf/The-Super-Survey.pdf#page=15">Surveys</a> have shown that most Americans don’t know a Muslim personally, but those who do speak with Muslims — even occasionally — <a href="https://www.prri.org/spotlight/social-contact-muslims-refugee-ban/">report</a> having more favorable views.</p>

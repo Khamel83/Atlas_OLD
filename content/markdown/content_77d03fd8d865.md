@@ -402,7 +402,7 @@ window.PARSELY = {
     </script>
 
 <script type="text/javascript">
-        /*<!--*/ 
+        /*<!--*/
         if (!isTerminal) {
             document.write('<link href="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/css/components/en/logo-refresh/logo-refresh-266035a2aa.css" rel="stylesheet"><link href="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/vendor/css/reg-ui-client-bbf123dc59.css" rel="stylesheet"><link href="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/css/components/en/logo-refresh-edition-dropdown/logo-refresh-edition-dropdown-114fb5e3ca.css" rel="stylesheet"><link href="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/css/components/en/logo-refresh-desktop-menu/logo-refresh-desktop-menu-f9e3b8fa1c.css" rel="stylesheet"><noscript><style>.noscript-hide{display:none;}</style></noscript>');
             document.write('<link href="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/css/components/en/footer/footer-68507ae2cd.css" rel="stylesheet"><noscript><style>.noscript-hide{display:none;}</style></noscript>');
@@ -489,7 +489,7 @@ var _sf_async_config = {
 
 </head>
 <body>
-  
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="http://web.archive.org/web/20230416042824if_/https://www.googletagmanager.com/ns.html?id=GTM-MNTH5N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
@@ -509,7 +509,7 @@ var _sf_async_config = {
     <div class="bb-that-header bb-that--container">
         <a class="bb-that-header__link bb-that-header--sitemap-trigger" href="http://web.archive.org/web/20230416042824/https://www.bloomberg.com/company/?utm_source=bloomberg-menu&amp;utm_medium=graphics" role="button" aria-controls="bb-that--container" aria-expanded="false" data-element="tophat-link" data-description="Bloomberg the Company &amp; Its Products" data-label="graphics"><span>Bloomberg the Company &amp; Its Products</span><span>The Company &amp; its Products</span></a><a class="bb-that-header__link" href="http://web.archive.org/web/20230416042824/https://www.bloomberg.com/professional/contact-menu/?utm_source=bloomberg-menu&amp;utm_medium=graphics&amp;bbgsum=DG-WS-PROF-DEMO-bbgmenu" data-element="tophat-link" data-description="Bloomberg Terminal Demo Request" data-label="graphics">Bloomberg Terminal Demo Request</a><a class="bb-that-header__link" href="http://web.archive.org/web/20230416042824/https://bba.bloomberg.net/?utm_source=bloomberg-menu&amp;utm_medium=graphics" data-element="tophat-link" data-description="Bloomberg Anywhere Remote Login" data-label="graphics"><span>Bloomberg Anywhere Remote Login</span><span>Bloomberg Anywhere Login</span></a><a class="bb-that-header__link" href="http://web.archive.org/web/20230416042824/https://www.bloomberg.com/professional/support/?utm_source=bloomberg-menu&amp;utm_medium=graphics" data-element="tophat-link" data-description="Bloomberg Customer Support" data-label="graphics"><span>Bloomberg Customer Support</span><span>Customer Support</span></a>    </div>
 		<div id="bb-that--container" class="bb-that__sitemap bb-that--container" tabindex="-1" role="dialog">
-    
+
     <ul class="bb-that__sitemap-sections bb-that--visible-md bb-that--visible-lg">
                     <li class="bb-that__col bb-that__col--md">
             <section class="bb-that-category">
@@ -654,7 +654,7 @@ var _sf_async_config = {
 
 <!-- West Virginia -->
                 <div class="section wv" id="West-Virginia">
-                  
+
                     <div class="openerImg">
                       <img class="lazy" src="/web/20230416042824im_/https://www.bloomberg.com/features/2017-new-unemployment/img/feat_unemployment-002.jpg" data-original="img/feat_unemployment-002.jpg" alt="placeholdertk"/>
                       <figcaption>The border country of West Virginia and Kentucky presents few economic opportunities for young people.</figcaption>
@@ -669,7 +669,7 @@ var _sf_async_config = {
                       </div>
                     </div>
                     <div class="ledeCopy copy-width">
-              
+
                       <p>Tyler Moore’s late-December drive to Louisville, Ky., was one of desperation. He was headed four hours west on Interstate 64 to interview for a job. Even if he landed the position, filling his gas tank had left him with $8 to his name. He would have to sleep at a friend’s place until he could earn enough to pay rent.</p>
 
 <p>The 23-year-old had run out of options. He’d applied for dozens of jobs within an hour and a half of his hometown of Lovely, once a coal-mining stronghold. Instead of opportunities, he had found waiting lists.</p>
@@ -1036,7 +1036,7 @@ var _sf_async_config = {
     </script>
 
 <script type="text/javascript">
-    /*<!--*/ 
+    /*<!--*/
     if (!isTerminal) {
       document.write('<script src="http://web.archive.org/web/20230416042824/https://assets.bwbx.io/s3/navi/js/logo-refresh-header-5f2a24700828024fa1d3.js" async></script><script type="text/javascript">!function(){window._pxAppId="PX8FCGYgk4";var e=document.getElementsByTagName("script")[0],t=document.createElement("script");t.async=1,t.src="/8FCGYgk4/init.js",e.parentNode.insertBefore(t,e)}()</script> <noscript> <div style="position:fixed; top:0; left:0; display:none" width="1" height="1"> <img src="/web/20230416042824im_/https://www.bloomberg.com/8FCGYgk4/xhr/api/v1/collector/noScript.gif?appId=PX8FCGYgk4" alt="PxPixel"> </div> </noscript>')
     }

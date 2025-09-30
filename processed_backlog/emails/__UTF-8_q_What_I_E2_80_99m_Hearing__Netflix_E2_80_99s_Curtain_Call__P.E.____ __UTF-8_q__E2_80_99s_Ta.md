@@ -35,7 +35,7 @@ to be a Puck member, even if you really hate me. Just click here ( https://puck.
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts…
 --------------------
@@ -217,7 +217,7 @@ don’t necessarily improve engagement, though, and, as Supino noted, “that is
 So that leads to the inevitable M&A discussion that has consumed Hollywood for the past few years. We all know that Warner Bros. Discovery C.E.O. David Zaslav wants a transformational deal. Do Roberts and Cavanagh? That’s been the open question, and the
 triple-whammy of broadband weakness, the cable TV spinoff, and the issues at Peacock suggest the right time may be approaching. “Looking forward, we like the industrial logic of merging Warner/Max with NBCU/Peacock, once each company has cast off its dying cable networks,” Supino suggested. The question: “Can Roberts and Zaslav/John Malone agree on price and control?”   
 
- 
+
 
 Finally… One fun thing…
 ---------------------------
@@ -276,6 +276,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUuzawBC_HEhVlbzfPo_M=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

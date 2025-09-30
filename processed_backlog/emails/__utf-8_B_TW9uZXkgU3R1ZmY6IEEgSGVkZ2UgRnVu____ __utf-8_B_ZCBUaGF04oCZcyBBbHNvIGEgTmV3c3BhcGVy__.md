@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked in November about Hunterbrook, a hedge fund that is also a newspaper. These are mostly tough economic times for the news industry,
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hunterbrook!
-    
-  
+
+
 
 We talked in November about Hunterbrook, a hedge fund that is also a newspaper. These are mostly tough economic times for the news industry, and Hunterbrook hit upon a differentiated media business model:
 	They would start a newsroom (Hunterbrook Media) to publish general news and investigative journalism.	There’s no paywall and no advertising.	But before each investigative piece is published, the newsroom would send it to Hunterbrook’s affiliated hedge fund (Hunterbrook Capital), which could trade on the news.	The hedge fund’s trading profits can — they hope! — pay the journalists’ salaries.
@@ -94,37 +94,37 @@ And there’s the US Securities and Exchange Commission’s whistleblower progra
 Two of the authors of this article filed a whistleblower report to the S.E.C. represented by a former S.E.C. Commissioner. 
 Yeah. If you can find out bad news about companies, there are a lot of ways to make money. Selling ads is not one of the better ones!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ajax
-    
-  
+
+
 
 Here is an insider trading hypothetical that I have never considered before. You are a talented business executive with a high profile. A public company has publicly announced that its chief executive officer is leaving and that it is looking for a replacement.
   [3]
@@ -132,7 +132,7 @@ Here is an insider trading hypothetical that I have never considered before. You
 	they will give you the job and	you will be good at it.
 
 So you go buy some shares of the company’s stock, as a bet that (1) they’ll hire you as CEO and (2) the stock will go up as the market realizes how good you are at the job.
-Is that insider trading? I mean, I guess. You have some nonpublic information (you were in the interview and know it went well), and that information is probably material to the average shareholder (having a CEO in place is probably good for the stock, and if you are a high-profile person maybe your name will move the stock). The nonpublic information is not purely about your own intentions. Still there is something a bit soft about it. You’re not betting that the stock will go up because you have secret information about earnings or a merger. You’re betting that the stock will go up because you will turn out to be good at your job. Isn’t that what you’re supposed to do? 
+Is that insider trading? I mean, I guess. You have some nonpublic information (you were in the interview and know it went well), and that information is probably material to the average shareholder (having a CEO in place is probably good for the stock, and if you are a high-profile person maybe your name will move the stock). The nonpublic information is not purely about your own intentions. Still there is something a bit soft about it. You’re not betting that the stock will go up because you have secret information about earnings or a merger. You’re betting that the stock will go up because you will turn out to be good at your job. Isn’t that what you’re supposed to do?
 Anyway:
 
 AFC Ajax NV suspended its Chief Executive Officer Alex Kroes and said it plans to dismiss him after “strong indications” of insider trading.
@@ -143,11 +143,11 @@ Dutch state broadcaster NOS reported that Kroes did not accept Ajax’s decision
 
 Yeah I agree with him? I respect the intentions! But it was not all that sensible.
 
-  
-    
+
+
       Should index funds be illegal?
-    
-  
+
+
 
 There are all sorts of rules about who is allowed to own companies. Most generally, there is antitrust law: If a company in any industry wants to buy another company in that industry, it needs to get regulatory approval to make sure the acquisition won’t harm competition. But there are also rules that are specific to individual industries. In the US, if you want to own a casino or a cannabis business or a real estate investment trust or a shipping company or a law firm or a nuclear power plant or a bank, you’ll need to meet some requirements or seek the approval of some industry regulator.
 What does it mean to own a company? Well, obviously, if you want to buy 51% of the stock of a company, that will probably trigger these rules. But if you buy 49% of the stock of a company whose other shareholders are dispersed retail investors, you will in every practical sense control that company. So generally the rules are triggered at some lower threshold than 50%; the regulators will want to be notified if you’re buying some smaller amount — often 5% or 10% — of a company in their industry, so they can check you out.
@@ -173,21 +173,21 @@ The existing approach could soon change, spurred by members of the Federal Depos
 The rules actually are pretty onerous. Intuitively, if you own a bank, you shouldn’t do stuff like borrow money from that bank on sweetheart terms, and so US banking regulation has rules restricting a bank’s ability to lend to its owners and requiring bank holding companies (companies that own banks) to be well capitalized and serve as a source of strength to that bank. 
 Does BlackRock own all the banks? Ten years ago everyone would have said “hahaha good one, you’ve got a technical point, but come on, no.” Even four years ago, we talked about guidance from US banking regulators saying that they would not actually subject mutual-fund owners to all of those rules. But now it is more of a live question.
 
-  
-    
+
+
       Shareholder Vote Exchange
-    
-  
+
+
 
 We have talked a couple of times around here about a financial novelty item called the Shareholder Vote Exchange, which was in theory a way for people to buy and sell the votes associated with their shares of publicly traded stock. If you own 1,000 shares of Walt Disney Co., you probably don’t really care about voting those shares for shareholder proposals or even contested director elections, but at Disney somebody does in fact care about getting a lot of votes. Supposedly they would pay 20 cents per vote, though I have my doubts.
 The Shareholder Vote Exchange has a website, and got some media attention, because it is a fun idea. You could imagine it being a real idea: You could imagine a large active market for stock votes, separate from but related to the market for actual stock, just as there currently exists a large market for stock lending. I suppose there might be legal or other obstacles to that market really becoming big or important. But there are no such obstacles to imagining it. In a frictionless world, maybe this would be a cool thing that existed.
 But in the real world SVE’s market for Disney votes — votes in a close, expensive, high-profile proxy fight in a company with a lot of retail ownership, which should be the best possible case for buying votes — seems to have been quite small and hypothetical. And on Sunday SVE emailed customers to say that it was winding down operations. “There's clearly a market opportunity here, but we weren't in a strong position to achieve its full potential,” its CEO told me. Ah well. 
 
-  
-    
+
+
       Costco hot dog
-    
-  
+
+
 
 I think there are roughly four ways to make a stablecoin, a crypto token that has a stable value of $1:
 	A dollar-backed stablecoin: You put in $1, you get a stablecoin, the issuer puts the dollar somewhere safe and promises to give it back to you in exchange for the stablecoin.	An overcollateralized stablecoin: You put in $2 of Bitcoin or whatever, you get a $1 stablecoin, the issuer puts your Bitcoin collateral somewhere safe and promises to give it back to you in exchange for the stablecoin.	An algorithmic stablecoin: No, bad.
@@ -203,15 +203,15 @@ Anyway someone pointed me to a Solana memecoin called “Costco Hot Dog,” or C
   [6]
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Disney Investors Look Beyond Board Battle as ‘Cheap’ Stock Soars. McKinsey Offering Some Staff Nine Months’ Pay to Leave Firm. Two Members of Warner Bros. Discovery’s Board Resign to Resolve Antitrust Concerns. The New Magic Number for Retirement Is $1.46 Million. How TikTok Is Juicing Home Sales. Gentlemen’s club famous for ‘nieces’ night’ considers admitting Crispin Odey.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] When we first talked about Hunterbrook, this was a major topic: Lots of traditional investigative journalism *does* involve talking to insiders and getting scoops, but that’s a problem if you plan to trade on your scoops. And in fact Hunterbrook's first report seems to be based entirely on public data rather than anything that might raise insider-trading concerns.
 
 
@@ -231,48 +231,48 @@ quasi-indexers” to cover investors with “diversified holdings and low portfo
   [6] Obviously the problem with the Costco Hot Dog token is that if you believe in its $1.50 value and you buy it at $1.49, you have limited upside (no one’s gonna pay $1.52!) and lots of downside (it really could go to zero). This seems like a problem for a purely unbacked, speculative asset with a capped price. Though of course the cap is not really a cap either. It’s just as funny if you pay $20 for it, funnier even.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cks37q.65q1/8b8d6ba0.gif" alt="" border="0" /></a>

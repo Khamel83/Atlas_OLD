@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Banking is a confidence trick. You put money in the bank today because you are confident you can take it out tomorrow; to you, a dollar that
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       (3, 3)
-    
-  
+
+
 
 Banking is a confidence trick. You put money in the bank today because you are confident you can take it out tomorrow; to you, a dollar that you have deposited in the bank is just as good — just as much money — as a dollar bill in your wallet. If you show up at the ATM at any time of day or night, you expect it to give you your dollars. But the bank doesn’t just put your dollars in a box and wait for you to take them out; the bank uses its depositors’ money to make loans or buy bonds, and just keeps a little bit around for people who need cash. If everyone asked for their money back tomorrow, the bank wouldn’t have it. But everyone is confident that, if they ask for their money back tomorrow, the bank will have it. So they mostly don’t ask for it, so when they do, the bank does have it. The widespread belief that banks have the money is what makes it true.
 This is obvious stuff.
@@ -111,37 +111,37 @@ It is funny to think of tech founders and venture capitalists as creatures of my
 The other contrast I want to point to is crypto. Crypto is a social construct like banking, but it is far more obviously socially constructed. It’s all just stuff that people made up in the last decade or so. It relies even more on confidence, and that confidence is shakier. When a bunch of crypto firms went bust last summer, Sam Bankman-Fried’s crypto exchange FTX, and his crypto trading firm Alameda Research, often ended up rescuing them. Bankman-Fried got the nickname “JPEG Morgan,” referencing J. Pierpont Morgan’s own habit of rescuing troubled banks to avert panic. This was, I think, smart of him; it was what a good banker would do. Bankman-Fried’s own wealth was very highly leveraged to overall confidence in the crypto ecosystem, so it was better for him to support failing competitors — and prop up that confidence — than it would be to let them fail. He was in a cooperative confidence game, and he acted like it.
 Of course “confidence game” is also a bad thing, and FTX and Alameda went bust themselves in November, which puts Bankman-Fried’s rescues in a worse light: It is good to prop up confidence in a socially beneficial system that runs on confidence, but bad to prop up confidence in a fraud. And while banking is a matter of confidence in a long-standing, deeply socially embedded system that finances lots of people’s real-world houses and businesses, crypto exchanges are … not that. If you are a bank and there is a run on the bank, you will have to sell your mortgage loans and Treasury bonds and whatever, and you will lose money selling them at fire-sale prices, and you might become insolvent and deposits might be at risk and the FDIC and the Fed might have to step in. But if you are a crypto bank and there is a run on the bank, you will have to sell some   magic beans you made up, and you will sell them for zero dollars, and you will become extremely insolvent and your customers might get pennies on the dollar, and the FDIC and the Fed will absolutely not step in because they are not in the crypto business, but federal prosecutors will be very interested. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Silicon Valley Bank
-    
-  
+
+
 
 When the Federal Deposit Insurance Corp. seized Silicon Valley Bank last Friday, it did what it generally does, which is try to find another bank to buy SVB. The bank had assets (mostly loans and bonds) worth about $197 billion as of Dec. 31 (presumably lower as of last Friday as it had sold assets to meet its bank run),
   [8]
@@ -192,11 +192,11 @@ Those numbers are not zero. The bonds still trade, and I see them quoted at more
   [11]
  But one possible outcome of the weird fractured process here is that the bondholders might get 60 cents on the dollar or more even as the FDIC takes some risk of loss on paying out depositors.
 
-  
-    
+
+
       There is ethical porn under capitalism
-    
-  
+
+
 
 Or not, I don’t know:
 
@@ -210,15 +210,15 @@ The firm said MindGeek’s remaining executives would continue running the compa
 
 Ethical Capital Partners! Yes look if you are setting up a brand-new private equity firm with five of your lawyer/cannabis-investor buddies for the sole purpose of buying a porn company, you will be tempted to name it, like, Porn Capital Partners, or We Bought a Pornhub LP, or 69/420 Capital Partners, or, I mean, I’m sure you have worse ideas. But “Ethical Capital Partners” is a much better idea. Just a thin but necessary layer of deniability there. Your public-pension-fund limited partners, at their board meetings devoted to environmental, social and governance issues, can be like “and this quarter we allocated some funds to Ethical Capital Partners,” and the directors will be like “ah yes that sounds very ethical, what exactly do they do again,” and then there’s an awkward silence and the investment team is like “well they do porn.” But if they don’t ask then it’s great. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Banks  Borrow $164.8 Billion From Fed in Rush to Backstop Liquidity. Billions of Dollars in Fed Discount Window Suggests  All Is Not Well in Banking. UBS, Credit Suisse  Oppose Idea of Forced Combination, Sources Say. Credit Suisse Investors See  Bail-In Risk for $82 Billion Bonds. Credit Suisse and Silicon Valley Bank’s problem is an addiction to clients. Court Asks SEC to Weigh In on  Whether Loans Should Be Securities. Peter Thiel had $50mn in Silicon Valley Bank when it went under. Schwab Clients Pull $8.8 Billion  From Prime Funds in Three Days. TikTok Sale Likely to Be  Rejected by China. SEC Charges Cannabis Company American Patriot Brands, CEO, and Others with Fraud. LME Finds Some Nickel Underlying Its Contracts  Is Missing. Madison Square Garden Owner  Feuds With Part-Time Liquor Inspector. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also it is in various ways the unsophisticated version of all of this, and you don’t need to email me to be like “actually bank deposits *are* money” or “actually loans create deposits.”
 
 
@@ -228,7 +228,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] David Graeber writes: “The political is that dimension of social life in which things really do become true if enough people believe them. The problem is that in order to play the game effectively, one can never acknowledge this: it may be true that, if I could convince everyone in the world that I was the King of France, I would in fact become the King of France; but it would never work if I were to admit that this was the only basis of my claim. In this sense, politics is very similar to magic.” Same with banking.
 
 
-  [4] Bagehot wrote probably the most famous sentence ever written about banking: “Every banker knows that if he has to prove that he is worthy of credit, however good may be his arguments, in fact his credit is gone.” He goes on: “But what we have requires no proof. The whole rests on an instinctive confidence generated by use and years.” 
+  [4] Bagehot wrote probably the most famous sentence ever written about banking: “Every banker knows that if he has to prove that he is worthy of credit, however good may be his arguments, in fact his credit is gone.” He goes on: “But what we have requires no proof. The whole rests on an instinctive confidence generated by use and years.”
 
 
   [5] James Carse: "There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play." Those are the first sentences of his 1986 book "Finite and Infinite Games," which honestly I do not love, but which I definitely learned about from a blog post about venture capital.
@@ -249,98 +249,98 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] Like, $150 billion minus $8 billion insured minus $15 billion FHLB is $127 billion, divided by $165 billion is 0.77. I’m again ignoring the need to capitalize the new business, etc.; this is very crude.
 
 
-  [11] This is only approximately true, in that the holding company here has non-bank assets and the bonds can claim on them. But the regulatory notion that the holding company is supposed to be a “source of strength” for the bank makes it a bit unseemly for the holding company to have value if the bank fails. 
+  [11] This is only approximately true, in that the holding company here has non-bank assets and the bonds can claim on them. But the regulatory notion that the holding company is supposed to be a “source of strength” for the bank makes it a bit unseemly for the holding company to have value if the bank fails.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cidqq7.5mhj/30a9fc2d.gif" alt="" border="0" /></a>

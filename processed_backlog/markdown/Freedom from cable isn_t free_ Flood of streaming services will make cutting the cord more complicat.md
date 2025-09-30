@@ -12,13 +12,13 @@
 
 # www.washingtonpost.com
 
-Unknown author • August 11, 2017 
+Unknown author • August 11, 2017
 
 ![www.washingtonpost.com]()
 
-This site can’t be reached  
-  
-The webpage at https://www.washingtonpost.com/business/economy/freedom-from-cable-isnt-free-flood-of-streaming-services-will-make-cutting-the-cord-more-complicated/2017/08/11/01f9ade0-7d1f-11e7-a669-b400c5c7e1cc_story.html might be temporarily down or it may have moved permanently to a new web address.  
-  
-ERR_HTTP2_PROTOCOL_ERROR 
+This site can’t be reached
+
+The webpage at https://www.washingtonpost.com/business/economy/freedom-from-cable-isnt-free-flood-of-streaming-services-will-make-cutting-the-cord-more-complicated/2017/08/11/01f9ade0-7d1f-11e7-a669-b400c5c7e1cc_story.html might be temporarily down or it may have moved permanently to a new web address.
+
+ERR_HTTP2_PROTOCOL_ERROR
 

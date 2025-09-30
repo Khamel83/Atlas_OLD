@@ -39,7 +39,7 @@ OK Cupid&#8217;s Christian Rudder has responded to the outcry over Facebook&#821
 <script>
 // Immediately set theme on page load
 (function() {
-    var storedTheme = localStorage.getItem('theme') || 
+    var storedTheme = localStorage.getItem('theme') ||
         (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     if (storedTheme) {
         document.documentElement.setAttribute('data-theme', storedTheme);
@@ -81,9 +81,9 @@ $(document).ready(function() {
 	$(".post .footnote a:last-of-type").removeAttr("target");
 
 $("time.timeago").timeago().css("visibility", "visible");
-	
+
 	$('h2').widowFix();
-	
+
 	$(".post p strong:contains('Update:')").each(function() {
 	    $( this ).addClass("post-update-title").html("Update" + ((typeof $( this ).attr('title') !== typeof undefined && $( this ).attr('title') !== false) ? "<span class='post-update-timestamp'> ·  " + $( this ).attr("title") + "</span>" : ""));
 	  });
@@ -255,7 +255,7 @@ posted <time class="timeago timeago_short" datetime="2014-07-28T17:45:00Z">Jul 2
 <li>OKC&#8217;s matching algorithm may be at least as opaque as Facebook&#8217;s news feed, but it&#8217;s clearer to users that site matches and views are generated using an algorithm. Reportedly, <a href="http://twitter.com/zeynep/status/493788589709619200">62 percent of Facebook users</a> <a href="http://upstart.bizjournals.com/resources/social-media/2014/07/23/algorithms-in-the-mist-how-researchers-try-to.html?page=all">weren&#8217;t aware</a> that Facebook&#8217;s news feed was filtered by an algorithm at all. (That study has a small sample size, but still, we can infer that <em>lots</em> of Facebook users have no idea.)</li>
 <li>The results of OKC&#8217;s experiments are less troubling. Facebook&#8217;s study showed that our posting behavior (and maybe our feelings) were pretty susceptible to manipulation without a whole lot of effort. OKC&#8217;s results seemed more complimentary. Sure, lots of people on dating sites are shallow, and sometimes you may have ended up in longer conversations than you might like with incompatible people, but good matches seem to find a way to connect no matter what OKC tells us! So&#8230; the algorithm works and I guess we can trust what they tell us? My head hurts. (<a href="http://twitter.com/j_zimms/status/493817942685933569">Jess Zimmerman adds</a> that part of the Facebook intervention was deliberately designed to cause harm, by making people unhappy, at least as mediated through their posts. The difference here depends on whether you think trying to match you up with someone incompatible might be causing them harm.)</li>
 <li>The <a href="http://twitter.com/cwarzel/status/493795739945160704">tone of the OKC post is just so darned charming</a>. Rudder is casual, self-deprecating. It&#8217;s a blog post! Meanwhile, Facebook&#8217;s &#8220;emotional contagion&#8221; scholarly paper was chillingly matter-of-fact. In short, the scientism of the thing just creeped us the fuck out.</li>
-<li>This is related to the tone issue, but OKC seems to be fairly straightforward about why it performed the experiment: they didn&#8217;t understand whether or how their matching algorithm was working, and they were trying to figure that out to make it better. Facebook seemed to be testing user&#8217;s emotional expressions partly to solve a scholarly dispute and partly just to see if they could. And most of the practical justifications folks came up with for the Facebook study were pretty sinister: tricky folks into posting more often, into clicking on ads, into buying stuff. (Really, both experiments are probably a mix of product testing and shooting frogs for kicks, but the <em>perception</em> seems to be different.)</li> 
+<li>This is related to the tone issue, but OKC seems to be fairly straightforward about why it performed the experiment: they didn&#8217;t understand whether or how their matching algorithm was working, and they were trying to figure that out to make it better. Facebook seemed to be testing user&#8217;s emotional expressions partly to solve a scholarly dispute and partly just to see if they could. And most of the practical justifications folks came up with for the Facebook study were pretty sinister: tricky folks into posting more often, into clicking on ads, into buying stuff. (Really, both experiments are probably a mix of product testing and shooting frogs for kicks, but the <em>perception</em> seems to be different.)</li>
 <li>The Facebook study had an added wrinkle in that academics were involved in designing the study and writing it up. This raised all sorts of factual and ethical issues about university institutional review boards and the responsibility of the journal&#8217;s editors and publishers that don&#8217;t seem to be relevant here. I mean, maybe SOMEbody should be veryifying that experiments done on human subjects are ethical, whether it&#8217;s in a university, medical, or government context or not, but it&#8217;s not like someone may have been asleep at the switch. Here, there is no switch.</li>
 <li>Maybe we&#8217;re all just worn out. Between Facebook, this, Uber ratings, and god knows what, even if you&#8217;re bothered by this kind of experimentation, it&#8217;s more difficult to stay angry at any one company. So some people are jaded, some people would rather call attention to broader issues and themes of power, and some people are just tired. There&#8217;s only so many times you can say &#8220;see? THIS! THIS is what I&#8217;ve been telling you about!&#8221; or &#8220;I can&#8217;t believe you&#8217;re surprised by this&#8221; before you&#8217;re just like, ¯\_(?)_/¯.</li>
 </ol>

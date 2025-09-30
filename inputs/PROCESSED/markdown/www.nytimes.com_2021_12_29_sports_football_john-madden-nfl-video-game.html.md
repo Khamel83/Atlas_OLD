@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • December 29, 2021 
+Unknown author • December 29, 2021
 
 ![nytimes.com]()
 

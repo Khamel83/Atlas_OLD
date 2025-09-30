@@ -20,7 +20,7 @@ cd atlas
 - **`log_mood.shortcut`** - "Hey Siri, log my mood" - Mood tracking
 - **`start_focus.shortcut`** - "Hey Siri, start focus" - Focus timer
 
-### Advanced Shortcuts  
+### Advanced Shortcuts
 - **`log_work_task_context.shortcut`** - Work task logging with context
 - **`log_home_activity_context.shortcut`** - Home activity logging
 - **`capture_evening_thought.shortcut`** - Evening reflection capture

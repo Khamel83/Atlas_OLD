@@ -7,7 +7,7 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -160,7 +160,7 @@ text-decoration: underline;
 
 <a class="skip-link screen-reader-text" href="#main" >Skip to content</a><div class="ct-drawer-canvas" data-location="start" ><div id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side" aria-label="Offcanvas modal" inert="" ><div class="ct-panel-inner">
 		<div class="ct-panel-actions">
-			
+
 			<button class="ct-toggle-close" data-type="type-1" aria-label="Close drawer">
 				<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15"><path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"/></svg>
 			</button>
@@ -233,7 +233,7 @@ text-decoration: underline;
 
 <div class="ct-container">
 							<div class="ct-cookies-content">We use cookies to ensure that we give you the best experience on our website.</div>
-			
+
 			<div class="ct-button-group">
 				<button type="button" class="ct-button ct-cookies-accept-button">Accept all cookies</button>
 
@@ -247,7 +247,7 @@ text-decoration: underline;
 <div	class="site-branding"
 	data-id="logo" 		itemscope="itemscope" itemtype="https://schema.org/Organization" >
 
-<a href="https://patientresearchcovid19.com/" class="site-logo-container" rel="home" itemprop="url" ><img fetchpriority="high" width="1131" height="311" src="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png" class="default-logo" alt="PLRC_Logo" decoding="async" srcset="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png 1131w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-300x82.png 300w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-1024x282.png 1024w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-768x211.png 768w" sizes="(max-width: 1131px) 100vw, 1131px" /></a>	
+<a href="https://patientresearchcovid19.com/" class="site-logo-container" rel="home" itemprop="url" ><img fetchpriority="high" width="1131" height="311" src="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png" class="default-logo" alt="PLRC_Logo" decoding="async" srcset="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png 1131w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-300x82.png 300w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-1024x282.png 1024w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-768x211.png 768w" sizes="(max-width: 1131px) 100vw, 1131px" /></a>
 	</div>
 
 </div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
@@ -318,7 +318,7 @@ text-decoration: underline;
 <div	class="site-branding"
 	data-id="logo" 		>
 
-<a href="https://patientresearchcovid19.com/" class="site-logo-container" rel="home" itemprop="url" ><img fetchpriority="high" width="1131" height="311" src="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png" class="default-logo" alt="PLRC_Logo" decoding="async" srcset="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png 1131w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-300x82.png 300w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-1024x282.png 1024w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-768x211.png 768w" sizes="(max-width: 1131px) 100vw, 1131px" /></a>	
+<a href="https://patientresearchcovid19.com/" class="site-logo-container" rel="home" itemprop="url" ><img fetchpriority="high" width="1131" height="311" src="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png" class="default-logo" alt="PLRC_Logo" decoding="async" srcset="https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo.png 1131w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-300x82.png 300w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-1024x282.png 1024w, https://patientresearchcovid19.com/storage/2021/03/PLRC_Logo-768x211.png 768w" sizes="(max-width: 1131px) 100vw, 1131px" /></a>
 	</div>
 
 </div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
@@ -349,7 +349,7 @@ text-decoration: underline;
 <div class="hero-section" data-type="type-2" data-parallax="desktop" >
 			<figure>
 			<div class="ct-media-container" ><img loading="lazy" width="1800" height="800" src="https://patientresearchcovid19.com/storage/2021/03/PLR_background.png" class="attachment-full size-full" alt="PLRC_background" loading="lazy" decoding="async" srcset="https://patientresearchcovid19.com/storage/2021/03/PLR_background.png 1800w, https://patientresearchcovid19.com/storage/2021/03/PLR_background-300x133.png 300w, https://patientresearchcovid19.com/storage/2021/03/PLR_background-1024x455.png 1024w, https://patientresearchcovid19.com/storage/2021/03/PLR_background-768x341.png 768w, https://patientresearchcovid19.com/storage/2021/03/PLR_background-1536x683.png 1536w" sizes="auto, (max-width: 1800px) 100vw, 1800px" itemprop="image" /></div>		</figure>
-	
+
 			<header class="entry-header ct-container-narrow">
 			<h1 class="page-title" title="About the Patient-Led Research Collaborative" itemprop="headline" >About the Patient-Led Research Collaborative</h1>		</header>
 	</div>
@@ -363,7 +363,7 @@ text-decoration: underline;
 		class="post-46 page type-page status-publish hentry">
 
 <div class="entry-content is-layout-constrained">
-			
+
 <h2 class="wp-block-heading" style="font-size:clamp(17.905px, 1.119rem + ((1vw - 3.2px) * 0.789), 28px);">Join the PLRC Registry</h2>
 
 <p>The PLRC Registry is an user-friendly registry platform, designed by patients for patients, to connect people with clinical trials and research studies in Long COVID and associated conditions.</p>
@@ -428,7 +428,7 @@ jQuery('.invi-recaptcha').each(function (index, el) {
                         };
 					</script>
 					                <script src="https://www.google.com/recaptcha/api.js?onload=onloadSibCallbackInvisible&render=explicit" async defer></script>
-				
+
 			<form id="sib_signup_form_1" method="post" class="sib_signup_form">
 				<div class="sib_loader" style="display:none;"><img
 							src="https://patientresearchcovid19.com/lib/images/spinner.gif" alt="loader"></div>
@@ -485,9 +485,9 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 	data-id="socials" >
 
 <div class="ct-social-box" data-color="custom" data-icon-size="custom" data-icons-type="simple"  >
-			
-			
-							
+
+
+
 				<a href="https://twitter.com/patientled" data-network="twitter" aria-label="X (Twitter)" >
 					<span class="ct-icon-container" >
 					<svg
@@ -498,7 +498,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M2.9 0C1.3 0 0 1.3 0 2.9v14.3C0 18.7 1.3 20 2.9 20h14.3c1.6 0 2.9-1.3 2.9-2.9V2.9C20 1.3 18.7 0 17.1 0H2.9zm13.2 3.8L11.5 9l5.5 7.2h-4.3l-3.3-4.4-3.8 4.4H3.4l5-5.7-5.3-6.7h4.4l3 4 3.5-4h2.1zM14.4 15 6.8 5H5.6l7.7 10h1.1z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://www.facebook.com/patientled" data-network="facebook" aria-label="Facebook" >
 					<span class="ct-icon-container" >
 					<svg
@@ -509,7 +509,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://www.instagram.com/patientled/" data-network="instagram" aria-label="Instagram" >
 					<span class="ct-icon-container" >
 					<svg
@@ -521,7 +521,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S16.3,5,15.8,5z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://www.youtube.com/channel/UCO2wEKp95ELUUkPF1tcFXjA/videos" data-network="youtube" aria-label="YouTube" >
 					<span class="ct-icon-container" >
 					<svg
@@ -532,7 +532,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M15,0H5C2.2,0,0,2.2,0,5v10c0,2.8,2.2,5,5,5h10c2.8,0,5-2.2,5-5V5C20,2.2,17.8,0,15,0z M14.5,10.9l-6.8,3.8c-0.1,0.1-0.3,0.1-0.5,0.1c-0.5,0-1-0.4-1-1l0,0V6.2c0-0.5,0.4-1,1-1c0.2,0,0.3,0,0.5,0.1l6.8,3.8c0.5,0.3,0.7,0.8,0.4,1.3C14.8,10.6,14.6,10.8,14.5,10.9z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://www.tiktok.com/@patientled?lang=en" data-network="tiktok" aria-label="TikTok" >
 					<span class="ct-icon-container" >
 					<svg
@@ -543,7 +543,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M18.2 4.5c-2.3-.2-4.1-1.9-4.4-4.2V0h-3.4v13.8c0 1.4-1.2 2.6-2.8 2.6-1.4 0-2.6-1.1-2.6-2.6s1.1-2.6 2.6-2.6h.2l.5.1V7.5h-.7c-3.4 0-6.2 2.8-6.2 6.2S4.2 20 7.7 20s6.2-2.8 6.2-6.2v-7c1.1 1.1 2.4 1.6 3.9 1.6h.8V4.6l-.4-.1z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://mastodon.social/@patientled" data-network="mastodon" aria-label="Mastodon" >
 					<span class="ct-icon-container" >
 					<svg
@@ -554,7 +554,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M19.3 6.6c0-4.3-2.8-5.6-2.8-5.6C13.7-.3 6.3-.3 3.5 1 3.5 1 .7 2.3.7 6.6c0 5.2-.3 11.6 4.7 12.9 1.8.5 3.4.6 4.6.5 2.3-.1 3.5-.8 3.5-.8l-.1-1.6s-1.6.5-3.4.5c-1.8-.1-3.7-.2-4-2.4v-.6c3.8.9 7.1.4 8 .3 2.5-.3 4.7-1.8 5-3.3.4-2.3.3-5.5.3-5.5zM16 12.2h-2.1V7.1c0-2.2-2.9-2.3-2.9.3v2.8H9V7.4c0-2.6-2.9-2.5-2.9-.3v5.1H4c0-5.4-.2-6.6.8-7.8C6 3.1 8.4 3 9.5 4.6l.5.9.5-.9c1.1-1.6 3.5-1.5 4.7-.3 1 1.3.8 2.4.8 7.9z"/>
 					</svg>
 				</span>				</a>
-							
+
 				<a href="https://www.linkedin.com/company/plrc/" data-network="linkedin" aria-label="LinkedIn" >
 					<span class="ct-icon-container" >
 					<svg
@@ -565,8 +565,8 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 						<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"/>
 					</svg>
 				</span>				</a>
-			
-			
+
+
 					</div>
 
 </div>
@@ -585,7 +585,7 @@ form#sib_signup_form_1 p.sib-alert-message-warning {
 
 <div class="ct-container">
 							<div class="ct-cookies-content">We use cookies to ensure that we give you the best experience on our website.</div>
-			
+
 			<div class="ct-button-group">
 				<button type="button" class="ct-button ct-cookies-accept-button">Accept all cookies</button>
 
@@ -657,15 +657,15 @@ var ct_localizations = {"ajax_url":"https:\/\/patientresearchcovid19.com\/plrc-a
 							let jetpack_sso    = form.querySelector( '#jetpack-sso-wrap' );
 							var wcblock_submit = form.querySelector( '.wc-block-components-checkout-place-order-button' );
 							var has_wc_submit  = null !== wcblock_submit;
-							
-							if ( null === captcha_div && ! has_wc_submit || form.id == 'create-group-form' ) {	
+
+							if ( null === captcha_div && ! has_wc_submit || form.id == 'create-group-form' ) {
 								if ( ! form.parentElement.classList.contains( 'nf-form-layout' ) ) {
 									continue;
 								}
-							
+
 							}
 							if ( ! has_wc_submit ) {
-								if ( !( captcha_div.offsetWidth || captcha_div.offsetHeight || captcha_div.getClientRects().length ) ) {					    	
+								if ( !( captcha_div.offsetWidth || captcha_div.offsetHeight || captcha_div.getClientRects().length ) ) {
 									if ( jetpack_sso == null && ! form.classList.contains( 'woocommerce-form-login' ) ) {
 										continue;
 									}
@@ -713,19 +713,19 @@ let foundSubmitBtn = form.querySelector( '#signup-form [type=submit], [type=subm
 
 clone.addEventListener('click', function( e ){
 									if ( form.classList.contains( 'c4wp_v2_fallback_active' ) ) {
-										jQuery( form ).find( '.wc-block-components-checkout-place-order-button:not(.c4wp-submit)' ).click(); 
+										jQuery( form ).find( '.wc-block-components-checkout-place-order-button:not(.c4wp-submit)' ).click();
 										return true;
 									} else {
 										grecaptcha.execute( '6LduitQZAAAAAOe_qozka9ipUhlIq2EFD1EG2X-_', ).then( function( data ) {
 											form.classList.add( 'c4wp-primed' );
-										});	
+										});
 									}
 
 });
 								foundSubmitBtn = wcblock_submit;
 								cloned = true;
 							}
-							
+
 							// Clone created, listen to its click.
 							if ( cloned ) {
 								clone.addEventListener( 'click', function ( event ) {
@@ -741,14 +741,14 @@ clone.addEventListener('click', function( e ){
 										var responseElem = document.querySelector( '.c4wp_response' );
 									}
 									if ( responseElem != null ) {
-										responseElem.setAttribute( 'value', data );	
-									}									
+										responseElem.setAttribute( 'value', data );
+									}
 								});
 
 // Anything else.
 								form.addEventListener( 'submit', function ( event ) {
 									logSubmit( event, 'other', form );
-								});	
+								});
 							}
 
 function logSubmit( event, form_type = '', form, foundSubmitBtn ) {
@@ -758,17 +758,17 @@ function logSubmit( event, form_type = '', form, foundSubmitBtn ) {
 									try {
 										grecaptcha.execute(
 											'6LduitQZAAAAAOe_qozka9ipUhlIq2EFD1EG2X-_',
-										).then( function( data ) {	
+										).then( function( data ) {
 											var responseElem = form.querySelector( '.c4wp_response' );
 											if ( responseElem == null ) {
 												var responseElem = document.querySelector( '.c4wp_response' );
 											}
-											
+
 											responseElem.setAttribute( 'value', data );
 
 if ( form.classList.contains( 'wc-block-checkout__form' ) ) {
 												// WC block checkout.
-												let input = document.querySelector('input[id*="c4wp-wc-checkout"]'); 
+												let input = document.querySelector('input[id*="c4wp-wc-checkout"]');
 												let lastValue = input.value;
 												var token = data;
 												input.value = token;
@@ -778,16 +778,16 @@ if ( form.classList.contains( 'wc-block-checkout__form' ) ) {
 												if (tracker) {
 													tracker.setValue( lastValue );
 												}
-												input.dispatchEvent(event)												
+												input.dispatchEvent(event)
 											}
 
 // Submit as usual.
 											if ( foundSubmitBtn ) {
 												foundSubmitBtn.click();
 											} else if ( form.classList.contains( 'wc-block-checkout__form' ) ) {
-												jQuery( form ).find( '.wc-block-components-checkout-place-order-button:not(.c4wp-submit)' ).click(); 
+												jQuery( form ).find( '.wc-block-components-checkout-place-order-button:not(.c4wp-submit)' ).click();
 											} else {
-												
+
 												if ( typeof form.submit === 'function' ) {
 													form.submit();
 												} else {
@@ -809,11 +809,11 @@ return true;
 if ( form.parentElement.classList.contains( 'nf-form-layout' ) ) {
 										return false;
 									}
-									
+
 									if ( form.classList.contains( 'wc-block-checkout__form' ) ) {
 										return;
 									}
-									
+
 									// Submit as usual.
 									if ( typeof form.submit === 'function' ) {
 										form.submit();
@@ -832,7 +832,7 @@ grecaptcha.ready( c4wp_onloadCallback );
 if ( typeof jQuery !== 'undefined' ) {
 						jQuery( 'body' ).on( 'click', '.acomment-reply.bp-primary-action', function ( e ) {
 							c4wp_onloadCallback();
-						});	
+						});
 					}
 
 //token is valid for 2 minutes, So get new token every after 1 minutes 50 seconds
@@ -850,6 +850,6 @@ window.addEventListener("load", (event) => {
 					});
 				/* @v3-js:end */
 			</script>
-			
+
 </body>
 </html>

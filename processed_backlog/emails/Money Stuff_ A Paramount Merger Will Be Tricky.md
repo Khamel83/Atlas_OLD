@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The economics of a Paramount Global acquisition are simple but tricky: Paramount has about 655 million shares outstanding. Of those 655 mill
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Paramount
-    
-  
+
+
 
 The economics of a Paramount Global acquisition are simple but tricky:
 	Paramount has about 655 million shares outstanding.	Of those 655 million shares, roughly 41 million are Class A shares, which have voting rights; the rest are Class B shares, which don’t.	The Class A stock trades at $22.37 per share as of Friday’s close; the Class B trades at $11.91. That gives you a combined equity market capitalization of about $8.2 billion.	Figure you’d have to pay a premium to buy the whole company. Let’s say the total equity value would be $12 billion, roughly a 50% premium to the current price.
@@ -100,37 +100,37 @@ The valuation has turned heads since the Journal first reported on Skydance’s 
 
 Right I mean there is some economic pie to be divided up here, and 95% of the shares have no voting power. If you make a good deal with the person who owns the controlling 5%, you can get a good deal for yourself too.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Freedom of speech
-    
-  
+
+
 
 As a matter of US constitutional law, the argument “I should be allowed to commit securities fraud because of freedom of speech and the First Amendment” is wrong, but it has a respectable intellectual pedigree. You can see its appeal. The US Securities and Exchange Commission does pretty intrusively regulate speech, in a way that would not be acceptable in most areas of US law. And if the First Amendment protects anything, it protects the right to lie to the public. But not about securities.
 On the other hand, the composition of the US courts is changing; they are becoming more skeptical of regulatory agencies and more receptive to arguments that regulatory restrictions on freedom are unconstitutional. It’s worth trying, every now and then, to see if the US Supreme Court might change its mind and decide that, actually, freedom of speech does require the right to commit securities fraud.
@@ -144,11 +144,11 @@ The agreement is a “quintessential prior restraint that the law forbids,” Mu
 
 They are not exactly wrong, but they are wrong enough. The SEC really is in the business of chilling Elon Musk from saying stuff about Tesla’s stock, and that’s fine.
 
-  
-    
+
+
       Low rates phenomena
-    
-  
+
+
 
 One straightforward story you could tell about recent financial history is that interest rates were low for a very long time, which meant that discount rates were low, which meant that a dollar in the distant future was pretty much as good as a dollar right now, which meant that investors were willing to put their money into risky bets with no expectation of any cash flows anytime soon. Thus a huge boom in the valuations of speculative private tech companies. Thus the “
 MoviePass economy,” where venture capitalists were willing to invest billions in companies that lost money on every transaction, in the hope that one day those companies would achieve enough scale to stop doing that. And thus crypto, where markets gave huge valuations to speculative tokens without even a plan to one day have cash flows.
@@ -164,11 +164,11 @@ Imbue is plowing its cash into developing AI models that it hopes will one day c
 One model of this is “artificial general intelligence (AGI) will be so enormously lucrative, and so soon, that your business plans and discount rate don’t matter all that much.” Sometimes, though, I think about OpenAI’s great warning to potential investors that “it would be wise to view any investment in OpenAI Global, LLC in the spirit of a donation, with the understanding that it may be difficult to know what role money will play in a post-AGI world.” If your discounted cash flow model is, like, “Year 1: spend $1 billion, Year 2: spend $2 billion, Year 3: a paradise of universal abundance in which money no longer has uses,” maybe that just breaks Excel?
 Also crypto is pretty back, so there’s that.
 
-  
-    
+
+
       Republic First
-    
-  
+
+
 
 One funny feature of financial markets is that sometimes something good or bad happens to a company, and the stock of a different company with a similar name goes up or down. Elon Musk tweets “Use Signal” and the (unrelated) stock of Signal Advance Inc. goes up, Zoom Video Communications Inc. has a popular product and the (unrelated) stock of Zoom Technologies Inc. goes up, that sort of thing. People are busy and markets are slightly less than perfectly efficient.
 With banks this is arguably less funny, for two reasons:
@@ -182,11 +182,11 @@ The Philadelphia-based bank had struggled with similar issues as other regional 
 
 I don’t actually think the name thing had that much to do with it, but I guess other First banks and other Republic banks should watch out. Some banks are systemically important, but other clusters of bank names might be systemically important. 
 
-  
-    
+
+
       24/7
-    
-  
+
+
 
 Last week, the Financial Times reported that the New York Stock Exchange “is polling market participants on the merits of trading stocks around the clock as regulators scrutinise an application for the first 24/7 bourse.” I have often argued that the stock market should be open only half an hour a day, not the current 6.5, never mind 24. A reader emailed to propose the extreme version of this:
 I prefer infrequent batch auctions. The buyside loses to VWAP by like 2+ bps in aggregate.
@@ -207,31 +207,31 @@ The paper, which Clapham wrote with colleague Micha Bender and Deutsche Bundesba
 
 Yeah but pretty much every price move during continuous trading is fueled by one-sided flows. That’s what continuous trading is: It’s buyers buying from market makers and sellers selling to market makers, with the market makers continuously taking the other side of one-sided orders. If you mush all the buyers and sellers together at once, you probably get a bit less of that.
 
-  
-    
+
+
       Private credit trading platform
-    
-  
+
+
 
 I have said a couple of times, including last week, that eventually “I am going to be writing about a story like ‘Company X is launching a marketplace to allow private credit lenders to trade loans.’” Of course this led Company X, or one possible Company X anyway, to contact me. Here’s Tradable, tagline “We make private credit Tradable.” There you go.
 
-  
-    
+
+
       Podcast
-    
-  
+
+
 
 The Money Stuff podcast comes out on Fridays, and you can listen to our most recent episode here. Katie and I discussed 24/7 stock trading, non-competes and buying gold with your credit card.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 BHP’s $39 Billion Copper Play Was Years in the Making. Yen Sparks Intervention Suspicion After U-Turn From 1990 Lows. Even If the Fed Cuts, the Days of Ultralow Rates Are Over. “Borrowing in emerging-market currencies and buying the dollar has produced returns of as much as 9% this year.” Musk Is Once Again Richer Than Zuckerberg as Fortunes Reverse. Oil Producers Flush With Cash Cut Reliance on Funding Markets. Blackstone strikes $1.6bn deal for Hipgnosis as bidding war escalates. Chinese regulators warn against Silicon Valley Bank-style meltdown. Elliott Said to Have Built ‘Large’ Stake in Buffett-Favored Sumitomo. Meet ZiG, Zimbabwe’s Latest Shot at a Stable Currency. In America’s Biggest Oil Field, the Ground Is Swelling and Buckling. ‘Honeypots’ and influence operations: China’s spies turn to Europe. Former House Speaker Nancy Pelosi Nearly Tripled the S&P 500's Returns in 2023. East Hampton Braces for Zero Bond. Blade to Offer Luxury Bus Service to Hamptons at Fare Up to $275. Space travel agent. LinkedIn ghostwriters. Why Turning It Off and Turning It Back On Is Gadget-Fixing Magic. “But every time I went by a Design Within Reach store, I always had to stop in and sit in the chair and tell myself one day, when I make it, I'm finally going to get one of those.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The Wall Street Journal reports that “private-equity giant Apollo Global Management submitted a $26 billion [enterprise value] offer, including about $12 billion in equity plus assumption of debt.”
 
 
@@ -253,48 +253,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] That is, buy-side investors tend to buy (sell) at prices 0.02% higher (lower) than the volume-weighted average price on any trading day; that difference, intuitively, represents the spread earned by market makers.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -305,46 +305,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckyfvx.5hsu/e52c3dfb.gif" alt="" border="0" /></a>

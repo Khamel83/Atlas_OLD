@@ -36,7 +36,7 @@ Mentioned in this issue: Jonathan W. Anderson, Virginie
 Montel, Janty Yates, Colleen Atwood, Prada, Lure Fishbar, Emily Sundberg, Selena Gomez, Zoe Saldaña, The Row, Thom Browne, Daniel Craig, Drew Starkey, Gabriela Hearst, Langosteria, NYFW, Bernard Arnault, Blake Lively, Justin Baldoni, and many
 more… 
 
- 
+
 
 Mailbag Overflow: Answers to
 Three Things You Asked…
@@ -233,7 +233,7 @@ Montel: In Emilia Pérez, I think the red suit is iconic now, and fabulous. It w
 Anderson: I love Allerton’s character [in Queer]. It was played by Drew, and he’s wearing these translucent shirts. I think for me, it was a way to bridge the idea of the reality and the
 nonreality—this idea of the translucency through to the body, the cigarette pack inside the pocket, and the flesh underneath. It’s referring to the morphing that’s in the book. It was like trickery without special effects.
 
- 
+
 
 What I’m Reading… And Listening To…
 -----------------------------------------
@@ -263,7 +263,7 @@ Two more podcasts for
 my particular breed of dork: One is an oral history of Mars Incorporated, maker of M&Ms, Snickers, and Kind Bars. It’s a private company and generates $50 billion a year in sales—more than Coca-Cola! (Although, now that soda is trending again… maybe not for long.) The other is an interview with the creators of Fast Company, founded in 1995, just as older millennials were entering their teens. The launch of Fast Company converges with the end of the concept of selling out, and
 you’ll understand why after listening to this. [Acquired ( https://www.acquired.fm/episodes/mars-inc-the-chocolate-story?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and This Podcast Should Really Start Advertising With Us, Given How Much I Promote It ( https://podcasts.apple.com/us/podcast/alan-webber-bill-taylor-founders-fast-company/id1617198343?i=1000681795033&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… My 2025 resolution is to uncross my legs, and
 not just at fashion shows. 
@@ -295,6 +295,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUGdoMnxc6BL12iG3HoHM=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

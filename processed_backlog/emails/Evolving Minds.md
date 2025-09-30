@@ -126,7 +126,7 @@ We’ve all worked for middle managers too far removed from the day-to-day to ad
 Some people will be happy letting AI do the grunt work. Not everyone will see AI’s advance as a challenge to meet, just as I have not taken advantage of chess and Go engines to become better at either of those games. But I think, as in chess and Go, more people will get smarter. The process will produce more geniuses, broadly defined, ready to deliver the fresh, human insights required to ignite the next intellectual revolution. 
 If we can walk the line, the result, I think, will be a deeper understanding of the universe and ourselves, and a meaningful next leg in the neverending quest to understand and shape our realities.
 Thanks to Dan [ https://substack.com/redirect/e64b3231-47a2-47c9-b545-0f8473ff95f8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://substack.com/redirect/9cecf765-a3fa-4ade-a7bf-44d7ebb790e8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
-That’s all for today! We’ll be back in your inbox on Friday with a Weekly Dose of Optimism, and we mayyy drop a little extra in there on Thursday, too. 
+That’s all for today! We’ll be back in your inbox on Friday with a Weekly Dose of Optimism, and we mayyy drop a little extra in there on Thursday, too.
 Thanks for reading,
 Packy
 

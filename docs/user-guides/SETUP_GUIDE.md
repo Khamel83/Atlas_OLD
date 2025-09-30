@@ -22,7 +22,7 @@ This comprehensive guide will help you set up Atlas on your system, from initial
 
 ### Software Requirements
 
-- **Operating System**: 
+- **Operating System**:
   - Ubuntu 20.04+ (recommended)
   - macOS 12+ (Intel or Apple Silicon)
   - Windows 10/11 with WSL2
@@ -316,14 +316,14 @@ python scripts/setup_wizard.py
 ### "Python 3.9+ required"
 
 **Problem**: Your system has an older Python version
-**Solution**: 
+**Solution**:
 - Install Python 3.9+ from python.org
 - Use `python3.9` or `python3.10` explicitly in commands
 
 ### "Missing required files"
 
 **Problem**: Setup wizard can't find project files
-**Solution**: 
+**Solution**:
 - Ensure you're running the wizard from the Atlas project root directory
 - Check that all required files exist: `run.py`, `requirements.txt`, etc.
 

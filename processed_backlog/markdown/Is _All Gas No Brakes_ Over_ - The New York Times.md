@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • March 23, 2021 
+Unknown author • March 23, 2021
 
 ![nytimes.com]()
 

@@ -56,7 +56,7 @@ class ContentInsights(BaseModel):
     sentiment: str = Field(..., description="positive|negative|neutral|mixed")
     complexity: str = Field(..., description="basic|intermediate|advanced|expert")
     content_type: str = Field(..., description="article|podcast|video|document")
-    
+
     @validator('summary')
     def validate_summary_length(cls, v):
         word_count = len(v.split())
@@ -85,35 +85,35 @@ class ContentInput:
 
 class StructuredExtractor:
     """LLM-powered structured content extraction."""
-    
+
     def __init__(self, llm_client=None):
         """Initialize with LLM client."""
         self.llm_client = llm_client or self._get_default_llm()
         self.extraction_prompt = self._load_extraction_prompt()
         self.validation_prompt = self._load_validation_prompt()
-        
+
     def _get_default_llm(self):
         """Get default LLM router from Atlas config."""
         try:
             from helpers.llm_router import get_llm_router
             from helpers.config import load_config
-            
+
             config = load_config()
             llm_router = get_llm_router(config)
-            
+
             # Check if we have a working client
             if not llm_router.client.api_key:
                 logger.warning("No OpenRouter API key found, falling back to mock client")
                 return MockLLMClient()
-                
+
             logger.info(f"Using LLM router with intelligent model selection (Economy→Balanced→Premium)")
             return llm_router
-            
+
         except Exception as e:
             logger.error(f"Failed to initialize LLM router: {e}")
             logger.info("Falling back to mock LLM client")
             return MockLLMClient()
-            
+
     def _load_extraction_prompt(self) -> str:
         """Load extraction prompt template."""
         return """You are an expert content analyst. Extract structured data from this content.
@@ -155,7 +155,7 @@ Extracted JSON: {json_data}
 
 Check for:
 1. Schema compliance
-2. Factual accuracy 
+2. Factual accuracy
 3. Entity canonicalization quality
 4. Confidence score reasonableness
 5. Missing key insights
@@ -175,18 +175,18 @@ Return JSON with:
         content_key = f"{content_input.url or ''}{content_input.title}{content_input.date or ''}"
         content_hash = hashlib.sha256(content_key.encode()).hexdigest()
         return content_hash[:16]  # First 16 chars for readability
-        
+
     def extract(self, content_input: ContentInput, validate: bool = True) -> ExtractionResult:
         """Extract structured insights from content."""
         start_time = datetime.utcnow()
         content_id = self.generate_content_id(content_input)
-        
+
         logger.info(f"Extracting insights from content: {content_input.title[:50]}...")
-        
+
         try:
             # Primary extraction
             extraction = self._perform_extraction(content_input)
-            
+
             # Optional validation pass
             if validate:
                 validation = self._validate_extraction(content_input, extraction)
@@ -194,10 +194,10 @@ Return JSON with:
                     logger.warning(f"Low quality extraction, retrying... Issues: {validation.get('issues', [])}")
                     # Retry with critique
                     extraction = self._perform_extraction(content_input, previous_attempt=extraction, critique=validation)
-            
+
             # Calculate processing time
             processing_time = (datetime.utcnow() - start_time).total_seconds()
-            
+
             # Build result
             return ExtractionResult(
                 content_id=content_id,
@@ -206,11 +206,11 @@ Return JSON with:
                 processing_time=processing_time,
                 model_used=getattr(self.llm_client, 'model_name', 'unknown')
             )
-            
+
         except Exception as e:
             logger.error(f"Extraction failed for {content_input.title}: {e}")
             raise
-            
+
     def _perform_extraction(self, content_input: ContentInput, previous_attempt=None, critique=None) -> ContentInsights:
         """Perform the actual LLM extraction."""
         # Prepare prompt
@@ -219,16 +219,16 @@ Return JSON with:
             content_type=content_input.content_type,
             content=content_input.content[:8000]  # Limit content length
         )
-        
+
         # Add critique if this is a retry
         if previous_attempt and critique:
             prompt += f"\n\nPREVIOUS ATTEMPT HAD ISSUES:\nIssues: {critique.get('issues', [])}\nSuggested fixes: {critique.get('suggested_fixes', [])}\nPlease address these issues in your extraction."
-        
+
         # Use LLM router for intelligent model selection
         if hasattr(self.llm_client, 'execute_task'):
             # Using LLM router - it will choose optimal model (Economy→Balanced→Premium)
             from helpers.llm_router import TaskSpec, TaskKind
-            
+
             task_spec = TaskSpec(
                 kind=TaskKind.EXTRACT_JSON,
                 input_tokens=len(prompt) // 4,  # Rough estimate
@@ -236,34 +236,34 @@ Return JSON with:
                 strict_json=True,
                 priority="high"  # Force premium model for better JSON extraction
             )
-            
+
             router_result = self.llm_client.execute_task(
                 spec=task_spec,
                 messages=[{"role": "user", "content": prompt}]
             )
-            
+
             # Convert router result to LLMResponse format
             class RouterResponse:
                 def __init__(self, result):
                     self.success = result.get('success', False)
                     self.content = result.get('content', '')
                     self.error = result.get('error')
-            
+
             llm_response = RouterResponse(router_result)
         else:
-            # Fallback to direct client call (mock or emergency)  
+            # Fallback to direct client call (mock or emergency)
             llm_response = self.llm_client.chat_completion(
                 model="meta-llama/llama-3.1-8b-instruct",  # Start with economy model
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.1,
                 max_tokens=2000
             )
-        
+
         if not llm_response.success:
             raise Exception(f"LLM call failed: {llm_response.error}")
-            
+
         response = llm_response.content
-        
+
         # Parse JSON response
         try:
             json_data = self._extract_json_from_response(response)
@@ -274,7 +274,7 @@ Return JSON with:
             # Try to fix JSON and retry once
             fixed_json = self._fix_json(response)
             return ContentInsights(**fixed_json)
-            
+
     def _validate_extraction(self, content_input: ContentInput, extraction: ContentInsights) -> Dict[str, Any]:
         """Validate extraction quality."""
         try:
@@ -282,11 +282,11 @@ Return JSON with:
                 title=content_input.title,
                 json_data=extraction.json()
             )
-            
+
             # Use router for validation too, but simpler task
             if hasattr(self.llm_client, 'execute_task'):
                 from helpers.llm_router import TaskSpec, TaskKind
-                
+
                 task_spec = TaskSpec(
                     kind=TaskKind.QNA,
                     input_tokens=len(prompt) // 4,
@@ -294,19 +294,19 @@ Return JSON with:
                     strict_json=False,
                     priority="normal"
                 )
-                
+
                 router_result = self.llm_client.execute_task(
                     spec=task_spec,
                     messages=[{"role": "user", "content": prompt}]
                 )
-                
+
                 # Convert router result to LLMResponse format
                 class RouterResponse:
                     def __init__(self, result):
                         self.success = result.get('success', False)
                         self.content = result.get('content', '')
                         self.error = result.get('error')
-                
+
                 llm_response = RouterResponse(router_result)
             else:
                 llm_response = self.llm_client.chat_completion(
@@ -315,23 +315,23 @@ Return JSON with:
                     temperature=0.1,
                     max_tokens=800
                 )
-            
+
             if not llm_response.success:
                 raise Exception(f"Validation LLM call failed: {llm_response.error}")
-                
+
             response = llm_response.content
             return self._extract_json_from_response(response)
-            
+
         except Exception as e:
             logger.error(f"Validation failed: {e}")
             return {"is_valid": True, "quality_score": 0.9, "issues": [], "suggested_fixes": []}
-            
+
     def _extract_json_from_response(self, response: str) -> Dict[str, Any]:
         """Extract JSON from LLM response."""
         # Try to find JSON block
         json_pattern = r'```(?:json)?\s*(\{.*?\})\s*```'
         match = re.search(json_pattern, response, re.DOTALL)
-        
+
         if match:
             json_str = match.group(1)
         else:
@@ -342,10 +342,10 @@ Return JSON with:
                 json_str = response[json_start:json_end]
             else:
                 raise ValueError("No JSON found in response")
-        
+
         # Clean up JSON string
         json_str = json_str.strip()
-        
+
         # If JSON is truncated, try to complete it
         if not json_str.endswith('}'):
             # Count braces to see if we need to close
@@ -353,18 +353,18 @@ Return JSON with:
             close_braces = json_str.count('}')
             if open_braces > close_braces:
                 json_str += '}' * (open_braces - close_braces)
-                
+
         return json.loads(json_str)
-        
+
     def _fix_json(self, response: str) -> Dict[str, Any]:
         """Attempt to fix malformed JSON."""
         # Simple JSON fixing attempts
         json_str = response
-        
+
         # Remove common issues
         json_str = re.sub(r',\s*}', '}', json_str)  # Remove trailing commas
         json_str = re.sub(r',\s*]', ']', json_str)  # Remove trailing commas in arrays
-        
+
         try:
             return json.loads(json_str)
         except:
@@ -380,58 +380,58 @@ Return JSON with:
                 "complexity": "intermediate",
                 "content_type": "article"
             }
-            
+
     def _calculate_quality_score(self, insights: ContentInsights) -> float:
         """Calculate overall extraction quality score."""
         score = 0.0
-        
+
         # Summary quality (20%)
         if len(insights.summary.split()) >= 50:
             score += 0.2
-            
-        # Entity extraction (20%) 
+
+        # Entity extraction (20%)
         if len(insights.entities) > 0:
             avg_confidence = sum(e.confidence for e in insights.entities) / len(insights.entities)
             score += 0.2 * avg_confidence
-            
+
         # Topic extraction (15%)
         if len(insights.key_topics) >= 3:
             score += 0.15
-            
+
         # Quote extraction (15%)
         if len(insights.quotes) > 0:
             score += 0.15
-            
+
         # Thesis extraction (15%)
         if len(insights.theses) > 0:
             score += 0.15
-            
+
         # Theme extraction (10%)
         if len(insights.key_themes) >= 3:
             score += 0.1
-            
+
         # Classification accuracy (5%)
         if insights.sentiment and insights.complexity:
             score += 0.05
-            
+
         return min(score, 1.0)
 
 class MockLLMClient:
     """Mock LLM client for testing."""
-    
+
     def __init__(self):
         self.model_name = "mock-llm"
-        
+
     def chat_completion(self, model, messages, **kwargs):
         """Return mock JSON response."""
         from dataclasses import dataclass
-        
+
         @dataclass
         class MockResponse:
             content: str
             success: bool = True
             error: str = None
-            
+
         return MockResponse(content="""```json
 {
   "summary": "This comprehensive mock summary for testing the structured extraction system demonstrates advanced content analysis capabilities. The system successfully identifies key entities, extracts meaningful quotes, and analyzes business theses from various content types including articles, podcasts, and video transcripts. Through sophisticated natural language processing, it maintains high accuracy in entity canonicalization while providing confidence scores for all extracted insights. The structured output enables downstream applications to efficiently process and analyze large volumes of content for strategic decision-making and knowledge management purposes.",

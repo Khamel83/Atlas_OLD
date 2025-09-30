@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         “The most entertaining outcome is the most likely,” Elon Musk once tweeted, as far as I can tell not about a particular event but as a gener
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 “The most entertaining outcome is the most likely,” Elon Musk  once tweeted, as far as I can tell not about a particular event but as a general life philosophy. In that spirit, let me put out into the world that the most entertaining outcome of Musk’s deal to buy Twitter Inc. is obviously:
 	Having   agreed to close the deal by 5 p.m. this Friday, Musk in fact closes the deal by 5 p.m. this Friday, paying $54.20 per share to all of Twitter’s shareholders and taking over the company.	At 5:01, Joe Biden calls Musk and says “I am sorry, but we have decided that it is a national security risk for you to own Twitter, you will have to divest it immediately, this is an unreviewable and final order.”	Musk has to sell the company by noon on Monday, which he does at a fire-sale price to … its previous public shareholders? His lenders? Jeff Bezos? Mark Zuckerberg? Kanye West?   Jason Calacanis’s “randos”? Lots of good options here.	He buys it for $54.20 per share this week and sells it for like $15 per share next week, losing tens of billions of dollars.	Probably he has a really intense weekend of messing around with Twitter before letting it go? Again, many opportunities for antics.
@@ -138,63 +138,63 @@ I feel like “sure, love it, I’ll kick in $20 million” is more insulting th
   [4]
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       UBS v. UBS
-    
-  
+
+
 
 If you are the chief executive officer of an investment bank, it is tempting to think that  your bank is a tech company. “We provide technology tools to our clients to do stuff with money,” is the basic pitch, with the technology including both (1) financial technology (derivatives, structured notes, trade execution, funds, etc.) and (2) increasingly, computer technology (apps, smart routers, robo-advisers, a website where you can check your account balance, etc.). Becoming a tech company is a good development for a bank:
 	Doing tech stuff is less capital-intensive than doing traditional finance stuff. Traditionally banks use their balance sheets to intermediate trades between customers; writing a computer program to intermediate those trades uses less capital.	Doing tech stuff is less people-intensive than doing traditional finance stuff. Banks are famously businesses where “the assets walk out the door every evening,” because the most important assets are the people, who have the market knowledge and client relationships that make up the value of the bank. This gives them leverage to demand perks and bonuses and to jump ship to competitors. Whereas if you build an app, it doesn’t walk out the door every evening. The market knowledge and client relationships live on your servers.	Tech companies just seem like good businesses: It is easier to scale an app than a relationship business (you don’t have to hire and train thousands of copies of the app), it creates more stable revenue (the trading platform you offer to clients is less likely to lose a billion dollars on a trade than your trading desk is), it gets valued more highly by investors, etc.
@@ -210,20 +210,20 @@ Hamers, on the other hand, has said clients tell him that UBS has great products
 
 The app doesn’t fly on the corporate jet, the app doesn’t host gatherings at a villa, the app doesn’t have the personal touch of a talented senior banker. But the app does scale, and the app is very unlikely to cultivate support among UBS’s board and shareholders to try to win a power struggle with the CEO. 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       JPMorgan v. JPMorgan
-    
-  
+
+
 
 I guess I have a new goal as a writer, which is that one day I want to be important enough that when my private banker has a conflict with her bank, I can write a letter to the chief executive officer of the bank saying “back off my private banker, she’s great,” and the CEO will make one of his main deputies write back to me with some bland soothing boilerplate, and then the whole thing can be written up in the press as, like, “Big Bank Infighting Leads to Stern Letter From Matt Levine.” As I type this I realize that it is not so much my goal as a writer; it is more my goal as a private banking client. Specifically the goal is to become a private banking client, and then to have enough money to (1) have a celebrity financial adviser and (2) write to the CEO and get a response. The stuff about the press is less important.
 The  Financial Times reports that Malcolm Gladwell has made it:
@@ -247,136 +247,136 @@ Dimon ended up intervening, telling both sides that the bank did not have the ma
 Gladwell is also selling Dimon short, statesmanship-wise. “We don’t have the market share for turf wars” is a great line, and a good way to make both sides feel bad about the whole thing.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Billionaire   Dan Och Slammed by Hedge Fund for ‘Mismanagement.’ Biden Pitches Plan to  Refill Oil Reserves, but Producers Are Skeptical. Nasdaq Freezes  Chinese Small-Cap IPOs After Price Spikes. Crypto Is More Attractive as   SEC Gets Aggressive, Investors Say. Lower Volatility   Confounds Crypto Traders Used to Yo-Yo Swings. Credit Suisse  fined €238mn in French money laundering deal.  TSMC: the Taiwanese chipmaker caught up in the tech cold war. Wall Street Is Heading to   Saudi Arabia as US Oil Spat Simmers. New   ESG Fund Numbers Plunge Amid Crackdown on Greenwashing. Meta shareholder writes  critical open letter saying the company needs to slash headcount and stop spending so much money on the ‘metaverse.’ Tesla Slumps to 16-Month Low as China Slowdown Spurs Price Cuts. The   Middle Managers Are Not Alright. They found  Santa Claus’s grave.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
 
-        
+
   [1] He does not, come on, all of the fraud stuff was   always nonsense, and it was a reasonable sort of nonsense for him to throw out as a way to try to avoid closing the deal and save $44 billion, but as a lawsuit for damages? With Twitter as a defendant? When he owns it? Stop, no.
 
 
   [2] He has multiple citizenships, but one of them is the US, and the  CFIUS regulations apply to “a transaction which … results or could result in control of a U.S. business by a foreign person,” with “foreign person”  meaning basically someone who is not a “U.S. national,” i.e. U.S. citizen.
 
 
-  [3] I’m kidding, this is a joke about Musk constantly doing wild Twitter stuff every time I say I’ll take a day off Money Stuff, there is no vacation, frankly if I have to write an emergency Money Stuff this Saturday because, like, North Korean hackers intercepted Musk’s closing payment, I’ll be perfectly happy. 
+  [3] I’m kidding, this is a joke about Musk constantly doing wild Twitter stuff every time I say I’ll take a day off Money Stuff, there is no vacation, frankly if I have to write an emergency Money Stuff this Saturday because, like, North Korean hackers intercepted Musk’s closing payment, I’ll be perfectly happy.
 
 
   [4] I’m kidding about this too, though it’s in the right ballpark. In 2020, the Wall Street Journal  reported that “over the past five years or so, Mr. Griffin, an ambitious 51-year-old businessman who started his initial trading business from his Harvard University dorm room as a freshman, has developed a reputation among real-estate insiders as the luxury market’s whale, racking up a string of purchases that tally up to over $1 billion.” So like $200 million a year, though since then he moved to Florida and seems to have picked up the pace.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

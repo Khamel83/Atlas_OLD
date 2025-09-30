@@ -76,7 +76,7 @@ Whenever anyone tries to get too granular about political causes — oh, it’s 
 
 [*You can read last week’s edition of 9 Questions with Sarah Perry here.*](/web/20241123041918/https://www.vox.com/9-questions/2017/8/26/16158710/sarah-perry-9-questions-interview)
 
-See More: 
+See More:
 
 * [Books](/web/20241123041918/https://www.vox.com/books)
 * [Culture](/web/20241123041918/https://www.vox.com/culture)

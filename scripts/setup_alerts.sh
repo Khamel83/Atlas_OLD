@@ -17,7 +17,7 @@ fi
 update_env() {
     local key=$1
     local value=$2
-    
+
     if grep -q "^${key}=" .env; then
         # Update existing
         sed -i "s|^${key}=.*|${key}=${value}|" .env

@@ -49,8 +49,8 @@ const currentScroll = window.scrollY;
 config.thresholds.forEach((threshold) => {
         if (delta >= threshold && !config.thresholdsReached[threshold]) {
           window.dataLayer = window.dataLayer || [];
-          // This keeps original naming for the 300px threshold since it is already in use. 
-          // @todo: Remove the following conditional once GTM is updated with new name. 
+          // This keeps original naming for the 300px threshold since it is already in use.
+          // @todo: Remove the following conditional once GTM is updated with new name.
           if (threshold === 300) {
             window.dataLayer.push({ event: 'user_scrolled_delta' });
           }
@@ -208,7 +208,7 @@ let result = {
               // user.status: 0 (anonymous), 1 (registered), 2 (subscribed)
               if (user.status === 2) {
                 console.debug("✅ User is a subscriber. Skipping wall.");
-                
+
                 window.sophi.paywall.decisionSource = "subscriber-no-decision";
                 window.sophi.paywall.bcListener = "subscriber-no-decision-no-wall";
 
@@ -324,7 +324,7 @@ let result = {
 let decisionSource = "";
               let wallType = "";
               let decisionResponse = null;
-              
+
               const modelInput = {
                 visitor: user.type, // no possible value for "subscribed" here as it is handled above
                 visit: await window.sophi.paywall.getVisitInformation(),
@@ -353,7 +353,7 @@ console.debug("🪵 getDecision Input:", modelInput);
                   } else {
                    // Nothing error but sophi return {wallVisibility : "never"}
                     wallType = "no-wall";
-                    console.debug("❌ No decision response received."); 
+                    console.debug("❌ No decision response received.");
                   }
                   break;
                 case 1: // Paywall override blocked by exclusion rules
@@ -405,7 +405,7 @@ pushToDataLayer("paywall-decision", {
                 sophiInfo: { ...window.sophi.paywall.decision },
                 decisionSource,
                 wallType,
-                user});     
+                user});
             })
             .catch((error) => {
               console.error(error.message);

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        If you trick people into getting unnecessary surgeries to implant fake medical devices in their bodies, is that securities fraud? Obviously 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        If you trick people into getting unnecessary surgeries to implant fake medical devices in their bodies, is that securities fraud? Obviously
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Stimwave
-    
-  
+
+
 
 If you trick people into getting unnecessary surgeries to implant fake medical devices in their bodies, is that securities fraud? Obviously you know the answer — everything is securities fraud — but doesn’t that seem more like something else? Like if you go around tricking people into getting surgeries to implant fake medical devices in their bodies, doesn’t it seem like the victims are mostly the patients? The people you tricked into implanting fake medical devices?
 But the US Securities and Exchange Commission regulates securities fraud, not surgeries, so here is  an SEC lawsuit against Laura Perryman, the former chief executive officer of Stimwave Technologies Inc.:
@@ -72,37 +72,37 @@ But the pink-handled receiver was too long to fit into some people’s bodies. �
 So Stimwave developed another, smaller receiver, which (1) had a white handle and (2) didn’t do anything — it was just plastic, no copper, so it didn’t actually transmit any energy. It was implanted into patients purely to extract $16,000 from their insurers to make the whole trade work financially.
 I suppose the SEC is right that investors were entitled to know this? And I suppose the Justice Department is right that the insurers were defrauded? Still I wonder about the patients. Shouldn’t they have gotten some disclosure? But also, what would they have done with full disclosure? Like imagine you went to your doctor complaining of chronic pain, and she was like “I have a device that can cure you. It’s this electrode array that I will implant in your body, and a battery that you will wear to power it. Those two things will fix your pain. I will also, however, have to implant an irrelevant piece of plastic into your body, because that will trick your insurance into paying for it.” You might take that trade, right?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Parallaxes
-    
-  
+
+
 
 Last year I blurbed Gary Sernovitz’s novel, The Counting House, whose main character is the chief investment officer of a fictional university endowment. (I really liked it — it is not for everyone, but I think it is probably for a lot of Money Stuff readers.) Much of the book consists of somewhat comical pitch meetings, in which managers of hedge funds and private equity funds and lending businesses try to convince the CIO to invest some of the endowment’s money with them. The CIO is jaded: He has heard all this stuff before. There are only so many ideas, and he keeps hearing versions of them. He knows the weak points of each of them, knows before he asks the questions what the answers will be. The book is among other things a survey of the popular ideas in alternative investments in 2023, how they are pitched and what their flaws are.
 Here’s  a Wall Street Journal story about Andy Lee, who runs Parallaxes Capital, an investment firm that buys tax receivables agreements. His limited partners say stuff like this:
@@ -123,11 +123,11 @@ As is often the case with weird corporate derivatives trades, though, this is r
 Parallaxes’s first two funds have returned about 15% annually, according to investors. Later funds have done better because some companies whose TRA rights they owned were acquired and the TRAs were paid out early.
 TRAs often have acceleration provisions that say that if the company gets acquired then the TRA gets paid out all at once, at maximally favorable assumptions, rather than over 15 years and only if there’s taxable income. So if you buy a 15-year TRA at a 15% yield and all it gets paid out next year, that’s where you make the real money.
 
-  
-    
+
+
       Juul
-    
-  
+
+
 
 Here is a  Wall Street Journal article about how “Wealthy Investors Rescued Juul From Bankruptcy. Others Are Crying Foul.” That is, on its face, sort of odd:
 
@@ -155,11 +155,11 @@ The lawsuit alleges that Pritzker and Valani “leveraged a distressed situation
 
 Here’s  the lawsuit, which basically argues that the rescue financing does not count as a qualified financing (because it was largely funded by insiders) and so shouldn’t trigger their conversion. But that’s the crux of what is going on here: Juul had an opportunity to take an equity investment in a way that wiped out its debt, so it did.
 
-  
-    
+
+
       PE exits
-    
-  
+
+
 
 Doesn’t it seem like  this should be a solvable problem?
 
@@ -179,11 +179,11 @@ In order to get deals done, many private equity groups have deployed financial e
 Industry sources told the Financial Times that private equity groups selling businesses to each other had increasingly used complex structures. Those included performance-based earn-outs — which pay sellers additional cash if a business performs better than expected — or other tools such as deferred payments from buyers and large rollover investments from sellers in order to get deals done.
 
 
-  
-    
+
+
       High-frequency sports book
-    
-  
+
+
 
 Did everyone know this?
   [5]
@@ -201,15 +201,15 @@ On the recent Sunday, FanDuel took in more than $200 million bets on NFL games.�
 The point made by the article is that being a trader on a sportsbook trading desk is a lot like being a trader on a stock or bond trading desk: You have some computer algorithms that synthesize (1) fundamental data about the real world and (2) order data about supply and demand for the stuff you’re trading, and you use those algorithms and your own intuitive sense of markets and risk to set prices that will maximize revenue while minimizing risk. 
 I suppose the difference is that if you are a trader at an electronic stock market making firm, you are partially in the business of facilitating capital formation and providing liquidity to public companies, and partially in the business of facilitating people’s sensible retirement savings, and partially in the business of facilitating retail gambling and taking a cut. And it is hard to disentangle those things, and easy to talk about the high-minded stuff and ignore the retail gambling. Whereas at the sportsbook you totally know it’s gambling.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 ‘Everyone Got Burned’: Wall Street   Missed the Great Stock Rally of 2023. Help wanted: fund staff who can  sell wealthy investors on ‘alts.’ The Entrepreneur Who Bet His Company on a  Fight With Apple. Elon Musk's X gets another  valuation cut from Fidelity. Russia’s Seaborne   Crude Exports Surge to End 2023 on a High. JPMorgan Clashes With Partly Owned  Greek Fintech. BNP Paribas to settle with customers over risky  Swiss franc mortgages. Big Four firms  rethink governance after year of mis-steps and scandals. Tiger Global’s Coleman Regains Control of  Venture Unit After Losses, Client Complaints. How  IKEA Downsized to Go Downtown. Former Actor Who Became a   Crypto Evangelist Loses Beach Hotel in Feud. “Nothing says Australia quite like  Bluey.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In fact, Lee and his team at Parallaxes helped explain them to me at the time.
 
 
@@ -225,48 +225,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Probably? Here’s a 2018 Sports Illustrated article saying: “For the most part, online presentations of games run 15 seconds to a minute behind the traditional television broadcasts, which themselves air several seconds after live action. Simple data can be transferred near instantaneously these days, allowing apps like Draftkings Sportsbook to offer pitch-by-pitch odds during the World Series that come in ahead of the play on broadcast television.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -277,46 +277,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck5xkc.5je3/07a92e19.gif" alt="" border="0" /></a>

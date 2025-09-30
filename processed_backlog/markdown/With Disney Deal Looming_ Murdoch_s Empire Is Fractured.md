@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • January 01, 2018 
+Unknown author • January 01, 2018
 
 ![nytimes.com]()
 

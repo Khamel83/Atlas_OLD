@@ -123,10 +123,10 @@ The challenge for liberals of all stripes is a familiar one in dystopian democra
 
 Avoid hysteria, which Trump wants and exploits. But avoid also being co-opted by a single one of his lies, to see clearly, and to speak simply. Read those you disagree with; get off most social media; choose doubt over certainty; restraint over impulse; resist this authoritarian and irrational moment by refocusing above all on the simple truth, as best as you can, and fighting all those on both extremes trying to annihilate it.
 
-> Because these wings are no longer wings to fly  
-> But merely vans to beat the air  
-> The air which is now thoroughly small and dry  
-> Smaller and dryer than the will  
+> Because these wings are no longer wings to fly
+> But merely vans to beat the air
+> The air which is now thoroughly small and dry
+> Smaller and dryer than the will
 > Teach us to care and not to care. Teach us to sit still.
 
 ---

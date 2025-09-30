@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are two ways to think of the primary function of banks. One is a financial model: Banks borrow short-term to lend long-term, they prov
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Banks are tech companies
-    
-  
+
+
 
 There are two ways to think of the primary function of banks. One is a financial model: Banks borrow short-term to lend long-term, they provide credit intermediation, they pool risk-averse savings to finance risky investments, etc.; stuff we have  talked  about a  lot  around  here.
 The other is an essentially technological, list-keeping model: Bank deposits are money, and the job of banks is to keep track of who has money, and move it around when one person wants to send money to another person.
@@ -77,37 +77,37 @@ One stemmed from the fact that some Postbank clients were erroneously still list
 
 I assume that there are people who work at, like, Stripe, who are rolling their eyes so hard at this that they have injured themselves. Not in a “combining two lists of bank accounts is trivial” way, but in a “well yes obviously you have to deal with defunct address data but why don’t you have people who are thinking about that” way. “We are a tech company,” some bankers are fond of saying, but not really.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Uninsured deposits
-    
-  
+
+
 
 Ahahaha  in possibly related news:
 
@@ -123,11 +123,11 @@ The FDIC is   not pleased; it published a Financial Institution Letter objecting
 The FDIC observed that some insured depository institutions (IDIs) are not reporting estimated uninsured deposits in accordance with the instructions to the Consolidated Reports of Condition and Income (Call Report). For example, some institutions incorrectly reduced the amount reported to the extent that the uninsured deposits are collateralized by pledged assets; this is incorrect because in and of itself, the existence of collateral has no bearing on the portion of a deposit that is covered by federal deposit insurance. Additionally, some institutions incorrectly reduced the amount reported on Schedule RC-O by excluding intercompany deposit balances of subsidiaries.
 You might naively think that if you asked one of the largest banks in the US “how much money do you have from depositors with more than $250,000 at your bank,” it could spend, you know, a few hours looking at the data and get back to you with an answer that was accurate to within 10%. But you’d be wrong!
 
-  
-    
+
+
       The APE arb
-    
-  
+
+
 
 AMC Entertainment Holdings has two types of stock: common shares (ticker AMC) and AMC Preferred Equity Units (ticker APE). These are supposed to be economically equivalent, but they trade at very different prices. The common stock closed at $5.85 yesterday; the APEs closed at $1.80. AMC has announced plans to convert the APEs into common stock; the formula is somewhat complicated but roughly speaking each APE would turn into 0.88 common shares.
   [1]
@@ -157,11 +157,11 @@ It’s still a bit of a weird gap. If you are an AMC shareholder, you could alwa
 	A lot of AMC shareholders are meme-stock believers who do not want the APEs to convert into common stock, are trying to prevent it, don’t believe it will happen, and therefore have no reason to bet on the gap closing.	If you are an institutional AMC shareholder, sure you can sell your common shares and buy many more APEs. But if you instead hold the common shares, you can make a lot of money lending them out: Those super-expensive stock-borrow costs paid by short sellers end up getting paid (largely) to the share owners who lend out their common shares. The common stock has a higher price than the APEs in part because it is worth more: The common stock comes with share-lending cash flows, while the APEs do not.
 
 
-  
-    
+
+
       iRobot
-    
-  
+
+
 
 We   talked a couple of weeks ago about the mechanics of a public-company merger. Specifically, I pointed out that public-company acquisitions don’t generally have price adjustments for changes in the target’s financial situation between signing and closing. If you sign an agreement in April to buy a public company for $54.20 per share, expecting it to have $1 billion in cash at closing, and then when the deal closes in October it only has $900 million in cash, you don’t get to knock a dollar or two off the purchase price. The company is less valuable at closing than you thought it would be, but there’s not a lot you can do about it. This is partly because, when you sign an agreement to buy a public company, the company needs to have a shareholder vote to approve the deal, and the shareholders need to know what they are voting on. If the price can change at the last minute, it’s hard to do the vote.
 That said, there are limits: If the company’s cash goes from $1 billion to $0, perhaps there has been a “material adverse effect” that gives you the right to get out of the deal. Or if the company decides to pay its chief executive officer a $1 billion special bonus for being such a great CEO, that might not be “in the ordinary course of business,” which would also give you a right to get out of the deal. The merger agreement will say things like “the company can’t pay bonuses outside of the ordinary course of business without the buyer’s permission,” and so if the company wants to pay a big bonus it will have to ask you first, and you can say no and preserve the cash for yourself.
@@ -174,11 +174,11 @@ IRobot shares fell about 8.9% to $42.73 as markets opened in New York, while Ama
 
 Note that that price is well below $51.75, because “since Amazon announced the transaction last August, the Federal Trade Commission and European regulators have been probing the deal.” Here are iRobot’s  filing announcing the amendment, and the press release saying that “the change in price per share is expected to be largely offset by the planned increase in iRobot’s net debt under the new financing facility.” Largely offset: The company has about 27 million shares outstanding, so the $9.25 per share price reduction is worth about $250 million, which is more than $200 million. But if the company you are buying comes to you and says “hey uh bad news we’re out of cash and need to borrow more, that’s okay right,” you are going to exact a price for saying yes.
 
-  
-    
+
+
       Multistrategy funds
-    
-  
+
+
 
 Here are two ways to run a hedge fund:
 	Be a charismatic genius investor. Pick some companies that you think are good, buy their stocks, hold them for a fairly long term, maybe do a bit of activism to improve their performance. Pick some companies that you think are bad, short their stocks, maybe do a bit of short activism to get everyone to see their flaws. Have a concentrated portfolio of a dozen or so names, bet big with conviction, hope you’re right.	Hire like 30 genius investors and scientifically analyze their investing styles and track records to break down exactly how they add value. Pay them only to do that: Hedge out all of their exposure to the broad stock market, and to factors like value and momentum, so that they are not getting paid just for owning stocks in a bull market (or owning tech stocks in a tech bubble), but only for picking exactly which stocks will outperform which other stocks. Because everything is hedged, they won’t benefit from broad market movements, and they probably won’t make all that much of a return. But because everything is hedged, you can leverage it a lot: You can take $1 of investor capital, buy $10 of good stocks, short $10 of bad stocks, and if the good stocks are up 10% and the bad ones are up 8% then you have a 20% return on capital.
@@ -191,11 +191,11 @@ Commissions to sellside banks and data vendors are consequently much larger for 
 
 Being really scientific about performance measurement tends to mean trading a lot and borrowing a lot of money, both of which make you a good client of banks. Buying a dozen stocks, shorting four more, and holding them for years makes you less exciting for the banks. 
 
-  
-    
+
+
       Too much trading
-    
-  
+
+
 
 If you are a retail stock investor, which is better:
 	Sometimes trading stocks for a bit, on your lunch break at work, or	Trading stocks all night, sometimes looking up from your brokerage website to see the sun rising?
@@ -208,15 +208,15 @@ I don’t know if that answers my question? Another way to put that is that inve
 The generalizability of our empirical findings warrants discussion. Our setting limits access in the first hour(s) of regular trading, when volume, volatility, spreads, and adverse selection are especially high. Adverse selection and spreads are often even higher outside of regular hours (Barclay & Hendershott 2004), and recent research finds that news-driven volatility is now also higher out-of-hours than during the day (Boudoukh et al. 2019). Thus, our findings from the first hour(s) of regular trading should be informative about the likely effects of increasing retail investors’ out-of-hours trading access. 
 Yeah no the market is not going to be efficient if you are trading at midnight, but efficient is maybe not what you want.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS to Pay $387 Million in Credit Suisse-Tied   Archegos Fines. US security officials scrutinise Abu Dhabi’s $3bn  Fortress takeover. Lazard Launches New Arm Focused on Capital Raising. The World Tied $3.5 Trillion-Plus of Debt to  Inflation — The Costs Are Now Adding Up. The Little Known   Metals Giant that Rules a Global Market. Leon Black’s $158 Million   Payments to Epstein Spark Senate Probe.  Lyft CEO David Risher’s Efforts to Turn the Company Around: Cheaper Rides, Fewer Distractions. TCW to Buy  Engine No. 1’s ETF Unit in First Deal for CEO Katie Koch. TikTok’s Next Plan for U.S. Dominance: Selling Made-in-China Goods. TikTok is adding  text posts.   Musk Explains Why He’s Axing Twitter Name, Iconic Bird Logo.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] More specifically, each APE would convert into common on a one-for-one basis, but common shareholders will get a settlement payment of an additional one share for every 7.5 shares they hold now. So 75 common shares will turn into 85 new common shares, while 75 APEs will turn into 75 new common shares, a 0.8824 ratio.
 
 
@@ -226,48 +226,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] “What about derivatives?” Ehh, derivatives prices incorporate stock borrow costs; if you bought a $5.50 August put and sold a $5.50 August call you’d pay about $1.20 net at a spot price of around $5.25, per Bloomberg data, which translates into losing about $1 a month anyway.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -278,46 +278,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj5x1l.5je3/5991ed58.gif" alt="" border="0" /></a>

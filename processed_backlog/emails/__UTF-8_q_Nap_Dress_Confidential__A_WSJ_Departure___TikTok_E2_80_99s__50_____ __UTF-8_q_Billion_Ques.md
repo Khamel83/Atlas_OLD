@@ -29,7 +29,7 @@ know more about her expansion plans beyond The Nap Dress®. Sarah is elevating N
 Mentioned in this issue: Nell Diamond, Bob Diamond, Barclay’s, Hill House Home, the Nap Dress, Vogue, Sarah Ball, Kristina O’Neill, Sotheby’s magazine, WSJ. magazine, Elisa Lipsky-Karasz,
 Alex Fisher, TikTok, ByteDance, Aurora James, Araks x J.Crew, Saks, Shopbop, Rory Satran, Jennifer Pastore, Magnus Berger, Tory Burch, Michael Kors, Ralph Lauren, Paris Hilton, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -160,7 +160,7 @@ us, and then also from a team perspective, something that we get really excited 
 
 I also think there’s a real business case for testing new categories. We went from a home brand to a fashion brand, so I don’t think that there are any limits in terms of what categories we could do. I do know I want to create things that people want. 
 
- 
+
 
 What I’m Reading...
 ---------------------
@@ -189,7 +189,7 @@ Walmart’s logo received a light brush-up for the first time since 2008. As is 
 Finally, after devouring various articles about the New Balance snoafer ( https://go.shopmy.us/p-12027347?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (an appalling portmanteau of sneaker + loafer), I spied
 this Stomp Loafer from Crocs ( https://go.shopmy.us/p-12027337?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Honestly, my head is spiraling and… I guess it’s happening? 
 
- 
+
 
 That’s it from Sarah and me. By the way, Puck’s Peter
 Hamby did an incredible job synthesizing the troubles with Los Angeles Mayor Karen Bass by talking to people inside Hollywood (including former Bass supporter Ari Emanuel and UTA’s Jay Sures, a Rick Caruso stan). If you’re at all invested in what is happening—at what has happened—with these fires, it’s worth a read ( https://puck.news/the-blood-is-in-the-water-for-karen-bass/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). 
@@ -228,6 +228,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUZvYY7PZkLI-wNfDT48w=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

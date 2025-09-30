@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         At its core, the vision of crypto is about finding a better way to keep a list of who has money. Society has, over the centuries, evolved so
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sources of truth
-    
-  
+
+
 
 At its core, the   vision of crypto is about finding a better way to keep a list of who has money. Society has, over the centuries, evolved some decent ways to keep those lists. There are banks, and your money consists mostly of deposits at banks, and the banks keep lists of who has money. In the olden days they would keep the lists on paper, but in modern times they keep the lists on computers. At a high level, their processes are easy to describe: My bank keeps a record of how much money I have, and when I send money to you my bank decreases the money in my account and tells your bank to increase the money in your account. In practice there are ways for this process to be messy and complicated and error-prone. My bank and your bank might run on different systems and have different views of the world, and information and transactions can be delayed, and our transaction might have to happen quickly and with imperfect information, and then later there might have to be a tedious manual reconciliation process where my bank double-checks to make sure I actually had the money in my account, etc. Banks are in a lot of businesses, but one business that they’re in is the technological business of keeping track of the money and making sure that it moves reliably to where it’s supposed to go.
 And then crypto came along and promised, among other things, better list-keeping. When I send crypto to you, we do it on the blockchain, a distributed database that keeps a record of who has how much crypto. The blockchain is trustless and decentralized: Instead of relying on a bank to get it right, we can be sure that the code of the blockchain gets things right. It is censorship-resistant: No one makes ad hoc decisions about what transactions to allow or forbid; all transactions that meet the open public requirements go through. It is immutable and public: If I send Bitcoin to you, I can’t take it back, and everyone can verify that you have it and I don’t. There are costs to this — the blockchain is kind of a slow database, and the Bitcoin blockchain wastes a lot of energy — but it keeps a good list.
@@ -120,63 +120,63 @@ One thing that I say a lot around here is that crypto is engaged in re-learning 
   [3]
  Naively you might have expected crypto to be better at that than traditional banking; naively you might have expected that to be a particular strength of crypto. But, nope. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 Well, it is more embarrassing to have anything to do with crypto today than it was two weeks ago. Two weeks ago, if you were at a traditional financial institution, and you were working on their blockchain project, look, that was a lot less cool than it was in 2017 when everyone launched their blockchain projects, but it was fine. “Oh right the blockchain project,” people would shrug. Today, less so.  Anyway:
 
@@ -186,20 +186,20 @@ Damian Roche, chair of ASX, apologised for the disruption caused by the botched 
 
 I feel like “upgrade its clearing and settlement system to a modern blockchain-based platform” sounded very plausible and cutting-edge in 2015, when this actually launched, but now it has a weirdly retro feel.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Grayscale
-    
-  
+
+
 
 When a big crypto company goes bankrupt for misusing customer money, there are at least two possible vectors for contagion:
 	Other big crypto companies that were customers of or lenders to that big crypto company might have lost money, possibly rendering them insolvent, and there will be rumors and worries about what companies were exposed and how bad things could be.	Other big crypto companies will get questions like, “well, wait, if those guys were a big scam, does that mean that you are also a big scam?”
@@ -223,11 +223,11 @@ Those things, to me, are persuasive; they more or less qualify as proof in the 
 One thing that I will say is that, while crypto in theory is supposed to avoid the need to trust centralized intermediaries, in practice there is a huge market for trusted central intermediaries in crypto. It is just sort of a diverse market; there are many flavors of trust, with different people looking trustworthy in different ways to different audiences. Alex Mashinsky, who ran Celsius, appealed to people who do not trust traditional finance: “Either the bank is lying or Celsius is lying,”   he told them about his promised above-market interest rates, possibly with a straight face. Sam Bankman-Fried, who ran FTX, appealed to people who like traditional finance (he came from Jane Street and pushed for more regulation) but also want to shake it up a bit (he wears shorts and played video games during pitch meetings). 
 Grayscale and Coinbase, meanwhile, appeal to people who trust SEC filings, people who trust regulation and audits and the legal system and the traditional social systems of trust. There are people in the world, and I guess I am one of them, who think things like “ah, right, an audited balance sheet filed with the SEC under penalty of fraud charges, that's probably pretty reliable.” That is sort of the main way that trust works in the traditional financial system. In crypto there are alternatives, and there are trends in trust. Sometimes everyone trusts everything. Other times, nobody trusts anything.
 
-  
-    
+
+
       Elsewhere in FTX
-    
-  
+
+
 
 On Friday,  FTX announced that it was “launching a strategic review of their global assets to begin to maximize recoverable value for stakeholders,” engaging Perella Weinberg Partners LP to try to sell “many regulated or licensed subsidiaries of FTX,” the ones that “have solvent balance sheets, responsible management and valuable franchises.” If you run a big sprawling crypto trading enterprise, and your main enterprise loses a ton of money on bad trades and finds itself insolvent, then there might be lots of other barely-related businesses that are perfectly solvent and keep operating normally, and you can sell them off to raise money to pay off creditors of the main business. If on the other hand the main enterprise steals a bunch of customer money, that sort of makes everyone else look bad? Harder to find buyers, in that case. I suppose the argument is that the more regulated subsidiaries were not in on any wrongdoing.
 Elsewhere, “People Are Already Buying Depositor Claims on FTX,”   reports Joe Weisenthal:
@@ -248,135 +248,135 @@ I think of arbitrage as being a necessarily leveraged strategy: The only reason
   [4]
  When banks get nervous about lending to hedge funds, arbitrage spreads open up, because the leveraged players who usually close them can’t afford to anymore. When everyone in crypto is nervous about lending to everyone else in crypto, nobody can do the arbitrage trades.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Disney Shares Soar on   Iger Return as CEO After Shock Ouster. Was This $100 Billion Deal the  Worst Merger Ever? Companies Brace for  Onslaught of New Activists After Change in Proxy-Voting Rules. Onetime Trump Appointee Helps Spark Sweeping   ESG Backlash. Masayoshi Son owes $4.7bn to SoftBank following tech rout. Paramount  Won’t Support Appeal of Ruling That Blocked Simon & Schuster’s Sale to Penguin. Hedge Fund  Sculptor Resolves Legal Fight With Its Billionaire Founder. Tesla Board’s View That  Elon Musk Is Irreplaceable Emerged in Pay Trial. Musk Fires More Twitter Sales Workers After   ‘Hardcore’ Purge. Eli Manning Gets Into Dealmaking Mode By  Practicing PE Pitches With Family. Desperate for Growth, Aging Casino Company Embraced ‘Degenerate Gambler.’ From Trinity to  Liquidity. How Colleges and Sports-Betting Companies ‘Caesarized’ Campus Life. Jacques Derrida Loves This  Banana Bread. Guy Linked to Huge Crypto Meltdown Says It’s Just a Coincidence That He’s Hanging Out in a Country With No Extradition to United States.  Helium founder races cars while the crypto startup is on collision course.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In dollars. All of the claims are in dollars; it’s not clear to me if FTX owed some of these creditors amounts denominated in crypto, or exactly how its new management converted those claims to dollars.
 
 
   [2] The buffer created its own problems, since 5% to 10% of the coins in each custody wallet belonged to Celsius, and — outside of its custody business — Celsius was in the business of lending, trading, hedging, etc. its cryptocurrency. So it had some trouble keeping track of its own coins when they lived in the custody wallets: "This initial imbalance created accounting issues for Celsius. As Chris Ferraro, Celsius’s then-Head of Financial Planning & Analysis and Investor Relations and now Interim CEO, explained in an email on April 19, 2022, 'custody is not on our balance sheet' and 'so should not be part of net exposure we manage from deployment/risk perspective.' Dean Tappen, Celsius’s Coin Deployment Specialist, responded that 'currently we have sent more coins to our custody account than Users balances flagged as Custody' and that 'methodology … is making it really difficult to access our net positions.'"
 
 
-  [3] By the way. Back in 2019, I made fun of a JPMorgan Chase & Co. blockchain initiative, and in the course of doing so   I wrote: “If you have U.S. dollars in a bank account at JPMorgan Chase & Co., and I have U.S. dollars in a bank account at JPMorgan Chase & Co., and I want to send you 100 of my dollars, what we do is I tell JPMorgan to subtract 100 from the number of dollars in my bank account and add 100 to the number of dollars in your bank account. This gets dressed up in a lot of procedures, because it would be bad if JPMorgan got the math wrong or if it moved money from one account to another without getting the proper authorizations, but as a matter of, like, computer science, it is dead easy.” I got a  frankly hilarious amount of pushback from computer scientists saying that this is not at all a trivial problem, that maintaining this list in a way that is uniform and consistent and accessible across JPMorgan is hard computer work, and that I was being naive in thinking that it’s easy for JPMorgan to do arithmetic to its list of dollars. Reading the Celsius examiner’s report drives home that they were right. One can’t just write down a list of account balances and update it for transactions! 
+  [3] By the way. Back in 2019, I made fun of a JPMorgan Chase & Co. blockchain initiative, and in the course of doing so   I wrote: “If you have U.S. dollars in a bank account at JPMorgan Chase & Co., and I have U.S. dollars in a bank account at JPMorgan Chase & Co., and I want to send you 100 of my dollars, what we do is I tell JPMorgan to subtract 100 from the number of dollars in my bank account and add 100 to the number of dollars in your bank account. This gets dressed up in a lot of procedures, because it would be bad if JPMorgan got the math wrong or if it moved money from one account to another without getting the proper authorizations, but as a matter of, like, computer science, it is dead easy.” I got a  frankly hilarious amount of pushback from computer scientists saying that this is not at all a trivial problem, that maintaining this list in a way that is uniform and consistent and accessible across JPMorgan is hard computer work, and that I was being naive in thinking that it’s easy for JPMorgan to do arithmetic to its list of dollars. Reading the Celsius examiner’s report drives home that they were right. One can’t just write down a list of account balances and update it for transactions!
 
 
   [4] And, often, the widgets: Arbitrage trades often require short selling.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

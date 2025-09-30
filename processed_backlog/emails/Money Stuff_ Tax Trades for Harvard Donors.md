@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One model of a charitable endowment is that you are in the business of selling appreciated assets on behalf of your donors in order to maxim
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bill Ackman vs. Harvard
-    
-  
+
+
 
 One model of a charitable endowment is that you are in the business of selling appreciated assets on behalf of your donors in order to maximize tax efficiency. Like:
 	A rich person owns some stock. She bought it for, say, $1 million, and it is worth $10 million now.	She could sell the stock for $10 million, pay taxes on her gains, and be left with something like $8 million.
@@ -66,7 +66,7 @@ One model of a charitable endowment is that you are in the business of selling 
  She could then donate that money to you and deduct $8 million from her income taxes for the year, saving $3 million or so.
   [2]
 
-	
+
 Or she could give you the stock. Then she would not recognize any gains on the sale, and she’d get to deduct its full market value from her income taxes, saving almost $4 million. You get a bigger gift ($10 million instead of $8 million), and she gets a bigger tax deduction. Better trade!	Then you sell the stock, for $10 million, and don’t pay any taxes, because you are a non-taxable charitable endowment.
 
 This is a very well-known feature of US tax law; wealth managers will commonly tell you to donate appreciated stock rather than cash, and if you go to, like, Harvard University’s web page, they will tell you how to donate stock, because it comes up a lot.
@@ -109,37 +109,37 @@ And this should not be hard. Harvard has $50,000,000,000 of assets, and Harvard'
 
 Put his name on a program in nonprofit portfolio management.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ross Stevens vs. Penn
-    
-  
+
+
 
 Here’s a trade:
 	You are the founder, chief executive officer and main owner of some private company. Say it’s worth $1 billion and you own 90%; your employees own the other 10%.	You would like to make a charitable donation, say to your alma mater. Instead of giving cash, you give some of the shares that you own in your company. Say you give the charity 10% of the company, worth $100 million. Now you own 80%, the charity owns 10%, your employees own 10%.	You take a $100 million tax deduction, on your personal taxes: You gave the charity property worth $100 million, so you deduct that from your income for this year. That saves you, like,  $37 million in taxes.	A week later, you change your mind. But the gift is already final.	But! Your company has an interesting corporate charter. Until last week, the only owners of the company were you and your employees. What if they do something scandalous and you have to fire them? The company’s charter anticipates that possibility: It says that, if an employee is fired for cause — for breaking the law, for bringing disgrace on the company, etc. — then their shares are forfeited. They just disappear: They don’t get paid out for those shares, they just lose them, and everyone else owns a bit more of the company.	What if you can fire the charity for cause? What if your alma mater did something scandalous? Then you can take away their shares without paying them. The $100 million stake that the charity owned in your company just vanishes.	Because the charity’s 10% stake is canceled, you now own 88.9% of the company, and your employees own 11.1%.
@@ -169,11 +169,11 @@ Mr. Stevens and Stone Ridge are appalled by the University’s stance on antisem
 This is an incredibly weird argument. The idea of that “Limited Partner Cause” provision is surely, like, if one of the employee-owners of Stone Ridge does sexual harassment and embarrasses the firm, he can be fired and his units confiscated. It is harder to see how Penn violated any “laws or rules applicable to Stone Ridge,” or could possibly have done so, or could possibly do something “materially injurious to [Stone Ridge’s] business, reputation, character or standing.” I assume the point here is to make a clever threat, not an argument that could stand up in court.
 But never mind that! My point is just that when Stevens donated the units, he presumably could have taken a tax deduction, but if Stone Ridge takes them back, he maybe doesn’t need to reverse that deduction? Cool trade if so.
 
-  
-    
+
+
       Lawyer AI
-    
-  
+
+
 
 I   wrote yesterday about how deals are typically negotiated by arguing about what terms are “market,” that is, standard in deals of that type. One question is how you know what terms are market. I said:
 You have to pay attention to what deals happen, and have someone summarize them, but with a bit of work you can build a database, or even keep running track of all the deals in your head I guess. Or get yourself a large language model and ask it “what is a standard ordinary course of business covenant for a US public company merger these days?”
@@ -187,11 +187,11 @@ I feel like a lot of junior lawyers have had that experience. Lawyers are tradit
   [7]
  The only way to get that database, at a law firm, is to have a robot build it for you.
 
-  
-    
+
+
       Citi bonuses
-    
-  
+
+
 
 I worked at an investment bank during several waves of layoffs, and it always felt odd, because I spent most of my day sitting around with my colleagues complaining about our jobs and fantasizing about quitting. So when layoffs would come around we’d all be like “how do we get laid off?” After all, if you get laid off, you often get a nice severance package, but if you quit you don’t. Of course many of the people who did get laid off didn’t want to be laid off. They preferred their jobs to the severance package. There were trades to be made, and it is not unheard-of for investment bankers to volunteer for layoffs: If you want to get laid off, and your colleague doesn’t, you can make everyone better off by volunteering 
 Anyway   here’s Citi:
@@ -203,15 +203,15 @@ Staffers cannot volunteer for the offers because they are being made to those im
 If you get this offer, should you be offended? Does it mean that they’d like to get rid of you but wanted to start with a gentle nudge? Or should you be thrilled because you get to quit with your bonus?
 Also it is mid-December? You have pretty much earned your whole bonus at this point? Sure you get it early by quitting now instead of in March (“Citigroup typically awards staffers their bonuses in February”), but it’s not that good a deal. Getting half a bonus for quitting in May would be an incentive; getting “a portion of your bonus” for quitting in December is a little insulting.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 COP28 Nations Reach First-Ever Deal to   Move Away From Fossil Fuels. China  Turns the Tables on Wall Street. Tesla Recalls 2 Million Cars to Fix   Autopilot Safety Flaws. Citadel Is Handing Back About $7 Billion in Profits to Clients. Vanguard Is Closer Than Ever to Ending BlackRock’s   ETF Reign. Morgan Stanley Seeks to   Sell Unwanted Loans to European Firms. Private Equity Owners Hand Over Company Keys as   Defaults Rise. Argentina Bonds Rise to Two-Year High After Milei Debuts Shock Plan. OpenAI to Pay Politico Parent Axel Springer for  Using Its Content. Class of 2024   Can’t Land Jobs as Hiring in Tech, Finance Wanes. ‘I repeatedly failed to win any awards’: my doomed career as a  North Korean novelist.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That’s $9 million of gains times a top federal capital gains rate of 20% is $1.8 million of taxes, leaving her with a bit more than $8 million, but then there’s state tax etc.
 
 
@@ -233,48 +233,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Like, Microsoft Excel could be for lawyers what Microsoft Excel was to investment bankers: When I was an investment banker, we *did* keep track of legal terms in an Excel spreadsheet, so we knew what was market. But that required someone to input each deal into the spreadsheet, and what lawyer would do that?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -285,46 +285,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck1ykj.5jdr/8298b57d.gif" alt="" border="0" /></a>

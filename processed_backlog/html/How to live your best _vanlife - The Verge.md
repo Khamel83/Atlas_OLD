@@ -203,7 +203,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241208025036im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241208025036/http://theverge.com/)
 

@@ -12,7 +12,7 @@
 
 # ERROR: The request could not be satisfied
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![ERROR: The request could not be satisfied]()
 

@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The basic idea is that if a Robinhood customer is buying stock, it is usu
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       PFOF etc.
-    
-  
+
+
 
 The basic idea is that if a Robinhood customer is buying stock, it is usually good to sell it to them. In general, if you sell stocks, you will worry that the people buying from you know something you don’t. They might know that, like, the company is about to announce a merger or whatever, but realistically the main thing they might know is that they themselves plan to buy more stock: If you sell them 100 shares of a stock at $10, and then they buy 10,000 more shares, the price will go up and you will wish you had not sold to them at $10. If BlackRock Inc. is buying stock and you are selling it to them, that is a real risk that you face; it is called “adverse selection.” But if a Robinhood customer buys 100 shares of stock from you, the chances that she’s buying 10,000 more over the next two minutes are pretty slim. That is mostly not how Robinhood Markets Inc. customers behave. So selling stock to Robinhood customers who want to buy — or buying it from Robinhood customers who want to sell — is a better and safer business than trading stock with BlackRock.
   [1]
@@ -117,89 +117,89 @@ Also, this proposal sets up sort of an alternative mechanism for payment for ord
 Additionally, to the extent that rebates paid for the routing of segmented orders to qualified auctions are passed through to retail brokers, it could reduce the likelihood that they resume charging commissions. The 5 mil cap on rebates that qualified auctions could pay for the submission of segmented orders under the Proposal is approximately 40% of the average combined PFOF rate paid by wholesalers for marketable orders as estimated in Table 2.
 Basically you can still pay for order flow, but only on an order-by-order basis.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 There are a bunch of competing meta-theories of what Elon Musk is up to with, you know, Twitter Inc., all this. Here are two straightforward, first-order theories:
 	Elon Musk   is very rich and has eccentric hobbies, his favorite hobby is getting in fights online, and nobody around him ever tells him to knock it off. So all this stuff is bad, but it’s what he wants — at least, what he wants in the moment — so he does it. “Musk is just a being of pure impulse,”  writes Ryan Broderick. “He’s essentially a flatworm with a rocket company.” I too am excessively online, so I sympathize with this view.	Elon Musk genuinely and correctly believes that buying Twitter and making it, like, a  division of  QAnon is the most important thing that he can do for humanity. “The woke mind virus is either defeated or nothing else matters,”  he tweeted: Sure his other businesses are about rockets and electric cars, about making humanity multiplanetary and solving climate change, but those problems are trivial compared to the real work of  tweeting memes about Anthony Fauci. I do not pretend to understand this view, but (1) it is Musk’s own stated theory of what is going on and (2) a lot of his venture-capitalist buddies seem to believe it, so I do not want to write it off entirely. I mean, I do. But here it is.
@@ -227,20 +227,20 @@ Mr. Black said, “The market voted today that the $TSLA brand has been negative
 
 Yeah I mean if you are an asset manager you are maybe less proud to show off your Tesla, but how many Teslas can Musk possibly sell to asset managers? 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Underwriting
-    
-  
+
+
 
 One way to think about insurance underwriting is that you build your underwriting model by:
 	Making a list of observable factors that are correlated with the risk you are insuring, and then	Crossing off the factors that regulators and politicians would get mad at you for using.
@@ -257,22 +257,22 @@ The findings are significant enough that primary care doctors should consider co
 
 I am quite certain that, at least in the US, no auto insurer is going to start asking drivers about their Covid vaccination status so that it can charge unvaccinated people more! Imagine the congressional hearings! 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 BlackRock Is Caught in the   ESG Crossfire and Struggling to Get Out. Vanguard  spared ESG grilling in Texas after ditching green alliance. Chinese   Stock Delisting Threat Eases as US Gets Access to Audit Data. US   Blacklists More Chinese Tech Companies, Escalating Trade Fight. FTX Executives Used ‘Korea’ Account to Mask  Giant Alameda Liabilities. Bahamian authorities were tipped off by top Bankman-Fried associate. In Hedge Fund   Pay Dispute, a Portfolio Manager Denies Misconduct. EY Looks at  Backup Plans on Split Amid Higher Costs, Slower Growth. School of Quant: At $29,000, a   Public NYC College Outclasses Princeton. Debt Defaulter Zambia Seeks to   Offload Costly Presidential Gulfstream Jet.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am mostly just being annoying when I say “Robinhood”; really this paragraph is true of any individual retail investor. (Similarly, for “BlackRock,” you can substitute pretty much any institutional investor, hedge fund, etc.) But not entirely: Different retail brokerages have, statistically, different customer bases, and  there do seem to be some aggregate differences between how Robinhood Markets Inc. customers trade and how, say, Interactive Brokers Pro customers trade. Some retail brokerages’ customers are, as it were, more retail than others, and it is more profitable to trade against them.
 
 
   [2] We   talked last year about a  Bloomberg Intelligence research note finding that “Market makers captured 48.5% of the spread in executing self-directed retail orders in 2Q [of 2021]. Of the balance, 13.3% was paid to the broker and 38.2% went to the client.” So basically market makers who do this sort of wholesaling business end up charging about half of the spread on retail orders that they would in public markets. This is not all profit to them — they have trading costs, and there is still some adverse selection in retail trading — but the point is it is still a profitable business at half the public-market spread. Meanwhile the other half of the spread goes roughly one-quarter to PFOF and roughly three-quarters to price improvement.
 
 
-  [3] I should say that some public exchanges have retail execution facilities that are basically designed to allow for this sort of thing: Brokers can send retail orders to those facilities, and institutions (or anyone else) can compete to take the other side of them. 
+  [3] I should say that some public exchanges have retail execution facilities that are basically designed to allow for this sort of thing: Brokers can send retail orders to those facilities, and institutions (or anyone else) can compete to take the other side of them.
 
 
   [4] Some caveats here. First, they’d have to do this through an “open competition trading center,” like a stock exchange, which could charge the institution a fee; to some extent this rule is a transfer of value from wholesalers to exchanges. Second, they’d have to have the capacity to bid on these 100-millisecond auctions, capacity that could presumably be provided by their brokers’ routers, but that would have to be built. Third, I think if you asked wholesalers how the system works today, they would dispute the claim that institutions would sell at $9.99 while retail bought at $10.005 and wholesalers pocketed the difference. “If institutions want to sell at $10, they can put a midpoint sell order on a dark pool, and we would route a retail order to that dark pool and fill it at $10,” they would say. All in all wholesalers seem to be skeptical of the idea that there is tons of value to be found by matching buyers and sellers of stock up more efficiently. They claim that *they* are the most efficient matchers of buyers and sellers.
@@ -287,114 +287,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] This one appears to be an urban legend, but a fun one.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

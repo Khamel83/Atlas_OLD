@@ -11,7 +11,7 @@
 
 # Silicon Valley is confusing pseudo-science with innovation
 
- / 
+ /
 
 ## This year we saw what happens when you mix venture capital with dubious health startups
 
@@ -107,7 +107,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250120000513im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250120000513/http://theverge.com/)
 

@@ -11,7 +11,7 @@ In the animation below, with a bit of [inspiration](https://flowingdata.com/2014
 
 Aleutians East Borough in Alaska whizzes by. Park county in Colorado creeks along.
 
-JavaScript required for interaction.  
+JavaScript required for interaction.
 ![](https://flowingdata.com/wp-content/uploads/2015/02/Commute-Race.png)
 
 Interested in comparing a specific county? Select one in the map above. Counties colored green have a lower average commute time, and brown means a longer average commute time. Gray means about the same.

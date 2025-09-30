@@ -48,8 +48,8 @@ LIENS, LOSS AND PROFITEERS â Part 3 of 4
 
 Â
 
-**More from the series**  
-â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)  
+**More from the series**
+â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)
 â¢ [Full coverage](/sf/investigative/collection/homes-for-the-taking/)
 
 A 48-year-old math teacher paid his taxes in 2007, but the tax office took his $1,400 payment and applied it to the wrong house, crediting an entirely different taxpayer.
@@ -298,7 +298,7 @@ Michael Williamson
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

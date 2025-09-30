@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         For a while now people have emailed me occasionally about BOXX, the Alpha Architect 1-3 Month Box ETF, which is, loosely speaking, a money-m
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BOXX
-    
-  
+
+
 
 For a while now people have emailed me occasionally about  BOXX, the Alpha Architect 1-3 Month Box ETF, which is, loosely speaking, a money-market exchange-traded fund whose holders get paid Treasury bill interest rates but don’t pay taxes. I mean, that’s what it looks like on the outside. On the inside it’s a pile of stock options. “Isn’t this cool,” is how these emails often go. Or, “what is going on here?”
 Today Bloomberg’s Zachary Mider   has an article explaining BOXX’s magic, and it is very fun, and very much  up my alley, and if you are reading this column it’s probably very much up your alley as well:
@@ -119,37 +119,37 @@ Then BOXX shed the winning part of the trade through an in-kind redemption and k
 
 A box spread is a synthetic long position in a stock plus a synthetic short position in the stock. If the stock goes up, you make money on the long and lose money on the short; if it goes down, you lose money on the long and make money on the short. You sell the losing leg — generating a tax loss — and redeem the winning leg in-kind, avoiding a taxable gain. You do that with your weird little side trade in Booking, and you can generate enough tax losses to shield all of your actual (net) gains on your S&P 500 box spreads. And then you have a money-market fund whose interest is not taxable. Pretty good!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is seating charts
-    
-  
+
+
 
 If you are a senior partner at Goldman Sachs Group Inc., you are not really in it for the money. Oh, I mean, you’re in it for the money — you get paid a lot, and you probably have an expensive lifestyle — but you have already made a lot of money, you have marketable skills, you can afford to quit, and the money is not top of mind.
 No, if you are a senior partner at Goldman, you are in it for the committees. You have devoted much of your career to Goldman, and what you care about is your standing among the Goldman partnership, the respect that you get within the firm. And the surest indicator of that standing is what committees you are on. Ideally you’d be on the management committee; that’s the best committee, and being on that means that you are in the inner circle of senior partners. But if you can’t be on the management committee, there are some other good committees, and you’d like to at least be on them.
@@ -164,11 +164,11 @@ Conceived as a way to promote a new generation of leaders at Goldman and to stre
 Spectacular stuff, the most Goldman of all stories. Disclosure: I used to work at Goldman, and while I was very very far from being committee material, this story resonates with me. If you work at Goldman and you turn to your colleague and say “my rival was just put on committee and I was not, I think I have to quit,” your colleague will nod solemnly and say “yes of course, we’ll miss you, but you’ve got to have principles.”
 Do you think they’ll quit? Do you think the threat will get them put on the committees? Also, if you are the CEO of Goldman you have all sorts of opportunities to use committees tactically. Are you worried that too many partners are leaving? Create some new committees and put lots of partners on them; that will make them feel good. Do you want more disfavored partners to leave? Create some new committees and leave those partners off; they’ll quit in five minutes. 
 
-  
-    
+
+
       War securitization
-    
-  
+
+
 
 Hugo Dixon, Lee Buchheit and Daleep Singh propose some financial engineering on Russia’s invasion of Ukraine:
 Ukraine has an indubitable claim under international law for the damages caused by Russia’s unprovoked of Ukraine. For its part, Russia has legal title to approximately $300 billion of assets (held in the name of the Russian Central Bank and the Russian Federation) that have been frozen by the G7 countries since 2022. The problem is that the country (Ukraine) to which reparations are owed does not have custody of the frozen assets and the countries (the G7) that do have custody of the frozen assets do not have a claim for reparations against Russia.
@@ -183,11 +183,11 @@ It’s not quite selling the claim, but it is more or less equivalent. One thi
 When Putin eventually sits at a negotiating table, he will surely demand his money back. The reparation loan structure has the advantage of giving the G7 countries a direct financial interest in NOT returning the money unless Russia pays reparations. Among other things, that entitles the G7 to a direct seat at the negotiating table. Without it, Ukraine could easily be bullied into surrendering its reparations claim as part of an armistice.
 Once it sells the reparations claim, Ukraine can’t waive it.
 
-  
-    
+
+
       Epidemic of typos
-    
-  
+
+
 
 We  talked last week about a typo in Lyft Inc.’s fourth-quarter earnings release. On the second page of the release, under “FY’24 Directional Commentary,” Lyft said that it expected its adjusted Ebitda margin to expand by “approximately 500 basis points year-over-year.” Later, Lyft put out a correction saying that was actually 50 basis points. The stock rallied hard on the wrong number, then fell a bit on the right one. “My bad,”  said Lyft’s chief executive officer, but also: “It was one zero in a press release.” I mean, honestly, fair.
 Could be worse! Mister Car Wash Inc. put out its fourth-quarter earnings release at 4:12 p.m. yesterday. Its “Fiscal 2024 Outlook” includes comparable-store sales growth of -0.5% to 2.5%. Later in the evening, Mister Car Wash put out a revised earnings release to “correct a clerical error,” changing that guidance to +0.5% to 2.5%. “It was one minus sign in a press release,” I suppose, but if you work in finance you want to avoid extraneous minus signs? If you are going to sprinkle characters at random into your press releases, zeros are pretty good ones to sprinkle. Minus signs are bad!
@@ -196,15 +196,15 @@ Anyway Mister Car Wash’s and Planet Fitness’ typos didn’t cause huge volu
   [5]
  I don’t think there’s anything you really could have done with this information, but it is nice that Lyft is not alone I guess.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Stocks Around the World Are Swept Up in   AI Rally. Crypto Tycoon  Do Kwon Should Be Extradited to U.S., Montenegro Court Rules. Do Kwon’s Defense Vows Legal Battle to   Avoid Extradition to US. A $150 Billion Question: What Will Warren Buffett Do With  All That Cash? Alabama Embryo Ruling Casts Shadow Over   Future of IVF. Half of College Grads Are Working Jobs That  Don’t Use Their Degrees. Historic Mission Aims to   Break Curse, Return US to the Moon. Office  fragrances.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] And in fact US Treasury bills themselves are zero-coupon securities: They don’t pay interest, you just buy them for less than their value at maturity. But everyone understands that is interest.
 
 
@@ -220,48 +220,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Also it would have been extremely funny if Nvidia Corp. had had an earnings typo, but as far as I know it did not.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -272,46 +272,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cki6ju.64z2/4a5b6d41.gif" alt="" border="0" /></a>

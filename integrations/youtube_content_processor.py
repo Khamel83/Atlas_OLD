@@ -14,27 +14,27 @@ import json
 
 class YouTubeContentProcessor:
     """Processes YouTube videos through the Atlas content pipeline"""
-    
+
     def __init__(self):
         """Initialize the YouTube content processor"""
         self.processed_count = 0
         self.failed_count = 0
         self.relationships = []
-    
+
     def process_historical_videos(self, videos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
         Process historical YouTube videos through Atlas pipeline
-        
+
         Args:
             videos (List[Dict[str, Any]]): List of video metadata
-            
+
         Returns:
             List[Dict[str, Any]]: List of processed videos with Atlas metadata
         """
         processed_videos = []
-        
+
         print(f"Processing {len(videos)} historical videos...")
-        
+
         for i, video in enumerate(videos):
             try:
                 # Process individual video
@@ -44,25 +44,25 @@ class YouTubeContentProcessor:
                     self.processed_count += 1
                 else:
                     self.failed_count += 1
-                    
+
                 # Progress tracking
                 if (i + 1) % 10 == 0:
                     print(f"Processed {i + 1}/{len(videos)} videos...")
-                    
+
             except Exception as e:
                 logging.error(f"Failed to process video {video.get('video_id', 'unknown')}: {e}")
                 self.failed_count += 1
-        
+
         print(f"Processing complete: {self.processed_count} processed, {self.failed_count} failed")
         return processed_videos
-    
+
     def _process_single_video(self, video: Dict[str, Any]) -> Dict[str, Any]:
         """
         Process a single YouTube video
-        
+
         Args:
             video (Dict[str, Any]): Video metadata
-            
+
         Returns:
             Dict[str, Any]: Processed video with Atlas metadata
         """
@@ -92,20 +92,20 @@ class YouTubeContentProcessor:
                     'word_count': len(video['title'].split()) + len(video.get('description', '').split())
                 }
             }
-            
+
             return processed_video
-            
+
         except Exception as e:
             logging.error(f"Failed to process video {video.get('video_id', 'unknown')}: {e}")
             return None
-    
+
     def _extract_transcript(self, video: Dict[str, Any]) -> str:
         """
         Extract transcript for a video (placeholder implementation)
-        
+
         Args:
             video (Dict[str, Any]): Video metadata
-            
+
         Returns:
             str: Video transcript or placeholder text
         """
@@ -115,56 +115,56 @@ class YouTubeContentProcessor:
         if video_id:
             return f"Transcript for YouTube video {video_id} would be extracted here."
         return "No transcript available."
-    
+
     def _extract_tags(self, video: Dict[str, Any]) -> List[str]:
         """
         Extract tags from video metadata
-        
+
         Args:
             video (Dict[str, Any]): Video metadata
-            
+
         Returns:
             List[str]: List of extracted tags
         """
         tags = []
-        
+
         # Extract tags from title and description
         title = video.get('title', '').lower()
         description = video.get('description', '').lower()
-        
+
         # Simple keyword extraction (in a real implementation, this would use NLP)
-        keywords = ['python', 'javascript', 'tutorial', 'review', 'news', 'tech', 'programming', 
+        keywords = ['python', 'javascript', 'tutorial', 'review', 'news', 'tech', 'programming',
                    'ai', 'machine learning', 'data science', 'web development']
-        
+
         for keyword in keywords:
             if keyword in title or keyword in description:
                 tags.append(keyword)
-        
+
         # Add channel-based tags
         channel_name = video.get('channel_name', '').lower()
         if 'tech' in channel_name:
             tags.append('technology')
         if 'programming' in channel_name:
             tags.append('coding')
-            
+
         return list(set(tags))  # Remove duplicates
-    
+
     def _categorize_video(self, video: Dict[str, Any]) -> List[str]:
         """
         Create YouTube-specific content categorization
-        
+
         Args:
             video (Dict[str, Any]): Video metadata
-            
+
         Returns:
             List[str]: List of categories
         """
         categories = ['YouTube']
-        
+
         # Categorize based on content
         title = video.get('title', '').lower()
         description = video.get('description', '').lower()
-        
+
         if any(word in title or word in description for word in ['tutorial', 'learn', 'course']):
             categories.append('Tutorial')
         if any(word in title or word in description for word in ['review', 'unboxing']):
@@ -175,23 +175,23 @@ class YouTubeContentProcessor:
             categories.append('Interview')
         if any(word in title or word in description for word in ['music', 'song']):
             categories.append('Music')
-            
+
         return categories
-    
+
     def _find_relationships(self, video: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
         Link watched videos to related articles/podcasts
-        
+
         Args:
             video (Dict[str, Any]): Video metadata
-            
+
         Returns:
             List[Dict[str, Any]]: List of relationship metadata
         """
         # In a real implementation, this would search for related content
         # in the Atlas database and create links
         relationships = []
-        
+
         # Simulate finding related content
         video_id = video.get('video_id', '')
         if video_id:
@@ -212,22 +212,22 @@ class YouTubeContentProcessor:
             ]
             relationships.extend(related_content)
             self.relationships.extend(related_content)
-        
+
         return relationships
-    
+
     def generate_watch_pattern_analytics(self, videos: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
         Generate watch pattern analytics
-        
+
         Args:
             videos (List[Dict[str, Any]]): List of processed videos
-            
+
         Returns:
             Dict[str, Any]: Analytics data
         """
         if not videos:
             return {}
-        
+
         # Basic analytics
         analytics = {
             'total_videos': len(videos),
@@ -240,17 +240,17 @@ class YouTubeContentProcessor:
             'peak_hours': {},
             'average_duration': '00:00:00'
         }
-        
+
         # Category distribution
         for video in videos:
             for category in video.get('categories', []):
                 analytics['categories'][category] = analytics['categories'].get(category, 0) + 1
-        
+
         # Channel distribution
         for video in videos:
             channel = video.get('author', 'Unknown')
             analytics['channels'][channel] = analytics['channels'].get(channel, 0) + 1
-        
+
         # Peak viewing hours (simplified)
         hours = {}
         for video in videos:
@@ -258,7 +258,7 @@ class YouTubeContentProcessor:
                 hour = video['watched_at'].hour
                 hours[hour] = hours.get(hour, 0) + 1
         analytics['peak_hours'] = hours
-        
+
         return analytics
 
 def main():
@@ -282,15 +282,15 @@ def main():
             'watch_datetime': datetime.now()
         }
     ]
-    
+
     # Process videos
     processor = YouTubeContentProcessor()
     processed_videos = processor.process_historical_videos(sample_videos)
-    
+
     # Generate analytics
     analytics = processor.generate_watch_pattern_analytics(processed_videos)
     print(f"Generated analytics: {json.dumps(analytics, indent=2, default=str)}")
-    
+
     print("YouTube content processing demo completed successfully!")
 
 if __name__ == "__main__":

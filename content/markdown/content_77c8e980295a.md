@@ -119,7 +119,7 @@ window._nymPermutive = {
   window._nymPermutive.type = 'Tag page';
   window._nymPermutive.article.vertical = 'NYMag';
 </script>
-  
+
     <script type="application/ld+json">
       {
         "@context": "http://web.archive.org/web/20250524114713/http://schema.org",
@@ -244,7 +244,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -324,14 +324,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) permutive.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    permutive.identify(pid); 
-    if (isCountable) { 
+    permutive.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -341,7 +341,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"nymag","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -445,11 +445,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       (new Fingerprint2({excludeJsFonts: true, excludeFlashFonts: true, excludeCanvas: true, excludeWebGL: true})).get(function (fp) {
         var now = Date.now();
         id = fp + '.' + now;
@@ -885,7 +885,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1228,7 +1228,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1295,7 +1295,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7f9/482/c8af4c36f8ed368223fa23d8a90dc59fca-elonmusk-steppingback.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7f9/482/c8af4c36f8ed368223fa23d8a90dc59fca-elonmusk-steppingback.rsquare-zoom.w103.jpg " width="103" height="103">
     </picture>
-    
+
       <span class="article-callout"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 38 38" width="38" height="38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="#fff"/><path d="M15.35 11.62l-3.6 3.6a1 1 0 0 1-.72.36H8.75a1 1 0 0 0-1 1v5.4a1 1 0 0 0 1 1H11a.92.92 0 0 1 .6.24l3.6 3.59a1 1 0 0 0 1.71-.81V12.34a1 1 0 0 0-1.56-.72M24.93 9.57a.94.94 0 0 0-1.32-.12.91.91 0 0 0-.12 1.2 13.69 13.69 0 0 1 0 17 1 1 0 0 0 .12 1.35.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 15.34 15.34 0 0 0 0-19.31"/><path d="M22.06 14a.93.93 0 0 0-1.44 1.19 6.16 6.16 0 0 1 0 7.92 1 1 0 0 0 .12 1.32.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 8.28 8.28 0 0 0 0-10.31"/></svg>
 </span>
   </div>
@@ -1325,7 +1325,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/65e/bdd/3e978173c0acba3fd62714761bd9118e2b-musk-middle-east.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="President Trump Makes First Middle East Trip Of His Second Term" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/65e/bdd/3e978173c0acba3fd62714761bd9118e2b-musk-middle-east.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/musk-trump-starlink-south-africa-saudi-arabia-uae.html" class="link-text"><span class="headline">Elon Musk Is Making a Killing Off Trump’s Foreign Policy</span></a><span class="teaser">It’s good to be near the king.</span></div>
@@ -1360,7 +1360,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/874/345/d32ca3c5c1c367a90dcbc1ca4227a4f326-VIVIAN-MKTNG-SHOOT-5-16057.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/874/345/d32ca3c5c1c367a90dcbc1ca4227a4f326-VIVIAN-MKTNG-SHOOT-5-16057.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.thecut.com/article/vivian-jenna-wilson-wildfang-collaboration.html" class="link-text"><span class="headline">Vivian Wilson Is a Model Now</span></a><span class="teaser">A chat with Elon Musk’s estranged trans daughter about making her own name.</span></div>
@@ -1391,7 +1391,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/2f2/190/789578c4f71b66f2693204e935a73724f3-southafrica-trump.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/2f2/190/789578c4f71b66f2693204e935a73724f3-southafrica-trump.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trumps-claim-of-afrikaner-genocide-strips-word-of-meaning.html" class="link-text"><span class="headline">Trump’s Claim of Afrikaner ‘Genocide’ Strips the Word of Any Meaning</span></a><span class="teaser">As he closes the door to victims of violence everywhere, Trump is using false claims of genocide to give refuge to white South African farmers.</span></div>
@@ -1419,7 +1419,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/fe2/898/35440908aa606e3a9b4cd20f17028184f1-doge-savings.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/fe2/898/35440908aa606e3a9b4cd20f17028184f1-doge-savings.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/doge-may-leave-behind-nothing-but-stupidity-and-chaos.html" class="link-text"><span class="headline">DOGE May Leave Behind Nothing But Stupidity and Chaos</span></a><span class="teaser">As federal courts unravel DOGE attacks on government, federal spending continues to rise and Congress can’t or won’t ratify Musk’s raids.</span></div>
@@ -1447,7 +1447,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/69a/28c/7f6d246b3e4c18e19a0a44bd316b5b3db1-briankemp-localgov.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/69a/28c/7f6d246b3e4c18e19a0a44bd316b5b3db1-briankemp-localgov.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trumps-agenda-will-hammer-state-and-local-governments.html" class="link-text"><span class="headline">Trump’s Agenda Will Hammer State and Local Governments</span></a><span class="teaser">It’s not just federal employees or beneficiaries who will suffer from all the pain and chaos. Medicaid cuts in particular will hit states hard.</span></div>
@@ -1475,7 +1475,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f50/998/a19ec26f8fd8cf6839a26721e11ad50ba7-russ-vought-0502.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f50/998/a19ec26f8fd8cf6839a26721e11ad50ba7-russ-vought-0502.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trumps-federal-government-cuts-are-just-getting-started.html" class="link-text"><span class="headline">Trump’s Federal Government Cuts Are Just Getting Started</span></a><span class="teaser">Russell Vought has plotted out wave after wave of budget cuts to programs Team Trump dislikes.</span></div>
@@ -1503,7 +1503,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6d7/893/e91ae57986c1f028c93057c19a023ba412-elon-musk.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="President Trump Holds Cabinet Meeting At White House" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6d7/893/e91ae57986c1f028c93057c19a023ba412-elon-musk.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/elon-musk-is-winding-down-his-work-destroying-the-government.html" class="link-text"><span class="headline">Elon Musk Is Winding Down His Work Destroying the Government</span></a><span class="teaser">Musk said he will be focusing mainly on his companies, not DOGE, and denied a report that Tesla’s board is considering finding a new leader.</span></div>
@@ -1531,7 +1531,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/8bf/fbe/ad26714b19054a19d27970e58cb3441009-doge-cuts.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/8bf/fbe/ad26714b19054a19d27970e58cb3441009-doge-cuts.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/will-doge-even-save-more-than-it-costs.html" class="link-text"><span class="headline">Will DOGE Even Save More Than It Costs?</span></a><span class="teaser">The massive inefficiencies and litigation costs imposed by DOGE outweigh any budget savings. The idea is to seize power, not save money.</span></div>
@@ -1559,7 +1559,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/9ed/311/f1509b9de6156358c740cb42161b628ec3-ST-cybertruck.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/9ed/311/f1509b9de6156358c740cb42161b628ec3-ST-cybertruck.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/elon-musk-return-tesla-value-hurt-or-help.html" class="link-text"><span class="headline">Is Elon Musk Sinking Tesla or Keeping It Afloat?</span></a><span class="teaser">Consumers may reject the billionaire’s toxic politics and obnoxious personality, but many investors still buy into the Musk myth.</span></div>
@@ -1587,7 +1587,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/797/47b/b4ae359836ad6d5b42d5d3998e37f74f4a-doge-nomusk.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/797/47b/b4ae359836ad6d5b42d5d3998e37f74f4a-doge-nomusk.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/doge-may-not-need-elon-musk-anymore.html" class="link-text"><span class="headline">DOGE May Not Need Elon Musk Anymore</span></a><span class="teaser">Musk’s minions are embedded, along with Trump political appointees, in the “deep state.” Vought will be their new and less turbulent leader.</span></div>
@@ -1615,7 +1615,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a36/fec/e02497badff11399106b1bb7d382a12cf0-crop-doge-hhs.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a36/fec/e02497badff11399106b1bb7d382a12cf0-crop-doge-hhs.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/doge-tells-hhs-not-to-pay-its-bills.html" class="link-text"><span class="headline">DOGE Tells HHS Not to Pay Its Bills</span></a><span class="teaser">The health agency’s legally required payments are being disrupted in a show of DOGE’s enduring power.</span></div>
@@ -1650,7 +1650,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/075/4aa/3b5ec65bcdb923378c96f83356262b7fb8-elon-musk-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Elon Musk Meets With Republican Lawmakers On Capitol Hill" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/075/4aa/3b5ec65bcdb923378c96f83356262b7fb8-elon-musk-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.thecut.com/article/elon-musk-father-of-14-wants-more-kids.html" class="link-text"><span class="headline">Elon Musk, Father of 14, Wants More Kids</span></a><span class="teaser">And he’s allegedly DM-ing women on X to see if they’ll help.</span></div>
@@ -1681,7 +1681,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/5fc/6a3/097d016fcbf8c1c2fd016531b44b6a6b39-trump-musk-class-warfare.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/5fc/6a3/097d016fcbf8c1c2fd016531b44b6a6b39-trump-musk-class-warfare.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/magas-class-warfare-against-knowledge-workers-is-personal.html" class="link-text"><span class="headline">MAGA’s Class Warfare Against Knowledge Workers Is Personal</span></a><span class="teaser">Trump and Musk want to destroy, not simply vanquish, a whole class of Americans considered incorrigible obstacles to American Greatness.</span></div>
@@ -1709,7 +1709,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/d23/038/09e90313ded2b47cb8c589b1b5304b2c7f-elon-musk-cabinet-meeting.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/d23/038/09e90313ded2b47cb8c589b1b5304b2c7f-elon-musk-cabinet-meeting.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/doges-methods-may-be-chaotic-but-theyre-also-ineffective.html" class="link-text"><span class="headline">DOGE’s Methods May Be Chaotic, But They’re Also Ineffective</span></a><span class="teaser">A new report shows that DOGE’s assault on federal employees and contracts isn’t reducing federal spending at all.</span></div>
@@ -1737,7 +1737,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/edf/bc0/5d1c7bca02562ddfddb214645b245c6551-trump-madman.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/edf/bc0/5d1c7bca02562ddfddb214645b245c6551-trump-madman.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trumps-madman-act-isnt-just-for-foreign-policy-anymore.html" class="link-text"><span class="headline">Trump’s Madman Act Isn’t Just for Foreign Policy Anymore</span></a><span class="teaser">In his first term, Trump wanted foreign adversaries to fear he’d lost his marbles. Now he’s extending that strategy to every policy arena.</span></div>
@@ -1765,7 +1765,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/468/9e1/d01fc1e825e395798badc6b96597f33617-Trump-tariff-polls.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/468/9e1/d01fc1e825e395798badc6b96597f33617-Trump-tariff-polls.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/what-do-polls-say-about-public-support-for-trumps-tariffs.html" class="link-text"><span class="headline">What Do Polls Say About Public Support for Trump’s Tariffs?</span></a><span class="teaser">Americans aren’t big fans of tariffs, and they’re also worried generally about Trump’s ability to rein in prices.</span></div>
@@ -1793,7 +1793,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/302/da5/91c5c371d4aab4a34937e8c52b112a847c-GettyImages-2207737863.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/302/da5/91c5c371d4aab4a34937e8c52b112a847c-GettyImages-2207737863.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/tariffs-cede-power-trump.html" class="link-text"><span class="headline">This Is What You Get When You Cede All Power to Trump</span></a><span class="teaser">It isn’t surprising that Trump is refusing to follow market signals on his disastrous tariff policies, as most limits on his power have been removed.</span></div>
@@ -1821,7 +1821,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/d83/7b9/ee2e76af8e8c58d15798c55351b5baf01f-llcs-01.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/d83/7b9/ee2e76af8e8c58d15798c55351b5baf01f-llcs-01.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.curbed.com/article/trump-musk-shell-companies-money-laundering-real-estate.html" class="link-text"><span class="headline">Who Owns That Penthouse? Now No One Will Know.</span></a><span class="teaser">The Trump administration just hobbled a federal crackdown on corporate secrecy, making it easier to launder money through real estate purchases.</span></div>
@@ -1856,7 +1856,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/da2/820/bd99b34039f1a554a9ec133a518497c213-elon-musk-donald-trump.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="UFC 309: Ruffy v Llontop" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/da2/820/bd99b34039f1a554a9ec133a518497c213-elon-musk-donald-trump.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.thecut.com/article/elon-musk-reportedly-leaving-white-house-doge.html" class="link-text"><span class="headline">Are Elon Musk and Donald Trump Finally Breaking Up?</span></a><span class="teaser">A new report says that Elon Musk might be leaving the White House and heading back to his actual job soon.</span></div>
@@ -1884,7 +1884,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a0f/1bb/8e5673683efca6ab154f0d80ed1e5f7e3d-colbert-april2025.2x.rsquare-zoom.w103.png" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a0f/1bb/8e5673683efca6ab154f0d80ed1e5f7e3d-colbert-april2025.rsquare-zoom.w103.png" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.vulture.com/article/late-night-donald-trump-tariffs.html" class="link-text"><span class="headline">Late Night Takes on Trump Tariffs and Elon Musk Loss</span></a><span class="teaser">“What was that feeling?” Seth Meyers asked. “I’m not grinding my teeth anymore, and the air is fresh, the light’s warm.”</span></div>
@@ -1912,7 +1912,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/09d/f5e/f3ea3f4f57cc697fab74cc74ecbe91e58c-muskchainsaw-wisconsin.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/09d/f5e/f3ea3f4f57cc697fab74cc74ecbe91e58c-muskchainsaw-wisconsin.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/musk-bashing-is-the-answer-to-keeping-democrats-united.html" class="link-text"><span class="headline">Musk-Bashing Is the Answer to Keeping Democrats United</span></a><span class="teaser">The Wisconsin supreme court results showed that populists and those worried about fascism can both benefit from a focus on the DOGE edgelord.</span></div>
@@ -1940,7 +1940,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/cbf/77f/7122c0b5d6de4cd070051f1884c2083ac8-musk-influence.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/cbf/77f/7122c0b5d6de4cd070051f1884c2083ac8-musk-influence.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/republicans-elon-musk-wisconsin-florida-results.html" class="link-text"><span class="headline">Republicans Say They Want More Elon Musk, Not Less</span></a><span class="teaser">Tuesday’s results were bad, but his money still is good in the GOP.</span></div>
@@ -1971,7 +1971,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/434/64a/dc3045b7807135b7557dfe1a8dcf70fdc6-GettyImages-2207709432.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Elon Musk Holds Town Hall Ahead Hotly Contested Wisconsin State Supreme Court Election" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/434/64a/dc3045b7807135b7557dfe1a8dcf70fdc6-GettyImages-2207709432.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/wisconsin-election-results-elon-musk.html" class="link-text"><span class="headline">Elon Musk Goes Bust</span></a><span class="teaser">Trump’s billionaire aide was humiliated on Tuesday after spending lavishly to boost a conservative Wisconsin supreme-court candidate.</span></div>
@@ -1999,7 +1999,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/137/354/d289463f4bdf0b234e699cd29529819fb0-booker-marathonspeech.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/137/354/d289463f4bdf0b234e699cd29529819fb0-booker-marathonspeech.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/cory-booker-filibuster-speech-trump.html" class="link-text"><span class="headline">Did Cory Booker’s Historic ‘Filibuster’ Do Anything to Stop Trump?</span></a><span class="teaser">Senate Democrats have lost any real leverage over Trump’s agenda. So deploring it in words may be the only path ahead for now.</span></div>
@@ -2034,7 +2034,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/e10/3bb/1cbe92c47e0c463bc3e1bf67c2205d037a-ashley-st-clair-elon-musk.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/e10/3bb/1cbe92c47e0c463bc3e1bf67c2205d037a-ashley-st-clair-elon-musk.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.thecut.com/article/elon-musk-ashley-st-clair-child-support.html" class="link-text"><span class="headline">Ashley St. Clair and Elon Musk Are Fighting About Child Support</span></a><span class="teaser">During an X spat ignited by a video of St. Clair selling her Tesla, Musk claimed he’s “not against finding out” if he’s the father of her baby.</span></div>
@@ -2062,7 +2062,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/ab8/36e/ef75957cb656286b8569b47c82179c849b-election-preview.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/ab8/36e/ef75957cb656286b8569b47c82179c849b-election-preview.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/2025-elections-begin-with-big-throwdown-in-wisconsin.html" class="link-text"><span class="headline">2025 Elections Begin With Big Throwdown in Wisconsin</span></a><span class="teaser">Musk is all but on the ballot in Wisconsin, kicking off a year of special and scheduled elections for Congress, governorships, and many city halls.</span></div>
@@ -2090,7 +2090,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/9fd/f28/65166ce1202fa9ec688ebd49fe911a4088-adolescence-owen-cooper.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/9fd/f28/65166ce1202fa9ec688ebd49fe911a4088-adolescence-owen-cooper.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.vulture.com/article/adolescence-reacts-race-swapping-theory.html" class="link-text"><span class="headline"><em>Adolescence</em> Writer Says Show’s About ‘Masculinity,’ Not Race</span></a><span class="teaser">“We’re not making a point about race with this. We are making a point about masculinity.”</span></div>
@@ -2118,7 +2118,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/11b/65d/d863ea7a6673490d791c46a1dd2f86ab62-tesla-trump.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/11b/65d/d863ea7a6673490d791c46a1dd2f86ab62-tesla-trump.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trump-is-redefining-terrorism-to-appease-elon-musk.html" class="link-text"><span class="headline">Trump Is Redefining Terrorism</span></a><span class="teaser">Virtually anyone can be a terrorist now — except the people violently agitating on the president’s behalf.</span></div>
@@ -2146,7 +2146,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0b8/6d1/95c0f7be43e89ce3a7caed6b4d814ff5a6-donjr-lead.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0b8/6d1/95c0f7be43e89ce3a7caed6b4d814ff5a6-donjr-lead.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
       <span class="article-callout"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 38 38" width="38" height="38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="#fff"/><path d="M15.35 11.62l-3.6 3.6a1 1 0 0 1-.72.36H8.75a1 1 0 0 0-1 1v5.4a1 1 0 0 0 1 1H11a.92.92 0 0 1 .6.24l3.6 3.59a1 1 0 0 0 1.71-.81V12.34a1 1 0 0 0-1.56-.72M24.93 9.57a.94.94 0 0 0-1.32-.12.91.91 0 0 0-.12 1.2 13.69 13.69 0 0 1 0 17 1 1 0 0 0 .12 1.35.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 15.34 15.34 0 0 0 0-19.31"/><path d="M22.06 14a.93.93 0 0 0-1.44 1.19 6.16 6.16 0 0 1 0 7.92 1 1 0 0 0 .12 1.32.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 8.28 8.28 0 0 0 0-10.31"/></svg>
 </span>
   </div>
@@ -2176,7 +2176,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/c59/e86/af117efbf80cbf51be8b66f73ff18a54be-sized-elon-cabinet.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/c59/e86/af117efbf80cbf51be8b66f73ff18a54be-sized-elon-cabinet.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/smash-and-grab-why-trump-is-moving-so-fast.html" class="link-text"><span class="headline">Smash and Grab: Why Trump Is Moving So Fast</span></a><span class="teaser">The most plausible theory behind Team Trump’s high-speed demolition effort is that they know they’re living on borrowed time.</span></div>
@@ -2204,7 +2204,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/607/eda/34f270fbb7eff3260b4c2fa054093b56b0-cybertruck-musk-trump.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Elon Musk and Donald Trump stand in front of a Tesla Cybertruck" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/607/eda/34f270fbb7eff3260b4c2fa054093b56b0-cybertruck-musk-trump.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/latest-bad-tesla-news-elon-musk-stock-price-doge-trump-protests.html" class="link-text"><span class="headline">Tesla Is Burning: All the Bad News for Elon Musk’s EV Company</span></a><span class="teaser">Largely thanks to Musk’s political activities, the EV company continues to find itself in crisis. Here’s everything that’s going wrong.</span></div>
@@ -2232,7 +2232,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/db8/2b8/f5e4302338972fb95479e14a3fc10d8ea5-schumer-protest.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/db8/2b8/f5e4302338972fb95479e14a3fc10d8ea5-schumer-protest.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/todays-angry-dems-are-not-tomorrows-tea-party-of-the-left.html" class="link-text"><span class="headline">Today’s Angry Democrats Are Not Tomorrow’s Tea Party of the Left</span></a><span class="teaser">Grassroots fury among Democrats isn’t especially ideological and will likely focus more and more on the common enemy.</span></div>
@@ -2270,7 +2270,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/05d/810/95714f75a4d0ffafa5fe27603701bfc04e-elon-musk-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Israeli PM Netanyahu Delivers Address To Joint Meeting Of U.S. Congress" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/05d/810/95714f75a4d0ffafa5fe27603701bfc04e-elon-musk-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.thecut.com/article/elon-musk-daughter-vivian-wilson-teen-vogue.html" class="link-text"><span class="headline">Seems Like Elon Musk Did Not Like His Daughter’s Cover Story</span></a><span class="teaser">The billionaire went on a transphobic posting spree the same day Vivian Wilson called him a “pathetic man-child” in <em>Teen Vogue</em>.</span></div>
@@ -2298,7 +2298,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/fa8/c25/aacea9a585a280e91b3a8722c35d257b01-sized-tesla-fires.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/fa8/c25/aacea9a585a280e91b3a8722c35d257b01-sized-tesla-fires.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trump-doj-tesla-vandalization-domestic-terrorism.html" class="link-text"><span class="headline">Trump Suggests Tesla Attackers Should Be Sent to El Salvador Prisons</span></a><span class="teaser">Both Trump and his attorney general are rushing to defend Musk and Tesla.</span></div>
@@ -2326,7 +2326,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/8f6/c26/e7a9d97fb7f1f6af4b014716a212c20efe-vivian-tiktok.2x.rsquare-zoom.w103.png" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/8f6/c26/e7a9d97fb7f1f6af4b014716a212c20efe-vivian-tiktok.rsquare-zoom.w103.png" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.vulture.com/article/vivian-wilson-elon-musk-daughter-reality-tv.html" class="link-text"><span class="headline">Cast Elon Musk’s Estranged Daughter on <em>The Traitors</em></span></a><span class="teaser">Vivian Wilson would go hard at the Roundtable.</span></div>
@@ -2354,7 +2354,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/1b6/0cc/269ae1ea52ac21b785d51d72bf758ac26a-221006-backtooffice-1073.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/1b6/0cc/269ae1ea52ac21b785d51d72bf758ac26a-221006-backtooffice-1073.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
       <span class="article-callout"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 38 38" width="38" height="38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="#fff"/><path d="M15.35 11.62l-3.6 3.6a1 1 0 0 1-.72.36H8.75a1 1 0 0 0-1 1v5.4a1 1 0 0 0 1 1H11a.92.92 0 0 1 .6.24l3.6 3.59a1 1 0 0 0 1.71-.81V12.34a1 1 0 0 0-1.56-.72M24.93 9.57a.94.94 0 0 0-1.32-.12.91.91 0 0 0-.12 1.2 13.69 13.69 0 0 1 0 17 1 1 0 0 0 .12 1.35.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 15.34 15.34 0 0 0 0-19.31"/><path d="M22.06 14a.93.93 0 0 0-1.44 1.19 6.16 6.16 0 0 1 0 7.92 1 1 0 0 0 .12 1.32.92.92 0 0 0 .6.24 1 1 0 0 0 .72-.36 8.28 8.28 0 0 0 0-10.31"/></svg>
 </span>
   </div>
@@ -2384,7 +2384,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f4b/c37/50ef741814228a280e873d2dcea6a89828-crop-jdvance-populisttech.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f4b/c37/50ef741814228a280e873d2dcea6a89828-crop-jdvance-populisttech.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/vance-maga-bannon-musk-populist-tech-divide.html" class="link-text"><span class="headline">J.D. Vance Wants to Heal the MAGA Populist–Tech Bro Divide? Good Luck.</span></a><span class="teaser">Differences of opinion between “innovators” and “workers” in Trump’s coalition are much more widespread than the fight over H1-B visas.</span></div>
@@ -2412,7 +2412,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/c3a/f4c/00fe46b00cb3c3bb5da6836734c4eb1eee-trump-UFC.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/c3a/f4c/00fe46b00cb3c3bb5da6836734c4eb1eee-trump-UFC.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/why-nonwhite-voters-and-young-men-drifted-to-trump.html" class="link-text"><span class="headline">Why Non-white Voters and Young Men Drifted to Trump</span></a><span class="teaser">Data analyst David Shor explains how Trump attracted an unlikely coalition but may now be unraveling it with his conduct in office.</span></div>
@@ -2440,7 +2440,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f92/0f3/340900391059b543e592370c9537c7a27e-badeconomy-jaq.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f92/0f3/340900391059b543e592370c9537c7a27e-badeconomy-jaq.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trump-economy-tariffs-recession.html" class="link-text"><span class="headline">Trump Is Designing His Own Recession</span></a><span class="teaser">Moody’s chief economist Mark Zandi discusses the president’s baffling economic strategy.</span></div>
@@ -2468,7 +2468,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a11/e3c/b1557987d6314804892836c5bb3fa0a832-schumer-cr-jeffries.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/a11/e3c/b1557987d6314804892836c5bb3fa0a832-schumer-cr-jeffries.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/in-shutdown-battle-schumer-brings-white-flag-to-a-gun-fight.html" class="link-text"><span class="headline">Schumer Brings a White Flag to a Gun Fight</span></a><span class="teaser">The surrender by Senate Democrats on the spending bill needed to avoid a government shutdown turned a defeat into a debacle.</span></div>
@@ -2496,7 +2496,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0da/34d/2bddac155484b9476b4ad5ef545284dd81-russ-vought.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0da/34d/2bddac155484b9476b4ad5ef545284dd81-russ-vought.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/the-other-government-shutdown-happening-this-week.html" class="link-text"><span class="headline">The Other Government Shutdown Happening This Week</span></a><span class="teaser">Russell Vought and Elon Musk are making congressional funding decisions irrelevant by their own lawless actions, like mass firings and impoundment.</span></div>
@@ -2524,7 +2524,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/df1/6a2/3f043242451cd43889cde7badfd9645294-ayo-elon-lede.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/df1/6a2/3f043242451cd43889cde7badfd9645294-ayo-elon-lede.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.vulture.com/article/ayo-edebiri-elon-musk-death-threats.html" class="link-text"><span class="headline">Ayo Edebiri Got Death Threats Because of Elon Musk</span></a><span class="teaser">After he quote-tweeted a fake story about Edebiri starring in <em>Pirates of the Caribbean 6</em>.</span></div>
@@ -2555,7 +2555,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6c5/a75/e20ed89f47e8393b31695b31f8df9b7ffd-mikejohnson-gopleg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6c5/a75/e20ed89f47e8393b31695b31f8df9b7ffd-mikejohnson-gopleg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/gop-makes-dems-choose-their-poison-shutdown-or-doge-cuts.html" class="link-text"><span class="headline">GOP Makes Dems Choose Their Poison: Shutdown or DOGE Cuts</span></a><span class="teaser">House Republicans passed a bill to fund the government, but only after the Trump administration said it would ignore it and cut as it pleases.</span></div>
@@ -2583,7 +2583,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7c4/808/76b56206a49e21872e75f1be1bc05cc428-trump-tesla.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7c4/808/76b56206a49e21872e75f1be1bc05cc428-trump-tesla.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trump-buys-tesla-billionaire-elon-musk.html" class="link-text"><span class="headline">Trump Buys a Tesla to Help Struggling Billionaire Elon Musk</span></a><span class="teaser">The president, who would like Americans to “shut up” about egg prices, spoke out about the plight of the world’s richest man.</span></div>
@@ -2611,7 +2611,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0bc/b34/881097952f60951cfa3fc52aaa5e64e3ce-sized-elon-socialsecurity.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/0bc/b34/881097952f60951cfa3fc52aaa5e64e3ce-sized-elon-socialsecurity.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/elon-musk-entitlements-social-security-next-target.html" class="link-text"><span class="headline">Musk Hints Entitlements Like Social Security Are DOGE’s Next Target</span></a><span class="teaser">The DOGE edgelord has views on popular entitlement programs that no politician could embrace without fear of extinction.</span></div>
@@ -2639,7 +2639,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/296/53c/eede26313ed7e9bbc047a4be6f8945af2c-michelle-podcast-split.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/296/53c/eede26313ed7e9bbc047a4be6f8945af2c-michelle-podcast-split.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://www.vulture.com/article/michelle-obama-and-gavin-newsom-podcast-politics-donald-trump.html" class="link-text"><span class="headline">Not Another Puff Podcast</span></a><span class="teaser">If Democrats like Michelle Obama and Gavin Newsom aren’t going to commit to the content game, what’s the point?</span></div>
@@ -2667,7 +2667,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f41/e1e/21531394fe499a22b7ea3b7930a00da47b-rubio-flight.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/f41/e1e/21531394fe499a22b7ea3b7930a00da47b-rubio-flight.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/rubio-still-bends-the-knee-to-leashed-elon-musk.html" class="link-text"><span class="headline">Rubio Still Bends the Knee to ‘Leashed’ Elon Musk</span></a><span class="teaser">Don’t be fooled by the talk of Trump “reining in” DOGE. The entire administration is working together to demolish the public sector.</span></div>
@@ -2695,7 +2695,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6ef/f92/4b9a6c386b91af44028638661d4135c155-science-attack-measles.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/6ef/f92/4b9a6c386b91af44028638661d4135c155-science-attack-measles.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/how-do-we-defend-science.html" class="link-text"><span class="headline">How Do We Defend Science?</span></a><span class="teaser">Start with the life-or-death stakes of the war on public health.</span></div>
@@ -2723,7 +2723,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7dc/6ba/f52de04567373b2c9ca1ae33eeaa2fa96f-trump-musk-cabinet.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250524114713im_/https://pyxis.nymag.com/v1/imgs/7dc/6ba/f52de04567373b2c9ca1ae33eeaa2fa96f-trump-musk-cabinet.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250524114713/https://nymag.com/intelligencer/article/trump-keeps-everybody-guessing-about-elon-musks-power.html" class="link-text"><span class="headline">Trump Keeps Everybody Guessing About Elon Musk’s Power</span></a><span class="teaser">What some are interpreting as Trump putting Musk on a leash may just be a ruse to fool the courts and the public.</span></div>
@@ -2741,7 +2741,7 @@ userDetails.visitCount = getUserVisitCount();
           <div data-uri="/web/20250524114713oe_/https://nymag.com/tags/elon-musk/nymag.com/_components/sticky-ad/instances/tag-ad-top@published" data-editable="adComponent" class="sticky-ad ">
 
 <aside data-uri="nymag.com/_components/ad/instances/clgcrw8wx00053b6w5je7aa8p@published" class="ad vp-0-plus" data-name="" data-sizes="" data-label="" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </div>
@@ -2751,7 +2751,7 @@ userDetails.visitCount = getUserVisitCount();
 </div>
 
 <aside data-uri="nymag.com/_components/ad/instances/tagPageBottomLeaderboardDesktop@published" class="ad vp-1180-plus" data-name="/172968584/nym.Nymag/daily_intelligencer" data-sizes="728x90,728x91,970x90,970x91,970x250,970x252,1024x90,1024x91, 1100x350" data-label="BottomLeaderboard" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </main>
@@ -3124,7 +3124,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

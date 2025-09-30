@@ -28,7 +28,7 @@ conn = get_database_connection()
 def gemini_atlas_function():
     """Example pattern for Gemini implementations"""
     from helpers.database_config import get_database_connection
-    
+
     with get_database_connection() as conn:
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM content WHERE ...")
@@ -38,7 +38,7 @@ def gemini_atlas_function():
 ## 🤖 Archon Integration
 
 Use MCP tools for task management:
-- `mcp__archon__list_tasks` - Get tasks to work on  
+- `mcp__archon__list_tasks` - Get tasks to work on
 - `mcp__archon__update_task` - Update task status
 - `mcp__archon__perform_rag_query` - Search knowledge base
 
@@ -51,7 +51,7 @@ python3 -c "from helpers.database_config import get_database_path; print(get_dat
 # System health
 python atlas_status.py --detailed
 
-# Run tests  
+# Run tests
 python3 -m pytest tests/test_web_endpoints.py -v
 ```
 

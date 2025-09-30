@@ -38,7 +38,7 @@
   </script>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v21.5) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>The Last Days of Ueli Steck</title>
 	<meta name="description" content="How one of the world’s best mountaineers made a last-second decision that would take his life" />
@@ -153,7 +153,7 @@ body.search-is-active .c-search-modal {
 	  padding-top: 220px;
   }
 }		</style>
-		
+
     <!-- global js vars -->
 <script id="js_gpt_ad_vars">
     var gpt_ad_vars = {"id":"21732621108","property":"outside_online","wordcount":"300","uam":"","abv":"ool","disableAds":false,"targets":{"env":"production","ID":"2463027","Type":"post-stack","Title":"The Last Days of Ueli Steck","Category":"outdoor-adventure","Subcategory":"climbing","Tag":"athletes,climbing,mount-everest,nepal","ad_cat":""}};
@@ -206,9 +206,9 @@ body.search-is-active .c-search-modal {
   <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
       <script async src="data:text/javascript,%20%20%20%20%28function%20%28%29%20%7B%20%20%20%20%20%20function%20getCookie%28name%29%20%7B%20%20%20%20%20%20%20%20const%20value%20%3D%20%60%3B%20%24%7Bdocument.cookie%7D%60%3B%20%20%20%20%20%20%20%20const%20parts%20%3D%20value.split%28%60%3B%20%24%7Bname%7D%3D%60%29%3B%20%20%20%20%20%20%20%20if%20%28parts.length%20%3D%3D%3D%202%29%20return%20parts.pop%28%29.split%28%27%3B%27%29.shift%28%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20trackConsentClick%28type%29%20%7B%20%20%20%20%20%20%20%20const%20eventName%20%3D%20%27Element%20Clicked%27%3B%20%20%20%20%20%20%20%20const%20payload%20%3D%20%7B%20%20%20%20%20%20%20%20%20%20name%3A%20%60cookie-consent-%24%7Btype%7D%60%2C%20%20%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20%20%20const%20track%20%3D%20window%3F.analytics%3F.track%3B%20%20%20%20%20%20%20%20if%20%28track%29%20%7B%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%7D%20else%20%7B%20%20%20%20%20%20%20%20%20%20document.addEventListener%28%27analyticsReady%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20function%20registerConsentListener%28dataLayer%2C%20securitiEventName%2C%20analyticsEventName%29%20%7B%20%20%20%20%20%20%20%20dataLayer.push%28%5B%20%20%20%20%20%20%20%20%20%20securitiEventName%2C%20%20%20%20%20%20%20%20%20%20%28sdk%2C%20consent%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20trackConsentClick%28analyticsEventName%29%3B%20%20%20%20%20%20%20%20%20%20%7D%2C%20%20%20%20%20%20%20%20%5D%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20function%20parseJwt%28token%29%20%7B%20%20%20%20%20%20%20%20const%20base64Url%20%3D%20token.split%28%27.%27%29%5B1%5D%3B%20%20%20%20%20%20%20%20const%20base64%20%3D%20base64Url.replace%28%2F-%2Fg%2C%20%27%2B%27%29.replace%28%2F_%2Fg%2C%20%27%2F%27%29%3B%20%20%20%20%20%20%20%20const%20jsonPayload%20%3D%20decodeURIComponent%28atob%28base64%29.split%28%27%27%29.map%28function%28c%29%20%7B%20%20%20%20%20%20%20%20%20%20return%20%27%25%27%20%2B%20%28%2700%27%20%2B%20c.charCodeAt%280%29.toString%2816%29%29.slice%28-2%29%3B%20%20%20%20%20%20%20%20%7D%29.join%28%27%27%29%29%3B%20%20%20%20%20%20%20%20return%20JSON.parse%28jsonPayload%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20window.s__c%20%3D%20true%3B%20%20%20%20%20%20window.addEventListener%28%27message%27%2C%20function%28ev%29%20%7B%20%20%20%20%20%20%20%20if%20%28ev.data.message%20%3D%3D%3D%20%27consent_given%27%29%20%7B%20%20%20%20%20%20%20%20%20%20if%20%28%21window.s__c_i_g%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20setTimeout%28%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.s__c_i_g%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%201%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20window.s__c_g%20%3D%20ev.data.consentStatuses%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20var%20s%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20s.src%20%3D%20%27https%3A%2F%2Fcdn-prod.securiti.ai%2Fconsent%2Fcookie-consent-sdk-loader.js%27%3B%20%20%20%20%20%20s.setAttribute%28%27data-tenant-uuid%27%2C%20%27b9175515-2a76-4948-b708-5ea88d27483c%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-domain-uuid%27%2C%20window.securiti_id%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-backend-url%27%2C%20%27https%3A%2F%2Fapp.securiti.ai%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-skip-css%27%2C%20%27false%27%29%3B%20%20%20%20%20%20s.defer%20%3D%20true%3B%20%20%20%20%20%20var%20parent_node%20%3D%20document.head%20%7C%7C%20document.body%3B%20%20%20%20%20%20parent_node.appendChild%28s%29%3B%20%20%20%20%20%20s.addEventListener%28%27load%27%2C%20function%28%29%20%7B%20%20%20%20%20%20%20%20window.initCmp%28%29%3B%20%20%20%20%20%20%20%20window.SecuritiDataLayer%20%3D%20window.SecuritiDataLayer%20%7C%7C%20%5B%5D%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickAccept%27%2C%20%27accepted%27%29%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickDismiss%27%2C%20%27declined%27%29%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20const%20pidCookie%20%3D%20getCookie%28%27_pid%27%29%3B%20%20%20%20%20%20%20%20%20%20if%20%28pidCookie%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20const%20pidPayload%20%3D%20parseJwt%28pidCookie%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.setConsentBannerParams%28%7Buuid%3A%20pidPayload.uuid%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20console.log%28%27Consent%20banner%20params%20set%20with%27%2C%20pidPayload.uuid%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%7D%20catch%20%28error%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27Error%20setting%20consent%20banner%20params%27%2C%20error%29%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%7D%29%28%29%20%20"></script>
   <!-- Securiti Cookies Consent Notice end  -->
-      
-  
-    
+
+
+
 <script>
   (function(h,o,u,n,d) {
     h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
@@ -231,7 +231,7 @@ body.search-is-active .c-search-modal {
       allowedTracingUrls: ['prod-api.rivt.com', 'accounts.outsideonline.com']
     });
   })
-</script>  
+</script>
 <!-- Permutive Script -->
 <script async src="data:text/javascript,%28function%20%28%29%20%7B%20%20%20%20const%20WORKSPACE_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20const%20WORKSPACE_API_KEY%20%3D%20%27e288066f-1695-4790-bb1b-104f4845302f%27%3B%20%20%20%20const%20ORGANIZATION_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20let%20hasLoadedPermutive%20%3D%20false%3B%20%20%20%20%20%20%20%20const%20analyticsData%20%3D%20%7B%22authors%22%3A%5B%22Devon%20O%5Cu2019Neil%22%5D%2C%22categories%22%3A%5B%22outdoor-adventure%2Cclimbing%22%5D%2C%22tags%22%3A%5B%22athletes%22%2C%22climbing%22%2C%22mount-everest%22%2C%22nepal%22%5D%2C%22domain%22%3A%22%3C%3Canalytics_vars.domain%3E%3E%22%2C%22post_uuid%22%3A%225f22df30aec3dc0dee75b3279a1d0d1a%22%2C%22publish_date%22%3A%22May%2030%2C%202017%22%2C%22title%22%3A%22The%20Last%20Days%20of%20Ueli%20Steck%22%7D%3B%20%20%20%20const%20categoriesArray%20%3D%20analyticsData%3F.categories%3F.%5B0%5D%3F.split%28%27%2C%27%29%20%7C%7C%20%5B%5D%3B%20%20%20%20const%20membershipRawData%20%3D%20localStorage.getItem%28%27pom_user_props%27%29%3B%20%20%20%20const%20membershipData%20%3D%20membershipRawData%20%3F%20JSON.parse%28membershipRawData%29%20%3A%20%7B%7D%3B%20%20%20%20const%20data%20%3D%20%7B%20%20%20%20%20%20%22Authors%22%3A%20analyticsData%3F.authors%20%7C%7C%20%5B%5D%2C%20%20%20%20%20%20%22SubCategory%22%3A%20categoriesArray.length%20%3E%200%20%3F%20%5BcategoriesArray%5BcategoriesArray.length%20-%201%5D%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22categories%22%3A%20categoriesArray%2C%20%20%20%20%20%20%22membership_type%22%3A%20membershipData.membership_type%20%3F%20%5BmembershipData.membership_type%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22page_type%22%3A%20%5Banalytics_vars.page_type%5D%2C%20%20%20%20%20%20%22signedIn%22%3A%20document.cookie.indexOf%28%22_pid%3D%22%29%20%3E%20-1%20%3F%20true%20%3A%20false%2C%20%20%20%20%20%20%22tags%22%3A%20analyticsData%3F.tags%20%7C%7C%20%5B%5D%20%20%20%20%7D%3B%20%20%20%20function%20loadPermutiveScript%28%29%20%7B%20%20%20%20%20%20%20%20if%20%28hasLoadedPermutive%20%7C%7C%20%28%21localStorage.getItem%28%27ampflags%27%29%3F.includes%28%27%22enable-permutive%22%3Atrue%27%29%20%26%26%20%21location.search.includes%28%27permutive%3Dy%27%29%29%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20return%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20hasLoadedPermutive%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%21function%28e%2Co%2Cn%2Ci%29%7Bif%28%21e%29%7Be%3De%7C%7C%7B%7D%2Cwindow.permutive%3De%2Ce.q%3D%5B%5D%3Bvar%20t%3Dfunction%28%29%7Breturn%28%5B1e7%5D%2B-1e3%2B-4e3%2B-8e3%2B-1e11%29.replace%28%2F%5B018%5D%2Fg%2Cfunction%28e%29%7Breturn%28e%5E%28window.crypto%7C%7Cwindow.msCrypto%29.getRandomValues%28new%20Uint8Array%281%29%29%5B0%5D%2615%3E%3Ee%2F4%29.toString%2816%29%7D%29%7D%3Be.config%3Di%7C%7C%7B%7D%2Ce.config.apiKey%3Do%2Ce.config.workspaceId%3Dn%2Ce.config.environment%3De.config.environment%7C%7C%22production%22%2C%28window.crypto%7C%7Cwindow.msCrypto%29%26%26%28e.config.viewId%3Dt%28%29%29%3Bfor%28var%20g%3D%5B%22addon%22%2C%22identify%22%2C%22track%22%2C%22trigger%22%2C%22query%22%2C%22segment%22%2C%22segments%22%2C%22ready%22%2C%22on%22%2C%22once%22%2C%22user%22%2C%22consent%22%5D%2Cr%3D0%3Br%3Cg.length%3Br%2B%2B%29%7Bvar%20w%3Dg%5Br%5D%3Be%5Bw%5D%3Dfunction%28o%29%7Breturn%20function%28%29%7Bvar%20n%3DArray.prototype.slice.call%28arguments%2C0%29%3Be.q.push%28%7BfunctionName%3Ao%2Carguments%3An%7D%29%7D%7D%28w%29%7D%7D%7D%28window.permutive%2CWORKSPACE_API_KEY%2CWORKSPACE_ID%2C%7B%22consentRequired%22%3A%20true%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.googletag%3Dwindow.googletag%7C%7C%7B%7D%2Cwindow.googletag.cmd%3Dwindow.googletag.cmd%7C%7C%5B%5D%2Cwindow.googletag.cmd.push%28function%28%29%7Bif%280%3D%3D%3Dwindow.googletag.pubads%28%29.getTargeting%28%22permutive%22%29.length%29%7Bvar%20e%3Dwindow.localStorage.getItem%28%22_pdfps%22%29%3Bwindow.googletag.pubads%28%29.setTargeting%28%22permutive%22%2Ce%3FJSON.parse%28e%29%3A%5B%5D%29%3Bvar%20o%3Dwindow.localStorage.getItem%28%22permutive-id%22%29%3Bo%26%26%28window.googletag.pubads%28%29.setTargeting%28%22puid%22%2Co%29%2Cwindow.googletag.pubads%28%29.setTargeting%28%22ptime%22%2CDate.now%28%29.toString%28%29%29%29%2Cwindow.permutive.config.viewId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvvid%22%2Cwindow.permutive.config.viewId%29%2Cwindow.permutive.config.workspaceId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvwid%22%2Cwindow.permutive.config.workspaceId%29%7D%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20permutive.addon%28%27web%27%2C%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22page%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22oolsites%22%3A%20data%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20script%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20%20%20script.src%20%3D%20%60https%3A%2F%2F%24%7BORGANIZATION_ID%7D.edge.permutive.app%2F%24%7BWORKSPACE_ID%7D-web.js%60%3B%20%20%20%20%20%20%20%20script.async%20%3D%20true%3B%20%20%20%20%20%20%20%20document.head.appendChild%28script%29%3B%20%20%20%20%7D%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20window.addEventListener%28%27flagsready%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20%7D%29%3B%7D%29%28%29"></script>
 <!-- Securiti Cookies Consent Notice end  -->
@@ -274,7 +274,7 @@ body.search-is-active .c-search-modal {
         </a>
       </div>
     </div>
-  
+
         <div class="c-thinbanner c-thinbanner--standard js-thin-banner">
       <div class="l-wrap">
         <a href="/membership?utm_medium=on-site&utm_source=outsideonline&utm_term=presale&utm_content=thinbanner&utm_campaign=warrenmiller2025" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "thinbanner-cta", "type": "link"}}'>
@@ -338,7 +338,7 @@ body.search-is-active .c-search-modal {
 
 <script>
   window.featuredMenuItemData = null;
-  
+
   window.SITE_BASE_URL = 'https://accounts.outsideonline.com/oidc-frontend';
 
 </script>
@@ -524,25 +524,25 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 </header>
 
 <div class="c-sub-header">
-  
+
     </div>
 
 <div class="c-search-modal">
-        
+
   <button role="button" class="o-button c-search-modal__close js-toggle"    aria-label=Close data-toggled=.search-is-active data-prefix=search>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
               </button>
   <div class="c-search-modal__form l-container--s u-padding">
-    
+
 <form class="c-search-form" id="search-form" action="https://www.outsideonline.com" method="get" accept-charset="UTF-8" role="search">
   <fieldset class="c-search-form__fieldset o-fieldset">
     <label class="o-form-item__label is-vishidden" for="s">Search</label>
     <input class="o-form-item__search" name="s" id="s" type="text" value="" placeholder="Search Outside">
-          
+
   <button role="button" class="o-button o-form-item__button"    aria-label=Search>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.41 20.41"><path d="M20.41,19l-5.76-5.76a8.24,8.24,0,1,0-1.41,1.41L19,20.41ZM2,8.2a6.2,6.2,0,1,1,6.2,6.2A6.21,6.21,0,0,1,2,8.2Z"></path></svg>  </span>
               <span>Search</span>
@@ -560,9 +560,9 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
           <div class="l-main l-container">
 
 <div class="c-content-modal">
-        
+
   <button role="button" class="o-button c-content-modal__close js-toggle"    aria-label=Close data-toggled=body data-prefix=content-modal>
-            
+
   <span class="o-icon o-icon--large" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
               </button>
@@ -570,12 +570,12 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
     <div class="c-content-modal__body">
 
 <div class="c-content-modal-media__image">
-                
+
   <figure class="o-figure">
-          
-    
+
+
   <picture class="o-picture">
-              
+
       <img  class="o-image lazy"
           data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_h.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_h.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_h.jpg?crop=16:9&width=1200&enable=upscale 1200w"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_h.jpg?crop=25:14&width=500&enable=upscale"
@@ -583,7 +583,7 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
               height="405"
               width="720"
                     style="--aspect-ratio:720/405" data-aspect-ratio
-    
+
   />
   </picture>
               <figcaption class="o-figure__caption o-small u-space--half--top">Steck's decision to climb Nuptse alone surprised even his longtime partner Tenjing Sherpa. (Photo: Grayson Schaffer)</figcaption>
@@ -596,13 +596,13 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <div class="u-spacing" data-stack-array='[{"title":"The Last Days of Ueli Steck","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/last-days-ueli-steck\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2017\/05\/30\/grayson-steck_h.jpg","id":2463027},{"title":"Veronica Aimee Chik Is 9 Years Old, and She Just Made Climbing History","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/veronica-aimee-chik-5-14b\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/07\/climbing.jpg","description":"We interviewed Veronica Aimee Chik after she redpointed \u2018Fish Eye\u2019 on July 8 in Oliana, Spain, to find out how she pulled it off and what\u2019s next for this motivated climber.","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"}],"id":2711394,"is_sponsored_item":false,"is_prioritized":false},{"title":"Kate Kelleghan and Laura Pineau Became the First Women to Complete the Yosemite Triple Crown","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/kate-kelleghan-and-laura-pineau-first-women-yosemite-triple-crown\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/06\/IMG_0014.jpg","description":"Climbers Kate Kelleghan and Laura Pineau climbed El Capitan, Mount Watkins, and Half Dome in 23 hours and 36 minutes, becoming the first women to complete the historic linkup ","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3020,"name":"El Capitan","slug":"el-capitan","term_group":0,"term_taxonomy_id":3020,"taxonomy":"post_tag","description":"","parent":0,"count":63,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2849,"name":"evergreen","slug":"evergreen","term_group":0,"term_taxonomy_id":2849,"taxonomy":"post_tag","description":"Outside\u0027s been around for over 40 years. That\u0027s a lot of stories. We\u0027ve rounded up our timeless favorites here\u2014the tales and advice you can always count on.","parent":0,"count":1458,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3113,"name":"Rock Climbing","slug":"rock-climbing","term_group":0,"term_taxonomy_id":3113,"taxonomy":"post_tag","description":"","parent":0,"count":510,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3027,"name":"Yosemite National Park","slug":"yosemite-national-park","term_group":0,"term_taxonomy_id":3027,"taxonomy":"post_tag","description":"","parent":0,"count":131,"filter":"raw"}],"id":2706548,"is_sponsored_item":false,"is_prioritized":false},{"title":"Pro Climber Allison Vest Thinks Climbing Pants Can Be Better. So She Makes Her Own.","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/allison-vest-pants\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/05\/IMG_4886.jpeg","description":"Vest shares her tips for getting started in sewing and what she builds into her own creations","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2628,"name":"Climbing Gear","slug":"climbing-gear","term_group":0,"term_taxonomy_id":2628,"taxonomy":"post_tag","description":"","parent":0,"count":183,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2593,"name":"DIY Trips","slug":"diy-trips","term_group":0,"term_taxonomy_id":2593,"taxonomy":"post_tag","description":"","parent":0,"count":87,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2849,"name":"evergreen","slug":"evergreen","term_group":0,"term_taxonomy_id":2849,"taxonomy":"post_tag","description":"Outside\u0027s been around for over 40 years. That\u0027s a lot of stories. We\u0027ve rounded up our timeless favorites here\u2014the tales and advice you can always count on.","parent":0,"count":1458,"filter":"raw"}],"id":2702430,"is_sponsored_item":false,"is_prioritized":false},{"title":"Filming in National Parks Just Got Easier\u2014Expect More Climbing Content","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/explore-act-photography-rules\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/05\/GettyImages-1793091292-scaled-1.jpg","description":"Thanks to the EXPLORE Act, most outdoor photographers and videographers will no longer need permits to shoot in national parks","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2912,"name":"National Parks","slug":"national-parks","term_group":0,"term_taxonomy_id":2912,"taxonomy":"post_tag","description":"","parent":0,"count":531,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2638,"name":"Photography","slug":"photography","term_group":0,"term_taxonomy_id":2638,"taxonomy":"post_tag","description":"","parent":0,"count":826,"filter":"raw"}],"id":2702422,"is_sponsored_item":false,"is_prioritized":false},{"title":"Will Oak Flat Soon Become a 1,000-Foot-Deep Crater?","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/oak-flat-final-eis-announced\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/05\/Untitled-design-copy-2.jpg","description":"An executive order triggers the finish-line fight for this historic Phoenix climbing area","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2935,"name":"Arizona","slug":"arizona","term_group":0,"term_taxonomy_id":2935,"taxonomy":"post_tag","description":"","parent":0,"count":206,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2783,"name":"Public Lands","slug":"public-lands","term_group":0,"term_taxonomy_id":2783,"taxonomy":"post_tag","description":"National parks are booming, and the politics of public land have never been messier. Outside\u2019s public lands coverage unpacks the drama behind your favorite outdoor spots\u2014and explores why access, equity, and ownership are hotter topics than ever.","parent":0,"count":415,"filter":"raw"}],"id":2702426,"is_sponsored_item":false,"is_prioritized":false},{"title":"What Happens to Crags After a Wildfire?","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/climbing-areas-burnt-by-wildfire\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/04\/IMG_3408_Chris-Rebolting-Fish-Eye_Pic-Nils-Ohlendorf-Photography_2.jpg","description":"As wildfires increasingly affect crags around the world, we explore how best to approach the burnt stone","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2849,"name":"evergreen","slug":"evergreen","term_group":0,"term_taxonomy_id":2849,"taxonomy":"post_tag","description":"Outside\u0027s been around for over 40 years. That\u0027s a lot of stories. We\u0027ve rounded up our timeless favorites here\u2014the tales and advice you can always count on.","parent":0,"count":1458,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2657,"name":"Recovery","slug":"recovery","term_group":0,"term_taxonomy_id":2657,"taxonomy":"post_tag","description":"","parent":0,"count":552,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2831,"name":"Wildfire","slug":"wildfire","term_group":0,"term_taxonomy_id":2831,"taxonomy":"post_tag","description":"","parent":0,"count":131,"filter":"raw"}],"id":2701887,"is_sponsored_item":false,"is_prioritized":false},{"title":"Finally! Climbing Will Have 3 Medal Categories at 2028 Olympics","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/olympics-climbing-2028\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/04\/olympics-split-disciplines.png","description":"Lead and bouldering split, as competitive climbers breathe a collective sigh of relief","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2732,"name":"Olympics","slug":"olympics","term_group":0,"term_taxonomy_id":2732,"taxonomy":"post_tag","description":"","parent":0,"count":294,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2761,"name":"Sport Climbing","slug":"sport-climbing","term_group":0,"term_taxonomy_id":2761,"taxonomy":"post_tag","description":"","parent":0,"count":36,"filter":"raw"}],"id":2700750,"is_sponsored_item":false,"is_prioritized":false},{"title":"American Climber Brooke Raboutou Just Made History. Here\u2019s What to Know.","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/brooke-raboutou-excalibur\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/04\/Brooke3.jpg","description":"Brooke Raboutou just became the first woman to ascend a route rated 5.15c. For those unfamiliar with ratings and route names, our climbing writer offers an explainer. ","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2849,"name":"evergreen","slug":"evergreen","term_group":0,"term_taxonomy_id":2849,"taxonomy":"post_tag","description":"Outside\u0027s been around for over 40 years. That\u0027s a lot of stories. We\u0027ve rounded up our timeless favorites here\u2014the tales and advice you can always count on.","parent":0,"count":1458,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3113,"name":"Rock Climbing","slug":"rock-climbing","term_group":0,"term_taxonomy_id":3113,"taxonomy":"post_tag","description":"","parent":0,"count":510,"filter":"raw"}],"id":2700533,"is_sponsored_item":false,"is_prioritized":false},{"title":"The 19 Funniest Mountain Project Comments on Yosemite Routes","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/mountain-project-comments\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/04\/GettyImages-1370686935-scaled-1.jpg","description":"\u201cRoute is much easier if you hire a mule\u201d","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2930,"name":"California","slug":"california","term_group":0,"term_taxonomy_id":2930,"taxonomy":"post_tag","description":"","parent":0,"count":745,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2849,"name":"evergreen","slug":"evergreen","term_group":0,"term_taxonomy_id":2849,"taxonomy":"post_tag","description":"Outside\u0027s been around for over 40 years. That\u0027s a lot of stories. We\u0027ve rounded up our timeless favorites here\u2014the tales and advice you can always count on.","parent":0,"count":1458,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3028,"name":"Yosemite","slug":"yosemite","term_group":0,"term_taxonomy_id":3028,"taxonomy":"post_tag","description":"","parent":0,"count":152,"filter":"raw"}],"id":2700255,"is_sponsored_item":false,"is_prioritized":false},{"title":"Why Did Rangers Fly an Upside-Down American Flag from Yosemite\u2019s Horsetail Fall?","link":"https:\/\/www.outsideonline.com\/outdoor-adventure\/climbing\/yosemite-climbing-layoffs\/","image":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/02\/yosemite-upside-down-flag.jpeg","description":"El Cap\u2019s upside-down flag, the park\u2019s fired lone locksmith, and the safety of Yosemite climbing this season ","tags":[{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":2640,"name":"Climbing","slug":"climbing","term_group":0,"term_taxonomy_id":2640,"taxonomy":"post_tag","description":"","parent":0,"count":1862,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":7856,"name":"YOSAR","slug":"yosar","term_group":0,"term_taxonomy_id":7856,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"},{"__PHP_Incomplete_Class_Name":"WP_Term","term_id":3028,"name":"Yosemite","slug":"yosemite","term_group":0,"term_taxonomy_id":3028,"taxonomy":"post_tag","description":"","parent":0,"count":152,"filter":"raw"}],"id":2697313,"is_sponsored_item":false,"is_prioritized":false}]'>
     <article class="c-content c-content-single c-content-single--stack" data-stack-target data-uuid="5f22df30aec3dc0dee75b3279a1d0d1a" data-post-analytics-data="{&quot;authors&quot;:[&quot;Devon O\u2019Neil&quot;],&quot;categories&quot;:[&quot;outdoor-adventure,climbing&quot;],&quot;tags&quot;:[&quot;athletes&quot;,&quot;climbing&quot;,&quot;mount-everest&quot;,&quot;nepal&quot;],&quot;domain&quot;:&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;post_uuid&quot;:&quot;5f22df30aec3dc0dee75b3279a1d0d1a&quot;,&quot;publish_date&quot;:&quot;May 30, 2017&quot;,&quot;title&quot;:&quot;The Last Days of Ueli Steck&quot;}">
       <div class="c-content-single__container l-container--l u-spacing--half">
-        
+
   <nav role="navigation" class="c-breadcrumbs">
-                          
+
   <a class="o-link o-link--small c-breadcrumbs__link" href="https://www.outsideonline.com/outdoor-adventure/" target="_self" >
               Adventure
           </a>
-              
+
   <a class="o-link o-link--small c-breadcrumbs__link" href="https://www.outsideonline.com/outdoor-adventure/climbing/" target="_self" >
               Climbing
           </a>
@@ -611,22 +611,22 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
         <div class="c-content-single__wrap">
 
 <div class="c-content-single__header">
-            
+
 <div class="c-page-header u-spacing--quarter">
-            
+
   <h1 class="o-heading o-heading__secondary o-heading__secondary--xl">
           The Last Days of Ueli Steck
       </h1>
-    
-        
+
+
   <div bp="7--max" class="o-dek o-dek--large">
     <p>How one of the world’s best mountaineers made a last-second decision that would take his life</p>
   </div>
 </div>
 
 <div class="c-content-single__meta u-spacing">
-              
-  
+
+
 <div class="o-meta-date">
                 <span class="o-meta-date__stamp o-meta-date__stamp--published">
         Published:&nbsp;
@@ -635,25 +635,25 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
         </time>
       </span>
       </div>
-                
-          
+
+
   <div class="o-meta o-meta--with-image">
 
 <div class="o-meta__authors">
                   <div class="o-meta__author-item">
-                                                                                    
+
                               <a href="https://www.outsideonline.com/byline/devon-oneil/" class="o-meta__image-link">
                               <div class="o-meta__image u-filter--bw">
-                  
-    
+
+
       <img  class="o-image lazy"
             data-src="https://cdn.outsideonline.com/wp-content/uploads/2021/02/19/devon-oneil-headshot-1.jpg?crop=1:1&width=100&enable=upscale"
     alt="Image"
-                
+
   />
                 </div>
                               </a>
-                          
+
                                                   <a href="https://www.outsideonline.com/byline/devon-oneil/" class="o-meta__link">
                                       <span itemprop="author" itemtype="https://schema.org/Person" class="o-meta__author">
                 <strong>Devon O’Neil</strong>
@@ -662,43 +662,43 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
                                       <out-follow-button class="follow-model u-hide" type="textonly" feedTarget="devon-oneil" userType="author" followSource="authorPage"></out-follow-button>
                       </div>
               </div>
-    
-    
-    
+
+
+
           </div>
             </div>
           </div>
 
 <div class="c-hero-media__image c-content-single__hero js-toggle"  data-prefix=content-modal data-toggled=body>
-                            
-    
+
+
   <picture class="o-picture">
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
               <source  media="(max-width: 599px)" srcset=https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_s.jpg?crop=1:1&width=600&enable=upscale>
               <source  media="(min-width: 600px)" srcset=https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_h.jpg?crop=16:9&width=960&enable=upscale&quality=100>
             <!--[if IE 9]></video><![endif]-->
-              
+
       <img  class="o-image no-lazy"
             src="https://cdn.outsideonline.com/wp-content/uploads/2017/05/30/grayson-steck_s.jpg"
     alt="Steck's decision to climb Nuptse alone surprised even his longtime partner Tenjing Sherpa."
               height="405"
               width="720"
                     style="--aspect-ratio:720/405" data-aspect-ratio
-    
+
   />
   </picture>
-    
+
           <div class="c-hero-media__credit o-small">(Photo: Grayson Schaffer)</div>
-    
-    
+
+
   </div>
 
 <div class="c-content-single__content">
               <div class="c-content-single__body-wrap u-spacing--double">
                   <div class="c-social-share c-social-share--horizontal">
     <div class="c-utility-tray">
-      
-  
+
+
           <out-high-five-reaction contentUid="https://www.outsideonline.com/outdoor-adventure/climbing/last-days-ueli-steck/" displayCounter></out-high-five-reaction>
 
 <div class="c-share-dropdown">
@@ -769,14 +769,14 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 <aside class="c-sidebar u-spacing c-content__aside "><div class="tm-o-meta-sidebar tm-u-text-align--left tm-u-space--x8--bottom"><div class="tm-o-section__header tm-o-meta-sidebar__header"><div class="tm-o-meta-sidebar__image-container"><div class="tm-o-meta-sidebar__image"><a href="https://www.outsideonline.com/byline/devon-oneil/"><img src="https://cdn.outsideonline.com/wp-content/uploads/2021/02/19/devon-oneil-headshot-1.jpg?crop=1:1&width=100&enable=upscale" alt="" width="60" height="60"></a></div><out-follow-button class="follow-model u-hide" feedTarget="devon-oneil" userType="author" followSource="articlePage"></out-follow-button></div><div><a href="https://www.outsideonline.com/byline/devon-oneil/" itemprop="author" itemtype="https://schema.org/Person" class="tm-o-meta-sidebar__author tm-u-typography-heading-6">Devon O’Neil</a></div></div><div class="tm-o-meta-sidebar__content u-spacing"><div class="tm-o-meta-sidebar__dek tm-u-pad--top">
               Devon O’Neil is an <i>Outside</i> correspondent based in Breckenridge, Colorado. His story “<a href="https://www.outsideonline.com/2288241/irmageddon">Irmageddon</a>” was selected for <i>The Best American Travel Writing 2019</i>. 
             </div></div></div><div class="o-ad o-ad--right-rail u-align--center u-full-width"><div class="js-ad js-ad-skip-placeholder js-scroll-load" data-child-zone="initial-leaderboard-ool" data-size="[[300,250]]" data-size-map="[[[961,0],[[300,250],[1,1]]],[[0,0],[]]]"></div></div><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load  js-scroll-load--sticky" data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div><div class="tm-c-recirc-spotlight  " data-analytics-event="observe" data-analytics-data='{"name": "Element Observed", "props": {"domain": "<<analytics_vars.domain>>", "name": "Recirc Spotlight", "type": "sidebar item"}}' data-stay-in-article="true"><!-- MISO --><header class="tm-o-section__header"><h4 class="tm-o-section__heading tm-u-typography-utlity-2">Similar Reads</h4></header><div class="tm-c-recirc-spotlight__articles"><div class="tm-c-recirc-spotlight__item "><a class="tm-c-recirc-spotlight__item-image" href="https://www.outsideonline.com/outdoor-adventure/climbing/last-days-marc-andre-leclerc/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/last-days-marc-andre-leclerc/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Last Days of Marc-André Leclerc"}}'><img src="https://cdn.outsideonline.com/wp-content/uploads/2018/06/18/marc-andre-leclerc-griffith2_h.jpg?crop=1:1&width=100" alt=""></a><div class="tm-c-recirc-spotlight__item-content"><a class="tm-o-link tm-u-typography-utlity-4" href="https://www.outsideonline.com/outdoor-adventure/climbing/last-days-marc-andre-leclerc/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/last-days-marc-andre-leclerc/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Last Days of Marc-André Leclerc"}}'>The Last Days of Marc-André Leclerc</a></div></div><div class="tm-c-recirc-spotlight__item "><a class="tm-c-recirc-spotlight__item-image" href="https://www.outsideonline.com/outdoor-adventure/climbing/value-sherpa-life/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/value-sherpa-life/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Value of a Sherpa Life"}}'><img src="https://cdn.outsideonline.com/wp-content/uploads/migrated-images_parent/migrated-images_62/everest-sherpa-april_fe.jpg?crop=1:1&width=100" alt=""></a><div class="tm-c-recirc-spotlight__item-content"><a class="tm-o-link tm-u-typography-utlity-4" href="https://www.outsideonline.com/outdoor-adventure/climbing/value-sherpa-life/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/value-sherpa-life/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Value of a Sherpa Life"}}'>The Value of a Sherpa Life</a></div></div><div class="tm-c-recirc-spotlight__item "><a class="tm-c-recirc-spotlight__item-image" href="https://www.outsideonline.com/outdoor-adventure/everest/worst-everest-disasters/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/everest/worst-everest-disasters/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Worst Disasters on Mount Everest"}}'><img src="https://cdn.outsideonline.com/wp-content/uploads/2022/09/everest-h.jpg?crop=1:1&width=100" alt=""></a><div class="tm-c-recirc-spotlight__item-content"><a class="tm-o-link tm-u-typography-utlity-4" href="https://www.outsideonline.com/outdoor-adventure/everest/worst-everest-disasters/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/everest/worst-everest-disasters/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "The Worst Disasters on Mount Everest"}}'>The Worst Disasters on Mount Everest</a></div></div><div class="tm-c-recirc-spotlight__item "><a class="tm-c-recirc-spotlight__item-image" href="https://www.outsideonline.com/outdoor-adventure/climbing/tragedy-29000-feet-10-worst-disasters-everest/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/tragedy-29000-feet-10-worst-disasters-everest/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "Tragedy at 29,000 Feet: The 10 Worst Disasters on Everest"}}'><img src="https://cdn.outsideonline.com/wp-content/uploads/migrated-images_parent/migrated-images_70/Everest_Grave_04202012_MAIN.jpg?crop=1:1&width=100" alt=""></a><div class="tm-c-recirc-spotlight__item-content"><a class="tm-o-link tm-u-typography-utlity-4" href="https://www.outsideonline.com/outdoor-adventure/climbing/tragedy-29000-feet-10-worst-disasters-everest/" data-analytics-event="click" data-analytics-data='{"name": "Post Clicked", "props": {"domain": "<<analytics_vars.domain>>", "path": "https://www.outsideonline.com/outdoor-adventure/climbing/tragedy-29000-feet-10-worst-disasters-everest/", "listing_type": "recirc-spotlight", "location": "sidebar", "query": "misoSimilar", "title": "Tragedy at 29,000 Feet: The 10 Worst Disasters on Everest"}}'>Tragedy at 29,000 Feet: The 10 Worst Disasters on Everest</a></div></div></div></div></aside>                  <div class="c-content-single__text">
-                                          
+
   <div class="o-content-cta">
     <p class="o-content-cta-text">
-      New perk: Easily find new routes and hidden gems, upcoming running events, and more near you. Your weekly Local Running Newsletter has everything you need to lace up! 
+      New perk: Easily find new routes and hidden gems, upcoming running events, and more near you. Your weekly Local Running Newsletter has everything you need to lace up!
       <a href="https://run.outsideonline.com/get-all-the-latest-from-your-running-community/" class="o-content-cta-link" data-analytics-event="click" data-analytics-data='{"name":"Element Clicked","props":{"destination_url":"https://run.outsideonline.com/get-all-the-latest-from-your-running-community/","domain":"<<analytics_vars.domain>>","name":"in-content-cta","type":"link"}}'>Subscribe today</a>.
     </p>
   </div>
-                                                                                                                                
+
     <div class="o-rich-text js-article-body js-jw-in-article has-dropcap"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
       <p>On the evening of April 29, roughly 15 hours before world-renowned alpinist Ueli Steck <a href="https://www.outsideonline.com/2179181/ueli-steck-dies-fall-near-everest" target="_blank" rel="noopener">died in a fall in Nepal</a> last month, he sent a text message by satellite phone to his climbing partner, 26-year-old <a href="https://thehimalayantimes.com/nepal/climbing-partner-tenji-sherpa-recalls-ueli-steck-after-everest-tragedy/" target="_blank" rel="noopener">Tenji Sherpa</a>. The pair had planned to climb to the South Col of Everest that day, an important step in their acclimatization, but Tenji got frostbite April 16 and had been recuperating in Base Camp on the mountain&#39;s south side. So Steck was at Camp 2 alone. </p>
 <p>Tenji received Steck’s message at 5 p.m. In it, Steck said he had decided to climb Nuptse, a 25,791-foot arrowhead about a mile southwest of Everest, the following morning. Then he would return to Base Camp to meet a pair of friends from Switzerland. Tenji was surprised. He knew Steck had a permit for Nuptse, but Steck had originally planned to attempt it after completing an <a href="https://www.outsideonline.com/2168681/everest-2017-new-routes-new-records-and-lots-climbers">audacious Everest-Lhotse traverse</a>—summiting the world’s tallest and fourth-tallest peaks in one push without supplemental oxygen. “The dessert,” Steck called Nuptse when we spoke in late March, two weeks before he left his home in Interlaken, Switzerland. He and Tenji later revised their plan to include the possibility of attempting Nuptse the first week of May, if conditions permitted. But this was even earlier. </p>
@@ -805,37 +805,37 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
                 <div class="u-spacing">
                                     <div class="u-flex">
                     <div class="c-utility-tray">
-      
-  
+
+
           <out-high-five-reaction contentUid="https://www.outsideonline.com/outdoor-adventure/climbing/last-days-ueli-steck/" displayCounter></out-high-five-reaction>
-  
+
   </div>
                   </div>
-                                    
-  
+
+
   <div class="c-tags">
     <span class="c-tags__title">Filed to:</span>
     <ul class="c-tags__list">
                       <li class="c-tags__item" data-tag="athletes">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/athletes/" target="_self" >
               Athletes
           </a>
         </li>
                               <li class="c-tags__item" data-tag="climbing">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/climbing/" target="_self" >
               Climbing
           </a>
         </li>
                               <li class="c-tags__item" data-tag="mount-everest">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/mount-everest/" target="_self" >
               Mount Everest
           </a>
         </li>
                               <li class="c-tags__item" data-tag="nepal">
-            
+
   <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/nepal/" target="_self" >
               Nepal
           </a>
@@ -868,35 +868,35 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
 
 <div class="c-article-share no-print">
   <div class="c-article-share__links u-spacing--half">
-            
+
   <a class="o-link c-article-share__item c-article-share__item--facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fclimbing%2Flast-days-ueli-steck%2F%3Futm_source%3Doutside%26utm_medium%3Dfacebook%26utm_campaign%3Donsiteshare" target="_blank" rel="noreferrer"  aria-label=Facebook Share data-share-type=Facebook data-share-url=https&#x3A;&#x2F;&#x2F;www.outsideonline.com&#x2F;outdoor-adventure&#x2F;climbing&#x2F;last-days-ueli-steck&#x2F; data-analytics-event='click' data-analytics-data='{"name":"Post Shared","props":{"authors":"[\"Devon O\\u2019Neil\"]","categories":"[\"outdoor-adventure,climbing\"]","domain":"<<analytics_vars.domain>>","platform":"facebook","post_uuid":"\"5f22df30aec3dc0dee75b3279a1d0d1a\"","publish_date":"\"May 30, 2017\"","tags":"[\"athletes\",\"climbing\",\"mount-everest\",\"nepal\"]","title":"\"The Last Days of Ueli Steck\""}}'>
-            
+
   <span class="o-icon o-icon--medium" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>  </span>
               </a>
-            
+
   <a class="o-link c-article-share__item c-article-share__item--twitter" href="https://twitter.com/intent/tweet/?text=The Last Days of Ueli Steck @outsidemagazine&amp;url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fclimbing%2Flast-days-ueli-steck%2F%3Futm_source%3Doutside%26utm_medium%3Dtwitter%26utm_campaign%3Donsiteshare" target="_blank" rel="noreferrer"  aria-label=Twitter Share data-share-type=Twitter data-share-url=https&#x3A;&#x2F;&#x2F;www.outsideonline.com&#x2F;outdoor-adventure&#x2F;climbing&#x2F;last-days-ueli-steck&#x2F; data-analytics-event='click' data-analytics-data='{"name":"Post Shared","props":{"authors":"[\"Devon O\\u2019Neil\"]","categories":"[\"outdoor-adventure,climbing\"]","domain":"<<analytics_vars.domain>>","platform":"twitter","post_uuid":"\"5f22df30aec3dc0dee75b3279a1d0d1a\"","publish_date":"\"May 30, 2017\"","tags":"[\"athletes\",\"climbing\",\"mount-everest\",\"nepal\"]","title":"\"The Last Days of Ueli Steck\""}}'>
-            
+
   <span class="o-icon o-icon--medium" aria-label="">
     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.73508 6.35148L14.1991 0H12.9043L8.1599 5.5149L4.37056 0H0L5.73023 8.3395L0 15H1.29487L6.30508 9.17608L10.3069 15H14.6775L8.73508 6.35148ZM6.96158 8.41297L6.38099 7.58255L1.76143 0.97476H3.75027L7.47831 6.30746L8.0589 7.13788L12.9049 14.0696H10.9161L6.96158 8.41297Z" fill="white"/>
 </svg>
   </span>
               </a>
-            
+
   <a class="o-link c-article-share__item c-article-share__item--sms" href="https://www.addtoany.com/add_to/sms?linkurl=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fclimbing%2Flast-days-ueli-steck%2F&linkname=The Last Days of Ueli Steck%3Futm_source%3Doutside%26utm_medium%3Demail%26utm_campaign%3Donsiteshare" target="_blank" rel="noreferrer"  aria-label=Sms Share data-share-type=Sms data-share-url=https&#x3A;&#x2F;&#x2F;www.outsideonline.com&#x2F;outdoor-adventure&#x2F;climbing&#x2F;last-days-ueli-steck&#x2F; data-analytics-event='click' data-analytics-data='{"name":"Post Shared","props":{"authors":"[\"Devon O\\u2019Neil\"]","categories":"[\"outdoor-adventure,climbing\"]","domain":"<<analytics_vars.domain>>","platform":"sms","post_uuid":"\"5f22df30aec3dc0dee75b3279a1d0d1a\"","publish_date":"\"May 30, 2017\"","tags":"[\"athletes\",\"climbing\",\"mount-everest\",\"nepal\"]","title":"\"The Last Days of Ueli Steck\""}}'>
-            
+
   <span class="o-icon o-icon--medium" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 58"><title>sms</title><path d="M29,3.37C13.4,3.37.67,13.63.67,26.2c0,7.5,4.51,14.18,11.5,18.33a19.85,19.85,0,0,1-5.24,7.06A1.25,1.25,0,0,0,6.64,53a1.27,1.27,0,0,0,1.09.73h.14A30.67,30.67,0,0,0,22,48.32,36.67,36.67,0,0,0,29,49c15.63,0,28.36-10.25,28.36-22.84S44.68,3.37,29,3.37Zm-14.69,28a4.8,4.8,0,1,1,4.8-4.8,4.8,4.8,0,0,1-4.8,4.8Zm15.13,0a4.8,4.8,0,1,1,4.8-4.8,4.8,4.8,0,0,1-4.8,4.8h0Zm15.06-.22a4.8,4.8,0,1,1,4.8-4.8h0a4.8,4.8,0,0,1-4.79,4.8h0Z"/></svg>  </span>
               </a>
-            
+
   <a class="o-link c-article-share__item c-article-share__item--email" href="mailto:?subject=The Last Days of Ueli Steck&amp;body=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fclimbing%2Flast-days-ueli-steck%2F%3Futm_source%3Doutside%26utm_medium%3Demail%26utm_campaign%3Donsiteshare" target="_blank" rel="noreferrer"  aria-label=Email Share data-share-type=Email data-share-url=https&#x3A;&#x2F;&#x2F;www.outsideonline.com&#x2F;outdoor-adventure&#x2F;climbing&#x2F;last-days-ueli-steck&#x2F; data-analytics-event='click' data-analytics-data='{"name":"Post Shared","props":{"authors":"[\"Devon O\\u2019Neil\"]","categories":"[\"outdoor-adventure,climbing\"]","domain":"<<analytics_vars.domain>>","platform":"email","post_uuid":"\"5f22df30aec3dc0dee75b3279a1d0d1a\"","publish_date":"\"May 30, 2017\"","tags":"[\"athletes\",\"climbing\",\"mount-everest\",\"nepal\"]","title":"\"The Last Days of Ueli Steck\""}}'>
-            
+
   <span class="o-icon o-icon--medium" aria-label="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.3 44.18"><path d="M51.57,44.18H4.67l-.46-.09a5.14,5.14,0,0,1-4.16-5V14.35l.07,0,.1.17A21.47,21.47,0,0,0,2,16.11c1.46,1.07,3,2.08,4.45,3.11q6.6,4.61,13.19,9.24a25,25,0,0,0,5.31,3,8.28,8.28,0,0,0,6,.13,21.43,21.43,0,0,0,5-2.66q7.86-5.52,15.76-11a28.3,28.3,0,0,0,3.76-2.87l.81-.78v25a5,5,0,0,1-3.88,4.77C52.07,44.09,51.82,44.14,51.57,44.18ZM28.06,0H50.94a5,5,0,0,1,4.84,3A5.48,5.48,0,0,1,56,6.67a9.9,9.9,0,0,1-2.36,4.39A18.75,18.75,0,0,1,50,14.23C44.36,18.12,38.79,22,33.21,25.88A16.38,16.38,0,0,1,30,27.71a5,5,0,0,1-4-.1,23.58,23.58,0,0,1-3.71-2.21L6.87,14.65a21.85,21.85,0,0,1-3.71-3A14,14,0,0,1,.51,7.88,6.16,6.16,0,0,1,.88,2.25,4.35,4.35,0,0,1,4.81,0H28.06Z"/></svg>  </span>
               </a>
       </div>
-        
+
   <button role="button" class="o-button c-article-share__toggle js-toggle"    aria-label=Share data-toggled=body data-prefix=article-share>
               <span>Share</span>
           </button>
@@ -912,7 +912,7 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
                       </div>
         </div>
           </main>
-        
+
 <div class="o-ad-footer l-wrap u-flex u-justify-content--center u-padding--double--top">
   <div class="o-ad o-ad--footer">
     <div class="js-ad" data-child-zone="footer-ool" data-size='["fluid",[970,250],[728,90],[468,60],[320,100],[320,50],[300,250],[300,100],[300,50],[336,280],[1,1]]' data-size-map='[[[1100, 0],[[970,250],[1,1]]],[[970, 0],[[728, 90],[468, 60],[1,1]]],[[728, 0],["fluid",[468, 60],[1,1]]],[[0, 0],["fluid",[300, 250],[320, 100],[300, 100],[320, 50],[300, 50],[336,280],[1,1]]]]'></div>
@@ -924,11 +924,11 @@ initialMenuItems.forEach(item => menuList.appendChild(item));
                   <div class="c-main-footer__inner u-spacing--triple">
                       <section class="c-magazine-promo o-section u-spacing">
                               <h2 class="o-section__heading">Join Outside+</h2>
-              
+
                               <a class="c-magazine-promo__cover u-display--inline-block" href="/outsideplus">
                   <img class="lazy" data-src="https://cdn.outsideonline.com/wp-content/uploads/2023/10/Landing-Image-bottom-1-1.png?width=200" alt="" width="200" height="263">
                 </a>
-              
+
                               <div class="u-spacing--double u-space--triple--bottom">
                                       <p bp="4--max" class="c-magazine-promo__copy u-center-block u-font--secondary u-padding--half--right u-padding--half--left"><strong>Enjoy coverage of racing, history, food, culture, travel, and tech with access to unlimited digital content from Outside Network's iconic brands.</strong></p>
                                                         <a href="/outsideplus" class="c-magazine-promo__cta o-button o-button--gold" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "/outsideplus", "domain": "<<analytics_vars.domain>>", "name": "footer-print-subscribe", "type": "button"}}'>Learn More</a>

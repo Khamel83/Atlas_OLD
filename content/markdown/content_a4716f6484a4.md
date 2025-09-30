@@ -56,7 +56,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
 
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO plugin v24.7 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Nuclear Weapons Policy Fund - Longview Philanthropy</title>
 	<link rel="canonical" href="https://www.longview.org/fund/nuclear-weapons-policy-fund/" />
@@ -157,7 +157,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                          sizes="100vw"
                          alt="Nuclear Weapons Policy Fund">
                             </div>
-            
+
     <div class="page-intro__title">
         <div class="page-intro__header-measure"></div>
                 <h1>
@@ -174,11 +174,11 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
 <div class="page-intro__logo">
                                         <img src="https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-scaled.jpg" srcset="https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-scaled.jpg 2560w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-300x300.jpg 300w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-1024x1024.jpg 1024w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-150x150.jpg 150w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-768x768.jpg 768w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-1536x1536.jpg 1536w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-2048x2048.jpg 2048w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-402x402.jpg 402w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-462x462.jpg 462w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-662x662.jpg 662w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-722x722.jpg 722w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-982x982.jpg 982w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-1032x1032.jpg 1032w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-1402x1402.jpg 1402w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-1702x1702.jpg 1702w, https://www.longview.org/wp-content/uploads/2023/08/Apollo-11-Earth-full-res-2002x2002.jpg 2002w" alt="Apollo 11 Earth full res">
                     </div>
-    
-    
+
+
     </div>
 <a name="skip-to-content"></a>
-            
+
             <div class="primary-2-col" id="primary">
                 <aside class="primary-2-col__aside primary-2-col__aside--has-body">
                     <div class="primary-2-col__aside-title">
@@ -224,7 +224,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                  class="lazy"
                  alt="Carnegie Endowment for International Peace">
         </div>
-    
+
     <div class="grant__title">
         <span>
             Carnegie Endowment for International Peace        </span>
@@ -249,7 +249,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                  class="lazy"
                  alt="Nuclear Information Project">
         </div>
-    
+
     <div class="grant__title">
         <span>
             Nuclear Information Project        </span>
@@ -274,7 +274,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                  class="lazy"
                  alt="Council on Strategic Risks">
         </div>
-    
+
     <div class="grant__title">
         <span>
             Council on Strategic Risks        </span>
@@ -293,7 +293,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
     </div>
 </div>                                                                    </div>
                 </div>
-            
+
             <div class="fund-sections" id="sections">
                 <div class="fund-sections__content">
                     <div class="primary-2-col-content-carousel">
@@ -326,7 +326,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                                  class="lazy"
                                  alt="Nuclear Weapons Policy Fund">
                         </div>
-                    
+
                                             <div class="person__name-title">
                             <div class="person__name">
                                 Carl Robichaud                            </div>
@@ -334,13 +334,13 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
 <div class="person__title">
                                     NUCLEAR WEAPONS POLICY PROGRAMME DIRECTOR                                </div>
                                                     </div>
-                    
+
                                             <div class="person__bio-short">
                             Carl leads Longview’s programme on nuclear weapons policy and co-manages Longview’s <a href="https://www.longview.org/fund/nuclear-weapons-policy-fund/">Nuclear Weapons Policy Fund</a>. For more than a decade, Carl led grantmaking in nuclear security at the <a href="https://www.carnegie.org/" target="_blank" rel="noopener">Carnegie Corporation of New York</a>, a philanthropic fund which grants over $30 million annually to strengthen international peace and security. Carl previously worked with <a href="https://tcf.org/" target="_blank" rel="noopener">The Century Foundation</a> and the <a href="https://gsinstitute.org/?gclid=CjwKCAjw_MqgBhAGEiwAnYOAeuHsfWz7Z0IsHkbQRPhgOImdTY6n6dVkDWR-CxIHLqyYJIpiGeqPkhoCa0cQAvD_BwE" target="_blank" rel="noopener">Global Security Institute</a>, where his extensive research spanned arms control, international security policy, and nonproliferation.                        </div>
-                    
+
                                             <button class="person__bio-read-more person__bio-read-more--behind-link button button--teal button--chevron-minimal" aria-hidden="true">
                             Read More                        </button>
-                    
+
                                             <a href="https://www.longview.org/about/carl-robichaud/" aria-description="Read more about Carl Robichaud"></a>
                                     </div>
                             <div class="person">
@@ -351,7 +351,7 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
                                  class="lazy"
                                  alt="Nuclear Weapons Policy Fund">
                         </div>
-                    
+
                                             <div class="person__name-title">
                             <div class="person__name">
                                 Matthew Gentzel                            </div>
@@ -359,13 +359,13 @@ if (['popup-v2', 'overlay-v2'].includes(CookieConsentDialog.template)) {
 <div class="person__title">
                                     NUCLEAR WEAPONS POLICY PROGRAMME OFFICER                                </div>
                                                     </div>
-                    
+
                                             <div class="person__bio-short">
                             Matthew conducts grant investigations for Longview’s programme on nuclear weapons policy and co-manages Longview’s <a href="https://www.longview.org/fund/nuclear-weapons-policy-fund/">Nuclear Weapons Policy Fund</a>. His prior work spanned emerging technology threat and policy assessment, with a particular focus on how advancements in AI may shape the future of influence operations, nuclear strategy, and cyber attacks. He has worked as a policy researcher with <a href="https://openai.com/" target="_blank" rel="noopener">OpenAI</a>, as an analyst in the US Department of Defense’s  Innovation Steering Group, and as a director of research and analysis at the US National Security Commission on Artificial Intelligence. Matthew holds an MA in strategic studies and international economics from Johns Hopkins SAIS and a BS in fire protection engineering from the University of Maryland.                        </div>
-                    
+
                                             <button class="person__bio-read-more person__bio-read-more--behind-link button button--teal button--chevron-minimal" aria-hidden="true">
                             Read More                        </button>
-                    
+
                                             <a href="https://www.longview.org/about/matthew-gentzel/" aria-description="Read more about Matthew Gentzel"></a>
                                     </div>
                     </div>
@@ -480,7 +480,7 @@ gtag('config', 'G-5S28H2PG8M');
 <div class="upload-inline-status"></div>
 
 <div class="post-upload-ui" id="post-upload-info">
-				
+
 				<p class="max-upload-size">
 				Maximum upload file size: 128 MB.				</p>
 
@@ -731,7 +731,7 @@ gtag('config', 'G-5S28H2PG8M');
 					<div class="centered">
 						<# if ( data.image && data.image.src && data.image.src !== data.icon ) { #>
 							<img src="{{ data.image.src }}" class="thumbnail" draggable="false" alt="" />
-						<# } else if ( data.sizes ) { 
+						<# } else if ( data.sizes ) {
 								if ( data.sizes.medium ) { #>
 									<img src="{{ data.sizes.medium.url }}" class="thumbnail" draggable="false" alt="" />
 								<# } else { #>
@@ -1176,7 +1176,7 @@ gtag('config', 'G-5S28H2PG8M');
 				<label for="embed-image-settings-caption" class="name">Caption</label>
 				<textarea id="embed-image-settings-caption" data-setting="caption"></textarea>
 			</span>
-		
+
 		<fieldset class="setting-group">
 			<legend class="name">Align</legend>
 			<span class="setting align">
@@ -1226,7 +1226,7 @@ gtag('config', 'G-5S28H2PG8M');
 							<label for="image-details-caption" class="name">Caption</label>
 							<textarea id="image-details-caption" data-setting="caption">{{ data.model.caption }}</textarea>
 						</span>
-					
+
 					<h2>Display Settings</h2>
 					<fieldset class="setting-group">
 						<legend class="legend-inline">Align</legend>
@@ -1415,7 +1415,7 @@ gtag('config', 'G-5S28H2PG8M');
 	<source src="{{ data.model.wav }}" type="{{ wp.media.view.settings.embedMimes[ 'wav' ] }}" />
 	<# } #>
 		</audio>
-	
+
 				<# if ( ! _.isEmpty( data.model.src ) ) {
 					ext = data.model.src.split('.').pop();
 					if ( html5types[ ext ] ) {
@@ -1483,7 +1483,7 @@ gtag('config', 'G-5S28H2PG8M');
 					<button type="button" class="button-link remove-setting">Remove audio source</button>
 				</span>
 				<# } #>
-				
+
 				<# if ( ! _.isEmpty( html5types ) ) { #>
 				<fieldset class="setting-group">
 					<legend class="name">Add alternate sources for maximum HTML5 playback</legend>
@@ -1623,7 +1623,7 @@ if ( isVimeo ) {
 		{{{ data.model.content }}}
 </video>
 </div>
-	
+
 				<# if ( ! _.isEmpty( data.model.src ) ) {
 					ext = data.model.src.split('.').pop();
 					if ( html5types[ ext ] ) {

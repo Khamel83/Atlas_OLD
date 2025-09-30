@@ -148,7 +148,7 @@ Overall, the leaked report offers a variety of solutions to choose from, but eac
 
 Amazon has shown time and time again that it values “customer obsession” — and the promises it makes to its customers — above all else. But the customer loyalty that results from that obsession is ultimately at risk if Amazon cannot employ enough people — or robots — to pack and ship the boxes people expect to find outside their front door a day or two after clicking “Place your order.” The company’s new [CEO, Andy Jassy, has proclaimed](https://www.aboutamazon.com/news/company-news/2021-letter-to-shareholders) that Amazon is “not close to being done in how we improve the lives of our employees.” As the internal report shows, doing so should no longer be optional for Amazon; it’s an imperative.
 
-See More: 
+See More:
 
 * [Amazon](/amazon)
 * [Big Tech](/big-tech)

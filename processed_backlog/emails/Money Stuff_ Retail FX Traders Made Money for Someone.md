@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out if you haven’t yet. Thanks!Two stylized fac
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out if you haven’t yet. Thanks!
 
-  
-    
+
+
       My Forex Funds
-    
-  
+
+
 
 Two stylized facts about the foreign exchange markets are:
 	It is very hard for retail traders to reliably make money trading currencies, and	They keep trying?
@@ -120,37 +120,37 @@ All the good stuff. I guess one question is how much of this is illegal. The b
 In April 2022, Kazmi paid $1.6 million to purchase a Lamborghini Aventador at auction. In December 2022, Kazmi paid $3.3 million for a Bugatti racecar.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Grayscale fees
-    
-  
+
+
 
 Grayscale Bitcoin Trust is a pot full of Bitcoins managed by an investment firm called Grayscale Investments LLC, part of Barry Silbert’s Digital Currency Group. Shares of the trust trade publicly under the ticker GBTC, and you can buy them in your brokerage account. New shares can be created by handing Grayscale a pile of Bitcoins and getting back new GBTC shares. For a long time a lot of people did this — it was called,   somewhat misleadingly, the “Grayscale arbitrage” — because GBTC traded at a big premium to the actual price of Bitcoin, and so it now has about $16 billion worth of Bitcoin. But that premium collapsed (in part because everyone kept doing the trade), and as of early last week GBTC traded at about a 25% discount to the value of its pot of Bitcoins.
 An odd feature of GBTC is that you can’t take the Bitcoins back out: You can create new shares by giving Grayscale Bitcoins, but you can’t get back the Bitcoins by handing back your shares. The pot can grow, but it can never shrink, so the discount persists. 
@@ -173,11 +173,11 @@ Grayscale’s Chief Executive Officer Michael Sonnenshein reiterated on Bloomber
 
 GBTC had, for Grayscale, the extremely neat features of (1) being the only real publicly traded US Bitcoin product in a world where the SEC was blocking spot Bitcoin ETFs and (2) not allowing withdrawals. A GBTC ETF will have neither of those advantages.
 
-  
-    
+
+
       Sculptor 
-    
-  
+
+
 
 We have   talked a   lot,   over the   last few   weeks, about the contested merger situation at Sculptor Capital Management Inc., the publicly traded hedge fund firm. Sculptor’s board has agreed to sell the company for $11.15 per share to Rithm Capital Corp., which would keep Jimmy Levin, Sculptor’s chief executive officer and chief investment officer, around to run Sculptor’s funds. But since the Rithm deal was announced in July, a group of hedge fund managers including Boaz Weinstein, Bill Ackman and Marc Lasry has offered to buy the company themselves for $12.25 per share, which they later raised to $12.76. Sculptor’s board has said no, arguing that the Weinstein offer, while obviously higher than Rithm’s, is less certain. In particular, either deal would be contingent on most of Sculptor’s clients approving the new management, and the board argues that clients will happily approve Rithm (since it will keep Levin around to manage their money) but might not approve Weinstein et al. (since their deal would involve a new group of managers, led by Weinstein and possibly also including Levin, running Sculptor’s funds). The risk of clients saying no and the Weinstein deal falling apart is too great for the board, so they are sticking with the lower but safer Rithm deal.
 One open question is: Is the board right? Will most of Sculptor’s clients balk at having Weinstein and friends manage their money, or will they be excited about the opportunity? I   have suggested that a reasonable approach might be to just ask them? Probably in some carefully controlled and lawyered way? There are apparently impediments.
@@ -199,11 +199,11 @@ Shares of BKF have fallen 39 percent since Steel started the crusade last Decemb
 
 Yeah, but if you are a money manager yourself, your natural inclination is to think that you could manage the money better than the current manager can.
 
-  
-    
+
+
       A stock buyback
-    
-  
+
+
 
 In happier times  last spring, Sam Bankman-Fried  bought about 7.6% of the stock of Robinhood Markets Inc. for about $648 million. He bought the shares in the open market using a vehicle he had formed called Emergent Fidelity Technologies Ltd. The shares “were purchased by Emergent using working capital,” said his disclosure form. In hindsight it seems more like they were purchased using customer money from FTX Trading Ltd., Bankman-Fried’s crypto exchange, which collapsed a few months after his Robinhood purchases. Oops. 
 Last week, Robinhood bought back the stock.  From the US Marshals:
@@ -215,15 +215,15 @@ The Company previously announced on February 8, 2023 that its Board of Directors
 Here is the  share purchase agreement, and here is  the court order authorizing the sale. I am not sure why this is happening now? “As a result of fluctuation in market prices, the Robinhood Shares could diminish in value,” says the court order, which is true of all stock and has been true of the Robinhood shares since Bankman-Fried was arrested; the stock is down since he bought it but actually up modestly since he was arrested. The “sale of the Robinhood Shares is necessary in order to prevent the deterioration of its value during the criminal case and any subsequent ancillary forfeiture proceedings,” says the court order.
 Bankman-Fried is scheduled to stand trial for various alleged frauds in October; if he is found guilty of the frauds then presumably the government will seize the proceeds of those frauds, including the Robinhood shares. The government, and really the judge, seem pretty confident that he will be found guilty, but he hasn’t yet, so it’s a bit odd to seize and sell his Robinhood shares before the trial. If he’s found not guilty they will give him back the money — $605.7 million — instead of the shares. (“The net proceeds realized from the sale of the Robinhood Shares, and any and all income or interest accrued thereon, shall be the substitute res for the Robinhood Shares,” says the court order.) And then presumably he’ll   hand that over to FTX’s bankruptcy estate, so maybe it doesn’t matter that much to him. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Country Garden Pays Dollar Bond Interest Within Grace Period.   Arm IPO Expectations Tempered as Roadshow Kicks Off. Arm  Banks Set for $100 Million Payday From Chip Designer’s IPO. Billionaire   L’Occitane Boss Ends Talks on Potential Buyout Deal. Albemarle Raises Bid for Australia’s  Liontown Resources to $4.25 Billion. Investors raise questions after  Sequoia Capital’s turbulent year. How  Insurance Companies Created a Peculiar Investment Talent Crunch. Inside a Sales Army Turning a  Tax Break Into a Modern-Day Gold Rush. EU Pledges Help to Build African   Green Bond Market.   Crypto Market-Making Profit Margins Sink 30% in ‘Wake-Up Call.’  Stablecoin Reshuffling Chips Away at Tether’s Crypto Market Dominance. ‘The  Citadel migration’ shaking up Miami’s luxury property market. Wall Street Gets Tough on   Return-to-Office Laggards. More Than One-Third of Desks Globally   Sit Empty All Week Long. Embattled Goldman Sachs CEO David Solomon stages  ‘awkward’ dinner parties at NYC loft. Inside Silicon Valley’s New Boys Club: The Testosterone-Testing ‘T Party.’ Trapped in Mud,  Burning Man Attendees Are Told to Conserve Food.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] As I wrote this the USDJPY rate was about 147.4; I have rounded down for your commissions and spreads.
 
 
@@ -233,51 +233,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] If you show them 147.9 bid / 146.9 offered, they will know that you are charging a wide spread, and will go to someone else who advertises tight spreads.
 
 
-  [4] A fun exercise is: How much of what is described here could also describe, say, a retail stock brokerage that routes orders to a wholesaler? A crypto futures exchange? Not *all* of it — not the lying — but some. 
+  [4] A fun exercise is: How much of what is described here could also describe, say, a retail stock brokerage that routes orders to a wholesaler? A crypto futures exchange? Not *all* of it — not the lying — but some.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -288,46 +288,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjf0zj.5n9f/3a4bfb2e.gif" alt="" border="0" /></a>

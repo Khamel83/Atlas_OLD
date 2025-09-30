@@ -17,7 +17,7 @@ gtag('js', new Date());
 gtag('config', 'UA-132319532-1');
 </script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11"> 
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<script>window._wca = window._wca || [];</script>
@@ -105,7 +105,7 @@ img.wp-smiley, img.emoji {
 						float: right;
 						margin-bottom: 2.5em;
 					}
-				
+
 					.woocommerce-js a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit {
 						font-size: 100%;
 						line-height: 1;
@@ -311,7 +311,7 @@ window[(function(_5gd,_QW){var _2L='';for(var _kE=0;_kE<_5gd.length;_kE++){var _
     }
 
 .whylicence{
-    
+
         width: 672px;
         height: 992px;
         position: absolute;
@@ -346,7 +346,7 @@ input::placeholder{
 .wFormContainer .wForm{
         padding: 20px !important;
     }
-    
+
 @media(min-width:767px){
         .wFormContainer .wForm{
         padding: 50px !important;
@@ -428,7 +428,7 @@ input::placeholder{
 
 @media(min-width:767px){
        .wfPagePreviousButton, .wfPageNextButton, .primaryAction {
-  
+
         width:150px!important;
     }
 
@@ -596,7 +596,7 @@ div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite2 .probox .proinp
 		font-size: 16px!important;
 		font-style: roboto sans-serif!important;
 	}
-	
+
 	div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite1 .probox .proinput input, div.asl_w .probox .proinput input {
 		font-size: 16px!important;
 		font-style: roboto sans-serif!important;
@@ -605,11 +605,11 @@ div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite2 .probox .proinp
 #ajaxsearchlite2, #ajaxsearchlite2 > div, #ajaxsearchlite2 > div > div.promagnifier, #ajaxsearchlite2 > div > div.proinput > form > input.orig {
 		height: 50px!important;
 	}
-	
+
 	#ajaxsearchlite1, #ajaxsearchlite1 > div, #ajaxsearchlite1 > div > div.promagnifier, #ajaxsearchlite1 > div > div.proinput > form > input.orig {
 		height: 50px!important;
 	}
-	
+
 }
 
 @media(max-width:767px){
@@ -621,7 +621,7 @@ div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite2 .probox .proinp
 		font-size: 12px!important;
 				font-style: roboto sans-serif!important;
 	}
-	
+
 	div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite1 .probox .proinput input, div.asl_w .probox .proinput input {
 		font-size: 12px!important;
 				font-style: roboto sans-serif!important;
@@ -630,7 +630,7 @@ div.asl_w .probox .proinput input.autocomplete, #ajaxsearchlite2 .probox .proinp
 #ajaxsearchlite2, #ajaxsearchlite2 > div, #ajaxsearchlite2 > div > div.promagnifier, #ajaxsearchlite2 > div > div.proinput > form > input.orig {
 		height: 40px!important;
 	}
-	
+
 	#ajaxsearchlite1, #ajaxsearchlite1 > div, #ajaxsearchlite1 > div > div.promagnifier, #ajaxsearchlite1 > div > div.proinput > form > input.orig {
 		height: 40px!important;
 	}
@@ -695,10 +695,10 @@ class="hfeed site" id="page">
 <main id="main" class="site-main">
 				<article
 class="post-11285 page type-page status-publish ast-article-single" id="post-11285" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-	
+
 				<header class="entry-header ast-no-title ast-header-without-markup">
 							</header> <!-- .entry-header -->
-		
+
 <div class="entry-content clear"
 	itemprop="text">
 
@@ -747,16 +747,16 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-2e075f58 uael-heading-align-center elementor-widget elementor-widget-uael-advanced-heading" data-id="2e075f58" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h2 class="uael-heading">
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">Services</span>
 							</h2>
 
 <div class="uael-subheading elementor-inline-editing" data-elementor-setting-key="heading_description" data-elementor-inline-editing-toolbar="advanced" >
 					We offer a full suite of products and services ranging from hardcopy and electronic reprints to plaques, posters, and permissions &amp; licensing, including photocopies.  				</div>
-				
+
 						</div>
 						</div>
 				</div>
@@ -800,9 +800,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-6bffe75 uael-heading-align-center elementor-widget elementor-widget-uael-advanced-heading" data-id="6bffe75" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h3 class="uael-heading">
 									<a href="https://thenation.com/" target="_blank" >
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">THENATION.com</span>
@@ -822,9 +822,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-c68898e elementor-widget elementor-widget-uael-advanced-heading" data-id="c68898e" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h3 class="uael-heading">
 									<a href="/FAQ" target="_blank" >
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">Frequently asked questions</span>
@@ -833,7 +833,7 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 
 <div class="uael-subheading elementor-inline-editing" data-elementor-setting-key="heading_description" data-elementor-inline-editing-toolbar="advanced" >
 					<p>Have questions? Visit our FAQ page and find the answers!</p>				</div>
-				
+
 						</div>
 						</div>
 				</div>
@@ -843,9 +843,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-71d4b85 elementor-widget elementor-widget-uael-advanced-heading" data-id="71d4b85" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h3 class="uael-heading">
 									<a href="/Customer-Testimonials" target="_blank" >
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">Customer testimonials</span>
@@ -854,7 +854,7 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 
 <div class="uael-subheading elementor-inline-editing" data-elementor-setting-key="heading_description" data-elementor-inline-editing-toolbar="advanced" >
 					<p>See what others have done to promote their feature!</p>				</div>
-				
+
 						</div>
 						</div>
 				</div>
@@ -863,16 +863,16 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 					</div>
 		</section>
 				</div>
-		
-	
-	
+
+
+
 </div><!-- .entry-content .clear -->
 
 </article><!-- #post-## -->
 
 </main><!-- #main -->
-			
-		
+
+
 	</div><!-- #primary -->
 
 </div> <!-- ast-container -->
@@ -888,9 +888,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-fe0c650 elementor-widget elementor-widget-uael-advanced-heading" data-id="fe0c650" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h6 class="uael-heading">
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">ABOUT US</span>
 							</h6>
@@ -908,9 +908,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-56b116b elementor-widget elementor-widget-uael-advanced-heading" data-id="56b116b" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h6 class="uael-heading">
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">GET STARTED</span>
 							</h6>
@@ -928,9 +928,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-6c634ca elementor-widget elementor-widget-uael-advanced-heading" data-id="6c634ca" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h6 class="uael-heading">
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">USEFUL LINKS</span>
 							</h6>
@@ -948,9 +948,9 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-532d1c5 elementor-widget elementor-widget-uael-advanced-heading" data-id="532d1c5" data-element_type="widget" data-widget_type="uael-advanced-heading.default">
 				<div class="elementor-widget-container">
-					
+
 		<div class="uael-module-content uael-heading-wrapper">
-						
+
 			<h6 class="uael-heading">
 										<span class="uael-heading-text elementor-inline-editing uael-size--default" data-elementor-setting-key="heading_title" data-elementor-inline-editing-toolbar="basic">MEDIA PARTNERS</span>
 							</h6>
@@ -1243,7 +1243,7 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 					// Global page view and session tracking for UAEL Modal Popup feature
 					try {
 						// Session tracking: increment if this is a new session
-						
+
 						// Check if any popup on this page uses current page tracking
 						var hasCurrentPageTracking = false;
 						var currentPagePopups = [];
@@ -1252,7 +1252,7 @@ class="post-11285 page type-page status-publish ast-article-single" id="post-112
 							jQuery('.uael-modal-parent-wrapper').each(function() {
 								var scope = jQuery(this).data('page-views-scope');
 								var enabled = jQuery(this).data('page-views-enabled');
-								var popupId = jQuery(this).attr('id').replace('-overlay', '');	
+								var popupId = jQuery(this).attr('id').replace('-overlay', '');
 								if (enabled === 'yes' && scope === 'current') {
 									hasCurrentPageTracking = true;
 									currentPagePopups.push(popupId);
@@ -1407,13 +1407,13 @@ jQuery( window ).one( "elementor/frontend/init", () => {
 										loadParticleScript();
 									}
 								});
-								
+
 								function loadParticleScript(){
 								 	// Use jQuery to check for the presence of the element
 									if (jQuery(".uael-particle-yes").length < 1) {
 										return;
 									}
-									
+
 									uael_particle_loaded = true;
 									var uael_url = uael_particles_script.uael_particles_url;
 									// Call the cachedScript function
@@ -1487,7 +1487,7 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.parsintl.com\/wp-admi
 piAId = '192632';
 piCId = '1030';
 piHostname = 'pi.pardot.com';
- 
+
 (function() {
 	function async_load(){
 		var s = document.createElement('script'); s.type = 'text/javascript';
@@ -1500,7 +1500,7 @@ piHostname = 'pi.pardot.com';
 </script>
 <!-- WooCommerce JavaScript -->
 <script type="text/javascript">
-jQuery(function($) { 
+jQuery(function($) {
 _wca.push({'_en': 'woocommerceanalytics_page_view','session_id': '', 'blog_id': '209955754', 'store_id': '33e6f1e2-b876-4394-a774-1177425d6b23', 'ui': '', 'url': 'https://www.parsintl.com', 'landing_page': '', 'woo_version': '10.1.2', 'wp_version': '6.8.2', 'store_admin': '0', 'device': 'desktop', 'template_used': '0', 'additional_blocks_on_cart_page': ["core\/spacer","core\/heading","core\/spacer"],'additional_blocks_on_checkout_page': ["core\/paragraph"],'store_currency': 'USD', 'timezone': '+00:00', 'is_guest': '1', 'order_value': '0', 'order_total': '0', 'total_tax': '0.00', 'total_discount': '0', 'total_shipping': '0', 'products_count': '0', 'cart_page_contains_cart_block': '0', 'cart_page_contains_cart_shortcode': '1', 'checkout_page_contains_checkout_block': '0', 'checkout_page_contains_checkout_shortcode': '1', });
  });
 </script>
@@ -1520,7 +1520,7 @@ _wca.push({'_en': 'woocommerceanalytics_page_view','session_id': '', 'blog_id': 
 					// alert(jQuery(this).val());
 					input.val(jQuery(this).val()).change();
 				}
-				
+
 				var add_to_cart = jQuery(this).closest('div.quantity').siblings( ".add-to-cart" );
 				if(add_to_cart.length > 0)
 				{
@@ -1529,10 +1529,10 @@ _wca.push({'_en': 'woocommerceanalytics_page_view','session_id': '', 'blog_id': 
 		  });
 	  }
 	  qty_select.change();
-	  
+
   });
-  
-  jQuery( '[name="quantity"]' ).on( 'change', function() { 
+
+  jQuery( '[name="quantity"]' ).on( 'change', function() {
 	var current_val = parseFloat(jQuery(this).val());
 	if ( Number.isInteger( current_val ) === false )
 	{

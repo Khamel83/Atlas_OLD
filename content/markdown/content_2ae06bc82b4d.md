@@ -410,7 +410,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 				f.parentNode.insertBefore( j, f );
 			} )( window, document, 'script', 'dataLayer', 'GTM-MVFJNW' );
-			
+
 </script>
 
 <!-- End Google Tag Manager snippet added by Site Kit -->
@@ -426,7 +426,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVFJNW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
-		
+
 <div class="wp-site-blocks"><header class="wp-block-template-part">
 <header data-hide-on-mobile="true" data-hide-on-tablet="true" id="masthead" class="wp-block-group is-layout-flow wp-container-core-group-is-layout-22d7e56b wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div id="top-hat" class="wp-block-group prc-design-system-top-hat has-white-color has-black-background-color has-text-color has-background has-sans-serif-font-family has-global-padding is-layout-constrained wp-container-core-group-is-layout-a9c49bdc wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20);font-size:12px;letter-spacing:1.2px;text-transform:uppercase">
@@ -783,7 +783,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 	type="button"
 >
 	<i class="icon icon-library__solid icon__circle-xmark"><svg style="width: 1em; height: 1em;"><use xlink:href="https://www.pewresearch.org/wp-content/plugins/prc-icon-library/build/icons/sprites/solid.svg#circle-xmark"></use></svg></i></button>
-	
+
 <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-eda31697 wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.114), 15px);letter-spacing:0px;text-transform:capitalize"><div style="--grid-gutter: var(--wp--preset--spacing--70); --divider-color: var(--wp--preset--color--ui-gray-light);" class="has-divider has-ui-gray-light-divider-color is-vertically-aligned-top wp-block-prc-block-grid-controller">
 <div class="is-vertically-aligned-top column1-desktop-grid__span-6 column1-tablet-grid__span-6 column1-mobile-grid__span-4 wp-block-prc-block-grid-column is-layout-flow wp-container-prc-block-grid-column-is-layout-a9748f9c wp-block-prc-block-grid-column-is-layout-flow">
 
@@ -901,7 +901,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 	type="button"
 >
 	<i class="icon icon-library__solid icon__circle-xmark"><svg style="width: 1em; height: 1em;"><use xlink:href="https://www.pewresearch.org/wp-content/plugins/prc-icon-library/build/icons/sprites/solid.svg#circle-xmark"></use></svg></i></button>
-	
+
 <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-c385debf wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><nav style="font-style:normal;font-weight:700;text-transform:uppercase;" class="has-medium-font-size  is-vertical wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-98bb686d wp-block-navigation-is-layout-flex" aria-label="Mobile Navigation Menu"><ul style="font-style:normal;font-weight:700;text-transform:uppercase;" class="wp-block-navigation__container has-medium-font-size  is-vertical wp-block-navigation has-medium-font-size"><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/topics/"><span class="wp-block-navigation-item__label">Research Topics</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/publications/"><span class="wp-block-navigation-item__label">Publications</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/short-reads/"><span class="wp-block-navigation-item__label">Short Reads</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/tools-and-resources/"><span class="wp-block-navigation-item__label">Tools &amp; Datasets</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/about/"><span class="wp-block-navigation-item__label">About Pew Research Center</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/newsletters/"><span class="wp-block-navigation-item__label">Newsletters</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/about/press/"><span class="wp-block-navigation-item__label">Press</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/profile/"><span class="wp-block-navigation-item__label">My Account</span></a></li><li class="has-medium-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.pewresearch.org/contactedbyus/"><span class="wp-block-navigation-item__label">Contacted By Us?</span></a></li></ul></nav></div>
 </div>
 
@@ -1241,7 +1241,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 	type="button"
 >
 	<i class="icon icon-library__solid icon__circle-xmark"><svg style="width: 1em; height: 1em;"><use xlink:href="https://www.pewresearch.org/wp-content/plugins/prc-icon-library/build/icons/sprites/solid.svg#circle-xmark"></use></svg></i></button>
-	
+
 <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-80fb368b wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
 <div class="wp-block-group has-global-padding is-content-justification-left is-layout-constrained wp-container-core-group-is-layout-b0ba78b1 wp-block-group-is-layout-constrained"><form role="search" method="get" action="https://www.pewresearch.org/" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search"    ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-4" >Search</label><div class="wp-block-search__inside-wrapper has-border-color has-ui-black-border-color"  style="width: 640px;border-width: 1px"><input class="wp-block-search__input" id="wp-block-search__input-4" placeholder="" value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button has-text-color has-ui-white-color has-background has-ui-black-background-color has-icon wp-element-button" type="submit" ><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
 					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
@@ -1316,7 +1316,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/acknowledgments-45/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Acknowledgments</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1327,7 +1327,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/methodology-37-2/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Methodology</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1338,7 +1338,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/appendix-a-supplemental-table/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Appendix A: Supplemental table</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1349,7 +1349,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 			</ul></div></div>
 
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div style="padding-top:0px;margin-top:0;" class="entry-content wp-block-post-content has-global-padding is-content-justification-center is-layout-constrained wp-container-core-post-content-is-layout-887079b1 wp-block-post-content-is-layout-constrained">
@@ -1645,7 +1645,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/acknowledgments-45/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Acknowledgments</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1656,7 +1656,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/methodology-37-2/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Methodology</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1667,7 +1667,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 				<li data-wp-each-child class="wp-block-prc-block-table-of-contents__list-item has-hover-background-color has-hover-ui-beige-very-light-background-color has-active-background-color has-active-ui-gray-very-light-background-color has-focus-background-color has-focus-ui-gray-very-light-background-color" data-wp-class--is-active="state.isActive">
 					<a href="https://www.pewresearch.org/social-trends/2020/07/29/appendix-a-supplemental-table/" data-wp-bind--href="context.chapter.url" data-wp-text="context.chapter.label">Appendix A: Supplemental table</a>
 									<ul class="wp-block-prc-block-table-of-contents__list sections" data-wp-hidden="callbacks.hasSections">
@@ -1678,7 +1678,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 		</template>
 							</ul>
 				</li>
-			
+
 			</ul></div></div>
 
 </div>
@@ -2171,7 +2171,7 @@ gtag("config", "G-JWLCYL52TJ", {"googlesitekit_post_type":"post","googlesitekit_
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script type="text/javascript" src="https://www.pewresearch.org/wp-content/plugins/gutenberg/build/url/index.min.js?m=1757628639g" ></script><script src="https://www.pewresearch.org/wp-content/plugins/gutenberg/build/api-fetch/index.min.js?ver=cb63584d70c164f81d78" id="wp-api-fetch-js"></script>
 <script id="wp-api-fetch-js-after">

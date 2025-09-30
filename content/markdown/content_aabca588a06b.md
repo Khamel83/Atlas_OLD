@@ -18,7 +18,7 @@
 <head>
 <meta charset="UTF-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1' /><link rel="shortcut icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_favicon.png" type="image/x-icon" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,10 +72,10 @@
   <script defer src="https://cdnads.geeksforgeeks.org/gfg_ads.min.js?ver=0.1"></script>
 <script defer src="https://cdnads.geeksforgeeks.org/prebid.js?ver=0.1"></script>
 
-                    <script> 
+                    <script>
                         var video_api_response = JSON.parse("[{\"id\":10044,\"title\":\"Reinforcement learning in Machine Learning\",\"slug\":\"reinforcement-learning-in-machine-learning\",\"description\":\"<h2>What is Reinforcement Learning?<\/h2><p>Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.<\/p><h3>Introduction to Reinforcement Learning<\/h3><p>Reinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.<\/p><h3>Key Components of Reinforcement Learning<\/h3><ol><li><strong>Agent<\/strong>: The learner or decision-maker that interacts with the environment.<\/li><li><strong>Environment<\/strong>: The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agent's actions.<\/li><li><strong>State<\/strong>: A representation of the current situation or configuration of the environment.<\/li><li><strong>Action<\/strong>: The set of all possible moves the agent can make in the environment.<\/li><li><strong>Reward<\/strong>: The feedback received from the environment as a result of the agent's actions. The goal of the agent is to maximize the cumulative reward over time.<\/li><li><strong>Policy<\/strong>: The strategy that the agent employs to determine the next action based on the current state.<\/li><li><strong>Value Function<\/strong>: A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.<\/li><\/ol><h3>How Reinforcement Learning Works<\/h3><p>Reinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.<\/p><ol><li><strong>Initialization<\/strong>: The agent starts with an initial policy and value function.<\/li><li><strong>Interaction<\/strong>: The agent interacts with the environment by taking actions.<\/li><li><strong>Feedback<\/strong>: The environment provides feedback in the form of rewards.<\/li><li><strong>Update<\/strong>: The agent updates its policy and value function based on the received rewards.<\/li><li><strong>Iteration<\/strong>: This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.<\/li><\/ol><h3>Types of Reinforcement Learning<\/h3><ol><li><strong>Model-Free Reinforcement Learning<\/strong>: The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.<\/li><li><strong>Model-Based Reinforcement Learning<\/strong>: The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.<\/li><\/ol><h3>Applications of Reinforcement Learning<\/h3><p>Reinforcement learning has a wide range of applications across various fields, including:<\/p><ol><li><strong>Robotics<\/strong>: Teaching robots to perform tasks autonomously by learning from interactions with their environment.<\/li><li><strong>Game Playing<\/strong>: Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.<\/li><li><strong>Autonomous Vehicles<\/strong>: Enabling self-driving cars to navigate complex environments by learning from real-world interactions.<\/li><li><strong>Finance<\/strong>: Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.<\/li><li><strong>Healthcare<\/strong>: Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.<\/li><\/ol><h3>Conclusion<\/h3><p>Reinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.<\/p><p>Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learning's ability to solve complex decision-making problems makes it a valuable tool in various domains.<\/p><p>For a detailed step-by-step guide, check out the full article: <a href=\\\"https:\/\/www.geeksforgeeks.org\/what-is-reinforcement-learning\/\\\">What is Reinforcement Learning?<\/a>.<\/p>\",\"source\":\"https:\/\/videos.geeksforgeeks.org\/hls\/0c3c7fb2a530e25573baf590f511e8dagfg-Reinforcementlearning20240808124643.m3u8\",\"category\":[{\"term_id__id\":37,\"term_id__term_name\":\"ML\",\"term_id__term_type\":2,\"term_id__slug\":\"ml\"},{\"term_id__id\":116,\"term_id__term_name\":\"Machine Learning\",\"term_id__term_type\":1,\"term_id__slug\":\"machine-learning\"},{\"term_id__id\":338,\"term_id__term_name\":\"machine-learning\",\"term_id__term_type\":2,\"term_id__slug\":\"machine-learning-c23scf\"}],\"meta\":{\"thumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\",\"largeThumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"likes\":0,\"views\":51920,\"isFeatured\":0,\"isPremium\":0,\"isPublic\":0,\"format\":\"video\/mp4\",\"revision\":{}},\"time\":\"08\/08\/2024\",\"subtitle\":\"https:\/\/videos.geeksforgeeks.org\/subtitles\/Reinforcementlearning20240808124643.vtt\",\"duration\":435,\"course_link\":null,\"video_schema\":{\"@context\":\"https:\/\/schema.org\",\"@type\":\"VideoObject\",\"name\":\"Reinforcement learning in Machine Learning\",\"description\":\"What is Reinforcement Learning?Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.Introduction to Reinforcement LearningReinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.Key Components of Reinforcement LearningAgent The learner or decision-maker that interacts with the environment.Environment The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agents actions.State A representation of the current situation or configuration of the environment.Action The set of all possible moves the agent can make in the environment.Reward The feedback received from the environment as a result of the agents actions. The goal of the agent is to maximize the cumulative reward over time.Policy The strategy that the agent employs to determine the next action based on the current state.Value Function A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.How Reinforcement Learning WorksReinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.Initialization The agent starts with an initial policy and value function.Interaction The agent interacts with the environment by taking actions.Feedback The environment provides feedback in the form of rewards.Update The agent updates its policy and value function based on the received rewards.Iteration This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.Types of Reinforcement LearningModel-Free Reinforcement Learning The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.Model-Based Reinforcement Learning The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.Applications of Reinforcement LearningReinforcement learning has a wide range of applications across various fields, includingRobotics Teaching robots to perform tasks autonomously by learning from interactions with their environment.Game Playing Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.Autonomous Vehicles Enabling self-driving cars to navigate complex environments by learning from real-world interactions.Finance Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.Healthcare Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.ConclusionReinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learnings ability to solve complex decision-making problems makes it a valuable tool in various domains.For a detailed step-by-step guide, check out the full article What is Reinforcement Learning?.\",\"thumbnailUrl\":[\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-seo.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\"],\"uploadDate\":\"2024-08-08T12:49:01Z\",\"duration\":\"PT0H7M15S\",\"contentUrl\":\"https:\/\/www.geeksforgeeks.org\/videos\/reinforcement-learning-in-machine-learning\/\"}}]");
                     </script>
-                
+
 <!-- gfg tabs compatablity bundled js -->
   <script defer src="https://assets.geeksforgeeks.org/codetabs/v4/codetabs.js" environment="production" domain="gfg" no-scroll></script>
 
@@ -89,7 +89,7 @@
 
 <!-- Video Schema for posts only -->
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Reinforcement learning in Machine Learning","description":"What is Reinforcement Learning?Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.Introduction to Reinforcement LearningReinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.Key Components of Reinforcement LearningAgent The learner or decision-maker that interacts with the environment.Environment The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agents actions.State A representation of the current situation or configuration of the environment.Action The set of all possible moves the agent can make in the environment.Reward The feedback received from the environment as a result of the agents actions. The goal of the agent is to maximize the cumulative reward over time.Policy The strategy that the agent employs to determine the next action based on the current state.Value Function A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.How Reinforcement Learning WorksReinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.Initialization The agent starts with an initial policy and value function.Interaction The agent interacts with the environment by taking actions.Feedback The environment provides feedback in the form of rewards.Update The agent updates its policy and value function based on the received rewards.Iteration This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.Types of Reinforcement LearningModel-Free Reinforcement Learning The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.Model-Based Reinforcement Learning The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.Applications of Reinforcement LearningReinforcement learning has a wide range of applications across various fields, includingRobotics Teaching robots to perform tasks autonomously by learning from interactions with their environment.Game Playing Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.Autonomous Vehicles Enabling self-driving cars to navigate complex environments by learning from real-world interactions.Finance Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.Healthcare Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.ConclusionReinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learnings ability to solve complex decision-making problems makes it a valuable tool in various domains.For a detailed step-by-step guide, check out the full article What is Reinforcement Learning?.","thumbnailUrl":["https://media.geeksforgeeks.org/geeksforgeeks/ReinforcementlearninginMachineLearning/Reinforcementlearning20240808124647.png","https://media.geeksforgeeks.org/geeksforgeeks/ReinforcementlearninginMachineLearning/Reinforcementlearning20240808124647-seo.png","https://media.geeksforgeeks.org/geeksforgeeks/ReinforcementlearninginMachineLearning/Reinforcementlearning20240808124647-small.png"],"uploadDate":"2024-08-08T12:49:01Z","duration":"PT0H7M15S","contentUrl":"https://www.geeksforgeeks.org/videos/reinforcement-learning-in-machine-learning/"}</script>
-      
+
 <!-- adding article schema markup -->
 
 
@@ -227,8 +227,8 @@
     var link_on_code_run = '';
     var link_search_modal_top = '';
     var country_code_cf = "US";
-    
-    
+
+
         var postAdApiUrlString = '9172/3188/9172/';
 </script>
 
@@ -317,32 +317,32 @@ enable_page_level_ads: true
             max-width: calc(100% - 605px);
             min-width: calc(100% - 605px);
         }
-        
+
         .sidebar_wrapper{
             max-width: 300px;
             min-width: 300px;
         }
-        
+
         div#secondary {
             min-width: 300px;
             max-width: 300px;
         }
-        
+
         .widget-area{
             padding: 0px;
         }
-        
+
         .article-page_flex .rightBar{
             padding: 20px 0px 0px 0px;
         }
-        
+
         .article--viewer_content .a-wrapper .content {
             padding: 0px 10px 55px 20px;
         }
-        
+
         .oinLeftbar {
             height: calc(100vh - 350px) !important;
-        }  
+        }
     }
     .autoLeftBar_oin_child{
         height: 100% !important;
@@ -364,7 +364,7 @@ enable_page_level_ads: true
 }
 
 .mobile-header-list-item{
-    padding-left:30px; 
+    padding-left:30px;
     padding-right:10px;
     margin-top:5px;
 }
@@ -375,9 +375,9 @@ enable_page_level_ads: true
 
 .mobile-header-list .dropdown-title{
     border-bottom: none !important;
-    font-size: 16px!important; 
-    padding: 0px!important; 
-    padding-left: 45px!important; 
+    font-size: 16px!important;
+    padding: 0px!important;
+    padding-left: 45px!important;
     font-weight: normal;
 }
 
@@ -411,8 +411,8 @@ enable_page_level_ads: true
             let gfg_def_theme = "";
             let cookies = document.cookie;
             let cooks = cookies.split(";");
-        
-            for (let i = 0; i < cooks.length; i++) {   
+
+            for (let i = 0; i < cooks.length; i++) {
                 let icook = cooks[i].split("=");
                 if (icook[0].trim() == "gfg_theme") {
                     gfg_def_theme = icook[1].trim();
@@ -424,7 +424,7 @@ enable_page_level_ads: true
             var isDarkMode = getThemeFromCookie() == gfgThemeList.DARK ? true : false;
             document.querySelector("body").setAttribute("data-dark-mode", isDarkMode);
         }
- 
+
 
         function setSearchBarFocus() {
           const myTimeout = setTimeout(searchBarFocus, 0);
@@ -433,7 +433,7 @@ enable_page_level_ads: true
           }
         }
 
-        
+
     </script>
 
     <!-- <div class="header-main__wrapper not-fixed"> -->
@@ -443,13 +443,13 @@ enable_page_level_ads: true
 
         <div class="header-main__container">
             <ul class="header-main-right">
-            
+
                 <a href="https://www.geeksforgeeks.org/" aria-label="Logo" class="header-main__logo">
                     <div class="_logo">
                         <img class="gfg_logo_img" style="height: 30px;" src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="geeksforgeeks">
                     </div>
                 </a>
-                
+
                         <li class="header-main__left-list-item gcse-search_li p-relative" aria-expanded="false" data-expandable="false">
                     <div class="gcse-form-search-suggestion_wrapper" style="margin-left: 6px">
                         <form id="gcse-form" class="gcse-form_class p-relative closeChatScreen gcse-form-web" data-sm="true">
@@ -462,7 +462,7 @@ enable_page_level_ads: true
                         <div class="gfg-search-suggestion_wrapper" style="display:none"></div>
                     <div>
                 </li>
-                 
+
             </ul>
 
         <!-- For Web view only -->
@@ -494,22 +494,22 @@ enable_page_level_ads: true
                             setTimeout(function(){
                                 if (jQuery( window ).width() < 768){
                                     m = true;
-                                     jQuery('#g_translater').detach().appendTo('#google_translate_mobile');                            
+                                     jQuery('#g_translater').detach().appendTo('#google_translate_mobile');
                                 }
                             }, 7000);
                         }
                         jQuery( window ).resize(function() {
                             if (jQuery( window ).width() < 768 && m == false){
                                 m = true;
-                                jQuery('#g_translater').detach().appendTo('#google_translate_mobile');  
+                                jQuery('#g_translater').detach().appendTo('#google_translate_mobile');
                             } else if (jQuery( window ).width() >= 768 && m == true){
                                 m = false;
-                                jQuery('#g_translater').detach().prependTo('.google-translate-parent-element');                            
+                                jQuery('#g_translater').detach().prependTo('.google-translate-parent-element');
                             }
                         });
                     </script> -->
                 </li>
-                
+
                 <li>
                     <div class="darkMode-wrap" data-mode="Switch to Dark Mode">
                         <button aria-label="toggle theme" data-gfg-action="toggleGFGTheme">
@@ -520,7 +520,7 @@ enable_page_level_ads: true
                     </div>
                 </li>
 
-                                
+
 
                 <li id="userProfileId" class="header-main__left-list-item p-relative" aria-expanded="false" data-expandable="false">
                     <!-- Profile Section to be added via JS -->
@@ -529,9 +529,9 @@ enable_page_level_ads: true
         </div>
 
         <!-- for mobile only -->
-        
+
         <!-- for mobile only -->
-               
+
        </div>
     </nav>
     <div id="header-main__slider-outer-div">
@@ -565,7 +565,7 @@ enable_page_level_ads: true
             <button id="sub-header__signup" class="login-modal-btn">Sign In</button>
         </div>
     </div>
-    
+
     <button id="scrollTopBtn" title="Scroll to Top" type="button" class="btn btn-success">&#x25B2;</button>
     <!-- .top-spacing to give space on single pages-->
     <div id="main" class="wrapper single-page">
@@ -582,7 +582,7 @@ enable_page_level_ads: true
 
 <script>
     window.have_dsa_term = false;
-    // var practiceTab = ; 
+    // var practiceTab = ;
 </script>
 
 <style>
@@ -593,7 +593,7 @@ enable_page_level_ads: true
     @keyframes spinner {
         to {transform: rotate(360deg);}
     }
-    
+
     .spinner:before {
         content: '';
         box-sizing: border-box;
@@ -612,7 +612,7 @@ enable_page_level_ads: true
 
     .report-loader{
         position: relative;
-        
+
     }
 
     .report-loader.spinner{
@@ -798,7 +798,7 @@ enable_page_level_ads: true
                 isIOS ? jQuery('.openInAppLink').addClass("oia-iOS") : $('.openInAppLink').addClass("oia-android");      //for openInApp Link
             }
         }
-        
+
     </script>
     <style>
         .openInApp{
@@ -862,9 +862,9 @@ enable_page_level_ads: true
                                                 </div>
 
                                                  <!-- three dot menu -->
-                                                <div class="three_dot_dropdown"> 
+                                                <div class="three_dot_dropdown">
                                                         <div style="display: flex;">
-                                                                                        
+
                                          <div pid="195593" class="article--viewer_share tooltip">
                                                 <div class="three_dot_dropdown_div three_dot_dropdown_share"onmouseleave="closeShareModal()" onmouseenter="openShareModal()">
                                                     <div style="display: flex;align-items: center;" class="three_dot_dropdown_inner_div_share" data-gfg-action="share-article" data-bookmark-value="0">
@@ -887,7 +887,7 @@ enable_page_level_ads: true
                                                                     <i class="gfg-icon gfg-icon-pencil  gfg-icon_edit" style="position: relative; z-index: 3;"></i>
                                                                     </div>
                                                                 </div>
-                                                            </div> 
+                                                            </div>
                                                                                                                     <!-- three dots -->
                                                         <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
                                                             <li>
@@ -896,7 +896,7 @@ enable_page_level_ads: true
                                                             <li></li>
                                                         </ul>
                                                     </div>
-                                                </div> 
+                                                </div>
                                             </div>
                                                                             </div>
                                                             </div>
@@ -915,7 +915,7 @@ enable_page_level_ads: true
                                             </div>
                                                                                         <div pid="195593" class="article--viewer_like tooltip">
                                             <div class="three_dot_dropdown_div three_dot_dropdown_likearticle" onmouseleave='toggleLikeElementVisibility("showLikesContainer", false)'  onmouseenter='toggleLikeElementVisibility("showLikesContainer", true)'>
-                                                    <div class="showLikesContainer"> 
+                                                    <div class="showLikesContainer">
                                                         <span class="likeTooltip">Like Article</span>
                                                     </div>
                                                     <div class="three_dot_dropdown_inner_div" data-gfg-action="like-article" data-bookmark-value="0">
@@ -927,7 +927,7 @@ enable_page_level_ads: true
                                                     <i class="gfg-icon gfg-icon_thumbs"></i>
                                                 </button> -->
                                             </div>
-                                            
+
                                             <!-- share button is removed from here for web view and placed at the place of summarize on 03/04/25 for task T1G-3293 -->
 
                                             <!-- <div pid="195593" class="article--viewer_share tooltip">
@@ -959,7 +959,7 @@ enable_page_level_ads: true
                                         </div>
                                     </div>
                             <div class="text">
-                                                                                    <script> 
+                                                                                    <script>
                         var video_api_response = JSON.parse("[{\"id\":10044,\"title\":\"Reinforcement learning in Machine Learning\",\"slug\":\"reinforcement-learning-in-machine-learning\",\"description\":\"<h2>What is Reinforcement Learning?<\/h2><p>Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.<\/p><h3>Introduction to Reinforcement Learning<\/h3><p>Reinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.<\/p><h3>Key Components of Reinforcement Learning<\/h3><ol><li><strong>Agent<\/strong>: The learner or decision-maker that interacts with the environment.<\/li><li><strong>Environment<\/strong>: The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agent's actions.<\/li><li><strong>State<\/strong>: A representation of the current situation or configuration of the environment.<\/li><li><strong>Action<\/strong>: The set of all possible moves the agent can make in the environment.<\/li><li><strong>Reward<\/strong>: The feedback received from the environment as a result of the agent's actions. The goal of the agent is to maximize the cumulative reward over time.<\/li><li><strong>Policy<\/strong>: The strategy that the agent employs to determine the next action based on the current state.<\/li><li><strong>Value Function<\/strong>: A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.<\/li><\/ol><h3>How Reinforcement Learning Works<\/h3><p>Reinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.<\/p><ol><li><strong>Initialization<\/strong>: The agent starts with an initial policy and value function.<\/li><li><strong>Interaction<\/strong>: The agent interacts with the environment by taking actions.<\/li><li><strong>Feedback<\/strong>: The environment provides feedback in the form of rewards.<\/li><li><strong>Update<\/strong>: The agent updates its policy and value function based on the received rewards.<\/li><li><strong>Iteration<\/strong>: This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.<\/li><\/ol><h3>Types of Reinforcement Learning<\/h3><ol><li><strong>Model-Free Reinforcement Learning<\/strong>: The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.<\/li><li><strong>Model-Based Reinforcement Learning<\/strong>: The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.<\/li><\/ol><h3>Applications of Reinforcement Learning<\/h3><p>Reinforcement learning has a wide range of applications across various fields, including:<\/p><ol><li><strong>Robotics<\/strong>: Teaching robots to perform tasks autonomously by learning from interactions with their environment.<\/li><li><strong>Game Playing<\/strong>: Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.<\/li><li><strong>Autonomous Vehicles<\/strong>: Enabling self-driving cars to navigate complex environments by learning from real-world interactions.<\/li><li><strong>Finance<\/strong>: Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.<\/li><li><strong>Healthcare<\/strong>: Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.<\/li><\/ol><h3>Conclusion<\/h3><p>Reinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.<\/p><p>Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learning's ability to solve complex decision-making problems makes it a valuable tool in various domains.<\/p><p>For a detailed step-by-step guide, check out the full article: <a href=\\\"https:\/\/www.geeksforgeeks.org\/what-is-reinforcement-learning\/\\\">What is Reinforcement Learning?<\/a>.<\/p>\",\"source\":\"https:\/\/videos.geeksforgeeks.org\/hls\/0c3c7fb2a530e25573baf590f511e8dagfg-Reinforcementlearning20240808124643.m3u8\",\"category\":[{\"term_id__id\":37,\"term_id__term_name\":\"ML\",\"term_id__term_type\":2,\"term_id__slug\":\"ml\"},{\"term_id__id\":116,\"term_id__term_name\":\"Machine Learning\",\"term_id__term_type\":1,\"term_id__slug\":\"machine-learning\"},{\"term_id__id\":338,\"term_id__term_name\":\"machine-learning\",\"term_id__term_type\":2,\"term_id__slug\":\"machine-learning-c23scf\"}],\"meta\":{\"thumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\",\"largeThumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"likes\":0,\"views\":51920,\"isFeatured\":0,\"isPremium\":0,\"isPublic\":0,\"format\":\"video\/mp4\",\"revision\":{}},\"time\":\"08\/08\/2024\",\"subtitle\":\"https:\/\/videos.geeksforgeeks.org\/subtitles\/Reinforcementlearning20240808124643.vtt\",\"duration\":435,\"course_link\":null,\"video_schema\":{\"@context\":\"https:\/\/schema.org\",\"@type\":\"VideoObject\",\"name\":\"Reinforcement learning in Machine Learning\",\"description\":\"What is Reinforcement Learning?Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.Introduction to Reinforcement LearningReinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.Key Components of Reinforcement LearningAgent The learner or decision-maker that interacts with the environment.Environment The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agents actions.State A representation of the current situation or configuration of the environment.Action The set of all possible moves the agent can make in the environment.Reward The feedback received from the environment as a result of the agents actions. The goal of the agent is to maximize the cumulative reward over time.Policy The strategy that the agent employs to determine the next action based on the current state.Value Function A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.How Reinforcement Learning WorksReinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.Initialization The agent starts with an initial policy and value function.Interaction The agent interacts with the environment by taking actions.Feedback The environment provides feedback in the form of rewards.Update The agent updates its policy and value function based on the received rewards.Iteration This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.Types of Reinforcement LearningModel-Free Reinforcement Learning The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.Model-Based Reinforcement Learning The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.Applications of Reinforcement LearningReinforcement learning has a wide range of applications across various fields, includingRobotics Teaching robots to perform tasks autonomously by learning from interactions with their environment.Game Playing Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.Autonomous Vehicles Enabling self-driving cars to navigate complex environments by learning from real-world interactions.Finance Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.Healthcare Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.ConclusionReinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learnings ability to solve complex decision-making problems makes it a valuable tool in various domains.For a detailed step-by-step guide, check out the full article What is Reinforcement Learning?.\",\"thumbnailUrl\":[\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-seo.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\"],\"uploadDate\":\"2024-08-08T12:49:01Z\",\"duration\":\"PT0H7M15S\",\"contentUrl\":\"https:\/\/www.geeksforgeeks.org\/videos\/reinforcement-learning-in-machine-learning\/\"}}]");
                     </script>
                 <p dir="ltr"><b><strong>Reinforcement Learning (RL) </strong></b><span>is a branch of machine learning that focuses on how agents can learn to make decisions through trial and error to maximize cumulative rewards. RL allows machines to learn by interacting with an environment and receiving feedback based on their actions. This feedback comes in the form of</span><b><strong> rewards or penalties</strong></b><span>.</span></p><figure class="image"><img alt="Reinforcement-Learning_" height="400" src="https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_.webp" srcset="https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_.webp 800w,https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_-100.webp 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_-200.webp 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_-300.webp 300w,https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_-660.webp 660w,https://media.geeksforgeeks.org/wp-content/uploads/20250224161500821503/Reinforcement-Learning_-768.webp 768w" width="800"/><figcaption> </figcaption></figure><p dir="ltr"><span>Reinforcement Learning revolves around the idea that an agent (the learner or decision-maker) interacts with an environment to achieve a goal. The agent performs actions and receives feedback to optimize its decision-making over time.</span></p><ul><li value="1"><b><strong>Agent</strong></b><span>: The decision-maker that performs actions.</span></li><li value="2"><b><strong>Environment</strong></b><span>: The world or system in which the agent operates.</span></li><li value="3"><b><strong>State</strong></b><span>: The situation or condition the agent is currently in.</span></li><li value="4"><b><strong>Action</strong></b><span>: The possible moves or decisions the agent can make.</span></li><li value="5"><b><strong>Reward</strong></b><span>: The feedback or result from the environment based on the agent’s action.</span></li></ul><h2 style="text-align:left"><span>How Reinforcement Learning Works?</span></h2><p dir="ltr"><span>The RL process involves an agent performing actions in an environment, receiving rewards or penalties based on those actions, and adjusting its behavior accordingly. This loop helps the agent improve its decision-making over time to maximize the </span><b><strong>cumulative reward</strong></b><span>.</span></p><p dir="ltr"><span>Here’s a breakdown of RL components:</span></p><ul><li value="1"><b><strong>Policy</strong></b><span>: A strategy that the agent uses to determine the next action based on the current state.</span></li><li value="2"><b><strong>Reward Function</strong></b><span>: A function that provides feedback on the actions taken, guiding the agent towards its goal.</span></li><li value="3"><b><strong>Value Function</strong></b><span>: Estimates the future cumulative rewards the agent will receive from a given state.</span></li><li value="4"><b><strong>Model of the Environment</strong></b><span>: A representation of the environment that predicts future states and rewards, aiding in planning.</span></li></ul><h3 style="text-align:left"><span>Reinforcement Learning Example: Navigating a Maze</span></h3><p dir="ltr"><span>Imagine a robot navigating a maze to reach a diamond while avoiding fire hazards. The goal is to find the optimal path with the least number of hazards while maximizing the reward:</span></p><ul><li value="1"><span>Each time the robot moves correctly, it receives a reward.</span></li><li value="2"><span>If the robot takes the wrong path, it loses points.</span></li></ul><p dir="ltr"><span>The robot learns by exploring different paths in the maze. By trying various moves, it evaluates the rewards and penalties for each path. Over time, the robot determines the best route by selecting the actions that lead to the highest cumulative reward.</span></p><p dir="ltr"><img height="inherit" loading="lazy" src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-95.png" width="inherit"/></p><p dir="ltr" style="text-align: justify;"><br/><span>The robot's learning process can be summarized as follows:</span></p><ol><li value="1"><b><strong>Exploration</strong></b><span>: The robot starts by exploring all possible paths in the maze, taking different actions at each step (e.g., move left, right, up, or down).</span></li><li value="2"><b><strong>Feedback</strong></b><span>: After each move, the robot receives feedback from the environment:</span><ul><li value="1"><span>A positive reward for moving closer to the diamond.</span></li><li value="2"><span>A penalty for moving into a fire hazard.</span></li></ul></li><li value="3"><b><strong>Adjusting Behavior</strong></b><span>: Based on this feedback, the robot adjusts its behavior to maximize the cumulative reward, favoring paths that avoid hazards and bring it closer to the diamond.</span></li><li value="4"><b><strong>Optimal Path</strong></b><span>: Eventually, the robot discovers the optimal path with the least number of hazards and the highest reward by selecting the right actions based on past experiences.</span></li></ol><h2 style="text-align:left"><span>Types of Reinforcements in RL </span></h2><h3 style="text-align:left"><b><strong>1. Positive Reinforcement </strong></b></h3><p dir="ltr"><span>Positive Reinforcement is defined as when an event, occurs due to a particular behavior, increases the strength and the frequency of the behavior. In other words, it has a positive effect on behavior. </span></p><ul><li value="1"><b><strong>Advantages</strong></b><span>: Maximizes performance, helps sustain change over time.</span></li><li value="2"><b><strong>Disadvantages</strong></b><span>: Overuse can lead to excess states that may reduce effectiveness.</span></li></ul><h3 style="text-align:left"><b><strong>2. Negative Reinforcement</strong></b></h3><p dir="ltr"><span>Negative Reinforcement is defined as strengthening of behavior because a negative condition is stopped or avoided. </span></p><ul><li value="1"><b><strong>Advantages</strong></b><span>: Increases behavior frequency, ensures a minimum performance standard.</span></li><li value="2"><b><strong>Disadvantages</strong></b><span>: It may only encourage just enough action to avoid penalties.</span></li></ul><h2 style="text-align:left"><span>CartPole in OpenAI Gym</span></h2><p dir="ltr"><span>One of the classic RL problems is the </span><b><strong>CartPole environment</strong></b><span> in </span><b><strong>OpenAI Gym</strong></b><span>, where the goal is to balance a pole on a cart. The agent can either push the cart left or right to prevent the pole from falling over.</span></p><ul><li value="1"><b><strong>State space</strong></b><span>: Describes the four key variables (position, velocity, angle, angular velocity) of the cart-pole system.</span></li><li value="2"><b><strong>Action space</strong></b><span>: Discrete actions—either move the cart left or right.</span></li><li value="3"><b><strong>Reward</strong></b><span>: The agent earns 1 point for each step the pole remains balanced.</span></li></ul><gfg-tabs data-mode="light" data-run-ide="true">
@@ -986,10 +986,10 @@ enable_page_level_ads: true
 <span class=k>for</span> <span class=n>_</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=mi>10</span><span class=p>):</span>
     <span class=n>env</span><span class=o>.</span><span class=n>render</span><span class=p>()</span>  <span class=c1># Render the environment for visualization</span>
     <span class=n>action</span> <span class=o>=</span> <span class=n>env</span><span class=o>.</span><span class=n>action_space</span><span class=o>.</span><span class=n>sample</span><span class=p>()</span>  <span class=c1># Take a random action</span>
-    
+
     <span class=c1># Take a step in the environment</span>
     <span class=n>step_result</span> <span class=o>=</span> <span class=n>env</span><span class=o>.</span><span class=n>step</span><span class=p>(</span><span class=n>action</span><span class=p>)</span>
-    
+
     <span class=c1># Check the number of values returned and unpack accordingly</span>
     <span class=k>if</span> <span class=nb>len</span><span class=p>(</span><span class=n>step_result</span><span class=p>)</span> <span class=o>==</span> <span class=mi>4</span><span class=p>:</span>
         <span class=n>next_state</span><span class=p>,</span> <span class=n>reward</span><span class=p>,</span> <span class=n>done</span><span class=p>,</span> <span class=n>info</span> <span class=o>=</span> <span class=n>step_result</span>
@@ -997,9 +997,9 @@ enable_page_level_ads: true
     <span class=k>else</span><span class=p>:</span>
         <span class=n>next_state</span><span class=p>,</span> <span class=n>reward</span><span class=p>,</span> <span class=n>done</span><span class=p>,</span> <span class=n>truncated</span><span class=p>,</span> <span class=n>info</span> <span class=o>=</span> <span class=n>step_result</span>
         <span class=n>terminated</span> <span class=o>=</span> <span class=n>done</span> <span class=ow>or</span> <span class=n>truncated</span>
-    
+
     <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Action: </span><span class=si>{</span><span class=n>action</span><span class=si>}</span><span class=s2>, Reward: </span><span class=si>{</span><span class=n>reward</span><span class=si>}</span><span class=s2>, Next State: </span><span class=si>{</span><span class=n>next_state</span><span class=si>}</span><span class=s2>, Done: </span><span class=si>{</span><span class=n>done</span><span class=si>}</span><span class=s2>, Info: </span><span class=si>{</span><span class=n>info</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
-    
+
     <span class=k>if</span> <span class=n>terminated</span><span class=p>:</span>
         <span class=n>state</span> <span class=o>=</span> <span class=n>env</span><span class=o>.</span><span class=n>reset</span><span class=p>()</span>  <span class=c1># Reset the environment if the episode is finished</span>
 
@@ -1105,12 +1105,12 @@ enable_page_level_ads: true
                                         }
                                     });
                                 </script>
-                                
+
 
                             <!-- Quiz Carousel -->
                                                                                 <div class='article_bottom_text'></div><br>
                                                             <div id="video-tab-content">
-                                                    <script> 
+                                                    <script>
                         var video_api_response = JSON.parse("[{\"id\":10044,\"title\":\"Reinforcement learning in Machine Learning\",\"slug\":\"reinforcement-learning-in-machine-learning\",\"description\":\"<h2>What is Reinforcement Learning?<\/h2><p>Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.<\/p><h3>Introduction to Reinforcement Learning<\/h3><p>Reinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.<\/p><h3>Key Components of Reinforcement Learning<\/h3><ol><li><strong>Agent<\/strong>: The learner or decision-maker that interacts with the environment.<\/li><li><strong>Environment<\/strong>: The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agent's actions.<\/li><li><strong>State<\/strong>: A representation of the current situation or configuration of the environment.<\/li><li><strong>Action<\/strong>: The set of all possible moves the agent can make in the environment.<\/li><li><strong>Reward<\/strong>: The feedback received from the environment as a result of the agent's actions. The goal of the agent is to maximize the cumulative reward over time.<\/li><li><strong>Policy<\/strong>: The strategy that the agent employs to determine the next action based on the current state.<\/li><li><strong>Value Function<\/strong>: A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.<\/li><\/ol><h3>How Reinforcement Learning Works<\/h3><p>Reinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.<\/p><ol><li><strong>Initialization<\/strong>: The agent starts with an initial policy and value function.<\/li><li><strong>Interaction<\/strong>: The agent interacts with the environment by taking actions.<\/li><li><strong>Feedback<\/strong>: The environment provides feedback in the form of rewards.<\/li><li><strong>Update<\/strong>: The agent updates its policy and value function based on the received rewards.<\/li><li><strong>Iteration<\/strong>: This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.<\/li><\/ol><h3>Types of Reinforcement Learning<\/h3><ol><li><strong>Model-Free Reinforcement Learning<\/strong>: The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.<\/li><li><strong>Model-Based Reinforcement Learning<\/strong>: The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.<\/li><\/ol><h3>Applications of Reinforcement Learning<\/h3><p>Reinforcement learning has a wide range of applications across various fields, including:<\/p><ol><li><strong>Robotics<\/strong>: Teaching robots to perform tasks autonomously by learning from interactions with their environment.<\/li><li><strong>Game Playing<\/strong>: Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.<\/li><li><strong>Autonomous Vehicles<\/strong>: Enabling self-driving cars to navigate complex environments by learning from real-world interactions.<\/li><li><strong>Finance<\/strong>: Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.<\/li><li><strong>Healthcare<\/strong>: Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.<\/li><\/ol><h3>Conclusion<\/h3><p>Reinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.<\/p><p>Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learning's ability to solve complex decision-making problems makes it a valuable tool in various domains.<\/p><p>For a detailed step-by-step guide, check out the full article: <a href=\\\"https:\/\/www.geeksforgeeks.org\/what-is-reinforcement-learning\/\\\">What is Reinforcement Learning?<\/a>.<\/p>\",\"source\":\"https:\/\/videos.geeksforgeeks.org\/hls\/0c3c7fb2a530e25573baf590f511e8dagfg-Reinforcementlearning20240808124643.m3u8\",\"category\":[{\"term_id__id\":37,\"term_id__term_name\":\"ML\",\"term_id__term_type\":2,\"term_id__slug\":\"ml\"},{\"term_id__id\":116,\"term_id__term_name\":\"Machine Learning\",\"term_id__term_type\":1,\"term_id__slug\":\"machine-learning\"},{\"term_id__id\":338,\"term_id__term_name\":\"machine-learning\",\"term_id__term_type\":2,\"term_id__slug\":\"machine-learning-c23scf\"}],\"meta\":{\"thumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\",\"largeThumbnail\":\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"likes\":0,\"views\":51920,\"isFeatured\":0,\"isPremium\":0,\"isPublic\":0,\"format\":\"video\/mp4\",\"revision\":{}},\"time\":\"08\/08\/2024\",\"subtitle\":\"https:\/\/videos.geeksforgeeks.org\/subtitles\/Reinforcementlearning20240808124643.vtt\",\"duration\":435,\"course_link\":null,\"video_schema\":{\"@context\":\"https:\/\/schema.org\",\"@type\":\"VideoObject\",\"name\":\"Reinforcement learning in Machine Learning\",\"description\":\"What is Reinforcement Learning?Are you interested in understanding the concept of reinforcement learning and how it works? This tutorial will guide you through the fundamentals of reinforcement learning, its key components, and its applications. This guide is perfect for students, professionals, and AI enthusiasts who want to enhance their knowledge of machine learning and artificial intelligence.Introduction to Reinforcement LearningReinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. Unlike supervised learning, where the model is trained on a dataset with labeled examples, reinforcement learning involves learning through interaction with the environment.Key Components of Reinforcement LearningAgent The learner or decision-maker that interacts with the environment.Environment The external system with which the agent interacts. It provides feedback in the form of rewards or punishments based on the agents actions.State A representation of the current situation or configuration of the environment.Action The set of all possible moves the agent can make in the environment.Reward The feedback received from the environment as a result of the agents actions. The goal of the agent is to maximize the cumulative reward over time.Policy The strategy that the agent employs to determine the next action based on the current state.Value Function A function that estimates the expected cumulative reward of being in a particular state or taking a particular action.How Reinforcement Learning WorksReinforcement learning is based on the idea of agents taking actions to achieve the maximum cumulative reward. The agent observes the current state of the environment, takes an action, and receives feedback in the form of a reward. This process continues, and the agent learns to improve its actions over time by maximizing the cumulative reward.Initialization The agent starts with an initial policy and value function.Interaction The agent interacts with the environment by taking actions.Feedback The environment provides feedback in the form of rewards.Update The agent updates its policy and value function based on the received rewards.Iteration This process repeats, with the agent continually refining its strategy to maximize the cumulative reward.Types of Reinforcement LearningModel-Free Reinforcement Learning The agent learns directly from interactions with the environment without building a model of the environment. Examples include Q-learning and SARSA.Model-Based Reinforcement Learning The agent builds a model of the environment and uses it to plan and make decisions. This approach can be more efficient but requires accurate modeling of the environment.Applications of Reinforcement LearningReinforcement learning has a wide range of applications across various fields, includingRobotics Teaching robots to perform tasks autonomously by learning from interactions with their environment.Game Playing Developing AI agents that can play and win games, such as AlphaGo, which defeated human champions in the game of Go.Autonomous Vehicles Enabling self-driving cars to navigate complex environments by learning from real-world interactions.Finance Using RL for algorithmic trading, portfolio management, and optimizing investment strategies.Healthcare Personalizing treatment plans and optimizing clinical decision-making by learning from patient data.ConclusionReinforcement learning is a powerful machine learning technique that enables agents to learn from interactions with their environment to make optimal decisions. By understanding the key components and principles of reinforcement learning, you can appreciate its potential and explore its various applications.Whether you are a student, a professional, or an AI enthusiast, learning about reinforcement learning can significantly enhance your understanding of artificial intelligence and machine learning. Reinforcement learnings ability to solve complex decision-making problems makes it a valuable tool in various domains.For a detailed step-by-step guide, check out the full article What is Reinforcement Learning?.\",\"thumbnailUrl\":[\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-seo.png\",\"https:\/\/media.geeksforgeeks.org\/geeksforgeeks\/ReinforcementlearninginMachineLearning\/Reinforcementlearning20240808124647-small.png\"],\"uploadDate\":\"2024-08-08T12:49:01Z\",\"duration\":\"PT0H7M15S\",\"contentUrl\":\"https:\/\/www.geeksforgeeks.org\/videos\/reinforcement-learning-in-machine-learning\/\"}}]");
                     </script>
                 <div id="#GFG_AD_InContent_Desktop_728x280" style="display: flex; width: 100%; justify-content: center;">
@@ -1125,7 +1125,7 @@ enable_page_level_ads: true
             allow="autoplay"
             referrerpolicy="origin"
         ></iframe>
-        
+
         <!-- This part is dynamically created by JavaScript -->
         <div id="video-info-container">
             <!-- Video title -->
@@ -1159,7 +1159,7 @@ enable_page_level_ads: true
             <div class="follow-btn" >
 <button id="followAuthor" type="button" onclick ="followOrUnfollowAuthor()" value="Prateek Bajaj">
 <span role="img" aria-label="plus" class="plus-icon"><svg viewBox="64 64 896 896" focusable="false" data-icon="plus" width="1em" height="1em" fill="currentColor" aria-hidden="true"><defs><style></style></defs><path d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"></path><path d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"></path></svg></span> <span>Follow</span></button></div></div></div></div>                                            </div>
-                                            
+
                                         </div>
                                         <div class="article_bottom_suggestion_wrapper">
                                             <!-- <div class="article_bottom_suggestion" data-title="Follow">
@@ -1174,19 +1174,19 @@ enable_page_level_ads: true
                                                     <figure id="likeCount" style="margin-left: 3px; margin-top: 4px; color: var(--like-count-color); font-size: 14px; font-weight: 600;" class="favoriteText"></figure>
                                                 </button>
                                             </div>
-                                            
+
                                                                             <div class="article_bottom_suggestion" onclick="improveArticleCall()" data-title="Improve">
                                     <span class="improveTooltipBottom">Improve</span>
                                     <i class="author-badge-improvement-button"></i>
                                 </div>
-                            
+
                                         </div>
                         </div>
                                                 <div class="bottom-wrap" style="">
                                                             <div class="improved">
                                     <div class="t-head">Article Tags : </div>
                                     <ul>
-                                        
+
             <li style="border-radius: 25px;" class="">
                 <a href="https://www.geeksforgeeks.org/category/ai-ml-ds/machine-learning/">Machine Learning</a>
             </li>
@@ -1198,15 +1198,15 @@ enable_page_level_ads: true
                                                 </div>
 
                                                 </article>
-                        
+
                                                                                     <div class="article--recommended article--recommended_wrapper" id="similar-reads">
                                                                 <h3 class="new-top-bar top-bar-title">Explore</h3>
                                     <div class="gfg-similar-reads-list">
                                         <ul class="similarReadLeftBarList"><div class="second"><h2 class="dropdown-title">Machine Learning Basics<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/introduction-machine-learning/"><p class="title-text">Introduction to Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">8 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/types-of-machine-learning/"><p class="title-text">Types of Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">13 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/blogs/machine-learning-pipeline/"><p class="title-text">What is Machine Learning Pipeline?</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/machine-learning-introduction/"><p class="title-text">Applications of Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">3 min read</span></div></a></div><h2 class="dropdown-title">Python for Machine Learning<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/"><p class="title-text">Machine Learning with Python Tutorial</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/python/numpy-tutorial/"><p class="title-text">NumPy Tutorial - Python Library</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">3 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/pandas/pandas-tutorial/"><p class="title-text">Pandas Tutorial</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/data-preprocessing-machine-learning-python/"><p class="title-text">Data Preprocessing in Python</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">3 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/data-analysis/exploratory-data-analysis-in-python/"><p class="title-text">EDA - Exploratory Data Analysis in Python</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a></div><h2 class="dropdown-title">Feature Engineering<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/"><p class="title-text">What is Feature Engineering?</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/dimensionality-reduction/"><p class="title-text">Introduction to Dimensionality Reduction</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">4 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/"><p class="title-text">Feature Selection Techniques in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a></div><h2 class="dropdown-title">Supervised Learning<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/supervised-machine-learning/"><p class="title-text">Supervised Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/"><p class="title-text">Linear Regression in Machine learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">15+ min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/"><p class="title-text">Logistic Regression in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">11 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/decision-tree-introduction-example/"><p class="title-text">Decision Tree in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">9 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/random-forest-algorithm-in-machine-learning/"><p class="title-text">Random Forest Algorithm in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/"><p class="title-text">K-Nearest Neighbor(KNN) Algorithm</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">8 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/support-vector-machine-algorithm/"><p class="title-text">Support Vector Machine (SVM) Algorithm</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">9 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/"><p class="title-text">Naive Bayes Classifiers</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a></div><h2 class="dropdown-title">Unsupervised Learning<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/unsupervised-learning/"><p class="title-text">What is Unsupervised Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/k-means-clustering-introduction/"><p class="title-text">K means Clustering &acirc;&#128;&#147; Introduction</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/hierarchical-clustering/"><p class="title-text">Hierarchical Clustering in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/"><p class="title-text">DBSCAN Clustering in ML - Density based clustering</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/apriori-algorithm/"><p class="title-text">Apriori Algorithm</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/frequent-pattern-growth-algorithm/"><p class="title-text">Frequent Pattern Growth Algorithm</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/ml-eclat-algorithm/"><p class="title-text">ECLAT Algorithm - ML</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">3 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/data-analysis/principal-component-analysis-pca/"><p class="title-text">Principal Component Analysis(PCA)</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a></div><h2 class="dropdown-title">Model Evaluation and Tuning<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/"><p class="title-text">Evaluation Metrics in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">9 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/regularization-in-machine-learning/"><p class="title-text">Regularization in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/cross-validation-machine-learning/"><p class="title-text">Cross Validation in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/hyperparameter-tuning/"><p class="title-text">Hyperparameter Tuning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">7 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/underfitting-and-overfitting-in-machine-learning/"><p class="title-text">ML | Underfitting and Overfitting</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/bias-vs-variance-in-machine-learning/"><p class="title-text">Bias and Variance in Machine Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">10 min read</span></div></a></div><h2 class="dropdown-title">Advanced Techniques<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/"><p class="title-text">Reinforcement Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/ml-semi-supervised-learning/"><p class="title-text">Semi-Supervised Learning in ML</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">5 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/self-supervised-learning-ssl/"><p class="title-text">Self-Supervised Learning (SSL)</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/a-comprehensive-guide-to-ensemble-learning/"><p class="title-text">Ensemble Learning</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">8 min read</span></div></a></div><h2 class="dropdown-title">Machine Learning Practice<span class="gfg-icon gfg-icon_arrow-down-thin"></span></h2><div class="dropdown-item" style="display: none !important; border-bottom: 1px solid #CCC;"><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/machine-learning-interview-questions/"><p class="title-text">Top 50+ Machine Learning Interview Questions and Answers</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">15+ min read</span></div></a><a class=" similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem similarReadDropdownItem" href="https://www.geeksforgeeks.org/machine-learning/machine-learning-projects/"><p class="title-text">100+ Machine Learning Projects with Source Code [2025]</p><div class="reading-time"><i class="reading-time-icon" data-gfg-action="readingtime"></i><span style="color: var(--recommendation-card-text-color); font-size: 14px; font-weight: 500; line-height: 17px;">6 min read</span></div></a></div></div></ul>
                                     </div>
                                 </div>
-                        
-                            
+
+
 
 
                                                 <div class="vote-wrap">
@@ -1235,18 +1235,18 @@ enable_page_level_ads: true
                 <div class="discussion_heading">
                     <div></div>
                     <i class="gfg-icon close-tab-icon"></i>
-                </div> 
+                </div>
                 <div class="discussion_content">                            <div style="height:100%">
                                 <div style="height:100%" id="comment-system"></div>
                             </div>
 
-                            
+
 </div>
             </div>
-        </div>  
+        </div>
 
         <div class="rightBar" style="padding-right: 5px;">
-                
+
 <style>
 	.article--container_content{
 		align-items: unset !important;
@@ -1332,7 +1332,7 @@ enable_page_level_ads: true
 </style>
 
 <div id="secondary" class="widget-area">
-	
+
 	<!------------------------ text-15 (for Ads) ------------------------ -->
 	<aside id="text-15" class="widget widget_text">
 		<div class="textwidget">
@@ -1457,7 +1457,7 @@ $(window).click(function (e) {
 function suggestionArticleCall() {
     $('.improve-modal--overlay').show();
     $('.improve-modal--improvement').css("display", "none");
-    $('.thank-you-message').css("display","none");  
+    $('.thank-you-message').css("display","none");
     $('.improve-modal--suggestion').show();
     $('#suggestion-section-textarea').show();
     if(suggestEditorInstance !== null){
@@ -1482,7 +1482,7 @@ $(document).ready(function() {
             var bottom_of_element = $(".article--recommended").offset().top + $(".article--recommended").outerHeight();
             var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
             var top_of_screen = $(window).scrollTop();
-            if ((bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) || 
+            if ((bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) ||
                 (bottom_of_screen > articleRecommendedTop && top_of_screen < articleRecommendedBottom) ||
                 (top_of_screen > articleRecommendedBottom)) {
                 if (!isfollowingApiCall) {
@@ -1502,7 +1502,7 @@ $(document).ready(function() {
             }
         });
     }
-    
+
     $(".accordion-header").click(function() {
         var arrowIcon = $(this).find('.bottom-arrow-icon');
         arrowIcon.toggleClass('rotate180');
@@ -1535,7 +1535,7 @@ function report_article(){
         window.scrollTo({ top: 0, behavior: 'smooth' });
         $("#report_modal_content").show();
     }
-} 
+}
 
 function closeShareModal() {
     const shareOption = document.querySelector('[data-gfg-action="share-article"]');
@@ -1561,21 +1561,21 @@ function openShareModal() {
         const socialContainer = Object.assign(document.createElement('div'), { className: "social__container" });
         const icon = Object.assign(document.createElement("div"), { className: `share__icon share__${socialOption.split(" ").join("")}-icon` });
         const socialText = Object.assign(document.createElement("span"), { className: "share__option-text" }, { textContent: `${socialOption}` });
-        const shareLink = (socialOption === "Copy Link") ? 
-            Object.assign(document.createElement('div'), { role: "button", className: "link-container CopyLink" }) : 
+        const shareLink = (socialOption === "Copy Link") ?
+            Object.assign(document.createElement('div'), { role: "button", className: "link-container CopyLink" }) :
             Object.assign(document.createElement('a'), { className: "link-container" });
 
-       
+
         if (socialOption === "LinkedIn") {
             shareLink.setAttribute('href', `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`);
             shareLink.setAttribute('target', '_blank');
         }
         if (socialOption === "WhatsApp") {
-            shareLink.setAttribute('href', `https://api.whatsapp.com/send?text=${window.location.href}`); 
+            shareLink.setAttribute('href', `https://api.whatsapp.com/send?text=${window.location.href}`);
             shareLink.setAttribute('target', "_blank");
         }
         if (socialOption === "Twitter") {
-            shareLink.setAttribute('href', `https://twitter.com/intent/tweet?url=${window.location.href}`); 
+            shareLink.setAttribute('href', `https://twitter.com/intent/tweet?url=${window.location.href}`);
             shareLink.setAttribute('target', "_blank");
         }
 
@@ -1587,8 +1587,8 @@ function openShareModal() {
         if(socialOption === "Copy Link") {
             shareLink.addEventListener("click", function() {
                 var tempInput = document.createElement("input");
-                tempInput.value = window.location.href; 
-                document.body.appendChild(tempInput); 
+                tempInput.value = window.location.href;
+                document.body.appendChild(tempInput);
                 tempInput.select();
                 tempInput.setSelectionRange(0, 99999); // For mobile devices
                 document.execCommand('copy');
@@ -1643,7 +1643,7 @@ $(document).ready(function() {
             line-height: 180%;
             text-align: center;
         }
-        
+
         .thank-you-message-content h2{
           font-family: var(--font-secondary);
         }
@@ -1653,7 +1653,7 @@ $(document).ready(function() {
         }
         .footer-wrapper_links-list{
            margin-block-start: 0em !important;
-           width: 16% !important; 
+           width: 16% !important;
            padding-inline-start: 18px !important;
         }
         .link-head{
@@ -1668,7 +1668,7 @@ $(document).ready(function() {
            margin: 29px 0 20px 5px !important;
            position: static;
            bottom: auto;
-          
+
           }
         .footer-flex{
           display: flex !important;
@@ -1798,7 +1798,7 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <div id="displayModalBackdrop" class="backdrop"></div>
   <!-- Footer start -->
   <footer class="gfg-footer" id="gfg-footer">
@@ -1810,17 +1810,17 @@ $(document).ready(function() {
               <div class="footer-wrapper_branding-address">
                   <div class="address_section">
                     <div class="address-icon-wrapper">
-                      <i class="gfg-icon gfg-icon_pin"></i> 
+                      <i class="gfg-icon gfg-icon_pin"></i>
                     <div class="address_div">
-                     
+
                       <div class="address_name">Corporate & Communications Address:</div>
                                             <div class="footer-address">
                       A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305)                    </div>
                     </div>
                   </div>
-                     
+
                       <div class="address-icon-wrapper">
-                      <i class="gfg-icon gfg-icon_pin"></i>  
+                      <i class="gfg-icon gfg-icon_pin"></i>
                       <div class="address_div">
                         <div class="address_name">Registered Address:</div>
                         K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305                      </div>
@@ -1828,7 +1828,7 @@ $(document).ready(function() {
                                       </div>
               </div>
               <div
-              class="footer-wrapper_branding-app-wrapper" id="brandingWrapper" 
+              class="footer-wrapper_branding-app-wrapper" id="brandingWrapper"
               style="display:block;
               flex-direction:row;
               gap:12px;
@@ -1871,7 +1871,7 @@ $(document).ready(function() {
             </div>
           </div>
         <div class="all-footer-information">
-          <div class="footer-wrapper_links" style="justify-content: space-between; text-align: -webkit-left;"><ul class="footer-wrapper_links-list" ><li>Company</li><li><a href=https://www.geeksforgeeks.org/about/>About Us</a></li><li><a href=https://www.geeksforgeeks.org/legal/>Legal</a></li><li><a href=https://www.geeksforgeeks.org/legal/privacy-policy/>Privacy Policy</a></li><li><a href=https://www.geeksforgeeks.org/about/contact-us/>Contact Us</a></li><li><a href=https://www.geeksforgeeks.org/advertise-with-us/>Advertise with us</a></li><li><a href=https://www.geeksforgeeks.org/gfg-corporate-solution/>GFG Corporate Solution</a></li><li><a href=https://www.geeksforgeeks.org/campus-training-program/>Campus Training Program</a></li></ul><ul class="footer-wrapper_links-list" ><li>Explore</li><li><a href=https://www.geeksforgeeks.org/problem-of-the-day>POTD</a></li><li><a href=https://practice.geeksforgeeks.org/events/rec/job-a-thon/>Job-A-Thon</a></li><li><a href=http://www.geeksforgeeks.org/community/>Community</a></li><li><a href=https://www.geeksforgeeks.org/videos/>Videos</a></li><li><a href=https://www.geeksforgeeks.org/category/blogs/?type=recent>Blogs</a></li><li><a href=https://www.geeksforgeeks.org/nation-skill-up/>Nation Skill Up</a></li></ul><ul class="footer-wrapper_links-list" ><li>Tutorials</li><li><a href=https://www.geeksforgeeks.org/computer-science-fundamentals/programming-language-tutorials/>Programming Languages</a></li><li><a href=https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/>DSA</a></li><li><a href=https://www.geeksforgeeks.org/web-tech/web-technology/>Web Technology</a></li><li><a href=https://www.geeksforgeeks.org/machine-learning/ai-ml-and-data-science-tutorial-learn-ai-ml-and-data-science/>AI, ML & Data Science</a></li><li><a href=https://www.geeksforgeeks.org/devops/devops-tutorial/>DevOps</a></li><li><a href=https://www.geeksforgeeks.org/gate/gate-exam-tutorial/>CS Core Subjects</a></li><li><a href=https://www.geeksforgeeks.org/aptitude/interview-corner/>Interview Preparation</a></li><li><a href=https://www.geeksforgeeks.org/gate/gate-exam-tutorial/>GATE</a></li><li><a href=https://www.geeksforgeeks.org/websites-apps/software-and-tools-a-to-z-list/>Software and Tools</a></li></ul><ul class="footer-wrapper_links-list" ><li>Courses</li><li><a href=https://www.geeksforgeeks.org/courses/category/machine-learning-data-science>IBM Certification</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/dsa-placements>DSA and Placements</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/development-testing>Web Development</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/programming-languages>Programming Languages</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/cloud-devops>DevOps & Cloud</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/gate>GATE</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/trending-technologies/>Trending Technologies</a></li></ul><ul class="footer-wrapper_links-list" ><li>Videos</li><li><a href=https://www.geeksforgeeks.org/videos/category/sde-sheet/>DSA</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/python/>Python</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/java-w6y5f4/>Java</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/c/>C++</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/web-development/>Web Development</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/data-science/>Data Science</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/cs-subjects/>CS Subjects</a></li></ul><ul class="footer-wrapper_links-list" ><li>Preparation Corner</li><li><a href=https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/>Aptitude</a></li><li><a href=https://www.geeksforgeeks.org/aptitude/puzzles/>Puzzles</a></li><li><a href=https://www.geeksforgeeks.org/courses/gfg-160-series>GfG 160</a></li><li><a href=https://www.geeksforgeeks.org/courses/dsa-skill-up>DSA 360</a></li><li><a href=https://www.geeksforgeeks.org/system-design/system-design-tutorial/>System Design</a></li></ul></div>        </div> 
+          <div class="footer-wrapper_links" style="justify-content: space-between; text-align: -webkit-left;"><ul class="footer-wrapper_links-list" ><li>Company</li><li><a href=https://www.geeksforgeeks.org/about/>About Us</a></li><li><a href=https://www.geeksforgeeks.org/legal/>Legal</a></li><li><a href=https://www.geeksforgeeks.org/legal/privacy-policy/>Privacy Policy</a></li><li><a href=https://www.geeksforgeeks.org/about/contact-us/>Contact Us</a></li><li><a href=https://www.geeksforgeeks.org/advertise-with-us/>Advertise with us</a></li><li><a href=https://www.geeksforgeeks.org/gfg-corporate-solution/>GFG Corporate Solution</a></li><li><a href=https://www.geeksforgeeks.org/campus-training-program/>Campus Training Program</a></li></ul><ul class="footer-wrapper_links-list" ><li>Explore</li><li><a href=https://www.geeksforgeeks.org/problem-of-the-day>POTD</a></li><li><a href=https://practice.geeksforgeeks.org/events/rec/job-a-thon/>Job-A-Thon</a></li><li><a href=http://www.geeksforgeeks.org/community/>Community</a></li><li><a href=https://www.geeksforgeeks.org/videos/>Videos</a></li><li><a href=https://www.geeksforgeeks.org/category/blogs/?type=recent>Blogs</a></li><li><a href=https://www.geeksforgeeks.org/nation-skill-up/>Nation Skill Up</a></li></ul><ul class="footer-wrapper_links-list" ><li>Tutorials</li><li><a href=https://www.geeksforgeeks.org/computer-science-fundamentals/programming-language-tutorials/>Programming Languages</a></li><li><a href=https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/>DSA</a></li><li><a href=https://www.geeksforgeeks.org/web-tech/web-technology/>Web Technology</a></li><li><a href=https://www.geeksforgeeks.org/machine-learning/ai-ml-and-data-science-tutorial-learn-ai-ml-and-data-science/>AI, ML & Data Science</a></li><li><a href=https://www.geeksforgeeks.org/devops/devops-tutorial/>DevOps</a></li><li><a href=https://www.geeksforgeeks.org/gate/gate-exam-tutorial/>CS Core Subjects</a></li><li><a href=https://www.geeksforgeeks.org/aptitude/interview-corner/>Interview Preparation</a></li><li><a href=https://www.geeksforgeeks.org/gate/gate-exam-tutorial/>GATE</a></li><li><a href=https://www.geeksforgeeks.org/websites-apps/software-and-tools-a-to-z-list/>Software and Tools</a></li></ul><ul class="footer-wrapper_links-list" ><li>Courses</li><li><a href=https://www.geeksforgeeks.org/courses/category/machine-learning-data-science>IBM Certification</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/dsa-placements>DSA and Placements</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/development-testing>Web Development</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/programming-languages>Programming Languages</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/cloud-devops>DevOps & Cloud</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/gate>GATE</a></li><li><a href=https://www.geeksforgeeks.org/courses/category/trending-technologies/>Trending Technologies</a></li></ul><ul class="footer-wrapper_links-list" ><li>Videos</li><li><a href=https://www.geeksforgeeks.org/videos/category/sde-sheet/>DSA</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/python/>Python</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/java-w6y5f4/>Java</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/c/>C++</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/web-development/>Web Development</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/data-science/>Data Science</a></li><li><a href=https://www.geeksforgeeks.org/videos/category/cs-subjects/>CS Subjects</a></li></ul><ul class="footer-wrapper_links-list" ><li>Preparation Corner</li><li><a href=https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/>Aptitude</a></li><li><a href=https://www.geeksforgeeks.org/aptitude/puzzles/>Puzzles</a></li><li><a href=https://www.geeksforgeeks.org/courses/gfg-160-series>GfG 160</a></li><li><a href=https://www.geeksforgeeks.org/courses/dsa-skill-up>DSA 360</a></li><li><a href=https://www.geeksforgeeks.org/system-design/system-design-tutorial/>System Design</a></li></ul></div>        </div>
       </div>
             <!-- Jobs Fair 2024 related CSS changes -->
 
@@ -1950,7 +1950,7 @@ $(document).ready(function() {
 <script>
   if(post_slug.includes('premium-plans-payment/') || post_slug.includes('premium-plans/')){
     $('.darkMode-wrap').remove();
-    $('.toggle-darkMode').remove(); 
+    $('.toggle-darkMode').remove();
   }
 
 function setGoogleRecaptcha() {
@@ -1974,7 +1974,7 @@ function setGoogleRecaptcha() {
                     </div>
                 </div>
                 <div class="locked-status--impove-modal">
-                    <div class="improve-modal--improve-content error-message"></div>                    
+                    <div class="improve-modal--improve-content error-message"></div>
                     <div class="improve-modal--improve-bottom">
                         <button class="improve-bottom-btn" type="button">Suggest changes</button>
                     </div>
@@ -2023,7 +2023,7 @@ function setGoogleRecaptcha() {
                               <h2>Thank You!</h2>
                               <div class="thank-you-message-content">Your suggestions are valuable to us.</div>
                         </div>
-                </div> 
+                </div>
                 <!-- Button of improve-modal--improvement and improve-modal--suggestion have same CSS rule that's why I use same class name -->
                 <div class="improve-modal--improve-bottom suggestion-btn">
                     <p><span id="suggestion-modal-alert" style="display: none;"></span></p>
@@ -2040,7 +2040,7 @@ function setGoogleRecaptcha() {
               const advertiseBox = document.getElementById("advertiseBox");
               const footerContainer = document.querySelector(".footer-wrapper");
               const right = document.querySelector(".all-footer-information");
-            
+
             function checkFlex() {
               if (isMobileView || window.innerWidth <= 991) {
                 wrapper.style.display = "block";
@@ -2170,7 +2170,7 @@ function setGoogleRecaptcha() {
             $('.suggest-change_wrapper, .locked-status--impove-modal .improve-bottom-btn').on('click',function(){ // when suggest changes option is clicked
               $('.ContentEditable__root').text("");
               $('.suggest-bottom-btn').html("Suggest changes");
-              $('.thank-you-message').css("display","none");  
+              $('.thank-you-message').css("display","none");
               $('.improve-modal--improvement').hide();
               $('.improve-modal--suggestion').show();
               $('#suggestion-section-textarea').show();
@@ -2241,12 +2241,12 @@ function setGoogleRecaptcha() {
                     return;
                 }
                             }
-            function suggestionCall() {   
+            function suggestionCall() {
                 var editorValue = suggestEditorInstance.getValue();
                 var suggest_val = $(".ContentEditable__root").find("[data-lexical-text='true']").map(function() {
                                     return $(this).text().trim();
                                     }).get().join(' ');
-                suggest_val = suggest_val.replace(/\s+/g, ' ').trim();     
+                suggest_val = suggest_val.replace(/\s+/g, ' ').trim();
                 var array_String= suggest_val.split(" ") //array of words
                 var gCaptchaToken = $("#g-recaptcha-response-suggestion-form").val();
                 var error_msg = false;
@@ -2311,7 +2311,7 @@ function setGoogleRecaptcha() {
                     }, 3000);
                 }
             }
-            
+
             document.querySelector('.suggest-bottom-btn').addEventListener('click', function(){
               jQuery('body').append('<div class="spinner-loading-overlay"></div>');
               jQuery('.spinner-loading-overlay').show();
@@ -2472,7 +2472,7 @@ AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
     localStorage.setItem('gfgAdBlockPopup',new Date())
   }
   function showAdblockerModal(){
-    let randomNumberForButtonText = Math.round(Math.random()); 
+    let randomNumberForButtonText = Math.round(Math.random());
     let currTime = new Date();
     let lastTime = new Date(localStorage.getItem('gfgAdBlockPopup'));
     if(((currTime-lastTime)/(1000*60*60))<1)
@@ -2538,7 +2538,7 @@ AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
     const videocontainer = document.getElementById('ad-blocker-info-div-gif');
     const videosource = document.getElementById('ad-blocker-info-div-gif-src');
     if(lastSelected != null){
-      document.getElementById("ad-blocker-info-div-icons-"+lastSelected).style.backgroundColor = "white";  
+      document.getElementById("ad-blocker-info-div-icons-"+lastSelected).style.backgroundColor = "white";
       document.getElementById("ad-blocker-info-div-icons-"+lastSelected).style.borderColor = "#D6D6D6";
     }
     document.getElementById("ad-blocker-info-div-icons-"+currSelected).style.backgroundColor = "#D9D9D9";
@@ -2557,7 +2557,7 @@ AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
 /* Temporary CSS for Three90 pop up modal (START)*/
     .three90popup__container {
       width: 100vw;
-      height: 100vh; 
+      height: 100vh;
       position: fixed;
       top:0px;
       background: var(--job-tab-faded-background);
@@ -2606,7 +2606,7 @@ AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
       border:none;
       font-weight: 600;
       cursor: pointer;
-    } 
+    }
     #three90__modal-close-btn:hover {
       background-color: #cacbcd;
     }
@@ -2630,7 +2630,7 @@ AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
 </script>
 
 <script async src="https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/event-promotion.min.js?ver=4.8"></script>
-  
+
 <!-- gfg tabs compatablity bundled js -->
 
 <!-- Google Tag Manager -->
@@ -2676,7 +2676,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         --left-bar-background: #FFFFFF;
         --write-redirect-container:#EAF2F7;
         --write-redirect-container-hover:#d6e7f2;
-        
+
     }
 
 /* Dark Mode */

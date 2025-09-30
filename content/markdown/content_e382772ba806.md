@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Blackmail: It Works</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Why the GOP’s debt-ceiling victory was a generational defeat for liberals.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -877,14 +877,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="81"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-1@published"
-  
+
 > It ended with scenes straight from a Nora Ephron movie, or one of those weaker <em>West Wing</em> episodes with Kristin Chenoweth as the way-too-competent consultant. Gabrielle Giffords <a data-linktype="External" href="https://www.slate.com/blogs/weigel/2011/08/01/gabby_giffords_returns_and_the_debt_deal_passes_the_house.html">returned</a> to the House to cast her first vote since surviving a bullet to the brain. The House and Senate passed a debt-limit deal that got the votes of Nancy Pelosi and John Boehner, Harry Reid and Mitch McConnell. The crisis concluded with a <a data-linktype="External" href="http://slatest.slate.com/posts/2011/07/24/congress_scrambles_for_debt_plan_ahead_of_opening_markets.html">Rose Garden speech</a>, as if someone had just won a war.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-2@published"
-  
+
 >All of that obscured the truth about the debt crisis. The truth: It was completely insane. It was, as Democrats say, largely unprecedented and mostly unnecessary. It was, as Republicans say, fogged up with hype that made the politics and market moves uglier than they needed to be. The inevitable tick-tocks of the deal and the slide shows of winners and losers obscure the fact that Washington just blew two months negotiating a 10-year budget cut right before it was about to knuckle down and … negotiate the 2012 budget.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -895,14 +895,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="99"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-3@published"
-  
+
 >In the final hours before the votes—269-161 in the House, 74-26 in the Senate—no one sounded completely happy. House Republican leaders appeared the most pleased. Rep. Paul Ryan, R-Wis., who will have to fight again on the budget in September, crowed that he’d gotten two-thirds of the cuts that he’d wanted over 10 years. <a data-linktype="External" href="http://presspass.msnbc.msn.com/_news/2011/07/22/7138493-press-pass-sen-mike-lee-r-ut-on-balanced-budget-taxes-2012">Sen. Mike Lee, R-Utah,</a> a constitutional scholar whose single-mindedness turned him into one of the stars of the crisis, predicted that the debt limit would never again be raised without a debate over spending cuts. Democrats were conceding all this. They just didn’t like it.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="104"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-4@published"
-  
+
 >“Democrats will use this on a Republican president,” sighed Rep. Richard Neal, D-Mass., right before voting “no” on the deal on Monday. “You can take it to the bank. I remember a moment in the Clinton impeachment when they were interviewing [then-Rep.] Elizabeth Holtzman about the special counsel’s office. She said it was never intended to be used the way Ken Starr was using it. Well, <em>that’s what happens</em> here. Down the road, I’m sure the Democratic caucus will embrace it. And it’ll make for a tone that is angrier and uglier. And then people will say, ‘Oh, that wasn’t what we intended!’ “</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -981,14 +981,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="64"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-5@published"
-  
+
 >Why didn’t it ever occur to Democrats to use the debt-limit vote as a negotiating tactic? Partly it’s that they really believed what they were saying—they never thought the debt-limit vote should be subject to politics. And if you’d paid attention to the politics of spending and debt before, nothing would have convinced you that a Sergio Leone standoff like this would pay off. </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="89"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-6@published"
-  
+
 >At the end of 1995, the first year of Newt Gingrich’s Republican revolution, the GOP threatened to vote against a debt-limit hike unless they got policy concessions. Gingrich argued that the Treasury “has the authority to avoid default.” Treasury Secretary Robert Rubin said that he couldn’t make that work. Republicans rapidly lost the P.R. battle over the debt limit, especially when Moody’s issued a potential downgrade threat. They conceded: The debt limit could be increased, with provisions for a child tax credit and presidential vetoes for budget line items.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1013,7 +1013,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="75"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-7@published"
-  
+
 >That was the precedent, but it wasn’t revisited for years. In the Bush era, Republicans once deemed the debt-limit hike as “passed” in another funding bill. In February 2009, Democrats simply added an $800 billion hike in the debt limit—from $11.3 trillion to $12.1 trillion—to the stimulus bill. There was a consensus: Play with the debt limit and you lose. That was true until July 2011, when Republicans played with the debt limit and won.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1038,7 +1038,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-8@published"
-  
+
 >“I think we handled it better than in 1995,” said Sen. John McCain, R-Ariz., after voting “aye” on the deal today. “The dynamics of the electorate changed. The last election had a lot to do with spending and the economy. I’m not saying things were <em>great</em> in 1995, but the debt wasn’t as large. Unemployment wasn’t as high.”</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1063,7 +1063,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="171"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-9@published"
-  
+
 >That in itself didn’t guarantee that Republicans would prevail. High unemployment wasn’t a symptom of the high deficit, and budget cuts weren’t going to be a cure for it. But Republicans had two advantages that they lacked in 1995. They had a media landscape that had tilted in their direction, something that allowed everything from credulous interviews about their ideas <a data-linktype="External" href="http://thecaucus.blogs.nytimes.com/2011/01/18/cantor-says-house-wont-raise-debt-limit-without-serious-cuts/">to loud amplification</a> of what conservatives wanted. When MoveOn opposed the final version of the deal, it made only a fraction as much noise as the Club for Growth made, or Tea Party Patriots made, with announcements about their stances. When Sen. Pat Toomey, R-Pa., ingenuously drafted a bill to require the Treasury secretary to pay off debt obligations if the government ran dry on funds, he <a data-linktype="External" href="http://online.wsj.com/article/SB10001424052748703954004576089963912388314.html">got to roll it out</a> with a <em>Wall Street Journal</em> op-ed and talk it up all over talk radio and cable news. The senator whose ideas were called “<a data-linktype="External" href="http://www.politico.com/news/stories/0211/48825.html">unworkable</a>” by the Treasury secretary got to rebut that with guest-host spots on CNBC’s <em>Squawk Box</em>.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1124,14 +1124,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="84"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-10@published"
-  
+
 >About that Treasury secretary. When the Democrats of 1995 wanted to portray the GOP’s debt-limit stance as completely insane, they had Robert Rubin backing them up. Forget what you think of Rubin now; at the time, the public trusted him. When the Democrats of 2011 wanted to rebut Republicans, they had the word of Timothy Geithner, which the public didn’t put much stock in. According to CNN polling, <a data-linktype="External" href="http://www.pollingreport.com/g.htm#Geithner">at any given time</a>, only around one in four Americans have a favorable opinion of Geithner.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="132"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-11@published"
-  
+
 >There was more to the Democrats’ strategy than just sending out Geithner as a salesman. They were always fighting uphill, because Americans didn’t really want to raise something called a “debt limit.” (Even in today’s postwar CNN poll, a slight majority of voters don’t want to raise the ceiling—a tumble down from an older, larger majority, but still.) They had an argument to make about the necessity of tax hikes in the deal. That argument was hobbled because of their initial stance—if they wanted a “clean” debt limit, why pivot to a “balanced” deal that wasn’t clean? On May 31, Republicans brought up a “clean” debt-limit increase, just to make a point. It <a data-linktype="External" href="http://www.huffingtonpost.com/2011/05/31/house-gop-medicare-debt-limit_n_869468.html">failed by a vote</a> of 318 to 97, with every single Republican putting the hammer down and voting “no.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1192,21 +1192,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="31"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-12@published"
-  
+
 >The argument didn’t start by pointing out the role tax cuts played in nudging us closer to the ceiling, even under President Barack Obama (in the stimulus, in the tax deal).</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-13@published"
-  
+
 >And now it doesn’t really matter. Republicans not only got a deal, <a data-linktype="External" href="http://www.washingtonpost.com/blogs/ezra-klein/post/how-congress-put-our-credit-rating-at-risk/2011/07/11/gIQA3WxhTI_blog.html">they got Moody’s</a> and other raters to expect one. The raters went from favoring a clean deal to <a data-linktype="External" href="http://www.washingtonpost.com/blogs/ezra-klein/post/how-congress-put-our-credit-rating-at-risk/2011/07/11/gIQA3WxhTI_blog.html">demanding one with deep cuts</a>; they did this, they said, because it seemed like the Republicans were making such a deal possible. <a data-linktype="Bookmark" href="https://www.slate.com#correction">*</a> “I think we are going to have spending cuts with every increase in the debt limit,” said McCain. It was just what Democrats were saying. Somebody keep an eye out, because this hostage is going to get taken again.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="22"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-14@published"
-  
+
 ><em><strong>Correction, <a name='correction' resizable='yes' linktype='Bookmarkname'></a> Aug. 3, 2011</strong>: This article originally mischaracterized how the demands of Moody’s raters on Washington policymakers changed during the debt debate.</em></p>
 
 <div
@@ -1271,7 +1271,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1306,7 +1306,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="news_and_politics/politics"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-e093cdd23b4a16ec90ad52f4a460e2e6-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1357,7 +1357,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1382,7 +1382,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1892,7 +1892,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

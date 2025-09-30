@@ -55,26 +55,26 @@ async def list_content(
     try:
         # Use direct SQLite query to avoid metadata manager issues
         from helpers.simple_database import SimpleDatabase
-        
+
         db = SimpleDatabase()
         with db.get_connection() as conn:
             # Build query
             where_clauses = []
             params = []
-            
+
             if content_type:
                 where_clauses.append("content_type = ?")
                 params.append(content_type)
-                
+
             where_clause = " WHERE " + " AND ".join(where_clauses) if where_clauses else ""
-            
+
             # Get total count
             count_query = f"SELECT COUNT(*) FROM content{where_clause}"
             total = conn.execute(count_query, params).fetchone()[0]
-            
+
             # Get items
             query = f"""
-                SELECT id, title, url, content_type, created_at, updated_at, 
+                SELECT id, title, url, content_type, created_at, updated_at,
                        'completed' as status
                 FROM content
                 {where_clause}
@@ -82,9 +82,9 @@ async def list_content(
                 LIMIT ? OFFSET ?
             """
             params.extend([limit, skip])
-            
+
             rows = conn.execute(query, params).fetchall()
-            
+
             # Convert to ContentItem objects
             items = []
             for row in rows:
@@ -92,14 +92,14 @@ async def list_content(
                     uid=str(row[0]),
                     title=row[1] or "Untitled",
                     source=row[2] or "",
-                    content_type=row[3] or "article", 
+                    content_type=row[3] or "article",
                     status=row[6],
                     created_at=row[4] or "",
                     updated_at=row[5] or "",
                     tags=[],  # Simple implementation without tags for now
                     content_path=None
                 ))
-        
+
         return ContentListResponse(items=items, total=total)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error listing content: {str(e)}")
@@ -113,26 +113,26 @@ async def list_content_html(
     """List all content as HTML page"""
     try:
         from helpers.simple_database import SimpleDatabase
-        
+
         db = SimpleDatabase()
         with db.get_connection() as conn:
             # Build query
             where_clauses = []
             params = []
-            
+
             if content_type:
                 where_clauses.append("content_type = ?")
                 params.append(content_type)
-                
+
             where_clause = " WHERE " + " AND ".join(where_clauses) if where_clauses else ""
-            
+
             # Get total count
             count_query = f"SELECT COUNT(*) FROM content{where_clause}"
             total = conn.execute(count_query, params).fetchone()[0]
-            
+
             # Get items
             query = f"""
-                SELECT id, title, url, content_type, created_at, 
+                SELECT id, title, url, content_type, created_at,
                        'No summary available' as summary,
                        'completed' as status
                 FROM content
@@ -141,9 +141,9 @@ async def list_content_html(
                 LIMIT ? OFFSET ?
             """
             params.extend([limit, skip])
-            
+
             rows = conn.execute(query, params).fetchall()
-            
+
             # Build HTML
             content_rows = ""
             for row in rows:
@@ -153,12 +153,12 @@ async def list_content_html(
                 created_at = row[4] or ""
                 status = row[6]
                 summary = row[5] or "No summary available"
-                
+
                 # Truncate summary for display
                 summary_display = summary[:200] + "..." if len(summary) > 200 else summary
-                
+
                 status_color = "#28a745" if status == "completed" else "#ffc107"
-                
+
                 content_rows += f"""
                 <tr>
                     <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
@@ -181,11 +181,11 @@ async def list_content_html(
                     </td>
                 </tr>
                 """
-            
+
             # Pagination
             prev_link = f"?skip={max(0, skip-limit)}&limit={limit}" if skip > 0 else ""
             next_link = f"?skip={skip+limit}&limit={limit}" if skip + limit < total else ""
-            
+
             pagination = f"""
             <div style="margin: 20px 0; text-align: center;">
                 {'<a href="' + prev_link + '" style="margin-right: 10px;">← Previous</a>' if prev_link else ''}
@@ -193,7 +193,7 @@ async def list_content_html(
                 {'<a href="' + next_link + '" style="margin-left: 10px;">Next →</a>' if next_link else ''}
             </div>
             """
-            
+
             html_content = f"""
             <!DOCTYPE html>
             <html>
@@ -234,7 +234,7 @@ async def list_content_html(
             </body>
             </html>
             """
-            
+
             return html_content
     except Exception as e:
         return f"<html><body><h1>Error</h1><p>Error loading content: {str(e)}</p></body></html>"
@@ -249,7 +249,7 @@ async def get_content(
         metadata = manager.load_metadata(content_id)
         if not metadata:
             raise HTTPException(status_code=404, detail="Content not found")
-            
+
         return ContentItem(
             uid=metadata.uid,
             title=metadata.title,
@@ -273,10 +273,10 @@ async def submit_url_for_processing(
     """Submit a URL for processing via unified ingestion queue"""
     try:
         from helpers.unified_ingestion import submit_url
-        
+
         # Submit URL to unified queue
         job_id = submit_url(submission.url, priority=50, source="api")
-        
+
         return {
             "success": True,
             "message": "URL queued for processing",
@@ -284,7 +284,7 @@ async def submit_url_for_processing(
             "url": submission.url,
             "status": "queued"
         }
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error submitting URL: {str(e)}")
 
@@ -307,14 +307,14 @@ async def save_bookmarklet_content(
             """, (save_data.title, save_data.url, save_data.content, save_data.content_type))
             conn.commit()
             content_db_id = cursor.lastrowid
-        
+
         return {
             "status": "success",
             "message": f"Content saved successfully: {save_data.title}",
             "id": content_db_id,
             "title": save_data.title
         }
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error saving content: {str(e)}")
 
@@ -330,7 +330,7 @@ async def upload_file_for_processing(
         with open(temp_file, "wb") as buffer:
             content = await file.read()
             buffer.write(content)
-        
+
         # For now, just acknowledge the upload
         # In a full implementation, this would trigger processing
         return {"message": f"File {file.filename} uploaded successfully", "temp_path": temp_file}
@@ -348,17 +348,17 @@ async def delete_content(
         metadata = manager.load_metadata(content_id)
         if not metadata:
             raise HTTPException(status_code=404, detail="Content not found")
-        
+
         # Delete the metadata file
         manager.delete_metadata(content_id)
-        
+
         # Attempt to delete associated files if they exist
         if metadata.content_path and os.path.exists(metadata.content_path):
             os.remove(metadata.content_path)
-        
+
         # Delete from any other storage locations based on content type
         # This would be expanded based on the actual file structure
-        
+
         return {"message": f"Content {content_id} deleted successfully"}
     except HTTPException:
         raise

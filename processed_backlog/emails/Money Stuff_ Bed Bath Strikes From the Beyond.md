@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In the first few months of 2023, on its way into bankruptcy, Bed Bath & Beyond Inc. sold a ton of stock. In January 2023, it had about 117.3
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath from the beyond
-    
-  
+
+
 
 In the first few months of 2023, on its way into bankruptcy, Bed Bath & Beyond Inc. sold a ton of stock. In January 2023, it had about 117.3 million shares outstanding, worth about $3.35 each; by April, it had 739.1 million, worth about $0.30 each. Then it went bankrupt and now the shares are worth zero, though you can find contrarian views.
 These stock sales always struck me as extraordinarily cynical: Bed Bath pretty much knew that it would be filing for bankruptcy with no recovery for shareholders, but it went out and raised a few hundred million dollars from meme-stock retail investors to hand directly to creditors. I wrote:
@@ -109,37 +109,37 @@ The complaint calculates that Hudson Bay made $310 million of profits, though th
 Still, what an amazing trade. There Bed Bath was, more or less bankrupt, trying to round up money for creditors. Hudson Bay came to it with a deal that, ultimately, did raise $360 million from retail investors to hand to creditors, and Bed Bath paid Hudson Bay probably tens of millions of dollars for its help. And now it might be able to extract $300 million more from Hudson Bay to hand over to creditors!
 The general rule of stocks is that, if you are a shareholder in a public company, you can lose all your money, but you can’t lose more than that. If you buy stock and the company goes bankrupt and there’s not enough money to pay the creditors, you get $0 back, but you don’t have to chip in more money to pay the creditors. With its Hudson Bay trade, Bed Bath found a way to get around that rule. Twice! First, in the lead-up to bankruptcy, it raised money from shareholders to hand directly to creditors, and now, in bankruptcy, it is going back to Hudson Bay for more.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private markets are the new public markets
-    
-  
+
+
 
 You could just imagine letting companies precisely customize how their stock trades:
 	Your stock can trade 24 hours a day, or just regular trading hours, or one auction a day, or one big liquidity event per quarter, or only on specific dates that you choose at your discretion.	The trading price of your stock could be publicly reported in real time, or with a delay, or not at all.	You can disclose news and audited GAAP financial statements publicly to everyone, or only to your current investors, or you can keep everything secret.	You can let anyone buy your stock, or only “accredited investors” (roughly people making over $200,000 a year), or only institutional investors, or only US investors, or only non-US investors.	Or you can blacklist particular investors, or categories of investors: no activist funds, maybe, or no high-frequency traders, or no environmental, social and governance funds, or nobody who owns shares in your competitors.	You can give yourself various rights to step into trades: You can have a right of first refusal over any sales of stock, or you get to approve each trade, or you can allow them only at particular prices, etc.	You can allow short selling, or not.	You can give your outside shareholders equal voting rights, or keep super-voting shares for your founder and insiders, or not give the public shareholders any votes at all.
@@ -167,11 +167,11 @@ All of them are trying to answer the same question: is there really an alternati
 
 Just feels like eventually someone has to figure out a good one.
 
-  
-    
+
+
       Bridgewater
-    
-  
+
+
 
 If you start a hedge fund and it goes well and you have good performance and gather a lot of assets, you will become a big-time hedge fund manager, and then I suppose you face a choice. Do you institutionalize the fund, so that you can eventually step back and transition to new leadership without a hiccup, or do you build a cult of personality around yourself as a singular genius who controls every aspect of the firm’s operations, so that you feel important but can never leave? I feel like Ray Dalio at Bridgewater Associates is unusual in that he somehow did the maximum amount of both. Bridgewater is a huge automated institution that has operated without Dalio for a while now, but also few companies have ever been built more in the image of one person. Anyway the Financial Times checks in with the new guy:
 
@@ -188,11 +188,11 @@ Feedback is predominantly given by junior employees to more senior ones, which i
 
 Right right see at a lot of hedge funds the way it works is that the junior analyst says “we should buy this stock” and the experienced portfolio manager is like “no we shouldn’t, here’s why,” and the junior analyst learns over time what stocks to buy. Whereas at Bridgewater “feedback is predominantly given by junior employees to more senior ones,” because it is pursuing some higher goal than teaching the employees how to make money in financial markets.
 
-  
-    
+
+
       Effective altruism
-    
-  
+
+
 
 I have always kind of thought that a clever form of effective altruism would be “we build a giant casino for crypto gambling, we skim a percentage of the handle, and we use it to buy mosquito nets to save poor people from malaria.” I once suggested to Sam Bankman-Fried that this might be what he was up to at FTX, his crypto exchange. Just moving money from low-valued uses to high-valued ones, very neat and utilitarian.
 A less clever — but faster? — form of effective altruism would be “we build a giant casino for crypto gambling, then we steal all the money and use it to buy mosquito nets.” Arguably that is closer to what Bankman-Fried was actually up to, though that’s not quite right either. FTX actually recovered most of the client money, but also it does not seem to have notably devoted a ton of customer money to effective charitable works on behalf of the world’s poorest. 
@@ -204,11 +204,11 @@ It’s amid such turmoil that Wytham Abbey is being listed on the open market fo
 
 Fine right FTX didn’t actually buy them the castle, but now they have to sell the castle after paying back the money that FTX did give them. Probably that was for mosquito nets.
 
-  
-    
+
+
       Gentlemen
-    
-  
+
+
 
 I wrote yesterday about a guy who bought a spot as a substitute on a second-division Portuguese soccer team, because being a professional athlete is cool, so why shouldn’t sports teams sell a few spots? I said:
 A lot of people want to go watch the Yankees, but probably a lot of people would also like to be able to say that they played for the Yankees. Maybe auction off a few roster spots? There is a balance to be struck here: I suspect you could find a few hedge fund managers who would pay a lot of money to be Lionel Messi’s teammate for a game, but if Inter Miami fielded a team made up of the 11 highest bidders then most of the glamour would be lost. (I would still watch this?)
@@ -222,16 +222,16 @@ Almost all top players play with sponsors. As a result, top teams at American to
 
 That’s basically what this is, except it’s bridge.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Binance Pledged to Thwart Suspicious Trading—Until It Involved a Lamborghini-Loving High Roller. Companies Can’t Issue Debt Fast Enough With 88 Deals in 72 Hours. Buybacks Are Back: Corporate America Is on a Spending Spree. Sony and Apollo’s Plan for Paramount: Break It Up. South Africa ponders ‘corporate sunset’ for Anglo American. Premier League Club Saga Takes a New Twist With 777 Lawsuit. Why Wall Street is transfixed by a BofA banker's untimely death. UBS Wins Further Delay in Filing Response to AT1 Wipeout Case. Ex-Goldman Banker Fights Extradition Over Ghana Bribery Case. ‘
 Seriously Underwater’ Home Mortgages Tick Up Across the US. Palm Beach Old Guard Revolts Over First New Luxury Condos in Decades. Hospitals Are Refusing to Do Surgeries Unless You Pay in Full First. Apple Draws Growing Backlash Against Ad Depicting Crushed Creative Tools. Hedge fund boss Paul Marshall loses case over silver salvaged from shipwreck. Baidu executive tells staff: ‘I’m not your mum.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The headline discount was 8% — Hudson Bay got the stock at 92% of the lowest volume-weighted average price of the stock over the 10 trading days leading up to (and including) the conversion date — but that lookback option (using the lowest daily price over the 10 previous days) is valuable, and there were other little bonuses involved.
 
 
@@ -244,57 +244,57 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Disclosure, the lawyer who filed it, James Hunter, is a law school classmate of mine.
 
 
-  [5] The daily average price was generally higher than the closing price during this period because, man, that stock was going straight down. 
+  [5] The daily average price was generally higher than the closing price during this period because, man, that stock was going straight down.
 
 
-  [6] Though some companies try to prevent it. 
+  [6] Though some companies try to prevent it.
 
 
   [7] Is that a menu feature that you can turn off in private markets? I think the answer, in US law, is “probably not,” but I bet someone’s working on it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -305,46 +305,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl153c.5ike/03193087.gif" alt="" border="0" /></a>

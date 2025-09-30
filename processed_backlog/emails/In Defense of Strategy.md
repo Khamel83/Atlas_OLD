@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/in-defense-of-strategy
 
-Welcome to the 579 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 208,497 smart, curious folks by subscribing here: 
+Welcome to the 579 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 208,497 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Slack [ https://link.sbstck.com/redirect/1b609e49-7cf9-4eb5-97f2-0c05c3ee322a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 What’s the first thing founders do when starting a company? Buy a website domain? File incorporation docs? Add “Stealth” to their LinkedIn?
 Nope. The first thing founders do is start a new Slack Workspace [ https://link.sbstck.com/redirect/1b609e49-7cf9-4eb5-97f2-0c05c3ee322a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
@@ -86,17 +86,17 @@ Picking the right moat for your market is crucial.
 As Dan Hockenmaier [ https://link.sbstck.com/redirect/2c98c9ff-976c-47e3-83a6-d52a8b776798?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], who runs strategy and analytics at Faire [ https://www.faire.com/ ] put it: “Most of the value is picking a lane that’s going to lend itself to defensibility.” 
 If you’re building a physical product, you might focus on scale economies. If you’re building a SaaS product, you might focus on switching costs. If you’re building a social app, you’ll probably focus on network effects.
 It’s important to be a student of history here. Optimism is an important trait in a founder, but realism skewing towards pessimism is the right state of mind for a diagnosis. The first moat you reach for might not survive deeper scrutiny.
-Take social apps. Understand why the last 1,000 failed before convincing yourself you’ll be the one to crack network effects. 
+Take social apps. Understand why the last 1,000 failed before convincing yourself you’ll be the one to crack network effects.
 Or marketplaces. Hockenmaier notes that, “Network effects are overrated for marketplaces. They are usually not enough to drive defensibility on their own. They take too many lessons from single-sided network effects and ignore the challenges with dual-sided networks.” Look instead to scale economies or switching costs.
 Aim for moats with non-linear returns, where being 2x or 10x bigger provides outsized benefits. Hockenmaier looks for “asymptoting curves that take a long time to asymptote.” The goal is finding moats where you stay steps ahead thanks to non-linear returns. 
 Airbnb picked the right asymptoting curves – more supply kept delivering more defensibility. When Wimdu tried to compete with it in Europe, Airbnb won because its scale drove cross-border network effects. Airbnb picked a business in which getting to scale fast mattered, and then got to scale fast before the window closed.
 Looking for curves that take a long time to asymptote is a good rule of thumb when evaluating network effects, switching costs, and scale economies in any industry: once you’re running in the right direction, how far can out-executing your competitors take you? 
 No matter which industry you’re entering, if you get to this point in the diagnosis and the best potential moat you can come up with is brand or process power, you might be in trouble. Both take a very long time to develop, if they do at all, and when they do, it’s often through some emergent magic. 
-Cornered resources are also tricky, but not impossible, to acquire. 
+Cornered resources are also tricky, but not impossible, to acquire.
 So before you launch, and definitely before you raise money, figure out whether you think you can create scale economies, switching costs, maybe network effects, or mayyybe cornered resources before your uncertainty window closes. 
 But what if that’s not enough time? What if you’re entering a market that already has competitors? 
 My favorite power – counter-positioning – might be able to help. Counter-positioning isn’t a forever moat, but it can be really useful in extending your window until you can dig one. Ramp [ https://ramp.com/ ] counter-positioned beautifully in corporate cards. I wrote about it here [ https://www.notboring.co/p/ramp-the-card-sized-finance-team ] and here [ https://www.notboring.co/p/ramping-up ].
-Not every idea has a viable path to defensibility. That’s OK. It’s better to toss the idea or decide to bootstrap after a couple weeks of researching and writing than it is to spend years of your life and millions of dollars of other peoples’ money going the venture-backed route on something that you know ahead of time will probably fail. 
+Not every idea has a viable path to defensibility. That’s OK. It’s better to toss the idea or decide to bootstrap after a couple weeks of researching and writing than it is to spend years of your life and millions of dollars of other peoples’ money going the venture-backed route on something that you know ahead of time will probably fail.
 Knowing what game you should be playing is strategy, too. 
 Finally, if the founders see a path to defensibility, they need to determine the one or two most important challenges to address head-on. 
 Based on your diagnosis, what is the most critical solvable problem facing your company? Identify that upfront, and craft your strategy around solving it. 
@@ -126,7 +126,7 @@ Every startup has limited resources. It can only spend so much money, hire so ma
 A good diagnosis and guiding policy channels and coordinates those limited actions so that they can compound on each other.
 Good strategy can actually free startups up to move faster by making it clear exactly what the company wants to do, and for whom, and giving autonomy to the talented people it hires by letting them select their own coherent actions that fit within the strategy. A clear strategy from the top allows more independent decision-making at all levels. 
 This, finally, is where execution comes into play. Execution absolutely matters, but it’s only effective if it’s guided in such a way that it addresses the one or two things that remove uncertainty and defend the business once the uncertainty is removed. 
-I planned to spend most of the essay on coherent actions, on the idea that they’re the equivalent of compound interest for startups, but once I started writing, I realized that if you get the diagnosis and guiding policy right, coherent actions flow in the course of execution. And coherent actions 
+I planned to spend most of the essay on coherent actions, on the idea that they’re the equivalent of compound interest for startups, but once I started writing, I realized that if you get the diagnosis and guiding policy right, coherent actions flow in the course of execution. And coherent actions
 So I’ll show you how it worked at Breather instead. 
 Good Strategy at Breather
 Diagnosis
@@ -167,10 +167,10 @@ But strong execution without a good strategy is a road to nowhere in an F1 car.�
 Don’t ignore strategy. Read Good Strategy Bad Strategy [ https://link.sbstck.com/redirect/46f2f7e2-b9e8-4135-98a1-4a30a8d16b69?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], 7 Powers [ https://link.sbstck.com/redirect/2a10f313-693f-439e-a057-28aaff0bf701?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and Productive Uncertainty [ https://reactionwheel.net/2020/11/productive-uncertainty.html ]. Take the time to honestly diagnose the situation, come up with a good guiding policy, and focus your company’s limited actions so that they build on each other. Keep refreshing it as you learn more. Have fun solving the puzzle. 
 Running a startup is going to be hard no matter what. Execution is hard. So don't just execute. Plot a course, forge advantages, build strengths. Create something enduring.
 Strategy comes down to choices. The first choice is whether or not to have a strategy. Founders can bet on brute force execution alone. Or pair execution with strategy to tilt the odds.
-When uncertainty looms, strategy lets you see the path before competitors do. It might just give you the time you need to succeed. 
-Thanks to Dan [ https://twitter.com/damccormick13 ] for editing, and to Dan Hockenmaier [ https://link.sbstck.com/redirect/2c98c9ff-976c-47e3-83a6-d52a8b776798?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the conversation! 
-That’s all for today! We’ll be back in your inbox on Friday with the Weekly Dose. 
-Thanks for reading, 
+When uncertainty looms, strategy lets you see the path before competitors do. It might just give you the time you need to succeed.
+Thanks to Dan [ https://twitter.com/damccormick13 ] for editing, and to Dan Hockenmaier [ https://link.sbstck.com/redirect/2c98c9ff-976c-47e3-83a6-d52a8b776798?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the conversation!
+That’s all for today! We’ll be back in your inbox on Friday with the Weekly Dose.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE0xTkRJeE56STNMQ0pwWVhRaU9qRTJPVEF5T0RrNU1ESXNJbVY0Y0NJNk1UWTVNamc0TVRrd01pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkN3TktzQVRMenN2OWQ2UGxqOWtpOTM1eFJYNEdwRVU4djJ1d3dkRG9GV1kmZXhwaXJlcz0zNjVkIiwicCI6MTM1NDIxNzI3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY5MDI4OTkwMiwiZXhwIjoxNjkyODgxOTAyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.PljrW_8KK6oZw_WWC-oYwPOVxYpYL1Fte-mNkZnwnaw?

@@ -131,7 +131,7 @@ This copy is for your personal, noncommercial use only. You can order presentati
 <h1><nyt_headline version="1.0" type=" ">The Dollar-Store Economy</nyt_headline></h1>
 <nyt_byline>    <h6 class="byline">By JACK HITT</h6>
 </nyt_byline>
- 
+
 <nyt_text>
 <div id="articleBody">
  <nyt_correction_top>
@@ -228,8 +228,8 @@ A pallet of giant restaurant-grade cans formed a giant ingot of eggplant in toma
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20110825205153im_/http://up.nytimes.com/?d=0/15/&amp;t=&amp;s=0&amp;ui=0&amp;r=http%3a%2f%2fwww%2enytimes%2ecom%2f2011%2f08%2f21%2fmagazine%2fthe%2ddollar%2dstore%2deconomy%2ehtml%3fpagewanted%3dall&amp;u=www%2enytimes%2ecom%2f2011%2f08%2f21%2fmagazine%2fthe%2ddollar%2dstore%2deconomy%2ehtml%3fpagewanted%3dprint">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

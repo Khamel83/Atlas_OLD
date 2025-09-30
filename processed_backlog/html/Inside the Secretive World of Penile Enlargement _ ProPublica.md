@@ -7,13 +7,13 @@
 
 # Inside the Secretive World of Penile Enlargement
 
-by [Ava Kofman](https://www.propublica.org/people/ava-kofman); Photography by Philip Cheung, special to [ProPublica](https://www.propublica.org) 
+by [Ava Kofman](https://www.propublica.org/people/ava-kofman); Photography by Philip Cheung, special to [ProPublica](https://www.propublica.org)
 
 June 26, 2023, 6 a.m. EDT
 
 ## How a doctor’s two-decade quest to grow the penis is leaving some men desperate and disfigured.
 
-by [Ava Kofman](https://www.propublica.org/people/ava-kofman); Photography by Philip Cheung, special to [ProPublica](https://www.propublica.org) 
+by [Ava Kofman](https://www.propublica.org/people/ava-kofman); Photography by Philip Cheung, special to [ProPublica](https://www.propublica.org)
 
 June 26, 2023, 6 a.m. EDT
 

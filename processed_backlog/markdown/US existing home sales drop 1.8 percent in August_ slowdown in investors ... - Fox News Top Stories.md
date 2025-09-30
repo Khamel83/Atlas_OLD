@@ -12,9 +12,9 @@
 
 # Fox News
 
-Fox News Digital • September 22, 2014 
+Fox News Digital • September 22, 2014
 
 ![Fox News](http://static.foxnews.com/static/orion/styles/img/fox-news/favicons/favicon.ico)
 
-This material may not be published, broadcast, rewritten, or redistributed. ©2025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper. 
+This material may not be published, broadcast, rewritten, or redistributed. ©2025 FOX News Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset. Powered and implemented by FactSet Digital Solutions. Legal Statement. Mutual Fund and ETF data provided by Refinitiv Lipper.
 

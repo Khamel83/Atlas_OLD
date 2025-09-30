@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are, I think, three main ways to get into the business of selling carbon offsets: You are an environmentalist: You want to avert clima
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Carbon offsets
-    
-  
+
+
 
 There are, I think, three main ways to get into the business of   selling carbon offsets:
 	You are an environmentalist: You want to avert climate change, and you think that the carbon offsets business is a good way to do it. Your motives are essentially idealistic.	You are   a logger: You own some timberland, you cut it down to make lumber or paper, you track the markets for lumber and paper closely, and you realize that the carbon offsets market will pay you more for not cutting down trees than the lumber market will pay you for cutting them down. Your motives are straightforward and price-based.	You are a financial engineer: You are in the business of structuring financial products to address the perceived problems of people on both sides of the trade, and sitting in the middle and taking a cut. Your competitive position depends on coming up with creative new trades to propose, and creative new ways to take your cut. Carbon credits — which involve new and complicated accounting regimes, and which involve selling a product that you don’t create (emissions) to people who don’t use it — are a particularly appealing generator of financial engineering. Your motives are basically profit-oriented, though also somewhat aesthetic. 
@@ -110,37 +110,37 @@ More generally the optimal way to do carbon offsets is:
 
 I mean, not optimal for the world or anything, just optimal for you. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The CEO of Goldman Sachs is no longer a DJ
-    
-  
+
+
 
 For a while   there seemed to be a small but real and hilarious chance that David Solomon, the chief executive officer of Goldman Sachs Group Inc.,
   [1]
@@ -155,11 +155,11 @@ Following a request for comment, Goldman spokesman Tony Fratto said: “This is 
 
 Does he still DJ birthday parties? Client meetings? Are there secret underground clubs deep in Bushwick throwing 3 a.m. raves where David Solomon DJs to a small but enthusiastic crowd of electonic-music cognoscenti? No. Anyway I am going to forget about this immediately and continue to tell everyone that the CEO of Goldman Sachs is also a DJ.
 
-  
-    
+
+
       Ozempic is great for business
-    
-  
+
+
 
 Last week  I wrote about a hypothetical “drug that reduces consumption in general, a universal demand suppressant,” which would be good for the profits of the drug company that invented it (it could sell a lot of pills) but bad for all the other companies. In a world of universal ownership of the stock market, where most public companies are largely owned by the same big institutional investors, this would create an interesting tension: The company that invented the drug would want to sell a lot of it, to raise its own profits, but that company’s owners — the universal shareholders — would not want that, because, as diversified investors, they would lose more from their other companies than they would gain from the drug company.
 This was of course inspired by Ozempic, Wegovy and Mounjaro, the new class of weight-loss and, like, impulse-control drugs. But only loosely inspired by them. For one thing, those drugs  do not really reduce demand universally: They will probably lead to reduced spending on snack foods and cigarettes, but people will still want to do other stuff, and they’ll be healthier and live longer and so probably consume more overall. (Josh Barro is even more optimistic about their effects, writing that “they improve humans’ natural intelligence along at least one dimension and probably several. I think that’s extremely exciting and a much better candidate for singularly-important-technological-advance-of-our-time than AI.”)
@@ -173,11 +173,11 @@ The Lilly Endowment’s 11% stake makes it Eli Lilly’s biggest shareholder. Th
 
 I suppose this means that, if Eli Lilly or Novo Nordisk does discover a drug that is good for humanity but bad for the stock market, they will be inclined to market it anyway. 
 
-  
-    
+
+
       Drug cartel compliance
-    
-  
+
+
 
 We have   talked a few   times around   here about the compliance function at ransomware hacking firms. In general, any sort of firm will have to decide what level of crime it is optimal to commit. For a normal company, I think the conventional wisdom is that the optimal level of crime is low, but probably slightly higher than zero. Meanwhile,   I wrote:
 What if your company’s business is crime? What if you are a Mafia family, or a ransomware hacking group? Clearly the optimal level of crime is not zero: If your business is crime, you have to do crime to get revenue. But the optimal level of crime is also not infinite: If you do too many crimes, or crimes that are too bad, you will get in too much trouble. Doing more and bigger crimes should increase your crime-based revenue, but it also increases the resources that officials will expend on trying to shut you down, and thus your risks of being stopped and punished. At some point the lines cross, and you should forego some criminal revenue in order to keep your legal risk manageable.
@@ -189,11 +189,11 @@ Exports of cocaine, heroin and methamphetamine to the U.S. will likely rise in t
 
 You will not be surprised to learn that the punishment for cartel employees who violate this order is not a negative note in their personnel file. The optimal amount of crime for the Sinaloa drug cartel apparently continues to include quite a lot of murder.
 
-  
-    
+
+
       Meal allowances
-    
-  
+
+
 
 Speaking of the optimal level of crime at normal companies. I   wrote yesterday about hypothetical abuses of investment bank meal allowances. I proposed a few, and ended with “Or you do one of the seven more creative minor abuses that my readers are going to email me about today.” Here are two. First:
 I eat a big lunch, but not a huge dinner. So the $45 we get for dinner doesn't do much for me. What I do is go to our local food court, buy my $15 salad, and then tip the guy the remaining $30. The next day, when I'm getting lunch, the guy will conveniently "forget" to ring up half the items. 
@@ -201,60 +201,60 @@ Principal/agent problems on both sides, love it. And:
 At [one firm], it was very common for senior employees to have a waiter change the “number of guests” that often appears on a receipt to, say, “14 people” and claim employees or clients were at dinner when it was really just 2 guys racking up a $2000 bar tab at a Tuesday. 
 That’s like … kind of a medium-level abuse?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Long-End Treasuries Hit by Wildest Swings Since 2020 Pandemic.  Home Sales on Track for Slowest Year Since Housing Bust. Real Estate Brokers Pocketing Up to 6% in Fees Draw   Antitrust Scrutiny.   Goldman Traders Soften Blow From Real Estate Hit, Strategy Shift. BofA’s Profit Tops Estimates on Trading, Net Interest Income. Country Garden Bondholders Yet to Get Interest as Deadline Looms. Risk-Advisory Firms Decide  Hong Kong Isn’t Worth It. Tucker Carlson’s Media Company Secures Investment Led by New  ‘Anti-Woke’ Firm 1789 Capital. Mexico revives century-old railway in $2.8bn bid to  rival Panama Canal. Dalio’s   Abu Dhabi Penthouse Shows Rise of New Hedge Fund Hubs. Sanctioned Billionaire Fridman Able to   Take the Bus, UK Says. It’s Getting Too Expensive to  Have Fun.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Disclosure, where I used to work.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -265,46 +265,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjoj92.5hv0/345efa46.gif" alt="" border="0" /></a>

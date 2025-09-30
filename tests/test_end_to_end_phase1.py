@@ -77,7 +77,7 @@ class TestPhase1EndToEnd:
                     timeout=10,
                 )
                 stdout, stderr = process.communicate()
-                
+
                 # Script should either show help or exit gracefully
                 assert process.returncode in [
                     0,

@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/decentralization
 
-Welcome to the 2,810 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 170,734 smart, curious folks by subscribing here: 
+Welcome to the 2,810 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 170,734 smart, curious folks by subscribing here:
 (I will try my best to record an audio version; I was editing down to the wire and I’m fried!)
 Today’s Not Boring is brought to you by… Masterworks [ https://substack.com/redirect/ac62bd63-07d7-4556-906b-9d50a3b3744c?r=9p0gt ]
 You may have missed a big financial story earlier this month (Not FTX). On the same day that the Dow fell over 600 points, and Bitcoin plunged to its lowest level since 2020; the art market soared.
@@ -65,7 +65,7 @@ Apps: Big vs. Small
 Media: Substack vs. Journalism
 Education: Factory vs. Personalized
 Finance: Big Banks vs. Fintech
-Don’t worry, we’ll cover all of these in turn. 
+Don’t worry, we’ll cover all of these in turn.
 The push towards decentralization isn’t complete. It may just be starting. Even at maturity, there will still certainly be centralized counter-examples (and the seeds of re-centralization).
 In the middle of this storm, in this Liminal Space, it feels like things are fragmenting and splintering, directionlessly and pointlessly. But I’m an optimist [ https://substack.com/redirect/ee1a4b2c-a29e-4b5a-965f-d753d55d3326?r=9p0gt ], and I think there’s an upward slope to all of the ups and downs. New technologies shatter old systems, but they help us piece new ones together in previously-impossible and superior ways. 
 Before we get to those examples, let’s take a journey through the history of that upward sloping sine wave to set the stage for the idea that not only are a bunch of things decentralizing, but that that decentralization sets the stage for a new era defined by decentralization.
@@ -80,7 +80,7 @@ The better we could communicate on a mass scale, the more our species began to f
 Human history can be viewed as a history of the ways that we’ve organized ourselves to meet our basic needs and attempted to progress beyond them. 
 There’s a lot left to cover here! For more on decentralization, including 11 examples, the internet as a centralizing force, and how crypto fits in:
 Thanks to Dan [ https://substack.com/redirect/0af9b665-de73-48c3-a94f-7c76ec64b361?r=9p0gt ] for editing this beast — I’m sorry for making you read so many words.
-That’s all for today. Hope you have a great Thanksgiving if you celebrate, and hope you enjoy all the Americans being offline for a little bit if you don’t! We’ll be back in your inbox next Monday morning. 
+That’s all for today. Hope you have a great Thanksgiving if you celebrate, and hope you enjoy all the Americans being offline for a little bit if you don’t! We’ll be back in your inbox next Monday morning.
 Thanks for reading,
 Packy
 

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked on Wednesday about an unusual situation at a couple of special purpose acquisition companies. Basically a SPAC raises money by sel
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Spare SPAC money
-    
-  
+
+
 
 We talked on Wednesday about an unusual situation at a couple of special purpose acquisition companies. Basically a SPAC raises money by selling stock to public shareholders at $10 per share, puts the money in a trust account, and then either (1) uses the money to merge with a private company, taking it public and giving the public shareholders shares in that newly public target company, or (2) fails to do a merger within two years and gives the shareholders their $10 back with interest. The sponsor of the SPAC generally pays the expenses of starting the SPAC and looking for a deal; if she finds a deal she is richly rewarded (with 20% of the SPAC’s shares), but if she doesn’t she eats those costs. The trust account can’t be touched to pay those costs; it is there to be used only if the SPAC finds a deal.
 What we talked about Wednesday was the edge case in which a SPAC does not do a deal and somehow incurs expenses that the sponsor does not pay. In that case, it seems that the SPAC can ask the public shareholders to hand back some of the money that they got: The company really had to pay that money to its vendors before it paid the shareholders, and so the shareholders seem to be technically liable for paying it back. Or so the SPACs say anyway. In practice the numbers involved are small — $0.02 or $0.11 per share — and it seems unlikely that the SPACs will pursue every retail shareholder to the ends of the earth for, like, $11 each. Also, I mean, the sponsor really should bear these expenses. But, right, technically, if you invest in a SPAC and it somehow ends up with (1) no deal, (2) your $10 per share plus interest in a trust account, and (3) a negative amount of money in its other accounts, then I guess you could have to make up the difference.
@@ -82,89 +82,89 @@ The SPAC explosion has led to its fair share of “fast ones” by fiduciaries,
 As the boom-time SPACs unwind, there are more of these cases. In May 2021, a SPAC called Pioneer Merger Corp. signed an agreement to merge with fintech startup Acorns Grow Inc.; that deal was terminated in January 2022 with a $32.5 million fee. Pioneer never found another deal, and in January 2023 it redeemed its shareholders at $10.10 plus interest, keeping the fee for the sponsor. Shareholders sued. And in July 2021, a SPAC called Concord Acquisition Corp. agreed to a merger with crypto stablecoin company Circle Internet Financial Ltd. It renegotiated the deal at a higher price in February 2022, but by December 2022 the deal was off and Circle agreed to pay a $20 million termination fee (in stock). Later that month, the SPAC redeemed its shareholders at $10.18 per share and kept the fee for its sponsor. Shareholders sued.
 The thing is that no one seems to have thought very much about this edge case. If you read the original offering documents for these SPACs, they say both that if there is no deal shareholders get only their money back with interest, and that if there is no deal the sponsors get nothing. “Our initial stockholders will lose their entire investment in us if our initial business combination is not completed,” says the boilerplate in the Concord offering document. That sounds like the sponsor should get nothing if there’s no deal, right? But another risk factor says that if there is no deal “our public stockholders may receive only $10.00 per share, or less than such amount in certain circumstances,” and explains that the shareholders will be cashed out only for the amount in the trust account. If a shell company with no operations never completes a merger, that will normally mean that it ends up only with the $10 plus cash in its trust account, and it is reasonably clear who gets that. (The public shareholders get all of it, the sponsor gets none of it.) But if it lucks into some cash anyway, it is less clear who gets that.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is bank fraud
-    
-  
+
+
 
 Part of the story of the collapse of FTX Trading Ltd. — the story that its now-indicted founder, Sam Bankman-Fried, told about it — is that FTX misplaced a few billion dollars of customer money due to an unfortunate but understandable mix-up. It went like this, see. Early in its history, FTX had trouble opening bank accounts, because banks were nervous about dealing with crypto exchanges. But Alameda Research, Bankman-Fried’s crypto trading firm, did have access to banks, in part because crypto trading firms are less off-putting to banks than crypto exchanges are
   [2]
@@ -195,20 +195,20 @@ On the other hand lying to a bank   is its own crime, and tends to be a bit   ea
   [6]
 : You fill out some forms to open a bank account, and the bank keeps the forms and shares them readily with the government, and if what you say on the forms doesn’t match what you were doing then you can go to prison, whether or not what you were doing was stealing money from customers.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       PRPLS
-    
-  
+
+
 
 It is not so long ago that I was writing enthusiastically about novel ways that public companies had just discovered to, uh, let’s say optimize shareholder voting. “We just live in a golden age of blank-check preferred stock with weird voting rights and fun acronyms,” I wrote last week. This week, though, they are all getting sued. We talked on Tuesday about a lawsuit against AMC Entertainment Holdings Inc. over its APE preferred shares, which it issued as a way to get around the requirement that a majority of its shareholders approve the issuance of new common shares. Apparently some shareholders did not like being gotten around.
 And we  talked last week about Purple Innovation Inc., a mattress company that is 45% owned by Coliseum Capital Management LLC. Coliseum nominated five candidates for Purple’s seven-member board of directors, and it seemed likely that, with 45% of the vote, it would be able to elect its candidates and take over the board. (And then, possibly, buy out the 55% of Purple that it does not currently own, as it has proposed to do in the past.)
@@ -232,11 +232,11 @@ The other is that Purple apparently did this dividend one day after selling st
 Shockingly, the Preferred Issuance came one day after a stock offering settled whereby Purple received from Coliseum $27 million in cash that Purple needed to facilitate an amendment to its credit agreement to provide Purple with necessary flexibility and runway for growth. The [Non-Executive Director] Defendants knew as early as January 17, 2023, that Coliseum considered nominating a new slate of directors, and knew well in advance of the stock offering closing that they planned to authorize the Preferred Issuance if they received formal notice of Coliseum’s slate. Nevertheless, the NED Defendants―acting in bad faith―allowed Coliseum (and other stockholders) to proceed with the stock offering without ever disclosing that they had crafted a dilutive dividend that they were ready to and would deploy at a moment’s notice to fundamentally change the voting structure and prevent holders of a majority of the common stock from replacing the entire Board. 
 It is a weird relationship. Purple has a controlling-ish shareholder, the shareholder wants to buy the company, and the board seems to dislike the shareholder. If you are the board in that situation, you might try to mess with shareholder voting rights to contain the controlling shareholder, but you might also have to hit that shareholder up for money. You want to get the timing right: You ask them for money before you cut off their voting rights.
 
-  
-    
+
+
       Kodak
-    
-  
+
+
 
 In general, it is the position of this newsletter (though it is not legal advice) that:
 	You should not do insider trading.	If you must do insider trading, you should not text your accomplice about it.	If you must do crimes and text your accomplices about them, you should not use cutesy codenames for your crimes. You should use boring codenames for your crimes. If you are paying bribes, don’t call them “chickens”! Call them “consulting fees”! That’s ambiguous! If you call them “chickens,” everyone knows that (1) they are not chickens but (2) they are crimes. 
@@ -257,19 +257,19 @@ GRAY: Great, thanks for the update
 
 That would have been better! You can work with that! That wouldn’t be the first thing they put in the press release and show the jury! Come on.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 DOJ Preps Antitrust Suit to   Block Adobe’s $20 Billion Figma Deal. U.S. Regulators Warn Banks of Heightened Liquidity Risks in  Crypto-Related Deposits. Crypto Company  CoinEx Sued by New York Over Failure to Register. Consultants start to  cut jobs as boom time ends. Fed Rate Policy Is Shaking Up the World of  Muni Debt. Vivek Ramaswamy’s fund manager  Strive sticks to its ‘anti-woke’ mission. Documents from JPMorgan’s Jamie Dimon sought in  Jeffrey Epstein lawsuits.   Thomas Lee, Billionaire Private Equity Pioneer, Dies at 78. The Top Takeaways From   300 Years of Investment Advice.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Though obviously you can’t be required to pay back more than your $10 per share: You are a shareholder, and you have limited liability. In fact the cases we talked about Wednesday involved the SPACs asking shareholders for a portion of the *interest* they got on their cash — they got $10.22 back and the SPAC thinks they should have gotten $10.11, etc. — and I think it would be a much bigger deal if the SPACs tried to eat into *principal*. If you invest $10 in a SPAC and get back $9.50, that’s bad.
 
 
-  [2] It is worth understanding why: A crypto exchange is essentially in a sort of banking and money-transmitting business, and if you are a bank that deals with a crypto exchange you have to worry about *its* customers. You have to worry about whether it is doing appropriate  know-your-customer/anti-money-laundering checks and whether it is properly licensed to do that business. A crypto trading firm is just someone’s pot of money to speculate with; they might lose the money, but that’s not your problem if you are their bank. 
+  [2] It is worth understanding why: A crypto exchange is essentially in a sort of banking and money-transmitting business, and if you are a bank that deals with a crypto exchange you have to worry about *its* customers. You have to worry about whether it is doing appropriate  know-your-customer/anti-money-laundering checks and whether it is properly licensed to do that business. A crypto trading firm is just someone’s pot of money to speculate with; they might lose the money, but that’s not your problem if you are their bank.
 
 
   [3] “Especially in 2017, if you named your company like We Do Cryptocurrency Bitcoin Arbitrage Multinational Stuff, no one's going to give you a bank account if that's your company name,” Bankman-Fried  once explained.
@@ -278,7 +278,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Some is about alleged use of straw donors to  make political contributions.
 
 
-  [5] At a high level it is not too unlike the collapses of  Lehman Brothers or  MF Global, or for that matter the painful but non-fatal trouble at the   London Metal Exchange last year. 
+  [5] At a high level it is not too unlike the collapses of  Lehman Brothers or  MF Global, or for that matter the painful but non-fatal trouble at the   London Metal Exchange last year.
 
 
   [6] As  Patrick McKenzie puts it: “Many, many crimes involve lies, but most lies told are not crimes and most lies told are not recorded for forever. We did, however, make a special rule for lies told to banks: they’re potentially very serious crimes and they will be recorded with exacting precision, for years, by one of the institutions in society most capable of keeping accurate records and most findable by agents of the state. This means that if your crime touches money, and much crime is financially motivated, and you get beyond the threshold of crime which can be done purely offline and in cash, you will at some point attempt to interface with the banking system. And you will lie to the banks, because you need bank accounts, and you could not get accounts if you told the whole truth. The government wants you to do this. Their first choice would be you not committing crimes, but contingent on you choosing to break the law, they prefer you also lie to a bank.”
@@ -287,114 +287,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Purple used to have a controlling shareholder (not Coliseum) that owned a special class of Class B shares. But it  exited that position and now there is just a small residue of Class B stock. But the original idea seems to have been that Purple couldn’t dividend B shares to A shareholders or vice versa.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Ten days ago OpenAI was worth $86 billion. Investors in OpenAI were about to launch a tender offer to buy employee shares at that valuation,
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI
-    
-  
+
+
 
 Ten days ago OpenAI was worth $86 billion. Investors in OpenAI were about to launch a tender offer to buy employee shares at that valuation, and employees were lining up to tender; there were willing buyers and sellers at that price. Then events occurred. There was a boardroom coup, and OpenAI’s founder and chief executive officer, Sam Altman, was fired. At one point, the valuation of OpenAI was apparently zero dollars: Several OpenAI investors were noisily saying that they were going to   write down their shares to zero,
   [1]
@@ -97,37 +97,37 @@ Microsoft has had to strike a tricky balance with OpenAI: safeguarding its inves
 And there were moments last week when it looked like Microsoft had gotten that balance wrong, and its investment might be worthless. But not too many of them? The worst case seems to have been mostly “Microsoft hires Altman and all of his employees and has basically acquired OpenAI for $13 billion”; the best case — and largely the actual outcome — was “Microsoft can tell OpenAI’s board what to do even without having a board seat.” No board seats and tons of practical leverage is probably better, for economic and regulatory reasons, than having a board seat. And now everyone knows!
 Last Monday, I   wrote a column the gist of which is “sure the nonprofit OpenAI board technically controls the company and Microsoft and the other investors have no legal rights, but practically the investors have the money and they will probably get what they want.” I qualified that conclusion, because at the time the investors conspicuously had not gotten what they wanted, but by Tuesday night they did. It turns out that Microsoft’s informal sources of leverage were in fact good enough. It turns out that, in exactly the right circumstances, investing $13 billion in a nonprofit at an $86 billion valuation is fine.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Further OpenAI
-    
-  
+
+
 
 A few quick points.
 First, University of Kentucky law professor Alan James Kluegel emailed me to suggest a theory that maps the OpenAI conflict — between its nonprofit board that worried about AI safety, and its employees who love Altman and wanted him back — onto a straightforward valuation dispute:
@@ -152,11 +152,11 @@ The board agreed to discuss the matter with their counsel. After a few hours, th
 Fourth, last week   I asked some questions like “did [Microsoft] agree to any sort of non-compete or non-solicit,” and “does Altman have any sort of non-solicit?” I was careful not to ask “did OpenAI’s employees sign non-competes,” because I am aware (not legal advice!) that employee non-competes  don’t work in California. But a lot of readers emailed me to point that out anyway, and also pointed out that non-solicitation clauses are also  generally  not enforced in California. So, there, that’s why.
 Finally, it is a  long-running schtick of this column that whenever I take a day off, Elon Musk does something crazy. I took much of last week off for Thanksgiving. “I guess by Monday Elon Musk is going to own OpenAI and Binance,” I  threaded. But I wasn’t really worried until OpenAI’s new board  was announced. The chairman is Bret Taylor, who was also the chairman of the board of Twitter Inc. when Musk bought it. I don’t really think that Musk is going to buy OpenAI, but I am going to take some time off for the holidays in December so who knows.
 
-  
-    
+
+
       Binance
-    
-  
+
+
 
 Here are two possible theories of what Binance is:
 	Binance is the world’s leading crypto exchange, a large financial institution that allows investors, speculators, hedgers and other users to transact in the trillion-dollar cryptocurrency sector. It is in many ways the leading financial institution in crypto, but it is fairly young and aggressive, and it has not always been very careful about compliance. In particular, it has not been careful about anti-money-laundering and know-your-customer checks, and so has allowed a certain number of bad people to do bad transactions using crypto.	Binance is a place for laundering money.
@@ -164,7 +164,7 @@ Here are two possible theories of what Binance is:
 These theories differ in degree; they start from similar facts but emphasize them differently. Nobody disputes that a lot of criminals have laundered money on Binance. “For example,” the US Department of Justice pointed out in a  criminal information against Binance last week, “in a February 2019 chat conversation, one compliance employee wrote, ‘we need a banner “is washing drug money too hard these days — come to binance we got cake for you.”’” If your compliance employees are suggesting that you advertise your drug money laundering business, that seems bad.
   [4]
 
-And yet last week’s US federal charges against Binance struck me as fairly gentle. The US Securities and Exchange Commission, in practice though not in so many words, takes the position that crypto exchanges are fundamentally illegal; the practical goal of 
+And yet last week’s US federal charges against Binance struck me as fairly gentle. The US Securities and Exchange Commission, in practice though not in so many words, takes the position that crypto exchanges are fundamentally illegal; the practical goal of
 its crypto enforcement actions (including against Binance) is to shut them down, or at least shut them out of the US. The US Department of Justice does not take that position; its basic theory of Binance is that Binance messed up, a lot, and has to pay a huge fine and change its practices, but that it can go ahead and do that. It’s a basically legitimate business with a money laundering problem, the Justice Department thinks. Which is a pretty good outcome?
 Anyway here are the Justice Department  press release from last Tuesday, the  charging document and Attorney General  Merrick Garland’s remarks. Binance will pay about $4.3 billion and “retain an independent compliance monitor for three years and remediate and enhance their anti-money laundering and sanctions compliance programs.” There was a time, not so long ago, when people thought that it was a death blow to a financial institution to make it plead guilty to criminal charges. But   that time ended, and now it is … not routine, maybe, but kind of acceptable for a big bank or other financial institution to plead guilty to crimes. Binance is in some sense just a financial institution like any other, and paying $4.3 billion to settle compliance problems is … almost a step toward the mainstreaming of crypto?
 Maybe that is too glib. Binance founder Changpeng “CZ” Zhao pleaded guilty to his own federal crimes and agreed to step down as chief executive officer; he faces prison time, which is pretty unusual for the CEO of a financial institution.  Patrick McKenzie argues that this is the beginning of the end for Binance, that it “is going to be slowly ground into a very fine paste.” But my impression is that US prosecutors can make varying amounts of hay out of “this company sent money to terrorists,” and in this case they are   making an average amount of hay. This reads, to me, like the guilty plea of a troubled financial institution, not the guilty plea of a criminal conspiracy that the government wants to end.
@@ -180,11 +180,11 @@ Elsewhere, the Wall Street Journal reports on “Sam Bankman-Fried’s Life Behi
   [5]
  Now they’re all in jail though. But if CZ does get sent to prison in the US I suppose there is still a possibility that he and Bankman-Fried will be roommates?
 
-  
-    
+
+
       Cheap electricity
-    
-  
+
+
 
 So on the one hand, har har har, traditional   fat finger error:
 
@@ -200,15 +200,15 @@ I mine cryptocurrency in two different commercial apartments. Due to the realiza
 
 I love that some guy is gonna mine an extra 0.2 Bitcoins because a Finnish power company fat-fingered some trades. That’s the best use case for crypto that I think I’ve ever read. What is a financial system for,   if not to ruthlessly turn some people’s errors into other people’s wealth? Before Satoshi Nakamoto invented Bitcoin, if your electric company accidentally gifted you free power, the most you could do with it was, uh, run your outdoor jacuzzi in Finland in November? Which, honestly, fair play, that’s a very funny thing to do with free power, but it does not create lasting wealth. Whereas now you can turn your electric company’s error directly into financial assets.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Behind Credit Suisse’s Fall: A Chairman’s Lasting Mark on the Culture. ICBC’s Entree Onto Wall Street Looked Like a Bargain—Until Hackers Crippled Its U.S. Unit. Boards  Dither Over Buyout Bids in $40 Billion Takeover Wave. New York Court Gives Blessing on  Venezuela Bond Standstill. A Bank Watchdog Crowned Its First Chief Fintech Officer: His Work History Was A Web Of Lies. Billions Wiped Out as Stock-Safety Trade on Wall Street Misfires. Signa’s Insolvency Wave Nears as Last-Ditch Funding Talks Falter. SEC Defeats Summary Judgment in Insider-Trading Suit Alleging “Shadow Trading.” Leon Black’s downfall confounds the legacy of #MeToo on Wall Street. Warren Buffett Says  His Will Is Going to Be ‘Simple’ and Public. Goldman Sachs  paid pro golfer Patrick Cantlay more than $1 million annually, sources say. Inside last-of-its kind  Chuck E. Cheese with an animatronic band.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The somewhat hilarious rationale for this was that, if the investors *said* “our shares are worth zero dollars” in a sufficiently loud and angry voice, the board would feel bad about what it had done and bring back Altman. (Bloomberg: “The potential move, which would make it more difficult for the company to raise additional funds, seemed designed to pressure the board to resign and bring Altman back.”) This might even have been correct, but it is, like, corporate governance by tantrum.
 
 
@@ -224,48 +224,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] I definitely also imagined  Gerald Cotten living in this house, although he is probably actually dead.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -276,46 +276,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjxzsj.650d/5c616dd8.gif" alt="" border="0" /></a>

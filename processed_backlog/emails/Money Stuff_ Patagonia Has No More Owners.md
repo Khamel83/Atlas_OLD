@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.If you own a business and it is a big successful business and makes a lot
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Patagonia
-    
-  
+
+
 
 If you own a business and it is a big successful business and makes a lot of money, you will end up getting a lot of money. If you do not want a lot of money (because you find it embarrassing to be rich, etc.), or if you want to give money to good causes rather than spending it on yachts, you can get your check — a dividend or profit share or whatever — from the company each quarter, and then hand the money over to charity. But there are some problems:
 	Getting $100 million a year from your company and donating $100 million a year to charity is not necessarily all that tax-efficient. For instance, charitable donations can be deducted from your taxable income, but there are limits to how much they can reduce that income. If you get $100 million and donate $100 million then you have nothing left over, but you might still owe $10 million of taxes. If the money is coming from your company and going to charity, it might not be ideal for it to make an intermediate stop on your personal tax return. There are frictions. 	If you die, your heirs will get the company, which means they will start getting those checks, and maybe they will start spending the money on yachts instead of charity. You might want to prevent this and keep the money running from the company to charity forever.	This is sort of a stupid metaphysical point, but if you own 100% of a company that pays you $100 million per year, then you are technically a “billionaire.” This is true even if you get the $100 million each year and give it away immediately, leaving you with no cash at all. The company is an asset, and traditional valuation techniques will tell you that a company that makes a profit of $100 million a year is worth, you know, $2 billion or $3 billion, something like that.
@@ -94,63 +94,63 @@ Right, he didn’t have $1 billion in the bank; he had stock in a corporation wo
 This strikes me mostly as a fairly simple bit of financial planning to achieve an unusual but understandable set of goals. (Stop owning a company without letting anyone else own it, turn a for-profit company into a vehicle for philanthropy without some of the restrictions of becoming a nonprofit company, avoid flowing corporate-to-charity money through personal income.) 
 Also, though, it is an interesting form of corporate governance. The ordinary rule is that a company is owned by its shareholders, and the shareholders have a claim on its profits, and the shareholders have ultimate authority to hire and fire the company’s board and managers. In public companies with dispersed anonymous shareholders, the board and managers mostly run the company without too much shareholder interference, and they assume that the shareholders just want them to maximize profits. In companies with controlling shareholders, the controlling shareholders tend to have real authority over the managers, and can tell them what they want to maximize, which may or may not be profits. (In public companies with lots of environmental, social and governance-minded investors, the ESG investors can also lobby the managers to maximize something other than profits.) The shareholders’ residual claim on the company’s profits and their ability to tell the managers what to do are related, but they don’t absolutely have to go together. The shareholders could come to the managers and say “as shareholders, we control the company, and we instruct you to stop giving us the profits and start giving them to charity instead.” That’s more or less what happened here.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 
 You   know the   drill. A public company does a bad thing. When the bad thing becomes public, the company’s stock goes down. Shareholders sue the company for securities fraud. The lawsuits are always the same: “You told us in your public filings that you were not doing a bad thing, so we bought your stock. But you were lying, and when the world found out you were doing the bad thing, the stock went down and we lost money. We were defrauded out of our money by your lies.” Everything bad — polluting,   sexual harassment,  animal abuse, making a buggy video game,   social media companies failing to safeguard user privacy,   social media companies having a negative effect on society, lax information security practices leading to data breaches — can also be characterized as securities fraud, if a public company does it.
 Twitter Inc. is a public company. Last month its former head of information security, Peiter “Mudge” Zatko,  publicized a whistle-blower complaint saying that Twitter did bad information-security and user-privacy things. If Zatko’s allegations are true, then under standard everything-is-securities-fraud theory, they are securities fraud. (On that theory, Zatko filed his whistle-blower complaint with the Securities and Exchange Commission.) And in fact Twitter’s stock was down about 7.3% — $3.15 per share, or about $2.4 billion of market capitalization — on the day that Zatko went public. And so of course   the inevitable happened:
@@ -182,20 +182,20 @@ If Musk and Twitter renegotiate the deal and he ends up paying, you know, $49.95
 Meanwhile Musk is still litigating his own case, and he is still   looking for reasons to get out of the deal. He has already used Zatko’s allegations (about bad information security practices etc.) as an excuse to terminate the deal, and he has used Zatko’s severance package from Twitter as a separate excuse to terminate the deal. Is this lawsuit yet another excuse? Meh, I mean, probably not — it seems unlikely that the lawsuit would have a “material adverse effect” on Twitter, which is what would give him an out — but if it has some non-zero chance of success maybe he’ll throw it on the pile.
 What if it works? What if Musk gets out of the deal because shareholders sued for fraud, and him getting out of the deal is what gives them a case for fraud? “It’s so recursive,”  tweeted law professor Ann Lipton; “the mere fact of the lawsuit makes people worry the deal won’t go through, and that makes the stock price fall more, which increases the potential damages.”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 I take a very simple view of stock buybacks:
 	People give a company money to do stuff.	The company does stuff with the money.	The stuff that the company does makes money.	The company gives the money it makes in step 3 back to the people who gave it money in step 1.
@@ -211,11 +211,11 @@ That said there are some oddities. At Axios,  Dan Primack reports that the 1% t
 
 Is that a “stock buyback”? Well, sure, I guess. People put money into the company, time passed, and the company gave them the money back. The company tried to do something with the money, but it failed, so it just returned it. And there’s a 1% tax on the way out.
 
-  
-    
+
+
       Meme-stock IR
-    
-  
+
+
 
 RCI Hospitality Holdings Inc. (ticker: RICK) is a US publicly traded company that operates “ adult entertainment nightclubs” under names like Rick’s Cabaret, Scarlett’s Cabaret, Temptations Adult Cabaret, Foxy’s Cabaret, Kappa Men’s Club, etc. We have   talked about RCI previously because this year it was trying “to generate buzz among retail traders and boost its slumping stock price” by doing meme-stock stuff like taking retail questions on earnings calls, talking about non-fungible tokens, etc.
   [7]
@@ -223,15 +223,15 @@ RCI Hospitality Holdings Inc. (ticker: RICK) is a US publicly traded company tha
 Yesterday its chief financial officer, Bradley Chhay, disclosed that he sold 69 shares of RCI stock at a price of $69.69 per share. As a person who writes on the internet, I believe that I am professionally obligated to say: nice. Sixty-nine is the internet sex number.
 Chhay cleared about $4,800 on the sales; he has about 3,500 shares left (worth about $250,000) and  gets paid about $500,000 per year. It is possible that these stock sales were to pay for a kitchen renovation or whatever, but my assumption is that he thought it would be funny to sell 69 shares at $69.69, so he did. Presumably he used a limit order. “If this stock hits $69.69, you know what to do,” he told his broker. (“Nice,” the broker replied.) If you are the CFO of a publicly traded strip-club company and you sell 69 shares of stock at $69.69 then I guess retail investors will say “that guy is cool” and buy your stock. (Also, uh, I guess I will write about it?) This is how capital markets work now, I’m sorry.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UK’s New Chancellor Courts Bankers With Controversial Plan to   Lift Bonus Cap. Federal Reserve Wants Citigroup to Move Faster to Fix  Problems With Its Risk Systems. Barclays Is Buying Back $7.7 Billion of Securities   After Mistake. Pimco bets on Russian debt recovery in  CDS auction. SoftBank Considers Launching a  Third Vision Fund. Investors on edge before  $15bn debt sale to fund Citrix buyout. Ethereum Finishes Long-Awaited Energy-Saving ‘  Merge’ Upgrade. Crypto Investors Step Up  Bets Against Ether as ‘Merge’ Looms. Adobe Tumbles After Agreeing to   Buy Figma for About $20 Billion.  Almost Half of Stock Pickers Beat the Market in Early 2022 Selloff. Elon Musk is getting  detailed weekly reports on Tesla staff who don’t turn up to work in the office. Some WFH Employees Have a Secret: They Now Live in  Another Country. Russian Billionaire Sues After French Authorities   Board His Riviera Yachts. Snorting fake cocaine to film “Industry” is “really, really quite horrible.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The simplest and dumbest valuation technique is that you look at the price/earnings ratio of the Standard & Poor’s 500 index — currently about 19.2 — and multiply the annual earnings by that, implying about a $1.92 billion valuation for a $100-million-a-year company. Patagonia’s profits are “some $100 million a year” and it is “valued at about $3 billion,” so, right order of magnitude.
 
 
@@ -253,114 +253,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] We actually   talked about it once before, in 2017, because Martin Shkreli once ran a hedge fund that put all of its money in RCI stock. Sure.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

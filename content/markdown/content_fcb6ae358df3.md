@@ -14,7 +14,7 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="icon" href="https://windowsreport.com/wp-content/uploads/2019/09/cropped-cropped-winrep-favicon-1.png" type="image/x-icon"><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.6 (Yoast SEO v25.6) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Google&#8217;s Prabhakar Raghavan: Windows 10 S and Surface Laptop are &#8220;a validation of our approach&#8221;</title>
 	<link rel="canonical" href="https://windowsreport.com/googles-prabhakar-raghavan-windows-10-s-and-surface-laptop-are-a-validation-of-our-approach/" />
@@ -158,7 +158,7 @@ max-width: 350px;
 				padding: 0 13px;
 				white-space: nowrap;
 			}
-		
+
 </style>
 <link rel='stylesheet' id='tablepress-default-css' href='https://windowsreport.com/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.3' media='all' />
 <link rel='stylesheet' id='tablepress-custom-css' href='https://windowsreport.com/wp-content/uploads/tablepress-custom.css?ver=46' media='all' />
@@ -200,7 +200,7 @@ max-width: 350px;
 		--global__color-background__dark: #1b1d21;
 		--global__color-text__dark: #ffffff;
 		--global__color-heading__dark: #ffffff;
-		
+
 		/* SVG Filter output */
 		--global__svg-filter: invert(43%) sepia(70%) saturate(1083%) hue-rotate(165deg) brightness(102%) contrast(103%);
 
@@ -291,7 +291,7 @@ max-width: 350px;
 <li id="menu-item-452416" class="footer-social__icon icon--twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-452416"><a target="_blank" rel="nofollow noopener noreferrer" href="https://twitter.com/windowsreport">Twitter</a></li>
 <li id="menu-item-452417" class="footer-social__icon icon--youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-452417"><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.youtube.com/channel/UCvAaplMymP1PcGkp26qUXlA">YouTube</a></li>
 </ul></nav>        </div>
-        
+
     </div>
 </div>
 <a aria-label="Windows Report" href="https://windowsreport.com/" class="custom-logo-link" rel="home"><img width="214" height="35" src="https://windowsreport.com/wp-content/uploads/2024/01/wr-logo-default.png" class="custom-logo" alt="Windows Report" decoding="async" srcset="https://windowsreport.com/wp-content/uploads/2024/01/wr-logo-default.png 214w, https://windowsreport.com/wp-content/uploads/2024/01/wr-logo-default-210x35.png 210w" sizes="(max-width: 214px) 100vw, 214px" /></a>                                        </div><!-- .site-branding -->
@@ -336,7 +336,7 @@ max-width: 350px;
                             </form>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </header><!-- #masthead -->
@@ -344,9 +344,9 @@ max-width: 350px;
 		<div class="container ">
 							<div class="row">
 					<div class="col-xxl-3 pe-xxl-4">
-						
+
 <aside class="left-sidebar">
-    
+
 <div class="additional-component d-none d-xxl-block">
     <div class="share minimized">
         <button id="toggleShareBtn" title="Share this article">
@@ -433,7 +433,7 @@ max-width: 350px;
 </aside>					</div>
 					<div class="col-lg-8 col-xxl-6 main-content">
 						<!-- Hero section -->
-						
+
 <header>
     <div class="row">
         <div class="col-12 order-2 order-md-1 text-center title-wrapper">
@@ -553,7 +553,7 @@ max-width: 350px;
 						</div>
 
 <!-- Related tags -->
-						
+
 <div class="main-content__related-tags">
     </div>
 						<!-- Article author -->
@@ -613,7 +613,7 @@ Prior to founding Windows Report, this particular curiosity about digital conten
 	<ul class="comments-list"></ul>
 </div>					</div>
 					<div class="col-lg-4 col-xl-4 col-xxl-3 ps-xxl-4 d-none d-lg-block">
-						
+
 <aside class="right-sidebar">
 
 <!-- Article author -->
@@ -635,13 +635,13 @@ Prior to founding Windows Report, this particular curiosity about digital conten
 
 </aside>					</div>
 				</div>
-			
+
 			<!-- Related posts -->
 					<div class="row related-posts">
 			<div class="col-12 related-posts__heading">
 				<span>Discover more</span>
 			</div>
-			
+
 <article class="col-sm-6 col-xl-3 mb-4">
     <div class="related-posts__column" >
                     <div class="related-posts__column__featured-image">
@@ -768,7 +768,7 @@ Prior to founding Windows Report, this particular curiosity about digital conten
 			<p>We know how frustrating could be to look for an universal solution.</p>
 			<p>If you have an error which is <strong>not present</strong> in the article, or if you know <strong>a better solution</strong>, please help us to improve this guide.</p>
 			<div class="feedback-dislike__suggestion-form">
-				
+
 <div class="wpcf7 no-js" id="wpcf7-f1311219-o1" lang="en-US" dir="ltr" data-wpcf7-id="1311219">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
 <form action="/googles-prabhakar-raghavan-windows-10-s-and-surface-laptop-are-a-validation-of-our-approach/?ref=wheresyoured.at#wpcf7-f1311219-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
@@ -808,7 +808,7 @@ Prior to founding Windows Report, this particular curiosity about digital conten
 		<div class="container">
 			<div class="site-footer-inner-box">
 				<div class="site-footer__top__social footer-menu-social">
-					
+
 <div class="site-footer__section footer-social d-flex align-items-center">
     <p class="site-footer__top__social__heading">
         Follow us    </p>
@@ -817,7 +817,7 @@ Prior to founding Windows Report, this particular curiosity about digital conten
 <li class="footer-social__icon icon--twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-452416"><a target="_blank" rel="nofollow noopener noreferrer" href="https://twitter.com/windowsreport">Twitter</a></li>
 <li class="footer-social__icon icon--youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-452417"><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.youtube.com/channel/UCvAaplMymP1PcGkp26qUXlA">YouTube</a></li>
 </ul></nav></div>				</div>
-				
+
 <div class="site-footer__top__newsletter d-flex align-items-center justify-content-end mt-4 mt-lg-0">
                     <div class="ml-embedded" data-form="11r31m"></div>
             </div>			</div>

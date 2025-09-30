@@ -31,9 +31,9 @@ async def create_transcription(request: TranscriptionRequest):
     Receive transcription from Mac Mini client or other sources
     """
     try:
-        # Initialize database  
+        # Initialize database
         db = SimpleDatabase()
-        
+
         # Prepare transcription data
         transcription_data = {
             'filename': request.filename,
@@ -43,10 +43,10 @@ async def create_transcription(request: TranscriptionRequest):
             'created_at': datetime.utcnow().isoformat(),
             'processed': False
         }
-        
+
         # Store in database
         transcription_id = db.store_transcription(transcription_data)
-        
+
         # Queue for processing (add to processing queue)
         processing_data = {
             'type': 'transcription',
@@ -56,7 +56,7 @@ async def create_transcription(request: TranscriptionRequest):
             'source': request.source,
             'metadata': request.metadata or {}
         }
-        
+
         # Add to content processing queue
         content_id = db.store_content(
             content=request.transcript,
@@ -65,13 +65,13 @@ async def create_transcription(request: TranscriptionRequest):
             content_type="transcription",
             metadata=processing_data
         )
-        
+
         return TranscriptionResponse(
             success=True,
             message=f"Transcription received and queued for processing",
             transcription_id=transcription_id
         )
-        
+
     except Exception as e:
         raise HTTPException(
             status_code=500,
@@ -85,22 +85,22 @@ async def transcription_status():
     """
     try:
         db_manager = DatabaseManager()
-        
+
         # Get transcription counts
         conn = db_manager.get_connection()
         cursor = conn.cursor()
-        
+
         cursor.execute("SELECT COUNT(*) FROM transcriptions")
         total = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM transcriptions WHERE processed = 1")
         processed = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM transcriptions WHERE source = 'mac_mini_client'")
         mac_mini = cursor.fetchone()[0]
-        
+
         conn.close()
-        
+
         return {
             "total_transcriptions": total,
             "processed": processed,
@@ -108,7 +108,7 @@ async def transcription_status():
             "mac_mini_submissions": mac_mini,
             "success_rate": f"{(processed/total*100):.1f}%" if total > 0 else "0%"
         }
-        
+
     except Exception as e:
         raise HTTPException(
             status_code=500,
@@ -124,29 +124,29 @@ async def recent_transcriptions(limit: int = 10):
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         cursor.execute("""
             SELECT filename, source, created_at, processed, LENGTH(transcript) as length
-            FROM transcriptions 
-            ORDER BY created_at DESC 
+            FROM transcriptions
+            ORDER BY created_at DESC
             LIMIT ?
         """, (limit,))
-        
+
         results = cursor.fetchall()
         conn.close()
-        
+
         transcriptions = []
         for row in results:
             transcriptions.append({
                 "filename": row[0],
-                "source": row[1], 
+                "source": row[1],
                 "created_at": row[2],
                 "processed": bool(row[3]),
                 "transcript_length": row[4]
             })
-            
+
         return {"transcriptions": transcriptions}
-        
+
     except Exception as e:
         raise HTTPException(
             status_code=500,

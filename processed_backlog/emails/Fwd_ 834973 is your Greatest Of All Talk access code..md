@@ -5,17 +5,17 @@
 **Source:** inputs/saved_emails/Fwd 834973 is your Greatest Of All Talk access code._Wed,_18_Jan_2023_15-47-09_-0800_185c747ad24fd0c4.eml
 **Processed:** 2025-08-24T19:13:12.586405
 
-What’s this?  
-  
+What’s this?
+
 
 Sent from my iPhone
 
 Begin forwarded message:
 
-> **From:** Greatest Of All Talk <email@stratechery.com>  
-> **Date:** January 18, 2023 at 9:23:02 AM PST  
-> **To:** Omar Zoheri <stratecheryUSC@khamel.com>  
-> **Subject:** **834973 is your Greatest Of All Talk access code.**  
+> **From:** Greatest Of All Talk <email@stratechery.com>
+> **Date:** January 18, 2023 at 9:23:02 AM PST
+> **To:** Omar Zoheri <stratecheryUSC@khamel.com>
+> **Subject:** **834973 is your Greatest Of All Talk access code.**
 > **Reply-To:** Greatest Of All Talk <email@stratechery.com>
 
 > ﻿

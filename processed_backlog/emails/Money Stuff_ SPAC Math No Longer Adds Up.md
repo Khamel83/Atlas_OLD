@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Simplifying a bit, the way a special purpose acquisition company works is that the sponsor of the SPAC raises a pot of money by selling shar
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SPAC SPAC SPAC
-    
-  
+
+
 
 Simplifying a bit, the way a special purpose acquisition company works is that the sponsor of the SPAC raises a pot of money by selling shares to public investors at $10 per share. Say the sponsor offers 20 million shares, so the pot of money has $200 million in it. Then she goes out and looks for a private target company to merge with to take it public. Say she finds a private company that is worth $800 million. (The valuation of a private company will always be uncertain, but let’s assume for now that the valuation of this company is certain, and that it’s $800 million.) If the target company is worth $800 million, and the SPAC is just a pot of money with $200 million in it, then the combined company should be worth $1 billion. So the sponsor and the target company negotiate a merger in which the existing shareholders of the target company get 80% of the shares of the combined company ($800 million worth) and the SPAC shareholders get 20% ($200 million worth). (The merger is sometimes called a “de-SPAC merger.”) The public investors in the SPAC, who put in $10 each, end up with publicly traded shares of the combined company worth $10 each. 
 If the SPAC sponsor doesn’t find a deal before, typically, the two-year deadline put on the SPAC, she has to give her public shareholders their $200 million back with interest. If she does find a deal, she has to put it to a vote of the public shareholders; they can vote it down if they don’t think it’s a good deal. Even if they vote in favor, they can redeem their stock: Instead of taking new shares in the combined company, the SPAC shareholders can ask for their $10 back (with interest). 
@@ -111,89 +111,89 @@ Here is  the opinion. The merger closed in May 2021, when about 71% of Gig3’s 
 There are some bad facts — Gig3 tried to do a $100+ million PIPE deal to raise more money and validate the price it was paying, but ultimately raised only $25 million from a big existing Lighting shareholder, so it ended up selling convertible notes at pretty onerous terms; the prospectus for the merger had optimistic financial projections that mostly didn’t work out — but mostly the problems here are the problems of any SPAC. In any SPAC, the sponsor has incentives to do a deal, any deal, since she gets millions of dollars of free stock if a deal closes and loses the startup costs of the SPAC if it doesn’t. And in any SPAC, the SPAC’s pot of cash is not really worth $10 per share — it’s worth $8 per share or less — so it is hard for the sponsor to find a deal worth $10 per share or more. 
 Everything that I wrote above is … correct? … and … intuitive? “If Gig3 had less than $6 per share to contribute to the merger,” then “Gig3 stockholders could not logically expect to receive $10 per share of value in exchange.” But that’s just logic. There is some practical sense in which, in like 2020, the answer was pretty much “ehhh there is enough value to go around here, it’s fine, everything goes up, don’t worry about how much the sponsor is getting paid or who’s paying them.” Now things are tighter, and there is reason to worry.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in conflicts
-    
-  
+
+
 
 As part of a   broad restructuring, Credit Suisse Group AG has announced that it will spin out its investment banking business into a separate company, which will revive the old First Boston name. New First Boston will be owned partly by Credit Suisse, partly by outside investors and partly by its employees. To spin off First Boston, Credit Suisse needed to give it a chief executive officer, and it chose Michael Klein for the job. Klein is a former Citigroup Inc. banker who was also on Credit Suisse’s supervisory board. There is an obvious conflict of interest there: Credit Suisse’s board decided on a strategy that involved handing ownership of its banking business over to the employees of that business, and one member of that board was also appointed to run — and, thus, own — that business. Bloomberg’s Dinesh Nair, Sridhar Natarajan and Eyk Henning   note:
 
@@ -209,20 +209,20 @@ Mark Klein, Michael’s brother and an executive and stakeholder at M. Klein & C
 
 I’m sure it’s fine, there’s a fairness opinion, and it’s not like I have better ideas. I can see why Credit Suisse wants to retreat from investment banking, why it wants to get some value from this business and why it thinks Klein is the best person to do it. But … what is the good way for this to go? If First Boston ends up being a massive success with a $100 billion valuation, then in hindsight this deal is going to look like “the board of Credit Suisse voted to take a $100 billion business from shareholders and give it to one board member, plus his brother.” If First Boston ends up being a failure, it is going to look like “Credit Suisse took a perfectly good business and handed it over to one of its board members, plus his brother, who broke it.” If you are a high-powered investment banker you are in some sense in the business of managing conflicts of interest — your job is to be friends with everybody who matters, and any time you represent a seller you will be thinking a little bit about how you can win future business from the buyer — but this one seems particularly tough.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 
 If the chief executive officer of a public company exercises poor judgment and engages in an inappropriate personal relationship with an employee, is that securities fraud? You know my rule: Every bad thing that a public company does is also securities fraud, this is a bad thing, therefore this is securities fraud. Here’s the US Securities and Exchange Commission  enforcement action:
 
@@ -239,25 +239,25 @@ When I write about this, sometimes I get complaints from securities lawyers who 
  And so in fact the technical game of “everything is securities fraud” is that you have to find something that the company did say that turns out not to be true in light of the bad thing. A classic that we have   discussed a   few times is that, if a company has a public code of ethics saying “our executives are not allowed to do bad stuff,” and they do bad stuff, then you sue the company because its code of ethics is misleading. Or if the company has a   risk factor that says “bad stuff might happen and that would be bad,” and the bad stuff has already happened, then that risk factor is misleading.
 Or, here, if the company fires an executive for having an intra-office affair, and it puts out a press release saying that he “separated from the Company following the Board’s determination that he violated company policy and demonstrated poor judgment involving a recent consensual relationship with an employee,” but it doesn’t say that he had several consensual relationships with employees, well, I guess that use of the singular is misleading? 
 
-  
-    
+
+
       Sorry JPMorgan!
-    
-  
+
+
 
 At FT Alphaville,  Bryce Elder reports that JPMorgan Chase & Co.  is building a computer program to tell you what’s in the news, “to help investors with their allocation decisions by tracking the evolution of themes over time.” Apparently their previous efforts failed because of, um, me:
 This is JPMorgan’s second attempt at getting a computer to read the news. Its first go struggled because “some of our detected themes were being driven by only one or two sources”, it said. “The problem is exacerbated if a source publishes its entire output on just one theme at great volume.” (Cf, its first dataset ran to November 15 and Bloomberg Businessweek published The Crypto Story on October 25.)
 Oops! Sorry. I hope you did not use this signal to get extremely long crypto on Oct. 25. I periodically remind my readers that nothing in this column is ever legal or investing advice, but I should emphasize that anything that your computer algorithm manages to pull out of this column is particularly not legal or investing advice. Sometimes it’s jokes! What is your computer gonna do with that?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Goldman to Cut About 3,200 Jobs This Week After Cost Review. HSBC Sends   Recruitment Emails to Rival Bankers Facing Cuts. The Murdoch  family trust: how the scions could battle for control. Jack Ma  Cedes Control of Fintech Giant Ant Group. Crypto Empire   DCG Faces US Investigation Over Internal Transfers. Celsius founder  Mashinsky sued for fraud by New York attorney-general. Why  Gemini Kept Pushing Risky Accounts as Crypto Market Tumbled. FTX Reaches   Bankruptcy Cooperation Deal With Bahamas Liquidators. FTX Seeks to  Recoup Sam Bankman-Fried’s Charitable Donations. ‘Spectacular’   Trading Drop Plagues Still-Reeling Crypto Market. Brother of Criminal Bitcoin Mixing CEO Pleads Guilty to  Stealing 712 Bitcoins From IRS. Companies Face Rising Pressure to Offer   ESG Retirement Options. Deere to Allow Farmers to  Repair Their Own Equipment. Silicon Valley horse therapy. Silicon Valley Can’t Quit Its   Pizza Robot Obsession.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or at least, because their investors thought they were. Often these deals ended up trading poorly in the long run.
 
 
@@ -276,114 +276,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] The  actual rule, in the US, is that it is fraud, “in connection with the purchase or sale of any security,” “to make any untrue statement of a material fact or to omit to state a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

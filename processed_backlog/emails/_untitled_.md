@@ -308,7 +308,7 @@ On the one side are the Vertical Integrators [ https://substack.com/redirect/ac6
 On the other side are companies that make all of that living more fulfilling. The ones that answer the question: if we really do build machines that let us work less, what are we going to do with ourselves? 
 There’s a lot of work between now and that future, hours after hours spent sweating the details, getting the product just right for a small group of artists who will tell other artists who will spread the word to the world. From Elsewhere to everywhere.
 The art they’re making is unfinished – it might always be unfinished – but what [untitled] is belting at the top of its lungs is that there’s a lot of value in the process. 
-Thanks to Claude for editing, and to Dancho, José, Stephen, Dorian, Al, Anish, Olivia, Adam, Mo, and Ethan for your input! 
+Thanks to Claude for editing, and to Dancho, José, Stephen, Dorian, Al, Anish, Olivia, Adam, Mo, and Ethan for your input!
 That’s all for today. If you have a little time, check out Speakeasy [ https://substack.com/redirect/edc9bb0c-2f46-4a07-9599-755842d50a9e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and of course, start creating with [untitled] [ https://substack.com/redirect/92f05de8-e5c5-4899-b150-e729abcb84b4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or just go work there [ https://substack.com/redirect/2aaf047e-d693-40df-9722-d3ad4488f68b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. We’ll be back in your inbox with a Weekly Dose on Friday.
 Thanks for reading,
 Packy

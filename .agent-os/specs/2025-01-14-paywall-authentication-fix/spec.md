@@ -1,9 +1,9 @@
 # Paywall Authentication Enhancement Specification
 
-**Created**: 2025-01-14  
-**Status**: Planned  
-**Priority**: Medium  
-**Estimated Effort**: 8-12 hours  
+**Created**: 2025-01-14
+**Status**: Planned
+**Priority**: Medium
+**Estimated Effort**: 8-12 hours
 
 ## Overview
 
@@ -19,7 +19,7 @@ Fix authenticated login functionality for premium content sites (NYTimes, WSJ) t
 
 ### Impact
 - **301 NYTimes articles** currently failing that could be recovered with proper authentication
-- **Additional WSJ articles** also failing authentication 
+- **Additional WSJ articles** also failing authentication
 - Lost access to premium content that users have legitimate subscriptions for
 
 ## Success Criteria

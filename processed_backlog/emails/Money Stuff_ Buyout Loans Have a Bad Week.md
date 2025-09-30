@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off for a few days tomorrow and early next week, back on Wednesday.A good trade is, you go to a bank a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off for a few days tomorrow and early next week, back on Wednesday.
 
-  
-    
+
+
       Citrix
-    
-  
+
+
 
 A good trade is, you go to a bank and ask to borrow a billion dollars, and the bank gives you the billion dollars, and then the bank comes to you and says “hey I just made this billion-dollar loan to you, do you want to buy it,” and you say “sure I’ll pay you $836 million for it,” and the bank says “ugh fine I guess.” And now you have borrowed $1 billion and paid back $836 million and made a $164 million profit all at once.   Here you go:
 
@@ -108,63 +108,63 @@ A hedge fund portfolio manager who reported being approached by Credit Suisse on
 
 Might as well try everyone. Maybe the people who are not high-yield investors won’t notice that the high-yield market has turned.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Roaming Dimon
-    
-  
+
+
 
 Does   this work?
 
@@ -183,22 +183,22 @@ Incentive pay for dealmakers handling debt and equity offerings may tumble more 
 
 This is the same story as the one in the previous section. Investment banking is a cyclical business, a leveraged bet on how the economy is feeling in any given year. When the market is cheerful, you get paid huge fees for arranging big loans, you get a big bonus, and if your boss tells you that you have to come into the office you can always quit and get another job. When the market is bad, you lose money trying to place those loans, you get a small bonus, and you come to the office early each day so as not to give your boss an excuse to fire you.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       PFOF
-    
-  
 
-There’s really nothing interesting about payment for order flow. In the world of US retail stock brokers, 
+
+
+There’s really nothing interesting about payment for order flow. In the world of US retail stock brokers,
 the norm is that the brokers route their customers’ orders to buy or sell stock to a handful of big electronic market makers. These market makers, knowing that they are trading only with retail investors, are willing to give those retail investors a good deal: Those investors pay a narrower spread (they can sell stock at higher prices and buy it at lower prices) than they would if their order went to the public stock exchange. On the public stock exchange, there are smart professional investors trading in huge size, and if you are a market maker trading with them, you will probably regret many of your trades. If you are only trading with retail orders, you are less likely to regret your trades, so you can charge less.
 This is so true that the market makers can   distinguish between retail brokerages: Oversimplifying slightly, customers with Interactive Brokers Pro accounts seem to pay wider spreads than customers of TD Ameritrade, presumably because they are pros, or at least more similar to professional investors (they make more informed trades in larger size) than TD Ameritrade’s customers are. 
 This system has pluses and minuses. The main plus is that the retail investors get better execution than institutional investors, which is nice for them. The main minus is that institutional investors get worse execution than they would if all the orders went to the public stock exchange. (If market makers couldn’t segregate orders, they’d probably end up charging retail investors more but institutional investors less — because they’d all pay the same spread.) You might think this is bad if — like me — you invest your money through mutual funds, which get worse execution. A world where all orders were routed to the same public exchange might be a world where mutual funds saved a bit of money on trade execution, at the expense of Robinhood hobbyists.
@@ -214,11 +214,11 @@ When broadly sketching out his plans in a June speech, Gensler suggested that th
 
 Yeah requiring order-by-order auctions for stock trading would be a much bigger change than banning payment for order flow. (Also weirder: Is the options market really a paradise of transparency, competition and good execution for retail traders?) But payment for order flow gets the headlines.
 
-  
-    
+
+
       Get back to your desk
-    
-  
+
+
 
 Sell-side equity research analysts are important figures in financial academia in part because their work performance is unusually easy to measure. Analysts write research notes, which are more or less public and include buy or sell recommendations, price targets and earnings predictions. So you can collect the notes and see what stocks they recommended and then see how those recommendations performed. And then you can say “Analyst X is good because her recommendations went up and she predicted earnings accurately, but Analyst Y is bad because her recommendations went down and she predicted earnings inaccurately.” Their individual job performance is directly measurable in a way that is somewhat unusual for an office job. 
 This is a bit naive, and in fact my position around here   is more or less that the buy and sell recommendations aren’t that important and that analysts really add value by giving professional investors context and background about companies and setting up meetings between those investors and company management. Still the recommendations do tell you something — an analyst who gets all her earnings predictions wrong probably has some flaws in her understanding of her coverage sector — and in any case they are easy to measure, so people do. There is much more academic study of what makes a good equity analyst than of what makes a good mergers-and-acquisitions banker, because the analysts’ individual results are more observable.
@@ -235,136 +235,136 @@ The results are:
 
 There is also a Covid element: Working from home (and cutting out their commute) tended to cause analysts to work longer hours, which “increase[d] both the quantity and accuracy of their forecasts.” But cutting out business travel tended to have the opposite effect: Analysts who normally were out of the office a lot to meet with companies got worse at forecasting during Covid.
 
-  
-    
-      Things happen
-    
-  
 
-Credit Suisse weighs splitting investment bank into three. BlackRock’s $43 Billion in NYC Pension Assets Face 
-ESG Scrutiny. Housing   Paralysis Engulfs US Buyers With Prices Starting to Fall. Japan intervenes to  prop up yen for first time since 1998. Activist Investor Ancora Looks to  Oust Kohl’s CEO, Chairman. Jamie Dimon Slams Crypto Tokens as ‘Decentralized Ponzi Schemes.’ Coinbase Tested Group to Speculate on Crypto. Crypto Shakeout Engulfs the C-Suite as 
+
+      Things happen
+
+
+
+Credit Suisse weighs splitting investment bank into three. BlackRock’s $43 Billion in NYC Pension Assets Face
+ESG Scrutiny. Housing   Paralysis Engulfs US Buyers With Prices Starting to Fall. Japan intervenes to  prop up yen for first time since 1998. Activist Investor Ancora Looks to  Oust Kohl’s CEO, Chairman. Jamie Dimon Slams Crypto Tokens as ‘Decentralized Ponzi Schemes.’ Coinbase Tested Group to Speculate on Crypto. Crypto Shakeout Engulfs the C-Suite as
 CEOs Start Stepping Down. Korea Finds More ‘Abnormal’   FX Transactions via Crypto Exchanges. Tom Brady Says He   ‘Deserves’ a Shorter Workweek. Minecraft  in Minecraft.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] I 
+
+  [1] I
 once wrote: "The best thing you can do, as a banker, is execute a lot of good trades. The next best thing you can do is ... probably ... execute a lot of trades? From first principles you might think that executing fewer trades, but only good ones, would be preferable, but that rarely seems to be the mindset. If you do all the big trades, your bosses and clients can see that you are important and busy and normal. If you turn down the big trades that everyone else makes, you look weird and nervous and possibly lazy. The pressure to get there on this trade, to book revenue today, has a tendency to outweigh the worry about booking losses later. If you say no now, you'll be an outlier, and have to answer a lot of uncomfortable questions. If you say yes and it all goes wrong later, at least you'll be in good company."
 
 
   [2] On Twitter, Kostya Medvedovsky pointed out that "the logistics of selling that [Twitter] debt are going to be very funny. Can’t wait to see the prospectus marketing the chance to lend to company that the owner has said is a massive fraud and national security risk."
 
 
-  [3] We talked the other day about 
+  [3] We talked the other day about
 the "iBuyer" model for houses, which is where you buy lots of houses hoping to flip them and collect a spread, but you are left with months of inventory when the market turns. Same basic idea.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

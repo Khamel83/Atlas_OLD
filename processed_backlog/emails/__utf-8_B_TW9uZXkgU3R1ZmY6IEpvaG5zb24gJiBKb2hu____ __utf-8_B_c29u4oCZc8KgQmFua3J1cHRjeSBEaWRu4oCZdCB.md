@@ -9,67 +9,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic idea of bankruptcy is that if you have a company with $1,000 of assets and $2,000 of liabilities, you can’t pay back everyone ever
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       J&J
-    
-  
+
+
 
 The basic idea of bankruptcy is that if you have a company with $1,000 of assets and $2,000 of liabilities, you can’t pay back everyone everything you owe them. You could just pay back the first creditors who show up and ask for their money back, until the $1,000 is gone, and then give the remaining creditors zero, but that seems unfair and probably destroys value.
   [1]
@@ -124,89 +124,89 @@ You don’t have to be insolvent to file for bankruptcy, and it is good to fil
   [6]
  It is a fine line.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Celsius!
-    
-  
+
+
 
 Elsewhere   in bankruptcy:
 
@@ -228,20 +228,20 @@ And:
 In April 2022, Celsius’s Coin Deployment Specialist described Celsius’s practice of “using customer stable coins” and “growing short in customer coins” to buy CEL as “very ponzi like.” A few weeks later when Celsius made another push to prop up the price of CEL, Celsius’s former Vice President of Treasury asked where the cash was coming from to make the CEL purchases and Celsius’s Coin Deployment Specialist replied, “users like always.” This same employee explained that at the time he made this statement, Celsius had “negative equity” and therefore necessarily was using customer funds when it made these purchases.
 Aaaaahhhh! You can’t! You can’t send messages like that! If you find yourself messaging your boss to say things like “our business is very Ponzi like” and “we have negative equity so we’re using customer funds to buy worthless coins so our founder can cash out,” no! Stop! If you have written sentences like that, don’t send them to your boss! Print them out and get yourself a lawyer and a whistle-blower deal! My lord. This is not legal advice but what are you even doing?
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       APE convergence
-    
-  
+
+
 
 We  talked last month about AMC Entertainment Holdings Inc.’s clever APE trade. Basically AMC is in the business of selling tons of stock, but it ran out of stock to sell: Its corporate charter only authorizes it to issue 524,173,073 common shares, and it had issued pretty much all of them. It went to its shareholders and asked them to vote to amend the charter and allow more shares, but it couldn’t get enough votes, mostly because it has so many retail shareholders and retail shareholders tend not to vote their shares.
 So it issued new preferred shares, called APEs, that are meant to have similar rights to its regular common shares. In particular, the APE shares get to vote alongside the common shares. In the beginning, AMC issued one free APE share for each common share — like a stock split, where each share was split into one common share and one APE — but then it started selling APEs for cash too. So now there are more APEs than common shares.
@@ -258,11 +258,11 @@ I guess this is technically allowed,
   [7]
  and I find it rather clever, though I suppose you might think it’s cheating. There is something a little unseemly about a company trying to issue more shares, failing to get shareholder approval because the shareholders worry about dilution, and solving the problem by issuing many more shares at lower prices in order to get the votes to approve more shares. As a matter of corporate finance it seems like the right move, but as a matter of shareholder relations it is a little rough.
 
-  
-    
+
+
       Twitter paid interest
-    
-  
+
+
 
 This is a   little disappointing:
 
@@ -272,15 +272,15 @@ The first coupon was expected to cost Twitter roughly $300 million, according to
 
 I   argued last week that he shouldn’t pay: What were the banks gonna do, seize Twitter? I guess I was sort of kidding, in the sense that everything in the Musk/meme/crypto sector of financial markets is simultaneously a joke and serious, but if Musk Twitter has decided not to pay for employees, data centers or rent it seems a little silly to pay interest. But I guess Musk has more continuous need for financing than he does for, like, Twitter content moderation. Anyway yes this is the boring and normal outcome, which has not usually been the case with Musk Twitter.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Adani   Pulls Off $2.5 Billion Share Sale After Jump In Final Bids. Adani Tops Up   Collateral on $1 Billion Loan After Stock Rout. Goldman transferred privately held  Russian assets to former employees. UBS profits rise after  Credit Suisse client defections. Banks Brace for More Consumers to Fall Behind on Their Loans. Private Equity Taps  Insurers’ Cash to Speed Up Growth. ‘Colossal’ central bank buying drives  gold demand to decade high. Investors Who Bet on  Bitcoin Fund in Retirement Accounts Pay the Price. Celebrities Who  Endorsed Crypto, NFTs Land in Legal Crosshairs After Investor Losses. Alameda Seeks to   Claw Back $446 Million From Voyager Digital. Bed Bath & Beyond’s  Woes Prompt Landlords to Line Up New Tenants. $11 Billion and a   Typo: New LIRR Terminal Etches Error in Stone.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Because it creates incentives to ask for your money back first. It is good for somewhat-risky companies to be able to get financing, and the way to do that is to say “every credit will be treated fairly, so you don’t have to worry about taking your money back immediately.”
 
 
@@ -302,114 +302,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] The relevant rule is Section 242 of the Delaware General Corporation Law, which says that “The holders of the outstanding shares of a class shall be entitled to vote as a class upon a proposed amendment, whether or not entitled to vote thereon by the certificate of incorporation, if the amendment would increase or decrease the aggregate number of authorized shares of such class,” but that “The number of authorized shares of any such class or classes of stock may be increased or decreased (but not below the number of shares thereof then outstanding) by the affirmative vote of the holders of a majority of the stock of the corporation entitled to vote irrespective of this subsection, if so provided in the original certificate of incorporation.” And AMC’s charter *does* say that “the number of authorized shares of any of the Common Stock or the Preferred Stock may be increased or decreased (but not below the number of shares thereof then outstanding) by the affirmative vote of the holders of a majority in voting power of the stock of the Corporation entitled to vote thereon irrespective of the provisions of Section 242(b)(2) of the DGCL (or any successor provision thereto), and no vote of the holders of any of the Common Stock or the Preferred Stock voting separately as a class shall be required therefor.” So it explicitly does not need a vote of only common shareholders to increase the number of common shares; the combined common plus APE vote is sufficient.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

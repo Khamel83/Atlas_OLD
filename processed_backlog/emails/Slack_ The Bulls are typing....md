@@ -8,17 +8,17 @@
 View this post on the web at https://email.mg2.substack.com/c/eJxVkEFuwyAQRU9jdrYMGAcvWHTTa1gYJjEKBgRDWt--JJFaVRo0gs_M0_9GI9xiPlWKBUktkFdnFZ2Z5GJaiFWTpVJI4sp6zQCHdl5hrkBS3bwzGl0Mr4lxZILsCpgBq-eZCmusNdO4XK5CiouRklLNN_LkrLpaB8GAggfkMwYgXu2IqXT8o2OfrULELWYXbkOpW0Ft7oOJRxNSO8W3e4879Fv1vvQ6Q49nar-JU2xkI6V0plzMnA904Ca5q__O-Oim8bixfxtJVr-oJt93fYB_Cc3g2vpRg8NzhaA3D_btHd9pvaw0LqgAX8UDIuT34zMQKRch6UwazcaWW_gD_QBh3YGG
 
 Welcome to the 655 newly Not Boring people who have joined us since the last email! If you’re reading this but haven’t subscribed, join 20,350 smart, curious folks by subscribing here!
-🎧  To get Slack in your ears, check Spotify [https://email.mg2.substack.com/c/eJxFkMFuwyAQRL_GHC0DtosPHFK1aau2qpT0kl4sDOsYBYMLOLH_viQ5VFpppBmtnmakiHB0fuWTCxHNAXyrFcc1YbQqG6R4qTCrGNKh7T3AKLTh0c-AprkzWoqonb19FAWp0MBr1vUdVHUhemiAkIYqhiWUsu8YZgqjK6cVs9JgJXA4g1-dBWT4EOMUMrrJyDadm8DmYXJR92su3ZisMLhLkvqEDx-P56_d7nN14X2lC17eTEa3QWf0qf15GBXI3-_9_uAvwyssl5fnDdKcFKTAGNeYVjWlOc6pnHRvFh_PWVmMR5KHuQtRyNMVhzy3LnbOa3tM8WkQI5hbkHq3ScfZ6ri2YEVnQN0nifcRbw3jOgG3cAkGYgR_N687MdZUDNco0ZRLc9p_0B9f_IhX] in an hour or so. 
+🎧  To get Slack in your ears, check Spotify [https://email.mg2.substack.com/c/eJxFkMFuwyAQRL_GHC0DtosPHFK1aau2qpT0kl4sDOsYBYMLOLH_viQ5VFpppBmtnmakiHB0fuWTCxHNAXyrFcc1YbQqG6R4qTCrGNKh7T3AKLTh0c-AprkzWoqonb19FAWp0MBr1vUdVHUhemiAkIYqhiWUsu8YZgqjK6cVs9JgJXA4g1-dBWT4EOMUMrrJyDadm8DmYXJR92su3ZisMLhLkvqEDx-P56_d7nN14X2lC17eTEa3QWf0qf15GBXI3-_9_uAvwyssl5fnDdKcFKTAGNeYVjWlOc6pnHRvFh_PWVmMR5KHuQtRyNMVhzy3LnbOa3tM8WkQI5hbkHq3ScfZ6ri2YEVnQN0nifcRbw3jOgG3cAkGYgR_N687MdZUDNco0ZRLc9p_0B9f_IhX] in an hour or so.
 Hi friends 👋,
-Happy Monday! 
-There are over 20,000 of us here now — thank you for making that happen 🙌 
-If you’ve been here for a while, you know that Slack is my favorite investment. The market, thus far, has not agreed with me. 
+Happy Monday!
+There are over 20,000 of us here now — thank you for making that happen 🙌
+If you’ve been here for a while, you know that Slack is my favorite investment. The market, thus far, has not agreed with me.
 You didn’t think I was going to go down without making my 6,900 word case, did you?
 But first, a word from our sponsor.
 Today’s Not Boring is brought to you by… Barrel
 Barrel is a creative and digital marketing agency run by my friend Peter Kang [https://email.mg2.substack.com/c/eJxFUMuOhCAQ_JrhaGwRVg8c9rK_YXj0KBkEA-3M-veLetikk35UKlXVVhPOKR9qS4XYXjBP3imQ3cBFPzKnegeDGJgv0zMjrtoHRXlHtu0meKvJp3gx2rYTbKlM0cPIexzBfEkBLYxSGmEMGG2d5ezUmfTuPEaLCt-YjxSRBbUQbeXBvx_dTy36eCLMjU1r3Tas80vHmffMq67tWgCQwIXkvIGG280_w2-m96Nv17lrym4Kafs66SyrmMik7ONc4deiVwwXUCNMta979HRMGLUJ6O50dP_jMkvHhiripwQ8Ld3HM_IwjGIAyaqaS_Uz8V_oD6ABdY0]. The Barrel team has worked with clients like Barry’s, Dr.Jart+, Bare Snacks, ScottsMiracle-Gro, Rowing Blazers, Hu, and many more to build their Shopify Plus sites and marketing strategies across email, paid, and SEO.
 Please don’t waste your marketing dollars on poorly done ecommerce websites and paid social campaigns. Work with Peter and the Barrel team to create experiences that deepen your relationship with your customers.
-Now let’s get to it. 
+Now let’s get to it.
 Slack: The Bulls are typing…
 Imagine you haven’t read the title of this post and I told you about an unnamed public SaaS company that:
 Builds an essential WFH software product,
@@ -40,9 +40,9 @@ I’ve written about Slack twice before: 
 While Zoom Zoom, Slack Digs Moats [https://email.mg2.substack.com/c/eJxVUMtugzAQ_Jr4BsI2UHPwIZf-BvJjA1b8QPaSlH59HSK1qrQPaWdnRztGISwpH3JLBcleIM_OSjoywYd-Ilb2lopBEFfmWwYIynmJeQey7do7o9CleDK6jg1krUwh2ATio6e9ptZQobjVxg7m1vVaT-SlM6vdOogGJDwgHykC8XJF3MqFXy_ss0ZMqFN2cWnLrgsqc29NChXYaj5X56H5TimcpTTF14XGuqU0ISksxEnWsY5SOlI-jJy3tOVmczf_lfFx6buwsH-HSZa_ihW-ryqAP4H651x72KPDY4aotAf7tgDfpp0f4bGBjPAsHhAhv4cvX4SYBkFHUtVsqvbFP6Ef7WWEKg]
 Acquisition in the Key of G Sharp [https://email.mg2.substack.com/c/eJxVkE1uxCAMhU8z7Ij4S4ZZsOim14gIOAkaAik4bXP7MjNSq0q2LPnJ_vSeswhLLqfZc0VyVChj8IYPQste3Yg3ynPdaxLqOBeAzYZosBxA9mOKwVkMOT0vGBM9WdsErq_86tgslLM9yEmp6TrMsvdSMU8enNEePkByYOATypkTkGhWxL1e5NtFvLdKGadcQlq6ekwVrbt3Lm9N2Ftb93GEGh5sGhLFFegdTppnutC62rJTdRMkGMEE45wPXPaDlB3vpNvDHL8Lfl4U2xbx7zkp5pfa5PtqN4hPoXkd29yOFPAcIdkpgn_FgK_gnq7w3MEk-KoREKG8lo9stL71mg-k0XxuEaY_0A_kNYQq]
 Slack co-starred in both essays, but I’ve never given it the solo performance it deserves. I’ve never laid out my bull thesis in toto. So here it is: 
-Slack is already a top quartile SaaS company trading like a bottom quartile SaaS company because of that age-old worry that “Microsoft will just crush it.” 
+Slack is already a top quartile SaaS company trading like a bottom quartile SaaS company because of that age-old worry that “Microsoft will just crush it.”
 It’s one of the fastest-growing public SaaS companies in the world with eye-popping gross margins. Slack is world-class at acquiring, retaining, and growing with the fastest-growing companies in the world. As they grow, Slack grows, and revenue compounds while costs stay relatively flat. Slack Connect will turbocharge that compounding by allowing non-Slack companies to try Slack in a lightweight way, and more seamless integrations weave Slack more deeply into the fabric of work. 
-The narrative about Slack doesn’t even match today’s numbers, let alone its clear compounding potential. A misplaced narrative is my favorite kind of investment. 
+The narrative about Slack doesn’t even match today’s numbers, let alone its clear compounding potential. A misplaced narrative is my favorite kind of investment.
 Slack is hated, and one paragraph plus a question isn’t going to change that. So we’ll need to lay out the case in some more detail. Luckily, writing thousands of words about tech companies is what I do best, and I’m fired up about this one. So let’s go bear hunting: 
 What is Slack? Most of us probably use Slack, but we’ll try to put it into words. That’s surprisingly hard, even for Slack itself.  
 Connecting Slack’s Strategy. Slack Connect is crucial to Slack’s strategy.
@@ -72,8 +72,8 @@ And then there’s Microsoft, whose bet is that you’re willing to take a bunch
 Three points illustrate Slack’s commitment to the open platform approach: 
 Integrations. On page 5 of its most recent earnings presentation, Slack highlighted that there are 2,300 apps in its directory, 700k custom apps and integrations used weekly, and 820k developers actively building for Slack. It’s running Microsoft’s old Office playbook. 
 Partnerships. According to Crossbeam [https://email.mg2.substack.com/c/eJxFUMGugyAQ_Bo5GnHB4oHDu_Q3DOLakiIQWOvz7x-2h5dsssnMTmZnrCF8xHzqFAuxvWCe3KL50CuQYmSLFgtXUjFXpjUjbsZ5TXlHlvbZO2vIxfBRdF0v2VODBTnesOMcFBgUqJDLmzACxLqCAXb5TGZfHAaLGt-YzxiQef0kSqWBn6a_1zmOo00mU8A8m4KtjVtFizf2xZzuu7468IGDHABa3oJNbvW_md6N6LZH35Z9LlSPLyHLOkSaY3bhUenX02zoP0QNMdW97cHROWEws8flm4--jXzepTOhDngUj0SYv-AVWqlRKj6w6rbE2k34N_oDzop2kg], Slack has 1,316 publicly announced technology and channel partnerships, almost 50% more than the 887 Microsoft has across the whole company. 
-Slack Fund… 
-We’re just getting started. To read about Slack’s Flywheel, what the market gets so wrong, the rest of the bull case for Slack, the real bear case, and Slack’s future join me online: 
+Slack Fund…
+We’re just getting started. To read about Slack’s Flywheel, what the market gets so wrong, the rest of the bull case for Slack, the real bear case, and Slack’s future join me online:
 If you’ve read this far, here’s a bonus: I teamed up with Switchboard [https://email.mg2.substack.com/c/eJxFUMGugyAQ_JpyNCJq8cDhXfobZoVFSREIrO3z7x-1h5dsssnMTmZnNBCuMZ8qxULsKJhnZxQfOymGfmJG9YbLQTJXZpsRd3BeUT6QpWPxTgO5GC5F23YD25TVVt7NBFJY0fei1agnbcFKPg7iDsA-PjMcxmHQqPCF-YwBmVcbUSo38XPrHnUgpaa8HeltiZBNo2MF81rvAzGnurZrOecjF8MoRMMboZOz_jfT69a3-9o15VgKgX5W5c6yCpGWmF1YK_3cYEd_ETXFXPd-BEfnjAEWj-YbkL6VXP_SmVAFfBePRJi_4Ce1lNNQo7HqZmItJ_wb_QFFVHfx] to give $500 to charity:water and get you access to an incredible event.
 Switchboard makes it possible to learn with the world’s leading experts while doing good.
 They are hosting a closed door chat with Ryan Graves [https://email.mg2.substack.com/c/eJxFUEGOgzAMfE1zRJgADYcc9tK97wdQIAashgQlpl1-vykcVrI0skf2eGY0jHOIh95CYrEnjD1ZDW2lZFN3wuragmqUoNRPEXE15DTHHcW2D45GwxT8uVGWVSMWbTsLkyzBKhjuaPOZephsBw20dwVtJz46vdktoR9R4wvjETwKpxfmLd3k16165EJfvOlJG1oyRYhzHn36DD-H8f13NC9MgnRVViUAtCCbVsoCCjluNLnfyK9bXa5zVaR9SGzGZzGGVUTtAw8hkp8z_VzMiu4ksp0-47p74qNHbwaH9nLKVzbn43xsqD2-k0NmjNfwY1-prsn-RFazIafk_4X-AFsveds] on Giving Tuesday (12/1) where attendee proceeds support Ryan’s charity of choice, charity:water [https://email.mg2.substack.com/c/eJxFkM2OhCAQhJ9mOBp-hMUDh73saxh-WiWDYLCdWd9-GT1s0kknXenUV-UtwlzqabayIzl2qGMMhimuhewHEkwfmJaaxH2cKsBqYzJYDyDb4VL0FmPJ1welXJLFhOCGSSrpHOslp2r46qfAmfNUaA9BkY_PaI8QIXsw8IJ6lgwkmQVxe4jvB_9p4xdbI57vRle7UmcSDaecMsYUE1IJ0bFO-C1O6bfi69HTdebdfrgdrX92vqykmlzQlRrz3OTnYldIl9DAx7bXIzeDEbJ1CcKdCe8WLkQ8NzAZ3nsCbBD38RNU60FqpkhzC6X1kf-N_gDx9nL9], a non-profit that directly funds water projects that impact health, education, and women empowerment outcomes. 

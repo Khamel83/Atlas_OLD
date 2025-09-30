@@ -19,11 +19,11 @@ Matthew Belloni ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%
 Welcome back to a special Sunday issue of What I’m Hearing—hope you’re enjoying the Presidents’
 Day holiday. Tonight, some insights on the wild box office boom in China. Plus, Ron Burkle makes another Hollywood play, David Zaslav freaks over an upcoming Michael Wolff profile, and some scary new streaming research…
 
-Programming note: This week on The Town, film marketer Terry Press explained ( https://puck.news/podcast_episode/can-the-emilia-perez-oscars-implosion-be-salvaged/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the path to Oscars salvation for Emilia Pérez, and Netflix content chief Bela Bajaria repeatedly called me “cynical” (Part 1 ( https://puck.news/podcast_episode/netflix-vs-everyone-with-content-chief-bela-bajaria-part-1/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), then Part 2 
+Programming note: This week on The Town, film marketer Terry Press explained ( https://puck.news/podcast_episode/can-the-emilia-perez-oscars-implosion-be-salvaged/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the path to Oscars salvation for Emilia Pérez, and Netflix content chief Bela Bajaria repeatedly called me “cynical” (Part 1 ( https://puck.news/podcast_episode/netflix-vs-everyone-with-content-chief-bela-bajaria-part-1/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), then Part 2
 ( https://puck.news/podcast_episode/whats-next-at-netflix-with-content-chief-bela-bajaria-part-2/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )).
 
 Abe Lincoln and George Washington agree: Join Puck! Just click
-here 
+here
 ( https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Femail.puck.news%2Fe%2Fc%2FeyJlbWFpbF9pZCI6ImRnVDJ4Z1lEQUtBdm55OEJsUU5mOWx2NEFtWXkxVklYU09CVyIsImhyZWYiOiJodHRwczovL25hMDEuc2FmZWxpbmtzLnByb3RlY3Rpb24ub3V0bG9vay5jb20vP3VybD1odHRwcyUzQSUyRiUyRmVtYWlsLnB1Y2submV3cyUyRmUlMkZjJTJGZXlKbGJXRnBiRjlwWkNJNkltUm5WREo0WjFsRVFVdEJkbTU1T0VKc1JEa3dNV1puWVZOc1VsWlRNVzVTWmxKMGVDSXNJbWh5WldZaU9pSm9kSFJ3Y3pvdkwzQjFZMnN1Ym1WM2N5OXFiMmx1THo5MWRHMWZZMkZ0Y0dGcFoyNDlWMmhoZEN0SkpUSTNiU3RJWldGeWFXNW5LeTByVTFWQ1UwTlNTVUpGVWxNckpUSTRNU1V5UmpZbE1rWXlOU1V5T1Z4MU1EQXlOblYwYlY5amIyNTBaVzUwUFZkb1lYUXJTU1V5TjIwclNHVmhjbWx1WnlzdEsxTlZRbE5EVWtsQ1JWSlRLeVV5T0RFbE1rWTJKVEpHTWpVbE1qbGNkVEF3TWpaMWRHMWZiV1ZrYVhWdFBXVnRZV2xzWDJGamRHbHZibHgxTURBeU5uVjBiVjl6YjNWeVkyVTlZM1Z6ZEc5dFpYSXVhVzljZFRBd01qWjFkRzFmZEdWeWJUMW1ObU0yTURZd01EbG1NbVpoTURKbUlpd2lhVzUwWlhKdVlXd2lPaUptTm1NMk1EWXdNRGxtTW1aaE1ESm1JaXdpYkdsdWExOXBaQ0k2TlRVNE5qYzVmUSUyRjU2ZDhhNjIzYTZiOTEwZDRkODAwZjRlMjNmODFlYTRlMzU0NDIzNDY1NWY1MGRmMDAyYWZmZDYzNWIyZTllOThcdTAwMjZkYXRhPTA1JTdDMDIlN0MlN0NkOTJkMzUwMjNmOTE0OTU5MDc3NTA4ZGQyZWVkNjA4NSU3Qzg0ZGY5ZTdmZTlmNjQwYWZiNDM1YWFhYWFhYWFhYWFhJTdDMSU3QzAlN0M2Mzg3MTgzMTkyNTUzOTg0OTklN0NVbmtub3duJTdDVFdGcGJHWnNiM2Q4ZXlKRmJYQjBlVTFoY0draU9uUnlkV1VzSWxZaU9pSXdMakF1TURBd01DSXNJbEFpT2lKWGFXNHpNaUlzSWtGT0lqb2lUV0ZwYkNJc0lsZFVJam95ZlElM0QlM0QlN0MwJTdDJTdDJTdDXHUwMDI2c2RhdGE9V3ZxcUpWMjZNdkhTa2sxTlA0UG5iNDdhdTJqMjZZbSUyRmd2WXREdFJaUzV3JTNEXHUwMDI2cmVzZXJ2ZWQ9MFx1MDAyNnV0bV9jYW1wYWlnbj1XaGF0K0klMjdtK0hlYXJpbmcrLStTVUJTQ1JJQkVSUyslMjgyJTJGMTMlMkYyNSUyOVx1MDAyNnV0bV9jb250ZW50PVdoYXQrSSUyN20rSGVhcmluZystK1NVQlNDUklCRVJTKyUyODIlMkYxMyUyRjI1JTI5XHUwMDI2dXRtX21lZGl1bT1lbWFpbF9hY3Rpb25cdTAwMjZ1dG1fc291cmNlPWN1c3RvbWVyLmlvXHUwMDI2dXRtX3Rlcm09ZjZjNjA2MDA5ZjJmYTAyZiIsImludGVybmFsIjoiZjZjNjA2MDA5ZjJmYTAyZiIsImxpbmtfaWQiOjIwODMwNDF9%2F92b56264911a9f00ffd5cdc8f9fcf7385d2af422740b77203f51df1afa1c660c&data=05%7C02%7C%7Cea717c9eefa94b7cc99b08dd4cca0537%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638751152741319696%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=grlvd9ACRt49CPtkcNL9r8rB%2F0t3dLddC1VcqPLyR5o%3D&reserved=0&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Got a news tip or an idea
 for me? Just reply to this email or message me on Signal at 310-804-3198.
 
@@ -31,7 +31,7 @@ Discussed in this issue: Lachlan Murdoch, Ari Emanuel, Lorne Michaels, Brian Oli
 
 But first…
 
- 
+
 
 Who
 Won the Week: Yu Yang
@@ -42,7 +42,7 @@ it from Chinese theaters alone. It’s the first film to gross more than $1 bill
 
 Runners-up: Edward Berger and Brady Corbet, whose Conclave (picture) and The Brutalist (director), respectively, won the top two BAFTAs, offering a sliver of Oscars hope against Anora, which has now won the PGA, DGA, and WGA awards, with the SAGs next weekend.
 
- 
+
 
 Burkle
 Now Backing Paramount Movies
@@ -59,7 +59,7 @@ With New Republic, Burkle may have bought his way into a deposition in the nearl
 Mission. As Eriq Gardner reported ( https://puck.news/newsletter_content/wih-disney-politics-on-trial-boies-v-zuck-lifetimes-wendy-saga-4/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week, that case is headed for an April trial… around the time that Michael, the troubled Jackson biopic I wrote about ( https://puck.news/michael-jackson-movie-imperiled-by-a-dark-secret/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last month,
 will be back at Burkle’s Neverland doing extensive reshoots.
 
- 
+
 
 Quote
 of the Week (SNL50 edition)
@@ -83,7 +83,7 @@ out of elevating the loudest guy in the room.”
 Third runner-up: “Honestly, I have my own life. I cannot devote any more time to Lorne …” —Graydon Carter,
 replying all ( https://nymag.com/intelligencer/article/the-lorne-michaels-book-event-reply-all-fiasco.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to a star-studded and amusing email chain about a book party for Susan Morrison’s Lorne.
 
- 
+
 
 Wolff
 Biting Zaz
@@ -161,7 +161,7 @@ Peter Hamby checks in on L.A.’s post-fires political tar pit that has now ensn
 Hawk Tuah
 Girl’s bafflingly successful podcast is engulfed in a crypto memecoin scandal as stupid as she seems to be. [Bloomberg ( https://www.bloomberg.com/news/newsletters/2025-02-14/the-incredible-rise-and-fall-of-the-talk-tuah-podcast?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Scary
 Streaming Numbers…
@@ -178,7 +178,7 @@ asked ( https://www.bloomberg.com/news/newsletters/2025-02-16/spotify-wants-to-s
 * Merge or die: “The economics of streaming do not seem to work at the current scale of Peacock or Paramount+. They just might work if the two came together or in
 combination with Max.”
 
- 
+
 
 The
 Feedback
@@ -291,7 +291,7 @@ What should Hollywood studios take away from the recent surge in moviegoing in C
 It’s a great opportunity. Moviegoing in China tends to yield more moviegoing; it’s a consumer behavior that builds on itself. The Film Bureau designed this Chinese New Year slate to give the Chinese box office a jolt of adrenaline, and they’ve clearly done an incredible
 job. So, the hope is that will help buoy both the strong Chinese local-language slate and the Hollywood slate ahead in 2025. I’d encourage U.S. studios to lean into this opportunity with marketing campaigns that carefully consider local preferences and cultural nuances, and feel vital and resonant. Chinese audiences aren’t all that different from those in the U.S.—they want fresh, innovative storytelling that they haven’t seen or experienced before.
 
- 
+
 
 Finally…
 ----------
@@ -316,6 +316,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVElUMxYwaPRKWqect18M=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

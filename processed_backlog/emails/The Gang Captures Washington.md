@@ -15,7 +15,7 @@ The headline is that investors are still looking for opportunities, but have shi
 Mercury is a financial technology company, not a bank. Banking services provided by Choice Financial Group and Evolve Bank & Trust; Members FDIC.
 Hi friends 👋, 
 Happy Tuesday! What a weekend. We were at my parents’ celebrating my mom’s birthday this weekend. Our car got stolen out of the driveway early Sunday morning. The police were great, we tracked the car down with an app, and we got it back yesterday. There was some damage, but all-in-all, we got lucky. 
-That does mean that a lot of the time I would have spent writing was spent tracking down the car, so I had to go a little off the dome with this one. Last week, I wrote about the idea that capitalism is good and capitalism can evolve. As Bill Gurley highlighted, one of the best ways to evolve capitalism is to fight back against regulatory capture in order to unlock an Age of Miracles. This piece digs into that idea. It’s meant to be a starting point for a discussion, not to have all the answers. 
+That does mean that a lot of the time I would have spent writing was spent tracking down the car, so I had to go a little off the dome with this one. Last week, I wrote about the idea that capitalism is good and capitalism can evolve. As Bill Gurley highlighted, one of the best ways to evolve capitalism is to fight back against regulatory capture in order to unlock an Age of Miracles. This piece digs into that idea. It’s meant to be a starting point for a discussion, not to have all the answers.
 Let’s get to it.
 The Gang Captures Washington
 The reason Silicon Valley has been so successful is because it’s so fucking far away from Washington, DC.

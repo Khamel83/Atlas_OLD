@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Let’s say you own a bunch of stocks, say $1 million worth of the stocks in the S&P 500 Index. You think they will go up (that’s why you own 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Let’s say you own a bunch of stocks, say $1 million worth of the stocks in the S&P 500 Index. You think they will go up (that’s why you own
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       0DTE
-    
-  
+
+
 
 Let’s say you own a bunch of stocks, say $1 million worth of the stocks in the S&P 500 Index. You think they will go up (that’s why you own them), but you worry that they might go down. You can buy insurance against that risk: You can pay someone a fee now, and she will guarantee you that, in a year, your S&P 500 stocks will be worth at least $1 million. If they’re not, she’ll pay you the difference. (If they’re worth more than $1 million, you keep the gains, but she keeps the fee.) This is a put option.
 The fee for that insurance is about $50,000: You pay about 5% of the value of your portfolio to insure it against a drop for one year.
@@ -97,37 +97,37 @@ The downside is of course that if everyone is buying lottery tickets, they might
 "The strategy is similar to picking up dimes in front of a bulldozer. The income potential is there, but there are times you could also get run over," Gregson said.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bankman, Fried
-    
-  
+
+
 
 Everyone agrees that FTX Trading Ltd., the bankrupt crypto exchange, was   pretty casual about money. Everyone mostly agrees that Sam Bankman-Fried, FTX’s founder and chief executive officer, had no hesitation about taking millions of dollars of FTX’s money to spend on Super Bowl ads or political donations or luxury apartments or  private jets to deliver Amazon packages. Eventually it turned out that like $8 billion of FTX customer money was missing, FTX went bankrupt and Bankman-Fried was   arrested for fraud. His trial starts next month, and I suppose the basic dispute is:
 	Prosecutors will argue that the combination of (1) FTX spending millions of dollars on luxury apartments for Bankman-Fried and (2) $8 billion of FTX customer money going missing is pretty suspicious! Like, that’s the main thing that you do in a financial fraud: You take customer money and spend it on luxury goods and experiences for yourself, and at the end you have the luxury goods and the customers don’t have the money.	Bankman-Fried  will argue that he just sort of miscounted the money: Due to some bad spreadsheets, he thought that FTX had billions more dollars than it actually did, and so he figured “man we have so much money it won’t do any harm to spend a few million here and there.” This is partly a defense of literal bad spreadsheets — apparently FTX just forgot about a “poorly internally labeled” $8 billion obligation to customers? — and partly a defense of “we were running a lucrative leveraged financial institution in a boom”: FTX was profitable on a day-to-day basis as long as crypto markets didn’t move against it, and then they did.
@@ -172,11 +172,11 @@ Is that right, that “whether or not these specific allegations were true, thei
 
 Still at least in principle you could probably satisfy yourself that FTX was not doing pump-and-dumps — or conclude that it was, and tell it to knock it off — without discovering that it misplaced $8 billion of customer money. Or you could say “ehh money laundering, let’s tighten up our money laundering controls a little bit,” also without discovering the misplaced money. Pump-and-dumps and money laundering are, like, the regular crypto crimes; the problem here was losing, or stealing, all the customer money.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 Bank additional tier 1 capital securities are, I think, basically a trick. The trick works like this:
 	AT1s kind of look like bonds — they pay regular interest, they usually get paid back after five or 10 years — so investors treat them like bonds. In particular, the interest payment on a bank’s AT1s will normally be lower than the bank’s cost of equity capital, and so banks will issue AT1s because they’re cheaper than issuing equity.	If the bank runs into trouble, the AT1s act like stock: They absorb losses so that governments, taxpayers, depositors, etc. don’t have to. The AT1s are sort of the first line of defense against bank bailouts. In some ways, some AT1s are actually junior to equity: Many AT1s, by their terms, go to zero if a bank’s common equity capital ratio falls below 7%; at that point, the common stock is still worth something but the AT1s are worth nothing. This fact makes regulators like AT1s — they are very helpfully loss-absorbing — and so regulators treat them as good bank capital, a good substitute for some of a bank’s common stock.
@@ -199,11 +199,11 @@ One option under consideration is replacing UBS’s AT1 bonds, which are designe
 
 The other answer is to just shrug and wait and figure that memories in this market are very short and eventually everyone will forget what they were mad about and buy the AT1s anyway.
 
-  
-    
+
+
       Art Stuff
-    
-  
+
+
 
 A general theory of art might be that artists create cultural cachet, and art collectors have cash, and the collectors trade their cash for the artists’ cachet. For centuries the main form of cultural cachet that artists could create was pretty pictures that looked nice hanging in collectors’ dining rooms and impressed their dinner guests, and so the prettier the pictures were the more they were worth.
 But eventually it got fairly easy to get pictures of arbitrary prettiness, so pretty pictures do not carry the cachet and distinction that they once did, so collectors are not willing to pay that much for them. Collectors want more abstract and complicated forms of cultural cachet. They want their art to convey sophistication, and one very popular way to convey sophistication is by showing that you are in some sense in on the joke. If you bought Duchamp’s urinal, that showed that you were with it.
@@ -222,15 +222,15 @@ Haaning agreed with Kunsten, a museum in northern Denmark, in 2021 that he would
 
 I like that they still have to pay him for the work. Because it’s good! There’s a link to the museum’s webpage describing the artwork; it includes a photograph of the two blank frames hanging in the museum and several paragraphs of curatorial text tracing the art-historical antecedents of, you know, taking the money and running. It’s a rich history! They got what they paid for! This prank is more interesting than the original thing they commissioned. I suppose it’s even funnier now that they’ve gotten the money back. They should put the money in a very heavy safe next to the empty frames. “Failed Prank (2023), medium: litigation.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Instacart  Prices IPO at $30 a Share, at Top End of Expectations. Nasdaq and NYSE fight closest  listings contest in five years. Cboe’s CEO Resigns Over   Undisclosed Personal Relationships. New York Regulator to Require Higher Standards for  Coin Listings and Delistings. Fund industry braced for SEC crackdown on  deceptive product labels. Elon Musk Floats  Charging Users for X. Dad sues hospital for $642M after  witnessing his wife’s C-section: ‘It gave me psychotic illness.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Very casual numbers here. At noon today, the S&P 500 was at about 4,425, and Bloomberg showed the Sept. 20, 2024, 4,425-strike put (SPX US 09/20/24 P4425 Equity) at about 211, or about 4.8% of notional.
 
 
@@ -261,48 +261,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] “The work involved the sale of documentation of ownership of empty space (the Immaterial Zone), taking the form of a receipt, in exchange for gold; if the buyer wished, the piece could then be completed in an elaborate ritual in which the buyer would burn the receipt, and Klein would throw half of the gold into the Seine,”  Wikipedia says, but he’d keep the other half.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -313,46 +313,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjia5j.5jef/1a31f0e4.gif" alt="" border="0" /></a>

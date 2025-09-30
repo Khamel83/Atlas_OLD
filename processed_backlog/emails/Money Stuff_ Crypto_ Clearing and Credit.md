@@ -7,262 +7,262 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         ClearingThe basic philosophical difference between the traditional financial system and the cryptocurrency system is that traditional financ
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Clearing
-    
-  
+
+
 The basic philosophical difference between the traditional financial system and the cryptocurrency system is that traditional finance is about the extension of credit, and crypto is not. That is an exaggeration in various ways, but I think that it is essentially true.So consider the simplest aspects of these systems. Like money: A US dollar is, essentially,  an entry on the ledger of a bank, representing that bank’s debt to you. Basically every dollar that you own is  someone else’s debt to you. A Bitcoin is not. A Bitcoin is an entry on the decentralized ledger of Bitcoin; there is a fixed supply of Bitcoins; owning a Bitcoin is like owning a gold nugget; no debt is involved. Or take trading. Every time you trade a stock, in the US,  there is an extension of credit. You and I agree on a trade on Wednesday, and we actually settle — I give you the money and you hand over the stock — on Friday. In the meantime, there is credit risk: If I disappear you don’t get your money; if you disappear I don’t get my stock. The traditional financial system deals with this risk through layers of intermediation, trust and collateral requirements: My broker makes sure I’m good for the money, a clearinghouse demands collateral from my broker to make sure it’s good for the money, etc. (And there is a plan to change this “T+2” settlement to “T+1,” so we exchange the cash for stock on Thursday instead of Friday, reducing the credit risk.) Meanwhile in the crypto system the paradigmatic trades occur on the blockchain: You and I agree on a trade on some decentralized exchange, and I send you my stablecoins and you send me your crypto at the same time the transaction is agreed; the trade and settlement are simultaneous.Many advocates of crypto like this; they think that crypto’s philosophical uneasiness with credit is good. Money without debt — without fractional-reserve banking — is sounder, less inflationary and safer, they argue; trading with instant settlement is clearer and more logical and safer than trading with delayed settlement and credit risk.But whether you like it or not this difference is deeply baked into the mechanics of crypto. In some sense the entities of traditional finance are people and companies, and their counterparties can make credit decisions based on thick sets of information about them. Your bank can look at your credit report and payment history before giving you a credit card; an investment bank can consider a hedge fund’s track record and prospects of future business and risk-management protocols — and how much the bank’s salesperson likes the hedge fund’s manager — before extending it a margin loan. Also if you default on your credit card the bank can sue you and make the whole rest of your life difficult; if the hedge fund defaults on a margin loan the bank can blackball its manager from future business. In crypto the entities are blockchain addresses, and they are thinner.[1] You set up a wallet, you have a private key, the wallet interacts with other wallets, you don’t know the names of the people who own those wallets, they don’t know your name, and only what happens on the blockchain is relevant to any of your or their decisions. The bank knows where you live; the blockchain does not.Still, credit is kind of an important part of a financial system? People want to borrow money to do stuff. Sometimes this is normal business or personal stuff: People want to borrow money to start a business or build a factory or buy a house or whatever. If crypto is going to displace or compete with the traditional financial system, it will need to find ways to do that sort of lending. This seems to me like a hard and rather unsolved problem in crypto, and I don’t think a lot of people are taking out mortgages from the blockchain.[2]But credit is also a very useful aspect of many forms of trading. People like to do trades that involve credit. Some people like to buy financial instruments (stock, cryptocurrencies, etc.) on margin: They put up some money of their own, borrow some money from their broker, and buy more stock than they can currently pay for. Or they like to do derivatives trades (swaps, futures) that have that basic profile: You put up a little bit of money to get exposure to a larger amount of some financial instrument. Or they like to trade options, which involve an extension of credit: If I sell you a call option on some stock, then I owe you the stock (in some circumstances), and you have to trust that I will actually be able to deliver it.The crypto system is able to extend that sort of credit. That’s relatively easy. Margin loans and futures and options are all forms of leverage that are (1) secured (2) by traded collateral and (3) subject to margin calls. If you buy $200 worth of stock with $100 of your own money and $100 of margin loans from a broker, the broker will feel fairly safe: It has $200 worth of stock to cover its $100 loan. If the stock goes down to $140, the broker will feel less safe, and will demand that you put up some more of your own money. If you don’t do that quickly, the broker will sell the stock — perhaps for $120 — and pay itself back, no problem. (If the stock goes down to $80 quickly, that is a problem, but these are understandable problems and the broker will set the margin levels so that it is comfortable with the risk.)And because crypto trades 24 hours a day, seven days a week, and is very tech-forward, crypto is pretty good at this sort of thing. All sorts of crypto trading platforms offer leverage like this: You can put up a little bit of money to buy a lot of exposure to some cryptocurrency, and the platform monitors the value of the cryptocurrency, and if it goes down the platform sells the cryptocurrency you own to repay its loan. And this can all be done automatically, 24/7. It is tricky because lots of crypto stuff is very volatile, and there is limited trading history, but it is all sort of in the category of solvable math problems. No thick sorts of credit extension are required: The trading platform doesn’t have to know where you live or have a good personal rapport with you; everything can be automated and done “on-chain,” based solely on the blockchain’s knowledge of your crypto wallet.In the traditional financial system, very few things work like this. One thing that mostly does is a margin account at a retail stock brokerage: If your stock declines, you will get a margin call, and if you don’t post margin within a defined and fairly tight time frame your broker will sell the stock, and this really might all be done by a computer in a pretty formulaic way. But if you have a big enough account — if you are a big hedge fund or family office — it doesn’t work that way. When Credit Suisse Group AG decided that Archegos Capital Management did not have enough collateral in its margin account, a Credit Suisse representative called Archegos and asked it to post more collateral, and Archegos said,  sorry, we are really busy this week, let’s discuss next week. In theory Credit Suisse could have liquidated Archegos’s positions, but in practice that would have been rude, so it didn’t. Credit Suisse did not extend credit to Archegos based on some defined formulaic function of the value of its collateral; Credit Suisse extended credit to Archegos based on some fuzzy holistic relationship-based function of how much business it hoped to do with Archegos, how much the Credit Suisse people liked the Archegos people, how its traders felt about the collateral, when its risk committees had meetings, stuff like that.And away from margin lending for trading, almost nothing works like this. You don’t get a margin call on your mortgage if the value of your house goes down; your bank is only dimly aware if the value of your house goes down, since it doesn’t trade on an exchange. Some companies take out corporate loans that have to be paid back if their earnings go down too much — though this is less common than it used to be — but that is never really an automated thing: If the company’s earnings go down then its lenders call it up and say “so, earnings down this quarter, huh?” and renegotiate the terms of the loan; they don’t just liquidate the company that day.FTX, Sam Bankman-Fried’s crypto exchange company, wants to bring the crypto model to US-regulated exchanges. From  Bloomberg last week:Wall Street exchanges and other firms zeroed in on their objection to a proposal US regulators are considering that would allow retail investors to trade crypto derivatives directly on a popular digital asset platform.The plan -- from crypto firm FTX -- would take banks and other financial intermediaries out of Bitcoin and Ether futures trades that use margin. At a roundtable on Wednesday hosted by the Commodity Futures Trading Commission, which is reviewing the proposal, executives from firms including CME Group Inc. and Intercontinental Exchange Inc. said the change could add risks to the market. ...FTX’s CEO Sam Bankman-Fried, who swapped his infamous t-shirt and shorts for a suit, defended his proposal, saying it reduces risk because the firm’s model would use algorithms to monitor trades seven days a week. The crypto billionaire has said his approach would increase competition and opportunities for mom-and-pop investors. In the typical US market structure, an exchange (where trades are agreed) is associated with a clearinghouse (where the credit is extended), and the clearinghouse has members, who are large trading firms (banks, brokers, etc.). The members intermediate trades for their customers, who are individuals or smaller trading firms. The members post collateral with the clearinghouse to secure their customers’ trades, and the members extend credit to the customers (who in turn generally post collateral with the members). If a member has posted insufficient collateral, the clearinghouse will call it up and say “post more collateral,” and the member will either (1) post more collateral and everything is fine, or (2) default and everything is bad, or (3) say “I don’t have more money right now but let’s work something out.” And then all the thick offline human factors come into play. And that process repeats at the customer level: The brokers intermediate the trade for customers, and demand collateral from the customers, and if the customers are a little short on collateral then the broker has to weigh its risk of not liquidating the position (it might go down more, and then the broker loses money) versus its risk of liquidating the position (that might cause it to go down more, plus the customer will be mad).Last week FT Alphaville reported on something that Chris Edmonds of ICE said at the CFTC roundtable:On ... the idea of ‘defaulters pay’. I get that. Love that, right. And that works really well for guys who are in big shops, because they never default. They want to tell you they never default. And we’re just going to call that out at the moment. At the beginning of the pandemic — I’m not going to name the person, but they’re in the room - there was a technical issue. Point: he doesn’t have to worry about that in the proposed model, right, that’s not there. But it would’ve been cataclysmic at that moment in time. We knew the issue, to Gerry’s point about know-the-customer. We knew where it was. And we chose to give the appropriate amount of time not to dislocate the market and create a bigger stress on that.So for us at the end of the day, it’s our job to do no harm. It’s our job to hold everyone. It’s the question of when you’re calling the default. There are lots of examples in history that many of us around this table have lived around and now’d say, you know, “I think they’re in default.” Gerry may say “nope they’re not in default,” at that point. And that consensus when that default takes place, we react pretty well.But I had the keys to the castle at that point in time, and it would’ve been a very bad day. And that person sits in this room, and they know exactly who I’m talking about.That is: “Guys who are in big shops” never default, because if they get a margin call from their clearinghouse and they happen not to have the money available, they say “call us tomorrow,” and the clearinghouse says “ah yes right.” Because they are friends, because the clearinghouse knows (or thinks) from context clues that they’re good for it, or because the clearinghouse concludes that it would be “a very bad day” if it liquidates a big firm and so takes the risk that it will have the money tomorrow.Meanwhile the FTX proposal — here is FTX’s overview, and the CFTC’s request for comment — is that it will run its exchange, and it will run the clearinghouse, and customers will trade with it directly, and FTX will set their margin requirements and hold on to the margin for them, and if they fall below the margin requirements the algorithm will liquidate their positions. Everyone is treated equally and algorithmically; the risk management is mechanical and statistical rather than a guy saying “I had the keys to the castle at that point in time.” From the request for comment:FTX’s model does not contemplate receiving any funds from a participant not on deposit when the trade is executed. FTX has two margin requirements for its participants, the initial margin requirement and the maintenance margin requirement. The initial margin requirement is the amount of margin the participant must post to open a position. Maintenance margin is a set minimum percentage of the notional value of the portfolio that the margin on deposit must exceed. A participant’s margin level is recalculated every 30 seconds as positions are marked to market, and if the collateral on deposit falls below the maintenance margin level, FTX’s automated system will begin to liquidate the portfolio. The automated system will liquidate 10 percent of a portfolio at a time by placing offsetting orders on the central limit order book. Once the liquidation process results in collateral on deposit that exceeds the maintenance margin requirement, the liquidation will stop. Because the liquidation is done automatically and positions are marked to market every 30 seconds, these liquidations can occur at any time, on a “24-7” basis.The point is not that this is risk-free; it isn’t, and there are various backstops — people who will bear the losses — in case the portfolio falls faster than FTX can liquidate it.[3] The point is just that the risk is managed formulaically and, as it were, “on-chain.” FTX’s margining model does not ask questions like “how big is this customer’s balance sheet” or “how good is this customer’s reputation” or “how much business can we expect to do with this customer in the future.” The customer is irrelevant to the credit decision; only the account matters: “FTX’s model does not contemplate receiving any funds from a participant not on deposit when the trade is executed.” FTX doesn’t care if the customer is good for the money; it only cares about the value of the collateral and the volatility of the asset. There are debates about whether this is good or bad; simplistically, you’d expect the FTX model to lead to more defaults and liquidations, but for those defaults to be less bad. In the traditional system, sometimes people will have a “technical issue,” and the exchange will “give the appropriate amount of time not to dislocate the market and create a bigger stress on that,” and it will work out fine — but occasionally it won’t work out fine, and by delaying the exchange will have caused a much bigger problem.Mostly though I just want to point out that these are different philosophies. The FTX-type approach is more or less necessary for decentralized finance: If you want financial systems to be accessible by anyone in a permissionless, decentralized way, you need the extension of credit to be formulaic and asset-based and “on-chain.” If you want the crypto financial system to take over the regular financial system, one crucial step is to get the CFTC to approve this sort of trading.On the other hand the traditional, relationship-based approach has its points too. Here’s Gary Silverman at the Financial Times:Some of the nation’s farmers are worried that billionaire chief executive of the FTX cryptocurrency exchange could cost them sleep. …Nelson Neale, president of CHS Hedging, the futures brokerage arm of a leading US farmer co-operative, said at the CFTC meeting that an overnight automated liquidation posed a bigger threat to farmers who turn to the futures markets to hedge their risks than to traders who use such contracts for “speculation”.“With an auto-liquidation scheme, a crypto trader goes to bed at 11pm and wakes up at 7am and, all of a sudden, he’s been knocked out of his position, or liquidated — a bad day certainly, but perhaps not as bad if we consider the same scenario for the American farmer,” he said.“He goes to bed with a corn position to hedge his physical inventory at 11pm, wakes up at 7am, or probably a bit earlier, and he has no position. All of a sudden, the value of his inventory goes down considerably . . . He may have loan obligations he may no longer be able to commit to.”In the traditional system, if the price of corn drops at midnight, and your broker calls you up for more margin, and you don’t post more margin, your broker thinks “aha you are asleep” and waits until the morning to call you again. But “humans are asleep at midnight” is the sort of off-chain information that a purely algorithmic approach would ignore.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Management techniques
-    
-  
+
+
 Elon Musk  does not like remote work, which, you know, fine, but this strikes me as being less about remote work and more about a general culture of being ostentatiously intense: Under the subject line “Remote work is no longer acceptble” [sic], Musk wrote that “anyone who wishes to do remote work must be in the office for a minimum (and I mean *minimum*) of 40 hours per week or depart Tesla. This is less than we ask of factory workers.”The CEO went on to specify that the office “must be a main Tesla office, not a remote branch office unrelated to the job duties, for example being responsible for Fremont factory human relations, but having your office be in another state.”I like the idea that you can do remote work at Tesla Inc., as long as you are also in the office more than 40 hours a week. If you put in 12-hour days in the office Monday through Thursday, you can work remotely on Friday and — I think it’s implied — Saturday and Sunday. Musk won’t like it, but he will grudgingly accept it. I guess if you put in 14-hour days in the office three days a week you can work remotely the other, let’s face it, four days. If everyone is working 100-hour weeks then “at least 40 hours a week in the office” really is a remote-work policy! I once worked at a law firm that had a suits-and-ties dress code Monday through Friday, but business casual Saturdays and Sundays; that was … nice? Also:The reference to Tesla factory workers is also interesting in light of the situation at the carmaker’s plant in Shanghai.Thousands of staff there have been effectively locked in for months, working 12-hour shifts, six days a week. Until recently, many were sleeping on the factory floor as part of a closed-loop system meant to keep Covid out and cars rolling off the production line.Elsewhere in intense managerial cultures, here’s a Wall Street Journal story about Neom:In the summer of 2020, two videogame companies canceled sponsorship deals with Saudi Arabia’s planned city-state of Neom following fan complaints about the country’s human-rights record. Neom Chief Executive Nadhmi al-Nasr called an emergency meeting on a weekend and asked his communications team why it hadn’t warned him this might happen.“If you don’t tell me who is responsible,” Mr. Nasr said, according to people with direct knowledge of the meeting, “I’m going to take a gun from under my desk and shoot you.” …In another meeting, Mr. Nasr told one executive to walk into the desert to die, so he could urinate on his grave, according to people who have worked directly with Mr. Nasr.“I drive everybody like a slave,” Mr. Nasr said in another meeting, according to a recording heard by the Journal. “When they drop down dead, I celebrate. That’s how I do my projects.” …A senior Saudi official said Prince Mohammed and his royal court are aware of Mr. Nasr’s management style and the high turnover at Neom. “But they seem to think this style works,” said the official, who wasn’t speaking on behalf of the government.Yeah that’s a tone-at-the-top situation: Neom lost those contracts in part because Prince Mohammed bin Salman, Nasr’s boss, does have a bit of a history of allegedly murdering people who displease him, so when Nasr talks about shooting his direct reports there’s some chance he means it.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Russia CDS
-    
-  
+
+
 I  don’t know:Russia was judged to have breached the terms on a bond payment by a derivatives panel, triggering an insurance payout potentially worth billions of dollars. The Credit Derivatives Determinations Committee said a “failure-to-pay” event occurred on credit-default swaps because Russia didn’t include $1.9 million of additional interest in a late bond payment made at the start of last month.While a comparatively small amount, the missed interest will trigger all of Russia’s outstanding credit default swaps, entailing a payout on as much as $3.2 billion of debt, with the final amount likely to be set at auction. At the same time, the size of the accrued interest and the fact that the principal payment has already been paid means the ruling won’t spark a broader default on Russia’s bonds. Does this qualify as “CDS shenanigans”? Like:	Broadly speaking, Russia has made all of the payments on its foreign bonds, except for some reason that $1.9 million of additional interest.[4]	So under the CDS documents it is just a little bit in default and CDS has been triggered, even though that default is on just a tiny sliver of payments.	But people think it soon won’t be current on its payments, because the US has cut off its ability to keep paying its bonds.	Also, due to sanctions etc., lots of international investors can’t buy the bonds, depressing demand.	So the bonds trade at very low levels, even though Russia is almost entirely current on its payments.	So the rather technical default will trigger a rather large payout on the bonds.
-  
-    
+
+
       Bullish on crypto
-    
-  
+
+
 Ahh I love plaintiffs’ lawyers:John Jasnoch, a partner at Scott + Scott, said his firm has “gotten bullish on crypto” and is handling six cryptocurrency cases, with more in the pipeline. His portfolio includes three proposed class-action suits filed this year over investment losses in SafeMoon, a blockchain-based digital token that charges investors a 10% fee when they sell the asset. SafeMoon founders said the levy—half of which is redistributed to current investors—discourages sales of the token and encourages long-term holding.The plaintiffs allege that SafeMoon was a pump-and-dump scheme in which it used celebrities such as boxer Jake Paul, musician Nick Carter and rapper Lil Yachty to promote the tokens on social media. SafeMoon founders encouraged purchases of the token while selling off their own holdings as the trading volume remained inflated, the plaintiffs allege.To be clear there, “bullish on crypto,” for a plaintiffs’ lawyer, means the opposite of what it means for an investor. “Bullish on crypto” means that he has lots of crypto companies to sue, because their cryptocurrencies went down.I am also bullish on crypto, for plaintiffs’ lawyers. For one thing it is pretty obvious that there are lots of large frauds, Ponzis and pump-and-dumps in the crypto space; even crypto’s most ardent boosters would agree with that. “Sure 99% of crypto projects are scams, but mine is in the 1%,” 75% of crypto promoters say; the other 25% are like “oh yeah this is a Ponzi, come on in.”But that’s not even the main reason I’m bullish. The main reason is that a lot of crypto projects look a lot like securities, under US securities law, and are generally sold to US retail investors without registration with the US Securities and Exchange Commission. Under former chair Jay Clayton, the SEC regularly went after crypto projects for doing unregistered securities offerings; under current chair Gary Gensler, it does less of that.But the basic remedy for doing an unregistered securities offering is that you have to buy the securities back at the price you sold them for. As long as cryptocurrencies mostly go up, this is not too big a worry: If you sell a bunch of SecurityCoins for $10 each, and they go up to $20, nobody is going to demand that you buy them back for $10. But if they go down to $0.06, everyone will, and it might be easier for them to prove that the coins were securities than it is to prove that you were doing fraud.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Fed Starts Experiment of Letting $8.9 Trillion Portfolio  Shrink. Russian Oil Producers Stay One Step Ahead of Sanctions. UK and EU hit Russian oil cargoes with insurance ban. How  the World Is Paying for Putin's War in Ukraine. Spirit Airlines Shareholders Urged to Reject Frontier Deal by Proxy-Advisory Firm. Fidelity Slashes  Reddit, Stripe Valuations After Tech Rout. US Supreme Court  Halts Texas Law Targeting Social Media Platforms. Russian  Yachts and Money Are Going Where US Influence Has Waned. First  Crypto ETFs in Australia See Trading Evaporate. Oman Backs U.S. Firm Mining Crypto to Cut  Natural Gas Flaring. SEC Charges Company and Former CEO with Misleading Investors about Sale of Covid-19 Test Kits. Legally, bees are fish.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] A lot of people  talk about blockchains as prospectively containing much *more* and *more legible* information: One day, the thinking goes, all of your information will be on the blockchain, and a bank will be able to decide to make you a loan based on information in your blockchain profile about your previous financial transactions and your educational history and your driving record and how often you floss your teeth. Needless to say this does not exist now, and to some extent it assumes “a blockchain” that collates all of this information, rather than the actually-existing system of different competing blockchain systems that are all pretty much for financial speculation.[2] Oh there are “crypto mortgages,” but those are just conventional mortgages (from banks, in dollars, secured by houses) with some extra crypto collateral. [3] Again from the request for comment: “Below the maintenance margin threshold, FTX will also set a ‘full liquidation’ threshold based on a set percentage of the notional value of the positions. If the margin on deposit falls below that threshold, FTX will liquidate the remainder of the portfolio. To fully liquidate a portfolio, FTX intends to enter into agreements with backstop liquidity providers who agree ahead of time to accept a set amount of positions if a portfolio needs to be completely liquidated, and who will receive the remaining margin for the position once the full liquidation threshold is hit. FTX will also fund a guaranty fund with $250 million of its own capital to cover any losses incurred on positions beyond those accepted by the backstop liquidity providers. FTX will also use its guaranty fund to reimburse the backstop liquidity providers when the participant’s margin does not cover the value of the portfolio acquired by the backstop liquidity providers. FTX does not propose to mutualize losses among its participants in its default waterfall.”[4] I assume that the “some reason” is that Russia does not want to acknowledge that any payments were late, since that would puncture its business-as-usual stance.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

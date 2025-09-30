@@ -13,7 +13,7 @@ if grep -q "API_PORT=" .env 2>/dev/null; then
     CURRENT_PORT=$(grep "API_PORT=" .env | cut -d= -f2)
     echo "📍 Current port: $CURRENT_PORT"
     echo "🎯 Generated port: $UNIQUE_PORT"
-    
+
     read -p "Replace current port with generated unique port? (y/N): " -n 1 -r
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then

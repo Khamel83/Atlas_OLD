@@ -54,11 +54,11 @@ Under California law, Defendants owe fiduciary duties to Plaintiff, including a 
 
 * Using monies received from Plaintiff, and by using intellectual property and derivative works funded by those monies, for “for-profit” purposes that directly contravene both the letter and the express intent of the parties’ agreement, thereby breaching Defendants’ contractual promises to Plaintiff, and also breaching Defendants’ promises to the express intended third-party beneficiaries of the parties’ agreement, i.e., the public…
 
-* 
+*
 
 Failing to disclose to the public, among other things, details on GPT-4’s architecture, hardware, training method, and training computation, and further by erecting a “paywall” between the public and GPT-4, requiring per-token payment for usage, in order to advance Defendants and Microsoft’s own private commercial interests, despite agreeing that OpenAI’s technology would be open-source, balancing only countervailing safety considerations.
 
-* 
+*
 
 Permitting Microsoft, a publicly traded for-profit corporation, to occupy a seat on OpenAI, Inc.’s Board of Directors and exert undue influence and control over OpenAI, Inc.’s non-profit activities including, for example, the determination of whether and to what extent to make OpenAI’s technology freely available to the public.
 

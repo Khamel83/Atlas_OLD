@@ -17,9 +17,9 @@ Stay compliant with the latest regulations 
 Scale compliance with your business to meet ISO 27001, GDPR, HIPAA, PCI, and other requirements
 Plus, Secureframe helps sales teams respond to RFPs and security questionnaires quickly and easily with AI so they can close more deals, faster.
 Click here [ https://substack.com/redirect/73ce8242-25e1-4160-ab52-8054de0b8c47?r=9p0gt ] to set up a demo. Mention “Not Boring” during your demo to get 20% off your first year of Secureframe. Promotion available through October 31, 2022.
-Hi friends 👋, 
-Happy Monday! This is my shortest piece in a long time — it all fits in the email — on a topic that’s near and dear to my heart: the real and growing power of writing down the future you want to see exist. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Monday! This is my shortest piece in a long time — it all fits in the email — on a topic that’s near and dear to my heart: the real and growing power of writing down the future you want to see exist.
+Let’s get to it.
 The Enchanted Notebook
 Imagine that, sitting at your desk on a normal Monday, a Monday just like today, a wizard pops into your office and hands you an enchanted notebook. 
 “Write any idea in this notebook,” the wizard whispers, “and it will show you how to make it real.” 
@@ -41,7 +41,7 @@ Fridman: That’s really interesting. You paint a world that you would like to e
 Kurzweil: And then you actually imagine you’re giving a speech about how you created this. Well you’d have to then work backwards about how you created it to make it work.
 Fridman: That’s brilliant, and that requires some imagination, too, some first principles thinking. You need to visualize that world. That’s really interesting.
 Kurzweil: And generally when I talk about things that we’re trying to invent, I would use the present tense as if it already exists. Not just to give myself that confidence, but everybody else that’s working on it. We just have to do all of the steps to make it actual.
-The way Kurzweil describes it, innovation is half storytelling. It’s our Enchanted Notebook, just with humans filling in the enchanted bits for now. 
+The way Kurzweil describes it, innovation is half storytelling. It’s our Enchanted Notebook, just with humans filling in the enchanted bits for now.
 Write a speech, or a story, about the thing you want to create or the future world you want to inhabit. Paint that world in detail so rich, using the present tense, that it feels like you already live there. Imagine the magical technology [ https://substack.com/redirect/4e043f6c-9e43-4d69-8a68-c1ff593de7ee?r=9p0gt ] that has become so ordinary that people just use it every day without a second thought. How do people behave in this world? What’s changed about them? What’s stayed the same?
 Then, reverse engineer it. What components go into that technology? When will which pieces be technically feasible? What machines need to exist to manufacture the technology? Where did you need to work with regulators to make sure people were allowed to use it? What will the unit economics look like? Which cost curves had to keep falling exponentially for those unit economics to make sense? How did they improve with scale, and which distribution channels did you use to sell the product? 
 Kurzweil’s process is reminiscent of Amazon’s Future Press Release [ https://substack.com/redirect/9f608626-effd-48c7-bcb5-b2307ba8ab4e?r=9p0gt ]. When teams at Amazon proposed a new product, Jeff Bezos made them write a press release from the perspective of specific time in the future at which the product has been released and goals have been accomplished. Former Amazon exec John Rossman laid out the four rules for future press releases [ https://substack.com/redirect/9f608626-effd-48c7-bcb5-b2307ba8ab4e?r=9p0gt ]:
@@ -78,9 +78,9 @@ Engineers can run the details through GPT-3 and get a story. 
 Storytellers can write the story into RevEng-4 (or whatever OpenAI calls it) and get the reverse-engineered details. 
 Dreams and reality will move ever closer to each other. 
 Whether that future is two months, two years, or two decades away, or whether it never comes, a good proximate next step on any timeline is for more people to paint rich, detailed visions of the future that they want to see come true.
-Imagination isn’t sufficient for creating the future, for now, but it is necessary. 
-Thanks to Dan and Puja for editing, and to Secureframe [ https://substack.com/redirect/73ce8242-25e1-4160-ab52-8054de0b8c47?r=9p0gt ] for supporting Not Boring! 
-We’ll be back to you on Thursday with a Deep Dive on one of the most sneaky successful startups out there. Until then, have a great week! 
+Imagination isn’t sufficient for creating the future, for now, but it is necessary.
+Thanks to Dan and Puja for editing, and to Secureframe [ https://substack.com/redirect/73ce8242-25e1-4160-ab52-8054de0b8c47?r=9p0gt ] for supporting Not Boring!
+We’ll be back to you on Thursday with a Deep Dive on one of the most sneaky successful startups out there. Until then, have a great week!
 Thanks for reading,
 Packy
 

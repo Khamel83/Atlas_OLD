@@ -159,7 +159,7 @@ We’ve shown that we can care about inequities even when they don’t primarily
 
 *If you’d like to share your experience as part of the hollow middle class with The Goods, email* [***annehelenpetersen@vox.com***](https://web.archive.org/web/20250108211938/mailto:annehelenpetersen@vox.com) *or fill out* [***this form***](https://web.archive.org/web/20250108211938/https://docs.google.com/forms/d/e/1FAIpQLScc-Rm_NMsyRPfevs25lhxHFoq2k72fwxyhGpgEOpWbSxZjoQ/viewform?gxids=7628)*.*
 
-See More: 
+See More:
 
 * [Features](/web/20250108211938/https://www.vox.com/features)
 * [Money](/web/20250108211938/https://www.vox.com/money)

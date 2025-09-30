@@ -34,7 +34,7 @@ Super Bowl preview. There’s no one more plugged into the league than Shrages, 
 
 Let’s get to it…
 
- 
+
 
 The Brady Meter: NFC Championship Edition
 Eagles 55, Commanders 23
@@ -53,7 +53,7 @@ preempted the refs regarding the potential to award Philly a goal-line touchdown
 With the Super Bowl looming, however, Brady is still making rookie mistakes—like allowing his analysis to bleed into the next play, or looking over to Kevin Burkhardt when K.B. is staring at the camera during booth moments. Brady, of course,
 is no stranger to late-game heroics on the field. (The Patriots’ jaw-dropping fourth-quarter comeback win over the Falcons in Superbowl LI in 2017 remains an unparalleled achievement.) Can he dig deep and find something in the tank on February 9?
 
- 
+
 
 The Starting Five: Super Bowl
 Edition
@@ -154,7 +154,7 @@ a great way to watch the sport. But it may not be the moneymaker that Fox or the
 Netflix doesn’t need sports to keep going. They need to keep innovating and delivering great entertainment content with a little bit of sports. But they can make their own sports, as they did with the Tyson–Paul fight. I don’t consider them a true bidder for every single piece of content coming down the pike. They’re going to be very
 picky. That said, the global nature of UFC, whose rights will soon be available, has to be really appealing for Netflix. 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -168,7 +168,7 @@ watching the games, but I’m tired. And the NFL needs to stop with the 18th-gam
 
 On Marchand: “Omg ‘crisp Chablis’ made me spit out my water laughing and I think I woke up a kid. Well done.” —A production executive
 
- 
+
 
 See you Thursday,
 John
@@ -224,6 +224,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUqolqSgd7ldNbkYWT6Q8=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

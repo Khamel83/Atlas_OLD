@@ -203,7 +203,7 @@ An election campaign banner endorsing Egyptian President Sisi seen in Cairo on F
 
  Khaled Desouki/AFP/Getty Images
 
-See More: 
+See More:
 
 * [Features](/web/20240930124456/https://www.vox.com/features)
 * [Politics](/web/20240930124456/https://www.vox.com/politics)

@@ -22,10 +22,10 @@
             <meta name="smartbanner:enabled-platforms" content="android">
             <meta name="smartbanner:close-label" content="Close">
             <meta name="smartbanner:hide-ttl" content="604800000">
-            
+
             <meta name="smartbanner:include-user-agent-regex" content="CriOS">
             <meta name="smartbanner:disable-positioning" content="true">
-            <meta name="smartbanner:api" content="true" data-component-name="ui-app-banner">        
+            <meta name="smartbanner:api" content="true" data-component-name="ui-app-banner">
     <meta name="apple-itunes-app" content="app-id=316391924">
 
 <meta property="al:web:should_fallback" content="false">
@@ -45,22 +45,22 @@
 <link rel="icon" href="/resources/favicon.ico?v&#x3D;2">
         <link rel="icon" href="/resources/icon.svg?v&#x3D;2" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/resources/apple-touch-icon.png?v&#x3D;2">
-        
-        
-        
-        
+
+
+
+
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@skynews">
         <meta name="twitter:title" content="Spotify's redesign isn't going down well - why are so many apps going for the same look?">
         <meta name="twitter:description" content="Spotify joins Instagram, YouTube, TikTok, and other media apps in attempting to capture yet more of our attention while we&#039;re on our phones. Will its major redesign attract more users or backfire?">
         <meta name="twitter:image" content="https://e3.365dm.com/23/03/768x432/skynews-spotify-app-redesign_6084582.png?20230310175214">
         <meta name="twitter:image:alt" content="Spotify&#x27;s new look will roll out over the coming months. Pic: Spotify">
-        
+
         <meta name="twitter:app:country" content="GB">
         <meta name="twitter:app:id:iphone" content="316391924">
         <meta name="twitter:app:id:ipad" content="316391924">
         <meta name="twitter:app:id:googleplay" content="com.bskyb.skynews.android">
-        
+
         <meta property="fb:app_id" content="744976955573926">
         <meta property="og:site_name" content="Sky News">
         <meta property="og:locale" content="en_GB">
@@ -73,8 +73,8 @@
 <script type="application/ld+json">
           {"@context": "http://schema.org","@type": "NewsArticle","alternativeHeadline": "Spotify's redesign isn't going down well - why are so many apps going for the same look?","articleBody": "Spotify is preparing to roll out what it's hailed as the \"biggest evolution\" to its popular music streaming app to date. Announced at its Stream On event this week and set to roll out over the coming months, its 500 million users will see their home screen get a substantial makeover that founder Daniel Ek says will see the platform \"come alive\" with different content - from videos to audiobooks. But it didn't take long for observers to point out that the new look was not particularly new at all. Quite the opposite, given its attempts to become an all-encompassing attention-sapper now has it looking like TikTok, YouTube, and Instagram were piled into a blender and smothered over your phone screen with no room to spare. Open Spotify once the revamp is complete, and your home screen could autoplay a video podcast you might like; tapping into the music or podcasts section will bring up a vertical scrolling feed of content, keen to entice you into trying new things and keep you \"engaged\" rather than simply serve up familiar rows of recently played tracks and recommended playlists. Remember when it just wanted to play music? \"Spotify must go back to the heart of its brand - put sound first,\" says Grace Bilney of creative agency Redhouse. \"The new design is confusing and image-led. It sends the wrong message.\" It's an assessment shared by many of those who watched the Stream On event.   Music producer TommyD, who's worked with artists like Kylie Minogue, Janet Jackson, and Tom Jones, and founded music platform TokenTraxx, thinks efforts to echo a TikTok-style user experience are a mistake. \"When you've already got an app that's dominant within its particular field, which Spotify is, trying to compete on a different level doesn't make sense to me,\" he says. \"Muddying the waters is robbing something from the experience.\"  The changing face of your favourite apps In fairness to Spotify, it is by no means alone when it comes to apps trying to reinvent themselves. While most would consider Spotify's main competitor to be something like Apple Music (which Spotify is comfortably ahead of in terms of users and reach), Ek and his team will see anything that threatens how much time you spend on their app as a potential rival. It's why Instagram, once focused on nothing more than photos, took its stories feature from Snapchat and pivoted towards short-form video when TikTok took off. YouTube did the same by launching Shorts in 2021 - yet another endless vertical feed of snappy clips you might like. And TikTok is not just a trend-setter, because it joined Facebook last year in nicking the novel \"one image a day\" approach taken by the upstart app BeReal and labelling it \"TikTok Now\".  So why are so many apps so desperate to adopt the same features and aesthetic? Will Amazon one day become an endless treadmill of algorithmically-generated purchasing suggestions? Is Microsoft Teams just going to transform into a vertical feed of meetings it thinks you may like to join? In fairness, there's likely no better way to revive the annoying Clippy mascot. Bilney says it's all part of an attempt by tech companies to piggyback on the success of \"micro-attention apps\", keeping users hooked by funnelling a huge amount of content past them in a short space of time. And should the growing calls to ban TikTok over privacy concerns come to fruition, it may look a smart play if Instagram, YouTube, or Spotify have down already down the groundwork to mop up some of its user base.  'These platforms are about attention' \"It's a huge chance they're taking,\" Danvers says of Spotify's redesign, which he sees as another sign of people's changing attitudes towards music since streaming took hold. \"The value has been sucked out of music over the past 10 to 15 years - everybody wants music, but nobody's prepared to pay for it, they're quite happy to watch it for free on YouTube or have the free tier on Spotify. \"And now we're in the middle of a subscription war in a cost of living crisis. Maybe a few years ago you were comfortable having a few of them, but now people are thinking 'do I really need all these?' \"At the end of the day, all these platforms are about attention - can I keep your attention as long as possible?\" Spotify bosses appeared to admit as much during the unveiling of their new-look app. The company's co-president Gustav Soderstrom opened his remarks on the redesign by noting that today's world \"pulls us in a million different directions\". Increasingly, many of the apps we use seem determined to do the same.","mainEntityOfPage": {"@type": "WebPage","url": "/story/spotifys-refresh-isnt-going-down-well-why-are-so-many-apps-going-for-the-same-look-12830360"},"wordCount": "782","inLanguage": "en-GB","genre": "science climate tech","publisher": {"@type": "Organization","@id": "#Publisher","name": "Sky","logo": {"@type": "ImageObject","@id": "#Logo","url": "https://news.sky.com/assets/sky-news-logo.svg?v&#x3D;1","width": "255","height": "60"}},"headline": "Spotify&#x27;s redesign isn&#x27;t going down well - why are so many apps going for the same look?","description": "Spotify joins Instagram, YouTube, TikTok, and other media apps in attempting to capture yet more of our attention while we're on our phones. Will its major redesign attract more users or backfire?","dateline": "London, UK","copyrightHolder": {"@id":"#Publisher"},"author":  {"@type": "Person","name": "Tom Acres, technology reporter" } ,"datePublished": "2023-03-12T00:01:00Z","dateModified": "2023-03-12T02:03:31Z","dateCreated": "2023-03-10T13:39:54Z","image": {"@type": "ImageObject","url": "https://e3.365dm.com/23/03/2048x1152/skynews-spotify-app-redesign_6084582.png","width": 2048,"height": 1152 } ,"url":"/story/spotifys-refresh-isnt-going-down-well-why-are-so-many-apps-going-for-the-same-look-12830360"  }
         </script>
-        
-    
+
+
                 <script type="application/ld+json">
                     {"@context": "https://schema.org","@type": "VideoObject","name": "Why is TikTok getting banned?","description": "What are the issues around TikTok and why are governments getting involved? Sky's  Asia correspondent Helen-Ann Smith explains.","thumbnailUrl": ["https://e3.365dm.com/23/03/150x150/skynews-tiktok-explains_6081215.jpg","https://e3.365dm.com/23/03/768x432/skynews-tiktok-explains_6081215.jpg","https://e3.365dm.com/23/03/800x600/skynews-tiktok-explains_6081215.jpg"],"uploadDate": "2023-03-07T17:24:36Z","duration": "PT0H3M30S","embedUrl": "https://news.sky.com/iframe/widget/video/6081207"}
                 </script>
@@ -88,8 +88,8 @@
         </script>
 
 <link rel="stylesheet" href="/css/min/site-article-7e55c9d0b70348b1db045dc62e00df8b.css">
-    
-     
+
+
         <link rel="stylesheet" href="/css/min/theme-dark-mode-6a1ecdf5e7ec48df37518e95f659ec83.css" media="(prefers-color-scheme: dark)">
 
 <style>
@@ -100,7 +100,7 @@
 <script>window.sdc=window.sdc||{},window.sdc.checkConsent=function(t,e,n){null!==t&&(t.dataset.consent&&"true"===t.dataset.consent.toString()?e():new MutationObserver((function(t,i){for(var o in t)"attributes"===(o=t[o]).type&&"data-consent"===o.attributeName&&("true"===o.target.dataset.consent.toString()&&o.target.attributes.getNamedItem(o.attributeName).value?(e(),i.disconnect()):n&&n())})).observe(t,{attributes:!0}))},window.sdc.executeConsentByElement=function(t){const e=window.sdc.consentIdMapping||{},n=t.dataset.vendorName;if(!document.cookie)return;const i=document.cookie.split("; ").find((function(t){return t.startsWith("consents=")}));if(!i)return;const o=i.split("=")[1];if(!e)return;const s=e.filter((function(t){return t.vendorName===n}))[0];o.includes(":"+s.gdpId+":")&&s.active||document.querySelectorAll('[data-vendor-name="'+n+'"][data-consent="true"]').length?t.dataset.consent="true":t.dataset.consent="false"},function(){const t=document.documentElement;t.classList.replace("no-js","js");const e=[];var n="ontouchstart"in document.documentElement&&/Android|iPhone|iPad|iPod|Mac OS/i.test(navigator.userAgent);window.sdc=window.sdc||{},window.sdc.isDesktop=!n,window.sdc.isMobile=n,document.head.insertAdjacentHTML("beforeend","<style>"+(window.sdc.isInApp?".ui-is-hidden--in-app":n?".ui-is-hidden--mobile":".ui-is-hidden--desktop")+"{display: none !important;}</style>"),Array.prototype.push.apply(e,[window.sdc.isInApp&&"ui-is-in-app",window.sdc.isDesktop&&"ui-is-desktop",window.sdc.isMobile&&!window.sdc.isInApp&&"ui-is-mobile"].filter((function(t){return t}))),e.forEach((function(e){t.classList.add(e)}));const i=document.createElement("div"),o=document.documentElement;i.style.cssText="overflow:scroll;width:50px;height:50px;position:absolute;visibility:hidden",o.appendChild(i),o.style.setProperty("--scrollbar-width",i.offsetWidth-i.clientWidth+"px"),o.removeChild(i)}();</script>
 
 <script src="//assets.adobedtm.com/launch-ENdec3197734dd4b629a9283183faf094b.min.js"></script>
-        
+
             <script>function _typeof(t){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}!function(){for(var t,e,o=[],r=window,n=r;n;){try{if(n.frames.__tcfapiLocator){t=n;break}}catch(t){}if(n===r.top)break;n=r.parent}t||(function t(){var e=r.document,o=!!r.frames.__tcfapiLocator;if(!o)if(e.body){var n=e.createElement("iframe");n.style.cssText="display:none",n.name="__tcfapiLocator";var a=e.body.children[0];a.parentNode.insertBefore(n,a)}else setTimeout(t,5);return!o}(),r.__tcfapi=function(){for(var t=arguments.length,r=new Array(t),n=0;n<t;n++)r[n]=arguments[n];if(!r.length)return o;"setGdprApplies"===r[0]?r.length>3&&2===parseInt(r[1],10)&&"boolean"==typeof r[3]&&(e=r[3],"function"==typeof r[2]&&r[2]("set",!0)):"ping"===r[0]?"function"==typeof r[2]&&r[2]({gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"}):o.push(r)},r.addEventListener("message",(function(t){var e="string"==typeof t.data,o={};if(e)try{o=JSON.parse(t.data)}catch(t){}else o=t.data;var r="object"===_typeof(o)?o.__tcfapiCall:null;r&&window.__tcfapi(r.command,r.version,(function(o,n){var a={__tcfapiReturn:{returnValue:o,success:n,callId:r.callId}};t&&t.source&&t.source.postMessage&&t.source.postMessage(e?JSON.stringify(a):a,"*")}),r.parameter)}),!1))}(); </script>
             <script>
                 window._sp_queue = [];
@@ -133,10 +133,10 @@
                     if (!window.sdc.consentIdMapping) {
                         throw new Error('Consent Id Mapping not found');
                     }
-        
+
                 window.sdc = window.sdc || {};
                 window.sdc.consentRoadblockMapping = JSON.parse('{"podcast":{"title":"Podcast","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"spreaker","single-click-enabled":true},"tweet":{"title":"X","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","style":"--width: 7; --height:4;","vendor-name":"twitter","single-click-enabled":true},"youtube":{"title":"YouTube","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"youtube","single-click-enabled":true},"facebook-markup":{"title":"Facebook","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"facebook","single-click-enabled":true},"instagram":{"title":"Instagram","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"1\/1","vendor-name":"instagram","single-click-enabled":true},"instagram-markup":{"title":"Instagram","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"1\/1","vendor-name":"instagram","single-click-enabled":true},"tiktok-markup":{"title":"TikTok","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"1\/1","vendor-name":"tiktok","single-click-enabled":true},"spreaker-podcast-markup":{"title":"Spreaker","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"spreaker","single-click-enabled":true},"spotify-podcast-markup":{"title":"Spotify","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"spotify","single-click-enabled":true},"apple-podcast-markup":{"title":"Apple Podcasts","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"apple-inc","single-click-enabled":true},"captivate-podcast-markup":{"title":"Captivate","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"captivate","single-click-enabled":true},"datawrapper":{"title":"Datawrapper","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"1\/1","vendor-name":"datawrapper","single-click-enabled":true},"tune-in":{"title":"TuneIn","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"tune-in","single-click-enabled":true},"threads":{"title":"Threads","text":"Due to your consent preferences, you\u2019re not able to view this.","link":"#privacy-options","link-text":"Open Privacy Options","aspect-ratio":"16\/9","vendor-name":"threads","single-click-enabled":true}}' || 'null');
-        
+
                 window.sdc.createConsentCookie = function(vendorConsents) {
                     const consentedVendors = vendorConsents.consentedVendors || [];
                     const grants = vendorConsents.grants;
@@ -149,7 +149,7 @@
                                 );
                             })
                             .filter(record => !!record))];
-        
+
                     const consentString = ":" + mappedVendors.map(vendor => vendor.gdpId).join(':') + ":";
                     let expiryDate = new Date();
                     expiryDate.setMonth(expiryDate.getMonth() + 3);
@@ -158,9 +158,9 @@
                         .forEach(vendor => {
                             document.querySelectorAll(`[data-vendor-name="${vendor.vendorName.toLowerCase()}"]`).forEach((e) => e.dataset.consent = true);
                         });
-        
+
                     document.querySelectorAll(`[data-vendor-name="iab-vendor"]`).forEach((e) => e.dataset.consent = true);
-        
+
                     const pendingVendors = document.querySelectorAll('[data-consent="pending"]');
                     if (pendingVendors.length){
                         pendingVendors.forEach(vendor => {
@@ -168,7 +168,7 @@
                         });
                     }
                 }
-        
+
                 __tcfapi('addEventListener', 2, function(tcData, success) {
                     if (success) {
                         if (tcData.eventStatus === 'useractioncomplete') {
@@ -180,7 +180,7 @@
                         }
                     }
                 });
-        
+
                 document.addEventListener("DOMContentLoaded", () => {
                     const consentsCookie = document.cookie
                         .split('; ')
@@ -206,7 +206,7 @@
                           e.dataset.consent = true
                       }));
                     }
-        
+
                         if (!consentsCookie) {
                             __tcfapi('getCustomVendorConsents', 2, function(vendorConsents, success) {
                                 if (success && !vendorConsents.newUser) {
@@ -214,13 +214,13 @@
                                 }
                             })
                         }
-        
+
                         window.addEventListener('load', (event) => {
                             setTimeout(function() {
                                 const consentsCookie = document.cookie
                                         .split('; ')
                                         .find(row => row.startsWith('consents='));
-        
+
                                 if (!consentsCookie) {
                                     __tcfapi('ping', 2, (pingReturn) => {
                                         if (!pingReturn.cmpLoaded) {
@@ -234,13 +234,13 @@
                         });
                 });
             </script>
-        
+
         <script type="text/javascript" data-consent="false" data-vendor-name="qualtrics">
         var init = function() {
             var g = function(e, h, f, g) {
                 this.get = function(a) {
                     for (var a = a + "=", c = document.cookie.split(";"), b = 0, e = c.length; b < e; b++)
-        
+
                     {
                         for (var d = c[b];
                             " " == d.charAt(0);) d = d.substring(1, d.length);
@@ -263,7 +263,7 @@
                     var c = a[1];
                     if (100 == c) return !0;
                     switch (a[0])
-        
+
                     {
                         case "v":
                             return !1;
@@ -283,7 +283,7 @@
                 this.start = function() {
                     var t = this;
                     "complete" !== document.readyState ? window.addEventListener ? window.addEventListener("load", function()
-        
+
                         {
                             t.go()
                         }, !1) : window.attachEvent && window.attachEvent("onload", function() {
@@ -291,35 +291,35 @@
                     }) : t.go()
                 };
             };
-        
+
             try
-        
+
             {
                 (new g(100, "r", "QSI_S_ZN_eS6tSYzPAKMjhs2", "https://znecb9ajgqf1ugx9q-skydesign.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_eS6tSYzPAKMjhs2")).start()
             } catch(e) {}
         };
-        
+
         (function(){
             if (!window.sdc || !window.sdc.checkConsent){
                 init();
                 return;
             }
-        
+
             window.sdc.checkConsent(document.currentScript, init);
         })();
         </script>
-        
+
         <!-- qualtrics integration -->
         <div id="ZN_eS6tSYzPAKMjhs2"></div>
         <script data-consent="pending" data-vendor-name="adobe-analytics">
             const cookieExists = document.cookie.split(";").some((item) => item.trim().startsWith("testGroup="));
-        
+
             function clearCookie() {
                 if (cookieExists) {
                     document.cookie = `testGroup=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";`
                 }
             }
-        
+
             function acceptCallback() {
                     if (!cookieExists) {
                         let expiry = new Date(Date.now() + 7889400000);
@@ -330,24 +330,24 @@
                         else {
                             document.cookie = `testGroup=A; expires=${expiry.toUTCString()}; path=/;";`
                         }
-        
+
                     }
             }
-        
+
             function rejectCallback() {
                 clearCookie();
             }
-        
+
             (function(){
                 if (!window.sdc || !window.sdc.checkConsent){
                     acceptCallback();
                     return;
                 }
-        
+
                 window.sdc.checkConsent(document.currentScript, acceptCallback, rejectCallback);
             })();
         </script>
-        
+
     <script
         data-testid="feature-flags"
         data-test-flag="true"
@@ -392,91 +392,91 @@
                 <ul class="ui-news-header-nav-items" id="main-nav" data-role="main-nav-items" data-testid="site-header-main-nav">
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/"  data-tracking-label="site-header/nav/Home">
-                        
+
                         Home
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/uk"  data-tracking-label="site-header/nav/UK">
-                        
+
                         UK
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/politics"  data-tracking-label="site-header/nav/Politics">
-                        
+
                         Politics
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/world"  data-tracking-label="site-header/nav/World">
-                        
+
                         World
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/us"  data-tracking-label="site-header/nav/US">
-                        
+
                         US
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/money"  data-tracking-label="site-header/nav/Money">
-                        
+
                         Money
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/science-climate-tech" aria-current="true" data-tracking-label="site-header/nav/Science, Climate &amp; Tech">
-                        
+
                         Science, Climate &amp; Tech
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/entertainment"  data-tracking-label="site-header/nav/Ents &amp; Arts">
-                        
+
                         Ents &amp; Arts
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/programmes"  data-tracking-label="site-header/nav/Programmes">
-                        
+
                         Programmes
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/puzzles"  data-tracking-label="site-header/nav/Puzzles">
-                        
+
                         Puzzles
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/videos"  data-tracking-label="site-header/nav/Videos">
-                        
+
                         Videos
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/analysis"  data-tracking-label="site-header/nav/Analysis">
-                        
+
                         Analysis
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/data-and-forensics"  data-tracking-label="site-header/nav/Data x Forensics">
-                        
+
                         Data x Forensics
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/offbeat"  data-tracking-label="site-header/nav/Offbeat">
-                        
+
                         Offbeat
                       </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/weather"  data-tracking-label="site-header/nav/Weather">
-                        
+
                         Weather
                       </a>
                     </li>
@@ -491,94 +491,94 @@
                     </path>
                   </svg>
                 </button>
-                <ul class="ui-news-header-nav-more-items" id="more-nav" data-role="more-nav-items"> 
+                <ul class="ui-news-header-nav-more-items" id="more-nav" data-role="more-nav-items">
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/"  data-tracking-label="site-header/nav/more/Home">
-                        
+
                         Home
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/uk"  data-tracking-label="site-header/nav/more/UK">
-                        
+
                         UK
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/politics"  data-tracking-label="site-header/nav/more/Politics">
-                        
+
                         Politics
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/world"  data-tracking-label="site-header/nav/more/World">
-                        
+
                         World
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/us"  data-tracking-label="site-header/nav/more/US">
-                        
+
                         US
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/money"  data-tracking-label="site-header/nav/more/Money">
-                        
+
                         Money
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/science-climate-tech" aria-current="true" data-tracking-label="site-header/nav/more/Science, Climate &amp; Tech">
-                        
+
                         Science, Climate &amp; Tech
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/entertainment"  data-tracking-label="site-header/nav/more/Ents &amp; Arts">
-                        
+
                         Ents &amp; Arts
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/programmes"  data-tracking-label="site-header/nav/more/Programmes">
-                        
+
                         Programmes
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/puzzles"  data-tracking-label="site-header/nav/more/Puzzles">
-                        
+
                         Puzzles
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/videos"  data-tracking-label="site-header/nav/more/Videos">
-                        
+
                         Videos
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/analysis"  data-tracking-label="site-header/nav/more/Analysis">
-                        
+
                         Analysis
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/data-and-forensics"  data-tracking-label="site-header/nav/more/Data x Forensics">
-                        
+
                         Data x Forensics
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/offbeat"  data-tracking-label="site-header/nav/more/Offbeat">
-                        
+
                         Offbeat
                        </a>
                     </li>
                     <li>
                       <a class="ui-news-header-nav-items-link" href="/weather"  data-tracking-label="site-header/nav/more/Weather">
-                        
+
                         Weather
                        </a>
                     </li>
@@ -588,23 +588,23 @@
           </div>
         </header>
     <main id="main" data-source="upp">
-        
+
         <div class="content">
-            
+
       <div class="section-wrap" data-testid="article-wrap">
-        
-        
-               
+
+
+
                 <div class="sdc-site-layout-sticky-region" data-format="leaderboard" data-role="sticky-region" data-component-name="sdc-site-layout" data-testid="advert-leaderboard" style="--sticky-threshold-desktop: 2000px; --sticky-threshold-mobile: 3000px">
                     <div class="sdc-site-layout-sticky-region__target">
                         <iframe class="sdc-site-layout-sticky-region__listener" frameborder="0" data-role="ghost-region-listener" data-controls="ghost-1" role="presentation"></iframe>
-                            
-            
-                <div class="ui-advert sdc-site-au__leaderboard sdc-site-au--full-bleed" 
+
+
+                <div class="ui-advert sdc-site-au__leaderboard sdc-site-au--full-bleed"
                     data-role="advert-unit"
                     data-testid="advert-unit--leaderboard-full-bleed"
-                    data-ad-format="leaderboard" 
-                    data-type="shaded" 
+                    data-ad-format="leaderboard"
+                    data-type="shaded"
                     data-label=""
                     style="--bg: var(--theme-surface-tile, var(--component-shade))"
                 >
@@ -618,23 +618,23 @@
 </div>
                 </div>
                 <div class="sdc-site-layout-sticky-region sdc-site-layout-sticky-region__ghost" id="ghost-1" data-format="leaderboard"></div>
-               
+
                     <div class="sdc-article-header sdc-article-header--story-article" data-testid="article-header">
                 <div class="sdc-article-header__wrap">
                     <div class="sdc-article-header__main">
-            
+
                         <div class="sdc-article-header__titles"><h1 class="sdc-article-header__title sdc-site-component-header--h1" data-short-title="Spotify&#x27;s redesign isn&#x27;t going down well - why are so many apps going for the same look?" data-testid="article-header-title"><span class="sdc-article-header__long-title">Spotify's redesign isn't going down well - why are so many apps going for the same look?</span></h1>
                             <p class="sdc-article-header__sub-title sdc-site-component-header--h2" data-testid="article-header-sub-title">Spotify joins Instagram, YouTube, TikTok, and other media apps in attempting to capture yet more of our attention while we're on our phones. Will its major redesign attract more users or backfire?</p>
                         </div>
-            
+
                     </div>
-            
-            
-            
+
+
+
                                     <div class="sdc-article-author" data-testid="article-author">
     <p class="sdc-article-author__byline" data-testid="article-author-byline">By Tom Acres, technology reporter </p>
 </div>
-            
+
                     <div class="sdc-article-header__details">
                         <div class="sdc-article-header__date-time">
                                 <div class="sdc-article-date" data-testid="article-date">
@@ -642,7 +642,7 @@
 </div>
 </div>
                         </div>
-            
+
                     </div>
                 </div>
             </div>
@@ -661,14 +661,14 @@
                 </div>
 
 </div>
-        
+
             <div class="sdc-site-layout-wrap site-wrap site-wrap-padding"  data-type="article">
                 <div class="sdc-site-layout sdc-site-layout--alt1">
                     <div class="sdc-site-layout__col sdc-site-layout__col1">
                         <div class="site-share-wrapper site-component-vertical-margin site-wrap-padding sdc-article-body-width-limiter">
                             <div class="sdc-site-share sdc-site-share--loose sdc-site-share--align-left" data-component-name="ui-sitewide-share" data-testid="sitewide-share">
-                      
-                      
+
+
                       <ul class="sdc-site-share__list">
                         <li class="sdc-site-share__item" data-testid="sitewide-share-item">
                           <a href="https://www.facebook.com/sharer/sharer.php?u&#x3D;https%3A%2F%2Fnews.sky.com%2Fstory%2Fspotifys-refresh-isnt-going-down-well-why-are-so-many-apps-going-for-the-same-look-12830360&amp;t&#x3D;Spotify%27s%20redesign%20isn%27t%20going%20down%20well%20-%20why%20are%20so%20many%20apps%20going%20for%20the%20same%20look%3F" class="sdc-site-share__link--facebook sdc-site-share__link" target="_blank" rel="noreferrer" title="Share on Facebook" aria-label="Share on Facebook" data-testid="sitewide-share-link">
@@ -705,30 +705,30 @@
                       </ul>
                     </div>
                 </div>
-        
-        
+
+
             <div class="sdc-trust-project sdc-article-body-width-limiter site-wrap-padding" data-testid="trust-project">
                 <a class="sdc-trust-project__link" href="/info/policies-and-standards"><svg height="18" viewBox="0 0 19 18" width="19"><g fill="currentColor"><path d="m15.129 0h-12.247a2.89 2.89 0 0 0 -2.882 2.88v12.24a2.89 2.89 0 0 0 2.882 2.88h12.247a2.89 2.89 0 0 0 2.881-2.88v-12.24a2.89 2.89 0 0 0 -2.88-2.88zm1.8 15.12c0 .99-.81 1.8-1.8 1.8h-12.247c-.99 0-1.801-.81-1.801-1.8v-12.24c0-.99.81-1.8 1.8-1.8h12.249c.99 0 1.8.81 1.8 1.8v12.24z" fill-rule="nonzero"/><path d="m10.788 13.824h-3.548a.123.123 0 0 1 -.126-.126v-6.048a.161.161 0 0 0 -.162-.162h-3.17a.123.123 0 0 1 -.126-.126v-3.114c0-.072.054-.126.126-.126h10.446c.072 0 .126.054.126.126v3.132a.123.123 0 0 1 -.126.126h-3.188a.123.123 0 0 0 -.126.126v6.066a.123.123 0 0 1 -.126.126z"/></g></svg>Why you can trust Sky News<span class="sdc-trust-project__arrow-icon"></span></a>
             </div>
-        
-        
+
+
             <div
       class="sdc-article-body sdc-article-body--story sdc-article-body--lead"
       data-component-name="ui-article-body"
       data-testid="article-body"
-      
+
       data-highlight-intro="true"
     >
-      
-      <p>Spotify is preparing to roll out what it's hailed as the "biggest evolution" to its popular music streaming app to date.</p><p>Announced at its Stream On event this week and set to roll out over the coming months, its 500 million users will see their home screen get a substantial makeover that founder Daniel Ek says will see the platform "come alive" with different content - from videos to audiobooks.</p><div 
-    class="sdc-site-outbrain sdc-site-outbrain--AR_6" 
+
+      <p>Spotify is preparing to roll out what it's hailed as the "biggest evolution" to its popular music streaming app to date.</p><p>Announced at its Stream On event this week and set to roll out over the coming months, its 500 million users will see their home screen get a substantial makeover that founder Daniel Ek says will see the platform "come alive" with different content - from videos to audiobooks.</p><div
+    class="sdc-site-outbrain sdc-site-outbrain--AR_6"
     data-component-name="ui-vendor-outbrain"
     data-target=""
     data-widget-mapping=""
     data-installation-keys=""
     data-testid="vendor-outbrain-AR_6"
     >
-    <div 
+    <div
         class="OUTBRAIN"
         data-src="https://news.sky.com/story/spotifys-refresh-isnt-going-down-well-why-are-so-many-apps-going-for-the-same-look-12830360"
         data-ob-template="bskyb"
@@ -740,12 +740,12 @@
     </div>
 </div>
 <p>But it didn't take long for observers to point out that the new look was not particularly new at all. Quite the opposite, given its attempts to become an all-encompassing attention-sapper now has it looking like <a href="https://news.sky.com/topic/tiktok-8490" target="_blank"><strong>TikTok</strong></a>, YouTube, and <a href="https://news.sky.com/topic/instagram-6059" target="_blank"><strong>Instagram</strong></a> were piled into a blender and smothered over your phone screen with no room to spare.</p><p>Open <a href="https://news.sky.com/topic/spotify-7473" target="_blank"><strong>Spotify</strong></a> once the revamp is complete, and your home screen could autoplay a video podcast you might like; tapping into the music or podcasts section will bring up a vertical scrolling feed of content, keen to entice you into trying new things and keep you "engaged" rather than simply serve up familiar rows of recently played tracks and recommended playlists.</p><p>Remember when it just wanted to play music?</p><div class="ad ad--teads">
-        
-            <div class="ui-advert " 
+
+            <div class="ui-advert "
                 data-role="advert-unit"
                 data-testid="advert-unit--teads"
-                data-ad-format="teads" 
-                data-type="" 
+                data-ad-format="teads"
+                data-type=""
                 data-label=""
                 style=""
             >
@@ -840,12 +840,12 @@
             <div class="sdc-site-layout-sticky-region__target">
                 <div class="sdc-site-layout-sticky-region__mask">
                     <div class="sdc-site-layout-sticky-region__content">
-                            
-                                <div class="ui-advert " 
+
+                                <div class="ui-advert "
                                     data-role="advert-unit"
                                     data-testid="advert-unit--mpu-1"
-                                    data-ad-format="mpu-1" 
-                                    data-type="" 
+                                    data-ad-format="mpu-1"
+                                    data-type=""
                                     data-label="true"
                                     style="margin-bottom: var(--gap-500)"
                                 >
@@ -854,7 +854,7 @@
                                     </script>
                                     <div class="ui-advert-slot" id="mpu-1" data-role="advert-slot" data-testid="advert-slot"></div>
                                 </div>
-                                                        
+
                     </div>
                 </div>
             </div>
@@ -875,7 +875,7 @@
         <div class="ui-app-promo-container">
             <div class="ui-app-promo-main">
                 <p class="ui-app-promo-headline" data-testid="app-promo-headline">Be the first to get <span>Breaking News</span></p>
-                <p class="ui-app-promo-cta" data-testid="app-promo-cta">Install the Sky News app for free</p> 
+                <p class="ui-app-promo-cta" data-testid="app-promo-cta">Install the Sky News app for free</p>
                 <div class="ui-app-promo-items" data-testid="app-promo-items">
                     <img src="/resources/ui-app-promo-apple-app-store.png" data-testid="app-promo-ios-image">
                     <img src="/resources/ui-app-promo-google-play.png" data-testid="app-promo-google-play-image">
@@ -895,7 +895,7 @@
              data-package-name="" data-provider="brightcove" data-player-id="yjBoKQ5XA" data-playsinline=""
              data-sensitive=""  data-sdc-id="6081207" data-sdc-video-id="23d4e10c-8b50-456b-897a-a69cf51af88c" data-sport-category="" data-state="loading" data-token-state="none"
              data-video-ad-unit="" data-video-blacklisted-originator-ids="" data-video-id="ref:23d4e10c-8b50-456b-897a-a69cf51af88c" data-video-type=""
-             data-auto-pause-on-not-visible="true" tabindex="-1" 
+             data-auto-pause-on-not-visible="true" tabindex="-1"
              data-closed-captions-position="middle-third" data-show-closed-captions="true" data-show-pip="true"
              data-show-live-stream-scrubber="true" data-autoload="false" data-testid="sitewide-video">
           <div class="sdc-site-video__inner">
@@ -910,9 +910,9 @@
               <video id="id_23d4e10c-8b50-456b-897a-a69cf51af88c" data-embed="default" data-application-id
                 class="video-js sdc-site-video__tag" controls  playsinline   data-testid="sitewide-video-video"></video>
             </div>
-        
+
             <figcaption class="sdc-site-video__caption ui-media-caption">
-              
+
               <span class="ui-media-caption__caption-text" data-role="caption-text" data-testid="sitewide-video-caption">Why is TikTok getting banned?</span>
             </figcaption>
           </div>
@@ -926,23 +926,23 @@
                       </div>
                     </div>
                 </div>
-        
+
                     </div>
-        
+
                     <div class="sdc-site-layout__col sdc-site-layout__col2"></div>
                 </div>
             </div>
                   <!-- footer -->
                     <div class="wrap wrap-site-width wrap-auto-align wrap-gutter">
-                      <div 
-                          class="sdc-site-outbrain sdc-site-outbrain--AR_3" 
+                      <div
+                          class="sdc-site-outbrain sdc-site-outbrain--AR_3"
                           data-component-name="ui-vendor-outbrain"
                           data-target=""
                           data-widget-mapping=""
                           data-installation-keys=""
                           data-testid="vendor-outbrain-AR_3"
                           >
-                          <div 
+                          <div
                               class="OUTBRAIN"
                               data-src="https://news.sky.com/story/spotifys-refresh-isnt-going-down-well-why-are-so-many-apps-going-for-the-same-look-12830360"
                               data-ob-template="skynews"
@@ -973,48 +973,48 @@
                                     <span class="u-hide-visually">YouTube</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M21.5714 10H10.4286C8.5 10 7 11.7143 7 13.4286V19.4286C7 21.3571 8.5 22.8571 10.4286 22.8571H21.5714C23.5 22.8571 25 21.3571 25 19.4286V13.4286C25 11.7143 23.5 10 21.5714 10ZM19 16.4286L14.2857 13.8571V19.2143L19 16.4286Z'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://www.facebook.com/skynews" class="ui-news-footer-social-link grid-flex gap-100" data-type="facebook" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-facebook)">
                                     <span class="u-hide-visually">Facebook</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 32 32'><mask fill='white'><path d='m21 10.07v-2.734c-2.826-0.8412-6.956-0.2103-6.956 3.154v3.365h-3.044v3.365h3.044v7.781h3.696v-7.781h2.609l0.4348-3.365h-3.261v-2.313c0-1.682 2.391-1.472 3.478-1.472z' clip-rule='evenodd' fill-rule='evenodd'/></mask><path d='m21 10.07v-2.734c-2.826-0.8412-6.956-0.2103-6.956 3.154v3.365h-3.044v3.365h3.044v7.781h3.696v-7.781h2.609l0.4348-3.365h-3.261v-2.313c0-1.682 2.391-1.472 3.478-1.472z' clip-rule='evenodd' fill-rule='evenodd'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://x.com/SkyNews" class="ui-news-footer-social-link grid-flex gap-100" data-type="x" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-x)">
                                     <span class="u-hide-visually">X</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path d='M17.5 14.7948L23.3642 8.125H21.9751L16.881 13.9151L12.8154 8.125H8.125L14.2743 16.8815L8.125 23.875H9.51415L14.8902 17.7591L19.1847 23.875H23.8751M10.0155 9.15H12.1497L21.974 22.9004H19.8394'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://www.tiktok.com/@skynews?lang&#x3D;en" class="ui-news-footer-social-link grid-flex gap-100" data-type="tiktok" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-tiktok)">
                                     <span class="u-hide-visually">TikTok</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path d='M21.3972 10.6078C20.4244 9.97567 19.7225 8.96387 19.5035 7.78513C19.4562 7.53052 19.4299 7.26823 19.4299 7H16.3251L16.3199 19.4018C16.268 20.7908 15.1211 21.9052 13.7151 21.9052C13.2782 21.9052 12.8667 21.7966 12.5044 21.6063C11.6735 21.1707 11.1048 20.3028 11.1048 19.3043C11.1048 17.8699 12.2759 16.7027 13.7148 16.7027C13.9836 16.7027 14.2411 16.7471 14.4847 16.8228V13.6638C14.2324 13.6292 13.9762 13.6083 13.7148 13.6083C10.5637 13.6083 8 16.1631 8 19.3043C8 21.2312 8.96578 22.9366 10.44 23.9676C11.368 24.6176 12.4974 25 13.7151 25C16.8665 25 19.4299 22.4448 19.4299 19.3043V13.0153C20.6477 13.8863 22.1398 14.3997 23.75 14.3997V11.3049C22.8827 11.3049 22.075 11.0482 21.3972 10.6078Z'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://www.instagram.com/skynews/" class="ui-news-footer-social-link grid-flex gap-100" data-type="instagram" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-instagram)">
                                     <span class="u-hide-visually">Instagram</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><linearGradient id='instagram-gradient' x1='100%' x2='0%' y1='3.3961%' y2='100%'><stop stop-color='#BB00B6 offset='0'/><stop stop-color='#CE007C' offset='.22779'/><stop stop-color='#F20000' offset='.48415'/><stop stop-color='#FD6200' offset='.70142'/><stop stop-color='#FFD700' offset='1'/></linearGradient><path fill-rule='evenodd' clip-rule='evenodd' d='M23.3267 19.6375C23.215 22.0563 22.0787 23.2158 19.6375 23.3268C18.688 23.3703 18.4045 23.3793 16 23.3793C13.597 23.3793 13.312 23.3703 12.3632 23.3268C9.91824 23.215 8.78499 22.0525 8.67399 19.6368C8.63049 18.688 8.62149 18.4038 8.62149 16C8.62149 13.597 8.63124 13.3128 8.67399 12.3633C8.78574 9.94303 9.92199 8.78504 12.3632 8.67404C13.3127 8.63129 13.597 8.62229 16 8.62229C18.403 8.62229 18.688 8.63129 19.6375 8.67479C22.0765 8.78579 23.2157 9.94304 23.3267 12.364C23.3702 13.3128 23.3785 13.5978 23.3785 16.0008C23.3785 18.4045 23.3695 18.6888 23.3267 19.6375ZM24.946 12.2898C24.799 9.02425 22.9833 7.20475 19.7118 7.05475C18.751 7.0105 18.4443 7 16 7C13.5558 7 13.2498 7.0105 12.2898 7.054C9.02125 7.204 7.20475 9.0175 7.05475 12.289C7.0105 13.2498 7 13.5558 7 16C7 18.4443 7.0105 18.751 7.054 19.711C7.204 22.9795 9.0175 24.796 12.289 24.946C13.2498 24.9895 13.5558 25 16 25C18.4443 25 18.751 24.9895 19.711 24.946C22.9765 24.796 24.7975 22.9825 24.9452 19.711C24.9895 18.751 25 18.4443 25 16C25 13.5558 24.9895 13.2498 24.946 12.2898Z'/><path fill-rule='evenodd' clip-rule='evenodd' d='M20.8044 10.1163C20.2074 10.1163 19.7236 10.6 19.7236 11.1963C19.7236 11.7925 20.2074 12.2763 20.8044 12.2763C21.4006 12.2763 21.8836 11.7925 21.8836 11.1963C21.8836 10.6 21.4006 10.1163 20.8044 10.1163Z'/><path fill-rule='evenodd' clip-rule='evenodd' d='M16.0004 19C14.3436 19 13.0004 17.6575 13.0004 16C13.0004 14.3433 14.3436 13 16.0004 13C17.6571 13 19.0004 14.3433 19.0004 16C19.0004 17.6575 17.6571 19 16.0004 19ZM16.0004 11.3785C13.4482 11.3785 11.3789 13.4478 11.3789 16C11.3789 18.5523 13.4482 20.6223 16.0004 20.6223C18.5527 20.6223 20.6219 18.553 20.6219 16C20.6219 13.4478 18.5527 11.3785 16.0004 11.3785Z'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://uk.linkedin.com/company/sky-news" class="ui-news-footer-social-link grid-flex gap-100" data-type="linkedin" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-linkedin)">
                                     <span class="u-hide-visually">LinkedIn</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M9.16769 11.3337C7.96752 11.3337 7 10.362 7 9.16517C7 7.97172 7.96752 7 9.16769 7C10.3637 7 11.3337 7.97172 11.3337 9.16517C11.3337 10.362 10.3637 11.3337 9.16769 11.3337ZM25.032 25H21.2979V19.1537C21.2979 17.7595 21.2711 15.9656 19.3562 15.9656C17.411 15.9656 17.1146 17.4841 17.1146 19.0529V25H13.3822V12.9774H16.9642V14.6201H17.0155C17.5135 13.6744 18.7338 12.6775 20.5513 12.6775C24.3324 12.6775 25.032 15.1677 25.032 18.4054V25ZM11.0381 24.9999H7.2973V12.9772H11.0381V24.9999Z'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                             <li>
                                 <a href="https://www.whatsapp.com/channel/0029Va868Fv8vd1UsF99tP1u" class="ui-news-footer-social-link grid-flex gap-100" data-type="whatsapp" target="_blank" rel="noreferrer" style="--grow:0; --basis:auto; --align:center; --justify:center; --icon-color-hover: var(--icon-color-whatsapp)">
                                     <span class="u-hide-visually">WhatsApp</span>
                                     <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M24.9999 15.7802C24.9999 20.6293 21.0318 24.5603 16.1369 24.5603C14.577 24.5603 13.1112 24.1611 11.838 23.4602C11.8326 23.4609 11.8275 23.462 11.8227 23.4635C11.7396 23.4866 11.6576 23.5134 11.5756 23.5401H11.5756C11.5375 23.5525 11.4993 23.5649 11.4611 23.5771L10.8581 23.7677C9.60184 24.1648 8.34523 24.5621 7.08863 24.9602C7.07022 24.966 7.05329 24.9765 7.03616 24.9872C7.0291 24.9915 7.02201 24.9959 7.01477 25H7C7.00203 24.9903 7.00382 24.9805 7.0056 24.9708H7.0056C7.01004 24.9465 7.01444 24.9225 7.02245 24.8999C7.53237 23.3921 8.04288 21.8836 8.55458 20.3764C8.5585 20.3649 8.56145 20.3539 8.56335 20.3434C7.74518 19.0135 7.27385 17.4514 7.27385 15.7802C7.27385 10.931 11.242 7 16.1369 7C21.0318 7 24.9999 10.931 24.9999 15.7802ZM20.4352 18.3304C20.4003 18.5229 20.3566 18.7143 20.3105 18.9046C20.2502 19.1557 20.109 19.3559 19.9075 19.518C19.6132 19.7557 19.2906 19.9453 18.9249 20.0425C18.7045 20.1004 18.4723 20.1291 18.243 20.1408C17.9654 20.1543 17.7 20.0712 17.4389 19.9834C16.8533 19.7879 16.279 19.5666 15.7259 19.2927C15.0382 18.952 14.4408 18.4878 13.8995 17.9522C13.08 17.1398 12.407 16.2191 11.8658 15.2034C11.6797 14.8546 11.5485 14.4841 11.4859 14.093C11.4665 13.9738 11.4567 13.8531 11.4482 13.748C11.4448 13.7056 11.4416 13.6657 11.438 13.6295C11.4522 12.8638 11.7311 12.2609 12.2546 11.7622C12.404 11.62 12.5683 11.5146 12.7727 11.4777C12.7766 11.477 12.7805 11.476 12.7843 11.4751C12.7927 11.473 12.8009 11.4709 12.8094 11.4713C12.8611 11.4733 12.9128 11.4752 12.9645 11.477L12.9649 11.477C13.1584 11.484 13.3521 11.491 13.545 11.5035C13.5887 11.5058 13.6455 11.5363 13.6703 11.5714C13.7383 11.6697 13.8086 11.7716 13.8499 11.8816C13.9305 12.0952 14.0078 12.3099 14.0851 12.5245V12.5245C14.2051 12.8574 14.3249 13.1901 14.4568 13.5182C14.5377 13.7191 14.5342 13.887 14.4077 14.0486C14.2887 14.2 14.1623 14.3458 14.0358 14.4917C13.9877 14.5472 13.9396 14.6027 13.8919 14.6585C13.877 14.6758 13.8611 14.6921 13.8452 14.7083C13.8214 14.7327 13.7977 14.7569 13.7779 14.7843C13.6993 14.8944 13.6856 15.0114 13.7548 15.1309C14.1093 15.7385 14.5052 16.3162 15.0246 16.8015C15.5162 17.261 16.0739 17.6186 16.6878 17.8931L16.7028 17.8998L16.7029 17.8998C16.7569 17.9239 16.8105 17.9478 16.8651 17.9698C17.0117 18.0277 17.1387 17.9979 17.2433 17.882C17.3828 17.7287 17.5222 17.5735 17.6586 17.4167C17.7739 17.2844 17.8862 17.1486 17.9966 17.0127C18.0906 16.898 18.2064 16.8612 18.3476 16.905L18.3503 16.9059C18.3943 16.9197 18.4389 16.9336 18.4788 16.9548L18.7539 17.1014L18.754 17.1014C19.2464 17.3636 19.738 17.6254 20.2272 17.8914C20.4334 18.0037 20.4759 18.1003 20.4352 18.3304Z'/></svg></span>
                                 </a>
-                            </li> 
+                            </li>
                     </ul>
                 </div>
             <div class="ui-news-footer-body grid-areas gap-600" data-testid="site-footer-links">
                     <section class="ui-news-footer-section grid-cell" data-role="accordion" aria-labelledby="footer-header-0">
-                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-0">About Sky News 
+                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-0">About Sky News
                             <svg aria-hidden="true" height="14" viewBox="0 0 24 14" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m0 1.29c0 .12.022.227.067.323.044.097.09.167.133.21l11.08 11.06c.193.222.442.333.746.333s.552-.11.745-.333l10.969-10.947c.104-.104.167-.193.19-.267.022-.075.03-.164.022-.268s-.056-.215-.145-.334l-.29-.423c-.207-.236-.421-.414-.643-.534-.06 0-.09-.014-.09-.043l-.022-.067-10.835 10.858-10.859-10.858-.11.11c-.106.106-.214.195-.325.27-.109.072-.219.16-.323.265-.057.105-.124.212-.2.323-.073.11-.11.22-.11.322z"/></svg>
                         </h3>
                         <div class="ui-news-footer-section-links">
@@ -1030,7 +1030,7 @@
                         </div>
                     </section>
                     <section class="ui-news-footer-section grid-cell" data-role="accordion" aria-labelledby="footer-header-1">
-                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-1">Sky News Services 
+                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-1">Sky News Services
                             <svg aria-hidden="true" height="14" viewBox="0 0 24 14" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m0 1.29c0 .12.022.227.067.323.044.097.09.167.133.21l11.08 11.06c.193.222.442.333.746.333s.552-.11.745-.333l10.969-10.947c.104-.104.167-.193.19-.267.022-.075.03-.164.022-.268s-.056-.215-.145-.334l-.29-.423c-.207-.236-.421-.414-.643-.534-.06 0-.09-.014-.09-.043l-.022-.067-10.835 10.858-10.859-10.858-.11.11c-.106.106-.214.195-.325.27-.109.072-.219.16-.323.265-.057.105-.124.212-.2.323-.073.11-.11.22-.11.322z"/></svg>
                         </h3>
                         <div class="ui-news-footer-section-links">
@@ -1042,7 +1042,7 @@
                         </div>
                     </section>
                     <section class="ui-news-footer-section grid-cell" data-role="accordion" aria-labelledby="footer-header-2">
-                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-2">Sky Channels 
+                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-2">Sky Channels
                             <svg aria-hidden="true" height="14" viewBox="0 0 24 14" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m0 1.29c0 .12.022.227.067.323.044.097.09.167.133.21l11.08 11.06c.193.222.442.333.746.333s.552-.11.745-.333l10.969-10.947c.104-.104.167-.193.19-.267.022-.075.03-.164.022-.268s-.056-.215-.145-.334l-.29-.423c-.207-.236-.421-.414-.643-.534-.06 0-.09-.014-.09-.043l-.022-.067-10.835 10.858-10.859-10.858-.11.11c-.106.106-.214.195-.325.27-.109.072-.219.16-.323.265-.057.105-.124.212-.2.323-.073.11-.11.22-.11.322z"/></svg>
                         </h3>
                         <div class="ui-news-footer-section-links">
@@ -1056,7 +1056,7 @@
                         </div>
                     </section>
                     <section class="ui-news-footer-section grid-cell" data-role="accordion" aria-labelledby="footer-header-3">
-                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-3">More Sky Sites 
+                        <h3 class="display-300 grid-flex" style="--grow: 0; --basis: auto; --align: center; --justify: space-between" id="footer-header-3">More Sky Sites
                             <svg aria-hidden="true" height="14" viewBox="0 0 24 14" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m0 1.29c0 .12.022.227.067.323.044.097.09.167.133.21l11.08 11.06c.193.222.442.333.746.333s.552-.11.745-.333l10.969-10.947c.104-.104.167-.193.19-.267.022-.075.03-.164.022-.268s-.056-.215-.145-.334l-.29-.423c-.207-.236-.421-.414-.643-.534-.06 0-.09-.014-.09-.043l-.022-.067-10.835 10.858-10.859-10.858-.11.11c-.106.106-.214.195-.325.27-.109.072-.219.16-.323.265-.057.105-.124.212-.2.323-.073.11-.11.22-.11.322z"/></svg>
                         </h3>
                         <div class="ui-news-footer-section-links">
@@ -1106,14 +1106,14 @@
 
 window.sdc.initModuleFromName = (name, autoload) => {
     document.querySelectorAll(`
-      [data-component-name="${name}"], 
+      [data-component-name="${name}"],
       [data-component-name-alias="${name}"]
     `).forEach(async (root) => {
       if (root.dataset.autoload === 'false' && autoload) {
         return;
       }
       const path = window.sdc.modules[name];
-      if (!path) { 
+      if (!path) {
         console.error(`Component ${name} does not exist`);
         return;
       }
@@ -1160,13 +1160,13 @@ window.sdc.initModuleFromName = (name, autoload) => {
         </div>
 
 <script data-consent="false" data-vendor-name="adobe-analytics">
-            
+
               function onLoad() {
-            
+
                 (function(){
                   var e = window.skyTags = window.skyTags || {}; e.queue = e.queue || [], e.snippetVersion = "1.0", e.emitter = e.emitter || { registry: {}, on: function (e, i) { var s = this.registry, t = s[e]; t ? s[e].push : s[e] = [i] } }, e.queue.push(["init"])
                 })();
-            
+
                 skyTags.queue.push(['set', {
                   config: {
                     adapters: {
@@ -1178,31 +1178,31 @@ window.sdc.initModuleFromName = (name, autoload) => {
                     }
                   }
                 }]);
-                
+
                 skyTags.queue.push(['set', {"application":{"name":"Sky News","environment":"production"},"page":{"tags":[{"name":"section","value":"Science & Tech"},{"name":"topic","value":"Spotify"},{"name":"topic","value":"Technology"}],"name":"Spotify's redesign isn't going down well - why are so many apps going for the same look?","breadcrumb":["Science, Climate & Tech","Spotify's redesign isn't going down well - why are so many apps going for the same look?"],"article":{"id":"12830360","title":"Spotify's redesign isn't going down well - why are so many apps going for the same look?","date":"Sunday 12 March 2023 00:01, UK"},"type":"story"}}]);
-            
+
                 skyTags.queue.push(['event', {type: 'view'}], ['track']);
-            
+
               }
-            
+
               function init() {
                 var script = document.createElement('script');
                 script.onload = onLoad;
                 script.src = 'https://analytics.global.sky.com/sky-tags/news/prod/sky-tags-without-adobe.min.js';
-                document.body.appendChild(script);    
+                document.body.appendChild(script);
               };
-            
+
               (function(){
                 if (!window.sdc || !window.sdc.checkConsent){
                   init();
                   return;
                 }
-            
+
                 window.sdc.checkConsent(document.currentScript, init);
               })();
-            
+
             </script>
-            
+
       <script data-consent="false" data-vendor-name="chartbeat">
           window._sf_async_config={
             uid: "34974",
@@ -1212,35 +1212,35 @@ window.sdc.initModuleFromName = (name, autoload) => {
             authors: "Tom Acres, technology reporter",
             useCanonical: "true"
           };
-    
-    
+
+
         var additionalSection = "";
-    
+
         if (additionalSection) {
           var formattedAdditionalSection = additionalSection.replace(/-/g,"_");
           window._sf_async_config.sections = window._sf_async_config.sections + ',' + formattedAdditionalSection;
         }
-    
+
         window._sf_endpt = new Date().getTime();
-    
+
         var init = function () {
             var script = document.createElement('script');
               script.src = document.location.protocol + '//static.chartbeat.com/js/chartbeat_video.js';
             document.body.appendChild(script);
-    
+
         };
-    
+
         (function(){
             if (!window.sdc || !window.sdc.checkConsent){
                 init();
                 return;
             }
-    
+
             window.sdc.checkConsent(document.currentScript, init);
         })();
-    
+
       </script>
-    
+
 <script type="text/javascript">
 /* <![CDATA[ */
 (function() {
@@ -1259,9 +1259,9 @@ window.sdc.initModuleFromName = (name, autoload) => {
 } ());
 /* ]]> */
 </script>
-    
+
       <script type="text/javascript">_satellite.pageBottom();</script>
-    
+
 <script>
     if (document.querySelector('.article-elections-map-widget')) {
         function receiveMessage(event)
@@ -1291,7 +1291,7 @@ window.sdc.initModuleFromName = (name, autoload) => {
                       s.parentNode.insertBefore(st, s);
                     })();
                 };
-    
+
                     if (!window.sdc || !window.sdc.checkConsent){
                         init();
                         return;

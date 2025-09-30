@@ -2440,7 +2440,7 @@ display: none;
 --></style>
 <style>
     .bg-photo {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=rabMT9PC10wCtkMoMM2KrjGV5ejCGidFlmg3elSmmoRNnd0FxKwY5T0RGV948R08752LcEb6qEXa);}
-    
+
 @media (max-width: 480px) { .bg-photo {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=rabMT9PC10wCtkMoMM2KrjGV5ejCGidFlmg3elSmmoRNnd0FxKwY5T0RGV948R08752LcEb6qEXa&options=w480);}}
 @media (max-width: 640px) and (min-width: 481px) { .bg-photo {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=rabMT9PC10wCtkMoMM2KrjGV5ejCGidFlmg3elSmmoRNnd0FxKwY5T0RGV948R08752LcEb6qEXa&options=w640);}}
 @media (max-width: 800px) and (min-width: 641px) { .bg-photo {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=rabMT9PC10wCtkMoMM2KrjGV5ejCGidFlmg3elSmmoRNnd0FxKwY5T0RGV948R08752LcEb6qEXa&options=w800);}}

@@ -19,7 +19,7 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work withi
 *   **Web Dashboard**: Complete UI for all cognitive features
 *   **Apple Integration**: iOS shortcuts and extensions working
 
-### **Infrastructure - 100% COMPLETE (Always Worked)**  
+### **Infrastructure - 100% COMPLETE (Always Worked)**
 *   **Database Schema**: Comprehensive insights schema operational
 *   **API Framework**: FastAPI with full endpoints for cognitive features
 *   **Background Services**: Process monitoring and scheduling active
@@ -45,7 +45,7 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work withi
 *   **Production Status**: Repository ready for public GitHub release
 
 ## 1. Execution Lifecycle (for each Task)
-1.  **Preflight** 
+1.  **Preflight**
     *   Read `tasks.md`; topologically sort tasks by `depends_on`.
     *   Validate `.env` against `.env.template`; fail with missing keys listed.
     *   Run `git status` must be clean on `main`. If not, commit/stash before proceeding.
@@ -90,7 +90,7 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work withi
 
 ### Critical Implementation Requirements:
 *   **Pre-flight disk check**: `df -h . | awk 'NR==2{if($4+0<5) exit 1}'` before ANY background operation
-*   **Circuit breaker pattern**: Stop after 10 consecutive failures, don't retry indefinitely  
+*   **Circuit breaker pattern**: Stop after 10 consecutive failures, don't retry indefinitely
 *   **Log rotation enforcement**: No log file >100MB without rotation (check in preflight)
 *   **Failure rate monitoring**: If >50% operations fail, HALT and investigate immediately
 *   **Error deduplication**: Don't log identical errors repeatedly - summarize after 10 occurrences
@@ -98,7 +98,7 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work withi
 *   **Storage audits**: Weekly `du -sh` checks to identify bloat before crisis
 
 ### Root Cause Analysis (Aug 26, 2025):
-*   **error_log.jsonl**: 2.9GB, 7.3M lines (99.8% repeated "disk space" errors)  
+*   **error_log.jsonl**: 2.9GB, 7.3M lines (99.8% repeated "disk space" errors)
 *   **ingest logs**: 2GB+ of failed retry attempts
 *   **System kept running**: No circuit breaker to stop futile operations
 *   **No monitoring**: 99.8% failure rate went unnoticed for days

@@ -40,7 +40,7 @@ Mentioned in this issue: Kim Jones, Jonathan Anderson, Loewe, January retail dol
 
 But first… the latest designer switcheroo machinations out of Paris…
 
- 
+
 
 The Anderson Open Secret
 ------------------------
@@ -63,7 +63,7 @@ Now, here’s Sarah…
 Sarah Shapiro
 Sarah Shapiro
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -150,7 +150,7 @@ insider appeal and a classic brand—the pieces reflect the DNA of both without 
  
 
 Meanwhile, Toteme has launched a “basics” collection that is hardly basic at all. The name, Garderob ( https://go.shopmy.us/p-12616255?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), means “wardrobe” in Swedish, and while “capsule wardrobe” is indeed one of the more annoying buzzwords of the
-moment, we can give Toteme a pass for its Scandinavian self-seriousness… and also for pieces like the collarless leather jacket ( https://go.shopmy.us/p-12616349?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), suede ballet flats ( https://go.shopmy.us/p-12616380?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), a trouser skirt ( https://go.shopmy.us/p-12616454?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and an everyday work tote 
+moment, we can give Toteme a pass for its Scandinavian self-seriousness… and also for pieces like the collarless leather jacket ( https://go.shopmy.us/p-12616349?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), suede ballet flats ( https://go.shopmy.us/p-12616380?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), a trouser skirt ( https://go.shopmy.us/p-12616454?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and an everyday work tote
 ( https://go.shopmy.us/p-12616412?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) priced under $2,000. The brand’s Fall-Winter 2025 runway ( https://go.shopmy.us/p-12616550?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) show this week in Paris only reinforced the collection’s timelessness.
 
  
@@ -159,7 +159,7 @@ With a nod to ’80s neon workout mania, Pucci x
 Bala ( https://fave.co/3Cw7Ldh?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) collabed on a pair of weighted wristbands, $99 silicone bands, and a weighted jump rope. The weighted vest ( https://go.shopmy.us/p-12609668?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) is the latest workout level-up item, and I’m sorta surprised Bala hasn’t jumped on this yet. As for Pucci, the collab seems to fit perfectly with its marketing strategy, as seen
 on Instagram ( https://www.instagram.com/reel/DEknweGoBNL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ): It doesn’t take itself too seriously.
 
- 
+
 
 The
 Week in Feedback…
@@ -182,7 +182,7 @@ On the race for best-dressed talent agent: “Hylda Queally at CAA is the chices
 On LVMH’s talent retention strategy: “For LVMH, it doesn’t matter if Phoebe Philo is profitable. It matters that she is off the table for discussions with Chanel, Bottega, Gucci, etcetera. That’s the
 crux of the whole enterprise, in my eyes.” —An entrepreneur 
 
- 
+
 
 Until Monday,
 
@@ -243,6 +243,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUvxT0-akCmWwYBzTt7CM=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

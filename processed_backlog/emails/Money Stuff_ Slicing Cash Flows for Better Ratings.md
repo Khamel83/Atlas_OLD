@@ -7,70 +7,70 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talk from time to time around here about the cash-flow-slicing business. The way it goes is: You have some business that will make somewh
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       CFO ratings
-    
-  
+
+
 
 We talk from  time to  time around here about the cash-flow-slicing business. The way it goes is:
-	You have some business that will make somewhere between $75 and $150 next year.	You can sell it to one owner who gets the cash flows from the business. If it makes $75, she gets $75; if it gets $100, she gets $100; if it gets $150, she gets $150; etc.	Her ownership stake is worth some amount of money, presumably between $75 and $150. Let’s say it’s $100. She would pay $100 for this ownership stake.	
+	You have some business that will make somewhere between $75 and $150 next year.	You can sell it to one owner who gets the cash flows from the business. If it makes $75, she gets $75; if it gets $100, she gets $100; if it gets $150, she gets $150; etc.	Her ownership stake is worth some amount of money, presumably between $75 and $150. Let’s say it’s $100. She would pay $100 for this ownership stake.
 Or, you can divide up the cash flows. A senior bondholder gets the first $50 of cash flows: If the business makes $75, she gets $50; if it makes $150, she gets $50. A junior bondholder gets the next $30: If the business makes $75, he gets $25; if it makes $80 or $100 or $150, he gets $30. And then a shareholder gets whatever is left, whatever the business makes above $80: If it makes $75 or $80, she gets zero; if it makes $100, she gets $20; if it makes $150, she gets $70. 	Here, the senior bond is much safer than the unitary ownership claim: In Steps 1-3, the owner puts up $100 and could lose money (get back $75) or make money (get back $150) or somewhere in between, but in Step 4, the senior bondholder always gets back $50. The junior bond is also safer than total ownership, with less variance in its returns: It gets back $30 in almost every case, unless things go quite badly. The shareholder in Step 4, though, takes much more risk than the total owner in Steps 1-3: The total owner always gets back at least $75, while the levered shareholder here might get back $0.	You can sell the senior bond plus the junior bond plus the shares for some amount of money, presumably between $75 and 150. Let’s say it’s $105.	$105 is more than $100 so this is a good trade. You have created $5 of value by slicing the cash flows.
 
 This is one of the main things that happens in finance. It describes how companies work — they issue debt and equity, etc. — and your mortgage, and banks. In its purest form, where you just have some set of cash flows and you slice them up into junior and senior claims, it is often called “securitization,” or “structured finance.”
@@ -106,89 +106,89 @@ It gives an example of an insurance company investing in a private credit fund t
 By investing in the investment units issued by the Debt Feeder Fund, an insurer is able circumvent regulatory guidance by transforming the Main Fund’s investments in “B” rated loans into a much higher rated note due to the intervening legal entity.  An insurer investing in the investment unit (note and equity) would be able to dramatically reduce its risk-based capital versus reporting an LP Interest investment in the main fund holding “B” rated loans but be exposed to identical economic risk. … The insurer making this investment could reduce its risk-based capital by 56.6%, an RBC factor reduction of 5.40%, if it invested in the investment unit (note and equity) with the note rated by a CRP instead of investing in the underlying assets directly while maintaining the exact same economic exposure.
 Yep, that's the game! Finance is, in large part, about finding new ways to slice cash flows that will get better regulatory treatment than the old ways to slice cash flows. And financial regulation is, in large part, about noticing the new ways that people are slicing cash flows, and adjusting the regulations so that the new ways get treated the same as the old ways. Or worse! Part of the goal here is logical consistency and treating economically similar things similarly, but part of the goal is to deter people from doing this, so the regulators might want to treat the new ways worse.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 FTX Trading Ltd., Sam Bankman-Fried’s bankrupt crypto exchange, has been under new management since filing for bankruptcy last November,
   [4]
@@ -199,7 +199,7 @@ Yesterday  FTX “announced that their top level management and advisors met wi
 That discussion is on slide 19:
 
 
-    
+
 
 If you were a normal customer at FTX, you were not allowed to have a negative balance in your account. If you put up $100 of money to buy $200 of crypto, and your crypto lost $50 of value, then your account balance was $50. If it lost another $50 of value, then your balance was $0 and you were liquidated. Your account could never be worth -$10; you got liquidated before that.
 If you were a market maker on FTX, though, you were allowed to have a negative balance: Effectively, FTX would lend you the money so you could open a position without depositing the money first, or have the market move against you without instant liquidation. In FTX’s code, most accounts had a “borrow” flag set to zero, meaning that they could not have negative balances, but some 4,000 accounts had the borrow flag set to some positive number, meaning that FTX would lend them the money up to some credit limit. Of those 4,000 accounts, 41 had credit limits of $1 million to $150 million. One — Alameda — had a higher limit. Alameda’s limit was $65 billion. (Slide 18 shows a code snippet, showing that the actual limit was $65,355,999,994.) “FTX will allow Alameda to have a negative balance of up to $65 billion” is functionally equivalent to “Alameda can use as much of FTX’s customer money as it wants.”
@@ -235,20 +235,20 @@ One thing I will say about this harshness is that it is very context-dependent. 
 In November 2022, though, when FTX was hurtling toward bankruptcy and Bankman-Fried was seeking rescue financing, I thought it was pretty weird for him to market Alameda’s stash of FTT tokens as being worth hundreds of millions of dollars. Once you are days from bankruptcy, you can’t expect to get hundreds of millions of dollars for your stock. Your stock is probably going to be wiped out in bankruptcy. FTT is close enough to FTX stock that, in November 2022, FTX could not really count on getting much money for it.
 Now it’s January 2023 and FTX is very much in bankruptcy and still, when FTX’s advisers list its $3.3 billion of liquid crypto assets, the second-biggest single holding (behind $685 million of Solana tokens) is $529 million of FTT. Those tokens are valuable to the extent that (1) FTX comes back as a popular exchange and the FTT tokens let holders get valuable discounts on FTX fees and (2) FTX comes back as a popular exchange and uses some of its fee revenue to buy back FTT tokens. How likely are those outcomes? How likely do you think FTX’s bankruptcy advisers think those outcomes are? FTX is going around showing the world the code that allowed Alameda to take all of its customers’ money. Confidence in FTX is not coming back, not if FTX’s current managers have anything to say about it. They are going to have a hard time shopping their stash of FTT tokens. The explanation undermines the recovery.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       10% of everything is securities fraud
-    
-  
+
+
 
 Sure: 
 
@@ -260,11 +260,11 @@ Here is the study, “ How pervasive is corporate fraud,” by Dyck, Adair Morse
 Our evidence suggests that in normal times only one-third of corporate frauds are detected. We estimate that on average 10% of large publicly traded firms are committing securities fraud every year, with a 95% confidence interval of 7%-14%.
 I am not sure I am persuaded. But I am committed to the bit, and I often say that “everything is securities fraud,” that every bad thing that a public company does can be characterized as securities fraud, because public companies do not disclose all of their bad actions in real time. Do 10% of public companies do undisclosed bad things each year, things that would lead to securities fraud lawsuits if they were discovered, but that mostly go undiscovered? Sure yeah seems reasonable.
 
-  
-    
+
+
       Where all the children are above average
-    
-  
+
+
 
 If you meet all of the expectations of your job at Meta Platforms Inc., then you have not met all the expectations, because there is an unstated (well, somewhat stated) meta-expectation that you will exceed expectations. The Information  reports:
 
@@ -277,19 +277,19 @@ Speaking of the Elon Musk Twitter experience, Twitter is   selling off its offic
   [8]
  When you select yourself into a cushy job and it suddenly, through the market for corporate control, becomes hardcore, that’s pretty rough on you. Apparently thousands of Twitter employees who six months ago were working reasonable hours for good pay with great snacks have decided “okay guess I’ll be sleeping at the office from now on,” but presumably thousands of others had arranged their lives in such a way that they had to go home and see their families at night? I just don’t understand how you can take a cushy company and turn it hardcore without replacing all the employees and giving the new employees something inspiring to be hardcore about.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The New   Bankers to the World Aren’t on Wall Street.   Bonuses Will ‘Absolutely’ Fall, Says JPMorgan’s Co-Head of Investment Banking. Solomon Says Goldman Pushed Too Quickly Into   Consumer Banking. Big Banks Might Face  Breakup, Top Regulator Says. Credit Suisse Chief   Not Concerned Over Conflicts in Klein Deal. A  Crypto Magnate Saw the Risks and Still Was Hammered.   Party City Files Bankruptcy After Pandemic Recovery Falters. “Now imagine the frozen buffalo chicken tenders are cryptocurrency, the buckets we put the chicken tenders in are digital wallets, our parents are the bank, the individual magnets are one record of a transaction, the fridge is a ‘block’ of transactions,  the process of launching the fridge into space is ‘mining,’ the reward for launching the fridge into space is one cryptocurrency, and the record of launching each fridge into outer space is the ‘chain’ that connects the ‘blocks’ that are the fridges.” Prostitutes  gather in Davos for annual meeting of global elite - where demand for sexual services rockets during economic summit.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] An important answer that I am not going to discuss further here, but that is often important in real life, is taxes. Generally, in the US, companies can deduct the interest they pay on debt, but they can’t deduct dividends to shareholders. My dumb toy schematic doesn’t mention interest explicitly, but in fact the deductibility of interest is a major exception to Modigliani-Miller and part of the reason that a lot of companies use debt financing. 
+
+  [1] An important answer that I am not going to discuss further here, but that is often important in real life, is taxes. Generally, in the US, companies can deduct the interest they pay on debt, but they can’t deduct dividends to shareholders. My dumb toy schematic doesn’t mention interest explicitly, but in fact the deductibility of interest is a major exception to Modigliani-Miller and part of the reason that a lot of companies use debt financing.
 
 
-  [2] This stuff is all in the ballpark of right, for US banks, but don’t take it too literally. Actual capital requirements are more nuanced, and there are backup regimes so that you can't really buy T-bills with zero capital. 
+  [2] This stuff is all in the ballpark of right, for US banks, but don’t take it too literally. Actual capital requirements are more nuanced, and there are backup regimes so that you can't really buy T-bills with zero capital.
 
 
   [3] Friedman and Kraus’s “Engineering the Financial Crisis” is a book on related topics. And here is a  US Government Accountability Office report from 2016 titled “Mortgage-Related Assets: Capital Requirements Vary Depending on Type of Asset.”
@@ -310,114 +310,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Are there examples of a company jarringly transitioning from extremely hardcore to extremely cushy? I am tempted to say “investment banks after 2008,” but I know that’s not true. Presumably some hard-charging startups have been bought by big companies and then started coasting, but that’s not really the same.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

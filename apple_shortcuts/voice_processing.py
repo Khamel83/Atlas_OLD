@@ -397,7 +397,7 @@ class VoiceProcessor:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    INSERT INTO voice_recordings 
+                    INSERT INTO voice_recordings
                     (capture_id, file_path, file_checksum, duration, file_size, audio_format,
                      sample_rate, channels, bit_depth, recorded_at, device_info, location_data,
                      app_context, recording_quality)
@@ -479,7 +479,7 @@ class VoiceProcessor:
                 # Add to processing queue
                 conn.execute(
                     """
-                    INSERT INTO voice_processing_queue 
+                    INSERT INTO voice_processing_queue
                     (recording_id, processing_type, priority)
                     VALUES (?, ?, ?)
                 """,
@@ -784,7 +784,7 @@ class VoiceProcessor:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.execute(
                     """
-                    INSERT INTO voice_transcriptions 
+                    INSERT INTO voice_transcriptions
                     (recording_id, transcript, confidence, language, transcription_backend,
                      processing_time, speaker_count, audio_quality, noise_level)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -809,7 +809,7 @@ class VoiceProcessor:
                 for i, segment in enumerate(segments):
                     conn.execute(
                         """
-                        INSERT INTO speaker_segments 
+                        INSERT INTO speaker_segments
                         (transcription_id, speaker_id, start_time, end_time, text, confidence)
                         VALUES (?, ?, ?, ?, ?, ?)
                     """,
@@ -968,7 +968,7 @@ class VoiceProcessor:
                 for analysis_type, result in results.items():
                     conn.execute(
                         """
-                        INSERT INTO voice_analysis 
+                        INSERT INTO voice_analysis
                         (transcription_id, analysis_type, analysis_result, confidence)
                         VALUES (?, ?, ?, ?)
                     """,
@@ -995,7 +995,7 @@ class VoiceProcessor:
                 if error_message:
                     conn.execute(
                         """
-                        UPDATE voice_recordings 
+                        UPDATE voice_recordings
                         SET processing_status = ?, processed_at = CURRENT_TIMESTAMP
                         WHERE id = ?
                     """,
@@ -1004,7 +1004,7 @@ class VoiceProcessor:
 
                     conn.execute(
                         """
-                        UPDATE voice_processing_queue 
+                        UPDATE voice_processing_queue
                         SET status = ?, error_message = ?
                         WHERE recording_id = ?
                     """,
@@ -1013,7 +1013,7 @@ class VoiceProcessor:
                 else:
                     conn.execute(
                         """
-                        UPDATE voice_recordings 
+                        UPDATE voice_recordings
                         SET processing_status = ?, processed_at = CURRENT_TIMESTAMP
                         WHERE id = ?
                     """,
@@ -1022,7 +1022,7 @@ class VoiceProcessor:
 
                     conn.execute(
                         """
-                        UPDATE voice_processing_queue 
+                        UPDATE voice_processing_queue
                         SET status = ?
                         WHERE recording_id = ?
                     """,
@@ -1136,7 +1136,7 @@ class VoiceProcessor:
                 # Basic statistics
                 basic_stats = conn.execute(
                     """
-                    SELECT 
+                    SELECT
                         COUNT(*) as total_recordings,
                         SUM(duration) as total_duration,
                         AVG(duration) as avg_duration,
@@ -1153,7 +1153,7 @@ class VoiceProcessor:
                 # Transcription quality
                 quality_stats = conn.execute(
                     """
-                    SELECT 
+                    SELECT
                         AVG(confidence) as avg_confidence,
                         COUNT(DISTINCT language) as languages_detected,
                         transcription_backend,

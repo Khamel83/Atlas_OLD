@@ -227,7 +227,7 @@ It does actually retail very well
 internationally, it’s just still a really small business. Our hope is that we’re doubling wholesale next year, but it’ll still be small. It has a long way to go on the wholesale side, but what we know is that we can focus on D.T.C. and that the e-commerce experience can be bigger, as well as the spa experience and the retail stores. And then, Amazon’s actually doing very well, so those pieces––the direct business––we can win because we can control it. My hope is that big-box retailers want to
 come along and see what we’re doing. 
 
- 
+
 
 That’s it from Line Sheet. Here’s a special treat for those of you
 who read all the way to the bottom: Next week, we’re running an end-of-year mailbag issue filled with questions from you, dear readers, and answers from us. I will prioritize the queries from people who respond to this specific prompt. ILYSM.
@@ -264,6 +264,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT3DbsDlNJJ9bMVtYuzKQ=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

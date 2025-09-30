@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20250208200938/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -191,7 +191,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -245,7 +245,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
     </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -381,7 +381,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="product-well__items ">
         <div class="product-well__item">
-          
+
 <div class="product-tile__container ">
   <a class="product-tile js-ga-product  " data-sku-id="27516" data-vendor-id="1583" data-vendor-name="Mepal" data-category-name="Food Storage" data-in-stock="true" data-price="65.0" data-ga-grid-item="slide: 1" data-product-id="8398" data-product-name="Limited-Edition Microwavable Nested Food Storage Containers" data-url="/web/20250208200938/https://food52.com/shop/products/8398-microwaveable-nested-storage-box" data-img="https://images.food52.com/5CAvkDIN0G7O6BKdhZIZo8IEwhU=/520x520/ba25dfa2-eb72-44a4-b9d1-ccc87fc09402--2022-1102_mepal_microwavable-nested-storage-bowls_sage-mixed-set-deep_1x1_ty-mecham.jpg" data-price-range="<span>$65</span>–<span>$90</span>" data-ga-event="gridInteraction" data-ga-event-action="From Our Shop" data-ga-event-label="none" data-ga-destination-url="/shop/products/8398-microwaveable-nested-storage-box" href="/web/20250208200938/https://food52.com/shop/products/8398-microwaveable-nested-storage-box">
     <div class="img product-tile__img">
@@ -416,7 +416,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 </div>
         <div class="product-well__item">
-          
+
 <div class="product-tile__container ">
   <a class="product-tile js-ga-product  " data-sku-id="25239" data-vendor-id="996" data-vendor-name="Souper Cubes" data-category-name="Food Storage" data-in-stock="true" data-price="31.0" data-ga-grid-item="slide: 2" data-product-id="5909" data-product-name="Souper Cubes" data-url="/web/20250208200938/https://food52.com/shop/products/5909-souper-cubes-set-of-2" data-img="https://images.food52.com/H0Rsc8YFmMf6JpsYGa83A_tUDw8=/520x520/06e4e64c-44c1-4c76-a626-7bce23e78448--2021-0115_souper-cubes_2-cup_1x1_rocky-luten_020.jpg" data-price-range="<span>$31</span>–<span>$70</span>" data-ga-event="gridInteraction" data-ga-event-action="From Our Shop" data-ga-event-label="none" data-ga-destination-url="/shop/products/5909-souper-cubes-set-of-2" href="/web/20250208200938/https://food52.com/shop/products/5909-souper-cubes-set-of-2">
     <div class="img product-tile__img">
@@ -455,11 +455,11 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <h3>1. Soup &amp; Biscuits</h3>
               <p>Need help with defrosting your soup (or help finding the <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/27759-most-popular-soup-recipes">best soup recipe</a>)? We've got you covered in this <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/17895-our-every-question-on-freezing-thawing-soup-answered">step-by-step guide</a>. For how to freeze and cook biscuits, see <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/10597-alice-medrich-s-guide-to-freezing-baked-goods">here</a>. To really make a meal of it, add a fresh dollop of yogurt for on top of the soup.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="15247" data-type="recipe" data-layout="flag"></span>
 
@@ -483,7 +483,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="84898" data-type="recipe" data-layout="flag"></span>
 
@@ -507,7 +507,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="56321" data-type="recipe" data-layout="flag"></span>
 
@@ -531,7 +531,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="11454" data-type="recipe" data-layout="flag"></span>
 
@@ -558,7 +558,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <h3>2. Dumplings &amp; XO Sauce</h3>
               <p>If you need help freezing your dumplings, we've got a <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/12764-how-to-make-dumplings-without-a-recipe">guide</a> for that. For how to cook said frozen dumplings see <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/13149-how-to-cook-frozen-dumplings-fearlessly">here</a>. For freezing the XO Sauce, let it cool and portion it into ice cube trays, so you don’t end up with a big ol’ frozen block of un-portionable, un-scoopable sauce. After the cubes are frozen, transfer to a freezer bag. When you’re ready to cook, you can thaw the sauce in the fridge or just throw it right into some stir-fried vegetables to thaw and cook.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
-              
+
   <div class="content-gallery ">
       <div class="content-gallery__item content-gallery__item--featured">
 
@@ -586,7 +586,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       </div>
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="66255" data-type="recipe" data-layout="flag"></span>
 
@@ -610,7 +610,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="40135" data-type="recipe" data-layout="flag"></span>
 
@@ -639,8 +639,8 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
               <p>Cook the sauce as the recipe states and let cool completely before portioning into freezer bags and placing in the freezer. To thaw, place the bags of sauce on a plate or bowl (no spillage!) and leave in the refrigerator for 4 to 5 hours. The sauce probably won’t be completely cooled by then, but that’s okay! Just put it into a pot, turn the heat on, and that’ll do the trick.</p><div class="comments-top">
   <h3 class="comments-top__title">Join The Conversation</h3>
   <div class="comments-top__subtitle">Top Comment:</div>
-  <div class="comments-top__body">&ldquo;Rather, as noted in comments to other, recent posts, I&#39;d like to see a round up of building block, component recipes, to make it easy on a regular, planned basis to cook on the weeknights using freezer-friendly time-savers -- recipes like Mallika Basu&#39;s tomato curry sauce which is a favourite, I gather, of Antonia James.  
-This, however, is a good start, for which I am grateful. 
+  <div class="comments-top__body">&ldquo;Rather, as noted in comments to other, recent posts, I&#39;d like to see a round up of building block, component recipes, to make it easy on a regular, planned basis to cook on the weeknights using freezer-friendly time-savers -- recipes like Mallika Basu&#39;s tomato curry sauce which is a favourite, I gather, of Antonia James.
+This, however, is a good start, for which I am grateful.
 &rdquo;</div>
   <div class="comments-top__user">&mdash; Mrs B.</div>
 
@@ -651,11 +651,11 @@ This, however, is a good start, for which I am grateful.
 </div>
               <p>For the meatballs, cook as the recipe states. Let cool, then place, separated, on a parchment-covered sheet pan and into the freezer to freeze. Once frozen, put them in a freezer bag. To reheat the meatballs, place into your pot of thawed tomato sauce and simmer until warmed through.</p>
               <p>Looking to level-up your frozen meal? It’s <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/5091-chicken-meatball-sub-with-gobs-of-fresh-mozzarella">meatball sub</a> time. Grab a baguette (or, if you’re feeling ambitious make <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/27433-dan-leader-s-4-hour-baguette">one</a> and freeze that, too), fresh mozzarella, and pepperoncini—and the meatballs and tomato sauce, of course!—and get to layering your subs.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="21289" data-type="recipe" data-layout="flag"></span>
 
@@ -679,7 +679,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="13722" data-type="recipe" data-layout="flag"></span>
 
@@ -706,11 +706,11 @@ This, however, is a good start, for which I am grateful.
 
 <h3>4. Enchilada Casserole &amp; Black Beans</h3>
               <p>Assemble the casserole and cover <em>very</em> well with aluminum foil and secure the foil’s edges with tape. To cook, you have two options: Thaw in the fridge overnight and bake as described in the recipe or place directly into the oven, without thawing, knowing you’ll need about 15 minutes or more of extra cooking time (if you see yourself doing the former, use an aluminum pan to avoid any glass shattering). To freeze and thaw beans, cook and follow the same instructions for the tomato sauce. For a fresh element, add sliced avocado and chopped cilantro to the casserole when it's time to serve.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="65731" data-type="recipe" data-layout="flag"></span>
 
@@ -734,7 +734,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="42243" data-type="recipe" data-layout="flag"></span>
 
@@ -763,11 +763,11 @@ This, however, is a good start, for which I am grateful.
               <p>After breading the chicken fingers (but before baking), place onto a parchment-lined baking sheet and into the freezer. Freeze until frozen, then place into a freezer bag. When ready to cook, arrange on a baking rack set on a baking sheet, drizzle with oil, and bake at 425°F for about 25 minutes, or until cooked through.</p>
               <p>For the sweet potato fries, cook the fries as directed and let cool completely. Place on a parchment-lined sheet pan and into the freezer. Once frozen, you can transfer them to a freezer bag. To cook, place onto a parchment-lined sheen pan and pop them into the oven (at 425°F, so the same as the chicken fingers) for about 10 minutes, or until they’re warmed through.</p>
               <p>Ketchup and/or <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/6790-buttermilk-ranch-in-a-jar">ranch dressing</a> are a must for dipping the chicken fingers. For a fresh green thing, serve a <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/9114-kale-salad-with-apples-and-hazelnuts">salad</a> on the side.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="23253" data-type="recipe" data-layout="flag"></span>
 
@@ -791,7 +791,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="1691" data-type="recipe" data-layout="flag"></span>
 
@@ -819,11 +819,11 @@ This, however, is a good start, for which I am grateful.
 <h3>6. Samosas &amp; Dal</h3>
               <p>After filling and forming your samosas, place onto a parchment-lined sheet pan and pop into the freezer. Once frozen, transfer to a freezer bag. When ready to bake, place once again on a parchment-lined sheet pan and cook as directed in the recipe, adding on a few more minutes to account for the samosas being frozen.</p>
               <p>For the dal, cook as the recipe states, let cool, and follow the same freezing and thawing instructions as the tomato sauce. When it's time to eat, make a pot of rice for the dal, and some sort of vegetable (perhaps <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/26791-steam-roasted-carrots-with-cumin">Steam-Roasted Carrots with Cumin</a>?).</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="37071" data-type="recipe" data-layout="flag"></span>
 
@@ -836,7 +836,7 @@ This, however, is a good start, for which I am grateful.
       <div class="card__type"></div>
 
 <h3 class="card__heading" data-ga-event="inPageInteraction" data-ga-event-action="Featured Recipe Click" data-ga-event-label="37071" data-ga-destination-url="/recipes/37071-flaky-baked-samosas">
-        Flaky Baked Samosas 
+        Flaky Baked Samosas
       </h3>
 
 <button type="button" class="card__cta btn btn--secondary" data-ga-event="inPageInteraction" data-ga-event-action="Featured Recipe CTA Button Click">
@@ -847,7 +847,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="64801" data-type="recipe" data-layout="flag"></span>
 
@@ -860,7 +860,7 @@ This, however, is a good start, for which I am grateful.
       <div class="card__type"></div>
 
 <h3 class="card__heading" data-ga-event="inPageInteraction" data-ga-event-action="Featured Recipe Click" data-ga-event-label="64801" data-ga-destination-url="/recipes/64801-dal-makhani">
-        Dal Makhani 
+        Dal Makhani
       </h3>
 
 <button type="button" class="card__cta btn btn--secondary" data-ga-event="inPageInteraction" data-ga-event-action="Featured Recipe CTA Button Click">
@@ -875,11 +875,11 @@ This, however, is a good start, for which I am grateful.
 <h3>7. Chili &amp; Cornbread</h3>
               <p>Cook the chili as the recipe says to, let cool, and follow the same freezing and thawing instructions as the tomato sauce. For the cornbread, cook as directed and follow the freezing and thawing instructions <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/18237-what-to-do-to-start-prepping-for-thanksgiving-now-3-weeks-ahead">here</a>.</p>
               <p>For serving, prep whatever fixin’s you like adding to your chili—diced red onions, sour cream, grated cheese, chopped cilantro, and pickled jalapeños are my faves.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="66932" data-type="recipe" data-layout="flag"></span>
 
@@ -903,7 +903,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="19148" data-type="recipe" data-layout="flag"></span>
 
@@ -932,11 +932,11 @@ This, however, is a good start, for which I am grateful.
               <p>Make the chicken stock, let cool completely, portion into freezer bags, and freeze. Put the chicken stock in a pot and turn the heat on low, stirring occasionally to break up the stock. Heat until thawed and at a simmer.</p>
               <p>For the chicken, once cool, shred some of that roasted bird and place into freezer bags and freeze. If you had the foresight to thaw your chicken in the fridge the night before, great! If not, add it right to the pot (that’s why you shredded it).</p>
               <p>Stock + chicken = chicken noodle soup. Grab some noodles, frozen peas, chopped celery, and peeled, thinly sliced carrots (on the bias, if you like). If you’re unsure of how to make chicken noodle soup, here’s a <a href="http://web.archive.org/web/20250208200938/https://food52.com/blog/9788-how-to-make-chicken-noodle-soup-without-a-recipe">good guide</a>. Right before serving, throw in some minced parsley and a smattering of freshly ground black pepper.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="31652" data-type="recipe" data-layout="flag"></span>
 
@@ -960,7 +960,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="17568" data-type="recipe" data-layout="flag"></span>
 
@@ -988,11 +988,11 @@ This, however, is a good start, for which I am grateful.
 <h3>9. Chicken Tamale Pie &amp; Salsa</h3>
               <p>Follow the casserole freezing, thawing, and cooking (following the time and temperature directions in the pie's recipes) instructions as described for the <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/65731-vegan-enchilada-casserole">Vegan Enchilada Casserole</a>. For the salsa, cook and let cool. Then, portion it into freezer bags and freeze. Thaw overnight in the refrigerator or, in a pinch, in a bowl of cold water, refreshing the water several times until thawed.</p>
               <p>A side of <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/18251-roberto-santibanez-classic-guacamole">guacamole</a> and chips are great fresh additions for when it comes time to serve. And perhaps a green salad, too, dressed with a <a href="http://web.archive.org/web/20250208200938/https://food52.com/recipes/23571-roasted-butternut-and-red-quinoa-salad-with-spicy-lime-vinaigrette">spicy lime vinaigrette</a>.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="32638" data-type="recipe" data-layout="flag"></span>
 
@@ -1016,7 +1016,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="22530" data-type="recipe" data-layout="flag"></span>
 
@@ -1043,11 +1043,11 @@ This, however, is a good start, for which I am grateful.
 
 <h3>10. Mac &amp; Cheese</h3>
               <p>Cook as stated, let cool, and cover with aluminum foil, sealing the edges with tape. Place into the freezer. When ready to cook, thaw overnight in the refrigerator and reheat at 375°F until warmed through.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="81957" data-type="recipe" data-layout="flag"></span>
 
@@ -1071,7 +1071,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="40555" data-type="recipe" data-layout="flag"></span>
 
@@ -1106,11 +1106,11 @@ This, however, is a good start, for which I am grateful.
               <center>
 <em>This article was originally published January 2017.</em>
 </center>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="27733" data-type="post" data-layout="flag"></span>
 
@@ -1134,7 +1134,7 @@ This, however, is a good start, for which I am grateful.
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="24808" data-type="post" data-layout="flag"></span>
 
@@ -1181,7 +1181,7 @@ This, however, is a good start, for which I am grateful.
                   <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Make Ahead" data-ga-destination-url="/tags/make-ahead" href="/web/20250208200938/https://food52.com/tags/make-ahead">Make Ahead</a></li>
               </ul>
             </div>
-            
+
 <div class="comments-teaser">
   <div class="comments-teaser__icons">
     <span class="icon__comments"></span>
@@ -1310,7 +1310,7 @@ This, however, is a good start, for which I am grateful.
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">

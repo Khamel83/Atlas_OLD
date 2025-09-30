@@ -1323,7 +1323,7 @@ data-styled.g3638[id="sc-global-kIxVXM2"]{content:"sc-global-kIxVXM2,"}/*!sc*/
         window.Fides.gtm({
           includeNotApplicable: true,
           asStringValues: false,
-          non_applicable_flag_mode: "include", 
+          non_applicable_flag_mode: "include",
           flag_type: "boolean",
         });
         var e = window.Fides.experience?.experience_config?.id;

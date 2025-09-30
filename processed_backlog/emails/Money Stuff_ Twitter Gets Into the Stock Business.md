@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.At the height of meme stock mania in early 2021, the WallStreetBets forum
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Buy stocks on Twitter
-    
-  
+
+
 
 At the height of meme stock mania in early 2021, the WallStreetBets forum on Reddit was   adding a million users a day as people flocked to Reddit to discuss their plans to trade GameStop Corp. and other meme stocks. Imagine if Reddit put a button next to each GameStop post saying “buy GME,” and if you clicked the button you could buy shares directly through Reddit? (I guess maybe add another button like “YOLO GME options” so you could buy the call options too?) That just seems like it would be good business, and good customer service, each in a loose approximate way. Probably some compliance issues with that button. Probably some customers would be sad if they bought GameStop for $400 with one click after reading an enthusiastic but inaccurate Reddit post. Probably some lawsuits. Still the basic business idea — “the place where people go to enthusiastically discuss stocks should also let them buy those stocks directly” — has an appeal.
 Anyway!
@@ -73,7 +73,7 @@ You’ll also be able to click a button that says “view on eToro,” which tak
 This is apparently part of Elon Musk’s plan to turn Twitter into a “super app” that offers payments and banking. The entity formerly known as Twitter Inc. now seems to be named X Corp., reviving the name of Musk’s early online bank that eventually became part of PayPal. People like to discuss stocks on Twitter, and Musk wants Twitter/X to get into financial services, and so, sure, connect the stock discussion more closely to a stock brokerage.
 This seems fairly tame. But wouldn’t it be great if you could read a tweet touting a stock and Twitter would serve you a button saying “buy 100 shares of this stock” and you’d click and Jane Street would sell you the stock and Twitter would get a fee for making it happen?
   [1]
- Or if   Elon Musk tweeted “Use Signal,” there’d be a button saying “Buy Signal,” and you could buy the stock of Signal Advance Inc., a company that has nothing to do with what Musk was tweeting about but which does have the word “Signal” in its name. Or if Musk  tweeted “X,” as he did the other day, there’d be a button saying “Buy X,” and you could click it and buy shares of United States Steel Corp.,   whose ticker is X. Would people click those buttons? I mean, yes, right? Why shouldn’t Twitter monetize the 
+ Or if   Elon Musk tweeted “Use Signal,” there’d be a button saying “Buy Signal,” and you could buy the stock of Signal Advance Inc., a company that has nothing to do with what Musk was tweeting about but which does have the word “Signal” in its name. Or if Musk  tweeted “X,” as he did the other day, there’d be a button saying “Buy X,” and you could click it and buy shares of United States Steel Corp.,   whose ticker is X. Would people click those buttons? I mean, yes, right? Why shouldn’t Twitter monetize the
 Elon Markets Hypothesis? How much would Jane Street pay for those orders? Those orders seem fun.
   [2]
 
@@ -85,37 +85,37 @@ I think a lot of people could offer a more seamless and convenient retail stock 
  Why not Twitter?
 Also, everything I said above, but 10 times more so, for trading crypto on Twitter. As is true for a lot of people on Twitter,  including Elon Musk, a great deal of my feed consists of typo-filled spam trying to convince me to send my money to some sort of crypto scam. Imagine if I could do that directly in the app! So convenient!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bribes
-    
-  
+
+
 
 A  running theme of this column, which is never legal advice, is that if you are going to do bribes you should try to be businesslike about your bribes, instead of being cutesy. Like if you send your colleague a text message saying “our ‘friend’ expects one million ‘chickens’ for his ‘help’ with this ‘contract,’” that’s gonna look really bad to the jury at your inevitable criminal trial. But if you send a professionally formatted invoice saying, like, “Consulting charges: 80 hours @ $1,250 per hour plus 45 basis point success fee on $200 million contract = $1,000,000 to be paid by ACH transfer to General Consulting Services LLC,” you might still get arrested, but at trial you can say “no that was for consulting, very standard, nothing wrong with that.”
 Yesterday US prosecutors brought bribery charges against 10 people “in connection with a massive scheme to defraud Polar Air Cargo Worldwide, Inc. (‘Polar’), a leading cargo airline, of tens of millions of dollars” with bribes. Polar is a cargo airline — a joint venture of DHL and Atlas Air — that sold cargo space to shippers, and if you wanted cargo space on Polar you allegedly had to pay (1) Polar the rates that it charged you plus (2) some bribes to the Polar executives who were selling you the space. 
@@ -141,14 +141,14 @@ That is, Polar could advertise low rates, but then tacked on an extra fee for br
 The numbers are in the tens or hundreds of dollars per flight, and the entire alleged bribe invoice is for $41,291.93, to be distributed among the nondescriptly-named entities of several Polar executives. The indictment says that Cargo On Demand paid a total of about $1.6 million of kickbacks to Polar executives from 2016 through 2021, and if you just wrote a check for $1.6 million of bribes that would look bad. But sending monthly ACH transfers for detailed invoices measured in pennies per kilogram just looks like business. 
 Of course they got arrested anyway; I must emphasize that nothing here is legal advice. Also the owner of Cargo On Demand was himself indicted, for paying the bribes, which seems a bit harsh. He was dealing with a company, and all the senior executives he dealt with told him that he had to pay these fees! He thought they were a resort fee!
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 If you are a private wealth manager at a big bank, should you stuff your clients’ portfolios with leveraged investments in your bank’s own contingent capital securities? I think there’s a good argument for yes:
-	
+
 These securities — called “contingent convertibles” (CoCos) and “additional tier 1 capital securities” (AT1s) — look like bonds that pay a high interest rate, but they go to zero if your bank runs into disaster. They are meant to substitute for government bailouts; if the bank becomes insolvent, it gets recapitalized by zeroing the AT1s instead of by relying on a taxpayer bailout.	Your bank wants to sell these securities, so you are helping out your employer by finding buyers (your clients). The more you sell, the lower your bank’s cost of capital, and the higher its profits and your bonus.	Your rich clients want high cash income from securities issued by a big-name bank, so they will enjoy owning these securities, and will be happy with the advice that you have provided them.	Unless your bank goes bust, in which case they will lose all their money — but if your bank goes bust you are probably out of a job anyway, so you don’t care very much about your clients being mad at you in that scenario.
 
 In the state of the world where your bank is fine, these securities are a good investment for your clients. In the state of the world where your bank blows up, these securities are a bad investment for your clients, but that is the least of your worries. It’s basically all upside! Load ’em up with AT1s!
@@ -164,11 +164,11 @@ The write-down of Credit Suisse’s AT1s adds a potential headache for UBS execu
 
 If you were a private wealth adviser at UBS, the acquisition of Credit Suisse probably does imperil your job: Presumably there will be some overlap among private wealth advisers in Asia at Credit Suisse and UBS, and  layoffs are coming. Your clients are mad at you for stuffing them with Credit Suisse AT1s, but that may not be at the top of your list of problems; stuffing them with Credit Suisse AT1s might still have been the right call for you personally. But if you are running UBS this does make everything more difficult. AT1 investors, as AT1 investors, are there to get zeroed if a bank goes bust; that is their role in the bank’s capital structure. But AT1 investors, as clients, are a more delicate matter: If you zero their investment, you can lose them as clients.
 
-  
-    
+
+
       Bitcoin anonymity
-    
-  
+
+
 
 Bitcoin transactions are public, preserved forever and pseudonymous. In 2012, this meant that Bitcoin was a pretty good way to do crime. If you sold some drugs for Bitcoin, the buyer would send Bitcoin to a string of numbers representing your address, and then you’d be able to send the Bitcoin to a crypto exchange to turn it into dollars, and law enforcement would have no way to catch you because they didn’t understand Bitcoin. “The money went to the blockchain,” the police would shrug, and that would be that.
 In 2023, it means that Bitcoin is frankly kind of a bad way to do crime: If you steal some Bitcoin, law enforcement and blockchain analysis firms will be able to trace the movements of that Bitcoin forever, and any crypto exchange will do some know-your-customer checks and get your photo ID before letting you cash out, and so when you turn your proceeds into cash   the police will show up at your house with a detailed permanent immutable public record of every transaction that you did, starting with the theft and ending with the withdrawal to your bank account. 
@@ -186,11 +186,11 @@ Government investigators exploit a feature of bitcoin and many other digital cur
 If you are using Bitcoin to do crime in 2023, cut it out; you have been warned. But if you used Bitcoin to do crime in 2012, you kind of weren’t warned, so this might be a harsh surprise.
 Also, an unrelated point, but the Bitcoin financial system in 2012 was so good! The way this guy stole money from Silk Road (which itself was shut down for huge crime) was by clicking “withdraw” twice, so Silk Road sent him the money twice. What a great monetary system: If you have money in your account, they’ll send you the money, as many times as you want. Imagine if your bank worked that way. If only someone in crypto had been working on  solving the double-spending problem before 2012.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 In 2017, if you were a financial institution, you pretty much had to launch a blockchain project with great fanfare. “We’ll put loan trading on the blockchain! And stock settlement! Everything!” In 2023, if you are a financial institution, you are probably  shutting down your  blockchain projects quietly. Or not, though; maybe this is  the ideal time to get into blockchain?
 
@@ -201,11 +201,11 @@ The partnered firms plan to test Spruce’s valueless token system on foreign ex
 
 There is less hype than there was in 2017, and it’s a little funny to emphasize that “there’s no capital at risk” in this, but still, they put out a press release and everything.
 
-  
-    
+
+
       FDIC literary influences
-    
-  
+
+
 
 The thing about the Federal Deposit Insurance Corp. is that every once in a while it kicks down the door of a bank on a Friday afternoon, gets rid of the bank’s startled managers, and takes over the bank to save depositors. This is not the most common activity of the FDIC — ideally there are not a lot of bank failures — but it is certainly the most dramatic activity of the FDIC, and it is in some sense the core activity of the FDIC; everything else that it does — regulating banks, running an insurance fund — stems from its ability to show up at a bank and take it over.
 I suppose if you worked at the FDIC you would spend a lot of time preparing for that rare but central event, not only in legal and financial terms but also in terms of having a cool line to say when you showed up to seize a bank. “There’s a new sheriff in town” or whatever, but good. Or you could  whistle “The Farmer in the Dell” like Omar in The Wire as terrified bankers fled or put their hands up. That would be cool. Or it wouldn’t be, I mean, possibly the executives of some failed community bank would not immediately get the reference and know to be terrified by your whistling, but you’d be pleased with the joke. 
@@ -217,15 +217,15 @@ Two decades later, Washington Mutual (WaMu) experienced two “silent” deposit
 
 That last sentence is  footnoted to a Wire clip. Two readers have sent it to me so far. I hope that Hill showed up personally to shut down Signature Bank, and when   Barney Frank met him at the door to say “what are you doing, we’re fine, everything’s great,” Hill said “you want it to be one way, but it’s the other way.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 JPMorgan Calls Managing Directors to Office   Five Days a Week. JPMorgan Has Made Deep Cuts to   Metals Business After Nickel Crisis.  Deposit Crisis Sets Up a Tough First Quarter for All but the Biggest Banks.  EY Breakup Plan Doomed by Miscalculations and Powerful Opponents. EY risks  paralysis and a power vacuum after break-up failure. Crypto Startup Ondo Unveils Stablecoin Alternative Backed by   Money-Market Funds.   I Bonds Lose Their Luster With Yield Set to Plunge Below 4%. JPMorgan Compliance Urged Bank to   Drop Epstein, Revised USVI Suit Shows. Egypt Pound   Hedging Frenzy Unmasks Growing Devaluation Anxiety. Harvard Affiliates  Slam Ken Griffin Donation, Citing Support for DeSantis. CFA Final Exam Pass Rate Stays at 48%, Above Pandemic-Era Lows. ‘I’m  all for climate change’: Axel Springer CEO faces heat over leaked messages.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] eToro  discloses that it gets payment for order flow for routing its customer orders; according to its Form 606, in the fourth quarter of 2022 it sent a plurality of its market orders for stocks to Jane Street Capital.
 
 
@@ -235,48 +235,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Arguably   that is the basic   story of Robinhood? The not caring part, I mean; they did keep getting in trouble.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -287,46 +287,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cijsj8.5kyq/d885f32f.gif" alt="" border="0" /></a>

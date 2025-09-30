@@ -452,7 +452,7 @@ window.setTimeout(function() {
 <option value="3">3</option>
 <option value="4">4</option>
 <option value="5">5</option>
-</select>		
+</select>
 </div>
 </div>
 <div id="propertytype" class="searchOption">
@@ -488,7 +488,7 @@ window.setTimeout(function() {
 </div>
 <div class="column third">
 <div class="columnGroup">
-<h5>More In Real Estate</h5>	
+<h5>More In Real Estate</h5>
 <ul class="meta">
 <li class="firstItem"><a href="http://web.archive.org/web/20140712235836/http://www.nytimes.com/pages/great-homes-and-destinations/index.html">Great Homes<br/>&amp;&nbsp;Destinations</a></li>
 <li class="lastItem"><a href="http://web.archive.org/web/20140712235836/http://www.nytimes.com/pages/realestate/commercial/index.html">Commercial Real Estate</a></li>
@@ -510,7 +510,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h1 itemprop="headline" class="articleHeadline"><nyt_headline version="1.0" type=" ">How Fights Over Fixtures Can Derail a Closing</nyt_headline></h1>     <div class="articleSpanImage"><span itemprop="associatedMedia" itemscope itemid="http://graphics8.nytimes.com/images/2013/08/25/realestate/25JUMP2/25JUMP2-articleLarge-v3.jpg" itemtype="http://schema.org/ImageObject">
 <img src="http://web.archive.org/web/20140712235836im_/http://graphics8.nytimes.com/images/2013/08/25/realestate/25JUMP2/25JUMP2-articleLarge-v3.jpg" width="600" height="604" alt="" border="0" itemprop="url" itemid="http://graphics8.nytimes.com/images/2013/08/25/realestate/25JUMP2/25JUMP2-articleLarge-v3.jpg">
 <meta itemprop="identifier" content="http://graphics8.nytimes.com/images/2013/08/25/realestate/25JUMP2/25JUMP2-articleLarge-v3.jpg"/>
@@ -528,9 +528,9 @@ window.setTimeout(function() {
             articleSpanImage.style.filter = filter;
         }
     </script>
-<![endif]--> 
+<![endif]-->
 <nyt_byline>
-<h6 class="byline">By 
+<h6 class="byline">By
 <span itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="http://topics.nytimes.com/top/reference/timestopics/people/f/robin_finn/index.html">
 <a href="http://web.archive.org/web/20140712235836/http://topics.nytimes.com/top/reference/timestopics/people/f/robin_finn/index.html" rel="author" title="More Articles by ROBIN FINN"><span itemprop="name">ROBIN FINN</span></a></span></h6>
 </nyt_byline>
@@ -550,18 +550,18 @@ window.setTimeout(function() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p itemprop="articleBody">
-Even at their smoothest, residential real estate closings are not for the faint of heart. At stake is nothing less than the roof over the buyerâs head, but the repercussions can be primal when, just before the culmination of a deal worth hundreds of thousands or, in many instances, millions of dollars, weeks of negotiations unravel when the buyer and seller suddenly squabble over who gets custody of something as inconsequential as a $150 ceiling fan.        </p> 
+Even at their smoothest, residential real estate closings are not for the faint of heart. At stake is nothing less than the roof over the buyerâs head, but the repercussions can be primal when, just before the culmination of a deal worth hundreds of thousands or, in many instances, millions of dollars, weeks of negotiations unravel when the buyer and seller suddenly squabble over who gets custody of something as inconsequential as a $150 ceiling fan.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->  
+
+<!--forceinline-->
 <div class="doubleRule"><div class="story" id="twitterInlinePromo">
 
 <div class="runaroundRight"><a href="http://web.archive.org/web/20140712235836/https://twitter.com/#!/nytrealestate/"><img src="http://web.archive.org/web/20140712235836im_/http://graphics8.nytimes.com/images/2011/10/21/realestate/real-estate-twitter-icon/real-estate-twitter-icon-thumbStandard-v3.jpg" height="75" width="75" alt="Real Estate Twitter Logo."/></a></div>
   <h4><a href="http://web.archive.org/web/20140712235836/https://twitter.com/#!/nytrealestate/">Connect With Us on Twitter</a></h4>
   <p class="summary">For news and features on real estate, follow <a href="http://web.archive.org/web/20140712235836/https://twitter.com/#!/nytrealestate/">@nytrealestate</a>.</p>
 
-</div></div>   
+</div></div>
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20140712235836/http://www.nytimes.com/imagepages/2013/08/25/realestate/25COVER.html','25COVER_html','width=576,height=630,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -579,7 +579,7 @@ Even at their smoothest, residential real estate closings are not for the faint 
 <p>
 </p>
 </div>
-  
+
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20140712235836/http://www.nytimes.com/imagepages/2013/08/25/realestate/25JUMP1.html','25JUMP1_html','width=579,height=630,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -597,7 +597,7 @@ Even at their smoothest, residential real estate closings are not for the faint 
 <p>
 </p>
 </div>
-   
+
 </div>
 <div id="readerscomment" class="inlineLeft"></div>
 <div class="articleBody">
@@ -648,7 +648,7 @@ They have since ripped it out and given it away.        </p>
 </div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -662,7 +662,7 @@ They have since ripped it out and given it away.        </p>
 
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal articleShareToolsBottom" data-shares="facebook|,twitter|,google|,save,email,showall|Share" data-title="How Fights Over Fixtures Can Derail a Closing" data-url="http://web.archive.org/web/20140712235836oe_/http://www.nytimes.com/2013/08/25/realestate/how-fights-over-fixtures-can-derail-a-closing.html" data-description="With significant sums about to change hands, last-minute negotiations can turn into a tug of war over what comes with a property and what doesnât."></div>
 <meta name="emailThisHash" content="E+KdT2Kmfo8YBr58DH/8Eg">
 </div>
@@ -671,14 +671,14 @@ They have since ripped it out and given it away.        </p>
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div id="embeddedCommentsTileAd" class="hidden">
 
 </div>
 <div id="commentsContainer" class="commentsContainer singleRule"></div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra">
 <div class="column lastColumn">
@@ -782,8 +782,8 @@ They have since ripped it out and given it away.        </p>
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -914,7 +914,7 @@ They have since ripped it out and given it away.        </p>
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -946,8 +946,8 @@ They have since ripped it out and given it away.        </p>
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20140712235836im_/http://up.nytimes.com/?d=0/8/&amp;t=6&amp;s=0&amp;ui=0&amp;r=http%3a%2f%2fwww%2enytimes%2ecom%2f2013%2f08%2f25%2frealestate%2fhow%2dfights%2dover%2dfixtures%2dcan%2dderail%2da%2dclosing%2ehtml%3fsmid%3dpl%2dshare&amp;u=www%2enytimes%2ecom%2f2013%2f08%2f25%2frealestate%2fhow%2dfights%2dover%2dfixtures%2dcan%2dderail%2da%2dclosing%2ehtml%3fpagewanted%3dall">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

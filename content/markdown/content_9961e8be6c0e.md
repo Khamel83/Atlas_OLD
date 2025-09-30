@@ -18,7 +18,7 @@
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.3.1 (Yoast SEO v25.3.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://a16z.com/building-american-dynamism/">
 	<meta property="og:locale" content="en_US">
@@ -114,8 +114,8 @@ img.wp-smiley, img.emoji {
 .page-bio-health-health-builders .bh-cta-banner .top-layer {right: 0;}
 
 .page-bio-health-bio-builders .bh-cta-banner .top-layer {right: 0;}		</style>
-		
-    
+
+
     <script>
     const MUNCHKIN_ID = '382-JZB-798';
     const MUNCHKIN_SCRIPT_URL = '//munchkin.marketo.net/munchkin.js';
@@ -219,17 +219,17 @@ document.addEventListener('cookieConsentAccepted', handleCookieConsent);
 function initAnalytics() {
         if (typeof gtag !== "undefined") {
             console.log("Analytics initialized");
-            
+
             var eventParams = {};
-            
+
             if (typeof window.pageVerticalCategory !== "undefined") {
                 eventParams.vertical_category = window.pageVerticalCategory;
             }
-            
+
             if (typeof window.pageCategories !== "undefined") {
                 eventParams.page_categories = window.pageCategories;
             }
-            
+
             if (Object.keys(eventParams).length > 0) {
                 gtag("event", "page_view", eventParams);
             }
@@ -445,9 +445,9 @@ window.pageVerticalCategory = 'american-dynamism';window.pageCategories = 'ameri
         </div>
     </div>
             <div class="header-progress"><span style="width: 0%;"></span></div>
-    
+
     </header>
-                                        
+
         <style>
         .article-banner--new {
             --a16z-share-theme: #CAF12E;
@@ -458,9 +458,9 @@ window.pageVerticalCategory = 'american-dynamism';window.pageCategories = 'ameri
 <div class="article-banner--new sm">
             <div class="img">
                             <picture>
-                    
+
                                             <source media="(max-width: 768px)" srcset="https://a16z.com/wp-content/themes/a16z/assets/images/article/banner-american-dynamism-sm-mobile.jpg"></source>
-                    
+
                     <img src="https://a16z.com/wp-content/themes/a16z/assets/images/article/banner-american-dynamism-sm.jpg" alt="">
                 </picture>
                     </div>
@@ -468,7 +468,7 @@ window.pageVerticalCategory = 'american-dynamism';window.pageCategories = 'ameri
                 <div class="inner">
                                                     <h1>Building American Dynamism</h1>
                                                     <p class="auth"><a href="https://a16z.com/author/katherine-boyle/">Katherine Boyle</a></p>
-            
+
             <div class="controls-panel">
                                     <div class="share-holder">
     <div class="social--networks js-dropdown">
@@ -495,7 +495,7 @@ window.pageVerticalCategory = 'american-dynamism';window.pageCategories = 'ameri
             <div class="container">
                 <div class="cols-wrapper">
                     <div class="aside-col">
-                        
+
                                             </div>
 
                     <div class="content-col" data-hyperlinks-target="_blank">
@@ -503,7 +503,7 @@ window.pageVerticalCategory = 'american-dynamism';window.pageCategories = 'ameri
                                                                                     <div class="posted-on">
   Posted January 14, 2022 </div>
                         </div>
-                        
+
                         <div class="wp-content tombstone-enable">
                                                         <p><span style="font-weight: 400;">Two weeks before the start of our perpetual lockdown, </span><i><span style="font-weight: 400;">The New York Times</span></i><span style="font-weight: 400;"> columnist and </span><a href="https://douthat.substack.com/"><span style="font-weight: 400;">Substack writer</span></a><span style="font-weight: 400;"> Ross Douthat released &ldquo;</span><a href="https://www.firstthings.com/article/2020/03/back-to-the-future"><span style="font-weight: 400;">The Decadent Society</span></a><span style="font-weight: 400;">,&rdquo; a survey of America&rsquo;s general apathy toward building a more dynamic future. While the book itself isn&rsquo;t particularly surprising in its critique, the timing of its release was important: it was among the last public critiques of American stagnation before the world changed forever in March 2020. In the Before Times, Douthat noted four indicators of malaise in the Western world, some of which were magnified during the pandemic: institutional failure and loss of civic trust; economic and technological stagnation; declining birth rates and sterility; and mimetic, derivative culture. By April, many seemed hopeful that some of these trends might reverse &mdash; if anything could pull America out of its decades-long march toward decline, perhaps it was a global pandemic.</span></p>
 <p><span style="font-weight: 400;">Almost two years later, it&rsquo;s clear that the stagnationists were right about some aspects of American decline and very wrong on the ones most within our control. </span><a href="https://www.pewresearch.org/fact-tank/2019/07/22/key-findings-about-americans-declining-trust-in-government-and-each-other/"><span style="font-weight: 400;">Institutional failure</span></a><span style="font-weight: 400;"> is the most glaring and far-gone aspect of American stagnation: look no further than the U.S.&rsquo;s shoddy exit from Afghanistan and the associated $2 trillion of spend, and it&rsquo;s clear that the military, the governmental institution with the highest degree of trust &mdash; before the Afghanistan withdrawal, 69 percent of Americans had a &ldquo;quite a lot of confidence&rdquo; in the U.S. military &mdash; has been damaged. Other institutions like public schools and the medical establishment have lost so much trust during the pandemic years that they could go the way of mainstream newspapers, plateauing into a </span><a href="https://news.gallup.com/poll/355526/americans-trust-media-dips-second-lowest-record.aspx"><span style="font-weight: 400;">distrustful malaise</span></a><span style="font-weight: 400;"> where only a fraction of the country cares about what they have to say at all.&nbsp;</span></p>

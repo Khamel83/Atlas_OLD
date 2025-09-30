@@ -3,6 +3,6 @@
 **Source:** inputs/New Docs/reader/www.imissgrantland.com_2016_02_04_bloodthirsty-terrorists-and-duplicitous-spies-does-tv-have-a-muslim-problem.html
 **Processed:** 2025-08-24T19:14:17.865585
 
-SSL certificate  
-  
+SSL certificate
+
 The certificate can be issued in three simple steps. Approval and implementation can complete on the same day (as low as $2.88/year)

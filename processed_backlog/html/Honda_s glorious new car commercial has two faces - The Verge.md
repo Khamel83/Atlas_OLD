@@ -11,7 +11,7 @@
 
 # Honda's glorious new car commercial has two faces
 
- / 
+ /
 
 ## Symmetrical videos show Honda's dark and light side
 
@@ -59,7 +59,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207091625im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207091625/http://theverge.com/)
 

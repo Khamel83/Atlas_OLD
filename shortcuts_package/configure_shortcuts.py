@@ -11,7 +11,7 @@ from pathlib import Path
 
 def get_atlas_server_url():
     """Get the Atlas server URL from user or detect automatically"""
-    
+
     # Try to detect from config
     try:
         from helpers.config import load_config
@@ -21,24 +21,24 @@ def get_atlas_server_url():
         default_url = f"http://{host}:{port}"
     except:
         default_url = "http://localhost:8000"
-    
+
     print(f"🔧 Atlas Shortcuts Configuration")
     print(f"================================")
     print("")
     print(f"Current detected server: {default_url}")
     print("")
-    
+
     response = input(f"Use this URL? (y/n) [y]: ").strip().lower()
-    
+
     if response in ['n', 'no']:
         custom_url = input("Enter your Atlas server URL: ").strip()
         return custom_url
-    
+
     return default_url
 
 def create_configuration_instructions(server_url):
     """Create instructions for manually configuring shortcuts"""
-    
+
     instructions = f"""
 # Manual Shortcut Configuration
 
@@ -60,7 +60,7 @@ you'll need to manually update the server URL in each shortcut.
 
 ## Repeat for All Shortcuts:
 - capture_thought
-- log_meal  
+- log_meal
 - log_mood
 - start_focus
 - capture_evening_thought
@@ -74,22 +74,22 @@ you'll need to manually update the server URL in each shortcut.
 
 If you see your test message, configuration is successful! 🎉
 """
-    
+
     return instructions
 
 def main():
     """Main configuration helper"""
-    
+
     # Get server URL
     server_url = get_atlas_server_url()
-    
+
     # Create configuration instructions
     instructions = create_configuration_instructions(server_url)
-    
+
     # Save instructions to file
     config_file = Path("shortcuts_package/CONFIGURATION_INSTRUCTIONS.md")
     config_file.write_text(instructions)
-    
+
     print("")
     print("✅ Configuration instructions created!")
     print(f"📄 Saved to: {config_file}")
@@ -98,6 +98,6 @@ def main():
     print("   1. Install shortcuts using install_shortcuts.sh")
     print("   2. Follow CONFIGURATION_INSTRUCTIONS.md to set server URL")
     print("   3. Test with 'Hey Siri, Capture Thought'")
-    
+
 if __name__ == "__main__":
     main()

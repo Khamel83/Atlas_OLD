@@ -168,7 +168,7 @@ I agree. Google could build the AI to win it all. It’s not guaranteed they wou
 
 The question is if that nature been superceded by one focused on limiting losses and extracting profits; yes, there is still tremendous technological invention, but as Horace Dediu explained on Asymco ( https://www.asymco.com/2014/04/16/innoveracy-misunderstanding-innovation/ ) , that is different than innovation, which means actually making products that move markets. Can Google still do that? Do they want to? Whither Google?
 
-* 
+*
 
 I do still speak at conferences, but last spoke for pay in January 2017 ↩︎ ( #rf1-12087 )
 

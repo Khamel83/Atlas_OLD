@@ -7,11 +7,11 @@
 
 # miller-mccune.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![miller-mccune.com]()
 
-miller-mccune.com  
-  
-Find the best information and most relevant links on all topics related to This domain may be for sale! 
+miller-mccune.com
+
+Find the best information and most relevant links on all topics related to This domain may be for sale!
 

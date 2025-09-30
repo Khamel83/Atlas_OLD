@@ -185,15 +185,15 @@ This solution would not be “perfect”, in that it would have the same problem
 
 That, by extension, means it remains imperative for Google and the other Aggregators to move on from employees who see them as political projects, not product companies. AIs have little minds in a big world, and the only possible answer is to let every user get their own word. The political era of the Internet may not be inevitable — at least in terms of Aggregators and their business models — but only if Google et al will go back to putting good products and Aggregator economics first, and leave the politics for us humans.
 
-* 
+*
 
 Sordid realities like slavery were, of course, themselves embedded in the country’s founding documents ↩︎ ( #rf1-12430 )
 
-* 
+*
 
 The totals obviously vary based on business model; Amazon costs, for example, include many items sold on Amazon.com; Apple’s include the cost of building devices. ↩︎ ( #rf2-12430 )
 
-* 
+*
 
 Daniel Gross, in the interview linked below, called it the “Reformation in reverse” ↩︎ ( #rf3-12430 )
 

@@ -78,7 +78,7 @@ else {
 <li><a href="/contact/" title="How to send email or feedback regarding Daring Fireball.">Contact</a></li>
 <li><a href="/colophon/" title="About this site and the tools used to produce it.">Colophon</a></li>
 <li><a href="/feeds/">Feeds / Social</a></li>
-<!-- 
+<!--
 <li><a href="https://twitter.com/daringfireball">Twitter</a></li>
  -->
 <li><a href="/feeds/sponsors/">Sponsorship</a></li>
@@ -275,7 +275,7 @@ Copyright &copy; 2002–2025 The Daring Fireball Company LLC.
 
 <!-- Google Analytics -->
 
-<!-- 
+<!--
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-593949-1']);

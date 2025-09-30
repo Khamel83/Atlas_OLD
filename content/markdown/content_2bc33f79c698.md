@@ -136,7 +136,7 @@ pushly('load', {
     if (window && window.blinkSDK) {
       clearInterval(loadOutbrainAfterBlink)
       const outbrainScript = document.getElementById('outbrain-script')
-      outbrainScript.setAttribute("src", outbrainScript.getAttribute("data-src"))  
+      outbrainScript.setAttribute("src", outbrainScript.getAttribute("data-src"))
     }
   }
 

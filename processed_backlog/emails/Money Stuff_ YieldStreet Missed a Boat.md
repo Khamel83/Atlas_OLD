@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        One sort of business in the world is that you can buy old ships, take them apart, and sell the scrap metal and stuff for more than you paid 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        One sort of business in the world is that you can buy old ships, take them apart, and sell the scrap metal and stuff for more than you paid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oops
-    
-  
+
+
 
 One sort of business in the world is that you can buy old ships, take them apart, and sell the scrap metal and stuff for more than you paid for the ship. Another sort of business is that you can lend people money to do that business: You lend them money to buy a ship, they buy the ship, they break it down, they sell the scrap, they get money, they pay you back.
 It is natural, if you are lending people money to buy a big asset, to take the asset as collateral: You lend them money to buy the ship, they promise to pay you back, and if they don’t pay you back then you can seize the ship.
@@ -83,37 +83,37 @@ Sure it was all fine! Then they talked to the borrower and were like “everythi
 In August 2019, YieldStreet held a call with the Borrower to discuss several issues regarding the loans and the collateral securing the loans. The Servicer and the outside contractor were also present for the call. During the call, YieldStreet asked about the itinerary of the vessels that secured loans to the Borrower and the fact that “AIS appears to be off” for certain vessels. YieldStreet asked the Borrower to ensure that AIS systems were operational at all times. However, YieldStreet did not ask the Borrower or Servicer why the ships were reported as “broken up” in publicly available information sources.
 Then it sold the loans to outside investors! And then, later, it “concluded that the Borrower had by that time already deconstructed all but one of the ships that collateralized loans to the Borrower, and that the Borrower had stolen the proceeds.” It kind of knew that before it sold the loans, but wishful thinking is a powerful force.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Stoner Cats
-    
-  
+
+
 
 Let’s say you want to make an animated web series about cats. Not just any cats, though: The exciting twist in this series is that these cats smoke marijuana.
   [1]
@@ -143,11 +143,11 @@ On the other hand, one benefit of buying the cats is that you could watch the sh
 Also I feel like the requirement that you have to own an NFT to watch the show makes the NFT in some sense the opposite of a share of stock? There is a natural limitation on the economic value of the franchise if only a few thousand token holders can watch it: Each token can be more valuable, but that value comes from exclusivity, not from the show being a big general hit. There was no source of revenue other than the tokens.
 But Stoner Cats settled, so a court won’t weigh in on this. Impact Theory settled too. There are a lot of little NFT projects that the SEC doesn’t like, and it might be cheaper for them to settle and pay up than it is to fight the SEC for years in court. It’s not clear that these sorts of NFTs are securities, as a legal matter, but as a practical matter they kind of are.
 
-  
-    
+
+
       Mortgage assumption startup
-    
-  
+
+
 
 Just conceptually it is an obvious trade:
 	I own a house with a $400,000 mortgage with a 3% interest rate, and I want to sell it.	You would like to buy my house for $500,000, putting 20% down and borrowing $400,000.	But interest rates have gone up a lot, and if you got a $400,000 mortgage now, the interest rate would be 7%. 	You can’t afford that, so you don’t borrow $400,000, so you don’t buy my house.	What if you could give me $100,000, move into the house, and take over my mortgage, making the 3% payments until it is paid off? Then we are both better off.
@@ -180,11 +180,11 @@ This is fine, this is a useful service. I will say though that I would much rat
   [4]
  But rates really were 3% pretty recently, and they really are 7% now, and there really are a lot of 3% mortgages out there that are not assumable by their terms, and if someone could find something to do with them that would be a good business.
 
-  
-    
+
+
       FTX update
-    
-  
+
+
 
 The week before FTX Trading Ltd. filed for bankruptcy last November, its then-chief executive officer, Sam Bankman-Fried, sent out a sort of hacked-together balance sheet to potential investors. I   made fun of that balance sheet, which was not prepared in accordance with generally accepted accounting principles or formatted anything like a traditional balance sheet, and which had an entry for “Hidden, poorly internally labeled ‘fiat@’ account” with a balance of negative $8 billion. But it did more or less show the financial position of FTX, which was roughly:
 	$16.9 billion of customer liabilities, consisting of $8.9 billion of “liabilities” and an extra $8 billion of “hidden, poorly internally labeled ‘fiat@’ account,” which you presumably add to the liabilities;	$9.5 billion of assets, consisting largely of weird crypto stuff that was maybe not worth quite as much as Bankman-Fried thought; and	a howling void of almost $8 billion.
@@ -199,19 +199,19 @@ Another next step is restarting FTX? I mean? It   still seems like a wild idea t
 When Bankman-Fried was circulating his desperation balance sheet, he was well aware that it showed a gaping hole of almost $8 billion of negative equity, but he nonetheless thought that some investor might see that balance sheet and decide to invest: The investor might say “well, you have $17 billion of liabilities and $9 billion of assets, which is bad, but I will put in the $8 billion you need to fill the hole because you have a good business, and if I can keep it alive and revive its reputation then I can earn billions of dollars a year in trading fees, which will make that $8 billion a good investment.” On a pure balance-sheet basis FTX owed a lot more money than it had, but as a going concern maybe it was a good investment.
 Or that was the idea. You might object: Is it such a good business, after misplacing all that customer money? In any case, Bankman-Fried could not actually convince anyone of it, but he did not have a lot of time, and at that point he was maybe not the best person to pitch it. Ray has more time. I am not convinced he is the best person to pitch it either — he has been pretty negative about FTX! — but he might as well give it a shot.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Citigroup Plans Job Cuts as It Revamps Top Management Structure.   Blackstone Names New Credit Boss in Bid to Be $1 Trillion Lender. Deutsche Bank continued to  push risky derivatives years after probe found mis-selling. The Broadway producer orchestrating  SoftBank’s Arm IPO. BP CEO’s   Sudden Fall Puts Oil Major’s Strategy Back in Play. Banks brace for California law mandating  emissions disclosure. Smurfit Kappa to Merge With WestRock to Form $20 Billion  Paper Powerhouse. SEC Sues Market-Maker  Virtu, Alleging Leakage of Customer Information. From $1 Billion to Almost Worthless:   FaZe Clan Runs Out of Hype. ‘Cryptoqueen’ Ruja Ignatova remains a fugitive as her partner in $4B  OneCoin fraud gets 20 years.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] My knowledge of  Stoner Cats comes from like five minutes of Googling, and if you tell me “actually they eat THC-infused catnip” that’s fine, that’s fine.
 
 
-  [2] To make this easy I am assuming that the existing mortgage is for 80% of the new purchase price, and you will put 20% down. That is unlikely to be true very often in practice: Probably I have paid down the mortgage a bit, and quite possibly I am selling the house for more than I paid for it, so it’s more likely that I’ve got a $400,000 mortgage, I’m selling you the house for $600,000, and you’d like to borrow 80% of the purchase price ($480,000), so there is a gap. 
+  [2] To make this easy I am assuming that the existing mortgage is for 80% of the new purchase price, and you will put 20% down. That is unlikely to be true very often in practice: Probably I have paid down the mortgage a bit, and quite possibly I am selling the house for more than I paid for it, so it’s more likely that I’ve got a $400,000 mortgage, I’m selling you the house for $600,000, and you’d like to borrow 80% of the purchase price ($480,000), so there is a gap.
 
 
   [3] I suppose you could argue that without the mortgage assumption I would not be able to sell the house, so the lender wouldn’t get paid back, so its below-market mortgage would just remain outstanding forever, so it should be indifferent to the assumption. But that does not really seem to be an accurate description of the current housing market. Also, I am exaggerating a bit: Banks largely originate mortgage loans to sell them, so the bank is not really exposed to the below-market rate on existing loans. Still it is normally more valuable for a bank to originate a new market-rate loan than to just keep a below-market loan outstanding.
@@ -220,48 +220,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Who owns the house, for instance? It can’t be you, or the startup: I need title to the house to keep the mortgage. (The bank might not love it if I move out, but it’s not clear they can do much: The standard form of US primary residential mortgage represents that the borrower “shall occupy, establish, and use the Property as Borrower’s principal residence within 60 days after the execution of this Security Instrument and shall continue to occupy the Property as Borrower’s principal residence for at least one year after the date of occupancy,” but after that I can rent it out.) But if it’s me — if I keep title to the house — you might be nervous about giving me that $100,000 down payment: You are kind of like a renter but with a big up-front cost. I don’t know how the taxes would work: Would I lose my mortgage interest deduction? Would you *get* a mortgage interest deduction? Would your payments to me be taxable income? Lots of problems.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -272,46 +272,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjgvb8.67bk/466868de.gif" alt="" border="0" /></a>

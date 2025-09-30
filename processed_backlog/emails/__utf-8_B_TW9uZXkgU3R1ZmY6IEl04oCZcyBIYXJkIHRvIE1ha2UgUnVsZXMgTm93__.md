@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Friday, back on Monday, and there will be no Money Stuff podcast this week. Happy Ind
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Friday, back on Monday, and there will be no Money Stuff podcast this week. Happy Independence Day!
 
-  
-    
+
+
       Regulation by enforcement
-    
-  
+
+
 
 It might be impossible for the US Securities and Exchange Commission to write new rules for crypto? We have talked, over the years, about how the crypto industry frequently says that it wants the SEC (or the Commodity Futures Trading Commission, or Congress) to write rules regulating cryptocurrency markets, so that the industry can have regulatory clarity and get on with building the future of finance or whatever. Instead, crypto people complain, there is “regulation by enforcement”: Rather than writing clear rules saying what is allowed, the SEC just decides on a case-by-case basis what isn’t allowed, and then sues people who already did it to make them pay big fines.
 Now, I sometimes think that these complaints are overstated — I think that a lot of crypto projects obviously violate longstanding securities laws, and it’s just wishful thinking to complain about a lack of clarity — but I am broadly sympathetic to them. It would probably be better to have clear rules than to have to interpolate the rules from backward-looking enforcement actions.
@@ -67,13 +67,13 @@ But the way that the SEC actually makes rules is:
 	It writes some rules.	It proposes them publicly.	There’s a period for industry participants and interested bystanders to submit comments about the rules.	The SEC considers the comments and puts out final rules.	Anyone who doesn’t like the rules can sue.  The SEC’s authority to regulate crypto (or anything) is contested, and even if it has the authority to regulate, it has to follow proper procedures and not act arbitrarily. Whatever the rules are, you can find arguments against them.	In 2024, the person who sues will obviously win. The US Supreme Court is suspicious of rulemaking by regulatory agencies, but some of the lower courts are way more suspicious, and everybody knows this and can bring their lawsuit in a court that will definitely strike down the rules.	And then there is some long appeal process, at the end of which there’s a decent chance that the rules will be struck down, and the SEC has to go back to the beginning and propose new rules.	Even this is oversimplified: Actually different people can sue at different times in different courts over different aspects of the rules, leading to even more confusion about what the rules are.
 
 The incentives, for the SEC, are bad. If it makes new rules, that is a lot of work, and those rules will be attacked from every angle. Probably they will be struck down, in ways that limit the SEC’s power and create greater confusion about what is allowed.
-Meanwhile if the SEC just sees some crypto project that it doesn’t like, it can sue that project — probably in a court of its choosing — say “this violates longstanding securities law,” and have a decent chance (not a certainty!) of winning. Its chances are better not only because it can pick a more sympathetic court, but also because it can pick a less sympathetic antagonist: It can argue “we need the power to regulate crypto” in a case where 
+Meanwhile if the SEC just sees some crypto project that it doesn’t like, it can sue that project — probably in a court of its choosing — say “this violates longstanding securities law,” and have a decent chance (not a certainty!) of winning. Its chances are better not only because it can pick a more sympathetic court, but also because it can pick a less sympathetic antagonist: It can argue “we need the power to regulate crypto” in a case where
 investors lost everything and the value of regulation is clear, rather than writing general rules and getting sued by a nice upstanding firm that doesn’t like them. 
 And by bringing those cases, it can provide reasonable clarity about (what it thinks are) the boundaries of the law. In the case of crypto, the SEC pretty clearly thinks the answer is “you can’t do crypto,” but that is not necessary to this analysis. Even if the SEC were more sympathetic to crypto, it would probably set out the rules by (1) suing people who do stuff it doesn’t like and (2) informally advising other people “if you do this stuff, we won’t sue you.” The rules are set by what the SEC sues over and what it doesn’t sue over, not by actually writing rules.
 I don’t think that this is as bad as crypto people say it is — this is kind of the normal common-law way that a lot of rules get made, and there is some value in having courts, rather than the SEC, decide what is allowed — but, sure, it's not great. But my point here is that, even if you do think it’s bad, it’s not entirely the SEC’s fault.
-This comes up most often around here about crypto, but it’s not just about crypto. The current SEC has an 
-ambitious rulemaking agenda and also an 
-ambitious enforcement agenda, but the former is at more risk of 
+This comes up most often around here about crypto, but it’s not just about crypto. The current SEC has an
+ambitious rulemaking agenda and also an
+ambitious enforcement agenda, but the former is at more risk of
 being reversed. And it’s not just the SEC. Here’s a Bloomberg Law article by Evan Weinberger titled “Bank Regulators to Lean on Enforcement as High Court Hits Rules”:
 
 A pair of US Supreme Court decisions curtailing the rule-writing authority of federal regulators will likely force banking agencies to rely on their supervisory and enforcement powers to police Wall Street.
@@ -83,40 +83,40 @@ But unlike other federal regulators, the prudential banking agencies have clear 
 With their authority curbed on the rulemaking front, banking regulators may end up leaning on their supervisory and enforcement tools, said Graham Steele, the former assistant Treasury secretary for financial institutions in the Biden administration.
 “That is one irony of this whole effort,” he said. “This could actually lead to regulation by the agencies being more opaque, less transparent, and by an examiner-by-examiner basis.”
 
-By the way, the proper answer to all of this is that Congress has to make detailed explicit rules for crypto, and for anything else that you want regulated. 
+By the way, the proper answer to all of this is that Congress has to make detailed explicit rules for crypto, and for anything else that you want regulated.
 The point of the current Supreme Court’s restrictions on rulemaking is that it wants elected lawmakers in Congress, not bureaucrats at the regulatory agencies, to make the rules. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Skydance
-    
-  
+
+
 
 Well, we’ve heard this before:
 
@@ -136,11 +136,11 @@ But Redstone will get something for that give. Bloomberg’s Michelle Davis repo
 The new terms include a higher valuation for National Amusements and stronger language indemnifying the Redstones’ company against litigation that may result from the deal, the person said. The sellers have 45 days to seek better offers, another person familiar with the matter said.
 Ultimately it makes sense that, if Skydance is willing to pay Redstone more for her voting control of Paramount than it will pay the nonvoting shareholders, it should also take the risk that a court will find that unfair. To get a deal done, you have to give Redstone a sweetener, and you have to let her keep it.
 
-  
-    
+
+
       Conflicts
-    
-  
+
+
 
 This is a little weird:
 
@@ -155,11 +155,11 @@ I don’t know Lewis Liman’s net worth, but he was a partner at big New York l
 Presumably not all of their money is in stocks, but still. The point is that it would be somewhat unusual for a wealthy US citizen not to have economic exposure equivalent to owning $15,000 worth of stock in one or more of the big banks. If no judge with that much exposure can hear an antitrust case against all of the big banks, then it’s possible that no judge at all can hear the case.
 Obviously that’s not right. In fact the rule requires a judge to recuse himself if he or his spouse has an “equitable interest, however small,” in a company involved in the case, but “ownership in a mutual or common investment fund that holds securities is not a ‘financial interest’ in such securities unless the judge participates in the management of the fund.” So owning an index fund that obviously owns stock in all the big banks does not count as a financial interest, but direct ownership of stock by your spouse, “however small,” even if you don’t know about it, does. 
 
-  
-    
+
+
       Canna Global
-    
-  
+
+
 
 We talked on Monday about Canna Global Acquisition Corp., a special purpose acquisition company that issued some fake shares of stock. In brief:
 	Canna Global is a SPAC with about 1 million public shares outstanding, sold in an initial public offering in 2021 for $10 each.	Those shares entitle the holders to get their $10 back with interest when Canna Global liquidates or does a merger. There is a trust account, with about $12.6 million in it, backing those shares.	Under SPAC rules, Canna Global can’t spend the trust account, or issue more shares with a claim on it.	For somewhat perplexing reasons, Canna Global did a deal with a company called Liqueous LP in which Liqueous paid roughly $1.25 million to extinguish some of Canna’s debt, and Canna “agreed to issue 1,544,531 new shares of Class A common stock to Liqueous at a future date.”	And then, Canna Global says, Liqueous turned around, tricked its transfer agent into thinking that the stock-to-be-issued-later was actual stock, got registered as a shareholder, and sold a bunch of stock to unsuspecting public investors, without disclosure. Liqueous probably cleared about $8 million dollars doing this.	The result is that there are many more shares outstanding than anyone thought, each representing a claim on a limited pot of cash. There’s something like $4.72 per share in the trust account, not the $10 plus interest that there’s supposed to be.
@@ -186,11 +186,11 @@ As the industry continues to mature, regulatory bodies are stepping up their eff
 But it doesn’t say what the swift and decisive action … is? For instance, Liqueous does not seem to be buying back the invalid shares that it sold for $8 million. Anyway here are two lawsuits against Liqueous over other deals it has done.
 Finally, a bunch of people emailed and tweeted to say “ahh, they should have used a blockchain.” I guess? Ultimately the problem here is that Canna Global (or Liqueous, or the transfer agent, or someone) created a bunch of new stock, and then didn’t tell anyone about that until it had already been sold into the market. Having an immutable public list of how many shares there are would, I suppose, have helped.
 
-  
-    
+
+
       Elsewhere in authorized shares
-    
-  
+
+
 
 When we last discussed Canna Global, I pointed out that it is not that uncommon for a company to (1) need money, (2) find potential investors who are willing to give the company money in exchange for stock, but (3) not have enough stock to give them. That was roughly Canna Global’s situation, but it comes up more often when a company’s charter says “this company can issue up to 100 million shares,” or whatever, and the company has issued 99 million and wants to issue more.
 The simplest solution, in that case, is to ask shareholders to vote to amend the charter to authorize more shares. But that takes time, and sometimes you need the money now. In that case, the less simple solution is to issue some sort of IOU for stock: “You give us the money now, and in exchange we’ll promise to give you the stock when we can get shareholders to authorize it.”
@@ -212,11 +212,11 @@ The preferred stock is being issued in connection with the equity capital raise 
 
 For reasons — its charter, but also the rules governing who can buy a bank and how — First Foundation can’t just go sell $228 million worth of common stock. But it really needs the money, and it found investors who were willing to buy the stock. So it’s giving them IOU stock instead. 
 
-  
-    
+
+
       Mouse jigglers
-    
-  
+
+
 
 I have written, and speculated on the Money Stuff podcast, about the cat-and-mouse
   [2]
@@ -232,63 +232,63 @@ Most mouse jigglers on the market are detectable, says Ilya Kleyman, Teramind’
 I wonder if Teramind eats its own cooking. When its developers build the machine-learning tools to identify repetitive cursor movements, are their keystrokes monitored? Anyway it makes sense that big companies would have better AI to catch shirking employees than employees would have to shirk, but there is a market opportunity here! Someone needs to build a robot with good enough artificial intelligence that it can pretend to work at least as convincingly as a human can. 
 If I were writing apocalyptic science fiction, my robot takeover would start with someone building an AI that is good enough at pretending to work to fool Teramind’s AI. The pretending-to-work Turing test. There is something fittingly human about it: Humans are the species that uses computers to pretend to work. And then the robots would quietly pretend to pretend to work while really they are plotting the enslavement of humanity.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Corporate Lenders Are Locking Down Protection Against Tough Times From High Rates. FTC Blocks Tempur Sealy, Mattress Firm’s Deal on Competition Concerns. The Underground Network Sneaking Nvidia Chips Into China. China’s Investment Bankers Join the Communist Party as Morale (and Paychecks) Shrink. Southwest Air Adopts Poison Pill to Counter Activist Elliott. Bezos to Sell $5 Billion of Amazon as Shares Hit Record High. JPMorgan’s Kolanovic to Exit Amid String of Poor Stock Calls. Everything Is a Canned Cocktail Now.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Based on Bloomberg’s reported S&P 500 weights (SPX Index MEMB) as of this morning.
 
 
   [2] Sorry!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -299,46 +299,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
   <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23clegvw.4sdz/dff88f34.gif" alt="" border="0" /></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A lot of this spring’s US regional banking crisis can be explained this way: Banks bought a lot of Treasury bonds and other US government-ba
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FDIC
-    
-  
+
+
 
 A lot of this spring’s US regional banking crisis can be explained this way:
 	Banks bought a lot of Treasury bonds and other US government-backed securities when interest rates were low, paying roughly 100 cents on the dollar for them.	Interest rates went up a lot, driving the prices of those bonds down to, say, 85 cents on the dollar.	Banks had big losses on those bonds, eating through a lot of their capital.	People noticed, stocks went down, deposits fled, some banks failed and others have looked shaky.
@@ -81,37 +81,37 @@ Supporters say the government would hold the securities until maturity, allowing
 The FDIC has spent billions of dollars on its bank rescues — which is also a transfer of losses from banks to the government  to make the banking system more solvent — but it is getting the money back by charging a special assessment to be paid by about 113 big  banks. If the banks pay the assessment with Treasuries that are worth 90 cents on the dollar, but that count for 100 cents on the dollar, then they get a little discount on the assessment and get to move unpleasant assets off their balance sheets.
 Why stop there? They should pay their taxes in Treasuries. Really what they should do is pay executive bonuses in Treasuries: “We’re giving you a $1 million bonus, technically it is only worth $850,000 but if you hold it to maturity it’s a million.” 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bed Bath & Beyond: beyond bankruptcy
-    
-  
+
+
 
 At some point in, let’s say, January, Bed Bath & Beyond Inc.  was no longer a viable business. It was losing money, it had a lot of debt, it was in default on that debt and couldn’t pay. It looked around for somebody to buy the company — in or out of bankruptcy — and continue operating its stores, but it couldn’t find anyone. It prepared to file for bankruptcy, with a plan to liquidate the inventory, sell what it could, and give its creditors whatever was left, which would be a fraction of what it owed them.
 And then somebody had the bright idea of, hey, why not sell a bunch of stock? Bed Bath was a meme stock, retail investors liked it, and Bed Bath could sell stock to them to raise cash to … well, to hand over to the creditors. It couldn’t sell stock to raise enough money to fix its problems and become a functional business again; that would require too much cash, and any cash that it did raise, it was contractually required to hand directly to its creditors. But if it sold a lot of stock, it would have some more cash to hand to the creditors. At this point in its life — the all-but-bankruptcy part of its life — Bed Bath was pretty much in the business of maximizing recovery for its creditors, and selling stock was a way to do that.
@@ -135,11 +135,11 @@ As far as I can tell, Bed Bath kept selling stock until very close to the time i
 Oh, reasons, sure, but honestly not that much has changed since Bed Bath last sold stock to retail investors. When it sold stock in April, things were pretty hopeless, and it warned buyers that it would probably go bankrupt and their stock would be worthless. Now it is May, things remain pretty hopeless, Bed Bath is in bankruptcy, the stock sure looks worthless, but people are still buying it. Before it filed for bankruptcy, Bed Bath was pretty ruthless about taking advantage of that demand. Why stop with bankruptcy?
 Why stop with anything? Eventually Bed Bath’s bankruptcy will conclude. Current expectations are that it will conclude with liquidating the assets and cashing out the creditors at some fraction of what they are owed. But why not leave the corporate shell around, let its stock keep trading, let it keep selling stock, and send the proceeds to creditors? Give creditors cash now, plus a residual stream of quarterly payments from stock investors, just a little tax on people who want to keep trading Bed Bath stock long after it stops making sense. Somebody somewhere will have a conspiracy theory about Bed Bath’s revival that can survive the end of the bankruptcy case. Part of the value of Bed Bath & Beyond is that it is a meme stock with retail shareholders whom harsh economic reality cannot deter from buying the stock. That value belongs to the creditors now! 
 
-  
-    
+
+
       AT1 reforms
-    
-  
+
+
 
 A tension in bank regulation is that you want people to buy the equity of banks, so that banks have lots of capital to absorb losses in a crisis so they don’t lose depositor money or require government bailouts. When there is a bank failure, you will want the equity to absorb losses: That is what it is there for, and better for equity investors — who were consciously taking risk buying the bank’s stock, and expected to do well if the bank did well and to lose everything if it went bust — to lose money than for depositors or taxpayers to lose money.
 But bank failures tend to come in waves, and you will want other banks to be able to raise lots of equity easily to shore up confidence in the system and make their failure less likely. And if the equity of this bank absorbs too many losses, people won’t want to buy stock in other banks, because they will notice how risky bank stocks are. And then the other banks won’t be able to raise capital, and the crisis will continue. We have seen a bit of this with US regional banks: Several banks were briskly seized and had their equity written down to zero, and the result is that other   regional bank stocks got crushed. And so while lots of regional banks could probably use more equity, nobody is about to go out and do a stock offering.
@@ -157,11 +157,11 @@ The price of issuing AT1 bonds is still elevated compared with levels before the
 These changes would make AT1s less loss-absorbing, which would be bad for their usefulness as bank capital, but more attractive to investors, and if nobody buys them then they’re not that useful anyway.
 Incidentally my own view of the correct regulatory response here is something like “memories in financial markets are extremely short, and any time a bond investor indignantly huffs that she will never buy some type of bond again, she’ll be buying it within a week.” You have a meeting with AT1 investors, they say “you need to make sure that these bonds can never lose money,” you nod and say “of course, of course,” you wait six minutes, you forget all about it. I am not sure that will work here but I don’t think I’d bet against it.
 
-  
-    
+
+
       Elsewhere in Credit Suisse AT1s
-    
-  
+
+
 
 When Credit Suisse’s additional tier 1 capital securities were zeroed in March, its subordinated bonds were not. The subordinated bonds were fine, they are still outstanding, and Credit Suisse (which is being acquired by UBS Group AG) is still paying them. Intuitively, the way to describe this is something like “the subordinated bonds are senior to the AT1s, so the subordinated bonds get paid before the AT1s do.” And in fact it was and is fairly standard to describe the capital structure of Credit Suisse — or any other big European bank — by saying that AT1s are below subordinated bonds, which are below senior unsecured bonds, etc.
 There are credit default swaps outstanding on Credit Suisse’s subordinated bonds. These swaps would be triggered, and would pay off, if the subordinated bonds were written down, but those bonds were not written down. They would also be triggered, though, if any Credit Suisse bonds that are “not subordinated to” those bonds were written down. The AT1s were written down. Were the AT1s “not subordinated to” the subordinated bonds? Obviously they were subordinated, in a practical sense — they were written down and the bonds were not! — but the documents are a little ambiguous and these things thrive on technicalities, so some hedge funds bought CDS on the sub bonds and   claimed it was triggered. Today they lost:
@@ -171,11 +171,11 @@ The Credit Derivatives Determinations Committee (CDDC) determined at a meeting o
 
 Of course, but weirder things have happened and it was worth a shot.
 
-  
-    
+
+
       Going Infinite
-    
-  
+
+
 
 One thing that I have found, in writing about finance for a long time, is that financial scandals, crimes and disasters are more fun to write about than stuff going well. Part of this is that the scandals often have stakes and drama, while everything going fine does not. Part of it is that much of normal finance is secretive — if you have a good investment strategy or product you are not necessarily going to explain how it works — while the scandals tend to produce lots of public information, in the form of court filings. Part of it is that the scandals are often pretty funny; frauds tend to play on interesting quirks of human nature and financial markets, and also the people doing the fraud often send each other entertaining emails about it.
 And so, when some big financial scandal happens, am I a bit gleeful? I am. Do I feel bad for the people who have lost their life savings in the fraud, and the people who might go to prison for doing it? I do. But I am gleeful for me.
@@ -188,11 +188,11 @@ He’s the ideal subject. He’s locked up in his house an hour from my house wi
 
 He’s not wrong.
 
-  
-    
+
+
       Salad robots
-    
-  
+
+
 
 In 10 years, do you think it is more likely that the food service industry will have been entirely replaced by robots, or the financial services industry?
   [4]
@@ -203,15 +203,15 @@ The exact dispensing mechanism is a matter of strict secrecy, and I’ve sworn t
 
 It does kind of feel like, in terms of difficulty for robots, synthesizing and analyzing all of human knowledge to predict the future of financial markets might be easier than gently distributing delicate cheeses. They’re getting there with the cheeses.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS details lower than expected $35bn gain from  Credit Suisse rescue. Biden ‘Confident’ on   Reaching Debt Deal as He Heads to Japan.  Venture-Fund Returns Show Worst Slump in More Than a Decade. Wall Street’s Biggest Banks Face a Harsh   Reality Check in China. Two Trading Apps That Allowed Chinese Citizens to Invest Overseas Get Pulled From China. $730 Billion   Saudi Fund Hires Goldman, Point72 Executives for New York Unit. Theranos Founder  Elizabeth Holmes’s Request to Stay Out of Prison Denied. Citadel Securities Alleges Former Employees   Stole Trade Secrets. Brew Another Pot, Robinhood’s   24-Hour Stock Trading Is Here.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The government-bonds stuff is *most* true of Silicon Valley Bank; some other big rickety banks (like First Republic Bank) had more trouble with interest-rate risk in the loan book. But probably everyone would be *helped* if their bonds went back up.
 
 
@@ -224,48 +224,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Don’t tell me about the financial blogging industry.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -276,46 +276,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cirgbr.5n9j/89b55e2b.gif" alt="" border="0" /></a>

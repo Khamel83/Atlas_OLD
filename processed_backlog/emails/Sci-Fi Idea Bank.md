@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/sci-fi-idea-bank
 
-Welcome to the 1,216 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 210,510 smart, curious folks by subscribing here: 
+Welcome to the 1,216 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 210,510 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Percent [ https://link.sbstck.com/redirect/ea0981eb-e42d-46a4-ba0f-9bb2fe589569?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 The alternative asset you probably haven't yet considered: Private credit. [ https://link.sbstck.com/redirect/ea0981eb-e42d-46a4-ba0f-9bb2fe589569?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 While the traditional 60/40 portfolio has fallen short over the past few years, private credit is currently offering double digit yields to investors, while being less-correlated to the market. 
@@ -20,13 +20,13 @@ Liquidity: Many deals mature in months, not years, with some having liquidity av
 Recurring income: Generate passive income during the lifetime of the deal
 Low Minimums: Invest as little as $500 to start
 Not Boring readers can receive up to a $500 bonus with their first investment. 
-Hi friends 👋, 
-Happy Tuesday! 
-Back in 2021, I tweeted [ https://link.sbstck.com/redirect/7d423464-1173-4b19-b6bf-b10ee714051f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], “The only way to not be totally flummoxed by everything that’s going on right now is to have read a lot of sci-fi.” That’s even more true now than it was then. 
-If you don’t read much sci-fi, the speed of technological progress can seem overwhelming. There are so many new things, and they’re coming so quickly. 
-If you do read a lot of sci-fi, though, your reaction to each new announcement might be: “What took you so long?” 
-One way to look at progress in tech is that we’re just working our way through ideas that sci-fi writers came up with a long time ago. So a bank of those ideas might be a roadmap to the future and a compass for those who want to build the sci-fi futures we were promised. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Tuesday!
+Back in 2021, I tweeted [ https://link.sbstck.com/redirect/7d423464-1173-4b19-b6bf-b10ee714051f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], “The only way to not be totally flummoxed by everything that’s going on right now is to have read a lot of sci-fi.” That’s even more true now than it was then.
+If you don’t read much sci-fi, the speed of technological progress can seem overwhelming. There are so many new things, and they’re coming so quickly.
+If you do read a lot of sci-fi, though, your reaction to each new announcement might be: “What took you so long?”
+One way to look at progress in tech is that we’re just working our way through ideas that sci-fi writers came up with a long time ago. So a bank of those ideas might be a roadmap to the future and a compass for those who want to build the sci-fi futures we were promised.
+Let’s get to it.
 Sci-Fi Idea Bank
 Over the weekend, I built a spreadsheet with 3,567 sci-fi ideas, a Sci-Fi Idea Bank [ https://link.sbstck.com/redirect/f033ef67-9d6a-4d88-99d9-605846115bd4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], using the best website on the internet [ https://link.sbstck.com/redirect/88f7e1e4-8f90-4cae-9cc9-a7bd2a85cc7c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and a team of AI research assistants. I hope it can be a starting point for people who want to bring sci-fi to life, because:
 Ideas for new technologies almost always appear in sci-fi before they show up in real life. 

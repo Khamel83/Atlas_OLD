@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I guess there are three ways to look at this: Reddit plans to place a big chunk of its IPO shares in the hands of its users, an unusual move
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Reddit IPO
-    
-  
+
+
 
 I guess there are three ways to  look at this:
 
@@ -77,37 +77,37 @@ The third is the   meme-stock corporate finance view. Most companies are mostly
 Lots of corporate executives want nothing to do with this, but some executives   lean into it. And why not? Sometimes companies (1) need to raise money (because their business is in trouble) and (2) can’t do the traditional things that make investors happy (because their business is in trouble). Having some source of funding that is orthogonal to traditional business success seems like a good insurance policy: “If our business ever gets into trouble and we need money, we can always make some jokes with our retail investors and they’ll give us the money.” 
 Not every company can get meme-stock investors. But you know who probably can? The whole idea of meme stocks originates with Reddit; Reddit’s boards are where the great meme stocks were created; Reddit is where the online communities of investors are. Surely Reddit has some advantages in appealing to retail investors on Reddit. It might as well get some of them in its stock early.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Nvidia 13F
-    
-  
+
+
 
 Last Wednesday, Nvidia Corp. filed a  Form 13F with the US Securities and Exchange Commission disclosing what stocks it owns. The list is short — five names — and includes a $147 million stake in Arm Holdings Plc, $3.7 million worth of a small artificial intelligence company called SoundHound AI Inc. and $379,856 worth of a small medical device company called Nano-X Imaging Inc. The day after that filing, the stocks of SoundHound and Nano-X soared, because   Nvidia is “the most important stock on planet earth,” and if Nvidia wanted SoundHound and Nano-X stock then so did a lot of other people. 
 We   talked about this last week. The oddity of it is that all of this was public information already, more or less. Nvidia invested in SoundHound in 2017. SoundHound put out a  press release touting the investment, and Bloomberg News   covered it. When SoundHound went public in 2022, it  again boasted that it had Nvidia as an investor. Nano-X was a   more complicated trail: Nvidia also invested in a company called Zebra Medical Vision in 2017 (here’s  the press release, naming Nvidia as an investor), and Nano-X acquired Zebra in 2021 in an all-stock deal (here’s the  press release). So you could have read those press releases and thought “well, Nvidia bought shares in Zebra, those shares got swapped for shares in Nano-X, so Nvidia owns some Nano-X now,” and you’d have been right. You could have been wrong — Nvidia could have dumped those shares after the acquisition — but you would have been right.
@@ -133,11 +133,11 @@ Sure right that was the bet, and it was correct. But how did they know to bet o
 I hope someone in Nvidia’s legal department bought a ton of short-dated SoundHound call options yesterday! What a fun insider trading case that would be. If you knew that Nvidia was about to re-disclose its stake in SoundHound, was that material nonpublic information? It was kind of public already. And yet it moved the stock.
 Right? The news about Nvidia’s investments in Nano-X and SoundHound was both public and immaterial, and yet it quite predictably moved the stocks. And is it more likely that someone bought these options because they saw the draft 13F a week before it was filed, or because they remembered the Zebra Medical fundraising deal in 2017 and the Nano-X/Zebra acquisition in 2021 and realized that the Arm IPO would trigger an Nvidia 13F?
 
-  
-    
+
+
       Three Arrows
-    
-  
+
+
 
 Two things that were true about the recent crypto boom are:
 	People were very enthusiastic about a lot of very transparently dumb ideas, so crypto entrepreneurs could raise a lot of money from people for very stupid purposes without lying to anyone at all, and	Also a lot of crypto entrepreneurs raised a lot of money from people by lying to them.
@@ -159,74 +159,74 @@ And also their plans for the future, which started with OPNX, which was supposed
 Zhu and Davies had already moved on to a new idea. This was also an exchange — one they were calling OX.Fun. But this time they would not trade creditor claims but rather crypto tokens. So far, the tokens they’ve announced are of the exchange’s own making with names like OX and Milk and Autism. “$OX is an ecosystem, economy, community,” Davies wrote on X after OPNX announced it would shut down. Zhu later elaborated: “Ox.fun is a revolutionary new design for gamified perps trading, collat and profit/loss are entirely in OX, you earn high yields for completing missions, and you earn MILK when you realise losses.” 
 “If this reads like nonsense to you, you are not alone,” writes Wieczner, but that's the point! It’s not lies, it’s nonsense. The pitch is that you can trade nonsense, in a “gamified” way, and earn more nonsense when you lose money on your nonsense trading. It’s “hey, if you want to blow your money on something dumb, we’ve got something dumb for you.” That has worked for them before!
 
-  
-    
+
+
       Ethics
-    
-  
+
+
 
 I have joked a few times that you can get an entire financial education just by following what Elon Musk gets up to. When I run a business school, there will be courses on the   Elon Markets Hypothesis (“the way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk”), and students will   learn about mergers and acquisitions by studying Musk’s variously troubled deals, and of course there will be an   executive compensation class. 
 But a reader pointed out that Musk is already part of the chartered financial analyst ethics curriculum. Or someone very much like him, anyway. Here’s a case study from the CFA Institute’s  Ethics in Practice casebook:
 Allen Brodeur is CEO and Chairman of the board of Questla, a multibillion dollar company that makes electric cars. Brodeur and Questla disclose to the public and regulators that the company will use Brodeur’s personal Twitter account to disseminate information to Questla investors and the investing public. In the midst of media reports that the company was having difficulty producing and delivering its cars to buyers, Brodeur posts a tweet stating that the company is “considering taking Questla private at $420 a share. Funding is secure.” 
 It goes on to tell more of  the story, and concludes that “Brodeur’s actions are … inappropriate because the tweet was a misrepresentation of the facts,” and that “CFA Institute members must not knowingly make any misrepresentation relating to professional or investment activities.” I don’t know what it means that CFA candidates are learning ethics by being told to do the opposite of what Elon Musk does.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Private Equity   Payouts at Major Firms Plummet 49% in Two Years. Private equity turns to  new fundraising tactics in tough market. The Man Who Tamed the World’s  Most Troubled Bank. Wall Street Brokers Are Coming for the Hot  Retail-Options Trade. How Wall Street banks fought to keep control of a  profitable but secretive trading business.  Barclays Leans Away From Wall Street in Overhaul Plan. HSBC’s Profit Sinks on $3 Billion   Charge at Chinese Bank. HSBC Sets Rare   CO2 Targets for Its Capital Markets Bankers. Seizing   Frozen Russian Assets Over Ukraine War Wins Endorsement of Legal Experts. US   Mortgage Rates Jump Above 7% for First Time Since December. Crypto hedge fund accused of  ‘criminal’ mismanagement in dispute over FTX. Washington girl wears  45 sweaters at the same time to break record.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] “Crypto solves this,” some rapidly dwindling number of readers are thinking. “Blockchains solve the same problems that other digital services solve, but with better outcomes,” writes Chris Dixon. “They can connect people in social networks, while empowering users over corporate interests. They can underpin marketplaces and payment systems that facilitate commerce, but with persistently lower take rates. They can enable new forms of monetizable media, interoperable and immersive digital worlds, and artificial intelligence services that compensate — rather than cannibalize — creators and communities.” And when you find a blockchain-based social network whose users share in its value, *and that is as popular as Reddit*, you let me know.
 
 
   [2] Nvidia was one of  10 cornerstone investors, and by market cap it was one of the bigger ones; Nvidia disclosed that the cornerstone investors put in orders for $735 million of stock between them. So if you figure the cornerstone investors put in an average of $73.5 million each — the $735 million total divided by 10 — then it would be weird for Nvidia to put in *less* than that average. If Nvidia bought $73.5 million of stock at the $51 IPO price, then by Dec. 29, 2023 — the  measurement date for Nvidia’s Form 13F obligations — that stake would be worth about $108 million, since Arm’s stock had gone up to $75.145. There are holes in that reasoning (“any of the Cornerstone Investors may determine to purchase more, fewer, or no ADSs in this offering, or the underwriters may determine to sell more, fewer, or no ADSs to any of the Cornerstone Investors,” said Arm’s disclosure), but it’s pretty plausible.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -237,46 +237,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckhv5n.5ilj/c5fd2e72.gif" alt="" border="0" /></a>

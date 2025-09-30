@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         You know my theory: Every bad thing that a public company does is also securities fraud. If there is a data breach or sexual harassment or a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is bank fraud
-    
-  
+
+
 
 You know   my theory: Every bad thing that a public company does is also securities fraud. If there is a data breach or sexual harassment or animal mistreatment or pollution at a company, and the public finds out about it and the stock goes down, then someone will sue the company, arguing that it defrauded shareholders by leading them to believe that there wouldn’t be a data breach or sexual harassment or whatever. And this theory is weird, and people sometimes say “wait shouldn’t securities fraud be for, like, accounting misstatements, not sexual harassment?” But it is a little hard to articulate a limiting principle. If a company convinces investors that it is good, but it is in fact bad, then it has defrauded them, and badness is not limited to accounting.
 Once you have mastered this basic idea, you can apply it to other laws. For instance, every bad thing that a company does is also bank fraud, if the company has ever borrowed money from a bank. The  Wall Street Journal reports:
@@ -90,89 +90,89 @@ The government wants you to do this. Their first choice would be you not commit
 
 Same idea with workplace safety violations.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Mango
-    
-  
+
+
 
 A lot of stuff happens in crypto markets that, if it happened in the stock market, would obviously be securities fraud. There is insider trading in crypto tokens. There is market manipulation. There are pump-and-dumps. All the standard illegal stuff that happens in stock markets also happens in crypto markets.
 There is a fairly popular view in crypto that it is not illegal when it happens in crypto, that crypto markets are governed by their own rules, that “code is law,” that if you do a thing that is not explicitly forbidden by the terms of the crypto platform you are using then no government should have any authority to stop you. This is not the only view in crypto — a lot of people disagree — but it is a view. It is not, I think it is safe to say, the view of US federal prosecutors. Their view is that this stuff is all just as illegal in crypto markets as it is in the stock market, that it is fraud, and that if it catches their attention they can and will bring criminal cases. And so   they do.
@@ -197,20 +197,20 @@ U.S. investors were purportedly ineligible to participate in this MNGO token sal
 
 See, really Eisenberg was a victim of Mango’s fraud: They sold him securities without proper disclosure and registration. And then he manipulated them.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 I was trained as a sell-side public-company mergers-and-acquisitions lawyer, and I suppose if there is one most important lesson that I learned in that training, it was: Make sure you collect your fee. The problem with public-company M&A is that, when a merger closes, the target company disappears; it becomes a unit of the buyer, and the buyer controls its checking account. The target’s advisers — its bankers and, usually, its lawyers — get paid a fee that is contingent on the deal closing, which means that they get paid at or after the time the deal actually closes. Meaning that, technically, the buyer pays their fees. What if he doesn’t?
 So there’s   that time that Warren Buffett offered to pay $850 per share to buy Alleghany Corp., then reduced the price to $848.02 when he realized how much he’d have to pay for Alleghany’s bankers. The bankers got paid, but it was awkward, since their fee so directly and publicly reduced the price that shareholders got.
@@ -223,11 +223,11 @@ Charles River Associates sued Twitter on Thursday in state court in Boston. The 
 
 Yeah I mean, they were hired to testify against him at trial, and then he didn’t go to trial! Why would he want to pay them?
 
-  
-    
+
+
       ESG
-    
-  
+
+
 
 There are, I think, three reasons that you might run an investment fund focused on environmental, social and governance factors:
 	You think that ESG investing produces higher long-term returns than non-ESG investing, because it properly accounts for ESG-related risks. So, to maximize financial returns for your clients, you do ESG.	You think that ESG is the right thing to do, that investing in companies with good ESG scores and avoiding ones with bad scores will make the world a better place. So, to pursue your own personal moral goals — which you hope your clients share — you do ESG.	You think that ESG is a good marketing gimmick, since a lot of money has flowed into ESG in recent years. So, to maximize assets under management and fees, you do ESG.
@@ -236,126 +236,126 @@ Here is a fun paper by Vitaly Orlov, Stefano Ramelli and Alexander Wagner titled
 What do asset managers believe regarding the financial performance of Environmental, Social, and Governance (ESG) investment strategies? We address this question by exploring the relationship between fund managers’ co-ownership and portfolio ESG performance. Managers with more “skin in the game” exhibit significantly lower ESG performance in funds they manage than their peers. ESG performance is sensitive to changes in managerial ownership. Co-investing managers were less likely to increase their stake in high-ESG stocks after an exogenous shock in ESG-driven fund flows. Moreover, the negative effect of managerial ownership on ESG performance is stronger for managers paid to maximize assets under management, and weaker for managers paid exclusively to maximize financial returns. Overall, the results are contrary to what one would expect if managers really considered ESG strategies an enhanced form of portfolio management.
 Yes, but they are also contrary to what one would expect if managers ran ESG funds out of deep personal moral commitment to sustainability goals: If you really believe in ESG as a way to get rich, or as a way to improve the world, wouldn’t you both invest your personal wealth in your ESG fund and get a good ESG score? On the other hand if you really believe in ESG as a way to attract assets and charge high fees, you’d probably put your own money somewhere else.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Brazil and Argentina to start preparations for a  common currency. Banks Plan  Payment Wallet to Compete With PayPal, Apple Pay. Citadel’s   $16 Billion Win Tops Paulson’s Greatest Trade Ever. Activist Elliott Takes Multibillion-Dollar   Salesforce Stake. Federal Reserve Probes Goldman Consumer Business. Russia’s Biggest Firms Bypass Wall Street to   Service Debt Sold Before Sanctions. Investors   Watch Bukele’s Twitter as El Salvador Bond Matures. UniCredit chief Andrea Orcel slashes  bill for consultants. Robert Smith Scours Globe for $20 Billion Comeback   After Tax Case. Even   ‘Sam Coins’ Have Soared in Crypto’s Swift $250 Billion Jump. FTX Judge Backs  Company Law Firm, Rejecting Last Minute ‘Rumors.’ Ex-FTX US President Harrison Taps Coinbase, Circle for  New Crypto Firm. Elon Musk  Sold Tesla Shares Before Company Acknowledged Weakness. Juventus Hit with 15-Point Slam for   False Accounting. South Africa Seeks State Power Chief After CEO  Says He Was Poisoned. Bill Ackman takes stake in Bremont after  buying its wrist watches. Wind Turbines Taller Than the Statue of Liberty Are   Falling Over. Experience: I ate  40 rotisserie chickens in 40 days. M&M’s Ditches ‘ Spokescandies’ After Tucker Carlson Complained About Their Sexiness.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Which it should, really: The bankers provided their service to the target shareholders, so the shareholders should pay. And in a sense they always do, in the form of a reduced purchase price; if targets never hired bankers then acquirers could pay a bit more for the targets by not budgeting for bankers’ fees. But usually nobody *talks* about this, so it *seems* like the bankers’ services are free to the target’s shareholders and paid for by the buyer.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

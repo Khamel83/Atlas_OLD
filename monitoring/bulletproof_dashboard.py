@@ -12,7 +12,7 @@ def generate_dashboard():
     """Generate system dashboard data"""
     manager = get_manager()
     status = manager.get_status()
-    
+
     dashboard = {
         'timestamp': str(status['timestamp']),
         'system_health': check_system_health(),
@@ -27,7 +27,7 @@ def generate_dashboard():
         },
         'circuit_breakers': status['circuit_breakers']
     }
-    
+
     return dashboard
 
 if __name__ == "__main__":
@@ -38,5 +38,5 @@ if __name__ == "__main__":
         print(f"Processes: {dashboard['processes']['running']}/{dashboard['processes']['total']}")
         print(f"Memory: {dashboard['resources']['memory_mb']:.1f}MB")
         print(f"CPU: {dashboard['resources']['cpu_percent']:.1f}%")
-        
+
         time.sleep(10)

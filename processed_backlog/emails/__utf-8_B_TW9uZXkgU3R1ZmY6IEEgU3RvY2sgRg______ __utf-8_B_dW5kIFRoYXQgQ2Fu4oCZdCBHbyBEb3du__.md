@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        A well-known bit of derivatives magic — a great, simple party trick that derivatives structurers can use to impress their friends — is that 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        A well-known bit of derivatives magic — a great, simple party trick that derivatives structurers can use to impress their friends — is that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Buffer fund
-    
-  
+
+
 
 A well-known bit of derivatives magic — a great, simple party trick that derivatives structurers can use to impress their friends — is that if you give me $100 today, I can invest $91 of it in two-year Treasury notes paying 4.75% interest, and in two years I will have $100.
   [1]
@@ -92,37 +92,37 @@ Of course as interest rates have gone up, products like this are in some sense 
   [6]
  But that’s not the point! The point is that a trade like “I will give you some stock upside and take 75% of the downside between down 5% and down 20% blah blah blah” is annoying and complicated, while “I will give you the upside of stocks and you can’t lose any money” is nice and simple and intuitively attractive. “Buffer fund” is complicated, “stock fund but you can’t lose money” has an obvious appeal.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Fisker
-    
-  
+
+
 
 Fisker Inc. is an electric-vehicle company. It went public by merging with a special purpose acquisition company in 2020, back in the electric-vehicle-SPAC boom; its stock got as high as $28.50 per share (a market capitalization of about $7.9 billion) in 2021 but closed yesterday at $6.55 ($2.2 billion). It “has yet to generate  any significant revenue from its core business operations,” lost about $547 million last year and “expects to continue to incur significant operating losses for the foreseeable future.” It had $652 million of cash as of March 31.
 People love electric-vehicle stocks, or at least they used to, so Fisker tops up its cash by selling stock. Last year it announced an  at-the-market offering in which it would sell up to $350 million of stock, on the stock exchange, at market prices; it  terminated that offering last week after selling about $327 million of stock. It replaced that plan with a new, far more complicated plan to sell between $340 million and $680 million worth of stock. (Here is  the 8-K announcing this plan, and here is  the prospectus.) It goes something like this:
@@ -144,11 +144,11 @@ In other words, this is kind of an at-the-market stock offering, except that F
  and the investor gets a fee of something like 20% for its efforts (and for advancing the cash).
 If this sounds familiar, it is broadly similar to     the trade that Bed Bath & Beyond Inc. did earlier this year to sell stock. In each case, there is a weird instrument that looks like a convertible security, and a big “investor” who is buying most or all of it. But in each case, the buyer is not really set up to be a long-term investor in the company: The investor is getting the stock in installments, at a discount to market value, and selling each installment to retail investors on the stock exchange. And the investor is getting paid a nice fee for structuring the trade, giving the company the money upfront, and generally obscuring what is happening. “We are selling $365 million of stock to retail investors to raise $300 million” just sounds less good than “we are selling a $340 million convertible with a 30% conversion premium to a big investor.”
 
-  
-    
+
+
       Co-invests
-    
-  
+
+
 
 If you are a big sovereign wealth fund, private equity firms will call you up a lot to ask you to invest in their new fund. “Give us $1 billion,” they will say, “and we will invest it in the deals we pick and charge you a 2% fee plus 20% of profits.” And you might counter: “No, you go pick the deals and bring them to us, and if we like them we will invest in them, and if we don’t we won’t, and either way we won’t pay you a fee.” And then you’ll   negotiate a compromise:
 As private equity fundraising becomes more difficult, [sovereign wealth funds are] asking for guaranteed access to deal flow in return for providing capital to a new fund, according to industry participants. This extra money they provide on the side for co-investments usually has the added benefit of not being subject to management fees.
@@ -161,11 +161,11 @@ A senior executive at a top global sovereign fund said they’re encouraging buy
 
 In principle, the private equity funds could do bigger deals, and the SWFs could get their higher private equity allocations, if the SWFs just invested more money in the private equity funds to begin with. But that means more fees and less flexibility for the SWFs, and if you have a lot of money you do not need to “feel limited to small minority investments with passive governance rights.” 
 
-  
-    
+
+
       Congressional stock ownership
-    
-  
+
+
 
 Well  this is popular:
 
@@ -184,11 +184,11 @@ I suppose the objections are:
 	It is nice to be able to attract accomplished people to government service, and some number of accomplished people will have a lot of stock in their former employers that they are unable or unwilling to sell. (Or: Their spouses might own a lot of stock that they can’t or won’t sell.)	A lot of the “inside information” that government officials get is fairly macroeconomic, and so can be misused by trading index funds. If you got   bad top-secret news about the severity of Covid-19 before everyone else did, you could have been crafty and sold cruise-ship stocks while buying teleconferencing stocks, but just dumping all of your index funds would have worked fine too.
 
 
-  
-    
+
+
       Terra
-    
-  
+
+
 
 Sure, I don’t know,  whatever:
 
@@ -211,15 +211,15 @@ Wang was the chief operating officer of FTX and co-chief executive officer of FT
 
 On the one hand, which of FTX’s operations were good? On the other hand, sure, why not? If you are a crypto venture capital firm, one of your main risks is investing in a giant fraud. If you hire someone who worked at an alleged giant fraud, she might be helpful in due diligence.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Goldman Profit Tumbles on Real Estate Hits, Dealmaking Slump. Banks Notch Up   LBO Deal Wins From Private Credit Firms. US banks under pressure as  corporate depositors demand higher rates. Carvana Soars After Reaching Debt Restructuring Deal. Big Four Accounting Firms Pare Their  Consultant Ranks in Postpandemic Reversal. How Dubai became ‘the new Geneva’ for  Russian oil trade.   Activision Gives Microsoft More Time to Close $69 Billion Deal. Taylor Swift Hires New  General Counsel in Rare Shuffle to Her Top Brass. “An influential group of senior employees strongly prefers the option of  working from home at least part of the time.” “ Lounge access has become table stakes.” FBI Raids NYC’s Posh Wine Retailer   Sherry-Lehmann. Taco John’s, Taco Bell Terminate ‘ Taco Tuesday’ Trademark Tussle. “Who was  the last person to murder two billionaires at once, and have them pay for the privilege?”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not precise but you know what I mean, $91 x (1.0475)^2 = 100ish. Really you’d do this with STRIPS to avoid reinvestment risk.
 
 
@@ -229,13 +229,13 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Again, those $4,550 and $4,600 June 2025 calls seem to trade at about $570, from Bloomberg, so in the neighborhood of 12.5% of notional; I am rounding up. June 2025 call options on SPY, the S&P 500 exchange-traded fund, seem to be at about $60 for the $455 strike (roughly today’s spot price), or about 13.1% of notional. These numbers are not meant to be all that precise.
 
 
-  [4] I mean two obvious quibbles are (1) if you buy stocks, you get not only the price return but also the dividends; the S&P 500 has about a 1.5% dividend yield, and (2) if you *don’t* buy stocks, you get a 4.75% yield on Treasuries, so your risk-free investment pays you like $110 in two years. If stocks are down, this trade is worse than just buying Treasuries, and if stocks are up this trade is worse than just buying stocks, and if stocks are flat this trade is worse than any mix of buying stocks and buying Treasuries. 
+  [4] I mean two obvious quibbles are (1) if you buy stocks, you get not only the price return but also the dividends; the S&P 500 has about a 1.5% dividend yield, and (2) if you *don’t* buy stocks, you get a 4.75% yield on Treasuries, so your risk-free investment pays you like $110 in two years. If stocks are down, this trade is worse than just buying Treasuries, and if stocks are up this trade is worse than just buying stocks, and if stocks are flat this trade is worse than any mix of buying stocks and buying Treasuries.
 
 
   [5] If I just look at June 2025 call options on SPY, the $455 strike (roughly today’s price) costs about $60, and the $525 strike (roughly up 15%) costs about $20, per Bloomberg (SPY US Equity CALL). So the net cost of the call spread — buy the at-the-money, sell the up 15% — is about $40, or about 8.8% of notional, which is pretty much what I’d have left over after putting 91% of your money into Treasuries.
 
 
-  [6] Also the cap is less attractive with higher rates. If the two-year risk-free rate is 4.75% and the equity risk premium is 6%, then over two years the expected return on the S&P 500 is something like 22.7%, meaning that your capped 15% return would be disappointing. 
+  [6] Also the cap is less attractive with higher rates. If the two-year risk-free rate is 4.75% and the equity risk premium is 6%, then over two years the expected return on the S&P 500 is something like 22.7%, meaning that your capped 15% return would be disappointing.
 
 
   [7] The floor price is not stated in the prospectus, but the prospectus covers “up to 293,103,448 shares of Class A Common Stock issuable from time to time upon conversion or otherwise under the Notes, assuming conversion at a conversion price equal to the Floor Price,” and if you divide $340 million by 293.1 million you get about $1.16.
@@ -247,54 +247,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] That is, the $340 million face amount times 103% of face amount for cash amortization payments.
 
 
-  [10] Actually the stock has to get to about $8.39 for this to be a good deal for the investor: Converting at $7.80 per share gets you 43.6 million shares ($340 million divided by $7.80), whereas converting at 93% of market value gets you $365.6 million worth of stock, and $365.6 divided by 43.6 is $8.39. 
+  [10] Actually the stock has to get to about $8.39 for this to be a good deal for the investor: Converting at $7.80 per share gets you 43.6 million shares ($340 million divided by $7.80), whereas converting at 93% of market value gets you $365.6 million worth of stock, and $365.6 divided by 43.6 is $8.39.
 
 
   [11] This gives it a bit more certainty of proceeds than a regular ATM would give it: If the stock goes way down, it still has the money. But not much more: There are a lot of conditions and covenants, and if the stock does go way down there’s a decent chance Fisker will have to pay the investor back in cash rather than stock. There is also a covenant that Fisker “ will maintain a balance of available cash (as defined in the Notes) equal to or greater than $340,000,000,” so it can’t exactly blow through all the cash it raised before the two-year period is up.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -305,46 +305,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj4njn.5o0n/aa9234f1.gif" alt="" border="0" /></a>

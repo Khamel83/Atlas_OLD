@@ -53,7 +53,7 @@ A collector who was in the room at Christie’s told me that
 all of the works were purchased by one buyer. (Christie’s wouldn’t comment, citing client confidentiality.) The same collector saw billionaire Magritte buyer Ken Griffin make a rare appearance at an auction. Would the sky lord of finance hoover up three Delvauxes in one fell swoop? Possibly. But there’s a greater chance Griffin showed up at Christie’s to bid on a Michael Andrews painting that he was seen discussing with specialists, and which sold for a record
 £6 million in the 20th/21st sale just before.
 
- 
+
 
 Anthony Caro’s Art to Appear at Christie’s in May
 -----------------------------------------------------
@@ -115,7 +115,7 @@ in the lot description as a work on paper instead of a painting, which demoted i
 Regardless, the Times didn’t capture this nuance, which didn’t fit their sky-is-falling narrative. The artists’ markets experienced a downturn, for sure, but it was more of an undulating downhill than a cliff. The article, in fact, may
 have even created a bit of a self-fulfilling prophecy. “We’ve seen fewer ultra-contemporary artists coming to auction,” said Patrizia Koenig, a contemporary art specialist at Phillips, at a panel hosted this week by the Artists First Collective. “Clients are less willing to take the risk now.” No wonder these artists want to join forces.
 
- 
+
 
 Endnotes…
 -----------
@@ -150,6 +150,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVcyi8OfjinOs3rtoOTJs=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F7%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

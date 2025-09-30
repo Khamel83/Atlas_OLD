@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Probably Donald Trump should have just issued a crypto token, called it “DJT,” gone around saying “this is the crypto token of me, Donald Tr
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Trump SPAC
-    
-  
+
+
 
 Probably Donald Trump should have just issued a crypto token, called it “DJT,” gone around saying “this is the crypto token of me, Donald Trump,” kept 90% of it for himself, and let it trade. People who like Trump would buy it, it would go up, his stake would be worth billions of dollars, and he could sell tokens to raise money for himself. Just a straightforward memecoin. I suppose the problem with this is that Trump has a lot of older, less crypto-native fans, and this would not be an effective way to tap them for money.
 But you can get arbitrarily close to this — while attracting a more traditional investor base — by issuing a stock called DJT, and Trump did. DJT — the ticker symbol of Trump Media & Technology Group Corp. — is a meme stock with a market capitalization, as of yesterday’s close, of about $7 billion. It is the stock token of him, Donald Trump, and he owns about 58% of it. People who like Trump bought it, it went up, his stake is worth billions of dollars, and he will eventually be able to sell shares to raise money for himself, though there is a six-month lockup. 
@@ -82,37 +82,37 @@ Here is the complaint, which basically alleges that Litinsky and Moss — “fo
 But I think that the broader point here is that Litinsky and Moss were hired to set up TMTG’s rather small and speculative business, and it is absurd to reward them with 8.6% of DJT’s much larger meme stock. My favorite part of the complaint is not actually in the complaint, but in the exhibit at the end, in which Trump’s lawyers reproduce the Services Agreement between him and Litinsky and Moss. It just has a very small-business feel, you know? Their role included “ensuring that TMG becomes an established entity registered under the laws of the state of Delaware … and creating and implementing a strategic plan to identify, exploit, and commercialize targeted media and technology opportunities in social media, internet infrastructure, podcast, digital streaming, mobile apps, book publication, and television production.” There was not much vision; their job was to set up the company and look around for something for it to do.
 A schedule to the agreement lists “guidelines for reimbursable expenses.” Litinsky and Moss were entitled to reimbursement for “economy, coach or supersaver fares” on flights and trains, though “21-day advance purchase is expected, when possible.” Reasonable hotel bills were reimbursable, "where under $150.00 per night is typically reasonable for most cities.” Laundry and dry cleaning were “not normally reimbursed for planned trips of less than 1 week.” They had to submit receipts for “any individual expenditure of $10.00 or more.” This is not Facebook Inc.’s charter, is what I am saying here. This is “set up a small business for me, but don’t spend more than $150 a night on hotels.” And now they might get $600 million!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hunterbrook
-    
-  
+
+
 
 I wrote yesterday that Hunterbrook, the hedge fund that is also a newspaper, is a sort of salary arbitrage. Hunterbrook Media is a news organization that employs reporters to write investigative stories, and then it gives those stories to Hunterbrook Capital, its affiliated hedge fund, to make trades before the stories are published. If the stories are right and market-moving, then the hedge fund will make money, which it can use to pay for the news organization. I wrote: “It is expensive to hire hedge fund analysts to investigate companies all over the world. It is cheaper to hire journalists!”
 But Hunterbrook also has another, much funnier expense arbitrage. It goes like this:
@@ -133,11 +133,11 @@ The consequences to UWM’s borrowers have been devastating. UWM rarely offered 
 
 Presumably Boies Schiller plans to get paid.
 
-  
-    
+
+
       Blue Owl
-    
-  
+
+
 
 My stupid story of private credit is:
 	Once upon a time, there were insurance companies, which had long-dated liabilities (annuities, life insurance) and funded them by buying and holding corporate bonds. This was a boring business: You bought the bonds, you literally clipped literal paper coupons to collect interest, and eventually the bonds matured and you got your money back in time to pay your liabilities.	Then Bill Gross, a guy clipping coupons in the bond department at an insurance company, invented bond trading. It turned out that you could make more money by buying undervalued bonds and selling overvalued ones than you could by just buying and holding to maturity.	This became a big business that was entirely separate from insurance: People (prominently including Gross) set up big bond investment companies that actively managed bond portfolios on behalf of clients, insurers and endowments and mutual funds and others.	Over time, the bond market became more efficient: All this liquidity and competition probably lowered borrowing costs for companies.	At some point, people realized that, now, you can actually make more money by making loans and hold them to maturity: You collect an illiquidity premium for buying debt that doesn’t trade, you structure loans to meet borrowers’ needs so you can charge them a bit more than the bond market, and maybe you face a bit less competition. And so private credit grew up as an alternative to the bond market.	A problem with this business is that, if you have outside investors, they might ask for their money back at any time, and if you mostly own illiquid private loans that you can’t sell, that’s a problem.	What you want is a bunch of actuarially predictable, long-dated liabilities. Like an insurance company.	So you buy an insurance company.	The result is insurance companies with long-dated liabilities that are funded by buying and holding private debt. 	Somehow this is not as boring a job as it was in Step 1? And it pays better.
@@ -151,11 +151,11 @@ Apollo Global Management sparked Wall Street’s push into insurance when it hel
 
 In the olden days, buying debt at an insurance company and holding it to maturity was sleepy and boring. Now one of Wall Street’s fastest-growing firms wants to do it because it is one of the hottest corners of finance.
 
-  
-    
+
+
       Endeavor
-    
-  
+
+
 
 In some ways, if you want to acquire a public company in a merger or acquisition, it helps to already own most of the stock. In other ways that makes it harder. Here’s Endeavor:
 
@@ -175,63 +175,63 @@ Following the Effective Time, ownership and operation of one of the Employer Gro
 
 The lawsuit kind of writes itself. The minority shareholders will complain that the Silver Lake deal undervalues the company, that the board of directors could have gotten more value for shareholders but instead let Silver Lake and the executives get a sweet deal for themselves. The minority shareholders didn’t each get a plane! But the executives did.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed Blocks Tough Global Climate-Risk Rules for Wall Street Banks. Venture capital reckons with the end of ‘megafund’ era. Business Schools Are Going All In on AI. Musk’s xAI is  Poaching Engineers From Tesla. Canada’s RBC Struggles to Go Green While Financing Oil. Beyond memes: Robinhood seeks to broaden its appeal. Donald Trump’s Lenders of Last Resort: Subprime Auto King and Online Bank. Dividends outstrip cash flows at Blackstone’s flagship property fund. “Billionaire Steve Cohen said he expects that more businesses will move to a four-day work week, one of the reasons he’s made investments in golf.” Bluey. Sticks.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] And Josh Marshall points to a filing in which Trump Media says that it “does not currently, and may never, collect, monitor or report certain key operating metrics used by companies in similar industries,” including “signups, average revenue per user, ad impressions and pricing, or active user accounts including monthly and daily active users.”
 
 
   [2] In fact, its CEO, Devin Nunes, got $750,000 last year.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -242,46 +242,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cksdd3.65q2/d7679eb5.gif" alt="" border="0" /></a>

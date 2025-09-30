@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I think there is a possible endgame now for the Sculptor Capital Management Inc. situation?%3Cp%3EWe%20have%20discussed%20this%20situation%2
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 I think there is a possible endgame now for the Sculptor Capital Management Inc. situation?
   [1]
@@ -107,37 +107,37 @@ The Special Committee is continuing to evaluate the September 30 Proposal, as am
 
 It seems like Weinstein has worn the board down enough that he might get his deal. Or, of course,  the board has worn Weinstein down enough that they might get $13 per share. Arguably this is a win for both of them.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Deposit duration
-    
-  
+
+
 
 We have   talked a   lot around   here about two theories of banking.
 	Banks borrow short to lend long. Banks get their funding from deposits, which can be withdrawn at any time, and use it to buy long-term loans and bonds. This is risky. If interest rates go up, banks have to pay more for funding, while the value of their long-term assets goes down.	Banks borrow long to lend long. Bank deposits can be withdrawn at any time, but they mostly aren’t. Banks invest in long-term relationships with customers, who deposit money and are not inclined to withdraw it. And banks use that cheap long-term funding to buy long-term assets, and also to invest in the things (branches, customer service,   Little League sponsorship) that create the long-term relationships.
@@ -162,11 +162,11 @@ In part, that’s because BofA piled hundreds of billions of dollars into long-d
 
 If your thesis is “we have built a massive deposit base that will allow profits to soar when the Fed changes course,” your main risk is that rates will stay low and profits won’t soar. You hedge that risk by buying long-dated Treasuries: If rates go up, you lose money on your Treasuries but you’re happy because of your deposit base; if they don’t, you make (relatively) a lot of money on the Treasuries to tide you over. (Doherty: “The move was designed to help protect the bank’s net interest margin if rates didn’t move or declined.”) But if (1) everyone else doesn’t hedge that risk, and keeps their money in short-term assets and (2) the Fed does rapidly raise rates, then you will look comparatively bad.
 
-  
-    
+
+
       Closed-end muni fund duration
-    
-  
+
+
 
 Outside of banking, meanwhile, Theory 1 is basically correct? That’s why people were so puzzled by SVB’s failure: Everywhere else in capital markets, it is just obvious that if you borrow short-term to buy long-duration assets, and rates go up, you will lose money. Banks are special because their borrowing is technically short-term but really something else. But lots of other businesses are in this sort of maturity transformation business without that special advantage. The Wall Street Journal  reports today:
 
@@ -176,11 +176,11 @@ That worked for much of the past decade until rates started rising. Now, short-t
 
 Yes right if you use $50 of your own money and $50 of borrowed money to buy a $100 bond that pays 2% interest, and your borrowing costs 0%, then you make a 4% return on your $50. If your borrowing costs 5% and the bond still pays 2%, you lose money.
 
-  
-    
+
+
       Coin flips
-    
-  
+
+
 
 We have   talked, several   times now, for reasons, about whether and how much you should bet on a coin flip with slightly positive expected value. One claim about the Jane Street Capital internship program, which gave Sam Bankman-Fried his start in financial markets, is that “a Jane Street intern had what amounted to a professional obligation to take any bet with a positive expected value,” very much including a biased coin flip with 1% edge.
 Well, bad news for Jane Street interns: That’s every coin flip. Here is a new paper titled “Fair coins tend to land on the same side they started: Evidence from 350,757 Flips,” by František Bartoš and a surprisingly long list of co-authors:
@@ -192,15 +192,15 @@ The paper does not describe the technique that “some (but not all) people�
 	There is probably a technique.	It is probably learnable.	If you get good at it you can probably get your probability up to, like, 55%.	If you have a Jane Street internship next summer you had better start practicing now.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Exxon to   Buy Pioneer for $60 Billion to Dominate Shale Oil.   JPMorgan Has a Master Plan to Beat Competitors in Silicon Valley. KKR and Carlyle Take   No Carry on New Private Credit Funds.  Birkenstock Prices IPO at $46 a Share.   Metro Bank Gets Bondholder Backing for Debt Restructuring. US agencies broaden crackdown on ‘ junk fees.’ Mallinckrodt Bankruptcy Plan Gets Approval, Will Wipe Out $1 Billion in  Opioid Payments. Hamas Militants Behind Israel Attack Raised  Millions in Crypto. Crypto Sector  Seeks Lawyers, Compliance Officers After Reputational Hits.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] We have discussed this situation a lot around here. We first discussed the Weinstein consortium bid  here, and the basic economics of it  here. We discussed Dan Och's interests  here, Sculptor’s board’s concerns  here and  here, and the most recent developments  here.
 
 
@@ -231,48 +231,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] There is, however, a table of the co-authors’ individual results, which range from 48.7% to an  astounding 60.1% (1,682 of 2,800, a 95% confidence interval of 58.2% to 61.9%) of flips landing on the same side. Tianqi Peng of the University of Amsterdam could make a killing flipping coins at Jane Street.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjn75w.5imj/308ea00c.gif" alt="" border="0" /></a>

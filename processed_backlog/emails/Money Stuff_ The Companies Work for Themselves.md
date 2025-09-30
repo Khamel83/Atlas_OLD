@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One theory is that, because most of the shareholders of most US public companies are diversified investors in lots of companies, each compan
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       McRitchie
-    
-  
+
+
 
 One theory is that, because most of the shareholders of most US public companies are diversified investors in lots of companies, each company’s managers should work, not to maximize the value of their company, but to maximize the value of all the companies. If the chief executive officer of a company can do a thing that reduces the value of her company by $1, but increases the value of her competitors (or suppliers, or customers, or neighbors, or any other publicly traded companies) by $2, then she should do that. Her shareholders will lose money on her stock but make money on their other stocks, and they will be happy and grateful to her. Maximizing the value of her company’s stock, at the expense of the other companies, harms her shareholders. She has fiduciary duties to those shareholders, and the way to fulfill those duties is by maximizing the value of their overall portfolio, which is, roughly speaking, the stock market.
 This theory:
@@ -87,37 +87,37 @@ Still there is some hope:
 Still, there is a way to achieve the plaintiff’s desired result. Delaware’s governance model is flexible enough to accommodate corporations where directors pursue the interests of diversified investors. The Delaware General Corporation Law (the “DGCL”) authorizes private ordering and empowers corporate planners to tailor director duties through provisions in the certificate of incorporation. Using that authority, corporate planners who find the plaintiff’s arguments convincing can reorient director duties toward diversified stockholders.
 So I guess the next campaign is to try to get companies to write into their charters that they will work on behalf of diversified shareholders. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Endless shrimp
-    
-  
+
+
 
 We talked yesterday about the corporate finance angle on Red Lobster’s Ultimate Endless Shrimp promotion, but at Slate, Luke Winkie addresses the labor-relations and nutritional angles:
 
@@ -133,11 +133,11 @@ But the point was that, for a while, ordinary people’s lifestyles were subsidi
 In these situations it is instructive to remove a few layers of abstraction and just think about what is actually happening here. At one end, the sovereign wealth fund of Saudi Arabia plows gigantic piles of money into SoftBank’s Vision Fund. At the other end, Mexico City’s “legendary late-night snack spot El Moro” can have someone “deliver its churros and hot cocoa to takeout customers across the capital” well below cost, subsidized by the Vision Fund. The King of Saudi Arabia is sending hot chocolate to everyone in Mexico City. Here, have this nice hot chocolate, on the King of Saudi Arabia. Modern capitalism is always so much stranger than you expect.
 Same here but with shrimp. Here, too, arguably Thai Union was very interested in volume and indifferent to unit economics. Here arguably the trade was that Thai Union was gifting shrimp to Red Lobster overeaters. Thai Union got paid well for the shrimp, and the customers underpaid for them, and the whole transaction was subsidized — unwillingly — by Red Lobster’s creditors. 
 
-  
-    
+
+
       Her
-    
-  
+
+
 
 One thing that I sometimes think is that worries about runaway artificial intelligence are metaphors for worries about (1) corporate capitalism, generally, (2) the corporate governance of OpenAI, specifically, or (3) Sam Altman, personally. Like Sam Altman is not, as far as I now, a superintelligent evil robot, but some of the fears that people have about superintelligent evil robots seem weirdly similar to their fears about him. We have talked about how the board of directors of OpenAI felt that Altman was lying to them, but he “had been so deft they couldn’t even give a specific example.” His intelligence is too subtle for ordinary humans to understand, and he uses it to overpower them!
 Or a lot of people worry about the effect that AI will have on creative work: If computers can become perfect imitators of human writing and speech, if they can generate convincing images and videos, then what will that do to the value of writers and artists and actors and directors? Won’t the computers just imitate and displace actors? Well, maybe, but in any case Sam Altman will:
@@ -151,11 +151,11 @@ Last week, Mr. Altman appeared to nod to the similarity between OpenAI’s virtu
 
 Here’s a long OpenAI blog post about how they cast voice actors, looking for things like “a voice that feels timeless,” “an approachable voice that inspires trust,” but certainly not “sounds like Scarlett Johansson,” what ever gave you that idea, that’s crazy.
 
-  
-    
+
+
       Donations
-    
-  
+
+
 
 Here’s a trade:
 	Start a company to, you know, invent teleportation or whatever.	Write some financial projections about how much money you will make if you succeed, discount them by an optimistic estimate of your likelihood of success, and decide that your company is worth $1 billion.	Donate 10% of the stock of your company to a nonprofit.	Deduct the $100 million value of the donation on your taxes.	Good work, now you never pay taxes again.
@@ -173,61 +173,61 @@ Gerami told The Sun News Thursday he didn’t watch the meeting, and he feels al
 Probably they’ll say “why doesn’t the school sell the stock for $237 million then,” would be my guess, but who knows. 
 Incidentally a reader once emailed me to suggest that Donald Trump could monetize his Trump Media & Technology Group stock by donating it to his charitable foundation. At first I was skeptical, but he walked me through the math and I was enlightened. The math is: What loan-to-value ratio would a bank give you in a non-recourse loan against a volatile meme stock you control? Because the IRS will give you 37%.
 
-  
-    
-      Things happen
-    
-  
 
-Craig Wright is apparently not Satoshi Nakamoto. Jamie Dimon Says Succession at JPMorgan Is ‘Well on the Way.’ FDIC Chairman Martin Gruenberg to Resign Following Report Detailing Sexual Harassment at Agency. New York lawmakers push to block funds’ sovereign bond litigation. Even a Fraud Conviction Won’t Keep Nikola’s Founder Away From the Company. A $10 Billion Real-Estate Fund Is Bleeding Cash and Running Out of Options. Banks Are Now Targeting Some of 
+
+      Things happen
+
+
+
+Craig Wright is apparently not Satoshi Nakamoto. Jamie Dimon Says Succession at JPMorgan Is ‘Well on the Way.’ FDIC Chairman Martin Gruenberg to Resign Following Report Detailing Sexual Harassment at Agency. New York lawmakers push to block funds’ sovereign bond litigation. Even a Fraud Conviction Won’t Keep Nikola’s Founder Away From the Company. A $10 Billion Real-Estate Fund Is Bleeding Cash and Running Out of Options. Banks Are Now Targeting Some of
 Private Credit’s Riskiest Debt. Shell Investors Back Weaker Emissions Targets at Annual Meeting. Activist investor builds stake in Reckitt after baby formula verdict. States Push Back Against Guaranteed Income With New Bans. How the $17 Desk Salad Won. France Issues Scratch-and-Sniff Baguette Postage Stamps. ‘Gathering of Kyles’ fails to earn Guinness World Record in Texas.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Oh, kidding, charitable deductions are limited to 50% of gross income and can only be carried forward for five years, this is very much not tax advice.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -238,46 +238,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl3vv2.5jc2/eb83378d.gif" alt="" border="0" /></a>

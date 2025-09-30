@@ -7,60 +7,60 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A decent rule of thumb is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Binance
-    
-  
 
-A decent rule of thumb is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes.  Today the US Commodity Futures Trading Commission  sued Binance Holdings Ltd., Changpeng Zhao’s big crypto derivatives exchange, for letting Americans trade crypto derivatives. There are no accusations that Binance is stealing customer money, or even taking big risks with it, which makes Binance look better than 
+
+
+A decent rule of thumb is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes.  Today the US Commodity Futures Trading Commission  sued Binance Holdings Ltd., Changpeng Zhao’s big crypto derivatives exchange, for letting Americans trade crypto derivatives. There are no accusations that Binance is stealing customer money, or even taking big risks with it, which makes Binance look better than
 some other crypto exchanges I could name. There are … look, there are not no accusations that Binance is laundering money for terrorists or secretly trading against its customers, but there are relatively few accusations like that; again, as crypto exchanges go, that’s pretty good.
 No, the CFTC’s case is mainly about letting US customers trade crypto derivatives. It is illegal to run a crypto derivatives exchange in the US without registering it with the CFTC, and it’s not exactly easy to do that either; if you have a crypto derivatives exchange abroad but have not registered it in the US, it is illegal to let US customers trade on it. So the basic rule is that US customers can’t trade crypto derivatives, and big international crypto derivatives exchanges (Binance, FTX before it blew up) sometimes have US-only platforms (Binance US, FTX.us) that let US customers trade a limited set of products, but not most derivatives.
 For retail customers this is probably fine: A crypto exchange can make a bit more money from retail gamblers if it offers them high-leverage futures trading, but there are plenty of gamblers in the world, and also you can make decent money from US traders just by letting them trade crypto for cash. 
@@ -103,37 +103,37 @@ Binance does not disclose to its customers that Binance is trading in its own ma
 
 Yes I mean if you’re a non-US crypto exchange and US regulators come to you and say “give us all of your internal communications about your trading activity,” you will be tempted to say no! Why should the US regulators get all of your internal communications, when you are a non-US exchange? But that is not how the US regulators see it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Citizens Valley Bank
-    
-  
+
+
 
 Hey   they sold SVB:
 
@@ -162,11 +162,11 @@ Of course the other $56.5 billion of First Citizens’ financing comes from SVB�
   [8]
  Now, uh, things are back to normal I guess? “All deposits assumed by First–Citizens Bank & Trust Company will continue to be insured by the FDIC up to the insurance limit,” says  the FDIC’s announcement, which is a limit that did not exist at SVB last week.
 
-  
-    
+
+
       Electricity
-    
-  
+
+
 
 My model of electricity markets is that they are a weird combination of:
 	Markets designed by economists to achieve their wildest theoretical fantasies of matching supply and demand in perfect competition, tied to	A particularly formidable set of real-world problems about shoveling coal into giant boilers to generate electricity.​​​​
@@ -183,11 +183,11 @@ Moreover, gas plants are unwieldy; they typically take about six hours to cool d
 
 There is a sense in which this is all economically rational: If you were designing an electric power market, you would want to give peaker owners enough incentive to keep their plants on during lower-demand hours so that they are available to meet higher demand later. But the actual mechanism — they agree to provide electricity at normal rates during low-demand hours, then say “haha no we’re turning off, see you tomorrow,” and then get paid a premium to stay on — seems not ideal.
 
-  
-    
+
+
       Kicking the nickel
-    
-  
+
+
 
 We   talked last week about the discovery that some nickel belonging to JPMorgan Chase & Co., which it used to support nickel futures trading on the London Metal Exchange, was actually just rocks. The nickel — I mean, rocks — had been sitting in an LME-affiliated warehouse for years; its role in life was to support nickel futures trading, not to be turned into batteries or cars or whatever. “The nickel worked perfectly well for those purposes — JPMorgan’s derivative contracts traded and paid off normally — for years, even though the nickel was not in fact nickel, just bags of rocks,” I wrote. I went on:
 And then one day a warehouse worker, like, stubbed his toe against JPMorgan’s nickel and was like “hmm that’s not the sound nickel makes when you kick it” and opened the bags and found rocks. And then the LME dutifully reported that some nickel was not nickel, and JPMorgan’s nickel warrants were transformed into rocks warrants.
@@ -206,15 +206,15 @@ Access World is leaning toward the second theory, according to people familiar w
 
 See I would have assumed that stealing nickel and substituting rocks in transit would make a lot of sense, while sneaking into a warehouse to bring in rocks and take out nickel would be insane, but (1) what do I know and (2) I am desperate to see the movie of this.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Deutsche Bank Bounces as Analysts Reassure on Financial Health. Saudi National Bank Chair Resigns After  Credit Suisse Remark. Credit Suisse Faces Possible  Disciplinary Proceedings: Finma. Marc Rubinstein: The Demise of Credit Suisse. Interfluidity: Financial regulation is just debt covenants. Maureen Tkacik: Rich Bank Dumb Bank. People are worried about  Treasury volatility. Star-Led Hedge Funds Hit by Steep Losses, Stunting Their Comeback. Banking Crisis Raises Concerns About   Hidden Leverage in the System. Elon Musk Values Twitter at $20 Billion. DeFi Exchange   DYdX Seeks Full Decentralization as US Cracks Down. Goldman Sachs scraps plan to buy a  third corporate jet amid scrutiny of CEO's plane use and cost-cutting.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Paragraph 117: “At least as early as April 2019, Binance published a guide on the ‘Binance Academy’ section of its website titled ‘A Beginner’s Guide to VPNs.’ Binance’s VPN guide explained to Binance customers that ‘[i]f you want to be private about the websites you visit – and your location – you should use a VPN.’ Binance’s VPN guide also hints: ‘you might want to use a VPN to unlock sites that are restricted in your country.’”
 
 
@@ -239,48 +239,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] For a while Signature Bank was in the same boat, but then  it got sold.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cifva6.5qct/f90fd7f5.gif" alt="" border="0" /></a>

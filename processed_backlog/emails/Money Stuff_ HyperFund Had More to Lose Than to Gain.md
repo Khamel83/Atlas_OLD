@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If I ran the crypto enforcement unit at the US Securities and Exchange Commission, and I were as crypto-skeptical as the actual SEC seems to
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       HyperFund
-    
-  
+
+
 
 If I ran the crypto enforcement unit at the US Securities and Exchange Commission, and I were as crypto-skeptical as the actual SEC seems to be, I guess I would want my cases to divide roughly evenly into two categories:
 	Important cases against big crypto projects and, especially, crypto exchanges, cases that will set important precedents and have large impact on the crypto industry.   Enforcement actions against exchanges, in particular, are likely to have huge effects: If you shut down crypto trading at centralized exchanges, you get a lot more consumer-protection bang for your buck than if you have to shut down every questionable crypto project individually.	Dumb easy cases against wild scams.
@@ -84,37 +84,37 @@ Speaking of virtual avatars, apparently its CEO was fake?
 During this launch event, which took place live online and was recorded and then made available publicly online, HyperVerse presented a new supposed CEO of HyperVerse, “Steven Reece Lewis.” In a recorded video played during the launch event, Lewis thanked everyone for their participation and for giving him “the chance to share more about HyperVerse, our operations, and future direction . . . . ” After repeatedly invoking a prominent social media company’s rebranding, “CEO Lewis” explained that HyperVerse offered a “virtual world” with “new business opportunities” and the development of a crypto asset, characterized as a “native token,” called “HVT.” In reality, the person presented as Lewis was an actor playing a role of a fabricated character. He was not the CEO of HyperVerse.
 There is very little discussion of Hyperfund’s technology or token economics, and I’m not sure it had any. Its technology was telling people that if they invested money in its business, it would give them way more money in return. That does sound like a securities offering, doesn’t it?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Auditor independence
-    
-  
+
+
 
 The business of public company auditing has at its heart a conflict of interest: 
 	Your job, as an auditor, is to scrutinize a company’s financial statements and make sure that they are true and accurate, and then to certify those statements to the public. If the company is doing financial fraud, you should try not to certify their financial statements. If you sign off on the financial statements of a big fraud, you will look bad and maybe 	get in trouble.	The company gives you that job. It hires you, in a reasonably competitive market. If you are annoying to work with, or are difficult about signing off on things, then it might hire someone else. If you are pleasant and friendly and take the company’s chief financial officer out to nice dinners, she will be more likely to retain you.
@@ -135,21 +135,21 @@ Deloitte said the most common instances of non-compliance were “related to fin
 
 I submit to you that, if you are the partner on the PayPal audit, the fact that one of your accountants has a spouse who has a cash balance on Venmo is much, much, much, much, much, much, much less likely to compromise the independence of your audit than is the fact that you have to talk to PayPal’s employees to do the audit, and you want those conversations to be friendly.
 
-  
-    
+
+
       Fine, now you can sell tax credits
-    
-  
+
+
 
 We   talked yesterday about how a change in US bank capital rules might affect the market for tax equity financing, a form of quasi-debt financing in which big banks fund green energy projects by, effectively, buying the tax credits that they are expected to generate over their lifetimes. The idea is that, to be respected by the Internal Revenue Service, these deals cannot really be just buying the tax credit, or lending against it: They have to look like equity investments in the green projects. (“You don’t go around selling tax credits,” I wrote, “and your tax lawyers will get mad if you say that.”) But to get good capital treatment from bank regulators, these deals cannot really be equity financing: They have to look like safe debt deals. The glory of modern US financial engineering is that banks can build a product that satisfies both of these objectives — that is equity to the IRS but debt to bank regulators — and they did, and it was good, and now new bank capital rules might kill it, and the banks are mad.
 A bunch of readers emailed, though, to point out that the problem isn’t that big, because the 2022 Inflation Reduction Act did make it legal to just buy and sell certain green-energy tax credits directly. So instead of getting a big bank to do the tax equity financing song and dance — which currently works, but which might not work under proposed new capital rules — you can just sell the tax break, for cash up front, to a bank or anyone else who wants to buy it. Here is an  Akin Gump memo on the tax credit transferability guidance. 
 This is not necessarily a perfect substitute for tax equity, and the  American Council on Renewable Energy report that I quoted yesterday says: “While the IRA provides new tax credit monetization options through transferable tax credits and direct pay, tax equity is expected to remain the most common and preferred option for project developers because it monetizes both the tax credits and other tax benefits, such as tax depreciation.” Still I suppose the broad conclusion might be that when a financial engineering door is closed, a financial engineering window is opened.
 
-  
-    
+
+
       Art valuation
-    
-  
+
+
 
 We have   talked a few times about the long-running dispute between art dealer Yves Bouvier and his former customer Dmitry Rybolovlev. Basically Bouvier would buy a painting for $126 million, tell Rybolovlev “I think I can get this painting for you for $185 million, the sellers want $190 million but I’ll try to talk them down,” and then he’d sell Rybolovlev the painting for $184 million. Rybolovlev thought he got a good deal and good service from Bouvier, who was able to talk the sellers down from their asking price. But really he got a bad deal and bad service from Bouvier, who was the seller, and who took only a little bit off his own enormous undisclosed markup.
 The question is basically, was Bouvier allowed to do this (as a third-party seller in a sharp-elbowed market), or not (as a trusted advisor in a fiduciary relationship with Rybolovlev). Courts in various countries have mostly said it’s fine, but there’s a trial on in New York now in which Rybolovlev is suing Sotheby’s, the auction house, for helping Bouvier inflate his valuations.
@@ -166,11 +166,11 @@ Valette said he wanted a big, round number. “In this world, if you’re at €
 
 I’m sorry, that’s just correct, if you are providing a valuation of that painting to a potential buyer, the correct valuation is just a piece of paper saying “how frisky are you feeling?” Too much precision really is awkward.
 
-  
-    
+
+
       Pivot to AI
-    
-  
+
+
 
 Sure   whatever:
 
@@ -189,71 +189,71 @@ You could imagine three skill sets here:
 
 My assumption is that Skill 1 was valuable in 2022 and Skill 2 is valuable in 2024, though I can’t be sure; I have no particular evidence that the chief metaverse officers hired in 2022 were in fact any good at doing metaverse stuff. (Was the lion?) And my assumption is that Skill 3 is sort of permanently valuable, perhaps more so the more trends and technologies change. 
 
-  
-    
+
+
       Pricing
-    
-  
+
+
 
 I don’t know, this is just a useful thing to learn at a young age:
 He broke into the city’s private-school set and soon found himself in the fancy Fifth Avenue apartment of a new client. Rim says that one day this teen’s mother gave him a reality check. As Rim recalls it, “She said, ‘Chris, if you want to make it here in New York, you cannot charge $75. No one’s going to take you seriously.’ ” Rim says she told him to charge $1,500 an hour and vowed to bring him more clients.
 That’s from this New York Magazine story about Christopher Rim, the founder of Command Education, an extremely expensive college admissions counseling service. As a young man out of Yale, he started a modestly priced college admissions counseling service, until a client correctly told him that there was more demand for an extremely expensive one.
 We’ve   talked about Rim before, when   Bloomberg News reported that another parent gave him another great pricing idea: “Rim said a parent at New York’s Trinity School — a $64,000-a-year Ivy League-feeder — once offered him $1.5 million if he would agree not to work with any of his child’s classmates.” Basically if you are extremely rich, and buying positional goods like good college resumes, it is to your benefit for those goods to be as expensive — and thus exclusive — as possible. If you are in the business of selling those goods, that’s nice for you.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Silicon Valley investors build  $300bn cash pile in start-up funding crunch. Scandal-Hit Trading Desk Turns Into   Money Spinner at Wells Fargo. Private-Fund Lobbyists Get Set for High-Stakes  SEC Court Fight. The Real-Estate Downturn Comes for America’s  Premier Office Towers. Saudi Arabia  ditches plan to raise oil production. Indonesia’s flood of nickel sparks  ‘Darwinian’ battle for survival among miners. U.S.  Oil Drillers Are Going Electric—if They Can Get the Electricity. Ex-Freshfields Partner Convicted Over   Tax Scandal. Steve Cohen, John Henry Group Set to Invest Billions in  PGA Tour. Musk Says First   Neuralink Patient Received Implant in Brain. Shaquille O’Neal Wants to Buy ‘Whatever’ NBA Team Is ‘Available.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Don’t take those numbers too seriously. CoinMarketCap  tells me that Ripple’s XRP token briefly peaked at $3.021 in January 2018, and is at about $0.53 now, but that’s a very brief peak and I’m not going to worry about it too much. Its post-2018 peak is about $1.56 in April 2021, so down about 66% to today.  Meanwhile Terra’s original Luna token hit $113.01 in April 2022 and is worth apparently $0.0001 today.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -264,46 +264,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckcim4.61we/c040fbe5.gif" alt="" border="0" /></a>

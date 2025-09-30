@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qThe_Puck_Crier_Wall_Street=E2=80=99s_Trump_Paradox=_Tue,_28_Jan_2025_17-04-11_+0000_194addf0014e18b9.eml
 **Processed:** 2025-08-24T19:13:03.748535
 
-Puck logo ( https://puck.news/?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Marion + Julie IC ( https://puck.news/my-account/billing/?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear reader,   
@@ -34,7 +34,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
-swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_content=Bill+IC+Call+-+SUBSCRIBER+Upsell+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

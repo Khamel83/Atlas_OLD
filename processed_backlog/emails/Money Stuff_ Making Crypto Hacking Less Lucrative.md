@@ -7,74 +7,74 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Finance rewards cleverness. Sometimes this is true in a pleasingly positi
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       A certain amount of crime
-    
-  
+
+
 
 Finance rewards cleverness. Sometimes this is true in a pleasingly positive-sum way; if you can cleverly think up a new way to slice cash flows or allocate risk then you can get rich by increasing economic activity. Often, though, it is true in some straightforwardly zero-sum way: If you have a contract with a counterparty, and you cleverly ferret out a hidden provision in the contract that says that your counterparty has to give you $10 million, then you get $10 million and they lose $10 million. 
-We talk quite a lot around here about those stories. Lots of market structure, for instance, falls into this category: If you find a way to buy stock a bit before someone else does, you win and they lose, but not necessarily in a way that makes the world better. It’s just a game that you’re playing with each other. Or: People finding clever readings of credit-default swaps 
-was a 
-big theme of this 
-column for a few 
+We talk quite a lot around here about those stories. Lots of market structure, for instance, falls into this category: If you find a way to buy stock a bit before someone else does, you win and they lose, but not necessarily in a way that makes the world better. It’s just a game that you’re playing with each other. Or: People finding clever readings of credit-default swaps
+was a
+big theme of this
+column for a few
 years. Someone buys CDS to bet against (or hedge) the credit risk of a company, and someone else sells them that CDS to bet on the credit of that company, and then the buyer and the seller separately go to the company and say “hey if you press this button right here our counterparty will have to give us $50 million and we’ll give you $20 million of it,” and the company is like “who are you? Sure, I guess,” and it is weird. There are intersections between this stuff and the real economic world — I think that sometimes it is net good for the world, and other times it is net bad — but it mostly feels pretty abstract. Some hedge funds are trying to trick each other using finance and that’s just their business.
 There are, in the traditional financial system, constraints on this sort of cleverness. Obviously one set of constraints is, like, it is hard to find arbitrages in markets or flaws in contracts, and the people on the other side are also smart and have good computers and good lawyers and are trying to trick you too. Still, sometimes you will find a winning trade.
 Even so, though,   there are a lot of external constraints, constraints of laws and norms. If you find a flaw in a contract that says your counterparty has to pay you $50 million, she might say no. And you might go to court over it, and point to the language that says she has to pay you $50 million, and the judge might say “what, no, this is stupid, it can’t have meant that, get out of here.” The judge will refer to vague ideas — equity, the intent of the parties, the covenant of good faith and fair dealing — to reject your clever reading of the contract. And then you won’t get your $50 million. There is some amount of cleverness that is too clever.
@@ -110,63 +110,63 @@ Here is the rest of  that post, which consists of Bankman-Fried’s draft propos
 Of course this doesn’t solve everything. For one thing, how do you make hackers follow the industry standards? If a hacker/exploiter/manipulator comes up with a really good trade and steals $500 million, and decides not to give back $495 million of it, what do you do? I suppose the answer is “call the police,” and then you are back to relying on the background norms of the traditional legal system.
 Also: What if you find a “highly profitable trading strategy” and you “believe all of [your] actions were legal open market actions, using the protocol as designed,” but others disagree and think you did a hack? “The maximum reward for market manipulation is $5 million” is a fine standard, but you still have to have some way to decide what is “market manipulation” and what is just clever trading.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 I guess he’s closing?
 
@@ -174,7 +174,7 @@ Elon Musk said he and other investors are “obviously overpaying” for Twitter
 Tesla Inc.’s chief executive officer said he is “excited about the Twitter situation,” describing the social media company as an asset that has “sort of languished for a long time” but has “incredible potential.”
 The company’s long-term potential is an “order of magnitude greater than its current value,” Musk’s said on Tesla’s quarterly earnings call Wednesday.
 
-Of course if he is planning to change his mind at the last minute — if he is going to show up at 
+Of course if he is planning to change his mind at the last minute — if he is going to show up at
 4:59 p.m. next Friday and say “nope, can’t close, turns out there are bots on Twitter” — then talking up the value of Twitter this week would make it even funnier. So you never know. But, probably, closing.
 Is he overpaying? Leaving aside all of the legal wrangling, Musk’s deal for Twitter is a strange bit of merger economics. You could tell a story that goes something like: 
 	Twitter is worth about $20 billion.
@@ -188,20 +188,20 @@ Also Musk has given  some indication of his plans for Twitter, and there is no 
 But Musk, in this story, has some magic power: He can create tens of billions of dollars of market value by waving a magic wand, in a way that no ordinary mortal can replicate or even understand. I, uh, I guess I almost believe that? “The way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk,” I have   often written. I call this the Elon Markets Hypothesis. It seems to be   what motivated his co-investors to join him in the Twitter deal. Musk creates value out of thin air. Twitter is bad now, but it has incredible potential, and only Musk can unlock it.
 In a typical strategic merger there will be some negotiation over the allocation of synergies. The target is worth $20 billion on its own, it will be worth $30 billion if the buyer buys it, and the target will want to get some of that $10 billion for its own shareholders. That $10 billion is created by the combination; neither the buyer nor the target can get it on their own. If the buyer pays $25 billion for the target, it isn’t “overpaying”; it’s sharing the synergies. In a rough sense I suppose that happened here. Twitter is worth $20 billion on its own, and $200 billion with Musk’s magic. Most of the value comes from his magic, but he does need Twitter to do the magic on. He’s paying more than it’s worth now, but less than it’s worth to him.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       The SEC is busy
-    
-  
+
+
 
 A somewhat exaggerated model you could have for the US Securities and Exchange Commission under its current chair, Gary Gensler, is that Gensler wants to remake all of securities regulation all at once. He wants to create a new   environmental disclosure regime for public companies that is roughly parallel to the SEC’s existing financial disclosure regime, more or less doubling the amount of corporate disclosure regulation that the SEC does. He wants to   scrap the existing system of US equity market structure — where brokers route retail orders to wholesalers — and replace it with something different and uncertain (auctions for every trade?). He wants to extend some version of the rules that apply to public companies and funds to   private companies and funds. Those are probably the biggest ones, but there are like a dozen other pretty big ones. Changing   CDS regulation and   10b5-1 plans and   activist disclosure and lots of other things. Also   there is crypto.
 You could imagine the SEC’s staff loving this. “Finally, after years of not remaking securities regulation, we’ve got something exciting to do!” But it is easier, for me, to imagine most of the staff finding this very annoying. For one thing, they have worked there for a while, and they presumably have a certain fondness for existing securities regulation, a certain investment in it. When the new boss comes in and says “sorry, all of securities regulation is wrong, we’ve got to scrap it and start over,” it is hard for the staff not to hear that as an insult. That securities regulation is, in some sense, their securities regulation; they interpreted and enforced and defended those rules for years, and they wrote some of them. They took some pride in the system of securities regulation that they worked on every day. And now their boss says they were wasting their time.
@@ -214,11 +214,11 @@ While no one identified concrete errors in rule proposals, some managers told th
 
 The staff’s complaints are not proof that Gensler is wrong, but you can see why they’d be annoyed.
 
-  
-    
+
+
       YOLO
-    
-  
+
+
 
 In my experience nobody has a more colorful prose style than equity volatility strategists. There’s something about writing about volatility that makes your writing volatile? Here’s   Bloomberg’s Tracy Alloway on institutional investors trading short-dated options, quoting Charlie McElligott, a strategist at Nomura Securities International Inc.:
 
@@ -235,127 +235,127 @@ When I first heard this theory,   I was skeptical. Yes, right, at some level thi
 I mean, it is absurd, but after January 2021 I am more open to the possibility that it happens. Did retail investors buy a ton of short-dated out-of-the-money call options on GameStop Corp.,   causing dealers to hedge by buying a lot of the stock and pushing its price up to insane heights? Uh …   maybe? That’s what they said they did, and the stock sure did go up, though the SEC’s report on the GameStop phenomenon   mostly discounts this “gamma squeeze” story.   Others disagree, and all in all I think it is more plausible than it used to be that retail investors can push stock prices around with a lot of options buying. Boy is that not investing advice.
 So if you tell me now that professional investors are YOLOing 1-DTE options to push the stock up and automatically make money, “using the certainty of dealer hedging flows that their orders create to then amplify and ‘juice’ the intended directional market move,” my reaction is sure, whatever, I guess that’s a thing now. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 This  Powerful BlackRock Team Has the Ear of Governments and Megabanks. A Fed President Spoke at an Invite-Only, Off-the-Record Bank Client Event. Retail investors take  shelter in cash after stock market rout. LNG  Freight Rates Hit $450,000 a Day as Russia Disrupts Fuel Supplies. Elon Musk’s Starlink Is at the Forefront of a   Corporatized Space War in Ukraine. How the  warehouse boom devoured America's workforce. Latest   Times Square Attraction Could be a Caesars Palace Casino. Weed Is Coming to   Circle K Gas Stations in US Next Year.  Bees unleashed in attack on deputies during eviction enforcement, Hampden County sheriff says. Congratulations  lettuce.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] All the numbers here are fake. It was worth significantly more than $20 billion before Musk signed a deal to buy it, some of 
+
+  [1] All the numbers here are fake. It was worth significantly more than $20 billion before Musk signed a deal to buy it, some of
 Musk’s co-investors now think it is worth much less, and its current market value of about $40 billion is based on Musk’s deal price rather than its standalone value. Twenty billion is a decent wild guess at its current standalone market value, but if you said $10 billion or $40 billion that would be fine too.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

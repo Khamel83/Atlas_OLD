@@ -608,7 +608,7 @@ small {
 				Michael<span class="illustration" id="michael"><span></span></span>Jackson
 				<span class="nowrap">( <small>king of<br>hearts</small> )</span> engaged
 				in behavior bizarre even for him. He defecated
-				<span class="nowrap">( <small>two of<br>clubs</small> )</span> 
+				<span class="nowrap">( <small>two of<br>clubs</small> )</span>
 				on a<span class="illustration" id="burger"><span></span></span>salmon
 				burger <span class="nowrap">( <small>king of<br>clubs</small> )</span> and
 				captured his flatulence <span class="nowrap">( <small>queen of<br>clubs</small> )</span>

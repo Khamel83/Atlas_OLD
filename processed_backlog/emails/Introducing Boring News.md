@@ -7,22 +7,22 @@
 
 View this post on the web at https://www.notboring.co/p/introducing-boring-news
 
-Welcome to the 267 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 235,645 smart, curious folks by subscribing here: 
+Welcome to the 267 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 235,645 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Speakeasy [ https://substack.com/redirect/38b09d5b-db3a-4567-8da4-5512eb4dc04a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Speakeasy [ https://substack.com/redirect/d8d8bd16-51ab-4dac-9196-17b06920c964?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] recently raised $15M to revolutionize REST API development.
 Even the most gifted craftsman needs the appropriate tools to build something they’re proud of. Unfortunately, the API tooling ecosystem is still stuck in 2005.
 Speakeasy [ https://substack.com/redirect/d8d8bd16-51ab-4dac-9196-17b06920c964?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] wants to make it trivially easy for every developer to build great APIs. To make that dream a reality, Speakeasy is building a platform to handle the heavy lifting of API development and unburden developers to focus on refining the business logic.
 From fast-growing innovators like Vercel, Mistral AI, and Kong to hobby projects by solo devs, engineers use Speakeasy to accelerate their API development and adoption.
-Hi friends 👋, 
-Happy Tuesday! 
-Over the past few weeks, we’ve been cooking something up, and I’m excited to share it with you. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Tuesday!
+Over the past few weeks, we’ve been cooking something up, and I’m excited to share it with you.
+Let’s get to it.
 Boring News
 Today, we are launching a new daily series, Boring News:
 Every weekday, we’ll deliver three important stories from Polymarket. We’ll start with the odds that the market sets and use AI tools to try to explain why the odds are what they are.
 We’re calling it Boring News because compared to sensationalism, tribalism, and endless BREAKING chyrons, simply taking the odds that the market sets and trying to explain why they might be that way is … boring.
 We’re taking individual humans out of the process as much as possible, and replacing them with two forms of artificial intelligence: markets and AI.
-The video you just watched pulls stories from Polymarket, runs their odds through news APIs, Perplexity, and Grok for context, turns that context into scripts with ChatGPT and Claude, and narrates it using my voice from Eleven Labs. 
+The video you just watched pulls stories from Polymarket, runs their odds through news APIs, Perplexity, and Grok for context, turns that context into scripts with ChatGPT and Claude, and narrates it using my voice from Eleven Labs.
 Then we share it directly with you via X, YouTube, and podcast feeds. Subscribe at YouTube [ https://substack.com/redirect/07461b8d-2760-4696-b4bc-cdbc335af973?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Spotify [ https://substack.com/redirect/678c7b50-4fde-4ebe-94b3-0d7a154b4ccf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], or wherever you listen to podcasts to get it each morning.
 To start, we’re selecting the markets and running them through an AI-powered pipeline. Over time, we’ll do market selection by algorithm, too – biggest movers, most liquidity, highest volume, closest odds – and remove ourselves completely.
 Our early version is not perfect. We’re wrestling with the tools to try to get the most accurate and relevant information and the snappiest scripts without writing it ourselves. It feels a little bit like watching your kid do their homework and restraining yourself from giving them the answer.
@@ -60,7 +60,7 @@ We won’t be the only ones who try to build something like this, and that’s a
 We're having fun experimenting with these tools to try to make the news a little more boring, and hopefully a little more true.
 The news is dead. Long live the news.
 Thanks to Aman, Sehaj, and Mike for building Boring News with me, and to Claude for editing!
-That’s all for today. Give Boring News a listen and let us know what you think. We’ll be back in your inbox on Friday. 
+That’s all for today. Give Boring News a listen and let us know what you think. We’ll be back in your inbox on Friday.
 Thanks for reading,
 Packy
 

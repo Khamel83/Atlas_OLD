@@ -222,23 +222,23 @@
 <link rel="https://api.w.org/" href="https://coingeek.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://coingeek.com/wp-json/wp/v2/posts/432809" /><link rel='shortlink' href='https://coingeek.com/?p=432809' />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://coingeek.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoingeek.com%2Fairbit-club-us-extradites-one-of-block-reward-mining-scam-founders%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://coingeek.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoingeek.com%2Fairbit-club-us-extradites-one-of-block-reward-mining-scam-founders%2F&#038;format=xml" />
-<!-- Google Tag Manager --> 
-<script data-type="lazy" data-src="data:text/javascript;base64,DQoJKGZ1bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydndG0uc3RhcnQnOg0KCW5ldyBEYXRlKCkuZ2V0VGltZSgpLGV2ZW50OidndG0uanMnfSk7dmFyIGY9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSxqPWQuY3JlYXRlRWxlbWVudChzKSxkbD1sIT0nZGF0YUxheWVyJz8nJmw9JytsOicnO2ouYXN5bmM9dHJ1ZTtqLnNyYz0naHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGosZik7fSkod2luZG93LGRvY3VtZW50LCdzY3JpcHQnLCdkYXRhTGF5ZXInLCdHVE0tTTU5VkNDVycpOw=="></script> 
-<!-- End Google Tag Manager --> 
+<!-- Google Tag Manager -->
+<script data-type="lazy" data-src="data:text/javascript;base64,DQoJKGZ1bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydndG0uc3RhcnQnOg0KCW5ldyBEYXRlKCkuZ2V0VGltZSgpLGV2ZW50OidndG0uanMnfSk7dmFyIGY9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSxqPWQuY3JlYXRlRWxlbWVudChzKSxkbD1sIT0nZGF0YUxheWVyJz8nJmw9JytsOicnO2ouYXN5bmM9dHJ1ZTtqLnNyYz0naHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGosZik7fSkod2luZG93LGRvY3VtZW50LCdzY3JpcHQnLCdkYXRhTGF5ZXInLCdHVE0tTTU5VkNDVycpOw=="></script>
+<!-- End Google Tag Manager -->
 
-<!-- Meta Pixel Code --> 
+<!-- Meta Pixel Code -->
 <script data-type="lazy" data-src="data:text/javascript;base64,DQoJIWZ1bmN0aW9uKGYsYixlLHYsbix0LHMpe2lmKGYuZmJxKXJldHVybjtuPWYuZmJxPWZ1bmN0aW9uKCl7bi5jYWxsTWV0aG9kP24uY2FsbE1ldGhvZC5hcHBseShuLGFyZ3VtZW50cyk6bi5xdWV1ZS5wdXNoKGFyZ3VtZW50cyl9OyANCglpZighZi5fZmJxKWYuX2ZicT1uO24ucHVzaD1uO24ubG9hZGVkPSEwO24udmVyc2lvbj0nMi4wJzsgDQoJbi5xdWV1ZT1bXTt0PWIuY3JlYXRlRWxlbWVudChlKTt0LmFzeW5jPSEwOyANCgl0LnNyYz12O3M9Yi5nZXRFbGVtZW50c0J5VGFnTmFtZShlKVswXTsNCglzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHQscyl9KHdpbmRvdywgZG9jdW1lbnQsJ3NjcmlwdCcsICdodHRwczovL2Nvbm5lY3QuZmFjZWJvb2submV0L2VuX1VTL2ZiZXZlbnRzLmpzJyk7DQoJZmJxKCdpbml0JywgJzk5MjYyNDA2MTg4MjUyMicpOw0KCWZicSgndHJhY2snLCAnUGFnZVZpZXcnKTsgDQo="></script>
 <noscript>
 	<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=992624061882522&ev=PageView&noscript=1" />
-</noscript> 
-<!-- End Meta Pixel Code --> 
+</noscript>
+<!-- End Meta Pixel Code -->
 
-<!-- Twitter conversion tracking base code --> 
-<script data-type="lazy" data-src="data:text/javascript;base64,DQoJIWZ1bmN0aW9uKGUsdCxuLHMsdSxhKXtlLnR3cXx8KHM9ZS50d3E9ZnVuY3Rpb24oKXtzLmV4ZT9zLmV4ZS5hcHBseShzLGFyZ3VtZW50cyk6cy5xdWV1ZS5wdXNoKGFyZ3VtZW50cyk7fSxzLnZlcnNpb249JzEuMScscy5xdWV1ZT1bXSx1PXQuY3JlYXRlRWxlbWVudChuKSx1LmFzeW5jPSEwLHUuc3JjPSdodHRwczovL3N0YXRpYy5hZHMtdHdpdHRlci5jb20vdXd0LmpzJyxhPXQuZ2V0RWxlbWVudHNCeVRhZ05hbWUobilbMF0sYS5wYXJlbnROb2RlLmluc2VydEJlZm9yZSh1LGEpKX0od2luZG93LGRvY3VtZW50LCdzY3JpcHQnKTsgDQoJdHdxKCdjb25maWcnLCdvMGRkdCcpOyANCg=="></script> 
-<!-- End Twitter conversion tracking base code --> 
-<!-- Google Site Verfication --> 
+<!-- Twitter conversion tracking base code -->
+<script data-type="lazy" data-src="data:text/javascript;base64,DQoJIWZ1bmN0aW9uKGUsdCxuLHMsdSxhKXtlLnR3cXx8KHM9ZS50d3E9ZnVuY3Rpb24oKXtzLmV4ZT9zLmV4ZS5hcHBseShzLGFyZ3VtZW50cyk6cy5xdWV1ZS5wdXNoKGFyZ3VtZW50cyk7fSxzLnZlcnNpb249JzEuMScscy5xdWV1ZT1bXSx1PXQuY3JlYXRlRWxlbWVudChuKSx1LmFzeW5jPSEwLHUuc3JjPSdodHRwczovL3N0YXRpYy5hZHMtdHdpdHRlci5jb20vdXd0LmpzJyxhPXQuZ2V0RWxlbWVudHNCeVRhZ05hbWUobilbMF0sYS5wYXJlbnROb2RlLmluc2VydEJlZm9yZSh1LGEpKX0od2luZG93LGRvY3VtZW50LCdzY3JpcHQnKTsgDQoJdHdxKCdjb25maWcnLCdvMGRkdCcpOyANCg=="></script>
+<!-- End Twitter conversion tracking base code -->
+<!-- Google Site Verfication -->
 <meta name="google-site-verification" content="rA8hFmu2WS1r24yySswNLxxAVA6kcqVa6WGzeXzWpIo" />
-<!-- MS Clarity --> 
+<!-- MS Clarity -->
 <script type="text/javascript" data-type="lazy" data-src="data:text/javascript;base64,DQogICAgKGZ1bmN0aW9uKGMsbCxhLHIsaSx0LHkpew0KICAgICAgICBjW2FdPWNbYV18fGZ1bmN0aW9uKCl7KGNbYV0ucT1jW2FdLnF8fFtdKS5wdXNoKGFyZ3VtZW50cyl9Ow0KICAgICAgICB0PWwuY3JlYXRlRWxlbWVudChyKTt0LmFzeW5jPTE7dC5zcmM9Imh0dHBzOi8vd3d3LmNsYXJpdHkubXMvdGFnLyIraTsNCiAgICAgICAgeT1sLmdldEVsZW1lbnRzQnlUYWdOYW1lKHIpWzBdO3kucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUodCx5KTsNCiAgICB9KSh3aW5kb3csIGRvY3VtZW50LCAiY2xhcml0eSIsICJzY3JpcHQiLCAib2pndnFsMDNndCIpOw0K"></script>
 <!-- End MS Clarity -->
 <link rel="icon" href="https://coingeek.com/wp-content/uploads/2024/09/cropped-android-chrome-512x512-1-32x32.png" sizes="32x32" />
@@ -461,7 +461,7 @@ body form._form_77 div._form-content div._form_element div._field-wrapper select
 <!-- title-->
 <section class="relative bg-white py-3">
       <div class="container relative z-10">
-            
+
 <div class="relative banner-inner">
     <div class="article overlay-left h-full">
         <img width="730" height="360" src="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.webp" class="attachment-full size-full wp-post-image" alt="Close-up photo of a gavel" decoding="async" fetchpriority="high" srcset="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.webp 730w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-300x148.webp 300w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-380x188.webp 380w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-280x139.webp 280w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-100x49.webp 100w" sizes="(max-width: 730px) 100vw, 730px" />    </div>
@@ -484,21 +484,21 @@ body form._form_77 div._form-content div._form_element div._field-wrapper select
         </div>
     </div>
 </div>
-            
+
       </div>
 </section>
 
 <section class="relative bg-white py-12">
       <div class="container-inner relative z-10">
             <div class="page-content flex md:flex-wrap lg:flex-nowrap space-x-5 space-between md:space-x-0 md:space-y-5">
-                  
+
                   <div class="md:w-full lg:w-9/12 mb-0">
                         <div class="w-full post-article">
                         <div class="breadcrumb-section flex text-xxs text-gray-400 pb-7 test"><ol class="inline-flex items-center space-x-1"><li class="inline-flex items-center"><a href="https://coingeek.com" class="inline-flex items-center">Homepage</a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center"><a href="https://coingeek.com/news/" class="inline-flex items-center">News</a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center"><a class="inline-flex items-center"
                            href="https://coingeek.com/news/category/business/">
                                 Business
                        </a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center">AirBit Club: US extradites one of block reward mining scam founders</li></ol></div>
-                                                                  
+
         <table id="trinity-audio-table" style="width: 100%; display: table; border: none; margin: 0">
             <tr>
                 <td id="trinity-audio-tab" style="border: none;">
@@ -525,7 +525,7 @@ body form._form_77 div._form-content div._form_element div._field-wrapper select
                             <h3 class="uppercase float-none">Tagged:</h3>
                         </div><div class="flex flex-row gap-y-2.5 flex-wrap"><span class="tag"><a href="https://coingeek.com/news/tag/airbit-club/" rel="tag">AirBit Club</a></span><span class="tag"><a href="https://coingeek.com/news/tag/panama/" rel="tag">Panama</a></span><span class="tag"><a href="https://coingeek.com/news/tag/ponzi-scheme/" rel="tag">Ponzi Scheme</a></span><span class="tag"><a href="https://coingeek.com/news/tag/scam/" rel="tag">Scam</a></span><span class="tag"><a href="https://coingeek.com/news/tag/united-states/" rel="tag">United States</a></span></div></div>
 
-<!-- 
+<!--
 <section class="relative bg-white py-5 newsletter-section">
     <div class="container relative z-10">
         <div class="relative card rounded-sm newseltter-block shadow-custom px-8 py-6 sm:py-8 max-w-[732px] ml-auto mb-10 md:mx-auto md:max-w-full">
@@ -541,14 +541,14 @@ body form._form_77 div._form-content div._form_element div._field-wrapper select
                                 </div>
                   </div>
                   <div class="md:w-full md:mx-auto lg:w-3/12">
-                        <div class="max-w-[242px] ml-auto mr-auto lg:ml-auto lg:mr-0">  <div class='article-listing relative md:hidden lg:block mb-4'><h4 class='font-medium'>Recommended for you</h4>                  
-				 
+                        <div class="max-w-[242px] ml-auto mr-auto lg:ml-auto lg:mr-0">  <div class='article-listing relative md:hidden lg:block mb-4'><h4 class='font-medium'>Recommended for you</h4>
+
 
   <div class="article">
      <a href="https://coingeek.com/us-ftc-launches-inquiry-into-ai-chatbots-acting-as-companion/"><img alt="US FTC launches inquiry into AI chatbots acting as ‘companion’" class="h-[183px] z-0 w-full object-cover" src="https://coingeek.com/wp-content/uploads/2025/09/Federal-Trade-Commission.webp" /></a>  </div>
 
   <div class="p-4">
-    
+
     <div class="text-black font-base mb-4">
       <a href="https://coingeek.com/us-ftc-launches-inquiry-into-ai-chatbots-acting-as-companion/" title="US FTC launches inquiry into AI chatbots acting as ‘companion’">US FTC launches inquiry into AI chatbots acting as ‘companion’</a>
     </div>
@@ -562,14 +562,14 @@ body form._form_77 div._form-content div._form_element div._field-wrapper select
 
 
 
-                  
-				 
+
+
 
   <div class="article">
      <a href="https://coingeek.com/the-scaling-question-can-blockchain-handle-wall-st-volume/"><img alt="The scaling question: Can blockchain handle Wall St volume?" class="h-[183px] z-0 w-full object-cover" src="https://coingeek.com/wp-content/uploads/2025/09/Wall-Street-sign.webp" /></a>  </div>
 
   <div class="p-4">
-    
+
     <div class="text-black font-base mb-4">
       <a href="https://coingeek.com/the-scaling-question-can-blockchain-handle-wall-st-volume/" title="The scaling question: Can blockchain handle Wall St volume?">The scaling question: Can blockchain handle Wall St volume?</a>
     </div>
@@ -721,10 +721,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		<script id="optinmonster-wp-helper-js" data-type="lazy" data-src="https://coingeek.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js"></script>
 <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,6*1000);const userInteractionEvents=['click', 'mousemove', 'keydown', 'touchstart', 'touchmove', 'wheel'];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
 function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>
-    
+
 		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
 		<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Ok" style="background-color: #00807d">Ok</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
-			
+
 		</div>
 		<!-- / Cookie Notice plugin -->		<script type="text/javascript">var omapi_localized = {
 			ajax: 'https://coingeek.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',

@@ -11,10 +11,10 @@ You've requested a page on a website (artifact.news) that is on the [Cloudflare]
 
 ## What can I do?
 
-**If you are a visitor of this website:**  
+**If you are a visitor of this website:**
 Please try again in a few minutes.
 
-**If you are the owner of this website:**  
+**If you are the owner of this website:**
 Check your DNS settings. If you are using a CNAME origin record, make sure it is valid and resolvable. [Additional troubleshooting information here.](https://support.cloudflare.com/hc/en-us/articles/234979888-Error-1016-Origin-DNS-error)
 
 Was this page helpful?

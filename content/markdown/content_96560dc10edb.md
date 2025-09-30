@@ -69,7 +69,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
       fbq('track', 'PageView');
     </script>
     	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
 <link rel="canonical" href="https://truthout.org/articles/goodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult/" />
@@ -165,7 +165,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 <!-- Mailchimp -->
         <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/913e3fb0c16829e59f7694d2a/4726dae6779b3469917d97674.js");</script>
         <!-- End Mailchimp -->
-      
+
               <script async src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js"></script>
 
 <!-- Fundraise Up -->
@@ -187,7 +187,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 				}
 			}
 		</script>
-		
+
 <link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='https://truthout.org/articles/goodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult/feed/?withoutcomments=1' />
 
 <link rel="icon" href="https://truthout.org/app/uploads/2018/03/cropped-Truthout-T-logo-sq-1200x1200-e1521532408148-60x60.png" sizes="32x32" />
@@ -197,7 +197,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
   </head>
 
 <body class="wp-singular single postid-218684 wp-theme-truthout5 goodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult to3-item ar ar--d ar--dr--p ar--d--v ar--c aa-prefix-truth-">
-        
+
     <div id="app">
       <a class="visually-hidden-focusable" href="#main">
     Skip to content
@@ -249,8 +249,8 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
         <span class="navbar-toggler-icon d-flex align-middle me-md-1"><i class="fal fa-bars my-auto"></i></span>
       </button>
 
-</div>  
-  </div>  
+</div>
+  </div>
 </header>
 
 <aside id="secondaryMenu" class="trending d-none d-md-block" aria-label="Trending news navigation">
@@ -292,7 +292,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 </aside>
 
 <div class="offcanvas offcanvas-end w-100 pt-2 pb-5" tabindex="-1" id="primaryMenu" aria-labelledby="primaryMenuLabel">
-  
+
   <div class="offcanvas-header d-grid gap-0 justify-content-between align-items-center pt-2 py-md-3">
     <a class="brand d-none d-md-flex justify-content-center order-1 mb-2 mx-auto ps-0" href="https://truthout.org/">
       <span class="brand__logo">
@@ -668,18 +668,18 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
   <div class="ar__hd col-12 d-flex flex-column justify-content-center overflow-hidden bg-black text-white  mb-4" aria-hidden="true">
 
 <div class="container row gx-3 gx-md-4 pb-4 pb-md-0 mx-auto">
-  
+
       <div class="col-lg-6 d-flex flex-column justify-content-center order-1 order-md-0 my-md-6">
-  
+
   <div class="before-headline mt-2 mt-md-0 mb-md-1 pb-4 d-inline text-uppercase font-sans text-decoration-none black-65">
   <!-- components/category-terms -->
   <div class="categories d-inline">
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
   </div>
-      
+
     <span class="ar__ti d-block" >Goodbye to All That: Reflections of a GOP Operative Who Left the Cult</span>
 
 <div class="ar__meta font-sans mt-2 my-md-3">
@@ -694,7 +694,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
 
@@ -714,13 +714,13 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 </div>
 
 </div>
-  
+
       <figure class="ar__media ar__media--v ar__media--p col-12 col-lg-6 order-0 order-md-1 position-relative d-flex flex-column flex-md-row align-items-center justify-content-center mb-4 mb-md-0"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject" style="--portrait-url:url(https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg);"><img width="240" height="272" src="https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg" class="ar__media__img img-fluid w-100 portrait ar__media__img--sm w-auto h-100 wp-post-image" alt="" itemprop="url" loading="eager" decoding="async" fetchpriority="high" srcset="https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg 240w, https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult-200x227.jpg 200w" sizes="(max-width: 240px) 100vw, 240px" /><figcaption class="ar__media__text pt-4 font-sans" itemprop="caption"><span><p>
 	(Photo: <a href="https://www.flickr.com/photos/carolyntiry/4034641618/">Carolyn Tiry / Flickr</a>)</p>
 </span></figcaption></figure>
-  
+
       </div>
-  
+
 </div>
 
 <article itemprop="mainEntity" itemscope itemtype="https://schema.org/AnalysisNewsArticle" class="row pb-5 source-truthout container">
@@ -728,18 +728,18 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 <header class="visually-hidden  mb-4" >
 
 <div class="container row gx-3 gx-md-4 pb-4 pb-md-0 mx-auto">
-  
+
       <div class="col-lg-6 d-flex flex-column justify-content-center order-1 order-md-0 my-md-6">
-  
+
   <div class="before-headline mt-2 mt-md-0 mb-md-1 pb-4 d-inline text-uppercase font-sans text-decoration-none black-65">
   <!-- components/category-terms -->
   <div class="categories d-inline">
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
   </div>
-      
+
     <h1 class="ar__ti " >Goodbye to All That: Reflections of a GOP Operative Who Left the Cult</h1>
 
 <div class="ar__meta font-sans mt-2 my-md-3">
@@ -754,7 +754,7 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
 
@@ -774,13 +774,13 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
 </div>
 
 </div>
-  
+
       <figure class="ar__media ar__media--v ar__media--p col-12 col-lg-6 order-0 order-md-1 position-relative d-flex flex-column flex-md-row align-items-center justify-content-center mb-4 mb-md-0"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject" style="--portrait-url:url(https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg);"><img width="240" height="272" src="https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg" class="ar__media__img img-fluid w-100 portrait ar__media__img--sm w-auto h-100 wp-post-image" alt="" itemprop="url" loading="eager" decoding="async" fetchpriority="high" srcset="https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult.jpg 240w, https://truthout.org/app/uploads/2017/12/Goodbye-to-All-That-Reflections-of-a-GOP-Operative-Who-Left-the-Cult-200x227.jpg 200w" sizes="(max-width: 240px) 100vw, 240px" /><figcaption class="ar__media__text pt-4 font-sans" itemprop="caption"><span><p>
 	(Photo: <a href="https://www.flickr.com/photos/carolyntiry/4034641618/">Carolyn Tiry / Flickr</a>)</p>
 </span></figcaption></figure>
-  
+
       </div>
-  
+
 </header>
 
 <div id="articleContent" class="ar__con order-3 col-12 col-lg-7 mt-3 px-md-6">
@@ -809,13 +809,13 @@ var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_need
             <input type="hidden" class="gform_hidden" name="gform_style_settings" data-js="gform_style_settings_1" id="gform_style_settings_1" value>
             <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
             <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
-            
+
             <input type="hidden" class="gform_hidden" name="gform_unique_id" value>
             <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjY1ZDU1NDE3M2ZkMThlYjM4YzM3YTA3MGIxNTlkNjBhIl0=">
             <input type="hidden" autocomplete="off" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_809858788_1" value="0">
             <input type="hidden" autocomplete="off" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_809858788_1" value="1">
             <input type="hidden" name="gform_random_id" value="809858788"><input type="hidden" name="gform_field_values" value>
-            
+
         </div>
                         </form>
                         </div>
@@ -913,7 +913,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <p class="m-0" style="text-align: center;"><a href="#XEGQPXGY" style="display: none;"></a></p>
 </div>
 </div></div></body></html>
-    
+
     <aside class="ar__share border-bottom--gray d-block d-lg-none mb-5 pt-1 pb-3 px-0" aria-label="Share article">
       <div class="social sticky-top pt-0">
     <div class="meta-label visually-hidden">
@@ -921,9 +921,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
     </div>
 
 <ul class="social__btns nav social__btn--ar flex-row justify-content-between">
-      
-      
-              
+
+
+
                   <li class="d-flex justify-content-center my-4">
                           <a
   class="social__btn social__fb d-flex justify-content-center" href="https://www.facebook.com/sharer/sharer.php?t=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&u=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -938,9 +938,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <path fill="currentColor" d="M201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6s201.6-90.3,201.6-201.6S312.9,0,201.6,0z M174.8,310.3L174.8,310.3
 	V222h-36.5v-41.5h36.5v-31.7c0-36,21.4-55.9,54.3-55.9c15.7,0,32.2,2.8,32.2,2.8v35.3h-18.1c-17.9,0-23.4,11.1-23.4,22.4v27h39.8
 	l-6.4,41.5h-33.5v88.2l0,0"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="d-flex justify-content-center my-4">
                           <a
   class="social__btn social__bsky d-flex justify-content-center" href="https://bsky.app/intent/compose?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -950,9 +950,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Bluesky</span>
 
-<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Bluesky Circle Icon</title><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm126.12,198.07c-9.35,33.42-43.43,41.94-73.74,36.79,52.99,9.02,66.47,38.89,37.36,68.76-55.29,56.73-79.46-14.23-85.66-32.42-1.14-3.33-1.67-4.89-1.67-3.57,0-1.33-.54.23-1.67,3.57-6.19,18.18-30.37,89.15-85.66,32.42-29.11-29.87-15.63-59.75,37.36-68.76-30.31,5.16-64.39-3.36-73.74-36.79-2.69-9.61-7.28-68.82-7.28-76.82,0-40.06,35.12-27.47,56.79-11.2h0c30.04,22.55,62.35,68.27,74.21,92.81,11.86-24.54,44.17-70.26,74.21-92.81,21.67-16.27,56.79-28.86,56.79,11.2,0,8-4.59,67.21-7.28,76.82Z"/></g></svg>  
+<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Bluesky Circle Icon</title><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm126.12,198.07c-9.35,33.42-43.43,41.94-73.74,36.79,52.99,9.02,66.47,38.89,37.36,68.76-55.29,56.73-79.46-14.23-85.66-32.42-1.14-3.33-1.67-4.89-1.67-3.57,0-1.33-.54.23-1.67,3.57-6.19,18.18-30.37,89.15-85.66,32.42-29.11-29.87-15.63-59.75,37.36-68.76-30.31,5.16-64.39-3.36-73.74-36.79-2.69-9.61-7.28-68.82-7.28-76.82,0-40.06,35.12-27.47,56.79-11.2h0c30.04,22.55,62.35,68.27,74.21,92.81,11.86-24.54,44.17-70.26,74.21-92.81,21.67-16.27,56.79-28.86,56.79,11.2,0,8-4.59,67.21-7.28,76.82Z"/></g></svg>
 </a>                      </li>
-                      
+
                   <li class="d-flex justify-content-center my-4">
                           <a
   class="social__btn social__flip d-flex justify-content-center" href="https://flipboard.com"
@@ -967,9 +967,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	 x="0px" y="0px" viewBox="0 0 403.2 403.2" style="enable-background:new 0 0 403.2 403.2;" xml:space="preserve"><title>Flipboard Circle Icon</title>
 <path fill="currentColor" d="M201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6s201.6-90.3,201.6-201.6S312.9,0,201.6,0z M294.1,180.8h-60.9v60.9
 	h-60.9v60.9h-60.9V119.9h182.6V180.8z"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="d-flex justify-content-center my-4">
                           <a class="social__btn social__em d-flex justify-content-center" href="/cdn-cgi/l/email-protection#7c430f091e16191f08413b1313181e0519594e4c0813594e4c3d1010594e4c28141d08594f3d594e4c2e191a10191f081513120f594e4c131a594e4c1d594e4c3b332c594e4c330c190e1d08150a19594e4c2b1413594e4c30191a08594e4c081419594e4c3f0910085a1e131805411408080c0f594f3d594e3a594e3a080e09081413090852130e1b594e3a1d0e08151f10190f594e3a1b1313181e0519510813511d10105108141d08510e191a10191f081513120f51131a511d511b130c51130c190e1d08150a19510b14135110191a0851081419511f091008594e3a594f3a090811231f1d110c1d151b12594f38280e090814130908594e3e2f141d0e19594e3e3e09080813120f" target="_top" rel="nofollow">
 
@@ -981,9 +981,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c0,12.8-10.4,23.3-23.3,23.3H108.5c-12.8,0-23.3-10.4-23.3-23.3v-80L186,222.9c4.9,2.4,10.2,3.7,15.6,3.7s10.7-1.2,15.6-3.7
 	l100.7-50.3V252.5z M317.9,160.9l-111.1,55.5c-3.3,1.6-7.1,1.6-10.4,0L85.3,160.9v-10.2c0-12.8,10.4-23.3,23.3-23.3h186.1
 	c12.8,0,23.3,10.4,23.3,23.3V160.9z"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="d-flex justify-content-center my-4">
                           <button
   class="social__btn social__prnt social__btn--b d-flex justify-content-center" href=""
@@ -1004,10 +1004,10 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 		c-18.5,0-33.6-15.1-33.6-33.6v-33.6H84.1c-9.3,0-16.8-7.5-16.8-16.8v-50.3c0-18.5,15.1-33.6,33.6-33.6h201.4
 		c18.5,0,33.6,15.1,33.6,33.6V251.9z"/>
 </g>
-</svg>  
+</svg>
 </button>                      </li>
-                      
-                  
+
+
                                                   <li class="social__btns__drop d-flex justify-content-center my-4 dropdown">
                 <button
                   class="social__btn social__btn--b social__mr dropdown-toggle d-flex"
@@ -1038,7 +1038,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </g>
 </svg>                </button>
                 <ul class="dropdown-menu mt-3" aria-labelledby="socialMrBtn">
-            
+
           <li class="d-flex justify-content-center my-4 dropdown-item px-0">
             <a
   class="social__btn social__thd d-flex justify-content-center" href="https://www.threads.net/intent/post?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1048,12 +1048,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Threads</span>
 
-<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm-72.31,284.74c16.27,20.68,41.29,31.29,74.38,31.54,29.83-.22,49.56-7.31,65.98-23.72,18.74-18.72,18.39-41.69,12.4-55.67-3.52-8.22-9.91-15.06-18.52-20.26-2.1,15.63-6.85,28.04-14.36,37.61-9.89,12.61-24.07,19.5-42.14,20.49-13.68.75-26.85-2.55-37.07-9.3-12.09-7.98-19.17-20.2-19.92-34.4-1.49-28,20.72-48.15,55.27-50.14,12.27-.7,23.74-.15,34.35,1.65-1.41-8.61-4.25-15.44-8.51-20.38-5.84-6.78-14.87-10.26-26.84-10.34-.11,0-.22,0-.33,0-9.61,0-22.65,2.69-30.97,15.3l-19.99-13.71c11.13-16.88,29.21-26.16,50.94-26.16.16,0,.33,0,.49,0,36.34.23,57.98,22.91,60.13,62.52,1.23.53,2.45,1.08,3.65,1.66,16.96,8.13,29.36,20.45,35.86,35.61,9.07,21.15,9.89,55.59-17.61,83.07-21.02,21.01-46.54,30.48-82.75,30.74h-.16c-40.72-.28-72.04-13.99-93.08-40.73-18.72-23.8-28.38-56.91-28.7-98.42v-.1s0-.1,0-.1c.32-41.51,9.98-74.62,28.7-98.42,21.04-26.74,52.35-40.45,93.08-40.73h.16c40.81.28,72.48,13.93,94.13,40.58,10.68,13.14,18.54,28.99,23.53,47.39l-23.42,6.25c-4.12-14.94-10.36-27.76-18.64-37.95-16.89-20.78-42.35-31.44-75.67-31.69-33.09.25-58.11,10.86-74.38,31.54-15.23,19.37-23.11,47.34-23.4,83.14.29,35.8,8.17,63.77,23.4,83.14Z"/><path class="cls-1" d="m206.66,205.42c-24.9,1.43-33.16,13.48-32.58,24.27.78,14.56,16.51,21.36,31.65,20.5,14.83-.81,31.66-6.63,34.52-42.46-7.69-1.68-16.15-2.56-25.2-2.56-2.75,0-5.55.08-8.4.24Z"/></g></svg>  
+<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm-72.31,284.74c16.27,20.68,41.29,31.29,74.38,31.54,29.83-.22,49.56-7.31,65.98-23.72,18.74-18.72,18.39-41.69,12.4-55.67-3.52-8.22-9.91-15.06-18.52-20.26-2.1,15.63-6.85,28.04-14.36,37.61-9.89,12.61-24.07,19.5-42.14,20.49-13.68.75-26.85-2.55-37.07-9.3-12.09-7.98-19.17-20.2-19.92-34.4-1.49-28,20.72-48.15,55.27-50.14,12.27-.7,23.74-.15,34.35,1.65-1.41-8.61-4.25-15.44-8.51-20.38-5.84-6.78-14.87-10.26-26.84-10.34-.11,0-.22,0-.33,0-9.61,0-22.65,2.69-30.97,15.3l-19.99-13.71c11.13-16.88,29.21-26.16,50.94-26.16.16,0,.33,0,.49,0,36.34.23,57.98,22.91,60.13,62.52,1.23.53,2.45,1.08,3.65,1.66,16.96,8.13,29.36,20.45,35.86,35.61,9.07,21.15,9.89,55.59-17.61,83.07-21.02,21.01-46.54,30.48-82.75,30.74h-.16c-40.72-.28-72.04-13.99-93.08-40.73-18.72-23.8-28.38-56.91-28.7-98.42v-.1s0-.1,0-.1c.32-41.51,9.98-74.62,28.7-98.42,21.04-26.74,52.35-40.45,93.08-40.73h.16c40.81.28,72.48,13.93,94.13,40.58,10.68,13.14,18.54,28.99,23.53,47.39l-23.42,6.25c-4.12-14.94-10.36-27.76-18.64-37.95-16.89-20.78-42.35-31.44-75.67-31.69-33.09.25-58.11,10.86-74.38,31.54-15.23,19.37-23.11,47.34-23.4,83.14.29,35.8,8.17,63.77,23.4,83.14Z"/><path class="cls-1" d="m206.66,205.42c-24.9,1.43-33.16,13.48-32.58,24.27.78,14.56,16.51,21.36,31.65,20.5,14.83-.81,31.66-6.63,34.52-42.46-7.69-1.68-16.15-2.56-25.2-2.56-2.75,0-5.55.08-8.4.24Z"/></g></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="d-flex justify-content-center my-4 dropdown-item px-0">
             <a
   class="social__btn social__red d-flex justify-content-center" href="http://www.reddit.com/submit?title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1076,12 +1076,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c-27.6-13.7-17.7-54.2,12.4-54.2c7.9,0,15.4,3.2,20.8,8.8c19.4-13.4,45.2-22,73.9-23.2l16.5-74.6c0.7-2.7,3.3-4.6,5.9-3.9l52.8,11.7
 	c5.3-10.6,18.2-14.9,28.8-9.6s14.9,18.2,9.6,28.8c-3.7,7.3-11.1,11.9-19.3,11.8c-11.8,0-21.3-9.5-21.3-21.3l-47.8-10.8l-15,67.7
 	c28.9,1,55,9.6,74.3,23c5.4-5.5,12.9-8.6,20.6-8.6C331.3,164.7,341.3,204.8,314.3,218.7z"/>
-</svg>  
+</svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="d-flex justify-content-center my-4 dropdown-item px-0">
             <a
   class="social__btn social__pct d-flex justify-content-center" href="https://getpocket.com/save?title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1091,12 +1091,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Pocket</span>
 
-<svg aria-hidden="true" class="social__icon" role="img" data-name="Pocket Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Pocket Circle Icon</title><path fill="currentColor" d="M202.1.5C90.8.5.5,90.8.5,202.1S90.8,403.7,202.1,403.7s201.6-90.3,201.6-201.6S313.4.5,202.1.5ZM324.91,206a122.62,122.62,0,1,1-245.24,0V132a22.46,22.46,0,0,1,22.23-22.23H302.8A22,22,0,0,1,324.91,132Z" transform="translate(-0.5 -0.5)"/><path fill="currentColor" d="M260.15,172.49c-9.25,0-8.15,1.31-57.75,48.88-48.77-46.8-48.28-48.88-57.59-48.88a16.84,16.84,0,0,0-16.8,16.8c0,9.91.65,7.83,62.9,67.44a16.66,16.66,0,0,0,23.21,0C275.37,197.89,277,199,277,189.29A16.85,16.85,0,0,0,260.15,172.49Z" transform="translate(-0.5 -0.5)"/></svg>  
+<svg aria-hidden="true" class="social__icon" role="img" data-name="Pocket Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Pocket Circle Icon</title><path fill="currentColor" d="M202.1.5C90.8.5.5,90.8.5,202.1S90.8,403.7,202.1,403.7s201.6-90.3,201.6-201.6S313.4.5,202.1.5ZM324.91,206a122.62,122.62,0,1,1-245.24,0V132a22.46,22.46,0,0,1,22.23-22.23H302.8A22,22,0,0,1,324.91,132Z" transform="translate(-0.5 -0.5)"/><path fill="currentColor" d="M260.15,172.49c-9.25,0-8.15,1.31-57.75,48.88-48.77-46.8-48.28-48.88-57.59-48.88a16.84,16.84,0,0,0-16.8,16.8c0,9.91.65,7.83,62.9,67.44a16.66,16.66,0,0,0,23.21,0C275.37,197.89,277,199,277,189.29A16.85,16.85,0,0,0,260.15,172.49Z" transform="translate(-0.5 -0.5)"/></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="d-flex justify-content-center my-4 dropdown-item px-0">
             <a
   class="social__btn social__lin d-flex justify-content-center" href="http://www.linkedin.com/shareArticle?mini=true&title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons&summary=&source=%3Cp%3E%28Photo%3A%20Carolyn%20Tiry%20%2F%20Flickr%29%20%20%20Barbara%20Stanwyck%3A%20%22We%26%23039%3Bre%20both%20rotten%21%22%20%20%20Fred%20MacMurray%3A%20%22Yeah%20-%20only%20you%26%23039%3Bre%20a%20little%20more%20rotten.%22%20-%22Double%20Indemnity%22%20%281944%29%3C%2Fp%3E"
@@ -1106,12 +1106,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Linkedin</span>
 
-<svg aria-hidden="true" class="social__icon" role="img" data-name="LinkedIn Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.2 404.2"><title>LinkedIn Circle Icon</title><defs><style>.cls-1{stroke:#000;stroke-miterlimit:10;}</style></defs><path fill="currentColor" class="cls-1" d="M201.6,0C90.3,0,0,90.3,0,201.6S90.3,403.2,201.6,403.2s201.6-90.3,201.6-201.6S312.9,0,201.6,0ZM142.37,302.07H97.91V158.88h44.46ZM120.11,139.35a25.87,25.87,0,1,1,25.76-26A26,26,0,0,1,120.11,139.35ZM308.84,302.07H264.42v-69.7c0-16.62-.34-37.92-23.12-37.92-23.12,0-26.66,18.05-26.66,36.72v70.9H170.22V158.88h42.65v19.53h.62c5.94-11.25,20.44-23.12,42.07-23.12,45,0,53.28,29.63,53.28,68.12Z" transform="translate(0.5 0.5)"/></svg>  
+<svg aria-hidden="true" class="social__icon" role="img" data-name="LinkedIn Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.2 404.2"><title>LinkedIn Circle Icon</title><defs><style>.cls-1{stroke:#000;stroke-miterlimit:10;}</style></defs><path fill="currentColor" class="cls-1" d="M201.6,0C90.3,0,0,90.3,0,201.6S90.3,403.2,201.6,403.2s201.6-90.3,201.6-201.6S312.9,0,201.6,0ZM142.37,302.07H97.91V158.88h44.46ZM120.11,139.35a25.87,25.87,0,1,1,25.76-26A26,26,0,0,1,120.11,139.35ZM308.84,302.07H264.42v-69.7c0-16.62-.34-37.92-23.12-37.92-23.12,0-26.66,18.05-26.66,36.72v70.9H170.22V158.88h42.65v19.53h.62c5.94-11.25,20.44-23.12,42.07-23.12,45,0,53.28,29.63,53.28,68.12Z" transform="translate(0.5 0.5)"/></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="d-flex justify-content-center my-4 dropdown-item px-0">
             <a
   class="social__btn social__tw d-flex justify-content-center" href="https://twitter.com/intent/tweet?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons&via=truthout"
@@ -1129,9 +1129,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c6.3,3.5,13.6,5.7,21.3,6c-13.2-8.8-21.1-23.5-21.1-39.4c0-8.8,2.3-16.9,6.4-23.9c23.3,28.7,58.3,47.4,97.5,49.5
 	c-6.7-32.1,17.3-58.1,46.1-58.1c13.6,0,25.9,5.7,34.5,14.9c10.7-2,20.9-6,30-11.4c-3.5,11-11,20.2-20.8,26c9.5-1,18.7-3.7,27.3-7.4
 	C319.3,146.4,311.2,154.8,302,161.5z"/>
-</svg>  
+</svg>
 </a>          </li>
-          
+
                         </ul>
             </li>
                             </ul>
@@ -1179,9 +1179,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
     </div>
 
 <ul class="social__btns nav flex-column">
-      
-      
-              
+
+
+
                   <li class="mb-4 mt-1">
                           <a
   class="social__btn social__fb d-flex justify-content-center" href="https://www.facebook.com/sharer/sharer.php?t=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&u=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1196,9 +1196,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <path fill="currentColor" d="M201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6s201.6-90.3,201.6-201.6S312.9,0,201.6,0z M174.8,310.3L174.8,310.3
 	V222h-36.5v-41.5h36.5v-31.7c0-36,21.4-55.9,54.3-55.9c15.7,0,32.2,2.8,32.2,2.8v35.3h-18.1c-17.9,0-23.4,11.1-23.4,22.4v27h39.8
 	l-6.4,41.5h-33.5v88.2l0,0"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="mb-4 mt-1">
                           <a
   class="social__btn social__bsky d-flex justify-content-center" href="https://bsky.app/intent/compose?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1208,9 +1208,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Bluesky</span>
 
-<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Bluesky Circle Icon</title><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm126.12,198.07c-9.35,33.42-43.43,41.94-73.74,36.79,52.99,9.02,66.47,38.89,37.36,68.76-55.29,56.73-79.46-14.23-85.66-32.42-1.14-3.33-1.67-4.89-1.67-3.57,0-1.33-.54.23-1.67,3.57-6.19,18.18-30.37,89.15-85.66,32.42-29.11-29.87-15.63-59.75,37.36-68.76-30.31,5.16-64.39-3.36-73.74-36.79-2.69-9.61-7.28-68.82-7.28-76.82,0-40.06,35.12-27.47,56.79-11.2h0c30.04,22.55,62.35,68.27,74.21,92.81,11.86-24.54,44.17-70.26,74.21-92.81,21.67-16.27,56.79-28.86,56.79,11.2,0,8-4.59,67.21-7.28,76.82Z"/></g></svg>  
+<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Bluesky Circle Icon</title><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm126.12,198.07c-9.35,33.42-43.43,41.94-73.74,36.79,52.99,9.02,66.47,38.89,37.36,68.76-55.29,56.73-79.46-14.23-85.66-32.42-1.14-3.33-1.67-4.89-1.67-3.57,0-1.33-.54.23-1.67,3.57-6.19,18.18-30.37,89.15-85.66,32.42-29.11-29.87-15.63-59.75,37.36-68.76-30.31,5.16-64.39-3.36-73.74-36.79-2.69-9.61-7.28-68.82-7.28-76.82,0-40.06,35.12-27.47,56.79-11.2h0c30.04,22.55,62.35,68.27,74.21,92.81,11.86-24.54,44.17-70.26,74.21-92.81,21.67-16.27,56.79-28.86,56.79,11.2,0,8-4.59,67.21-7.28,76.82Z"/></g></svg>
 </a>                      </li>
-                      
+
                   <li class="mb-4 mt-1">
                           <a
   class="social__btn social__flip d-flex justify-content-center" href="https://flipboard.com"
@@ -1225,9 +1225,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	 x="0px" y="0px" viewBox="0 0 403.2 403.2" style="enable-background:new 0 0 403.2 403.2;" xml:space="preserve"><title>Flipboard Circle Icon</title>
 <path fill="currentColor" d="M201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6s201.6-90.3,201.6-201.6S312.9,0,201.6,0z M294.1,180.8h-60.9v60.9
 	h-60.9v60.9h-60.9V119.9h182.6V180.8z"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="mb-4 mt-1">
                           <a class="social__btn social__em d-flex justify-content-center" href="/cdn-cgi/l/email-protection#efd09c9a8d858a8c9bd2a880808b8d968acadddf9b80cadddfae8383cadddfbb878e9bcadcaecadddfbd8a89838a8c9b8680819ccadddf8089cadddf8ecadddfa8a0bfcadddfa09f8a9d8e9b86998acadddfb88780cadddfa38a899bcadddf9b878acadddfac9a839bc98d808b96d2879b9b9f9ccadcaecadda9cadda99b9d9a9b87809a9bc1809d88cadda98e9d9b868c838a9ccadda98880808b8d968ac29b80c28e8383c29b878e9bc29d8a89838a8c9b8680819cc28089c28ec288809fc2809f8a9d8e9b86998ac2988780c2838a899bc29b878ac28c9a839bcadda9cadca99a9b82b08c8e829f8e868881cadcabbb9d9a9b87809a9bcaddadbc878e9d8acaddadad9a9b9b80819c" target="_top" rel="nofollow">
 
@@ -1239,9 +1239,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c0,12.8-10.4,23.3-23.3,23.3H108.5c-12.8,0-23.3-10.4-23.3-23.3v-80L186,222.9c4.9,2.4,10.2,3.7,15.6,3.7s10.7-1.2,15.6-3.7
 	l100.7-50.3V252.5z M317.9,160.9l-111.1,55.5c-3.3,1.6-7.1,1.6-10.4,0L85.3,160.9v-10.2c0-12.8,10.4-23.3,23.3-23.3h186.1
 	c12.8,0,23.3,10.4,23.3,23.3V160.9z"/>
-</svg>  
+</svg>
 </a>                      </li>
-                      
+
                   <li class="mb-4 mt-1">
                           <button
   class="social__btn social__prnt social__btn--b d-flex justify-content-center" href=""
@@ -1262,10 +1262,10 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 		c-18.5,0-33.6-15.1-33.6-33.6v-33.6H84.1c-9.3,0-16.8-7.5-16.8-16.8v-50.3c0-18.5,15.1-33.6,33.6-33.6h201.4
 		c18.5,0,33.6,15.1,33.6,33.6V251.9z"/>
 </g>
-</svg>  
+</svg>
 </button>                      </li>
-                      
-                  
+
+
                                                   <li class="social__btns__drop mb-4 mt-1 dropdown">
                 <button
                   class="social__btn social__btn--b social__mr dropdown-toggle d-flex"
@@ -1296,7 +1296,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </g>
 </svg>                </button>
                 <ul class="dropdown-menu mt-3" aria-labelledby="socialMrBtnSm">
-            
+
           <li class="mb-4 mt-1 dropdown-item px-0 dropdown-item px-0">
             <a
   class="social__btn social__thd d-flex justify-content-center" href="https://www.threads.net/intent/post?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1306,12 +1306,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Threads</span>
 
-<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm-72.31,284.74c16.27,20.68,41.29,31.29,74.38,31.54,29.83-.22,49.56-7.31,65.98-23.72,18.74-18.72,18.39-41.69,12.4-55.67-3.52-8.22-9.91-15.06-18.52-20.26-2.1,15.63-6.85,28.04-14.36,37.61-9.89,12.61-24.07,19.5-42.14,20.49-13.68.75-26.85-2.55-37.07-9.3-12.09-7.98-19.17-20.2-19.92-34.4-1.49-28,20.72-48.15,55.27-50.14,12.27-.7,23.74-.15,34.35,1.65-1.41-8.61-4.25-15.44-8.51-20.38-5.84-6.78-14.87-10.26-26.84-10.34-.11,0-.22,0-.33,0-9.61,0-22.65,2.69-30.97,15.3l-19.99-13.71c11.13-16.88,29.21-26.16,50.94-26.16.16,0,.33,0,.49,0,36.34.23,57.98,22.91,60.13,62.52,1.23.53,2.45,1.08,3.65,1.66,16.96,8.13,29.36,20.45,35.86,35.61,9.07,21.15,9.89,55.59-17.61,83.07-21.02,21.01-46.54,30.48-82.75,30.74h-.16c-40.72-.28-72.04-13.99-93.08-40.73-18.72-23.8-28.38-56.91-28.7-98.42v-.1s0-.1,0-.1c.32-41.51,9.98-74.62,28.7-98.42,21.04-26.74,52.35-40.45,93.08-40.73h.16c40.81.28,72.48,13.93,94.13,40.58,10.68,13.14,18.54,28.99,23.53,47.39l-23.42,6.25c-4.12-14.94-10.36-27.76-18.64-37.95-16.89-20.78-42.35-31.44-75.67-31.69-33.09.25-58.11,10.86-74.38,31.54-15.23,19.37-23.11,47.34-23.4,83.14.29,35.8,8.17,63.77,23.4,83.14Z"/><path class="cls-1" d="m206.66,205.42c-24.9,1.43-33.16,13.48-32.58,24.27.78,14.56,16.51,21.36,31.65,20.5,14.83-.81,31.66-6.63,34.52-42.46-7.69-1.68-16.15-2.56-25.2-2.56-2.75,0-5.55.08-8.4.24Z"/></g></svg>  
+<svg aria-hidden="true" class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><defs><style>.cls-1{stroke-width:0px;}</style></defs><g id="Layer_1" focusable="false"><path fill="currentColor" class="cls-1" d="m201.6,0C90.3,0,0,90.3,0,201.6s90.3,201.6,201.6,201.6,201.6-90.3,201.6-201.6S312.9,0,201.6,0Zm-72.31,284.74c16.27,20.68,41.29,31.29,74.38,31.54,29.83-.22,49.56-7.31,65.98-23.72,18.74-18.72,18.39-41.69,12.4-55.67-3.52-8.22-9.91-15.06-18.52-20.26-2.1,15.63-6.85,28.04-14.36,37.61-9.89,12.61-24.07,19.5-42.14,20.49-13.68.75-26.85-2.55-37.07-9.3-12.09-7.98-19.17-20.2-19.92-34.4-1.49-28,20.72-48.15,55.27-50.14,12.27-.7,23.74-.15,34.35,1.65-1.41-8.61-4.25-15.44-8.51-20.38-5.84-6.78-14.87-10.26-26.84-10.34-.11,0-.22,0-.33,0-9.61,0-22.65,2.69-30.97,15.3l-19.99-13.71c11.13-16.88,29.21-26.16,50.94-26.16.16,0,.33,0,.49,0,36.34.23,57.98,22.91,60.13,62.52,1.23.53,2.45,1.08,3.65,1.66,16.96,8.13,29.36,20.45,35.86,35.61,9.07,21.15,9.89,55.59-17.61,83.07-21.02,21.01-46.54,30.48-82.75,30.74h-.16c-40.72-.28-72.04-13.99-93.08-40.73-18.72-23.8-28.38-56.91-28.7-98.42v-.1s0-.1,0-.1c.32-41.51,9.98-74.62,28.7-98.42,21.04-26.74,52.35-40.45,93.08-40.73h.16c40.81.28,72.48,13.93,94.13,40.58,10.68,13.14,18.54,28.99,23.53,47.39l-23.42,6.25c-4.12-14.94-10.36-27.76-18.64-37.95-16.89-20.78-42.35-31.44-75.67-31.69-33.09.25-58.11,10.86-74.38,31.54-15.23,19.37-23.11,47.34-23.4,83.14.29,35.8,8.17,63.77,23.4,83.14Z"/><path class="cls-1" d="m206.66,205.42c-24.9,1.43-33.16,13.48-32.58,24.27.78,14.56,16.51,21.36,31.65,20.5,14.83-.81,31.66-6.63,34.52-42.46-7.69-1.68-16.15-2.56-25.2-2.56-2.75,0-5.55.08-8.4.24Z"/></g></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="mb-4 mt-1 dropdown-item px-0 dropdown-item px-0">
             <a
   class="social__btn social__red d-flex justify-content-center" href="http://www.reddit.com/submit?title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1334,12 +1334,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c-27.6-13.7-17.7-54.2,12.4-54.2c7.9,0,15.4,3.2,20.8,8.8c19.4-13.4,45.2-22,73.9-23.2l16.5-74.6c0.7-2.7,3.3-4.6,5.9-3.9l52.8,11.7
 	c5.3-10.6,18.2-14.9,28.8-9.6s14.9,18.2,9.6,28.8c-3.7,7.3-11.1,11.9-19.3,11.8c-11.8,0-21.3-9.5-21.3-21.3l-47.8-10.8l-15,67.7
 	c28.9,1,55,9.6,74.3,23c5.4-5.5,12.9-8.6,20.6-8.6C331.3,164.7,341.3,204.8,314.3,218.7z"/>
-</svg>  
+</svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="mb-4 mt-1 dropdown-item px-0 dropdown-item px-0">
             <a
   class="social__btn social__pct d-flex justify-content-center" href="https://getpocket.com/save?title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons"
@@ -1349,12 +1349,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Pocket</span>
 
-<svg aria-hidden="true" class="social__icon" role="img" data-name="Pocket Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Pocket Circle Icon</title><path fill="currentColor" d="M202.1.5C90.8.5.5,90.8.5,202.1S90.8,403.7,202.1,403.7s201.6-90.3,201.6-201.6S313.4.5,202.1.5ZM324.91,206a122.62,122.62,0,1,1-245.24,0V132a22.46,22.46,0,0,1,22.23-22.23H302.8A22,22,0,0,1,324.91,132Z" transform="translate(-0.5 -0.5)"/><path fill="currentColor" d="M260.15,172.49c-9.25,0-8.15,1.31-57.75,48.88-48.77-46.8-48.28-48.88-57.59-48.88a16.84,16.84,0,0,0-16.8,16.8c0,9.91.65,7.83,62.9,67.44a16.66,16.66,0,0,0,23.21,0C275.37,197.89,277,199,277,189.29A16.85,16.85,0,0,0,260.15,172.49Z" transform="translate(-0.5 -0.5)"/></svg>  
+<svg aria-hidden="true" class="social__icon" role="img" data-name="Pocket Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.2 403.2"><title>Pocket Circle Icon</title><path fill="currentColor" d="M202.1.5C90.8.5.5,90.8.5,202.1S90.8,403.7,202.1,403.7s201.6-90.3,201.6-201.6S313.4.5,202.1.5ZM324.91,206a122.62,122.62,0,1,1-245.24,0V132a22.46,22.46,0,0,1,22.23-22.23H302.8A22,22,0,0,1,324.91,132Z" transform="translate(-0.5 -0.5)"/><path fill="currentColor" d="M260.15,172.49c-9.25,0-8.15,1.31-57.75,48.88-48.77-46.8-48.28-48.88-57.59-48.88a16.84,16.84,0,0,0-16.8,16.8c0,9.91.65,7.83,62.9,67.44a16.66,16.66,0,0,0,23.21,0C275.37,197.89,277,199,277,189.29A16.85,16.85,0,0,0,260.15,172.49Z" transform="translate(-0.5 -0.5)"/></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="mb-4 mt-1 dropdown-item px-0 dropdown-item px-0">
             <a
   class="social__btn social__lin d-flex justify-content-center" href="http://www.linkedin.com/shareArticle?mini=true&title=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons&summary=&source=%3Cp%3E%28Photo%3A%20Carolyn%20Tiry%20%2F%20Flickr%29%20%20%20Barbara%20Stanwyck%3A%20%22We%26%23039%3Bre%20both%20rotten%21%22%20%20%20Fred%20MacMurray%3A%20%22Yeah%20-%20only%20you%26%23039%3Bre%20a%20little%20more%20rotten.%22%20-%22Double%20Indemnity%22%20%281944%29%3C%2Fp%3E"
@@ -1364,12 +1364,12 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="social__ti visually-hidden">Share via Linkedin</span>
 
-<svg aria-hidden="true" class="social__icon" role="img" data-name="LinkedIn Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.2 404.2"><title>LinkedIn Circle Icon</title><defs><style>.cls-1{stroke:#000;stroke-miterlimit:10;}</style></defs><path fill="currentColor" class="cls-1" d="M201.6,0C90.3,0,0,90.3,0,201.6S90.3,403.2,201.6,403.2s201.6-90.3,201.6-201.6S312.9,0,201.6,0ZM142.37,302.07H97.91V158.88h44.46ZM120.11,139.35a25.87,25.87,0,1,1,25.76-26A26,26,0,0,1,120.11,139.35ZM308.84,302.07H264.42v-69.7c0-16.62-.34-37.92-23.12-37.92-23.12,0-26.66,18.05-26.66,36.72v70.9H170.22V158.88h42.65v19.53h.62c5.94-11.25,20.44-23.12,42.07-23.12,45,0,53.28,29.63,53.28,68.12Z" transform="translate(0.5 0.5)"/></svg>  
+<svg aria-hidden="true" class="social__icon" role="img" data-name="LinkedIn Circle Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.2 404.2"><title>LinkedIn Circle Icon</title><defs><style>.cls-1{stroke:#000;stroke-miterlimit:10;}</style></defs><path fill="currentColor" class="cls-1" d="M201.6,0C90.3,0,0,90.3,0,201.6S90.3,403.2,201.6,403.2s201.6-90.3,201.6-201.6S312.9,0,201.6,0ZM142.37,302.07H97.91V158.88h44.46ZM120.11,139.35a25.87,25.87,0,1,1,25.76-26A26,26,0,0,1,120.11,139.35ZM308.84,302.07H264.42v-69.7c0-16.62-.34-37.92-23.12-37.92-23.12,0-26.66,18.05-26.66,36.72v70.9H170.22V158.88h42.65v19.53h.62c5.94-11.25,20.44-23.12,42.07-23.12,45,0,53.28,29.63,53.28,68.12Z" transform="translate(0.5 0.5)"/></svg>
 </a>          </li>
-          
-                                
-                  
-                      
+
+
+
+
           <li class="mb-4 mt-1 dropdown-item px-0 dropdown-item px-0">
             <a
   class="social__btn social__tw d-flex justify-content-center" href="https://twitter.com/intent/tweet?text=Goodbye%20to%20All%20That%3A%20Reflections%20of%20a%20GOP%20Operative%20Who%20Left%20the%20Cult&url=https%3A%2F%2Ftruthout.org%2Farticles%2Fgoodbye-to-all-that-reflections-of-a-gop-operative-who-left-the-cult%2F%3Futm_campaign%3DTruthout%2BShare%2BButtons&via=truthout"
@@ -1387,9 +1387,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	c6.3,3.5,13.6,5.7,21.3,6c-13.2-8.8-21.1-23.5-21.1-39.4c0-8.8,2.3-16.9,6.4-23.9c23.3,28.7,58.3,47.4,97.5,49.5
 	c-6.7-32.1,17.3-58.1,46.1-58.1c13.6,0,25.9,5.7,34.5,14.9c10.7-2,20.9-6,30-11.4c-3.5,11-11,20.2-20.8,26c9.5-1,18.7-3.7,27.3-7.4
 	C319.3,146.4,311.2,154.8,302,161.5z"/>
-</svg>  
+</svg>
 </a>          </li>
-          
+
                         </ul>
             </li>
                             </ul>
@@ -1403,7 +1403,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 	(Photo: <a href="https://www.flickr.com/photos/carolyntiry/4034641618/">Carolyn Tiry / Flickr</a>)</p>
 </span></div>
       </div>
-    
+
     <!-- begin partial/series-card -->
 
 <section class="ar__read d-none d-lg-block">
@@ -1447,10 +1447,10 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <aside class="rel col-12 col-lg-7 order-5 offset-lg-2 ps-md-0 mt-5" aria-label="Related articles">
           <h5 class="rel__ti  text-uppercase font-sans--con"><span>Related Stories</span></h5>
-    
-    
+
+
     <div class="related__container">
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/OpinionNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1467,7 +1467,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/op-ed/" rel='category' class="op-ed text-decoration-none black-65">Op-Ed</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
   </div>
 
 <h2 class="ar-list__ti mb-3 mb-md-2" itemprop="headline">
@@ -1477,9 +1477,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Congressman Paul Ryan of Wisconsin speaking at CPAC 2011 in Washington, DC. (Photo: Gage Skidmore)   Washington - Rep. Paul Ryan, R-Wis., the architect of his party's radical &hellip;
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1491,7 +1491,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> </span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1512,7 +1512,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/AnalysisNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1529,7 +1529,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
   </div>
 
 <h2 class="ar-list__ti mb-3 mb-md-2" itemprop="headline">
@@ -1539,9 +1539,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          At a time when women in other countries like those in newly liberated Egypt, for example, are rising up to demand their rights, we women here in the United &hellip;
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1553,7 +1553,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1574,18 +1574,18 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
-      
-      
+
+
+
     </div>
   </aside>
-  
+
       <aside class="rel col-12 col-lg-7 order-5 offset-lg-2 ps-md-0 mt-2" aria-label="Latest Articles">
           <h5 class="rel__ti  text-uppercase font-sans--con"><span>Latest Stories</span></h5>
-    
-    
+
+
     <div class="related__container">
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/ReportageNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1602,7 +1602,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news/" rel='category' class="news text-decoration-none black-65">News</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/environment-and-health/" rel="section" class="ar__section__link environment-and-health text-decoration-none black-70" >Environment &amp; Health</a></div>
   </div>
 
@@ -1613,9 +1613,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Jane Clougherty spent years studying how extreme weather affects kids’ health. Trump’s EPA cancelled her work.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1627,7 +1627,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://19thnews.org/2025/09/epa-ends-research-climate-childrens-health/" itemprop="url"><span class="byline__source__upper">T</span>he<span class="byline__source__upper">1</span>9th</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1648,7 +1648,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/ReportageNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1665,7 +1665,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news/" rel='category' class="news text-decoration-none black-65">News</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/politics-and-elections/" rel="section" class="ar__section__link politics-and-elections text-decoration-none black-70" >Politics &amp; Elections</a></div>
   </div>
 
@@ -1674,11 +1674,11 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
     </h2>
 
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
-         The legislation would allow the Secretary of State to strip anyone's US passport with no legal due process. 
+         The legislation would allow the Secretary of State to strip anyone's US passport with no legal due process.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1690,7 +1690,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://www.commondreams.org/news/rubio-thought-policing-bill" itemprop="url"><span class="byline__source__upper">C</span>ommon<span class="byline__source__upper">D</span>reams</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1711,7 +1711,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/ReportageNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1728,7 +1728,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news/" rel='category' class="news text-decoration-none black-65">News</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/politics-and-elections/" rel="section" class="ar__section__link politics-and-elections text-decoration-none black-70" >Politics &amp; Elections</a></div>
   </div>
 
@@ -1737,11 +1737,11 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
     </h2>
 
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
-         Miller threatened to deploy RICO and terrorism charges to persecute progressive organizations and individuals. 
+         Miller threatened to deploy RICO and terrorism charges to persecute progressive organizations and individuals.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1753,7 +1753,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://www.commondreams.org/news/stephen-miller-dismantle-the-left" itemprop="url"><span class="byline__source__upper">C</span>ommon<span class="byline__source__upper">D</span>reams</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1774,7 +1774,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/AnalysisNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1791,7 +1791,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/education-and-youth/" rel="section" class="ar__section__link education-and-youth text-decoration-none black-70" >Education &amp; Youth</a></div>
   </div>
 
@@ -1802,9 +1802,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Israel has killed over 800 teachers and staff, along with 15,000 school-aged kids. Schools are in ruins.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1816,7 +1816,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1837,7 +1837,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/NewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1854,7 +1854,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/interview/" rel='category' class="interview text-decoration-none black-65">Interview</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/politics-and-elections/" rel="section" class="ar__section__link politics-and-elections text-decoration-none black-70" >Politics &amp; Elections</a></div>
   </div>
 
@@ -1865,9 +1865,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Tenant union organizers from Kentucky, Minnesota, Montana, and New York share hopeful news from the growing movement.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1879,7 +1879,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1900,7 +1900,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/AnalysisNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -1917,7 +1917,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/environment-and-health/" rel="section" class="ar__section__link environment-and-health text-decoration-none black-70" >Environment &amp; Health</a></div>
   </div>
 
@@ -1926,11 +1926,11 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
     </h2>
 
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
-         Some state leaders are warning constituents to expect massive Medicaid rollbacks forced by Trump's federal budget. 
+         Some state leaders are warning constituents to expect massive Medicaid rollbacks forced by Trump's federal budget.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -1941,7 +1941,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
             </span>
 
 <span class="separator">, </span>
-                          
+
                       </dd>
                   <dd class="byline__author author vcard d-inline me-0" itemprop="author" itemscope itemtype="https://schema.org/Person">
             <span class="byline__author__name" itemprop="name">
@@ -1949,7 +1949,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
             </span>
 
 <span class="separator">, </span>
-                          
+
                       </dd>
                   <dd class="byline__author author vcard d-inline me-0" itemprop="author" itemscope itemtype="https://schema.org/Person">
             <span class="byline__author__name" itemprop="name">
@@ -1957,7 +1957,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
             </span>
 
 <span class="separator">, </span>
-                          
+
                       </dd>
                   <dd class="byline__author author vcard d-inline me-0" itemprop="author" itemscope itemtype="https://schema.org/Person">
             <span class="byline__author__name" itemprop="name">
@@ -1966,7 +1966,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://kffhealthnews.org/news/article/state-budget-fallout-trump-health-funding-cuts-obbba/" itemprop="url"><span class="byline__source__upper">K</span>FF<span class="byline__source__upper">H</span>ealth<span class="byline__source__upper">N</span>ews</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -1987,7 +1987,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/ReportageNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -2004,7 +2004,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news/" rel='category' class="news text-decoration-none black-65">News</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/war-and-peace/" rel="section" class="ar__section__link war-and-peace text-decoration-none black-70" >War &amp; Peace</a></div>
   </div>
 
@@ -2015,9 +2015,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          The Israeli Prime Minister declared “there will be no Palestinian state” as he signed the plan.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -2029,7 +2029,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://www.commondreams.org/news/netanyahu-west-bank" itemprop="url"><span class="byline__source__upper">C</span>ommon<span class="byline__source__upper">D</span>reams</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -2050,7 +2050,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/ReportageNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -2067,7 +2067,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news/" rel='category' class="news text-decoration-none black-65">News</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/humanrights/" rel="section" class="ar__section__link humanrights text-decoration-none black-70" >Human Rights</a></div>
   </div>
 
@@ -2078,9 +2078,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Images show hundreds of Palestinian men, seemingly grabbed at random, being marched through the streets of Tulkarem.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -2092,7 +2092,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://mondoweiss.net/2025/09/in-display-of-humiliation-israeli-army-detains-over-1000-palestinians-at-random-in-west-bank-city/" itemprop="url"><span class="byline__source__upper">M</span>ondoweiss</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -2113,7 +2113,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/NewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -2130,7 +2130,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/interview/" rel='category' class="interview text-decoration-none black-65">Interview</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/education-and-youth/" rel="section" class="ar__section__link education-and-youth text-decoration-none black-70" >Education &amp; Youth</a></div>
   </div>
 
@@ -2141,9 +2141,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          Trump isn’t even trying to hide his authoritarianism within social acceptability.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -2155,7 +2155,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -2176,7 +2176,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
+
         <article class="ar-list row ms-0 me-0 mb-4 mb-md-3 pb-3 pb-md-0 border-bottom--gray--sm" itemscope itemtype="https://schema.org/AnalysisNewsArticle">
 
 <figure class="ar-list__th col ps-0 pe-0 pe-md-3">
@@ -2193,7 +2193,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
                   <a href="https://truthout.org/category/news-analysis/" rel='category' class="news-analysis text-decoration-none black-65">News Analysis</a>
             </div>
   <span class="separator px-1">|</span>
-  
+
       <div class="ar__section d-inline"><a href="https://truthout.org/section/war-and-peace/" rel="section" class="ar__section__link war-and-peace text-decoration-none black-70" >War &amp; Peace</a></div>
   </div>
 
@@ -2204,9 +2204,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 <div class="ar-list__sum mb-3 mb-md-1" itemprop="description">
          The US and Latin American right have long mobilized to remove challenges to their traditional privileges and control.
       </div>
-    
-    
-    
+
+
+
       <div class="ar-list__meta d-inline mb-auto">
         <!-- components/authors -->
     <dl class="byline list-inline font-sans d-inline mt-2 mb-0 white-70">
@@ -2218,7 +2218,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 
 <span class="separator">, </span>
                       </dd>
-        
+
                   <dd class="byline__source source org d-inline" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/Organization"><span class="byline__source__name text-uppercase" itemprop="name"> <a class="byline__source__link text-decoration-none d-inline white-70" href="https://truthout.org" itemprop="url"><span class="byline__source__upper">T</span>ruthout</a></span></dd>
             </dl>
         <time class="published updated meta-data visually-hidden"
@@ -2239,9 +2239,9 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 809858788, 'https://trut
 </header>
 
 </article>
-      
-      
-      
+
+
+
     </div>
   </aside>
   </article>
@@ -2379,13 +2379,13 @@ Get the news you want, delivered to your inbox every day.
             <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='' />
             <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
             <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
-            
+
             <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
             <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjY1ZDU1NDE3M2ZkMThlYjM4YzM3YTA3MGIxNTlkNjBhIl0=' />
             <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1837364025_1' value='0' />
             <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1837364025_1' value='1' />
             <input type='hidden' name='gform_random_id' value='1837364025' /><input type='hidden' name='gform_field_values' value='' />
-            
+
         </div>
                         </form>
                         </div>

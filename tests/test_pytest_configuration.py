@@ -69,7 +69,7 @@ class TestPytestConfiguration:
             cwd=Path.cwd(),
         )
         stdout, stderr = process.communicate()
-        
+
         # Should not fail catastrophically
         assert process.returncode in [
             0,
@@ -239,7 +239,7 @@ class TestPytestPlugins:
                 timeout=30,
             )
             stdout, stderr = process.communicate()
-            
+
             assert process.returncode in [
                 0,
                 1,

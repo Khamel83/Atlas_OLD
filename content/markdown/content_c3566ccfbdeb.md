@@ -35,7 +35,7 @@
 <script>gtmDataLayer = [];</script>
 
 <script src="/web/20220518043307js_/https://food52.com/dist/gtm_core_data.302d8b88b351588c5e3d.js"></script>
-    
+
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='DataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20220518043307/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -192,7 +192,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -318,7 +318,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
   </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -335,7 +335,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="meta">
           <div class="meta__author">
-            <span>by:</span> 
+            <span>by:</span>
             <a class="meta__caps" rel="author" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Article Header" data-ga-destination-url="/users/206106-amanda-sims/articles" href="/web/20220518043307/https://food52.com/users/206106-amanda-sims/articles">Amanda Sims</a>
           </div>
 
@@ -343,7 +343,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
             <div class="meta__date">
               <span>January&nbsp;26,&nbsp;2016</span>
             </div>
-          
+
           <div class="meta__comments">
             <a href="javascript:void(0);" class="js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header" data-ga-destination-url="none">
               <span class="icon__comments"></span>
@@ -434,7 +434,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
               <p>There are so many incredible tiles and patterns to choose from in the world. As a call for change from the subway tile status quo, for an acceptance that tile can be expressive and exciting, for confidence in creative design, <strong>here are 5 clean, uncluttered alternatives to subway tile that can do everything it can do—and better.</strong></p><div class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
               <h2>Beveled</h2>
-              
+
   <div class="image-group image-group--inline">
 
 <figure class="single-image single-image--half ">
@@ -471,7 +471,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <p>With six beveled sides, this <a href="http://web.archive.org/web/20220518043307/http://www.nemotile.com/ceramic/formae/diamond-cotton" target="_blank">Formae Diamond Cotton tile by Nemo</a> (above, left) adds dimension and interest while still being regular, white, and glossy. A slightly less dramatic bevel, just around the edges of each tile, paired with an unexpected vertical pattern (above, right) is similarly shaken up while still relying on glossy rectangular unit.</p>
               <h2>Color</h2>
-              
+
   <div class="image-group image-group--inline">
 
 <figure class="single-image single-image--half ">
@@ -509,7 +509,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 <p>Whether you go casual or splashy—as in these juicy green <a href="http://web.archive.org/web/20220518043307/http://www.badiadesign.com/moroccan-mosaic-tiles/?sort=priceasc" target="_blank">Moroccan Mosaic Tiles from Badia Design</a> (above, right)—choosing tiles that are colorful doesn't mean you will miss having one more sliver of white wall space. <strong>In fact, especially on a backsplash or in a bathroom, a rich hue will help disguise grime in between cleanings.</strong> Either work with a range of related tones (above, left), or spring for a saturated color and lay the tiles horizontally (as in, don't go too crazy if your color is).</p>
               <p><strong>More: <a href="http://web.archive.org/web/20220518043307/https://food52.com/blog/14050-5-unexpected-ways-to-use-tile-in-your-home">How to use tile even more unexpectedly in your home</a>.</strong></p>
               <h2>Pattern</h2>
-              
+
   <div class="image-group image-group--inline">
 
 <figure class="single-image single-image--half ">
@@ -546,7 +546,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <p><strong>A playful pattern</strong>—either in the way you lay the tile (above, right) or on the tile itself (above, left)—can change everything. The otherwise simple white marble tiles above (from <a href="http://web.archive.org/web/20220518043307/http://www.mandarinstone.com/kitchen-gallery/" target="_blank">Mandarin Stone</a>) are statement-making when laid in a sideways herringbone pattern with a jagged uncut edge left exposed; and the patterned black and white bathroom section on the left is almost cozy, like a textile. Replace either with subway tile, and Pinterest would have cried.</p>
               <h2>Shape &amp; Scale</h2>
-              
+
   <div class="image-group image-group--inline">
 
 <figure class="single-image single-image--half ">
@@ -583,7 +583,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <p><strong>Tiny hexagonal ceramic tiles</strong>(above, right) are a great way to go if you want to stay white (or gray, or marbled) and glossy but change up the shape. And you can even opt for stick-on sheets of them, like <a href="http://web.archive.org/web/20220518043307/http://www.thesmarttiles.com/en_us/tiles/hexago/" target="_blank">these genius little guys from Smart Tiles</a>, which make it possible for renters to tile, too. On the flip side (above, left), oversized rectangles of tile can do even quicker work of covering large walls—and with less grout the clean over time.</p>
               <h2>Handmade</h2>
-              
+
   <div class="image-group image-group--inline">
 
 <figure class="single-image single-image--half ">
@@ -631,7 +631,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
                   <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Interior Design" data-ga-destination-url="/tags/interior-design" href="/web/20220518043307/https://food52.com/tags/interior-design">Interior Design</a></li>
               </ul>
             </div>
-            
+
 <div class="comments-teaser">
   <div class="comments-teaser__icons">
     <span class="icon__comments"></span>
@@ -728,7 +728,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
   </div>
 
 <div class="author__bio">
-      Professional trespasser. 
+      Professional trespasser.
     </div>
 </div>
 
@@ -764,7 +764,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">
@@ -1162,7 +1162,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
     </nav>
 
 <div class="footer__actions">
-      
+
 <div class="social-charms ">
   <ul class="social-charms__icons" aria-label="Food52 social media links">
     <li>
@@ -1234,9 +1234,9 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
         f52.inputs.gtmCoreData = gtmCoreData;
       })();
     </script>
-    
-    
-  
+
+
+
     <script>
       (function() {
         if (typeof(f52) === 'undefined') {

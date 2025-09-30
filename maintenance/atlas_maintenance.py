@@ -46,8 +46,8 @@ def retry_failed_articles():
         seven_days_ago = datetime.now() - timedelta(days=7)
         cursor.execute(
             """
-            SELECT id, url FROM articles 
-            WHERE status = 'failed' 
+            SELECT id, url FROM articles
+            WHERE status = 'failed'
             AND created_at > ?
             ORDER BY created_at DESC
         """,
@@ -67,7 +67,7 @@ def retry_failed_articles():
         for article_id, url in failed_articles:
             cursor.execute(
                 """
-                UPDATE articles 
+                UPDATE articles
                 SET status = 'pending', updated_at = ?
                 WHERE id = ?
             """,
@@ -155,10 +155,10 @@ def deduplicate_content():
         # Find and remove duplicate articles based on URL
         cursor.execute(
             """
-            DELETE FROM articles 
+            DELETE FROM articles
             WHERE id NOT IN (
-                SELECT MIN(id) 
-                FROM articles 
+                SELECT MIN(id)
+                FROM articles
                 GROUP BY url
             )
         """
@@ -169,10 +169,10 @@ def deduplicate_content():
         # Find and remove duplicate podcasts based on URL
         cursor.execute(
             """
-            DELETE FROM podcasts 
+            DELETE FROM podcasts
             WHERE id NOT IN (
-                SELECT MIN(id) 
-                FROM podcasts 
+                SELECT MIN(id)
+                FROM podcasts
                 GROUP BY url
             )
         """
@@ -183,10 +183,10 @@ def deduplicate_content():
         # Find and remove duplicate YouTube videos based on URL
         cursor.execute(
             """
-            DELETE FROM youtube_videos 
+            DELETE FROM youtube_videos
             WHERE id NOT IN (
-                SELECT MIN(id) 
-                FROM youtube_videos 
+                SELECT MIN(id)
+                FROM youtube_videos
                 GROUP BY url
             )
         """

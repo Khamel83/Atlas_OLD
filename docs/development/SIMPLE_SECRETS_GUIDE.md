@@ -2,8 +2,8 @@
 
 ## 🎯 The Simple Rule
 
-**Real secrets = Home folder** (`~/.secrets/`)  
-**Dev work = Dev folder** (`~/dev/`)  
+**Real secrets = Home folder** (`~/.secrets/`)
+**Dev work = Dev folder** (`~/dev/`)
 **Never mix them!**
 
 ---
@@ -18,7 +18,7 @@ bash /home/ubuntu/setup_secrets.sh
 
 **That's it!** It creates everything you need:
 - ✅ `~/.secrets/PROJECT_NAME.env` (for your real keys)
-- ✅ `.env` template (safe to commit) 
+- ✅ `.env` template (safe to commit)
 - ✅ `load_secrets.sh` (connects them)
 - ✅ `.gitignore` protection
 
@@ -37,7 +37,7 @@ source load_secrets.sh
 python run.py --all
 ```
 
-**That's it!** 
+**That's it!**
 
 ---
 
@@ -46,7 +46,7 @@ python run.py --all
 When you run `bash /home/ubuntu/setup_secrets.sh PROJECT_NAME`:
 
 1. **Creates** `~/.secrets/PROJECT_NAME.env` with template for real keys
-2. **Creates** `.env` with safe `${VAR:-default}` patterns  
+2. **Creates** `.env` with safe `${VAR:-default}` patterns
 3. **Creates** `load_secrets.sh` that connects them
 4. **Updates** `.gitignore` to block secrets
 5. **Ready to use** - just add your real keys and load!

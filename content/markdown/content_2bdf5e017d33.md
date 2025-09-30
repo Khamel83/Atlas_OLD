@@ -140,11 +140,11 @@
 <meta property="og:image" content="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/3ea8e95/2147483647/strip/true/crop/823x432+104+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg">
 
 <meta property="og:image:url" content="https://chronicle.brightspotcdn.com/dims4/default/3ea8e95/2147483647/strip/true/crop/823x432+104+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg">
-    
+
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/png">
-    
+
     <meta property="og:image:alt" content="Opinion: Why I Regret Pushing Strategic Philanthropy">
 
 <meta property="og:description" content="A foundation veteran who (co-)wrote the book on marrying measurement to giving now says the ideas he promoted have had some “nasty” effects on donor-grantee relationships.">
@@ -166,22 +166,22 @@
 <meta property="article:kicker" content="Opinion">
 
 <meta name="twitter:card" content="summary_large_image"/>
-    
-    
-    
-    
+
+
+
+
     <meta name="twitter:description" content="A foundation veteran who (co-)wrote the book on marrying measurement to giving now says the ideas he promoted have had some “nasty” effects on donor-grantee relationships."/>
-    
-    
+
+
     <meta name="twitter:image" content="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/41946f8/2147483647/strip/true/crop/768x432+131+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg"/>
 
 <meta name="twitter:image:alt" content="Opinion: Why I Regret Pushing Strategic Philanthropy"/>
-    
-    
+
+
     <meta name="twitter:site" content="@Philanthropy"/>
-    
-    
-    
+
+
+
     <meta name="twitter:title" content="Why I Regret Pushing Strategic Philanthropy"/>
 
 <meta property="fb:app_id" content="639343763599274">
@@ -863,38 +863,38 @@ head.appendChild(googleFont);
     <a href="#main-content" class="skip-navigation" aria-label="Skip to main content" data-cms-ai="0">Skip to content</a>
     <div class="Page-header-desktop">
     <div class="Page-header-desktop-container">
-        
+
             <div class="Page-hat">
     <span class="Page-hat-featured-callout">FEATURED: </span>
-    
+
         <nav class="DefaultNavigation" aria-label="website navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    
+
         <ul class="DefaultNavigation-items">
-            
+
                 <li class="DefaultNavigation-items-item">
                     <div class="DefaultNavigationItem">
-    
+
         <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/philanthropy-50" data-cms-ai="0">Philanthropy 50: Top Donors</a>
-    
-    
+
+
 </div>
                 </li>
-            
+
                 <li class="DefaultNavigation-items-item">
                     <div class="DefaultNavigationItem">
-    
+
         <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/impact-stories" data-cms-ai="0">Impact Stories Hub</a>
-    
-    
+
+
 </div>
                 </li>
-            
+
         </ul>
-    
+
 </nav>
-    
+
 </div>
-        
+
         <div class="Page-header-desktop-bar">
             <div class="Page-header-desktop-start">
                 <div class="Page-header-desktop-bar-access-level">
@@ -909,245 +909,245 @@ head.appendChild(googleFont);
                     <div id="Page-header-subscribe-button-desktop" class="Page-header-subscribe-button">
                         <chron-subscription-btn-observer data-template-type="header" data-desktop-viewport></chron-subscription-btn-observer>
                     </div>
-                    
-                        
+
+
     <a class="AuthZeroLogin" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/login?redirectUri=%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F" data-cms-ai="0">Sign In</a>
 
 </div>
             </div>
 
 <div class="Page-header-desktop-full-navigation">
-                
+
                     <nav class="Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    
-    
+
+
         <ul class="Navigation-items">
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/latest" data-cms-ai="0">Latest</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/commons" data-cms-ai="0">Commons</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/advice" data-cms-ai="0">Advice</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/opinion" data-cms-ai="0">Opinion</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/webinars" data-cms-ai="0">Webinars</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/online-events" data-cms-ai="0">Online Events</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/tag/data" data-cms-ai="0">Data</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/grants" data-cms-ai="0">Grants</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="/web/20250116174217/https://www.philanthropy.com/issue/current" data-cms-ai="0">Magazine</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Store</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Jobs</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
         </ul>
-    
+
 </nav>
-                
-                
+
+
                     <button class="Page-header-desktop-search-button"><svg class="icon-magnify"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#icon-magnify"></use></svg><span class="sr-only">Show Search</span><svg class="close-x"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#close-x"></use></svg></button>
 
 <div class="Page-header-desktop-search-overlay">
@@ -1156,7 +1156,7 @@ head.appendChild(googleFont);
                             <button type="submit" class="Page-header-desktop-search-submit"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#icon-magnify"></use></svg><span class="sr-only">Submit Search</span></button>
                         </form>
                     </div>
-                
+
             </div>
         </div>
     </div>
@@ -1173,245 +1173,245 @@ head.appendChild(googleFont);
                     <div id="Page-header-subscribe-button-scroll" class="Page-header-subscribe-button">
                         <chron-subscription-btn-observer data-template-type="header"></chron-subscription-btn-observer>
                     </div>
-                    
-                        
+
+
     <a class="AuthZeroLogin" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/login?redirectUri=%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F" data-cms-ai="0">Sign In</a>
 
 </div>
             </div>
 
 <div class="Page-header-scroll-full-navigation">
-                
+
                     <nav class="Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    
-    
+
+
         <ul class="Navigation-items">
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/latest" data-cms-ai="0">Latest</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/commons" data-cms-ai="0">Commons</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/advice" data-cms-ai="0">Advice</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/opinion" data-cms-ai="0">Opinion</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/webinars" data-cms-ai="0">Webinars</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/online-events" data-cms-ai="0">Online Events</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/tag/data" data-cms-ai="0">Data</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/grants" data-cms-ai="0">Grants</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="/web/20250116174217/https://www.philanthropy.com/issue/current" data-cms-ai="0">Magazine</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Store</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Jobs</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
         </ul>
-    
+
 </nav>
-                
-                
+
+
                     <button class="Page-header-scroll-search-button"><svg class="icon-magnify"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#icon-magnify"></use></svg><span class="sr-only">Show Search</span><svg class="close-x"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#close-x"></use></svg></button>
 
 <div class="Page-header-scroll-search-overlay">
@@ -1420,7 +1420,7 @@ head.appendChild(googleFont);
                             <button type="submit" class="Page-header-scroll-search-submit"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#icon-magnify"></use></svg><span class="sr-only">Submit Search</span></button>
                         </form>
                     </div>
-                
+
             </div>
         </div>
     </div>
@@ -1430,243 +1430,243 @@ head.appendChild(googleFont);
         <div class="Page-header-mobile-hamburger-menu">
             <div class="Page-header-mobile-hamburger-menu-wrapper">
                 <div class="Page-header-mobile-hamburger-menu-content">
-                    
+
                         <form class="Page-header-mobile-hamburger-menu-search-form" action="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/search#nt=navsearch" novalidate="" autocomplete="off">
                             <label><input placeholder="Search" type="text" class="Page-header-mobile-hamburger-menu-search-input" name="q" required="true" spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off"><span class="sr-only">Search Query</span></label>
                             <button type="submit" class="Page-header-mobile-hamburger-menu-search-submit"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#icon-magnify"></use></svg><span class="sr-only">Submit Search</span></button>
                         </form>
-                    
-                    
+
+
                         <nav class="Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    
-    
+
+
         <ul class="Navigation-items">
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/latest" data-cms-ai="0">Latest</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/commons" data-cms-ai="0">Commons</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/advice" data-cms-ai="0">Advice</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/opinion" data-cms-ai="0">Opinion</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/webinars" data-cms-ai="0">Webinars</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/online-events" data-cms-ai="0">Online Events</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/tag/data" data-cms-ai="0">Data</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/grants" data-cms-ai="0">Grants</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <a class="NavigationItem-text-link" href="/web/20250116174217/https://www.philanthropy.com/issue/current" data-cms-ai="0">Magazine</a>
-        
-        
+
+
     </div>
 
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Store</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/" target="_blank" data-cms-ai="0">Featured Products</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/data" target="_blank" data-cms-ai="0">Data</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/reports" target="_blank" data-cms-ai="0">Reports</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/collections" target="_blank" data-cms-ai="0">Collections</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/pages/issues-of-the-chronicle" target="_blank" data-cms-ai="0">Back Issues</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/http://store.philanthropy.com/collections/upcoming-webinars" target="_blank" data-cms-ai="0">Webinars</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="Navigation-items-item"><div class="NavigationItem">
     <div class="NavigationItem-text">
-        
+
             <span>Jobs</span>
-        
-        
+
+
             <div class="NavigationItem-more">
                 <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="NavigationItem-items" data-item-close="false">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavigationItem-items-placeholder">
-            
-                
+
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-                
+
                     <li class="NavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
         </ul>
-    
+
 </nav>
-                    
-                    
+
+
                 </div>
             </div>
         </div>
@@ -1681,8 +1681,8 @@ head.appendChild(googleFont);
                     <div id="Page-header-subscribe-button-mobile" class="Page-header-subscribe-button">
                         <chron-subscription-btn-observer data-template-type="header"></chron-subscription-btn-observer>
                     </div>
-                    
-                        
+
+
     <a class="AuthZeroLogin" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/login?redirectUri=%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F" data-cms-ai="0">Sign In</a>
 
 </div>
@@ -1695,14 +1695,14 @@ head.appendChild(googleFont);
 <div class="Page-header-bar-logo-print" aria-hidden="true"><a aria-label="the chronicle of philanthropy home" href="/web/20250116174217/https://www.philanthropy.com/" data-cms-ai="0"><svg class="bar-logo"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#bar-logo"></use></svg></a></div>
 
 <div class="Page-above">
-    
-        
-            
-                
+
+
+
+
     <div class="OneColumnContainer " data-rule-below>
-    
+
     <div class="OneColumnContainer-row">
-        
+
             <div class="OneColumnContainer-column">
                 <div class="GoogleDfpAd-container">
     <div class="GoogleDfpAd-label">ADVERTISEMENT</div>
@@ -1711,7 +1711,7 @@ head.appendChild(googleFont);
     </div>
 </div>
             </div>
-        
+
     </div>
 </div>
 
@@ -1722,12 +1722,12 @@ head.appendChild(googleFont);
                     <div class="ArticlePage-main-content">
                         <article class="ArticlePage-mainContent">
                             <div class="ArticlePage-topBar">
-                                
+
                                     <div class="ArticlePage-kicker">
                                         Opinion
                                     </div>
-                                
-                                
+
+
                                     <div class="ArticlePage-actions">
                                         <ps-actionbar class="ActionBar">
     <ul class="ActionBar-items">
@@ -1750,22 +1750,22 @@ head.appendChild(googleFont);
             <button class="ActionBar-dropdown-close" data-dropdown-close><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#close-x"></use></svg><span class="sr-only">Close extra sharing options</span></button>
         </div>
         <ul class="ActionBar-dropdown-items">
-            
+
                 <li class="ActionBar-dropdown-items-item"><a class="ActionLink" href="http://web.archive.org/web/20250116174217/https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.philanthropy.com%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F&amp;text=Why%20I%20Regret%20Pushing%20Strategic%20Philanthropy" target="_blank" data-social-service="twitter" data-cms-ai="0">
     <svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-twitter"/></svg><span>Twitter</span>
 </a>
 </li>
-            
+
                 <li class="ActionBar-dropdown-items-item"><a class="ActionLink" href="http://web.archive.org/web/20250116174217/https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.philanthropy.com%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F&amp;mini=true&amp;title=Why%20I%20Regret%20Pushing%20Strategic%20Philanthropy&amp;summary=A%20foundation%20veteran%20who%20%28co-%29wrote%20the%20book%20on%20marrying%20measurement%20to%20giving%20now%20says%20the%20ideas%20he%20promoted%20have%20had%20some%20%22nasty%22%20effects%20on%20donor-grantee%20relationships.&amp;source=COP" target="_blank" data-social-service="linkedin" data-cms-ai="0">
     <svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-linkedin"></use></svg><span>LinkedIn</span>
 </a>
 </li>
-            
+
                 <li class="ActionBar-dropdown-items-item"><a class="ActionLink" href="http://web.archive.org/web/20250116174217/mailto:/?body=Why%20I%20Regret%20Pushing%20Strategic%20Philanthropy%0A%0Ahttps%3A%2F%2Fwww.philanthropy.com%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F%0A%0AA%20foundation%20veteran%20who%20%28co-%29wrote%20the%20book%20on%20marrying%20measurement%20to%20giving%20now%20says%20the%20ideas%20he%20promoted%20have%20had%20some%20%22nasty%22%20effects%20on%20donor-grantee%20relationships." data-social-service="mailto" data-cms-ai="0">
     <svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-email"></use></svg><span>Email</span>
 </a>
 </li>
-            
+
                 <li class="ActionBar-dropdown-items-item"> <a class="ActionLink" href="http://web.archive.org/web/20250116174217/https://www.facebook.com/dialog/share?app_id=639343763599274&amp;display=popup&amp;href=https%3A%2F%2Fwww.philanthropy.com%2Farticle%2Fwhy-i-regret-pushing-strategic-philanthropy%2F" target="_blank" data-social-service="facebook" data-cms-ai="0">
     <svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-facebook"></use></svg><span>Facebook</span>
 </a>
@@ -1782,7 +1782,7 @@ head.appendChild(googleFont);
 </ps-actionbar>
 
 </div>
-                                
+
                             </div>
 
 <h1 class="ArticlePage-headline" itemprop="headline">
@@ -1790,17 +1790,17 @@ head.appendChild(googleFont);
     </h1>
 
 <div class="ArticlePage-byline">
-        
-            
+
+
                 <div class="ArticlePage-authors"><div class="ArticlePage-authorName" itemprop="name">
     <span class="ArticlePage-authorBy">By&nbsp;</span>
 
 <span class="Link">Hal Harvey</span>
     </div></div>
-                
+
                     <span class="ArticlePage-bylineSpacer"></span>
-                
-            
+
+
         <div class="ArticlePage-datePublished">
         April 4, 2016
     </div>
@@ -1809,40 +1809,40 @@ head.appendChild(googleFont);
 </div>
 
 <div class="ArticlePage-articleContainer">
-                                
-                                
+
+
                                     <div class="ArticlePage-articleBody ArticlePage-summary" data-content-summary>
                                         <div class="RichTextArticleBody">
-    
+
         <div class="RichTextArticleBody-body RichTextBody"><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item"><figure class="Figure">
 
 <picture data-imagesize="originalAspectRatio" data-imagesizeformobile="originalAspectRatioMobile">
 
 <source width="840" height="352" srcset="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/7e8854c/2147483647/strip/true/crop/1030x432+0+0/resize/1680x704!/format/webp/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg 2x" type="image/webp"/>
                     <source width="840" height="352" srcset="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/f324749/2147483647/strip/true/crop/1030x432+0+0/resize/1680x704!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg 2x"/>
-                
+
                 <img src="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/cfe36a0/2147483647/strip/true/crop/1030x432+0+0/resize/840x352!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg" class="Image" alt="Opinion: Why I Regret Pushing Strategic Philanthropy"/>
 
 </picture>
 
 <div class="Figure-content">
-        
+
     <div class="Figure-credit" itemprop="author">Christophe Vorlet For The Chronicle</div>
-        
+
         </div>
-        
-    
+
+
 </figure></div>
-            
+
         </div><p> As co-author, with Paul Brest, of <em>Money Well Spent,</em> a handbook on strategic philanthropy, I sometimes feel I owe the world an apology. The book’s ideas and arguments are important and legitimate, but I did not properly anticipate the potential side effects of this concept, and some of them are nasty indeed.</p><p>When we published our book in 2009, Paul and I argued that foundations needed clear, explicit strategies, as well as ways to measure progress against this strategy. That seems like common sense. But a major challenge for strategic philanthropy is that it can create delusions of omniscience in many program officers. Instead of reviewing grant proposals, querying experts, synthesizing ideas, and respecting those with years in the field, many program directors and officers become auteurs: They begin to see themselves as the origin of intelligence as well as the arbiters of money.</p></div>
-    
+
 </div>
 
 <div class="CreativeWorkPage-defaultSummaryNotification-fog"></div>
 <div id="cdp-summary-notification" class="CreativeWorkPage-defaultSummaryNotification ArticlePage-defaultSummaryNotification" data-summary-notification>
-    
+
         <h3>We're sorry. Something went wrong.</h3>
         <p>We are unable to fully display the content of this page.</p>
 
@@ -1853,38 +1853,38 @@ head.appendChild(googleFont);
             or <a href="/web/20250116174217/https://www.philanthropy.com/subscribe?offer=mixar12&amp;ref=default-message-page=1" data-cms-ai="0">subscribe</a>.</p>
 
 <p>If you continue to experience issues, please contact us at 571-540-8070 or <a href="http://web.archive.org/web/20250116174217/mailto:cophelp@philanthropy.com" data-cms-ai="0">cophelp@philanthropy.com</a></p>
-    
+
 </div>
                                     </div>
-                                
-                                
+
+
                                     <div class="ArticlePage-articleBody contentBody" ppajfrg86rdhoubtirllb2bf1xsaknzus hidden>
                                         <div class="RichTextArticleBody">
-    
+
         <div class="RichTextArticleBody-body RichTextBody"><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item"><figure class="Figure">
 
 <picture data-imagesize="originalAspectRatio" data-imagesizeformobile="originalAspectRatioMobile">
 
 <source width="840" height="352" srcset="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/7e8854c/2147483647/strip/true/crop/1030x432+0+0/resize/1680x704!/format/webp/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg 2x" type="image/webp"/>
                     <source width="840" height="352" srcset="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/f324749/2147483647/strip/true/crop/1030x432+0+0/resize/1680x704!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg 2x"/>
-                
+
                 <img src="http://web.archive.org/web/20250116174217im_/https://chronicle.brightspotcdn.com/dims4/default/cfe36a0/2147483647/strip/true/crop/1030x432+0+0/resize/840x352!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2F70%2F4d%2Fe72e3cf2b8ce35729320262a2210%2Fphoto-76263-original.jpg" class="Image" alt="Opinion: Why I Regret Pushing Strategic Philanthropy"/>
 
 </picture>
 
 <div class="Figure-content">
-        
+
     <div class="Figure-credit" itemprop="author">Christophe Vorlet For The Chronicle</div>
-        
+
         </div>
-        
-    
+
+
 </figure></div>
-            
+
         </div><p> As co-author, with Paul Brest, of <em>Money Well Spent,</em> a handbook on strategic philanthropy, I sometimes feel I owe the world an apology. The book’s ideas and arguments are important and legitimate, but I did not properly anticipate the potential side effects of this concept, and some of them are nasty indeed.</p> <p>When we published our book in 2009, Paul and I argued that foundations needed clear, explicit strategies, as well as ways to measure progress against this strategy. That seems like common sense. But a major challenge for strategic philanthropy is that it can create delusions of omniscience in many program officers. Instead of reviewing grant proposals, querying experts, synthesizing ideas, and respecting those with years in the field, many program directors and officers become auteurs: They begin to see themselves as the origin of intelligence as well as the arbiters of money.</p> <p>The grant-making business already starts with a deep imbalance of power, with one party wielding the decision-making authority and the other more or less on bended knee. Add the presumption of strategy, and in no time, grant seekers become whipsawed approval-seekers and grant makers become demigods — with all the theocratic arbitrariness that term implies.</p> <p>Consider some examples: One foundation that used to pride itself on general support and long-term commitments to important institutions now routinely sits in when grantees interview job seekers. This foundation also suggests whom grantees should hire or fire. Another foundation that also offers a lot of general support has now spent millions of dollars on consultants that it selected to rewrite grantees’ strategic plans. These consultants, who report directly to the foundation staff, have scotched some programs and launched others. When grant makers select staff members and projects for grantees, the line between foundation-as-judge and foundation-as-operator is lost, and with it, any sense of accountability.</p> <p>All of this would be OK if foundations were better at strategy than their grantees. And sometimes they are. At any given time, there will be grantees in trouble, and many program officers are smart and capable. But when this usurpation becomes common practice, as is increasingly the case, the effects can be ruinous.</p><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item">
     <div class="GoogleDfpAd-container">
     <div class="GoogleDfpAd-label">ADVERTISEMENT</div>
@@ -1894,15 +1894,15 @@ head.appendChild(googleFont);
 </div>
 
 </div>
-            
+
         </div><p> </p><p>The first round of damage is to the programs foundations support. Program officers simply do not have the experience, the relationships, or the close contact with subjects that grantees do, and while this distance sometimes provides a useful outside perspective, it can also make for lousy decisions. One organization with an unmatched track record in reducing carbon emissions through public policy was told by its primary supporters that they should seek “twofers,” that is, grants that not only abated carbon but also helped nudge politically purple states toward blue. The result: zerofers.</p><div class="Enhancement" data-align-left>
-            
+
                 <div class="Enhancement-item"><div class="Quote">
-    
+
     <blockquote data-hide-quotes>Grant makers don’t have the experience or relationships that grantees do, and that can make for lousy decisions.</blockquote></div></div>
-            
+
         </div><p></p> <p>Under pressure from grant makers, this organization had to cut its work in several solidly blue states that wanted to cut carbon emissions and needed help doing so. The nonprofit walked away from those potential gains, yet it didn’t create any perceivable political shifts in the purple states.</p> <p>The second round of damage comes as the grantee’s senior leaders — and sometimes the entire staff — begin to tacitly shift their attention from the original mission to the goal of pleasing the grant makers. Do we want capable, energetic, and accomplished CEOs to become so oriented toward pleasing their foundation supporters that they forget how to lead, or lose the sense of freedom and spirit to lead? As this erosion continues, talented leaders have learned to ask, first, Can we raise money around this? Will it please our donors? And secondarily: Will this help us win in advancing our mission?</p> <p>The most important arsenal in social change is capable, motivated, driven leaders. There is simply no substitute. When these leaders become minor gears in the program officer’s strategy, we all lose. I am sorry to report that the ranks of disheartened leaders are growing for precisely this reason.</p> <p>Another big issue in strategic philanthropy involves measuring results.</p><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item">
     <div class="GoogleDfpAd-container">
     <div class="GoogleDfpAd-label">ADVERTISEMENT</div>
@@ -1912,9 +1912,9 @@ head.appendChild(googleFont);
 </div>
 
 </div>
-            
+
         </div><p> </p><p>Strategic philanthropy requires a grant maker to be specific about goals and then to measure the effects of her grants against those goals. As we all know, social change is difficult to gauge — especially when it involves policy or social practice — so surrogate measures are necessary. For policy, one might monitor changes in public opinion, or positive media attention, or the spillover effects driving similar policies elsewhere, or ex post facto benefits. There are also intermediary measures: What material has been produced, who has been spoken to, what meetings have been held, how many media briefings have been held, and so forth.</p> <p>Each of these reporting points (and many more) has an individual rationale, but collectively they can become toxic. One experienced grantee with a six-year record of large-scale successes told me about a foundation that, in the name of strategic philanthropy, began to invent milestones for its grant. The foundation made a big grant but also created 59 milestones for the first nine months of the grant and demanded weekly reporting on progress. As humor columnist Dave Barry says, “I am not making this up.”</p> <p>The grantee was forced to refocus — away from his work and toward reporting, even going so far as to hire a full-time associate just to track and report when the milestones were reached. He was neutered by this sort of “strategic philanthropy.”</p> <p>I could go on, but instead let me offer six observations and suggestions that can perhaps help guide the concept of strategic philanthropy away from some shoals.</p> <p><strong>The sum of process does not equal strategy.</strong> Roughly speaking, there are people who excel at process and people who excel at strategy. Many people master neither skill, and a very few do both well. The problem in strategic philanthropy arises when those who master process but lack the ken for strategy are put in charge. They conjure best practices, metrics, milestones, key performance indicators, reporting requirements, and more. Each item may make sense on its own, but in total it’s nonsense. And in any event, doing all of this is still no substitute for a real strategy. But meeting all of these process requirements can wipe out the strategic drive of any nonprofit leader.</p><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item">
     <div class="GoogleDfpAd-container">
     <div class="GoogleDfpAd-label">ADVERTISEMENT</div>
@@ -1924,9 +1924,9 @@ head.appendChild(googleFont);
 </div>
 
 </div>
-            
+
         </div><p> </p><p><strong>Consultants are rarely good strategists. </strong>There are many smart consultants, but most of them are not experts in policy, let alone in building a campaign to win a policy, for example. They can identify trends and point out flaws. They can help nonprofits with organizational structure. They may see gaps in the grantee’s thinking or help analyze what’s happening to a cause a foundation supports. They can offer data to compare processes and budgets with other nonprofits. But they should not be in charge of developing a strategy. Getting addicted to consultants is a sure sign of trouble.</p> <p><strong>Reporting must benefit, in obvious ways, the grant maker, the grantee, or, ideally, both.</strong> This is a crucial line to draw. If grant makers cannot identify a specific, tangible benefit from a reporting requirement, they should drop it.</p> <p><strong>The center of strategy-making should not lie solely in the foundation. </strong>If a foundation decides to lead with strategic philanthropy, it needs a structured, serious way to consult with groups that work on the causes it hopes to aid. It needs to show respect for expertise and experience. It needs to act as a humble synthesizer rather than an omniscient leader. Grant makers, listen, gather, synthesize, test. Do these for real, not as a fake front. Build the strategy around what you learn, and then show the experts how you did so.</p> <p><strong>Program officers and program directors must constantly remind themselves of the imbalance of power and its impact on decisions and evaluations.</strong> The narcotics of power are a quiet, near-ubiquitous poison. If, as a foundation board member, you find your program staff reporting only smooth processes, Madoffian records of success, and genteel relations with organizations that work on the causes the foundation supports, you will want to be alert to the dangerous distortions your staff may actually imbue in the field. Foundation leaders have a duty to reach beyond self-reporting and to remember that they didn’t stop having bad ideas the day they started giving away money. Philanthropy has no checks and balances and is well insulated from criticism or truth-telling, so a real foundation leader must ensure that the program staff does not succumb to the poison.</p> <p><strong>When you find good nonprofit leaders or groups, give them the benefit of the doubt.</strong> Go to first principles: You are lucky that the groups and leaders are already strong. A grant maker’s job is to support those institutions and leaders. Write the check and get out of the way.</p><div class="Enhancement" data-align-center>
-            
+
                 <div class="Enhancement-item">
     <div class="GoogleDfpAd-container">
     <div class="GoogleDfpAd-label">ADVERTISEMENT</div>
@@ -1936,16 +1936,16 @@ head.appendChild(googleFont);
 </div>
 
 </div>
-            
+
         </div><p> </p><p>I remain a strong supporter of strategic philanthropy: Foundations should have clear goals based on a substantive understanding of issues and a strong sense of what drives change. They must track whether plans deliver results. They must use intelligence to course-correct. They must focus — and persist. But they must do all of this while making greater investments in institutions and leaders instead of projects. Above all, they must respect the strategic insights of others and learn to keep a light hand on the process and reporting buttons.</p> <p>Good intentions badly applied can crush the best leaders and the best groups. By all means, be strategic in building foundation programs, but don’t confuse that work with either program omniscience or suffocating process. You will kill what you are trying to create.</p> <p><em>Hal Harvey is co-author, with Paul Brest, of “Money Well Spent: A Strategic Plan for Smart Philanthropy.” He founded and was chief executive of the Energy Foundation and served as leader of the ClimateWorks Foundation. He has also been a board member or program officer at other foundations.</em></p></div>
-    
+
 </div>
 
 </div>
-                                
+
                             </div>
-                            
-                            
+
+
                         </article>
 
 <div class="ArticlePage-issue">
@@ -1968,12 +1968,12 @@ head.appendChild(googleFont);
 
 </div>
                 </main>
-                  
+
                     <aside class="ArticlePage-aside">
                         <aside class="ArticlePage-aside-content">
-                            
+
     <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><h2 class="cms-Styles-h2">Op-Ed Submission Guidelines</h2><p>The <i>Chronicle’</i>s Opinion section is designed to spark robust debate about all aspects of the nonprofit world. We welcome submissions that provide new insights and promote innovative thinking about leadership, fundraising, grant-making policy, and more.<br><a class="Link" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/how-to-submit-an-opinion-piece" data-cms-ai="0">See details about how to submit an opinion piece or letter to the editor</a>.</p></div>
 
 </div>
@@ -1984,26 +1984,26 @@ head.appendChild(googleFont);
     </div>
 </div>
     <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><div id="cdp-aside-1"></div></div>
 
 </div>
 
 <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><div id="cdp-aside-2"></div></div>
 
 </div>
 <div class="RawHtmlModule">
-    
-    
-    
+
+
+
         <div class="RawHtmlModule-html"><div id="top-jobs-app"></div>
 <script>
-(() => {    
+(() => {
   	let aside = document.querySelector('aside');
   	let homePage = document.querySelector('.HomePage');
-    
+
   	function createTopJobsApp() {
 		fetch('http://web.archive.org/web/20250116174217/https://static.philanthropy.com/topjobs/index.html')
 			.then(data => {
@@ -2020,27 +2020,27 @@ head.appendChild(googleFont);
 				});
 			})
 	}
-  
+
 	if (aside) {
 		let asideDisplay = getComputedStyle(aside).display;
 		if (asideDisplay !== "none") {
 			createTopJobsApp();
 		}
-	} 
-	
+	}
+
 	if (homePage) {
 		createTopJobsApp();
 	}
-  
+
 })()
 </script></div>
-    
-    
-    
+
+
+
 </div>
 
 <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><div id="cdp-aside-3"></div></div>
 
 </div>
@@ -2056,35 +2056,35 @@ head.appendChild(googleFont);
 </div>
                         </aside>
                     </aside>
-                
+
             </div>
         </div>
 
 <div class="Page-below">
-    
-        
-            
-                
+
+
+
+
     <div class="OneColumnContainer ">
-    
+
     <div class="OneColumnContainer-row">
-        
+
             <div class="OneColumnContainer-column">
-                
+
     <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><div id="cdp-bottom-0"></div></div>
 
 </div>
 
 <div class="RichTextModule">
-        
+
             <div class="RichTextModule-items RichTextBody"><div id="cdp-bottom-1"></div></div>
 
 </div>
 
 </div>
-        
+
     </div>
 </div>
 
@@ -2096,78 +2096,78 @@ head.appendChild(googleFont);
             <chron-subscription-btn-observer data-template-type="footer"></chron-subscription-btn-observer>
         </div>
         <div class="Page-footer-columns">
-            
+
             <div class="Page-footer-column">
-                
+
                     <div class="Page-footer-navigation">
                         <nav class="FooterNavigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    
+
         <ul class="FooterNavigation-items">
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
-    
+
         <div class="FooterNavigationItem-text">Explore</div>
-    
-    
+
+
         <ul class="FooterNavigationItem-items">
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/latest" data-cms-ai="0">Latest Articles</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/get-newsletters" data-cms-ai="0">Get Newsletters</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/advice" data-cms-ai="0">Advice</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/webinars" data-cms-ai="0">Webinars</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/tag/data" data-cms-ai="0">Data &amp; Research</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="/web/20250116174217/https://www.philanthropy.com/issue/current" data-cms-ai="0">Magazine</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://store.philanthropy.com/" target="_blank" data-cms-ai="0">Chronicle Store</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://jobs.philanthropy.com/" target="_blank" data-cms-ai="0">Find a Job</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/impact-stories" data-cms-ai="0">Impact Stories</a>
 
 </li>
-            
+
         </ul>
 
 <ps-toggler data-toggle="FooterNavigationItemAccordion" class="FooterNavigationItemAccordion-content" data-see-all data-toggle-in="FooterNavigationItemAccordion">
-        
+
             <div class="FooterNavigationItemAccordion-heading" data-toggle-trigger="FooterNavigationItemAccordion">Explore<svg class="chevron "><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></div>
-        
-        
+
+
             <ps-toggler class="FooterNavigationItemAccordion-seeAll" data-toggle="see-all">
                 <div class="FooterNavigationItemAccordion-items-wrapper">
                     <ul class="FooterNavigationItemAccordion-items">
-                        
+
                             <li class="FooterNavigationItemAccordion-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/latest" data-cms-ai="0">Latest Articles</a>
 
@@ -2206,80 +2206,80 @@ head.appendChild(googleFont);
 </li></ul>
                 </div>
             </ps-toggler>
-        
+
     </ps-toggler>
 </div>
                 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
-    
+
         <div class="FooterNavigationItem-text">The Chronicle</div>
-    
-    
+
+
         <ul class="FooterNavigationItem-items">
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/about-the-chronicle-of-philanthropy/" data-cms-ai="0">About Us</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/mission-and-vision-statements" data-cms-ai="0">Our Mission and Values</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://the-chronicle-of-philanthropy.prismhr-hire.com/" target="_blank" data-cms-ai="0">Work at the Chronicle</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/user-agreement" data-cms-ai="0">User Agreement</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/privacy-policy" data-cms-ai="0">Privacy Policy</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/california-privacy-policy" data-cms-ai="0">California Privacy Policy</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/gift-acceptance-policy/" data-cms-ai="0">Gift-Acceptance Policy</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/site-map" data-cms-ai="0">Site Map</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/dei-commitment-statement" data-cms-ai="0">DEI Commitment Statement</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/philanthropy-nonprofit-accountability-pna-fellowship" data-cms-ai="0">Chronicle Fellowships</a>
 
 </li>
-            
+
         </ul>
 
 <ps-toggler data-toggle="FooterNavigationItemAccordion" class="FooterNavigationItemAccordion-content" data-see-all data-toggle-in="FooterNavigationItemAccordion">
-        
+
             <div class="FooterNavigationItemAccordion-heading" data-toggle-trigger="FooterNavigationItemAccordion">The Chronicle<svg class="chevron "><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></div>
-        
-        
+
+
             <ps-toggler class="FooterNavigationItemAccordion-seeAll" data-toggle="see-all">
                 <div class="FooterNavigationItemAccordion-items-wrapper">
                     <ul class="FooterNavigationItemAccordion-items">
-                        
+
                             <li class="FooterNavigationItemAccordion-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/about-the-chronicle-of-philanthropy/" data-cms-ai="0">About Us</a>
 
@@ -2322,60 +2322,60 @@ head.appendChild(googleFont);
 </li></ul>
                 </div>
             </ps-toggler>
-        
+
     </ps-toggler>
 </div>
                 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
-    
+
         <div class="FooterNavigationItem-text">Customer Assistance</div>
-    
-    
+
+
         <ul class="FooterNavigationItem-items">
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/contact-us/" data-cms-ai="0">Contact Us</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://marketingsolutions.philanthropy.com/" target="_blank" data-cms-ai="0">Advertise With Us</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://hire.philanthropy.com/" target="_blank" data-cms-ai="0">Post a Job</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/reprints-&amp;-permissions/" data-cms-ai="0">Reprints &amp; Permissions</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="#CCPA" target="_blank" data-cms-ai="0">Do Not Sell My Personal Information</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/advertising-terms-and-conditions" data-cms-ai="0">Advertising Terms and Conditions</a>
 
 </li>
-            
+
         </ul>
 
 <ps-toggler data-toggle="FooterNavigationItemAccordion" class="FooterNavigationItemAccordion-content" data-see-all data-toggle-in="FooterNavigationItemAccordion">
-        
+
             <div class="FooterNavigationItemAccordion-heading" data-toggle-trigger="FooterNavigationItemAccordion">Customer Assistance<svg class="chevron "><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></div>
-        
-        
+
+
             <ps-toggler class="FooterNavigationItemAccordion-seeAll" data-toggle="see-all">
                 <div class="FooterNavigationItemAccordion-items-wrapper">
                     <ul class="FooterNavigationItemAccordion-items">
-                        
+
                             <li class="FooterNavigationItemAccordion-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/contact-us/" data-cms-ai="0">Contact Us</a>
 
@@ -2402,55 +2402,55 @@ head.appendChild(googleFont);
 </li></ul>
                 </div>
             </ps-toggler>
-        
+
     </ps-toggler>
 </div>
                 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
-    
+
         <div class="FooterNavigationItem-text">Subscribe</div>
-    
-    
+
+
         <ul class="FooterNavigationItem-items">
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="/web/20250116174217/https://www.philanthropy.com/subscribe?offer=mixmonar12c&amp;oc=YP25SSU625&amp;utm_campaign=cop-aq-sb-fy25-hp-footer&amp;utm_medium=pg-bspt&amp;utm_source=cop-wb&amp;utm_content=v1" target="_blank" data-cms-ai="0">Individual Subscriptions</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/get-your-entire-organization-connected-with-a-site-license/" data-cms-ai="0">Site License Subscriptions</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/page/subscription-account-faq" data-cms-ai="0">Subscription &amp; Account FAQ</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/newsletters" data-cms-ai="0">Manage Newsletters</a>
 
 </li>
-            
+
                 <li class="FooterNavigationItem-items-item">
   <a class="NavigationLink" href="http://web.archive.org/web/20250116174217/https://www.philanthropy.com/account/profile" data-cms-ai="0">Manage Your Account</a>
 
 </li>
-            
+
         </ul>
 
 <ps-toggler data-toggle="FooterNavigationItemAccordion" class="FooterNavigationItemAccordion-content" data-see-all data-toggle-in="FooterNavigationItemAccordion">
-        
+
             <div class="FooterNavigationItemAccordion-heading" data-toggle-trigger="FooterNavigationItemAccordion">Subscribe<svg class="chevron "><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#chevron"></use></svg></div>
-        
-        
+
+
             <ps-toggler class="FooterNavigationItemAccordion-seeAll" data-toggle="see-all">
                 <div class="FooterNavigationItemAccordion-items-wrapper">
                     <ul class="FooterNavigationItemAccordion-items">
-                        
+
                             <li class="FooterNavigationItemAccordion-items-item">
   <a class="NavigationLink" href="/web/20250116174217/https://www.philanthropy.com/subscribe?offer=mixmonar12c&amp;oc=YP25SSU625&amp;utm_campaign=cop-aq-sb-fy25-hp-footer&amp;utm_medium=pg-bspt&amp;utm_source=cop-wb&amp;utm_content=v1" target="_blank" data-cms-ai="0">Individual Subscriptions</a>
 
@@ -2473,59 +2473,59 @@ head.appendChild(googleFont);
 </li></ul>
                 </div>
             </ps-toggler>
-        
+
     </ps-toggler>
 </div>
                 </li>
-            
+
         </ul>
-    
+
 </nav>
                     </div>
-                
+
             </div>
         </div>
 
 <div class="Page-footer-bottom">
             <div class="Page-footer-bottom-company">
-                
+
                     <div class="Page-footer-bottom-company-logo">
                         <a aria-label="the chronicle of philanthropy home" href="/web/20250116174217/https://www.philanthropy.com/" data-cms-ai="0"><svg class="square-logo"><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#square-logo"></use></svg></a>
                     </div>
-                
+
                 <div>
-                    
+
                         <div class="Page-footer-bottom-company-disclaimer">1255 23<sup>rd</sup> Street, N.W. Washington, D.C. 20037<br>© 2025 The Chronicle of Philanthropy</div>
-                    
+
                 </div>
             </div>
-            
+
                 <div class="Page-footer-bottom-socials">
                     <div class="SocialBar">
 
 <ul class="SocialBar-items">
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink" rel="noreferrer" href="http://web.archive.org/web/20250116174217/https://twitter.com/Philanthropy" target="_blank" data-social-service="twitter" data-cms-ai="0"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-twitter"></use></svg><span class="sr-only">twitter</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink" rel="noreferrer" href="http://web.archive.org/web/20250116174217/https://www.instagram.com/chronicleofphilanthropy/" target="_blank" data-social-service="instagram" data-cms-ai="0"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-instagram"></use></svg><span class="sr-only">instagram</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink" rel="noreferrer" href="http://web.archive.org/web/20250116174217/https://www.youtube.com/channel/UCk0hYi2US2LASzODBika_6w" target="_blank" data-social-service="youtube" data-cms-ai="0"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-youtube"></use></svg><span class="sr-only">youtube</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink" rel="noreferrer" href="http://web.archive.org/web/20250116174217/https://www.facebook.com/ChronicleOfPhilanthropy" target="_blank" data-social-service="facebook" data-cms-ai="0"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-facebook"></use></svg><span class="sr-only">facebook</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink" rel="noreferrer" href="http://web.archive.org/web/20250116174217/https://www.linkedin.com/company/the-chronicle-of-philanthropy" target="_blank" data-social-service="linkedin" data-cms-ai="0"><svg><use xlink:href="/web/20250116174217im_/https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8#mono-icon-linkedin"></use></svg><span class="sr-only">linkedin</span></a>
 </li>
-            
+
         </ul>
-    
+
 </div>
 
 </div>
-            
+
         </div>
     </div>
 </footer>

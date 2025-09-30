@@ -45,33 +45,33 @@ Search All NYTimes.com
 ###### By Joshua Foer
 
 **Dom DeLuise,the comedian
-( and five of  
+( and five of
 clubs ),
 was implicated in the following unseemly acts in my mind’s eye: He hocked a fat globule of spittle
-( nine of  
+( nine of
 clubs ) on Albert Einstein’s
 thickwhite
-mane ( three of  
+mane ( three of
 diamonds ) and
 delivered a devastating karate kick
-( five of  
+( five of
 spades )
 to the groinof
-Pope Benedict XVI ( six of  
+Pope Benedict XVI ( six of
 diamonds ).
 MichaelJackson
-( king of  
+( king of
 hearts ) engaged
 in behavior bizarre even for him. He defecated
-( two of  
+( two of
 clubs )
 on asalmon
-burger ( king of  
+burger ( king of
 clubs ) and
-captured his flatulence ( queen of  
+captured his flatulence ( queen of
 clubs )
 in aballoon
-( six of  
+( six of
 spades ).
 This tawdry tableau, which I’m not proud to commit**
 

@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Who Earned a Higher Salary Than You" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-43043 single-format-standard wp-theme-fd-modern-6-0 post-template post-template-single-feature-php elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,40 +436,40 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-feature-post" class="archive-post">
 
 <div class="centered sixteen columns">
-                
+
 	    <div class="meta-bar">
     		<strong><a href="https://flowingdata.com/category/projects/data-underload/" rel="category tag">Data Underload</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/income/" rel="tag">income</a>    		    	</div><!-- end meta-bar -->
-        
-                
+
+
         	    <h1>Who Earned a Higher Salary Than You</h1>
-		
-        
+
+
     	    	<div class="row"><div id="lead-in" class="centered eight columns offset-by-four" style="text-align:center">See how annual compensation compares over the years. Use the slider below.</div></div>
-    			
+
 	            <div class="author">
     		By <strong><a href="https://flowingdata.com/about" title="Visit Nathan Yau&#8217;s website" rel="author external">Nathan Yau</a></strong>
     	</div><!-- @end .author -->
-                
-		
-		        
-		
-		
+
+
+
+
+
             </div>
 
 <div class="entry ten columns offset-by-three">
             	<div class="centered"><div class="extrawideint"><iframe  src="https://flowingdata.com/projects/2015/income/" height="585" width="1090" scrolling="no" style="border:0;height:585px;"></iframe></div></div><br />
-    	        
-        
+
+
         <p>Work changed over the years. Salaries changed over the years. I was curious. If you compared your personal income from present day, how would it compare to the distribution of salaries in previous decades?</p>
 <p>Luckily, the Census Bureau collects <a href="https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html">the data</a> to find out, and <a href="https://usa.ipums.org/usa/cite.shtml">IPUMS</a>, maintained by the University of Minnesota, makes the anonymized records more straightforward to use.</p>
 <p>So I figured out the percentage thresholds &mdash; salaries that put you in the top 1%, etc. of people who earned employee income &mdash; for the decades from 1950 to 2010 and 2013, adjusted for inflation, and plotted over time. </p>
@@ -477,16 +477,16 @@ img.wp-smiley, img.emoji {
 <p>Slide the salary back and forth for an idea of distribution. Most of the percentage shifts happen in the lower values, because most people&#8217;s salaries lie within that range. You get to the single-digit percentages fairly quickly, and then it takes a bit more to reach the top.</p>
 <p>It took less to be in that upper tier of wages in 1950 and 1960. A salary just under $30,000 puts you around the middle in 2013, and in 1950, that put you in the top quarter. However, continue shifting the salaries back and forth, and you might also notice the minimal change over the past few decades for the lower and middle class. As income rises for the middle class, it takes more to reach the single-digit percentages.</p>
 <p>The next step is to see how salary interacts with cost of living, since income is only part of the story. If a dollar buys way more in an era when people made less, it might not matter.</p>
-    
-	
-        
-		
+
+
+
+
     </div><!-- @end .entry -->
     <div class="clr"></div>
-    
+
 	<div class="ten columns offset-by-three" style="margin-bottom:1rem">
         <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -509,7 +509,7 @@ img.wp-smiley, img.emoji {
     	<div class="clear-line"></div>
     </div>
 </div>
-    	
+
     	<div class="charttypes"><h3 class="toplevel">Chart Type Used</h3><a href="https://flowingdata.com/charttype/area-chart/"><img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/chart-types/area-chart-thumb.png" alt="Area Chart" title="Area Chart" class="thumbnail" /></a></div>
 
 <!-- <div class="ten columns offset-by-three"> -->
@@ -517,10 +517,10 @@ img.wp-smiley, img.emoji {
 
 <!-- </div> -->
 	</div>
-	
-    
-    
-    
+
+
+
+
 	<div class="clr"></div>
 
 <div id="join-now" style='margin-bottom:0;' class="sixteen columns">
@@ -531,12 +531,12 @@ img.wp-smiley, img.emoji {
     			                </div>
             </div>
 		</div><!-- @end #join-now -->
-	
+
 		<div class="clr"></div>
 
 <div id="favorites" class="container across post-list" style="margin-top:2rem;margin-bottom:0">
             <h3 class="toplevel sixteen columns" style="border-top:none">Favorites</h3>
-            
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2014/02/05/where-people-run/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -546,8 +546,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -557,8 +557,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -568,8 +568,8 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
-            
+
+
             <div class="archive-post preview four columns">
                 <a href="https://flowingdata.com/2019/08/28/gender-switched-names/" rel="bookmark">
                                 <div class="archive-featured-image cropped">
@@ -579,13 +579,13 @@ img.wp-smiley, img.emoji {
 </div>
                 </a>
             </div><!-- @end .archive-post -->
-		
+
                                 </div>
 
 </div><!-- @end #single-post -->
 
 <div class="clr"></div>
-        
+
 </div><!-- end #content-wrapper -->
 
 <div id="footer-wrapper">

@@ -28,7 +28,7 @@ of Steve Witkoff, the real estate mogul turned diplomat who has effectively ecli
  
 
 🎧 Programming note: On today’s episode of Somebody’s Gotta Win, I sat down with freshman senator Jim Banks
-of Indiana, a MAGA acolyte on an anti-D.E.I. crusade. We discussed the “short-term pain” that tariffs could inflict on Indiana, a huge exporter of soybeans, among other crops, plus steel and automobiles. We also talked about how R.F.K. Jr.’s MAHA movement could impact agricultural prices, and whether Musk has conflicts of interest. (Spoiler: Banks toed the line.) Listen here ( https://open.spotify.com/episode/4xPLsGiBpEzZD6YSscwXfK?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here 
+of Indiana, a MAGA acolyte on an anti-D.E.I. crusade. We discussed the “short-term pain” that tariffs could inflict on Indiana, a huge exporter of soybeans, among other crops, plus steel and automobiles. We also talked about how R.F.K. Jr.’s MAHA movement could impact agricultural prices, and whether Musk has conflicts of interest. (Spoiler: Banks toed the line.) Listen here ( https://open.spotify.com/episode/4xPLsGiBpEzZD6YSscwXfK?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here
 ( https://podcasts.apple.com/us/podcast/maga-senator-jim-banks-on-short-term-tariff-pain-trumps/id1111751047?i=1000694314155&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
 A MESSAGE FROM OUR SPONSOR
@@ -220,6 +220,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
 click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVJktaAaGzh5s7W612fX4=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

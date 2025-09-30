@@ -174,7 +174,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20150708194209/htt
 
 <body>
           <div id="leaderboard">
-        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Globalisation.  Zone: World | Britain | Print --> <div id="gpt_leaderboard_ad" data-cb-ad-id="Leaderboard ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -185,7 +185,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Globalisation.  Zone: World | Britain | Print --> <div id="gpt_subscription_ad" data-cb-ad-id="Subscription ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -196,7 +196,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Britain | Print --> <div id="gpt_pencil_slug_ad" data-cb-ad-id="Pencil slug ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -208,7 +208,7 @@ ec-ads-gpt">
 </div>
 
 </div>
-        <a href="/web/20150708194209/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20150708194209im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>    
+        <a href="/web/20150708194209/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20150708194209im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>
 <article itemscope itemtype="http://schema.org/Article">
   <hgroup class="typog-content-header main-content-header">
     <h2 class="fly-title" itemprop="alternativeHeadline">Part-time higher education</h2>
@@ -222,7 +222,7 @@ ec-ads-gpt">
       Jan 6th 2011    </time>
                       | <a href="/web/20150708194209/http://www.economist.com/printedition/2011-01-08" class="source">From the print edition</a>
             </aside>
-  
+
   <div class="main-content" itemprop="articleBody">
     <div class="content-image-full"><img itemprop="contentUrl" src="http://web.archive.org/web/20150708194209im_/http://media.economist.com/images/images-magazine/2011/01/08/br/20110108_brp007.jpg" alt=" " title="" width="595" height="335"></div>
 <p>FORTY years ago this month a radical innovation arrived in higher education. The new Open University (OU) began to admit students who did not have the qualifications to get into other institutions.</p>
@@ -239,7 +239,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_sailthru-ec_sailthru_content_container" class="block block-ec_sailthru 
+  <div id="block-ec_sailthru-ec_sailthru_content_container" class="block block-ec_sailthru
 ">
     <div class="content clearfix">
     <div id="sailthru-scout"></div>  </div>

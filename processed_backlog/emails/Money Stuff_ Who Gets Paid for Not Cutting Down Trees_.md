@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If you live on some land, and it turns out there is oil under the land, then either you get to drill the oil and sell it and keep the money,
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Carbon credits
-    
-  
+
+
 
 If you live on some land, and it turns out there is oil under the land, then either you get to drill the oil and sell it and keep the money, or the government does, or someone else does. There are various legal regimes. Perhaps you get to lease the oil rights to an oil company and keep some of the money. Perhaps you get nothing; perhaps the government owns all the oil in your country and can cut its own deals with the oil companies without giving you anything. All sorts of possibilities. But in any case, either you get the money from the oil, or someone else does, or you split it somehow. Or, of course, the oil is not discovered, or not exploited, and nobody gets the money.
 Similarly, if you live on some land, and it has trees, and you don’t cut down the trees, then the trees store carbon that might otherwise go into the atmosphere, and therefore they reduce global warming. And in the modern economy, those trees — or, rather, the fact of not cutting down the trees — can be turned into carbon credits; some big company will pay money for those credits to offset its own emissions. But who gets to sell the carbon credits and keep the money? Again, the possibilities include (1) you, as the person living on the land, (2) the government, or (3) someone else. Perhaps you can cut a deal with a carbon-credit company to preserve the trees, generate the credits and split the money. Perhaps the government owns all the not-cutting-down-trees in your country and can cut its own deals with global markets without giving you anything. All sorts of possibilities.
@@ -84,37 +84,37 @@ The central conceptual oddity of carbon credits is:
 
 If a tree in Liberia is not cut down, then it is technically true that a Dubai company didn’t cut it down, but it is also true that I didn’t cut it down, and it is arguably even more true that the Liberian person who lives next to the tree did not cut it down. But the Dubai company has some advantages in terms of getting paid.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Venture Global
-    
-  
+
+
 
 Love these guys:
 
@@ -134,11 +134,11 @@ Sabel said customers knew from the beginning there would be an extended period t
 
 I hope that eventually they get the facility just about finished, but they don’t, like, paint one last rivet. And then they say “oops, still not finished, see, unpainted rivet,” and keep selling LNG at high prices to spot buyers. (I hope Shell and BP grumble and buy at spot prices too!) And then eventually when gas prices drop and it’s less uneconomical for Venture Global to sell at the contract prices, they say “okay fine fine” and paint the rivet. What a great trade. 
 
-  
-    
+
+
       AI signals
-    
-  
+
+
 
 Two ways to use a computer to generate trading signals would be:
 	Think about subtle characteristics of a company that might be good or bad for that company. Develop a hypothesis — “executives who say ‘I’ on earnings calls are bad narcissists, but executives who say ‘we’ on earnings calls are good inclusive leaders” — and then use a computer to crunch the data and evaluate the hypothesis. Take the hypotheses that are good — the signals that turn out to work — and program them into a trading model, which uses the signals to buy and sell stocks.	Just ask a computer “is this company good or what,” and if the computer says “yeah it’s good” you buy the stock.
@@ -155,11 +155,11 @@ Whereas machine reading used to rely on counting positive and negative words, th
 
 You can construct a query like “does this news story indicate that the company’s leadership team is collaborative and not using complex answers to hide the truth,” or you can construct a query like “computer, would you buy this stock?” I guess you’d feel better about your own contributions if you asked the more complicated questions. Like, you are in charge here and the computer is just helping with the analysis. But “simply telling the chatbot to rate if a news headline is good or bad for a stock has produced better results than prior methods.”
 
-  
-    
+
+
       Celebrity SPACs
-    
-  
+
+
 
 For a while, not that long ago, there was a huge boom in special purpose acquisition companies. A SPAC is basically some financial quasi-celebrity raising a bunch of money to go out and take a company public, and bigger financial celebrities tended to get better results. If you were, for instance, Chamath Palihapitiya, who became famous as the  SPAC King, you could raise a lot of money for a lot of SPACs, get meetings with a lot of high-profile private companies, close attractive deals with them and make a lot of money. (For yourself, anyway. Palihapitiya’s SPACs  did not perform particularly well for his investors, but nobody’s perfect.)
 Palihapitiya is a somewhat arbitrary celebrity, though, and pretty quickly the promotors of the SPAC boom realized that you could just get real celebrities to do SPACs. In 2021,  the New York Times reported on SPACs promoted by, among other people, Jay-Z, Shaquille O’Neal, Serena Williams and Alex Rodriguez. (Also in 2021, the US Securities and Exchange Commission  put out an investor alert warning: “Never invest in a SPAC based solely on a celebrity’s involvement.”) I  wrote at the time that “one possibility is that this is inefficient, and every celebrity has a SPAC because the SPAC market is unbelievably frothy right now,” so there was plenty of money to spend on celebrity marketing. But, I went on:
@@ -168,11 +168,11 @@ Obviously this is an empirical question: Either celebrity-led SPACs did worse 
 Celebrity involvement with special purpose acquisition companies (SPACs) has received intense criticism by the media and the SEC. Should investment managers be wary of celebrity SPACs? We examine the role of celebrities in the SPAC process and find that celebrity SPACs have more fundings, higher-quality SPAC intermediaries, higher-quality target firms, higher returns, and shorter duration of target acquisitions. Sponsors of celebrity SPACs also have more “skin in the game.” We show that while celebrity chairpeople, CEOs, and board members have positive impacts on the SPAC process, celebrity advisors do not have such positive effects.
 “Celebrity advisor” is just, like, throw some marketing money at a celebrity; “celebrity board member” is, Shaq might show up at the meeting with the target to close the deal. That turns out to actually be worth something.
 
-  
-    
+
+
       Binance is law-abiding now
-    
-  
+
+
 
 Crypto is mature enough by now that there are some good running bits, some callbacks to old jokes. Tether has spent years telling anyone who will listen that it is just months away from releasing an audit, and everyone has a good laugh each time. And Binance has spent years  claiming that it was located nowhere, to the point that when  Chinese police reportedly raided its Shanghai office, Binance  replied that it “has no fixed offices in Shanghai or China, so it makes no sense that police raided on any offices and shut them down.” Classic.
 But then Binance  pleaded guilty to a bunch of money laundering charges in US federal court, agreeing to pay $4.3 billion in penalties and install a compliance monitor to be generally more law-abiding. Its founder and chief executive officer, Changpeng “CZ” Zhao, also pleaded guilty and stepped down as CEO. You might think this would put an end to the “no location” bit but, no, it’s too good. The  Financial Times reports on the new CEO, Richard Teng:
@@ -182,60 +182,60 @@ Teng on Tuesday declined to reveal where the exchange was based. He also said Bi
 
 I guess not, no, I guess it’s fine for a financial institution trusted with billions of dollars of customer money not to be located in any particular jurisdiction? Binance’s  plea agreement requires it to hire a monitor to write reports on its anti-money-laundering compliance and share them with the US Department of Justice, and requires Binance to “provide the Monitor with access to all … facilities, and employees, as reasonably requested by the Monitor, that fall within the scope of the Mandate of the Monitor,” so I suppose the Justice Department can find out where Binance is located, but maybe not? Maybe the monitor will be like “hey can I visit headquarters” and Binance will say “why do you feel entitled to that”? 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How Russia Punched an $11 Billion Hole in the West’s   Oil Sanctions. Exxon Boosts Buybacks 14% as Hunt for More Oil Accelerates. FTC Investigates Exxon’s $60 Billion  Deal for Pioneer. New York Could Be the Latest State to  Ban Noncompete Agreements. China’s Colossal  Hidden-Debt Problem Is Coming to a Head. BlackRock to roll out first  generative AI tools to clients next month. UK Fraud Cops Make Arrest in   Fake Airplane Parts Scandal. Hedge fund trader at heart of  cum-ex scandal extradited to Denmark.  Trafigura charged in Switzerland over alleged Angolan bribery. Facebook and Instagram  Steer Predators to Children, New Mexico Attorney General Alleges in Lawsuit. BAT to take £25bn impairment charge on value of US  cigarette brands. Can Wegovy Fight   Alcoholism? Supreme Court Wary of  Remaking Income Tax. Taxpayers in Swiss City Can Settle Bills With   Bitcoin, Tether. Activist Nuns, With Stake in Smith & Wesson,  Sue Gun Maker Over AR-15 Rifles.  PowerPoints to Santa.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There are exceptions; it might take work to protect the trees from forest fires or whatever.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -246,46 +246,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck08pq.5im6/63d62611.gif" alt="" border="0" /></a>

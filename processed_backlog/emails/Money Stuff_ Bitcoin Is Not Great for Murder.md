@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.There are three classic problems that you might encounter if you try to u
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Bitcoin hitman user experience
-    
-  
+
+
 
 There are three classic problems that you might encounter if you try to use Bitcoin to pay for goods and services. The first problem is that your Bitcoins might go astray: Bitcoin transactions are irreversible and involve sending money to long complicated addresses, and people are constantly trying to steal them. So if you send someone Bitcoin to pay for something, there will probably be a typo in the address and the person won’t get it and you’ll have to send it again and your first payment will just be permanently lost.
 The second problem is that Bitcoin is very volatile, and even people who accept payment in Bitcoin tend not to denominate it in Bitcoin. So if you send someone $100 worth of Bitcoin to buy a $100 thing, the price of Bitcoin might drop 10% while you’re sending it, and then they’ll say “you only sent me $90” and you’ll have to top them up with more Bitcoin.
@@ -73,37 +73,37 @@ On May 10, 2022, after the value of Bitcoin dropped, Wan electronically transfer
 
 Wan pleaded guilty this week. “After speaking with FBI agents, Wan canceled the order on the dark web marketplace,” terrific. I wonder how many murder-for-hire contracts had to be repriced when crypto prices collapsed last year. Not zero! 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in crypto crime
-    
-  
+
+
 
 I suppose if you are a law enforcement officer and a guy calls 911 and says “someone stole my Bitcoins,” you could just go to his house and arrest him? Or at least show up and ask him questions like “where did you last see your Bitcoins?” and “do you have any enemies?” and “is there any chance you acquired these Bitcoins by hacking a dark-web drug marketplace?”
 Here is a CNBC story about a guy named Jimmy Zhong, who called 911 because someone stole his Bitcoins, and the cops showed up and were like “okay but who did you steal the Bitcoins from,” and he was like “oh Silk Road” and they arrested him. No, I’m kidding, I’m condensing the timeline, and he didn’t actually say that, but that is where he stole the Bitcoins from, and they did ultimately arrest him for it. The scorecard here is:
@@ -125,11 +125,11 @@ MaGruder said Zhong’s level of sophistication was apparent.
 
 Watch out, investment banking analysts.
 
-  
-    
+
+
       Gemini and Genesis
-    
-  
+
+
 
 The basic problem at FTX, the crypto exchange, is that customers deposited money at FTX, and FTX secretly loaned a lot of that money to its affiliated crypto trading firm, Alameda Research, which did not really post collateral for those loans, and which then lost the money. And then FTX customers couldn’t get their money back. And FTX was lying to customers about various elements of this. And now its founder, Sam Bankman-Fried, is on trial in New York for tons of alleged fraud.
 The basic problem at Gemini Trust Co., the crypto exchange, is that customers deposited money in its Gemini Earn program, and Gemini openly loaned that money to a crypto lending firm called Genesis Global Capital LLC, which then loaned a lot of that money to Alameda Research, which did not really post collateral for those loans, and which then lost the money. And then Gemini Earn customers  couldn’t get their money back. And Gemini and Genesis were lying to customers about various elements of this. 
@@ -178,11 +178,11 @@ And yes, at some point, our losses in [Three Arrows] and potentially Babel will 
 If you have a quarter-end balance sheet with the right numbers of assets (more) and liabilities (less), the market won’t panic, so you’ll solve your liquidity problem: People will keep lending you money. If that balance sheet is somewhat fictitious — if the assets are an IOU from yourself to yourself at a below-market rate — that doesn’t really matter; what you have done is bought yourself time to dig out from the hole you are in.
 This did work! For instance, Gemini didn’t pull its customers’ money from Genesis after the Three Arrows collapse. It’s just, this bought Genesis more time until November, when Alameda collapsed and Genesis stopped repaying Gemini Earn customers; Genesis went bankrupt this January. At which point the IOU was not that helpful.
 
-  
-    
+
+
       Economic non-calls
-    
-  
+
+
 
 Bank additional tier 1 capital securities are instruments that look sort of like bonds and sort of like stock. They are like bonds in that they pay some interest rate and are usually repaid at par after five to ten years. They are like stock in that, if the bank doesn’t pay interest, or doesn’t pay them back after five to ten years, nothing happens: The holders of the AT1s can’t sue for their money or put the bank into bankruptcy; everything is kind of voluntary. (This oversimplifies the mechanics, but not by too much.)
 The advantage of this structure is that banks can pitch it to investors as “look, a bond” and pay a fairly low interest rate, and they can pitch it to regulators as “look, equity” and get a lot of regulatory capital credit. I   wrote a few years ago: “If the regulators think that they’re equity and the investors think that they’re debt, probably someone is wrong!” And since then we have occasionally talked about   times when the investors are wrong. Most notably when Credit Suisse Group AG was sold to UBS Group AG and Credit Suisse shareholders got a small payment while its AT1 holders   got zeroed.
@@ -204,11 +204,11 @@ His solution is to take the decision on whether to repay AT1s early out of banks
 
 Intuitively, in my Possibility 1, the bank should replace its current AT1 with a new, cheaper one. In my Possibility 2, the bank should not replace its current AT1 with a new, more expensive one: It should just leave the old one outstanding, even if investors are disappointed. The goal of these securities is to disappoint investors sometimes. That’s why they work as capital.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 I have seen a lot less of this these days, but   here you go:
 
@@ -218,15 +218,15 @@ The deal represents one of DTCC’s biggest moves in the digital-ledger technolo
 
 I guess. We’ve been talking about DTCC moving to the blockchain for   at least six years now but maybe the next six years will be transformative.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Defaulted   Venezuelan Bonds Soar After US Lifts Ban on Trading.   OpenAI Is in Talks to Sell Shares at $86 Billion Valuation. People are worried about the  term premium. A  Financial Crisis in China Is No Longer Unthinkable. Credit Suisse Culls Nine of Its   Infamous ETNs Post UBS Takeover. UBS Looks Beyond Credit Suisse to Bank   Even More Billionaires. Deutsche Bank Places New Restrictions on   Financing of Coal. NYC   Homeowner Costs Are Rising at Three Times the Inflation Rate. Tech billionaire  Peter Thiel was an FBI informant. “She recently used a sick day after a  series of frustrating encounters with new workplace software.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not BlockFi? BlockFi  settled with the US Securities and Exchange Commission in February 2022 for doing unregistered securities offerings, and for making “a false and misleading statement for more than two years on its website concerning the level of risk in its loan portfolio and lending activity,” but that was well before it  filed for bankruptcy over Three Arrows-y stuff, and since then I don’t think it has been accused of lying about its risk.
 
 
@@ -239,48 +239,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Here I mean something like “the interest rate that the market would charge the bank to issue AT1s has gone down,” which is a combination of the risk-free rate, the bank’s credit spread, and the market’s feeling about AT1s in particular. Also there are complexities about AT1s that flip to floating rates after the non-call period, etc.; the category here is really just “new AT1 cheaper than current AT1,” which is related to interest-rate moves but not quite identical.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjp0uh.5h34/c1e252ac.gif" alt="" border="0" /></a>

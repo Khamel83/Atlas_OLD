@@ -7,272 +7,272 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Some GameStop anniversary content I guessThis week is the one-year anniversary of the GameStop thing. From Monday, Jan. 25, 2021, through Fr
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Some GameStop anniversary content I guess
-    
-  
+
+
 This week is the one-year anniversary of  the GameStop thing. From Monday, Jan. 25, 2021, through Friday, Jan. 29, 2021, GameStop Corp.’s stock traded as low as $61.13 per share and as high as $483; it ended the week at $197.44, up 204% from the previous week’s close. Trading in the stock was halted for volatility 37 times during that week, plus Robinhood Markets Inc. and some other brokers briefly  restricted customers from buying it due to  clearinghouse margin troubles. By mid-February there were at least seven movies and television shows about GameStop in the works. Everyone’s brain broke that week and stayed broken. More meme stocks followed. Elon Musk made Dogecoin into a meme. Donald Trump did a meme stock. Everything was like this. It was  the year of the meme stock. That is, 2021 was the year of the meme stock. “I will see you back here in 2022,”  I wrote, in my last column of 2021, “when everything will be absolutely normal.”I don’t want to say that that was right — honestly I was kidding — but I do feel a little bit like people are celebrating the anniversary of the meme stock boom by declaring that it’s over? For instance, here is a Wall Street Journal article about WallStreetBets, the Reddit forum that ignited the GameStop boom and became the center of the meme-stock world for a while:These days, some one-time fans say it is hardly worth clicking on.Those who once scoured the online message forum for brazen and unexpected trading ideas say they are mostly finding members still chatting about stocks such as GameStop Corp. and AMC Entertainment Holdings Inc.  Constructive feedback on trades, some users complain, has largely been replaced by cheerleading. Devotees who were once glued to the forum—watching power users like Keith Gill, or “DeepF—ingValue,” post bold bets on GameStop—say they have largely abandoned the page in favor of other trading communities.And in this morning’s “5 Things to Start Your Day” Bloomberg newsletter, Joe Weisenthal writes that a lot of the memeiest and most retail-driven parts of the market have actually been underperforming since last February, “the retail crowd has been badly lagging the S&P 500 for a while now,” and “the whole ‘Reddit vs. Hedge Funds’ meme that came out of the GameStop story really did turn out to be the peak of the mania.”Meanwhile the broad stock market got crushed all last week and is down more today. The S&P 500 index is now in what people like to call a “correction,” a drop of 10% from the most recent high, which in this case is Jan. 3. I have always thought this was sort of a dumb euphemism but now, I mean, I guess I see the point.Long before GameStop, in April 2020, I coined what I have called  the Boredom Market Hypothesis:The theory is something like: Retail investors are not trading because they have an informational advantage and a reasonable expectation of profit. They are trading because it is fun, or because it looks fun. They see people making money in the stock market, it looks fun and easy to make money in the stock market, they start trading stocks. As long as it is fun—as long as stocks go up—they increase their investments. When it stops being fun—when stocks go down—they get out.The weird thing about the coronavirus crisis is that it simultaneously (1) caused a stock market crash and (2) eliminated most forms of fun.When the world shut down in the spring of 2020, people turned to day-trading stocks because, even though the market had just crashed, trading stocks was still more fun than their other entertainment options. And then trading stocks became, improbably, really fun, a source of social connection and populist excitement, and also those stocks went up a lot which was fun. In 2022, there are more fun things to do, and frantic day trading is less fun than it used to be. It has gotten old; the message boards are not alive with excitement but are just playing the hits. Also the market is crashing again! Where is the fun in that?Meanwhile at noon today GameStop was trading above $88 per share. When I first wrote about GameStop, when everything went utterly insane, when GameStop’s soaring price seemed to make no sense at all, it closed at $76.79. Perhaps we’ll test that today. Or perhaps GameStop used its meme status to successfully  transform its business; perhaps the magic doesn’t work anymore, but its effects on GameStop have lasted.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Netflix
-    
-  
+
+
 One important but not necessarily permanent lesson of the Year of Meme Stocks is that if you run a public company you should try to meme it up as much as possible, because your job is to create shareholder value and doing meme stuff creates shareholder value. Exactly what constitutes “doing meme stuff” depends on what memes are popular in any given week, but broadly speaking talking about electric cars or cryptocurrencies or non-fungible tokens or Elon Musk or other meme stocks is usually a decent way to get attention and have your stock go up. Being on Twitter or Reddit a lot, using the right slang and the right emojis, generally conveying to retail investors that you are in on the joke, these things build shareholder loyalty and can cause your stock to [rocket emoji].All of this stuff is pretty much unrelated to actual business results; my point here is not “if you sell non-fungible tokens and they bring in hundreds of millions of dollars investors will put an attractive multiple on those earnings” but rather “if you say ‘NFT’ on a conference call your stock will go up.” Last Thursday  Netflix Inc. announced disappointing subscriber growth numbers, and  the stock tanked. On Friday, Netflix Engineering tweeted: “What are your thoughts on NFTs?” I love it, but it did not work at all. The stock was down 21.8% on the day, with no noticeable reaction to the midday NFT tweet; it was down further this morning. This is bad news for Netflix but I prefer to focus on the positive, which is that it is very good news for all of the public company CEOs who do not personally want to go around talking about NFTs all the time. As of December it looked like their fiduciary duties to shareholders might require them to do NFTs whether they want to or not. Now they don’t have to! Going on Twitter to say “NFTs” doesn’t work anymore! The magic is gone! You can go back to running your business instead of doing meme stuff; everything is normal again.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Robinhood IPOs
-    
-  
+
+
 A simple model of initial public offerings is that on the day of the IPO, a company sells stock for $100 per share to a selected group of institutional investors, and the next day, the stock opens for trading and those institutional investors turn around and sell the stock for $150 to any retail investor on Robinhood who wants to buy it. This is called the “IPO pop”: There is more demand for the stock than is satisfied in the IPO process, so when it opens for trading the stock goes up. This model is oversimplified in various important ways but it has its uses. If that is your model it creates an interesting marketing opportunity for Robinhood Markets Inc. The pitch goes like this:	Go to issuers — companies thinking about going public — and say, look, if you sell stock in a regular IPO to institutional investors, you will sell your stock at $100 per share and the next day it will pop by 50% as the institutional investors turn around and sell it to Robinhood customers at $150. You will have “left money on the table,” and your venture capitalists will complain. Instead, you should just sell the stock to Robinhood customers yourself, at $150 per share, avoiding the pop and raising more money for yourself.	Go to customers — individual retail investors on Robinhood — and say, look, so much of the money that gets made in stock markets comes from buying IPOs at the IPO price. Institutional investors get to buy IPO stock at $100 and then it pops to $150 the next day for a quick easy profit. We are going to democratize this process by letting you buy stock at the IPO price and participate in the pop yourself.	The issuers sign up to sell, the customers sign up to buy, and now Robinhood is in the IPO underwriting business.Do you see the problem here? I am being too cute — those numbers ($100 and $150) are not known in advance, there are lots of other factors beyond selling to retail, etc. — but not much too cute. If the IPO pop comes from Robinhood customers crowding into a stock the day after its IPO, then letting Robinhood customers crowd into the stock the day of its IPO doesn’t exactly let them participate in the pop. It just raises the IPO price. Which is what the issuers want, but not necessarily what the customers want.Anyway Robinhood really did launch an “IPO Access” program last year where it got issuers to allocate some IPO shares to its customers and got its customers to buy those shares. We have talked about it — along the lines of this model — a  couple of  times before. Last Friday, Ranjan Roy at the Margins looked at the performance of those IPOs and it is pretty ugly:It doesn’t matter whether you’re a Brazilian fintech, a fancy salad chain, a cloud backup company, a German solar company, a fantastic expense management SaaS (I love Expensify), something-something-blockchain, coconut water, a biotech claiming to cure chronic disease, a fraud detection company, an Australian energy company, a COVID-19 testing maker, a wallet for nerds, or whatever else. It didn’t matter whether you IPO’ed in May or July or November. Other than the jewelry company $BRLT Brilliant Earth (on the top right) every single company comes out incredibly strong or has a spike early on, and then it slowly dies. Sometimes, like $SEV or $SG or $HLTH, it’s brutal. Other times, like $ARBK or $NRDS, you see glimmers of hope and then goodbye. Honestly that’s kind of how it was supposed to work! 
-  
-    
+
+
       Meanwhile in crypto
-    
-  
+
+
 A famous function of brokers in traditional finance is not answering the phone when the market crashes. This has various benefits and costs. If you are a customer and the market is going down and you see that and panic and decide to sell everything, you will call your broker, and she will not answer her phone. You will be unable to sell everything. This may protect you from selling at the bottom (though it may make things worse for you if this is not in fact the bottom), and will definitely protect the market from you adding your sales to the general march downward. On the other hand if you bravely decide to step in to buy the dip, your broker’s failure to answer the phone not only costs you money (if you correctly time the bottom) but also prevents you from stepping in to stabilize the market; if brokers don’t answer when buyers call then the crash gets worse.There is also the issue of margin calls. In general, if you have a trade on using money that you borrowed from your broker, and your broker calls you for more money, and you call her back, she will answer that call, because she does want your money. But in particularly frantic market conditions she may not — because she has too much else going on, or because she has preemptively liquidated your position rather than waiting for you to post more money. And that too may drive the market lower.Of course this is all old-timey stuff and modern markets are considerably more technically advanced; the role of stabilizing markets by not answering the phone has been taken over by Robinhood having its app and website break (and also not answering the phone). Even that approach feels a bit dated, though, and with the rise of crypto and blockchains and decentralized finance there are new, cutting-edge, cryptographically elegant ways for trading  not to work:Solana, one of the largest blockchain networks, was hit by instability during a turbulent week for cryptocurrencies. ...The issue experienced by validators that use their computing power to help verify the network was caused by excessive duplicate transactions, according to a notice on the Solana website dated Jan. 22. Engineers have released version 1.8.14, which “will attempt to mitigate the worst effects of this issue,” the notice said. It added that more improvements are expected to come out in the next eight to 12 weeks, and many of those features are being “rigorously tested.” “Solana mainnet beta is experiencing high levels of network congestion,” the notice said. “The last 24 hours have shown these systems need to be improved to meet the demands of users, and support the more complex transactions now common on the network.”And:Solana's network logjam has had ramifications across the crypto-ecosystem. Not only does it make it difficult for a retail market participant to, for instance, sell a Solana-based NFT, it also slows down large DeFi traders and forces them to work around the network. "Slows everything down," one trading executive said. For large traders moving tens of millions, they have to move activity over-the-counter and agree to settle once the chain is working. "Agree on a price now and settle later... CEXes are still working so you still have price discovery," an executive at a derivatives trading desk noted. Others traders complained about not being able to top off a leveraged position in Solana on a decentralized venue — meaning, add to their position before risking liquidation. Also if you thought this month has been bad for meme stocks, what about  meme cryptocurrencies?Virtual coins made popular by online hype, including Dogecoin and Shiba Inu, were among the biggest losers in weekly value on Friday as crypto majors Bitcoin and Ether slid below key support thresholds.Dogecoin fell as much as 24% in the most recent seven-day period, tumbling more than 12% on Friday alone to a low of $0.148, according to data from CoinGecko. The meme coin is now down almost 80% from its all-time high, recorded nine months ago ahead of prominent supporter and Tesla Chief Executive Elon Musk’s appearance on “Saturday Night Live.”Other coins inspired by the shiba inu dog breed, including Shiba Inu and Dogelon, slipped around 18% in the last week. However, outlier Baby Doge rose a fifth in value over the same period.It is very important for my sanity that I never learn why Baby Doge was up last week, or anything else about Baby Doge.
-  
-    
+
+
       Short selling
-    
-  
+
+
 If you are in the business of penny-stock pump-and-dumps, and someone calls you “the LeBron James of pump-and-dumps,” and a reporter calls you up and asks “are you in fact the LeBron James of pump-and-dumps,” what do you say? It’s tricky. Pump-and-dumps are bad, but being the LeBron James of something is good. You will want to avoid confessing to illegal activity, but you might have a hard time resisting the flattery. “Yes, I’m so good at pump-and-dumps” is a bad answer because it might incur liability, though if you have already settled with the Securities and Exchange Commission (without admitting guilt) perhaps you won’t mind that too much. “No, I’ve never done a pump-and-dump in my life” is fine, I guess, but don’t you want to brag? Anyway here's a great answer:In December 2017, early in Hindenburg’s existence, Anderson published a report on a Colorado biotech company that had abruptly pivoted into cryptocurrency, renaming itself Riot Blockchain. Barry Honig, a colorful Florida investor whom Anderson describes as the “LeBron James of pump-and-dumps,” was the company’s largest shareholder. (“What is the definition of a pump-and-dump?” Honig asked rhetorically when reached on his cell phone. In 2018, the SEC charged Honig and the CEO of Riot Blockchain with fraud. Both men later settled without admitting guilt and were barred from trading penny stocks. Riot Blockchain itself was not implicated.)“I would have said more of the Steph Curry of penny-stock promotion.” That is from a New York Magazine profile of Nathan Anderson, the short seller who runs Hindenburg Research. Being an activist short seller mostly seems like a hard and unpleasant job of getting in fights with companies:Anderson laughs off the notion that he is a puppet and defends the motivations of his sources. “I don’t think most whistleblowers and even short sellers, for that matter,” he says, “start with the idea that, like, Wow, this can be a great business; all I need to do is pick fights with corporate sociopaths, and I can do really well.” In the Nikola case, he says, “it started, I think, just as abject horror that something this egregious and wrong could continue to fail forward and upward.”But I suppose sometimes there’s a meeting of the minds. You see a company, you decide it is doing a fraud, you are impressed despite yourself. “Man, this guy is really good at fraud,” you say, about the guy running the company, in your short note attacking it. “Oh, thanks, I’m so pleased someone noticed,” the guy says. 
-  
-    
+
+
       People are worried about non-GAAP accounting
-    
-  
+
+
 MicroStrategy Inc. is a smallish business-software company stapled to a largeish pot of Bitcoins. It owns about 124,391 Bitcoins, worth about $4.2 billion. In the first three quarters of 2021, its software business made about $37 million of profits, and its Bitcoin pot lost about $684 million of value.[1] MicroStrategy, helpfully, explains that on page 30 of its Form 10-Q, the quarterly financial report that it filed with the U.S. Securities and Exchange Commission. Which is more important? Well, I mean, I guess that if you own MicroStrategy stock it’s probably more for the pot of Bitcoins than it is for the business software, and you’ll care more about the price of Bitcoin than you will about the business’s earnings. But honestly I don't know, maybe you care about the business, or about the intriguing  feedback loop between the business and the CEO’s meme-stock focus on Bitcoin. Probably what is most useful is for MicroStrategy to tell you both things: “Last quarter, we made $X from selling business software and $Y from having a giant pot of Bitcoins.”Weirdly the SEC, and U.S. generally accepted accounting principles, are adamantly opposed to this. The idea that a company-plus-pot-of-Bitcoins could just tell investors “here’s how the company did and here’s how the pot of Bitcoins did” gives regulators terrible heartburn and so it is forbidden. For one thing, the accounting for Bitcoin investments is not generally mark-to-market, but is instead sort of asymmetric: If a company buys Bitcoins and they go down, it reports a loss; if they go up, it generally does not report a gain. So the financial statements of the pot of Bitcoins only sometimes reflect its actual financial performance; sometimes the financials show no change even when the pot has increased in value. There are plausible reasons of accounting conservatism for this but it is somewhat less informative, for investors who care about the pot of Bitcoins, than just telling them how the pot did every quarter.Also though just writing what I wrote in my first paragraph here — that MicroStrategy’s software business made $X and its pot of Bitcoins lost $Y — is itself controversial. MicroStrategy does it, and the SEC has now  told it to knock it off:MicroStrategy Inc. can’t strip out Bitcoin’s wild swings from the unofficial accounting measures it touts to investors, the SEC said. ...The enterprise software maker, which said in 2020 that buying and holding Bitcoin was one of its key business strategies, used non-GAAP measures in its Form 10-Q for the quarter that ended Sept. 30, 2021 to show investors what its income would have been if it didn’t have to impair the volatile cryptocurrency.The Securities and Exchange Commission objected, a comment letter released Thursday shows. ...The company told the SEC it used non-GAAP measures to give investors a fuller picture of its finances. If the company only showed declines in value, it would give “an incomplete assessment” of its Bitcoin holdings that would be “less meaningful to management or investors” in light of the company’s strategy to acquire and hold Bitcoin.“We further believe that the inclusion of bitcoin non-cash impairment losses may otherwise distract from our investors’ analysis of the operating results of our enterprise software analytics business,” the company wrote.The SEC disagreed. In a letter dated Dec. 3, the market regulator told MicroStrategy it objected to the adjustment and told the company to remove it from future filings. In its Dec. 16 response, MicroStrategy said it would comply.Here is the SEC’s letter. Obviously telling investors the truth about whether your pot of Bitcoins went up or down, and keeping the pot of Bitcoins analytically separate from the operating business, is more helpful than just giving them an earnings number that is one part business software and zero (if it’s up) or, like, 10 parts (if it's down) Bitcoin price moves.[2] But that's not how accounting works.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Activist Investor Pushes  Peloton to Fire CEO and Seek Sale. Private equity sidesteps IPO parade by borrowing billions. Empty Private Jet Flights Hastened Credit Suisse Chairman António Horta-Osório’s Downfall. Peltz’s Activist Fund Trian Is Said to Build Stake in Unilever. Shell’s Massive Carbon Capture Plant Is Emitting More Than It’s Capturing.  Algae Market Potentially Worth $320 Billion Draws Honda, Eneos. Crypto giant Binance kept weak money-laundering checks even as it promised tougher compliance, documents show. The Charismatic Developer and the  Ponzi Scheme That Suckered San Diego. Don't Approach Lab Monkey Missing After Crash, People Told. Robot vacuum cleaner escapes from Cambridge Travelodge. Evelyn Davis’s tombstone.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Those numbers come from page 30 of the most recent Form 10-Q. MicroStrategy reported a GAAP loss from operations of $647 million for the nine months ended Sept. 30, 2021, and a non-GAAP income from operations, stripping out digital asset impairment  ($684 million) and share-based compensation ($31 million), of about $68 million. I have added back share-based compensation, which I attribute to MicroStrategy’s business, to get the $37 million non-GAAP earnings attributable to the business.[2] You know who else runs an operating business stapled to a pot of investment assets? Warren Buffett, who also complains that smooshing these things together for GAAP accounting is misleading. At least he gets to mark his investments up when they go up. Anyway I  once wrote about his complaints: “Look: There is a sense in which if you run a giant investment fund and you buy stocks and those stocks go down, then you have lost money. I mean there is also a sense in which you haven’t, but it is the less conventional sense. I am not going to argue for the objective reality of GAAP net income accounting, and I see Buffett’s point that combining a bunch of operating businesses with a hedge fund leads to weird accounting results, but on the other hand (1) he’s the one who combined them!, and (2) it does feel a little like special pleading for Buffett, a long-time critic of companies that use non-GAAP accounting metrics, to complain that it’s unfair for GAAP to make him report a loss just because the stocks he bought went down.”
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

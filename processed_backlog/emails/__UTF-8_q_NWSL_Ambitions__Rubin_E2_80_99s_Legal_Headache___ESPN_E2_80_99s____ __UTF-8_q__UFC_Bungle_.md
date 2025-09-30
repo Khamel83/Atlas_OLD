@@ -28,7 +28,7 @@ podcast ( https://puck.news/podcast_episode/womens-soccers-billion-dollar-glow-u
 Finally, a personnel announcement crossed my desk right before I hit send: Amazon Prime promoted
 hotshot production exec Jared Stacy to vice president of live production. Jared is the guy in charge of all of Amazon’s live sports, which, of course, includes Thursday Night Football, as well as the upcoming NBA and NASCAR productions.
 
- 
+
 
 The Starting Five
 -----------------
@@ -190,7 +190,7 @@ are strategic and informed.
 
 It’s not just viewership numbers. It’s the demographics of your audience, and how that relates to brands. It’s about getting really sophisticated about data and research and analytics, both on our own and with our partners. 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -216,7 +216,7 @@ the Marchand trade: “John, do you have any comment on the rumors that you trie
 
 [Ed. note: Andrew, stop leaking to the press and pour the Sancerre—extra crisp!]
 
- 
+
 
 See you Thursday,
 
@@ -267,6 +267,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVgoBUlTdAeuhXI3isUOk=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked last month about a death-spiral-ish financing at Bed Bath & Beyond Inc. The company was days away from bankruptcy when a deal arri
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath & Beyond
-    
-  
+
+
 
 We   talked last   month about a death-spiral-ish financing at Bed Bath & Beyond Inc. The company was days away from bankruptcy when a deal arrived: Hudson Bay Capital Management
   [1]
@@ -94,89 +94,89 @@ But keeping the stock price above those thresholds may not be easy. It has alrea
 
 Volume remains very high, though, so someone is still buying, and presumably they’re buying stock that Hudson Bay is selling.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tether
-    
-  
+
+
 
 In principle, Tether, the big stablecoin issuer, has an extremely simple business model:
 	People give it dollars.	It gives them back Tether stablecoins, or “USDT.” Each USDT is meant to be worth $1, and the exchange rate is one USDT for one dollar. If people give Tether $10,000, it gives them back 10,000 USDT.	Tether keeps the dollars somewhere safe, presumably earning interest on them, which it uses to pay operating expenses and executive salaries and so forth.	If people want their dollars back, they can give Tether USDT and get back dollars, again one-for-one.
@@ -221,20 +221,20 @@ If you sell USDT for dollars, you have to do a dollar transfer; if you lend USDT
 The thing with Tether is that there’s like $65 billion outstanding, it pays no interest and one-month US Treasury bills yield like 3.8%. People do not give Tether money in order to earn interest on it; they give Tether money in order to get back USDT to use for crypto transactions. If you were Tether, you could just park their money in the safest and most liquid possible investments and earn billions of dollars of revenue that you get to keep. This is a very good and easy business. You don’t need to do anything else. When people call you up for loans, instead of evaluating their collateral and creditworthiness and negotiating good documentation and having a prudent risk management and monitoring system, you could just say “no we’re good” and buy Treasuries and sleep well on your giant pile of money.
 But of course I was wrong: In principle Tether has a very good and easy business, but in practice it is weirdly difficult, and issuing USDT in exchange for Bitcoin collateral might in fact be easier and safer than issuing USDT in exchange for dollars in the bank. To get dollars in the bank, you need a bank.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Binance
-    
-  
+
+
 
 Elsewhere in crypto regulatory stuff, here’s a Wall Street Journal story about Binance:
 
@@ -259,11 +259,11 @@ That “will surely be seized upon by media and can be cited as direct evidence 
 
 What? Why write that? If you make an online form, and the metadata says that the form was created by one legal entity instead of another legal entity, maybe the media and prosecutors will notice and cite the form as evidence of corporate nefariousness, but honestly no one is going to get that excited about it. But when you say in the chat that the thing “will surely be seized upon by media,” and that if you were an attorney general you would cite it as evidence of crime, they will! The chats are always better evidence — more lively, more indicative of intent, more intuitive to jurors or readers — than the account-opening forms!
 
-  
-    
+
+
       Multicoin
-    
-  
+
+
 
 Just a funny  series of numbers here:
 
@@ -274,11 +274,11 @@ Despite the massive drawdown, Multicoin’s hedge fund remains up 1,376% net of 
 
 You will sometimes hear traders talk about the importance of avoiding drawdowns in terms of simple arithmetic: “If you’re down 50% one year, you have to be up 100% the next year to make up for it,” that sort of thing. In those terms it is very bad to be down 90% for the year, because even if you’re up 100% the next year you’re still down 80% from your high. But Multicoin was up 100% in the first month of 2023, after being down 91% in 2022. And if you were in the fund from the beginning, you have still made a lot of money, because I guess they’ve had more up-100% months than down-90% months. You probably weren’t in the fund from the beginning — probably the up-100% months attracted investors — but never mind. “Multicoin says it ‘remains steadfast’ in its long term strategy and ‘does not attempt to time the market.’”
 
-  
-    
+
+
       Citadel
-    
-  
+
+
 
 If you put in many years of hard work at top academic institutions and ended up becoming the world’s leading expert at predicting the weather two months in advance, who do you think is the best employer to monetize your skills? Oh the answer is pretty much always “an enormous multi-strategy hedge fund.” The  Financial Times reports:
 
@@ -291,11 +291,11 @@ It has been bolstered in recent years with hires out of academia. Head of weathe
 I feel like this could be a good perk of working at Citadel? Like if you are planning a ski trip or a beach vacation two months from now, call up the natural gas desk and they’ll tell you what the weather will be like? Citadel’s biggest weather-related move in recent years was probably moving its headquarters from Chicago to Miami, and you probably didn’t need an advanced degree in meteorology to know that that would be an improvement, but still.
 It is always sort of a mixed bag, when investment firms are the highest bidder for this sort of useful-in-real-life talent and knowledge. On the one hand, wouldn’t it be nice if your phone’s weather app was super-accurate two months out? Or if farmers, utilities, etc. had this forecasting ability, instead of a hedge fund? On the other hand, I suppose the farmers, utilities, etc. get the information indirectly, in the form of price signals. And the hedge-fund bid for meteorological knowledge probably makes meteorology a more lucrative field, which leads to more and better meteorologists, which trickles down to the rest of us?
 
-  
-    
+
+
       Acronyms
-    
-  
+
+
 
 I  don’t care for this:
 
@@ -306,24 +306,24 @@ Goldman Sachs Group Inc. has dubbed the shift “TARA,” short for “there are
 
 I assume someone out there is building a large language model for coming up with cutesy investing acronyms.
 
-  
-    
+
+
       ETF paradoxes
-    
-  
+
+
 
 We   talked on Thursday about LJIM and SJIM, two exchange-traded funds from Tuttle Capital Management that buy (LJIM) or short (SJIM) all the stocks that Jim Cramer recommends on television and on Twitter. They are not affiliated with Cramer or anything, and seem to be making fun of him, but they require three Tuttle employees to “watch Cramer’s television appearances throughout the day and monitor his Twitter account,” so who really should be embarrassed here?
 Anyway a bunch of readers wrote in to make the same joke/point: Cramer should go on TV and recommend SJIM. Then, by its own rules, SJIM has to short itself. He should do it! Feels like a win-win. For Cramer, he gets to stick it to these guys who are making fun of him. For Tuttle, it’s funny, and “this is funny” seems to be the main theory of attracting investors to these funds, so presumably having to short their ETF in their ETF would attract more investors. For me, also, it is funny, and I want it to happen. Are ETFs allowed to short themselves? Probably? I have no idea but I really hope we’re going to find out.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US Banks Are Finally Being Forced to Raise   Rates on Deposits. German banks accused of  short-changing savers with low rates. AQR Leads 10 Hedge Funds Suing LME Over  Nickel Trade Debacle. Junk-Rated Companies Are  Borrowing Again. Fear of ratings downgrades puts companies off  debt-driven deals. Germany’s Sleepy Savings Banks Play Wall Street With   LBO Bets. Missing Banker Reignites   Fear of Xi Among China’s Tech Bosses. “Hell Is Coming”: How  Bill Ackman Predicted the Covid Market Crash — And Made a Fortune. Goldman’s   Top Stock Trader Whose Pay Rivaled CEO’s Makes Surprise Exit.   Credit Suisse Loses One of Its Biggest Backers. Swiss fund manager GAM  rushes to find buyer before results. Short Seller Accuses Kroll and Jones Day of   Wirecard Harassment. Musk  Delayed Paying Twitter’s Amazon Cloud Bill, Sparking Ad Threat. Auction for 13% of World’s   White Rhinos to Start at $10 Million. “George Patterson, chief investment officer at PGIM Quantitative Solutions, got a whiff of that retail urge recently when some friends’   teenage kids asked him questions about 0DTE options.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] And some other investors, but Hudson Bay was the anchor investor and seems to have put up the bulk of the money — most of the initial slug of $225 million and all of the remaining $800 million.
 
 
@@ -339,114 +339,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] See the definition of “Price Failure” on page S-36 here: “‘Price Failure’ means, with respect to a particular date of determination, the VWAP of the common stock on any Trading Day during the twenty (20) Trading Day period ending on the Trading Day immediately preceding such date of determination fails to exceed (x) at any time on or prior to the time at least 21,054 shares of preferred stock (as adjusted for stock splits, stock dividends, stock combinations, recapitalizations or other similar transactions occurring after the Subscription Date, the 'Threshold Share Amount') have been issued under the Preferred Stock Warrants, $1.25 or (y) at any time after at least the Threshold Share Amount of shares of preferred stock have been issued hereunder, $1.50.” Again, it’s the *worst* day in the 20 trading days before the tranche is drawn, not the average.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

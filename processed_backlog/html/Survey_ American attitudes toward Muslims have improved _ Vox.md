@@ -46,7 +46,7 @@ But Pew’s survey shows a notable improvement, indicating that America is slowl
 
 ## Watch: Why Mormons identify with Syrian refugees
 
-See More: 
+See More:
 
 * [Politics](/web/20241216201529/https://www.vox.com/politics)
 

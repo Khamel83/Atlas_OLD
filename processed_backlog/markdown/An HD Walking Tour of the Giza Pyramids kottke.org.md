@@ -12,11 +12,11 @@
 
 # An HD Walking Tour of the Giza Pyramids
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![An HD Walking Tour of the Giza Pyramids](https://i.ytimg.com/vi/EaQr917lRgI/sddefault.jpg)
 
-An HD Walking Tour of the Giza Pyramids  
-  
-If you, like me, haven’t had the opportunity to visit the Giza Pyramid Complex outside of Cairo, Egypt, this 2-hour HD walking tour is probably the next best thing — it feels like walking around about as much as a video can. Strap on those headphones for the full immersive experience. (via open culture) 
+An HD Walking Tour of the Giza Pyramids
+
+If you, like me, haven’t had the opportunity to visit the Giza Pyramid Complex outside of Cairo, Egypt, this 2-hour HD walking tour is probably the next best thing — it feels like walking around about as much as a video can. Strap on those headphones for the full immersive experience. (via open culture)
 

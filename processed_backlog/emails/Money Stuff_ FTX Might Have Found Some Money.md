@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Tuesday.Many financial frauds have roughly the same shape. Investors give you mo
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Tuesday.
 
-  
-    
+
+
       SBF Stuff: Anthropic
-    
-  
+
+
 
 Many financial frauds have roughly the same shape. Investors give you money because you tell them you are doing something safe and sensible with it. In fact, you are using the money for some combination of (1) paying your personal expenses and (2) making wild gambles. The gambles do not work out, the money is gone, the investors notice, you go to prison.
 What if the gambles do work out? Well! I think a lawyer would tell you that, if you are lying to your investors and using some of their money on personal expenses and putting the rest into wild gambles, and the gambles pay off, that is also fraud. It is arguably just as much fraud: What matters, as a legal and moral matter, is that you were doing wild dumb gambles and lying, not whether your gambling turned out to be lucky. Still, it does feel like there is a practical difference. If investors give you $100 and you do a series of dumb things with it and give them back $150, they probably won’t complain. What you did was illegal, but you don’t go to prison just because you did something illegal. You go to prison because you did something illegal and prosecutors bother to prosecute you, and if all your investors are happy they are less likely to bother.
@@ -86,37 +86,37 @@ But Bankman-Fried’s background was not in crypto but in the effective altruism
   [2]
  but FTX was in the business of making a lot of different improbable bets so you never know. If you steal all your customers’ money to buy lottery tickets, that’s probably bad, but maybe one of them will win.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff: Kelly, etc.
-    
-  
+
+
 
 We also   talked about these issues yesterday, through the lens of a weird series of bets that Bankman-Fried made as an intern at Jane Street Capital and that are recounted in Michael Lewis’s book Going Infinite. I want to mention a few updates on that discussion. 
 First, in the original version of yesterday’s column, I transposed the names in my first description of the bet, writing “If any intern loses more than $65 that day, Bankman-Fried will pay Asher that intern’s losses above $65; if none do, Asher will pay Bankman-Fried the difference between $65 and the maximum loss,” where I meant “If any intern loses more than $65 that day, Asher will pay Bankman-Fried that intern’s losses above $65; if none do, Bankman-Fried will pay Asher the difference between $65 and the maximum loss.” This is now corrected on the web and the Bloomberg Terminal, but if you read Money Stuff by email you got the wrong description of the bet, and that is annoying and I’m sorry.
@@ -142,11 +142,11 @@ That’s insane! You keep flipping a slightly weighted coin. Every time it comes
 I mean whatever, it’s a weird hypothetical. But a related question for Bankman-Fried, in March 2022, would have been: “If you have a 1% chance of making a trillion dollars and a 99% chance of going bankrupt and spending the rest of your life in prison, would you take that bet?” Let us assume that that bet has a positive expected value, that having a trillion dollars to spend on pandemic preparedness and AI alignment and politics and whatever adds more than 100 times as much utility to the world as sending you to prison forever subtracts. Would you do it?
 Nobody asked Bankman-Fried that exact question in March 2022, as far as I know, but it turns out that that was the game he was playing. He was almost certainly going to lose! He lost. But that’s life with a linear utility function.
 
-  
-    
+
+
       Private credit
-    
-  
+
+
 
 My   main thesis about financial markets these days is:
 	Interest rates have gone up a lot recently, and	It’s been so long since that last happened that everybody lost the capacity to imagine it, and most financial news for the next few years will have basically the form “people structured their lives in ways that implicitly assumed rates would never go up, and then rates went up and the stuff they did looks dumb.” It looked fine at the time, if you just forgot that rates could go up. Everyone did. Now they remember.
@@ -164,11 +164,11 @@ Christian Wiehenkamp, chief investment officer at Perpetual Investors, oversees 
 
 I think that if you asked any financially literate person an abstract question like “what is the right hurdle rate for a floating-rate debt manager’s performance fees,” they would not answer with a number; they would answer “well probably it should be floating.” But for like a decade floating interest rates were near zero and 7% was such an unimaginably juicy rate that a debt investor who could achieve it would look like a wizard. And, conversely, a floating-rate debt manager who asked for a hurdle rate like SOFR + 3%, when the secured overnight financing rate was 0.05%, would look greedy: “You want us to pay for performance when you are earning only 3.05%?” And now SOFR is 5.32% and the fees are wrong.
 
-  
-    
+
+
       People are worried about Travis Scott liquidity
-    
-  
+
+
 
 My understanding of how popular musicians’ concerts work is:
 	Tickets go on sale for normal-seeming prices.	Five seconds later, all of the tickets have been bought by bots, brokers, resellers, etc., and the show is sold out.	The resellers sell the tickets online at whatever price the market will bear, which is generally many times the face value of the tickets.
@@ -186,70 +186,70 @@ Members of the club were promised by PFS that they would be reimbursed for any t
 “Tickets they have no idea what to do with”? They can just go to the concerts! And bring, like, dozens of friends. Just arenas filled with disgruntled credit card points maximizers who have never heard of Travis Scott, really great energy for those shows.
 Part of the problem here is that, after these people bought all these tickets, “Scott announced that he was going to be adding shows in specific cities, thereby doubling the number of available tickets in some markets.” If you are a fan who bought tickets because you want to see Travis Scott, that’s fine; you still get to see your show, and you are not harmed by the fact that more people get to see him. In a normal concert ticket dynamic, this is good. But if you are a speculator hoping for a price pop, you can’t be happy that Travis Scott is competing with you to sell tickets. In a purely speculative dynamic, it is bad.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 FTX Employees Found  Alameda’s Secret Backdoor Months Before Collapse. Traders from Moore Capital Are Spinning Out $3 Billion Hedge Fund to   Wager on Inflation. JPMorgan steps up  securitisation effort ahead of new US capital rules. A toxic mix: opioid victims’ $1bn hit from  repeat pharma bankruptcy. How a California hedge fund bulldozed the state's labor laws to impose some of the  harshest noncompetes on Wall Street. Ex-Citi Banker   Sues Firm for Firing During ‘Dishonest’ Decade.   CFA Level II Pass Rate Slumps to 44%, Close to Historic Average. From  JPMorgan to Street-Style Icon. Legal Cocaine Is Coming, This   Canadian Startup Predicts.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Mostly I mean that it's modestly helpful at sentencing, if he is convicted.
 
 
   [2] Besides Anthropic being worth a fortune, another idea these days is that the FTX bankruptcy estate will revive the exchange, crypto will come back, and FTX 2.0 will once again be a dominant financial firm in crypto. That   strikes me as much less likely than evil robots killing us all, but what do I know.
 
 
-  [3] The intern gets $1 back from Bankman-Fried; I don't know if that counts against his losses. Lewis's book implied it would not, and that is 
+  [3] The intern gets $1 back from Bankman-Fried; I don't know if that counts against his losses. Lewis's book implied it would not, and that is
 how I did the math yesterday, so I will keep doing it today. If the $1 reduces his losses, then Asher only owes Bankman-Fried $34, and this alternative trade has a  $32 expected value, but the actual trade is similarly a bit reduced so this is still preferable.
 
 
   [4] As a recent purchaser of Olivia Rodrigo tickets, I can say with confidence that it’s at least two.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -260,46 +260,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjly4m.5jeg/d9b1771c.gif" alt="" border="0" /></a>

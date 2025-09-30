@@ -77,7 +77,7 @@ async def generate_api_key_endpoint(key_data: APIKeyCreate):
     """Generate a new API key"""
     api_key = secrets.token_urlsafe(32)
     API_KEYS.add(api_key)
-    
+
     return APIKeyResponse(api_key=api_key, name=key_data.name)
 
 @router.get("/proactive", response_model=List[ProactiveItem])
@@ -88,18 +88,18 @@ async def get_proactive_content(
     """Get forgotten/stale content that should be surfaced"""
     if not COGNITIVE_AVAILABLE:
         raise HTTPException(status_code=501, detail="Cognitive features not available")
-    
+
     try:
         surfacer = ProactiveSurfacer(manager)
         forgotten = surfacer.surface_forgotten_content(n=limit)
-        
+
         items = []
         for item in forgotten:
             items.append(ProactiveItem(
                 title=item.title,
                 updated_at=item.updated_at
             ))
-        
+
         return items
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting proactive content: {str(e)}")
@@ -112,11 +112,11 @@ async def get_temporal_relationships(
     """Get temporal relationships between content items"""
     if not COGNITIVE_AVAILABLE:
         raise HTTPException(status_code=501, detail="Cognitive features not available")
-    
+
     try:
         engine = TemporalEngine(manager)
         relationships = engine.get_time_aware_relationships(max_delta_days=max_delta_days)
-        
+
         items = []
         for item1, item2, days in relationships:
             items.append(TemporalRelationship(
@@ -125,7 +125,7 @@ async def get_temporal_relationships(
                 days_apart=days,
                 relationship_type="temporal_proximity"
             ))
-        
+
         return items
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting temporal relationships: {str(e)}")
@@ -138,11 +138,11 @@ async def generate_socratic_questions(
     """Generate Socratic questions from content"""
     if not COGNITIVE_AVAILABLE:
         raise HTTPException(status_code=501, detail="Cognitive features not available")
-    
+
     try:
         engine = QuestionEngine(manager)
         questions = engine.generate_questions(content)
-        
+
         return SocraticQuestion(questions=questions)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating questions: {str(e)}")
@@ -155,18 +155,18 @@ async def get_recall_items(
     """Get items that are due for spaced repetition review"""
     if not COGNITIVE_AVAILABLE:
         raise HTTPException(status_code=501, detail="Cognitive features not available")
-    
+
     try:
         engine = RecallEngine(manager)
         due_items = engine.schedule_spaced_repetition(n=limit)
-        
+
         items = []
         for item in due_items:
             items.append(RecallItem(
                 title=item.title,
                 last_reviewed=item.type_specific.get("last_reviewed") if item.type_specific else None
             ))
-        
+
         return items
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting recall items: {str(e)}")
@@ -179,11 +179,11 @@ async def get_patterns(
     """Get top tags and sources patterns"""
     if not COGNITIVE_AVAILABLE:
         raise HTTPException(status_code=501, detail="Cognitive features not available")
-    
+
     try:
         detector = PatternDetector(manager)
         patterns = detector.find_patterns(n=limit)
-        
+
         return Pattern(
             tags=patterns["top_tags"],
             sources=patterns["top_sources"]

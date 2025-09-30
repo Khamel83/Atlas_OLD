@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="www.vulture.com/_components/clay-meta-description/instances/ck5r4n4r400419eye5snqv58v@published" -->
 <meta name="description" content="Halsey tweeted about wishing the Pitchfork office would collapse after they published a middling review of her new album, Manic. She then deleted the tweet, because as many people know, Pitchfork is located at One World Trade. ">
-<meta name="twitter:description" content="She didn’t mean it."> 
+<meta name="twitter:description" content="She didn’t mean it.">
 <meta property="og:description" content="She didn’t mean it.">
 
 <!-- data-uri="www.vulture.com/_components/meta-image/instances/ck5r4n4r400429eyeqvxg0ojl@published" -->
@@ -240,7 +240,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -320,14 +320,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -337,7 +337,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"vulture","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -442,11 +442,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -752,7 +752,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -1056,7 +1056,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -1114,7 +1114,7 @@ data-canonical-url="http://www.vulture.com/2020/01/halseys-pitchfork-tweet.html"
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-oops inset"
                   href="//www.vulture.com/tags/oops/">oops</a>
         </div>
@@ -1131,7 +1131,7 @@ data-canonical-url="http://www.vulture.com/2020/01/halseys-pitchfork-tweet.html"
             <div class="main-author hidden-expanded-bio"><span>By</span> <span class="author-name">
         <a href="//www.vulture.com/author/rebecca-alter/" rel="author" class="article-author"><span>Rebecca Alter</span></a>,
           <span class="author-bio">a staff writer who covers comedy and pop culture</span>
-          
+
       </span></div>
 
 </span>
@@ -1192,7 +1192,7 @@ data-canonical-url="http://www.vulture.com/2020/01/halseys-pitchfork-tweet.html"
     </div>
   </header>
   <section class="body">
-    
+
     <div id="vulture-zephr-anchor" class="article-content inset" data-editable="content">
       <div class="lede-image-wrapper inset vertical">
           <div class="image-wrapper">
@@ -1427,7 +1427,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1542,7 +1542,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 <aside data-uri="www.vulture.com/_components/ad/instances/cjim278ye001qrnye99i4ut6r@published" class="ad vp-1180-plus"
@@ -1552,7 +1552,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 </div>
@@ -2112,10 +2112,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="www.vulture.com/_components/choreographer/instances/cl4j6iipp002q3b793b9c640q@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2134,7 +2134,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2639,37 +2639,37 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 <ul class="primary-links">
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/tv" class="tv">
             <span class="link-text" aria-label="TV">TV</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/movies" class="movies">
             <span class="link-text" aria-label="Movies">Movies</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/comedy" class="comedy">
             <span class="link-text" aria-label="Comedy">Comedy</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/music" class="music">
             <span class="link-text" aria-label="Music">Music</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/books" class="books">
             <span class="link-text" aria-label="Books">Books</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/streaming" class="whattostream">
             <span class="link-text" aria-label="What To Stream">What To Stream</span>
@@ -2765,7 +2765,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="www.vulture.com/_components/affiliate-links/instances/vulture@published" class="affiliate-links"
    data-amazon="vulture-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -3043,7 +3043,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

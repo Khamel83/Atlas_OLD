@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"12\/11\/2015","content_publish_time":"15:41","content_last_update_date":"12\/11\/2015","content_last_update_time":"16:35","contentcategory":"Basketball,Chicago Bulls,Derrick Rose,NBA","section_1":"sports","section_2":"sports:basketball","story_title":"The Bulls Offense Still Starts And (Especially) Stops With Derrick Rose","story_id":97786,"author":"Kirk Goldsberry","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Basketball","Chicago Bulls","Derrick Rose","NBA"],"word_count":1349},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>The Bulls Offense Still Starts And (Especially) Stops With Derrick Rose | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":97786,"section":"sportsbasketball","se
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The Bulls Offense Still Starts And (Especially) Stops With Derrick Rose" />
@@ -205,7 +205,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -224,13 +224,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											The Bulls Offense Still Starts And (Especially) Stops With Derrick Rose									</div>
 				<a href="https://fivethirtyeight.com/features/the-bulls-offense-still-starts-and-especially-stops-with-derrick-rose/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/the-bulls-offense-still-starts-and-especially-stops-with-derrick-rose/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -294,7 +294,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -303,7 +303,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -320,7 +320,7 @@ display: none;
 								<time class="datetime updated" title="2015-12-11T20:41:38+00:00">3:41 PM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									The Bulls Offense Still Starts And (Especially) Stops With Derrick Rose								</h1>
@@ -330,10 +330,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/kirk-goldsberry/" title="" class="author url fn" rel="author">Kirk Goldsberry</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/basketball/" class="term " name="">Basketball</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,7 +346,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?w=1150 2x">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg 2976w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=1536,1152 1536w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=2048,1536 2048w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2015/12/gettyimages-500867426.jpg?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -357,9 +357,9 @@ display: none;
 <figcaption class="caption featured-image-caption">
 				Derrick Rose of the Chicago Bulls, during Thursday&#8217;s game against the Los Angeles Clippers.									<p class="credits">Jonathan Daniel / Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>On Thursday night in Chicago, the Bulls were clinging to a 4-point lead over the Clippers. With 50 seconds left, Derrick Rose ran off some clock near midcourt; as the shot clock hit 14, he used a Pau Gasol ball screen to beat Chris Paul to the elbow and attack the right side of the paint, where he was met by DeAndre Jordan, one of the most athletic rim protectors in the league. But Rose was undeterred — he burst from the elbow toward the right block, elevated (at least a little) and banked in a gorgeous runner to put his team up by 6 with 45 seconds left. Vintage Rose.</p>
 <p>https://vine.co/v/iZnuEOaDrPT</p>
@@ -369,12 +369,12 @@ display: none;
 <p>It’s hard to transform a team that was the 10th-best offense into the 29th, especially considering almost all the players are still in place. The Bulls have accomplished (?) this in part by dumbing down their shot selection. Looking at their shots per game around the court, they have increased their midrange shooting activity under Hoiberg while decreasing their restricted area and corner three activity. Shot selection isn’t the only component of offensive efficiency, but these questionable shifts in the Bulls’ shot diet have unsurprisingly contributed to the downturns in their points per possession numbers.</p>
 <figure id="attachment_97808" class="wp-caption alignnone" style="">
 					<img decoding="async" class="size-full wp-image-97808" src="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg" alt="goldsberry-rose-2" width="610" height="515" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg 1220w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=89,75 89w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=300,253 300w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=768,648 768w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=1024,865 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=606,512 606w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=512,432 512w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=417,352 417w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=267,225 267w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=533,450 533w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=308,260 308w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=190,160 190w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=682,576 682w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=184,155 184w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=100,84 100w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=60,51 60w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=814,687 814w" sizes="(max-width: 610px) 100vw, 610px" data-sizes="(max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg 1220w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=89,75 89w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=300,253 300w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=768,648 768w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=1024,865 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=606,512 606w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=512,432 512w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=417,352 417w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=267,225 267w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=533,450 533w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=308,260 308w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=190,160 190w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=682,576 682w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=184,155 184w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=100,84 100w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=60,51 60w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-2.jpg?resize=814,687 814w"></figure>
-		
+
 <p>Of course, team shot selection doesn’t happen in a vacuum, and here’s the thing about bringing pace-and-space, or any other high-octane offensive revolution, to Chicago: Derrick Rose is still the face of the franchise, and right now that face is broken. It’s sad to say, but Rose is among the least efficient players in the NBA this year. <a href="http://insider.espn.go.com/nba/hollinger/statistics/_/order/false/page/2">He has a player efficiency rating of 9.89</a> and is one of only a handful of players <a href="http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&amp;match=single&amp;type=totals&amp;per_minute_base=36&amp;per_poss_base=100&amp;lg_id=NBA&amp;is_playoffs=N&amp;year_min=2016&amp;year_max=2016&amp;franch_id=&amp;season_start=1&amp;season_end=-1&amp;age_min=0&amp;age_max=99&amp;height_min=0&amp;height_max=99&amp;shoot_hand=&amp;birth_country_is=Y&amp;birth_country=&amp;birth_state=&amp;college_id=&amp;draft_year=&amp;is_active=&amp;debut_yr_nba_start=&amp;debut_yr_nba_end=&amp;debut_yr_aba_start=&amp;debut_yr_aba_end=&amp;is_hof=&amp;is_as=&amp;as_comp=gt&amp;as_val=&amp;award=&amp;pos_is_g=Y&amp;pos_is_gf=Y&amp;pos_is_f=Y&amp;pos_is_fg=Y&amp;pos_is_fc=Y&amp;pos_is_c=Y&amp;pos_is_cf=Y&amp;qual=pts_per_g_req&amp;c1stat=&amp;c1comp=gt&amp;c1val=&amp;c2stat=&amp;c2comp=gt&amp;c2val=&amp;c3stat=&amp;c3comp=gt&amp;c3val=&amp;c4stat=&amp;c4comp=gt&amp;c4val=&amp;c5stat=&amp;c5comp=gt&amp;c6mult=1.0&amp;c6stat=&amp;order_by=ws_per_48&amp;order_by_asc=Y">putting up negative win shares per 48</a>, and the arc of his <a href="https://projects.fivethirtyeight.com/carmelo/derrick-rose/">CARMELO projection</a> looks like a stack of printer paper. It’s hard to look sharp when your face is busted.</p>
 <p>On the surface, this isn’t a revelatory observation; <a href="http://deadspin.com/tag/sad-derrick-rose">Sad Derrick Rose</a> is practically a subgenre in NBA writing, as we’ve become desensitized to the decline of one of the best young players in the league. With Rose, injuries are always the story. This case, however, may call for fans to turn their attention from Rose’s well-documented knee injuries and consider that this recent downturn likely has something to do with the fact that <a href="http://www.espn.com/nba/story/_/id/14137034/derrick-rose-chicago-bulls-dealing-blurry-vision">he is still dealing with blurred vision</a> from his preseason orbital fracture. It’s tough to shoot a basketball in an NBA game when you can’t see. Squint past all the depressing artifacts of the broader demise of Derrick Rose on this shot chart, and you can see how this might manifest:</p>
 <figure id="attachment_97809" class="wp-caption alignnone" style="">
 					<img decoding="async" class="size-full wp-image-97809" src="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png" alt="goldsberry-rose-1" width="610" height="515" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png 1220w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=89,75 89w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=300,253 300w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=768,648 768w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=1024,865 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=606,512 606w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=512,432 512w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=417,352 417w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=267,225 267w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=533,450 533w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=308,260 308w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=190,160 190w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=682,576 682w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=184,155 184w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=100,84 100w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=60,51 60w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=814,687 814w" sizes="(max-width: 610px) 100vw, 610px" data-sizes="(max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png 1220w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=89,75 89w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=300,253 300w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=768,648 768w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=1024,865 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=606,512 606w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=512,432 512w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=417,352 417w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=267,225 267w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=533,450 533w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=308,260 308w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=190,160 190w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=682,576 682w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=184,155 184w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=100,84 100w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=60,51 60w, https://fivethirtyeight.com/wp-content/uploads/2015/12/goldsberry-rose-1.png?resize=814,687 814w"></figure>
-		
+
 <p>Just look at those midrange regions. At his peak, <a href="http://grantland.com/the-triangle/can-derrick-rose-shoot/">Rose was one of the most efficient midrange jump shooters in the league</a>. So far this year, 68 players have taken at least 250 shots, and within that group, Rose ranks 66th in field goal percentage, outshooting only <a href="https://fivethirtyeight.com/features/an-ode-to-kobe-bryant-in-two-charts/">the decomposing Kobe Bryant</a> and the very green <a href="https://vine.co/v/iz52WrDJibI">Emmanuel Mudiay</a>. But Rose is 27, a former MVP, and squarely in a time when his midrange game should be getting better, not worse.</p>
 <p>Or take the at-the-basket region — <a href="http://stats.nba.com/league/player/#!/shooting/?CF=Less%20Than%208%20ft.%20FGA*GE*100&amp;Season=2015-16&amp;SeasonType=Regular%20Season&amp;PerMode=Totals&amp;DistanceRange=8ft%20Range&amp;sort=Less%20Than%208%20ft.%20FG%20PCT&amp;dir=-1">79 players have attempted at least 100 shots within 8 feet of the rim</a> this season, but Rose ranks dead last in efficiency in this group. It’s alarming, and the clearest sign that Rose simply isn’t close to being the player he was. In his MVP year of 2010-11, Rose converted 54 percent of his buckets in this same area. And before you go saying that this drop has more to do with his loss of explosiveness because of the knee injuries and less to do with that face injury, consider that <a href="http://stats.nba.com/league/player/#!/shooting/?CF=Less%20Than%208%20ft.%20FGA*GE*300&amp;Season=2014-15&amp;SeasonType=Regular%20Season&amp;PerMode=Totals&amp;DistanceRange=8ft%20Range&amp;sort=Less%20Than%208%20ft.%20FG%20PCT&amp;dir=-1">last season that number was 55 percent.</a></p>
 <p>Additionally, Rose’s passivity shows up in his lack of trips to the free-throw line. He’s currently getting there just 2.8 times per 36 minutes, which would be the lowest mark of his career — which is saying something, considering <a href="http://www.espn.com/blog/truehoop/post/_/id/22636/assessing-derrick-rose-and-basketball">his early-career aversion to contact</a>. It’s also less than half of the level during his MVP campaign, when he went to the line 6.6 times per 36 minutes. This is strange, because Rose is actually driving more often this year. Going by the SportVU “Drive” stats, Rose drives 9.5 times per game<b>, </b>compared with 7.2 last season (we don’t have data going back to his MVP season). However, his points per possession have fallen from a respectable 0.83 last year to a disastrous 0.58.</p>

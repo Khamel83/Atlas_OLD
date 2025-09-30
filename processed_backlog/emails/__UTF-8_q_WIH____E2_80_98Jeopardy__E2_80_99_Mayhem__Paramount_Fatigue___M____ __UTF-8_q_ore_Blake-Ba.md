@@ -24,7 +24,7 @@ Paley, Donald Trump, Elon Musk, Marc Toberoff, James Gunn, Blake Lively, Nick Sh
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -141,7 +141,7 @@ a moment, it seemed possible that the uncertainty might yank the game shows off 
 It’s worth asking why anyone would want to
 own CBS right now. Between the inevitable legal showdowns over digital rights, and the ongoing headaches with 60 Minutes and Trump’s election interference lawsuit, Bill Paley’s once-storied Tiffany Network is challenged. I hear Skydance is watching all of this closely—but they’re not walking away.
 
- 
+
 
 Thanks, Eriq. I'll be back on Thursday evening. 
 
@@ -192,6 +192,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVY6kj1hnks7ERfko6xqw=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

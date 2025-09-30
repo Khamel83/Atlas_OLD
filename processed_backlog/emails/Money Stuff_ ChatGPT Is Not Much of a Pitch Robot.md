@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The stereotype of ChatGPT, Open AI’s publicly available conversational la
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       ChatGPT
-    
-  
+
+
 
 The  stereotype of  ChatGPT, Open AI’s publicly available conversational large language model, is that if you ask it a technical question it will give you an answer that is confident and plausible but not necessarily correct. This is of course an incredibly useful skill, and a very good model of a certain sort of human intelligence; ChatGPT seems dangerous as a software engineer but could have a good run as an investment banker.
   [1]
@@ -84,92 +84,92 @@ You can do better, where by “better” I mean “get more confident answers ou
 If you trained it on a bunch of Warren Buffett annual letters maybe it would say some stuff that sounds like Warren Buffett? Not just in terms of folksy sex jokes but also in terms of penetrating investment insight? Maybe GPT-2 would digest Buffett’s mind, or rather specifically the parts of Buffett’s mind that are exposed when he writes prose, and it would use that understanding of his mind to write Buffett-like prose recommending Buffett-like investing decisions?
 Or if you run an investment firm and you’ve got a corpus of memos from your analysts recommending investment decisions, why not take the memos that worked out—the ones recommending investments that went up—and feed them into GPT-2? Then have it write you a new memo and see if it’s any good?
 
-I wouldn’t bet on it or anything; it’s interesting to speculate about, but it seems unlikely that a computer will get good at making investment decisions just by ingesting how humans have articulated investment decisions. (It’s much more likely to fixate on boilerplate about how “past performance does not guarantee future results.”) But I bet a computer could get pretty good at articulating investment decisions from that training set. (In a sense this is the opposite of a classic “black box” machine-learning investment algorithm: Classic quant signals might work, but 
+I wouldn’t bet on it or anything; it’s interesting to speculate about, but it seems unlikely that a computer will get good at making investment decisions just by ingesting how humans have articulated investment decisions. (It’s much more likely to fixate on boilerplate about how “past performance does not guarantee future results.”) But I bet a computer could get pretty good at articulating investment decisions from that training set. (In a sense this is the opposite of a classic “black box” machine-learning investment algorithm: Classic quant signals might work, but
 you can’t explain them; ChatGPT might not work, but it can explain itself.) If your hedge fund lost money last year, maybe ask ChatGPT to write your investor letter for you. It can spin up some platitudes, quote some Stoic philosophers, and sound confident and plausible, which is all you really need for the letter. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Twitter interest payment
-    
-  
+
+
 
 Tomorrow seems to be the due date for Twitter Inc.’s first interest payment on the $13 billion it borrowed to fund Elon Musk’s buyout. That’s a little exciting! Will Twitter pay? I mean, probably. Here is a   Bloomberg News article from last week being like “oh come on, obviously Elon is gonna pay, Twitter has the money and it’d be crazy not to”:
 
@@ -185,20 +185,20 @@ On the other hand … it’s Elon Musk? And some banks? And Twitter? Like:
 
 To be clear I still assume that Twitter will make its interest payment on time, mostly because not paying the interest would require a lot of time and attention from Musk and my guess is that he has higher-priority hijinks to attend to. But also because Twitter and Musk’s other businesses keep needing financial services and going to war with the banks over this will cause problems. But I’m not certain. Just because Twitter can make the payment, and should, doesn’t mean that it will. 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       NYSE
-    
-  
+
+
 
 We   talked yesterday about a glitch at the New York Stock Exchange on Tuesday: NYSE forgot to do the opening auction for a bunch of stocks, instead going straight into ordinary trading at 9:30 a.m. It turns out this is bad: If you take the orders for the opening auction and just put them into the regular trading order book, prices bounce around wildly and you end up having to cancel a bunch of trades. The stock market works one way in the opening auction at 9:30:00, and a different way in regular trading at 9:30:01, and if you mix them up you get a mess.
 But how did NYSE mix them up? Bloomberg’s   Katherine Doherty reports:
@@ -219,11 +219,11 @@ Charles Schwab Corp., the brokerage catering to retail investors, openly critici
 
 NYSE picked sort of an awkward time to mess up its auctions, is the point here.
 
-  
-    
+
+
       Tokenomics: DeWi
-    
-  
+
+
 
 Here is a  Substack post by Connor Lovely with the unpromising title “DeWi’s first rug pull?” “DeWi (decentralized wireless) may be experiencing its first rug pull, vampire attack, and miner strike all at once,” ah. It’s about a crypto project called Pollen Mobile, which “launched in February 2022 and quickly became Helium’s most formidable peer in the DeWi space.” We have   talked about Helium before, and I am not sure that “Helium’s most formidable peer” is something I’d want to put on my resume, but whatever. The basic idea in — I’m so sorry — DeWi is:
 	Someone starts a project to provide wireless service everywhere, but with crypto.	The way it works is that you can get some sort of hardware device from the project, and you plug it in to your home electricity and internet, it provides a wireless signal, and people who are near you can connect to the internet using your device.	And then — this is the crypto part — they pay for using the coverage you provide, and you get paid for that coverage, in the project’s crypto tokens.
@@ -252,11 +252,11 @@ Well, yes! One vision of DeWi, sorry, is that everything will be crypto: The se
 But in January 2023 it is clear that the crypto part is a drawback: If you build an excellent widespread wireless network and go out to consumers and corporate customers and say “hey we have a great network, you should use it, just buy our crypto token,” they will say “hmm sounds good except for the token.” So you get rid of the token, and all the tokenomics fall apart, and the people who bought in because they thought they’d get rich off the token feel cheated.
 Also another, related point is that as far as I can tell every decentralized crypto project has some central group of decision-makers who actually run the project, and then a veneer of decentralization. Shouldn’t the holders of Pollen tokens get to decide on its monetization strategy? Lol, no, absolutely not. Sure if they were shareholders of Pollen they’d have some legally binding governance rights. But they’re not.
 
-  
-    
+
+
       Tokenomics: Bankruptcy
-    
-  
+
+
 
 Oh   sure, sure:
 
@@ -268,11 +268,11 @@ A group of creditors has been pushing Celsius to follow the example set by the B
 
 I mean. What you do is, you restart Celsius as a crypto lending project. You give everyone who lost money new, I dunno, Kelvin tokens that represent their Celsius bankruptcy claims, and you let those Kelvin tokens trade, and the newly restarted Celsius runs a lending market in which retail customers can deposit their Kelvin tokens and earn 18% interest and Celsius will lend them to crypto hedge funds that will steal them. And then new Celsius will go extra bankrupt, and the people whose Kelvin tokens were stolen will get yet another Extra Bankruptcy Token, and you can just repeat this forever. At some level, who cares? Somebody made up the crypto tokens that Celsius lost in the first place; what does it matter if they are replaced with new tokens that Celsius made up? The point is to make sure that everyone has a good time trading and gets paid 18% interest (paid in kind!) on their made-up money until it disappears and is replaced with a new made-up money. 
 
-  
-    
+
+
       Somebody is reading Money Stuff
-    
-  
+
+
 
 A reader emailed yesterday to ask:
 If Congress ever bans stock buybacks, could a responsible CFO do some token security fraud and settle at an unreasonably large value to return money to shareholders in a tax efficient way?
@@ -280,11 +280,11 @@ I am not going to explain this! It seems a little extreme, but also I love it? 
   [5]
  and in any case surely paying a dividend is overall more efficient than this plan, because the securities-fraud angle involves paying a large cut to lawyers and also to former shareholders. But if Congress ever bans stock buybacks, some investment bank had better model up this idea.
 
-  
-    
+
+
       Somebody else is reading Money Stuff
-    
-  
+
+
 
 Here is  a speech that Hester Peirce, a commissioner on the US Securities and Exchange Commission, gave at a crypto conference last week, in which she was critical of the SEC’s approach to crypto regulation:
 The SEC needs to conduct better, more precise, and more transparent legal analysis. The SEC’s approach to regulating crypto looks somewhat like a decidedly unromantic version of CompuDate from the old TV show: we tell people to come down to the office to talk to us about their projects, plug the information they give us into our proprietary security-identifying algorithms, and then send the people home with a court date. Hardly a reasonable way forward, and one that results in what one lawyer has dubbed “regulation by anxiety.” Operating in such an opaque environment is very stressful for law-abiding people.
@@ -292,15 +292,15 @@ Honestly it’s not that opaque: If you go to the SEC and   ask for permission t
 Anyway Peirce also criticizes the SEC for pursuing too much crypto fraud, because sometimes that fraud happens outside of the US and in crypto tokens that are not securities. “Although some might suggest otherwise,” she says, “everything, everywhere is not securities fraud.” A  footnote cites   me. I am the one who   suggests   otherwise.
 Here I want to point out that, while Peirce is an SEC commissioner, she is a Republican commissioner who finds herself in the minority on a lot of SEC decisions, and this is a speech in which she is disagreeing with the actual actions and legal theories of the SEC. This speech does not represent the official position of the SEC; it is almost the opposite. I think you should read her comment to mean “regrettably, it is the official position of the SEC that everything, everywhere is securities fraud.” Because it is.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Morgan Stanley   Fines Its Bankers Over Messaging Breaches. Stripe Plans to Go Public in Next Year or Make a Deal to Resolve  Employee Stock Squeeze.   Ghana Payment Halt Is Potential Repudiation, Swap Panel Rules. Zimbabwe Plans a New   City for the Rich. Blackstone Misses Forecast for   Running $1 Trillion by End of 2022. Rogue AI ‘ could kill everyone,’ scientists warn as ChatGPT craze runs rampant. “Not only did she  include a Martin Luther King Jr. quote in a companywide email about layoffs, she girlboss-ified it by removing the word ‘man’.” Six doctors  swallowed Lego heads for science. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Dan Davies last month: “It’s plausible and articulate, and people tend to get quite fond of it, even though it has a nasty habit of making things up when it doesn’t know the answer — the GPT-3 Chatbot has all the qualities necessary to be a successful summer intern.”
 
 
@@ -313,117 +313,117 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Particularly “particularly in the current regulatory environment.” The US Securities and Exchange Commission, in 2023, is just not going to let you distribute some DeWi token to retail users; the SEC is going to say that’s a security and that you’re doing an unregistered offering.
 
 
-  [5] Hoo boy is this not tax or legal advice, but wouldn't the securities fraud class action settlement be taxable income? Whereas buybacks are famously more tax-efficient than dividends because in a buyback (1) selling shareholders get some income but also some non-taxable return of basis and (2) *non*-selling shareholders don’t get taxed, but see the value of their shares go up. 
+  [5] Hoo boy is this not tax or legal advice, but wouldn't the securities fraud class action settlement be taxable income? Whereas buybacks are famously more tax-efficient than dividends because in a buyback (1) selling shareholders get some income but also some non-taxable return of basis and (2) *non*-selling shareholders don’t get taxed, but see the value of their shares go up.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

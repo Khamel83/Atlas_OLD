@@ -34,13 +34,13 @@ source atlas_venv/bin/activate
 - **PRIMARY**: Study `CLAUDE.md` thoroughly - contains current status and instructions
 - **SPECS**: Read all files in `docs/specs/` for implementation details
   - `BLOCKS_7-10_IMPLEMENTATION.md` - iOS, Analytics, Search, AI Processing
-  - `BLOCKS_11-13_IMPLEMENTATION.md` - Autonomous Discovery, Intelligence, Self-Optimization  
+  - `BLOCKS_11-13_IMPLEMENTATION.md` - Autonomous Discovery, Intelligence, Self-Optimization
   - `BLOCK_14_IMPLEMENTATION.md` - Production Hardening (Monitoring, SSL, Backups)
 - **WORKFLOW**: Review `docs/workflow/` for processes and standards
 
 ### **3. Architecture Understanding**
 - **Core modules**: `helpers/` directory contains main functionality
-- **Background service**: `scripts/atlas_background_service.py` runs continuously  
+- **Background service**: `scripts/atlas_background_service.py` runs continuously
 - **Processing pipeline**: `run.py` is main execution script
 - **Testing**: `tests/` directory has comprehensive test suites
 
@@ -255,7 +255,7 @@ python -m pytest tests/ -v --cov=. --cov-report=term-missing
 
 ### **Performance Benchmarks:**
 - Search: <500ms response time
-- Analytics: Process 1000 items in <10 seconds  
+- Analytics: Process 1000 items in <10 seconds
 - Dashboard: Load in <2 seconds
 - Background processing: No memory leaks over 24+ hours
 
@@ -282,7 +282,7 @@ python -m pytest tests/ -v --cov=. --cov-report=term-missing
 ### **Error Recovery:**
 - **5-minute rule**: If stuck >5min, skip and continue
 - **Log and move**: Note the issue, continue to next task
-- **No blocking**: Every component works independently  
+- **No blocking**: Every component works independently
 - **Ship working code**: Partial implementation > no implementation
 
 ### **Token Management:**

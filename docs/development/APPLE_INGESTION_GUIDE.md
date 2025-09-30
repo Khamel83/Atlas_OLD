@@ -65,7 +65,7 @@ print(f'Processed: {result[\"succeeded\"]} succeeded, {result[\"failed\"]} faile
 
 ```
 1. IMMEDIATE CAPTURE → Quarantine Directory
-2. PERSISTENT LOGGING → SQLite Database  
+2. PERSISTENT LOGGING → SQLite Database
 3. BACKGROUND PROCESSING → Atlas Pipeline
 4. DATA PROMOTION → Only after success
 5. EMERGENCY RECOVERY → For any failures
@@ -78,7 +78,7 @@ print(f'Processed: {result[\"succeeded\"]} succeeded, {result[\"failed\"]} faile
 - Persistent capture log in SQLite
 - Emergency file backup for total failures
 
-**Layer 2: Failsafe Ingestion** 
+**Layer 2: Failsafe Ingestion**
 - Deduplication prevents duplicate processing
 - Retry logic with exponential backoff
 - Failed items preserved for manual review
@@ -184,7 +184,7 @@ print(f'Processed: {result[\"succeeded\"]} succeeded, {result[\"failed\"]} faile
 iPhone Safari → Share → Atlas: Capture URL → Webhook → Bulletproof Capture → Queue → Article Processing → Atlas Database
 ```
 
-### Text Ingestion  
+### Text Ingestion
 ```
 Apple Notes → Copy → Atlas: Capture Text → Webhook → Bulletproof Capture → Queue → Content Processing → Atlas Database
 ```
@@ -284,7 +284,7 @@ print(f"Found {len(pending)} pending captures to process")
 ### Ingestion Performance
 - **Single URL**: ~100ms capture time
 - **Bulk URLs**: 50+ URLs/second
-- **Text Content**: ~50ms capture time  
+- **Text Content**: ~50ms capture time
 - **Files**: ~200ms + transfer time
 
 ### Storage Requirements
@@ -332,7 +332,7 @@ ingestor = FailsafeIngestor()
 # High priority ingestion
 queue_id = ingestor.ingest_url("https://urgent-article.com", "urgent", priority=1)
 
-# Low priority bulk processing  
+# Low priority bulk processing
 queue_id = ingestor.ingest_url("https://archive-article.com", "bulk", priority=9)
 ```
 

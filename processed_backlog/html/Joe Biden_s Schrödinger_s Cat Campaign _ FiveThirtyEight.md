@@ -33,11 +33,11 @@ Furthermore, it’s not clear what advantage Biden would offer Democrats relativ
 
 > What is the case for Biden over HRC?
 >
-> Youth?Ð²ÑÐ  
-> Gender?Ð²ÑÐ  
-> Broad party support?Ð²ÑÐ  
-> Lefty cred?Ð²ÑÐ  
-> Money?Ð²ÑÐ  
+> Youth?Ð²ÑÐ
+> Gender?Ð²ÑÐ
+> Broad party support?Ð²ÑÐ
+> Lefty cred?Ð²ÑÐ
+> Money?Ð²ÑÐ
 > Superior campaigner?Ð²ÑÐ
 >
 > Makes no sense.

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         My crude model of hedge fund management is: You’ll have good times and bad times.%3Cp%3EObviously%20a%20different%20model%20of%20hedge%20fun
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Performance fees
-    
-  
+
+
 
 My crude model of hedge fund management is:
 	You’ll have good times and bad times.
@@ -87,89 +87,89 @@ Yes reliable capital is extremely good for a hedge fund! The time to make it rel
 This structure of, like, 1-or-20 fees sounds lower than the traditional hedge fund fee structure of 2-and-20, that is, a 2% fee on assets plus 20% of gains, but the   “pass-through” fees for “expenses that include portfolio-manager compensation”  actually make it higher. “The multi-manager fund is  more like 7-and-20,” though the pass-through fees vary by fund and year. The point is that Millennium charges its costs (including pay), and then takes 20% of the profits, but now that performance fee is floored at 1% of assets even if the profits are negative. 
 I suppose in some theoretical sense, as an investor, you should want your hedge fund manager to have “big reductions in annual income” when  performance is bad? Originally, that sort of incentive alignment was kind of the point of the hedge fund model. And yet! As an investor, you should also want to invest with the best hedge fund managers. And the best hedge fund managers are smart enough to make sure they make money no matter what.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Rich List
-    
-  
+
+
 
 Speaking of which, yesterday Institutional Investor  published its annual “Rich List” of “the 25 highest-earning hedge fund managers, based on a combination of fee earnings and gains on their own capital.” Bloomberg’s own   high earners list came out last month.
 Both lists include Said Haidar of Haidar Capital, who seems to be an old-school guy who makes huge leveraged bets and eats what he kills; last year he killed it and his fund was up 193%, good for the sixth spot on Bloomberg’s list and the tenth on II’s. He “runs his high-conviction macro strategy with abundant leverage, which leads to double-digit gains but also losses,” and   as of last month he was “off to a poor start in 2023.” I   wrote about him last month: “Really the best-performing hedge fund each year — as measured by percentage returns — always should be one that runs at 50x leverage. … Obviously the worst-performing hedge fund each year should be a different one that runs at 50x leverage.” Eat what you kill, also sometimes get killed.
@@ -179,20 +179,20 @@ The bet here is basically that all that institutional structure is valuable, tha
  If the thing that you want, as an investor, is a charismatic genius manager who works really hard to find high-conviction trades, then you should want incentive alignment, performance-based fees and the occasional 193% return when that manager gets it exactly right. If the thing that you want is steady returns that are uncorrelated to the broader market, then the way to pay for it might be with large fees that are uncorrelated to performance.
 I mean, not really uncorrelated; Ken Griffin, Izzy Englander and Steve Cohen had very good years for themselves because their funds had very good years for their clients. But for a hedge fund manager, the best long-term way to use that performance might be to transform your fund into an institution.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       10b5-1 abuse
-    
-  
+
+
 
 The problem is that if you are a senior executive at a public company, you are constantly learning things that could be material to its stock price. You look at weekly sales numbers, which give you a picture of how the quarter will develop. You meet with customers and they say things like “we love your service and want to deepen our relationship” or “we are annoyed and looking for alternatives, how about a price cut.” If you are a top executive, everything that you do is material to the business; if it wasn’t material to the business, someone else would do it.
 In a sense this means that any time you buy or sell your company’s stock, you are “insider trading,” trading while in possession of material nonpublic information. There are solutions to this problem. One is the concept of the “open window”: A public company will usually have a rule saying that its employees can only trade the stock in certain open-window periods shortly after the company releases earnings. The theory is that the earnings release — and the earnings call that usually comes with it — contains all of the material information about the company, so everything that executives know is now public, so the executives are free to trade.
@@ -241,11 +241,11 @@ There are, I think, three ways to tell this story:
 	Peizer was involved in the business, and like any senior executive he knew a bunch of stuff, there was a lot going on, and nothing was certain. Ontrak was constantly negotiating with customers and getting feedback; that is just part of the job. In May, he decided to sell some stock from some options that were expiring, so he signed a deal to do that. He had no “material nonpublic information”: He didn’t know that a big cancellation was coming; he just knew that the business was hard and risky and some customers were complaining. (It’s harder to defend the August trades, but I suppose they were just a continuation of the May ones?)	Peizer had material nonpublic information, in May and in August, that Customer A was planning to cancel. So he decided to sell stock as quickly as possible, but put the fig leaf of a 10b5-1 plan over his sales. But 10b5-1 is not a defense if you knew the material nonpublic information when you signed the plan; the fig leaf doesn’t work.	Peizer kinda knew stuff was going south, but he wanted to give it time to play out. So he signed a plan to start dumping stock, one that he could have canceled if things improved with Customer A. But they never did, so he kept selling. He didn’t know anything material and bad when he signed the May plan, but he signed the May plan to give himself some optionality to sell if he learned anything material and bad, and that itself is a kind of insider trading.
 
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 I don't know? Yesterday Elon Musk  got in a Twitter fight with Halli Thorleifsson, Iceland’s  Person of the Year, who apparently lost his job at Twitter Inc. in one of Musk’s many rounds of layoffs? Musk lost the Twitter fight very, very badly? And made some comments suggesting Thorleifsson was fired due to his disability? And it turned out that Thorleifsson sold his company to Twitter and is apparently in line for a huge payout if he was fired? And then Musk un-fired him and … apologized? Presumably the lawyers who have been chasing him around for the last six months were finally able to tackle him and take his phone? 
 Venture capitalist Parker Thompson tweeted: “It’s cool that Elon is making this site more entertaining by developing cartoon heroes and villains for us to invest in emotionally, but if I put in $44b I would’ve picked to be one of the heroes.” I truly do not understand why, if you were the richest person in the world and the chief executive officer of like five car/rocket/tunnel/brain/etc. companies, you would spend your time portraying yourself as a petty jerk on social media! You can just not do that! You’re free! The point of all that money and power and accomplishment is that you can choose how to spend your time and attention; you can hire people to do the bad parts of your job; you can focus on what matters to you and stay above petty fights. You get to have a nice life! Why choose to have a bad one?
@@ -266,15 +266,15 @@ Still elsewhere in the Musk roundup:
 	“Tesla Under Investigation After   Steering Wheels Fall Off While Driving.”	“Elon Musk Says Twitter Could Be ‘Cash-Flow Positive’ Within Months.”
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Jerome Powell Says Fed Is Prepared to  Speed Up Interest-Rate Rises. Deepest   Bond Yield Inversion Since Volcker Suggests Hard Landing. Record   Private-Credit Deal May Allow 50% of Interest Deferred. Justice Department Sues to Block JetBlue From Buying Spirit Airlines. Binance.US Cleared to Buy Voyager Accounts Despite SEC Warning. Swiss banks say rich Chinese clients worried about  sanction prospects. Traders Burned by Stock Losses Are Pouring Billions Into   Credit. U.S.  Shale Boom Shows Signs of Peaking as Big Oil Wells Disappear. Adidas to pay ex-chief €15.9mn as it slashes dividend after  Kanye West saga. Lender SoFi Says It Lost $200 Million on   Student Loan Freeze. UK Watchdog Takes Action Against   Crypto ATMs in Latest Crackdown. It Turns Out Money Does Buy Happiness, At Least   Up to $500,000. As Customer Problems Hit a Record High, More People Seek ‘ Revenge.’ “I haven’t seen ‘Tár,’ but I do love  Big League Chew.” Chuck E. Cheese Still Uses Floppy Disks To  Make Its Rodent Mascot Dance — For Now. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Obviously a different model of hedge fund management is "you will have large steady profits every year." That's a very good model too. Mine is cruder.
 
 
@@ -293,114 +293,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] The December amendments address this a little bit: The new rules restrict officers from having *multiple* overlapping 10b5-1 plans (the really abusive thing to do is have one plan to buy stock and one plan to sell, and then terminate one of them when you learn the earnings), and require companies to *disclose* if their officers terminated any 10b5-1 plans, but they don’t really prohibit terminating the plans, and it’s not clear how they could. They do require officers to certify that they are “adopting the plan in good faith and not as part of a plan or scheme to evade the prohibitions of this section,” but if you’re going to do this scheme presumably you would be willing to certify that.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

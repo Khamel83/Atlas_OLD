@@ -174,7 +174,7 @@ Ashlynn Park, on the other hand, had no trouble convincing me at her show on Fri
 afternoon in the Cristina Grajales Gallery in Tribeca. Wow, what a fabulous collection by someone who has paid her dues. Park did time at Yohji Yamamoto, Alexander Wang, and, more recently, with Simons at Calvin Klein, before finally launching her own brand in 2020. Unlike everything else I saw on Friday, Park’s collection felt like it was for the O.O.C. customer, but without the weight of that association. I loved the sculpted knits—her signature—and the way she layered them. There was so
 little this week that elicited desire, whereas Park’s ribbed wools and baby-doll camisoles were so good I felt compelled to mention them to every person I could. 
 
- 
+
 
 What I’m Reading… and Watching…
 -------------------------------------
@@ -196,7 +196,7 @@ continue harping on the past. Getting the band back together almost never works.
 Soho House’s future is in secondary and tertiary cities, where there aren’t a ton of options. They should really be looking at the Hillstone Restaurant Group for guidance on how to execute this type of hospitality play at scale.
 [The Wall Street Journal ( https://www.wsj.com/business/sohohouse-dan-loeb-third-point-private-clubs-very-public-problems-99d35251?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Top reader nominees for this year’s American Vogue
 guest editor ( https://puck.news/vogues-guest-editor-sweepstakes-kate-middletons-fashion-gag-order/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) include Tory Burch, Beyoncé and Solange, Megan Thee Stallion, Carine Roitfeld, and… Edward Enninful. 
@@ -220,6 +220,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU8neFKkc9PI_QBLWYdAY=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

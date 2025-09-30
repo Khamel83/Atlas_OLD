@@ -9,9 +9,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
+
 	<meta name="generator" content="WordPress 6.8.2" /> <!-- leave this for stats -->
-	
+
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://blogs.fangraphs.com/feed/" />
 	<link rel="alternate" type="text/xml" title="RSS .92" href="https://blogs.fangraphs.com/feed/rss/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://blogs.fangraphs.com/feed/atom/" />
@@ -20,7 +20,7 @@
 
 <title>Chicago White Sox Top 15 Prospects (2012&#x2d;13) | FanGraphs Baseball</title>
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" />
 <link rel="canonical" href="https://blogs.fangraphs.com/chicago-white-sox-top-15-prospects-2012-13/" />
@@ -103,7 +103,7 @@ img.wp-smiley, img.emoji {
                     });
                 });
             </script>
-            
+
 <!-- CACHED HEAD --><meta name="theme-color" content="#50ae26" />
 <link rel="stylesheet" href="https://www.fangraphs.com/dist/css/head_section-style.css?v=f4b296beb6c14ccaa947" />
 <link rel="stylesheet" href="https://www.fangraphs.com/dist/css/side_bar-style.css?v=f4b296beb6c14ccaa947" />
@@ -146,7 +146,7 @@ img.wp-smiley, img.emoji {
 <div id="wrapper" class="blog-wrapper fg" data-blog="wp">
 <!-- CACHED HEADER -->
 <div id="top">
-  
+
 
 
 <div class="header-chat-alert-spacer" style="visibility: hidden"><a class="header-chat-alert-text"></a></div>
@@ -158,7 +158,7 @@ img.wp-smiley, img.emoji {
         <div class="top-logo sticky">
             <div class="top-logo-bkgd fg"><a href="http://www.fangraphs.com/" target="_top"><div class="top-logo-img fg"></div></a></div>
         </div>
-        
+
 <script>
 window.tudeLoaded = true;
 </script>
@@ -167,7 +167,7 @@ window.tudeLoaded = true;
 
 
         <div id="divHeaderChat" class="header-chat-alert fg"><a class="header-chat-alert-text"></a></div>
-        
+
     </header>
 </div>
 
@@ -190,9 +190,9 @@ window.tudeLoaded = true;
 
 <article>
 				<h1 class="posttitle" id="post-109017"><a href="https://blogs.fangraphs.com/chicago-white-sox-top-15-prospects-2012-13/" rel="bookmark" title="Permanent link to Chicago White Sox Top 15 Prospects (2012-13)">Chicago White Sox Top 15 Prospects (2012-13)</a></h1>
-				
-					<div class="postmeta"> 
-						<div class="postmeta_author">by <a href="https://blogs.fangraphs.com/author/hulet/" title="Posts by Marc Hulet" rel="author">Marc Hulet</a> 
+
+					<div class="postmeta">
+						<div class="postmeta_author">by <a href="https://blogs.fangraphs.com/author/hulet/" title="Posts by Marc Hulet" rel="author">Marc Hulet</a>
 														</div>
 						<div>January 2, 2013</div>
 					</div>
@@ -738,8 +738,8 @@ window.tudeLoaded = true;
 </table>
 <p>Brennan was selected in the fourth round of the 2012 amateur draft and currently projects as an innings eater thanks to his big, strong frame &#8212; or possibly a high-leverage reliever. The right-hander generally works in the low-90s but he can touch the mid-90s and he may reach it on a more consistent basis with a permanent move to the &#8216;pen. He get a good downward plane on his fastball and induced a high number of ground-ball outs. Brennan, 21, needs to improve his slider and also work to develop a changeup.</p>
 <p>The California native will work out of the starting rotation for now and will be assigned to A-ball to open 2013. He&#8217;s not quite as developed as fellow 2012 draft pick Chris Beck and could spend the entire year in A-ball. He&#8217;s probably two to three years from reaching the majors.</p>
-<script>var SERVER_DATA = Object.assign(SERVER_DATA || {},{ playeridArr: ["sa507106","sa577734","sa657904","sa504232","sa504232","sa577934","sa503060","sa500820","sa327116","sa657864","sa503042","sa392173","sa658324","sa621612","sa550121"]});</script>				
-				
+<script>var SERVER_DATA = Object.assign(SERVER_DATA || {},{ playeridArr: ["sa507106","sa577734","sa657904","sa504232","sa504232","sa577934","sa503060","sa500820","sa327116","sa657864","sa503042","sa392173","sa658324","sa621612","sa550121"]});</script>
+
 				</div></article><br />
 
 </script>
@@ -753,7 +753,7 @@ window.tudeLoaded = true;
 	<div class="navnext" ga-on="click" ga-event-category="blog-nav" ga-event-action="blog-nav" ga-event-value="1"><a href="https://blogs.fangraphs.com/2013-zips-projections-philadelphia-phillies/" rel="next">2013 ZiPS Projections &#8211; Philadelphia Phillies</a></div>
 
 <div class="spacer_10"></div>
-				
+
 										<div class="abouta">
 										<p>
 						Marc Hulet has been writing at FanGraphs since 2008. His work focuses on prospects and fantasy. Follow him on Twitter @marchulet.					</p>
@@ -790,7 +790,7 @@ window.tudeLoaded = true;
                 </div>
                                 <div class="wpd-thread-list">
                     <div id='wpd-comm-3883281_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
-    
+
     <div id="comment-3883281" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -800,14 +800,14 @@ window.tudeLoaded = true;
     <i class='far fa-clock' aria-hidden='true'></i>
     12 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_3883281' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
 </div>
 </div>
-    
+
     <div class="wpd-comment-text">
     <p>No Nestor Molina? Was he close?</p>
 
@@ -822,16 +822,16 @@ window.tudeLoaded = true;
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-3883281_0'></div><div id='wpd-comm-3883333_3883281' class='comment odd alt depth-2 wpd-comment wpd-reply wpd_comment_level-2'><div class="wpd-comment-wrap wpd-blog-guest">
-    
+
     <div id="comment-3883333" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -841,8 +841,8 @@ window.tudeLoaded = true;
     <i class='far fa-clock' aria-hidden='true'></i>
     12 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_3883333' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -869,10 +869,10 @@ window.tudeLoaded = true;
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-3883333_3883281'></div></div></div>                    <div class="wpdiscuz-comment-pagination">
@@ -917,7 +917,7 @@ Comments Are Loading Now!
 </script>
 
 </div>
-	
+
 
 <!-- </div> -->
 
@@ -951,7 +951,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         theme: 'snow',
         debug: 'error'
         };
-        
+
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://blogs.fangraphs.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.33" id="wpdiscuz-combo-js-js"></script>
@@ -995,7 +995,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         and play-by-play data provided by Sports Info Solutions.
         </div>
     </div>
-    
+
     <div class="footer-credits-item item-half-wide">
         <a href="http://www.mlb.com" class="footer-credits-item-name">
             <img src="//www.fangraphs.com/images/mlb_logo.png" alt="mlb logo" /></a>
@@ -1093,7 +1093,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
                     else if (!!window.ezstandalone == false && !!window.ayManagerEnv == false) {
                         if (userType == '1') {userType = 'Registered Ad Block';}
                         else {userType = 'Ad Block'}
-                    }                    
+                    }
                     else if (userType == '1') {userType = 'Registered';}
                     else {userType = 'Visitor';}
 

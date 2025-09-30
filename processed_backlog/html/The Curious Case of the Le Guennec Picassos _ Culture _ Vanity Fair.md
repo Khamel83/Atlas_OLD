@@ -25,14 +25,14 @@ COLLECTED BY
 
 Organization: [National September 11 Memorial Museum](https://archive.org/details/ArchiveIt-Partner-196)
 
-National September 11 Memorial Museum  
-  
-Archive-It Partner Since: Dec, 2007  
-Organization Type: Museums & Art Libraries  
-Organization URL:<http://www.national911memorial.org>  
-  
-The National September 11 Memorial Museum is committed to documenting the events, immediate aftermath, and continuing repercussions of the terrorist attacks of September 11, 2001 and February 26, 1993. To that end, the Memorial Museum's Web Archive seeks to identify and preserve web sites that reflect the international scope of this emergent history. These sites will be continually sourced from a wide variety of contributors, and will serve to reflect the full breadth of the post-9/11 world.  
-  
+National September 11 Memorial Museum
+
+Archive-It Partner Since: Dec, 2007
+Organization Type: Museums & Art Libraries
+Organization URL:<http://www.national911memorial.org>
+
+The National September 11 Memorial Museum is committed to documenting the events, immediate aftermath, and continuing repercussions of the terrorist attacks of September 11, 2001 and February 26, 1993. To that end, the Memorial Museum's Web Archive seeks to identify and preserve web sites that reflect the international scope of this emergent history. These sites will be continually sourced from a wide variety of contributors, and will serve to reflect the full breadth of the post-9/11 world.
+
 References to Institution as a partner on Internet Archive's Website shall carry no legal meaning and simply reflects Institution's status as a user of Internet Archive's Services pursuant to this Agreement.
 
 Collection: [National September 11 Memorial Museum](https://archive.org/details/ArchiveIt-Collection-1029)

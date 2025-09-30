@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="www.thecut.com/_components/clay-meta-description/instances/cleejmpjj00080ijvl9dk49hy@published" -->
 <meta name="description" content="Meghan McCain says that in the weeks since giving birth to her second child, she has been urged, repeatedly, to take Ozempic. She refuses. ">
-<meta name="twitter:description" content="“I’m not taking it,” she writes in an op-ed for the Daily Mail. “I refuse.”"> 
+<meta name="twitter:description" content="“I’m not taking it,” she writes in an op-ed for the Daily Mail. “I refuse.”">
 <meta property="og:description" content="“I’m not taking it,” she writes in an op-ed for the Daily Mail. “I refuse.”">
 
 <!-- data-uri="www.thecut.com/_components/meta-image/instances/cleejmpjk00090ijv7s2tz784@published" -->
@@ -240,7 +240,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -320,14 +320,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -337,7 +337,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"wwwthecut","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -442,11 +442,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -843,30 +843,30 @@ nymYTApiReady = true;
           </div>
           <div class="services">
               <button type="button" class="follow_circle-bordered facebook" data-handle="cut" data-uri="www.thecut.com/_components/follow/instances/facebook-circle@published" aria-label="Like Us on Facebook">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white-hover.svg)"
     ></span>
   <span class="button-text">Like Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered twitter" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/twitter-circle@published" aria-label="Follow Us on Twitter">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered instagram" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/instagram-circle@published" aria-label="Follow Us on Instagram">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
@@ -1132,30 +1132,30 @@ nymYTApiReady = true;
           </div>
           <div class="services">
               <button type="button" class="follow_circle-bordered facebook" data-handle="cut" data-uri="www.thecut.com/_components/follow/instances/facebook-circle@published" aria-label="Like Us on Facebook">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white-hover.svg)"
     ></span>
   <span class="button-text">Like Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered twitter" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/twitter-circle@published" aria-label="Follow Us on Twitter">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered instagram" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/instagram-circle@published" aria-label="Follow Us on Instagram">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
@@ -1218,7 +1218,7 @@ data-canonical-url="http://www.thecut.com/2023/02/meghan-mccain-ozempic.html">
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-ozempic inline"
                   href="//www.thecut.com/tags/ozempic/">ozempic</a>
         </div>
@@ -1230,7 +1230,7 @@ data-canonical-url="http://www.thecut.com/2023/02/meghan-mccain-ozempic.html">
             <div class="main-author hidden-expanded-bio"><span>By</span> <span class="author-name">
         <a href="//www.thecut.com/author/tariro-mzezewa/" rel="author" class="article-author"><span>Tariro Mzezewa</span></a>,
           <span class="author-bio">a reporter who covers politics, culture, and travel.</span>
-          
+
       </span></div>
 
 </span>
@@ -1291,7 +1291,7 @@ data-canonical-url="http://www.thecut.com/2023/02/meghan-mccain-ozempic.html">
     </div>
   </header>
   <section class="body">
-    
+
     <div id="wwwthecut-zephr-anchor" class="article-content inline" data-editable="content">
       <div class="lede-image-wrapper inline horizontal">
           <div class="image-wrapper">
@@ -1560,7 +1560,7 @@ const ldJsonScript = document.createElement('script');
   data-site="TheCut"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1577,7 +1577,7 @@ const ldJsonScript = document.createElement('script');
     <span class="greatest-hits-title"> The Cut Shop </span>
   </h3>
   <ul id="greatest-hits-my94CMHL" class="greatest-hits-items" data-editable="content">
-      
+
 <li data-uri="www.thecut.com/_components/greatest-hit/instances/cl6cj6l0a00083b6vk1ekjpox@published" class="greatest-hit_shop" data-editable="url"
   data-track-type="article-link" data-track-component-name="greatest-hits" data-track-page-uri="www.thecut.com/_pages/ck7dsfpqr00gmcwye0d7yc2b7@published" data-track-headline="28 Best Sneakers for Women in Every Single Style" data-track-index="0"
 >
@@ -1741,7 +1741,7 @@ const ldJsonScript = document.createElement('script');
   data-site="TheCut"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1759,7 +1759,7 @@ const ldJsonScript = document.createElement('script');
   data-site="TheCut"
 
 >
-  
+
 </aside>
 
 </div>
@@ -2329,10 +2329,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="www.thecut.com/_components/choreographer/instances/ckpee7mty00213h6fgm54iw7o@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2351,7 +2351,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2853,25 +2853,25 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 <ul class="primary-links">
-      
+
         <li class="primary-link">
           <a href="https://www.thecut.com/style" class="style">
             <span class="link-text" aria-label="Style">Style</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="https://www.thecut.com/self" class="self">
             <span class="link-text" aria-label="Self">Self</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="https://www.thecut.com/culture" class="culture">
             <span class="link-text" aria-label="Culture">Culture</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="https://www.thecut.com/power" class="power">
             <span class="link-text" aria-label="Power">Power</span>
@@ -2882,60 +2882,60 @@ const ldJsonScript = document.createElement('script');
 
 <div data-editable="services" class="social-section">
         <button type="button" class="follow_circle-bordered facebook" data-handle="cut" data-uri="www.thecut.com/_components/follow/instances/facebook-circle@published" aria-label="Like Us on Facebook">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/facebook-white-hover.svg)"
     ></span>
   <span class="button-text">Like Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered twitter" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/twitter-circle@published" aria-label="Follow Us on Twitter">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/twitter-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered instagram" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/instagram-circle@published" aria-label="Follow Us on Instagram">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/instagram-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered " data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/clm6u1l9o00023b81762ooj7d@published" aria-label=" on Tiktok">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/tiktok-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/tiktok-white-hover.svg)"
     ></span>
   <span class="button-text"></span>
 </button>
 
 <button type="button" class="follow_circle-bordered pinterest" data-handle="thecut" data-uri="www.thecut.com/_components/follow/instances/pinterest-circle@published" aria-label="Follow Us on Pinterest">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/pinterest-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/pinterest-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
 </button>
 
 <button type="button" class="follow_circle-bordered rss" data-handle="nymag/fashion" data-uri="www.thecut.com/_components/follow/instances/rss-circle@published" aria-label="Follow Us on Rss">
-    <span class="inactive" 
+    <span class="inactive"
       style="background-image: url(https://assets.nymag.com/media/components/follow/rss-white.svg)"
     ></span>
-    <span class="hover" 
+    <span class="hover"
       style="background-image: url(https://assets.nymag.com/media/components/follow/rss-white-hover.svg)"
     ></span>
   <span class="button-text">Follow Us</span>
@@ -3007,7 +3007,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="www.thecut.com/_components/affiliate-links/instances/thecut@published" class="affiliate-links"
    data-amazon="thecutonsite-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,thisisaday.com,www.thisisaday.com,www.baggu.com,baggu.com,www.zola.com,zola.com,www.wandpdesign.com,wandpdesign.com,www.ssense.com,ssense.com,www.frame-store.com,frame-store.com,www.lookoptic.com,lookoptic.com,www.parachutehome.com,parachutehome.com,www.physiclo.com,physiclo.com,thearrivals.com,www.thearrivals.com,www.monnierfreres.com,monnierfreres.com,www.hoppstudios.com,hoppstudios.com,www.greats.com,greats.com,facebook.com,www.facebook.com,twitter.com,www.twitter.com,pinterest.com,www.pinterest.com,instagram.com,www.instagram.com,thisisaday.com,www.thisisaday.com,charlestonshoeco.com,www.charlestonshoeco.com,www.garmentory.com,garmentory.com,www.hanacure.com,hanacure.com,www.lookoptic.com,lookoptic.com,www.makr.com,makr.com,www.mejuri.com,mejuri.com,www.nicelaundry.com,nicelaundry.com,www.oaknyc.com,oaknyc.com,www.happiestbaby.com,happiestbaby.com,www.gosummersalt.com,gosummersalt.com,yaysunshine.co,www.yaysunshine.co,snowehome.com,www.snowehome.com,www.abchome.com,abchome.com,www.coach.com,coach.com,www.glossier.com,glossier.com,jet.com,www.jet.com,31philliplim.com,www.31philliplim.com,karastore.com,www.karastore.com,awaytravel.com,www.awaytravel.com,www.physiclo.com,physiclo.com,aviyamattress.com,www.aviyamatress.com,bearmattress.com,www.bearmattress.com,brooklinen.com,www.brooklinen.com,trycaviar.com,www.trycaviar.com,everythingbutwater.com,www.everythingbutwater.com,helixsleep.com,www.helixsleep.com,hoppstudios.com,www.hoppstudios.com,wearlively.com,www.wearlively.com,www.mmlafleur.com,mmlafleur.com,saatvamattress.com,www.saatvamattress.com,therealreal.com,www.therealreal.com,thisisveda.com,www.thisisveda.com,www.unilqo.com"
 ></span>
 
@@ -3288,7 +3288,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

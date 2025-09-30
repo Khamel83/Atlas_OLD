@@ -7,8 +7,8 @@
 
 Microsoft held its most compelling Windows' event in years, because Windows is no longer the center of the company.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/windows-returns/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3dpbmRvd3MtcmV0dXJucy8iXX0sImV4cCI6MTcxODg3ODA2NCwiaWF0IjoxNzE2Mjg2MDY0LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.WPyP9d56A7XJcOUlAEZNiZrfeXK8A9cVsEuJgX7LYOF5AsyaE_LfTlmCn53Ylxz4bGnjpne89r3wb7Vl1WTp5mOyDUEqLIX4lUa2luda8hRaeHu4EbMk53B_0LejTLz7UUyNFlwn811XLniTa72p2hby6hH_sddYIts_SHjyG1kDyUVR4jLOTGqtSnG7HtDpSG1IM6ZTJQv3EEeWeZKHAsCIgkmkAQnYUw9EJutgyJfw_EoTq06igB1s4fdaUTsEddLZL3xAyPEaIIVO33TT1Ovq_pdZxoQeZL5SrQMB8i80fPMAfg3RUTZ6JnjDvdOn59d-rm-D_QDgrp4ix0hQ8g)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -107,26 +107,26 @@ Nadella, similarly, needed to break up Windows and end Ballmer’s dreams of ver
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxODg3ODA2NCwiaWF0IjoxNzE2Mjg2MDY0LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.vIY4JVHEYu6lo1j9_ZUtyw0qYAPa2-BpLYzyZOjn0IEzQW41b8AX_34xTe4saHQxBOg9mQHR7OUx9oKEpFT-Mg3KkqlUv_soqcL7Hm8V64n1TL05_oV9b0gxvv7nXf5332r2Z5t9a77x1fjrAjesHXgdP4uqBzy75smsK8Dhd4Sls_notc-lVsZJtwLtfu1QhjJ0TMPIgFGC65kmbwRn0BCtAqyCkaORtEMM9vKD26oqZGDe8d_JKt7s71JfF3dN0g_1gOcPHpMD-KSzyhHMMmx-mxZwQGDal6lmvFjvKxGXegAWQaq8pFl5dTw6hLGltgF9-Z11pel87u4kxCkCCw%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxODg3ODA2NCwiaWF0IjoxNzE2Mjg2MDY0LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.vIY4JVHEYu6lo1j9_ZUtyw0qYAPa2-BpLYzyZOjn0IEzQW41b8AX_34xTe4saHQxBOg9mQHR7OUx9oKEpFT-Mg3KkqlUv_soqcL7Hm8V64n1TL05_oV9b0gxvv7nXf5332r2Z5t9a77x1fjrAjesHXgdP4uqBzy75smsK8Dhd4Sls_notc-lVsZJtwLtfu1QhjJ0TMPIgFGC65kmbwRn0BCtAqyCkaORtEMM9vKD26oqZGDe8d_JKt7s71JfF3dN0g_1gOcPHpMD-KSzyhHMMmx-mxZwQGDal6lmvFjvKxGXegAWQaq8pFl5dTw6hLGltgF9-Z11pel87u4kxCkCCw%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*
-  
-  
+
+
 
 1. It’s also unclear how specifically TOPS are defined, as the precision of the calculations used for measurements makes a big difference.

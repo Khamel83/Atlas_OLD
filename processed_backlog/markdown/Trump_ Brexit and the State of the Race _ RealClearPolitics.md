@@ -12,7 +12,7 @@
 
 # realclearpolitics.com
 
-Unknown author • June 28, 2016 
+Unknown author • June 28, 2016
 
 ![realclearpolitics.com]()
 

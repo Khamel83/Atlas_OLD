@@ -7,15 +7,15 @@
 
 View this post on the web at https://www.notboring.co/p/clear-street-from-cobol-to-the-cloud
 
-Welcome to the 1,000 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 220,232 smart, curious folks by subscribing here: 
+Welcome to the 1,000 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 220,232 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Clear Street [ https://substack.com/redirect/a599ccd8-3b03-4dc1-8f1b-dbe5db083fb9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Read on to learn about how Clear Street is rebuilding the infrastructure of the capital markets.
- Hi friends 👋, 
+ Hi friends 👋,
 Happy Wednesday and Happy Valentine’s Day!
-Love is in the air, and besides Puja, Dev, and Maya, there’s nothing I love more than a Hard Startup working to replace crumbling infrastructure with modern technology, and succeeding. 
-That’s what Clear Street [ https://substack.com/redirect/a599ccd8-3b03-4dc1-8f1b-dbe5db083fb9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is doing, modernizing capital markets infrastructure through which over $3 trillion flows daily by rebuilding it from the ground up. 
-Clear Street has been an under-the-radar monster, known well to a select few, like the founder who told me “I would so prefer to be on Clear Street it’s not even funny,” but not as well-known in the wider startup world. I think it’s a company and a story a lot of startups can learn from as they attempt to face-off against entrenched incumbents armed only with technology, talent, and ambition. 
-Just five years old, Clear Street was recently valued at $2.2 billion. This isn’t a ZIRP valuation: Clear Street did $260 million in revenue in 2023, and it did so profitably. Getting to this point has taken a unique blend of experience, capital, long-term thinking, and technical chops. Relative to its ambitions, Clear Street is just getting started. 
+Love is in the air, and besides Puja, Dev, and Maya, there’s nothing I love more than a Hard Startup working to replace crumbling infrastructure with modern technology, and succeeding.
+That’s what Clear Street [ https://substack.com/redirect/a599ccd8-3b03-4dc1-8f1b-dbe5db083fb9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is doing, modernizing capital markets infrastructure through which over $3 trillion flows daily by rebuilding it from the ground up.
+Clear Street has been an under-the-radar monster, known well to a select few, like the founder who told me “I would so prefer to be on Clear Street it’s not even funny,” but not as well-known in the wider startup world. I think it’s a company and a story a lot of startups can learn from as they attempt to face-off against entrenched incumbents armed only with technology, talent, and ambition.
+Just five years old, Clear Street was recently valued at $2.2 billion. This isn’t a ZIRP valuation: Clear Street did $260 million in revenue in 2023, and it did so profitably. Getting to this point has taken a unique blend of experience, capital, long-term thinking, and technical chops. Relative to its ambitions, Clear Street is just getting started.
 This essay is a Sponsored Deep Dive. While the piece is sponsored, these are all my real and genuine views. I’m writing fewer Sponsored Deep Dives, because as I said when I wrote about LayerZero in December, I’m only writing them on companies that I think have a chance to be really important in an area I care about. You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/2fa0efd9-f6fa-4a86-9554-08ce5d2543e3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Clear Street clears that bar: making the capital markets (and capitalism) run more efficiently and effectively is one of the most important things there is, and the full-stack Hard Startup approach its taking is full of lessons for founders who want to build insanely ambitious things in the face of incredibly deep-pocketed incumbents.
 Let’s get to it.
@@ -253,7 +253,7 @@ Risks to Clear Street 
 Uri thinks in risk, so I asked him what the biggest risks to Clear Street are. He rattled them off. 
 “There’s risk at so many levels. There’s a risk if we don’t hire the best people, there’s execution risk, there’s risk in how we manage our clients’ risk because we lend them money, there’s compliance risk.” 
 Those are the obvious risks, the ones that anyone would think of when analyzing Clear Street. 
-And then there’s the risk of not leaning into the momentum. 
+And then there’s the risk of not leaning into the momentum.
 I hadn’t thought of this category of risk before. I’ve written about the advantages of taking the longest view in the room over and over without thinking about this particular challenge that comes with it. In my piece on Stripe [ https://substack.com/redirect/176be5b3-a1fd-482c-9feb-b28270d61427?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], I included a great quote from its CEO Patrick Collison: 
 The way in which Jeff Bezos has been persistently and continually able to use time horizons as a competitive advantage is something I have deep respect for. There’s something quite deep about the notion of using time horizons as a competitive advantage, in that you’re simply willing to wait longer than other people and you have an organization that is thusly oriented.
 What I failed to appreciate is that maintaining momentum over long time horizons is really hard. I think that’s why Jeff Bezos also insisted that the company behave like “It’s always Day One.” 
@@ -297,7 +297,7 @@ Better infrastructure leads to more experimentation, and Clear Street is buildin
 The bet on Clear Street is that not only is better financial infrastructure a way to avoid the known risks, but a way to defend against the infinitely large risk of not innovating when the opportunity arises. 
 If AI is going to infuse itself into financial markets, it will need clean, real-time data to work with. Attempts to bolt AI onto COBOL-based systems will only accelerate the risk of collapse. And as global markets become more interconnected, as individual traders and large financial institutions trade products from around the globe, the value of a single source of truth for all of it becomes even more pronounced. 
 One of the criticisms of fintech products is that they put lipstick on a pig: they’re shiny interfaces on top of the same slow, antiquated systems the industry has relied on for decades. That’s not because fintech companies don’t want to build better products, but because the infrastructure is so entrenched – technically and regulatorily – that deep innovation has been hard to do. 
-Clear Street is tackling that difficulty head on. It’s rebuilding the infrastructure that underpins the traditional financial system as a parallel system that speaks the language of the traditional one until it becomes the system of record. 
+Clear Street is tackling that difficulty head on. It’s rebuilding the infrastructure that underpins the traditional financial system as a parallel system that speaks the language of the traditional one until it becomes the system of record.
 If it succeeds, it will have pulled off something that few companies ever have: replacing old, crumbling infrastructure with newer, stronger pipes on top of which everyone from the old guard to the new relies, lowering risk and raising the ceiling in the process.
 Thanks to Uri, Ru, and the Clear Street team for working with me, and to Dan [ https://substack.com/redirect/35602e7f-bdca-4765-b82f-1e930781f6ad?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today! We’ll be back in your inbox on Friday with a Weekly Dose.

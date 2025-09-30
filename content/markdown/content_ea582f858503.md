@@ -35,7 +35,7 @@ window.JetpackScriptData = {"site":{"icon":"https://i0.wp.com/www.macworld.com/w
 <link rel='dns-prefetch' href='//stats.wp.com' />
 <link rel="alternate" type="application/rss+xml" title="Macworld &raquo; Comments Feed" href="https://www.macworld.com/en-us/feed" />
 				<script>
-					window.grumi = {       
+					window.grumi = {
 						key: '859c0fcb-feae-4616-afed-20011b559baa'
 					};
 				</script>
@@ -47,7 +47,7 @@ window.JetpackScriptData = {"site":{"icon":"https://i0.wp.com/www.macworld.com/w
 							onDetectionComplete: function () {
 								console.log('onMessageReady');
 							}
-						},  
+						},
 					}
 				};
 			</script>
@@ -209,7 +209,7 @@ window.IDG.setItemToDataLayer('affiliateUlid', ULID.ulid());
 						var _conv_category_name = "iPhone,Smartphones";
 						var _conv_custom_v1 = "";
 						var _conv_custom_v2 = "";
-						
+
 </script>
 <script src="//cdn-4.convertexperiments.com/v1/js/100411965-100412822.js?environment=production" id="convert-experiences-js"></script>
 			<script type="text/javascript">
@@ -422,7 +422,7 @@ function showOverlays(cmpType) {
 					});
 				}
 			</script>
-		
+
 		<script type="text/javascript">
 				/**
 				 * Load Infogram-block if user accepted consent
@@ -683,8 +683,8 @@ document.addEventListener("DOMContentLoaded", () => {
 						window.performance.mark('tbl_ic');
 					}
 				}
-								
-								
+
+
 													function renderCustomBlockInLegacyContent(selector, callback) {
 						const legacySelector = `.legacy_content iframe[data-src*="${selector}"], .legacy_content script[src*="${selector}"], .legacy_content script[data-src*="${selector}"], .legacy_content blockquote[class*="${selector}"], .legacy_content img[data-src*="${selector}"]`;
 						jQuery(legacySelector).each(function(index, element) {
@@ -730,19 +730,19 @@ document.addEventListener("DOMContentLoaded", () => {
 								/**
 				 * Load bluesky if user accepted consent.
 				 */
-				
+
 				document.addEventListener('consentManagerReady', () => {
 					const debug = consentManager.debug;
 					if(debug)console.log('#### Widget Consent Check consentRequired %s', consentManager.consentRequired);
 					let vendors = [];
-															
-					
-					
-					
-					
-					
-					
-					
+
+
+
+
+
+
+
+
 					vendors.push({
 						name: "Infogram",
 						callback: infogramCallback,
@@ -1782,7 +1782,7 @@ if(!ccpaOptOut) {
 	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 
 <header id="masthead" class="site-header">
-		
+
 <div id="primaryNav" class="primaryNav--article">
 	<div class="primaryNav-wrap">
 		<div class="primaryNav-left-wrap">
@@ -1838,7 +1838,7 @@ if(!ccpaOptOut) {
 								</ul>
 		</div>
 	</div>
-	
+
 	<div id="siteSearch">
 		<div class="siteSearch-wrap">
 			<div class="siteSearch-close">
@@ -1847,7 +1847,7 @@ if(!ccpaOptOut) {
 			</div>
 			<div class="google-programmable-search-placeholder"><label class="siteSearch-help-text" for="gsc-i-id1">Type your search and hit enter</label><div class="gcse-searchbox-only" data-resultsUrl="https://www.macworld.com/search"></div></div>		</div>
 	</div>
-	
+
 </div>
 
 <div id="secondaryNav">
@@ -1941,7 +1941,7 @@ if(!ccpaOptOut) {
 					</li>
 							</ol>
 		</nav>
-		
+
 <article id="post-186251" class="post-legacy post-186251 post type-post status-publish format-standard category-iphone category-smartphones languages-en editions-global publication-macworld publication-us-default story_types-news article_type-default blogs-editors-notes origin-onecms">
 	<header class="entry-header">
 						<div class="entry-eyebrow entry-eyebrow--default">
@@ -1949,7 +1949,7 @@ if(!ccpaOptOut) {
 				</div>
 			<h1 class="entry-title">The end of iPhone innocence</h1>			<div class="subheadline">
 							</div>
-				
+
 		<div class="entry-meta">
 						<div class="meta-text">
 				<div class="meta-text-top">
@@ -1969,7 +1969,7 @@ if(!ccpaOptOut) {
 <section class='layout--right-rail'>
 		<div class="wp-block-columns">
 			<div class="wp-block-column">
-				
+
 				<div class="entry-content ">
 					<div id="post-toc"></div>
 					<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
@@ -2010,7 +2010,7 @@ if(!ccpaOptOut) {
 				target_type: 'mix'
 			});
 		</script>
-		
+
 <footer class="primaryFooter">
 	<div class="primaryFooter-wrap">
 		<div class ='primaryFooter-return-top' title="Return to Top" id=Return-to-Top>
@@ -2023,7 +2023,7 @@ if(!ccpaOptOut) {
 				</a>
 			</div>
 			<div class="primaryFooter-top--tagline">
-			Macworld is your best source for all things Apple. We give you the scoop on what&#039;s new, what&#039;s best and how to make the most out of the products you love.	
+			Macworld is your best source for all things Apple. We give you the scoop on what&#039;s new, what&#039;s best and how to make the most out of the products you love.
 			</div>
 			<div class="primaryFooter-top-social-wrap">
 				<ul class="primaryFooter-top-social">
@@ -2151,15 +2151,15 @@ if(!ccpaOptOut) {
 				<option value="#">Explore the Foundry Network +</option>
 				<option value="https://www.pcworld.com">PCWorld</option><option value="https://www.pcworld.com/techhive">TechHive</option><option value="https://www.techadvisor.com">TechAdvisor</option>				</select>
 			</div>
-		
+
 					<div class ='footer-base-child return-top-mobile'>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M35.5 279.9l148-148.4c4.7-4.7 12.3-4.7 17 0l148 148.4c4.7 4.7 4.7 12.3 0 17l-19.6 19.6c-4.8 4.8-12.5 4.7-17.1-.2L218 219.2V468c0 6.6-5.4 12-12 12h-28c-6.6 0-12-5.4-12-12V219.2l-93.7 97.1c-4.7 4.8-12.4 4.9-17.1.2l-19.6-19.6c-4.8-4.7-4.8-12.3-.1-17zM12 84h360c6.6 0 12-5.4 12-12V44c0-6.6-5.4-12-12-12H12C5.4 32 0 37.4 0 44v28c0 6.6 5.4 12 12 12z"/>
 				<div class='return-top-text'>
 					<a>Top Of Page</a>
 				</div>
 			</div>
-		
-		
+
+
 		<div class="cmp">
 							<div id="gpp-consent-ui">
 				<button  >

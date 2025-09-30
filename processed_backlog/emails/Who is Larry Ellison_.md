@@ -10,10 +10,10 @@ View this post on the web at https://www.notboring.co/p/who-is-larry-ellison
 Welcome to the 307 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 240,367 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is on a mission to empower every business owner to secure and grow their revenue.
-What does that mean? Since Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is going to be sticking around with us as a 2025 presenting sponsor, I figured I’d introduce you to the man behind the agent swarm, Rox CEO and co-founder Ishan Mukherjee, so that he can tell you in his own words. 
-You can check out our full conversation here [ https://substack.com/redirect/91c4be2c-ec12-4fab-bc0e-c4ed34fcf387?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
+What does that mean? Since Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is going to be sticking around with us as a 2025 presenting sponsor, I figured I’d introduce you to the man behind the agent swarm, Rox CEO and co-founder Ishan Mukherjee, so that he can tell you in his own words.
+You can check out our full conversation here [ https://substack.com/redirect/91c4be2c-ec12-4fab-bc0e-c4ed34fcf387?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Ishan will tell you that best sellers at the best companies, like OpenAI, Ramp, and MongoDB, trust Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to power their revenue. By combining warehouse-native architecture with swarms of AI agents that keep you up to speed on your top customers, Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] helps top sellers do much more in less time.
-With no cost (and no pain) to start, there’s no reason not to see what happens to your business’ sales when your sellers have their own Rox Agent Swarms supporting them. 
+With no cost (and no pain) to start, there’s no reason not to see what happens to your business’ sales when your sellers have their own Rox Agent Swarms supporting them.
 Hi friends 👋,
 Happy Thursday!
 Over the past month, a name I bucket as part of tech's legacy keeps coming up in discussions about its future.
@@ -22,7 +22,7 @@ I know someone who knows.
 As soon as I saw Larry Ellison at the center of Stargate, my mind went back to a conversation with Chroma [ https://substack.com/redirect/55e777aa-41c3-411b-ba5b-45d09c457a21?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] co-founder and my erstwhile Anton Teaches Packy AI [ https://substack.com/redirect/dc36e03e-25ce-4030-8f57-27427f790f26?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] co-host Anton Troynikov [ https://substack.com/redirect/3df5b41b-86ea-45e0-8a8c-4c7b2380e9a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] in his San Francisco office two years ago. He was right in the middle of everything at the dawn of the AI Age, so I asked him what was exciting him the most, of all of the incredibly exciting AI things to be excited by.
 “Business Process Automation,” Anton replied. “Have you read Softwar?”
 So I DM’ed Anton and asked him to answer a question that’s been on my mind: “How the heck is Larry Ellison still relevant?” Normally, we ask “Why now?” Today, we ask, “How, now?!”
-Note: read the footnotes. 
+Note: read the footnotes.
 Let’s get to it.
 Who is Larry Ellison?
 A Guest Post by Anton Troynikov [ https://substack.com/redirect/3df5b41b-86ea-45e0-8a8c-4c7b2380e9a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
@@ -62,12 +62,12 @@ Ellison ‘showed up in shorts and a pink tank top, holding a glass of carrot ju
 Ellison Footnote:
 LE writes: I met Mark out on my deck just as I arrived back home from the gym. I was wearing a black cotton tank top with a Sayonara logo on it. I have never owned, nor would I ever wear, a pink tank top. This is very important.
 One can only imagine the kind of ruthless negotiation over completely non-standard terms in publishing that Ellison must have conducted.
-Larry Ellison is out to win, in a way that goes beyond playing the game on the field. When Ellison is threatened with falling behind, he changes the rules to turn weakness into strength. When he’s ahead, he changes the rules to put himself even further ahead. 
+Larry Ellison is out to win, in a way that goes beyond playing the game on the field. When Ellison is threatened with falling behind, he changes the rules to turn weakness into strength. When he’s ahead, he changes the rules to put himself even further ahead.
 Oracle seemed to ‘come out of nowhere’ because Ellison saw how to pivot a miss in cloud into a winning position in the next computing wave, AI. Now Oracle finds itself exactly where it's most comfortable: selling expensive, long-term contracts to big enterprises and governments. The 90s are indeed back, and Larry Ellison wrote the playbook.
 Ellison took a losing position, pivoted, caught up, and made it look like that’s what he meant to do all along. So when Trump introduced Ellison as 'the CEO of Everything' in the Oval Office, it wasn't hyperbole. It was recognition that once again, Larry Ellison had changed the rules of the game until they benefited Larry Ellison.
 The only surprise is that we're still surprised.
 Thanks to Anton for teaching me once again. Go follow him on X [ https://substack.com/redirect/3df5b41b-86ea-45e0-8a8c-4c7b2380e9a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. And thanks to Rox [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for supporting Not Boring. Go get your sellers an Agent Swarm [ https://substack.com/redirect/27a48151-2d04-4c7f-a478-025664b64211?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-That’s all for today. We’ll be back in your inbox tomorrow with a jam-packed Weekly Dose. 
+That’s all for today. We’ll be back in your inbox tomorrow with a jam-packed Weekly Dose.
 Thanks for reading,
 Packy
 

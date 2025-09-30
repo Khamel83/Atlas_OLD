@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday. I realize I say that a lot, but I’m saying it again.The obvious question
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday. I realize I say that a lot, but I’m saying it again.
 
-  
-    
+
+
       FTX
-    
-  
+
+
 
 The obvious question — here and always — is: Is it a liquidity problem, or a solvency problem? Classically, if you are a bank, and you have $100 of perfectly good mortgages outstanding, $20 of cash in your vaults and $100 of deposits, and all the depositors show up one day asking for their money back, you don’t have it. You have $20 of cash and they want $100. But you are good for it: You’ve got $100 of good mortgages, and when they get paid back you’ll have plenty of money for your depositors. You are just not good for it right this minute. You are solvent — you have $120 of assets (loans plus cash) and $100 of liabilities (deposits) — but illiquid. This is It’s a Wonderful Life.
   [1]
@@ -109,63 +109,63 @@ At some point I might have more to say about a particular sparring partner, so t
 I assume that is addressed to Zhao and Binance. What seems to have precipitated FTX’s crisis is that  Zhao tweeted that Binance would be selling its holdings of FTT tokens “due to recent revelations that have came to light.” This undermined confidence in FTX, Alameda and the FTT token, with the result that (1) customers took their money out of FTX, sparking a liquidity crisis, and (2) FTX’s holdings of FTT lost value, sparking a solvency crisis. In an  email to employees, Bankman-Fried also said that “probably [Binance] never really planned to go through with the deal, but so be it.”
 As a prank, precipitating a liquidity crisis at a rival, offering to bail it out, and then passing on the bailout by saying that you found a deep hole in due diligence would be very effective: Binance’s public withdrawal from the deal will likely make it harder for any other potential rescuer to get comfortable with FTX’s solvency. If Binance’s goal here was just to destroy FTX, it has played it perfectly. But why would that be the goal?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Alameda
-    
-  
+
+
 
 In the brother-in-law swamp loans category,  Reuters reported this morning:
 
@@ -190,20 +190,20 @@ In possibly related news: “Most of FTX’s legal and compliance staff quit Tue
 No, the only way you can justify quitting in this situation is if you haven’t been advising the company on all of its activities. If the CEO came to you and said “can I lend customer money to our affiliated trading firm” and you said “sure go ahead” and then the company blew up, you have to go down with that ship. “I thought this was totally legal, and I still think so,” you have to tell every investigator who asks.
 But if the CEO comes to you after the company blows up and says “by the way, I loaned customer money to our affiliated trading firm, I didn’t tell you because I thought you’d be mad, sorry,” then you definitely quit.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       The Ponzi thing
-    
-  
+
+
 
 This is a little weird, but I do feel like I ought to disclose a bias here, which is that I like Sam Bankman-Fried. I have done a few  podcast   interviews and  events with him, and I have always found him likable, smart, thoughtful, well-intentioned and candid. That is not in any sense investing advice or whatever; it’s just how I feel. I am rooting for this all to work out for him and FTX.
 People sometimes assume that I am a sort of antagonist to Bankman-Fried, in part because he has sometimes said things in our talks that are … let’s say surprisingly candid. Most notably, people keep bringing up an   Odd Lots podcast from last August in which I   asked him to explain yield farming. His explanation starts:
@@ -221,11 +221,11 @@ That said, knowing what we know now, this seems prophetic:
 But on the other hand, if everyone kind of now thinks that this box token is worth about a billion dollar market cap, that's what people are pricing it at and sort of has that market cap. Everyone's gonna mark to market. In fact, you can even finance this, right? You put X token in a borrow lending protocol and borrow dollars with it. If you think it's worth like [not] less than two thirds of that, you could even just like put some in there, take the dollars out. Never, you know, give the dollars back.
 A popular theory about what happened to FTX — the one I wrote about above, and yesterday — is that FTX issued its FTT token, and it had a market price, and Alameda got a lot of it, and FTX loaned Alameda money against it, and then Zhao was “the guy calling and saying, no, this thing’s actually worthless,” and Alameda could “never, you know, give the dollars back,” and that was the end of FTX.
 
-  
-    
+
+
       Jefferies
-    
-  
+
+
 
 Honestly   this is a real JV move:
 
@@ -237,15 +237,15 @@ There followed a tweet listing eight “Conclusions, observations and lessons”
 My advice to people looking to develop their careers in investment banking is that if you repeatedly email trying to set up a pitch meeting with a big prospective client, and the client ignores you completely, you should not publicize that. It does not make you look good! “Important people like to deal with important people,” is   John Whitehead’s career advice. “Are you one?”
 But publicizing it after the client’s business implodes is even worse! “Ooh Sam Bankman-Fried was brought down by the hubris of not taking a meeting with Jefferies”? Come on. Is the implicit message here “if you are a troubled company, you’d better hire Jefferies for restructuring advice, because otherwise we will tweet mean things about you”?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Happy   Goldman Partner Day. Musk Tries to Soothe Safe-Space Concerns of  Twitter Advertisers. Musk’s  First Email to Twitter Staff Ends Remote Work. Twitter Files Paperwork to Enter Payments Business. Elon Musk Says Twitter Is Ditching Gray ‘Official’ Check Mark Hours After Launching It. Joe Biden says Elon Musk security concerns ‘worthy of being looked at.’ Tesla Loses 2 Years of Gains  Amid Twitter Saga, Demand Fears. Credit Suisse Faces Fresh Pressure Over  Untaxed Americans. Redfin Cuts 13% of Staff, Shuts Down  Home-Flipping Business. Carvana’s Earnings Crash Spurs Bond Selloff. Chinese tycoons’  fortunes shrivel as lockdowns and crackdowns bite. Private Equity CEO Probed for Allegedly   Setting Fishing Boat Afloat.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I mean, it’s the famous  “the money’s not here” speech in "It’s a Wonderful Life," where George Bailey explains that the bank doesn’t just keep the money in a vault, but lends it out for productive uses. Separately there might have been solvency problems, but that is beyond the scope of this column.
 
 
@@ -261,114 +261,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] In this, a crypto exchange is more like a securities broker-dealer than it is a traditional exchange. In crypto, exchanges act as sort of retail brokers, prime brokers, clearinghouses, exchanges, etc., all at once; in traditional finance those roles are separated. The New York Stock Exchange is not lending out your stocks to provide you with leverage, though your broker might be if you have a margin account.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

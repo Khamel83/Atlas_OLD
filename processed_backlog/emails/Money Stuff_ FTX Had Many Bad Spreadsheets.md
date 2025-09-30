@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday. Aieeeeee:In June 2022, as crypto prices spiraled and Alameda’s lenders w
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       SBF Stuff
-    
-  
+
+
 
  Aieeeeee:
 In June 2022, as crypto prices spiraled and Alameda’s lenders were calling in their loans, [Caroline] Ellison said she prepared seven “alternative balance sheets” that would conceal Alameda’s large borrowing from FTX customers, in response to a request for financial information from one of its lenders, Genesis. Alameda had borrowed around $10 billion from FTX customers and had loaned around $5 billion to FTX executives and affiliated entities. “He suggested I should prepare some alternative ways of presenting the information and send it to him,” she said. “I understood him to be directing me to come up with ways to conceal things in our balance sheet we both agreed would look bad.” Bankman-Fried told her to send Genesis her Alternative 7 — which didn’t disclose money taken from FTX customers. It cut Alameda’s liabilities from $15 billion to around $10 billion. She testified that the document was “dishonest.”
@@ -81,37 +81,37 @@ And a bad way would be:
 
 My conclusion from this is that FTX was in fact extremely bad at accounting, but not in a charming innocent way.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 I   wrote yesterday that Sculptor Capital Management Inc.’s board seemed to be softening on Boaz Weinstein’s offer to buy it, but  that’s just what they wanted me to think:
 
@@ -155,11 +155,11 @@ By the way, there is one recent deal that looks a little bit like this. Last ye
 And they were correct to worry; since closing, Musk has laid off or driven out a majority of employees and dramatically changed the whole vibe of the company and its product. And that does seem to have been bad for business, and Twitter (now called X) is worth dramatically less than Musk paid for it. 
 And in fact Musk did try to get out of the deal after signing it. His reasons were   mostly nonsense, and it would be a stretch to say “he wanted to get out of his deal to buy Twitter because the announcement of the deal caused employees and advertisers to flee.” But there’s a little something to that: When Musk tried to terminate the deal,   one reason that he gave was that “three executives have resigned from Twitter since the Merger Agreement was signed,” which he argued was a violation of Twitter’s promise to operate in the ordinary course of business between signing and closing. This was, to be fair, absurd, but his lawyers did say it, and he might even have thought it. His deal to buy Twitter did drive down the value of Twitter, and he did then try to get out of the deal; it is not crazy to think the two things might be related.
 
-  
-    
+
+
       FX
-    
-  
+
+
 
 Here are two classic uses for foreign exchange derivatives
   [6]
@@ -183,11 +183,11 @@ Since corporate clients often rely on their bank for multiple services like borr
 
 If you are a bank salesperson, you want to be selling to the people who want good service, not the people who want a cheap price.
 
-  
-    
+
+
       Oh Adam Aron
-    
-  
+
+
 
 I gather that the story here is:
 	A woman named Sakoya Blackwood, like so many other Americans, “struggled emotionally during the Covid-19 pandemic” and turned to day-trading stocks to pass the time.	It did not work, so, “after unsuccessfully trying to earn money from day trading,” she decided to catfish Adam Aron, the chief executive officer of AMC Entertainment Holdings Inc. and perhaps the biggest celebrity in the world of, uh, people who struggled emotionally during Covid-19 and unsuccessfully tried to earn money from day trading.	So she “began texting Aron under the name ‘Mia,’” sending him “photos of a person that her attorneys later said was a 17-year-old Russian model.”	“Aron, who has been married since 1987, mistook her for a woman with whom he’d had a prior relationship, asking whether she was a ballerina who had done ‘unmentionable things’ to him.”	I just!	He got catfished with pictures of a Russian model with the fake name Mia and “mistook her for a woman with whom he’d had a prior relationship”? What … are the odds of that?	He “eventually sent her explicit pictures,” which she used to blackmail him: “She demanded hundreds of thousands of dollars in hush money and threatened to take the photos and messages to the press and AMC’s board, at one point texting Aron the unlisted cell phone numbers of six directors.”	She was arrested and charged with extortion; she pled guilty and served about 10 months in jail.	Today Liz Hoffman at Semafor broke the news that her victim — previously identified only as “Victim-1” and “the Chief Executive Officer of a publicly traded company” — was Aron.	Apparently Aron told AMC’s board about all of this after Blackwood was sentenced this year. “The board determined it was a personal matter, and considers the issue resolved,” says AMC.
@@ -197,11 +197,11 @@ Incidentally, I have  argued in the past that if a public-company CEO has a sex 
   [7]
  As of noon today, it was up slightly over yesterday’s close. This is just … this is just kind of normal for AMC?
 
-  
-    
+
+
       Coin flips
-    
-  
+
+
 
 Sorry, this is a coin flipping blog now. We have   talked a   lot recently, for reasons that are not worth getting into, about coin flipping among interns at Jane Street Capital. I   wrote yesterday about a  recent academic paper finding that “when some (but not all) people flip a fair coin, it tends to land on the same side it started.” On average the rate of landing on the same side is about 51%, but one flipper in the sample achieved 60%. I wrote:
 
@@ -220,19 +220,19 @@ They said “We have a guy on the floor of the Amex who can flip 55% heads.”
 I wonder if that’s why they hired him. I wonder if that was his job, just flipping coins on the floor of the Amex all day. I feel like one thing I have learned in the last week or two is that prop trading firms have a surprisingly robust demand for skilled coin flippers.
 Or do they? Also, multiple (!) recent Jane Street Capital interns emailed to say that they don’t use coins at Jane Street now. They use their phones, either “apps like  Chwazi” or asking Siri to flip a coin. My assumption is that even at Jane Street they don’t employ anyone who can predict a pseudorandom number generator with meaningfully better-than-chance accuracy, but I suppose someone will email to correct me about that too.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Microsoft Plans to Contest IRS Claim It Owes $28.9 Billion in   Back Taxes. Goldman Strikes Deal to Sell   GreenSky Unit to Sixth Street Group. Goldman Sachs sues Malaysia over  1MDB settlement. The mystery of the  Adani coal imports that quietly doubled in value. Pioneer’s   Sheffield Caps Career With $151 Million Exxon Payday. Birkenstock Falls Almost 13% as US Trading Debut Flops. Ex-Barclays CEO   Staley ‘Recklessly’ Misled Watchdog, Probe Finds. Ex-Barclays Trader Gets Appeal Bid Over   Rate Rigging Charge. How Rockstar Energy Creator Russ Weiner Got  ‘Addicted’ to Flipping High-Priced Homes. “He's got the short suit with shorts, and one day I wore the suit with shorts to work, and  they told me not to do that again.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Oh obviously that is oversimplified. Your tax books and your financial-reporting books won’t line up in every respect, and the accounts you use to run your business will probably require some adjusting for financial reporting purposes. Still, if you’ve got one set of books with $10 billion of customer borrowing and $5 billion of loans to insiders, and another set without it, that’s not a nuanced adjustment to reflect the oddities of generally accepted accounting principles.
 
 
-  [2] The reason for this is that the original deal offered partnership unitholders (including Och) the right to keep their partnership interests instead of being cashed out and   paying taxes. Thus the partnership unitholders were offered a different deal from the public shareholders, so there needed to be a separate vote. The new deal cashes everyone out, so there’s no separate vote. 
+  [2] The reason for this is that the original deal offered partnership unitholders (including Och) the right to keep their partnership interests instead of being cashed out and   paying taxes. Thus the partnership unitholders were offered a different deal from the public shareholders, so there needed to be a separate vote. The new deal cashes everyone out, so there’s no separate vote.
 
 
   [3] This is mainly true where the board is choosing between all-cash deals. In stock deals, the board might reasonably consider which acquirer will run the business better going forward, since its shareholders will participate. In a cash deal the shareholders don’t care about the business going forward, they just want to make sure they get their cash.
@@ -250,48 +250,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Perhaps more to the point, it was not *predictable* that the stock would drop on this news — this news is plausibly immaterial, and arguably *good*. Meme stocks, man.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -302,46 +302,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjnh1z.5jee/a38eb355.gif" alt="" border="0" /></a>

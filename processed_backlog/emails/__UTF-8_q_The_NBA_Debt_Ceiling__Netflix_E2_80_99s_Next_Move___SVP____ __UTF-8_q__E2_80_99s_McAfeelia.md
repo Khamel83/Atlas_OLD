@@ -27,7 +27,7 @@ games in a season was in 1991. Does anyone remember who won the Super Bowl that 
 🚨 Pod alert!: Make sure you listen to yesterday’s episode ( https://puck.news/podcast_episode/svp/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of the Varsity podcast, which features my Terp buddy and ESPN star Scott Van Pelt. Interestingly, SVP was very forthcoming about the
 deal points of fellow needle-movers, such as Stephen A. Smith and Pat McAfee, and his desire to find a contributing role on ESPN’s Inside the NBA. And look out for a new episode in your feed on Wednesday: The Ringer’s Joe House and Nathan Hubbard drop by for a deep dive into the dysfunctional world of post-LIV professional golf.
 
- 
+
 
 The Brady Meter: Week
 17
@@ -52,7 +52,7 @@ Once again, Brady was at his best when discussing in-game strategy. At the end o
 Okay, now for some
 belated stocking stuffers…
 
- 
+
 
 The Starting Five
 -----------------
@@ -83,7 +83,7 @@ darkness on a small couch, smoking and talking to a pal, was the man himself. Lo
 onstage. He told me he goes into his wife Patti’s closet and picks out a few. Jane came back to tell him it was time to go on, he took out one more cigarette and posed for what may be my favorite photograph of all time (see below). Twenty minutes, later we were rocking with 20,000 other fans. Seeing Keith onstage was so surreal, as I had just been hanging out with him in that dark and quiet little room. An unforgettable night. Thank you, Greg, for making it possible.”
 
 * The Irish sports page: Most Varsity subscribers are surely familiar with the practice of pre-writing obituaries so that a deeply researched story can be ready for publication soon after a person’s death. Often that leads to interesting bylines. Take the obituaries just published for media eminence Dick Parsons in The New York Times and Wall Street Journal. Both carry the byline of ubiquitous media
-reporter Ben Mullin, a former Journal scribe who now toils at the Gray Lady. In the Journal, Mullin described ( https://www.wsj.com/business/dick-parsons-emergency-fixer-for-troubled-companies-dies-at-76-796f7f94?st=7rrH5j&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Parsons as an “affable troubleshooter.” In the Times, Mullin wrote ( https://www.nytimes.com/2024/12/26/business/media/richard-parsons-dead.html?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Parsons’ “humane approach to business made him a serial troubleshooter.” I was also intrigued by the Times’s Jimmy Carter obit 
+reporter Ben Mullin, a former Journal scribe who now toils at the Gray Lady. In the Journal, Mullin described ( https://www.wsj.com/business/dick-parsons-emergency-fixer-for-troubled-companies-dies-at-76-796f7f94?st=7rrH5j&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Parsons as an “affable troubleshooter.” In the Times, Mullin wrote ( https://www.nytimes.com/2024/12/26/business/media/richard-parsons-dead.html?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Parsons’ “humane approach to business made him a serial troubleshooter.” I was also intrigued by the Times’s Jimmy Carter obit
 ( https://www.nytimes.com/2024/12/29/us/politics/jimmy-carter-dead.html?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), which was co-bylined by Roy Reed, who died seven years ago.
 
 And now, the main event…
@@ -185,7 +185,7 @@ when Inside comes over?
 Van Pelt: I admire that show immensely. I would hate to impact that show negatively in any way, because it doesn’t need anything else or anyone else. The thing I’ve thought about out loud is, if I were there in some role of interviewing people adjacent to them. I mean, they should talk to the stars, but then, maybe, they don’t talk to
 everybody? I’m just spitballing, here. I’m sure we could all figure out a way because we all have a friendship with one another. 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -229,7 +229,7 @@ this one…” —A finance director
 Thanks, Mom!: “As the year winds down, I just wanted to send you a quick note to say thank you for
 being my Lady Whistledown of sports. From the emails to the newsletter to the podcast, I truly enjoy all the weekly content you provide.” —An ESPNer who’s hooked on ‘Bridgerton’ 
 
- 
+
 
  
 
@@ -290,6 +290,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUGnESEwiVyZYQJlaKSx8=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

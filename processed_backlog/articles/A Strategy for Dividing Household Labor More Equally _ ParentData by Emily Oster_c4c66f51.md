@@ -95,7 +95,7 @@ Connect with other data-driven readers
 
 [Sign up](/sign-up/)
 
-  
+
 Already have an account? [Log in](/signin).
 
 ## Get more when you sign up
@@ -116,7 +116,7 @@ Connect with other data-driven readers
 
 [Sign up](/sign-up/)
 
-  
+
 Already have an account? [Log in](/signin).
 
 ## Get more from ParentData when you sign up
@@ -164,9 +164,9 @@ Community discussions with other data-driven parents
 
 #### Username
 
-Your automatically generated username is currently set to: **.**   
+Your automatically generated username is currently set to: **.**
 Your username will be publicly shown when you comment. Before posting, please update it in your
-  
+
 [account settings.](/account)
 
 * You must be logged in to reply to this topic.
@@ -175,10 +175,10 @@ Your username will be publicly shown when you comment. Before posting, please up
 
 Send my log-in link
 
-A link to log in to ParentData has been sent to **emily@parentdata.com**.   
+A link to log in to ParentData has been sent to **emily@parentdata.com**.
  If you don’t see it, please be sure to check your spam folder.
 
-Didn’t get the link? 
+Didn’t get the link?
 Re-send email
 
 Not yet part of the community? [Sign up](https://parentdata.org/subscribe/)
@@ -233,7 +233,7 @@ Feb. 14, 2022
 
 8 minute read
 
-[Marriage Happiness Declines with Children](https://parentdata.org/marriage-happiness-declines-with-children/ "Marriage Happiness Declines with Children") 
+[Marriage Happiness Declines with Children](https://parentdata.org/marriage-happiness-declines-with-children/ "Marriage Happiness Declines with Children")
 
 Happy Valentine's Day!
 
@@ -245,7 +245,7 @@ Updated on Jan. 16, 2025
 
 3 minute read
 
-[How Can My Partner and I Equally Split Domestic Labor?](https://parentdata.org/how-can-my-partner-and-i-equally-split-domestic-labor/ "How Can My Partner and I Equally Split Domestic Labor?") 
+[How Can My Partner and I Equally Split Domestic Labor?](https://parentdata.org/how-can-my-partner-and-i-equally-split-domestic-labor/ "How Can My Partner and I Equally Split Domestic Labor?")
 
 How do you equitably split domestic labor? I’m currently in a season of little kids and noticing major resentment in  [Read more](https://parentdata.org/how-can-my-partner-and-i-equally-split-domestic-labor/)
 
@@ -257,7 +257,7 @@ Nov. 30, 2023
 
 13 minute read
 
-[Self-Care Without Candles](https://parentdata.org/self-care-without-candles/ "Self-Care Without Candles") 
+[Self-Care Without Candles](https://parentdata.org/self-care-without-candles/ "Self-Care Without Candles")
 
 Self-care is everywhere. Bubble baths, massages, Instagram encouraging you to “take time for yourself.” Get up early to have coffee  [Read more](https://parentdata.org/self-care-without-candles/)
 

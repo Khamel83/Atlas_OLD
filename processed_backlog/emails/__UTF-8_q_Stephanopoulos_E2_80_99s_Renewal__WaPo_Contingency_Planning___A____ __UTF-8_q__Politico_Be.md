@@ -30,7 +30,7 @@ Sally Jenkins, and many more…  
 
 But first…
 
-* 🍸 On the latest edition of The Grill Room, famed legal analyst and author Jeffrey Toobin joined me to diagnose Bob Iger’s $15 million settlement with Trump, which has led to various questions, some high-minded and others deeply cynical, about the media’s fortitude as we head into Trump 2.0. Follow The Grill Room on Apple ( https://podcasts.apple.com/us/podcast/the-grill-room/id1775515432?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Spotify ( https://open.spotify.com/show/52gdx2huhWI6w6To6dc5SW?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or wherever 
+* 🍸 On the latest edition of The Grill Room, famed legal analyst and author Jeffrey Toobin joined me to diagnose Bob Iger’s $15 million settlement with Trump, which has led to various questions, some high-minded and others deeply cynical, about the media’s fortitude as we head into Trump 2.0. Follow The Grill Room on Apple ( https://podcasts.apple.com/us/podcast/the-grill-room/id1775515432?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Spotify ( https://open.spotify.com/show/52gdx2huhWI6w6To6dc5SW?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or wherever
 ( https://puck.news/podcasts/the-grill-room/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) you get your podcasts.
 * Durbin strikes back: On Capitol Hill today, CNN’s Manu Raju asked Senator Dick Durbin how he could support a congressional
 pay raise given lawmakers’ recent performance. “What about the media?” the normally patrician Durbin shot back. “Half of your listeners are not there anymore, and you’re still getting the same paycheck? What’s going on?”
@@ -181,6 +181,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Roo
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT3KTPX09rEv7BTO01NWQ=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

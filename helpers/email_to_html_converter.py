@@ -12,69 +12,69 @@ from bs4 import BeautifulSoup
 
 class EmailToHtmlConverter:
     """Converts email content to HTML format"""
-    
+
     def __init__(self):
         """Initialize the converter"""
         pass
-    
+
     def convert_text_to_html(self, text_content):
         """
         Convert plain text email content to HTML
-        
+
         Args:
             text_content (str): Plain text email content
-            
+
         Returns:
             str: HTML formatted content
         """
         if not text_content:
             return ""
-        
+
         # Escape HTML characters
         html_content = html.escape(text_content)
-        
+
         # Convert line breaks to <br> tags
         html_content = html_content.replace('\n', '<br>')
-        
+
         # Convert URLs to links
         url_pattern = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
         html_content = re.sub(url_pattern, r'<a href="\g<0>" target="_blank">\g<0></a>', html_content)
-        
+
         # Wrap in a div with basic styling
         html_content = f"""
         <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px;">
             {html_content}
         </div>
         """
-        
+
         return html_content
-    
+
     def convert_html_to_clean_html(self, html_content):
         """
         Clean and format HTML email content
-        
+
         Args:
             html_content (str): HTML email content
-            
+
         Returns:
             str: Cleaned HTML content
         """
         if not html_content:
             return ""
-        
+
         # Parse with BeautifulSoup
         soup = BeautifulSoup(html_content, 'html.parser')
-        
+
         # Remove script and style elements
         for script in soup(["script", "style"]):
             script.decompose()
-        
+
         # Add basic styling
         if soup.body:
             body = soup.body
         else:
             body = soup
-            
+
         # Add inline styles for better display
         style_tag = soup.new_tag('style')
         style_tag.string = """
@@ -94,16 +94,16 @@ class EmailToHtmlConverter:
         }
         """
         soup.head.append(style_tag) if soup.head else soup.insert(0, style_tag)
-        
+
         return str(soup)
-    
+
     def convert_email_to_html(self, email_data):
         """
         Convert email data to HTML format
-        
+
         Args:
             email_data (dict): Email data from EmailIngestor
-            
+
         Returns:
             str: HTML formatted email
         """
@@ -118,7 +118,7 @@ class EmailToHtmlConverter:
             </div>
         </div>
         """
-        
+
         # Convert content based on type
         content = email_data.get('content', '')
         if content.strip().startswith('<'):
@@ -127,7 +127,7 @@ class EmailToHtmlConverter:
         else:
             # Plain text content
             content_html = self.convert_text_to_html(content)
-        
+
         # Combine header and content
         full_html = f"""
         <!DOCTYPE html>
@@ -144,13 +144,13 @@ class EmailToHtmlConverter:
         </body>
         </html>
         """
-        
+
         return full_html
 
 def main():
     """Example usage of EmailToHtmlConverter"""
     converter = EmailToHtmlConverter()
-    
+
     # Example email data
     email_data = {
         'subject': 'Weekly Newsletter',
@@ -168,15 +168,15 @@ Check out our latest articles:
 Best regards,
 The Team'''
     }
-    
+
     # Convert to HTML
     html_output = converter.convert_email_to_html(email_data)
     print("HTML conversion successful!")
-    
+
     # Save to file for viewing
     with open('email_sample.html', 'w') as f:
         f.write(html_output)
-    
+
     print("Sample HTML saved to email_sample.html")
 
 if __name__ == "__main__":

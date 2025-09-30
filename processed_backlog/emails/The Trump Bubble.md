@@ -14,15 +14,15 @@ Think your HSA/FSA funds are just for doctor visits and prescriptions? You might
 TrueMed [ https://substack.com/redirect/385b73d2-9bb0-4b79-a1c3-afd226542ee1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]'s mission is to empower you on your journey to true health by unlocking the full potential of your HSA/FSA funds. They make taking charge of your health more accessible, helping you invest in supplements, fitness equipment, and other health essentials. They believe healthcare should prioritize prevention and not just treatment. 
 TrueMed [ https://substack.com/redirect/385b73d2-9bb0-4b79-a1c3-afd226542ee1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]’s goal is to simplify the process of using your HSA/FSA funds for products that support managing chronic conditions like diabetes and heart disease—so you can stay ahead of your health.
 Ready to take control of your health? Discover a wide range of eligible products—from supplements to fitness gear—that you can purchase with your HSA/FSA funds. Click here to explore what's available and start investing in your well-being today.
-Hi friends 👋, 
-Happy Wednesday! What a time to be alive. 
-Writing about politics is kind of a lose-lose. No matter what I write, a bunch of people will hate it. When I wrote Why the Democrats Lost Tech [ https://substack.com/redirect/e1c08d8d-6fb4-46b5-b4f8-c15a33035f25?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Democrats got mad at me for even considering Trump, and Republicans got mad at me for believing there was anything redeemable in the Democratic Party. 
-The truth is, though, there is nothing happening right now that impacts the types of companies I write about and invest in — Vertical Integrators and crypto, which LPs thought was an insane combination when I raised Fund III — than what’s happening in politics now. 
-Among the biggest risks to any of these companies is that government regulation (or regulation by enforcement) will dramatically slow them down or even stop them dead in their tracks. I believe that these companies are the highest-leverage way to improve the human condition, so to me, there’s almost nothing more important than making sure they’re free to try to succeed, and politics is a big part of that. 
-As I’ve been watching American politics play out live for the past week, though, I noticed that there’s a lot more in common between the current moment and the types of things that I normally write about here, and even more reason to be optimistic than I expected. 
-That’s the Not Boring mission: to make the world more optimistic. In other words, Make America Optimistic Again. 
-I just ask that you read with an open mind. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Wednesday! What a time to be alive.
+Writing about politics is kind of a lose-lose. No matter what I write, a bunch of people will hate it. When I wrote Why the Democrats Lost Tech [ https://substack.com/redirect/e1c08d8d-6fb4-46b5-b4f8-c15a33035f25?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Democrats got mad at me for even considering Trump, and Republicans got mad at me for believing there was anything redeemable in the Democratic Party.
+The truth is, though, there is nothing happening right now that impacts the types of companies I write about and invest in — Vertical Integrators and crypto, which LPs thought was an insane combination when I raised Fund III — than what’s happening in politics now.
+Among the biggest risks to any of these companies is that government regulation (or regulation by enforcement) will dramatically slow them down or even stop them dead in their tracks. I believe that these companies are the highest-leverage way to improve the human condition, so to me, there’s almost nothing more important than making sure they’re free to try to succeed, and politics is a big part of that.
+As I’ve been watching American politics play out live for the past week, though, I noticed that there’s a lot more in common between the current moment and the types of things that I normally write about here, and even more reason to be optimistic than I expected.
+That’s the Not Boring mission: to make the world more optimistic. In other words, Make America Optimistic Again.
+I just ask that you read with an open mind.
+Let’s get to it.
 The Trump Bubble
 My hunch is that we’re in the beginning of the mother of all bubbles, a bubble machine, the bubble that spawns a thousand bubbles: the Trump Bubble. 
 One of the most shocking things about last week’s Presidential election is just how excited so many people seem to be that Donald Trump won. 
@@ -160,8 +160,8 @@ The American machine, for all its flaws, is the best the world has built so far,
 This is a meta-bubble that could spawn inflection bubbles for decades to come. 
 Welcome to the Trump Bubble. The American Millennium [ https://substack.com/redirect/a633f2ed-85d3-42b7-8eac-42a5879fc769?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] starts now. 
 Thanks to Byrne and Tobias for writing Boom, to Claude for editing, and to any of you reading this for reading this far with an open mind.
-That’s all for today. If you have a little time, to say thanks to our sponsor and Make Yourself Healthy Again, check out TrueMed [ https://substack.com/redirect/385b73d2-9bb0-4b79-a1c3-afd226542ee1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. We’ll be back in your inbox with a Weekly Dose on Friday. 
-Thanks for reading, 
+That’s all for today. If you have a little time, to say thanks to our sponsor and Make Yourself Healthy Again, check out TrueMed [ https://substack.com/redirect/385b73d2-9bb0-4b79-a1c3-afd226542ee1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. We’ll be back in your inbox with a Weekly Dose on Friday.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFV4TlRjeU9UazRMQ0pwWVhRaU9qRTNNekUxTURRM05EVXNJbVY0Y0NJNk1UYzJNekEwTURjME5Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LnZwMFFXazhOd1RHWUhMelNsdlZyVTd0TE4wUXdycU5rZkhsdTVmQzZRMDgiLCJwIjoxNTE1NzI5OTgsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzMxNTA0NzQ1LCJleHAiOjE3MzQwOTY3NDUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.QM_-FLz8YMNHCva4cclQRUM-fJRIO7Wsl65_a9X3rqo?

@@ -1,6 +1,6 @@
 # Atlas Unified System Architecture
 
-**Last Updated**: September 9, 2025  
+**Last Updated**: September 9, 2025
 **Version**: 2.0 - Integrated System
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Atlas is a comprehensive personal AI knowledge system that combines multiple pro
 
 ### 1. Atlas Core Engine
 
-**Location**: `/home/ubuntu/dev/atlas/`  
+**Location**: `/home/ubuntu/dev/atlas/`
 **Purpose**: Central orchestration and data management
 
 ```

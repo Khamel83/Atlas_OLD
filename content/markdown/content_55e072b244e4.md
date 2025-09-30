@@ -208,10 +208,10 @@ ga('create', 'UA-395255-23', 'auto');
   <li>
    <h5></h5>
    <a rel="nofollow" href="/web/20150507041008/http://www.villagevoice.com/photoGallery/?gallery=1797847&amp;position=3" title="" alt="">
-    <img src="http://web.archive.org/web/20150507041008im_/http://media.villagevoice.com/the-nypd-tapes-inside-bed-stuy-s-81st-precinct.4763977.40.jpg" alt="Clipboards containing the all-important statistics and crime reports line a wall inside Brooklyn’s 81st Precinct 
+    <img src="http://web.archive.org/web/20150507041008im_/http://media.villagevoice.com/the-nypd-tapes-inside-bed-stuy-s-81st-precinct.4763977.40.jpg" alt="Clipboards containing the all-important statistics and crime reports line a wall inside Brooklyn’s 81st Precinct
 stationhouse. On a recent evening, patrol officers with the 81st made a routine traffic stop.">
 		   </a>
-   <h6>Clipboards containing the all-important statistics and crime reports line a wall inside Brooklyn&#146;s 81st Precinct 
+   <h6>Clipboards containing the all-important statistics and crime reports line a wall inside Brooklyn&#146;s 81st Precinct
 stationhouse. On a recent evening, patrol officers with the 81st made a routine traffic stop.</h6>
   </li>
   <li>
@@ -231,10 +231,10 @@ stationhouse. On a recent evening, patrol officers with the 81st made a routine 
   <li>
    <h5>C.S. Muncy</h5>
    <a rel="nofollow" href="/web/20150507041008/http://www.villagevoice.com/photoGallery/?gallery=1797847&amp;position=6" title="" alt="">
-    <img src="http://web.archive.org/web/20150507041008im_/http://media.villagevoice.com/the-nypd-tapes-inside-bed-stuy-s-81st-precinct.4763981.40.jpg" alt="The intersection of Chauncey and Ralph in the 81st Precinct 
+    <img src="http://web.archive.org/web/20150507041008im_/http://media.villagevoice.com/the-nypd-tapes-inside-bed-stuy-s-81st-precinct.4763981.40.jpg" alt="The intersection of Chauncey and Ralph in the 81st Precinct
 is often the site of police attention.">
 		   </a>
-   <h6>The intersection of Chauncey and Ralph in the 81st Precinct 
+   <h6>The intersection of Chauncey and Ralph in the 81st Precinct
 is often the site of police attention.</h6>
   </li>
   <li>

@@ -189,7 +189,7 @@ Digital</a> / <a href="http://web.archive.org/web/20120720102048/http://www.nyti
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">Teaching Young Players a Safer Way to Tackle</nyt_headline></h1>
  <div class="articleSpanImage"><img src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/images/2010/12/26/sports/SUB-TAKCLE1/SUB-TAKCLE1-articleLarge.jpg" width="600" height="340" alt="" border="0">
 <div class="credit">Kevin Terrell for The New York Times</div>
@@ -204,7 +204,7 @@ Digital</a> / <a href="http://web.archive.org/web/20120720102048/http://www.nyti
 			articleSpanImage.style.filter = filter;
 		}
 	</script>
-<![endif]--> 
+<![endif]-->
 <nyt_byline>	<h6 class="byline">By <a href="http://web.archive.org/web/20120720102048/http://topics.nytimes.com/top/reference/timestopics/people/s/alan_schwarz/index.html?inline=nyt-per" title="More Articles by Alan Schwarz" class="meta-per">ALAN SCHWARZ</a></h6>
 </nyt_byline>	<h6 class="dateline">Published: December 25, 2010</h6>
 <script type="text/javascript">
@@ -276,7 +276,7 @@ function getSharePasskey() {
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -289,11 +289,11 @@ function getSharePasskey() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p>
-CARSON, Calif. &mdash; They walked through dawn&rsquo;s thick fog to the practice turf &mdash; two dozen boys as old as 17 and as young as 9, giving up a Saturday morning to the coach in the Panama hat.        </p> 
+CARSON, Calif. &mdash; They walked through dawn&rsquo;s thick fog to the practice turf &mdash; two dozen boys as old as 17 and as young as 9, giving up a Saturday morning to the coach in the Panama hat.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->  
+
+<!--forceinline-->
 <div class="columnGroup doubleRule">
 <h3 class="sectionHeader">Related</h3>
 <ul class="headlinesOnly multiline flush">
@@ -325,14 +325,14 @@ The latest news, notes and analysis of the N.F.L. playoffs.</p>
 <li><a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=19&amp;type=stats">Stats</a> | <a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=19&amp;type=rosters">Roster</a></li>
 <li><a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=19&amp;type=depthcharts">Depth Chart</a></li>
 </ul>
-  
+
 <h3 class="sectionHeader"><a href="http://web.archive.org/web/20120720102048/http://topics.nytimes.com/top/news/sports/profootball/nationalfootballleague/newyorkjets/index.html">Jets</a></h3>
 <ul>
 <li><a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=20&amp;type=schedules">Schedule/Results</a></li>
 <li><a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=20&amp;type=stats">Stats</a> | <a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=20&amp;type=rosters">Roster</a></li>
 <li><a href="http://web.archive.org/web/20120720102048/http://nytimes.stats.com/fb/teamstats.asp?teamno=20&amp;type=depthcharts">Depth Chart</a></li>
 </ul>
-</div>   
+</div>
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20120720102048/http://www.nytimes.com/imagepages/2010/12/26/tackle-2.html','tackle_2_html','width=720,height=506,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -343,7 +343,7 @@ The latest news, notes and analysis of the N.F.L. playoffs.</p>
 <h6 class="credit">Harry How/Getty Images</h6>
 <p class="caption">Bobby Hosea decries head-first tackling.                            </p>
 </div>
-  
+
 </div>
 <div class="articleBody">
  <p>
@@ -368,7 +368,7 @@ Any dropping of the head resulted not just in dozens of push-ups, but also in sp
 </nyt_text>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -379,7 +379,7 @@ Any dropping of the head resulted not just in dozens of push-ups, but also in sp
 </div>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup last">				
+<div class="columnGroup last">
 <div id="articleExtras">
 <div class="expandedToolsRight">
 <div class="articleTools">
@@ -404,7 +404,7 @@ Any dropping of the head resulted not just in dozens of push-ups, but also in sp
 	}
 	</script>
 <li class="reprints">			<a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -432,10 +432,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
         google_hints="Teaching Young Players a Safer Way to Tackle";google_ad_channel="archive, archive_sports, archive_Sports";
 </script>
 <!-- ADXINFO classification="feature_squares" campaign="ARTICLE_GOOGLE_SPONLINK_Too"--><script language="JavaScript" type="text/javascript">
-    
+
     // Sponlink_short
 
-NYTD.GoogleAds.getGoogleAds("AFC", { 
+NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
 	google_ad_channel:'left',
         ad_target_list:'sponLink'
@@ -507,7 +507,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div id="mostPopWidget" class="singleRule">
 
 <!-- MOST POPULAR MODULE STARTS -->
@@ -518,7 +518,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
             <li><a href="#">Blogged</a></li>
             <li><a href="#">Searched</a></li>
             <li><a href="#">Viewed</a></li>
-            
+
          </ul>
          </div>
             <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><div class="tabContent tabContentActive" id="mostEmailed"><ol>
@@ -596,7 +596,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 
 <div class="bigAd" id="Box1">
 <!-- ADXINFO classification="Module" campaign="nyt2012_module_batman_hp_ros_db"--><div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=21c82559/456ba579&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://movies.nytimes.com/2012/07/20/movies/the-dark-knight-rises-with-christian-bale.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-PH%26WT.mc_ev=click%26WT.mc_c=191135" target="_blank"><img src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/ads/marketing/mm12/movies/1342644116334_us.jpg" alt="" border="0" height="154" width="334"></a> 
+  <a href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=21c82559/456ba579&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://movies.nytimes.com/2012/07/20/movies/the-dark-knight-rises-with-christian-bale.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-PH%26WT.mc_ev=click%26WT.mc_c=191135" target="_blank"><img src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/ads/marketing/mm12/movies/1342644116334_us.jpg" alt="" border="0" height="154" width="334"></a>
   <div style="padding:7px 9px 0;background:#fff">
     <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=21c82559/456ba579&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://movies.nytimes.com/2012/07/20/movies/the-dark-knight-rises-with-christian-bale.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-HDR%26WT.mc_ev=click%26WT.mc_c=191135">Christian Bale as Batman</a></h2>
     <p style="margin:0 0 3px; padding:0;font-size: 11px;">
@@ -609,15 +609,15 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
       <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=ee59ac53/854c68b7&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://www.nytimes.com/2012/07/15/movies/gene-kelly-as-choreographer-in-lincoln-center-series.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-L2%26WT.mc_ev=click%26WT.mc_c=191135" style="color: #004276">The films of Gene Kelly</a></li>
     </ul>
   </div>
-  
-  
+
+
   <div style="padding:5px 9px; float:left; width:316px; background:#fff">
     <a style="float:left" href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=f139d326/4b4892ea&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://nytimes.com/%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-LOGO%26WT.mc_ev=click%26WT.mc_c=191135" target="_blank"><img src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
-    
+
     <a style="float:right" href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Box1&amp;sn2=c91556d3/218d6d33&amp;sn1=f139d326/4b4892ea&amp;camp=nyt2012_module_batman_hp_ros_db&amp;ad=MO-D-I-NYT-MOD-MOD-M262-ROS-0712&amp;goto=http://nytimes.com//pages/movies/index.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M262-ROS-0712-VRT%26WT.mc_ev=click%26WT.mc_c=191135" target="_blank"><img src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_movies.gif" alt="Movies" border="0" height="18" width="120"></a>
-    
+
   </div>
-  
+
   <br clear="all">
 </div>
 
@@ -625,7 +625,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <!--[TwoColumnAdLeft - Begin] -->
 	<div class="adHeader">
 <h4>
@@ -636,7 +636,7 @@ Advertisements	    </h4>
 <div class="cColumn-TextAd">
 <!-- ADXINFO classification="SiteForADay" campaign="nyt2012_mktg_theater_ticket_s4d_ros"--><div style="width:320px; height:60px;">
 
-<a href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Right5A&amp;sn2=b46cc676/84d49370&amp;sn1=f5b2ca29/5f009a1e&amp;camp=nyt2012_mktg_theater_ticket_s4d_ros&amp;ad=TH-D-I-NYT-AD-S4D-TKT-ROS-0312-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fpages%2Ftheater%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTH%2DD%2DI%2DNYT%2DAD%2DS4D%2DTKT%2DROS%2D0312%2DNA%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D183197" target="_blank"> 
+<a href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Right5A&amp;sn2=b46cc676/84d49370&amp;sn1=f5b2ca29/5f009a1e&amp;camp=nyt2012_mktg_theater_ticket_s4d_ros&amp;ad=TH-D-I-NYT-AD-S4D-TKT-ROS-0312-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fpages%2Ftheater%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTH%2DD%2DI%2DNYT%2DAD%2DS4D%2DTKT%2DROS%2D0312%2DNA%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D183197" target="_blank">
 <img style="float:left; margin-right:10px;" src="http://web.archive.org/web/20120720102048im_/http://graphics8.nytimes.com/adx/images/ADS/29/60/ad.296029/12-0068_Theater_86x60.jpg" width="86" height="60" border="0" style="vertical-align:text-top;"></a>
 
 <a href="http://web.archive.org/web/20120720102048/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sports/football&amp;pos=Right5A&amp;sn2=b46cc676/84d49370&amp;sn1=f5b2ca29/5f009a1e&amp;camp=nyt2012_mktg_theater_ticket_s4d_ros&amp;ad=TH-D-I-NYT-AD-S4D-TKT-ROS-0312-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fpages%2Ftheater%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTH%2DD%2DI%2DNYT%2DAD%2DS4D%2DTKT%2DROS%2D0312%2DNA%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D183197" target="_blank">  <br/>It's Just the Ticket for Everything Theater</a>
@@ -673,7 +673,7 @@ Advertisements	    </h4>
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -693,8 +693,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -826,7 +826,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -903,8 +903,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20120720102048im_/http://up.nytimes.com/?d=0/2/6&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2010%2f12%2f26%2fsports%2ffootball%2f26tackling%2ehtml%3f%5fr%3d1">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

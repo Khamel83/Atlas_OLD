@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         High on the list of crypto’s most impressive accomplishments is the ability of crypto finance to convince people to lend money, at very high
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       More Arrows
-    
-  
+
+
 
 High on the list of crypto’s most impressive accomplishments is the ability of crypto finance to convince people to lend money, at very high loan-to-value ratios, against collateral that is somewhere between “extremely risky” and “transparently worthless.” We have   talked repeatedly about the time Sam Bankman-Fried said to me, on a podcast, that in crypto you can build a box and issue tokens from the box and “put [the] token in a borrow lending protocol and borrow dollars with it” and “never, you know, give the dollars back.” And we have talked about how Bankman-Fried’s FTX crypto exchange did more or less exactly that, borrowing billions of dollars of customer money against its stash of made-up tokens and not giving the money back.
 And we have   talked about Kyle Davies, one of the founders of crypto trading firm Three Arrows Capital, or 3AC, whose superpower was convincing people to lend him hundreds of millions of dollars to do crypto “arbitrage” trades that were just, like, buying speculative tokens of new crypto protocols, holding them for a while and hoping they’d go up. The innovations in 3AC’s business model were:
@@ -88,89 +88,89 @@ One thing that I think about a lot is that the victims of frauds are promising t
   [1]
  because these are people who are temperamentally disposed to being scammed, and because nobody ever learns anything from experience. The founders of 3AC have lost a lot of money, which apparently means that they are well positioned to start another business. Few people in crypto were better at getting people to trust them than Davies and Zhu, and few people in the world were better at trusting Davies and Zhu than the people who now have bankruptcy claims against 3AC, so they might as well get back together.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Remember last year when Elon Musk was going around   pretending that Twitter Inc. was   doing a whole assortment of fraud, hoping that some of it would stick so that he could get out of his deal to buy Twitter? That was annoying. It did not go well, for him, and he eventually dropped it and bought Twitter at the price he had originally agreed to. But if you go around telling everyone that a US public company is committing all sorts of fraud, then some securities lawyers are definitely going to sue the company for that alleged fraud, and they definitely did.
 And now Musk owns the company and has to defend that fraud suit — hard, given that he has previously claimed to agree with it! — or else pay damages — unfair, since, in the somewhat imaginary world in which Twitter was doing a bunch of fraud, Musk is the biggest victim of that fraud! On the fraud theory of Twitter, Twitter was doing a bunch of fraud that propped up its stock price, and then Musk agreed to buy it at a premium to that inflated price, and then the fraud was disclosed, and then Musk grumbled but bought it anyway at that inflated premium price, and now the shareholders who sold get to sue him for more money? Seems very unfair, and yet somehow hilariously deserved.
@@ -199,20 +199,20 @@ Musk: And it should play a little sound when I tweet so everyone knows.
 
 Then he bought the company and fired Agrawal and everyone else who objected to this plan, so here we are I guess.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Mark to market
-    
-  
+
+
 
 Last September the market for UK government bonds broke down briefly due to weird dynamics involving pension funds and liability-driven investment. Basically LDI fund managers ran large leveraged positions in UK gilts on behalf of pension funds, gilt rates went up, those pension funds faced collateral calls and had to dump gilts, that drove rates up more, etc.; sort of a standard unwind of a leveraged trade. We  talked about it at the time. Eventually the Bank of England stepped in, announcing that it would buy a bunch of gilts to keep yields down, and things were fine again. Bloomberg data tells me that 10-year gilts traded at about 3.82% on Sept. 23, got up to 4.24% on Sept. 26 and 4.50% on Sept. 27, and then fell to 4.01% after the BoE announced its plan.
 Here is a Financial Times story about how one LDI manager, Insight Investments, decided not to mark its fund to market on Sept. 27, because the market was too ugly:
@@ -231,11 +231,11 @@ Marking the funds to market at September 27 rates, close to the lowest point in 
 
 By the time they were marking the books for Sept. 27, it was Sept. 28, and the market had already recovered. It is one thing to sit there at the close on Sept. 27, look at a horrific drop in your asset values, and say “ahhh, this is just a blip, this isn’t real, everything is fine, let’s report a higher value.” That sounds like wishful thinking! But it is something else to sit there at noon on Sept. 28, look at yesterday’s horrific drop in your asset values and today’s recovery, and say “ahhh, yesterday’s drop was just a blip, it wasn’t real, everything turned out fine, let’s report a higher value for yesterday.” It seems a little bit more justifiable to smooth out volatility in returns when you already know what happened next, and in fact the volatility was smoothed out in the real world.
 
-  
-    
+
+
       Meme governance
-    
-  
+
+
 
 You could tell a stylized history of companies that goes like this:
 	In the beginning, companies were run by their owners. 	Then there started to be public companies, which are owned by lots of shareholders with no real involvement in the business, and are run by professional managers with limited ownership stakes. “Managerial capitalism,” people call this, and “the separation of ownership and control.” In this model, the shareholders are dispersed and small, and it is very hard for them to exercise much control over the managers. The managers can effectively run the company however they want, with limited oversight from the shareholders.	Then the stock market began to be  dominated by giant institutional investors with governance teams and environmental, social and governance mandates. These institutional investors are not so small and dispersed, and they have an interest in keeping an eye on management, so managers had to listen to them. This has some good points (corporate managers have to be more responsive to shareholders) and some bad points (maximizing profits for shareholders might not be the best goal, it’s weird to have  a dozen big managers with control over every company, the big institutional managers have their own agency problems, etc.).	The state of play as of, like, 2020 was an uneasy balance between corporate managers and institutional investors, with fights over things like  proxy advisory firms to give one side a little bit of an advantage.	Then  GameStop happened and now there are meme stocks.	One thing that means is that there are now companies, like AMC Entertainment Holdings Inc., that are owned mostly by enthusiastic retail investors, not big institutions. The meme stocks are back to being owned by small dispersed shareholders.	But another thing it means is that those small shareholders are less dispersed than they were back in the olden days. They have Reddit forums and Discord chat rooms to talk to each other. They have had some success at pushing stock prices around in coordinated ways. They have modern technology to keep an eye on their companies. The companies’ chief executive officers are on Twitter and YouTube, responding to their retail owners. There are activist hedge fund managers who seem to be appealing to the meme-y retail investors.
@@ -255,11 +255,11 @@ Applying a difference-in-difference approach to data from the standard MSCI ESG 
 Given the lack of voting, the second explanation sounds mostly right to me, though you never know; some meme-stock CEOs are clearly playing to their audiences.
 I don’t think there’s any real reason to expect that the meme-stock craze would democratize corporate governance: It was mostly about making stock prices go up, not about getting more influence over corporate decisions. Still you could imagine a company trying to make its governance more friendly to retail investors. Take shareholder proposals over Discord rather than through the formal SEC process, make voting easier, gamify it, I don’t really know; the point is that modern US corporate governance is really optimized around institutional investors, and if you want meme-stock companies to be responsive to shareholders you will need to build a different set of governance tools.
 
-  
-    
+
+
       PACs
-    
-  
+
+
 
 Here is a possibly related blog post by Raymond Fisman, and a paper by Fisman, Marianne Bertrand, Matilde Bombardini, Francesco Trebbi and Eyub Yegen, about “Investing in Influence: Investors, Portfolio Firms, and Political Giving.” Basically they find that public companies align their political donations with those of their shareholders, and the causal relationship seems to be that the (institutional) shareholders’ politics influence the companies’ politics:
 
@@ -269,126 +269,126 @@ To address these and related challenges, we focus on a subset of investors that 
 
 If you are just going along being a public company and one day you get added to an index, you will tend to take on the social priorities of the big index-fund companies. If instead one day you become a meme stock, you will … I dunno, either “tend to take on the social priorities of meme-stock investors” or “stop worrying about the social priorities of your shareholders.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse Says   Rogue Staffer Took Personnel, Salary Data.  Wheat Near Two-Month High on Fears War in Ukraine Will Intensify.  Junk-Loan Market Shrugs Off Economic Worries.   Adani’s Flagship Swings to Profit Amid Short Seller Battle. Adani Group Seeks to Calm Investors on   $27 Billion Debts.   Americanas Implosion Prompts Banks to Set Aside $1.8 Billion.  Lael Brainard Set to Lead White House National Economic Council. Laid-Off Tech Workers  Seek Leverage on the Way Out. Law Firms Turn to  Layoffs Amid Slowing Demand. Turning  offices into condos: New York after the pandemic. Chanel Owners Among Wealthy   Taking Rothschild Bank Private. Ken Griffin's Miami Move Inspires Investors Who Want to   Work From the Beach. Anti-ESG guy Vivek Ramaswamy might   run for president? New Mexico could be the first state with an  official aroma – and it’s spicy.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not legal advice!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

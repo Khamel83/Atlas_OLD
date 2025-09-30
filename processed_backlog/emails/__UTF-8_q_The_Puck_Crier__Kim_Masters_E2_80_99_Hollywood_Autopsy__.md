@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qThe_Puck_Crier_Kim_Masters=E2=80=99_Hollywood_Autopsy=_Tue,_25_Feb_2025_15-02-34_+0000_1953da26d92a6f5f.eml
 **Processed:** 2025-08-24T19:13:09.230485
 
-Puck logo ( https://puck.news/?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Kim IC ( https://puck.news/my-account/billing/?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear reader,     
@@ -31,7 +31,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 swash divider
-Facebook ( https://facebook.com/puckdotnews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_content=Kim+Masters+IC+Call+-+SUBSCRIBER+Upsell+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

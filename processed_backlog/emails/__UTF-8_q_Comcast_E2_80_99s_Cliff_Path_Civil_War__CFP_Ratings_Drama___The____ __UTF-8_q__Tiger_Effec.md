@@ -17,7 +17,7 @@ WELCOME BACK!
 You’re receiving a complimentary version of The Varsity as a welcome gift to new readers.
 Start a free 14-day trial ( https://puck.news/join/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to unlock unlimited access to Puck.
 
- 
+
 
 John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
@@ -46,7 +46,7 @@ Anyway, the resurgence of the D.C. football club is also another reminder that f
 spoke candidly ( https://puck.news/podcast_episode/the-golf-revolution-will-be-televised/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about the good, the bad, and the ugly regarding TGL’s maiden voyage telecast. On Wednesday, Axios’s Sara Fischer rejoins the show for a news debrief. Subscribe here ( https://open.spotify.com/show/29gVYfRVXFLkrIJFfoojSK?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and
 here ( https://podcasts.apple.com/us/podcast/the-varsity/id1762692129?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 The Brady Meter: Wild Card
 Playoff Round
@@ -74,7 +74,7 @@ became the defining narrative of his brief tenure in the booth.
 I recalled Witten’s year of magical thinking several times yesterday, like when Brady referred to Packers running back Josh Jacobs as Brandon Jacobs (the old Giants back who defeated Brady in two Super Bowls) or when he misidentified Hurts as Love (or was it a two-time divorcé’s subconscious cry for
 help?) or when he mistakenly referred to the Eagles as the Phillies (too many avocado smoothies, Tommy?). Sure, they’re small mistakes, but my social feeds and texts blew up with each one of them. Knowing Brady, I expect he’ll watch the film, be as critical of himself as he was about Love on fourth down, and clean things up. As for now, he’s on to Detroit with a gentleman’s B.
 
- 
+
 
 The Starting Five
 -----------------
@@ -184,7 +184,7 @@ Randy Levine are close to Donald Trump, leading to some speculation that they ca
 To this day, Comcast executives insist that they didn’t lose many subscribers in 2016. (It helped that 2016 was one of the four seasons during the past 15 years that the Yankees failed to make the
 playoffs.) Anyway, given YES Network’s ongoing negotiations with Comcast and MSG Networks’ fight with Altice ( https://puck.news/gaming-out-an-msg-networks-bankruptcy/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), the coveted New York market has become the newest battleground as R.S.N.s struggle to stay afloat in this new media age.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -209,7 +209,7 @@ A newsletter without Marchand:
 
 More Marchand: “Thanks for letting Marchand take a break from his latte art to break the ‘Mike Keith to the Vols Network’ news. My Tennessee-obsessed husband has been speaking that into existence for the 10 years I’ve known him, so it was an exciting news day in our household.” —A true Varsity fan
 
- 
+
 
 See you Thursday,
 
@@ -269,6 +269,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUYmDnOJ-OlvirDIw7X24=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

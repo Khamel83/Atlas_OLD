@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The most important point about MoviePass is that it never made sense. With MoviePass, for a brief glorious time starting in August 2017, you
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       MoviePass
-    
-  
+
+
 
 The most important point about MoviePass is that it never made sense. With MoviePass, for a brief glorious time starting in August 2017, you signed up for a monthly service that cost $9.95 per month, and in exchange you could see as many movies as you wanted in theaters. “Any movie, any theater, any day,”  MoviePass said.
 The way it worked is that MoviePass just bought the tickets for you. Movie tickets often cost $12 or more. MoviePass did not own any theaters and did not have special discount deals with most of the theaters (it did with some); it just paid the full retail price. It was possible for you to lose money with a MoviePass subscription, if you only saw a handful of movies a year. But if you saw one movie a month, MoviePass was losing money on you. If you saw one movie a week, MoviePass was losing a ton of money on you. If you saw one movie a day, oops oops oops.
@@ -120,63 +120,63 @@ From the SEC complaint:
 In March 2018, MoviePass hired a Chief Product Officer, whose main focus was to identify a break even business model and then explore how MoviePass could generate additional revenues outside of subscriptions. The Chief Product Officer quit less than six months later, after realizing that MoviePass’s business model would not work. The Chief Product Officer communicated his views to Lowe.
 Imagine what those six months were like for him. (“Exhilarating and very challenging,”  he said on LinkedIn.) What a weird job, figuring out how MoviePass could make money. It couldn’t! That was the whole joke!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX vs. Binance
-    
-  
+
+
 
 If you were a salesperson at a big investment bank in August 2008, it might have been a good idea to call up some hedge funds and say “hey, we are hearing some bad things about Lehman Brothers. Do you feel safe with them? Might be a good time to move your accounts over here.” The hedge funds might have believed you — you would have been correct! — and moved their accounts to your bank. You would have done more business and made more money. At the end of the year, you could go to your boss and say “I won all these accounts from Lehman, give me a big bonus.”
 And then your boss, if she was smart, would have fired you.
@@ -200,20 +200,20 @@ Prices of most cryptocurrencies fell on Monday, even as equities advanced. 
 
 Bryce Elder  writes that “though CZ insisted that his actions were not ‘a move against a competitor,’ it’s worth noting there is little love lost between him and SBF,” and that “just a few days ago, SBF was making rather pointed allusions to CZ’s probity,” but that “SBF’s reaction to the latest development has (so far) been somewhat less adversarial.” Roughly speaking, CZ seems to think that bad news for FTX is good news for Binance, while SBF — who has spent a lot of this year’s crypto winter  bailing out failed crypto companies — seems to think that bad news for one crypto firm is bad news for all of them. You want to win market share, but mostly you want crypto prices to go up.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Three possible models for Elon Musk’s acquisition of Twitter Inc. are:
 	Musk is a business genius, and will find a way to make Twitter much more valuable. This seems to be   the theory of Musk’s equity co-investors, for instance.	Musk doesn’t care about making money, but he has a philosophical commitment to promoting free speech and vigorous debate on Twitter, the modern town square. This seems to be  Musk’s theory, sometimes.	Musk is very rich and very addicted to Twitter, and buying Twitter lets him be the boss of Twitter and make his own experience more fun, or possibly less fun but in a way that feeds his addiction. This was more or less   my original theory of the deal.
@@ -222,15 +222,15 @@ In Musk’s unfathomably long  first week or so running Twitter, he has driven a
 There’s a great part of the Marx Brothers’ Duck Soup where Groucho says of Chico, “He may look like an idiot, he may talk like an idiot, but don’t let that fool you, he really is an idiot.” I let it fool me: I thought, like many others, Musk must be concealing intelligence, albeit of a cunning and nasty kind, that allowed him to succeed at business. But it now seems like he might be on track to tank Twitter in a matter of weeks and perhaps even damage his other investments. Brands above all want a sterile and nonthreatening environment for advertisement: they certainly don’t want to be associated with the kind of seediness that Elon’s fanboys hope becomes the dominant tone of the platform. Twitter has in fact been a great force for democracy, not because it helps us share ideas or rationally deliberate—God no—but because it shows the rich and powerful to be just schmucks like everyone else. All the sweaty jokes and lame memes, all the crude and harebrained ideas—that’s really him, that’s what he’s like, there’s nothing more to it!
 I have to say I … completely sympathize? If I had limitless resources and people made fun of me on Twitter, I would like to think that I would ignore them and keep working on my world-changing plans to solve climate change and colonize outer space. And then when I succeeded and adoring interviewers asked me “what do you say now to the haters who made fun of you on Twitter,” I would say “honestly Bob I never read them, I was too focused on changing the world, I am not troubled by petty carping on Twitter.” But realistically would I be tempted to buy Twitter, shut down their accounts and tweet zingers at them on their way out? Absolutely. What is the point of all that money if not to win meaningless fights on internet message boards?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Billions in   Capital Calls Threaten to Wreak Havoc on Global Stocks, Bonds.  Raising Money on Wall Street Hasn’t Been This Hard in a Decade. Wells Fargo Faces US   Demand for Record Fine Exceeding $1 Billion. Deutsche Bank Faces  Threat of Fines Over Money-Laundering Controls. Facebook Parent  Meta Is Preparing to Notify Employees of Large-Scale Layoffs This Week. US   Probes Insider Trading in Prearranged Executive Stock Sales.   Carvana’s 96% Collapse Erases Billions From Father-Son Duo’s Wealth. Meme Stock Cassava   Sues Short Sellers Alleging a Smear Campaign. US works up plan for companies to fund emerging nations’  fossil fuel switch. ECB and  UniCredit clash over capital plans and Russia presence. Houston Mogul’s $75 Million   Win on Astros Hits Caesars Hardest. 40 Chickens in 40 Days: How a  Philadelphia Man Cheered His City. How a  Horse Molestation Joke Set the Crypto World on Fire. Paintballs to be shot at  Dutch wolves in bid to make them less tame. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Numbers don’t quite add up because the company had a tiny bit — about $6.5 million — of other revenue.
 
 
@@ -243,114 +243,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Not legal advice!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

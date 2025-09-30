@@ -7,8 +7,8 @@
 
 Marques Brownlee has tremendous power because he can go direct to consumers; that is possible in media, and AI will make it possible everywhere.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/mkbhds-for-everything/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21rYmhkcy1mb3ItZXZlcnl0aGluZy8iXX0sImV4cCI6MTcxNTg3MzQ2MywiaWF0IjoxNzEzMjgxNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.I9I9tmH9pEF6WIk3Qk6_RPu4lIci8MeJElTKSOHWUIr32LgxIxLobO38oihE1hJr635FNjjfieX_VGT33G1yA92eEpsKybDlK-wM9v8YHxic9vkaOHejvthwpWhg0JOsKWHHkfdjfeFPKVW6zo2U2D5ZQ05xavzQBiWJAxnegPPTOqoSKBsoVkUobUdBFUeS4YBVGhKMrt9jxyWcULgfJAZqvvXlDk7ihp4mYLfFx8UGHJYbE93hr4yWrIbolfugq8KoXgSDy8Z4ybjn0h1PDyVveVSs0IrLH0InjI7FM9iKNYkp1N1-jJnXnxLnqBmVAiqDfspvRJz1w62Bt53kbg)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -145,27 +145,27 @@ As for me, I plan on documenting it every step of the way, thanks to every perso
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNTg3MzQ2MywiaWF0IjoxNzEzMjgxNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.Zq9tcpL_-NLRxamcDPwTEgOR7gWyBpKFp76yohRSj2BIpbrqy_24hTwZLvzRq9XLkMiaaPManOeu70-n5peAc__ho5_BNV-pdW7wQy6-keNgkcwjuc0CX8rKvqkBKFwyZkQat5_uzw1yk4K3LKRJFDt4efxXZoAKHXJ26M8rDuw82snWWsYFtBrUvvL9zzvV_FgR0V4ZQhqdqQAIePRPDHIB5R16lAHpv4d1BCKze07CcPUb0kRGqXLlJVpE6vBOfh-pn2_jtTmV7OYAzi9xbWmebD2IDEOYUfsDrVTYMHGh-cQHEj7XiXpqS9Ai-LvlI1R9QF5tm6JIgfKMQrgezQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNTg3MzQ2MywiaWF0IjoxNzEzMjgxNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.Zq9tcpL_-NLRxamcDPwTEgOR7gWyBpKFp76yohRSj2BIpbrqy_24hTwZLvzRq9XLkMiaaPManOeu70-n5peAc__ho5_BNV-pdW7wQy6-keNgkcwjuc0CX8rKvqkBKFwyZkQat5_uzw1yk4K3LKRJFDt4efxXZoAKHXJ26M8rDuw82snWWsYFtBrUvvL9zzvV_FgR0V4ZQhqdqQAIePRPDHIB5R16lAHpv4d1BCKze07CcPUb0kRGqXLlJVpE6vBOfh-pn2_jtTmV7OYAzi9xbWmebD2IDEOYUfsDrVTYMHGh-cQHEj7XiXpqS9Ai-LvlI1R9QF5tm6JIgfKMQrgezQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*
-  
-  
+
+
 
 1. Actually, the deference Brownlee gave the vision and the potential of future upgrades was arguably generous
 2. I previously spoke for pay, and even more previously offered consulting, and even more previously than that had ads; however, I ended ads in 2014, consulting in 2015, and haven’t accepted any paid speaking opportunities since 2017. This is all covered on [my about page](https://stratechery.com/about/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS9hYm91dC8iXX0sImV4cCI6MTcxNTg3MzQ2MywiaWF0IjoxNzEzMjgxNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.f5dmAFJPB9n2b4eoX3PRQ1FY_VpayKdXK8wVPohnvZENSoTvIATrkCOj9SsxxOWOlvu3R3glkYhoHbIf7NOzi0g1KPyvzfZf3IwJ8WDtdIz4CX1KGarkMCwz1hNU-YtNtQqsvtrgJACqudXDgNfPmfnyRh4J6XH_X1A7vl8dz7DkyL0NEwkfeK2uzycd9NlH8c-ptoUObar6BczIAB84UOqk5JnzkGGLz4m3q7ub-3kx0clc7tFBRwCR3c8d7eUZThhIlUqclK4ndyaD3pX7-AW5d5hUq5eQjJuuHG20XxZyjAMSj5ZsUrlMFkWYlMEjjRv4CqIpEZ_aitW0Pzy7WQ).

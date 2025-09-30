@@ -41,13 +41,13 @@
 <link rel="alternate" type="application/rss+xml" title="Economic Innovation Group &raquo; Feed" href="https://eig.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Economic Innovation Group &raquo; Comments Feed" href="https://eig.org/comments/feed/" />
 					<link rel="shortcut icon" href="https://eig.org/wp-content/uploads/2023/01/favicon.png" type="image/x-icon" />
-		
+
 					<!-- Apple Touch Icon -->
 			<link rel="apple-touch-icon" sizes="180x180" href="https://eig.org/wp-content/uploads/2023/01/favicon-apple-touch.png">
-		
+
 					<!-- Android Icon -->
 			<link rel="icon" sizes="192x192" href="https://eig.org/wp-content/uploads/2023/01/favicon-android.png">
-		
+
 					<!-- MS Edge Icon -->
 			<meta name="msapplication-TileImage" content="https://eig.org/wp-content/uploads/2023/01/favicon-edge.png">
 				<link rel='stylesheet' id='genesis-blocks-style-css-css' href='https://eig.org/wp-content/plugins/genesis-blocks/dist/style-blocks.build.css?ver=1745268654' type='text/css' media='all' />
@@ -143,7 +143,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 						ol.footnotes { color:#666666; }
 ol.footnotes li { font-size:80%; }
 		</style>
-		
+
         <script type="text/javascript">
             var jQueryMigrateHelperHasSentDowngrade = false;
 
@@ -270,11 +270,11 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		<div class="fusion-sides-frame"></div>
 		<div id="wrapper" class="fusion-wrapper">
 			<div id="home" style="position:relative;top:-1px;"></div>
-			
-				
+
+
 			<header class="fusion-header-wrapper">
 				<div class="fusion-header-v3 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
-					
+
 <div class="fusion-secondary-header">
 	<div class="fusion-row">
 							<div class="fusion-alignright">
@@ -292,7 +292,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 
 <!-- mobile logo -->
 				<img src="https://eig.org/wp-content/uploads/2025/03/EIG-10YearAnniversaryLogo_660x162-Knockout.png" srcset="https://eig.org/wp-content/uploads/2025/03/EIG-10YearAnniversaryLogo_660x162-Knockout.png 1x, https://eig.org/wp-content/uploads/2025/03/EIG-10YearAnniversaryLogo_660x162-Knockout.png 2x" width="661" height="163" style="max-height:163px;height:auto;" alt="Economic Innovation Group Logo" data-retina_logo_url="https://eig.org/wp-content/uploads/2025/03/EIG-10YearAnniversaryLogo_660x162-Knockout.png" class="fusion-mobile-logo" />
-			
+
 											<!-- sticky header logo -->
 				<img src="https://eig.org/wp-content/uploads/2025/03/eig-logo-test1.png" srcset="https://eig.org/wp-content/uploads/2025/03/eig-logo-test1.png 1x" width="660" height="163" alt="Economic Innovation Group Logo" data-retina_logo_url="" class="fusion-sticky-logo" />
 					</a>
@@ -312,7 +312,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 </div>
 
 <div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
-			
+
 		</form>
 		<div class="fusion-search-spacer"></div><a href="#" role="button" aria-label="Close Search" class="fusion-close-search"></a></div><ul id="menu-main-navigation" class="fusion-menu"><li  id="menu-item-22"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22 fusion-megamenu-menu fusion-has-all-widgets"  data-item-id="22"><a  href="https://eig.org/research/" class="fusion-bottombar-highlight"><span class="menu-text">RESEARCH</span></a><div class="fusion-megamenu-wrapper fusion-columns-3 columns-per-row-3 columns-3 col-span-12 fusion-megamenu-fullwidth"><div class="row"><div class="fusion-megamenu-holder" style="width:100vw;" data-width="100vw"><ul class="fusion-megamenu fusion-megamenu-sitewidth" style="margin: 0 auto;width: 100%;max-width: 1200px;"><li  id="menu-item-20133"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20133 fusion-megamenu-submenu fusion-megamenu-submenu-notitle fusion-megamenu-columns-3 col-lg-4 col-md-4 col-sm-4" ><div class="fusion-megamenu-widgets-container second-level-widget"><div id="nav_menu-10" class="widget widget_nav_menu" style="border-style: solid;border-color:transparent;border-width:0px;"><div class="menu-mega-menu-research-column-1-container"><ul id="menu-mega-menu-research-column-1" class="menu"><li id="menu-item-20781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20781"><a href="https://eig.org/research/reports/">Reports</a></li>
 </ul></div></div></div></li><li  id="menu-item-20134"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20134 fusion-megamenu-submenu fusion-megamenu-submenu-notitle fusion-megamenu-columns-3 col-lg-4 col-md-4 col-sm-4" ><div class="fusion-megamenu-widgets-container second-level-widget"><div id="nav_menu-16" class="widget widget_nav_menu" style="border-style: solid;border-color:transparent;border-width:0px;"><div class="menu-mega-menu-research-column-2-container"><ul id="menu-mega-menu-research-column-2" class="menu"><li id="menu-item-20635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20635"><a href="https://eig.org/analysis/">Latest Analysis</a></li>
@@ -415,10 +415,10 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 </li>
 </ul></div></div></div></li></ul></div><div style="clear:both;"></div></div></div></li></ul></nav><div class="fusion-mobile-navigation"><ul id="menu-mobile-menu" class="fusion-mobile-menu"><li  id="menu-item-20597"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20597"  data-item-id="20597"><a  href="https://eig.org/research/" class="fusion-bottombar-highlight"><span class="menu-text">Research</span></a></li><li  id="menu-item-20596"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20596"  data-item-id="20596"><a  href="https://eig.org/policy/" class="fusion-bottombar-highlight"><span class="menu-text">Policy</span></a></li><li  id="menu-item-20600"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20600"  data-item-id="20600"><a  href="https://eig.org/issue-areas/" class="fusion-bottombar-highlight"><span class="menu-text">Issue Areas</span></a></li><li  id="menu-item-20595"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20595"  data-item-id="20595"><a  href="https://eig.org/news-events/" class="fusion-bottombar-highlight"><span class="menu-text">News &#038; Events</span></a></li><li  id="menu-item-20598"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20598"  data-item-id="20598"><a  href="https://eig.org/about-us/" class="fusion-bottombar-highlight"><span class="menu-text">About Us</span></a></li><li  id="menu-item-20601"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20601"  data-item-id="20601"><a  href="https://eig.org/contact/" class="fusion-bottombar-highlight"><span class="menu-text">Contact</span></a></li><li  id="menu-item-21402"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21402"  data-item-id="21402"><a  href="https://eig.org/support/" class="fusion-bottombar-highlight"><span class="menu-text">Support</span></a></li><li  id="menu-item-21782"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21782"  data-item-id="21782"><a  href="https://eig.org/subscribe-newsletter/" class="fusion-bottombar-highlight"><span class="menu-text">Subscribe</span></a></li><li  id="menu-item-23954"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23954"  data-item-id="23954"><a  href="https://eig.org/newbazaar/" class="fusion-bottombar-highlight"><span class="menu-text">The New Bazaar Podcast</span></a></li><li  id="menu-item-23955"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23955"  data-item-id="23955"><a  href="https://agglomerations.substack.com/" class="fusion-bottombar-highlight"><span class="menu-text">Agglomerations Newsletter</span></a></li></ul></div>	<div class="fusion-mobile-menu-icons">
 							<a href="#" class="fusion-icon awb-icon-bars" aria-label="Toggle mobile menu" aria-expanded="false"></a>
-		
+
 					<a href="#" class="fusion-icon awb-icon-search" aria-label="Toggle mobile search"></a>
-		
-		
+
+
 			</div>
 
 <nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
@@ -441,7 +441,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 </div>
 
 <div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
-			
+
 		</form>
 		</div>
 			</div>
@@ -449,19 +449,19 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 				</div>
 				<div class="fusion-clearfix"></div>
 			</header>
-							
+
 						<div id="sliders-container" class="fusion-slider-visibility">
 					</div>
-				
-				
-			
-			
+
+
+
+
 						<main id="main" class="clearfix ">
 				<div class="fusion-row" style="">
 <section id="content" style="width: 100%;">
 					<div id="post-20690" class="post-20690 page type-page status-publish hentry">
 			<span class="entry-title rich-snippet-hidden">The Case for Economic Dynamism</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://eig.org/author/will/" title="Posts by will" rel="author">will</a></span></span><span class="updated rich-snippet-hidden">2023-05-17T05:00:18-04:00</span>
-			
+
 			<div class="post-content">
 				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-color:transparent;padding: 0px 0px 0px 0px;"><style>
 	.gray-wrapper {
@@ -471,7 +471,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	.gray-wrapper .inner-wrapper {
 	  max-width: none !important;
 	}
-  
+
 	@media only screen and (min-width: 1073px) {
 	  .dynamism-content .section-header.section-header {
 		top: 100px !important;
@@ -487,14 +487,14 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		height: 70vh !important;
 	  }
 	}
-	
+
 	@media only screen and (max-width: 640px) {
 		.figure-chart {
 			scale: 0.8;
 		  }
 		}
 		</style>
-  
+
   <link rel="manifest" href="/dynamism_assets/manifest.json" />
   <link rel="stylesheet" href="https://use.typekit.net/xoj5prj.css">
   <link href="/dynamism_assets/static/css/main.02476f91.chunk.css" rel="stylesheet">
@@ -527,10 +527,10 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
   .pov-paper ul, .pov-paper ol, .pov-paper li {list-style-type: none;}
   .pov-paper a {text-decoration: none;}
   .pov-paper img {display: block; max-width: 100%; height: auto !important;}
-  
+
   .hero.alt.small {height: 184px;}
   .newsletter .container .block form {margin: 0;}
-  
+
   .gray-wrapper {background-color: #424242; padding: 64px 0 0 0;}
 	.gray-wrapper .container {padding: 56px 0; background-color: #fff;}
 	.gray-wrapper .inner-wrapper {max-width: 1024px; margin: 0 auto; line-height: 1.7em;}
@@ -557,12 +557,12 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		color: teal;
 		margin: 0 0 16px 0;
 	  }
-	  
+
   #wrapper main {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
   }
-  
+
   .pov-paper iframe {
 	display: block;
 	width: 100%;
@@ -701,8 +701,8 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  pointer-events: auto;
 	  z-index: 89999;
 	}
-  
-  
+
+
   .read-more a {
 	display: inline-block;
 	text-decoration: none;
@@ -713,7 +713,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	padding: 0 32px 0 0;
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAAhklEQVQokWNkIANcm1KQxsDAMJOBgaFCK2dCJ7IJTOQYyMDAoASlO65NKSinhoHIAMVQxmtTCt4xMDAIYigjHYC9DzLwPxUMgwFXangZBs6CMAvIqWR42YWBgcEYzTBXrZwJ78lNNh0MDAywiIAbBuJQ6mUUw0AA5GVyACwxdyIbxsDAwAAA54IlFtB3f+QAAAAASUVORK5CYII=') no-repeat right center scroll;
   }
-  
+
   .explore-wrapper {padding: 16px 0;}
 	.explore-wrapper .ew-cols {
 	  display: flex;
@@ -728,7 +728,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  margin: 0 10px 24px 10px;
 	  padding: 16px;
 	  position: relative;
-	  background-color: #f1f1f1; 
+	  background-color: #f1f1f1;
 	  background-position: center top;
 	  background-repeat: no-repeat;
 	  background-attachment: scroll;
@@ -766,13 +766,13 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		padding: 0 24px 0 0;
 		background: url(https://eig.org/wp-content/themes/eig/images/pov/white-arrow.png) no-repeat right center scroll;
 	  }
-  
+
   header {padding-bottom: 40px;}
-  
-  
+
+
   .pp-hero {
 	height: 340px;
-	background-color: #f1f1f1; 
+	background-color: #f1f1f1;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -841,15 +841,15 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		padding: 0 0 0 24px;
 		background: url(https://eig.org/wp-content/themes/eig/images/pov/file-icon-white.png) no-repeat left center scroll;
 	  }
-	
-  
+
+
   .two-blocks {margin: 0 -12px; padding: 16px 0 0 0;}
 	.two-blocks .tb-entry {
 	  width: calc(50% - 24px);
 	  float: left;
 	  margin: 0 12px 32px 12px;
 	  position: relative;
-	  background-color: #f1f1f1; 
+	  background-color: #f1f1f1;
 	  background-position: center top;
 	  background-repeat: no-repeat;
 	  background-attachment: scroll;
@@ -881,9 +881,9 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  z-index: 30;
 	}
 	.two-blocks .tb-entry .read-more a {font-family: 'Tiempos', Georgia, serif;}
-  
+
   .centered-logo {display: block; margin: 0 auto;}
-  
+
   .cta-btn {text-align: center; font-family: "Polaris", Helvetica, Arial, sans-serif; padding: 16px 0;}
 	.cta-btn a {
 	  color: teal;
@@ -893,7 +893,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  border-radius: 4px;
 	}
 	.cta-btn a:hover {background-color: teal; color: #fff !important;}
-  
+
 	.cta-wrapper {
 		width: 75%;
 		margin: 0 auto;
@@ -973,7 +973,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  background: url(https://eig.org/wp-content/themes/eig/images/pov/file-icon.png?v=1.0.1) no-repeat left 4px scroll;
 	}
 	.body-class-page-id-11448 .call-to-actions a {width: 112px; margin-left: -18px;}
-  
+
   @media (max-width: 1180px) {
 	.pov-paper .container {max-width: 96%;}
 	.gray-wrapper .container {padding: 32px 0;}
@@ -983,7 +983,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	.m-nav li li {line-height: 1.6em;}
 	.m-nav .right:before {display: none;}
 	.m-nav .right ul {
-	  display: none; 
+	  display: none;
 	  margin: 0;
 	  width: 300px;
 	  background-color: teal;
@@ -995,7 +995,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	}
 	.mobile-nav-active .m-nav .right ul {display: block; z-index: 9800;}
 	  .m-nav .right ul ul {
-		display: block; 
+		display: block;
 		margin: 0;
 		width: 100%;
 		position: static;
@@ -1048,8 +1048,8 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	.pov-paper .fixed-width-chart {max-width: 100% !important;}
   }
   </style>
-  
-  
+
+
   <div class="pov-paper">
 	<div class="gray-wrapper">
 	  <div class="container" style="overflow: unset;">
@@ -1069,15 +1069,15 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 					</div>
 					<div class="dynamism-body">
 					<div class="dynamism-content">
-					<div class="step-content" style="margin: 0 0 24px 0 !important;">Working Americans have far more to lose from an economy that is changing too little and too slowly than from one that is quickly adapting and advancing to new frontiers. But in recent decades, policymakers have ignored signs that the dynamic mechanisms at the heart of our economy were growing weaker. Worse still, policy failures at every level of government have contributed to the sclerosis that has slowly robbed the country of its vitality. From NIMBYs to non-competes, vested interests have steadily weighed the economy down with artificial barriers to mobility, competition, and adaptation. These barriers have made our economy less abundant in opportunity and less able to improve the lives of ordinary Americans. </div> 
-  
+					<div class="step-content" style="margin: 0 0 24px 0 !important;">Working Americans have far more to lose from an economy that is changing too little and too slowly than from one that is quickly adapting and advancing to new frontiers. But in recent decades, policymakers have ignored signs that the dynamic mechanisms at the heart of our economy were growing weaker. Worse still, policy failures at every level of government have contributed to the sclerosis that has slowly robbed the country of its vitality. From NIMBYs to non-competes, vested interests have steadily weighed the economy down with artificial barriers to mobility, competition, and adaptation. These barriers have made our economy less abundant in opportunity and less able to improve the lives of ordinary Americans. </div>
+
 					<div class="step-content" style="margin: 0 0 24px 0 !important;">How can we restore American dynamism and build an economy in which workers can truly thrive?</div>
-  
+
 					<div class="step-content" style="margin: 0 0 24px 0 !important;">That question is at the heart of a new paper, “The Case for Economic Dynamism and Why it Matters for the American Worker.”</div>
 					<div class="section-header" style="margin: 0 0 24px 0 !important;">The decline and potential rebirth of American Dynamism</div>
 					<div class="step-content" style="margin: 0 0 24px 0 !important;">It is a popular myth that the 21st century has been a period of unprecedented economic change and transformation. In reality, American dynamism has been in a decades-long retreat. In the years leading up to the Covid-19 pandemic, startup rates languished near all-time lows. Fewer companies were going public. Corporate America looked old and complacent. Increasingly, too, did American demography. Productivity growth decelerated in spite of promising new technologies. And a country whose people were once known for their restless, pioneering spirit became increasingly stuck in place.</div>
 					<div style="margin: 0 0 24px auto;">
-  
+
   <!-- Generated by ai2html v0.103.0 - 2022-03-16 11:17 -->
   <!-- ai file: figure-bonus_responsive _editTS.ai -->
   <style media="screen,print">
@@ -1320,22 +1320,22 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  font-style:italic;
 	  height:14px;
 	}
-  
+
   </style>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://use.typekit.net/xoj5prj.css"></head>
   <div id="g-figure-bonus_responsive-_editTS-box" class="ai2html">
-  
+
 	<!-- Artboard: mobile -->
 	<div id="g-figure-bonus_responsive-_editTS-mobile" class="g-artboard" style="height:780px;min-width: 320px;max-width: 498px;max-height: 1214px" data-aspect-ratio="0.41" data-min-width="0" data-max-width="498">
   <div style="padding: 0 0 243.75% 0;"></div>
-  
+
   <!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
   <svg class="g-aiImg" style="height:780px;" preserveAspectRatio="none" version="1.2" baseProfile="tiny" id="g-figure-bonus_responsive-_editTS-mobile-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 320 780" overflow="visible" xml:space="preserve">
   <g>
 	<rect y="0.075" fill="#F2F2F2" width="318.577" height="779.925"/>
-	
+
 	  <path fill="none" stroke="#FFFFFF" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M23.539,550.982H274.97 M23.539,620.122H274.97 M23.539,654.742H274.97 M18.08,366.797h251.571 M18.08,435.937h251.571
 	   M18.08,470.556h251.571 M18.032,186.156h252.674 M18.032,255.296h252.674 M18.032,289.915h252.674"/>
@@ -1533,13 +1533,13 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l-0.115,0.093l-0.291,0.312l-0.298,0.444l-0.306,0.544l-0.309,0.63l-0.32,0.703l-0.312,0.756l-0.322,0.803l-0.311,0.842
 	  l-0.314,0.869l-0.636,1.731L70.76,218.5l-0.948,2.328c-0.11,0.272-0.73,0.451-1.385,0.405
 	  C67.774,221.187,67.334,220.935,67.443,220.663z"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="68.361" y1="221.295" x2="68.361" y2="221.233"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="265.598" y1="293.763" x2="265.598" y2="293.731"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="68.463" y1="400.892" x2="68.463" y2="400.83"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="265.806" y1="466.105" x2="265.806" y2="466.043"/>
 	<path fill="#4D1FB2" d="M69.808,401.317l0.961,2.813l0.304,1.048l0.64,2.136l0.304,1.061l0.32,1.035l0.304,0.975l0.32,0.915
 	  l0.32,0.836l0.304,0.73l0.16,0.318l0.144,0.285l0.144,0.252l0.16,0.199l0.144,0.172l0.112,0.113l0.096,0.053l-0.192-0.1l0.16,0.066
@@ -1732,9 +1732,9 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  c-0.064-0.033-0.128-0.066-0.176-0.1l-0.224-0.166l-0.192-0.186l-0.176-0.206l-0.176-0.259l-0.16-0.272l-0.176-0.305l-0.16-0.338
 	  l-0.304-0.75l-0.32-0.849l-0.32-0.922l-0.32-0.988l-0.304-1.035l-0.32-1.061l-0.64-2.129l-0.304-1.041l-0.945-2.806
 	  c-0.096-0.272,0.368-0.524,1.025-0.564C69.12,400.853,69.728,401.045,69.808,401.317z"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="67.674" y1="585.355" x2="67.674" y2="585.324"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="265.059" y1="678.739" x2="265.059" y2="678.709"/>
 	<path fill="#FF295A" d="M66.445,585.502l0.947-2.759l0.321-1.048l0.305-1.081l0.321-1.088l0.321-1.081l0.321-1.041l0.305-0.982
 	  l0.321-0.902l0.161-0.411l0.161-0.398l0.16-0.352l0.161-0.318l0.177-0.292l0.16-0.252l0.177-0.219l0.193-0.186
@@ -1949,7 +1949,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l-0.128,0.159l-0.161,0.226l-0.144,0.259l-0.144,0.305l-0.161,0.345l-0.161,0.371l-0.16,0.398l-0.305,0.895l-0.321,0.975
 	  l-0.305,1.041l-0.321,1.075l-0.321,1.088l-0.305,1.088l-0.337,1.061l-0.947,2.759c-0.096,0.272-0.706,0.458-1.364,0.418
 	  C66.798,586.026,66.349,585.774,66.445,585.502z"/>
-	
+
 	  <path fill="none" stroke="#000000" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M18.08,585.569h256.89 M19.541,401.383h250.14 M18.032,220.742h252.674"/>
   </g>
@@ -1957,7 +1957,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
   #g-figure-bonus_responsive-_editTS-mobile-img rect, #g-figure-bonus_responsive-_editTS-mobile-img circle, #g-figure-bonus_responsive-_editTS-mobile-img path, #g-figure-bonus_responsive-_editTS-mobile-img line, #g-figure-bonus_responsive-_editTS-mobile-img polyline, #g-figure-bonus_responsive-_editTS-mobile-img polygon { vector-effect: non-scaling-stroke; }
   </style>
   </svg>
-  
+
 	  <div id="g-ai0-1" class="g-Title_copy_2 g-aiAbs g-aiPointText" style="top:7.8933%;margin-top:-29.6px;left:6.2198%;width:273px;">
 		<p class="g-pstyle0">All core metrics of dynamism </p>
 		<p class="g-pstyle0">have been declining compared to </p>
@@ -2035,17 +2035,17 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		<p class="g-pstyle7">Geographic Mobility Tables</p>
 	  </div>
 	</div>
-  
+
 	<!-- Artboard: original -->
 	<div id="g-figure-bonus_responsive-_editTS-original" class="g-artboard" style="height:480px;min-width: 499px;max-width: 798px;max-height: 766px" data-aspect-ratio="1.042" data-min-width="499" data-max-width="798">
   <div style="padding: 0 0 96% 0;"></div>
-  
+
   <!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
   <svg class="g-aiImg" style="height:480px;" preserveAspectRatio="none" version="1.2" baseProfile="tiny" id="g-figure-bonus_responsive-_editTS-original-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 500 480" overflow="visible" xml:space="preserve">
   <g>
 	<rect y="0.075" fill="#F2F2F2" width="500" height="479.925"/>
-	
+
 	  <path fill="none" stroke="#FFFFFF" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M346.426,199.802h131.437 M346.426,308.383h131.437 M346.426,362.752h131.437 M198.414,199.802h131.51 M198.414,308.383h131.51
 	   M198.414,362.752h131.51 M17.636,199.802h164.402 M17.636,308.383h164.402 M17.636,362.752h164.402"/>
@@ -2251,9 +2251,9 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l-0.07,0.042l0.23-0.24l-0.061,0.094l-0.075,0.146l-0.19,0.49l-0.194,0.698l-0.199,0.854l-0.201,0.99l-0.208,1.104l-0.203,1.188
 	  l-0.209,1.261l-0.202,1.323l-0.204,1.365l-0.414,2.719l-0.205,1.354l-0.617,3.657c-0.072,0.427-0.475,0.708-0.901,0.635
 	  C49.957,254.816,49.671,254.421,49.742,253.993z"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="50.512" y1="254.155" x2="50.512" y2="254.092"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="178.539" y1="368.173" x2="178.539" y2="368.141"/>
 	<path fill="#4D1FB2" d="M199.217,254.014l0.625,4.417l0.198,1.646l0.417,3.354l0.198,1.667l0.208,1.625l0.198,1.531l0.208,1.438
 	  l0.208,1.313l0.198,1.146l0.104,0.5l0.094,0.448l0.094,0.396l0.104,0.312l0.094,0.271l0.073,0.177l0.063,0.083l-0.125-0.156
@@ -2457,13 +2457,13 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  c-0.125-0.042-0.229-0.104-0.323-0.198l-0.104-0.094c-0.042-0.052-0.083-0.104-0.115-0.156l-0.146-0.26l-0.125-0.292l-0.115-0.323
 	  l-0.115-0.406l-0.104-0.427l-0.115-0.479l-0.104-0.531l-0.198-1.177l-0.208-1.333l-0.208-1.448l-0.208-1.552l-0.198-1.625
 	  l-0.208-1.667l-0.417-3.344l-0.198-1.636l-0.615-4.407c-0.062-0.427,0.24-0.823,0.667-0.885S199.165,253.587,199.217,254.014z"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="198.414" y1="254.118" x2="198.414" y2="254.056"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="327.393" y1="355.824" x2="327.393" y2="355.762"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="346.426" y1="253.781" x2="346.426" y2="253.719"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="471.415" y1="400.39" x2="471.415" y2="400.328"/>
 	<path fill="none" stroke="#FF295A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M346.82,253.719c1.065-6.516,2.13-21.177,3.195-19.548c1.065,1.629,2.13,26.064,3.195,29.322c1.065,3.258,2.13-4.887,3.195-9.774
@@ -2693,7 +2693,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l0.543-0.136l-0.102,0.073l0.195-0.199l-0.092,0.147l0.072-0.136l-0.082,0.178l-0.082,0.251l-0.102,0.356l-0.092,0.408
 	  l-0.092,0.482l-0.102,0.544l-0.102,0.586l-0.102,0.628l-0.195,1.413l-0.205,1.539l-0.195,1.644l-0.205,1.696l-0.205,1.717
 	  l-0.195,1.717l-0.215,1.675l-0.604,4.355c-0.061,0.429-0.451,0.722-0.871,0.66C345.659,255.09,345.373,254.693,345.434,254.263z"/>
-	
+
 	  <path fill="none" stroke="#000000" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M346.426,254.118h131.437 M198.414,254.118h131.51 M17.636,254.118h164.402"/>
   </g>
@@ -2701,7 +2701,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
   #g-figure-bonus_responsive-_editTS-original-img rect, #g-figure-bonus_responsive-_editTS-original-img circle, #g-figure-bonus_responsive-_editTS-original-img path, #g-figure-bonus_responsive-_editTS-original-img line, #g-figure-bonus_responsive-_editTS-original-img polyline, #g-figure-bonus_responsive-_editTS-original-img polygon { vector-effect: non-scaling-stroke; }
   </style>
   </svg>
-  
+
 	  <div id="g-ai1-1" class="g-Title g-aiAbs g-aiPointText" style="top:10.1618%;margin-top:-22.8px;left:3.8865%;width:432px;">
 		<p class="g-pstyle0">All core metrics of dynamism have been declining</p>
 		<p class="g-pstyle0">compared to their 1980 levels</p>
@@ -2744,17 +2744,17 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		<p class="g-pstyle7">Historical Migration and Geographic Mobility Tables</p>
 	  </div>
 	</div>
-  
+
 	<!-- Artboard: desktop -->
 	<div id="g-figure-bonus_responsive-_editTS-desktop" class="g-artboard" style="height:480px;min-width: 799px;" data-aspect-ratio="1.667" data-min-width="799">
   <div style="padding: 0 0 60% 0;"></div>
-  
+
   <!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
   <svg class="g-aiImg" style="height:480px;" preserveAspectRatio="none" version="1.2" baseProfile="tiny" id="g-figure-bonus_responsive-_editTS-desktop-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 800 480" overflow="visible" xml:space="preserve">
   <g>
 	<rect y="0.037" fill="#F2F2F2" width="800" height="479.925"/>
-	
+
 	  <path fill="none" stroke="#FFFFFF" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M554.281,199.764h210.299 M554.281,308.346h210.299 M554.281,362.714h210.299 M317.463,199.764h210.416 M317.463,308.346h210.416
 	   M317.463,362.714h210.416 M28.218,199.764h263.044 M28.218,308.346h263.044 M28.218,362.714h263.044"/>
@@ -2951,9 +2951,9 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l-0.115-0.208l-0.138-0.188l0.128,0.146l-0.137-0.125l0.4,0.229l-0.112-0.042l1.3-0.031l-0.112,0.042l0.368-0.24l-0.098,0.094
 	  l-0.12,0.146l-0.303,0.49l-0.31,0.698l-0.318,0.854l-0.322,0.99l-0.333,1.104l-0.325,1.188l-0.335,1.261l-0.323,1.323l-0.327,1.365
 	  l-0.662,2.719l-0.328,1.354l-0.987,3.657c-0.115,0.427-0.76,0.708-1.442,0.635C79.932,254.779,79.473,254.383,79.586,253.956z"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="80.82" y1="254.117" x2="80.82" y2="254.055"/>
-	
+
 	  <line fill="none" stroke="#260D61" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="285.662" y1="368.136" x2="285.662" y2="368.104"/>
 	<path fill="#4D1FB2" d="M318.747,253.977l1,4.417l0.317,1.646l0.667,3.354l0.317,1.667l0.333,1.625l0.317,1.531l0.333,1.438
 	  l0.333,1.313l0.317,1.146l0.167,0.5l0.15,0.448l0.15,0.396l0.167,0.312l0.15,0.271l0.117,0.177l0.1,0.083l-0.2-0.156l0.167,0.104
@@ -3152,13 +3152,13 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l-0.183-0.406l-0.167-0.427l-0.183-0.479l-0.167-0.531l-0.317-1.177l-0.333-1.333l-0.333-1.448l-0.333-1.552l-0.317-1.625
 	  l-0.333-1.667l-0.667-3.344l-0.317-1.636l-0.983-4.407c-0.1-0.427,0.383-0.823,1.067-0.885
 	  C318.03,253.248,318.663,253.55,318.747,253.977z"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="317.463" y1="254.081" x2="317.463" y2="254.019"/>
-	
+
 	  <line fill="none" stroke="#4D1FB2" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="523.829" y1="355.786" x2="523.829" y2="355.724"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="554.281" y1="254.112" x2="554.281" y2="254.05"/>
-	
+
 	  <line fill="none" stroke="#FF295A" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="754.263" y1="400.353" x2="754.263" y2="400.291"/>
 	<path fill="#FF295A" d="M553.187,254.418l0.958-4.32l0.325-1.641l0.309-1.693l0.325-1.703l0.325-1.693l0.325-1.631l0.309-1.537
 	  l0.325-1.412l0.162-0.644l0.162-0.623l0.162-0.55l0.162-0.499l0.179-0.457l0.162-0.395l0.179-0.343l0.195-0.291
@@ -3374,7 +3374,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  l0.861-0.135l-0.162,0.073l0.309-0.197l-0.146,0.145l0.114-0.135l-0.13,0.177l-0.13,0.249l-0.162,0.353l-0.146,0.405l-0.146,0.478
 	  l-0.162,0.54l-0.162,0.582l-0.162,0.623l-0.309,1.402l-0.325,1.527l-0.309,1.631l-0.325,1.682l-0.325,1.703l-0.309,1.703
 	  l-0.341,1.662l-0.958,4.32c-0.097,0.426-0.715,0.717-1.381,0.654C553.544,255.238,553.089,254.844,553.187,254.418z"/>
-	
+
 	  <path fill="none" stroke="#000000" stroke-width="0.5209" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	  M554.281,254.081h210.299 M317.463,254.081h210.416 M28.218,254.081h263.044"/>
   </g>
@@ -3382,7 +3382,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
   #g-figure-bonus_responsive-_editTS-desktop-img rect, #g-figure-bonus_responsive-_editTS-desktop-img circle, #g-figure-bonus_responsive-_editTS-desktop-img path, #g-figure-bonus_responsive-_editTS-desktop-img line, #g-figure-bonus_responsive-_editTS-desktop-img polyline, #g-figure-bonus_responsive-_editTS-desktop-img polygon { vector-effect: non-scaling-stroke; }
   </style>
   </svg>
-  
+
 	  <div id="g-ai2-1" class="g-Title_copy g-aiAbs g-aiPointText" style="top:9.9951%;margin-top:-12px;left:3.8906%;width:679px;">
 		<p class="g-pstyle0">All core metrics of dynamism have been declining compared to their 1980 levels</p>
 	  </div>
@@ -3421,10 +3421,10 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		<p class="g-pstyle7">Source: U.S. Census Bureau’s Business Dynamics Statistics; U.S. Census Bureau’s Historical Migration and Geographic Mobility Tables</p>
 	  </div>
 	</div>
-  
+
   </div>
-  
-  
+
+
   <!-- Custom JS -->
   <script type="text/javascript">
 	  (function() {
@@ -3464,7 +3464,7 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 		  }
 		  document.addEventListener('DOMContentLoaded', resizer);
 		  // feel free to replace throttle with _.throttle, if available
-		  window.addEventListener('resize', throttle(resizer, 200));        
+		  window.addEventListener('resize', throttle(resizer, 200));
 		  function throttle(func, wait) {
 			  // from underscore.js
 			  var _now = Date.now || function() { return new Date().getTime(); },
@@ -3496,8 +3496,8 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  })();
   </script>
   <!-- End ai2html - 2022-03-16 11:17 -->
-  
-  
+
+
 					</div>
 					<div class="step-content" style="margin: 0 0 24px 0 !important;">To the surprise of many observers, the pandemic has jolted several key indicators of economic dynamism–at least temporarily–back to life, as Americans are switching jobs and starting businesses at rates not seen in decades. Look beyond the current momentum, however, and it remains clear that powerful headwinds are working against a return to the high-churn qualities that once characterized our economy. These headwinds include our demographic transformation into a rapidly aging society with minimal population growth, a drastic slowdown in the velocity with which knowledge moves through the economy, and the sclerotic buildup of vested interests, domineering incumbents, and veto-wielding stakeholders throughout economic and social life. The weight of these forces makes it harder to build, move, switch jobs, start firms, and compete in the United States, and each calls for a forceful policy response. </div>
 					</div>
@@ -3507,15 +3507,15 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
 	  <div style="padding: 40px 0;">
 					<div class="dynamism-body">
 					<div class="dynamism-content">
-					
+
 		<div class="section-header" style="margin: 0 0 24px 0 !important;">The path to renewal</div>
-  
+
 		<div class="step-content" style="margin: 0 0 24px 0 !important;">As we emerge from the COVID-19 pandemic, policymakers confront a high-stakes opportunity to restore U.S. economic dynamism and forge a more optimistic, aspirational future for American workers. Such an agenda should be rooted in three fundamental policy goals that would deliver large and widespread benefits for all Americans at virtually no cost to taxpayers.</div>
 		<react-dynamism-boxes></react-dynamism-boxes>
-  
+
   <div class="step-content">Americans shouldn’t settle for a future of complacency and managed decline. Policy mistakes compounded over decades have contributed heavily to the country’s diminished vitality, but it is not too late to change course. And change is urgently needed, because a dynamic economy is one that offers the most abundant opportunities for workers to thrive, as well as the best chance to ensure that all Americans share in the benefits of economic growth.</div>
 					</div>
-  
+
 					</div>
 	</div>
 	<div class="cta-wrapper">
@@ -3529,32 +3529,32 @@ xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce
   </div>
   </div>
   </div>
-  
+
 		<script>
 		  !function(e){function r(r){for(var n,i,l=r[0],a=r[1],f=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var a=t[l];0!==o[a]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/dynamism/";var l=this["webpackJsonpeig-dynamism"]=this["webpackJsonpeig-dynamism"]||[],a=l.push.bind(l);l.push=r,l=l.slice();for(var f=0;f<l.length;f++)r(l[f]);var p=a;t()}([])
 	  </script>
 	  <script src="/dynamism_assets/static/js/2.363c7ea7.chunk.js"></script>
 	  <script src="/dynamism_assets/static/js/main.662542e6.chunk.js"></script>
-  
+
   <style>
   @media (max-width: 640px) {
 	  #g-figure-bonus_responsive-_editTS-mobile {
 		  min-width: unset !important;
 	  }
-  
+
 	  #g-ai0-1 {
 		  width: auto !important;
 	  }
-  
+
 	  #g-ai0-1 p {
 		  white-space: normal;
 		  height: auto !important;
 	  }
-  
+
 	  #g-ai0-2 {
 		  margin-top: auto !important;
 	  }
-  
+
 	  .scrolly-headline {
 		  padding-top: 11vh!important;
 	  }
@@ -3614,12 +3614,12 @@ react-dynamism-charts .dynamism-content > div:nth-child(3) .stage {
 							</div>
 																													</div>
 	</section>
-						
+
 					</div>  <!-- fusion-row -->
 				</main>  <!-- #main -->
-				
-				
-								
+
+
+
 					<section class="fusion-tb-footer fusion-footer"><div class="fusion-footer-widget-area fusion-widget-area"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: #ffffff;background-position: center center;background-repeat: no-repeat;border-width: 1px 0px 0px 0px;border-color:#f1f1f1;border-style:solid;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_1 1_1 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;"><div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-justify-content-center" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_4 1_4 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;"><div class="fusion-text fusion-text-1 sm-text-align-center" style="text-transform:none;"><p><img decoding="async" class="alignnone size-full" style="padding: 0px;" src="https://eig.org/wp-content/uploads/2025/03/EIG-10YearAnniversaryLogo_440x81.png" alt="" /></p>
 </div></div><style type="text/css">.fusion-body .fusion-builder-nested-column-0{width:25% !important;margin-top : 0px;margin-bottom : 20px;}.fusion-builder-nested-column-0 > .fusion-column-wrapper {padding-top : 0px !important;padding-right : 0px !important;margin-right : 0;padding-bottom : 0px !important;padding-left : 0px !important;margin-left : 0;}@media only screen and (max-width:1024px) {.fusion-body .fusion-builder-nested-column-0{width:25% !important;order : 0;}.fusion-builder-nested-column-0 > .fusion-column-wrapper {margin-right : 0;margin-left : 0;}}@media only screen and (max-width:640px) {.fusion-body .fusion-builder-nested-column-0{width:100% !important;order : 0;}.fusion-builder-nested-column-0 > .fusion-column-wrapper {margin-right : 1.92%;margin-left : 1.92%;}}</style></div><div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-1 fusion_builder_column_inner_1_5 1_5 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;"><div class="fusion-text fusion-text-2 sm-text-align-center center-mobile-text" style="text-transform:none;"><p style="text-align: left;"><strong>CONTACT</strong><br />
 <a href="/cdn-cgi/l/email-protection#2b42454d446b4e424c0544594c"><span class="__cf_email__" data-cfemail="90f9fef6ffd0f5f9f7beffe2f7">[email&#160;protected]</span></a><br />
@@ -3692,15 +3692,15 @@ document.addEventListener("dlm-xhr-modal-data", function(event){if ("undefined" 
 jQuery('body').on('click', function() {
     // Find the modal that is currently visible
     var modal = jQuery('.fusion-modal.video-modal:visible'); // Only get visible modal(s)
-    
+
     // If a modal is found and visible, proceed with the actions
     if (modal.length > 0) {
-        var video = modal.find('iframe'); 
+        var video = modal.find('iframe');
         var leg = video.attr("src");
-        
-        //console.log(modal.attr('class')); 
-        //console.log(leg);  
-        
+
+        //console.log(modal.attr('class'));
+        //console.log(leg);
+
         // Set a timeout to check visibility after 500ms
         setTimeout(function() {
             // Check if the modal is still visible after the delay
@@ -3708,7 +3708,7 @@ jQuery('body').on('click', function() {
                // console.log('Modal is no longer visible');
                 video.attr("src", leg);  // Reset the video src
             }
-        }, 500); 
+        }, 500);
     }
 });
 </script>		</div>

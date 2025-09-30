@@ -9,7 +9,7 @@ By [August Brown](https://www.latimes.com/people/august-brown)
 
 Staff Writer [Contact](mailto:august.brown@latimes.com)
 
-Jan. 23, 2023 5 AM PT 
+Jan. 23, 2023 5 AM PT
 
 [For Subscribers](https://www.latimes.com/topic/for-la-times-subscribers)
 
@@ -36,8 +36,8 @@ If you loathe Ticketmaster for its infamous service fees or the software overloa
 
 Subscribers get exclusive access to this story
 
-We’re offering L.A. Times subscribers special access to our best journalism. Thank you for your support.  
-  
+We’re offering L.A. Times subscribers special access to our best journalism. Thank you for your support.
+
 **[Explore more Subscriber Exclusive content](https://www.latimes.com/topic/for-la-times-subscribers).**
 
 Fans, artists and government regulators have lambasted Ticketmaster for 30 years. But after tech failures shut out millions of fans from the on-sale for Swift’s Eras tour in November, the ticketing firm came under fire from all sides.
@@ -46,7 +46,7 @@ Advertisement
 
 Furious Swifties [filed a class action lawsuit](https://www.latimes.com/entertainment-arts/music/story/2022-12-04/taylor-swift-ticketmaster-lawsuit-eras-tour-presale) against Ticketmaster, joining at least 15 other suits in the last five years against the company and its parent firm, concert promotion giant Live Nation Entertainment, that claimed anticompetitive practices. [Swift herself said](https://www.latimes.com/entertainment-arts/music/story/2022-11-18/taylor-swift-ticketmaster-eras-statement), “I’m not going to make excuses for anyone because we asked [Ticketmaster], multiple times, if they could handle this kind of demand and we were assured they could. … It really pisses me off that a lot of [fans] feel like they went through several bear attacks to get them.”
 
-![A woman in a shiny black outfit sings into a microphone onstage](https://ca-times.brightspotcdn.com/dims4/default/f3a54f0/2147483647/strip/true/crop/1521x1034+0+0/resize/2000x1360!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa8%2Fa6%2F34022b2947bea0acbeae7aaab710%2Fmusic-taylor-swift-31226.jpg) 
+![A woman in a shiny black outfit sings into a microphone onstage](https://ca-times.brightspotcdn.com/dims4/default/f3a54f0/2147483647/strip/true/crop/1521x1034+0+0/resize/2000x1360!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa8%2Fa6%2F34022b2947bea0acbeae7aaab710%2Fmusic-taylor-swift-31226.jpg)
 
 Taylor Swift performs during her Reputation tour in 2018.
 
@@ -120,7 +120,7 @@ In 1995, Pearl Jam embarked on a tour using a new ticketing firm, ETM Entertainm
 
 “Pearl Jam walked into something they didn’t understand,” Rosen said. “I told their manager Kelly Curtis, ‘Your tour is going to be a mess, you’re going to be embarrassed. They said, ‘No, we’re going to change the industry,’ I said fine, you spit in my hand like that, you’re responsible when your tour blows up.”
 
-![Two men at a table with a microphone, testifying to Congress](https://ca-times.brightspotcdn.com/dims4/default/5300cb2/2147483647/strip/true/crop/3150x2079+0+0/resize/2000x1320!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F29%2Ffd%2F2bd924784eb8bfdf4457136f5651%2Fap770035908269.jpg) 
+![Two men at a table with a microphone, testifying to Congress](https://ca-times.brightspotcdn.com/dims4/default/5300cb2/2147483647/strip/true/crop/3150x2079+0+0/resize/2000x1320!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F29%2Ffd%2F2bd924784eb8bfdf4457136f5651%2Fap770035908269.jpg)
 
 Pearl Jam’s Jeff Ament, left, and Stone Gossard testify before a House Government Operations subcommittee on Capitol Hill in Washington, D.C., on June 30, 1994.
 
@@ -146,7 +146,7 @@ The “service fee” is intentionally kept separate from the list price for two
 
 “The ticketing company does nothing whatsoever that the act doesn’t tell them to do,” said Bob Lefsetz, a longtime music industry analyst. “Fees were created to create another pile of money. Ticketmaster has been paid to take the heat over that for forever, so the public will never hate the act.”
 
-![A man plays a guitar onstage with fans raising their arms in front of him](https://ca-times.brightspotcdn.com/dims4/default/cec7cd0/2147483647/strip/true/crop/3420x2404+0+0/resize/2000x1406!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff7%2Fb7%2F45592bc04b9199d9d74ccbc52334%2Fgettyimages-598846190.jpg) 
+![A man plays a guitar onstage with fans raising their arms in front of him](https://ca-times.brightspotcdn.com/dims4/default/cec7cd0/2147483647/strip/true/crop/3420x2404+0+0/resize/2000x1406!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff7%2Fb7%2F45592bc04b9199d9d74ccbc52334%2Fgettyimages-598846190.jpg)
 
 Bruce Springsteen performing in 2016.
 
@@ -256,7 +256,7 @@ Regulators could dilute Ticketmaster’s power by banning exclusive contracts fo
 
 Lefsetz agreed that ending exclusive deals is one obvious fix. “But say I own a building,” he adds. “Can the government just choose to take away that guaranteed revenue stream from me?”
 
-![A country singer performs onstage with an acoustic guitar](https://ca-times.brightspotcdn.com/dims4/default/b6600ec/2147483647/strip/true/crop/8192x5464+0+0/resize/2000x1334!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa1%2F07%2F8b076a8b4dc29873f6f427acb547%2F1155125-et-palomino-festival-582.jpg) 
+![A country singer performs onstage with an acoustic guitar](https://ca-times.brightspotcdn.com/dims4/default/b6600ec/2147483647/strip/true/crop/8192x5464+0+0/resize/2000x1334!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa1%2F07%2F8b076a8b4dc29873f6f427acb547%2F1155125-et-palomino-festival-582.jpg)
 
 Alt-country troubadour Zach Bryan titled his latest live album “All My Homies Hate Ticketmaster.”
 

@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <span class="posted-on"><a href="https://thewaltdisneycompany.com/disney-to-acquire-pixar/" rel="bookmark"><time class="entry-date published" datetime="2006-01-24T08:00:18-08:00">January 24, 2006</time><time class="updated" datetime="2018-04-27T10:38:48-07:00">April 27, 2018</time></a></span>                </div><!-- .entry-meta -->
 
 <h1 class="entry-title">Disney To Acquire Pixar</h1>
-                
+
             </header><!-- .entry-header -->
 
 <div class="entry-content">
@@ -285,12 +285,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p>For Additional Information: </p>
 <p> This material is not a substitute for the prospectus/proxy statement Disney and Pixar will file with the Securities and Exchange Commission. Investors are urged to read the prospectus/proxy statement which will contain important information, including detailed risk factors, when it becomes available. The prospectus/proxy statement and other documents which will be filed by Disney and Pixar with the Securities and Exchange Commission will be available free of charge at the SEC&rsquo;s website, www.sec.gov, or by directing a request when such a filing is made to The Walt Disney Company, 500 South Buena Vista Street, Burbank, CA 91521-9722, Attention: Shareholder Services or by directing a request when such a filing is made to Pixar, 1200 Park Avenue, Emeryville, CA 94608.</p>
 <p>Pixar, its directors, and certain of its executive officers may be considered participants in the solicitation of proxies in connection with the proposed transactions. Information about the directors and executive officers of Pixar and their ownership of Pixar stock is set forth in the proxy statement for Pixar&rsquo;s 2005 annual meeting of shareholders. Investors may obtain additional information regarding the interests of such participants by reading the prospectus/proxy statement when it becomes available.</p>
-                
+
                                     <div class="entry-meta">
                         <span class="read-more">Read More About</span>
                         <span class="cat-links"><a href="https://thewaltdisneycompany.com/press-releases/" rel="category tag">Press Releases</a></span>                    </div>
-                
-                
+
+
                             </div><!-- .entry-content -->
         </div>
     </section>
@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         Follow Us On                    </span>
                 <ul id="menu-social-navigation" class="menu"><li id="menu-item-21978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21978"><a href="https://facebook.com/thewaltdisneycompany"><span class="screen-reader-text">Facebook</span></a></li>
 </ul>            </nav><!-- .social-navigation -->
-            
+
         <nav id="footer-navigation" class="footer-navigation" role="navigation">
             <ul id="menu-footer" class="menu"><li id="menu-item-330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-330"><a target="_blank" rel="noopener" href="https://disneytermsofuse.com/">Terms of Use</a></li>
 <li id="menu-item-331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331"><a target="_blank" rel="noopener" href="https://disneyprivacycenter.com/">Privacy Policy</a></li>

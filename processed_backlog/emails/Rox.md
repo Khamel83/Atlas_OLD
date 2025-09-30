@@ -13,11 +13,11 @@ There’s only a small handful of tools I use every time I write a Deep Dive.  
 If I’m writing about, say, an AI application for revenue teams, I spend hours on Tegus [ https://substack.com/redirect/bba85f4b-c1ef-49ef-b36c-7e1314051bf6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] reading interviews on its market and competitors. It would be longer, but Tegus now summarizes and bullets each transcript right at the top of each one. 
 Tegus [ https://substack.com/redirect/90bf6798-1800-4129-b898-6de7dfa4d2e0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is full of transcripts of conversations with insiders and executives in any industry you can think of. It boasts 75% of the world’s private market transcripts. If you want to learn about AI, energy, space, biotech, name it, from the people who actually work and buy in those markets, Tegus [ https://substack.com/redirect/90bf6798-1800-4129-b898-6de7dfa4d2e0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the spot. 
 With Tegus [ https://substack.com/redirect/90bf6798-1800-4129-b898-6de7dfa4d2e0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you gain access to the pulse of the private markets – with perspectives and detailed financials you won’t find anywhere else. There’s a reason the world’s best private market investors use Tegus, and as a smart, curious Not Boring reader, you can get access to the Tegus platform today:
-Hi friends 👋 , 
-Happy Tuesday. And Happy Thanksgiving to my fellow Americans. 
-It’s a short week so I’ll keep the intro brief: I write Deep Dives on specific companies to learn where the world is going from the smartest people willing to teach me. The most fun ones change my mind. By that measure, this Deep Dive on Rox was incredibly fun: I think AI applications might actually be able to dig moats, as just one example. 
-I hope you learn as much reading it as I did writing it, and that it gives you plenty to chew on while you’re not chewing on turkey. 
-Let’s get to it. 
+Hi friends 👋 ,
+Happy Tuesday. And Happy Thanksgiving to my fellow Americans.
+It’s a short week so I’ll keep the intro brief: I write Deep Dives on specific companies to learn where the world is going from the smartest people willing to teach me. The most fun ones change my mind. By that measure, this Deep Dive on Rox was incredibly fun: I think AI applications might actually be able to dig moats, as just one example.
+I hope you learn as much reading it as I did writing it, and that it gives you plenty to chew on while you’re not chewing on turkey.
+Let’s get to it.
 Rox
 To start, I need to clear the air: 
 I did not expect to be writing a Deep Dive on “an AI-native Salesforce.” 
@@ -282,8 +282,8 @@ What became clear to me early in my conversations with Ishan is that Rox is a ma
 What’s become clear to me writing this piece is that those same lessons might apply to people, too. 
 A world full of highly capable agents is coming. The best will get better. But you know it’s coming. You can make your own luck if you take the long view and double-down on your unique capabilities today in anticipation of their future amplification. 
 Pretty heady stuff for a piece on boring CRM software!
-Thanks to Claude for editing and to Ishan, Eric, Max, Kiran, and everyone else who shared their insights for this piece! 
-That’s all for today. Have a great Thanksgiving. We’ll be back in your inbox with a Weekly Dose on Friday. 
+Thanks to Claude for editing and to Ishan, Eric, Max, Kiran, and everyone else who shared their insights for this piece!
+That’s all for today. Have a great Thanksgiving. We’ll be back in your inbox with a Weekly Dose on Friday.
 Thanks for reading,
 Packy
 

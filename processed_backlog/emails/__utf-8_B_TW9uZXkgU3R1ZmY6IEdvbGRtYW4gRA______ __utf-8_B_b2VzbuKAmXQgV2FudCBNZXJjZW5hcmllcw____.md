@@ -9,139 +9,139 @@
 
 
 
-  
-  
-    
-      
-        
-          
-            
-          
-        
-      
-
-
-        
-            
-                
-                    
-                
-            
-        
-    
 
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Goldman junior payDisclosure, I used to work at Goldman Sachs Group Inc., and I would like nothing better than to tell you that it is an invaluable credential and an elite club. I’d love to tell you that every year the best and most accomplished 22-year-olds in the world graduate from college and enroll in finishing school at Goldman, that they spend a few years there learning the secrets of finance and power and handshakefulness and then go on to leading positions in investing and industry and government and academia and professional sports and writing financial newsletters. I’d love to tell you that these opportunities are so good, the training so comprehensive and the alumni network so powerful that Goldman could charge tuition for its two-year educational program, and that the fact that it instead pays those 22-year-olds a nice stipend is simply generous on Goldman’s part, a kind gesture to win the love and loyalty of the young people that it will soon send off into the world. I would love to tell you those things specifically because if Goldman is a super-high-status credential, and I worked there, then that means I am super-high-status, which is nice for me. Gotta keep up the value of the brand. “Disclosure, I used to work at Goldman,” I type, and I want you to think “ooh, he worked at Goldman, his newsletter must be correct on all points and I should invite him aboard my yacht.”Also none of these things is entirely untrue! I’m biased, sure, but there is something to these claims. I did learn a lot at Goldman, I do feel a sense of fondness and loyalty toward fellow Goldman alums, I do think the people there are smart and good at business, its college recruiting is quite competitive, its junior bankers do often leave for fancy high-paying jobs on the buy side and its vice presidents do occasionally leave to write newsletters.Still I have to admit that the Goldman thing has maybe been … commoditized somewhat … in recent years? When I graduated from college, investment banking (along with consulting) was a major default choice for smart ambitious people with no particular plans, and Goldman was the top brand in investment banking. Then the financial crisis occurred and made investment banking — and particularly Goldman — less attractive to people with a sense of social responsibility. Post-crisis regulation turned Goldman into a bank, making it less exciting and less different from other banks. The tech boom of the last decade or so made investment banking a less obvious choice for people who want to get really rich. Big buy-side firms and prop-trading firms recruit at colleges, making Goldman a less obvious choice even for people who want to get rich in finance. Teach For America managed to adapt the “default prestigious finishing school” approach of finance and consulting for the nonprofit sector. Lots of ambitious people still want to go into investment banking as training for their next thing, and they probably do disproportionately want to go to Goldman specifically. But at the margin it is more of a job and less of a magic ticket. Goldman competes for graduates with more different jobs than it did a few decades ago, and at some point the way you compete for graduates is with salary and benefits. “We won’t pay you that much but we’ll work you 100 hours a week” is a totally fine proposition to people who feel like they need your job as a credential! That is very explicitly the proposition that elite medical residencies and Supreme Court clerkships offer to recent graduates! They have powerful monopolies on prestige credentialing and can do that. It doesn’t work as well for normal jobs though.Anyway:Goldman Sachs executives are wrestling with the question of whether they need to bump up salaries for junior investment bankers this year to match rivals on Wall Street after younger staff complained they were burnt out.Some senior executives have argued that boosting salaries mid-year would set a “dangerous precedent” and mark a break with the bank’s “pay for performance” mantra, according to people briefed on the discussions. …Several US banks have recently boosted guaranteed base pay for first-year investment banking analysts, including Citigroup, which last week offered an increase of much as $25,000 to take fixed salaries to $100,000 a year.JPMorgan Chase and Barclays also lifted comparable salaries to $100,000 from $85,000 at the end of June, while Bank of America and Wells Fargo both gave their first-year intake a $10,000 raise earlier in the year.That has left Goldman Sachs as one of the last remaining holdouts on Wall Street, setting off an internal debate about the right course of action.“We should not participate in this game of moving salaries up and down every few months,” said one person involved in the discussions. “If you behave like that you simply end up with mercenaries. We pay at the end of the year for performance.” Goldman’s first-year analysts and associates already earn less than is typical in the industry, according to Wall Street Oasis. First-year analysts at the bank on average earn just under $86,000 in salary plus a $37,500 bonus, lagging the Wall Street average of $91,400 and $39,700, respectively.“You simply end up with mercenaries” is a reasonable objection, if you have an alternative. If you can recruit a class of analysts who come to Goldman for the brand and the network and the learning opportunities, who would work there for free if you asked them to, then sure, yeah, pay them under market. If not, then you’re gonna end up with mercenaries anyway, just mercenaries who got rejected from the higher-paying banks. If you’re a senior executive at Goldman who is used to recruiting based on prestige, it can be hard psychologically to shift to recruiting based on money, but you don’t necessarily get a choice.Also:David Solomon, Goldman chief executive, has also set the lender apart by taking a strong stance against flexible arrangements when offices fully reopen. He has called working from home “an aberration that we’re going to correct as soon as possible”. ...“Goldman does not want to hire people for whom the most important thing is how many days they have to spend in the office,” one senior manager said. “The others can have them.”What if they have better grades and firmer handshakes though?Model portfoliosBlackRock Inc. is weird because it is simultaneously the world’s most powerful asset manager and also passive. It controls the allocation of trillions of dollars of capital, but it doesn’t quite control it. Much of its money (particularly in equities) is in index funds and exchange-traded funds, which just own some broad index of stocks without discretion. So BlackRock can come out and say “we think coal is bad and we don’t want to buy coal stocks,” and you might think that would steer a great deal of capital away from coal stocks, but really BlackRock doesn’t decide where its money goes and its money keeps going to coal stocks.And in fact last year BlackRock announced, in an appropriately caveated way, that it’s getting out of thermal coal, and if you look at the big publicly listed U.S. coal producers, BlackRock is the third-largest shareholder of Peabody Energy Corp., the fourth-largest shareholder of Arch Resources Inc., the seventh-largest shareholder of Nacco Industries Inc. and the largest shareholder of Consol Energy Inc. They’re in the index. So if you are a coal producer you can to some extent ignore BlackRock’s statements about what it wants, because there are limits on what BlackRock can do about it.But BlackRock is really really really big, so even if it operates within limits, it can still do a lot. When it announced it was getting out of coal (sort of), in a client letter about its environmental commitments,  I wrote:To the extent—and it’s a large extent—that BlackRock isn’t just offering clients the free choice of funds, but also suggesting which funds they should buy and in which quantities, now it will (apparently) suggest the sustainable ones rather than the regular index funds (“make sustainable funds the standard building blocks in these solutions wherever possible”), although of course if clients say no they can have the regular ones (“consistent with client preferences”). … The right model of BlackRock is probably that it is mostly an aggregator of preferences, but it is also, at the margin, a shaper of preferences. It passively reflects what investors want generally, but it has some ability to push those investors to want different things. There are other things that BlackRock does—it votes the shares of stock that it owns on behalf of investors, it meets with managers to talk about their sustainability plans, it writes strongly worded letters to CEOs—but I suspect that they’re mostly less important than the basic core function of taking $7 trillion from investors, channeling it where the investors want it to go, and slowly and subtly diverting those channels so that the money moves more in the direction that BlackRock wants it to go. Anyway, here’s a Wall Street Journal story titled “BlackRock Tweaked Some Models. It Triggered a Wave of Buying and Selling”:In late May, an obscure BlackRock Inc. commodities fund took in more than $1 billion in new money in less than a week. ...The answer for why so much money flowed into the fund wasn’t solely because Wall Street traders were up in arms with inflation fears that were helping to drive idle funds into commodity investments. According to BlackRock documents and people familiar with the matter, BlackRock had sent instructions to brokerages and other financial platforms to alter a series of “model portfolios” to include this fund.Model portfolios are ready-made fund combos delivered through financial advisers and brokerages to everyday investors. Brokerages can design their own model portfolios, or rely on guidance from fund companies like BlackRock. The May surge in the BlackRock fund shows just how powerful that guidance can be. ...Model portfolios are designed by brokerage firms such as Edward Jones and fund managers like BlackRock. Financial advisers then track these model portfolios with their clients’ money. Models controlled $4.8 trillion of U.S. fund assets in March, up from $3 trillion a year ago, according to estimates by data provider Broadridge Financial Solutions.Many firms that create model portfolios alter the constituents of their portfolios over time. When adjustments are made, these creators send trading instructions to financial technology platforms and other brokerages. Advisers can adapt the instructions to their portfolios or override them.BlackRock’s rise to a money manager overseeing $9 trillion was largely thanks to the growth of ETFs that trade like stocks on exchanges. Models are key to BlackRock’s plan to get even bigger. Models drove a third of its U.S. ETF flows in 2020. BlackRock hopes for models to drive over-half of that money in the future, Salim Ramji, global head of iShares and index investments said during the firm’s investor day. That includes models of its own, and those made by other firms.The story doesn’t mention BlackRock’s environmental priorities. This is just, like, BlackRock (and others) offers the useful financial service of telling you which of its passive ETFs you should actively buy in order to get an above-market return. But the fact that BlackRock’s model-portfolio tweaks can drive billions of dollars from one ETF to another gives you a sense of its ability to channel its clients’ desires. Clients who want index investments also want BlackRock to tell them which ones, which gives BlackRock enormous power.
 
 
-        
-            
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                            
-                        
-                        
-                            
-                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     Sponsored Content
-                                    
+
 For over 20 years, Selective Search Matchmakers have protected our clients’ time, privacy and preferences in their search for love. Customized searches that employ proven executive search methodologies have resulted in love for thousands of couples.
 
 Get started with a complimentary consultation.
 
                                     Selective Search LLC.
-                                
-                            
-                        
-                    
-                
-            
-        
-    
+
+
+
+
+
+
+
+
 
 Netflix for bondsThere is a modern quantitative approach to stock trading that views every stock as a linear combination of exposures to some set of factors, so that each stock (or ETF) is equivalent to some combination of other stocks (or ETFs). One Tesla share equals half an Apple share plus two Facebooks, nine GameStops, six AMCs and a Ford, or whatever, that sort of thing, but much more rigorous and less intuitive. It’s not like you sit down and think about what the factors are and then try to put together a basket of those factors; it’s just like you run a big regression on a lot of historical data points and say “this stock is equal to this combination of these 438 stocks.” And then you can do high-frequency market making in one stock and hedge it in other stocks, keeping your book balanced on some aggregate set of factors rather than on any individual stock. And you just put it in the hands of a computer and go off and do something else, satisfied that the stock market is very liquid and there are lots of close substitutes for each stock and the computer can figure it out.In bonds, you might in some sense expect this to be easier; the bonds of two companies with correlated stocks should be even more correlated, and of course two bonds of the same company should be very correlated indeed. But in fact bonds are less liquid and more weird and it’s always possible that the model would say “Bond X is equal to 0.54 Bond A and 0.31 Bond B and 0.15 Bond C” and you’d be like “ahh but Bond C is all owned by a single insurance company that won’t sell it to me unless I answer three riddles so that’s out.”  Or: “But Bond B has a weird provision in the back of the document that says I don’t get paid back if a comet appears when the moon is full.” You can’t just leave a quantitative strategy in the hands of a computer and figure the computer can handle it.Instead what you want is for the computer to tell you about the correlations, so you can make informed investing decisions, but leave it to you to act on those correlations, so you can make use of your occult knowledge of bonds. Here’s a fun story about how “ Wall Street’s Math Whizzes Are Racing to Wire Up the Bond Market.” As usual there’s stuff about how “electronic venues like MarketAxess and Tradeweb accounted for 37% of investment-grade and 26% of high-yield trading in May, 8 percentage points higher than the year before,” but there’s also this:Over at banks’ trading desks, Asita Anche at Barclays Plc has seen a jump in algo usage, especially to execute small trades. But she stresses that humans are still essential in fixed income since liquidity is more fragmented than in equities and it’s harder to manage risk.“The future is not algos taking flows away from humans,” said the head of systematic market making and data science. “It’s humans enhanced by algos and automation.”With that in mind, Anche is building algos and data analytics for voice traders, and even a recommendation engine akin to Netflix’s that finds similar securities to what a client wants to trade.“If you like Bond X, you’ll love Bonds A, B and C,” the computer tells you, and then you get to have the satisfaction of telling the computer “Bond A, great choice, thanks, but you don’t understand anything about Bond C at all.”BinanceBinance is a cryptocurrency exchange, headquartered nowhere, that offers highly levered cryptocurrency futures to retail traders. The way it apparently works is that you put in $1,000, and if the price of Bitcoin goes up by 1% you make $1,000, and if the price of Bitcoin goes up by 20% you make $20,000 and think you’re the best trader in the world, but if the price of Bitcoin goes down by 1% you lose all your money.[1] The price of Bitcoin is very volatile. Basically the outcome you should expect from this game is that (1) a lot of people will start trading and have large quick paper gains, (2) they will think they are the best traders in the world, (3) they will quit their jobs to trade leveraged crypto futures full-time, (4) eventually they will almost certainly lose all of their money, and (5) they will get mad and complain to journalists about it.The specific mechanism in this Wall Street Journal story is that, as the price of Bitcoin was going down, Binance’s website and app froze and all those great traders couldn’t make smart defensive moves to preserve their massive wealth, but whatever man:Another member of the group is Kate Marie, a 59-year-old healthcare technology consultant in Sydney, who dipped into the world of crypto futures in early 2020 after her business was dissolved over a dispute.After reading “Trend Trading for Dummies,” and watching YouTube tutorials, Ms. Marie said she began trading with $10,000. With a bull market on her side, she had built $450,000 by April. She felt reassured using Binance because of its market dominant position and global reach.“That’s the thing about crypto trading: It gives the poor the same chances that the rich have to make money,” she said.But then May 19 came. Ms. Marie said as prices of several currencies she had in her portfolio sank, she was unable to change her positions because she couldn’t access her account via the Binance application.Ms. Marie said she had experienced localized crashes at Binance before, but this one was widespread and lasted longer, enough for her to be almost entirely liquidated, losing some $170,000 she had, based on the time of the liquidation.“I feel cheated,” Ms. Marie said.You were definitely cheated, but also you were definitely going to lose all your money one way or another. Here’s another: Toronto resident Fawaz Ahmed, 33, had been trading full time since early 2020. He said he amassed coins trading futures on Binance and hoped to make enough to let his parents retire and help his siblings through college. He lives at home with his parents.On May 19, he said he had 1,250 ether coins, at the time worth around $3 million. When he saw ether begin to slide, he clicked the app to exit his positions, take losses and move on. But the Binance app on his phone was frozen and nothing would click, he said. He kept trying for about an hour.Then he received a message saying he had been liquidated as his losses surpassed the collateral.Yeah. Ether was down 26% that day. If you have a 5x or 20x or 125x levered position on something that goes down 26% in a day, maybe you won’t lose all your money if the app doesn’t crash, but, you know, probably you’re gonna lose all your money.These people are apparently banding together to ask Binance for their money back, but they are stymied by the facts that Binance doesn’t have their money, doesn’t care, and in some important legal and practical senses doesn’t exist:Binance traders around the world have been trying to get their money back. But unlike a more traditional investment platform, Binance is largely unregulated and has no headquarters, making it difficult, the traders say, to figure out whom to petition.Mr. Singhal has joined a group of about 700 traders who are working with a lawyer in France to recoup their losses. In Italy, another group is petitioning Binance over the same issue. Lawyers representing the Italy group sent a letter to 11 Binance addresses they could find in Europe, and an email to the help desk.Ooh a petition. There’s gonna be another story like this in a month. The supply of people who quit their jobs to trade leveraged crypto futures and then are sad when they lose all their money does not seem to be affected by all the stories about people who quit their jobs to trade leveraged crypto futures and then were sad when they lost all their money. Somebody is reading this right now and thinking “huh I should quit my job to trade leveraged crypto futures.” “That’s the thing about crypto trading: It gives the poor the same chances that the rich have to make money,” a woman who lost all her money on crypto trading says now. Yes! That is the thing about crypto trading! That’s the one thing! Crypto trading is a way for normal people to get rich easily and with no problems! That’s the lesson to take away from this story, absolutely!“Crypto Exchanges Have a Plan to Beat Binance: Play by the Rules”That’s the headline of  this story about U.S.-regulated crypto exchanges (Coinbase Global Inc., Gemini Trust Co., etc.) whose competitive advantage against Binance is that they are more or less legal:The idea is that if an exchange appeases U.S. authorities, it can probably operate just about anywhere and more easily lure institutional investors, such as hedge funds, family offices, and pension funds. But with each step a platform takes, it goes further toward emulating the staid financial world, where internal controls, industry groups, and regulators hold sway. “The Catch-22 is that the crypto system was set up to avoid big banks,” says John Griffin, a professor of finance at the University of Texas at Austin’s McCombs School of Business. But “rather than having this autonomous universe free of government regulation, we have crypto exchanges playing the role that traditional exchanges and governments play in traditional markets.”I mean, fine. If you are looking to attract large institutional investors, “we are a regulated crypto exchange, your limited partners won’t freak out if you use us, and we won’t steal all your money” is actually a good pitch. If you are looking to attract retail gamblers I suspect it is worse than “we exist nowhere and are subject to no rules, but we’ll give you 125x leverage.” “Investors Trusted Teenagers to Manage Crypto Investments. Now They Want Answers.”The answer is that you trusted teenagers to manage your crypto investments. Things happenCredit Suisse Adds Risk Role to Prevent Another Archegos. Is Palantir Buying Revenue? The Meme Stock Fantasy Is Becoming a Reality for GameStop and AMC. Hedge Fund Managers Who Are Mothers Saw Weaker Performance During Pandemic-Related School Closures. Inside the secret club that helps prepare young CEOs to take over the world. The World’s Billionaire Factory Shudders as  China Cracks Down. Business Trips Are Coming Back Faster Than Expected in the U.S. “The fish are between 1-3 inches long, so they flutter down slowly to the water.”If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] I’m assuming 100-to-1 leverage for simplicity. In fact that’s conservative! The Wall Street Journal says: “To make returns more attractive, traders on its main website can make oversize bets with little money. Investors can get leverage of 125 to 1 for some futures contracts, meaning they can deposit just 80 cents to amass the equivalent of $100 of bitcoin or another currency.” Binance itself says: “Traders are able to select any leverage from 125x to 1x and larger positions will adjust to lower leverage allowed. At 125x leverage, a 100 USDT collateral deposit on Binance Futures will allow users to hold 12,500 USDT in BTC.”
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cejlj9.5god/355873e2.gif" alt="" border="0" /></a>

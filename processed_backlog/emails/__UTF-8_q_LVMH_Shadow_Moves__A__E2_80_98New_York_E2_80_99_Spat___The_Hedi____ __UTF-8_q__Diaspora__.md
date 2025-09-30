@@ -40,7 +40,7 @@ Apple Podcasts ( https://podcasts.apple.com/us/podcast/fashion-people/id17415890
 Mentioned in this issue: LVMH, Tiffany, Anthony Ledru, Louis Vuitton, Pharrell Williams, Stella McCartney, Maria Grazia Chiuri, Dior, Chanel, Schiaparelli, Lanvin, Jonathan
 Anderson, Fendi, Kim Jones, Phoebe Philo, Kering, Jack McCollough, Lazaro Hernandez, Loewe, Michael Burke, Sidney Toledano, Celine, Guillaume Henry, Alexandre Arnault, Christopher Kilaniotis, Cartier, and much, much more…  
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -124,6 +124,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=IC+Exclusi
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUuVXvF3FvrYokg80Ubpk=&utm_campaign=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

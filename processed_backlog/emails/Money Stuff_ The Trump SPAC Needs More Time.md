@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.Digital World Acquisition Corp. is a special-purpose acquisit
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       TMTG / DWAC
-    
-  
+
+
 
 Digital World Acquisition Corp. is a special-purpose acquisition company that has   signed a deal to merge with Trump Media & Technology Group Corp., which runs Donald Trump’s “Truth Social” network, and take it public. Like most SPACs, DWAC has a time limit to complete its deal: Its corporate charter says that, if it has not completed a merger by Sept. 8 — next Thursday — it has to close up shop and return its money to shareholders. It is definitely not going to complete its merger with TMTG by next Thursday. (The main holdup is that the US Securities and Exchange Commission needs to review and sign off on the  proxy statement for that merger; the SEC has  various questions.) Actually DWAC can  extend that deadline by six months, if its sponsors put up some more money, but six months probably isn’t enough either. So DWAC has  asked its shareholders for a longer extension: It has asked them to vote to approve an amendment to its charter to extend the deadline by a year to Sept. 8, 2023.
   [1]
@@ -89,63 +89,63 @@ I have no idea if DWAC will have any trouble getting its vote, but I will say th
 Patrick Orlando, CEO of Digital World, stated, “This is an important opportunity for stockholders to have their vote heard and counted. I believe we have some of the most passionate stockholders of any public company and am excited to see how many not only hold DWAC shares but will make the effort to vote and have their vote counted. DWAC continues to believe that TMTG, our proposed business combination target, holds wonderful potential for our investors. DWAC will have more time to complete a merger if DWAC stockholders vote “FOR” this Extension. We strongly feel the Extension is the right action for our stockholders, to provide more time to close a business combination.”
 If you are a meme-stock company then in some important sense you probably do have “some of the most passionate stockholders of any public company,” but not necessarily in the sense that they vote. And right now, DWAC doesn’t need enthusiastic Truth Social posts or wild stock-price rallies. It needs votes.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       One touch
-    
-  
+
+
 
 In October 2017, Neil Phillips, the founder of   macro hedge fund Glen Point Capital, made a macro bet on the South African rand (generally referred to as ZAR). The rand was trading at about 14 to the US dollar, and Phillips thought it would go up. (That is, the dollar would fall against the rand: A lower number means a stronger rand.) He made a high-leverage, risky bet on that thesis: He went to a bank and bought a one-touch barrier option, just a simple binary bet that would pay his fund $20 million if the US dollar bought fewer than 12.5 rand at any point — even for a second — between Oct. 30, 2017 and Jan. 2, 2018, and zero if it did not. I don’t know how much he paid for this option, though casually using a Bloomberg model with historical data suggests it was worth maybe about $2 million. You get 10 times your money if the rand strengthens dramatically; you lose your bet if it doesn’t.
 He was right! On Dec. 17, Cyril Ramaphosa was elected as the new leader of South Africa’s ruling African National Congress party,  which was seen as “a victory for reformers in the A.N.C., which wants to root out corruption and woo back foreign investors.” And foreign investors were wooed: The rand traded at about 13.6 to the dollar a week before Ramaphosa’s election; it was at about 12.6 a week after.
@@ -170,20 +170,20 @@ Anyway the indictment quotes an investor letter that Phillips sent in January, b
 The indictment also says that “On or about December 26, 2017, in the hours that followed the completion of the above-described USD/ZAR FX spot trading … the USD/ZAR exchange rate once again increased and returned to levels above the 12.50 barrier rate and did not go below the rate of 12.50 for the remainder of the day.” But Bloomberg data shows it trading at 12.2684 the next day, Dec. 27, and in fact trading below 12.50 for the next few months. Even without the alleged manipulation, the barrier option would have paid off! The story in this complaint seems to be that he made the right macro call, the market traded in his direction, but it hadn’t quite gotten there and time was running out. So he allegedly got nervous and hurried it along, unnecessarily, as it turns out.
 People assume that stuff like this happens all the time. There are round numbers in financial markets, and it is widely assumed that there are automatic trades that are triggered at those round numbers. Some big fund has a stop-loss order saying that if this stock trades below $100, they will sell the stock. Some hedge fund has a margin loan against that stock and will get liquidated it if falls below $50. Some big bank has written some barrier options saying that if this currency trades above 12.50, it will pay $20 million. Etc. If a price gets close to the round number, somebody can make a lot of money by trading a bit more of it, pushing the price across the round number and triggering the stop orders or barrier options or margin calls or other automatic trades. And so a certain amount of market lore, technical analysis, conspiracy theories or just general explanations for daily price action are based on this sort of theory, the idea that someone was targeting some specific level in order to trigger a profit. But you don’t see a ton of actual cases brought. You’re not supposed to put it in writing!
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Anti-ESG
-    
-  
+
+
 
 There are   various substantive theories of environmental, social and governance investing, theories of what it is supposed to do. Some of those theories are about maximizing financial returns, while others are about achieving environmental, social and governance goals with your investment dollars.
 But there is also just a marketing theory of ESG, which is that investors want ESG investments (for some substantive reason or combination of reasons) and are willing to pay higher fees for them. So if you are a big institutional investment manager, you should slap an “ESG” name on your regular old investment funds, to attract more clients and charge them more. This seems to be a big business, to the point that regulators and investors   complain a lot about “greenwashing,” where an investment manager pretends that a regular fund is an ESG fund for marketing reasons.
@@ -197,11 +197,11 @@ A Zelig of the conference circuit, he’s cultivating the red-state governors, t
 
 You can, and I’m sure Ramaswamy does, have substantive theories of anti-ESG. Just as with ESG, these theories might be about maximizing financial returns (“ESG trades returns for wokeness, and I will focus only on returns”) or about achieving political or other goals (“ESG hurts coal miners and I want to help them”). But there is also just an obvious marketing theory of anti-ESG, which is that a bunch of huge public pensions are looking for anti-ESG places to put their money, and if you can meet that demand then that’s a good business.
 
-  
-    
+
+
       D.C. vs. Saylor
-    
-  
+
+
 
 My understanding is that geolocation data is valuable. If you can track where millions of people are every day, you can turn that knowledge into money, by serving them relevant ads or whatever. This implies that knowing where one person is every day is valuable, though not necessarily very valuable; there are only so many ads you can serve that one person. But if that person is a billionaire then, sure, you’ve got something there. There are monetization opportunities.
 And there does seem to be a weird niche business model of, like, Knowing Where a Billionaire Is Every Day. We   talked the other day about the college student who is in the business of tracking Elon Musk’s private jet; he does not seem to have figured out monetization yet, but he’s got some promising ideas. 
@@ -224,15 +224,15 @@ And here is  the D.C. attorney general’s complaint, which includes citations t
 On September 9, 2012, Defendant Saylor posted to his Facebook account a photograph of his residence at 3030 K Street NW, apparently taken from the Potomac while aboard one of his yachts. The post pinned Saylor’s location in “Washington, D.C.” and tagged James Augustus Seymour Van Wynen, the architect overseeing the penthouse renovations. The caption read, “Gazing wistfully at my future home while I wait for James to crack the whip on the contractors and herd the cats. I wonder if Tony Stark would be so patient….”
 Don’t say that it’s your “future home” if you do not intend to be domiciled there for tax reasons, is I guess the conclusion here. Also, though, there are a lot of people who make a lot of money and who have   moved to Florida for tax reasons in recent years. If you tracked 100 of them, is it possible that you’d find one or two who actually spend 183 days a year in New York or California or some other higher-tax jurisdiction? Is this a business model that can scale up beyond Saylor?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Jefferies Tells Staff to   Come Back to Office on Consistent Basis. Review of  Federal Home-Loan Banks Is Planned. JPMorgan Frankfurt Offices Raided as Part of   Tax Probe. Hedge Funds’ Hopes to Make Quick Buck on   Russia Default Fade. Russia Mulls Big Purchases of ‘Friendly’ FX to   Stem Ruble’s Rise. NFT Case Promises to Test Boundaries of  Insider-Trading Laws. Alibaba and Yum China first in line for  audit checks by US regulator. Twitter Launches an   Edit Button for Paying Subscribers. Lukoil Chairman Ravil Maganov Dies After   Falling From Hospital Window. “RadioShack’s Twitter account, once a source of electronics deals and blast-from-the-past ads, this year became a collection of  porn-themed memes, sexual jokes and crypto-related posts.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Technically it asked for four extensions, at the option of its sponsor, each of three months.
 
 
@@ -251,114 +251,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] See page 23 of  the whistle-blower complaint for a laundry list of penalties, treble damages, interest, etc.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

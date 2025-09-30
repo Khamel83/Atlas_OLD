@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        A dollar of income is worth more in some businesses than in others. Some businesses are attractive and fast-growing, and investors will pay 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        A dollar of income is worth more in some businesses than in others. Some businesses are attractive and fast-growing, and investors will pay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Multiple arbitrage
-    
-  
+
+
 
 A dollar of income is worth more in some businesses than in others. Some businesses are attractive and fast-growing, and investors will pay a large multiple of their current earnings to buy them; other businesses are boring and declining, and investors will pay a small multiple of their current earnings to buy them. Nvidia Corp.’s stock trades at about 36 times earnings because people want to own a business that sells graphics chips in an artificial intelligence boom; Peabody Energy trades at about 6 times earnings because people are less jazzed about owning a coal miner in 2024.
   [1]
@@ -104,37 +104,37 @@ The result of the investigation was basically to reduce nutrition operating pro
   [4]
  while correspondingly increasing the other divisions’ profits a little bit. “Archer-Daniels-Midland Co. investors appeared to breathe a sigh of relief Tuesday,” reports Bloomberg, because it “could have been worse.” This is not a complete disaster; it is tinkering around some very lucrative margins. We don’t yet know the details of how exactly ADM mispriced its sales to the nutrition business, but I have a feeling we will. I’m pretty sure that will all be in the SEC settlement.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Pipelines
-    
-  
+
+
 
 The life of an investment banker is that you go around pitching a bunch of companies to try to work on deals for them. And some of those pitches eventually turn into assignments where you sign an engagement letter, do a deal for the company and get paid. So that’s the top (pitching) and the bottom (getting paid) of the funnel.
 In between, there is ambiguity, and also most of the job. When you pitch a company’s chief financial officer on a deal, it is unusual for her to reply “I love it, where do I sign?” It is pretty common for her to reply “no, but thanks for coming in,” but it is also common for her to reply something like “hmm this is interesting but could you do some more analysis on what the debt financing would look like?” You don’t shove an engagement letter at her at that point. You go back and do the analysis. You send it to her. You call to follow up. You suggest some other analyses that you could run. You offer to do all sorts of free work for her. You insinuate yourself into her work and her decision-making so that when she does want to do a deal, she naturally chooses you to do it. A good investment banker will be doing a lot of unpaid work for a lot of potential clients, because that is the main way to generate paid work from those clients.
@@ -146,11 +146,11 @@ The PEI Bankers omitted multiple matters on which they had verbal agreements wit
 
 This all makes sense but is incredibly alien to my own experience in banking. Not putting real deals in the pipeline, just wild.
 
-  
-    
+
+
       Bid/ask
-    
-  
+
+
 
 If you are a private tech startup and your valuation has gone down, three things are probably true:
 	Your valuation has gone down in a somewhat opaque way. It’s not like your stock traded on the stock exchange at $100 a year ago and at $50 today; your stock doesn’t trade on the stock exchange. Maybe there are some secondary transactions that are not quite representative, maybe Fidelity marked down its position, maybe you did a fundraising round at a 20% lower price but with some structure that prevented the decline from being steeper. The decline in value is a bit fuzzy.	Even assuming that your latest market value is knowable, you probably think you’re worth more: You are an optimistic tech founder, you are changing the world, this is a temporary blip, you will do an initial public offering in a year or two at 10 times today’s obviously wrong valuation.	Assuming that your latest market value is knowable, prospective employees probably think you’re worth less: Tech startup employees want to get on a rocket ship; they want stock worth $100 now that will be worth $1,000 at your IPO. Declining stock values are bad; they suggest that there’s no rocket ship.
@@ -165,11 +165,11 @@ He said start-ups were holding back shares to help raise more funds once market 
 
 When the stock is cheap, it is harder than ever for startups to part with it, and easier than ever for employees to pass it up.
 
-  
-    
+
+
       Factors
-    
-  
+
+
 
 If you invest in stocks, your returns will come from roughly three sources:
 	The broad stock market goes up or down.	You can get paid (or lose money) for taking on some particular systematic risk: Small companies’ stocks tend to outperform large stocks, and cheap stocks (by price-to-book value) tend to outperform expensive ones. 	You can be idiosyncratically good at picking stocks.
@@ -185,11 +185,11 @@ Fama and French’s November article confirms that the numbers were changing and
 Two days before the paper hit SSRN, a PDF of it landed in the email inboxes of some of the country’s top economists and legal scholars. The accompanying message from Fama made it clear why he and French had written the article—and also that he was annoyed. “Most of you are in the acknowledgements of two papers,” he wrote. “There is lots of strong language in those papers about the effects of updates in the Fama-French factors. ... Our view is that their results are not surprising for those with experience in asset pricing research.” Fama added: “For us, the whole experience is a great example of the old saw: No good deed goes unpunished.”
 “Most of you are in the acknowledgements” of critical papers is I suppose how academics say “traitors!”
 
-  
-    
+
+
       Buckets
-    
-  
+
+
 
 The US Department of Agriculture provides crop insurance to farmers. The crop insurance pays out “when there is less than the usual amount of precipitation” in the farmer’s area — “even if the relevant farmland suffers no loss in productivity.” How does the insurance company know how much rain there was? One could imagine an answer involving radar, but the actual answer appears to be that the weather services put some buckets out, and they periodically check how much water is in the buckets. And so if you are a farmer and you want to commit crop-insurance fraud, you have an assortment of options open to you, including:
 	put an umbrella over the bucket so water doesn’t get into it, or	when there is water in the bucket, dump it out before the weather service checks.
@@ -206,15 +206,15 @@ I suppose this is not an intellectually interesting fraud, but I understand why 
 The conspirators used various means and methods to tamper with the rain gauges. Mr. Esch covered gauges in southeastern Colorado with agricultural equipment and used other means as well, such as filling gauges with silicone to prevent them from collecting moisture, cutting wires on the gauges, or detaching and then tipping over the bucket that collected precipitation. Mr. Jagers typically used an agricultural disc blade to cover up a rain gauge in Lamar, Colorado. This tampering created false records making it appear that less rain had fallen than was the case.
 You cannot generally commit commodities fraud by tipping over a bucket, or putting a lid on it, but sometimes you can. They did this tampering “between July 2016 and June 2017,” meaning that they got $3.1 million of insurance payments for less than a year of emptying rain gauges.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 After SVB’s Failure, Its Attempted Rescuer Charged $285 Million in Fees. Argentina Hinders Debt Swap by Not Offering Puts on Peso Bonds. Telegram: social media giant or the new ‘dark web’? Academics Question ESG Studies That Helped Fuel Investing Boom. EQT and Equitrans Midstream to Combine in Big Natural-Gas Deal. Choice Hotels Scraps Roughly $7 Billion Bid For Wyndham After Rebuff. The Squatters of Beverly Hills. DINKWADs. See-Through Baseball Pants Have Fans, and Brands, Pointing Fingers.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] These are just from the Bloomberg DES pages, using “Est P/E,” that is, the ratio of the current stock price to estimated forward earnings, rounded to the nearest whole number.
 
 
@@ -230,48 +230,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Also apparently this is a high-stakes enough business that “one of the co-conspirators turned on the group and extorted Esch in particular. … In August of 2023, a month before Jager and Esch reached their plea agreements with prosecutors, this unidentified male co-conspirator escaped from prison. This triggered a nationwide manhunt and caused Esch and his family ‘to go into hiding,’ as stated in a court document. Two weeks after the escape, the co-conspirator was found dead.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -282,46 +282,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckmukc.5jcw/d4e4764f.gif" alt="" border="0" /></a>

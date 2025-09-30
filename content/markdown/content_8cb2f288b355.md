@@ -159,7 +159,7 @@ function OptanonWrapper() { }
     "@type": "ListItem",
     "position": "6",
     "name": "Gazing at Ground Zero: Tourism, Voyeuris .... "
-    
+
     }]
     }
 
@@ -180,7 +180,7 @@ function OptanonWrapper() { }
 <div class="widget pageHeader none  widget-none  widget-compact-all" id="a4d4fdd3-c594-4d68-9f06-b69b8b37ed56">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="modal-overlay fade-and-pop modal-open top-nav"></div>
 <header class="page-header" aria-label="Global Navigation">
     <div data-pb-dropzone="main">
@@ -188,17 +188,17 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none header-top widget-none  widget-compact-all" id="00d6f1bb-2b57-4858-a0da-0ad54a8ec65b">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
     <div class="row row-md gutterless ">
-        
+
             <div class="col-md-1-1 top-nav-resp">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-image alignLeft header-logo widget-none  widget-compact-horizontal" id="296b7422-bb24-4e9f-a0de-c7b1351f1792">
 
 <div class="wrapped 172">
-            
+
             <div class="widget-body body body-none  body-compact-horizontal"><a href="/web/20241007145911/https://www.tandfonline.com/" title="Taylor and Francis Online homepage">
 <img src="/web/20241007145911im_/https://www.tandfonline.com/pb-assets/Global/TFO-logo-new-1716484961953.svg" alt="Taylor and Francis Online homepage" height="41" width="172"/>
 </a></div>
@@ -208,7 +208,7 @@ function OptanonWrapper() { }
 <div class="widget general-html none first-top-navigation qsw-global-nav widget-none" id="95bb198f-2314-4e18-995d-c13968636386">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><ul class="top-navigation" aria-label="global menu" data-dropdown-wrapper="">
     <li class="top-navigation-list">
         <a href="/web/20241007145911/https://www.tandfonline.com/action/showPublications?pubType=journal&amp;ejf=on" class="topnav-browse-button"><span>Browse</span>
@@ -279,9 +279,9 @@ function OptanonWrapper() { }
 <div class="widget literatumInstitutionBanner none bannerWidth widget-none" id="7283c6d9-1060-407d-a084-09d65236931e">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="institution-image hidden-xs  hidden-sm logout-institution-image">
-    
+
 </div></div>
         </div>
     </div>
@@ -289,7 +289,7 @@ function OptanonWrapper() { }
 <div class="widget literatumNavigationLoginBar none  widget-none  widget-compact-all" id="78ed73f4-350d-4935-9c1b-bf71130be6dd">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="loginBar not-logged-in">
     <span class="icon-user"></span>
     <a href="/web/20241007145911/https://www.tandfonline.com/action/showLogin?uri=%2Fdoi%2Ffull%2F10.1080%2F1479758042000797015" class="sign-in-link">
@@ -332,29 +332,29 @@ function OptanonWrapper() { }
 <div class="widget eCommerceCartIndicatorWidget none literatumCartLink widget-none" id="492ea409-0544-4418-822b-f467dbb4f761">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><a href="/web/20241007145911/https://www.tandfonline.com/action/showCart?FlowID=1" class="cartLabel" aria-labelledby="cartLabel cartItems">
             <span id="cartLabel" class="visible-tl-inline-block">Cart</span>
             <span class="cartItemSize-new">
                 <span class="cartItems" role="status">
                     <span class="off-screen">
-                        
-                            
-                            
+
+
+
                                 Add to Cart
-                            
-                        
+
+
                     </span>
                     <span class="fa cart-size fa-lg notification">
                         <span class="fa fa-shopping-cart">
-                            
+
                         </span>
                     </span>
                 </span>
             </span>
             <span class="cartItemSize-old">
                 <span id="cartItems" class="cartItems" data-id="cart-size" role="status">
-                    
+
                 </span>
             </span>
         </a></div>
@@ -364,7 +364,7 @@ function OptanonWrapper() { }
 <div class="widget general-html none  widget-none" id="ae54c4d3-b3ec-48fa-a62b-314bcb75e211">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="header_burger-menu" data-dropdown-wrapper="">
     <button aria-expanded="false" data-behaviour="toggle-dropdown" class="burger-menu-button">
         <span class="burger-menu off-screen">Search, Browse, or Publish</span><i aria-hidden="true" class="fa fa-bars"></i><span class="close-burger-menu off-screen">Close Menu</span>
@@ -441,7 +441,7 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -450,7 +450,7 @@ function OptanonWrapper() { }
 <div class="widget general-html none notificationMessageWidget2 widget-none  widget-compact-all" id="5cf383cc-1081-4275-81f9-f5a345c6a713">
 
 <div class="wrapped " id="Site Notification Message">
-            
+
             <div class="widget-body body body-none  body-compact-all"><span>On Wednesday 9 October 2024, 04:00-22:30 GMT, we’ll be making some site updates on Taylor &amp; Francis Online. You’ll still be able to search, browse and read our articles, where access rights already apply. Registration, purchasing, activation of tokens, eprints and other features of Your Account will be unavailable during this scheduled work.</span></div>
         </div>
     </div>
@@ -458,90 +458,90 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none breadcrumbs-container widget-none  widget-compact-all" id="64c16283-4b04-4d90-ac0f-4db85fcd0cf5">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-1 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget literatumBreadcrumbs none breadcrumbs-widget widget-none  widget-compact-all" id="b1c121c1-cbbd-4241-8774-7120f3a783e8">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><!-- Service: showFullText -->
 
 <nav id="bc-nav" aria-label="Breadcrumb" data-stick>
     <ol class="breadcrumbs">
-        
-        
+
+
             <li class="">
-                
-                    
-                    
+
+
+
                         <a href="/web/20241007145911/https://www.tandfonline.com/" class="bc-click">
                             Home
                         </a>
-                    
-                
+
+
             </li>
-        
+
             <li class="">
-                
-                    
-                    
+
+
+
                         <a href="/web/20241007145911/https://www.tandfonline.com/action/showPublications?pubType=journal" class="bc-click">
                             All Journals
                         </a>
-                    
-                
+
+
             </li>
-        
+
             <li class="">
-                
-                    
-                    
+
+
+
                         <a href="/web/20241007145911/https://www.tandfonline.com/rcuv20" class="bc-click">
                             Journal for Cultural Research
                         </a>
-                    
-                
+
+
             </li>
-        
+
             <li class="">
-                
-                    
-                    
+
+
+
                         <a href="/web/20241007145911/https://www.tandfonline.com/loi/rcuv20" class="bc-click">
                             List of Issues
                         </a>
-                    
-                
+
+
             </li>
-        
+
             <li class="">
-                
-                    
-                    
+
+
+
                         <a href="/web/20241007145911/https://www.tandfonline.com/toc/rcuv20/8/1" class="bc-click">
                             Volume 8, Issue 1
                         </a>
-                    
-                
+
+
             </li>
-        
+
             <li class="">
-                
-                    
+
+
                         <a href="#" class="bc-click" aria-current="page">
-                            
-                            Gazing at Ground Zero: Tourism, Voyeuris .... 
+
+                            Gazing at Ground Zero: Tourism, Voyeuris ....
                         </a>
-                    
-                    
-                
+
+
+
             </li>
-        
+
     </ol>
 </nav></div>
         </div>
@@ -549,12 +549,12 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
     </div>
-    
+
     </div>
 </header></div>
         </div>
@@ -563,7 +563,7 @@ function OptanonWrapper() { }
 <div class="widget general-html none  widget-none  widget-compact-all" id="6389e395-6952-4803-8ece-73e34734b85c">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div style="display: none" id="download-in-progress-modal-pb" data-modal-name="Download in progress modal" data-type="modal">
     <div class="modal-content-header">
         <h2 class="centered">Your download is now in progress and you may close this window</h2>
@@ -587,7 +587,7 @@ function OptanonWrapper() { }
     </div>
     <p class="modal-content-footer"></p>
 </div>
- 
+
 <div style="display: none" id="registration-benefits-modal-pb" data-modal-name="Registration benefits modal" data-type="modal">
     <div class="modal-content-header">
         <h2 class="centered">Login or register to access this feature</h2>
@@ -621,7 +621,7 @@ function OptanonWrapper() { }
 <div class="widget pageBody none  widget-none  widget-compact-all" id="35d9ca18-265e-4501-9038-4105e95a4b7d">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><!--begin pagefulltext-->
 <div class="page-body pagefulltext">
     <div data-pb-dropzone="main">
@@ -631,50 +631,50 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none publicationSerialHeader article-chapter-view widget-none  widget-compact-all" id="1728e801-36cd-4288-9f53-392bad29506a">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container">
     <div class="row row-md gutterless ">
-        
+
             <div class="col-md-5-12 search_container ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget quickSearchWidget none search-customize-width qsw-article widget-none  widget-compact-all" id="d46e3260-1f5c-4802-821a-28a03a699c82">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="quickSearchFormContainer ">
     <form action="/web/20241007145911/https://www.tandfonline.com/action/doSearch" name="quickSearch" class="quickSearchForm " title="Quick Search" role="search" method="get" onsubmit="appendSearchFilters(this)" aria-label="Quick Search"><span class="simpleSearchBoxContainer">
                             <input name="AllField" class="searchText main-search-field autocomplete" value="" type="search" id="searchText-d46e3260-1f5c-4802-821a-28a03a699c82" title="Type search term here" aria-label="Search" placeholder="Enter keywords, authors, DOI, etc" autocomplete="off" data-history-items-conf="3" data-publication-titles-conf="3" data-publication-items-conf="3" data-topics-conf="3" data-contributors-conf="3" data-fuzzy-suggester="false" data-auto-complete-target="title-auto-complete"/>
                                 </span>
 
 <span class="searchDropDownDivRight">
-    
-        
-            
-        
-        
-        
-    
+
+
+
+
+
+
+
     <label for="searchInSelector-d46e3260-1f5c-4802-821a-28a03a699c82" class="visuallyhidden">Search in:</label>
-    
+
     <select id="searchInSelector-d46e3260-1f5c-4802-821a-28a03a699c82" name="SeriesKey" class="js__searchInSelector">
 
 <option value="rcuv20" data-search-in="thisJournal">
                     This Journal
                 </option>
-            
-            
-            
-            
-        
-        
+
+
+
+
+
+
         <option value="" data-search-in="default">
-            
-                
-                
+
+
+
                     Anywhere
-                
-            
+
+
         </option>
 
 </select>
@@ -687,67 +687,67 @@ function OptanonWrapper() { }
 <div class="widget general-html alignRight  hidden-xs_sm widget-none  widget-compact-all" id="323e2a31-1c81-4995-bd17-8e149458c214">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><a href="/web/20241007145911/https://www.tandfonline.com/search/advanced" class="advSearchArticle">Advanced search</a></div>
         </div>
     </div>
-    
+
 </div></div>
         </div>
     </div>
 
 </div>
             </div>
-        
+
             <div class="col-md-7-12 serNav_container">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget literatumSeriesNavigation none  widget-none" id="7730bfe1-9fca-4cf4-a6d6-2a0148105437">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="issueSerialNavigation journal">
-    
+
         <div class="cover">
-            
-                
+
+
                     <img src="/web/20241007145911im_/https://www.tandfonline.com/action/showCoverImage?doi=10.1080/rcuv20.v008.i01" alt="Publication Cover" width="90" height="120"/>
-                
-                
-            
+
+
+
         </div>
 
 <div class="info ">
         <div class="title-container">
-            
-            
-            
-                
-                    
-                    
-                    
+
+
+
+
+
+
+
                         <span class="journal-heading">
-                            
-                                
-                                    
-                                        
-                                        
+
+
+
+
+
                                             <a href="/web/20241007145911/https://www.tandfonline.com/journals/rcuv20">
                                                 Journal for Cultural Research
                                             </a>
-                                        
-                                        
-                                    
-                                
-                                
-                            
+
+
+
+
+
+
                         </span>
 
 <span class="issue-heading">
-    
-        
-            
-            
+
+
+
+
                 Volume 8, 2004 - <a href="/web/20241007145911/https://www.tandfonline.com/toc/rcuv20/8/1" class="nav-toc-list">Issue 1</a>
 </span>
 
@@ -758,7 +758,7 @@ function OptanonWrapper() { }
 <div class="widget general-html none serial-btns smooth-mv widget-none  widget-compact-horizontal" id="753455df-1eeb-47ca-bdc9-e19022075973">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-horizontal"><div class="serial-action">
 
 <a href="http://web.archive.org/web/20241007145911/https://rp.tandfonline.com/submission/create?journalCode=RCUV" class="green submitAnArticle" target="_blank"><span>Submit an article</span></a>
@@ -771,17 +771,17 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none  widget-none" id="e53deeb1-f863-4c5f-a070-4b93ec39fff5">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="container-fluid">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-1 ">
                 <div class="contents" data-pb-dropzone="contents0">
-                    
-                    
+
+
                 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -796,7 +796,7 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -807,25 +807,25 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none publicationContentHeader widget-none  widget-compact-all" id="72f79d61-d352-4d72-a894-8779233d1576">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-6 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget literatumArticleMetricsWidget none  widget-none  widget-compact-vertical" id="5afd8b6d-7e09-43ff-8ad6-afa3764e543c">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-vertical"><div class="articleMetricsContainer">
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <div class="content compactView">
 
 <div class="section">
@@ -864,24 +864,24 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
             <div class="col-md-2-3 ">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget responsive-layout none  widget-none  widget-compact-all" id="5f562208-b1d5-4e5a-81c7-356431240f04">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
     <div class="row row-md gutterless ">
-        
+
             <div class="col-md-1-1 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget literatumPublicationHeader none literatumPublicationTitle widget-none  widget-compact-all" id="fa57727f-b942-4eb8-9ed2-ecfe11ac03f5">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="toc-heading">Original Articles</div><h1><span class="NLM_article-title hlFld-title">Gazing at Ground Zero: Tourism, Voyeurism and Spectacle<span class="open_science_badges"></span></span></h1><div class="literatumAuthors"><div class="publicationContentAuthors"><div class="hlFld-ContribAuthor"><span class="NLM_contrib-group"><span class="contribDegrees "><div class="entryAuthor"><a class="author" href="/web/20241007145911/https://www.tandfonline.com/author/Lisle%2C+Debbie">Debbie Lisle</a></div></span></span></div></div></div></div>
         </div>
     </div>
@@ -889,7 +889,7 @@ function OptanonWrapper() { }
 <div class="widget literatumContentItemPageRangeHistory none  widget-none  widget-compact-all" id="5a6ad2bb-9f9c-47b0-9143-56cc8552d601">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="itemPageRangeHistory">
     <span>
                 Pages 3-21</span>
@@ -900,7 +900,7 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -909,14 +909,14 @@ function OptanonWrapper() { }
 <div class="widget literatumArticleToolsWidget none  widget-none  widget-compact-all" id="ed673666-7b5d-470e-bd33-c5c679d996cb">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="articleTools">
 
 <ul class="linkList">
-    
-    
-    
-    
+
+
+
+
         <li class="downloadCitations">
             <a href="#" title="Cite this article" class="download-citations" onclick="benefitsModalProxy.call(this, displayCitationsArticleModal);return false;" data-modal-trigger="">
                 <i class="fa fa-quote-left" aria-hidden="true"></i>Cite this article
@@ -935,27 +935,27 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
             <div class="col-md-1-6 ">
                 <div class="contents" data-pb-dropzone="contents2">
 
 <div class="widget literatumDisplayingAccessLogo none  widget-none  widget-compact-all" id="6aacf107-e82d-494d-a14c-0c00bba52560">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="accessLogo">
-    
-        
-        
-        
-    
+
+
+
+
+
 </div></div>
         </div>
     </div>
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -964,17 +964,17 @@ function OptanonWrapper() { }
 <div class="widget responsive-layout none publicationContentBody widget-none" id="63f402e4-3498-4709-8d7d-ee8e69f93467">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="container">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-6 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-html none fit margin _2rem hidden-xs_sm widget-none" id="6ef0a120-c929-4472-a62c-2b12708dbc4a">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none ">&nbsp;</div>
         </div>
     </div>
@@ -982,7 +982,7 @@ function OptanonWrapper() { }
 <div class="widget literatumAd alignCenter .fulltext__center widget-none  widget-compact-all" id="0add5ac0-7b3b-437c-acaf-6959ded47aa2">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
                 <a href="/web/20241007145911/https://www.tandfonline.com/action/clickThrough?id=5939&amp;url=%2Fr%2Fsubjectsample-humanities&amp;loc=%2Fdoi%2Ffull%2F10.1080%2F1479758042000797015&amp;pubId=44602536&amp;placeholderId=1074&amp;productId=1837"> <img src="//web.archive.org/web/20241007145911im_/https://:0/" width="200" height="100" alt="Sample our Humanities journals, sign in here to start your FREE access for 14 days" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/5939/TOC-Subject-Sample-2021-Humanities.jpg&quot;}"> </a>
             </div></div>
@@ -991,14 +991,14 @@ function OptanonWrapper() { }
 
 </div>
             </div>
-        
+
             <div class="col-md-7-12 ">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget newEcommAccessDenialWidget none accessDenialWidget widget-none  widget-compact-all" id="2cdec875-dbbb-46d0-95c1-98f16018f042">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><script>tandf.MathJax=true</script>
 <script type="text/javascript" async src="http://web.archive.org/web/20241007145911js_/https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     MathJax.Hub.Config({
@@ -1023,8 +1023,8 @@ function OptanonWrapper() { }
 <div class="ecommAbs ja publication-tabs publication-tabs-dropdown">
 
 <div class="tabs tabs-widget">
-    
-        
+
+
             <div class="scroll-content">
                 <ul class="tab-nav container" role="tablist">
     <li class="active" role="presentation">
@@ -1041,7 +1041,7 @@ function OptanonWrapper() { }
     </li>
 
 <li role="presentation">
-        
+
         <a href="/web/20241007145911/https://www.tandfonline.com/doi/ref/10.1080/1479758042000797015?scroll=top" id="showEnhancedAbstract" class="show-references" aria-controls="mainTabPanel" role="tab" aria-labelledby="refs" doi="10.1080/1479758042000797015">
             <i class="fa fa-book" aria-hidden="true"></i>
             <span class="nav-data" id="refs">References</span>
@@ -1068,14 +1068,14 @@ function OptanonWrapper() { }
         <a class="grant-access" href="" role="button">
             Read this article
             <span class="redirect-uri hide">
-                
-                    
+
+
                         /doi/full/10.1080/1479758042000797015?needAccess=true
-                    
-                    
-                    
-                    
-                
+
+
+
+
+
             </span>
         </a>
     </li>
@@ -1087,12 +1087,12 @@ function OptanonWrapper() { }
             <a id="top-content-scroll"></a>
             <div class="tab tab-pane active" role="tabpanel" id="mainTabPanel" aria-labelledby="showFullText">
                 <article class="article">
-                    
-                    
-                        
-                        
-                        
-                            
+
+
+
+
+
+
                             <script>tandf.tfviewerdata={"table-index-map":{"":0},"tables":[{"settings":{"hasCsvFormat":false},"content":"<div id=\"table-content-\"\/>","id":""}],"figures":[],"metadata":{"header":"<div class=\"info\"><span class=\"title\">Gazing at Ground Zero: Tourism, Voyeurism and Spectacle<\/span><div class=\"articleAuthors articleInfoSection\"><div class=\"authors\"><a class=\"entryAuthor\" href=\"\/action\/doSearch?Contrib=Lisle%2C+Debbie\"><span class=\"NLM_string-name\">\nDebbie\n \nLisle\n<\/span><\/a><\/div><\/div><div class=\"articleLowerInfo articleInfoSection\"><div class=\"articleLowerInfoSection articleInfoDOI\"><a href=\"https:\/\/doi.org\/10.1080\/1479758042000797015\">https:\/\/doi.org\/10.1080\/1479758042000797015<\/a><\/div><div class=\"articleInfoPublicationDate articleLowerInfoSection border\"><h6>Published online:<\/h6>24 May 2006<\/div><\/div><\/div>","doi":"10.1080\/1479758042000797015"},"figure-index-map":{}};</script>
 
 <div class="hlFld-Abstract"><h2 class="section-heading-2" id="abstract">Abstract</h2>
@@ -1109,39 +1109,39 @@ www.september11victims.com/september11victims/COUNTRY_CITIZENSHIP.htm</p>
 <p class="first last">Psychoanalytic theories describe voyeurism as the sexual pleasure aroused in the act of looking upon a forbidden object of desire. As Freud’s arguments make clear, voyeurism is the condition that allows repressed sexual feelings to emerge (Freud <span class="ref-lnk lazy-ref bibr"><a data-rid="b33" href="#" data-behaviour="toggle-ref" data-ref-type="bibr" data-label="reference"><span class="off-screen">Citation</span>1976</a></span>, <span class="ref-lnk lazy-ref bibr"><a data-rid="b34" href="#" data-behaviour="toggle-ref" data-ref-type="bibr" data-label="reference"><span class="off-screen">Citation</span>1975</a></span>; Calvert <span class="ref-lnk lazy-ref bibr"><a data-rid="b14" href="#" data-behaviour="toggle-ref" data-ref-type="bibr" data-label="reference"><span class="off-screen">Citation</span>2000</a></span>). While this paper takes some of its reference points from psychoanalytic theory (especially in terms of forbidden desire), it investigates the object of horror rather than the object of sexual fantasy.</p>
 </div><div id="fn5">
 <p class="first last">Psychoanalytic film theory is helpful in explaining the mediated desire for horror because it argues that all cinema is voyeuristic. Christian Metz developed the idea of voyeurism in relation to how the spectator is brought into the political apparatus of cinema and forced to maintain a measured distance between himself (subject) and whatever is on the screen (object) (Metz <span class="ref-lnk lazy-ref bibr"><a data-rid="b46" href="#" data-behaviour="toggle-ref" data-ref-type="bibr" data-label="reference"><span class="off-screen">Citation</span>1986</a></span>, pp. 245–278). Also important here is Laura Mulvey’s reconfiguration of voyeurism in terms of scopophilia—the pleasure of looking. She argues that all cinema encourages “scopophilic voyeurism” because we get pleasure sitting in darkened theatres peering into the lives and stories of other people. But Mulvey’s work is also important for its political edge—she argues that the scopophilic voyeurism we experience in the cinema organizes subjects according to wider power structures. Because Mulvey is particularly concerned with the power structure of patriarchy, she explains how scopophilic voyeurism positions men as the controlling subjects of the gaze, and women as the gazed‐upon objects (Mulvey <span class="ref-lnk lazy-ref bibr"><a data-rid="b47" href="#" data-behaviour="toggle-ref" data-ref-type="bibr" data-label="reference"><span class="off-screen">Citation</span>1989</a></span>). Her claims are further politicized by Norman Denzin, who argues that cinema has contributed to the general rise of voyeurism in our society. The ever‐presence of voyeurism can be identified by the fact that we are all being watched (through CCTV and other forms of surveillance), and we are all watching others through widened access to technologies of representation (cinema, television, the internet). Denzin argues that because society is now governed by the practice of “watching”, the voyeur has become the primary subject position through which our social behavior is organized and regulated (1995).</p>
-</div></div><div class="hidden"><li id="b1"><span> 
+</div></div><div class="hidden"><li id="b1"><span>
  AFP
- 
+
 (2001)
- 
+
 “New Viewing Platform at Ground Zero”
- 
+
 <span class="citation_source-book italicized">
 <i>iafrica</i>
 </span>
- 
- 
+
+
  31 December [online] Available at: www.iafrica.com/news/us_terror/rescue/868436.htm
   <div class="extra-links" id="e_1_3_1_2_2_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250AAFP%250A%2B%250A%25282001%2529%250A%2B%250A%25E2%2580%259CNew%2BViewing%2BPlatform%2Bat%2BGround%2BZero%25E2%2580%259D%250A%2B%250A%250Aiafrica%250A%250A%2B%250A%2B%250A31%2BDecember%2B%255Bonline%255D%2BAvailable%2Bat%253A%2Bwww.iafrica.com%252Fnews%252Fus_terror%252Frescue%252F868436.htm%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b64"><span>
 
 Yancey
- 
+
 Kitty Bean
 
 (2002)
- 
+
 “Tourists flock to WTC site”
- 
+
 <span class="citation_source-book italicized">
 <i>USA Today</i>
 </span>
- 
- 
+
+
  1 Feb. [online] Available at: www.usatoday.com/life/travel/leisure/2002/2002‐02‐01‐ground‐zero‐cover.htm
   <div class="extra-links" id="e_1_3_1_2_58_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D%25282002%2529%26author%3DKitty%2BBean%2BYancey%26title%3D%250AUSA%2BToday%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b27"><span>
 
 Der Derian
- 
+
 J
 
 (2002)
@@ -1152,7 +1152,7 @@ Before and After 9–11”, paper presented at the International Studies Associa
   <div class="extra-links" id="e_1_3_1_2_25_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%250A%250ADer%2BDerian%250A%2B%250AJ%250A%250A%250A%2B%250A%25282002%2529%250A%2B%250A%250A%25E2%2580%259CIn%2BTerrorem%253A%250A%250A%2B%250A%2B%250ABefore%2Band%2BAfter%2B9%25E2%2580%259311%25E2%2580%259D%252C%2Bpaper%2Bpresented%2Bat%2Bthe%2BInternational%2BStudies%2BAssociation%2BConference%252C%2BNew%2BOrleans%252C%2BMarch%2Bavailable%2Bonline%2Bat%253A%2Bwww.infopeace.org%253B%2Bwww.ssrc.org%252Fsept11%252Fessays%252Fder_derian.htm%2Band%2Bhttp%253A%252F%252Fmuse.jhu.edu%252Fjournals%252Ftheory_%2526_event%252F%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b33"><span>
 
 Freud
- 
+
 S
 
 (1976)
@@ -1163,7 +1163,7 @@ Basic Books, New York
   <div class="extra-links" id="e_1_3_1_2_31_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%250A%250AFreud%250A%2B%250AS%250A%250A%250A%2B%250A%25281976%2529%250A%2B%250A%250AThree%2BEssays%2Bon%2Bthe%2BTheory%2Bof%2BSexuality%250A%250A%2B%250A%2B%250ABasic%2BBooks%252C%2BNew%2BYork%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b34"><span>
 
 Freud
- 
+
 S
 
 (1975)
@@ -1174,7 +1174,7 @@ Chatto and Windus, New York
   <div class="extra-links" id="e_1_3_1_2_32_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%250A%250AFreud%250A%2B%250AS%250A%250A%250A%2B%250A%25281975%2529%250A%2B%250A%250ABeyond%2Bthe%2BPleasure%2BPrinciple%250A%250A%2B%250A%2B%250AChatto%2Band%2BWindus%252C%2BNew%2BYork%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b14"><span>
 
 Calvert
- 
+
 C
 
 (2000)
@@ -1185,25 +1185,25 @@ Westview Press, New York
   <div class="extra-links" id="e_1_3_1_2_12_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26q%3D%250A%250A%250ACalvert%250A%2B%250AC%250A%250A%250A%2B%250A%25282000%2529%250A%2B%250A%250AVoyeur%2BNation%253A%2BMedia%252C%2BPrivacy%2Band%2BPeering%2Bin%2BModern%2BCulture%250A%250A%2B%250A%2B%250AWestview%2BPress%252C%2BNew%2BYork%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b46"><span>
 
 Metz
- 
+
 C
 
 (1986)
- 
+
 “The Imaginary Signifier (Excerpts)” in
- 
+
 <span class="citation_source-book italicized">
 <i>Narrative, Apparatus, Ideology</i>
 </span>
- 
- 
+
+
  ed. P. Rosen, Columbia University Press, New York
- 
+
 pp. 245–278
   <div class="extra-links" id="e_1_3_1_2_44_1">&nbsp;<span class="xlinks-container"></span><span class="googleScholar-container"><a class="google-scholar" href="/web/20241007145911/https://www.tandfonline.com/action/getFTRLinkout?url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26publication_year%3D%25281986%2529%26pages%3Dpp.%2B245%25E2%2580%2593278%26author%3DC%2BMetz%26title%3D%250ANarrative%252C%2BApparatus%252C%2BIdeology%250A&amp;doi=10.1080%2F1479758042000797015&amp;doiOfLink=&amp;linkType=gs&amp;linkLocation=Reference&amp;linkSource=FULL_TEXT" target="_blank">Google Scholar</a></span></div></span></li></div><div class="hidden"><li id="b47"><span>
 
 Mulvey
- 
+
 L
 
 (1989)
@@ -1217,20 +1217,20 @@ Macmillan, London
             </div>
 
 <div class="tab tab-pane " role="tabpanel" id="show-permissions" aria-labelledby="permissionsLabel">
-        
-            
-            
-                
-            
-        
+
+
+
+
+
+
     </div>
 
 <div class="access__limit" data-pb-dropzone="accessLimitPage">
-    
+
 </div>
 
 </div>
-    
+
 </div>
 </div>
 
@@ -1239,9 +1239,9 @@ Macmillan, London
 <div class="widget gql-content-navigation none  widget-none" id="114eeb58-fc18-4755-bc2b-736d220382ed">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="ajaxWidget" data-ajax-widget="gql-content-navigation" data-ajax-widget-id="114eeb58-fc18-4755-bc2b-736d220382ed" data-ajax-spin="true" data-ajax-observe="true">
-    
+
 </div></div>
         </div>
     </div>
@@ -1250,18 +1250,18 @@ Macmillan, London
 
 <div id="accessDenialWidget">
     <div class="left-col">
-        
+
             <h2 class="label">Log in via your institution</h2>
-            
+
             <div class="sso-links">
-                
-                
+
+
                     <a href="/web/20241007145911/https://www.tandfonline.com/action/ssostart?redirectUri=%2Fdoi%2Ffull%2F10.1080%2F1479758042000797015">
-                        
+
                         Access through your institution
                     </a>
-                
-                
+
+
             </div>
 
 <h2 class="label">Log in to Taylor &amp; Francis Online</h2>
@@ -1274,7 +1274,7 @@ Macmillan, London
 
 <div class="login">
     <div>
-        
+
     </div>
 
 <div class="options-links">
@@ -1314,17 +1314,17 @@ Macmillan, London
 <noscript>
     <style>.submit-login { display: none; }</style>
     <input class="ecommLoginSigninButton" type="submit" name="submit" value="Log in"/></noscript></form>
-                    
-                
-            
+
+
+
         </div>
 
 <div class="options-links">
-    
+
 </div>
-        
-        
-    
+
+
+
 </div>
         </div>
 
@@ -1343,20 +1343,20 @@ Macmillan, London
 <div class="widget eCommercePurchaseAccessWidget none  widget-none" id="5794f259-355d-49be-b48a-b0d272c05530">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="eCommercePurchaseAccessWidgetContainer ">
             <div class="purchase-header">
-                
+
                 <a data-bind="expandSection" class="purchaseAreaList_expand" href="#purchasePanel" id="purchaseLink">Purchase options <abbr title="Local tax will be added as applicable">*</abbr></a>
-                
-                    
+
+
                         <a data-bind="saveItem" data-doi="10.1080/1479758042000797015" class="save-for-later-link" href="/web/20241007145911/https://www.tandfonline.com/action/saveItem?doi=10.1080/1479758042000797015">
                             Save for later
                         </a>
                         <a class="saved-go-cart hidden" href="/web/20241007145911/https://www.tandfonline.com/action/showCart"><span class="icon-cart-icon-material"></span>Item saved, go to cart </a>
-                    
-                    
-                
+
+
+
             </div>
             <div class="purchaseAreaList_expanded" id="#purchasePanel">
 
@@ -1367,10 +1367,10 @@ Macmillan, London
         </div>
 
 <div class="add-journal-to-cart">
-                
-                    
-                    
-                        
+
+
+
+
                             <div class="journal-options-expanded">
 
 <div class="tabs tabs-widget">
@@ -1378,32 +1378,32 @@ Macmillan, London
 <div class="tab-content">
     <div class="tab-pane active" id="section-7b9851e1-3eea-4fc9-9c4c-12b2f068cbd9">
         <div class="tab-pane-content">
-            
-                
-                
-                    
-                        
-                        
-                        
+
+
+
+
+
+
+
                         <div class="purchase-items">
-                            
+
                             <div class="purchaseMessage hidden" data-item="SSHAP_N_2014-SSH ARTICLE USD PRICING 2024-ELECTRONIC-USD-10.1080/1479758042000797015-619653">
                                 <p></p>
                             </div>
                             <div class="purchase-header">
                                 <p class="offer-lst">
                                     <span class="titles">PDF download + Online access</span>
-                                    
-                                    
-                                        
-                                            
-                                            
+
+
+
+
+
                                                 <ul class="offer-desc"><li>48 hours access to article PDF &amp; online version</li><li>Article PDF can be downloaded</li><li>Article PDF can be printed</li></ul>
-                                            
-                                        
-                                        
-                                        
-                                    
+
+
+
+
+
                                     <span class="offer-price">
                                             USD 53.00
                                     </span>
@@ -1417,7 +1417,7 @@ Macmillan, London
                                     <p></p>
                                 </div>
                             </div>
-                            
+
                             <div class="addedMessage hidden" data-item="SSHAP_N_2014-SSH ARTICLE USD PRICING 2024-ELECTRONIC-USD-10.1080/1479758042000797015-619653">
                                 <span class="article-title">
                                         <span class="article-title-content">
@@ -1434,29 +1434,29 @@ Macmillan, London
                                     </span>
                             </div>
                         </div>
-                        
-                    
-                        
-                        
-                        
+
+
+
+
+
                         <div class="purchase-items">
-                            
+
                             <div class="purchaseMessage hidden" data-item="RCUVPF_ISS_2024-RCUVPF_ISS_2024_Z1-ELECTRONIC-USD-10.1080/1479758042000797015-649530">
                                 <p></p>
                             </div>
                             <div class="purchase-header">
                                 <p class="offer-lst">
                                     <span class="titles">Issue Purchase</span>
-                                    
-                                    
-                                        
-                                        
-                                            
+
+
+
+
+
                                                 <ul class="offer-desc"><li>30 days online access to complete issue</li><li>Article PDFs can be downloaded</li><li>Article PDFs can be printed</li></ul>
-                                            
-                                        
-                                        
-                                    
+
+
+
+
                                     <span class="offer-price">
                                             USD 231.00
                                     </span>
@@ -1470,7 +1470,7 @@ Macmillan, London
                                     <p></p>
                                 </div>
                             </div>
-                            
+
                             <div class="addedMessage hidden" data-item="RCUVPF_ISS_2024-RCUVPF_ISS_2024_Z1-ELECTRONIC-USD-10.1080/1479758042000797015-649530">
                                 <span class="article-title">
                                         <span class="article-title-content">
@@ -1487,13 +1487,13 @@ Macmillan, London
                                     </span>
                             </div>
                         </div>
-                        
-                    
-                        
-                        
-                    
-                
-            
+
+
+
+
+
+
+
         </div>
     </div>
 </div>
@@ -1501,18 +1501,18 @@ Macmillan, London
 </div>
 
 </div>
-                        
-                        
-                    
-                
-                    
-                    
-                        
-                        
-                            
-                        
-                    
-                
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
 
 </div>
@@ -1534,35 +1534,35 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-md-1-4 ">
                 <div class="contents" data-pb-dropzone="contents2">
 
 <div class="widget general-bookmark-share none ShareWidgetMarginFix widget-none  widget-compact-all" id="1ca0ea4f-5e0e-4b06-9210-77f187b36459">
 
 <div class="wrapped " id="Bookmark widget 27Mar added by Simon">
-            
+
             <div class="widget-body body body-none  body-compact-all"><ul class="a2a_list" role="presentation">
     <li role="presentation" class="a2a_list_items">
         <a class="shareicon" href="#" role="button" aria-hidden="true" tabindex="-1"><span class="off-screen">Share icon</span></a>
         <div class="a2a_kit a2a_default_style a2a_target a2a_kit_size_22 a2a_share_target" style="z-index: 10;">
-            
-                
+
+
                     <a class="a2a_button_x"></a>
-                
-            
-                
+
+
+
                     <a class="a2a_button_facebook"></a>
-                
-            
-                
+
+
+
                     <a class="a2a_button_linkedin"></a>
-                
-            
-                
+
+
+
                     <a class="a2a_button_email"></a>
-                
-            
+
+
             <a class="a2a_dd" href="http://web.archive.org/web/20241007145911/https://www.addtoany.com/share"></a>
         </div>
     </li>
@@ -1579,7 +1579,7 @@ Macmillan, London
 <div class="widget graphQueryWidget none  widget-none  widget-compact-all" id="2c0213c1-3b5f-4d14-8113-2027680829c6">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><!-- Initialize collectedFields array--><!-- Pug block to perform the iteration and assignment--></div>
         </div>
     </div>
@@ -1587,7 +1587,7 @@ Macmillan, London
 <div class="widget layout-tabs none further-fonts collapsed-view further-tab-margin collapsed-sticky widget-none  widget-compact-vertical" id="2543de1e-a4b2-4753-a5c7-60ad3348142b">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-vertical"><div class="layout-tabs-dropzone" data-pb-dropzone="layoutTabsDropzone">
 
 <div class="widget general-html none furtherReadingTitle widget-none  widget-compact-all" id="0f986a3e-6465-4cf5-8dab-297405f81db8">
@@ -1608,101 +1608,101 @@ Macmillan, London
     <ul class="tab-nav" role="tablist">
 
 <li class="active" role="presentation">
-                    
-                        
-                        
+
+
+
                             <a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" title="show People also read" class="" role="tab" aria-controls="2543de1e-a4b2-4753-a5c7-60ad3348142b-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" id="tab-0">People also read</a>
-                        
-                    
+
+
                 </li>
 
 <li class="" role="presentation">
-                    
-                        
-                        
+
+
+
                             <a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-b6de7b7c-de82-45a5-9538-313dd15c6659" title="show Recommended articles" class="" role="tab" aria-controls="2543de1e-a4b2-4753-a5c7-60ad3348142b-b6de7b7c-de82-45a5-9538-313dd15c6659" id="tab-1">Recommended articles</a>
-                        
-                    
+
+
                 </li>
 
 <li class="" role="presentation">
-                    
-                        
-                        
+
+
+
                             <a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-129eb601-372a-411c-826c-66fd3668dc36" title="show Cited by" class="frwidget-tabs--cby" role="tab" aria-controls="2543de1e-a4b2-4753-a5c7-60ad3348142b-129eb601-372a-411c-826c-66fd3668dc36" id="tab-2">Cited by</a>
-                        
-                    
+
+
                 </li>
-            
-        
+
+
     </ul>
     <div class="tab-content">
-        
-            
-            
-                
-                
+
+
+
+
+
                     <div class="tab-pane active" id="2543de1e-a4b2-4753-a5c7-60ad3348142b-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" role="tabpanel" aria-labelledby="tab-0">
-                        
+
                         <div class="tab-pane-content" data-pb-dropzone="tab-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" data-pb-dropzone-name="People also read">
 
 <div class="widget ajaxCFCRWidget none  widget-none  widget-compact-all" id="d8a0480c-c66c-4000-89d1-46da8e566404">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxCFCRWidget" data-ajax-widget-id="d8a0480c-c66c-4000-89d1-46da8e566404" data-ajax-spin="true" data-ajax-observe="true"></div></div>
         </div>
     </div>
 
 </div>
                     </div>
-                
-            
-        
-            
-            
-                
-                
+
+
+
+
+
+
+
                     <div class="tab-pane " id="2543de1e-a4b2-4753-a5c7-60ad3348142b-b6de7b7c-de82-45a5-9538-313dd15c6659" role="tabpanel" aria-labelledby="tab-1">
-                        
+
                         <div class="tab-pane-content" data-pb-dropzone="tab-b6de7b7c-de82-45a5-9538-313dd15c6659" data-pb-dropzone-name="Recommended articles">
 
 <div class="widget ajaxAtmCRWidget none  widget-none  widget-compact-all" id="0dc4eb3b-fe7e-4fec-bc22-557620c8984e">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxAtmCRWidget" data-ajax-widget-id="0dc4eb3b-fe7e-4fec-bc22-557620c8984e" data-ajax-spin="true" data-ajax-observe="true"></div></div>
         </div>
     </div>
 
 </div>
                     </div>
-                
-            
-        
-            
-            
-                
-                
+
+
+
+
+
+
+
                     <div class="tab-pane " id="2543de1e-a4b2-4753-a5c7-60ad3348142b-129eb601-372a-411c-826c-66fd3668dc36" role="tabpanel" aria-labelledby="tab-2">
-                        
+
                         <div class="tab-pane-content" data-pb-dropzone="tab-129eb601-372a-411c-826c-66fd3668dc36" data-pb-dropzone-name="Cited by">
 
 <div class="widget ajaxCitedByWidget none  widget-none  widget-compact-all" id="c1fddef6-1b99-44ba-840e-adeb575f25c4">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxCitedByWidget" data-ajax-widget-id="c1fddef6-1b99-44ba-840e-adeb575f25c4" data-ajax-spin="true" data-ajax-observe="true">
-    
+
 </div></div>
         </div>
     </div>
 
 </div>
                     </div>
-                
-            
-        
+
+
+
     </div>
 
 </div></div>
@@ -1711,7 +1711,7 @@ Macmillan, London
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -1720,7 +1720,7 @@ Macmillan, London
 <div class="widget general-html none  widget-none" id="588dab7b-f601-4721-a09f-3b9b40c39e93">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div id="download-citations-article-modal" data-modal-name="Download citations article modal" data-type="modal" style="display: none">
 
 <form action="/web/20241007145911/https://www.tandfonline.com/action/downloadCitation" method="post" id="dc_form">
@@ -1783,7 +1783,7 @@ Macmillan, London
 <a href="/web/20241007145911/https://www.tandfonline.com/action/showCitFormats?doi=10.1080/1479758042000797015" style="display: none;"></a></div>
         </div>
     </div>
-    
+
     </div>
 </div><!--end pagefulltext--></div>
         </div>
@@ -1794,31 +1794,31 @@ Macmillan, London
 <div class="widget pageFooter none  widget-none  widget-compact-all" id="d97c173f-d838-4de1-bbd7-ed69f0d36a91">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><footer class="page-footer">
     <div data-pb-dropzone="main">
 
 <div class="widget responsive-layout none footer-subjects hidden-xs hidden-sm widget-none  widget-compact-all" id="1f15adc0-4a59-4d27-93fe-8cbb14a5108a">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="container">
     <div class="row row-md gutterless ">
-        
+
             <div class="col-md-1-1 fit-padding">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget pbOptimizerWidget none  widget-none  widget-compact-all" id="af788167-0054-4892-bd47-5de7cbd64256">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div data-optimizer data-widget-id="af788167-0054-4892-bd47-5de7cbd64256" id="widget-af788167-0054-4892-bd47-5de7cbd64256" data-observer> </div></div>
         </div>
     </div>
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -1827,27 +1827,27 @@ Macmillan, London
 <div class="widget responsive-layout none footer-links widget-none  widget-compact-horizontal" id="64a44adf-45ed-4da3-be26-ef25beb9dbee">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-horizontal"><div class="container">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-2 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget responsive-layout none footer-responsive-container widget-none" id="6918e9df-910a-4206-9bd0-1a02bc17f740">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="container-fluid">
     <div class="row row-sm  ">
-        
+
             <div class="col-sm-1-2 footer_left_col">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-html none  widget-none  widget-compact-all" id="aa9510dd-52ed-4b74-8211-fb510cd9468e">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
 <h3>Information for</h3>
 <ul>
@@ -1863,14 +1863,14 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-sm-1-2 footer_right_col">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget general-html none  widget-none  widget-compact-all" id="ac8a1c0f-9427-44dd-96be-4f2a6ff4ffce">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
 <h3>Open access</h3>
 <ul>
@@ -1886,7 +1886,7 @@ Macmillan, London
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -1894,24 +1894,24 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-md-1-2 ">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget responsive-layout none footer-responsive-container widget-none" id="fc564559-f496-499c-87c7-d851f371f061">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="container-fluid">
     <div class="row row-sm  ">
-        
+
             <div class="col-sm-1-2 footer_left_col">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-html none  widget-none  widget-compact-all" id="cdd1a577-15dc-4271-8941-33a105ec6510">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
 <h3>Opportunities</h3>
 <ul>
@@ -1926,14 +1926,14 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-sm-1-2 footer_right_col">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget general-html none  widget-none  widget-compact-all" id="f3fb3d36-db42-4373-9d0e-432958bf2fbc">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
 <h3>Help and information</h3>
 <ul>
@@ -1948,7 +1948,7 @@ Macmillan, London
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -1956,7 +1956,7 @@ Macmillan, London
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -1965,29 +1965,29 @@ Macmillan, London
 <div class="widget responsive-layout none footer-links widget-none  widget-compact-horizontal" id="b2eecf80-9109-455e-a805-028552718986">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-horizontal"><div class="container">
     <div class="row row-md  ">
-        
+
             <div class="col-md-1-2 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget responsive-layout none footer-responsive-container widget-none" id="b997c64c-ce48-41ce-b3d6-9cb2d1c99131">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none "><div class="container-fluid">
     <div class="row row-sm  ">
-        
+
             <div class="col-sm-1-2 footer_left_col">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-html none  widget-none  widget-compact-all" id="914433f6-0ea6-4a47-9781-07564061be86">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="footer-social-label">
-  <h3>Keep up to date</h3>  
+  <h3>Keep up to date</h3>
 </div>
 <div class="font-size-correction-sml">Register to receive personalised research and resources by email</div>
 <div class="bs">
@@ -2000,10 +2000,10 @@ Macmillan, London
 <div class="widget literatumSocialLinks none  widget-none  widget-compact-all" id="3b6a5e53-cd62-452f-adc1-92e187a0849d">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-all"><div class="bs">
-            
-            
+
+
                 <div class="pull-left links">
                     <a href="http://web.archive.org/web/20241007145911/http://facebook.com/TaylorandFrancisGroup">
                         <i class="icon-facebook" title="Taylor and Francis Group Facebook page" aria-hidden="true" role="button"></i>
@@ -2012,8 +2012,8 @@ Macmillan, London
                         </span>
                     </a>
                 </div>
-            
-            
+
+
                 <div class="pull-left links">
                     <a href="http://web.archive.org/web/20241007145911/https://twitter.com/tandfonline">
                         <span class="icon-square-x-twitter" title="Taylor and Francis Group X Twitter page">
@@ -2026,8 +2026,8 @@ Macmillan, London
                         </span>
                     </a>
                 </div>
-            
-            
+
+
                 <div class="pull-left links">
                     <a href="http://web.archive.org/web/20241007145911/http://linkedin.com/company/taylor-&amp;-francis-group">
                         <i class="fa fa-linkedin-square" title="Taylor and Francis Group LinkedIn page" aria-hidden="true" role="button"></i>
@@ -2036,9 +2036,9 @@ Macmillan, London
                         </span>
                     </a>
                 </div>
-            
+
             <div class="clearfix"></div>
-            
+
                 <div class="pull-left links">
                     <a href="http://web.archive.org/web/20241007145911/https://www.youtube.com/user/TaylorandFrancis">
                         <i class="fa fa-youtube-square" title="Taylor and Francis Group YouTube page" aria-hidden="true" role="button"></i>
@@ -2047,10 +2047,10 @@ Macmillan, London
                         </span>
                     </a>
                 </div>
-            
-            
-            
-            
+
+
+
+
                 <div class="pull-left links">
                     <a href="http://web.archive.org/web/20241007145911/http://www.weibo.com/tandfchina">
                         <i class="fa fa-weibo" title="Taylor and Francis Group Weibo page" aria-hidden="true" role="button"></i>
@@ -2059,7 +2059,7 @@ Macmillan, London
                         </span>
                     </a>
                 </div>
-            
+
             <div class="clearfix"></div>
         </div></div>
         </div>
@@ -2067,14 +2067,14 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-sm-1-2 ">
                 <div class="contents" data-pb-dropzone="contents1">
-                    
-                    
+
+
                 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -2082,14 +2082,14 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-md-1-2 ">
                 <div class="contents" data-pb-dropzone="contents1">
-                    
-                    
+
+
                 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
@@ -2098,17 +2098,17 @@ Macmillan, London
 <div class="widget responsive-layout none  widget-none  widget-compact-horizontal" id="8d803f96-081d-4768-ab7d-280a77af723b">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-horizontal"><div class="container">
     <div class="row row-sm  ">
-        
+
             <div class="col-sm-3-4 ">
                 <div class="contents" data-pb-dropzone="contents0">
 
 <div class="widget general-html none footer-info-container widget-none  widget-compact-vertical" id="b247ecb9-84c9-4762-b270-20f8be1f0ae4">
 
 <div class="wrapped ">
-            
+
             <div class="widget-body body body-none  body-compact-vertical"><div class="informa-group-info">
 <span>Copyright © 2024<a href="http://web.archive.org/web/20241007145911/https://www.informa.com/"><b>Informa UK Limited</b></a></span>
 <span><a href="http://web.archive.org/web/20241007145911/https://informa.com/privacy-policy/">Privacy policy</a></span>
@@ -2124,14 +2124,14 @@ Macmillan, London
 
 </div>
             </div>
-        
+
             <div class="col-sm-1-4 footer_tandf_logo">
                 <div class="contents" data-pb-dropzone="contents1">
 
 <div class="widget general-image none  widget-none  widget-compact-vertical" id="b6bde365-079b-454f-94f6-1841291656a1">
 
 <div class="wrapped 612">
-            
+
             <div class="widget-body body body-none  body-compact-vertical"><a href="http://web.archive.org/web/20241007145911/http://taylorandfrancis.com/" title="Taylor and Francis Group">
 <img src="/web/20241007145911im_/https://www.tandfonline.com/pb-assets/Global/Group-logo-white-on-transparent-1468512845090.png" alt="Taylor and Francis Group" height="112" width="612"/>
 </a></div>
@@ -2140,17 +2140,17 @@ Macmillan, London
 
 </div>
             </div>
-        
+
     </div>
 </div></div>
         </div>
     </div>
-    
+
     </div>
 </footer></div>
         </div>
     </div>
-    
+
         </div>
     </div>
 <script type="text/javascript" src="/web/20241007145911js_/https://www.tandfonline.com/wro/nl5m~jquery-3.6.0.js"></script>
@@ -2184,7 +2184,7 @@ TandfUtils.scriptLoader([
     {js: '/wro/nl5m~abstract-preview.js',selector:'.search-article-tools .previewLinks'},
     {js:'/wro/nl5m~raa-shibboleth.js',selector:".institutional-login"},
     {js:'/wro/nl5m~subjectInterests.js',selector:".subjectInterestsWidget"}
-    
+
 ])
 });
 </script>

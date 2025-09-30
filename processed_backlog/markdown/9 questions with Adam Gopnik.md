@@ -12,63 +12,63 @@
 
 # 9 questions with Adam Gopnik
 
-Sean Illing • September 16, 2017 
+Sean Illing • September 16, 2017
 
 ![9 questions with Adam Gopnik](https://web.archive.org/web/20241123041918im_/https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9249601/adam_gopnik.jpg?quality=90&strip=all&crop=0%2C8.6771736839713%2C100%2C82.645652632057&w=1200)
 
-This week, Adam Gopnik — a staff writer for the New Yorker and author of At the Strangers’ Gate — answers our questions.  
-  
-What’s the first piece of media you consume every day?  
-  
-After, obviously, first checking the New Yorker webpage to see what my colleagues have written, I make the rounds of the websites I like (Talking Points Memo is a favorite) and of the Twitter feeds of political writers I admire. I check in on Jonathan Chait, I look at Vox (really), I see what [Paul] Krugman is tweeting and who’s on first at Slate.  
-  
-Name a writer or publication you disagree with but still read.  
-  
-Writers we think are all wrong and want to read anyway come in two kinds: those who are good writers and bad thinkers — Christopher Hitchens, Norman Podhoretz, and Gore Vidal, each in his terribly different way, are instances of that — and those who may not be original stylists but who we admire for trying to be better thinkers than they were before, stumbling toward truth from a starting place very different from the one we happened to inherit.  
-  
-I disagree, for instance, with David Frum about almost everything, from Iraq to the legacy of Pierre Trudeau in our native Canada, but never doubt his integrity or desire to tell the truth about the world. (It is still astonishing to me that this simple reality — that much of what we believe is shaped by our background, and we ought to try and disbelieve it to find out what you might think if you had been born some other way — is hard for people to accept. Saying “Imagine you were born a Palestinian…” to a Likudnik, and of course the other way around, is still the hardest of intellectual exercises. As of course it is for me, too, as in saying, “What if you were the child of right-wing parents from an insecure Southern family? Would your views be so safely and piously liberal then?”)  
-  
-Who is the person who has most influenced the way you think?  
-  
-Well, John Stuart Mill. One only has to read a page of Mill to be reminded that passionate advocacy and particularized argument are allies, not enemies. We sometimes forget, reading his circumspectly argued pages, that he was the most passionate advocate alive for progressive causes in his day — some of which occupied the outer edge of plausibility, women’s rights above all. The same is true of his resolute lack of “realism” about the American Civil War; Mill was as responsible as any one man could be for the North-of-England millworkers’ refusal to work with Southern cotton, at great cost to their own well-being.  
-  
-And then, however ridiculous this may sound, Darwin and Shakespeare. Darwin by showing that there is no idea too large to be made lucid. (He had the single biggest idea anyone has ever had, and wrote the single most lucid book about it.) And Shakespeare because he reminds you, again and again, what punditry can make you forget: that human beings are irredeemably double and always do the opposite of what they believe and plunge into perils they know not of. All of us, all the time.  
-  
-When was the last time you changed your mind about something?  
-  
-I was a vehement proponent of what has been called the standard orthodoxy on American imprisonment and the epidemic of incarceration, which so many of us believe to be the moral crisis of our time. (Until this second moral crisis struck, perhaps, last year.) Briefly, it was the view that the epidemic of incarceration, among minorities particularly, had to do with “Draconian” drug laws and mandatory sentencing and private prison contractors.  
-  
-Then this year I read John Pfaff’s book and articles showing, with evidence that seems to me irrefutable — and taking a shot or two at me along the way — that however horrific the epidemic might be, these were not its cause. (Pfaff thinks that mass incarceration is a horror, but that it has more to do with the epidemic of prosecutorial swashbuckling than any other single factor.) I read the book, saw the facts, swallowed hard, and wrote a piece saying that I was wrong and he was right, and was glad to have written it.  
-  
-What’s your worst intellectual habit?  
-  
-My very wise and politically savvy 17-year-old daughter says I get too emotional about political issues. I think she’s right. She knows that if she sees me race across a room, I have just read something about Trump. Turning ideas into feelings is the thing an essayist is supposed to do, but political punditry should probably be more detached. (Rick Hertzberg, for instance, never loses his cool, or his good humor.)  
-  
-If my recently arrived-at “political” stuff has value, though — as in what I’ve written about gun control and the misreading of the Second Amendment — perhaps it’s because it connects the feelings we have as parents to the arguments we need as citizens.  
-  
-What inspires you to learn?  
-  
-Love of reading. I don’t read in order to resolve my curiosity; I kindle my curiosity because it gives me the chance to read. I am an addict of the printed page. If I get on a four-hour flight without a book to read, I panic like that character on The Twilight Zone seeing a demon on the wing.  
-  
-What do you need to believe in order to get through the day?  
-  
-I’m a liberal. A 19th-century liberal humanist, who believes in progress and reform, and in parliamentary democracy as the key to both. But an old-tyme liberal who has learned the painful 20th-century lessons that progress and reform and parliamentary democracy are infinitely more precarious, less obviously, the leading edge of history, than 19th-century liberals hoped. So, I need to believe that liberalism remains vital and potent, while also recognizing that this belief is in itself more fragile than I would like it to be. Every morning, you seek a place between fallibilism and faith.  
-  
-What’s a view that you hold but can’t defend?  
-  
-I suppose every liberal has a key belief that can’t be defended, in the sense of being shown to be inarguably true. That’s the belief that it is better to live in a peaceful, prosperous, and pluralist society than in a war-torn and tribal one. We can show that cosmopolitan civilizations have produced more of the good things in life for more people than any other kind, but we can’t have a “ground” to tell people that those values are naturally the most important.  
-  
-I did a lecture series last year at the Metropolitan Museum in New York about Jerusalem in the year 1000. It was a city governed by uneasy but persistent habits of coexistence, all destroyed, willfully, by century’s end. The undismissible truth is that many people prefer a life of violence and impoverishment if they feel that it is necessary to the triumph of their tribe, particularly if they feel their tribe has been insulted by the cosmopolitans.  
-  
-What book have you recommended the most?  
-  
-There are two. I urge everyone I like to read [James] Boswell’s Life of Johnson, the most entertaining book ever written in English. It reminds good liberals that [Samuel] Johnson — a hyper-Tory, a hierarchy-loving authoritarian in politics, and a devout Christian in faith — was also one of the most humane men ever to have lived. We need that truth. It also is a book that reminds me, at least, that Boswell’s unashamed lack of dignity, his willingness to write in detail about his friends and risk looking foolish, was the key to his genius.  
-  
-The other book I urge on everyone is Karl Popper’s The Open Society and Its Enemies, which still seems to me the best-argued, the most profound, philosophical defense of liberalism that we have. (And Popper, contrary to what many believe, was a social democrat when he wrote it, as far from “reaction” as you can be.) His still-cogent point is that the history of mankind is one of progress toward openness — and just as resolutely of regression toward tribalism.  
-  
-Whenever anyone tries to get too granular about political causes — oh, it’s the economic distress of the Midwest, or, for that matter, Oh, it was the inflation in Germany — I want to remind them of this inexorable truth of human existence. Open societies are beacons leading us onward, but closed societies are magnets, drawing us back. We live on the brink of backwardness at every moment. Or to put it another way, when asked to choose between Athens and Jerusalem, always choose Alexandria. They have libraries there.  
-  
-You’ve read 1 article in the last month Here at Vox, we're unwavering in our commitment to covering the issues that matter most to you — threats to democracy, immigration, reproductive rights, the environment, and the rising polarization across this country. Our mission is to provide clear, accessible journalism that empowers you to stay informed and engaged in shaping our world. By becoming a Vox Member, you directly strengthen our ability to deliver in-depth, independent reporting that drives meaningful change. We rely on readers like you — join us. Swati Sharma Vox Editor-in-Chief Membership Monthly Annual One-time $5/month $10/month $25/month $50/month Other $50/year $100/year $150/year $200/year Other $25 $50 $100 $250 Other Join for $10/month We accept credit card, Apple Pay, and Google Pay.  
-  
-You can also contribute via 
+This week, Adam Gopnik — a staff writer for the New Yorker and author of At the Strangers’ Gate — answers our questions.
+
+What’s the first piece of media you consume every day?
+
+After, obviously, first checking the New Yorker webpage to see what my colleagues have written, I make the rounds of the websites I like (Talking Points Memo is a favorite) and of the Twitter feeds of political writers I admire. I check in on Jonathan Chait, I look at Vox (really), I see what [Paul] Krugman is tweeting and who’s on first at Slate.
+
+Name a writer or publication you disagree with but still read.
+
+Writers we think are all wrong and want to read anyway come in two kinds: those who are good writers and bad thinkers — Christopher Hitchens, Norman Podhoretz, and Gore Vidal, each in his terribly different way, are instances of that — and those who may not be original stylists but who we admire for trying to be better thinkers than they were before, stumbling toward truth from a starting place very different from the one we happened to inherit.
+
+I disagree, for instance, with David Frum about almost everything, from Iraq to the legacy of Pierre Trudeau in our native Canada, but never doubt his integrity or desire to tell the truth about the world. (It is still astonishing to me that this simple reality — that much of what we believe is shaped by our background, and we ought to try and disbelieve it to find out what you might think if you had been born some other way — is hard for people to accept. Saying “Imagine you were born a Palestinian…” to a Likudnik, and of course the other way around, is still the hardest of intellectual exercises. As of course it is for me, too, as in saying, “What if you were the child of right-wing parents from an insecure Southern family? Would your views be so safely and piously liberal then?”)
+
+Who is the person who has most influenced the way you think?
+
+Well, John Stuart Mill. One only has to read a page of Mill to be reminded that passionate advocacy and particularized argument are allies, not enemies. We sometimes forget, reading his circumspectly argued pages, that he was the most passionate advocate alive for progressive causes in his day — some of which occupied the outer edge of plausibility, women’s rights above all. The same is true of his resolute lack of “realism” about the American Civil War; Mill was as responsible as any one man could be for the North-of-England millworkers’ refusal to work with Southern cotton, at great cost to their own well-being.
+
+And then, however ridiculous this may sound, Darwin and Shakespeare. Darwin by showing that there is no idea too large to be made lucid. (He had the single biggest idea anyone has ever had, and wrote the single most lucid book about it.) And Shakespeare because he reminds you, again and again, what punditry can make you forget: that human beings are irredeemably double and always do the opposite of what they believe and plunge into perils they know not of. All of us, all the time.
+
+When was the last time you changed your mind about something?
+
+I was a vehement proponent of what has been called the standard orthodoxy on American imprisonment and the epidemic of incarceration, which so many of us believe to be the moral crisis of our time. (Until this second moral crisis struck, perhaps, last year.) Briefly, it was the view that the epidemic of incarceration, among minorities particularly, had to do with “Draconian” drug laws and mandatory sentencing and private prison contractors.
+
+Then this year I read John Pfaff’s book and articles showing, with evidence that seems to me irrefutable — and taking a shot or two at me along the way — that however horrific the epidemic might be, these were not its cause. (Pfaff thinks that mass incarceration is a horror, but that it has more to do with the epidemic of prosecutorial swashbuckling than any other single factor.) I read the book, saw the facts, swallowed hard, and wrote a piece saying that I was wrong and he was right, and was glad to have written it.
+
+What’s your worst intellectual habit?
+
+My very wise and politically savvy 17-year-old daughter says I get too emotional about political issues. I think she’s right. She knows that if she sees me race across a room, I have just read something about Trump. Turning ideas into feelings is the thing an essayist is supposed to do, but political punditry should probably be more detached. (Rick Hertzberg, for instance, never loses his cool, or his good humor.)
+
+If my recently arrived-at “political” stuff has value, though — as in what I’ve written about gun control and the misreading of the Second Amendment — perhaps it’s because it connects the feelings we have as parents to the arguments we need as citizens.
+
+What inspires you to learn?
+
+Love of reading. I don’t read in order to resolve my curiosity; I kindle my curiosity because it gives me the chance to read. I am an addict of the printed page. If I get on a four-hour flight without a book to read, I panic like that character on The Twilight Zone seeing a demon on the wing.
+
+What do you need to believe in order to get through the day?
+
+I’m a liberal. A 19th-century liberal humanist, who believes in progress and reform, and in parliamentary democracy as the key to both. But an old-tyme liberal who has learned the painful 20th-century lessons that progress and reform and parliamentary democracy are infinitely more precarious, less obviously, the leading edge of history, than 19th-century liberals hoped. So, I need to believe that liberalism remains vital and potent, while also recognizing that this belief is in itself more fragile than I would like it to be. Every morning, you seek a place between fallibilism and faith.
+
+What’s a view that you hold but can’t defend?
+
+I suppose every liberal has a key belief that can’t be defended, in the sense of being shown to be inarguably true. That’s the belief that it is better to live in a peaceful, prosperous, and pluralist society than in a war-torn and tribal one. We can show that cosmopolitan civilizations have produced more of the good things in life for more people than any other kind, but we can’t have a “ground” to tell people that those values are naturally the most important.
+
+I did a lecture series last year at the Metropolitan Museum in New York about Jerusalem in the year 1000. It was a city governed by uneasy but persistent habits of coexistence, all destroyed, willfully, by century’s end. The undismissible truth is that many people prefer a life of violence and impoverishment if they feel that it is necessary to the triumph of their tribe, particularly if they feel their tribe has been insulted by the cosmopolitans.
+
+What book have you recommended the most?
+
+There are two. I urge everyone I like to read [James] Boswell’s Life of Johnson, the most entertaining book ever written in English. It reminds good liberals that [Samuel] Johnson — a hyper-Tory, a hierarchy-loving authoritarian in politics, and a devout Christian in faith — was also one of the most humane men ever to have lived. We need that truth. It also is a book that reminds me, at least, that Boswell’s unashamed lack of dignity, his willingness to write in detail about his friends and risk looking foolish, was the key to his genius.
+
+The other book I urge on everyone is Karl Popper’s The Open Society and Its Enemies, which still seems to me the best-argued, the most profound, philosophical defense of liberalism that we have. (And Popper, contrary to what many believe, was a social democrat when he wrote it, as far from “reaction” as you can be.) His still-cogent point is that the history of mankind is one of progress toward openness — and just as resolutely of regression toward tribalism.
+
+Whenever anyone tries to get too granular about political causes — oh, it’s the economic distress of the Midwest, or, for that matter, Oh, it was the inflation in Germany — I want to remind them of this inexorable truth of human existence. Open societies are beacons leading us onward, but closed societies are magnets, drawing us back. We live on the brink of backwardness at every moment. Or to put it another way, when asked to choose between Athens and Jerusalem, always choose Alexandria. They have libraries there.
+
+You’ve read 1 article in the last month Here at Vox, we're unwavering in our commitment to covering the issues that matter most to you — threats to democracy, immigration, reproductive rights, the environment, and the rising polarization across this country. Our mission is to provide clear, accessible journalism that empowers you to stay informed and engaged in shaping our world. By becoming a Vox Member, you directly strengthen our ability to deliver in-depth, independent reporting that drives meaningful change. We rely on readers like you — join us. Swati Sharma Vox Editor-in-Chief Membership Monthly Annual One-time $5/month $10/month $25/month $50/month Other $50/year $100/year $150/year $200/year Other $25 $50 $100 $250 Other Join for $10/month We accept credit card, Apple Pay, and Google Pay.
+
+You can also contribute via
 

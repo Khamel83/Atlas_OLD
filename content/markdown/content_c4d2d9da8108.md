@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20240625113513/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -189,7 +189,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -248,7 +248,7 @@ freestar.config.disabledProducts = {
     </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -470,11 +470,11 @@ freestar.config.disabledProducts = {
 
 <p>If In The Moment isn’t quite your speed, Behr has also rolled out a <a href="http://web.archive.org/web/20240625113513/http://www.behr.com/consumer/inspiration/2018-color-trends" target="_blank">“Color Trends palette”</a> that’s a spectrum of 20 shades they believe we'll be seeing more of over the next year.</p><div class="product-well"><div class="product-well__label">Shop the Story</div><div id="relatedProductsRoot" data-show-article-cta="true"><div class="product-well__carousel-spacer"></div></div></div>
               <p>Interpret this campaign as a bid, on Behr’s part, as a way to join the same bandwagon as Pantone, who annually dubs a certain color the Color of the Year. To my mind, In The Moment certainly beats any shade Pantone has picked in recent memory, though it doesn’t have a patch on <a href="http://web.archive.org/web/20240625113513/https://food52.com/blog/20071-this-is-the-world-s-favorite-color">Marrs Green</a>, that blazing hue chosen as the world’s favorite color just a few weeks back.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="18630" data-type="post" data-layout="flag"></span>
 
@@ -487,7 +487,7 @@ freestar.config.disabledProducts = {
       <div class="card__type"></div>
 
 <h3 class="card__heading" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article Click" data-ga-event-label="18630" data-ga-destination-url="/blog/18630-do-you-like-pantone-s-2017-color-of-the-year">
-        Do You Like Pantone&#39;s 2017 Color of the Year? 
+        Do You Like Pantone&#39;s 2017 Color of the Year?
       </h3>
 
 <button type="button" class="card__cta btn btn--secondary" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article CTA Button Click">
@@ -498,7 +498,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="20071" data-type="post" data-layout="flag"></span>
 
@@ -534,7 +534,7 @@ freestar.config.disabledProducts = {
                   <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Home52" data-ga-destination-url="/tags/home52" href="/web/20240625113513/https://food52.com/tags/home52">Home52</a></li>
               </ul>
             </div>
-            
+
 <div class="comments-teaser">
   <div class="comments-teaser__icons">
     <span class="icon__comments"></span>
@@ -669,7 +669,7 @@ freestar.config.disabledProducts = {
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">

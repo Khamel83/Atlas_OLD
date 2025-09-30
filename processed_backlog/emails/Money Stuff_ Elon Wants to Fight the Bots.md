@@ -7,120 +7,120 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Don’t feel bad about my vacation or anything. I am trying to take some time to focus on other work, so Money Stuff will be
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Don’t feel bad about my vacation or anything. I am trying to take some time to focus on other work, so Money Stuff will be published infrequently for the next few weeks. On that note, tomorrow is the Bloomberg Crypto Summit in New York. At 11:25 a.m., I will be moderating a conversation with Sam Bankman-Fried. Every time I talk with SBF it is fun, and  last time I did it … might have marked the top for the crypto market? Perhaps tomorrow will mark the bottom. I am looking forward to it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 In some parallel universe, Elon Musk’s dispute with Twitter Inc. is about how many bots there are on Twitter. In that universe, Twitter’s merger agreement with Musk contains a representation that no more than 5% of Twitter’s monetizable daily active users, or mDAUs, are bots, Musk’s obligation to close the merger is contingent on this representation being true, and Musk has discovered that it is wrong. Therefore he is able to walk away from the agreement, and maybe even sue Twitter for damages for misleading him.
 In our actual universe none of this is true. In the real world, Musk signed a merger agreement with Twitter, and it was publicly filed, and you can read it here. That merger agreement does not mention bots at all. In pursuing and signing this deal, Musk  was excited about “defeating” the bots, sure, but he didn’t care how many there were. (The more of them there are, the more glory in defeating them.) He did not do any due diligence on the number of bots before signing the agreement, nor did he ask Twitter to make any promises about how many bots there were. Nothing in the negotiations over the deal, or in the merger agreement itself, was in any way contingent on anything at all about bots.
@@ -169,14 +169,14 @@ Again, if you wanted to have a trial on the question “how many Twitter users a
 On Tuesday,  there will be a hearing on Twitter’s motion to expedite the case and have a trial in September, which Musk is opposing. (He wants a trial in February 2023.) That hearing will not decide the case or anything, but it will set the tone in important ways. If the judge, Delaware Chancellor Kathaleen McCormick, agrees with Musk that this should be a fact-intensive trial in which dozens of experts will have to testify about how to count bots, then she will probably delay the trial until 2023. That will be very good for Musk: the delay, but also the focus on bot-counting. If she agrees with Twitter that this should be a straightforward trial about what the merger agreement says and whether Musk has to do it, then she will probably set the trial for September, and that will be very good for Twitter. 
 This is extremely dumb and I wish I had not written it. But I feel like almost everything that I see about this dispute takes place in the alternate universe, the one where Twitter and Musk are going to court to determine once and for all how many bots there are. They just aren’t. In our actual universe, Twitter has made only extremely cautious and limited representations about how it counts bots. And Musk is mad that the bot-counters didn’t count bots the way he wanted them to. He met with Twitter’s management, and they explained how they count bots, and he was horrified. He came away from their meeting thinking that he could do a better job of fighting spam at Twitter, by sprinkling some machine learning on the spam or whatever. That’s great! That’s why he wanted to buy Twitter! And why he should have to!
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] In particular it does a good job of arguing that Musk’s concern about bots is *genuine*, driven not by the market’s decline over the last few months (which makes this deal look more expensive and less attractive to Musk) but by real concern about Twitter’s ability to count bots. As I argue in the text, I don’t think this is particularly relevant to Musk’s obligation to close the deal, but it does make his position more sympathetic. In his lawyers’ telling, his concerns were triggered not by the market drop but by Twitter’s disclosure, three days after signing, that it had incorrectly calculated some of its daily active user numbers for years. The mistake was big enough to require updating the historical numbers, though small enough that even Musk’s lawyers don’t argue that it was material to the deal. (Some quarterly counts were off by about 1%.) We talked about this restatement  at the time, and I explained that it was obviously not big enough to be a “material adverse effect” that could get Musk out of the deal, and it looks like his lawyers agree. But I also said that, if Twitter knew about the mistake before the merger agreement was signed — which seemed likely to me, since they disclosed it publicly just three days later — then they should have disclosed it to Musk before signing the deal. But his filing says they didn’t: “On April 28, just three days after signing the Agreement, Twitter restated three years of its mDAU numbers, despite never disclosing the issue to Defendants pre-signing.” I … that’s weird? They should have disclosed that? 
+
+  [1] In particular it does a good job of arguing that Musk’s concern about bots is *genuine*, driven not by the market’s decline over the last few months (which makes this deal look more expensive and less attractive to Musk) but by real concern about Twitter’s ability to count bots. As I argue in the text, I don’t think this is particularly relevant to Musk’s obligation to close the deal, but it does make his position more sympathetic. In his lawyers’ telling, his concerns were triggered not by the market drop but by Twitter’s disclosure, three days after signing, that it had incorrectly calculated some of its daily active user numbers for years. The mistake was big enough to require updating the historical numbers, though small enough that even Musk’s lawyers don’t argue that it was material to the deal. (Some quarterly counts were off by about 1%.) We talked about this restatement  at the time, and I explained that it was obviously not big enough to be a “material adverse effect” that could get Musk out of the deal, and it looks like his lawyers agree. But I also said that, if Twitter knew about the mistake before the merger agreement was signed — which seemed likely to me, since they disclosed it publicly just three days later — then they should have disclosed it to Musk before signing the deal. But his filing says they didn’t: “On April 28, just three days after signing the Agreement, Twitter restated three years of its mDAU numbers, despite never disclosing the issue to Defendants pre-signing.” I … that’s weird? They should have disclosed that?
 
 
   [2] Musk’s lawyers don’t argue that automation or AI or machine learning would be better or anything; they just expect everyone to think “oh of course, AI.” Presumably you would use human judgment to train the AI? But, sure, if you want to decide whose approach is better, you would need to examine facts and talk to experts and get a sense of the debate. My point is that there is no reason for the court to care whose approach is better, because that simply isn’t relevant to anyone’s obligations under the merger agreement.
 
 
-  [3] Similarly, one of Musk’s lawyers’ letters to Twitter from May — included in Twitter’s latest revised proxy statement — says that “Mr. Musk was surprised to learn of the lax methodologies that Twitter employs to assess the actual prevalence of fake or spam accounts on its platform,” and that “Mr. Musk requested that Twitter apply more rigorous computer-aided and third-party testing to determine the prevalence of fake or spam accounts on its platform with greater certainty.” Again, that is totally a thing that he can do, when he buys Twitter: If he owns the company, he is free to tell it how to run its business. He just has to buy it first. 
+  [3] Similarly, one of Musk’s lawyers’ letters to Twitter from May — included in Twitter’s latest revised proxy statement — says that “Mr. Musk was surprised to learn of the lax methodologies that Twitter employs to assess the actual prevalence of fake or spam accounts on its platform,” and that “Mr. Musk requested that Twitter apply more rigorous computer-aided and third-party testing to determine the prevalence of fake or spam accounts on its platform with greater certainty.” Again, that is totally a thing that he can do, when he buys Twitter: If he owns the company, he is free to tell it how to run its business. He just has to buy it first.
 
 
   [4] There  is also a dispute about whether Twitter breached its  information covenant by not giving Musk all the information he wants about bots, but that is in an important sense downstream of the dispute about misrepresentations. Nobody really pretends that Musk was asking for information to help him close the deal, which is what the information covenant is actually for. Instead, Musks’ lawyers argue that he “exercised [his] information rights to validate Twitter’s user claims” — that is, to check if Twitter’s representations are true. If you notice that Musk effectively concedes that the representations are true, then these information demands are irrelevant. There is also a dispute about whether Twitter was operating “in the ordinary course” when it fired a couple of employees; Musk’s lawyers seem pretty half-hearted about this one but it is still a live controversy I suppose.
@@ -185,114 +185,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] We talked  here and  here about potential remedies in this case. The short version is that if the judge concludes that Musk has no right to terminate the merger agreement, then she can either make him pay $1 billion of damages (but no more) or force him to close the deal (“specific performance”). A $1 billion award is effectively a win for Musk; it gets him out of his deal cheap, whereas paying $44 billion to buy Twitter is expensive. The merger agreement says, however, that he can’t be forced into specific performance unless his $13 billion of debt financing is available, and the debt financing commitments have an outside date of April 25, 2023. Musk wants a trial in February 2023; with a bit of luck and delay that could push a verdict past when the financing expires, giving him another excuse to walk away. This is not airtight — we  talked the other day about a 2021 decision by Chancellor McCormick, the judge in this case, ordering specific performance in a similar case even though the buyer’s financing was not available, on the theory that the buyer had intentionally torpedoed the financing and could not use that as an excuse. Still, might as well try.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

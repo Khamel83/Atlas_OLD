@@ -33,8 +33,8 @@ but Gucci-specific revenue was down a little more than projected. My guy Luca So
  
 
 🛍️  For those of you with The Shoppies: How good did TWP look yesterday at the Bowery Hotel ( https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/twp/slideshow/collection?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#16 )? In its short existence, Trish Wescoat Pound’s glam-essentials collection, backed by none other than Andrew Rosen, has become a
-top brand ( https://puck.news/trish-wescoat-pound-the-goldilocks-fashion-star-of-2023/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at stores across the country. (I recently said to a fashion exec that I heard it was printing money. They said, “Almost.”) Anyway, Trish turned all that fabulous shirting up a notch at her runway show this season by enlisting stylist Jorden Bickham, whose talent is in making everything she touches look extremely cool. After I posted a short video of the final runway walk, about a gazillion people DMed me, including my best friend Pam, saying they wanted to wear it all. Many people asked about the shoes. Sarah did the work for you here, and found that they were actually Brave Pudding’s $380 “shoe slippers,” 
-( https://go.shopmy.us/p-13021403?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) which are so Leandra Medine Cohen–coded that I don’t understand how they aren’t called the Leandra. (As Sarah noted ( https://puck.news/what-the-brands-are-doing-to-keep-us-spending-in-january/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a few weeks ago, slippers-as-shoes-you-wear-on-cement are a real thing.) If this new TWP collection made you want to shop right now (understandable), we recommend the hoodie cashmere sweater 
+top brand ( https://puck.news/trish-wescoat-pound-the-goldilocks-fashion-star-of-2023/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at stores across the country. (I recently said to a fashion exec that I heard it was printing money. They said, “Almost.”) Anyway, Trish turned all that fabulous shirting up a notch at her runway show this season by enlisting stylist Jorden Bickham, whose talent is in making everything she touches look extremely cool. After I posted a short video of the final runway walk, about a gazillion people DMed me, including my best friend Pam, saying they wanted to wear it all. Many people asked about the shoes. Sarah did the work for you here, and found that they were actually Brave Pudding’s $380 “shoe slippers,”
+( https://go.shopmy.us/p-13021403?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) which are so Leandra Medine Cohen–coded that I don’t understand how they aren’t called the Leandra. (As Sarah noted ( https://puck.news/what-the-brands-are-doing-to-keep-us-spending-in-january/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a few weeks ago, slippers-as-shoes-you-wear-on-cement are a real thing.) If this new TWP collection made you want to shop right now (understandable), we recommend the hoodie cashmere sweater
 ( https://go.shopmy.us/p-13021772?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or her signature cropped shirt… but in suede ( https://go.shopmy.us/p-13033412?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). 
 
  
@@ -143,7 +143,7 @@ Can Gap translate social media buzz and nostalgic marketing into sustained merch
 heart; he’s the
 marketing guy. We won’t get the Q4 financial results until March, but marketing can pivot faster than inventory. In other words, it will take a few more quarters to find out whether the Gap’s turnaround is real—or just a clever marketing mirage.
 
- 
+
 
 What We’re Reading… and Listening To…
 -------------------------------------------
@@ -167,7 +167,7 @@ How do you feel about doing something you’re bad at? I’m rethinking how I ap
 
 This is what Nicole Johnson—a partner at the be-all-end-all of consumer funds, Forerunner Ventures—is looking to invest in this year. [Inc ( https://www.inc.com/ali-donaldson/what-forerunner-ventures-looks-for-in-consumer-startups-vision-magnetism-and-unfair-advantages/91140216?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Until tomorrow,
 
@@ -222,6 +222,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU97lRLoXxNm7i4WsaptY=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

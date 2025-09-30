@@ -18,10 +18,10 @@
 <!-- End Wayback Rewrite JS Include -->
 <title>The Playboy Interview with Ta-Nehisi Coates | Playboy</title><!--####### Page Specific ##########--><meta charset="utf-8"/><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
 <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"abb2e05bc3","applicationID":"4959957","transactionName":"cQoKFUBaD11URk1PBB0EFhVbVg9UQhsRUVlF","queueTime":2,"applicationTime":981,"agent":""}</script>
-<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" name="viewport"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue. 
-" name="description"/><!--####### Twitter ##########--><meta content="summary_large_image" name="twitter:card"/><meta content="@playboy" name="twitter:site"/><meta content="The Playboy Interview with Ta-Nehisi Coates" name="twitter:title"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue. 
-" name="twitter:description"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" name="twitter:image"/><!--####### Facebook ##########--><meta content="290743504454630" property="fb:app_id"/><meta content="6280019085" property="fb:pages"/><meta content="http://web.archive.org/web/20180407192553/http://www.playboy.com/articles/playboy-interview-ta-nehisi-coates" property="og:url"/><meta content="article" property="og:type"/><meta content="Playboy" property="og:site_name"/><meta content="The Playboy Interview with Ta-Nehisi Coates" property="og:title"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue. 
-" property="og:description"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" property="og:image"/><meta content="image/jpeg" property="og:image:type"/><meta content="1280" property="og:image:width"/><meta content="960" property="og:image:height"/><!--####### Google ##########--><meta content="The Playboy Interview with Ta-Nehisi Coates" itemprop="name"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue. 
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" name="viewport"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue.
+" name="description"/><!--####### Twitter ##########--><meta content="summary_large_image" name="twitter:card"/><meta content="@playboy" name="twitter:site"/><meta content="The Playboy Interview with Ta-Nehisi Coates" name="twitter:title"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue.
+" name="twitter:description"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" name="twitter:image"/><!--####### Facebook ##########--><meta content="290743504454630" property="fb:app_id"/><meta content="6280019085" property="fb:pages"/><meta content="http://web.archive.org/web/20180407192553/http://www.playboy.com/articles/playboy-interview-ta-nehisi-coates" property="og:url"/><meta content="article" property="og:type"/><meta content="Playboy" property="og:site_name"/><meta content="The Playboy Interview with Ta-Nehisi Coates" property="og:title"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue.
+" property="og:description"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" property="og:image"/><meta content="image/jpeg" property="og:image:type"/><meta content="1280" property="og:image:width"/><meta content="960" property="og:image:height"/><!--####### Google ##########--><meta content="The Playboy Interview with Ta-Nehisi Coates" itemprop="name"/><meta content="Bomani Jones interiews Ta-Nehisi Coates for Playboy's July/August 2016 issue.
 " itemprop="description"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" itemprop="image"/><!--####### Sailthru ##########--><meta content="The Playboy Interview with Ta-Nehisi Coates" name="sailthru.title"/><meta content="playboy-magazine,news,culture,playboy-interview,sex-and-culture,heritage,july-august-2016,article,no-bunnies-vertical" name="sailthru.tags"/><!--####### Mobile Apps ##########--><meta content="app-id=com.playboy.playboynow" name="google-play-app"/><meta content="app-id=930678202 app-argument=pbnow://" name="itunes-app"/><meta content="https://images.contentful.com/ogz4nxetbde6/1zF72Cod8w6SkYgUwsaMEK/92112f3c9a1c5c8bb9942e113b4dee11/main.jpg?fm=jpg" name="sailthru.image.full"/><meta content="https://images.contentful.com/ogz4nxetbde6/7dzRlzYrscGwEyoC2kQ8ga/79579f05a2d367db7b234c500b167142/sq.jpg?fm=jpg" name="sailthru.image.thumb"/><meta content="2016-06-22 00:00:00" name="sailthru.date"/><meta content="64JKLACty0YagSqiOy6Gs2" name="sailthru.postid"/><meta content="6849" itemprop="wordCount"/><meta content="http://web.archive.org/web/20180407192553im_/https://images.contentful.com/ogz4nxetbde6/7dzRlzYrscGwEyoC2kQ8ga/79579f05a2d367db7b234c500b167142/sq.jpg?w=302&amp;h=302&amp;fit=fill" itemprop="thumbnailUrl"/><meta content="Playboy.com" itemprop="publisher"/><meta content="2016-06-22T13:00:00+00:00" property="article:published_time"/><meta content="https://facebook.com/playboy" property="article:publisher"/><meta content="Sex &amp; Culture" property="article:section"/><meta content="playboy magazine" property="article:tag"/><meta content="news" property="article:tag"/><meta content="culture" property="article:tag"/><meta content="Playboy Interview" property="article:tag"/><meta content="Sex &amp; Culture" property="article:tag"/><meta content="Heritage" property="article:tag"/><meta content="July/August 2016" property="article:tag"/><link href="//web.archive.org/web/20180407192553/http://www.googletagservices.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://bounceexchange.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://www.googletagmanager.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://b.scorecardresearch.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://ak.sail-horizon.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://edge.quantserve.com/" rel="dns-prefetch"/><link href="//web.archive.org/web/20180407192553/http://pixel.quantserve.com/" rel="dns-prefetch"/><link href="http://web.archive.org/web/20180407192553/http://www.playboy.com/articles/playboy-interview-ta-nehisi-coates" rel="canonical"/><link href="//web.archive.org/web/20180407192553im_/http://cdn.playboy.com/assets/icons/app/favicon-9071ddcc726af16f752b44338c86dfe00e473a25230099defc4a89a535ecbece.ico" rel="shortcut icon"/><link href="//web.archive.org/web/20180407192553im_/http://cdn.playboy.com/assets/icons/app/apple-touch-icon-114x114-b68ff57abe747d8aee6f4de770e0ea7fd2b63a679ff272e249bd48c510b67ef6.png" rel="apple-touch-icon" sizes="114x114"/><link href="//web.archive.org/web/20180407192553im_/http://cdn.playboy.com/assets/icons/app/apple-touch-icon-144x144-5024dc4e46fee75a657053c336b96e253bd94c3b3a0b52b18d9f1f93653378f2.png" rel="apple-touch-icon" sizes="144x144"/><script src="http://web.archive.org/web/20180407192553js_/https://cdn.optimizely.com/js/3728810335.js" type="text/javascript"></script><script src="//web.archive.org/web/20180407192553js_/http://cdn.playboy.com/assets/v2/foundation-28dd38e1e1f8863acb655e2a9f472feb1b14bd1960af17fa9b58130daecc016b.js"></script><script>(function() {
     PB.Account.User._createUrl = "http://web.archive.org/web/20180407192553/https://login.playboy.com/users";
     PB.Account.User._updateUrl = "http://web.archive.org/web/20180407192553/https://login.playboy.com/users";
@@ -135,7 +135,7 @@ Object.keys(PB.Analytics.dimensions).forEach(function(dimension) {
 	color: black;
 	font-weight: 500;
 	margin-bottom: -10px;
-	margin-top: 20px;	
+	margin-top: 20px;
 	text-align:center;
 	text-transform: none;
 }
@@ -148,7 +148,7 @@ Object.keys(PB.Analytics.dimensions).forEach(function(dimension) {
 	text-transform: none;
 }
 
-.attribute{	
+.attribute{
     font-size: 13px !important;
     line-height: 17px !important;
     color: black;
@@ -187,12 +187,12 @@ Object.keys(PB.Analytics.dimensions).forEach(function(dimension) {
 	text-transform: uppercase;
 	padding: 11px 11px 6px 11px;
 	font-weight: 700;
-	background: #979797;	
-	margin-bottom: 0px;	
+	background: #979797;
+	margin-bottom: 0px;
 }
 
 .company{
-	color: white;	
+	color: white;
 }
 
 /* RECIPES & BOXES */
@@ -201,13 +201,13 @@ Object.keys(PB.Analytics.dimensions).forEach(function(dimension) {
 	display: table;
 	width: 100%;
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 
 #ingredients{
 	padding: 0px 30px 0px 0px;
 	display: table-cell;
-	margin: 0px;	
+	margin: 0px;
 	width: 40%;
 }
 
@@ -255,7 +255,7 @@ Object.keys(PB.Analytics.dimensions).forEach(function(dimension) {
 	display: block;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
 	-moz-column-count: 3; /* Firefox */
-	column-count: 3; 
+	column-count: 3;
 }
 
 /* THIS WEEK IN SEX */
@@ -335,7 +335,7 @@ font-weight: 900;
 .boxlist{
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
 	-moz-column-count: 2; /* Firefox */
-	column-count: 2; 
+	column-count: 2;
 }
 
 .bigtype{
@@ -369,7 +369,7 @@ font-weight: 900;
 @media (max-width: 400px){
 	.pq{
 	font-size: 30px;
-	line-height: 30px;	
+	line-height: 30px;
 }
 
 .quotebox{
@@ -381,7 +381,7 @@ font-weight: 900;
 .boxlist{
 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
 	-moz-column-count: 1; /* Firefox */
-	column-count: 1; 
+	column-count: 1;
 }
 
 #ingredients{
@@ -390,10 +390,10 @@ font-weight: 900;
 }
 
 #directions{
-	width: 100%;	
+	width: 100%;
 	display: box;
 }
-	
+
 }</style><em>This story appears in the July/August 2016 issue of Playboy.&nbsp;</em><a href="//web.archive.org/web/20180407192553/http://www.playboy.com/subscribe">Subscribe</a><p class="bigtype"><span class="initialcapbig">M</span>aking the case that the United States government owes black people for what it has done to them is an unlikely way to become a household name, but that’s what Ta-Nehisi Coates did two years ago. “The Case for Reparations” was the cover story of the June 2014 issue of The Atlantic, and the publication says the piece brought more unique visitors to its site in a single day than any other magazine story it had ever run. Coates’s thorough defense of a revolutionary idea became a star turn. ¶ Then came Between the World and Me, a 176-page essay that doubles as a letter to his now 15-year-old son. In it, Coates covers police brutality, spirituality and coming-of-age in ways that capture how much has and hasn’t changed since his adolescence.</p>
 
 <p>Focusing on all the things that threaten black bodies and the fear produced by that condition, he soberly reports on the struggles inextricably linked to blackness, trading the traditional tale of freedom and redemption for one supported by history instead of hope. The book was instantly hailed as a masterpiece, yielding its author a National Book Award and a MacArthur Fellowship and ending up as a Pulitzer Prize finalist. Coates went from simply being critically acclaimed to being compared to James Baldwin by no less an authority than Nobel Prize winner Toni Morrison.</p>
@@ -567,7 +567,7 @@ That shit replaced <em>The Cosby Show,</em> didn’t it? I think it’s importan
 <p><strong>The women in your life don’t get mentioned much in your books. Is there a reason for that?</strong><br>
 Well, the woman in my life is in the second book. She has her own life, and she deserves that. The book is dedicated to her. I would not be here without her. But she deserves her space. I don’t particularly enjoy all the attention, and I know just from talking to her that she would not enjoy it. To some extent, it’s the type of book that both those were. To another extent, I just don’t want to drag her into this.</p>
 
-<p><strong>So it’s protection as much as it 
+<p><strong>So it’s protection as much as it
 is respect?</strong><br>
 Or more respect than protection. I don’t know if she needs protection, but respect, yeah.</p>
 

@@ -121,67 +121,67 @@
 <div class="o-page-header__menu">
 
 <nav class="m-nav-main" role="navigation" aria-label="navigation-m-nav-main">
-      
-      
-              
-  
-  
+
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-0" data-count="7">
 
 <li data-sample="1" class="m-nav-main__item-0   has-submenu" data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/about">About</a>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-1" data-count="8">
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/history">History</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/staff">Staff</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/previous-directors">Previous Directors</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/fellows">Fellows &amp; Advisors</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/faculty">Faculty</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/retsinas-directorship">Retsinas Directorship</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/policy-advisory-board">Policy Advisory Board</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/about/job-openings">Job Openings</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -190,66 +190,66 @@
 
 <li data-sample="1" class="m-nav-main__item-0   has-submenu" data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/research">Research</a>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-1" data-count="3">
 
 <li data-sample="1" class="m-nav-main__item-1   has-submenu" data-level="1">
           <span class="m-nav-main__link-1">Research Category</span>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-2" data-count="8">
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/housing-markets-conditions">Housing Markets &amp; Conditions</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/aging">Aging</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/homeownership">Homeownership</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/affordability">Affordability</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/rental-housing">Rental Housing</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/demographics-projections">Demographics &amp; Projections</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/remodeling">Remodeling</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research-areas/neighborhood-change">Neighborhood Change</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -258,34 +258,34 @@
 
 <li data-sample="1" class="m-nav-main__item-1   has-submenu" data-level="1">
           <span class="m-nav-main__link-1">Signature Reports</span>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-2" data-count="4">
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/state-nations-housing">The State of the Nation's Housing</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/improving-americas-housing">Improving America's Housing</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/americas-rental-housing">America's Rental Housing</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/housing-americas-older-adults">Housing America's Older Adults</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -294,22 +294,22 @@
 
 <li data-sample="1" class="m-nav-main__item-1   has-submenu" data-level="1">
           <span class="m-nav-main__link-1">Special Projects</span>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-2" data-count="2">
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research/books">Books</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-2   " data-level="2">
           <a class="m-nav-main__link-2" href="/web/20250424063448/https://www.jchs.harvard.edu/research/symposia-other-projects">Symposia &amp; Other Projects</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -322,34 +322,34 @@
 
 <li data-sample="1" class="m-nav-main__item-0   " data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/data-search">Data</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-0   has-submenu" data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/calendar">Calendar</a>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-1" data-count="3">
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/calendar">Upcoming Events</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/calendar/previous-events">Previous Events</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/calendar/john-t-dunlop-lecture">JOHN T. DUNLOP LECTURE</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -358,34 +358,34 @@
 
 <li data-sample="1" class="m-nav-main__item-0   has-submenu" data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/students">Students</a>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-1" data-count="4">
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/students/fellowships">Fellowships</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/students/grants">Grants</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/students/prizes">Prizes</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/students/student-groups">STUDENT GROUPS</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -394,22 +394,22 @@
 
 <li data-sample="1" class="m-nav-main__item-0   has-submenu" data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/news-media">News &amp; Media</a>
-        
-                        
-  
-  
+
+
+
+
   <ul class="m-nav-main__list m-nav-main__level-1" data-count="2">
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/news-media/media">In the Media</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-main__item-1   " data-level="1">
           <a class="m-nav-main__link-1" href="/web/20250424063448/https://www.jchs.harvard.edu/news-media/press-releases">Press Releases</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -418,8 +418,8 @@
 
 <li data-sample="1" class="m-nav-main__item-0   " data-level="0">
           <a class="m-nav-main__link-0" href="/web/20250424063448/https://www.jchs.harvard.edu/blog">Blog</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>
@@ -464,11 +464,11 @@
 
 <section class="l-blog-post__hero">
   <div class="l-blog-post__banner">
-    
+
 <section id="block-blog-hero-banner-block" class="block block-config-pages block-config-pages-block clearfix">
 
 <section class="o-hero-banner" data-style="default" data-bg="green" data-style="default" data-direction="ltr" data-bg="green">
-  
+
 <div class="o-hero-banner__background">
         <img loading="lazy" src="/web/20250424063448im_/https://www.jchs.harvard.edu/sites/default/files/media/place-holder.jpg" width="2000" height="1333" alt="House under construction"/>
 
@@ -499,11 +499,11 @@
 </section>
 <article class="l-blog-post" data-type="blog" data-viewmode="full" data-style="default">
   <aside class="l-blog-post__aside">
-    
+
                       <div class="l-blog-post__author">
-          
+
 <section class="o-bio-summary" data-style="button-long-bio" data-style="button-long-bio" data-direction="ltr">
-  
+
 <div class="o-bio-summary__inner">
   <div class="o-bio-summary__image">
           <a href="/web/20250424063448/https://www.jchs.harvard.edu/jacob-anbinder-0" aria-label="">
@@ -551,7 +551,7 @@
 </span> | <span class="l-blog-post__author-name">Jacob Anbinder</span>
     </div>
     <div class="l-blog-post__content">
-      
+
   <div class="m-wysiwyg" data-text-format="">
     <p><span><span>Around 1970, an unprecedented movement emerged across American cities that favored redistributing control of urban government to neighborhoods. While “neighborhoodism,” as the <em>New Yorker </em>writer Calvin Trillin called it, had long been embraced by some conservatives, such as pundit William F. Buckley, Jr. and Boston school integration opponent Louise Day Hicks, a distinguishing feature of this political trend was its newfound appeal to Democrats disillusioned by the New Deal model of liberalism. In a new working paper, I argue that while the subsequent shift to neighborhood-oriented policies brought much-needed stability to city life for some, it also set the stage for the current severe housing shortages plaguing most major US cities.</span></span></p>
 <p><span><span>Using New York City as a case study, <a href="http://web.archive.org/web/20250424063448/https://www.jchs.harvard.edu/research-areas/working-papers/power-neighborhoods-new-york-city-growth-politics-neighborhood" rel="noopener" target="_blank">“Power to the Neighborhoods!”</a> shows how, in the wake of the turbulent urban transformations of the postwar decades, the neighborhood became both the physical site and the conceptual foundation on which liberals rebuilt their urban policy into the 60s, 70s, and beyond. But this new “neighborhood liberalism” was more than a theoretical shift. It also brought tangible reforms to many of the country’s largest municipal governments, devolving power to the community level and reordering the policy priorities that urban liberals expected of their politicians. </span></span></p>
@@ -567,14 +567,14 @@
   </section>
 </article>
 <script type="text/javascript">
-    
+
 </script>
 <style>
-    
+
 </style>
 
 </main>
-  
+
     <footer class="o-page-footer">
   <div class="o-page-footer__inner">
     <div class="o-page-footer__main">
@@ -637,23 +637,23 @@
         <div class="o-page-footer__copyright">© 2025 Harvard Joint Center for Housing Studies</div>
 
 <nav class="m-nav-footer" role="navigation" aria-label="navigation-m-nav-footer">
-      
-      
-              
-  
-  
+
+
+
+
+
   <ul class="m-nav-footer__list m-nav-footer__level-0" data-count="2">
 
 <li data-sample="1" class="m-nav-footer__item-0   " data-level="0">
           <a class="m-nav-footer__link-0" href="http://web.archive.org/web/20250424063448/https://gdpr.harvard.edu/eeaprivacydisclosures">EU/EEA Privacy Disclosures</a>
-        
-                  
+
+
   </li>
 
 <li data-sample="1" class="m-nav-footer__item-0   " data-level="0">
           <a class="m-nav-footer__link-0" href="http://web.archive.org/web/20250424063448/https://accessibility.huit.harvard.edu/digital-accessibility-policy">Digital Accessibility Policy</a>
-        
-                  
+
+
   </li>
       </ul>
   <span class="sub-toggle"> </span>

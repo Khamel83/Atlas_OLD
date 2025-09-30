@@ -122,7 +122,7 @@ about touting the success of this division. “Our direct-to-consumer business c
 headaches, as my partner Eriq Gardner can assure you ( https://puck.news/is-hbo-max-the-pitt-just-er-with-a-new-title/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).) Maral wrote in a subsequent note on Friday that WBD’s D.T.C. “trends” remain “highly encouraging,” with subscribers growing to “over” 150 million by the end of next year and EBITDA “nearly” doubling to $1.3 billion this year.
 
 The other happy story in the fourth quarter results came in WBD’s
-studio segment. The company reported that the television production business manufactured 80 shows for both WBD and other streamers and broadcast networks, and was the top supplier of live-action TV to WBD and to others. Zaz highlighted hits such as The Penguin, “one of the top three most viewed original debut seasons on Max ever,” and Presumed Innocent, a big hit for Apple TV. In the fourth quarter, WBD’s studio segment generated revenue of nearly $3.7 billion, up 16 percent year over year, and adjusted EBITDA—kills me every time—of $950 million, up a whopping 75 percent year over year. Zaz is especially jazzed about the debut of Warner Bros.’ Superman film in July. (Superman, alas, is also not without some legal issues 
+studio segment. The company reported that the television production business manufactured 80 shows for both WBD and other streamers and broadcast networks, and was the top supplier of live-action TV to WBD and to others. Zaz highlighted hits such as The Penguin, “one of the top three most viewed original debut seasons on Max ever,” and Presumed Innocent, a big hit for Apple TV. In the fourth quarter, WBD’s studio segment generated revenue of nearly $3.7 billion, up 16 percent year over year, and adjusted EBITDA—kills me every time—of $950 million, up a whopping 75 percent year over year. Zaz is especially jazzed about the debut of Warner Bros.’ Superman film in July. (Superman, alas, is also not without some legal issues
 ( https://puck.news/new-superman-could-be-barred-from-release-outside-u-s/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), as Eriq can also remind you…)
 
 The Cable Quagmire
@@ -180,7 +180,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Dry+Powder
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=dry_powder&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVWJr-2Q1oQP0cvH99CfY=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%283%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

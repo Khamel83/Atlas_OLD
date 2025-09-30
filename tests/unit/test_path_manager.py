@@ -511,7 +511,7 @@ class TestPathSet:
             base_dir=str(tmp_path),
             paths=paths,
         )
-        
+
         expected_base_path = os.path.join(str(tmp_path), "test_uid")
         assert path_set.base_path == expected_base_path
 

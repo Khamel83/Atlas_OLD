@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/the-abcs-of-bravado
 
-Welcome to the 636 newly Not Boring people who have joined us since Monday! If you haven’t subscribed, join 143,137 smart, curious folks by subscribing here: 
+Welcome to the 636 newly Not Boring people who have joined us since Monday! If you haven’t subscribed, join 143,137 smart, curious folks by subscribing here:
 Hi friends 👋, 
 Happy Thursday! 
 There’s been a ton of talk – in ecommerce, media, SaaS, and web3 – about the importance of community. There are far fewer actual examples of building community-first in a way that translates into real metrics. Glossier comes to mind as a good example of a similar idea, content-to-commerce, and many companies build strong communities within their customer bases, but starting with the community is rare. 
@@ -80,11 +80,11 @@ By building community-first, Bravado was building a brand, getting access to a p
 Think of it this way. Software companies typically generate high margins by building products with high fixed costs (typically R&D) and low marginal costs (it costs practically nothing to make copies of the software). Build once, sell millions of times, profit. Of course, there are still marginal customer acquisition costs – it takes some amount of money to convince each customer to use or buy the product. What Bravado is doing has a similar logic. It spent high upfront costs building a community of its target customers, and now, it should be able to distribute new products to them and through them at low marginal customer acquisition costs.
 So Bravado started simple, with a community for salespeople. 
 People joined, but growth was slow. Bravado experimented with new formats. In one iteration, it let sales leaders start their own communities, like #Live-Better-Sell-Better and #Other-Side-of-Sales and invite members. At the time, all profiles on Bravado were attached to real people with their real names, and Sahil told me that while people were finding value, there was still a lot of LinkedIn-esque posturing. 
-To learn how Bravado caught lightning in a bottle, and how it turned community-first into real revenue in 7 months… 
+To learn how Bravado caught lightning in a bottle, and how it turned community-first into real revenue in 7 months…
 If you’re interested in learning more about Bravado, including the new Flex product for companies to hire salespeople on a 100% commission basis, or generally want to nerd out about how to grow revenue during the downturn, you can reach Sahil directly at sahil.mansuri@bravado.co.
 Thanks to Sahil for working with me, and to Dan for editing!
 That’s all for today, we’ll see you tomorrow morning for a Weekly Dose of Optimism!
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOamN3Tmpnek5qQXNJbWxoZENJNk1UWTFPVFl4TnpZM05Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmFOY0pGYXdtakdVVWwzR1Z4enUyUV9fTHQ3bWFGQWNTc2VjNml5VU93OUkiLCJwIjo2NzA2ODM2MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk2MTc2NzQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.f33EPfu03BA1SCYJw59o1ZEkDFUL-rm25DxRIjiMo2s?

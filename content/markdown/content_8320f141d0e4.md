@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >A Better, Cheaper Way To Fight HIV</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Bjørn Lomborg’s new Copenhagen Consensus project to identify the most cost-effective ways to battle the disease.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -885,21 +885,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-2@published"
-  
+
 > Thirty years ago, the world got its first inkling of impending catastrophe when five young gay men in Los Angeles were struck down by the illness that became known as HIV/AIDS. Today, the disease has a truly global impact, claiming 1.8 million lives annually—the equivalent of wiping out the population of Washington, D.C., three times every year.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-3@published"
-  
+
 >Of course, there have been remarkable scientific breakthroughs since 1981. Scientists established that a previously unknown retrovirus was the cause of AIDS and determined that the virus was primarily transmitted through sexual contact. They created tests that can establish a person’s HIV status or gauge the disease’s progression. They designed antiretroviral drugs that have made it possible for HIV infection to be a survivable chronic condition.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-4@published"
-  
+
 >Alongside these advances, policymakers, human-rights advocates, and people living with HIV/AIDS have fought hard to reduce stigma and discrimination. And an unprecedented amount of funds has been invested in HIV treatment and prevention. By 2008, total resources for HIV programs in low- and middle-income countries were an incredible 50 times higher than they were just 12 years earlier.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -910,21 +910,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-5@published"
-  
+
 >But, despite this significant progress, the toll of HIV/AIDS remains excruciating. There are 2.4 million new infections annually and 34 million people living with HIV/AIDS who require treatment to stay alive. There is a widespread misperception in the developed world that we have already won the battle against HIV/AIDS. In reality, the crisis has merely become less visible.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="39"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-6@published"
-  
+
 >Sub-Saharan Africa has 10 percent of the world’s population but is home to 70 percent of those living with HIV/AIDS. Across Africa, the disease is estimated to have reduced average national growth rates by 2-4 percentage points a year.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="39"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-7@published"
-  
+
 >Researchers led by Bernhard Schwartländer, the director of evidence, strategy, and results at UNAIDS, calculated that <a data-linktype="External" href="http://www.iasociety.org/Default.aspx?pageId=5&elementId=13672">annual spending of at least $22 billion</a> will be needed by 2015 to achieve universal access to HIV prevention, treatment, care, and support.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1003,21 +1003,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="55"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-8@published"
-  
+
 >UNAIDS and the Kaiser Family Foundation estimate that in 2010 donors gave $6.9 billion for HIV prevention, care, treatment, and support—<a data-linktype="External" href="http://www.unaids.org/en/media/unaids/contentassets/documents/document/2011/08/20110816_Report_Financing_the_Response_to_AIDS.pdf">down 10 percent from 2009</a>. As a result of the global financial crisis and donor fatigue, Denmark, Germany, the Netherlands, Norway, Spain, Sweden, the United States, and the European Commission have all reduced their spending.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="59"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-9@published"
-  
+
 >The lamentable reality is that securing $22 billion in annual funding by 2015 will be practically impossible. So, it is worth asking another question: What could we achieve with just a small increase in the current funding? That is what the Copenhagen Consensus Center and the <a data-linktype="External" href="http://www.rushfoundation.org/">Rush Foundation</a> are doing in a new <a data-linktype="External" href="http://www.rethinkhiv.com/">HIV research and analysis project, RethinkHIV</a>.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="112"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-10@published"
-  
+
 >There are as many opinions about what should be the top priority for funders as there are options. We spoke with people living with HIV across Africa who have starkly different perspectives. In Kawangware, Kenya, 38-year-old Esther argued passionately for more <a data-linktype="External" href="http://www.rethinkhiv.com/index.php/priorities/perspectives/92-esthers-perspective">social-policy reform</a>. She told us, “I believe HIV isn’t the only killer. It’s also the stigma and the stress that kills faster.” In Mungushi, Tanzania, on the other hand, 28-year-old Rehema told us that <a data-linktype="External" href="http://www.rethinkhiv.com/index.php/priorities/perspectives/85-rehemas-perspective:%20target=">economic assistance</a> would make the biggest difference. “It is very hard to take the antiretroviral drugs without having any food in the stomach and when I am worrying about where I am going to live,” she said.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1060,14 +1060,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="63"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-11@published"
-  
+
 >In RethinkHIV, we engage some of the world’s <a data-linktype="External" href="http://www.rethinkhiv.com/research">top HIV economists, epidemiologists, and demographers</a> in this vital discussion about priorities. Their new research will be essential input. Teams of researchers have written 18 papers identifying the most effective ways to tackle the epidemic, looking at what has been proven to work and at what could be scaled up or replicated elsewhere in Africa.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="75"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-12@published"
-  
+
 >All of them calculate the costs and benefits of their proposed solutions and will compete to convince <a data-linktype="External" href="http://www.rethinkhiv.com/experts">a panel of five world-class economists, including three Nobel laureates</a>, that they have the very best solutions. The Nobel Laureates’ findings will point to the most effective avenues for additional funding. This approach, the “<a data-linktype="External" href="http://www.copenhagenconsensus.com/">Copenhagen Consensus</a>” process, is the same one that has been applied <a data-linktype="External" href="http://www.copenhagenconsensus.com/Projects/Copenhagen%20Consensus%202008-1.aspx">every four years to global challenges</a>, and will next take place in 2012.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1092,7 +1092,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-13@published"
-  
+
 >The premise is simple: No dollar can be spent twice. A billion dollars spent on one set of approaches can’t be spent elsewhere. So where is it best to spend more first? Often, this simple question is not asked, because doing so means choosing between many popular strategies, each with its own base of enthusiastic supporters.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1117,28 +1117,28 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="33"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-14@published"
-  
+
 >By highlighting the effectiveness of some options—or pointing to policy choices that require further research—the new research and Nobel laureate findings can assist donors and catalyze optimal choices about where funding should go.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-15@published"
-  
+
 >Thirty years after the discovery of HIV/AIDS, we have seen impressive scientific and policy advances. But HIV/AIDS remains a daily threat to millions, stunts development, and destroys far too many lives. With attention and money flagging, it is vital that we step up our fight against this disease by adding lessons from cost-benefit analysis to our arsenal.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="6"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-16@published"
-  
+
 ><em>Read </em> <a data-linktype="External" href="http://www.project-syndicate.org/contributor/759"><em>this article</em></a><em> at Project Syndicate.</em></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="6"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-17@published"
-  
+
 ><em>Like <strong>Slate</strong> on </em> <a data-linktype="External" href="http://www.facebook.com/slate"><em>Facebook</em></a><em>. Follow us on </em> <a data-linktype="External" href="http://www.twitter.com/slate"><em>Twitter</em></a><em>.</em></p>
 
 <div
@@ -1203,7 +1203,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1238,7 +1238,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="business/project_syndicate"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-bdb94e8d9e4a8f58d6d050e48537882e-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1289,7 +1289,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1314,7 +1314,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1824,7 +1824,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

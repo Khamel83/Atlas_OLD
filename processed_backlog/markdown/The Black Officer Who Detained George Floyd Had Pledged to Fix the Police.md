@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • June 27, 2020 
+Unknown author • June 27, 2020
 
 ![nytimes.com]()
 

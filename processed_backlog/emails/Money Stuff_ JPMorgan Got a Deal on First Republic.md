@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Wednesday.Let’s start with some bank accounting. You’ve got a bank, its assets a
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Wednesday.
 
-  
-    
+
+
       First Republic
-    
-  
+
+
 
 Let’s start with some bank accounting. You’ve got a bank, its assets are $100 of loans, and its liabilities are $90 of deposits. Shareholders’ equity (assets minus liabilities) is $10, for a capital ratio (equity divided by assets) of 10%. Pretty normal stuff.
 Then the assets go down: The loans were worth $100, but then interest rates went up and now they are only worth $85. This is less than $90, so the bank is insolvent, people panic, depositors get nervous and the bank fails. It is seized by the Federal Deposit Insurance Corp., which quickly looks for a healthy bank to buy the failed one. Ideally a buyer will take over the entire failed bank, buying $85 worth of loans and assuming $90 worth of deposits; borrowers and depositors will wake up to find that they are now customers of the buyer bank, but everything else is the same.
@@ -74,30 +74,30 @@ Also there is a capital problem for the banking system as a whole: If the FDIC j
 This morning the FDIC   seized First Republic Bank and sold it to JPMorgan Chase & Co. My best guess at First Republic’s balance sheet as of, you know, yesterday would be something like this
   [2]
 :
-	
+
 Assets: Bonds worth about $30 billion; loans with a face value of about $173 billion but a market value of about $150 billion; cash of about $15 billion; other stuff worth about $9 billion; for a total of about $227 billion at pre-deal accounting values but only $204 billion of actual value.
   [3]
 
-	
-Liabilities: Deposits of about $92 billion, of which $5 billion came from JPMorgan and $25 billion came from a group of other big banks, who   put their money into First Republic in March to shore up confidence; the other $62 billion came from normal depositors. About $28 billion of advances from the   Federal Home Loan Bank system. About $93 billion of short-term borrowings from the Federal Reserve (discount window and Bank Term Funding Program). Those three liabilities — to depositors, to the FHLB, to the Fed — really need to be paid back, and they add to about $213 billion. First Republic had some other liabilities, including a bit less than $1 billion of subordinated bonds, but let’s ignore those. 	
+
+Liabilities: Deposits of about $92 billion, of which $5 billion came from JPMorgan and $25 billion came from a group of other big banks, who   put their money into First Republic in March to shore up confidence; the other $62 billion came from normal depositors. About $28 billion of advances from the   Federal Home Loan Bank system. About $93 billion of short-term borrowings from the Federal Reserve (discount window and Bank Term Funding Program). Those three liabilities — to depositors, to the FHLB, to the Fed — really need to be paid back, and they add to about $213 billion. First Republic had some other liabilities, including a bit less than $1 billion of subordinated bonds, but let’s ignore those. 
 Equity: The book value of First Republic’s equity yesterday was something like $11 billion, including about $4 billion of preferred stock.
   [4]
  The actual value of its equity was negative, though; its total assets of $204 billion, at market value, were less than the $213 billion it owed to depositors, the Fed and the FHLB, never mind its other creditors.
 
 Here is, roughly, how the sale worked:
-	
+
 Assets: JPMorgan bought all the loans and bonds, marking them at their market value, about $30 billion for the bonds and $150 billion for the loans. It also bought $5 billion of other assets. And it attributed $1 billion to intangible assets, i.e. First Republic’s relationships and business.
   [5]
  That’s a total of about $186 billion of asset value. JPMorgan left behind some assets, though, mainly the $15 billion of cash and about $4 billion of other stuff.
   [6]
 
-	
-Liabilities: JPMorgan assumed all of the deposits and FHLB advances, plus another $2 billion of other liabilities, for a total of about $122 billion. (Of that, $5 billion was JPMorgan’s own deposit, which it will cancel.) The subordinated bonds  got vaporized: “JPMorgan Chase did not assume First Republic Bank’s corporate debt or preferred stock.” That effectively leaves the shell of First Republic — now effectively owned by the FDIC in receivership — on the hook to pay back the roughly $93 billion it borrowed from the Fed.	
+
+Liabilities: JPMorgan assumed all of the deposits and FHLB advances, plus another $2 billion of other liabilities, for a total of about $122 billion. (Of that, $5 billion was JPMorgan’s own deposit, which it will cancel.) The subordinated bonds  got vaporized: “JPMorgan Chase did not assume First Republic Bank’s corporate debt or preferred stock.” That effectively leaves the shell of First Republic — now effectively owned by the FDIC in receivership — on the hook to pay back the roughly $93 billion it borrowed from the Fed.
 Payment: JPMorgan will pay the FDIC $10.6 billion in cash now,
   [7]
  and another $50 billion in five years. It will pay (presumably low) interest on that $50 billion.
   [8]
- So the FDIC will get about $60.6 billion to pay back the Fed, plus the roughly $15 billion of cash and roughly $4 billion of other assets still left over at First Republic, for a total of about $80 billion. First Republic owes the Fed about $93 billion, leaving the FDIC’s insurance fund with a loss of $10 billion or so. “The FDIC estimates that the cost to the Deposit Insurance Fund will be about $13 billion,” says  the FDIC’s announcement, though “This is an estimate and the final cost will be determined when the FDIC terminates the receivership.”	
+ So the FDIC will get about $60.6 billion to pay back the Fed, plus the roughly $15 billion of cash and roughly $4 billion of other assets still left over at First Republic, for a total of about $80 billion. First Republic owes the Fed about $93 billion, leaving the FDIC’s insurance fund with a loss of $10 billion or so. “The FDIC estimates that the cost to the Deposit Insurance Fund will be about $13 billion,” says  the FDIC’s announcement, though “This is an estimate and the final cost will be determined when the FDIC terminates the receivership.”
 Equity: JPMorgan is getting about $186 billion of assets for about $182.6 billion ($122 billion of assumed liabilities, plus $10.6 billion in cash, plus $50 billion borrowed from the FDIC), meaning that it will have about a $3.4 billion equity cushion against these assets.
 
 JPMorgan was the highest bidder in the FDIC’s  weekend auction for First Republic;   Bloomberg reports that its bid “was more appealing for the agency than the competing bids, which proposed breaking up First Republic or would have required complex financial arrangements to fund its $100 billion of mortgages.” And this is a pretty high bid: JPMorgan is paying $182.6 billion, total, in cash and assumed liabilities, for a bank with about $180 billion of loans and bonds at their current fair value; it is paying a bit extra for the other assets and the intangible value of the First Republic franchise. Still, it is acquiring the total package of assets for less than they are worth. That discount is required so that JPMorgan can properly capitalize the assets, so that it can have enough capital against them. And that discount is paid for by (1) First Republic’s shareholders, preferred stockholders and bondholders, who are getting wiped out and (2) the FDIC, which is also taking a loss on the deal.
@@ -119,37 +119,37 @@ You can to some extent trade off the discount against the engineering: Surely JP
 You could imagine going further. JPMorgan could have come to the FDIC and the Fed and said “look, we would like to pay full value for these assets, but we have these pesky capital requirements. But you set the capital requirements; you could, you know, waive them a bit. Let us ignore First Republic in calculating our capital ratios; then we won’t need as much capital to do the deal, and we can pay more.” Something a little like that happened in   UBS Group AG’s deal to buy Credit Suisse Group AG in March: Swiss regulators, who insisted on the deal,  agreed to “grant appropriate transitional periods” for UBS to meet its capital requirements after the deal.
 But of course you want to minimize that sort of thing, because the goal here is not just to make sure that First Republic opens for business today or to minimize the dollar losses to the FDIC’s insurance fund. The goal here is to restore confidence in the banking system, to send the message that the crisis is over and everything is fixed. A rescue deal for First Republic that weakens the capital or liquidity of its buyer is not a good solution. You don’t want to do too much financial engineering; you don’t want to leave the buyer technically well capitalized but really in a more dangerous place. But a little engineering is fine.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       US CDS
-    
-  
+
+
 
 The simple way to think about a credit default swap is that it is insurance on a bond. If you own $1 million of the bonds of some company or government, you can buy $1 million of CDS to protect yourself; you pay some periodic insurance premium for this protection. If the issuer defaults on its debt, you get made whole; you get your $1 million back.
 When an issuer defaults on its debt, usually the debt is worth something: A company will go bankrupt and pay back its bonds at 20 or 40 cents on the dollar or whatever, or a government will restructure its debt and give bondholders some value back. And so the way CDS works is basically that, when an issuer defaults, the CDS pays back 100 cents on the dollar minus the value of the bonds. If a company goes bankrupt and its bonds recover 37 cents on the dollar, then its CDS will pay out 63 cents on the dollar. If you have $1 million of bonds plus $1 million of CDS, you will get back $370,000 on the bonds and $630,000 on the CDS and be fully insured.
@@ -168,7 +168,7 @@ And so there is a refinement on the manufactured-default trade, which is that yo
   [13]
 
 Every so often the US government thinks about defaulting on its debt for no particular reason; this is called the “debt ceiling standoff.” The somewhat surprising rule of thumb is that when there is a debt ceiling standoff — when the US government starts thinking about defaulting on its debt — the price of US government debt goes up. The thinking is:
-	A US government default would be a bad destabilizing event in financial markets generally.	When markets are bad and destabilized, there is a flight to quality; people want to buy safe assets.	The safest assets are US government debt, so the price of US government debt goes up.	
+	A US government default would be a bad destabilizing event in financial markets generally.	When markets are bad and destabilized, there is a flight to quality; people want to buy safe assets.	The safest assets are US government debt, so the price of US government debt goes up.
 Even in a US government default, US government debt will be safe, because the government has plenty of money and is defaulting for no particular reason, and it will quickly fix the default and start paying its debts again.
 
 So a US debt default would lead to panic, but not actually any significant impairment on the payments of, like, 30-year Treasury bonds. Which means that the prices of those bonds will go up in the panic.
@@ -183,11 +183,11 @@ Treasuries don’t trade below 60 cents on the dollar because people are worried
   [14]
  If the US government defaulted this year, it is overwhelmingly likely that holders of those bonds would get all of their money back, more or less on schedule. But if the US government defaulted this year, credit default swaps would trigger, and those bonds would sell for about 60 cents on the dollar. Which means that the CDS could pay out a lot.
 
-  
-    
+
+
       Terra’s back!
-    
-  
+
+
 
 Love  these guys: 
 
@@ -199,15 +199,15 @@ When the TerraUSD stablecoin collapsed last May,   I wrote about its essential 
 This is extremely well-known stuff in traditional finance. … In crypto, however, people are much more willing to believe in perpetual-motion machines, and there is just a lot more mumbo-jumbo about ecosystems and staking rewards that you can throw over all of this to distract people from the essential mechanics, so … look, this is also extremely well-known stuff in crypto, and lots of people are skeptical of algorithmic stablecoins, but people keep doing them.
 Ah but now they are “describing a model that relies on token buybacks, unidirectional swaps, staking and an ‘algorithmic peg divergence fee’ to address the issues with the original design,” that should be fine then.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US Supreme Court to Consider   Curbing Authority of Federal Regulatory Agencies. Money-Market Funds Are Hot Again After Years of Fee Discounts. Lazard to Cut Workforce 10% as CEO Sees Slump Through 2023. Deutsche Bank Cuts Debt Plan as Funding Costs Rise After Crisis.  Epstein’s Private Calendar Reveals Prominent Names, Including CIA Chief, Goldman’s Top Lawyer. Billionaire Steve Cohen Has a Plan to Become the King of Queens. The Kingdom Of  Bhutan Has Been Quietly Mining Bitcoin For Years. Twitter Co-Founder Dorsey   Rues Musk Deal: ‘It All Went South.’ How’s  Truth Social doing?  Hippos Spawned From Drug Lord Pablo Escobar’s Ranch Won’t Stop Multiplying.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] More complicated approaches include “the buyer does not assume some of the deposits,” or “the FDIC gives the buyer some goodies — a below-market line of credit, a contingent loss-sharing agreement — that are worth around $5.”
 
 
@@ -217,7 +217,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Numbers don’t add due to rounding. These numbers are mostly from page 2 of  the JPMorgan deck and from the DFPI order. The $9 billion miscellaneous category here includes “other assets”  like lease assets and interest receivables, broken out a bit more on page 170 of  the annual report, which come to about $5 billion, plus a $4 billion plug to get the numbers to work. My guess is that that $4 billion is mostly available-for-sale securities that JPMorgan did not buy, but I am not sure.
 
 
-  [4] That is, my $227 billion calculation of assets minus $213 billion of important liabilities minus $3 billion of “other liabilities” and subordinated debt. As of March 31 its book equity was about $18 billion, including $3.6 billion of preferred stock. 
+  [4] That is, my $227 billion calculation of assets minus $213 billion of important liabilities minus $3 billion of “other liabilities” and subordinated debt. As of March 31 its book equity was about $18 billion, including $3.6 billion of preferred stock.
 
 
   [5] Strictly this is for  the “core deposit” intangible, sort of a subset of the franchise value.
@@ -226,7 +226,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] See footnote 3 on the $4 billion of miscellaneous assets.
 
 
-  [7] Or “did pay”? The presentation says “JPMorgan Chase will make a payment of $10.6B to the FDIC.” The deal has already closed, so I assume that the payment’s due date is, like, as soon as the wire transfers open today? 
+  [7] Or “did pay”? The presentation says “JPMorgan Chase will make a payment of $10.6B to the FDIC.” The deal has already closed, so I assume that the payment’s due date is, like, as soon as the wire transfers open today?
 
 
   [8] “FDIC will provide a new $50B five-year fixed-rate term financing,” says the presentation. On the  analyst call, JPMorgan declined to say the rate on that financing.
@@ -244,54 +244,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [12] There’s generally a grace period in the bond documents, so, like, miss it by 30 days plus a week or whatever.
 
 
-  [13] This is,   roughly, the Hovnanian trade. 
+  [13] This is,   roughly, the Hovnanian trade.
 
 
-  [14] Bloomberg’s FIT page shows me a 1.25% long bond due in May 2050 trading a bit below 57 cents on the dollar today, for a yield of about 3.8%. 
+  [14] Bloomberg’s FIT page shows me a 1.25% long bond due in May 2050 trading a bit below 57 cents on the dollar today, for a yield of about 3.8%.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -302,46 +302,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cinplm.5jeo/a0a8f1de.gif" alt="" border="0" /></a>

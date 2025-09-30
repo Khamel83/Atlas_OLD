@@ -36,7 +36,7 @@ class TemporalPattern:
     description: str
 
 
-@dataclass 
+@dataclass
 class TemporalInsight:
     """Time-based insight about content consumption."""
     insight_type: str
@@ -46,7 +46,7 @@ class TemporalInsight:
     supporting_data: Dict[str, Any]
     action_suggestions: List[str]
     discovered_at: str
-    
+
     def __post_init__(self):
         if self.discovered_at is None:
             self.discovered_at = datetime.now().isoformat()
@@ -60,7 +60,7 @@ class TimeContext:
     granularity: str = "hour"  # hour, day, week, month
     include_weekends: bool = True
     content_types: List[str] = None
-    
+
     def __post_init__(self):
         if self.time_zones is None:
             self.time_zones = ["UTC"]
@@ -71,17 +71,17 @@ class TimeContext:
 class TemporalEngine:
     """
     Temporal pattern analysis engine for Atlas.
-    
+
     Analyzes when content is consumed, discovers patterns,
     and provides time-based insights and recommendations.
     """
-    
+
     def __init__(self, metadata_manager=None, config: Dict[str, Any] = None):
         """Initialize TemporalEngine."""
         self.config = config or {}
         if not config and load_config:
             self.config = load_config()
-            
+
         # Support both direct injection and automatic initialization
         if metadata_manager:
             self.metadata_manager = metadata_manager
@@ -92,106 +92,106 @@ class TemporalEngine:
                     self.metadata_manager = MetadataManager(self.config)
                 except Exception:
                     pass
-    
+
     def analyze_patterns(self, context: TimeContext = None) -> List[TemporalPattern]:
         """
         Analyze temporal patterns in content consumption.
-        
+
         Args:
             context: Time context for analysis
-            
+
         Returns:
             List of discovered temporal patterns
         """
         if context is None:
             context = TimeContext()
-            
+
         if not self.metadata_manager:
             return self._mock_analyze_patterns(context)
-            
+
         try:
             # Get content within analysis period
             content_items = self._get_content_for_period(context)
-            
+
             patterns = []
-            
+
             # Analyze daily patterns
             daily_patterns = self._analyze_daily_patterns(content_items)
             patterns.extend(daily_patterns)
-            
-            # Analyze weekly patterns  
+
+            # Analyze weekly patterns
             weekly_patterns = self._analyze_weekly_patterns(content_items)
             patterns.extend(weekly_patterns)
-            
+
             # Analyze content type patterns
             type_patterns = self._analyze_content_type_patterns(content_items)
             patterns.extend(type_patterns)
-            
+
             # Analyze reading time patterns
             time_patterns = self._analyze_reading_time_patterns(content_items)
             patterns.extend(time_patterns)
-            
+
             return sorted(patterns, key=lambda x: x.confidence, reverse=True)
-            
+
         except Exception as e:
             print(f"Error analyzing patterns: {e}")
             return self._mock_analyze_patterns(context)
-    
+
     def generate_insights(self, patterns: List[TemporalPattern] = None) -> List[TemporalInsight]:
         """Generate actionable insights from temporal patterns."""
         if patterns is None:
             patterns = self.analyze_patterns()
-            
+
         insights = []
-        
+
         for pattern in patterns:
             if pattern.confidence < 0.6:
                 continue
-                
+
             insight = self._pattern_to_insight(pattern)
             if insight:
                 insights.append(insight)
-        
+
         # Add time-based recommendations
         schedule_insights = self._generate_schedule_insights(patterns)
         insights.extend(schedule_insights)
-        
+
         return sorted(insights, key=lambda x: x.confidence, reverse=True)
-    
+
     def analyze_productivity_cycles(self) -> Dict[str, Any]:
         """Analyze productivity cycles based on content consumption patterns."""
         patterns = self.analyze_patterns()
-        
+
         # Identify peak productivity hours from daily patterns
         daily_patterns = [p for p in patterns if p.pattern_type == "daily"]
         productivity_hours = []
-        
+
         for pattern in daily_patterns:
             peak_hours = pattern.pattern_data.get("peak_hours", [])
             hourly_activity = pattern.pattern_data.get("hourly_activity", {})
-            
+
             # Find hours with above-average activity
             avg_activity = sum(hourly_activity.values()) / len(hourly_activity) if hourly_activity else 0
             productive_hours = [hour for hour, count in hourly_activity.items() if count > avg_activity * 1.2]
             productivity_hours.extend(productive_hours)
-        
+
         # Identify weekly productivity patterns
         weekly_patterns = [p for p in patterns if p.pattern_type == "weekly"]
         productive_days = []
-        
+
         for pattern in weekly_patterns:
             peak_days = pattern.pattern_data.get("peak_days", [])
             weekday_activity = pattern.pattern_data.get("weekday_activity", {})
-            
+
             # Find days with above-average activity
             avg_activity = sum(weekday_activity.values()) / len(weekday_activity) if weekday_activity else 0
             productive_days = [day for day, count in weekday_activity.items() if count > avg_activity * 1.1]
-        
+
         # Categorize productivity periods
         morning_hours = [h for h in productivity_hours if 6 <= h <= 11]
         afternoon_hours = [h for h in productivity_hours if 12 <= h <= 17]
         evening_hours = [h for h in productivity_hours if 18 <= h <= 23]
-        
+
         return {
             "peak_hours": sorted(list(set(productivity_hours))),
             "productive_days": productive_days,
@@ -201,18 +201,18 @@ class TemporalEngine:
             "optimal_focus_blocks": self._suggest_focus_blocks(productivity_hours),
             "weekly_pattern": "weekday" if all(d < 5 for d in productive_days) else "mixed"
         }
-    
+
     def _suggest_focus_blocks(self, productive_hours: List[int]) -> List[Tuple[int, int]]:
         """Suggest optimal focus blocks based on productive hours."""
         if not productive_hours:
             return [(9, 11), (14, 16)]  # Default focus blocks
-        
+
         # Group consecutive hours into blocks
         productive_hours = sorted(list(set(productive_hours)))
         blocks = []
         start = productive_hours[0]
         end = start
-        
+
         for hour in productive_hours[1:]:
             if hour == end + 1:
                 end = hour
@@ -221,59 +221,59 @@ class TemporalEngine:
                 start = hour
                 end = hour
         blocks.append((start, end))
-        
+
         # Limit to 2-3 best blocks
         return blocks[:3]
-    
+
     def get_optimal_times(self, content_type: str = None) -> List[Tuple[int, float]]:
         """
         Get optimal times for content consumption.
-        
+
         Returns:
             List of (hour, confidence) tuples
         """
         patterns = self.analyze_patterns()
-        
+
         time_scores = defaultdict(float)
-        
+
         for pattern in patterns:
             if pattern.pattern_type == "daily" and pattern.confidence > 0.5:
                 if content_type is None or pattern.pattern_data.get("content_type") == content_type:
                     for hour, activity in pattern.pattern_data.get("hourly_activity", {}).items():
                         time_scores[int(hour)] += activity * pattern.confidence
-        
+
         # Normalize scores
         if time_scores:
             max_score = max(time_scores.values())
             time_scores = {hour: score/max_score for hour, score in time_scores.items()}
-        
+
         return sorted(time_scores.items(), key=lambda x: x[1], reverse=True)
-    
+
     def predict_next_session(self) -> Dict[str, Any]:
         """Predict when the next content session is likely."""
         patterns = self.analyze_patterns()
-        
+
         now = datetime.now()
         current_hour = now.hour
         current_weekday = now.weekday()
-        
+
         # Find patterns for current time context
         relevant_patterns = []
         for pattern in patterns:
             if pattern.pattern_type in ["daily", "weekly"] and pattern.confidence > 0.5:
                 relevant_patterns.append(pattern)
-        
+
         if not relevant_patterns:
             return {
                 "predicted_time": None,
                 "confidence": 0.0,
                 "reasoning": "Insufficient pattern data"
             }
-        
+
         # Simple prediction based on strongest patterns
         next_hours = []
         confidences = []
-        
+
         for pattern in relevant_patterns[:3]:  # Top 3 patterns
             if pattern.pattern_type == "daily":
                 hourly_data = pattern.pattern_data.get("hourly_activity", {})
@@ -283,32 +283,32 @@ class TemporalEngine:
                         next_hours.append(hour)
                         confidences.append(activity * pattern.confidence)
                         break
-        
+
         if next_hours:
             # Weight by confidence and select most likely
             best_idx = max(range(len(confidences)), key=confidences.__getitem__)
             predicted_hour = next_hours[best_idx]
-            
+
             predicted_time = now.replace(hour=predicted_hour, minute=0, second=0, microsecond=0)
-            
+
             return {
                 "predicted_time": predicted_time.isoformat(),
                 "confidence": confidences[best_idx],
                 "reasoning": f"Based on {len(relevant_patterns)} temporal patterns"
             }
-        
+
         return {
             "predicted_time": None,
             "confidence": 0.0,
             "reasoning": "No strong future patterns found"
         }
-    
+
     # Legacy methods for backward compatibility
     def find_temporal_relationships(self, max_delta_days=7):
         """Legacy method - find temporal relationships using enhanced MetadataManager methods."""
         if not self.metadata_manager:
             return {"relationships": [], "temporal_patterns": {}, "seasonal_insights": {}, "content_velocity": {}}
-            
+
         try:
             # Use the new temporal patterns method if available
             if hasattr(self.metadata_manager, 'get_temporal_patterns'):
@@ -340,7 +340,7 @@ class TemporalEngine:
         try:
             insights = self.find_temporal_relationships(max_delta_days)
             relationships = insights["relationships"]
-            
+
             # Convert to tuple format expected by web interface
             result = []
             for rel in relationships[:10]:  # Limit results
@@ -352,7 +352,7 @@ class TemporalEngine:
         except Exception as e:
             print(f"Error in get_time_aware_relationships: {e}")
             return []
-    
+
     def identify_temporal_relationships(self, n=10):
         """Alias for web interface compatibility."""
         return self.get_time_aware_relationships(max_delta_days=7)  # Broader search
@@ -362,20 +362,20 @@ class TemporalEngine:
             (rel["item1"], rel["item2"], rel["time_delta_days"])
             for rel in relationships
         ]
-    
+
     def _get_content_for_period(self, context: TimeContext) -> List[Dict[str, Any]]:
         """Get content items for the analysis period."""
         # Parse period
         period_map = {"7d": 7, "30d": 30, "90d": 90, "1y": 365}
         days = period_map.get(context.analysis_period, 30)
-        
+
         cutoff_date = datetime.now() - timedelta(days=days)
-        
+
         if hasattr(self.metadata_manager, 'list_all_content'):
             all_content = self.metadata_manager.list_all_content()
         else:
             all_content = self.metadata_manager.get_all_metadata()
-        
+
         filtered = []
         for item in all_content:
             try:
@@ -384,50 +384,50 @@ class TemporalEngine:
                     created_at = item.created_at
                 else:
                     created_at = item.get('created_at', item.get('date', ''))
-                    
+
                 if created_at:
                     content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     if content_date >= cutoff_date:
                         filtered.append(item)
             except Exception:
                 pass
-                
+
         return filtered
-    
+
     def _analyze_daily_patterns(self, content_items: List[Dict[str, Any]]) -> List[TemporalPattern]:
         """Analyze daily consumption patterns."""
         hourly_activity = defaultdict(int)
         total_items = len(content_items)
-        
+
         for item in content_items:
             try:
                 if hasattr(item, 'created_at'):
                     created_at = item.created_at
                 else:
                     created_at = item.get('created_at', item.get('date', ''))
-                    
+
                 if created_at:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     hourly_activity[dt.hour] += 1
             except Exception:
                 continue
-        
+
         if not hourly_activity or total_items < 5:
             return []
-        
+
         # Normalize and find peak hours
         peak_hours = []
         avg_activity = sum(hourly_activity.values()) / len(hourly_activity)
-        
+
         for hour, count in hourly_activity.items():
             if count > avg_activity * 1.5:  # 50% above average
                 peak_hours.append(hour)
-        
+
         if not peak_hours:
             return []
-        
+
         confidence = min(0.9, len(peak_hours) / 24 * total_items / 10)
-        
+
         return [TemporalPattern(
             pattern_type="daily",
             pattern_data={
@@ -440,40 +440,40 @@ class TemporalEngine:
             last_occurrence=datetime.now().isoformat(),
             description=f"Peak activity during hours: {', '.join(map(str, sorted(peak_hours)))}"
         )]
-    
+
     def _analyze_weekly_patterns(self, content_items: List[Dict[str, Any]]) -> List[TemporalPattern]:
         """Analyze weekly consumption patterns."""
         weekday_activity = defaultdict(int)
         total_items = len(content_items)
-        
+
         for item in content_items:
             try:
                 if hasattr(item, 'created_at'):
                     created_at = item.created_at
                 else:
                     created_at = item.get('created_at', item.get('date', ''))
-                    
+
                 if created_at:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     weekday_activity[dt.weekday()] += 1
             except Exception:
                 continue
-        
+
         if not weekday_activity or total_items < 10:
             return []
-        
+
         # Find peak days
         avg_activity = sum(weekday_activity.values()) / len(weekday_activity)
         peak_days = [day for day, count in weekday_activity.items() if count > avg_activity * 1.3]
-        
+
         if not peak_days:
             return []
-        
+
         weekday_names = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
         peak_day_names = [weekday_names[day] for day in sorted(peak_days)]
-        
+
         confidence = min(0.8, len(peak_days) / 7 * total_items / 20)
-        
+
         return [TemporalPattern(
             pattern_type="weekly",
             pattern_data={
@@ -486,39 +486,39 @@ class TemporalEngine:
             last_occurrence=datetime.now().isoformat(),
             description=f"Higher activity on: {', '.join(peak_day_names)}"
         )]
-    
+
     def _analyze_content_type_patterns(self, content_items: List[Dict[str, Any]]) -> List[TemporalPattern]:
         """Analyze content type timing patterns."""
         type_time_patterns = defaultdict(lambda: defaultdict(int))
-        
+
         for item in content_items:
             try:
                 if hasattr(item, 'content_type'):
                     content_type = getattr(item.content_type, 'value', item.content_type) if hasattr(item.content_type, 'value') else item.content_type
                 else:
                     content_type = item.get('content_type', 'unknown')
-                    
+
                 if hasattr(item, 'created_at'):
                     created_at = item.created_at
                 else:
                     created_at = item.get('created_at', item.get('date', ''))
-                    
+
                 if created_at:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     type_time_patterns[content_type][dt.hour] += 1
             except Exception:
                 continue
-        
+
         patterns = []
         for content_type, hourly_data in type_time_patterns.items():
             if sum(hourly_data.values()) < 3:  # Need at least 3 items
                 continue
-                
+
             # Find peak hour for this content type
             peak_hour = max(hourly_data.items(), key=lambda x: x[1])[0]
             total_for_type = sum(hourly_data.values())
             peak_concentration = hourly_data[peak_hour] / total_for_type
-            
+
             if peak_concentration > 0.3:  # 30% of content consumed at peak hour
                 patterns.append(TemporalPattern(
                     pattern_type="content_type_timing",
@@ -533,26 +533,26 @@ class TemporalEngine:
                     last_occurrence=datetime.now().isoformat(),
                     description=f"{content_type.title()} content typically consumed around {peak_hour}:00"
                 ))
-        
+
         return patterns
-    
+
     def _analyze_reading_time_patterns(self, content_items: List[Dict[str, Any]]) -> List[TemporalPattern]:
         """Analyze patterns in reading time duration."""
         long_content_hours = defaultdict(int)
         short_content_hours = defaultdict(int)
-        
+
         for item in content_items:
             try:
                 if hasattr(item, 'word_count'):
                     word_count = item.word_count or 0
                 else:
                     word_count = item.get('word_count', 0)
-                    
+
                 if hasattr(item, 'created_at'):
                     created_at = item.created_at
                 else:
                     created_at = item.get('created_at', item.get('date', ''))
-                    
+
                 if created_at:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     if word_count > 1500:  # Long content
@@ -561,9 +561,9 @@ class TemporalEngine:
                         short_content_hours[dt.hour] += 1
             except Exception:
                 continue
-        
+
         patterns = []
-        
+
         # Long content pattern
         if long_content_hours:
             peak_hour = max(long_content_hours.items(), key=lambda x: x[1])[0]
@@ -582,9 +582,9 @@ class TemporalEngine:
                     last_occurrence=datetime.now().isoformat(),
                     description=f"Long content typically consumed around {peak_hour}:00"
                 ))
-        
+
         return patterns
-    
+
     def _pattern_to_insight(self, pattern: TemporalPattern) -> Optional[TemporalInsight]:
         """Convert a temporal pattern to an actionable insight."""
         if pattern.pattern_type == "daily":
@@ -603,7 +603,7 @@ class TemporalEngine:
                     ],
                     discovered_at=datetime.now().isoformat()
                 )
-        
+
         elif pattern.pattern_type == "content_type_timing":
             content_type = pattern.pattern_data.get("content_type")
             peak_hour = pattern.pattern_data.get("peak_hour")
@@ -621,16 +621,16 @@ class TemporalEngine:
                     ],
                     discovered_at=datetime.now().isoformat()
                 )
-        
+
         return None
-    
+
     def _generate_schedule_insights(self, patterns: List[TemporalPattern]) -> List[TemporalInsight]:
         """Generate schedule-based insights."""
         insights = []
-        
+
         # Find content type distribution
         content_patterns = [p for p in patterns if p.pattern_type == "content_type_timing"]
-        
+
         if len(content_patterns) >= 2:
             insights.append(TemporalInsight(
                 insight_type="schedule_optimization",
@@ -645,9 +645,9 @@ class TemporalEngine:
                 ],
                 discovered_at=datetime.now().isoformat()
             ))
-        
+
         return insights
-    
+
     def _detect_temporal_clusters(self, all_items, max_delta_days):
         """Detect clusters of content created/updated in temporal proximity."""
         try:
@@ -661,7 +661,7 @@ class TemporalEngine:
                 try:
                     created_at1 = getattr(item1, 'created_at', '')
                     created_at2 = getattr(item2, 'created_at', '')
-                    
+
                     t1 = datetime.fromisoformat(created_at1.replace("Z", "+00:00"))
                     t2 = datetime.fromisoformat(created_at2.replace("Z", "+00:00"))
                     delta_days = (t2 - t1).days
@@ -775,7 +775,7 @@ class TemporalEngine:
             return "declining"
         else:
             return "rapidly_declining"
-    
+
     def _mock_analyze_patterns(self, context: TimeContext) -> List[TemporalPattern]:
         """Mock temporal pattern analysis."""
         return [
@@ -792,7 +792,7 @@ class TemporalEngine:
                 description="Peak activity during hours: 9, 13, 20"
             ),
             TemporalPattern(
-                pattern_type="content_type_timing", 
+                pattern_type="content_type_timing",
                 pattern_data={
                     "content_type": "article",
                     "peak_hour": 9,
@@ -810,32 +810,32 @@ class TemporalEngine:
 if __name__ == "__main__":
     # Example usage
     engine = TemporalEngine()
-    
+
     # Analyze patterns
     patterns = engine.analyze_patterns()
     print("Temporal Patterns Discovered:")
     print("=" * 40)
-    
+
     for pattern in patterns:
         print(f"\nType: {pattern.pattern_type}")
         print(f"Confidence: {pattern.confidence:.2f}")
         print(f"Description: {pattern.description}")
-    
+
     # Generate insights
     insights = engine.generate_insights(patterns)
     print("\n\nTemporal Insights:")
     print("=" * 40)
-    
+
     for insight in insights:
         print(f"\nTitle: {insight.title}")
         print(f"Confidence: {insight.confidence:.2f}")
         print(f"Description: {insight.description}")
         print(f"Actions: {', '.join(insight.action_suggestions[:2])}")
-    
+
     # Get optimal times
     optimal_times = engine.get_optimal_times()
     print("\n\nOptimal Consumption Times:")
     print("=" * 40)
-    
+
     for hour, confidence in optimal_times[:5]:
         print(f"{hour:02d}:00 - Confidence: {confidence:.2f}")

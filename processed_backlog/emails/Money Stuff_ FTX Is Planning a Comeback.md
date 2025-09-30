@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.The basic situation at FTX Trading Ltd. is that a lot of people — retail 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.The basic situation at FTX Trading Ltd. is that a lot of people — retail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       FTX is back!?
-    
-  
+
+
 
 The   basic situation at FTX Trading Ltd. is that a lot of people — retail customers but also institutional crypto traders — seem to have liked trading on FTX, but then FTX, and its affiliated trading firm Alameda Research, lost and/or stole their money. Hearing rumors of this, FTX’s customers asked to withdraw their money; the money wasn’t there, and FTX filed for bankruptcy.
 So that’s where we are now. How do you fix this? An obvious place to focus is on finding the money and putting it back. If FTX/Alameda stole a bunch of customer money and used it to buy Bahamas condos and make political and philanthropic donations, you sell the condos and ask for the donations back. If you do that really efficiently, you get all the money back, and you give it back to the customers, and everything is fine. But this seems unlikely to be a complete success. For one thing, you probably won’t recover all the money, and you’ll have costs in doing so. But also a lot of the money seems to have gone into investments, particularly cryptocurrency investments, that lost a lot of value: If Alameda took $1 billion of FTX customer funds and spent it on magic beans, and you are able to sell the magic beans for $35, then that’s $999,999,965 of customer money that you’re not getting back.
@@ -110,89 +110,89 @@ Given FTX’s stash of FTT, that’s like $100 million more for creditors right 
   [5]
  Imagine if it works!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Samcoins
-    
-  
+
+
 
 Elsewhere in  FTX and magic beans:
 
@@ -205,20 +205,20 @@ Since his company imploded, Mr. Bankman-Fried has repeatedly denied accusations 
 See my view on this is that it was probably fine for Alameda to make markets in Samcoins, and it was probably fine for FTX to announce that it would use a portion of its fee revenue to buy back FTT (that is like a stock buyback, since FTT was like FTX stock). And it was … aggressive, but basically fine, for Alameda to use its stash of billions of dollars of Samcoins as collateral to borrow from other crypto lenders. And if you combine Alameda’s market making in Samcoins with its using them as collateral for other crypto lenders, you get into a worse place, where if the market making pushed up prices and allowed Alameda to borrow more then that does looks bad, depending on how aggressively Alameda was buying. (That looks   like Archegos.)
 But to me the thing that is really bad is FTX lending billions of dollars to Alameda secured by FTT tokens. If you are a leveraged financial institution, and you have a favored customer who owns a lot of your stock, and you lend that customer billions of dollars of real customer money secured by that stock, then you have built your whole company on quicksand. What if people notice? They will sell off your stock, which will reduce the value of your collateral, which will lead to credit losses, which will lead your stock to go down more, which will lead to more losses, etc., until it all vanishes. It is an obvious   death spiral. “FTT was just like stock of FTX” is perhaps a defense to some claims of manipulation, but the real problem here is that FTX lost customer money lending it to Alameda secured by Samcoins. Even if the value of those coins wasn’t inflated artificially, that was still pretty bad.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Customer service
-    
-  
+
+
 
 One important use case of crypto is online crime. If you want to pay for drugs or assassinations, or get a ransom payment for hacking someone’s computer, Bitcoin has some really nice properties. It can be transferred anonymously, more or less instantly, over the internet, with no intermediaries — banks, etc. — that might block or reverse a payment. It has a value that is widely accepted internationally. It is, in many ways, money, but free of the regulation that applies to dollars and euros and most other kinds of money.
 The only problem is turning your regular money (dollars, euros, rubles, whatever — “fiat,” crypto people call it) into Bitcoin, and your Bitcoin back into regular money. Most people have jobs that pay them in fiat currencies, and pay most of their expenses in fiat currencies. If you got your paycheck and want to buy drugs with Bitcoin, or if you got a big ransomware payment in Bitcoin and want to buy groceries, you will need to turn fiat into Bitcoin or Bitcoin into fiat.
@@ -256,7 +256,7 @@ LEGKODYMOV was also aware that Bitzlato’s customers were not using the service
 At some point Bitzlato’s marketing director allegedly made a document called “Competitor Analysis” that described Bitzlato’s pros and cons:
 
 
-    
+
 
 Just perfect marketing, really, for a crime-friendly crypto exchange. The main pros are (1) it’s fine with crime and (2) you can deposit money easily. The main cons are (1) it’s fine with crime, (2) so crime will probably be done to you, and (3) it’s expensive to withdraw money.
   [7]
@@ -267,15 +267,15 @@ And in fact, Bitzlato helped US law enforcement with inquiries into crime:
 In response to requests for account data from U.S. law enforcement agents about specific users who were the subjects of law enforcement investigations, Bitzlato personnel provided charts that reflected the Internet Protocol addresses from which those users were logging into Bitzlato’s servers. Those charts included a column titled “user_ip_country,” reflecting the country in which each IP address appeared to be located. In numerous instances, the Bitzlato charts reflected that users were accessing Bitzlato’s servers from the United States, including logins from an IP address located in Brooklyn, New York that was identified in October 2022.
 So, not entirely pro-crime. But the complaint doesn’t actually say that Bitzlato supported any crime in the US, that anyone in the US used Bitzlato to buy Bitcoin to buy drugs or to sell Bitcoin received in ransoms. Nor does it say that it supported any dollar-linked crime, that any Russian hackers used Bitzlato to turn Bitcoin ransoms into dollars. Mostly it says that Bitzlato allowed Russian customers to trade rubles for crypto without using their Russian identity cards, and that it had a website that you could access from the US. US prosecutors are in the business of prosecuting financial crime anywhere in the world, and if Russians are hiding their transactions from the Russian government, US prosecutors are interested.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Treasury to Begin  Extraordinary Measures to Pay Bills Amid Debt-Ceiling Debate. JPMorgan’s   Dimon Says US Shouldn’t ‘Play Games’ on Debt Ceiling. Wall Street Struggles to Contain Costs as  Pay Pressures Escalate. Credit Suisse to Pay  Upfront Cash Bonuses to Senior Staff. Citigroup  Boosts Pay for Most Junior Bankers Despite Tough Year. Number of  EU bankers earning above €1mn hits record following Brexit. Startup Workers’   Dreams of Big Payouts Are Put On Hold. Argentina’s $1 Billion   Bond Buyback Plan Has Investors Stumped. Musk Lawyer Defends ‘Rushed’   Take-Private Tweet at Trial. Why  Orange Juice Is So Expensive Right Now.  Peter Thiel’s fund wound down 8-year bitcoin bet before market crash.   Usain Bolt Lost $12 Million in Savings to a Scam. Getty Images is suing the creators of AI art tool Stable Diffusion for  scraping its content. Bank Worker Who Led Secret Life After   $500,000 Heist Caught 25 Years Later. Fugitive in   $100 Million NJ Deli-Value Case Nabbed in Thailand. The lights have been on at a Massachusetts school for over a year because  no one can turn them off. Orange bitcoin Mercedes owner at Davos hits back at critics, says  not his car’s fault people lost money. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Well. If Alameda bought the magic beans for $1 billion from some identifiable counterparty, maybe you could call *them* up and say “hey that was kind of a raw deal, why don’t you give us back the billion dollars and we’ll give you back the beans.” And if the counterparty seems to have been, in some sense, in on it — if Alameda bought the beans from, like, an FTX executive, or from some crypto project that it incubated — then maybe that’ll work, as a matter of bankruptcy law or public pressure or whatever. But it seems like a lot of this was Alameda buying magic beans from regular traders on crypto exchanges in market transactions,  and the odds of clawing back the purchase price in those transactions are basically zero.
 
 
@@ -297,114 +297,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] A funny but *VERY RISKY* way to run a crime-friendly Bitcoin exchange would be to (1) lean heavily into advertising how crime-friendly you are, (2) accept deposits without KYC/AML, and (3) never give back the money. What are they gonna do, sue you for the money? The money is from crime. But of course if your business is stealing money from criminals, that … seems … bad … for non-legal reasons.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

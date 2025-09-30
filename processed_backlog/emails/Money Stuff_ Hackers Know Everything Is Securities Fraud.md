@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.I say this a lot but it keeps being true: Every bad thing that a public c
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Chutzpah
-    
-  
+
+
 
 I   say   this a   lot   but it  keeps being   true: Every bad thing that a public company does, and every bad thing that happens to a public company, is also securities fraud.
 The general form of this is something bad happens and the company does not immediately disclose it, or has not adequately warned shareholders of the risk of it happening, or both. Later, when the bad news comes out, the company’s stock drops. Shareholders who bought the stock before the news came out sue, saying that they were deceived about the bad thing and lost money. The US Securities and Exchange Commission also takes an interest in fraud and might bring an enforcement action.
@@ -87,37 +87,37 @@ There are problems with their submission, of course:
 
 Do you think they read Money Stuff? I feel like I have done a lot to popularize the idea that everything is securities fraud — not as much as the SEC, but a lot — and it is nice to see how far the idea has traveled.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ad valorem
-    
-  
+
+
 
 If Rivian Automotive Inc. bought some land in Georgia and built a big factory there, it would have to pay Georgia property taxes on the factory. If, instead, the government of the state of Georgia bought the land and built the factory there, and Rivian just rented it from the state, it would not have to pay the taxes.
   [2]
@@ -153,11 +153,11 @@ Shakarjian said Georgia’s system for economic development projects was unusual
 
 Love it. You could imagine the government of Georgia just saying “you know what, never mind all this, you just build the factory and we’ll waive your taxes for a bit.” But apparently that’s not allowed — “the state doesn’t have legislation allowing for companies to get abatements” — so it does this instead. Which comes to the same place, but provides much more entertainment for lawyers, and for me.
 
-  
-    
+
+
       Elsewhere in whistleblower incentives
-    
-  
+
+
 
 More generally. Let’s say you find something bad at a public company that the rest of the market does not know about. (Let’s say you didn’t do the bad thing yourself.) Let’s say that you know with certainty that, when you disclose your bad news, the company’s value will decline by 20%. It’s a company with a $1 billion market capitalization, and once the market knows about your news it will be worth $800 million. What should you do?
 You could sell the stock short. Say you short $100 million of stock, tying up roughly $100 million of your balance sheet and risk exposure. You publish your news, the market reacts, your position declines to $80 million, you cover, you have made $20 million. That is probably too optimistic; it’s not easy to short 10% of a company’s stock, and you’ll probably pay a lot in stock borrow costs.
@@ -189,11 +189,11 @@ I suppose that if you are the SEC, the question might be: How much securities fr
 
 You could imagine the SEC, when it created the whistleblower program, thinking “we only catch 30% of fraud and it would be optimal to shift that up to like 40%, surely paying some money to whistleblowers will help with that.” But the result is that it now advertises risk-free unlimited money to short sellers, and they will give it as much fraud as it can handle, maybe more.
 
-  
-    
+
+
       Sculptor’s over
-    
-  
+
+
 
 For real, now,  I think:
 
@@ -204,11 +204,11 @@ The two decisions end a months-long bidding war by Boaz Weinstein and a group of
 Weinstein’s competition did force Rithm to raise its price from $11.15 to $12.70, which is lower than his $13.50 offer but, Sculptor’s board decided, more certain. Weinstein’s deal would take months to close and might fall apart; Rithm’s might close this week. 
 Anyway the vote is today and everyone expects the deal to be approved and close soon at $12.70. But the stock has traded above $12.70 for the last few days; it was at about $12.75 at noon today. I don’t know why? One possibility is that, while none of the lawsuits succeeded in blocking the deal, there’s still the possibility of a   lawsuit for more money. (An   appraisal action, for instance.) Sculptor really did get a bid for $13.50 and sold for $12.70; it’s possible that some shareholders could find a court that sympathizes with the argument that they should have gotten a little more.
 
-  
-    
+
+
       DTMM
-    
-  
+
+
 
 Who among us:
 
@@ -220,15 +220,15 @@ I almost appreciate the tradecraft here? Like the thought process must have be
 
 Except then   you have to go tell somebody about your clever joke, and then the whole thing doesn’t work.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Hedge fund Millennium prepares for  life after founder Izzy Englander. Schonfeld Cuts 15% of Staff After Exiting Millennium Talks. Blackstone borrows to boost lending power of  $52bn credit fund. Big Banks to Be   Saddled With Tab for SVB, Signature Depositors. FDIC Chair,  Known for Temper, Ignored Bad Behavior in Workplace. Top US Bank Watchdogs   Defend Higher Capital Rules for Lenders. Regulators Say Wells Fargo Isn’t Doing Enough to  Police Customer Crimes. Activist ValueAct Builds  Stake in Disney. SpaceX Weighs   Spinning Off Starlink Via IPO as Soon as 2024. Musk-Xi Meeting Shows Tight Relationship   China Has With Tesla. Signa Bondholders Probe Whether   Debt Rules Broken.   DeFi Is Becoming Less Competitive a Year After FTX’s Collapse Battered Crypto. Ex-Carlsberg executives  detained in Russia over fraud claims. Finance Firms Acknowledge   ‘Awful’ Culture in UK Sexism Probe. The Radio Host and the  Real Estate Scam. Plane forced to return to airport after  horse escapes crate.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There is a lot of nuance here, and arguably if you came by the information in an honest way — after all, you created it — you can trade. But in the general case, and especially in the specific case of hacking, nobody is going to agree that you came by the information in an honest way. Not legal advice!
 
 
@@ -253,10 +253,10 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] See the 8-K, and the  option agreement.
 
 
-  [9] Also there are potential insider trading risks, depending on how you found out the bad information. 
+  [9] Also there are potential insider trading risks, depending on how you found out the bad information.
 
 
-  [10] Obviously this is absurd, because that $200 million *also* comes out of shareholders’ pockets (or possibly insurance): It just makes the problem worse! My only defense is that this really is how US securities fraud damages work; I don’t like it either. 
+  [10] Obviously this is absurd, because that $200 million *also* comes out of shareholders’ pockets (or possibly insurance): It just makes the problem worse! My only defense is that this really is how US securities fraud damages work; I don’t like it either.
 
 
   [11] The general idea is that, if the bad news is going to cause an $X drop in the company’s stock price, short selling will allow you to capture $X x Y% of that damage, where Y% is the amount you are willing and able to short; given liquidity, the size of your fund, etc., Y% is probably a single-digit percentage at most. Whereas whistleblowing allows you to capture up to 0.3 x $X, given the SEC’s award structure, and 0.3 is probably higher than Y%.
@@ -265,48 +265,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [12] The other “center of gravity” in the program is of course that the *lawyers* who represent whistleblowers and negotiate their awards tend to be people who came from the SEC’s whistleblower office. “This is a good trade,”  I once wrote: “Build a spigot of government money and plant yourself in front of it.” Platt has also written about this.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -317,46 +317,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjvr4m.5hur/0972b3ae.gif" alt="" border="0" /></a>

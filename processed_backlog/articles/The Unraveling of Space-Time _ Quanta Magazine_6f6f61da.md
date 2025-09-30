@@ -5,7 +5,7 @@
 
 [Quanta Homepage](/)
 
-Login 
+Login
 
 #### Log out
 
@@ -13,7 +13,7 @@ Login
 
 #### Change password
 
-Save Article 
+Save Article
 
 Read Later
 

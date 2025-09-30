@@ -15,9 +15,9 @@ from helpers.email_to_html_converter import EmailToHtmlConverter
 def test_text_to_html():
     """Test converting text to HTML"""
     print("Testing text to HTML conversion...")
-    
+
     converter = EmailToHtmlConverter()
-    
+
     # Test plain text
     text_content = """Hello,
 
@@ -29,9 +29,9 @@ Check out our latest articles:
 
 Best regards,
 The Team"""
-    
+
     html_content = converter.convert_text_to_html(text_content)
-    
+
     # Check that conversion worked
     assert '<br>' in html_content
     assert '<a href=' in html_content
@@ -41,9 +41,9 @@ The Team"""
 def test_html_to_clean_html():
     """Test cleaning HTML content"""
     print("Testing HTML cleaning...")
-    
+
     converter = EmailToHtmlConverter()
-    
+
     # Test HTML content
     html_content = """<html>
 <head>
@@ -56,9 +56,9 @@ def test_html_to_clean_html():
     <p>Hello <strong>world</strong>!</p>
 </body>
 </html>"""
-    
+
     clean_html = converter.convert_html_to_clean_html(html_content)
-    
+
     # Check that cleaning worked
     # Script tags should be removed
     assert '<script>' not in clean_html
@@ -72,9 +72,9 @@ def test_html_to_clean_html():
 def test_email_to_html():
     """Test converting email data to HTML"""
     print("Testing email to HTML conversion...")
-    
+
     converter = EmailToHtmlConverter()
-    
+
     # Test email data
     email_data = {
         'subject': 'Weekly Newsletter',
@@ -83,9 +83,9 @@ def test_email_to_html():
         'to': 'user@example.com',
         'content': 'Hello world!'
     }
-    
+
     html_output = converter.convert_email_to_html(email_data)
-    
+
     # Check that conversion worked
     assert '<h1' in html_output
     assert 'Weekly Newsletter' in html_output
@@ -96,15 +96,15 @@ def main():
     """Run all tests"""
     print("Running Email-to-HTML Converter Tests")
     print("=" * 40)
-    
+
     try:
         test_text_to_html()
         test_html_to_clean_html()
         test_email_to_html()
-        
+
         print("\nAll tests passed!")
         return True
-        
+
     except Exception as e:
         print(f"\nTest failed: {e}")
         import traceback

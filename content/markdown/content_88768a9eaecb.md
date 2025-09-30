@@ -6,7 +6,7 @@
 
 <!DOCTYPE html>
 <html class="StoryPage" lang="en" data-header-hasleaderboard="true" data-named-page-type="Article"  data-leaderboard-is-fixed="true" data-hasZephr="true"data-lead="medium">
-    
+
     <head>
 
 <script type="text/javascript" src="https://cdn.cookielaw.org/consent/a71f6440-204e-44d0-b5f6-af7a3c22073f/OtAutoBlock.js"></script>
@@ -22,11 +22,11 @@
     <meta property="og:image" content="https://dims.apnews.com/dims4/default/2d51d4c/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297">
 
 <meta property="og:image:url" content="https://dims.apnews.com/dims4/default/2d51d4c/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297">
-    
+
     <meta property="og:image:width" content="1440">
     <meta property="og:image:height" content="810">
     <meta property="og:image:type" content="image/jpeg">
-    
+
     <meta property="og:image:alt" content="Hezbollah fighters carry one of the coffins of four fallen comrades who were killed Tuesday after their handheld pagers exploded, in the southern suburb of Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Bilal Hussein)">
 
 <meta property="og:description" content="Multiple explosions occurred at the site of a funeral for three Hezbollah members and a child killed by exploding pagers the day before, according to Associated Press journalists at the scene.">
@@ -62,17 +62,17 @@
 <meta property="article:tag" content="Israel">
 
 <meta name="twitter:card" content="summary_large_image">
-    
-    
-    
-    
+
+
+
+
     <meta name="twitter:description" content="Israel&#x27;s defense minister declares a “new phase” of war as Hezbollah officials and Lebanon&#x27;s state media say explosions went off in Beirut and multiple parts of Lebanon in an apparent second wave of detonations of electronic devices."/>
-    
-    
+
+
     <meta name="twitter:image" content="https://dims.apnews.com/dims4/default/2d51d4c/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297"/>
 
 <meta name="twitter:image:alt" content="Hezbollah fighters carry one of the coffins of four fallen comrades who were killed Tuesday after their handheld pagers exploded, in the southern suburb of Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Bilal Hussein)"/>
-    
+
 <meta name="twitter:site" content="@AP">
 
 <meta name="twitter:title" content="Lebanon is rocked again by exploding devices as Israel declares a new phase of war"/>
@@ -117,10 +117,10 @@
 /* DARK COLORS */
     --bgDefault--DARK: #000;
     --color-primary-text--DARK: var(--color-text-inverse);
-    
+
     --color-link-text--DARK: var(--color-text-inverse);
     --color-link-text-hover--DARK: #999;
-    
+
     --module-title-prompt-border--DARK: #333;
     --color-byline-authors--DARK: #fff;
 
@@ -362,7 +362,7 @@ button.vf-tray-settings-button {
         <meta name="brightspot.contentId" content="ef9604a0-1cc9-3e16-b5ab-a4e8688919c8"><link  rel="apple-touch-icon"  sizes="180x180" href="/apple-touch-icon.png"><link  rel="icon"  type="image/png" href="/favicon-32x32.png"><link  rel="icon"  type="image/png" href="/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
         <script type="application/ld+json" id="link-ld-json">[{"@context":"http://schema.org","@type":"NewsArticle","url":"https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288","dateModified":"2024-09-19T07:45:15Z","datePublished":"2024-09-18T06:12:35Z","description":"Israel's defense minister declares a “new phase” of war as Hezbollah officials and Lebanon's state media say explosions went off in Beirut and multiple parts of Lebanon in an apparent second wave of detonations of electronic devices. The Hezbollah officials and state media said Wednesday that walkie-talkies and even solar equipment detonated a day after hundreds of pagers blew up. Lebanon's Health Ministry says at least 20 people were killed and 450 were wounded. Israel's defense minister made no mention of the mysterious waves of exploding devices in his remarks.","image":[{"@context":"http://schema.org","@type":"ImageObject","height":991,"thumbnailUrl":"https://dims.apnews.com/dims4/default/0aecb58/2147483647/strip/false/crop/8640x5760+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297","url":"https://dims.apnews.com/dims4/default/0aecb58/2147483647/strip/false/crop/8640x5760+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297","width":1486}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288"},"author":[{"@context":"http://schema.org","@type":"Person","name":"Johnson Lai","url":"https://apnews.com/author/johnson-lai"},{"@context":"http://schema.org","@type":"Person","name":"Bassem Mroue","url":"https://apnews.com/author/bassem-mroue"}],"publisher":{"@type":"Organization","name":"AP News","logo":{"@type":"ImageObject","url":"https://assets.apnews.com/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg"}},"articleSection":["World News"],"keywords":["Lebanon","General news","Israel","Israel-Hamas war","Hezbollah","Beirut","Asia","Asia Pacific","lebanon israel exploding pagers hezbollah syria","Technology","Yoav Gallant","World news","International agreements","Politics","Israel government","War and unrest"],"thumbnailUrl":"https://dims.apnews.com/dims4/default/0aecb58/2147483647/strip/false/crop/8640x5760+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297","name":"Second wave of explosions hits Lebanon a day after pager attack | AP News","headline":"Second wave of explosions hits Lebanon a day after pager attack"}]</script>
-    
+
         <script type="application/ld+json" id="video-ld-json">{"@context":"http://schema.org","@type":"JW Videos","list":[{"@context":"http://schema.org","@type":"VideoObject","contentUrl":"https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288","description":"Multiple explosions went off Wednesday at the site of a funeral for three Hezbollah members and a child killed by exploding pagers the day before, according to Associated Press journalists at the scene. (AP video/Fadi Tawil)","embedUrl":"https://apnews.com/video/general-news-lebanon-hezbollah-funerals-and-memorial-services-700f3e20d6d84a20bdc831a82360ea04","name":"Blast heard near site of Beirut funeral for people killed in pager explosions","potentialAction":{"@context":"http://schema.org","@type":"SeekToAction","startOffset-input":"required name=seek_to_second_number","target":"https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?jw_start={seek_to_second_number}"},"thumbnailUrl":"https://cdn.jwplayer.com/v2/media/aq2o4hGb/thumbnails/3kngRsZY.jpg","uploadDate":"Wed Sep 18 12:19:19 EDT 2024"}]}</script>
 
 <!-- this will add webcomponent polyfills based on browsers. As of 04/29/21 still needed for IE11 and Safari -->
@@ -383,11 +383,11 @@ button.vf-tray-settings-button {
             head.appendChild(script);
         }
     </script>
-    
+
         <script data-bsp-main-js src="https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.d060e96533a42579b558727b3e4b2b04.gz.js" async></script>
-    
-    
-    
+
+
+
     <meta name="gtm-dataLayer" content="{
   &quot;event&quot; : &quot;Article Visited&quot;,
   &quot;Item_Id&quot; : &quot;ce6af3c2e6de0a0dddfae48634278288&quot;,
@@ -493,15 +493,15 @@ button.vf-tray-settings-button {
                 elScript.setAttribute('type', 'text/javascript');
                 elScript.setAttribute('async', async);
                 document.head.appendChild(elScript);
-            }    
+            }
             loadJS("https://a40.usablenet.com/pt/c/apnews/ls-start", true);
        }
-    })(document.documentElement) 
+    })(document.documentElement)
 </script><script>((selectors, LogStyle) => {
     document.addEventListener('DOMContentLoaded', () => {
         const ZephrEls = document.querySelectorAll(selectors)
         ZephrEls.forEach(el => {
-			console.log('%cZephrElementFound', LogStyle, el.className, el)	
+			console.log('%cZephrElementFound', LogStyle, el.className, el)
         })
     })
 })('.Zephr-bar, .Zephr-donateModule', 'background: #00D2B9;color: black; padding: 4px;')</script>
@@ -521,7 +521,7 @@ window.Zephr.groupFields = false;
             } catch (e) {
                 response = xhr.response;
             }
-            
+
             if (xhr.status === 200) {
               for (var dataLayerFieldName in response) {
                 if (!(dataLayerFieldName in window)) window[dataLayerFieldName] = [];
@@ -637,25 +637,25 @@ let targetingReady = false;
 
 function setupAdmiralAuthTargeting() {
     if (targetingReady) return;
-    
+
     // Check for Zephr
-    if (window.Zephr && 
-        window.Zephr.accessDetails && 
+    if (window.Zephr &&
+        window.Zephr.accessDetails &&
         window.Zephr.accessDetails.authenticated !== undefined) {
-        
+
         // Get authentication status
         const isAuthenticated = window.Zephr.accessDetails.authenticated;
-        
+
         // Get activeProducts (donation status)
         const activeProducts = window.Zephr.accessDetails.activeProducts || [];
         const activeProductsString = activeProducts.length > 0 ? activeProducts.join(',') : 'none';
-        
+
         // Set Admiral targeting parameters
         window.admiral("targeting", "set", "authenticated", isAuthenticated.toString());
         window.admiral("targeting", "set", "activeProducts", activeProductsString);
         window.admiral("targeting", "ready");
         targetingReady = true;
-        
+
         console.log('Admiral targeting set: authenticated =', isAuthenticated);
         console.log('Admiral targeting set: activeProducts =', activeProductsString);
     } else {
@@ -666,7 +666,7 @@ function setupAdmiralAuthTargeting() {
 
 setupAdmiralAuthTargeting();
 
-// Failsafe timeout 
+// Failsafe timeout
 setTimeout(function() {
     if (!targetingReady) {
         window.admiral("targeting", "set", "authenticated", "unknown");
@@ -678,8 +678,8 @@ setTimeout(function() {
 }, 3000);
 </script><script src=https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js async></script>
 <script>
-  function isDesktop() { 
-    return window.innerWidth >= 768; 
+  function isDesktop() {
+    return window.innerWidth >= 768;
   }
   if (isDesktop()) {
     window.OneSignalDeferred = window.OneSignalDeferred || [];
@@ -719,10 +719,10 @@ setTimeout(function() {
     }
   }, 1000);
 }
- 
+
 onVFReady(() => {
   console.log('viafoura: logging out');
- 
+
   if (!window.Zephr?.accessDetails?.authenticated) {
     window.vf.session.logout();
   }
@@ -730,7 +730,7 @@ onVFReady(() => {
 <script>(function deleteDotApnewsCookie() {
   const cookieName = "blaize_session";
   const domain = ".apnews.com";
- 
+
   // Overwrite the cookie with past expiry to delete it
   document.cookie = `${cookieName}=; domain=${domain}; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax`;
   console.log(`Deleted ${cookieName} cookie for domain ${domain}`);
@@ -743,7 +743,7 @@ onVFReady(() => {
     !function(e,f,u){e.async=1;e.src=u;f.parentNode.insertBefore(e,f);}(document.createElement('script'),document.getElementsByTagName('script')[0],'//c2.taboola.com/nr/associatedpress-apnews/newsroom.js');
     }
 </script><script id="taboola-recommendation-module-head">
-  
+
   window._taboola = window._taboola || [];
   _taboola.push({
     article :'auto'
@@ -823,9 +823,9 @@ if(window.performance && typeof window.performance.mark == 'function')
 <script>
   window.fbAsyncInit = function() {
       FB.init({
-          
+
               appId : '870613919693099',
-          
+
           xfbml : true,
           version : 'v2.9'
       });
@@ -1437,10 +1437,10 @@ head.appendChild(link);
     <!-- End Google Tag Manager (noscript) -->
 
 <div class="LeaderBoardAd-Web">
-    
-        
+
+
             <bsp-header-leaderboard class="Page-header-leaderboardAd" data-timeout="2" data-pretimeout="3">
-    
+
         <div class="FreeStar Advertisement" data-module>
         <div align="center" data-freestar-ad="__336x280 __728x250" id class="apnews_leaderboard">
     <script data-cfasync="false" type="text/javascript">
@@ -1460,10 +1460,10 @@ head.appendChild(link);
         });
     </script>
 </div></div>
-    
+
 </bsp-header-leaderboard>
-        
-    
+
+
 </div>
 <div class="Page-header-stickyWrap">
 <div class="Page-header desktop-header" id="Page-header-top">
@@ -1473,7 +1473,7 @@ head.appendChild(link);
 <div class="Page-header-bar">
 
 <div class="Page-header-bar-logo"><a aria-label="home page" href="/"  >
-    
+
         <picture>
 
 <source srcset="https://assets.apnews.com/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg">
@@ -1482,243 +1482,243 @@ head.appendChild(link);
     >
 
 </picture>
-    
+
     </a>
 </div>
-                
-            
+
+
             <button class="Page-header-menu-trigger desktop-icon" aria-expanded="false"><svg class="burger-menu"><use xlink:href="#burger-menu-new"></use></svg><svg class="close-x"><use xlink:href="#close-x"></use></svg><span class="label">Menu</span></button>
 
 <div class="Page-header-navigation">
-                
+
                     <bsp-nav class="MainNavigation">
-    
+
         <ul class="MainNavigation-items"><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/world-news">World
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="World">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/israel-hamas-war' class='Subheader-Sections-items-item'>Israel-Hamas war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/russia-ukraine' class='Subheader-Sections-items-item'>Russia-Ukraine war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/noticias' class='Subheader-Sections-items-item'>Español</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/china' class='Subheader-Sections-items-item'>China</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/asia-pacific' class='Subheader-Sections-items-item'>Asia Pacific</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/latin-america' class='Subheader-Sections-items-item'>Latin America</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/europe' class='Subheader-Sections-items-item'>Europe</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/africa' class='Subheader-Sections-items-item'>Africa</a>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-drone-attack-oil-e28542d48d095866f89a38c5046275d8'>Ukrainian drones strike one of Russia's top oil refineries, sparking fire</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/equatorial-guinea-internet-shutdown-africa-d7daacc641475743972b33eaffffa4fc'>Equatorial Guinea enforces yearlong internet outage for island that protested construction company</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/israel-palestinians-hamas-war-news-09-14-2025-665737776ce05e3496af40676a9bc237'>Rubio is in Israel in wake of Qatar attack as Israeli strikes intensify in northern Gaza</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Afternoon+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Afternoon Wire</div>
                         <div class='Newsletter-description' >Get caught up on what you may have missed throughout the day.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/us-news">U.S.
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="U.S.">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/immigration' class='Subheader-Sections-items-item'>Immigration</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/weather' class='Subheader-Sections-items-item'>Weather</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/education' class='Subheader-Sections-items-item'>Education</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/us-news/transportation' class='Subheader-Sections-items-item'>Transportation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/abortion' class='Subheader-Sections-items-item'>Abortion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/lgbtq' class='Subheader-Sections-items-item'>LGBTQ+</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/obituaries' class='Subheader-Sections-items-item'>Notable Deaths</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kilmeade-fox-homeless-executed-apology-bffb74e9d672b79853dc6fb8eb29afc8'>Fox News' Brian Kilmeade apologizes for saying mentally ill homeless people should be executed</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-cox-robinson-assassination-aef9fe8dc82d218a36d078536717d95d'>Utah governor says the motive in Kirk shooting is not yet certain but the suspect was on the left</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/illinois-governor-dies-jim-edgar-ed01c6d2847c9fe136106b9a96aac7fe'>Former Illinois Gov. Jim Edgar, a popular two-term Republican, dies at 79</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
-                
+
+
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
             <div class='Subheader-Title'>AP QUIZZES</div>
-            
+
             <div class='Newsletter'>
                 <a class="item" href='/quizzes'>
                     <div class='Newsletters-info'>
@@ -1727,1461 +1727,1461 @@ head.appendChild(link);
                     </div>
                 </a>
             </div>
-            
-            
+
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/politics">Politics
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Politics">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/donald-trump' class='Subheader-Sections-items-item'>White House</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/congress' class='Subheader-Sections-items-item'>Congress</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/us-supreme-court' class='Subheader-Sections-items-item'>U.S. Supreme Court</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/election-results-2025/' class='Subheader-Sections-items-item'>2025 Election Calendar</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/polling-tracker/' class='Subheader-Sections-items-item'>The latest AP-NORC polls</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/newsletter/ground-game/july-28-2025' class='Subheader-Sections-items-item'>Ground Game</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-trump-cancel-culture-assassination-4d69649e382ea46d8dcf794150a1d3c9'>After Kirk's killing a growing chorus of conservatives wants his critics ostracized or fired</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/political-violence-republican-democrat-election-fear-kirk-eb105e574210d5fc03b9d0500ac36a96'>Political leaders confront security concerns — and fear — after Kirk's assassination</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-promises-ukraine-kennedy-center-war-department-0c2c769ecd5688a21a7aeb2efc2e14c2'>Sugar Coke? Department of War? Where some of Trump's most jaw-dropping promises stand</a>
                 </li>
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Ground_Game'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>Ground Game</div>
                         <div class='Newsletter-description' >Exclusive insights and key stories from the world of politics.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/sports">Sports
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Sports">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/ap-top-25-college-football-poll' class='Subheader-Sections-items-item'>AP Top 25</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nfl' class='Subheader-Sections-items-item'>NFL</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/mlb' class='Subheader-Sections-items-item'>MLB</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/wnba-basketball' class='Subheader-Sections-items-item'>WNBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tennis' class='Subheader-Sections-items-item'>Tennis</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/golf' class='Subheader-Sections-items-item'>Golf</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nba' class='Subheader-Sections-items-item'>NBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nhl' class='Subheader-Sections-items-item'>NHL</a>
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/top-25-college-football-poll-9-14-2025'><span class='islive'>LIVE&nbsp;</span>AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ricky-hatton-obit-boxing-e306374b99c884a1005c6aef50cecf32'>Ricky Hatton, former world boxing champion, dies at 46</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ap-top-25-football-poll-fd1a383be49e7e666a67962ef945cbc1'>Texas A&M jumps to No. 10 in the AP Top 25, Notre Dame is the first ranked 0-2 team since 1988</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP_CFB_Top_25_Poll_Alerts'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Top 25 Poll Alerts</div>
                         <div class='Newsletter-description' >Get email alerts for every college football Top 25 Poll release.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Sports+HQ'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Sports Wire</div>
                         <div class='Newsletter-description' >Your home base for in-depth reporting from the world of sports.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/entertainment">Entertainment
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Entertainment">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/movies' class='Subheader-Sections-items-item'>Movies</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/the-stream' class='Subheader-Sections-items-item'>What to Stream</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/television' class='Subheader-Sections-items-item'>Television</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/celebrity-interviews/' class='Subheader-Sections-items-item'>Celebrity Interviews</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/music' class='Subheader-Sections-items-item'>Music</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/books-and-literature' class='Subheader-Sections-items-item'>Books</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/emmy-awards-2025-updates'><span class='islive'>LIVE&nbsp;</span>2025 Emmys: 'The Pitt' and ‘The Studio’ win top awards</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nate-bargatze-2025-emmy-awards-c1e27164c0723c4b5c2988d4c586d99d'>Emmys host Nate Bargatze pokes fun at the TV industry and fails with gag to keep speeches short</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/bobby-hart-dead-86-monkees-b1fdf152699443429d21360d5a3d95fb'>Bobby Hart, co-wrote 'Last Train to Clarksville' and other hits for the Monkees, dead at 86</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP+Entertainment+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Entertainment Wire</div>
                         <div class='Newsletter-description' >Get AP's first personalized newsletter delivering you entertainment news twice a week.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/business">Business
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Business">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tariffs' class='Subheader-Sections-items-item'>Tariffs</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/inflation' class='Subheader-Sections-items-item'>Inflation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-markets' class='Subheader-Sections-items-item'>Financial Markets</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-wellness' class='Subheader-Sections-items-item'>Financial Wellness</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/technology' class='Subheader-Sections-items-item'>Technology</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627'>Workers commenting on Kirk's death learn the limits of free speech in and out of their jobs</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-lisa-cook-federal-reserve-85fca8a405faa66e11c9567a193468e3'>Trump administration renews push to fire Fed governor Lisa Cook ahead of key vote</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/federal-reserve-inflation-jobs-rates-trump-powell-164fdc130275c0df17562273e1042bfe'>The Fed faces economic uncertainty and political pressure as it decides whether to cut rates</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/science">Science
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/ap-fact-check">Fact Check
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/oddities">Oddities
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Oddities">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/photo-gallery/ghana-fantasy-coffins-photos-9e1169da6238feef5400ede6d88992d7'>Photos show Ghana's fantasy coffins as a stylish final rest</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ghana-fantasy-coffins-funerals-accra-tradition-01220db5b2e240a12ae8e4ba8820f993'>Ghana's fantasy coffins are a colorful celebration of life and legacy</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/finland-swastika-air-force-nato-423a764e6e72abde083f6136e06461c0'>Swastikas still linger on some flags in Finland's air force, but are on the way out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa'>Ground squirrels are taking over a North Dakota city and officials are not amused</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/giant-troll-sculptures-filoli-thomas-dambo-15a070f5eba15e3a74721a7c2d23eb6e'>Giant trolls have a message for humans about protecting the planet</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/whale-breach-boat-capsize-new-hampshire-efe8cbfae49b93f6325c4331db8999ae'>Whale surfaces, capsizes fishing boat off New Hampshire coast</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/be-well">Be Well
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Be Well">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nap-sleep-workplace-wellness-productivity-4750ff0aa944509dfd2e90bde29cf4f2'>Devoted nap-takers explain the benefits of sleeping on the job</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9'>Working Well: The simple act of taking deep breaths can reduce stress and anxiety</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701'>Do you eat a meal in 20 minutes or less? It might be time to slow down</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/newsletters">Newsletters
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
-            <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography 
+
+            <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Photography ">
         <div class='Subheader-Sections Sections-one-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography/2024-year-end-photos' class='Subheader-Sections-items-item'>2024 YEAR END PHOTOS</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/photo-essays' class='Subheader-Sections-items-item'>Photo Essays</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography' class='Subheader-Sections-items-item'>Photography </a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3'>'Why? Why? Why?' Ukraine's Mariupol descends into despair</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/photography/one-photo-00000195ddefd658a3d5ffff129c0000'>An AP photographer captures a masked protester undeterred by a deluge of pepper spray</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/one-extraordinary-photo-how-this-ap-photographer-captured-taylor-swift-and-travis-kelces-iconic-kiss-0000018d6b12d410ad8fff732d8f0000'>How this AP photographer captured Taylor Swift and Travis Kelce's iconic kiss</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Photo+Gallery'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The World in Pictures</div>
                         <div class='Newsletter-description' >Get The AP’s most compelling photographs sent directly to your inbox.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/ap-investigations/">AP Investigations
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/climate-and-environment">Climate
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Climate">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change' class='Subheader-Sections-items-item'><b>Indigenous peoples and climate</b></a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-questions' class='Subheader-Sections-items-item'>Climate Questions</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-migration' class='Subheader-Sections-items-item'>Climate Migration </a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/india-climate' class='Subheader-Sections-items-item'>India Focus</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/phantom-electricity-emissions-climate-carbon-efficiency-unplugging-534aba8eb6866e8244204b6362f37daa'>This hidden electricity drain can have a massive impact</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/europe-nuclear-energy-natural-gas-renewables-finance-26c575d819e15ec686ec7e3e8e8e22fc'>Court rules Europe can call nuclear and natural gas sustainable investments for its green transition</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/freshwater-expedition-ai-501-cape-cod-5d62cae0f040d369b16d8400202f0a88'>Scientists tap 'secret' fresh water under the ocean, raising hopes for a thirsty world</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/health">Health
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Health">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/vaccines-autism-study-da78aea6421a1fb568c9ee1490f5681e'>Trump administration to award a no-bid contract on research into vaccines and autism</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ice-cream-synthetic-dyes-e334d75f87238e57826bcb65f098ebe2'>US ice cream makers say they'll stop using artificial dyes by 2028</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/measles-mmr-los-angeles-subacute-sclerosing-panencephalitis-219e43a0ef1546db043f4e891b3e441d'>Child dies from complication of measles contracted years earlier</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/drinking-alcohol-beer-wine-liquor-poll-health-091aa28c3375d30d728d48c628a9023a'>Why many Americans are rethinking alcohol, according to a new Gallup poll</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/covid-vaccine-order-states-45cb1439f260c9f6b2ccd1fb7a99ca1f'>States are taking steps to ease access to COVID-19 vaccines as they await federal recommendation</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/technology">Tech
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Tech">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/artificial-intelligence' class='Subheader-Sections-items-item'>Artificial Intelligence</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/social-media' class='Subheader-Sections-items-item'>Social Media</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-google-artificial-intelligence-hassabis-85bff114c30cbea4b951ab93dcc1e6d1'>Google's top AI scientist says ‘learning how to learn’ will be next generation's most needed skill</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/iphone-android-smartphone-b9065ad2104f70ef39a61f8e4777608d'>One Tech Tip: This summer, don't let your phone overheat</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/apple-iphone-17-new-features-b87ce97470188ca9df145132f412b768'>Apple has unveiled its iPhone 17 lineup, including the first iPhone Air. Here's what's new</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/lifestyle">Lifestyle
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Lifestyle">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/recipes' class='Subheader-Sections-items-item'>Food &amp; Recipes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/gardening' class='Subheader-Sections-items-item'>Gardening</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/homes' class='Subheader-Sections-items-item'>Homes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/travel' class='Subheader-Sections-items-item'>Travel</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/fashion' class='Subheader-Sections-items-item'>Fashion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/pets' class='Subheader-Sections-items-item'>Pets</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/gardening-forcing-spring-bulbs-indoors-8b47efb0c233eab55bf4322a5065b229'>Brighten winter with indoor blooms by forcing spring bulbs to flower early</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/religion">Religion
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Religion">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/spain-santiago-compostela-pilgrims-overtourism-camino-james-way-869ca346e84fe13805583cc33b804f18'>Pilgrims turn Spain's Santiago de Compostela into the world's latest overtourism flashpoint</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/vatican-pope-leo-birthday-be5daf80146bcff66b564c91dfaf87e8'>Pope Leo XIV marvels at his 'huge learning curve' in an interview released on his 70th birthday</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-island-orthodox-catholic-festivals-bd4cef441edee54e4f31876d6fbcb51c'>A Greek island has 1,000 private chapels. Families maintain them for faith and community</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters full'>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=World+of+Faith'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>World of Faith</div>
                         <div class='Newsletter-description' >Comprehensive global coverage of how religion shapes our world.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/noticias">Español
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Español">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/colombia-mineros-atrapados-oro-cauca-822a7d11a7a1a6e3f6930737529dcb21'>"Necesitamos un milagro": socorristas buscan a siete mineros atrapados en mina de oro en Colombia</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/papa-70-leon-cumpleanos-vaticano-fdf1f55d28dacbba6fcee275bf5320cb'>El papa León XIV cumple 70 años y dice que tiene una “enorme curva de aprendizaje por delante”</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/decarlos-ucraniana-carolina-del-norte-iryna-zarutska-89b2010a87a211f817f5abbd5fce97b6'>EEUU: El hombre que apuñaló a la ucraniana Zarutska tenía antecedentes violentos</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-utah-cox-abd3cee50cd438bd2363479ca0d9df90'>Gobernador de Utah: Sospechoso del asesinato de Charlie Kirk tenía ideología de izquierda</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eeuu-drogas-venezuela-trump-barco-tren-de-aragua-e26ce1af040eb268bb33bb141223a135'>Barco que EEUU atacó cerca de Venezuela iba de regreso a la costa, según fuentes de AP</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/guinea-internet-bloqueo-annobon-somagec-obiang-dabf12aa36f11b3e14bf78c3caffef60'>Guinea Ecuatorial impone un año de apagón de internet en isla que protestó contra constructora</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/video">Most watched videos
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/quizzes">Quizzes
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/press-releases">Press Releases
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/login">My Account
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/community-guidelines">AP News Code of Conduct
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-morebutton tabindex="0">
                 <div class="MainNavigationItem has-menu"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <span class="MainNavigationItem-more " data-nav-moretrigger>
                 MORE
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
             </span>
-        
-        
+
+
     </div>
 
 <ul class="MainNavigationItem-items " data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/world-news">World</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/israel-hamas-war" >
     <span class="NavigationLink-text">Israel-Hamas war
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/russia-ukraine" >
     <span class="NavigationLink-text">Russia-Ukraine war
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/noticias"  target="_blank"
     >
@@ -3189,52 +3189,52 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/china" >
     <span class="NavigationLink-text">China
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/asia-pacific" >
     <span class="NavigationLink-text">Asia Pacific
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/latin-america" >
     <span class="NavigationLink-text">Latin America
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/europe" >
     <span class="NavigationLink-text">Europe
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/africa" >
     <span class="NavigationLink-text">Africa
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/australia" >
     <span class="NavigationLink-text">Australia
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/middle-east" >
     <span class="NavigationLink-text">Middle East
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/global-elections/"  target="_blank"
     >
@@ -3242,112 +3242,112 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/us-news">U.S.</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/immigration" >
     <span class="NavigationLink-text">Immigration
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/weather" >
     <span class="NavigationLink-text">Weather
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/education" >
     <span class="NavigationLink-text">Education
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/us-news/transportation" >
     <span class="NavigationLink-text">Transportation
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/abortion" >
     <span class="NavigationLink-text">Abortion
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/lgbtq" >
     <span class="NavigationLink-text">LGBTQ+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/obituaries" >
     <span class="NavigationLink-text">Notable Deaths
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/politics">Politics</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/donald-trump" >
     <span class="NavigationLink-text">White House
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/congress" >
     <span class="NavigationLink-text">Congress
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/us-supreme-court" >
     <span class="NavigationLink-text">U.S. Supreme Court
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/projects/election-results-2025/"  target="_blank"
     >
@@ -3355,10 +3355,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/projects/polling-tracker/"  target="_blank"
     >
@@ -3366,10 +3366,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/newsletter/ground-game/july-28-2025"  target="_blank"
     >
@@ -3377,593 +3377,593 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/sports">Sports</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/ap-top-25-college-football-poll" >
     <span class="NavigationLink-text">AP Top 25
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nfl" >
     <span class="NavigationLink-text">NFL
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/mlb" >
     <span class="NavigationLink-text">MLB
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/wnba-basketball" >
     <span class="NavigationLink-text">WNBA
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/tennis" >
     <span class="NavigationLink-text">Tennis
     </span><span class="NavigationLink-description">Tennis</span>
     </a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/golf" >
     <span class="NavigationLink-text">Golf
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nba" >
     <span class="NavigationLink-text">NBA
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nhl" >
     <span class="NavigationLink-text">NHL
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/auto-racing" >
     <span class="NavigationLink-text">Auto Racing
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/soccer" >
     <span class="NavigationLink-text">Soccer
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/entertainment">Entertainment</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/movies" >
     <span class="NavigationLink-text">Movies
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/the-stream" >
     <span class="NavigationLink-text">What to Stream
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/television" >
     <span class="NavigationLink-text">Television
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/celebrity-interviews/" >
     <span class="NavigationLink-text">Celebrity Interviews
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/music" >
     <span class="NavigationLink-text">Music
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/books-and-literature" >
     <span class="NavigationLink-text">Books
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/business">Business</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/tariffs" >
     <span class="NavigationLink-text">Tariffs
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/inflation" >
     <span class="NavigationLink-text">Inflation
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/financial-markets" >
     <span class="NavigationLink-text">Financial Markets
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/financial-wellness" >
     <span class="NavigationLink-text">Financial Wellness
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/technology" >
     <span class="NavigationLink-text">Technology
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/science">Science</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/space" >
     <span class="NavigationLink-text">Space
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/animals" >
     <span class="NavigationLink-text">Animals
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/archaeology-and-anthropology" >
     <span class="NavigationLink-text">The Ancient World
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/climate-and-environment" >
     <span class="NavigationLink-text">Climate
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/health" >
     <span class="NavigationLink-text">Medicine
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/ap-fact-check">Fact Check</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/oddities">Oddities</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/be-well">Be Well</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/newsletters">Newsletters</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography </a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/photography/2024-year-end-photos" >
     <span class="NavigationLink-text">2024 YEAR END PHOTOS
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/photo-essays" >
     <span class="NavigationLink-text">Photo Essays
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/photography" >
-    <span class="NavigationLink-text">Photography 
+    <span class="NavigationLink-text">Photography
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/ap-investigations/">AP Investigations</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/climate-and-environment">Climate</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change" >
     <span class="NavigationLink-text"><b>Indigenous peoples and climate</b>
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/climate-questions" >
     <span class="NavigationLink-text">Climate Questions
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/climate-migration" >
-    <span class="NavigationLink-text">Climate Migration 
+    <span class="NavigationLink-text">Climate Migration
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/india-climate" >
     <span class="NavigationLink-text">India Focus
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/health">Health</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/technology">Tech</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/artificial-intelligence" >
     <span class="NavigationLink-text">Artificial Intelligence
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/social-media" >
     <span class="NavigationLink-text">Social Media
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/lifestyle">Lifestyle</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/recipes" >
     <span class="NavigationLink-text">Food &amp; Recipes
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/gardening" >
     <span class="NavigationLink-text">Gardening
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/homes" >
     <span class="NavigationLink-text">Homes
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/travel" >
     <span class="NavigationLink-text">Travel
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/fashion" >
     <span class="NavigationLink-text">Fashion
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/pets" >
     <span class="NavigationLink-text">Pets
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/religion">Religion</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/noticias">Español</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/video">Most watched videos</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/quizzes">Quizzes</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/press-releases">Press Releases</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/login">My Account</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/community-guidelines">AP News Code of Conduct</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
         </ul>
-    
+
 </bsp-nav>
 
 </div>
@@ -3976,8 +3976,8 @@ head.appendChild(link);
                             <svg class="signedin-icon"><use xlink:href="#icon-signedin"></use></svg>
                         </a>
                     </div>
-                    
-                    
+
+
                         <bsp-search-overlay class="SearchOverlay">
     <div class="SearchOverlay-search-overlay">
       <form class="SearchOverlay-search-form" action="https://apnews.com/search#nt=navsearch" novalidate="" autocomplete="off">
@@ -4027,44 +4027,44 @@ head.appendChild(link);
                             </form>
                         </div>
                         <div class="Page-header-hamburger-menu-content">
-                            
+
                                 <nav class="HamburgerNavigation">
     <ul class="HamburgerNavigation-items">
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/world-news">World</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/israel-hamas-war" >
     <span class="NavigationLink-text">Israel-Hamas war
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/russia-ukraine" >
     <span class="NavigationLink-text">Russia-Ukraine war
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/noticias"  target="_blank"
     >
@@ -4072,52 +4072,52 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/china" >
     <span class="NavigationLink-text">China
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/asia-pacific" >
     <span class="NavigationLink-text">Asia Pacific
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/latin-america" >
     <span class="NavigationLink-text">Latin America
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/europe" >
     <span class="NavigationLink-text">Europe
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/africa" >
     <span class="NavigationLink-text">Africa
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/australia" >
     <span class="NavigationLink-text">Australia
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/middle-east" >
     <span class="NavigationLink-text">Middle East
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/global-elections/"  target="_blank"
     >
@@ -4125,286 +4125,286 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="World">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/israel-hamas-war' class='Subheader-Sections-items-item'>Israel-Hamas war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/russia-ukraine' class='Subheader-Sections-items-item'>Russia-Ukraine war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/noticias' class='Subheader-Sections-items-item'>Español</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/china' class='Subheader-Sections-items-item'>China</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/asia-pacific' class='Subheader-Sections-items-item'>Asia Pacific</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/latin-america' class='Subheader-Sections-items-item'>Latin America</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/europe' class='Subheader-Sections-items-item'>Europe</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/africa' class='Subheader-Sections-items-item'>Africa</a>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-drone-attack-oil-e28542d48d095866f89a38c5046275d8'>Ukrainian drones strike one of Russia's top oil refineries, sparking fire</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/equatorial-guinea-internet-shutdown-africa-d7daacc641475743972b33eaffffa4fc'>Equatorial Guinea enforces yearlong internet outage for island that protested construction company</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/israel-palestinians-hamas-war-news-09-14-2025-665737776ce05e3496af40676a9bc237'>Rubio is in Israel in wake of Qatar attack as Israeli strikes intensify in northern Gaza</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Afternoon+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Afternoon Wire</div>
                         <div class='Newsletter-description' >Get caught up on what you may have missed throughout the day.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/us-news">U.S.</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/immigration" >
     <span class="NavigationLink-text">Immigration
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/weather" >
     <span class="NavigationLink-text">Weather
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/education" >
     <span class="NavigationLink-text">Education
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/us-news/transportation" >
     <span class="NavigationLink-text">Transportation
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/abortion" >
     <span class="NavigationLink-text">Abortion
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/lgbtq" >
     <span class="NavigationLink-text">LGBTQ+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/obituaries" >
     <span class="NavigationLink-text">Notable Deaths
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="U.S.">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/immigration' class='Subheader-Sections-items-item'>Immigration</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/weather' class='Subheader-Sections-items-item'>Weather</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/education' class='Subheader-Sections-items-item'>Education</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/us-news/transportation' class='Subheader-Sections-items-item'>Transportation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/abortion' class='Subheader-Sections-items-item'>Abortion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/lgbtq' class='Subheader-Sections-items-item'>LGBTQ+</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/obituaries' class='Subheader-Sections-items-item'>Notable Deaths</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kilmeade-fox-homeless-executed-apology-bffb74e9d672b79853dc6fb8eb29afc8'>Fox News' Brian Kilmeade apologizes for saying mentally ill homeless people should be executed</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-cox-robinson-assassination-aef9fe8dc82d218a36d078536717d95d'>Utah governor says the motive in Kirk shooting is not yet certain but the suspect was on the left</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/illinois-governor-dies-jim-edgar-ed01c6d2847c9fe136106b9a96aac7fe'>Former Illinois Gov. Jim Edgar, a popular two-term Republican, dies at 79</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
-                
+
+
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
             <div class='Subheader-Title'>AP QUIZZES</div>
-            
+
             <div class='Newsletter'>
                 <a class="item" href='/quizzes'>
                     <div class='Newsletters-info'>
@@ -4413,57 +4413,57 @@ head.appendChild(link);
                     </div>
                 </a>
             </div>
-            
-            
+
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/politics">Politics</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/donald-trump" >
     <span class="NavigationLink-text">White House
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/congress" >
     <span class="NavigationLink-text">Congress
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/us-supreme-court" >
     <span class="NavigationLink-text">U.S. Supreme Court
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/projects/election-results-2025/"  target="_blank"
     >
@@ -4471,10 +4471,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/projects/polling-tracker/"  target="_blank"
     >
@@ -4482,10 +4482,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/newsletter/ground-game/july-28-2025"  target="_blank"
     >
@@ -4493,1878 +4493,1878 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Politics">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/donald-trump' class='Subheader-Sections-items-item'>White House</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/congress' class='Subheader-Sections-items-item'>Congress</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/us-supreme-court' class='Subheader-Sections-items-item'>U.S. Supreme Court</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/election-results-2025/' class='Subheader-Sections-items-item'>2025 Election Calendar</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/polling-tracker/' class='Subheader-Sections-items-item'>The latest AP-NORC polls</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/newsletter/ground-game/july-28-2025' class='Subheader-Sections-items-item'>Ground Game</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-trump-cancel-culture-assassination-4d69649e382ea46d8dcf794150a1d3c9'>After Kirk's killing a growing chorus of conservatives wants his critics ostracized or fired</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/political-violence-republican-democrat-election-fear-kirk-eb105e574210d5fc03b9d0500ac36a96'>Political leaders confront security concerns — and fear — after Kirk's assassination</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-promises-ukraine-kennedy-center-war-department-0c2c769ecd5688a21a7aeb2efc2e14c2'>Sugar Coke? Department of War? Where some of Trump's most jaw-dropping promises stand</a>
                 </li>
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Ground_Game'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>Ground Game</div>
                         <div class='Newsletter-description' >Exclusive insights and key stories from the world of politics.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/sports">Sports</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/ap-top-25-college-football-poll" >
     <span class="NavigationLink-text">AP Top 25
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nfl" >
     <span class="NavigationLink-text">NFL
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/mlb" >
     <span class="NavigationLink-text">MLB
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/wnba-basketball" >
     <span class="NavigationLink-text">WNBA
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/tennis" >
     <span class="NavigationLink-text">Tennis
     </span><span class="NavigationLink-description">Tennis</span>
     </a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/golf" >
     <span class="NavigationLink-text">Golf
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nba" >
     <span class="NavigationLink-text">NBA
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nhl" >
     <span class="NavigationLink-text">NHL
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/auto-racing" >
     <span class="NavigationLink-text">Auto Racing
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/soccer" >
     <span class="NavigationLink-text">Soccer
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Sports">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/ap-top-25-college-football-poll' class='Subheader-Sections-items-item'>AP Top 25</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nfl' class='Subheader-Sections-items-item'>NFL</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/mlb' class='Subheader-Sections-items-item'>MLB</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/wnba-basketball' class='Subheader-Sections-items-item'>WNBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tennis' class='Subheader-Sections-items-item'>Tennis</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/golf' class='Subheader-Sections-items-item'>Golf</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nba' class='Subheader-Sections-items-item'>NBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nhl' class='Subheader-Sections-items-item'>NHL</a>
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/top-25-college-football-poll-9-14-2025'><span class='islive'>LIVE&nbsp;</span>AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ricky-hatton-obit-boxing-e306374b99c884a1005c6aef50cecf32'>Ricky Hatton, former world boxing champion, dies at 46</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ap-top-25-football-poll-fd1a383be49e7e666a67962ef945cbc1'>Texas A&M jumps to No. 10 in the AP Top 25, Notre Dame is the first ranked 0-2 team since 1988</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP_CFB_Top_25_Poll_Alerts'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Top 25 Poll Alerts</div>
                         <div class='Newsletter-description' >Get email alerts for every college football Top 25 Poll release.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Sports+HQ'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Sports Wire</div>
                         <div class='Newsletter-description' >Your home base for in-depth reporting from the world of sports.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/entertainment">Entertainment</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/movies" >
     <span class="NavigationLink-text">Movies
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/the-stream" >
     <span class="NavigationLink-text">What to Stream
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/television" >
     <span class="NavigationLink-text">Television
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/celebrity-interviews/" >
     <span class="NavigationLink-text">Celebrity Interviews
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/music" >
     <span class="NavigationLink-text">Music
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/books-and-literature" >
     <span class="NavigationLink-text">Books
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Entertainment">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/movies' class='Subheader-Sections-items-item'>Movies</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/the-stream' class='Subheader-Sections-items-item'>What to Stream</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/television' class='Subheader-Sections-items-item'>Television</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/celebrity-interviews/' class='Subheader-Sections-items-item'>Celebrity Interviews</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/music' class='Subheader-Sections-items-item'>Music</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/books-and-literature' class='Subheader-Sections-items-item'>Books</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/emmy-awards-2025-updates'><span class='islive'>LIVE&nbsp;</span>2025 Emmys: 'The Pitt' and ‘The Studio’ win top awards</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nate-bargatze-2025-emmy-awards-c1e27164c0723c4b5c2988d4c586d99d'>Emmys host Nate Bargatze pokes fun at the TV industry and fails with gag to keep speeches short</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/bobby-hart-dead-86-monkees-b1fdf152699443429d21360d5a3d95fb'>Bobby Hart, co-wrote 'Last Train to Clarksville' and other hits for the Monkees, dead at 86</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP+Entertainment+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Entertainment Wire</div>
                         <div class='Newsletter-description' >Get AP's first personalized newsletter delivering you entertainment news twice a week.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/business">Business</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/tariffs" >
     <span class="NavigationLink-text">Tariffs
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/inflation" >
     <span class="NavigationLink-text">Inflation
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/financial-markets" >
     <span class="NavigationLink-text">Financial Markets
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/financial-wellness" >
     <span class="NavigationLink-text">Financial Wellness
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/technology" >
     <span class="NavigationLink-text">Technology
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Business">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tariffs' class='Subheader-Sections-items-item'>Tariffs</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/inflation' class='Subheader-Sections-items-item'>Inflation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-markets' class='Subheader-Sections-items-item'>Financial Markets</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-wellness' class='Subheader-Sections-items-item'>Financial Wellness</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/technology' class='Subheader-Sections-items-item'>Technology</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627'>Workers commenting on Kirk's death learn the limits of free speech in and out of their jobs</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-lisa-cook-federal-reserve-85fca8a405faa66e11c9567a193468e3'>Trump administration renews push to fire Fed governor Lisa Cook ahead of key vote</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/federal-reserve-inflation-jobs-rates-trump-powell-164fdc130275c0df17562273e1042bfe'>The Fed faces economic uncertainty and political pressure as it decides whether to cut rates</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/science">Science</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/space" >
     <span class="NavigationLink-text">Space
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/animals" >
     <span class="NavigationLink-text">Animals
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/archaeology-and-anthropology" >
     <span class="NavigationLink-text">The Ancient World
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/climate-and-environment" >
     <span class="NavigationLink-text">Climate
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/health" >
     <span class="NavigationLink-text">Medicine
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Science">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/space' class='Subheader-Sections-items-item'>Space</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/animals' class='Subheader-Sections-items-item'>Animals</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/archaeology-and-anthropology' class='Subheader-Sections-items-item'>The Ancient World</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment' class='Subheader-Sections-items-item'>Climate</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/health' class='Subheader-Sections-items-item'>Medicine</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/ap-fact-check">Fact Check</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/oddities">Oddities</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Oddities">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/photo-gallery/ghana-fantasy-coffins-photos-9e1169da6238feef5400ede6d88992d7'>Photos show Ghana's fantasy coffins as a stylish final rest</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ghana-fantasy-coffins-funerals-accra-tradition-01220db5b2e240a12ae8e4ba8820f993'>Ghana's fantasy coffins are a colorful celebration of life and legacy</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/finland-swastika-air-force-nato-423a764e6e72abde083f6136e06461c0'>Swastikas still linger on some flags in Finland's air force, but are on the way out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa'>Ground squirrels are taking over a North Dakota city and officials are not amused</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/giant-troll-sculptures-filoli-thomas-dambo-15a070f5eba15e3a74721a7c2d23eb6e'>Giant trolls have a message for humans about protecting the planet</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/whale-breach-boat-capsize-new-hampshire-efe8cbfae49b93f6325c4331db8999ae'>Whale surfaces, capsizes fishing boat off New Hampshire coast</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/be-well">Be Well</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Be Well">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nap-sleep-workplace-wellness-productivity-4750ff0aa944509dfd2e90bde29cf4f2'>Devoted nap-takers explain the benefits of sleeping on the job</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9'>Working Well: The simple act of taking deep breaths can reduce stress and anxiety</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701'>Do you eat a meal in 20 minutes or less? It might be time to slow down</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/newsletters">Newsletters</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
     <div class="HamburgerNavigationItem-divider"></div>
 
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/photography">Photography </a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/photography/2024-year-end-photos" >
     <span class="NavigationLink-text">2024 YEAR END PHOTOS
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/photo-essays" >
     <span class="NavigationLink-text">Photo Essays
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/photography" >
-    <span class="NavigationLink-text">Photography 
+    <span class="NavigationLink-text">Photography
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Photography ">
         <div class='Subheader-Sections Sections-one-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography/2024-year-end-photos' class='Subheader-Sections-items-item'>2024 YEAR END PHOTOS</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/photo-essays' class='Subheader-Sections-items-item'>Photo Essays</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography' class='Subheader-Sections-items-item'>Photography </a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3'>'Why? Why? Why?' Ukraine's Mariupol descends into despair</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/photography/one-photo-00000195ddefd658a3d5ffff129c0000'>An AP photographer captures a masked protester undeterred by a deluge of pepper spray</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/one-extraordinary-photo-how-this-ap-photographer-captured-taylor-swift-and-travis-kelces-iconic-kiss-0000018d6b12d410ad8fff732d8f0000'>How this AP photographer captured Taylor Swift and Travis Kelce's iconic kiss</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Photo+Gallery'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The World in Pictures</div>
                         <div class='Newsletter-description' >Get The AP’s most compelling photographs sent directly to your inbox.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/ap-investigations/">AP Investigations</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/climate-and-environment">Climate</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change" >
     <span class="NavigationLink-text"><b>Indigenous peoples and climate</b>
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/climate-questions" >
     <span class="NavigationLink-text">Climate Questions
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/climate-migration" >
-    <span class="NavigationLink-text">Climate Migration 
+    <span class="NavigationLink-text">Climate Migration
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/india-climate" >
     <span class="NavigationLink-text">India Focus
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Climate">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change' class='Subheader-Sections-items-item'><b>Indigenous peoples and climate</b></a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-questions' class='Subheader-Sections-items-item'>Climate Questions</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-migration' class='Subheader-Sections-items-item'>Climate Migration </a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/india-climate' class='Subheader-Sections-items-item'>India Focus</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/phantom-electricity-emissions-climate-carbon-efficiency-unplugging-534aba8eb6866e8244204b6362f37daa'>This hidden electricity drain can have a massive impact</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/europe-nuclear-energy-natural-gas-renewables-finance-26c575d819e15ec686ec7e3e8e8e22fc'>Court rules Europe can call nuclear and natural gas sustainable investments for its green transition</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/freshwater-expedition-ai-501-cape-cod-5d62cae0f040d369b16d8400202f0a88'>Scientists tap 'secret' fresh water under the ocean, raising hopes for a thirsty world</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/health">Health</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Health">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/vaccines-autism-study-da78aea6421a1fb568c9ee1490f5681e'>Trump administration to award a no-bid contract on research into vaccines and autism</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ice-cream-synthetic-dyes-e334d75f87238e57826bcb65f098ebe2'>US ice cream makers say they'll stop using artificial dyes by 2028</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/measles-mmr-los-angeles-subacute-sclerosing-panencephalitis-219e43a0ef1546db043f4e891b3e441d'>Child dies from complication of measles contracted years earlier</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/drinking-alcohol-beer-wine-liquor-poll-health-091aa28c3375d30d728d48c628a9023a'>Why many Americans are rethinking alcohol, according to a new Gallup poll</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/covid-vaccine-order-states-45cb1439f260c9f6b2ccd1fb7a99ca1f'>States are taking steps to ease access to COVID-19 vaccines as they await federal recommendation</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/technology">Tech</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/artificial-intelligence" >
     <span class="NavigationLink-text">Artificial Intelligence
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/social-media" >
     <span class="NavigationLink-text">Social Media
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Tech">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/artificial-intelligence' class='Subheader-Sections-items-item'>Artificial Intelligence</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/social-media' class='Subheader-Sections-items-item'>Social Media</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-google-artificial-intelligence-hassabis-85bff114c30cbea4b951ab93dcc1e6d1'>Google's top AI scientist says ‘learning how to learn’ will be next generation's most needed skill</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/iphone-android-smartphone-b9065ad2104f70ef39a61f8e4777608d'>One Tech Tip: This summer, don't let your phone overheat</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/apple-iphone-17-new-features-b87ce97470188ca9df145132f412b768'>Apple has unveiled its iPhone 17 lineup, including the first iPhone Air. Here's what's new</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/lifestyle">Lifestyle</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/recipes" >
     <span class="NavigationLink-text">Food &amp; Recipes
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/gardening" >
     <span class="NavigationLink-text">Gardening
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/homes" >
     <span class="NavigationLink-text">Homes
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/travel" >
     <span class="NavigationLink-text">Travel
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/fashion" >
     <span class="NavigationLink-text">Fashion
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/pets" >
     <span class="NavigationLink-text">Pets
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Lifestyle">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/recipes' class='Subheader-Sections-items-item'>Food &amp; Recipes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/gardening' class='Subheader-Sections-items-item'>Gardening</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/homes' class='Subheader-Sections-items-item'>Homes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/travel' class='Subheader-Sections-items-item'>Travel</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/fashion' class='Subheader-Sections-items-item'>Fashion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/pets' class='Subheader-Sections-items-item'>Pets</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/gardening-forcing-spring-bulbs-indoors-8b47efb0c233eab55bf4322a5065b229'>Brighten winter with indoor blooms by forcing spring bulbs to flower early</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/religion">Religion</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Religion">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/spain-santiago-compostela-pilgrims-overtourism-camino-james-way-869ca346e84fe13805583cc33b804f18'>Pilgrims turn Spain's Santiago de Compostela into the world's latest overtourism flashpoint</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/vatican-pope-leo-birthday-be5daf80146bcff66b564c91dfaf87e8'>Pope Leo XIV marvels at his 'huge learning curve' in an interview released on his 70th birthday</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-island-orthodox-catholic-festivals-bd4cef441edee54e4f31876d6fbcb51c'>A Greek island has 1,000 private chapels. Families maintain them for faith and community</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters full'>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=World+of+Faith'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>World of Faith</div>
                         <div class='Newsletter-description' >Comprehensive global coverage of how religion shapes our world.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/noticias">Español</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Español">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/colombia-mineros-atrapados-oro-cauca-822a7d11a7a1a6e3f6930737529dcb21'>"Necesitamos un milagro": socorristas buscan a siete mineros atrapados en mina de oro en Colombia</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/papa-70-leon-cumpleanos-vaticano-fdf1f55d28dacbba6fcee275bf5320cb'>El papa León XIV cumple 70 años y dice que tiene una “enorme curva de aprendizaje por delante”</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/decarlos-ucraniana-carolina-del-norte-iryna-zarutska-89b2010a87a211f817f5abbd5fce97b6'>EEUU: El hombre que apuñaló a la ucraniana Zarutska tenía antecedentes violentos</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-utah-cox-abd3cee50cd438bd2363479ca0d9df90'>Gobernador de Utah: Sospechoso del asesinato de Charlie Kirk tenía ideología de izquierda</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eeuu-drogas-venezuela-trump-barco-tren-de-aragua-e26ce1af040eb268bb33bb141223a135'>Barco que EEUU atacó cerca de Venezuela iba de regreso a la costa, según fuentes de AP</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/guinea-internet-bloqueo-annobon-somagec-obiang-dabf12aa36f11b3e14bf78c3caffef60'>Guinea Ecuatorial impone un año de apagón de internet en isla que protestó contra constructora</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/video">Most watched videos</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/quizzes">Quizzes</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/press-releases">Press Releases</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/login">My Account</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/community-guidelines">AP News Code of Conduct</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
         <li class="HamburgerNavigation-items-item">
@@ -6377,7 +6377,7 @@ head.appendChild(link);
 <div class="PagePromo-media"><span class="Link">
 
 <picture data-crop="footerPromoImage">
-    
+
         <source type="image/webp"  width="320" height="118" srcset="https://dims.apnews.com/dims4/default/6068f11/2147483647/strip/true/crop/640x236+0+0/resize/320x118!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 1x,https://dims.apnews.com/dims4/default/2afe0e6/2147483647/strip/true/crop/640x236+0+0/resize/640x236!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 2x">
 
 <source width="320" height="118" srcset="https://dims.apnews.com/dims4/default/94c503b/2147483647/strip/true/crop/640x236+0+0/resize/320x118!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 1x,https://dims.apnews.com/dims4/default/6e4b276/2147483647/strip/true/crop/640x236+0+0/resize/640x236!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 2x">
@@ -6399,9 +6399,9 @@ head.appendChild(link);
 
 <div class="HamburgerNavigationItem-divider"></div>
                     </li>
-                
-            
-                
+
+
+
                     <li class="HamburgerNavigation-items-item">
                         <div class="HamburgerNavigationPromo" data-promo="2">
 
@@ -6409,12 +6409,12 @@ head.appendChild(link);
 
 <div class="PagePromo-description">
         <span class="Link"><span class="PagePromoContentIcons-text">
-    
+
     <div class="HTMLModuleEnhancement" data-align-center>
         <div class="HTMLModuleEnhancement-item">
             <div class="HTMLModuleEnhancement-embed">
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="htmlembed-4c0000"></a>
 
 <style>
@@ -6440,13 +6440,13 @@ head.appendChild(link);
   </a>
 </div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
             </div>
         </div>
     </div>
-    
+
 </span></span>
     </div>
 
@@ -6455,17 +6455,17 @@ head.appendChild(link);
 
 <div class="HamburgerNavigationItem-divider"></div>
                     </li>
-                
-            
-        
-            
+
+
+
+
                 <li class="HamburgerNavigation-items-item">
                     <div class="SocialBar">
-    
+
         <ul class="SocialBar-items">
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://twitter.com/AP" target="_blank" data-social-service="twitter">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-twitter"></use>
@@ -6476,9 +6476,9 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.instagram.com/apnews/" target="_blank" data-social-service="instagram">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-instagram"></use>
@@ -6489,9 +6489,9 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.facebook.com/APNews" target="_blank" data-social-service="facebook">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-facebook"></use>
@@ -6502,33 +6502,33 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
             <li class="HamburgerNavigation-items-item">
                 <div class="HamburgerNavigationItem-divider"></div>
             </li>
-        
-        
+
+
             <nav class="FooterNavigation Page-FooterNavigation">
-    
+
         <ul class="FooterNavigation-items" data-column-count="2">
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -6536,10 +6536,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -6547,10 +6547,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -6558,38 +6558,38 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -6597,10 +6597,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -6608,10 +6608,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -6619,28 +6619,28 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="7">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -6648,10 +6648,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -6659,10 +6659,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -6670,10 +6670,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -6681,10 +6681,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -6692,10 +6692,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -6703,10 +6703,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -6714,31 +6714,31 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
         </ul>
-    
+
 </nav>
 
 <li class="FooterNavigation-items-item" data-hamburger><div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -6746,10 +6746,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -6757,10 +6757,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -6768,38 +6768,38 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -6807,10 +6807,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -6818,10 +6818,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -6829,13 +6829,13 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
         <li class="HamburgerNavigation-items-item" data-hamburger>
@@ -6845,25 +6845,25 @@ head.appendChild(link);
 <li class="HamburgerNavigation-items-item" data-hamburger data-footer-item="true">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -6871,10 +6871,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -6882,10 +6882,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -6893,10 +6893,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -6904,10 +6904,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -6915,10 +6915,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -6926,10 +6926,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -6937,70 +6937,70 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about' class='Subheader-Sections-items-item'>About</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/news-values-and-principles' class='Subheader-Sections-items-item'>AP News Values and Principles</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/our-role-in-elections' class='Subheader-Sections-items-item'>AP’s Role in Elections</a>
-                    
-                
-                    
+
+
+
                         <a href='https://leads.ap.org' class='Subheader-Sections-items-item'>AP Leads</a>
-                    
-                
-                    
+
+
+
                         <a href='https://blog.ap.org/' class='Subheader-Sections-items-item'>AP Definitive Source Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apimagesblog.com/' class='Subheader-Sections-items-item'>AP Images Spotlight Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.apstylebook.com/' class='Subheader-Sections-items-item'>AP Stylebook</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
 
 <li class="HamburgerNavigation-items-item">
             <div class="HamburgerNavigationItem-divider"></div>
         </li>
-        
+
             <li class="HamburgerNavigation-items-item">
                 <div class="Page-footer-disclaimer">
                     <p>Copyright 2025 The Associated Press. All Rights Reserved.</p>
                 </div>
             </li>
-        
+
     </ul>
 </nav>
 
@@ -7012,7 +7012,7 @@ head.appendChild(link);
 
 </div>
 <div class="Page-trendingZephr-wrapper desktop-header" id="Page-trendingZephr-desktop">
-    
+
     <div class="Page-trendingZephr">
         <div class="Page-trendingZephr-trendingBar"><div class="Page-trending" >
         <bsp-fragment data-url="/fragment?_fragmentId=aa6cb7d6-b02c-309b-923d-10436ad8b199&amp;_fragmentParent=aa6cb7d6-b02c-309b-923d-10436ad8b199&amp;_fragmentSignature=61c534e83f1a58893d6f64fcadf7574015adfaaf&amp;_fragmentOverridePageId=00000188-451c-db95-a9ec-457d1fcf0000&amp;_fragmentOverrideSpecificTypeIds=c2a98712-61fa-35ef-bd5d-e0bfe394c8b6"></bsp-fragment>
@@ -7021,13 +7021,13 @@ head.appendChild(link);
 </div>
 
 <div class="Page-header mobile-header" id="Page-header-top">
-    
+
     <bsp-header class="Page-header" id="Page-header-trending-zephr">
 
 <div class="Page-header-bar">
 
 <div class="Page-header-bar-logo"><a aria-label="home page" href="/"  >
-    
+
         <picture>
 
 <source srcset="https://assets.apnews.com/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg">
@@ -7036,242 +7036,242 @@ head.appendChild(link);
     >
 
 </picture>
-    
+
     </a>
 </div>
-                
-            
+
+
             <button class="Page-header-menu-trigger desktop-icon" aria-expanded="false"><svg class="burger-menu-new"><use xlink:href="#burger-menu-new"></use></svg><svg class="close-x"><use xlink:href="#close-x"></use></svg><span class="label">Menu</span></button>
             <div class="Page-header-navigation">
-                
+
                     <bsp-nav class="MainNavigation">
-    
+
         <ul class="MainNavigation-items"><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/world-news">World
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="World">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/israel-hamas-war' class='Subheader-Sections-items-item'>Israel-Hamas war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/russia-ukraine' class='Subheader-Sections-items-item'>Russia-Ukraine war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/noticias' class='Subheader-Sections-items-item'>Español</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/china' class='Subheader-Sections-items-item'>China</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/asia-pacific' class='Subheader-Sections-items-item'>Asia Pacific</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/latin-america' class='Subheader-Sections-items-item'>Latin America</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/europe' class='Subheader-Sections-items-item'>Europe</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/africa' class='Subheader-Sections-items-item'>Africa</a>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-drone-attack-oil-e28542d48d095866f89a38c5046275d8'>Ukrainian drones strike one of Russia's top oil refineries, sparking fire</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/equatorial-guinea-internet-shutdown-africa-d7daacc641475743972b33eaffffa4fc'>Equatorial Guinea enforces yearlong internet outage for island that protested construction company</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/israel-palestinians-hamas-war-news-09-14-2025-665737776ce05e3496af40676a9bc237'>Rubio is in Israel in wake of Qatar attack as Israeli strikes intensify in northern Gaza</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Afternoon+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Afternoon Wire</div>
                         <div class='Newsletter-description' >Get caught up on what you may have missed throughout the day.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/us-news">U.S.
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="U.S.">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/immigration' class='Subheader-Sections-items-item'>Immigration</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/weather' class='Subheader-Sections-items-item'>Weather</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/education' class='Subheader-Sections-items-item'>Education</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/us-news/transportation' class='Subheader-Sections-items-item'>Transportation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/abortion' class='Subheader-Sections-items-item'>Abortion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/lgbtq' class='Subheader-Sections-items-item'>LGBTQ+</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/obituaries' class='Subheader-Sections-items-item'>Notable Deaths</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kilmeade-fox-homeless-executed-apology-bffb74e9d672b79853dc6fb8eb29afc8'>Fox News' Brian Kilmeade apologizes for saying mentally ill homeless people should be executed</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-cox-robinson-assassination-aef9fe8dc82d218a36d078536717d95d'>Utah governor says the motive in Kirk shooting is not yet certain but the suspect was on the left</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/illinois-governor-dies-jim-edgar-ed01c6d2847c9fe136106b9a96aac7fe'>Former Illinois Gov. Jim Edgar, a popular two-term Republican, dies at 79</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
-                
+
+
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
             <div class='Subheader-Title'>AP QUIZZES</div>
-            
+
             <div class='Newsletter'>
                 <a class="item" href='/quizzes'>
                     <div class='Newsletters-info'>
@@ -7280,1461 +7280,1461 @@ head.appendChild(link);
                     </div>
                 </a>
             </div>
-            
-            
+
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/politics">Politics
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Politics">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/donald-trump' class='Subheader-Sections-items-item'>White House</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/congress' class='Subheader-Sections-items-item'>Congress</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/us-supreme-court' class='Subheader-Sections-items-item'>U.S. Supreme Court</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/election-results-2025/' class='Subheader-Sections-items-item'>2025 Election Calendar</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/polling-tracker/' class='Subheader-Sections-items-item'>The latest AP-NORC polls</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/newsletter/ground-game/july-28-2025' class='Subheader-Sections-items-item'>Ground Game</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-trump-cancel-culture-assassination-4d69649e382ea46d8dcf794150a1d3c9'>After Kirk's killing a growing chorus of conservatives wants his critics ostracized or fired</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/political-violence-republican-democrat-election-fear-kirk-eb105e574210d5fc03b9d0500ac36a96'>Political leaders confront security concerns — and fear — after Kirk's assassination</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-promises-ukraine-kennedy-center-war-department-0c2c769ecd5688a21a7aeb2efc2e14c2'>Sugar Coke? Department of War? Where some of Trump's most jaw-dropping promises stand</a>
                 </li>
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Ground_Game'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>Ground Game</div>
                         <div class='Newsletter-description' >Exclusive insights and key stories from the world of politics.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/sports">Sports
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Sports">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/ap-top-25-college-football-poll' class='Subheader-Sections-items-item'>AP Top 25</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nfl' class='Subheader-Sections-items-item'>NFL</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/mlb' class='Subheader-Sections-items-item'>MLB</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/wnba-basketball' class='Subheader-Sections-items-item'>WNBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tennis' class='Subheader-Sections-items-item'>Tennis</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/golf' class='Subheader-Sections-items-item'>Golf</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nba' class='Subheader-Sections-items-item'>NBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nhl' class='Subheader-Sections-items-item'>NHL</a>
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/top-25-college-football-poll-9-14-2025'><span class='islive'>LIVE&nbsp;</span>AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ricky-hatton-obit-boxing-e306374b99c884a1005c6aef50cecf32'>Ricky Hatton, former world boxing champion, dies at 46</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ap-top-25-football-poll-fd1a383be49e7e666a67962ef945cbc1'>Texas A&M jumps to No. 10 in the AP Top 25, Notre Dame is the first ranked 0-2 team since 1988</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP_CFB_Top_25_Poll_Alerts'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Top 25 Poll Alerts</div>
                         <div class='Newsletter-description' >Get email alerts for every college football Top 25 Poll release.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Sports+HQ'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Sports Wire</div>
                         <div class='Newsletter-description' >Your home base for in-depth reporting from the world of sports.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/entertainment">Entertainment
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Entertainment">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/movies' class='Subheader-Sections-items-item'>Movies</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/the-stream' class='Subheader-Sections-items-item'>What to Stream</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/television' class='Subheader-Sections-items-item'>Television</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/celebrity-interviews/' class='Subheader-Sections-items-item'>Celebrity Interviews</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/music' class='Subheader-Sections-items-item'>Music</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/books-and-literature' class='Subheader-Sections-items-item'>Books</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/emmy-awards-2025-updates'><span class='islive'>LIVE&nbsp;</span>2025 Emmys: 'The Pitt' and ‘The Studio’ win top awards</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nate-bargatze-2025-emmy-awards-c1e27164c0723c4b5c2988d4c586d99d'>Emmys host Nate Bargatze pokes fun at the TV industry and fails with gag to keep speeches short</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/bobby-hart-dead-86-monkees-b1fdf152699443429d21360d5a3d95fb'>Bobby Hart, co-wrote 'Last Train to Clarksville' and other hits for the Monkees, dead at 86</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP+Entertainment+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Entertainment Wire</div>
                         <div class='Newsletter-description' >Get AP's first personalized newsletter delivering you entertainment news twice a week.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/business">Business
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Business">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tariffs' class='Subheader-Sections-items-item'>Tariffs</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/inflation' class='Subheader-Sections-items-item'>Inflation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-markets' class='Subheader-Sections-items-item'>Financial Markets</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-wellness' class='Subheader-Sections-items-item'>Financial Wellness</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/technology' class='Subheader-Sections-items-item'>Technology</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627'>Workers commenting on Kirk's death learn the limits of free speech in and out of their jobs</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-lisa-cook-federal-reserve-85fca8a405faa66e11c9567a193468e3'>Trump administration renews push to fire Fed governor Lisa Cook ahead of key vote</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/federal-reserve-inflation-jobs-rates-trump-powell-164fdc130275c0df17562273e1042bfe'>The Fed faces economic uncertainty and political pressure as it decides whether to cut rates</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/science">Science
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/ap-fact-check">Fact Check
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/oddities">Oddities
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Oddities">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/photo-gallery/ghana-fantasy-coffins-photos-9e1169da6238feef5400ede6d88992d7'>Photos show Ghana's fantasy coffins as a stylish final rest</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ghana-fantasy-coffins-funerals-accra-tradition-01220db5b2e240a12ae8e4ba8820f993'>Ghana's fantasy coffins are a colorful celebration of life and legacy</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/finland-swastika-air-force-nato-423a764e6e72abde083f6136e06461c0'>Swastikas still linger on some flags in Finland's air force, but are on the way out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa'>Ground squirrels are taking over a North Dakota city and officials are not amused</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/giant-troll-sculptures-filoli-thomas-dambo-15a070f5eba15e3a74721a7c2d23eb6e'>Giant trolls have a message for humans about protecting the planet</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/whale-breach-boat-capsize-new-hampshire-efe8cbfae49b93f6325c4331db8999ae'>Whale surfaces, capsizes fishing boat off New Hampshire coast</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/be-well">Be Well
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Be Well">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nap-sleep-workplace-wellness-productivity-4750ff0aa944509dfd2e90bde29cf4f2'>Devoted nap-takers explain the benefits of sleeping on the job</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9'>Working Well: The simple act of taking deep breaths can reduce stress and anxiety</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701'>Do you eat a meal in 20 minutes or less? It might be time to slow down</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/newsletters">Newsletters
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
-            <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography 
+
+            <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Photography ">
         <div class='Subheader-Sections Sections-one-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography/2024-year-end-photos' class='Subheader-Sections-items-item'>2024 YEAR END PHOTOS</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/photo-essays' class='Subheader-Sections-items-item'>Photo Essays</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography' class='Subheader-Sections-items-item'>Photography </a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3'>'Why? Why? Why?' Ukraine's Mariupol descends into despair</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/photography/one-photo-00000195ddefd658a3d5ffff129c0000'>An AP photographer captures a masked protester undeterred by a deluge of pepper spray</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/one-extraordinary-photo-how-this-ap-photographer-captured-taylor-swift-and-travis-kelces-iconic-kiss-0000018d6b12d410ad8fff732d8f0000'>How this AP photographer captured Taylor Swift and Travis Kelce's iconic kiss</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Photo+Gallery'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The World in Pictures</div>
                         <div class='Newsletter-description' >Get The AP’s most compelling photographs sent directly to your inbox.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/ap-investigations/">AP Investigations
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/climate-and-environment">Climate
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Climate">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change' class='Subheader-Sections-items-item'><b>Indigenous peoples and climate</b></a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-questions' class='Subheader-Sections-items-item'>Climate Questions</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-migration' class='Subheader-Sections-items-item'>Climate Migration </a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/india-climate' class='Subheader-Sections-items-item'>India Focus</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/phantom-electricity-emissions-climate-carbon-efficiency-unplugging-534aba8eb6866e8244204b6362f37daa'>This hidden electricity drain can have a massive impact</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/europe-nuclear-energy-natural-gas-renewables-finance-26c575d819e15ec686ec7e3e8e8e22fc'>Court rules Europe can call nuclear and natural gas sustainable investments for its green transition</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/freshwater-expedition-ai-501-cape-cod-5d62cae0f040d369b16d8400202f0a88'>Scientists tap 'secret' fresh water under the ocean, raising hopes for a thirsty world</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/health">Health
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Health">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/vaccines-autism-study-da78aea6421a1fb568c9ee1490f5681e'>Trump administration to award a no-bid contract on research into vaccines and autism</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ice-cream-synthetic-dyes-e334d75f87238e57826bcb65f098ebe2'>US ice cream makers say they'll stop using artificial dyes by 2028</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/measles-mmr-los-angeles-subacute-sclerosing-panencephalitis-219e43a0ef1546db043f4e891b3e441d'>Child dies from complication of measles contracted years earlier</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/drinking-alcohol-beer-wine-liquor-poll-health-091aa28c3375d30d728d48c628a9023a'>Why many Americans are rethinking alcohol, according to a new Gallup poll</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/covid-vaccine-order-states-45cb1439f260c9f6b2ccd1fb7a99ca1f'>States are taking steps to ease access to COVID-19 vaccines as they await federal recommendation</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/technology">Tech
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Tech">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/artificial-intelligence' class='Subheader-Sections-items-item'>Artificial Intelligence</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/social-media' class='Subheader-Sections-items-item'>Social Media</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-google-artificial-intelligence-hassabis-85bff114c30cbea4b951ab93dcc1e6d1'>Google's top AI scientist says ‘learning how to learn’ will be next generation's most needed skill</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/iphone-android-smartphone-b9065ad2104f70ef39a61f8e4777608d'>One Tech Tip: This summer, don't let your phone overheat</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/apple-iphone-17-new-features-b87ce97470188ca9df145132f412b768'>Apple has unveiled its iPhone 17 lineup, including the first iPhone Air. Here's what's new</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/lifestyle">Lifestyle
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Lifestyle">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/recipes' class='Subheader-Sections-items-item'>Food &amp; Recipes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/gardening' class='Subheader-Sections-items-item'>Gardening</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/homes' class='Subheader-Sections-items-item'>Homes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/travel' class='Subheader-Sections-items-item'>Travel</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/fashion' class='Subheader-Sections-items-item'>Fashion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/pets' class='Subheader-Sections-items-item'>Pets</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/gardening-forcing-spring-bulbs-indoors-8b47efb0c233eab55bf4322a5065b229'>Brighten winter with indoor blooms by forcing spring bulbs to flower early</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/religion">Religion
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Religion">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/spain-santiago-compostela-pilgrims-overtourism-camino-james-way-869ca346e84fe13805583cc33b804f18'>Pilgrims turn Spain's Santiago de Compostela into the world's latest overtourism flashpoint</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/vatican-pope-leo-birthday-be5daf80146bcff66b564c91dfaf87e8'>Pope Leo XIV marvels at his 'huge learning curve' in an interview released on his 70th birthday</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-island-orthodox-catholic-festivals-bd4cef441edee54e4f31876d6fbcb51c'>A Greek island has 1,000 private chapels. Families maintain them for faith and community</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters full'>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=World+of+Faith'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>World of Faith</div>
                         <div class='Newsletter-description' >Comprehensive global coverage of how religion shapes our world.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/noticias">Español
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
-            
+
             </a>
-        
-        
+
+
         <div class="MainNavigationItem-dropdown" data-main-dropdown="">
             <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Español">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/colombia-mineros-atrapados-oro-cauca-822a7d11a7a1a6e3f6930737529dcb21'>"Necesitamos un milagro": socorristas buscan a siete mineros atrapados en mina de oro en Colombia</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/papa-70-leon-cumpleanos-vaticano-fdf1f55d28dacbba6fcee275bf5320cb'>El papa León XIV cumple 70 años y dice que tiene una “enorme curva de aprendizaje por delante”</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/decarlos-ucraniana-carolina-del-norte-iryna-zarutska-89b2010a87a211f817f5abbd5fce97b6'>EEUU: El hombre que apuñaló a la ucraniana Zarutska tenía antecedentes violentos</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-utah-cox-abd3cee50cd438bd2363479ca0d9df90'>Gobernador de Utah: Sospechoso del asesinato de Charlie Kirk tenía ideología de izquierda</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eeuu-drogas-venezuela-trump-barco-tren-de-aragua-e26ce1af040eb268bb33bb141223a135'>Barco que EEUU atacó cerca de Venezuela iba de regreso a la costa, según fuentes de AP</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/guinea-internet-bloqueo-annobon-somagec-obiang-dabf12aa36f11b3e14bf78c3caffef60'>Guinea Ecuatorial impone un año de apagón de internet en isla que protestó contra constructora</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
         </div>
-        
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/video">Most watched videos
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/quizzes">Quizzes
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/press-releases">Press Releases
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/login">My Account
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-hidden ><div class="MainNavigationItem"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/community-guidelines">AP News Code of Conduct
             </a>
-        
-        
+
+
     </div>
 
 </div>
 </li><li class="MainNavigation-items-item" data-nav-items-item data-morebutton tabindex="0">
                 <div class="MainNavigationItem has-menu"  data-mainnav-item="">
     <div class="MainNavigationItem-text" data-has-dropdown="">
-        
+
             <span class="MainNavigationItem-more " data-nav-moretrigger>
                 MORE
                 <svg width="8" height="6">
                     <use href="#icon-chevron-down" />
                 </svg>
             </span>
-        
-        
+
+
     </div>
 
 <ul class="MainNavigationItem-items " data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/world-news">World</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/israel-hamas-war" >
     <span class="NavigationLink-text">Israel-Hamas war
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/russia-ukraine" >
     <span class="NavigationLink-text">Russia-Ukraine war
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/noticias"  target="_blank"
     >
@@ -8742,52 +8742,52 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/china" >
     <span class="NavigationLink-text">China
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/asia-pacific" >
     <span class="NavigationLink-text">Asia Pacific
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/latin-america" >
     <span class="NavigationLink-text">Latin America
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/europe" >
     <span class="NavigationLink-text">Europe
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/africa" >
     <span class="NavigationLink-text">Africa
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/australia" >
     <span class="NavigationLink-text">Australia
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/middle-east" >
     <span class="NavigationLink-text">Middle East
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/global-elections/"  target="_blank"
     >
@@ -8795,112 +8795,112 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/us-news">U.S.</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/immigration" >
     <span class="NavigationLink-text">Immigration
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/weather" >
     <span class="NavigationLink-text">Weather
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/education" >
     <span class="NavigationLink-text">Education
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/us-news/transportation" >
     <span class="NavigationLink-text">Transportation
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/abortion" >
     <span class="NavigationLink-text">Abortion
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/lgbtq" >
     <span class="NavigationLink-text">LGBTQ+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/obituaries" >
     <span class="NavigationLink-text">Notable Deaths
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/politics">Politics</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/donald-trump" >
     <span class="NavigationLink-text">White House
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/congress" >
     <span class="NavigationLink-text">Congress
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/us-supreme-court" >
     <span class="NavigationLink-text">U.S. Supreme Court
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/projects/election-results-2025/"  target="_blank"
     >
@@ -8908,10 +8908,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/projects/polling-tracker/"  target="_blank"
     >
@@ -8919,10 +8919,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/newsletter/ground-game/july-28-2025"  target="_blank"
     >
@@ -8930,593 +8930,593 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/sports">Sports</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/ap-top-25-college-football-poll" >
     <span class="NavigationLink-text">AP Top 25
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nfl" >
     <span class="NavigationLink-text">NFL
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/mlb" >
     <span class="NavigationLink-text">MLB
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/wnba-basketball" >
     <span class="NavigationLink-text">WNBA
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/tennis" >
     <span class="NavigationLink-text">Tennis
     </span><span class="NavigationLink-description">Tennis</span>
     </a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/golf" >
     <span class="NavigationLink-text">Golf
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nba" >
     <span class="NavigationLink-text">NBA
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/nhl" >
     <span class="NavigationLink-text">NHL
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/auto-racing" >
     <span class="NavigationLink-text">Auto Racing
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/soccer" >
     <span class="NavigationLink-text">Soccer
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/entertainment">Entertainment</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/movies" >
     <span class="NavigationLink-text">Movies
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/the-stream" >
     <span class="NavigationLink-text">What to Stream
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/television" >
     <span class="NavigationLink-text">Television
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/celebrity-interviews/" >
     <span class="NavigationLink-text">Celebrity Interviews
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/music" >
     <span class="NavigationLink-text">Music
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/books-and-literature" >
     <span class="NavigationLink-text">Books
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/business">Business</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/tariffs" >
     <span class="NavigationLink-text">Tariffs
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/inflation" >
     <span class="NavigationLink-text">Inflation
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/financial-markets" >
     <span class="NavigationLink-text">Financial Markets
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/financial-wellness" >
     <span class="NavigationLink-text">Financial Wellness
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/technology" >
     <span class="NavigationLink-text">Technology
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/science">Science</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/space" >
     <span class="NavigationLink-text">Space
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/animals" >
     <span class="NavigationLink-text">Animals
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/archaeology-and-anthropology" >
     <span class="NavigationLink-text">The Ancient World
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/climate-and-environment" >
     <span class="NavigationLink-text">Climate
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/health" >
     <span class="NavigationLink-text">Medicine
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/ap-fact-check">Fact Check</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/oddities">Oddities</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/be-well">Be Well</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/newsletters">Newsletters</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/photography">Photography </a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/photography/2024-year-end-photos" >
     <span class="NavigationLink-text">2024 YEAR END PHOTOS
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/photo-essays" >
     <span class="NavigationLink-text">Photo Essays
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/photography" >
-    <span class="NavigationLink-text">Photography 
+    <span class="NavigationLink-text">Photography
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/ap-investigations/">AP Investigations</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/climate-and-environment">Climate</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change" >
     <span class="NavigationLink-text"><b>Indigenous peoples and climate</b>
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/climate-questions" >
     <span class="NavigationLink-text">Climate Questions
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/climate-migration" >
-    <span class="NavigationLink-text">Climate Migration 
+    <span class="NavigationLink-text">Climate Migration
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/india-climate" >
     <span class="NavigationLink-text">India Focus
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/health">Health</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/technology">Tech</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/artificial-intelligence" >
     <span class="NavigationLink-text">Artificial Intelligence
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/social-media" >
     <span class="NavigationLink-text">Social Media
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem  has-menu" data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/lifestyle">Lifestyle</a>
-        
-        
+
+
             <div class="MainNavigationItemItem-more"  data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
 
 <ul class="MainNavigationItemItem-items" data-nav-moreitems >
-            
-                
+
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/recipes" >
     <span class="NavigationLink-text">Food &amp; Recipes
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/gardening" >
     <span class="NavigationLink-text">Gardening
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/homes" >
     <span class="NavigationLink-text">Homes
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/travel" >
     <span class="NavigationLink-text">Travel
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/fashion" >
     <span class="NavigationLink-text">Fashion
     </span></a>
 </li>
-                
+
                     <li class="MainNavigationItemItem-items-item">
 <a class="NavigationLink AnClick-Main-NavSubItem" href="https://apnews.com/hub/pets" >
     <span class="NavigationLink-text">Pets
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/religion">Religion</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/hub/noticias">Español</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/video">Most watched videos</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/quizzes">Quizzes</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/press-releases">Press Releases</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/login">My Account</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
+
                     <li class="MainNavigationItem-items-item"><div class="MainNavigationItemItem " data-nav-item >
     <div class="MainNavigationItemItem-text">
-        
+
             <a  class="AnClick-MainNav"  href="https://apnews.com/community-guidelines">AP News Code of Conduct</a>
-        
-        
+
+
     </div>
 
 </div>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
         </ul>
-    
+
 </bsp-nav>
 
 </div>
@@ -9528,10 +9528,10 @@ head.appendChild(link);
                     <a class="signedin" href="/myaccount">
                         <svg class="signedin-icon"><use xlink:href="#icon-signedin"></use></svg>
                     </a>
-                    
+
                 </div>
-                    
-                
+
+
                     <bsp-search-overlay class="SearchOverlay">
     <div class="SearchOverlay-search-overlay">
       <form class="SearchOverlay-search-form" action="https://apnews.com/search#nt=navsearch" novalidate="" autocomplete="off">
@@ -9577,44 +9577,44 @@ head.appendChild(link);
                     </form>
                 </div>
                 <div class="Page-header-hamburger-menu-content">
-                    
+
                         <nav class="HamburgerNavigation">
     <ul class="HamburgerNavigation-items">
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/world-news">World</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/israel-hamas-war" >
     <span class="NavigationLink-text">Israel-Hamas war
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/russia-ukraine" >
     <span class="NavigationLink-text">Russia-Ukraine war
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/noticias"  target="_blank"
     >
@@ -9622,52 +9622,52 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/china" >
     <span class="NavigationLink-text">China
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/asia-pacific" >
     <span class="NavigationLink-text">Asia Pacific
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/latin-america" >
     <span class="NavigationLink-text">Latin America
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/europe" >
     <span class="NavigationLink-text">Europe
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/africa" >
     <span class="NavigationLink-text">Africa
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/australia" >
     <span class="NavigationLink-text">Australia
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/middle-east" >
     <span class="NavigationLink-text">Middle East
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/global-elections/"  target="_blank"
     >
@@ -9675,286 +9675,286 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="World">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/israel-hamas-war' class='Subheader-Sections-items-item'>Israel-Hamas war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/russia-ukraine' class='Subheader-Sections-items-item'>Russia-Ukraine war</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/noticias' class='Subheader-Sections-items-item'>Español</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/china' class='Subheader-Sections-items-item'>China</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/asia-pacific' class='Subheader-Sections-items-item'>Asia Pacific</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/latin-america' class='Subheader-Sections-items-item'>Latin America</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/europe' class='Subheader-Sections-items-item'>Europe</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/africa' class='Subheader-Sections-items-item'>Africa</a>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-drone-attack-oil-e28542d48d095866f89a38c5046275d8'>Ukrainian drones strike one of Russia's top oil refineries, sparking fire</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/equatorial-guinea-internet-shutdown-africa-d7daacc641475743972b33eaffffa4fc'>Equatorial Guinea enforces yearlong internet outage for island that protested construction company</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/israel-palestinians-hamas-war-news-09-14-2025-665737776ce05e3496af40676a9bc237'>Rubio is in Israel in wake of Qatar attack as Israeli strikes intensify in northern Gaza</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Afternoon+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Afternoon Wire</div>
                         <div class='Newsletter-description' >Get caught up on what you may have missed throughout the day.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/us-news">U.S.</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/immigration" >
     <span class="NavigationLink-text">Immigration
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/weather" >
     <span class="NavigationLink-text">Weather
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/education" >
     <span class="NavigationLink-text">Education
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/us-news/transportation" >
     <span class="NavigationLink-text">Transportation
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/abortion" >
     <span class="NavigationLink-text">Abortion
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/lgbtq" >
     <span class="NavigationLink-text">LGBTQ+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/obituaries" >
     <span class="NavigationLink-text">Notable Deaths
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="U.S.">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/immigration' class='Subheader-Sections-items-item'>Immigration</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/weather' class='Subheader-Sections-items-item'>Weather</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/education' class='Subheader-Sections-items-item'>Education</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/us-news/transportation' class='Subheader-Sections-items-item'>Transportation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/abortion' class='Subheader-Sections-items-item'>Abortion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/lgbtq' class='Subheader-Sections-items-item'>LGBTQ+</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/obituaries' class='Subheader-Sections-items-item'>Notable Deaths</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kilmeade-fox-homeless-executed-apology-bffb74e9d672b79853dc6fb8eb29afc8'>Fox News' Brian Kilmeade apologizes for saying mentally ill homeless people should be executed</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-cox-robinson-assassination-aef9fe8dc82d218a36d078536717d95d'>Utah governor says the motive in Kirk shooting is not yet certain but the suspect was on the left</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/illinois-governor-dies-jim-edgar-ed01c6d2847c9fe136106b9a96aac7fe'>Former Illinois Gov. Jim Edgar, a popular two-term Republican, dies at 79</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Morning+Wire+Subscribers'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Morning Wire</div>
                         <div class='Newsletter-description' >Our flagship newsletter breaks down the biggest headlines of the day.</div>
                     </div>
                 </a>
-                
-                
-                
-                
+
+
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
             <div class='Subheader-Title'>AP QUIZZES</div>
-            
+
             <div class='Newsletter'>
                 <a class="item" href='/quizzes'>
                     <div class='Newsletters-info'>
@@ -9963,57 +9963,57 @@ head.appendChild(link);
                     </div>
                 </a>
             </div>
-            
-            
+
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/politics">Politics</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/donald-trump" >
     <span class="NavigationLink-text">White House
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/congress" >
     <span class="NavigationLink-text">Congress
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/us-supreme-court" >
     <span class="NavigationLink-text">U.S. Supreme Court
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/projects/election-results-2025/"  target="_blank"
     >
@@ -10021,10 +10021,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/projects/polling-tracker/"  target="_blank"
     >
@@ -10032,10 +10032,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/newsletter/ground-game/july-28-2025"  target="_blank"
     >
@@ -10043,1878 +10043,1878 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Politics">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/donald-trump' class='Subheader-Sections-items-item'>White House</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/congress' class='Subheader-Sections-items-item'>Congress</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/us-supreme-court' class='Subheader-Sections-items-item'>U.S. Supreme Court</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/election-results-2025/' class='Subheader-Sections-items-item'>2025 Election Calendar</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/projects/polling-tracker/' class='Subheader-Sections-items-item'>The latest AP-NORC polls</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/newsletter/ground-game/july-28-2025' class='Subheader-Sections-items-item'>Ground Game</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-trump-cancel-culture-assassination-4d69649e382ea46d8dcf794150a1d3c9'>After Kirk's killing a growing chorus of conservatives wants his critics ostracized or fired</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/political-violence-republican-democrat-election-fear-kirk-eb105e574210d5fc03b9d0500ac36a96'>Political leaders confront security concerns — and fear — after Kirk's assassination</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-promises-ukraine-kennedy-center-war-department-0c2c769ecd5688a21a7aeb2efc2e14c2'>Sugar Coke? Department of War? Where some of Trump's most jaw-dropping promises stand</a>
                 </li>
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Ground_Game'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>Ground Game</div>
                         <div class='Newsletter-description' >Exclusive insights and key stories from the world of politics.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/sports">Sports</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/ap-top-25-college-football-poll" >
     <span class="NavigationLink-text">AP Top 25
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nfl" >
     <span class="NavigationLink-text">NFL
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/mlb" >
     <span class="NavigationLink-text">MLB
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/wnba-basketball" >
     <span class="NavigationLink-text">WNBA
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/tennis" >
     <span class="NavigationLink-text">Tennis
     </span><span class="NavigationLink-description">Tennis</span>
     </a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/golf" >
     <span class="NavigationLink-text">Golf
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nba" >
     <span class="NavigationLink-text">NBA
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/nhl" >
     <span class="NavigationLink-text">NHL
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/auto-racing" >
     <span class="NavigationLink-text">Auto Racing
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/soccer" >
     <span class="NavigationLink-text">Soccer
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Sports">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/ap-top-25-college-football-poll' class='Subheader-Sections-items-item'>AP Top 25</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nfl' class='Subheader-Sections-items-item'>NFL</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/mlb' class='Subheader-Sections-items-item'>MLB</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/wnba-basketball' class='Subheader-Sections-items-item'>WNBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tennis' class='Subheader-Sections-items-item'>Tennis</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/golf' class='Subheader-Sections-items-item'>Golf</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nba' class='Subheader-Sections-items-item'>NBA</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/nhl' class='Subheader-Sections-items-item'>NHL</a>
-                    
-                
-                    
-                
-                    
-                
-                
+
+
+
+
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/top-25-college-football-poll-9-14-2025'><span class='islive'>LIVE&nbsp;</span>AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ricky-hatton-obit-boxing-e306374b99c884a1005c6aef50cecf32'>Ricky Hatton, former world boxing champion, dies at 46</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ap-top-25-football-poll-fd1a383be49e7e666a67962ef945cbc1'>Texas A&M jumps to No. 10 in the AP Top 25, Notre Dame is the first ranked 0-2 team since 1988</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP_CFB_Top_25_Poll_Alerts'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Top 25 Poll Alerts</div>
                         <div class='Newsletter-description' >Get email alerts for every college football Top 25 Poll release.</div>
                     </div>
                 </a>
-                
-                
-                
+
+
+
                 <a href='/newsletters?id=Sports+HQ'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The Sports Wire</div>
                         <div class='Newsletter-description' >Your home base for in-depth reporting from the world of sports.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/entertainment">Entertainment</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/movies" >
     <span class="NavigationLink-text">Movies
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/the-stream" >
     <span class="NavigationLink-text">What to Stream
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/television" >
     <span class="NavigationLink-text">Television
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/celebrity-interviews/" >
     <span class="NavigationLink-text">Celebrity Interviews
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/music" >
     <span class="NavigationLink-text">Music
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/books-and-literature" >
     <span class="NavigationLink-text">Books
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Entertainment">
         <div class='Subheader-Sections Sections-two-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/movies' class='Subheader-Sections-items-item'>Movies</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/the-stream' class='Subheader-Sections-items-item'>What to Stream</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/television' class='Subheader-Sections-items-item'>Television</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/celebrity-interviews/' class='Subheader-Sections-items-item'>Celebrity Interviews</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/music' class='Subheader-Sections-items-item'>Music</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/books-and-literature' class='Subheader-Sections-items-item'>Books</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/live/emmy-awards-2025-updates'><span class='islive'>LIVE&nbsp;</span>2025 Emmys: 'The Pitt' and ‘The Studio’ win top awards</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nate-bargatze-2025-emmy-awards-c1e27164c0723c4b5c2988d4c586d99d'>Emmys host Nate Bargatze pokes fun at the TV industry and fails with gag to keep speeches short</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/bobby-hart-dead-86-monkees-b1fdf152699443429d21360d5a3d95fb'>Bobby Hart, co-wrote 'Last Train to Clarksville' and other hits for the Monkees, dead at 86</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=AP+Entertainment+Wire'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>AP Entertainment Wire</div>
                         <div class='Newsletter-description' >Get AP's first personalized newsletter delivering you entertainment news twice a week.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/business">Business</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/tariffs" >
     <span class="NavigationLink-text">Tariffs
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/inflation" >
     <span class="NavigationLink-text">Inflation
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/financial-markets" >
     <span class="NavigationLink-text">Financial Markets
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/financial-wellness" >
     <span class="NavigationLink-text">Financial Wellness
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/technology" >
     <span class="NavigationLink-text">Technology
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Business">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/tariffs' class='Subheader-Sections-items-item'>Tariffs</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/inflation' class='Subheader-Sections-items-item'>Inflation</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-markets' class='Subheader-Sections-items-item'>Financial Markets</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/financial-wellness' class='Subheader-Sections-items-item'>Financial Wellness</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/technology' class='Subheader-Sections-items-item'>Technology</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627'>Workers commenting on Kirk's death learn the limits of free speech in and out of their jobs</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/trump-lisa-cook-federal-reserve-85fca8a405faa66e11c9567a193468e3'>Trump administration renews push to fire Fed governor Lisa Cook ahead of key vote</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/federal-reserve-inflation-jobs-rates-trump-powell-164fdc130275c0df17562273e1042bfe'>The Fed faces economic uncertainty and political pressure as it decides whether to cut rates</a>
                 </li>
-                
-                
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/science">Science</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/space" >
     <span class="NavigationLink-text">Space
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/animals" >
     <span class="NavigationLink-text">Animals
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/archaeology-and-anthropology" >
     <span class="NavigationLink-text">The Ancient World
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/climate-and-environment" >
     <span class="NavigationLink-text">Climate
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/health" >
     <span class="NavigationLink-text">Medicine
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Science">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/space' class='Subheader-Sections-items-item'>Space</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/animals' class='Subheader-Sections-items-item'>Animals</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/archaeology-and-anthropology' class='Subheader-Sections-items-item'>The Ancient World</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment' class='Subheader-Sections-items-item'>Climate</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/health' class='Subheader-Sections-items-item'>Medicine</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/ap-fact-check">Fact Check</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/oddities">Oddities</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Oddities">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/photo-gallery/ghana-fantasy-coffins-photos-9e1169da6238feef5400ede6d88992d7'>Photos show Ghana's fantasy coffins as a stylish final rest</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ghana-fantasy-coffins-funerals-accra-tradition-01220db5b2e240a12ae8e4ba8820f993'>Ghana's fantasy coffins are a colorful celebration of life and legacy</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/finland-swastika-air-force-nato-423a764e6e72abde083f6136e06461c0'>Swastikas still linger on some flags in Finland's air force, but are on the way out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa'>Ground squirrels are taking over a North Dakota city and officials are not amused</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/giant-troll-sculptures-filoli-thomas-dambo-15a070f5eba15e3a74721a7c2d23eb6e'>Giant trolls have a message for humans about protecting the planet</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/whale-breach-boat-capsize-new-hampshire-efe8cbfae49b93f6325c4331db8999ae'>Whale surfaces, capsizes fishing boat off New Hampshire coast</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/be-well">Be Well</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Be Well">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/nap-sleep-workplace-wellness-productivity-4750ff0aa944509dfd2e90bde29cf4f2'>Devoted nap-takers explain the benefits of sleeping on the job</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9'>Working Well: The simple act of taking deep breaths can reduce stress and anxiety</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701'>Do you eat a meal in 20 minutes or less? It might be time to slow down</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/newsletters">Newsletters</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
     <div class="HamburgerNavigationItem-divider"></div>
 
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/photography">Photography </a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/photography/2024-year-end-photos" >
     <span class="NavigationLink-text">2024 YEAR END PHOTOS
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/photo-essays" >
     <span class="NavigationLink-text">Photo Essays
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/photography" >
-    <span class="NavigationLink-text">Photography 
+    <span class="NavigationLink-text">Photography
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Photography ">
         <div class='Subheader-Sections Sections-one-column '>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography/2024-year-end-photos' class='Subheader-Sections-items-item'>2024 YEAR END PHOTOS</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/photo-essays' class='Subheader-Sections-items-item'>Photo Essays</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/photography' class='Subheader-Sections-items-item'>Photography </a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3'>'Why? Why? Why?' Ukraine's Mariupol descends into despair</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/photography/one-photo-00000195ddefd658a3d5ffff129c0000'>An AP photographer captures a masked protester undeterred by a deluge of pepper spray</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/one-extraordinary-photo-how-this-ap-photographer-captured-taylor-swift-and-travis-kelces-iconic-kiss-0000018d6b12d410ad8fff732d8f0000'>How this AP photographer captured Taylor Swift and Travis Kelce's iconic kiss</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters '>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=Photo+Gallery'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>The World in Pictures</div>
                         <div class='Newsletter-description' >Get The AP’s most compelling photographs sent directly to your inbox.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/ap-investigations/">AP Investigations</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/climate-and-environment">Climate</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change" >
     <span class="NavigationLink-text"><b>Indigenous peoples and climate</b>
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/climate-questions" >
     <span class="NavigationLink-text">Climate Questions
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/climate-migration" >
-    <span class="NavigationLink-text">Climate Migration 
+    <span class="NavigationLink-text">Climate Migration
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/india-climate" >
     <span class="NavigationLink-text">India Focus
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Climate">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/climate-and-environment/indigenous-peoples-adapting-to-and-combatting-climate-change' class='Subheader-Sections-items-item'><b>Indigenous peoples and climate</b></a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-questions' class='Subheader-Sections-items-item'>Climate Questions</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/climate-migration' class='Subheader-Sections-items-item'>Climate Migration </a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/india-climate' class='Subheader-Sections-items-item'>India Focus</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/phantom-electricity-emissions-climate-carbon-efficiency-unplugging-534aba8eb6866e8244204b6362f37daa'>This hidden electricity drain can have a massive impact</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/europe-nuclear-energy-natural-gas-renewables-finance-26c575d819e15ec686ec7e3e8e8e22fc'>Court rules Europe can call nuclear and natural gas sustainable investments for its green transition</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/freshwater-expedition-ai-501-cape-cod-5d62cae0f040d369b16d8400202f0a88'>Scientists tap 'secret' fresh water under the ocean, raising hopes for a thirsty world</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/health">Health</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Health">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/vaccines-autism-study-da78aea6421a1fb568c9ee1490f5681e'>Trump administration to award a no-bid contract on research into vaccines and autism</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/ice-cream-synthetic-dyes-e334d75f87238e57826bcb65f098ebe2'>US ice cream makers say they'll stop using artificial dyes by 2028</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/lyme-disease-tests-chronic-alternative-medicine-f11c13dbea21459b3115f6d1b6c502f5'>Unproven Lyme disease tests and treatments are proliferating</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/measles-mmr-los-angeles-subacute-sclerosing-panencephalitis-219e43a0ef1546db043f4e891b3e441d'>Child dies from complication of measles contracted years earlier</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/drinking-alcohol-beer-wine-liquor-poll-health-091aa28c3375d30d728d48c628a9023a'>Why many Americans are rethinking alcohol, according to a new Gallup poll</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/covid-vaccine-order-states-45cb1439f260c9f6b2ccd1fb7a99ca1f'>States are taking steps to ease access to COVID-19 vaccines as they await federal recommendation</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/technology">Tech</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/artificial-intelligence" >
     <span class="NavigationLink-text">Artificial Intelligence
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/social-media" >
     <span class="NavigationLink-text">Social Media
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Tech">
         <div class='Subheader-Sections Sections-one-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/artificial-intelligence' class='Subheader-Sections-items-item'>Artificial Intelligence</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/social-media' class='Subheader-Sections-items-item'>Social Media</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-google-artificial-intelligence-hassabis-85bff114c30cbea4b951ab93dcc1e6d1'>Google's top AI scientist says ‘learning how to learn’ will be next generation's most needed skill</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/iphone-android-smartphone-b9065ad2104f70ef39a61f8e4777608d'>One Tech Tip: This summer, don't let your phone overheat</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/apple-iphone-17-new-features-b87ce97470188ca9df145132f412b768'>Apple has unveiled its iPhone 17 lineup, including the first iPhone Air. Here's what's new</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/lifestyle">Lifestyle</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/recipes" >
     <span class="NavigationLink-text">Food &amp; Recipes
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/gardening" >
     <span class="NavigationLink-text">Gardening
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/homes" >
     <span class="NavigationLink-text">Homes
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/travel" >
     <span class="NavigationLink-text">Travel
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/fashion" >
     <span class="NavigationLink-text">Fashion
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apnews.com/hub/pets" >
     <span class="NavigationLink-text">Pets
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Lifestyle">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/recipes' class='Subheader-Sections-items-item'>Food &amp; Recipes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/gardening' class='Subheader-Sections-items-item'>Gardening</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/homes' class='Subheader-Sections-items-item'>Homes</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/travel' class='Subheader-Sections-items-item'>Travel</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/fashion' class='Subheader-Sections-items-item'>Fashion</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apnews.com/hub/pets' class='Subheader-Sections-items-item'>Pets</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
         <div class='Subheader-Top-Stories '>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd'>Tips on stepping back from screens and starting a new hobby</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/empty-nest-parents-college-kids-moving-out-e96cd878ba44c8f0cf7fe9c499cafb95'>The nest is empty: Parents grapple with mixed emotions after children move out</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/gardening-forcing-spring-bulbs-indoors-8b47efb0c233eab55bf4322a5065b229'>Brighten winter with indoor blooms by forcing spring bulbs to flower early</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/religion">Religion</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Religion">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul>
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/spain-santiago-compostela-pilgrims-overtourism-camino-james-way-869ca346e84fe13805583cc33b804f18'>Pilgrims turn Spain's Santiago de Compostela into the world's latest overtourism flashpoint</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/vatican-pope-leo-birthday-be5daf80146bcff66b564c91dfaf87e8'>Pope Leo XIV marvels at his 'huge learning curve' in an interview released on his 70th birthday</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/greece-island-orthodox-catholic-festivals-bd4cef441edee54e4f31876d6fbcb51c'>A Greek island has 1,000 private chapels. Families maintain them for faith and community</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
         <div class='Subheader-Newsletters full'>
             <div class='Subheader-Title'>Newsletters</div>
-            
+
             <div class='Newsletter'>
-                
-                
+
+
                 <a href='/newsletters?id=World+of+Faith'>
                     <div class='Newsletters-info'>
                         <div class='Newsletter-Title'>World of Faith</div>
                         <div class='Newsletter-description' >Comprehensive global coverage of how religion shapes our world.</div>
                     </div>
                 </a>
-                
-                
+
+
             </div>
-            
+
             <a class='Newsletter-All' href='/newsletters'>See All Newsletters</a>
-            
+
         </div>
-        
+
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/hub/noticias">Español</a>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger data-noItems>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="Español">
         <div class='Subheader-Top-Stories full'>
             <div class='Subheader-Title'>TOP STORIES</div>
-            
+
             <ul class="Stories-all">
-                
-                
+
+
                 <li>
                     <a href='https://apnews.com/article/colombia-mineros-atrapados-oro-cauca-822a7d11a7a1a6e3f6930737529dcb21'>"Necesitamos un milagro": socorristas buscan a siete mineros atrapados en mina de oro en Colombia</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/papa-70-leon-cumpleanos-vaticano-fdf1f55d28dacbba6fcee275bf5320cb'>El papa León XIV cumple 70 años y dice que tiene una “enorme curva de aprendizaje por delante”</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/decarlos-ucraniana-carolina-del-norte-iryna-zarutska-89b2010a87a211f817f5abbd5fce97b6'>EEUU: El hombre que apuñaló a la ucraniana Zarutska tenía antecedentes violentos</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/kirk-utah-cox-abd3cee50cd438bd2363479ca0d9df90'>Gobernador de Utah: Sospechoso del asesinato de Charlie Kirk tenía ideología de izquierda</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/eeuu-drogas-venezuela-trump-barco-tren-de-aragua-e26ce1af040eb268bb33bb141223a135'>Barco que EEUU atacó cerca de Venezuela iba de regreso a la costa, según fuentes de AP</a>
                 </li>
-                
-                
-                
+
+
+
                 <li>
                     <a href='https://apnews.com/article/guinea-internet-bloqueo-annobon-somagec-obiang-dabf12aa36f11b3e14bf78c3caffef60'>Guinea Ecuatorial impone un año de apagón de internet en isla que protestó contra constructora</a>
                 </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </ul>
-            
+
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/video">Most watched videos</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/projects/news-values-and-principles/" target="_blank">Standards</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/quizzes">Quizzes</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/press-releases">Press Releases</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/login">My Account</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
-        
+
             <li class="HamburgerNavigation-items-item">
 <div class="HamburgerNavigationItem "  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <a  class="AnClick-Hamburger-NavItem" href="https://apnews.com/community-guidelines">AP News Code of Conduct</a>
-        
-        
-        
+
+
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
-        
+
+
     </ul>
 </div></li>
         <li class="HamburgerNavigation-items-item">
@@ -11927,7 +11927,7 @@ head.appendChild(link);
 <div class="PagePromo-media"><span class="Link">
 
 <picture data-crop="footerPromoImage">
-    
+
         <source type="image/webp"  width="320" height="118" srcset="https://dims.apnews.com/dims4/default/6068f11/2147483647/strip/true/crop/640x236+0+0/resize/320x118!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 1x,https://dims.apnews.com/dims4/default/2afe0e6/2147483647/strip/true/crop/640x236+0+0/resize/640x236!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 2x">
 
 <source width="320" height="118" srcset="https://dims.apnews.com/dims4/default/94c503b/2147483647/strip/true/crop/640x236+0+0/resize/320x118!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 1x,https://dims.apnews.com/dims4/default/6e4b276/2147483647/strip/true/crop/640x236+0+0/resize/640x236!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2F4c%2F65482a7b452db66043542c093eaf%2Fpromo-2x.png 2x">
@@ -11949,9 +11949,9 @@ head.appendChild(link);
 
 <div class="HamburgerNavigationItem-divider"></div>
                     </li>
-                
-            
-                
+
+
+
                     <li class="HamburgerNavigation-items-item">
                         <div class="HamburgerNavigationPromo" data-promo="2">
 
@@ -11959,12 +11959,12 @@ head.appendChild(link);
 
 <div class="PagePromo-description">
         <span class="Link"><span class="PagePromoContentIcons-text">
-    
+
     <div class="HTMLModuleEnhancement" data-align-center>
         <div class="HTMLModuleEnhancement-item">
             <div class="HTMLModuleEnhancement-embed">
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="htmlembed-4c0000"></a>
 
 <style>
@@ -11990,13 +11990,13 @@ head.appendChild(link);
   </a>
 </div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
             </div>
         </div>
     </div>
-    
+
 </span></span>
     </div>
 
@@ -12005,17 +12005,17 @@ head.appendChild(link);
 
 <div class="HamburgerNavigationItem-divider"></div>
                     </li>
-                
-            
-        
-            
+
+
+
+
                 <li class="HamburgerNavigation-items-item">
                     <div class="SocialBar">
-    
+
         <ul class="SocialBar-items">
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://twitter.com/AP" target="_blank" data-social-service="twitter">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-twitter"></use>
@@ -12026,9 +12026,9 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.instagram.com/apnews/" target="_blank" data-social-service="instagram">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-instagram"></use>
@@ -12039,9 +12039,9 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.facebook.com/APNews" target="_blank" data-social-service="facebook">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-facebook"></use>
@@ -12052,33 +12052,33 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-            
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
             <li class="HamburgerNavigation-items-item">
                 <div class="HamburgerNavigationItem-divider"></div>
             </li>
-        
-        
+
+
             <nav class="FooterNavigation Page-FooterNavigation">
-    
+
         <ul class="FooterNavigation-items" data-column-count="2">
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -12086,10 +12086,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -12097,10 +12097,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -12108,38 +12108,38 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -12147,10 +12147,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -12158,10 +12158,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -12169,28 +12169,28 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="7">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -12198,10 +12198,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -12209,10 +12209,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -12220,10 +12220,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -12231,10 +12231,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -12242,10 +12242,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -12253,10 +12253,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -12264,31 +12264,31 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
         </ul>
-    
+
 </nav>
 
 <li class="FooterNavigation-items-item" data-hamburger><div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -12296,10 +12296,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -12307,10 +12307,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -12318,38 +12318,38 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -12357,10 +12357,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -12368,10 +12368,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -12379,13 +12379,13 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
         <li class="HamburgerNavigation-items-item" data-hamburger>
@@ -12395,25 +12395,25 @@ head.appendChild(link);
 <li class="HamburgerNavigation-items-item" data-hamburger data-footer-item="true">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -12421,10 +12421,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -12432,10 +12432,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -12443,10 +12443,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -12454,10 +12454,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -12465,10 +12465,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -12476,10 +12476,10 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -12487,70 +12487,70 @@ head.appendChild(link);
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about' class='Subheader-Sections-items-item'>About</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/news-values-and-principles' class='Subheader-Sections-items-item'>AP News Values and Principles</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/our-role-in-elections' class='Subheader-Sections-items-item'>AP’s Role in Elections</a>
-                    
-                
-                    
+
+
+
                         <a href='https://leads.ap.org' class='Subheader-Sections-items-item'>AP Leads</a>
-                    
-                
-                    
+
+
+
                         <a href='https://blog.ap.org/' class='Subheader-Sections-items-item'>AP Definitive Source Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apimagesblog.com/' class='Subheader-Sections-items-item'>AP Images Spotlight Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.apstylebook.com/' class='Subheader-Sections-items-item'>AP Stylebook</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
 
 <li class="HamburgerNavigation-items-item">
             <div class="HamburgerNavigationItem-divider"></div>
         </li>
-        
+
             <li class="HamburgerNavigation-items-item">
                 <div class="Page-footer-disclaimer">
                     <p>Copyright 2025 The Associated Press. All Rights Reserved.</p>
                 </div>
             </li>
-        
+
     </ul>
 </nav>
 
@@ -12584,29 +12584,29 @@ head.appendChild(link);
 <div class="Page-twoColumn">
                 <main class="Page-main" data-module data-padding="none">
 
-<div class="Page-lead  gtmMainScrollContent"><bsp-carousel class="Carousel" 
-    data-module 
-     data-slidesratio="3x2" 
-     
+<div class="Page-lead  gtmMainScrollContent"><bsp-carousel class="Carousel"
+    data-module
+     data-slidesratio="3x2"
+
     data-blended
-     
-    
-     has-title 
+
+
+     has-title
 >
 
 <h2 class="Carousel-title displayNone" data-override-title="Lebanon is rocked again by exploding devices as Israel declares a new phase of war">Lebanon is rocked again by exploding devices as Israel declares a new phase of war</h2>
 
 <div class="Carousel-slides" data-slidesCount="20">
-        
-            
+
+
                 <div class="Carousel-slide" data-slideNumber="0">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media videoSlide"
     >
-        
-        
-            
-                
+
+
+
+
 <bsp-jw-player data-video-player class="JWVideoPlayer"
     data-player="feSow5nO"
     data-media-id="aq2o4hGb"
@@ -12634,17 +12634,17 @@ head.appendChild(link);
     data-video-pauseads="false"
     data-video-showAds="true"
     data-video-bid="{&quot;settings&quot;:{&quot;buckets&quot;:[{&quot;min&quot;:30.5,&quot;max&quot;:50.0,&quot;increment&quot;:0.5},{&quot;min&quot;:0.1,&quot;max&quot;:30.0,&quot;increment&quot;:0.1}],&quot;disableConsentManagementOnNoCmp&quot;:true,&quot;floorPriceCents&quot;:100.0,&quot;floorPriceCurrency&quot;:&quot;usd&quot;,&quot;sendAllBids&quot;:true,&quot;mediationLayerAdServer&quot;:&quot;dfp&quot;,&quot;consentManagement&quot;:{&quot;gdpr&quot;:{&quot;defaultGdprScope&quot;:true,&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeOut&quot;:1000},&quot;usp&quot;:{&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeout&quot;:1000}}},&quot;bidders&quot;:[{&quot;name&quot;:&quot;PubMatic&quot;,&quot;pubid&quot;:&quot;160964&quot;,&quot;id&quot;:&quot;4983715&quot;},{&quot;delDomain&quot;:&quot;associatedpress-d.openx.net&quot;,&quot;name&quot;:&quot;OpenX&quot;,&quot;id&quot;:&quot;559087219&quot;},{&quot;name&quot;:&quot;Rubicon&quot;,&quot;pubid&quot;:&quot;8607&quot;,&quot;siteId&quot;:&quot;165712&quot;,&quot;zoneId&quot;:&quot;2809248&quot;},{&quot;name&quot;:&quot;IndexExchange&quot;,&quot;id&quot;:&quot;958918&quot;}],&quot;ortbParams&quot;:{&quot;plcmt&quot;:1}}"
-     data-top-of-article="true" 
-     data-orientation="landscape" 
-     poster="https://dims.apnews.com/dims4/default/6d75631/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F65%2F46%2F7d8314ef6afaf5bd30bef863a795%2Fleb-pager-funeral-blast-20240918cr-1920x1080.jpg" 
-    
-    
-    
+     data-top-of-article="true"
+     data-orientation="landscape"
+     poster="https://dims.apnews.com/dims4/default/6d75631/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F65%2F46%2F7d8314ef6afaf5bd30bef863a795%2Fleb-pager-funeral-blast-20240918cr-1920x1080.jpg"
+
+
+
     data-is-force-vpaid-controls>
     <video class="jwvideoplayer" id="player-aq2o4hGb" data-video-pauseads="false" data-media-id="aq2o4hGb" data-player="feSow5nO" data-embed="default"></video>
 
 <div  data-orientation="landscape"  class="jw-custom-placeholder"></div>
-    
+
 </bsp-jw-player>
 
 <button data-openoverlay data-openoverlay-size="medium-nocrop" data-openoverlay-slide-number="0" aria-label="Full screen button">
@@ -12663,15 +12663,15 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="1">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media videoSlide"
     >
-        
-        
-            
-                
+
+
+
+
 <bsp-jw-player data-video-player class="JWVideoPlayer"
     data-player="feSow5nO"
     data-media-id="MMm9tHQJ"
@@ -12699,17 +12699,17 @@ head.appendChild(link);
     data-video-pauseads="false"
     data-video-showAds="true"
     data-video-bid="{&quot;settings&quot;:{&quot;buckets&quot;:[{&quot;min&quot;:30.5,&quot;max&quot;:50.0,&quot;increment&quot;:0.5},{&quot;min&quot;:0.1,&quot;max&quot;:30.0,&quot;increment&quot;:0.1}],&quot;disableConsentManagementOnNoCmp&quot;:true,&quot;floorPriceCents&quot;:100.0,&quot;floorPriceCurrency&quot;:&quot;usd&quot;,&quot;sendAllBids&quot;:true,&quot;mediationLayerAdServer&quot;:&quot;dfp&quot;,&quot;consentManagement&quot;:{&quot;gdpr&quot;:{&quot;defaultGdprScope&quot;:true,&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeOut&quot;:1000},&quot;usp&quot;:{&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeout&quot;:1000}}},&quot;bidders&quot;:[{&quot;name&quot;:&quot;PubMatic&quot;,&quot;pubid&quot;:&quot;160964&quot;,&quot;id&quot;:&quot;4983715&quot;},{&quot;delDomain&quot;:&quot;associatedpress-d.openx.net&quot;,&quot;name&quot;:&quot;OpenX&quot;,&quot;id&quot;:&quot;559087219&quot;},{&quot;name&quot;:&quot;Rubicon&quot;,&quot;pubid&quot;:&quot;8607&quot;,&quot;siteId&quot;:&quot;165712&quot;,&quot;zoneId&quot;:&quot;2809248&quot;},{&quot;name&quot;:&quot;IndexExchange&quot;,&quot;id&quot;:&quot;958918&quot;}],&quot;ortbParams&quot;:{&quot;plcmt&quot;:1}}"
-     data-top-of-article="true" 
-     data-orientation="landscape" 
-     poster="https://dims.apnews.com/dims4/default/a621962/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2e%2F62%2F631f5e5f4621af665605e7b162aa%2Fwalkietalkiesite.jpg" 
-    
-    
-    
+     data-top-of-article="true"
+     data-orientation="landscape"
+     poster="https://dims.apnews.com/dims4/default/a621962/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2e%2F62%2F631f5e5f4621af665605e7b162aa%2Fwalkietalkiesite.jpg"
+
+
+
     data-is-force-vpaid-controls>
     <video class="jwvideoplayer" id="player-MMm9tHQJ" data-video-pauseads="false" data-media-id="MMm9tHQJ" data-player="feSow5nO" data-embed="default"></video>
 
 <div  data-orientation="landscape"  class="jw-custom-placeholder"></div>
-    
+
 </bsp-jw-player>
 
 <button data-openoverlay data-openoverlay-size="medium-nocrop" data-openoverlay-slide-number="1" aria-label="Full screen button">
@@ -12728,14 +12728,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="2">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/10f9528/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/1d08ac5/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 1x">
@@ -12772,14 +12772,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="3">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c4bb245/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/8898a68/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 1x">
@@ -12816,14 +12816,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="4">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1045" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/62c0305/2147483647/strip/true/crop/5600x4063+0+0/resize/1440x1045!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1045" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/37450f7/2147483647/strip/true/crop/5600x4063+0+0/resize/1440x1045!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 1x">
@@ -12860,14 +12860,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="5">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1005" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/0b7f24c/2147483647/strip/true/crop/2067x1442+0+0/resize/1440x1005!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1005" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/134f172/2147483647/strip/true/crop/2067x1442+0+0/resize/1440x1005!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 1x">
@@ -12904,14 +12904,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="6">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/9ec79e5/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/dc3844b/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 1x">
@@ -12948,14 +12948,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="7">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="954" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/12517c9/2147483647/strip/true/crop/4200x2782+0+0/resize/1440x954!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="954" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/6140eb0/2147483647/strip/true/crop/4200x2782+0+0/resize/1440x954!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 1x">
@@ -12992,14 +12992,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="8">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/9dafe1c/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/03da922/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x">
@@ -13036,14 +13036,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="9">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/628512b/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/7de2680/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x">
@@ -13080,14 +13080,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="10">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/2ecd316/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f338f2f/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x">
@@ -13124,14 +13124,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="11">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/e431946/2147483647/strip/true/crop/7430x4953+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/00d73b3/2147483647/strip/true/crop/7430x4953+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 1x">
@@ -13168,14 +13168,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="12">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c03ebb7/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/a95b8e3/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x">
@@ -13212,14 +13212,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="13">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1009" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/04994f2/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1009" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/5a5034d/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x">
@@ -13256,14 +13256,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="14">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c41cbd9/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c006566/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 1x">
@@ -13300,14 +13300,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="15">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f64401a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/5a65a5a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 1x">
@@ -13344,14 +13344,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="16">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/1041d8f/2147483647/strip/true/crop/5000x3333+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/3f0d0cf/2147483647/strip/true/crop/5000x3333+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 1x">
@@ -13388,14 +13388,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="17">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/4b78d38/2147483647/strip/true/crop/5600x4200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/6db6596/2147483647/strip/true/crop/5600x4200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 1x">
@@ -13432,14 +13432,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="18">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1030" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/a27a7f8/2147483647/strip/true/crop/2160x1545+0+0/resize/1440x1030!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="1030" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f6da253/2147483647/strip/true/crop/2160x1545+0+0/resize/1440x1030!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 1x">
@@ -13476,14 +13476,14 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
+
                 <div class="Carousel-slide" data-slideNumber="19">
                     <div class="CarouselSlide" >
     <div class="CarouselSlide-media imageSlide"
     >
 
 <picture data-crop="medium-nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/83f501c/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 1x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/b0f7b9a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 1x">
@@ -13520,11 +13520,11 @@ head.appendChild(link);
     </div>
 </div>
                 </div>
-            
-        
+
+
     </div>
     <div class="CarouselSlide-superLeadControls">
-        
+
     </div>
 
 <template data-bsp-carousel-overlay-template>
@@ -13538,18 +13538,18 @@ head.appendChild(link);
     </div>
     <bsp-carousel class="CarouselOverlay-carousel" data-bsp-overlay-carousel>
         <div class="CarouselOverlay-slides" data-slidesCount="20">
-            
-                
+
+
                     <div class="CarouselOverlay-slide" data-slideNumber="0">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" data-isvideo>
                                 <div class="CarouselSlide" >
     <div class="CarouselSlide-media videoSlide"
     >
-        
-        
-            
-                
+
+
+
+
 <bsp-jw-player data-video-player class="JWVideoPlayer"
     data-player="feSow5nO"
     data-media-id="aq2o4hGb"
@@ -13577,17 +13577,17 @@ head.appendChild(link);
     data-video-pauseads="false"
     data-video-showAds="true"
     data-video-bid="{&quot;settings&quot;:{&quot;buckets&quot;:[{&quot;min&quot;:30.5,&quot;max&quot;:50.0,&quot;increment&quot;:0.5},{&quot;min&quot;:0.1,&quot;max&quot;:30.0,&quot;increment&quot;:0.1}],&quot;disableConsentManagementOnNoCmp&quot;:true,&quot;floorPriceCents&quot;:100.0,&quot;floorPriceCurrency&quot;:&quot;usd&quot;,&quot;sendAllBids&quot;:true,&quot;mediationLayerAdServer&quot;:&quot;dfp&quot;,&quot;consentManagement&quot;:{&quot;gdpr&quot;:{&quot;defaultGdprScope&quot;:true,&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeOut&quot;:1000},&quot;usp&quot;:{&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeout&quot;:1000}}},&quot;bidders&quot;:[{&quot;name&quot;:&quot;PubMatic&quot;,&quot;pubid&quot;:&quot;160964&quot;,&quot;id&quot;:&quot;4983715&quot;},{&quot;delDomain&quot;:&quot;associatedpress-d.openx.net&quot;,&quot;name&quot;:&quot;OpenX&quot;,&quot;id&quot;:&quot;559087219&quot;},{&quot;name&quot;:&quot;Rubicon&quot;,&quot;pubid&quot;:&quot;8607&quot;,&quot;siteId&quot;:&quot;165712&quot;,&quot;zoneId&quot;:&quot;2809248&quot;},{&quot;name&quot;:&quot;IndexExchange&quot;,&quot;id&quot;:&quot;958918&quot;}],&quot;ortbParams&quot;:{&quot;plcmt&quot;:1}}"
-     data-top-of-article="true" 
-     data-orientation="landscape" 
-     poster="https://dims.apnews.com/dims4/default/6d75631/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F65%2F46%2F7d8314ef6afaf5bd30bef863a795%2Fleb-pager-funeral-blast-20240918cr-1920x1080.jpg" 
-    
-    
-    
+     data-top-of-article="true"
+     data-orientation="landscape"
+     poster="https://dims.apnews.com/dims4/default/6d75631/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F65%2F46%2F7d8314ef6afaf5bd30bef863a795%2Fleb-pager-funeral-blast-20240918cr-1920x1080.jpg"
+
+
+
     data-is-force-vpaid-controls>
     <video class="jwvideoplayer" id="player-aq2o4hGb" data-video-pauseads="false" data-media-id="aq2o4hGb" data-player="feSow5nO" data-embed="default"></video>
 
 <div  data-orientation="landscape"  class="jw-custom-placeholder"></div>
-    
+
 </bsp-jw-player>
 
 <button data-openoverlay data-openoverlay-size="nocrop" data-openoverlay-slide-number="0" aria-label="Full screen button">
@@ -13610,10 +13610,10 @@ head.appendChild(link);
                                     data-more-id="data-more-button-0" data-less-id="data-less-button-0">
                                     <button data-less-button-0><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">1 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Multiple explosions went off Wednesday at the site of a funeral for three Hezbollah members and a child killed by exploding pagers the day before, according to Associated Press journalists at the scene. (AP video/Fadi Tawil)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -13625,7 +13625,7 @@ head.appendChild(link);
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -13636,7 +13636,7 @@ head.appendChild(link);
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -13647,9 +13647,9 @@ head.appendChild(link);
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -13660,7 +13660,7 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#3f005d505b4602735a5d5e5150511a0d0f564c1a0d0f4d505c545a5b1a0d0f5e585e56511a0d0f5d461a0d0f5a474f53505b5651581a0d0f5b5a49565c5a4c1a0d0f5e4c1a0d0f764c4d5e5a531a0d0f5b5a5c535e4d5a4c1a0d0f5e1a0d0f515a481a0d0f4f575e4c5a1a0d0f50591a0d0f485e4d1a0f7e1a0f7e574b4b4f4c1a0c7e1a0d791a0d795e4f515a484c115c50521a0d795e4d4b565c535a1a0d79535a5d5e51505112564c4d5e5a53125a474f53505b565158124f5e585a4d4c12575a455d5053535e57124c464d565e125c5a095e590c5c0d5a095b5a0f5e0f5b5b5b595e5a0b07090c0b0d08070d07071a0c794a4b52604c504a4d5c5a1a0c7b7a525e56531a0d094a4b5260525a5b564a521a0c7b4c575e4d5a1a0f7e1a0f7e764c4d5e5a531a0d084c1a0d0f5b5a595a514c5a1a0d0f525651564c4b5a4d1a0d0f5b5a5c535e4d5a4c1a0d0f5e1a0d0f1a7a0d1a070f1a067c515a481a0d0f4f575e4c5a1a7a0d1a070f1a067b1a0d0f50591a0d0f485e4d1a0d0f5e4c1a0d0f775a455d5053535e571a0d0f505959565c565e534c1a0d0f5e515b1a0d0f735a5d5e5150511a0d084c1a0d0f4c4b5e4b5a1a0d0f525a5b565e1a0d0f4c5e461a0d0f5a474f53504c5650514c1a0d0f485a514b1a0d0f5059591a0d0f56511a0d0f7d5a564d4a4b1a0d0f5e515b1a0d0f524a534b564f535a1a0d0f4f5e4d4b4c1a0d0f50591a0d0f735a5d5e5150511a0d0f56511a0d0f5e511a0d0f5e4f4f5e4d5a514b1a0d0f4c5a5c50515b1a0d0f485e495a1a0d0f50591a0d0f5b5a4b50515e4b5650514c1a0d0f50591a0d0f5a535a5c4b4d5051565c1a0d0f5b5a49565c5a4c11" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -13672,7 +13672,7 @@ head.appendChild(link);
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -13681,18 +13681,18 @@ head.appendChild(link);
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -13703,7 +13703,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -13711,19 +13711,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -13731,7 +13731,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -13745,17 +13745,17 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="1">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" data-isvideo>
                                 <div class="CarouselSlide" >
     <div class="CarouselSlide-media videoSlide"
     >
-        
-        
-            
-                
+
+
+
+
 <bsp-jw-player data-video-player class="JWVideoPlayer"
     data-player="feSow5nO"
     data-media-id="MMm9tHQJ"
@@ -13783,17 +13783,17 @@ target="_blank" data-social-service="bluesky">
     data-video-pauseads="false"
     data-video-showAds="true"
     data-video-bid="{&quot;settings&quot;:{&quot;buckets&quot;:[{&quot;min&quot;:30.5,&quot;max&quot;:50.0,&quot;increment&quot;:0.5},{&quot;min&quot;:0.1,&quot;max&quot;:30.0,&quot;increment&quot;:0.1}],&quot;disableConsentManagementOnNoCmp&quot;:true,&quot;floorPriceCents&quot;:100.0,&quot;floorPriceCurrency&quot;:&quot;usd&quot;,&quot;sendAllBids&quot;:true,&quot;mediationLayerAdServer&quot;:&quot;dfp&quot;,&quot;consentManagement&quot;:{&quot;gdpr&quot;:{&quot;defaultGdprScope&quot;:true,&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeOut&quot;:1000},&quot;usp&quot;:{&quot;cmpApi&quot;:&quot;iab&quot;,&quot;timeout&quot;:1000}}},&quot;bidders&quot;:[{&quot;name&quot;:&quot;PubMatic&quot;,&quot;pubid&quot;:&quot;160964&quot;,&quot;id&quot;:&quot;4983715&quot;},{&quot;delDomain&quot;:&quot;associatedpress-d.openx.net&quot;,&quot;name&quot;:&quot;OpenX&quot;,&quot;id&quot;:&quot;559087219&quot;},{&quot;name&quot;:&quot;Rubicon&quot;,&quot;pubid&quot;:&quot;8607&quot;,&quot;siteId&quot;:&quot;165712&quot;,&quot;zoneId&quot;:&quot;2809248&quot;},{&quot;name&quot;:&quot;IndexExchange&quot;,&quot;id&quot;:&quot;958918&quot;}],&quot;ortbParams&quot;:{&quot;plcmt&quot;:1}}"
-     data-top-of-article="true" 
-     data-orientation="landscape" 
-     poster="https://dims.apnews.com/dims4/default/a621962/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2e%2F62%2F631f5e5f4621af665605e7b162aa%2Fwalkietalkiesite.jpg" 
-    
-    
-    
+     data-top-of-article="true"
+     data-orientation="landscape"
+     poster="https://dims.apnews.com/dims4/default/a621962/2147483647/strip/true/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2e%2F62%2F631f5e5f4621af665605e7b162aa%2Fwalkietalkiesite.jpg"
+
+
+
     data-is-force-vpaid-controls>
     <video class="jwvideoplayer" id="player-MMm9tHQJ" data-video-pauseads="false" data-media-id="MMm9tHQJ" data-player="feSow5nO" data-embed="default"></video>
 
 <div  data-orientation="landscape"  class="jw-custom-placeholder"></div>
-    
+
 </bsp-jw-player>
 
 <button data-openoverlay data-openoverlay-size="nocrop" data-openoverlay-slide-number="1" aria-label="Full screen button">
@@ -13816,10 +13816,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-1" data-less-id="data-less-button-1">
                                     <button data-less-button-1><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">2 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Walkie-talkies and solar equipment exploded in Beirut and other parts of Lebanon on Wednesday in an apparent second wave of attacks targeting devices a day after pagers used by Hezbollah blew up, state media and officials for the militant group said.</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -13831,7 +13831,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -13842,7 +13842,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -13853,9 +13853,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -13866,7 +13866,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#e8d78a878c91d5a48d8a89868786cddad8819bcddad89a878b838d8ccddad8898f898186cddad88a91cddad88d909884878c81868fcddad88c8d9e818b8d9bcddad8899bcddad8a19b9a898d84cddad88c8d8b84899a8d9bcddad889cddad8868d9fcddad89880899b8dcddad8878ecddad89f899acdd8a9cdd8a9809c9c989bcddba9cddaaecddaae8998868d9f9bc68b8785cddaae899a9c818b848dcddaae848d8a89868786c5819b9a898d84c58d909884878c81868fc598898f8d9a9bc5808d928a8784848980c59b919a8189c58b8dde898edb8bda8dde8c8dd889d88c8c8c8e898ddcd0dedbdcdadfd0dad0d0cddbae9d9c85b79b879d9a8b8dcddbacad85898184cddade9d9c85b7858d8c819d85cddbac9b80899a8dcdd8a9cdd8a9a19b9a898d84cddadf9bcddad88c8d8e8d869b8dcddad8858186819b9c8d9acddad88c8d8b84899a8d9bcddad889cddad8cdaddacdd0d8cdd1ab868d9fcddad89880899b8dcdaddacdd0d8cdd1accddad8878ecddad89f899acddad8899bcddad8a08d928a8784848980cddad8878e8e818b8189849bcddad889868ccddad8a48d8a89868786cddadf9bcddad89b9c899c8dcddad8858d8c8189cddad89b8991cddad88d909884879b8187869bcddad89f8d869ccddad8878e8ecddad88186cddad8aa8d819a9d9ccddad889868ccddad8859d849c8198848dcddad898899a9c9bcddad8878ecddad8a48d8a89868786cddad88186cddad88986cddad8899898899a8d869ccddad89b8d8b87868ccddad89f899e8dcddad8878ecddad88c8d9c8786899c8187869bcddad8878ecddad88d848d8b9c9a8786818bcddad88c8d9e818b8d9bc6" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -13878,7 +13878,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -13887,18 +13887,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -13909,7 +13909,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -13917,19 +13917,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -13937,7 +13937,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -13951,7 +13951,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="2">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -13960,7 +13960,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/10f9528/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 1x,https://dims.apnews.com/dims4/default/8d14814/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/1d08ac5/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 1x,https://dims.apnews.com/dims4/default/c26a1e3/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2F6c%2F0b98d4d47a0e44705b0b02fc108c%2Febe5a876efa14541a069d825ea3cd297 2x">
@@ -14002,10 +14002,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-2" data-less-id="data-less-button-2">
                                     <button data-less-button-2><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">3 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Hezbollah fighters carry one of the coffins of four fallen comrades who were killed Tuesday after their handheld pagers exploded, in the southern suburb of Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Bilal Hussein)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14017,7 +14017,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14028,7 +14028,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14039,9 +14039,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14052,7 +14052,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#1c237e7378652150797e7d727372392e2c756f392e2c6e737f777978392e2c7d7b7d7572392e2c7e65392e2c79646c70737875727b392e2c78796a757f796f392e2c7d6f392e2c556f6e7d7970392e2c78797f707d6e796f392e2c7d392e2c72796b392e2c6c747d6f79392e2c737a392e2c6b7d6e392c5d392c5d7468686c6f392f5d392e5a392e5a7d6c72796b6f327f7371392e5a7d6e68757f7079392e5a70797e7d72737231756f6e7d79703179646c70737875727b316c7d7b796e6f317479667e7370707d74316f656e757d317f792a7d7a2f7f2e792a78792c7d2c7878787a7d7928242a2f282e2b242e2424392f5a696871436f73696e7f79392f5859717d7570392e2a69687143717978756971392f586f747d6e79392c5d392c5d556f6e7d7970392e2b6f392e2c78797a79726f79392e2c717572756f68796e392e2c78797f707d6e796f392e2c7d392e2c39592e39242c39255f72796b392e2c6c747d6f7939592e39242c392558392e2c737a392e2c6b7d6e392e2c7d6f392e2c5479667e7370707d74392e2c737a7a757f757d706f392e2c7d7278392e2c50797e7d727372392e2b6f392e2c6f687d6879392e2c717978757d392e2c6f7d65392e2c79646c70736f7573726f392e2c6b797268392e2c737a7a392e2c7572392e2c5e79756e6968392e2c7d7278392e2c71697068756c7079392e2c6c7d6e686f392e2c737a392e2c50797e7d727372392e2c7572392e2c7d72392e2c7d6c6c7d6e797268392e2c6f797f737278392e2c6b7d6a79392e2c737a392e2c78796873727d687573726f392e2c737a392e2c7970797f686e7372757f392e2c78796a757f796f32" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14064,7 +14064,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -14073,18 +14073,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -14095,7 +14095,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -14103,19 +14103,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -14123,7 +14123,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -14137,7 +14137,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="3">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -14146,7 +14146,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c4bb245/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 1x,https://dims.apnews.com/dims4/default/aefeb62/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/8898a68/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 1x,https://dims.apnews.com/dims4/default/6db02db/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F91%2Fbe%2F570fa99722336c2ae19cf6cef9e0%2F760988d078764a58a8c050045122551c 2x">
@@ -14188,10 +14188,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-3" data-less-id="data-less-button-3">
                                     <button data-less-button-3><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">4 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Hezbollah fighters salute as they stand next to the coffins of four victims who were killed Tuesday after their handheld pagers exploded, during their funeral procession in the southern suburb of Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Bilal Hussein)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14203,7 +14203,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14214,7 +14214,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14225,9 +14225,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14238,7 +14238,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#ccf3aea3a8b5f180a9aeada2a3a2e9fefca5bfe9fefcbea3afa7a9a8e9fefcadabada5a2e9fefcaeb5e9fefca9b4bca0a3a8a5a2abe9fefca8a9baa5afa9bfe9fefcadbfe9fefc85bfbeada9a0e9fefca8a9afa0adbea9bfe9fefcade9fefca2a9bbe9fefcbca4adbfa9e9fefca3aae9fefcbbadbee9fc8de9fc8da4b8b8bcbfe9ff8de9fe8ae9fe8aadbca2a9bbbfe2afa3a1e9fe8aadbeb8a5afa0a9e9fe8aa0a9aeada2a3a2e1a5bfbeada9a0e1a9b4bca0a3a8a5a2abe1bcadaba9bebfe1a4a9b6aea3a0a0ada4e1bfb5bea5ade1afa9faadaaffaffea9faa8a9fcadfca8a8a8aaada9f8f4fafff8fefbf4fef4f4e9ff8ab9b8a193bfa3b9beafa9e9ff8889a1ada5a0e9fefab9b8a193a1a9a8a5b9a1e9ff88bfa4adbea9e9fc8de9fc8d85bfbeada9a0e9fefbbfe9fefca8a9aaa9a2bfa9e9fefca1a5a2a5bfb8a9bee9fefca8a9afa0adbea9bfe9fefcade9fefce989fee9f4fce9f58fa2a9bbe9fefcbca4adbfa9e989fee9f4fce9f588e9fefca3aae9fefcbbadbee9fefcadbfe9fefc84a9b6aea3a0a0ada4e9fefca3aaaaa5afa5ada0bfe9fefcada2a8e9fefc80a9aeada2a3a2e9fefbbfe9fefcbfb8adb8a9e9fefca1a9a8a5ade9fefcbfadb5e9fefca9b4bca0a3bfa5a3a2bfe9fefcbba9a2b8e9fefca3aaaae9fefca5a2e9fefc8ea9a5beb9b8e9fefcada2a8e9fefca1b9a0b8a5bca0a9e9fefcbcadbeb8bfe9fefca3aae9fefc80a9aeada2a3a2e9fefca5a2e9fefcada2e9fefcadbcbcadbea9a2b8e9fefcbfa9afa3a2a8e9fefcbbadbaa9e9fefca3aae9fefca8a9b8a3a2adb8a5a3a2bfe9fefca3aae9fefca9a0a9afb8bea3a2a5afe9fefca8a9baa5afa9bfe2" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14250,7 +14250,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -14259,18 +14259,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -14281,7 +14281,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -14289,19 +14289,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -14309,7 +14309,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -14323,7 +14323,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="4">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -14332,7 +14332,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1045" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/62c0305/2147483647/strip/true/crop/5600x4063+0+0/resize/1440x1045!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 1x,https://dims.apnews.com/dims4/default/466e527/2147483647/strip/true/crop/5600x4063+0+0/resize/2880x2090!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1045" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/37450f7/2147483647/strip/true/crop/5600x4063+0+0/resize/1440x1045!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 1x,https://dims.apnews.com/dims4/default/88a74bb/2147483647/strip/true/crop/5600x4063+0+0/resize/2880x2090!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F88%2F0d%2F599be0177accde5e21dad358039e%2Fa64e65c916254783ae7a26da95153e4f 2x">
@@ -14374,10 +14374,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-4" data-less-id="data-less-button-4">
                                     <button data-less-button-4><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">5 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Lebanese soldiers and firefighters gather outside a mobile shop after what is believed to be the result of a walkie-talkie exploding inside it, in the southern port city of Sidon, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Mohammed Zaatari)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14389,7 +14389,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14400,7 +14400,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14411,9 +14411,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14424,7 +14424,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#18277a777c6125547d7a797677763d2a28716b3d2a286a777b737d7c3d2a28797f7971763d2a287a613d2a287d606874777c71767f3d2a287c7d6e717b7d6b3d2a28796b3d2a28516b6a797d743d2a287c7d7b74796a7d6b3d2a28793d2a28767d6f3d2a286870796b7d3d2a28777e3d2a286f796a3d28593d2859706c6c686b3d2b593d2a5e3d2a5e7968767d6f6b367b77753d2a5e796a6c717b747d3d2a5e747d7a7976777635716b6a797d74357d606874777c71767f3568797f7d6a6b35707d627a7774747970356b616a7179357b7d2e797e2b7b2a7d2e7c7d2879287c7c7c7e797d2c202e2b2c2a2f202a20203d2b5e6d6c75476b776d6a7b7d3d2b5c5d757971743d2a2e6d6c7547757d7c716d753d2b5c6b70796a7d3d28593d2859516b6a797d743d2a2f6b3d2a287c7d7e7d766b7d3d2a28757176716b6c7d6a3d2a287c7d7b74796a7d6b3d2a28793d2a283d5d2a3d20283d215b767d6f3d2a286870796b7d3d5d2a3d20283d215c3d2a28777e3d2a286f796a3d2a28796b3d2a28507d627a77747479703d2a28777e7e717b7179746b3d2a2879767c3d2a28547d7a797677763d2a2f6b3d2a286b6c796c7d3d2a28757d7c71793d2a286b79613d2a287d606874776b7177766b3d2a286f7d766c3d2a28777e7e3d2a2871763d2a285a7d716a6d6c3d2a2879767c3d2a28756d746c7168747d3d2a2868796a6c6b3d2a28777e3d2a28547d7a797677763d2a2871763d2a2879763d2a28796868796a7d766c3d2a286b7d7b77767c3d2a286f796e7d3d2a28777e3d2a287c7d6c7776796c7177766b3d2a28777e3d2a287d747d7b6c6a7776717b3d2a287c7d6e717b7d6b36" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14436,7 +14436,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -14445,18 +14445,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -14467,7 +14467,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -14475,19 +14475,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -14495,7 +14495,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -14509,7 +14509,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="5">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -14518,7 +14518,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1005" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/0b7f24c/2147483647/strip/true/crop/2067x1442+0+0/resize/1440x1005!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 1x,https://dims.apnews.com/dims4/default/f9e17a3/2147483647/strip/true/crop/2067x1442+0+0/resize/2880x2010!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1005" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/134f172/2147483647/strip/true/crop/2067x1442+0+0/resize/1440x1005!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 1x,https://dims.apnews.com/dims4/default/2009b8b/2147483647/strip/true/crop/2067x1442+0+0/resize/2880x2010!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2F90%2F1fe3f4a0aea6489669caeaa3a6d5%2Fedd1ab09d2d540e69f12a1dcdba2ca5b 2x">
@@ -14560,10 +14560,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-5" data-less-id="data-less-button-5">
                                     <button data-less-button-5><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">6 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>This video grab, shows a walkie-talkie that was exploded inside a house, in Baalbek, east Lebanon, Wednesday, Sept. 18, 2024. (AP Photo)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14575,7 +14575,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14586,7 +14586,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14597,9 +14597,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14610,7 +14610,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#6f500d000b1652230a0d0e0100014a5d5f061c4a5d5f1d000c040a0b4a5d5f0e080e06014a5d5f0d164a5d5f0a171f03000b0601084a5d5f0b0a19060c0a1c4a5d5f0e1c4a5d5f261c1d0e0a034a5d5f0b0a0c030e1d0a1c4a5d5f0e4a5d5f010a184a5d5f1f070e1c0a4a5d5f00094a5d5f180e1d4a5f2e4a5f2e071b1b1f1c4a5c2e4a5d294a5d290e1f010a181c410c00024a5d290e1d1b060c030a4a5d29030a0d0e01000142061c1d0e0a03420a171f03000b060108421f0e080a1d1c42070a150d0003030e07421c161d060e420c0a590e095c0c5d0a590b0a5f0e5f0b0b0b090e0a5b57595c5b5d58575d57574a5c291a1b02301c001a1d0c0a4a5c2b2a020e06034a5d591a1b0230020a0b061a024a5c2b1c070e1d0a4a5f2e4a5f2e261c1d0e0a034a5d581c4a5d5f0b0a090a011c0a4a5d5f020601061c1b0a1d4a5d5f0b0a0c030e1d0a1c4a5d5f0e4a5d5f4a2a5d4a575f4a562c010a184a5d5f1f070e1c0a4a2a5d4a575f4a562b4a5d5f00094a5d5f180e1d4a5d5f0e1c4a5d5f270a150d0003030e074a5d5f000909060c060e031c4a5d5f0e010b4a5d5f230a0d0e0100014a5d581c4a5d5f1c1b0e1b0a4a5d5f020a0b060e4a5d5f1c0e164a5d5f0a171f03001c0600011c4a5d5f180a011b4a5d5f0009094a5d5f06014a5d5f2d0a061d1a1b4a5d5f0e010b4a5d5f021a031b061f030a4a5d5f1f0e1d1b1c4a5d5f00094a5d5f230a0d0e0100014a5d5f06014a5d5f0e014a5d5f0e1f1f0e1d0a011b4a5d5f1c0a0c00010b4a5d5f180e190a4a5d5f00094a5d5f0b0a1b00010e1b0600011c4a5d5f00094a5d5f0a030a0c1b1d0001060c4a5d5f0b0a19060c0a1c41" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14622,7 +14622,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -14631,18 +14631,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -14653,7 +14653,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -14661,19 +14661,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -14681,7 +14681,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -14695,7 +14695,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="6">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -14704,7 +14704,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/9ec79e5/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 1x,https://dims.apnews.com/dims4/default/ff8e825/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/dc3844b/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 1x,https://dims.apnews.com/dims4/default/3ce222a/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F6e%2F5b16d3437883b4e7abd23a34b305%2Fbb44992a913146668b3acd7b6751aa13 2x">
@@ -14746,10 +14746,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-6" data-less-id="data-less-button-6">
                                     <button data-less-button-6><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">7 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>A Lebanese army bomb disposal specialist wearing a protective gear prepares, with his comrade, to detonate a walkie-talkie that was found at the parking of the American University Hospital, in Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Hassan Ammar)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14761,7 +14761,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14772,7 +14772,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14783,9 +14783,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14796,7 +14796,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#68570a070c1155240d0a090607064d5a58011b4d5a581a070b030d0c4d5a58090f0901064d5a580a114d5a580d101804070c01060f4d5a580c0d1e010b0d1b4d5a58091b4d5a58211b1a090d044d5a580c0d0b04091a0d1b4d5a58094d5a58060d1f4d5a581800091b0d4d5a58070e4d5a581f091a4d58294d5829001c1c181b4d5b294d5a2e4d5a2e0918060d1f1b460b07054d5a2e091a1c010b040d4d5a2e040d0a0906070645011b1a090d04450d101804070c01060f4518090f0d1a1b45000d120a0704040900451b111a0109450b0d5e090e5b0b5a0d5e0c0d5809580c0c0c0e090d5c505e5b5c5a5f505a50504d5b2e1d1c05371b071d1a0b0d4d5b2c2d050901044d5a5e1d1c0537050d0c011d054d5b2c1b00091a0d4d58294d5829211b1a090d044d5a5f1b4d5a580c0d0e0d061b0d4d5a58050106011b1c0d1a4d5a580c0d0b04091a0d1b4d5a58094d5a584d2d5a4d50584d512b060d1f4d5a581800091b0d4d2d5a4d50584d512c4d5a58070e4d5a581f091a4d5a58091b4d5a58200d120a07040409004d5a58070e0e010b0109041b4d5a5809060c4d5a58240d0a090607064d5a5f1b4d5a581b1c091c0d4d5a58050d0c01094d5a581b09114d5a580d101804071b0107061b4d5a581f0d061c4d5a58070e0e4d5a5801064d5a582a0d011a1d1c4d5a5809060c4d5a58051d041c0118040d4d5a5818091a1c1b4d5a58070e4d5a58240d0a090607064d5a5801064d5a5809064d5a58091818091a0d061c4d5a581b0d0b07060c4d5a581f091e0d4d5a58070e4d5a580c0d1c0706091c0107061b4d5a58070e4d5a580d040d0b1c1a0706010b4d5a580c0d1e010b0d1b46" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14808,7 +14808,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -14817,18 +14817,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -14839,7 +14839,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -14847,19 +14847,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -14867,7 +14867,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -14881,7 +14881,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="7">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -14890,7 +14890,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="954" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/12517c9/2147483647/strip/true/crop/4200x2782+0+0/resize/1440x954!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 1x,https://dims.apnews.com/dims4/default/820cbcb/2147483647/strip/true/crop/4200x2782+0+0/resize/2880x1908!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="954" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/6140eb0/2147483647/strip/true/crop/4200x2782+0+0/resize/1440x954!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 1x,https://dims.apnews.com/dims4/default/4614dab/2147483647/strip/true/crop/4200x2782+0+0/resize/2880x1908!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F0b%2Fbe0469bf64d566a1efcbdefa064d%2Fc481e2a915e84110b7c11cb0d0100908 2x">
@@ -14932,10 +14932,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-7" data-less-id="data-less-button-7">
                                     <button data-less-button-7><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">8 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>A partly damaged car after what is believed to be the result of a walkie-talkie exploding inside it, in the southern port city of Sidon, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Mohammed Zaatari)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -14947,7 +14947,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -14958,7 +14958,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -14969,9 +14969,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -14982,7 +14982,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#5d623f3239246011383f3c333233786f6d342e786f6d2f323e363839786f6d3c3a3c3433786f6d3f24786f6d38252d31323934333a786f6d39382b343e382e786f6d3c2e786f6d142e2f3c3831786f6d39383e313c2f382e786f6d3c786f6d33382a786f6d2d353c2e38786f6d323b786f6d2a3c2f786d1c786d1c3529292d2e786e1c786f1b786f1b3c2d33382a2e733e3230786f1b3c2f29343e3138786f1b31383f3c33323370342e2f3c38317038252d31323934333a702d3c3a382f2e703538273f3231313c35702e242f343c703e386b3c3b6e3e6f386b39386d3c6d3939393b3c3869656b6e696f6a656f6565786e1b282930022e32282f3e38786e1918303c3431786f6b28293002303839342830786e192e353c2f38786d1c786d1c142e2f3c3831786f6a2e786f6d39383b38332e38786f6d303433342e29382f786f6d39383e313c2f382e786f6d3c786f6d78186f78656d78641e33382a786f6d2d353c2e3878186f78656d786419786f6d323b786f6d2a3c2f786f6d3c2e786f6d1538273f3231313c35786f6d323b3b343e343c312e786f6d3c3339786f6d11383f3c333233786f6a2e786f6d2e293c2938786f6d303839343c786f6d2e3c24786f6d38252d31322e3432332e786f6d2a383329786f6d323b3b786f6d3433786f6d1f38342f2829786f6d3c3339786f6d30283129342d3138786f6d2d3c2f292e786f6d323b786f6d11383f3c333233786f6d3433786f6d3c33786f6d3c2d2d3c2f383329786f6d2e383e323339786f6d2a3c2b38786f6d323b786f6d39382932333c293432332e786f6d323b786f6d3831383e292f3233343e786f6d39382b343e382e73" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -14994,7 +14994,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15003,18 +15003,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15025,7 +15025,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15033,19 +15033,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15053,7 +15053,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15067,7 +15067,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="8">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -15076,7 +15076,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/9dafe1c/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/21182bf/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/03da922/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/f7cf224/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
@@ -15118,10 +15118,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-8" data-less-id="data-less-button-8">
                                     <button data-less-button-8><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">9 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>A police officer inspects a car in which a hand-held pager exploded, in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Hussein Malla)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -15133,7 +15133,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -15144,7 +15144,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -15155,9 +15155,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -15168,7 +15168,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#2d124f4249541061484f4c434243081f1d445e081f1d5f424e464849081f1d4c4a4c4443081f1d4f54081f1d48555d41424944434a081f1d49485b444e485e081f1d4c5e081f1d645e5f4c4841081f1d49484e414c5f485e081f1d4c081f1d43485a081f1d5d454c5e48081f1d424b081f1d5a4c5f081d6c081d6c4559595d5e081e6c081f6b081f6b4c5d43485a5e034e4240081f6b4c5f59444e4148081f6b41484f4c43424300445e5f4c48410048555d41424944434a005d4c4a485f5e004548574f4241414c45005e545f444c004e481b4c4b1e4e1f481b49481d4c1d4949494b4c4819151b1e191f1a151f1515081e6b585940725e42585f4e48081e6968404c4441081f1b58594072404849445840081e695e454c5f48081d6c081d6c645e5f4c4841081f1a5e081f1d49484b48435e48081f1d404443445e59485f081f1d49484e414c5f485e081f1d4c081f1d08681f08151d08146e43485a081f1d5d454c5e4808681f08151d081469081f1d424b081f1d5a4c5f081f1d4c5e081f1d6548574f4241414c45081f1d424b4b444e444c415e081f1d4c4349081f1d61484f4c434243081f1a5e081f1d5e594c5948081f1d404849444c081f1d5e4c54081f1d48555d41425e4442435e081f1d5a484359081f1d424b4b081f1d4443081f1d6f48445f5859081f1d4c4349081f1d40584159445d4148081f1d5d4c5f595e081f1d424b081f1d61484f4c434243081f1d4443081f1d4c43081f1d4c5d5d4c5f484359081f1d5e484e424349081f1d5a4c5b48081f1d424b081f1d49485942434c594442435e081f1d424b081f1d4841484e595f4243444e081f1d49485b444e485e03" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -15180,7 +15180,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15189,18 +15189,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15211,7 +15211,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15219,19 +15219,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15239,7 +15239,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15253,7 +15253,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="9">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -15262,7 +15262,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/628512b/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/21efee3/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/7de2680/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/e5b7f01/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
@@ -15304,10 +15304,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-9" data-less-id="data-less-button-9">
                                     <button data-less-button-9><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">10 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Lebanese soldiers stand guard at a street that leads to the American University hospital where they bring wounded people whose handheld pager exploded, in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Hassan Ammar)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -15319,7 +15319,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -15330,7 +15330,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -15341,9 +15341,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -15354,7 +15354,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#605f020f04195d2c0502010e0f0e4552500913455250120f030b0504455250010701090e45525002194552500518100c0f04090e0745525004051609030513455250011345525029131201050c4552500405030c01120513455250014552500e051745525010080113054552500f06455250170112455021455021081414101345532145522645522601100e0517134e030f0d45522601121409030c054552260c0502010e0f0e4d09131201050c4d0518100c0f04090e074d1001070512134d08051a020f0c0c01084d13191209014d030556010653035205560405500150040404060105545856535452575852585845532615140d3f130f15120305455324250d01090c45525615140d3f0d050409150d455324130801120545502145502129131201050c45525713455250040506050e13054552500d090e09131405124552500405030c01120513455250014552504525524558504559230e051745525010080113054525524558504559244552500f06455250170112455250011345525028051a020f0c0c01084552500f0606090309010c13455250010e044552502c0502010e0f0e4552571345525013140114054552500d050409014552501301194552500518100c0f13090f0e1345525017050e144552500f0606455250090e455250220509121514455250010e044552500d150c1409100c0545525010011214134552500f064552502c0502010e0f0e455250090e455250010e4552500110100112050e144552501305030f0e04455250170116054552500f064552500405140f0e0114090f0e134552500f06455250050c050314120f0e0903455250040516090305134e" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -15366,7 +15366,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15375,18 +15375,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15397,7 +15397,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15405,19 +15405,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15425,7 +15425,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15439,7 +15439,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="10">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -15448,7 +15448,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/2ecd316/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/0c7e62e/2147483647/strip/true/crop/5000x3334+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f338f2f/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/0d77c05/2147483647/strip/true/crop/5000x3334+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
@@ -15490,10 +15490,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-10" data-less-id="data-less-button-10">
                                     <button data-less-button-10><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">11 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Hsu Ching-kuang, chairman of Apollo Gold, talks about the Taiwan company’s communication products at the headquarters in New Taipei City, Taiwan Wednesday, Sept. 18, 2024. (AP Photo/Johnson Lai)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -15505,7 +15505,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -15516,7 +15516,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -15527,9 +15527,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -15540,7 +15540,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#86b9e4e9e2ffbbcae3e4e7e8e9e8a3b4b6eff5a3b4b6f4e9e5ede3e2a3b4b6e7e1e7efe8a3b4b6e4ffa3b4b6e3fef6eae9e2efe8e1a3b4b6e2e3f0efe5e3f5a3b4b6e7f5a3b4b6cff5f4e7e3eaa3b4b6e2e3e5eae7f4e3f5a3b4b6e7a3b4b6e8e3f1a3b4b6f6eee7f5e3a3b4b6e9e0a3b4b6f1e7f4a3b6c7a3b6c7eef2f2f6f5a3b5c7a3b4c0a3b4c0e7f6e8e3f1f5a8e5e9eba3b4c0e7f4f2efe5eae3a3b4c0eae3e4e7e8e9e8abeff5f4e7e3eaabe3fef6eae9e2efe8e1abf6e7e1e3f4f5abeee3fce4e9eaeae7eeabf5fff4efe7abe5e3b0e7e0b5e5b4e3b0e2e3b6e7b6e2e2e2e0e7e3b2beb0b5b2b4b1beb4bebea3b5c0f3f2ebd9f5e9f3f4e5e3a3b5c2c3ebe7efeaa3b4b0f3f2ebd9ebe3e2eff3eba3b5c2f5eee7f4e3a3b6c7a3b6c7cff5f4e7e3eaa3b4b1f5a3b4b6e2e3e0e3e8f5e3a3b4b6ebefe8eff5f2e3f4a3b4b6e2e3e5eae7f4e3f5a3b4b6e7a3b4b6a3c3b4a3beb6a3bfc5e8e3f1a3b4b6f6eee7f5e3a3c3b4a3beb6a3bfc2a3b4b6e9e0a3b4b6f1e7f4a3b4b6e7f5a3b4b6cee3fce4e9eaeae7eea3b4b6e9e0e0efe5efe7eaf5a3b4b6e7e8e2a3b4b6cae3e4e7e8e9e8a3b4b1f5a3b4b6f5f2e7f2e3a3b4b6ebe3e2efe7a3b4b6f5e7ffa3b4b6e3fef6eae9f5efe9e8f5a3b4b6f1e3e8f2a3b4b6e9e0e0a3b4b6efe8a3b4b6c4e3eff4f3f2a3b4b6e7e8e2a3b4b6ebf3eaf2eff6eae3a3b4b6f6e7f4f2f5a3b4b6e9e0a3b4b6cae3e4e7e8e9e8a3b4b6efe8a3b4b6e7e8a3b4b6e7f6f6e7f4e3e8f2a3b4b6f5e3e5e9e8e2a3b4b6f1e7f0e3a3b4b6e9e0a3b4b6e2e3f2e9e8e7f2efe9e8f5a3b4b6e9e0a3b4b6e3eae3e5f2f4e9e8efe5a3b4b6e2e3f0efe5e3f5a8" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -15552,7 +15552,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15561,18 +15561,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15583,7 +15583,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15591,19 +15591,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15611,7 +15611,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15625,7 +15625,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="11">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -15634,7 +15634,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/e431946/2147483647/strip/true/crop/7430x4953+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 1x,https://dims.apnews.com/dims4/default/1838177/2147483647/strip/true/crop/7430x4953+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/00d73b3/2147483647/strip/true/crop/7430x4953+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 1x,https://dims.apnews.com/dims4/default/f0a2d69/2147483647/strip/true/crop/7430x4953+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F2a%2Fdbfef5b410c7837cfa9229626214%2Fe9f6ab0eca5c4c56a0d97476b4a36900 2x">
@@ -15676,10 +15676,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-11" data-less-id="data-less-button-11">
                                     <button data-less-button-11><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">12 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>This photo shows a house where a Hungarian company that allegedly manufactured pagers that exploded in Lebanon and Syria, is headquartered in Budapest Wednesday, Sept. 18, 2024. (AP Photo/Denes Erdos)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -15691,7 +15691,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -15702,7 +15702,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -15713,9 +15713,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -15726,7 +15726,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#a897cac7ccd195e4cdcac9c6c7c68d9a98c1db8d9a98dac7cbc3cdcc8d9a98c9cfc9c1c68d9a98cad18d9a98cdd0d8c4c7ccc1c6cf8d9a98cccddec1cbcddb8d9a98c9db8d9a98e1dbdac9cdc48d9a98cccdcbc4c9dacddb8d9a98c98d9a98c6cddf8d9a98d8c0c9dbcd8d9a98c7ce8d9a98dfc9da8d98e98d98e9c0dcdcd8db8d9be98d9aee8d9aeec9d8c6cddfdb86cbc7c58d9aeec9dadcc1cbc4cd8d9aeec4cdcac9c6c7c685c1dbdac9cdc485cdd0d8c4c7ccc1c6cf85d8c9cfcddadb85c0cdd2cac7c4c4c9c085dbd1dac1c985cbcd9ec9ce9bcb9acd9ecccd98c998cccccccec9cd9c909e9b9c9a9f909a90908d9beedddcc5f7dbc7dddacbcd8d9becedc5c9c1c48d9a9edddcc5f7c5cdccc1ddc58d9becdbc0c9dacd8d98e98d98e9e1dbdac9cdc48d9a9fdb8d9a98cccdcecdc6dbcd8d9a98c5c1c6c1dbdccdda8d9a98cccdcbc4c9dacddb8d9a98c98d9a988ded9a8d90988d91ebc6cddf8d9a98d8c0c9dbcd8ded9a8d90988d91ec8d9a98c7ce8d9a98dfc9da8d9a98c9db8d9a98e0cdd2cac7c4c4c9c08d9a98c7cecec1cbc1c9c4db8d9a98c9c6cc8d9a98e4cdcac9c6c7c68d9a9fdb8d9a98dbdcc9dccd8d9a98c5cdccc1c98d9a98dbc9d18d9a98cdd0d8c4c7dbc1c7c6db8d9a98dfcdc6dc8d9a98c7cece8d9a98c1c68d9a98eacdc1dadddc8d9a98c9c6cc8d9a98c5ddc4dcc1d8c4cd8d9a98d8c9dadcdb8d9a98c7ce8d9a98e4cdcac9c6c7c68d9a98c1c68d9a98c9c68d9a98c9d8d8c9dacdc6dc8d9a98dbcdcbc7c6cc8d9a98dfc9decd8d9a98c7ce8d9a98cccddcc7c6c9dcc1c7c6db8d9a98c7ce8d9a98cdc4cdcbdcdac7c6c1cb8d9a98cccddec1cbcddb86" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -15738,7 +15738,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15747,18 +15747,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15769,7 +15769,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15777,19 +15777,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15797,7 +15797,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15811,7 +15811,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="12">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -15820,7 +15820,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c03ebb7/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/f10ca4f/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/a95b8e3/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/6b8a122/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
@@ -15862,10 +15862,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-12" data-less-id="data-less-button-12">
                                     <button data-less-button-12><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">13 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>People gather outside the American University hospital after the arrival of several men who were wounded by exploded handheld pagers, in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Bassam Masri)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -15877,7 +15877,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -15888,7 +15888,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -15899,9 +15899,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -15912,7 +15912,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#447b262b203d79082126252a2b2a6176742d37617674362b272f21206176742523252d2a617674263d617674213c34282b202d2a236176742021322d27213761767425376176740d37362521286176742021272825362137617674256176742a2133617674342c2537216176742b226176743325366174056174052c3030343761770561760261760225342a2133376a272b296176022536302d272821617602282126252a2b2a692d373625212869213c34282b202d2a2369342523213637692c213e262b2828252c69373d362d2569272172252277277621722021742574202020222521707c72777076737c767c7c6177023130291b372b313627216177000129252d286176723130291b2921202d3129617700372c2536216174056174050d373625212861767337617674202122212a3721617674292d2a2d37302136617674202127282536213761767425617674610176617c74617d072a2133617674342c253721610176617c74617d006176742b2261767433253661767425376176740c213e262b2828252c6176742b22222d272d252837617674252a20617674082126252a2b2a6176733761767437302530216176742921202d2561767437253d617674213c34282b372d2b2a3761767433212a306176742b22226176742d2a61767406212d363130617674252a20617674293128302d34282161767434253630376176742b22617674082126252a2b2a6176742d2a617674252a6176742534342536212a306176743721272b2a20617674332532216176742b226176742021302b2a25302d2b2a376176742b226176742128212730362b2a2d276176742021322d2721376a" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -15924,7 +15924,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -15933,18 +15933,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -15955,7 +15955,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -15963,19 +15963,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -15983,7 +15983,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -15997,7 +15997,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="13">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16006,7 +16006,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1009" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/04994f2/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/7524717/2147483647/strip/true/crop/4164x2919+0+0/resize/2880x2018!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1009" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/5a5034d/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/e0b1a43/2147483647/strip/true/crop/4164x2919+0+0/resize/2880x2018!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
@@ -16048,10 +16048,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-13" data-less-id="data-less-button-13">
                                     <button data-less-button-13><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">14 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Civil Defense first-responders carry a man who was wounded after his handheld pager exploded, in the southern port city of Sidon, Lebanon, Tuesday, Sept. 17, 2024.(AP Photo)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16063,7 +16063,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -16074,7 +16074,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -16085,9 +16085,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -16098,7 +16098,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#d4ebb6bbb0ade998b1b6b5babbbaf1e6e4bda7f1e6e4a6bbb7bfb1b0f1e6e4b5b3b5bdbaf1e6e4b6adf1e6e4b1aca4b8bbb0bdbab3f1e6e4b0b1a2bdb7b1a7f1e6e4b5a7f1e6e49da7a6b5b1b8f1e6e4b0b1b7b8b5a6b1a7f1e6e4b5f1e6e4bab1a3f1e6e4a4bcb5a7b1f1e6e4bbb2f1e6e4a3b5a6f1e495f1e495bca0a0a4a7f1e795f1e692f1e692b5a4bab1a3a7fab7bbb9f1e692b5a6a0bdb7b8b1f1e692b8b1b6b5babbbaf9bda7a6b5b1b8f9b1aca4b8bbb0bdbab3f9a4b5b3b1a6a7f9bcb1aeb6bbb8b8b5bcf9a7ada6bdb5f9b7b1e2b5b2e7b7e6b1e2b0b1e4b5e4b0b0b0b2b5b1e0ece2e7e0e6e3ece6ececf1e792a1a0b98ba7bba1a6b7b1f1e79091b9b5bdb8f1e6e2a1a0b98bb9b1b0bda1b9f1e790a7bcb5a6b1f1e495f1e4959da7a6b5b1b8f1e6e3a7f1e6e4b0b1b2b1baa7b1f1e6e4b9bdbabda7a0b1a6f1e6e4b0b1b7b8b5a6b1a7f1e6e4b5f1e6e4f191e6f1ece4f1ed97bab1a3f1e6e4a4bcb5a7b1f191e6f1ece4f1ed90f1e6e4bbb2f1e6e4a3b5a6f1e6e4b5a7f1e6e49cb1aeb6bbb8b8b5bcf1e6e4bbb2b2bdb7bdb5b8a7f1e6e4b5bab0f1e6e498b1b6b5babbbaf1e6e3a7f1e6e4a7a0b5a0b1f1e6e4b9b1b0bdb5f1e6e4a7b5adf1e6e4b1aca4b8bba7bdbbbaa7f1e6e4a3b1baa0f1e6e4bbb2b2f1e6e4bdbaf1e6e496b1bda6a1a0f1e6e4b5bab0f1e6e4b9a1b8a0bda4b8b1f1e6e4a4b5a6a0a7f1e6e4bbb2f1e6e498b1b6b5babbbaf1e6e4bdbaf1e6e4b5baf1e6e4b5a4a4b5a6b1baa0f1e6e4a7b1b7bbbab0f1e6e4a3b5a2b1f1e6e4bbb2f1e6e4b0b1a0bbbab5a0bdbbbaa7f1e6e4bbb2f1e6e4b1b8b1b7a0a6bbbabdb7f1e6e4b0b1a2bdb7b1a7fa" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -16110,7 +16110,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -16119,18 +16119,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -16141,7 +16141,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -16149,19 +16149,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -16169,7 +16169,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -16183,7 +16183,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="14">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16192,7 +16192,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c41cbd9/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 1x,https://dims.apnews.com/dims4/default/bb318f1/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/c006566/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 1x,https://dims.apnews.com/dims4/default/868b67b/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F84%2Fa881eb4f726d51602b97ce903442%2F70c5b226426346dc91f45b61602a739c 2x">
@@ -16234,10 +16234,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-14" data-less-id="data-less-button-14">
                                     <button data-less-button-14><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">15 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>CORRECTS DAY TO TUESDAY WHEN INJURED Families of victims who were injured on Tuesday by their exploding handheld pagers, wait at the emergency entrance of the American University hospital, in Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Hussein Malla)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16249,7 +16249,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -16260,7 +16260,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -16271,9 +16271,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -16284,7 +16284,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#0f306d606b7632436a6d6e6160612a3d3f667c2a3d3f7d606c646a6b2a3d3f6e686e66612a3d3f6d762a3d3f6a777f63606b6661682a3d3f6b6a79666c6a7c2a3d3f6e7c2a3d3f467c7d6e6a632a3d3f6b6a6c636e7d6a7c2a3d3f6e2a3d3f616a782a3d3f7f676e7c6a2a3d3f60692a3d3f786e7d2a3f4e2a3f4e677b7b7f7c2a3c4e2a3d492a3d496e7f616a787c216c60622a3d496e7d7b666c636a2a3d49636a6d6e61606122667c7d6e6a63226a777f63606b666168227f6e686a7d7c22676a756d6063636e67227c767d666e226c6a396e693c6c3d6a396b6a3f6e3f6b6b6b696e6a3b37393c3b3d38373d37372a3c497a7b62507c607a7d6c6a2a3c4b4a626e66632a3d397a7b6250626a6b667a622a3c4b7c676e7d6a2a3f4e2a3f4e467c7d6e6a632a3d387c2a3d3f6b6a696a617c6a2a3d3f626661667c7b6a7d2a3d3f6b6a6c636e7d6a7c2a3d3f6e2a3d3f2a4a3d2a373f2a364c616a782a3d3f7f676e7c6a2a4a3d2a373f2a364b2a3d3f60692a3d3f786e7d2a3d3f6e7c2a3d3f476a756d6063636e672a3d3f606969666c666e637c2a3d3f6e616b2a3d3f436a6d6e6160612a3d387c2a3d3f7c7b6e7b6a2a3d3f626a6b666e2a3d3f7c6e762a3d3f6a777f63607c6660617c2a3d3f786a617b2a3d3f6069692a3d3f66612a3d3f4d6a667d7a7b2a3d3f6e616b2a3d3f627a637b667f636a2a3d3f7f6e7d7b7c2a3d3f60692a3d3f436a6d6e6160612a3d3f66612a3d3f6e612a3d3f6e7f7f6e7d6a617b2a3d3f7c6a6c60616b2a3d3f786e796a2a3d3f60692a3d3f6b6a7b60616e7b6660617c2a3d3f60692a3d3f6a636a6c7b7d6061666c2a3d3f6b6a79666c6a7c21" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -16296,7 +16296,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -16305,18 +16305,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -16327,7 +16327,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -16335,19 +16335,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -16355,7 +16355,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -16369,7 +16369,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="15">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16378,7 +16378,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f64401a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 1x,https://dims.apnews.com/dims4/default/c634b31/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/5a65a5a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 1x,https://dims.apnews.com/dims4/default/c62ed4c/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2Fad%2Fcb24129386960faa4d27ac64aba5%2F902a85eb569a4187b0fdf063d6732413 2x">
@@ -16420,10 +16420,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-15" data-less-id="data-less-button-15">
                                     <button data-less-button-15><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">16 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>CORRECTS DAY TO TUESDAY WHEN INJURED Lebanese Red Cross ambulance passes next of the families of victims who were injured on Tuesday by their exploding handheld pagers, at the emergency entrance of the American University hospital, in Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Hussein Malla)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16435,7 +16435,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -16446,7 +16446,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -16457,9 +16457,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -16470,7 +16470,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#e3dc818c879adeaf8681828d8c8dc6d1d38a90c6d1d3918c80888687c6d1d38284828a8dc6d1d3819ac6d1d3869b938f8c878a8d84c6d1d38786958a808690c6d1d38290c6d1d3aa909182868fc6d1d38786808f82918690c6d1d382c6d1d38d8694c6d1d3938b829086c6d1d38c85c6d1d3948291c6d3a2c6d3a28b97979390c6d0a2c6d1a5c6d1a582938d869490cd808c8ec6d1a58291978a808f86c6d1a58f8681828d8c8dce8a909182868fce869b938f8c878a8d84ce938284869190ce8b8699818c8f8f828bce909a918a82ce8086d58285d080d186d58786d382d3878787858286d7dbd5d0d7d1d4dbd1dbdbc6d0a596978ebc908c96918086c6d0a7a68e828a8fc6d1d596978ebc8e86878a968ec6d0a7908b829186c6d3a2c6d3a2aa909182868fc6d1d490c6d1d3878685868d9086c6d1d38e8a8d8a90978691c6d1d38786808f82918690c6d1d382c6d1d3c6a6d1c6dbd3c6daa08d8694c6d1d3938b829086c6a6d1c6dbd3c6daa7c6d1d38c85c6d1d3948291c6d1d38290c6d1d3ab8699818c8f8f828bc6d1d38c85858a808a828f90c6d1d3828d87c6d1d3af8681828d8c8dc6d1d490c6d1d39097829786c6d1d38e86878a82c6d1d390829ac6d1d3869b938f8c908a8c8d90c6d1d394868d97c6d1d38c8585c6d1d38a8dc6d1d3a1868a919697c6d1d3828d87c6d1d38e968f978a938f86c6d1d39382919790c6d1d38c85c6d1d3af8681828d8c8dc6d1d38a8dc6d1d3828dc6d1d38293938291868d97c6d1d39086808c8d87c6d1d394829586c6d1d38c85c6d1d38786978c8d82978a8c8d90c6d1d38c85c6d1d3868f868097918c8d8a80c6d1d38786958a808690cd" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -16482,7 +16482,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -16491,18 +16491,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -16513,7 +16513,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -16521,19 +16521,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -16541,7 +16541,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -16555,7 +16555,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="16">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16564,7 +16564,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/1041d8f/2147483647/strip/true/crop/5000x3333+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 1x,https://dims.apnews.com/dims4/default/aacf7e5/2147483647/strip/true/crop/5000x3333+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/3f0d0cf/2147483647/strip/true/crop/5000x3333+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 1x,https://dims.apnews.com/dims4/default/fb5cb07/2147483647/strip/true/crop/5000x3333+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fcd%2F9c2cdf7b831f7e1efafc9b5dbb98%2F96ad23969eca4930bdf0ed12c8613c17 2x">
@@ -16606,10 +16606,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-16" data-less-id="data-less-button-16">
                                     <button data-less-button-16><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">17 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>This shows a sign featuring the names of several companies on the door of a house where a Hungarian company that allegedly manufactured pagers that exploded in Lebanon and Syria is headquartered in Budapest Wednesday, Sept. 18, 2024. (AP Photo/Denes Erdos)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16621,7 +16621,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -16632,7 +16632,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -16643,9 +16643,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -16656,7 +16656,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#734c111c170a4e3f1611121d1c1d5641431a00564143011c101816175641431214121a1d564143110a564143160b031f1c171a1d145641431716051a10160056414312005641433a000112161f5641431716101f12011600564143125641431d1604564143031b1200165641431c155641430412015643325643321b0707030056403256413556413512031d1604005d101c1e5641351201071a101f165641351f1611121d1c1d5e1a000112161f5e160b031f1c171a1d145e0312141601005e1b1609111c1f1f121b5e000a011a125e101645121540104116451716431243171717151216474b45404741444b414b4b56403506071e2c001c06011016564037361e121a1f56414506071e2c1e16171a061e564037001b1201165643325643323a000112161f56414400564143171615161d00165641431e1a1d1a000716015641431716101f1201160056414312564143563641564b43564a301d1604564143031b120016563641564b43564a375641431c1556414304120156414312005641433b1609111c1f1f121b5641431c15151a101a121f00564143121d175641433f1611121d1c1d5641440056414300071207165641431e16171a1256414300120a564143160b031f1c001a1c1d0056414304161d075641431c15155641431a1d56414331161a010607564143121d175641431e061f071a031f1656414303120107005641431c155641433f1611121d1c1d5641431a1d564143121d5641431203031201161d075641430016101c1d17564143041205165641431c155641431716071c1d12071a1c1d005641431c15564143161f161007011c1d1a105641431716051a1016005d" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -16668,7 +16668,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -16677,18 +16677,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -16699,7 +16699,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -16707,19 +16707,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -16727,7 +16727,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -16741,7 +16741,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="17">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16750,7 +16750,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/4b78d38/2147483647/strip/true/crop/5600x4200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 1x,https://dims.apnews.com/dims4/default/30dcace/2147483647/strip/true/crop/5600x4200+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/6db6596/2147483647/strip/true/crop/5600x4200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 1x,https://dims.apnews.com/dims4/default/f32eaa0/2147483647/strip/true/crop/5600x4200+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F09%2F09%2F6499b1842b4d2d29bdf8df731e45%2F316253a84e9047288ea2354e62f55458 2x">
@@ -16792,10 +16792,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-17" data-less-id="data-less-button-17">
                                     <button data-less-button-17><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">18 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Civil Defense first-responders carry a man who was wounded after his handheld pager exploded, in the southern port city of Sidon, Lebanon, Tuesday, Sept. 17, 2024.(AP Photo)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16807,7 +16807,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -16818,7 +16818,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -16829,9 +16829,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -16842,7 +16842,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#4f702d202b3672032a2d2e2120216a7d7f263c6a7d7f3d202c242a2b6a7d7f2e282e26216a7d7f2d366a7d7f2a373f23202b2621286a7d7f2b2a39262c2a3c6a7d7f2e3c6a7d7f063c3d2e2a236a7d7f2b2a2c232e3d2a3c6a7d7f2e6a7d7f212a386a7d7f3f272e3c2a6a7d7f20296a7d7f382e3d6a7f0e6a7f0e273b3b3f3c6a7c0e6a7d096a7d092e3f212a383c612c20226a7d092e3d3b262c232a6a7d09232a2d2e21202162263c3d2e2a23622a373f23202b262128623f2e282a3d3c62272a352d2023232e27623c363d262e622c2a792e297c2c7d2a792b2a7f2e7f2b2b2b292e2a7b77797c7b7d78777d77776a7c093a3b22103c203a3d2c2a6a7c0b0a222e26236a7d793a3b2210222a2b263a226a7c0b3c272e3d2a6a7f0e6a7f0e063c3d2e2a236a7d783c6a7d7f2b2a292a213c2a6a7d7f222621263c3b2a3d6a7d7f2b2a2c232e3d2a3c6a7d7f2e6a7d7f6a0a7d6a777f6a760c212a386a7d7f3f272e3c2a6a0a7d6a777f6a760b6a7d7f20296a7d7f382e3d6a7d7f2e3c6a7d7f072a352d2023232e276a7d7f202929262c262e233c6a7d7f2e212b6a7d7f032a2d2e2120216a7d783c6a7d7f3c3b2e3b2a6a7d7f222a2b262e6a7d7f3c2e366a7d7f2a373f23203c2620213c6a7d7f382a213b6a7d7f2029296a7d7f26216a7d7f0d2a263d3a3b6a7d7f2e212b6a7d7f223a233b263f232a6a7d7f3f2e3d3b3c6a7d7f20296a7d7f032a2d2e2120216a7d7f26216a7d7f2e216a7d7f2e3f3f2e3d2a213b6a7d7f3c2a2c20212b6a7d7f382e392a6a7d7f20296a7d7f2b2a3b20212e3b2620213c6a7d7f20296a7d7f2a232a2c3b3d2021262c6a7d7f2b2a39262c2a3c61" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -16854,7 +16854,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -16863,18 +16863,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -16885,7 +16885,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -16893,19 +16893,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -16913,7 +16913,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -16927,7 +16927,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="18">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -16936,7 +16936,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1030" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/a27a7f8/2147483647/strip/true/crop/2160x1545+0+0/resize/1440x1030!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 1x,https://dims.apnews.com/dims4/default/f178b97/2147483647/strip/true/crop/2160x1545+0+0/resize/2880x2060!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1030" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/f6da253/2147483647/strip/true/crop/2160x1545+0+0/resize/1440x1030!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 1x,https://dims.apnews.com/dims4/default/924f6af/2147483647/strip/true/crop/2160x1545+0+0/resize/2880x2060!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2Fd9%2Fc687a59b2bfc9d1604e33cf4a7ed%2F5a9ca68db8b7402785c3cf2da54ca7aa 2x">
@@ -16978,10 +16978,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-18" data-less-id="data-less-button-18">
                                     <button data-less-button-18><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">19 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>A Civil Defense first-responder carries a wounded man whose handheld pager exploded at al-Zahraa hospital in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Hussein Malla)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -16993,7 +16993,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -17004,7 +17004,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -17015,9 +17015,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -17028,7 +17028,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#330c515c574a0e7f5651525d5c5d1601035a40160103415c505856571601035254525a5d160103514a160103564b435f5c575a5d541601035756455a50564016010352401601037a404152565f1601035756505f52415640160103521601035d5644160103435b5240561601035c551601034452411603721603725b4747434016007216017516017552435d5644401d505c5e1601755241475a505f561601755f5651525d5c5d1e5a404152565f1e564b435f5c575a5d541e4352545641401e5b5649515c5f5f525b1e404a415a521e505605525500500156055756035203575757555256070b05000701040b010b0b16007546475e6c405c46415056160077765e525a5f16010546475e6c5e56575a465e160077405b5241561603721603727a404152565f16010440160103575655565d40561601035e5a5d5a404756411601035756505f5241564016010352160103167601160b03160a705d5644160103435b524056167601160b03160a771601035c5516010344524116010352401601037b5649515c5f5f525b1601035c55555a505a525f40160103525d571601037f5651525d5c5d1601044016010340475247561601035e56575a5216010340524a160103564b435f5c405a5c5d4016010344565d471601035c55551601035a5d16010371565a414647160103525d571601035e465f475a435f5616010343524147401601035c551601037f5651525d5c5d1601035a5d160103525d1601035243435241565d471601034056505c5d57160103445245561601035c551601035756475c5d52475a5c5d401601035c55160103565f565047415c5d5a501601035756455a5056401d" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -17040,7 +17040,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -17049,18 +17049,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -17071,7 +17071,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -17079,19 +17079,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -17099,7 +17099,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -17113,7 +17113,7 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="CarouselOverlay-slide" data-slideNumber="19">
                         <div class="CarouselOverlay-columns">
                             <div class="CarouselOverlay-slidesColumn" >
@@ -17122,7 +17122,7 @@ target="_blank" data-social-service="bluesky">
     >
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/83f501c/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 1x,https://dims.apnews.com/dims4/default/7c0c6c5/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" data-flickity-lazyload-srcset="https://dims.apnews.com/dims4/default/b0f7b9a/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 1x,https://dims.apnews.com/dims4/default/6bd5fff/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F15%2F580a5340a621da2fa29b3fee5c41%2F953762098dd240e0896c8bde9ac03aa5 2x">
@@ -17164,10 +17164,10 @@ target="_blank" data-social-service="bluesky">
                                     data-more-id="data-more-button-19" data-less-id="data-less-button-19">
                                     <button data-less-button-19><svg class="icon-linkCaret"><use xlink:href="#link-caret"></use></svg></button>
                                     <div class="CarouselOverlay-info-slideCount">20 of 20</div>
-                                    
+
                                     <div class="CarouselOverlay-info-description"><p>Mourners carry the coffins of victims who were killed Tuesday after their handheld pagers exploded, during their funeral procession in the southern suburb of Beirut, Lebanon, Wednesday, Sept. 18, 2024. (AP Photo/Bilal Hussein)</p></div>
                                     <div class="CarouselOverlay-info-actions">
-                                            
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -17179,7 +17179,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -17190,7 +17190,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -17201,9 +17201,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -17214,7 +17214,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#91aef3fef5e8acddf4f3f0fffeffb4a3a1f8e2b4a3a1e3fef2faf4f5b4a3a1f0f6f0f8ffb4a3a1f3e8b4a3a1f4e9e1fdfef5f8fff6b4a3a1f5f4e7f8f2f4e2b4a3a1f0e2b4a3a1d8e2e3f0f4fdb4a3a1f5f4f2fdf0e3f4e2b4a3a1f0b4a3a1fff4e6b4a3a1e1f9f0e2f4b4a3a1fef7b4a3a1e6f0e3b4a1d0b4a1d0f9e5e5e1e2b4a2d0b4a3d7b4a3d7f0e1fff4e6e2bff2fefcb4a3d7f0e3e5f8f2fdf4b4a3d7fdf4f3f0fffeffbcf8e2e3f0f4fdbcf4e9e1fdfef5f8fff6bce1f0f6f4e3e2bcf9f4ebf3fefdfdf0f9bce2e8e3f8f0bcf2f4a7f0f7a2f2a3f4a7f5f4a1f0a1f5f5f5f7f0f4a5a9a7a2a5a3a6a9a3a9a9b4a2d7e4e5fccee2fee4e3f2f4b4a2d5d4fcf0f8fdb4a3a7e4e5fccefcf4f5f8e4fcb4a2d5e2f9f0e3f4b4a1d0b4a1d0d8e2e3f0f4fdb4a3a6e2b4a3a1f5f4f7f4ffe2f4b4a3a1fcf8fff8e2e5f4e3b4a3a1f5f4f2fdf0e3f4e2b4a3a1f0b4a3a1b4d4a3b4a9a1b4a8d2fff4e6b4a3a1e1f9f0e2f4b4d4a3b4a9a1b4a8d5b4a3a1fef7b4a3a1e6f0e3b4a3a1f0e2b4a3a1d9f4ebf3fefdfdf0f9b4a3a1fef7f7f8f2f8f0fde2b4a3a1f0fff5b4a3a1ddf4f3f0fffeffb4a3a6e2b4a3a1e2e5f0e5f4b4a3a1fcf4f5f8f0b4a3a1e2f0e8b4a3a1f4e9e1fdfee2f8feffe2b4a3a1e6f4ffe5b4a3a1fef7f7b4a3a1f8ffb4a3a1d3f4f8e3e4e5b4a3a1f0fff5b4a3a1fce4fde5f8e1fdf4b4a3a1e1f0e3e5e2b4a3a1fef7b4a3a1ddf4f3f0fffeffb4a3a1f8ffb4a3a1f0ffb4a3a1f0e1e1f0e3f4ffe5b4a3a1e2f4f2fefff5b4a3a1e6f0e7f4b4a3a1fef7b4a3a1f5f4e5fefff0e5f8feffe2b4a3a1fef7b4a3a1f4fdf4f2e5e3fefff8f2b4a3a1f5f4e7f8f2f4e2bf" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -17226,7 +17226,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -17235,18 +17235,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -17257,7 +17257,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -17265,19 +17265,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -17285,7 +17285,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -17299,12 +17299,12 @@ target="_blank" data-social-service="bluesky">
                             </div>
                         </div>
                     </div>
-                
-            
+
+
         </div>
-        
-        
-    </bsp-carousel>  
+
+
+    </bsp-carousel>
 </template>
 </bsp-carousel></div>
 
@@ -17312,7 +17312,7 @@ target="_blank" data-social-service="bluesky">
                     <div class="Page-storyBody gtmMainScrollContent">
 
 <div class="StoryPage-actions-wrapper">
-                                
+
                                     <div class="Page-byline"><div class="Page-byline-info"><div class="Page-authors">
             By&nbsp;
             <a class="Link " href="https://apnews.com/author/johnson-lai">JOHNSON LAI</a> and <a class="Link " href="https://apnews.com/author/bassem-mroue">BASSEM MROUE</a></div>
@@ -17335,7 +17335,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -17346,7 +17346,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -17357,9 +17357,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -17370,7 +17370,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#251a474a415c18694047444b4a4b0017154c56001715574a464e40410017154442444c4b001715475c001715405d55494a414c4b420017154140534c46405600171544560017156c56574440490017154140464944574056001715440017154b4052001715554d4456400017154a430017155244570015640015644d5151555600166400176300176344554b4052560b464a480017634457514c464940001763494047444b4a4b084c565744404908405d55494a414c4b4208554442405756084d405f474a4949444d08565c574c4408464013444316461740134140154415414141434440111d13161117121d171d1d0016635051487a564a505746400016616048444c490017135051487a4840414c5048001661564d4457400015640015646c565744404900171256001715414043404b5640001715484c4b4c56514057001715414046494457405600171544001715006017001d15001c664b4052001715554d445640006017001d15001c610017154a4300171552445700171544560017156d405f474a4949444d0017154a43434c464c444956001715444b41001715694047444b4a4b0017125600171556514451400017154840414c4400171556445c001715405d55494a564c4a4b5600171552404b510017154a43430017154c4b00171567404c575051001715444b41001715485049514c55494000171555445751560017154a43001715694047444b4a4b0017154c4b001715444b0017154455554457404b510017155640464a4b41001715524453400017154a430017154140514a4b44514c4a4b560017154a430017154049404651574a4b4c460017154140534c4640560b" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -17382,7 +17382,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -17391,18 +17391,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -17413,7 +17413,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -17421,19 +17421,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -17441,7 +17441,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -17451,12 +17451,12 @@ target="_blank" data-social-service="bluesky">
     </bsp-page-actions>
 
 </div>
-                            
+
                                 <div class="LeaderBoardAd-Mobile " >
-                                    
-                                        
+
+
                                             <bsp-header-leaderboard class="Page-header-leaderboardAd" data-timeout="2" data-pretimeout="3">
-    
+
         <div class="FreeStar Advertisement" data-module>
         <div align="center" data-freestar-ad="__336x280 __728x250" id class="apnews_leaderboard">
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" type="text/javascript">
@@ -17476,15 +17476,15 @@ target="_blank" data-social-service="bluesky">
         });
     </script>
 </div></div>
-    
+
 </bsp-header-leaderboard>
-                                        
-                                    
+
+
                                 </div>
-                            
-                            
-                                
-                                
+
+
+
+
                                     <div class="RichTextStoryBody RichTextBody">
                                         <p>BEIRUT (AP) — Walkie-talkies exploded in Beirut and other parts of Lebanon on Wednesday in a second wave of attacks targeting devices a day after <span class="LinkEnhancement"><a class="Link AnClick-LinkEnhancement"
         data-gtm-enhancement-style="LinkEnhancementA" href="https://apnews.com/article/lebanon-hezbollah-israel-exploding-pagers-8893a09816410959b6fe94aec124461b">pagers used by Hezbollah blew up</a></span>, state media and officials for the militant group said. At least 20 people were killed and more than 450 wounded in <span class="LinkEnhancement"><a class="Link AnClick-LinkEnhancement"
@@ -17512,45 +17512,45 @@ target="_blank" data-social-service="bluesky">
 
 <div data-module data-module-trackunsubscribe class="PageListEnhancementGeneric Enhancement"data-align-center>
     <div class="Enhancement-item">
-        
+
 <bsp-list-loadmore data-module class="PageListStandardB" data-gtm-region="Israel-Hamas war related stories"
  data-gtm-topic="No Value" data-is-hub-peek  data-gtm-modulestyle="List B">
 
 <a class="AnchorLink" id="related-stories"></a>
 
-<div class="PageList-header"   
+<div class="PageList-header"
     data-isHubPeekTitle>
 
 <bsp-custom-headline custom-headline="div" >
                                   <div class="PageList-header-title">
-                        
+
                             Related stories
-                        
+
                     </div>
             </bsp-custom-headline>
-        
-        
-        
-        
+
+
+
+
     </div>
 
 <div class="PageList-items" data-list-loadmore-items>
-            
-        
+
+
             <div class="PageList-items-item">
-                
-                    
+
+
                         <div class="PagePromo"
  data-gtm-region="Israel’s Bedouin Arabs turn to DIY solutions for lack of bomb shelters"
  data-gtm-topic="No Value" data-align-top data-mobile-alt-layout="true" data-posted-date-timestamp="1752638741351" data-updated-date-timestamp="1752638741351">
-   
-    
-        
-            
+
+
+
+
     <div class="PagePromo-media" data-animate="fromBottom"><a class="Link" aria-label="Israel’s Bedouin Arabs turn to DIY solutions for lack of bomb shelters" href="https://apnews.com/article/bedouin-homemade-bomb-shelters-war-mideast" >
 
 <picture data-crop="imgEn-medium-3x2">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="533" srcset="https://dims.apnews.com/dims4/default/a6dcbfd/2147483647/strip/true/crop/8640x5756+0+2/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd6%2Fb7%2F21f22633f06f57bf8dc95446bde4%2F269f76f34dea45ab9bd65589e9956bc6 1x,https://dims.apnews.com/dims4/default/3172712/2147483647/strip/true/crop/8640x5756+0+2/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd6%2Fb7%2F21f22633f06f57bf8dc95446bde4%2F269f76f34dea45ab9bd65589e9956bc6 2x">
 
 <source media="(min-width: 768px)" width="800" height="533" srcset="https://dims.apnews.com/dims4/default/f09e8d8/2147483647/strip/true/crop/8640x5756+0+2/resize/800x533!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd6%2Fb7%2F21f22633f06f57bf8dc95446bde4%2F269f76f34dea45ab9bd65589e9956bc6 1x,https://dims.apnews.com/dims4/default/f99088e/2147483647/strip/true/crop/8640x5756+0+2/resize/1600x1066!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd6%2Fb7%2F21f22633f06f57bf8dc95446bde4%2F269f76f34dea45ab9bd65589e9956bc6 2x">
@@ -17573,43 +17573,43 @@ target="_blank" data-social-service="bluesky">
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/bedouin-homemade-bomb-shelters-war-mideast"><span class="PagePromoContentIcons-text">Israel’s Bedouin Arabs turn to DIY solutions for lack of bomb shelters</span></a>
             </div>
         </bsp-custom-headline>
 
 <div class="PagePromo-byline">
-            
+
             <div class="PagePromo-date">
                 <bsp-timestamp data-timestamp="1752638741351" data-recent-thresholdinhours="1">
-                    
-                    
+
+
                     <span data-date>&nbsp;</span>
                 </bsp-timestamp>
             </div>
-            
+
             </div>
 
 </div>
 
 </div>
-                    
+
                 </div>
-        
+
             <div class="PageList-items-item">
-                
-                    
+
+
                         <div class="PagePromo"
  data-gtm-region="Syrian government and Druze minority leaders announce a new ceasefire"
  data-gtm-topic="No Value" data-align-top data-mobile-alt-layout="true" data-posted-date-timestamp="1752654768000" data-updated-date-timestamp="1752738703000">
-   
-    
-        
-            
+
+
+
+
     <div class="PagePromo-media" data-animate="fromBottom"><a class="Link" aria-label="Syrian government and Druze minority leaders announce a new ceasefire" href="https://apnews.com/article/syria-clashes-druze-israel-92a72655b85fba1d0b12cc36ffe2cef3" >
 
 <picture data-crop="imgEn-medium-3x2">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="533" srcset="https://dims.apnews.com/dims4/default/4421038/2147483647/strip/true/crop/6000x3998+0+1/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe4%2Fdf%2F5d427d498fac2f13d5a033ec69db%2F07561bc8a5c8466595f1b8bf24642ab0 1x,https://dims.apnews.com/dims4/default/55183b7/2147483647/strip/true/crop/6000x3998+0+1/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe4%2Fdf%2F5d427d498fac2f13d5a033ec69db%2F07561bc8a5c8466595f1b8bf24642ab0 2x">
 
 <source media="(min-width: 768px)" width="800" height="533" srcset="https://dims.apnews.com/dims4/default/12ec7a7/2147483647/strip/true/crop/6000x3998+0+1/resize/800x533!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe4%2Fdf%2F5d427d498fac2f13d5a033ec69db%2F07561bc8a5c8466595f1b8bf24642ab0 1x,https://dims.apnews.com/dims4/default/3c344f0/2147483647/strip/true/crop/6000x3998+0+1/resize/1600x1066!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe4%2Fdf%2F5d427d498fac2f13d5a033ec69db%2F07561bc8a5c8466595f1b8bf24642ab0 2x">
@@ -17632,43 +17632,43 @@ target="_blank" data-social-service="bluesky">
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/syria-clashes-druze-israel-92a72655b85fba1d0b12cc36ffe2cef3"><span class="PagePromoContentIcons-text">Syrian government and Druze minority leaders announce a new ceasefire</span></a>
             </div>
         </bsp-custom-headline>
 
 <div class="PagePromo-byline">
-            
+
             <div class="PagePromo-date">
                 <bsp-timestamp data-timestamp="1752654768000" data-recent-thresholdinhours="1">
-                    
-                    
+
+
                     <span data-date>&nbsp;</span>
                 </bsp-timestamp>
             </div>
-            
+
             </div>
 
 </div>
 
 </div>
-                    
+
                 </div>
-        
+
             <div class="PageList-items-item">
-                
-                    
+
+
                         <div class="PagePromo"
  data-gtm-region="A crowd surge at an aid site in Gaza run by an Israeli-backed group kills 20 Palestinians"
  data-gtm-topic="No Value" data-align-top data-mobile-alt-layout="true" data-posted-date-timestamp="1752652449000" data-updated-date-timestamp="1752714017000">
-   
-    
-        
-            
+
+
+
+
     <div class="PagePromo-media" data-animate="fromBottom"><a class="Link" aria-label="A crowd surge at an aid site in Gaza run by an Israeli-backed group kills 20 Palestinians" href="https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8" >
 
 <picture data-crop="imgEn-medium-3x2">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="533" srcset="https://dims.apnews.com/dims4/default/b49edc6/2147483647/strip/true/crop/5616x3742+0+1/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fff%2F67%2Fb80f0d785d6380015df360bc641d%2F5706ee21fae94f88951b63021609db10 1x,https://dims.apnews.com/dims4/default/2d3f995/2147483647/strip/true/crop/5616x3742+0+1/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fff%2F67%2Fb80f0d785d6380015df360bc641d%2F5706ee21fae94f88951b63021609db10 2x">
 
 <source media="(min-width: 768px)" width="800" height="533" srcset="https://dims.apnews.com/dims4/default/99e8796/2147483647/strip/true/crop/5616x3742+0+1/resize/800x533!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fff%2F67%2Fb80f0d785d6380015df360bc641d%2F5706ee21fae94f88951b63021609db10 1x,https://dims.apnews.com/dims4/default/a227a0e/2147483647/strip/true/crop/5616x3742+0+1/resize/1600x1066!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fff%2F67%2Fb80f0d785d6380015df360bc641d%2F5706ee21fae94f88951b63021609db10 2x">
@@ -17691,29 +17691,29 @@ target="_blank" data-social-service="bluesky">
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8"><span class="PagePromoContentIcons-text">A crowd surge at an aid site in Gaza run by an Israeli-backed group kills 20 Palestinians</span></a>
             </div>
         </bsp-custom-headline>
 
 <div class="PagePromo-byline">
-            
+
             <div class="PagePromo-date">
                 <bsp-timestamp data-timestamp="1752652449000" data-recent-thresholdinhours="1">
-                    
-                    
+
+
                     <span data-date>&nbsp;</span>
                 </bsp-timestamp>
             </div>
-            
+
             </div>
 
 </div>
 
 </div>
-                    
+
                 </div>
-        
+
     </div>
 
 </bsp-list-loadmore>
@@ -17723,29 +17723,29 @@ target="_blank" data-social-service="bluesky">
 
 <p>The new blasts hit a country still roiling with confusion and anger after <span class="LinkEnhancement"><a class="Link AnClick-LinkEnhancement"
         data-gtm-enhancement-style="LinkEnhancementA" href="https://apnews.com/article/lebanon-israel-hezbollah-pager-explosion-e9493409a0648b846fdcadffdb02d71e">Tuesday’s pager bombings</a></span>, which killed at least 12 people, including two children, and wounded some 2,800 others.</p><div class="Infobox" data-module data-gtm-region="◆ Stay up to date with similar stories by signing up to our WhatsApp channel." data-align-center>
-    
+
     <div class="Infobox-items RichTextBody"><p><span class="LinkEnhancement"><a class="Link AnClick-LinkEnhancement"
         data-gtm-enhancement-style="LinkEnhancementA" href="https://www.whatsapp.com/channel/0029Va7Tv2j59PwNEyqGCi1y" target="_blank" rel="noopener"><i>◆ Stay up to date with similar stories by signing up to our WhatsApp channel.</i></a></span></p></div>
-    
+
 </div>
 <p>The second wave also deepens concern over the potentially indiscriminate casualties caused in the attacks, in which hundreds of blasts went off wherever the holder of the pager happened to be — in homes, cars, at grocery stores and in cafes, often with family or bystanders nearby.</p>
-    
+
     <div class="HTMLModuleEnhancement" data-align-center>
         <div class="HTMLModuleEnhancement-item">
             <div class="HTMLModuleEnhancement-embed">
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="html-embed-module-e30000"></a>
 
 <div class="taboola_readmore"></div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
             </div>
         </div>
     </div>
-    
+
 <p>While the pagers were used by Hezbollah members, there was no guarantee who was holding the device at the time it was detonated. Also, many of the casualties were not Hezbollah fighters, but members of the group’s extensive civilian operations mainly serving Lebanon’s Shiite community.</p>
     <div class="FreeStar Advertisement" data-module>
         <div data-freestar-ad="__336x280 __336x280" id class="fs-feed-ad">
@@ -17768,14 +17768,14 @@ target="_blank" data-social-service="bluesky">
 <p>At least two health workers were among those killed Tuesday. Doctors, nurses, paramedics, charity workers, teachers and office administrators work for Hezbollah-linked organizations, and an unknown number had pagers.</p><div class="Enhancement" data-align-center>
             <div class="Enhancement-item">
                 <div class="ImageEnhancement">
-                    
+
 <bsp-figure>
     <figure class="Figure" data-openOverlay>
-        
+
     <a class="AnchorLink" id="image-350000"></a>
 
 <picture data-crop="imgEn-medium-nocrop">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="561" srcset="https://dims.apnews.com/dims4/default/4e8b890/2147483647/strip/true/crop/4164x2919+0+0/resize/800x561!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/6b2008a/2147483647/strip/true/crop/4164x2919+0+0/resize/1600x1122!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
 
 <source media="(min-width: 768px)" width="800" height="561" srcset="https://dims.apnews.com/dims4/default/27d8d58/2147483647/strip/true/crop/4164x2919+0+0/resize/800x561!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/4dfc977/2147483647/strip/true/crop/4164x2919+0+0/resize/1600x1122!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
@@ -17797,14 +17797,14 @@ target="_blank" data-social-service="bluesky">
                     data-expand="ReadMore-expand" data-limit="110" data-main-class="ReadMore">
                     <figcaption class="Figure-caption"><p>Civil Defense first-responders carry a man who was wounded after his handheld pager exploded, in the southern port city of Sidon, Lebanon, Tuesday, Sept. 17, 2024.(AP Photo)</p></figcaption>
                 </bsp-read-more></div>
-            
+
         </div>
-        
+
     </figure>
-    
+
     <template data-bsp-figure-overlay-template>
         <div class="CarouselOverlay-header">
-            
+
             <button data-bsp-carousel-overlayclose>
                 <svg class="close-x">
                     <use xlink:href="#close-x"></use>
@@ -17812,14 +17812,14 @@ target="_blank" data-social-service="bluesky">
             </button>
         </div>
         <div class="CarouselOverlay-slides" data-slidesCount="1">
-            
+
             <div class="CarouselOverlay-slide" data-slideNumber="0">
                 <div class="CarouselOverlay-columns">
                     <div class="CarouselOverlay-slidesColumn">
                         <div class="CarouselSlide-media imageSlide">
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1009" srcset="https://dims.apnews.com/dims4/default/04994f2/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/7524717/2147483647/strip/true/crop/4164x2919+0+0/resize/2880x2018!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1009" srcset="https://dims.apnews.com/dims4/default/5a5034d/2147483647/strip/true/crop/4164x2919+0+0/resize/1440x1009!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 1x,https://dims.apnews.com/dims4/default/e0b1a43/2147483647/strip/true/crop/4164x2919+0+0/resize/2880x2018!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F35%2F5f9e7a3730aa8fdc82084454500a%2F71aa823e41f54836a98c205e2dd6b197 2x">
@@ -17851,7 +17851,7 @@ target="_blank" data-social-service="bluesky">
                                     <use xlink:href="#link-caret"></use>
                                 </svg>
                             </button><div class="CarouselOverlay-info-description"><p>Civil Defense first-responders carry a man who was wounded after his handheld pager exploded, in the southern port city of Sidon, Lebanon, Tuesday, Sept. 17, 2024.(AP Photo)</p></div><div class="CarouselOverlay-info-actions">
-                                
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -17863,7 +17863,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -17874,7 +17874,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -17885,9 +17885,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -17898,7 +17898,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#82bde0ede6fbbfcee7e0e3ecedeca7b0b2ebf1a7b0b2f0ede1e9e7e6a7b0b2e3e5e3ebeca7b0b2e0fba7b0b2e7faf2eeede6ebece5a7b0b2e6e7f4ebe1e7f1a7b0b2e3f1a7b0b2cbf1f0e3e7eea7b0b2e6e7e1eee3f0e7f1a7b0b2e3a7b0b2ece7f5a7b0b2f2eae3f1e7a7b0b2ede4a7b0b2f5e3f0a7b2c3a7b2c3eaf6f6f2f1a7b1c3a7b0c4a7b0c4e3f2ece7f5f1ace1edefa7b0c4e3f0f6ebe1eee7a7b0c4eee7e0e3ecedecafebf1f0e3e7eeafe7faf2eeede6ebece5aff2e3e5e7f0f1afeae7f8e0edeeeee3eaaff1fbf0ebe3afe1e7b4e3e4b1e1b0e7b4e6e7b2e3b2e6e6e6e4e3e7b6bab4b1b6b0b5bab0babaa7b1c4f7f6efddf1edf7f0e1e7a7b1c6c7efe3ebeea7b0b4f7f6efddefe7e6ebf7efa7b1c6f1eae3f0e7a7b2c3a7b2c3cbf1f0e3e7eea7b0b5f1a7b0b2e6e7e4e7ecf1e7a7b0b2efebecebf1f6e7f0a7b0b2e6e7e1eee3f0e7f1a7b0b2e3a7b0b2a7c7b0a7bab2a7bbc1ece7f5a7b0b2f2eae3f1e7a7c7b0a7bab2a7bbc6a7b0b2ede4a7b0b2f5e3f0a7b0b2e3f1a7b0b2cae7f8e0edeeeee3eaa7b0b2ede4e4ebe1ebe3eef1a7b0b2e3ece6a7b0b2cee7e0e3ecedeca7b0b5f1a7b0b2f1f6e3f6e7a7b0b2efe7e6ebe3a7b0b2f1e3fba7b0b2e7faf2eeedf1ebedecf1a7b0b2f5e7ecf6a7b0b2ede4e4a7b0b2ebeca7b0b2c0e7ebf0f7f6a7b0b2e3ece6a7b0b2eff7eef6ebf2eee7a7b0b2f2e3f0f6f1a7b0b2ede4a7b0b2cee7e0e3ecedeca7b0b2ebeca7b0b2e3eca7b0b2e3f2f2e3f0e7ecf6a7b0b2f1e7e1edece6a7b0b2f5e3f4e7a7b0b2ede4a7b0b2e6e7f6edece3f6ebedecf1a7b0b2ede4a7b0b2e7eee7e1f6f0edecebe1a7b0b2e6e7f4ebe1e7f1ac" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -17910,7 +17910,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -17919,18 +17919,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -17941,7 +17941,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -17949,19 +17949,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -17969,7 +17969,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -17983,16 +17983,16 @@ target="_blank" data-social-service="bluesky">
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </template>
-    
+
 </bsp-figure>
 
 </div>
             </div>
         </div><div class="AudioEnhancement" data-separate-event="audioModule" data-separate-value="AP AUDIO: Mystery over exploding Hezbollah pagers stretches from Israel to Hungary" data-module data-gtm-region="AP AUDIO: Mystery over exploding Hezbollah pagers stretches from Israel to Hungary" data-align-center>
-    
+
     <a class="AnchorLink" id="ap-audio-mystery-over-exploding-hezbollah-pagers-stretches-from-israel-to-hungary"></a>
 
 <div class="AudioEnhancement-player" data-mb-20><bsp-audio-player class="HTML5AudioPlayerB"data-hours-abbreviation="hr" data-minutes-abbreviation="min" >
@@ -18012,31 +18012,31 @@ target="_blank" data-social-service="bluesky">
     </div>
     <div class="HTML5AudioPlayerB-duration" data-duration></div>
 </bsp-audio-player></div>
-    
-    
-        
+
+
+
             <bsp-custom-headline custom-headline="div">
                 <div class="AudioEnhancement-title"  data-mb-5>
                     AP AUDIO: Mystery over exploding Hezbollah pagers stretches from Israel to Hungary
                 </div>
             </bsp-custom-headline>
-        
-    
-    
+
+
+
     <p class="AudioEnhancement-description">AP correspondent Ben Thomas reports a source tells the AP that Israel briefed the U.S. on the exploding pagers after they went off.</p>
-    
+
 </div>
-    
+
     <div class="HTMLModuleEnhancement" data-align-center>
         <div class="HTMLModuleEnhancement-item">
             <div class="HTMLModuleEnhancement-embed">
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="html-embed-module-700000"></a>
 
 <iframe title="Pager Explosions" aria-label="Locator map" id="ap-chart-W6Azc" src="https://interactives.ap.org/embeds/W6Azc/2/" scrolling="no" width="100%" style="border:none" height="636"></iframe><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
     <p class="embed-caption">
-        
+
     </p>
 </div>
             </div>
@@ -18064,14 +18064,14 @@ target="_blank" data-social-service="bluesky">
 <p>Mary Ellen O’Connell, a professor of law and international peace studies at the University of Notre Dame in Indiana, said booby-traps are banned under international law. “Weaponizing an object used by civilians is strictly prohibited,” she said. </p><div class="Enhancement" data-align-center>
             <div class="Enhancement-item">
                 <div class="ImageEnhancement">
-                    
+
 <bsp-figure>
     <figure class="Figure" data-openOverlay>
-        
+
     <a class="AnchorLink" id="image-ce0000"></a>
 
 <picture data-crop="imgEn-medium-nocrop">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="533" srcset="https://dims.apnews.com/dims4/default/e02b156/2147483647/strip/true/crop/5000x3334+0+0/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/412edef/2147483647/strip/true/crop/5000x3334+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
 
 <source media="(min-width: 768px)" width="800" height="533" srcset="https://dims.apnews.com/dims4/default/60fe384/2147483647/strip/true/crop/5000x3334+0+0/resize/800x533!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/ea59ccc/2147483647/strip/true/crop/5000x3334+0+0/resize/1600x1066!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
@@ -18093,14 +18093,14 @@ target="_blank" data-social-service="bluesky">
                     data-expand="ReadMore-expand" data-limit="110" data-main-class="ReadMore">
                     <figcaption class="Figure-caption"><p>Hsu Ching-kuang, chairman of Apollo Gold, talks about the Taiwan company’s communication products at the headquarters in New Taipei City, Taiwan Wednesday, Sept. 18, 2024. (AP Photo/Johnson Lai)</p></figcaption>
                 </bsp-read-more></div>
-            
+
         </div>
-        
+
     </figure>
-    
+
     <template data-bsp-figure-overlay-template>
         <div class="CarouselOverlay-header">
-            
+
             <button data-bsp-carousel-overlayclose>
                 <svg class="close-x">
                     <use xlink:href="#close-x"></use>
@@ -18108,14 +18108,14 @@ target="_blank" data-social-service="bluesky">
             </button>
         </div>
         <div class="CarouselOverlay-slides" data-slidesCount="1">
-            
+
             <div class="CarouselOverlay-slide" data-slideNumber="0">
                 <div class="CarouselOverlay-columns">
                     <div class="CarouselOverlay-slidesColumn">
                         <div class="CarouselSlide-media imageSlide">
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/2ecd316/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/0c7e62e/2147483647/strip/true/crop/5000x3334+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/f338f2f/2147483647/strip/true/crop/5000x3334+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 1x,https://dims.apnews.com/dims4/default/0d77c05/2147483647/strip/true/crop/5000x3334+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F94%2Fa20b6f46daf73bdbc6e96900b2ef%2Fffdc042af6344be294e0987c8d8add69 2x">
@@ -18147,7 +18147,7 @@ target="_blank" data-social-service="bluesky">
                                     <use xlink:href="#link-caret"></use>
                                 </svg>
                             </button><div class="CarouselOverlay-info-description"><p>Hsu Ching-kuang, chairman of Apollo Gold, talks about the Taiwan company’s communication products at the headquarters in New Taipei City, Taiwan Wednesday, Sept. 18, 2024. (AP Photo/Johnson Lai)</p></div><div class="CarouselOverlay-info-actions">
-                                
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -18159,7 +18159,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -18170,7 +18170,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -18181,9 +18181,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -18194,7 +18194,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#3b0459545f4206775e595a5554551e090b52481e090b495458505e5f1e090b5a5c5a52551e090b59421e090b5e434b57545f52555c1e090b5f5e4d52585e481e090b5a481e090b7248495a5e571e090b5f5e58575a495e481e090b5a1e090b555e4c1e090b4b535a485e1e090b545d1e090b4c5a491e0b7a1e0b7a534f4f4b481e087a1e097d1e097d5a4b555e4c48155854561e097d5a494f5258575e1e097d575e595a555455165248495a5e57165e434b57545f52555c164b5a5c5e494816535e41595457575a5316484249525a16585e0d5a5d0858095e0d5f5e0b5a0b5f5f5f5d5a5e0f030d080f090c030903031e087d4e4f566448544e49585e1e087f7e565a52571e090d4e4f5664565e5f524e561e087f48535a495e1e0b7a1e0b7a7248495a5e571e090c481e090b5f5e5d5e55485e1e090b56525552484f5e491e090b5f5e58575a495e481e090b5a1e090b1e7e091e030b1e0278555e4c1e090b4b535a485e1e7e091e030b1e027f1e090b545d1e090b4c5a491e090b5a481e090b735e41595457575a531e090b545d5d5258525a57481e090b5a555f1e090b775e595a5554551e090c481e090b484f5a4f5e1e090b565e5f525a1e090b485a421e090b5e434b575448525455481e090b4c5e554f1e090b545d5d1e090b52551e090b795e52494e4f1e090b5a555f1e090b564e574f524b575e1e090b4b5a494f481e090b545d1e090b775e595a5554551e090b52551e090b5a551e090b5a4b4b5a495e554f1e090b485e5854555f1e090b4c5a4d5e1e090b545d1e090b5f5e4f54555a4f525455481e090b545d1e090b5e575e584f49545552581e090b5f5e4d52585e4815" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -18206,7 +18206,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -18215,18 +18215,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -18237,7 +18237,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -18245,19 +18245,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -18265,7 +18265,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -18279,10 +18279,10 @@ target="_blank" data-social-service="bluesky">
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </template>
-    
+
 </bsp-figure>
 
 </div>
@@ -18310,13 +18310,13 @@ target="_blank" data-social-service="bluesky">
 <p>Israeli leaders have issued a series of warnings in recent weeks that they might increase operations against Hezbollah in Lebanon, saying they must stop the exchange of fire to allow people to return to homes near the border. Israel began moving more troops to its border with Lebanon on Wednesday as a precautionary measure, according to an official with knowledge of the movements who spoke on condition of anonymity because he was not authorized to speak to the media.</p><div class="Enhancement" data-align-fullWidth>
          <div class="Enhancement-item">
             <div class="ImageTwoUpEnhancement">
-                
-                
+
+
 <bsp-figure>
     <figure class="Figure" data-openOverlay>
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/9dafe1c/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/21182bf/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/03da922/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/f7cf224/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
@@ -18342,14 +18342,14 @@ target="_blank" data-social-service="bluesky">
                     data-expand="ReadMore-expand" data-limit="110" data-main-class="ReadMore">
                     <figcaption class="Figure-caption">A police officer inspects a car in which a hand-held pager exploded, in Beirut, Lebanon, Sept. 17, 2024. (AP Photo/Hussein Malla)</figcaption>
                 </bsp-read-more></div>
-            
+
         </div>
-        
+
     </figure>
-    
+
     <template data-bsp-figure-overlay-template>
         <div class="CarouselOverlay-header">
-            
+
             <button data-bsp-carousel-overlayclose>
                 <svg class="close-x">
                     <use xlink:href="#close-x"></use>
@@ -18357,14 +18357,14 @@ target="_blank" data-social-service="bluesky">
             </button>
         </div>
         <div class="CarouselOverlay-slides" data-slidesCount="1">
-            
+
             <div class="CarouselOverlay-slide" data-slideNumber="0">
                 <div class="CarouselOverlay-columns">
                     <div class="CarouselOverlay-slidesColumn">
                         <div class="CarouselSlide-media imageSlide">
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/9dafe1c/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/21182bf/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/03da922/2147483647/strip/true/crop/4032x3024+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 1x,https://dims.apnews.com/dims4/default/f7cf224/2147483647/strip/true/crop/4032x3024+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F85%2F2e65b784da60ee4422d6e71a0905%2F59deb8cf11e4465d9f7f36b4d13fde60 2x">
@@ -18396,7 +18396,7 @@ target="_blank" data-social-service="bluesky">
                                     <use xlink:href="#link-caret"></use>
                                 </svg>
                             </button><div class="CarouselOverlay-info-description">A police officer inspects a car in which a hand-held pager exploded, in Beirut, Lebanon, Sept. 17, 2024. (AP Photo/Hussein Malla)</div><div class="CarouselOverlay-info-actions">
-                                
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -18408,7 +18408,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -18419,7 +18419,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -18430,9 +18430,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -18443,7 +18443,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#38075a575c4105745d5a595657561d0a08514b1d0a084a575b535d5c1d0a08595f5951561d0a085a411d0a085d404854575c51565f1d0a085c5d4e515b5d4b1d0a08594b1d0a08714b4a595d541d0a085c5d5b54594a5d4b1d0a08591d0a08565d4f1d0a084850594b5d1d0a08575e1d0a084f594a1d08791d0879504c4c484b1d0b791d0a7e1d0a7e5948565d4f4b165b57551d0a7e594a4c515b545d1d0a7e545d5a5956575615514b4a595d54155d404854575c51565f1548595f5d4a4b15505d425a5754545950154b414a5159155b5d0e595e0b5b0a5d0e5c5d0859085c5c5c5e595d0c000e0b0c0a0f000a00001d0b7e4d4c55674b574d4a5b5d1d0b7c7d555951541d0a0e4d4c5567555d5c514d551d0b7c4b50594a5d1d08791d0879714b4a595d541d0a0f4b1d0a085c5d5e5d564b5d1d0a08555156514b4c5d4a1d0a085c5d5b54594a5d4b1d0a08591d0a081d7d0a1d00081d017b565d4f1d0a084850594b5d1d7d0a1d00081d017c1d0a08575e1d0a084f594a1d0a08594b1d0a08705d425a57545459501d0a08575e5e515b5159544b1d0a0859565c1d0a08745d5a595657561d0a0f4b1d0a084b4c594c5d1d0a08555d5c51591d0a084b59411d0a085d404854574b5157564b1d0a084f5d564c1d0a08575e5e1d0a0851561d0a087a5d514a4d4c1d0a0859565c1d0a08554d544c5148545d1d0a0848594a4c4b1d0a08575e1d0a08745d5a595657561d0a0851561d0a0859561d0a08594848594a5d564c1d0a084b5d5b57565c1d0a084f594e5d1d0a08575e1d0a085c5d4c5756594c5157564b1d0a08575e1d0a085d545d5b4c4a5756515b1d0a085c5d4e515b5d4b16" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -18455,7 +18455,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -18464,18 +18464,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -18486,7 +18486,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -18494,19 +18494,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -18514,7 +18514,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -18528,17 +18528,17 @@ target="_blank" data-social-service="bluesky">
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </template>
-    
+
 </bsp-figure>
 
 <bsp-figure>
     <figure class="Figure" data-openOverlay>
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/c03ebb7/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/f10ca4f/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/a95b8e3/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/6b8a122/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
@@ -18564,14 +18564,14 @@ target="_blank" data-social-service="bluesky">
                     data-expand="ReadMore-expand" data-limit="110" data-main-class="ReadMore">
                     <figcaption class="Figure-caption">People gather outside the American University hospital in Beirut, Lebanon, Sept. 17, 2024. (AP Photo/Bassam Masri)</figcaption>
                 </bsp-read-more></div>
-            
+
         </div>
-        
+
     </figure>
-    
+
     <template data-bsp-figure-overlay-template>
         <div class="CarouselOverlay-header">
-            
+
             <button data-bsp-carousel-overlayclose>
                 <svg class="close-x">
                     <use xlink:href="#close-x"></use>
@@ -18579,14 +18579,14 @@ target="_blank" data-social-service="bluesky">
             </button>
         </div>
         <div class="CarouselOverlay-slides" data-slidesCount="1">
-            
+
             <div class="CarouselOverlay-slide" data-slideNumber="0">
                 <div class="CarouselOverlay-columns">
                     <div class="CarouselOverlay-slidesColumn">
                         <div class="CarouselSlide-media imageSlide">
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/c03ebb7/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/f10ca4f/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="1080" srcset="https://dims.apnews.com/dims4/default/a95b8e3/2147483647/strip/true/crop/1600x1200+0+0/resize/1440x1080!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 1x,https://dims.apnews.com/dims4/default/6b8a122/2147483647/strip/true/crop/1600x1200+0+0/resize/2880x2160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F0a%2F5761c0ea04cdc992deb0661bc1d6%2F5eebf097a34e42c1aa0342d9a94eeb53 2x">
@@ -18618,7 +18618,7 @@ target="_blank" data-social-service="bluesky">
                                     <use xlink:href="#link-caret"></use>
                                 </svg>
                             </button><div class="CarouselOverlay-info-description">People gather outside the American University hospital in Beirut, Lebanon, Sept. 17, 2024. (AP Photo/Bassam Masri)</div><div class="CarouselOverlay-info-actions">
-                                
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -18630,7 +18630,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -18641,7 +18641,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -18652,9 +18652,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -18665,7 +18665,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#59663b363d2064153c3b383736377c6b69302a7c6b692b363a323c3d7c6b69383e3830377c6b693b207c6b693c212935363d30373e7c6b693d3c2f303a3c2a7c6b69382a7c6b69102a2b383c357c6b693d3c3a35382b3c2a7c6b69387c6b69373c2e7c6b692931382a3c7c6b69363f7c6b692e382b7c69187c6918312d2d292a7c6a187c6b1f7c6b1f3829373c2e2a773a36347c6b1f382b2d303a353c7c6b1f353c3b3837363774302a2b383c35743c212935363d30373e7429383e3c2b2a74313c233b3635353831742a202b3038743a3c6f383f6a3a6b3c6f3d3c6938693d3d3d3f383c6d616f6a6d6b6e616b61617c6a1f2c2d34062a362c2b3a3c7c6a1d1c343830357c6b6f2c2d3406343c3d302c347c6a1d2a31382b3c7c69187c6918102a2b383c357c6b6e2a7c6b693d3c3f3c372a3c7c6b69343037302a2d3c2b7c6b693d3c3a35382b3c2a7c6b69387c6b697c1c6b7c61697c601a373c2e7c6b692931382a3c7c1c6b7c61697c601d7c6b69363f7c6b692e382b7c6b69382a7c6b69113c233b36353538317c6b69363f3f303a3038352a7c6b6938373d7c6b69153c3b383736377c6b6e2a7c6b692a2d382d3c7c6b69343c3d30387c6b692a38207c6b693c212935362a3036372a7c6b692e3c372d7c6b69363f3f7c6b6930377c6b691b3c302b2c2d7c6b6938373d7c6b69342c352d3029353c7c6b6929382b2d2a7c6b69363f7c6b69153c3b383736377c6b6930377c6b6938377c6b69382929382b3c372d7c6b692a3c3a36373d7c6b692e382f3c7c6b69363f7c6b693d3c2d3637382d3036372a7c6b69363f7c6b693c353c3a2d2b3637303a7c6b693d3c2f303a3c2a77" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -18677,7 +18677,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -18686,18 +18686,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -18708,7 +18708,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -18716,19 +18716,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -18736,7 +18736,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -18750,10 +18750,10 @@ target="_blank" data-social-service="bluesky">
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </template>
-    
+
 </bsp-figure>
 
 </div>
@@ -18781,14 +18781,14 @@ target="_blank" data-social-service="bluesky">
 <p>The pager bombings appeared to be a complex operation months in the making, with many experts believing Israel infiltrated the supply chain and rigged hundreds of pagers with explosives before they were imported to Lebanon. But little evidence has emerged so far. </p><p>Gold Apollo, a Taiwanese firm, said it authorized a Hungary-based company, BAC Consulting KFT, to use its name on devices delivered to Hezbollah. But a Hungarian government spokesman said Wednesday the pagers delivered to Hezbollah were never in Hungary and that BAC Consultants merely acted as an intermediary. </p><p>Hungarian national security services were cooperating with international partners, the Hungarian spokesman, Zoltán Kovács, posted Wednesday on X.</p><div class="Enhancement" data-align-center>
             <div class="Enhancement-item">
                 <div class="ImageEnhancement">
-                    
+
 <bsp-figure>
     <figure class="Figure" data-openOverlay>
-        
+
     <a class="AnchorLink" id="image-cf0000"></a>
 
 <picture data-crop="imgEn-medium-nocrop">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="800" height="533" srcset="https://dims.apnews.com/dims4/default/2c5d226/2147483647/strip/true/crop/8640x5760+0+0/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/93cafbd/2147483647/strip/true/crop/8640x5760+0+0/resize/1600x1066!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
 
 <source media="(min-width: 768px)" width="800" height="533" srcset="https://dims.apnews.com/dims4/default/707060b/2147483647/strip/true/crop/8640x5760+0+0/resize/800x533!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/9920b3d/2147483647/strip/true/crop/8640x5760+0+0/resize/1600x1066!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
@@ -18810,14 +18810,14 @@ target="_blank" data-social-service="bluesky">
                     data-expand="ReadMore-expand" data-limit="110" data-main-class="ReadMore">
                     <figcaption class="Figure-caption"><p>Lebanese soldiers stand guard at a street that leads to the American University hospital where they bring wounded people whose handheld pager exploded, in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Hassan Ammar)</p></figcaption>
                 </bsp-read-more></div>
-            
+
         </div>
-        
+
     </figure>
-    
+
     <template data-bsp-figure-overlay-template>
         <div class="CarouselOverlay-header">
-            
+
             <button data-bsp-carousel-overlayclose>
                 <svg class="close-x">
                     <use xlink:href="#close-x"></use>
@@ -18825,14 +18825,14 @@ target="_blank" data-social-service="bluesky">
             </button>
         </div>
         <div class="CarouselOverlay-slides" data-slidesCount="1">
-            
+
             <div class="CarouselOverlay-slide" data-slideNumber="0">
                 <div class="CarouselOverlay-columns">
                     <div class="CarouselOverlay-slidesColumn">
                         <div class="CarouselSlide-media imageSlide">
 
 <picture data-crop="nocrop">
-    
+
         <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/628512b/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/21efee3/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
 
 <source media="(min-width: 1024px)" width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/7de2680/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 1x,https://dims.apnews.com/dims4/default/e5b7f01/2147483647/strip/true/crop/8640x5760+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F51%2Fb6%2Ff81bcd293226cccb48d2dcc41418%2F94d2b222e1934d159ff7c40f2ffb9097 2x">
@@ -18864,7 +18864,7 @@ target="_blank" data-social-service="bluesky">
                                     <use xlink:href="#link-caret"></use>
                                 </svg>
                             </button><div class="CarouselOverlay-info-description"><p>Lebanese soldiers stand guard at a street that leads to the American University hospital where they bring wounded people whose handheld pager exploded, in Beirut, Lebanon, Tuesday, Sept. 17, 2024. (AP Photo/Hassan Ammar)</p></div><div class="CarouselOverlay-info-actions">
-                                
+
     <bsp-page-actions class="Page-actions">
         <button class="Page-actions-trigger" data-action-clicked="clickShareIcon" data-collapse-element>Share<svg><use xlink:href="#share"></use></svg></button>
         <div class="Page-actions-menu-wrap">
@@ -18876,7 +18876,7 @@ target="_blank" data-social-service="bluesky">
 
 <div class="ActionBar">
     <ul class="ActionBar-items">
-        
+
             <li class="ActionBar-items-item"> <a class="ActionLink" href="https://www.facebook.com/dialog/share?app_id=870613919693099&display=popup&href=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFacebook%26utm_medium%3Dshare"
     target="_blank" data-social-service="facebook">
     <div class="ActionLink-icon">
@@ -18887,7 +18887,7 @@ target="_blank" data-social-service="bluesky">
     <span>Facebook</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><bsp-copy-link data-collapse-close class="ActionLink" data-link="https://apnews.com/article/lebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288?utm_source=copy&amp;utm_medium=share" data-social-service="copylink" tabindex="0">
     <div class="ActionLink-icon">
         <svg>
@@ -18898,9 +18898,9 @@ target="_blank" data-social-service="bluesky">
     <div class="ActionLink-message">Link copied</div>
 </bsp-copy-link>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="javascript:window.print()" data-social-service="print">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-print"></use>
@@ -18911,7 +18911,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="/cdn-cgi/l/email-protection#9ea1fcf1fae7a3d2fbfcfff0f1f0bbacaef7edbbacaeecf1fdf5fbfabbacaefff9fff7f0bbacaefce7bbacaefbe6eef2f1faf7f0f9bbacaefafbe8f7fdfbedbbacaeffedbbacaed7edecfffbf2bbacaefafbfdf2ffecfbedbbacaeffbbacaef0fbe9bbacaeeef6ffedfbbbacaef1f8bbacaee9ffecbbaedfbbaedff6eaeaeeedbbaddfbbacd8bbacd8ffeef0fbe9edb0fdf1f3bbacd8ffeceaf7fdf2fbbbacd8f2fbfcfff0f1f0b3f7edecfffbf2b3fbe6eef2f1faf7f0f9b3eefff9fbecedb3f6fbe4fcf1f2f2fff6b3ede7ecf7ffb3fdfba8fff8adfdacfba8fafbaeffaefafafaf8fffbaaa6a8adaaaca9a6aca6a6bbadd8ebeaf3c1edf1ebecfdfbbbaddadbf3fff7f2bbaca8ebeaf3c1f3fbfaf7ebf3bbaddaedf6ffecfbbbaedfbbaedfd7edecfffbf2bbaca9edbbacaefafbf8fbf0edfbbbacaef3f7f0f7edeafbecbbacaefafbfdf2ffecfbedbbacaeffbbacaebbdbacbba6aebba7ddf0fbe9bbacaeeef6ffedfbbbdbacbba6aebba7dabbacaef1f8bbacaee9ffecbbacaeffedbbacaed6fbe4fcf1f2f2fff6bbacaef1f8f8f7fdf7fff2edbbacaefff0fabbacaed2fbfcfff0f1f0bbaca9edbbacaeedeaffeafbbbacaef3fbfaf7ffbbacaeedffe7bbacaefbe6eef2f1edf7f1f0edbbacaee9fbf0eabbacaef1f8f8bbacaef7f0bbacaedcfbf7ecebeabbacaefff0fabbacaef3ebf2eaf7eef2fbbbacaeeeffeceaedbbacaef1f8bbacaed2fbfcfff0f1f0bbacaef7f0bbacaefff0bbacaeffeeeeffecfbf0eabbacaeedfbfdf1f0fabbacaee9ffe8fbbbacaef1f8bbacaefafbeaf1f0ffeaf7f1f0edbbacaef1f8bbacaefbf2fbfdeaecf1f0f7fdbbacaefafbe8f7fdfbedb0" data-social-service="mailto">
     <div class="ActionLink-icon">
         <svg>
@@ -18923,7 +18923,7 @@ target="_blank" data-social-service="bluesky">
     </span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dtwitter%26utm_medium%3Dshare&text=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
     target="_blank" data-social-service="twitter">
     <div class="ActionLink-icon">
@@ -18932,18 +18932,18 @@ target="_blank" data-social-service="bluesky">
     <span>X</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="#"
     onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DLinkedIn%26utm_medium%3Dshare&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&summary=Israel%27s%20defense%20minister%20declares%20a%20%E2%80%9Cnew%20phase%E2%80%9D%20of%20war%20as%20Hezbollah%20officials%20and%20Lebanon%27s%20state%20media%20say%20explosions%20went%20off%20in%20Beirut%20and%20multiple%20parts%20of%20Lebanon%20in%20an%20apparent%20second%20wave%20of%20detonations%20of%20electronic%20devices.&source=AP%20News','', '_blank, screenX=400, screenY=200, width=500, height=500, resizable=yes, scrollbars=yes'); return false;"
     target="_blank" data-social-service="linkedin">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-linkedin"></use></svg>
     </div>
     <span>LinkedIn</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://bsky.app/intent/compose?text=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dbluesky%26utm_medium%3Dshare%26nbsp%3B%3Cbr%3ELebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war"
 target="_blank" data-social-service="bluesky">
 
@@ -18954,7 +18954,7 @@ target="_blank" data-social-service="bluesky">
 </div>
 <span>Bluesky</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DFlipboard%20Share%26utm_medium%3Dshare"
     target="_blank" data-social-service="flipboard">
     <div class="ActionLink-icon">
@@ -18962,19 +18962,19 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Flipboard</span>
 </a></li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3DPinterest%26utm_medium%3Dshare&description=Lebanon%20is%20rocked%20again%20by%20exploding%20devices%20as%20Israel%20declares%20a%20new%20phase%20of%20war&media=https://assets.apnews.com/45/6c/0b98d4d47a0e44705b0b02fc108c/ebe5a876efa14541a069d825ea3cd297"
     target="_blank" data-social-service="pinterest">
-    
+
     <div class="ActionLink-icon">
         <svg><use xlink:href="#mono-icon-pinterest"></use></svg>
     </div><span>Pinterest</span>
 </a>
 </li>
-        
+
             <li class="ActionBar-items-item"><a class="ActionLink"  href="https://www.reddit.com/submit?url=https%3A%2F%2Fapnews.com%2Farticle%2Flebanon-israel-exploding-pagers-hezbollah-syria-ce6af3c2e6de0a0dddfae48634278288%3Futm_source%3Dreddit%26utm_medium%3Dshare&title=Reddit Share"
     target="_blank" data-social-service="reddit">
-    
+
     <div class="ActionLink-icon">
         <svg>
             <use xlink:href="#mono-icon-reddit"></use>
@@ -18982,7 +18982,7 @@ target="_blank" data-social-service="bluesky">
     </div>
     <span>Reddit</span>
 </a></li>
-        
+
     </ul>
 </div>
 
@@ -18996,10 +18996,10 @@ target="_blank" data-social-service="bluesky">
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </template>
-    
+
 </bsp-figure>
 
 </div>
@@ -19011,18 +19011,18 @@ target="_blank" data-social-service="bluesky">
                     </bsp-story-page>
 
 <div class="Page-authorInfo">
-        
-            
-        
-            
-        
+
+
+
+
+
     </div>
 
 <div class="Page-below"  data-modulewell>
-        
-            
+
+
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="html-embed-module-e00000"></a>
 
 <!-- Empty div for Blueconic donation targeting -->
@@ -19030,14 +19030,14 @@ target="_blank" data-social-service="bluesky">
     <div id="donation_blueconic_below"></div>
 </div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
-            
-        
-            
+
+
+
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="html-embed-module-d30000"></a>
 
 <!-- code from Primis - AP - Test Playlist - AP_Mimic -->
@@ -19071,13 +19071,13 @@ setTimeout(() => {
 </script>
 <!-- code from Primis -->
     <p class="embed-caption">
-        
+
     </p>
 </div>
-            
-        
-            
-                
+
+
+
+
 <bsp-nativo-ad
     data-nativo-class="Advertisement ntv-below-article" data-module></bsp-nativo-ad>
 
@@ -19086,25 +19086,25 @@ setTimeout(() => {
         _taboola.push({container: 'taboola-below-article-thumbnails', mode: 'thumbnails-feed-h', placement: 'Below Article Thumbnails', target_type: 'mix'
         });
     </script>
-            
-        
+
+
     </div>
 
 </main>
 
 <aside class="Page-aside">
-                        
-                            
+
+
                                 <div class="FreeStar Advertisement" data-module>
         <div align="center" data-freestar-ad="__336x280 __300x600" id="apnews_story_rail_large">
   <script data-cfasync="false" type="text/javascript">
     freestar.config.enabled_slots.push({ placementName: "apnews_story_rail_large", slotId: "apnews_story_rail_large" });
   </script>
 </div></div>
-                            
-                        
-                            
-                                
+
+
+
+
 <div class="PageListRightRailA" data-module
     data-gtm-modulestyle="Narrow List A"
      data-gtm-region="Parse.ly top stories"
@@ -19112,40 +19112,40 @@ setTimeout(() => {
 
 <a class="AnchorLink" id="most-read"></a>
 
-<div class="PageList-header"  data-prompt="visible" 
+<div class="PageList-header"  data-prompt="visible"
     >
 
 <bsp-custom-headline custom-headline="div" >
                                   <div class="PageList-header-title">
-                        
+
                             Most read
-                        
+
                     </div>
             </bsp-custom-headline>
-        
-        
-        
-        
+
+
+
+
     </div>
 
 <div class="PageListRightRailA-content">
-            
-                
-            
-            
+
+
+
+
                 <div class="PageList-items-first">
-                    
+
                         <div class="PagePromo"
  data-gtm-region="Workers commenting on Kirk’s death learn the limits of free speech in and out of their jobs"
  data-gtm-topic="No Value" data-align-top data-align-top data-gtm-region-item  data-posted-date-timestamp="1757854809000" data-updated-date-timestamp="1757879917000">
-   
-    
-        
-            
+
+
+
+
     <div class="PagePromo-media"><a class="Link" aria-label="Workers commenting on Kirk’s death learn the limits of free speech in and out of their jobs" href="https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627" >
 
 <picture data-crop="imgEn-small-3x2">
-    
+
         <source media="(min-width: 768px)" type="image/webp"  width="350" height="233" srcset="https://dims.apnews.com/dims4/default/1539597/2147483647/strip/true/crop/3000x1997+0+1/resize/350x233!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F9b%2F94430302657a506c040861355bbb%2F798609f793104c7dbff07323fb87d075 1x,https://dims.apnews.com/dims4/default/04e381a/2147483647/strip/true/crop/3000x1997+0+1/resize/700x466!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F9b%2F94430302657a506c040861355bbb%2F798609f793104c7dbff07323fb87d075 2x">
 
 <source media="(min-width: 768px)" width="350" height="233" srcset="https://dims.apnews.com/dims4/default/43c84b3/2147483647/strip/true/crop/3000x1997+0+1/resize/350x233!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F9b%2F94430302657a506c040861355bbb%2F798609f793104c7dbff07323fb87d075 1x,https://dims.apnews.com/dims4/default/9da480f/2147483647/strip/true/crop/3000x1997+0+1/resize/700x466!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F9b%2F94430302657a506c040861355bbb%2F798609f793104c7dbff07323fb87d075 2x">
@@ -19165,13 +19165,13 @@ setTimeout(() => {
 </div>
 
 </div>
-                    
+
                 </div>
 
 <ol class="PageList-items" >
 
 <li class="PageList-items-item">
-                        
+
                                 <div class="PagePromo"
  data-gtm-region="Workers commenting on Kirk’s death learn the limits of free speech in and out of their jobs"
  data-gtm-topic="No Value" data-align-top data-hide-dates="true" data-no-media data-gtm-region-item  data-posted-date-timestamp="1757854809000" data-updated-date-timestamp="1757879917000">
@@ -19180,7 +19180,7 @@ setTimeout(() => {
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/charlie-kirk-workplace-speech-firing-29717a8612ccedebabc7cba29e7ef627"><span class="PagePromoContentIcons-text">Workers commenting on Kirk’s death learn the limits of free speech in and out of their jobs</span></a>
             </div>
         </bsp-custom-headline>
@@ -19188,11 +19188,11 @@ setTimeout(() => {
 </div>
 
 </div>
-                        
+
                     </li>
 
 <li class="PageList-items-item">
-                        
+
                                 <div class="PagePromo"
  data-gtm-region="AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades"
  data-gtm-topic="No Value" data-align-top data-hide-dates="true" data-no-media data-gtm-region-item  data-posted-date-timestamp="1757862086105" data-updated-date-timestamp="1757884322132">
@@ -19201,7 +19201,7 @@ setTimeout(() => {
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/live/top-25-college-football-poll-9-14-2025"><span class="PagePromoContentIcons-text">AP Top 25 Week 4 makes Notre Dame the first ranked 0-2 team in decades</span></a>
             </div>
         </bsp-custom-headline>
@@ -19209,11 +19209,11 @@ setTimeout(() => {
 </div>
 
 </div>
-                        
+
                     </li>
 
 <li class="PageList-items-item">
-                        
+
                                 <div class="PagePromo"
  data-gtm-region="2025 Emmys: ‘The Pitt’ and ‘The Studio’ win top awards"
  data-gtm-topic="No Value" data-align-top data-hide-dates="true" data-no-media data-gtm-region-item  data-posted-date-timestamp="1757869200000" data-updated-date-timestamp="1757909530480">
@@ -19222,7 +19222,7 @@ setTimeout(() => {
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/live/emmy-awards-2025-updates"><span class="PagePromoContentIcons-text">2025 Emmys: ‘The Pitt’ and ‘The Studio’ win top awards</span></a>
             </div>
         </bsp-custom-headline>
@@ -19230,11 +19230,11 @@ setTimeout(() => {
 </div>
 
 </div>
-                        
+
                     </li>
 
 <li class="PageList-items-item">
-                        
+
                                 <div class="PagePromo"
  data-gtm-region="The world’s tallest sunflower blooms in an Indiana backyard as a tribute to Ukraine"
  data-gtm-topic="No Value" data-align-top data-hide-dates="true" data-no-media data-gtm-region-item  data-posted-date-timestamp="1757700882000" data-updated-date-timestamp="1757719394000">
@@ -19243,7 +19243,7 @@ setTimeout(() => {
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/sunflower-ukraine-indiana-backyard-guinness-world-record-a31f44168431c3ba5d7886d7e994f1c4"><span class="PagePromoContentIcons-text">The world’s tallest sunflower blooms in an Indiana backyard as a tribute to Ukraine</span></a>
             </div>
         </bsp-custom-headline>
@@ -19251,11 +19251,11 @@ setTimeout(() => {
 </div>
 
 </div>
-                        
+
                     </li>
 
 <li class="PageList-items-item">
-                        
+
                                 <div class="PagePromo"
  data-gtm-region="Patel faces congressional hearings after missteps in Kirk assassination probe and turmoil at FBI"
  data-gtm-topic="No Value" data-align-top data-hide-dates="true" data-no-media data-gtm-region-item  data-posted-date-timestamp="1757766368000" data-updated-date-timestamp="1757821895000">
@@ -19264,7 +19264,7 @@ setTimeout(() => {
 
 <bsp-custom-headline custom-headline="div" >
             <div class="PagePromo-title">
-                
+
                 <a class="Link " href="https://apnews.com/article/fbi-patel-russia-epstein-c3e70633befef64b60613709c9919b0c"><span class="PagePromoContentIcons-text">Patel faces congressional hearings after missteps in Kirk assassination probe and turmoil at FBI</span></a>
             </div>
         </bsp-custom-headline>
@@ -19272,10 +19272,10 @@ setTimeout(() => {
 </div>
 
 </div>
-                        
+
                     </li>
-                    
-                
+
+
             </ol>
 
 </div>
@@ -19283,28 +19283,28 @@ setTimeout(() => {
 </div>
 
 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="html-embed-module-720000"></a>
 
-<script type="text/javascript" id="dianomi_context_script" src="https://www.dianomi.com/js/contextfeed.js"></script> 
+<script type="text/javascript" id="dianomi_context_script" src="https://www.dianomi.com/js/contextfeed.js"></script>
 <div class="dianomi_context" data-dianomi-context-id="3968"></div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
-                            
-                        
-                            
+
+
+
                                 <div class="FreeStar Advertisement" data-module>
         <div align="center" data-freestar-ad="__336x280 __300x600" id="apnews_story_rail_sticky">
   <script data-cfasync="false" type="text/javascript">
     freestar.config.enabled_slots.push({ placementName: "apnews_story_rail_sticky", slotId: "apnews_story_rail_sticky" });
   </script>
 </div></div>
-                            
-                        
+
+
                     </aside>
-                
+
             </div>
         </div>
 
@@ -19312,10 +19312,10 @@ setTimeout(() => {
     <div class="Page-footer-container">
         <div class="Page-footer-columns">
             <div class="Page-footer-column">
-                
-                    
+
+
                         <div class="Page-footer-logo"><a aria-label="home page" href="/"  >
-    
+
         <picture>
 
 <source type="image/webp"  width="240" height="129" srcset="https://dims.apnews.com/dims4/default/0d7764a/2147483647/strip/true/crop/2851x1534+0+0/resize/240x129!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F25%2F9576fafb4e768552fed602a60238%2Fap-pri-wordmarktagline-rgb-dbg.png 1x,https://dims.apnews.com/dims4/default/1d91f0b/2147483647/strip/true/crop/2851x1534+0+0/resize/480x258!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F25%2F9576fafb4e768552fed602a60238%2Fap-pri-wordmarktagline-rgb-dbg.png 2x">
@@ -19326,14 +19326,14 @@ setTimeout(() => {
     >
 
 </picture>
-    
+
     </a>
 </div>
-                    
-                
-                
+
+
+
                     <div class="Page-footer-content">
-                        
+
                             <div class="PagePromoFooter"
  data-gtm-region="No Value"
  data-gtm-topic="No Value">
@@ -19348,7 +19348,7 @@ setTimeout(() => {
 
 <div class="Page-footer-column">
                                 <div class="Page-footer-content">
-                                    
+
                                         <div class="PagePromoFooter"
  data-gtm-region="No Value"
  data-gtm-topic="No Value" data-no-media>
@@ -19356,12 +19356,12 @@ setTimeout(() => {
 
 <div class="PagePromo-description">
         <span class="Link"><span class="PagePromoContentIcons-text">
-    
+
     <div class="HTMLModuleEnhancement" data-align-center>
         <div class="HTMLModuleEnhancement-item">
             <div class="HTMLModuleEnhancement-embed">
                 <div class="HtmlModule" data-module-tracksubscribe data-gtm-topic="No Value">
-    
+
     <a class="AnchorLink" id="htmlembed-4c0000"></a>
 
 <style>
@@ -19387,13 +19387,13 @@ setTimeout(() => {
   </a>
 </div>
     <p class="embed-caption">
-        
+
     </p>
 </div>
             </div>
         </div>
     </div>
-    
+
 </span></span>
     </div>
 
@@ -19403,27 +19403,27 @@ setTimeout(() => {
 </div>
                         </div>
                     </div>
-                
+
             </div>
 
 <div class="Page-footer-column">
-                
+
                     <div class="Page-footer-navigation" data-no-content>
                         <nav class="FooterNavigation Page-FooterNavigation">
-    
+
         <ul class="FooterNavigation-items" data-column-count="2">
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -19431,10 +19431,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -19442,10 +19442,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -19453,38 +19453,38 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -19492,10 +19492,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -19503,10 +19503,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -19514,28 +19514,28 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
                 <li class="FooterNavigation-items-item">
                     <div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="7">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -19543,10 +19543,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -19554,10 +19554,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -19565,10 +19565,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -19576,10 +19576,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -19587,10 +19587,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -19598,10 +19598,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -19609,31 +19609,31 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 
 </li>
-            
+
         </ul>
-    
+
 </nav>
 
 <li class="FooterNavigation-items-item" data-hamburger><div class="FooterNavigationItem">
     <div class="FooterNavigationItem-text">
-        
+
             <span>The Associated Press</span>
-        
+
     </div>
 
 <ul class="FooterNavigationItem-items" data-column-count="11">
-            
-                
+
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://www.ap.org/"  target="_blank"
     >
@@ -19641,10 +19641,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://careers.ap.org/"  target="_blank"
     >
@@ -19652,10 +19652,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://contentservices.ap.org"  target="_blank"
     >
@@ -19663,38 +19663,38 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/contact-us" >
     <span class="NavigationLink-text">Contact Us
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/accessibility-statement" >
     <span class="NavigationLink-text">Accessibility Statement
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/termsofservice" >
     <span class="NavigationLink-text">Terms of Use
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement" >
     <span class="NavigationLink-text">Privacy Policy
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
                                 <button id="ot-sdk-btn" class="ot-sdk-show-settings" data-title="Your Privacy Choices">Cookie Settings</button>
                             </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -19702,10 +19702,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://privacyportal.onetrust.com/webform/9efcd77d-fbf7-40b0-a4b6-8fe108d3d374/766ad301-0e47-4688-b35c-08a0bd369481"  target="_blank"
     >
@@ -19713,10 +19713,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
+
                     <li class="FooterNavigationItem-items-item">
 <a class="NavigationLink AnClick-Footer-NavSubItem" href="https://apnews.com/privacystatement#ca-notice"  target="_blank"
     >
@@ -19724,13 +19724,13 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div>
 </li>
         <li class="HamburgerNavigation-items-item" data-hamburger>
@@ -19740,25 +19740,25 @@ setTimeout(() => {
 <li class="HamburgerNavigation-items-item" data-hamburger data-footer-item="true">
 <div class="HamburgerNavigationItem  has-menu"  data-nav-item>
     <div class="HamburgerNavigationItem-text">
-        
+
             <span>More From AP News</span>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-mobile" data-nav-moretrigger >
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
-        
+
+
             <div class="HamburgerNavigationItem-more HamburgerNavigationItem-desktop" data-nav-moretrigger>
                 <button aria-label="More"><svg class="chevron"><use xlink:href="#chevron-down"></use></svg></button>
             </div>
-        
+
     </div>
     <ul class="HamburgerNavigationItem-items" data-nav-moreitems >
-        
+
             <span class="HamburgerNavigationItem-onlySection">
-                
-                    
+
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about"  target="_blank"
     >
@@ -19766,10 +19766,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/news-values-and-principles"  target="_blank"
     >
@@ -19777,10 +19777,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.ap.org/about/our-role-in-elections"  target="_blank"
     >
@@ -19788,10 +19788,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://leads.ap.org"  target="_blank"
     >
@@ -19799,10 +19799,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://blog.ap.org/"  target="_blank"
     >
@@ -19810,10 +19810,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://apimagesblog.com/"  target="_blank"
     >
@@ -19821,10 +19821,10 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
+
                         <li class="HamburgerNavigationItem-items-item">
 <a class="NavigationLink AnClick-Hamburger-NavSubItem" href="https://www.apstylebook.com/"  target="_blank"
     >
@@ -19832,83 +19832,83 @@ setTimeout(() => {
         <svg class="NavigationLink-external-icon">
             <use xlink:href="#externalLink"></use>
         </svg>
-        
+
     </span></a>
 </li>
-                    
-                
+
+
             </span>
-        
-        
+
+
             <span class="HamburgerNavigationItem-topStories">
                 <div class='Subheader'>
     <div class='Subheader-content' data-sectionTitle="">
         <div class='Subheader-Sections Sections-two-column extraSpace'>
             <div class='Subheader-Title'>SECTIONS</div>
             <div class='Subheader-Sections-items'>
-                
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about' class='Subheader-Sections-items-item'>About</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/news-values-and-principles' class='Subheader-Sections-items-item'>AP News Values and Principles</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.ap.org/about/our-role-in-elections' class='Subheader-Sections-items-item'>AP’s Role in Elections</a>
-                    
-                
-                    
+
+
+
                         <a href='https://leads.ap.org' class='Subheader-Sections-items-item'>AP Leads</a>
-                    
-                
-                    
+
+
+
                         <a href='https://blog.ap.org/' class='Subheader-Sections-items-item'>AP Definitive Source Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://apimagesblog.com/' class='Subheader-Sections-items-item'>AP Images Spotlight Blog</a>
-                    
-                
-                    
+
+
+
                         <a href='https://www.apstylebook.com/' class='Subheader-Sections-items-item'>AP Stylebook</a>
-                    
-                
-                
+
+
+
             </div>
         </div>
     </div>
 </div>
             </span>
-        
+
     </ul>
 </div></li>
 
 </div>
-                
+
             </div>
 
 <div class="Page-footer-column">
-                
+
                     <div class="Page-footer-content">
-                        
+
                     </div>
-                
+
             </div>
         </div>
-        
+
             <div class="Page-footer-bottom">
-                
+
                     <div class="Page-footer-disclaimer"><p>Copyright 2025 The Associated Press. All Rights Reserved.</p></div>
 
 <div class="SocialBar">
-    
+
         <ul class="SocialBar-items">
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://twitter.com/AP" target="_blank" data-social-service="twitter">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-twitter"></use>
@@ -19919,9 +19919,9 @@ setTimeout(() => {
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.instagram.com/apnews/" target="_blank" data-social-service="instagram">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-instagram"></use>
@@ -19932,9 +19932,9 @@ setTimeout(() => {
     </span>
 </a>
 </li>
-            
+
                 <li class="SocialBar-items-item"><a class="SocialLink" rel="noreferrer" href="https://www.facebook.com/APNews" target="_blank" data-social-service="facebook">
-    
+
     <div class="SocialLink-icon">
         <svg>
             <use xlink:href="#mono-icon-facebook"></use>
@@ -19945,18 +19945,18 @@ setTimeout(() => {
     </span>
 </a>
 </li>
-            
+
         </ul>
-    
+
 </div>
 
 </div>
-        
+
     </div>
 </footer>
 
 <script>function optanCheck () {
-     
+
 	var onCookie = document.cookie
     try {
         var theCookie = onCookie.match(/(OptanonConsent=.*;?)/)[0]

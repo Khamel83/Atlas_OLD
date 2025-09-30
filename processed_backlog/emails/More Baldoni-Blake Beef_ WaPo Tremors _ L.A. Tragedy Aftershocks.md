@@ -47,7 +47,7 @@ and…
 
 Marion Maneker combs through ( https://puck.news/the-2024-art-market-in-numbers/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) proprietary data to entirely reframe the past six months of auction activity.
 
- 
+
 
 FASHION
 FASHION
@@ -63,7 +63,7 @@ meanwhile…
 
 Sarah Shapiro explores ( https://puck.news/shopmy-vs-ltk-a-tale-of-two-commerce-platforms/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the latest theater of the $24 billion creator marketing wars.
 
- 
+
 
 ART
 ART
@@ -71,7 +71,7 @@ ART
 Marion Maneker
 postulates ( https://puck.news/how-much-important-art-has-been-lost-to-the-los-angeles-wildfires/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the forthcoming art insurance negotiations in L.A.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -84,7 +84,7 @@ and…
 Eriq Gardner
 offers ( https://puck.news/blake-lively-v-justin-baldoni-round-2/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a new reading of Justin Baldoni’s lawsuit.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -92,7 +92,7 @@ WALL STREET
 Bill Cohan
 foreshadows ( https://puck.news/the-trump-m-and-a-deal-heat/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the tectonic shifts coming to the M&A market.
 
- 
+
 
 MEDIA
 MEDIA
@@ -105,7 +105,7 @@ and…
 John Ourand imagines ( https://puck.news/is-the-new-diamond-sports-group-strong-enough-to-survive/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Norby Williamson
 reinvention and hypothesizes ( https://puck.news/gaming-out-an-msg-networks-bankruptcy/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about the future of a Knicks-adjacent negotiation.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -117,7 +117,7 @@ and…
 
 Peter Hamby explains ( https://puck.news/trumps-second-term-need-for-speed/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the president-elect’s time crunch.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -160,7 +160,7 @@ The Powers That Be ( https://puck.news/podcast_episode/los-angeles-is-burning/?u
 As a reminder, you can update your profile at any time to get more stories
 like these directly in your inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 Sunset
 Boulevard
@@ -213,7 +213,7 @@ are many worthy options. 
 
 Indeed, the fires and their aftermath—the heartache, investigations, lawsuits, political implications, and environmental imprint—are the true story of our time. Let’s help the people who need it most.
 
- 
+
 
 Have a safe weekend,
 
@@ -233,6 +233,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUVZx811dy4h_6QrGWewk=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

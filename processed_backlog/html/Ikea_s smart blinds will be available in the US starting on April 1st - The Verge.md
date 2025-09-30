@@ -11,7 +11,7 @@
 
 # Ikea’s smart blinds will be available in the US starting on April 1st
 
- / 
+ /
 
 ## The goal is making smart blinds more affordable
 
@@ -55,7 +55,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20231129004611im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20231129004611/http://theverge.com/)
 

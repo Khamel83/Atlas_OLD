@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A rough model you could have for the crypto credit crisis of 2022 is: Everything was real, real rickety. All of the big serious players coul
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Sam
-    
-  
+
+
 
 A rough model you could have for the crypto credit crisis of 2022 is:
 	Everything was real, real rickety.	All of the big serious players could see that everything was rickety.	This created obvious economic opportunities: Pick a rickety thing, bet on it collapsing, give it a gentle poke, watch it collapse and collect your winnings.	These opportunities were tempting: If you were a big serious player, you could see the opportunities, and you could sort of do the math on a napkin of how much money you’d make from a little poking.	But everything was real, real rickety, including you. The big serious players in crypto were themselves opaque, levered, risk-loving and rickety.	If you poked something else and it collapsed, that would undermine confidence in crypto generally, and the main thing keeping your project going was confidence in crypto generally.	Also the people whose project you poked might want revenge, so they might poke you back.
@@ -95,89 +95,89 @@ It is a funny interview because Davies says “there were numerous black swans t
 Also, though … I mean the whole point of the “black swan” metaphor is that if you go around for hundreds of years only seeing white swans, you are entitled to assume that all swans are white, and then when you travel to another continent and you see a black swan you are entitled to feel surprised. If you go around in your backyard for 20 minutes only seeing gray squirrels, and then you go to your front yard and see a black squirrel, you will feel less surprised. You just did not have that much data on which to form a conclusion like “all squirrels are gray.” Hendry says to Davies: “The market hadn’t existed for more than 10 years or so. … There’s no observation set; everything is risk.” It is just weird to be surprised that Luna collapsed. Luna’s existence was a blip;  its TerraUSD stablecoin came into existence in 2020, maintained its value for a little while, and then fell nearly to zero. Its median price over any five-year period was zero. The black swan was when it was worth $1. The   collapse of an algorithmic stablecoin is one of the least surprising events in the world, right up there with “a crypto exchange steals or loses its customers’ money.”
 This is the problem with my rough model of the crypto credit crisis of 2022. It’s easy for me now to say “everything was real, real rickety,” after Luna and 3AC and Celsius and Voyager and BlockFi and FTX and Alameda all blew up, and it’s certainly possible that a lot of the important players knew the problems and hastened the explosions — that Alameda shorted Luna, or that Binance’s Changpeng Zhao   did some tweets that destroyed FTX. But a real model would also take into account Davies’s childlike wonder that something as stable as Luna could collapse overnight. What is incredible about the crypto credit crisis is that, in the spring of 2022, things like Luna and 3AC and FTX looked like established institutions, such that their collapse could look like black swan events. What is incredible is that confidence in those institutions grew so fast and, for a little while, looked so robust. They came from nothing, and they quickly returned to nothing, and when you   look at the   postmortems it is a little hard to understand why they ever inspired any confidence. But they did, and for a while that was what made them valuable.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Carvana
-    
-  
+
+
 
 We have   talked   about my   general theory of modern distressed debt investing, which is:
 	A company has $1 billion of debt outstanding.	It goes to holders of $501 million of the debt and says “hey I’ll pay you back 101 cents on the dollar if you vote to amend the agreement so I can stiff the other $499 million.”	Those holders say “sure whatever that’s some extra money” and votes to approve an amendment stiffing the minority.	The company pays the majority holders 101 cents on the dollar ($506 million total) and pays the minority holders nothing. 	The majority holders are a little better off: They get back $506 million instead of $501 million.	The minority holders are much worse off: They get back $0 instead of $499 million.	The company is much better off: It has saved $494 million.
@@ -196,20 +196,20 @@ And even if combining forces works in this case, it may not work in other situat
 
 I mean I guess if you get 70% of the holders of some company’s debt to work together, the temptation would be to go to the company and say “hey why don’t you hose the other 30% and give us more value,” but perhaps you would resist that temptation in the service of your long-term interests.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 The basic situation is that Elon Musk is more or less the richest person in the world, and he owns Twitter, and Twitter does not seem to be  doing particularly well as a business. If you had the chance to lend money to Twitter, you might reasonably say “no thank you.” But if you had the chance to lend money to Elon Musk, you might reasonably say “sure he’s rich he’ll probably pay me back.” There are some concerns in that reasoning, maybe, but it’s more or less fine. 
 In any case, if you have already made the mistake of lending $13 billion to Twitter, you will definitely be better off trying to change that into a loan to Musk himself. Bloomberg’s Davide Scigliuzzo, Sonali Basak and Paula Seligson reported last week:
@@ -224,11 +224,11 @@ In April, when Musk got commitments for a Tesla margin loan to fund his Twitter 
 For Musk, it’s a good trade — cheaper debt and less of it — as long as he is really sure he wants to own Twitter. Right now, if Musk stops paying Twitter’s debt, the worst thing that can happen is they’ll take Twitter away from him. He’s sunk something like $30 billion of his own money into Twitter, so that would hurt; on the other hand, sometimes it seems like he is desperately crying out for someone to take Twitter away from him. But if he takes out margin loans to keep Twitter going, and he stops paying those loans, they can take (some of) his Tesla stock away from him. The debt would not be Twitter debt anymore, but Elon Musk debt. To the extent that Twitter is already an extension of Elon Musk, though, that would not be a huge psychological change, and it would save him some money.
 Elsewhere Musk has, like …  gone full QAnon? And got booed at a Dave Chappelle show? Doesn’t it feel like he’d be happier making cars and rockets and leaving Twitter to, uh, his bankers at Morgan Stanley I guess?
 
-  
-    
+
+
       Title paper
-    
-  
+
+
 
 The way that the modern US economy works is that if you want to buy a car from me, and I want to sell you the car, then you have to give me money, and I have to give you the car, and also we have to do a mysterious third thing in which we perform a magic ritual to coax my spirit to depart from the car so that your spirit may enter it. That magic ritual requires a bit of shaved unicorn horn, and for supply-chain reasons there is a unicorn-horn shortage, so  no one can buy cars:
 
@@ -241,143 +241,143 @@ Robin Shrake, a county treasurer in South Dakota, has been hearing by phone from
 
 It’s not really? Like, you put the eggs into the cake? They are an ingredient, part of what makes the cake a cake? Whereas you do not use the title paper to make or power the car? Like I feel like it is within the scope of human ingenuity to find a way for one person to give another person a car without the use of special paper with security threading? It is all almost enough to make you wish for a — 
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 Blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain blockchain. Blockchain!
 
-  
-    
+
+
       AI Money Stuff
-    
-  
+
+
 
 People keep asking large language models to write Money Stuff, and while I am not too worried about losing my job yet, here is  Money Stuff in Latin dactylic hexameters? Sort of? Or whatever? “Semper petere aequitatem et veritatem / Si vultis habere pecuniam felicem,” would be … honestly a pretty poor motto for Money Stuff? I feel like this is mostly a column about pecuniam iniquam et falsam, sed etiam felicem.
 Elsewhere here is “Write a Beastie Boys song that celebrates Bloomberg’s Matt Levine,” about which the less said the better.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Microsoft to Buy 4% of   London Stock Exchange on Cloud Deal. Amgen to Buy Horizon Therapeutics in   $27.8 Billion Deal. U.S. Justice Dept is split over charging Binance as crypto world falters, sources say. China Props Up Belt-and-Road Borrowers Via  Unusual Channel. The $80tn “ hidden debt” and what it really means. Credit Suisse accepted  suspicious invoices for $140mn Greensill loan. ‘Condo Futures’ Trade Collapses in Mounting Canada Housing Pain. Biden adviser calls  Wall Street opposition to shale drilling ‘un-American.’ Bankman-Fried Will Testify at   House Hearing on FTX Fallout. Crypto Fugitive   Do Kwon’s Mystery Bolthole Emerges in Serbia. Caroline Ellison Hires SEC’s Former   Top Crypto Cop for FTX probe. Booming Chinese  family offices recruit top bankers in Singapore. The resurrection of  First Boston. A Giant Drill Near a   Hamptons Beach Marks Offshore Wind’s Arrival in the US. Goldman’s Former  Broad Street Tower Eyed for Housing Conversion. Dutch use Bitcoin mining to  grow tulips. “The ideal candidate is highly motivated and  somewhat bloodthirsty.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Byrne Hobart has  made this point: “The entire FTX/Alameda entity was mostly long crypto volatility (higher transaction volume meant both more profitable trades for Alameda and more commissions for FTX) but with a position that would flip at some uncertain point to being net short volatility—if Alameda cushioned too many price swings, it would switch from mitigating volatility to transferring its own assets to irresponsible traders.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

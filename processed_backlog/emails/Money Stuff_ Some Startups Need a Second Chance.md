@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Last week I wrote about what I called a “probabilistic billionaire.” You create a company with some long-shot idea that will be worth $1 tri
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       VC rehab
-    
-  
+
+
 
 Last week   I wrote about what I called a “probabilistic billionaire.” You create a company with some long-shot idea that will be worth $1 trillion if it succeeds, you convince investors that you have a 1% chance of success, and you raise money at a $10 billion valuation:
 Of course eventually you will either succeed (with 1% probability) or fail (99%) at creating a trillion-dollar company. If time goes by and you do not discover teleportation and you get bored and go back to your day job, then (let us assume) your probability of making $1 trillion goes to zero, and you are no longer a billionaire.
@@ -91,37 +91,37 @@ I love how shameful it is. “Did you accidentally build a real business? Call u
 “There’s a real opportunity here to play a very important role, which is to help companies transition from venture ownership to private equity ownership,” Peleg said. “No one is willing to send the hard message of saying this needs a reset, and that will be the role that we play.”
 See, venture ownership is for companies with fast growth and no cash flows, and private equity ownership is for companies with steady or declining cash flows. The transition is painful — ask WeWork — but, sometimes, necessary. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ICBC
-    
-  
+
+
 
 In the olden days, the way stock and bond trading worked is that you and I would agree on a trade (over the phone, on the floor of the stock exchange, etc.), and we’d each make a little note of it on a scrap of paper, and at the end of the day our clerks would collect the scraps of paper and figure out what we’d bought and sold, and then the clerks would go down to the vault in the basement, and my clerk would get out the bond certificates I sold to you, and your clerk would get out a wad of cash, and our clerks would walk across the streets of Manhattan, and my clerk would hand your clerk the bonds and your clerk would hand my clerk the cash, and then our trade would be settled. And this process took days, and had some failure rate, because we and our clerks were only human and the vaults were big and poorly organized and our handwriting, on the scraps of paper, was not always legible.
 In 2023, almost all of this has been rendered abstract and put on computers. The bonds are entries on a computer, the cash is an entry on a computer, the scraps of paper are computers, the floor of the stock exchange is mostly a computer, the whole process, from start to finish, occurs on computers and often doesn’t involve any human actions at all. (It still often takes days?) This, of course, concentrates a lot of risk in the computers: If the computer systems fail, then all the trades fail, global finance is plunged into chaos, etc. So people put a lot of thought and effort and money into making the computer systems very robust and secure.
@@ -132,11 +132,11 @@ The workaround — described by market participants — followed the attack by s
 
 Fine, it’s thumb drives, not paper bond certificates, but still. In some ways it is nice that the electronic global financial markets have clumsily evolved from older and more manual processes; there is still some ancient memory of how to do stuff manually.
 
-  
-    
+
+
       Robot body language
-    
-  
+
+
 
 You could have a model of investment analysis that is like:
 	Part of the job is about looking at financial statements, calculating ratios, and figuring out which companies make a lot of money, which are cheap, etc.	The other part of the job is meeting with corporate executives, shaking their hands, getting a sense of their body language and their character, and deciding if they are good people who run a good company or bad people who don’t.
@@ -170,11 +170,11 @@ One move is to get acting training. But clearly the better move, for executives,
 
 Just cut out the human element everywhere.
 
-  
-    
+
+
       FTX 2.1
-    
-  
+
+
 
 Some part of the promise of crypto is, or was, that it allows you to do things without trust. Instead of trusting a bank to keep track of your money, you can rely on a distributed blockchain to do it. You don’t have to trust anyone to maintain the blockchain, either: You can read the open-source code underlying the blockchain, ponder its incentive mechanisms and conclude “yes this blockchain will keep my money safe.” A great deal of crypto is built on these sorts of ideas: “Code is law,” and you can read the code rather than trusting the people involved or the system in which they operate.
 Of course in actual practice a great deal of crypto consists of blindly trusting your money to people, not on the blockchain, not in any sort of auditable way, and generally not people whom you ought to trust. So many of them steal it! A quite typical form of interaction with crypto is buying some crypto on a centralized exchange, keeping the crypto on that exchange rather than in your own wallet on the blockchain, and then having it stolen. And the people who steal it! Good lord. A whole lot of people in crypto might as well walk around with signs saying “I will steal your money,” and then people trust them with their money anyway, and then they steal it.
@@ -196,15 +196,15 @@ It’s unclear what sort of reception they will face from investors and users gi
 
 Arguably you needed that in a pre-FTX world too! Arguably the best thing that the general counsel of FTX could have done to solve the problems that doomed FTX was to solve them at FTX? Like, if you are the top lawyer at a company, maybe don’t let the company steal billions of dollars of customer money? Arguably that would have been better? But of course once FTX did steal billions of dollars of customer money that creates a business opportunity for its alumni to be like “nobody has learned more from FTX than we have.” Certainly not the customers! What on earth.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Strip Clubs, Lewd Photos and a Boozy Hotel: The Toxic Atmosphere at Bank Regulator  FDIC. Cyber ‘Catastrophe Bonds’ Move Step Closer to Hitting Public Debt Markets. The   Diamond World Takes Radical Steps to Stop a Pricing Plunge. Big Promise, Little Success: The Precarious State of   Carbon Capture. China’s Spending on  Green Energy Is Causing a Global Glut. Bankman-Fried’s  Parents Stand By Their Sam—And Face Their Own Legal Perils. Moody’s Changes Outlook on  U.S. Ratings to Negative. General Atlantic to Buy Control of   Joe & the Juice. Hung Deal Leaves BMO, RBC-Led Group With Crescent Point Shares. The  4% Rule for Retirement Is Back. Google Sues Scammers Over   Fake Bard AI Chatbot That Downloads Malware. “On a recent day in November, a pack of regular Oreos in Chicago contained cookies that appeared stuffed with  varying amounts of creme.” ‘It never ends’: the book club that  spent 28 years reading Finnegans Wake.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That IPO was pulled, but WeWork eventually went public by merging with a special purpose acquisition company in 2021.
 
 
@@ -214,48 +214,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] This is arguably an unfair reading, and I should have written something like “executives try to present results in a good light that will encourage investors to view them positively.” But I think the meaning is the same?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -266,46 +266,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjuuoj.5img/ce1f47db.gif" alt="" border="0" /></a>

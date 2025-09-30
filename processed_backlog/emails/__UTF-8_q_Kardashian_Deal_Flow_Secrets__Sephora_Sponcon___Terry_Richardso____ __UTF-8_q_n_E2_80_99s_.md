@@ -45,7 +45,7 @@ options on resale sites, including The RealReal ( https://fave.co/4hly9VW?utm_ca
 Mentioned in this issue: Paris, rich kids depressed, Kim Kardashian, Kylie Jenner, Skims, Kylie Cosmetics,
 Timothée Chalamet, Khloé Kardashian, Kourtney Kardashian, Lemme, Target, Ariana Grande, Jay Sammons, Khroma Beauty, KKW Beauty, SKKN, Coty, Sue Nabi, TikTok, Cosmic, Rare Beauty, Jordan Roth, Anna Wintour, Bruce Weber, Sephora, and many, many more…   
 
- 
+
 
 Three Things You Should
 Know…
@@ -124,6 +124,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=IC+Exclusi
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUlbg-LPh7H6JNK-f7TU8=&utm_campaign=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -157,7 +157,7 @@ shouldn’t dwarf compensatory ones by more than a single-digit multiplier. For 
 I bet the settlement hovered around half that—say, $25 million—to sidestep the hazards of an appeal. Some media advocates might balk at the figure, deeming it steep, yet considering the appellate bench is peppered with appointees from Ron DeSantis and Trump, it’s hardly far-fetched. For CNN, it’s a Jake Tapper-sized gulp, the price of shaking off a persistent headache. Late to the game, sure, but as the old adage goes: Better late than never,
 especially when the lesson is this costly.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday evening. 
 
@@ -215,6 +215,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUi9pasg85vljmqQRmhzA=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -49,7 +49,7 @@ Got a news tip or an idea for me? Just reply to this email or message me on Sign
 Discussed in this issue: Karen Bass, Bob Iger, M. Night Shyamalan, Gavin Newsom, Ari Emanuel,
 Bong Joon Ho, Casey Wasserman, Janet Yang, Harvey Mason Jr., Jay Penske, Barack Obama, Lorne Michaels, Anderson Cooper, Jay Sures, Lachlan Murdoch, and… Zsa Zsa Gabor.
 
- 
+
 
 How Hollywood Can Really Help L.A….
 -------------------------------------
@@ -282,7 +282,7 @@ Again: Firefighters are saying they had enough water, and Caruso himself protect
 never know if the outcome here would’ve been any less devastating under different leadership,” said Josh Porter, a Palisades resident who lost his home in the flames last Tuesday, rushing out of the neighborhood with his two young children and dogs. “But we know that we elect leaders to lead, especially in times of crisis. It’s been a week since this happened and the city has heard more from the guy who lost to her than we have from her. Angelenos deserved to hear from a leader
 to assure them someone was driving the bus. Because it certainly didn’t feel that way.” Porter told me that his wife was in London at the time the fires exploded, but she got back to LAX from overseas before the mayor did.
 
- 
+
 
 My Reading List…
 ------------------
@@ -326,7 +326,7 @@ boost was according to data from VideoAmp, not the industry-standard Nielsen. Th
 I’m no John Krasinski, but we do need some good news: Two child actors from the 2003 Jack Black film School of Rock just got
 married, and nine of their castmates were there. [NY Times ( https://www.nytimes.com/2025/01/07/style/school-of-rock-caitlin-hale-angelo-massagli-wedding.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
 
- 
+
 
 The Feedback
 ------------
@@ -362,7 +362,7 @@ coming Flagship service] might lead to a ‘fat check,’ as you put it, but Fox
 “I love it when you conflate or confuse the Pauls. Knowing the difference is about as important as distinguishing Zsa Zsa from Ava.” —A
 non-industry reader
 
- 
+
 
 Finally…
 ----------
@@ -393,6 +393,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUY0qASEOAMq0Pfp1TKFc=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

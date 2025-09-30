@@ -17,7 +17,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
-		        
+
 <meta property="og:site_name" content="PenguinRandomhouse.com"/>
 <meta property="fb:app_id" content="356679881167712"/>
 <meta name="twitter:card" content="summary"/>
@@ -148,7 +148,7 @@ max-width: 350px;
 				padding: 0 13px;
 				white-space: nowrap;
 			}
-		
+
 </style>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?ver=3.7.1" id="jquery-js"></script>
 <script type="text/javascript" src="https://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/slick.min.js?ver=1.6.0" id="slick-js"></script>
@@ -158,9 +158,9 @@ max-width: 350px;
 <link rel='canonical' href='https://www.penguinrandomhouse.com/books/639450/the-family-firm-by-emily-oster/' />
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'https://www.penguinrandomhouse.com/books/639450/the-family-firm-by-emily-oster/';</script>
 	<link rel="stylesheet" href="https://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20250908022225" media="all" />
-<script><!-- 
+<script><!--
 	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"639450"};
- 
+
 --></script>	<script type="text/javascript">
 		window.cartUrl='https://cart.penguinrandomhouse.com';
 		window.piiUrl='https://account.penguinrandomhouse.com';
@@ -178,11 +178,11 @@ max-width: 350px;
 <body class="wp_router_page-template-default single single-wp_router_page postid-5 wp-embed-responsive group-blog masthead-fixed full-width singular">
     	<a id="skip_to_main" href="#mainblock">Skip to Main Content (Press Enter)</a>
     <div id="site-ribbon" class="promo-strip hidden"><a href="https://www.penguinrandomhouse.com/articles/quiz-what-book-should-you-read-next/">📝Quiz: What Book Should You Read Next?</a></div>
-    
-	
+
+
 	<!-- Start Tealium tag -->
 	<script type="text/javascript">
-        
+
 var utag_data={"page_name":"The Family Firm by Emily Oster: 9781984881779 | PenguinRandomHouse.com: Books","code_release_version":"cb20250908022225","product_list_price":[18],"product_isbn":[9781984881779],"product_title":["The Family Firm"],"product_author":["Emily Oster"],"product_author_id":["232809"],"retailer_link_present":"yes","page_type":"Product Detail Page","product_imprint":["Penguin Books"],"product_format":["Paperback"],"product_work_id":["639450"],"product_category":["Parenting | Business | Reference | Nonfiction"],"product_division":["Penguin Adult HC\/TR"],"auth_count":1,"module_type":["seriespage","authordetail","contributorblock"],"module_variation":"Load","module_present":"cartbutton,audiowidget,lookinside,readexcerpt","pdp_dropdown":"Book Description, Praise, Product Details","event_type":"recommendation_load","ip_country":"US","website_banner":"Get a FREE Books of the Moment sampler!"};
 (function() {
     const cookies = document.cookie.split( '; ');
@@ -641,7 +641,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
         </header>
       </div>
     </div> <!-- container END -->
-    
+
 	<!-- Start Main Page Wrap -->
 	<div id="main" class="page-wrap notransition">
 		<!-- Start Mobile Sidebar -->
@@ -687,12 +687,12 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 							<div class="preview-look-inside full-button">
 					<button class="product-look-inside insight 9781984881779" data-workid="639450" data-isbn="9781984881779" data-title="The Family Firm" data-author="Emily Oster" data-frontlist="9781984881779"><img decoding="async" src="/wp-content/themes/penguinrandomhouse/images/pdp/magnifier.svg" class="product-preview" aria-hidden="true" alt=""> Look Inside</button>
 				</div>
-							
+
 			<script>
    $(document).ready(function(){
         $.ajax({url: "/ajaxc/audio/af63458468edb9025bfe10a61169c56098bc06e24e31684676c62fbc035b297a-9780593413289", success: function(result){
             View.Utils.audioPlayer('.preview-audio-player', result, 'Product Detail Page');
-        }}); 
+        }});
    });
 </script>
 
@@ -716,7 +716,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
                             <h1>The Family Firm</h1>
                             <p role="doc-subtitle" class="subtitle isbn-related 9781984881779">A Data-Driven Guide to Better Decision Making in the Early School Years</p><p role="doc-subtitle" class="subtitle isbn-related 9781984881762">A Data-Driven Guide to Better Decision Making in the Early School Years</p><p role="doc-subtitle" class="subtitle isbn-related 9780593413289">A Data-Driven Guide to Better Decision Making in the Early School Years</p>                        </header>
                         <div class="contrib-wrap"><h2 class="contributors isbn-related 9781984881779 show"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/232809/emily-oster/" >Emily Oster</a></span></span></h2><h2 class="contributors isbn-related 9781984881762"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/232809/emily-oster/" >Emily Oster</a></span></span></h2><h2 class="contributors isbn-related 9780593413289"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/232809/emily-oster/" >Emily Oster</a></span></span><span class="contributor">Read by <span class="ws-nw role-4"><a href="/authors/232809/emily-oster/" >Emily Oster</a></span></span></h2></div>                        				    </div>
-				    
+
 <div class="slot product-format">
   <div id="lylty_bluebox_wrap"></div>
   <div id="mobileList">
@@ -999,7 +999,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 </div>
 
 <div id="bottom_facade">
-	
+
 <div class="drawer-container-pdp">
       <div id="bookdescription" class="drawer 9781984881779 isbn-related show">
       <h3 class="drawer-header">
@@ -1026,7 +1026,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
                                                   <a class="drawer-link" href="/books/parenting" tabindex="0">Parenting</a>
                                     <a class="drawer-link" href="/books/business" tabindex="0">Business </a>
                                     <a class="drawer-link" href="/books/reference" tabindex="0">Reference</a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1057,7 +1057,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
                                                   <a class="drawer-link" href="/books/parenting" tabindex="0">Parenting</a>
                                     <a class="drawer-link" href="/books/business" tabindex="0">Business </a>
                                     <a class="drawer-link" href="/books/reference" tabindex="0">Reference</a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1089,7 +1089,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
                                     <a class="drawer-link" href="/books/business" tabindex="0">Business </a>
                                     <a class="drawer-link" href="/books/reference" tabindex="0">Reference</a>
                                     <a class="drawer-link" href="/books/audiobooks" tabindex="0">Audiobooks</a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1117,8 +1117,8 @@ if ( window.location.search.includes( 'cdi=' ) ) {
       </div>
     </div>
   </div>
-  
-  
+
+
           <div id="productdetails" class="drawer 9781984881779 isbn-related show">
           <h3 class="drawer-header">
             <button class="drawer-toggle" type="button" aria-expanded="false" aria-controls="drawer-product-details-9781984881779" tabindex="0">
@@ -1180,10 +1180,10 @@ if ( window.location.search.includes( 'cdi=' ) ) {
             </div>
           </div>
         </div>
-          
-  
+
+
     <div class="container-end"></div>
-</div>	
+</div>
 <div id="pdp-content-blocks" class="pdp-outer-content-blocks">
     <div class="pdp-content-blocks">
                     <div class="pdp-content-block content-block-border pdp-contrib-spotlight-block">
@@ -1268,7 +1268,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Minimalista</h3>
 				<div class="author">Shira Gill</div>
 				<div class="format">Hardcover</div>
-				<div class="price">$30.00</div> 
+				<div class="price">$30.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1293,7 +1293,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Girl Talk</h3>
 				<div class="author">Christie Young</div>
 				<div class="format">Ebook</div>
-				<div class="price">$4.99</div> 
+				<div class="price">$4.99</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1334,7 +1334,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">My Inner Sky</h3>
 				<div class="author">Mari Andrew</div>
 				<div class="format">Hardcover</div>
-				<div class="price">$22.00</div> 
+				<div class="price">$22.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1375,7 +1375,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">The Bottom Line for Baby</h3>
 				<div class="author">Tina Payne Bryson</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1416,7 +1416,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Practical Wisdom for Parents</h3>
 				<div class="author">Nancy Schulman</div>
 				<div class="format">Paperback</div>
-				<div class="price">$19.00</div> 
+				<div class="price">$19.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1457,7 +1457,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">The Year of the Puppy</h3>
 				<div class="author">Alexandra Horowitz</div>
 				<div class="format">Paperback</div>
-				<div class="price">$18.00</div> 
+				<div class="price">$18.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1498,7 +1498,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Organized Living</h3>
 				<div class="author">Shira Gill</div>
 				<div class="format">Hardcover</div>
-				<div class="price">$32.50</div> 
+				<div class="price">$32.50</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1539,7 +1539,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">The Self-Love Journal</h3>
 				<div class="author">Kelsey Layne</div>
 				<div class="format">Paperback</div>
-				<div class="price">$16.00</div> 
+				<div class="price">$16.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1580,7 +1580,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">The Preschool Years</h3>
 				<div class="author">Ellen Galinsky</div>
 				<div class="format">Paperback</div>
-				<div class="price">$19.00</div> 
+				<div class="price">$19.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1621,7 +1621,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">American Academy of Pediatrics Caring For Your Teenager</h3>
 				<div class="author">Philip Bashe</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 			</div>

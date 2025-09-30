@@ -272,28 +272,28 @@
                         <li><a class="track-ga-click-event -special-feature" data-ga-category="Navigation" data-ga-action="The Piglet" href="/web/20180306192701/https://food52.com/the-piglet">The Piglet</a></li>
                     </ul>
 
-<!-- 
+<!--
                       <div class="standard-subnav-block secondary">
                         <a class="subnav-block-frame js-track-ga-click-event" title="Read article" data-ga-category="Navigation" data-ga-action="Features &gt; Article Block 1" href="/blog/21771-eating-from-the-ground-up-vegetable-secrets">
                           <img class="lazy-nav-img" data-original="https://images.food52.com/6UPUvtdLrdN_tEa9W4sAmu26bjU=/265x265/9927e1b7-f4df-4bed-82b1-626fe5883edd--2016-0502_market-vegetables-herbs-and-flowers_james-ransom-033.jpg" alt="" nopin="nopin">
                           <noscript><img src="https://images.food52.com/6UPUvtdLrdN_tEa9W4sAmu26bjU=/265x265/9927e1b7-f4df-4bed-82b1-626fe5883edd--2016-0502_market-vegetables-herbs-and-flowers_james-ransom-033.jpg" alt="9927e1b7 f4df 4bed 82b1 626fe5883edd  2016 0502 market vegetables herbs and flowers james ransom 033" /></noscript>
                           <h3>4 Tricks to Coax Out Vegetables&#39; Secret Flavors</h3>
 </a>                      </div>
-                    
+
                       <div class="standard-subnav-block secondary">
                         <a class="subnav-block-frame js-track-ga-click-event" title="Read article" data-ga-category="Navigation" data-ga-action="Features &gt; Article Block 2" href="/blog/21785-roast-chicken-with-buttermilk-and-pickle-brine-with-cornichon-butter-potatoes">
                           <img class="lazy-nav-img" data-original="https://images.food52.com/yphdMXmtf5jED14BYfIlYTcs30Y=/265x265/481882d8-2346-4de8-985e-3867feb98c48--2018-0301_buttermilk-brined-roast-chicken-with-potatoes-and-cornichon-butter_3x2_bobbi-lin_7022.jpg" alt="" nopin="nopin">
                           <noscript><img src="https://images.food52.com/yphdMXmtf5jED14BYfIlYTcs30Y=/265x265/481882d8-2346-4de8-985e-3867feb98c48--2018-0301_buttermilk-brined-roast-chicken-with-potatoes-and-cornichon-butter_3x2_bobbi-lin_7022.jpg" alt="481882d8 2346 4de8 985e 3867feb98c48  2018 0301 buttermilk brined roast chicken with potatoes and cornichon butter 3x2 bobbi lin 7022" /></noscript>
                           <h3>Roast Chicken Borrows Trick from Fried Chicken, Never Looks Back</h3>
 </a>                      </div>
-                    
+
                       <div class="standard-subnav-block secondary">
                         <a class="subnav-block-frame js-track-ga-click-event" title="Read article" data-ga-category="Navigation" data-ga-action="Features &gt; Article Block 3" href="/blog/21770-soothing-cozy-feel-good-recipes-food-hugs">
                           <img class="lazy-nav-img" data-original="https://images.food52.com/5UdFLqeYwH40L7xxd09F-pNeqB0=/265x265/3f777a34-d480-4ff8-a9f0-d22ef52f5642--2017-1212_egglands-best-sponsored_egg-drop-soup-holiday_3x2_mark-weinberg_0161.jpg" alt="" nopin="nopin">
                           <noscript><img src="https://images.food52.com/5UdFLqeYwH40L7xxd09F-pNeqB0=/265x265/3f777a34-d480-4ff8-a9f0-d22ef52f5642--2017-1212_egglands-best-sponsored_egg-drop-soup-holiday_3x2_mark-weinberg_0161.jpg" alt="3f777a34 d480 4ff8 a9f0 d22ef52f5642  2017 1212 egglands best sponsored egg drop soup holiday 3x2 mark weinberg 0161" /></noscript>
                           <h3>24 Soothing Recipe Versions of a Cozy Hug </h3>
 </a>                      </div>
-                    
+
                       <div class="standard-subnav-block secondary">
                         <a class="subnav-block-frame js-track-ga-click-event" title="Read article" data-ga-category="Navigation" data-ga-action="Features &gt; Article Block 4" href="/blog/21767-whole-wheat-breads-muffins-cookies">
                           <img class="lazy-nav-img" data-original="https://images.food52.com/pPTfdDGjtCkG48DRHYFYNmt0SYU=/265x265/b1b1a8d1-b150-4e96-bc67-4ab8c24a10e5--2016-0826_electrolux_whole-wheat-persimmon-ricotta-scones_james-ransom-058.jpg" alt="" nopin="nopin">
@@ -543,7 +543,7 @@
                     </h4>
                     <ul class="basket-vendors" data-bind="foreach: vendors, css: {scroll: (numLineItems() > 2 || containsEmailFulfillment())}">
                       <li>
-                        
+
 <ul data-bind="foreach: items">
   <li class="basket-item">
     <!-- ko ifnot: loading -->
@@ -703,7 +703,7 @@
 <div class="leaderboard-block">
       <div id="div-gpt-ad-1378318893753-0" class="not-homepage"></div>
     </div>
-  
+
   <div id="page-body-block" class="page-body-block">
 
 <div class="block-container">
@@ -751,7 +751,7 @@
 <div class="js-sticky-actions-container">
 
 <div class="article-actions js-article-actions" data-sticky-min-width="1100">
-          
+
 <span class="collection-widget collection-widget-wrapper with-save-ux-helper" id="collection-widget-post-21251-" data-collectable-id="21251" data-collectable-type="post" data-collectable-num-faved="73" data-collectable-name="Crispy, Speedy Chicken Dinner, All in a Sheet Pan's Work" data-collectable-image="https://images.food52.com/d2XyYJj8k6lbkWJcdUmZ3YWeO-Q=/25a886ce-f1d6-4f88-8f44-35608199ffd0--2017-1212_sheet-pan-chicken_3x2_bobbi-lin_4866.jpg" data-include-cta="1" data-cms-block="" data-bind="with: $root.collections.collectionWidgets">
   <!-- ko with: collectionWidgetpost21251-->
     <a href="#" class="fave-btn js-fav-btn" data-bind="css: { '-has-faves': ($data.saveCount() > 0), '-faved': userFaved(), '-cta-showing': faveCtaShowing() }, attr: {title: userFaved() ? 'Unfavorite' : 'Favorite'}" data-toggle="tooltip">
@@ -850,7 +850,7 @@
               <div class="article-body-ad-label">Advertisement</div>
               <div class="article-body-ad-block" id="div-gpt-ad-1455737424908-0"></div>
             </div>
-            
+
 <p>4. <strong>Stagger entry of ingredients</strong>. Nestle the broccoli, chickpeas, and sun-dried tomatoes amongst the chicken thighs after they’ve been flipped. For best results, cut the broccoli into really small pieces to create more surface area for browning and ensure a quick roast (via <a href="http://web.archive.org/web/20180306192701/https://food52.com/blog/19120-15-ways-melissa-clark-a-sheet-pan-can-rescue-dinner">Melissa Clark and many others</a>).</p>
 <p>5. <strong>Boost browning (again!)</strong>. Sprinkle parmesan over the entire dish for its final roasting time to enhance browning and flavor (via <a href="http://web.archive.org/web/20180306192701/http://www.telegraph.co.uk/food-and-drink/recipes/one-pot-parmesan-roast-chicken-and-cauliflower/">Diana Henry’s One Pot Parmesan Roast Chicken and Cauliflower</a>).</p>
 <p>6. <strong>Crisp vegetables while the chicken rests</strong>. Spread the broccoli, chickpeas, and sun-dried tomatoes evenly across the sheet pan (tossing them a few times in the pan drippings) and return them to the oven for a few extra minutes; they’ll get browner, crispier, and more delicious.</p>
@@ -884,7 +884,7 @@
       <div class="clearfix"></div>
 
 <div class="story-recipe-header-actions">
-        
+
 <span class="collection-widget collection-widget-wrapper with-save-ux-helper" id="collection-widget-recipe-74277-recipe" data-collectable-id="74277" data-collectable-type="recipe" data-collectable-num-faved="125" data-collectable-name="Sheet Pan Chicken With Broccoli, Chickpeas, and Parmesan" data-collectable-image="https://images.food52.com/WV9_6FOxaVM12Pn373WYL1Ny8lw=/ba53f522-3231-4c19-a918-10d5385f7b03--2017-1212_sheet-pan-chicken_3x2_bobbi-lin_4866.jpg" data-include-cta="0" data-cms-block="recipe" data-bind="with: $root.collections.collectionWidgets">
   <!-- ko with: collectionWidgetrecipe74277recipe-->
     <a href="#" class="fave-btn js-fav-btn" data-bind="css: { '-has-faves': ($data.saveCount() > 0), '-faved': userFaved(), '-cta-showing': faveCtaShowing() }, attr: {title: userFaved() ? 'Unfavorite' : 'Favorite'}" data-toggle="tooltip">
@@ -1167,7 +1167,7 @@
               <img class="js-quick-basket-img" alt="The Most Addictive Bread You'll Ever Eat" nopin="nopin" src="http://web.archive.org/web/20180306192701im_/https://images.food52.com/lP838mS3SPKMjfCAv1rwF36rIJk=/265x265/56faeabe-fec8-4b20-a452-ccde8d7f7072--2017-0519_kindred-restaurant-milk-bread_bobbi-lin_26217.jpg"/>
             </div>
             <h4 class="related-content__title js-quick-basket-title">The Most Addictive Bread You&#39;ll Ever Eat</h4>
-            
+
 </a>            <a class="tile-topic-label" href="/web/20180306192701/https://food52.com/topics/baking">Baking</a>
         </div>
         <div class="related-content__item">
@@ -1179,7 +1179,7 @@
                 </span>
             </div>
             <h4 class="related-content__title js-quick-basket-title">Food52 Marble Board </h4>
-            
+
 </a>        </div>
         <div class="related-content__item">
           <a class="js-quick-basket always-basket" href="/web/20180306192701/https://food52.com/blog/20019?from_related=1&amp;related_src_type=recipe">
@@ -1187,7 +1187,7 @@
               <img class="js-quick-basket-img" alt="We Tested 5 Pie Crusts to Find the Best-Tasting " nopin="nopin" src="http://web.archive.org/web/20180306192701im_/https://images.food52.com/6CEhM0qiSRpRnNt3MR9U4sYxNFI=/265x265/a3a2cae1-014a-4879-988a-4594413c8fa2--2017-0628_comparing-pie-doughs-327_mark-weinberg.jpg"/>
             </div>
             <h4 class="related-content__title js-quick-basket-title">We Tested 5 Pie Crusts to Find the Best-Tasting </h4>
-            
+
 </a>            <a class="tile-topic-label" href="/web/20180306192701/https://food52.com/topics/tips-techniques">Tips &amp; Techniques</a>
         </div>
         <div class="related-content__item">
@@ -1199,7 +1199,7 @@
                 </span>
             </div>
             <h4 class="related-content__title js-quick-basket-title">Zwilling Madura Plus Nonstick Pan</h4>
-            
+
 </a>        </div>
     </div>
 </div>
@@ -1383,7 +1383,7 @@
     <h4>
       <span class="datetime">about 1 month ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/1417119-kelsey">Kelsey</a>
-      
+
     </h4>
     <p>Great tips!  Sounds delicious.</p>
   </div>
@@ -1395,7 +1395,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/1420360-e">e</a>
-      
+
     </h4>
     <p>If using chicken breasts (skin-on and bone-in), should I alter the recipe?</p>
   </div>
@@ -1407,7 +1407,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/13503-emilyc">EmilyC</a>
-      
+
     </h4>
     <p>They should work fine in the recipe as written though I’d check them a bit sooner for doneness (since white meat is a less forgiving than dark meat if it’s overcooked). Hope you enjoy!!</p>
   </div>
@@ -1419,7 +1419,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/107203-blork">Blork</a>
-      
+
     </h4>
     <p>Are you sure you mean baking powder and not baking soda? Baking powder raises acidity (i.e., lowers pH) while baking soda raises pH. It's actually a bit more complicated than that, because it depends on the starting point of the acidity level, but if the starting point is neutral then baking soda will raise the pH.</p>
   </div>
@@ -1431,7 +1431,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/13503-emilyc">EmilyC</a>
-      
+
     </h4>
     <p>Yes, baking powder!! I’d suggest reading the Serious Eats article I linked to above, plus google Kenji Lopez-Alt’s article on oven-fried buffalo wings. He tried both baking soda and baking powder and found they both promoted browning but the baking soda produced an off-flavor, among other things.</p>
   </div>
@@ -1443,7 +1443,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/1381039-pottsy-1990">pottsy.1990</a>
-      
+
     </h4>
     <p>Excited to try this one! Thanks for breaking down the recipe with all those useful little tips :)</p>
   </div>
@@ -1455,7 +1455,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/13503-emilyc">EmilyC</a>
-      
+
     </h4>
     <p>You’re very welcome! : )</p>
   </div>
@@ -1467,7 +1467,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/326971-clara">Clara</a>
-      
+
     </h4>
     <p>This recipe looks great! Is there a way to use other vegetables in this dish? Like carrots, zucchini, onions. eggplant and squash? </p>
   </div>
@@ -1479,7 +1479,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/13503-emilyc">EmilyC</a>
-      
+
     </h4>
     <p>Yes! You’ll want to sub vegetables that cook at about the same rate as broccoli—or shave/slice/shred ones with longer cooking times  (e.g., shave carrots into coins), or parcook (boil potatoes or whole carrots until almost tender, then proceed with recipe). Hope this helps!!</p>
   </div>
@@ -1491,7 +1491,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/44868-mickey0627">Mickey0627</a>
-      
+
     </h4>
     <p>Zahadi's in Brooklyn has really good preserved lemons.</p>
   </div>
@@ -1503,7 +1503,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/1379573-zahra-lee">Zahra Lee</a>
-      
+
     </h4>
     <p>Hi! Is there an easy way of preserving lemon 🍋 peel and/or a quick reference for purchasing in NYC?  I would really love to make this today!  Thanks!</p>
   </div>
@@ -1515,7 +1515,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/13503-emilyc">EmilyC</a>
-      
+
     </h4>
     <p>Hi Zahra: I don't know of any quick way of preserving lemon peel, but you should be able to find jars of preserved lemons at Whole Foods and many other supermarkets. I'm in the DC area, but the Whole Foods around me often have preserved lemons on the olive bar so you can buy them individually (so handy). Worst case, if you can't find it, finely grate the zest of one large lemon  and toss it in with the broccoli, sun-dried tomatoes, and chickpeas before roasting. It'll still be good! : )</p>
   </div>
@@ -1527,7 +1527,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/1379573-zahra-lee">Zahra Lee</a>
-      
+
     </h4>
     <p>Awesome!  Thanks Emily!  Going to WF now.  :-)  I love Sahadi's also.</p>
   </div>
@@ -1539,7 +1539,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/600085-jade-daru">Jade DaRu</a>
-      
+
     </h4>
     <p>Mark Bittman has a great recipe for quick preserved lemons: <a target="_blank" rel="nofollow" href="http://web.archive.org/web/20180306192701/https://cooking.nytimes.com/recipes/1013306-quick-preserved-lemons">https://cooking.nytimes...</a></p>
   </div>
@@ -1551,7 +1551,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/635567-ann-marie">Ann Marie </a>
-      
+
     </h4>
     <p>Preserved lemons are incredibly easy to make and you should (so that you can make extra to share!). A jar, Meyer lemons and LOTS of salt is all you need. Ready in four weeks.</p>
   </div>
@@ -1563,7 +1563,7 @@
     <h4>
       <span class="datetime">about 2 months ago</span>
       <a class="username" href="/web/20180306192701/https://food52.com/users/15123-rstaffel">rstaffel</a>
-      
+
     </h4>
     <p>I follow this recipe every winter when Meyer Lemons are on sale: <a target="_blank" rel="nofollow" href="http://web.archive.org/web/20180306192701/http://learntopreserve.com/the-art-of-preserving/2010/11/16/meyer-lemonswhat-elsepreserved.html">http://learntopreserve...</a></p>
   </div>
@@ -2334,7 +2334,7 @@ ga('send', 'pageview');
         f52.inputs.blogShow = blogShow;
       })();
     </script>
-    
+
   <script src="/web/20180306192701js_/https://food52.com/assets/manifest.blog_show-9841bafa7e22a1ccddf088222949d6f012ea1a634e16c6433fcb5b138b0cbc2a.js"></script>
 
 <script>(function() {

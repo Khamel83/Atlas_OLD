@@ -6,7 +6,7 @@
 
 **File**: `.env` (committed to repository)
 - **OpenRouter API Key**: `sk-or-v1-[REDACTED-OLD-KEY]`
-- **Firecrawl API Key**: `fc-c9c0fa81530c4e6f82d30c8c0aa68ff2` 
+- **Firecrawl API Key**: `fc-c9c0fa81530c4e6f82d30c8c0aa68ff2`
 - **NYTimes Credentials**: `newyorktimes@khamel.com` / `4yo@X@iczgsvVF_jJYhQ`
 - **WSJ Credentials**: `apllp` / `apllpny`
 
@@ -19,7 +19,7 @@
 # Revoke: sk-or-v1-[REDACTED-OLD-KEY]
 # Generate new key
 
-# Firecrawl API Key  
+# Firecrawl API Key
 # Go to: https://firecrawl.dev/account
 # Revoke: fc-c9c0fa81530c4e6f82d30c8c0aa68ff2
 # Generate new key
@@ -32,7 +32,7 @@
 # Change password: 4yo@X@iczgsvVF_jJYhQ
 
 # WSJ Account
-# Login: apllp  
+# Login: apllp
 # Change password: apllpny
 ```
 
@@ -193,7 +193,7 @@ git rev-list --all | xargs git grep "sk-or-v1" || echo "No API keys found"
 ## ✅ **VERIFICATION CHECKLIST**
 
 - [ ] OpenRouter API key revoked and regenerated
-- [ ] Firecrawl API key revoked and regenerated  
+- [ ] Firecrawl API key revoked and regenerated
 - [ ] NYTimes password changed
 - [ ] WSJ password changed
 - [ ] Secrets removed from current .env file

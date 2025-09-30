@@ -22,7 +22,7 @@ Tonight, some early warning signs for Donald Trump as he bleeds support among yo
 But first, I spoke to Cory Booker about today’s attention-grabbing social media push from Democrats, which
 showcases how they just might beat MAGA forces at their own clout-chasing game…
 
- 
+
 
 Revenge of the Nerds
 --------------------
@@ -75,7 +75,7 @@ Now, here’s Abby on the latest Capitol Hill chatter…
 Abby Livingston
 Abby Livingston
 
- 
+
 
 * Town hall
 aftershocks: After Republicans were lambasted over DOGE cuts at town halls back in their districts, N.R.C.C. chairman Richard Hudson has proposed ( https://www.politico.com/live-updates/2025/03/04/congress/gop-town-halls-richard-hudson-00210024?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that members… stop holding town halls. Of course, this kind of pullback is standard whenever members are caught on video getting scolded by their constituents, and
@@ -177,7 +177,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVZBeNbPf9ng6GMY9BtWw=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

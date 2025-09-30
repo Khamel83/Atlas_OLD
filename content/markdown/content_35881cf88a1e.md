@@ -13,7 +13,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11"> 
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<!-- OneTrust Cookies Consent Notice start for redfin.com -->
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="7e5bc3d6-ef20-4760-aa0d-c8df4649fae2" ></script>
 <script type="text/javascript">
@@ -21,7 +21,7 @@ function OptanonWrapper() { }
 </script>
 <!-- OneTrust Cookies Consent Notice end for redfin.com --><link rel="preload" as="script" href="https://www.googletagservices.com/tag/js/gpt.js" />
 
-<script async src="https://dn0qt3r0xannq.cloudfront.net/redfin-t35oUm0kl8/redfin-news/prebid-load.js"></script><!-- Google tag (gtag.js) --> 
+<script async src="https://dn0qt3r0xannq.cloudfront.net/redfin-t35oUm0kl8/redfin-news/prebid-load.js"></script><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-928P0PZ00X"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-928P0PZ00X'); </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -34,7 +34,7 @@ function OptanonWrapper() { }
 gtag('config', 'UA-294985-1');
 </script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v24.7 (Yoast SEO v25.9) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>A Record Share of Homebuyers Relocate</title>
 	<meta name="description" content="Homebuyers are seeking out less expensive locales like Tampa and San Antonio because the surging cost of housing and other goods is limiting their ability to buy homes in many U.S. cities." />
@@ -600,10 +600,10 @@ class="hfeed site" id="page">
 					<label class="elementor-screen-only" for="elementor-search-form-334aed88">Search</label>
 
 <input id="elementor-search-form-334aed88" placeholder="Search..." class="elementor-search-form__input" type="search" name="s" value="">
-					
+
 											<button class="elementor-search-form__submit" type="submit" aria-label="Search">
 															<i aria-hidden="true" class="fas fa-search"></i>													</button>
-					
+
 									</div>
 			</form>
 		</search>
@@ -863,10 +863,10 @@ class="hfeed site" id="page">
     Get a home loan <br> that helps you win
   </h3>
   <div style="display: flex; justify-content: center;">
-    <a 
-      href="https://www.redfin.com/mortgage-get-pre-approved?context=163" 
+    <a
+      href="https://www.redfin.com/mortgage-get-pre-approved?context=163"
       style="display: inline-block; background-color: #000; color: #fff; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 16px; transition: background-color 0.3s ease; white-space: nowrap; min-width: 200px; text-align: center;"
-      onmouseover="this.style.backgroundColor='#c12a36'" 
+      onmouseover="this.style.backgroundColor='#c12a36'"
       onmouseout="this.style.backgroundColor='#000'">
       Get prequalified
     </a>
@@ -947,8 +947,8 @@ class="hfeed site" id="page">
 		</section>
 				</div>
 					</main><!-- #main -->
-			
-		
+
+
 	</div><!-- #primary -->
 
 </div> <!-- ast-container -->
@@ -1054,19 +1054,19 @@ class="hfeed site" id="page">
                         <div class='gform-body gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_1_1" class="gfield gfield--type-email gf_inline gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'>Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
                             <input name='input_1' id='input_1_1' type='email' value='' class='large'   placeholder='Email Address' aria-required="true" aria-invalid="false"  />
                         </div></li><li id="field_1_2" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_2'>LinkedIn</label><div class='ginput_container'><input name='input_2' id='input_1_2' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_2'>This field is for validation purposes and should be left unchanged.</div></li></ul></div>
-        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Sign up'  /> 
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Sign up'  />
             <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='postback' />
             <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='legacy' />
             <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
             <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
             <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
-            
+
             <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
             <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImM4ODNiMjcwNTQwMDBkMGQxMmRkYmE1NTg0MmIzYTQzIl0=' />
             <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
             <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
             <input type='hidden' name='gform_field_values' value='' />
-            
+
         </div>
                         </form>
                         </div><script>

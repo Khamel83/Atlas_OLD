@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        I am about halfway through Going Infinite, Michael Lewis’ book about Sam Bankman-Fried, and I am very much enjoying it. Many of the reviews 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        I am about halfway through Going Infinite, Michael Lewis’ book about Sam Bankman-Fried, and I am very much enjoying it. Many of the reviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff
-    
-  
+
+
 
 I am about halfway through Going Infinite, Michael Lewis’ book about Sam Bankman-Fried, and I am very much enjoying it.  Many of the  reviews that I have read of the book complain that Lewis does not sufficiently explain that Bankman-Fried is Guilty and Bad, Actually, but that is not the book that he wanted to write or the one I want to read.
   [1]
@@ -115,37 +115,37 @@ Again, I don’t really know what happened. Perhaps I have misunderstood how the
 
 Everything about Sam Bankman-Fried’s life was perfectly optimized for becoming a famous billionaire and an infamous criminal defendant, in that order. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC silly season
-    
-  
+
+
 
 I made some dumb jokes   yesterday about how the US Securities and Exchange Commission sure brings a lot of enforcement actions just before the end of its fiscal year (Sept. 30), to pad its numbers for the year. I compared this to “earnings management” and “window dressing” for public companies, which are frowned upon, by the SEC, when companies do them.
 On that note, readers pointed out two things. One is that there is of course a literature. Here’s a recent paper by Dain C. Donelson, Matthew Kubic and Sara Toynbee on “ The SEC’s September Spike: Regulatory Inconsistency within the Fiscal Year”:
@@ -164,11 +164,11 @@ The SEC’s order finds that, in 2016 and 2017, Newell and Polk took actions tha
 
 Don’t want to pull sales forward into earlier quarters!
 
-  
-    
+
+
       Bonds
-    
-  
+
+
 
 One psychological difference between stocks and bonds is that people buy stocks largely for capital appreciation and they buy bonds largely for yield. So if you look at a stock and see that it was $10 yesterday and is $15 today, you will think “ah this stock is good at appreciating capitally” and buy it. And if you look at a bond and see that it yielded 4% yesterday and yields 5% today, you will think “ah this bond is getting yieldier” and buy it. These are somewhat inverse thought processes. (Bond prices move inversely to yields, you know.) Bonds get more attractive as they get cheaper; stocks get more attractive as they get more expensive.
 Oh, I kid, I kid, none of this is totally true, and you can always find Warren Buffett or whoever going around like “I love to buy stocks when they are on sale.” Still as a crude model of retail investor psychology this seems plausible? There are meme stocks, because everyone loves to pile into a stock that has gone up. There are not meme bonds.
@@ -182,11 +182,11 @@ Investors pulled $78.6 billion from U.S.-based taxable bond funds in the 12 mont
 Also here’s a good stock-style quote about bonds being “on sale”:
 “When you’re in an environment where bond yields go up every day, it starts getting a little nasty,” said Steve Sosnick, chief strategist at Interactive Brokers. “I don’t see people rushing in to buy bonds right now just because they’re kind of a falling knife. They’re on sale and lower prices should create demand, but we’re not seeing that.”
 
-  
-    
+
+
       Nessie
-    
-  
+
+
 
 A tension in antitrust law is:
 	It is illegal for two companies to get together and agree “we won’t cut our price below $10 if you won’t.” That is a classic conspiracy in restraint of trade.	If the two companies just independently decide to price their thing at $10, that’s fine,  that’s just competition. But in practice, two companies selling the same thing are probably going to sell it for around the same price. Also in most cases it’s not like the prices are secret. So if you monitor your competitors’ prices, and set your price where they set theirs, that’s probably fine. (Not legal advice!) 	These things are not so different? If your competitor calls you up and says “our price is $10, is yours also $10?” and you say “sure $10 is good” then you are conspiring. If your competitor just puts out a sign saying “our price is $10” and you drive by and see the sign and put up your own sign saying “our price is $10,” then you are competing. But the content of those two things is kind of the same?
@@ -202,11 +202,11 @@ Amazon.com used an algorithm code-named “Project Nessie” to test how much i
 The algorithm helped Amazon improve its profit on items across shopping categories, and because of the power the company has in e-commerce, led competitors to raise their prices and charge customers more, according to people familiar with the allegations in the complaint. In instances where competitors didn’t raise their prices to Amazon’s level, the algorithm—which is no longer in use—automatically returned the item to its normal price point.
 
 
-  
-    
+
+
       Money laundering
-    
-  
+
+
 
 The basic idea is that, if you are doing crime, you are probably getting paid in cash or in cryptocurrency or in, like, someone else’s bank account. If you do crime quite successfully, you will have a lot of cash or cryptocurrency or tainted bank money. You will want to turn that cash or crypto into some more convenient and usable and legitimate-seeming form of wealth: money in a clean bank account, most of all, but stocks and bonds and real estate and art can also work. The law is aware of this, and there are anti-money-laundering rules in most places that basically tell banks — but also crypto exchanges and stockbrokers and real estate agents and art dealers — “if someone comes to you with an enormous sack of cash, or crypto, or a wire transfer from North Korea, maybe ask some questions about where it came from and report it to the authorities.” 
 On the other hand if you do crime and have sacks of cash and take some cash out of a sack and go to a deli to get a sandwich and pay cash, the deli will not report you to anyone. You can’t really launder your money through sandwiches. 
@@ -217,15 +217,15 @@ In response to questions in parliament on Tuesday about the probe, Singapore’s
 
 If you have ill-gotten money, you might park it in diamonds, so if you walk into a diamond dealer they will ask you “is this money ill-gotten?” Or you might park it in, like, Pappy Van Winkle. The liquor store will not necessarily ask you “is this money ill-gotten?” before selling you a bottle, but maybe they should.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The 4 Billion   Pieces of Paper Keeping Global Trade Afloat.   Reverse-Mortgage Lawsuit Claims Feds Reneged on Loan Promises. Blackstone funds legal action over  soured Bain Capital deal. SoftBank’s Son Says Artificial General Intelligence Will Soon  Surpass Humans.   Tech IPOs Could Burn Firms Who Bought Into Hot Startups Too Late.   Steve Cohen’s Mets Flop While Orioles Win With New Breed of Moneyball. You Can Now Invest in  ‘Shrek’ Music Rights the Same Place You Buy Stocks. “ Plogging—a sport that combines running with trash collecting.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Several reviews recommend my Bloomberg colleague Zeke Faux’s crypto book, “Number Go Up,” which I endorse. Faux’s book is great, and hilarious, and morally scathing, and also way more skeptical about crypto and Bankman-Fried than Lewis is.
 
 
@@ -241,7 +241,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Again I think technically Bankman-Fried has lost $99 so the side bet should pay $34, but whatever. Also I suppose there is an argument that you should net the $33 (or $34) from Asher against his losses here, leaving him with losses of only $65, and thus making Asher the winner of the bet? But if you do that then he doesn't have the $33, so his losses are $98, so he does win the bet? Very paradoxical.
 
 
-  [6] I am being a little inaccurate here, because $100 is not *really* the intern’s entire bankroll. Jane Street interns are well paid and can probably afford to lose $100 in a day, and if they do then they can come back tomorrow with a fresh $100. Your job is to maximize returns (or learning, or whatever) over the whole summer, not over any one day. So it is plausible to think that your $100 is, you know, 1/60th of your bankroll or whatever, and so it’s not so bad to bet $100 on a 1%-edge bet. (It is more than Kelly however.) If you do that each day, you will in expectation end up with a profit of $60 for the summer. (You win $101 30 times, and you lose $99 30 times.) That’s … not … great? 
+  [6] I am being a little inaccurate here, because $100 is not *really* the intern’s entire bankroll. Jane Street interns are well paid and can probably afford to lose $100 in a day, and if they do then they can come back tomorrow with a fresh $100. Your job is to maximize returns (or learning, or whatever) over the whole summer, not over any one day. So it is plausible to think that your $100 is, you know, 1/60th of your bankroll or whatever, and so it’s not so bad to bet $100 on a 1%-edge bet. (It is more than Kelly however.) If you do that each day, you will in expectation end up with a profit of $60 for the summer. (You win $101 30 times, and you lose $99 30 times.) That’s … not … great?
 
 
   [7] I am taking some liberties here in specifying what the bet is. What I mean in the text is: If you are offered a flat $1 to take an even-money coin-flip bet, and your bankroll is $100, and you can set the size of the bet, then $10 is the number that roughly works in the Kelly math. The Kelly proportion of your bankroll to bet is (probability of win - (probability of loss / payoff)), where “payoff” is the proportion of the bet that you get back on a win (even money is 1.0). With a $10 bet, you lose $9 if you lose and win $11 if you win (due to the extra dollar payment), making this “really” a $9 bet from your perspective, and (0.5 - (0.5/(11/9)) = 0.09, and 9% of your bankroll is $9 (which is a $10 bet with the extra $1). This is counterfactual, though; Bankman-Fried did not offer $1 to bet $10, and there are other ways to specify the counterfactual bet. If you just do Kelly on like “coin flip with 1% edge” (that is, 50.5% chance of winning 100% and 49.5% chance of losing 100%), it would tell you to bet 1% of your bankroll, or $1.
@@ -259,48 +259,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [11] See the previous footnote: Asher doesn't owe him the extra 25 cents because he's still up on the day. Actually he's still up a lot, and it is plausible that his utility curve was such that a chance of inflicting 25 cents more pain on Asher was worth losing $100.75 of house money for him. But! That’s weird!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -311,46 +311,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjlo5l.648g/37c7a782.gif" alt="" border="0" /></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Here is a hypothetical move: You are in the business of producing and selling shrimp. You expand vertically by acquiring a chain of seafood 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Here is a hypothetical move: You are in the business of producing and selling shrimp. You expand vertically by acquiring a chain of seafood
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ultimate endless shrimp
-    
-  
+
+
 
 Here is a hypothetical move:
 	You are in the business of producing and selling shrimp.	You expand vertically by acquiring a chain of seafood restaurants.	The restaurants start to struggle and are heavily indebted, and you worry that your equity investment is losing value and possibly worthless.	How to cut your losses?	Well, you have two relationships to the restaurant chain: You own the equity, and you also supply the shrimp.	Not much you can do with the equity: There’s a lot of debt, the creditors rank ahead of you, and they are unlikely to let you take any cash out as a dividend.	But, as the equity owner, you also control the board of directors and get to appoint the chief executive officer.	The CEO decides how much shrimp to buy.	What if he decided to buy a lot of shrimp?	Then you’d make money on the shrimp, and extract at least some value out of your equity investment.
@@ -98,37 +98,37 @@ CEO: Oh no, no bids.
 
 Then he gets up from the table and shrimp fall out of his pockets and he walks out of the boardroom trailing shrimp everywhere, this is what corporate finance is all about.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Head of Macro
-    
-  
+
+
 
 I have written before, about my time at an investment bank, that I was the head of a lot of businesses, and so was everyone else:
 
@@ -154,11 +154,11 @@ Greenlight received information suggesting that Defendant had falsely represente
 Some of the most gloriously petty stuff you will ever see in investment management. Here is an email exchange between Roitman and Fishback, in which Fishback says “I will not be compelled to lie,” and Roitman replies “Compelled to lie? What are you talking about?” Here is Fishback’s X account, where he posts memes about being the head of macro and tries to debate Greenlight boss David Einhorn about Tesla.
 Fishback’s complaint says that he had a lot of responsibility at Greenlight, including making trades with its capital, but it does not seem to mention how many other people were on the macro team that he headed. I have a guess! Anyway I assume both sides are right: Surely Greenlight did not have a “head of macro,” and surely Greenlight did go around saying that Fishback was it.
 
-  
-    
+
+
       T+1ish
-    
-  
+
+
 
 The way it works now is:
 	On Monday, we do a stock trade: I agree to sell you 100 shares of XYZ for $20 each.	On Wednesday, we settle the trade: I give you the 100 shares, and you give me the $2,000.	That gives me two days to find the shares. Probably I already had them on Monday, but maybe not. Maybe I was doing a short sale, and I need to arrange to borrow the shares between Monday and Wednesday.
@@ -182,11 +182,11 @@ It’s worth wondering what “many or severe issues” could mean. Like two pos
 
 Those both probably feel severe. 
 
-  
-    
+
+
       ETH consensus
-    
-  
+
+
 
 I wrote last Thursday about two brothers who were charged with wire fraud for doing an exploit on the Ethereum blockchain that allegedly earned them $25 million from arbitrage bots. Ordinarily here is where I would give a two-sentence summary of the story, but honestly it is complicated, and I would advise you to either (1) read what I wrote last week or (2) skip the rest of this section.
 If you are still here, though, I want to clarify two points based on emails I got from readers.
@@ -202,11 +202,11 @@ MEV, which itself is controversial, can be a highly lucrative game dominated by 
 
 Well, no, they’re not going to return the money.
 
-  
-    
+
+
       Some sort of computer database to verify the provenance of cocoa beans
-    
-  
+
+
 
 Every time I see an article like this:
 
@@ -216,15 +216,15 @@ Ivory Coast’s cocoa and coffee regulator says it has mapped just over 80% of t
 
 I immediately search for the word “blockchain.” Five years ago, this article would absolutely have used the word “blockchain.” In 2024 it does not. I suppose that is some sort of progress.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Millennium Covets Citadel-Size Commodities Gains, Just Not the Risk. Dimon Led Bank CEOs to Fend Off Tougher Capital Rules. Flash in the Pan Meme Moment Takes Some Stock Traders on Wild Ride. Russian court seizes €700mn of assets from UniCredit, Deutsche Bank and Commerzbank. Meta’s Plan to Win AI Race: Give Its Tech Away Free. “Safety culture and processes have taken a backseat to shiny products.” Why prediction markets aren’t popular. There is No Excess Volatility Puzzle. Computer-Science Majors Graduate Into a World of Fewer Opportunities. “Excessive estimates of fraud damages contribute to a perception that high finance is an industry rife with criminals capable of squandering unimaginable amounts of money.” Feds Say Crypto Scammer Gave Nod To ‘Seinfeld’ Gag.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] “Thai Union indirectly holds approximately 47% of common equity interests and 100% of the preferred equity units, and Seafood Alliance indirectly holds approximately 38% of the common equity interests,” says the declaration; it appears to have effective governance control. “At the direction of Thai Union, Mr. Kenny became acting interim CEO following the resignation of the previous permanent CEO in April 2022,” says a footnote in the declaration.
 
 
@@ -237,48 +237,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] The rule is mostly that I need a “locate” to do the short sale, that is, my broker needs to be pretty confident that I *can* borrow the shares by Wednesday. But I don’t need to actually borrow the shares before doing the trade.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -289,46 +289,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl3m7m.6464/fbdf6c88.gif" alt="" border="0" /></a>

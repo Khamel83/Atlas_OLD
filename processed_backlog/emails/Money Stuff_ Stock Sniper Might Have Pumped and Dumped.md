@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Look, if someone on Twitter or Discord says that he is an expert day trader who has made millions trading penny stocks and will teach you hi
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Stock snipers
-    
-  
+
+
 
 Look, if someone on Twitter or Discord says that he is an expert day trader who has made millions trading penny stocks and will teach you his secrets, then I can tell you his secret. Here it is:
 	He buys penny stocks.	Then he goes on Twitter and Discord and tells you to buy them because they are so good and will go up.	You — and his other Twitter followers — buy them, which makes them go up.	He sells them to you at a profit.	Then you are stuck with them. They are not in fact good — they just went up because he told you to buy them — and you end up selling them at a loss.	He posts pictures of himself standing next to Ferraris, to validate his multimillionaire-day-trader status.	Other people see the Ferraris and want to get into the game.	He repeats this process.	In the fullness of time, the US Securities and Exchange Commission and federal prosecutors notice.	They go find his chats and emails and maybe surreptitiously record some of his private conversations.	In all of those chats he turns out to have said things like “I love doing crime” and “look at me doing all these crimes” and “this stuff I am doing is market manipulation, a crime” and “crime crime crime crime crime crime,” but with more swearing.	The prosecutors and SEC bring fraud charges.	In a sense, the complaints are very boring, because this is the most obvious sort of financial crime, and every case is exactly the same.	In another sense, the complaints are entertaining, because of the chats.
@@ -111,96 +111,96 @@ There is a subtle difference. The first approach imitates, in some rough way, re
 The second approach is pure nihilism; it’s just “never mind cash flows, I have some ability to pick the stocks that will go up and I have picked this one.” You’re not even lying, really. You do have the ability to pick stocks that go up: By picking a penny stock and telling your Twitter followers to buy it, you make the stock go up. Your Twitter followers are not buying the stock because they think it has a cure for cancer; they are buying it because they think that stock investing is an arbitrary game that you have figured out, or possibly because they know you’re doing a pump-and-dump but they hope to get out in time. Or possibly those are the same thing. In any case, the game is pretty transparent.
 These guys seem to have done a bit of both. Some of their posting was about their own trading, about the meta-game of pumping and dumping:
 
-Matlock (Twitter): And I’m not pumping and dumping on anyone. Why would I sell when I truly believe $RIBT gets over $1.50-$2. Haters mad to see anyone winning and come out if the stock is down 3% . All I post is information about it. 
+Matlock (Twitter): And I’m not pumping and dumping on anyone. Why would I sell when I truly believe $RIBT gets over $1.50-$2. Haters mad to see anyone winning and come out if the stock is down 3% . All I post is information about it.
 Deel (Twitter): $BCTX recap: I buy stocks that I think have a good chart and good news. That’s how I always play it and sometimes it goes the wrong way. That’s trading. I never dump shares on alerts. BCTX got smacked hard on a vwap reject and I took the L with you guys earlier. On to next
 
 On the other hand, there was also some alleged lying about actual companies:
 In the course of the scheme, various Defendants often highlighted an anticipated event that would purportedly raise the stock price (a “catalyst”) and encouraged buying and holding the stock until the event, falsely claiming that they too were holding the stock waiting for the catalyst. In the case of TRCH, the catalyst was a purported upcoming merger with another company, Metamaterial Inc. Hennessey claimed that he had discovered that this merger was coming in the course of his due diligence (“dd”) research on the company. Hennessey repeatedly promoted false information about Meta itself (e.g., that it was worth “north of $4.8 billion”) and promoted the purported benefits of the merger. Hennessey also posted about other purported long-term benefits to TRCH stock holders, including a “dividend” that TRCH shareholders would purportedly receive after the merger. Hennessey also claimed that Meta was potentially partnering with Tesla, and that Meta had products that had applications for fighting COVID-19 and thus a “10 billion dollar MARKET CAP POTENTIAL.”
 Yeah “this company found a cure for Covid and is also partnering with Tesla” is pretty straightforward fraud.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Tether short
-    
-  
+
+
 
 Among crypto skeptics, one particularly popular thing to be skeptical about is Tether, the biggest stablecoin. One Tether is supposed to be worth $1, because each Tether — there are about 66 billion Tethers outstanding — is supposed to be backed by $1 of safe dollar-denominated assets. A lot of people believe that Tether is not in fact fully backed, for reasons like “it definitely was not fully backed at all points in the past,   in really sketchy ways,” and “it   continues to   seem really sketchy,” and “it keeps  promising to do audits and then not doing them,” and, I mean, there’s a lot. And Tether seems to be central to  the workings of the crypto financial system; if your basic thesis is “crypto is a house of cards” then you might well think that Tether is part of what is propping it up.
 If you think things like this, one thing that you might want to do is bet against cryptocurrencies by selling them short. And betting against Tether seems particularly attractive, for two reasons:
@@ -224,20 +224,20 @@ Or you can bet against Tether by shorting Tether futures on some crypto exchange
  FTX, for instance, offered Tether futures, before it went bankrupt last month. You can see the problem here. The problem is that it went bankrupt last month. More generally, though, it’s the same as the problem in the previous paragraph: If Tether goes to zero, the crypto exchange where you shorted Tether futures might not still be around to pay out your bet.
 So in round numbers the way to make a $100 million bet against Tether is (1) you take $100 million of your own money, (2) you park it with some crypto counterparty to borrow 100 million Tethers, (3) you sell those Tethers, (4) Tether goes to zero, (5) you buy back the Tethers for $0, (6) you go back to your counterparty and say “here’s my 100 million Tethers, can I have my $100 million back,” and (7) your counterparty is just a smoking crater and your $100 million is gone. Being short Tether is a lot like being long Tether.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 The  New York Times reports that Elon Musk’s cunning strategy for cutting costs at Twitter Inc. consists of not paying the bills?
 To cut costs, Twitter has not paid rent for its San Francisco headquarters or any of its global offices for weeks, three people close to the company said. Twitter has also refused to pay a $197,725 bill for private charter flights made the week of Mr. Musk’s takeover, according to a copy of a lawsuit filed in New Hampshire District Court and obtained by The New York Times.
@@ -259,11 +259,11 @@ Two of the banking industry sources said if the banks tried to sell the loans no
 
 Yeah I mean 60 is quite a lot less than 95? But I guess if you ask an investor “hi, we are selling this loan, what will you pay for it,” and if you ask them “hi, we are not selling this loan, but hypothetically what would you pay for it,” you will get different answers.
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 If a Danish bank acquires a Finnish bank with a branch in Estonia that serves Russian customers and does not do sufficient anti-money-laundering checks, and some of those Russian customers at the Estonian branch of the Finnish bank owned by the Danish bank “were engaged in highly suspicious and potentially criminal transactions,” is that securities fraud in the US? You know the answer! It’s right in the section header:
 
@@ -282,126 +282,126 @@ From at least 2009 through early 2016, Danske knew or was reckless in not knowin
 
 If a public company anywhere in the world does a bad thing and its stock goes down, the SEC will take interest.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 In 60 Seconds Before CPI Hit, Heavy Trading Drove   Mystery Rally. Goldman weighs  bonus cut of at least 40% at investment bank. BlackRock Is Becoming the   Republican Bogeyman for ESG. FTX   Bankruptcy Standoff Heats Up as Bahamas Challenges US Case. Great   SPAC Crash of 2022 Deepens as Investors Cash Out in Droves. Twitter   Suspends the Account That Tracked Elon Musk’s Private Jet.  Fusion Industry Suddenly White-Hot After U.S. Lab Breakthrough. “ChatGPT can probably already write the routine earnings preview and review as well as  many sellside analysts.” Homebuilding Heir Alleges New COO Is Behind   Twitter Bot Attacks. New Zealand imposes  lifetime ban on youth buying cigarettes. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Another approach is to just do a bilateral bet with some counterparty who is more crypto-bullish than you, but not *too* crypto-bullish. Like if you are a hedge fund manager and you think crypto is dumb, and your buddy is a hedge fund manager and she thinks crypto is interesting, but she is very careful about risk and only has 2% of her assets in crypto, you could do a Tether bet with her, and if Tether collapses she’ll be like “ah well, win some lose some” and pay you. Thus “If someone showed me a way to do it with Goldman Sachs as a counterparty, I’m in.” Like at some price maybe you could get Goldman to do this, and if Tether collapsed, *Goldman* probably wouldn’t collapse.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

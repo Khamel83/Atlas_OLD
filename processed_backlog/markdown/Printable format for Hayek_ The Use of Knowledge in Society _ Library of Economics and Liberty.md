@@ -12,7 +12,7 @@
 
 # 404 Not Found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![404 Not Found]()
 

@@ -11,7 +11,7 @@
 
 # Watch a man beat 'Goldeneye,' 'Mario 64,' and 'Ocarina of Time' at the same time in under an hour
 
- / 
+ /
 
 ## It's like watching your childhood flash by
 
@@ -55,7 +55,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207090528im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207090528/http://theverge.com/)
 

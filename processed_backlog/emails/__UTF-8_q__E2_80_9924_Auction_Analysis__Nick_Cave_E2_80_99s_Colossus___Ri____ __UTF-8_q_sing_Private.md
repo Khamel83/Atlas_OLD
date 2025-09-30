@@ -40,7 +40,7 @@ Now here’s Julie’s latest dispatch from the gallery scene…
 Julie Davich
 Julie Davich
 
- 
+
 
 Gallery Hopping with Julie:
 Nick Cave at Jack Shainman
@@ -137,7 +137,7 @@ the price stratosphere. Instead, we got a standoff between sellers and buyers. 
 Until we see the numbers of highly traded works move to a substantially elevated level, it’s easy for buyers and sellers to come to a fair price on the private market without the need for price discovery, which is the primary function of the public marketplace. So, just because the higher end of the auction market is quiet doesn’t
 mean the art market itself is dying, even if the data sometimes suggests otherwise. 
 
- 
+
 
 Endnotes…
 -----------
@@ -221,6 +221,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUXPXgX0na3NCVXF3LG_M=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F12%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -6,7 +6,7 @@
 ## Smart Dispatcher Flow
 ```
 Content → Atlas Analysis → Smart Decision:
-├─ Articles/Small content → Process on Atlas immediately  
+├─ Articles/Small content → Process on Atlas immediately
 ├─ Large videos/podcasts → Queue job for Mac Mini
 └─ Mac Mini polls → Downloads → Transcribes → Reports back
 ```
@@ -56,7 +56,7 @@ Atlas analyzes incoming content and makes intelligent dispatch decisions:
 
 ### Mac Mini Execution
 1. **Polls Atlas** every 10 seconds for jobs
-2. **Downloads content** when job received  
+2. **Downloads content** when job received
 3. **Transcribes with whisper.cpp** locally
 4. **Reports transcript back** to Atlas
 5. **Atlas processes transcript** into knowledge base
@@ -72,12 +72,12 @@ Atlas analyzes incoming content and makes intelligent dispatch decisions:
 ```bash
 POST /api/v1/worker/register     # Mac Mini registers as worker
 GET  /api/v1/worker/jobs         # Mac Mini polls for jobs
-POST /api/v1/worker/results      # Mac Mini reports job results  
+POST /api/v1/worker/results      # Mac Mini reports job results
 GET  /api/v1/worker/status       # Check worker and job status
 ```
 
 ### Smart Dispatcher Integration
-```bash  
+```bash
 POST /api/v1/worker/jobs         # Atlas creates jobs for heavy content
 GET  /api/v1/transcriptions/status    # View transcription processing stats
 ```

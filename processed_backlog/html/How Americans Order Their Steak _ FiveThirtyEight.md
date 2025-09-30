@@ -9,7 +9,7 @@ Are people who prefer their steaks well done just wrong? It’s the question tha
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

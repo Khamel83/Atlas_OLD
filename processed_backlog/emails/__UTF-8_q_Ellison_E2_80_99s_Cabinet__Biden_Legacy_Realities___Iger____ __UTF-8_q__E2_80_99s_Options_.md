@@ -25,7 +25,7 @@ John Ourand checked in with Scott Van Pelt about that Stephen A. money; Tara Pal
 
 Check out these stories, and others, via the links below. And stick around for the backstory on how it all came together. 
 
- 
+
 
 FASHION
 FASHION
@@ -38,7 +38,7 @@ and…
 Sarah Shapiro
 traces ( https://puck.news/newsletter_content/taylors-skort-the-wal-mes-birkin-2025-predictions-2/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Skims cultural arc.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -46,7 +46,7 @@ ART MARKET
 Marion Maneker
 reveals ( https://puck.news/sothebys-abandons-new-fee-structure-after-lackluster-fall/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) why Sotheby’s backpedaled their new fee structure. 
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -58,7 +58,7 @@ and…
 
 Scott Mendelson combs ( https://puck.news/2024s-christmas-box-office-happy-ending/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the holiday box office receipts for clues about the coming year.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -66,7 +66,7 @@ WALL STREET
 Bill Cohan and Kim Masters, Puck’s
 newest partner, assess ( https://puck.news/2025-hollywoods-everything-is-on-the-table-year/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the entertainment dealmaking landscape and Iger’s succession gauntlet.
 
- 
+
 
 MEDIA
 MEDIA
@@ -79,7 +79,7 @@ and…
 John Ourand chats with ( https://puck.news/fairway-rollin-hosts-on-the-future-of-pro-golf/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) ESPN stars about the network’s new course and the crisis in
 professional golf.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -92,7 +92,7 @@ and…
 Abby Livingston inspects ( https://puck.news/the-mysterious-case-of-kay-granger/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the roiling Kay Granger
 micro-crisis on the Hill.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -135,7 +135,7 @@ breakdown of the battle between Hollywood and Silicon Valley on The Powers That 
 As a reminder, you can update your profile at any time to get more stories
 like these directly in your inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 The
 New New Thing
@@ -173,7 +173,7 @@ with the White House scholar Doug Brinkley in Biden & His Discontents ( https://
 But if you only have time to read one piece this weekend, I’d turn your attention to Hollywood’s “Everything Is on the Table” Year ( https://puck.news/2025-hollywoods-everything-is-on-the-table-year/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), an incredible dialogue between Bill Cohan and our newest partner, Kim Masters, the
 legendary Hollywood chronicler, who officially begins her tenure at Puck next month. Kim and Bill get into the manifold challenges and mysteries facing the entertainment industry—the cable albatross, the Ellisons’ arrival, Bob Iger’s succession, and so much more. These are the stories of our time, expertly told, and precisely what you should expect from Puck, this time of year or any other.
 
- 
+
 
 Have a great weekend,
 
@@ -193,6 +193,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUMZAJ9hQzR6cDHqZACoc=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

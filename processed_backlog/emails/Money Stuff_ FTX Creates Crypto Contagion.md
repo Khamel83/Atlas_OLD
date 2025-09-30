@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I asked yesterday if there has ever been a liquidity crisis at a crypto firm. I didn’t really get any answers.%3Cp%3EI%20actually%20got%20on
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Contagion
-    
-  
+
+
 
 I  asked yesterday if there has ever been a liquidity crisis at a crypto firm. I didn’t really get any answers.
   [1]
@@ -100,63 +100,63 @@ Bankrupt crypto lender Voyager was forced to try to find a replacement buyer for
 
 BlockFi and Voyager are both examples of troubled crypto firms that got bailouts from the central bank of crypto, back this summer when that central bank was FTX. Trusting one guy to save the crypto financial system in crisis introduces its own, pretty obvious risks.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tweeting through it
-    
-  
+
+
 
 Here are some tweets that Sam Bankman-Fried tweeted last night:
 
@@ -196,20 +196,20 @@ Bankman-Fried also tried to get a group of crypto firms to each pitch in $1 bill
 
 So the most promising targets said no a week ago, but I guess you gotta keep trying.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Clearing
-    
-  
+
+
 
 Earlier this year a big trader on the London Metals Exchange   ran into trouble. He had a huge short position in nickel futures, and the price of nickel went up a lot when Russia invaded Ukraine. As a result, this trader — Xiang Guangda of Tsingshan Holding Group Co. — had big losses, and the LME called his brokers and demanded that they post more collateral against his losing positions. The brokers called him for collateral, and he didn’t have it. So the brokers liquidated his nickel positions — no, just kidding, Xiang was too big and important, so the brokers did not liquidate his futures positions. Instead there was   a sort of weird ad hoc scramble in which the brokers loaned him some money to keep him afloat, the LME shut down trading for a week so he wouldn’t have to liquidate, and it reversed some trades that had already happened so that he wouldn’t lose too much money. Eventually, in some sense, this “worked”: The price of nickel normalized, the LME reopened, and Xiang was able to close out his positions at a more modest loss.
 People got really mad about this, for a number of reasons. For one thing it seems unfair to cancel trades to bail out one big trader; it is arbitrary, and the opposite of how markets are supposed to work, and particularly harsh for the people on the other side of the trades. Also Xiang was a well-connected Chinese metals tycoon, and the LME is Hong Kong-owned, and  there were some theories about the LME bending its rules for favored clients. Also it just exposed a certain ricketiness in the system: Shouldn’t the LME manage risk and positions so that it doesn’t have to shut down for a week because someone made a bad trade?
@@ -239,11 +239,11 @@ Collectively, the comments highlight how, even in some of the most sophisticated
 
 Yeah I mean fine, I guess, but in some ways wasn’t it a good idea?
 
-  
-    
+
+
       Culture
-    
-  
+
+
 
 There is definitely going to be a movie of the FTX meltdown. (Michael Lewis is already selling it.) Will it make a good movie? On the one hand, it will be set at a lavish penthouse in the Bahamas full of young people who want to change the world and/or misappropriate customer money. On the other hand, Kevin Roose interviewed George Lerner, FTX’s “in-house performance coach” and psychiatrist, and he has some bad news on the sex and drugs front:
 
@@ -272,15 +272,15 @@ Many gave up stable careers at big Wall Street firms including Goldman Sachs and
 
 Look you could have written that in, like, 2014. Of course Bitcoin is way up since 2014, so in a sense you would have been right. But it’s a lot of years of growing pains and bad actors.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Musk issues ultimatum to staff: Commit to  ‘hardcore’ Twitter or take severance. Elon Musk Fires Twitter Employees Who Criticized Him.   SpaceX Is in Funding Talks That Would Value It at Over $150 Billion. Musk Claims No Role in Setting His   $55 Billion Pay Deal at Tesla. Bay Area sports teams flee FTX after its spectacular collapse. FTX and Star Backers Including   Brady, Curry Sued by Investor. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I actually got one very funny answer, which is: “Mt. Gox?” A rough overview of the Mt. Gox story  is: (1) Mt. Gox was the largest crypto exchange for a while, (2) in 2014 it got hacked and all its Bitcoins were stolen, (3) it went bankrupt and customers had to wait for years for a recovery, (4) in the meantime it got back some but not all of its Bitcoins, (5) also in the meantime the price of Bitcoin soared, so (6) by the time the customers got their recovery, Mt. Gox had *way* more assets — measured in dollars and yen — then the customers had lost. So at some level you could say “Mt. Gox had assets, it temporarily lost access to them, but then it got them back and had more than enough to pay off all of its customers, so it was just a liquidity crisis.” But not really. For one thing, the customers *didn’t* all get paid back, measured in Bitcoin; they lost Bitcoins and got back fewer Bitcoins. (But those Bitcoins were worth more dollars.) For another thing, getting all your assets stolen is traditionally a solvency problem, even if later you get some of them back.
 
 
@@ -296,114 +296,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] That number is, like, there is about $1 billion of liquid assets on the balance sheet, and about $9 billion owed to customers, so if you pay out the $1 billion and get $8 billion more of cash from an investor, you can pay off the customers. And then the investors who put in the $8 billion get to keep the $9 billion of semi-liquid and illiquid assets, making this — on Bankman-Fried’s math — an attractive deal for those investors. That’s the theory.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -41,7 +41,7 @@ ground in Los Angeles is to gather information regarding what organizations need
 Mentioned in this issue: Laura Reilly, Alaïa, Cos, Sogole Kane, Sandy Liang, Salomon, Nell Diamond, Hill House Home, Meghan Markle, Sofia Richie, Posse, Gab Waller, Alex Mill, Alissa Zachary, Mickey Drexler, J.Crew, Net-a-Porter, Daniella Kallmeyer, Jeanne Damas,
 Mark Zuckerberg, LTK, ShopMy, Madeline Cohen, Shopify, Amber Venz Box, and many, many more… 
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -124,7 +124,7 @@ Ada ( https://go.shopmy.us/p-12112314?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281
 this version ( https://go.shopmy.us/p-12128066?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and you can go back to one of the originals, The Repetto Camille ( https://go.shopmy.us/p-12128094?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), available in over a dozen fabrications and colors. And Loro Piana ( https://go.shopmy.us/p-12112506?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )keeps adding new riffs. (P.S., for a luxury shoe, the Rebecca is
 reasonably priced, especially if you buy it in Paris and get the tax refund.)
 
- 
+
 
 The Week in Feedback…
 -----------------------
@@ -154,7 +154,7 @@ incredible, thank god!), and until now we’ve had Loewe and Bottega very much l
 On Proenza leaving Proenza: “Thrilled for the boys, but sad about the NYFW cancellation this
 season because I was looking forward to that potential menswear debut. But looks like we’ll get it at Loewe so can’t be too mad.” —An editor
 
- 
+
 
 Until Monday,
 
@@ -188,6 +188,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUdsNzPHwkytSQqauHzjk=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F17%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

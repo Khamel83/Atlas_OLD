@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Automated Tinder and the Eigenface" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-39096 single-format-standard wp-theme-fd-modern-6-0 elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,73 +436,73 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-post" class="archive-post eleven columns">
 
 <div class="nine columns offset-by-two alpha">
-		
-                        
-        
+
+
+
 		        <h1>
                 Automated Tinder and the Eigenface                </h1>
-		
+
     </div>
     <div class="clr"></div>
-    
+
     <div class="byinfo two columns alpha">
-                        
+
         <a href="https://flowingdata.com/2015/02/18/automated-tinder/">February 18, 2015</a>
-        
+
                 <div style="margin-top:1.5rem">
             <h3 class="toplevel">Topic</h3>
     		<strong><a href="https://flowingdata.com/category/statistics/" rel="category tag">Statistics</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/dating/" rel="tag">dating</a>, <a href="https://flowingdata.com/tag/eigenface/" rel="tag">Eigenface</a>, <a href="https://flowingdata.com/tag/tinder/" rel="tag">Tinder</a>        </div>
-                
-        
+
+
             </div>
-    
+
     <div class="nine columns omega">
-        
-                
+
+
         <div class="archive-featured-image">
                         <img fetchpriority="high" width="600" height="302" src="https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard.jpg 600w, https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard-210x106.jpg 210w" sizes="(max-width: 600px) 100vw, 600px" data-attachment-id="39097" data-permalink="https://flowingdata.com/2015/02/18/automated-tinder/tinderbox-dashboard/" data-orig-file="https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard.jpg" data-orig-size="600,302" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="tinderbox dashboard" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard.jpg" data-large-file="https://flowingdata.com/wp-content/uploads/2015/02/tinderbox-dashboard.jpg" />                    </div>
                 <!-- <div class="clr"></div> -->
-        
-        
+
+
         <div class="entry">
-                                    
+
                 <p>Because using Tinder takes up oh so much time swiping, swiping, and swiping, <a href="http://crockpotveggies.com/2015/02/09/automating-tinder-with-eigenfaces.html">Justin Long made a bot that swipes and starts conversations for him</a>. Step 1: Use his existing preferences to create two  Eigenfaces, commonly used in face recognition, that represent a yes and a no. Step 2: Automate everything else with the Tinder API.<br />
 <span id="more-39096"></span></p>
 <blockquote><p>What are the results so far? The bot is amazingly effective. I would estimate an accuracy of up to 70% in its selections &#8211; though there may be a hindsight bias. Using a brand new account, I did a quick test to see how quickly the bot could get results. In 48 hours, the bot registered 21 matches (starting all of those conversations), made 4 extended conversations, and the bot itself made over 300 moves. A &#8220;move&#8221; is any step the bot makes in either sending a message or making a swipe. And in that time I barely needed to touch the app. I also created a dashboard to give me an overview of my metrics.</p></blockquote>
 <p>Kids these days.</p>
-                
-                
-                                        
+
+
+
             <div class="clr"></div>
         </div><!-- @end .entry -->
-        
-        
+
+
                 <div style="border-top:1px solid #e8e8e8;padding-top:1.5rem">
     		<!-- Begin Mailchimp Signup Form -->
             <h3 class="toplevel" style="margin-bottom:0">FlowingData Delivered to Your Inbox</h3>
     		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     		<style type="text/css">
     			#mc_embed_signup{
-    				background:#fff; clear:left; 
+    				background:#fff; clear:left;
     				font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
-    				font-size: .9rem; 
+    				font-size: .9rem;
     			}
     			#mc_embed_signup form {
     				padding-left: 0;
     			}
-    			#mc_embed_signup input.email { 
-    				font-size: 1rem; 
-    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important; 
+    			#mc_embed_signup input.email {
+    				font-size: 1rem;
+    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important;
     			}
     			#mc_embed_signup .input-group label { vertical-align: middle; }
     			#mc_embed_signup .input-group ul { padding: 0 !important; }
@@ -533,13 +533,13 @@ img.wp-smiley, img.emoji {
     		</form>
     		</div>
     		<!--End mc_embed_signup-->
-            
+
             <div class="clr"></div>
         </div><!-- @end newsletter signup -->
-                
-		
+
+
                 <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -565,8 +565,8 @@ img.wp-smiley, img.emoji {
 
 </div>
     <div class="clr"></div>
-    
-    <div class="nine columns offset-by-two alpha">    
+
+    <div class="nine columns offset-by-two alpha">
     <span id="comments"></span>
 
 </div>
@@ -581,15 +581,15 @@ img.wp-smiley, img.emoji {
                      <a href="https://flowingdata.com/membership/">
                 <p>Support an independent FlowingData, and get extra visualization goodness.</p>
                 <p><small>Become a member &rarr;</small></p>
-                        
+
         </a>
-    </div><!-- @end membership-sidebar --> 
-         
-    
-	
-    	
-    
-    
+    </div><!-- @end membership-sidebar -->
+
+
+
+
+
+
     <div id="book-sidebar" class="sec">
         <h3 class="toplevel" style="margin-bottom:1em">Second Edition</h3>
         <a href="https://book.flowingdata.com/">
@@ -602,18 +602,18 @@ img.wp-smiley, img.emoji {
         <div class="clr"></div>
         <br />
     </div><!-- @end book-sidebar -->
-    
-    
-	
-    
-        
-    
-    
-    
-    
-    
-	
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!-- @end #sidebar -->
 
 <div class="clr"></div>

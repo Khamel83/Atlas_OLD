@@ -7,8 +7,8 @@
 
 View this post on the web at https://www.notboring.co/p/the-appetizirp
 
-Welcome to the 1,343 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 188,230 smart, curious folks by subscribing here: 
-Quick note: This post might cut off in your inbox. Click “The AppetiZIRP” at the top to jump to the online version and read the whole thing. 
+Welcome to the 1,343 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 188,230 smart, curious folks by subscribing here:
+Quick note: This post might cut off in your inbox. Click “The AppetiZIRP” at the top to jump to the online version and read the whole thing.
 Today’s Not Boring is brought to you by… Composer [ https://www.composer.trade/?utm_source=notboring&utm_medium=newsletter&utm_campaign=2-26-23&utm_content=homepage ]
 You know Composer. I love Composer — the investing app that helps you achieve superior returns with logic and data. Since founding its algorithmic trading platform in 2020, Composer has helped over 20,000 customers trade 100s of millions of dollars. I’m one of them — my Composer portfolio is actually up since I started using it last year, which is incredible because the portfolio of individual stocks I own is … not.
 Here’s what I like about using Composer:
@@ -20,7 +20,7 @@ As a Not Boring reader, you can get an extra free week of Composer’s trial off
 Hi friends 👋, 
 Happy Tuesday from snowy Brooklyn!
 I have a bunch of goals for this newsletter. Our mission is to make the world more optimistic. I want to invest in and tell the stories of companies that are bending the world’s trajectory upwards. But there’s one immediate short-term thing I really want to get across: the world is going to keep getting much weirder, really fast. 
-Instead of dismissing the latest Weird New Thing as a fad or temporary (transitory?) insanity, I want you to see that the Weird New Thing is just a small taste of a Much Weirder Future Thing. I want you to start taking weird shit more seriously. 
+Instead of dismissing the latest Weird New Thing as a fad or temporary (transitory?) insanity, I want you to see that the Weird New Thing is just a small taste of a Much Weirder Future Thing. I want you to start taking weird shit more seriously.
 We’re in the middle of one of those “everything is changing” times. And in times like these, it’s helpful to zoom out, look back, and look forward. It’s impossible to predict the future with any meaningful accuracy, but it is possible to take the present much more seriously.
 Let’s get to it.
 The AppetiZIRP
@@ -109,9 +109,9 @@ That world, if it comes to pass, will make ZIRP Phenomena look like the good ol�
 Of course, I hope that people will take advantage of the need to work less to actually work less, to spend more quality time with their family and friends, to explore the world and connect with a higher purpose. As we pointed out in last week’s Weekly Dose, one consequence of increased productivity has been that most people work less: college, retirement, and weekends are all relatively recent phenomena. This trend, too, will likely continue. We’ll get to play games for work and work less, if we wish. 
 Long before AGI, there are nearer-term implications that will impact many of us. I’ve written about a couple of them this year, in Differentiation [ https://www.notboring.co/p/differentiation ] and Love in the Time of Replika [ https://www.notboring.co/p/love-in-the-time-of-replika ]. Over the next few weeks, I have a few more planned out. I suspect that a lot of what I write in this newsletter in the coming months and years will be about the businesses bringing about this weird, abundant future and what will be different when they do. 
 If this really is one of those “everything is changing” moments, it’s going to keep me busy and employed… until it takes my job, too.
-Thanks to Dan [ https://twitter.com/damccormick13 ] for editing! 
+Thanks to Dan [ https://twitter.com/damccormick13 ] for editing!
 That’s all for today! We’ll be back in your podcast feeds this week and your inbox on Friday for that Weekly Dose of Optimism.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEExTlRBM01qUXlMQ0pwWVhRaU9qRTJOemMxT1RFM09EVXNJbVY0Y0NJNk1UWTRNREU0TXpjNE5Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkxmeUQ3ckV5U3VzVFZDWGwxMUNQYllVdVNZTnJvUnRXMnAwMnV1c1BnQzAiLCJwIjoxMDU1MDcyNDIsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc3NTkxNzg1LCJleHAiOjE2ODAxODM3ODUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.309rdCDvDlY_Pb-D1bjzjhXpug2UjNH6xYytDGjSJro?

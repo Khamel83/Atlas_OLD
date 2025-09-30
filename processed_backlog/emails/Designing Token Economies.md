@@ -18,7 +18,7 @@ As an investment, art checks a lot of boxes:
 ✅  Risk-adjusted performance: Nearly 0 correlation to equities according to Citi 
 ✅  Appreciation: contemporary art appreciated by 14% annually (1995-2021) 
 As an asset class, art isn’t a GME or South Sea. You won’t 10x your investment in 24 hours, but you probably won’t lose 90% of it either.
-Luckily, art investing is easier than ever. With Masterworks, you can invest in million dollar paintings without millions of dollars in the bank. Plus they’ve compiled a metric ton of data, and pick quality works for you. 
+Luckily, art investing is easier than ever. With Masterworks, you can invest in million dollar paintings without millions of dollars in the bank. Plus they’ve compiled a metric ton of data, and pick quality works for you.
 I’m no art expert, but I can invest like one with Masterworks. Use my private link [https://substack.com/redirect/f5a42aa1-a710-4373-b347-69ba7e69dba9?u=16283549] to get priority access today.*
 Hi friends 👋 ,
 Happy Tuesday!
@@ -88,10 +88,10 @@ Here, too, it’s still so early, and that thesis will need to be proven at scal
 Tokens can give both applications and protocols superpowers – like power boosts on their strengths – provided they start from a place of creating real user value. For the scope of this piece, we’ll focus on protocols. 
 Protocols need to do many of the same things that companies do, but they also face additional challenges in coordinating decentralized groups of user/owner/contributors/voters. Luckily, they have an ace up their sleeves, tokens, that give them potential advantages in both coordinating activity and capturing value, often alongside their builders and users. In that sense, they’re not building companies as much as they’re building economies.   
 These strategic differences suggest that protocols might be more similar to open source software projects, a comparison that’s frequently made, with some key differences like native tokens and the fact that contributors get paid. A less obvious comparison, though, is that protocols might behave a lot more like countries than companies. 
-To learn about Protocols as Countries, a Framework for Token Design, and What the World Looks Like When the Dust Settles… 
+To learn about Protocols as Countries, a Framework for Token Design, and What the World Looks Like When the Dust Settles…
 Thanks to Tina [https://substack.com/redirect/4ac0a2e6-f9da-49dc-835b-b5be68f87309?u=16283549] for lending us her brilliance, to Dan [https://substack.com/redirect/20daffc9-ea41-4302-8082-f92f997caa71?u=16283549] for editing, and to Conner Swenberg and Mind Apivessa for inspiring thoughts that informed this piece!
-Important programming note: we’re taking off next week for Memorial Day. We’ll be back to our regularly scheduled programming the following week! 
-Thanks for reading, and see you in a couple weeks! 
+Important programming note: we’re taking off next week for Memorial Day. We’ll be back to our regularly scheduled programming the following week!
+Thanks for reading, and see you in a couple weeks!
 Packy
 *See important reg A disclosures [https://substack.com/redirect/dfe2f3dc-6904-464f-93c7-93786aabd74d?u=16283549]
 

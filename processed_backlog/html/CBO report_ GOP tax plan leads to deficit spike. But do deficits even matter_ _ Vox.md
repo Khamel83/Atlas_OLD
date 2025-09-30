@@ -99,7 +99,7 @@ You don’t have to go as far as Kelton to think that concerns over deficits are
 
 None of those is a reason to ignore the deficit entirely. But each is a concern that might outweigh the need for particular kinds of deficit reduction, or might temper the urgency of deficit reduction as a goal, given other goals society has.
 
-See More: 
+See More:
 
 * [Politics](/web/20241214101334/https://www.vox.com/politics)
 

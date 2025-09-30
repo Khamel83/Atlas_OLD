@@ -30,7 +30,7 @@ other, so it’s a marvel that Larroudé and her husband-business-partner, Ricar
 
  
 
-Finally, I’ve got some updates on how you can help support Los Angeles right now: Eckhaus Latta co-founder Zoe Latta opened an online shop ( https://www.not-free.store/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to raise money to support firefighters; jeweler Sarah Hendler is donating 100 percent of the proceeds of her hearts-heavy ( https://www.sarahhendler.com/collections/all-is-not-lost?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) collection to a trio of good causes; and Danielle Sherman is doing the same for a selection of Sherman Field pieces 
+Finally, I’ve got some updates on how you can help support Los Angeles right now: Eckhaus Latta co-founder Zoe Latta opened an online shop ( https://www.not-free.store/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to raise money to support firefighters; jeweler Sarah Hendler is donating 100 percent of the proceeds of her hearts-heavy ( https://www.sarahhendler.com/collections/all-is-not-lost?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) collection to a trio of good causes; and Danielle Sherman is doing the same for a selection of Sherman Field pieces
 ( https://shermanfield.com/collections/la-fires-donation-products?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
  
@@ -38,7 +38,7 @@ Finally, I’ve got some updates on how you can help support Los Angeles right n
 Mentioned in this issue: Marina Larroudé, LVMH earnings, Tiffany, Richemont, Takashi Murakami, Louis Vuitton, Zendaya, Taylor Swift, Blake Lively, LuxExperience, Quince, Alix Earle, the skinny jeans “revival,” Demna, Kim Jones, Burberry,
 Pharrell Williams, Plum Sykes, and many, many more.
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -134,7 +134,7 @@ service—Marina and Ricardo were also jumping in to help handle complaints them
 Larroudé’s growing pains highlight just how hard it is to reinvent the traditional retail model. But the company’s also tackling the industry’s biggest headaches head-on. Yes, yes, they still need to solve their operational
 challenges, but the shift away from traditional wholesale could provide a new blueprint for inventory management. In an industry grappling with inventory issues, delayed payments, and changing consumer expectations, their experiment is admirable. Whether or not they succeed, they’re showing the industry what the future of fashion retail could look like.
 
- 
+
 
 What
 We’re Reading… and Listening To…
@@ -166,7 +166,7 @@ Plum Sykes launched a Substack!
 
 Pete Nordstrom and Burberry C.E.O. Joshua Schulman offer an essential lesson in sock styling. [The Nordy Pod ( https://open.spotify.com/episode/1DbFhP65QMiyhiHf61GUdO?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Can we talk about former WSJ. and T magazine
 editor Deborah Needleman’s baskets ( https://www.deborahneedleman.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )?
@@ -231,6 +231,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUr5KOqI9GcSMFuGmEfB8=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

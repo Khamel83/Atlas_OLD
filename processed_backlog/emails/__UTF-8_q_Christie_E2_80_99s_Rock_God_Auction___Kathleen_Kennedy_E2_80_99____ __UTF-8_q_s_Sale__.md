@@ -31,7 +31,7 @@ aren’t your thing, there’s also a collection of American regional paintings 
 
 But first, here’s a bit more on Beck…
 
- 
+
 
 Making Jeff Beck’s Guitar
 Show
@@ -140,7 +140,7 @@ We’re all fortunate that Kennedy and Marshall decided to get these treasures o
 Guggenheim—who is also the author of the travel guideOnly in L.A. ( https://www.amazon.com/dp/1734590424?ref=cm_sw_r_ffobk_cso_cp_apin_dp_2MC56XX86W36349TJQNF&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_2MC56XX86W36349TJQNF&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_2MC56XX86W36349TJQNF&starsLeft=1&skipTwisterOG=1&bestFormat=true&titleSource=avft-a&newOGT=1&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—was not as lucky. She lost her Malibu home in the Palisades fire. But when she
 spoke to me from her New York home, she said she was most concerned about the many domestic service workers who were going to be out of jobs—which struck me as the kind of sentiment you’d expect from an expert in artworks from the social realist movement.
 
- 
+
 
 Endnotes…
 -----------
@@ -218,6 +218,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUgMt-oUQ4jpY3qpz1XO8=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

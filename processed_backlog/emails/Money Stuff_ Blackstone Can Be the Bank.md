@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Why are there regional banks? We have talked a lot recently about the cen
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Blackstone Bank
-    
-  
+
+
 
 Why are there regional banks? We have   talked a   lot recently about the central fragility of the business model: Banks take short-term deposits to fund long-term loans, and when interest rates go up their depositors might leave (or demand higher interest) as their loans lose value, making them fail. Giant global banks mitigate this problem by being “too big to fail,” which means not only that if their depositors flee the government will bail them out, but also that their creditors might reasonably think something like “well, if JPMorgan fails, then the world has probably ended, so I’m not going to worry too much about their credit risk.”
   [1]
@@ -92,37 +92,37 @@ Blackstone does not have a controlling stake in any insurers but offers asset ma
 
 Insurance companies have long-term liabilities (life insurance, annuities, etc.) that they use to fund long-term assets. They are natural long-term buyers of long-term loans. They do not necessarily have branches in lots of places to make those loans. Regional banks, meanwhile, do have branches that are good at making those loans, but they do not have particularly long-term funding to own them for the long term. These days, as their deposits leave, some of them don’t have much funding at all. There are trades to be done.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BlackRock Power & Light
-    
-  
+
+
 
 In the olden days, simplistically, there were two sorts of shareholders of public companies. There were active shareholders, owner-operators, stock promoters, robber barons, railroad tycoons, etc., who would buy 100% or 51% or 15% of some company and involve themselves in running it, going to board meetings and making strategic decisions. And there were passive shareholders, regular investors, who would buy 100 shares of some company to get dividends.
 Over time, as the stock market grew, these archetypal shareholders were increasingly pools of capital rather than individual humans. (None of this history is particularly real, by the way; it is just schematic.) Active shareholders are now often private equity firms, corporate raiders, activist hedge funds, etc., who buy 100% or 51% or 15% of some company and try to change its management. Passive shareholders are often mutual funds or other asset managers, who pool capital from regular investors and buy 0.1% or 1% or 9% of some company for investment purposes.
@@ -145,11 +145,11 @@ The motion, filed with the Federal Energy Regulatory Commission by 17 attorneys 
 Here is  the motion, which I think is pretty thin stuff, but never mind that. The point is that the FERC regulates public utilities, and the utility business is one of those sensitive industries where the regulator gets some veto power over owners. “Any public utility holding company seeking to acquire more than $10 million in voting securities in another utility must secure an order from the Commission authorizing it to do so,” says the motion, and BlackRock, as the owner of shares in lots of utilities, could in some loose sense be called a utility holding company. Because that doesn’t really make much sense, the FERC gives it a renewable three-year “blanket authorization” to buy utility shares. But “only if the Commission finds the transaction is consistent with the public interest in light of competition, rates, and regulation will it then approve an application for blanket authorization.” And the state attorneys general suggest: What if it isn’t? 
 Incidentally, utilities do not really compete with each other much; that’s sort of the point of a utility, and of utility regulation. If BlackRock buys shares in an electric utility in Indiana and in another one in Texas, it will not influence them to compete against each other less fiercely, because electric utilities tend to be local monopolies and can’t compete against each other. The concern here is not traditional antitrust stuff, but rather that BlackRock will push utilities to use less fossil fuel, which will have the effect of raising costs and thus rates. Historically, it has never occurred to anyone that a giant asset manager owning a bunch of shares of a bunch of utilities would be bad for utility rates, but now it has, so there you go.
 
-  
-    
+
+
       Short-selling ban?
-    
-  
+
+
 
 Should the US government ban short sales of bank stocks? No, is I think the answer, but I want to acknowledge that there is a better case for that than for most short-sale bans. We   talked about it last week; briefly, the argument is that ordinarily a business will not fail if its stock price goes down, but a bank is a confidence-driven business, so driving down its stock price can cause it to fail and leave taxpayers with the bill. And in fact the US government has, in recent memory, banned short sales of bank stocks, for more or less that reason: The US Securities and Exchange Commission  banned short selling of financial stocks for  about three weeks during the financial crisis of 2008.
 My sense is that most people are not especially proud of that history, or eager to repeat it, but it did happen. And there are some calls to repeat it. Bloomberg’s Carmen Reinicke reports that “New Calls for Short-Selling Ban Has Experts Defending the Tactic”; most experts think short-sale bans are silly and there does not seem to be too much momentum in government for another one.
@@ -165,11 +165,11 @@ Banning short sales might have the advantage of propping up bank stocks,
   [8]
  but it has the disadvantage of looking ad hoc and lawless and panicky. Not banning short sales, but having banned them for three weeks 15 years ago and occasionally talking about a ban now, has the advantage of deterring short sellers with the vague threat that it might happen again, but without looking like panic.
 
-  
-    
+
+
       Is the writers’ strike securities fraud?
-    
-  
+
+
 
 If you run a business, you will always feel pressure to tell some people that it’s going well and other people that it’s going poorly. You will always want to tell investors that the business is going well, because then they will reward you by giving you more capital. You will generally want to tell the tax collectors that the business is going poorly, because then they will collect less money in taxes. (Thus, tax accounting and financial accounting are sometimes different, and people sometimes get mad about it.) Other categories are more ambiguous: You might want to tell suppliers that business is going well (so they are comfortable increasing the relationship and selling you more stuff on credit), or that it is going poorly (so that they feel sorry for you and give you a discount). You might want to tell employees that business is going well (so they don’t quit for a more stable job), or that it is going poorly (so they don’t demand a raise).
 Ideally you would not lie to any of them, but there is a range of ways to characterize your business, and to make conditional predictions about an uncertain future. And everything is on the internet these days, so it is often possible for one audience to find what you are telling another audience and say “hey, you are telling us two different things.” And if you are a public company and one of the audiences is your shareholders, someone — not necessarily the shareholders! — might say “hey, is this securities fraud?” Because   everything is securities fraud.
@@ -188,11 +188,11 @@ Michael Schur: It's very funny, they say one thing on their investor calls and t
 
 Yes right when you are negotiating a union contract you turn your pockets inside out and say “we’re broke, you gotta take a pay cut,” and then when you have an investor day you pull sacks of gold out of your pockets and say “we’re so rich it’s great.” It’s just that the union can hear you, and the shareholders are litigious.
 
-  
-    
+
+
       Plugging oil wells
-    
-  
+
+
 
 I  mentioned this in a footnote the other day, but perhaps it deserves more attention. We were talking about oil companies doing stock buybacks. My main point was that if you are an oil-company executive, and you think that the very long-term future of oil is bad (people will stop using it for environmental reasons, etc.), but you have a lot of cash flow from oil now (people use a lot of oil now), then you might consider returning that cash flow to shareholders, in the form of stock buybacks and dividends, rather than investing it in your business for the long term. Because, by hypothesis, your business does not have a long term.
 There are counterarguments, with the main one being something like “people will always use energy, even if they don’t always use oil, and as an oil company, you are best positioned to develop the energy sources of the future, so you should invest your current oil cash flows in long-term green energy projects.” I think that is a reasonable argument, and I certainly don’t presume to know which choice oil-company chief executive officers should make. I just wanted to point out that both choices make a certain sense, and that if you (1) don’t like stock buybacks but (2) do like environmental investing, you might find oil-company buybacks a little bit more sympathetic.
@@ -210,15 +210,15 @@ Still, in federal waters, the government can hold prior owners of wells liable f
 
 But maybe not forever?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Wall Street Loads Up on   Doom Hedges as Countdown to X-Day Begins. SoftBank  Vision funds post record $39bn annual loss. Bond Selloff Adds to the Pressure on  Regional Banks. Short Seller   Hindenburg Hits Out Again at Carl Icahn, Adds Bet Against Bonds.  Gautam Adani retreats after short-seller attack. The SEC extracted some  cell-phone fines from HSBC and Scotia Capital. Shortage of  young accountants leads BDO USA to double offshore workforce. Finance Professionals See   Biggest Pay Rise in 10 Years, Survey Finds. Man Group Appoints its First Female CEO in 240 Years. Manhattanites bring their  private school blood sport to Miami.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also, because everyone knows this, the too-big-to-fail banks are probably more careful, and are supervised more carefully, than smaller banks. They don’t just casually blunder into taking too much duration risk or having too little liquidity, because a lot of people are watching.
 
 
@@ -240,7 +240,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] My old law firm, Wachtell, Lipton, Rosen & Katz,   has called for a temporary ban on bank short sales, but they would wouldn’t they.
 
 
-  [8] I think part of the case against short-sale bans is that this isn’t really true, and that a short-sale ban can *depress* bank stocks by creating an overhang that makes them uninvestable. If there’s a 14-day ban on shorting bank stocks, you might assume “well on day 15 everyone’s gonna short these bank stocks, so why would I buy them now?” And so you wait, and nobody buys them and they go down. 
+  [8] I think part of the case against short-sale bans is that this isn’t really true, and that a short-sale ban can *depress* bank stocks by creating an overhang that makes them uninvestable. If there’s a 14-day ban on shorting bank stocks, you might assume “well on day 15 everyone’s gonna short these bank stocks, so why would I buy them now?” And so you wait, and nobody buys them and they go down.
 
 
   [9] I did not *love* it as a way to deter political advocacy, but that is not relevant to our current story.
@@ -249,48 +249,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] Dave Guarino on Twitter  pointed me to this exchange, and asked me to, you know, make fun of it for being securities fraud.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -301,46 +301,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciq4og.5lq6/911b5150.gif" alt="" border="0" /></a>

@@ -46,18 +46,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function saveContent(url, title, type, content = '') {
     showStatus('Saving to Atlas...', 'info');
-    
+
     browser.storage.sync.get(['atlasServerUrl']).then(function(result) {
       const serverUrl = result.atlasServerUrl || 'http://localhost:8000';
       const apiUrl = `${serverUrl}/api/v1/content/save`;
-      
+
       const data = {
         url: url,
         title: title,
         content: content,
         source: `browser-extension-${type}`
       };
-      
+
       fetch(apiUrl, {
         method: 'POST',
         headers: {
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     statusDiv.textContent = message;
     statusDiv.className = 'status ' + type;
     statusDiv.style.display = 'block';
-    
+
     if (type === 'success') {
       setTimeout(() => {
         statusDiv.style.display = 'none';

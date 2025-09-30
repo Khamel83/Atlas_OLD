@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One attraction of index investing is that nobody is responsible for any investing decisions. If I buy an index fund, I am just following sen
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Should index funds be illegal?
-    
-  
+
+
 
 One attraction of index investing is that nobody is responsible for any investing decisions. If I buy an index fund, I am just following sensible standard financial advice about indexing and diversification; if that index fund happens to hold stocks in companies that I find objectionable, I can say “well that’s not my fault, I didn’t buy those companies, I just bought the index fund.” Meanwhile the index fund manager buys those stocks, not because she wants to, but because they are in the index and her mandate is to track the index; buying those stocks is not really her fault either. Meanwhile the index provider — the company that compiles the index and licenses it to funds — has some quasi-mechanical standards for including stocks in the index, and they probably amount to something like “this index includes all of the stocks in the market,” or all of the biggest stocks, or all of the tech stocks, or all of the US-based stocks, or all of the China-based stocks, or whatever the index name says. There are indexes that are like “this index includes all of the stocks in the US that we do not find morally objectionable,” but that is more of a niche product than the indexes that are just all of the stocks.
 And so in theory you can have a lot of ordinary people investing their money in companies that they find objectionable, through mutual funds whose managers find them objectionable, based on an index whose compilers find them objectionable. Nobody wants to invest in those companies, but nobody is quite responsible for the decision, so they do invest in those companies.
@@ -77,37 +77,37 @@ In its letters, the committee asked each firm to make a full accounting of the C
 At some level the correct answer for an index provider is “we do no due diligence on any companies, because if we did that would undermine our complete innocence of any fundamental analysis,” but nobody wants to hear that. 
 By the way! The solution here, if Congress finds these companies morally objectionable, is to write a law that is like “it is illegal for American funds to invest in these companies.” If you do that, then MSCI, in its “consultations with a range of global market participants,” will hear things like “we need an index of Chinese companies that we are allowed to invest in,” and it will duly compile that sort of index, and BlackRock will invest in it. Congress can go ahead and make investing decisions for MSCI. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hex
-    
-  
+
+
 
 Here is an economic system, or a system anyway:
 	I make up a crypto token called MattCoin. I can issue an unlimited amount of MattCoins, since I made them up.	I sell them to people for money.	You can use MattCoins to make term deposits, with me: You can give me back your MattCoins and I will keep them for some specified time period (say, a year), and at the end of the period I will hand them back to you with interest.	The interest is paid in MattCoins.	The interest rate is high, say, 38% per year.	This is the only thing you can do with the MattCoins. They’re not useful for payments, they don’t run smart contracts on a blockchain, all you can do is trade them on crypto exchanges and deposit them for a 38% yield paid in kind.
@@ -149,11 +149,11 @@ In a November 12, 2020 YouTube livestream, Heart was asked how much of his time 
 
 But look at that economic model! The profits that Hex promised didn’t come from anyone building anything; they came from (1) printing more Hex and (2) people buying it. This was not an investment in some promised ecosystem that was being built by a dedicated team of technologists to revolutionize computing or whatever; this was … an investment in nothing? This was so transparent a Ponzi, in the SEC’s own telling, that I’m not even sure it’s a security. 
 
-  
-    
+
+
       FTT
-    
-  
+
+
 
 Roughly speaking the way bankruptcy works is that if a company owes its creditors $100 million and doesn’t have enough money to pay them, it will file for bankruptcy and split what’s left among the creditors. If there’s $100 million of debt and only $70 million of assets, all the creditors get 70 cents on the dollar. In the real world some creditors might have collateral, and some might be more senior than others, so some will get more and some will get less, but this is the rough idea.
 In crypto exchange bankruptcies there is an additional wrinkle, though, because a crypto exchange will owe its customers, like, $100 million and 2 million Ether and 500,000 Bitcoins and 5 million Dogecoin and so forth, and if there is not enough money to go around you have to think about how to allocate it among those different customers. Should you treat each token separately? If you have $70 million, 2 million Ether, zero Bitcoins and 1 million Dogecoin, do you pay 70% of dollar claims and 100% of Ether claims and 0% of Bitcoin claims and 20% of Dogecoin claims? Or do you put everything into one pot, sell all of it for dollars, and pay everyone the same percentage of their claims in dollars? There is also a question of how (and when) you measure their claims: Crypto prices are volatile, and if you owe a customer one Bitcoin worth $60,000 when you file for bankruptcy, you might owe her one Bitcoin worth $30,000 by the time you get out of bankruptcy.
@@ -176,11 +176,11 @@ Three, when FTX went bankrupt,   we talked about some of the other weird stuff
 Four, we have talked a lot about   the SEC’s crackdown on crypto, in which the SEC argues that basically every crypto token is a security, and in which the crypto industry argues that basically no tokens are. Specifically there is a popular crypto argument that crypto tokens themselves are not securities, that they are just objects, just “alphanumeric cryptographic sequences,” and that some sales of crypto tokens can be securities offerings (if you sell the token to raise money for a project and make promises to the buyers about the project), but that the tokens themselves are never securities. I think that   this is completely incoherent but a lot of smart people believe it, and this month a federal judge   basically endorsed it in the Ripple case. To me, though, the better analysis is that crypto assets “are quasi-stocks in crypto projects,” as   I wrote about Ripple.
 On my analysis, zeroing FTT here is plainly correct: FTT was quasi-stock in the FTX project, the project failed, so FTT gets zeroed. (Other tokens are quasi-stocks in other projects, and should not be affected by the failure of FTX.) But what if you think that crypto tokens can never be securities, that they are just “alphanumeric cryptographic sequences”? All of the tokens in all of the accounts at FTX are the same, just tokens, not securities, certainly not stock; how can FTX treat one of them as stock and zero it?
 
-  
-    
+
+
       Apollogies
-    
-  
+
+
 
 There is a simple model of private equity in which private equity firms create value for their investors by taking it from creditors. There is some boring company with steady cash flows and some investment-grade debt, and a private equity firm comes along and buys it by loading it down with a lot more debt. The existing creditors had safe investment-grade debt, but now they have risky claims on a much more levered business; the value of their debt has gone down. The new creditors are also making a risky bet, though at least they get paid for it. If things work out, the company does well and the private equity fund makes a multiple of its capital; the creditors just get paid back. If things don’t work out, the company goes bankrupt, the private equity fund loses its investment but the creditors also take big losses. If things first work out and then don’t, then the private equity fund can take out a big dividend in the good times and make back its investment, and then in the bad times it can leave the creditors with the losses. And the private equity sponsor is smart and focused on this, so it will write its debt documents in ways that allow it to get its money back and leave creditors with the losses.
 I don’t mean to endorse this model completely, but a lot of people believe some version of it. In particular, a lot of people believe a version of it where you replace the words “the private equity fund” with the word “Apollo.” Bloomberg’s Allison McNeely  writes about Apollo Global Management Inc.’s image:
@@ -197,15 +197,15 @@ Executives have spent the past few years on what some competitors have snarkily 
 If you build a reputation for extracting a lot of battle by being cleverer, harder-working and more ruthless than everyone else, well, in large swathes of finance that’s just good. Investors will want to give you money, because you are clever and ruthless. People will want to work for you, because they fancy themselves clever and ruthless, and because you pay well. Creditors will fear you, which is not all good (you have to pay them more to finance your deals), but which is maybe helpful if you actually do end up fighting with them.
 But if you are an investment-grade provider of private credit, that reputation is mostly unhelpful. If you go to an investment-grade company and say “hey we would love to provide you with some investment-grade private credit” and their first reaction is “okay but you plan to kill us right,” you will not get a lot of deals done. Lots of companies raise money from people who obviously plan to kill them, but that’s distressed credit and they have no choices; if you want to deploy lots of capital doing investment-grade deals it is helpful to have a reputation for being easy to deal with, not terrifying. If you’re an Apollo credit person, you probably do have to start every meeting by saying “no, I’m not like our private-equity guys, I’m nice, we sit on different floors, I’m scared of them too.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Ratings Firms Struggle With   Climate Risk in $133 Trillion Market. Uber Posts   First Operating Profit as Ridership Hits New Record. Missing Millions and a Rabbinical Arbitrator: Real-Estate Deal Gone Bad Hits Popular Crowd Funder. Top stock pickers hit by ‘tremendous’ amount of  uninvested cash.   Four-Day Weeks Are Good for Employee Health, Study Suggests. People Are Hiring  D-List Celebrities to Deliver Their Bad News.  ESBU.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Additional, less interesting options include “less than $100 but more than $0,” meaning that Answer 3 is basically correct but there are optimists out there who keep the price above zero, and “less than $138 but more than $100,” meaning I guess that something between Answer 1 and Answer 2 is correct.
 
 
@@ -215,48 +215,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The preliminary plan does not have an estimate of how much you’ll get, though your claim is “impaired,” meaning that you’re not just going to be paid off in cash in full.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -267,46 +267,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj7hvq.5n94/c0c18766.gif" alt="" border="0" /></a>

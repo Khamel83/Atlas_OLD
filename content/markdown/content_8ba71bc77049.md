@@ -75,21 +75,21 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="12369203" />
-  
+
     <meta name="ncbi_uid" content="12369203" />
-  
+
     <meta name="log_displayeduids" content="12369203" />
-  
+
     <meta name="log_source_db" content="pubmed" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="There are many examples of positive and negative interactions between different species of bacteria inhabiting the same ecosystem. This observation provides the basis for a novel approach to preventing microbial diseases called replacement therapy. In this approach, a harmless effector strain is per …"><meta name="keywords" content="pmid:12369203, Research Support, Non-U.S. Gov&#x27;t, Review, Jeffrey D Hillman, Dental Caries / prevention &amp; control*, Fermentation, Gene Deletion, Genetic Engineering*, Humans, L-Lactate Dehydrogenase / genetics, Streptococcus mutans / genetics*, Streptococcus mutans / pathogenicity, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Genetically modified Streptococcus mutans for the prevention of dental caries - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/12369203/"><meta property="og:description" content="There are many examples of positive and negative interactions between different species of bacteria inhabiting the same ecosystem. This observation provides the basis for a novel approach to preventing microbial diseases called replacement therapy. In this approach, a harmless effector strain is per …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Genetically modified Streptococcus mutans for the prevention of dental caries - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/12369203/"><meta name="twitter:description" content="There are many examples of positive and negative interactions between different species of bacteria inhabiting the same ecosystem. This observation provides the basis for a novel approach to preventing microbial diseases called replacement therapy. In this approach, a harmless effector strain is per …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -113,8 +113,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/12369203/">
 
 <meta name="citation_volume" content="82">
-  
-  
+
+
     <meta name="citation_issue" content="1-4">
 
 <meta name="citation_doi" content="">
@@ -154,7 +154,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -278,10 +278,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -298,7 +298,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -310,7 +310,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -319,8 +319,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -328,7 +328,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -336,7 +336,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -347,8 +347,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -403,7 +403,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -417,7 +417,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -490,7 +490,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -504,7 +504,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -515,13 +515,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="2AvLG5BnqtAj6uSgtD65pVaLLzw3iHFvP7PnbMk5ZDYU14j7O2jTE3sKxpM32ptq">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -553,7 +553,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -912,7 +912,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1287,22 +1287,22 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
-            
+
   <div class="publication-type" >Review</div>
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1326,9 +1326,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Antonie+Van+Leeuwenhoek%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Antonie Van Leeuwenhoek">
@@ -1349,12 +1349,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Genetically modified Streptococcus mutans for the prevention of dental caries
 
 </h1>
@@ -1395,10 +1395,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1408,28 +1408,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> University of Florida College of Dentistry, Box 100424, 1600 SW Archer Road, Gainesville, FL 32610, USA. jhillman@dental.ufl.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">12369203</strong>
@@ -1437,7 +1437,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1445,40 +1445,40 @@ Affiliations
 </div>
       </div>
       <div class="short-view" id="short-view-heading">
-        
+
   <div class="publication-type" >Review</div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Genetically modified Streptococcus mutans for the prevention of dental caries
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item only-author"><span class="full-name">Jeffrey D Hillman</span><span class="citation-separator">.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         Antonie Van Leeuwenhoek<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2002 Aug</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1510,7 +1510,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1524,19 +1524,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1560,9 +1560,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Antonie+Van+Leeuwenhoek%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Antonie Van Leeuwenhoek">
@@ -1583,7 +1583,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Author
@@ -1607,24 +1607,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> University of Florida College of Dentistry, Box 100424, 1600 SW Archer Road, Gainesville, FL 32610, USA. jhillman@dental.ufl.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">12369203</strong>
@@ -1632,7 +1632,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1640,8 +1640,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="citation-button citation-dialog-trigger"
@@ -1666,19 +1666,19 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       There are many examples of positive and negative interactions between different species of bacteria inhabiting the same ecosystem. This observation provides the basis for a novel approach to preventing microbial diseases called replacement therapy. In this approach, a harmless effector strain is permanently implanted in the host's microflora. Once established, the presence of the effector strain prevents the colonization or outgrowth of a particular pathogen. In the case of dental caries, replacement therapy has involved construction of an effector strain called BCS3-L1, which was derived from a clinical Streptococcus mutans isolate. Recombinant DNA technology was used to delete the gene encoding lactate dehydrogenase in BCS3-L1 making it entirely deficient in lactic acid production. This effector strain was also designed to produce elevated amounts of a novel peptide antibiotic called mutacin 1140 that gives it a strong selective advantage over most other strains of S. mutans. In laboratory and rodent model studies, BCS3-L1 was found to be genetically stable and to produce no apparent deleterious side effects during prolonged colonization. BCS3-L1 was significantly less cariogenic than wild-type S. mutans in gnotobiotic rats, and it did not contribute at all to the cariogenic potential of the indigenous flora of conventional Sprague-Dawley rats. And, its strong colonization properties indicated that a single application of the BCS3-L1 effector strain to human subjects should result in its permanent implantation and displacement over time of indigenous, disease-causing S. mutans strains. Thus, BCS3-L1 replacement therapy for the prevention of dental caries is an example of biofilm engineering that offers the potential for a highly efficient, cost effective augmentation of conventional prevention strategies. It is hoped that the eventual success of replacement therapy for the prevention of dental caries will stimulate the use of this approach in the prevention of other bacterial diseases.
     </p>
 
@@ -1695,15 +1695,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/10639415/"
@@ -1711,39 +1711,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="10639415"
        data-ga-label="">
-      
+
         Construction and characterization of an effector strain of Streptococcus mutans for replacement therapy of dental caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Hillman JD, Brooks TA, Michalek SM, Harmon CC, Snoep JL, van Der Weijden CC.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Hillman JD, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Infect Immun. 2000 Feb;68(2):543-9. doi: 10.1128/IAI.68.2.543-549.2000.</span>
     <span class="docsum-journal-citation short-journal-citation">Infect Immun. 2000.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">10639415</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/17448156/"
@@ -1751,39 +1751,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="17448156"
        data-ga-label="">
-      
+
         Modification of an effector strain for replacement therapy of dental caries to enable clinical safety trials.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Hillman JD, Mo J, McDonell E, Cvitkovitch D, Hillman CH.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Hillman JD, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Appl Microbiol. 2007 May;102(5):1209-19. doi: 10.1111/j.1365-2672.2007.03316.x.</span>
     <span class="docsum-journal-citation short-journal-citation">J Appl Microbiol. 2007.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">17448156</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19501474/"
@@ -1791,39 +1791,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="19501474"
        data-ga-label="">
-      
+
         A new strategy for the replacement therapy of dental caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Sun JH, Xu QA, Fan MW.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Sun JH, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Med Hypotheses. 2009 Dec;73(6):1063-4. doi: 10.1016/j.mehy.2009.04.045. Epub 2009 Jun 5.</span>
     <span class="docsum-journal-citation short-journal-citation">Med Hypotheses. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19501474</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19426263/"
@@ -1831,39 +1831,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="19426263"
        data-ga-label="">
-      
+
         A spontaneous lactate dehydrogenase deficient mutant of Streptococcus rattus for use as a probiotic in the prevention of dental caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Hillman JD, McDonell E, Cramm T, Hillman CH, Zahradnik RT.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Hillman JD, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Appl Microbiol. 2009 Nov;107(5):1551-8. doi: 10.1111/j.1365-2672.2009.04333.x. Epub 2009 Apr 24.</span>
     <span class="docsum-journal-citation short-journal-citation">J Appl Microbiol. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19426263</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/8695011/"
@@ -1871,42 +1871,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="8695011"
        data-ga-label="">
-      
+
         The microbiology and histopathology of human root caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Zambon JJ, Kasprzak SA.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Zambon JJ, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Am J Dent. 1995 Dec;8(6):323-8.</span>
     <span class="docsum-journal-citation short-journal-citation">Am J Dent. 1995.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">8695011</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=12369203"
@@ -1915,7 +1915,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -1924,15 +1924,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/39246897/"
@@ -1940,39 +1940,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="39246897"
        data-ga-label="">
-      
+
         Frequency of Mutacin Gene Types in Streptococcus mutans Isolated From Oral Potentially Malignant Disorder (OPMD) Patients.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Sakthivel S, Girija ASS, Priyadharsini VJ, Parameshwari KK.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Sakthivel S, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Cureus. 2024 Aug 6;16(8):e66335. doi: 10.7759/cureus.66335. eCollection 2024 Aug.</span>
     <span class="docsum-journal-citation short-journal-citation">Cureus. 2024.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">39246897</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/21984788/"
@@ -1980,39 +1980,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="21984788"
        data-ga-label="">
-      
+
         Production of multiple bacteriocins from a single locus by gastrointestinal strains of Lactobacillus salivarius.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">O'Shea EF, O'Connor PM, Raftis EJ, O'Toole PW, Stanton C, Cotter PD, Ross RP, Hill C.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">O'Shea EF, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Bacteriol. 2011 Dec;193(24):6973-82. doi: 10.1128/JB.06221-11. Epub 2011 Oct 7.</span>
     <span class="docsum-journal-citation short-journal-citation">J Bacteriol. 2011.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">21984788</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/40851744/"
@@ -2020,39 +2020,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="40851744"
        data-ga-label="">
-      
+
         Contemporary Trends and Future Prospects of Genetically Engineered Vaccines in the Management and Prevention of Dental Caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Mulla SA, Khan WZ, Mistry LN, Patil AH, Gangurde P, Shukla T.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Mulla SA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Cureus. 2025 Jul 22;17(7):e88491. doi: 10.7759/cureus.88491. eCollection 2025 Jul.</span>
     <span class="docsum-journal-citation short-journal-citation">Cureus. 2025.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">40851744</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/27616834/"
@@ -2060,39 +2060,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="27616834"
        data-ga-label="">
-      
+
         'Use a Thorn to Draw Thorn' Replacement Therapy for Prevention of Dental Caries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Gupta S, Marwah N.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Gupta S, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Int J Clin Pediatr Dent. 2010 Sep-Dec;3(3):125-37. doi: 10.5005/jp-journals-10005-1068. Epub 2010 Sep 15.</span>
     <span class="docsum-journal-citation short-journal-citation">Int J Clin Pediatr Dent. 2010.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">27616834</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/21874934/"
@@ -2100,42 +2100,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="21874934"
        data-ga-label="">
-      
+
         The whole is greater than the sum of its parts: dental plaque bacterial interactions can affect the virulence properties of cariogenic Streptococcus mutans.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Kuramitsu HK, Wang BY.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Kuramitsu HK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Am J Dent. 2011 Jun;24(3):153-4.</span>
     <span class="docsum-journal-citation short-journal-citation">Am J Dent. 2011.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">21874934</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=12369203"
@@ -2144,7 +2144,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2640,31 +2640,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -2678,19 +2678,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F12369203%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F12369203%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F12369203%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -2906,7 +2906,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -2933,7 +2933,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

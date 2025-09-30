@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Say you are a big mutual fund and you own 1,000 shares of Stock X and you want to sell. You meet a pension fund that wants to buy 1,000 shar
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       T+1
-    
-  
+
+
 
 Say you are a big mutual fund and you own 1,000 shares of Stock X and you want to sell. You meet a pension fund that wants to buy 1,000 shares of Stock X, the pension fund comes to your office to negotiate a trade, and you agree on a price of, say, $14 per share. The pension fund reaches into its bag of cash, pulls out $14,000 in crisp $20 bills and hands them to you. You open up your vault, pull out a stock certificate that says “1,000 Shares of Stock X” and hand it to the pension fund. “Pleasure doing business with you,” you say; you shake hands with the pension fund and it walks out of your office holding the shares.
 This is not quite an accurate description of how you trade stocks in 2024. For instance, in reality, you negotiate this trade anonymously and electronically on the stock exchange,
@@ -99,40 +99,40 @@ Luxembourg-based settlement staff in the bank’s securities services arm, which
 
 Settling trades in a day will keep you busy!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Meme stock IR
-    
-  
+
+
 
 The thing I learned in 2021 was that being fun on social media was a viable corporate finance strategy for public companies. AMC Entertainment Holdings was the great innovator here, though arguably Tesla Inc. paved the way: AMC did stuff like   give out popcorn to shareholders and have its chief executive officer  do a YouTube interview with no pants, and retail shareholders on social media responded by buying a lot of stock, at high prices, from AMC, which used the money to pay down debt and   buy a gold mine. “A week ago,”   I wrote about AMC in January 2021, “it was not crazy to think this company was doomed; now it is entirely possible that it will survive and thrive and show movies in movie theaters for decades to come because everyone went nuts and bought meme stocks this week.” But that was not (just) passive luck on AMC’s part; AMC saw the meme-stock movement and took full advantage of it.
-Lots of other people learned this lesson too, and for a while other companies — particularly companies that were struggling and did not have any obvious appeal to large fundamental investors — went around whispering “wait, can we be a meme stock? Can we raise money at high prices by doing funny stuff on social media?” Well, 
+Lots of other people learned this lesson too, and for a while other companies — particularly companies that were struggling and did not have any obvious appeal to large fundamental investors — went around whispering “wait, can we be a meme stock? Can we raise money at high prices by doing funny stuff on social media?” Well,
 some could, but my sense is that the answer was rarely yes, that successfully pulling off a meme-stock investor relations strategy requires (1) authentic spontaneous meme-stock interest from social media plus (2) authentic online engagement with the meme-stockers from management. Just saying “let’s be a meme stock” doesn’t work. 
 I assume that there were several brief doomed efforts by public companies to become meme stocks, efforts that mostly died in internal investor relations presentations or casual what-if emails from CEOs. But probably some of them will end up in US Securities and Exchange Commission enforcement actions.  Here’s one:
 
@@ -150,11 +150,11 @@ The day before his post, on June 2, 2021, Pereira received a near final draft of
 
 If you want people talking about your stock on social media, one thing you can do is get on social media, start a pseudonymous account, and start talking about your stock. The most straightforward path to being a meme stock might be posting the memes yourself. I mean, I don’t think it’s all that likely to work, but it is straightforward, and it’s no wonder that someone tried it. It just doesn’t seem that likely to me that the number of public company CEOs who were anonymously posting nice things about their companies on Stocktwits or Reddit in June 2021 was one. 
 
-  
-    
+
+
       Private credit
-    
-  
+
+
 
 I guess it is worth taking seriously the possibility that modern financial markets are too informative, that people prefer not to know what their investments are worth at all times, and that there is a good business in not telling them. Part of me has always wanted to   offer that product in pure form, like, an investment account where (1) you give me $1,000, (2) I invest it in index funds, (3) I don’t have a website or monthly account statements or anything and (4) at the end of the year, or when you turn 65 or whatever, I say “surprise! You have $1,216.” And I charge a fee specifically for the service of not telling you your account’s value until the end.
 That product probably doesn’t quite work, but lots of other financial products are bundles that include that service as a key component. (Surely part of the appeal of a  defined-benefit pension is that you don’t need to check the market value of your account all the time?) In particular, we have talked about how   private equity and   nontraded real estate investment trusts offer investors the service of not having daily prices: If you buy public stocks or REITs, some days they will go up and other days they will go down, and you will nervously check your account and maybe sell at the worst time. If you buy private equity or nontraded REITs, most days they will say “no fundamental changes, asset value is fine, all good,” and you will sleep better and not be able to sell anyway.
@@ -176,24 +176,24 @@ And yet the value of loans even after these deals is strikingly generous. Accord
 
 True. But a lender who doesn’t have to mark down its loans is more likely to let a borrower defer interest payments, which is nice for a borrower that runs into trouble. Lenders have more flexibility to work cooperatively with borrowers if they are not subject to market discipline. That is not obviously good — it can lead to  zombie companies, misallocation of resources, etc. — but it has some advantages.
 
-  
-    
+
+
       Elsewhere in overly informative public markets
-    
-  
+
+
 
 I   sometimes   like to   argue that the stock market should be open 15 or 30 minutes a day: Everyone could form their views about valuation at their leisure and then meet up, briefly, to trade stocks. The advantage of this is that a 15-minute trading session would not be vastly less informative than a 6.5-hour trading session, and would give traders more time with their families. The disadvantage is that sometimes you need to sell some stuff quickly to raise money or buy some other stuff, and you can’t necessarily wait until noon the next day. (See the first section above!)
 Realistically, though, the trend is probably the other way, and people   want to trade all night and on weekends. And so on Tuesday, 24X National Exchange LLC  filed an application with the US Securities and Exchange Commission to become a national securities exchange and run around the clock, more or less. (“The Exchange will pause trading every day between 7:00 p.m. ET and 8:00 p.m. ET,”  says its user manual, and also “each Saturday from 8 a.m. ET until 11 a.m. ET,” but still that’s a lot of trading.) We have   talked about 24X Exchange before, in 2021, when it previously “filed key parts of its application,” and I guess it’s still doing that. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Sam Bankman-Fried Makes His Last Stand. The heartland oil refiner fuelling  Carl Icahn’s empire. Trump Is Closer Than Ever to a Giant  Truth Social Payday. China Tells   Quants to Phase Out Strategy Blamed for Turmoil. U.S. Opens  UnitedHealth Antitrust Probe. Big investors grow nervous about  private credit boom. Measuring  Treasury Market Depth. Use profits from  frozen Russian assets to arm Ukraine, says Ursula von der Leyen. The Hail Mary Tactic to Pay Off Student Debt:  Sports Betting. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Which, to be clear, is a computer. You don't like go to the floor of the New York Stock Exchange.
 
 
@@ -203,53 +203,53 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] In this parenthesis I am using the word “cash” in its brokerage-account sense, meaning “not margin.” If you own stock in a margin account at a retail brokerage, your *broker* has probably loaned it out to a short seller and has to go find it for you.
 
 
-  [4] This was not particularly true historically: It used to be that bank loans were made by banks, which could hold them on their books until maturity and 
-not mark them down for temporary market fluctuations. That is, it used to be that “private lending” was largely done by banks. That 
+  [4] This was not particularly true historically: It used to be that bank loans were made by banks, which could hold them on their books until maturity and
+not mark them down for temporary market fluctuations. That is, it used to be that “private lending” was largely done by banks. That
 has changed. But banks used to argue that this was good, that their relative insulation from market prices made them better long-term partners for their borrowers than flighty bond markets.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -260,46 +260,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckjltd.62nm/4a21800f.gif" alt="" border="0" /></a>

@@ -27,7 +27,7 @@
 	<meta name="generator" content="WordPress 4.7.5"/>
 	<meta name="template" content="K2 1.0-RC7.2"/>
  	<meta name="description" content="both have their moments"/>
-  
+
 	<link rel="stylesheet" type="text/css" media="screen" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/themes/k2/k2/style.css"/>
 
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/"/>
@@ -35,8 +35,8 @@
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/atom/"/>
 
 <link rel="pingback" href="http://pitchersandpoets.com/xmlrpc.php"/>
-	
-	
+
+
 <!-- All in One SEO Pack 2.3.11.1 by Michael Torbert of Semper Fi Web Design[210,280] -->
 <meta name="description" content="The city of Cleveland and its travails, with Jim Thome as a central image."/>
 
@@ -80,7 +80,7 @@ img.emoji {
 <script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/plugins/podcasting/player/audio-player-noswfobject.js?ver=2.0"></script>
 <link rel="https://api.w.org/" href="http://pitchersandpoets.com/wp-json/"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pitchersandpoets.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pitchersandpoets.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pitchersandpoets.com/wp-includes/wlwmanifest.xml"/>
 <link rel="prev" title="Eddie Murray and My First Baseball Debate by Dan Mennella" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/"/>
 <link rel="next" title="Don Mattingly by Emma Span" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/"/>
 <meta name="generator" content="WordPress 4.7.5"/>
@@ -117,7 +117,7 @@ bb2_addLoadEvent(function() {
 // --></script>
 				<!-- Podcasting 2.4: http://podcastingplugin.com/ -->
 		<script type="text/javascript">
-			AudioPlayer.setup("http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/wp-content/plugins/podcasting/player/player.swf", {  
+			AudioPlayer.setup("http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/wp-content/plugins/podcasting/player/player.swf", {
 				width: 290			});
 		</script>
 		<script charset="utf-8" type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'d4e90739-41f0-47b8-aaa3-fd46a3ff8770'});var st_type='wordpress3.0.1';</script>
@@ -130,13 +130,13 @@ bb2_addLoadEvent(function() {
 				#header {
 			background-image: url("http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2009/10/cropped-banner1.jpg");
 		}
-		
+
 				#header .blog-title a,
 		#header .description {
 			color: #f3f2f2;
 		}
 				</style>
-		
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="Jim Thome Takes His Rips by Pete Beatty"/>
@@ -153,7 +153,7 @@ bb2_addLoadEvent(function() {
 
 <script type="text/javascript">
 	//<![CDATA[
-	
+
 		K2.AjaxURL = "http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/";
 		K2.Animations = 0;
 
@@ -161,7 +161,7 @@ jQuery(document).ready(function(){
 						K2.LiveSearch = new LiveSearch(
 				"Type and Wait to Search"
 			);
-			
+
 						K2.RollingArchives = new RollingArchives(
 				"Page %1$d of %2$d"
 			);
@@ -254,7 +254,7 @@ jQuery(document).ready(function(){
 
 <div class="nav-previous"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/" rel="prev"><span class="meta-nav">&laquo;</span> Eddie Murray and My First Baseball Debate by Dan Mennella</a></div>
 		<div class="nav-next"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/" rel="next">Don Mattingly by Emma Span <span class="meta-nav">&raquo;</span></a></div>
-	
+
 		<div class="clear"></div>
 	</div>
 
@@ -324,7 +324,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 				</div><!-- .entry-content -->
 
 <div class="entry-foot">
-					
+
 					<div class="entry-meta">
 						<span class="entry-categories"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/category/1990s-first-baseman-week/" title="View all posts in 1990s First Baseman Week">1990s First Baseman Week</a></span>, <span class="entry-comments"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/#comments" class="commentslink">10 <span>Comments</span></a></span>					</div><!-- .entry-meta -->
 
@@ -332,7 +332,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 			</div><!-- #post-ID -->
 
 <div class="comments">
-				
+
 		<h4><span id="comments">10</span> Responses to &#8220;Jim Thome Takes His Rips by Pete Beatty&#8221;</h4>
 
 <div class="metalinks">
@@ -342,12 +342,12 @@ But maybe everything that dies someday comes back</p></blockquote>
 <hr/>
 
 <ul id="commentlist">
-		
+
 	<li id="comment-4878">
 		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d18 c-h02">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author"><a href="http://web.archive.org/web/20170708033631/http://www.rustwire.com/" rel="external nofollow" class="url">Richey Piiparinen</a></span>
 
 <div class="comment-meta">
@@ -364,7 +364,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4878" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -372,7 +372,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d18 c-h02">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Katie</span>
 
 <div class="comment-meta">
@@ -389,7 +389,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4879" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -397,7 +397,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d18 c-h12">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Susan</span>
 
 <div class="comment-meta">
@@ -414,7 +414,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4891" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -422,7 +422,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d19 c-h01">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Craig</span>
 
 <div class="comment-meta">
@@ -439,7 +439,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4892" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -447,7 +447,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d19 c-h02">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">J. Reader</span>
 
 <div class="comment-meta">
@@ -465,7 +465,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4893" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -473,7 +473,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d19 c-h23">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Pete Beatty</span>
 
 <div class="comment-meta">
@@ -492,7 +492,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4903" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -500,7 +500,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d20 c-h05">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Bryan</span>
 
 <div class="comment-meta">
@@ -517,7 +517,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-4910" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -525,7 +525,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m08 c-d16 c-h04">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Hamsterdam</span>
 
 <div class="comment-meta">
@@ -544,7 +544,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-5240" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -552,7 +552,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment even thread-even depth-1 c-y2011 c-m08 c-d17 c-h02">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">TheClevelandHockey</span>
 
 <div class="comment-meta">
@@ -569,7 +569,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-5245" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 
@@ -577,7 +577,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m08 c-d27 c-h03">
 
 <div class="comment-head">
-				
+
 				<span class="comment-author">Jonny Scrum-half</span>
 
 <div class="comment-meta">
@@ -594,7 +594,7 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div id="comment-reply-5275" class="comment-reply">
 							</div>
-			
+
 		</div><!-- comment -->
 </li><!-- #comment-## -->
 		</ul>
@@ -605,17 +605,17 @@ But maybe everything that dies someday comes back</p></blockquote>
 
 <div class="clear"></div>
 		</div>
-			
-			
+
+
 			<div id="comments-closed-msg">Comments are currently closed.</div>
-	
+
 				</div><!-- .comments -->
 
 <div id="nav-below" class="navigation">
 
 <div class="nav-previous"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/" rel="prev"><span class="meta-nav">&laquo;</span> Eddie Murray and My First Baseball Debate by Dan Mennella</a></div>
 		<div class="nav-next"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/" rel="next">Don Mattingly by Emma Span <span class="meta-nav">&raquo;</span></a></div>
-	
+
 		<div class="clear"></div>
 	</div>
 
@@ -665,16 +665,16 @@ But maybe everything that dies someday comes back</p></blockquote>
 					<h5>Rogue's Baseball Index</h5>
 				</a>
 			</li>
-			
+
 			<li>
 				<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/foamernight">
 					<span style="background-image:url(http://web.archive.org/web/20170708033631im_/http://www.pitchersandpoets.com/foamernight/wp-content/uploads/2011/07/foamer-night-header-590x125.jpg);"><b>&nbsp;</b></span>
 					<h5>Foamer Night</h5>
 				</a>
 			</li>
-			
+
 		</ul>
-		
+
 <div id="sidebar-divider">&nbsp;</div> </div><div id="linkcat-3" class="widget widget_links"><h4>Pitches</h4>
 	<ul class="xoxo blogroll">
 <li><a href="http://web.archive.org/web/20170708033631/http://bronxbanterblog.com/">Alex Belth&#039;s Bronx Banter</a></li>
@@ -777,7 +777,7 @@ google_ad_height = 600;
 <hr/>
 
 <div id="footer">
-	
+
 	<p class="footerpoweredby">
 		Powered by <a href="http://web.archive.org/web/20170708033631/http://wordpress.org/">WordPress<span class="wp-version">4.7.5</span></a> and <a href="http://web.archive.org/web/20170708033631/http://getk2.com/" title="Loves you like a kitten.">K2<span class="k2-version">1.0-RC7.2</span></a>	</p>
 
@@ -801,7 +801,7 @@ google_ad_height = 600;
 </script>
 
 </body>
-</html> 
+</html>
 <!--
      FILE ARCHIVED ON 03:36:31 Jul 08, 2017 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 11:28:10 Sep 15, 2025.

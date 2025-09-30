@@ -40,10 +40,10 @@ Then she got pregnant. Then she was 17, working two jobs to feed herself and her
 
 **ABOUT THIS SERIES:** Â The American middle class is floundering, and it has been for decades. The Post examines the mystery of whatâs gone wrong and shows what the country must focus on to get the economy working for everyone again.
 
-**ChapterÂ 1:** [Why Americaâs middle class is lost](/sf/business/2014/12/12/why-americas-middle-class-is-lost/)  
-**ChapterÂ 2:** [The devaluation of the American middle class](/sf/business/2014/12/14/the-devalued-american-worker/)  
-**Chapter 4:**Â [The black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)  
-**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)  
+**ChapterÂ 1:** [Why Americaâs middle class is lost](/sf/business/2014/12/12/why-americas-middle-class-is-lost/)
+**ChapterÂ 2:** [The devaluation of the American middle class](/sf/business/2014/12/14/the-devalued-american-worker/)
+**Chapter 4:**Â [The black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)
+**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)
 **Chapter 6:** [What went wrong, and how to fix it](/sf/business/2014/12/19/fixing-the-broken-talent-flow/)
 
 The American economy has stopped working the wayÂ it used to for millions of Americans. The path from poverty to the middle class has changed â now, it runs through higher education.
@@ -150,7 +150,7 @@ The American middle class is floundering, and it has been for decades. The Post 
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

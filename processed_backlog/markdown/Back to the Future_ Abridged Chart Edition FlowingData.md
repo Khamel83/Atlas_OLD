@@ -12,11 +12,11 @@
 
 # Back to the Future, Abridged Chart Edition
 
-Nathan Yau • January 16, 2018 
+Nathan Yau • January 16, 2018
 
 ![Back to the Future, Abridged Chart Edition](https://flowingdata.com/wp-content/uploads/2018/01/Back-to-the-Future-2.png)
 
-Analyze, visualize, and communicate data usefully, beyond the defaults.  
-  
-Become a member → 
+Analyze, visualize, and communicate data usefully, beyond the defaults.
+
+Become a member →
 

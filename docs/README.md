@@ -1,23 +1,23 @@
 # 🧠 Atlas - Personal AI Knowledge System
 
-> **Production-Ready Personal AI with Single-Model Architecture**  
+> **Production-Ready Personal AI with Single-Model Architecture**
 > Transform your digital life into an intelligent knowledge companion powered by optimal AI.
 
 Atlas is your personal AI that captures everything you read, hear, and think—then uses **Gemini 2.5 Flash Lite** (the optimal model with 57% more value per dollar) to provide cognitive analysis across all your information.
 
 ## ✨ What Makes Atlas Special
 
-🎯 **Single Optimal Model** - Gemini 2.5 Flash Lite for all workloads (cheapest + highest quality)  
-🎤 **Voice-First Design** - "Hey Siri, save to Atlas" captures thoughts instantly  
-🧠 **6 Cognitive Features** - AI that thinks *with* you, not just *for* you  
-📱 **Mobile-First Interface** - Complete content management from your phone  
-🔍 **Advanced Search & Filtering** - Find content by date, type, source, or meaning  
-📺 **YouTube Integration** - Automatic video processing with transcript extraction  
-🎙️ **Mac Mini Audio Processing** - Dedicated transcription with Whisper for high-quality audio processing  
-📻 **PODEMOS Ad-Free Feeds** - Personal clean podcast feeds with ads removed  
-⚡ **Production Ready** - 100% working with comprehensive testing and validation  
+🎯 **Single Optimal Model** - Gemini 2.5 Flash Lite for all workloads (cheapest + highest quality)
+🎤 **Voice-First Design** - "Hey Siri, save to Atlas" captures thoughts instantly
+🧠 **6 Cognitive Features** - AI that thinks *with* you, not just *for* you
+📱 **Mobile-First Interface** - Complete content management from your phone
+🔍 **Advanced Search & Filtering** - Find content by date, type, source, or meaning
+📺 **YouTube Integration** - Automatic video processing with transcript extraction
+🎙️ **Mac Mini Audio Processing** - Dedicated transcription with Whisper for high-quality audio processing
+📻 **PODEMOS Ad-Free Feeds** - Personal clean podcast feeds with ads removed
+⚡ **Production Ready** - 100% working with comprehensive testing and validation
 
-## 🎯 Single Model Architecture 
+## 🎯 Single Model Architecture
 
 After comprehensive testing of 5 models across 5 workloads with real Atlas content, we selected **Gemini 2.5 Flash Lite** as the universal model for all Atlas cognitive features:
 
@@ -32,9 +32,9 @@ After comprehensive testing of 5 models across 5 workloads with real Atlas conte
 *Value Score = Quality Score ÷ (Cost per 1K tokens × 1000)*
 
 **Why Gemini 2.5 Flash Lite?**
-- ✅ **Cheapest**: $0.05/1M tokens (30% cheaper than alternatives)  
+- ✅ **Cheapest**: $0.05/1M tokens (30% cheaper than alternatives)
 - ✅ **Highest Quality**: 9.5/10 quality score in comprehensive testing
-- ✅ **Universal**: 100% success rate across all 5 workloads  
+- ✅ **Universal**: 100% success rate across all 5 workloads
 - ✅ **Fastest**: Ultra-low latency optimized for real-time use
 - ✅ **Best Value**: 57% more value per dollar than next best option
 
@@ -56,7 +56,7 @@ cd atlas
 ```
 **This unified script handles everything:**
 - 📱 Telegram notifications
-- 🔔 Uptime Kuma monitoring  
+- 🔔 Uptime Kuma monitoring
 - 📺 YouTube API
 - 💻 Mac Mini integration
 - 🤖 AI API keys
@@ -100,7 +100,7 @@ Then tap each shortcut to install
 # 2. Visit your AI dashboard
 open http://localhost:7444  # Main Atlas dashboard
 # Or directly access:
-open http://localhost:7444/mobile  # Mobile-optimized interface  
+open http://localhost:7444/mobile  # Mobile-optimized interface
 open http://localhost:7444/ask/html  # Desktop cognitive interface
 ```
 
@@ -110,12 +110,12 @@ open http://localhost:7444/ask/html  # Desktop cognitive interface
 
 ## 🔧 Optional Advanced Features
 
-**Want YouTube, Mac Mini processing, or ad-free podcasts?** 
+**Want YouTube, Mac Mini processing, or ad-free podcasts?**
 
 👉 **[📋 Complete External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md)** - Step-by-step instructions for:
 
 - **📺 YouTube Integration** - Auto-process your subscriptions (Free with Google account)
-- **🎙️ Mac Mini Audio Processing** - Dedicated Whisper transcription (Hardware required)  
+- **🎙️ Mac Mini Audio Processing** - Dedicated Whisper transcription (Hardware required)
 - **📻 PODEMOS Ad-Free Podcasts** - Private RSS feeds without ads (Oracle OCI account)
 - **📧 Email Integration** - Process forwarded emails (Any IMAP email)
 
@@ -131,7 +131,7 @@ Automatically surfaces relevant forgotten content with actionable buttons.
 - ✅ Mark as reviewed to update your learning patterns
 - ⏰ Snooze for later to resurface at the right time
 
-### ⏰ **Temporal Relationship Engine**  
+### ⏰ **Temporal Relationship Engine**
 Identifies patterns and connections across time in your knowledge.
 *"Your thinking about remote work has evolved - here's how your perspective changed over 6 months."*
 
@@ -155,7 +155,7 @@ Suggests relevant content based on your interests, goals, and current projects.
 
 ### **🎤 Voice Capture Anywhere**
 - Walking: "Hey Siri, save to Atlas" → capture thoughts instantly
-- Driving: Voice-record meeting notes and action items  
+- Driving: Voice-record meeting notes and action items
 - Commuting: Save article ideas and inspiration
 
 ### **🎙️ Automated Podcast Ingestion**
@@ -207,7 +207,7 @@ Atlas includes intelligent content quality analysis and automatic reprocessing:
 - Moves beyond simple character counting to assess actual content meaning and usefulness
 - Identifies and flags problematic content: Wayback errors, fake transcripts, paywalled content, extraction failures
 
-### **🔄 Automatic Content Reprocessing**  
+### **🔄 Automatic Content Reprocessing**
 - Background pipeline continuously improves low-quality content
 - Re-extracts failed downloads using improved methods
 - Cleans HTML-heavy content and reconstructs partial articles
@@ -308,16 +308,16 @@ Atlas includes comprehensive health monitoring:
 # Check system status
 python3 atlas_status.py
 
-# Detailed health report  
+# Detailed health report
 python3 atlas_status.py --detailed
 
 # Performance monitoring
 python3 atlas_monitor.py --real-time
 ```
 
-**Current Status**: ✅ Production Ready  
-**Uptime**: Bulletproof process management prevents memory leaks  
-**Performance**: Handles 240,026+ indexed items with sub-second search  
+**Current Status**: ✅ Production Ready
+**Uptime**: Bulletproof process management prevents memory leaks
+**Performance**: Handles 240,026+ indexed items with sub-second search
 
 ## 🤝 Contributing
 
@@ -346,14 +346,14 @@ Atlas is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 Atlas builds on incredible open-source projects:
 - **FastAPI** - Modern Python web framework
-- **Sentence Transformers** - Semantic embeddings  
+- **Sentence Transformers** - Semantic embeddings
 - **Whisper** - Speech recognition
 - **spaCy** - Natural language processing
 
 ## 🔗 Quick Links
 
 ### **📋 Essential Documentation**
-- **🚀 [Quick Start](quick_start_package/QUICK_START.md)** - Get running in 10 minutes  
+- **🚀 [Quick Start](quick_start_package/QUICK_START.md)** - Get running in 10 minutes
 - **🔧 [External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md)** - YouTube, Mac Mini, PODEMOS, Email setup
 - **📥 [Content Processing Guide](docs/user-guides/INGESTION_GUIDE.md)** - All content capture workflows
 - **🛠️ [Troubleshooting Guide](docs/user-guides/TROUBLESHOOTING_GUIDE.md)** - Fix any issues

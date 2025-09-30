@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Most of the cases of insider trading that I write about are dumb. There a
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Insider trading
-    
-  
+
+
 
 Most of the cases of insider trading that I write about are dumb. There are two possible interpretations of this fact:
 	Most insider trading is dumb. Insider trading is a fairly easy crime to catch, so it is dumb to do it, so if you are doing it you will probably also do it in a dumb way.	Some (much? most?) insider trading is smart, but only the dumb insider trading is caught. Lots of people are out there doing insider trading with clever tradecraft and not getting caught, which is why I am not writing about them.
@@ -105,37 +105,37 @@ VIGGIANO: Nah. Nah. Because similar to you . .. signal, or like XBOX 360 chat, t
 
 Not the worst case!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       T+1
-    
-  
+
+
 
 There are in principle two ways to buy a thing:
 	You reach an agreement with a seller to buy the thing, then you go off to get your money and the seller goes off to get the thing, then you meet back somewhere and exchange the money for the thing.	You come to the seller with money, and she’s got the thing sitting right there, and you agree on the trade by doing it: You hand her the money, she hands you the thing, there is no additional step.
@@ -168,11 +168,11 @@ In its letter to the SEC, Baillie Gifford said US FX desks typically close early
 “Who is going to be there at the end of the day at 5pm on a Friday to give us a price?” Baillie Gifford’s Lawlor said.
 
 
-  
-    
+
+
       Odey
-    
-  
+
+
 
 If you have been accused of something terrible, your first reaction might be to call a lawyer. You will speak candidly to the lawyer about your situation, and she will discuss it with you, and then either she will be your lawyer or she won’t. If she becomes your lawyer — if you want to hire her and she agrees to work for you — then she will have a professional obligation to keep your secrets and not gossip about you to the press. If she does not become your lawyer — if you decide not to hire her, or if you offer to but she turns you down — she will also have a professional obligation to keep the secrets that you told her in your initial consultation.
   [6]
@@ -187,11 +187,11 @@ Okay! What is your model of Freedman’s thinking here? Like, I feel like if you
 I suppose you could consciously choose that approach to distinguish yourself as, like, a Good corporate intelligence firm, one that vets its clients and only works for good innocent upstanding ones who do not say monstrous things in their initial consultations. (But, again: Weinstein!) Ostentatiously turning down (and turning on) some clients might make you more attractive to others.
 Or, also, I mean, I don’t know why “the pair ultimately didn’t work together,” and I suppose an approach like “if you don’t hire me I will leak your secrets to the press” has some advantages. Also it does demonstrate the ruthlessness that one wants in a corporate intelligence investigator.
 
-  
-    
+
+
       Cash Flow King
-    
-  
+
+
 
 Judging by, like, the ads that I get served on Instagram, the most lucrative business in the world is shouting at people about passive income opportunities and using leverage to buy real estate? I am not sure I fully understand how this business is all that lucrative (the shouting I mean), but I guess  here’s how:
 
@@ -215,15 +215,15 @@ Motil’s failure to record the mortgages not only contradicted his written and 
 
 He recruited some suckers and then went around volunteering to them “you’ll get a mortgage in the mail from a county clerk,” and then they didn’t? Why? Did the suckers expect anything from the county clerk? Before he brought it up? I feel like you could do this scam pretty successfully without telling anyone anything about county clerks?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Inside  Sam Bankman-Fried’s Family Bubble. Evergrande Halts Trading After Founder Put Under Police Control. OpenAI and Jony Ive in talks to raise $1bn from SoftBank for  AI device venture.   GameStop’s Billionaire Backer Cohen Replaces Ousted CEO. Icahn Sells Remaining   Xerox Stake Back to Company. UBS Near Settlement in Credit Suisse $1.5 Billion   Tuna Bond Case. How a  Four-Day Workweek Actually Works, From the Companies Pulling It Off. Delta CEO Says Airline Went ‘ Too Far’ With New SkyMiles Requirements. Elon Musk Wins US   Space Force Contract for Starshield. Monkey Laundering. “Following endorsements from QAnon leaders, she built up a band of followers, declared that she had overthrown the legitimate government of Canada, and says her claim to the  ‘Queen of Canada’ title is backed by secret, powerful US military interests.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] A lot of statistical studies arguing for the prevalence of insider trading strike me as unconvincing. But I can believe that there is a lot of, like, *informed* trading, in which professional investors use some sort of inside connections to make informed trading decisions under a “mosaic theory,” not like “psst we have a merger coming” but more like “get some color on this quarter's margins from a customer.” Also I am happy to believe that there is a lot of “shadow trading,” in which sophisticated investors learn inside news about one company and use it to trade correlated companies or exchange-traded funds; there are  some studies suggesting that   this is common.
 
 
@@ -236,54 +236,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Obviously actual events were a bit more complicated and indirect than this. Still, this did happen.
 
 
-  [5] Incidentally,   a big idea in crypto is avoiding all of this settlement delay stuff; there are claims that the advantage of blockchains is that they allow trades to settle instantly, without the extensions of credit that are inherent in the traditional financial system. And there is some truth to that, but also in fact the crypto financial system very quickly moved to create the same sorts of leverage that you see in traditional finance, with, you know, worse results. 
+  [5] Incidentally,   a big idea in crypto is avoiding all of this settlement delay stuff; there are claims that the advantage of blockchains is that they allow trades to settle instantly, without the extensions of credit that are inherent in the traditional financial system. And there is some truth to that, but also in fact the crypto financial system very quickly moved to create the same sorts of leverage that you see in traditional finance, with, you know, worse results.
 
 
   [6] Obviously this is not legal or professional advice, and I am mostly familiar with the US legal system, where  this is a rule of professional ethics. I can’t promise it’s true everywhere, it has exceptions, and don’t go blabbing your dark secrets to random lawyers just because I said so.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -294,46 +294,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjkd2f.5kxz/189b33a7.gif" alt="" border="0" /></a>

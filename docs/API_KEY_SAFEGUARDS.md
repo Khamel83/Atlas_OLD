@@ -2,7 +2,7 @@
 
 ## ⚠️  NEVER DO THESE THINGS:
 1. **NEVER** add API keys to ~/.bashrc or ~/.bash_profile
-2. **NEVER** export OPENROUTER_API_KEY in terminal sessions  
+2. **NEVER** export OPENROUTER_API_KEY in terminal sessions
 3. **NEVER** commit .env files to git
 4. **NEVER** put API keys in shell scripts
 5. **NEVER** copy API keys to multiple files

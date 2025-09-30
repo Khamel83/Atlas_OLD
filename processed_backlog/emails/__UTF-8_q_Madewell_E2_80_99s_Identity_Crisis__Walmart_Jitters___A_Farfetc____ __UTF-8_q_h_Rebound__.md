@@ -41,7 +41,7 @@ Anyway, it was a shock to my system, and sort of underscores the global retail c
 
 Mentioned in this issue: Madewell, J.Crew, Gap, Mickey Drexler, Karlie Kloss, Levi’s, Paul McCartney, Somsack Sikhounmuong, Alex Mill, Libby Wadle, Abercrombie, Adrienne Lazarus, Joyce Lee, Steven Cateron, Farfetch, ShopMy, Walmart, Target, tariffs, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -154,7 +154,7 @@ Perhaps more than anything, Madewell’s identity crisis exemplifies an eternal 
 on specific generational moments must evolve or risk becoming irrelevant. Under Fran Horowitz, Abercrombie has successfully pivoted to appeal to both Gen Z and Millennial mothers (and started to capture the Gen Alpha tweens too). Madewell either needs to recapture its denim authority through quality and focus or figure out how to appeal to younger buyers. If they can match their most recent, promising styling with the quality that made people love them in the
 first place, they may regain their former spot in America’s closets.
 
- 
+
 
 What
 We’re Reading…
@@ -177,7 +177,7 @@ wear to the Cowboy Carter Tour. The comments on Instagram are a mix of adoration
 Brooches are back after a 20-year hiatus, likely a rebellion against “quiet luxury.” (Like you, I hate that term.) Also, when the economy is weak,
 customers trade in tiny wardrobe updates (see also: the lipstick effect). [WSJ ( https://www.wsj.com/style/fashion/brooches-are-back-and-ready-to-refresh-your-wardrobe-1c542f5f?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Until tomorrow,
 
@@ -233,6 +233,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVP-ARnaikoOc6bbE_9JQ=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

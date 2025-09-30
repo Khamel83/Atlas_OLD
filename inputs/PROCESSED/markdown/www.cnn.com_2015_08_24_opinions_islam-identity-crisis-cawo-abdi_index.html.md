@@ -7,7 +7,7 @@
 
 # 403 Forbidden
 
-Unknown author • August 24, 2015 
+Unknown author • August 24, 2015
 
 ![403 Forbidden]()
 

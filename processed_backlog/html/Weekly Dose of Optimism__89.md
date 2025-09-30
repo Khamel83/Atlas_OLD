@@ -19,7 +19,7 @@ Let’s get to it.
 
 [![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16e4f944-0baf-41cc-bc1a-6b4a415136c9_1981x1112.png)](https://substack.com/redirect/72f203a5-2095-432a-9e0b-40354569f9b1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
 
-> **Ever wonder how the top investment firms stay ahead? Enter Tegus.**  
+> **Ever wonder how the top investment firms stay ahead? Enter Tegus.**
 > *The only platform that combines qualitative, expert insights with company-specific KPIs, metrics and data points, paving a new way for investors to more easily create comparables and benchmarks, automatically update their models with the most accurate and in-depth data in the world, and instantly get answers to their pressing questions on public and private companies by structuring unstructured data with the help of AI. To top it off, Tegus just announced they will soon provide all users with access to broker and independent research.*
 >
 > *Opt for **[Tegus](https://substack.com/redirect/72f203a5-2095-432a-9e0b-40354569f9b1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** and gain access to a wealth of investment research resources unmatched in scope and detail. Experience the difference that comprehensive, precise, and quickly accessible information makes in the investment world. Explore Tegus today and experience the platform that has become the preferred choice for the world's best investors.*

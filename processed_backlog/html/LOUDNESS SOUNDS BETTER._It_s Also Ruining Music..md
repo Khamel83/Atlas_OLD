@@ -6,7 +6,7 @@
 ![Mario Aguilar](https://secure.gravatar.com/avatar/cec67ee812ea6cbd4006a02aad49ba70?s=46&d=mm&r=g)
 
 By
-[Mario Aguilar](https://gizmodo.com/author/marioaguilar) 
+[Mario Aguilar](https://gizmodo.com/author/marioaguilar)
 
 Published April 1, 2015
 |
@@ -121,7 +121,7 @@ Leave this field empty if you're human:
   The JBL Charge 6 is built to bring the party, no matter the setting.](https://gizmodo.com/jbl-charge-6-review-the-champ-is-here-2000573177)
 
   By
-  [Sherri L Smith](https://gizmodo.com/author/slsmith) 
+  [Sherri L Smith](https://gizmodo.com/author/slsmith)
 
   Published March 10, 2025
 * [![JBL Flip 7 with neon Gizmodo sign](https://gizmodo.com/app/uploads/2025/03/JBL-Flip-7-1-1.jpg)](https://gizmodo.com/jbl-flip-7-review-big-sound-in-a-small-package-2000573163)
@@ -133,7 +133,7 @@ Leave this field empty if you're human:
   The JBL Flip 7 punches way above its weight.](https://gizmodo.com/jbl-flip-7-review-big-sound-in-a-small-package-2000573163)
 
   By
-  [Sherri L Smith](https://gizmodo.com/author/slsmith) 
+  [Sherri L Smith](https://gizmodo.com/author/slsmith)
 
   Published March 10, 2025
 * [![Xmems Sycamore](https://gizmodo.com/app/uploads/2024/11/xMEMS-Sycamore.jpg)](https://gizmodo.com/i-tested-the-worlds-smallest-and-lightest-micro-speaker-2000525987)
@@ -145,7 +145,7 @@ Leave this field empty if you're human:
   Sycamore is a tiny, lightweight near-field speaker specifically for gadgets like smartwatches and AR glasses.](https://gizmodo.com/i-tested-the-worlds-smallest-and-lightest-micro-speaker-2000525987)
 
   By
-  [Dua Rashid](https://gizmodo.com/author/drashid) 
+  [Dua Rashid](https://gizmodo.com/author/drashid)
 
   Published November 19, 2024
 * [![Bose 901 Speakers (2)](https://gizmodo.com/app/uploads/2024/11/bose-901-speakers-2.jpg)](https://gizmodo.com/bose-is-bringing-back-its-most-iconic-speakers-but-theres-a-catch-2000525060)
@@ -157,7 +157,7 @@ Leave this field empty if you're human:
   The classic Bose 901 speakers are making a comeback on the company's 60th anniversary.](https://gizmodo.com/bose-is-bringing-back-its-most-iconic-speakers-but-theres-a-catch-2000525060)
 
   By
-  [Dua Rashid](https://gizmodo.com/author/drashid) 
+  [Dua Rashid](https://gizmodo.com/author/drashid)
 
   Published November 15, 2024
 * [![Jlab Go Pop Anc Earbuds](https://gizmodo.com/app/uploads/2024/11/jlab-go-pop-anc-earbuds.jpg)](https://gizmodo.com/jlab-go-pop-anc-earbuds-review-30-buds-with-surprisingly-powerful-anc-2000521360)
@@ -169,7 +169,7 @@ Leave this field empty if you're human:
   The sound and build quality on the JLab Go Pop ANC Earbuds explain the $30 price tag.](https://gizmodo.com/jlab-go-pop-anc-earbuds-review-30-buds-with-surprisingly-powerful-anc-2000521360)
 
   By
-  [Dua Rashid](https://gizmodo.com/author/drashid) 
+  [Dua Rashid](https://gizmodo.com/author/drashid)
 
   Published November 12, 2024
 * [![Soundcore Space One Pro](https://gizmodo.com/app/uploads/2024/10/soundcore-space-one-pro.jpg)](https://gizmodo.com/soundcore-space-one-pro-review-2000518403)
@@ -181,7 +181,7 @@ Leave this field empty if you're human:
   Slightly inefficient noise canceling got in the way of decent sound, a long battery life, and intuitive controls.](https://gizmodo.com/soundcore-space-one-pro-review-2000518403)
 
   By
-  [Dua Rashid](https://gizmodo.com/author/drashid) 
+  [Dua Rashid](https://gizmodo.com/author/drashid)
 
   Published November 1, 2024
 

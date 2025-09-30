@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/internet-computers
 
-Welcome to the 1,138 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 189,368 smart, curious folks by subscribing here: 
+Welcome to the 1,138 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 189,368 smart, curious folks by subscribing here:
 Hi friends 👋,
 Happy Monday! After a hectic start to the year, we’re back in the Monday slot hitting your inbox with 12k words to kick off the workweek and it feels good.
 Back in September, I asked Twitter for their most magical tech experiences of the past year. In second place, sandwiched between generative art and crypto wallets, two topics I’ve written a bunch about, was the product I use more than any other: Arc by The Browser Company [ https://substack.com/redirect/6b9b6b4a-164a-49a4-ab67-afe63b4e17c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (you can skip the waitlist with that link, btw).

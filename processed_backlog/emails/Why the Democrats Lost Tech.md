@@ -10,17 +10,17 @@ View this post on the web at https://www.notboring.co/p/why-the-democrats-lost-t
 Welcome to the 256 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 229,980 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] helps you sleep better, and better sleep helps you do everything else better.
-On good nights, I use my Eight Sleep Pod Cover [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for a little more than a third of the day. Last night was one of those nights. My Sleep Fitness Score was 99. I’m ready to have a good day. 
-Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is more than a mattress; it’s a sleep lab in your bedroom. The Pod Cover is packed with sensors that measure things like heart rate, breathing, and scoring, and Eight Sleep uses that data to give you better sleep each night. 
-Recently, Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to one hour more of quality sleep every night. It even elevates to stop your snoring. 
+On good nights, I use my Eight Sleep Pod Cover [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for a little more than a third of the day. Last night was one of those nights. My Sleep Fitness Score was 99. I’m ready to have a good day.
+Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is more than a mattress; it’s a sleep lab in your bedroom. The Pod Cover is packed with sensors that measure things like heart rate, breathing, and scoring, and Eight Sleep uses that data to give you better sleep each night.
+Recently, Eight Sleep [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to one hour more of quality sleep every night. It even elevates to stop your snoring.
 Invest in better sleep. It pays dividends. 
 Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Matt Walker, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best.  Head to eightsleep.com/notboring [ https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and use code NOTBORING to get $350 off Pod 4 Ultra.
-Hi friends 👋 , 
-Happy Tuesday! 
-You know what people love? When people in tech who don’t know much about politics opine on politics! 
-But tech didn’t fall out of a coconut tree. It exists in the context of all in which it lives. As the industry gets richer and tackles bigger problems, that context includes politics. 
-So at the risk of pissing off people on both sides of the aisle… 
-Let’s get to it. 
+Hi friends 👋 ,
+Happy Tuesday!
+You know what people love? When people in tech who don’t know much about politics opine on politics!
+But tech didn’t fall out of a coconut tree. It exists in the context of all in which it lives. As the industry gets richer and tackles bigger problems, that context includes politics.
+So at the risk of pissing off people on both sides of the aisle…
+Let’s get to it.
 Why the Democrats Lost Tech
 Over the past month or so, and particularly since the assassination attempt on Donald Trump last weekend, prominent tech leaders have come out in support of the former President, in the form of both endorsements and donations. 
 While the vast majority of people in tech will still vote Democrat in November, this is a stunning turn for an industry that has long leaned hard to the left. 
@@ -180,7 +180,7 @@ Beyond that, though, it would be fantastic to see a party that leans into its ne
 If I’m tech, I’d even be willing to pay a higher tax rate on gains in exchange for a smoother path towards creating them. If the promise is that we can make the country much richer, it shouldn’t hurt too bad. 
 A New Deal would work with companies like Hadrian [ https://substack.com/redirect/3b1095c2-de3e-484f-a209-8da4eebbebfb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Cuby [ https://substack.com/redirect/d21e344b-e5bd-4cbb-88a7-b1b3d2489129?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] that are working to give low-skilled workers good manufacturing and construction jobs in order to increase employment and build up the pool of talented Americans who know how to build. 
 It would support automation efforts to ensure America’s manufacturing competitiveness without giving into the defeatist and wrong notion that robots will take our jobs.
-It would enhance America’s capacity to install gigawatts of clean energy and economical climate technologies instead of limiting energy consumption. 
+It would enhance America’s capacity to install gigawatts of clean energy and economical climate technologies instead of limiting energy consumption.
 It might even create regulatory sandboxes – both digital and in the physical world – where new technologies can be tested under looser conditions until they’re ready for prime time. 
 I’m not a policy wonk. Those are just a few off-the-dome suggestions. What’s most important is lowering the hostility, starting the conversation, and remembering that American tech companies and the American government are on the same team. That we are a better nation when we build together. 
 In an ideal world, the Democrats would start to fix some of the things that ail the party, tech-specific or otherwise. Specifically, put an end to Everything Bagel Liberalism at the Federal level so that it’s actually possible to implement the big, expensive bills that they pass. 

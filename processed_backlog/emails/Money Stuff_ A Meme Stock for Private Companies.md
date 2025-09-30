@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        We talked yesterday about the Destiny Tech100 fund, but I worry that I did not sufficiently emphasize how wild it is. Here is what it is: A 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        We talked yesterday about the Destiny Tech100 fund, but I worry that I did not sufficiently emphasize how wild it is. Here is what it is: A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Destiny
-    
-  
+
+
 
 We talked yesterday about the Destiny Tech100 fund, but I worry that I did not sufficiently emphasize how wild it is. Here is what it is:
 	A guy named Sohail Prasad raised a fund to invest in hot private technology companies like SpaceX and Stripe.	It currently owns shares in about 23 private companies, worth about $52.6 million.
@@ -93,37 +93,37 @@ Still the basic idea still works: DXYZ should sell stock!
 There are some limits on this: DXYZ doesn’t just have to raise the money; it also has to deploy it, to find good private companies (or their shareholders) who are willing to sell it shares at reasonable valuations.
 But that is a problem for any venture capital fund, and DXYZ is in some ways in a very nice position. For one thing, regular venture capital funds are looking to sell shares in the secondary market. And while other venture funds sometimes struggle to raise money from institutions, DXYZ already knows that there is a ton of demand from public shareholders to invest more in its fund. The market price tells it that.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Mango guy
-    
-  
+
+
 
 You could imagine having two market regimes and letting people opt into one or the other:
 	There’s the Nice Market, which has rules of conduct based on fairness and honesty. There’d be rules against insider trading and market manipulation and lying to counterparties, “clearly erroneous” trades would be reversed, and there would be a generally paternalistic regulator trying to protect investors from at least their more egregious mistakes.	There’s the Fun Market, which has few or no rules: If you can get someone to agree to pay you $100 for a thing, you can sell her the thing, and if it turns out you were lying or had inside information or were spoofing up the price or whatever, she can’t complain.
@@ -149,11 +149,11 @@ But some other people in crypto clearly don’t see it that way, and want a mo
 I am just saying that you could resolve those disagreements by letting everyone go their separate ways. Have Nice Crypto — probably the bulk of it? — where manipulation is disfavored and government intervention is, at least in theory, welcomed. And have Fun Crypto for the applied game theorists to play their games against each other. Have a market that makes it explicit, in advance, on the web page, “Anything that you can do on our platform is allowed, and if the results are absurd then that is fun for you and bad for someone else, you’re on notice!” 
 I don’t think that would really keep out federal prosecutors — they’re free to argue that something allowed by the explicit rules of the market was nonetheless fraud — but it might help? As it is, actual crypto lives mostly in ambiguity, where some people think that code is law and others think that law is law.
 
-  
-    
+
+
       Non-pro rata uptiering
-    
-  
+
+
 
 I have a schematic model of modern distressed debt that goes like this:
 	A company has $100 of debt outstanding.	It goes to the holders of 51% of the debt and says “we’ll give you a little bonus if you agree to stiff the other 49%.”	The company pays those holders back with a little bonus, maybe paying them $60 for their $51 of debt.	In return, they vote to amend the terms of the debt to say that the other guys — the ones with 49% of the debt — get zero.	Net, the majority holders get $9 extra, and the company saves $40 by stiffing the minority holders.
@@ -168,11 +168,11 @@ The value of the original debt plunged following the exchange offer, and some 
 
 Generically you might imagine that it would be a bad thing, for a distressed company, if all of its creditors are viciously competitive sharp-elbowed fighters. But if you can get them to fight against each other, then you can take some value for yourself.
 
-  
-    
+
+
       Trump Media’s auditor
-    
-  
+
+
 
 I do not give investment advice around here, but one thing I will say is that, if you are thinking about buying stock in Trump Media & Technology Group, you don’t need to worry about errors or misrepresentations in its financial statements. Just cross that whole category right off your due diligence checklist.
 I am not saying that Trump Media’s accounting is impeccable, though maybe it is; I have no idea. I am saying that Trump Media reports negative net income, is trading at roughly 1,250 times its reported revenue, and boasts that it “does not currently, and may never, collect, monitor or report certain key operating metrics used by companies in similar industries.” If Trump Media put out a report tomorrow saying “actually our revenue was only $2 million, not $4 million,” the market would shrug. And if Trump Media had a complicated scheme to accelerate revenue recognition and inflate its reported profitability … it would … look different? Like: It would report revenue? And profit? If you have decided that investing in Trump Media is a good idea, it is probably not because you thought the financial statements looked good, which means that Trump Media has no particular incentive to make its financial statements look good.
@@ -185,15 +185,15 @@ TMTG, parent company of the social network Truth Social, has immediately become 
 
 Seems fine.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Blackstone Nears Buyout of Skin-Care Company L’Occitane. Blackstone Making $10 Billion Multifamily Purchase, Going on the Real Estate Offensive. VC secondary trading. TikTok staff face big US tax bills on shares they cannot sell. The Black Market That Delivers Elon Musk’s Starlinks to U.S. Foes. Elon Musk predicts AI will overtake human intelligence next year. AstraZeneca’s Soriot ‘massively underpaid’ at £16.9mn, top shareholder says. Ivy League College Costs Soar to More Than $90,000 a Year. Meet the Robots Slicing Your Barbecue Ribs. Man sues 50 women for $2.6 million after they called him a bad date in viral Facebook group. “‘If someone took my pencil,’ he said, ‘I’d find them and hunt them down and start taking off limbs.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That value is as of its Dec. 31, 2023 annual report, its most recent public valuation. I say “shares” for convenience, but the actual portfolio includes common stocks, preferred stocks, convertible notes, special purpose vehicles, forward contracts and some undeployed cash.
 
 
@@ -212,48 +212,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] To a very small extent, you could say that the US public stock market is the Nice Stock Market and the private markets are the Fun Stock Market, but I would not push on that too hard.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -264,46 +264,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cktqa1.65q1/37f13991.gif" alt="" border="0" /></a>

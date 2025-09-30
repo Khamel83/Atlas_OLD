@@ -7,65 +7,65 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked the other day about the mechanics of Silicon Valley Bank’s failure. Those mechanics are that a lot of depositors asked for their m
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bank hearings
-    
-  
+
+
 
 We   talked the other day about the mechanics of Silicon Valley Bank’s failure. Those mechanics are that a lot of depositors asked for their money back one Thursday, and SVB didn’t have enough money to give them: It ended the day with negative money, and was shut down by its regulators. This is a somewhat weird thing to happen in a modern banking system: Silicon Valley Bank had lots of valuable, safe, liquid assets, and it is a US bank with access to the Federal Reserve. It seems like it should have been fairly straightforward for SVB to pledge those assets to the Federal Reserve to borrow enough money to meet its deposit outflows.
 And in fact SVB tried to do that, and it apparently did have enough collateral to borrow enough money to pay out its depositors that Thursday, though I’m not sure it would have survived the weekend. But the problem, that Thursday, was not that SVB had insufficient assets; the problem was that the Fed’s computer systems stopped working at 4 p.m. California time, and SVB missed the cutoff to transfer assets and borrow money. Silicon Valley Bank certainly had financial problems — the Federal Deposit Insurance Corp. finally   sold it off yesterday for something like negative $20 billion!
   [1]
  — but the reason it failed that day was mostly operational, not financial.
 Today the US Senate is  holding a hearing on “Recent Bank Failures and the Federal Regulatory Response.” Here are the prepared testimonies of  Michael Barr, the vice chair for supervision at the Federal Reserve, Martin Gruenberg, the chairman of the FDIC, and  Nellie Liang, the undersecretary for domestic finance at the US Treasury.
-Gruenberg’s testimony helps clear up one small mystery of the recent bank failures: What happened to Signature Bank of New York? Signature was taken over by the FDIC the same weekend that SVB was, and while SVB had clearly run out of money, it was less clear that Signature had. Signature board member (and former congressman, author of the Dodd-Frank Act, etc.) 
+Gruenberg’s testimony helps clear up one small mystery of the recent bank failures: What happened to Signature Bank of New York? Signature was taken over by the FDIC the same weekend that SVB was, and while SVB had clearly run out of money, it was less clear that Signature had. Signature board member (and former congressman, author of the Dodd-Frank Act, etc.)
 Barney Frank complained that Signature was actually doing fine, that its outflows had stabilized, and that “if we’d been allowed to open tomorrow, that we could’ve continued.” But its   state regulator said that it had had “a significant crisis of confidence in the bank’s leadership,” and shut it. Since Signature was one of the main banks for the crypto industry, this led to theories that the takeover of Signature was part of a regulatory crackdown on crypto rather than an actual bank failure.
 But here is Gruenberg today:
 
@@ -73,7 +73,7 @@ Subsequently, as word of SVB’s problems began to spread, Signature Bank began 
 Over the weekend, liquidity risk at the bank rose to a critical level as withdrawal requests mounted, along with uncertainties about meeting those requests, and potentially others in light of the high level of uninsured deposits, raised doubts about the bank’s continued viability.
 
 Notice the difference from SVB. On Thursday, SVB tried to move collateral to the Fed to borrow money, but missed the deadline by a few minutes and was shut down the next day. On Friday, Signature tried to move collateral to the Fed to borrow money, and made the cutoff by a few minutes. It was shut down over the weekend anyway, for its own operational problems: “Bank management could not provide accurate data regarding the amount of the deficit.” The problem at SVB is that it ran out of money. The problem at Signature is that it couldn’t figure out how much money it had. I suspect that this is a more common problem at banks than would be ideal, but in any case I guess it’s a good enough reason for the regulators to shut a bank down. If you are a bank and you come to the Fed on a Friday afternoon and say “hey, we are out of money, we need more, and we’re not sure how much money we have or need, can you help us figure it out,” apparently the Fed (1) will help you figure it out and (2) will lend you the money, but you are not opening on Monday.
-Meanwhile, the financial story of the failure of SVB 
+Meanwhile, the financial story of the failure of SVB
 is quite straightforward: It had a lot of zero-interest deposits that it invested in long-term loans and (especially) Treasury and agency bonds, and then the Fed raised interest rates rapidly, those loans and bonds lost value, and those zero-interest deposits started looking less stable. Then SVB sold some bonds at a loss and tried to raise capital, which sparked panic among its interconnected network of venture capitalist and startup depositors; they all took their money out and SVB went bust.
 The hearing today is intended to help figure out the right regulatory response to keep this from happening again, but in some sense the takeaway is really “the traditional business of banking is very risky when the Fed raises interest rates a lot for the first time in ages.” People got used to low rates, and then rates rapidly became high, and they were caught out. Here’s this:
 
@@ -103,37 +103,37 @@ In response, social media saw a surge in talk about a run, and uninsured deposit
 
 If you have a bank that is undercapitalized because it lost money on interest-rate moves, the sensible advice is for it to raise more capital, and that’s what SVB did. But that is also what blew it up.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       A CDS trade
-    
-  
+
+
 
 A stylized thing that happened in the financial crisis of 2008 is that big international investment banks funded themselves with a lot of very short-term borrowing (repurchase agreements, overnight loans, derivatives liabilities) from other big market participants (banks, hedge funds, etc.), and their lenders hedged their credit risk using credit default swaps. If you had a lot of derivatives exposure to Bear Stearns & Co., you might buy some CDS on Bear. If everyone got worried about Bear, (1) they would buy a lot of Bear CDS, pushing its price up and (2) they might stop doing business with Bear or lending it money, causing it to fail. There would be a “run on the bank,” not in the literal sense of depositors lining up to take out their money — Bear was not an actual bank and didn’t really have depositors — but in the sense of big short-term lenders declining to roll over their loans and terminating derivatives positions. And the CDS market, as an indicator of how big market participants viewed Bear’s credit, was a warning signal of a potential run. If everyone thinks Bear’s credit is bad, they will not roll their loans.
 But that was a long time ago and things are different now. For one thing, Bear and Lehman Brothers and the other independent investment banks are gone; these days the big investment banks are mostly attached to actual banks that have access to their central banks’ lender-of-last-resort facilities. Also those big banks have learned the lessons of 2008 and do not fund themselves with short-term capital-markets borrowing nearly as much as they used to.
@@ -162,11 +162,11 @@ Answering a question about Friday’s share price fall at Deutsche, Enria said t
 
 If your pattern-matching is from 2008, “CDS on Deutsche Bank blows out” is a good reason to panic, and the market did. But I am not sure that that pattern-matching works anymore.
 
-  
-    
+
+
       Michael Klein
-    
-  
+
+
 
 Before Credit Suisse collapsed, it was working on a complicated and  hilariously conflicted deal to spin out its investment banking business into a separate company. The gist of the deal was that Credit Suisse would acquire Michael Klein’s boutique investment bank, M. Klein & Co., for $175 million, combine that boutique with its existing investment bank, and then carve out the whole thing into a new investment bank that would be separate from Credit Suisse, though they would have a “preferred long-term partnership.” The new bank would be called CS First Boston, and it would be run by Klein, who would have a large ownership stake. Klein was on Credit Suisse’s board of directors when it came up with this plan. Also he led the committee that came up with this plan. Also he stepped down from the board so that he could get paid a $10 million fee for advising Credit Suisse on executing this plan. Just great stuff. Two weeks ago  I wrote:
 Quite possibly this is all fine and the prices are fair and arm’s-length, but this might be the most conflicted transaction I have ever seen? I just admire it? “No conflict, no interest” is the old joke, and it is true that the best and most famous investment bankers tend to find themselves with close ties to everyone on every side of every big deal. If Credit Suisse just thinks that Michael Klein is the best investment banker going, then (1) who better to serve on its board of directors, (2) who better to advise it on this tricky transaction and (3) who better to lead its new investment bank? A lesser banker might have said “ahh I’d love to run First Boston but you see I’m on the Credit Suisse board and it’d look bad,” but Klein was like “nope, I’m the guy, don’t care how it looks, I gotta do it all myself.” Love it.
@@ -184,11 +184,11 @@ Why did Credit Suisse collapse? The simple version of the story is that the chai
 Look I suppose that if you are the biggest shareholder of a somewhat beleaguered bank and someone asks you on television “would you throw more money into this bank,” and the actual answer is “no we can’t,” you should not say “yes.” Everything is securities fraud, etc. But … you should not … say “no”? You certainly should not say “absolutely not”? “We believe strongly in Credit Suisse, we are in close contact with management, and we ourselves have access to tons of cash”: Nothing in that sentence is a lie, it does not actually answer the question, and yet it sounds like it does? It sounds vaguely confidence-inspiring? I thought of that in three seconds? You could probably do better if it was your money on the line?
 I suppose no one could have predicted those television comments — they were really so unnecessary! — but what if you could have? What if Klein had come to Credit Suisse and said “look I have lined up some big Saudi investors who will put in $1.5 billion to shore up our capital position, but they might say some bad stuff about us on television”? Knowing that in advance, would you take the deal? I think Credit Suisse would clearly have been better off without the $1.5 billion and the stray comments on TV.
 
-  
-    
+
+
       Steve Cohen
-    
-  
+
+
 
 There is a business logic to owning a professional sports team. You spend money on players and facilities and expertise, which makes your team good. Because your team is good, people watch it, and its revenue goes up, so the money you spent pays off and you make a profit on your investment.
 There is also a luxury-consumption logic to owning a professional sports team. You spend money on players etc., which makes your team good. Because your team is good, you have fun, because it is fun to root for a winning sports team and I suppose it is even more fun if you own the team. You get to, like, go to the clubhouse and high-five the players after a win, or you get to turn on the radio and listen to a sports talk show and hear people say “hey that owner they got is pretty good.”
@@ -214,15 +214,15 @@ And when Cohen’s young son seemed primed for batting lessons many years back, 
 
 Just a devastating sentence.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Alibaba Shares Surge After Historic Overhaul Heralds IPO Wave.   Schwab’s $7 Trillion Empire Built on Low Rates Is Showing Cracks. McKinsey Starts Eliminating 1,400 Roles This Week in a Rare Round of Job Cuts. The Texas Preacher’s   $24 Million Ponzi Scheme. Sam Bankman-Fried Charged in US With   Bribing Chinese Officials. Banks Step Up to  Serve Crypto Firms After Signature, Silvergate Blowups. Tether Is Winning  Stablecoin Battle Despite Looming Risks. Banks in France Face More Than $1.1 Billion Fines After Raids. EY Breakup Plan’s Fate May Rest on  Executive Showdown This Week. Disney Eliminates Its  Metaverse Division as Part of Company’s Layoffs Plan. Distress in  Office Market Spreads to High-End Buildings.   CFA Level I Pass Rate Ticks Up With Zero Pandemic Cancellations. Substack Turns to Its   Newsletter Writers for Funding. Cultured meat firm resurrects woolly mammoth in  lab-grown meatball.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That is, it sold most of the assets at a $16.5 billion discount, and appears to expect to lose more on the remaining assets, for a total hit to the FDIC insurance fund of about $20 billion. This is not quite the same thing as saying that SVB was *insolvent by* $20 billion; a bank buyer would want a discount in order to put capital against the existing assets. But it's not good.
 
 
@@ -238,48 +238,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Or would accomplish whatever other non-financial goal they want to accomplish. My impression is that the most free-spending European soccer owners are looking to win for public-relations reasons rather than pure sporting interest.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -290,46 +290,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cig5er.5mhv/d6d563c8.gif" alt="" border="0" /></a>

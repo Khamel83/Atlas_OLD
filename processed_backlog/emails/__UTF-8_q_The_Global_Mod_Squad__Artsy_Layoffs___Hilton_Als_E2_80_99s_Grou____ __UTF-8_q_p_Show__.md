@@ -57,7 +57,7 @@ come,” said Bergdorf Goodman sales rep Kelly Fraser, “like Instagrammers.”
 If you go, go for the ceramics. “Ceramics are having a moment,” Fraser told me. Liz O’Brien gallery is featuring black and white ceramics from Bill Hudnut, Isobel Egan, Zachary Zimmerman, and—my favorite—several brutalist vessels from R.A. Pesce priced from $1,750 to $6,000. Verso is also showing ceramics, but their hero piece is
 the serpentine lavender powdercoat chair by Matthew Day Jackson, available for $14,250 in an edition of 10, plus two artist’s proofs. The other participating galleries are J. Lohmann, Room 57, Onishi, and Galerie Gabriel. “It’s early days,” said Fraser, “but we’ve sold a lot.” The pop-up is on view until April 13.
 
- 
+
 
 The Writing’s on the Wall
 ---------------------------
@@ -165,7 +165,7 @@ cultures into their increasingly modern and sometimes abstract art. That allows 
 Both Brazil’s and Mexico’s contributions to modern and contemporary art are hardly unrecognized, but the increasing depth of our exposure and understanding of their art history continues to be a source of fascination
 and inspiration to further study.
 
- 
+
 
 Endnotes…
 -----------
@@ -205,6 +205,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU4wRjPipwX54IvqJHwF4=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

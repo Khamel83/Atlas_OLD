@@ -17,7 +17,7 @@ As you can see, the country is split between those seeing San Diego at Green Bay
 
 But while Kirby’s project does a good job of visualizing the spatial coverage of NFL broadcasts each week, that’s not all it does; the archive of data he’s compiled over the years also helps us understand larger geographic patterns in NFL television. His data reveals which teams we see most and least often each season and across multiple seasons. It’s a reflection of both regional broadcasting choices for Sunday day games and [national programming selections](http://www.nfl.com/news/story/0ap3000000487256/article/nfl-schedule-release-top-primetime-games-of-2015) for the night games on Thursdays, Sundays and Mondays2. The choices matter throughout the U.S. and even outside of it: Kirby, who lives an hour from Maine, has access to U.S. networks, which is why he started collecting the data.
 
-This map depicts which franchise has been the most commonly seen in different parts of the continental U.S. over the past six seasons.3  
+This map depicts which franchise has been the most commonly seen in different parts of the continental U.S. over the past six seasons.3
 ![nflmaps-map1-mobile](https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-nflmaps-1-mobile.png)
 
 ![nflmaps-map1](https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-nflmaps-1.png?w=1024)

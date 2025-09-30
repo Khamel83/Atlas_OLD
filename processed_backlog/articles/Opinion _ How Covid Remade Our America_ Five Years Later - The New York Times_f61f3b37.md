@@ -3,18 +3,18 @@
 **URL:** https://www.nytimes.com/interactive/2025/03/04/opinion/covid-impact-five-years-later.html
 **Processed:** 2025-08-24T19:16:33.182792
 
-For many Americans, the first  
+For many Americans, the first
 memory is of a headline.
 
-What followed was panic,  
+What followed was panic,
 disruption and mass death.
 
 Covid may feel as if it’s behind us.
 
-But we’re living in the branch  
+But we’re living in the branch
 of history it created.
 
-And its contours are only now  
+And its contours are only now
 coming into view.
 
 ![](https://static01.nytimes.com/newsgraphics/2025-01-27-covid-anniversary/_images/nyt-head-@@-300.webp)
@@ -33,8 +33,8 @@ coming into view.
 
 ![](https://static01.nytimes.com/newsgraphics/2025-01-27-covid-anniversary/_images/ian_kline-@@-300.webp)
 
-Five years after the pandemic began, Donald Trump is president again, but he’s presiding over a very different country now. America is a harsher place, more self-interested and nakedly transactional. We barely trust one another and are less sure that we owe our fellow Americans anything — let alone the rest of the world. The ascendant right is junking our institutions, and liberals have grown skeptical of them, too, though we can’t agree about how exactly they failed us. A growing health libertarianism insists on bodily autonomy, out of anger about pandemic mitigation and faith that personal behavior can ward off infection and death. And the greatest social and technological experiment of our time, artificial intelligence, promises a kind of exit from the realm of human flesh and microbes into one built by code.  
-  
+Five years after the pandemic began, Donald Trump is president again, but he’s presiding over a very different country now. America is a harsher place, more self-interested and nakedly transactional. We barely trust one another and are less sure that we owe our fellow Americans anything — let alone the rest of the world. The ascendant right is junking our institutions, and liberals have grown skeptical of them, too, though we can’t agree about how exactly they failed us. A growing health libertarianism insists on bodily autonomy, out of anger about pandemic mitigation and faith that personal behavior can ward off infection and death. And the greatest social and technological experiment of our time, artificial intelligence, promises a kind of exit from the realm of human flesh and microbes into one built by code.
+
 We tell ourselves we’ve moved on and hardly talk about the disease or all the people who died or the way the trauma and tumult have transformed us. But Covid changed everything around us. This is how.
 
 ![](https://static01.nytimes.com/newsgraphics/2025-01-27-covid-anniversary/_images/virus_sf2_5-1_mobile-@@-1200.webp)
@@ -401,14 +401,14 @@ Debt as a share of G.D.P.
 
 Source: Federal Reserve Bank of St. Louis
 
-The decade of populist unrest that began in the aftermath of the global financial crisis was also an era of unprecedented low interest rates, which made the cost of borrowing for public investments almost literally zero. The pandemic ushered in an end to that, as it did to longstanding liberal dreams of erecting a social welfare state — the country briefly rolled one out, as pandemic stimulus, only to roll it all quickly back. R.I.P. Z.I.R.P.   
-  
+The decade of populist unrest that began in the aftermath of the global financial crisis was also an era of unprecedented low interest rates, which made the cost of borrowing for public investments almost literally zero. The pandemic ushered in an end to that, as it did to longstanding liberal dreams of erecting a social welfare state — the country briefly rolled one out, as pandemic stimulus, only to roll it all quickly back. R.I.P. Z.I.R.P.
+
 As we unleashed a flood of money to insulate us from Covid, U.S. debt grew from $22 trillion to $36 trillion.
 
 ## It turned parts of our economy into a casino.
 
-Federal estimates suggest that more than $200 billion in Covid relief loans and grants went to fraudulent actors — almost one out of every five dollars spent by the program. It wasn’t hard to believe that your neighbors were cheating or that your job, on that front, was to keep up with the Joneses.   
-  
+Federal estimates suggest that more than $200 billion in Covid relief loans and grants went to fraudulent actors — almost one out of every five dollars spent by the program. It wasn’t hard to believe that your neighbors were cheating or that your job, on that front, was to keep up with the Joneses.
+
 The easiest way to spend stimulus checks, from home, was to dump the money into our computers. To many, Covid seemed to reveal that an intrepid country had been taken over by overcautious worry-warts — and that rebellion meant embracing risk. So we spent our money on meme stocks and SPACs, NFTs and crypto and smartphone gambling. From behind a laptop or through an iPhone, the economy came to look even more like a slot machine.
 
 ## It helped usher the country into a new era of economic growth.
@@ -727,8 +727,8 @@ a disability
 
 Source: Bureau of Labor Statistics
 
-Long Covid proved real but less catastrophic than once feared. Over time, most sufferers eventually [recovered](https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)), but as recently as 2023, as many as [one million](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2829880) American children suffered from it — at least for a time.   
-  
+Long Covid proved real but less catastrophic than once feared. Over time, most sufferers eventually [recovered](https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)), but as recently as 2023, as many as [one million](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2829880) American children suffered from it — at least for a time.
+
 But there are about four million more newly disabled Americans now than there were before the pandemic, and the number reporting cognitive disabilities alone has grown by 43 percent since 2019 — an increase significantly larger than in the five years before Covid.
 
 ![](https://static01.nytimes.com/newsgraphics/2025-01-27-covid-anniversary/_images/30246223a_hospital_010_mobile-@@-1200.webp)
@@ -787,6 +787,6 @@ June 3, 2024](https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-l
 
 David Wallace-Wells is a science writer and essayist exploring climate change, technology, the future of the planet and how we live on it.
 
-The Times is committed to publishing a diversity of letters to the editor. We’d like to hear what you think about this or any of our articles. Here are some tips. And here’s our email: letters@nytimes.com.  
-  
+The Times is committed to publishing a diversity of letters to the editor. We’d like to hear what you think about this or any of our articles. Here are some tips. And here’s our email: letters@nytimes.com.
+
 Follow the New York Times Opinion section on Facebook, Instagram, TikTok, WhatsApp, X and Threads.

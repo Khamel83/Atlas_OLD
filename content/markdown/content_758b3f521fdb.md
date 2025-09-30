@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.9 (Yoast SEO v25.9) - https://yoast.com/wordpress/plugins/seo/ -->
 	<meta name="description" content="Kimra Luna went from living on welfare to running a thriving online business. Join us to hear her tips for growing an online business from scratch." />
 	<link rel="canonical" href="https://www.smartpassiveincome.com/podcasts/from-welfare-to-nearly-1-million-in-less-than-12-months/" />
@@ -141,7 +141,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container {
 	border-radius: 0;
-	
+
 	border: none;
 }
 
@@ -1155,7 +1155,7 @@ img.wp-smiley, img.emoji {
 						max-height: 46px;
 					}
 				}
-			
+
 </style>
 <script src="https://www.smartpassiveincome.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://www.smartpassiveincome.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -1184,7 +1184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- RightMessage -->
-<script type="text/javascript"> 
+<script type="text/javascript">
 (function(p, a, n, d, o, b, c) {
     o = n.createElement('script'); o.type = 'text/javascript'; o.async = true; o.src = 'https://tb.rightmessage.com/'+p+'.js';
     b = n.getElementsByTagName('script')[0]; d = function(h, u, i) { var c = n.createElement('style'); c.id = 'rmcloak'+i;
@@ -1257,12 +1257,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-c0a88cdd wp-block-group-is-layout-flex" style="padding-top:0px;padding-bottom:0px">
 <div class="wp-block-group is-layout-flex wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div class="wp-block-site-logo"><a href="https://www.smartpassiveincome.com/" class="custom-logo-link" rel="home"><img width="50" height="38" src="https://www.smartpassiveincome.com/wp-content/uploads/2023/08/Logo.png" class="custom-logo" alt="Smart Passive Income" decoding="async" /></a></div></div>
 
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-59134eba wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><nav style="font-size:14px;" class="is-responsive wp-block-navigation is-horizontal is-layout-flex wp-container-core-navigation-is-layout-182e93d9 wp-block-navigation-is-layout-flex" aria-label="Main Navigation" 
-		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-59134eba wp-block-group-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><nav style="font-size:14px;" class="is-responsive wp-block-navigation is-horizontal is-layout-flex wp-container-core-navigation-is-layout-182e93d9 wp-block-navigation-is-layout-flex" aria-label="Main Navigation"
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open"
 				data-wp-on-async--click="actions.openMenuOnClick"
 				data-wp-on--keydown="actions.handleMenuKeydown"
 			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z" /></svg></button>
-				<div class="wp-block-navigation__responsive-container"  id="modal-1" 
+				<div class="wp-block-navigation__responsive-container"  id="modal-1"
 				data-wp-class--has-modal-open="state.isMenuOpen"
 				data-wp-class--is-menu-open="state.isMenuOpen"
 				data-wp-watch="callbacks.initMenu"
@@ -1271,15 +1271,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				tabindex="-1"
 			>
 					<div class="wp-block-navigation__responsive-close" tabindex="-1">
-						<div class="wp-block-navigation__responsive-dialog" 
+						<div class="wp-block-navigation__responsive-dialog"
 				data-wp-bind--aria-modal="state.ariaModal"
 				data-wp-bind--aria-label="state.ariaLabel"
 				data-wp-bind--role="state.roleAttribute"
 			>
-							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close"
 				data-wp-on-async--click="actions.closeMenuOnClick"
 			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
-							<div class="wp-block-navigation__responsive-container-content" 
+							<div class="wp-block-navigation__responsive-container-content"
 				data-wp-watch="callbacks.focusFirstElement"
 			 id="modal-1-content">
 								<ul style="font-size:14px;" class="wp-block-navigation__container is-responsive wp-block-navigation"><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" style="font-size: 14px;" class="wp-block-navigation-item has-child open-on-hover-click gtm-primary-navigation wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="https://www.smartpassiveincome.com/community/"><span class="wp-block-navigation-item__label">Community</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Community submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container gtm-primary-navigation wp-block-navigation-submenu"><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/explore/"><span class="wp-block-navigation-item__label">Explore</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/start/"><span class="wp-block-navigation-item__label">Start</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/accelerate/"><span class="wp-block-navigation-item__label">Accelerate</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/thrive/"><span class="wp-block-navigation-item__label">Thrive</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/"><span class="wp-block-navigation-item__label">Compare the Tiers</span></a></li></ul></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/courses-accelerators/"><span class="wp-block-navigation-item__label">Courses</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" style="font-size: 14px;" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="https://www.smartpassiveincome.com/courses-accelerators/"><span class="wp-block-navigation-item__label">Member Benefits</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Member Benefits submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/accelerators/"><span class="wp-block-navigation-item__label">Accelerators</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/masterminds/"><span class="wp-block-navigation-item__label">Masterminds</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/events/spi-community-workshop/"><span class="wp-block-navigation-item__label">Workshops</span></a></li></ul></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/pricing/"><span class="wp-block-navigation-item__label">Pricing</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/events/"><span class="wp-block-navigation-item__label">Events</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" style="font-size: 14px;" class="wp-block-navigation-item has-child open-on-hover-click gtm-primary-navigation wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="/resources"><span class="wp-block-navigation-item__label">Free Resources</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Free Resources submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container gtm-primary-navigation wp-block-navigation-submenu"><li style="font-size: 14px;" class=" wp-block-navigation-item gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/blog/"><span class="wp-block-navigation-item__label">Blog</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/courses-accelerators/#free"><span class="wp-block-navigation-item__label">Courses</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/guides"><span class="wp-block-navigation-item__label">Guides</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/spi/"><span class="wp-block-navigation-item__label">Podcast</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/newsletter/"><span class="wp-block-navigation-item__label">Newsletter</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/resources/"><span class="wp-block-navigation-item__label">Tools</span></a></li></ul></li><li style="font-size: 14px;" class=" wp-block-navigation-item is-style-button spi-nav-log-in gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://community.smartpassiveincome.com/users/sign_in"><span class="wp-block-navigation-item__label">Log In</span></a></li><li style="font-size: 14px;" class=" wp-block-navigation-item is-style-button gtm-primary-navigation wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://www.smartpassiveincome.com/community/"><span class="wp-block-navigation-item__label">Join Us</span></a></li></ul>
@@ -1334,7 +1334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="wp-block-group has-background-1-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-312e4cce wp-block-group-is-layout-constrained" style="border-radius:5px;margin-top:var(--wp--preset--spacing--large);padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)">
 		<script async data-type="track" data-track="http://staging.smartpassiveincome.com/?post_type=podcast&amp;p=18362" src="https://app.fusebox.fm/embed/player.js"></script>
-		
+
 </div>
 </div>
 </div>
@@ -1729,7 +1729,7 @@ var convertkit_broadcasts = {"ajax_url":"https:\/\/www.smartpassiveincome.com\/w
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script src="https://www.smartpassiveincome.com/wp-content/themes/spi/assets/vendors/js/flickity.pkgd.js?ver=1.9.0" id="flickityjs-js"></script>
 <script src="https://www.smartpassiveincome.com/wp-content/themes/spi/assets/vendors/js/flickity.init.js?ver=1.9.0" id="flickityjs-init-js"></script>
@@ -1747,7 +1747,7 @@ var convertkit = {"ajaxurl":"https:\/\/www.smartpassiveincome.com\/wp-admin\/adm
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Page Caching using Disk: Enhanced 
+Page Caching using Disk: Enhanced
 
 Served from: www.smartpassiveincome.com @ 2025-09-15 01:25:20 by W3 Total Cache
 -->

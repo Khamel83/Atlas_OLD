@@ -5,7 +5,7 @@
 
 Arts has moved! You can find [new stories here](https://slate.com/culture).
 
-![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters01.jpg.CROP.promo-mediumlarge.jpg "Justin Peters on Who Wants to Be a Millionaire") 
+![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters01.jpg.CROP.promo-mediumlarge.jpg "Justin Peters on Who Wants to Be a Millionaire")
 
 Justin Peters on *Who Wants to Be a Millionaire?*
 
@@ -27,7 +27,7 @@ But it wasn’t a feint. I had given the wrong answer. I had lost $225,000 in ab
 
 *What had I done?*
 
-![Justin Peters](/content/dam/slate/articles/arts/culturebox/2015/02/Justin-Millionaire_Promo14s_opt350.gif.CROP.original-original.gif "Justin-Millionaire_Promo14s_opt350") 
+![Justin Peters](/content/dam/slate/articles/arts/culturebox/2015/02/Justin-Millionaire_Promo14s_opt350.gif.CROP.original-original.gif "Justin-Millionaire_Promo14s_opt350")
 
 Justin Peters
 
@@ -119,7 +119,7 @@ Two days later, a contestant coordinator called me and invited me to come on the
 
 *Who Wants to Be a Millionaire?* premiered in Great Britain in 1998 and came to the United States in 1999. With Philbin, the show became a primetime sensation, airing on ABC up to five nights per week at its peak. But Americans eventually lost interest in watching their fellow countrymen become millionaires every night of the week. ABC’s ratings suffered, given that its entire weeknight programming fortunes were pretty much contingent on this one program. Primetime *Millionaire* was canceled in June 2002.
 
-![Regis Philbin](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_regis.jpg.CROP.promo-medium2.jpg "150203_WWTBAM_regis") 
+![Regis Philbin](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_regis.jpg.CROP.promo-medium2.jpg "150203_WWTBAM_regis")
 
 Regis Philbin returned to primetime to host *Super Millionaire* beginning Sunday, May 16, 2004, on ABC.
 
@@ -163,9 +163,9 @@ I was always going to gamble.
 
 The $500,000 question was this: “Drinking alcohol in the British House of Commons is strictly forbidden at all times, with the single exception of a lawmaker doing what?” The potential answers:
 
-A: Declaring war.  
-B: Crowning a royal.  
-C. Taking the oath of office.  
+A: Declaring war.
+B: Crowning a royal.
+C. Taking the oath of office.
 D: Passing a budget.
 
 If I answered the question right, I’d have $500,000 and the chance to be the program’s first million-dollar winner in years.
@@ -252,7 +252,7 @@ We often say that we’d do great things if we only had the money, but that’s 
 
 I have the confidence to do just about anything on stage. So why hasn't that translated into the courage to pursue the thing I love? Maybe it’s because the college graduate in me has always seen the value of hedging, of having contingency plans, of never putting all your money on the line for any single proposition.
 
-![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters03a.jpg.CROP.promo-medium2.jpg "Justin Peters on Who Wants to Be a Millionaire") 
+![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters03a.jpg.CROP.promo-medium2.jpg "Justin Peters on Who Wants to Be a Millionaire")
 
 Justin Peters on *Who Wants to Be a Millionaire?*
 

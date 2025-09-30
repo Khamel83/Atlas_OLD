@@ -155,10 +155,10 @@ He’s disappointed. “Everything I’ve done in my life is based upon those se
 
 And so we discuss it. Only a preplanned detonation, he argues, could bring down those towers, and only a lobby embroidered with explosives could explain the injuries to Bobby’s body. He has the full medical examiner’s report.
 
-It is very upsetting to read. Most of Bobby’s head—that beautiful face—was missing, as was most of his right arm. The details are rendered in generic diagrams and the dispassionate language of pathology (“Absent: R upper extremity, most of head”), as well as a chilling pair of responses on a standard checklist.  
-   
- *Hair color: None.*  
-   
+It is very upsetting to read. Most of Bobby’s head—that beautiful face—was missing, as was most of his right arm. The details are rendered in generic diagrams and the dispassionate language of pathology (“Absent: R upper extremity, most of head”), as well as a chilling pair of responses on a standard checklist.
+
+ *Hair color: None.*
+
  *Eye color: None.*
 
 But a subtle thing made Bob Sr. think something was amiss. The report describes many lacerations and fractures, but they appear almost entirely on the front of Bobby’s body. The back of his corpse is basically described as pristine, besides multiple fractures to what remained of his head.
@@ -509,8 +509,8 @@ It wasn’t hard to say. He was right. I went through the whole diary again. On 
 
 I texted Jen the same photograph I sent my editor. At first, she didn’t see it. Then she did. Her initial reaction was the same as mine: anxiety, despair in the form of an expletive. Then:
 
-*Still makes me smile*  
- Me: *What does?*  
+*Still makes me smile*
+ Me: *What does?*
  Jen: *That the people close to him saw and felt what they needed to. And that’s ok. You know?*
 
 I did. The phrase certainly sounded like something Bobby *could* have said. It was very Yoda, and Bobby was definitely very Yoda, spouting his little aphorisms about the drives of the human heart. To me, it was the difference between the spirit of the law and the letter of the law, or maybe what we do when we intensify the color of an image on our iPhone. We’re not trying to create a fake; we’re trying to align the image with the one that already lives in our memory.
@@ -531,7 +531,7 @@ So really, who’s to say?
 
 ![Photo of stack of legal pads with wire-bound notebook with diary entry on top](https://cdn.theatlantic.com/thumbor/dlRHtVAigEWYdvHRstW69af6Jx0=/0x0:2000x2500/655x819/media/img/posts/2021/07/WEL_Senior_Diary/original.jpg)
 
-In Bobby’s final diary entry, a few days before 9/11, he was working  
+In Bobby’s final diary entry, a few days before 9/11, he was working
  out how he would ask Jen’s father for permission to marry her. (Jens Mortensen for *The Atlantic*)
 
 L*ife lives on**, Life loves on*—to me, it’s irrelevant. There are far more beautiful observations in the recovered diary than that one, and they’re prescient, eerie—much more germane to the McIlvaines’ story once Bobby was gone.

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In the stock market there are market makers. A market maker is in the business of buying stock from people who want to sell and selling stoc
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Opendoor
-    
-  
+
+
 
 In the stock market there are market makers. A market maker is in the business of buying stock from people who want to sell and selling stock to people who want to buy. Those people could just trade with each other directly, sure, but that would be inconvenient. You might want to sell now, and I might want to buy in 10 minutes. Rather than wait around, you sell to a market maker now, and she sells to me in 10 minutes. You and I get “immediacy.” In exchange, we pay the market maker a bit of money, in the form of a spread between the price she pays you now and the price I pay her in 10 minutes.
 Being in this business, the market maker is exposed to market prices: If the stock goes up over those 10 minutes, she makes a bit of extra money; if it goes down (by more than the spread) she loses money. But in fact the market maker is not necessarily long a lot of stock. For one thing, she trades pretty rapidly — market makers in the US stock market are often called “high-frequency traders” — and so doesn’t hold too much stock for too long. For another thing, she can sell stock before she buys it. This is called short selling. If you want to buy now, and I want to sell in 10 minutes, the market maker will sell you some stock now and buy it from me in 10 minutes. If the stock goes up over those 10 minutes (by more than the spread), she loses money; if it goes down, she makes money. Over the course of a day, the market maker will sometimes buy before selling and other times sell before buying; she will be long some stocks at some times and short other stocks at other times. Overall she is probably close to flat, meaning that she won’t make or lose much money if the stock market jumps up or down.
@@ -94,63 +94,63 @@ The company, which sells thousands of homes in a typical month, lost money on 42
 
 Yeah if you are in the business of buying houses and then selling them months later, and house prices go down, you will lose money. This seems hard to avoid.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Zero slippage
-    
-  
+
+
 
 The basic idea of market manipulation is that you buy a lot of X to make the price of X go up, and then you own a lot of X, which is now worth more than you paid for it. If you start buying Stock X at $50, and you keep buying until you’ve pushed the price up to $100, then you’ve paid an average of, say, $75 per share, but now it’s worth $100 per share. Good job. But then you try to sell it, to realize that profit, and it starts going down. If it went up as you bought it, it should go down as you sell it. It’ll end up back at $50, maybe lower. You won’t make any money on the trade.
 There is a folk understanding of market manipulation that it is just this — just buying stock to make it go up — and every so often you see someone accused of this simple version. Bill Hwang of Archegos Capital Management is a recent case that we’ve talked about a lot; he seems to have lost a fortune by buying tons of some stocks as they went. up, and then selling them all at once in fire sales that crashed their prices. He was arrested for manipulation anyway, and   I have said: huh?
@@ -179,20 +179,20 @@ In the real world, putting on risk requires you to pay liquidity providers on th
 
 Yes if you can trade a thing in large size without moving its price, and you can also (on a regular exchange) trade the thing in large size with moving its price, then you can print free money, and someone did.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Musk vs. Twitter
-    
-  
+
+
 
 When Elon Musk first started talking about canceling his deal to buy Twitter Inc., what he said was that Twitter had not proved to his satisfaction that fewer than 5% of its “monetizable daily active users” were spam bots. The deal was “temporarily on hold pending details supporting calculation that spam/fake accounts do indeed represent less than 5% of users,” Musk tweeted, back in May. I   pointed out, back then, that this was   not actually an excuse that could get him out of the deal. The merger agreement didn’t actually say that spam accounts were fewer than 5% of users, for one thing. Even if it had said that, Musk had no evidence that it was wrong. And even if it had said that and was wrong, it wouldn’t give Musk a way out of the deal unless it caused a “material adverse effect” on Twitter’s business.
 Still, I allowed for the possibility that Musk could win. When he formally terminated the deal, in July,   I wrote:
@@ -222,11 +222,11 @@ The primary reason damages would not be adequate in the sense of providing full 
 
 As Anderson says, this is a standard feature of private-equity merger agreements: Damages tend to be capped at some relatively small number, but the agreements also allow specific performance. Here, specific performance is worth something like $20 billion to Twitter, while the damages are capped at $1 billion. You can sort of understand the rationale: Forcing Musk to buy Twitter might be fairer to him than forcing him to pay $20 billion of damages and not get Twitter; if he buys the company at least he has a shot of making his money back, while if he terminates and gets sued for damages and loses he just has to write a huge check for nothing. Still it is a weird binary, where Twitter gets either everything it wants or almost nothing.
 
-  
-    
+
+
       Obviously on the run
-    
-  
+
+
 
 A major difference between the traditional financial industry and the crypto financial industry is that the people who run multibillion-dollar companies in traditional finance tend to be (1) in their 40s or older and (2) advised by lots of lawyers and public-relations professionals, while the people who run multibillion-dollar companies in crypto tend to be (1) like 23 and (2) tweeting constantly from their own phones with no outside guidance. Imagine the chief executive officer of a traditional finance firm who vaporized tens of billions of dollars of customer money and was investigated by police. What would he do? He’d shut up and have his lawyers put out anodyne statements about how he looked forward to clearing his name. Would he flee the country? Possibly! Would he tweet about it? Probably not.
 Do Kwon is   a breath of fresh air in that sense:
@@ -236,23 +236,23 @@ Korean prosecutors refuted his comments on Sunday and alleged Do Kwon is “obvi
 
 To be fair, a few minutes after tweeting “I am not ‘on the run’ or anything similar,”  Kwon also tweeted “Tbh havent gone running in a while, need to cut some calories,” which I suppose is a winking way to say okay, fine, actually I am on the run. South Korea has   asked Interpol for help catching him. I will be following the chase with interest, possibly on Kwon’s Twitter account.
 
-  
-    
+
+
       Errata
-    
-  
+
+
 
 I   wrote on Thursday that RCI Hospitality Holdings Inc. Chief Financial Officer Bradley Chhay sold 69 shares of stock for $69.69, as a good meme-stock CFO should. He actually bought 69 shares for $69.69, which is even better meme-stock CFOing. I just misread the filing. Sorry for the error.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse Considers Rebranding Investment Bank   First Boston.  LME faces backlash from metal brokers for opening during Queen’s funeral. Big  Regional Banks Might Face New Rules for Dealing With a Crisis. Private equity buys up  family businesses.   Phil Falcone Uses Apollo Court Claim to Secure Loan From Michael Dell.  Instacart Plans to Focus IPO on Selling Employee Shares. Ben & Jerry’s alleges Unilever ‘usurped’ company board in Israel dispute. Tycoon Running a Quarter of China’s   Copper Trade Is on the Ropes. UBS hires Chinese ‘ content reviewers’ to vet research reports. Overlooked by Investors,  Royalties Are Fetching Princely Sums. UK Regulator Issues Warning on Crypto Exchange   FTX to Consumers. Binance  Bungles Accounting for Helium Tokens, Overpays Clients Millions. The ‘  Billionaire Rabbi Astrologer’ Who Faked a Lord & Taylor Bid. “If  Islay was an independent state, its GDP per head would be enormous—it would be like Monaco.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] If your story of the housing market is "the market went down as mortgage rates rose," I suppose you could hedge that risk in the rates market? Buy a bunch of houses, short a bunch of Treasuries? Seems imperfect.
 
 
@@ -265,114 +265,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] By the way. Let’s say you are the judge and you believe that. You think “yes, Twitter’s dysfunction is a threat to democracy itself.” And then Twitter asks you to make Musk buy Twitter, and Musk asks you not to. Wouldn’t you be tempted to force Musk — a defender of democracy, etc. — to buy Twitter, specifically to fix it and alleviate the threat to democracy? This is sort of the inverse of   the problem we discussed last week, which is that Twitter's lawyers are arguing that Musk (1) is irresponsible and destructive and (2) therefore should be forced to buy Twitter. Musk is arguing that Twitter is irresponsible and destructive, and therefore should be left alone. Whoever wins this case will end up proving (1) that the other side shouldn't really own Twitter and (2) that they have to anyway.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

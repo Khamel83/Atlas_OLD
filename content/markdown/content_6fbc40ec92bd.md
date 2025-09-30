@@ -27,26 +27,26 @@
       <meta property="og:url" content="http://web.archive.org/web/20230810050556/https://www.gawker.com/how-things-work-1785604699"/>
       <meta property="og:title" content="How Things Work"/>
       <meta property="og:type" content="article"/>
-      
+
       <meta name="author" content="Nick Denton"/>
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:site" content="@gawker">
 
 <meta name="description" content="Gawker.com is shutting down today, Monday 22nd August, 2016, some 13 years after it began and two days before the end of my forties. It is the end of an era."/>
          <meta property="og:description" content="Gawker.com is shutting down today, Monday 22nd August, 2016, some 13 years after it began and two days before the end of my forties. It is the end of an era."/>
-      
+
       <meta property="og:locale" content="en_US"/>
       <meta property="og:site_name" content="Gawker"/>
 
 <link rel="stylesheet" href="http://web.archive.org/web/20230810050556cs_/https://d3g9hkg0fs5t3e.cloudfront.net/style.css"/>
-      
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="http://web.archive.org/web/20230810050556js_/https://www.googletagmanager.com/gtag/js?id=UA-110880877-1"></script>
    <script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
-   
+
      gtag('config', 'UA-110880877-1');
    </script>
 </head>
@@ -56,9 +56,9 @@
 
 <nav class="nav">
    <div class="logo-wrapper">
-       
+
             <a href="/web/20230810050556/https://www.gawker.com/" class="logo"><img src="//web.archive.org/web/20230810050556im_/https://images.gawker.com/wfu6ejdpribzmusjgflo/c_fit,fl_progressive,h_64,q_80.png" border="0" alt="Logo"/></a>
-       
+
    </div>
 
 <a class="nav__menu" tabindex="0">
@@ -123,23 +123,23 @@
 <div class="post">
             <article>
                <header>
-                  
+
                      <div class="img--16x9 img-wrapper">
                         <figure class="align--bleed"><img src="//web.archive.org/web/20230810050556im_/https://images.gawker.com/feageomtd6muf2zslnw1/c_scale,fl_progressive,q_80,w_800.png"/><figcaption>Image by Jim Cooke</figcaption></figure>
                      </div>
-                  
+
                   <h1>How Things Work</h1>
-                  
+
                      <div class="meta__views" title="910,622 Pageviews">910.62K</div>
-                  
+
                   <div class="meta">
-                      
+
                          <div class="meta__avatar"><img src="//web.archive.org/web/20230810050556im_/https://images.gawker.com/nuguroqmy5cbrzv5okyv/c_fill,fl_progressive,g_center,h_200,q_80,w_200.jpg" class="meta__avatar"></div>
-                      
+
                      <div class="meta__text">
                         <div class="meta__byline">Nick Denton</div>
                         <time datetime="2016-08-22T16:33:00.369000-0500">08/22/16 04:33PM</time>
-                        
+
                      </div>
                   </div>
                </header>

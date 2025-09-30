@@ -21,17 +21,17 @@
     <script type="text/javascript">
       (function(d){
         var c = " ", f = "flex", fw = "-webkit-"+f, e = d.createElement('b');
-        try { 
-          e.style.display = fw; 
-          e.style.display = f; 
-          c += (e.style.display == f || e.style.display == fw) ? 'has-flex' : "no-"+f; 
-        } catch(e) { 
-          c += "no-"+f; 
+        try {
+          e.style.display = fw;
+          e.style.display = f;
+          c += (e.style.display == f || e.style.display == fw) ? 'has-flex' : "no-"+f;
+        } catch(e) {
+          c += "no-"+f;
         }
-        d.documentElement.className += c; 
+        d.documentElement.className += c;
       })(document);
     </script>
-    
+
     <!-- TEALIUM CODE BLOCK : START -->
 <!-- Tealium Universal Data Object -->
 <script type="text/javascript">
@@ -40,7 +40,7 @@
 var is_small = window.matchMedia( "(max-width: 519px)" ),
     is_medium = window.matchMedia( "(max-width: 767px)" ),
     is_wide = window.matchMedia( "(max-width: 1023px)" );
-    
+
 var template_name = '';
 if (is_small.matches) {
   template_name = 'small';
@@ -72,11 +72,11 @@ var utag_data = {
     a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
     })();
 </script>
- 
-<!-- TEALIUM CODE BLOCK : END -->     
+
+<!-- TEALIUM CODE BLOCK : END -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v24.9 (Yoast SEO v24.9) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Retailers can solve their returns problem – and the answer lies in existing data</title>
 	<meta name="description" content="The growing number of returned items is having a disastrous impact on many retailers’ profits. But tools and insights are becoming available to help solve this challenge" />
@@ -127,11 +127,11 @@ var utag_data = {
     			var node =document.getElementsByTagName("script")[0];
     			node.parentNode.insertBefore(gads, node);
     		})();
-    		
+
       googletag.cmd.push(function() {
       	googletag.pubads().set("adsense_background_color", "FFFFFF");
       });
-    
+
     </script>
     <script type="text/javascript">
     (function($) {
@@ -147,7 +147,7 @@ var utag_data = {
 <script type="text/javascript">
 (function($) {
   var PagesGoogleAd = PagesGoogleAd || {};
-  
+
   PagesGoogleAd.supportsHTML5Storage = function() {
 		try {
 			return 'localStorage' in window && window['localStorage'] !== null;
@@ -155,7 +155,7 @@ var utag_data = {
 			return false;
 		}
 	};
-	
+
 	PagesGoogleAd.getLocalStorageItem = function(item_key) {
   	return (PagesGoogleAd.supportsHTML5Storage && localStorage.getItem(item_key) !== null) ? localStorage.getItem(item_key) : 'null';
 	};
@@ -190,11 +190,11 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
     var utagIsDefined = (typeof utag != 'undefined'),
   			iamTgtObj = PagesGoogleAd.getCookieParamAsObj('iam_tgt', ':', '='),
   			acsNgnObj = PagesGoogleAd.getCookieParamAsObj('acs_tnl', '&', '=');
-  			
+
     console.log('iamTgtObj', iamTgtObj);
     console.log('acsNgnObj', acsNgnObj);
-    
-    
+
+
     googletag.cmd.push(function() {
       var leaderMap = googletag.sizeMapping()
                                .addSize([969, 100], [[970, 250], [970,90], [940,250], [900, 250], [728, 90],[468, 60]])
@@ -210,9 +210,9 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
   		var sponsorLogoMap = googletag.sizeMapping()
   		                              .addSize([120, 60], [[120, 60]])
   		                              .build();
-  		
-      
-      
+
+
+
         		googletag.defineSlot("/3048/d.thetimes.co.uk/features/",
   		                      [[970, 250],[728, 90]],
   		                      "advert-type-leaderboard-1")
@@ -241,7 +241,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
   			.setTargeting("breakpoint", template_name) // 'small' | 'medium' | 'large' | 'huge' - template_name is defined in templates/tealium.php
   			.setTargeting("pos", "Leaderboard");
   		googletag.pubads().enableSingleRequest();
-  		googletag.enableServices();  		
+  		googletag.enableServices();
   		  	});
   }
     // run the setup
@@ -306,7 +306,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
     <script type="text/javascript">!function(p,r,e,s,b,d){p.pbq||(s=p.pbq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);},s.version='1.0',s.queue=[],b=r.createElement(e),b.async=!0,b.src='https://sr.studiostack.com/v3/services',d=r.getElementsByTagName(e)[0],d.parentNode.insertBefore(b,d))}(window,document,'script');pbq('init', '250822');pbq('set', 'story');</script>
 </head>
 <body class="page-template page-template-page-landing-single page-template-page-landing-single-php page page-id-59835 Page wpb-js-composer js-comp-ver-6.10.0 vc_responsive">
-  
+
   <div class="AccessibilityLinks">
     <h2 class="u-hide">Accessibility Links</h2><a href="#main-container" class="u-hide">Skip to content</a>
   </div>
@@ -314,7 +314,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 <div class="GlobalNav">
     <div class="GlobalNav-wrapper">
       <div class="GlobalNav-container">
-      
+
         <div class="GlobalNav-logoHolder">
           <div class="GlobalNav-logo">
             <a data-tracking='{"event_navigation_name":"header:global navigation:logo"}' href="https://www.thetimes.com/" title="Link to homepage" class="js-tracking">
@@ -322,18 +322,18 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
             </a>
           </div>
         </div>
-        
+
         <div class="GlobalNav-viewEditionHolder">
           <div class="GlobalNav-viewEdition">
             <a data-tracking='{"event_navigation_name":"header:global navigation:logo"}' href="https://www.thetimes.com/" title="View today's edition" class="js-tracking">View today's edition</a>
           </div>
         </div>
-      
+
       </div><!-- GlobalNav-container -->
     </div><!-- GlobalNav-wrapper -->
   </div><!-- GlobalNav -->
-  
-        
+
+
   <div class="Container MainContainer">
 
 <article class="Article">
@@ -354,9 +354,9 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
           googletag.cmd.push(function() {
             googletag.pubads().addEventListener('slotRenderEnded', function(event) {
                 if (event.slot.getSlotElementId() == "advert-type-leaderboard-1") {
-                    var containsAd = !event.isEmpty;     
+                    var containsAd = !event.isEmpty;
                     //console.log('does the slot contain an ad?', "advert-type-leaderboard-1", containsAd);
-                    
+
                     // hide Advert text
                     if (containsAd) {
                       (function($) {
@@ -376,7 +376,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
       </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
-			
+
 		</div>
 	</div>
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="Article-headerContainer">
@@ -391,7 +391,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 	</div>
 
 <div  class="wpb_single_image wpb_content_element vc_align_left">
-		
+
 		<figure class="wpb_wrapper vc_figure">
 			<a href="https://www.alixpartners.com/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="240" height="120" src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/logo-3.jpg" class="vc_single_image-img attachment-full" alt="" title="logo" /></a>
 		</figure>
@@ -406,7 +406,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid Meta"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element  Byline" >
 		<div class="wpb_wrapper">
-			
+
 		</div>
 	</div>
 
@@ -419,12 +419,12 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element  Image-credit" >
 		<div class="wpb_wrapper">
-			
+
 		</div>
 	</div>
 
 <div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1702052817841">
-		
+
 		<figure class="wpb_wrapper vc_figure">
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="685" height="385" src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg" class="vc_single_image-img attachment-full" alt="" title="hero" srcset="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg 685w, https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg?resize=300,169 300w" sizes="(max-width: 685px) 100vw, 685px" /></div>
 		</figure>
@@ -569,7 +569,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div  class="wpb_single_image wpb_content_element vc_align_center">
-		
+
 		<figure class="wpb_wrapper vc_figure">
 			<a href="https://www.alixpartners.com/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img loading="lazy" decoding="async" class="vc_single_image-img " src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/logo-4.jpg" width="240" height="120" alt="logo" title="logo" /></a>
 		</figure>
@@ -577,7 +577,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 
 <div class="wpb_text_column wpb_content_element  Image-credit" >
 		<div class="wpb_wrapper">
-			
+
 		</div>
 	</div>
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid Share-toolbar"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -591,7 +591,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 </section>        </div>
 
 </section>
-			
+
 			<footer class="Article-footer"></footer>
 
 </article>
@@ -614,7 +614,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 <div class="GlobalFooter-group">
                 <div class="GlobalFooter-section GlobalFooter-section--primary">
                     <h3 class="GlobalFooter-header Headline Headline--footer">Get in touch</h3>
-                    
+
                     <div class="menu-footer-get-in-touch-container"><ul id="menu-footer-get-in-touch" class="GlobalFooter-list"><li id="menu-item-66615" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/about-us">About us</a></li>
 <li id="menu-item-66617" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/contact-us/">Contact us</a></li>
 <li id="menu-item-66619" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/help/">Help</a></li>
@@ -630,7 +630,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 
 <div class="GlobalFooter-section GlobalFooter-section--secondary">
                     <h3 class="GlobalFooter-header Headline Headline--footer">More from The Times and The Sunday Times</h3>
-                    
+
                     <div class="menu-footer-more-container"><ul id="menu-footer-more" class="GlobalFooter-list"><li id="menu-item-61049" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://epaper.thetimes.com/the-times">The Times e-paper</a></li>
 <li id="menu-item-61052" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://epaper.thetimes.com/the-sunday-times">The Sunday Times e-paper</a></li>
 <li id="menu-item-61053" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.timescurrencyservices.co.uk/">Times Currency Services</a></li>
@@ -652,7 +652,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 <li id="menu-item-61069" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/money-mentor">Times Money Mentor</a></li>
 <li id="menu-item-61070" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/luxury">Times Luxury</a></li>
 <li id="menu-item-61071" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/sport/sportswomen-of-the-year/">Sportswomen of the Year Awards</a></li>
-</ul></div>	                  
+</ul></div>
                 </div>
             </div>
 
@@ -664,7 +664,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 
 <p>Registered office: 1 London Bridge Street, SE1 9GF.</p>
                 </div>
-                
+
                 <div class="menu-globalfooter-list-container"><ul id="menu-globalfooter-list" class="GlobalFooter-list GlobalFooter-list--small"><li id="menu-item-61086" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newsprivacy.co.uk/">Privacy &#038; cookie policy</a></li>
 <li id="menu-item-75330" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/static/generative-artificial-intelligence-editorial-guidelines/">Generative AI editorial guidelines</a></li>
 <li id="menu-item-61088" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newslicensing.co.uk/">Licensing</a></li>
@@ -678,7 +678,7 @@ PagesGoogleAd.setupGooglePublisherTags = function() {
 </ul></div>            </div>
         </div>
     </footer>
-    
+
 	</div>
 
 <link rel='stylesheet' id='vc_font_awesome_5_shims-css' href='https://www.thetimes.com/static/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.10.0' media='all' />

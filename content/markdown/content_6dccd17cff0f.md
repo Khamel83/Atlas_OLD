@@ -70,7 +70,7 @@ CN.site.init({
 
 <script type="text/javascript" src="/web/20150225140812js_/http://www.gourmet.com/js/ecomfw.min.js"></script>
             <script type="text/javascript" src="/web/20150225140812js_/http://www.gourmet.com/js/gourmet_ecom.js"></script>
-        
+
     <script type="text/javascript">
         window._ghearst_vars = (function() {
         var
@@ -119,10 +119,10 @@ jQuery(document).ready(function(){
                     $(this).css('visibility', 'visible');
                 });
             };
-            
+
             $LAB.script(_ghearst_vars.ams_ads_script_src)
                 .wait(function() {
-                    
+
                     CN.hearstQue.run(window.pageAds);
                 });
 
@@ -151,7 +151,7 @@ setTimeout(show, 10 * 1000);
 
 <script type="text/javascript">
     //<!--
-        
+
         CN.dart.init({site:'gourmet.dart', zone: 'magazine;', kws:[ "pocketful","brucefeiler","articlev2","newyork","2000s","magazine","10","restaurants","2000"], charmap : {' ' : '+', '-' : '_'}, embed: false , contentId : '1000000000003480' , contentType : '', gptCallback : {}});
     //-->
     </script>
@@ -189,44 +189,44 @@ setTimeout(show, 10 * 1000);
 <div class="byline">
        <div class="contributors">
          <p> <span class="contributor">
-                
-                    
+
+
                             <a href="/web/20150225140812/http://www.gourmet.com/profiles/bruce_feiler/search?contributorName=Bruce Feiler"><img src="/web/20150225140812im_/http://www.gourmet.com/images/profiles/bios/prar01_feiler80.jpg" alt="Bruce Feiler"/></a>
-                        
-                
-                
-                
-                
+
+
+
+
+
                     <span class="name">
-                        
+
                                 <a href="/web/20150225140812/http://www.gourmet.com/profiles/bruce_feiler/search?contributorName=Bruce Feiler">Bruce Feiler</a>
-                            
+
                     </span>
-                
-                
+
+
             </span></p>
        </div>
       </div>
 
 <!-- start headers -->
-    
+
         <div class="headers">
 
 <h1 class="header">Pocketful of Dough</h1>
 
 </div>
-    
+
     <!-- end of headers -->
 
 <div class="display-date">
-          
+
               <span>Originally Published</span>
 
 <!-- MMMM yyyy -->
-          
-          
-              
-              
+
+
+
+
               October 2000
 
 </div>
@@ -234,19 +234,19 @@ setTimeout(show, 10 * 1000);
 <div class="content">
 
 <!-- start article intro -->
-        
+
             <div class="item-list">You want to go to the hottest restaurant in town. You have no reservation. Bruce Feiler has a plan for you.</div>
-        
+
         <!--  article intro -->
 
 <!-- start article photo -->
-         
+
          <!-- end article photo -->
 
 <!-- start article body -->
 
 <div class="text" id="articletext">
-                
+
                         <p>I
 am nervous, truly nervous. As the taxi bounces southward through the trendier
 neighborhoods of Manhattan&mdash;Flatiron, the Village, SoHo&mdash;I keep imagining the
@@ -560,7 +560,7 @@ was money.</p>
 
 <h3>Tips on Tipping</h3>
 <p><strong>1. Go.</strong> You&rsquo;d be surprised what you can
-get just by showing up.<br/><strong>2. Dress appropriately.</strong> Your chances 
+get just by showing up.<br/><strong>2. Dress appropriately.</strong> Your chances
 improve considerably if you look like you belong.<br/><strong>3. Don&rsquo;t feel ashamed.</strong> They don&rsquo;t. You
 shouldn&rsquo;t.<br/><strong>4. Have the money ready.</strong> Prefolded, in
 thirds or fourths, with the amount showing.<br/><strong>5. Identify the person who&rsquo;s in charge</strong>,
@@ -600,9 +600,9 @@ he turned down the money but still gave you a table.<br/><strong>10. Ask for the
 <ul class="utilities utilities-">
 
 <li class="utility-print"><a href="/web/20150225140812/http://www.gourmet.com/magazine/2000s/2000/10/pocketful?printable=true&amp;printable=true" title="Print this page">Print</a></li>
-                
-        
-            
+
+
+
                     <li class="utility-feeds"><a href="/web/20150225140812/http://www.gourmet.com/services/rss/summary" title="Sign up for our RSS feeds">Feeds</a></li>
 
 <!-- AddThis Bookmark Button BEGIN -->
@@ -650,11 +650,11 @@ he turned down the money but still gave you a table.<br/><strong>10. Ask for the
 
 <div id="statsHolder">
     <script type="text/javascript">
-        
+
         CN.stats.omniture.setStatus(200);
-        
+
                 CN.stats.omniture.doPageTracking(); // does init and also tracks
-            
+
     </script>
     <script language="JavaScript" type="text/javascript"><!--
     if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')

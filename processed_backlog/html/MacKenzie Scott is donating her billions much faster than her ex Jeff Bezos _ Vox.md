@@ -92,7 +92,7 @@ If you have $35 billion, that fact does not in itself make you qualified to figu
 
 [***Sign up for the Future Perfect newsletter***](/web/20241125154300/https://www.vox.com/future-perfect-newsletter) *and we’ll send you a roundup of ideas and solutions for tackling the world’s biggest challenges — and how to get better at doing good.*
 
-See More: 
+See More:
 
 * [Future Perfect](/web/20241125154300/https://www.vox.com/future-perfect)
 * [Influence](/web/20241125154300/https://www.vox.com/influence)

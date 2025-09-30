@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The way that the US government encourages a lot of green energy projects is by giving them tax credits. If you build a power plant that runs
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Basel endgame vs. green equity
-    
-  
+
+
 
 The way that the US government encourages a lot of green energy projects is by giving them tax credits. If you build a power plant that runs on certain sorts of renewable resources, the Internal Revenue Service will give you some money — call it 0.3 cents per killowatt-hour
   [1]
@@ -96,37 +96,37 @@ Here are the Clifford Chance memo and the  ACORE report. The point is that “
 
 Unless the banks complain loudly enough that the regulators hear them and put back a loophole for tax equity financing. And why not? None of this is real; none of it has any objective truth; tax equity financing isn’t “really” equity or “really” debt. If you want more tax revenue, you make it harder to sell the tax credit; if you want more green energy financing, you make it easier to sell the tax credit. If you want better capitalized banks, you raise the capital requirements for tax equity financing; if you want more green energy financing, you lower the requirements. Banks obviously know what they want, and they engineered a product to get it; now the question is what policymakers prefer.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTC vs. AI
-    
-  
+
+
 
 One way to think about the artificial intelligence business is:
 	Everybody, by now, has an intuitive understanding of how new software products are created in the US. New ideas in software come from visionary entrepreneurs who can work pretty cheap. You need a couple of engineers, some desks at a WeWork, some laptops, some energy drinks, a modest cloud-computing budget. You build the thing, you try to find product-market fit, and if it works you scale rapidly. The marginal cost of distributing one more copy of your app, or serving one more instance of your social media website, is basically zero. If your thing takes off, it can take off quickly, and it’s all profit.	Everything in US tech finance is oriented around that understanding. Talented tech workers want to be founders, because founding your own company is the way to fame and riches in tech. Venture capital firms invest in risky early-stage software companies, because (1) those companies don’t need that much capital to figure out if their idea works, and (2) if the idea does work it will return many times the investment.	Generative AI … maybe does not work like that? It is extremely capital-intensive, by which I mean that you need a very large cloud computing budget to build and train an AI model that will do anything at all. And then scaling it is also quite expensive; you need a ton more computing power to serve each new customer. Building an AI model is more like building a car than it is like building Facebook.
@@ -147,11 +147,11 @@ The F.T.C. said it would ask Microsoft, OpenAI, Amazon, Google and Anthropic to 
 
 Here is  the FTC’s announcement. I think we’ll all be interested in Microsoft’s influence over OpenAI and how it makes decisions — that has, uh,   come up a lot lately — but the point is that if these companies were just building AI in-house, none of this would really come up.
 
-  
-    
+
+
       Byju’s
-    
-  
+
+
 
 Some incredible numbers here:
 
@@ -163,15 +163,15 @@ The rights issue comes as Byju’s looks to secure capital amid a severe funding
 Last week Bloomberg  reported a 90% cut — “a price that values the firm at less than $2 billion, … down from $22 billion at its previous round in late 2022” — but I guess things are moving fast, and in the wrong direction? On these numbers, the people who put in $5 billion back in the good times will own less than 10% of the company, while the people who put in $200 million in the bad times will own 90%. 
 The point of a rights offering is to be coercive: Existing investors have the right to put more money in at the rights price, which here is basically zero, and if they don’t put more money in then they get diluted by the people who do. Here, if you put up $1 billion for 5% of the company back when it was worth $20 billion, Byju’s will come to you and ask you to put in $10 million more to keep your 5% stake; if you say no, you’ll be diluted down to about 0.5%. If you’ve already thrown away $1 billion, what’s $10 million more? On the other hand, if Byju’s has already reduced your $1 billion investment to zero, why would you give them any more money? Getting diluted doesn’t matter if the stock is going to zero; owning 5% of a company worth zero is no better than owning 0.5% of it. The main questions in the rights offering are: Do you trust that the company has a plan to turn things around, and that this one last contribution is enough to see it through? And also: How mad are you about what happened to the rest of your money?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Evergrande Will Be Dismantled, a ‘Big Bang’ End to Years of Stumbles. Evergrande   Liquidation Is a Big Test for International Creditors. Banker Bonuses Are Down Again—but It Stings This Time. US  regional banks hope for profit revival as pain from SVB fallout eases. Credit Suisse’s Restructuring Deal With   Sanjeev Gupta's GFG In Doubt. Amazon Drops $1.4 Billion   iRobot Deal After EU Veto Threat. Reddit Advised to Target at Least $5 Billion Valuation in IPO. Chinese regulators  curb short selling as market downturn deepens. Traders Line Up for ‘Once-in-a-Generation’   Emerging Markets Bet.  Sotheby’s trial provides a peek behind the curtain of private art sales. Unhappy Workers Cost US Firms $1.9 Trillion. The Jujitsu Champ Who Got Nearly $500 Million From  Sam Bankman-Fried. Why Elon Musk Is Comparing Index Fund Consultants to  ISIS.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That’s the statutory number in Internal Revenue Code  section 45, though it can increase with inflation, there are other factors, and in fact the  IRS provides yearly guidance with different amounts for different types of renewables, etc.
 
 
@@ -181,48 +181,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Clifford Chance  points out that the regulators could put in an intentional loophole for green energy, which in fact they do for other sorts of debt-like equity financing: “The change is made more troublesome by the fact that the Agencies proposed to retain the 100% risk weight for community development investments (including LIHTC Investments) and investments in small business investment companies under ESRWA on the basis that such investments ‘generally receive favourable tax treatment and/or investment subsidies that make their risk and return characteristics different than equity investments in general.’ In maintaining this treatment for such investments, the Agencies also ‘recogniz[e]… the importance of these investments to promoting important public welfare goals….’ Such rationale would appear to apply equally to clean energy and infrastructure tax equity investments.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -233,46 +233,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckc7nf.5jdo/c844b226.gif" alt="" border="0" /></a>

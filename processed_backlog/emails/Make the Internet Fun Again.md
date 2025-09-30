@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/make-the-internet-fun-again
 
-Welcome to the 1,265 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 229,726 smart, curious folks by subscribing here:  
+Welcome to the 1,265 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 229,726 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Eight Sleep [ https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 It’s going to be a hellishly hot 96° in New York City today, but my sleep last night was heavenly cool thanks to Eight Sleep [ https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I set my side of the bed to -8, wrap myself in warm blankets, and chill out. 
 There’s no product I’ve used more over the past couple of years than my Eight Sleep Pod Cover. On good nights, I use it for a little more than a third of the day. When I get my eight hours, I feel sharper, happier, more optimistic, and revved up to write. 
@@ -21,8 +21,8 @@ Systems like democracy and capitalism can be messy in the short-term, but resili
 Earlier this year, I wrote about Stewart Brand’s concept of Pace Layers [ https://substack.com/redirect/4b04232d-4cc1-40d5-a681-4b4683eb4fc1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which he uses to describe “how complex systems learn and keep learning.”  
 Systems like the government necessarily move more slowly than capitalism (commerce), which in turn moves more slowly than fashion (which I’m going to analogize with “the internet” in today’s essay). Because it moves so much more quickly, but I think follows the same rules as other complex systems over time, examining what’s happening with the internet is a good way to understand how these systems work more generally. 
 The internet today seems almost like it’s broken beyond repair. But it’s at this point – according to Carlota Perez, Joseph Schumpeter, and Clayton Christensen, among others – that the conditions are ripe for new and better solutions to emerge. I’ll write about the internet, but you can think about how similar dynamics apply to other systems that seem to be breaking, too. 
-The idea for this essay didn’t start with politics, or with anything grandiose, but with a simple, toy-like demo I got from the founder of one of our portfolio companies, oncyber [ https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], a couple of weeks ago. 
-I’m sending this a day late because oncyber just launched v2 a couple of minutes ago, algorithms be damned. 
+The idea for this essay didn’t start with politics, or with anything grandiose, but with a simple, toy-like demo I got from the founder of one of our portfolio companies, oncyber [ https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], a couple of weeks ago.
+I’m sending this a day late because oncyber just launched v2 a couple of minutes ago, algorithms be damned.
 Let’s get to it. 
 Make the Internet Fun Again
 The internet used to be fun. 
@@ -78,8 +78,8 @@ Then, of course, the NFT market crashed and oncyber’s growth slowed. A few tho
 Over the past six months, Rayan and the oncyber team went back to the drawing board. 
 They reworked the entire architecture of the technology they’d built around the web-based game engine they used to build the galleries. The engine itself was great, but galleries were too limited, so they ripped it up and turned it into a game engine on top of which others could build worlds.
 They created a new scripting language on top of the worldbuilding engine, based on javascript and built in a way that AI could easily interpret. They built a GPT bot that generates ready-made code for oncyber. They made it modular, so that scripts that the company or any user writes can easily turn into components that any other user can use. 
-Today, they’re launching oncyber v2 to give people more powerful tools to create “a more beautiful, fun, profitable, and creative internet.” 
-It’s a toolkit for anyone to build games, websites, and worlds. 
+Today, they’re launching oncyber v2 to give people more powerful tools to create “a more beautiful, fun, profitable, and creative internet.”
+It’s a toolkit for anyone to build games, websites, and worlds.
 As Rayan wrote in the company’s manifesto: 
 In v2, you can access the code directly: change the camera, physics, controls, or any piece of logic.
 In v2, you can easily add user generated, no code, building blocks (avatars, 3D, logic blocks etc).
@@ -109,7 +109,7 @@ Now, with stablecoins and account abstraction, oncyber can provide fast, reliabl
 That means that creators have more flexibility to play with new business models, which is important if we’re going to escape the optimization-induced enshittification. Both Perez and Christensen argue that new technological revolutions and disruptive innovations, respectively, require new business models. 
 There are other external forces that oncyber is riding, like the rise of web technologies like WebGL and WebXR that make web-based 3D experiences easier to build and render on laptops and in headsets. The technological why now makes sense. 
 But whether oncyber succeeds or fails will depend on what people can build with it. 
-Can It Do X? 
+Can It Do X?
 The most expressive tools make you ask, “Wait, can it do X?”, and answer “Yes.” 
 That’s the experience I had when Rayan gave me the demo, and it’s when I realized that this could be much more than a web-based gaming platform, that it could power whatever comes next for the internet. 
 “Wait, can multiple people participate at the same time?” 
@@ -124,7 +124,7 @@ As I asked questions and Rayan showed me the answers, I started to picture websi
 Yamauchi No. 10 is the Nintendo Family Office. Its website [ https://substack.com/redirect/1fdc77fa-d0bb-423b-ba8d-b8f65f9f3859?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is my favorite. 
 I like it because it’s whimsical, because it’s fun, and most of all because it’s different. And not just different, but different in a way that’s unique to Yamauchi No. 10. Nintendo is a gaming company, and the website of the family office that gaming funded reflects that heritage. 
 I forgot when I started writing this piece, but I actually included it in that Interfaces [ https://substack.com/redirect/0b57097b-ab89-4310-b0be-a462cff25c26?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] essay in 2021. I wrote: “If you haven’t seen the Yamuchi No. 10 Family Office website [ https://substack.com/redirect/1fdc77fa-d0bb-423b-ba8d-b8f65f9f3859?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], check it out for a glimpse of the future.”
-The future is here. In just a couple hours, while preparing for the launch of v2, Rayan was able to whip up Not Boring’s version of Yamauchi No. 10. 
+The future is here. In just a couple hours, while preparing for the launch of v2, Rayan was able to whip up Not Boring’s version of Yamauchi No. 10.
 You can play with it here [ https://substack.com/redirect/3459c808-2334-49dc-8c60-8e6759a3c469?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 If you want to play Snake right on top of the words, just hit “S”.
 Is it as beautiful and detailed as Yamauchi No. 10’s? No. Is it pretty fucking cool, and does it have Snake built right in? Yes. And will it continue to get better? For sure.

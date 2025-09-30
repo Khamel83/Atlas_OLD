@@ -157,6 +157,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Daily+
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_daily_courant&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVQ-YPtqMN4dL3LhO8cJM=&utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One way to acquire a public company is, you put out a press release saying “I am making a public offer to buy all the shares of this company
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Cole Capital
-    
-  
+
+
 
 One way to acquire a public company is, you put out a press release saying “I am making a public offer to buy all the shares of this company,” and that press release starts a complex process in which the company’s board feels compelled to negotiate a deal with you, or if they don’t then you follow through on the press release and launch a hostile tender offer for the shares. The press release is a key moment in the campaign, the point where you go public, but it is preceded by lots of preparation and followed by lots of tactical maneuvering. The acquisition of a public company is difficult and complex and typically requires many hours of work from hundreds of people to get everything done.
 The press release is easy, though? You can just type it? Business Wire seems to  charge several hundred dollars for disseminating a press release, so it’s not free, but if you pay Business Wire’s fees it’ll be picked up pretty broadly and everyone will think that you are launching your effort to buy the company. And so if you want to pretend to acquire a public company, you can just do the press release and not all the other parts.
@@ -94,37 +94,37 @@ So, right, they are asking about his WeWork trading, and the press release doe
 
 Anyway I hope he didn’t buy much WeWork stock at $9 per share, as he offered to. That company went bankrupt!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       XRP ETF
-    
-  
+
+
 
 Similarly, if you want to set up an exchange-traded fund that will offer retail investors an easy way to invest in some cryptocurrency, there are many steps, but one of them — one of the first public steps — is to file paperwork with the Delaware Department of State to set up the trust for the ETF. If you want to pretend to set up a crypto ETF, you can just do that — again, you probably pay about a three-digit filing fee — and not do the rest.
 If you file for “Matt’s Ripple ETF Trust,” no one will care, though. Pretending that you will set up a crypto ETF is worthless. The move is to pretend that BlackRock will set up a crypto ETF. Bloomberg’s  Vildana Hajric reports:
@@ -135,11 +135,11 @@ XRP briefly spiked almost 13% as news about the fake filing made its rounds on X
 
 Why would you want to pretend that BlackRock is setting up an XRP ETF? I suppose there is some outside possibility of “you enjoy trolling people on Twitter and are willing to pay a bit of money to do that.” But realistically it’s market manipulation.
 
-  
-    
+
+
       BTIG vs. StoneX
-    
-  
+
+
 
 The problem is that, if you are stealing trade secrets from your security-conscious financial services employer, you will either do it carelessly, or you will do it cleverly and secretly. If you do it carelessly, your security-conscious financial services employer will probably catch you. If you do it cleverly and secretly, with subtle tradecraft that evades your employer’s detection systems, you will be proud of yourself. “Look at me,” you will think, “I am basically James Bond.” You will smile, satisfied in the knowledge that you’d be an excellent spy. For like two minutes. Then that knowledge will not be satisfying enough without telling someone. You will text your friends, accomplices, whoever, to be like “look at me, I am basically James Bond, please admire my tradecraft.” Eventually you will tell enough people about your brilliant tradecraft that it will get back to your security-conscious financial services employer and you will get in trouble.
 I suppose that is not always true. Maybe some financial services employees are basically James Bond. But quite a few of them seem to like being spies, but only if they can tell everyone. Bloomberg’s Zeke Faux and Robert Burnson report:
@@ -169,11 +169,11 @@ Specifically, the whistleblower explained that Pfeuffer incorporated BTIG’s pr
 
 One possibility is that if you are a BTIG engineer and you have technology that StoneX wants, the way to monetize that is to take a job at StoneX and smuggle code out appended to PDFs. And if you are a StoneX engineer and you have technology that BTIG provided, the way to monetize that is to go to BTIG and say “hey I know something interesting, what might it be worth to you.”
 
-  
-    
+
+
       Tether vs. USDC
-    
-  
+
+
 
 A stablecoin is a way to hold US dollars (or euros, etc.) in a way that is convenient for crypto. You buy cryptocurrencies on some crypto blockchain and hold them in some crypto wallet; a stablecoin is a cryptocurrency on a crypto blockchain in a crypto wallet, but it is worth a dollar.
 People want this for two main reasons. One is that if you trade a lot of crypto, you will sometimes close positions — you will buy some crypto and then, later, sell it — and the natural way to close a position is into dollars. You measure your profits and losses in dollars, you pay your rent in dollars, so you effectively trade between crypto and dollars. And if you are doing a lot of that, you will find that holding dollars in the form of stablecoins is more convenient and efficient than holding dollars in the form of a bank account (or money-market fund, or pile of $20 bills). Your stablecoin-dollars live on the blockchain and are instantly transferable for crypto within the crypto system; your regular dollars live in a bank that might be slow or fussy about transferring them to a crypto exchange. The stablecoin is a way to keep all of your trading  within the crypto system, but without always being exposed to crypto prices.
@@ -196,11 +196,11 @@ Circle is based in Boston and Tether is registered in the British Virgin Islands
 
 If you can easily move between banks and stablecoins, and banks pay 5% interest, you’ll move to a bank. If you can’t do that, then Tether gets to keep the interest.
 
-  
-    
+
+
       Mortgage MTM
-    
-  
+
+
 
 Apparently a lot of the readers of this column are Danish? Or I suppose my readers are just very up on international mortgage market structure. Anyway I  wrote yesterday about the fact that US homeowners have something like $1 trillion of mark-to-market gains on their mortgages, but that you can’t do anything about it. “Really,” I wrote, “the tempting product is:”
 You have a $500,000 mortgage that is now worth $287,000.You go to your bank and say “I’ll give you $300,000 for it.”The bank is like “fine okay that works.”
@@ -213,15 +213,15 @@ Borrowers may redeem their mortgage loans at any time without negotiating the pr
 Well that’s nice. Obviously if you translated this to the US system, and you had a 3% mortgage and rates are now 8%, you’d be buying back your mortgage at some market price that is lower than par but higher than the value of your mortgage cash flows over 30 years discounted at 8%, because the US mortgage market assumes that 30-year mortgages have an average life that is much shorter than that. Still! You’d get a big discount.
 Several other readers emailed me to say some variation on “I tried this on my bank but it did not work.” Move to Denmark I guess.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Schonfeld Ends Millennium Partnership Talks, Secures Billions Elsewhere. UBS Warns  IT Migration is Biggest Risk in Credit Suisse Fusion. How  Real-Estate Brokers Are Reacting to the Historic Commission Verdict. US Federal Pension Fund to  Exclude Hong Kong Investments. FTX Sues Crypto Exchange Bybit to Recover $953 Million in Cash and Assets. Wall Street Is Tapping  Women, Minority-Owned Banks For Billion-Dollar Bond Deals.  FDIC Chair ‘Deeply Troubled’ by Workplace Misconduct Claims. Janet Yellen’s  In-N-Out order revealed. Hidden Demon Uncovered in 18th-Century Painting. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I still have  absolutely no idea what was going on with Esmark Inc.’s proposal to buy U.S. Steel Corp., which was *written* like a joke press release and  eventually withdrawn. I don’t think it was manipulation, though.
 
 
@@ -246,48 +246,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] The other problem is that keeping the money in regulated US banks was not, this year, all *that* safe; some of Circle’s money was at Silicon Valley Bank when it collapsed. Tether avoided that problem by keeping its money in a mystery.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -298,46 +298,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjvejh.5je9/0922b2bc.gif" alt="" border="0" /></a>

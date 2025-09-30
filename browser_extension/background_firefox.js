@@ -6,13 +6,13 @@ browser.runtime.onInstalled.addListener(function() {
     title: "Save Page to Atlas",
     contexts: ["page"]
   });
-  
+
   browser.contextMenus.create({
     id: "atlasSaveSelection",
     title: "Save Selection to Atlas",
     contexts: ["selection"]
   });
-  
+
   browser.contextMenus.create({
     id: "atlasSaveLink",
     title: "Save Link to Atlas",
@@ -39,14 +39,14 @@ function saveContent(url, title, source, content = '') {
   browser.storage.sync.get(['atlasServerUrl']).then(function(result) {
     const serverUrl = result.atlasServerUrl || 'http://localhost:8000';
     const apiUrl = `${serverUrl}/api/v1/content/save`;
-    
+
     const data = {
       url: url,
       title: title,
       content: content,
       source: source
     };
-    
+
     fetch(apiUrl, {
       method: 'POST',
       headers: {

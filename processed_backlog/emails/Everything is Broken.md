@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/everything-is-broken
 
-Welcome to the 1,483 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 143,885 smart, curious folks by subscribing here: 
+Welcome to the 1,483 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 143,885 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Stacker [ https://substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ceb?r=9p0gt ]
 Stacker [ https://substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ceb?r=9p0gt ] is one of Not Boring’s longest-standing sponsors. They are a game changer for companies that want to scale beyond paid acquisition channels.
 They’ve worked with 100+ brands — including Angi, GoHenry, Experian, Vivid Seats, Sidecar Health, and Extra Space Storage — to accelerate their organic and earned media strategies.
@@ -92,10 +92,10 @@ While this seems so obviously stupid, I know this is how it works because I was 
 It may be controversial to say that we’ve reached the theoretical limits of our existing system. But it’s not controversial to say that our existing system is like Windows XP; I’m pretty sure that a good portion of the “tech stack” on Wall Street is still a macro-enabled 1997 Excel Workbook. So what would a new operating system for securitized credit look like? One in which the core first principles - larger scale, more liquidity, and better targeting - were enhanced through new technologies and removing intermediaries?
 Can you feel it? You know what’s coming, right? Wait for it…
 Crypto fixes this…
-To read how crypto can help make the securitization market more efficient and save borrowers tens of billions of dollars… 
+To read how crypto can help make the securitization market more efficient and save borrowers tens of billions of dollars…
 Thanks to Kevin and the BlockTower team for writing this piece, and to Dan [ https://substack.com/redirect/bf51019c-206d-49db-bf52-f62ca3efd747?r=9p0gt ] for editing!
 That’s all for today, we’ll see you Friday morning for a Weekly Dose of Optimism!
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOamMyTXpVd01UQXNJbWxoZENJNk1UWTFPVGsyTXpRNU9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmZIdHNjazJuWEJzRkdIeGZmY0xTUHNONFh0RDJuWnlVc2NBRjRhaDNCdUUiLCJwIjo2NzYzNTAxMCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.FVrg7-VJFr7dj6eDor4ObgeuCV_5-sZlH9tr0FioMBM?

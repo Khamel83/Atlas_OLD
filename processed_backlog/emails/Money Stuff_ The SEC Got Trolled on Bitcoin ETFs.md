@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        I kind of don’t understand the trade here? A highly anticipated decision by the US Securities and Exchange Commission on whether to approve 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        I kind of don’t understand the trade here? A highly anticipated decision by the US Securities and Exchange Commission on whether to approve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC Bitcoin ETF hack
-    
-  
+
+
 
 I kind of don’t understand   the trade here?
 
@@ -98,37 +98,37 @@ Another irony: I like to say around here that “everything is securities fraud,
 Still, there are securities that are tied to the price of Bitcoin, and whose prices would be influenced by news about Bitcoin ETFs, and which were arguably manipulated by this fake tweet. The most obvious examples would be  … spot Bitcoin ETFs? Those don’t trade yet. Because the SEC hasn’t approved them. So the fake tweet couldn’t have manipulated them. But Bitcoin futures ETFs do trade, as does the Grayscale Bitcoin Trust (GBTC), a pot of Bitcoins that hopes to convert into an ETF. I suppose you could have manipulated their prices with this tweet. The tweet went out after 4 p.m. so the stock market was closed, but the price of the ProShares Bitcoin Strategy ETF did in fact bounce around a bit in after-hours trading yesterday; it closed at $22.72 and spiked as high as $23.50 at 4:12 p.m., after the tweet. So, sure, securities fraud, fine.
 Anyway, the great counter-troll here would be for the SEC to  announce today “you know what, all the Bitcoin ETF applications are rejected, we’ll see you in court again. We were going to approve them, but it turns out that the Bitcoin market is still too vulnerable to manipulation, as you can tell by the fact that someone hacked our Twitter to manipulate Bitcoin.”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Boeing thing
-    
-  
+
+
 
 Obviously many, many readers sent me this Reddit Wallstreetbets post:
 
@@ -142,11 +142,11 @@ On the other hand, one could argue that you are also outside the airplane, given
 Thanks everyone. Nothing here is ever legal advice but this seems fine? Insider trading, I like to say, is not about fairness, it’s about theft. It’s illegal to trade on information that isn’t public and that   you have some duty to keep secret. If you work for Boeing Co. and you put the bolts in wrong and trade on that information, that’s bad: You learned the nonpublic information in your job, and you had a duty to Boeing to use it only for the good of Boeing rather than trading on it. If you’re the pilot, don’t buy puts when the door flies off. (Land the plane!) But if you are just a regular person and you go to McDonald’s and buy a burger and say “this burger tastes bad, I’m gonna short the stock,” that’s fine, that’s legitimate research. If you log into Instagram and say “hey this app is good” and buy Meta stock, that’s good. People are supposed to go around observing companies’ products and services, evaluating them, and incorporating those evaluations into their investment decisions. That’s how stock prices become efficient and how capital gets allocated to good uses rather than bad ones.
 Similarly if you’re on a plane and the door blows off and you think “this plane is poorly constructed, I’m gonna short some stocks here,” seems fine. What duty do you have to keep it confidential? Maybe there’s some fine print in your ticket contract but I doubt it. There are probably edge cases. What if you are flying for a work trip: Do you owe some obligation to your employer not to use the information to trade for your own account? Still probably not a huge enforcement priority to come after you.
 
-  
-    
+
+
       Elsewhere in Bitcoin ETFs
-    
-  
+
+
 
 One rude but not entirely inaccurate way to describe the business model of Grayscale Investments LLC is:
 	Grayscale operates a pot, the Grayscale Bitcoin Trust (GBTC), into which people can put Bitcoins.	They cannot take them out.	Grayscale pays itself 2% of the value of the pot every year in fees.
@@ -164,11 +164,11 @@ Soon, probably, you will have your choice of Bitcoin ETFs. They will all be abou
   [4]
  Paying 15% or 20% capital gains taxes on 50% or 80% gains on your GBTC shares might look a lot more expensive than paying an extra 1.3% per year in fees. 
 
-  
-    
+
+
       ESG
-    
-  
+
+
 
 We have talked a few times,  including this week, about the very simplest method to take something — a  mutual fund, a  pipeline company, a  coal lobbying group — and make it ESG, that is, make it appealing to investors who care about environmental, social and governance factors. The method is: You put “ESG” in the name. Or “Green,” or “Clean,” or “Renewable,” or even, like, “Future.” Some people will be misled by the new name. Other people won’t be misled, but they will like it anyway, because they are in turn marketing to some other audience. An investment manager who runs an ESG fund might buy shares in an oil pipeline called GreenPipes. A retail investor with environmentally minded children might buy shares of a mostly-coal ESG fund so she can tell her kids “oh all of our money is in ESG funds.” The point is that the term ESG has some independent value; some people are willing to pay a bit more purely to be able to say that they have “ESG” investments, without caring at all about the substance of those investments.
 Also though in reverse.  The Wall Street Journal reports:
@@ -189,11 +189,11 @@ ESG labels have also been removed from some fund names. The asset manager Abrdn 
 
 The trick is to have a fund that is kind of ESG and kind of not, and add or subtract “ESG” in the name depending on the marketing environment.
 
-  
-    
+
+
       Alternative data
-    
-  
+
+
 
 I don’t know, here’s a paper finding that when bankers in New York are visiting the Federal Reserve Bank of New York a lot, that is bad for the stock market:
 We introduce taxi ridership between the Federal Reserve (Fed) Bank of New York and large financial institutions headquartered in New York City as a novel proxy for Fed–bank face-to-face interactions. We document a negative relation between past Fed–bank interactions and future stock market returns, particularly on days around the Fed’s public announcements. We also find significantly elevated Fed–bank interactions immediately following the lifting of the Federal Open Market Committee blackout. Our findings suggest that the Fed increases its information gathering via face-to-face interactions when it possesses negative private information about the condition of the economy.
@@ -202,15 +202,15 @@ The problem is that taxi rides are a weaker measure of those meetings than the
 We generally employ a daily sample that runs from January, 2009, through December, 2014, where each day is defined as 5:00am through 4:59am the following day. The year 2014 saw a large increase in the use of rideshare apps by businesses and the first public release of the taxi data under New York State’s Freedom of Information Law (Rao 2015, Saitto 2014, White 2015, Whong 2014). Significant patterns in rides may reflect the movements of small sets of individuals, and substitution by any of them away from taxis due to changes in business practice or due to concerns about privacy could result in a significant loss of signal.
 If you wanted to measure bank/Fed meetings in 2024, you’d use … Uber data? (Or has everyone permanently gone virtual, and you’d use Zoom data?) I hope Uber Technologies Inc. is selling that data to some hedge funds.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Dish Bonds Plummet on EchoStar   Spectrum Transfer Maneuver.  Jane Street Scores $7 Billion Trading Haul During Market Swings.   BlackRock Cuts 3% of Global Workforce, Citing Dramatic Industry Shifts. The   Bond Market Rally Is Overlooking a Soaring $2 Trillion Debt Problem. Strong gains by newly listed stocks raise hopes of  IPO market revival. Crypto Startup Funding  Down Two-Thirds, But Founders See Bright Side.  BuzzFeed’s ‘Dire’ Debt Problem.  Logan Paul's NFT zoo catastrophe takes an unexpected turn: He's buying back the eggs and suing his co-founders.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or not, I don’t know, it’s entirely possible that the hype around Bitcoin ETFs has gone too far and people will end up selling more Bitcoin once they are actually approved. But then why were you buying at $48,000 on the fake tweet? I just don’t understand why there was any information content in *either* the fake tweet *or* the retraction.
 
 
@@ -223,48 +223,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] I gather that there’s no taxable event on ETF conversion; here’s the prospectus section on tax consequences.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck7tf9.5je0/c8f35f38.gif" alt="" border="0" /></a>

@@ -12,11 +12,11 @@
 
 # The best panoramic photos of 2017
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![The best panoramic photos of 2017](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/pano-photos-2017-01.jpg)
 
-The best panoramic photos of 2017  
-  
-The winners of the 2017 Epson International Pano Awards have been announced. In Focus has a round-up of some of the best ones. It was tough to choose just three to feature here, so make sure and check out all the winners. Photos by Francisco Negroni, Paolo Lazzarotti, and Ray Jennings. 
+The best panoramic photos of 2017
+
+The winners of the 2017 Epson International Pano Awards have been announced. In Focus has a round-up of some of the best ones. It was tough to choose just three to feature here, so make sure and check out all the winners. Photos by Francisco Negroni, Paolo Lazzarotti, and Ray Jennings.
 

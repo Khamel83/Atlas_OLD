@@ -103,8 +103,8 @@ Source: imgflip.com
 
 Why? Because the plan — small “p” — is to leave every imaginable option open for the time being, LOL, so long as it occurs within a super tight timeframe. Ok, fine, a bit of hyperbole, but the plan does leave open *three* main pathways:
 
-📍A sale to a third party;   
-📍A sale to existing lenders (DIP and/or pre-petition) via credit bid; or  
+📍A sale to a third party;
+📍A sale to existing lenders (DIP and/or pre-petition) via credit bid; or
 📍A recapitalization.
 
 And there’s already a bid procedures order entered by Judge Lopez on the docket. Is there a stalking horse? Obviously not, lol. Are there bid protections? Nope, not yet. Optionality, people, c’mon! Don’t want to chill any interested parties from submitting their completely non-binding “indications of interest” (“IOI”) by October 23, 2024. That’s right, the process affords PWP the next three-ish weeks to see if they can find potential buyers under a rock somewhere. Per the debtors:

@@ -7,7 +7,7 @@
 
 # www.1984produkts.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![www.1984produkts.com]()
 

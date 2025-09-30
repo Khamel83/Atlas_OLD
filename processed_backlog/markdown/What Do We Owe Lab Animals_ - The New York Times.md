@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • January 23, 2023 
+Unknown author • January 23, 2023
 
 ![nytimes.com]()
 

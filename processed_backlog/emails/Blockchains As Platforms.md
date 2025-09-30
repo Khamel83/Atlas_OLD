@@ -7,21 +7,21 @@
 
 View this post on the web at https://www.notboring.co/p/blockchains-as-platforms
 
-Welcome to the 833 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 216,055 smart, curious folks by subscribing here: 
+Welcome to the 833 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 216,055 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Alto [ https://substack.com/redirect/ab894146-361a-4b09-a161-23191c08c460?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Alto [ https://substack.com/redirect/ab894146-361a-4b09-a161-23191c08c460?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] allows individuals to invest in alternative assets with their retirement funds through a self-directed IRA. I love and use Alto because I can diversify my portfolio, all the while minimizing my tax burden by investing out of tax-advantaged retirement accounts. It’s a win-win. My accountant father-in-law is very proud of me for this type of long-term financial planning.
 Alternative assets (real estate, private credit, VC funds, crypto, fine art, etc.) have long been thought of as reserved for the ultra-rich and professional investors. Alto set out to change that in 2018 when it launched its platform designed to streamline access to alternative assets for  individual investors wanting to invest their retirement funds. That last part is important (and what makes Alto a no-brainer in my opinion), because investing in alternative assets with funds earmarked for retirement means you’re investing for the future with assets that have a longer time horizon and the greater potential upside while also claiming tax benefits. 
 Alto [ https://substack.com/redirect/ab894146-361a-4b09-a161-23191c08c460?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] just launched Alto Marketplace [ https://substack.com/redirect/ab894146-361a-4b09-a161-23191c08c460?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], a capital raise platform that connects individual accredited investors to leading funds and exclusive opportunities. If you’re allocating to alternatives, consider investing in a tax-advantaged way and check out Alto.
-Hi friends 👋, 
-Happy Wednesday! Last week, I promised you an essay on Grand Strategy, and that’s coming, but while writing it, I opened Twitter and I learned something odd… 
-Crypto seems to be not dead. 
-It’s weird because I could have sworn people said it was dead, that if you’re in crypto, you should pivot to AI. And yet, here we are. 
-Now who knows if this recent run-up is the beginning of a new bull market or just a little glimmer of hope in the middle of a long bear. Certainly not me. Long-term, price matters only insofar as it attracts developers to the space to build good products. 
-Crypto is often viewed as this ideological thing. You either love it or hate it. But I think a more useful way to think about the space is that blockchains are just platforms. In their current state, they present unique benefits and real drawbacks. 
-Ultimately, developers will choose to build on blockchains if the benefits outweigh the drawbacks for the specific product they’re trying to build. It’s that simple. 
-If this is the end of the bear market, it seems odd that it’s come without new killer use cases. My guess is that higher prices will make developers take another look at blockchains, and that when they do, a larger number will find that the trade-offs make sense for what they’re trying to build. 
+Hi friends 👋,
+Happy Wednesday! Last week, I promised you an essay on Grand Strategy, and that’s coming, but while writing it, I opened Twitter and I learned something odd…
+Crypto seems to be not dead.
+It’s weird because I could have sworn people said it was dead, that if you’re in crypto, you should pivot to AI. And yet, here we are.
+Now who knows if this recent run-up is the beginning of a new bull market or just a little glimmer of hope in the middle of a long bear. Certainly not me. Long-term, price matters only insofar as it attracts developers to the space to build good products.
+Crypto is often viewed as this ideological thing. You either love it or hate it. But I think a more useful way to think about the space is that blockchains are just platforms. In their current state, they present unique benefits and real drawbacks.
+Ultimately, developers will choose to build on blockchains if the benefits outweigh the drawbacks for the specific product they’re trying to build. It’s that simple.
+If this is the end of the bear market, it seems odd that it’s come without new killer use cases. My guess is that higher prices will make developers take another look at blockchains, and that when they do, a larger number will find that the trade-offs make sense for what they’re trying to build.
 This is a shorter one, so if you’re looking for something to fill the void, Age of Miracles [ https://substack.com/redirect/d7428680-8162-49cd-86ae-c07d51c864f1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is about to hit the halfway mark, with our fifth (and best yet) episode coming out Friday. Subscribe and listen to our first four on Apple [ https://substack.com/redirect/889211f8-d4fb-46cf-b59b-517aecb3e4a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Spotify [ https://substack.com/redirect/7fe46871-ca25-493f-a222-5378430205d0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], or YouTube [ https://substack.com/redirect/a6bb976f-d343-4af1-8590-d390a1117aad?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-Let’s get to it. 
+Let’s get to it.
 Blockchains As Platforms
 Blockchains are platforms on top of which developers can build products. 
 Their success depends on whether developers choose to build products on top of them. As more developers build better products on blockchains, they will attract more users.

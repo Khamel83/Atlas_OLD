@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -903,21 +903,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="27"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-1@published"
-  
+
 >Tired of digging up front lawns and fighting over telephone poles, Google Fiber is expanding its plan to include the transmission of super-fast internet through the air.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="72"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-2@published"
-  
+
 >So far, Google Fiber has built out its municipal internet service in a half-dozen U.S. cities by laying cables in the ground or stringing them along utility poles. Depending on your package, it can be cheaper than buying internet from Comcast or Verizon, and it’s much, much faster than traditional service. Naturally, it’s <a href="http://www.fiercetelecom.com/telecom/google-fiber-augments-alphabet-s-revenues-but-also-raises-capital-expenditures">not a money-maker</a> for Alphabet, Google’s parent company, in part because of the high costs of expanding the network.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="46"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-3@published"
-  
+
 >So the model is changing. The next rounds of expansion—to cities including Chicago, Los Angeles, and Dallas—will be predicated on wireless transmission, the <em>Wall Street Journal </em><a href="http://www.wsj.com/articles/googles-high-speed-web-plans-hit-snags-1471193165">reports</a>. Roll-outs in <a href="http://www.mercurynews.com/bay-area-news/ci_30221848/google-fibers-silicon-valley-rollout-is-delayed-while">San Jose</a> and Silicon Valley in California, and Portland, Oregon, have been suspended as the company adjusts its tactics.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -928,7 +928,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="130"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-4@published"
-  
+
 >It’s all happened very fast: In February, Google <a href="https://apps.fcc.gov/els/GetAtt.html?id=172888&x=">applied</a> for Federal Communications Commission permission to test experimental transmitters in Kansas City, Missouri. In April, Google Fiber got <a href="http://www.kansascity.com/news/business/technology/article71782332.html">permission</a> from the Kansas City Council to conduct a two-year trial of wireless internet beamed from antennae mounted on light poles and other structures, both indoors and out. Those transmissions will take place on a slice of spectrum in the 3.5-GHz band called the “Citizens Broadband Radio Service,” which the FCC opened up in 2015. In June, Google Fiber acquired Webpass, a wireless internet service provider that combines landline ethernet with beams of internet between rooftop transmitters. Two weeks ago, in a filing with the FCC first spotted by <em>Business Insider</em>, Google <a href="http://www.businessinsider.com/google-fiber-new-fcc-filing-expanding-wireless-tests-2016-8">asked</a> for approval to test wireless transmitters in two dozen cities.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -989,14 +989,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="100"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-5@published"
-  
+
 >The <a href="https://apps.fcc.gov/els/GetAtt.html?id=180386&x=">filing</a> indicates Google Fiber plans initial deployment in San Francisco, Silicon Valley, and San Jose, as well as in Boulder, Colorado; Kansas City, Kansas; Omaha; Raleigh; Provo, Utah; and Reston, Virginia. This isn’t a substitute for Fiber, at least for now—the filing is for a volunteer group of “trusted testers” and rules out any commercial operations. Still, it suggests a potentially revolutionary technology with a “radius of operations” that extends up to 24 miles from the transmitter. Google is also seeking permission to test in some of the nation’s largest cities, including Phoenix, Atlanta, Chicago, New York, and Austin.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="54"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-6@published"
-  
+
 >According to a timeline that Google presented to Kansas City leaders this spring, testing wasn’t supposed to begin until November 2017. But the latest filing—and the stalled projects in San Jose, Portland and elsewhere—suggests the company wants to figure out its approach to internet in the sky before it keeps digging in the ground.</p>
 
 <div
@@ -1072,7 +1072,7 @@ width="1180"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1107,7 +1107,7 @@ width="1180"
   class="slate-adnode"
   data-adnode="technology/future_tense"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-99c84209611c0bfe73af7406a68b3222-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1158,7 +1158,7 @@ width="1180"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1183,7 +1183,7 @@ width="1180"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1693,7 +1693,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

@@ -46,7 +46,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<header class="vector-header mw-header no-font-mode-scale">
 		<div class="vector-header-start">
 			<nav class="vector-main-menu-landmark" aria-label="Site">
-				
+
 <div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
 	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
 	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
@@ -56,7 +56,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
-		
+
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
@@ -75,12 +75,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Navigation
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -89,12 +89,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Contribute
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages"><span>Special pages</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -106,7 +106,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </div>
 
 </nav>
-			
+
 <a href="/wiki/Main_Page" class="mw-logo">
 	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
 	<span class="mw-logo-container skin-invert">
@@ -117,7 +117,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 </div>
 		<div class="vector-header-end">
-			
+
 <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
 	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
 
@@ -144,31 +144,31 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
 	<div class="vector-user-links-main">
-	
+
 <div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <nav class="vector-appearance-landmark" aria-label="Appearance">
-		
+
 <div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
 	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
 	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
@@ -178,28 +178,28 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
-				
+
 			</div>
-		
+
 	</div>
 </div>
 
 </nav>
-	
+
 <div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
 			<li id="pt-sitesupport-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" class=""><span>Donate</span></a>
 </li>
@@ -209,12 +209,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </li>
 
 </ul>
-		
+
 	</div>
 </div>
 
 </div>
-	
+
 <div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
 	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
 	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
@@ -225,12 +225,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="pt-sitesupport" class="user-links-collapsible-item mw-list-item"><a href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en"><span>Donate</span></a></li><li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=MultiMediaCard&amp;returntoquery=ref%3Dwheresyoured.at" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=MultiMediaCard&amp;returntoquery=ref%3Dwheresyoured.at" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -239,12 +239,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -266,7 +266,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		<div id="mw-navigation">
 			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
 				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
-				
+
 				</div>
 		</nav>
 		</div>
@@ -279,8 +279,8 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
 	data-feature-name="toc-pinned"
 	data-pinnable-element-id="vector-toc"
-	
-	
+
+
 >
 	<h2 class="vector-pinnable-header-label">Contents</h2>
 	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
@@ -302,7 +302,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>History</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-History-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -314,12 +314,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>MMC card variants</span>
 			</div>
 		</a>
-		
+
 			<button aria-controls="toc-MMC_card_variants-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
 				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
 				<span>Toggle MMC card variants subsection</span>
 			</button>
-		
+
 		<ul id="toc-MMC_card_variants-sublist" class="vector-toc-list">
 			<li id="toc-RS-MMC"
 			class="vector-toc-list-item vector-toc-level-2">
@@ -329,7 +329,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<span>RS-MMC</span>
 				</div>
 			</a>
-			
+
 			<ul id="toc-RS-MMC-sublist" class="vector-toc-list">
 			</ul>
 		</li>
@@ -341,7 +341,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<span>DV-MMC</span>
 				</div>
 			</a>
-			
+
 			<ul id="toc-DV-MMC-sublist" class="vector-toc-list">
 			</ul>
 		</li>
@@ -353,7 +353,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<span>MMCplus, MMCmobile and MMCmicro</span>
 				</div>
 			</a>
-			
+
 			<ul id="toc-MMCplus,_MMCmobile_and_MMCmicro-sublist" class="vector-toc-list">
 			</ul>
 		</li>
@@ -365,7 +365,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<span>MiCard</span>
 				</div>
 			</a>
-			
+
 			<ul id="toc-MiCard-sublist" class="vector-toc-list">
 			</ul>
 		</li>
@@ -379,7 +379,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Embedded MMC</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Embedded_MMC-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -391,7 +391,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Similar formats</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Similar_formats-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -403,7 +403,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>See also</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-See_also-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -415,7 +415,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>References</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-References-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -427,7 +427,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>External links</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-External_links-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -442,7 +442,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 			<main id="content" class="mw-body">
 				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
 					<nav aria-label="Contents" class="vector-toc-landmark">
-						
+
 <div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
 	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
 	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
@@ -453,13 +453,13 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
 			</div>
-		
+
 	</div>
 </div>
 
 </nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">MultiMediaCard</span></h1>
-							
+
 <div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
 	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 27 languages"   >
 	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-27" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
@@ -469,9 +469,9 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div class="vector-menu-content">
-			
+
 			<ul class="vector-menu-content-list">
-				
+
 				<li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8D%E0%A6%9F%E0%A6%BF_%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1" title="মাল্টি মিডিয়া কার্ড – Bangla" lang="bn" hreflang="bn" data-title="মাল্টি মিডিয়া কার্ড" data-language-autonym="বাংলা" data-language-local-name="Bangla" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/MultiMedia_Card" title="MultiMedia Card – Catalan" lang="ca" hreflang="ca" data-title="MultiMedia Card" data-language-autonym="Català" data-language-local-name="Catalan" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Czech" lang="cs" hreflang="cs" data-title="MultiMediaCard" data-language-autonym="Čeština" data-language-local-name="Czech" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Multimedia_Card" title="Multimedia Card – German" lang="de" hreflang="de" data-title="Multimedia Card" data-language-autonym="Deutsch" data-language-local-name="German" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Estonian" lang="et" hreflang="et" data-title="MultiMediaCard" data-language-autonym="Eesti" data-language-local-name="Estonian" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Spanish" lang="es" hreflang="es" data-title="MultiMediaCard" data-language-autonym="Español" data-language-local-name="Spanish" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Carte_MMC" title="Carte MMC – French" lang="fr" hreflang="fr" data-title="Carte MMC" data-language-autonym="Français" data-language-local-name="French" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%A9%80%ED%8B%B0%EB%AF%B8%EB%94%94%EC%96%B4%EC%B9%B4%EB%93%9C" title="멀티미디어카드 – Korean" lang="ko" hreflang="ko" data-title="멀티미디어카드" data-language-autonym="한국어" data-language-local-name="Korean" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%AE%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1" title="मल्टीमीडिया कार्ड – Hindi" lang="hi" hreflang="hi" data-title="मल्टीमीडिया कार्ड" data-language-autonym="हिन्दी" data-language-local-name="Hindi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Italian" lang="it" hreflang="it" data-title="MultiMediaCard" data-language-autonym="Italiano" data-language-local-name="Italian" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Hebrew" lang="he" hreflang="he" data-title="MultiMediaCard" data-language-autonym="עברית" data-language-local-name="Hebrew" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Hungarian" lang="hu" hreflang="hu" data-title="MultiMediaCard" data-language-autonym="Magyar" data-language-local-name="Hungarian" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/MMC-kaart" title="MMC-kaart – Dutch" lang="nl" hreflang="nl" data-title="MMC-kaart" data-language-autonym="Nederlands" data-language-local-name="Dutch" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89" title="マルチメディアカード – Japanese" lang="ja" hreflang="ja" data-title="マルチメディアカード" data-language-autonym="日本語" data-language-local-name="Japanese" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Norwegian Bokmål" lang="nb" hreflang="nb" data-title="MultiMediaCard" data-language-autonym="Norsk bokmål" data-language-local-name="Norwegian Bokmål" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/MultiMedia_Card" title="MultiMedia Card – Polish" lang="pl" hreflang="pl" data-title="MultiMedia Card" data-language-autonym="Polski" data-language-local-name="Polish" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Portuguese" lang="pt" hreflang="pt" data-title="MultiMediaCard" data-language-autonym="Português" data-language-local-name="Portuguese" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/MultiMedia_Card" title="MultiMedia Card – Romanian" lang="ro" hreflang="ro" data-title="MultiMedia Card" data-language-autonym="Română" data-language-local-name="Romanian" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/MultiMedia_Card" title="MultiMedia Card – Russian" lang="ru" hreflang="ru" data-title="MultiMedia Card" data-language-autonym="Русский" data-language-local-name="Russian" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Simple English" lang="en-simple" hreflang="en-simple" data-title="MultiMediaCard" data-language-autonym="Simple English" data-language-local-name="Simple English" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Slovak" lang="sk" hreflang="sk" data-title="MultiMediaCard" data-language-autonym="Slovenčina" data-language-local-name="Slovak" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Finnish" lang="fi" hreflang="fi" data-title="MultiMediaCard" data-language-autonym="Suomi" data-language-local-name="Finnish" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Multimediacard" title="Multimediacard – Swedish" lang="sv" hreflang="sv" data-title="Multimediacard" data-language-autonym="Svenska" data-language-local-name="Swedish" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/MMC_kart" title="MMC kart – Turkish" lang="tr" hreflang="tr" data-title="MMC kart" data-language-autonym="Türkçe" data-language-local-name="Turkish" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Ukrainian" lang="uk" hreflang="uk" data-title="MultiMediaCard" data-language-autonym="Українська" data-language-local-name="Ukrainian" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/MultiMediaCard" title="MultiMediaCard – Vietnamese" lang="vi" hreflang="vi" data-title="MultiMediaCard" data-language-autonym="Tiếng Việt" data-language-local-name="Vietnamese" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%AA%92%E9%AB%94%E8%A8%98%E6%86%B6%E5%8D%A1" title="多媒體記憶卡 – Chinese" lang="zh" hreflang="zh" data-title="多媒體記憶卡" data-language-autonym="中文" data-language-local-name="Chinese" class="interlanguage-link-target"><span>中文</span></a></li>
 			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q646104#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
@@ -484,15 +484,15 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
 							<nav aria-label="Namespaces">
-								
+
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/MultiMediaCard" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:MultiMediaCard" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -504,12 +504,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -520,22 +520,22 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
 							<nav aria-label="Views">
-								
+
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/MultiMediaCard"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
 </nav>
-				
+
 							<nav class="vector-page-tools-landmark" aria-label="Page tools">
-								
+
 <div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
 	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
 	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
@@ -543,7 +543,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
-						
+
 <div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
@@ -562,12 +562,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Actions
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/MultiMediaCard"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;action=history"><span>View history</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -576,12 +576,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		General
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/MultiMediaCard" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/MultiMediaCard" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;oldid=1298086943" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=MultiMediaCard&amp;id=1298086943&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DMultiMediaCard%26ref%3Dwheresyoured.at"><span>Get shortened URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Special:QrCode&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DMultiMediaCard%26ref%3Dwheresyoured.at"><span>Download QR code</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -590,12 +590,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Print/export
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=MultiMediaCard&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=MultiMediaCard&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -604,19 +604,19 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		In other projects
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/MultiMediaCard" hreflang="en"><span>Wikimedia Commons</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q646104" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
 </div>
 
 </div>
-				
+
 	</div>
 </div>
 
@@ -628,7 +628,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<div class="vector-sticky-pinned-container">
 						<nav class="vector-page-tools-landmark" aria-label="Page tools">
 							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
-				
+
 							</div>
 		</nav>
 						<nav class="vector-appearance-landmark" aria-label="Appearance">
@@ -660,8 +660,8 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 <div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
 					</div>
 					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
-					
-					
+
+
 					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Memory card format</div>
 <style data-mw-deduplicate="TemplateStyles:r1236090951">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role="note" class="hatnote navigation-not-searchable">Not to be confused with <a href="/wiki/SD_card" title="SD card">SD card</a>.</div>
 <style data-mw-deduplicate="TemplateStyles:r1295905060">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class="infobox"><caption class="infobox-title">MultiMediaCard</caption><tbody><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:15-04-29-MMC-Karte-RalfR-dscf4734-d.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/15-04-29-MMC-Karte-RalfR-dscf4734-d.jpg/250px-15-04-29-MMC-Karte-RalfR-dscf4734-d.jpg" decoding="async" width="250" height="155" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/15-04-29-MMC-Karte-RalfR-dscf4734-d.jpg/500px-15-04-29-MMC-Karte-RalfR-dscf4734-d.jpg 1.5x" data-file-width="1455" data-file-height="902" /></a></span><div class="infobox-caption">32&#160;<a href="/wiki/Megabyte" title="Megabyte">MB</a> MMCplus card</div></td></tr><tr><th scope="row" class="infobox-label">Media type</th><td class="infobox-data"><a href="/wiki/Memory_card" title="Memory card">Memory card</a></td></tr><tr><th scope="row" class="infobox-label">Capacity</th><td class="infobox-data">Up to 512&#160;GB</td></tr><tr><th scope="row" class="infobox-label">Developed<span class="nowrap">&#160;</span>by</th><td class="infobox-data"><a href="/wiki/JEDEC" title="JEDEC">JEDEC</a></td></tr><tr><th scope="row" class="infobox-label">Dimensions</th><td class="infobox-data">32&#160;×&#160;24&#160;×&#160;1.4&#160;mm (1.3&#160;×&#160;0.9&#160;×&#160;0.1&#160;in)</td></tr><tr><th scope="row" class="infobox-label">Weight</th><td class="infobox-data">2&#160;g (0.071&#160;oz)</td></tr><tr><th scope="row" class="infobox-label">Usage</th><td class="infobox-data">Portable devices</td></tr><tr><th scope="row" class="infobox-label">Extended<span class="nowrap">&#160;</span>to</th><td class="infobox-data"><a href="/wiki/Secure_Digital" class="mw-redirect" title="Secure Digital">Secure Digital</a> (SD)</td></tr><tr><th scope="row" class="infobox-label">Released</th><td class="infobox-data">1997</td></tr></tbody></table>
@@ -945,7 +945,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </p><p>Despite its technical advantages, MMC adoption was limited. Even Nokia, one of the original backers, was slow to integrate MMC into its popular handsets.<sup id="cite_ref-shendar2022_1-2" class="reference"><a href="#cite_note-shendar2022-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup> In an effort to boost adoption, the MMCA introduced revised specifications between 2004 and 2007, including reduced power consumption, support for smaller form factors, and increased storage capacities. However, these updates had limited market impact.
 </p><p>MMC technology served as the foundation for the development of the <a href="/wiki/Secure_Digital" class="mw-redirect" title="Secure Digital">Secure Digital</a> (SD) card standard. Introduced in 1999 by SanDisk, <a href="/wiki/Panasonic" title="Panasonic">Panasonic</a>, and <a href="/wiki/Toshiba" title="Toshiba">Toshiba</a>, SD was based on the MMC electrical interface but added digital rights management (DRM), more durable casing, and a mechanical write-protect switch. These enhancements, along with broad manufacturer support, led SD to surpass MMC in popularity. Many early SD-compatible devices also supported MMC cards.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup>
 </p><p>MMC's most enduring legacy came in the form of its embedded variant, eMMC (embedded MultiMediaCard). First introduced by the <a href="/wiki/JEDEC_Solid_State_Technology_Association" class="mw-redirect" title="JEDEC Solid State Technology Association">JEDEC Solid State Technology Association</a> in 2006 with version 4.0 of the standard, eMMC adapted the MMC architecture for non-removable storage integrated directly onto a device’s motherboard.<sup id="cite_ref-TechTarget_4-0" class="reference"><a href="#cite_note-TechTarget-4"><span class="cite-bracket">&#91;</span>4<span class="cite-bracket">&#93;</span></a></sup> The eMMC format proved especially successful in smartphones, tablets, Chromebooks, and other low-cost computing devices due to its low cost,<sup id="cite_ref-eMMC_Chips_5-0" class="reference"><a href="#cite_note-eMMC_Chips-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup> compact size, and adequate performance for basic tasks.<sup id="cite_ref-WindowsCentral2024_6-0" class="reference"><a href="#cite_note-WindowsCentral2024-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup>
-</p><p>On September 23, 2008, the MMCA formally transferred control of the MMC specification to JEDEC.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup> While JEDEC continued to update the eMMC standard, removable MMC cards saw little further development.<sup id="cite_ref-WindowsCentral2024_6-1" class="reference"><a href="#cite_note-WindowsCentral2024-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-JEDEC_2019_8-0" class="reference"><a href="#cite_note-JEDEC_2019-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup> As of 2025<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=MultiMediaCard&amp;action=edit">&#91;update&#93;</a></sup>, the format has largely faded from use. eMMC itself is gradually being supplanted in performance-oriented applications by newer technologies such as <a href="/wiki/Universal_Flash_Storage" title="Universal Flash Storage">Universal Flash Storage</a> (UFS) and <a href="/wiki/Solid-state_drive" title="Solid-state drive">solid-state drives</a> (SSDs), although it remains in use in budget-conscious and embedded devices. 
+</p><p>On September 23, 2008, the MMCA formally transferred control of the MMC specification to JEDEC.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup> While JEDEC continued to update the eMMC standard, removable MMC cards saw little further development.<sup id="cite_ref-WindowsCentral2024_6-1" class="reference"><a href="#cite_note-WindowsCentral2024-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-JEDEC_2019_8-0" class="reference"><a href="#cite_note-JEDEC_2019-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup> As of 2025<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=MultiMediaCard&amp;action=edit">&#91;update&#93;</a></sup>, the format has largely faded from use. eMMC itself is gradually being supplanted in performance-oriented applications by newer technologies such as <a href="/wiki/Universal_Flash_Storage" title="Universal Flash Storage">Universal Flash Storage</a> (UFS) and <a href="/wiki/Solid-state_drive" title="Solid-state drive">solid-state drives</a> (SSDs), although it remains in use in budget-conscious and embedded devices.
 </p>
 <div class="mw-heading mw-heading2"><h2 id="MMC_card_variants">MMC card variants</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=MultiMediaCard&amp;action=edit&amp;section=2" title="Edit section: MMC card variants"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
 <style data-mw-deduplicate="TemplateStyles:r1273380762/mw-parser-output/.tmulti">.mw-parser-output .tmulti .multiimageinner{display:flex;flex-direction:column}.mw-parser-output .tmulti .trow{display:flex;flex-direction:row;clear:left;flex-wrap:wrap;width:100%;box-sizing:border-box}.mw-parser-output .tmulti .tsingle{margin:1px;float:left}.mw-parser-output .tmulti .theader{clear:both;font-weight:bold;text-align:center;align-self:center;background-color:transparent;width:100%}.mw-parser-output .tmulti .thumbcaption{background-color:transparent}.mw-parser-output .tmulti .text-align-left{text-align:left}.mw-parser-output .tmulti .text-align-right{text-align:right}.mw-parser-output .tmulti .text-align-center{text-align:center}@media all and (max-width:720px){.mw-parser-output .tmulti .thumbinner{width:100%!important;box-sizing:border-box;max-width:none!important;align-items:center}.mw-parser-output .tmulti .trow{justify-content:center}.mw-parser-output .tmulti .tsingle{float:none!important;max-width:100%!important;box-sizing:border-box;text-align:center}.mw-parser-output .tmulti .tsingle .thumbcaption{text-align:left}.mw-parser-output .tmulti .trow>.thumbcaption{text-align:center}}@media screen{html.skin-theme-clientpref-night .mw-parser-output .tmulti .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img{background-color:white}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .tmulti .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img{background-color:white}}</style><div class="thumb tmulti tright"><div class="thumbinner multiimageinner" style="width:204px;max-width:204px"><div class="trow"><div class="tsingle" style="width:202px;max-width:202px"><div class="thumbimage"><span typeof="mw:File"><a href="/wiki/File:Four_MMC_cards_front.jpg" class="mw-file-description"><img alt="Front of four different MMC cards: MMC, RS‑MMC, MMCplus, MMCmobile, and metal extender" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Four_MMC_cards_front.jpg/250px-Four_MMC_cards_front.jpg" decoding="async" width="200" height="150" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Four_MMC_cards_front.jpg/330px-Four_MMC_cards_front.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Four_MMC_cards_front.jpg/500px-Four_MMC_cards_front.jpg 2x" data-file-width="1600" data-file-height="1200" /></a></span></div><div class="thumbcaption">Top of four types of MMC cards (clockwise from left): MMC, RS-MMC, MMCplus, MMCmobile, metal extender</div></div></div><div class="trow"><div class="tsingle" style="width:202px;max-width:202px"><div class="thumbimage"><span typeof="mw:File"><a href="/wiki/File:01fourcardsrev.curve.jpg" class="mw-file-description"><img alt="Back of four different MMC cards (same cards as above)" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/01fourcardsrev.curve.jpg/250px-01fourcardsrev.curve.jpg" decoding="async" width="200" height="150" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/01fourcardsrev.curve.jpg/330px-01fourcardsrev.curve.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/87/01fourcardsrev.curve.jpg/500px-01fourcardsrev.curve.jpg 2x" data-file-width="1600" data-file-height="1200" /></a></span></div><div class="thumbcaption">Bottom of the same four cards</div></div></div></div></div>
@@ -957,8 +957,8 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </p>
 <div class="mw-heading mw-heading3"><h3 id="MMCplus,_MMCmobile_and_MMCmicro"><span id="MMCplus.2C_MMCmobile_and_MMCmicro"></span>MMCplus, MMCmobile and MMCmicro</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=MultiMediaCard&amp;action=edit&amp;section=5" title="Edit section: MMCplus, MMCmobile and MMCmicro"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
 <figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:Mmc-micro.PNG" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/2/25/Mmc-micro.PNG" decoding="async" width="48" height="56" class="mw-file-element" data-file-width="48" data-file-height="56" /></a><figcaption>MMCmicro</figcaption></figure>
-<p>The <b>MMCplus</b> and <b>MMCmobile</b> formats were introduced in 2004 and the <b>MMCmicro</b> format in 2005 as part of version 4 of the MMC specification with several enhancements to improve performance and better compete with SD cards.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">&#91;</span>14<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">&#91;</span>15<span class="cite-bracket">&#93;</span></a></sup> These enhancements included support for higher clock speeds (26&#160;MHz and 52&#160;MHz alongside the normal 20&#160;MHz) and wider data buses (8&#x2011;bit alongside the previous 1- and 4&#x2011;bit), which combined to enable a 52 Mbit/s transfer rate, alongside dual-voltage support (1.8&#160;V and 3.3&#160;V) carried over from DV‑MMC.<sup id="cite_ref-:0_10-1" class="reference"><a href="#cite_note-:0-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup>  
-</p><p>The full‑size enhanced format was marketed as MMCplus, while its smaller counterpart, matching the size of RS-MMC, was known as MMCmobile. Cards have 13 flat electrical contacts to support 8&#x2011;bit data buses.<sup id="cite_ref-:0_10-2" class="reference"><a href="#cite_note-:0-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup> Both formats maintained backward compatibility with devices with standard MMC readers, though without support for some of their advanced features.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span class="cite-bracket">&#91;</span>16<span class="cite-bracket">&#93;</span></a></sup>  
+<p>The <b>MMCplus</b> and <b>MMCmobile</b> formats were introduced in 2004 and the <b>MMCmicro</b> format in 2005 as part of version 4 of the MMC specification with several enhancements to improve performance and better compete with SD cards.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">&#91;</span>14<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">&#91;</span>15<span class="cite-bracket">&#93;</span></a></sup> These enhancements included support for higher clock speeds (26&#160;MHz and 52&#160;MHz alongside the normal 20&#160;MHz) and wider data buses (8&#x2011;bit alongside the previous 1- and 4&#x2011;bit), which combined to enable a 52 Mbit/s transfer rate, alongside dual-voltage support (1.8&#160;V and 3.3&#160;V) carried over from DV‑MMC.<sup id="cite_ref-:0_10-1" class="reference"><a href="#cite_note-:0-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>The full‑size enhanced format was marketed as MMCplus, while its smaller counterpart, matching the size of RS-MMC, was known as MMCmobile. Cards have 13 flat electrical contacts to support 8&#x2011;bit data buses.<sup id="cite_ref-:0_10-2" class="reference"><a href="#cite_note-:0-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup> Both formats maintained backward compatibility with devices with standard MMC readers, though without support for some of their advanced features.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span class="cite-bracket">&#91;</span>16<span class="cite-bracket">&#93;</span></a></sup>
 </p><p>The MMCmicro format featured a compact 14 by 12 by 1.1 millimetres (0.551&#160;in ×&#160;0.472&#160;in ×&#160;0.043&#160;in) form factor to compete with microSD cards. It supported dual-voltage and high-speed 4‑bit operation, though it lacked the pins required for an 8‑bit bus. MMCmicro cards could be used with an adapter for use in full-size MMC slots.<sup id="cite_ref-:0_10-3" class="reference"><a href="#cite_note-:0-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup>
 </p>
 <div class="mw-heading mw-heading3"><h3 id="MiCard">MiCard</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=MultiMediaCard&amp;action=edit&amp;section=6" title="Edit section: MiCard"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
@@ -1140,7 +1140,7 @@ Higher capacity variants of eMMC reach higher writing speeds. While the reading 
 </div></td></tr></tbody></table></div>
 <p class="mw-empty-elt">
 </p>
-<!-- 
+<!--
 NewPP limit report
 Parsed by mw‐web.codfw.main‐547fc5dd85‐nspx9
 Cached time: 20250904012020
@@ -1182,10 +1182,10 @@ Transclusion expansion time report (%,ms,calls,template)
 					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Open_standards" title="Category:Open standards">Open standards</a></li><li><a href="/wiki/Category:Sandisk" title="Category:Sandisk">Sandisk</a></li><li><a href="/wiki/Category:Siemens" title="Category:Siemens">Siemens</a></li><li><a href="/wiki/Category:Computer-related_introductions_in_1997" title="Category:Computer-related introductions in 1997">Computer-related introductions in 1997</a></li><li><a href="/wiki/Category:Solid-state_computer_storage" title="Category:Solid-state computer storage">Solid-state computer storage</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2025" title="Category:Articles containing potentially dated statements from 2025">Articles containing potentially dated statements from 2025</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_June_2025" title="Category:Use mdy dates from June 2025">Use mdy dates from June 2025</a></li></ul></div></div>
 				</div>
 			</main>
-			
+
 		</div>
 		<div class="mw-footer-container">
-			
+
 <footer id="footer" class="mw-footer" >
 	<ul id="footer-info">
 	<li id="footer-info-lastmod"> This page was last edited on 30 June 2025, at 11:51<span class="anonymous-show">&#160;(UTC)</span>.</li>
@@ -1213,8 +1213,8 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 </footer>
 
 </div>
-	</div> 
-</div> 
+	</div>
+</div>
 <div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
 	<div id="vector-sticky-header" class="vector-sticky-header">
 		<div class="vector-sticky-header-start">
@@ -1224,7 +1224,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 <span>Search</span>
 			</button>
 		</div>
-			
+
 		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
 			<div class="vector-typeahead-search-container">
 				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
@@ -1233,7 +1233,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 							<div class="cdx-text-input cdx-text-input--has-start-icon">
 								<input
 									class="cdx-text-input__input mw-searchInput" autocomplete="off"
-									
+
 									type="search" name="search" placeholder="Search Wikipedia">
 								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
 							</div>
@@ -1246,7 +1246,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 		</div>
 		<div class="vector-sticky-header-context-bar">
 				<nav aria-label="Contents" class="vector-toc-landmark">
-						
+
 					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
 						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
 						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
@@ -1254,10 +1254,10 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 <span class="vector-dropdown-label-text">Toggle the table of contents</span>
 						</label>
 						<div class="vector-dropdown-content">
-					
+
 						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
 						</div>
-					
+
 						</div>
 					</div>
 			</nav>
@@ -1318,7 +1318,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 </div>
 <div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
 	<ul>
-		
+
 	</ul>
 </div>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-cd5666477-lt49w","wgBackendResponseTime":120,"wgPageParseReport":{"limitreport":{"cputime":"0.562","walltime":"0.724","ppvisitednodes":{"value":2476,"limit":1000000},"revisionsize":{"value":20462,"limit":2097152},"postexpandincludesize":{"value":90584,"limit":2097152},"templateargumentsize":{"value":1683,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":117967,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  593.883      1 -total"," 33.85%  201.006      1 Template:Reflist"," 24.67%  146.482     20 Template:Cite_web"," 15.16%   90.033      1 Template:Memory_types"," 14.71%   87.353      1 Template:Sidebar_with_collapsible_lists"," 11.80%   70.074      1 Template:Short_description"," 10.42%   61.861      1 Template:Infobox_media","  9.69%   57.570      1 Template:Infobox","  8.33%   49.445      1 Template:Commons_category","  7.92%   47.008      1 Template:Sister_project"]},"scribunto":{"limitreport-timeusage":{"value":"0.351","limit":"10.000"},"limitreport-memusage":{"value":8399210,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-547fc5dd85-nspx9","timestamp":"20250904012020","ttl":2592000,"transientcontent":false}}});});</script>

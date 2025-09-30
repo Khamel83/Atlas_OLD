@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday. Try not to do any bank runs while I’m gone.I don’t know what the US Secu
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday. Try not to do any bank runs while I’m gone.
 
-  
-    
+
+
       Coinbase
-    
-  
+
+
 
 I don’t know what the US Securities and Exchange Commission’s   Wells notice to Coinbase Global Inc. is about. The  notice itself — a letter that the SEC sends saying that it intends to bring an enforcement action — is quite bare-bones and doesn’t say what the issue is, though presumably the SEC has given Coinbase some more detail over the phone. Quite possibly the problem is something fairly contained, like, “recently you launched a new product that we think violates the securities laws, so we are going to bring an enforcement action focused on that product.”
 On the other hand if the problem is, like, “you are operating a crypto exchange, and we think that operating a crypto exchange is illegal, so we are going to bring an enforcement action to stop you from doing that,” I would not be entirely stunned either. I mean, it’s probably not quite that broad. But the SEC has  made it clear,   over and   over again, that it thinks almost all crypto tokens (except Bitcoin, Ethereum
@@ -94,37 +94,37 @@ When crypto is going down and so many projects are evaporating in fraud and bank
 This is unsatisfying, first of all, from a rule-of-law perspective: The SEC used a light touch in regulating crypto on the way up, which encouraged a lot of companies (like Coinbase) to get into crypto, invest a lot of resources, hire a lot of people and build big businesses. (And which encouraged lots of people to invest in crypto, on the theory that if it was really bad the SEC would have stopped it.) If the SEC now says that was all illegal, it seems harsh and arbitrary. As Armstrong says, the SEC had plenty of opportunities to object to Coinbase in the past; it didn’t, and Coinbase relied on the SEC’s acceptance in building its business. The answer — “we would have objected in 2021, but crypto was cool then and people would have gotten mad at us for getting in the way, but now crypto is bad and we can do whatever we want” — does not feel like great regulatory procedure.
 It is also bad substantive regulation — bad consumer protection — to encourage crypto on the way up and crack down on after the crash. Stopping people from investing in crypto after they’ve lost all their money doesn’t do them any good! You want to stop the crash! You want to “take away the punch bowl just as the party gets going,” but that is easy to say and hard, politically, to do. When the party is over and everyone is nursing a crushing hangover, no one cares what you do with the punch bowl. “Ugh that punch bowl, get it out of here, what even was in that,” they will retch. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Justin Sun, Lindsay Lohan, Jake Paul et al.
-    
-  
+
+
 
 I have never fully understood how big and respectable Justin Sun and his Tron crypto blockchain were — he paid to have  dinner with Warren Buffett once? Not sure which way that cuts —  but in any case:
 
@@ -176,11 +176,11 @@ Through this wash trading scheme, Sun and his team created the false and mislead
 
 In crypto, perception is almost identical to reality: If people think a blockchain ecosystem is popular and active, they will use it, and it will be popular and active. Trading volume is not the only indication of popularity and activity, but it is a big one, because crypto’s most prominent use case is still trading crypto. So if you trade your own token back and forth with yourself, people will think that it is a popular token, and they will buy it, and then it will be a popular token. You can fake it until you make it, but the SEC won’t like it.
 
-  
-    
+
+
       First Republic
-    
-  
+
+
 
 The   basic lessons of   the Silicon Valley Bank failure might be:
 	Some number of US regional banks are apparently insolvent, if you compare the market values of their assets (lots of fixed-rate loans and bonds that lost value as interest rates rose) with their liabilities (deposits, etc.).	Mostly this is a weird uncomfortable fact of life in banking in a rate-hiking cycle, and everyone politely ignores it.	Sometimes people notice and that’s bad.
@@ -197,11 +197,11 @@ The big hurdle is First Republic’s book of underwater loans and securities. Mo
 
 Right now First Republic seems to be operating just fine as a bank, and its stock, which represents an option on its recovery, has a positive price. A buyer would apparently pay a negative price for it. The bid-ask is pretty wide.
 
-  
-    
+
+
       Credit Suisse
-    
-  
+
+
 
 People like to say that investment banks are a business where the assets walk out the door each evening. The collapse of Credit Suisse Group AG suggests that that’s not really true, that the assets are actually regular old financial assets and if they walk out the door once then the bank collapses. But, sure, Credit Suisse is also an investment bank that employs a lot of investment bankers and traders, and they   don’t all have to go down with the ship:
 
@@ -211,11 +211,11 @@ While shockwaves from Credit Suisse’s effective collapse are still reverberati
 
 In banking, your compensation is generally a function of (1) your performance, (2) your group’s performance and (3) your bank’s performance. Credit Suisse’s overall performance, right now, is about as bad as possible; it was rescued by Swiss authorities and sold to UBS for, roughly, nothing. That is an environment in which it is hard to get paid, both as an economic matter and also as a political matter; the Swiss government has   ordered Credit Suisse to freeze some pay. There are some reasonable ideas of collective responsibility there, but of course lots of Credit Suisse  traders and wealth managers were making a lot of money for the bank, and their best chance of getting paid is somewhere else.
 
-  
-    
+
+
       People are worried about bond market liquidity on the blockchain
-    
-  
+
+
 
  Sure:
 
@@ -225,19 +225,19 @@ Boonen’s firm plans to use blockchain technology — a shared and public recor
 
 I have nothing to say about this, but it is an attempt to solve worries about bond market liquidity using the blockchain, so I think I am obligated to mention it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Swiss regulator  defends $17bn wipeout of AT1 bonds in Credit Suisse deal. US bondholders prepare to  sue Swiss government over $17bn Credit Suisse wipeout. Should have known better: the write-down of  Credit Suisse AT1s. Credit Suisse Losses Turn Gulf Investors  Cautious on Bank Deals. Fed Opts for   Hike-and-See in Gamble That Crisis Will Stay Contained.  Charles Schwab Says It Could Ride Out a Deposit Flight. Jack Dorsey’s   Block Falls After Hindenburg Says It’s Short the Stock. Toshiba Announces $15 Billion Plan to Be Taken Private.  Macro Hedge Funds Hit by Financial Turmoil. Duet Employee in $100 Million   Tax Scheme Says He’s ‘Sorry.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One pet theory of mine is that if you hung out with SEC Chair Gary Gensler and got a few drinks into him, he would tell you “obviously Ethereum is a security.” I have never tried this, but come on. However, that ship has sailed and everyone agrees that, for US regulatory purposes, Ethereum is not a security.
 
 
-  [2] You don’t quite have to be a “nationally registered securities exchange,” though that helps, and SEC-registered broker-dealers can operate regulated “alternative trading systems” that can look fairly exchange-like. But the regulatory burden there is not trivial either, and while Coinbase does have a broker-dealer registration it does not meet these requirements. Coinbase  says in its risk factors: “Platforms that bring together purchasers and sellers to trade crypto assets that are securities in the United States are generally subject to registration as national securities exchanges, or must qualify for an exemption, such as by being operated by a registered broker-dealer as an ATS in compliance with rules for ATSs. … Because Coinbase Spot Market, Coinbase Prime and Coinbase app are not registered or licensed with the SEC or foreign authorities as a broker-dealer, national securities exchange, or ATS (or foreign equivalents), we only permit trading of those crypto assets for which we determine there are reasonably strong arguments to conclude that the crypto asset is not a security.” 
+  [2] You don’t quite have to be a “nationally registered securities exchange,” though that helps, and SEC-registered broker-dealers can operate regulated “alternative trading systems” that can look fairly exchange-like. But the regulatory burden there is not trivial either, and while Coinbase does have a broker-dealer registration it does not meet these requirements. Coinbase  says in its risk factors: “Platforms that bring together purchasers and sellers to trade crypto assets that are securities in the United States are generally subject to registration as national securities exchanges, or must qualify for an exemption, such as by being operated by a registered broker-dealer as an ATS in compliance with rules for ATSs. … Because Coinbase Spot Market, Coinbase Prime and Coinbase app are not registered or licensed with the SEC or foreign authorities as a broker-dealer, national securities exchange, or ATS (or foreign equivalents), we only permit trading of those crypto assets for which we determine there are reasonably strong arguments to conclude that the crypto asset is not a security.”
 
 
   [3] He mentions “staking” here, which is a bit different from the listing of tokens that are arguably securities. The idea of staking is that customers can give Coinbase some of their non-security tokens (mainly Ether) and Coinbase will stake them to validate transactions on the token’s blockchain and be paid staking rewards, which it will share with the customers. The SEC thinks that this *program* is a security, even if the underlying token is not — just like a money market mutual fund is a security (you pool your money to invest in interest-earning assets) even if dollars are not. Last month the SEC   shut down the staking product of Kraken, another crypto exchange, so it is sort of obvious that Coinbase’s staking product was next.
@@ -246,48 +246,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] To be clear, TRX is  not actually listed on Coinbase, so Coinbase has not taken the position that it’s not a security. I just mean that Armstrong probably sympathizes a little with Sun here.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -298,46 +298,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cif1td.5ot7/a8e68745.gif" alt="" border="0" /></a>

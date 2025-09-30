@@ -37,11 +37,11 @@
 <meta name="theme-color" content="#313131">
 
 <link rel="stylesheet" href="https://use.typekit.net/yit2rrl.css">
-  
+
       <link rel="stylesheet" href="/assets/css/app.501a629c64c940446070.css">
-  
-  
-  
+
+
+
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-K9MHRT9"></script>
 
 <!-- Google Site Verification -->
@@ -164,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li class="mr-12">
           <a  class="btn py-8 px-16 text-14 -magenta -hollow" href="https://shop.hrc.org/?utm_source=hrc&amp;utm_medium=button&amp;utm_campaign=hrc_shop_button_main_menu"  data-track-gtm="Top Navigation|Shop"><span class="align-middle">Shop</span></a>
         </li>
-      
+
               <li class="mr-12">
           <a  class="btn py-8 px-16 text-14 -magenta" href="https://give.hrc.org/page/133135/donate/1?ea.tracking.id=or_gnr_hrc_sitebtn"  data-track-gtm="Donation CTA|Top Navigation|https://give.hrc.org/page/133135/donate/1?ea.tracking.id=or_gnr_hrc_sitebtn"><span class="align-middle">Donate</span></a>
         </li>
@@ -235,7 +235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           "
         >
           <ul class="lg:flex lg:flex-grow">
-                                                                    
+
                               <li class="py-8 lg:mr-24 xl:mr-32">
                   <a
                     href="/our-work"
@@ -247,7 +247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                                  
+
                               <li class="py-8 lg:mr-24 xl:mr-32">
                   <a
                     href="/resources"
@@ -259,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                                  
+
                               <li class="py-8 lg:mr-24 xl:mr-32">
                   <a
                     href="/get-involved"
@@ -271,7 +271,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                                  
+
                               <li class="py-8 lg:mr-24 xl:mr-32">
                   <a
                     href="/about"
@@ -319,7 +319,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </span>
               </a>
             </li>
-          
+
           <li class="lg-d:hidden lg:ml-8">
             <a
               href="/search"
@@ -338,7 +338,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           class="border-t-2 border-gray-200 py-20 text-center leading-tight text-16 lg:hidden"
         >
           <ul>
-                                                      
+
                               <li class="lg-d:mb-8">
                   <a
                     href="https://www.hrc.org/get-involved/member-center"
@@ -350,7 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                    
+
                               <li class="lg-d:mb-8">
                   <a
                     href="https://www.hrc.org/magazine"
@@ -362,7 +362,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                    
+
                               <li class="lg-d:mb-8">
                   <a
                     href="https://www.hrc.org/about/careers"
@@ -374,7 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                    
+
                               <li class="lg-d:mb-8">
                   <a
                     href="https://www.hrc.org/press-releases"
@@ -386,7 +386,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </span>
                   </a>
                 </li>
-                                                                    
+
                               <li class="">
                   <a
                     href="https://www.hrc.org/about/contact-us"
@@ -479,7 +479,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="lg-d:p-20 lg:ml-24 lg:flex">
                   <a  class="btn block w-full py-20 lg-d:mb-12 lg:mr-12 lg:px-24 lg:py-12 -magenta -hollow" href="https://shop.hrc.org/?utm_source=hrc&amp;utm_medium=button&amp;utm_campaign=hrc_shop_button_main_menu"  data-track-gtm="Shop CTA|Top Navigation|https://shop.hrc.org/?utm_source=hrc&amp;utm_medium=button&amp;utm_campaign=hrc_shop_button_main_menu"><span class="align-middle">Shop</span></a>
-        
+
                   <a  class="btn block w-full lg:px-24 lg:py-12 -magenta" href="https://give.hrc.org/page/133135/donate/1?ea.tracking.id=or_gnr_hrc_sitebtn"  data-track-gtm="Donation CTA|Top Navigation|https://give.hrc.org/page/133135/donate/1?ea.tracking.id=or_gnr_hrc_sitebtn"><span class="align-middle">Donate</span></a>
               </div>
       </div>
@@ -491,23 +491,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       tabindex="-1"
       lang="en-US"
     >
-        
+
   <header
     class="wrapper -padded -md"
-    
+
     data-label="partial-header-detail"
   ><div class="section pb-0 text-theme-text-default-black">
-      
+
       <nav aria-label="Breadcrumbs" class="mb-16 relative z-1 md:mb-32 text-theme-text-default-black">
   <ol>
           <li class="inline-block mr-8">
-                                      
+
                       <a
               href="https://www.hrc.org/press-releases"
               class="border-transparent text-current type-eyebrow focus-hover:text-current focus-hover:border-current"
             ><span class="icon mr-4 rect-16"><svg viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6.10645 7.00033L5.39934 6.29322C5.00881 6.68374 5.00881 7.31691 5.39934 7.70743L6.10645 7.00033ZM9.73022 4.79077C10.1207 4.40024 10.1207 3.76708 9.73022 3.37655C9.33969 2.98603 8.70653 2.98603 8.31601 3.37655L9.73022 4.79077ZM8.31601 10.6241C8.70653 11.0146 9.33969 11.0146 9.73022 10.6241C10.1207 10.2336 10.1207 9.60041 9.73022 9.20989L8.31601 10.6241ZM6.81355 7.70743L9.73022 4.79077L8.31601 3.37655L5.39934 6.29322L6.81355 7.70743ZM9.73022 9.20989L6.81355 6.29322L5.39934 7.70743L8.31601 10.6241L9.73022 9.20989Z"/></svg></span>Press Releases</a>
               </li>
-    
+
       </ol>
 </nav>
 <h1 class="heading-60">
@@ -599,7 +599,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <section
     class="section bg-theme-bg-default-white text-theme-text-default-gray-900"
-    
+
     data-animate
     data-label="partial-copy"
   >
@@ -864,14 +864,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="wrapper -sm -padded">
         <div class="pt-32 border-t-4 border-yellow-500 md:pt-64">
                       <h2 class="mb-16 heading-20">Contact Us</h2>
-          
+
                       <div class="rich-text">
               <p>To make a general inquiry, please visit our contact page. Members of the media can reach our press office at: (202) 572-8968 or email press@hrc.org.</p>
             </div>
                   </div>
       </div>
     </section>
-  
+
       </main>
 
 <div>
@@ -892,8 +892,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               >
                 Love conquers hate.
               </h2>
-            
-            
+
+
                           <div class="mt-24">
                 <a  class="btn md-d:block -magenta" href="/donate"  data-track-gtm="Footer CTA|200+ Major U.S. Companies Oppose Anti-LGBTQ+ State Legislation|/donate"><span class="align-middle">Donate Today</span></a>
               </div>
@@ -915,16 +915,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="sm:w-1/2 lg:w-full">
               <img class="object-cover w-full h-full" src="https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=384&amp;q=90&amp;w=640&amp;s=791b07f4b6aeb8d79ad914548e8d8658" srcset="https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=384&amp;q=90&amp;w=640&amp;s=791b07f4b6aeb8d79ad914548e8d8658 640w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=532&amp;q=90&amp;w=886&amp;s=762865ee63cf9554c7a6ea297d3dcc6a 886w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=679&amp;q=90&amp;w=1132&amp;s=734d180f260891fc15d976759c528c2c 1132w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=827&amp;q=90&amp;w=1378&amp;s=aa63c78640898e4e0fb547a0a8088b94 1378w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=974&amp;q=90&amp;w=1624&amp;s=db3fcea12bbb7c68092950b604efa42d 1624w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=1122&amp;q=90&amp;w=1870&amp;s=edcb3abfd8f2f38336960d2e70e92b15 1870w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=1270&amp;q=90&amp;w=2116&amp;s=89fa08be4d4b76f07b621518c153d7e5 2116w, https://hrc.imgix.net/SHOP-protect-trans-kids-shirts-2.png?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=crop&amp;fm=webp&amp;fp-x=0.4755&amp;fp-y=0.3602&amp;h=1416&amp;q=90&amp;w=2360&amp;s=6cd8d3bdb0f3b510a219035e6099897a 2360w" width="640" height="384" alt="" sizes="(max-width: 639px) 100vw, (min-width: 1023px) 50vw, 33vw" loading="lazy" style="object-position: 47.55% 36.02%;" decoding="auto">
             </div>
-          
+
           <div class="bg-white text-gray-900 p-24 sm:w-1/2 md-d:text-center md:pl-32 md:pr-48 md:py-48 lg:p-32 lg:w-full lg:text-center">
                           <h2
                 class="font-bold leading-squeeze text-32"
               >
                 Love is Love
               </h2>
-            
+
                           <p class="mt-16">100% of every HRC merchandise purchase fuels the fight for equality.</p>
-            
+
                           <div class="mt-24">
                 <a  class="btn md-d:block -magenta -hollow" href="https://shop.hrc.org/?utm_source=hrc&amp;utm_medium=feature_image&amp;utm_campaign=hrc_get_involved"  data-track-gtm="Footer CTA|200+ Major U.S. Companies Oppose Anti-LGBTQ+ State Legislation|https://shop.hrc.org/?utm_source=hrc&amp;utm_medium=feature_image&amp;utm_campaign=hrc_get_involved"><span class="align-middle">Shop Now</span></a>
               </div>
@@ -936,7 +936,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 </div>
-      
+
       <footer role="contentinfo" class="bg-white py-64">
   <div class="wrapper -lg -padded">
     <div class="md:flex">
@@ -1087,7 +1087,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 md:pb-10
               "
             >
-                                              
+
                                   <dt class="">
                     <a
                       href="https://www.hrc.org/get-involved/member-center"
@@ -1097,9 +1097,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Manage Your Membership
                     </a>
                   </dt>
-                
+
                                   <dd class="type-italic">Adjust your membership details</dd>
-                                                              
+
                                   <dt class="pt-16">
                     <a
                       href="https://www.hrc.org/magazine"
@@ -1109,9 +1109,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Equality Magazine
                     </a>
                   </dt>
-                
+
                                   <dd class="type-italic">The nation&#039;s largest-circulation LGBTQ+ magazine</dd>
-                                                              
+
                                   <dt class="pt-16">
                     <a
                       href="https://www.hrc.org/about/careers"
@@ -1121,9 +1121,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Careers
                     </a>
                   </dt>
-                
+
                                   <dd class="type-italic">Full-time positions, fellowships and internships</dd>
-                                                              
+
                                   <dt class="pt-16">
                     <a
                       href="https://www.hrc.org/press-releases"
@@ -1133,9 +1133,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Press
                     </a>
                   </dt>
-                
+
                                   <dd class="type-italic">Press releases, corporate assets</dd>
-                                                              
+
                                   <dt class="pt-16">
                     <a
                       href="https://www.hrc.org/about/contact-us"
@@ -1145,11 +1145,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Contact
                     </a>
                   </dt>
-                
+
                                   <dd class="type-italic">Department contacts, membership inquiries</dd>
                                           </dl>
           </nav>
-        
+
                   <nav
             aria-label="Legal Menu"
             class="
@@ -1163,7 +1163,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 md-d:justify-center
               "
             >
-                                              
+
                                   <li class="mx-12">
                     <a
                       href="/terms-conditions"
@@ -1172,7 +1172,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Terms &amp; Conditions
                     </a>
                   </li>
-                                                              
+
                                   <li class="mx-12">
                     <a
                       href="/privacy-policy"
@@ -1181,7 +1181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       Privacy Policy
                     </a>
                   </li>
-                                                              
+
                                   <li class="mx-12">
                     <a
                       href="/human-rights-campaign-copyright-complaint-notice"
@@ -1192,7 +1192,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </li>
                                           </ul>
           </nav>
-        
+
         <p class="text-12 text-gray-500">The Human Rights Campaign, All Rights Reserved</p>
       </div>
     </div>
@@ -1206,7 +1206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     class="modal inset-0 z-10 fixed bg-blue-400"
     aria-hidden="true"
     data-label="partial-modal"
-    
+
   >
     <div tabindex="-1" class="h-full" data-micromodal-close>
       <div
@@ -1726,7 +1726,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     class="modal inset-0 z-10 fixed bg-blue-400"
     aria-hidden="true"
     data-label="partial-modal"
-    
+
   >
     <div tabindex="-1" class="h-full" data-micromodal-close>
       <div
@@ -1781,7 +1781,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <script src="/assets/js/runtime.495acfccc6148a136460.js"></script>
 
 <script src="/assets/js/vendors.fa511de89767ff11872e.js"></script>
-          
+
     <script src="/assets/js/app.1ec5993c588a4104cd94.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","author":{"@id":"https://www.hrc.org#identity"},"copyrightHolder":{"@id":"https://www.hrc.org#identity"},"copyrightYear":"2022","creator":{"@id":"#creator"},"dateCreated":"2022-03-31T10:00:08-04:00","dateModified":"2022-03-31T14:59:20-04:00","datePublished":"2022-03-31T10:00:00-04:00","description":"Box, Inc., Compass, Gilead Sciences, Inc., HP Inc., Hyatt, and Mattel, Inc. among signatories joining Human Rights Campaign and Freedom for All Americans’ Business Statement","headline":"200+ Major U.S. Companies Oppose Anti-LGBTQ+ State Legislation","image":{"@type":"ImageObject","url":"https://hrc-prod-requests.s3-us-west-2.amazonaws.com/files/images/meta_images/HRC-DefaultWebImage-Share1200.jpg"},"inLanguage":"en-us","mainEntityOfPage":"https://www.hrc.org/press-releases/200-major-u-s-companies-oppose-anti-lgbtq-state-legislation","name":"200+ Major U.S. Companies Oppose Anti-LGBTQ+ State Legislation","publisher":{"@id":"#creator"},"url":"https://www.hrc.org/press-releases/200-major-u-s-companies-oppose-anti-lgbtq-state-legislation"},{"@id":"https://www.hrc.org#identity","@type":"LocalBusiness","address":{"@type":"PostalAddress","addressCountry":"US","addressLocality":"Washington","addressRegion":"DC","postalCode":"20036-3278","streetAddress":"1640 Rhode Island Ave. N.W."},"alternateName":"Human Rights Campaign","description":"Our goal is to ensure that all LGBTQ+ people, and particularly those of us who are trans, people of color and HIV+, are treated as full and equal citizens within our movement, across our country and around the world.","image":{"@type":"ImageObject","height":"1520","url":"https://hrc-prod-requests.s3-us-west-2.amazonaws.com/Hrc_logo.svg","width":"1520"},"logo":{"@type":"ImageObject","height":"60","url":"https://hrc-prod-requests.s3-us-west-2.amazonaws.com/_600x60_fit_center-center_82_none/2091594/Hrc_logo.jpg?mtime=1715988054","width":"60"},"name":"Human Rights Campaign Foundation","priceRange":"$","sameAs":["https://twitter.com/hrc","https://www.facebook.com/humanrightscampaign","https://www.linkedin.com/company/human-rights-campaign/","www.youtube.com/@hrcmedia","https://www.instagram.com/humanrightscampaign/","https://www.tiktok.com/@humanrightscampaign","https://www.threads.net/@humanrightscampaign"],"telephone":"(800) 777-4723","url":"https://www.hrc.org"},{"@id":"#creator","@type":"Organization"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.hrc.org/","name":"HRC Homepage","position":1},{"@type":"ListItem","item":"https://www.hrc.org/press-releases","name":"Press Releases","position":2},{"@type":"ListItem","item":"https://www.hrc.org/press-releases/200-major-u-s-companies-oppose-anti-lgbtq-state-legislation","name":"200+ Major U.S. Companies Oppose Anti-LGBTQ+ State Legislation","position":3}],"name":"Breadcrumbs"}]}</script></body>
 </html>

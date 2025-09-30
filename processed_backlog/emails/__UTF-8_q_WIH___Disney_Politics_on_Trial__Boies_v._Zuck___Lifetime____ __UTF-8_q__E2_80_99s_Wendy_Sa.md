@@ -43,7 +43,7 @@ But first…
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -182,7 +182,7 @@ Of course, I’m sure Disney C.E.O.
 Bob Iger would prefer to steer clear of contentious political debates, as evidenced by the company’s new efforts ( https://www.axios.com/2025/02/11/disney-dei-changes-trump-era?stream=top&utm_source=alert&utm_medium=email&utm_campaign=alerts_media_trends&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to shift away from its D.E.I. programs, but over the next four years, they seem unavoidable. In the Dunbar case, Street originally teamed with Robert F.
 Kennedy Jr., a fellow attorney at JW Howard who is now more focused on joining the Trump administration. Kennedy, obviously, is no longer involved in the litigation against Disney, although one shouldn’t discount the possibility that he directs health agencies to submit amicus briefs after his likely confirmation as America’s top health official this week.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday. 
 
@@ -210,6 +210,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU9-J-eJjfg1Wpm03cwf8=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

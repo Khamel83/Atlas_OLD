@@ -232,11 +232,11 @@ LinkedIn
 
 <span class="dot-separator">â¢</span>
   <p class="authors">
-    
+
 <span class="author"><a href="/web/20180625120505/http://www.kpcb.com/blog/partner/mary-meeker" title="View Mary Meeker's Blog Posts">Mary Meeker</a></span>  </p>
 
 </div>
-      
+
 <ul class="social-module social-buttons thirds">
   <li class="facebook">
     <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
@@ -412,7 +412,7 @@ LinkedIn
 
 <div class="text">
           <h3 class="h5">
-            This start-up made connected toothbrushes -- now it aims to overthrow the &#39;primitive&#39; dental insurance industry 
+            This start-up made connected toothbrushes -- now it aims to overthrow the &#39;primitive&#39; dental insurance industry
           </h3>
         </div>
 </a>    </li>

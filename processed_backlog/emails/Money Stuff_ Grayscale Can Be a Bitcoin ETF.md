@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are two ways to run a Bitcoin exchange-traded fund: You could raise money from investors, park it in cash or Treasuries, and trade cas
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Grayscale
-    
-  
+
+
 
 There are two ways to run a Bitcoin exchange-traded fund:
 	You could raise money from investors, park it in cash or Treasuries, and trade cash-settled Bitcoin futures listed on a US commodities exchange.
@@ -101,37 +101,37 @@ Still it is a potentially important decision. For most of my time watching finan
 But that might be changing. The current SEC under Chair Gary Gensler has been aggressive about expanding its regulatory authority — in crypto, of course, but also in things like the regulation of  private funds or   environmental disclosure. Meanwhile the financial industry — the crypto industry, but also more traditional financial firms — has gotten more aggressive about pushing back on the SEC, fighting enforcement cases in court or suing the SEC for “arbitrary and capricious” rulemaking. And the post-Trump federal courts are far more willing to strike down regulatory decisions, and   more skeptical of regulation generally.
 One possible interpretation of this case is that the SEC’s decision to block spot Bitcoin ETFs was unusually egregious, and a court fixed that, and there are no broader implications for anything. And that’s possible, because the spot Bitcoin ETF decision really was weird. But another possible interpretation is that the modern SEC has become more aggressive about regulating the crypto industry, and the broader financial industry, in a lot of different areas, while the crypto and financial industries have become more aggressive about fighting back and the modern US courts have become more aggressive about second-guessing the SEC. The SEC has gotten used to its decisions being, for all practical purposes, the law, and that might not be right anymore.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 A classic tension in public company mergers and acquisitions is that, if you are running an auction to sell your company, you want to force bidders to put in their best bid in the auction. “Put in your very best bid,” you tell them, “because if you lose this auction you won’t get another chance to buy the company.” And then you open up the bids and pick the top one and sign a contract with the top bidder saying that you will sell them the company. And then you announce the deal, saying “we are selling our company to Bidder X for $10 per share.”
 And then the next day Bidder Y, who bid $9.75 in the auction and lost, sends you a letter saying “okay fine we’ll pay $10.10.” And you say “no, it doesn’t work that way, we wanted your best bid in the auction, we told you you wouldn’t get another chance!” But, also, $10.10 is more than $10. And you still have a fiduciary obligation to your shareholders to get the best price. You can’t really tell Bidder Y no. You have to take their new bid seriously, because it is more money for your shareholders. You might have to get out of your merger agreement with Bidder X and sell to Bidder Y at the higher price.
@@ -150,11 +150,11 @@ Meanwhile Sculptor’s estranged founder, Daniel Och, has been asking Sculptor t
 On August 22, 2023, we requested that you waive certain restrictions in the non-disclosure agreements with Bidder J, Bidder H, and the Founders’ group (the “NDAs”), because we believed that preventing those bidders from publicly articulating their proposals and from speaking with us was contrary to the interests of shareholders. Specifically, we cannot understand how the Special Committee could possibly conclude that it is in the best interests of shareholders to deter us from communicating freely with such bidders to improve their bids, thereby reversing the prior massive diversion of value from shareholders to management in order to achieve maximum value for all shareholders.
 Anyone buying Sculptor will have to deal with Och, who has a bunch of shares and some tax arrangements with Sculptor that are worth a lot of money; one bidder in the initial auction seems to have dropped out because it couldn’t come to terms with Och. Letting potential bidders negotiate with Och would probably allow them to make their bids, if not better, at least more certain. But when they signed up for the original auction they agreed not to talk to anyone else, because Sculptor’s board wanted to be in control of the sale process. But it is increasingly losing control.
 
-  
-    
+
+
       Citadel interns
-    
-  
+
+
 
 The standard story about quantitative trading firms is that they prefer to recruit people who are very good at math and coding rather than people with any financial experience or training. The thinking is roughly that if you take someone who is good at math and coding, you can teach them the basics of trading pretty easily; if you take someone with an MBA and an active Robinhood account, you might have a hard time teaching them math. In fact, too much business background could be a negative: If you run a differentiated quantitative investing or market-making firm, you might think that you do things the Right Way, and big banks do things the Wrong Way, and traders who have worked at those banks have learned the wrong things and are now unfixable. Better to get a 20-year-old intern who is good at math and teach them from scratch.
 Whether or not this theory is true on its own terms, it has some practical advantages. If you are recruiting 20-year-old math undergraduates to your hedge fund, you can impress them — and get them to come back as full-time employees, and get them to go recruit their best math classmates for you — by paying them amounts of money that are (1) way more than any other 20-year-olds make but (2) way less than you’d be paying to recruit financial industry veterans. If they are living on ramen at college, you can impress them with a couple of fancy lunches.
@@ -175,11 +175,11 @@ Another involves videotaping themselves for a self-introduction, where they are 
 
 Arguably MBAs arrive at their jobs knowing how to write emails to their boss and match their facial expressions to their messages, and math Ph.D.s arrive at their jobs knowing math, and Citadel is betting that the former is easier to teach than the latter.
 
-  
-    
+
+
       Business bribes
-    
-  
+
+
 
 One of the hazier lines in law is the one between bribery and legitimate business entertainment. Taking a potential customer out to a nice dinner so you can pitch her on your product: Fine, probably? Having a $1,000 bottle of wine with that dinner: A bit iffier? Having five $1,000 bottles of wine: Iffier still? Sending her and her spouse out to dinner without you and picking up the tab: Does not seem like a legitimate business meeting? I don’t know, not legal advice, there are many gray areas.
 Here is  an effort from the US Securities and Exchange Commission to draw some lines. For instance: If you schedule a conference in an exciting tourist destination, and you invite potential clients, and you pay their travel expenses, and the conference includes various useful appropriate activities designed to educate the clients about your products, but you also schedule (and pay for) lot of tourist activities for the clients alongside the official conference program, is that okay? I don’t know! But if you schedule the tourist activities at the same time as the official conference program, and they go to the tourist activities instead of the conference, then that feels a lot more like “bribes” than “client education”:
@@ -193,11 +193,11 @@ According to the SEC’s order, 3M tracked the cost of these trips (“nearly $1
   [7]
  Bloomberg tells me that 3M’s gross margins were about 48% to 50% in those years, so I suppose the bribes made economic sense, at least before the $6.5 million in fines.
 
-  
-    
+
+
       Student loans
-    
-  
+
+
 
 This is not any sort of advice, but I feel like a good fraud to do would be to send letters to every 25-to-35-year-old in the US that say “hi, I am your new student loan servicer, student loan payments are coming back, your new payment amount is $437 per month, here’s where you send a check.” That’s what a lot of student-loan servicers are legitimately doing, and how could anyone tell that you were lying? The  Wall Street Journal reports:
 
@@ -206,18 +206,18 @@ With pandemic relief ending, borrowers will start owing interest as of Friday. T
 
 Obviously don’t do this! But someone probably will, and I look forward to writing about it in a year or two.
 
-  
-    
-      Things happen
-    
-  
 
-Mortgage Rates at 7% Are Making 
-Everything Worse for US Homebuyers. High hopes, rocky realities: Europe’s new banks struggle to grow up. Conduit bonds. Private Equity Borrows Billions to Bring You  Broadband Internet. OpenAI Launches  Business Version of ChatGPT That Competes With Microsoft.  Lawyers Descend on Maui After Historic Wildfire. Carlsen and Niemann  resolve cheating claim dispute that divided chess. Credit Suisse’s 
+
+      Things happen
+
+
+
+Mortgage Rates at 7% Are Making
+Everything Worse for US Homebuyers. High hopes, rocky realities: Europe’s new banks struggle to grow up. Conduit bonds. Private Equity Borrows Billions to Bring You  Broadband Internet. OpenAI Launches  Business Version of ChatGPT That Competes With Microsoft.  Lawyers Descend on Maui After Historic Wildfire. Carlsen and Niemann  resolve cheating claim dispute that divided chess. Credit Suisse’s
 Banker to Russian Billionaires Retained by UBS. UBS settles Credit Suisse lawsuit against popular  Zurich finance blog. Brain  worm.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] I say “park it in cash or Treasuries” because futures are a leveraged product: If you buy $100 of Bitcoin futures, you probably put up about $30 of cash to collateralize that bet, and then you post more cash (or get some back) as Bitcoin prices move. The ETF wants to be unlevered, so it will raise $100 from investors, put $30 in the collateral account, and keep the other $70 in cash or whatever. We discussed these mechanics 
+
+  [1] I say “park it in cash or Treasuries” because futures are a leveraged product: If you buy $100 of Bitcoin futures, you probably put up about $30 of cash to collateralize that bet, and then you post more cash (or get some back) as Bitcoin prices move. The ETF wants to be unlevered, so it will raise $100 from investors, put $30 in the collateral account, and keep the other $70 in cash or whatever. We discussed these mechanics
 back in 2021.
 
 
@@ -239,48 +239,48 @@ back in 2021.
   [7] Well, bribes and travel agency fees. A lot of that $1 million didn’t really go to the clients in the form of bribery/tourism but was wasted on travel agents and running educational activities that the clients didn’t go to.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjdlug.5imt/acf14dc3.gif" alt="" border="0" /></a>

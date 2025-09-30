@@ -23,7 +23,7 @@ def test_podcast_processing():
     try:
         from helpers.podcast_ingestor import PodcastIngestor
         from helpers.config import load_config
-        
+
         config = load_config()
         ingestor = PodcastIngestor(config)
         print("✅ Podcast ingestor working")
@@ -57,22 +57,22 @@ def main():
     """Run all core functionality tests"""
     print("🧪 Testing Atlas Core Functionality")
     print("=" * 40)
-    
+
     tests = [
         test_article_processing,
         test_podcast_processing,
         test_search_functionality,
         test_api_functionality
     ]
-    
+
     passed = 0
     for test in tests:
         if test():
             passed += 1
-    
+
     print("=" * 40)
     print(f"Results: {passed}/{len(tests)} tests passed")
-    
+
     if passed == len(tests):
         print("🎉 All core functionality tests passed!")
         return 0

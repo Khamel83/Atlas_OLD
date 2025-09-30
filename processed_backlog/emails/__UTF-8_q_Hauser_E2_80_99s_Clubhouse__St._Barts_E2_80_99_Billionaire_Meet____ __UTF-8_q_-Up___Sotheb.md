@@ -123,7 +123,7 @@ give the art experience authenticity and appeal. 
 In the meantime, Mrs. Wallpower, the art advisor, and I spent several hours entertained by a charming bartender and taking side-eye notes on the handsy couple seated next to us. If I’m being honest, the bar seemed more lively than the restaurant. And the overall effect of so much art, and so many art-based design objects, crammed into one experience could come across as
 contrived. That said, when I messaged the art advisor to find out what she thought, she told me she was going back again this week to try the food. 
 
- 
+
 
 Endnotes…
 -----------
@@ -206,6 +206,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUONuoVTRaYcYLqAMQcD0=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F5%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F22%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

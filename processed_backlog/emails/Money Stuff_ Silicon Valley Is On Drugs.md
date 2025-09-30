@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Uh, I don’t know, here’s one model for tech startups and venture capital: Most of the returns to venture capital come from making early-stag
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The lifestyle
-    
-  
+
+
 
 Uh, I don’t know, here’s one model for tech startups and venture capital:
 	Most of the returns to venture capital come from making early-stage investments in companies that go on to change the world in radical and unexpected ways.	Therefore, if you are a VC, you should make risky investments in visionary entrepreneurs with wild ideas: Many won’t work out, and  some will be frauds, but one or two might hit it big, and the path to success is having one or two radical world-changing companies. 	Therefore, if you are a tech entrepreneur, you should try to come across as a wild-eyed visionary, because VCs (correctly) look for that and will give you money.	Therefore, if you are a tech entrepreneur, you should take hallucinogenic drugs, in order to (1) be able to visualize an improbable future and (2) be kind of weird to talk to.	If you are a tech venture capitalist, you should also take hallucinogenic drugs, in order to get on the wavelength of the visionary entrepreneurs.
@@ -87,37 +87,37 @@ Silicon Valley has long had a tolerance toward drug use—many companies don’t
 Your general model might be that early-stage startup investing is about identifying visionary ideas people, and mature-public-company governance is about making sure that companies are run by responsible adults, and it is not always the case that the visionary ideas people are (or grow up to be) the responsible adults. There is a transition, between early-stage and mature companies, that might require a change of personnel or at least a change of behavior. The hallucinogens might be required for the ideas people and forbidden for the responsible adults. If you are a certain sort of tech founder you might start taking hallucinogens because your board of directors loves them, and then later have to stop taking hallucinogens because your board of directors hates them.
 Also of course everything is securities fraud: Tesla Inc.’s 10-K says things like “We are highly dependent on the services of Elon Musk, Technoking of Tesla and our Chief Executive Officer” and discloses that “he does not devote his full time and attention to Tesla,” but it does not mention ketamine. Probably someone is going to sue about that eventually.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private credit
-    
-  
+
+
 
 Last year my friend Mary Childs  published a book about Bill Gross called The Bond King: How One Man Made a Market, Built an Empire, and Lost It All. The market that Gross built was the investment-grade bond market. In the olden days, when Gross started out, the way bonds worked was that companies sold bonds, and insurance companies bought them and held them to maturity.  Childs:
 
@@ -143,11 +143,11 @@ But unlike traditional insurers, alternative investment managers have been more 
 
 The big discovery in investment-grade credit in the 1970s was “bonds are liquid and fungible; let’s trade them to make more money.” The big discovery in investment-grade credit in the 2020s is “trading is overrated; we can make more money by doing our own structuring and getting paid for illiquidity.”
 
-  
-    
+
+
       Levered private credit
-    
-  
+
+
 
 Platt’s article also contains this quote from Apollo:
 “We made a bet on private investment grade,” Marc Rowan, Apollo’s chief executive, told a conference this month. “We are also a beneficiary of this de-banking of the world because the assets that we need ... were the kinds of things that used to go on to the balance sheets of banks, investment-grade private credit.”
@@ -184,11 +184,11 @@ The old model was that US regional banks made complicated loans that required a 
 
 The deposits are still used to make loans, but in a safer and more indirect way.
 
-  
-    
+
+
       Fun bank
-    
-  
+
+
 
 One banking service is that if you have $1,000 in your bank account and you go into your bank and ask to withdraw $100 they will hand you five $20 bills. This is not the service that, like, Jamie Dimon touts in his investor letter at the front of the annual report; it is neither glamorous nor lucrative.
   [1]
@@ -207,11 +207,11 @@ Also:
 
 I am very curious what the “industry-leading technology” for sending physical dollar bills around the world is. Drones? Quantum teleportation? 
 
-  
-    
+
+
       Vivek Ramaswamy
-    
-  
+
+
 
 A general model would be:
 	If you found and run a biotech company and it develops a drug that cures Alzheimer’s disease, that will be worth, I dunno, pick a number, say $10 billion to you personally.	If you found and run a biotech company and it is developing a drug that has a 10% chance of curing Alzheimer’s disease, that is worth, in expectation, $1 billion to you personally. Once the clinical trials are completed, then it is worth either $0, with 90% probability, or $10 billion, with 10% probability, but before the trials its expected value is $1 billion.	If you can find someone to buy, say, 20% of your stake for $200 million, before the trials are completed, then you have $200 million no matter what.	If then the drug cures Alzheimer’s, you (1) have $8.2 billion and (2) cured Alzheimer’s, and you live out the rest of your days as a billionaire drug magnate, philanthropist, etc.	If the drug does not cure Alzheimer’s, you (1) have $200 million and (2) kind of need to find something else to do with your life. Run for president I guess?
@@ -219,60 +219,60 @@ A general model would be:
 Anyway here is  a New York Times article about Vivek Ramaswamy, who did not cure Alzheimer’s, but who did take a couple hundred million dollars off the table while running Roivant Sciences Ltd. and is now running for president. “In an interview, Mr. Ramaswamy said he cashed out only to make room for [another investor], not to hedge his bets ahead of intepirdine’s clinical trial,” but honestly I think it would be weird not to hedge your bets if you could. Ramaswamy’s upside, just before that clinical trial, was that he could be a billionaire who cured Alzheimer’s, his downside, after that sale, was that at least he could be a self-funded presidential candidate. Either way is fine! It’s a good hedge.
 (Disclosure: I think Ramaswamy  once asked me to write a book about him? “A spokeswoman for Ramaswamy’s campaign said he unsuccessfully tried to recruit Levine to join Roivant but doesn’t recall asking him to write a book.” Something like that, anyway.)
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Private-Equity Giants Settle for  Bite-Size Deals. US Truck Startup   Lordstown Files for Bankruptcy After Foxconn Deal Falls Through. Odey Asset Management  suspends flagship hedge funds. Senior Attorney Helped FTX Founder  Misuse Customer Funds, Report Says. Brookfield Makes $4.3 Billion Bid for Insurer   American Equity. China  censors financial blogger as economic recovery falters. Chinese Local Governments Used  Fake Property Deals to Boost Revenues. CFA   Level I Pass Rate Rises to 39%, Closer to Historic Average. Why High-Powered People Are  Working in Their 80s. Pickleball Injuries May Cost Americans Nearly $400 Million This Year, According to UBS. Gritty, the Phanatic, and other mascots helped  reopen I-95.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Though it is *kind of* similar to the famous business model of First Citiwide Change Bank.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj04y8.5ilz/14c48888.gif" alt="" border="0" /></a>

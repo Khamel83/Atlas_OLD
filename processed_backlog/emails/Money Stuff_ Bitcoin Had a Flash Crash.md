@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The US has about a dozen stock exchanges. Each stock trades on each stock exchange. Every so often the price of a stock on one exchange will
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bitcoin flash crash
-    
-  
+
+
 
 The US has about a dozen stock exchanges. Each stock trades on each stock exchange. Every so often the price of a stock on one exchange will be slightly lower than the price on another exchange. Books have been written about this fact, and people have made long and lucrative careers from it.
 But we are talking about small differences in the grand scheme of things. If I were to tell you “Apple Inc. stock has been trading at $174 per share on the NYSE Arca exchange for the last hour, but it’s been trading at $175 on Nasdaq the whole time,” you would not believe me; that is barely even a coherent sentence. For one thing, there are rules to prevent that. But also, I mean, this stuff is all on computers, and these prices are all visible, and there are people who have lucrative careers noticing any differences. If Apple was trading at $174 on Arca and at $175 on Nasdaq, those people would buy it on Arca and sell it on Nasdaq, making a risk-free instantaneous profit. And so many of them would do this so quickly that the prices would more or less instantly converge.
@@ -88,37 +88,37 @@ One possibility — as BitMEX says — is that this was attempted market manipu
 This incident had NO impact on our billion-dollar derivatives markets. It did not move mark prices, and no liquidations were triggered by it because our indices are independent and battle-tested.
 I suppose one other possibility is that it was a fat finger, or the equivalent: Someone owned a lot of Bitcoin on BitMEX and wanted to sell them. There are good ways to do that: Sell them slowly over time, maybe. Or withdraw them from BitMEX and deposit them on another exchange with a larger and more liquid spot market and more market makers, so your big sales will have less impact. But that takes time and effort; the Bitcoin market is not knitted together the way the stock market is. If you want to sell all your Bitcoins all at once on the exchange they happen to be on, that can cost you.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Yellow
-    
-  
+
+
 
 You could have a model like this:
 	Every company has a capital structure with an order of seniority. Secured debt generally gets paid first, followed by unsecured debt, followed by preferred stock, followed by common stock, etc.	Every so often, some weird event flips some part of the seniority, so that people who would normally get paid back first get pushed to the back of the line, and people who would normally be at the back of the line move up.	You should try to (1) anticipate (or cause!) those events, (2) buy the stuff that will move up and (3) avoid the stuff that will move down.
@@ -137,11 +137,11 @@ One way to think about this is my model above: Ordinarily, when it is a going co
 This is not the only model, though, and the pension funds and the US Pension Benefit Guarantee Corp. hotly dispute it. The dispute is actually kind of weird. Yellow’s unionized drivers are members of various large, union, multiemployer pensions; those pensions are underfunded; and Yellow had contractual obligations to contribute to those pensions. If it stopped doing so and withdrew from the pensions, it would have to put in additional money to cover the underfunded pension liabilities, and those withdrawal liabilities could be as much as $6.5 billion, Yellow itself estimated. It went bankrupt in large part because of a dispute with its unions over these pensions, so it stopped contributing in bankruptcy and the pensions filed claims for the withdrawal liability.
 But in 2021, the US government bailed out the pension funds as part of the American Rescue Plan. Now they have plenty of money, so Yellow argues that they are not underfunded, so it should have no withdrawal liability: “[The pensions] cannot ignore the [ARP bailout] or feign a need to allocate to the Debtors an attributable share of [unfunded vested benefits] that do not exist, at the expense of the Debtors’unsecured creditors and equity holders.” The pensions, and the PBGC — the government agency that insures pensions — argue, in effect, “oh come on it could not possibly work that way, you can’t get out of your pension obligations because of a government bailout of those pensions.” But it’s worth a shot!
 
-  
-    
+
+
       Team lift
-    
-  
+
+
 
 Famously, financial services firms are places where “the assets leave in the elevators each evening.” I mean, this is a thing that you say if you work in financial services. It is flattering to you. It is not always entirely true. If you work in, like, private credit, arguably a lot of the assets are loans. Billions of dollars of loans, which do not take the elevator. Perhaps you run a fund, though, and the loans are on the balance sheet of the fund, and your firm’s assets are just you and some fees. Anyway you’re still pretty important.
 How important? One possible answer is, like, “if an acquirer wanted to buy your firm, it would pay a premium to the value of the loans in order to get you and your talents and relationships and deal pipeline.” An even more flattering answer is “if an acquirer wanted to buy your firm, it wouldn’t: It would just hire you, because you are the main asset. The loans would follow, or not, but they’re a commodity and not that important; what matters is the people.”
@@ -169,11 +169,11 @@ On the morning of March 9, Mr. Weightman again emailed Mr. Crandall threatening 
 
 Once you have the people, the loans are worth pennies on the dollar. Barings argues that its former employees are breaching their non-solicitation and confidentiality agreements, and you get a sense of how important those agreements are. If the value of the business is just in the employees’ knowledge and relationships, and they can take that knowledge and those relationships with them, then what else did Barings own? 
 
-  
-    
+
+
       Shareholder Commons
-    
-  
+
+
 
 Ahh I love these guys, I sometimes think that they are just in business to entertain me:
 
@@ -184,15 +184,15 @@ The theory here is that if you are a broadly diversified shareholder, and you o
 One of the proposals we flag asks the Board of Alphabet (GOOG; GOOGL) to address risks from the use of artificial intelligence. Rather than simply arguing that this will lead to higher returns at Alphabet itself, the proponent argues, “We believe that shareholders, many of whom are widely diversified and may feel the impacts of the potential negative externalities of Alphabet’s AI activities throughout their investment portfolios, would benefit from improved oversight.” Another asks Shell PLC to align its greenhouse gas emissions targets with the goal of the Paris Agreement, arguing that “[a] vote for this proposal is warranted by investors who seek to ensure a long-term future for the Company and to protect the value of their entire investment portfolios.”
 I mean it’s probably the case that powerful artificial intelligence will put some companies out of business? Is that Alphabet’s problem? Not in a traditional sense, but arguably it is Alphabet’s shareholders’ problem. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Reddit, Shareholders Guide IPO Price at Top of Range or Above. Russian jet insurance dispute. How Hertz’s bets on Tesla and a Goldman veteran veered off course. Sam Bankman-Fried Says 50-Year Sentence Only Suitable for a ‘Super Villain.’ The Era of No-Brainer 5% Returns on Cash Is Ending. George Lucas Endorses Disney and CEO Bob Iger in Proxy Fight: ‘Creating Magic Is Not for Amateurs.’ Sports Illustrated Finds Publisher for Print Edition. U.S. No Longer Ranks Among World’s 20 Happiest Countries. Bentley Buyers Are Splashing Out €39,000 on Options for Each Car. Real estate agent accidentally burned down house ahead of open house.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Even that is an exaggeration; if you're a big trading firm, probably you park much less of your cash at your broker, and the broker extends you credit so you can settle your trades.
 
 
@@ -202,48 +202,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Here’s BitMEX’s table of how it calculates index prices, many of which assign zero weight to its own spot market.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -254,46 +254,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckox0y.5lo2/9b7fb461.gif" alt="" border="0" /></a>

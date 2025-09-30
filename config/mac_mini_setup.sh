@@ -18,7 +18,7 @@ ATLAS_HOME="$HOME/atlas_transcription"
 QUEUE_DIR="$ATLAS_HOME/transcription_queue"
 echo "📁 Creating directories..."
 mkdir -p "$QUEUE_DIR/incoming"
-mkdir -p "$QUEUE_DIR/processed" 
+mkdir -p "$QUEUE_DIR/processed"
 mkdir -p "$QUEUE_DIR/failed"
 
 # Install Homebrew if not present
@@ -55,7 +55,7 @@ cat > "$ATLAS_HOME/.env" << EOF
 ATLAS_URL=http://192.168.1.100:8000
 # ATLAS_API_KEY=your_api_key_here
 
-# Transcription Settings  
+# Transcription Settings
 WHISPER_MODEL=base
 WHISPER_LANGUAGE=en
 EOF

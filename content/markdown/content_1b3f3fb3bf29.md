@@ -17,7 +17,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
-		        
+
 <meta property="og:site_name" content="PenguinRandomhouse.com"/>
 <meta property="fb:app_id" content="356679881167712"/>
 <meta name="twitter:card" content="summary"/>
@@ -148,7 +148,7 @@ max-width: 350px;
 				padding: 0 13px;
 				white-space: nowrap;
 			}
-		
+
 </style>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?ver=3.7.1" id="jquery-js"></script>
 <script type="text/javascript" src="https://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/slick.min.js?ver=1.6.0" id="slick-js"></script>
@@ -158,9 +158,9 @@ max-width: 350px;
 <link rel='canonical' href='https://www.penguinrandomhouse.com/books/605905/fair-play-reeses-book-club-by-eve-rodsky/' />
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'https://www.penguinrandomhouse.com/books/605905/fair-play-reeses-book-club-by-eve-rodsky/';</script>
 	<link rel="stylesheet" href="https://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20250915041923" media="all" />
-<script><!-- 
+<script><!--
 	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"605905"};
- 
+
 --></script>	<script type="text/javascript">
 		window.cartUrl='https://cart.penguinrandomhouse.com';
 		window.piiUrl='https://account.penguinrandomhouse.com';
@@ -187,11 +187,11 @@ max-width: 350px;
               </div>
                           </div>
                   </a>
-              
-	
+
+
 	<!-- Start Tealium tag -->
 	<script type="text/javascript">
-        
+
 var utag_data={"page_name":"Fair Play: Reese's Book Club by Eve Rodsky: 9780525541943 | PenguinRandomHouse.com: Books","code_release_version":"cb20250915041923","product_list_price":[20],"product_isbn":[9780525541943],"product_title":["Fair Play: Reese's Book Club"],"product_author":["Eve Rodsky"],"product_author_id":["2194830"],"retailer_link_present":"yes","page_type":"Product Detail Page","product_imprint":["G.P. Putnam's Sons"],"product_format":["Paperback"],"product_work_id":["605905"],"product_category":["Business | Nonfiction"],"product_division":["Penguin Adult HC\/TR"],"auth_count":1,"module_type":["authordetail","contributorblock"],"module_variation":"Load","module_present":"cartbutton,audiowidget,lookinside,readexcerpt","pdp_dropdown":"Book Description, Praise, Product Details","event_type":"recommendation_load","ip_country":"US","website_banner":"Get a FREE Books of the Moment sampler!"};
 (function() {
     const cookies = document.cookie.split( '; ');
@@ -650,7 +650,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
         </header>
       </div>
     </div> <!-- container END -->
-    
+
 	<!-- Start Main Page Wrap -->
 	<div id="main" class="page-wrap notransition">
 		<!-- Start Mobile Sidebar -->
@@ -696,12 +696,12 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 							<div class="preview-look-inside full-button">
 					<button class="product-look-inside insight 9780525541943" data-workid="605905" data-isbn="9780525541943" data-title="Fair Play: Reese&#039;s Book Club" data-author="Eve Rodsky" data-frontlist="9780525541943"><img decoding="async" src="/wp-content/themes/penguinrandomhouse/images/pdp/magnifier.svg" class="product-preview" aria-hidden="true" alt=""> Look Inside</button>
 				</div>
-							
+
 			<script>
    $(document).ready(function(){
         $.ajax({url: "/ajaxc/audio/b6b61b85d15cfc959f3217996499b4e5ee50c8ad2f3131b125c37c7ad169dfb9-9780593107096", success: function(result){
             View.Utils.audioPlayer('.preview-audio-player', result, 'Product Detail Page');
-        }}); 
+        }});
    });
 </script>
 
@@ -725,7 +725,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
                             <h1>Fair Play: Reese&#039;s Book Club</h1>
                             <p role="doc-subtitle" class="subtitle isbn-related 9780525541943">A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)</p><p role="doc-subtitle" class="subtitle isbn-related 9780525541950">A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)</p><p role="doc-subtitle" class="subtitle isbn-related 9780593107096">A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)</p>                        </header>
                         <div class="contrib-wrap"><h2 class="contributors isbn-related 9780525541943 show"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/2194830/eve-rodsky/" >Eve Rodsky</a></span></span></h2><h2 class="contributors isbn-related 9780525541950"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/2194830/eve-rodsky/" >Eve Rodsky</a></span></span></h2><h2 class="contributors isbn-related 9780593107096"><span class="contributor">By <span class="ws-nw role-A"><a href="/authors/2194830/eve-rodsky/" >Eve Rodsky</a></span></span><span class="contributor">Read by <span class="ws-nw role-4"><a href="/authors/2194830/eve-rodsky/" >Eve Rodsky</a></span></span></h2></div>                        				    </div>
-				    
+
 <div class="slot product-format">
   <div id="lylty_bluebox_wrap"></div>
   <div id="mobileList">
@@ -1008,7 +1008,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 </div>
 
 <div id="bottom_facade">
-	
+
 <div class="drawer-container-pdp">
       <div id="bookdescription" class="drawer 9780525541943 isbn-related show">
       <h3 class="drawer-header">
@@ -1033,7 +1033,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
             <h4 class="drawer-sidebar-header">Related Genres</h4>
             <div class="book-description-genres">
                                                   <a class="drawer-link" href="/books/business" tabindex="0">Business </a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1062,7 +1062,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
             <h4 class="drawer-sidebar-header">Related Genres</h4>
             <div class="book-description-genres">
                                                   <a class="drawer-link" href="/books/self-improvement-inspiration" tabindex="0">Self-Improvement &#038; Inspiration</a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1092,7 +1092,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
             <div class="book-description-genres">
                                                   <a class="drawer-link" href="/books/self-improvement-inspiration" tabindex="0">Self-Improvement &#038; Inspiration</a>
                                     <a class="drawer-link" href="/books/audiobooks" tabindex="0">Audiobooks</a>
-                  
+
             </div>
           </div>
                   </div>
@@ -1120,8 +1120,8 @@ if ( window.location.search.includes( 'cdi=' ) ) {
       </div>
     </div>
   </div>
-  
-  
+
+
           <div id="productdetails" class="drawer 9780525541943 isbn-related show">
           <h3 class="drawer-header">
             <button class="drawer-toggle" type="button" aria-expanded="false" aria-controls="drawer-product-details-9780525541943" tabindex="0">
@@ -1183,10 +1183,10 @@ if ( window.location.search.includes( 'cdi=' ) ) {
             </div>
           </div>
         </div>
-          
-  
+
+
     <div class="container-end"></div>
-</div>	
+</div>
 <div id="pdp-content-blocks" class="pdp-outer-content-blocks">
     <div class="pdp-content-blocks">
                     <div class="pdp-content-block content-block-border pdp-contrib-spotlight-block">
@@ -1271,7 +1271,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Find Your Unicorn Space</h3>
 				<div class="author">Eve Rodsky</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1312,7 +1312,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">The Five Elements</h3>
 				<div class="author">Dondi Dahlin</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1353,7 +1353,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Building a Life Worth Living</h3>
 				<div class="author">Marsha M. Linehan</div>
 				<div class="format">Paperback</div>
-				<div class="price">$21.00</div> 
+				<div class="price">$21.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1394,7 +1394,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">For Small Creatures Such as We</h3>
 				<div class="author">Sasha Sagan</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1435,7 +1435,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Wedding Blessings</h3>
 				<div class="author">June Cotner</div>
 				<div class="format">Hardcover</div>
-				<div class="price">$16.00</div> 
+				<div class="price">$16.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1476,7 +1476,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Auditioning</h3>
 				<div class="author">Joanna Merlin</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1517,7 +1517,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Get Empowered</h3>
 				<div class="author">Nadia Telsey</div>
 				<div class="format">Paperback</div>
-				<div class="price">$20.00</div> 
+				<div class="price">$20.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1558,7 +1558,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Mothering Without a Map</h3>
 				<div class="author">Kathryn Black</div>
 				<div class="format">Paperback</div>
-				<div class="price">$24.00</div> 
+				<div class="price">$24.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1599,7 +1599,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Bride&#8217;s Wedding Planner</h3>
 				<div class="author">Brides&#8217; Magazine Editors</div>
 				<div class="format">Paperback</div>
-				<div class="price">$22.00</div> 
+				<div class="price">$22.00</div>
 			</div>
 		</div>
 				<div class="element-wrapper ">
@@ -1640,7 +1640,7 @@ if ( window.location.search.includes( 'cdi=' ) ) {
 				<h3 class="title">Who Moved My Cheese?</h3>
 				<div class="author">Spencer Johnson</div>
 				<div class="format">Hardcover</div>
-				<div class="price">$27.00</div> 
+				<div class="price">$27.00</div>
 			</div>
 		</div>
 			</div>

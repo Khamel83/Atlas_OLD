@@ -87,67 +87,67 @@
 <meta property="og:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0247073.t003&size=inline"/>
 
 <meta name="citation_reference" content="World Health Organization. Global Health Estimates 2016: Deaths by Cause, Age, Sex, by Country and by Region, 2000–2016. 2018 [Available from:  https://www.who.int/healthinfo/global_burden_disease/estimates/en/index.html . Accessed: 2021 January 15."/>
-<meta name="citation_reference" content="citation_title=Sugar highs and lows: the impact of diet on cognitive function;citation_author=JN Barnes;citation_author=MJ Joyner;citation_journal_title=J Physiol;citation_volume=590;citation_number=590;citation_issue=12;citation_first_page=2831;citation_publication_date=2012;"/>    
-<meta name="citation_reference" content="citation_title=Risk factors for suicide and attempted suicide among young people.;citation_author=AL Beautrais;citation_journal_title=Aust N Z J Psychiatry;citation_volume=34;citation_number=34;citation_issue=3;citation_first_page=420;citation_last_page=36;citation_publication_date=2000;"/>    
-<meta name="citation_reference" content="citation_title=Suicidal Behavior in Juvenile Delinquents: The Role of ADHD and Other Comorbid Psychiatric Disorders.;citation_author=V Ruchkin;citation_author=RA Koposov;citation_author=A Koyanagi;citation_author=A Stickley;citation_journal_title=Child Psychiatry Hum Dev.;citation_volume=48;citation_number=48;citation_issue=5;citation_first_page=691;citation_last_page=8;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=Sugar intake from sweet food and beverages, common mental disorder and depression: prospective findings from the Whitehall II study.;citation_author=A Knüppel;citation_author=MJ Shipley;citation_author=CH Llewellyn;citation_author=EJ Brunner;citation_journal_title=Sci Rep;citation_volume=7;citation_number=7;citation_issue=1;citation_first_page=6287;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=Habitual sugar intake and cognitive impairment among multi-ethnic Malaysian older adults.;citation_author=CP Chong;citation_author=S Shahar;citation_author=H Haron;citation_author=NC Din;citation_journal_title=Clin Interv Aging;citation_volume=14;citation_number=14;citation_first_page=1331;citation_last_page=42;citation_publication_date=2019;"/>    
-<meta name="citation_reference" content="citation_title=Protracted motivational dopamine-related deficits following adolescence sugar overconsumption;citation_author=F Naneix;citation_author=F Darlot;citation_author=V De Smedt-Peyrusse;citation_author=JR Pape;citation_author=E Coutureau;citation_author=M Cador;citation_journal_title=Neuropharmacology;citation_volume=129;citation_number=129;citation_first_page=16;citation_last_page=25;citation_publication_date=2018;"/>    
-<meta name="citation_reference" content="citation_title=The impact of sugar consumption on stress driven, emotional and addictive behaviors.;citation_author=A Jacques;citation_author=N Chaaya;citation_author=K Beecher;citation_author=SA Ali;citation_author=A Belmer;citation_author=S Bartlett;citation_journal_title=Neurosci Biobehav Rev;citation_volume=103;citation_number=103;citation_first_page=178;citation_last_page=99;citation_publication_date=2019;"/>    
-<meta name="citation_reference" content="citation_title=A cross-national relationship between sugar consumption and major depression?;citation_author=AN Westover;citation_author=LB Marangell;citation_journal_title=Depress Anxiety;citation_volume=16;citation_number=16;citation_issue=3;citation_first_page=118;citation_last_page=20;citation_publication_date=2002;"/>    
-<meta name="citation_reference" content="citation_title=Effects of sucrose and high fructose corn syrup consumption on spatial memory function and hippocampal neuroinflammation in adolescent rats.;citation_author=TM Hsu;citation_author=VR Konanur;citation_author=L Taing;citation_author=R Usui;citation_author=BD Kayser;citation_author=MI Goran;citation_journal_title=Hippocampus;citation_volume=25;citation_number=25;citation_issue=2;citation_first_page=227;citation_last_page=39;citation_publication_date=2015;"/>    
-<meta name="citation_reference" content="citation_title=Epidemiology of Suicide and the Psychiatric Perspective.;citation_author=S Bachmann;citation_journal_title=Int J Environ Res Public Health;citation_volume=15;citation_number=15;citation_issue=7;citation_publication_date=2018;"/>    
-<meta name="citation_reference" content="citation_title=The effects of oral health on systemic health.;citation_author=SF Kane;citation_journal_title=Gen Dent;citation_volume=65;citation_number=65;citation_issue=6;citation_first_page=30;citation_last_page=4;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=Symptoms of depression and anxiety in relation to dental health behavior and self-perceived dental treatment need;citation_author=S Anttila;citation_author=M Knuuttila;citation_author=P Ylöstalo;citation_author=M Joukamaa;citation_journal_title=Eur J Oral Sci;citation_volume=114;citation_number=114;citation_issue=2;citation_first_page=109;citation_last_page=14;citation_publication_date=2006;"/>    
-<meta name="citation_reference" content="citation_title=Oral health condition and occurrence of depression in the elderly.;citation_author=K Skośkiewicz-Malinowska;citation_author=B Malicka;citation_author=M Ziętek;citation_author=U Kaczmarek;citation_journal_title=Medicine (Baltimore).;citation_volume=97;citation_number=97;citation_issue=41;citation_first_page=e12490;citation_publication_date=2018;"/>    
-<meta name="citation_reference" content="citation_title=Oral health and social and emotional well-being in a birth cohort of Aboriginal Australian young adults.;citation_author=LM Jamieson;citation_author=YC Paradies;citation_author=W Gunthorpe;citation_author=SJ Cairney;citation_author=SM Sayers;citation_journal_title=BMC Public Health;citation_volume=11;citation_number=11;citation_first_page=656;citation_publication_date=2011;"/>    
-<meta name="citation_reference" content="citation_title=No Mental Health without Oral Health;citation_author=S Kisely;citation_journal_title=Can J Psychiatry;citation_volume=61;citation_number=61;citation_issue=5;citation_first_page=277;citation_last_page=82;citation_publication_date=2016;"/>    
-<meta name="citation_reference" content="citation_title=Depression, self-defeating, and self-destructive behaviors as predictors of suicide ideation in males and females.;citation_author=LM Hopes;citation_author=A Williams;citation_journal_title=Psychol Rep;citation_volume=84;citation_number=84;citation_issue=1;citation_first_page=63;citation_last_page=6;citation_publication_date=1999;"/>    
-<meta name="citation_reference" content="citation_title=Association of stress, depression, and suicidal ideation with subjective oral health status and oral functions in Korean adults aged 35 years or more.;citation_author=YS Kim;citation_author=HN Kim;citation_author=JH Lee;citation_author=SY Kim;citation_author=EJ Jun;citation_author=JB Kim;citation_journal_title=BMC Oral Health;citation_volume=17;citation_number=17;citation_issue=1;citation_first_page=101;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=The health and wellbeing of young people in sub-Saharan Africa: an under-researched area?;citation_author=CW Kabiru;citation_author=CO Izugbara;citation_author=D Beguy;citation_journal_title=BMC Int Health Hum Rights;citation_volume=13;citation_number=13;citation_first_page=11;citation_publication_date=2013;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence and factors associated with depression symptoms among school-going adolescents in Central Uganda.;citation_author=J Nalugya-Sserunjogi;citation_author=GZ Rukundo;citation_author=E Ovuga;citation_author=SM Kiwuwa;citation_author=S Musisi;citation_author=E Nakimuli-Mpungu;citation_journal_title=Child Adolesc Psychiatry Ment Health;citation_volume=10;citation_number=10;citation_first_page=39;citation_publication_date=2016;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence of child mental health problems in sub-Saharan Africa: a systematic review.;citation_author=MA Cortina;citation_author=A Sodha;citation_author=M Fazel;citation_author=PG Ramchandani;citation_journal_title=Arch Pediatr Adolesc Med;citation_volume=166;citation_number=166;citation_issue=3;citation_first_page=276;citation_last_page=81;citation_publication_date=2012;"/>    
-<meta name="citation_reference" content="citation_title=Gender differences in suicidal ideations and attempts among secondary school students in Ile-Ife, Nigeria.;citation_author=B Mapayi;citation_author=O Olakunle;citation_author=R Osilaja;citation_author=B Oyebode;citation_author=M Ogunyemi;citation_author=O Adewole;citation_journal_title=African Journal of Gender and Development;citation_volume=3;citation_number=3;citation_issue=1;citation_first_page=40;citation_last_page=56;citation_publication_date=2016;"/>    
-<meta name="citation_reference" content="citation_title=The profile and risks of suicidal behaviours in the Nigerian Survey of Mental Health and Well-Being.;citation_author=O Gureje;citation_author=L Kola;citation_author=R Uwakwe;citation_author=O Udofia;citation_author=A Wakil;citation_author=E Afolabi;citation_journal_title=Psychol Med;citation_volume=37;citation_number=37;citation_issue=6;citation_first_page=821;citation_last_page=30;citation_publication_date=2007;"/>    
-<meta name="citation_reference" content="citation_title=Factors associated with depressive symptoms and suicidal ideation and behaviours amongst sub-Saharan African adolescents aged 10–19 years: cross-sectional study;citation_author=A Nyundo;citation_author=A Manu;citation_author=M Regan;citation_author=A Ismail;citation_author=A Chukwu;citation_author=Y Dessie;citation_journal_title=Trop Med Int Health;citation_volume=25;citation_number=25;citation_issue=1;citation_first_page=54;citation_last_page=69;citation_publication_date=2020;"/>    
-<meta name="citation_reference" content="citation_title=Relationship of oral hygiene and sugar consumption to risk of caries in children.;citation_author=E Kleemola-Kujala;citation_author=L Räsänen;citation_journal_title=Community Dent Oral Epidemiol;citation_volume=10;citation_number=10;citation_issue=5;citation_first_page=224;citation_last_page=33;citation_publication_date=1982;"/>    
-<meta name="citation_reference" content="citation_title=The State of Oral Health on the African Continent:;citation_author=ME Josefczyk;citation_publication_date=2015;citation_publisher=Liberty University"/>    
-<meta name="citation_reference" content="citation_title=Prevalence of dental caries and oral hygiene status of a screened population in Port Harcourt, Rivers State, Nigeria.;citation_author=AA Olabisi;citation_author=UA Udo;citation_author=UG Ehimen;citation_author=BO Bashiru;citation_author=OO Gbenga;citation_author=AO Adeniyi;citation_journal_title=J Int Soc Prev Community Dent.;citation_volume=5;citation_number=5;citation_issue=1;citation_first_page=59;citation_last_page=63;citation_publication_date=2015;"/>    
-<meta name="citation_reference" content="citation_title=The will and the ways: development and validation of an individual-differences measure of hope;citation_author=CR Snyder;citation_author=C Harris;citation_author=JR Anderson;citation_author=SA Holleran;citation_author=LM Irving;citation_author=ST Sigmon;citation_journal_title=J Pers Soc Psychol;citation_volume=60;citation_number=60;citation_issue=4;citation_first_page=570;citation_last_page=85;citation_publication_date=1991;"/>    
-<meta name="citation_reference" content="citation_title=Hopelessness, depression, suicidal ideation, and clinical diagnosis of depression.;citation_author=AT Beck;citation_author=RA Steer;citation_author=JS Beck;citation_author=CF Newman;citation_journal_title=Suicide Life Threat Behav;citation_volume=23;citation_number=23;citation_issue=2;citation_first_page=139;citation_last_page=45;citation_publication_date=1993;"/>    
-<meta name="citation_reference" content="citation_title=Levels of hopelessness in children and adolescents: a developmental perspective.;citation_author=JH Kashani;citation_author=JC Reid;citation_author=TK Rosenberg;citation_journal_title=J Consult Clin Psychol;citation_volume=57;citation_number=57;citation_issue=4;citation_first_page=496;citation_last_page=9;citation_publication_date=1989;"/>    
-<meta name="citation_reference" content="citation_title=Hopelessness, depression, substance disorder, and suicidality—a 13-year community-based study.;citation_author=WH Kuo;citation_author=JJ Gallo;citation_author=WW Eaton;citation_journal_title=Soc Psychiatry Psychiatr Epidemiol;citation_volume=39;citation_number=39;citation_issue=6;citation_first_page=497;citation_last_page=501;citation_publication_date=2004;"/>    
-<meta name="citation_reference" content="citation_title=Research methodology with statistics for health and social sciences;citation_author=M Araoye;citation_author=Nigeria Ilorin;citation_publication_date=2008;citation_publisher=Nathadex Publications"/>    
-<meta name="citation_reference" content="citation_title=Dental caries in 12-year-old suburban Nigerian school children.;citation_author=CA Adekoya-Sofowora;citation_author=WO Nasir;citation_author=AO Oginni;citation_author=M Taiwo;citation_journal_title=Afr Health Sci;citation_volume=6;citation_number=6;citation_issue=3;citation_first_page=145;citation_last_page=50;citation_publication_date=2006;"/>    
-<meta name="citation_reference" content="citation_title=Differences in use of contraception by age, sex and HIV status of 10-19-year-old adolescents in Nigeria.;citation_author=MO Folayan;citation_author=M Odetoyinbo;citation_author=A Harrison;citation_journal_title=Int J Adolesc Med Health.;citation_volume=29;citation_number=29;citation_issue=4;citation_publication_date=2015;"/>    
-<meta name="citation_reference" content="citation_title=The Suicidal Behaviors Questionnaire-Revised (SBQ-R): validation with clinical and nonclinical samples.;citation_author=A Osman;citation_author=CL Bagge;citation_author=PM Gutierrez;citation_author=LC Konick;citation_author=BA Kopper;citation_author=FX Barrios;citation_journal_title=Assessment;citation_volume=8;citation_number=8;citation_issue=4;citation_first_page=443;citation_last_page=54;citation_publication_date=2001;"/>    
-<meta name="citation_reference" content="citation_title=A review of suicide assessment measures for intervention research with adults and older adults;citation_author=GK Brown;citation_journal_title=A review of suicide assessment measures for intervention research with adults and older adults;citation_publication_date=2001;"/>    
-<meta name="citation_reference" content="citation_title=Psychometric properties of the Suicidal Behaviors Questionnaire.;citation_author=CR Cotton;citation_author=DK Peters;citation_author=LM Range;citation_journal_title=Death Stud;citation_volume=19;citation_number=19;citation_issue=4;citation_first_page=391;citation_last_page=7;citation_publication_date=1995;"/>    
-<meta name="citation_reference" content="citation_title=The psychometric characteristics of the 4-item Suicidal Behaviors Questionnaire-Revised (SBQ-R) as a screening tool in a non-clinical sample of Nigerian university students.;citation_author=O Aloba;citation_author=O Ojeleye;citation_author=T Aloba;citation_journal_title=Asian J Psychiatr;citation_volume=26;citation_number=26;citation_first_page=46;citation_last_page=51;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=The Gingival Index, the Plaque Index and the Retention Index Systems.;citation_author=H Löe;citation_journal_title=J Periodontol.;citation_volume=38;citation_number=38;citation_issue=6;citation_first_page=610;citation_last_page=6;citation_publication_date=1967;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence and associated factors for suicidal ideation in the Lagos State Mental Health Survey, Nigeria.;citation_author=AO Adewuya;citation_author=BA Ola;citation_author=OA Coker;citation_author=O Atilola;citation_author=MP Zachariah;citation_author=O Olugbile;citation_journal_title=BJPsych Open;citation_volume=2;citation_number=2;citation_issue=6;citation_first_page=385;citation_last_page=9;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=Sugar highs and lows: the impact of diet on cognitive function;citation_author=JN Barnes;citation_author=MJ Joyner;citation_journal_title=J Physiol;citation_volume=590;citation_number=590;citation_issue=12;citation_first_page=2831;citation_publication_date=2012;"/>
+<meta name="citation_reference" content="citation_title=Risk factors for suicide and attempted suicide among young people.;citation_author=AL Beautrais;citation_journal_title=Aust N Z J Psychiatry;citation_volume=34;citation_number=34;citation_issue=3;citation_first_page=420;citation_last_page=36;citation_publication_date=2000;"/>
+<meta name="citation_reference" content="citation_title=Suicidal Behavior in Juvenile Delinquents: The Role of ADHD and Other Comorbid Psychiatric Disorders.;citation_author=V Ruchkin;citation_author=RA Koposov;citation_author=A Koyanagi;citation_author=A Stickley;citation_journal_title=Child Psychiatry Hum Dev.;citation_volume=48;citation_number=48;citation_issue=5;citation_first_page=691;citation_last_page=8;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=Sugar intake from sweet food and beverages, common mental disorder and depression: prospective findings from the Whitehall II study.;citation_author=A Knüppel;citation_author=MJ Shipley;citation_author=CH Llewellyn;citation_author=EJ Brunner;citation_journal_title=Sci Rep;citation_volume=7;citation_number=7;citation_issue=1;citation_first_page=6287;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=Habitual sugar intake and cognitive impairment among multi-ethnic Malaysian older adults.;citation_author=CP Chong;citation_author=S Shahar;citation_author=H Haron;citation_author=NC Din;citation_journal_title=Clin Interv Aging;citation_volume=14;citation_number=14;citation_first_page=1331;citation_last_page=42;citation_publication_date=2019;"/>
+<meta name="citation_reference" content="citation_title=Protracted motivational dopamine-related deficits following adolescence sugar overconsumption;citation_author=F Naneix;citation_author=F Darlot;citation_author=V De Smedt-Peyrusse;citation_author=JR Pape;citation_author=E Coutureau;citation_author=M Cador;citation_journal_title=Neuropharmacology;citation_volume=129;citation_number=129;citation_first_page=16;citation_last_page=25;citation_publication_date=2018;"/>
+<meta name="citation_reference" content="citation_title=The impact of sugar consumption on stress driven, emotional and addictive behaviors.;citation_author=A Jacques;citation_author=N Chaaya;citation_author=K Beecher;citation_author=SA Ali;citation_author=A Belmer;citation_author=S Bartlett;citation_journal_title=Neurosci Biobehav Rev;citation_volume=103;citation_number=103;citation_first_page=178;citation_last_page=99;citation_publication_date=2019;"/>
+<meta name="citation_reference" content="citation_title=A cross-national relationship between sugar consumption and major depression?;citation_author=AN Westover;citation_author=LB Marangell;citation_journal_title=Depress Anxiety;citation_volume=16;citation_number=16;citation_issue=3;citation_first_page=118;citation_last_page=20;citation_publication_date=2002;"/>
+<meta name="citation_reference" content="citation_title=Effects of sucrose and high fructose corn syrup consumption on spatial memory function and hippocampal neuroinflammation in adolescent rats.;citation_author=TM Hsu;citation_author=VR Konanur;citation_author=L Taing;citation_author=R Usui;citation_author=BD Kayser;citation_author=MI Goran;citation_journal_title=Hippocampus;citation_volume=25;citation_number=25;citation_issue=2;citation_first_page=227;citation_last_page=39;citation_publication_date=2015;"/>
+<meta name="citation_reference" content="citation_title=Epidemiology of Suicide and the Psychiatric Perspective.;citation_author=S Bachmann;citation_journal_title=Int J Environ Res Public Health;citation_volume=15;citation_number=15;citation_issue=7;citation_publication_date=2018;"/>
+<meta name="citation_reference" content="citation_title=The effects of oral health on systemic health.;citation_author=SF Kane;citation_journal_title=Gen Dent;citation_volume=65;citation_number=65;citation_issue=6;citation_first_page=30;citation_last_page=4;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=Symptoms of depression and anxiety in relation to dental health behavior and self-perceived dental treatment need;citation_author=S Anttila;citation_author=M Knuuttila;citation_author=P Ylöstalo;citation_author=M Joukamaa;citation_journal_title=Eur J Oral Sci;citation_volume=114;citation_number=114;citation_issue=2;citation_first_page=109;citation_last_page=14;citation_publication_date=2006;"/>
+<meta name="citation_reference" content="citation_title=Oral health condition and occurrence of depression in the elderly.;citation_author=K Skośkiewicz-Malinowska;citation_author=B Malicka;citation_author=M Ziętek;citation_author=U Kaczmarek;citation_journal_title=Medicine (Baltimore).;citation_volume=97;citation_number=97;citation_issue=41;citation_first_page=e12490;citation_publication_date=2018;"/>
+<meta name="citation_reference" content="citation_title=Oral health and social and emotional well-being in a birth cohort of Aboriginal Australian young adults.;citation_author=LM Jamieson;citation_author=YC Paradies;citation_author=W Gunthorpe;citation_author=SJ Cairney;citation_author=SM Sayers;citation_journal_title=BMC Public Health;citation_volume=11;citation_number=11;citation_first_page=656;citation_publication_date=2011;"/>
+<meta name="citation_reference" content="citation_title=No Mental Health without Oral Health;citation_author=S Kisely;citation_journal_title=Can J Psychiatry;citation_volume=61;citation_number=61;citation_issue=5;citation_first_page=277;citation_last_page=82;citation_publication_date=2016;"/>
+<meta name="citation_reference" content="citation_title=Depression, self-defeating, and self-destructive behaviors as predictors of suicide ideation in males and females.;citation_author=LM Hopes;citation_author=A Williams;citation_journal_title=Psychol Rep;citation_volume=84;citation_number=84;citation_issue=1;citation_first_page=63;citation_last_page=6;citation_publication_date=1999;"/>
+<meta name="citation_reference" content="citation_title=Association of stress, depression, and suicidal ideation with subjective oral health status and oral functions in Korean adults aged 35 years or more.;citation_author=YS Kim;citation_author=HN Kim;citation_author=JH Lee;citation_author=SY Kim;citation_author=EJ Jun;citation_author=JB Kim;citation_journal_title=BMC Oral Health;citation_volume=17;citation_number=17;citation_issue=1;citation_first_page=101;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=The health and wellbeing of young people in sub-Saharan Africa: an under-researched area?;citation_author=CW Kabiru;citation_author=CO Izugbara;citation_author=D Beguy;citation_journal_title=BMC Int Health Hum Rights;citation_volume=13;citation_number=13;citation_first_page=11;citation_publication_date=2013;"/>
+<meta name="citation_reference" content="citation_title=Prevalence and factors associated with depression symptoms among school-going adolescents in Central Uganda.;citation_author=J Nalugya-Sserunjogi;citation_author=GZ Rukundo;citation_author=E Ovuga;citation_author=SM Kiwuwa;citation_author=S Musisi;citation_author=E Nakimuli-Mpungu;citation_journal_title=Child Adolesc Psychiatry Ment Health;citation_volume=10;citation_number=10;citation_first_page=39;citation_publication_date=2016;"/>
+<meta name="citation_reference" content="citation_title=Prevalence of child mental health problems in sub-Saharan Africa: a systematic review.;citation_author=MA Cortina;citation_author=A Sodha;citation_author=M Fazel;citation_author=PG Ramchandani;citation_journal_title=Arch Pediatr Adolesc Med;citation_volume=166;citation_number=166;citation_issue=3;citation_first_page=276;citation_last_page=81;citation_publication_date=2012;"/>
+<meta name="citation_reference" content="citation_title=Gender differences in suicidal ideations and attempts among secondary school students in Ile-Ife, Nigeria.;citation_author=B Mapayi;citation_author=O Olakunle;citation_author=R Osilaja;citation_author=B Oyebode;citation_author=M Ogunyemi;citation_author=O Adewole;citation_journal_title=African Journal of Gender and Development;citation_volume=3;citation_number=3;citation_issue=1;citation_first_page=40;citation_last_page=56;citation_publication_date=2016;"/>
+<meta name="citation_reference" content="citation_title=The profile and risks of suicidal behaviours in the Nigerian Survey of Mental Health and Well-Being.;citation_author=O Gureje;citation_author=L Kola;citation_author=R Uwakwe;citation_author=O Udofia;citation_author=A Wakil;citation_author=E Afolabi;citation_journal_title=Psychol Med;citation_volume=37;citation_number=37;citation_issue=6;citation_first_page=821;citation_last_page=30;citation_publication_date=2007;"/>
+<meta name="citation_reference" content="citation_title=Factors associated with depressive symptoms and suicidal ideation and behaviours amongst sub-Saharan African adolescents aged 10–19 years: cross-sectional study;citation_author=A Nyundo;citation_author=A Manu;citation_author=M Regan;citation_author=A Ismail;citation_author=A Chukwu;citation_author=Y Dessie;citation_journal_title=Trop Med Int Health;citation_volume=25;citation_number=25;citation_issue=1;citation_first_page=54;citation_last_page=69;citation_publication_date=2020;"/>
+<meta name="citation_reference" content="citation_title=Relationship of oral hygiene and sugar consumption to risk of caries in children.;citation_author=E Kleemola-Kujala;citation_author=L Räsänen;citation_journal_title=Community Dent Oral Epidemiol;citation_volume=10;citation_number=10;citation_issue=5;citation_first_page=224;citation_last_page=33;citation_publication_date=1982;"/>
+<meta name="citation_reference" content="citation_title=The State of Oral Health on the African Continent:;citation_author=ME Josefczyk;citation_publication_date=2015;citation_publisher=Liberty University"/>
+<meta name="citation_reference" content="citation_title=Prevalence of dental caries and oral hygiene status of a screened population in Port Harcourt, Rivers State, Nigeria.;citation_author=AA Olabisi;citation_author=UA Udo;citation_author=UG Ehimen;citation_author=BO Bashiru;citation_author=OO Gbenga;citation_author=AO Adeniyi;citation_journal_title=J Int Soc Prev Community Dent.;citation_volume=5;citation_number=5;citation_issue=1;citation_first_page=59;citation_last_page=63;citation_publication_date=2015;"/>
+<meta name="citation_reference" content="citation_title=The will and the ways: development and validation of an individual-differences measure of hope;citation_author=CR Snyder;citation_author=C Harris;citation_author=JR Anderson;citation_author=SA Holleran;citation_author=LM Irving;citation_author=ST Sigmon;citation_journal_title=J Pers Soc Psychol;citation_volume=60;citation_number=60;citation_issue=4;citation_first_page=570;citation_last_page=85;citation_publication_date=1991;"/>
+<meta name="citation_reference" content="citation_title=Hopelessness, depression, suicidal ideation, and clinical diagnosis of depression.;citation_author=AT Beck;citation_author=RA Steer;citation_author=JS Beck;citation_author=CF Newman;citation_journal_title=Suicide Life Threat Behav;citation_volume=23;citation_number=23;citation_issue=2;citation_first_page=139;citation_last_page=45;citation_publication_date=1993;"/>
+<meta name="citation_reference" content="citation_title=Levels of hopelessness in children and adolescents: a developmental perspective.;citation_author=JH Kashani;citation_author=JC Reid;citation_author=TK Rosenberg;citation_journal_title=J Consult Clin Psychol;citation_volume=57;citation_number=57;citation_issue=4;citation_first_page=496;citation_last_page=9;citation_publication_date=1989;"/>
+<meta name="citation_reference" content="citation_title=Hopelessness, depression, substance disorder, and suicidality—a 13-year community-based study.;citation_author=WH Kuo;citation_author=JJ Gallo;citation_author=WW Eaton;citation_journal_title=Soc Psychiatry Psychiatr Epidemiol;citation_volume=39;citation_number=39;citation_issue=6;citation_first_page=497;citation_last_page=501;citation_publication_date=2004;"/>
+<meta name="citation_reference" content="citation_title=Research methodology with statistics for health and social sciences;citation_author=M Araoye;citation_author=Nigeria Ilorin;citation_publication_date=2008;citation_publisher=Nathadex Publications"/>
+<meta name="citation_reference" content="citation_title=Dental caries in 12-year-old suburban Nigerian school children.;citation_author=CA Adekoya-Sofowora;citation_author=WO Nasir;citation_author=AO Oginni;citation_author=M Taiwo;citation_journal_title=Afr Health Sci;citation_volume=6;citation_number=6;citation_issue=3;citation_first_page=145;citation_last_page=50;citation_publication_date=2006;"/>
+<meta name="citation_reference" content="citation_title=Differences in use of contraception by age, sex and HIV status of 10-19-year-old adolescents in Nigeria.;citation_author=MO Folayan;citation_author=M Odetoyinbo;citation_author=A Harrison;citation_journal_title=Int J Adolesc Med Health.;citation_volume=29;citation_number=29;citation_issue=4;citation_publication_date=2015;"/>
+<meta name="citation_reference" content="citation_title=The Suicidal Behaviors Questionnaire-Revised (SBQ-R): validation with clinical and nonclinical samples.;citation_author=A Osman;citation_author=CL Bagge;citation_author=PM Gutierrez;citation_author=LC Konick;citation_author=BA Kopper;citation_author=FX Barrios;citation_journal_title=Assessment;citation_volume=8;citation_number=8;citation_issue=4;citation_first_page=443;citation_last_page=54;citation_publication_date=2001;"/>
+<meta name="citation_reference" content="citation_title=A review of suicide assessment measures for intervention research with adults and older adults;citation_author=GK Brown;citation_journal_title=A review of suicide assessment measures for intervention research with adults and older adults;citation_publication_date=2001;"/>
+<meta name="citation_reference" content="citation_title=Psychometric properties of the Suicidal Behaviors Questionnaire.;citation_author=CR Cotton;citation_author=DK Peters;citation_author=LM Range;citation_journal_title=Death Stud;citation_volume=19;citation_number=19;citation_issue=4;citation_first_page=391;citation_last_page=7;citation_publication_date=1995;"/>
+<meta name="citation_reference" content="citation_title=The psychometric characteristics of the 4-item Suicidal Behaviors Questionnaire-Revised (SBQ-R) as a screening tool in a non-clinical sample of Nigerian university students.;citation_author=O Aloba;citation_author=O Ojeleye;citation_author=T Aloba;citation_journal_title=Asian J Psychiatr;citation_volume=26;citation_number=26;citation_first_page=46;citation_last_page=51;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=The Gingival Index, the Plaque Index and the Retention Index Systems.;citation_author=H Löe;citation_journal_title=J Periodontol.;citation_volume=38;citation_number=38;citation_issue=6;citation_first_page=610;citation_last_page=6;citation_publication_date=1967;"/>
+<meta name="citation_reference" content="citation_title=Prevalence and associated factors for suicidal ideation in the Lagos State Mental Health Survey, Nigeria.;citation_author=AO Adewuya;citation_author=BA Ola;citation_author=OA Coker;citation_author=O Atilola;citation_author=MP Zachariah;citation_author=O Olugbile;citation_journal_title=BJPsych Open;citation_volume=2;citation_number=2;citation_issue=6;citation_first_page=385;citation_last_page=9;citation_publication_date=2016;"/>
 <meta name="citation_reference" content="citation_title=Social predictors of oral hygiene status in school children from suburban Nigeria.;citation_author=TA Oyedele;citation_author=MO Folayan;citation_author=NM Chukwumah;citation_author=NK Onyejaka;citation_journal_title=Braz Oral Res;citation_volume=33;citation_number=33;citation_first_page=e022;citation_publication_date=2019;"/>
 
 <meta name="citation_reference" content="Federal Ministry of Health Nigeria-National Health Research Ethics Committee. Policy Statement Regarding Enrollment of Children in Research in Nigeria 2016 [Available from:  http://nhrec.net/nhrec/Final%20NHREC%20Policy%20Statement%20on%20Enrollment%20of%20Children%20in%20Research.pdf . Accessed: 2021 January 15."/>
-<meta name="citation_reference" content="citation_title=Prevalence of depressive symptoms in university students from Germany, Denmark, Poland and Bulgaria.;citation_author=RT Mikolajczyk;citation_author=AE Maxwell;citation_author=W El Ansari;citation_author=V Naydenova;citation_author=C Stock;citation_author=S Ilieva;citation_journal_title=Soc Psychiatry Psychiatr Epidemiol;citation_volume=43;citation_number=43;citation_issue=2;citation_first_page=105;citation_last_page=12;citation_publication_date=2008;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence and factors associated with depressive symptoms among Yoruba adults in a semi-urban community in South-Western Nigeria.;citation_author=A Akinsulore;citation_author=O Esimai;citation_author=O Afolabi;citation_author=O Aloba;citation_author=B Mapayi;citation_journal_title=Journal of Behavioral Health;citation_volume=4;citation_number=4;citation_issue=3;citation_first_page=81;citation_last_page=6;citation_publication_date=2015;"/>    
-<meta name="citation_reference" content="citation_title=Determinants of preventive oral health behaviour among senior dental students in Nigeria.;citation_author=MO Folayan;citation_author=MR Khami;citation_author=N Folaranmi;citation_author=BO Popoola;citation_author=OO Sofola;citation_author=TO Ligali;citation_journal_title=BMC Oral Health;citation_volume=13;citation_number=13;citation_first_page=28;citation_publication_date=2013;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence, and early childhood caries risk indicators in preschool children in suburban Nigeria.;citation_author=MO Folayan;citation_author=KA Kolawole;citation_author=EO Oziegbe;citation_author=T Oyedele;citation_author=OV Oshomoji;citation_author=NM Chukwumah;citation_journal_title=BMC Oral Health;citation_volume=15;citation_number=15;citation_first_page=72;citation_publication_date=2015;"/>    
-<meta name="citation_reference" content="citation_title=Self-esteem deficits and suicidal tendencies among adolescents.;citation_author=JC Overholser;citation_author=DM Adams;citation_author=KL Lehnert;citation_author=DC Brinkman;citation_journal_title=J Am Acad Child Adolesc Psychiatry;citation_volume=34;citation_number=34;citation_issue=7;citation_first_page=919;citation_last_page=28;citation_publication_date=1995;"/>    
-<meta name="citation_reference" content="citation_title=The relationship between level of self-esteem and suicidal ideation with stability of self-esteem as moderator;citation_author=AF De Man;citation_author=BIB Gutiérrez;citation_journal_title=Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement;citation_volume=34;citation_number=34;citation_issue=4;citation_first_page=235;citation_last_page=8;citation_publication_date=2002;"/>    
-<meta name="citation_reference" content="citation_title=The suicidal process and self-esteem.;citation_author=AH Thompson;citation_journal_title=Crisis;citation_volume=31;citation_number=31;citation_issue=6;citation_first_page=311;citation_last_page=6;citation_publication_date=2010;"/>    
-<meta name="citation_reference" content="citation_title=Appraisal of Oral Hygiene Status amongst Subjects with Suicidal Leanings-A Pilot Study;citation_author=M Raja;citation_author=P Jayakumar;citation_author=K Govindaraj;citation_author=N Mithradas;citation_author=P Saket;citation_author=S Thilagar;citation_journal_title=Journal of Clinical and Diagnostic Research;citation_volume=12;citation_number=12;citation_issue=11;citation_first_page=1;citation_last_page=4;citation_publication_date=2018;"/>    
-<meta name="citation_reference" content="citation_title=Self-esteem: a hidden concern in oral health.;citation_author=M Huff;citation_author=E Kinion;citation_author=MA Kendra;citation_author=T Klecan;citation_journal_title=J Community Health Nurs;citation_volume=23;citation_number=23;citation_issue=4;citation_first_page=245;citation_last_page=55;citation_publication_date=2006;"/>    
-<meta name="citation_reference" content="citation_title=Sweetened beverages, coffee, and tea and depression risk among older US adults.;citation_author=X Guo;citation_author=Y Park;citation_author=ND Freedman;citation_author=R Sinha;citation_author=AR Hollenbeck;citation_author=A Blair;citation_journal_title=PLoS One;citation_volume=9;citation_number=9;citation_issue=4;citation_first_page=e94715;citation_publication_date=2014;"/>    
-<meta name="citation_reference" content="citation_title=Fast-food and commercial baked goods consumption and the risk of depression.;citation_author=A Sánchez-Villegas;citation_author=E Toledo;citation_author=J de Irala;citation_author=M Ruiz-Canela;citation_author=J Pla-Vidal;citation_author=MA Martínez-González;citation_journal_title=Public Health Nutr;citation_volume=15;citation_number=15;citation_issue=3;citation_first_page=424;citation_last_page=32;citation_publication_date=2012;"/>    
-<meta name="citation_reference" content="citation_title=Dietary pattern and depressive symptoms in middle age.;citation_author=TN Akbaraly;citation_author=EJ Brunner;citation_author=JE Ferrie;citation_author=MG Marmot;citation_author=M Kivimaki;citation_author=A Singh-Manoux;citation_journal_title=Br J Psychiatry;citation_volume=195;citation_number=195;citation_issue=5;citation_first_page=408;citation_last_page=13;citation_publication_date=2009;"/>    
-<meta name="citation_reference" content="citation_title=Impact of dental caries and its treatment on the quality of life of 12- to 15-year-old adolescents in Benin, Nigeria.;citation_author=NM Chukwumah;citation_author=MO Folayan;citation_author=EO Oziegbe;citation_author=AA Umweni;citation_journal_title=Int J Paediatr Dent;citation_volume=26;citation_number=26;citation_issue=1;citation_first_page=66;citation_last_page=76;citation_publication_date=2016;"/>    
-<meta name="citation_reference" content="citation_title=Suicidal Risk, Psychopathology, and Quality of Life in a Clinical Population of Adolescents.;citation_author=J Balazs;citation_author=M Miklosi;citation_author=J Halasz;citation_author=LO Horváth;citation_author=D Szentiványi;citation_author=P Vida;citation_journal_title=Front Psychiatry.;citation_volume=9;citation_number=9;citation_first_page=17;citation_publication_date=2018;"/>    
-<meta name="citation_reference" content="citation_title=Gender differences in risk factors for suicide in Denmark.;citation_author=P Qin;citation_author=E Agerbo;citation_author=N Westergård-Nielsen;citation_author=T Eriksson;citation_author=PB Mortensen;citation_journal_title=Br J Psychiatry;citation_volume=177;citation_number=177;citation_first_page=546;citation_last_page=50;citation_publication_date=2000;"/>    
-<meta name="citation_reference" content="citation_title=Gender Differences in Food Choice: Effects of Superior Temporal Sulcus Stimulation.;citation_author=V Manippa;citation_author=C Padulo;citation_author=LN van der Laan;citation_author=A Brancucci;citation_journal_title=Front Hum Neurosci.;citation_volume=11;citation_number=11;citation_first_page=597;citation_publication_date=2017;"/>    
-<meta name="citation_reference" content="citation_title=Prevalence and associated factors for suicidal behaviours (ideation, planning, and attempt) among high school adolescents in Lagos, Nigeria.;citation_author=AO Adewuya;citation_author=EO Oladipo;citation_journal_title=Eur Child Adolesc Psychiatry.;citation_volume=29;citation_number=29;citation_issue=11;citation_first_page=1503;citation_last_page=12;citation_publication_date=2020;"/>    
-<meta name="citation_reference" content="citation_title=Hopelessness and suicidal ideation among adolescents in two cultures.;citation_author=SM Stewart;citation_author=BD Kennard;citation_author=PW Lee;citation_author=T Mayes;citation_author=C Hughes;citation_author=G Emslie;citation_journal_title=J Child Psychol Psychiatry;citation_volume=46;citation_number=46;citation_issue=4;citation_first_page=364;citation_last_page=72;citation_publication_date=2005;"/>    
-<meta name="citation_reference" content="citation_title=Ontogeny of taste preferences: basic biology and implications for health;citation_author=JA Mennella;citation_journal_title=Am J Clin Nutr;citation_volume=99;citation_number=99;citation_issue=3;citation_first_page=704s;citation_last_page=11s;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Prevalence of depressive symptoms in university students from Germany, Denmark, Poland and Bulgaria.;citation_author=RT Mikolajczyk;citation_author=AE Maxwell;citation_author=W El Ansari;citation_author=V Naydenova;citation_author=C Stock;citation_author=S Ilieva;citation_journal_title=Soc Psychiatry Psychiatr Epidemiol;citation_volume=43;citation_number=43;citation_issue=2;citation_first_page=105;citation_last_page=12;citation_publication_date=2008;"/>
+<meta name="citation_reference" content="citation_title=Prevalence and factors associated with depressive symptoms among Yoruba adults in a semi-urban community in South-Western Nigeria.;citation_author=A Akinsulore;citation_author=O Esimai;citation_author=O Afolabi;citation_author=O Aloba;citation_author=B Mapayi;citation_journal_title=Journal of Behavioral Health;citation_volume=4;citation_number=4;citation_issue=3;citation_first_page=81;citation_last_page=6;citation_publication_date=2015;"/>
+<meta name="citation_reference" content="citation_title=Determinants of preventive oral health behaviour among senior dental students in Nigeria.;citation_author=MO Folayan;citation_author=MR Khami;citation_author=N Folaranmi;citation_author=BO Popoola;citation_author=OO Sofola;citation_author=TO Ligali;citation_journal_title=BMC Oral Health;citation_volume=13;citation_number=13;citation_first_page=28;citation_publication_date=2013;"/>
+<meta name="citation_reference" content="citation_title=Prevalence, and early childhood caries risk indicators in preschool children in suburban Nigeria.;citation_author=MO Folayan;citation_author=KA Kolawole;citation_author=EO Oziegbe;citation_author=T Oyedele;citation_author=OV Oshomoji;citation_author=NM Chukwumah;citation_journal_title=BMC Oral Health;citation_volume=15;citation_number=15;citation_first_page=72;citation_publication_date=2015;"/>
+<meta name="citation_reference" content="citation_title=Self-esteem deficits and suicidal tendencies among adolescents.;citation_author=JC Overholser;citation_author=DM Adams;citation_author=KL Lehnert;citation_author=DC Brinkman;citation_journal_title=J Am Acad Child Adolesc Psychiatry;citation_volume=34;citation_number=34;citation_issue=7;citation_first_page=919;citation_last_page=28;citation_publication_date=1995;"/>
+<meta name="citation_reference" content="citation_title=The relationship between level of self-esteem and suicidal ideation with stability of self-esteem as moderator;citation_author=AF De Man;citation_author=BIB Gutiérrez;citation_journal_title=Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement;citation_volume=34;citation_number=34;citation_issue=4;citation_first_page=235;citation_last_page=8;citation_publication_date=2002;"/>
+<meta name="citation_reference" content="citation_title=The suicidal process and self-esteem.;citation_author=AH Thompson;citation_journal_title=Crisis;citation_volume=31;citation_number=31;citation_issue=6;citation_first_page=311;citation_last_page=6;citation_publication_date=2010;"/>
+<meta name="citation_reference" content="citation_title=Appraisal of Oral Hygiene Status amongst Subjects with Suicidal Leanings-A Pilot Study;citation_author=M Raja;citation_author=P Jayakumar;citation_author=K Govindaraj;citation_author=N Mithradas;citation_author=P Saket;citation_author=S Thilagar;citation_journal_title=Journal of Clinical and Diagnostic Research;citation_volume=12;citation_number=12;citation_issue=11;citation_first_page=1;citation_last_page=4;citation_publication_date=2018;"/>
+<meta name="citation_reference" content="citation_title=Self-esteem: a hidden concern in oral health.;citation_author=M Huff;citation_author=E Kinion;citation_author=MA Kendra;citation_author=T Klecan;citation_journal_title=J Community Health Nurs;citation_volume=23;citation_number=23;citation_issue=4;citation_first_page=245;citation_last_page=55;citation_publication_date=2006;"/>
+<meta name="citation_reference" content="citation_title=Sweetened beverages, coffee, and tea and depression risk among older US adults.;citation_author=X Guo;citation_author=Y Park;citation_author=ND Freedman;citation_author=R Sinha;citation_author=AR Hollenbeck;citation_author=A Blair;citation_journal_title=PLoS One;citation_volume=9;citation_number=9;citation_issue=4;citation_first_page=e94715;citation_publication_date=2014;"/>
+<meta name="citation_reference" content="citation_title=Fast-food and commercial baked goods consumption and the risk of depression.;citation_author=A Sánchez-Villegas;citation_author=E Toledo;citation_author=J de Irala;citation_author=M Ruiz-Canela;citation_author=J Pla-Vidal;citation_author=MA Martínez-González;citation_journal_title=Public Health Nutr;citation_volume=15;citation_number=15;citation_issue=3;citation_first_page=424;citation_last_page=32;citation_publication_date=2012;"/>
+<meta name="citation_reference" content="citation_title=Dietary pattern and depressive symptoms in middle age.;citation_author=TN Akbaraly;citation_author=EJ Brunner;citation_author=JE Ferrie;citation_author=MG Marmot;citation_author=M Kivimaki;citation_author=A Singh-Manoux;citation_journal_title=Br J Psychiatry;citation_volume=195;citation_number=195;citation_issue=5;citation_first_page=408;citation_last_page=13;citation_publication_date=2009;"/>
+<meta name="citation_reference" content="citation_title=Impact of dental caries and its treatment on the quality of life of 12- to 15-year-old adolescents in Benin, Nigeria.;citation_author=NM Chukwumah;citation_author=MO Folayan;citation_author=EO Oziegbe;citation_author=AA Umweni;citation_journal_title=Int J Paediatr Dent;citation_volume=26;citation_number=26;citation_issue=1;citation_first_page=66;citation_last_page=76;citation_publication_date=2016;"/>
+<meta name="citation_reference" content="citation_title=Suicidal Risk, Psychopathology, and Quality of Life in a Clinical Population of Adolescents.;citation_author=J Balazs;citation_author=M Miklosi;citation_author=J Halasz;citation_author=LO Horváth;citation_author=D Szentiványi;citation_author=P Vida;citation_journal_title=Front Psychiatry.;citation_volume=9;citation_number=9;citation_first_page=17;citation_publication_date=2018;"/>
+<meta name="citation_reference" content="citation_title=Gender differences in risk factors for suicide in Denmark.;citation_author=P Qin;citation_author=E Agerbo;citation_author=N Westergård-Nielsen;citation_author=T Eriksson;citation_author=PB Mortensen;citation_journal_title=Br J Psychiatry;citation_volume=177;citation_number=177;citation_first_page=546;citation_last_page=50;citation_publication_date=2000;"/>
+<meta name="citation_reference" content="citation_title=Gender Differences in Food Choice: Effects of Superior Temporal Sulcus Stimulation.;citation_author=V Manippa;citation_author=C Padulo;citation_author=LN van der Laan;citation_author=A Brancucci;citation_journal_title=Front Hum Neurosci.;citation_volume=11;citation_number=11;citation_first_page=597;citation_publication_date=2017;"/>
+<meta name="citation_reference" content="citation_title=Prevalence and associated factors for suicidal behaviours (ideation, planning, and attempt) among high school adolescents in Lagos, Nigeria.;citation_author=AO Adewuya;citation_author=EO Oladipo;citation_journal_title=Eur Child Adolesc Psychiatry.;citation_volume=29;citation_number=29;citation_issue=11;citation_first_page=1503;citation_last_page=12;citation_publication_date=2020;"/>
+<meta name="citation_reference" content="citation_title=Hopelessness and suicidal ideation among adolescents in two cultures.;citation_author=SM Stewart;citation_author=BD Kennard;citation_author=PW Lee;citation_author=T Mayes;citation_author=C Hughes;citation_author=G Emslie;citation_journal_title=J Child Psychol Psychiatry;citation_volume=46;citation_number=46;citation_issue=4;citation_first_page=364;citation_last_page=72;citation_publication_date=2005;"/>
+<meta name="citation_reference" content="citation_title=Ontogeny of taste preferences: basic biology and implications for health;citation_author=JA Mennella;citation_journal_title=Am J Clin Nutr;citation_volume=99;citation_number=99;citation_issue=3;citation_first_page=704s;citation_last_page=11s;citation_publication_date=2014;"/>
 <meta name="citation_reference" content="citation_title=Gender differences in taste and foods habits.;citation_author=M Lombardo;citation_author=G Aulisa;citation_author=E Padua;citation_author=G Annino;citation_author=F Iellamo;citation_author=A Pratesi;citation_journal_title=Nutrition &amp; Food Science.;citation_volume=50;citation_number=50;citation_issue=1;citation_first_page=229;citation_last_page=39;citation_publication_date=2019;"/>
 
 <script type="text/javascript">
@@ -575,8 +575,8 @@ dataLayer = [{
 <script src="/resource/js/components/placeholder_style.js" type="text/javascript"></script>
       </li>
 
-</ul>     
-      </section>  
+</ul>
+      </section>
     </nav>
   </div>
 
@@ -682,7 +682,7 @@ dataLayer = [{
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="0" class="author-name" >
 Morenike Oluwatoyin Folayan <span class="email">  </span>,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
@@ -730,7 +730,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="1" class="author-name" >
 Maha El Tantawi,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
@@ -747,7 +747,7 @@ Writing – original draft,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-1"><span class="type">Affiliation</span>
     Faculty of Dentistry, Alexandria University, Alexandria, Alexandria Governorate, Egypt
   </p>
@@ -758,7 +758,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="2" class="author-name" >
 Olakunle Oginni,</a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
@@ -773,7 +773,7 @@ Validation,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-2"><span class="type">Affiliation</span>
     Department of Mental Health, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria
   </p>
@@ -784,7 +784,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="3" class="author-name" >
 Elizabeth Oziegbe,</a>    <div id="author-meta-3" class="author-info" data-js-tooltip="tooltip_target">
@@ -797,7 +797,7 @@ Methodology,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-3"><span class="type">Affiliation</span>
     Faculty of Dentistry, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria
   </p>
@@ -808,7 +808,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="4" class="author-name" >
 Boladale Mapayi,</a>    <div id="author-meta-4" class="author-info" data-js-tooltip="tooltip_target">
@@ -821,7 +821,7 @@ Methodology,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-4"><span class="type">Affiliation</span>
     Department of Mental Health, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria
   </p>
@@ -832,7 +832,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="5" class="author-name" >
 Olaniyi Arowolo,</a>    <div id="author-meta-5" class="author-info" data-js-tooltip="tooltip_target">
@@ -845,7 +845,7 @@ Project administration,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-5"><span class="type">Affiliation</span>
     Obafemi Awolowo University Teaching Hospitals’ Complex, Ile-Ife, Osun State, Nigeria
   </p>
@@ -856,7 +856,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="6" class="author-name" >
 Abiola Adetokunbo Adeniyi,</a>    <div id="author-meta-6" class="author-info" data-js-tooltip="tooltip_target">
@@ -869,7 +869,7 @@ Methodology,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-6"><span class="type">Affiliation</span>
     Faculty of Dentistry, University of British Columbia, Vancouver, British Columbia, Canada
   </p>
@@ -880,7 +880,7 @@ Writing – review & editing
 
 <li
   data-js-tooltip="tooltip_trigger"
-  
+
 >
    <a  data-author-id="7" class="author-name" >
 Nadia A. Sam-Agudu</a>    <div id="author-meta-7" class="author-info" data-js-tooltip="tooltip_target">
@@ -893,9 +893,9 @@ Methodology,
 
 Writing – review & editing
   </p>
-  
+
   <p id="authAffiliations-7"><span class="type">Affiliations</span>
-    International Research Center of Excellence, Institute of Human Virology Nigeria, Abuja, Federal Capital Territory, Nigeria, 
+    International Research Center of Excellence, Institute of Human Virology Nigeria, Abuja, Federal Capital Territory, Nigeria,
     Institute of Human Virology, University of Maryland School of Medicine, Baltimore, Maryland, United States of America
   </p>
 
@@ -984,7 +984,7 @@ Writing – review & editing
         </li>
 
 <li class="tab-title" id="tabRelated">
-    <a class="article-tab-5" id="tabRelated-link">Media Coverage</a> 
+    <a class="article-tab-5" id="tabRelated-link">Media Coverage</a>
     <script>$(document).ready(function() { $.getMediaLink("10.1371/journal.pone.0247073").then(function (url) { $("#tabRelated-link").attr("href", url) } ) })</script>
   </li>
             <li class="tab-title " id="tabPeerReview">
@@ -1195,7 +1195,7 @@ Writing – review & editing
 
 <div xmlns:plos="http://plos.org" class="articleinfo"><p><strong>Citation: </strong>Folayan MO, Tantawi ME, Oginni O, Oziegbe E, Mapayi B, Arowolo O, et al.  (2021) Oral health practices and oral hygiene status as indicators of suicidal ideation among adolescents in Southwest Nigeria. PLoS ONE 16(2):
            e0247073.
-        
+
         https://doi.org/10.1371/journal.pone.0247073</p><p><strong>Editor: </strong>Frédéric Denis, Centre Hospitalier Regional Universitaire de Tours, FRANCE</p><p><strong>Received: </strong>October 29, 2020; <strong>Accepted: </strong>January 29, 2021; <strong>Published: </strong> February 25, 2021</p><p><strong>Copyright: </strong> © 2021 Folayan et al. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Data Availability: </strong>All relevant data are within the paper and its <a href="#sec019">Supporting Information</a> files.</p><p><strong>Funding: </strong>The author(s) received no specific funding for this work.</p><p><strong>Competing interests: </strong> The authors have declared that no competing interests exist.</p></div>
 
 <div xmlns:plos="http://plos.org" id="section1" class="section toc-section"><a id="sec005" name="sec005" data-toc="sec005" class="link-target" title="Introduction"></a><h2>Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>Suicide was the second leading cause of death in 2017 among adolescents age 15 to 19 years globally [<a href="#pone.0247073.ref001" class="ref-tip">1</a>]. Known risk factors include a family history of suicidal behavior; childhood and family adversity; mental disorders (untreated depression, substance use and psychotic disorders); exposure to stressors and adverse circumstances; sexual or gender minority status; previous suicide attempt; history of suicidal ideation [<a href="#pone.0247073.ref002" class="ref-tip">2</a>–<a href="#pone.0247073.ref004" class="ref-tip">4</a>].</p>
@@ -1919,7 +1919,7 @@ Writing – review & editing
     <div class="block">
     </div>
   </div>
- 
+
 <script src="/resource/js/global.js" type="text/javascript"></script>
 </footer>
 

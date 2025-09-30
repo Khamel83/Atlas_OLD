@@ -358,7 +358,7 @@ googletag.cmd.push(function () {
                         <path class="st--MainLogo" d="M786.97,19h-32.13c-126.68,0-229.37,102.69-229.37,229.37v541.89c0,126.68,102.69,229.37,229.37,229.37h32.13
                     c126.68,0,229.37-102.69,229.37-229.37V248.37C1016.34,121.69,913.65,19,786.97,19z M821.88,776.78c0,28-22.7,50.7-50.7,50.7l0,0
                     c-28,0-50.7-22.7-50.7-50.7v-514.3c0-28,22.7-50.7,50.7-50.7l0,0c28,0,50.7,22.7,50.7,50.7V776.78z"/>
-                        <polygon class="st--MainLogo" points="1147.03,19 1147.03,1019.64 1522.53,1019.64 1522.53,826.64 1340.03,826.64 1340.11,602.85 
+                        <polygon class="st--MainLogo" points="1147.03,19 1147.03,1019.64 1522.53,1019.64 1522.53,826.64 1340.03,826.64 1340.11,602.85
                     1431.74,602.85 1431.74,422.44 1340.39,422.44 1340.39,210.95 1522.53,210.95 1522.53,19 	"/>
                     </g>
                 </svg>
@@ -554,7 +554,7 @@ googletag.cmd.push(function () {
 <li id="menu-item-458163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458163"><a href="http://web.archive.org/web/20250109162752/https://www.gaystarnews.co.uk/">Gay Star News</a></li>
 </ul></div>
     <div class="text-white border-white border-t-[0.5px] mt-5 pt-3 text-xl flex items-center justify-between">
-        
+
 <a class="w-[20px]" title="Youtube page" href="http://web.archive.org/web/20250109162752/https://www.youtube.com/channel/UCOYXMJcUXo58HmJN1vuzKUA">
 	<svg class="icon-fill" width="23" height="16" viewbox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18.0232 -0.00146484H5.29494C3.97481 -0.00146484 2.70875 0.527135 1.77527 1.46805C0.8418 2.40897 0.317383 3.68513 0.317383 5.01579V10.9828C0.317383 11.6417 0.446128 12.2941 0.696274 12.9028C0.946419 13.5115 1.31306 14.0646 1.77527 14.5305C2.23748 14.9964 2.78621 15.366 3.39011 15.6181C3.99402 15.8703 4.64128 16 5.29494 16H18.0232C19.3432 15.9999 20.6091 15.4712 21.5424 14.5303C22.4757 13.5894 23 12.3133 23 10.9828V5.01579C23 3.68525 22.4757 2.4092 21.5424 1.4683C20.6091 0.527407 19.3432 -0.00127646 18.0232 -0.00146484ZM15.515 8.45179L9.80667 11.2982C9.58327 11.4204 8.82004 11.257 8.82004 11.0006V5.15786C8.82004 4.89787 9.58678 4.7352 9.81019 4.86377L15.274 7.86006C15.5066 7.98793 15.7469 8.32179 15.515 8.45179Z" fill="white"/>
@@ -618,7 +618,7 @@ googletag.cmd.push(function () {
 <div class="skin--ad left--skin hidden lg:flex lg:justify-end overflow-hidden mt-12 mr-4">
                 <!-- /247211819/joe.co.uk/joe.co.uk_Left_Skin -->
 <div id="div-gpt-ad-1680686655319-0"></div>            </div>
-        
+
         <div class="container mx-auto lg:max-w-[970px] my-8 md:my-12 post-container post-307775">
 
 <!-- Page Intro -->
@@ -634,12 +634,12 @@ googletag.cmd.push(function () {
 <div class="md:hidden">
     </div>
             <!-- Leaderboard -->
-            
+
             <div class="grid grid-cols-3 gap-12">
                 <div class="col-span-3 lg:col-span-2">
 
 <!-- Article Intro -->
-                    
+
 <div class="border-b-[5px] mb-4 pb-1 text-center md:text-left">
     <!-- <p class="font-medium border--right inline pr-2 mr-1">Quiz</p> -->
     <a title="Football" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/category/sport/football">
@@ -654,7 +654,7 @@ googletag.cmd.push(function () {
     Exclusive interview: Holmesdale Fanatics slam Crystal Palace partnership with Socios</h1>
 <div class="mb-2 text-center md:text-left article--intro">Holmesdale Fanatics have described the club's Socios deal as "a shocking and disgusting proposal that was rejected by the entire fanbase."</div>
                     <!-- SOCIAL MEDIA -->
-                    
+
 <div class="my-4 border--bottom border--top py-3">
     <div class="flex flex-col md:flex-row">
         <div class="flex md:hidden justify-center items-center border-b-[0.5px] pb-4 mb-4">
@@ -701,9 +701,9 @@ googletag.cmd.push(function () {
             </div>
 </div>
                     <!-- FEATURED IMAGE -->
-                    
+
 <div class="featued-section border--bottom pb-4 mb-8">
-	
+
 	<div class="video-wrapper hidden">
 			</div>
 
@@ -789,7 +789,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
 <li><strong><a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/aston-villa-2-291337">Aston Villa Supporters&#8217; Trust condemn &#8216;wholly inappropriate&#8217; Socios agreement</a></strong></li>
 </ul>
     <!-- Bottom ad unit -->
-    
+
 <div class="hidden md:block">
 	</div>
 
@@ -802,7 +802,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
     <h3 class="font-sans font-bold inline mr-2">Topics: </h3>
     <a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/tag/crystal-palace" class="underline mt-1 hover:text-purple">Crystal Palace</a><span class="mr-2">,</span><a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/tag/football" class="underline mt-1 hover:text-purple">Football</a><span class="mr-2">,</span><a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/tag/holmesdale-fanatics" class="underline mt-1 hover:text-purple">Holmesdale Fanatics</a><span class="mr-2">,</span><a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/tag/socios" class="underline mt-1 hover:text-purple">Socios</a><span class="mr-2">,</span><a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/tag/sport" class="underline mt-1 hover:text-purple">Sport</a></div>
                     <!-- Related Articles -->
-                    
+
 <h2 class="spotlight--title font-sans font-bold text-white bg-black px-2 pb-1 text-2xl mt-8 mb-4 cgt-single_related">
     RELATED ARTICLES</h2>
 
@@ -843,7 +843,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
 <!-- Display for mobile -->
 <div class="lg:hidden grid grid-cols-12 pb-4">
                 <!-- Mobile content -->
-            
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Premier League club ‘tracking’ Marcus Rashford as they monitor situation closely" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/05/marcus-rashford-1.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -866,7 +866,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
         </a>
     </div>
 </div>                                <!-- Mobile content -->
-            
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Man United star agrees new long-term contract at club" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T163519.569.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -889,7 +889,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
         </a>
     </div>
 </div>                                <!-- Mobile content -->
-            
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Julen Lopetegui sacked by West Ham after six months" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/GettyImages-2192431920-scaled.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -927,8 +927,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 <h3 class="font-sans font-bold text-xl lg:text-3xl cgt-single_more">MORE FROM
                     JOE                </h3>
             </div>
-                                            
-                                                                    
+
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Leicester at risk of Premier League points deduction over PSR rules" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -950,8 +950,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Zoe Hodges            </p>
         </a>
     </div>
-</div>                                    
-                                                                    
+</div>
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Man City make formal approach for one of Europe’s most in-form forwards" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -973,8 +973,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Jacob Entwistle            </p>
         </a>
     </div>
-</div>                                    
-                                                                    
+</div>
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Spurs vs Liverpool: Follow all of the action in our live hub" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -996,8 +996,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 JOE            </p>
         </a>
     </div>
-</div>                                    
-                                                                    
+</div>
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Graham Potter ‘closing in on return’ to Premier League" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1019,8 +1019,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Jacob Entwistle            </p>
         </a>
     </div>
-</div>                                    
-                                                                    
+</div>
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="The Carabao Cup: Follow all of the action as Arsenal host Newcastle Utd" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1042,8 +1042,8 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Jacob Entwistle            </p>
         </a>
     </div>
-</div>                                    
-                                                                    
+</div>
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Roy Keane delivered a brutal takedown of Alexander-Arnold after Man United performance" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1065,17 +1065,17 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Colmán Stanley            </p>
         </a>
     </div>
-</div>                                    
-                                    
+</div>
+
                                             </div>
     </div>
     </div>
                     <!-- Taboola feed -->
-                    
+
                     <!-- Content Query -->
                     <div class="grid grid-cols-12 mt-8">
-    
-                    
+
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Aldi sends tractor to deliver booze and sausages to punters snowed into pub" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Tan-Hill-Tractor.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1097,7 +1097,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Zoe Hodges            </p>
         </a>
     </div>
-</div>                                    
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Richard Hammond and wife Mindy announce they’re getting divorced after 28 years" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hamindy.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1119,7 +1119,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Ryan Price            </p>
         </a>
     </div>
-</div>                                    
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Paris Hilton left devastated as she watches her house burn down on live TV" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/paris-hilton.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1141,7 +1141,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Charlie Herbert            </p>
         </a>
     </div>
-</div>                                    
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="You can get the latest iPhone 16 at a price cheaper than Black Friday in rare deal" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/09/Website-Image-2-Images-51.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1163,7 +1163,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Jonny Yates            </p>
         </a>
     </div>
-</div>                                    
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="British public outraged as Greggs increases sausage roll price by 5p" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-49.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1185,7 +1185,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Harry Warner            </p>
         </a>
     </div>
-</div>                                    
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="A legendary war movie is one of the films on TV this evening" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-5-1.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1219,7 +1219,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 <h3 class="font-sans font-bold text-xl lg:text-3xl cgt-single_title">MORE FROM
                     JOE                </h3>
             </div>
-                                                                                                                
+
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Netflix adds new series with major connection to Oscar-winning Western" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-4-1.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1241,7 +1241,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Stephen Porzio            </p>
         </a>
     </div>
-</div>                                                                                                        
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="RMT general secretary Mick Lynch announces his retirement aged 63" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mick-lynch.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1263,7 +1263,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Charlie Herbert            </p>
         </a>
     </div>
-</div>                                                                                                        
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="One of the best Irish movies ever is now available to stream for free on YouTube" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-3-1.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1285,7 +1285,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Stephen Porzio            </p>
         </a>
     </div>
-</div>                                                                                                        
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Elon Musk wants to remove Keir Starmer as Prime Minister before the next general election" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-48.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1307,7 +1307,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Harry Warner            </p>
         </a>
     </div>
-</div>                                                                                                        
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Anthony Hopkins’ home burnt to the ground in LA wildfires" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Anthony-Hopkins.png?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1329,7 +1329,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 Zoe Hodges            </p>
         </a>
     </div>
-</div>                                                                                                        
+</div>
 <div class="col-span-4 md:col-span-5 mb-4 pb-4 border--bottom">
             <div class="hidden md:block">
             <img width="450" height="225" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?height=225&amp;width=450&amp;cropped" class=" wp-post-image" alt="Iconic Hollywood sign under threat as wildfires leave Sunset Boulevard ‘in ruins’" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=177 177w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=212 212w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=303 303w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=350 350w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=370 370w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=450 450w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=645 645w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/hollywood-sign.jpg?width=700 700w" sizes="(max-width: 450px) 100vw, 450px"/>        </div>
@@ -1379,7 +1379,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
     <div class="col-span-12">
         <h3 class="font-sans font-bold my-1">DON'T MISS</h3>
     </div>
-    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Leicester at risk of Premier League points deduction over PSR rules" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/leicester-at-risk-of-premier-league-points-deduction-over-psr-rules-470735">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Leicester at risk of Premier League points deduction over PSR rules" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Leicester-points-deduction.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1392,7 +1392,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Man City make formal approach for one of Europe’s most in-form forwards" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/man-city-make-formal-approach-for-one-of-europes-most-in-form-forwards-470727">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Man City make formal approach for one of Europe’s most in-form forwards" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-08T193709.232.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1405,7 +1405,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Spurs vs Liverpool: Follow all of the action in our live hub" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/spurs-vs-liverpool-follow-all-of-the-action-in-our-live-hub-2-470724">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Spurs vs Liverpool: Follow all of the action in our live hub" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-4.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1418,7 +1418,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Graham Potter ‘closing in on return’ to Premier League" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/graham-potter-closing-in-on-return-to-premier-league-470552">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Graham Potter ‘closing in on return’ to Premier League" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Untitled-design-2025-01-07T190947.559.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1431,7 +1431,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="The Carabao Cup: Follow all of the action as Arsenal host Newcastle Utd" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/the-carabao-cup-follow-all-of-the-action-as-arsenal-host-newcastle-utd-470522">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="The Carabao Cup: Follow all of the action as Arsenal host Newcastle Utd" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-3.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1444,7 +1444,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Roy Keane delivered a brutal takedown of Alexander-Arnold after Man United performance" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/football/roy-keane-trent-alexander-arnold-real-madrid-liverpool-470372">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Roy Keane delivered a brutal takedown of Alexander-Arnold after Man United performance" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/keane-trent.jpg?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1457,7 +1457,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Liverpool vs Manchester United: Follow all of the action in our live hub" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/football/liverpool-vs-manchester-united-follow-all-of-the-action-in-our-live-hub-470281">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Liverpool vs Manchester United: Follow all of the action in our live hub" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/slot-am.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1470,7 +1470,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="The Premier League: Follow all the action in our live blog" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/the-premier-league-follow-all-the-action-in-our-live-blog-7-470196">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="The Premier League: Follow all the action in our live blog" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Live-blog.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1483,7 +1483,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Mo Salah says it’s his ‘last year in the club’ as he casts further doubt on Liverpool future" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/mo-salah-says-its-his-last-year-in-the-club-as-he-casts-further-doubt-on-liverpool-future-470171">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Mo Salah says it’s his ‘last year in the club’ as he casts further doubt on Liverpool future" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/mo-salah.jpg?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1496,7 +1496,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="The Premier League: Follow all of the action in our live hub" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/the-premier-league-follow-all-of-the-action-in-our-live-hub-9-470042">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="The Premier League: Follow all of the action in our live hub" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/JOE-Feature-image-template-2.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1509,7 +1509,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Man United fan shares video of pre-match training that shows problem at heart of team" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/man-united-fan-shares-video-of-pre-match-training-that-shows-problem-at-heart-of-team-469884">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Man United fan shares video of pre-match training that shows problem at heart of team" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2025/01/Ruben-Amorim-United.png?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1522,7 +1522,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                         </a>
                     </div>
                 </div>
-                    
+
                 <div class="col-span-4 border--bottom mb-1 pb-2">
                     <a class="imageLinks" title="Michail Antonio finally discharged from hospital after horror crash" href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/sport/michail-antonio-finally-discharged-from-hospital-after-horror-crash-469839">
                         <img width="116" height="116" src="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?height=116&amp;width=116&amp;cropped" class="mt-1 fit-103 wp-post-image" alt="Michail Antonio finally discharged from hospital after horror crash" loading="auto" decoding="async" srcset="http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=300 300w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=1024 1024w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=150 150w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=1536 1536w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=2048 2048w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=116 116w, http://web.archive.org/web/20250109162752im_/https://www.joe.co.uk/uploads/2024/12/New-Project-2024-12-09T102150.974.jpg?width=168 168w" sizes="(max-width: 116px) 100vw, 116px"/>                    </a>
@@ -1552,7 +1552,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
                 <!-- /247211819/joe.co.uk/joe.co.uk_Right_Skin -->
 <div id="div-gpt-ad-1680686836898-0" style="min-width: 2px; min-height: 2px;"></div>
             </div>
-        
+
     </div>
 </div>
 
@@ -1561,7 +1561,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
 </div>
 
 <footer id="colophon" class="site-footer pt-6 pb-20 md:py-12 bg-black z-0" role="contentinfo">
-	
+
 	<div class="container text-white">
     <div class="border-b-[0.5px] pb-5 md:pb-10 ">
         <a href="http://web.archive.org/web/20250109162752/https://www.joe.co.uk/" title="JOE.co.uk">        <svg class="m-auto" viewbox="0 0 296 194" preserveaspectratio="xMinYMin meet" width="86" height="58" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1617,7 +1617,7 @@ fetch(`http://web.archive.org/web/20250109162752/https://sky-player.ryan-06a.wor
             </a>
         </div>
         <div class="col-span-2 md:col-span-1 order-1 md:order-2 flex items-center justify-center footer--media">
-            
+
 <a class="w-[20px]" title="Youtube page" href="http://web.archive.org/web/20250109162752/https://www.youtube.com/channel/UCOYXMJcUXo58HmJN1vuzKUA">
 	<svg class="icon-fill" width="23" height="16" viewbox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18.0232 -0.00146484H5.29494C3.97481 -0.00146484 2.70875 0.527135 1.77527 1.46805C0.8418 2.40897 0.317383 3.68513 0.317383 5.01579V10.9828C0.317383 11.6417 0.446128 12.2941 0.696274 12.9028C0.946419 13.5115 1.31306 14.0646 1.77527 14.5305C2.23748 14.9964 2.78621 15.366 3.39011 15.6181C3.99402 15.8703 4.64128 16 5.29494 16H18.0232C19.3432 15.9999 20.6091 15.4712 21.5424 14.5303C22.4757 13.5894 23 12.3133 23 10.9828V5.01579C23 3.68525 22.4757 2.4092 21.5424 1.4683C20.6091 0.527407 19.3432 -0.00127646 18.0232 -0.00146484ZM15.515 8.45179L9.80667 11.2982C9.58327 11.4204 8.82004 11.257 8.82004 11.0006V5.15786C8.82004 4.89787 9.58678 4.7352 9.81019 4.86377L15.274 7.86006C15.5066 7.98793 15.7469 8.32179 15.515 8.45179Z" fill="white"/>
@@ -1742,7 +1742,7 @@ var wp_ajaxwk_md = {"ajaxUrlwp_md":"http:\/\/web.archive.org\/web\/2025010916275
 </script>
 <script type="text/javascript" src="http://web.archive.org/web/20250109162752js_/https://www.joe.co.uk/assets/82ccb9219cbfc910bbe4d0d7d0da42d9bd031c62e9768c3d82ccdd8fe7e53cde/app/themes/joe-co-uk-theme/js/load_more_md.js" id="ajaxwk_md-js"></script>
 <!-- Check if single blog page for taboola feed -->
-	
+
 </body>
 
 </html>

@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 
 class AtlasScheduler:
     """Atlas background task scheduler."""
-    
+
     def __init__(self):
         self.project_root = Path(__file__).parent.parent
         self.last_comprehensive_run = None
@@ -64,13 +64,13 @@ class AtlasScheduler:
         manager = get_manager()
         manager.cleanup_all()
         logger.info("🧹 All processes cleaned up")
-        
+
     def should_run_comprehensive(self) -> bool:
         """Check if comprehensive cycle should run."""
         if not self.last_comprehensive_run:
             return True
         return (datetime.now() - self.last_comprehensive_run).seconds >= self.comprehensive_interval
-        
+
     def should_run_transcript_discovery(self) -> bool:
         """Check if smart transcript discovery should run - retry failed attempts more frequently."""
         if not self.last_transcript_run:
@@ -80,13 +80,13 @@ class AtlasScheduler:
             return (datetime.now() - self.last_transcript_run).seconds >= self.transcript_interval
         # For failed attempts, retry in 10 minutes instead of waiting full interval
         return (datetime.now() - self.last_transcript_run).seconds >= (10 * 60)
-    
+
     def should_run_transcript_check(self) -> bool:
         """Check if light transcript checking should run."""
         if not self.last_transcript_check:
             return True
         return (datetime.now() - self.last_transcript_check).seconds >= self.transcript_check_interval
-    
+
     def should_run_youtube_processing(self) -> bool:
         """Check if YouTube processing should run."""
         if not self.last_youtube_run:
@@ -98,17 +98,17 @@ class AtlasScheduler:
         if not self.last_source_inventory_run:
             return True
         return (datetime.now() - self.last_source_inventory_run).seconds >= self.source_inventory_interval
-        
+
     def run_comprehensive_service(self) -> bool:
         """Run the comprehensive processing service."""
         try:
             logger.info("🚀 Starting comprehensive processing cycle...")
-            
+
             process = create_managed_process([
                 self.python_executable, str(self.project_root / "atlas_comprehensive_service.py")
             ], "comprehensive_service", cwd=self.project_root, timeout=7200)
             stdout, stderr = process.communicate()
-            
+
             if process.returncode == 0:
                 logger.info("✅ Comprehensive processing completed successfully")
                 self.last_comprehensive_run = datetime.now()
@@ -119,18 +119,18 @@ class AtlasScheduler:
         except Exception as e:
             logger.error(f"❌ Comprehensive processing error: {e}")
             return False
-            
+
     def run_transcript_discovery(self) -> bool:
         """Run smart transcript discovery with continuous retry."""
         try:
             logger.info("🎙️ Starting smart transcript discovery...")
-            
+
             # Use batch transcript fetcher for rapid processing
             process = create_managed_process([
                 self.python_executable, "scripts/batch_transcript_fetcher.py", "--limit", "20"
             ], "transcript_discovery", cwd=self.project_root, timeout=300)
             stdout, stderr = process.communicate()
-            
+
             if process.returncode == 0:
                 logger.info("✅ Batch transcript fetching completed successfully")
                 self.last_transcript_run = datetime.now()
@@ -145,74 +145,74 @@ class AtlasScheduler:
         except Exception as e:
             logger.error(f"❌ Batch transcript fetching error: {e}")
             return False
-    
+
     def run_universal_queue_processing(self) -> bool:
         """Run universal queue processing - handles all background tasks"""
         try:
             logger.info("⚡ Starting universal queue processing...")
-            
+
             # Import the universal queue
             sys.path.insert(0, str(self.project_root))
             from universal_processing_queue import UniversalProcessingQueue
-            
+
             queue = UniversalProcessingQueue()
-            
+
             # Process up to 5 jobs per scheduler cycle
             queue.process_jobs(max_jobs=5)
-            
+
             logger.info("✅ Universal queue processing completed")
             return True
-            
+
         except Exception as e:
             logger.error(f"❌ Universal queue processing error: {e}")
             return False
-    
+
     def run_transcript_check(self) -> bool:
         """Run light transcript checking - processes 1-2 podcasts from database."""
         try:
             logger.info("📝 Starting light transcript check...")
-            
+
             # Import transcript processing functions
             sys.path.insert(0, str(self.project_root))
             from transcript_orchestrator import find_transcript
             import sqlite3
-            
+
             # Connect to database
             db_path = str(self.project_root / "atlas.db")
-            
+
             with sqlite3.connect(db_path) as conn:
                 # Get 1-2 podcasts that need checking (oldest last_checked or never checked)
                 cursor = conn.execute("""
-                    SELECT name, id FROM podcasts 
-                    WHERE last_transcript_check IS NULL 
+                    SELECT name, id FROM podcasts
+                    WHERE last_transcript_check IS NULL
                        OR datetime(last_transcript_check) < datetime('now', '-1 day')
                     ORDER BY COALESCE(last_transcript_check, '1970-01-01') ASC
                     LIMIT 2
                 """)
                 podcasts_to_check = cursor.fetchall()
-                
+
                 if not podcasts_to_check:
                     logger.info("📝 No podcasts need transcript checking")
                     self.last_transcript_check = datetime.now()
                     return True
-                
+
                 for podcast_name, podcast_id in podcasts_to_check:
                     logger.info(f"📝 Checking transcripts for: {podcast_name}")
-                    
+
                     # Update last_checked timestamp
                     conn.execute("""
-                        UPDATE podcasts SET last_transcript_check = datetime('now') 
+                        UPDATE podcasts SET last_transcript_check = datetime('now')
                         WHERE id = ?
                     """, (podcast_id,))
-                    
+
                     # Get recent episodes for this podcast to check
                     episode_cursor = conn.execute("""
-                        SELECT title, url FROM episodes 
+                        SELECT title, url FROM episodes
                         WHERE podcast_id = ? AND transcript_url IS NULL
                         ORDER BY published_date DESC LIMIT 3
                     """, (podcast_id,))
                     episodes = episode_cursor.fetchall()
-                    
+
                     for episode_title, episode_url in episodes:
                         try:
                             transcript = find_transcript(podcast_name, episode_title, episode_url)
@@ -221,53 +221,53 @@ class AtlasScheduler:
                                 # Store in database (this would be done by find_transcript function)
                         except Exception as e:
                             logger.warning(f"❌ Transcript check failed for {episode_title[:30]}: {e}")
-                
+
                 conn.commit()
-            
+
             logger.info("✅ Light transcript check completed successfully")
             self.last_transcript_check = datetime.now()
             return True
-            
+
         except Exception as e:
             logger.error(f"❌ Light transcript check error: {e}")
             return False
-    
+
     def run_youtube_processing(self) -> bool:
         """Run YouTube content processing with rate limiting."""
         try:
             logger.info("📺 Starting YouTube processing...")
-            
+
             # Import YouTube processing components
             sys.path.insert(0, str(self.project_root))
             from helpers.youtube_ingestor import YouTubeIngestor
             from integrations.youtube_api_client import YouTubeAPIClient
             import os
-            
+
             # Check if YouTube API key is available
             youtube_api_key = os.getenv('YOUTUBE_API_KEY')
             if not youtube_api_key:
                 logger.warning("📺 YouTube API key not found, skipping YouTube processing")
                 return False
-            
+
             # Initialize YouTube client and ingestor
             youtube_client = YouTubeAPIClient(youtube_api_key)
             youtube_ingestor = YouTubeIngestor()
-            
+
             try:
                 # Authenticate with YouTube
                 youtube_client.authenticate()
                 logger.info("📺 YouTube API authentication successful")
-                
+
                 # Monitor new videos (limited to prevent rate limits)
                 new_videos = youtube_client.monitor_new_videos()
-                
+
                 if new_videos:
                     logger.info(f"📺 Found {len(new_videos)} new YouTube videos")
-                    
+
                     # Store videos in Atlas database
                     storage_results = youtube_client.store_videos_in_atlas(new_videos)
                     logger.info(f"📺 YouTube storage results: {storage_results}")
-                    
+
                     # Process a subset of videos with full ingestor for transcripts
                     # Limit to 5 videos to prevent API rate limits
                     video_urls = [v['url'] for v in new_videos[:5]]
@@ -277,17 +277,17 @@ class AtlasScheduler:
                         logger.info(f"📺 YouTube transcript processing results: {ingest_results}")
                 else:
                     logger.info("📺 No new YouTube videos found")
-                
+
                 logger.info("✅ YouTube processing completed successfully")
                 self.last_youtube_run = datetime.now()
                 return True
-                
+
             except Exception as e:
                 logger.error(f"❌ YouTube API error: {e}")
                 return False
             finally:
                 youtube_ingestor.cleanup()
-                
+
         except Exception as e:
             logger.error(f"❌ YouTube processing error: {e}")
             return False
@@ -337,11 +337,11 @@ class AtlasScheduler:
         logger.info(f"   Transcript check: every {self.transcript_check_interval//60} minutes")
         logger.info(f"   YouTube processing: every {self.youtube_interval//3600} hours")
         logger.info(f"   Source inventory: every {self.source_inventory_interval//3600} hours")
-        
+
         # Run once immediately on startup
         logger.info("🔄 Running initial comprehensive cycle...")
         self.run_comprehensive_service()
-        
+
         while True:
             try:
                 # Check if we should run source inventory discovery
@@ -363,13 +363,13 @@ class AtlasScheduler:
                 # Check if we should run comprehensive processing
                 elif self.should_run_comprehensive():
                     self.run_comprehensive_service()
-                
+
                 # Always run universal queue processing (lightweight, handles all background jobs)
                 self.run_universal_queue_processing()
-                
+
                 # Sleep for 10 minutes before checking again
                 time.sleep(600)
-                
+
             except KeyboardInterrupt:
                 logger.info("🛑 Scheduler stopped by user")
                 break
@@ -386,36 +386,36 @@ if __name__ == '__main__':
     if args.test_mode:
         print("=== Atlas Scheduler Test Mode ===")
         scheduler = AtlasScheduler()
-        
+
         print(f"📊 Configuration:")
         print(f"  Comprehensive cycle: every {scheduler.comprehensive_interval//3600} hours ({scheduler.comprehensive_interval//60} minutes)")
         print(f"  Transcript discovery: every {scheduler.transcript_interval//3600} hours")
         print(f"  Transcript check: every {scheduler.transcript_check_interval//60} minutes")
         print(f"  YouTube processing: every {scheduler.youtube_interval//3600} hours")
-        
+
         print(f"\n🔧 Jobs that would run:")
         print(f"  ✅ Comprehensive service (atlas_comprehensive_service.py)")
         print(f"  ✅ Enhanced transcript discovery (enhanced_transcript_discovery.py)")
         print(f"  ✅ Light transcript checking (database-based)")
         print(f"  ✅ YouTube processing (YouTube API + ingestor)")
         print(f"  ✅ Universal queue processing (background jobs)")
-        
+
         print(f"\n📺 YouTube processing details:")
         print(f"  - Runs every {scheduler.youtube_interval//3600} hours")
         print(f"  - Monitors subscribed channels for new videos")
         print(f"  - Processes up to 5 videos per run for transcripts")
         print(f"  - Stores videos in Atlas with content_type='youtube_video'")
         print(f"  - Includes rate limiting to prevent YouTube API exhaustion")
-        
+
         print(f"\n✨ Test completed - scheduler configuration verified")
-        
+
     elif args.start:
         if not check_system_health():
             logger.error("System health check failed, aborting")
             sys.exit(1)
         # Ensure logs directory exists
         Path('logs').mkdir(exist_ok=True)
-        
+
         scheduler = AtlasScheduler()
         scheduler.run_scheduler()
     else:

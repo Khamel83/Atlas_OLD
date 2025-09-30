@@ -21,7 +21,7 @@ game-time look, a couple Condé Nast updates, intel on who’s looking after Iva
  
 
 🚨🚨 Programming
-note: Tomorrow on Fashion People, I’m joined by one of my all-time favorite reporters, Sapna Maheshwari from The New York Times, to chat TikTok, inauguration fashion, Vuori (it never ends ( https://www.nytimes.com/2025/01/18/business/vuori-athleisure-tech-pants.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), and so much more. Listen here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here 
+note: Tomorrow on Fashion People, I’m joined by one of my all-time favorite reporters, Sapna Maheshwari from The New York Times, to chat TikTok, inauguration fashion, Vuori (it never ends ( https://www.nytimes.com/2025/01/18/business/vuori-athleisure-tech-pants.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), and so much more. Listen here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here
 ( https://open.spotify.com/show/0QzJQbXngjCAM1RSZrgIdn?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Also, I recently joined What’s Contemporary Now host Christopher Michael to discuss, well, what’s contemporary now. (You can listen to
 that, as well as episodes with Tim Blanks, Katie Grand, Edward Enninful, Sara Moonves, and others, right here ( https://www.whatscontemporarynow.com/episodes?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).)
 
@@ -43,7 +43,7 @@ California Community Foundation Wildfire Recovery Fund. The first thing I ever b
 Mentioned in this issue: Matthieu Blazy, Chanel, Virginie Viard, Blake Lively, Taylor Swift, Karl Lagerfeld, Leena Nair, Hermès, Pierre-Alexis
 Dumas, the Wertheimer family, Teresa Ko, Condé Nast, the Trump family, Michelle Obama, Ikram Goldman, Leslie Fremar, Kamala Harris, Adam Lippes, Dior, LVMH, Bernard Arnault, Vogue, Priscilla Chan, Jacques Audiard, Saint Laurent, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -128,7 +128,7 @@ Anyway, it’s no wonder the appointment of three outsiders—including one with
 has always seemed unlikely to me—as farfetched as the Newhouses offloading Condé Nast. (Nair told ( https://www.ft.com/content/9509b519-9ceb-435f-bf87-8956fb81a318?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Financial Times in 2023 that there were zero plans for an I.P.O.) Nevertheless, with the hiring of Nair and the latest boardroom shakeup, Chanel is prepping for a new era. And even if this is all rampant trouble-making, it merely underscores how
 significantly the company has changed in such a short period of time.
 
- 
+
 
 What I’m Reading...
 ---------------------
@@ -166,7 +166,7 @@ designer looks from the 1995 Parker Posey vehicle, Party Girl. (Todd Oldham, Jea
 I loathe Sundance portrait galleries. They are so lame. Have been for years. However, this late-’90s
 series works, from Kirsten Dunst wearing pink eyeshadow (inspiring) to Josh Hartnett dumping his cellphone in the trash. (Also starring Kristen Stewart, Sofia Coppola, Kate Hudson, Ben Affleck, and everyone else who became famous in that era.) [Capsule 98 ( https://www.instagram.com/capsule98/p/DEXb3FLJCxU/?img_index=1&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally…
 Love rules ( https://www.vogue.com/article/how-jordanluca-fashion-designers-turned-a-menswear-runway-into-their-wedding?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )! 
@@ -229,6 +229,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUhddYxvD4z6v-dASakQM=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

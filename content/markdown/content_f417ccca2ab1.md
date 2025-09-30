@@ -26,11 +26,11 @@
         <link rel="shortcut icon" href="/web/20170422230214im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
         <link rel="icon" href="/web/20170422230214im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
 
-<link href="//web.archive.org/web/20170422230214cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">        
-        
+<link href="//web.archive.org/web/20170422230214cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">
+
                 <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20170422230214cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/themes/flick/jquery-ui.min.css"/>
-                
-        <link rel="stylesheet" href="//web.archive.org/web/20170422230214cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">        
+
+        <link rel="stylesheet" href="//web.archive.org/web/20170422230214cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="http://web.archive.org/web/20170422230214cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/all.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20170422230214cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/style.css"/>
 
@@ -82,7 +82,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
 <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/exct_subscription.js?ver=4.7.2"></script>
 <link rel="https://api.w.org/" href="http://www.frugaltravelguy.com/wp-json/"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.frugaltravelguy.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.frugaltravelguy.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.frugaltravelguy.com/wp-includes/wlwmanifest.xml"/>
 <link rel="prev" title="Ending Soon: Increased Sign-up Bonus for the Citi Hilton HHonors Reserve Card" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2014/07/ending-soon-increased-sign-up-bonus-for-the-citi-hilton-hhonors-reserve-card.html"/>
 <link rel="next" title="Southwest Refundable Fares For Seniors" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2014/07/southwest-refundable-fares-for-seniors.html"/>
 <link rel="canonical" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2014/07/the-sign-up-bonus-strategy.html"/>
@@ -108,11 +108,11 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
 	border: 1px solid #c8c8c8;
 }
 </style>
-                
+
         <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.11.1.min.js"></script>
-        
+
                 <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
-        
+
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20170422230214cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/ftg-responsive.css"/>
 
 <script type="text/javascript">
@@ -123,16 +123,16 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
         <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquerymx-3.2.custom.min.js?t=2017-04-22"></script>
         <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/mobile-main.js?t=2017-04-22"></script>
         <script type="text/javascript" src="//web.archive.org/web/20170422230214js_/http://s7.addthis.com/js/250/addthis_widget.js#username=manders@internetbrands.com"></script>
-        <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=2017-04-22"></script>        
-        
-                
-                
+        <script type="text/javascript" src="http://web.archive.org/web/20170422230214js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=2017-04-22"></script>
+
+
+
 		<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//web.archive.org/web/20170422230214/http://www.google-analytics.com/analytics.js','ga');
-        
+
           ga('create', 'UA-7661666-1', 'auto');
           ga('send', 'pageview');
         </script>
@@ -142,7 +142,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
             }
         </script>
     </head>
-          
+
 <!--[if lt IE 7 ]>   <body class="ie6">          <![endif]-->
 <!--[if IE 7 ]>      <body class="ie7">          <![endif]-->
 <!--[if IE 8 ]>      <body class="ie8">          <![endif]-->
@@ -159,17 +159,17 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
   })();
 </script>
 
-<div id="wrapper" class="1">          
+<div id="wrapper" class="1">
             <div id="header-wrapper">
                 <div id="header">
                     <div class="header-inner">
                         <div class="flt-rt mobile_only2">
                                                                 <div class="mobile-ad-disclosure" id="link-advertiser-disclosure" href="#disclosure">Advertiser Disclosure</div>
                                                     </div>
-                        <a href="#" class="show_hide flt-lt"> 
+                        <a href="#" class="show_hide flt-lt">
                             <i id="ftg-toggle-left" class="fa fa-bars fa-2x pull-left"></i>
                             <i id="ftg-toggle-left-compressed" class="fa fa-bars fa-2x pull-left"></i>
-                        </a>                      
+                        </a>
                         <div class="clear"></div>
                     </div>
                     <div id="logo-holder">
@@ -178,8 +178,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
                         </a>
                         <a id="site-logo" class="mobile_only2" data-ajax="false" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/">
                             <img alt="Frugal Travel Guy" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/>
-                        </a>                        
-                        <a id="site-logo-compress" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>                     
+                        </a>
+                        <a id="site-logo-compress" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>
                     </div>
                     <div class="flt-rt mobile-profile"><!-- mobile_only2 -->
                         <i id="ftg-toggle-right" class="fa fa-2x pull-right"></i>
@@ -294,8 +294,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
 	<li class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35563"><a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/login"><span>Login</span></a></li>
 </ul>
 </li>
-</ul>                            </div>  
-                                                                     
+</ul>                            </div>
+
                     </div><!--/#nav-holder -->
                     <div class="clear"></div>
                 </div>
@@ -304,8 +304,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
             <div class="wrapper-holder">
                 <div class="mobile_only2 ad-disclosure">
                     <div class="mobile-top">
-                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div> 
-                </div>   
+                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div>
+                </div>
     <div id="ad-holder">
         <div class="banner728 widget_text " id="text-3">			<a href="http://web.archive.org/web/20170422230214/http://oc.brcclx.com/t/?lid=26377775&amp;cr=20789&amp;last_updated=1490625160"><img src="http://web.archive.org/web/20170422230214im_/http://imgsynergy.com/product_creatives/b3e4571f5cd45d9635e58c10cc879fb9.png" width="728" height="90" alt="Hilton Honors™ Surpass® Card from American Express" border="0"></a>		</div>    </div>
 <div id="main" class="single">
@@ -321,7 +321,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
                                                 <div class="post-meta header-3">
                                                             		<div class="auth_img" style="">
     									<img alt="" src="http://web.archive.org/web/20170422230214im_/http://2.gravatar.com/avatar/b0d295f9857bcc5e3800911570a7fa20?s=150&amp;d=mm&amp;r=g" srcset="http://web.archive.org/web/20170422230214im_/http://2.gravatar.com/avatar/b0d295f9857bcc5e3800911570a7fa20?s=300&amp;d=mm&amp;r=g 2x" class="avatar avatar-thumbnail wp-user-avatar wp-user-avatar-thumbnail alignnone photo"/>                              		</div>
-                                
+
                                 <div class="date">
                                     July 18, 2014                                </div>
                                 <div class="auth_name">
@@ -352,13 +352,13 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
                                                                             <div id="auth_box_bottom">
                                                                   		<div class="auth_img">
         									<img alt="" src="http://web.archive.org/web/20170422230214im_/http://2.gravatar.com/avatar/b0d295f9857bcc5e3800911570a7fa20?s=96&amp;d=mm&amp;r=g" srcset="http://web.archive.org/web/20170422230214im_/http://2.gravatar.com/avatar/b0d295f9857bcc5e3800911570a7fa20?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-96 wp-user-avatar wp-user-avatar- alignnone photo" height="96" width="96"/>                                  		</div>
-                                
+
                                 <div class="auth_box">
                                     <span class="fullname"><a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/holly-johnson" title="Posts by Holly Johnson" rel="author">Holly Johnson</a></span>
                                          Holly Johnson is a financial expert and award-winning writer whose obsession with frugality, budgeting, and travel plays a central role in her work. In addition to serving as Contributing Editor for The Simple Dollar, Holly writes for inspiring...<br/>                                    <a class="colorBlue" href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/holly-johnson">All Articles</a> | <a class="colorBlue" ref="nofollow" href="http://web.archive.org/web/20170422230214/https://plus.google.com/114153139402898075664?rel=author" rel="me" target="_blank">Follow on Google+</a>
                                                                     </div>
         			         </div><!-- end of #auth_box_bottom -->
-                        
+
                                     <div class="associated-card tcc-desktop" id="vlado">
                 <div class="card-header">
                     <span>View:</span>
@@ -570,7 +570,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
                         </td>
                     </tr>
                 </table>
-                
+
             </div>
             <script type="text/javascript">
                 jQuery(document).ready(function () {
@@ -590,7 +590,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20170422230214\/https:
                         <div class="clr"></div>
                     </div>
           <div name="anchor_comment_top" id="anchor_comment_top"></div>
-          
+
 <div id="disqus_thread">
                     <div id="dsq-content">
 
@@ -776,7 +776,7 @@ config.callbacks.preData.push(function() {
             			                        <!--  next post -->
                                                     <div class="post-next-wrap"><strong>Next</strong><br/>
                               <div class="post-next"><a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2014/07/southwest-refundable-fares-for-seniors.html" title="Southwest Refundable Fares For Seniors" rel="next"></a></div>                            </div>
-            			
+
                         <div class="clr"></div>
                         <p>Use keys to browse more stories</p>
                     </div><!-- end of .prevnext -->
@@ -835,7 +835,7 @@ config.callbacks.preData.push(function() {
             <div class="addthis_sharing_toolbox"></div>
 
 <!-- AddThis Button END -->
-            
+
         </div>
         <div class="rside">
                                 <div class="aside mobile_only">
@@ -876,10 +876,10 @@ config.callbacks.preData.push(function() {
 <br/>
 <a href="http://web.archive.org/web/20170422230214/http://oc.brcclx.com/t/?lid=26565902&amp;cr=20178&amp;last_updated=1479166257"><img src="http://web.archive.org/web/20170422230214im_/http://imgsynergy.com/product_creatives/29469a695d79a601a57536726822ac82.png" width="110" height="70" alt="Ink Business Preferred℠ Credit Card" border="0"></a>
 		</div>                    </div>
-            
+
                             <div class="banner255 widget_text sidebar-300w-ad-unit" id="text-5">			<a href="http://web.archive.org/web/20170422230214/http://oc.brcclx.com/t/?lid=2248808&amp;cr=19225&amp;last_updated=1485442049"><img src="http://web.archive.org/web/20170422230214im_/http://imgsynergy.com/product_creatives/81d5c497444205e301976eecba0a8b2b.png" width="300" height="250" alt="SimplyCash® Plus Business Credit Card from American Express" border="0"></a>
 
-</div>            
+</div>
             <div class="widget_text">
                 <div id="twitter-container">
                     <a class="twitter-timeline" href="http://web.archive.org/web/20170422230214/https://twitter.com/FrugalTravelGuy" data-widget-id="698278273084559361" height="300">Tweets by @FrugalTravelGuy</a>
@@ -896,10 +896,10 @@ config.callbacks.preData.push(function() {
                                     <li>
                                                     <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/new-premium-card-in-town-u-s-bank-altitude-reserve.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/US-Bank-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/US-Bank-50x50.jpg 50w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/US-Bank-150x150.jpg 150w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/US-Bank-125x125.jpg 125w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/US-Bank-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/new-premium-card-in-town-u-s-bank-altitude-reserve.html" class="post_title">New Premium Card in Town: U.S. Bank Altitude Reserve</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/anyakartashova" title="Posts by Anya Kartashova" rel="author">Anya Kartashova</a>                            </div>
                             <div class="date">
@@ -912,10 +912,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/which-credit-card-should-you-charge-hyatt-stays-to.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Hotel-Desk-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Hotel-Desk-50x50.jpg 50w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Hotel-Desk-150x150.jpg 150w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Hotel-Desk-125x125.jpg 125w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Hotel-Desk-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/which-credit-card-should-you-charge-hyatt-stays-to.html" class="post_title">Which Credit Card Should You Charge Hyatt Stays To?</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/arianaarghandewal" title="Posts by Ariana Arghandewal" rel="author">Ariana Arghandewal</a>                            </div>
                             <div class="date">
@@ -928,10 +928,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/head-to-head-barclaycard-cashforward-vs-chase-freedom-unlimited.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Cash-VS-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Cash-VS-50x50.jpg 50w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Cash-VS-150x150.jpg 150w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Cash-VS-125x125.jpg 125w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Cash-VS-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/head-to-head-barclaycard-cashforward-vs-chase-freedom-unlimited.html" class="post_title">Head to Head: Barclaycard CashForward vs. Chase Freedom Unlimited</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/anyakartashova" title="Posts by Anya Kartashova" rel="author">Anya Kartashova</a>                            </div>
                             <div class="date">
@@ -944,10 +944,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/dont-forget-about-business-platinum-now-earn-75k-5x-on-flights-hotels.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/03/Main-17-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/03/Main-17-50x50.jpg 50w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/03/Main-17-150x150.jpg 150w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/03/Main-17-125x125.jpg 125w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/03/Main-17-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/dont-forget-about-business-platinum-now-earn-75k-5x-on-flights-hotels.html" class="post_title">Don&#8217;t Forget About Business Platinum. Now Earn 75K, 5X on Flights, Hotels</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/anyakartashova" title="Posts by Anya Kartashova" rel="author">Anya Kartashova</a>                            </div>
                             <div class="date">
@@ -960,10 +960,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/head-to-head-amex-plat-vs-amex-prg.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Amex-VS-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Amex-VS-50x50.jpg 50w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Amex-VS-150x150.jpg 150w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Amex-VS-125x125.jpg 125w, http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/uploads/2017/04/Amex-VS-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/2017/04/head-to-head-amex-plat-vs-amex-prg.html" class="post_title">Head to Head: Amex Plat vs. Amex PRG</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/author/joe-cortez" title="Posts by Joe Cortez" rel="author">Joe Cortez</a>                            </div>
                             <div class="date">
@@ -1001,7 +1001,7 @@ config.callbacks.preData.push(function() {
         <div class="divider"><span>Secured &amp; Powered By</span></div>
         <div class="logo"><a href="http://web.archive.org/web/20170422230214/https://ssl.comodo.com/privacy-policy.php" target="_blank"><img src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-comodo.png"/></a></div>
         <div class="logo"><a href="http://web.archive.org/web/20170422230214/https://security.intuit.com/index.php" target="_blank"><img src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-intuit.png"/></a></div>
-    </div>    
+    </div>
 </div><div id="footer">
             <div class="top-section">
             <div class="widget widget_text " id="text-35">			<ul id="footer-nav">
@@ -1014,8 +1014,8 @@ config.callbacks.preData.push(function() {
         <li><a href="http://web.archive.org/web/20170422230214/http://www.facebook.com/FrugalTravelGuy"><img alt="Follow FrugalTravelGuy on Facebook" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/facebook-follow.png"/></a></li>
         <li><a href="http://web.archive.org/web/20170422230214/http://twitter.com/#!/frugaltravelguy"><img alt="Follow FrugalTravelGuy on Twitter" src="http://web.archive.org/web/20170422230214im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/twitter-follow.png"/></a></li>
 </ul><br/><br/>		</div><div class="widget widget_text " id="text-37">			        <div class="copyright">
-            Copyright © 2017 <strong>Internet Brands, Inc.</strong> All Rights Reserved. 
-<br><a href="http://web.archive.org/web/20170422230214/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> | 
+            Copyright © 2017 <strong>Internet Brands, Inc.</strong> All Rights Reserved.
+<br><a href="http://web.archive.org/web/20170422230214/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20170422230214/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> |
 <a href="http://web.archive.org/web/20170422230214/http://www.internetbrands.com/privacy/privacy-main.html" rel="nofollow">Privacy Policy</a>
         </div>
 <script type="text/javascript" src="//web.archive.org/web/20170422230214js_/http://eucookie.internetbrands.com/eucookie/scripts/v1.0.0/eucookie.min.js"></script>
@@ -1042,7 +1042,7 @@ config.callbacks.preData.push(function() {
             el.parentNode.insertBefore(s, el);
         })();
     </script>
-    
+
     <noscript>
         <img src="//web.archive.org/web/20170422230214im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=8138560&amp;cv=2.0&amp;cj=1"/>
     </noscript>

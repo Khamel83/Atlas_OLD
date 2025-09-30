@@ -92,7 +92,7 @@ But allowing these places to change, and embracing the change already occurring,
 
 Daniel Wagner for Vox
 
-See More: 
+See More:
 
 * [Cities & Urbanism](/cities-and-urbanism)
 * [Features](/features)

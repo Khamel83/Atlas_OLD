@@ -7,268 +7,268 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I’m sorry but more TwitterYou can tell a simple story about Elon Musk’s pending acquisition of Twitter Inc. that goes like this. Musk offere
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       I’m sorry but more Twitter
-    
-  
+
+
 You can tell a simple story about Elon Musk’s  pending acquisition of Twitter Inc. that goes like this. Musk offered Twitter $54.20 per share in cash. Twitter’s board of directors consulted some bankers, who told them that the market price of Twitter’s stock was lower than $54.20, and that it would likely stay lower in the near future, due to Twitter not making all that much money. The board of directors had a fiduciary duty to maximize the stock price for those shareholders. They looked for higher bids than $54.20, but none materialized. So they had no choice but to take Musk’s $54.20.This simple story is the one that, for instance, Twitter Chief Executive Officer Parag Agrawal told Twitter employees last week.[1] Casey Newton reports on a Twitter all-hands call Friday:Why did Agrawal vote in favor of the deal? He spoke in the bloodless language of, well, a fiduciary.Agrawal: “As I’ve said, the board decides based on two factors. We act in the interest of our shareholders and look for value for them in the long term. Our job is to think about the price, and consider any offer on the table. And we compare that against the intrinsic value of the company based on the future-looking outlooks we have financially.”“We get a lot of advice from several lawyers and bankers in the process … And when we looked at all the information and all of the data, every one of us concluded that based on our fiduciary responsibility … this offer at the price it ended up at was in the best long-term interest of our shareholders.”OK sure, employees said, but how is it in Twitter’s best interest to go private?“This is the answer you don’t want to hear, right?” Agrawal said. “Twitter is a public company owned by shareholders. There are other companies which may have other legal mechanics … Twitter is not one of those companies.”You could imagine him giving an answer that employees did want to hear. “This will make our product stronger than ever.” “This will give us the funding we need to improve the service.” “This means we can focus on delighting our users rather than on the stock price.” “This means more free speech, which is a core value of ours.” “Elon Musk is a business visionary and he will run the company better.” “Elon Musk loves Twitter and uses it way, way more than any of the current executives or directors, so he will run it better than we do.” I don’t know. I’m not saying that I necessarily believe any of those things, or that Agrawal does, or that you should. I’m just saying you could imagine the CEO of a company, who had just voted to sell that company, telling the employees of the company that that was the right decision for the company, whatever that means. You could imagine some enthusiasm. You could imagine the CEO thinking that the person who values the company the most and will pay the most for it — Musk — will do good things with it. Agrawal said the opposite. The implication is that Twitter has interests as a company that are distinct from the interests of its shareholders, but that Twitter’s board felt it had no choice but to do what was best for shareholders even if it was worse for the company. This is a traditional story, but it sounds a bit strange in 2022. Ten years ago if you had said that the job of a board of directors was to maximize the stock price, a lot of people would say “well sure yes of course,” but now we have stakeholder capitalism and environmental, social and governance investing. In 2019, the chief executive officers of many of America’s biggest public companies (not Twitter) signed a Business Roundtable statement that “redefines the purpose of a corporation,” saying that they “share a fundamental commitment to all of our stakeholders,” not just shareholders. (I made fun of it here.) And the shareholders agree! In particular, Larry Fink at BlackRock Inc. has told CEOs that they “must benefit all of their stakeholders, including shareholders, employees, customers, and the communities in which they operate” and that “putting your company’s purpose at the foundation of your relationships with your stakeholders is critical to long-term success.” (I made fun of this here and  here.) Big companies now face activism whose message is not so much “make changes to maximize the share price” as it is “make changes to improve your environmental and social impact”; Exxon Mobil Corp.  lost a proxy fight to a tiny activist that wanted it to speed up its transition away from fossil fuels.Now, to be clear, all of these trends can be described in terms of shareholder value. Being nice to stakeholders and having a purpose and being environmentally friendly and so forth are all things that probably improve the long-term sustainability and profitability of a company, and shareholders can prefer them for purely financial reasons. Still they seem to have some independent weight in modern corporate thought. The Business Roundtable CEOs want to weigh the interests of all stakeholders and sometimes prefer other stakeholders over shareholders; at least some ESG investors are surely willing to sacrifice financial performance for environmental performance.And then Twitter’s CEO shrugs and says, in effect, “meh look this deal might be bad for our users and employees and product and mission, but we can’t think about that; the price is right and my only duty is to shareholders.” It’s strange!One thing to say about this story is that, as a description of the board’s legal duties, it is debatable.[2] The foundational Delaware hostile-takeover cases from the 1980s explicitly say that a board can consider “the impact on ‘constituencies’ other than shareholders (i.e., creditors, customers, employees, and perhaps even the community generally),”[3] or “the preservation of [a media company’s] ‘culture’” and “editorial integrity,”[4] in rejecting a takeover offer; shareholder value is not the only valid consideration. More recent cases focus more purely on shareholder value maximization, finding that “promoting, protecting, or pursuing non-stockholder considerations must lead at some point to value for stockholder,” and that a court “cannot accept as valid … a corporate policy that specifically, clearly, and admittedly seeks not to maximize the economic value of a for-profit Delaware corporation for the benefit of its stockholders.”[5]So if Twitter’s board had said “Twitter is not worth $54.20 per share and never will be, but we declined Musk’s offer anyway because we think it is bad for users and the product,” that would have been at least a risky move. But if it had said “we declined Musk’s offer because we think it is bad for users and the product, and we think that if we continue to improve the product and user experience then in the long run this obviously important social network should be worth more than $54.20 per share,” that would have been a defensible position even if, like, three-year earnings projections did not really support a $54.20 price.It would help, in making that case, if Twitter’s board and managers had a long-term plan. What is strange here is that the richest person on earth came in out of the blue with a not-particularly-preemptive offer to buy a service that he is obsessed with and that seems crucial to his success. Hearing that, you might think things like “huh this product must be pretty valuable.” You might sit down and try to think of ways to extract value from it, other than selling it to Musk at the first price he proposed. Twitter’s board had no ideas.Meanwhile you know who does? Elon Musk. Maybe? He seems to think that he can make Twitter worth more than $54.20 per share: He has publicly denied wanting to make money from this deal, but he has  pitched his banks on how he will improve Twitter’s economics. Perhaps he is wrong, but he has a decent track record. And he just got here! He started buying Twitter stock this year, and declined to do any nonpublic due diligence. Some random interloper has a plan to make Twitter worth more than $54.20, and has bet $33 billion of his own money that it will work. Meanwhile Twitter was trading in the $60s in October and Twitter’s board cannot fathom ever getting it back to those levels. Their position is pretty much “well we destroyed some value for shareholders and we’re gonna go now, bye.”But it is worse than that. A lot of people think of Twitter as a public utility, a public trust, “the town square,” a company with an important social mission that many of its users and employees and Elon Musk care about deeply. And its CEO and board of directors essentially can’t bring themselves to talk about it. When employees asked him about what was best for the company, Agrawal could talk only about the shareholders. Elon Musk is not at all embarrassed to say that Twitter has an important public mission, which is why he’s buying it. But its current management can’t say that, which is why they’re selling it.I want to be clear here that I am not saying that it was a bad decision, for Twitter’s product or users, to sell to Elon Musk. I have no idea; that’s not the point. The point is that the board seems to have put almost no weight on these questions. (Except Jack Dorsey, who does seem to have thought that Musk would run Twitter better than he did, and who seems happy about the sale.) I have  written this before, but the basic problem with Twitter’s management and board of directors seems to be that they do not care about Twitter, as a company or as a product, so they are left to care about shareholders.[6] This seems bad for everyone, including shareholders.There are a lot of tech companies whose CEOs do not think this way.[7] They are not all companies with “other legal mechanics,” as Agrawal said: Tesla Inc. and Amazon.com Inc. do not have dual-class stocks, and Elon Musk and Jeff Bezos have exactly the same duties to their shareholders as Agrawal has to his. But what Tesla and Amazon have are executives and boards who believe in what they are doing, and shareholders who trust them to pursue a long-term vision.[8] If you ask Elon Musk about his decision-making, he would never say “Tesla is a public company owned by shareholders and I just try to maximize their profits.” He would talk about his master plan to decarbonize the world, he would talk about self-driving cars and rockets and tunnels. He cares about the product, not the shareholders. That’s why Musk’s shareholders are rich, and why Bezos’s are, and why Twitter’s are selling at $54.20.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Even more Twitter
-    
-  
+
+
 By the time Elon Musk signed his deal to buy Twitter he was operating at quite a high level. He negotiated a gigantic leveraged buyout, and a gigantic and unusual financing package for it, in near-record time and on terms very favorable to himself. But when he started his efforts to buy Twitter, not all that long ago, it was all pretty ramshackle. He bought a bunch of stock in the open market, and once he got above 5% of the stock he was required to disclose his position publicly on a Securities and Exchange Commission filing. Due to some combination of sloppiness and disliking the SEC, he  filed the wrong form and filed it late.Ah well! The consequences of this are probably a small fine, which is going to be annoying for everyone: He will be completely undeterred and unpunished, and he’ll get to continue complaining that the SEC is harassing him. When this all happened,  I wrote: “Do you think he bothered to file an HSR notification before buying the stock?” The point here is:	With some exceptions, if you are going to buy more than  $101 million worth of a company’s stock, you have to  file a notification with the Federal Trade Commission (under the Hart-Scott-Rodino Antitrust Improvements Act of 1976) and wait for FTC clearance before buying.	Elon Musk was not exactly careful about filling out all the forms before buying Twitter stock.And sure enough!Elon Musk’s $44 billion Twitter takeover is unlikely to raise antitrust concerns. But what is already being scrutinized is Musk’s failure to comply with rules regarding disclosure of his initial 9% stake, according to people with knowledge of the situation.The Federal Trade Commission recently opened an inquiry into whether Musk failed to comply with an antitrust reporting requirement as he amassed his initial 9.1% stake in Twitter between the end of January and the beginning of April, The Information has learned. At the heart of the inquiry is whether Musk was initially buying as someone who wanted to influence Twitter management or whether he saw himself as more of a passive shareholder. Notably, Musk’s initial filing with the Securities and Exchange Commission categorized his purchase as a passive stake—which immediately raised questions given his public comments about how Twitter is run.Here again the consequences are probably a small fine, if that; the FTC seems slightly embarrassed that these antitrust rules apply to activist investments in public stocks, and it has proposed to change that. Still it is nice to know that Musk was filling out all the forms wrong, not just the SEC’s.Elsewhere in Twitter miscellany:	There is a view out there that Musk’s deal is not really an agreement to buy Twitter, but is rather an option to buy Twitter: If he decides he doesn’t want to do it, he can walk away and pay a $1 billion breakup fee. (See, e.g.,  Scott Galloway,  William Cohan, Fortune, the  Financial Times, etc.) This strikes me as a strange view in part because, you know, why would he walk away? The simplest interpretation of why he spent so much of his own money and many hours in negotiations with banks and Twitter is that he really wants to buy Twitter; if not, why go to all this trouble? Also, though, this view is wrong as a contractual matter. As I   wrote last week: “If Musk changes his mind without a good reason, Twitter can force him to close the deal, as long as his debt financing is available. That is, if all of the conditions to closing are satisfied, and if Musk’s banks are willing to fund … then Twitter can force Musk to put up the $21 billion of cash that he has promised and close the deal.” That is tricky — if Musk wants to back out then the financing might fall through on its own — and if it doesn’t work the damages are limited to $1 billion. But he can’t just say “never mind, here’s $1 billion.” 	“Twitter is  rushing to reassure advertisers that it will remain a safe place for brands after Elon Musk takes over the company,” which is kind of a weird thing for Twitter to say! How do they know what Elon Musk will do?	Musk   sold about $8.5 billion of Tesla Inc. stock last week to help pay for Twitter, which … seems … early? The deal won’t close for months. I suppose it does make sense to de-risk things a bit; of the $46-ish billion that Musk will pay for Twitter, some $30-ish billion will come from his Tesla stock (either selling it for cash or putting it up as collateral for margin loans). Waiting until closing to turn that stock into cash increases the risk that he won’t be able to.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 If a Brazilian iron mining company builds a dam, and the dam collapses, kills 270 people and causes “immeasurable environmental and social harm,” is that securities fraud? Of course it is:The Securities and Exchange Commission [Thurssday] charged Vale S.A., a publicly traded Brazilian mining company and one of the world’s largest iron ore producers, with making false and misleading claims about the safety of its dams prior to the January 2019 collapse of its Brumadinho dam. The collapse killed 270 people, caused immeasurable environmental and social harm, and led to a loss of more than $4 billion in Vale’s market capitalization. According to the SEC’s complaint, beginning in 2016, Vale manipulated multiple dam safety audits; obtained numerous fraudulent stability certificates; and regularly misled local governments, communities, and investors about the safety of the Brumadinho dam through its environmental, social, and governance (ESG) disclosures. The SEC’s complaint also alleges that, for years, Vale knew that the Brumadinho dam, which was built to contain potentially toxic byproducts from mining operations, did not meet internationally-recognized standards for dam safety. However, Vale’s public Sustainability Reports and other public filings fraudulently assured investors that the company adhered to the “strictest international practices” in evaluating dam safety and that 100 percent of its dams were certified to be in stable condition.This is all pretty normal stuff. As I  often say around here, every bad thing that a public company does, or that happens to a public company, can be recharacterized as securities fraud: (1) you said your dams were safe, (2) I bought the stock, (3) a dam collapsed, (4) the stock went down. But there are two somewhat unusual points here. One is that Vale is a Brazilian company and the dam was in Brazil, so it’s a bit odd for the U.S. SEC to regulate it. But Vale has American depository receipts that trade on the New York Stock Exchange, and also sold bonds in the U.S., and that’s  more than good enough for the SEC. When a Brazilian company’s dam in Brazil collapses and kills 270 Brazilians, the SEC will step in to protect American shareholders.The other point is that, as the press release says, “the SEC announced in March 2021 the formation of a Climate and ESG Task Force in the Division of Enforcement with a mandate to identify material gaps or misstatements in issuers’ ESG disclosures, like the false and misleading claims made by Vale.” Presumably most companies’ incorrect environmental, social and governance disclosures will not lead to 270 deaths and wipe out $4 billion of market capitalization. But the SEC is, as it were, staking a claim on them; it is telling companies “we will read your ESG disclosures, and if they’re wrong then that’s securities fraud just like everything else and we will come after you.”
-  
-    
+
+
       Elsewhere in mining
-    
-  
+
+
 The way a gold mining company works is that it digs gold out of the ground and then sells it for money. Then it uses the money to, like, buy shovels and pay workers and pay dividends to shareholders. It would be a bit weird for a gold mining company to dig up the gold and then keep all of it forever. The gold mining business, as a business, consists of both digging and selling.In general if you buy stock in a gold miner you are often betting on the price of gold: The mining company will probably make more money if the price of gold goes up. Sometimes miners hedge their gold production, though, selling gold futures (or buying put options, selling calls, etc.) to reduce the impact of future gold prices on their earnings. Some shareholders will like this, while others will prefer miners that are more levered to the price of gold.Meanwhile I guess if you buy shares in a Bitcoin mining company you really want to bet on the price of Bitcoin. And while a Bitcoin miner’s earnings are related to the price of Bitcoin, the relationship is not as direct as it is with a gold miner: Bitcoin miners do not actually sit on top of reserves of Bitcoins that belong to them; they compete with other miners to mine a global pool of Bitcoins. So apparently it is normal for Bitcoin mining companies to dig up their Bitcoins and not sell them? Just  write some covered calls instead?Publicly traded miners very much embrace the HODL, or “hold on for dear life,” mantra, hoarding tokens to make their stock more appealing to investors seeking exposure to Bitcoin’s gains. But these firms have major expenses; grinding through cryptographic puzzles to spawn new coins takes pricey computer hardware and giant power bills.Instead of selling Bitcoin to raise money, firms like Marathon Digital Holdings Inc. are selling Bitcoin call options to wring money out of their holdings, turning to a yield-generating strategy deployed throughout conventional finance.“Bitcoin miners are some of the most voracious yield seekers in the market today,” said Joshua Lim, head of derivatives at New York-based brokerage Genesis Global Trading, which offers options overwriting strategies to the industry. …Public miners have been on the lookout for yield-generating strategies to fund their rapid expansion without issuing new shares or debt. I … I mean … gold miners and oil companies solve this problem by digging up the gold or oil and then selling it, but the crypto financial industry is more innovative.
-  
-    
+
+
       Not mining
-    
-  
+
+
 At the Wall Street Journal, Richard Rubin writes about conservation easements:Oglethorpe County, atop a pile of granite, has long been home to rock quarries. Elberton, Ga., the self-proclaimed Granite Capital of the World, turns the region’s smooth, gray granite into cemetery headstones and statues.So promoters canvass Oglethorpe County for property that could become a quarry—and then recruit high-income investors who claim big tax deductions for promising not to build a quarry. ...By extrapolating from claimed per-acre values in two public court cases from the county, there could be more than $500 million in federal tax deductions generated from a place where all individuals’ adjusted gross income in 2019 was $314 million and charitable-donation deductions totaled $4.7 million.There is sort of a nice economic trick here, which is that if you dig up all of the granite in Georgia and sell it for headstones, the price of granite will probably fall, while if you dig up none of it the price of granite will probably rise. The latter doesn’t help you much, if you are in the business of digging up granite: If the price goes up but you have not dug up any granite, you can’t make money selling it. But if you are in the business of claiming tax deductions for not digging up granite, then the higher the price of granite is, the more money you can make by not digging it up. 
-  
-    
+
+
       Things happen
-    
-  
+
+
 Buffett  Lures Fans to Omaha With Stock Buys, Inflation Talk.  Bored Ape Metaverse Frenzy Raises Millions, Crashes Ethereum. Russia Makes Bond Payment In Dollars To Avoid Default. Russia could still default this week. Disney’s Clash With Florida Has CEOs on Alert. Wall Street Reluctantly Embraces Crypto. “Billionaire Mike Cannon-Brookes’s personal office bought 11% of AGL Energy Ltd. and will  oppose the utility’s plan to demerge its retail and power generation assets under a proposal that would keep coal-fired plants running for decades.” (Earlier.) Goldman Traders’ Streak of  $100 Million Days Hits 11-Year High. Ken Griffin’s  Citadel Hedge Fund Gained 7.5% in April Even as Markets Tanked. Adler shares plunge 45% after KPMG refuses to sign off on results. China Analyst Hong Hao Has  Social Media Accounts Frozen. Elon Musk’s China problem.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Agrawal’s statement on this call is maybe the bluntest version of the story, but it’s everywhere. Bloomberg’s  Michelle Davis and Liana Baker reported last week about the boardroom deliberations when the deal was signed: “The question was whether the stock could recover without taking the deal. … Twitter’s board concluded from the presentation that, based on where peers were trading, its shares wouldn’t reach Musk’s bid price anytime soon and they should take the offer.” This weekend the New York Times reported on the board’s decision-making, and, again, the price seems to have been the main consideration: “At Twitter, [Chairman Bret] Taylor weighed employee uncertainty and the societal implications of a deal versus the board’s fiduciary duty, people with knowledge of the situation said. That meant making a decision based on whether Twitter could reasonably achieve a value better than what Mr. Musk had put forward.” And Taylor told employees: “What I’ll tell you is that based on the analysis and the perception of risk, certainty and value, the board unanimously decided the offer from Elon represented the best value for our shareholders.” Outside commentators also embraced this view. For instance, on April 14, when Musk first announced his offer, William Cohan wrote that “the most important question” for the board was “whether the $54.20 price is ‘fair,’ from a financial point of view,” for shareholders, and that “If the answer is yes—and I believe it is, or soon will be—then the board will have little choice but to accept Musk’s offer.” [2] A good summary is this 2015 paper by former Delaware Supreme Court Chief Justice Leo Strine, who takes a strong view that in fact the sole fiduciary duty of a company’s board of directors is to its shareholders, but who goes through the arguments on both sides. On the not-just-shareholders side, I like this 2019 memo from Marty Lipton et al.: “To be clear, Delaware law does not enshrine a principle of shareholder primacy or preclude a board of directors from considering the interests of other stakeholders. Nor does the law of any other state. Although much attention has been given to the Revlon doctrine, which suggests that the board must attempt to achieve the highest value reasonably available to shareholders, that doctrine is narrowly limited to situations where the board has determined to sell control of the company and either all or a preponderant percentage of the consideration being paid is cash or the transaction will result in a controlling shareholder. Indeed, the Revlon doctrine has played an outsized role in fiduciary duty jurisprudence not because it articulates the ultimate nature and objective of the board’s fiduciary duty, but rather because most fiduciary duty litigation arises in the context of mergers or other extraordinary transactions where heightened standards of judicial review are applicable. In addition, Revlon’s emphasis on maximizing short-term shareholder value has served as a convenient touchstone for advocates of shareholder primacy and has accordingly been used as a talking point to shape assumptions about fiduciary duties even outside the sale-of-control context, a result that was not intended. Around the same time that Revlon was decided, the Delaware Supreme Court also decided the Unocal and Household cases, which affirmed the board’s ability to consider all stakeholders in using a poison pill to defend against a takeover—clearly confining Revlon to sale-of-control situations. The fiduciary duty of the board is to promote the value of the corporation. In fulfilling that duty, directors must exercise their business judgment in considering and reconciling the interests of various stakeholders—including shareholders, employees, customers, suppliers, the environment and communities—and the attendant risks and opportunities for the corporation.”[3] Unocal Corp. v. Mesa Petroleum Co., from 1985, which established the modern standard for evaluating takeover defenses: “If a defensive measure is to come within the ambit of the business judgment rule, it must be reasonable in relation to the threat posed. This entails an analysis by the directors of the nature of the takeover bid and its effect on the corporate enterprise. Examples of such concerns may include: inadequacy of the price offered, nature and timing of the offer, questions of illegality, the impact on ‘constituencies’ other than shareholders (i.e., creditors, customers, employees, and perhaps even the community generally), the risk of nonconsummation, and the quality of securities being offered in the exchange.”[4] Paramount Communications Inc. v. Time Inc., from 1989, allowing Time’s board to decline a higher-priced cash takeover offer to pursue a merger that better preserved its editorial independence: “Delaware law imposes on a board of directors the duty to manage the business and affairs of the corporation. … This broad mandate includes a conferred authority to set a corporate course of action, including time frame, designed to enhance corporate profitability. … Absent a limited set of circumstances as defined under Revlon, a board of directors, while always required to act in an informed manner, is not under any per se duty to maximize shareholder value in the short term, even in the context of a takeover. … The record attests to the zealousness of Time's executives, fully supported by their directors, in seeing to the preservation of Time's ‘culture,’ i.e., its perceived editorial integrity in journalism. We find ample evidence in the record to support the Chancellor's conclusion that the Time board's decision to expand the business of the company through its March 3 merger with Warner was entitled to the protection of the business judgment rule.”[5] EBay Domestic Holdings Inc. v. Newmark, from 2010: “Promoting, protecting, or pursuing non-stockholder considerations must lead at some point to value for stockholders. When director decisions are reviewed under the business judgment rule, this Court will not question rational judgments about how promoting non-stockholder interests—be it through making a charitable contribution, paying employees higher salaries and benefits, or more general norms like promoting a particular corporate culture—ultimately promote stockholder value. Under the Unocal standard, however, the directors must act within the range of reasonableness. … Having chosen a for-profit corporate form, the craigslist directors are bound by the fiduciary duties and standards that accompany that form. Those standards include acting to promote the value of the corporation for the benefit of its stockholders. The ‘Inc.’ after the company name has to mean at least that. Thus, I cannot accept as valid for the purposes of implementing the Rights Plan a corporate policy that specifically, clearly, and admittedly seeks not to maximize the economic value of a for-profit Delaware corporation for the benefit of its stockholders—no matter whether those stockholders are individuals of modest means or a corporate titan of online commerce.”[6] One half-baked theory of mine is that the fact that Twitter’s directors own so little stock makes them especially focused on short-term shareholder value. If you are a director of a public company and you own 5% of its stock, then (1) you believe in the company (that’s why you bought all that stock) and (2) you can head off criticism by saying that you have skin in the game. If you own only a tiny slice of the stock, then (1) you probably don’t care all that much about the company’s social mission and (2) you are very self-conscious about having no skin in the game, so you end up deferring to other shareholders.[7] Famously Mark Zuckerberg, who wrote, when Facebook Inc. went public in 2012, that “Facebook was not originally founded to be a company. We’ve always cared primarily about our social mission, the services we’re building and the people who use them. This is a different approach for a public company to take. … Simply put: we don’t build services to make money; we make money to build better services.” Since then Facebook has had let’s say a mixed social impact and made a gazillion dollars, presumably because Zuckerberg cares about his social mission and not making money.[8] Also executives who own a lot of stock, to be fair, though that cuts both ways; see footnote 6.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

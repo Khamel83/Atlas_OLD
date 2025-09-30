@@ -146,12 +146,12 @@ SORKIN: So is the problem that certain people have with *The New York Times* two
 
 CARR: I think that is sort of correct. But I also think that some people conflate our editorial pages and our news pages. They view them as one and the same, which is a consistent problem. For example, I wrote about Glenn Beck about a month ago, and in the 600 emails that I received afterwards, Frank Rich or Maureen Dowd were often mentioned—and they are both really great at what they do, but I don’t feel like I’m in the same business as them. So that’s one problem. The other is that charge of elitism, and of manufacturing a consent that doesn’t have anything to do with the middle of America. That is part of the paper’s history and where it grew its reporters, but the newsroom is not drenched in ivy like it used to be—and it includes schmucks like me who didn’t grow up going to certain prep schools. Believe me, some of those Ivy Leaguers are what makes the paper magnificent. But that’s not the only kind of person we have there.
 
-SORKIN: Two of the scariest words to me right now are citizen journalist. Arianna Huffington is crazy about citizen journalists, but I don’t want one any more than I want a citizen doctor. Why is citizen   
+SORKIN: Two of the scariest words to me right now are citizen journalist. Arianna Huffington is crazy about citizen journalists, but I don’t want one any more than I want a citizen doctor. Why is citizen
  journalism good? What is the virtue there?
 
 CARR: Well, the web is like a self-cleaning oven in that it will correct itself over time. The theory is that if you have lots of inputs of information, then the truth will gradually emerge from these thousands of points of light, and people will assemble from them an idea of the way things are. But my worry is that people will not do that, and instead gather what they need in order to reinforce their existing notions of the way things are, and there won’t be a civic common anymore where fact rules. I mean, everyone is entitled to an opinion, but the facts are not up for grabs.
 
-SORKIN: But nowadays facts are up for grabs, whether it’s where the president was born or how old the planet is or how much health-care reform is costing—and it’s hard to believe that’s not partly a result of   
+SORKIN: But nowadays facts are up for grabs, whether it’s where the president was born or how old the planet is or how much health-care reform is costing—and it’s hard to believe that’s not partly a result of
  citizen journalism.
 
 CARR: I think it’s ancient political narratives that have been supercharged by the spreadability of information on the web. Some lies will go just as viral—if not more viral—than some truths; they’ll spread just as quickly.

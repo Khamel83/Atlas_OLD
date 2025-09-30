@@ -135,7 +135,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20141013171409/htt
 
 <body>
           <div id="leaderboard">
-        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_leaderboard_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -146,7 +146,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_subscription_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -157,7 +157,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_pencil_slug_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -169,7 +169,7 @@ ec-ads-gpt">
 </div>
 
 </div>
-        <a href="/web/20141013171409/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141013171409im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>    
+        <a href="/web/20141013171409/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141013171409im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>
   <div class="special-report-header-sponsor"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_sponsored_sr_logo_1"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_sponsored_sr_logo_1");  });
 </script><noscript>
   <a href="//web.archive.org/web/20141013171409/http://pubads.g.doubleclick.net/gampad/jump?iu=/5605/teg.fmsq/ajqj/a/p&amp;t=specialreport%3D20100717%26subs%3Dn%26wsub%3Dn%26sdn%3Dn%26!c%3D16564172&amp;sz=155x70&amp;c=552768494" target="_blank">
@@ -207,7 +207,7 @@ ec-ads-gpt">
       Jul 15th 2010    </time>
                       | <a href="/web/20141013171409/http://www.economist.com/printedition/2010-07-17" class="source">From the print edition</a>
             </aside>
-  
+
   <div class="main-content" itemprop="articleBody">
     <div class="content-image-float"><img itemprop="contentUrl" src="http://web.archive.org/web/20141013171409im_/http://media.economist.com/images/images-magazine/2010/29/sr/201029srp003.jpg" alt=" " title="" width="290" height="391"><span class="caption">Liquid asset</span></div>
 <p>BY ALMOST any statistical measure Egyptians are far better off than ever before, even though there are many more of them. The population has nearly doubled in size in just 30 years, from 44m in 1980 to 84m today. Farmers who until the 1970s spent half their working day on the back-breaking labour of lifting irrigation water now use diesel pumps, plough with tractors and thresh their wheat by machine. Life expectancy at birth has risen from 52 years in 1960 to 72 now. Back then Egyptians were lucky to own a transistor radio. Now two-thirds of homes have a satellite receiver, 87% own a fridge, 97% have piped water and 99% have electricity. Egyptians chatter on 57m mobile phones, and the number of passenger cars on the roads has more than doubled in the past decade. </p>
@@ -247,7 +247,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market 
+  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market
 ">
     <div class="content clearfix">
     <div id="ec-perfect-market-container-content"></div>  </div>

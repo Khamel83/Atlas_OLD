@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        I mostly think of the Federal Deposit Insurance Corp. as a US government regulator that provides a government backstop on bank deposits. If 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        I mostly think of the Federal Deposit Insurance Corp. as a US government regulator that provides a government backstop on bank deposits. If
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       First Republic
-    
-  
+
+
 
 I mostly think of the Federal Deposit Insurance Corp. as a US government regulator that provides a government backstop on bank deposits. If a bank fails, the government — the FDIC — will come in and take it over and pay out all depositors (up to $250,000 each) with government money. This backstop is what makes bank deposits safe, what makes them money: An FDIC-insured bank account has no credit risk, because it is backed by the US government’s ability to print dollars. 
 There is another way to think about it, though, which is that the FDIC is a sort of mutual-aid program among banks. If a bank fails, the FDIC will take it over and pay out any insured deposits, but the money does not come from a government printing press but from the FDIC’s own separate insurance fund. And  this insurance fund, in turn, comes from the banks: It “is funded mainly through quarterly assessments on insured banks,” with each US bank paying some money every quarter based on its size and the risk it poses to the financial system.
@@ -86,37 +86,37 @@ The Federal Deposit Insurance Corp. has been giving the bank time to reach a pri
 
 Meanwhile, I argued, it’s quite hard for First Republic to find a buyer, or even to raise capital, because its assets probably are worth less than its liabilities. In that scenario, it would make a kind of sense for First Republic to just zombie along: Actually fixing the problem would require First Republic (and the FDIC, and the other banks) to recognize losses, while doing nothing can defer them. The fact that First Republic’s advisers are pushing to recognize and share the losses suggests that the FDIC is pushing them to take the losses, which suggests that time is running out.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Getty 
-    
-  
+
+
 
 We   talked yesterday about a guy, Scott Murray, who put out a press release saying that his firm, Trillium Capital LLC, would buy Getty Images Holdings Inc. for $4 billion, conditional on finding someone to give him $4 billion. This is, I should say, a condition that sometimes exists in merger proposals. Last year Elon Musk announced that he would buy Twitter Inc. for $40 billion if he could find $40 billion, and people — certainly including me — expressed some doubt that he would be able to raise the $40 billion. And Twitter’s board of directors kind of held him off until he did find the money,   but he did, and then they really had no choice but to negotiate and ultimately sell to him.
 Or, like, a big private equity sponsor might put in a proposal to buy a company, and the proposal will say something like “this proposal is not binding and is conditional on receiving customary financing.” And the company might very well reply “okay, sounds good, let’s talk,” and the private equity firm will start due diligence and negotiate a deal and talk to its bankers about raising the financing. And then if, while they are negotiating, the leveraged finance market collapses, the private equity firm will say “ah well never mind, can’t get the money” and the deal will die. The company knew that the proposal was contingent on financing, and knowingly took the risk that it might be wasting its time, because it figured the financing would probably come through and it probably wouldn’t be a waste.
@@ -132,11 +132,11 @@ Absent further details and the demonstration of credibility by Trillium Capital 
 The problem for Murray is that he absolutely cannot raise the $4 billion he needs to buy Getty unless Getty is willing to talk to him, and Getty is not willing to talk to him unless he can credibly promise to raise the $4 billion. Ah well.
 The stock is up a bit today? It closed at $5.06 per share on Friday, before Murray’s $10-per-share offer, and at $6.63 on Monday, after climbing as high as $8.18 when he announced the offer; it was trading at about $6.47 at 1 p.m today. I suppose if Getty won’t talk to him he will just have to sell his shares? At 27% above where the stock was trading before he put out this press release? Ah well.
 
-  
-    
+
+
       Meanwhile in crypto
-    
-  
+
+
 
 Celsius Network is one of several cryptocurrency shadow banks that attracted customers by telling them that the traditional financial system was bad and rigged against them and that they should trust Celsius instead. “Either the bank is lying or Celsius is lying,” founder Alex Mashinsky said, correctly. Celsius is now extravagantly bankrupt and its customers are having limited luck getting their money back. If you are a customer who was attracted to Celsius by the pitch that the traditional system is bad and rigged, and only crypto is trustworthy, what do you make of this? I suppose the two possibilities are:
 	“Oops, I was wrong, turns out there is some value in regulation and disclosure and deposit insurance”; or	Double down: The traditional system is rigged, crypto is the future, do your own research, etc.
@@ -157,14 +157,14 @@ The decision came after months of wrangling and the intervention of multiple fed
 
 Yes, look, if I were a highly profitable international crypto exchange  in the crosshairs of US regulators, I would not want to add to my US business either. Obviously the better time for US regulators to crack down on crypto would have been before Voyager went bankrupt and lost its customers’ money, and it’s inconvenient for those customers that the current US crackdown has prevented them from getting their money back (from Binance). But I suppose the regulatory goal is to make it as hard as possible for anyone else in the US to trust their money to a bankrupt crypto platform.
 
-  
-    
+
+
       Euphemisms
-    
-  
+
+
 
 I don’t know, if you are running an international money laundering group, and you’re doing it over a group chat: 
-	Probably just don’t do that? Talk in person? It’s hard, though, I get it; Whatsapp is more convenient.	
+	Probably just don’t do that? Talk in person? It’s hard, though, I get it; Whatsapp is more convenient.
 Definitely don’t name your group chat, like, “International Money Laundering Group Chat,” or “Crime LOL,” or “the Cartel,” or “Prosecutors Don’t Look at This One!”	I guess you could name it, like, “Import/Export Travel Chat,” something neutral and professional.	At the margin, naming it “Sunshine and Lollipops” is probably bad?
 
 Anyway:
@@ -177,60 +177,60 @@ Elsewhere in Don't Put It In Writing, here’s a Washington Post  book excerpt a
 “I literally have a daily calendar alert that says: ‘Don’t put s--- in texts,’ ” I once overheard Sean say at a party. His general advice for staff, he joked, was that “it’s not illegal if you do it over the phone.”
 This mantra, for him, appears to be about about avoiding embarrassment rather than doing crimes. But if you are doing crimes, and you have a daily calendar alert saying “don’t put anything in texts,” that’s definitely going to be part of the evidence against you at trial.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The New Finance Rich List. Teck Pulls Vote on Coal Split, Handing Momentum to Glencore. Boaz Weinstein Preps for Credit Crunch After Wins on Banking Turmoil. UK Blocks Microsoft’s $69 Billion Activision Deal. Activision blasts UK as ‘closed for business’ after regulator blocks $75bn Microsoft deal. SPACs Delivered Easy Money, but Now Companies Are  Running Out. Horses, art and private jets: the charmed life of Russian warlord’s family.  Ape Water?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is true even very far away from the regulated financial system. In July 2022, I  talked to Sam Bankman-Fried at the Bloomberg Crypto Summit about his process in bailing out various crypto shadow banks; the takeaway was that Bankman-Fried was happy to lose some money on these bailouts in order to prop up confidence in the system. This was the correct analysis! It was correct if Bankman-Fried was running one of the biggest and most lucrative crypto exchanges and wanted crypto to be a good ecosystem for the long term, and it was correct if he was running a big crypto scam and wanted his marks to be confident. The point is that a leveraged financial institution, good or bad, benefits from broad systemic confidence.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -241,46 +241,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cimowo.5o1g/5620945b.gif" alt="" border="0" /></a>

@@ -12,7 +12,7 @@
 
 # NO REDIRECT
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![NO REDIRECT]()
 

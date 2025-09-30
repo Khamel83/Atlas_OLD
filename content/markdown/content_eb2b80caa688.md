@@ -156,8 +156,8 @@ window.addEventListener("load", () => {
     <input name="hdnRedirectToLoginUrl" type="hidden" id="hdnRedirectToLoginUrl" value="https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&amp;pendoQ4PId=_q4pidval_&amp;projectId=studio&amp;step=login&amp;companyName=Altria+Group%2c+Inc.&amp;projectIdentifier=Altria+Group%2c+Inc.&amp;mainColor=%230F5CA3&amp;scope=openid+profile+email&amp;helpUrl=https%3a%2f%2fhelp.events.q4inc.com%2fen%2fir-website.html&amp;response_type=code&amp;response_mode=query&amp;nonce=B5PJRwMiIX80jWOv7yqQTNUz8&amp;skipUrl=https%3a%2f%2finvestor.altria.com%2fpress-releases%2fnews-details%2f2018%2fAltria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth%2fdefault.aspx&amp;userEmail=_q4lemail_&amp;redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect%3fstate%3deyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLmFsdHJpYS5jb20vcHJlc3MtcmVsZWFzZXMvbmV3cy1kZXRhaWxzLzIwMTgvQWx0cmlhLU1ha2VzLTEyOC1CaWxsaW9uLU1pbm9yaXR5LUludmVzdG1lbnQtaW4tSlVVTC10by1BY2NlbGVyYXRlLUhhcm0tUmVkdWN0aW9uLWFuZC1Ecml2ZS1Hcm93dGgvZGVmYXVsdC5hc3B4IiwiZXhwIjoxNzM5MTU1MzQyLjAsImlhdCI6MTczMzg5NTc0Mi4wLCJpc3MiOiJRNC5XZWIuUHVibGljLlNpdGUiLCJhdWQiOiJ1cHN0cmVhbS5jZG4ud2ViLnByZC5xNGluYy5jb20ifQ.ID0-0WAAV34N5Ns_8FkTuLAkDtq44DX2uvsX585kanU"/>
 
 <input type="hidden" id="__RequestVerificationToken"/>
-    
-    
+
+
     <div id="pageClass" class="Sectionpress-releases PageDefault PagePressReleasesPressReleaseDetails LayoutThreeColumnLayout Languageen-US module_prDetails module_q4default">
         <div class="PageDefaultInner">
             <div id="litPageDiv" class="PagePressReleasesPressReleaseDetails SectionPressReleasesPressReleaseDetails ParentSection_press-releases">
@@ -180,7 +180,7 @@ function GetSignature(){{ return ''; }}
 </script>
 
 <a id="lnkPostback" aria-hidden="true" aria-label="lnkPostback" href="javascript:__doPostBack('lnkPostback','')" style="display: none"></a>
-                    
+
 <div id="mo-irw-wrapper" class="investors-MO bodyclass">
     <div id="wrapper">
         <header>
@@ -191,7 +191,7 @@ function GetSignature(){{ return ''; }}
                 <div id="fullBodyWrapper">
                     <div class="pane pane--header">
                         <span class="HeaderPaneDiv"><span class="HeaderPaneDiv1"><div id="_ctrl0_ctl06_divModuleContainer" class="module module-embed">
-    
+
     <script>
 var q4Helpers = {
     createMatrix: function(array, numOfCells) {
@@ -205,7 +205,7 @@ var q4Helpers = {
     },
     insertEmptyObjects: function(array, expectedLength, obj) {
             obj = obj || { empty: true };
-        
+
         var diff = expectedLength - array.length,
             isFull = array.length === expectedLength;
 
@@ -232,7 +232,7 @@ if (!isFull) {
 </script>
 
 <script>
-//Array findIndex Polyfill 
+//Array findIndex Polyfill
 Array.prototype.findIndex||Object.defineProperty(Array.prototype,"findIndex",{value:function(r){if(null==this)throw new TypeError('"this" is null or not defined');var e=Object(this),t=e.length>>>0;if("function"!=typeof r)throw new TypeError("predicate must be a function");for(var n=arguments[1],i=0;i<t;){var o=e[i];if(r.call(n,o,i,e))return i;i++}return-1},configurable:!0,writable:!0});
 // Array filter Polyfill
 Array.prototype.filter||(Array.prototype.filter=function(t,r){"use strict";if("Function"!=typeof t&&"function"!=typeof t||!this)throw new TypeError;var i,e=this.length>>>0,o=new Array(e),n=this,f=0,h=-1;if(void 0===r)for(;++h!==e;)h in this&&(i=n[h],t(n[h],h,n)&&(o[f++]=i));else for(;++h!==e;)h in this&&(i=n[h],t.call(r,n[h],h,n)&&(o[f++]=i));return o.length=f,o});
@@ -240,7 +240,7 @@ Array.prototype.filter||(Array.prototype.filter=function(t,r){"use strict";if("F
 Math.sign||(Math.sign=function(n){return(n>0)-(n<0)||+n});
 </script>
 </div></span><span class="HeaderPaneDiv2"><div id="_ctrl0_ctl09_divModuleContainer" class="module module-embed hidden">
-    
+
     <script type="text/javascript">
     var Q4Settings = {
         apiKey: 'BF185719B0464B3CB809D23926182246',
@@ -279,7 +279,7 @@ Math.sign||(Math.sign=function(n){return(n>0)-(n<0)||+n});
 		</ul></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/frequently-asked-questions/default.aspx">Frequently Asked Questions</a></li>
 	</ul></li>
 </ul></nav></span><span class="HeaderPaneDiv2"><div id="_ctrl0_ctl36_divModuleContainer" class="module module-embed">
-    
+
     <style>
     #bwbodyimg {
         min-width: 320px;
@@ -313,12 +313,12 @@ img[style="width:0;height:0"] {
                                     <div class="row">
                                         <div class="pane pane--banner col-12">
                                             <span class="HeaderPane2Div4"><div id="_ctrl0_ctl15_divModuleContainer" class="module module-embed in-page-banner row">
-    
+
     <div class="page-header-image field-header-image check">
     <div class="overlaycheck"></div>
 </div>
 </div></span><span class="HeaderPane2Div6"><div id="_ctrl0_ctl21_divModuleContainer" class="module module-embed">
-    
+
     <div class="header-inpage-share">
     <div id="header-share">
         <!-- print -->
@@ -394,21 +394,21 @@ img[style="width:0;height:0"] {
                                                     <div class="pane pane--left">
                                                         <span class="LeftPaneDiv"><span class="LeftPaneDiv9"><div id="_ctrl0_ctl30_divModuleContainer" class="module module-breadcrumb">
     <div class="module_container module_container--outer">
-        
+
         <div class="module_container module_container--inner">
 <a href="http://web.archive.org/web/20241211124153/https://www.altria.com/?src=breadcrumb" class="module-breadcrumb_corp-link">Home</a>
 <span class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
 <span class="module-breadcrumb_ir-link">Investors</span>
             <a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/at-a-glance/default.aspx" id="_ctrl0_ctl30_hrefHome" class="module-breadcrumb_home-link js--hidden">Investors At-A-Glance</a>
-            
+
                     <span id="_ctrl0_ctl30_repeaterLinks_ctl00_lblSeparator" class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
                     <a id="_ctrl0_ctl30_repeaterLinks_ctl00_link" href="http://web.archive.org/web/20241211124153/https://investor.altria.com/press-releases/default.aspx">Press Releases</a>
-                    
-                
+
+
                     <span id="_ctrl0_ctl30_repeaterLinks_ctl01_lblSeparator" class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
-                    
+
                     Press Release Details
-                
+
         </div>
     </div>
 </div></span></span>
@@ -432,7 +432,7 @@ img[style="width:0;height:0"] {
                                                         <div class="inner-grid col-12">
                                                             <div id="irwWrapper" class="pane pane--content">
                                                                 <span class="ContentPaneDiv"><span class="ContentPaneDiv8"><div id="_ctrl0_ctl27_divModuleContainer" class="module module-embed">
-    
+
     <div class="privacy-warning permisive show initialized">
     <div class="info">
         <div class="content-section">
@@ -455,8 +455,8 @@ img[style="width:0;height:0"] {
 </script>
 </div></span><span class="ContentPaneDiv3"><div id="_ctrl0_ctl39_divModuleContainer" class="module module-details module-news-details container">
     <div class="module_container module_container--outer">
-        
-       
+
+
         <div class="module_container module_container--inner">
             <h2 class="module-details_title">
                 <span id="_ctrl0_ctl39_lblModuleDetailHeadline">Altria Makes $12.8 Billion Minority Investment in JUUL to Accelerate Harm Reduction and Drive Growth</span>
@@ -473,7 +473,7 @@ img[style="width:0;height:0"] {
                             <span id="_ctrl0_ctl39_lblDocument" class="module_file-size"></span>
                         </a>
                     </div>
-                    
+
                 </div>
                 <div class="module_body">
                     <style type="text/css" xmlns:xn="http://www.xmlnews.org/namespaces/meta#">.bwalignc { text-align: center; list-style-position:inside; }
@@ -1295,14 +1295,14 @@ _________________________
 
 </p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Source: Altria Group, Inc.</p>
                 </div>
-                
+
                 <div class="module-news-details_category">
-                    
-                    
+
+
                 </div>
             </div>
         </div>
-       
+
     </div>
 </div>
 </span></span>
@@ -1327,9 +1327,9 @@ _________________________
         <footer class="pane pane--footer">
             <div id="footer" class="container"></div>
             <span class="FooterPaneDiv"></span>
-            
+
             <span class="Q4FooterDiv7"><div id="_ctrl0_ctl24_divModuleContainer" class="module module-embed hidden">
-    
+
     <script>
     // $('.module-breadcrumb a.module-breadcrumb_home-link').text("Investors");
     //ADDING NOINDEX TAG FOR THEIR OWN COVEO SEARCH SCRIPT
@@ -1567,10 +1567,10 @@ var checkExist = setInterval(function() {
 }, 500);
 </script>
 </div></span><span class="Q4FooterDiv1"><div id="_ctrl0_ctl33_divModuleContainer" class="module module-embed">
-    
+
     <script type="text/javascript">
     q4App.scrollingTable('.module-details .module_body table');
-    
+
 //     00385863
     $('.module-news-details:contains("Altria Reports 2022 Second-Quarter and First-Half Results; Reaffirms 2022 Full-Year Earnings Guidance")').find('.module_news-details_download').attr('href', 'http://web.archive.org/web/20241211124153/https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presentations/2022/2022-Q2/Press-Release.pdf');
 </script>

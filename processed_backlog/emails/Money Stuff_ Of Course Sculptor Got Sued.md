@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic situation at Sculptor Capital Management Inc. is this. In July, Sculptor, a publicly traded asset management firm, signed a deal t
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 The basic situation at Sculptor Capital Management Inc. is this. In July, Sculptor, a publicly traded asset management firm, signed a deal to sell itself to Rithm Capital Corp. for $11.15 per share. Then, in August, a group of hedge fund managers led by Boaz Weinstein and including Bill Ackman, Marc Lasry and Jeff Yass   offered to buy Sculptor for $12.25 per share instead.
 Sculptor’s board rejected Weinstein’s offer, worrying that it was too conditional. Weinstein didn’t have fully committed financing, and his deal (like Rithm’s) required the consent of Sculptor’s investor clients: Weinstein’s proposed deal would allow him to walk away if fewer than 50.1% of Sculptor’s hedge fund clients, or fewer than 80% of its real estate and collateralized loan obligation clients, consented to him taking over. (Rithm’s deal required 85% consents.) Rithm planned to keep Sculptor’s current chief executive officer and chief investment officer, Jimmy Levin, whom Sculptor’s clients presumably like. Weinstein would presumably put himself in charge of Sculptor, and the board worried that this would scare clients away, the deal would not get the required consents, and Weinstein would walk away, leaving Sculptor with nothing.
@@ -66,7 +66,7 @@ Sculptor’s board said this — the $12.25 Weinstein deal was too risky, so it
   [1]
  and (3) raising their bid to $12.76, with a possibility of $13 if Sculptor engaged with them.
 The result was:
-	Weinstein’s bid ($12.76 or so) was higher than the Rithm deal ($11.15).	Weinstein’s bid was much less risky than Sculptor originally argued. The financing is locked up, and the client-consent risk is lower: Even if all of Sculptor’s hedge fund clients say no to Weinstein, the deal will still close and Sculptor’s shareholders will still get their $12.76.	
+	Weinstein’s bid ($12.76 or so) was higher than the Rithm deal ($11.15).	Weinstein’s bid was much less risky than Sculptor originally argued. The financing is locked up, and the client-consent risk is lower: Even if all of Sculptor’s hedge fund clients say no to Weinstein, the deal will still close and Sculptor’s shareholders will still get their $12.76.
 Rithm’s deal was now riskier: Rithm should have no problem getting financing or client consents (indeed, it seems to have already gotten the 85% consents it needs), but its deal (like any deal) is contingent on a vote of Sculptor’s shareholders. And the shareholders would prefer to get $12.76 rather than $11.15. Sculptor’s stock has traded above $11.15 since Weinstein’s bid became public; it has been above $12 since Oct. 2. Sculptor’s shareholders do not want the $11.15 Rithm deal — they think the stock is worth more than that — and so they are unlikely to vote for it. They could vote down the Rithm deal and hope that Weinstein will still be there, at $13 or $12.76 or   even $12.25. The stock price suggests they would do that.
 
 Sculptor really does not want to sell to Weinstein, though, so last week it   cut a new deal with Rithm. The new deal raised the price to $12.00 per share, still below Weinstein’s offer. In return, Sculptor … didn’t get rid of the shareholder vote (you can’t do that), but it did a lot to lock up the shareholder vote:
@@ -105,37 +105,37 @@ Here is  Sculptor’s statement:
 The Special Committee’s role is to recommend the transaction that it believes is in the best interest of stockholders, based on price and certainty of closing. Contrary to Dan Och’s assertions in the baseless lawsuit filed today that he too seeks to act in the best interest of stockholders, his ongoing campaign against the company, including his conduct throughout the Special Committee’s process, has cost stockholders significant value. His complaint is replete with materially misleading statements, and Sculptor intends to vigorously defend itself.”
 I suppose we will see in court. There’s a hearing for Nov. 9 or 10, about a week before the vote on the Rithm deal, and a judge either will or won’t let that vote go forward. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Speaking of courts
-    
-  
+
+
 
 Presumably Boaz Weinstein and Dan Och called up their lawyers and said “this seems unfair, is Sculptor allowed to do this?” And presumably the lawyers did not say to them “well, Section 420 of the Delaware General Corporation Law sets out the factors that a board of directors is allowed to consider in rejecting a merger proposal at a higher price, and it says that in the case of a client-consent condition the board needs to” etc. There is no Section 420 of the Delaware General Corporation Law. The stuff that the board is allowed to do is not really written down anywhere in clear and comprehensive form.
 Presumably the basic thrust of the advice that Och’s lawyers gave him was something like: “I think that a Delaware Court of Chancery judge, in looking at these facts, would be offended, and would think they’re unfair, and might enjoin the deal.” Or: “I think that a Delaware judge would think this is fine, but I’m not sure, so we could take a shot.” Or even: “Of the  seven Court of Chancery judges in Delaware, three would find this offensive and four would think it’s fine, so let’s see.” Some of this advice would be based on what the lawyers know of the current judges, and some of it would be based on reading previous Delaware opinions for clues on how Delaware judges would treat this case. But the essential question here really is, “will a Delaware judge find this situation fair,” because lawsuits about breaches of fiduciary duty really are about “equity,” about the judge’s somewhat subjective (though informed by precedent) views of fairness. (“The Court has subject matter jurisdiction over this action because it brings equitable claims and seeks equitable relief,”  says Och’s complaint.) And there are seven relevant Delaware judges,
@@ -158,11 +158,11 @@ But the fallout has only just begun. The court is working to redistribute cases 
 
 For the past few years, the correct answer to many technical legal questions about the structuring of multibillion-dollar distressed debt deals would have begun with “David R. Jones in Houston has a secret girlfriend at Jackson Walker.” The law is weird.
 
-  
-    
+
+
       Private markets are the new public markets
-    
-  
+
+
 
 One theory is that public markets are deeper and more liquid than private markets. If your stock is publicly listed, then anyone can buy it: mutual funds, hedge funds, individual retail investors, everyone. Also they can trade it: If they change their mind about owning the stock, they can sell it to someone else. This liquidity should make them willing to pay more for the stock. And the fact that you can sell it to anyone means that you can probably get a higher price. There are more possible bidders, more competition for the shares, so they should get a higher price. This is the traditional theory. Companies would tend to start small and then, when they got big, they’d usually go public, because they figured that their shares would be worth more in the public markets.
 Another theory is that, at this point, “private” investors — the ones who can and do buy shares in private companies, the big institutional investors and family offices and so forth — are so big and important that you don’t lose much by being private instead of public; a few retail investors are not really going to increase the demand for your stock. And, meanwhile, the private investors will pay more for private stock than for public stock. Why? I find this a bit mysterious. A few possible answers:
@@ -185,11 +185,11 @@ The European private equity firm is discussing plans to unveil its intention to 
 
 A different theory.
 
-  
-    
+
+
       Analyst names
-    
-  
+
+
 
 I dunno, here’s a result in empirical finance:
 When two people coincidentally have something in common (such as a name or birthday), they tend to like each other more and are thus more likely to offer help and comply with requests. This dynamic can have important legal and ethical consequences whenever these incidental similarities give rise to unfair favoritism. In a large-scale, longitudinal natural experiment, covering nearly 200,000 annual earnings forecasts over more than 25 years, we show that when a CEO and a securities analyst happen to share a first name, the analyst’s forecast is more accurate. We offer evidence that name matching improves forecast accuracy due to CEOs privately, selectively sharing important information with name-matched analysts. This effect holds above and beyond the effects of gender- and ethnicity-matching. Additionally, we show that this effect is especially pronounced among CEO-analyst pairs who share an especially uncommon first name. Our research thus demonstrates how incidental similarities can give way to special treatment. 
@@ -199,15 +199,15 @@ That’s from “Sharing Names and Sharing Information: Incidental Similarities 
 If you work at a hedge fund and your model overweights sell-side price targets from analysts whose names are similar to the names of the CEOs they cover, I would very much like to hear from you. I mean, if you’ve been tracking this for years, but also if you read this paper last month (or today!) and immediately started implementing it in your model. Is this the sort of paper that you read and think “ooh there’s alpha here,” or is it just the sort of paper that you read and think “ha, that’s funny, that should be in Money Stuff”?
 Obviously if you work at a hedge fund and you skip all the modeling and just hire analysts with the same names as CEOs to get inside information then I really want to hear from you.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 J&J Weighs  Third Bankruptcy to Resolve Tainted Baby Powder Suits. Bondholdings Become  Less of a Burden at Bank of America and Other Big Banks. China Property Bonds Looked Cheap at 20 Cents on the Dollar.  They Weren’t. Choice Hotels Unveils $7.8 Billion  Takeover Offer For Wyndham. Goldman Sachs, BNY Mellon Join Post-Earnings   Bank Bond Spree.  PwC succession twist followed debate on management style. Apollo, Goldman Eye Record €4.5 Billion   Direct Loan for Adevinta. US fintech  Plaid hires first chief financial officer on road to potential IPO. Wealthy Travelers Have Found an Even More Desirable Way to   Fly Private.  Park Slope Parents Is Old Enough to Order a Drink. “They want a cool, good-looking  30-year-old butler.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] It does require 70% of real estate clients and 80% of CLO clients to consent, but those seem to be pretty separate businesses where the management and strategy would not change very much under either Rithm or Weinstein. See page 89 of  Sculptor’s merger proxy for details on the consent conditions.
 
 
@@ -223,48 +223,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] It is not clear to me how much this mattered for the cases: “The law firm instructed Freeman to stop working or billing on any case that had been assigned to Judge Jones,” and “the firm in most cases served as local Texas counsel in collaboration with powerhouse law firm Kirkland & Ellis.” It’s not like she was making the arguments and he was agreeing with them. Still, obviously a bad look.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjos03.5k6a/73c15836.gif" alt="" border="0" /></a>

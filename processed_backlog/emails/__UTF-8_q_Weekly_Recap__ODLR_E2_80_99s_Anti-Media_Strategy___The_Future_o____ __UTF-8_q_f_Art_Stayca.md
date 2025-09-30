@@ -77,7 +77,7 @@ Circle
 Becoming an Inner Circle member now takes you even more
 inside to exclusive coverage you won't get anywhere else
 
- 
+
 
 Megaphone
 Exclusive bonus days of select newsletters
@@ -109,7 +109,7 @@ LAUREN SHERMAN, RACHEL STRUGATZ & SARAH SHAPIRO
 Inner Circle subscribers receive exclusive access to bonus
 Thursday editions of Line Sheet
 
- 
+
 
 Auction Paddle
 Wall Power
@@ -134,6 +134,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=IC+Exclusi
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?utm_campaign=IC+Exclusive+Week+Review+-+RESEND+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=IC+Exclusive+Week+Review+-+RESEND+SUBSCRIBERS+%282%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

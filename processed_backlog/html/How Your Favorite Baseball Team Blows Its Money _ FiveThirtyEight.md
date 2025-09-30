@@ -7,5 +7,5 @@
 
 **Read more:** [Don’t Be Fooled By Baseball’s Small-Budget Success Stories »](https://fivethirtyeight.com/features/dont-be-fooled-by-baseballs-small-budget-success-stories/)
 
-![Lopez-feature-MLBpayroll-mobile](https://fivethirtyeight.com/wp-content/uploads/2015/07/lopez-feature-mlbpayroll-mobile1.png)  
+![Lopez-feature-MLBpayroll-mobile](https://fivethirtyeight.com/wp-content/uploads/2015/07/lopez-feature-mlbpayroll-mobile1.png)
 ![Lopez-feature-MLBpayroll](https://fivethirtyeight.com/wp-content/uploads/2015/07/lopez-feature-mlbpayroll4.png?w=1024)

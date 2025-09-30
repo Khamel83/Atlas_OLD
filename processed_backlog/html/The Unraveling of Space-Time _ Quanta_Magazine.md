@@ -38,7 +38,7 @@ Enter your new password
 Sign Up
 
 Creating an account means you accept Quanta Magazine's
-  
+
 [Terms & Conditions](https://www.quantamagazine.org/terms-conditions) and [Privacy Policy](https://www.quantamagazine.org/privacy-policy)
 
 We care about your data, and we'd like to use cookies to give you a smooth browsing experience. Please agree and read more about our [privacy policy](https://www.quantamagazine.org/privacy-policy).

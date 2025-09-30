@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and next week, back in April.The simplest form of fraud is that you lie to someone and th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and next week, back in April.
 
-  
-    
+
+
       Nothing is securities fraud?
-    
-  
+
+
 
 The simplest form of fraud is that you lie to someone and they give you money. Perhaps you give them something in exchange for their money, but you lie about its attributes. (They pay you for magic beans, but the beans are not magic.) Or perhaps you lie about giving them something and give them nothing. (They pay you for the Brooklyn Bridge, but you do not give them the Brooklyn Bridge.) Fraud is often illegal, though exactly how it is illegal will depend on how you do the fraud, and to whom, and what you are lying about.
 For instance, doing fraud about securities is illegal under US federal law; this is called securities fraud. Securities fraud often takes the simple form: You lie to someone (about securities) and they give you money (for the securities). You tell people that you have started a company that has discovered cold fusion, you offer them a 1% stake in the company (stock, a security) for $1 million, they pay you, you deliver the stock, but you were lying about the cold fusion.
@@ -107,37 +107,37 @@ Seems wrong to me, but what do I know!
   [8]
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Reddit
-    
-  
+
+
 
 There is a standard argument, whenever a big tech company does an initial public offering, about whether it “left money on the table.” When a company does an IPO, it sells stock to investors at some price that the company sets with its bankers based on orders from investors, and then the next day the stock opens for trading, and usually it trades up. There is an “IPO pop”; the stock opens at a higher price than what the investors paid the company. The investors who bought in the IPO have an instant profit. And then venture capitalists on Twitter (now X) chime in and say “the company left money on the table, why sell stock to investors who could turn around and sell it immediately at higher prices, why couldn’t the company just sell at those higher prices?” And they suggest things like direct listings or special purpose acquisition companies to accomplish that.
 There are answers to their question, reasons that the company might decide to leave money on the table. The main answer is probably something like this: The company wants the investors to be happy. If it sells them stock that goes up, and they make a quick profit, they will be happy. This has various, somewhat fuzzy, long-term advantages for the company. If the investors are happy, they might support management’s business plans; the company will be less vulnerable to activists or hostile takeovers. If the investors are happy, and later the company needs to raise more money, maybe the investors will buy more stock. If the investors are happy, the stock price will go up and keep going up, so that later when the company or its pre-IPO investors or its executives want to sell stock, they’ll get a better price. Usually a fairly small fraction — say, 10% to 20% — of the company’s stock is actually sold in the IPO; you want the price to be high when you sell the rest. Happy shareholders make for a higher long-term stock price.
@@ -153,11 +153,11 @@ Thousands of members of the WallStreetBets forum — which boasts around 15 mill
 One reason Reddit sold some of its IPO stock to its users was probably to buy their loyalty, to cause them to be literally invested in Reddit’s success. You sell them stock, and they stick around to comment and moderate and provide value to advertisers and artificial intelligence scrapers. You give them a nice IPO pop, and they are happy. They, you know, vote down the WallStreetBets post about shorting the stock.
 That’s a risky move! If you sell them stock at $34 and it goes down, they will be mad at you. They’ll vote up the post about shorting the stock; they’ll be surly and mischievous on their subreddits. Maximizing the price at which you sell the stock is nice, but not that important in the long run. Making sure that the Redditors who buy in the IPO have a good experience is probably more important.
 
-  
-    
+
+
       Carbon risk transfer
-    
-  
+
+
 
 I wrote the other day about hypothetical ways that a bank could “transfer” its carbon emissions to somebody else. The basic idea is that there are standards — mainly from the Partnership for Carbon Accounting Financials — for calculating the greenhouse gas emissions attributable to a bank’s financing activities (that is, loans that it makes and holds) and its facilitation activities (that is, offerings that it underwrites). Banks face public and regulatory pressure to report low numbers under those standards, but they also want to lend money to oil companies. There is, perhaps, an opportunity for financial engineering: Is there a way for a bank to make those loans, but get the emissions off its books for PCAF accounting purposes?
 So I wrote about a Bloomberg News story about some hedge funds who have some ideas, and I proposed some crude ideas of my own, but let’s be honest: My post was mostly a call for financial engineering, a request for my readers to come up with ideas. And of course they did. Reader Andreas Seidel suggested a few, of which my favorite might be:
@@ -165,15 +165,15 @@ Deflating the emissions by inflating debt. The "base case" PCAF works is by mult
 I love the idea of massively grossing up every company’s balance sheet just for carbon-accounting purposes: “You can borrow $100 from us to build an oil refinery, but only if you also set up a subsidiary that borrows $1 billion from a special-purpose vehicle and invests it in money-market funds, for pure accounting reasons.” Maybe you could make the economics work, but the accounting for the borrower sure would look weird.
 More generally, one wants some sort of intermediation. Like, a bank that lends money to an oil company is going to have a lot of financed emissions on its books. But what about a bank that lends money to an investment firm named Green Investments Ltd., which then lends it to an oil company? (What if Green Investments is only nominally an investment firm, and really just a pass-through vehicle with one asset and one liability — just a way to structure the loan to the oil company?) We have talked about this approach in the past, as a general way to make oil-company investments seem more environmentally friendly (and get them into environmental, social and governance investing indexes). I’m not sure it specifically works with PCAF standards for banks — “‘Follow the money’ is a key tenet for GHG accounting of financial assets,” says PCAF, “meaning that the money should be followed as far as possible to understand and account for the climate impact in the real economy” — but I’m sure someone is working on it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The mutual fund at 100: is it becoming obsolete? Justice Department Sues Apple in Antitrust Case Over iPhone. Nelson Peltz Wins Key Endorsement in Disney Battle. The mystery of the Hampstead mansion and the £1.4bn bitcoin haul. Short Sellers Up Their Wagers Against Commercial Real Estate Again. Why Arizona Law Firms Are a Hot Investment for Private Equity. Why Texas Is Banning Banks Over Their ESG Policies. NY Poised to Seize Trump Westchester Assets If Fraud Fine Is Unpaid. It’s Hard to Imagine Who’d Want to Buy Trump’s Seized Properties.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Another possibility is: You offer them the stock, they pay you, you *don’t* deliver the stock. This seems less common, since in standard frauds it is in some sense *free* for you to deliver the stock, and that strings them along longer than if you never deliver it. But there are versions like this. You tell people that you have access to shares of hot startups before their initial public offerings, they pay you for the shares, you don’t have the shares and never deliver them.
 
 
@@ -192,54 +192,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] The judge’s theory here comes from a 2023 US Supreme Court decision called Ciminelli v. United States. In that case, a contractor bribed public officials to get a $750 million city contract and was convicted of wire fraud. The Supreme Court reversed his conviction, ruling that it is not wire fraud to “to deprive the victim of ‘potentially valuable economic information’ ‘necessary to make discretionary economic decisions.’” The opinion is a little puzzling: It doesn’t quite say that bribing public officials to win city contracts isn’t wire fraud, only that the prosecution’s theory for why it was wire fraud was wrong. For a long time, US prosecutors argued that bribes were wire fraud because they deprived the government of the “honest services” of its officials, but the Supreme Court eventually concluded that that’s not fraud, only depriving victims of money is fraud. The “potentially valuable economic information” theory looks to the Supreme Court too much like “honest services,” so it reversed the convictions. It seems to me like “we tricked the government into giving us a $750 million construction contract” looks a lot like taking money from the government, but for some reason that theory was not at issue in the case. (See footnote 1: “An earlier indictment alleged that the Buffalo Billion contracts were the property at issue. But, to defend against the defendants’ motion to dismiss, the Government relied solely on the theory that the scheme 'defraud[ed] Fort Schuyler of its right to control its assets.' … The District Court then relied expressly on the right-to-control theory in denying the motion to dismiss.”) Anyway, the application of this theory to pump and dump scams makes absolutely no sense to me but here we are.
 
 
-  [7] The interesting question is: Does this make *insider trading* legal? 
+  [7] The interesting question is: Does this make *insider trading* legal?
 
 
   [8] Also crypto, I guess, though how much weirder can that get.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -250,46 +250,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckp7qz.64ye/50e8ee12.gif" alt="" border="0" /></a>

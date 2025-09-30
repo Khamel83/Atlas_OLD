@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff was supposed to be off today but I got bored so here you go.I have a model of Adam Neumann that goes like this
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff was supposed to be off today but I got bored so here you go.
 
-  
-    
+
+
       What are the 3AC guys up to?
-    
-  
+
+
 
 I have   a model of Adam Neumann that goes like this. There was a bubble for a particular sort of tech startup, one that scaled very quickly and used lots of buzzwords and had big ambitions and bad unit economics and raised tons of money from SoftBank Group Corp. Adam Neumann saw that bubble and said “well, I should be on the other side of that.” The other side of that bubble was not shorting a bunch of tech startup stocks: That’s risky, and anyway you couldn’t really do it because the bubble was in tech startups with no publicly traded stock.
 No, the other side of the bubble was starting a startup, and making it the most egregious imaginable example of the bubble. Scale the fastest, talk the most nonsense, have the worst unit economics and raise the most money by bro’ing down the most with SoftBank’s Masayoshi Son. Neumann incinerated many billions of dollars of SoftBank’s money, and got paid something like a billion dollars to stop. What a great trade! He and his family will be wealthy for generations because he timed the startup bubble right, but also because he structured the trade right. The trade is not quite “go long startups” or “go short startups”; the trade is “other people want to get long this bubble, so stand in the way of their money.”
@@ -86,37 +86,37 @@ Mr. Davies said he was ready to move on from Three Arrows by the end of last sum
 
 Yes right he is zenned out. He played the crypto bubble perfectly.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       UBS bought Credit Suisse
-    
-  
+
+
 
 Sometimes a financial services firm will take too many bad risks, and it will go bust. And the normal way to go bust, for a financial services firm, is that the failed firm will be bought, generally for a small amount of money, by some other, bigger firm that did not take as many risks. A big relatively sedate firm buys the firm that flew a bit too close to the sun. But the failed firm doesn’t disappear; its assets and businesses and employees are still there, and the sedate firm buys them, and then it decides what to do with them. And conceptually there are two approaches:
 	“They took too much risk, which led them to go bust. We are smarter than that, so we are going to ruthlessly impose our safer and more sedate culture on them, and get rid of all the dumb risks that led them to go bust.”	“We always admired their risk-taking and were kind of bored with ourselves, and now we were able to buy them cheap. Oh oh oh we are not going to take as many risks as they did — that blew them up after all — but surely we can carefully graft some of their risk-taking culture onto our sedate culture in a way that will still be safe enough, but let us have more fun than we’ve been having.”
@@ -140,11 +140,11 @@ Credit Suisse employees must also ask UBS executives for permission to extend lo
 
 Some banks, in some markets, might be really excited by the rare opportunity to get into the oligarch yacht loan business, but UBS wants to avoid cultural contamination.
 
-  
-    
+
+
       Stablecoins
-    
-  
+
+
 
 Are stablecoins securities? A typical stablecoin — Tether, Circle’s USDC, Binance’s BUSD, etc. — works like this:
 	You give $1 to a company; it gives you back a crypto token (the stablecoin).	The company presumably puts the $1 somewhere safe — a bank account, Treasury bills, something like that — though there is certainly room for hijinks here, and your legal rights are not necessarily great.	The company promises to give you back the $1 on demand.	The company presumably earns interest on its investments, which makes this a nice business, for it.	The company mostly does not pay you interest on your stablecoin.
@@ -167,11 +167,11 @@ The other item on the list that intrigues me is: “stock.”
  A close analogy for a stablecoin is that it is   a share of a money-market mutual fund, and a share of a money-market fund is a security, because it is technically a share of stock. I   suggested last week that the best argument for crypto assets being securities is not to tick through the prongs of the Howey test to prove that they are “investment contracts,” but to step back a bit and say “these assets are obviously a way for crypto projects to raise money by issuing a close analogue of stock that is not technically called stock, and so they should be regulated as stocks.” And similarly stablecoins are a close analogue of money-market fund shares, so perhaps they should be regulated as money-market fund shares. 
 Incidentally the item that is not on the list that intrigues me is: A stablecoin is largely a bank account, and a stablecoin issuer is largely a bank. To the extent that a stablecoin is issued by a regulated bank or trust company (and some are), it should not be a security, because it is a bank deposit and   bank deposits are not securities — because they are subject to (generally much stricter!) bank regulation. To the extent that a stablecoin is just issued by some unregulated guys, it … also should not be a security, but bank regulators should have some concerns?
 
-  
-    
+
+
       Axie Infinity
-    
-  
+
+
 
 If I told you that  US venture capitalists promoted a   Ponzi scheme that used a   cartoon computer game to steal hundreds of millions of dollars from  poor workers in the Philippines and send it to North Korea to fund a ballistic missile program, you probably wouldn’t believe me. Unless I said “… using crypto,” in which case you would probably say “oh yeah that sounds about right.” The Wall Street Journal  reported this weekend:
 
@@ -182,11 +182,11 @@ It was the country’s biggest haul in five years of digital heists that have ne
 
 Super! Venture capitalists have largely pivoted from crypto to artificial intelligence, and while the popular view is that AI has a higher probability of wiping out humanity than crypto does, “crypto funds the North Korean missile program” would be a funny way for crypto to kill us all before a rogue AI can.
 
-  
-    
+
+
       Jeff Bezos bought one Amazon share
-    
-  
+
+
 
 Sure I dunno   whatever:
 
@@ -197,15 +197,15 @@ Bezos’ move has confounded Amazon analysts and stock watchers who don’t know
 
 If I were Jeff Bezos I would absolutely open a Robinhood account and buy one share of Amazon and then email my disclosure lawyers the confirmation saying “lol sorry.” If I bought one share of Amazon, nobody would write articles about it. But when Jeff Bezos did, people did. Is that not reason enough? Two big problems in modern economics are turning attention into money, and turning money into attention; buying one share of Amazon is a pretty efficient way to do the latter.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Nasdaq to   Purchase Adenza From Thoma Bravo for $10.5 Billion. Companies, Big Investors  Sell Shares at Fastest Rate in Years. George  Soros Hands Control to His 37-Year-Old Son: ‘I’m More Political.’ JPMorgan Agrees to Pay $290 Million to   Settle Epstein Case. Meredith Whitney returns: ‘There will be many fewer banks.’ Illumina CEO Francis deSouza Resigns Amid Regulatory Hurdles, Proxy Fight. “Wow it’s now: this is the moment to  galvanize awakened and curious community and bring them to the most tender parts of the planet.”  Pickleball tourism.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Incidentally this is in theory a possible explanation of   what Bill Hwang was up to, though I have never seen any evidence that he actually took money off the table. But he certainly did take out bajillions of dollars of non-recourse loans to load up on risky stocks.
 
 
@@ -218,48 +218,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Or I guess "collateral-trust certificate," or "transferable share."
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -270,46 +270,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciwvxm.5imj/f242bf4f.gif" alt="" border="0" /></a>

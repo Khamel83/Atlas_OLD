@@ -9,7 +9,7 @@
 
 ## Solution
 1. **Debug current login forms** - capture real HTML, fix selectors
-2. **Fix authentication flows** - dynamic selectors, proper waits, session management  
+2. **Fix authentication flows** - dynamic selectors, proper waits, session management
 3. **Graceful fallback** - if auth fails, use Enhanced Wayback Machine
 
 ## Success Criteria
@@ -20,7 +20,7 @@
 
 ## Implementation Tasks
 1. **Debug**: Create form inspector, test selectors (2-3 hrs)
-2. **Fix**: Update PaywallAuthenticatedStrategy, add session management (4-5 hrs)  
+2. **Fix**: Update PaywallAuthenticatedStrategy, add session management (4-5 hrs)
 3. **Test**: Comprehensive testing, production integration (2-3 hrs)
 
 ## Files

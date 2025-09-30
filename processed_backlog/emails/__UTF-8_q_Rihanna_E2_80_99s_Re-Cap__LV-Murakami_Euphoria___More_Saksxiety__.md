@@ -26,7 +26,7 @@ here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_cam
 Mentioned in this issue: Rihanna, Savage x Fenty, Adam Selman, Adam Goldenberg, TechStyle, London Fashion Week, Hillary Super, Victoria’s Secret, Slick Woods, LVMH, Kate Hudson,
 Skims, Jens and Emma Grede, Kim Kardashian, Takashi Murakami, Louis Vuitton, Amazon Luxury, Saks, Richard Baker, Phoebe Philo, Burberry, Daniel Lee, Lesley Manville, Andrea Riseborough, Simone Rocha, over-the-knee boots, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -118,7 +118,7 @@ tech stacks or SaaS products. (Shopify works just fine.) Also, the category is m
 And yet, I’m a firm believer that this is not a winner-take-all market. Markets can expand, and TechStyle’s do-over might allow Savage x Fenty to scale up fast and with fewer prying eyes. The bigger problem for Savage x Fenty, I’d say, is that Super knows all of its secrets, and these days, she has far more resources at her disposal at VS. Of course, TechStyle does have one inimitable ingredient, and that’s Rihanna. Let’s see whether they can figure out how to finally
 use her effectively.
 
- 
+
 
 What
 I’m Reading… And Listening To… And Looking At…
@@ -161,7 +161,7 @@ This piece on the creative director churn makes a lot of good points, but I don�
 more patient with new designers. That may have been true 20 years ago, but these are enormous businesses now, with serious investors and endless data, and you can’t just dillydally for three or five years. The companies need to minimize risk by ensuring most of the revenue is coming from evergreenish products that are not designed by the current creative director. (See: Louis Vuitton, Hermès, and Chanel as examples.)
 [WSJ ( https://www.wsj.com/style/fashion/the-toughest-job-in-fashion-is-top-designer-for-a-luxury-brand-7adaaf6b?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… On a recent plane trip, I watched Goodrich, the 2024 film
 by Hallie Meyers-Shyer, daughter of directors Nancy Meyers (yes) and the late Charles Shyer (yes), and starring Michael Keaton. The movie is fine (I’m not a film critic), but—unsurprisingly, given Meyers-Shyer’s lineage—it’s really worth watching because of how it captures a very particular slice of American upper-middle-class life through its costume and set design.
@@ -218,6 +218,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVOmdzGI1b8yaJlRp68wc=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -5,9 +5,9 @@
 ---
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html class="article-page"><head>
-    
-        
-    
+
+
+
 <script type="text/javascript">
 try {
   Object.defineProperty(window, 'adverts', {configurable: false, value:{}});
@@ -111,8 +111,8 @@ catch(error) {
 <meta itemprop ="thumbnailurl" content="https://i.dailymail.co.uk/1s/2019/09/12/19/18406264-0-image-a-36_1568311322385.jpg" />
 
 <link href="https://www.dailymail.co.uk/femail/article-7457163/Melania-Trump-criticized-9-11-tribute-outfit.html" rel="canonical" />
-     
-   
+
+
 <link href="https://www.dailymail.co.uk/femail/article-7457163/amp/Melania-Trump-criticized-9-11-tribute-outfit.html" rel="amphtml" /><link href="ios-app://384101264/mailonline/article/7457163" rel="alternate" /><link href="/xml/opensearch.xml" rel="search" title="Mail Online Search" type="application/opensearchdescription+xml" /><link href="/manifest.json" rel="manifest" /><link href="https://www.dailymail.co.uk/femail/index.rss" rel="alternate" title="Mail Online Femail RSS feed" type="application/rss+xml" /><link href="https://www.dailymail.co.uk/femail/articles.rss" rel="alternate" title="Latest Femail Stories RSS feed" type="application/rss+xml" />            <style type="text/css" media="all">
                  /* https://www.dailymail.co.uk/static/mol-adverts/9.38.0/mol-adverts.desktop.css */
                  :root {
@@ -2702,10 +2702,10 @@ var adType='dart',
 <script type="text/javascript">
     DM.userData = '';
     </script>
-  
-    
-        
-    
+
+
+
+
     <!-- ad-config: https://mads.dailymail.co.uk/v8/us/femail/none/article/other/false/wide/dailymail/config.html -->
     <script>window.adverts=window.adverts || {};
 window.adverts.config={"__generated.commit.sha":"562f93e","__generated.commit.timestamp":"2025-09-15T17:59:28+01:00","ad-list.ad-feature":[{"index":6,"position":"native_puff_6"},{"index":10,"position":"native_puff_10"},{"index":15,"position":"native_puff_15"},{"index":20,"position":"native_puff_20"}],"ad-list.article-body":{"__targeting":[{"paywalled":"isPaywalled","payload":[]},{"payload":[{"position":"mpu_mobile_top","index":2},{"position":"mpu_mobile_upper_middle","index":8},{"position":"mpu_mobile_lower_middle","index":12},{"position":"mpu_mobile_others","start":16,"every":4},{"position":"mpu_mobile","index":"last"}]}]},"ad-list.puff-list":[{"position":"mpu_puff_5","index":5},{"position":"mpu_puff_10","index":10},{"position":"mpu_puff_20","index":20},{"position":"mpu_puff_30","index":30},{"position":"mpu_puff_45","index":45},{"position":"mpu_puff_others","start":55,"every":10,"maxNum":10}],"adlite.positionsToWhitelist":["billboard","mpu_puff_10","mpu_puff_20","smart_feed"],"adlite.removePlugins":["adservers.openweb","prebid","bidders.amazon","chromelessv2.dmplayer","players.commercial","slots.connatix.v3"],"adsRefresh":{"interval":30000,"slots":["sky_right_top","sky_left_top","mpu_left"],"activeViewSlots":[{"pos":"billboard","interval":30000},{"pos":"mpu_top","interval":30000},{"pos":"leader_top","interval":30000},{"pos":"mpu_puff_5","interval":30000},{"pos":"mpu_puff_10","interval":30000},{"pos":"mpu_puff_15","interval":30000},{"pos":"mpu_puff_20","interval":30000},{"pos":"mpu_puff_30","interval":30000},{"pos":"mpu_puff_45","interval":30000},{"pos":"mpu_bottom","interval":30000},{"pos":"mpu_middle","interval":30000},{"pos":"mpu_mobile_top","interval":30000}]},"adserver.ads":[{"id":"newzit-dynamic-300x600","size":[300,600],"url":"https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-news-search/1.13.0/mpuCarousel.html?forceIto=Mol-Carousel&startTab=entertainment"},{"id":"newzit-static-970x250","size":[970,250],"click":"https://www.newzit.com/?ito=MOL_House_Ads","image":"https://www.dailymail.co.uk/static/mol-adverts/creatives/newzit-static-billboard.jpeg"},{"id":"newzit-static-300x250","size":[300,250],"click":"https://www.newzit.com/?ito=MOL_House_Ads","image":"https://secure.iad.anm.co.uk/00adops/newzitmpu.png"},{"id":"newzit-static-160x600","size":[160,600],"click":"https://www.newzit.com/?ito=MOL_House_Ads","image":"https://www.dailymail.co.uk/static/mol-adverts/creatives/newzit-static-skyscrapper.png"}],"amazon.ortb2":{"segmentsLimit":50},"amazon.pubcommon":{"enabled":true,"loadTimeout":3000,"pubcidScript":"//www.dailymail.co.uk/static/mol-adverts/demo/mol-21682/dist/pubcid.min.js"},"amazon.usePageTaxononmy":true,"amazon.paapi":false,"analytics.bidsHunting":{"positions":["jwplayer","video"],"bidders":["ix","appnexus"]},"analytics.external.bundleVersions":["pageMeta","gpt","prebid","ima"],"analytics.fullscreenOverlay":{"reportToBidmax":true},"arrowKeysScroll.userAgents":["(Chromium|Chrome)/(\\d+)\\.(\\d+)(?:\\.(\\d+))?","(rv:11\\.0)"],"auction.endpoint":"https://ib.adnxs.com/openrtb2/prebid","auction.maxTime":2500,"auction.priceGranularity":"dense","auction.secure":1,"bidmax":{"abe":{"timeout":1000},"pageTimeout":1000,"reportPlugins":["chromelessv2.dmplayer","players.commercial","widgets","funding-choices","blockthrough","adservers.openweb","tcfv2","tcfv2-v2","refreshManager","adsRefresherV2","scanner","permutive","optimized_homepage_revert"]},"bidders.amazon.url":"https://c.amazon-adsystem.com/aax2/apstag.js","bombara.rvti":{"url":"https://vi.ml314.com/get?eid=93180&tk=DlNyuJyHW7qxNBOzwfy6F6zs6K7Yw2bqdKXxZ976FOwY3d&fp=${ccmaid}"},"bombara.visitorInsights":{"eid":"93180","url":"https://ml314.com/tag.aspx?${dayOfMonth}${month}"},"bots":[{"ip":"62.25.109.197"},{"ip":"85.115.53.201"}],"ccpa":{"consentManagementRegions":["CA","CO","CT","VA","UT","TX","FL","MT","DE","IA","NE","NH","NJ","OR","TN","MN"],"scriptBaseUrl":"https://cmp.dmgmediaprivacy.co.uk/ccpa","version":"3.0.1","gvlUiVersion":"v3/44","nrvUiVersion":"dailmail-us/v4"},"ccpa.gpc.signal.enabled":true,"cmp.framework":"uspapi","cmp.legislation":{"__targeting":[{"pageCriteria":{"region":"CA"},"payload":"ccpa"},{"pageCriteria":{"region":"CO"},"payload":"cpa"},{"pageCriteria":{"region":"CT"},"payload":"ctdpa"},{"pageCriteria":{"region":"DE"},"payload":"dpdpa"},{"pageCriteria":{"region":"FL"},"payload":"fdbr"},{"pageCriteria":{"region":"IA"},"payload":"icdpa"},{"pageCriteria":{"region":"MN"},"payload":"mcdpa"},{"pageCriteria":{"region":"MT"},"payload":"mtcdpa"},{"pageCriteria":{"region":"NE"},"payload":"ndpa"},{"pageCriteria":{"region":"NH"},"payload":"nhcdpa"},{"pageCriteria":{"region":"NJ"},"payload":"njcdpa"},{"pageCriteria":{"region":"OR"},"payload":"ocpa"},{"pageCriteria":{"region":"TN"},"payload":"tipa"},{"pageCriteria":{"region":"TX"},"payload":"tdpsa"},{"pageCriteria":{"region":"UT"},"payload":"ucpa"},{"pageCriteria":{"region":"VA"},"payload":"vcdpa"}]},"cmp.renderConfig.layerTwo.ccpaFrameworkText":{"__targeting":[{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"CO"},"payload":"Colorado Data Privacy Act Compliance Framework"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"CT"},"payload":"Connecticut Data Privacy Act Compliance Framework"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"VA"},"payload":"Virginia Consumer Data Protection Act Compliance Framework"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"UT"},"payload":"Utah Consumer Privacy Act Compliance Framework"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"TX"},"payload":"Texas Data Privacy and Security Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"FL"},"payload":"Florida Digital Bill of Rights"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"MT"},"payload":"Montana Consumer Data Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"DE"},"payload":"Delaware Personal Data Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"IA"},"payload":"Iowa Consumer Data Protection Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"NE"},"payload":"Nebraska Data Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"NH"},"payload":"New Hampshire Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"NJ"},"payload":"New Jersey Data Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"OR"},"payload":"Oregon Consumer Privacy Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"TN"},"payload":"Tennessee Information Protection Act"},{"globalContext":{"prop":"PageCriteria.region","op":"startsWith","value":"MN"},"payload":"Minnesota Consumer Data Privacy Act"},{"payload":"California Consumer Privacy Act Compliance Framework"}]},"cmp.renderConfig.layerTwo.footerPrivacyText":"Do not sell or share my personal information","cmp.renderConfig.layerThree.privacyText":"Do not sell or share my personal information","cmp.enable.userAgents":["^((?!(FB(AN|AV|BV|RV|DV|MD|SV|SS|CR|ID|LC|OP)\\/)).)*$"],"cmp.reprompt":{"version":1,"chance":1},"controlPanel.scriptURL":"https://scripts.dailymail.co.uk/static/mol-ads-control-panel/3.8.0/mol-ads-control-panel.js","datacleaner.localstorage":["uid-id5","uid-id5_exp","uid-id5_cst","uid-id5_last"],"dfp.networkCode":424397508,"dfpAccountCode":424397508,"dmp.ias.targeting":["brandSafety","fr"],"dmp.ias.targeting.v2":{"brandSafety":true,"fr":"fr","custom.ias-kw":"ias-kw"},"dmp.mobian.reportTime":true,"enableCondition":{"notForAuthorTypes":["columnist"]},"exposeUserData.origins":["https://campaign.dailymail.co.uk"],"fbWebview.useReferrer":true,"snapChatWebView.useReferrer":true,"tiktokWebview.useReferrer":true,"headerBidders":{"live-us.andweb.dmgt.net":{"whitelist":["adxChannelPlugin","analytics","analyticsTiming","analyticsViewability","article","asyncBus","auctionInfo","botsPlugin","brandedVideoPlayer","browserResolutionPlugin","cmp.v2","devicePlugin","gpt","imaSDK","impIDPlugin","integral","lotame","maxbid","performanceMonitor","sortable","taboolaAds","taboola","videoForceFlyout","videoFlyout","visits","visits-v2","runtimeMessages"]},"live-uk.andweb.dmgt.net":{"whitelist":["adxChannelPlugin","analytics","analyticsTiming","analyticsViewability","article","asyncBus","auctionInfo","botsPlugin","brandedVideoPlayer","browserResolutionPlugin","cmp.v2","devicePlugin","gpt","imaSDK","impIDPlugin","integral","lotame","maxbid","performanceMonitor","sortable","taboolaAds","taboola","videoForceFlyout","videoFlyout","visits","visits-v2","runtimeMessages"]},"live-au.andweb.dmgt.net":{"whitelist":["adxChannelPlugin","analytics","analyticsTiming","analyticsViewability","article","asyncBus","auctionInfo","botsPlugin","brandedVideoPlayer","browserResolutionPlugin","cmp.v2","devicePlugin","gpt","imaSDK","impIDPlugin","integral","lotame","maxbid","performanceMonitor","sortable","taboolaAds","taboola","videoForceFlyout","videoFlyout","visits","visits-v2","runtimeMessages"]}},"liveintent.loadLiveConnect":true,"liveintent.requestedAttributesOverrides":{"uid2":true,"bidswitch":true,"medianet":true,"magnite":true,"pubmatic":true,"index":true,"openx":true,"thetradedesk":true,"triplelift":true,"sovrn":true},"magniteLink.scriptUrl":"https://link.rubiconproject.com/magnite/9929.js","molFeSmartBanner":{"app":"mol","averageUserRating":5,"formattedPrice":"FREE - On the Microsoft Store","trackCensoredName":"MailOnline","storeUrl":"http://windowsphone.com/s?appid=fabd0080-9f8a-4f96-b720-78c28ed798b4"},"amazon.supportedVideoPositions":["ibv","inlinevideo","hero","jwplayer","video"],"amazon.video.preroll.hero":{"slotId":"hero_video_desktop"},"amazon.video.preroll.ibv":{"slotId":"ibv_desktop"},"amazon.video.preroll.inlinevideo":{"slotId":"inline_video_desktop"},"amazon.video.preroll.jwplayer":{"slotId":"jw_video_desktop"},"amazon.video.preroll.video-ap":{"slotId":"ap_video_desktop"},"amazon.video.preroll.video-ctp":{"slotId":"ctp_video_desktop"},"display.extraSizes":{"wideSkies":"300x600"},"lotame.consent":{"enabled":true},"lotame.consent.chanceToSendOnPageView":1,"intentiq.version":"v6.122","liveintent.auctionDelay":50,"loaf.extraInfoRegex":"dailymail.co.uk","mvt.tests.vwo":{"scope":"page","size":1,"scenarios":{"on":{},"off":{}}},"mvt.tests.abeMonitor":{"scope":"page","size":0.01,"scenarios":{"on":{"config":[{"abe.detection.enabled":true},{"abe.adBlockDetection.restrictToOffice":true},{"abe.adBlockDetection.minimumBidders":10000}],"plugins":{"add":["scriptTagsMonitor"]}}}},"mvt.tests.tiaAPS":{"scope":"page","size":0.02,"scenarios":{"on":{"config":[{"amazon.usePageTaxononmy":true}]},"off":{"config":[{"amazon.usePageTaxononmy":false}]}}},"mvt.tests.chromelessOnIpad":{"__targeting":{"browser":"safari","device":"tablet","payload":{"scope":"page","size":1,"scenarios":{"off":{"plugins":{"remove":["chromelessv2.dmplayer","chromelessWaitForBillboard","players.commercial"]}}}}}},"mvt.tests.disablePageUnload":{"__targeting":{"browser":["ie"],"payload":{"scope":"page","size":1,"scenarios":{"active":{"plugins":{"remove":["analytics.pageUnload"]}}}}}},"mvt.tests.obo-test":{"scope":"page","size":1,"scenarios":{"on":{"config":[{"outbrain.vc.mode":"server"},{"outbrain.vc.endpoint":"https://vc.ads.dailymail.co.uk/pv"}],"plugins":{"add":["outbrain.viewabilityControl"]}},"off":{"plugins":{"remove":["outbrain.viewabilityControl"]}}}},"mvt.tests.permutive":{"scope":"page","size":1,"scenarios":{"on":{"plugins":{},"size":0.95},"off":{"plugins":{"remove":["permutive","dmp.permutive.video","userIds.sync"]},"size":0.05}}},"mvt.tests.perfMon":{"scope":"page","size":1,"scenarios":{"on":{"plugins":{"add":["performanceMonitor"]}},"off":{}}},"mvt.tests.outbrainLazyLoad":{"scope":"page","size":0.01,"scenarios":{"control":{},"body_0":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":0,"loadingTrigger":"body","loadingType":"lazy"}}]},"offset_10000":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":10000,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_5000":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":5000,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_2000":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":2000,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_1000":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":1000,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_500":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":500,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_100":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":100,"loadingTrigger":"$this","loadingType":"lazy"}}]},"offset_0":{"config":[{"slots.enabled.smart_feed":{"loadingOffset":0,"loadingTrigger":"$this","loadingType":"lazy"}}]}}},"mvt.tests.scheduler2":{"scope":"user","size":1,"scenarios":{"sync":{"config":[{"scheduler.executer":{"type":"sync"}}]},"async":{"config":[{"scheduler.executer":{"type":"async"}}]}}},"mvt.tests.removePluginsUnderPaywall":{"__targeting":{"paywalled":"isPaywalled","payload":{"scope":"user","size":1,"scenarios":{"on":{"plugins":{"remove":["chromelessv2.dmplayer","chromelessWaitForBillboard","players.commercial"]}}}}}},"mvt.tests.viewability2":{"scope":"page","size":1,"scenarios":{"v2":{"plugins":{"remove":["analytics.viewability"],"add":["analytics.viewability.v2"]}}}},"mvt.tests.videoSignals":{"scope":"page","size":0.02,"scenarios":{"instream":{"config":[{"plugins.slots.jwplayer.v3.mediaTypes.video.context":"instream","plugins.slots.jwplayer.v3.mediaTypes.video.placement":5,"plugins.slots.jwplayer.v3.mediaTypes.video.plcmt":4}]},"control":{}}},"mvt.tests.MOL-30663":{"scope":"page","size":1,"scenarios":{"on":{"plugins":{"remove":["sticky.banner"],"add":["sticky.banner.v2"]}}}},"mvt.tests.liveSites":{"__targeting":[{"globalContext":{"prop":"location.hostname","op":"startsWith","value":"live-"},"payload":{"scope":"page","size":1,"scenarios":{"light":{"plugins":{"remove":["chromelessv2.dmplayer","players.flyoutManager","trackers.ipsos","bidders.33across","bidders.33across.video","bidders.adyoulike","bidders.amazon","bidders.appnexus","bidders.appnexusOutstream","bidders.appnexusPSP","bidders.appnexusSkin","bidders.appnexusVideo","bidders.converge","bidders.criteo.video","bidders.criteoV2","bidders.groupm.v2.display","bidders.groupmSkin","bidders.gumgum","bidders.inskin","bidders.invibes.display","bidders.ix.v2.display","bidders.ixVideo","bidders.kargo","bidders.kargo.video","bidders.oathVideo","bidders.openx","bidders.openxVideo","bidders.ozone","bidders.ozone.video","bidders.pgam.display","bidders.pgam.video","bidders.pubmatic","bidders.pubmaticVideo","bidders.pxyz","bidders.rtbhouse","bidders.rubiMM","bidders.rubiMM2","bidders.rubiTTD","bidders.rubicon","bidders.rubiconSkin","bidders.rubiconVideo","bidders.sharethrough.v2.display","bidders.sharethrough.video","bidders.smartAdServer","bidders.smartAdServer.video","bidders.teads","bidders.telariaVideo","bidders.triplelift","bidders.tripleliftVideo","bidders.unruly","bidders.unruly.video","bidders.video.rubiMM","bidders.yahoossp.display","bidders.yahoossp.video","prebid","dmp.permutive.indexedDBUsage","dmp.permutive.video","permutive","permutive.rtd","permutive.vault","userIds.registration","userIds.sync","userIds.thirdPartyUserData","adservers.openweb","widgets"]}}}}}]},"mvt.tests.loaf":{"scope":"page","size":0.1,"scenarios":{"off":{"plugins":{"remove":["analytics.loaf"]}},"on":{"plugins":{"add":["analytics.loaf"]}}}},"mvt.tests.inlinePlayer-2":{},"mvt.tests.controlPage":{"scope":"page","size":0.1,"scenarios":{"control0":{},"control1":{},"control2":{},"control3":{},"control4":{},"control5":{},"control6":{},"control7":{},"control8":{},"control9":{}}},"mvt.tests.controlUser":{"scope":"user","size":0.1,"scenarios":{"control0":{},"control1":{},"control2":{},"control3":{},"control4":{},"control5":{},"control6":{},"control7":{},"control8":{},"control9":{}}},"mvt.tests.fraud2":{"scope":"user","size":0.6,"scenarios":{"control0":{},"control1":{},"control2":{},"control3":{},"control4":{},"control5":{},"akamaiCP":{"setCookie":"akacp=on","plugins":{"add":["fraud.akamaiCP"]}}}},"mvt.tests.monitorPositions":{"scope":"page","size":1,"scenarios":{"on":{"plugins":{"add":["position.monitor"]}},"control":{}}},"mvt.tests.iasPerformance":{"scope":"user","size":0.3,"scenarios":{"control0":{},"control1":{},"control2":{},"control3":{},"control4":{},"control5":{},"noIntegral":{"plugins":{"remove":["dmp.ias.prebidRtd","dmp.ias.targeting","dmp.ias.verificationPixel"]}}}},"mvt.tests.trackonomics":{"scope":"page","size":1,"scenarios":{"on":{"config":[{"plugins.trackonomics.forceWrap":true}],"size":0.99},"off":{"plugins":{"remove":["trackonomics"]},"size":0.01}}},"nodalsAi.rtd.params.propertyId":"c3747c8b","nonAdServable.plugins.whitelist":["api","site","adsFree","message-trace","conditionalEnable","imageGallery","adListLoader","scriptLoader","pageVisibility","runtimeMessages","version","slots.mpuPuffOthers","performance","nonAdServable","smartScheduler","debug.setPlugin","messagePluginsFromCreatives","slots.descriptions","conditionalLoad","analytics.coreMetrics","analytics.reportPlugins","takeovers.videowallpaper","adPageType","slotDefinition","slots.delayMount","userId","domain","page.placement","gpt","impIDPlugin","browserResolutionPlugin","devicePlugin","imaSDK","auctionInfo","brandedVideoPlayer","maxbid","article","performanceMonitor","taboola","visits","visits-v2","taboolaAds","trackers.taboola","domain","cmp.v2","trackonomics"],"outbrain.overlay":{"widgetId":"AR_11"},"outbrain.widgetId":{"__targeting":[{"pageCriteria":{"linkby":true},"payload":"AR_2"},{"paywalled":"isPaywalled","entitlements":["mailplus-basic","mailplus-ad-lite"],"payload":"AR_1"},{"paywalled":"isPaywalled","payload":"AR_12"},{"payload":"AR_1"}]},"outbrain.vc":{"pos":"obo-test"},"overlay-detector":{"ignoreSelectors":[".OUTBRAIN","#outbrain_container","#comments","#comments-overlay","#ob-explore-more","#commercial-player","#floating-share-bar-container","#nav","#preview-article","#reader-comments-container","#smartBanner","#taboola-below-article-thumbnails","#wideCommentAdvert","#most-watched-videos","header.mobile-sharing","header.mobile-search",".swipe-tutorial","nav.nav-bts","button#leaveRemoteDebug","#swipeIndicator","[class^=notificationWrapper]"]},"performance.sampleSize":10,"performance.pageLoad.offsets":[0,5,15],"performance.adImpression.offsets":[],"permutive.rtd.auctionDelay":0,"permutive.rtd.acBidders":["appnexus","grid","ozone","rubicon","pubmatic","openx","ix"],"players.chromeless.dmplayer.v3.adRoll":[{"offset":0,"pos":"preroll","cust_params":{"pos":"jw_preroll"}},{"offset":20,"pos":"midroll","minVideoDuration":20,"cust_params":{"pos":"jw_midroll"}},{"offset":40,"pos":"midroll","minVideoDuration":40,"cust_params":{"pos":"jw_postroll"}}],"players.chromeless.dmplayer.v3.adUnitNameLevel2":"dm_dmfemail_femail","players.chromeless.dmplayer.v3.dfpAccountCode":424397508,"players.commercial.closeButton":{"addAfterImpression":false},"players.commercial.floatingCloseButton":true,"players.commercial.inlinevideo":{"placementType":"paragraph"},"players.commercial.persistentControlBar":true,"players.commercial.playlistURL":"https://secured.dailymail.co.uk/feeds/commercial/topVideos.json","players.commercial.poster":false,"players.commercial.vpaidMode":2,"players.dmplayer":{"pauseOnVisibilityChange":false,"pauseOnBlur":false,"minCalculatedWidthForVideo":640,"useMinimumWidthForMobile":false,"pauseOnAds":true},"players.editorial":{"adUnitName":"dm_dmros_ros","adRequestBaseUrl":"https://pubads.g.doubleclick.net/gampad/ads","videoAdServerUrl":{"sz":"[size]","iu":"/424397508/dm.video","impl":"s","gdfp_req":1,"env":"vp","output":"xml_vast4","unviewed_position_start":1,"url":"[referrer_url]","correlator":"[time]"},"preRoll":true,"midRollRepeat":{"each":30,"videoDurationExceeds":15}},"players.editorial.midRollRepeat.each":600,"players.editorial.v2":{"preRoll":true},"players.editorial.v2.gpid.adUnitNameLevel2":"dm_video_femail","players.mediator.fullScreenOverlaySignalEnabled":true,"players.setup.earlyAdFactoryInit":true,"pluginManager":{"setupTimeout":10000},"plugins.audienceProject":{"scriptSrc":"https://sak.userreport.com/mol/launcher.js"},"plugins.meta":[],"plugins.adnami":{"scriptTimeout":1000},"plugins.adservers.openweb.forceLoadBundle":{"__targeting":[{"pageCriteria":{"readerComments":"X"},"payload":true},{"payload":false}]},"plugins.adservers.openweb.slots":["mpu_puff_5","mpu_comment_desktop_1"],"plugins.adsFree.enabled":true,"plugins.bidders.33across.display":{"adUnits":{"billboard":{"siteId":"a0rT0o88Cr64kKaKjGFx_2","sizes":[[970,250],[728,90]]},"leader_bottom":{"siteId":"czGjzQ88Cr64fWaKlKyvbs","sizes":[[970,250],[728,90]]},"leader_lower_middle":{"siteId":"cFhfGG88Cr64fWaKlKyvbs","sizes":[[970,250],[728,90]]},"leader_middle":{"siteId":"cJlY5m88Cr64fWaKlKyvbs","sizes":[[970,250],[728,90]]},"leader_very_bottom":{"siteId":"cOriGu88Cr64fWaKlKyvbs","sizes":[[970,250],[728,90]]},"leader_wide":{"siteId":"cSmLMW88Cr64fWaKlKyvbs"},"mpu_bottom":{"siteId":"cXurm888Cr64fWaKlKyvbs"},"mpu_factbox":{"siteId":"c87SRQ88Cr64fWaKlKyvbs"},"mpu_home":{"siteId":"dblt2E88Cr64fWaKlKyvbs"},"mpu_left":{"siteId":"dfkcXG88Cr64fWaKlKyvbs"},"mpu_middle":{"siteId":"djFF6S88Cr64fWaKlKyvbs","sizes":[[300,250]]},"mpu_player":{"siteId":"dSjggY88Cr64fWaKlKyvbs","sizes":[[300,250]]},"mpu_puff_10":{"siteId":"dU5aOA88Cr64fWaKlKyvbs"},"mpu_puff_20":{"siteId":"dYVe4I88Cr64fWaKlKyvbs"},"mpu_puff_30":{"siteId":"d3kpAg88Cr64fWaKlKyvbs"},"mpu_puff_45":{"siteId":"d7qffG88Cr64fWaKlKyvbs"},"mpu_puff_others":{"siteId":"d_fcNe88Cr64fWaKlKyvbs"},"mpu_top":{"siteId":"acKPZE88Gr64fWaKlKyvbs"},"sky_left_top":{"siteId":"aw6jbo88Gr64fWaKlKyvbs","sizes":[[160,600],[300,250],[300,600]]},"sky_right_top":{"siteId":"azW6xS88Gr64fWaKlKyvbs","sizes":[[160,600],[300,250],[300,600]]},"inread_player_top":{"siteId":"aW53usdDWr7zmCrkHcnnVW","sizes":[[300,250]]}}},"plugins.bidders.33across.video":{"hero":"dyRCWUQQ4r7iodrkHcnnVW","ibv":"duurx0USOr7OrBrkHcnlxd","jwplayer":"dpk6guQQ4r7iodrkHcnnVW","video":"dyRCWUQQ4r7iodrkHcnnVW"},"plugins.bidders.adyoulike.display":{"adUnits":{"mpu_mobile_top":"312c3a08a39f341d6220d5127a59a709 300x250","mpu_puff_10":"2280631521c982415ef69ba250f42b12 300x600","mpu_top":"4813fc8beb18f8dfe7e07ec9627bb486 300x600","mpu_puff_20":"b7166a9fcd0a3e1cfbc5c59885eb02dc 300x250"},"wideSkiesAdUnits":{"sky_left_bottom":"9edb80a894ed11f454cde45fbb60a763 300x600","sky_left_top":"7bdc91a2b13c977dafbabc9c6d705130 300x600","sky_right_bottom":"e4e1319ca1abc89386f0d6a04f17b6e0 300x600","sky_right_top":"1a8a3db7de131de7a6be812c3071ddad 300x600"}},"plugins.bidders.amx.display":{"adUnits":{"billboard":{"tagId":"JMRyF5W6o","sizes":[[970,250],[728,90],[900,250]]},"sky_right_top":{"tagId":"d58Du8b98","sizes":[[160,600],[120,600]]},"sky_left_top":{"tagId":"AMApIz5Rn","sizes":[[160,600],[120,600]]},"mpu_top":{"tagId":"akQpsM6y4","sizes":[[300,250],[600,250]]},"mpu_puff_5":{"tagId":"Zk8xCal9a","sizes":[[300,250],[600,250]]},"mpu_puff_10":{"tagId":"4RKMiJj46","sizes":[[300,250],[600,250]]},"mpu_puff_30":{"tagId":"o5aoT3mR5","sizes":[[300,250],[600,250]]},"mpu_puff_45":{"tagId":"xxXrIK64o","sizes":[[300,250],[600,250]]},"mpu_puff_others":{"tagId":"Px8yfa3GW","sizes":[[300,250],[600,250]]}}},"plugins.bidders.amx.video":{"adUnits":{"hero":"EW73ukyLQ","video":"p5ggSPZo9","jwplayer":"8R1JFMkVp"}},"plugins.bidders.appnexus.display":{"adUnits":{"billboard":"7493637 970x250,728x90","leader_top":"14774802 728x90","leader_lower_middle":["9416597 728x90,900x250,970x250"],"mpu_bottom_right":"5758111 300x250","mpu_comments_1":"10943524 300x250","mpu_comments_2":"10943527 300x250","mpu_home":"5758107 300x250","mpu_left":"19166429 300x250","mpu_mobile_top":"7493634 300x250","mpu_mobile_bottom":"5758116 300x250","mpu_mobile_factbox":"19148752 300x250","mpu_mobile_lower_middle":"10943266 300x250","mpu_mobile_upper_middle":"10943262 300x250","mpu_mobile_others":"15671912 300x250","mpu_puff_5":"17081062 300x250","mpu_puff_10":"5758113 300x600,300x250","mpu_puff_20":"5758114 300x250","mpu_puff_30":"7199851 300x250","mpu_puff_45":"7199858 300x250","mpu_player":"19166420 300x250","mpu_puff_others":"12827735 300x600,300x250","mpu_top":"5758117 300x600,300x250","puff_ad_others":"15506369 300x250","puff_ad_others_moshowbiz":"15506369 300x250","sky_left_top":["8826005 120x600","8825890 160x600"],"sky_right_top":["5758127 120x600","8825983 160x600"],"sticky_banner":"5758132 320x50,300x50,320x100","sticky_banner_comments":"5758132 320x50,300x50,320x100","sticky_banner_gallery_top":"18878241 320x50"},"wideSkiesAdUnits":{"sky_left_top":["8826005 120x600","8825890 160x600","10022139 300x600"],"sky_right_top":["5758127 120x600","8825983 160x600","10022128 300x600"]}},"plugins.bidders.appnexus.dmps":["admantx"],"plugins.bidders.appnexus.outstream":{"adUnits":{"inread_player_top":"17845290       480x270"}},"plugins.bidders.appnexus.video":{"adUnits":{"hero":"3395         34806031","ibv":"3395         31821694","jwplayer":"3395         13807528","inlinevideo":"3246         35595651","video":{"ctp":"3395         13807551","autoplay":"3395         13807550"}}},"plugins.bidders.criteo.display":{"adUnits":{"billboard":"1198698        970x250","leader_bottom":"721846         900x250","leader_middle":"721850         900x250","leader_top":"1390350        728x90","leader_very_bottom":"721851         900x250","leader_wide":"1390351        728x90","mpu_comments_1":"1157511        300x250","mpu_comments_2":"1157519        300x250","mpu_home":"721854         300x250","mpu_mobile":"1157514        300x250","mpu_mobile_lower_middle":"721860         300x250","mpu_mobile_top":"721861         300x250","mpu_mobile_upper_middle":"721863         300x250","mpu_mobile_others":"1402267        300x250","mpu_puff_10":"1198712        300x600","mpu_puff_15":"1198711        300x600","mpu_puff_20":"721867         300x250","mpu_puff_30":"721869         300x250","mpu_puff_45":"721873         300x250","mpu_puff_others":"1157512        300x600","mpu_top":"721852         300x600","puff_ad_3":"1390354        300x250","puff_ad_3_moshowbiz":"1390354        300x250","puff_ad_6":"1390353        300x250","puff_ad_6_moshowbiz":"1390353        300x250","puff_ad_9":"1390352        300x250","puff_ad_9_moshowbiz":"1390352        300x250","puff_ad_others":"1395219        300x250","puff_ad_others_moshowbiz":"1395219        300x250","sky_left_bottom":"786358         300x600","sky_left_top":"1198719        160x600","sky_right_bottom":"1198720        160x600","sky_right_top":"721894         160x600","sticky_banner":"1157513        320x50","sticky_banner_comments":"1157513        320x50","sticky_banner_gallery_top":"1503443       320x50","sticky_banner_gallery_bottom":"1503442    320x50"},"wideSkiesAdUnits":{"sky_left_top":"1198708        300x600, 160x600","sky_right_top":"1198706        300x600, 160x600"}},"plugins.bidders.criteo.v2.display":{"adUnits":{"billboard":[[970,250]],"leader_bottom":[[900,250]],"leader_middle":[[900,250]],"leader_top":[[728,90]],"leader_very_bottom":[[900,250]],"leader_wide":[[728,90]],"mpu_comments_1":[[300,250]],"mpu_comments_2":[[300,250]],"mpu_factbox":[[300,250]],"mpu_home":[[300,250]],"mpu_left":[[300,250]],"mpu_mobile":[[300,250]],"mpu_mobile_factbox":[[300,250]],"mpu_mobile_lower_middle":[[300,250]],"mpu_mobile_others":[[300,250]],"mpu_mobile_top":[[300,250]],"mpu_mobile_upper_middle":[[300,250]],"mpu_puff_10":[[300,600]],"mpu_puff_15":[[300,600]],"mpu_puff_20":[[300,250]],"mpu_puff_30":[[300,250]],"mpu_puff_45":[[300,250]],"mpu_player":[[300,250]],"mpu_puff_others":[[300,600]],"mpu_top":[[300,600]],"puff_ad_3":[[300,250]],"puff_ad_3_moshowbiz":[[300,250]],"puff_ad_6":[[300,250]],"puff_ad_6_moshowbiz":[[300,250]],"puff_ad_9":[[300,250]],"puff_ad_9_moshowbiz":[[300,250]],"puff_ad_others":[[300,250]],"puff_ad_others_moshowbiz":[[300,250]],"sky_left_bottom":[[300,600]],"sky_left_top":[[160,600]],"sky_right_bottom":[[160,600]],"sky_right_top":[[160,600]],"sticky_banner":[[320,50]],"sticky_banner_comments":[[320,50]]},"wideSkiesAdUnits":{"sky_left_top":[[300,600],[160,600]],"sky_right_top":[[300,600],[160,600]]}},"plugins.bidders.criteo.v2.networkId":9431,"plugins.bidders.criteo.v2.pubid":100166,"plugins.bidders.criteo.video":{"adUnits":{"hero":1601259,"jwplayer":1599776,"video":1601259,"inlinevideo":1830032},"mediaTypes":{"hero":{"playbackmethod":2,"placement":1},"jwplayer":{"playbackmethod":2,"placement":1},"inlinevideo":{"playbackmethod":2,"placement":1},"video":{"playbackmethod":3,"placement":1}}},"plugins.bidders.inskin.display":{"adUnits":null},"plugins.bidders.ix.v2.display":{"adUnits":{"banner_top":{"siteId":357197},"billboard":{"siteId":547864},"leader_bottom":{"siteId":547865},"leader_middle":{"siteId":547866},"leader_top":{"siteId":357204},"leader_very_bottom":{"siteId":547867},"mpu_bottom":{"siteId":357201},"mpu_bottom_right":{"siteId":357196},"mpu_factbox":{"siteId":501998},"mpu_home":{"siteId":357218},"mpu_left":{"siteId":503194},"mpu_middle":{"siteId":357225,"sizes":[[300,250]]},"mpu_puff_5":{"siteId":412726,"sizes":[[300,250]]},"mpu_puff_10":{"siteId":547869},"mpu_puff_15":{"siteId":547870},"mpu_puff_20":{"siteId":357211,"sizes":[[300,250]]},"mpu_puff_30":{"siteId":357226,"sizes":[[300,250]]},"mpu_puff_45":{"siteId":357220,"sizes":[[300,250]]},"mpu_player":{"siteId":503193},"mpu_puff_others":{"siteId":357212},"mpu_top":{"siteId":547871},"sky_left_bottom":{"siteId":547872,"sizes":[[160,600],[120,600]]},"sky_left_top":{"siteId":547873,"sizes":[[160,600],[120,600]]},"sky_right_bottom":{"siteId":547874,"sizes":[[160,600],[120,600]]},"sky_right_top":{"siteId":547875,"sizes":[[160,600],[120,600]]},"inread_player_top":{"siteId":862071}}},"plugins.bidders.ix.video":{"adUnits":{"hero":294677,"ibv":1072447,"jwplayer":294681,"inlinevideo":1204651,"video":{"ctp":294677,"autoplay":294674}}},"plugins.bidders.ix.video.default":{"mimes":["video/mp4","video/webm","application/javascript"],"minduration":0,"protocols":[2,3,5,6],"api":[1,2]},"plugins.bidders.gumgum":{"billboard":{"zone":"wdxb7vsd","product":"skins"}},"plugins.bidders.kargo.display":{"adUnits":{"mpu_mobile_top":"_b14Z4rvRPM 300x250","mpu_mobile_upper_middle":"_b14Z4rvRPM 300x250","mpu_mobile_lower_middle":"_b14Z4rvRPM 300x250","mpu_mobile_others":"_b14Z4rvRPM 300x250","mpu_mobile_bottom":"_b14Z4rvRPM 300x250","mpu_mobile_factbox":"_b14Z4rvRPM 300x250","sticky_banner":"_stNiAR0H0v 320x50","sticky_banner_gallery_bottom":"_stNiAR0H0v 320x50","sky_left_top":"_sSn3FgqaRl 300x250,160x600","sky_right_top":"_sSn3FgqaRl 300x250,160x600","mpu_top":"_sSn3FgqaRl 300x250","mpu_puff_10":"_sSn3FgqaRl 300x250","billboard":"_rGScsBggIE 970x250,728x90","mpu_left":"_sSn3FgqaRl 300x250","gallery_billboard":"_fFjPBbligu 728x90","puff_ad_3":"_znJS6aITaK 300x250"}},"plugins.bidders.kargo.video":{"hero":"_wiC672EfIl","ibv":"_lq2ZajdswG","jwplayer":"_gkmTpcvqWe","video":"_fsLTjD21Wc"},"plugins.bidders.oath.video":{"pubId":"MailOnline"},"plugins.bidders.openx.video":{"delDomain":"mailonline-us-d.openx.net","adUnits":{"hero":561471610,"ibv":560554868,"jwplayer":540642937,"inlinevideo":562548605,"video":{"ctp":540642982,"autoplay":540642985}}},"plugins.bidders.openx.display.v2":{"delDomain":"mailonline-us-d.openx.net","adUnits":{"leader_top":"540574789   728x90","mpu_mobile_top":"540406112   300x250","mpu_mobile_puff_10":"540406107   300x250, 300x600","mpu_mobile_puff_45":"540406111   300x250","mpu_mobile_puff_30":"540406110   300x250","mpu_mobile_puff_20":"540406109   300x250","mpu_mobile_puff_15":"540406108   300x250, 300x600","mpu_mobile_bottom_jf":"540406106   300x250","mpu_mobile_middle":"540406105   300x250","mpu_mobile_home":"540406104   300x250","mpu_mobile_comments_2":"540406103   300x250","mpu_mobile_comments_1":"540406102   300x250","mpu_puff_others":"540406100   300x250, 300x600","mpu_comments_2":"540406099   300x250","mpu_comments_1":"540406098   300x250","sticky_banner":"540406094   320x50","sticky_banner_comments":"540406094   320x50","puff_ad_3":"540406089   300x250","puff_ad_3_moshowbiz":"540406089   300x250","puff_ad_6":"540406090   300x250","puff_ad_6_moshowbiz":"540406090   300x250","puff_ad_9":"540406091   300x250","puff_ad_9_moshowbiz":"540406091   300x250","puff_ad_others_moshowbiz":"540674706   300x250","mpu_factbox":"541058641   300x250","mpu_left":"541075936   300x250","mpu_player":"541075939   300x250","mpu_puff_45":"540406088   300x250","mpu_puff_15":"540406087   300x250","mpu_puff_30":"540406086   300x250","mpu_puff_20":"540406085   300x250","mpu_puff_10":"540406084   300x250, 300x600","mpu_puff_5":"540861021   300x250","mpu_mobile_upper_middle":"540406083   300x250","mpu_mobile_lower_middle":"540406081   300x250","mpu_mobile_bottom":"540406080   300x250","mpu_mobile_others":"540705058   300x250","mpu_mobile":"540406079   300x250","mpu_mobile_factbox":"541058639   300x250","mpu_middle":"540406078   300x250","mpu_home":"540406077   300x250","mpu_bottom":"540406076   300x250","leader_lower_middle":"540406074   970x250, 728x90","mpu_top":"540406071   300x250, 300x600","billboard":"540406070   970x250, 728x90","sky_right_bottom":"540406096   160x600, 120x600","sky_left_bottom":"540406095   160x600, 120x600","sky_right_top":"540406093   160x600, 120x600","sky_left_top":"540406092   160x600, 120x600"},"wideSkiesAdUnits":{"sky_right_bottom":"540406096   300x250, 160x600, 120x600, 300x600","sky_left_bottom":"540406095   300x250, 160x600, 120x600, 300x600","sky_right_top":"540406093   300x250, 160x600, 120x600, 300x600","sky_left_top":"540406092   300x250, 160x600, 120x600, 300x600"}},"plugins.bidders.pgam.display":{"adUnits":{"billboard":{"placementId":2854},"leader_bottom":{"placementId":2855},"leader_middle":{"placementId":2856},"leader_top":{"placementId":2857},"leader_very_bottom":{"placementId":2858},"leader_wide":{"placementId":2859},"mpu_bottom":{"placementId":2860},"mpu_comments_1":{"placementId":2861},"mpu_comments_2":{"placementId":2862},"mpu_factbox":{"placementId":2863},"mpu_home":{"placementId":2864},"mpu_left":{"placementId":2865},"mpu_middle":{"placementId":2866},"mpu_puff_10":{"placementId":2868},"mpu_puff_15":{"placementId":2869},"mpu_puff_20":{"placementId":2870},"mpu_puff_30":{"placementId":2871},"mpu_puff_45":{"placementId":2872},"mpu_puff_5":{"placementId":2873},"mpu_puff_others":{"placementId":2874},"mpu_top":{"placementId":2875},"sky_left_bottom":{"placementId":2876},"sky_left_top":{"placementId":2877},"sky_right_bottom":{"placementId":2878},"sky_right_top":{"placementId":2879},"mpu_player":{"placementId":2867}}},"plugins.bidders.pgam.video":{"adUnits":{"hero":{"placementId":5605},"jwplayer":{"placementId":2880},"video":{"placementId":2881},"ibv":{"placementId":2882}}},"plugins.bidders.ozone.configVersion":2,"plugins.bidders.ozone.publisherId":"OZONEDM00001","plugins.bidders.ozone.smartBidstream.enabled":true,"plugins.bidders.ozone.v2.siteId":1500000205,"plugins.bidders.ozone.v2.display":{"adUnits":{"billboard":3500013945,"leader_bottom":3500013946,"leader_middle":3500013947,"leader_top":3500013948,"leader_very_bottom":3500013949,"leader_wide":3500013924,"mpu_bottom":3500013922,"mpu_comments_1":3500013950,"mpu_comments_2":3500013925,"mpu_factbox":3500013951,"mpu_home":3500013952,"mpu_left":3500013953,"mpu_middle":3500013954,"mpu_player":3500013958,"mpu_puff_10":3500013931,"mpu_puff_15":3500013932,"mpu_puff_20":3500013933,"mpu_puff_30":3500013934,"mpu_puff_45":3500013923,"mpu_puff_5":3500013930,"mpu_puff_others":3500013959,"mpu_top":3500013929,"sky_left_bottom":3500013938,"sky_left_top":3500013939,"sky_right_bottom":3500013940,"sky_right_top":3500013941}},"plugins.bidders.ozone.video.placementIds":{"ibv":3500010853,"hero":1500000735,"video":3500010854,"jwplayer":3500010853,"inlinevideo":1500000894},"plugins.bidders.pubmatic.display.v2":{"publisherId":159335,"adUnits":{"billboard":"billboard 728x90,900x250,970x250","leader_bottom":"leader_bottom 970x250,900x250,728x90","leader_middle":"leader_middle 970x250,900x250,728x90","leader_top":"leader_top 728x90","leader_very_bottom":"leader_very_bottom 970x250,900x250,728x90","leader_wide":"leader_wide 728x90","mpu_bottom":"mpu_bottom 300x250","mpu_comments_1":"mpu_comments_1 300x250","mpu_comments_2":"mpu_comments_2 300x250","mpu_factbox":"mpu_factbox 300x250","mpu_home":"mpu_home 300x250","mpu_left":"mpu_left 300x250","mpu_middle":"mpu_middle 300x250","mpu_mobile":"mpu_mobile 300x250","mpu_mobile_factbox":"mpu_mobile_factbox 300x250","mpu_mobile_lower_middle":"mpu_mobile_lower_middle 300x250","mpu_mobile_top":"mpu_mobile_top 300x250","mpu_mobile_upper_middle":"mpu_mobile_upper_middle 300x250","mpu_mobile_others":"mpu_mobile_others 300x250","mpu_top":"mpu_top 300x600,300x250","mpu_puff_5":"mpu_puff_5 300x250","mpu_puff_10":"mpu_puff_10 300x600,300x250","mpu_puff_15":"mpu_puff_15 300x600,300x250","mpu_puff_20":"mpu_puff_20 300x250","mpu_puff_30":"mpu_puff_30 300x250","mpu_puff_45":"mpu_puff_45 300x250","mpu_player":"mpu_player 300x250","mpu_puff_others":"mpu_puff_others 300x600,300x250","puff_ad_3":"puff_ad_3 300x250","puff_ad_3_moshowbiz":"puff_ad_3 300x250","puff_ad_6":"puff_ad_6 300x250","puff_ad_6_moshowbiz":"puff_ad_6 300x250","puff_ad_9":"puff_ad_9 300x250","puff_ad_9_moshowbiz":"puff_ad_9 300x250","puff_ad_others":"puff_ad_others 300x250","puff_ad_others_moshowbiz":"puff_ad_others 300x250","sky_left_bottom":"sky_left_bottom 160x600","sky_left_top":"sky_left_top 160x600","sky_right_bottom":"sky_right_bottom 160x600","sky_right_top":"sky_right_top 160x600,120x600","sticky_banner":"sticky_banner 320x50,300x50,320x100","sticky_banner_comments":"sticky_banner 320x50,300x50,320x100","sticky_banner_gallery_top":"sticky_banner_gallery_top 320x50","sticky_banner_gallery_bottom":"sticky_banner_gallery_bottom 320x50","inread_player_top":"inread_player_top 300x250"},"wideSkiesAdUnits":{"sky_left_bottom":"sky_left_bottom 160x600,300x600","sky_left_top":"sky_left_top 300x600,160x600","sky_right_bottom":"sky_right_bottom 160x600,300x600","sky_right_top":"sky_right_top 300x600,160x600,120x600"}},"plugins.bidders.pubmatic.display.netMultiplier":0.93,"plugins.bidders.pubmatic.video":{"adUnits":{"ibv":{"preroll":"preroll_IBV                401x225","midroll":"midroll_IBV                401x225"},"jwplayer":{"preroll":"preroll_commercial         401x225","midroll":"midroll_commercial         401x225"},"inlinevideo":"1616793              401x225","hero":"preroll_hero_tablet  640x360","video":{"autoplay":"preroll_editorial_desktop  636x358","ctp":"preroll_editorial_desktop  636x358"}}},"plugins.bidders.pubmatic.video.outstreamAUs":{"jwplayer":false,"video":false},"plugins.bidders.pubmatic.video.publisherId":"159335","plugins.bidders.pulsepoint.display":{"cp":557495,"adUnits":{"billboard":["610086            970x250","610085            728x90"],"leader_bottom":["610087            728x90","610088            970x250"],"leader_middle":["610089            728x90","610090            970x250"],"leader_very_bottom":["610091            728x90","610092            970x250"],"mpu_bottom":"610094            300x250","mpu_bottom_right":"610099            300x250","mpu_comments_1":"610123            300x250","mpu_comments_2":"610125            300x250","mpu_home":"610100            300x250","mpu_middle":"610101            300x250","mpu_mobile":"610126            300x250","mpu_mobile_lower_middle":"610127            300x250","mpu_mobile_top":"610128            300x250","mpu_mobile_upper_middle":"610129            300x250","mpu_puff_10":["610102            300x250","610104            300x600"],"mpu_puff_15":["610105            300x250","610107            300x600"],"mpu_puff_20":"610109            300x250","mpu_puff_30":"610110            300x250","mpu_puff_45":"610111            300x250","mpu_top":"610112            300x600","puff_ad_3":"610132            300x250","puff_ad_3_moshowbiz":"610132            300x250","sky_left_bottom":"610116            160x600","sky_right_bottom":"610117            160x600","sticky_banner":"610133            320x50","sticky_banner_comments":"610133            320x50"},"wideSkiesAdUnits":{"sky_left_bottom":["610114            300x600","610116            160x600"],"sky_right_bottom":["610119            300x600","610117            160x600"]}},"plugins.bidders.pxyz.display":{"adUnits":{"sky_left_top":"19241823        300x600","sky_right_top":"19241824        300x600"}},"plugins.bidders.rubicon.display.v2":{"accountId":9929,"siteId":124372,"atf":["sky_right_top","sky_left_top","billboard","mpu_top","mpu_puff_10","mpu_puff_15","sticky_banner","sticky_banner_comments","mpu_mobile_top","leader_top"],"adUnits":{"banner_top":"587684              468x60","billboard":"587686              970x250, 728x90","leader_bottom":"587690              728x90, 970x250","leader_middle":"587692              728x90, 900x250, 970x250","leader_top":"1178236             728x90","leader_very_bottom":"587688              728x90, 900x250, 970x250","leader_wide":"1099828             728x90","mpu_bottom":"587694              300x250","mpu_bottom_right":"587696              300x250","mpu_comments_1":"603072              300x250","mpu_comments_2":"603074              300x250","mpu_factbox":"1689464             300x250","mpu_home":"587698              300x250","mpu_left":"1694218             300x250","mpu_middle":"587700              300x250","mpu_mobile":"587702              300x250","mpu_mobile_bottom":"587704              300x250","mpu_mobile_factbox":"1689466             300x250","mpu_mobile_lower_middle":"587706              300x250","mpu_mobile_top":"587708              300x250","mpu_mobile_upper_middle":"587710              300x250","mpu_mobile_others":"1260014             300x250","mpu_puff_5":"1443820             300x250","mpu_puff_10":"587712              300x600, 300x250","mpu_puff_15":"587714              300x250, 300x600","mpu_puff_20":"587716              300x250","mpu_puff_30":"587718              300x250","mpu_puff_45":"587720              300x250","mpu_player":"1694214             300x250","mpu_puff_others":"845828              300x600, 300x250","mpu_top":"820028              300x600, 300x250","puff_ad_3":"602392              300x250","puff_ad_3_moshowbiz":"602392              300x250","puff_ad_6":"602396              300x250","puff_ad_6_moshowbiz":"602396              300x250","puff_ad_9":"1419714             300x250","puff_ad_9_moshowbiz":"1419714             300x250","puff_ad_others":"1242314             300x250","puff_ad_others_moshowbiz":"1242314             300x250","sky_left_bottom":"724800              160x600, 120x600","sky_left_top":"587722              160x600, 120x600","sky_right_top":"587724              160x600, 120x600","sticky_banner":"596372              320x50","sticky_banner_comments":"596372              320x50","sticky_banner_gallery_top":"1630390        320x50","sticky_banner_gallery_bottom":"1630392        320x50"},"wideSkiesAdUnits":{"sky_left_bottom":"724800              300x600, 160x600, 120x600","sky_left_top":"587722              300x600, 160x600, 120x600","sky_right_top":"587724              300x600, 160x600, 120x600"}},"plugins.bidders.rubicon.video":{"accountId":9929,"adUnits":{"ibv":"589028       3759934","hero":"157252       3652320","jwplayer":"205750       1013472","video":{"ctp":"157252       749436","autoplay":"157252       749436"}}},"plugins.bidders.rubiMM.display":{"accountId":21742,"siteId":298030,"atf":["sky_right_top","sky_left_top","billboard","mpu_top","mpu_puff_10","mpu_puff_15","sticky_banner","sticky_banner_comments","mpu_mobile_top","leader_top"],"adUnits":{"banner_top":"1499668 468x60","billboard":"1499626 970x250,728x90","leader_bottom":"1499634 728x90,970x250","leader_middle":"1499636 728x90,900x250,970x250","leader_top":"1499646 728x90","leader_very_bottom":"1499632 728x90,900x250,970x250","leader_wide":"1099828 728x90","mpu_bottom":"587694 300x250","mpu_bottom_right":"1499652 300x250","mpu_comments_1":"1499676 300x250","mpu_comments_2":"1499674 300x250","mpu_home":"1499624 300x250","mpu_middle":"1499654 300x250","mpu_mobile":"1499662 300x250","mpu_mobile_bottom":"1499656 300x250","mpu_mobile_lower_middle":"1499660 300x250","mpu_mobile_top":"1499666 300x250","mpu_mobile_upper_middle":"1499664 300x250","mpu_mobile_others":"1499670 300x250","mpu_puff_5":"1499678 300x250","mpu_puff_10":"1499650 300x600,300x250","mpu_puff_15":"1499630 300x250,300x600","mpu_puff_20":"1499644 300x250","mpu_puff_30":"1499620 300x250","mpu_puff_45":"1499622 300x250","mpu_puff_others":"1499618 300x600,300x250","mpu_top":"1499648 300x600,300x250","puff_ad_3":"1499642 300x250","puff_ad_3_moshowbiz":"1499642 300x250","puff_ad_6":"602396 300x250","puff_ad_6_moshowbiz":"602396 300x250","puff_ad_9":"1419714 300x250","puff_ad_9_moshowbiz":"1419714 300x250","puff_ad_others":"1499638 300x250","puff_ad_others_moshowbiz":"1499638 300x250","sky_left_bottom":"724800 160x600,120x600","sky_left_top":"1499612 160x600,120x600","sky_right_top":"1499614 160x600,120x600","sticky_banner":"1499616 320x50","sticky_banner_comments":"1499616 320x50"},"wideSkiesAdUnits":{"sky_left_bottom":"724800 300x600,160x600,120x600","sky_left_top":"1499612 300x600,160x600,120x600","sky_right_top":"1499614 300x600,160x600,120x600"}},"plugins.bidders.rubiMM.video":{"accountId":21742,"adUnits":{"hero":"298026       1499594","jwplayer":"205750       1013472","video":{"ctp":"298026       1499594","autoplay":"298026       1499594"}}},"plugins.bidders.sharethrough.v2.display":{"adUnits":{"billboard":{"pkey":"ztRRws1DuBiQvYyo7ibLmaxh","sizes":[[728,90],[970,250],[900,250]]},"mpu_home":{"pkey":"PXdw3iXNtMMXAgYwLKms7NBR","sizes":[[300,250]]},"mpu_puff_10":{"pkey":"qz8Bx5aNmIImlbDn2ZDuGU5O","sizes":[[300,250],[300,600]]},"mpu_puff_20":{"pkey":"YAXW2p8nPTWGVCrPcj5NrxpA","sizes":[[300,250],[300,600]]},"mpu_puff_30":{"pkey":"wUkCBBbYN6NAeXw2ZxLVpPPL","sizes":[[300,250],[300,600]]},"mpu_puff_45":{"pkey":"M46LPS2pKznZDhrVQRRVFfdn","sizes":[[300,250],[300,600]]},"mpu_puff_others":{"pkey":"0wRUmBTNgRV8eqLOQJWnnBnJ","sizes":[[300,250],[300,600]]},"mpu_top":{"pkey":"t7x4dsgHox9LRR8hNFR7Yyzv","sizes":[[300,250],[300,600]]},"mpu_factbox":{"pkey":"UoZWimj97iSRrKkXjvoe85Fj","sizes":[[300,250]]},"mpu_player":{"pkey":"GeOxWMEPeVWMC3MXYtFrKi8r","sizes":[[300,250]]},"sky_left_top":{"pkey":"mDYufSNjn6gUsPvDghG42mG6","sizes":[[300,250],[300,600],[160,600],[120,600]]},"sky_right_top":{"pkey":"ACRcWHAQIZwq3fX9DcjIYbQM","sizes":[[300,250],[300,600],[160,600],[120,600]]},"leader_middle":{"pkey":"H9CkK93iiG0i6OBunu0KUp6s","sizes":[[728,90]]},"leader_lower_middle":{"pkey":"hOhkMhYDoh3hbnQok8dtK5OB","sizes":[[728,90]]},"leader_bottom":{"pkey":"AV0RKSDe3icpJrDfMEyxFvWP","sizes":[[728,90]]}}},"plugins.bidders.sharethrough.video":{"hero":"SRgmYNUUFPDhuYO9RVzeRVU7","ibv":"PBitxJ3EjMYIknym0ZKJmxyI","jwplayer":"QLkSsGXOBDDL86TJcx7CR68r","video":"nA6nBZSaBm4E7hPT675xe7ml"},"plugins.bidders.smartAdServer":{"pageId":1352205,"siteId":395440,"adUnits":{"banner_top":{"formatId":98439},"billboard":{"formatId":98440},"half_mpu_top":{"formatId":98441},"inread_player":{"formatId":98442},"inread_player_top":{"formatId":98443},"leader_bottom":{"formatId":98444},"leader_lower_middle":{"formatId":98445},"leader_middle":{"formatId":98446},"leader_top":{"formatId":98447},"leader_very_bottom":{"formatId":98448},"leader_wide":{"formatId":98449},"mpu_bottom":{"formatId":98450},"mpu_bottom_right":{"formatId":98451},"mpu_comments_1":{"formatId":98452},"mpu_comments_2":{"formatId":98453},"mpu_factbox":{"formatId":98454},"mpu_home":{"formatId":98455},"mpu_left":{"formatId":98456},"mpu_middle":{"formatId":98457},"mpu_mobile":{"formatId":98458},"mpu_mobile_bottom":{"formatId":98459},"mpu_mobile_factbox":{"formatId":98460},"mpu_mobile_lower_middle":{"formatId":98461,"sizes":[[300,250]]},"mpu_mobile_other":{"formatId":98462,"sizes":[[300,250]]},"mpu_mobile_top":{"formatId":98463,"sizes":[[300,250]]},"mpu_mobile_upper_middle":{"formatId":98466,"sizes":[[300,250]]},"mpu_player":{"formatId":98469,"sizes":[[300,250]]},"mpu_puff_10":{"formatId":98471},"mpu_puff_20":{"formatId":98472},"mpu_puff_30":{"formatId":98473},"mpu_puff_45":{"formatId":98474},"mpu_puff_5":{"formatId":98475},"mpu_puff_other":{"formatId":98476},"mpu_top":{"formatId":98477},"puff_ad_3":{"formatId":98478,"sizes":[[300,250]]},"puff_ad_3_moshowbiz":{"formatId":98478,"sizes":[[300,250]]},"puff_ad_6":{"formatId":98479,"sizes":[[300,250]]},"puff_ad_6_moshowbiz":{"formatId":98479,"sizes":[[300,250]]},"puff_ad_9":{"formatId":98481,"sizes":[[300,250]]},"puff_ad_9_moshowbiz":{"formatId":98481,"sizes":[[300,250]]},"puff_ad_other":{"formatId":98482,"sizes":[[300,250]]},"puff_ad_other_moshowbiz":{"formatId":98482,"sizes":[[300,250]]},"sky_left_bottom":{"formatId":98483},"sky_left_top":{"formatId":98484},"sky_right_bottom":{"formatId":98485},"sky_right_top":{"formatId":98486},"sticky_banner":{"formatId":98487},"sticky_banner_comments":{"formatId":98487},"sticky_banner_gallery_bottom":{"formatId":98488},"sticky_banner_gallery_top":{"formatId":98489}}},"plugins.bidders.smartAdServer.video":{"formatId":93390},"plugins.bidders.smartAdServer.video.supportedPositions":["video","jwplayer","hero"],"plugins.bidders.teads.display":{"adUnits":{"mpu_puff_5":"131116 120887 300x250","mpu_puff_20":"131284 120887 300x250","mpu_puff_30":"131285 120887 300x250","mpu_puff_others":"131287 120887 300x250","mpu_left":"131288 120887 300x250","sky_left_top":"139758 120887 300x250","sky_right_top":"139759 120887 300x250"}},"plugins.bidders.telariaVideo":{"adUnits":{"hero":"m7hdh-2damu         m7hdh-s5m8k","jwplayer":"m7hdh-2damu        m7hdh-eqad5","video":{"ctp":"m7hdh-2damu        m7hdh-s5m8k","autoplay":"m7hdh-2damu        m7hdh-31s8o"}}},"plugins.bidders.triplelift.display":{"adUnits":{"billboard":"dailymail_desktop_970x250_prebid 728x90,970x250","leader_bottom":"dailymail_desktop_leader_bottom_prebid 728x90,900x250,970x250","leader_lower_middle":"dailymail_desktop_leader_lower_middle_prebid 728x90,900x250,970x250","leader_middle":"dailymail_desktop_leader_middle_prebid 728x90,900x250,970x250","leader_top":"dailymail_desktop_leader_top_prebid 728x90","leader_very_bottom":"dailymail_desktop_leader_very_bottom_prebid 728x90,900x250,970x250","mpu_puff_5":"dailymail_desktop_box_mpu_puff_5_prebid 300x250","mpu_puff_10":"dailymail_desktop_box_mpu_puff_10_prebid 300x250","mpu_puff_15":"dailymail_desktop_box_mpu_puff_15_prebid 300x250","mpu_puff_20":"dailymail_desktop_box_mpu_puff_20_prebid 300x250","mpu_puff_30":"dailymail_desktop_box_mpu_puff_30_prebid 300x250","mpu_puff_45":"dailymail_desktop_box_mpu_puff_45_prebid 300x250","mpu_puff_others":"dailymail_desktop_box_mpu_puff_other_prebid 300x250","mpu_top":"dailymail_desktop_box_mpu_top_prebid 300x250","mpu_left":"dailymail_mpu_desktop_left_HDX_prebid 300x250","sky_left_top":"dailymail_sky_left_desktop_top_160x600_prebid 120x600,160x600","sky_right_top":"dailymail_sky_right_desktop_top_160x600_prebid 120x600,160x600","mpu_factbox":"dailymail_desktop_mpu_factbox_prebid 300x250","inread_player_top":"dailymail_inread_player_top_desktop 300x250"},"wideSkiesAdUnits":{"sky_left_top":"dailymail_sky_left_desktop_top_prebid 300x250,300x600","sky_right_top":"dailymail_sky_right_desktop_top_prebid 300x250,300x600"}},"plugins.bidders.triplelift.video":{"adUnits":{"hero":"dailymail_prebid_hero_instream","ibv":"dailymail_prebid_ibv_player_ctp_instream","jwplayer":"dailymail_prebid_commercial_player_ctp_intstream","inlinevideo":"DailyMail_Instream_Ozone_InlinePlayer_Desktop","video":{"ctp":"dailymail_prebid_editorial_player_ctp_intstream","autoplay":"dailymail_prebid_editorial_player_ap_intstream"}}},"plugins.bidders.unruly":{"adUnits":{"billboard":{"siteId":231218,"sizes":[[970,250],[728,90]]},"leader_bottom":{"siteId":231219,"sizes":[[970,250],[728,90]]},"leader_lower_middle":{"siteId":231220,"sizes":[[970,250],[728,90]]},"leader_middle":{"siteId":231221,"sizes":[[970,250],[728,90]]},"leader_very_bottom":{"siteId":231222,"sizes":[[970,250],[728,90]]},"leader_wide":{"siteId":231223},"mpu_bottom":{"siteId":231224},"mpu_factbox":{"siteId":231227},"mpu_home":{"siteId":231228},"mpu_left":{"siteId":231229},"mpu_middle":{"siteId":231230,"sizes":[[300,250]]},"mpu_player":{"siteId":231238,"sizes":[[300,250]]},"mpu_puff_10":{"siteId":231239},"mpu_puff_20":{"siteId":231240},"mpu_puff_30":{"siteId":231241},"mpu_puff_45":{"siteId":231242},"mpu_puff_other":{"siteId":231243},"mpu_top":{"siteId":231244},"sky_left_top":{"siteId":231249},"sky_right_top":{"siteId":231250},"sticky_banner_gallery_bottom":{"siteId":231252},"sticky_banner_gallery_top":{"siteId":231253}}},"plugins.bidders.unruly.video":{"adUnits":{"hero":284329,"ibv":273977,"jwplayer":231256,"ctp":231254,"autoplay":231255}},"plugins.bidders.nexxen.display":{"adUnits":{"billboard":{"siteId":283361,"sizes":[[970,250],[728,90]]},"mpu_left":{"siteId":283361},"sky_left_top":{"siteId":283361},"sky_right_top":{"siteId":283361},"sticky_banner":{"siteId":283361,"sizes":[[320,50]]}}},"plugins.bidders.verizon.v2.display":{"dcn":"8a9691510171713aaede3c85d0ab0026","posPrefix":"desktop"},"plugins.bidders.verizon.v2.display.adUnits":{"billboard":{"sizes":[[970,250],[728,90]]},"leader_bottom":{"sizes":[[728,90],[970,250]]},"leader_middle":{"sizes":[[728,90],[970,250]]},"leader_top":{},"leader_very_bottom":{"sizes":[[728,90],[970,250]]},"mpu_bottom":{},"mpu_home":{},"mpu_puff_10":{"sizes":[[300,250]]},"mpu_puff_15":{"sizes":[[300,250]]},"mpu_puff_20":{"sizes":[[300,250]]},"mpu_puff_30":{"sizes":[[300,250]]},"mpu_puff_45":{"sizes":[[300,250]]},"mpu_player":{},"mpu_left":{},"mpu_puff_others":{},"mpu_top":{},"mpu_factbox":{},"sky_left_bottom":{},"sky_left_top":{},"sky_right_bottom":{},"sky_right_top":{}},"plugins.bidders.verizon.v2.singleRequestMode":false,"plugins.bidders.yahoossp.display":{"dcn":"8a9691510171713aaede3c85d0ab0026","posPrefix":"desktop"},"plugins.bidders.yahoossp.display.adUnits":{"billboard":{"sizes":[[970,250],[728,90]]},"leader_bottom":{"sizes":[[728,90],[970,250]]},"leader_middle":{"sizes":[[728,90],[970,250]]},"leader_top":{},"leader_very_bottom":{"sizes":[[728,90],[970,250]]},"mpu_bottom":{},"mpu_home":{},"mpu_puff_10":{"sizes":[[300,250]]},"mpu_puff_15":{"sizes":[[300,250]]},"mpu_puff_20":{"sizes":[[300,250]]},"mpu_puff_30":{"sizes":[[300,250]]},"mpu_puff_45":{"sizes":[[300,250]]},"mpu_player":{},"mpu_left":{},"mpu_puff_others":{},"mpu_top":{},"mpu_factbox":{},"sky_left_bottom":{},"sky_left_top":{},"sky_right_bottom":{},"sky_right_top":{}},"plugins.bidders.yahoossp.singleRequestMode":false,"plugins.bidders.yahoossp.video.adUnits":{"hero":{"placementId":"8a96907f0193934aa7f66df141af0042"},"jwplayer":{"preroll":{"placementId":"8a9691f5017c7ce6f06be776731e000b"},"midroll":{"placementId":"8a9695f7017c7ce6f635e7767488000a"}},"video":{"ctp":{"placementId":"8a969d63017c7ce6eb90e776762e000d"},"ap":{"placementId":"8a9691f5017c7ce6f06be7767752000c"}}},"plugins.bidders.yahoossp.video.siteId":"8a9691510171713aaede3c85d0ab0026","plugins.bidders.rtbhouse":{"publisherId":"ncwUITQjGx8zywYjJuKq","region":"prebid-us"},"plugins.enabled":["mvt","gpt","permutive","trackers.admantx","botsPlugin","impIDPlugin","browserResolutionPlugin","rubicon","devicePlugin","imaSDK","vpaid","maxbid","article","sessionDepth","adyoulike","performanceMonitor","rubiconVideo","visits","amazonNative","analytics.rtaIds","analytics.timing","analytics.viewability","appnexusVideo","arrowKeysScroll","billboardAdjustments","kargo","sticky.billboard","sticky.mpus","sticky.skies","bidders.amazon","skins","adIntegrator","analytics.abtest","analytics.entryPoint","analytics.storage","analytics.memory","analytics.bidmax","players.flyoutManager","slots.leaderTop","openxVideo","paidSessions","revenueReporter","watershed","chromelessWaitForBillboard","abe.errorDetection","abe.rtaTracking","analytics.inputDelays","analytics.bidmaxSendBeacon","domain","ixVideo","prebidUserSync","programmaticCampaign","rtaPageEventDispatcher","bidders.teads","trackers.adxChannel","dmp.permutive.video","videoEvents","adsRefresherV2","analytics.bidmaxSendBeaconMigration","analytics.bidsHunting","analytics.cacheIndication","analytics.connection","analytics.customTracking","analytics.cwv","analytics.externalData","analytics.pageCriteria","analytics.pageUnload","analytics.partners","analytics.scrollDepth","analytics.takeover","analytics.timeSpent","analytics.videoFailures","bidCount","bidders.appnexus","bidders.appnexusVideo","bidders.criteoV2","bidders.ixVideo","bidders.kargo","bidders.openx","bidders.openxVideo","bidders.pubmatic","bidders.pubmaticVideo","magniteLink","bidders.rubicon","bidders.rubiconVideo","bidders.smartAdServer","bidders.smartAdServer.video","bidders.triplelift","bidders.tripleliftVideo","bidsReceived","players.commercial","controlPanel","dmp.permutive.indexedDBUsage","pageArea","permutive.rtd","players.targeting","slots.refreshInfo","slots.rendered","sticky.psuedoClasses","trackers.ixIdentity","trackers.pubcommon","trackers.unifiedid","trackers.viewability","abe.analytics","bidders.criteo.video","bidders.ix.v2.display","bidders.ozone","bidders.yahoossp.display","googlePPID","gpid","gpt-targeting.ga.referrer","prebid.permutiveRtd","permutive.vault","prebid.sharedId","reconfigureSlotsEnabled","scanner","trackers.pubProvidedId","analytics.pageMeta","bidders.kargo.video","bidders.ozone.video","bidders.unruly","bidders.unruly.video","capabilities.3rdPartyCookies","dmp.ias.verificationPixel","dmp.ias.targeting","dmp.ias.prebidRtd","exposeUserData","trackers.watchdog","fbWebview","funding-choices","originTrials","page.responsiveness","page.topics","page.meta","page.springPaywall","players.oov","prebid.optout","privacy-sandbox.testmode","slots.classes","slots.test","trackers.commenter","trackers.id5v2","trackers.liveintent.v2","trackonomics","userIds.registration","userIds.sync","userIds.thirdPartyUserData","adlite","adslotComponent.gpt","analytics.billboard-creative-wrapper","bidders.gumgum","bidders.rtbhouse","outbrain.compliancy","players.adRequest.plcmt","slots.connatix.v3","slots.lazyLoad","anchor-wrapper","widgets","prebid.lexiconId","snapChatWebView","gcm","affilimate","adslotComponent.mock","bidders.pgam.display","bidders.pgam.video","data-cleaner","prebid.paapi","sticky.banner.v2","trackers.ipsos","cmp.v2","trackers.bombara","optimized-homepage-meta","page_unresponsive_detection","visits-v2","bidders.rise","bidders.rise.video","bidders.mediago","tiktokWebview","microsoftAdsPixel","overlay-detector","peekaboo","position.monitor","prebid.pricefloor","scroll-observer","jwplayer","sticky.mpuLeft"],"plugins.fundingChoices.overlayMonitor":true,"plugins.nonAdServable.enabledPlugins":["fbRemarketingPixel"],"plugins.permutive":{"projectId":"5aa8f0a2-0c93-444a-8596-5e5dce694b36","apiKey":"fc90bebe-df0f-4783-9136-4dadff05fcca"},"plugins.position.monitor.interval":1000,"plugins.prebid.appnexusVideoEnabled.chance":1,"plugins.prebid.async.config.timeout":500,"plugins.prebid.fledge.supportedBidders":["all"],"plugins.prebid.ortb2.includeUserIP":true,"plugins.prebid.pricefloor":{"data":{"currency":"USD","schema":{"fields":["mediaType"]},"values":{"banner":0.06,"video":0.25}}},"plugins.prebid.sharedId":{"cookie":{"name":"_pubcid"}},"plugins.rubicon.skin":{"adUnits":[{"code":"billboard","mediaTypes":{"banner":{"sizes":[[970,250]]}},"bids":[{"bidder":"rubicon","params":{"accountId":9929,"siteId":124372,"zoneId":3703652}}]}]},"plugins.privacy-sandbox.testmode":{"treatment_1.1":["trackers.id5v2","trackers.id5","trackers.unifiedid","prebid.lexiconId","pixelSync","trackers.liveintent","bidders.ozone","bidders.ozone.video","headerbidding.intentiq","permutive.rtd","prebid.permutiveRtd"]},"plugins.scanner.provider":"mediaTrust","plugins.scanner.scriptUrl":{"mediaTrust":"https://scripts.webcontentassessor.com/scripts/bc585bfefc95184247617f742a451b7f4f99b8d4f250b51c2fabb00dee8e855d","confiant":"https://cdn.confiant-integrations.net/eCtvSlC8U9hahCOit78rGy74Auc/gpt_and_prebid/config.js"},"plugins.scanner.scriptUrl.mediaTrust":"https://scripts.webcontentassessor.com/scripts/1cf2d4ca06a332f1426ae0c51028051e714eb67dff3a0f3ddf0d1952faa56a3d","plugins.scanner.sync":true,"plugins.sharedid":{"extend":true},"plugins.slots.leaderTop":{"triggerElementId":"billBoard","offsetBelowElement":0},"plugins.slots.loadConditions":{"constants":{"onlyIfNoTakeover":{"and":[{"isViewPortWidthLargerThan":1200},{"or":[{"not":{"isPosDefined":"billboard"}},{"and":[{"isPosRendered":"billboard"},{"isPosRendered":"billboard-oop"},{"isPosEmpty":"billboard-oop"},{"or":[{"isPosEmpty":"billboard"},{"isAdSmallerThan":{"pos":"billboard","size":[2000,1200]}}]}]}]}]},"onlyIfNoOOPBillboard":{"or":[{"not":{"isPosDefined":"billboard"}},{"and":[{"isPosRendered":"billboard"},{"or":[{"not":{"isPosDefined":"billboard-oop"}},{"and":[{"isPosRendered":"billboard-oop"},{"isPosEmpty":"billboard-oop"}]}]}]}]},"ifNotIeAndOnlyIfNoTakeOver":{"and":[{"not":{"isIE":false}},{"and":[{"isViewPortWidthLargerThan":1200},{"or":[{"not":{"isPosDefined":"billboard"}},{"and":[{"isPosRendered":"billboard"},{"isPosRendered":"billboard-oop"},{"isPosEmpty":"billboard-oop"},{"or":[{"isPosEmpty":"billboard"},{"isAdSmallerThan":{"pos":"billboard","size":[2000,1200]}}]}]}]}]}]},"onlyIfNoTakeoverAndAndLargeViewport":{"and":[{"isViewPortWidthLargerThan":1565},{"or":[{"not":{"isPosDefined":"billboard"}},{"and":[{"isPosRendered":"billboard"},{"isPosRendered":"billboard-oop"},{"isPosEmpty":"billboard-oop"},{"or":[{"isPosEmpty":"billboard"},{"isAdSmallerThan":{"pos":"billboard","size":[2000,1200]}}]}]}]}]},"isWideViewPort":{"isViewPortWidthLargerThan":1200},"onlyIfLargeViewport":{"isViewPortWidthLargerThan":1565},"oopLoadCondition":{"and":[{"isViewPortWidthLargerThan":100},{"isMasterRendered":true}]}}},"plugins.slots.outstream.default":{"mediaTypes":{"video":{"playerSize":[480,270],"context":"outstream","mimes":["video/mp4","application/javascript"],"protocols":[1,2,3,4,5,6],"api":[1,2,3,4,5],"linearity":1,"maxduration":60,"skippable":"false,","playback_method":["auto_play_sound_off"]}}},"plugins.slots.video.v2":{"code":"video","pageLoadTimeout":5000,"videoAdServerUrl":"http://pubads.g.doubleclick.net/gampad/ads?sz=[size]&iu=%2F5765%2Fdm.video%2Fdm_video_news_apfa&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]","mediaTypes":{"video":{"playerSize":[636,358],"context":"instream","placement":1,"plcmt":1,"playbackmethod":[3],"skip":0,"mimes":["video/mp4","application/javascript"],"protocols":[1,2,3,4,5,6],"api":[1,2],"linearity":1,"minduration":5,"maxduration":30}},"bids":[]},"plugins.slots.jwplayer.v3":{"code":"jwplayer","mediaTypes":{"video":{"api":[1,2],"context":"instream","linearity":1,"maxduration":30,"mimes":["video/mp4","application/javascript"],"minduration":5,"placement":1,"plcmt":2,"playbackmethod":[2],"skip":0,"playerSize":[401,225],"protocols":[1,2,3,4,5,6]}},"bids":[],"pageLoadTimeout":5000,"pauseOnBlur":true,"pauseOnVisibilityChange":true,"videoAdServerUrl":"https://googleads.g.doubleclick.net/pagead/ads?sdkv=h.3.228.0&sdki=3c4d&video_product_type=0"},"plugins.slots.jwplayer.v3.bannerFallback":{"enabled":true,"playerSize":[445,250],"displayTimeout":5000},"plugins.slots.jwplayer.v3.ui":{"text":{"readMore":"read more"},"playlistUrl":"https://secured.dailymail.co.uk/feeds/commercial/topVideos.json","shufflePlaylist":true,"maxVideoDuration":150000},"plugins.slots.jwplayer.v3.ui.backgroundImage":"","plugins.slots.ibv":{"code":"ibv","mediaTypes":{"video":{"api":[1,2],"context":"instream","linearity":1,"maxduration":30,"mimes":["video/mp4","application/javascript"],"minduration":5,"placement":1,"plcmt":2,"playbackmethod":[2],"skip":0,"playerSize":[401,225],"protocols":[1,2,3,4,5,6]}},"bids":[],"pageLoadTimeout":5000,"pauseOnBlur":true,"pauseOnVisibilityChange":true,"videoAdServerUrl":"https://googleads.g.doubleclick.net/pagead/ads?sdkv=h.3.228.0&sdki=3c4d&video_product_type=0"},"plugins.slots.ibv.bannerFallback":{"enabled":true,"playerSize":[445,250],"displayTimeout":5000},"plugins.slots.ibv.ui":{"text":{"readMore":"read more"},"playlistUrl":"https://secured.dailymail.co.uk/feeds/commercial/topVideos.json","shufflePlaylist":true,"maxVideoDuration":150000},"plugins.slots.ibv.ui.backgroundImage":"","plugins.slots.verticalvideo.v1":{"code":"verticalvideo","mediaTypes":{"video":{"api":[1,2],"context":"instream","linearity":1,"maxduration":30,"mimes":["video/mp4","application/javascript"],"minduration":5,"playerSize":[1080,1920],"protocols":[1,2,3,4,5,6]}},"bids":[],"pageLoadTimeout":5000},"plugins.trackers.33across.pid":"0013300001f6OFRAA2","plugins.trackonomics":{"baseURL":"https://clicks.trx-hub.com/xid/mailonline_8bcce_mailonline","patternURL":"https://iad.anm.co.uk/tnomics/trackonomics.pattern.txt","forceWrap":true},"plugins.user.sync.thirdPartyUserData.supportedOrigins":["https://www.sofascore.com"],"plugins.widgets.customViewabilityTracking":true,"pos.bvp_puff_26.editorialFallback":false,"pos.bvp_puff_26.title":"SPONSORED","pos.connatix.v3.loadIASVerificationPixel":true,"pos.connatix.v3.margin":{"top":30,"bottom":60},"pos.connatix.v3.paragraphIndex":4,"pos.connatix.v3.playerId":"3d515c74-7081-444b-8589-1aa7e56f656c","pos.inread_player_top.paragraphIndex":4,"pos.inread_player_top.margin":{"top":30,"bottom":30},"pos.stickyBanner.autoRefresh":false,"pos.stickyBanner.underlayPadding":{"top":0,"bottom":0},"pos.stickyBanner.disableAdvertisementBanner":true,"pos.under-article":{"on":true,"amazon":{"id":"df745670-1d9e-4f8c-890c-b2e54a92586a","url":"//z-na.amazon-adsystem.com/widgets/onejs"}},"prebid.currency":{"adServerCurrency":"USD","granularityMultiplier":1,"conversionRateFile":"https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json","defaultRates":{"GBP":{"USD":1.29}}},"prebid.pubcommon":{"enabled":true},"prebid.s2s":{"enabled":false},"prog.campaign.percentage":{"chrome":0.7,"crios":0.7},"reconfigureSlotsEnabled":{"__targeting":{"device":["tablet"],"payload":{"remove":["sky_left_top","sky_left_bottom","sky_right_top","sky_right_bottom"]}}},"scheduler.executer":{"type":"sync"},"slot.skies":{"minPageWidth":100},"slots.test":{"pos":"obo-test","subjectSelector":"#taboola-below-article-thumbnail-slot","viewEvent":["outbrain visible"]},"sticky.billboard":{"timeAfterScroll":5000,"timeAfterVisible":3000},"sticky.billboard.forceView":false,"sticky.rhrMPU":{"stickyPosition":"mpu_puff_5"},"skimlinks":{"enabled":true,"filename":"55199X1584066"},"performance.async.chance":0.5,"amazon.priceLookup":"/abe/a9/price","taboola":{"pageType":"article","enabled":true},"taboola.afterArticle":{"enabled":false},"taboola.infiniteScroll":{"enabled":false},"taboola.outStream":{"enabled":true,"mode":"thumbnails-mid","placement":"Mid Article Thumbnails","targetType":"mix","margin":{"top":30,"bottom":60},"paragraphIndex":3},"taboola.pufflist":{"enabled":false},"taboola.scriptDir":"dailymail-us","taboola.thumbnail":{"enabled":true,"placement":"Desktop-Wide","mode":"autosized-generated-text-under-1r-us","targetType":"mix"},"taboola.thumbnailChannel":{"enabled":false},"tcfv2":{"backendUrl":"https://cmp.dmgmediaprivacy.co.uk/gdpr/consent/persist","version":"2.14.0","uiVersion":"1.23.0","gvlUiVersion":"v3/latest","cvlVersion":"0.0.1","cvlUiVersion":2,"nrvUiVersion":"dailymail/v8","storeUserPreference":false,"repromptPartials":true,"cvlVersionRepromptCheck":true,"useTCF2_2Branding":true,"reprompt":{"version":5,"chance":1}},"tcfv2.consentOrPay":{"enabled":true,"subscriptionURL":"https://www.mailsubscriptions.co.uk/info/365662/choose-from-one-of-these-options"},"tcfv2.consentOrPay.removePlugins":["abe.analytics","abe.conversion","abe.errorDetection","abe.rtaTracking","adIntegrator","adlite","adNami","adProtection","addHBDeal","adsRefresherV2","adserver","adslotComponent.gpt","amazonNative","analytics.bidsHunting","analytics.billboard-creative-wrapper","analytics.viewability","analytics.viewability.v2","audienceProject","bidCount","bidders.33across","bidders.33across.video","bidders.adyoulike","bidders.amazon","bidders.amx.display","bidders.amx.video","bidders.appnexus","bidders.appnexusOutstream","bidders.appnexusPSP","bidders.appnexusSkin","bidders.appnexusVideo","bidders.converge","bidders.criteo.video","bidders.criteoV2","bidders.groupm","bidders.groupm.v2.display","bidders.groupmSkin","bidders.gumgum","bidders.inskin","bidders.ix","bidders.ix.v2.display","bidders.ixVideo","bidders.kargo","bidders.kargo.video","bidders.oathVideo","bidders.openx","bidders.openxVideo","bidders.ozone","bidders.ozone.video","bidders.pubmatic","bidders.pubmaticVideo","bidders.pxyz","bidders.rhythmOne","bidders.rhythmOne.video","bidders.rubiMM","bidders.rubiMM2","bidders.rubiTTD","bidders.rubicon","bidders.rubiconSkin","bidders.rubiconVideo","bidders.sharethrough","bidders.sharethrough.v2.display","bidders.sharethrough.video","bidders.smartAdServer","bidders.smartAdServer.video","bidders.teads","bidders.telariaVideo","bidders.triplelift","bidders.tripleliftVideo","bidders.nexxen","bidders.unruly","bidders.unruly.video","bidders.verizon2","bidders.video.rubiMM","bidders.yahoossp.display","bidders.yahoossp.video","bidders.rtbhouse","bidders.appnexus.video","bidders.criteo","bidders.indexExchange","bidders.indexExchange.video","bidders.rubicon.video","bidders.triplelift.video","bidders.rhythmone","bidders.rhythmone.video","bidsReceived","billboardAdjustments","blockthrough","brandedVideoPlayer","browserResolutionPlugin","capabilities.3rdPartyCookies","chromelessWaitForBillboard","chromelessv2.dmplayer","controlPanel","debug.setPlugin","device","devicePlugin","dmp.ias.verificationPixel","dmp.ias.targeting","dmp.ias.prebidRtd","dmp.moat","dmp.permutive.indexedDBUsage","dmp.permutive.video","domain","exposeUserData","fbRemarketingPixel","fbWebview","snapChatWebView","tiktokWebview","firstImpression","funding-choices","googlePPID","gpid","gpt","gpt-targeting.ga.referrer","headerBidding.bidsReceived","headerbidding.intentiq","houseAdsOnly","imaSDK","impIDPlugin","increaseOnline","integral","intowow","lotame","maxbid","minBid","mobileFlyawayPlayer","mvt","nativo","nonPersonalizedAds","nonRegisteredVendors","originTrials","page.responsiveness","pageArea","paidSessions","permutive","permutive.rtd","permutive.targeting","permutive.vault","pixelSync","players.adRequest.plcmt","players.commercial","players.dmplayer","players.flyoutManager","players.oov","players.targeting","players.visibility","prebid","prebid.fledge","prebid.id-absorption","prebid.lexiconId","prebid.optout","prebid.permutiveRtd","prebid.sharedId","prebidEventReporter","prebidUserSync","programmaticCampaign","pulsepoint","realTimePricingPlugin","reconfigureSlotsEnabled","revenueReporter","securityViolation","sessionDepth","skimlinks","skins","slots.InreadPlayerTop","slots.connatix.v3","slots.leaderTop","slots.mpuFactBox","slots.mpuMobileFactbox","slots.mpuMobileOthers","slots.mpuPuffOthers","slots.puffAdOthers","slots.refreshInfo","slots.rendered","slots.test","smartBanner","sticky.banner","sticky.billboard","sticky.mpuLeft","sticky.mpus","sticky.psuedoClasses","sticky.skies","switch","taboola","taboola.Outstream","taboola.slots","taboolaAds","teads-cookieless","trackers.33across","trackers.admantx","trackers.adxChannel","trackers.applePrivateRelay","trackers.commenter","trackers.exitbee","trackers.id5","trackers.id5v2","trackers.ixIdentity","trackers.liveintent.v2","trackers.watchdog","trackers.pubcommon","trackers.pubProvidedId","trackers.smartclip","trackers.taboola","trackers.unifiedid","trackers.viewability","trackonomics","videoEvents","videoFlyout","videoForceFlyout","vpaid","watershed","yieldbot"],"tcfv2.gvlMigration":{"useGeoDeviceVariantGVL":true,"rollbackGeoVariant":false},"tcfv2.gvlRemigrateVersion":1,"tcfv2.repromptMigrations":[{"chance":1,"version":5},{"chance":1,"version":7,"onlyIfDissentedFromAny":[793]},{"chance":1,"version":8},{"chance":1,"version":9}],"tcfv2.uiFile":"mailonline/index.js","tcfv2_2.brand.level1Paragraphs":["We and our partners process, store and/or access data such as IP address, unique ID and browsing data to display personalised advertising and content, advertising and content measurement audience research and services development.  To collect this data, we use cookies or similar tracking technologies (\"Cookies\"). We and our partners usually rely on your consent for such processing, but in some cases, we may rely on legitimate interest.","Click \"<b>Got it</b>\" if you are happy for us and our partners to collect and use this data for the purposes set out above. Alternatively, click \"<b>Manage Settings</b>\" to learn more about how we and our partners use this data as well as how you can <b>reject or change our use of Cookies</b> or otherwise <b>opt out of our processing</b> of your data.","You can control how your data is used, view our [NUMBER_OF_VENDORS] partners and view more info at any time via the Cookie Settings link in our Privacy Policy. Your preferences will apply to this website only."],"trackers.syncDelay":1000,"trackers.id5":{"enabled":true,"partnerId":167},"trackers.admantx":{"endPoint":"https://euasync01.admantx.com/admantx/service","request":{"key":"d4d1cdf427f06ebc6ee7e0a3ffbcaecdfbfe517eca18a41d9126f88bdb16e7f0","type":"url","method":"descriptor","mode":"async","decorator":"json","filter":["admants"]}},"trackers.viewability":{"positions":["mpu_puff_5"]},"video.earlyBidding.enabled.chance":1,"videoDescription.hero.adUnit":"dm.video.hero","videoDescription.hero.biddingTemplatePath":"videoDescription.video.biddingTemplate","videoDescription.hero.screen":{"width":636,"height":358},"videoDescription.hero.size":[[636,358]],"videoDescription.ibv.biddingTemplate":{"code":"ibv"},"videoDescription.inlinevideo":{"pauseOnBlur":true,"adUnit":"dm.inlinevideo","targetingPrefix":"jw_","autoplay":false,"adSchedule":{"*":[{"offset":0,"pos":"preroll"},{"offset":15,"pos":"midroll"},{"offset":40,"pos":"midroll"}]}},"videoDescription.inlinevideo.biddingTemplate":{"code":"inlinevideo","mediaTypes":{"video":{"playerSize":[401,225]}}},"videoDescription.inlinevideo.biddingTemplatePath":"videoDescription.inlinevideo.biddingTemplate","videoDescription.jwplayer":{"adSchedule":{"*":[{"offset":0,"pos":"preroll"},{"offset":20,"pos":"midroll"},{"offset":40,"pos":"midroll"}]},"adUnit":"dm.chromelessvideo","targetingPrefix":"jw_","biddingTemplatePath":"videoDescription.jwplayer.biddingTemplate"},"videoDescription.jwplayer.biddingTemplate":{"code":"jwplayer","mediaTypes":{"video":{"playbackmethod":[2],"playerSize":[401,225]}}},"videoDescription.jwplayer.pauseOnBlur":false,"videoDescription.mediaTypes":{"video":{"playerSize":[401,225]}},"videoDescription.mpu_puff_10":{"adSchedule":{"*":[{"offset":0,"pos":"preroll"},{"start":8,"every":8,"pos":"midroll"}]},"adUnit":"dm.ibvideo","targetingPrefix":"jw_","biddingTemplatePath":"videoDescription.ibv.biddingTemplate"},"videoDescription.mpu_puff_10.biddingProfile":"ibv","videoDescription.mpu_puff_10.pauseOnBlur":true,"videoDescription.mpu_puff_20":{"adSchedule":{"*":[{"offset":0,"pos":"preroll"},{"start":5,"every":5,"pos":"midroll"}]},"adUnit":"dm.ibvideo","targetingPrefix":"jw_","biddingTemplatePath":"videoDescription.ibv.biddingTemplate"},"videoDescription.mpu_puff_20.biddingProfile":"ibv","videoDescription.mpu_puff_20.pauseOnBlur":false,"videoDescription.verticalvideo":{"provideAdTagAfterRequestNum":3,"size":[[300,250],[480,360],[640,360],[640,480],[720,1280],[1080,1440],[1080,1920]]},"videoDescription.verticalvideo.biddingTemplate":{"code":"verticalvideo","mediaTypes":{"video":{"playerSize":[1080,1920]}}},"videoDescription.verticalvideo.biddingTemplatePath":"videoDescription.verticalvideo.biddingTemplate","videoDescription.video":{"biddingTemplatePath":"videoDescription.video.biddingTemplate"},"videoDescription.video.biddingTemplate":{"code":"video","mediaTypes":{"video":{"playbackmethod":[3],"playerSize":[636,358],"plcmt":1}}},"mvt.tests.iiq_usau":{"__targeting":[{"browser":["safari","firefox","edge"],"payload":{"scope":"user","size":1,"scenarios":{"on":{"plugins":{"remove":["trackers.liveintent.v2"],"add":["headerbidding.intentiq"]},"size":0.99},"off":{"plugins":{"remove":["headerbidding.intentiq"]},"size":0.01}}}}]},"mvt.tests.browser_audience_usv6":{"__targeting":[{"browser":["chrome"],"payload":{"scope":"user","size":0.06,"scenarios":{"oz_on_chrome":{"plugins":{"remove":["headerbidding.intentiq","trackers.liveintent.v2"],"add":["bidders.ozone","bidders.ozone.video"]}},"li_on_chrome":{"config":[{"liveintent.enabledChance":1}],"plugins":{"remove":["bidders.ozone","bidders.ozone.video","headerbidding.intentiq"],"add":["trackers.liveintent.v2"]}},"iiq_on_chrome":{"plugins":{"remove":["bidders.ozone","bidders.ozone.video","trackers.liveintent.v2"],"add":["headerbidding.intentiq"]}},"li&oz_on_chrome":{"config":[{"liveintent.enabledChance":1}],"plugins":{"remove":["headerbidding.intentiq"],"add":["trackers.liveintent.v2","bidders.ozone","bidders.ozone.video"]}},"iiq&oz_on_chrome":{"plugins":{"remove":["trackers.liveintent.v2"],"add":["bidders.ozone","bidders.ozone.video","headerbidding.intentiq"]}},"control_chrome":{"plugins":{"remove":["trackers.liveintent.v2","headerbidding.intentiq","bidders.ozone","bidders.ozone.video"]}}}}},{"browser":["safari","firefox","edge"],"payload":{"scope":"user","size":0.06,"scenarios":{"iiq&oz_on_noChrome":{"plugins":{"remove":["trackers.liveintent.v2"],"add":["headerbidding.intentiq","bidders.ozone","bidders.ozone.video"]}},"li&oz_on_noChrome":{"config":[{"liveintent.enabledChance":1}],"plugins":{"remove":["headerbidding.intentiq"],"add":["trackers.liveintent.v2","bidders.ozone","bidders.ozone.video"]}},"oz_on_noChrome":{"plugins":{"remove":["headerbidding.intentiq","trackers.liveintent.v2"],"add":["bidders.ozone","bidders.ozone.video"]}},"li_on_noChrome":{"config":[{"liveintent.enabledChance":1}],"plugins":{"remove":["bidders.ozone","bidders.ozone.video","headerbidding.intentiq"],"add":["trackers.liveintent.v2"]}},"iiq_on_noChrome":{"plugins":{"remove":["bidders.ozone","bidders.ozone.video","trackers.liveintent.v2"],"add":["headerbidding.intentiq"]}},"control_noChrome":{"plugins":{"remove":["trackers.liveintent.v2","headerbidding.intentiq","bidders.ozone","bidders.ozone.video"]}}}}}]},"mvt.tests.browser_audience_row2":{},"mvt.tests.audience_row":{},"mvt.tests.affilimate":{"scope":"user","size":1,"scenarios":{"affilimate":{"config":[{"affilimate.enabledArticles":["13967305","13976413","14865925","14846655","14856743"]}],"plugins":{"add":["affilimate"]}}}},"mvt.tests.amazonAPSSDK":{"scope":"page","size":0.09,"scenarios":{"control":{},"useAPSSDK":{"config":[{"bidders.amazon.useAPSSDK":true}]},"useAPSSDKAndGPID":{"config":[{"bidders.amazon.useAPSSDK":true},{"amazon.gpid.enabled":true}]}}},"mvt.tests.auctionChannels":{"scope":"page","size":1,"scenarios":{"channels":{"plugins":{"add":["targeting.manager"]}},"channelsMatchGetVideoTags":{"config":[{"auction.manager.waitForPrebidReadyBeforeInvokingGetVideoTags":true}],"plugins":{"add":["targeting.manager"]}},"streams":{}}},"mvt.tests.control_user":{"scope":"user","size":0.1,"scenarios":{"control0":{},"control1":{},"control2":{},"control3":{},"control4":{},"control5":{},"control6":{},"control7":{},"control8":{},"control9":{}}},"mvt.tests.TTDopenpath":{"scope":"page","size":1,"scenarios":{"off":{"plugins":{},"size":0.05},"on":{"plugins":{"add":["bidders.theTradeDesk","bidders.theTradeDesk.video"]},"size":0.95}}},"mvt.tests.mediatorBarrierTest":{"scope":"page","size":1,"scenarios":{"control":{"plugins":{}},"disabled":{"config":[{"players.chromeless.dmplayer.v3.delayBeforeStartPlayer":0}],"plugins":{"remove":["chromelessWaitForBillboard"]}}}},"mvt.tests.stackAdaptPixel":{"scope":"user","size":1,"scenarios":{"on":{"plugins":{"add":["stackAdaptPixel"]},"size":0.95},"control":{"plugins":{},"size":0.05}}},"mvt.tests.commercialPlayerAdCalls":{"scope":"page","size":0.2,"scenarios":{"control":{},"vpmute":{"config":[{"videoDescription.jwplayer.excludeVPMuteFlag":true}]}}},"mvt.tests.inlineVideoConnatixReplacement":{},"mvt.tests.inlineVideoArticle_desktop":{},"mvt.tests.ozoneDmgID":{"__targeting":[{"browser":["safari"],"payload":{"scope":"user","size":1,"scenarios":{"on_safari":{"config":[{"plugins.bidders.ozone.provideUserId":true}],"size":0.99},"off_safari":{"config":[{"plugins.bidders.ozone.provideUserId":false}],"size":0.01}}}},{"browser":["chrome"],"payload":{"scope":"user","size":1,"scenarios":{"on_chrome":{"config":[{"plugins.bidders.ozone.provideUserId":true}],"size":0.99},"off_chrome":{"config":[{"plugins.bidders.ozone.provideUserId":false}],"size":0.01}}}}]},"mvt.tests.tid_v2":{"scope":"user","size":1,"scenarios":{"on":{"config":[{"prebid.tids":true}],"size":0.2},"off":{"config":[{"prebid.tids":false}],"size":0.8}}},"mvt.tests.US_prebidFloors":{"scope":"page","size":0.5,"scenarios":{"control":{},"test1":{"config":[{"plugins.prebid.pricefloor.data":{"currency":"USD","schema":{"fields":["mediaType"]},"values":{"banner":0.1,"video":0.4}}}]},"test2":{"config":[{"plugins.prebid.pricefloor.data":{"currency":"USD","schema":{"fields":["mediaType"]},"values":{"banner":0.15,"video":0.6}}}]},"test3":{"config":[{"plugins.prebid.pricefloor.data":{"currency":"USD","schema":{"fields":["mediaType"]},"values":{"banner":0.2,"video":0.8}}}]},"test4":{"config":[{"plugins.prebid.pricefloor.data":{"currency":"USD","schema":{"fields":["mediaType"]},"values":{"banner":0.25,"video":1}}}]}}},"slotDescription.billboard":{"id":"billBoard","size":[[970,250],[900,250],[728,90]],"slotTypes":["gpt","gptOOP"]},"slotDescription.billboard.oopLoadCondition":"oopLoadCondition","slotDescription.channel_feed":{"id":"taboola-category-extra-wide-desktop-slot","slotTypes":["taboola"],"size":[[1,1]],"earlyBidding":false},"slotDescription.connatix":{"earlyBidding":false,"slotTypes":["connatix"],"size":[[600,355]]},"slotDescription.leader_lower_middle":{"id":"leader_lower_middle","slotTypes":["gpt"],"size":[[970,250],[900,250],[728,90]]},"slotDescription.leader_wide":{"id":"leader_wide","slotTypes":["gpt"],"size":[[728,90]]},"slotDescription.mpu_factbox":{"earlyBidding":false,"isTemplate":true,"regex":"mpu_factbox_(\\d+)","unit":"mpu_factbox","slotTypes":["gpt"],"size":[[300,250]]},"slotDescription.mpu_left":{"id":"mpu_left","earlyBidding":false,"slotTypes":["gpt"],"size":[[300,250],[350,300]]},"slotDescription.mpu_left.loadCondition":"onlyIfNoTakeoverAndAndLargeViewport","slotDescription.mpu_player":{"id":"mpu_player","earlyBidding":false,"slotTypes":["gpt"],"size":[[300,250]],"bannerFallback":{"playerSize":[445,250],"displayTimeout":5000}},"slotDescription.mpu_puff_10":{"__targeting":[{"entitlements":["mailplus-ad-lite","mailplus-basic"],"payload":{"id":"mpu_puff_10","size":[[300,600],[300,250]],"slotTypes":["gpt"]}},{"payload":{"id":"mpu_puff_10","size":[[300,250]],"slotTypes":["commercialPlayer"],"earlyBidding":false,"behaviour":"slotted"}}]},"slotDescription.mpu_puff_20":{"id":"mpu_puff_20","size":[[300,600],[300,250]],"slotTypes":["gpt"]},"slotDescription.mpu_puff_30":{"id":"mpu_puff_30","size":[[300,600],[300,250]],"slotTypes":["gpt"]},"slotDescription.mpu_puff_45":{"id":"mpu_puff_45","size":[[300,600],[300,250]],"slotTypes":["gpt"]},"slotDescription.mpu_puff_5":{"id":"mpu_puff_5","size":[[300,250],[300,600]],"slotTypes":["gpt"]},"slotDescription.mpu_puff_others":{"earlyBidding":false,"isTemplate":true,"variantSeparator":"_","variantPrefix":"mpu_puff_other","regex":"mpu_puff_other_(\\d+)","unit":"mpu_puff_other","size":[[300,600],[300,250]],"slotTypes":["gpt"]},"slotDescription.mpu_top":{"id":"mpu_top","size":[[300,600],[300,250]],"slotTypes":["gpt"]},"slotDescription.native_puff_0_4":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_5_9":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_10_14":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_15_19":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_20_24":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_25_29":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.native_puff_30_34":{"earlyBidding":false,"slotTypes":["gpt"],"omitBidding":true,"noWatermark":true,"noAdLabel":true,"unit":"native","size":[[414,420]]},"slotDescription.puff_ad_others":{"earlyBidding":false,"isTemplate":true,"regex":"puff_ad_others?[_-](\\d+)","unit":"puff_ad_other","slotTypes":["gpt"],"size":[[300,250],[356,114],[316,114]]},"slotDescription.sky_left_top":{"id":"sky-left","slotTypes":["gpt"],"size":[[160,600],[120,600]],"conditionalSizes":{"wideSkies":true,"sizes":[[300,600],[160,600],[120,600],[300,250]]}},"slotDescription.sky_left_top.loadCondition":"onlyIfNoTakeover","slotDescription.sky_right_top":{"id":"sky-right","slotTypes":["gpt"],"size":[[160,600],[120,600]],"conditionalSizes":{"wideSkies":true,"sizes":[[300,600],[160,600],[120,600],[300,250]]}},"slotDescription.sky_right_top.loadCondition":"onlyIfNoTakeover","slotDescription.smart_feed":{"id":"taboola-below-article-thumbnail-slot","slotTypes":["widgets"],"size":[[1,1]],"earlyBidding":false},"slotDescription.sticky_banner_gallery_bottom":{"id":"sticky_banner_gallery_bottom","earlyBidding":false,"slotTypes":["gpt"],"size":[[320,50]]},"slotDescription.sticky_banner_gallery_top":{"id":"sticky_banner_gallery_top","earlyBidding":false,"slotTypes":["gpt"],"size":[[320,50]]},"slotDescription.video_ad":{"id":"video_ad","slotTypes":["gpt"],"size":[[300,365]]},"slots.enabled":{"channel_feed":{"loadingType":"immediate","loadingTrigger":"body"},"mpu_puff_5":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"750"},"smart_feed":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"4000"},"sticky_banner_gallery_bottom":{"loadingType":"immediate","loadingTrigger":"body"},"sticky_banner_gallery_top":{"loadingType":"immediate","loadingTrigger":"body"},"billboard":{"loadingType":"immediate","loadingTrigger":"body"},"leader_lower_middle":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_factbox":{"loadingType":"immediate","loadingTrigger":"body"},"mpu_puff_10":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_puff_20":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_puff_30":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_puff_45":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_puff_others":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":"1250"},"mpu_top":{"loadingType":"immediate","loadingTrigger":"$this","loadingOffset":"1000"},"connatix":{"loadingType":"immediate","loadingTrigger":"body"},"leader_wide":{"loadingType":"immediate","loadingTrigger":"body"},"mpu_player":{"loadingType":"immediate","loadingTrigger":"body"},"mpu_left":{"loadingType":"immediate","loadingTrigger":"body"},"sky_left_top":{"loadingType":"immediate","loadingTrigger":"body"},"sky_right_top":{"loadingType":"immediate","loadingTrigger":"body"},"para_top":{"loadingType":"immediate","loadingTrigger":"body"},"puff_ad_others":{"loadingType":"lazy","loadingTrigger":"$this","loadingOffset":600},"video_ad":{}},"__generated.modifiers.applied":["mpuLeft.plugin.modifier"],"__generated.rulesJs.cluster":"c","__generated.rulesJs.version":"1.3.0-next-release-03b7172"};
@@ -2747,25 +2747,25 @@ window.BOOMR=window.BOOMR||{},window.BOOMR.plugins=window.BOOMR.plugins||{},wind
   <span class="link-gr6ox linkro-ccox">
     <a href="/ushome/index.html" class="no-border" >Home</a>
   </span>
-  
+
 </li>
 <li class="tvshowbiz">
   <span class="link-gr6ox linkro-ccox">
     <a href="/usshowbiz/index.html"  >Showbiz</a>
   </span>
-  
+
 </li>
 <li class="tv">
   <span class="link-gr6ox linkro-ccox">
     <a href="/tv/us/index.html"  >TV</a>
   </span>
-  
+
 </li>
 <li class="news">
   <span class="link-gr6ox linkro-ccox">
     <a href="/news/us/index.html"  >News</a>
   </span>
-  
+
 </li>
 <li class="femail">
   <span class="link-wocc linkro-wocc selected">
@@ -2776,61 +2776,61 @@ window.BOOMR=window.BOOMR||{},window.BOOMR.plugins=window.BOOMR.plugins||{},wind
   <span class="link-gr6ox linkro-ccox">
     <a href="/sport/us/index.html" class="no-border" >Sports</a>
   </span>
-  
+
 </li>
 <li class="health">
   <span class="link-gr6ox linkro-ccox">
     <a href="/health/us/index.html"  >Health</a>
   </span>
-  
+
 </li>
 <li class="sciencetech">
   <span class="link-gr6ox linkro-ccox">
     <a href="/sciencetech/index.html"  >Science</a>
   </span>
-  
+
 </li>
 <li class="royal_wedding">
   <span class="link-gr6ox linkro-ccox">
     <a href="/news/royals/index.html"  >Royals</a>
   </span>
-  
+
 </li>
 <li class="money">
   <span class="link-gr6ox linkro-ccox">
     <a href="/yourmoney/index.html"  >Money</a>
   </span>
-  
+
 </li>
 <li class="realestate">
   <span class="link-gr6ox linkro-ccox">
     <a href="/real-estate/index.html"  >Real Estate</a>
   </span>
-  
+
 </li>
 <li class="media">
   <span class="link-gr6ox linkro-ccox">
     <a href="/media/index.html"  >Media</a>
   </span>
-  
+
 </li>
 <li class="home">
   <span class="link-gr6ox linkro-ccox">
     <a href="/home/index.html"  >U.K.</a>
   </span>
-  
+
 </li>
 <li class="video">
   <span class="link-gr6ox linkro-ccox">
     <a href="/video/index.html"  >Video</a>
   </span>
-  
+
 </li>
 <li class="buyline">
   <span class="link-gr6ox linkro-ccox">
     <a href="/buyline/us/index.html"  >Buyline</a>
   </span>
-  
+
 </li>
 
 </ul>
@@ -2881,10 +2881,10 @@ window.BOOMR=window.BOOMR||{},window.BOOMR.plugins=window.BOOMR.plugins||{},wind
 </div>
 
 <div class="weather" id="weather-wrapper" data-track-module="nav-weather^weather" data-track-pos="static">
-  
-    
-    
-    
+
+
+
+
     <strong>Monday, Sep 15th 2025</strong><a href="/home/weather/index.html">
 <span class="">11AM</span>
 <strong>94&deg;F</strong>
@@ -2892,7 +2892,7 @@ window.BOOMR=window.BOOMR||{},window.BOOMR.plugins=window.BOOMR.plugins||{},wind
 <strong>98&deg;F</strong>
 <span class="icn-w clr" title="Clear"></span>
 <span class="last pl20">5-Day Forecast</span></a>
-  
+
 </div>
 </div> <!-- from masthead -->
 
@@ -3082,7 +3082,7 @@ googletag.cmd.push(function() {
         .setTargeting('pos', 'para_top')
         .setCollapseEmptyDiv(true, false)
         .addService(googletag.pubads());
-        
+
     googletag.display('para_top');
 });</script></div></div> <p></p><!-- CWV --><!--[if !IE]><!--> <link href="https://www.dailymail.co.uk/static/mol-fe/static/mol-fe-async-bundle/11.13.1/articleDefer.css" media="all" rel="stylesheet" type="text/css" /> <!--<![endif]--> <!--[if IE]>
 <link href="https://www.dailymail.co.uk/static/gunther/1.17.0/registration--.css" media="screen" rel="stylesheet" type="text/css" />
@@ -3099,8 +3099,8 @@ googletag.cmd.push(function() {
     Copyright 1997-2009 Omniture, Inc. More info available at
     http://www.omniture.com --> <script type="text/javascript">
       var searchTerms = '';
-    </script> 
-    
+    </script>
+
      <script type="text/javascript">
     /* <![CDATA[ */
     (function() {
@@ -3242,7 +3242,7 @@ Object.assign(DM.platformConfig.features, {});
 
 <div class="column-content cleared">
                 <div class="shareArticles">
-                    <h3 class="social-links-title">Share or comment on this article: 
+                    <h3 class="social-links-title">Share or comment on this article:
                         Melania Trump is criticized over 9/11 tribute outfit</h3>
                     <div                          class="social-links cleared" id="socialLinks">
                         <ul class="bigLinks sc-icns cleared">
@@ -3261,18 +3261,18 @@ Object.assign(DM.platformConfig.features, {});
                                     <span class="wai">e-mail</span>
                                 </a>
                             </li>
-            
+
                             <li
                                 class="share-icons"
                                 data-anchor="tl"
                                 data-article-channel-follow-button="MailOnline"
                                 data-article-id="7457163"
-                                
+
                                 data-formatted-headline="Melania Trump is criticized over 9\/11 tribute outfit"
-                                
+
                                 data-hide-email="true"
                                 data-placement="bottom"
-                                
+
                                 data-twitter-status=" https://mol.im/a/7457163 via @MailOnline"
                                 data-url="https://www.dailymail.co.uk/femail/article-7457163/Melania-Trump-criticized-9-11-tribute-outfit.html"
                                 id="shareLinkBottom"
@@ -3286,7 +3286,7 @@ Object.assign(DM.platformConfig.features, {});
                                     <div class="shares_text_small">shares</div>
                                 </div>
                             </li>
-            
+
                         </ul>
                 </div>
                 <script>
@@ -3294,9 +3294,9 @@ Object.assign(DM.platformConfig.features, {});
                 </script>
               </div>
             </div>
-            
-            
-                        
+
+
+
             <ad-slot position="smart_feed"></ad-slot>
             <div id="taboola-below-article-thumbnails" class="taboola" data-taboolaPosition="thumbnail"></div>
             <script type="text/javascript">
@@ -3304,8 +3304,8 @@ Object.assign(DM.platformConfig.features, {});
                 position: "thumbnail",
                 id: "taboola-below-article-thumbnails"
               })
-            </script>            
-            
+            </script>
+
             <ad-slot position="after_article"></ad-slot>
 <div id="taboola-below-main-column" class="taboola"  data-taboolaPosition="afterArticle"></div>
 <script type="text/javascript">
@@ -3575,15 +3575,15 @@ Object.assign(DM.platformConfig.features, {});
                 <ad-slot position="under_article"></ad-slot>
               </div>
             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
+
             <script type="text/javascript">
  DM.later('bundle', function (){
    DM.SHOUT = {};
@@ -3598,7 +3598,7 @@ Object.assign(DM.platformConfig.features, {});
      total: 2167,
      offset: 0,
      allowNewComments:  false ,
-     moderated:  false 
+     moderated:  false
    });
  });
 </script>
@@ -3655,12 +3655,12 @@ Object.assign(DM.platformConfig.features, {});
 <div class="pagination-container cleared"></div>
 
 <div class="rc-title">
-      
-      
-	
+
+
+
 	  <p>The comments below have not been moderated.</p>
-	
-      
+
+
     </div>
 
 <div id="js-comments" class="comments-list"></div>
@@ -3682,28 +3682,28 @@ Object.assign(DM.platformConfig.features, {});
 <a href="#comments"></a>
 
 <p class="rc-title bdrgr2">We are no longer accepting comments on this article.</p>
-    
-  
+
+
 <div id="copyLinkLightboxArrow"></div>
 <div id='copyLinkLightbox'></div>
 </div>
 
 </div>
-        
+
     </div>
-    
+
   <div class="beta">
-    
+
     <link as="style" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-vouchercodes/3.1.3/index.css" onload="this.rel='stylesheet'" rel="preload">
     <noscript><link rel="stylesheet" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-vouchercodes/3.1.3/index.css"></noscript>
-    
-    
+
+
             <link rel="stylesheet" type="text/css" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-generic-image-gallery/2.16.3/index.css">
             <script>
               PageCriteria = window.PageCriteria || {};
             </script>
             <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-generic-image-gallery/2.16.3/index.js"></script>
-    
+
         <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-image-link-rotator/1.1.0/index.js"></script>
         <style>
           [data-mol-fe-xpmodule-image-link-rotator] {
@@ -3714,11 +3714,11 @@ Object.assign(DM.platformConfig.features, {});
             display: block;
           }
         </style>
-    
-          
+
+
           <link rel="stylesheet" type="text/css" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-originals/2.7.0/index.css">
           <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-originals/2.7.0/index.js"></script>
-    
+
           <link rel="stylesheet" type="text/css" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-commerce-articles/1.17.0/index.css">
           <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-commerce-articles/1.17.0/index.js"></script>
     <style>
@@ -3749,12 +3749,12 @@ Object.assign(DM.platformConfig.features, {});
     margin-bottom: 16px;
   }
 </style>
-    
+
       <link rel="stylesheet" type="text/css" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-podcast-container/1.5.2/index.css">
       <script defer src="https://open.spotify.com/embed/iframe-api/v1"></script>
       <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-podcast-container/1.5.2/index.js"></script>
     <div class="item beta_search_wrapper">
-  
+
         <link rel="stylesheet" type="text/css" href="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-site-search/1.2.1/styles.css">
         <link rel="stylesheet" type="text/css" href="https://www.dailymail.co.uk/static/mol-fe/static/mol-fe-sync-bundle/15.5.3/channelColors.css">
         <script defer src="https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-xpmodule-site-search/1.2.1/index.js"></script><div
@@ -3778,13 +3778,13 @@ Object.assign(DM.platformConfig.features, {});
 <div class="femail item" data-channel-color="femail">
   <div class="puff cleared" id="p-1005"
      data-track-module="llg-1000947^puff">
-  
+
   <span class="tl">&nbsp;</span>
   <span class="tr">&nbsp;</span>
   <h3 class="wocc">DON'T MISS</h3>
   <ul class="link-bogr2 linkro-wocc">
         <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15100043/josie-canseco-charlie-kirk-tribute.html" 
+      <a href="/femail/article-15100043/josie-canseco-charlie-kirk-tribute.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156035-0-image-m-6_1757949851054.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3793,14 +3793,14 @@ Object.assign(DM.platformConfig.features, {});
           <span class="arrow-small-r"></span>
           <strong>
 Model Josie Canseco enrages her fans with Charlie Kirk post</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15100767/hannah-einbinder-free-palestine-emmys-celebration.html" 
+      <a href="/news/article-15100767/hannah-einbinder-free-palestine-emmys-celebration.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/17/102157261-0-image-m-16_1757952250104.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3809,14 +3809,14 @@ Model Josie Canseco enrages her fans with Charlie Kirk post</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Bitter irony in clueless actor's woke celebration of Palestine</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15093427/Niki-Taylor-50-90s-model-posed-Vogue.html" 
+      <a href="/tvshowbiz/article-15093427/Niki-Taylor-50-90s-model-posed-Vogue.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102154905-0-image-a-27_1757947913859.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3825,14 +3825,14 @@ Bitter irony in clueless actor's woke celebration of Palestine</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Niki Taylor, 50, was a top '90s model who posed for Vogue and was pals with Cindy Crawford, see her now</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099975/Sydney-Sweeney-cold-shoulder-MAGA-Emmys.html" 
+      <a href="/tvshowbiz/article-15099975/Sydney-Sweeney-cold-shoulder-MAGA-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102151147-0-image-a-17_1757941125784.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3841,14 +3841,14 @@ Niki Taylor, 50, was a top '90s model who posed for Vogue and was pals with Cind
           <span class="arrow-small-r"></span>
           <strong>
 Sydney Sweeney given the Hollywood cold-shoulder over her MAGA views at Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/royals/article-15099235/Prince-Harry-mantra-Meghan-Markle-British-public.html" 
+      <a href="/news/royals/article-15099235/Prince-Harry-mantra-Meghan-Markle-British-public.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102149101-0-image-m-59_1757937932293.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3857,14 +3857,14 @@ Sydney Sweeney given the Hollywood cold-shoulder over her MAGA views at Emmys</s
           <span class="arrow-small-r"></span>
           <strong>
 Prince Harry insists 'the public are on my side' as he reveals Meghan told him: 'Just stick to the truth'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098281/Brady-Bunch-star-69-opens-marriage-secrets-40-years-together.html" 
+      <a href="/tvshowbiz/article-15098281/Brady-Bunch-star-69-opens-marriage-secrets-40-years-together.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102133901-0-image-a-18_1757893776036.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3873,14 +3873,14 @@ Prince Harry insists 'the public are on my side' as he reveals Meghan told him: 
           <span class="arrow-small-r"></span>
           <strong>
 Brady Bunch star, 69, opens up about marriage secrets after 40 years together</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100873/Ivanka-Trump-husband-Jared-Kushner-spied-laughing-Beyonce-Jay-Z-splashy-event.html" 
+      <a href="/tvshowbiz/article-15100873/Ivanka-Trump-husband-Jared-Kushner-spied-laughing-Beyonce-Jay-Z-splashy-event.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/17/102158671-0-image-a-143_1757954571334.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3889,14 +3889,14 @@ Brady Bunch star, 69, opens up about marriage secrets after 40 years together</s
           <span class="arrow-small-r"></span>
           <strong>
 Ivanka Trump and husband Jared Kushner are spied laughing it up with Beyonce and Jay-Z at splashy event</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15100483/sydney-sweeney-awkward-exchange-colman-domingo-emmy-awards-2025.html" 
+      <a href="/femail/article-15100483/sydney-sweeney-awkward-exchange-colman-domingo-emmy-awards-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/17/102158743-0-image-a-19_1757954839464.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3905,14 +3905,14 @@ Ivanka Trump and husband Jared Kushner are spied laughing it up with Beyonce and
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Sydney Sweeney uncharacteristically 'uncomfortable' in 'awkward' exchange with Euphoria costar</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15100645/american-pickers-mike-wolfe-hospitalized.html" 
+      <a href="/femail/article-15100645/american-pickers-mike-wolfe-hospitalized.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156657-0-image-a-56_1757951224185.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3921,14 +3921,14 @@ Sydney Sweeney uncharacteristically 'uncomfortable' in 'awkward' exchange with E
           <span class="arrow-small-r"></span>
           <strong>
 American Pickers star Mike Wolfe hospitalized alongside girlfriend Leticia Cline after horror car crash</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15100433/Kylie-Jenner-thinner-lips-home-kids-10-years-getting-filler.html" 
+      <a href="/tvshowbiz/article-15100433/Kylie-Jenner-thinner-lips-home-kids-10-years-getting-filler.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/17/102154867-0-image-m-126_1757953488743.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3937,14 +3937,14 @@ American Pickers star Mike Wolfe hospitalized alongside girlfriend Leticia Cline
           <span class="arrow-small-r"></span>
           <strong>
 Kylie Jenner appears to have thinner lips when at home with her kids... 10 years after getting filler</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100823/Charlie-Hunnam-rare-girlfriend-Morgana-McNelis-2025-Emmys.html" 
+      <a href="/tvshowbiz/article-15100823/Charlie-Hunnam-rare-girlfriend-Morgana-McNelis-2025-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156483-0-image-a-15_1757950605812.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3953,14 +3953,14 @@ Kylie Jenner appears to have thinner lips when at home with her kids... 10 years
           <span class="arrow-small-r"></span>
           <strong>
 Notoriously private couple Charlie Hunnam and Morgana McNelis make rare red carpet appearance at 2025 Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/news/article-15098793/Nepo-baby-NYFW-Cynthia-Rowley-Kit-Keenan-runway.html" 
+      <a href="/news/article-15098793/Nepo-baby-NYFW-Cynthia-Rowley-Kit-Keenan-runway.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102140127-0-image-m-126_1757914824602.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3969,14 +3969,14 @@ Notoriously private couple Charlie Hunnam and Morgana McNelis make rare red carp
           <span class="arrow-small-r"></span>
           <strong>
 Nepo baby's awkward fashion week walk as she stars in her own mom's show: 'How is she so bad at everything'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100145/Selena-Gomez-gets-BIG-surprise-fianc-Benny-Blanco-Emmys.html" 
+      <a href="/tvshowbiz/article-15100145/Selena-Gomez-gets-BIG-surprise-fianc-Benny-Blanco-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156131-0-image-a-52_1757949789979.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -3985,14 +3985,14 @@ Nepo baby's awkward fashion week walk as she stars in her own mom's show: 'How i
           <span class="arrow-small-r"></span>
           <strong>
 Selena Gomez gets surprised with candle display by fianc&eacute; Benny Blanco after Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/media/article-15100847/Marian-Izaguerre-influencer-mexico-dead-clown.html" 
+      <a href="/media/article-15100847/Marian-Izaguerre-influencer-mexico-dead-clown.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/17/101843613-0-image-a-3_1757953470913.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4001,14 +4001,14 @@ Selena Gomez gets surprised with candle display by fianc&eacute; Benny Blanco af
           <span class="arrow-small-r"></span>
           <strong><span class="is-breaking-news">BREAKING NEWS</span>
 Internet star DIES after posting disturbing goodbye video dressed as clown</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15099863/jennifer-coolidge-emmy-night-followed-charlie-kirk.html" 
+      <a href="/news/article-15099863/jennifer-coolidge-emmy-night-followed-charlie-kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/14/102152247-0-image-a-1_1757943066017.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4017,14 +4017,14 @@ Internet star DIES after posting disturbing goodbye video dressed as clown</stro
           <span class="arrow-small-r"></span>
           <strong>
 Jennifer Coolidge's glitzy Emmys night derailed after woke mob discovers she is a Charlie Kirk fan</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/sport/nba/article-15100655/Michael-Jordan-son-Marcus-DUI-deal.html" 
+      <a href="/sport/nba/article-15100655/Michael-Jordan-son-Marcus-DUI-deal.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156351-0-image-a-19_1757950258754.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4033,14 +4033,14 @@ Jennifer Coolidge's glitzy Emmys night derailed after woke mob discovers she is 
           <span class="arrow-small-r"></span>
           <strong>
 Michael Jordan's troubled son Marcus 'agrees deal to end DUI case'... and will be forced to make groveling apology to cop</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/news/article-15099221/Emmys-stars-deafening-silence-Charlie-Kirks-murder-showing-support-Gaza-keffiyehs-Free-Palestine-speeches-condemning-Trump-immigration-crackdown.html" 
+      <a href="/news/article-15099221/Emmys-stars-deafening-silence-Charlie-Kirks-murder-showing-support-Gaza-keffiyehs-Free-Palestine-speeches-condemning-Trump-immigration-crackdown.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/09/102134067-0-Javier_Bardem_56_was_among_the_Hollywood_stars_to_express_their_-a-4_1757924047294.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4049,14 +4049,14 @@ Michael Jordan's troubled son Marcus 'agrees deal to end DUI case'... and will b
           <span class="arrow-small-r"></span>
           <strong>
 Emmys stars' deafening silence over Charlie Kirk's murder... while showing support for Gaza with keffiyehs and 'Free Palestine' speeches&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099043/Gigi-Hadid-Bradley-Cooper-Kendall-Jenner-Vogue-party.html" 
+      <a href="/tvshowbiz/article-15099043/Gigi-Hadid-Bradley-Cooper-Kendall-Jenner-Vogue-party.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142305-0-image-a-1_1757920224626.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4065,14 +4065,14 @@ Emmys stars' deafening silence over Charlie Kirk's murder... while showing suppo
           <span class="arrow-small-r"></span>
           <strong>
 Gigi Hadid, 30, cozies up to boyfriend Bradley Cooper, 50, as they join pal Kendall Jenner and stars at Vogue party during New York Fashion Week</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098893/Naomi-Watts-daughter-Kai-Schreiber-16-makes-modelling-debut-New-York-Fashion-Week.html" 
+      <a href="/tvshowbiz/article-15098893/Naomi-Watts-daughter-Kai-Schreiber-16-makes-modelling-debut-New-York-Fashion-Week.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102140481-0-image-a-37_1757914171561.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4081,14 +4081,14 @@ Gigi Hadid, 30, cozies up to boyfriend Bradley Cooper, 50, as they join pal Kend
           <span class="arrow-small-r"></span>
           <strong>
 Naomi Watts' daughter Kai Schreiber, 16, is every inch the supermodel in the making as she opens New York Fashion Week</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15100223/chris-pratt-mocked-bizarre-prayer-video.html" 
+      <a href="/femail/article-15100223/chris-pratt-mocked-bizarre-prayer-video.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156531-0-image-a-79_1757950728650.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4097,14 +4097,14 @@ Naomi Watts' daughter Kai Schreiber, 16, is every inch the supermodel in the mak
           <span class="arrow-small-r"></span>
           <strong>
 Chris Pratt mercilessly mocked over bizarre prayer 'stunt' following Charlie Kirk tribute</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15100181/Meghan-Markle-makes-gushing-tribute-Prince-Harry-41st-birthday.html" 
+      <a href="/femail/article-15100181/Meghan-Markle-makes-gushing-tribute-Prince-Harry-41st-birthday.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102155239-0-image-m-14_1757948824513.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4113,14 +4113,14 @@ Chris Pratt mercilessly mocked over bizarre prayer 'stunt' following Charlie Kir
           <span class="arrow-small-r"></span>
           <strong>
 Meghan Markle celebrates 'birthday boy' Prince Harry's 41st with throwback snap from 10 years ago - featuring Duke's flowing ginger locks</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100611/Hulk-Hogan-fans-furious-left-memoriam-Emmys-dying-age-71-heart-attack.html" 
+      <a href="/tvshowbiz/article-15100611/Hulk-Hogan-fans-furious-left-memoriam-Emmys-dying-age-71-heart-attack.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102155291-0-image-m-36_1757949262978.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4129,14 +4129,14 @@ Meghan Markle celebrates 'birthday boy' Prince Harry's 41st with throwback snap 
           <span class="arrow-small-r"></span>
           <strong>
 Hulk Hogan fans furious he was left OUT of in memoriam at Emmys after dying at age 71 of a heart attack</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15088715/kim-kardashian-magazine-cover-2011-transformation-throwback-old-photos.html" 
+      <a href="/femail/article-15088715/kim-kardashian-magazine-cover-2011-transformation-throwback-old-photos.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102049365-0-image-m-4_1757946914939.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4145,14 +4145,14 @@ Hulk Hogan fans furious he was left OUT of in memoriam at Emmys after dying at a
           <span class="arrow-small-r"></span>
           <strong>
 Kim Kardashian looks 'unrecognizable' in old photoshoot as magazine cover from more than a decade ago resurfaces</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098947/Arnold-Schwarzenegger-son-shows-weight-loss-cozies-mystery-blonde.html" 
+      <a href="/tvshowbiz/article-15098947/Arnold-Schwarzenegger-son-shows-weight-loss-cozies-mystery-blonde.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/14/102141139-0-image-m-25_1757942368527.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4161,14 +4161,14 @@ Kim Kardashian looks 'unrecognizable' in old photoshoot as magazine cover from m
           <span class="arrow-small-r"></span>
           <strong>
 Arnold Schwarzenegger's OTHER son cozies up to a mystery blonde as he shows off weight loss while shirt-free</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15099995/gwyneth-paltrow-praised-humble-household-habit-cooking.html" 
+      <a href="/femail/article-15099995/gwyneth-paltrow-praised-humble-household-habit-cooking.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102153515-0-image-a-14_1757945763843.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4177,14 +4177,14 @@ Arnold Schwarzenegger's OTHER son cozies up to a mystery blonde as he shows off 
           <span class="arrow-small-r"></span>
           <strong>
 Gwyneth Paltrow praised for her VERY humble leftovers habit: 'Relatable queen'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100233/Melrose-Place-vet-broke-TEARS-Emmys-did-you-spot-star.html" 
+      <a href="/tvshowbiz/article-15100233/Melrose-Place-vet-broke-TEARS-Emmys-did-you-spot-star.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/99545439-0-image-m-33_1757948526566.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4193,14 +4193,14 @@ Gwyneth Paltrow praised for her VERY humble leftovers habit: 'Relatable queen'</
           <span class="arrow-small-r"></span>
           <strong>
 Melrose Place veteran was seen breaking down in TEARS at the Emmys... did you spot the star?</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/sport/nfl/article-15098403/taylor-swift-pregnant-travis-kelce-chiefs-arrowhead.html" 
+      <a href="/sport/nfl/article-15098403/taylor-swift-pregnant-travis-kelce-chiefs-arrowhead.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102135185-0-image-a-12_1757896821182.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4209,14 +4209,14 @@ Melrose Place veteran was seen breaking down in TEARS at the Emmys... did you sp
           <span class="arrow-small-r"></span>
           <strong>
 Fans go into overdrive with Taylor Swift rumors after she arrives behind a SCREEN at Chiefs game</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098083/77th-primetime-emmy-awards-best-dressed-2025.html" 
+      <a href="/tvshowbiz/article-15098083/77th-primetime-emmy-awards-best-dressed-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102134009-0-image-a-256_1757894193026.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4225,14 +4225,14 @@ Fans go into overdrive with Taylor Swift rumors after she arrives behind a SCREE
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025 best dressed! Sydney Sweeney is red hot in cleavage-baring gown as she leads stylish stars in on TV's biggest night</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100111/Harrison-Ford-83-slammed-leaving-Emmys-soon-lost.html" 
+      <a href="/tvshowbiz/article-15100111/Harrison-Ford-83-slammed-leaving-Emmys-soon-lost.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/14/102138923-0-image-m-4_1757941708221.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4241,14 +4241,14 @@ Emmy Awards 2025 best dressed! Sydney Sweeney is red hot in cleavage-baring gown
           <span class="arrow-small-r"></span>
           <strong>
 Harrison Ford, 83, slammed for leaving Emmys with wife Calista Flockhart as soon as he lost for Shrinking</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098981/jake-gyllenhaal-cate-blanchett-selena-gomez-avoid-photobomb.html" 
+      <a href="/tvshowbiz/article-15098981/jake-gyllenhaal-cate-blanchett-selena-gomez-avoid-photobomb.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142461-0-image-a-114_1757920552728.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4257,14 +4257,14 @@ Harrison Ford, 83, slammed for leaving Emmys with wife Calista Flockhart as soon
           <span class="arrow-small-r"></span>
           <strong>
 Awkward! Jake Gyllenhaal and Cate Blanchett go viral for trying to avoid a Selena Gomez photobomb at the Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099541/Yungblud-suggestive-snaps-bizarre-MTV-VMAs.html" 
+      <a href="/tvshowbiz/article-15099541/Yungblud-suggestive-snaps-bizarre-MTV-VMAs.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102154307-0-image-a-10_1757947275491.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4273,14 +4273,14 @@ Awkward! Jake Gyllenhaal and Cate Blanchett go viral for trying to avoid a Selen
           <span class="arrow-small-r"></span>
           <strong>
 Yungblud raises eyebrows with a series of suggestive snaps after sparking concern with his bizarre appearance at the MTV VMAs</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/sport/nfl/article-15100731/jake-browning-fiancee-viral-outfit-joe-burrow-bengals.html" 
+      <a href="/sport/nfl/article-15100731/jake-browning-fiancee-viral-outfit-joe-burrow-bengals.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/102156937-0-image-a-13_1757951637033.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4289,14 +4289,14 @@ Yungblud raises eyebrows with a series of suggestive snaps after sparking concer
           <span class="arrow-small-r"></span>
           <strong>
 Stunning fiancee of Joe Burrow's Bengals replacement goes viral for racy game day outfit</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/media/article-15098725/Stephen-Colbert-standing-ovation-Emmy-Awards-cancelation.html" 
+      <a href="/media/article-15098725/Stephen-Colbert-standing-ovation-Emmy-Awards-cancelation.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142457-0-image-a-3_1757920502181.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4305,14 +4305,14 @@ Stunning fiancee of Joe Burrow's Bengals replacement goes viral for racy game da
           <span class="arrow-small-r"></span>
           <strong>
 Stephen Colbert receives standing ovation as he delivers defiant Emmy acceptance speech after show cancellation</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098469/Jessica-Simpson-strips-bra-racy-artwork-new-single-Savage.html" 
+      <a href="/tvshowbiz/article-15098469/Jessica-Simpson-strips-bra-racy-artwork-new-single-Savage.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134931-0-image-m-167_1757896541581.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4321,14 +4321,14 @@ Stephen Colbert receives standing ovation as he delivers defiant Emmy acceptance
           <span class="arrow-small-r"></span>
           <strong>
 Jessica Simpson strips to her bra in racy artwork for new single Savage</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15100397/Meghan-Markle-Prince-Harry-appear-star-studded-trailer-Disneyland-70th-anniversary-special-Duke-reveals-favourite-theme-park-ride.html" 
+      <a href="/femail/article-15100397/Meghan-Markle-Prince-Harry-appear-star-studded-trailer-Disneyland-70th-anniversary-special-Duke-reveals-favourite-theme-park-ride.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102153739-0-image-a-4_1757946185259.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4337,14 +4337,14 @@ Jessica Simpson strips to her bra in racy artwork for new single Savage</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Meghan Markle and Prince Harry appear in star-studded trailer for Disneyland 70th anniversary special as Duke reveals his favorite theme park ride</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15100189/prince-harry-kyiv-memorial.html" 
+      <a href="/femail/article-15100189/prince-harry-kyiv-memorial.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102153081-0-image-m-18_1757946005024.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4353,14 +4353,14 @@ Meghan Markle and Prince Harry appear in star-studded trailer for Disneyland 70t
           <span class="arrow-small-r"></span>
           <strong>
 Moment emotional Prince Harry holds back tears while visiting makeshift memorial in Kyiv</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100493/Ricky-Gervais-takes-swipe-Emmys-stars-political-grandstanding-throwback-Golden-Globes-speech-telling-celebs-Youre-no-position-lecture-public-anything.html" 
+      <a href="/tvshowbiz/article-15100493/Ricky-Gervais-takes-swipe-Emmys-stars-political-grandstanding-throwback-Golden-Globes-speech-telling-celebs-Youre-no-position-lecture-public-anything.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/16/23031948-0-image-m-106_1757948812101.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4369,14 +4369,14 @@ Moment emotional Prince Harry holds back tears while visiting makeshift memorial
           <span class="arrow-small-r"></span>
           <strong>
 Ricky Gervais takes a swipe at Emmys stars' political grandstanding with throwback to his Golden Globes speech</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  data-is-paywalled="true">
-      <a href="/femail/article-15097715/worst-hair-mistakes-women-50-make-anti-ageing-fixes.html" 
+      <a href="/femail/article-15097715/worst-hair-mistakes-women-50-make-anti-ageing-fixes.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/12/102148475-0-image-m-49_1757934517255.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4385,14 +4385,14 @@ Ricky Gervais takes a swipe at Emmys stars' political grandstanding with throwba
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span>
 These are the worst hair mistakes that women over 50 make - and the easy anti-aging fixes that will make you look young again</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/sport/wwe/article-15098641/the-rock-daughter-ava-raine-charlie-kirk.html" 
+      <a href="/sport/wwe/article-15098641/the-rock-daughter-ava-raine-charlie-kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/02/102137123-0-image-a-42_1757901450357.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4401,14 +4401,14 @@ These are the worst hair mistakes that women over 50 make - and the easy anti-ag
           <span class="arrow-small-r"></span>
           <strong>
 The Rock's daughter blasted over controversial Charlie Kirk post after MAGA star's assassination</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15098587/pedro-pascal-awkward-moment-adam-scott-emmy-awards-2025.html" 
+      <a href="/femail/article-15098587/pedro-pascal-awkward-moment-adam-scott-emmy-awards-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137439-0-image-a-89_1757902164431.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4417,14 +4417,14 @@ The Rock's daughter blasted over controversial Charlie Kirk post after MAGA star
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Pedro Pascal caught in very awkward moment with A-lister who attempted to 'side step' notoriously tactile star</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15099725/Prince-Harry-receives-special-gift-Meghan-Markle-Ukraine-trip-admitting-check-wife-go.html" 
+      <a href="/femail/article-15099725/Prince-Harry-receives-special-gift-Meghan-Markle-Ukraine-trip-admitting-check-wife-go.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102148809-0-image-m-13_1757937894591.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4433,14 +4433,14 @@ Pedro Pascal caught in very awkward moment with A-lister who attempted to 'side 
           <span class="arrow-small-r"></span>
           <strong>
 Prince Harry receives special gift for Meghan during Ukraine trip after admitting he 'had to check' with his wife first if he could go</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099933/White-Lotus-Aimee-Lou-Wood-Walton-Goggins-avoid-pictured-emmy.html" 
+      <a href="/tvshowbiz/article-15099933/White-Lotus-Aimee-Lou-Wood-Walton-Goggins-avoid-pictured-emmy.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102151089-0-image-a-31_1757941165273.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4449,14 +4449,14 @@ Prince Harry receives special gift for Meghan during Ukraine trip after admittin
           <span class="arrow-small-r"></span>
           <strong>
 White Lotus' Aimee Lou Wood and Walton Goggins avoid being pictured together at Emmys bash following those romance rumors</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15099483/All-hidden-fashion-messages-Emmy-awards-2025-including-defiant-statement-Sydney-Sweeneys-red-gown.html" 
+      <a href="/femail/article-15099483/All-hidden-fashion-messages-Emmy-awards-2025-including-defiant-statement-Sydney-Sweeneys-red-gown.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102150731-0-image-a-4_1757940443598.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4465,14 +4465,14 @@ White Lotus' Aimee Lou Wood and Walton Goggins avoid being pictured together at 
           <span class="arrow-small-r"></span>
           <strong>
 All the hidden fashion messages at the Emmy awards 2025 - including defiant statement in Sydney Sweeney's red gown</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15098813/paris-hilton-mini-beauty-fridge-recall-fire-hazard.html" 
+      <a href="/news/article-15098813/paris-hilton-mini-beauty-fridge-recall-fire-hazard.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102141025-0-image-m-50_1757915484345.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4481,14 +4481,14 @@ All the hidden fashion messages at the Emmy awards 2025 - including defiant stat
           <span class="arrow-small-r"></span>
           <strong>
 Outrage as merch sold by Paris Hilton is recalled over fire fears</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099409/Olivia-Rodrigo-Emmys-nepo-babies-Iris-Apatow-Sam-Nivola.html" 
+      <a href="/tvshowbiz/article-15099409/Olivia-Rodrigo-Emmys-nepo-babies-Iris-Apatow-Sam-Nivola.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/11/102148133-0-image-a-1_1757933958698.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4497,14 +4497,14 @@ Outrage as merch sold by Paris Hilton is recalled over fire fears</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Olivia Rodrigo, 22, slips into a plunging LBD as she departs A-list Emmys bash with loved-up nepo babies Iris Apatow, 22, and Sam Nivola, 21</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15099807/prince-andrew-windsor-castle.html" 
+      <a href="/femail/article-15099807/prince-andrew-windsor-castle.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/13/102148933-0-image-m-12_1757939823866.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4513,14 +4513,14 @@ Olivia Rodrigo, 22, slips into a plunging LBD as she departs A-list Emmys bash w
           <span class="arrow-small-r"></span>
           <strong>
 Prince Andrew appears pensive amid claims he faces being 'destroyed' by a cache of more than 100 secret emails contained in the Epstein Files</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15077517/emmy-awards-2025-worst-dressed-celebrities-red-carpet.html" 
+      <a href="/femail/article-15077517/emmy-awards-2025-worst-dressed-celebrities-red-carpet.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102133999-0-image-a-53_1757894135177.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4529,14 +4529,14 @@ Prince Andrew appears pensive amid claims he faces being 'destroyed' by a cache 
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025 WORST dressed: All the TV stars suffering major fashion flops on the red carpet</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099719/Cristin-Milioti-drops-Emmy-takes-tumble-outside-star-studded-party-hours-scooping-gong-Penguin.html" 
+      <a href="/tvshowbiz/article-15099719/Cristin-Milioti-drops-Emmy-takes-tumble-outside-star-studded-party-hours-scooping-gong-Penguin.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/14/102150565-0-image-a-10_1757941264190.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4545,14 +4545,14 @@ Emmy Awards 2025 WORST dressed: All the TV stars suffering major fashion flops o
           <span class="arrow-small-r"></span>
           <strong>
 Cristin Milioti drops her Emmy as she takes a tumble outside star-studded party hours after scooping a gong for The Penguin</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099243/The-Bear-breaks-record-biggest-drop-Emmys-wins-single-year-comedy-takes-home-ZERO-gongs-2025-ceremony-sweeping-board-past-two-years-fans-demand-moved-Drama-category.html" 
+      <a href="/tvshowbiz/article-15099243/The-Bear-breaks-record-biggest-drop-Emmys-wins-single-year-comedy-takes-home-ZERO-gongs-2025-ceremony-sweeping-board-past-two-years-fans-demand-moved-Drama-category.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/14/102152003-0-image-a-60_1757942650986.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4561,14 +4561,14 @@ Cristin Milioti drops her Emmy as she takes a tumble outside star-studded party 
           <span class="arrow-small-r"></span>
           <strong>
 The Bear breaks record for biggest drop in Emmys wins in a single year as comedy takes home ZERO gongs at 2025 ceremony&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15099039/Sofia-Vergara-cancels-Emmys-appearance-rushed-ER-craziest-eye-allergy.html" 
+      <a href="/tvshowbiz/article-15099039/Sofia-Vergara-cancels-Emmys-appearance-rushed-ER-craziest-eye-allergy.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/07/102142079-0-image-a-37_1757919133142.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4577,14 +4577,14 @@ The Bear breaks record for biggest drop in Emmys wins in a single year as comedy
           <span class="arrow-small-r"></span>
           <strong>
 Sof&iacute;a Vergara cancels Emmys appearance after being rushed to ER with medical issue</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15100185/Mel-B-reveals-loves-badgering-Spice-Girls-bandmates-reunion-tour-announced-surprise-collaboration.html" 
+      <a href="/tvshowbiz/article-15100185/Mel-B-reveals-loves-badgering-Spice-Girls-bandmates-reunion-tour-announced-surprise-collaboration.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102154011-0-image-a-98_1757946801511.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4593,14 +4593,14 @@ Sof&iacute;a Vergara cancels Emmys appearance after being rushed to ER with medi
           <span class="arrow-small-r"></span>
           <strong>
 Mel B reveals she 'loves' badgering her Spice Girls bandmates for a reunion tour - after they announced a surprise collaboration</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098551/Breaking-Bad-star-Anna-Gunn-stuns-youthful-appearance-nearly-12-years-finale.html" 
+      <a href="/tvshowbiz/article-15098551/Breaking-Bad-star-Anna-Gunn-stuns-youthful-appearance-nearly-12-years-finale.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137633-0-image-m-23_1757902696847.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4609,14 +4609,14 @@ Mel B reveals she 'loves' badgering her Spice Girls bandmates for a reunion tour
           <span class="arrow-small-r"></span>
           <strong>
 Breaking Bad star, 57, stuns with youthful appearance nearly 12 years after show's finale&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/royals/article-15083701/meghan-markle-clothes-invictus-games.html" 
+      <a href="/news/royals/article-15083701/meghan-markle-clothes-invictus-games.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/10/16/102010001-0-image-a-173_1757516450156.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4625,14 +4625,14 @@ Breaking Bad star, 57, stuns with youthful appearance nearly 12 years after show
           <span class="arrow-small-r"></span>
           <strong>
 How Meghan Markle used clothes to send a subtle message: Duchess's Invictus Games wardrobe marked a turning point free from royal style constraints</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/health/article-15099571/Bruce-Willis-wife-reveals-developed-new-language-communicate-dementia-stricken-actor.html" 
+      <a href="/health/article-15099571/Bruce-Willis-wife-reveals-developed-new-language-communicate-dementia-stricken-actor.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/12/102147053-0-image-m-9_1757935764909.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4641,14 +4641,14 @@ How Meghan Markle used clothes to send a subtle message: Duchess's Invictus Game
           <span class="arrow-small-r"></span>
           <strong>
 Bruce Willis' wife reveals she has developed a 'new language' to communicate with dementia-stricken actor</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098721/Colin-Jost-gets-handsy-wife-Scarlett-Johansson-winning-2025-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098721/Colin-Jost-gets-handsy-wife-Scarlett-Johansson-winning-2025-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102141033-0-image-a-65_1757915535410.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4657,14 +4657,14 @@ Bruce Willis' wife reveals she has developed a 'new language' to communicate wit
           <span class="arrow-small-r"></span>
           <strong>
 Colin Jost gets handsy with wife Scarlett Johansson before winning at 2025 Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15098383/white-lotus-walton-goggins-wife-emmy-awards-2025-red-carpet-watch.html" 
+      <a href="/femail/article-15098383/white-lotus-walton-goggins-wife-emmy-awards-2025-red-carpet-watch.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102133883-0-image-a-58_1757894187260.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4673,14 +4673,14 @@ Colin Jost gets handsy with wife Scarlett Johansson before winning at 2025 Emmy 
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 White Lotus star Walton Goggins 'reluctant and wary' with his wife... after she broke silence on wild rumors about his co-star</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/femail/article-15099399/Jenna-Ortegas-style-evolution-Wednesday-star-embraced-haute-couture-Emmys-transformed-child-actor-red-carpet-siren.html" 
+      <a href="/femail/article-15099399/Jenna-Ortegas-style-evolution-Wednesday-star-embraced-haute-couture-Emmys-transformed-child-actor-red-carpet-siren.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/11/102147757-0-image-m-8_1757932880143.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4689,14 +4689,14 @@ White Lotus star Walton Goggins 'reluctant and wary' with his wife... after she 
           <span class="arrow-small-r"></span>
           <strong>
 Jenna Ortega's Hollywood makeover! Wednesday star embraces daring 'naked dress' trend at the Emmys in latest bold move&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098275/emmy-awards-2025-winners-television-biggest-night.html" 
+      <a href="/tvshowbiz/article-15098275/emmy-awards-2025-winners-television-biggest-night.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/04/102138777-0-image-a-99_1757907159405.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4705,14 +4705,14 @@ Jenna Ortega's Hollywood makeover! Wednesday star embraces daring 'naked dress' 
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025 winners: E.R. comeback king Noah Wyle leads The Pitt to a huge victory as Adolescence, The Studio and Hacks all win big</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  data-is-paywalled="true">
-      <a href="/tvshowbiz/article-15093691/hollywood-insiders-woke-celebrities-fear.html" 
+      <a href="/tvshowbiz/article-15093691/hollywood-insiders-woke-celebrities-fear.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/23/102099447-0-image-a-51_1757716909996.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4721,14 +4721,14 @@ Emmy Awards 2025 winners: E.R. comeback king Noah Wyle leads The Pitt to a huge 
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span><span class="is-exclusive">EXCLUSIVE</span>
 Hollywood insiders lay bare 'intimidation' tactics by woke celebrities branded worse than the Ku Klux Klan: 'Everyone is living in fear'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15099069/meghan-markle-king-charles-prince-harry-return.html" 
+      <a href="/femail/article-15099069/meghan-markle-king-charles-prince-harry-return.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/11/102142189-0-image-m-5_1757932070815.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4737,14 +4737,14 @@ Hollywood insiders lay bare 'intimidation' tactics by woke celebrities branded w
           <span class="arrow-small-r"></span>
           <strong>
 Meghan Markle toasts having her 'beau back in town' with carefully curated image of own-brand $30 wine - as Prince Harry returns to the US</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099047/Emmy-Awards-Jude-Law-presenting-outstanding-support-actor.html" 
+      <a href="/tvshowbiz/article-15099047/Emmy-Awards-Jude-Law-presenting-outstanding-support-actor.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142565-0-image-a-1_1757920943960.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4753,14 +4753,14 @@ Meghan Markle toasts having her 'beau back in town' with carefully curated image
           <span class="arrow-small-r"></span>
           <strong>
 Jude Law cuts a smart look in a classic dark suit and bow-tie as he presents Outstanding Supporting Actor at the Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099027/Aimee-Lou-Wood-goes-public-boyfriend-Adam-Long-Emmys-party-Walton-Goggins-shares-kiss-wife-months-romance-rumours.html" 
+      <a href="/tvshowbiz/article-15099027/Aimee-Lou-Wood-goes-public-boyfriend-Adam-Long-Emmys-party-Walton-Goggins-shares-kiss-wife-months-romance-rumours.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142335-0-image-a-17_1757920073338.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4769,14 +4769,14 @@ Jude Law cuts a smart look in a classic dark suit and bow-tie as he presents Out
           <span class="arrow-small-r"></span>
           <strong>
 Aimee Lou Wood goes public with&nbsp;boyfriend Adam Long at Emmys party as Walton Goggins shares a kiss with his wife... months after those romance rumours</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15099387/owen-cooper-emmy-win-homework-adolesence.html" 
+      <a href="/tvshowbiz/article-15099387/owen-cooper-emmy-win-homework-adolesence.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/10/102145261-0-image-m-15_1757927879733.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4785,14 +4785,14 @@ Aimee Lou Wood goes public with&nbsp;boyfriend Adam Long at Emmys party as Walto
           <span class="arrow-small-r"></span>
           <strong>
 Owen Cooper celebrates his Emmy win by doing his homework! Adolescence star, 15, reveals he was made to do his maths homework in LA</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099053/Margot-Robbie-cuts-casual-figure-baseball-cap-ditching-racy-red-carpet-looks.html" 
+      <a href="/tvshowbiz/article-15099053/Margot-Robbie-cuts-casual-figure-baseball-cap-ditching-racy-red-carpet-looks.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142749-0-image-a-5_1757921736325.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4801,14 +4801,14 @@ Owen Cooper celebrates his Emmy win by doing his homework! Adolescence star, 15,
           <span class="arrow-small-r"></span>
           <strong>
 Margot Robbie cuts a casual figure in baseball cap and jeans after wowing with a series of racy red carpet looks on movie trail</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099271/Meghann-Fahy-Aimee-Lou-Wood-White-Lotus-Emmys-afterparty-snubbed.html" 
+      <a href="/tvshowbiz/article-15099271/Meghann-Fahy-Aimee-Lou-Wood-White-Lotus-Emmys-afterparty-snubbed.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/11/102146971-0-image-a-20_1757930998064.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4817,14 +4817,14 @@ Margot Robbie cuts a casual figure in baseball cap and jeans after wowing with a
           <span class="arrow-small-r"></span>
           <strong>
 Meghann Fahy swaps her heels for clogs while Aimee Lou Wood's gown gets covered in mud as The White Lotus stars let loose at Emmys afterparty</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099231/Lady-Gaga-makeup-promoting-advert-new-range-haus-labs.html" 
+      <a href="/tvshowbiz/article-15099231/Lady-Gaga-makeup-promoting-advert-new-range-haus-labs.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/11/102148043-0-image-a-14_1757933969631.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4833,14 +4833,14 @@ Meghann Fahy swaps her heels for clogs while Aimee Lou Wood's gown gets covered 
           <span class="arrow-small-r"></span>
           <strong>
 Lady Gaga covers herself from head to toe in nude paint as she promotes her new make-up range in dramatic style</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15099051/Our-golden-boy-Owen-Cooper-shares-hug-devoted-parents-celebrate-historic-Emmy-win-meteoric-rise-fame-humble-Warrington-council-estate-beginnings.html" 
+      <a href="/tvshowbiz/article-15099051/Our-golden-boy-Owen-Cooper-shares-hug-devoted-parents-celebrate-historic-Emmy-win-meteoric-rise-fame-humble-Warrington-council-estate-beginnings.html"
 >
 
 <img src="https://i.dailymail.co.uk/1/2025/09/15/09/102143331-0-image-a-4_1757923639533.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4849,14 +4849,14 @@ Lady Gaga covers herself from head to toe in nude paint as she promotes her new 
           <span class="arrow-small-r"></span>
           <strong>
 Owen Cooper shares a hug with his devoted parents to celebrate his historic Emmy win after meteoric rise to fame&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15099127/Stephen-Graham-Adolescence-bookies-favourite-Emmys.html" 
+      <a href="/tvshowbiz/article-15099127/Stephen-Graham-Adolescence-bookies-favourite-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/09/102144915-0-image-m-8_1757926593098.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4865,14 +4865,14 @@ Owen Cooper shares a hug with his devoted parents to celebrate his historic Emmy
           <span class="arrow-small-r"></span>
           <strong>
 Stephen Graham's Adolescence co-stars go wild as his 'genius move' pays off and he beats bookies' favourite to scoop Lead Actor at the Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099241/Beyonce-dazzles-diamonds-plunging-gold-dress-husband-Jay-Zs-charity-casino-night.html" 
+      <a href="/tvshowbiz/article-15099241/Beyonce-dazzles-diamonds-plunging-gold-dress-husband-Jay-Zs-charity-casino-night.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/09/102145011-0-image-a-15_1757926481352.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4881,14 +4881,14 @@ Stephen Graham's Adolescence co-stars go wild as his 'genius move' pays off and 
           <span class="arrow-small-r"></span>
           <strong>
 Beyonce dazzles in diamonds and a plunging gold dress for husband Jay Z's charity casino night</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098599/Golden-Girls-tribute-Reba-McEntire-meme-Colin-Farrell-reaction.html" 
+      <a href="/tvshowbiz/article-15098599/Golden-Girls-tribute-Reba-McEntire-meme-Colin-Farrell-reaction.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102136983-0-image-m-19_1757902968909.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4897,14 +4897,14 @@ Beyonce dazzles in diamonds and a plunging gold dress for husband Jay Z's charit
           <span class="arrow-small-r"></span>
           <strong>
 Golden Girls tribute led by Reba McEntire sparks meme with Colin Farrell's reaction</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099167/Rita-Ora-Cara-Delevingne-Dakota-Fanning-Paris-Jackson-Emmys-afterparty.html" 
+      <a href="/tvshowbiz/article-15099167/Rita-Ora-Cara-Delevingne-Dakota-Fanning-Paris-Jackson-Emmys-afterparty.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/09/102144657-0-image-a-4_1757926093733.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4913,14 +4913,14 @@ Golden Girls tribute led by Reba McEntire sparks meme with Colin Farrell's react
           <span class="arrow-small-r"></span>
           <strong>
 Rita Ora stuns in a plunging white suit as she joins glamorous Cara Delevingne, Dakota Fanning and Paris Jackson at Emmys afterparty</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099511/Adolescence-star-Owen-Cooper-15-celebrates-Emmy-win-Netflix-bash-chomps-burgers-chats-tracksuit-clad-Erin-Doherty-snaps-selfies-CEO-Stephen-Graham.html" 
+      <a href="/tvshowbiz/article-15099511/Adolescence-star-Owen-Cooper-15-celebrates-Emmy-win-Netflix-bash-chomps-burgers-chats-tracksuit-clad-Erin-Doherty-snaps-selfies-CEO-Stephen-Graham.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/12/102146031-0-image-m-22_1757934710090.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4929,14 +4929,14 @@ Rita Ora stuns in a plunging white suit as she joins glamorous Cara Delevingne, 
           <span class="arrow-small-r"></span>
           <strong>
 It's past your bedtime! Adolescence star Owen Cooper, 15, celebrates Emmy win at Netflix bash - as he chomps burgers and snaps selfies&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099347/Romeo-Beckham-gives-glimpse-swanky-wellness-routine-enjoys-ice-bath-London-spa-playing-camcorder.html" 
+      <a href="/tvshowbiz/article-15099347/Romeo-Beckham-gives-glimpse-swanky-wellness-routine-enjoys-ice-bath-London-spa-playing-camcorder.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/15/102154787-0-image-m-6_1757947643555.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4945,14 +4945,14 @@ It's past your bedtime! Adolescence star Owen Cooper, 15, celebrates Emmy win at
           <span class="arrow-small-r"></span>
           <strong>
 Romeo Beckham showcases his ripped physique before enjoying an ice bath</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098521/Adolescence-scoops-Emmy-night-director-Philip-Barantini-Netflix-hit-leads-Brits-winners-2025-awards.html" 
+      <a href="/tvshowbiz/article-15098521/Adolescence-scoops-Emmy-night-director-Philip-Barantini-Netflix-hit-leads-Brits-winners-2025-awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/1757902727056_2049974383374937.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4961,14 +4961,14 @@ Romeo Beckham showcases his ripped physique before enjoying an ice bath</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Adolescence star Owen Cooper, 15, makes history as the youngest male Emmy winner ever as British Netflix hit series cleans up at awards show in LA</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098791/Nicole-Kidman-Keith-Urban-living-apart.html" 
+      <a href="/tvshowbiz/article-15098791/Nicole-Kidman-Keith-Urban-living-apart.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/05/102139863-0-image-a-7_1757911726451.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4977,14 +4977,14 @@ Adolescence star Owen Cooper, 15, makes history as the youngest male Emmy winner
           <span class="arrow-small-r"></span>
           <strong>
 Nicole Kidman's unlikely living arrangements WITHOUT husband Keith Urban raises eyebrows</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15097751/HGTV-star-fans-celebrate-Charlie-Kirk-death.html" 
+      <a href="/tvshowbiz/article-15097751/HGTV-star-fans-celebrate-Charlie-Kirk-death.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102128571-0-image-a-27_1757876895828.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -4993,14 +4993,14 @@ Nicole Kidman's unlikely living arrangements WITHOUT husband Keith Urban raises 
           <span class="arrow-small-r"></span>
           <strong>
 HGTV superstar erupts at fans after being slammed for refusing to 'celebrate' Charlie Kirk's death... as boycott threats pour in</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099057/Hailey-Bieber-hot-pants-Pilates-LA.html" 
+      <a href="/tvshowbiz/article-15099057/Hailey-Bieber-hot-pants-Pilates-LA.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142481-0-image-a-4_1757920834339.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5009,14 +5009,14 @@ HGTV superstar erupts at fans after being slammed for refusing to 'celebrate' Ch
           <span class="arrow-small-r"></span>
           <strong>
 Hailey Bieber puts on a leggy display in tiny black hot pants as she heads to a Pilates session in LA</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  data-is-paywalled="true">
-      <a href="/news/royals/article-15060677/Prince-Harry-Meghan-Markle-Kate-Middleton.html" 
+      <a href="/news/royals/article-15060677/Prince-Harry-Meghan-Markle-Kate-Middleton.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/03/11/101791933-0-image-a-23_1756896290603.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5025,14 +5025,14 @@ Hailey Bieber puts on a leggy display in tiny black hot pants as she heads to a 
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries="|us||ca||mx|"></span>
 Meghan Markle's touchy question to Kate that sparked royal feud: Harry described how the row escalated to William calling the Duchess of Sussex 'rude'&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099113/Stephen-Graham-kiss-wife-Emmys-win-Adolescence.html" 
+      <a href="/tvshowbiz/article-15099113/Stephen-Graham-kiss-wife-Emmys-win-Adolescence.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142597-0-image-a-12_1757921293539.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5041,14 +5041,14 @@ Meghan Markle's touchy question to Kate that sparked royal feud: Harry described
           <span class="arrow-small-r"></span>
           <strong>
 Stephen Graham shares a passionate kiss with wife Hannah Walter while celebrating Emmys win at Governors Ball as Netflix's&nbsp;Adolescence cleans up with 8 awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099045/Sharon-Horgan-flashes-bra-underwear-racy-sheer-cut-gown-2025-Emmy-Awards-beaten-Best-Actress-Drama-gong-Severance-star-Britt-Lower.html" 
+      <a href="/tvshowbiz/article-15099045/Sharon-Horgan-flashes-bra-underwear-racy-sheer-cut-gown-2025-Emmy-Awards-beaten-Best-Actress-Drama-gong-Severance-star-Britt-Lower.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142581-0-image-a-4_1757921978990.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5057,14 +5057,14 @@ Stephen Graham shares a passionate kiss with wife Hannah Walter while celebratin
           <span class="arrow-small-r"></span>
           <strong>
 Sharon Horgan flashes her bra and underwear in racy sheer cut-out gown&nbsp;at 2025 Emmy Awards as she is beaten out to Best Actress in a Drama gong&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098855/emmys-2025-charlie-kirk-tragedy-ice-palestine.html" 
+      <a href="/tvshowbiz/article-15098855/emmys-2025-charlie-kirk-tragedy-ice-palestine.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102140045-0-image-a-29_1757912431220.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5073,14 +5073,14 @@ Sharon Horgan flashes her bra and underwear in racy sheer cut-out gown&nbsp;at 2
           <span class="arrow-small-r"></span>
           <strong>
 Emmys 2025 stays silent on Charlie Kirk tragedy but gets political on ICE and Palestine</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15099023/Parker-Posey-Emmys-2025-Hollywood-afterparties.html" 
+      <a href="/tvshowbiz/article-15099023/Parker-Posey-Emmys-2025-Hollywood-afterparties.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/08/102142191-0-image-m-137_1757919642128.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5089,14 +5089,14 @@ Emmys 2025 stays silent on Charlie Kirk tragedy but gets political on ICE and Pa
           <span class="arrow-small-r"></span>
           <strong>
 Parker Posey raises a glass to Emmys 2025 as Hollywood celebrates TV's biggest night at exclusive afterparties</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098895/Selena-Gomez-Martin-Short-text-messages-Meryl-Streep-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098895/Selena-Gomez-Martin-Short-text-messages-Meryl-Streep-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/07/102141165-0-image-a-3_1757916013995.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5105,14 +5105,14 @@ Parker Posey raises a glass to Emmys 2025 as Hollywood celebrates TV's biggest n
           <span class="arrow-small-r"></span>
           <strong>
 Selena Gomez spots costar Martin Short's sweet text messages to Meryl Streep at 2025 Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098643/Selena-Gomez-channels-Nicole-Kidman.html" 
+      <a href="/tvshowbiz/article-15098643/Selena-Gomez-channels-Nicole-Kidman.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137819-0-image-a-57_1757903419194.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5121,14 +5121,14 @@ Selena Gomez spots costar Martin Short's sweet text messages to Meryl Streep at 
           <span class="arrow-small-r"></span>
           <strong>
 Who wore it better? Selena Gomez channels Nicole Kidman's 2007 Oscars look in custom-made Louis Vuitton gown at the Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tv/article-15098859/Hunting-Wives-stars-Malin-Akerman-Brittany-Snow-flirt-emmys-2025.html" 
+      <a href="/tv/article-15098859/Hunting-Wives-stars-Malin-Akerman-Brittany-Snow-flirt-emmys-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102140065-0-image-a-60_1757913343239.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5137,14 +5137,14 @@ Who wore it better? Selena Gomez channels Nicole Kidman's 2007 Oscars look in cu
           <span class="arrow-small-r"></span>
           <strong>
 The Hunting Wives stars Malin Akerman and Brittany Snow flirt with each other in sizzling bit at the 2025 Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15098843/Actor-Ernest-Wesley-Heinz-road-rage-shooting-Maritza-Arias-Galva.html" 
+      <a href="/news/article-15098843/Actor-Ernest-Wesley-Heinz-road-rage-shooting-Maritza-Arias-Galva.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/07/102141775-0-image-a-1_1757918031087.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5153,14 +5153,14 @@ The Hunting Wives stars Malin Akerman and Brittany Snow flirt with each other in
           <span class="arrow-small-r"></span>
           <strong>
 The Sopranos actor is arrested for shooting female driver during crazy road rage brawl</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  data-is-paywalled="true">
-      <a href="/tvshowbiz/article-15093405/chip-joanna-gaines-magnolia-controversy-gay-couple.html" 
+      <a href="/tvshowbiz/article-15093405/chip-joanna-gaines-magnolia-controversy-gay-couple.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/22/102095769-0-image-m-19_1757711322462.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5169,14 +5169,14 @@ The Sopranos actor is arrested for shooting female driver during crazy road rage
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span><span class="is-exclusive">EXCLUSIVE</span>
 The popular couple are HGTV royalty. But behind closed doors cracks are showing... and a new tension threatens their $50M empire</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098723/Eric-Dane-concern-absent-Emmys-2025-Greys-Anatomy-ALS.html" 
+      <a href="/tvshowbiz/article-15098723/Eric-Dane-concern-absent-Emmys-2025-Greys-Anatomy-ALS.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/05/102139421-0-image-m-53_1757909818094.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5185,14 +5185,14 @@ The popular couple are HGTV royalty. But behind closed doors cracks are showing.
           <span class="arrow-small-r"></span>
           <strong>
 Eric Dane sparks concern as he's absent from Emmys despite planned Grey's Anatomy reunion amid ALS battle</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098459/Emmys-Rita-Ora-Taika-Waititi.html" 
+      <a href="/tvshowbiz/article-15098459/Emmys-Rita-Ora-Taika-Waititi.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102135163-0-image-a-4_1757896860740.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5201,14 +5201,14 @@ Eric Dane sparks concern as he's absent from Emmys despite planned Grey's Anatom
           <span class="arrow-small-r"></span>
           <strong>
 Rita Ora's glossy look turns heads as she third wheels husband Taika Waititi - while he cosies up to a VERY famous star on the Emmys red carpet</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/news/royals/article-15089133/obama-queen-elizabeth-secret-service-diplomatic-row-2016-mail-podcast.html" 
+      <a href="/news/royals/article-15089133/obama-queen-elizabeth-secret-service-diplomatic-row-2016-mail-podcast.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/06/102140995-0-image-a-4_1757915297673.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5217,14 +5217,14 @@ Rita Ora's glossy look turns heads as she third wheels husband Taika Waititi - w
           <span class="arrow-small-r"></span>
           <strong>
 Why did the Queen's offer to 'pop out and pick up' Barack Obama spark a 'serious row' between Buckingham Palace and the Secret Service?</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098635/Selena-Gomez-instructions-Benny-Blanco-Emmys-2025.html" 
+      <a href="/tvshowbiz/article-15098635/Selena-Gomez-instructions-Benny-Blanco-Emmys-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/04/102138715-0-image-a-8_1757906472070.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5233,14 +5233,14 @@ Why did the Queen's offer to 'pop out and pick up' Barack Obama spark a 'serious
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Inside Selena Gomez's red carpet 'instructions' for husband-to-be Benny Blanco at the 2025 Emmys according to body language expert</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098665/emmys-host-nate-bargatze-monologue-slammed-big-bang-theory.html" 
+      <a href="/tvshowbiz/article-15098665/emmys-host-nate-bargatze-monologue-slammed-big-bang-theory.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/04/102138409-0-image-a-74_1757905785733.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5249,14 +5249,14 @@ Inside Selena Gomez's red carpet 'instructions' for husband-to-be Benny Blanco a
           <span class="arrow-small-r"></span>
           <strong>
 Emmys host Nate Bargatze SLAMMED for 'awful' opening to the show... and even a five-time winner calls it 'cringe'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098601/Jennifer-Coolidge-makes-Ozempic-gag-Elizabeth-Debicki-wild-speech-2025-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098601/Jennifer-Coolidge-makes-Ozempic-gag-Elizabeth-Debicki-wild-speech-2025-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137635-0-image-a-95_1757902625343.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5265,14 +5265,14 @@ Emmys host Nate Bargatze SLAMMED for 'awful' opening to the show... and even a f
           <span class="arrow-small-r"></span>
           <strong>
 Jennifer Coolidge makes Ozempic gag about herself and Elizabeth Debicki in wild speech at Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098657/John-Oliver-bleeped-TWICE-speech-Emmys-2025.html" 
+      <a href="/tvshowbiz/article-15098657/John-Oliver-bleeped-TWICE-speech-Emmys-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/04/102138355-0-image-a-45_1757905598654.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5281,14 +5281,14 @@ Jennifer Coolidge makes Ozempic gag about herself and Elizabeth Debicki in wild 
           <span class="arrow-small-r"></span>
           <strong>
 John Oliver is bleeped TWICE in heavily censored acceptance speech at Emmys 2025</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098817/Jimmy-Kimmel-unimpressed-woke-joke-Trump-Emmys.html" 
+      <a href="/tvshowbiz/article-15098817/Jimmy-Kimmel-unimpressed-woke-joke-Trump-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/05/102139487-0-image-a-1_1757910194826.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5297,14 +5297,14 @@ John Oliver is bleeped TWICE in heavily censored acceptance speech at Emmys 2025
           <span class="arrow-small-r"></span>
           <strong>
 Jimmy Kimmel looks unimpressed by 'woke' gag as he loses to Stephen Colbert at 2025 Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098487/Stephen-Colbert-plea-Hollywood-hire-staff-Emmys-2025.html" 
+      <a href="/tvshowbiz/article-15098487/Stephen-Colbert-plea-Hollywood-hire-staff-Emmys-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/02/102136029-0-image-a-21_1757899038540.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5313,14 +5313,14 @@ Jimmy Kimmel looks unimpressed by 'woke' gag as he loses to Stephen Colbert at 2
           <span class="arrow-small-r"></span>
           <strong>
 Stephen Colbert makes a plea for Hollywood to hire his staff after his show's cancellation in surprise monologue at 2025 Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098439/emmys-javier-bardem-supporting-palestine-israeli-boycott.html" 
+      <a href="/tvshowbiz/article-15098439/emmys-javier-bardem-supporting-palestine-israeli-boycott.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/1757896724321_8854720786598614.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5329,14 +5329,14 @@ Stephen Colbert makes a plea for Hollywood to hire his staff after his show's ca
           <span class="arrow-small-r"></span>
           <strong>
 Javier Bardem leads stars supporting Palestine on Emmys red carpet amid Israeli boycott by actors</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15033323/Pitt-star-Dennis-Hopper-wife-Katherine-LaNasa-Hollywood-Emmy.html" 
+      <a href="/tvshowbiz/article-15033323/Pitt-star-Dennis-Hopper-wife-Katherine-LaNasa-Hollywood-Emmy.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/08/25/22/101539143-0-image-m-15_1756159071025.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5345,14 +5345,14 @@ Javier Bardem leads stars supporting Palestine on Emmys red carpet amid Israeli 
           <span class="arrow-small-r"></span>
           <strong>
 She was married to a film icon and is now an Emmy-winning actress- can you guess who she is?</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098491/2025-emmy-awards-jenna-ortega-90s-movie-revealing-top.html" 
+      <a href="/tvshowbiz/article-15098491/2025-emmy-awards-jenna-ortega-90s-movie-revealing-top.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134939-0-image-a-28_1757896195529.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5361,14 +5361,14 @@ She was married to a film icon and is now an Emmy-winning actress- can you guess
           <span class="arrow-small-r"></span>
           <strong>
 Jenna Ortega channels iconic 90s movie with VERY revealing outfit at 2025 Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098565/emmy-awards-clever-tactic-prevent-speeches-overtime.html" 
+      <a href="/tvshowbiz/article-15098565/emmy-awards-clever-tactic-prevent-speeches-overtime.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/02/102136471-0-image-a-32_1757899833547.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5377,14 +5377,14 @@ Jenna Ortega channels iconic 90s movie with VERY revealing outfit at 2025 Emmy A
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards devise clever new tactic to prevent stars from going overtime on their acceptance speeches</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098293/Gayle-King-Oprah-Winfrey-trim-waist-weight-loss-Emmys.html" 
+      <a href="/tvshowbiz/article-15098293/Gayle-King-Oprah-Winfrey-trim-waist-weight-loss-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134793-0-image-m-14_1757895693649.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5393,14 +5393,14 @@ Emmy Awards devise clever new tactic to prevent stars from going overtime on the
           <span class="arrow-small-r"></span>
           <strong>
 Gayle King channels BFF Oprah Winfrey as she showcases trim waist after weight loss journey at the Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098513/Colin-Farrell-makes-rare-appearance-youngest-son-Henry-15-pair-red-carpet-2025-Emmys.html" 
+      <a href="/tvshowbiz/article-15098513/Colin-Farrell-makes-rare-appearance-youngest-son-Henry-15-pair-red-carpet-2025-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102135429-0-image-a-13_1757897461355.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5409,14 +5409,14 @@ Gayle King channels BFF Oprah Winfrey as she showcases trim waist after weight l
           <span class="arrow-small-r"></span>
           <strong>
 Colin Farrell makes rare appearance with youngest son Henry, 15, on the red carpet at the Emmy Awards in LA&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098483/Labubu-2025-Emmy-Awards-TV-reality-star-joella.html" 
+      <a href="/tvshowbiz/article-15098483/Labubu-2025-Emmy-Awards-TV-reality-star-joella.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134899-0-image-a-30_1757896244397.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5425,14 +5425,14 @@ Colin Farrell makes rare appearance with youngest son Henry, 15, on the red carp
           <span class="arrow-small-r"></span>
           <strong>
 Who is the Labubu at the 2025 Emmy Awards? TV reality star's identity is revealed after shock red carpet look</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098463/Catherine-Zeta-Jones-braless-2025-Emmys.html" 
+      <a href="/tvshowbiz/article-15098463/Catherine-Zeta-Jones-braless-2025-Emmys.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102135141-0-image-a-60_1757896786000.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5441,14 +5441,14 @@ Who is the Labubu at the 2025 Emmy Awards? TV reality star's identity is reveale
           <span class="arrow-small-r"></span>
           <strong>
 Catherine Zeta-Jones, 55, turns heads as she goes braless beneath a semi-sheer black gown at the 2025 Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098027/Kelsea-Ballerini-Chase-Stokes-split-3-years-together.html" 
+      <a href="/tvshowbiz/article-15098027/Kelsea-Ballerini-Chase-Stokes-split-3-years-together.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/23/102131725-0-image-a-60_1757887395455.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5457,14 +5457,14 @@ Catherine Zeta-Jones, 55, turns heads as she goes braless beneath a semi-sheer b
           <span class="arrow-small-r"></span>
           <strong>
 A-list country singer splits from Netflix actor after 3 years together</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15097895/prince-harry-kyiv-spare-netflix-not-revenge.html" 
+      <a href="/news/article-15097895/prince-harry-kyiv-spare-netflix-not-revenge.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102128911-0-image-a-6_1757877512274.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5473,14 +5473,14 @@ A-list country singer splits from Netflix actor after 3 years together</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Prince Harry takes veiled swipe at William on visit to Ukraine&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098671/malcolm-jamal-warner-emmys-2025-memoriam.html" 
+      <a href="/tvshowbiz/article-15098671/malcolm-jamal-warner-emmys-2025-memoriam.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137869-0-image-a-2_1757903660708.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5489,14 +5489,14 @@ Prince Harry takes veiled swipe at William on visit to Ukraine&nbsp;</strong>
           <span class="arrow-small-r"></span>
           <strong>
 The Cosby Show star Malcolm-Jamal Warner honored at Emmys 2025 In Memoriam after tragic death at 54</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098509/Reba-McEntire-ENGAGED-Rex-Linn-2025-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098509/Reba-McEntire-ENGAGED-Rex-Linn-2025-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/02/102136459-0-image-a-35_1757899783031.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5505,14 +5505,14 @@ The Cosby Show star Malcolm-Jamal Warner honored at Emmys 2025 In Memoriam after
           <span class="arrow-small-r"></span>
           <strong>
 Reba McEntire, 70, is ENGAGED to Rex Linn, 68, after five years of dating... as they confirm news at 2025 Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098033/Monkees-musician-Bobby-Hart-dies-age-86.html" 
+      <a href="/tvshowbiz/article-15098033/Monkees-musician-Bobby-Hart-dies-age-86.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/21/51607467-0-The_Monkees_posed_for_a_promotional_picture_shoot_in_1967_for_th-m-34_1757882935418.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5521,14 +5521,14 @@ Reba McEntire, 70, is ENGAGED to Rex Linn, 68, after five years of dating... as 
           <span class="arrow-small-r"></span>
           <strong>
 &nbsp;Monkees musician Bobby Hart who wrote the band's theme and Last Train To Clarksville dies at 86</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098115/brad-pitt-films-time-hollywood-sequel-la.html" 
+      <a href="/tvshowbiz/article-15098115/brad-pitt-films-time-hollywood-sequel-la.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/23/1757890426479_480621421280463.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5537,14 +5537,14 @@ Reba McEntire, 70, is ENGAGED to Rex Linn, 68, after five years of dating... as 
           <span class="arrow-small-r"></span>
           <strong>
 Brad Pitt looks happy to be back in action as cameras roll on Once Upon a Time... in Hollywood sequel in LA</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  data-is-paywalled="true">
-      <a href="/news/royals/article-15079703/harry-meghan-obsessive-desire-loved-body-language.html" 
+      <a href="/news/royals/article-15079703/harry-meghan-obsessive-desire-loved-body-language.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/10/11/102000129-0-image-a-21_1757499754508.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5553,14 +5553,14 @@ Brad Pitt looks happy to be back in action as cameras roll on Once Upon a Time..
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries="|us||ca||mx|"></span>
 The signs of Harry and Meghan's 'obsessive desire to be loved' and their relationship dynamic analysed by body language expert</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098577/Russell-Crowe-surprising-bond-ex-wife.html" 
+      <a href="/tvshowbiz/article-15098577/Russell-Crowe-surprising-bond-ex-wife.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/03/102137885-0-image-a-19_1757903663380.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5569,14 +5569,14 @@ The signs of Harry and Meghan's 'obsessive desire to be loved' and their relatio
           <span class="arrow-small-r"></span>
           <strong>
 Russell Crowe reveals the surprising bond he still shares with ex-wife Danielle Spencer - and if fianc&eacute;e Britney Theriot approves</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/sport/nfl/article-15097273/Taylor-Swift-Travis-Kelce-Chiefs-Eagles-Super-Bowl.html" 
+      <a href="/sport/nfl/article-15097273/Taylor-Swift-Travis-Kelce-Chiefs-Eagles-Super-Bowl.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/23/102132367-0-image-a-3_1757889611461.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5585,14 +5585,14 @@ Russell Crowe reveals the surprising bond he still shares with ex-wife Danielle 
           <span class="arrow-small-r"></span>
           <strong>
 Taylor Swift sneaks into Arrowhead for Travis Kelce's first Chiefs home game of season after bombshell engagement</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098365/emmy-awards-2025-kathy-bates-weight-loss-ozempic.html" 
+      <a href="/tvshowbiz/article-15098365/emmy-awards-2025-kathy-bates-weight-loss-ozempic.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102133433-0-image-a-12_1757892858136.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5601,14 +5601,14 @@ Taylor Swift sneaks into Arrowhead for Travis Kelce's first Chiefs home game of 
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025: Slimmed down Kathy Bates dazzles in ball gown after losing 100lbs with help of Ozempic</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098153/Denise-Richards-moves-furniture-15-dogs-3-3-home-Calabasas-amid-Aaron-Phypers-divorce.html" 
+      <a href="/tvshowbiz/article-15098153/Denise-Richards-moves-furniture-15-dogs-3-3-home-Calabasas-amid-Aaron-Phypers-divorce.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/23/102132009-0-image-a-123_1757888380062.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5617,14 +5617,14 @@ Emmy Awards 2025: Slimmed down Kathy Bates dazzles in ball gown after losing 100
           <span class="arrow-small-r"></span>
           <strong>
 Denise Richards moves furniture and FIFTEEN dogs out of $3.3M home amid Aaron Phypers divorce</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098355/Reality-TV-star-connection-NBA-legend-unrecognizable-Emmy-Awards-2025.html" 
+      <a href="/tvshowbiz/article-15098355/Reality-TV-star-connection-NBA-legend-unrecognizable-Emmy-Awards-2025.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102133511-0-image-a-15_1757893224246.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5633,14 +5633,14 @@ Denise Richards moves furniture and FIFTEEN dogs out of $3.3M home amid Aaron Ph
           <span class="arrow-small-r"></span>
           <strong>
 Reality TV star who has connection to NBA legend looks unrecognizable at the Emmy Awards 2025... can you guess who?</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098401/Rita-Ora-leggy-racy-gown-husband-Taika-Waititi-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098401/Rita-Ora-leggy-racy-gown-husband-Taika-Waititi-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/1757894097759_8673301053915489.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5649,14 +5649,14 @@ Reality TV star who has connection to NBA legend looks unrecognizable at the Emm
           <span class="arrow-small-r"></span>
           <strong>
 Rita Ora, 34, puts on a VERY leggy display in a racy thigh-cut gown with husband&nbsp;Taika Waititi, 50, at Emmys</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098139/Emmys-host-Nate-Bargatze-says-NOT-make-political-avoid-talking-Charlie-Kirk.html" 
+      <a href="/tvshowbiz/article-15098139/Emmys-host-Nate-Bargatze-says-NOT-make-political-avoid-talking-Charlie-Kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/22/102131167-0-image-a-1_1757886231422.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5665,14 +5665,14 @@ Rita Ora, 34, puts on a VERY leggy display in a racy thigh-cut gown with husband
           <span class="arrow-small-r"></span>
           <strong>
 Emmys host Nate Bargatze says he will NOT make the show political and will avoid talking about&nbsp;Charlie Kirk</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098411/Owen-Cooper-joins-Adolescence-stars-Erin-Doherty-Ashley-Walters-Emmy-Awards-2025-Netflix-megahit-tipped-glory.html" 
+      <a href="/tvshowbiz/article-15098411/Owen-Cooper-joins-Adolescence-stars-Erin-Doherty-Ashley-Walters-Emmy-Awards-2025-Netflix-megahit-tipped-glory.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102134137-0-image-a-133_1757894344230.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5681,14 +5681,14 @@ Emmys host Nate Bargatze says he will NOT make the show political and will avoid
           <span class="arrow-small-r"></span>
           <strong>
 Owen Cooper joins his&nbsp;Adolescence co-stars Erin Doherty and Ashley Walters at the Emmy Awards 2025 as Netflix megahit is tipped for glory</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098195/Irina-Shayk-reminds-fans-caught-eye-Cristiano-Ronaldo-Bradley-Cooper-Tom-Brady.html" 
+      <a href="/tvshowbiz/article-15098195/Irina-Shayk-reminds-fans-caught-eye-Cristiano-Ronaldo-Bradley-Cooper-Tom-Brady.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/00/102132739-0-image-a-32_1757890912714.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5697,14 +5697,14 @@ Owen Cooper joins his&nbsp;Adolescence co-stars Erin Doherty and Ashley Walters 
           <span class="arrow-small-r"></span>
           <strong>
 Irina Shayk reminds fans how she caught the eye of Cristiano Ronaldo, Bradley Cooper and Tom Brady</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098119/justin-bieber-hailey-seven-year-wedding-anniversary-family-values.html" 
+      <a href="/tvshowbiz/article-15098119/justin-bieber-hailey-seven-year-wedding-anniversary-family-values.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/22/102131423-0-image-a-2_1757886496467.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5713,14 +5713,14 @@ Irina Shayk reminds fans how she caught the eye of Cristiano Ronaldo, Bradley Co
           <span class="arrow-small-r"></span>
           <strong>
 Justin Bieber marks seventh wedding anniversary with Hailey by revealing 10 'Bieber family' values</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15098377/Patti-LaBelle-81-underwent-plastic-surgery-procedure-1980s-urging-mean-manager.html" 
+      <a href="/tvshowbiz/article-15098377/Patti-LaBelle-81-underwent-plastic-surgery-procedure-1980s-urging-mean-manager.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134817-0-image-a-34_1757895724989.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5729,14 +5729,14 @@ Justin Bieber marks seventh wedding anniversary with Hailey by revealing 10 'Bie
           <span class="arrow-small-r"></span>
           <strong>
 Patti LaBelle, 81, underwent plastic surgery procedure in 1980s at urging of 'mean' manager</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15097925/Adolescence-Owen-Cooper-surprised-Jake-Gyllenhaal.html" 
+      <a href="/tvshowbiz/article-15097925/Adolescence-Owen-Cooper-surprised-Jake-Gyllenhaal.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/21/102129625-0-image-a-46_1757880458613.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5745,14 +5745,14 @@ Patti LaBelle, 81, underwent plastic surgery procedure in 1980s at urging of 'me
           <span class="arrow-small-r"></span>
           <strong>
 Adolescence star Owen Cooper, 15, is surprised by his acting idol&nbsp;Jake Gyllenhaal ahead of the Emmys in heartwarming moment</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098169/Sharon-Horgan-puts-racy-display-sheer-gown-Gwendoline-Christie-dons-power-suit-lead-British-Irish-stars-Emmy-Awards.html" 
+      <a href="/tvshowbiz/article-15098169/Sharon-Horgan-puts-racy-display-sheer-gown-Gwendoline-Christie-dons-power-suit-lead-British-Irish-stars-Emmy-Awards.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/102134279-0-image-a-104_1757894511232.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5761,14 +5761,14 @@ Adolescence star Owen Cooper, 15, is surprised by his acting idol&nbsp;Jake Gyll
           <span class="arrow-small-r"></span>
           <strong>
 Aimee Lou Wood oozes glamour as she joins Sharon Horgan and Gwendoline Christie in leading British and Irish stars at Emmy Awards</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15096591/Emmys-arrive-The-Studio-Severance-Adolescence-The-Penguin-vying-honors.html" 
+      <a href="/tvshowbiz/article-15096591/Emmys-arrive-The-Studio-Severance-Adolescence-The-Penguin-vying-honors.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/21/102129903-0-image-a-14_1757881455626.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5777,14 +5777,14 @@ Aimee Lou Wood oozes glamour as she joins Sharon Horgan and Gwendoline Christie 
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025: Key things to know about show which will feature Selena Gomez and Catherine Zeta-Jones</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15092447/Hugh-Jackman-girlfriend-Sutton-Foster-Blake-Lively.html" 
+      <a href="/tvshowbiz/article-15092447/Hugh-Jackman-girlfriend-Sutton-Foster-Blake-Lively.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102087855-0-image-a-6_1757693703693.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5793,14 +5793,14 @@ Emmy Awards 2025: Key things to know about show which will feature Selena Gomez 
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 'They've never had a meaningful friendship': Why Hugh Jackman's girlfriend Sutton Foster hasn't grown close to his best friend's wife Blake Lively</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098171/Ashley-Grahams-tight-dress-accidentally-reveals-body.html" 
+      <a href="/tvshowbiz/article-15098171/Ashley-Grahams-tight-dress-accidentally-reveals-body.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/15/01/1757894597252_2537793371861759.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5809,14 +5809,14 @@ Emmy Awards 2025: Key things to know about show which will feature Selena Gomez 
           <span class="arrow-small-r"></span>
           <strong>
 Ashley Graham's tight dress accidentally reveals more of her body than it should on the red carpet</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15097741/Teen-Mom-star-Farrah-Abraham-suffers-wardrobe-malfunction-beach-shoot.html" 
+      <a href="/tvshowbiz/article-15097741/Teen-Mom-star-Farrah-Abraham-suffers-wardrobe-malfunction-beach-shoot.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/19/102127869-0-image-a-52_1757873677472.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5825,14 +5825,14 @@ Ashley Graham's tight dress accidentally reveals more of her body than it should
           <span class="arrow-small-r"></span>
           <strong>
 Teen Mom star Farrah Abraham suffers a wardrobe malfunction during a beach shoot</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15097871/Billy-Magnussen-pops-question-Erica-Firestone-romantic-beach-proposal-Italy.html" 
+      <a href="/tvshowbiz/article-15097871/Billy-Magnussen-pops-question-Erica-Firestone-romantic-beach-proposal-Italy.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102128995-0-image-a-52_1757877971906.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5841,14 +5841,14 @@ Teen Mom star Farrah Abraham suffers a wardrobe malfunction during a beach shoot
           <span class="arrow-small-r"></span>
           <strong>
 Billy Magnussen pops the question to Erica Firestone in romantic beach proposal in Italy</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15097917/Vogues-new-editor-hits-splashy-NYC-fashion-ZERO-makeup-looks-like-just-left-gym.html" 
+      <a href="/tvshowbiz/article-15097917/Vogues-new-editor-hits-splashy-NYC-fashion-ZERO-makeup-looks-like-just-left-gym.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102128815-0-image-m-5_1757877432600.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5857,14 +5857,14 @@ Billy Magnussen pops the question to Erica Firestone in romantic beach proposal 
           <span class="arrow-small-r"></span>
           <strong>
 Vogue's new editor hits splashy NYC fashion show with ZERO makeup on as she looks like she just left the gym</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/news/article-15097147/influencer-charlie-kirk-backlash-instagram.html" 
+      <a href="/news/article-15097147/influencer-charlie-kirk-backlash-instagram.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/18/102127155-0-image-a-18_1757870562705.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5873,14 +5873,14 @@ Vogue's new editor hits splashy NYC fashion show with ZERO makeup on as she look
           <span class="arrow-small-r"></span>
           <strong>
 Gorgeous influencer with 5M Instagram followers shocks fans with Charlie Kirk post</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15067597/taylor-swift-brand-deals-business-ventures.html" 
+      <a href="/femail/article-15067597/taylor-swift-brand-deals-business-ventures.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/09/21/101986597-0-image-a-14_1757449639598.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5889,14 +5889,14 @@ Gorgeous influencer with 5M Instagram followers shocks fans with Charlie Kirk po
           <span class="arrow-small-r"></span>
           <strong>
 Little-known brand deals Taylor Swift would rather you forget... from $500 pizza box to 'bohemian' sundresses</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15097535/Who-shortest-actresses-Hollywood-Sydney-Sweeney-joins-list-includes-Kim-Kardashian.html" 
+      <a href="/tvshowbiz/article-15097535/Who-shortest-actresses-Hollywood-Sydney-Sweeney-joins-list-includes-Kim-Kardashian.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/16/102125759-0-image-a-6_1757864381653.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5905,14 +5905,14 @@ Little-known brand deals Taylor Swift would rather you forget... from $500 pizza
           <span class="arrow-small-r"></span>
           <strong>
 Who are the shortest actresses in Hollywood? Sydney Sweeney joins the list that includes Kim Kardashian</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15085823/She-sexy-pinup-70s-film-Warriors-playing-Playboy-bunny-Kirstie-Alley-now.html" 
+      <a href="/tvshowbiz/article-15085823/She-sexy-pinup-70s-film-Warriors-playing-Playboy-bunny-Kirstie-Alley-now.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/10/20/102019537-0-image-a-63_1757533152106.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5921,14 +5921,14 @@ Who are the shortest actresses in Hollywood? Sydney Sweeney joins the list that 
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 She was the sexy pinup in the 70s film Warriors before playing a Playboy bunny with Kirstie Alley, see her now</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  data-is-paywalled="true">
-      <a href="/news/royals/article-15092831/AMANDA-PLATELL-William-Kate-Prince-Princess-Boring-need-stop-sulking-leaf-Harrys-book-risk-Charles-wrath.html" 
+      <a href="/news/royals/article-15092831/AMANDA-PLATELL-William-Kate-Prince-Princess-Boring-need-stop-sulking-leaf-Harrys-book-risk-Charles-wrath.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102087163-0-image-m-41_1757693422571.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5937,14 +5937,14 @@ She was the sexy pinup in the 70s film Warriors before playing a Playboy bunny w
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span>
 AMANDA PLATELL: William and Kate have become the Prince and Princess of Boring. This is why they need to stop sulking and take a leaf out of Harry's book</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15097949/Mandy-Moore-says-having-three-children-lot.html" 
+      <a href="/tvshowbiz/article-15097949/Mandy-Moore-says-having-three-children-lot.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102129417-0-image-a-74_1757879626107.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5953,14 +5953,14 @@ AMANDA PLATELL: William and Kate have become the Prince and Princess of Boring. 
           <span class="arrow-small-r"></span>
           <strong>
 Mandy Moore, 41, says having three children under the age of four is 'a lot'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/tvshowbiz/article-15098031/Katy-Perry-flaunts-flat-abs-sparkly-silver-outfit-takes-Lifetimes-tour-Brazil.html" 
+      <a href="/tvshowbiz/article-15098031/Katy-Perry-flaunts-flat-abs-sparkly-silver-outfit-takes-Lifetimes-tour-Brazil.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/22/102131305-0-image-a-25_1757886367591.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5969,14 +5969,14 @@ Mandy Moore, 41, says having three children under the age of four is 'a lot'</st
           <span class="arrow-small-r"></span>
           <strong>
 Katy Perry flaunts her flat abs in a sparkly silver outfit as she takes Lifetimes tour to Brazil</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=""  >
-      <a href="/femail/article-15087661/lola-tung-hollywood-girl-summer-turned-pretty.html" 
+      <a href="/femail/article-15087661/lola-tung-hollywood-girl-summer-turned-pretty.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/09/102073937-0-image-m-40_1757666819852.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -5985,14 +5985,14 @@ Katy Perry flaunts her flat abs in a sparkly silver outfit as she takes Lifetime
           <span class="arrow-small-r"></span>
           <strong>
 How an unknown actress became Hollywood's new It Girl</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li is="ad-marker-li" data-ad-marker-group="puff-list" class=" video-led"  >
-      <a href="/tvshowbiz/article-15097647/Sydney-Sweeney-sizzles-plunging-swimsuit-jumping-25ft-cliff-lake.html" class="bottom" 
+      <a href="/tvshowbiz/article-15097647/Sydney-Sweeney-sizzles-plunging-swimsuit-jumping-25ft-cliff-lake.html" class="bottom"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/19/102127275-0-image-m-15_1757874447809.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6001,14 +6001,14 @@ How an unknown actress became Hollywood's new It Girl</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Sydney Sweeney sizzles in plunging swimsuit before jumping off a 25ft cliff and into a lake</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 </ul>
-  
+
 </div>
 
 </div>
@@ -6068,20 +6068,20 @@ DM.later('bundle', function () {
       }
     }
   });
-});      
+});
 </script></ul>
 </div>
 
 <div class="tvshowbiz item" data-channel-color="tvshowbiz">
   <div class="puff cleared" id="p-1285"
      data-track-module="llg-1001296^puff">
-  
+
   <span class="tl">&nbsp;</span>
   <span class="tr">&nbsp;</span>
   <h3 class="wocc">DON'T MISS</h3>
   <ul class="link-bogr2 linkro-wocc">
         <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15097815/Whos-Boss-star-Judith-Light-76-lets-wild-hair-event.html" 
+      <a href="/tvshowbiz/article-15097815/Whos-Boss-star-Judith-Light-76-lets-wild-hair-event.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/19/102128563-0-image-a-57_1757876318639.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6090,14 +6090,14 @@ DM.later('bundle', function () {
           <span class="arrow-small-r"></span>
           <strong>
 Who's The Boss star Judith Light, 76, lets her wild hair down at event</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097943/Mark-Ronson-admits-child-abuse-Michael-Jackson-hotel-meeting-13.html" 
+      <a href="/tvshowbiz/article-15097943/Mark-Ronson-admits-child-abuse-Michael-Jackson-hotel-meeting-13.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102129531-0-image-a-14_1757879983934.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6106,14 +6106,14 @@ Who's The Boss star Judith Light, 76, lets her wild hair down at event</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Mark Ronson admits child abuse allegations against Michael Jackson forced him to 're-examine' his hotel meeting with the King of Pop as a wannabe DJ aged 13</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097697/Sean-Penn-65-enjoys-lunch-film-producer-Marianna-Brennand-45.html" 
+      <a href="/tvshowbiz/article-15097697/Sean-Penn-65-enjoys-lunch-film-producer-Marianna-Brennand-45.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/19/102128095-0-image-a-45_1757874432841.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6122,14 +6122,14 @@ Mark Ronson admits child abuse allegations against Michael Jackson forced him to
           <span class="arrow-small-r"></span>
           <strong>
 Sean Penn, 65, enjoys lunch with Brazilian film producer Marianna Brennand, 45, in Malibu</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15097713/Emmy-Awards-2025-stars-getting-ready-TVs-biggest-night.html" 
+      <a href="/tvshowbiz/article-15097713/Emmy-Awards-2025-stars-getting-ready-TVs-biggest-night.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/20/102129415-0-image-a-26_1757879395764.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6138,14 +6138,14 @@ Sean Penn, 65, enjoys lunch with Brazilian film producer Marianna Brennand, 45, 
           <span class="arrow-small-r"></span>
           <strong>
 Emmy Awards 2025: stars like Blanca Blanco and Jenna Ortega get ready for TV's biggest night</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15097573/Country-star-barbed-wire-fence-fight-video.html" 
+      <a href="/tvshowbiz/article-15097573/Country-star-barbed-wire-fence-fight-video.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/18/102126847-0-image-a-18_1757870671606.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6154,14 +6154,14 @@ Emmy Awards 2025: stars like Blanca Blanco and Jenna Ortega get ready for TV's b
           <span class="arrow-small-r"></span>
           <strong>
 Country music bad boy scales barbed wire fence to brawl with fellow singer in wild caught-on-camera fight</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15090233/Kendall-Jenner-Vogue-horse-traumatic-brain-injury-survivor.html" 
+      <a href="/tvshowbiz/article-15090233/Kendall-Jenner-Vogue-horse-traumatic-brain-injury-survivor.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/11/23/102064143-0-image-a-47_1757628339370.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6170,14 +6170,14 @@ Country music bad boy scales barbed wire fence to brawl with fellow singer in wi
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Seeing Kendall Jenner ride my horse in Vogue was proof I could move forward, says traumatic brain injury survivor</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15086653/Sonja-Morgan-RHONY-alum-group-chat.html" 
+      <a href="/tvshowbiz/article-15086653/Sonja-Morgan-RHONY-alum-group-chat.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/11/01/102026141-0-image-m-4_1757549036361.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6186,14 +6186,14 @@ Seeing Kendall Jenner ride my horse in Vogue was proof I could move forward, say
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Sonja Morgan spills the tea on the RHONY alum group chat: 'We're on a text chain OG Beauties'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097617/Jason-Bateman-56-seen-wife-Amanda-Anka-one-teen-daughters-rare-sighting.html" 
+      <a href="/tvshowbiz/article-15097617/Jason-Bateman-56-seen-wife-Amanda-Anka-one-teen-daughters-rare-sighting.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/17/102125897-0-image-m-22_1757868028629.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6202,14 +6202,14 @@ Sonja Morgan spills the tea on the RHONY alum group chat: 'We're on a text chain
           <span class="arrow-small-r"></span>
           <strong>
 Jason Bateman, 56, seen with wife Amanda Anka and one of his teen daughters in rare Beverly Hills sighting</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096357/Ariana-Grande-boyfriend-Ethan-Slater-telling-remarks-split-rumors.html" 
+      <a href="/tvshowbiz/article-15096357/Ariana-Grande-boyfriend-Ethan-Slater-telling-remarks-split-rumors.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/03/102117317-0-image-a-22_1757818094867.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6218,14 +6218,14 @@ Jason Bateman, 56, seen with wife Amanda Anka and one of his teen daughters in r
           <span class="arrow-small-r"></span>
           <strong>
 Ariana Grande's boyfriend Ethan Slater makes telling remarks about singer amid split rumors</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/news/article-15097175/Liberals-brittany-xavier-influencer-Charlie-Kirk-conservative.html" 
+      <a href="/news/article-15097175/Liberals-brittany-xavier-influencer-Charlie-Kirk-conservative.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/19/102127989-0-image-a-7_1757874005701.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6234,14 +6234,14 @@ Ariana Grande's boyfriend Ethan Slater makes telling remarks about singer amid s
           <span class="arrow-small-r"></span>
           <strong>
 Liberals turn on influencer as she grieves Charlie Kirk: 'She's a white supremacist'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097407/Margot-Robbie-35-makes-rare-sighting-handsome-actor-brother-Cameron-30.html" 
+      <a href="/tvshowbiz/article-15097407/Margot-Robbie-35-makes-rare-sighting-handsome-actor-brother-Cameron-30.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/15/102124739-0-image-m-4_1757861553927.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6250,14 +6250,14 @@ Liberals turn on influencer as she grieves Charlie Kirk: 'She's a white supremac
           <span class="arrow-small-r"></span>
           <strong>
 Margot Robbie, 35, makes a very rare sighting with her handsome actor brother Cameron, 30</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097413/Sofia-Vergara-hangs-Jennifer-Lopezs-ex-husband-Marc-Anthony-Las-Vegas.html" 
+      <a href="/tvshowbiz/article-15097413/Sofia-Vergara-hangs-Jennifer-Lopezs-ex-husband-Marc-Anthony-Las-Vegas.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/16/102125175-0-image-a-2_1757862639766.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6266,14 +6266,14 @@ Margot Robbie, 35, makes a very rare sighting with her handsome actor brother Ca
           <span class="arrow-small-r"></span>
           <strong>
 Sofia Vergara hangs out with Jennifer Lopez's ex-husband Marc Anthony in Las Vegas</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15096753/Lizzo-shows-incredible-weight-loss-skintight-pink-bedazzled-gown-admitting-tried-Ozempic.html" 
+      <a href="/tvshowbiz/article-15096753/Lizzo-shows-incredible-weight-loss-skintight-pink-bedazzled-gown-admitting-tried-Ozempic.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/07/102118749-0-image-a-32_1757832374384.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6282,14 +6282,14 @@ Sofia Vergara hangs out with Jennifer Lopez's ex-husband Marc Anthony in Las Veg
           <span class="arrow-small-r"></span>
           <strong>
 Lizzo shows off incredible weight loss in a skintight pink bedazzled gown... after admitting she 'tried' Ozempic</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096121/Coldplay-Chris-Martin-concert-fans-love-Charlie-Kirk-family.html" 
+      <a href="/tvshowbiz/article-15096121/Coldplay-Chris-Martin-concert-fans-love-Charlie-Kirk-family.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/01/102116141-0-image-a-23_1757808858799.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6298,14 +6298,14 @@ Lizzo shows off incredible weight loss in a skintight pink bedazzled gown... aft
           <span class="arrow-small-r"></span>
           <strong>
 Coldplay's Chris Martin stops concert to get crowd to 'send love' to Charlie Kirk's family... and fans aren't happy</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15097405/Morgan-Wallen-stops-concert-Charlie-Kirk.html" 
+      <a href="/tvshowbiz/article-15097405/Morgan-Wallen-stops-concert-Charlie-Kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/16/102125513-0-image-a-11_1757864204484.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6314,14 +6314,14 @@ Coldplay's Chris Martin stops concert to get crowd to 'send love' to Charlie Kir
           <span class="arrow-small-r"></span>
           <strong>
 Morgan Wallen stops mid-performance to 'send prayers' to Charlie Kirk's widow Erika&nbsp;after Chris Martin and Jason Aldean's heartfelt tributes</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15097491/Will-Arnett-gets-cozy-supermodel-girlfriend-Carolyn-Murphy.html" 
+      <a href="/tvshowbiz/article-15097491/Will-Arnett-gets-cozy-supermodel-girlfriend-Carolyn-Murphy.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/16/102125929-0-image-a-34_1757865226544.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6330,14 +6330,14 @@ Morgan Wallen stops mid-performance to 'send prayers' to Charlie Kirk's widow Er
           <span class="arrow-small-r"></span>
           <strong>
 Will Arnett gets cozy with new supermodel girlfriend Carolyn Murphy after splitting from Alessandra Brawn</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096361/Beyonce-cleavage-skintight-gown-celebrate-birthday.html" 
+      <a href="/tvshowbiz/article-15096361/Beyonce-cleavage-skintight-gown-celebrate-birthday.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/04/102117433-0-image-a-61_1757819202653.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6346,14 +6346,14 @@ Will Arnett gets cozy with new supermodel girlfriend Carolyn Murphy after splitt
           <span class="arrow-small-r"></span>
           <strong>
 Beyonce puts on cheeky display in daring see-through gown to celebrate her 44th birthday</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15095683/Braless-Paris-Jackson-frees-nipple-miniskirt-shocking-NYFW-appearance.html" 
+      <a href="/tvshowbiz/article-15095683/Braless-Paris-Jackson-frees-nipple-miniskirt-shocking-NYFW-appearance.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/21/102113317-0-image-a-121_1757795920891.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6362,14 +6362,14 @@ Beyonce puts on cheeky display in daring see-through gown to celebrate her 44th 
           <span class="arrow-small-r"></span>
           <strong>
 Braless Paris Jackson frees the nipple in see-through top and miniskirt during shocking NYFW appearance</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095667/Harry-Styles-cosy-display-Zo-Kravitz-Rome.html" 
+      <a href="/tvshowbiz/article-15095667/Harry-Styles-cosy-display-Zo-Kravitz-Rome.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/22/102113311-0-image-a-29_1757797201597.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6378,14 +6378,14 @@ Braless Paris Jackson frees the nipple in see-through top and miniskirt during s
           <span class="arrow-small-r"></span>
           <strong>
 Harry Styles puts on a very cosy display with Zo&euml; Kravitz as he places a cheeky hand on her bottom during stroll in Rome</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096937/Liam-Hemsworth-Gabriella-Brooks-trolled-Miley-Cyrus.html" 
+      <a href="/tvshowbiz/article-15096937/Liam-Hemsworth-Gabriella-Brooks-trolled-Miley-Cyrus.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/10/102120547-0-image-a-41_1757843406238.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6394,14 +6394,14 @@ Harry Styles puts on a very cosy display with Zo&euml; Kravitz as he places a ch
           <span class="arrow-small-r"></span>
           <strong>
 Liam Hemsworth and Gabriella Brooks brutally trolled by Miley Cyrus fans after announcing engagement</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15096953/Nicole-Kidman-wrapped-filming-Practical-Magic-2-Sandra-Bullock.html" 
+      <a href="/tvshowbiz/article-15096953/Nicole-Kidman-wrapped-filming-Practical-Magic-2-Sandra-Bullock.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/11/102120939-0-image-a-6_1757846069406.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6410,14 +6410,14 @@ Liam Hemsworth and Gabriella Brooks brutally trolled by Miley Cyrus fans after a
           <span class="arrow-small-r"></span>
           <strong>
 Nicole Kidman reveals she's wrapped filming on Practical Magic 2 as she shares sweet behind-the-scenes video with Sandra Bullock</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096735/Charlize-Theron-car-STOLEN-home-LA-crime-spree.html" 
+      <a href="/tvshowbiz/article-15096735/Charlize-Theron-car-STOLEN-home-LA-crime-spree.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/08/102119215-0-image-a-1_1757834550979.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6426,14 +6426,14 @@ Nicole Kidman reveals she's wrapped filming on Practical Magic 2 as she shares s
           <span class="arrow-small-r"></span>
           <strong>
 Charlize Theron's car is STOLEN from her home as she's latest star caught up in LA crime spree</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15087445/Harry-Styles-Zoe-Kravitz-love-lives.html" 
+      <a href="/tvshowbiz/article-15087445/Harry-Styles-Zoe-Kravitz-love-lives.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/11/12/102039217-0-image-a-88_1757589245651.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6442,14 +6442,14 @@ Charlize Theron's car is STOLEN from her home as she's latest star caught up in 
           <span class="arrow-small-r"></span>
           <strong>
 Harry Styles and Zoe Kravitz are the new Hollywood power couple! A look back at the stars' colourful and intertwined love lives as they flaunt sizzling new romance</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096833/Cameron-Diaz-husband-Benji-Madden-casino-night-public-appearance-year.html" 
+      <a href="/tvshowbiz/article-15096833/Cameron-Diaz-husband-Benji-Madden-casino-night-public-appearance-year.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/09/102119731-0-image-a-28_1757838461415.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6458,14 +6458,14 @@ Harry Styles and Zoe Kravitz are the new Hollywood power couple! A look back at 
           <span class="arrow-small-r"></span>
           <strong>
 Cameron Diaz, 53, cosies up to husband Benji Madden, 46, as they try their luck at a New Jersey casino night&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096647/Kate-Hudson-channels-iconic-dress-Emmys-event.html" 
+      <a href="/tvshowbiz/article-15096647/Kate-Hudson-channels-iconic-dress-Emmys-event.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/06/102118269-0-image-a-95_1757827623851.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6474,14 +6474,14 @@ Cameron Diaz, 53, cosies up to husband Benji Madden, 46, as they try their luck 
           <span class="arrow-small-r"></span>
           <strong>
 Kate Hudson, 46, channels THAT iconic dress from How To Lose A Guy In 10 Days at starry Emmys event in LA</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096709/Kendall-Jenner-channels-office-siren-glasses-dress-career-change.html" 
+      <a href="/tvshowbiz/article-15096709/Kendall-Jenner-channels-office-siren-glasses-dress-career-change.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/07/102118443-0-image-a-114_1757829965173.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6490,14 +6490,14 @@ Kate Hudson, 46, channels THAT iconic dress from How To Lose A Guy In 10 Days at
           <span class="arrow-small-r"></span>
           <strong>
 Kendall Jenner channels office siren glam in glasses and tight dress after hinting at MAJOR career change</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15096491/Hailey-Bieber-glimpse-GRUELING-postpartum-workout-giving-birth-son-Jack.html" 
+      <a href="/tvshowbiz/article-15096491/Hailey-Bieber-glimpse-GRUELING-postpartum-workout-giving-birth-son-Jack.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/05/102117745-0-image-a-70_1757822724271.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6506,14 +6506,14 @@ Kendall Jenner channels office siren glam in glasses and tight dress after hinti
           <span class="arrow-small-r"></span>
           <strong>
 Hailey Bieber shares a glimpse at her GRUELING postpartum workout... one year after giving birth to son Jack</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095911/Ben-Affleck-Samuel-new-gift-ex-wife-Jennifer-Lopez-shopping-trip.html" 
+      <a href="/tvshowbiz/article-15095911/Ben-Affleck-Samuel-new-gift-ex-wife-Jennifer-Lopez-shopping-trip.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/00/102115531-0-image-a-77_1757804911664.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6522,14 +6522,14 @@ Hailey Bieber shares a glimpse at her GRUELING postpartum workout... one year af
           <span class="arrow-small-r"></span>
           <strong>
 Ben Affleck treats son Samuel, 13, to new gift after ex-wife Jennifer Lopez took teen on high-end shopping trip</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096109/Ariana-Grande-bothered-Eternal-Sunschine-tour-tickets-scalpers.html" 
+      <a href="/tvshowbiz/article-15096109/Ariana-Grande-bothered-Eternal-Sunschine-tour-tickets-scalpers.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/01/102116135-0-image-a-34_1757809279387.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6538,14 +6538,14 @@ Ben Affleck treats son Samuel, 13, to new gift after ex-wife Jennifer Lopez took
           <span class="arrow-small-r"></span>
           <strong>
 'Bothered' Ariana Grande responds to upset fans as scalpers snap up tickets to her sold-out tour: 'I'm fighting for a solution'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15088761/90-Day-Fiance-wardrobe-malfunction-reunion.html" 
+      <a href="/tvshowbiz/article-15088761/90-Day-Fiance-wardrobe-malfunction-reunion.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/18/102098619-0-image-a-7_1757785222784.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6554,14 +6554,14 @@ Ben Affleck treats son Samuel, 13, to new gift after ex-wife Jennifer Lopez took
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 90 Day Fiance's bikini bombshell reveals who caused her nip slip and dishes on cringey date request during reunion</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15094365/Lauren-Sanchez-low-cut-dress-husband-Jeff-Bezos-NYFW-event.html" 
+      <a href="/tvshowbiz/article-15094365/Lauren-Sanchez-low-cut-dress-husband-Jeff-Bezos-NYFW-event.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/07/102104013-0-image-a-19_1757745866307.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6570,14 +6570,14 @@ Ben Affleck treats son Samuel, 13, to new gift after ex-wife Jennifer Lopez took
           <span class="arrow-small-r"></span>
           <strong>
 Lauren Sanchez rocks VERY low-cut dress as she clings to husband Jeff Bezos at NYFW event</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096051/Miley-Cyrus-reveals-thrilled-dad-Billy-Ray-love-Elizabeth-Hurley.html" 
+      <a href="/tvshowbiz/article-15096051/Miley-Cyrus-reveals-thrilled-dad-Billy-Ray-love-Elizabeth-Hurley.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/01/102116467-0-image-a-26_1757811357100.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6586,14 +6586,14 @@ Lauren Sanchez rocks VERY low-cut dress as she clings to husband Jeff Bezos at N
           <span class="arrow-small-r"></span>
           <strong>
 Miley Cyrus reveals she's thrilled dad Billy Ray has found love again with Elizabeth Hurley</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096047/Olivia-Wilde-Ellie-Goulding-ex-husband-Caspar-Jopling-W-Magazine-New-York-Fashion-Week.html" 
+      <a href="/tvshowbiz/article-15096047/Olivia-Wilde-Ellie-Goulding-ex-husband-Caspar-Jopling-W-Magazine-New-York-Fashion-Week.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/00/102115729-0-image-a-78_1757806072528.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6602,14 +6602,14 @@ Miley Cyrus reveals she's thrilled dad Billy Ray has found love again with Eliza
           <span class="arrow-small-r"></span>
           <strong>
 Olivia Wilde enjoys first public outing with Ellie Goulding's&nbsp;ex-husband Caspar Jopling at W Magazine's New York Fashion Week party</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15095171/Taylor-Swift-drops-clip-Life-Showgirl-fans-underwhelmed.html" 
+      <a href="/tvshowbiz/article-15095171/Taylor-Swift-drops-clip-Life-Showgirl-fans-underwhelmed.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/17/102110023-0-image-m-47_1757779695678.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6618,14 +6618,14 @@ Olivia Wilde enjoys first public outing with Ellie Goulding's&nbsp;ex-husband Ca
           <span class="arrow-small-r"></span>
           <strong>
 Taylor Swift drops FIRST CLIP from The Life of a Showgirl... and leaves fans underwhelmed: 'We waited for this?'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15095411/Kylie-Jenner-reveals-200K-G-Wagon-toilet-papered-wild-prank.html" 
+      <a href="/tvshowbiz/article-15095411/Kylie-Jenner-reveals-200K-G-Wagon-toilet-papered-wild-prank.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/19/102111929-0-image-a-73_1757787456361.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6634,14 +6634,14 @@ Taylor Swift drops FIRST CLIP from The Life of a Showgirl... and leaves fans und
           <span class="arrow-small-r"></span>
           <strong>
 Kylie Jenner reveals her $200K G-Wagon was toilet-papered in wild prank... and you won't believe who did it</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095981/Downton-Abbey-downstairs-stars-snub-New-York-premiere-servants.html" 
+      <a href="/tvshowbiz/article-15095981/Downton-Abbey-downstairs-stars-snub-New-York-premiere-servants.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/23/102115041-0-image-a-167_1757802984060.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6650,14 +6650,14 @@ Kylie Jenner reveals her $200K G-Wagon was toilet-papered in wild prank... and y
           <span class="arrow-small-r"></span>
           <strong>
 Downton Abbey's downstairs stars snub New York premiere - because they would be treated like servants</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095453/Selena-Gomez-slim-figure-celebrating-milestone.html" 
+      <a href="/tvshowbiz/article-15095453/Selena-Gomez-slim-figure-celebrating-milestone.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/18/102111217-0-image-a-10_1757784630506.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6666,14 +6666,14 @@ Downton Abbey's downstairs stars snub New York premiere - because they would be 
           <span class="arrow-small-r"></span>
           <strong>
 Slimmed-down Selena Gomez flaunts new figure in crop top while celebrating milestone</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15095931/Margot-Robbie-Barbie-shock-new-role.html" 
+      <a href="/tvshowbiz/article-15095931/Margot-Robbie-Barbie-shock-new-role.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/00/102115733-0-image-a-2_1757806283061.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6682,14 +6682,14 @@ Slimmed-down Selena Gomez flaunts new figure in crop top while celebrating miles
           <span class="arrow-small-r"></span>
           <strong>
 Margot Robbie unveils shock new role with co-star Colin Farrell as she provides update on the highly anticipated Barbie sequel</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15096141/Adolescence-Owen-Cooper-Hollywood-history-youngest-male-Emmy-winner.html" 
+      <a href="/tvshowbiz/article-15096141/Adolescence-Owen-Cooper-Hollywood-history-youngest-male-Emmy-winner.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/14/00/102115985-0-image-m-321_1757807785294.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6698,14 +6698,14 @@ Margot Robbie unveils shock new role with co-star Colin Farrell as she provides 
           <span class="arrow-small-r"></span>
           <strong>
 Adolescence star Owen Cooper vying for a piece of Hollywood history as he hopes to become youngest ever male Emmy winner</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  data-is-paywalled="true">
-      <a href="/tvshowbiz/article-15093139/Jennifer-Aniston-Angelina-Jolie-Brad-Pitt-ALISON-BOSHOFF.html" 
+      <a href="/tvshowbiz/article-15093139/Jennifer-Aniston-Angelina-Jolie-Brad-Pitt-ALISON-BOSHOFF.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/18/102093651-0-image-m-6_1757699061814.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6714,14 +6714,14 @@ Adolescence star Owen Cooper vying for a piece of Hollywood history as he hopes 
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries="|us||ca||mx||au||nz|"></span>
 'She's the woman she hates most in the world': Jennifer Aniston's new move that insiders believe is a 'shot' at Angelina Jolie for 'stealing' Brad Pitt: ALISON BOSHOFF</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095585/Sam-Smith-gown-holding-hands-boyfriend-NYFW.html" 
+      <a href="/tvshowbiz/article-15095585/Sam-Smith-gown-holding-hands-boyfriend-NYFW.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/20/102112463-0-image-a-103_1757790868812.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6730,14 +6730,14 @@ Adolescence star Owen Cooper vying for a piece of Hollywood history as he hopes 
           <span class="arrow-small-r"></span>
           <strong>
 Sam Smith steals the spotlight in dramatic full-length gown and designer bag while holding hands with boyfriend Christian Cowan at NYFW</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15094309/Motley-Crue-frontman-Vince-Neil-stroke-sleep.html" 
+      <a href="/tvshowbiz/article-15094309/Motley-Crue-frontman-Vince-Neil-stroke-sleep.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/06/102103799-0-image-a-128_1757742363340.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6746,14 +6746,14 @@ Sam Smith steals the spotlight in dramatic full-length gown and designer bag whi
           <span class="arrow-small-r"></span>
           <strong>
 Motley Crue frontman Vince Neil, 64, reveals he suffered a stroke in his sleep... after canceling band's Las Vegas residency</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15094135/mary-kate-ashley-olsen-nyfw-rare-appearance.html" 
+      <a href="/tvshowbiz/article-15094135/mary-kate-ashley-olsen-nyfw-rare-appearance.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/03/102102029-0-image-a-12_1757732269937.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6762,14 +6762,14 @@ Motley Crue frontman Vince Neil, 64, reveals he suffered a stroke in his sleep..
           <span class="arrow-small-r"></span>
           <strong>
 Mary-Kate and Ashley Olsen don't look like this anymore as they make RARE joint appearance</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15094431/Elton-John-scares-fans-bedridden-hospital-pictures.html" 
+      <a href="/tvshowbiz/article-15094431/Elton-John-scares-fans-bedridden-hospital-pictures.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/09/102104553-0-image-m-72_1757753549307.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6778,14 +6778,14 @@ Mary-Kate and Ashley Olsen don't look like this anymore as they make RARE joint 
           <span class="arrow-small-r"></span>
           <strong>
 Elton John scares fans as he posts 'bedridden' hospital pictures&nbsp;</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095067/Lizzo-shows-incredible-weight-loss-racy-sheer-look-NYFW-admitting-tried-Ozempic.html" 
+      <a href="/tvshowbiz/article-15095067/Lizzo-shows-incredible-weight-loss-racy-sheer-look-NYFW-admitting-tried-Ozempic.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/16/102109497-0-image-a-3_1757776841130.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6794,14 +6794,14 @@ Elton John scares fans as he posts 'bedridden' hospital pictures&nbsp;</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Lizzo shows off incredible weight loss in racy sheer look at NYFW show... after admitting she 'tried' Ozempic</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15095093/SNLs-Bowen-Yang-Lorne-Michaels-future-cast-bloodbath.html" 
+      <a href="/tvshowbiz/article-15095093/SNLs-Bowen-Yang-Lorne-Michaels-future-cast-bloodbath.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/16/102109501-0-image-a-21_1757776806736.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6810,14 +6810,14 @@ Lizzo shows off incredible weight loss in racy sheer look at NYFW show... after 
           <span class="arrow-small-r"></span>
           <strong>
 SNL star reveals what Lorne Michaels PRIVATELY said about his future on show as cast bloodbath erupted</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15094375/cardi-b-twins-daughter-kulture-nyfw-assault-trial.html" 
+      <a href="/tvshowbiz/article-15094375/cardi-b-twins-daughter-kulture-nyfw-assault-trial.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/08/102104209-0-image-a-45_1757748001988.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6826,14 +6826,14 @@ SNL star reveals what Lorne Michaels PRIVATELY said about his future on show as 
           <span class="arrow-small-r"></span>
           <strong>
 Cardi B twins with lookalike daughter Kulture, seven, at NYFW party after assault trial victory</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093367/Denise-Richards-ex-Aaron-Phypers-shares-photos-3-5M-mansion-CLUTTERED-junk.html" 
+      <a href="/tvshowbiz/article-15093367/Denise-Richards-ex-Aaron-Phypers-shares-photos-3-5M-mansion-CLUTTERED-junk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/20/102095453-0-image-a-152_1757704278180.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6842,14 +6842,14 @@ Cardi B twins with lookalike daughter Kulture, seven, at NYFW party after assaul
           <span class="arrow-small-r"></span>
           <strong>
 Denise Richards' ex Aaron Phypers shares photos inside their SQUALID $3.5M mansion that's completely trashed</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15094217/Brooks-Nader-sneaky-dating-love-triangle-tennis.html" 
+      <a href="/tvshowbiz/article-15094217/Brooks-Nader-sneaky-dating-love-triangle-tennis.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/04/102102843-0-image-m-5_1757735990068.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6858,14 +6858,14 @@ Denise Richards' ex Aaron Phypers shares photos inside their SQUALID $3.5M mansi
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Brooks Nader's sneaky move as she is asked about dating life... after love triangle rumors with tennis stars</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093905/ellen-degeneres-portia-rossi-italy-vacation-car-crash-lawsuit.html" 
+      <a href="/tvshowbiz/article-15093905/ellen-degeneres-portia-rossi-italy-vacation-car-crash-lawsuit.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/01/102100553-0-image-a-10_1757721604317.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6874,14 +6874,14 @@ Brooks Nader's sneaky move as she is asked about dating life... after love trian
           <span class="arrow-small-r"></span>
           <strong>
 Ellen DeGeneres laughs it up on Italian getaway with Portia de Rossi as she is slapped with 'car crash' lawsuit</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093555/Bruce-Willis-enjoying-ride-LA-wife-Emma-Heming-separate-residences.html" 
+      <a href="/tvshowbiz/article-15093555/Bruce-Willis-enjoying-ride-LA-wife-Emma-Heming-separate-residences.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/21/102097097-0-image-m-5_1757708350543.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6890,14 +6890,14 @@ Ellen DeGeneres laughs it up on Italian getaway with Portia de Rossi as she is s
           <span class="arrow-small-r"></span>
           <strong>
 Bruce Willis enjoys ride through LA after wife revealed dementia-stricken actor is now living in separate residence with care team</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15093751/Jennifer-Aniston-breaks-TEARS-death-one-dogs.html" 
+      <a href="/tvshowbiz/article-15093751/Jennifer-Aniston-breaks-TEARS-death-one-dogs.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/22/102098785-0-image-a-87_1757713546941.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6906,14 +6906,14 @@ Bruce Willis enjoys ride through LA after wife revealed dementia-stricken actor 
           <span class="arrow-small-r"></span>
           <strong>
 Jennifer Aniston breaks down in TEARS over death in the family</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  data-is-paywalled="true">
-      <a href="/news/royals/article-15095599/Prince-Andrew-reputation-tatters-toxic-duke-JOHN-SWEENEY.html" 
+      <a href="/news/royals/article-15095599/Prince-Andrew-reputation-tatters-toxic-duke-JOHN-SWEENEY.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/19/102112145-0-image-a-5_1757788672418.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6922,14 +6922,14 @@ Jennifer Aniston breaks down in TEARS over death in the family</strong>
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span>
 Prince Andrew's reputation is already in tatters... and this is why this latest twist could finish off the toxic duke: JOHN SWEENEY</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/football/article-15094757/Hollywood-star-Ryan-Reynolds-jets-cheer-Wrexham-seek-home-win-season-32m-summer-spend.html" 
+      <a href="/sport/football/article-15094757/Hollywood-star-Ryan-Reynolds-jets-cheer-Wrexham-seek-home-win-season-32m-summer-spend.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/17/102110561-0-image-m-55_1757781372454.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6938,14 +6938,14 @@ Prince Andrew's reputation is already in tatters... and this is why this latest 
           <span class="arrow-small-r"></span>
           <strong>
 Ryan Reynolds jets in to cheer on his soccer team as they seek first home win of the season after $43 MILLION summer spend</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  data-is-paywalled="true">
-      <a href="/news/royals/article-15039623/Body-language-expert-Prince-William-Kate-Middleton-engagement.html" 
+      <a href="/news/royals/article-15039623/Body-language-expert-Prince-William-Kate-Middleton-engagement.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/09/11/101968303-0-image-m-24_1757413757361.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6954,14 +6954,14 @@ Ryan Reynolds jets in to cheer on his soccer team as they seek first home win of
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries="|us||ca||mx|"></span><span class="is-exclusive">EXCLUSIVE</span>
 Body language expert reveals the moment that 'paved the way' for Prince William and Kate Middleton's engagement</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15094283/kevin-costner-accuses-stuntwoman-lying-lawsuit-rape-scene.html" 
+      <a href="/tvshowbiz/article-15094283/kevin-costner-accuses-stuntwoman-lying-lawsuit-rape-scene.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/05/102103233-0-image-a-31_1757738697446.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6970,14 +6970,14 @@ Body language expert reveals the moment that 'paved the way' for Prince William 
           <span class="arrow-small-r"></span>
           <strong>
 Kevin Costner accuses stuntwoman who sued of lying about her claims of 'unscripted rape scene'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  data-is-paywalled="true">
-      <a href="/femail/article-15092849/married-Chris-Hughes-father-JoJo-Siwa-couple-huge-step.html" 
+      <a href="/femail/article-15092849/married-Chris-Hughes-father-JoJo-Siwa-couple-huge-step.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102088189-0-image-a-19_1757694251678.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -6986,14 +6986,14 @@ Kevin Costner accuses stuntwoman who sued of lying about her claims of 'unscript
           <span class="arrow-small-r"></span>
           <strong><span class="is-paywalled" data-paywalled-countries=""></span>
 Chris Hughes' father reveals what the family really think of his son's controversial relationship with JoJo Siwa</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/news/article-15094317/Vivian-Wilson-New-York-Fashion-Week-Elon-Musk.html" 
+      <a href="/news/article-15094317/Vivian-Wilson-New-York-Fashion-Week-Elon-Musk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/07/102103701-0-image-m-21_1757743226903.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7002,14 +7002,14 @@ Chris Hughes' father reveals what the family really think of his son's controver
           <span class="arrow-small-r"></span>
           <strong>
 Elon Musk's transgender daughter Vivian takes to the runway at New York Fashion Week amid ongoing feud with billionaire dad</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15094473/Sharon-Osbourne-emotional-statement-husband-Ozzy-death.html" 
+      <a href="/tvshowbiz/article-15094473/Sharon-Osbourne-emotional-statement-husband-Ozzy-death.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/10/102105383-0-image-a-97_1757756537744.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7018,14 +7018,14 @@ Elon Musk's transgender daughter Vivian takes to the runway at New York Fashion 
           <span class="arrow-small-r"></span>
           <strong>
 Sharon Osbourne pens emotional statement about&nbsp;'finding her footing' after late husband Ozzy's death</strong>
-          
+
           &nbsp;
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15093989/Lauren-Sanchez-Anna-Wintour-silence-haters-Vogue-cover-friendly-photos.html" 
+      <a href="/tvshowbiz/article-15093989/Lauren-Sanchez-Anna-Wintour-silence-haters-Vogue-cover-friendly-photos.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/02/102101437-0-image-a-58_1757728161194.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7034,14 +7034,14 @@ Sharon Osbourne pens emotional statement about&nbsp;'finding her footing' after 
           <span class="arrow-small-r"></span>
           <strong>
 Lauren Sanchez and Anna Wintour silence Vogue cover haters for good by posing for friendly photos at A-list event: 'The queens'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15087927/Pioneering-pop-legend-73-takes-Road-rides-mountain-bike-New-York-City-YOU-guess-is.html" 
+      <a href="/tvshowbiz/article-15087927/Pioneering-pop-legend-73-takes-Road-rides-mountain-bike-New-York-City-YOU-guess-is.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/07/102040211-0-image-m-7_1757660306173.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7050,14 +7050,14 @@ Lauren Sanchez and Anna Wintour silence Vogue cover haters for good by posing fo
           <span class="arrow-small-r"></span>
           <strong>
 Pioneering pop legend, 73, takes a Road To Nowhere as he rides his mountain bike through New York City - can YOU guess who he is?</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093703/Taylor-Swift-did-not-agree-deposition-Blake-Lively-Justin-Baldonis-trial.html" 
+      <a href="/tvshowbiz/article-15093703/Taylor-Swift-did-not-agree-deposition-Blake-Lively-Justin-Baldonis-trial.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/22/102098621-0-image-a-79_1757712674194.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7066,14 +7066,14 @@ Pioneering pop legend, 73, takes a Road To Nowhere as he rides his mountain bike
           <span class="arrow-small-r"></span>
           <strong>
 Taylor Swift 'did not agree' to give deposition in Blake Lively and Justin Baldoni's trial</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15094113/Jersey-Shore-star-Mike-Situation-Sorrentino-facelift-speculation-alarming-new-appearance.html" 
+      <a href="/tvshowbiz/article-15094113/Jersey-Shore-star-Mike-Situation-Sorrentino-facelift-speculation-alarming-new-appearance.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/04/102102401-0-image-a-74_1757734370641.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7082,14 +7082,14 @@ Taylor Swift 'did not agree' to give deposition in Blake Lively and Justin Baldo
           <span class="arrow-small-r"></span>
           <strong>
 Jersey Shore star breaks silence on facelift speculation after shocking fans with 'alarming' new appearance</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15094291/Major-US-hip-hop-star-50-Cent-smiles-Sydney.html" 
+      <a href="/tvshowbiz/article-15094291/Major-US-hip-hop-star-50-Cent-smiles-Sydney.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/06/102103737-0-image-a-114_1757741913154.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7098,14 +7098,14 @@ Jersey Shore star breaks silence on facelift speculation after shocking fans wit
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Major US hip-hop star is all smiles as he jets out of Sydney after shooting scenes for upcoming movie</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093197/Stephen-King-apologizes-negative-comments-Charlie-Kirk.html" 
+      <a href="/tvshowbiz/article-15093197/Stephen-King-apologizes-negative-comments-Charlie-Kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102094385-0-image-a-52_1757701048150.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7114,14 +7114,14 @@ Major US hip-hop star is all smiles as he jets out of Sydney after shooting scen
           <span class="arrow-small-r"></span>
           <strong>
 Stephen King deletes post and apologizes for his 'lies' about Charlie Kirk</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093889/Scott-Wolf-estranged-wife-violates-order-contacting-son.html" 
+      <a href="/tvshowbiz/article-15093889/Scott-Wolf-estranged-wife-violates-order-contacting-son.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/00/102100373-0-image-a-28_1757720845345.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7130,14 +7130,14 @@ Stephen King deletes post and apologizes for his 'lies' about Charlie Kirk</stro
           <span class="arrow-small-r"></span>
           <strong>
 Scott Wolf's estranged wife Kelley 'VIOLATES protective order after contacting son'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/health/article-15092705/Malin-Akerman-fitness-Hunting-Wives-chocolate-protein.html" 
+      <a href="/health/article-15092705/Malin-Akerman-fitness-Hunting-Wives-chocolate-protein.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102093921-0-image-a-12_1757700794359.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7146,14 +7146,14 @@ Scott Wolf's estranged wife Kelley 'VIOLATES protective order after contacting s
           <span class="arrow-small-r"></span>
           <strong>
 Malin Akerman reveals the key food that got her in shape for steamy scenes in The Hunting Wives</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/news/article-15093761/Prince-Harry-advice-opening-family-surprise-Ukraine-King-Charles.html" 
+      <a href="/news/article-15093761/Prince-Harry-advice-opening-family-surprise-Ukraine-King-Charles.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/23/102099277-0-image-m-8_1757715846319.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7162,14 +7162,14 @@ Malin Akerman reveals the key food that got her in shape for steamy scenes in Th
           <span class="arrow-small-r"></span>
           <strong>
 Prince Harry offers advice on 'opening up to your family' during surprise visit to Ukraine... just days after landmark meeting with King Charles</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/nfl/article-15093781/JJ-McCarthy-fiancee-birth-baby-Vikings.html" 
+      <a href="/sport/nfl/article-15093781/JJ-McCarthy-fiancee-birth-baby-Vikings.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/23/102098983-0-image-a-14_1757714445713.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7178,14 +7178,14 @@ Prince Harry offers advice on 'opening up to your family' during surprise visit 
           <span class="arrow-small-r"></span>
           <strong>
 Vikings star J.J. McCarthy and his childhood sweetheart announce birth of their baby son</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093545/Jessica-Alba-ex-Cash-Warren-romance-starlet-model.html" 
+      <a href="/tvshowbiz/article-15093545/Jessica-Alba-ex-Cash-Warren-romance-starlet-model.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/21/102097099-0-image-a-40_1757708442752.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7194,14 +7194,14 @@ Vikings star J.J. McCarthy and his childhood sweetheart announce birth of their 
           <span class="arrow-small-r"></span>
           <strong>
 Jessica Alba's ex Cash Warren, 46, flaunts new romance with 20-year-old starlet after young model fling</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093043/Kendall-Jenner-bikini-jet-ski-plans-quit-modeling.html" 
+      <a href="/tvshowbiz/article-15093043/Kendall-Jenner-bikini-jet-ski-plans-quit-modeling.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102093309-0-image-a-24_1757700561094.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7210,14 +7210,14 @@ Jessica Alba's ex Cash Warren, 46, flaunts new romance with 20-year-old starlet 
           <span class="arrow-small-r"></span>
           <strong>
 Kendall Jenner flaunts derriere in skimpy bikini on jet ski... after revealing plans to quit modeling</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093055/Saturday-Night-Live-vet-abruptly-quits-amid-cast-bloodbath.html" 
+      <a href="/tvshowbiz/article-15093055/Saturday-Night-Live-vet-abruptly-quits-amid-cast-bloodbath.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102088777-0-image-a-28_1757696002350.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7226,14 +7226,14 @@ Kendall Jenner flaunts derriere in skimpy bikini on jet ski... after revealing p
           <span class="arrow-small-r"></span>
           <strong>
 Another SNL star abruptly QUITS amid cast bloodbath ahead of new season</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093647/Lily-Collins-sparks-concern-slender-waistline-NYFW.html" 
+      <a href="/tvshowbiz/article-15093647/Lily-Collins-sparks-concern-slender-waistline-NYFW.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/09/102104841-0-image-a-38_1757753102753.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7242,14 +7242,14 @@ Another SNL star abruptly QUITS amid cast bloodbath ahead of new season</strong>
           <span class="arrow-small-r"></span>
           <strong>
 Lily Collins sparks concern with very slender waistline at NYFW: 'Was she always this thin?'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/femail/article-15093473/today-savannah-guthrie-hair-cut-bob.html" 
+      <a href="/femail/article-15093473/today-savannah-guthrie-hair-cut-bob.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/21/102097167-0-image-a-56_1757708540731.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7258,14 +7258,14 @@ Lily Collins sparks concern with very slender waistline at NYFW: 'Was she always
           <span class="arrow-small-r"></span>
           <strong>
 Today host Savannah Guthrie debuts new look as she undergoes drastic hair transformation</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/nfl/article-15093711/Tony-Romos-embarrassing-gift-ex-girlfriend-Jessica-Simpson-goes-viral.html" 
+      <a href="/sport/nfl/article-15093711/Tony-Romos-embarrassing-gift-ex-girlfriend-Jessica-Simpson-goes-viral.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/23/102099151-0-image-a-11_1757715000745.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7274,14 +7274,14 @@ Today host Savannah Guthrie debuts new look as she undergoes drastic hair transf
           <span class="arrow-small-r"></span>
           <strong>
 Tony Romo's embarrassing gift to ex-girlfriend Jessica Simpson goes viral</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/femail/article-15092421/alexander-wang-comeback-nyfw-pr-expert-sexual-assualt-allegations.html" 
+      <a href="/femail/article-15092421/alexander-wang-comeback-nyfw-pr-expert-sexual-assualt-allegations.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102087441-0-image-a-121_1757692873933.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7290,14 +7290,14 @@ Tony Romo's embarrassing gift to ex-girlfriend Jessica Simpson goes viral</stron
           <span class="arrow-small-r"></span>
           <strong>
 The resurgence of Alexander Wang: How designer pulled off successful comeback after sexual assault allegations</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/nfl/article-15093569/brittany-mahomes-charlie-kirk-assassination.html" 
+      <a href="/sport/nfl/article-15093569/brittany-mahomes-charlie-kirk-assassination.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/22/102098279-0-image-a-7_1757711353876.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7306,14 +7306,14 @@ The resurgence of Alexander Wang: How designer pulled off successful comeback af
           <span class="arrow-small-r"></span>
           <strong>
 Brittany Mahomes reacts to Charlie Kirk assassination with cryptic post about 'hate'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/sport/nba/article-15092935/Boy-toy-NBA-star-Jalen-Green-23-caught-video-furious-2am-fight-girlfriend-40-outside-Fashion-Week-party.html" 
+      <a href="/sport/nba/article-15092935/Boy-toy-NBA-star-Jalen-Green-23-caught-video-furious-2am-fight-girlfriend-40-outside-Fashion-Week-party.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/18/102088817-0-image-a-30_1757697276270.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7322,14 +7322,14 @@ Brittany Mahomes reacts to Charlie Kirk assassination with cryptic post about 'h
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Cougar's got claws! Boy toy NBA star Jalen Green, 23, caught on video in furious 2am fight with girlfriend, 40, outside Fashion Week party</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15092557/The-Love-Boat-cast-enjoy-mini-reunion-New-York-City.html" 
+      <a href="/tvshowbiz/article-15092557/The-Love-Boat-cast-enjoy-mini-reunion-New-York-City.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/18/102085091-0-image-m-40_1757697446298.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7338,14 +7338,14 @@ Cougar's got claws! Boy toy NBA star Jalen Green, 23, caught on video in furious
           <span class="arrow-small-r"></span>
           <strong>
 See what The Love Boat cast looks like now as they enjoy a mini-reunion in New York City</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15086419/RHONY-Sonja-Morgan-secrets-youthful-friends.html" 
+      <a href="/tvshowbiz/article-15086419/RHONY-Sonja-Morgan-secrets-youthful-friends.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/11/00/102025015-0-image-m-75_1757546287987.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7354,14 +7354,14 @@ See what The Love Boat cast looks like now as they enjoy a mini-reunion in New Y
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 RHONY star Sonja Morgan, 61, reveals the secrets behind her youthful glow (and it involves her friends!)</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15093293/Charlie-Sheen-daughter-Sami-reveals-memoir-emotional.html" 
+      <a href="/tvshowbiz/article-15093293/Charlie-Sheen-daughter-Sami-reveals-memoir-emotional.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102094655-0-image-a-125_1757701672244.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7370,14 +7370,14 @@ RHONY star Sonja Morgan, 61, reveals the secrets behind her youthful glow (and i
           <span class="arrow-small-r"></span>
           <strong>
 Charlie Sheen's daughter reveals what shocked her most about dad's tell-all as she poses on a beach</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093863/Kristen-Stewart-Zoey-Deutch-Nouvelle-Vague-premiere-Deauville-American-Film-Festival.html" 
+      <a href="/tvshowbiz/article-15093863/Kristen-Stewart-Zoey-Deutch-Nouvelle-Vague-premiere-Deauville-American-Film-Festival.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/13/00/102099851-0-image-a-53_1757720795086.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7386,14 +7386,14 @@ Charlie Sheen's daughter reveals what shocked her most about dad's tell-all as s
           <span class="arrow-small-r"></span>
           <strong>
 Kristen Stewart puts on a leggy display as she joins glamorous pal Zoey Deutch at the Nouvelle Vague premiere during the Deauville American Film Festival</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093149/Jason-Ritter-shares-cute-personal-wife-Melanie-Lynskey.html" 
+      <a href="/tvshowbiz/article-15093149/Jason-Ritter-shares-cute-personal-wife-Melanie-Lynskey.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/20/102095107-0-image-m-44_1757704122605.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7402,14 +7402,14 @@ Kristen Stewart puts on a leggy display as she joins glamorous pal Zoey Deutch a
           <span class="arrow-small-r"></span>
           <strong>
 Jason Ritter shares a cute personal detail about his wife Melanie Lynskey</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/femail/article-15091217/Kate-leaves-stunned-ties-hair-WITHOUT-tie.html" 
+      <a href="/femail/article-15091217/Kate-leaves-stunned-ties-hair-WITHOUT-tie.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/08/102073077-0-image-a-1_1757662338588.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7418,14 +7418,14 @@ Jason Ritter shares a cute personal detail about his wife Melanie Lynskey</stron
           <span class="arrow-small-r"></span>
           <strong>
 How does she do it! Princess Kate leaves everyone stunned as she ties her hair up WITHOUT a tie</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093075/Teen-Mom-vet-Farrah-Abraham-breaks-tears-Charlie-Kirks-death-adding-killer-caused-national-trauma.html" 
+      <a href="/tvshowbiz/article-15093075/Teen-Mom-vet-Farrah-Abraham-breaks-tears-Charlie-Kirks-death-adding-killer-caused-national-trauma.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/18/102090903-0-image-a-102_1757697224758.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7434,14 +7434,14 @@ How does she do it! Princess Kate leaves everyone stunned as she ties her hair u
           <span class="arrow-small-r"></span>
           <strong><span class="is-exclusive">EXCLUSIVE</span>
 Teen Mom vet Farrah Abraham breaks down in tears over Charlie Kirk's death adding killer caused 'national trauma'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/tennis/article-15091131/Brooks-Nader-dated-Carlos-Alcaraz-Jannik-Sinner.html" 
+      <a href="/sport/tennis/article-15091131/Brooks-Nader-dated-Carlos-Alcaraz-Jannik-Sinner.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/14/102080345-0-image-a-1_1757682079834.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7450,14 +7450,14 @@ Teen Mom vet Farrah Abraham breaks down in tears over Charlie Kirk's death addin
           <span class="arrow-small-r"></span>
           <strong>
 Tennis's superstar love triangle: World No 1 and 2 Carlos Alcaraz and Jannik Sinner 'BOTH dating the same swimsuit model Brooks Nader'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15093277/Lily-Collins-crop-Iris-Law-Emily-Ratajkowski-Calvin-Klein-New-York-Fashion-Week.html" 
+      <a href="/tvshowbiz/article-15093277/Lily-Collins-crop-Iris-Law-Emily-Ratajkowski-Calvin-Klein-New-York-Fashion-Week.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102094491-0-image-a-10_1757701336420.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7466,14 +7466,14 @@ Tennis's superstar love triangle: World No 1 and 2 Carlos Alcaraz and Jannik Sin
           <span class="arrow-small-r"></span>
           <strong>
 Lily Collins flashes her taut midriff in a crop top as she joins Iris Law and Emily Ratajkowski at Calvin Klein's New York Fashion Week show</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/sport/nfl/article-15093361/Travis-Kelce-taylor-swift-wedding-invite-andrew-santino.html" 
+      <a href="/sport/nfl/article-15093361/Travis-Kelce-taylor-swift-wedding-invite-andrew-santino.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/19/102094803-0-image-a-8_1757702199855.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7482,14 +7482,14 @@ Lily Collins flashes her taut midriff in a crop top as she joins Iris Law and Em
           <span class="arrow-small-r"></span>
           <strong>
 Travis Kelce's close friend 'doubts' he will get invite to Taylor Swift wedding: 'She's controlling that guest list'</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15092469/Jason-Aldean-shares-heartbreak-Charlie-Kirks-death-breakdown-surviving-deadliest-mass-shooting-U-S-history.html" 
+      <a href="/tvshowbiz/article-15092469/Jason-Aldean-shares-heartbreak-Charlie-Kirks-death-breakdown-surviving-deadliest-mass-shooting-U-S-history.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/15/102083385-0-image-m-9_1757687248039.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7498,14 +7498,14 @@ Travis Kelce's close friend 'doubts' he will get invite to Taylor Swift wedding:
           <span class="arrow-small-r"></span>
           <strong>
 Jason Aldean breaks silence on Charlie Kirk's death with heartbreaking message to widow and kids</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15092837/Unseen-private-footage-Star-Trek-Spock-cigarette.html" 
+      <a href="/tvshowbiz/article-15092837/Unseen-private-footage-Star-Trek-Spock-cigarette.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102088391-0-image-a-4_1757694718684.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7514,14 +7514,14 @@ Jason Aldean breaks silence on Charlie Kirk's death with heartbreaking message t
           <span class="arrow-small-r"></span>
           <strong>
 Spark me up, Scotty! Unseen private footage of Star Trek stars off-camera sees Spock having a cigarette between takes</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15090843/Khloe-Kardashian-ROASTED-liking-post-Charlie-Kirk.html" 
+      <a href="/tvshowbiz/article-15090843/Khloe-Kardashian-ROASTED-liking-post-Charlie-Kirk.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/06/102071207-0-image-a-12_1757653655388.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7530,14 +7530,14 @@ Spark me up, Scotty! Unseen private footage of Star Trek stars off-camera sees S
           <span class="arrow-small-r"></span>
           <strong>
 Khloe Kardashian lambasted by fans for liking Christian tribute to Charlie Kirk</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=" video-led"  >
-      <a href="/tvshowbiz/article-15091117/Margot-Robbie-secret-figure-year-birth.html" 
+      <a href="/tvshowbiz/article-15091117/Margot-Robbie-secret-figure-year-birth.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/10/102074875-0-image-a-15_1757667914647.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7546,14 +7546,14 @@ Khloe Kardashian lambasted by fans for liking Christian tribute to Charlie Kirk<
           <span class="arrow-small-r"></span>
           <strong>
 How to get a body like Barbie: The secret to Margot Robbie's incredible figure as she wows in flesh-flashing ensembles a year after giving birth</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/tvshowbiz/article-15092933/Gwyneth-Paltrow-says-battles-excruciating-pain-death-loved-one-20-years-ago.html" 
+      <a href="/tvshowbiz/article-15092933/Gwyneth-Paltrow-says-battles-excruciating-pain-death-loved-one-20-years-ago.html"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/17/102088333-0-image-m-76_1757694496572.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7562,14 +7562,14 @@ How to get a body like Barbie: The secret to Margot Robbie's incredible figure a
           <span class="arrow-small-r"></span>
           <strong>
 Gwyneth Paltrow says she still battles 'excruciating' pain from the death of a loved one over 20 years ago</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 <li  class=""  >
-      <a href="/femail/article-15092327/snl-chloe-fineman-season-51-cast-shakeup.html" class="bottom" 
+      <a href="/femail/article-15092327/snl-chloe-fineman-season-51-cast-shakeup.html" class="bottom"
 >
 
 <img src="https://i.dailymail.co.uk/1s/2025/09/12/14/102081773-0-image-a-6_1757684416783.jpg" height="115" width="154" alt="" loading="lazy" />
@@ -7578,14 +7578,14 @@ Gwyneth Paltrow says she still battles 'excruciating' pain from the death of a l
           <span class="arrow-small-r"></span>
           <strong>
 SNL star Chloe Fineman admits shock as she breaks silence on the dramatic season 51 cast shakeup</strong>
-          
+
           <br>
         </span>
       </a>
     </li>
 
 </ul>
-  
+
 </div>
 
 </div>
@@ -7612,49 +7612,49 @@ SNL star Chloe Fineman admits shock as she breaks silence on the dramatic season
           <li>
             <a href="/femail/article-15099335/Ricky-Hatton-family-rift-missing-millions-boxer-decade-long-estrangement-parents-hitting-rock-bottom.html" class="bold">
               <span class="arrow-small-r"> </span>
-              
+
               Ricky Hatton's family rift over 'missing millions': Boxer's decade-long estrangement from his parents left him at 'rock bottom'
             </a>
           </li>
           <li>
             <a href="/femail/article-15099399/Jenna-Ortegas-style-evolution-Wednesday-star-embraced-haute-couture-Emmys-transformed-child-actor-red-carpet-siren.html" class="">
               <span class="arrow-small-r"> </span>
-              
+
               Jenna Ortega's Hollywood makeover! Wednesday star embraces daring 'naked dress' trend at the Emmys in latest bold move - as she ditches her gothic attire
             </a>
           </li>
           <li>
             <a href="/femail/article-15084991/Pret-customer-loyalty-Coffee-chain-meal-deal-offer-business.html" class="bold">
               <span class="arrow-small-r"> </span>
-              
+
               Where did it all go wrong for Pret? Coffee chain disappoints customer base after scrapping loyalty scheme - but could all be saved by meal deal offer
             </a>
           </li>
           <li>
             <a href="/femail/article-15089225/Kates-grey-suit-look-bit-staid-says-LAURA-CRAIK-you-missed-sends-clear-message-Harry-Meghan-Dukes-reunion-King.html" class="">
               <span class="arrow-small-r"> </span>
-              
+
               Kate's grey suit may look a bit staid, says LAURA CRAIK, but the detail you might have missed sends a clear message to Harry and Meghan after Duke's reunion with the King
             </a>
           </li>
           <li>
             <a href="/femail/article-15080271/Waitrose-Marks-Spencers-2025-Christmas.html" class="bold">
               <span class="arrow-small-r"> </span>
-              
+
               Waitrose and Marks and Spencer's reveal their 2025 Christmas offerings including mulled ros&eacute;, a Turkey Bauble and a Cauliflower Cheese Galette
             </a>
           </li>
           <li>
             <a href="/femail/article-15083641/royal-photographer-favourite-photo-prince-william-george-charlotte-louis-wales.html" class="">
               <span class="arrow-small-r"> </span>
-              
+
               Prince William and Kate's trusted photographer reveals his favourite photo he's ever captured of the Wales family - and shares sweet insight into their relationship
             </a>
           </li>
           <li>
             <a href="/femail/article-15087573/kirstie-allsopp-left-tears-location-location-location.html" class="bold">
               <span class="arrow-small-r"> </span>
-              
+
               Kirstie Allsopp is left in tears over couple's quest to buy 'gorgeous' &pound;280,000 home on Location Location Location
             </a>
           </li>
@@ -7743,7 +7743,7 @@ Char:  </b>
 </div>
 
 <script type="text/javascript">
-  // 
+  //
   window.articleShortUrl = "https://mol.im/a/7457163";
 
 DM.molFeComponents.setConfig('molFeSocialShareOverlay', {
@@ -7905,9 +7905,9 @@ DM.molFeComponents.setConfig('molFeSocialShareOverlay/recommendations', {
 <div class="page-footer"
      data-track-module="nav-page_footer^page_footer" data-track-pos="static">
   <a href="/home/sitemap.html" >Sitemap</a>
-  
-  
-  
+
+
+
   <a href="/home/sitemaparchive/index.html" >Archive</a>
   <a href="/home/videoarchive/index.html" >Video Archive</a>
   <a href="/authors">Authors</a>

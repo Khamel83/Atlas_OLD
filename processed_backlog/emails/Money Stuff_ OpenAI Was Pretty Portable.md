@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.No kidding: After Sam Altman was fired from OpenAI late last month, the s
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       OpenAI bluff
-    
-  
+
+
 
 No kidding:
 
@@ -78,37 +78,37 @@ I am not sure that that was an entirely realistic thing to think. Like:
 
 But I do think it was correct as a diagnosis of the limits of the board’s power: The company consists essentially of its employees, and if they are loyal to Altman then they can cut the board out of things. And anyway it was realistic enough to work as a bluff.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SpaceX tender
-    
-  
+
+
 
 One small problem with that bluff was that, before the   Sam Altman drama, OpenAI’s employees were about to be able to sell some of their shares of OpenAI stock at an   $86 billion valuation. Presumably if they all left for Microsoft, (1) they might forfeit their stock? and (2) the stock would be worthless anyway, so the tender would be off. They had powerful reasons of self-interest to stay and make the best of things. Though maybe Microsoft would have made them whole? In some sense, if all of OpenAI’s employees left to run OpenAI-in-Exile at Microsoft, that would be like Microsoft  acquiring OpenAI for free; the least it could do would be give the employees some shares. But then Altman came back, everything is fine, the tender is apparently still going ahead, the employees get paid.
 It is striking that there are startups with (1) valuations in the tens of billions of dollars, (2) employees who have owned stock for a while and would like to be cashed out, and (3) investors clamoring to buy that stock from them.
@@ -125,11 +125,11 @@ Nike’s stock trades about $800 million per day, while SpaceX apparently does r
   [2]
  So, less liquid than public markets. But still billions of dollars a year of liquidity for employees and early investors to cash out. I assume SpaceX will eventually go public, and it is “discussing an initial public offering for [its satellite internet business] Starlink as soon as late 2024”, though Elon Musk seems to genuinely dislike public markets. But you could imagine a world in which people work their whole careers at SpaceX or OpenAI, they accumulate lots of stock-based compensation, they cash out periodically by selling to secondary investors, they retire and cash out what’s left, and this all goes on indefinitely without the companies ever going public. The financial technology is there to do that.
 
-  
-    
+
+
       Banks and aging
-    
-  
+
+
 
 A very simple model of banks could be:
 	When you are young, you live beyond your means, and borrow money to pay for college and buy your first house and start a business and put Taylor Swift tickets on your credit card.	When you are old, you have made plenty of money and live below your means, keeping your extra money in the bank.
@@ -147,11 +147,11 @@ What are the implications of an aging population for financial stability? To exa
 Two points here. One is that the US model of having thousands of small banks might exacerbate this problem. If you are the small bank of a single town, and the town gets older, you really do have to bring your bag of money into the big city to make risky loans. If you are a large bank with a national footprint, you can take deposits in the old areas and make loans in the young ones, while knowing both of them well. It is possible that having thousands of small banks is good for local knowledge but bad for this essential matching function of banks; some of those small banks will have only depositors or only borrowers.
 The other is that, when Silicon Valley Bank collapsed this year,  we talked about a similar dynamic. My view of SVB’s problem is that its customers were mainly, not old people or young people, but startups. And in the recent venture capital boom, startups, somewhat counterintuitively, were like the old people in this model: They all had tons of money, so they wanted SVB for its deposit services but not for its loans. (This is not because they were mature and made plenty of money, but because their money needs were supplied by venture capital, not bank loans.) And so SVB was in the same situation as a small-town bank in an aging town: It had tons of deposits and no good places to make loans, so it took on too much risk on the asset side of its balance sheet. In SVB’s case it did that by getting long too much duration in government bonds, instead of by making risky loans, but it’s a related problem. Banks seem to do better when they can match borrowers and savers; when they only have one or the other they run into trouble.
 
-  
-    
+
+
       The printer
-    
-  
+
+
 
 I was a young mergers-and-acquisitions lawyer at the tail end of the era of the financial printer. In the olden days, the way that securities offerings (bond deals, initial public offerings, etc.) and public-company mergers worked is that the bankers and lawyers would write a securities document (the prospectus for an offering, the proxy statement for a merger) and negotiate it back and forth, and then when it was close to being done they would all go to the offices of a financial printer — a company like Donnelley Financial Solutions Inc.
   [5]
@@ -170,11 +170,11 @@ Much as IPOs have evolved from pure capital raises to marketing extravaganzas, t
 
 In the old days the printer provided a place for lawyers to haggle over commas; now it provides glossy photo spreads for startup founders.
 
-  
-    
+
+
       Foresight
-    
-  
+
+
 
 I read a lot of cases against people accused of doing financial crimes, and prosecutors always love to point out what the criminals spent their ill-gotten money on. There is generally a large gambling component (on options trades, crypto or sports betting); often people who steal money in one part of their lives do so because they are blowing money on bad trades in another part of their lives. And there are some typical luxury things: cars, kitchen remodels, whole houses, vacations, yachts or jets (for the really big crimes), watches, etc. So, I mean,  standard:
 A former Jacksonville Jaguars employee is accused of stealing more than $22 million from the franchise from 2019 to 2023 by exploiting the organization’s virtual credit card program, and he used that money to buy, among other items, two vehicles, a condominium and a designer watch worth over $95,000. Some of that money was also allegedly used to purchase cryptocurrency and place bets with online gambling sites. 
@@ -187,15 +187,15 @@ Also what do you tell the lawyers when you hire them? “Hello, I am a fine up
   [6]
  Awkward situation for them.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Jamie Dimon’s $4 Trillion Machine. Salesforce Signals the Golden Age of   Cushy Tech Jobs Is Over. Are the U.S. Securities Laws Really an Impediment to a  Bank Bail-In? Carson Block Shorts Blackstone Publicly Traded   Mortgage REIT.  Commercial property confronts the ‘comedown’ from easy money. How Wall Street’s Biggest  Forest-Carbon Wager Is Starting to Pay Off. Wall Street Puts a ‘Sell’ on Its  China Holdings. Moody’s Faces  Growing Backlash Over Its Negative Outlook on China. Moody’s advised staff to work from home ahead of  China outlook cut. Robinhood Launches   Commission-Free Crypto Trading App in Europe. How the Biggest Boutique Fitness Company Turned Suburban Moms Into   Bankrupt Franchisees. Two Hours of Meetings a Day Is   More Than Enough for Most Workers. Dimon Says He Would   Shut Down Crypto If He Had Government Role.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I mean, in a normal company, if you sign an open letter threatening to quit, management might reasonably decide to fire you even if you change your mind. But since virtually all of OpenAI’s employees (and managers!) signed the letter, and artificial intelligence researchers are in high demand, that would not have been a realistic option for OpenAI.
 
 
@@ -214,48 +214,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] A realistic possibility is "hello, I was just interviewed by the FBI and worry I'm going to be arrested any minute now, can I hire you?" Less funny than the other ones.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -266,46 +266,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck0jj5.63g1/84e321c9.gif" alt="" border="0" /></a>

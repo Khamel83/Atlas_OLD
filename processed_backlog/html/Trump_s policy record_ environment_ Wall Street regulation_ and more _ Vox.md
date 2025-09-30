@@ -153,7 +153,7 @@ The difference is that from day one Trump has enjoyed a GOP Senate majority and 
 
 But the extent to which judicial nominations loom large in Trump’s policy résumé underscores how thin it is. The Senate has had ample floor time to consider his nominees because members simply haven’t done much legislating. That’s left Trump with executive actions that have certainly been consequential in spots — especially in his key areas of rhetorical focus around energy and immigration — but still a considerably smaller impact than his recent predecessors who all signed several major pieces of legislation.
 
-See More: 
+See More:
 
 * [Explainers](/web/20241130220432/https://www.vox.com/explainers)
 * [Politics](/web/20241130220432/https://www.vox.com/politics)

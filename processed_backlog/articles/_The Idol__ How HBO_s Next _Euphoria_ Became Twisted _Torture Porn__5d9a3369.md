@@ -126,7 +126,7 @@ In April, the show went into hiatus, and sources believed the break was to regro
 
 ![](https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/lazyload-fallback.gif)
 
-Lily-Rose Depp and Abel “The Weeknd” Tesfaye in ‘The Idol.’ 
+Lily-Rose Depp and Abel “The Weeknd” Tesfaye in ‘The Idol.’
 HBO
 
 [Levinson then upped the cast’s star power even more throughout filming](https://www.hollywoodreporter.com/tv/tv-news/the-idol-trailer-ensemble-cast-1235203017/), with the additions of *Bodies Bodies Bodies* breakout Rachel Sennott, Dan Levy, Hank Azaria, Moses Sumney, and megaproducer Mike Dean. Casting [K-pop superstar Jennie of Blackpink](https://deadline.com/2022/07/blackpinks-jennie-the-weeknds-the-idol-hbo-series-lily-rose-depp-1235073029/) was the biggest get for Levinson. Under the show’s hashtag and teaser trailers, her stans steamrolled comment sections to cheer on the singer in her first acting role. But crew members claim Jennie has barely any air time and an inconsequential story arc. “It was like three or four lines per episode for her,” a production source says. “They didn’t let her talk that much. Her job was to sit there [and] look pretty, basically.”

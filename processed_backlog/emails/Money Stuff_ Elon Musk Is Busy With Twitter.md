@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I don’t know if you noticed, but I have spent much of the last six months writing about how Elon Musk, the world’s richest person, doesn’t r
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 I don’t know if you noticed, but I have spent   much of the   last six   months writing   about how Elon Musk, the world’s richest person, doesn’t really care about his contractual obligations. Musk signed a binding merger agreement to buy Twitter Inc. for $54.20 per share, and then decided he didn’t want to do that anymore, so he sent Twitter a letter saying that the deal was off. Twitter said, no, we have a contract, you can’t just change your mind. Twitter sued, and Musk fought bitterly in court for a while. But Twitter was entirely right and he was entirely wrong: They had a binding contract, he had no good arguments for getting out of it, and courts tend to think that contracts matter even if Elon Musk does not. Eventually he gave up: He didn’t lose in court, and he didn’t settle for some compromise; he just abandoned the fight and bought Twitter for $54.20 per share, as he had originally agreed. The deal  closed last Thursday.
 And then Elon Musk showed up for his first day of work as Twitter’s chief executive officer — technically its   Chief Twit — and said “hey, do you have any other contracts I could violate?” The  New York Times reports:
@@ -98,63 +98,63 @@ Let’s say Musk is entirely right that “Twitter has been mismanaged and that 
 The basic problem with Musk’s efforts to walk away from his deal to buy Twitter — beyond the transparent nonsense of his actual arguments — was that if he could walk away from this deal then no merger agreement would be binding; every buyer could change their mind and go to court and say “meh, contracts, they don’t matter.” That did not work out for him; the system held.
 The basic problem with Musk’s efforts to walk away from these severance agreements — beyond the lack of actual arguments — is that if he can stiff these executives then no golden parachute is binding. The point of a golden parachute is that a CEO with a golden parachute will sell his company to a buyer whom he doesn’t like, if that’s what is best for shareholders. If the buyer can stiff the CEO on the parachute payments because they don’t like each other, then no buyer will ever pay severance, and no CEO will ever trust it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Some more Oh Elon
-    
-  
+
+
 
 He’s got a tight schedule for   firing everybody else:
 
@@ -199,20 +199,20 @@ Well, no, technically he is not using “resources from a public company to bene
   [6]
  It’s like sending Tesla engineers over to clean his swimming pool. Corporate governance experts  would indeed have some questions but, you know, get in line, corporate governance experts.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Still elsewhere
-    
-  
+
+
 
 It does seem like it would be my job to alert you to two different poems about Elon Musk buying Twitter. From “Elon Musk Has Purchased Twitter” by Scott Alexander:
 The Internet feels new again, the decades drop awayYou can say the Jews have lasers, or the frogs are turning gayOr that Hitler's in a fortress under San Francisco BayElon Musk has purchased Twitter! Now there's nothing you can't say!
@@ -229,11 +229,11 @@ Spam or fake accounts have been a sore spot for Twitter — one of the reasons M
 
 And finally here is “A brief history of Elon Musk sabotaging Matt Levine’s time off.” In Book XIV of the Tweetiad, a humble newsletter writer comes to Musk’s encampment and kneels before him, beseeching him to stop doing weird stuff every weekend and holiday, so that the newsletter writer may tend to his herds on the foothills of Mount Trollympus. And Elon Musk looks down upon the newsletter writer and says “lol no” and runs him through with a spear.
 
-  
-    
+
+
       Meta
-    
-  
+
+
 
 A funny story that you could tell about Meta Platforms Inc., née Facebook Inc., would be:
 	Mark Zuckerberg started Facebook because he thought having an online college facebook would be fun.	Zuckerberg took Facebook public while keeping total control of the company for himself. “Facebook was not originally created to be a company,”  he wrote, in a famous letter to shareholders in the initial public offering. “It was built to accomplish a social mission — to make the world more open and connected.” The subtext of this letter — and of Zuckerberg retaining control of the company with his high-voting shares of stock — was “don’t bother me about making money, I’m just going to make Facebook run the way I want it to, and maybe in the long run that will work out but it’s not my problem.”	People who bought stock in the IPO were taking a big risk, giving money to Zuckerberg to use as he saw fit, without much promise that he’d make them any money.	Then Zuckerberg made absolute oceans of money for those investors, amply justifying their trust.	Then Zuckerberg was like “you know what, never mind, forget this Facebook stuff, we’re gonna do a metaverse.”	The investors were like “wait a minute this is a terrible idea.”	Zuckerberg glared at them and tapped the shareholder letter again.
@@ -248,11 +248,11 @@ Meta’s shares tumbled 25 per cent on Thursday after the company revealed that 
 
 He heard crystal clear what investors wanted, and he absolutely does not care, and he set up the whole company around not caring about what investors wanted, and that worked out very well for investors! Until, maybe, it didn’t.
 
-  
-    
+
+
       People are worried about bond market liquidity
-    
-  
+
+
 
 Back before this was an all-Elon-Musk newsletter, it was a mostly-people-are-worried-about-bond-market-liquidity newsletter, and that one is  coming back into fashion:
 
@@ -267,15 +267,15 @@ Trading Treasurys remains far more frictionless than trading corporate bonds or 
 “Internally, when I complain about liquidity, our corporates guys are quick to tell me to stop whining,” said Mr. Lorizio.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse   Hires About 20 Banks for $4 Billion Capital Raise.   Trump SPAC’s Zealous Investors Are Both Blessing and Curse. Top China Envoy Lashes Out at US   Export Curbs in Blinken Call. Tesla held discussions over taking  stake in Glencore. Blackstone, Emerson Electric Strike $14 Billion  Buyout Deal. JPMorgan, Macy’s and Other Companies  Reveal What They Pay Workers as Deadline Looms. Crypto Lender   Hodlnaut Lost Nearly $190 Million in TerraUSD Drop.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Here is former CEO  Parag Agrawal’s contract; here is former chief financial officer  Ned Segal’s; etc. The contracts generally reference Twitter’s change of control policy, which does not appear to be publicly filed in its current form. But here is Twitter’s original  change of control policy from when it went public, and here is a  description (from 2015) of how it was amended in 2014 (see pages 23 and 37), and the definition of “cause” appears to be essentially unchanged. I have quoted the 2015 summary’s definition.
 
 
@@ -297,114 +297,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Actually $19.99, which is even funnier.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.A week ago, in an item about Celsius Network, I wrote that “everyone who 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.A week ago, in an item about Celsius Network, I wrote that “everyone who
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Celsius
-    
-  
+
+
 
 A week ago, in an item about Celsius Network, I wrote that “everyone who has paid attention to crypto over the past few years has their own personal top-10 list of ‘why aren’t those people in jail?’ projects.” I guess I can cross a name off my list:
 
@@ -124,7 +124,7 @@ Also, though, Celsius was allegedly manipulating the price of its CEL token by s
 And so there is sort of a dumb trade
   [2]
 :
-	Celsius can sell 1 million tokens OTC for, say, $1 each.	It can use the $1 million to buy back slightly fewer than 1 million tokens on the public markets, driving the price up to, say, $1.05.	
+	Celsius can sell 1 million tokens OTC for, say, $1 each.	It can use the $1 million to buy back slightly fewer than 1 million tokens on the public markets, driving the price up to, say, $1.05.
 This is bad, for Celsius, as a matter of corporate finance: It issues more tokens than it buys back; it sells low to buy high.	But — because Celsius’s purchases reduce the public supply and drive the price up, while its OTC sales do not immediately increase the public trading supply or drive the price down — it has the effect of manipulating the price of CEL up.	Because Celsius’s treasury consists largely of CEL tokens (which Celsius just made up), driving up the price of CEL has the effect of making Celsius look bigger and more creditworthy and giving it more financial flexibility: Driving up the price of an asset that you control makes you richer.	Also, the next time you sell 1 million tokens OTC, you can sell them at the new market price of $1.05.
 
 Or here is how Celsius described its manipulation plan in a memo, according to the SEC:
@@ -151,37 +151,37 @@ But it doesn’t matter here! Maybe it’s just commodities fraud, but the CFTC 
   [6]
  But somebody is going to get Celsius.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Rally
-    
-  
+
+
 
 The US Securities and Exchange Commission is   cracking down on crypto, and   the theory of the crackdown is:
 	Almost every cryptocurrency is a “security,” under US law, meaning for our purposes roughly that almost every crypto token  is a “scheme whereby a person invests his money in a common enterprise and is led to expect profits solely from the efforts of the promoter”: Teams promote crypto projects, and people invest in those projects hoping that the teams’ efforts will work out, etc.	Every crypto exchange that lists those tokens is a “securities exchange,” and if it is not registered with the SEC as a national securities exchange (and it isn’t) then it is breaking the law.
@@ -194,11 +194,11 @@ The SEC’s order finds that, between July 1, 2018, and November 20, 2021, RSE o
 
 “If a crypto token is a security then a share of a watch is a security,” might be one objection to the SEC’s crackdown, and the SEC’s answer is “oh sure, a share of a watch is absolutely a security, and we sued the watch-share exchange and won.” Well, settled. Rally agreed to pay a $350,000 fine, which is a very small fine in the scheme of things, but a very valuable precedent for the SEC.
 
-  
-    
+
+
       Insider gambling
-    
-  
+
+
 
 Here's a college baseball  gambling scandal:
 
@@ -215,15 +215,15 @@ Incredible stuff. Why would he think that the sportsbook would let him go over t
 	If you are using an encrypted messaging app like Signal to hide your communications, but you show everyone the messages on your phone, they are not secret anymore.	If you have never made any big options trades before, and then you go to your broker and put in an order to buy 10,000 short-dated out-of-the-money call options on a stock you’ve never traded, and your broker calls you up and says “hey buddy, you’ve never done a trade like this before, I’m not sure I’m comfortable with this,” a bad reply would be “no, it’s fine, I have inside information, this company is a merger target, I can’t lose.” 
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Wall Street Results Expected to Take a Hit From Cost Pressures, Rate Struggle. US  junk bond market shrinks as rising rates put off borrowers. Exxon Buys Pipeline Operator, Making Big  Bet on Carbon. Illumina Fined More Than $400 Million in Europe for  Closing Grail Deal Early. Second   Frank Executive Charged in JPMorgan Fraud.   Epstein-Staley Emails Reveal Friendship Forged at JPMorgan. Ultra-Rich Are Betting the Next Big American Sport Is   Cricket.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or here is how the Justice Department indictment puts it: “On or about June 91 2021, RONI COHEN-PAVON [Celsius’s former Chief Revenue Officer, also indicted with Mashinsky] stated that the 80 percent return claim was a ‘marketing statement’ and that Celsius’s customers have ‘zero exposure’ to any vagaries in the amount of yield Celsius could generate. In the same conversation, MASHlNSKY said that Celsius ‘pays out of our balance sheet if we cannot create yield’ and characterized the rewards rates as a ‘balance sheet liability to all these retail lenders,’ rather than as a percentage of revenue, as he publicly claimed. MASH1NSKY further admitted that for ‘most of’ 2019, Celsius had ‘paid more than 100 percent,’ calling it an example of ‘where we tried to build our community and effectively take the loss.’”
 
 
@@ -245,48 +245,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] A plausible answer: Random weirdos who come up to the sportsbook wanting to make a big bet and claiming to have inside information probably don't. But he did!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -297,46 +297,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj3feu.5kxl/4442a6f8.gif" alt="" border="0" /></a>

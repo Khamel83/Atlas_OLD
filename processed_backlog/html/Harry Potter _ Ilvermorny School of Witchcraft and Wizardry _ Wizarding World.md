@@ -17,8 +17,8 @@
 
 By J.K. Rowling
 
-Originally published on   
-![pottermore logo](/assets/_next/static/images/pottermore-146-f34a3533288963bbe803c3e83ea921f8.png)  
+Originally published on
+![pottermore logo](/assets/_next/static/images/pottermore-146-f34a3533288963bbe803c3e83ea921f8.png)
  on Jun 28th 2016
 
 TheThe great North American school of magic was founded in the seventeenth century. It stands at the highest peak of Mount Greylock, where it is concealed from non-magic gaze by a variety of powerful enchantments, which sometimes manifest in a wreath of misty cloud.

@@ -320,7 +320,7 @@
           Join now
         </a><p>.
       </p></div>
-</div><p><i>Bob Henderson studied physics, worked on Wall Street, and is now an independent writer focused on science and finance.</i></p><p><i><br></i></p><p><i></i><a href="https://nautil.us/a-real_life-trader-talks-about-the-big-short-4100/" rel="noopener" target="_blank">Read Bob Henderson’s thoughts on the newly released film about the 2008 crisis, The Big Short.</a><i></i></p> 
+</div><p><i>Bob Henderson studied physics, worked on Wall Street, and is now an independent writer focused on science and finance.</i></p><p><i><br></i></p><p><i></i><a href="https://nautil.us/a-real_life-trader-talks-about-the-big-short-4100/" rel="noopener" target="_blank">Read Bob Henderson’s thoughts on the newly released film about the 2008 crisis, The Big Short.</a><i></i></p>
 <p class="pgs-dpg-flex" data-pgs-partner-id="fragment-media"></p>
 </div>
 </div></body></html>

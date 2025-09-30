@@ -126,11 +126,11 @@ class PodcastIngestor(BaseIngestor):
         try:
             # Check if we should download audio based on space management settings
             download_audio = should_download_audio(title, self.config)
-            
+
             if download_audio:
                 # Check disk space before downloading
                 check_disk_space_before_download()
-                
+
                 if not os.path.exists(audio_path):
                     log_info(self.log_path, f"Downloading: {title}")
                     with requests.get(audio_url, stream=True, timeout=30) as r:
@@ -309,21 +309,21 @@ def ingest_podcasts(config: dict, opml_path: str = "inputs/podcasts.opml"):
 def process_podcast(url: str, config: Dict[str, Any] = None) -> Dict[str, Any]:
     """
     Process individual podcast URL - Core function for Block 1 validation.
-    
+
     Args:
         url: Podcast RSS feed URL or episode URL
         config: Configuration dictionary
-        
+
     Returns:
         Dict with processing result
     """
     try:
         config = config or {}
         ingestor = PodcastIngestor(config)
-        
+
         # Process podcast feed
         success = ingestor.process_feed(url)
-        
+
         if success:
             return {
                 'success': True,
@@ -336,7 +336,7 @@ def process_podcast(url: str, config: Dict[str, Any] = None) -> Dict[str, Any]:
                 'url': url,
                 'error': 'Podcast processing failed'
             }
-            
+
     except Exception as e:
         return {
             'success': False,

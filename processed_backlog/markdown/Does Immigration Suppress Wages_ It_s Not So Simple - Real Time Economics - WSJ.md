@@ -12,7 +12,7 @@
 
 # wsj.com
 
-Unknown author • June 01, 2015 
+Unknown author • June 01, 2015
 
 ![wsj.com]()
 

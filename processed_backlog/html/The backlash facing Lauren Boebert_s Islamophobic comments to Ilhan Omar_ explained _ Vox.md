@@ -116,7 +116,7 @@ Tlaib echoed this point this week, emphasizing the effect Congress’s actions i
 
 Lawmakers would be making a mistake if they weigh nullifying the political benefits Boebert could extract from any punishment more heavily than making a decisive statement against Islamophobia.
 
-See More: 
+See More:
 
 * [Congress](/web/20250102125756/https://www.vox.com/congress)
 * [Politics](/web/20250102125756/https://www.vox.com/politics)

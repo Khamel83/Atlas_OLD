@@ -22,7 +22,7 @@
 <link href="http://web.archive.org/web/20170719143421cs_/https://assets.bwbx.io/gadfly/public/assets/article-d3e29d26280585b7c3a148ff2ff62d2d.css" media="screen, projection, print" rel="stylesheet" type="text/css" charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20170719143421cs_/https://www.bbthat.com/assets/v1.4.0/that.css">
         <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20170719143421cs_/https://assets.bwbx.io/font-service/css/Bloomberg,BWHaasText-55Roman,BWHaasHead-75Bold,BWHaasHead-95Black,AvenirNext-Demi/font-face.css"><link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20170719143421cs_/https://nav.bloomberg.com/public/stylesheets/bb-global-nav-2ef48c788e.css">
-        
+
   <meta charset="utf-8"/>
   <link rel="dns-prefetch" href="http://web.archive.org/web/20170719143421/https://assets.bwbx.io/"/>
   <link rel="dns-prefetch" href="http://web.archive.org/web/20170719143421/https://nav.bloomberg.com/"/>
@@ -42,7 +42,7 @@
     <link rel="canonical" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza"/>
     <link rel="amphtml" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/amp/articles/2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza"/>
     <link rel="alternate" type="application/atom+xml" title="Bloomberg Gadfly" href="http://web.archive.org/web/20170719143421/https://feeds.bloomberg.com/gadfly/news.rss"/>
-    
+
     <script type="application/ld+json">
       {"@context":"http://web.archive.org/web/20170719143421/http://schema.org","@type":"NewsArticle","url":"http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza","mainEntityOfPage":"http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza","articleSection":"Finance","datePublished":"2017-04-13T19:22:47.103Z","dateCreated":"2017-04-13T19:22:47.103Z","dateModified":"2017-04-13T19:22:47.094Z","description":"Heavy demand props up costs while everyone else has to cut.","headline":"Private Equity's Gravity-Defying Fee Bonanza","keywords":["Private Equity","Hedge Funds","Investing","Venture Capital","Money","Mutual Funds","Fund Management","Interest Rates"],"publisher":{"@type":"Organization","name":"Bloomberg Gadfly","logo":{"@type":"ImageObject","url":"http://web.archive.org/web/20170719143421/https://assets.bwbx.io/gadfly/public/assets/b4b6845618603009a0c2fb43089f5b72.png","width":600,"height":60}},"creator":{"@type":"Person","name":"Lisa Abramowicz"},"author":{"@type":"Person","name":"Lisa Abramowicz"},"image":{"@type":"ImageObject","url":"http://web.archive.org/web/20170719143421/https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8cjbQFH0cjw/v0/piyWkzgztToFE/-1x-1.jpg","width":3495,"height":1241},"thumbnailUrl":"http://web.archive.org/web/20170719143421/https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8cjbQFH0cjw/v0/piyWkzgztToFE/-1x-1.jpg"}
     </script>
@@ -64,8 +64,8 @@
     <meta property="fb:status" content="What goes up must come down."/>
     <meta property="article:published_time" content="2017-04-13T19:22:47.103Z"/>
     <meta property="article:tag" content="Private Equity"/><meta property="article:tag" content="Hedge Funds"/><meta property="article:tag" content="Investing"/><meta property="article:tag" content="Venture Capital"/><meta property="article:tag" content="Money"/><meta property="article:tag" content="Mutual Funds"/><meta property="article:tag" content="Fund Management"/><meta property="article:tag" content="Interest Rates"/>
-    
-    
+
+
     <meta name="author" content="Lisa Abramowicz"/>
     <meta name="date" content="2017-04-13T19:22:47.103Z"/>
     <meta name="keywords" content="Private Equity,Hedge Funds,Investing,Venture Capital,Money,Mutual Funds,Fund Management,Interest Rates"/>
@@ -73,8 +73,8 @@
       var dataLayer = dataLayer || [];
       dataLayer.push({"adcode":"bloomberg/opinion/gadfly","brand":"gadfly","parselySite":"bloomberggadfly.com","personalizationSite":"gadfly","refresh":"false","attributor":"gadfly","contentType":"content-article","legacy_bb_c_type":"article","legacy_bb_section":"gadfly","pageType":"content","scrollTrackingBottom":".news-disclaimer-text","scrollTrackingEnabled":"true","scrollTrackingTop":"#article-body","slug":"2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza","template":"gadfly-article-html","transporter":"false","vertical":"gadfly","author":"Lisa Abramowicz","publishedAt":"2017-04-13T19:22:47.103Z","storyId":"OOD4HZ6KLVR401","topic":"Finance","legacy_bb_topic_opinion":"Finance","legacy_bb_category":"gadfly","legacy_bb_topic1":"Private Equity","legacy_bb_topic2":"Hedge Funds,Investing,Venture Capital,Money,Mutual Funds,Fund Management,Interest Rates","headline":"Private Equity's Gravity-Defying Fee Bonanza","title":"Private Equity's Gravity-Defying Fee Bonanza - Bloomberg Gadfly"});
     </script>
-  
-        
+
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -87,7 +87,7 @@
         <script>var bbads = [];</script>
       </head>
       <body>
-        
+
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe src="http://web.archive.org/web/20170719143421if_/https://www.googletagmanager.com/ns.html?id=GTM-MNTH5N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -95,16 +95,16 @@
         <style>
 @font-face {
     font-family: 'AvenirNextPForBBG-Regular';
-    
-    
+
+
     src: url('http://web.archive.org/web/20170719143421im_/https://assets.bwbx.io/font-service/fonts/AvenirNextPForBBG-Regular-09359fef74.woff2') format('woff2'),
          url('http://web.archive.org/web/20170719143421im_/https://assets.bwbx.io/font-service/fonts/AvenirNextPForBBG-Regular-91967b382a.woff') format('woff');
 }
 
 @font-face {
     font-family: 'AvenirNextPForBBG-Demi';
-    
-    
+
+
     src: url('http://web.archive.org/web/20170719143421im_/https://assets.bwbx.io/font-service/fonts/AvenirNextPForBBG-Demi-62597c630e.woff2') format('woff2'),
          url('http://web.archive.org/web/20170719143421im_/https://assets.bwbx.io/font-service/fonts/AvenirNextPForBBG-Demi-d7e488b711.woff') format('woff');
 }
@@ -184,10 +184,10 @@
 <div class="container_3dSYd">
       <div class="bb-nav-root"> <nav is="bb-nav" class="bb-nav" id="bb-nav" data-nav-version="1.37.0" data-theme="gadfly" data-mode="content" data-reg-env="production" data-progress="0" data-headline="" data-base="https://nav.bloomberg.com" data-tracker-category="nav" data-tracker-events="click" data-tracker-label="header" data-site="global" data-persist-for="none"> <div class="bb-nav__container"> <div class="bb-nav__content"> <h1 class="bb-nav-logo" is="bb-nav-logo"> <div class="bb-nav-logo__rubix" data-tracker-label="bomb.open.rubix_button" data-tracker-action="click"></div> <div class="bb-nav-logo__menu" data-tracker-label="bomb.open.menu_button" data-tracker-action="click"> <div class="bb-nav-logo__menu-link">MENU</div> </div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/" class="bb-nav-logo__link" data-tracker-label="logo" data-tracker-action="click"></a> <div class="bb-nav-logo__arrow"></div> </h1><div class="bb-nav-content-logo" is="bb-nav-content-logo"> <h1 class="bb-nav-content-logo__headline" data-tracker-label="content"> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/" class="bb-nav-content-logo__site" data-tracker-label="logo" data-tracker-action="click"></a> </h1> <div class="bb-nav-content-logo__down-arrow" data-tracker-label="expand" data-tracker-action="click"></div> </div><h2 class="bb-nav-headline"></h2><bb-experience-select class="bb-nav-experience-select"></bb-experience-select><div class="bb-nav-categories"> <ul class="bb-nav-categories__container"> <li class="bb-nav-categories__category bb-nav-categories__about has-submenu"> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/company/" data-tracker-label="about_the_company" data-tracker-action="click"> About The Company </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/company/london" data-tracker-label="bloomberg_london" data-tracker-action="click"> Bloomberg London </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li> <li class="bb-nav-categories__home"> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/" class="bb-nav-categories__home-link"> Homepage </a> </li> <li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="markets" data-vertical="markets"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/markets" class="bb-nav-categories__link" data-category-path="/markets" data-category-vertical="markets" target="_self" data-tracker-action="click">Markets</a> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_stocks" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/stocks" data-tracker-label="stocks" data-tracker-action="click"> Stocks </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_currencies" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/currencies" data-tracker-label="currencies" data-tracker-action="click"> Currencies </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_commodities" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/commodities" data-tracker-label="commodities" data-tracker-action="click"> Commodities </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_rates_bonds" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/rates-bonds" data-tracker-label="rates_plus_bonds" data-tracker-action="click"> Rates + Bonds </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_economics" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/economics" data-tracker-label="economics" data-tracker-action="click"> Economics </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_magazine" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/markets-magazine" data-tracker-label="magazine" data-tracker-action="click"> Magazine </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_benchmark" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/benchmark" data-tracker-label="benchmark" data-tracker-action="click"> Benchmark </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_watchlist" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/watchlist" data-tracker-label="watchlist" data-tracker-action="click"> Watchlist </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/markets_economic_calendar" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/markets/economic-calendar" data-tracker-label="economic_calendar" data-tracker-action="click"> Economic Calendar </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="technology" data-vertical="technology"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/technology" class="bb-nav-categories__link" data-category-path="/technology" data-category-vertical="technology" target="_self" data-tracker-action="click">Tech</a> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/technology_us" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/topics/silicon-valley" data-tracker-label="us" data-tracker-action="click"> U.S. </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/technology_global" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/topics/global-tech" data-tracker-label="global" data-tracker-action="click"> Global </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/technology_start_ups" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/topics/startups" data-tracker-label="startups" data-tracker-action="click"> Startups </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/technology_bloomberg_tv" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/shows/bloomberg-technology" data-tracker-label="bloomberg_technology_tv" data-tracker-action="click"> Bloomberg Technology TV </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/news_special-reports_gadgets-with-gurman" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/special-reports/gadgets-with-gurman" data-tracker-label="gadgets_with_gurman" data-tracker-action="click"> Gadgets With Gurman </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/news_special-reports_digital-defense" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/special-reports/digital-defense" data-tracker-label="digital_defense" data-tracker-action="click"> Digital Defense </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/technology_studio_1" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/shows/studio-1" data-tracker-label="studio_10" data-tracker-action="click"> Studio 1.0 </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/news_special-reports_focus-on-infrastructure" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/special-reports/focus-on-infrastructure" data-tracker-label="focus_on__infrastructure" data-tracker-action="click"> Focus On: Infrastructure </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="pursuits" data-vertical="pursuits"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/pursuits" class="bb-nav-categories__link" data-category-path="/pursuits" data-category-vertical="pursuits" target="_self" data-tracker-action="click">Pursuits</a> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_autos" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/cars-bikes" data-tracker-label="cars_and_bikes" data-tracker-action="click"> Cars &amp; Bikes </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_style" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/style-grooming" data-tracker-label="style_and_grooming" data-tracker-action="click"> Style &amp; Grooming </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_scene" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/spend" data-tracker-label="spend" data-tracker-action="click"> Spend </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_timepieces" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/watches-gadgets" data-tracker-label="watches_and_gadgets" data-tracker-action="click"> Watches &amp; Gadgets </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_food" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/food-drinks" data-tracker-label="food_and_drinks" data-tracker-action="click"> Food &amp; Drinks </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_travel" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/travel" data-tracker-label="travel" data-tracker-action="click"> Travel </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_property" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/real-estate" data-tracker-label="real_estate" data-tracker-action="click"> Real Estate </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/pursuits_art" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/pursuits/art-design" data-tracker-label="art_and_design" data-tracker-action="click"> Art &amp; Design </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/shows/brilliant-ideas" data-tracker-label="brilliant_ideas" data-tracker-action="click"> Brilliant Ideas </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="politics" data-vertical="politics"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/politics" class="bb-nav-categories__link" data-category-path="/politics" data-category-vertical="politics" target="_self" data-tracker-action="click">Politics</a> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics/global-risk-briefing/" data-tracker-label="global_risk_briefing" data-tracker-action="click"> Global Risk Briefing </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics/2017-how-well-know-if-trump-is-making-america-great-again/" data-tracker-label="how_we’ll_know_if_trump_is_making_america_great_again" data-tracker-action="click"> How We’ll Know if Trump Is Making America Great Again </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics/tracking-trumps-web-of-conflicts/" data-tracker-label="tracking_trump’s_web_of_conflicts" data-tracker-action="click"> Tracking Trump’s Web of Conflicts </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics/2017-healthcare-bill-changes/" data-tracker-label="gop’s_health_plan__tracking_key_changes_one_amendment_at_a_time" data-tracker-action="click"> GOP’s Health Plan: Tracking Key Changes One Amendment at a Time </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics/2017-nkorea-missiles/" data-tracker-label="kim_jong_un’s_big_nuclear_push_is_closing_in_on_america" data-tracker-action="click"> Kim Jong Un’s Big Nuclear Push Is Closing In on America </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="opinion" data-vertical="opinion"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <span class="bb-nav-categories__link" data-category-path="/opinion" data-category-vertical="opinion" target="_self" data-tracker-action="click">Opinion</span> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/opinion_view" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/view/" data-tracker-label="view" data-tracker-action="click"> View </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/opinion_gadfly" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/" data-tracker-label="gadfly" data-tracker-action="click"> Gadfly </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="businessweek" data-vertical="businessweek"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <a href="http://web.archive.org/web/20170719143421/http://www.bloomberg.com/businessweek" class="bb-nav-categories__link" data-category-path="/businessweek" data-category-vertical="businessweek" target="_self" data-tracker-action="click">Businessweek</a> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/magazine/businessweek/17_26" data-tracker-label="latest_issue" data-tracker-action="click"> Latest Issue </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/podcasts/debrief" data-tracker-label="debrief_podcast" data-tracker-action="click"> Debrief Podcast </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="https://nav.bloomberg.com/global/api/businessweek_subscribe" href="http://web.archive.org/web/20170719143421/https://subscribe.businessweek.com/pubs/BW/BWK/BWKRelaunch_US_two_hpsubtout_June2017.jsp?cds_page_id=216824&amp;cds_mag_code=BWK&amp;id=1497488101219&amp;lsid=71651932310037847&amp;vid=3#theseErrors" data-tracker-label="subscribe" data-tracker-action="click"> Subscribe </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li><li is="bb-nav-category" class="bb-nav-categories__category has-submenu " data-tracker-label="footer" data-vertical="footer"> <div class="bb-nav-categories__category-container"> <div class="bb-nav-categories__notch"></div> <span class="bb-nav-categories__link" data-category-path="/footer" data-category-vertical="footer" target="_self" data-tracker-action="click">More</span> </div> <div class="bb-nav-submenu" is="bb-nav-submenu"> <div class="bb-nav-submenu__content"> <div class="bb-nav-submenu__inner"> <ul class="bb-nav-submenu__categories"> <li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/climate-changed" data-tracker-label="climate_changed" data-tracker-action="click"> Climate Changed </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/special-reports/ventures" data-tracker-label="video_series__ventures" data-tracker-action="click"> Video Series: Ventures </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/graphics" data-tracker-label="graphics" data-tracker-action="click"> Graphics </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/billionaires/" data-tracker-label="billionaires" data-tracker-action="click"> Billionaires </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/game-plan" data-tracker-label="game_plan" data-tracker-action="click"> Game Plan </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/small-business" data-tracker-label="small_business" data-tracker-action="click"> Small Business </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/personal-finance" data-tracker-label="personal_finance" data-tracker-action="click"> Personal Finance </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/segments/inspire-go" data-tracker-label="inspire_go" data-tracker-action="click"> Inspire GO </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/features/2016-peer-to-peer/" data-tracker-label="the_david_rubenstein_show" data-tracker-action="click"> The David Rubenstein Show </a> </li><li class="bb-nav-submenu__category"> <a class="bb-nav-submenu__category-link" data-subroute="" href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/sponsor/partnerships/" data-tracker-label="sponsored_content" data-tracker-action="click"> Sponsored Content </a> </li> </ul> <div class="bb-nav-submenu__cards" hidden></div> </div> </div> </div> </li> <li class="bb-nav-categories__category bb-nav-categories__sign-in"> <a id="bb-nav-dropdown-sign-in" class="bb-nav-categories__sign-in-link" href="http://web.archive.org/web/20170719143421/https://login.bloomberg.com/" data-tracker-label="sign_in" data-tracker-action="click"> Sign In </a> </li> <li class="bb-nav-categories__category bb-nav-categories__experience"> <bb-experience-select class="bb-nav-mobile-experience-select"></bb-experience-select> </li> </ul> </div><div class="bb-nav-touts" is="bb-nav-touts" data-tracker-label="tout"> <a target="_self" id="bb-nav-sign-in" class="bb-nav-touts__link" href="http://web.archive.org/web/20170719143421/https://login.bloomberg.com/" data-tracker-label="sign_in" data-tracker-action="click">Sign In</a> <a target="_blank" class="bb-nav-touts__subscribe-link" href="http://web.archive.org/web/20170719143421/http://businessweekmag.com/navbaropiniontextlink" data-vertical-target="gadfly" data-tracker-label="subscribe_to_businessweek" data-tracker-action="click">Subscribe to Businessweek</a> </div><div class="bb-nav-social-container"> <bb-social class="bb-nav-social"></bb-social> </div><div class="bb-nav-search" is="bb-nav-search" data-tracker-label="search"> <form class="bb-nav-search__form" action="/web/20170719143421/https://www.bloomberg.com/search" method="get" autocomplete="false"> <input type="text" class="bb-nav-search__input" placeholder="What are you searching for?" name="query" autocomplete="off"/> </form> <div class="bb-search-drawer" tabindex="0"> <div class="bb-search-drawer__content"> <bb-quick-links></bb-quick-links> <bb-search-suggestions></bb-search-suggestions> </div> </div> </div> <span class="bb-nav-search__icon" data-tracker-label="search.icon" data-tracker-action="click"></span> </div> </div> <div class="bb-progress"> <div class="bb-progress__status"></div> </div> </nav> </div>
     </div>
-  
-        
+
+
     <article class="article_128b_">
-      
+
     <div class="outer_2J7co">
       <div class="background_3uwy_">
         <div class="smallLede_1miqr" style="background-image: url(http://web.archive.org/web/20170719143421im_/https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8cjbQFH0cjw/v0/piyWkzgztToFE/480x-1.jpg);"></div>
@@ -199,7 +199,7 @@
                 <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-04-13/private-equity-revels-in-a-gravity-defying-fee-bonanza">Private Equity's Gravity-Defying Fee Bonanza</a>
               </h1>
               <div class="contributors_1353h">
-                By 
+                By
                     <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AQJIVP98p_c/lisa-abramowicz" class="contributor_1A2q8">
                       Lisa Abramowicz
                     </a>
@@ -212,14 +212,14 @@
         <div class="credit_DxDh5">Photographer: Mohd Rasfan/AFP/Getty Images</div>
       </div>
     </div>
-  
+
       <div id="article" class="container_2jRBB">
         <div class="author_1bS2n">
           <h3 class="columnTitle_22MCN">
             <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/finance">Finance</a>
           </h3>
           <div class="contributors_1zFpE">
-            
+
     <div class="container_3K_oS 0">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AQJIVP98p_c/lisa-abramowicz" class="byline_2y1Ql">
@@ -229,39 +229,39 @@
       </div>
       <p class="bio_1AFaA">Lisa Abramowicz is a Bloomberg Gadfly columnist covering the debt markets. She has written about debt markets for Bloomberg News since 2010.</p>
       <div class="follow_2xaI-">
-        
+
       <a href="http://web.archive.org/web/20170719143421/https://twitter.com/lisaabramowicz1" class="twitter-follow-button" data-show-count="false" data-dnt="true">
         Follow @lisaabramowicz1
       </a>
       </div>
     </div>
-  
+
           </div>
-          
+
     <div class="container_1ANPR" id="sharebuttons">
       <ul class="share_3mCR6">
         <li class="facebook_346_5">
-          
+
     <a href="http://web.archive.org/web/20170719143421/https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bloomberg.com%2Fgadfly%2Farticles%2F2017-04-13%2Fprivate-equity-revels-in-a-gravity-defying-fee-bonanza" rel="nofollow" target="_blank" class="dialog">Facebook</a>
-  
+
         </li>
         <li class="twitter_1OVTa">
-          
+
     <a href="http://web.archive.org/web/20170719143421/https://twitter.com/share?text=Private%20equity%20enjoys%20a%20gravity-defying%20fee%20bonanza%20that%20hedge%20funds%20can%20only%20envy%20&amp;via=gadfly&amp;url=https%3A%2F%2Fwww.bloomberg.com%2Fgadfly%2Farticles%2F2017-04-13%2Fprivate-equity-revels-in-a-gravity-defying-fee-bonanza" rel="nofollow" target="_blank" class="dialog">Twitter</a>
-  
+
         </li>
         <li class="email_G0TYV">
-          
+
     <a href="http://web.archive.org/web/20170719143421/mailto:/?&amp;subject=Private%20Equity's%20Gravity-Defying%20Fee%20Bonanza%20-%20Bloomberg%20Gadfly&amp;body=Private%20Equity's%20Gravity-Defying%20Fee%20Bonanza%20-%20Bloomberg%20Gadfly%0D%0A%0D%0Aby%20Lisa%20Abramowicz%0D%0A%0D%0AHeavy%20demand%20props%20up%20costs%20while%20everyone%20else%20has%20to%20cut.%0D%0A%0D%0Ahttps%3A%2F%2Fwww.bloomberg.com%2Fgadfly%2Farticles%2F2017-04-13%2Fprivate-equity-revels-in-a-gravity-defying-fee-bonanza" rel="nofollow" class="dialog">Email</a>
-  
+
         </li>
         <li class="print_3436o">
-          
+
     <a href="javascript:window.forceToLoadAllCharts();setTimeout(function(){window.print();},1000);" rel="nofollow">Print</a>
-  
+
         </li>
         <li class="toggle_yg88_">
-          
+
   <a href="#" rel="nofollow" id="sharetoggler" data-toggle-class="open_2VonF" data-toggle-target="sharebuttons">
     Share
   </a>
@@ -269,19 +269,19 @@
 </li>
       </ul>
     </div>
-  
+
         </div>
         <div class="body_ZtDFu">
           <div class="timestamp_1HiGX">
             <time class="publishedAt_3fCpt" datetime="2017-04-13T19:22:47.103Z">
               April 13, 2017 3:22 PM EDT
             </time>
-            
+
           </div>
           <div class="marketcards_m2wMb">
-            
+
           </div>
-          
+
     <div class="container_1KxJx">
       <p>One corner of the investing world is surprisingly immune to the widespread trend of shrinking management fees: private equity.</p><p>Despite lower fees at firms from <a href="http://web.archive.org/web/20170719143421/http://www.cnbc.com/2016/10/05/what-blackrocks-fee-cuts-mean-for-index-investors.html" title="CNBC" data-web-url="http://www.cnbc.com/2016/10/05/what-blackrocks-fee-cuts-mean-for-index-investors.html" target="_blank">BlackRock Inc.</a>&#xA0;to <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/articles/2016-10-19/brevan-howard-cuts-management-fee-for-listed-macro-hedge-fund" title="Bloomberg News" target="_blank">Brevan Howard Asset Management LLP</a>&#xA0;and across most types of funds, many private equity managers are charging investors roughly the same amount as they were several years ago. This was on display this week in <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/articles/2017-04-11/yale-s-endowment-shows-its-muscle-in-negotiating-manager-fees" title="Bloomberg News">a Bloomberg News article</a>&#xA0;by Janet Lorin in which Yale University&#x2019;s endowment discussed&#xA0;how it negotiated management fees and terms.</p><p>While it could effectively push for lower costs at many types of funds, Yale said, it has &quot;little bargaining power&quot; in some markets, including leveraged buyout and venture capital, according to the article. Top-tier firms &quot;present the greatest challenge&quot; because of overwhelming investor demand, the endowment said.</p><figure data-type="image" data-id="312277492" data-thumbnail="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTXRLYOFtcs4/v1/460x260.png" data-image-type="chart" align="center" data-off-rail="true" data-align="center" data-chart-type="line" class="loading">
         <div class="toaster-chart">
@@ -321,40 +321,40 @@
         </div>
       <figcaption><div class="news-figure-caption-text"></div></figcaption></figure><p>This all raises the question, are private equity firms worth the high fees they charge? Returns have, indeed, been stellar, with 95 percent of investors believing that their private equity investments have met or exceeded their performance expectations over the past 12 months, up from 81 percent in December 2011,&#xA0;<a href="http://web.archive.org/web/20170719143421/https://www.preqin.com/docs/samples/2017-Preqin-Global-Private_Equity-and-Venture-Capital-Report-Sample-Pages.pdf" title="Preqin report" data-web-url="https://www.preqin.com/docs/samples/2017-Preqin-Global-Private_Equity-and-Venture-Capital-Report-Sample-Pages.pdf" target="_blank">according to a 2017 Preqin report</a>. <br><br>Of course, a <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/news/articles/2017-04-13/buyout-firms-are-magically-and-legally-pumping-up-returns" title="Bloomberg News" target="_blank">Bloomberg News article on Thursday </a>called into question whether private equity firms were inflating their returns using a practice that is entirely legal but could make even mediocre funds shine in good times. As my Gadfly colleague <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-04-13/private-equity-will-stay-on-juice-until-it-stops-working" title="Bloomberg Gadfly">Gillian Tan noted</a>, the use of this tactic makes it difficult for investors to compare performance across different funds. Still, these funds have generally performed well in recent years, riding a wave of central-bank stimulus that&#x2019;s bolstered valuations at companies they focus on. Going forward, however, it&#x2019;s easy to imagine that the private equity industry will eventually lose some of its luster&#xA0;and, consequentially, its outsized fees. Returns are already expected to decline somewhat from recent high levels. Performance would most likely deteriorate much further in the case of another economic downturn.&#xA0;</p><p>First of all, corporate valuations are incredibly high, raising questions about how these firms are going to spend their <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-03-08/private-equity-s-dry-powder-mountain-can-be-conquered" title="Bloomberg Gadfly" target="_blank">record stockpiles of cash</a>&#xA0;effectively. Second, short-term interest rates are rising, crimping managers&#x2019; ability to borrow money cheaply to juice returns, as they&#x2019;ve been doing of late.&#xA0;And third, a growing proportion of companies owned by private equity firms are running into trouble, <a href="http://web.archive.org/web/20170719143421/https://www.bloomberg.com/gadfly/articles/2017-03-17/junk-bonds-plus-retail-plus-private-equity-equals-carnage" title="Bloomberg Gadfly" target="_blank">especially in the retail industry</a>. At some point, this will eat into fund returns.</p><p>Private equity can&apos;t remain relatively immune forever. At some point, returns will likely start sagging, and the industry&apos;s fees will follow suit.</p><p class="news-disclaimer-text">This column does not necessarily reflect the opinion of Bloomberg LP and its owners.</p>
       <p class="trashline_gjnp-">
-        
+
       </p>
       <p>To contact the author of this story:<br><span itemscope="itemscope" itemtype="http://schema.org/Person">    <meta itemprop="url" content="http://web.archive.org/web/20170719143421/bbg://people/profile/16926804">    <meta itemprop="name" content="Lisa Abramowicz">    Lisa Abramowicz</span> in<span itemprop="workLocation" itemscope="itemscope" itemtype="http://schema.org/Place">    New York</span> at <a href="http://web.archive.org/web/20170719143421/mailto:labramowicz@bloomberg.net">labramowicz@bloomberg.net</a></p><p>To contact the editor responsible for this story:<br><span itemscope="itemscope" itemtype="http://schema.org/Person">     <meta itemprop="url" content="http://web.archive.org/web/20170719143421/bbg://people/profile/19280789">     <meta itemprop="email" content="dniemi1@bloomberg.net">     <meta itemprop="telephone" content="+1-212-617-5428">     <span itemprop="workLocation" itemscope="itemscope" itemtype="http://schema.org/Place">         <meta content="New York" itemprop="name">     </span>     <meta itemprop="pepl" content="19280789">     <meta itemprop="role" content="editor">     <meta itemprop="role" content="primary">     <meta itemprop="name" content="Daniel Niemi">     Daniel Niemi</span> at <a href="http://web.archive.org/web/20170719143421/mailto:dniemi1@bloomberg.net">dniemi1@bloomberg.net</a></p>
     </div>
-  
+
         </div>
       </div>
     </article>
-    
+
     <ul id="article-list">
       <li class="item_sBSMS">
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Long Road Back
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Long Road Back</div>
       <div class="toaster-chart-subtitle">Morgan Stanley&apos;s shares have rebounded toward levels not seen since early 2008. An additional $5 billion in planned buybacks should support its valuation. </div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/7fdaa531952a420abf79a7402f6f92fc" data-toaster-id="315671944">
     </div>
       <div class="toaster-chart-source"></div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -367,12 +367,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/finance">Finance</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASj77O3nPIo/gillian-tan" class="byline_2y1Ql">
@@ -380,12 +380,12 @@
           <span class="name_170PD">Gillian Tan</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -394,7 +394,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Planned bond
@@ -403,7 +403,7 @@
         €4 billion
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -416,12 +416,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/markets">Markets</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AEzGWZe3c1w/marcus-ashworth" class="byline_2y1Ql">
@@ -429,12 +429,12 @@
           <span class="name_170PD">Marcus Ashworth</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -443,7 +443,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
         </div>
 
 <div class="main_3W1fh">
@@ -456,12 +456,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/industrials">Industrials</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASxM4ahGI-M/chris-hughes" class="byline_2y1Ql">
@@ -469,12 +469,12 @@
           <span class="name_170PD">Chris Hughes</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -485,26 +485,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Diesel Doldrums
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Diesel Doldrums</div>
       <div class="toaster-chart-subtitle">Daimler investors apply only a low multiple to the decent earnings its been generating</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/047e78ffd155467583b525c8f85f197c" data-toaster-id="315665274">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -517,12 +517,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/autos">Autos</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASlRDbTv2Ds/chris-bryant" class="byline_2y1Ql">
@@ -530,12 +530,12 @@
           <span class="name_170PD">Chris Bryant</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -544,7 +544,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
         </div>
 
 <div class="main_3W1fh">
@@ -557,9 +557,9 @@
         </div>
 
 <div class="author_bmELf">
-          
+
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASkbV4smjaM/max-nisen" class="byline_2y1Ql">
@@ -567,12 +567,12 @@
           <span class="name_170PD">Max Nisen</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -581,26 +581,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Cutting the Mustard
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Cutting the Mustard</div>
       <div class="toaster-chart-subtitle">McCormick&apos;s shares have gained about 4 percent so far this year</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/16b30138e2514899b6de9b3591dbd4b8" data-toaster-id="315664846">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -613,12 +613,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/consumer">Consumer</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASxM4ahGI-M/chris-hughes" class="byline_2y1Ql">
@@ -626,12 +626,12 @@
           <span class="name_170PD">Chris Hughes</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -642,7 +642,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Final Fantasy XIII on Game Plus
@@ -651,7 +651,7 @@
         $16
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -664,12 +664,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/tech">Tech</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AOZ1cdFX8mo/tim-culpan" class="byline_2y1Ql">
@@ -677,12 +677,12 @@
           <span class="name_170PD">Tim Culpan</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -691,7 +691,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Ultra-high-net-worth individuals in China
@@ -700,7 +700,7 @@
         14,310
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -713,12 +713,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/finance">Finance</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASj7dG4ftKY/andy-mukherjee" class="byline_2y1Ql">
@@ -726,12 +726,12 @@
           <span class="name_170PD">Andy Mukherjee</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -740,26 +740,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Cherry on Top
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Cherry on Top</div>
       <div class="toaster-chart-subtitle">CSX&apos;s profitability had already been improving</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/dd46c56f21ab46d5bcbe08e9d19498d5" data-toaster-id="315649329">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -772,12 +772,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/industrials">Industrials</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AQ1oJ6PUBL8/brooke-sutherland" class="byline_2y1Ql">
@@ -785,12 +785,12 @@
           <span class="name_170PD">Brooke Sutherland</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -801,26 +801,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Bargain Hunter
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Bargain Hunter</div>
       <div class="toaster-chart-subtitle">Quidel is buying strategically valuable assets on the cheap -- not an easy thing to do these days</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/4135cf8ef17c41a896deea22a82095f5" data-toaster-id="315641446">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote">Note: Data for Alere takeover is based on the company&apos;s reported revenue and net debt as of the end of 2016. Medians are based on deals of more than $100 million since the start of 2015. </div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -833,12 +833,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/deals">Deals</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AQ1oJ6PUBL8/brooke-sutherland" class="byline_2y1Ql">
@@ -846,12 +846,12 @@
           <span class="name_170PD">Brooke Sutherland</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -860,26 +860,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Norovirus News Not Going Down Easily
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Norovirus News Not Going Down Easily</div>
       <div class="toaster-chart-subtitle">Chipotle shares sank after it said customers were sickened at one of its restaurants</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/9dbb4528dda346f2a1386bb97fb87a43" data-toaster-id="315637908">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg </div>
       <div class="toaster-chart-footnote">Intraday times are displayed in ET.</div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -892,12 +892,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/consumer">Consumer</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ATUA1_YiaoY/sarah-halzack" class="byline_2y1Ql">
@@ -905,12 +905,12 @@
           <span class="name_170PD">Sarah Halzack</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -919,26 +919,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Cut And Run
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Cut And Run</div>
       <div class="toaster-chart-subtitle">Supply cuts by some OPEC countries and other oil exporters haven&apos;t done much for prices</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/bcfa893bfa0b4c8593f892e1487d4dee" data-toaster-id="315633208">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -951,12 +951,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/energy">Energy</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASe2HvynvWg/liam-denning" class="byline_2y1Ql">
@@ -964,12 +964,12 @@
           <span class="name_170PD">Liam Denning</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -980,26 +980,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Where Are They Now?
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Where Are They Now?</div>
       <div class="toaster-chart-subtitle">Although Bank of America&apos;s second-quarter net interest income came in lower than expected, it&apos;s finally catching up to peers</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/1cf4211f88334b539441b0ecbb07e539" data-toaster-id="315632945">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1012,12 +1012,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/finance">Finance</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASj77O3nPIo/gillian-tan" class="byline_2y1Ql">
@@ -1025,12 +1025,12 @@
           <span class="name_170PD">Gillian Tan</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1039,26 +1039,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Chin Up
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Chin Up</div>
       <div class="toaster-chart-subtitle">Health care stocks have outperformed the broader S&amp;P 500 over the course of the Trump presidency; the failure of an ACA repeal effort shouldn&apos;t change that</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/e0aec9acb31c4e6087b1e31274a48565" data-toaster-id="315632740">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1071,12 +1071,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/health">Health</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASkbV4smjaM/max-nisen" class="byline_2y1Ql">
@@ -1084,12 +1084,12 @@
           <span class="name_170PD">Max Nisen</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1098,7 +1098,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Number of Bobby&apos;s Burger Palace Restaurants
@@ -1107,7 +1107,7 @@
         17 
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1120,12 +1120,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/markets">Markets</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ATNXDtcl9_I/stephen-gandel" class="byline_2y1Ql">
@@ -1133,12 +1133,12 @@
           <span class="name_170PD">Stephen Gandel</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1149,26 +1149,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Bad, and a Bit Less Bad
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Bad, and a Bit Less Bad</div>
       <div class="toaster-chart-subtitle">Shares in Ericsson and Nokia have both been hit by lower demand for mobile gear</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/fabccc6a25e5446eaafbaf6776a15d11" data-toaster-id="315626307">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1181,12 +1181,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/tech">Tech</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASmyNgWOdZQ/leila-abboud" class="byline_2y1Ql">
@@ -1194,12 +1194,12 @@
           <span class="name_170PD">Leila Abboud</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1208,7 +1208,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Buyback announced
@@ -1217,7 +1217,7 @@
         £300 million
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1230,12 +1230,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/real-estate">Real Estate</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASxM4ahGI-M/chris-hughes" class="byline_2y1Ql">
@@ -1243,12 +1243,12 @@
           <span class="name_170PD">Chris Hughes</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1257,7 +1257,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Stock decline
@@ -1266,7 +1266,7 @@
         2%
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1279,12 +1279,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/industrials">Industrials</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASlRDbTv2Ds/chris-bryant" class="byline_2y1Ql">
@@ -1292,12 +1292,12 @@
           <span class="name_170PD">Chris Bryant</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1308,7 +1308,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
         </div>
 
 <div class="main_3W1fh">
@@ -1321,9 +1321,9 @@
         </div>
 
 <div class="author_bmELf">
-          
+
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASkbV4smjaM/max-nisen" class="byline_2y1Ql">
@@ -1331,12 +1331,12 @@
           <span class="name_170PD">Max Nisen</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1345,26 +1345,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Sunac Credit Questioned
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Sunac Credit Questioned</div>
       <div class="toaster-chart-subtitle">Sunac&apos;s 2019 bond yield soared since the $9.3 billion Dalian Wanda deal</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/d4b65b5832184731bc0d49122dbb6d79" data-toaster-id="315614079">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1377,12 +1377,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/real-estate">Real Estate</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ATTOZ3EiS38/shuli-ren" class="byline_2y1Ql">
@@ -1390,12 +1390,12 @@
           <span class="name_170PD">Shuli Ren</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1404,7 +1404,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Essar Steel bad debt
@@ -1413,7 +1413,7 @@
         $5 billion
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1426,12 +1426,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/finance">Finance</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASj7dG4ftKY/andy-mukherjee" class="byline_2y1Ql">
@@ -1439,12 +1439,12 @@
           <span class="name_170PD">Andy Mukherjee</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1455,26 +1455,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         No One Cares
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">No One Cares</div>
       <div class="toaster-chart-subtitle">Even though Netflix is burning cash, its bond investors are accepting relatively low yields</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/51b6d2fe130245a99690c7123bbf3e97" data-toaster-id="315596031">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg, Bank of America Merrill Lynch index data</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1487,12 +1487,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/tech">Tech</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASi8VFlkNBs/shira-ovide" class="byline_2y1Ql">
@@ -1500,12 +1500,12 @@
           <span class="name_170PD">Shira Ovide</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1514,7 +1514,7 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C">
       <h3 class="title_25L6t">
         Signet&apos;s 1Q Online Sales Growth
@@ -1523,7 +1523,7 @@
         1.1%
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1536,12 +1536,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/consumer">Consumer</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ATUA1_YiaoY/sarah-halzack" class="byline_2y1Ql">
@@ -1549,12 +1549,12 @@
           <span class="name_170PD">Sarah Halzack</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1563,26 +1563,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Big World
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Big World</div>
       <div class="toaster-chart-subtitle">The U.S. represents roughly 50 percent of global stock market capitalization</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/e52648760fa14098b2995e3cd38a6d1d" data-toaster-id="315589932">
     </div>
       <div class="toaster-chart-source">Source: MSCI</div>
       <div class="toaster-chart-footnote">Note: As of June 2017.</div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1595,12 +1595,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/markets">Markets</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/ASlX9_7a5l8/nir-kaissar" class="byline_2y1Ql">
@@ -1608,12 +1608,12 @@
           <span class="name_170PD">Nir Kaissar</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
@@ -1624,26 +1624,26 @@
     <article class="article_158LU">
       <div class="container_13TEw">
         <div class="widget_3G3iA">
-          
+
     <figure data-image-type="chart" data-widget="true" class="container_tY66C loading">
       <h3 class="title_25L6t">
         Show Me
       </h3>
       <div class="body_20sdC">
-        
+
     <div class="toaster-chart">
       <div class="toaster-chart-title">Show Me</div>
       <div class="toaster-chart-subtitle">Procter &amp; Gamble has been trying to get back on more solid footing with investors, but they haven&apos;t been particularly impressed</div>
-      
+
     <div class="chart-container" data-src="http://web.archive.org/web/20170719143421oe_/https://www.bloomberg.com/toaster/v1/charts/ab75da22d3f848d39a18abf394aac427" data-toaster-id="315588264">
     </div>
       <div class="toaster-chart-source">Source: Bloomberg</div>
       <div class="toaster-chart-footnote"></div>
     </div>
-  
+
       </div>
     </figure>
-  
+
         </div>
 
 <div class="main_3W1fh">
@@ -1656,12 +1656,12 @@
         </div>
 
 <div class="author_bmELf">
-          
+
       <h3 class="columnTitle_2sLoF">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/topics/deals">Deals</a>
       </h3>
           <div>
-            
+
     <div class="container_3K_oS ">
       <div class="">
         <a href="/web/20170719143421/https://www.bloomberg.com/gadfly/columnists/AQ1oJ6PUBL8/brooke-sutherland" class="byline_2y1Ql">
@@ -1669,23 +1669,23 @@
           <span class="name_170PD">Brooke Sutherland</span>
         </a>
       </div>
-      
+
       <div class="follow_2xaI-">
-        
+
       </div>
     </div>
-  
+
           </div>
         </div>
       </div>
     </article>
   </li>
     </ul>
-  
+
     <script>
       window.infiniteScrollUrl = '/gadfly/api/v3/articles/page/:page';
     </script>
-  
+
         <script src="http://web.archive.org/web/20170719143421js_/https://assets.bwbx.io/gadfly/public/assets/14fb0d07ee7d105398c32365d70657d3.js"></script>
         <script src="http://web.archive.org/web/20170719143421js_/https://platform.twitter.com/widgets.js"></script>
         <script src="http://web.archive.org/web/20170719143421js_/https://assets.bwbx.io/gadfly/public/assets/de7a495e432ca35ac493af3a05ab3679.js"></script>

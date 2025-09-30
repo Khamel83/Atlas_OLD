@@ -1,12 +1,12 @@
 # Atlas Podcast System Requirements
 
-**Date:** September 5, 2025  
+**Date:** September 5, 2025
 **Source:** User specifications and analysis
 
 ## 📋 Podcast Requirements Summary
 
-**Total Podcasts:** 37 prioritized (from 72 total available)  
-**Current Status:** 39 episodes in database, 0 transcriptions  
+**Total Podcasts:** 37 prioritized (from 72 total available)
+**Current Status:** 39 episodes in database, 0 transcriptions
 **Processing Approach:** Selective based on user flags and requirements
 
 ## 🎯 Podcast Categories and Processing Rules
@@ -14,16 +14,16 @@
 ### Archive-Worthy Podcasts (Transcript_Only=0)
 **Download audio + generate transcripts:**
 - Accidental Tech Podcast (10 episodes) ✅ **COMPLETE**
-- ACQ2 by Acquired (1000 episodes) 
+- ACQ2 by Acquired (1000 episodes)
 - Acquired (1000 episodes)
-- 99% Invisible (10 episodes)  
+- 99% Invisible (10 episodes)
 - Radiolab (100 episodes)
 - This American Life (100 episodes)
 
 ### Transcript-Only Podcasts (Transcript_Only=1)
 **Find transcripts elsewhere first, download audio only if transcript unavailable:**
 - Political Gabfest (4 episodes)
-- The NPR Politics Podcast (2 episodes) 
+- The NPR Politics Podcast (2 episodes)
 - Today, Explained (1 episode)
 - The Cognitive Revolution (1 episode)
 - Against the Rules with Michael Lewis (100 episodes)
@@ -35,7 +35,7 @@
 - Stratechery (1000 episodes)
 - The Trojan Horse Affair (100 episodes)
 - The Vergecast (5 episodes)
-- Planet Money (100 episodes) 
+- Planet Money (100 episodes)
 - Slate Money (5 episodes)
 - Slate Culture (10 episodes)
 - The Prestige TV Podcast (10 episodes)
@@ -53,7 +53,7 @@
 ### Future-Only Podcasts (Count=0)
 **Only process new episodes going forward:**
 - The Indicator from Planet Money
-- Ringer Food  
+- Ringer Food
 - Planet Money (duplicate entry)
 - Radiolab (duplicate entry)
 
@@ -67,7 +67,7 @@
 
 ### Technical Processing:
 - **Mac Mini Processing** - All transcription happens locally
-- **Universal Queue** - Single processing system, no competing parallel processes  
+- **Universal Queue** - Single processing system, no competing parallel processes
 - **whisper.cpp Integration** - Fast local transcription
 - **Database Storage** - All content stored in Atlas SQLite database
 - **Search Integration** - Transcripts indexed for semantic search
@@ -87,7 +87,7 @@
 - **Business education**: 0/300 episodes (Planet Money, EconTalk, etc.)
 
 **Existing Content:**
-- **ATP**: 10/10 episodes ✅ **COMPLETE** 
+- **ATP**: 10/10 episodes ✅ **COMPLETE**
 - **Other podcasts**: 29 miscellaneous episodes needing classification
 
 ## 🎯 Implementation Priorities
@@ -98,7 +98,7 @@
 3. **Content Acquisition** - Begin downloading priority shows (Acquired, Lex Fridman, etc.)
 
 ### Medium Priority:
-4. **Search UI** - Web interface for transcript exploration  
+4. **Search UI** - Web interface for transcript exploration
 5. **Progress Dashboard** - Track acquisition and processing status
 
 ### Integration Requirements:

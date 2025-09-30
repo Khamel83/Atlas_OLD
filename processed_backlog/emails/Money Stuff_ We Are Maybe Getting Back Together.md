@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Man he is really going to do the funniest trade in the whole history of financial markets: Adam Neumann and capital providers including Dan 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Man he is really going to do the funniest trade in the whole history of financial markets: Adam Neumann and capital providers including Dan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       We’re back!
-    
-  
+
+
 
 Man he is really going to do   the funniest trade in the whole history of financial markets:
 
@@ -67,7 +67,7 @@ Neumann and Third Point have been trying to get information from WeWork necessar
 The bid would be for the entire company or its assets, according to the letter. It did not include details of how much Neumann, who co-founded WeWork, stood ready to offer for the firm.
 Currently, WeWork’s bankruptcy plan proposes handing ownership to the company’s most senior debt holders, including those holding its credit line, first-lien notes and second-lien notes, according to court papers. Third-lien noteholders and unsecured creditors are likely to be wiped out.
 
-Here is  the letter, from  Dealbook. The short version of this trade is that Adam Neumann started WeWork, sold it to SoftBank Group Corp. head Masayoshi Son for $47 billion in one of the greatest 
+Here is  the letter, from  Dealbook. The short version of this trade is that Adam Neumann started WeWork, sold it to SoftBank Group Corp. head Masayoshi Son for $47 billion in one of the greatest
 feats of salesmanship ever, left, watched it collapse, and will now buy it back for $0. The slightly longer version is:
 	Adam Neumann started WeWork and raised billions of dollars to expand, largely from SoftBank, at equity valuations as high as $47 billion; he also took out roughly $1.7 billion for himself in stock sales and   non-recourse loans.	WeWork filed for bankruptcy in November, its current equity value is $0, and SoftBank has torched its multibillion-dollar investment.	But Neumann still has his money, and he clearly misses WeWork. (He currently keeps busy with   a startup called Flow, a sort of residential-real-estate clone of WeWork, with social events and a lot of tech-company blather.)	WeWork is now on sale for $0, and Neumann might buy it.	Then he could take Masayoshi Son out for lunch and be like “that was fun, let’s do it again sometime” and leave Son with the check.
 
@@ -93,37 +93,37 @@ But Adam Neumann wasn’t there for most of that run; he was enjoying his mansio
 
 Surely SoftBank wishes that none of it had ever happened, but for Neumann, I mean,   could be worse. He’s probably richer than he would have been without SoftBank. In some ways this has not been great for his reputation, but in other ways it has been amazing for his reputation? You have to respect a good trade, and   Neumann’s timing is impeccable. He found the top of the startup bubble, he found (in Masayoshi Son) the best possible person to sell overhyped startup stock to, and he sold Son a pile of overhyped startup stock so he could become a billionaire. But buried within Neumann’s overhyped startup stock, and his amazing patter about being “the world’s first physical social network” and “a state of consciousness,” was … a perfectly fine little real estate company? That was the prop that he needed to extract billions of dollars out of Son. But now it has done its job, and Neumann would like the real estate company back. It’s not like SoftBank needs it anymore.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The basis trade
-    
-  
+
+
 
 Periodically people worry about “the basis trade,” usually meaning the trade in which:
 	Hedge funds buy a lot of Treasury bonds, putting up very little of their own money and using mostly money borrowed in the repo markets, and	Those hedge funds sell a lot of Treasury futures, putting down very little of their own money as margin.
@@ -146,11 +146,11 @@ It’s likely that structural overweight positions in credit products could resu
 
 Elsewhere in, loosely, the basis trade: “Hedge funds and proprietary trading firms that regularly trade US Treasuries are   set to be labeled as dealers by the Securities and Exchange Commission — a tag that brings greater compliance costs and scrutiny.”
 
-  
-    
+
+
       Yandex
-    
-  
+
+
 
 Weird  trade:
 
@@ -163,11 +163,11 @@ Here is  Yandex’s announcement. Yandex NV — the Dutch parent company — w
 
 Shrinking your business by 95%, and your share count by 54%, leaves you with, uh, too many shares? Or rather, each share is worth a lot less? Yandex plans to use some of the cash “to finance the development of the retained international businesses,” and use the rest on a stock buyback, to further shrink its capitalization to match its shrinking business.
 
-  
-    
+
+
       Bitcoin accounting
-    
-  
+
+
 
 For a while, US generally accepted accounting principles treated Bitcoin in kind of a strange way. If a company bought some Bitcoin, it would hold that Bitcoin on its balance sheet at cost, reporting that it was worth what it paid. If the price of Bitcoin went up, the company would not increase the value on its balance sheet, or report any income: GAAP disregarded the mark-to-market move. But if the price went down, the company would reduce the value on its balance sheet, and report a loss in its income statement: GAAP did reflect “impairment” of the Bitcoin holdings.
 We have   talked about this   before, and companies sometimes complained about it, because it was illogical and rather punitive: For accounting purposes, you could lose money on Bitcoin, but  never make money. There was however another feature of this situation, which is:
@@ -181,11 +181,11 @@ If Tysons Corner, Virginia-based MicroStrategy decides to adopt the revision for
 
 I don’t really know what that gets you. If MicroStrategy’s shareholders weren’t paying attention to the market value of its Bitcoin holdings, what were they paying attention to? My general view is that investors are smart enough to look past GAAP accounting when, as here, GAAP accounting is misleading. But at least now the GAAP accounting will be correct.
 
-  
-    
+
+
       American Bitcoin Academy
-    
-  
+
+
 
 Look, I’m sorry, but if you asked me to design an educational course about Bitcoin, it would have the following curriculum:
 	You send me a bunch of Bitcoins.	I steal your Bitcoins.	Then someone hacks my Bitcoin wallet and steals the Bitcoins from me.	You come to me and say “what the heck, man?”	I say “now you understand Bitcoin.”
@@ -197,15 +197,15 @@ According to the SEC’s complaint, from at least early 2018 to mid-2019, Sewell
 
 A Bitcoin hack was their Yale College and their Harvard. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Vanguard Quietly   Embraces AI in $13 Billion of Quant Stock Funds. America’s Biggest Bank Is Growing the Old-Fashioned Way:  Branches. Can Harvey Schwartz revive private equity pioneer  Carlyle? Xi to Discuss   China Stocks With Regulators as Rescue Bets Build. Wall Street   Snubs China for India in a Historic Markets Shift. Ex-Credit Suisse chief Tidjane Thiam’s Spac sued by Chinese partner. UK Wants Clarity on   NatWest CEO Search Before Retail Share Sale.   Saudi Arabia Taps Former Dell Executive to Run $100 Billion Firm. How the  Funeral Industry Got the FTC to Hide Bad Actors. Musk’s X Is Flooded With  Ad Spam — Stolen Credit Cards May Be Key. Jack Dorsey’s   Bluesky Opens Up Social Network to Everyone. Inside a   Private Jet Club Where Everything Went Wrong. “You can ask me the next day who won the game, and I won’t even know. But I’ll know  how many times Taylor Swift was shown on TV.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There’s about a $670 million debtor-in-possession loan facility that would be rolled over into exit financing. Here is  the disclosure statement for the current bankruptcy plan. (Here is  the plan.) The prepetition capital structure is on page 61 (roughly $1.6 billion of a first-lien letter-of-credit facility, $1.2 billion of first-lien notes, $900 million of second-lien notes, $300 million of third-lien notes and $180 million of unsecured notes). The DIP loan is described on page 78. Pages 4 through 6 describe proposed recoveries under the plan.
 
 
@@ -215,48 +215,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] From the  disclosure statement: “Because many of WeWork’s leases were entered into in a much more robust real estate market and are characterized by above-market rents without rent resets or lessee-friendly termination rights, WeWork lacked the necessary financial flexibility to adjust to the rapidly shifting commercial real estate market. WeWork’s prepetition business model has become increasingly difficult to maintain and must be repriced to align with the current real estate market.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -267,46 +267,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cke94e.5ils/3e3241e3.gif" alt="" border="0" /></a>

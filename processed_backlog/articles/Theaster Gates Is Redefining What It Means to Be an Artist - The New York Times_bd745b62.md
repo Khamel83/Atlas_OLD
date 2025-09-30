@@ -55,7 +55,7 @@ Gates’s business dealings and art making are not at odds: Salvage from the bui
 
 Gates took a highly unusual path into the art world and, as an artist, though inspired by multiple movements and histories, he’s created something sui generis. He rebuffs categories like “social practice” — jargon for participative art with civic goals — but cites predecessors like Donald Judd, who made furniture as well as geometric objects, and the Fluxus movement, with its interest in everyday materials and spontaneous performances. He’s an inheritor of the legacy of Marcel Duchamp and his readymades, mass-produced and utilitarian objects that the French artist displayed as art. In a sense, Gates has scaled up the method. Duchamp’s readymades include a snow shovel and a bicycle wheel; Gates’s are old factories and homes. To some extent, he doesn’t think of them as property at all. “The beauty of these buildings gives me a tremendous amount of joy,” he said. “It’s an artistic idiom of its own.”
 
-![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg) 
+![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg)
 
 ![Large bricks and stones on wooden platforms in a studio space.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-NLBN/17tmag-theasterstudio-slide-NLBN-mobileMasterAt3x.jpg)
 
@@ -63,7 +63,7 @@ Raw material at Gates’s studio in Chicago.
 
 Jon Henry
 
- 
+
 
 ![A cabinet and table covered with ceramics.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-UIZS/17tmag-theasterstudio-slide-UIZS-mobileMasterAt3x.jpg)
 
@@ -71,7 +71,7 @@ Recently fired ceramic sculptures from Gates’s studio, as well as from Dorches
 
 Jon Henry
 
- 
+
 
 ![Four large portraits hang on a wall. In front, a row of pots and vases on the floor.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-6UKS/17tmag-theasterstudio-slide-6UKS-mobileMasterAt3x.jpg)
 
@@ -79,7 +79,7 @@ Images from the archives of the Johnson Publishing Company on a wall of the stud
 
 Jon Henry
 
- 
+
 
 ![On a stone platform, large ceramic pieces.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-4PTW/17tmag-theasterstudio-slide-4PTW-mobileMasterAt3x.jpg)
 
@@ -89,15 +89,15 @@ Jon Henry
 
 ![Large bricks and stones on wooden platforms in a studio space.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-NLBN/17tmag-theasterstudio-slide-NLBN-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A cabinet and table covered with ceramics.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-UIZS/17tmag-theasterstudio-slide-UIZS-mobileMasterAt3x.jpg)
 
- 
+
 
 ![Four large portraits hang on a wall. In front, a row of pots and vases on the floor.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-6UKS/17tmag-theasterstudio-slide-6UKS-mobileMasterAt3x.jpg)
 
- 
+
 
 ![On a stone platform, large ceramic pieces.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-theasterstudio-slide-4PTW/17tmag-theasterstudio-slide-4PTW-mobileMasterAt3x.jpg)
 
@@ -215,20 +215,20 @@ Photograph by Luis Alberto Rodriguez. Styled by Vanessa Reid
 
 # FLORENCE!
 
-> O winged Lady,  
-> Like a bird  
-> You scavenge the land.  
-> Like a charging storm  
-> You charge,  
-> Like a roaring storm  
-> You roar,  
-> You thunder in thunder,  
-> Snort in rampaging winds.  
-> Your feet are continually restless.  
-> Carrying your harp of sighs,  
+> O winged Lady,
+> Like a bird
+> You scavenge the land.
+> Like a charging storm
+> You charge,
+> Like a roaring storm
+> You roar,
+> You thunder in thunder,
+> Snort in rampaging winds.
+> Your feet are continually restless.
+> Carrying your harp of sighs,
 > You breathe out the music of mourning.
 >
-> — from “Hymn to Inanna” by Enheduanna,  
+> — from “Hymn to Inanna” by Enheduanna,
 > translated from the Sumerian by Jane Hirshfield
 
 ### PROPHETESS
@@ -583,7 +583,7 @@ My grandmother was from New Orleans. In a way, talking to her was like reading E
 
 **L.S.:** It spoils it in a way. I [also] can’t watch myself give a lecture. Why? Because I have to be in it extemporaneously and just go with it. The moment I become self-conscious, I can’t. Praise or deep criticism about the work — those are the things I can’t control. They’re out in the world. But I don’t need to engage with them.
 
-![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg) 
+![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg)
 
 ![A photograph of a woman pouring water from a jug and a plastic bottle. Below the image, text reads, "she saw him disappear by the river, they asked her to tell what happened, only to discount her memory."](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-EF4S/17tmag-simpson-slideshow-slide-EF4S-mobileMasterAt3x.jpg)
 
@@ -591,7 +591,7 @@ My grandmother was from New Orleans. In a way, talking to her was like reading E
 
 © Lorna Simpson, courtesy of the artist and Hauser & Wirth
 
- 
+
 
 ![A collaged artwork.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-O448/17tmag-simpson-slideshow-slide-O448-mobileMasterAt3x.jpg)
 
@@ -599,7 +599,7 @@ My grandmother was from New Orleans. In a way, talking to her was like reading E
 
 © Lorna Simpson, courtesy of the artist and Hauser & Wirth
 
- 
+
 
 ![A video of a grid of fifteen mouths projected on a gallery wall.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-8GHR/17tmag-simpson-slideshow-slide-8GHR-mobileMasterAt3x.jpg)
 
@@ -607,7 +607,7 @@ My grandmother was from New Orleans. In a way, talking to her was like reading E
 
 © Lorna Simpson, courtesy of the artist and Hauser & Wirth. Photo: Zak Kelley
 
- 
+
 
 ![Video monitors on a wall.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-U88A/17tmag-simpson-slideshow-slide-U88A-mobileMasterAt3x.jpg)
 
@@ -617,15 +617,15 @@ My grandmother was from New Orleans. In a way, talking to her was like reading E
 
 ![A photograph of a woman pouring water from a jug and a plastic bottle. Below the image, text reads, "she saw him disappear by the river, they asked her to tell what happened, only to discount her memory."](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-EF4S/17tmag-simpson-slideshow-slide-EF4S-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A collaged artwork.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-O448/17tmag-simpson-slideshow-slide-O448-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A video of a grid of fifteen mouths projected on a gallery wall.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-8GHR/17tmag-simpson-slideshow-slide-8GHR-mobileMasterAt3x.jpg)
 
- 
+
 
 ![Video monitors on a wall.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-simpson-slideshow-slide-U88A/17tmag-simpson-slideshow-slide-U88A-mobileMasterAt3x.jpg)
 
@@ -779,7 +779,7 @@ In conversation, Anderson can be an exuberant and compelling catastrophizer, and
 
 His ambition is clear: He’s determined to become the world’s best living fashion designer. What’s sometimes murkier is why he wants this. “I’m sure people would say that I’m arrogant,” he says. His goals, though, are simple and practical. “Bag sales need to get to here; the stores need to be like this. But these are just actions,” he says. “The big thing is, ‘What am I getting out of it creatively?’” Another question might be: How long can he keep it all up?
 
-![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg) 
+![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg)
 
 ![A model poses in an oversized green, grey and black parka and yellow boots.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-964O/17tmag-jw-fashion-shoot-slide-964O-mobileMasterAt3x.jpg)
 
@@ -787,7 +787,7 @@ His ambition is clear: He’s determined to become the world’s best living fas
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model stands with her hands against the ceiling and one foot on a column, wearing a draped gray dress and a long-sleeve blue top.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-JHFL/17tmag-jw-fashion-shoot-slide-JHFL-mobileMasterAt3x.jpg)
 
@@ -795,7 +795,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model poses in a mint green top and skirt.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-YEPM/17tmag-jw-fashion-shoot-slide-YEPM-mobileMasterAt3x.jpg)
 
@@ -803,7 +803,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model stands in a blue dress in a circular window.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-VLH6/17tmag-jw-fashion-shoot-slide-VLH6-mobileMasterAt3x-v2.jpg)
 
@@ -811,7 +811,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model wears a transparent top with black bows.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-O87L/17tmag-jw-fashion-shoot-slide-O87L-mobileMasterAt3x.jpg)
 
@@ -819,7 +819,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model wears a dress with a pattern of black, gray and green boxes.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-RE5C/17tmag-jw-fashion-shoot-slide-RE5C-mobileMasterAt3x.jpg)
 
@@ -827,7 +827,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model wears a wrapped white top with a black checked pattern and a large black belt.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-8WOZ/17tmag-jw-fashion-shoot-slide-8WOZ-mobileMasterAt3x.jpg)
 
@@ -835,7 +835,7 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 Photograph by Johnny Dufort. Styled by Suzanne Koller
 
- 
+
 
 ![A model wears a metallic top with red, blue and yellow stripes.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-E1SZ/17tmag-jw-fashion-shoot-slide-E1SZ-mobileMasterAt3x.jpg)
 
@@ -845,31 +845,31 @@ Photograph by Johnny Dufort. Styled by Suzanne Koller
 
 ![A model poses in an oversized green, grey and black parka and yellow boots.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-964O/17tmag-jw-fashion-shoot-slide-964O-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model stands with her hands against the ceiling and one foot on a column, wearing a draped gray dress and a long-sleeve blue top.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-JHFL/17tmag-jw-fashion-shoot-slide-JHFL-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model poses in a mint green top and skirt.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-YEPM/17tmag-jw-fashion-shoot-slide-YEPM-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model stands in a blue dress in a circular window.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-VLH6/17tmag-jw-fashion-shoot-slide-VLH6-mobileMasterAt3x-v2.jpg)
 
- 
+
 
 ![A model wears a transparent top with black bows.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-O87L/17tmag-jw-fashion-shoot-slide-O87L-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model wears a dress with a pattern of black, gray and green boxes.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-RE5C/17tmag-jw-fashion-shoot-slide-RE5C-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model wears a wrapped white top with a black checked pattern and a large black belt.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-8WOZ/17tmag-jw-fashion-shoot-slide-8WOZ-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model wears a metallic top with red, blue and yellow stripes.](https://static01.nyt.com/images/2024/10/17/t-magazine/17tmag-jw-fashion-shoot-slide-E1SZ/17tmag-jw-fashion-shoot-slide-E1SZ-mobileMasterAt3x.jpg)
 
@@ -889,7 +889,7 @@ In 2016, Anderson, who’s also a trustee on the board of London’s Victoria an
 
 A cynical reading of Anderson’s work might accuse him of cultural vampirism: By positioning himself alongside history’s great embattled artists, he makes his own output feel all the more subversive. But there’s a delicateness to his approach; few designers, if any, care or know enough to challenge the artists they’re working with to try something new. The 82-year-old American artist [Lynda Benglis](https://www.nytimes.com/interactive/2022/10/13/t-magazine/lynda-benglis-art-greats.html), famous for her wax paintings and poured latex sculptures — and whose massive fountains dominated the set of the spring 2024 Loewe men’s show — ended up designing jewelry for the brand. The Los Angeles-based artist [Richard Hawkins](https://archive.nytimes.com/tmagazine.blogs.nytimes.com/2010/05/27/seeing-things-richard-hawkinss-haunted-houses/), 63, whose collages of young heartthrobs, often either bloodied or sexualized, adorned sweatpants, beaded leather bags and knitted tunics for Loewe’s fall 2024 men’s collection, was skeptical when he was asked to collaborate. His concern, he says, was that his work would be reduced to “coffee cups and mouse pads.” Instead, Anderson added another dimension to Hawkins’s pinup universe, inviting the artist to create video works for the show featuring actors such as Jamie Dornan and Manu Rios, who sat nearby in the front row. He and Anderson included at least one actor with an OnlyFans page, but Hawkins says he was told to avoid depictions of masturbation. “I think Jonathan pushes [LVMH] as far as they’ll go when it comes to sexuality and queerness.”
 
-![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg) 
+![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg)
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-YG27/14tmag-Jw-anderson-extra-slide-YG27-mobileMasterAt3x.jpg)
 
@@ -897,7 +897,7 @@ A spring 2016 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-5O2H/14tmag-Jw-anderson-extra-slide-5O2H-mobileMasterAt3x.jpg)
 
@@ -905,7 +905,7 @@ A fall 2018 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-Y6N0/14tmag-Jw-anderson-extra-slide-Y6N0-mobileMasterAt3x.jpg)
 
@@ -913,7 +913,7 @@ A spring 2018 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-GIWX/14tmag-Jw-anderson-extra-slide-GIWX-mobileMasterAt3x.jpg)
 
@@ -921,7 +921,7 @@ A fall 2019 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-C24Z/14tmag-Jw-anderson-extra-slide-C24Z-mobileMasterAt3x.jpg)
 
@@ -929,7 +929,7 @@ A fall 2022 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-OCDT/14tmag-Jw-anderson-extra-slide-OCDT-mobileMasterAt3x.jpg)
 
@@ -937,7 +937,7 @@ A fall 2022 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-UPWV/14tmag-Jw-anderson-extra-slide-UPWV-mobileMasterAt3x.jpg)
 
@@ -945,7 +945,7 @@ A spring 2022 look from Loewe.
 
 Firsview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-Z6Y0/14tmag-Jw-anderson-extra-slide-Z6Y0-mobileMasterAt3x.jpg)
 
@@ -953,7 +953,7 @@ A spring 2023 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-9Q7Q/14tmag-Jw-anderson-extra-slide-9Q7Q-mobileMasterAt3x.jpg)
 
@@ -961,7 +961,7 @@ A fall 2023 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-VZSZ/14tmag-Jw-anderson-extra-slide-VZSZ-mobileMasterAt3x.jpg)
 
@@ -969,7 +969,7 @@ A spring 2023 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-EYUH/14tmag-Jw-anderson-extra-slide-EYUH-mobileMasterAt3x.jpg)
 
@@ -977,7 +977,7 @@ A spring 2024 look from Loewe.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-A2RA/14tmag-Jw-anderson-extra-slide-A2RA-mobileMasterAt3x.jpg)
 
@@ -987,47 +987,47 @@ Firstview
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-YG27/14tmag-Jw-anderson-extra-slide-YG27-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-5O2H/14tmag-Jw-anderson-extra-slide-5O2H-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-Y6N0/14tmag-Jw-anderson-extra-slide-Y6N0-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-GIWX/14tmag-Jw-anderson-extra-slide-GIWX-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-C24Z/14tmag-Jw-anderson-extra-slide-C24Z-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-OCDT/14tmag-Jw-anderson-extra-slide-OCDT-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-UPWV/14tmag-Jw-anderson-extra-slide-UPWV-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-Z6Y0/14tmag-Jw-anderson-extra-slide-Z6Y0-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-9Q7Q/14tmag-Jw-anderson-extra-slide-9Q7Q-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-VZSZ/14tmag-Jw-anderson-extra-slide-VZSZ-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-EYUH/14tmag-Jw-anderson-extra-slide-EYUH-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-Jw-anderson-extra-slide-A2RA/14tmag-Jw-anderson-extra-slide-A2RA-mobileMasterAt3x.jpg)
 
@@ -1051,7 +1051,7 @@ A couple of years later, Anderson, who’d run out of money, returned to Ireland
 
 Eventually, when the luster of late nights had mostly worn off, he put together what he calls “a weird mood board of stuff” and applied to various universities. The one school that accepted him was London College of Fashion. Between classes, he worked as a visual merchandiser under Manuela Pavesi, Miuccia Prada’s close friend and trusted colleague, at Prada. Pavesi, who died in 2015, liked to wear pajamas with diamonds; knowing this, Anderson arrived for his interview in a vintage paisley dressing gown that he’d cut above the knee — “almost sort of slutty,” says Webster, who would become his manager at Prada — with tight Dior jeans underneath and a pair of Prada boots. While they were working on a window display one day, Webster recalls, Anderson disappeared; he later found the designer on the street, wearing a long coat covered with accessories that he’d designed, getting his picture taken for i-D magazine. “Jonathan was always a bit of an opportunist, really,” says Webster, later adding, “He has this ability to wrap you up into his orbit, and you’re not quite sure how you got there sometimes, but you’re in it.”
 
-![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg) 
+![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/prev.svg) ![](https://static01.nytimes.com/newsgraphics/2024-09-27-tmag-greats/b2a0c71a-d1c2-47fb-ae32-7d568437bc5c/_assets/next.svg)
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-IBB5/14tmag-JW-Andersons-extra-slide-IBB5-mobileMasterAt3x.jpg)
 
@@ -1059,7 +1059,7 @@ A spring 2024 look from JW Anderson.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-4AKP/14tmag-JW-Andersons-extra-slide-4AKP-mobileMasterAt3x.jpg)
 
@@ -1067,7 +1067,7 @@ A fall 2024 look from JW Anderson.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-G6E5/14tmag-JW-Andersons-extra-slide-G6E5-mobileMasterAt3x.jpg)
 
@@ -1075,7 +1075,7 @@ A spring 2012 look from JW Anderson.
 
 Firstview
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-LTTZ/14tmag-JW-Andersons-extra-slide-LTTZ-mobileMasterAt3x.jpg)
 
@@ -1085,15 +1085,15 @@ Estrop/Getty Images
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-IBB5/14tmag-JW-Andersons-extra-slide-IBB5-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-4AKP/14tmag-JW-Andersons-extra-slide-4AKP-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-G6E5/14tmag-JW-Andersons-extra-slide-G6E5-mobileMasterAt3x.jpg)
 
- 
+
 
 ![A model walks down the runway.](https://static01.nyt.com/images/2024/10/14/t-magazine/fashion/14tmag-JW-Andersons-extra-slide-LTTZ/14tmag-JW-Andersons-extra-slide-LTTZ-mobileMasterAt3x.jpg)
 

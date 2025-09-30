@@ -24,19 +24,19 @@ Add your favorite RSS feeds:
   </head>
   <body>
     <outline text="Technology">
-      <outline 
-        title="Tech News" 
-        type="rss" 
+      <outline
+        title="Tech News"
+        type="rss"
         xmlUrl="https://example.com/tech-rss" />
-      <outline 
-        title="Programming Blog" 
-        type="rss" 
+      <outline
+        title="Programming Blog"
+        type="rss"
         xmlUrl="https://example.com/programming-rss" />
     </outline>
     <outline text="Science">
-      <outline 
-        title="Science Daily" 
-        type="rss" 
+      <outline
+        title="Science Daily"
+        type="rss"
         xmlUrl="https://example.com/science-rss" />
     </outline>
   </body>
@@ -118,14 +118,14 @@ def should_run_weekly_processing():
 
 def main():
     config = load_config()
-    
+
     # Daily processing
     if should_run_daily_processing():
         print("Running daily processing...")
         # Simulate command line arguments
         sys.argv = ['run.py', '--all']
         run_atlas()
-    
+
     # Weekly processing
     if should_run_weekly_processing():
         print("Running weekly processing...")

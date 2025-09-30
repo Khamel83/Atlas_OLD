@@ -47,7 +47,7 @@
         <a href="https://www.nytimes.com/images/maintoolbar2.map"><img src="https://static01.nyt.com/images/maintoolbar2.gif" border="0" alt="toolbar" ismap usemap="#maintoolbar2" width="468" height="16"></a>
         <br>
     </nobr>
-    <br><a href="https://www.nytimes.com/books/images_br/toolbar_br.map"> 
+    <br><a href="https://www.nytimes.com/books/images_br/toolbar_br.map">
 </a>
     <blockquote>
         <blockquote>

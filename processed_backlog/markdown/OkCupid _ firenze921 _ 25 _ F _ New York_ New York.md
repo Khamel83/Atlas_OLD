@@ -12,11 +12,11 @@
 
 # OkCupid
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![OkCupid](https://cdn.okccdn.com/media/img/logos/2021/favicon.png)
 
-Oh no!  
-  
-OkCupid requires you enable Javascript in your browser. 
+Oh no!
+
+OkCupid requires you enable Javascript in your browser.
 

@@ -53,7 +53,7 @@ function OptanonWrapper() {
       'Locust',
       'Cypress',
       'webmarketing_ignore'
-    ]    
+    ]
     let shouldLoadRudderstack = true
     if (navigator?.userAgent) {
       const lowerCaseUserAgent = navigator.userAgent.toLowerCase()
@@ -63,7 +63,7 @@ function OptanonWrapper() {
         }
         shouldLoadRudderstack = false
       }
-    }    
+    }
     if (typeof window !== 'undefined') {
       window.rudderstackKey = rudderstackKey
     }
@@ -71,7 +71,7 @@ function OptanonWrapper() {
     if (typeof rudderanalytics !== "undefined" && shouldLoadRudderstack) {
       if (typeof db_debug !== "undefined") {
         db_debug('OptanonWrapper():Loading Rudderstack with OneTrust: rudderstack key', rudderstackKey)
-      }    
+      }
       rudderanalytics.load(rudderstackKey,"https://ue.databricks.com", {
           cookieConsentManager: {
               oneTrust: {
@@ -80,7 +80,7 @@ function OptanonWrapper() {
           }
       })
     }
-    
+
     function getGroupsQueryParam (oneTrustCookie) {
       if (!oneTrustCookie) {
         return ""
@@ -88,7 +88,7 @@ function OptanonWrapper() {
       try {
         // Extract the groups parameter
         const groupsEncoded = oneTrustCookie.match(/groups=([^&]*)/)[1]
-        
+
         // Decode the value
         const groupsDecoded = decodeURIComponent(groupsEncoded)
         return groupsDecoded
@@ -112,7 +112,7 @@ function checkIfCookieConsentIsDefined(groupId) {
       const oneTrustCookie = getCookie("OptanonConsent")
       db_debug("checkIfCookieConsentIsDefined()", groupId, oneTrustCookie)
       const groups = getGroupsQueryParam(oneTrustCookie)
-      
+
       if (groups.length > 0) {
           if (groups.includes(groupId)) {
             db_debug("checkIfCookieConsentIsDefined():result", groupId, true)
@@ -126,22 +126,22 @@ function checkIfCookieConsentIsDefined(groupId) {
             if (otActiveGroupsStr.includes(groupId)) {
                 db_debug("checkIfCookieConsentIsDefined():resultfallback", groupId, true)
                 return true
-            }                
+            }
         }
-        db_debug("checkIfCookieConsentIsDefined():resultfallback", groupId, false)  
+        db_debug("checkIfCookieConsentIsDefined():resultfallback", groupId, false)
         return false
-      }      
-      
+      }
+
       db_debug("checkIfCookieConsentIsDefined():result", groupId, false)
       return false
     }
-    
+
     function checkCookieConsent(groupId) {
       // checks if consent given for category, ex: C0002
       let consent = false
       const oneTrustCookie = getCookie("OptanonConsent")
       const groups = getGroupsQueryParam(oneTrustCookie)
-      
+
       if (groups.length > 0) {
           const arrGroups = groups.split(",")
           arrGroups.forEach((el) => {
@@ -151,7 +151,7 @@ function checkIfCookieConsentIsDefined(groupId) {
                 consent = true
               }
             }
-          }) 
+          })
       }
       else {
         // fallback to OnetrustActiveGroups if OptanonConsent does not define groups
@@ -159,10 +159,10 @@ function checkIfCookieConsentIsDefined(groupId) {
             const otActiveGroupsStr =  OnetrustActiveGroups
             if (otActiveGroupsStr.includes(groupId)) {
                 consent = true
-            }        
+            }
         }
       }
-    
+
       // alternate handling for US banner if groupId is not defined
       if (!checkIfCookieConsentIsDefined(groupId) && checkIfCookieConsentIsDefined("SHARE")) {
         switch (groupId) {
@@ -174,7 +174,7 @@ function checkIfCookieConsentIsDefined(groupId) {
           default:
             break
         }
-    
+
         // if consent is given for C0004 and SHARE is defined, check if SHARE is also given too
         if (consent && groupId === "C0004") {
           if (checkIfCookieConsentIsDefined("SHARE")) {
@@ -193,7 +193,7 @@ function otRemoveOptOutCookies(otActiveGroupsStr)
     {
         db_debug("otRemoveOptOutCookies()")
         db_debug("otRemoveOptOutCookies():otActiveGroupsStr", otActiveGroupsStr)
-        
+
         // do not process if we cannot find the OneTrust cookie
         const oneTrustCookie = getCookie("OptanonConsent")
         db_debug("otRemoveOptOutCookies():oneTrustCookie", oneTrustCookie)

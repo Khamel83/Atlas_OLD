@@ -185,7 +185,7 @@ if (member) {
           </a>
         </div>
       </div>
-      
+
 <nav x-data="{ open: false }" class="font-sans font-bold bg-white">
   <div class="max-w-8xl mx-auto py-4 md:px-8">
     <div>
@@ -196,7 +196,7 @@ if (member) {
                 <img class="block h-auto w-60" src="/img/jewish-currents.svg" alt="Jewish Currents" width="240" height="27" />
               </a>
             </div>
-          
+
           <div class="navbar w-full pl-10  hidden xl:flex mt-2 mr-4 justify-between text-lg xl:text-lg text-greyLight print:hidden">
                                                                                                                                                               <a class="inline-flex items-center px-4 pt-1 hover:text-grey transition-color text-greyLight" href="https://jewishcurrents.org/archive">Articles</a>
                                                                                                                                                                     <a class="inline-flex items-center px-4 pt-1 hover:text-grey transition-color text-greyLight" href="https://jewishcurrents.org/magazine">Magazine</a>
@@ -280,10 +280,10 @@ if (member) {
                                   </div>
                             <div class="text-black pb-12 px-4 md:px-20 max-w-5xl mx-auto">
                                   <h3 class="px-8 leading-tight font-serif pt-2 pb-2 text-lg sm:text-xl md:text-2xl lg:text-25xl">Harrowing “solidarity tours” of Israel are reinscribing American Jews’ sense of&nbsp;victimhood.</h3>
-                                                                                                                                                
-                                                      
+
+
                   <div class="text-2xl md:text-3xl pt-8">
-                    
+
                         <a href="https://jewishcurrents.org/author/maya-rosen" class=" show-grey-underline ">Maya Rosen</a>                                        </div>
                               </div>
             </div>
@@ -296,7 +296,7 @@ if (member) {
     <div class="print:hidden hidden typography lg:block w-20 text-black float-left sticky z-30 top-0 left-0  -mt-8 -mb-16
      pointer-events-none">
       <div class="flex flex-col float-left text-center items-center social pb-6 justify-center pt-24 ml-12">
-        
+
         <a class="tooltip pointer-events-auto w-10 flex-none py-2 px-2 bg-white border-t border-l border-r border-greyLight" href="https://twitter.com/intent/tweet/?text=The%20Rise%20of%20October%207th%20Tourism%20@JewishCurrents&url=https%3A%2F%2Fjewishcurrents.org%2Fthe-rise-of-october-7th-tourism" target="_blank" onclick="ga('send', 'event', 'Social', 'Twitter');">
           <svg height="32" viewBox="0 0 30 32" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m.786 24.839q.625.071 1.393.071 4.018 0 7.161-2.464-1.875-.036-3.357-1.152t-2.036-2.848q.589.089 1.089.089.768 0 1.518-.196-2-.411-3.313-1.991t-1.313-3.67v-.071q1.214.679 2.607.732-1.179-.786-1.875-2.054t-.696-2.75q0-1.571.786-2.911 2.161 2.661 5.259 4.259t6.634 1.777q-.143-.679-.143-1.321 0-2.393 1.688-4.08t4.08-1.688q2.5 0 4.214 1.821 1.946-.375 3.661-1.393-.661 2.054-2.536 3.179 1.661-.179 3.321-.893-1.196 1.75-2.893 2.982.018.25.018.75 0 2.321-.679 4.634t-2.063 4.438-3.295 3.759-4.607 2.607-5.768.973q-4.839 0-8.857-2.589z"/></svg>
           <span class='tooltip-text bg-black text-white font-sans text-xs px-6 py-3 -mt-5 ml-8 rounded'>Tweet</span>
@@ -321,10 +321,10 @@ if (member) {
                         <style>
         .bug svg path { fill: #000000 !important; }
       </style>
-      
+
       <div class="">
-                                                
-                                                                                                                          
+
+
                           <div class="typography">
 
 <div class="">
@@ -337,9 +337,9 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
 
 <div class="relative z-50 flex flex-col           md:w-1/2 px-4 md:px-8 pt-4 lg:pl-56 float-left
@@ -357,9 +357,9 @@ if (member) {
       </div>
 
 </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="">
@@ -370,9 +370,9 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
 
 <div class="relative z-50 flex flex-col           px-4 md:w-1/2 md:px-8 md:pt-4 float-right
@@ -390,9 +390,9 @@ if (member) {
       </div>
 
 </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="">
@@ -404,11 +404,11 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
-                
+
 <div class="pb-10">
   <div class="relative z-50 flex flex-col           md:flex-row
               max-w-4xl mx-auto md:px-8
@@ -429,9 +429,9 @@ if (member) {
       </div>
 
 </div>              </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="">
@@ -444,17 +444,17 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
                 <div class="pullquote print:hidden z-50 pt-8 relative px-4 w-full   md:max-w-4xl md:mx-auto px-4 md:px-8 lg:px-24 xl:px-8 text-center " style="color:#000000;">
   <div class="font-sans font-bold border-t-10  text-3xl md:text-4xl xl:text-5xl  leading-snug py-6"><p>The trips I joined seemed intended to reassure participants that they could support Israel while retaining the moral clarity of the&nbsp;victim.</p></div>
   </div>
               </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="">
@@ -467,11 +467,11 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
-                
+
 <div class="pb-10">
   <div class="relative z-50 flex flex-col  px-4 md:columnWidth           md:flex-row
               max-w-4xl mx-auto md:px-8
@@ -488,11 +488,11 @@ if (member) {
 <div class="pt-2 font-sans text-sm lg:text-base max-w-4xl mx-auto px-4 md:px-8">
       <p>Tour groups visit Kibbutz Beeri in January 2024. Credit: AP Photo/Oded Balilty</p>
     </div>
-  
+
 </div>              </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="">
@@ -504,17 +504,17 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
-                                                                                  
+
+
+
                           <div class="typography">
                 <div class="pullquote print:hidden z-50 pt-8 relative px-4 w-full   md:max-w-4xl md:mx-auto px-4 md:px-8 lg:px-24 xl:px-8 text-center " style="color:#000000;">
   <div class="font-sans font-bold border-t-10  text-3xl md:text-4xl xl:text-5xl  leading-snug py-6"><p>Just two words into the kaddish that one tourist recited for the festival victims—yitgadal veyitkadash—an explosion sounded so closely and powerfully that I felt the vibrations in my&nbsp;spine.</p></div>
   </div>
               </div>
-              
-                        
-                                                                                                                          
+
+
+
                           <div class="typography">
 
 <div class="bug">
@@ -526,8 +526,8 @@ if (member) {
               </div>
 </div>
               </div>
-              
-                        
+
+
                         </div>
 
 </div>
@@ -538,7 +538,7 @@ if (member) {
                                                   <div class="w-28 md:w-32 float-left mr-2 md:mr-4 pt-8">
                 <img class="rounded-full w-24 h-24 md:w-28 md:h-28 lazyload blur-up" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAsICAoIBwsKCQoNDAsNERwSEQ8PESIZGhQcKSQrKigkJyctMkA3LTA9MCcnOEw5PUNFSElIKzZPVU5GVEBHSEX/2wBDAQwNDREPESESEiFFLicuRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUX/wgARCAAZABkDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABAUGAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAVSWgxtS41dEZXZwwdnvyT//xAAfEAACAgIBBQAAAAAAAAAAAAACAwAEARIyERMhIzP/2gAIAQEAAQUCMsLHDXOldvdGXM9EVMDlSC98sq2rBsuVUkJeIzgXI/nP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQIf/aAAgBAwEBPwEaYs//xAAWEQEBAQAAAAAAAAAAAAAAAAAQAUH/2gAIAQIBAT8Bwp//xAAhEAACAQMDBQAAAAAAAAAAAAAAAQIQMUEDERIhMlGB8P/aAAgBAQAGPwJtknp8VFD5dyvWeZE0rNU2yS6XRKTwYPR95HT/xAAfEAADAAICAgMAAAAAAAAAAAAAAREhUTGBEEFhcaH/2gAIAQEAAT8hfHEi/tqhqSpNkHSFsUeXD5GFLtE8XmTaO2YEk5osuNORELST37JoOH6nB2Px+P/aAAwDAQACAAMAAAAQgBjL/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQESEx/9oACAEDAQE/EFwOCW4//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQIBAT8QeUQeI6f/xAAjEAABAwIGAwEAAAAAAAAAAAABABEhMWEQQVFx4fChscHx/9oACAEBAAE/EHgS18BaeiPE5idqpnTYoN1KJGA3AwN08YMFljQ+qk1WSYA5wBOMSZkkE1Rp8QDhRi3tFasEGHBfvldhZda5dS+H/9k=" width="300" height="300" data-sizes="100vw" data-srcset="/imager/cloud/455762/Arielle-Angel-Headshot_fa84b76a8cc17ce29edf1a4d46d62858.jpg 426w, /imager/cloud/455762/Arielle-Angel-Headshot_d905cd4cbc2ae3a658bc51f358c5177c.jpg 300w, /imager/cloud/455762/Arielle-Angel-Headshot_60451c3ce221a308db18c33813a2e841.jpg 25w">
               </div>
-                      
+
             <h3>I’m Arielle Angel, editor-in-chief of <em>Jewish Currents</em>. Before you go, there’s something I need to ask.<br></h3>
 <p dir="ltr">We’ve seen over and over how the mainstream media falters in telling stories on our beats—whether it’s antisemitism, Israel/Palestine in American politics, Jewish identity, or the American left. At <em>Jewish Currents</em> we’re committed to uncompromising analysis and longform reporting on these issues and more—stories you won’t find anywhere else. In a media landscape that obscures injustice and flattens discussion, we’re changing the conversation. But we need you.<br></p>
 
@@ -550,8 +550,8 @@ if (member) {
                               <a href="https://secure.jewishcurrents.org/forms/34" class="bg-white text-black text-base md:text-lg font-bold btn uppercase py-2 px-5 sm:px-8 inline-block mx-1 md:mx-2 transition-all hover:bg-yellow my-2">Give Any Amount</a>
                           </div>
         </div>
-      
-          
+
+
       <div class=" text-grey  leading-tight w-full relative -mb-32 z-50 pt-16 pb-24 px-4" style="clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%); background: #fbee98;">
       <div class="md:max-w-4xl md:mx-auto pb-16 md:px-8 lg:px-32 xl:px-20">
                                       <div class="flex py-8">
@@ -573,8 +573,8 @@ if (member) {
                                                   <div class="w-full md:w-1/3 px-8 lg:px-12">
           <h2 class="md:pt-16 pb-6 text-xl font-bold leading-tighter  text-black ">Recently Featured</h2>
           <div>
-                        
-  
+
+
 <a class="w-full text-left py-3 lg:py-6 block" href="https://jewishcurrents.org/how-support-for-palestine-became-a-hate-crime">  <div>
           <div class="w-full pb-3">
                   <img class="w-full h-auto block mb-2" src="/imager/cloud/490912/000369330014_e15b1ff46e60afc7c4d019f43406e771.jpg" srcset="/imager/cloud/490912/000369330014_83ba52d523c906dc96f91cd3836764eb.jpg 900w, /imager/cloud/490912/000369330014_e15b1ff46e60afc7c4d019f43406e771.jpg 600w, /imager/cloud/490912/000369330014_ab6deaf903de0e8b0cf0e59209818783.jpg 25w" width="400" height="400" sizes="100vw">
@@ -656,7 +656,7 @@ if (member) {
         <div class="md:w-1/2 md:max-w-lg xl:max-w-xl flex-none text-xl lg:text-2xl xl:text-3xl leading-tighter xl:leading-tighter font-sans pb-8 md:pb-0 md:pr-8 xl:pr-16">
           <a href="/newsletter" class="grey-underline">Sign up for our email newsletter, featuring exclusive original content</a>
         </div>
-        
+
 <div><a href="https://secure.jewishcurrents.org/np/clients/jewishcurrents/subscribe.jsp?forwardedFromSecureDomain=1" class="bg-blackest text-white text-sm md:text-lg font-bold uppercase py-2 px-4 sm:px-8">Sign Up!</a></div>      </div>
     </div>
   </div>
@@ -711,7 +711,7 @@ if (member) {
     </div>
   </footer>
   </div>
-            
+
       <div class="hidden fixedalert" id="newsletter-toaster">
       <section class="fixed bottom-0 left-0 w-full z-100 pt-4 md:py-4  text-white "  style="box-shadow: rgba(0,0,0,0.4) 0 0 40px; background:#5e1a54;">
         <div class="relative w-full max-w-6xl mx-auto md:text-1xl lg:px-6 flex flex-col sm:flex-row items-center">
@@ -725,7 +725,7 @@ if (member) {
                     <div class="text-lg md:text-2xl lg:text-3xl leading-snug">Want more <em>Jewish Currents</em>? Sign up now to receive new articles, reading recommendations, and more in your inbox every week.</div>
                   </div>
                                                 <div class="w-auto flex-none pt-6 md:pt-2 pb-2 pl-2 md:pl-0">
-                  
+
 <div><a href="https://secure.jewishcurrents.org/np/clients/jewishcurrents/subscribe.jsp?forwardedFromSecureDomain=1" class="bg-blackest text-white text-sm md:text-2xl font-bold uppercase py-2 px-4 sm:px-8">Sign Up!</a></div>                </div>
                               </div>
             </div>
@@ -733,7 +733,7 @@ if (member) {
         </div>
       </section>
     </div>
-  
+
     <script src="https://jewishcurrents.org/js/manifest.js?id=1b232e175b95440bb1373c1954e86a9c"></script>
   <script type="module" src="https://jewishcurrents.org/js/vendor.js?id=b2497b1d4b1bdaeb31b84295ebde6d69"></script>
 <script src="https://jewishcurrents.org/js/vendor.js?id=b2497b1d4b1bdaeb31b84295ebde6d69" nomodule></script>
@@ -749,7 +749,7 @@ if (member) {
       var cookieExists = Cookies.get('alert');
 
 var campid = $('.fixedalert').attr("id");
-      
+
                         var viewcount = Cookies.get('viewcount');
           if (viewcount == null) {
             var viewcount = 1;
@@ -767,7 +767,7 @@ $(window).scroll(function () {
             }
           });
                   </script>
-  
+
   <script>
     $(document).on('click', '.embed-iframe-onclick[data-iframe-src]', function () {
       console.log('embed iframe clicked');

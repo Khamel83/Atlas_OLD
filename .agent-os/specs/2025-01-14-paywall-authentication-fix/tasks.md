@@ -1,18 +1,18 @@
 # Paywall Authentication Enhancement - Implementation Tasks
 
-**Specification**: @.agent-os/specs/2025-01-14-paywall-authentication-fix/spec.md  
-**Priority**: Medium  
-**Estimated Total**: 8-12 hours  
+**Specification**: @.agent-os/specs/2025-01-14-paywall-authentication-fix/spec.md
+**Priority**: Medium
+**Estimated Total**: 8-12 hours
 
 ## Phase 1: Authentication Debugging (2-3 hours)
 
 ### Task 1.1: Create Live Form Inspector
-**Estimated**: 1 hour  
-**Priority**: High  
+**Estimated**: 1 hour
+**Priority**: High
 
-- [ ] Create `helpers/auth_debugger.py` 
+- [ ] Create `helpers/auth_debugger.py`
 - [ ] Implement headless browser form capture for NYTimes login
-- [ ] Implement headless browser form capture for WSJ login  
+- [ ] Implement headless browser form capture for WSJ login
 - [ ] Save form HTML structure to debug files
 - [ ] Document actual input field names, IDs, and selectors
 
@@ -25,8 +25,8 @@
 - `helpers/auth_debugger.py` (new)
 
 ### Task 1.2: Validate Current Selectors
-**Estimated**: 0.5 hours  
-**Priority**: High  
+**Estimated**: 0.5 hours
+**Priority**: High
 
 - [ ] Test existing selectors against captured form HTML
 - [ ] Document which selectors work vs fail
@@ -40,8 +40,8 @@
 - Understanding of why current implementation fails
 
 ### Task 1.3: Document Authentication Flows
-**Estimated**: 0.5-1 hour  
-**Priority**: Medium  
+**Estimated**: 0.5-1 hour
+**Priority**: Medium
 
 - [ ] Map complete NYTimes login flow (redirects, form submissions)
 - [ ] Map complete WSJ login flow (redirects, form submissions)
@@ -57,8 +57,8 @@
 ## Phase 2: Enhanced Authentication Implementation (4-5 hours)
 
 ### Task 2.1: Fix PaywallAuthenticatedStrategy
-**Estimated**: 2 hours  
-**Priority**: High  
+**Estimated**: 2 hours
+**Priority**: High
 
 - [ ] Update `PaywallAuthenticatedStrategy` with correct selectors
 - [ ] Implement dynamic selector fallback (try multiple selectors)
@@ -75,9 +75,9 @@
 **Files to Modify**:
 - `helpers/article_strategies.py`
 
-### Task 2.2: Add Session Management  
-**Estimated**: 1.5 hours  
-**Priority**: Medium  
+### Task 2.2: Add Session Management
+**Estimated**: 1.5 hours
+**Priority**: Medium
 
 - [ ] Create `helpers/session_manager.py`
 - [ ] Implement session cookie persistence
@@ -96,11 +96,11 @@
 - `helpers/article_strategies.py` (integrate session management)
 
 ### Task 2.3: Enhanced Error Detection
-**Estimated**: 1 hour  
-**Priority**: Medium  
+**Estimated**: 1 hour
+**Priority**: Medium
 
 - [ ] Implement robust authentication success detection
-- [ ] Add specific paywall content detection  
+- [ ] Add specific paywall content detection
 - [ ] Improve logging for authentication attempts
 - [ ] Add metrics tracking for success/failure rates
 - [ ] Ensure no sensitive credential logging
@@ -115,8 +115,8 @@
 - `helpers/article_strategies.py`
 
 ### Task 2.4: Multi-Site Framework
-**Estimated**: 0.5-1 hour  
-**Priority**: Low  
+**Estimated**: 0.5-1 hour
+**Priority**: Low
 
 - [ ] Create extensible base class for site authentication
 - [ ] Add configuration-driven authentication flows
@@ -135,8 +135,8 @@
 ## Phase 3: Integration and Testing (2-3 hours)
 
 ### Task 3.1: Comprehensive Testing
-**Estimated**: 1.5 hours  
-**Priority**: High  
+**Estimated**: 1.5 hours
+**Priority**: High
 
 - [ ] Test authentication with real credentials
 - [ ] Verify full content retrieval for multiple articles
@@ -154,8 +154,8 @@
 - `test_paywall_authentication.py` (new)
 
 ### Task 3.2: Production Integration
-**Estimated**: 0.5-1 hour  
-**Priority**: High  
+**Estimated**: 0.5-1 hour
+**Priority**: High
 
 - [ ] Update main ingestion pipeline to use enhanced authentication
 - [ ] Add authentication status to article metadata
@@ -173,8 +173,8 @@
 - Article metadata schema
 
 ### Task 3.3: Documentation and Monitoring
-**Estimated**: 0.5 hours  
-**Priority**: Medium  
+**Estimated**: 0.5 hours
+**Priority**: Medium
 
 - [ ] Update CLAUDE.md with authentication capabilities
 - [ ] Document credential configuration process
@@ -195,7 +195,7 @@
 
 ### Internal Dependencies
 - Enhanced Wayback Machine (implemented) ✅
-- Rate limiting system (implemented) ✅  
+- Rate limiting system (implemented) ✅
 - Credential management (implemented) ✅
 - Playwright browser automation (available) ✅
 
@@ -208,7 +208,7 @@
 
 ### Must Have
 - [ ] NYTimes authentication works with real credentials
-- [ ] WSJ authentication works with real credentials  
+- [ ] WSJ authentication works with real credentials
 - [ ] Full article content retrieved (>15,000 characters)
 - [ ] Fallback to Enhanced Wayback when auth fails
 - [ ] No authentication-related crashes
@@ -242,7 +242,7 @@
 - [ ] Collect user feedback on recovered premium content
 - [ ] Track any authentication-related issues
 
-### Short-term (Month 1)  
+### Short-term (Month 1)
 - [ ] Optimize session management based on usage patterns
 - [ ] Add additional paywall sites based on user requests
 - [ ] Improve error messages and troubleshooting

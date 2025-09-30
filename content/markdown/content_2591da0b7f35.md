@@ -39,7 +39,7 @@ Object.defineProperties(window, {
             var state = event.detail.stateOfResidence;
             if(state && restrictedStates.indexOf(state) === -1) {
               window.appendScriptToHead("gpt", "https://securepubads.g.doubleclick.net/tag/js/gpt.js");
-              
+
             }
             window.removeEventListener('idToken', scriptAppending);
           }

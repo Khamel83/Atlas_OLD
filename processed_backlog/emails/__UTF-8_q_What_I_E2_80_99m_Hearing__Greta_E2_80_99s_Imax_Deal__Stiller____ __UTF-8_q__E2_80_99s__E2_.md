@@ -33,7 +33,7 @@ BTW, Peter and John write for Puck’s political newsletter, The Best & The Brig
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts…
 --------------------
@@ -87,7 +87,7 @@ politics (local and national), the media, tech platforms, powerful moguls, and H
 wrote ( https://puck.news/the-blood-is-in-the-water-for-karen-bass/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about the local political situation on Monday, and John Heilemann, who grew up in L.A. and has covered national politics for decades—for a frank conversation about next steps. We discussed who in Hollywood might emerge as a leader in the recovery, and whether the new administration in Washington will help or hurt that effort, among other topics. Our
 edited conversation is below.     
 
- 
+
 
 Matthew Belloni: First of all, can we all welcome Donald
 Trump’s newly appointed “special ambassadors” to Hollywood: Jon Voight, Sylvester Stallone, and Mel Gibson? Quite a trio. Maybe one of you can tell me what a “special ambassador” does? 
@@ -315,7 +315,7 @@ given L.A.’s reputation for detached insouciance when it comes to local commun
 Peter: Yeah, I’ve talked to a lot of L.A. pals who aren’t from here originally—people who are out there helping friends and strangers alike—who told me this is the first week they’ve
 actually felt like a real Angeleno. The unity across the city and county right now is heartwarming, even amid the sorrow. I hope it lasts, because we’ll be feeling the downstream effects of these fires for years to come. 
 
- 
+
 
 See you Monday,
 
@@ -355,6 +355,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUcsstkfVKFX1cWQjTDOo=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

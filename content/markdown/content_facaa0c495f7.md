@@ -193,7 +193,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">Digging Deeper, Seeing Farther: Supercomputers Alter Science</nyt_headline></h1>
 <nyt_byline>    <h6 class="byline">By <a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/people/m/john_markoff/index.html?inline=nyt-per" title="More Articles by John Markoff" class="meta-per">JOHN MARKOFF</a></h6>
 </nyt_byline>
@@ -268,7 +268,7 @@ function getSharePasskey() {
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -281,11 +281,11 @@ function getSharePasskey() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p>
-SAN FRANCISCO &mdash; Inside a darkened theater a viewer floats in a redwood forest displayed with Imax-like clarity on a cavernous overhead screen.        </p> 
+SAN FRANCISCO &mdash; Inside a darkened theater a viewer floats in a redwood forest displayed with Imax-like clarity on a cavernous overhead screen.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->   
+
+<!--forceinline-->
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium.html','26planetarium_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -296,7 +296,7 @@ SAN FRANCISCO &mdash; Inside a darkened theater a viewer floats in a redwood for
 <h6 class="credit">Jim Wilson/The New York Times</h6>
 <p class="caption"><strong>DUET </strong>"Life: A Cosmic Journey" relies not just on computer animation techniques, but on a wealth of digitized scientific data as well.                            </p>
 </div>
-  
+
 <div class="columnGroup doubleRule"><div class="story">
 <h3><a href="http://web.archive.org/web/20110429044456/http://video.calacademy.org/details/278">
 Life: A Cosmic Story</a></h3>
@@ -316,7 +316,7 @@ A video trailer for the new planetarium show at the California Academy of Scienc
 <!--div class="columnGroup doubleRule">
  <h3 class="sectionHeader">Facebook</h3>
   <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fnytimesscience%3Fsk%3Dwall&width=190&colorscheme=light&show_faces=false&stream=false&header=true&height=62"  scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:62px;" allowTransparency="true"></iframe></div-->
-</div>  
+</div>
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium2.html','26planetarium2_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -327,7 +327,7 @@ A video trailer for the new planetarium show at the California Academy of Scienc
 <h6 class="credit">Jim Wilson/The New York Times</h6>
 <p class="caption">Â The visualization studio in the basement beneath the planetarium.                            </p>
 </div>
-  
+
 </div>
 <div id="readerscomment" class="inlineLeft"></div>
 <div class="articleBody">
@@ -350,7 +350,7 @@ A macroscope need not be in a single physical location. To take one example, a m
 </nyt_text>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -361,7 +361,7 @@ A macroscope need not be in a single physical location. To take one example, a m
 </div>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup last">				
+<div class="columnGroup last">
 <div id="articleExtras">
 <div class="expandedToolsRight">
 <div class="articleTools">
@@ -387,7 +387,7 @@ A macroscope need not be in a single physical location. To take one example, a m
 	}
 	</script>
 <li class="reprints">			<a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -415,10 +415,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
         google_hints="Digging Deeper, Seeing Farther: Supercomputers Alter Science";google_ad_channel="archive, archive_science, archive_Science";
 </script>
 <script language="JavaScript" type="text/javascript">
-    
+
     // Sponlink_short
 
-NYTD.GoogleAds.getGoogleAds("AFC", { 
+NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLink'
     });
@@ -486,7 +486,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 <!---->                    <div class="columnGroup ">
 
 <div class="singleAd" id="Box3">
-<!-- ADXINFO classification="feature_squares" campaign="regilite-P1-TimesLimited-ros"--><iframe title="regilite" src="http://web.archive.org/web/20110429044456if_/http://www.nytimes.com/gst/litesub_insert.html?product=LT&amp;size=336X90" width="336" height="90" marginheight="0" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no"></iframe> 
+<!-- ADXINFO classification="feature_squares" campaign="regilite-P1-TimesLimited-ros"--><iframe title="regilite" src="http://web.archive.org/web/20110429044456if_/http://www.nytimes.com/gst/litesub_insert.html?product=LT&amp;size=336X90" width="336" height="90" marginheight="0" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no"></iframe>
 </div>
 
 </div>
@@ -508,7 +508,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 <div class="bigAd" id="Box1">
 <!-- ADXINFO classification="Module" campaign="NYT2011_marketingmodule_Movies"--><!-- MARKETING MODULE -->
 <div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/2011/04/22/movies/reese-witherspoon-in-water-for-elephants-review.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-PH%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm11/movies_042911.jpg" width="334" height="154" border="0" alt=""></a> 
+  <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/2011/04/22/movies/reese-witherspoon-in-water-for-elephants-review.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-PH%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm11/movies_042911.jpg" width="334" height="154" border="0" alt=""></a>
   <div style="padding:7px 9px 0;background:#fff">
       <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#654352;" target="_blank" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/2011/04/22/movies/reese-witherspoon-in-water-for-elephants-review.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-HDR%26WT.mc_ev=click">Reese Witherspoon and a traveling circus</a></h2>
       <p style="margin:0 0 3px; padding:0;font-size: 11px;"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/pages/movies/index.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-URL%26WT.mc_ev=click" target="_blank" style="font-size:11px;margin:3px 0;padding:0;font-family:Arial,sans-serif;  color:#000; text-transform:uppercase;">Also in Movies &raquo;</a></p>
@@ -517,7 +517,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
         <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=a515450a/19551c6d&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://www.nytimes.com/interactive/2011/04/24/movies/tribeca-film-festival-2011-videos.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-L2%26WT.mc_ev=click" style="color: #004276">The stars of the Tribeca Film Festival</a></li>
       </ul>
     </div>
- 
+
  <div style="padding:5px 9px; float:left; width:316px; background:#fff"> <a style="float:left" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=d9b8e3b/d62650e6&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://nytimes.com/%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-LOGO%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" width="116" height="18" border="0"></a><a style="float:right" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/pages/movies/index.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-VRT%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_movies.gif" alt="Movies" width="120" height="18" border="0"></a></div><br clear="all">
 </div>
   <!-- /MARKETING MODULE -->
@@ -535,7 +535,7 @@ Advertisements	    </h4>
 <div class="cColumn-TextAd">
 <!-- ADXINFO classification="SiteForADay" campaign="NYT2011-Mktg-TimesLimited-S4D-ROS"--><div style="width:320px; height:60px;">
 
-<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Right5A&amp;sn2=c6bd8acd/d301d78a&amp;sn1=d6176eb9/3ff0a8c&amp;camp=NYT2011-Mktg-TimesLimited-S4D-ROS&amp;ad=TL-D-I-NYT-AD-S4D-TLP-ROS-0211-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Ftimeslimited%2F%3FWT%2Emc%5Fid%3DTL%2DD%2DI%2DNYT%2DAD%2DS4D%2DTLP%2DROS%2D0211%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank"> 
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Right5A&amp;sn2=c6bd8acd/d301d78a&amp;sn1=d6176eb9/3ff0a8c&amp;camp=NYT2011-Mktg-TimesLimited-S4D-ROS&amp;ad=TL-D-I-NYT-AD-S4D-TLP-ROS-0211-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Ftimeslimited%2F%3FWT%2Emc%5Fid%3DTL%2DD%2DI%2DNYT%2DAD%2DS4D%2DTLP%2DROS%2D0211%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank">
 <img style="float:left; margin-right:10px;" src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/adx/images/ADS/25/86/ad.258614/Times_Limited_86x60.gif" width="86" height="60" border="0" style="vertical-align:text-top;"></a>
 
 <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Right5A&amp;sn2=c6bd8acd/d301d78a&amp;sn1=d6176eb9/3ff0a8c&amp;camp=NYT2011-Mktg-TimesLimited-S4D-ROS&amp;ad=TL-D-I-NYT-AD-S4D-TLP-ROS-0211-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Ftimeslimited%2F%3FWT%2Emc%5Fid%3DTL%2DD%2DI%2DNYT%2DAD%2DS4D%2DTLP%2DROS%2D0211%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank">  <br/> Exclusive offers delivered to your inbox</a>
@@ -571,15 +571,15 @@ if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_goo
 if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }
 if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }
 function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}
- 
+
 function google_ad_request_done(ads) {
     var s = '';
     var i;
- 
+
     if (ads.length == 0) {
         return;
     }
- 
+
     if (ads[0].type == "image") {
         s += '<a href="' + ads[0].url +
         '" target="_blank" title="go to ' + ads[0].visible_url +
@@ -607,7 +607,7 @@ function google_ad_request_done(ads) {
         google_title_link_font_size = "12px";
         google_ad_text_font_size = "11px";
         google_visible_url_font_size = "10px";
- 
+
         s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="text-align:left; width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';
         for (i = 0; i < ads.length; ++i) {
             s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';
@@ -643,7 +643,7 @@ else if (window.nyt_google_hints) { google_hints = nyt_google_hints; }
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -663,8 +663,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -793,7 +793,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -869,8 +869,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20110429044456im_/http://up.nytimes.com/?d=0/21/&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2011%2f04%2f26%2fscience%2f26planetarium%2ehtml%3fsrc%3ddayp">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

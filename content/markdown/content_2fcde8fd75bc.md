@@ -154,12 +154,12 @@ if (!d.getElementById(id)) {
 			<style>img#wpstats{display:none}</style>
 		<script type="application/ld+json" class="wp-parsely-metadata">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"Amazon\u2019s Warehouse Quotas Have Been Injuring Workers for Years. Now, Officials Are Taking Action.","url":"http:\/\/revealnews.org\/article\/amazons-warehouse-quotas-have-been-injuring-workers-for-years-now-officials-are-taking-action","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/revealnews.org\/article\/amazons-warehouse-quotas-have-been-injuring-workers-for-years-now-officials-are-taking-action"},"thumbnailUrl":"https:\/\/i0.wp.com\/revealnews.org\/wp-content\/uploads\/2022\/01\/AP_20285815173925-scaled.jpg?resize=150%2C150&ssl=1","image":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/revealnews.org\/wp-content\/uploads\/2022\/01\/AP_20285815173925-scaled.jpg?fit=2560%2C1707&ssl=1"},"articleSection":"Behind the Smiles","author":[{"@type":"Person","name":"Will Evans"}],"creator":["Will Evans"],"publisher":{"@type":"Organization","name":"Reveal","logo":"https:\/\/revealnews.org\/wp-content\/uploads\/2021\/03\/reveal-logo-white-on-transparent-950x250-noCIR.png"},"keywords":["amazon","injuries","jeff bezos","osha","sen. steve conway","warehouses","washington state","workers","workers rights"],"dateCreated":"2022-05-16T21:04:00Z","datePublished":"2022-05-16T21:04:00Z","dateModified":"2022-05-27T18:55:10Z"}</script>
 	<style type="text/css" id="custom-theme-colors-scott">.mobile-sidebar .article-section-title::before,.mobile-sidebar .accent-header::before{background-color: #040404;}.h-sb .middle-header-contain{background-color: #222222;}.h-sb .top-header-contain{background-color: #181818;border-bottom-color: #131313;}.h-sb .site-header,.h-sb .site-title,.h-sb .site-title a:link,.h-sb .site-title a:visited,.h-sb .site-description,.h-sb.h-sh .nav1 .main-menu > li,.h-sb.h-sh .nav1 ul.main-menu > li > a,.h-sb.h-sh .nav1 ul.main-menu > li > a:hover,.h-sb .top-header-contain,.h-sb .middle-header-contain{color: white;}#colophon,#colophon .widget-title,#colophon .social-navigation a,#colophon .widgettitle{color: white;}#colophon .footer-branding .wrapper,#colophon .footer-widgets:first-child{border: 0;}.site-footer .accent-header::before,.site-footer .article-section-title::before{background-color: #0e0e0e;}</style>
-	
+
 	<style type="text/css" id="custom-theme-fonts-scott">.accent-header:not(.widget-title),.article-section-title,.page-title,#secondary .widget-title,.author-bio .accent-header span,#colophon .widget-title,#colophon .widgettitle,#secondary .widgettitle{text-transform: uppercase;}</style>
 
 <style type="text/css" id="custom-theme-colors">:root{--newspack-theme-color-primary: #222222;--newspack-theme-color-primary-variation: #040404;--newspack-theme-color-secondary: #e54600 !important;--newspack-theme-color-secondary-variation: #bd1e00;--newspack-theme-color-primary-darken-5: #1d1d1d;--newspack-theme-color-primary-darken-10: #181818;--newspack-theme-color-primary-against-white: #222222;--newspack-theme-color-secondary-against-white: #e54600;--newspack-theme-color-primary-variation-against-white: #040404;--newspack-theme-color-secondary-variation-against-white: #bd1e00;--newspack-theme-color-against-primary: white;--newspack-theme-color-against-secondary: white;}input[type="checkbox"]::before{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath d='M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z' fill='white'%3E%3C/path%3E%3C/svg%3E");}.mobile-sidebar{background: #222222;}.mobile-sidebar,.mobile-sidebar button:hover,.mobile-sidebar a,.mobile-sidebar a:visited,.mobile-sidebar .nav1 .sub-menu > li > a,.mobile-sidebar .nav1 ul.main-menu > li > a,.mobile-sidebar .nav3 a{color: white;}.site-footer{background: #222222;}.site-footer,.site-footer a,.site-footer a:hover,.site-footer .widget-title,.site-footer .widgettitle,.site-info{color: white;}.site-footer a:hover,.site-footer .widget a:hover{opacity: 0.7;}.site-info .widget-area .wrapper,.site-info .site-info-contain:first-child{border-top-color: #0e0e0e;}</style>
 		<style type="text/css" id="newspack-theme-colors-variables">:root{--newspack-primary-color: #222222;--newspack-secondary-color: #e54600;--newspack-cta-color: #dd3333;--newspack-header-color: #222222;--newspack-primary-menu-color:;--newspack-footer-color: #222222;--newspack-primary-contrast-color: white;--newspack-secondary-contrast-color: white;--newspack-cta-contrast-color: white;--newspack-header-contrast-color: white;--newspack-primary-menu-contrast-color: white;--newspack-footer-contrast-color: white;}</style>
-	
+
 	<style type="text/css" id="custom-theme-fonts">:root{--newspack-theme-font-heading: "Tenon","Helvetica","sans-serif";}:root{--newspack-theme-font-body: "Zenon","Georgia","serif";}.tags-links span:first-child,.cat-links,.page-title,.highlight-menu .menu-label{text-transform: uppercase;}</style>
 
 <link rel="icon" href="https://revealnews.org/wp-content/uploads/2021/03/cropped-Reveal-Icon-32x32.png" sizes="32x32" />
@@ -194,7 +194,7 @@ if (!d.getElementById(id)) {
 				data-segments=""
 				data-frequency="0,0,0,month"
 							>
-				
+
 <h4 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-background" style="background-color:#81bcef">Help us fight for the freedom of the press.&nbsp;</h4>
 
 <div class="wp-block-buttons btn-parent is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-23b93fc6 wp-block-buttons-is-layout-flex">
@@ -214,7 +214,7 @@ if (!d.getElementById(id)) {
 <li id="menu-item-178045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178045"><a href="https://www.revealnews.org/shop">Shop</a></li>
 <li id="menu-item-163962" class="event-header-donate menu-highlight menu-item menu-item-type-custom menu-item-object-custom menu-item-163962"><a href="https://checkout.fundjournalism.org/memberform?org_id=cir&#038;amount=15&#038;installmentPeriod=monthly&#038;campaign=7011Y000001myxcQAA">Donate</a></li>
 </ul>			</nav>
-		
+
 <form role="search" method="get" class="search-form" action="https://revealnews.org/">
 	<label for="search-form-1">
 		<span class="screen-reader-text">Search for:</span>
@@ -270,7 +270,7 @@ if (!d.getElementById(id)) {
 <li id="menu-item-163960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163960"><a href="https://www.youtube.com/reveal"><span class="screen-reader-text">YouTube</span><svg class="svg-icon" width="0" height="0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg></a></li>
 <li id="menu-item-178236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178236"><a href="https://www.threads.net/@revealnews"><span class="screen-reader-text">Threads</span><svg class="svg-icon" width="0" height="0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17,11.2c-0.1,0-0.2-0.1-0.3-0.1c-0.2-3-1.8-4.7-4.5-4.7c0,0,0,0,0,0c-1.6,0-3,0.7-3.8,2l1.5,1c0.6-0.9,1.6-1.1,2.3-1.1 c0,0,0,0,0,0c0.9,0,1.6,0.3,2,0.8c0.3,0.4,0.5,0.9,0.6,1.5c-0.8-0.1-1.7-0.2-2.6-0.1c-2.6,0.1-4.3,1.7-4.1,3.8 c0.1,1.1,0.6,2,1.5,2.6c0.8,0.5,1.8,0.8,2.8,0.7c1.4-0.1,2.4-0.6,3.2-1.5c0.6-0.7,0.9-1.6,1.1-2.8c0.6,0.4,1.1,0.9,1.4,1.5 c0.4,1,0.5,2.8-0.9,4.2c-1.2,1.2-2.7,1.8-4.9,1.8c-2.5,0-4.4-0.8-5.6-2.4c-1.1-1.5-1.7-3.5-1.8-6.2c0-2.7,0.6-4.8,1.8-6.2 c1.2-1.5,3.1-2.3,5.6-2.4c2.5,0,4.4,0.8,5.7,2.4c0.6,0.8,1.1,1.7,1.4,2.8L21,8.2c-0.4-1.4-1-2.6-1.8-3.5c-1.6-2-4-3-7.1-3h0 c-3.1,0-5.4,1-7,3.1C3.8,6.4,3,8.9,3,12l0,0l0,0c0,3.1,0.7,5.6,2.2,7.4c1.6,2,3.9,3,7,3.1h0c2.7,0,4.6-0.7,6.2-2.3 c2.1-2.1,2-4.6,1.3-6.2C19.2,12.8,18.3,11.8,17,11.2z M12.3,15.6c-1.1,0.1-2.3-0.4-2.4-1.5c0-0.8,0.6-1.7,2.4-1.8c0.2,0,0.4,0,0.6,0 c0.7,0,1.3,0.1,1.9,0.2C14.7,15.1,13.4,15.6,12.3,15.6z" /></svg></a></li>
 </ul>	</nav><!-- .social-navigation -->
-	
+
 	</aside>
 	<aside id="desktop-sidebar-fallback" class="desktop-sidebar dir-left">
 		<button class="desktop-menu-toggle">
@@ -284,9 +284,9 @@ if (!d.getElementById(id)) {
 
 <div class="middle-header-contain">
 				<div class="wrapper">
-					
-					
-					
+
+
+
 						<div class="nav-wrapper desktop-only">
 							<div id="site-navigation">
 										<nav class="main-navigation nav1 dd-menu" aria-label="Top Menu" toolbar-target="site-navigation" toolbar="(min-width: 767px)">
@@ -357,7 +357,7 @@ if (!d.getElementById(id)) {
 		<span class="close-icon"><svg class="svg-icon" width="28" height="28" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" /><path d="M0 0h24v24H0z" fill="none" /></svg></span>
 	</button>
 	<div id="header-search" [aria-expanded]="searchVisible ? 'true' : 'false'" aria-expanded="false">
-		
+
 <form role="search" method="get" class="search-form" action="https://revealnews.org/">
 	<label for="search-form-2">
 		<span class="screen-reader-text">Search for:</span>
@@ -375,8 +375,8 @@ if (!d.getElementById(id)) {
 <button class="mobile-menu-toggle" on="tap:mobile-sidebar.toggle">
 							<svg class="svg-icon" width="20" height="20" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>							<span>Menu</span>
 						</button>
-					
-					
+
+
 				</div><!-- .wrapper -->
 			</div><!-- .middle-header-contain -->
 
@@ -388,10 +388,10 @@ if (!d.getElementById(id)) {
 		<main id="main" class="site-main">
 
 <header class="entry-header">
-		
+
 	<span class="cat-links"><span class="screen-reader-text">Posted in</span><a href="https://revealnews.org/topic/behind-the-smiles/" rel="category tag">Behind the Smiles</a></span>			<h1 class="entry-title ">
 			Amazon’s Warehouse Quotas Have Been Injuring Workers for Years. Now, Officials Are Taking Action.		</h1>
-		
+
 	<div class="entry-subhead">
 									<div class="entry-meta">
 					<span class="author-avatar"><img data-perfmatters-preload width="80" height="80" src="https://revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg" class="avatar avatar-80 photo wp-post-image" alt="" srcset="https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=96%2C96&amp;ssl=1 96w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=440%2C440&amp;ssl=1 440w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=360%2C360&amp;ssl=1 360w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=136%2C136&amp;ssl=1 136w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=675%2C675&amp;ssl=1 675w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=32%2C32&amp;ssl=1 32w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=64%2C64&amp;ssl=1 64w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=128%2C128&amp;ssl=1 128w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg?w=370&amp;ssl=1 370w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg?w=400&amp;ssl=1 400w" /></span>
@@ -432,7 +432,7 @@ if (!d.getElementById(id)) {
 <figure class="post-thumbnail">
 
 <img width="1200" height="800" src="https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?fit=1200%2C800&amp;ssl=1" class="attachment-newspack-featured-image size-newspack-featured-image wp-post-image" alt="" data-hero-candidate="1" fetchpriority="high" decoding="async" srcset="https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=1536%2C1024&amp;ssl=1 1536w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=2048%2C1365&amp;ssl=1 2048w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=1568%2C1045&amp;ssl=1 1568w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?resize=400%2C267&amp;ssl=1 400w, https://i0.wp.com/revealnews.org/wp-content/uploads/2022/01/AP_20285815173925-scaled.jpg?fit=1200%2C800&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 1200px) 100vw, 1200px" />			<figcaption><span>Marie Steele works as a picker at Amazon's Shakopee, Minn., fulfillment center in 2020. <span class="image-credit"><span class="credit-label-wrapper">Credit:</span> Leila Navidi/Star Tribune via Associated Press</span></span></figcaption>
-			
+
 			</figure><!-- .post-thumbnail -->
 
 <div class="main-content">
@@ -449,7 +449,7 @@ if (!d.getElementById(id)) {
 				data-segments="10006"
 				data-frequency="0,0,0,month"
 							>
-				
+
 <div class="wp-block-group top-of-article-prompt"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
 <p class="event-beginning-of-article-newsletter"><em>Want more?</em> <a href="https://revealnews.org/newsletter/"><em>Subscribe to our newsletter</em></a><em> to get our investigations delivered straight to your inbox.</em></p>
 
@@ -510,7 +510,7 @@ if (!d.getElementById(id)) {
 <div class="author-bio">
 															<a href="https://revealnews.org/author/willevans/" rel="author">
 											<img data-perfmatters-preload width="80" height="80" src="https://revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg" class="avatar avatar-80 photo wp-post-image" alt="" srcset="https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=96%2C96&amp;ssl=1 96w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=440%2C440&amp;ssl=1 440w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=360%2C360&amp;ssl=1 360w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=136%2C136&amp;ssl=1 136w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=675%2C675&amp;ssl=1 675w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=32%2C32&amp;ssl=1 32w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=64%2C64&amp;ssl=1 64w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop.jpg?resize=128%2C128&amp;ssl=1 128w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg?w=370&amp;ssl=1 370w, https://i0.wp.com/revealnews.org/wp-content/uploads/2015/01/willevans_crop-96x96.jpg?w=400&amp;ssl=1 400w" />											</a>
-									
+
 				<div class="author-bio-text">
 					<div class="author-bio-header">
 						<div>
@@ -523,7 +523,7 @@ if (!d.getElementById(id)) {
 																			<a class="author-email" href="mailto:wevans@revealnews.org">
 											<svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none" /><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z" /></svg>											wevans@revealnews.org										</a>
 																										</div><!-- .author-meta -->
-							
+
 						</div>
 					</div><!-- .author-bio-header -->
 
@@ -531,11 +531,11 @@ if (!d.getElementById(id)) {
 
 <a class="author-link" href="https://revealnews.org/author/willevans/" rel="author">
 								More by Will Evans							</a>
-											
+
 				</div><!-- .author-bio-text -->
 
 </div><!-- .author-bio -->
-			
+
 </article><!-- #post-${ID} -->
 				</div>
 
@@ -548,7 +548,7 @@ if (!d.getElementById(id)) {
 
 <div class="footer-branding">
 		<div class="wrapper">
-			
+
 		<style>.site-header .custom-logo{height: 101px;max-height: 210px;max-width: 600px;width: 333px;}@media (max-width: 781px){.site-header .custom-logo{max-width: 175px;max-height: 53px;}}@media (min-width: 782px){.h-stk:not(.h-sub) .site-header .custom-logo{max-height: 90px;max-width: 297px;}.h-sub .site-header .custom-logo{max-width: 198px;max-height: 60px;}}@media (max-width: 1199px) and (min-width: 782px){.h-stk.h-cl:not(.h-sub) .site-header .custom-logo{max-width: 100%;width: auto;}}</style><a href="https://revealnews.org/" class="custom-logo-link" rel="home"><img width="693" height="210" src="https://i0.wp.com/revealnews.org/wp-content/uploads/2021/03/reveal-logo-white-on-transparent-950x250-noCIR.png?fit=693%2C210&amp;ssl=1" class="custom-logo" alt="Reveal" decoding="async" srcset="https://i0.wp.com/revealnews.org/wp-content/uploads/2021/03/reveal-logo-white-on-transparent-950x250-noCIR.png?w=693&amp;ssl=1 693w, https://i0.wp.com/revealnews.org/wp-content/uploads/2021/03/reveal-logo-white-on-transparent-950x250-noCIR.png?resize=300%2C91&amp;ssl=1 300w, https://i0.wp.com/revealnews.org/wp-content/uploads/2021/03/reveal-logo-white-on-transparent-950x250-noCIR.png?fit=693%2C210&amp;ssl=1&amp;w=370 370w, https://i0.wp.com/revealnews.org/wp-content/uploads/2021/03/reveal-logo-white-on-transparent-950x250-noCIR.png?fit=693%2C210&amp;ssl=1&amp;w=400 400w" sizes="(max-width: 693px) 100vw, 693px" /></a>	<nav class="social-navigation" aria-label="Social Links Menu">
 		<ul id="menu-social-links-menu-1" class="social-links-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163957"><a href="https://www.facebook.com/ThisIsReveal"><span class="screen-reader-text">Facebook</span><svg class="svg-icon" width="0" height="0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg></a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163958"><a href="https://twitter.com/reveal"><span class="screen-reader-text">Twitter</span><svg class="svg-icon" width="0" height="0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg></a></li>
@@ -558,7 +558,7 @@ if (!d.getElementById(id)) {
 </ul>	</nav><!-- .social-navigation -->
 			</div><!-- .wrapper -->
 	</div><!-- .footer-branding -->
-		
+
 	<aside class="widget-area footer-widgets" role="complementary" aria-label="Footer">
 		<div class="wrapper">
 			<section id="text-4" class="widget widget_text">			<div class="textwidget"><p>Reveal<br />
@@ -591,7 +591,7 @@ San Francisco, CA 94104<br />
 
 <div class="wrapper site-info-contain">
 													<span class="copyright">&copy; 2025 The Center for Investigative Reporting</span>
-				
+
 				<a target="_blank" href="https://newspack.com/" class="imprint">
 					Powered by Newspack				</a>
 
@@ -611,7 +611,7 @@ San Francisco, CA 94104<br />
 <script defer id="bilmur" data-provider="wpcloud" data-service="newspack" src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202538"></script>
 		<div class="jetpack-instant-search__widget-area" style="display: none">
 					</div>
-		
+
 	<script type="text/javascript">
 		window.WPCOM_sharing_counts = {"https:\/\/revealnews.org\/article\/amazons-warehouse-quotas-have-been-injuring-workers-for-years-now-officials-are-taking-action":170348};
 	</script>
@@ -773,7 +773,7 @@ if ( el ) {
 			<script>
 			var newspackPopupsData = {"182133":{"prompt_id":182133,"prompt_title":"Above-header, WPF, \"Help us fight\" [Donate]","prompt_frequency":"always","prompt_placement":"above_header","action_type":"undefined"},"171634":{"prompt_id":171634,"prompt_title":"Top of article, Everybody Donate Now, \u201cWant more? Subscribe\u201d [newsletter]","prompt_frequency":"always","prompt_placement":"inline","action_type":"undefined"}};
 		</script>
-		
+
 <script id="perfmatters-delayed-scripts-js">(function(){window.pmDC=0;window.pmDT=15;if(window.pmDT){var e=setTimeout(d,window.pmDT*1e3)}const t=["keydown","mousedown","mousemove","wheel","touchmove","touchstart","touchend"];const n={normal:[],defer:[],async:[]};const o=[];const i=[];var r=false;var a="";window.pmIsClickPending=false;t.forEach(function(e){window.addEventListener(e,d,{passive:true})});if(window.pmDC){window.addEventListener("touchstart",b,{passive:true});window.addEventListener("mousedown",b)}function d(){if(typeof e!=="undefined"){clearTimeout(e)}t.forEach(function(e){window.removeEventListener(e,d,{passive:true})});if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s)}else{s()}}async function s(){c();u();f();m();await w(n.normal);await w(n.defer);await w(n.async);await p();document.querySelectorAll("link[data-pmdelayedstyle]").forEach(function(e){e.setAttribute("href",e.getAttribute("data-pmdelayedstyle"))});window.dispatchEvent(new Event("perfmatters-allScriptsLoaded")),E().then(()=>{h()})}function c(){let o={};function e(t,e){function n(e){return o[t].delayedEvents.indexOf(e)>=0?"perfmatters-"+e:e}if(!o[t]){o[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},delayedEvents:[]};t.addEventListener=function(){arguments[0]=n(arguments[0]);o[t].originalFunctions.add.apply(t,arguments)};t.removeEventListener=function(){arguments[0]=n(arguments[0]);o[t].originalFunctions.remove.apply(t,arguments)}}o[t].delayedEvents.push(e)}function t(t,n){const e=t[n];Object.defineProperty(t,n,{get:!e?function(){}:e,set:function(e){t["perfmatters"+n]=e}})}e(document,"DOMContentLoaded");e(window,"DOMContentLoaded");e(window,"load");e(document,"readystatechange");t(document,"onreadystatechange");t(window,"onload")}function u(){let n=window.jQuery;Object.defineProperty(window,"jQuery",{get(){return n},set(t){if(t&&t.fn&&!o.includes(t)){t.fn.ready=t.fn.init.prototype.ready=function(e){if(r){e.bind(document)(t)}else{document.addEventListener("perfmatters-DOMContentLoaded",function(){e.bind(document)(t)})}};const e=t.fn.on;t.fn.on=t.fn.init.prototype.on=function(){if(this[0]===window){function t(e){e=e.split(" ");e=e.map(function(e){if(e==="load"||e.indexOf("load.")===0){return"perfmatters-jquery-load"}else{return e}});e=e.join(" ");return e}if(typeof arguments[0]=="string"||arguments[0]instanceof String){arguments[0]=t(arguments[0])}else if(typeof arguments[0]=="object"){Object.keys(arguments[0]).forEach(function(e){delete Object.assign(arguments[0],{[t(e)]:arguments[0][e]})[e]})}}return e.apply(this,arguments),this};o.push(t)}n=t}})}function f(){document.querySelectorAll("script[type=pmdelayedscript]").forEach(function(e){if(e.hasAttribute("src")){if(e.hasAttribute("defer")&&e.defer!==false){n.defer.push(e)}else if(e.hasAttribute("async")&&e.async!==false){n.async.push(e)}else{n.normal.push(e)}}else{n.normal.push(e)}})}function m(){var o=document.createDocumentFragment();[...n.normal,...n.defer,...n.async].forEach(function(e){var t=e.getAttribute("src");if(t){var n=document.createElement("link");n.href=t;if(e.getAttribute("data-perfmatters-type")=="module"){n.rel="modulepreload"}else{n.rel="preload";n.as="script"}o.appendChild(n)}});document.head.appendChild(o)}async function w(e){var t=e.shift();if(t){await l(t);return w(e)}return Promise.resolve()}async function l(t){await v();return new Promise(function(e){const n=document.createElement("script");[...t.attributes].forEach(function(e){let t=e.nodeName;if(t!=="type"){if(t==="data-perfmatters-type"){t="type"}n.setAttribute(t,e.nodeValue)}});if(t.hasAttribute("src")){n.addEventListener("load",e);n.addEventListener("error",e)}else{n.text=t.text;e()}t.parentNode.replaceChild(n,t)})}async function p(){r=true;await v();document.dispatchEvent(new Event("perfmatters-DOMContentLoaded"));await v();window.dispatchEvent(new Event("perfmatters-DOMContentLoaded"));await v();document.dispatchEvent(new Event("perfmatters-readystatechange"));await v();if(document.perfmattersonreadystatechange){document.perfmattersonreadystatechange()}await v();window.dispatchEvent(new Event("perfmatters-load"));await v();if(window.perfmattersonload){window.perfmattersonload()}await v();o.forEach(function(e){e(window).trigger("perfmatters-jquery-load")})}async function v(){return new Promise(function(e){requestAnimationFrame(e)})}function h(){window.removeEventListener("touchstart",b,{passive:true});window.removeEventListener("mousedown",b);i.forEach(e=>{if(e.target.outerHTML===a){e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:true,cancelable:true}))}})}function E(){return new Promise(e=>{window.pmIsClickPending?g=e:e()})}function y(){window.pmIsClickPending=true}function g(){window.pmIsClickPending=false}function L(e){e.target.removeEventListener("click",L);C(e.target,"pm-onclick","onclick");i.push(e),e.preventDefault();e.stopPropagation();e.stopImmediatePropagation();g()}function b(e){if(e.target.tagName!=="HTML"){if(!a){a=e.target.outerHTML}window.addEventListener("touchend",A);window.addEventListener("mouseup",A);window.addEventListener("touchmove",k,{passive:true});window.addEventListener("mousemove",k);e.target.addEventListener("click",L);C(e.target,"onclick","pm-onclick");y()}}function k(e){window.removeEventListener("touchend",A);window.removeEventListener("mouseup",A);window.removeEventListener("touchmove",k,{passive:true});window.removeEventListener("mousemove",k);e.target.removeEventListener("click",L);C(e.target,"pm-onclick","onclick");g()}function A(e){window.removeEventListener("touchend",A);window.removeEventListener("mouseup",A);window.removeEventListener("touchmove",k,{passive:true});window.removeEventListener("mousemove",k)}function C(e,t,n){if(e.hasAttribute&&e.hasAttribute(t)){event.target.setAttribute(n,event.target.getAttribute(t));event.target.removeAttribute(t)}}})();</script></body>
 </html>
 <!--

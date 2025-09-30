@@ -8,15 +8,15 @@
 View this post on the web at https://www.notboring.co/p/differentiation
 
 Welcome to the 836 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 181,749 smart, curious folks by subscribing here:
-🎧  For the audio version, listen on Spotify [ https://substack.com/redirect/b74f3471-3a19-44d2-a7a3-731bb7288c31?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or Apple Podcasts [ https://substack.com/redirect/33a84db1-a5e0-4c25-9f01-d19ea56bbe88?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] 
+🎧  For the audio version, listen on Spotify [ https://substack.com/redirect/b74f3471-3a19-44d2-a7a3-731bb7288c31?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or Apple Podcasts [ https://substack.com/redirect/33a84db1-a5e0-4c25-9f01-d19ea56bbe88?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Today’s Not Boring is brought to you by… Create [ https://substack.com/redirect/4d9c9058-59a1-4443-80a1-ad17103e584e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (Dan’s new company!)
 Create [ https://substack.com/redirect/4d9c9058-59a1-4443-80a1-ad17103e584e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the first modern creatine brand with a first-of-its-kind creatine monohydrate gummy.
 I know what you're probably thinking...creatine?! Me too. I had the same reaction when my brother Dan first texted me about starting the business. I always associated creatine with bodybuilders and high school football players and bucketed it with “steroids.”
 But Dan did his homework and showed me the research, and it turns out that creatine is one of the safest and most effective general performance supplements on the market. Andrew Huberman is on the record as taking 5 grams per day. Peter Attia called it "the supplement he feels most confident recommending to patients." The guys who know the most about this stuff view creatine as a table stakes supplement. Here's why:
-Safe: The FDA marked creatine monohydrate as "generally recognized as safe" in 2020. 
+Safe: The FDA marked creatine monohydrate as "generally recognized as safe" in 2020.
 Effective: If you've ever taken creatine before, this one is obvious and it's what differentiates it from most other supplements: it works.
 Beneficial: increases strength, builds muscle, improves recovery. Recent research also indicates that creatine may benefit memory and general cognitive performance.
-I now take 5 gummies (5g) per day to boost my recovery and overall performance -- it's part of my morning routine now that I’m running more and I’m old. But I’m biased -- my brother started the company and I'm an investor. Try it out for yourself, 30% off: 
+I now take 5 gummies (5g) per day to boost my recovery and overall performance -- it's part of my morning routine now that I’m running more and I’m old. But I’m biased -- my brother started the company and I'm an investor. Try it out for yourself, 30% off:
 Hi friends 👋, 
 Happy Tuesday! I hope those of you in the US had a great long weekend. 
 This is an essay I’ve wanted to write for a long time, since I experienced what happens to a company when the differentiation disappears. I’m glad I waited. It’s more relevant now than ever.
@@ -119,7 +119,7 @@ You don’t need to be the world’s best brain surgeon; you might be the world�
 The world will be a richer, more colorful place when more people are freed up to learn, create, and build novel things that only they can. This might be technology’s greatest gift to humanity. By making the competition to be better at someone else’s game practically futile, it frees us up to play different games. 
 Thanks to Dan [ https://substack.com/redirect/37dd4400-713f-4415-92b3-5c12b1f9bf4b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today. We’ll be back in your inbox on Friday with the Weekly Dose.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPVGN4TmpNM09ETXNJbWxoZENJNk1UWTNNemsyTXpJNU1Td2laWGh3SWpveE5qYzJOVFUxTWpreExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAudXRnT2J0am1JNUVSbXU5aUMyZ1lucV9pWllXbWNxZ0w2RkZGZDQwSzhkZyIsInAiOjk3MTYzNzgzLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.dT4q0xgMVPsAM-7Es3yqtr2nqB8paJ11WBAU2nfgYjY?

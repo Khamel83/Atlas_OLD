@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One thing we know is that, as his crypto exchange FTX and his trading firm Alameda Research were spiraling into bankruptcy, Sam Bankman-Frie
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX flailing
-    
-  
+
+
 
 One thing we know is that, as his crypto exchange FTX and his trading firm Alameda Research were spiraling into bankruptcy, Sam Bankman-Fried was desperately shopping all of their assets to potential bidders to try to keep them afloat. We also know what the list of assets looked like, and it was pretty grisly. “Hello, we have $2.2 billion worth of Serum tokens, do you want them,” Bankman-Fried apparently asked potential rescuers, but the correct answer was “absolutely not.” The list was a lot of venture-capital stakes and weird illiquid tokens that FTX had made up, stuff like that.
   [1]
@@ -108,63 +108,63 @@ I have to say that I can sympathize? Of course it is bad. Like, if he had suc
 I don’t know who will win here, by the way; I suppose it turns on questions about perfecting security interests in stock and avoidable preferences in bankruptcy. It does seem a little unfair that BlockFi would get a priority claim on these shares, over the claims of FTX’s customers, just because Bankman-Fried hastily promised them to BlockFi; there is some sense — both in fairness and in the bankruptcy code — that stuff that Bankman-Fried did in those final desperate days before bankruptcy shouldn’t really count. 
 Mostly it is just a wild story. FTX and Alameda were hurtling toward bankruptcy, and Bankman-Fried was trying to save them by offering up his one normal asset, a pile of Robinhood shares. He tried to get the most value he could from those shares, to use them most efficiently to save his companies. Obviously the most efficient way to use them was to sell them more than once!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Further FTX flailing
-    
-  
+
+
 
 The basic idea of bankruptcy is that if your company doesn’t have enough money to pay all of its debts, it should stop paying its debts, get all its creditors in a room, and work out how to pay each of them a fair amount. If you have $100 of debt and $60 of assets, generally, it is good to pay each of your creditors 60 cents on the dollar, and bad to pay 100 cents on the dollar to the first creditors who ask for their money back, and then run out of money and pay everyone else $0. 
 If you run a business where you have hundreds of thousands of creditors, all of whom can demand their money back at any time by pushing a button on your website, this is a particular problem. Once you don’t have enough money to pay all of them back, it is bad form to keep the website up. Some people will push the button and get their money back, leaving less and less for everyone else. This will make your eventual bankruptcy messier, and might violate your fiduciary duties.
@@ -188,20 +188,20 @@ The push and pull continued into the early hours of Nov. 11, when Mr. Miller sen
 
 That checks out: The risk-neutral traders wanted to keep trying; the lawyer did not. I have to say that the likelihood of a rescue on Nov. 10   struck me as … very very close to 0% … but then I was trained as a lawyer and did not quit my job to move to an island and start a crypto exchange. Nor did I quit my job to become a top lawyer for someone who had done that! Seems stressful.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Customer money
-    
-  
+
+
 
 I have been thinking a lot, these days, about   my 2018 proposal for a “Certificate of Dumb Investment.” The way it would work is that there are certain kinds of investment — at the time I was mainly thinking of private placements — where anyone can invest as much money as they want, but:
 	First you have to go to a local office of the Securities and Exchange Commission and ask for a certificate.	To get the certificate, you have to sign a one-page form that says, in large letters, that your investment is dumb and you will almost certainly get all of your money stolen and you can’t complain when that happens.	Then an SEC employee “slaps you hard across the face and says ‘really???’ And if you reply ‘yes really’ then she gives you the certificate.”	Then you give the certificate to the seller of the investment and you get to buy it.	“If an article ever appears in the Wall Street Journal in which you (or your lawyer) are quoted saying that you were just a simple dentist, didn’t understand what you were buying and were swindled by the seller’s flashy sales pitch, then you go to prison.”
@@ -225,15 +225,15 @@ He was putting regular deposits into BlockFi’s interest-bearing accounts to si
 Obviously this is an imperfect system, both in the sense that somewhere out there there probably are less sophisticated investors who genuinely thought that the accounts paying 9.75% interest on cryptocurrency were safe, and in the sense that lots of crypto platforms — including both FTX and BlockFi — tried to give off an air of legitimacy and trustworthiness that might have led people to think “this time is different, these platforms won’t lose my money.” The damage here is not zero.
 But it is hard, particularly in the US, to find people who (1) know enough about crypto to be able to buy it but (2) know so little about crypto that they are surprised when a crypto exchange loses their money. Crypto does a pretty good job — not on purpose or anything, but nevertheless — of educating its investors about how they will lose their money. And then when it happens, they shrug and say “easy come, easy go.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Musk  Threatens War With Apple, Jeopardizing Vital Relationship. Elon Musk’s Boring Company  Ghosts Cities Across America.  Meta Fined $275 Million for Breaking E.U. Data Privacy Law. How to Keep Your Investments   Halal. FTX Received Some Customer Deposits Via   Bank Accounts Held by Alameda. Miami Fights to Break Ties With FTX, as  Arena Curse Strikes Again. Startup CEO  Fired for LSD Use Claims Discrimination in Lawsuit. Kim Kardashian  Re-Evaluates Balenciaga Ties After Ads With Teddy Bears in Bondage Gear. “One way to think of monotheism is that God is  buying back shares of the Godhead, consolidating it against dilution by polytheist sects and pagan rites, all of which dilute ‘ownership.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] FTX/Alameda’s list of assets also included $43 million worth of “TWTR,” presumably meaning Twitter Inc. stock, presumably meaning stock of Twitter that FTX/Alameda/Bankman-Fried had owned before Elon Musk closed his buyout and rolled over into the new, private Twitter. There is actually a hot factual dispute as to whether FTX/Alameda/SBF actually rolled over their Twitter stock? (Musk denies it.) Presumably it would be better if they *hadn’t*, since getting $43 million of cash for their Twitter shares, in late October 2022, a few weeks before going bankrupt, would be much more useful to FTX than trying to shop an illiquid locked-up stake in Musk Twitter as Musk crashed its revenue. But who knows, man.
 
 
@@ -252,114 +252,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] I mean, I have done no expected value math here. But consider the rough FTX math facing Bankman-Fried on, like, Nov. 10. There’s something like $9 billion of customer liabilities at that point. FTX had an equity value of $32 billion not that long ago. If you tough it out and muddle through, maybe that all comes back; the customers get $9 billion and you get $32 billion for a total of $41 billion of value. If you fail, the worst case is you get nothing and the customers get nothing. Meanwhile if you file for bankruptcy, you get nothing and the customers get … let’s use 30 cents on the dollar, or call it $3 billion. If you think you have a 10% chance of success, that’s a $4.1 billion expected value, which is better than the $3 billion in the bankruptcy case. Did Bankman-Fried have a 10% chance of success? On Nov. 10? Seems high to me, but I am not a risk-loving crypto founder.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

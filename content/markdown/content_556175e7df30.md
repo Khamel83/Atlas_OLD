@@ -612,7 +612,7 @@ Tangentially, has youtube search been integrated to youtube search or something 
           <a href="user?id=der-ofenmeister" class="hnuser">der-ofenmeister</a> <span class="age" title="2021-11-30T21:20:17 1638307217"><a href="item?id=29397613">on Nov 30, 2021</a></span> <span id="unv_29397613"></span>          <span class="navs">
              | <a href="#29393011" class="clicky" aria-hidden="true">root</a> | <a href="#29393956" class="clicky" aria-hidden="true">parent</a> | <a href="#29397124" class="clicky" aria-hidden="true">prev</a> | <a href="#29395760" class="clicky" aria-hidden="true">next</a> <a class="togg clicky" id="29397613" n="1" href="javascript:void(0)">[–]</a><span class="onstory"></span>          </span>
                   </span></div><br><div class="comment">
-                  <div class="commtext c00">Great idea, although from an engineering POV I think this is really hard. Most websites are super JS-heavy and hence, from a browser&#x27;s POV, change constantly. 
+                  <div class="commtext c00">Great idea, although from an engineering POV I think this is really hard. Most websites are super JS-heavy and hence, from a browser&#x27;s POV, change constantly.
 Quite a ton of difference between pixels on the screen changing and the underlying DOM changing.</div>
               <div class="reply">        <p><font size="1">
                   </font>
@@ -1485,7 +1485,7 @@ If you search for something that happens to overlap with a recent movie name, go
           <a href="user?id=notJim" class="hnuser">notJim</a> <span class="age" title="2021-11-30T17:34:40 1638293680"><a href="item?id=29394849">on Nov 30, 2021</a></span> <span id="unv_29394849"></span>          <span class="navs">
              | <a href="#29393234" class="clicky" aria-hidden="true">root</a> | <a href="#29394391" class="clicky" aria-hidden="true">parent</a> | <a href="#29394538" class="clicky" aria-hidden="true">next</a> <a class="togg clicky" id="29394849" n="3" href="javascript:void(0)">[–]</a><span class="onstory"></span>          </span>
                   </span></div><br><div class="comment">
-                  <div class="commtext c00">&gt; first result is a list from a blog by some &quot;Emergency prep guy&quot; it basically lists 27 coats with information.<p>Most of the time, this is just a list of coats someone googled and copy-pasted info from the marketing pages. This page is an affiliate-marketing site masquerading as a review site.<p>Not sure if specifically that page is, but that&#x27;s what the majority of 
+                  <div class="commtext c00">&gt; first result is a list from a blog by some &quot;Emergency prep guy&quot; it basically lists 27 coats with information.<p>Most of the time, this is just a list of coats someone googled and copy-pasted info from the marketing pages. This page is an affiliate-marketing site masquerading as a review site.<p>Not sure if specifically that page is, but that&#x27;s what the majority of
 &quot;product review&quot; results in Google are nowadays.</div>
               <div class="reply">        <p><font size="1">
                   </font>
@@ -4141,7 +4141,7 @@ change_score(&quot;stroustrup.com&quot;, +4)<p>Than you could share your code on
           <a href="user?id=thrower123" class="hnuser">thrower123</a> <span class="age" title="2021-11-30T15:33:26 1638286406"><a href="item?id=29393201">on Nov 30, 2021</a></span> <span id="unv_29393201"></span>          <span class="navs">
              | <a href="#29425772" class="clicky" aria-hidden="true">prev</a> | <a href="#29396808" class="clicky" aria-hidden="true">next</a> <a class="togg clicky" id="29393201" n="2" href="javascript:void(0)">[–]</a><span class="onstory"></span>          </span>
                   </span></div><br><div class="comment">
-                  <div class="commtext c00">It&#x27;s really bad if you don&#x27;t use uBlock Origin, that&#x27;s for sure.  The amount of ad 
+                  <div class="commtext c00">It&#x27;s really bad if you don&#x27;t use uBlock Origin, that&#x27;s for sure.  The amount of ad
  and sponsored results has gotten really bad in recent years for a lot of queries.</div>
               <div class="reply">        <p><font size="1">
                   </font>
@@ -4732,7 +4732,7 @@ change_score(&quot;stroustrup.com&quot;, +4)<p>Than you could share your code on
           <a href="user?id=rc_mob" class="hnuser">rc_mob</a> <span class="age" title="2021-11-30T16:49:51 1638290991"><a href="item?id=29394164">on Nov 30, 2021</a></span> <span id="unv_29394164"></span>          <span class="navs">
              | <a href="#29394811" class="clicky" aria-hidden="true">prev</a> | <a href="#29395901" class="clicky" aria-hidden="true">next</a> <a class="togg clicky" id="29394164" n="1" href="javascript:void(0)">[–]</a><span class="onstory"></span>          </span>
                   </span></div><br><div class="comment">
-                  <div class="commtext c00">Yes. Google and Duck Duck Go are both horrible for finding information these days. 
+                  <div class="commtext c00">Yes. Google and Duck Duck Go are both horrible for finding information these days.
 I am actively experimenting with alternate options.</div>
               <div class="reply">        <p><font size="1">
                   </font>

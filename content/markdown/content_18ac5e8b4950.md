@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="nymag.com/intelligencer/_components/clay-meta-description/instances/ckv9o2lke0004c8om9ysqm15r@published" -->
 <meta name="description" content="The former darling of the liberal media — who once railed against Goldman Sachs and Wall Street’s abettors in government — is now one of its loudest critics. Matt Taibbi says he hasn’t changed.">
-<meta name="twitter:description" content="The former darling of the liberal media is now one of its loudest critics. He says he hasn’t changed."> 
+<meta name="twitter:description" content="The former darling of the liberal media is now one of its loudest critics. He says he hasn’t changed.">
 <meta property="og:description" content="The former darling of the liberal media is now one of its loudest critics. He says he hasn’t changed.">
 
 <!-- data-uri="nymag.com/intelligencer/_components/meta-image/instances/ckv9o2lki0005c8omr9x468p3@published" -->
@@ -240,7 +240,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -320,14 +320,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -337,7 +337,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"intelligencer","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -442,11 +442,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -685,7 +685,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -945,7 +945,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -982,7 +982,7 @@ nymYTApiReady = true;
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </section>
@@ -1007,7 +1007,7 @@ data-canonical-url="http://nymag.com/intelligencer/2021/10/what-happened-to-matt
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-the-intelligencer-profile feature"
                   href="//nymag.com/intelligencer/tags/the-intelligencer-profile/">the intelligencer profile</a>
         </div>
@@ -1020,7 +1020,7 @@ data-canonical-url="http://nymag.com/intelligencer/2021/10/what-happened-to-matt
             <div class="main-author hidden-expanded-bio"><span>By</span> <span class="author-name">
         <a href="//nymag.com/author/ross-barkan/" rel="author" class="article-author"><span>Ross Barkan</span></a>,
           <span class="author-bio">a political columnist for Intelligencer</span>
-          
+
       </span></div>
 
 </span>
@@ -1103,7 +1103,7 @@ data-canonical-url="http://nymag.com/intelligencer/2021/10/what-happened-to-matt
         </div>
   </header>
   <section class="body">
-    
+
     <div id="intelligencer-zephr-anchor" class="article-content feature" data-editable="content">
       <div class="lede-image-wrapper feature vertical has-secondary-area-component">
           <div class="image-wrapper">
@@ -1467,7 +1467,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1494,8 +1494,8 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 </section>
-    <section class="secondary" data-editable="secondary" data-track-zone="secondary">  
-  
+    <section class="secondary" data-editable="secondary" data-track-zone="secondary">
+
 <div data-uri="nymag.com/intelligencer/_components/curated-feed/instances/homepage@published" data-editable="settings" class="curated-feed is-on-article-page">
 
 <div class="feed-header">THE FEED</div>
@@ -1522,7 +1522,7 @@ const ldJsonScript = document.createElement('script');
               </div>
             </div>
           </a>
-          
+
           <a href="https://nymag.com/intelligencer/article/rob-gronkowskis-guide-to-partying-and-life.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
               <time class="timestamp" datetime="2025-09-15T10:00:16.058Z">6:00 a.m.</time>
@@ -1562,9 +1562,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
         <div class="most-popular-embed">
           <section data-uri="nymag.com/intelligencer/_components/most-popular/instances/curated-feed@published" class="most-popular_curated-feed" data-track-type="article-list">
@@ -1863,9 +1863,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/trump-declares-war-on-the-opposition-after-kirk-shooting.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2039,9 +2039,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/apple-iphone-air-slim-smartphone.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2157,10 +2157,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="nymag.com/intelligencer/_components/choreographer/instances/cl38nlk2i00223f6nrvf6t10w@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2179,7 +2179,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2769,7 +2769,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="nymag.com/intelligencer/_components/affiliate-links/instances/intelligencer@published" class="affiliate-links"
    data-amazon="nymagcom-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -3044,7 +3044,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

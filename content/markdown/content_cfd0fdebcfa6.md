@@ -154,9 +154,9 @@ var hcpContext;
 <script>
 if (inJournalScope())
 	initJournalDfp();
-else if (inMicrositeScope()) 
+else if (inMicrositeScope())
 	initMicrositeDfp();
-else 
+else
 	initGlobalDfp();
 </script>
 <script defer src="http://web.archive.org/web/20240410040914js_/https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;862d15dd58e0eeb8&quot;,&quot;version&quot;:&quot;2024.2.4&quot;,&quot;token&quot;:&quot;fa0710f1386f47618f0d7685b0e0d4a3&quot;}" crossorigin="anonymous"></script>
@@ -387,7 +387,7 @@ var self = this;
 	}
 	.top-info-banner-container{
 		position: relative;
-		z-index:1010		
+		z-index:1010
 	}
 </style>
 <div class="top-info-banner-container">
@@ -428,23 +428,23 @@ var self = this;
     element.async = true;
     element.type = 'text/javascript';
     element.src = url;
-  
+
     firstScript.parentNode.insertBefore(element, firstScript);
-  
+
     function makeStub() {
       var TCF_LOCATOR_NAME = '__tcfapiLocator';
       var queue = [];
       var win = window;
       var cmpFrame;
-  
+
       function addFrame() {
         var doc = win.document;
         var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
-  
+
         if (!otherCMP) {
           if (doc.body) {
             var iframe = doc.createElement('iframe');
-  
+
             iframe.style.cssText = 'display:none';
             iframe.name = TCF_LOCATOR_NAME;
             doc.body.appendChild(iframe);
@@ -565,7 +565,7 @@ var self = this;
 </script>
 <script>
   document.addEventListener('DOMContentLoaded', checkUspString, false);
-  
+
   function checkUspString () {
     if (typeof window.__uspapi === 'function') {
         window.__uspapi('uspPing', 1, function(obj, status) {
@@ -581,13 +581,13 @@ var self = this;
         });
     }
   }
-  
+
   function setupQcPopup() {
     let footerLinks = document.querySelectorAll('.footer__nav li a')
     for (var i = 0; i < footerLinks.length; i++) {
-      if (footerLinks[i].innerText.toLowerCase().includes('ccpa') && 
+      if (footerLinks[i].innerText.toLowerCase().includes('ccpa') &&
         footerLinks[i].innerText.toLowerCase().includes('do not sell')) {
-  
+
         footerLinks[i].setAttribute('href','javascript:return false;');
         footerLinks[i].removeAttribute('target');
         footerLinks[i].removeAttribute('rel');
@@ -1023,7 +1023,7 @@ Checkout
 <template id="collapsible_tables_expand_template"><div class="collapsible-figure-btn__wrapper collapsed"><button aria-expanded="false" class="btn collapsible-figure-btn btn--inverse"><i aria-hidden="true" class="icon-arrow-down"></i><span class="text-uppercase">Expand Table</span></button></div></template>
 <template id="collapsible_figures_template"><button aria-expanded="false" data-expandable="all" data-label-expand="Show all" data-label-collapse="Hide all" class="collateral-media-control"><i aria-hidden="true" class="icon-view"></i><span>Show all</span></button></template><template id="authorsAffiliationsLink"><a href="#tab-contributors" class="to-authors-affiliations">View all authors and affiliations</a></template>
 <div id="abs-full-links" style="text-align:center" class="container"><p>You currently have no access to this content. Visit the <a style="font-size:1rem; text-decoration:underline" href="/web/20240410040914/https://journals.sagepub.com/action/showLogin?uri=/doi/10.1177/00220345870660060101">access options</a>
-page to authenticate.</p></div><script>let newNode = document.getElementById('abs-full-links'); 
+page to authenticate.</p></div><script>let newNode = document.getElementById('abs-full-links');
 let parentNode = document.querySelectorAll('[data-extent="article-wrapper"] .after-credits');
 if (parentNode && parentNode.length)
     parentNode[0].insertBefore(newNode, parentNode[0].firstChild);</script>

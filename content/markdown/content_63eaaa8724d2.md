@@ -33,9 +33,9 @@
   <meta property="og:description" content="Follow along with Kenji in real time as he makes his famous pan pizza from scratch."/>
   <meta property="og:image" content="http://web.archive.org/web/20210224222105im_/https://www.seriouseats.com/2019/04/20190319-cast-iron-pan-pizza-reshoot-vicky-wasik-27-1500x1125.jpg"/>
   <meta property="og:url" content="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/2020/07/kenji-makes-pan-pizza-video.html"/>
-  
+
         <meta itemprop="headline" content="Watch Kenji Demonstrate How Foolproof His Pan Pizza Recipe Really Is"/>
-    
+
           <meta itemprop="articleSection" content="Entry"/>
           <meta itemprop="url" content="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/2020/07/kenji-makes-pan-pizza-video.html"/>
           <meta itemprop="description" content="Follow along with Kenji in real time as he makes his famous pan pizza from scratch."/>
@@ -53,14 +53,14 @@
       "@type": "ImageObject",
       "url": "http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/img/logo-color-240x190.png"
     },
-    "sameAs" : [ 
+    "sameAs" : [
       "http://web.archive.org/web/20210224222105/https://www.facebook.com/seriouseats",
       "http://web.archive.org/web/20210224222105/https://twitter.com/seriouseats",
       "http://web.archive.org/web/20210224222105/https://plus.google.com/+seriouseats/posts",
       "http://web.archive.org/web/20210224222105/https://www.pinterest.com/seriouseats/",
       "http://web.archive.org/web/20210224222105/https://www.instagram.com/seriouseats/",
       "http://web.archive.org/web/20210224222105/https://www.youtube.com/user/SeriousEats"
-    ] 
+    ]
   }
   </script>
 
@@ -69,7 +69,7 @@
     <link href="http://web.archive.org/web/20210224222105cs_/https://static.seriouseats.com/1/braestar/live/css/global-itcss.min.css?v=20201123" rel="stylesheet">
 
 <script>!function(){try{if(!!window.MSInputMethodContext&&!!document.documentMode){var e=document.head,t=document.createElement("link");t.type="text/css",t.rel="stylesheet",t.href="http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/css/ie11.min.css?v=20201123",e.appendChild(t)}}catch(e){}}();</script>
-  
+
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="http://web.archive.org/web/20210224222105im_/https://static.seriouseats.com/1/braestar/live/ico/favicon-16x16.png">
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://web.archive.org/web/20210224222105im_/https://static.seriouseats.com/1/braestar/live/ico/apple-touch-icon-180x180.png">
@@ -112,7 +112,7 @@ const observer = new IntersectionObserver(handleIntersect, {
     /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
 
 !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<i.length;t++)i[t].href&&i[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,i){"use strict";if(r&&3===r.length){var a=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new s;u.onerror=function(){o.method="png",o.href=r[2],e(r[2])},u.onload=function(){var t=1===u.width&&1===u.height,a=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=a,n(e(a),i)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},i=function(e){return n.document.querySelector('link[href$="'+e+'"]')},a=function(e){var n,t,r,i,a,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,i=o+t[d].selectorText,a=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),a&&a[1]&&(c=decodeURIComponent(a[1]),s[i]=c);return s},c=function(e){var n,r,i,a;i="data-grunticon-embed";for(var c in e){a=c.slice(o.length);try{n=t.querySelectorAll(a)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(i)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(i)}return r},s=function(n){"svg"===e.method&&r(function(){c(a(i(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=i,e.getIcons=a,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this),function(e,n){"use strict";var t=n.document,o=function(e,t){var o=new n.XMLHttpRequest;return"withCredentials"in o?o.open("GET",e,!0):"undefined"!=typeof n.XDomainRequest&&(o=new n.XDomainRequest,o.open("GET",e)),t&&(o.onload=t),o.send(),o},r=function(n){"svg"===e.method&&e.ready(function(){o(e.href,function(){var o=t.createElement("style");o.innerHTML=this.responseText;var r=e.getCSS(e.href);r&&(r.parentNode.insertBefore(o,r),r.parentNode.removeChild(r),e.embedIcons(e.getIcons(o)),"function"==typeof n&&n())})})};e.ajaxGet=o,e.svgLoadedCORSCallback=r,e.embedSVGCors=r}(grunticon,this)}();
-  
+
   grunticon(["http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/icons/icons.data.svg.css?v=20201123", "http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/icons/icons.data.png.css?v=20201123", "http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/icons/icons.fallback.css?v=20201123"]);
 </script>
 
@@ -155,14 +155,14 @@ const observer = new IntersectionObserver(handleIntersect, {
         "@type": "ImageObject",
         "url": "http://web.archive.org/web/20210224222105/https://static.seriouseats.com/1/braestar/live/img/logo-color-240x190.png"
       },
-      "sameAs" : [ 
+      "sameAs" : [
         "http://web.archive.org/web/20210224222105/https://www.facebook.com/seriouseats",
         "http://web.archive.org/web/20210224222105/https://twitter.com/seriouseats",
         "http://web.archive.org/web/20210224222105/https://plus.google.com/+seriouseats/posts",
         "http://web.archive.org/web/20210224222105/https://www.pinterest.com/seriouseats/",
         "http://web.archive.org/web/20210224222105/https://www.instagram.com/seriouseats/",
         "http://web.archive.org/web/20210224222105/https://www.youtube.com/user/SeriousEats"
-      ]     
+      ]
     },
     "mainEntityOfPage" : "http://web.archive.org/web/20210224222105/https://www.seriouseats.com/2020/07/kenji-makes-pan-pizza-video.html"
   }
@@ -373,7 +373,7 @@ function comment_failure(post_id, response)
     $("div#post-comment-status-" + post_id).removeClass("hidden");
   } // comment_failure
 
-$(document).on("keyup", "textarea#comment-text", function() 
+$(document).on("keyup", "textarea#comment-text", function()
   {
     comment = $(this).val();
     post_id = $(this).data("post-id");
@@ -389,24 +389,24 @@ var post_id = $(this).find("input[name=post_id]").val();
     var comment_text = $(this).find("textarea").val();
     var comment_rating = $(this).find("input[name=star_rating]").val();
 
-document.getElementById("comment-post-" + post_id).disabled=true; 
+document.getElementById("comment-post-" + post_id).disabled=true;
     document.getElementById("comment-post-" + post_id).value = "Got it, thanks!";
 
 _cameo.newComment(post_id, comment_text, comment_success, comment_failure, comment_rating);
   });
 
 function commentDisplayButtonClick($button) {
-  
+
   if (!$button)
     return;
 
 var thishref = $button.attr('href');
   var post_id = $button.data("post-id");
-  
+
   $button.hide();
   $('a.hide-comments[href="' + thishref + '"]').removeClass("hidden");
   $('a.hide-comments[href="' + thishref + '"]').css("display","");
-  
+
   // showCommentSection(post_id);
   $(thishref).removeClass('hidden');
 
@@ -433,7 +433,7 @@ var commentRange = '';
 
 $('#commentRange-' + this["post_id"]).html(commentRange);
   showComments(this["blog_id"], this["post_id"], this["comments"], page_index*numCommentsPerPage, max_num, this["author_username"]);
-  
+
   if (jumpToTopOfComments) {
     document.getElementById('comments-' + this["post_id"]).scrollIntoView();
   }
@@ -444,7 +444,7 @@ return false;
 $(document).on('click', 'a.comment-display-btn', function(e){
   e.preventDefault();
   $this = $(this);
-  commentDisplayButtonClick($this);    
+  commentDisplayButtonClick($this);
 });
 
 $(document).on('click', 'a.hide-comments', function(e){
@@ -469,7 +469,7 @@ for (var i = startNum;i < endNum;i++) {
 
 try {
 
-comments[i]["text"] = comments[i]["content"].replace(urlRegex, function(url) {  
+comments[i]["text"] = comments[i]["content"].replace(urlRegex, function(url) {
         var amazonUrl = new URL(url);
         if (amazonUrl["search"].length > 0)
           amazonUrl["search"] += "&tag=se-comment-20";
@@ -479,7 +479,7 @@ comments[i]["text"] = comments[i]["content"].replace(urlRegex, function(url) {
       });
     }
     catch (e) {}
-    
+
     commentAuthor = comments[i]["author"];
     commentContent += '<a name="' + comments[i]["id"] + '"></a>';
     commentContent += '<div class="comment';
@@ -510,9 +510,9 @@ var isAuthor = false;
       isStaff = true;
       staffLabel = '<span class="label staff-user">Staff</span>';
     }
-    
+
     commentContent += '" id="' + comments[i]["id"] + '">';
-    
+
     commentContent += '<footer class="metadata">';
     if (isStaff || isAuthor)
       commentContent += '<a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/' + staffSlug + '" class="commenter';
@@ -521,7 +521,7 @@ var isAuthor = false;
 
 commentContent += '">' + comments[i]["author"];
 
-if (isStaff || isAuthor)      
+if (isStaff || isAuthor)
       commentContent += '</a>';
     else
       commentContent += '</span>';
@@ -553,7 +553,7 @@ commentContent += staffLabel + '<span>';
       var star_empty = '<i class="icon icon-nav-star-empty"></i>';
       commentContent += '<div class="rating rating-user"><span class="label">recipe rating:</span><span class="info rating-stars">';
       for (var j = 0; j < 5; j++) {
-        
+
         if (j < comments[i]["rating"])
           commentContent += star_full;
         else
@@ -562,7 +562,7 @@ commentContent += staffLabel + '<span>';
       commentContent += '</span></div>';
     }
     commentContent += '<div class="comment-content">' + comments[i]["text"].replace(regex, "<br />") + '</div></div>';
-    commentContent += '</div>';   
+    commentContent += '</div>';
   }
 // #raw
 
@@ -573,11 +573,11 @@ $("section#comments-" + post_id).find("#commentSection").html(commentContent);
 /* TODO -- move to printer page
   // Recipe post - checked comments for printing
   $('input[name$="include-comment"]').change(function() {
-    
+
     var comment_id = $(this).attr('value');
     $("div.comment#" + comment_id).toggleClass("comment-print");
 
-if ($(this).is(':checked')) { 
+if ($(this).is(':checked')) {
       var arrayIndex = (jQuery.inArray(comment_id, recipeCommentsToInclude));
       if (arrayIndex < 0) {
         recipeCommentsToInclude.push(comment_id);
@@ -600,7 +600,7 @@ function showCommentSection(post_id, comments)
   // if (!commentsDisplayed)
   // {
     var comment_container = $("section#comments-" + post_id);
-    
+
     var author_username = comment_container.data("author-username");
     var blog_id = comment_container.data("blog-id");
 
@@ -620,16 +620,16 @@ if (comments.length > 0)
     comment_count += "</span>";
 
 // #if CommentsOpen == True
-  //   commentCountText = commentCount;               
+  //   commentCountText = commentCount;
   // #end if
 
-if (comment_container.find('#commentSection').length) 
+if (comment_container.find('#commentSection').length)
     {
       if (comment_container.find('#postCommentCount').length)
       {
         comment_container.find("#postCommentCount").html(commentCountText);
       }
-      if (comment_container.find(".entryCommentCount").length > 0) 
+      if (comment_container.find(".entryCommentCount").length > 0)
       {
         comment_container.find(".entryCommentCount").each(function() {
           $(this).html(comment_count);
@@ -663,7 +663,7 @@ var display_button = $("a#comments-display-btn-" + post_id);
       {
         display_button.text("Show " + comments.length + " Comments");
         var comment_bubbles = $("div.content-main[data-id=" + post_id + "] span.comment-number");
-        for (var i = 0; i < comment_bubbles.length; ++i) 
+        for (var i = 0; i < comment_bubbles.length; ++i)
         {
           $(comment_bubbles[i]).text(comments.length);
         }
@@ -684,7 +684,7 @@ var display_button = $("a#comments-display-btn-" + post_id);
 <script>
 dataLayer = [{
     "page_type" : "entry",
-    "ad_channel" : "None",  
+    "ad_channel" : "None",
 }];
 </script>
 <!-- Google Tag Manager -->
@@ -1041,62 +1041,62 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <ul class="Search-overlay__curated-suggestions-list Search-overlay__popular">
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
             <li class="Search-overlay__curated_suggestions-list-item">
               <a data-click-id="click-popular-" data-click-category="search-overlay" class="c-button" href="">
-                
+
               </a>
             </li>
           </ul>
@@ -1125,7 +1125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
 </div>
-      <div onclick="closeSelf(event)" class="Search-overlay__close"> 
+      <div onclick="closeSelf(event)" class="Search-overlay__close">
           <svg style="pointer-events: none;" viewbox="0 0 32 32"><g fill="currentColor" fill-rule="evenodd"><rect transform="rotate(45 16 16)" y="14" width="32" height="4" rx="2"/><rect transform="scale(-1 1) rotate(45 0 -22.627)" y="14" width="32" height="4" rx="2"/></g></svg>
 
 </div>
@@ -1358,7 +1358,7 @@ function scrollProgress() {
 
 <div class="bottom-sticky-ad">
       <div class="ad-wrapper touch-display-none">
-        
+
         <div class="auto-ad" id="entry-top-billboard" data-ad-unit="SE_Horizontal_1" data-ad-size="[[970,90], [728,90]]" data-ad-mapping="horizontal_short_mapping" data-refresh-time="30000"></div>
       </div>
 
@@ -1397,14 +1397,14 @@ function scrollProgress() {
 
 <li class="label label-category"><a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/recipes/topics/meal/pizza" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/recipes/topics/meal/pizza">
           <strong>Pizza</strong></a></li>
-  
+
       </ul>
 
 <ul style="" class="list-inline list-categories list-inverse">
 
 <li class="label label-category"><a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/how-tos" data-click-category="breadcrumbs" data-click-id="https://www.seriouseats.com/how-tos">
           <strong>How-Tos</strong></a></li>
-  
+
       </ul>
 
 </div>
@@ -1447,7 +1447,7 @@ function scrollProgress() {
 
 </div>
         </header>
-      
+
         <div class="entry-body">
 
 <p><div class="entry-video-embed" style="display: block; position: relative;">
@@ -1482,7 +1482,7 @@ function scrollProgress() {
 <footer class="entry-footer">
 
 <div class="ad-wrapper touch-display-none">
-        
+
         <div class="auto-ad" id="entry-bottom" data-ad-unit="SE_Horizontal_Entry_1" data-ad-size="[[300,250]]" data-ad-mapping="below_entry_mapping" data-refresh-time="30000"></div>
       </div>
 
@@ -1559,14 +1559,14 @@ function scrollProgress() {
 
 <li class="label label-category"><a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/recipes/topics/meal/pizza" data-click-category="breadcrumbs-footer" data-click-id="https://www.seriouseats.com/recipes/topics/meal/pizza">
           <strong>Pizza</strong></a></li>
-  
+
       </ul>
 
 <ul style="padding: 0.25em 1em;" class="list-inline list-categories list-inverse">
 
 <li class="label label-category"><a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/how-tos" data-click-category="breadcrumbs-footer" data-click-id="https://www.seriouseats.com/how-tos">
           <strong>How-Tos</strong></a></li>
-  
+
       </ul>
 
 </div>
@@ -1784,8 +1784,8 @@ $(document).ready(function(){
         <div class="auto-ad" id="sidebar-bottom" data-ad-unit="SE_Rectangle_Sticky_4" data-ad-size="[[300,250], [300,600], [336,280]]" data-ad-mapping="vertical_sidebar_mapping" data-refresh-time="30000"></div>
       </div>
 
-</div> 
-  </div> 
+</div>
+  </div>
 </section>
 
 </div><!-- /content -->
@@ -1865,7 +1865,7 @@ $(document).ready(function(){
 
 </div>
   </div>
-      
+
   <section class="utility">
     <ul class="utility-links">
       <li><a href="http://web.archive.org/web/20210224222105/https://www.seriouseats.com/legal">Terms of Use</a></li>
@@ -2040,7 +2040,7 @@ try {
       "label" : "",
       "nonInteraction": false
     })
-  }, 60000);  
+  }, 60000);
 } catch (e) {}
 </script>
 
@@ -2052,7 +2052,7 @@ try {
       var location = $(this).data("location");
       dataLayer.push({
         "event": "gaEvent",
-        "category": "share", 
+        "category": "share",
         "action": event_name,
         "label": location,
         "nonInteraction": false
@@ -2103,7 +2103,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
           found: function(){
             dataLayer.push({
               "event": "gaEvent",
-              "category": "adblock", 
+              "category": "adblock",
               "action": "true",
               "label": "",
               "nonInteraction": "true"
@@ -2112,7 +2112,7 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}.block__wrapper
           notFound: function(){
             dataLayer.push({
               "event": "gaEvent",
-              "category": "adblock", 
+              "category": "adblock",
               "action": "false",
               "label": "",
               "nonInteraction": "true"
@@ -2338,7 +2338,7 @@ try {
         {
           mobile_href = bcPlayer.ima3.settings.serverUrl.replace("SE_Sidebar_Video_640x480", "SE_Video_Mobile_300x400");
           bcPlayer.ima3.settings.serverUrl = mobile_href;
-        }        
+        }
       } catch(e) { console.error(e);}
 
 }
@@ -2392,7 +2392,7 @@ $(document).ready(function() {
       var text = $(items[x]).text();
       dataLayer.push({
         "event": "gaEvent",
-        "category": "product", 
+        "category": "product",
         "action": "load",
         "label": text,
         "nonInteraction": true
@@ -2418,7 +2418,7 @@ $(function(){
 function FiniteScroll(linkedEntries, settings) {
     this.defaultSettings = {
       postSelector: ".content-main",
-      historyThreshold: 25, // percent above and below the window midpoint; controls when page title and history are updated 
+      historyThreshold: 25, // percent above and below the window midpoint; controls when page title and history are updated
       loadThreshold: 1000 // pixels beyond window bottom; controls when a new post is loaded in
     };
     this.settings = this.setSettings(settings, this.defaultSettings);
@@ -2581,7 +2581,7 @@ if(nextEntryID !== null && nextEntryID != obj.currentEntryID) {
         return false;
 
 });
-      
+
     }, // hasEntryChanged
 
 loadNextEntry: function() {
@@ -2703,7 +2703,7 @@ setListeners: function() {
       });
       $(window).on('scroll', function() {
         obj.loadTry = true;
-        
+
         if(obj.historyTry) {
           return;
         }

@@ -3,7 +3,7 @@
 **Source:** inputs/New Docs/html/www.slate.com_articles_news_and_politics_moneybox_2016_06__welfare_money_often_isn_t_spent_on_welfare.html.html
 **Processed:** 2025-08-24T19:13:22.792225
 
-![160523_welfareReform_waitImOnWelfare](/content/dam/slate/articles/business/moneybox/2016/05/welfare/160523_welfareReform_waitImOnWelfare.jpg.CROP.promo-xlarge2.jpg "160523_welfareReform_waitImOnWelfare") 
+![160523_welfareReform_waitImOnWelfare](/content/dam/slate/articles/business/moneybox/2016/05/welfare/160523_welfareReform_waitImOnWelfare.jpg.CROP.promo-xlarge2.jpg "160523_welfareReform_waitImOnWelfare")
 
 You, yes, you, might have used welfare services without knowing it.
 
@@ -27,7 +27,7 @@ As he talked, the 50 or so people in the room nudged their partners, exchanging 
 
 Roby’s audience was mostly young or middle-aged professionals who’d come to his free, five-hour seminar straight from work, still in their business-casual. Everyone there was either married or engaged; “Forever. For Real” is open to any couple who lives in Oklahoma as a kind of marriage counseling 101 to help improve relationships and build strong marriages—and along the way, dance to a little Al Green, draw pictures of what modern marriage looks like (a bicycle? A microwave? A pizza?), and discuss ways of dividing household chores and resolving conflicts.
 
-![scott roby. ](/content/dam/slate/articles/business/moneybox/2016/06/160601_MBOX_Scott-Roby.jpg.CROP.promo-medium2.jpg "scott roby. ") 
+![scott roby. ](/content/dam/slate/articles/business/moneybox/2016/06/160601_MBOX_Scott-Roby.jpg.CROP.promo-medium2.jpg "scott roby. ")
 
 Instructor Scott Roby teaching âForever. For Real,â which is part of the Oklahoma Marriage Initiative.
 
@@ -41,7 +41,7 @@ Though I am newly married myself, relationship coaching was not why I was here a
 
 Question No. 1: “How do you feel about welfare in this country?” I asked. “Do we spend enough? Too much? Not enough?”
 
-![radford.](/content/dam/slate/articles/business/moneybox/2016/06/160601_MBOX_RadfordMartin.jpg.CROP.promo-medium2.jpg "radford.") 
+![radford.](/content/dam/slate/articles/business/moneybox/2016/06/160601_MBOX_RadfordMartin.jpg.CROP.promo-medium2.jpg "radford.")
 
 Lori Radford and Trey Martin participate in a game during âForever. For Real.â
 

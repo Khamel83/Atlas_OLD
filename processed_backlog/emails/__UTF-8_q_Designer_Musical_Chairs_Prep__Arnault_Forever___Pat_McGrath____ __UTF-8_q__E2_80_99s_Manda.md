@@ -156,7 +156,7 @@ LVMH could acquire McGrath’s floundering brand, which seems improbable; I can�
 Either way, McGrath’s affinity for lavish shoots and traveling with an entourage fits in perfectly at a place like LVMH, a large corporate environment used to
 managing creatives, where a multimillion-dollar campaign is a rounding error. In her new home, McGrath will probably have unfettered access to capital for her creative endeavors. But most importantly, she’ll have time: Louis Vuitton made it clear that it will approach makeup slowly, and it can afford to do so since there’s no pressure from investors to scale. Personally, I can’t wait to see what she does.
 
- 
+
 
 What
 Rachel’s Reading…
@@ -174,7 +174,7 @@ beauty brand, Point of View. [WWD ( https://wwd.com/beauty-industry-news/color-c
 
 Sporty & Rich will now sell “wet mouth spray.” [WSJ ( https://www.wsj.com/style/fashion/emily-oberg-sensual-sport-sporty-rich-sexual-wellness-7d3ac396?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Rachel and me. Gotta rest up, big day tomorrow! 
 
@@ -233,6 +233,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVjJYhdnapWkrAchjwvjs=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

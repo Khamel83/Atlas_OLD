@@ -137,7 +137,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20141013171550/htt
 
 <body>
           <div id="leaderboard">
-        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Lifestyle.  Zone: Culture | All Culture | Print --> <div id="gpt_leaderboard_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -148,7 +148,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Lifestyle.  Zone: Culture | All Culture | Print --> <div id="gpt_subscription_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -159,7 +159,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Lifestyle.  Zone: Culture | All Culture | Print --> <div id="gpt_pencil_slug_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -171,7 +171,7 @@ ec-ads-gpt">
 </div>
 
 </div>
-        <a href="/web/20141013171550/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141013171550im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>    
+        <a href="/web/20141013171550/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141013171550im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>
 <article itemscope itemtype="http://schema.org/Article">
   <hgroup class="typog-content-header main-content-header">
     <h2 class="fly-title" itemprop="alternativeHeadline">The father of Islamic fundamentalism</h2>
@@ -185,7 +185,7 @@ ec-ads-gpt">
       Jul 15th 2010    </time>
                       | <a href="/web/20141013171550/http://www.economist.com/printedition/2010-07-17" class="source">From the print edition</a>
             </aside>
-  
+
   <div class="main-content" itemprop="articleBody">
     <div class="content-image-full"><img itemprop="contentUrl" src="http://web.archive.org/web/20141013171550im_/http://media.economist.com/images/images-magazine/2010/29/bk/201029bkp001.jpg" alt=" " title="" width="595" height="335"></div>
 <p><strong>Sayyid Qutb and the Origins of Radical Islamism</strong>. By John Calvert. Hurst &amp; Co; 256 pages; £25. <em>To be published in America by Columbia University Press in August</em>. Buy from <a target="_blank" href="http://web.archive.org/web/20141013171550/http://www.amazon.co.uk/exec/obidos/ASIN/1849040060/economistshop-21" title=" (opens in a new window) ">Amazon.co.uk</a></p>
@@ -205,7 +205,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market 
+  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market
 ">
     <div class="content clearfix">
     <div id="ec-perfect-market-container-content"></div>  </div>

@@ -54,27 +54,27 @@
 			<li><a href="#Pork">Pork</a></li>
       </ul>
   </div>
-  
-  
+
+
 <h1 style="clear:both">Sous Vide Cooking</h1>
-  
+
   <h2><a name="Sous_Vide_for_the_Home_Cook">Sous Vide for the Home Cook</a></h2>
 
 <p><img src="media/sous-vide-baldwin-uk-cover.jpeg" alt="Sous Vide for the Home Cook" style="float: left; padding-right: 10px" width="250" height="250" />
-My book, <i>Sous Vide for the Home Cook</i>, came out in 2010. 
-You can order the second edition directly from the 
+My book, <i>Sous Vide for the Home Cook</i>, came out in 2010.
+You can order the second edition directly from the
 <a href="https://sousvidesupreme.com/products/sousvide-for-the-home-cook-cookbook">US</a> publisher.
 <br><br>
-My book has over 200 delicious recipes for beef, pork, lamb, game, 
+My book has over 200 delicious recipes for beef, pork, lamb, game,
 chicken, turkey, duck, fish, shellfish, vegetables, fruits, legumes, ice
- cream bases, sauces, and yogurt. I first cover the basics of sous vide 
-cooking with &ldquo;learn by doing&rdquo; sections; 
+ cream bases, sauces, and yogurt. I first cover the basics of sous vide
+cooking with &ldquo;learn by doing&rdquo; sections;
 then I have a 10-page table with times and temperatures for every cut of
- meat or type of vegetable you're likely to come across; 
-this is followed by over 200 detailed recipes; and finally chapters on 
+ meat or type of vegetable you're likely to come across;
+this is followed by over 200 detailed recipes; and finally chapters on
 equipment, food safety, a select bibliography, and an index.
 <br><br>
-I hope you enjoy using my book as much as I enjoyed writing it. As 
+I hope you enjoy using my book as much as I enjoyed writing it. As
 always, if you have any questions or comments, please feel free to <a href="https://douglasbaldwin.com/info.html">email me.</a></p>
 
 <h2>Which edition is right for you?</h2>
@@ -183,7 +183,7 @@ always, if you have any questions or comments, please feel free to <a href="http
   <br>
   </div>
   <div class="rightColumn" >
- 
+
 <h2>Translations</h2>
 <p>
 <ul>
@@ -230,51 +230,51 @@ always, if you have any questions or comments, please feel free to <a href="http
 <hr style="clear:both; margin-top: 2em;" />
 <h2><a name="Preface">Preface</a></h2>
 
-<p>Sous vide is French for &ldquo;under vacuum&rdquo; and describes a method of 
-cooking in vacuum sealed plastic pouches at precisely controlled 
-temperatures. With the proper equipment and some basic knowledge, you 
-can prepare consistently delicious and safe food. With more advanced 
-knowledge, you can safely create (or modify) recipes to realize your 
+<p>Sous vide is French for &ldquo;under vacuum&rdquo; and describes a method of
+cooking in vacuum sealed plastic pouches at precisely controlled
+temperatures. With the proper equipment and some basic knowledge, you
+can prepare consistently delicious and safe food. With more advanced
+knowledge, you can safely create (or modify) recipes to realize your
 unique vision.</p>
 
-<p>This guide attempts to distill the science of sous vide cooking to 
-provide you with the tools you needed to safely realize your creative 
-visions. Part&nbsp;I discusses the techniques and safety concerns of 
-sous vide cooking. Some prototypical recipes are explored in 
-Part&nbsp;II. The mathematics of sous vide cooking are detailed in 
-Appendix&nbsp;A. Finally, Appendix&nbsp;B discusses the specialized 
+<p>This guide attempts to distill the science of sous vide cooking to
+provide you with the tools you needed to safely realize your creative
+visions. Part&nbsp;I discusses the techniques and safety concerns of
+sous vide cooking. Some prototypical recipes are explored in
+Part&nbsp;II. The mathematics of sous vide cooking are detailed in
+Appendix&nbsp;A. Finally, Appendix&nbsp;B discusses the specialized
 equipment used in sous vide cooking.</p>
 
 <h2><a name="Introduction">Introduction</a></h2>
 
-<p>Sous vide is a method of cooking in vacuum sealed plastic pouches at 
-relatively low temperatures for fairly long times. Sous vide differs 
-from conventional cooking methods in two fundamental ways: (i)&nbsp;the 
+<p>Sous vide is a method of cooking in vacuum sealed plastic pouches at
+relatively low temperatures for fairly long times. Sous vide differs
+from conventional cooking methods in two fundamental ways: (i)&nbsp;the
 raw food is vacuum sealed in heat-stable, food-grade plastic pouches and
  (ii)&nbsp;the food is cooked using precisely controlled heating.</p>
 
-<p>Vacuum packaging prevents evaporative losses of flavor volatiles and 
-moisture during cooking and inhibits off-flavors from oxidation (Church 
-and Parsons, 2000). This results in especially flavorful and nutritious 
+<p>Vacuum packaging prevents evaporative losses of flavor volatiles and
+moisture during cooking and inhibits off-flavors from oxidation (Church
+and Parsons, 2000). This results in especially flavorful and nutritious
 food (Church, 1998; Creed, 1998; Garc&iacute;a-Linares et al., 2004; Ghazala et
- al., 1996; Lassen et al., 2002; Schellekens, 1996; Stea et al., 2006). 
-Vacuum sealing also reduces aerobic bacterial growth and allows for the 
-efficient transfer of thermal energy from the water (or steam) to the 
+ al., 1996; Lassen et al., 2002; Schellekens, 1996; Stea et al., 2006).
+Vacuum sealing also reduces aerobic bacterial growth and allows for the
+efficient transfer of thermal energy from the water (or steam) to the
 food.</p>
 
 <p>Precise temperature control is important when you cook fish, meat, or
- poultry. Suppose you want to cook a thick-cut steak medium rare. You 
-could cook it on a grill at over 1,000&deg;F (500&deg;C) until the center hits 
+ poultry. Suppose you want to cook a thick-cut steak medium rare. You
+could cook it on a grill at over 1,000&deg;F (500&deg;C) until the center hits
 120&deg;F (50&deg;C) and then hope the center will come up to 130&deg;F (55&deg;C) after
- a short rest. You might sear one side of the steak in a pan, flip the 
-steak over, put it in a 275&deg;F (135&deg;C) oven, and pull it out just before 
+ a short rest. You might sear one side of the steak in a pan, flip the
+steak over, put it in a 275&deg;F (135&deg;C) oven, and pull it out just before
 the center comes up to 130&deg;F (55&deg;C). Or you could vacuum seal the steak,
- drop it in a 130&deg;F (55&deg;C) water bath for a few hours, pull it out of 
-your water bath just before you want to serve it, and sear the outside 
-in either a smoking hot pan or with a blowtorch; what you'll get is a 
-medium-rare steak with a great crust that is the same doneness at the 
-edge as it is at the center. Moreover, you can cook the flavorful flat 
-iron steak (very safely) in a 130&deg;F (55&deg;C) water bath for 12 hours and 
+ drop it in a 130&deg;F (55&deg;C) water bath for a few hours, pull it out of
+your water bath just before you want to serve it, and sear the outside
+in either a smoking hot pan or with a blowtorch; what you'll get is a
+medium-rare steak with a great crust that is the same doneness at the
+edge as it is at the center. Moreover, you can cook the flavorful flat
+iron steak (very safely) in a 130&deg;F (55&deg;C) water bath for 12 hours and
 it'll be both medium-rare and as tender as filet mignon.</p>
 
 <center><a name="YTBeefSteaks" />
@@ -289,54 +289,54 @@ it'll be both medium-rare and as tender as filet mignon.</p>
 
 <h3><a name="Safety_Summary">Non-technical Summary</a></h3>
 
-<p>You cook food to make it safe and tasty. Sous vide cooking is no 
-different: you just have more control over both taste and safety. In 
+<p>You cook food to make it safe and tasty. Sous vide cooking is no
+different: you just have more control over both taste and safety. In
 sous vide cooking, you pick the temperature that equals the doneness you
  want and then you cook it until it's safe and has the right texture.</p>
 
-<p>Raw food often has millions of microorganisms on or in it; most of 
-these microorganisms are spoilage or beneficial bacteria and won't make 
-you sick. But some of these microorganisms are pathogens that can make 
-you sick if you eat too many of them. Most food pathogens are bacteria, 
+<p>Raw food often has millions of microorganisms on or in it; most of
+these microorganisms are spoilage or beneficial bacteria and won't make
+you sick. But some of these microorganisms are pathogens that can make
+you sick if you eat too many of them. Most food pathogens are bacteria,
 but some are viruses, funguses, and parasites. Your yogurt, aged cheese,
- and cured salami can have hundreds of millions of spoilage or 
-beneficial bacteria in every serving; but they don't make you sick 
-because spoilage and beneficial bacteria are distinct from pathogens. 
+ and cured salami can have hundreds of millions of spoilage or
+beneficial bacteria in every serving; but they don't make you sick
+because spoilage and beneficial bacteria are distinct from pathogens.
 Since pathogens don't spoil food, you can't see, smell, or taste them.</p>
 
-<p>While there are many ways to kill food pathogens, cooking is the 
-easiest. Every food pathogen has a temperature that it can't grow above 
-and a temperature it can't grow below. They start to die above the 
-temperature that they stop growing at and the higher above this 
-temperature you go, the faster they die. Most food pathogens grow 
+<p>While there are many ways to kill food pathogens, cooking is the
+easiest. Every food pathogen has a temperature that it can't grow above
+and a temperature it can't grow below. They start to die above the
+temperature that they stop growing at and the higher above this
+temperature you go, the faster they die. Most food pathogens grow
 fastest a few degrees below the temperature that they start to die. Most
- food pathogens stop growing by 122&deg;F (50&deg;C), but the common food 
-pathogen <em>Clostridium perfringens</em> can grow at up to 126.1&deg;F 
+ food pathogens stop growing by 122&deg;F (50&deg;C), but the common food
+pathogen <em>Clostridium perfringens</em> can grow at up to 126.1&deg;F
 (52.3&deg;C). So in sous vide cooking, you usually cook at 130&deg;F (54.4&deg;C) or
- higher. (You could cook your food at slightly lower temperatures, but 
+ higher. (You could cook your food at slightly lower temperatures, but
 it would take you a lot longer to kill the food pathogens.)</p>
 
-<p>While there are a lot of different food pathogens that can make you 
-sick, you only need to worry about killing the toughest and most 
-dangerous. The three food pathogens you should worry about when cooking 
+<p>While there are a lot of different food pathogens that can make you
+sick, you only need to worry about killing the toughest and most
+dangerous. The three food pathogens you should worry about when cooking
 sous vide are the <em>Salmonella</em> species, <em>Listeria monocytogenes</em>, and the pathogenic strains of <em>Escherichia coli</em>. <em>Listeria</em> is the hardest to kill but it takes fewer <em>Salmonella</em> or <em>E. coli</em>
- bacteria to make you sick. Since you don't know how many pathogens are 
+ bacteria to make you sick. Since you don't know how many pathogens are
 in your food, most experts recommend that you cook your food to reduce: <em>Listeria</em> by at least a million to one; <em>Salmonella</em> by ten million to one; and <em>E. coli</em>
  by a hundred thousand to one. You can easily do this when you cook sous
- vide: you just keep your food in a 130&deg;F (54.4&deg;C) or hotter water bath 
+ vide: you just keep your food in a 130&deg;F (54.4&deg;C) or hotter water bath
 until enough bacteria have been killed. </p>
 
-<p>How long does it take for you to reduce, say, <em>Listeria</em> by a 
-million to one? Your water bath temperature is very important: when 
-cooking beef, it'll take you four times longer at 130&deg;F (54.4&deg;C) as it 
-does at 140&deg;F (60&deg;C). What you are cooking is also important: at 140&deg;F 
+<p>How long does it take for you to reduce, say, <em>Listeria</em> by a
+million to one? Your water bath temperature is very important: when
+cooking beef, it'll take you four times longer at 130&deg;F (54.4&deg;C) as it
+does at 140&deg;F (60&deg;C). What you are cooking is also important: at 140&deg;F
 (60&deg;C), it'll take you about 60% longer for chicken as it does for beef.
  Other things, like salt and fat content, also affect how long it takes;
  but these difference are small compared with temperature and species.</p>
 
-<p>Since sous vide cooking in a water bath is very consistent, I've 
-calculated the worst-case cooking times so you don't have to. My 
-worst-case cooking times are based on the temperature, thickness, and 
+<p>Since sous vide cooking in a water bath is very consistent, I've
+calculated the worst-case cooking times so you don't have to. My
+worst-case cooking times are based on the temperature, thickness, and
 type of the food and will give at least a million to one reduction in <em>Listeria</em>, a ten million to one reduction in <em>Salmonella</em>, and a hundred thousand to one reduction in <em>E. coli</em>:</p>
 <ul>
 	<li><a href="#Table_3.1">Table 3.1</a> has the pasteurization times for fish;</li>
@@ -344,27 +344,27 @@ type of the food and will give at least a million to one reduction in <em>Lister
 	<li><a href="#Table_5.1">Table 5.1</a> has the pasteurization times for meat (beef, pork, and lamb).</li>
 </ul>
 
-<p>Thick pieces of food, like a rib-roast, take much longer to cook and 
-cool than thin pieces of food: a steak that is twice as thick takes 
-about four times longer to cook and cool! So unless you are cooking a 
+<p>Thick pieces of food, like a rib-roast, take much longer to cook and
+cool than thin pieces of food: a steak that is twice as thick takes
+about four times longer to cook and cool! So unless you are cooking a
 rib-roast for a party, you should cut your food into individual portions
- that can be cooled quickly and easily.  It's important that your 
-pouches of food do not crowd or overlap each other in your water bath 
-and are completely under the water; otherwise my tables will 
+ that can be cooled quickly and easily.  It's important that your
+pouches of food do not crowd or overlap each other in your water bath
+and are completely under the water; otherwise my tables will
 underestimate the cooking time.</p>
 
-<p>If you're not going to eat all your food immediately, then you need 
-to know that some bacteria are able to make spores. Spores themselves 
-will not make you sick, but they can become active bacteria that could. 
+<p>If you're not going to eat all your food immediately, then you need
+to know that some bacteria are able to make spores. Spores themselves
+will not make you sick, but they can become active bacteria that could.
 Cooking to kill active bacteria like <em>Listeria</em>, <em>Salmonella</em>, and <em>E. coli</em>
- will leave these spores unharmed. If you keep your food hot, then the 
+ will leave these spores unharmed. If you keep your food hot, then the
 spores will not become active bacteria. But when you cool your food, the
- spores can become active bacteria: if you cool your food too slowly or 
-store it for too long, then these active bacteria can multiply and make 
-you sick. To keep these spores from becoming active bacteria, you must 
-quickly cool your food &ndash; still sealed in its pouch &ndash; in ice water that 
-is at least half ice until it's cold all the way through. You can then 
-store your food in your refrigerator for a few days or freeze it for up 
+ spores can become active bacteria: if you cool your food too slowly or
+store it for too long, then these active bacteria can multiply and make
+you sick. To keep these spores from becoming active bacteria, you must
+quickly cool your food &ndash; still sealed in its pouch &ndash; in ice water that
+is at least half ice until it's cold all the way through. You can then
+store your food in your refrigerator for a few days or freeze it for up
 to a year. <a href="#Table_1.1">Table 1.1</a> has approximate cooling times in ice water based on thickness and shape.</p>
 
 <p>If you want to learn more about food safety, please continue reading below; see my book <em>Sous Vide for the Home Cook</em>; <a href="https://douglasbaldwin.com/HACCP_for_Home_by_Snyder.pdf">the excellent free guide by Dr.&nbsp;Snyder</a>; <a href="http://www.foodsafety.gov/">the FDA's food safety website</a>; or your local health and human services department.</p>
@@ -403,8 +403,8 @@ Cooling Time to 41&deg;F (5&deg;C) in Ice Water
 </tbody>
 </table></div>
 <div class="caption">
-Table 1.1: Approximate cooling time from 130&ndash;175&deg;F (55&ndash;80&deg;C) to 41&deg;F 
-(5&deg;C) in an ice water bath that's at least half ice. (My calculations 
+Table 1.1: Approximate cooling time from 130&ndash;175&deg;F (55&ndash;80&deg;C) to 41&deg;F
+(5&deg;C) in an ice water bath that's at least half ice. (My calculations
 assume that the food's thermal diffusivity is 1.1&times;10<sup>-7</sup>m<sup>2</sup>/s and the ice water bath has a surface heat transfer coefficient of 100 W/m<sup>2</sup>-K. For more details, see <a href="#The_Mathematics_of_Sous_Vide">Appendix A</a>.)
 </div>
 
@@ -419,98 +419,98 @@ assume that the food's thermal diffusivity is 1.1&times;10<sup>-7</sup>m<sup>2</
 
 <p> So why were you taught that food pathogens stop multiplying at 40&deg;F (4.4&deg;C) and grow all the way up to 140&deg;F (60&deg;C)? Because it takes days for food pathogens to grow to a dangerous level at 40&deg;F (4.4&deg;C) (FDA, 2011) and it takes many hours for food to be made safe at just above 126.1&deg;F (52.3&deg;C) &ndash; compared with only about 12 minutes (for meat) and 35 minutes (for poultry) to be made safe when the coldest part is 140&deg;F (60&deg;C) (FSIS, 2005; FDA, 2009, 3-401.11.B.2). Indeed, the food pathogens that can multiply down to 29.7&deg;F (-1.3&deg;C) &ndash; <em>Yersinia enterocolitica</em> and <em>Listeria monocytogenes</em> &ndash; can only multiply about once per day at 40&deg;F (4.4&deg;C) and so you can hold food below 40&deg;F (4.4&deg;C) for five to seven days (FDA, 2011). At 126.1&deg;F (52.3&deg;C), when the common food pathogen <em>Clostridium perfringens</em> stops multiplying, it takes a very long time to reduce the food pathogens we&rsquo;re worried about &ndash; namely the <em>Salmonella</em> species, <em>Listeria monocytogenes</em>, and the pathogenic strains of <em>Escherichia coli</em> &ndash; to a safe level; in a 130&deg;F (54.4&deg;C) water bath (the lowest temperature I recommend for cooking sous vide) it&rsquo;ll take you about 2&frac12; hours to reduce <em>E. coli</em> to a safe level in a 1&nbsp;inch (25&nbsp;mm) thick hamburger patty and holding a hamburger patty at 130&deg;F (54.4&deg;C) for 2&frac12;&nbsp;hours is inconceivable with traditional cooking methods &ndash; which is why the &ldquo;danger zone&rdquo; conceived for traditional cooking methods doesn&rsquo;t start at 130&deg;F (54.4&deg;C). [Note that Johnson et al. (1983) reported that <em>Bacillus cereus</em> could multiply at 131&deg;F/55&deg;C, but no one else has demonstrated growth at this temperature and so <em>Clostridium perfringens</em> is used instead.] </p>
 
-<p> We can divide sous vide prepared foods into three categories: 
-(i)&nbsp;raw or unpasteurized, (ii)&nbsp;pasteurized, and 
-(iii)&nbsp;sterilized. Most people cook food to make it more palatable 
-and to kill most the pathogenic microorganisms on or in it. Killing 
-enough active, multiplying food pathogens to make your food safe is 
+<p> We can divide sous vide prepared foods into three categories:
+(i)&nbsp;raw or unpasteurized, (ii)&nbsp;pasteurized, and
+(iii)&nbsp;sterilized. Most people cook food to make it more palatable
+and to kill most the pathogenic microorganisms on or in it. Killing
+enough active, multiplying food pathogens to make your food safe is
 called pasteurization. Some bacteria are also able to form
-spores that are very resistant to heat and chemicals; heat the food to 
-kill both the active microorganisms and the spores is called 
-sterilization. [Sterilization is typically achieved 
-by using a pressure cooker to heat the center of the food 
-to 250&deg;F (121&deg;C) for 2.4 minutes (Snyder, 2006). 
-To sterilize food sous vide, you'll need special retort plastic bags 
+spores that are very resistant to heat and chemicals; heat the food to
+kill both the active microorganisms and the spores is called
+sterilization. [Sterilization is typically achieved
+by using a pressure cooker to heat the center of the food
+to 250&deg;F (121&deg;C) for 2.4 minutes (Snyder, 2006).
+To sterilize food sous vide, you'll need special retort plastic bags
 that can be used in a pressure cooker or an autoclave.]</p>
 
-<p>Foods you've pasteurized must either be eaten immediately or rapidly 
-chilled and refrigerated to prevent the outgrowth and multiplication of 
-spores. Moreover, the center of the food should reach 130&deg;F (54.4&deg;C) 
+<p>Foods you've pasteurized must either be eaten immediately or rapidly
+chilled and refrigerated to prevent the outgrowth and multiplication of
+spores. Moreover, the center of the food should reach 130&deg;F (54.4&deg;C)
 within 6&nbsp;hours to prevent the toxin producing pathogen <em>Clostridium perfringens</em> from multiplying to dangerous levels (Willardsen et al., 1977).</p>
 
-<p>Raw or unpasteurized food must never be served to highly susceptible 
-or immune compromised people. Even for immune competent individuals, 
+<p>Raw or unpasteurized food must never be served to highly susceptible
+or immune compromised people. Even for immune competent individuals,
 it's important that raw and unpasteurized foods are consumed before food
- pathogens have had time to multiply to harmful levels. With this in 
-mind, the US Food Code requires that such food can only be between 41&deg;F 
+ pathogens have had time to multiply to harmful levels. With this in
+mind, the US Food Code requires that such food can only be between 41&deg;F
 (5&deg;C) and 130&deg;F (54.4&deg;C) for less than 4 hours (FDA, 2009, 3-501.19.B).</p>
 
 <p>Pasteurization is a combination of both temperature and time. Consider the common food pathogen <em>Salmonella</em> species. At 140&deg;F (60&deg;C), all the <em>Salmonella</em>
- in a piece of ground beef doesn't instantly die &ndash; it is reduced by a 
-factor ten every 5.48 minutes (Juneja et al., 2001). This is often 
+ in a piece of ground beef doesn't instantly die &ndash; it is reduced by a
+factor ten every 5.48 minutes (Juneja et al., 2001). This is often
 referred as a one decimal reduction and is written D<sub>60</sub><sup>6.0</sup>
- = 5.48 minutes, where the subscript specifies the temperature (in &deg;C) 
-that the D-value refers to and the superscript is the z-value (in &deg;C). 
-The z-value specifies how the D-value changes with temperature; 
+ = 5.48 minutes, where the subscript specifies the temperature (in &deg;C)
+that the D-value refers to and the superscript is the z-value (in &deg;C).
+The z-value specifies how the D-value changes with temperature;
 increasing the temperature by the z-value decreases the time needed for a
  one decimal reduction by a factor ten. So, D<sub>66</sub><sup>6.0</sup> = 0.55 minutes and D<sub>54</sub><sup>6.0</sup>
- = 54.8 minutes. How many decimal reductions are necessary depends on 
+ = 54.8 minutes. How many decimal reductions are necessary depends on
 how contaminated the beef is and how susceptible you are to <em>Salmonella</em> species &ndash; neither of which you're likely to know. FSIS (2005) recommends a 6.5&nbsp;decimal reduction of <em>Salmonella</em> in beef, so the coldest part should be at least 140&deg;F (60&deg;C) for at least 6.5D<sub>60</sub><sup>6.0</sup> = 35.6 minutes.</p>
 
 <p>The rate at which the bacteria die depends on many factors, including
- temperature, meat species, muscle type, fat content, acidity, salt 
-content, certain spices, and water content. The addition of acids, 
-salts, or spices can all decrease the number of active pathogens &ndash; this 
-is why mayonnaise (with a pH less than 4.1) does not need to be cooked. 
-Chemical additives like sodium lactate and calcium lactate are often 
-used in the food industry to reduce the risk of spore forming pathogens 
+ temperature, meat species, muscle type, fat content, acidity, salt
+content, certain spices, and water content. The addition of acids,
+salts, or spices can all decrease the number of active pathogens &ndash; this
+is why mayonnaise (with a pH less than 4.1) does not need to be cooked.
+Chemical additives like sodium lactate and calcium lactate are often
+used in the food industry to reduce the risk of spore forming pathogens
 like <em>Clostridium</em> species and <em>Bacillus cereus</em> (Aran, 2001; Rybka-Rodgers, 2001).</p>
 
 <h3><a name="Safety_Pathogens_of_Interest">Pathogens of Interest</a></h3>
 
-<p>Sous vide processing is used in the food industry to extend the 
+<p>Sous vide processing is used in the food industry to extend the
 shelf-life of food products; when pasteurized sous vide pouches are held
  at below 38&deg;F (3.3&deg;C), they remain safe and palatable for three to four
- weeks (Armstrong and McIlveen, 2000; Betts and Gaze, 1995; Church, 
-1998; Creed, 1995; Gonz&aacute;lez-Fandos et al., 2004, 2005; Hansen et al., 
-1995; Mossel and Struijk, 1991; Nyati, 2000a; Peck, 1997; Peck and 
-Stringer, 2005; Rybka-Rodgers, 2001; Simpson et al., 1994; Vaudagna et 
+ weeks (Armstrong and McIlveen, 2000; Betts and Gaze, 1995; Church,
+1998; Creed, 1995; Gonz&aacute;lez-Fandos et al., 2004, 2005; Hansen et al.,
+1995; Mossel and Struijk, 1991; Nyati, 2000a; Peck, 1997; Peck and
+Stringer, 2005; Rybka-Rodgers, 2001; Simpson et al., 1994; Vaudagna et
 al., 2002).</p>
 
 <p>The simplest and safest method of sous vide cooking is cook-hold: the
- raw (or partially cooked) ingredients are vacuum sealed, pasteurized, 
+ raw (or partially cooked) ingredients are vacuum sealed, pasteurized,
 and then held at 130&deg;F (54.4&deg;C) or above until served. While hot holding
- the food will prevent any food pathogens from growing, meat and 
-vegetables will continue to soften and may become mushy if held for too 
-long. How long is too long depends on both the holding temperature and 
+ the food will prevent any food pathogens from growing, meat and
+vegetables will continue to soften and may become mushy if held for too
+long. How long is too long depends on both the holding temperature and
 what is being cooked. Most foods have an optimal holding time at a given
- temperature; adding or subtracting 10% to this time won't change the 
-taste or texture noticeably; holding for up to twice this time is 
+ temperature; adding or subtracting 10% to this time won't change the
+taste or texture noticeably; holding for up to twice this time is
 usually acceptable.</p>
 
 <p>For cook-hold sous vide, the main pathogens of interest are the <em>Salmonella</em> species and the pathogenic strains of <em>Escherichia coli</em>.
- There are, of course, many other food pathogens but these two species 
-are relatively heat resistant and require very few active bacteria 
-(measured in colony forming units, CFU, per gram) to make you sick. 
-Since you're unlikely to know how contaminated your food is or how many 
-of these bacteria your (or your guests) immune system can handle, most 
+ There are, of course, many other food pathogens but these two species
+are relatively heat resistant and require very few active bacteria
+(measured in colony forming units, CFU, per gram) to make you sick.
+Since you're unlikely to know how contaminated your food is or how many
+of these bacteria your (or your guests) immune system can handle, most
 experts recommend a 6.5 to 7 decimal reductions of all <em>Salmonella</em> species and a 5&nbsp;decimal reduction of pathogenic <em>E. coli</em>.</p>
 
-<p>The most popular methods of sous vide cooking are cook-chill and 
-cook-freeze &ndash; raw (or partially cooked) ingredients are vacuum sealed, 
+<p>The most popular methods of sous vide cooking are cook-chill and
+cook-freeze &ndash; raw (or partially cooked) ingredients are vacuum sealed,
 pasteurized, rapidly chilled (to avoid sporulation of <em>C. perfringens</em>
- (Andersson et al., 1995)), and either refrigerated or frozen until 
-reheating for service. Typically, the pasteurized food pouches are 
-rapidly chilled by placing them in an ice water bath for at least the 
+ (Andersson et al., 1995)), and either refrigerated or frozen until
+reheating for service. Typically, the pasteurized food pouches are
+rapidly chilled by placing them in an ice water bath for at least the
 time listed in Table&nbsp;1.1.</p>
 
 <p>For cook-chill sous vide, <em>Listeria monocytogenes</em> and the spore forming pathogenic bacteria are our pathogens of interest. That's because <em>Listeria</em>
- is the most heat resistant non-spore forming pathogen and can grow at 
-refrigerator temperatures (Nyati, 2000b; Rybka-Rodgers, 2001), but 
+ is the most heat resistant non-spore forming pathogen and can grow at
+refrigerator temperatures (Nyati, 2000b; Rybka-Rodgers, 2001), but
 appears to require more bacteria to make you sick than <em>Salmonella</em> or <em>E. coli</em>. Most experts recommend a 6&nbsp;decimal reduction in <em>Listeria</em> if you don't know the contamination level of your food.</p>
 
 <p>While keeping your food sealed in plastic pouches prevents recontamination after cooking, spores of <em>Clostridium botulinum</em>, <em>C. perfringens</em>, and <em>B. cereus</em>
- can all survive the mild heat treatment of pasteurization. Therefore, 
+ can all survive the mild heat treatment of pasteurization. Therefore,
 after rapid chilling, the food must either be frozen or held at</p>
 <ol>
 	<li>below 36.5&deg;F (2.5&deg;C) for up to 90 days,</li>
@@ -521,15 +521,15 @@ after rapid chilling, the food must either be frozen or held at</p>
 <p>to prevent spores of non-proteolytic <em>C. botulinum</em> from outgrowing and producing deadly neurotoxin (Gould, 1999; Peck, 1997).</p>
 
 <p>A few sous vide recipes use temperature and time combinations which can reduce non-proteolytic <em>C. botulinum</em> to a safe level; specifically, a 6&nbsp;decimal reduction in non-proteolytic <em>C. botulinum</em>
- requires 520&nbsp;minutes (8&nbsp;hours 40&nbsp;minutes) at 167&deg;F 
-(75&deg;C), 75&nbsp;minutes at 176&deg;F (80&deg;C), or 25&nbsp;minutes at 185&deg;F 
-(85&deg;C) (Fern&aacute;ndez and Peck, 1999). The food may then be stored at below 
+ requires 520&nbsp;minutes (8&nbsp;hours 40&nbsp;minutes) at 167&deg;F
+(75&deg;C), 75&nbsp;minutes at 176&deg;F (80&deg;C), or 25&nbsp;minutes at 185&deg;F
+(85&deg;C) (Fern&aacute;ndez and Peck, 1999). The food may then be stored at below
 39&deg;F (4&deg;C) indefinitely, the minimum temperature at which <em>B. cereus</em>
- can grow (Andersson et al., 1995). While O'Mahony et al. (2004) found 
-that the majority of pouches after vacuum packaging had high levels of 
-residual oxygen, this doesn't imply that the <em>Clostridium</em> 
+ can grow (Andersson et al., 1995). While O'Mahony et al. (2004) found
+that the majority of pouches after vacuum packaging had high levels of
+residual oxygen, this doesn't imply that the <em>Clostridium</em>
 species &ndash; which require the absence of oxygen to grow &ndash; aren't a problem
- since the interior of the food often has an absence of oxygen. Most 
+ since the interior of the food often has an absence of oxygen. Most
 other food pathogens are able to grow with or without oxygen.</p>
 
 <h2><a name="Basic_Technique">2. Basic Technique</a></h2>
@@ -635,7 +635,7 @@ has two effects: it dissolves some of the support
 structure of the muscle fibers so they cannot
 coagulate into dense aggregates and it allows the
 meat to absorb between 10&ndash;25% of its weight in water
-(which may include aromatics from herbs and spices) 
+(which may include aromatics from herbs and spices)
 (Graiver et al., 2006; McGee, 2004). While the
 meat will still lose around 20% of its weight when
 cooked, the net effect will be a loss of only about
@@ -743,12 +743,12 @@ time four fold!</p>
 	<td>(50&deg;C)</td><td>140&deg;F</td><td>(60&deg;C)</td></tr></tbody>
 </table></div>
 <div class="caption">
-Table 2.1: Temperatures corresponding to rare, medium-rare and medium 
+Table 2.1: Temperatures corresponding to rare, medium-rare and medium
 in meat and fish.</div>
 
 <p>While there is no consensus as to what temperatures
 rare, medium-rare and medium correspond
-to, I use the temperatures in Table 2.1. In general, 
+to, I use the temperatures in Table 2.1. In general,
 the tenderness of meat increases
 from 122&deg;F to 150&deg;F (50&deg;C to 65&deg;C) but then
 decreases up to 175&deg;F (80&deg;C) (Powell et al., 2000;
@@ -792,11 +792,11 @@ Heating Time from 41&deg;F (5&deg;C) to 1&deg;F (0.5&deg;C) Less Than the Water 
 </table></div>
 <div class="caption">
 Table 2.2: Approximate heating times for thawed meat to 1&deg;F (0.5&deg;C) less
- than the water bath's temperature. You can decrease the time by about 
-13% if you only want to heat the meat to within 2&deg;F (1&deg;C) of the water 
+ than the water bath's temperature. You can decrease the time by about
+13% if you only want to heat the meat to within 2&deg;F (1&deg;C) of the water
 bath's temperature. <b>Do not use these times to compute pasteurization times: use the pasteurization tables below.</b>
- (My calculations assume that the water bath's temperature is between 
-110&deg;F (45&deg;C) and 175&deg;F (80&deg;C). I use a typical thermal diffusivity of 
+ (My calculations assume that the water bath's temperature is between
+110&deg;F (45&deg;C) and 175&deg;F (80&deg;C). I use a typical thermal diffusivity of
 1.4&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s and surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K.) For thicker cuts and warmer water baths, heating time may (counter-intuitively) be <em>longer</em> than pasteurization time. </div>
 
 <div class="table"><a name="Table_2.3"></a>
@@ -834,11 +834,11 @@ Heating Time from Frozen to 1&deg;F (0.5&deg;C) Less Than the Water Bath's Tempe
 </table></div>
 <div class="caption">
 Table 2.3: Approximate heating times for frozen meat to 1&deg;F (0.5&deg;C) less
- than the water bath's temperature. You can decrease the time by about 
-13% if you only want to heat the meat to within 2&deg;F (1&deg;C) of the water 
+ than the water bath's temperature. You can decrease the time by about
+13% if you only want to heat the meat to within 2&deg;F (1&deg;C) of the water
 bath's temperature. <b>Do not use these times to compute pasteurization times: use the pasteurization tables below.</b>
- (My calculations assume that the water bath's temperature is between 
-110&deg;F (45&deg;C) and 175&deg;F (80&deg;C). I use a typical thermal diffusivity of 
+ (My calculations assume that the water bath's temperature is between
+110&deg;F (45&deg;C) and 175&deg;F (80&deg;C). I use a typical thermal diffusivity of
 1.4&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s and surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K.)
 </div>
 
@@ -896,7 +896,7 @@ refrigerated (or frozen) until needed. Before finishing
 for service, the food is then reheated in a water
 bath at or below the temperature it was cooked in.
 Typically, meat is reheated in a 131&deg;F (55&deg;C) water
-bath for the times listed in Tables 2.2 or 2.3 
+bath for the times listed in Tables 2.2 or 2.3
 since the optimal serving temperature for
 meat is between 120&deg;F&ndash;130&deg;F (50&deg;C&ndash;55&deg;C).</p>
 
@@ -909,13 +909,13 @@ and refrigeration guidelines, see Chapter 1.</p>
 
 <h3><a name="Finishing_for_Service">Finishing for Service</a></h3>
 
-<p>Since sous vide is essentially a very controlled and precise poach, 
-most food cooked sous vide has the appearance of being poached.  
-So foods like fish, shellfish, eggs, and skinless poultry 
-can be served as is.  
-However, steaks and pork chops are not traditionally poached 
-and usually require searing or saucing. 
-Searing the meat is particularly popular 
+<p>Since sous vide is essentially a very controlled and precise poach,
+most food cooked sous vide has the appearance of being poached.
+So foods like fish, shellfish, eggs, and skinless poultry
+can be served as is.
+However, steaks and pork chops are not traditionally poached
+and usually require searing or saucing.
+Searing the meat is particularly popular
 because the Maillard reaction (the browning) adds considerable flavor.  </p>
 
 <h4><a name="Maillard_Reaction">Maillard Reaction</a></h4>
@@ -984,7 +984,7 @@ a particularly nice crust on beef; while many use
 a hardware propane blowtorch, I highly recommend
 using an Iwatani butane blowtorch since propane can
 leave an off-flavor. I prefer the lower temperature of a
-skillet with just smoking vegetable or nut oil 
+skillet with just smoking vegetable or nut oil
 (400&deg;F/200&deg;C to 500&deg;F/250&deg;C) when searing fish, poultry
 and pork. Since the searing time at these high temperatures
 is very short (5&ndash;30 seconds), mutagens formation
@@ -1008,13 +1008,13 @@ or tweezers).</p>
 <p>Most fin and shellfish are best cooked medium
 (140&deg;F/60&deg;C) to medium-rare (120&deg;F/49&deg;C). The exceptions
 being arctic char and salmon which are best
-cooked medium-rare (120&deg;F/49&deg;C) to rare (110&deg;F/43&deg;C) 
-and tuna which is best cooked rare (110&deg;F/43.5&deg;C) to very 
+cooked medium-rare (120&deg;F/49&deg;C) to rare (110&deg;F/43&deg;C)
+and tuna which is best cooked rare (110&deg;F/43.5&deg;C) to very
 rare (100&deg;F/38&deg;C).</p>
 
 <p>Fish intended for immune compromised individuals
 or for cold holding (i.e., cook-chill) should
-be pasteurized for at least the times in Table 3.1 
+be pasteurized for at least the times in Table 3.1
 (to achieve 6D reduction of Listeria
 monocytogenes). While such a pasteurization will
 reduce all non-spore forming pathogens and parasites
@@ -1031,7 +1031,7 @@ pasteurization, the fish should be stored at below
 38&deg;F (3.3&deg;C) for no more than three to four weeks.</p>
 
 <div class="table"><a name="Table_3.1"></a>
-Pasteurization Time for Lean Fish<br> 
+Pasteurization Time for Lean Fish<br>
 (starting at 41&deg;F / 5&deg;C and put in a 131&ndash;140&deg;F / 55&ndash;60&deg;C water bath)<br>
 <table>
   <thead>
@@ -1055,7 +1055,7 @@ Pasteurization Time for Lean Fish<br>
 <tr><td>70 mm</td><td>7&frac12; hr</td><td>6&frac34; hr</td><td>6 hr</td><td>5&frac12; hr</td><td>5 hr</td><td>4&frac34; hr</td></tr>
 </tbody></table>
 <br>
-Pasteurization Time for Fatty Fish<br> 
+Pasteurization Time for Fatty Fish<br>
 (starting at 41&deg;F / 5&deg;C and put in a 131&ndash;140&deg;F / 55&ndash;60&deg;C water bath)<br>
 <table>
 <thead>
@@ -1080,8 +1080,8 @@ Pasteurization Time for Fatty Fish<br>
 </tbody></table>
 </div>
 <div class="caption">
-Table 3.1: Pasteurization times for a one million to one reduction of <em>Listeria</em> in fin-fish. 
-I used D<sub>60</sub><sup>5.59</sup> = 2.88 minutes for lean fish (such as cod) and D<sub>60</sub><sup>5.68</sup> = 5.13 minutes for fatty fish (such as salmon) from Embarek and Huss (1993). 
+Table 3.1: Pasteurization times for a one million to one reduction of <em>Listeria</em> in fin-fish.
+I used D<sub>60</sub><sup>5.59</sup> = 2.88 minutes for lean fish (such as cod) and D<sub>60</sub><sup>5.68</sup> = 5.13 minutes for fatty fish (such as salmon) from Embarek and Huss (1993).
 For my calculations I used a thermal diffusivity of 0.995&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s, a surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K, and took &#946; = 0.28 (to simulate the heating speed of a 2:3:5 box).</div>
 
 <h3><a name="Poached_Fish">Poached Fish</a></h3>
@@ -1163,7 +1163,7 @@ is to quickly sear the salmon (skin side only) in a pan
 over high heat with just smoking oil. The skin will then
 easily peel off the flesh. The skin can then be finished
 with a blowtorch or simply placed in a warm oven until
-needed. If cooking the salmon rare or medium-rare, cut the skin off the 
+needed. If cooking the salmon rare or medium-rare, cut the skin off the
 fish and then crisp it between cooking sheets in the oven.</p>
 
 <p>After the salmon has finished brining, rinse and pat
@@ -1174,8 +1174,8 @@ virgin olive oil (frozen overnight if using a clamp style
 vacuum sealer).</p>
 
 <p>Cut the salmon into individual servings and vacuum seal. For rare and
- medium-rare salmon, cook the salmon for 15&ndash;20 minutes. For medium 
-salmon, pasteurize it for the time listed in Table 3.1. Then remove the 
+ medium-rare salmon, cook the salmon for 15&ndash;20 minutes. For medium
+salmon, pasteurize it for the time listed in Table 3.1. Then remove the
 salmon from its pouch,
 garnish with crisped salmon skin, and serve
 immediately.</p>
@@ -1214,7 +1214,7 @@ breasts (one per bag). The breasts may be frozen at this
 point until needed.</p>
 
 <p>To cook and pasteurize, place (thawed) breast in a 146&deg;F
-(63.5&deg;C) water bath for the times listed in Table 4.1. 
+(63.5&deg;C) water bath for the times listed in Table 4.1.
 [After cooking, the breasts may be rapidly
 cooled in ice water (see Table 1.1) and frozen
 or refrigerated at below 38&deg;F (3.3&deg;C) for up to three to
@@ -1250,7 +1250,7 @@ Pasteurization Time for Poultry<br />
 </tbody>
 </table></div>
 <div class="caption">
-Table 4.1: Time required for at least a one million to one reduction in <em>Listeria</em> and a ten million to one reduction in <em>Salmonella</em> in poultry starting at 41&deg;F (5&deg;C). I calculated the D- and z-values using linear regression from (O'Bryan et al., 2006): for <em>Salmonella</em> I used D<sub>60</sub><sup>6.45</sup> = 4.68 minutes and for <em>Listeria</em> I used D<sub>60</sub><sup>5.66</sup> = 5.94 minutes. For my calculations I used a thermal diffusivity of 1.08&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s, a surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K, and took &#946;=0.28 (to simulate the heating speed of a 2:3:5 box). For more information on calculating log reductions, see <a href="#The_Mathematics_of_Sous_Vide">Appendix A</a>. 
+Table 4.1: Time required for at least a one million to one reduction in <em>Listeria</em> and a ten million to one reduction in <em>Salmonella</em> in poultry starting at 41&deg;F (5&deg;C). I calculated the D- and z-values using linear regression from (O'Bryan et al., 2006): for <em>Salmonella</em> I used D<sub>60</sub><sup>6.45</sup> = 4.68 minutes and for <em>Listeria</em> I used D<sub>60</sub><sup>5.66</sup> = 5.94 minutes. For my calculations I used a thermal diffusivity of 1.08&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s, a surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K, and took &#946;=0.28 (to simulate the heating speed of a 2:3:5 box). For more information on calculating log reductions, see <a href="#The_Mathematics_of_Sous_Vide">Appendix A</a>.
 </div>
 
 <h3><a name="Turkey_Duck_or_Goose_Leg_Confit">Turkey, Duck or Goose Leg Confit</a></h3>
@@ -1297,15 +1297,15 @@ to 1 hour. Crack egg and serve immediately.</p>
 
 <div class="figure"><a name="Figure_4.1"></a>
 <img src="media/EggMatrix136F-152F.jpeg" width="100%"
-	alt="Pictures of eggs cooked at different temperatures."/> 
+	alt="Pictures of eggs cooked at different temperatures."/>
 </div>
 <div class="caption">
-Figure 4.1: Pictures of intact eggs cooked in a water bath for 75 
+Figure 4.1: Pictures of intact eggs cooked in a water bath for 75
 minutes at temperatures ranging from
-136&deg;F (57.8&deg;C) to 152&deg;F (66.7&deg;C). From left-to-right and top-to-bottom, 
+136&deg;F (57.8&deg;C) to 152&deg;F (66.7&deg;C). From left-to-right and top-to-bottom,
 the water bath temperature was
-136.0&deg;F (57.8&deg;C), 138.0&deg;F (58.9&deg;C), 140.0&deg;F (60.0&deg;C), 142.0&deg;F (61.1&deg;C), 
-144.0&deg;F (62.2&deg;C), 146.0&deg;F (63.3&deg;C), 148.0&deg;F (64.4&deg;C), 150.0&deg;F (65.6&deg;C), 
+136.0&deg;F (57.8&deg;C), 138.0&deg;F (58.9&deg;C), 140.0&deg;F (60.0&deg;C), 142.0&deg;F (61.1&deg;C),
+144.0&deg;F (62.2&deg;C), 146.0&deg;F (63.3&deg;C), 148.0&deg;F (64.4&deg;C), 150.0&deg;F (65.6&deg;C),
 152&deg;F (66.7&deg;C).</div>
 
 <p>In 2014, I developed the patented <a href="https://www.chefsteps.com/activities/the-egg-calculator">Egg Calculator</a> at ChefSteps to allow you to pick the yolk's and white's texture independently. </p>
@@ -1345,7 +1345,7 @@ plastic pouches, and cook either very-rare (120&deg;F/
 in Table 2.2. For extended shelf-life (i.e.,
 cook-chill or cook-freeze) or when serving immune
 compromised individuals, the beef must be pasteurized
-for at least the times in Table 5.1. 
+for at least the times in Table 5.1.
 After heating, sear the beef using either a
 blowtorch, a very hot grill, or a pan with just smoking
 oil.</p>
@@ -1414,15 +1414,15 @@ Pasteurization Time for Meat (Beef, Pork, and Lamb)<br>
 </table></div>
 <div class="caption">
 Table 5.1: Time required to reduce <em>Listeria</em> by at least a million to one, <em>Salmonella</em> by at least three million to one, and <em>E. coli</em>
- by at least a hundred thousand to one in thawed meat starting at 41&deg;F 
-(5&deg;C). I calculated the D- and z-values using linear regression from 
-O'Bryan et al. (2006), Bolton et al. (2000), and  Hansen and Kn&oslash;chel 
-(1996): for <em>E. coli</em> I use D<sub>55</sub><sup>4.87</sup> = 19.35 min; for <em>Salmonella</em> I use D<sub>55</sub><sup>7.58</sup> = 13.18 min; and for <em>Listeria</em> I use D<sub>55</sub><sup>9.22</sup> = 12.66 min. 
+ by at least a hundred thousand to one in thawed meat starting at 41&deg;F
+(5&deg;C). I calculated the D- and z-values using linear regression from
+O'Bryan et al. (2006), Bolton et al. (2000), and  Hansen and Kn&oslash;chel
+(1996): for <em>E. coli</em> I use D<sub>55</sub><sup>4.87</sup> = 19.35 min; for <em>Salmonella</em> I use D<sub>55</sub><sup>7.58</sup> = 13.18 min; and for <em>Listeria</em> I use D<sub>55</sub><sup>9.22</sup> = 12.66 min.
 For my calculations I used a thermal diffusivity of 1.11&times;10<sup>-7</sup>&nbsp;m<sup>2</sup>/s, a surface heat transfer coefficient of 95&nbsp;W/m<sup>2</sup>-K, and took &#946;=0 up to 30&nbsp;mm and &#946;=0.28 above 30&nbsp;mm (to simulate the heating speed of a 2:3:5 box).
 For more information on calculating log reductions, see <a href="#The_Mathematics_of_Sous_Vide">Appendix A</a>.
- 
-[Note that if the beef is seasoned using a sauce or marinate which will 
-acidify the beef, then the pasteurizing times may need to be doubled to 
+
+[Note that if the beef is seasoned using a sauce or marinate which will
+acidify the beef, then the pasteurizing times may need to be doubled to
 accommodate the increased thermal tolerance of <em>Listeria</em> (Hansen and Kn&oslash;chel, 1996).]</div>
 
 <p>For tough but flavorful cuts of beef&ndash;such as top
@@ -1449,7 +1449,7 @@ freeze until needed).</p>
 <p>Place vacuum sealed steak in a 131&deg;F (55&deg;C) water bath
 for about 12 hours. The meat will have a greenish-brown
 color after cooking which will disappear after searing.
-[The steak may be rapidly cooled in ice water (see Table 1.1) 
+[The steak may be rapidly cooled in ice water (see Table 1.1)
 and frozen or refrigerated at below
 38&deg;F (3.3&deg;C) for up to three to four weeks until needed.]</p>
 
@@ -1546,7 +1546,7 @@ chops (one per bag).</p>
 
 <p>To cook, place in a 141&deg;F (61&deg;C) water bath for the cooking
 times in the Table 5.1. [The chop
-may be rapidly cooled in ice water (see Table 1.1) and frozen or 
+may be rapidly cooled in ice water (see Table 1.1) and frozen or
 refrigerated at below 38&deg;F (3.3&deg;C)
 for up to three to four weeks until needed.]</p>
 
@@ -1662,9 +1662,9 @@ are necessary.</p>
 <p>The transfer of heat (by conduction) is described by
 the partial differential equation,
 <span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2207;&lt;/mi&gt;&lt;mo&gt;&amp;#x22C5;&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;&amp;#x03B1;&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2207;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 9.137em; display: inline-block;"><span style="display: inline-block; position: relative; width: 7.019em; height: 0px; font-size: 130%;"><span style="position: absolute; clip: rect(1.365em, 1006.95em, 2.654em, -1000em); top: -2.26em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="msubsup" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 0.914em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="mi" id="MathJax-Span-5" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-6" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mi" id="MathJax-Span-7" style="font-family: MathJax_Main; padding-left: 0.278em;">&#8711;</span><span class="mo" id="MathJax-Span-8" style="font-family: MathJax_Main; padding-left: 0.222em;">&#8901;</span><span class="mo" id="MathJax-Span-9" style="font-family: MathJax_Main; padding-left: 0.222em;">(</span><span class="mi" id="MathJax-Span-10" style="font-family: MathJax_Math; font-style: italic;">&#945;</span><span class="mi" id="MathJax-Span-11" style="font-family: MathJax_Main;">&#8711;</span><span class="mi" id="MathJax-Span-12" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-13" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-14" style="font-family: MathJax_Main;">,</span></span><span style="display: inline-block; width: 0px; height: 2.26em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.388em; border-left: 0px solid; width: 0px; height: 1.425em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>T</mi><mi>t</mi></msub><mo>=</mo><mi mathvariant="normal">&#8711;</mi><mo>&#8901;</mo><mo stretchy="false">(</mo><mi>&#945;</mi><mi mathvariant="normal">&#8711;</mi><mi>T</mi><mo stretchy="false">)</mo><mo>,</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1"> T_t = \nabla \cdot (\alpha \nabla T), </script>
-where &#945; &#8801; k/(&#961;C<sub>p</sub>) is thermal diffusivity 
-(m<sup>2</sup>/sec), k is thermal conductivity (W/m-K), 
-&#961; is density (kg/m<sup>3</sup>), and 
+where &#945; &#8801; k/(&#961;C<sub>p</sub>) is thermal diffusivity
+(m<sup>2</sup>/sec), k is thermal conductivity (W/m-K),
+&#961; is density (kg/m<sup>3</sup>), and
 C<sub>p</sub> is specific heat (kJ/kg-K). If we
 know the temperature at some initial time and
 can describe how the temperature at the surface
@@ -1680,7 +1680,7 @@ the three dimensional heat equation by the one dimensional
 heat equation
 <span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mrow&gt;&lt;mo&gt;{&lt;/mo&gt;&lt;mtable columnalign=&quot;left left&quot; rowspacing=&quot;.2em&quot; columnspacing=&quot;1em&quot; displaystyle=&quot;false&quot;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mi&gt;&amp;#x03C1;&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mrow&gt;&lt;mo&gt;[&lt;/mo&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mfrac&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;mo&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mspace width=&quot;1em&quot; /&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mspace width=&quot;2em&quot; /&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2217;&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;[&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;]&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo fence=&quot;true&quot; stretchy=&quot;true&quot; symmetric=&quot;true&quot;&gt;&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-15" style="width: 27.07em; display: inline-block;"><span style="display: inline-block; position: relative; width: 20.817em; height: 0px; font-size: 130%;"><span style="position: absolute; clip: rect(2.068em, 1020.82em, 7.24em, -1000em); top: -4.904em; left: 0em;"><span class="mrow" id="MathJax-Span-16"><span class="mrow" id="MathJax-Span-17"><span class="mo" id="MathJax-Span-18" style="vertical-align: 2.692em;"><span style="display: inline-block; position: relative; width: 0.889em; height: 0px;"><span style="position: absolute; font-family: MathJax_Size4; top: -3.091em; left: 0em;">&#9127;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; font-family: MathJax_Size4; top: -0.005em; left: 0em;">&#9129;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; font-family: MathJax_Size4; top: -1.298em; left: 0em;">&#9128;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.856em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.62em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.384em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -0.413em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -0.177em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: 0.059em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mtable" id="MathJax-Span-19" style="padding-right: 0.167em; padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 19.573em; height: 0px;"><span style="position: absolute; clip: rect(3.029em, 1015.23em, 8.202em, -1000em); top: -5.865em; left: 0em;"><span style="display: inline-block; position: relative; width: 15.295em; height: 0px;"><span style="position: absolute; clip: rect(2.697em, 1013.75em, 4.784em, -1000em); top: -5.533em; left: 0em;"><span class="mtd" id="MathJax-Span-20"><span class="mrow" id="MathJax-Span-21"><span class="mi" id="MathJax-Span-22" style="font-family: MathJax_Math; font-style: italic;">&#961;</span><span class="msubsup" id="MathJax-Span-23"><span style="display: inline-block; position: relative; width: 1.146em; height: 0px;"><span style="position: absolute; clip: rect(3.141em, 1000.76em, 4.157em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-24" style="font-family: MathJax_Math; font-style: italic;">C<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.045em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.715em;"><span class="mi" id="MathJax-Span-25" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">p</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-26" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-27" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-28" style="font-family: MathJax_Main;">)</span><span class="msubsup" id="MathJax-Span-29"><span style="display: inline-block; position: relative; width: 0.914em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-30" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="mi" id="MathJax-Span-31" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-32" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mi" id="MathJax-Span-33" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;">k</span><span class="mo" id="MathJax-Span-34" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-35" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-36" style="font-family: MathJax_Main;">)</span><span class="mrow" id="MathJax-Span-37" style="padding-left: 0.167em;"><span class="mo" id="MathJax-Span-38" style="vertical-align: 0em;"><span style="font-family: MathJax_Size2;">[</span></span><span class="mrow" id="MathJax-Span-39"><span class="mfrac" id="MathJax-Span-40"><span style="display: inline-block; position: relative; width: 1.378em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.201em, 1001.26em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.629em;"><span class="mrow" id="MathJax-Span-41"><span class="msubsup" id="MathJax-Span-42"><span style="display: inline-block; position: relative; width: 0.761em; height: 0px;"><span style="position: absolute; clip: rect(3.341em, 1000.4em, 4.15em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-43" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.303em; left: 0.458em;"><span class="mn" id="MathJax-Span-44" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mi" id="MathJax-Span-45" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.309em, 1001.02em, 4.15em, -1000em); top: -3.553em; left: 50%; margin-left: -0.511em;"><span class="mrow" id="MathJax-Span-46"><span class="mi" id="MathJax-Span-47" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="msubsup" id="MathJax-Span-48"><span style="display: inline-block; position: relative; width: 0.622em; height: 0px;"><span style="position: absolute; clip: rect(3.534em, 1000.3em, 4.142em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-49" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.195em; left: 0.319em;"><span class="mn" id="MathJax-Span-50" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.38em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.378em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-51" style="font-family: MathJax_Main; padding-left: 0.222em;">+</span><span class="mfrac" id="MathJax-Span-52" style="padding-left: 0.222em;"><span style="display: inline-block; position: relative; width: 0.525em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.348em, 1000.41em, 4.272em, -1000em); top: -4.528em; left: 50%; margin-left: -0.203em;"><span class="mi" id="MathJax-Span-53" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">&#946;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.005em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.534em, 1000.3em, 4.142em, -1000em); top: -3.646em; left: 50%; margin-left: -0.159em;"><span class="mi" id="MathJax-Span-54" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1000.53em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.525em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mfrac" id="MathJax-Span-55"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-56"><span class="mi" id="MathJax-Span-57" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-58" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-59"><span class="mi" id="MathJax-Span-60" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-61" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span></span><span class="mo" id="MathJax-Span-62" style="vertical-align: 0em;"><span style="font-family: MathJax_Size2;">]</span></span></span><span class="mo" id="MathJax-Span-63" style="font-family: MathJax_Main; padding-left: 0.167em;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(2.925em, 1012.06em, 4.556em, -1000em); top: -3.762em; left: 0em;"><span class="mtd" id="MathJax-Span-64"><span class="mrow" id="MathJax-Span-65"><span class="mi" id="MathJax-Span-66" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-67" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-68" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mo" id="MathJax-Span-69" style="font-family: MathJax_Main;">,</span><span class="mn" id="MathJax-Span-70" style="font-family: MathJax_Main; padding-left: 0.167em;">0</span><span class="mo" id="MathJax-Span-71" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-72" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="msubsup" id="MathJax-Span-73" style="padding-left: 0.278em;"><span style="display: inline-block; position: relative; width: 1.013em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-74" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="mn" id="MathJax-Span-75" style="font-size: 70.7%; font-family: MathJax_Main;">0</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-76" style="font-family: MathJax_Main;">,</span><span class="mspace" id="MathJax-Span-77" style="height: 0em; vertical-align: 0em; width: 1em; display: inline-block; overflow: hidden;"></span><span class="mfrac" id="MathJax-Span-78" style="padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-79"><span class="mi" id="MathJax-Span-80" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-81" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-82"><span class="mi" id="MathJax-Span-83" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-84" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-85" style="font-family: MathJax_Main;">(</span><span class="mn" id="MathJax-Span-86" style="font-family: MathJax_Main;">0</span><span class="mo" id="MathJax-Span-87" style="font-family: MathJax_Main;">,</span><span class="mi" id="MathJax-Span-88" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.167em;">t</span><span class="mo" id="MathJax-Span-89" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-90" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mn" id="MathJax-Span-91" style="font-family: MathJax_Main; padding-left: 0.278em;">0</span><span class="mo" id="MathJax-Span-92" style="font-family: MathJax_Main;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(2.925em, 1015.23em, 4.556em, -1000em); top: -2.22em; left: 0em;"><span class="mtd" id="MathJax-Span-99"><span class="mrow" id="MathJax-Span-100"><span class="mi" id="MathJax-Span-101" style="font-family: MathJax_Math; font-style: italic;">k</span><span class="mo" id="MathJax-Span-102" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-103" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-104" style="font-family: MathJax_Main;">)</span><span class="mfrac" id="MathJax-Span-105"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-106"><span class="mi" id="MathJax-Span-107" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-108" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-109"><span class="mi" id="MathJax-Span-110" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-111" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-112" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-113" style="font-family: MathJax_Math; font-style: italic;">R</span><span class="mo" id="MathJax-Span-114" style="font-family: MathJax_Main;">,</span><span class="mi" id="MathJax-Span-115" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.167em;">t</span><span class="mo" id="MathJax-Span-116" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-117" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mi" id="MathJax-Span-118" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;">h</span><span class="mo" id="MathJax-Span-119" style="font-family: MathJax_Main;">[</span><span class="msubsup" id="MathJax-Span-120"><span style="display: inline-block; position: relative; width: 2.678em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-121" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="texatom" id="MathJax-Span-122"><span class="mrow" id="MathJax-Span-123"><span class="mi" id="MathJax-Span-124" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">W<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.074em;"></span></span><span class="mi" id="MathJax-Span-125" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">a</span><span class="mi" id="MathJax-Span-126" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span class="mi" id="MathJax-Span-127" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-128" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-129" style="font-family: MathJax_Main; padding-left: 0.222em;">&#8722;</span><span class="mi" id="MathJax-Span-130" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.222em;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-131" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-132" style="font-family: MathJax_Math; font-style: italic;">R</span><span class="mo" id="MathJax-Span-133" style="font-family: MathJax_Main;">,</span><span class="mi" id="MathJax-Span-134" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.167em;">t</span><span class="mo" id="MathJax-Span-135" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-136" style="font-family: MathJax_Main;">]</span><span class="mo" id="MathJax-Span-137" style="font-family: MathJax_Main;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span><span style="display: inline-block; width: 0px; height: 5.865em;"></span></span><span style="position: absolute; clip: rect(3.324em, 1003.18em, 4.613em, -1000em); top: -3.99em; left: 16.295em;"><span style="display: inline-block; position: relative; width: 3.278em; height: 0px;"><span style="position: absolute; clip: rect(3.096em, 1003.18em, 4.385em, -1000em); top: -3.762em; left: 0em;"><span class="mtd" id="MathJax-Span-93"><span class="mrow" id="MathJax-Span-94"><span class="mspace" id="MathJax-Span-95" style="height: 0em; vertical-align: 0em; width: 2em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-96" style="font-family: MathJax_Main;">(</span><span class="mo" id="MathJax-Span-97" style="font-family: MathJax_Main;">&#8727;</span><span class="mo" id="MathJax-Span-98" style="font-family: MathJax_Main;">)</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-138"></span></span></span><span style="display: inline-block; width: 0px; height: 4.904em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -2.912em; border-left: 0px solid; width: 0px; height: 6.474em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mo>{</mo><mtable columnalign="left left" rowspacing=".2em" columnspacing="1em" displaystyle="false"><mtr><mtd><mi>&#961;</mi><msub><mi>C</mi><mi>p</mi></msub><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo><msub><mi>T</mi><mi>t</mi></msub><mo>=</mo><mi>k</mi><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo><mrow><mo>[</mo><mrow><mfrac><mrow><msup><mi mathvariant="normal">&#8706;</mi><mn>2</mn></msup><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>&#946;</mi><mi>r</mi></mfrac><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac></mrow><mo>]</mo></mrow><mo>,</mo></mtd></mtr><mtr><mtd><mi>T</mi><mo stretchy="false">(</mo><mi>r</mi><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo><mo>=</mo><msub><mi>T</mi><mn>0</mn></msub><mo>,</mo><mspace width="1em"></mspace><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0</mn><mo>,</mo></mtd><mtd><mspace width="2em"></mspace><mo stretchy="false">(</mo><mo>&#8727;</mo><mo stretchy="false">)</mo></mtd></mtr><mtr><mtd><mi>k</mi><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac><mo stretchy="false">(</mo><mi>R</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mi>h</mi><mo stretchy="false">[</mo><msub><mi>T</mi><mrow class="MJX-TeXAtom-ORD"><mi>W</mi><mi>a</mi><mi>t</mi><mi>e</mi><mi>r</mi></mrow></msub><mo>&#8722;</mo><mi>T</mi><mo stretchy="false">(</mo><mi>R</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo><mo stretchy="false">]</mo><mo>,</mo></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true"></mo></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-2">	\begin{cases}
 	\rho C_p(T) T_t = k(T)\left[
-    	\frac{\partial^2 T}{\partial r^2} 
+    	\frac{\partial^2 T}{\partial r^2}
         + \frac{\beta}{r} \frac{\partial T}{\partial r}
     	\right], \\
     T(r,0) = T_0, \quad \frac{\partial T}{\partial r}(0,t) = 0,& \qquad (*)\\
@@ -1702,13 +1702,13 @@ is well approximated by taking &#946; = 1.25, a square
 cylinder by &#946; = 0.70, and a 2:3:5 brick by &#946; = 0.28.</p>
 
 <div class="figure"><a name="Figure_A.1"></a>
-<img src="media/heatMahiMahi.png" width="100%" 
+<img src="media/heatMahiMahi.png" width="100%"
 	alt="Plot of measured and calculated temperature." /> </div>
 <div class="caption">
-Figure A.1: Plot of temperature (&deg;C) verse time (minutes) of a 27 mm 
-thick piece of Mahi-Mahi cooked in a 131&deg;F (55&deg;C) water bath. The 
-blue dots are the core temperature measured using a ThermoWorks MicroTherma2T 
-with a needle probe. The blue line is the calculated core temperature of the Mahi-Mahi (where I used 
+Figure A.1: Plot of temperature (&deg;C) verse time (minutes) of a 27 mm
+thick piece of Mahi-Mahi cooked in a 131&deg;F (55&deg;C) water bath. The
+blue dots are the core temperature measured using a ThermoWorks MicroTherma2T
+with a needle probe. The blue line is the calculated core temperature of the Mahi-Mahi (where I used
 a thermal diffusivity of 1.71&times;10<sup>-7</sup> m<sup>2</sup>/sec
 and a heat transfer coefficient of 155 W/m<sup>2</sup>-K).</div>
 
@@ -1720,17 +1720,17 @@ above average fatness had: a thermal conductivity of
 0.48 W/m-K at 32&deg;F (0&deg;C) and 0.49 W/m-K at 86&deg;F
 (30&deg;C); a specific heat of 3.81 kJ/kg-K at both 32&deg;F
 (0&deg;C) and 86&deg;F (30&deg;C); and, a density of 1077 kg/m<sup>3</sup>
-at 41&deg;F (5&deg;C) and 1067 kg/m<sup>3</sup> at 86&deg;F (30&deg;C). 
+at 41&deg;F (5&deg;C) and 1067 kg/m<sup>3</sup> at 86&deg;F (30&deg;C).
 This is much less than the difference between beef sirloin
-(&#945; = 1.24&times;10<sup>-7</sup> m<sup>2</sup>/sec) 
-and beef round (&#945; = 1.11&times;10<sup>-7</sup> m<sup>2</sup>/sec) 
+(&#945; = 1.24&times;10<sup>-7</sup> m<sup>2</sup>/sec)
+and beef round (&#945; = 1.11&times;10<sup>-7</sup> m<sup>2</sup>/sec)
 (Sanz et al., 1987). Therefore, we
 can model the temperature of thawed foods by
 <span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mrow&gt;&lt;mo&gt;{&lt;/mo&gt;&lt;mtable columnalign=&quot;left left&quot; rowspacing=&quot;.2em&quot; columnspacing=&quot;1em&quot; displaystyle=&quot;false&quot;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;&amp;#x03B1;&lt;/mi&gt;&lt;mrow&gt;&lt;mo&gt;[&lt;/mo&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mfrac&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;mo&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mspace width=&quot;2em&quot; /&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2202;&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/mfrac&gt;&lt;mo stretchy=&quot;false&quot;&gt;[&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;]&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo fence=&quot;true&quot; stretchy=&quot;true&quot; symmetric=&quot;true&quot;&gt;&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-139" style="width: 18.656em; display: inline-block;"><span style="display: inline-block; position: relative; width: 14.327em; height: 0px; font-size: 130%;"><span style="position: absolute; clip: rect(2.068em, 1014.33em, 7.24em, -1000em); top: -4.904em; left: 0em;"><span class="mrow" id="MathJax-Span-140"><span class="mrow" id="MathJax-Span-141"><span class="mo" id="MathJax-Span-142" style="vertical-align: 2.692em;"><span style="display: inline-block; position: relative; width: 0.889em; height: 0px;"><span style="position: absolute; font-family: MathJax_Size4; top: -3.091em; left: 0em;">&#9127;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; font-family: MathJax_Size4; top: -0.005em; left: 0em;">&#9129;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; font-family: MathJax_Size4; top: -1.298em; left: 0em;">&#9128;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.856em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.62em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -2.384em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -0.413em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: -0.177em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="font-family: MathJax_Size4; position: absolute; top: 0.059em; left: 0em;">&#9130;<span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mtable" id="MathJax-Span-143" style="padding-right: 0.167em; padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 13.124em; height: 0px;"><span style="position: absolute; clip: rect(3.029em, 1013.06em, 8.202em, -1000em); top: -5.865em; left: 0em;"><span style="display: inline-block; position: relative; width: 13.124em; height: 0px;"><span style="position: absolute; clip: rect(2.697em, 1009.24em, 4.784em, -1000em); top: -5.533em; left: 0em;"><span class="mtd" id="MathJax-Span-144"><span class="mrow" id="MathJax-Span-145"><span class="msubsup" id="MathJax-Span-146"><span style="display: inline-block; position: relative; width: 0.914em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-147" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="mi" id="MathJax-Span-148" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-149" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mi" id="MathJax-Span-150" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;">&#945;</span><span class="mrow" id="MathJax-Span-151" style="padding-left: 0.167em;"><span class="mo" id="MathJax-Span-152" style="vertical-align: 0em;"><span style="font-family: MathJax_Size2;">[</span></span><span class="mrow" id="MathJax-Span-153"><span class="mfrac" id="MathJax-Span-154"><span style="display: inline-block; position: relative; width: 1.378em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.201em, 1001.26em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.629em;"><span class="mrow" id="MathJax-Span-155"><span class="msubsup" id="MathJax-Span-156"><span style="display: inline-block; position: relative; width: 0.761em; height: 0px;"><span style="position: absolute; clip: rect(3.341em, 1000.4em, 4.15em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-157" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.303em; left: 0.458em;"><span class="mn" id="MathJax-Span-158" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mi" id="MathJax-Span-159" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.309em, 1001.02em, 4.15em, -1000em); top: -3.553em; left: 50%; margin-left: -0.511em;"><span class="mrow" id="MathJax-Span-160"><span class="mi" id="MathJax-Span-161" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="msubsup" id="MathJax-Span-162"><span style="display: inline-block; position: relative; width: 0.622em; height: 0px;"><span style="position: absolute; clip: rect(3.534em, 1000.3em, 4.142em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-163" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.195em; left: 0.319em;"><span class="mn" id="MathJax-Span-164" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.38em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.378em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-165" style="font-family: MathJax_Main; padding-left: 0.222em;">+</span><span class="mfrac" id="MathJax-Span-166" style="padding-left: 0.222em;"><span style="display: inline-block; position: relative; width: 0.525em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.348em, 1000.41em, 4.272em, -1000em); top: -4.528em; left: 50%; margin-left: -0.203em;"><span class="mi" id="MathJax-Span-167" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">&#946;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.005em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.534em, 1000.3em, 4.142em, -1000em); top: -3.646em; left: 50%; margin-left: -0.159em;"><span class="mi" id="MathJax-Span-168" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1000.53em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.525em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mfrac" id="MathJax-Span-169"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-170"><span class="mi" id="MathJax-Span-171" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-172" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-173"><span class="mi" id="MathJax-Span-174" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-175" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span></span><span class="mo" id="MathJax-Span-176" style="vertical-align: 0em;"><span style="font-family: MathJax_Size2;">]</span></span></span><span class="mo" id="MathJax-Span-177" style="font-family: MathJax_Main; padding-left: 0.167em;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(2.925em, 1013.06em, 4.556em, -1000em); top: -3.762em; left: 0em;"><span class="mtd" id="MathJax-Span-178"><span class="mrow" id="MathJax-Span-179"><span class="mi" id="MathJax-Span-180" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-181" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-182" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mo" id="MathJax-Span-183" style="font-family: MathJax_Main;">,</span><span class="mn" id="MathJax-Span-184" style="font-family: MathJax_Main; padding-left: 0.167em;">0</span><span class="mo" id="MathJax-Span-185" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-186" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="msubsup" id="MathJax-Span-187" style="padding-left: 0.278em;"><span style="display: inline-block; position: relative; width: 1.013em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-188" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="mn" id="MathJax-Span-189" style="font-size: 70.7%; font-family: MathJax_Main;">0</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-190" style="font-family: MathJax_Main;">,</span><span class="mspace" id="MathJax-Span-191" style="height: 0em; vertical-align: 0em; width: 2em; display: inline-block; overflow: hidden;"></span><span class="mfrac" id="MathJax-Span-192" style="padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-193"><span class="mi" id="MathJax-Span-194" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-195" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-196"><span class="mi" id="MathJax-Span-197" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-198" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-199" style="font-family: MathJax_Main;">(</span><span class="mn" id="MathJax-Span-200" style="font-family: MathJax_Main;">0</span><span class="mo" id="MathJax-Span-201" style="font-family: MathJax_Main;">,</span><span class="mi" id="MathJax-Span-202" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.167em;">t</span><span class="mo" id="MathJax-Span-203" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-204" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mn" id="MathJax-Span-205" style="font-family: MathJax_Main; padding-left: 0.278em;">0</span><span class="mo" id="MathJax-Span-206" style="font-family: MathJax_Main;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(2.925em, 1011.07em, 4.556em, -1000em); top: -2.22em; left: 0em;"><span class="mtd" id="MathJax-Span-207"><span class="mrow" id="MathJax-Span-208"><span class="mfrac" id="MathJax-Span-209"><span style="display: inline-block; position: relative; width: 1.018em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.341em, 1000.9em, 4.15em, -1000em); top: -4.406em; left: 50%; margin-left: -0.449em;"><span class="mrow" id="MathJax-Span-210"><span class="mi" id="MathJax-Span-211" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-212" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.341em, 1000.7em, 4.15em, -1000em); top: -3.585em; left: 50%; margin-left: -0.36em;"><span class="mrow" id="MathJax-Span-213"><span class="mi" id="MathJax-Span-214" style="font-size: 70.7%; font-family: MathJax_Main;">&#8706;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.025em;"></span></span><span class="mi" id="MathJax-Span-215" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1001.02em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.018em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-216" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mfrac" id="MathJax-Span-217" style="padding-left: 0.278em;"><span style="display: inline-block; position: relative; width: 0.527em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.355em, 1000.39em, 4.142em, -1000em); top: -4.398em; left: 50%; margin-left: -0.204em;"><span class="mi" id="MathJax-Span-218" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.355em, 1000.36em, 4.142em, -1000em); top: -3.6em; left: 50%; margin-left: -0.184em;"><span class="mi" id="MathJax-Span-219" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">k</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1000.53em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.527em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="mo" id="MathJax-Span-220" style="font-family: MathJax_Main;">[</span><span class="msubsup" id="MathJax-Span-221"><span style="display: inline-block; position: relative; width: 2.678em; height: 0px;"><span style="position: absolute; clip: rect(3.169em, 1000.7em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-222" style="font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.84em; left: 0.584em;"><span class="texatom" id="MathJax-Span-223"><span class="mrow" id="MathJax-Span-224"><span class="mi" id="MathJax-Span-225" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">W<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.074em;"></span></span><span class="mi" id="MathJax-Span-226" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">a</span><span class="mi" id="MathJax-Span-227" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span class="mi" id="MathJax-Span-228" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-229" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-230" style="font-family: MathJax_Main; padding-left: 0.222em;">&#8722;</span><span class="mi" id="MathJax-Span-231" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.222em;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span class="mo" id="MathJax-Span-232" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-233" style="font-family: MathJax_Math; font-style: italic;">R</span><span class="mo" id="MathJax-Span-234" style="font-family: MathJax_Main;">,</span><span class="mi" id="MathJax-Span-235" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.167em;">t</span><span class="mo" id="MathJax-Span-236" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-237" style="font-family: MathJax_Main;">]</span><span class="mo" id="MathJax-Span-238" style="font-family: MathJax_Main;">,</span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span><span style="display: inline-block; width: 0px; height: 5.865em;"></span></span></span></span><span class="mo" id="MathJax-Span-239"></span></span></span><span style="display: inline-block; width: 0px; height: 4.904em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -2.912em; border-left: 0px solid; width: 0px; height: 6.474em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mo>{</mo><mtable columnalign="left left" rowspacing=".2em" columnspacing="1em" displaystyle="false"><mtr><mtd><msub><mi>T</mi><mi>t</mi></msub><mo>=</mo><mi>&#945;</mi><mrow><mo>[</mo><mrow><mfrac><mrow><msup><mi mathvariant="normal">&#8706;</mi><mn>2</mn></msup><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>&#946;</mi><mi>r</mi></mfrac><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac></mrow><mo>]</mo></mrow><mo>,</mo></mtd></mtr><mtr><mtd><mi>T</mi><mo stretchy="false">(</mo><mi>r</mi><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo><mo>=</mo><msub><mi>T</mi><mn>0</mn></msub><mo>,</mo><mspace width="2em"></mspace><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0</mn><mo>,</mo></mtd></mtr><mtr><mtd><mfrac><mrow><mi mathvariant="normal">&#8706;</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">&#8706;</mi><mi>r</mi></mrow></mfrac><mo>=</mo><mfrac><mi>h</mi><mi>k</mi></mfrac><mo stretchy="false">[</mo><msub><mi>T</mi><mrow class="MJX-TeXAtom-ORD"><mi>W</mi><mi>a</mi><mi>t</mi><mi>e</mi><mi>r</mi></mrow></msub><mo>&#8722;</mo><mi>T</mi><mo stretchy="false">(</mo><mi>R</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo><mo stretchy="false">]</mo><mo>,</mo></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true"></mo></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-3"> \begin{cases}
-	T_t = \alpha \left[ 
-    	\frac{\partial^2 T}{\partial r^2} 
+	T_t = \alpha \left[
+    	\frac{\partial^2 T}{\partial r^2}
         + \frac{\beta}{r}\frac{\partial T}{\partial r} \right], \\
-    T(r,0) = T_0, \qquad 
+    T(r,0) = T_0, \qquad
     \frac{\partial T}{\partial r}(0,t) = 0, \\
     \frac{\partial T}{\partial r} = \frac{h}{k} [T_{Water} - T(R,t)],
 	\end{cases} </script>
@@ -1745,7 +1745,7 @@ even small deviations in h can result in large deviations
 of the core temperature of the food.</p>
 
 <p>Most foods have a thermal diffusivity between
-1.2 and 1.6&times;10<sup>-7</sup> m<sup>2</sup>/s 
+1.2 and 1.6&times;10<sup>-7</sup> m<sup>2</sup>/s
 (Baerdemaeker and Nicola&iuml;,
 1995). Thermal diffusivity depends on many
 things, including meat species, muscle type, temperature,
@@ -1754,7 +1754,7 @@ in thermal diffusivity, we can always choose a (minimum)
 thermal diffusivity which will underestimate
 the temperature of the meat as it cooks (and overestimate
 the temperature as it cools). Thus, I use
-the lowest thermal diffusivities 
+the lowest thermal diffusivities
 reported in the literature (see Table A.1) in my pasteurization tables.
 Moreover, the food cannot overcook if it is placed in
 a water bath just above its desired final core temperature.
@@ -1792,7 +1792,7 @@ Food Thermal Diffusivity (10<sup>-7</sup> m<sup>2</sup>/s)
 <tr><td></td><td>1.06&ndash;1.91 (Sweet Potato), 1.48 (Tomato)</td><td></td></tr></tbody>
 </table></div>
 <div class="caption">
-Table A.1: The thermal diffusivity (at 0&deg;C to 65&deg;C) of various types 
+Table A.1: The thermal diffusivity (at 0&deg;C to 65&deg;C) of various types
 of food reported in the literature.
 </div>
 
@@ -1800,7 +1800,7 @@ of food reported in the literature.
 
 <p>Using the above models for the temperature at the
 slowest heating point of the meat, the classical
-model for the log reduction in pathogens is 
+model for the log reduction in pathogens is
 <span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msub&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mfrac&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;#x222B;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/msubsup&gt;&lt;msup&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;[&lt;/mo&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;]&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;z&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mspace width=&quot;thinmathspace&quot; /&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-240" style="width: 18.512em; display: inline-block;"><span style="display: inline-block; position: relative; width: 14.231em; height: 0px; font-size: 130%;"><span style="position: absolute; clip: rect(0.585em, 1014.16em, 3.389em, -1000em); top: -2.26em; left: 0em;"><span class="mrow" id="MathJax-Span-241"><span class="mi" id="MathJax-Span-242" style="font-family: MathJax_Math; font-style: italic;">L</span><span class="mi" id="MathJax-Span-243" style="font-family: MathJax_Math; font-style: italic;">R</span><span class="mo" id="MathJax-Span-244" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="mfrac" id="MathJax-Span-245" style="padding-left: 0.278em;"><span style="display: inline-block; position: relative; width: 2.278em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.18em, 1000.43em, 4.135em, -1000em); top: -4.667em; left: 50%; margin-left: -0.25em;"><span class="mn" id="MathJax-Span-246" style="font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.163em, 1002.16em, 4.434em, -1000em); top: -3.304em; left: 50%; margin-left: -1.079em;"><span class="msubsup" id="MathJax-Span-247"><span style="display: inline-block; position: relative; width: 2.158em; height: 0px;"><span style="position: absolute; clip: rect(3.163em, 1000.8em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-248" style="font-family: MathJax_Math; font-style: italic;">D</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.836em; left: 0.828em;"><span class="texatom" id="MathJax-Span-249"><span class="mrow" id="MathJax-Span-250"><span class="mi" id="MathJax-Span-251" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">R</span><span class="mi" id="MathJax-Span-252" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-253" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.042em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(0.853em, 1002.28em, 1.202em, -1000em); top: -1.278em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 2.278em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.058em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-254" style="padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 1.441em; height: 0px;"><span style="position: absolute; clip: rect(2.485em, 1000.94em, 4.996em, -1000em); top: -3.99em; left: 0em;"><span class="mo" id="MathJax-Span-255" style="font-family: MathJax_Size2; text-rendering: optimizelegibility; vertical-align: 0.001em;">&#8747;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.388em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.404em, 1000.33em, 4.142em, -1000em); top: -5.078em; left: 1.11em;"><span class="mi" id="MathJax-Span-256" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; clip: rect(3.375em, 1000.43em, 4.15em, -1000em); top: -3.094em; left: 0.556em;"><span class="mn" id="MathJax-Span-257" style="font-size: 70.7%; font-family: MathJax_Main;">0</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-258" style="padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 5.55em; height: 0px;"><span style="position: absolute; clip: rect(3.18em, 1000.96em, 4.157em, -1000em); top: -3.99em; left: 0em;"><span class="mn" id="MathJax-Span-259" style="font-family: MathJax_Main;">10</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.403em; left: 1em;"><span class="texatom" id="MathJax-Span-260"><span class="mrow" id="MathJax-Span-261"><span class="mo" id="MathJax-Span-262" style="font-size: 70.7%; font-family: MathJax_Main;">[</span><span class="mi" id="MathJax-Span-263" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span><span class="mo" id="MathJax-Span-264" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="msup" id="MathJax-Span-265"><span style="display: inline-block; position: relative; width: 0.446em; height: 0px;"><span style="position: absolute; clip: rect(3.404em, 1000.23em, 4.142em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-266" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.247em; left: 0.255em;"><span class="mo" id="MathJax-Span-267" style="font-size: 50%; font-family: MathJax_Main;">&#8242;</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-268" style="font-size: 70.7%; font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-269" style="font-size: 70.7%; font-family: MathJax_Main;">&#8722;</span><span class="msubsup" id="MathJax-Span-270"><span style="display: inline-block; position: relative; width: 1.353em; height: 0px;"><span style="position: absolute; clip: rect(3.367em, 1000.5em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-271" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.085em;"></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.881em; left: 0.413em;"><span class="texatom" id="MathJax-Span-272"><span class="mrow" id="MathJax-Span-273"><span class="mi" id="MathJax-Span-274" style="font-size: 50%; font-family: MathJax_Math; font-style: italic;">R</span><span class="mi" id="MathJax-Span-275" style="font-size: 50%; font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-276" style="font-size: 50%; font-family: MathJax_Math; font-style: italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.03em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-277" style="font-size: 70.7%; font-family: MathJax_Main;">]</span><span class="texatom" id="MathJax-Span-278"><span class="mrow" id="MathJax-Span-279"><span class="mo" id="MathJax-Span-280" style="font-size: 70.7%; font-family: MathJax_Main;">/</span></span></span><span class="mi" id="MathJax-Span-281" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">z<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mspace" id="MathJax-Span-282" style="height: 0em; vertical-align: 0em; width: 0.167em; display: inline-block; overflow: hidden;"></span><span class="mi" id="MathJax-Span-283" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="msup" id="MathJax-Span-284"><span style="display: inline-block; position: relative; width: 0.63em; height: 0px;"><span style="position: absolute; clip: rect(3.22em, 1000.33em, 4.146em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-285" style="font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -4.403em; left: 0.361em;"><span class="mo" id="MathJax-Span-286" style="font-size: 70.7%; font-family: MathJax_Main;">&#8242;</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span><span class="mo" id="MathJax-Span-287" style="font-family: MathJax_Main;">,</span></span><span style="display: inline-block; width: 0px; height: 2.26em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.343em; border-left: 0px solid; width: 0px; height: 3.395em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>L</mi><mi>R</mi><mo>=</mo><mfrac><mn>1</mn><msub><mi>D</mi><mrow class="MJX-TeXAtom-ORD"><mi>R</mi><mi>e</mi><mi>f</mi></mrow></msub></mfrac><msubsup><mo>&#8747;</mo><mn>0</mn><mi>t</mi></msubsup><msup><mn>10</mn><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">[</mo><mi>T</mi><mo stretchy="false">(</mo><msup><mi>t</mi><mo>&#8242;</mo></msup><mo stretchy="false">)</mo><mo>&#8722;</mo><msub><mi>T</mi><mrow class="MJX-TeXAtom-ORD"><mi>R</mi><mi>e</mi><mi>f</mi></mrow></msub><mo stretchy="false">]</mo><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mi>z</mi></mrow></msup><mspace width="thinmathspace"></mspace><mi>d</mi><msup><mi>t</mi><mo>&#8242;</mo></msup><mo>,</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-4"> LR = \frac{1}{D_{Ref}} \int_0^t 10^{[T(t')-T_{Ref}]/z}\,dt', </script>
 where <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-288" style="width: 2.839em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.163em; height: 0px; font-size: 130%;"><span style="position: absolute; clip: rect(1.384em, 1002.16em, 2.655em, -1000em); top: -2.212em; left: 0em;"><span class="mrow" id="MathJax-Span-289"><span class="msubsup" id="MathJax-Span-290"><span style="display: inline-block; position: relative; width: 2.158em; height: 0px;"><span style="position: absolute; clip: rect(3.163em, 1000.8em, 4.135em, -1000em); top: -3.99em; left: 0em;"><span class="mi" id="MathJax-Span-291" style="font-family: MathJax_Math; font-style: italic;">D</span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span><span style="position: absolute; top: -3.836em; left: 0.828em;"><span class="texatom" id="MathJax-Span-292"><span class="mrow" id="MathJax-Span-293"><span class="mi" id="MathJax-Span-294" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">R</span><span class="mi" id="MathJax-Span-295" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-296" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.042em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.99em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.212em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.451em; border-left: 0px solid; width: 0px; height: 1.402em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>D</mi><mrow class="MJX-TeXAtom-ORD"><mi>R</mi><mi>e</mi><mi>f</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-5">D_{Ref}</script> is the time required for a one decimal
 reduction in the pathogen at the reference temperature
@@ -1842,7 +1842,7 @@ experimental observations for Listeria.</p>
 
 <p>Many cooks just drop the bottom of the pouch, with the food and liquid inside, into the hot water bath, leave the top open, and clamp the open top to the side of the water bath. This also works well, but you must make sure the part of the bag above the water has no food pathogens on it. For example, you can roll the top of the bag down that will be above the water. If you're preparing food for anyone who is immune compromised, it's better to seal the bag and make sure every part of the bag is submerged under the water.</p>
 
-<p>Some home cooks use clamp-style vacuum sealers, such as a FoodSaver vacuum sealer. The problem with clamp- or edge-style vacuum sealers is that it is difficult to get a strong vacuum, the bags are expensive (compared to those used in chamber machines), and liquids tend to get sucked into the machine. If your recipe calls for liquid to be in the pouch, I'd recommend using a resealable pouch instead of your clamp-style vacuum sealer. 
+<p>Some home cooks use clamp-style vacuum sealers, such as a FoodSaver vacuum sealer. The problem with clamp- or edge-style vacuum sealers is that it is difficult to get a strong vacuum, the bags are expensive (compared to those used in chamber machines), and liquids tend to get sucked into the machine. If your recipe calls for liquid to be in the pouch, I'd recommend using a resealable pouch instead of your clamp-style vacuum sealer.
 If you do want to use your clamp-style vacuum sealer, you can either </p>
 <ul><li>freeze the liquid before putting it into the pouch; for instance, freezing a small ice cube tray filled with extra virgin olive oil is quite convenient.</li>
 <li>cut the pouch long, hang the edge over the counter (so the liquid is below the level of the vacuum channel), and push the &ldquo;seal&rdquo; or &ldquo;stop and seal&rdquo; button just before the liquid reaches the vacuum sealer.</li></ul>
@@ -1855,10 +1855,10 @@ If you do want to use your clamp-style vacuum sealer, you can either </p>
 
 <h3><a name="Digital_Thermometers">Digital Thermometers</a></h3>
 
-<p>Accurate temperature control is important for safe sous vide cooking: pasteurization times depend critically on temperature. I recommended that anyone interested in precision cooking &ndash; sous vide or traditional &ndash; invest in a good digital thermometer. For everyday cooking, the Comark PDQ400 is a great entry-level thermocouple thermometer. If you have the money, ThermoWorks' Thermapen is much faster than the 
+<p>Accurate temperature control is important for safe sous vide cooking: pasteurization times depend critically on temperature. I recommended that anyone interested in precision cooking &ndash; sous vide or traditional &ndash; invest in a good digital thermometer. For everyday cooking, the Comark PDQ400 is a great entry-level thermocouple thermometer. If you have the money, ThermoWorks' Thermapen is much faster than the
 PDQ400 and even easier to use.</p>
 
-<p>If you like doing science experiments, you might consider getting several interchangeable probes and a thermometer that can read them. I have several K- and T-type probes from ThermoWorks and I'm very happy 
+<p>If you like doing science experiments, you might consider getting several interchangeable probes and a thermometer that can read them. I have several K- and T-type probes from ThermoWorks and I'm very happy
 with them, especially the needle probes from TheromWorks that respond very quickly.</p>
 
 <h3><a name="Basic_Equipment_Suggestions">Basic Equipment Suggestions</a></h3>
@@ -1878,7 +1878,7 @@ with them, especially the needle probes from TheromWorks that respond very quick
 
 <h2><a name="Government_Pasteurization_Tables">C. Government Pasteurization Tables</a></h2>
 
-<p>The pasteurization times for beef, lamb and pork are listed in Table C.1. 
+<p>The pasteurization times for beef, lamb and pork are listed in Table C.1.
 Table C.2 lists the pasteurization times for chicken and turkey.</p>
 
 <div class="table"><a name="Table_C.1"></a>
@@ -1904,7 +1904,7 @@ Table C.2 lists the pasteurization times for chicken and turkey.</p>
 <tr><td>145 (62.8)</td><td>4 min</td><td></td><td></td></tr></tbody>
 </table></div>
 <div class="caption">
-Table C.1: Pasteurization times for beef, corned beef, lamb, pork and 
+Table C.1: Pasteurization times for beef, corned beef, lamb, pork and
 cured pork (FDA, 2009, 3-401.11.B.2).</div>
 
 <div class="table"><a name="Table_C.2"></a>
@@ -1957,7 +1957,7 @@ cured pork (FDA, 2009, 3-401.11.B.2).</div>
 	<td>0 sec</td><td>0 sec</td><td>0 sec</td></tr></tbody>
 </table></div>
 <div class="caption">
-Table C.2: Pasteurization times for a 7D reduction in Salmonella 
+Table C.2: Pasteurization times for a 7D reduction in Salmonella
 for chicken and turkey (FSIS, 2005).</div>
 
 <h2><a name="Bibliography">Bibliography</a></h2>
@@ -1969,8 +1969,8 @@ Clostridium perfringens in a 'sous-vide' beef goulash under temperature abuse. I
 Food Microbiology, 63:117&ndash;123, 2001.</p>
 <p>Gillian A. Armstrong and Heather McIlveen. Effects of prolonged storage on the sensory quality and
 consumer acceptance of sous vide meat-based recipe dishes. Food Quality and Preference, 11:377&ndash;385, 2000.</p>
-<p>P. Arvidsson, M. A. J. S. Van Boekel, K. Skog, and M. J&auml;gerstad. 
-Kineteics of formation of polar heterocyclic amines in a meat model 
+<p>P. Arvidsson, M. A. J. S. Van Boekel, K. Skog, and M. J&auml;gerstad.
+Kineteics of formation of polar heterocyclic amines in a meat model
 system. Journal of Food Science, 62(5):911&ndash;916, 1997.</p>
 <p>J. De Baerdemaeker and B. M. Nicola&iuml;. Equipment considerations for sous vide cooking. Food Control, 6(4):
 229&ndash;236, 1995.</p>
@@ -2140,26 +2140,26 @@ during constantly rising temperatures. Journal of Food Science, 43:470&ndash;475
 <div class="footer">
 <p>Last Updated: <!-- #BeginDate format:fcAm1 -->Thursday, December 25, 2014<!-- #EndDate -->
 </p>
-<p><a name="Version_History"><b>Version History:</b></a> I posted the 
-first version of my guide, then called &ldquo;A Short Guide to Sous-Vide,&rdquo; on 
-22 February 2008. I posted version 0.3a on 10 March 2008 and this 
-version had most the content that's in the current version; I changed 
-the name to &ldquo;A Practical Guide to Sous Vide Cooking&rdquo; in 0.3b on 16 July 
-2008. I made a major revision and rewrote most the chapters for version 
+<p><a name="Version_History"><b>Version History:</b></a> I posted the
+first version of my guide, then called &ldquo;A Short Guide to Sous-Vide,&rdquo; on
+22 February 2008. I posted version 0.3a on 10 March 2008 and this
+version had most the content that's in the current version; I changed
+the name to &ldquo;A Practical Guide to Sous Vide Cooking&rdquo; in 0.3b on 16 July
+2008. I made a major revision and rewrote most the chapters for version
 0.4a, which I posted on 1 September 2008, and made small improvements up
- until version 0.4f on 28 November 2008. This is the version that was 
+ until version 0.4f on 28 November 2008. This is the version that was
 translated into French and German. On 26 March 2009, for version 0.4g, I
  added the section on the Maillard reaction.</p>
-<p>Then I wrote my cookbook, &ldquo;Sous Vide for the Home Cook&rdquo;: I started 
-writing in earnest on 27 July 2009; submitted my first complete draft 
-for editing on 3 November 2009; second draft on 3 January 2010; final 
+<p>Then I wrote my cookbook, &ldquo;Sous Vide for the Home Cook&rdquo;: I started
+writing in earnest on 27 July 2009; submitted my first complete draft
+for editing on 3 November 2009; second draft on 3 January 2010; final
 draft for typesetting on 11 February 2010&mdash;it was officially published on
  12 April 2010.</p>
-<p>I updated the equipment chapter (to include most the new equipment 
-that's been released since 0.4g) in version 0.4h on 8 February 2011. 
-On 18 June 2011,  for version 0.4i, I updated the food safety chapter 
-and most of the heating, cooling, and pasteurization tables. On 25 
-December 2014, for version 0.4j, I again updated the equipment section 
+<p>I updated the equipment chapter (to include most the new equipment
+that's been released since 0.4g) in version 0.4h on 8 February 2011.
+On 18 June 2011,  for version 0.4i, I updated the food safety chapter
+and most of the heating, cooling, and pasteurization tables. On 25
+December 2014, for version 0.4j, I again updated the equipment section
 to reflect the new equipment that's become available.</p>
 <p>In January 2022, for version 0.4k, I updated the equipment section and fixed broken links.</p>
 <p>If you have any specific update requests, please email me. </p>

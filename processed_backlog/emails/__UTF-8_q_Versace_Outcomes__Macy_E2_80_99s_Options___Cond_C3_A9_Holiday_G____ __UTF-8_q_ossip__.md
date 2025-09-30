@@ -38,7 +38,7 @@ the Hamptons in the 2010s, and Karl Lagerfeld. She is incredible and I’m honor
 Mentioned in this
 issue: Donatella Versace, Capri, Jimmy Choo, Macy’s, John Idol, Tony Spring, Louise Trotter, Matthieu Blazy, Blazy’s Sardine bag, Chanel, Bottega, Roger Lynch, Emmanuel Gintzburger, Jonathan Akeroyd, Burberry, Renzo Rosso, LVMH, Kering, Maison Margiela, Lina Khan, Roberta Benaglia, and many, many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -171,7 +171,7 @@ In any of the above scenarios, Donatella would be required and incentivized to s
 designs… even the prints. The only outcome in which Donatella’s presence would likely not be required is if an Authentic Brands Group, G-III, or WHP Global-type firm that specializes in brand management (or brand killing, depending on how you spin it) emerges triumphant—a buyer-of-last-resort scenario that would force Donatella, who turns 70 in May, to watch her work end up in the remainder bin. It wouldn’t be ideal for anyone involved; it’s not a good look, and would be a
 flat-out acknowledgement that the Capri experiment failed. But remember that LVMH sold Donna Karan to G-III. Idol may simply not have a choice. 
 
- 
+
 
 What I’m Reading…
 ---------------------
@@ -199,7 +199,7 @@ John McDonald, the owner of Lure Fishbar—that macho seafood place under the Pr
 I’m into Vogue’s Year in Fashion poll. It’s super fun and a spot-on depiction of what happened in the industry in 2024. [Vogue
 Runway ( https://www.vogue.com/article/2024-vogue-runway-industry-polll?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Whose panettone is the best
 panettone?
@@ -236,6 +236,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT4O90_jcToSsuOEf2Xqk=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

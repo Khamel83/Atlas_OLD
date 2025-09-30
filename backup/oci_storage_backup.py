@@ -171,12 +171,12 @@ oci os object put -bn $BUCKET_NAME -f $LATEST_BACKUP --name $(basename $LATEST_B
 
 if [ $? -eq 0 ]; then
     log_message "Backup uploaded successfully: $(basename $LATEST_BACKUP)"
-    
+
     # Send success email notification
     python3 /home/ubuntu/dev/atlas/backup/send_notification.py "SUCCESS" "Backup uploaded to OCI Object Storage: $(basename $LATEST_BACKUP)"
 else
     log_message "ERROR: Failed to upload backup: $(basename $LATEST_BACKUP)"
-    
+
     # Send failure email notification
     python3 /home/ubuntu/dev/atlas/backup/send_notification.py "FAILURE" "Failed to upload backup to OCI Object Storage: $(basename $LATEST_BACKUP)"
     exit 1
@@ -215,18 +215,18 @@ def send_email(status, message):
     sender_email = os.environ.get('EMAIL_SENDER')
     sender_password = os.environ.get('EMAIL_PASSWORD')
     recipient_email = os.environ.get('EMAIL_RECIPIENT')
-    
+
     # Validate required environment variables
     if not all([sender_email, sender_password, recipient_email]):
         print("Error: Missing email configuration environment variables")
         return False
-    
+
     # Create message
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"Atlas Backup {status}"
     msg["From"] = sender_email
     msg["To"] = recipient_email
-    
+
     # Create text part
     text = f"""
 Atlas Backup Notification
@@ -236,10 +236,10 @@ Message: {message}
 
 This is an automated message from your Atlas backup system.
 """
-    
+
     text_part = MIMEText(text, "plain")
     msg.attach(text_part)
-    
+
     # Send email
     try:
         context = ssl.create_default_context()
@@ -247,7 +247,7 @@ This is an automated message from your Atlas backup system.
             server.starttls(context=context)
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, recipient_email, msg.as_string())
-        
+
         print(f"Email notification sent: {status}")
         return True
     except Exception as e:
@@ -258,10 +258,10 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: send_notification.py <status> <message>")
         sys.exit(1)
-    
+
     status = sys.argv[1]
     message = sys.argv[2]
-    
+
     if send_email(status, message):
         sys.exit(0)
     else:
@@ -312,21 +312,21 @@ fi
 echo "$OBJECTS" | while read -r time_created name; do
     # Convert time to seconds since epoch
     created_seconds=$(date -d "$time_created" +%s 2>/dev/null)
-    
+
     if [ $? -ne 0 ]; then
         log_message "ERROR: Failed to parse date: $time_created"
         continue
     fi
-    
+
     # Calculate age in days
     current_seconds=$(date +%s)
     age_days=$(( (current_seconds - created_seconds) / 86400 ))
-    
+
     # Delete if older than retention period
     if [ $age_days -gt $RETENTION_DAYS ]; then
         log_message "Deleting old backup: $name (age: $age_days days)"
         oci os object delete -bn $BUCKET_NAME --name "$name" --force >> $LOG_FILE 2>&1
-        
+
         if [ $? -eq 0 ]; then
             log_message "Successfully deleted: $name"
         else

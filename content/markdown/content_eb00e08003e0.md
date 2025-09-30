@@ -57,14 +57,14 @@ d.getElementsByTagName("head")[0].appendChild(t);
           <a href="https://www.alibabacloud.com/blog/" class="bg">
              Blog
           </a>
-          
+
           <a href="https://resource.alibabacloud.com/event/index">
              Events
           </a>
           <a href="https://resource.alibabacloud.com/webinar/index.htm">
              Webinars
           </a>
-          
+
           <a href="https://community.alibabacloud.com/tags/type_blog-tagid_28404/">
               Tutorials
           </a>
@@ -72,17 +72,17 @@ d.getElementsByTagName("head")[0].appendChild(t);
               Forum
           </a>
         </main>
-       
+
         <ul class="blog-nav-right">
           <li class="search"><input type="text" placeholder="Search" id="search">
           <i class="search-btn k-iconfont icon-sousuo1"></i>
            <div class="close-box"><img data-original="https://img.alicdn.com/tfs/TB1BIBBsbPpK1RjSZFFXXa5PpXa-24-24.png"
                                 data-toggle="lazy-loading" class="off" /><img data-original="https://img.alicdn.com/tfs/TB1vrJ2shnaK1RjSZFBXXcW7VXa-24-24.png"
-                                data-toggle="lazy-loading" class="on" /></div>         
-                        
+                                data-toggle="lazy-loading" class="on" /></div>
+
                         </li>
                        </ul>
-       
+
         <div class="blog-nav-right-m">
           <i class="k-iconfont icon-sousuo1 show-search"></i>
           <i class="show-more"></i>
@@ -131,7 +131,7 @@ d.getElementsByTagName("head")[0].appendChild(t);
              ×
           </span>
         </div>
-       
+
       </div>
     </div>
   </div>
@@ -167,7 +167,7 @@ d.getElementsByTagName("head")[0].appendChild(t);
                         Although new at the chip-making game, Alibaba are showing that there&#039;s loads of innovation to be made in AI-centric chip manufacturing and development.
                     </div>
                     <div class="wrap-main-left-article markdown-body">
-                        
+
 <blockquote><p>Relive the best moments of the Apsara Conference 2019 at <a href="https://www.alibabacloud.com/apsara-conference-2019" target="_blank">https://www.alibabacloud.com/apsara-conference-2019</a>.</p></blockquote>
 <p><img src="https://yqintl.alicdn.com/d80fe435eaca2a3b6be61c50249d3a5272615283.jpeg" alt="1" title="1"></p>
 <p>Jeff Zhang, Dean of <a href="https://damo.alibaba.com/?spm=a2c65.11461447.0.0.1d7c4baed1M3OY" target="_blank">Alibaba DAMO Academy</a>, unveiled Alibaba's first AI inference chip, Hanguang 800, during Apsara Conference on September 25, 2019. Hanguang 800 is the world's most powerful AI inference chip. In the Resnet-50 industry test, the peak performance of the new chip reached a whopping 78,563 images per second, which is four times higher than the second best AI chip in the world. The peak efficiency of the chip also reached 500 IPS/W, which is 3.3 times higher than the second best option.</p>
@@ -327,7 +327,7 @@ d.getElementsByTagName("head")[0].appendChild(t);
                         Comments
                     </h3>
                                                             <div class="wrap-main-left-comments">
-                        
+
 <span class="hidden" id="pageCount" data-pageCount="0"></span>
 
 </div>

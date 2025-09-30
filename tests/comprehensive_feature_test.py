@@ -36,7 +36,7 @@ except ImportError as e:
 
 # Setup logging
 logging.basicConfig(
-    level=logging.INFO, 
+    level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),
@@ -56,7 +56,7 @@ class TestResult:
 
 class AtlasFeatureTester:
     """Comprehensive Atlas feature testing"""
-    
+
     def __init__(self, atlas_url: str = "http://localhost:8000", use_real_data: bool = True):
         self.atlas_url = atlas_url
         self.use_real_data = use_real_data
@@ -66,7 +66,7 @@ class AtlasFeatureTester:
             self.config = config
         except:
             self.config = {}
-        
+
         # Test data samples
         self.sample_articles = [
             {
@@ -88,7 +88,7 @@ class AtlasFeatureTester:
                 "source": "comprehensive-test"
             }
         ]
-        
+
         # Real-world data sources for testing
         self.real_data_sources = [
             "https://news.ycombinator.com",
@@ -96,12 +96,12 @@ class AtlasFeatureTester:
             "https://www.techmeme.com",
             "https://arxiv.org/list/cs.AI/recent"
         ]
-    
+
     def run_all_tests(self) -> Dict[str, Any]:
         """Run comprehensive test suite"""
         logger.info("Starting comprehensive Atlas feature test suite")
         start_time = time.time()
-        
+
         # Test categories
         test_categories = [
             ("Content Ingestion", self._test_content_ingestion),
@@ -112,7 +112,7 @@ class AtlasFeatureTester:
             ("Performance", self._test_performance),
             ("Integration", self._test_integration)
         ]
-        
+
         for category_name, test_function in test_categories:
             logger.info(f"Testing {category_name}...")
             try:
@@ -125,15 +125,15 @@ class AtlasFeatureTester:
                     duration=0,
                     error=str(e)
                 ))
-        
+
         total_duration = time.time() - start_time
-        
+
         # Generate test report
         return self._generate_test_report(total_duration)
-    
+
     def _test_content_ingestion(self) -> None:
         """Test content ingestion capabilities"""
-        
+
         # Test 1: API Content Ingestion
         start_time = time.time()
         try:
@@ -144,7 +144,7 @@ class AtlasFeatureTester:
                     headers={"Content-Type": "application/json"}
                 )
                 assert response.status_code == 200, f"API ingestion failed: {response.status_code}"
-            
+
             self.test_results.append(TestResult(
                 test_name="Content Ingestion - API Upload",
                 passed=True,
@@ -158,7 +158,7 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 2: File Upload Processing
         start_time = time.time()
         try:
@@ -166,7 +166,7 @@ class AtlasFeatureTester:
             with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
                 f.write("This is a test document for Atlas ingestion. It contains sample content to verify that file processing works correctly.")
                 temp_file = f.name
-            
+
             # Test file upload (if endpoint exists)
             try:
                 with open(temp_file, 'rb') as f:
@@ -179,9 +179,9 @@ class AtlasFeatureTester:
                 success = response.status_code == 200
             except:
                 success = True  # Skip if upload endpoint doesn't exist
-            
+
             os.unlink(temp_file)
-            
+
             self.test_results.append(TestResult(
                 test_name="Content Ingestion - File Upload",
                 passed=success,
@@ -194,28 +194,28 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 3: Real Data Ingestion (if enabled)
         if self.use_real_data:
             self._test_real_data_ingestion()
-    
+
     def _test_real_data_ingestion(self) -> None:
         """Test ingestion of real-world data"""
         start_time = time.time()
-        
+
         try:
             # Fetch and ingest real data from Hacker News
             hn_response = requests.get("https://hacker-news.firebaseio.com/v0/topstories.json")
             if hn_response.status_code == 200:
                 story_ids = hn_response.json()[:5]  # Get top 5 stories
-                
+
                 ingested_count = 0
                 for story_id in story_ids:
                     try:
                         story_response = requests.get(f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json")
                         if story_response.status_code == 200:
                             story = story_response.json()
-                            
+
                             if story.get('url'):  # Only process stories with URLs
                                 content_data = {
                                     "title": story.get('title', 'No Title'),
@@ -228,18 +228,18 @@ class AtlasFeatureTester:
                                         "comments": story.get('descendants', 0)
                                     }
                                 }
-                                
+
                                 response = requests.post(
                                     f"{self.atlas_url}/api/v1/content/save",
                                     json=content_data,
                                     headers={"Content-Type": "application/json"}
                                 )
-                                
+
                                 if response.status_code == 200:
                                     ingested_count += 1
                     except:
                         continue
-                
+
                 self.test_results.append(TestResult(
                     test_name="Content Ingestion - Real Data (Hacker News)",
                     passed=ingested_count > 0,
@@ -253,7 +253,7 @@ class AtlasFeatureTester:
                     duration=time.time() - start_time,
                     error="Failed to fetch Hacker News data"
                 ))
-                
+
         except Exception as e:
             self.test_results.append(TestResult(
                 test_name="Content Ingestion - Real Data (Hacker News)",
@@ -261,22 +261,22 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _test_search_functionality(self) -> None:
         """Test search and retrieval capabilities"""
-        
+
         # Give content time to be indexed
         time.sleep(2)
-        
+
         # Test 1: Basic Search
         start_time = time.time()
         try:
             response = requests.get(f"{self.atlas_url}/api/v1/search?q=artificial+intelligence")
             assert response.status_code == 200, f"Search API failed: {response.status_code}"
-            
+
             results = response.json()
             assert 'results' in results, "Search response missing results"
-            
+
             self.test_results.append(TestResult(
                 test_name="Search - Basic Query",
                 passed=True,
@@ -290,13 +290,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 2: Semantic Search
         start_time = time.time()
         try:
             search_engine = AtlasSearchEngine()
             results = search_engine.search("machine learning algorithms")
-            
+
             self.test_results.append(TestResult(
                 test_name="Search - Semantic Search Engine",
                 passed=True,
@@ -310,16 +310,16 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _test_cognitive_features(self) -> None:
         """Test all cognitive AI features"""
-        
+
         # Test 1: Recall Engine
         start_time = time.time()
         try:
             recall_engine = RecallEngine()
             recalls = recall_engine.get_active_recalls()
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Recall Engine",
                 passed=True,
@@ -333,13 +333,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 2: Socratic Question Engine
         start_time = time.time()
         try:
             question_engine = QuestionEngine()
             questions = question_engine.generate_questions("artificial intelligence")
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Socratic Questions",
                 passed=len(questions) > 0 if questions else False,
@@ -353,13 +353,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 3: Pattern Detector
         start_time = time.time()
         try:
             pattern_detector = PatternDetector()
             patterns = pattern_detector.detect_patterns()
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Pattern Detection",
                 passed=True,
@@ -373,13 +373,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 4: Temporal Engine
         start_time = time.time()
         try:
             temporal_engine = TemporalEngine()
             insights = temporal_engine.get_temporal_insights()
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Temporal Analysis",
                 passed=True,
@@ -393,13 +393,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 5: Proactive Surfacer
         start_time = time.time()
         try:
             surfacer = ProactiveSurfacer()
             suggestions = surfacer.surface_relevant_content("technology")
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Proactive Surfacing",
                 passed=True,
@@ -413,13 +413,13 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-        
+
         # Test 6: Recommendation Engine
         start_time = time.time()
         try:
             rec_engine = RecommendationEngine()
             recommendations = rec_engine.get_recommendations()
-            
+
             self.test_results.append(TestResult(
                 test_name="Cognitive - Recommendations",
                 passed=True,
@@ -433,17 +433,17 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _test_api_endpoints(self) -> None:
         """Test all major API endpoints"""
-        
+
         endpoints = [
             ("/api/v1/health", "GET"),
             ("/api/v1/stats", "GET"),
             ("/ask/api", "GET"),
             ("/api/v1/search", "GET")
         ]
-        
+
         for endpoint, method in endpoints:
             start_time = time.time()
             try:
@@ -451,9 +451,9 @@ class AtlasFeatureTester:
                     response = requests.get(f"{self.atlas_url}{endpoint}")
                 else:
                     response = requests.post(f"{self.atlas_url}{endpoint}")
-                
+
                 passed = response.status_code in [200, 201, 302]  # Accept redirects too
-                
+
                 self.test_results.append(TestResult(
                     test_name=f"API - {endpoint}",
                     passed=passed,
@@ -467,16 +467,16 @@ class AtlasFeatureTester:
                     duration=time.time() - start_time,
                     error=str(e)
                 ))
-    
+
     def _test_data_processing(self) -> None:
         """Test data processing capabilities"""
-        
+
         # Test 1: Unified AI Processing
         start_time = time.time()
         try:
             ai = UnifiedAISystem()
             result = ai.process_text("This is a test document for processing by the Atlas AI system.")
-            
+
             self.test_results.append(TestResult(
                 test_name="Data Processing - Unified AI",
                 passed=result is not None,
@@ -490,19 +490,19 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _test_performance(self) -> None:
         """Test system performance"""
-        
+
         # Test 1: Search Performance
         start_time = time.time()
         try:
             for i in range(10):
                 response = requests.get(f"{self.atlas_url}/api/v1/search?q=test+query+{i}")
                 assert response.status_code == 200
-            
+
             avg_duration = (time.time() - start_time) / 10
-            
+
             self.test_results.append(TestResult(
                 test_name="Performance - Search Speed",
                 passed=avg_duration < 2.0,  # Should average less than 2 seconds
@@ -516,10 +516,10 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _test_integration(self) -> None:
         """Test system integration"""
-        
+
         # Test 1: End-to-End Workflow
         start_time = time.time()
         try:
@@ -530,7 +530,7 @@ class AtlasFeatureTester:
                 "url": "https://example.com/integration-test",
                 "source": "integration-test"
             }
-            
+
             # Step 1: Ingest
             response = requests.post(
                 f"{self.atlas_url}/api/v1/content/save",
@@ -538,27 +538,27 @@ class AtlasFeatureTester:
                 headers={"Content-Type": "application/json"}
             )
             assert response.status_code == 200
-            
+
             # Step 2: Wait for indexing
             time.sleep(3)
-            
+
             # Step 3: Search
             search_response = requests.get(f"{self.atlas_url}/api/v1/search?q=integration+test")
             assert search_response.status_code == 200
-            
+
             search_results = search_response.json()
             found_test_content = any(
-                "integration test" in result.get('title', '').lower() 
+                "integration test" in result.get('title', '').lower()
                 for result in search_results.get('results', [])
             )
-            
+
             self.test_results.append(TestResult(
                 test_name="Integration - End-to-End Workflow",
                 passed=found_test_content,
                 duration=time.time() - start_time,
                 details={"workflow_steps": ["ingest", "index", "search", "retrieve"]}
             ))
-            
+
         except Exception as e:
             self.test_results.append(TestResult(
                 test_name="Integration - End-to-End Workflow",
@@ -566,12 +566,12 @@ class AtlasFeatureTester:
                 duration=time.time() - start_time,
                 error=str(e)
             ))
-    
+
     def _generate_test_report(self, total_duration: float) -> Dict[str, Any]:
         """Generate comprehensive test report"""
         passed_tests = [r for r in self.test_results if r.passed]
         failed_tests = [r for r in self.test_results if not r.passed]
-        
+
         report = {
             "test_summary": {
                 "total_tests": len(self.test_results),
@@ -600,45 +600,45 @@ class AtlasFeatureTester:
             "test_timestamp": datetime.now().isoformat(),
             "atlas_url": self.atlas_url
         }
-        
+
         return report
-    
+
     def save_test_report(self, report: Dict[str, Any], filename: str = None) -> str:
         """Save test report to file"""
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"atlas_test_report_{timestamp}.json"
-        
+
         with open(filename, 'w') as f:
             json.dump(report, f, indent=2)
-        
+
         logger.info(f"Test report saved to {filename}")
         return filename
 
 def main():
     """Main function for command-line usage"""
     import argparse
-    
+
     parser = argparse.ArgumentParser(description="Comprehensive Atlas Feature Tester")
     parser.add_argument('--atlas-url', default='http://localhost:8000', help='Atlas server URL')
     parser.add_argument('--no-real-data', action='store_true', help='Skip real data ingestion tests')
     parser.add_argument('--output', help='Output file for test report')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose logging')
-    
+
     args = parser.parse_args()
-    
+
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
-    
+
     tester = AtlasFeatureTester(
         atlas_url=args.atlas_url,
         use_real_data=not args.no_real_data
     )
-    
+
     try:
         # Run tests
         report = tester.run_all_tests()
-        
+
         # Print summary
         summary = report['test_summary']
         logger.info(f"\n{'='*60}")
@@ -648,19 +648,19 @@ def main():
         logger.info(f"Passed: {summary['passed']} ({summary['success_rate']:.1f}%)")
         logger.info(f"Failed: {summary['failed']}")
         logger.info(f"Total Duration: {summary['total_duration']:.2f} seconds")
-        
+
         if report['failed_tests']:
             logger.info(f"\nFAILED TESTS:")
             for test in report['failed_tests']:
                 logger.info(f"  ❌ {test['name']}: {test['error']}")
-        
+
         # Save report
         report_file = tester.save_test_report(report, args.output)
         logger.info(f"\nDetailed report saved to: {report_file}")
-        
+
         # Exit with appropriate code
         sys.exit(0 if summary['failed'] == 0 else 1)
-        
+
     except KeyboardInterrupt:
         logger.info("Testing interrupted by user")
         sys.exit(1)

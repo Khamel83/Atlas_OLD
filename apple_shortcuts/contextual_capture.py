@@ -255,7 +255,7 @@ class ContextualCaptureEngine:
                 results = conn.execute(
                     """
                     SELECT semantic_location, confidence,
-                           ((latitude - ?) * (latitude - ?) + 
+                           ((latitude - ?) * (latitude - ?) +
                             (longitude - ?) * (longitude - ?)) as distance_sq
                     FROM location_patterns
                     WHERE distance_sq <= (radius * radius)
@@ -462,7 +462,7 @@ class ContextualCaptureEngine:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    INSERT INTO context_learning 
+                    INSERT INTO context_learning
                     (capture_id, predicted_context, actual_context, accuracy_score, feedback_type)
                     VALUES (?, ?, ?, ?, ?)
                 """,
@@ -514,7 +514,7 @@ class ContextualCaptureEngine:
                     location = context["location"]
                     conn.execute(
                         """
-                        INSERT OR IGNORE INTO location_patterns 
+                        INSERT OR IGNORE INTO location_patterns
                         (semantic_location, latitude, longitude, radius, confidence)
                         VALUES (?, ?, ?, ?, ?)
                     """,
@@ -530,7 +530,7 @@ class ContextualCaptureEngine:
                     # Update usage count for existing patterns
                     conn.execute(
                         """
-                        UPDATE location_patterns 
+                        UPDATE location_patterns
                         SET usage_count = usage_count + 1, last_used = CURRENT_TIMESTAMP
                         WHERE semantic_location = ?
                     """,
@@ -541,7 +541,7 @@ class ContextualCaptureEngine:
                 if "activity" in context:
                     conn.execute(
                         """
-                        INSERT OR IGNORE INTO activity_patterns 
+                        INSERT OR IGNORE INTO activity_patterns
                         (activity_type, confidence)
                         VALUES (?, ?)
                     """,
@@ -550,7 +550,7 @@ class ContextualCaptureEngine:
 
                     conn.execute(
                         """
-                        UPDATE activity_patterns 
+                        UPDATE activity_patterns
                         SET usage_count = usage_count + 1, last_used = CURRENT_TIMESTAMP
                         WHERE activity_type = ?
                     """,
@@ -572,7 +572,7 @@ class ContextualCaptureEngine:
                 # Load location patterns
                 location_results = conn.execute(
                     """
-                    SELECT * FROM location_patterns 
+                    SELECT * FROM location_patterns
                     WHERE confidence > 0.5
                     ORDER BY usage_count DESC
                 """
@@ -585,7 +585,7 @@ class ContextualCaptureEngine:
                 # Load activity patterns
                 activity_results = conn.execute(
                     """
-                    SELECT * FROM activity_patterns 
+                    SELECT * FROM activity_patterns
                     WHERE confidence > 0.5
                     ORDER BY usage_count DESC
                 """

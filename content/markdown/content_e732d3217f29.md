@@ -9,15 +9,15 @@
     <title>You Should Be Terrified That People Who Like “Hamilton” Run Our Country</title>
     <link rel="shortcut icon" href="https://www.currentaffairs.org/hubfs/favicon.png">
     <meta name="description" content="The American elite can’t get enough of a musical that flatters their political sensibilities and avoids discomforting truths.">
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta property="og:description" content="The American elite can’t get enough of a musical that flatters their political sensibilities and avoids discomforting truths.">
@@ -160,8 +160,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 </script>
 <!-- End Schema -->
 
-<!-- Google tag (gtag.js) --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16576808317"></script> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16576808317"></script>
 <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16576808317'); </script>
 <meta property="og:image" content="https://www.currentaffairs.org/hubfs/Imported_Blog_Media/hero-image_HAMILTON_v2-1024x648-1.jpg">
 <meta property="og:image:width" content="1024">
@@ -207,7 +207,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
  document.addEventListener("DOMContentLoaded", function() {
   const menuButton = document.querySelector("[data-trigger='menu-takeover']");
   const menuTakeover = document.querySelector(".menu-takeover");
-  
+
   menuButton.addEventListener("click", function() {
     document.body.classList.toggle("show-modal-takeover");
     document.documentElement.classList.toggle("show-modal-takeover");
@@ -233,7 +233,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <meta name="generator" content="HubSpot"></head>
   <body class="ca-2019">
     <div class="body-wrapper   hs-content-id-167241793852 hs-blog-post hs-blog-id-163488204299">
-      
+
       <div data-global-resource-path="current affairs/templates/partials/header-mast.html"><!-- Begin partial -->
 <header class="masthead">
   <div class="bound">
@@ -326,12 +326,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <button class="hide-menu-takeover">Hide menu</button>
 
 <div id="hs_cos_wrapper_module_175077891545620" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="mobile-menu-container">
-  
-    
-    
-    
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Accordion Menu Item with Children -->
       <input type="checkbox" id="accordion-1" class="accordion-checkbox">
       <div class="menu-item has-children">
@@ -339,138 +339,138 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           About
         </label>
         <div class="submenu">
-          
-            
-            
-            
+
+
+
+
             <div class="submenu-item">
               <a href="https://www.currentaffairs.org/magazine" class="submenu-link">
                 Print Magazine
               </a>
             </div>
-          
-            
-            
-            
+
+
+
+
             <div class="submenu-item">
               <a href="https://www.currentaffairs.org/about-us" class="submenu-link">
                 History
               </a>
             </div>
-          
-            
-            
-            
+
+
+
+
             <div class="submenu-item">
               <a href="https://www.currentaffairs.org/faq" class="submenu-link">
                 FAQ
               </a>
             </div>
-          
-            
-            
-            
+
+
+
+
             <div class="submenu-item">
               <a href="https://www.currentaffairs.org/writers-guide" class="submenu-link">
                 Pitch Us
               </a>
             </div>
-          
+
         </div>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://www.currentaffairs.org/membership" class="menu-link">
           Subscribe
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://www.currentaffairs.org/issues" class="menu-link">
           Issues Archive
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://www.currentaffairs.org/news" class="menu-link">
           Articles
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://shop.currentaffairs.org/" target="_blank" rel="noopener" class="menu-link">
           Shop
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="http://patreon.com/currentaffairs" target="_blank" rel="noopener" class="menu-link">
           Podcast
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://www.currentaffairs.org/news-briefing" class="menu-link">
           News Briefing
         </a>
       </div>
-    
-  
-    
-    
-    
+
+
+
+
+
     <!-- Check if this menu item has children/submenu -->
-    
+
       <!-- Regular Menu Item (No Children) -->
       <div class="menu-item">
         <a href="https://www.currentaffairs.org/donate" class="menu-link">
           Donate
         </a>
       </div>
-    
-  
+
+
 </div></div>
 
 </div>
@@ -492,9 +492,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <input role="combobox" aria-expanded="false" aria-controls="autocomplete-results" aria-label="This is a search field with an auto-suggest feature attached." type="search" class="hs-search-field__input" id="module_171744129944114-input" name="q" autocomplete="off" aria-autocomplete="list" placeholder="Search">
 
 <input type="hidden" name="type" value="SITE_PAGE">
-        
-        
-        
+
+
+
           <input type="hidden" name="type" value="BLOG_POST">
           <input type="hidden" name="type" value="LISTING_PAGE">
 
@@ -503,9 +503,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
            </button>
         <div class="hs-search-field__suggestions-container ">
           <ul id="autocomplete-results" role="listbox" aria-label="term" class="hs-search-field__suggestions">
-            
+
               <li role="option" tabindex="-1" aria-posinset="1" aria-setsize="0" class="results-for show-for-sr">There are no suggestions because the search field is empty.</li>
-            
+
           </ul>
         </div>
       </form>
@@ -531,11 +531,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="content-wrapper">
     <article class="blog-post">
       <div class="article-splash">
-        
+
         <div class="blog-post__image-wrapper">
           <img class="blog-post__image" src="https://www.currentaffairs.org/hubfs/Imported_Blog_Media/hero-image_HAMILTON_v2-1024x648-1.jpg" loading="eager" alt="">
         </div>
-        
+
         <div class="titling">
           <h1 class="title">
             <span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">You Should Be Terrified That People Who Like “Hamilton” Run Our Country</span>
@@ -562,79 +562,79 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           <div class="secondary">
             <mark class="dateline">
               <span>filed <time style="display: inline;" datetime="2016-07-29 04:00:00" class="blog-post__timestamp">29 July 2016
-                </time> in</span> 
-              
+                </time> in</span>
+
               <a href="https://www.currentaffairs.org/news/tag/uncategorized" rel="tag">Uncategorized</a>
-              
-              
+
+
             </mark>
           </div>
         </div>
 
 </div>
       <div class="blog-post__body article-output">
-        <span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><div class="bound"> 
- <section class="essay-block wp-block-currentaffairs-group" data-essay-block-type="plain"> 
-  <p>In&nbsp;2012, Captain Dan and his Scurvy Crew, a four-man hip-hop ensemble trying to cement “pirate rap” as a tenable subgenre, <a href="https://www.youtube.com/watch?v=X0QdRj1L-UA">appeared on <em>America’s Got Talent</em></a>. The quartet had clearly put some thought, or at least effort, into the act; their pirate costumes might even have passed historical muster were it not for the leftmost crewmember’s Ray-Bans and Dan’s meticulously groomed chinstrap beard.</p> 
-  <p>The routine itself went precisely in the direction one might have expected:</p> 
+        <span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><div class="bound">
+ <section class="essay-block wp-block-currentaffairs-group" data-essay-block-type="plain">
+  <p>In&nbsp;2012, Captain Dan and his Scurvy Crew, a four-man hip-hop ensemble trying to cement “pirate rap” as a tenable subgenre, <a href="https://www.youtube.com/watch?v=X0QdRj1L-UA">appeared on <em>America’s Got Talent</em></a>. The quartet had clearly put some thought, or at least effort, into the act; their pirate costumes might even have passed historical muster were it not for the leftmost crewmember’s Ray-Bans and Dan’s meticulously groomed chinstrap beard.</p>
+  <p>The routine itself went precisely in the direction one might have expected:</p>
   <blockquote class="wp-block-quote">
    <p>Captain Dan: <em>When I say yo, you say ho. Yo!</em><br>Scurvy Crew: <em>HO!</em><br>Captain Dan: <em>YO!</em><br>Scurvy Crew: <em>HO!</em></p>
-  </blockquote> 
-  <p>The group managed to rattle off two-and-a-half stilted lines before the judges began sounding their buzzers. Howard Stern was the last to give them the red “X,” preferring to let the audience’s boos come to a crescendo before he cut the Scurvy Crew off. Stern seemed to take great pleasure in calling the group “stupid,” “moronic,” “idiotic,” and “pathetic” on a national stage (Captain Dan grimaced through his humiliating dressing-down while his bandmates laughed it off, exposing a gap in emotional investment in the project between captain and crew, one that likely led to some intra-group tension during the post-show commiseration drinks).</p> 
+  </blockquote>
+  <p>The group managed to rattle off two-and-a-half stilted lines before the judges began sounding their buzzers. Howard Stern was the last to give them the red “X,” preferring to let the audience’s boos come to a crescendo before he cut the Scurvy Crew off. Stern seemed to take great pleasure in calling the group “stupid,” “moronic,” “idiotic,” and “pathetic” on a national stage (Captain Dan grimaced through his humiliating dressing-down while his bandmates laughed it off, exposing a gap in emotional investment in the project between captain and crew, one that likely led to some intra-group tension during the post-show commiseration drinks).</p>
   <blockquote class="wp-block-quote">
    <p>Howie Mandel: <em>They have restaurants like this—like Medieval Times—where you go and you get a pirates thing and you get a chicken dinner. We didn’t get a chicken dinner with this.</em></p>
-  </blockquote> 
-  <p>In 2012, everyone (save for Captain Dan himself, along with people whose tastes range from “music from video games” to “music about video games”) was in agreement that performing high-school-history-project rap in Colonial Williamsburg garb was culturally unconscionable. Right?</p> 
-  <p>Wrong. The world in which we live now includes <em><a href="http://www.hamiltonbroadway.com/">Hamilton</a></em>, a wildly successful “hip-hop musical” about the first Secretary of the Treasury of the United States of America.</p> 
-  <p>Now, perhaps the <em>America’s Got Talent </em>audience isn’t an accurate sample of the American population as a whole. Perhaps they actually thought “when I say yo, you say ho” was clever , but were directed to boo by an off-screen neon sign. Or perhaps something happened in the past four years that made everyone really stupid.</p> 
+  </blockquote>
+  <p>In 2012, everyone (save for Captain Dan himself, along with people whose tastes range from “music from video games” to “music about video games”) was in agreement that performing high-school-history-project rap in Colonial Williamsburg garb was culturally unconscionable. Right?</p>
+  <p>Wrong. The world in which we live now includes <em><a href="http://www.hamiltonbroadway.com/">Hamilton</a></em>, a wildly successful “hip-hop musical” about the first Secretary of the Treasury of the United States of America.</p>
+  <p>Now, perhaps the <em>America’s Got Talent </em>audience isn’t an accurate sample of the American population as a whole. Perhaps they actually thought “when I say yo, you say ho” was clever , but were directed to boo by an off-screen neon sign. Or perhaps something happened in the past four years that made everyone really stupid.</p>
   <figure class="wp-block-image">
    <img loading="lazy" width="300" height="169" src="https://www.currentaffairs.org/hs-fs/hubfs/Imported_Blog_Media/Captaindanthescurvycrew-300x169-1.jpg?width=300&amp;height=169&amp;name=Captaindanthescurvycrew-300x169-1.jpg" alt="Captaindan&amp;thescurvycrew" class="wp-image-849 initial loaded" srcset="https://www.currentaffairs.org/hubfs/Imported_Blog_Media/Captaindanthescurvycrew-300x169-1.jpg 300w, https://www.currentaffairs.org/hubfs/Imported_Blog_Media/Captaindanthescurvycrew-768x432-1.jpg 768w, https://www.currentaffairs.org/hubfs/Imported_Blog_Media/Captaindanthescurvycrew-1.jpg 784w" sizes="(max-width: 300px) 100vw, 300px" data-was-processed="true">
-  </figure> 
-  <p>But what if the American public’s taste hasn’t devolved? What if <em>Hamilton</em>’s success is the result of something else altogether?</p> 
-  <p>Brian Eno once said that the Velvet Underground’s debut album only sold a few thousand copies, but everyone who bought it started a band. The same principle likely applies to <em>Hamilton</em>: only a few thousand people could afford to see it, but everyone who did happened to work for a prominent New York/D.C. publication.</p> 
-  <p>The media gushing over Hamilton has been downright torrential. “I am loath to tell people to mortgage their houses and lease their children to acquire tickets to a hit Broadway show,” <a href="http://www.nytimes.com/2015/08/07/theater/review-hamilton-young-rebels-changing-history-and-theater.html">wrote Ben Brantley</a> of the<em> New York Times</em>. “But Hamilton… might just about be worth it.” The hyperbolic headlines poured forth unceasingly: <a href="http://www.popsci.com/hamilton-musical-most-addicting-album-ever">“Is <em>Hamilton </em>the Musical the Most Addicting Album Ever?”</a> <a href="http://www.techinsider.io/hamilton-is-the-most-important-musical-of-all-time-2016-3">“<em>Hamilton </em>is the most important musical of our time.”</a> <a href="http://thefederalist.com/2016/04/07/hamilton-haters-are-why-we-cant-have-nice-things/">“<em>Hamilton</em> Haters Are Why We Can’t Have Nice Things.”</a> The media then got high on their own supply, diagnosing all of America with a harrowing ailment called “<a href="http://www.rollingstone.com/music/features/hamilton-mania-backstage-at-the-cultural-event-of-our-time-20160601">Hamilton mania</a>.” The work was “astonishing,” “sublime,” the “cultural event of our time.” Clarence Page of the <em>Chicago Tribune </em>said the musical was “<a href="http://www.chicagotribune.com/news/opinion/page/ct-hamilton-miranda-broadway-history-page-perspec-0703-jm-20160701-story.html">even better than the hype</a>.” Given the tenor of the hype, one can only imagine the pure, overpowering ecstasy that must comprise the <em>Hamilton</em>-viewing experience. The musical even somehow won a Pulitzer Prize this year, alongside Nicholas Kristof and that book by Ta-Nehisi Coates you bought but never read.</p> 
-  <p>One of the publications to enter swooning raptures over <em>Hamilton </em>was <em>BuzzFeed</em>, which <a href="https://www.buzzfeed.com/eleanorkagan/practical-tactical-brilliance">called</a> it the smash musical “that everyone you know has been quoting for months.” (Literally nobody has ever quoted <em>Hamilton </em>in my presence.) <em>BuzzFeed’</em>s workplace obsession with the musical led to the birthing of the <a href="https://twitter.com/ellievhall/status/659762696724828160">phrase</a> “BuzzFeed Hamilton Slack.” That three-word monstrosity, incomprehensible to anyone outside the narrowest circle of <a href="https://en.wikipedia.org/wiki/Listicle">listicle</a>-churning media elites, describes a room on the corporate messaging platform “Slack” used exclusively by <em>BuzzFeed </em>employees to discuss Hamilton. J.R.R. Tolkien said that “cellar door” was the most beautiful phonetic phrase the English language could produce. “BuzzFeed Hamilton Slack,” by contrast, may be the most repellent arrangement of words in any tongue.</p> 
-  <p>Those of us unfortunate enough not to work media jobs can never be privy to what goes on in a “BuzzFeed Hamilton Slack.” But the Twitter emissions of the Slack’s denizens suggest a swamp into which no man should tread. A tellingly ominous and thoroughly representative Tweet:</p> 
+  </figure>
+  <p>But what if the American public’s taste hasn’t devolved? What if <em>Hamilton</em>’s success is the result of something else altogether?</p>
+  <p>Brian Eno once said that the Velvet Underground’s debut album only sold a few thousand copies, but everyone who bought it started a band. The same principle likely applies to <em>Hamilton</em>: only a few thousand people could afford to see it, but everyone who did happened to work for a prominent New York/D.C. publication.</p>
+  <p>The media gushing over Hamilton has been downright torrential. “I am loath to tell people to mortgage their houses and lease their children to acquire tickets to a hit Broadway show,” <a href="http://www.nytimes.com/2015/08/07/theater/review-hamilton-young-rebels-changing-history-and-theater.html">wrote Ben Brantley</a> of the<em> New York Times</em>. “But Hamilton… might just about be worth it.” The hyperbolic headlines poured forth unceasingly: <a href="http://www.popsci.com/hamilton-musical-most-addicting-album-ever">“Is <em>Hamilton </em>the Musical the Most Addicting Album Ever?”</a> <a href="http://www.techinsider.io/hamilton-is-the-most-important-musical-of-all-time-2016-3">“<em>Hamilton </em>is the most important musical of our time.”</a> <a href="http://thefederalist.com/2016/04/07/hamilton-haters-are-why-we-cant-have-nice-things/">“<em>Hamilton</em> Haters Are Why We Can’t Have Nice Things.”</a> The media then got high on their own supply, diagnosing all of America with a harrowing ailment called “<a href="http://www.rollingstone.com/music/features/hamilton-mania-backstage-at-the-cultural-event-of-our-time-20160601">Hamilton mania</a>.” The work was “astonishing,” “sublime,” the “cultural event of our time.” Clarence Page of the <em>Chicago Tribune </em>said the musical was “<a href="http://www.chicagotribune.com/news/opinion/page/ct-hamilton-miranda-broadway-history-page-perspec-0703-jm-20160701-story.html">even better than the hype</a>.” Given the tenor of the hype, one can only imagine the pure, overpowering ecstasy that must comprise the <em>Hamilton</em>-viewing experience. The musical even somehow won a Pulitzer Prize this year, alongside Nicholas Kristof and that book by Ta-Nehisi Coates you bought but never read.</p>
+  <p>One of the publications to enter swooning raptures over <em>Hamilton </em>was <em>BuzzFeed</em>, which <a href="https://www.buzzfeed.com/eleanorkagan/practical-tactical-brilliance">called</a> it the smash musical “that everyone you know has been quoting for months.” (Literally nobody has ever quoted <em>Hamilton </em>in my presence.) <em>BuzzFeed’</em>s workplace obsession with the musical led to the birthing of the <a href="https://twitter.com/ellievhall/status/659762696724828160">phrase</a> “BuzzFeed Hamilton Slack.” That three-word monstrosity, incomprehensible to anyone outside the narrowest circle of <a href="https://en.wikipedia.org/wiki/Listicle">listicle</a>-churning media elites, describes a room on the corporate messaging platform “Slack” used exclusively by <em>BuzzFeed </em>employees to discuss Hamilton. J.R.R. Tolkien said that “cellar door” was the most beautiful phonetic phrase the English language could produce. “BuzzFeed Hamilton Slack,” by contrast, may be the most repellent arrangement of words in any tongue.</p>
+  <p>Those of us unfortunate enough not to work media jobs can never be privy to what goes on in a “BuzzFeed Hamilton Slack.” But the Twitter emissions of the Slack’s denizens suggest a swamp into which no man should tread. A tellingly ominous and thoroughly representative Tweet:</p>
   <blockquote class="wp-block-quote">
    <p>“When the Buzzfeed #Hamilton slack room has a heated debate about which Hogwarts houses the characters belong to” —<a href="https://twitter.com/arielle07/status/661969290661359616">@Arielle07</a></p>
-  </blockquote> 
-  <p>“Nerdcore” music (<a href="https://en.wikipedia.org/wiki/Nerdcore">Wikipedia</a>: “a genre of hip hop music characterized by themes and subject matter considered to be of general interest to nerds”) has always had trouble getting off the ground. The “first lady of nerdcore,” rapper MC Router (responsible for the song “<a href="https://www.youtube.com/watch?v=UKIR4wouUDc">Trekkie Pride</a>”), never achieved the critical success for which she had seemed destined, instead <a href="http://theislamicmonthly.com/i-was-on-dr-phil-and-as-a-muslim-woman-i-felt-wrongly-portrayed/">ending up</a> on the Dr. Phil show after an acrimonious dispute with her family over her unexpected conversion to Islam. Similarly, the YouTube series “Epic Rap Battles of History,” however numerous its subscribers may have been, has consistently been unjustly robbed of the Pulitzer. Now, finally, nerd rap has apparently found in <em>Hamilton </em>its own <em>Sgt. Pepper</em>, a lofty, expansive work that wins the hearts and minds of previously skeptical elite critics.</p> 
-  <p>One should have no doubt that “expensively-staged nerdcore” is a perfectly accurate, even generous description of <em>Hamilton</em>. Doubters need only examine a brief lyrical snippet. Consider this, from “The Election of 1800”:</p> 
+  </blockquote>
+  <p>“Nerdcore” music (<a href="https://en.wikipedia.org/wiki/Nerdcore">Wikipedia</a>: “a genre of hip hop music characterized by themes and subject matter considered to be of general interest to nerds”) has always had trouble getting off the ground. The “first lady of nerdcore,” rapper MC Router (responsible for the song “<a href="https://www.youtube.com/watch?v=UKIR4wouUDc">Trekkie Pride</a>”), never achieved the critical success for which she had seemed destined, instead <a href="http://theislamicmonthly.com/i-was-on-dr-phil-and-as-a-muslim-woman-i-felt-wrongly-portrayed/">ending up</a> on the Dr. Phil show after an acrimonious dispute with her family over her unexpected conversion to Islam. Similarly, the YouTube series “Epic Rap Battles of History,” however numerous its subscribers may have been, has consistently been unjustly robbed of the Pulitzer. Now, finally, nerd rap has apparently found in <em>Hamilton </em>its own <em>Sgt. Pepper</em>, a lofty, expansive work that wins the hearts and minds of previously skeptical elite critics.</p>
+  <p>One should have no doubt that “expensively-staged nerdcore” is a perfectly accurate, even generous description of <em>Hamilton</em>. Doubters need only examine a brief lyrical snippet. Consider this, from “The Election of 1800”:</p>
   <blockquote class="wp-block-quote">
    <p>Madison: <em>It’s a tie! …</em><br>Jefferson: <em>It’s up to the delegates!…</em><br>Jefferson/Madison: <em>It’s up to Hamilton!</em><br>Hamilton: <em>Yo.</em><br><em>The people are asking to hear my voice ..</em><br><em>For the country is facing a difficult choice.</em><br><em>And if you were to ask me who I’d promote …</em><br><em>Jefferson has my vote.</em></p>
-  </blockquote> 
-  <p>Perhaps marginally less embarrassing than “when I say yo, you say ho.” But only ever so marginally.</p> 
-  <p>One could question the fairness of appraising a musical before putting one’s self through its full three-hour theatrical experience. But if nobody could criticize <em>Hamilton </em>without having seen it, then nobody could criticize <em>Hamilton</em>. One of the strangest aspects of the whole “Hamiltonmania” public relations spectacle is that hardly anyone in the country has actually attended the musical to begin with. The show is exclusive to Broadway and has spent most of its run <a href="http://www.thedailybeast.com/articles/2016/05/03/hamilton-is-broadway-s-most-expensive-show-ever.html">completely sold out</a>, seemingly playing to an audience comprised entirely of people who write breathless <em>BuzzFeed </em>headlines. (Fortunately, when you can get off the waitlist it only costs $1,200 a ticket—so long as you can stand bad seats.) <em>Hamilton</em> is the “nationwide sensation” that only .001% of the nation has even witnessed.</p> 
-  <p>There’s something revealing in the disjunction between <em>Hamilton’</em>s popularity in the world of online media and <em>Hamilton</em>’s popularity in the world of actual human persons. After all, here we have a cultural product whose appeal essentially consists of a broad coalition of the worst people in America: <em>New York Times </em>writers, 15-year-olds who aspire to answer the phone in Chuck Schumer’s office, people who want to get into steampunk but have a copper sensitivity, and “wonks.” Yet because a large fraction of these people are elite taste-makers, <em>Hamilton</em> becomes a topic of disproportionate interest, discussed at unendurable length in <em><a href="http://www.newyorker.com/magazine/2015/02/09/hamiltons">The New Yorker</a> </em>and <em><a href="http://www.slate.com/blogs/lexicon_valley/2016/05/10/how_lin_manual_miranda_s_hamilton_foregrounds_the_pleasure_and_power_of.html">Slate</a></em> and <em><a href="http://www.nytimes.com/2016/04/10/magazine/the-ceo-of-hamilton-inc.html?mtrref=www.google.com&amp;gwh=35ACA2E639F22800CE3CD3098E77C3E7&amp;gwt=pay">The New York Times Magazine</a></em>, yet totally inaccessible to anyone besides the writers and members of their close social networks. When <em>The New Yorker </em>writes about a book that nobody in America wants to read, at least they could theoretically go out and purchase it. But <em>Hamilton</em> theatergoing is solely the provenance of <em>Hamilton</em> thinkpiece-writers. The endless swirl of online <em>Hamilton</em>-buzz shows the comical extreme of cultural insularity in the New York and D.C. media. The “cultural event of our time” is totally unknown to nearly all who actually live in our time.</p> 
-  <p>Given that <em>Hamilton</em> is essentially Captain Dan with an American Studies minor, one might wonder how it became so inordinately adored by the blathering class. How did a ten-million-dollar 8th Grade U.S. History skit become “the great work of art of the 21st century” (as the <em>New Yorker</em>’s Adam Gopnik <a href="http://www.newyorker.com/news/daily-comment/hamilton-and-the-hip-hop-case-for-progressive-heroism">says</a> those in his circle have been calling it)?</p> 
-  <p>To judge from the reviews, most of the appeal seems to rest with the forced diversity of its cast and the novelty concept of a “hip-hop musical.” Those who write about <em>Hamilton </em>often dwell primarily on its “groundbreaking” use of rap and its “bold” choice to cast an assemblage of black, Asian, and Latino actors as the Founding Fathers. Indeed, <em>Hamilton </em>exists more as a corporate HR department’s wet dream than as a biographical work.</p> 
-  <p>The most obvious historical aberration is the portrayal of Washington and Jefferson as black men, a somewhat audacious choice given that both men are strongly associated with owning, and in the case of the latter, raping and impregnating slaves. Changing the races allows these men to appear far more sympathetic than they would otherwise be. <em>Hamilton</em> creator Lin-Manuel Miranda says he did this intentionally, to make the cast “look like America today,” and that having black actors play the roles “allow[s] you to leave whatever cultural baggage you have about the founding fathers at the door.” (“Cultural baggage” is an odd way of describing “feeling discomfort at warm portrayals of slaveowners.”) Thus <em>Hamilton’</em>s superficial diversity lets its almost entirely white audience feel good about watching it: no guilt for seeing dead white men in a positive light required. Now, <em>The New York Times </em>can <a href="http://www.nytimes.com/interactive/2015/07/08/t-magazine/hamilton-lin-manuel-miranda-roots-sondheim.html?_r=0">delight</a> in the novel incongruousness of “a Thomas Jefferson who swaggers like the Time’s Morris Day, sings like Cab Calloway and drawls like a Dirty South trap-rapper.” Indeed, it does take some getting used to, because the actual Thomas Jefferson <em>raped slaves.</em></p> 
-  <p>“Casting black and Latino actors as the founders effectively writes nonwhite people into the story, in ways that audiences have powerfully responded to,” <a href="http://www.nytimes.com/2016/04/11/theater/hamilton-and-history-are-they-in-sync.html">said</a> the <em>New York Times. </em>But fixing history makes it seem less objectionable than it actually was. We might call it a kind of, well, “blackwashing,” making something that was heinous seem somehow palatable by retroactively injecting diversity into it.</p> 
-  <p>Besides, you don’t actually <em>need</em> to “write nonwhite people into the story.” As historians have pointed out, there were plenty of nonwhite people around at the time, people who already had fully-developed stories and identities. But none of these people appears in the play. As some have quietly noted, the vast majority of African American cast members simply portray nameless dancing founders in breeches and cravats, and “not a single enslaved or free person of color exists as a character in this play.” (Although Jefferson’s slave and mistress Sally Hemings gets a brief shout-out.)</p> 
-  <p>Slavery is left out of the play almost completely. Historian Lyra Monteiro <a href="http://tph.ucpress.edu/content/38/1/89">observes</a> that “Unless one listens carefully to the lyrics—which do mention slavery a handful of times—one could easily assume that slavery did not exist in this world.” The foundation of the 18th century economic system, the vicious practice that defined the lives of countless black men and women, is confined to the odd lyrical flourish here and there.</p> 
-  <p>Miranda did consider adding a slavery number. But he cut it from the show, as he <a href="http://www.rollingstone.com/music/features/hamilton-creator-lin-manuel-miranda-the-rolling-stone-interview-20160601">explains</a>:</p> 
+  </blockquote>
+  <p>Perhaps marginally less embarrassing than “when I say yo, you say ho.” But only ever so marginally.</p>
+  <p>One could question the fairness of appraising a musical before putting one’s self through its full three-hour theatrical experience. But if nobody could criticize <em>Hamilton </em>without having seen it, then nobody could criticize <em>Hamilton</em>. One of the strangest aspects of the whole “Hamiltonmania” public relations spectacle is that hardly anyone in the country has actually attended the musical to begin with. The show is exclusive to Broadway and has spent most of its run <a href="http://www.thedailybeast.com/articles/2016/05/03/hamilton-is-broadway-s-most-expensive-show-ever.html">completely sold out</a>, seemingly playing to an audience comprised entirely of people who write breathless <em>BuzzFeed </em>headlines. (Fortunately, when you can get off the waitlist it only costs $1,200 a ticket—so long as you can stand bad seats.) <em>Hamilton</em> is the “nationwide sensation” that only .001% of the nation has even witnessed.</p>
+  <p>There’s something revealing in the disjunction between <em>Hamilton’</em>s popularity in the world of online media and <em>Hamilton</em>’s popularity in the world of actual human persons. After all, here we have a cultural product whose appeal essentially consists of a broad coalition of the worst people in America: <em>New York Times </em>writers, 15-year-olds who aspire to answer the phone in Chuck Schumer’s office, people who want to get into steampunk but have a copper sensitivity, and “wonks.” Yet because a large fraction of these people are elite taste-makers, <em>Hamilton</em> becomes a topic of disproportionate interest, discussed at unendurable length in <em><a href="http://www.newyorker.com/magazine/2015/02/09/hamiltons">The New Yorker</a> </em>and <em><a href="http://www.slate.com/blogs/lexicon_valley/2016/05/10/how_lin_manual_miranda_s_hamilton_foregrounds_the_pleasure_and_power_of.html">Slate</a></em> and <em><a href="http://www.nytimes.com/2016/04/10/magazine/the-ceo-of-hamilton-inc.html?mtrref=www.google.com&amp;gwh=35ACA2E639F22800CE3CD3098E77C3E7&amp;gwt=pay">The New York Times Magazine</a></em>, yet totally inaccessible to anyone besides the writers and members of their close social networks. When <em>The New Yorker </em>writes about a book that nobody in America wants to read, at least they could theoretically go out and purchase it. But <em>Hamilton</em> theatergoing is solely the provenance of <em>Hamilton</em> thinkpiece-writers. The endless swirl of online <em>Hamilton</em>-buzz shows the comical extreme of cultural insularity in the New York and D.C. media. The “cultural event of our time” is totally unknown to nearly all who actually live in our time.</p>
+  <p>Given that <em>Hamilton</em> is essentially Captain Dan with an American Studies minor, one might wonder how it became so inordinately adored by the blathering class. How did a ten-million-dollar 8th Grade U.S. History skit become “the great work of art of the 21st century” (as the <em>New Yorker</em>’s Adam Gopnik <a href="http://www.newyorker.com/news/daily-comment/hamilton-and-the-hip-hop-case-for-progressive-heroism">says</a> those in his circle have been calling it)?</p>
+  <p>To judge from the reviews, most of the appeal seems to rest with the forced diversity of its cast and the novelty concept of a “hip-hop musical.” Those who write about <em>Hamilton </em>often dwell primarily on its “groundbreaking” use of rap and its “bold” choice to cast an assemblage of black, Asian, and Latino actors as the Founding Fathers. Indeed, <em>Hamilton </em>exists more as a corporate HR department’s wet dream than as a biographical work.</p>
+  <p>The most obvious historical aberration is the portrayal of Washington and Jefferson as black men, a somewhat audacious choice given that both men are strongly associated with owning, and in the case of the latter, raping and impregnating slaves. Changing the races allows these men to appear far more sympathetic than they would otherwise be. <em>Hamilton</em> creator Lin-Manuel Miranda says he did this intentionally, to make the cast “look like America today,” and that having black actors play the roles “allow[s] you to leave whatever cultural baggage you have about the founding fathers at the door.” (“Cultural baggage” is an odd way of describing “feeling discomfort at warm portrayals of slaveowners.”) Thus <em>Hamilton’</em>s superficial diversity lets its almost entirely white audience feel good about watching it: no guilt for seeing dead white men in a positive light required. Now, <em>The New York Times </em>can <a href="http://www.nytimes.com/interactive/2015/07/08/t-magazine/hamilton-lin-manuel-miranda-roots-sondheim.html?_r=0">delight</a> in the novel incongruousness of “a Thomas Jefferson who swaggers like the Time’s Morris Day, sings like Cab Calloway and drawls like a Dirty South trap-rapper.” Indeed, it does take some getting used to, because the actual Thomas Jefferson <em>raped slaves.</em></p>
+  <p>“Casting black and Latino actors as the founders effectively writes nonwhite people into the story, in ways that audiences have powerfully responded to,” <a href="http://www.nytimes.com/2016/04/11/theater/hamilton-and-history-are-they-in-sync.html">said</a> the <em>New York Times. </em>But fixing history makes it seem less objectionable than it actually was. We might call it a kind of, well, “blackwashing,” making something that was heinous seem somehow palatable by retroactively injecting diversity into it.</p>
+  <p>Besides, you don’t actually <em>need</em> to “write nonwhite people into the story.” As historians have pointed out, there were plenty of nonwhite people around at the time, people who already had fully-developed stories and identities. But none of these people appears in the play. As some have quietly noted, the vast majority of African American cast members simply portray nameless dancing founders in breeches and cravats, and “not a single enslaved or free person of color exists as a character in this play.” (Although Jefferson’s slave and mistress Sally Hemings gets a brief shout-out.)</p>
+  <p>Slavery is left out of the play almost completely. Historian Lyra Monteiro <a href="http://tph.ucpress.edu/content/38/1/89">observes</a> that “Unless one listens carefully to the lyrics—which do mention slavery a handful of times—one could easily assume that slavery did not exist in this world.” The foundation of the 18th century economic system, the vicious practice that defined the lives of countless black men and women, is confined to the odd lyrical flourish here and there.</p>
+  <p>Miranda did consider adding a slavery number. But he cut it from the show, as he <a href="http://www.rollingstone.com/music/features/hamilton-creator-lin-manuel-miranda-the-rolling-stone-interview-20160601">explains</a>:</p>
   <blockquote class="wp-block-quote">
    <p><em>There was a rap battle about slavery, where it was Hamilton and Jefferson and Madison knocking it from all sides of the issue. Jefferson being like, “Hey, I wrote about this, and no one wanted to touch it!” And Hamilton being very self-righteous, like, “You’re having an affair with one of your slaves!” And Madison hits him with a “You want to talk about affairs?” And in the end, no one does anything. Which is what happened in reality! So we realized we were bringing our show to a halt on something that none of them really did enough on.</em></p>
-  </blockquote> 
-  <p>Miranda found that by trying to write a song about his main characters’ attitudes toward slavery, he ran into the inconvenient fact that all of them willfully tolerated or participated in it. That made it difficult to square with the upbeat portrayals he was going for, and so slavery had to go. Besides, dwelling on it could “bring the show to a halt.” And as cast member Christopher Jackson, who plays George Washington, <a href="http://www.newyorker.com/magazine/2015/02/09/hamiltons">notes</a>: ‘‘The Broadway audience doesn’t like to be preached to.” Who would want to spoil the fun?</p> 
-  <p>Instead, <em>Hamilton</em>’s Hamilton is what<em> Slate </em><a href="http://www.slate.com/articles/arts/culturebox/2015/11/how_lin_manuel_miranda_used_real_history_in_writing_hamilton.html">called</a> simply “lovable—a product of the play’s humanizing focus on Hamilton’s vulnerabilities and ambitions.” The play avoids depicting his unabashed elitism and more repellent personal characteristics. And in the brief references that are made to slavery, the play even generously portrays Hamilton as far more committed to the cause of freedom than he actually was. In this way, <em>Hamilton </em>carefully makes sure its audience is neither challenged nor discomforted, and can leave the theater without having to confront any unpleasant truths.</p> 
-  <p>Just as <em>Hamilton </em>ducks the question of slavery, much of the actual substance of Alexander Hamilton’s politics is ignored, in favor of a story that stresses his origins as a Horatio Alger immigrant and his rivalry with Aaron Burr. But while Hamilton may have favored opening America’s doors to immigration, he also proposed a degree of economic protectionism that would terrify today’s free market establishment.</p> 
-  <p>Hamilton believed that free trade was never equal, and worried about the ability of European manufacturers (who got a head start on the Industrial Revolution) to sell goods at lower prices than their American counterparts. In Hamilton’s 1791 <em>Report on Manufactures</em>, he spoke of the harms to American industry that came with our reliance on products from overseas. The <em>Report </em>sheds light on many of the concerns Americans in the 21st century have about outsourcing, sweatshops, and the increasing trade deficit, albeit in a different context. Hamilton said that for the U.S., “constant and increasing necessity, on their part, for the commodities of Europe, and only a partial and occasional demand for their own, in return, could not but expose them to a state of impoverishment, compared with the opulence to which their political and natural advantages authorise them to aspire.” For Hamilton, the solution was high tariffs on imports of manufactured goods, and intensive government intervention in the economy. The prohibitive importation costs imposed by tariffs would allow newer American manufacturers to undersell Europe’s established industrial framework, leading to an increase in non-agricultural employment. As he wrote: “all the duties imposed on imported articles… wear a beneficent aspect towards the manufacturers of the country.”</p> 
-  <p>Does any of this sound familiar? It certainly went unmentioned at the White House, where a custom performance of <em>Hamilton </em>was held for the Obamas. The livestreamed presidential <em>Hamilton </em>spectacular at one point featured Obama and Miranda performing historically-themed freestyle rap in the Rose Garden.</p> 
-  <p>The Obamas have been supporters of <em>Hamilton</em> since its embryonic days as the “Hamilton Mixtape song cycle.” By the time the fully-fledged musical arrived in Washington, Michelle Obama <a href="https://www.whitehouse.gov/the-press-office/2016/03/14/remarks-first-lady-hamilton-white-house-student-workshop">called it</a> the “best piece of art in any form that I have ever seen in my life,” raising disquieting questions about the level of cultural exposure offered in the Princeton undergraduate curriculum.</p> 
-  <p>In introducing the White House performance, Barack Obama <a href="https://www.whitehouse.gov/the-press-office/2016/03/14/remarks-president-hamilton-white-house">gave</a> an effusive speech worthy of the BuzzFeed Hamilton Slack:</p> 
+  </blockquote>
+  <p>Miranda found that by trying to write a song about his main characters’ attitudes toward slavery, he ran into the inconvenient fact that all of them willfully tolerated or participated in it. That made it difficult to square with the upbeat portrayals he was going for, and so slavery had to go. Besides, dwelling on it could “bring the show to a halt.” And as cast member Christopher Jackson, who plays George Washington, <a href="http://www.newyorker.com/magazine/2015/02/09/hamiltons">notes</a>: ‘‘The Broadway audience doesn’t like to be preached to.” Who would want to spoil the fun?</p>
+  <p>Instead, <em>Hamilton</em>’s Hamilton is what<em> Slate </em><a href="http://www.slate.com/articles/arts/culturebox/2015/11/how_lin_manuel_miranda_used_real_history_in_writing_hamilton.html">called</a> simply “lovable—a product of the play’s humanizing focus on Hamilton’s vulnerabilities and ambitions.” The play avoids depicting his unabashed elitism and more repellent personal characteristics. And in the brief references that are made to slavery, the play even generously portrays Hamilton as far more committed to the cause of freedom than he actually was. In this way, <em>Hamilton </em>carefully makes sure its audience is neither challenged nor discomforted, and can leave the theater without having to confront any unpleasant truths.</p>
+  <p>Just as <em>Hamilton </em>ducks the question of slavery, much of the actual substance of Alexander Hamilton’s politics is ignored, in favor of a story that stresses his origins as a Horatio Alger immigrant and his rivalry with Aaron Burr. But while Hamilton may have favored opening America’s doors to immigration, he also proposed a degree of economic protectionism that would terrify today’s free market establishment.</p>
+  <p>Hamilton believed that free trade was never equal, and worried about the ability of European manufacturers (who got a head start on the Industrial Revolution) to sell goods at lower prices than their American counterparts. In Hamilton’s 1791 <em>Report on Manufactures</em>, he spoke of the harms to American industry that came with our reliance on products from overseas. The <em>Report </em>sheds light on many of the concerns Americans in the 21st century have about outsourcing, sweatshops, and the increasing trade deficit, albeit in a different context. Hamilton said that for the U.S., “constant and increasing necessity, on their part, for the commodities of Europe, and only a partial and occasional demand for their own, in return, could not but expose them to a state of impoverishment, compared with the opulence to which their political and natural advantages authorise them to aspire.” For Hamilton, the solution was high tariffs on imports of manufactured goods, and intensive government intervention in the economy. The prohibitive importation costs imposed by tariffs would allow newer American manufacturers to undersell Europe’s established industrial framework, leading to an increase in non-agricultural employment. As he wrote: “all the duties imposed on imported articles… wear a beneficent aspect towards the manufacturers of the country.”</p>
+  <p>Does any of this sound familiar? It certainly went unmentioned at the White House, where a custom performance of <em>Hamilton </em>was held for the Obamas. The livestreamed presidential <em>Hamilton </em>spectacular at one point featured Obama and Miranda performing historically-themed freestyle rap in the Rose Garden.</p>
+  <p>The Obamas have been supporters of <em>Hamilton</em> since its embryonic days as the “Hamilton Mixtape song cycle.” By the time the fully-fledged musical arrived in Washington, Michelle Obama <a href="https://www.whitehouse.gov/the-press-office/2016/03/14/remarks-first-lady-hamilton-white-house-student-workshop">called it</a> the “best piece of art in any form that I have ever seen in my life,” raising disquieting questions about the level of cultural exposure offered in the Princeton undergraduate curriculum.</p>
+  <p>In introducing the White House performance, Barack Obama <a href="https://www.whitehouse.gov/the-press-office/2016/03/14/remarks-president-hamilton-white-house">gave</a> an effusive speech worthy of the BuzzFeed Hamilton Slack:</p>
   <blockquote class="wp-block-quote">
    <p><em>[Miranda] identified a quintessentially American story in the character of Hamilton — a striving immigrant who escaped poverty, made his way to the New World, climbed to the top by sheer force of will and pluck and determination… And in the Hamilton that Lin-Manuel and his incredible cast and crew bring to life — a man who is “just like his country, young, scrappy, and hungry” — we recognize the improbable story of America, and the spirit that has sustained our nation for over 240 years… In this telling, rap is the language of revolution. Hip-hop is the backbeat. … And with a cast as diverse as America itself, including the outstandingly talented women — (applause) — the show reminds us that this nation was built by more than just a few great men — and that it is an inheritance that belongs to all of us.</em></p>
-  </blockquote> 
-  <p>Strangely enough, President Obama failed to mention anything Alexander Hamilton actually did during his long career in American politics, perhaps because the Obama Administration’s unwavering support of free trade and the tariff-easing Trans-Pacific Partnership goes against everything Hamilton believed. Instead, Obama’s <em>Hamilton</em> speech stresses just two takeaways from the musical: that America is a place where the poor (through “sheer force of will” and little else) can rise to prominence, and that <em>Hamilton </em>has diversity in it. (Plus it contains hip-hop, an edgy, up-and-coming genre with only 37 years of mainstream exposure.)</p> 
-  <p>The Obamas were not the only members of the political establishment to come down with a ghastly case of Hamiltonmania. Nearly every figure in D.C. has apparently been to see the show, in many cases being invited for a warm backstage schmooze with Miranda. <a href="http://www.playbill.com/gallery/vice-president-joe-biden-visits-broadways-hamilton-com-354632/?slide=0">Biden</a> saw it. Mitt Romney <a href="http://www.rollingstone.com/music/features/hamilton-creator-lin-manuel-miranda-the-rolling-stone-interview-20160601">saw</a> it. The Bush daughters saw it. Rahm Emanuel <a href="http://gawker.com/rahm-emanuel-secretly-spent-night-after-chicago-teacher-1769168191">saw</a> it the day after the Chicago teachers’ strike over budget cuts and school closures. Hillary Clinton went to see the musical in the evening after having been interviewed by the FBI in the morning. The Clinton campaign has also been <a href="http://abcnews.go.com/Politics/hamilton-musical-teams-hillary-clinton-july-fundraiser/story?id=40136873">fundraising</a> by hawking <em>Hamilton </em>tickets; for $100,000 you can watch a performance alongside Clinton herself.</p> 
-  <p>Unsurprisingly, the <em>New York Times</em> <a href="http://www.nytimes.com/interactive/2015/08/06/theater/20150806-hamilton-broadway.html">reports</a> that “conservatives were particularly smitten” with <em>Hamilton.</em> “Fabulous show,” <a href="https://twitter.com/rupertmurdoch/status/574273399217852416">tweeted</a> Rupert Murdoch, calling it “historically accurate.” Obama <a href="http://www.nybooks.com/articles/2015/11/19/president-obama-marilynne-robinson-conversation-2/">concluded</a> that “I’m pretty sure this is the only thing that Dick Cheney and I have agreed on—during my entire political career.” (That is, of course, false. Other points of agreement include drone strikes, Guantanamo, the NSA, and mass deportation.)</p> 
-  <p>The conservative-liberal D.C. consensus on <em>Hamilton </em>makes perfect sense. The musical flatters both right and left sensibilities. Conservatives get to see their beloved Founding Fathers exonerated for their horrendous crimes, and liberals get to have nationalism packaged in a feel-good multicultural form. The more troubling questions about the country’s origins are instantly vanished, as an era built on racist forced labor is transformed into a colorful, culturally progressive, and politically unobjectionable extravaganza.</p> 
-  <p>As the director of the <em>Hamilton</em> theater <a href="http://www.thedailybeast.com/articles/2015/08/06/why-has-hamilton-become-broadway-gold.html">said</a>, “It has liberated a lot of people who might feel ambivalent about the American experiment to feel patriotic.” “Ambivalence,” here, means being bothered by the country’s collective idol-worship of men who participated in the slave trade, one of the greatest crimes in human history. To be “liberated” from this means never having to think about it.</p> 
-  <p>In that respect, <em>Hamilton</em> probably<em> is </em>the “musical of the Obama era,” as <em>The New Yorker </em><a href="http://www.newyorker.com/news/daily-comment/hamilton-and-the-hip-hop-case-for-progressive-heroism">called</a> it. Contemporary progressivism has come to mean papering over material inequality with representational diversity. The president will continue to expand the national security state at the same rate as his predecessor, but at least he will be black. Predatory lending will drain the wealth from African American communities, but the board of Goldman Sachs will have several black members. Inequality will be rampant and worsening, but the 1% will at least “look like America.” The actual racial injustices of our time will continue unabated, but the power structure will be diversified so that nobody feels quite so bad about it. <em>Hamilton</em> is simply this tendency’s cultural-historical equivalent; instead of worrying ourselves about the brutal origins of the American state, and the lasting economic effects of those early inequities, we can simply turn the Founding Fathers black and enjoy the show.</p> 
-  <p>Kings George I and II of England could barely speak intelligible English and spent more time dealing with their own failed sons than ruling the Empire —but they gave patronage to Handel. Ludwig II of Bavaria was believed to be insane and went into debt compulsively building castles — but he gave patronage to Wagner. Barack Obama deported more immigrants than any other president and expanded the drone program in order to kill almost 3,500 people — but he gave patronage to a neoliberal nerdcore musical. God bless this great land.</p> 
-  <p><em>This article originally appeared in our July/August <a href="//currentaffairs.org/store">print edition</a>.</em></p> 
- </section> 
+  </blockquote>
+  <p>Strangely enough, President Obama failed to mention anything Alexander Hamilton actually did during his long career in American politics, perhaps because the Obama Administration’s unwavering support of free trade and the tariff-easing Trans-Pacific Partnership goes against everything Hamilton believed. Instead, Obama’s <em>Hamilton</em> speech stresses just two takeaways from the musical: that America is a place where the poor (through “sheer force of will” and little else) can rise to prominence, and that <em>Hamilton </em>has diversity in it. (Plus it contains hip-hop, an edgy, up-and-coming genre with only 37 years of mainstream exposure.)</p>
+  <p>The Obamas were not the only members of the political establishment to come down with a ghastly case of Hamiltonmania. Nearly every figure in D.C. has apparently been to see the show, in many cases being invited for a warm backstage schmooze with Miranda. <a href="http://www.playbill.com/gallery/vice-president-joe-biden-visits-broadways-hamilton-com-354632/?slide=0">Biden</a> saw it. Mitt Romney <a href="http://www.rollingstone.com/music/features/hamilton-creator-lin-manuel-miranda-the-rolling-stone-interview-20160601">saw</a> it. The Bush daughters saw it. Rahm Emanuel <a href="http://gawker.com/rahm-emanuel-secretly-spent-night-after-chicago-teacher-1769168191">saw</a> it the day after the Chicago teachers’ strike over budget cuts and school closures. Hillary Clinton went to see the musical in the evening after having been interviewed by the FBI in the morning. The Clinton campaign has also been <a href="http://abcnews.go.com/Politics/hamilton-musical-teams-hillary-clinton-july-fundraiser/story?id=40136873">fundraising</a> by hawking <em>Hamilton </em>tickets; for $100,000 you can watch a performance alongside Clinton herself.</p>
+  <p>Unsurprisingly, the <em>New York Times</em> <a href="http://www.nytimes.com/interactive/2015/08/06/theater/20150806-hamilton-broadway.html">reports</a> that “conservatives were particularly smitten” with <em>Hamilton.</em> “Fabulous show,” <a href="https://twitter.com/rupertmurdoch/status/574273399217852416">tweeted</a> Rupert Murdoch, calling it “historically accurate.” Obama <a href="http://www.nybooks.com/articles/2015/11/19/president-obama-marilynne-robinson-conversation-2/">concluded</a> that “I’m pretty sure this is the only thing that Dick Cheney and I have agreed on—during my entire political career.” (That is, of course, false. Other points of agreement include drone strikes, Guantanamo, the NSA, and mass deportation.)</p>
+  <p>The conservative-liberal D.C. consensus on <em>Hamilton </em>makes perfect sense. The musical flatters both right and left sensibilities. Conservatives get to see their beloved Founding Fathers exonerated for their horrendous crimes, and liberals get to have nationalism packaged in a feel-good multicultural form. The more troubling questions about the country’s origins are instantly vanished, as an era built on racist forced labor is transformed into a colorful, culturally progressive, and politically unobjectionable extravaganza.</p>
+  <p>As the director of the <em>Hamilton</em> theater <a href="http://www.thedailybeast.com/articles/2015/08/06/why-has-hamilton-become-broadway-gold.html">said</a>, “It has liberated a lot of people who might feel ambivalent about the American experiment to feel patriotic.” “Ambivalence,” here, means being bothered by the country’s collective idol-worship of men who participated in the slave trade, one of the greatest crimes in human history. To be “liberated” from this means never having to think about it.</p>
+  <p>In that respect, <em>Hamilton</em> probably<em> is </em>the “musical of the Obama era,” as <em>The New Yorker </em><a href="http://www.newyorker.com/news/daily-comment/hamilton-and-the-hip-hop-case-for-progressive-heroism">called</a> it. Contemporary progressivism has come to mean papering over material inequality with representational diversity. The president will continue to expand the national security state at the same rate as his predecessor, but at least he will be black. Predatory lending will drain the wealth from African American communities, but the board of Goldman Sachs will have several black members. Inequality will be rampant and worsening, but the 1% will at least “look like America.” The actual racial injustices of our time will continue unabated, but the power structure will be diversified so that nobody feels quite so bad about it. <em>Hamilton</em> is simply this tendency’s cultural-historical equivalent; instead of worrying ourselves about the brutal origins of the American state, and the lasting economic effects of those early inequities, we can simply turn the Founding Fathers black and enjoy the show.</p>
+  <p>Kings George I and II of England could barely speak intelligible English and spent more time dealing with their own failed sons than ruling the Empire —but they gave patronage to Handel. Ludwig II of Bavaria was believed to be insane and went into debt compulsively building castles — but he gave patronage to Wagner. Barack Obama deported more immigrants than any other president and expanded the drone program in order to kill almost 3,500 people — but he gave patronage to a neoliberal nerdcore musical. God bless this great land.</p>
+  <p><em>This article originally appeared in our July/August <a href="//currentaffairs.org/store">print edition</a>.</em></p>
+ </section>
 </div></span>
       </div>
 
@@ -673,7 +673,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="bound">
         <h2 class="">
           <span>More In:</span>
-          <em>Uncategorized</em>      
+          <em>Uncategorized</em>
         </h2>
       </div>
     </header>
@@ -681,11 +681,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="quadtych-of-articles">
       <div class="bound">
         <ul class="columns">
-          
-          
-          
-          
-          
+
+
+
+
+
            <!-- Increment displayed posts counter -->
           <li class="article" aria-label="Blog post summary: Pseudo-Archaeology, UFOs, and the Need for Authentic Skepticism">
             <a href="https://www.currentaffairs.org/news/pseudo-archaeology-ufos-and-the-need-for-authentic-skepticism" aria-label="Read full post: Pseudo-Archaeology, UFOs, and the Need for Authentic Skepticism">
@@ -695,12 +695,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <h1 class="title">Pseudo-Archaeology, UFOs, and the Need for Authentic Skepticism</h1>
               <ul class="bylines">
                 <li class="author">Nathan J. Robinson</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
+
+
+
            <!-- Increment displayed posts counter -->
           <li class="article" aria-label="Blog post summary: Against Corporate Food">
             <a href="https://www.currentaffairs.org/news/corporate-food-is-bland-food" aria-label="Read full post: Against Corporate Food">
@@ -710,12 +710,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <h1 class="title">Against Corporate Food</h1>
               <ul class="bylines">
                 <li class="author">Lily Sánchez</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
+
+
+
            <!-- Increment displayed posts counter -->
           <li class="article" aria-label="Blog post summary: People Turn To 'Manifesting' Because the Economy Fails Them">
             <a href="https://www.currentaffairs.org/news/manifesting" aria-label="Read full post: People Turn To 'Manifesting' Because the Economy Fails Them">
@@ -725,12 +725,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <h1 class="title">People Turn To 'Manifesting' Because the Economy Fails Them</h1>
               <ul class="bylines">
                 <li class="author">Lauren Fadiman</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
+
+
+
            <!-- Increment displayed posts counter -->
           <li class="article" aria-label="Blog post summary: How Bookstores Change the World">
             <a href="https://www.currentaffairs.org/news/how-bookstores-change-the-world" aria-label="Read full post: How Bookstores Change the World">
@@ -740,24 +740,24 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <h1 class="title">How Bookstores Change the World</h1>
               <ul class="bylines">
                 <li class="author">Lily Sánchez</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </ul>
       </div>
     </div>
@@ -814,10 +814,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="quadtych-of-articles">
       <div class="bound">
         <ul class="columns">
-          
-          
-          
-          
+
+
+
+
           <li class="article">
             <a href="https://www.currentaffairs.org/news/yes-please-call-it-the-war-department">
               <img class="blog-related-posts__image" src="https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=352&amp;name=Dept-War-Online-Image1.jpg" loading="lazy" width="352" alt="" srcset="https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=176&amp;name=Dept-War-Online-Image1.jpg 176w, https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=352&amp;name=Dept-War-Online-Image1.jpg 352w, https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=528&amp;name=Dept-War-Online-Image1.jpg 528w, https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=704&amp;name=Dept-War-Online-Image1.jpg 704w, https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=880&amp;name=Dept-War-Online-Image1.jpg 880w, https://www.currentaffairs.org/hs-fs/hubfs/Online%20Article%20Images/Dept-War-Online-Image1.jpg?width=1056&amp;name=Dept-War-Online-Image1.jpg 1056w" sizes="(max-width: 352px) 100vw, 352px">
@@ -825,13 +825,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <h1 class="title">Yes, Please Call It the War Department</h1>
               <ul class="bylines">
                 <li class="author">Nathan J. Robinson</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
-          
+
+
+
+
           <li class="article">
             <a href="https://www.currentaffairs.org/news/who-will-stand-up-against-the-presidents-lawless-killings">
               <img class="blog-related-posts__image" src="https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=352&amp;name=Trump-Boat-Online-Image1.jpg" loading="lazy" width="352" alt="" srcset="https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=176&amp;name=Trump-Boat-Online-Image1.jpg 176w, https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=352&amp;name=Trump-Boat-Online-Image1.jpg 352w, https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=528&amp;name=Trump-Boat-Online-Image1.jpg 528w, https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=704&amp;name=Trump-Boat-Online-Image1.jpg 704w, https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=880&amp;name=Trump-Boat-Online-Image1.jpg 880w, https://www.currentaffairs.org/hs-fs/hubfs/Trump-Boat-Online-Image1.jpg?width=1056&amp;name=Trump-Boat-Online-Image1.jpg 1056w" sizes="(max-width: 352px) 100vw, 352px">
@@ -839,13 +839,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <h1 class="title">Who Will Stand Up Against the President’s Lawless Killings?</h1>
               <ul class="bylines">
                 <li class="author">Nathan J. Robinson</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
-          
+
+
+
+
           <li class="article">
             <a href="https://www.currentaffairs.org/news/omar-fateh-has-all-the-right-enemies">
               <img class="blog-related-posts__image" src="https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=352&amp;name=Omar-Fateh-Online-Image1.jpg" loading="lazy" width="352" alt="" srcset="https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=176&amp;name=Omar-Fateh-Online-Image1.jpg 176w, https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=352&amp;name=Omar-Fateh-Online-Image1.jpg 352w, https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=528&amp;name=Omar-Fateh-Online-Image1.jpg 528w, https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=704&amp;name=Omar-Fateh-Online-Image1.jpg 704w, https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=880&amp;name=Omar-Fateh-Online-Image1.jpg 880w, https://www.currentaffairs.org/hs-fs/hubfs/Omar-Fateh-Online-Image1.jpg?width=1056&amp;name=Omar-Fateh-Online-Image1.jpg 1056w" sizes="(max-width: 352px) 100vw, 352px">
@@ -853,13 +853,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <h1 class="title">Omar Fateh Has All the Right Enemies</h1>
               <ul class="bylines">
                 <li class="author">Alex Skopic</li>
-              </ul> 
+              </ul>
             </a>
           </li>
-          
-          
-          
-          
+
+
+
+
           <li class="article">
             <a href="https://www.currentaffairs.org/news/political-elites-just-make-up-new-enemies-whenever-they-need-them">
               <img class="blog-related-posts__image" src="https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=352&amp;name=rahm.jpg" loading="lazy" width="352" alt="" srcset="https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=176&amp;name=rahm.jpg 176w, https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=352&amp;name=rahm.jpg 352w, https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=528&amp;name=rahm.jpg 528w, https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=704&amp;name=rahm.jpg 704w, https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=880&amp;name=rahm.jpg 880w, https://www.currentaffairs.org/hs-fs/hubfs/rahm.jpg?width=1056&amp;name=rahm.jpg 1056w" sizes="(max-width: 352px) 100vw, 352px">
@@ -867,7 +867,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <h1 class="title">Political Elites Just Make Up New Enemies Whenever They Need Them</h1>
               <ul class="bylines">
                 <li class="author">Nathan J. Robinson</li>
-              </ul> 
+              </ul>
             </a>
           </li>
 
@@ -934,7 +934,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </div>
     </div>
   </div>
-</aside></div>  
+</aside></div>
   <div id="hs_cos_wrapper_module_171588000077423" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><nav class="evergreen-plugs-triptych">
   <div class="bound">
     <ul class="columns">
@@ -1012,14 +1012,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 </div>
     <aside class="cities">
- 
+
     </aside>
   </div>
 </footer></div>
-      
+
     </div>
-    
-    
+
+
     <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js"></script>
 <script>hsjQuery = window['jQuery'];</script>
 <!-- HubSpot performance collection script -->
@@ -1046,8 +1046,8 @@ _hsq.push(["setContentMetadata", {
     "abTestId": null,
     "languageVariantId": 167241793852,
     "languageCode": "en",
-    
-    
+
+
 }]);
 </script>
 
@@ -1059,7 +1059,7 @@ var hsVars = {
     render_id: "8e3e28b8-433f-47f7-ac7d-84bd096a0657",
     ticks: 1757441047411,
     page_id: 167241793852,
-    
+
     content_group_id: 163488204299,
     portal_id: 43971025,
     app_hs_base_url: "https://app.hubspot.com",
@@ -1067,7 +1067,7 @@ var hsVars = {
     language: "en",
     analytics_page_type: "blog-post",
     scp_content_type: "",
-    
+
     analytics_page_id: "167241793852",
     category_id: 3,
     folder_id: 0,

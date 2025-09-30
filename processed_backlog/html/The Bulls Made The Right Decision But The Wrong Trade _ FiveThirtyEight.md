@@ -23,7 +23,7 @@ And while it’s too soon to truly criticize anything about the Markkanen acquis
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

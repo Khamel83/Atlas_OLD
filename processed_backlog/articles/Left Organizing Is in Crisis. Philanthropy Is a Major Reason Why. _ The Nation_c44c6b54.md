@@ -4,7 +4,7 @@
 **Processed:** 2025-08-24T19:14:38.020571
 
 [Activism](https://www.thenation.com/subject/activism/)
- / 
+ /
 January 16, 2025
 
 # Left Organizing Is in Crisis. Philanthropy Is a Major Reason Why.
@@ -146,7 +146,7 @@ Thank you for helping us take on Trump and build the just society we know is pos
 
 Sincerely, 
 
-Bhaskar Sunkara   
+Bhaskar Sunkara 
 President, *The Nation*
 
 ##### [Nina Luo](https://www.thenation.com/authors/nina-luo/)

@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The theory of executive severance goes something like this. The chief executive officer of a public company wants to run the company. Runnin
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon (1)
-    
-  
+
+
 
 The theory of executive severance goes something like this. The chief executive officer of a public company wants to run the company. Running the company pays well, it’s prestigious, it makes the CEO feel powerful and important. Also the CEO has probably devoted much of her career to the company, cares about it, and has strong views on how it should be run; she’d be sad if someone else took it over and ran it differently.
 But the CEO does not, in the general case, own the company. The company does not belong to her. She works for the shareholders and has a fiduciary duty to do what is in their best interests. Sometimes, it is good for the shareholders — though bad for the CEO — to let someone else take over the company. In particular, sometimes public companies get hostile takeover bids: Somebody else offers to buy all the stock, for cash, at a premium to the current stock price. Sometimes this is bad for shareholders (the company is worth more in the long run, on its own, with current management, than the hostile bidder is willing to pay), but sometimes it is good: The hostile bidder might be willing to pay more for the company than it is worth under current management. 
@@ -77,7 +77,7 @@ And then Musk tried to get out of it! A few months later, after social-media val
 He could have done that! He could have sent Musk back a letter saying “sorry you feel that way Elon, but we’d never force you to close a deal you don’t want to close, so, bye.”
   [2]
  Move on with his life, as Twitter CEO.
-But, nope again: Agrawal, and Twitter’s board and executive team, hired lawyers and sued Musk and argued that he had to close the deal, and 
+But, nope again: Agrawal, and Twitter’s board and executive team, hired lawyers and sued Musk and argued that he had to close the deal, and
 of course they were right, and ultimately Musk gave up and closed the deal. And Twitter’s shareholders got their $54.20, which was a great result for them under the circumstances. And Agrawal and his executive team got fired, which was an absolutely inevitable result for them under the circumstances: They were the executives of the target in a hostile takeover, so they were going to get fired anyway, but also they ramped up the hostility of the takeover by suing the acquirer to force him to close, so of course they got extra fired. Musk was mad at them! For making him buy Twitter!
 My point here is that few CEOs have ever deserved their severance package more than Parag Agrawal. This is not a commentary on his performance running Twitter: That performance was, you know, bad enough that Elon Musk bought the company. But a severance package is not a reward for good performance as CEO! A severance package is a reward for getting out of the way and letting someone else take over. And few CEOs have worked harder, or had a more unpleasant time, getting out of the way. He earned his millions.
 But then Musk didn’t pay him,   so he’s suing:
@@ -91,37 +91,37 @@ Here is  the complaint. Agrawal and the other executives — former Chief Finan
 Severance plans are an important feature of modern corporate governance, aligning the economic interests of executives and shareholders in the face of a corporate takeover, especially one as contentious as Musk’s acquisition of Twitter. Severance plans encourage everyone to work toward getting the deal done. For example, without severance plans, executives could have a financial incentive to oppose an acquisition even when that acquisition is in the best interests of shareholders. Executives could also have a professional incentive to leave the company before the closing, which could jeopardize the company’s ability to close the transaction and the public shareholders’ ability to get the control premium provided by the acquisition. Executives’ severance benefits are designed to be legally resilient, as they must be, because severance payments are necessarily made by the acquired entity only after it passes into the hands of its acquiror. If executives could not count on getting their contractual severance, they would have no incentive to stay through the acquisition to run the business, oversee the acquisition process, and make sure the shareholders get paid.
 The problem is that Twitter’s old executives were working on behalf of its old public shareholders, and they got a good deal for those shareholders. But to do that, they had to work against its new owner, Musk, so they got him a bad deal. And the public shareholders agreed to the severance package, but Musk has to pay it. Of course he doesn’t want to!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon (2)
-    
-  
+
+
 
 Elsewhere in Twitter/X and   its bills:
 
@@ -134,11 +134,11 @@ Here I am not particularly convinced that X has much in the way of collateral th
   [3]
  “It’s a win-win Elon, you get a lower interest rate just for signing your name here!” He’s not gonna fall for that, but it was worth a shot for the banks.
 
-  
-    
+
+
       Vote-buying
-    
-  
+
+
 
 There is a three-way proxy fight going on at Walt Disney Co. Nelson Peltz’s Trian Fund Management LP has nominated two candidates for Disney’s board of directors, Blackwells Capital LLC has nominated three other candidates and Disney opposes all of them. There are competing websites. Blackwells owns about 157,000 shares of Disney stock (about $17.9 million worth), or about 0.0086% of the 1.8 billion shares outstanding. Trian’s group owns about 32.3 million shares ($3.7 billion), or about 1.76% of the stock.
   [4]
@@ -155,11 +155,11 @@ Ehh. I don’t see it. We have talked about the Shareholder Vote Exchange a  cou
 Surely the real high-dollar case for buying shareholder votes is in contested proxy fights, where some activist investor has millions of dollars on the line and wants to get its own slate of directors elected. (Also in contested takeovers.) And there I just have trouble imagining big activist shareholders buying votes in proxy fights this way, in part because the disclosure and reputational issues seem like they’d be a mess. The distinguishing feature of proxy fights and hostile takeovers is that everyone sues everyone else about everything, and also “bedbugs” them to the US Securities and Exchange Commission, calling up the SEC to say “hey did you notice our opponents doing something illegal?” Can you imagine the hay that some corporate managers would make out of an evil activist hedge fund buying votes?
 And, sure, if you buy 10% of the vote for 20 cents per share (the stock closed yesterday at $113.69), that’s going to go to court. If you bid 20 cents per share for 0.027% of the votes … I think no one will care? This is good publicity for Shareholder Vote Exchange, but I’m not sure it’s anything more than that.
 
-  
-    
+
+
       Maybe don’t put the money in the BOXX?
-    
-  
+
+
 
 We have talked a couple of times recently about BOXX, the Alpha Architect 1-3 Month Box ETF, an exchange-traded fund that is meant to pay roughly Treasury bill interest rates without taxes. The first time we discussed it, I laid out how it’s supposed to work, basically by converting interest (taxed at ordinary income rates) into capital gains (taxed at favorable rates), and then by using ETF technology to defer those capital gains until the holder sells out of the fund.
 The second time we discussed it, it was because several readers argued that that actually doesn’t work, that the US tax code has provisions to prevent that sort of conversion of interest income into capital gains. Specifically, the tax code has a provision covering “conversions,” a tax term referring to buying things (stocks, etc.) and selling them forward simultaneously. Buying stock and selling it forward gets rid of your stock-price risk and leaves you with only a risk-free investment for some period of time, which should pay roughly the risk-free interest rate. It turns interest income (you put in money, you get paid for locking it up) into capital gains (you buy a stock, you sell it later at a higher price). But then the conversion rules turn those capital gains back into interest income; they say “nah, that’s too cute, that's interest.”
@@ -170,15 +170,15 @@ Referring to the first of the controlling statute’s two-part test, substantial
 
 I am torn. On the one hand, I still think that, conceptually, it should be possible to turn interest into capital gains: All capital gains are in some sense compensation for locking up your money in some asset, there is no sharp distinction between appreciation and interest, and it just feels like a good field for financial engineering. On the other hand, right, “we pay you Treasury interest without taxes” does seem a bit too good to be true.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Global miners call on LME to introduce  green premium for nickel.   NYCB Ballooned Despite Real Estate Warnings in Years Before Fall. Better Rates, Lower Fees: Some People Are Switching to  Small-Town Banks. Singapore’s Temasek in discussions to  invest in OpenAI. AI Search Startup  Perplexity Set to Double Valuation to $1 Billion. Two Years On, Ken Griffin’s Plan for a  Miami Headquarters Finally Begins to Take Shape. ECB sparks  staff revolt over ‘disrespectful’ approach to climate change. Business Is Booming for   DEI Lawyers as Corporate America Asks ‘What’s Legal?’ Taylor Swift  exclusivity provision.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The exact mechanics will vary. Some severance packages are “single-trigger,” where the CEO gets paid even if she *doesn’t* leave. But most are double-trigger (she gets paid if there’s a takeover and she leaves), where generally “she leaves” means something like “she is fired without cause, or she quits voluntarily for good reason, such as being demoted or having to report to someone else.”
 
 
@@ -191,48 +191,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Most of these shares belong to Isaac Perlmutter, a former Marvel executive who was pushed out by Disney’s current management and who has “entrusted his Shares to Trian” as part of this proxy fight. But Trian’s funds also own about 6.8 million shares.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -243,46 +243,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckl2yb.5jcy/493d3717.gif" alt="" border="0" /></a>

@@ -7,9 +7,9 @@
 
 # Substack
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Substack]()
 
-Something has gone terribly wrong :( 
+Something has gone terribly wrong :(
 

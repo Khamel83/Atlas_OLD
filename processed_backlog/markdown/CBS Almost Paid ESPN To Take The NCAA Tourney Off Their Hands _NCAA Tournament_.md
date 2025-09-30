@@ -12,13 +12,13 @@
 
 # Site not found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Site not found]()
 
-Site not found  
-  
-Looks like you followed a broken link or entered a URL that doesn’t exist on Netlify.  
-  
-If this is your site, and you weren’t expecting a 404 for this path, please visit Netlify’s “page not found” support guide for troubleshooting tips. 
+Site not found
+
+Looks like you followed a broken link or entered a URL that doesn’t exist on Netlify.
+
+If this is your site, and you weren’t expecting a 404 for this path, please visit Netlify’s “page not found” support guide for troubleshooting tips.
 

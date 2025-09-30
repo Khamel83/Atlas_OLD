@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Ahahaha what: Meme-stock traders again piled into shares of GameStop Corp. and AMC Entertainment Holdings Inc. in a revival of the retail-tr
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Meme corporate finance
-    
-  
+
+
 
 Ahahaha what:
 
@@ -81,37 +81,37 @@ Well? If you were AMC, how much would you have paid Keith Gill to tweet a drawi
 Also: Let’s say that AMC learns its lesson and does pay Gill to tweet inscrutable cartoons at the optimum times for its own corporate financing needs. Would that be … legal? Would it be market manipulation? Would it be insider trading? Are Keith Gill’s tweets, which are maybe-sort-of obliquely about GameStop, material nonpublic information about AMC? 
 Elsewhere, “GameStop short sellers lost almost $1 billion in Monday’s monster rally,” what. And: “Many other meme stocks that once had cult followings have been revived this week following the social media reappearance of Keith Patrick Gill.” And John Authers argues that “GameStop Mania Won’t Pack a Punch Like in 2021.” 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Harvard of trading
-    
-  
+
+
 
 I think that, if you had only five minutes with a world-class trader, and you asked her “teach me the essentials of trading,” probably she would spend the five minutes on adverse selection. The essential lesson is that, if you are being offered a trade, that probably means it’s a bad trade; your job is to understand that thoroughly so you can figure out the exceptions. There are many ways to teach this lesson, but my favorite probably comes from a reader email I quoted last October, when I was writing a lot about Sam Bankman-Fried’s coin flipping at Jane Street:
 
@@ -129,11 +129,11 @@ But at the meta level, it provides a helpful lesson in adverse selection.
   [2]
  The thing that IM Academy teaches, if you are paying attention, is “if they know so much about how to make money in financial markets, why would they teach me how to do it for just $250 a month?” 
 
-  
-    
+
+
       Weiss
-    
-  
+
+
 
 Any time a financial firm goes bankrupt, someone will trot out the old Hemingway line: “How did _____ go bankrupt? Two ways. Gradually, then suddenly.”
   [3]
@@ -148,11 +148,11 @@ But rather than fire the underperformers — as multistrategy firms commonly do 
 
 The point from Agustin Lebron in the previous section is that, if you run a multistrategy hedge fund, the right price to charge your clients is somewhere between “all of your alpha” and “all of your returns.” If you overshoot that just slightly you end up bankrupt, but you paid a lot of people well along the way.
 
-  
-    
+
+
       Everything is not commodities fraud
-    
-  
+
+
 
 A central thesis of this column is that everything is securities fraud, so the US Securities and Exchange Commission is the premier general-purpose meta-regulator in the US. The modern US political system has a hard time with substantive regulation of high-profile, politically divisive topics. How, if at all, should US policy address climate change? One possibility is “Congress can determine the will of the people and then write laws that reflect it,” but that seems hard. Another possibility is something like “the invisible hand of the market, operating through markets for products and employees and corporate financing, will reflect the (dollar-weighted) desires of the people, and then public companies will act in ways that respond to those desires.” Which, I mean, has its flaws, but seems sort of viable. And then a company’s statements and actions about climate change are subject to securities regulation, to securities-fraud lawsuits from people who dislike them, and to disclosure regulation by the SEC. 
 The rise of Donald Trump has also meant that US election results are now controversial, with the Trumpist Republican Party now open to disputing election outcomes it doesn’t like. Is that securities fraud? If the deep state conspires to steal an election from your preferred candidate, or if your less-preferred candidate goes around falsely claiming that an election was stolen from him by the deep state, can you sue for securities fraud? Can the SEC step in?
@@ -172,11 +172,11 @@ The CFTC’s jurisdiction as mandated by Congress and solidified in our statute,
 
 They are also looking to ban contracts relating to awards shows, and that strikes me as a mistake. I can see how it would be bad, for the CFTC and for democratic legitimacy, for the CFTC to get into the business of policing elections. But surely it would just be fun for the CFTC to police the Oscars?
 
-  
-    
+
+
       Cross-selling
-    
-  
+
+
 
 I wrote yesterday about UBS Group AG’s plans to perhaps pay its investment bankers bonuses if they refer business to its wealth management business. I suggested that investment bankers would be “hideously embarrassed” to pitch wealth management to their clients, but that’s what the bosses want:
 And so every big investment bank will from time to time announce an initiative that is like “we’re going to tell our investment bankers that they should really mention our wealth management business to their corporate-executive clients,” and it really does tell the investment bankers that, and the investment bankers are like “yes we are team players and want to help our wealth management colleagues bring in more revenue,” but they shudder a little as they say it, and do they actually go out and pitch the wealth management business? I don’t know, I’m not in the meetings.
@@ -186,11 +186,11 @@ And, sure, though if you are the chief executive officer of a big bank and you�
 I am in a bunch of these meetings, and I can affirm that they do go pitch the business, occasionally, gingerly, usually in a walk-and-talk at a conference where the wealth manager was standing outside the door of the meeting room.
 Yes this is exactly how I pictured it. “So, it’s been great seeing you. Oh we also do wealth management. Okay bye!”
 
-  
-    
+
+
       Cross-selling (2)
-    
-  
+
+
 
 That said, the idea is not a bad one. Good investment bankers understand that, while their client is the company, the path to a good client relationship runs through befriending and helping out the company’s executives. Sometimes this means helping them out with good corporate-finance ideas that will impress the board or their bosses, but other times it means helping them out in their personal capacity. Classically this means taking them golfing. Sometimes it means referring executives to new jobs, which can be good for the new employer and also make the executive more loyal to the banker. And sometimes hooking an executive up with a really good private wealth adviser — if you happen to have one — is good client service. The question is just how confident the investment bankers are that their bank’s private wealth managers are really good ones.
 Bloomberg’s Heather Perlberg caught up a while back with Don Engel, a former Drexel Burnham Lambert investment banker who died earlier this year. He seems to have specialized in winning corporate financing business by helping executives in their personal capacity:
@@ -201,16 +201,16 @@ He went on: “He is imploding, and there I am, because I understand all this. S
 
 If your investment banking job consists of talking to CEOs about their mistresses, might you also get into the ancillary business of referring potential mistresses to the executives? Engel absolutely did, is the point of the rest of the article.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Anglo Goes for Bold Breakup Plan in Move to Fend Off BHP. The hunt for the missing Greensill billions. Accountant shortage prompts US plan for quicker path to qualification. More Regulators Eye Whistleblower Award Programs Hoping for Insider Tips. Billions Exit Thematic ETFs as Traders Move On From Buzzy Themes. Country Garden Avoids Further Default With Payments on Onshore Bonds. Why the World Has Gone Cuckoo for Copper. How the Maple-Syrup Cartel Keeps a Sticky Grip on Global Market. Mega Millions winner sued by family for breaking promise to share $1.35B jackpot.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Just a rough guess. The average of the volume-weighted daily AMC stock prices from March 28 through May 10 was about $3.08 per share; the VWAP yesterday was $4.51. AMC sold 72.5 million shares for $250 million, or $3.45 per share. If they sold 26% at $4.51 and the other 74% at $3.08, that would get you to $3.45. There’s no particular reason to assume that they matched the VWAP for the first six weeks and then pounded out all the rest yesterday, but it does feel sort of plausible. 
+
+  [1] Just a rough guess. The average of the volume-weighted daily AMC stock prices from March 28 through May 10 was about $3.08 per share; the VWAP yesterday was $4.51. AMC sold 72.5 million shares for $250 million, or $3.45 per share. If they sold 26% at $4.51 and the other 74% at $3.08, that would get you to $3.45. There’s no particular reason to assume that they matched the VWAP for the first six weeks and then pounded out all the rest yesterday, but it does feel sort of plausible.
 
 
   [2] It reminds me of American Bitcoin Academy, an online crypto trading course that settled fraud charges with the US Securities and Exchange Commission in February. American Bitcoin Academy took money from its “students,” used it to buy Bitcoin, and then lost the Bitcoin in a hack. Its founder “did a spectacularly good job of educating his students about Bitcoin,” I wrote.
@@ -225,48 +225,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Alexander also writes: “If someone tries to manipulate nickel futures by blowing up a nickel mine, I think (I’m not an expert) this the the FBI’s problem, not the CFTC’s. In the same way, I would hope a regulatory framework could be developed that would investigate election fraud without making it the CFTC’s problem. Given that there’s already a big incentive for all the groups named above to manipulate elections in various ways, I would hope that some framework like this already exists.” Again, a central thesis of this column is that that sort of thing *should* exist, but in fact the financial regulators do turn out to be the general-purpose meta-regulators.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -277,46 +277,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl29ku.64xt/420d83ff.gif" alt="" border="0" /></a>

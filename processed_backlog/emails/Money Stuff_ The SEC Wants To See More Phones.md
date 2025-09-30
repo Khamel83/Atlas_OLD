@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.It is not literally the case that the US Securities and Exchange Commissi
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       WhatsApp
-    
-  
+
+
 
 It is not literally the case that the US Securities and Exchange Commission is a for-profit business whose goal is to maximize its revenue, and whose most important source of revenue is fining financial services companies for their misdeeds.
   [1]
@@ -93,96 +93,96 @@ The appeal of this investigation is that at every big company there will be peop
 It really is wild that the SEC’s official position is now that it is illegal to “use unofficial communications to do things like cut deals, win clients or make trades.” “Conduct their communications about business matters within only official channels”! Imagine if that was really the rule! You can’t have lunch with a client and talk about business, or have beers with your colleagues and gripe about work, because that does not create a searchable archive for the SEC to review.
 Of course the SEC does not entirely mean this. Yet. But in like five years, technology — and the SEC’s interpretation of the rules — will have advanced to the point that banks will get fined if their bankers talk about business with clients on the golf course. “You should have been wearing your bank-issued virtual reality headset and recorded the conversation,” the SEC will say, or I guess “you should have played golf in your bank’s official metaverse, which records all golf conversations for compliance review, rather than on a physical golf course.” The golf course is an unofficial channel! No business allowed!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Timber
-    
-  
+
+
 
 There is a lot more financial engineering in forestry than there was, like, 20 years ago. Once upon a time, forests were useful mostly for their trees, and the most economically valuable user of forests tended to be timber companies who would chop down the trees and turn them into lumber or paper. So lots of forests would be owned by timber companies. But some would be owned by conservationists of one sort or another, rich people or nonprofits who valued keeping the forest intact more than they would selling the trees for money.
-But in modern financial markets, you can get an economic benefit from not chopping down trees: You can turn the trees you chop down into lumber or paper, but 
+But in modern financial markets, you can get an economic benefit from not chopping down trees: You can turn the trees you chop down into lumber or paper, but
 you can turn the trees you don’t chop down into carbon credits, which you can sell on financial markets to companies that want to offset their own carbon usage. Chopping down trees and selling them for money feels like, you know, normal business, but not chopping down trees and selling their not-chopped-down-ness for money feels like financial engineering. Selling wood is business, selling abstractions is financial engineering.
   [2]
 
-This development is good for timber companies: They have a new market for their trees; if demand for lumber or paper collapses they can stop chopping down trees and sell carbon credits instead. It’s good for conservationists, I suppose: They weren’t chopping down the trees anyway, and now they can get paid for not doing that. (Sort of? Maybe? Getting paid for not chopping down trees that you were not going to chop down anyway 
+This development is good for timber companies: They have a new market for their trees; if demand for lumber or paper collapses they can stop chopping down trees and sell carbon credits instead. It’s good for conservationists, I suppose: They weren’t chopping down the trees anyway, and now they can get paid for not doing that. (Sort of? Maybe? Getting paid for not chopping down trees that you were not going to chop down anyway
 seems like an abuse of the carbon credit system.) Still you might imagine that both of them would have biases. A timber company probably employs a lot of people and machines for chopping down trees, has a lot of relationships with sawmills, that sort of thing; it might be better at maximizing lumber revenue than at maximizing carbon credit revenue, and not great at switching opportunistically between them. A conservationist, on the other hand, is probably very bad at maximizing lumber revenue, and will have very little ability to switch opportunistically.
 From a purely profit-maximization point of view, what you might want is an arbitrageur who is happy to chop down trees or not chop them down, depending on what the market says is more valuable that day. You want a market maker in tree-chopping-down, one who will chop down trees when demand for lumber is high and not chop them down when demand for carbon credits is high. You want … JPMorgan, really:
 
@@ -196,20 +196,20 @@ Forest carbon deals tend to happen in regions, such as New England and the Great
 
 One way to think about big banks is that they are in the business of pursuing optionality wherever they can find it. Twenty years ago, loblolly pine forests in Mississippi were not great sources of optionality. Now they are.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Shadow ETF trading
-    
-  
+
+
 
 A lot of readers of this column are clever, financially literate, and … let’s say ethically flexible, or at least, easily able to imagine hypothetical ethical flexibility? I don’t know. The point is that people are always coming to me with ideas for how to get away with insider trading. NOTHING IN THIS COLUMN IS EVER LEGAL ADVICE, PARTICULARLY NOT WHEN WE TALK ABOUT CLEVER WAYS TO DO CRIMES, but here we are. The   most common and … best??? … suggestion goes like this:
 	You work at, or with, a public company, and you learn some big secret news about the company. It’s getting acquired at a premium, it has very good or very bad earnings coming, it got hacked, it found a cure for cancer, whatever. Something that will predictably make the stock go up or down a lot.	You do not go out and buy (or sell) your company’s stock! You will get caught!	Nor do you go out and buy short-dated options on the stock; that’s even worse.	Nor do you tell your college buddy or brother-in-law the news, so that he can buy options and make money and give you a paper bag full of cash as a payoff for the tip. One, that is obviously illegal, and two, it tends to get caught. Regulators notice suspicious trades ahead of big corporate news, and they investigate them, and they are able to figure out that this guy is your college buddy or brother-in-law and connect his trading to you.	Instead, you trade something else. You buy (or sell) something else that is correlated to your company’s stock, so that when your company announces its news, that other thing will predictably go up (or down) and you can make money without ever trading your own company’s securities.	(Or you tip your buddy or brother-in-law, but make sure that he only trades the correlated asset, not your stock.)	The idea — which I cannot endorse! — is that, when a company announces big news, regulators look for suspicious trading in that company’s stock, but they don’t look for suspicious trading in correlated things, so they won’t catch you.	The other idea — which I also cannot endorse! — is that you are not an insider of the correlated thing, so it’s not insider trading. Even if the regulators do notice, they can’t do anything about it, because it is not illegal. (Again: This is a theory, but not my theory, and certainly not the regulators’ theory.)	One obvious way to do this is to buy (or sell) the stock of some competitor company, or a couple of competitors: Good earnings for your company might predict good earnings for its whole industry, etc. (This is not always easy — if your company has been hacked, does that mean your competitors are vulnerable and should go down, or that they’ll win market share and should go up? If your company is getting acquired, does that mean that your competitors are also in play, or that the only potential acquirer has made its choice and they aren’t it? — but probably sometimes it’s easy.)	Another obvious way to do this is to buy (or sell) a sector exchange-traded fund containing all the stocks in your industry. That might be neater and easier than picking a couple of competitors to buy, and it has the possible advantage that the ETF includes your own company’s stock and so benefits more directly from your company’s news. And yet it arguably looks less suspicious: You can say “I would never trade in my own company’s stock, to avoid even a hint of impropriety, but I am bullish on our industry as a whole so I bought some of our sector ETF.”
@@ -220,7 +220,7 @@ These approaches — points 9 and 10 above, using inside information about one 
 One question that you might have is: Is shadow trading illegal? Is it insider trading? Is point 8 wrong? I am not going to give you legal advice, but it seems clear that the US Securities and Exchange Commission thinks that shadow trading is illegal — it   brought a case against an alleged shadow trader in 2021 — and my view is that they are correct. I like to say that insider trading, in the US, is not about fairness but about theft, and using your company’s secret information to make money trading some other stock is probably theft-y enough to count. (There are ambiguities, though. If your  company’s insider trading policy says things like “you cannot use secret information you learn on the job to trade anything,” then your shadow trading is probably illegal, but if your policy says “you can’t use secret information you learn on the job to trade our company’s stock,” then maybe you’re okay?)
 Another question that you might have is: Do the regulators look for this? If you trade in correlated things, will the SEC come after you? Is point 7 wrong? I don’t know, and if I did I wouldn’t tell you, because I am certainly not in the business of telling you how to get away with crimes.
 But another question you might have is: Does shadow trading happen a lot? Are there a ton of corporate insiders and deal advisers who are regularly making shadow trades in order to profit from inside information? Some casual empirical data:
-	
+
 Very few people get caught shadow trading; I can only really think of the one enforcement action. This could mean that it is very rare, or conversely it could mean that it happens all the time but the SEC is not in fact looking for it. 	Readers do keep suggesting it to me! I don’t know what that tells you.
 
 But this is also of academic interest and so sometimes you get more formal empirical data. We have  talked about a  paper by Mihir Mehta, David Reeb and Wanli Zhao, which seems to have coined the term “shadow trading,” and which found “increased levels of informed trading among business partners and competitors before a firm releases private information”: People with inside information about one company do seem to be trading correlated companies. 
@@ -230,11 +230,11 @@ They point out that ETFs have some advantages for shadow trading:
 ETFs provide an attractive instrument for insiders to trade their private information for several reasons. First, the stock that is the subject of the information may be a constituent of the ETF, so that one can get a direct exposure to the company’s share price via the ETF, but in a vehicle that is more subtle than trading the company shares directly, helping reduce scrutiny from law enforcement. Second, ETFs are cost-effective and often more liquid than the underlying company shares (e.g., Buckle et al., 2018), potentially reducing the price impact of insider trades. Both theoretical and empirical evidence shows that insiders trade in highly liquid assets so that they can hide their information and maximize their trading profits (e.g., Lei and Wang, 2014; Ben-David et al., 2018). Third, shadow trading in ETFs prior to price-sensitive news allows insiders to benefit from increases in the price of both the source firm and related firms.
 I look forward to reading the SEC’s first ETF shadow trading enforcement action, though I worry that the complaint will have a paragraph like “before buying these short-dated call options on the sector ETF, the defendant spent an hour reading Money Stuff for advice on shadow trading.” Don’t do that!
 
-  
-    
+
+
       Archegos
-    
-  
+
+
 
 The way secured lending works is that you give me $100 worth of collateral and I lend you $50 or $80 or $99 in cash,
   [4]
@@ -256,15 +256,15 @@ Some of the cash left in those accounts is being returned to Archegos and will b
 
 I have to say that it would be pretty fun to collect your Archegos bonus today. Money well earned.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How’s   Michael Platt doing? Adani   Crisis Deepens as Stock Rout Hits $108 Billion. Adani   Deal Arrangers Eye Scraps From Expected $12 Million Payday. Goldman Traders   Reaped More Than $3 Billion in Commodities Boom. Deutsche Bank Set to   Spare Traders as It Prepares More Job Cuts. Tiger Global  Cuts Fundraising Target as Startup Market Cools. How Stockpickers Finally   Beat the Index Funds. NYSE Glitch Caught Up in Fight Over   SEC Rewrite of Trading Rules. Former   FTX Executive Harrison Is Getting Ready for His Next Act. Elon Musk Says Locked Twitter Account Test Identified ‘  Some Issues.’ Michigan boy, 6, orders  nearly $1,500 in food from Grubhub on dad’s phone.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One reason it’s not true is that the SEC doesn’t keep the money. Legally the way it seems to work is that the SEC’s budget — on the order of  $2.1 billion — is funded out of fees for securities registrations and transactions, and then its enforcement penalties — on the order of  $6.4 billion — go either to victims or to the US Treasury. Obviously it would be funny if SEC enforcement lawyers got a cut personally, but they don’t.
 
 
@@ -277,118 +277,118 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Except in crypto in 2022, where the norm seems to have been that you give me $100 worth of collateral and I lend you $200 in cash. That worked out very poorly for very obvious reasons!
 
 
-  [5] Technically the legal structure was that the banks owned the stocks and Archegos had economic exposure to them 
+  [5] Technically the legal structure was that the banks owned the stocks and Archegos had economic exposure to them
 via total return swaps for which it had posted margin, but for most purposes those are basically the same as secured loans. (The banks owe Archegos the returns on the stock, etc.)
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

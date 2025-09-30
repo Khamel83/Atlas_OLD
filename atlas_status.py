@@ -7,7 +7,7 @@ No matter what's broken, this script will tell you what's going on and get you s
 
 Usage:
     python atlas_status.py              # Quick status
-    python atlas_status.py --detailed   # Full report  
+    python atlas_status.py --detailed   # Full report
     python atlas_status.py --dev        # Development startup
 """
 
@@ -111,24 +111,24 @@ def get_processing_stats():
             from helpers.database_config import get_database_connection
             conn = get_database_connection()
             cursor = conn.cursor()
-            
+
             # Get episode count
             cursor.execute("SELECT COUNT(*) FROM podcast_episodes")
             stats["episodes_total"] = cursor.fetchone()[0]
-            
+
             # Get transcriptions count
             cursor.execute("SELECT COUNT(*) FROM transcriptions")
             stats["transcriptions_total"] = cursor.fetchone()[0]
-            
+
             # Get latest transcription timestamp
             cursor.execute("SELECT MAX(created_at) FROM transcriptions WHERE created_at IS NOT NULL")
             latest = cursor.fetchone()[0]
             stats["latest_transcription"] = latest if latest else "None"
-            
+
             conn.close()
         except Exception as db_error:
             stats["db_error"] = str(db_error)
-        
+
         # Count processed content from files
         stats["articles_total"] = safe_file_count("output/articles/metadata", "*.json")
         stats["podcasts_total"] = safe_file_count("output/podcasts", "*.json")
@@ -400,7 +400,7 @@ def print_status_dashboard(detailed=False):
             safe_print(
                 f"   ✅ HTML files processed: {stats['html_processed']:,}", Colors.GREEN
             )
-        
+
         # Show database errors if any
         if "db_error" in stats:
             safe_print(f"   ⚠️  Database error: {stats['db_error']}", Colors.RED)
@@ -416,25 +416,25 @@ def print_status_dashboard(detailed=False):
             safe_print(f"   📈 Progress: {progress:.1f}% complete", Colors.CYAN)
         else:
             safe_print("   🎉 All HTML files processed!", Colors.GREEN)
-        
+
         # Queue Health Status
         try:
             from helpers.queue_manager import get_queue_status
             queue_status = get_queue_status()
-            
+
             safe_print("")
             safe_print("🔄 QUEUE HEALTH", Colors.BLUE, bold=True)
-            
+
             # Queue counts
             queue_counts = queue_status.get("queue_counts", {})
             pending = queue_counts.get("pending", 0)
             processing = queue_counts.get("processing", 0)
             completed = queue_counts.get("completed", 0)
-            
+
             safe_print(f"   📥 Pending tasks: {pending:,}", Colors.WHITE)
             safe_print(f"   ⚙️  Processing tasks: {processing:,}", Colors.WHITE)
             safe_print(f"   ✅ Completed tasks: {completed:,}", Colors.WHITE)
-            
+
             # Failed tasks
             failed_tasks = queue_status.get("failed_tasks", 0)
             retry_ready = queue_status.get("retry_ready", 0)
@@ -444,19 +444,19 @@ def print_status_dashboard(detailed=False):
                     safe_print(f"   🔄 Ready for retry: {retry_ready:,}", Colors.YELLOW)
             else:
                 safe_print("   ✅ No failed tasks", Colors.GREEN)
-            
+
             # Queue alerts
             if pending > 1000:
                 safe_print("   🚨 ALERT: High queue depth!", Colors.RED, bold=True)
             elif pending > 500:
                 safe_print("   ⚠️  WARNING: Queue depth elevated", Colors.YELLOW)
-            
+
             # Circuit breaker status
             circuit_breakers = queue_status.get("circuit_breakers", {})
             open_breakers = [worker for worker, cb in circuit_breakers.items() if cb.get("state") == "open"]
             if open_breakers:
                 safe_print(f"   ⚡ Circuit breakers open: {', '.join(open_breakers)}", Colors.RED)
-            
+
         except Exception as e:
             safe_print(f"   ⚠️  Queue status unavailable: {e}", Colors.YELLOW)
 

@@ -57,7 +57,7 @@ class CaptureAPI:
 
                 conn.execute(
                     """
-                    CREATE INDEX IF NOT EXISTS idx_capture_queue_status 
+                    CREATE INDEX IF NOT EXISTS idx_capture_queue_status
                     ON capture_queue(status)
                 """
                 )
@@ -135,7 +135,7 @@ class CaptureAPI:
             with sqlite3.connect(self.db_path) as conn:
                 conn.execute(
                     """
-                    INSERT INTO capture_queue 
+                    INSERT INTO capture_queue
                     (capture_id, content_type, content, metadata, source_device)
                     VALUES (?, ?, ?, ?, ?)
                 """,
@@ -196,9 +196,9 @@ class CaptureAPI:
 
                 result = conn.execute(
                     """
-                    SELECT capture_id, content_type, status, captured_at, 
+                    SELECT capture_id, content_type, status, captured_at,
                            processed_at, error_message, atlas_content_id
-                    FROM capture_queue 
+                    FROM capture_queue
                     WHERE capture_id = ?
                 """,
                     (capture_id,),
@@ -303,10 +303,10 @@ def recent_captures_endpoint():
 
             results = conn.execute(
                 """
-                SELECT capture_id, content_type, status, captured_at, 
+                SELECT capture_id, content_type, status, captured_at,
                        processed_at, source_device
-                FROM capture_queue 
-                ORDER BY captured_at DESC 
+                FROM capture_queue
+                ORDER BY captured_at DESC
                 LIMIT ?
             """,
                 (limit,),

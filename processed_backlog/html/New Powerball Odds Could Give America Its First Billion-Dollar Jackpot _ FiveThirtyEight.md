@@ -53,7 +53,7 @@ Under the current system it’s incredibly hard to get to 17 lotteries without s
 
 But if the Powerball honchos lower the probability of winning a jackpot overall, it’s pretty likely that in the next couple of years we’ll have it.
 
-To make that billion-dollar assertion, I assumed there’d be 520 Powerball drawings in the next five years (because there are [two drawings per week](http://www.lottoreport.com/powerballsales.htm) and 52 weeks in a year). In those 520 drawings, under the new proposed odds, a ticket would have a 1 in 292,201,338 chance of winning. So using numbers on how many people play at a given jackpot amount (using ticket sales data from [Lotto Report](http://www.lottoreport.com/powerballsales.htm)), I estimated the probability of at least one person winning in each round of the Powerball-ish lottery.  
+To make that billion-dollar assertion, I assumed there’d be 520 Powerball drawings in the next five years (because there are [two drawings per week](http://www.lottoreport.com/powerballsales.htm) and 52 weeks in a year). In those 520 drawings, under the new proposed odds, a ticket would have a 1 in 292,201,338 chance of winning. So using numbers on how many people play at a given jackpot amount (using ticket sales data from [Lotto Report](http://www.lottoreport.com/powerballsales.htm)), I estimated the probability of at least one person winning in each round of the Powerball-ish lottery.
 ![jackpot table](https://fivethirtyeight.com/wp-content/uploads/2015/07/screenshot-2015-07-08-15-27-31.png)
 
 |  |  | CHANCE THAT JACKPOT IS WON | |  |

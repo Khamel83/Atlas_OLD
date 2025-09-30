@@ -20,12 +20,12 @@ Compound [ https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe4c9f?r=
 Request access here [ https://substack.com/redirect/59c9a5b3-b17a-4af4-a886-5f48f1c4006b?r=9p0gt ] and they’ll be in touch. 
 For more information, please check out further disclosures here [ https://substack.com/redirect/5ba1e30e-0074-4c44-bcaa-ba2d539fcf41?r=9p0gt ].
 Hi friends ,
-Happy Thursday! 
-On Monday, I wrote about [ https://substack.com/redirect/09ec82d8-740c-4593-9160-38ad8a2d2b15?r=9p0gt ] working harder (more energy) and smarter (better technology) to create an Abundance Renaissance. Carbon Title fits the bill. 
-One of the tensions in the climate fight is that we need to build more housing and other new buildings, but the construction and operation of buildings emits a lot of carbon. The real estate industry is responsible for 38% of greenhouse gas emissions globally, but degrowth isn’t the answer. People need places to live and work and gather. Avoiding the disastrous effects of climate change but ending up in a world in which half the population can’t afford a home isn’t a good result. Somehow, we need to build more while emitting less. 
+Happy Thursday!
+On Monday, I wrote about [ https://substack.com/redirect/09ec82d8-740c-4593-9160-38ad8a2d2b15?r=9p0gt ] working harder (more energy) and smarter (better technology) to create an Abundance Renaissance. Carbon Title fits the bill.
+One of the tensions in the climate fight is that we need to build more housing and other new buildings, but the construction and operation of buildings emits a lot of carbon. The real estate industry is responsible for 38% of greenhouse gas emissions globally, but degrowth isn’t the answer. People need places to live and work and gather. Avoiding the disastrous effects of climate change but ending up in a world in which half the population can’t afford a home isn’t a good result. Somehow, we need to build more while emitting less.
 Carbon Title’s mission is to resolve that tension by helping building owners, and their tenants, better understand each building’s carbon footprint and facilitating the purchase of high-quality carbon credits to offset their impact. They’re launching today — check them out [ https://substack.com/redirect/54b176c7-5295-4935-aa01-6a815a1929a4?r=9p0gt ] — so I asked the company’s co-founders Trevor and Miles to tell us about what they’re building, and why.
-IT’S TIME TO BUILD cleanly. 
-Let’s get to it. 
+IT’S TIME TO BUILD cleanly.
+Let’s get to it.
 The Founder’s Letter: Trevor Dryer & Miles Haladay, Carbon Title
 One of the most complex industries on Earth needs radical change
 Let’s start with an enormous, and seemingly intractable, problem. We need to build 3.8 million more housing units [ https://substack.com/redirect/0f7249dc-39d5-476c-bc22-822e13828cba?r=9p0gt ] in the United States just to keep up with the rate of household formation—we’re currently building at a rate of 1.5 million per year [ https://substack.com/redirect/786cc149-6ab7-4d98-a13e-1b3a8c344b5a?r=9p0gt ]. Add in the need for additional essential infrastructure, and construction output will likely double by the end of the decade.
@@ -54,9 +54,9 @@ We believe that humanity has the potential to alter its course, even at this poi
 We each have two kids who are the same ages—8 and 11—which is how we met. We can no longer say that some generation in the future will deal with our problems; our children will see the ocean rise at least a foot in their lifetime. They will experience more wildfires, countless losses of natural wonders like the Great Barrier Reef, and potentially untold problems such as food scarcity and mass migration that we can’t fully anticipate today.
 Carbon Title is our effort to drive radical climate change. What’s yours?
 Trevor & Miles
-Thanks to Trevor & Miles for sharing their story! 
-We’ll be back here first thing tomorrow morning with the Weekly Dose of Optimism. 
-Thanks for reading, 
+Thanks to Trevor & Miles for sharing their story!
+We’ll be back here first thing tomorrow morning with the Weekly Dose of Optimism.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOek16T1RVeU5UQXNJbWxoZENJNk1UWTJNekkwTmpVNU9Dd2laWGh3SWpveE5qWTFPRE00TlRrNExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuZU55aGdXbl85cXlLWUVtQy1CYUhNd0dyS0hZVmViZkp5WWhnZmh3WDVaQSIsInAiOjczMzk1MjUwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MzI0NjU5OCwiZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.HiHapMmUqLltdcWX4cBarq8Z7HXnacxQOEL7GBIZt4s?

@@ -20,7 +20,7 @@ news. Our regular Tuesday guy, Eriq Gardner, is back today with new reporting an
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -141,7 +141,7 @@ There’s another wild card (or two, if you credit the scenario, floated in news
 arrange its sale to his pal Elon.) Presuming the law stands, a TikTok divestiture happens when the president says it happens. Which means Trump could strike a deal with the Chinese that falls short of a true divestiture, but is packaged as one. I’ve seen nothing in the law that prevents this. It’s easy to imagine the scene: Trump declares victory, the Chinese agree to some vague concessions, TikTok stays alive, and everyone pretends they got what they wanted. Now that
 sounds like Trump.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday. 
 
@@ -199,6 +199,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUZ3wnw1nBbn5FWPL1t88=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

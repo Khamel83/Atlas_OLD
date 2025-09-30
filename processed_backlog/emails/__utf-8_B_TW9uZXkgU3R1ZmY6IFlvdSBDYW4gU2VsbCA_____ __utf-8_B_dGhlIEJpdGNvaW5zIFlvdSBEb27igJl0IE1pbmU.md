@@ -9,59 +9,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and next week, back on Aug. 21. Enjoy a week of low volatility. Unless you are Elon Musk,
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and next week, back on Aug. 21. Enjoy a week of  low volatility. Unless you are  Elon Musk, in which case, enjoy whatever crazy stuff you’re going to get up to.
 
-  
-    
+
+
       Riot
-    
-  
+
+
 
 If you have a bunch of trees, and you chop them down to make paper or lumber or whatever, you can sell the paper or lumber or whatever for money, but on the other hand trees store carbon and cutting them down is bad for climate change. If instead you do not chop down the trees, that is good for the environment, and it is   a great innovation of modern finance that, now, you can get paid for not chopping down the trees. This is called “carbon credits.” There are   measurement problems.
 If you mine Bitcoin, you use a lot of electricity to run computers to perform calculations to get Bitcoins for yourself, which you can sell for money. But this is bad for the environment, because it uses electricity that is probably generated in ways that release carbon.
@@ -76,37 +76,37 @@ Here is  the 10-Q; this stuff is described in Note 8. Some of what is going on h
 As with carbon credits, there are measurement problems; I have never mined a single Bitcoin, yet ERCOT has never sent me a penny for my forbearance. Still, how great is modern finance? Twenty years ago, if you had told people that one day they could get paid for not mining Bitcoin, they would have said “what?” But now it is possible. Modern finance created the problem (Bitcoin mining) and the solution (paying people not to mine Bitcoin); the overall result is that nothing happens and yet people get paid. Just a miracle of financial engineering.
 Also: Riot is getting paid for not using electricity, but if you are an enterprising Bitcoin miner surely you should look into getting paid for not using carbon when you are not mining Bitcoin. Riot is not there yet, but it is possible to imagine a warming world in which energy prices go up and Bitcoin prices go down and Bitcoin miners can get paid more for not mining Bitcoin than for mining Bitcoin. Giant fortunes will be made by people who got in early to the business of not mining Bitcoin. The future is so good, man.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Succession
-    
-  
+
+
 
 If you are a top executive, but not the chief executive officer, at a big investment bank, and you are not particularly near retirement, probably the job that you want more than any other job is to be CEO of your bank. And then your second choice would probably be to be CEO of a different bank. Or   Carlyle Group. Lots of CEO jobs out there, and if you’ve been doing it this long you probably want one of them. Retiring as a top-executive-but-not-CEO of your bank is going to feel just a tiny bit like failure. 
 From the bank’s perspective, this is bad: The bank wants all of its top executives to be energetic brilliant people who could run the bank, who would make great CEOs elsewhere, but who nonetheless choose to stay at the bank without a shot at the CEO job. There are various ways to create that sort of loyalty:
@@ -125,11 +125,11 @@ Also this is good:
 In one sign of the uncertainty, two senior colleagues privately bemoaned that they might not be close enough to whomever wins. They wouldn’t want to be hitched to the wrong candidate and lose clout.
 I thought they were all best friends!
 
-  
-    
+
+
       Platforms
-    
-  
+
+
 
 Here are three broad theories of venture investing:
 	The job of a venture capitalist is to evaluate a lot of potential investments, choose the best ones, and make those.	The job of a venture capitalist is to get access to the best investments, and then make them.	The job of a venture capitalist is to invest in companies and then make those companies better, by serving on boards and imparting wisdom and making introductions and helping the companies hire employees and get customers.
@@ -145,11 +145,11 @@ The correlation neither suggests that the relationship is causal nor does it imp
 
 You could imagine causal explanations of the form “doing stuff to help your portfolio companies actually makes them perform better,” or of the form “offering stuff to help your portfolio companies makes founders more likely to bring you good deals,” or both I suppose. Or not-quite-causal explanations like “VC firms with platform teams are also the ones with a culture of spending some time thinking about the companies that they invest in and how they work, and the other approach of throwing money at everything that comes in the door turns out to underperform.”
 
-  
-    
+
+
       Activism
-    
-  
+
+
 
 Here are two broad theories of activist investing:
 	Some companies have good opportunities but bad management, and an activist investor can buy some stock, harangue the board and management to make changes, and improve the company’s business.	Some companies could be bought at a premium by other companies, and an activist investor can buy some stock, agitate for a sale, make the sale happen and collect the premium.
@@ -170,11 +170,11 @@ Also, in a market where the biggest companies keep getting bigger, activism is h
 Plus, as Anderson pointed out, the handful of tech companies that have played an outsize role in driving the stock market higher this year–like Apple, Alphabet, Meta Platforms, Microsoft, Nvidia, Amazon.com and Tesla–are “not really activist targets.”
 The activist model is about taking smallish bad companies and making them better, but the action these days is in huge good companies getting better on their own.
 
-  
-    
+
+
       Yellow
-    
-  
+
+
 
 An investment firm called MFN Partners bought like half the stock of trucking company Yellow Corp. the week before it went bankrupt, which was really a surprising choice, and if they make money on the trade I’m going to be so impressed. We have   talked about   this a few times, and  here’s the latest:
 
@@ -186,11 +186,11 @@ For the company’s stock to have any value in bankruptcy, it would have to pay 
 
 It’s pretty close! Like $2.1 billion appraised value plus $113 million of cash minus $1.92 billion of liabilities minus the cost of bankruptcy minus the risk of getting that appraised value in bankruptcy. It does seem like the equity value is roughly zero, but there is some margin for error; MFN paid something like $22.9 million for its stock, which on a $2 billion enterprise value is roughly zero. What a fun trade. 
 
-  
-    
+
+
       Pepperoni
-    
-  
+
+
 
 The stereotypical way that a management consulting interview works is that you get asked questions like “how much pepperoni  is sold in the US every year,” and then you reason your way to some estimate of the answer. This stuff is a classic of management consulting interviewing not because you are expected to know the answer, or because management consultants spend their days guessing how much pepperoni is sold in the US each year, but because the process of answering the question demonstrates your ability to reason through a problem, think on the fly and act confident in meetings, and also it gives some sense of your practical understanding of the world. Or something. I don’t know. I have not been in a management consulting interview since college, and I wasn’t great at them then. That’s not the point. The point is that management consultants do not actually spend their days guessing how much pepperoni is sold in the US each year.   Or do they?
 
@@ -204,11 +204,11 @@ I guess my only quibble is that the math in this anecdote is wildly wrong: The 
 Anyway that anecdote is from Charley Locke’s   Bloomberg Businessweek story about interns, which is full of weird intern anecdotes, including this guy who needed a fraud intern:
 When Hoi Wong landed an internship at a marketing firm in France through an undergraduate job portal at his college, he assumed he was all set for his Emily in Paris summer. When he got there, he realized the “marketing firm” was located in a man’s apartment and that his job would mostly consist of making slides to promote work the company falsely claimed to have done. “It was a sketchy internship, but it was fine until one morning when he woke up late and came out of his room in his underwear,” says Wong, now an MBA candidate at the University of California at Berkeley’s Haas School of Business. “In retrospect, I should have done some due diligence about him and the company.”
 
-  
-    
+
+
       “I want my bribes back”
-    
-  
+
+
 
 Ahahaha   great stuff:
 
@@ -218,15 +218,15 @@ He argues that since he was cleared by an appeals court of paying bribes to get 
 
 But they got into Harvard and Stanford! He absolutely got what he paid for; the admissions consulting worked. The fact is that Singer funneled the money illegally to college coaches, rather than following   the correct (and more expensive) procedure for college-admissions bribery (paying the college to name buildings), but the victims of that crime are the colleges, not Wilson. He got a bargain.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Dave Portnoy Paid Just   $1 to Buy Barstool Sports Back. Getting Into   Y Combinator Is Tougher Than It’s Ever Been. Citadel Securities Boosts Fixed-Income Presence With   New Bond Trade. WeWork Taps  Directors With Bankruptcy Chops After Board Resignations. The   Aluminum Market Is Creaking as Traders Brace for Excess Stocks. Some Banks  Struggle to Report Uninsured Deposits Correctly. Deutsche Bank’s Asset Manager Targets ‘Holy Grail’ of World’s   Ultra Rich. U.S. and China Poised to Drift Further Apart After  Investment Ban. EU treads cautious line over  US investment bans on Chinese tech. X chief Linda Yaccarino revives ‘client council’ in effort to woo advertisers. The dark side of the US  sports betting boom. US public universities “operated in a culture that valued unrelenting growth and  prioritized raising revenue over cutting costs.” Golf  toilets. Snake,  hawk.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or at least it uses power from renewable sources that could otherwise power other activities, so that those other activities need to use carbon-emitting forms of power. Oh no of course *your* Bitcoin operation is totally green, please email me about it.
 
 
@@ -239,48 +239,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Carl Icahn used to do that occasionally, but I figured that was more of a hobby than anything else.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj9m4j.5o0r/cdbab1ba.gif" alt="" border="0" /></a>

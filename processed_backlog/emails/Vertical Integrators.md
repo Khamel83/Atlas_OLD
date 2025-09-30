@@ -10,15 +10,15 @@ View this post on the web at https://www.notboring.co/p/vertical-integrators
 Welcome to the 669 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 231,376 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Eight Sleep [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Eight Sleep [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] helps you sleep better, and better sleep helps you do everything else better.
-I’m serious. The kids are at their grandparents’ and I had to wake up at an ungodly hour to finish today’s essay, so I slept in Dev’s bed last night. Dev does not have an Eight Sleep Cover [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I slept TERRIBLY! I woke up three times, including at 4:59am, sweating, even though I had the thermostat set at 65. You should see me now, I don’t look good. It’s going to be a long day. 
-I’ve been telling you about Eight Sleep [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for months. It cools, it heats, it elevates. I love it. I appreciate it even more this morning. Their Pod 4 Ultra is also clinically proven to give you up to one hour more of quality sleep every night, and I now have the anecdata to back it up. 
+I’m serious. The kids are at their grandparents’ and I had to wake up at an ungodly hour to finish today’s essay, so I slept in Dev’s bed last night. Dev does not have an Eight Sleep Cover [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I slept TERRIBLY! I woke up three times, including at 4:59am, sweating, even though I had the thermostat set at 65. You should see me now, I don’t look good. It’s going to be a long day.
+I’ve been telling you about Eight Sleep [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for months. It cools, it heats, it elevates. I love it. I appreciate it even more this morning. Their Pod 4 Ultra is also clinically proven to give you up to one hour more of quality sleep every night, and I now have the anecdata to back it up.
 There’s no more impactful investment you can make than better sleep. Trust me. Just do it. Head to eightsleep.com/notboring [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and use code NOTBORING to get $350 off Pod 4 Ultra.
-Hi friends 👋, 
-Happy Tuesday! 
-Several articles on Not Boring this year have formed a semi-intentional series. 
-In retrospect, there is a clear thread. Many of the companies I’m most excited about are doing the opposite of what tech companies have been taught to do. They’re vertically integrating. 
-I’m splitting this essay into two parts. Part I today will set the foundation. It’s a rare Not Boring essay that fits within the email length limit. Part II next week will dive into specific case studies of Vertical Integrators, the advantages they have, the challenges they face, and some observations and predictions. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Tuesday!
+Several articles on Not Boring this year have formed a semi-intentional series.
+In retrospect, there is a clear thread. Many of the companies I’m most excited about are doing the opposite of what tech companies have been taught to do. They’re vertically integrating.
+I’m splitting this essay into two parts. Part I today will set the foundation. It’s a rare Not Boring essay that fits within the email length limit. Part II next week will dive into specific case studies of Vertical Integrators, the advantages they have, the challenges they face, and some observations and predictions.
+Let’s get to it.
 Vertical Integrators: Part I
 Out of all of the Deep Dives I’ve written on Techno-Industrials [ https://substack.com/redirect/2906dc6f-3eec-400a-98ba-8be09dc7570c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] over the past year, the one section  that stands out most clearly in my mind comes from the piece on Base Power Company [ https://substack.com/redirect/4054d256-0fa9-43f3-a64e-09aacbabf96e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 “Base assembles and will soon manufacture battery packs itself, but it doesn’t make battery cells… Base believes that cells will be commoditized, and that pack assembly allows it to benefit from that commoditization and potentially integrate new cell types as better chemistries emerge.” 
@@ -66,7 +66,7 @@ That didn’t end up happening. I tried to explain why I thought it wouldn’t b
 One addition to that hypothesis is that Aggregators worked for categories that were either digital – and therefore where marginal costs for new supply was practically zero – or where supply already existed, like cars or homes. Better allocating those existing resources was a coordination problem – an information problem – and therefore susceptible to Aggregators. 
 Producing new physical things, however, is a physical problem, and it requires physical solutions. 
 The companies that succeed in building physical solutions will do so in a way that’s opposite to Aggregators: by integrating supply. 
-That is counterintuitive, that this generation of winners in tech will do so by throwing out the lessons of the last generation. But it also makes sense. 
+That is counterintuitive, that this generation of winners in tech will do so by throwing out the lessons of the last generation. But it also makes sense.
 Aggregators won the Internet by leaning as hard to one side of the business model spectrum as possible; Vertical Integrators will win the physical world by leaning as hard to the opposite side as they can. 
 As with anything in the modern world, you don’t want to be stuck in the middle, attempting to solve physical problems with internet-inspired asset-light solutions. 
 Or as Roald Dahl put it, via Matilda, “Never do anything by halves if you want to get away with it. Be outrageous. Go the whole hog. Make sure everything you do is so completely crazy it's unbelievable.”
@@ -83,16 +83,16 @@ My whole thesis [ https://substack.com/redirect/2906dc6f-3eec-400a-98ba-8be09dc7
 As Thiel explained, “If you look at Tesla or SpaceX, if you ask, you know, was there a single breakthrough? They certainly innovated on a lot of dimensions. I don't think there was a single 10x breakthrough in battery storage or maybe working on some things on rocketry but there was no sort of single massive breakthrough. But what was really impressive was integrating all these pieces together and doing it in a way that was more vertically integrated than most of their competitors.” 
 It was exactly the distinction I’d made between Deep Tech and Vertical Integrators. 
 The integration is the innovation. 
-The clip was timely, first, because I was in the middle of writing this, and second, because on that very same morning, SpaceX gave us as clear a hand-off to the Techno-Industrial era as we’re going to get. 
+The clip was timely, first, because I was in the middle of writing this, and second, because on that very same morning, SpaceX gave us as clear a hand-off to the Techno-Industrial era as we’re going to get.
 When NASA determined that Boeing would be unable to retrieve the two US astronauts it left stranded on the International Space Station, it didn’t call in an Aggregator to bring them home. Nor did it call in a thruster startup to go up and replace Starliner’s faulty thrusters. 
 It called in SpaceX, a Vertical Integrator, which can launch a full rocket with a Crew-9 Dragon capsule, dock to the ISS, and return them safely to earth.
 Boeing itself is a prime example of the fact that in physical industries, providing a thin coordination layer over others’ activities is a losing strategy. In the pursuit of an asset-light business model, the company outsourced so much of its supply chain that its planes’ doors routinely fly off and its rockets’ thrusters don’t thrust. Boeing’s faulty thrusters, for example, were made by Aerojet Rocketdyne, a division of L3Harris Technologies.
 Elon is unique – he built both SpaceX and Tesla - and Boeing is on a particularly embarrassing run, but my suspicion [ https://substack.com/redirect/ae546540-361c-4a7c-820d-9091689ea877?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is that there are a lot more Boeings out there. 
 Boeing and its ilk will be replaced. Boeing is not the only one; it’s just the most visible. For every astronaut stranded in space, there’s a grid quietly struggling under its load.
 They are old companies with old systems designed around old technology. They can not be rebuilt piece-by-piece like the Ship of Theseus, the systems are too complex. “Move one thing here, and something else changes there. Move that and something else shifts.”
-They not be replaced by Aggregators. They will not be fixed with software. 
+They not be replaced by Aggregators. They will not be fixed with software.
 They will be replaced by Vertical Integrators that rebuild from the ground up.
-Vertical integration is an old business model whose time has come again, fueled by examples like SpaceX, a funding landscape featuring VCs with billions to deploy, new technologies with which to build, failed attempts to fix just part of the problem, and founders trained and willing to take on the full thing. 
+Vertical integration is an old business model whose time has come again, fueled by examples like SpaceX, a funding landscape featuring VCs with billions to deploy, new technologies with which to build, failed attempts to fix just part of the problem, and founders trained and willing to take on the full thing.
 Part II
 I had planned to send a longer essay with a section on why software alone can’t fix physical problems, case studies on Vertical Integrators like Base Power Company, Hadrian, Earth AI, Radiant, and Fuse, the advantages and challenges of vertical integration, why Vertical Integrators are VC-backable, and even some spicy predictions. I’m not being lazy; those sections are mostly written. 
 But I’m going to keep them safely tucked in another Google Doc for a Part II next week, because I want to make sure you leave with one takeaway: 
@@ -101,7 +101,7 @@ Half-measures – attempts to retain the glory of software margins – are a roa
 Building new physical things has, and will always have, marginal costs. Those who embrace that reality and vertically integrate will win. 
 Next week, we’ll explore some of the companies that are doing it already. 
 Thanks to Claude [ https://substack.com/redirect/361add62-ac4a-484b-afa9-f5692b6c45c8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
-That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose. 
+That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose.
 If you’re not sure what to do with the extra time I saved you by writing a shorter piece, consider buying an Eight Sleep Pod 4 Ultra [ https://substack.com/redirect/ec6383b5-a7bc-4c4d-8c8a-b0a75ad8479e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Thanks for reading,
 Packy

@@ -31,12 +31,12 @@
 <meta name="title" content="Trump, Brexit and the State of the Race | RealClearPolitics"/>
 		<meta name="description" content="Before I left for vacation, I put out a piece on the Âscary groupthinkÂ of the punditry, as it relates to Donald Trump. The basic idea was this: Commentary..."/>
 		<meta name="keywords" content="polling,political analyst,brexit,United Kingdom,European Union,Donald Trump"/>
-		<meta property="og:title" content="Trump, Brexit and the State of the Race | RealClearPolitics"/> 
+		<meta property="og:title" content="Trump, Brexit and the State of the Race | RealClearPolitics"/>
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://web.archive.org/web/20250627041009/http://www.realclearpolitics.com/articles/2016/06/28/trump_brexit_and_the_state_of_the_race_131036.html"/>
 		<meta property="og:description" content="Before I left for vacation, I put out a piece on the Âscary groupthinkÂ of the punditry, as it relates to Donald Trump. The basic idea was this: Commentary..."/>
 		<meta property="fb:app_id" content="1415921935346245"/>
-		<meta property="og:image" content="http://web.archive.org/web/20250627041009im_/http://images.rcp.realclearpolitics.com/367816_5_.jpg"/> 
+		<meta property="og:image" content="http://web.archive.org/web/20250627041009im_/http://images.rcp.realclearpolitics.com/367816_5_.jpg"/>
 		<meta name="twitter:card" content="summary_large_image"/>
 		<meta name="twitter:site" content="@RealClearNews"/>
 		<meta name="twitter:title" content="Trump, Brexit and the State of the Race | RealClearPolitics"/>
@@ -66,7 +66,7 @@
     <script id="jsSite" data-site="politics" data-gatag="" data-site-page="story" data-page="rcpArticle" type="module" src="/web/20250627041009jm_/https://www.realclearpolitics.com/esm/cache/all.js"></script>
 
 <!-- DO NOT CHANGE BELOW CODE -->
-    
+
 <script type="text/javascript">var ev_params = {"articleId": "131036", "category": "Standard" ,"section":"articles","authors":["Sean Trende"],"tags":["polling","political analyst","brexit","United Kingdom","European Union","Donald Trump"]};</script>
 <script type="text/javascript">var DYNAMIC_GAM_KEYWORDS = ["polling","political analyst","brexit","United Kingdom","European Union","Donald Trump"]</script>
 
@@ -228,7 +228,7 @@
             <div class="comments-label">Comment</div>
        </div><div class="comments-count">
             <span class="show">Show comments</span>
-            <span class="hide">Hide Comments</span> 
+            <span class="hide">Hide Comments</span>
             <span class="count">
                 <div class="spot-im-replies-count" data-post-id="200131036" real-time="true" style="display:inline-block;"></div>
             </span>
@@ -245,20 +245,20 @@
 <div class="RC-AD RC-AD-BOTTOM-BANNER"></div></div><!-- container --><div class="footer-wrapper">
     <div class="footer">
         <div class="footer-logo">
-            <span class="site-tab"></span> 
-            <img src="/web/20250627041009im_/https://www.realclearpolitics.com/asset/img/rcp-logo-footer.gif" class="lazyload" loading="lazy"/> 
+            <span class="site-tab"></span>
+            <img src="/web/20250627041009im_/https://www.realclearpolitics.com/asset/img/rcp-logo-footer.gif" class="lazyload" loading="lazy"/>
         </div>
-        
+
         <div class="footer-social">
             <div class="socialBar" data-style="site" data-dialog="share"><div class="left toolset"></div></div>
         </div>
-        
+
         <div class="clear"></div>
-        
+
         <div class="footer-links">
 
 </div>
-        
+
         <div class="footer-info">
             <div class="info-links">
 
@@ -269,7 +269,7 @@
             <div class="mobile-copyright">&copy;2023 RealClearPolitics | <a onclick="loadDesktop();" class="view-desktop">Go to full site</a></div>
         </div>
 
-</div> 
+</div>
 </div>
 <div class="upNext-container"></div>
 <ev-paywall-notifier modal-size="md" modal-keyboard="âtrueâ" modal-backdrop="true"></ev-paywall-notifier>

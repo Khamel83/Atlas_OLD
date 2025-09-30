@@ -19,7 +19,7 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="profile" href="http://gmpg.org/xfn/11"><link rel="pingback" href="http://eatlovecode.com/wp/xmlrpc.php"/><!--<link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/f156b48a-eb23-4ef8-9924-e69840e6f4c9.css"/> --><link href="http://web.archive.org/web/20231128163052cs_/https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:400,600,700&amp;display=swap" rel="stylesheet"> <script>function fvmuag(){if(navigator.userAgent.match(/x11.*fox\/54|oid\s4.*xus.*ome\/62|oobot|ighth|tmetr|eadles|ingdo/i))return!1;if(navigator.userAgent.match(/x11.*ome\/75\.0\.3770\.100/i)){var e=screen.width,t=screen.height;if("number"==typeof e&&"number"==typeof t&&862==t&&1367==e)return!1}return!0}</script><title>How Self-Driving Cars Will Transform Retail &#038; Shopping &#8211; Eat Love Code</title> <!-- This site uses the Google Analytics by MonsterInsights plugin v7.12.2 - Using Analytics tracking - https://www.monsterinsights.com/ --> <script type="text/javascript" data-cfasync="false">var mi_version         = '7.12.2';
 	var mi_track_user      = true;
 	var mi_no_track_reason = '';
-	
+
 	var disableStr = 'ga-disable-UA-68639330-1';
 
 /* Function to detect opted out users */
@@ -43,7 +43,7 @@ if ( 'undefined' === typeof gaOptout ) {
 			__gaTrackerOptout();
 		}
 	}
-	
+
 	if ( mi_track_user ) {
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

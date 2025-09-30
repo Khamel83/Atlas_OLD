@@ -161,6 +161,6 @@ Tim Cook should have already held a meeting like that to address and rectify thi
 | **Next:** | [A Postscript on the Singular Nature of Mark Gurman’s Reporting](https://daringfireball.net/2025/03/a_postscript_on_the_singular_nature_of_mark_gurmans_reporting) |
 
 [Display Preferences](/preferences/ "Customize the font size and presentation options for this web site.")
-  
-  
+
+
 Copyright © 2002–2025 The Daring Fireball Company LLC.

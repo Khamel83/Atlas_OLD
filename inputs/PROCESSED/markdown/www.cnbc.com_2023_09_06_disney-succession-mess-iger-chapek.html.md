@@ -7,7 +7,7 @@
 
 # Access Denied
 
-Unknown author • September 06, 2023 
+Unknown author • September 06, 2023
 
 ![Access Denied]()
 

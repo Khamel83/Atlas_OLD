@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"05\/26\/2015","content_publish_time":"10:51","content_last_update_date":"12\/07\/2015","content_last_update_time":"11:26","contentcategory":"Basketball,Bill Russell,Boston Celtics,Chicago Bulls,Dynasties,NBA Elo Ratings,San Antonio Spurs,Tim Duncan","section_1":"sports","section_2":"sports:basketball","story_title":"Bill Russell\u2019s Celtics Were Great. Tim Duncan\u2019s Spurs Have Been Better.","story_id":78776,"author":"Nate Silver","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Basketball","Bill Russell","Boston Celtics","Chicago Bulls","Dynasties","NBA Elo Ratings","San Antonio Spurs","Tim Duncan"],"word_count":1704},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Bill Russell’s Celtics Were Great. Tim Duncan&#8217;s Spurs Have Been Better. | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":78776,"section":"sportsbasketball","se
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Bill Russell’s Celtics Were Great. Tim Duncan&#8217;s Spurs Have Been Better." />
@@ -205,7 +205,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -224,13 +224,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Bill Russell’s Celtics Were Great. Tim Duncan&#8217;s Spurs Have Been Better.									</div>
 				<a href="https://fivethirtyeight.com/features/bill-russells-celtics-were-great-tim-duncans-spurs-have-been-better/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/bill-russells-celtics-were-great-tim-duncans-spurs-have-been-better/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -294,7 +294,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -303,7 +303,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -320,7 +320,7 @@ display: none;
 								<time class="datetime updated" title="2015-05-26T14:51:40+00:00">10:51 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Bill Russell’s Celtics Were Great. Tim Duncan&#8217;s Spurs Have Been Better.								</h1>
@@ -330,10 +330,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/nate-silver/" title="" class="author url fn" rel="author">Nate Silver</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/basketball/" class="term " name="">Basketball</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,7 +346,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/05/495643449_heat_spurs_gm5_butler_nsb_1666.jpg">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg 4256w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=1536,1152 1536w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=2048,1536 2048w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2015/05/spurs_dvd.jpg?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -357,13 +357,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			Tim Duncan of the San Antonio Spurs after winning the 2014 NBA championship.							<p class="credits">Nathaniel S. Butler / Getty Images</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 				Tim Duncan of the San Antonio Spurs.									<p class="credits">Nathaniel S. Butler / Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>WTF, nerds? You’re telling us that this season’s Golden State Warriors, who haven’t won <i>anything</i> yet, are better than Bill Russell’s Celtics, who won eight titles in a row and 11 in 13 seasons?</p>
 <p>Actually, no. It would be ridiculous to say that. Last week, we released an interactive graphic, “<a href="https://projects.fivethirtyeight.com/complete-history-of-the-nba/">The Complete History of the NBA</a>,” which uses a relatively simple formula called <a href="https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/">Elo</a> to rate NBA teams. Indeed, it currently ranks this year’s Warriors as the <a href="https://fivethirtyeight.com/features/the-best-nba-teams-of-all-time-according-to-elo/">fourth-best team in NBA history</a>, although they may rise or fall depending on how the rest of their playoff run goes. Meanwhile, no single season from the 1960s Celtics dynasty ranks higher than 47th on the all-time list.</p>

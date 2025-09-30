@@ -155,7 +155,7 @@ class ContentMetadata:
         self.status = ProcessingStatus.RETRY
         self.error = error_message
         self.update_timestamp()
-    
+
     def get(self, key: str, default=None):
         """Dict-like get method for compatibility."""
         if hasattr(self, key):
@@ -165,7 +165,7 @@ class ContentMetadata:
                 return attr.value
             return attr
         return default
-    
+
     def __getitem__(self, key: str):
         """Dict-like item access."""
         if hasattr(self, key):
@@ -175,34 +175,34 @@ class ContentMetadata:
                 return attr.value
             return attr
         raise KeyError(key)
-    
+
     def __contains__(self, key: str):
         """Dict-like contains check."""
         return hasattr(self, key)
-    
+
     def keys(self):
         """Dict-like keys method."""
         return [field.name for field in self.__dataclass_fields__]
-    
+
     def values(self):
         """Dict-like values method."""
         for key in self.keys():
             yield self.get(key)
-    
+
     def items(self):
         """Dict-like items method."""
         for key in self.keys():
             yield key, self.get(key)
-    
+
     def __iter__(self):
         """Make object iterable for dict() constructor and ** operator."""
         return iter(self.keys())
-    
+
     def __len__(self):
         """Return number of fields."""
         return len(self.__dataclass_fields__)
-    
-        
+
+
     def to_dict(self):
         """Convert to dictionary with enum handling."""
         result = {}
@@ -512,21 +512,21 @@ class MetadataManager:
     def bulk_import_metadata_to_database(self, db_path: str = "data/atlas.db") -> Dict[str, int]:
         """
         Bulk import all metadata to the main Atlas database.
-        
+
         Args:
             db_path: Path to the database file
-            
+
         Returns:
             Dictionary with import statistics
         """
         import sqlite3
-        
+
         # Get all metadata
         all_metadata = self.get_all_metadata()
-        
+
         success_count = 0
         error_count = 0
-        
+
         try:
             with sqlite3.connect(db_path) as conn:
                 # Create content table if it doesn't exist
@@ -545,12 +545,12 @@ class MetadataManager:
                         metadata TEXT
                     )
                 ''')
-                
+
                 # Create indexes for performance
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_content_uid ON content (uid)')
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_content_type ON content (content_type)')
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_content_status ON content (status)')
-                
+
                 # Insert all metadata
                 for metadata in all_metadata:
                     try:
@@ -565,25 +565,25 @@ class MetadataManager:
                         error = metadata.error or ""
                         tags = json.dumps(metadata.tags)
                         metadata_json = json.dumps(asdict(metadata))
-                        
+
                         # Insert or replace content
                         conn.execute('''
-                            INSERT OR REPLACE INTO content 
+                            INSERT OR REPLACE INTO content
                             (uid, content_type, source, title, status, created_at, updated_at, error, tags, metadata)
                             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                         ''', (uid, content_type, source, title, status, created_at, updated_at, error, tags, metadata_json))
-                        
+
                         success_count += 1
                     except Exception as e:
                         print(f"Error importing metadata for {metadata.uid}: {e}")
                         error_count += 1
-                
+
                 conn.commit()
-                
+
         except Exception as e:
             print(f"Error during bulk import: {e}")
             error_count = len(all_metadata)
-        
+
         # Return statistics
         return {
             "total_processed": len(all_metadata),

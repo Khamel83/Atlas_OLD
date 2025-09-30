@@ -29,7 +29,7 @@ Atlas generates logs that need regular rotation to prevent disk space issues:
    ```bash
    # Remove logs older than 30 days
    find /home/ubuntu/dev/atlas/logs -name "*.log" -mtime +30 -delete
-   
+
    # Compress large log files
    find /home/ubuntu/dev/atlas/logs -name "*.log" -size +100M -exec gzip {} \\;
    ```
@@ -120,7 +120,7 @@ def check_disk_space(path="/"):
     free_gb = free / (1024**3)
     total_gb = total / (1024**3)
     usage_percent = (used / total) * 100
-    
+
     return {
         "free_gb": free_gb,
         "total_gb": total_gb,
@@ -131,24 +131,24 @@ def send_alert(usage_info):
     """Send disk space alert email"""
     if usage_info["usage_percent"] < 90:
         return  # No alert needed
-    
+
     # Email configuration
     smtp_server = os.getenv("SMTP_SERVER", "localhost")
     smtp_port = int(os.getenv("SMTP_PORT", "587"))
     smtp_user = os.getenv("SMTP_USER")
     smtp_password = os.getenv("SMTP_PASSWORD")
     recipient = os.getenv("ALERT_RECIPIENT", "admin@localhost")
-    
+
     if not smtp_user or not smtp_password:
         print("SMTP not configured")
         return
-    
+
     # Create message
     msg = MIMEMultipart()
     msg["From"] = "atlas@localhost"
     msg["To"] = recipient
     msg["Subject"] = "Atlas Disk Space Alert"
-    
+
     body = f"""
 Atlas Disk Space Alert
 
@@ -159,9 +159,9 @@ Current disk usage:
 
 Please take action to free up disk space.
     """
-    
+
     msg.attach(MIMEText(body, "plain"))
-    
+
     # Send email
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
@@ -177,7 +177,7 @@ def main():
     """Main monitoring function"""
     usage_info = check_disk_space()
     print(f"Disk usage: {usage_info['usage_percent']:.1f}%")
-    
+
     if usage_info["usage_percent"] > 90:
         print("Disk space critical!")
         send_alert(usage_info)
@@ -240,17 +240,17 @@ def optimize_database(db_path="/home/ubuntu/dev/atlas/atlas.db"):
     if not os.path.exists(db_path):
         print(f"Database not found: {db_path}")
         return False
-    
+
     try:
         conn = sqlite3.connect(db_path)
-        
+
         # Run optimization commands
         conn.execute("PRAGMA optimize;")
         conn.execute("VACUUM;")
-        
+
         # Analyze database for query optimization
         conn.execute("ANALYZE;")
-        
+
         conn.close()
         print("Database optimization completed")
         return True
@@ -286,11 +286,11 @@ cp $DB_PATH $BACKUP_FILE
 # Check backup success
 if [ $? -eq 0 ]; then
     echo "Database backup created: $BACKUP_FILE"
-    
+
     # Compress backup
     gzip $BACKUP_FILE
     echo "Backup compressed: ${BACKUP_FILE}.gz"
-    
+
     # Remove backups older than 30 days
     find $BACKUP_DIR -name "atlas_backup_*.db.gz" -mtime +30 -delete
 else
@@ -379,33 +379,33 @@ def load_backup_config():
 def create_backup():
     """Create a local backup"""
     config = load_backup_config()
-    
+
     # Create backup directory
     backup_dir = Path(config["backup_destination"])
     backup_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # Create backup filename
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_filename = f"atlas_backup_{timestamp}.tar.gz"
     backup_path = backup_dir / backup_filename
-    
+
     # Create backup
     with tarfile.open(backup_path, "w:gz") as tar:
         for directory in config["backup_directories"]:
             if os.path.exists(directory):
                 tar.add(directory, arcname=os.path.basename(directory))
-    
+
     print(f"Backup created: {backup_path}")
-    
+
     # Cleanup old backups
     cleanup_old_backups(backup_dir, config["retention_days"])
-    
+
     return backup_path
 
 def cleanup_old_backups(backup_dir, retention_days):
     """Remove backups older than retention period"""
     cutoff_date = datetime.datetime.now() - datetime.timedelta(days=retention_days)
-    
+
     for backup_file in backup_dir.glob("atlas_backup_*.tar.gz"):
         if datetime.datetime.fromtimestamp(backup_file.stat().st_mtime) < cutoff_date:
             backup_file.unlink()
@@ -513,7 +513,7 @@ rm -rf $TEMP_DIR
 aws s3 ls s3://$S3_BUCKET/ | while read -r line; do
     date_str=$(echo $line | awk '{print $1}')
     backup_name=$(echo $line | awk '{print $4}')
-    
+
     # Calculate age and remove old backups
     # (Implementation depends on specific requirements)
 done
@@ -666,10 +666,10 @@ from pathlib import Path
 def check_maintenance_logs():
     """Check maintenance logs for recent execution"""
     log_file = Path("/home/ubuntu/dev/atlas/logs/maintenance.log")
-    
+
     if not log_file.exists():
         return {"status": "error", "message": "Maintenance log not found"}
-    
+
     # Check if log has been updated in the last 25 hours
     mtime = datetime.fromtimestamp(log_file.stat().st_mtime)
     if datetime.now() - mtime < timedelta(hours=25):
@@ -680,16 +680,16 @@ def check_maintenance_logs():
 def check_backup_status():
     """Check backup status"""
     backup_dir = Path("/home/ubuntu/dev/atlas/backups")
-    
+
     if not backup_dir.exists():
         return {"status": "error", "message": "Backup directory not found"}
-    
+
     # Check for recent backups
     recent_backups = list(backup_dir.glob("*"))
     if recent_backups:
         newest_backup = max(recent_backups, key=lambda x: x.stat().st_mtime)
         mtime = datetime.fromtimestamp(newest_backup.stat().st_mtime)
-        
+
         if datetime.now() - mtime < timedelta(days=2):
             return {"status": "ok", "message": "Recent backup found"}
         else:
@@ -703,7 +703,7 @@ def check_disk_space():
     total, used, free = shutil.disk_usage("/")
     usage_percent = (used / total) * 100
     free_gb = free / (1024**3)
-    
+
     if usage_percent > 90:
         return {"status": "critical", "message": f"Disk usage critical: {usage_percent:.1f}%"}
     elif usage_percent > 80:
@@ -718,25 +718,25 @@ def main():
         ("Backup Status", check_backup_status),
         ("Disk Space", check_disk_space)
     ]
-    
+
     results = {}
     overall_status = "ok"
-    
+
     print("Atlas Maintenance Monitor")
     print("=" * 30)
-    
+
     for check_name, check_func in checks:
         result = check_func()
         results[check_name] = result
         print(f"{check_name}: {result['status'].upper()} - {result['message']}")
-        
+
         # Update overall status (critical > error > warning > ok)
         status_order = {"ok": 0, "warning": 1, "error": 2, "critical": 3}
         if status_order[result["status"]] > status_order[overall_status]:
             overall_status = result["status"]
-    
+
     print("\nOverall Status:", overall_status.upper())
-    
+
     # Save results to file
     results_file = Path("/home/ubuntu/dev/atlas/logs/maintenance_status.json")
     with open(results_file, "w") as f:
@@ -745,7 +745,7 @@ def main():
             "overall_status": overall_status,
             "checks": results
         }, f, indent=2)
-    
+
     return overall_status != "critical"
 
 if __name__ == "__main__":
@@ -803,27 +803,27 @@ def send_alert(subject, message, recipients):
     smtp_user = os.getenv("SMTP_USER")
     smtp_password = os.getenv("SMTP_PASSWORD")
     from_email = os.getenv("FROM_EMAIL", "atlas@localhost")
-    
+
     if not smtp_user or not smtp_password:
         print("SMTP not configured, skipping alert")
         return False
-    
+
     try:
         # Create message
         msg = MIMEMultipart()
         msg["From"] = from_email
         msg["To"] = ", ".join(recipients)
         msg["Subject"] = subject
-        
+
         msg.attach(MIMEText(message, "plain"))
-        
+
         # Send email
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()
         server.login(smtp_user, smtp_password)
         server.send_message(msg)
         server.quit()
-        
+
         print("Alert sent successfully")
         return True
     except Exception as e:
@@ -842,7 +842,7 @@ Current disk usage:
 
 Please take immediate action to free up disk space.
     """
-    
+
     recipients = os.getenv("ADMIN_EMAILS", "admin@localhost").split(",")
     send_alert(subject, message, recipients)
 
@@ -857,7 +857,7 @@ Backup process failed with error:
 
 Please check the backup configuration and storage.
     """
-    
+
     recipients = os.getenv("ADMIN_EMAILS", "admin@localhost").split(",")
     send_alert(subject, message, recipients)
 
@@ -891,11 +891,11 @@ HTML_TEMPLATE = """
     <style>
         body { font-family: Arial, sans-serif; margin: 2em; background: #f8f9fa; }
         h1 { color: #2c3e50; }
-        .status-card { 
-            background: white; 
-            border-radius: 8px; 
-            padding: 1.5em; 
-            margin: 1em 0; 
+        .status-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin: 1em 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         .status-ok { border-left: 5px solid #28a745; }
@@ -905,13 +905,13 @@ HTML_TEMPLATE = """
         .metric { display: flex; justify-content: space-between; margin: 0.5em 0; }
         .metric-label { font-weight: bold; }
         .metric-value { text-align: right; }
-        .refresh-button { 
-            background: #007bff; 
-            color: white; 
-            border: none; 
-            padding: 0.5em 1em; 
-            border-radius: 4px; 
-            cursor: pointer; 
+        .refresh-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
         }
         .refresh-button:hover { background: #0056b3; }
     </style>
@@ -920,7 +920,7 @@ HTML_TEMPLATE = """
     <h1>Atlas Health Dashboard</h1>
     <p>Last updated: {{ timestamp }}</p>
     <button class="refresh-button" onclick="location.reload()">Refresh</button>
-    
+
     <div class="status-card status-{{ overall_status }}">
         <h2>Overall Status: {{ overall_status.title() }}</h2>
         {% for check_name, check_result in checks.items() %}
@@ -930,7 +930,7 @@ HTML_TEMPLATE = """
         </div>
         {% endfor %}
     </div>
-    
+
     <div class="status-card">
         <h2>System Metrics</h2>
         {% for metric_name, metric_value in metrics.items() %}
@@ -948,19 +948,19 @@ def get_system_metrics():
     """Get system metrics"""
     import shutil
     import psutil
-    
+
     # Disk usage
     total, used, free = shutil.disk_usage("/")
     disk_usage_percent = (used / total) * 100
     disk_free_gb = free / (1024**3)
-    
+
     # Memory usage
     memory = psutil.virtual_memory()
     memory_usage_percent = memory.percent
-    
+
     # CPU usage
     cpu_usage_percent = psutil.cpu_percent(interval=1)
-    
+
     return {
         "Disk Usage": f"{disk_usage_percent:.1f}%",
         "Free Disk Space": f"{disk_free_gb:.1f} GB",
@@ -972,7 +972,7 @@ def get_system_metrics():
 def get_health_status():
     """Get health status from monitoring results"""
     status_file = Path("/home/ubuntu/dev/atlas/logs/maintenance_status.json")
-    
+
     if status_file.exists():
         try:
             with open(status_file, 'r') as f:
@@ -1006,7 +1006,7 @@ def get_health_status():
 def dashboard():
     """Render health dashboard"""
     health_data = get_health_status()
-    
+
     return render_template_string(
         HTML_TEMPLATE,
         timestamp=health_data["timestamp"],
@@ -1117,42 +1117,42 @@ def restore_s3_backup(bucket_name, backup_name, restore_dir):
     try:
         # Initialize S3 client
         s3 = boto3.client('s3')
-        
+
         # List backup files
         response = s3.list_objects_v2(
             Bucket=bucket_name,
             Prefix=backup_name
         )
-        
+
         if 'Contents' not in response:
             print(f"No files found for backup: {backup_name}")
             return False
-        
+
         # Download and extract each file
         restore_path = Path(restore_dir)
         restore_path.mkdir(parents=True, exist_ok=True)
-        
+
         for obj in response['Contents']:
             key = obj['Key']
             filename = Path(key).name
-            
+
             if filename.endswith('.tar.gz'):
                 # Download file
                 local_file = restore_path / filename
                 print(f"Downloading: {key}")
                 s3.download_file(bucket_name, key, str(local_file))
-                
+
                 # Extract archive
                 print(f"Extracting: {filename}")
                 with tarfile.open(local_file, 'r:gz') as tar:
                     tar.extractall(path=restore_dir)
-                
+
                 # Remove downloaded archive
                 local_file.unlink()
-        
+
         print("S3 backup restoration completed!")
         return True
-        
+
     except Exception as e:
         print(f"Error restoring S3 backup: {e}")
         return False
@@ -1161,15 +1161,15 @@ def restore_gdrive_backup(folder_id, restore_dir):
     """Restore backup from Google Drive"""
     try:
         import subprocess
-        
+
         # Download folder from Google Drive
         cmd = ["gdrive", "download", "--recursive", folder_id]
         result = subprocess.run(cmd, cwd=restore_dir, capture_output=True, text=True)
-        
+
         if result.returncode != 0:
             print(f"Error downloading from Google Drive: {result.stderr}")
             return False
-        
+
         # Extract downloaded archives
         restore_path = Path(restore_dir)
         for archive in restore_path.glob("*.tar.gz"):
@@ -1177,10 +1177,10 @@ def restore_gdrive_backup(folder_id, restore_dir):
             with tarfile.open(archive, 'r:gz') as tar:
                 tar.extractall(path=restore_dir)
             archive.unlink()
-        
+
         print("Google Drive backup restoration completed!")
         return True
-        
+
     except Exception as e:
         print(f"Error restoring Google Drive backup: {e}")
         return False
@@ -1196,14 +1196,14 @@ def main():
     parser.add_argument('--folder-id', help='Google Drive folder ID (required for GDrive)')
     parser.add_argument('--restore-dir', default='/home/ubuntu/dev/atlas',
                        help='Directory to restore to')
-    
+
     args = parser.parse_args()
-    
+
     # Stop Atlas services
     print("Stopping Atlas services...")
     os.system("sudo systemctl stop atlas.service 2>/dev/null || true")
     os.system("pkill -f 'atlas_' 2>/dev/null || true")
-    
+
     # Create backup of current data
     import datetime
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1211,7 +1211,7 @@ def main():
     print(f"Creating backup of current data: {backup_current}")
     os.system(f"mkdir -p {backup_current}")
     os.system(f"cp -r {args.restore_dir}/config {args.restore_dir}/data {args.restore_dir}/output {backup_current}/ 2>/dev/null || true")
-    
+
     # Restore backup
     success = False
     if args.provider == 's3':
@@ -1224,7 +1224,7 @@ def main():
             print("Error: Google Drive folder ID required")
             return False
         success = restore_gdrive_backup(args.folder_id, args.restore_dir)
-    
+
     # Restart services if restoration was successful
     if success:
         print("Restarting Atlas services...")

@@ -15,10 +15,10 @@ Marc and I worked together to craft a personalized program for me that combines 
 My biggest concern was that I didn’t have time, but I can literally hop off a meeting and into my personal training session with no downtime in between. And I can adjust my schedule on the fly as things pop up. 
 Try it and see if it works for you. To book a FREE session with a world-class trainer, including Marc and get 20% off your first training package with the code notboring, sign-up at my link here:
 Hi friends 👋,
-Happy Monday! 
-I’ve been writing about a lot of fast-growing companies and protocols recently, but I keep hearing that the macro environment is going to dictate returns in very specific ways, so I figured it was worth writing a short one on the madness of the crowds and The Current Financial Thing. 
+Happy Monday!
+I’ve been writing about a lot of fast-growing companies and protocols recently, but I keep hearing that the macro environment is going to dictate returns in very specific ways, so I figured it was worth writing a short one on the madness of the crowds and The Current Financial Thing.
 Note: None of this is financial advice. I’m not a financial advisor, and I’m a terrible trader. This is just meant to be an entertaining commentary on the behavior of the crowd and the wisdom in following it. Hopefully, you disagree with me and it makes you think for yourself.
-Let’s get to it. 
+Let’s get to it.
 The Current Financial Thing
 Men, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, and one by one.
 It’s funny that those who take finance particularly seriously dismiss meme stocks. 
@@ -77,7 +77,7 @@ There’s obviously a lot of luck and coincidence there, and this could certainl
 But the fact that everyone seems so sure of that makes me wonder. I think there’s a generalizable lesson: be skeptical when everyone agrees with each other. 
 And I think there’s an addendum: *especially when they all agree to the downside.
 (Alright, fine: Be fearful when others are greedy, and greedy when others are fearful; but be especially greedy when everyone else is fearful in the same way for the same reasons.)
-To learn about the more sober madness of the crowds and what that has to do with the Current Financial Thing… 
+To learn about the more sober madness of the crowds and what that has to do with the Current Financial Thing…
 Thanks to Dan [https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9mOBopMKMHDnvZ1yAVqpJRMFh31rdfZjxs0rRpmvbv_3lkmnI57ZZ3Fu_k-NzIJnrtCzFTEcdOxcVg5R06ZXQvgtVBdqYTcXdjIVoxLpbLQWI7hiV65JjTZ6NtwYjZmjZ0CrUZBwBz77Ue8a69DGaUvg8PvHTxCJGSJ0s_VM6cSCx2Zt72m_q6wXcNfsX3R43Pa-0Crt7nskb_lEpECy1Aq6CTYBT0DTQBVRUYlcRBeeV98zu_1ICHvOl2naDZj2Fn9M_3PVFsyjzkEtNUx88ZV1o-g-rJ1boeKfLpKOGwULjs8kXtA8BNlKhUmsEhV1a604_6UQfSXPYqDyOllhJaUZVDrlvpX_QPhR-FBA], Dror [https://email.mg2.substack.com/c/eJxFUMluxCAM_ZrhGAWThRw49NLfQCxOgiaBiJhO8_dlJodKli3ryX6LM4RLypc60kns3TRdB6qIr3NDIsysnJh18IoPIEXfTcyrznPZSxZOPWfE3YRNUS7IjmK34AyFFD8XbQs9W9U0Ou84WjH1wsIwTGIY3DhKmOYZYbQ3ryk-YHSo8AfzlSKyTa1Ex_kQXw_4rkWv8FbUuLTXzeeUj7ThwoKCFqAVIDn0AqYGGm_EzN0suLHCCeea3_UlrCn80bX7As1Z7EnGPd-_WFYxkU05xKXCz9XsuH2A6kfXuZcY6NIYjd3Q31bpTuxjXi8YMdckvTZUc-pkN1ZFEnh_W6tZ9Jx3nEPLKrNP9Sr-k_4BlhGD3A], and Ben [https://email.mg2.substack.com/c/eJxFUMluhDAM_ZrJEWUhEA459NLfQFkciCYkKJhO-ftmhkMly5b1ZL_FGYSl1Evv5UDybjNeO-gMryMBIlRyHlDn6DUbuBKyn4jXvWdKKhKPOVSAzcSksZ5A9tOm6AzGkj8XlHJJVj1YOphBjYH1wgk6hnGyllkILIhJSXvzmtNHyA40_EC9SgaS9Iq4Hw_x9eDfrfAV34o6V7a2Wci1pAQVSdScck4FV4xLwaeOd96IwFwQzNjG6Vz3u76ENSd79HRbeHec9kDjnu9npOpc0JYa89Lg52o2SB-gGZrb3M4c8ZohG5vA317xjuzjfl4gQ21R-tlgC6pX_dgUKc7k7a2FIRnrGeOUNGZf2lX-J_0DQj-EYg] for reading and giving feedback!
 Not Boring Talent Collective
 The Not Boring Talent Collective is taking off. Over 350 smart, curious people are looking for jobs in web3 and tech startups, and 40 growing companies have already signed up to hire them. Whether you’re looking to hire or looking for a new job, sign up here [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9m2DXiOUMWLLrpb0Q8nASVQERMp_n7MpNFJcuWbNnX93iLsJR6mr0cSF5pwnMHk-F5JECEStoBdYrBsDvXQsmRBCMD00qTeExzBdhsTAZrA7I3l6K3GEt-b1DKFVnNSMFKNfq7BEfdTJUSehROa8_pDA966doWImQPBn6gniUDSWZF3I-b-Lzxrx654IcrNeZl2G3q7w2-bL2PNkFGEg2nnFPBNeNK8HHgQ7BiZn4WzDrhhffD7_oUzjZ2k3Rb-HA0d6D1369DpJoucN3v4-_VbpDeg25r6nVrOeI5QbYuQbgc4wXuzWBaIEPtQMNkseOSWj76R5ozdTnsSBRjkjFOSVcOpW_lf9E_HhaGGw].

@@ -14,12 +14,12 @@ Seamlessly integrate: Merge ensures a no-hassle onboarding experience for your c
 More, with less: Engineers can quickly build and maintain all your business’ integrations, without costly and timely custom work.
 New Standard: Merge covers hundreds of integrations, handles the lifetime of maintenance, is fully secure and compliant, and let’s your team move faster. That’s why G2 considers it the only leader in the Unified API space.
 Stop wasting your engineering team’s time building out dozens of bespoke, complex integrations and please just use Merge – it’ll save you time and money. And here’s the kicker, Merge [ https://substack.com/redirect/3c5a011b-3242-45a6-8155-370e8df347d6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is offering Not Boring readers a $5,000 credit on annual plans.
-Hi friends 👋, 
-Happy Tuesday! This is the last Not Boring essay of 2023. Normally, in the last essay of the year, I write about how next year is going to be even wilder than this one was. That’s been true every year since I started writing Not Boring, and I don’t think it’s going to change any time soon. 
-This year, I’m doing something a little bit different, because this year was a little bit different. I felt the momentum slow, and maybe you did too. 
-So I figured I’d go full transparency, tell you about the hard stuff, and then tell you why I think the slowing momentum is actually a good thing. 
+Hi friends 👋,
+Happy Tuesday! This is the last Not Boring essay of 2023. Normally, in the last essay of the year, I write about how next year is going to be even wilder than this one was. That’s been true every year since I started writing Not Boring, and I don’t think it’s going to change any time soon.
+This year, I’m doing something a little bit different, because this year was a little bit different. I felt the momentum slow, and maybe you did too.
+So I figured I’d go full transparency, tell you about the hard stuff, and then tell you why I think the slowing momentum is actually a good thing.
 I’m fired up for 2024, and I can’t wait to see you on the other side.
-Let’s get to it. 
+Let’s get to it.
 Momentum, Consolidation, and Breakout
 I have to be honest with you, 2023 was the hardest year of my life. 
 It wasn’t a bad year. It was a great year in a lot of ways. But it was hard. 

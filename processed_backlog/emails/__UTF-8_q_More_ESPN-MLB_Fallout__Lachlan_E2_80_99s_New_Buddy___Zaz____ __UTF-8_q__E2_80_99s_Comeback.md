@@ -198,7 +198,7 @@ sentiment seems to be changing for the better. In the past six months, the stock
 That’s one of the most intriguing parlor games being played in Hollywood and on Wall Street these days. Zaz, of course, remains supremely optimistic. “We really believe that the global players will be those that will really
 prosper in the years ahead, and ultimately be the largest sustainable growth media companies,” he told of analyst Kannan Venkateshwar on the earnings call. “There will probably be four, or five, or six, and our job every day is to fight to get a seat at that table.” The fourth quarter results, if they can be sustained, at least indicate that Zaz and WBD will likely be one of the “four, five, or six.”
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -217,7 +217,7 @@ On IndyCar drivers: “In your Q&A with Shanks, you mixed up Alex Palou with Ale
 
 On the donnybrook in a Starbucks between NFL Media’s Ian Rapoport and Fox’s Jordan Schultz, son of former Starbucks C.E.O. Howard Schultz: “Does Jordan pay at Starbucks?” —A Varsity subscriber asking the right question
 
- 
+
 
 Until Thursday,
 
@@ -240,7 +240,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVXtPtBOibYbSJXQDIZrk=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

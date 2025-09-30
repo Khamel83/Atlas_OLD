@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • July 07, 2022 
+Unknown author • July 07, 2022
 
 ![nytimes.com]()
 

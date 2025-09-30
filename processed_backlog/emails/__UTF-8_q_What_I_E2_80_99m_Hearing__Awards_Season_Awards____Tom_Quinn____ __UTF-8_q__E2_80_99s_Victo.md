@@ -36,7 +36,7 @@ Warren, Jennifer Lopez, Georgina Chapman, Ali Abbasi, Jason Weinberg, Rick Poliz
 
 But first…
 
- 
+
 
 Who
 Won the Week: Sean Baker (Obviously)
@@ -187,7 +187,7 @@ Sarah Hagi
 Timothée Chalamet’s mustache
 Sex workers
 
- 
+
 
 Quote of the Week
 -----------------
@@ -196,7 +196,7 @@ Quote of the Week
 both quality and quantity together. What does streaming have? It has quantity.”
 —Tom Rothman, the Sony Pictures film chair, in an amusingly adversarial CBS Sunday Morning segment ( https://www.cbsnews.com/live/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#x )pitting Rothman and Nancy Meyers against Netflix’s Ted Sarandos.
 
- 
+
 
 Tom Quinn’s Oscar Economics
 -----------------------------
@@ -247,7 +247,7 @@ But what if Sean says he wants to do a $100 million movie, like Bong Joon Ho did
 “We will not
 be in that game. And honestly, I wouldn’t understand a budget of a film over $35 million. There are other people who do that better than us.”
 
- 
+
 
 My
 Reading List…
@@ -270,7 +270,7 @@ subs recently received presidential pardons. [THR ( https://www.hollywoodreporte
 Simpsons producer Rick Polizzi may finally give up his fight with the L.A. city bureaucracy to keep the “Boney Island” treehouse he built in his yard 24 years ago.
 [LA Times ( https://www.latimes.com/california/story/2025-02-28/simpsons-producer-sherman-oaks-tree-house-may-be-demolished?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 The
 Feedback
@@ -290,7 +290,7 @@ executive
 “They need to
 require proof of you having watched the movies to vote in the final round. Either you attended a screening in person or proof that you played through the full movie on the app. It is embarrassing that so many of these anonymous voters are saying they never bothered to watch the 10 [best picture nominees]. And, anecdotally, so many abstained from voting for smaller categories, or are saying they didn’t watch many of the nominated titles at all.” —Another executive
 
- 
+
 
 Have a great week,
 Matt
@@ -311,6 +311,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVYCthGBzHeGcLAPsl4TA=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

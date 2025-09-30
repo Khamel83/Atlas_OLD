@@ -191,7 +191,7 @@ var node =document.getElementsByTagName("script")[0];
 	</div>
 
 <ul class="parent-list">
-		
+
 <section class="items-container" id=""><li class="parent-item no-children" id="main-nav-heading-1">
 	<a href="/web/20161210160636/http://www.vice.com/videos">		Video	</a></li>
 	<ul class="child-list video">
@@ -262,7 +262,7 @@ var node =document.getElementsByTagName("script")[0];
 
 <div class="navigation-items-container">
 			<nav class="navigation-items main-nav">
-				
+
 <ul class="items-container" id=""><li class="trigger main-nav-trigger watch no-dropdown" data-navigation-item-key="watch">
 	<a href="/web/20161210160636/http://www.vice.com/videos">		Video	</a></li><!----><li class="trigger main-nav-trigger sections no-link" data-navigation-item-key="sections">
 			Sections	</li><!----><li class="trigger main-nav-trigger photos" data-navigation-item-key="photos">
@@ -282,7 +282,7 @@ var node =document.getElementsByTagName("script")[0];
 							</nav>
 
 <nav class="navigation-items inline">
-				
+
 <ul class="items-container" id=""><li class="nav-title no-link">
 	Topics:
 </li><!--
@@ -345,7 +345,7 @@ var node =document.getElementsByTagName("script")[0];
 		<div class="navigation-groups-container">
 			<div class="navigation-group sub-navigation-group" data-navigation-item-key="sections">
 	<div class="sub-navigation-items-container">
-		
+
 <ul class="items-container" id=""><li data-sub-navigation-item-key="sections/news">
 	<a href="/web/20161210160636/http://www.vice.com/news">		News	</a></li><!-- -->
 <li data-sub-navigation-item-key="sections/music">
@@ -372,7 +372,7 @@ var node =document.getElementsByTagName("script")[0];
 	</div>
 
 <div class="sub-navigation-items">
-		
+
 <div class="sub-navigation-group news" data-sub-navigation-item-key="sections/news">
 	<div class="menu-items-container"></div>
 </div><div class="sub-navigation-group music" data-sub-navigation-item-key="sections/music">
@@ -415,7 +415,7 @@ var node =document.getElementsByTagName("script")[0];
 	<div class="menu-items-container inline-items-container"></div>
 </div><div class="navigation-group sub-navigation-group" data-navigation-item-key="more/topics">
 	<div class="sub-navigation-items-container">
-		
+
 <ul class="items-container" id=""><li data-sub-navigation-item-key="more/topics/viceland">
 	<a href="http://web.archive.org/web/20161210160636/https://vice.com/tag/viceland">		VICELAND	</a></li><!-- -->
 <li data-sub-navigation-item-key="more/topics/Election 2016">
@@ -434,7 +434,7 @@ var node =document.getElementsByTagName("script")[0];
 	</div>
 
 <div class="sub-navigation-items">
-		
+
 <div class="sub-navigation-group viceland" data-sub-navigation-item-key="more/topics/viceland">
 	<div class="menu-items-container"></div>
 </div><div class="sub-navigation-group Election 2016" data-sub-navigation-item-key="more/topics/Election 2016">
@@ -510,13 +510,13 @@ var node =document.getElementsByTagName("script")[0];
 
 <div class="site-content">
 			<div class="page-container article-single-page-container ">
-	
+
 	<div class="page-inner-content">
 		<div class="page-inner-wrapped-content">
 			<div class="article-content-container">
 				<div class="article-content-inner">
 					<header class="article-header">
-						
+
 						<div class="article-title-container">
 							<h1>
 								<span>A Brief History of MILF Porn</span>
@@ -528,7 +528,7 @@ var node =document.getElementsByTagName("script")[0];
 											<img src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/contributor/crops/2014/10/14/mark-hay-1413240069473-crop_social.jpeg?resize=*:*&amp;output-quality=75" alt="Mark Hay"/>
 										</a>
 									</div>
-								
+
 								<div class="contributor-info">
 																			<p class="contributor-full-name">
 											<span>By</span> <a href="/web/20161210160636/http://www.vice.com/author/mark-hay">Mark Hay</a>
@@ -678,7 +678,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/08/can-sanctuary-campuses-really-protect-students-from-trump-1481224113-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="Can Sanctuary Campuses Really Protect Students from Trump?"/>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/can-sanctuary-campuses-really-protect-students-from-trump">
 			<h2 class="item-title">
@@ -691,7 +691,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/11/22/what-happens-1479829433-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="What Happens to a Town When the Local Prison Closes?"/>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/what-happens-to-a-town-when-the-local-prison-closes">
 			<h2 class="item-title">
@@ -704,7 +704,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/how-christmas-explains-economics-1481299378-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="Let's Ruin Christmas by Turning It into an Economics Lesson"/>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/how-christmas-explains-economics">
 			<h2 class="item-title">
@@ -717,7 +717,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/09/damien-chazelle-interview-1481253697-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="Damien Chazelle Talks About His Spectacular Musical &amp;#39;La La Land&amp;#39;"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/damien-chazelle-interview-1481253697-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="Damien Chazelle Talks About His Spectacular Musical &amp;#39;La La Land&amp;#39;"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/damien-chazelle-interview">
 			<h2 class="item-title">
@@ -730,7 +730,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/05/what-i-learned-helping-mentally-ill-people-in-rikers-1480959172-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="What I Learned Treating the Mentally Ill on Rikers"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/05/what-i-learned-helping-mentally-ill-people-in-rikers-1480959172-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="What I Learned Treating the Mentally Ill on Rikers"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/mary-buser-treating-mentally-ill-rikers">
 			<h2 class="item-title">
@@ -743,7 +743,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/09/mass-shootings-killed-more-people-in-europe-than-the-us-this-week-1481302872-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="Mass Shootings Killed More People in Europe Than the US This Week"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/mass-shootings-killed-more-people-in-europe-than-the-us-this-week-1481302872-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="Mass Shootings Killed More People in Europe Than the US This Week"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/mass-shootings-killed-more-people-in-europe-than-the-us-this-week">
 			<h2 class="item-title">
@@ -756,7 +756,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/09/american-soccer-english-football-culture-1481298692-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="The Strange, Embarrassing World of Americans Trying to Emulate English Soccer Culture"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/american-soccer-english-football-culture-1481298692-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="The Strange, Embarrassing World of Americans Trying to Emulate English Soccer Culture"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/american-soccer-english-football-culture">
 			<h2 class="item-title">
@@ -769,7 +769,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/09/the-vice-review-poundland-vibrator-expensive-ones-sex-toy-1481281142-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="We Tested a $1 Vibrator Against a $400 Vibrator"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/the-vice-review-poundland-vibrator-expensive-ones-sex-toy-1481281142-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="We Tested a $1 Vibrator Against a $400 Vibrator"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/the-vice-review-poundland-vibrator-expensive-ones-sex-toy">
 			<h2 class="item-title">
@@ -785,7 +785,7 @@ var node =document.getElementsByTagName("script")[0];
 					</div>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="http://web.archive.org/web/20161210160636/https://video.vice.com/en_us/video/how-thomas-morton-prepared-to-face-death/5849c81e7bf324e3448e97ad">
 			<h2 class="item-title">
@@ -798,7 +798,7 @@ var node =document.getElementsByTagName("script")[0];
 				<img class="srcN fade-in lazy" data-sources="http://web.archive.org/web/20161210160636/https://vice-images.vice.com/images/articles/crops/2016/12/09/photos-of-things-that-people-flushed-down-the-toilet-876-1481306054-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75 9999px" data-breakpoints="100% 400px" src="/web/20161210160636im_/http://www.vice.com/assets/images/vice/blank-transarent.png" alt="Everything but Poop: The Strange Things You Find Working at a Sewage Treatment Plant"/><noscript><img class="srcN fade-in lazy" src="http://web.archive.org/web/20161210160636im_/https://vice-images.vice.com/images/articles/crops/2016/12/09/photos-of-things-that-people-flushed-down-the-toilet-876-1481306054-crop_desktop_400.jpg?resize=*:*&amp;output-quality=75" alt="Everything but Poop: The Strange Things You Find Working at a Sewage Treatment Plant"/></noscript>
 							</a>
 		</div>
-	
+
 	<div class="item-information">
 		<a href="/web/20161210160636/http://www.vice.com/read/photos-of-things-that-people-flushed-down-the-toilet-876">
 			<h2 class="item-title">
@@ -813,7 +813,7 @@ var node =document.getElementsByTagName("script")[0];
 
 <section class="recommended-widget-wrapper">
 					<div class="list-widget recommended-widget grid-view ">
-	
+
 	<header class="widget-header recommended-widget-header">
 					<h2>Recommended</h2>
 			</header>
@@ -877,7 +877,7 @@ var node =document.getElementsByTagName("script")[0];
 </section>
 </div>
 				</section>
-			
+
 			<div class="vmp-ad ad-banner" data-ref="banner"></div>
 							<section id="comments" class="comments-wrapper">
 					<div class="comments-inner">
@@ -900,7 +900,7 @@ var node =document.getElementsByTagName("script")[0];
 <div class="page-inner-content article-todays-stories-container">
 		<div class="page-inner-wrapped-content article-todays-stories-inner-wrapped-content">
 							<div class="list-widget article-todays-stories  grid-view" data-total-items="79" data-items-per-page="6" data-thread="vicetoday">
-	
+
 <script type="text/template" id="grid-list-view-template">
 	<div class="item-category-info">
 		<span class="publish-time" data-publish-date="<%= publish_date %>">
@@ -1193,7 +1193,7 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//web.archive.org/web/20161210160636/http://script.crazyegg.com/pages/scripts/0013/1363.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script> 
+</script>
 <!--End Crazy Egg-->
 
 <!-- START Nielsen Online SiteCensus V6.0 -->

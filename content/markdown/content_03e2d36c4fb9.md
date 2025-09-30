@@ -30,7 +30,7 @@
 <link rel="stylesheet" href="/web/20250727080630cs_/https://www.pnas.org/products/pnas/releasedAssets/css/build-3671becc53450d4006f2.css" media="all" id="build-style-sheet">
         <link rel="stylesheet" href="/web/20250727080630cs_/https://www.pnas.org/products/pnas/releasedAssets/css/print-3671becc53450d4006f2.css" media="print">
            <link rel="stylesheet" href="/web/20250727080630cs_/https://www.pnas.org/products/pnas/releasedAssets/css/build-article-3671becc53450d4006f2.css" media="all" id="article-style-sheet">
-    
+
         <script nonce="965aa34a5904cf1e-SJC">
         try {
             document.documentElement.classList.add('js');
@@ -135,7 +135,7 @@ in the United States. Using data on 93 million individual househo..."/>
 <body class="pb-ui website-pnas-site">
 
 <div id="pb-page-content" data-ng-non-bindable>
-                
+
             <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
 
 <div>
@@ -277,28 +277,28 @@ in the United States. Using data on 93 million individual househo..."/>
 <a href="#" aria-expanded="false" aria-label="Expand search field" aria-controls="quick-search-form-0" data-expand-label="Expand search field" data-collapse-label="Collapse search field" data-target=".header-quick-search" data-move-focus="#header-quick-search input" data-toggle="collapse" class="btn quick-search__trigger" title="Search"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewbox="0 -8 32 50" class="quick-search-icon-animated"> <path d="M17.71,17.91a6.25,6.25,0,1,1,1.89-4.48,6.23,6.23,0,0,1-1.89,4.48" class="cls cls-1"></path> <line x1="25.07" y1="25.15" x2="8.2" y2="8.29" class="cls cls-2"></line> <line x1="8.2" y1="25.15" x2="25.07" y2="8.29" class="cls cls-3"></line></svg></a>
 
 <div class="eCommerceCartIndicatorWidget">
-    
-        
-        
+
+
+
             <a href="/web/20250727080630/https://www.pnas.org/action/showCart?FlowID=1" id="cartLabel" title="Show shopping cart" class="shopping-cart-indicator">
                     <span class="position-relative d-flex mr-lg-3 mr-0 pt-1 pr-1 pt-lg-0 pr-lg-0">
                         <i aria-hidden="true" class="icon-shopping-cart"></i>
                         <span class="shopping-cart-indicator__badge d-none " data-id="cart-size">0</span>
                     </span>
-                
+
                 <span class="shopping-cart-indicator__label font-weight-bold text-deep-gray">Cart</span>
             </a>
-        
-    
+
+
 </div>
 
 <div class="login-bar text-uppercase">
     <a href="/web/20250727080630/https://www.pnas.org/action/showLogin" class="font-weight-bold btn btn-outline-primary btn--light-outline btn-login collapsed" data-target=".login-bar__menu" data-toggle="collapse" aria-expanded="true">
         <span>Sign in</span>
     </a>
-    
-        
-        
+
+
+
             <a href="/web/20250727080630/https://www.pnas.org/action/registration?redirectUri=%2Fdoi%2F10.1073%2Fpnas.1922205117" class="font-weight-bold btn btn-primary btn-register">
                 Register
             </a>
@@ -386,7 +386,7 @@ in the United States. Using data on 93 million individual househo..."/>
             <h3 class="signup-alert-ad__title">Sign up for PNAS alerts.</h3>
             <p class="signup-alert-ad__content mt-2">Get alerts for new articles, or get an alert when an article is cited.</p>
         </div>
-        <div> 
+        <div>
             <a href="/web/20250727080630/https://www.pnas.org/action/showPreferences?menuTab=Alerts" class="btn btn-primary mt-2 signup-alert-ad__action">Manage alerts</a>
         </div>
     </div>
@@ -408,7 +408,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <h4 class="">
                 Altmetrics
             </h4>
-        
+
         <div data-badge-details="right" data-badge-type="large-donut" data-doi="10.1073/pnas.1922205117" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed py-3">
 </div>
 <script data-cfasync="false" src="/web/20250727080630js_/https://www.pnas.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async type="text/javascript" src="http://web.archive.org/web/20250727080630js_/https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" nonce="965aa34a5904cf1e-SJC"></script>
@@ -428,12 +428,12 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <div class="citation-download">
     <h4>Cite this article</h4>
     <div class="citation-msg mb-3" id="copy-target" role="paragraph" data-elements-to-show-inline=".authors-truncate,.authors-data-item-more" data-elements-to-remove=".authors-truncate-to-hide,.authors-toggle">
-        
-            
-            
-            
-                
-            
+
+
+
+
+
+
         <?xml version="1.0" encoding="UTF-8"?><div class="authors-truncate" data-truncate-dots="true" data-truncate-less="less" data-visible-items="19" data-visible-items-md="19" data-visible-items-sm="19"><ul class="authors-data-item-more list-inline" title="list of authors"><li class="list-inline-item"><letter>B.</letter> Goldstein, </li><li class="list-inline-item"><letter>D.</letter> Gounaridis, </li><li class="list-inline-item">&amp; <letter>J.</letter><letter>P.</letter> Newell, </li></ul></div>
 
 <span> The carbon footprint of household energy use in the United States, <i>Proc. Natl. Acad. Sci. U.S.A.</i></span>
@@ -508,7 +508,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <a href="/web/20250727080630/https://www.pnas.org/action/ssostart?redirectUri=%2Fdoi%2F10.1073%2Fpnas.1922205117" class="btn btn-primary btn-sm">
     <i class="icon-institution"></i>
     <span>Institutional Login</a></span>
-    
+
 </div>
 
 <div class="recommendToLibrarian">
@@ -519,20 +519,20 @@ Note: The article usage is presented with a three- to four-day delay and will up
 </div>
     </div>
     <div class="pill__item eCommercePurchaseAccessWidgetContainer">
-        
-            
+
+
                 <div class="save-for-later">
-                    
+
                         <a data-bind="saveItem" data-doi="10.1073/pnas.1922205117" class="save-for-later-link" href="/web/20250727080630/https://www.pnas.org/action/saveItem?doi=10.1073/pnas.1922205117">
                             <i aria-hidden="true" class="icon-heart"></i>
                             Save for later
                         </a>
-                    
+
                     <a class="saved-go-cart d-none" href="/web/20250727080630/https://www.pnas.org/action/showCart?FlowID=2">Item saved, go to cart</a>
                 </div>
-            
-            
-        
+
+
+
         <h4>Purchase options</h4>
         <p>Purchase this article to access the full text.</p>
 
@@ -555,7 +555,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <div class="usageRight">
 
 </div>
-                                                
+
                                             </p>
                                             <div class="purchaseMessage d-none info" data-item="PPV-PPV-20-ELECTRONIC-USD-10.1073/PNAS.1922205117-500049">
                                                 <p></p>
@@ -567,9 +567,9 @@ Note: The article usage is presented with a three- to four-day delay and will up
                                             <ul class="list-list-unstyled list-inline">
                                                 <li class="list-inline-item">Vol. 117</li>
                                                 <li class="list-inline-item">No. 32</li>
-                                                
+
                                                     <li class="list-inline-item">pp. 18895-19607</li>
-                                                
+
                                             </ul>
                                         </div>
                                         <footer>
@@ -621,7 +621,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <h3 class="article-further-reading__title main-title--decorated mb-5">
                 Further reading in this issue
             </h3>
-        
+
         <div class="multi-search"><ul class="list-unstyled"><li><div class="card  "><div class="card-content"><div class="card-header card__header mb-2"><div class="d-flex align-items-center mb-2"><span class="overline card__meta text-uppercase"><a href="/web/20250727080630/https://www.pnas.org/topic/type/research-article" class="card__meta__type">Research Article</a><span class="pl-2 ml-2 pl-2 border-left border-darker-gray  card__meta__date">July 28, 2020</span><span title="Open Access" data-toggle="tooltip" data-placement="bottom" class="pl-2 ml-2 border-left border-darker-gray  card__meta__access meta__access meta__access--open"><i class="icon-open-access"></i></span></span></div><h3 class="article-title card__title"><a href="/web/20250727080630/https://www.pnas.org/doi/10.1073/pnas.1815563117" title="Nonstandard conditionally specified models for nonignorable missing data" class="text-reset animation-underline">Nonstandard conditionally specified models for nonignorable missing data</a></h3></div><div data-visible-items-sm="2" data-visible-items-md="2" data-visible-items="2" data-truncate-less="less" data-truncate-dots="true" class="card-contribs authors text-reset authors-truncate"><ul class="list-inline" title="list of authors">
    <li class="list-inline-item"><a href="/web/20250727080630/https://www.pnas.org/author/Franks%2C+Alexander+M" title="Alexander M. Franks">Alexander M. Franks</a>,</li>
    <li class="list-inline-item"><a href="/web/20250727080630/https://www.pnas.org/author/Airoldi%2C+Edoardo+M" title="Edoardo M. Airoldi">Edoardo M. Airoldi</a>,</li>
@@ -819,7 +819,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <li role="listitem" class="list-inline-item footer__social-media__list-item"><a href="/web/20250727080630/https://www.pnas.org/about/rss" title="RSS feeds"><i class="icon-rss" aria-hidden="true"></i></a></li>
 </ul>
 </div>
-</div> 
+</div>
 </div><div class=" col-sm-6 col-md-4 my-4 text-uppercase font-weight-bold">
 
 <style>
@@ -852,13 +852,13 @@ Note: The article usage is presented with a three- to four-day delay and will up
 </div><div class=" col-sm-6 col-md-4 my-4 text-uppercase font-weight-bold">
 
 <style>
-        .headerlist { 
+        .headerlist {
                 font-size: 17px;
                 font-weight: bold;
-                text-align: left; 
+                text-align: left;
                 margin-bottom: .7rem;
             },
-            .footer__sitemap__list-item { 
+            .footer__sitemap__list-item {
                     text-align: left;
                     font-weight: 600;
                 }
@@ -923,7 +923,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
                             </div>
                         </div>
                     </div>
-                    
+
                         <div class="form-row">
                             <div class="col">
                                 <div class="form-group">
@@ -972,7 +972,7 @@ Note: The article usage is presented with a three- to four-day delay and will up
                     <div class="form-row">
                         <div class="col-12 col-sm-6">
                             <a href="/web/20250727080630/https://www.pnas.org/action/showLogin" class="show-login">
-                                
+
                                 Returning user
                             </a>
                         </div>
@@ -1004,12 +1004,12 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <input type="hidden" name="redirectUri" value="/doi/10.1073/pnas.1922205117"/>
 
 <input type="hidden" name="loginUri" value="/doi/10.1073/pnas.1922205117"/>
-        
+
             <input type="hidden" name="popup" value="true"/>
-        
-        
-            
-            
+
+
+
+
                 <div class="form-row">
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
@@ -1018,20 +1018,20 @@ Note: The article usage is presented with a three- to four-day delay and will up
         <div class="label ">
 
 <label for="login">Email<span class="required-marker" aria-hidden="true">*</span></label>
-                
-            
-            
+
+
+
         </div>
-        
-        
+
+
         <input id="login" class="form-control" type="text" name="login" value="" size="15" placeholder="Enter your email" aria-required="true"/>
-        
-                            
+
+
     </div>
 
 </div>
                         <div class="actions raa-form__reset-password text-right mt-n4">
-                            
+
                         </div>
                     </div>
 
@@ -1041,14 +1041,14 @@ Note: The article usage is presented with a three- to four-day delay and will up
 <div class="form-group">
         <div class="label ">
             <label for="password">Password<span class="required-marker" aria-hidden="true">*</span></label>
-            
+
         </div>
-        
-        
+
+
         <input id="password" class="form-control" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password" aria-required="true"/>
         <span class="password-eye-icon icon-eye hidden"></span>
-        
-                            
+
+
     </div>
 
 </div>
@@ -1058,33 +1058,33 @@ Note: The article usage is presented with a three- to four-day delay and will up
                         </div>
                     </div>
                 </div>
-            
-        
+
+
         <div class="form-row mt-4">
             <div class="col-12 col-sm-6 text-left">
                 <div class="custom-control custom-checkbox">
-                    
-                        
-                        
+
+
+
                             <input id="465aa1e9-3090-4f74-8ca8-f0d260f07eeb-remember" class="custom-control-input" type="checkbox" name="remember" value="true"/>
-                        
-                    
+
+
                     <label for="465aa1e9-3090-4f74-8ca8-f0d260f07eeb-remember" class="custom-control-label">
                         Keep me logged in
                     </label>
                 </div>
             </div>
-            
-                
+
+
                     <div class="col text-right">
                         <button type="submit" class="btn btn-submit">
                             <span>Login</span>
                             <span aria-hidden="true" class="icon-arrow-right ml-3"></span>
                         </button>
                     </div>
-                
-                
-            
+
+
+
         </div>
         <div class="form-row border-top mt-3 pt-3">
             <div class="col raa-form__register">
@@ -1092,15 +1092,15 @@ Note: The article usage is presented with a three- to four-day delay and will up
                 <a href="/web/20250727080630/https://www.pnas.org/action/registration">
                     here
                 </a>
-                
+
                     <a href="/web/20250727080630/https://www.pnas.org/action/ssostart?redirectUri=%2Fdoi%2F10.1073%2Fpnas.1922205117" class="float-right">
-                        
+
                         <div class="institution-login">
                             Institutional Login
                         </div>
                     </a>
-                
-                
+
+
             </div>
         </div></form>
 </div>

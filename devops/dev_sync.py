@@ -72,25 +72,25 @@ def run_command(cmd, description="", cwd=None):
 def sync_code():
     """Sync code from development to production"""
     print("Syncing code from development to production...")
-    
+
     # This would typically use rsync or similar tools
     # For now, we'll simulate the process
     print("Code sync would be implemented here")
     print("This would sync files from development environment to production")
-    
+
     return True
 
 def manage_configuration():
     """Manage environment-specific configuration"""
     print("Managing environment-specific configuration...")
-    
+
     # Configuration templates directory
     templates_dir = "/home/ubuntu/dev/atlas/config/templates"
-    
+
     # Production configuration directory
     prod_config_dir = "/home/ubuntu/dev/atlas/config/production"
     os.makedirs(prod_config_dir, exist_ok=True)
-    
+
     # Process configuration templates
     if os.path.exists(templates_dir):
         for template_file in os.listdir(templates_dir):
@@ -98,77 +98,77 @@ def manage_configuration():
                 template_path = os.path.join(templates_dir, template_file)
                 config_file = template_file.replace(".template", "")
                 config_path = os.path.join(prod_config_dir, config_file)
-                
+
                 # Process template
                 with open(template_path, "r") as f:
                     template_content = f.read()
-                
+
                 # Replace placeholders with production values
                 # In a real implementation, this would use environment variables
                 # or a configuration management system
                 processed_content = template_content.replace(
-                    "{{DATABASE_HOST}}", 
+                    "{{DATABASE_HOST}}",
                     os.environ.get("PROD_DATABASE_HOST", "localhost")
                 )
                 processed_content = processed_content.replace(
-                    "{{DATABASE_PORT}}", 
+                    "{{DATABASE_PORT}}",
                     os.environ.get("PROD_DATABASE_PORT", "5432")
                 )
                 processed_content = processed_content.replace(
-                    "{{DATABASE_NAME}}", 
+                    "{{DATABASE_NAME}}",
                     os.environ.get("PROD_DATABASE_NAME", "atlas")
                 )
                 processed_content = processed_content.replace(
-                    "{{DATABASE_USER}}", 
+                    "{{DATABASE_USER}}",
                     os.environ.get("PROD_DATABASE_USER", "atlas_user")
                 )
-                
+
                 # Write processed configuration
                 with open(config_path, "w") as f:
                     f.write(processed_content)
-                
+
                 print(f"Configuration file created: {config_path}")
-    
+
     return True
 
 def run_database_migrations():
     """Run database migrations"""
     print("Running database migrations...")
-    
+
     # Migration directory
     migration_dir = "/home/ubuntu/dev/atlas/migrations"
-    
+
     if not os.path.exists(migration_dir):
         print("No migrations directory found")
         return True
-    
+
     # Get list of migration files
     migrations = []
     for file in os.listdir(migration_dir):
         if file.endswith(".sql"):
             migrations.append(file)
-    
+
     # Sort migrations
     migrations.sort()
-    
+
     # Run migrations
     for migration in migrations:
         migration_path = os.path.join(migration_dir, migration)
         print(f"Running migration: {migration}")
-        
+
         # In a real implementation, this would run the migration
         # For now, we'll just print a message
         print(f"Migration {migration} would be executed here")
-    
+
     return True
 
 def manage_dependencies():
     """Manage development dependencies"""
     print("Managing development dependencies...")
-    
+
     # Check if requirements file exists
     requirements_file = "/home/ubuntu/dev/atlas/requirements-dev.txt"
-    
+
     if os.path.exists(requirements_file):
         # Install development dependencies
         if run_command("pip install -r requirements-dev.txt", "Installing development dependencies", "/home/ubuntu/dev/atlas"):
@@ -177,34 +177,34 @@ def manage_dependencies():
             print("Warning: Failed to install development dependencies")
     else:
         print("No development requirements file found")
-    
+
     return True
 
 def sync_static_files():
     """Sync static files"""
     print("Syncing static files...")
-    
+
     # Static files directories
     static_dirs = [
         "web/static",
         "assets",
         "public"
     ]
-    
+
     for static_dir in static_dirs:
         source_path = os.path.join("/home/ubuntu/dev/atlas", static_dir)
         if os.path.exists(source_path):
             # In a real implementation, this would sync files
             # For now, we'll just print a message
             print(f"Static files from {static_dir} would be synced here")
-    
+
     return True
 
 def main():
     """Main sync function"""
     print("Starting development to production sync...")
     print("=" * 45)
-    
+
     # Perform sync tasks
     tasks = [
         ("Code sync", sync_code),
@@ -213,9 +213,9 @@ def main():
         ("Dependency management", manage_dependencies),
         ("Static files sync", sync_static_files)
     ]
-    
+
     results = []
-    
+
     for task_name, task_func in tasks:
         print(f"\n{task_name}:")
         try:
@@ -224,24 +224,24 @@ def main():
         except Exception as e:
             print(f"Error in {task_name}: {str(e)}")
             results.append((task_name, False))
-    
+
     # Print summary
     print("\n" + "=" * 45)
     print("Sync Summary:")
     print("=" * 45)
-    
+
     all_success = True
     for task_name, success in results:
         status = "PASS" if success else "FAIL"
         print(f"{task_name}: {status}")
         if not success:
             all_success = False
-    
+
     if all_success:
         print("\nDevelopment to production sync completed successfully!")
     else:
         print("\nSome sync tasks failed. Please check the logs.")
-    
+
     return all_success
 
 if __name__ == "__main__":
@@ -399,51 +399,51 @@ def get_current_migration():
 def get_migration_files():
     """Get list of migration files"""
     migration_dir = "/home/ubuntu/dev/atlas/migrations"
-    
+
     if not os.path.exists(migration_dir):
         return []
-    
+
     migrations = []
     for file in os.listdir(migration_dir):
         if file.endswith(".sql") and file.startswith("0"):
             migrations.append(file)
-    
+
     migrations.sort()
     return migrations
 
 def run_migration(migration_file):
     """Run a migration file"""
     migration_path = os.path.join("/home/ubuntu/dev/atlas/migrations", migration_file)
-    
+
     print(f"Running migration: {migration_file}")
-    
+
     # In a real implementation, this would run the SQL
     # For now, we'll just print a message
     print(f"Migration {migration_file} would be executed here")
-    
+
     return True
 
 def main():
     """Main migration function"""
     print("Starting database migration...")
-    
+
     # Get current migration
     current_version = get_current_migration()
     print(f"Current migration version: {current_version}")
-    
+
     # Get migration files
     migrations = get_migration_files()
-    
+
     # Run pending migrations
     for migration in migrations:
         # Extract version from filename
         version = int(migration.split("_")[0])
-        
+
         if version > current_version:
             if not run_migration(migration):
                 print(f"Failed to run migration {migration}")
                 return False
-    
+
     print("Database migration completed successfully!")
     return True
 

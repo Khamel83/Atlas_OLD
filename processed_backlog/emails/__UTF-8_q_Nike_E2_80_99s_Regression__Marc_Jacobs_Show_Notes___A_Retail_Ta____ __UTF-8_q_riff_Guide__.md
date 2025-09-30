@@ -65,7 +65,7 @@ Now, here’s Sarah…
 Sarah Shapiro
 Sarah Shapiro
 
- 
+
 
 Three Things You Should Know…
 About Tariffs
@@ -171,7 +171,7 @@ or two from its competitors. The Zoom Fly 6 ( https://go.shopmy.us/p-12762004?ut
 After all, in Nike’s history, the company doesn’t always move first, but it almost always finds a way to offer a superior product. A perfect example, one former Nike
 insider pointed out, is the Nike Pro line, a $2 billion business that started as a response to Under Armour’s successful introduction of “spandex,” a.k.a. compression, into the men’s performance category. Under Armour may have pioneered compression wear, but Nike’s ability to scale and normalize the category turned an innovation into everyday athletic wear.
 
- 
+
 
 What We’re Reading… and Listening To…
 -------------------------------------------
@@ -194,7 +194,7 @@ it’s not a sweaty class, so it doesn’t smell the way SoulCycle does when the
 On the GLP-1 beat: Dan Frommer, Lauren’s husband, analyzed some stats around Ozempic usage and spending. Essentially, spending on food and related things goes down the first year, but then creeps
 back up. Perhaps a lot of people stop taking the drugs after a year? The point: GLP-1s might curb cravings overall, but the effects are short-term, for now. [The New Consumer ( https://newconsumer.com/2025/01/glp1-ozempic-food-cpg-spending-data/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Sarah and me. R.I.P. to Biologique Recherche P50
 1970, which was finally banned ( https://www.thecut.com/article/biologique-recherche-p50-1970-discontinued.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in the United States thanks to new F.D.A. regulations that don’t allow the exfoliating agent phenol in skincare. (The other versions are still good.) Congrats to all the romantic partners of the people who used P50 1970 because they will finally rid themselves of that notorious smell. (I likened it to the
@@ -229,6 +229,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU04aEUYQST5M0JuQzTSU=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

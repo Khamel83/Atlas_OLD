@@ -166,9 +166,9 @@ As I wrote, I believe that an Apex Aggregator that takes actions and makes purch
 Doing search well is a very hard problem, and no one does it better than Google. If it can get its juice back, it can leverage these powerful new AI capabilities to build products that organize the world’s information and make it accessible and useful, even if that sometimes means putting search ads second. 
 Of course, Google has a lot of cultural baggage to shed. It may need to suffer from short-term revenue hits. It will need to learn to take big risks again. But not taking those risks is an even bigger risk: if Google isn’t willing to cannibalize itself, others will happily eat it. 
 The things that got Google here as it became more deeply Positioned in search during the war of position have become weights in the war of maneuver. But they can also be weapons.
-Thanks to Dan for editing! 
+Thanks to Dan for editing!
 That’s all for today! We’ll be back in your inbox on Friday with a Weekly Dose of Optimism.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEUyT0RNMk1UZzBMQ0pwWVhRaU9qRTJPREl6TkRFMU5qY3NJbVY0Y0NJNk1UWTRORGt6TXpVMk55d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Lk5wMXM0X3ZCa3pRWTBnX0tLZDEwTGZIVFQyYzlRRTBNRldoc2Y1VHI1UjAiLCJwIjoxMTY4MzYxODQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjgyMzQxNTY3LCJleHAiOjE2ODQ5MzM1NjcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.aLVeTNUNZwJWlzMfu2t9UQypl6VkpPOJQRY-pfjVJ2o?

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Wednesday.We have talked a few times about the effect of working from home on fi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Wednesday.
 
-  
-    
+
+
       Covid and insider trading (1)
-    
-  
+
+
 
 We have   talked a few   times about the effect of working from home on financial crime. You could imagine it going either way: Being out of the office might cause you to do more crime, because you are less closely observed by bosses and compliance, or more crime, because you are not around peer pressure to do crime. Empirically, though, the answer seems to be “less crime.” 
 That said, there is one classic form of financial crime that I think would have to be increased by work-from-home? That form of financial crime is “looking at your girlfriend’s computer to see what high-stakes deals she is working on,
@@ -81,37 +81,37 @@ This security system had a downside, though, which is that it is annoying. Nobo
 Teixeira provided the Executive Assistant with a device that moved the Executive Assistant’s mouse while she was away from her computer. This device simulated user activity and prevented the Investment Bank’s online portal from detecting that the Executive Assistant was away from her computer, which would otherwise cause the system to lock and require the Executive Assistant to log in to access the Investment Bank’s files.
 So she could go to the bathroom without having to log back in, and also he could steal her bank’s information and insider trade on it. The trick with information security is that you have to make your security measures strong enough to defeat criminals, but not so strong that they annoy your employees into disabling them. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Covid and insider trading (2)
-    
-  
+
+
 
 A more straightforward sort of  Covid-driven insider trading:
 
@@ -128,11 +128,11 @@ Oh but if you traded Royal Caribbean options! If you bought a bunch of Delta cal
  (Not legal advice!) 	They might not catch you: “Check for Pfizer employees who traded Pfizer call options right before Pfizer announced its biggest news in years” is a no-brainer for the SEC; “check for Pfizer employees who traded Wynn Resorts call options right before Pfizer announced its biggest news in years” is not as obvious. (Not crime-detection-avoidance advice!)	If they did catch you and bring a case, I would be more impressed by your gumption, and have more fun writing about it. (Not … I mean, I don’t want to encourage you to do crimes. But conditional on you doing crimes, I do want to encourage you to do clever, interesting crimes.)
 
 
-  
-    
+
+
       SoftBank
-    
-  
+
+
 
 If you have a thesis that artificial intelligence will reshape the world and revolutionize every industry, how should you invest? Some options:
 	Invest in AI companies, companies that are working to develop AI technology. Presumably they’ll find a way to make money with it.	Invest in chip companies, betting that the rise of AI will lead to rising demand for powerful microchips. A sell-shovels-in-a-gold-rush strategy.	Invest in  pizza delivery startups, betting that the rise of AI will create new possibilities for increased efficiency of pizza delivery, and that your portfolio of pizza-delivery startups will capture the upside. I dunno, man.
@@ -160,11 +160,11 @@ Today, Satoshi Spain’s machines are handling AI workloads for startups, univer
 
 It would be very funny if, completely by accident, the big winners from the AI boom were crypto miners.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Well, look, if I were the newly hired chief executive officer of a social media company, and if the directors and shareholders who brought me in as CEO had told me that my main mission was to turn around the company’s precarious financial situation by improving our position with advertisers, and if I spent my  first few weeks reassuring advertisers and rebuilding relationships and talking up our site’s unique audience and powerful engagement, and then one day my head of software engineering came to me and said “hey boss, too many people were too engaged with too many posts, so I had to limit everyone’s ability to view posts on our site, just FYI,” I would … probably … fire ... him?
 I mean I suppose I might ask questions like “Is this because of some technological limitation on our system? Is it because you were monkeying with the code without understanding it? Is it because you   tried to stop people from reading the site without logging in,
@@ -193,66 +193,66 @@ Over the past 10 days, [Ultimate Fighting Championship President Dana] White sa
 
 People keep emailing to ask about, like, the fiduciary duties and securities-law disclosure issues here, but I’m gonna wait until they’re in the octagon before I worry about that stuff.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Leveraged-Loan Logjam Eases After Banks Unload Tens of Billions of Debt. Recent Deals Fail to Spark  Lackluster IPO Market. Goldman Is Looking for a Way Out of Its  Partnership With Apple. UBS aims to avoid using $10bn  Credit Suisse backstop amid backlash. Saudi Arabia and Russia announce new  oil production cuts. Fidelity Leads Flurry of   Bitcoin ETF Refilings to Answer SEC. US private equity faces extra scrutiny under new merger review rules. Tesla and BYD   Post Record Sales on Surge in Electric-Car Demand. Joe Biden’s  $400 Billion Man. Soros’ Foundations to   Cut 40% of Staff After Handover to Son. Greenhill boss set for $78mn payout in sale to Mizuho. “About 40% of the professional investors anticipate   AI will come up over burgers and beer on the US holiday; 30% of retail investors agree.” Taylor Swift Is Making More Than   $13 Million a Night on Her Tour.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I try to be thoughtful when I gender hypothetical characters in this newsletter, but 100% of the cases I am aware of seem to be  boyfriends (occasionally  husbands) looking at girlfriends’ (or wives’) computers.
 
 
   [2] In particular, in that case (Panuwat), the defendant worked at a company with an insider-trading policy that specifically forbade him from trading in competitors’ stock, and the SEC referenced that policy to argue that Panuwat was illegally misappropriating the information to do his trades. Here, the SEC  cites Pfizer’s Code of Conduct, which says “Securities laws and Pfizer policy prohibit us from disclosing or using any material non-public or ‘inside’ information that we acquire during our employment at Pfizer. We do not use material, non-public information to buy or sell the securities of Pfizer . . . before this information is known publicly.” This is not as clear a prohibition on shadow trading.
 
 
-  [3] Itself sort of a wild move to limit the site’s reach but whatever! 
+  [3] Itself sort of a wild move to limit the site’s reach but whatever!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -263,46 +263,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj1cjp.5im7/306ba546.gif" alt="" border="0" /></a>

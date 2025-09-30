@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="nymag.com/intelligencer/_components/clay-meta-description/instances/cll16j2e700040pa9irid7jgw@published" -->
 <meta name="description" content="Vivek Ramaswamy’s gratuitous attack on Juneteenth as a “useless” and “made-up” holiday as part of a proposal to abolish early voting shows that non-white Republicans can toss out racist red meat just like Donald Trump. ">
-<meta name="twitter:description" content="His nasty shots at Juneteenth as a “useless” and “made-up” holiday put him very much in the racist MAGA tradition."> 
+<meta name="twitter:description" content="His nasty shots at Juneteenth as a “useless” and “made-up” holiday put him very much in the racist MAGA tradition.">
 <meta property="og:description" content="His nasty shots at Juneteenth as a “useless” and “made-up” holiday put him very much in the racist MAGA tradition.">
 
 <!-- data-uri="nymag.com/intelligencer/_components/meta-image/instances/cll16j2e800050pa9zboegx84@published" -->
@@ -243,7 +243,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -323,14 +323,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -340,7 +340,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"intelligencer","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -445,11 +445,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -688,7 +688,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -948,7 +948,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -985,7 +985,7 @@ nymYTApiReady = true;
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </section>
@@ -1004,7 +1004,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/08/ramaswamy-shows-non-w
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-early-and-often inline"
                   href="//nymag.com/intelligencer/tags/early-and-often/">early and often</a>
         </div>
@@ -1021,7 +1021,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/08/ramaswamy-shows-non-w
             <div class="main-author hidden-expanded-bio"><span>By</span> <span class="author-name">
         <a href="//nymag.com/author/ed-kilgore/" rel="author" class="article-author"><span>Ed Kilgore</span></a>,
           <span class="author-bio">political columnist for Intelligencer since 2015</span>
-          
+
       </span></div>
 
 </span>
@@ -1082,7 +1082,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/08/ramaswamy-shows-non-w
     </div>
   </header>
   <section class="body">
-    
+
     <div id="intelligencer-zephr-anchor" class="article-content inline" data-editable="content">
       <div class="lede-image-wrapper inline horizontal">
           <div class="image-wrapper">
@@ -1374,7 +1374,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1401,8 +1401,8 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 </section>
-    <section class="secondary" data-editable="secondary" data-track-zone="secondary">  
-  
+    <section class="secondary" data-editable="secondary" data-track-zone="secondary">
+
 <div data-uri="nymag.com/intelligencer/_components/curated-feed/instances/homepage@published" data-editable="settings" class="curated-feed is-on-article-page">
 
 <div class="feed-header">THE FEED</div>
@@ -1429,7 +1429,7 @@ const ldJsonScript = document.createElement('script');
               </div>
             </div>
           </a>
-          
+
           <a href="https://nymag.com/intelligencer/article/charlie-kirk-assassination-political-violence-cycle.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
               <time class="timestamp" datetime="2025-09-13T04:01:50.938Z">9/13/2025</time>
@@ -1469,9 +1469,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
         <div class="most-popular-embed">
           <section data-uri="nymag.com/intelligencer/_components/most-popular/instances/curated-feed@published" class="most-popular_curated-feed" data-track-type="article-list">
@@ -1770,9 +1770,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/kamala-harris-accuses-bidens-team-of-sabotaging-her.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -1946,9 +1946,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/andrew-cuomo-throws-9-11-at-zohran-mamdani.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2064,10 +2064,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="nymag.com/intelligencer/_components/choreographer/instances/cl38nlk2i00223f6nrvf6t10w@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2086,7 +2086,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2676,7 +2676,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="nymag.com/intelligencer/_components/affiliate-links/instances/intelligencer@published" class="affiliate-links"
    data-amazon="nymagcom-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -2951,7 +2951,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

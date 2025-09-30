@@ -9,61 +9,61 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.One thing that JPMorgan Chase & Co., one of the world’s biggest banks, wa
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
-      Private credit
-    
-  
 
-One thing that JPMorgan Chase & Co., one of the world’s biggest banks, wants to do is lend money to big corporate and private equity clients. In many ways, JPMorgan seems well suited to doing this: As a giant bank with more than $3 trillion of assets, it employs a lot of people who have good relationships with corporate clients and private equity sponsors, a lot of people who advise on the mergers that create the need for these loans, and a lot of people who are good at making credit decisions. But JPMorgan’s ability to lend money to corporate clients is constrained by a simple problem: Where would it get the money? 
+
+      Private credit
+
+
+
+One thing that JPMorgan Chase & Co., one of the world’s biggest banks, wants to do is lend money to big corporate and private equity clients. In many ways, JPMorgan seems well suited to doing this: As a giant bank with more than $3 trillion of assets, it employs a lot of people who have good relationships with corporate clients and private equity sponsors, a lot of people who advise on the mergers that create the need for these loans, and a lot of people who are good at making credit decisions. But JPMorgan’s ability to lend money to corporate clients is constrained by a simple problem: Where would it get the money?
 Bloomberg’s Gillian Tan and Paula Seligson   report on JPMorgan’s quest to find a source of money that it can lend to clients:
 
 JPMorgan Chase & Co. is searching for a potential partner to grow its private credit business and accelerate its push into one of the hottest areas in leveraged finance, according to people with knowledge of the matter.
@@ -77,37 +77,37 @@ No, the correct answer is “let’s go partner with a pension fund or sovereign
 We have   talked a number of   times around   here about this basic idea, that private credit is increasingly substituting for bank loans because it has a better funding model. Pension funds, insurance companies, sovereign wealth funds and the alternative asset managers that do private credit investing for them have very stable long-term funding; US regional banks have flighty short-term deposits. Private credit is a form of “narrow banking,” a model in which banks invest deposits at the Fed and lending is done by specialized firms with long-term equity funding. The specialized firms are private-credit managers, and the long-term funding comes from pensions.
 But it is not just US regional banks with flighty deposits; it’s global megabanks with sticky deposits too. Even at JPMorgan, there is a push to make banking narrower.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AI CFA
-    
-  
+
+
 
 I think of artificial intelligence in finance as having two main approaches.   One is: You apply artificial intelligence to financial data. You get some neural nets, you get some data, you train the neural nets on the data, they spot predictive patterns in the data, those patterns generate trade ideas, you do them, you hope they make money.
 The other is: There are general-purpose large language models that can, in certain domains and with certain constraints, produce text that a smart human might have written. Why not use them to do the work that a human investment analyst would do? Train them on some corpus of language, including earnings calls and 10-Ks and finance textbooks and Warren Buffett’s annual letters but also, like, Twitter and Moby-Dick, and then type in the little box “recommend five stocks that will go up a lot, and give your reasons,” and see what they come up with. If it’s persuasive, buy the stocks. If it’s not, yell at the chatbot, in the little box, until it does a better job. Or type “explain what the Fed’s decision yesterday means for financial markets” and get a long nuanced report that informs your investment decisions. You make the investment decisions — not the chatbot — but the chatbot’s work helps support them. The chatbot is an analyst, one who is cheap and tireless and broadly informed about the world, but also one without a ton of domain-specific expertise, with weird and unpredictable gaps in its knowledge, and with a propensity for making stuff up. It’s not the most reliable analyst! You wouldn’t let it trade on its own! But it could, with careful supervision, help.
@@ -125,11 +125,11 @@ Okay. ChatGPT: Good at saying stuff, less good at factual domain-specific knowle
 “While multiple choice exams and essay questions remain excellent ways to assess learning and understanding in a secure proctored environment, the day-to-day in finance does not present itself only as a series of short, standalone questions,” Wiese said. “This is why to become a CFA charterholder, we also require 4,000 hours of qualifying work experience, a minimum of two references, a strong moral compass, and, coming soon, the completion of hands-on practical skills modules.”
 ChatGPT could never pass the strong moral compass requirement! Or at least it could never pass the hands-on practical skills modules. No hands.
 
-  
-    
+
+
       SBF Stuff
-    
-  
+
+
 
 “A verdict could come as early as today in the fraud trial of FTX founder Sam Bankman-Fried,” writes Dan Primack at Axios, and that’s harsh, man! I mean, yes. Closing arguments   were yesterday, the jury  will begin deliberations today, and is it possible that they will all walk into the room, look around, say “guilty” simultaneously, and then walk back out to announce their verdict? Sure. Is it possible that will happen, but with “not guilty”? Less likely!
 But this was a long trial with a lot of evidence and complicated facts, and it would at least be rude for the jury to come back after 15 minutes. The polite thing to do is to at least stay out overnight. On the other hand, the complicated facts are not all that important, and   the simple facts — customers deposited a lot of money with FTX, Bankman-Fried spent a lot of money on real estate and political donations, customers did not get their money back — are plausibly enough to get a conviction in 15 minutes. 
@@ -146,11 +146,11 @@ the defense painted Bankman-Fried as an awkward math nerd with bad fashion sense
 
 Seems less effective.
 
-  
-    
+
+
       Intended loss
-    
-  
+
+
 
 Possibly relevant to Bankman-Fried’s interests,   Bloomberg’s Sabrina Willmer reports on “a US appeals court ruling that’s generated waves across the country”:
 
@@ -165,11 +165,11 @@ The appeals court is the the US Court of Appeals for the Third Circuit, which do
 And then I suppose Bankman-Fried could go to the judge and say “look, sure, the prosecutors say that I intended to steal $8 billion from customers, and on the objective facts it seems like that is what I intended. But I failed! Somehow all of my stealing from customers ended up with them getting all their money back. So no loss, no theft, no harm, no foul. So just give me six months of house arrest.” 
 This will not work, for him, even a little bit. Still the law is interesting.
 
-  
-    
+
+
       Journalism
-    
-  
+
+
 
 We   talked yesterday about insider trading, journalism, and a startup hedge fund / investigative journalism outlet called Hunterbrook, which plans to report big investigative stories, trade on them, and then publish them. I want to mention a few bits of follow-up.
 First, I got an email from someone who works at a financial firm saying
@@ -193,11 +193,11 @@ One reason a story could publish without a trade is that the researcher uncovere
 
 If the story is too good, you can’t trade on it.
 
-  
-    
+
+
       Ozempic is [good][bad] for business
-    
-  
+
+
 
 I have   written a   few times around   here about what it would mean, for financial markets and for universal shareholders, if a drug company invented a universal demand suppressant, a drug that made people desire less. This was inspired by Ozempic and other GLP-1 weight-loss drugs, which seem to suppress demand for snacks and possibly some other things, and by lots of news stories and research notes about what Ozempic would do to the stock prices of snack companies. But of course I always conceded that Ozempic is not a universal demand suppressant. It would be interesting if someone invented such a drug, and it is a fun thought experiment to imagine that Ozempic is such a drug. Mostly it’s a weight-loss drug, though.
 I have fun imagining this stuff, and so do a lot of other people, so you can read a lot about the effects that Ozempic might have on snack makers (bad) or medical device companies (bad) or airlines (good: skinnier passengers use less fuel). But it is possible that these stories all really mean “it is fun to think about this” rather than “this is a real effect that will matter to these companies’ bottom line.” Anyway the Wall Street Journal makes fun of this whole idea:
@@ -208,11 +208,11 @@ The reaction on Wall Street has been extreme, creating opportunities for cooler 
 
 Ehh still fun to think about.
 
-  
-    
+
+
       SafeMoon
-    
-  
+
+
 
 Absolutely not,  come on:
 
@@ -231,15 +231,15 @@ Anyway SafeMoon’s trick was that if you sold your SafeMoon tokens, the SafeMo
 [T]he reflect mechanism encourages holders to hang onto their tokens to garner higher kick-backs which are based upon a percentages [sic] carried out and dependent upon the total tokens held by the owner. In theory, with the manual burn function … even a small holder at the beginning could potentially walk away with big money at the end of the token’s lifespan.
 The other half of the 10% tax was allegedly stolen by the developers, which is why they are in jail now.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US   Slows Pace of Increase in Quarterly Long-Term Debt Sales. Ex-  Sculptor Executives Sue to Stop Merger Over Wiped-Out Pay. Trading Startup Sues Regulator in Effort to Launch  Election-Betting Market. Will Goldman Sachs’s big bet on  wealth management work? The Way You Pay to  Buy or Sell a Home Is About to Change. Disney to Pay Comcast’s NBCUniversal at Least $8.61 Billion for Its  Stake in Hulu. Uber, Lyft to Pay New York $328 Million Over  Wage-Theft Claims. Donald Trump Jr  distances himself from Trump Organization’s financial statements. Billionaire   Targeted by Hindenburg Emerges Richer and Unbowed. Panama Canal to Halve Daily Sailings This Winter  Due to Drought. Jamie Dimon  Warns Texas to Stop Pushing Anti-Business Bond Laws. New Swiss Rules Set to Spur $20 Billion Overhaul in   Junior Bonds. Ex-Goldman banker sentenced to 3 years for insider trading with  squash partner. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I took the CFA Level I exam ages ago, and the one thing I remember from it is that if you use “CFA” as a noun the CFA Institute will send a team of assassins after you. So “CFA charterholder.”
 
 
@@ -261,48 +261,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Of course the reference   is to this.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -313,46 +313,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjsby6.5je6/0eb7b71a.gif" alt="" border="0" /></a>

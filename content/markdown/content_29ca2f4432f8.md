@@ -147,7 +147,7 @@ window.setTimeout(function() {
 </form>
 </div>
 </div>
-<div id="branding">       
+<div id="branding">
 <a href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/"><img id="NYTLogo" alt="New York Times" src="http://web.archive.org/web/20130315155404im_/http://graphics8.nytimes.com/images/misc/nytlogo110x16.gif"></a>
 </div>
 <h2>
@@ -210,10 +210,10 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h6 class="kicker">Opinion</h6>
 <h1 itemprop="headline" class="articleHeadline"><nyt_headline version="1.0" type=" ">The Health Benefits That Cut Your Pay</nyt_headline></h1><nyt_byline>
-<h6 class="byline">By 
+<h6 class="byline">By
 <span itemprop="author creator" itemscope itemtype="http://schema.org/Person"><span itemprop="name">DAVID GOLDHILL</span></span></h6>
 </nyt_byline>
 <h6 class="dateline">Published: February 16, 2013    </h6>
@@ -232,11 +232,11 @@ window.setTimeout(function() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p itemprop="articleBody">
-NOT long ago, a 23-year-old woman joined my company as an assistant in the advertising sales department at a starting salary of $35,000. Smart, ambitious and poised, she should have a promising future. Unfortunately, her earnings prospects are threatened. Like many Americans, she&rsquo;s unaware of how much of her compensation is being eaten up by health care costs, and how much this share will grow as long as the increase in health costs exceeds growth in gross domestic product. That&rsquo;s just math.        </p> 
+NOT long ago, a 23-year-old woman joined my company as an assistant in the advertising sales department at a starting salary of $35,000. Smart, ambitious and poised, she should have a promising future. Unfortunately, her earnings prospects are threatened. Like many Americans, she&rsquo;s unaware of how much of her compensation is being eaten up by health care costs, and how much this share will grow as long as the increase in health costs exceeds growth in gross domestic product. That&rsquo;s just math.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-   
+
+
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20130315155404/http://www.nytimes.com/imagepages/2013/02/17/sunday-review/17INSURANCE.html','17INSURANCE_html','width=676,height=630,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -254,8 +254,8 @@ NOT long ago, a 23-year-old woman joined my company as an assistant in the adver
 <p>
 </p>
 </div>
-  
-   
+
+
 </div>
 <div class="articleBody">
  <p itemprop="articleBody">
@@ -277,7 +277,7 @@ In the world of health care analysis, there are basically two schools of thought
 </div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -291,7 +291,7 @@ In the world of health care analysis, there are basically two schools of thought
 
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal articleShareToolsBottom" data-shares="facebook|,twitter|,google|,save,email,showall|Share" data-title="The Health Benefits That Cut Your Pay" data-url="http://web.archive.org/web/20130315155404oe_/http://www.nytimes.com/2013/02/17/opinion/sunday/the-health-benefits-that-cut-your-pay.html" data-description="Many Americans might not understand that the largest effect of our health care system is to reduce the amount of money they actually take home."></div>
 <meta name="emailThisHash" content="UGhqBi3ojm6OHizFcZOBcQ">
 </div>
@@ -310,10 +310,10 @@ Delivery" align="middle" border="0"/>Get 50% Off The New York Times &amp; Free A
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra">
 <div class="column lastColumn">
@@ -431,7 +431,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
 
 <div class="bigAd" id="Box1">
 <!-- ADXINFO classification="Marketing_Module" campaign="nyt2013_module_sellsthemoon_hp_rps_db_th" priority="1000" width="336" height="280" --><div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=c26c33f1/c4c33213&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://www.nytimes.com/2013/03/11/opinion/the-man-who-sells-the-moon.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-PH%26WT.mc_ev=click%26WT.mc_c=211377" target="_blank"><img src="http://web.archive.org/web/20130315155404im_/http://graphics8.nytimes.com/ads/marketing/mm13/video/1363284000526_us.jpg" alt="" border="0" height="154" width="334"></a> 
+  <a href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=c26c33f1/c4c33213&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://www.nytimes.com/2013/03/11/opinion/the-man-who-sells-the-moon.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-PH%26WT.mc_ev=click%26WT.mc_c=211377" target="_blank"><img src="http://web.archive.org/web/20130315155404im_/http://graphics8.nytimes.com/ads/marketing/mm13/video/1363284000526_us.jpg" alt="" border="0" height="154" width="334"></a>
   <div style="padding:7px 9px 0;background:#fff">
     <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=c26c33f1/c4c33213&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://www.nytimes.com/2013/03/11/opinion/the-man-who-sells-the-moon.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-HDR%26WT.mc_ev=click%26WT.mc_c=211377">"The Man Who Sells the Moon"</a></h2>
     <p style="margin:0 0 3px; padding:0;font-size: 11px;">
@@ -444,15 +444,15 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
       <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=c26c33f1/c4c33213&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://www.nytimes.com/video/2013/03/13/world/europe/100000002116132/catholics-speak-filling-the-pews.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-L2%26WT.mc_ev=click%26WT.mc_c=211377" style="color: #004276">Catholics speak:  filling the pews</a></li>
     </ul>
   </div>
-  
-  
+
+
   <div style="padding:5px 9px; float:left; width:316px; background:#fff">
     <a style="float:left" href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=dcba2243/8feb2748&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-LOGO%26WT.mc_ev=click%26WT.mc_c=211377" target="_blank"><img src="http://web.archive.org/web/20130315155404im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
-    
+
     <a style="float:right" href="http://web.archive.org/web/20130315155404/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/opinion&amp;pos=Box1&amp;sn2=8af52bb8/7c793f58&amp;sn1=c26c33f1/c4c33213&amp;camp=nyt2013_module_sellsthemoon_hp_rps_db_th&amp;ad=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313&amp;goto=http://www.nytimes.com/video/index.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M296B-ROS-0313-URL%26WT.mc_ev=click%26WT.mc_c=211377" target="_blank"><img src="http://web.archive.org/web/20130315155404im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
-    
+
   </div>
-  
+
   <br clear="all">
 </div>
 </div>
@@ -491,8 +491,8 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -622,7 +622,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -655,8 +655,8 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20130315155404im_/http://up.nytimes.com/?d=0/9/&amp;t=6&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2013%2f02%2f17%2fopinion%2fsunday%2fthe%2dhealth%2dbenefits%2dthat%2dcut%2dyour%2dpay%2ehtml%3fhp%3d">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

@@ -42,7 +42,7 @@ async def register_worker(registration: WorkerRegistration):
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         # Create workers table if not exists
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS workers (
@@ -57,11 +57,11 @@ async def register_worker(registration: WorkerRegistration):
                 status TEXT DEFAULT 'active'
             )
         """)
-        
+
         # Insert or update worker
         cursor.execute("""
-            INSERT OR REPLACE INTO workers 
-            (worker_id, capabilities, platform, whisper_available, ytdlp_available, 
+            INSERT OR REPLACE INTO workers
+            (worker_id, capabilities, platform, whisper_available, ytdlp_available,
              metadata, registered_at, last_seen, status)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'active')
         """, (
@@ -74,12 +74,12 @@ async def register_worker(registration: WorkerRegistration):
             datetime.utcnow().isoformat(),
             datetime.utcnow().isoformat()
         ))
-        
+
         conn.commit()
         conn.close()
-        
+
         return {"success": True, "message": f"Worker {registration.worker_id} registered"}
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Worker registration failed: {str(e)}")
 
@@ -90,12 +90,12 @@ async def get_jobs(worker_id: str, capabilities: str = ""):
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         # Update worker last_seen
         cursor.execute("""
             UPDATE workers SET last_seen = ? WHERE worker_id = ?
         """, (datetime.utcnow().isoformat(), worker_id))
-        
+
         # Create jobs table if not exists
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS worker_jobs (
@@ -111,15 +111,15 @@ async def get_jobs(worker_id: str, capabilities: str = ""):
                 result TEXT
             )
         """)
-        
+
         # Get pending jobs that match worker capabilities
         worker_caps = [cap.strip() for cap in capabilities.split(',') if cap.strip()]
-        
+
         if worker_caps:
             placeholders = ','.join(['?' for _ in worker_caps])
             cursor.execute(f"""
                 SELECT id, type, data, priority, created_at
-                FROM worker_jobs 
+                FROM worker_jobs
                 WHERE status = 'pending' AND type IN ({placeholders})
                 ORDER BY priority DESC, created_at ASC
                 LIMIT 5
@@ -127,26 +127,26 @@ async def get_jobs(worker_id: str, capabilities: str = ""):
         else:
             cursor.execute("""
                 SELECT id, type, data, priority, created_at
-                FROM worker_jobs 
+                FROM worker_jobs
                 WHERE status = 'pending'
                 ORDER BY priority DESC, created_at ASC
                 LIMIT 5
             """)
-        
+
         job_rows = cursor.fetchall()
-        
+
         # Assign jobs to worker
         jobs = []
         for job_row in job_rows:
             job_id, job_type, data_json, priority, created_at = job_row
-            
+
             # Mark as assigned
             cursor.execute("""
-                UPDATE worker_jobs 
+                UPDATE worker_jobs
                 SET status = 'assigned', assigned_worker = ?, assigned_at = ?
                 WHERE id = ?
             """, (worker_id, datetime.utcnow().isoformat(), job_id))
-            
+
             jobs.append({
                 'id': job_id,
                 'type': job_type,
@@ -154,12 +154,12 @@ async def get_jobs(worker_id: str, capabilities: str = ""):
                 'priority': priority,
                 'created_at': created_at
             })
-        
+
         conn.commit()
         conn.close()
-        
+
         return {"jobs": jobs}
-            
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get jobs: {str(e)}")
 
@@ -170,10 +170,10 @@ async def submit_job_result(result: JobResult):
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         # Update job status
         cursor.execute("""
-            UPDATE worker_jobs 
+            UPDATE worker_jobs
             SET status = ?, result = ?, completed_at = ?
             WHERE id = ?
         """, (
@@ -182,7 +182,7 @@ async def submit_job_result(result: JobResult):
             datetime.utcnow().isoformat(),
             result.job_id
         ))
-        
+
         # If completed successfully, process the transcript
         if result.status == 'completed' and 'transcript' in result.result:
             transcript_data = {
@@ -199,10 +199,10 @@ async def submit_job_result(result: JobResult):
                 'created_at': datetime.utcnow().isoformat(),
                 'processed': False
             }
-            
+
             # Store transcript for Atlas processing
             transcript_id = db.store_transcription(transcript_data)
-            
+
             # Add to content pipeline
             content_id = db.store_content(
                 content=transcript_data['transcript'],
@@ -211,12 +211,12 @@ async def submit_job_result(result: JobResult):
                 content_type="transcription",
                 metadata=transcript_data
             )
-        
+
         conn.commit()
         conn.close()
-        
+
         return {"success": True, "message": "Job result received"}
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to process job result: {str(e)}")
 
@@ -225,11 +225,11 @@ async def create_job(job: TranscriptionJob):
     """Create a new transcription job for workers"""
     try:
         import uuid
-        
+
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         # Create jobs table if not exists
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS worker_jobs (
@@ -245,9 +245,9 @@ async def create_job(job: TranscriptionJob):
                 result TEXT
             )
         """)
-        
+
         job_id = str(uuid.uuid4())
-        
+
         cursor.execute("""
             INSERT INTO worker_jobs (id, type, data, priority, created_at)
             VALUES (?, ?, ?, ?, ?)
@@ -258,12 +258,12 @@ async def create_job(job: TranscriptionJob):
             job.priority,
             datetime.utcnow().isoformat()
         ))
-        
+
         conn.commit()
         conn.close()
-        
+
         return {"success": True, "job_id": job_id, "message": "Job created"}
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to create job: {str(e)}")
 
@@ -274,24 +274,24 @@ async def worker_status():
         db = SimpleDatabase()
         conn = db.get_connection()
         cursor = conn.cursor()
-        
+
         # Get worker counts
         cursor.execute("SELECT COUNT(*) FROM workers WHERE status = 'active'")
         result = cursor.fetchone()
         active_workers = result[0] if result else 0
-        
+
         cursor.execute("SELECT COUNT(*) FROM workers")
         result = cursor.fetchone()
         total_workers = result[0] if result else 0
-        
+
         # Get job counts
         cursor.execute("SELECT status, COUNT(*) FROM worker_jobs GROUP BY status")
         job_counts = dict(cursor.fetchall())
-        
+
         # Get recent workers
         cursor.execute("""
-            SELECT worker_id, platform, capabilities, last_seen 
-            FROM workers 
+            SELECT worker_id, platform, capabilities, last_seen
+            FROM workers
             WHERE status = 'active'
             ORDER BY last_seen DESC
             LIMIT 10
@@ -304,9 +304,9 @@ async def worker_status():
                 'capabilities': json.loads(row[2]),
                 'last_seen': row[3]
             })
-        
+
         conn.close()
-        
+
         return {
             'workers': {
                 'active': active_workers,
@@ -321,6 +321,6 @@ async def worker_status():
                 'total': sum(job_counts.values())
             }
         }
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get worker status: {str(e)}")

@@ -94,11 +94,11 @@ It’s interesting, then, to observe how differently Swift and Disney are percei
 
 That limitation, though, implies a lack of scale, which means that Swift is as big as she will ever be; that’s ok, because it’s bigger than anyone has ever has been. Disney, meanwhile, may have its own physical experiences, made valuable by their scarcity, but it will never be as valuable as owning distribution. The best thing Iger can do now is move the company on ( https://stratechery.com/2023/bob-iger-on-cnbc-the-end-of-linear-tv-espn-and-strategic-partnerships-and-apple/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2JvYi1pZ2VyLW9uLWNuYmMtdGhlLWVuZC1vZi1saW5lYXItdHYtZXNwbi1hbmQtc3RyYXRlZ2ljLXBhcnRuZXJzaGlwcy1hbmQtYXBwbGUvIl19LCJleHAiOjE2OTQ3MDEwNDMsImlhdCI6MTY5MjEwOTA0MywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.b9DGdsrNUh3j7uW8t5fxoyGVQ-oisWc5-hZ63RA5FH6pFpjWjiY_ReZlhOl1KqOgnz4ubeiBZxUNEizZ3tXs-asSsFXPrfDEOoK3nnjnmugdPGqQF9L9NLRMsojWt4sDVKJW_JnOxWxkVs2LmoIkebdTWVHQruSH_YnXcJDZD8euBsdLhv6SE3X-XSP8Kb7NCi94AcOHaDgDdKlMPlUE0Uvl6V9HJgdBj11clseaGxu4pdWVn3KDYYmpRwI4T2FliCueSCThaXLUwgd04sYpxQHggaLxcfXmq0zfe9p_KwwRM0QUcfpUe9x3yjhXeszIVIG1w_pnw2eySR7VwQ4Rwg ) from the heights it once reached; maybe someday Disney and its investors will forget that those outsized profits ever existed ( https://www.youtube.com/watch?v=p1cEvNn88jM ).
 
-* 
+*
 
 Fear Of Missing Out ↩︎ ( #rf1-11409 )
 
-* 
+*
 
 It is worth noting that Swift’s fans still bought over 1 million physical copies of her most recent album ( https://www.nytimes.com/2022/10/31/arts/music/taylor-swift-midnights-billboard-chart.html ). ↩︎ ( #rf2-11409 )
 

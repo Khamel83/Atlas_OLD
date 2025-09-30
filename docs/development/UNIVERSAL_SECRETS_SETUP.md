@@ -2,7 +2,7 @@
 
 ## 🎯 The Solution: Secrets Outside Dev Folder
 
-**Problem**: API keys in dev folders can be accidentally committed  
+**Problem**: API keys in dev folders can be accidentally committed
 **Solution**: Store ALL secrets in `~/.secrets/` (outside any dev work)
 
 ---
@@ -39,7 +39,7 @@ export MODEL="google/gemini-2.0-flash-001"
 # Optional: Site credentials (update when ready)
 export NYTIMES_USERNAME="your_nytimes_email_here"
 export NYTIMES_PASSWORD="your_nytimes_password_here"
-export WSJ_USERNAME="your_wsj_username_here" 
+export WSJ_USERNAME="your_wsj_username_here"
 export WSJ_PASSWORD="your_wsj_password_here"
 ```
 
@@ -167,7 +167,7 @@ git commit -m "test commit"
 
 ## 📝 Summary in Simplest Language
 
-**The Rule**: 
+**The Rule**:
 - **Real secrets** = `~/.secrets/` (home folder, safe)
 - **Fake templates** = `~/dev/project/.env` (dev folder, gets committed)
 - **Load script** = `source load_secrets.sh` (connects them)
@@ -179,7 +179,7 @@ git commit -m "test commit"
 
 **Daily use**:
 1. `cd ~/dev/project`
-2. `source load_secrets.sh`  
+2. `source load_secrets.sh`
 3. Work normally
 
 **For new projects**:

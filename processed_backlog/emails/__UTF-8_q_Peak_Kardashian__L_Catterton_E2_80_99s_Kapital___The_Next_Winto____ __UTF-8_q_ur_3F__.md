@@ -38,7 +38,7 @@ Anyway, I got these ( https://go.shopmy.us/p-11802363?utm_campaign=Line+Sheet+-+
 Mentioned in this issue: Hedi Slimane, Sara Moonves, Sweet Baby Jamie, Nicolas Ghesquière, Bryan Goldberg, Anna
 Wintour, Jean Paul Gaultier, Puig, Kapital, L Catterton, David Sedaris, Kylie Jenner, Khy, Skky, Kim Kardashian, Jay Sammons, the Gredes, the Emilys (Sundberg and Oberg), Emma Stone’s pixie cut, Golden Globes gowns, Louis Vuitton, Kemo Sabe, Ralph Lauren, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -144,7 +144,7 @@ Juszczyk have enlisted both the NFL and Michael Rubin’s Fanatics, which produc
 With 1.2 million followers on Instagram, Juszczyk already fancies herself a fashion designer—you can hypothetically order ( https://www.designsbykristin.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) one of her custom jackets, on which the designs for
 Off Season are based. Her profile—only a little media trained, not the right fake tan, and a provincial worldview that reads as authentic everygirl—is exactly what my entrepreneur friend predicted would work best in a post-Kardashian era. The Gredes’ business is called Popular Culture, after all. 
 
- 
+
 
 Your Feedback…
 ----------------
@@ -171,7 +171,7 @@ When too trendy shoes are too good to relinquish: “I can’t quit Salomons, un
 On CBK as a P.R.: “I listened to your pod with Sunita Kumar Nair. It was a thoughtful interview. Thank you! I was styling in L.A. when Carolyn
 Bessette was at CK. She was my contact for pulling clothes for my shoots. She was really lovely and kind to a stylist working for smaller publications in L.A. Many P.R. reps were not. She always came through for me and I enjoyed talking to her. She made my job easier and made my stories look good.” —An entrepreneur
 
- 
+
 
 What I’m Reading… and Listening To…
 -----------------------------------------
@@ -199,7 +199,7 @@ I cannot believe I’ve never been to Kemo Sabe.
 
 Emily Sundberg on Emily Oberg’s sexual wellness venture is worth reading. (I remember having lunch with Emily #2 and her mentioning it; she’s smart.) [Feed Me ( https://www.readfeedme.com/p/are-more-brands-going-to-join-onlyfans?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… let’s
 give it up ( https://www.nytimes.com/2025/01/04/style/ralph-lauren-presidential-medal-freedom.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for Ralph’s herringbone tweed sport coat. (Everyone should own one.) And Anna Wintour ( https://www.theguardian.com/us-news/2025/jan/04/bono-anna-wintour-jane-goodall-receive-biden-presidential-medals-of-freedom?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), always. 
@@ -255,6 +255,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUPaJa0nJqob4TSTvWQJ0=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

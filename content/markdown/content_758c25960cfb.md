@@ -245,7 +245,7 @@ function onbenjiload() {
 </div>
 
 </header>
-		
+
 	<div class="container__access-control">
 		<div class="content">
 			<div class="ad-unit">
@@ -267,7 +267,7 @@ function onbenjiload() {
 				Capsule&#8217;s new app combines AI and human editors to curate the news			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T08:20:20-08:00">
 		Dec 01, 2023	</time>
@@ -301,7 +301,7 @@ function onbenjiload() {
 				8 authors and their 8 gift book picks for this holiday season			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T08:05:15-08:00">
 		Dec 01, 2023	</time>
@@ -335,7 +335,7 @@ function onbenjiload() {
 				This small French company wants to build the open alternative to Kindle and Kobo			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-30T08:05:31-08:00">
 		Nov 30, 2023	</time>
@@ -369,7 +369,7 @@ function onbenjiload() {
 				Something&#8217;s up with Spotify Wrapped and Burlington, VT			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-29T11:23:29-08:00">
 		Nov 29, 2023	</time>
@@ -403,7 +403,7 @@ function onbenjiload() {
 				Spotify Wrapped 2023 adds an AI DJ and Blend to the annual personalized insights			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-29T05:00:51-08:00">
 		Nov 29, 2023	</time>
@@ -437,7 +437,7 @@ function onbenjiload() {
 				Google search ads spotted in compromising placements			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-28T12:00:58-08:00">
 		Nov 28, 2023	</time>
@@ -471,7 +471,7 @@ function onbenjiload() {
 				Apple Music Replay is here, and it&#8217;s still no Spotify Wrapped			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-28T09:17:24-08:00">
 		Nov 28, 2023	</time>
@@ -505,7 +505,7 @@ function onbenjiload() {
 				Google&#8217;s new tools help discussion forums and social media platforms rank higher in search results			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-27T13:09:47-08:00">
 		Nov 27, 2023	</time>
@@ -539,7 +539,7 @@ function onbenjiload() {
 				10 subscription boxes we recommend gifting this holiday season			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-27T08:00:55-08:00">
 		Nov 27, 2023	</time>
@@ -573,7 +573,7 @@ function onbenjiload() {
 				Mozaic raises $20 million to build payment-splitting solution for creators			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-27T05:59:05-08:00">
 		Nov 27, 2023	</time>
@@ -607,7 +607,7 @@ function onbenjiload() {
 				Tech CEO Austin Russell&#8217;s bid to buy Forbes fails			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-21T10:54:07-08:00">
 		Nov 21, 2023	</time>
@@ -641,7 +641,7 @@ function onbenjiload() {
 				Spotify says its upcoming royalty model changes will generate $1B for artists over five years			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-21T10:21:17-08:00">
 		Nov 21, 2023	</time>
@@ -675,7 +675,7 @@ function onbenjiload() {
 				Disney&#8217;s Hotstar draws 59 million concurrent viewers, setting new record			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-19T01:07:09-08:00">
 		Nov 19, 2023	</time>
@@ -709,7 +709,7 @@ function onbenjiload() {
 				Wattpad Premium subscribers now have access to 5 free monthly Wattpad Originals			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-17T06:00:37-08:00">
 		Nov 17, 2023	</time>
@@ -743,7 +743,7 @@ function onbenjiload() {
 				Meta brings us a step closer to AI-generated movies			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T11:37:02-08:00">
 		Nov 16, 2023	</time>
@@ -777,7 +777,7 @@ function onbenjiload() {
 				DeepMind and YouTube release Lyria, a gen-AI model for music, and Dream Track to build AI tunes			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-16T04:47:06-08:00">
 		Nov 16, 2023	</time>
@@ -811,7 +811,7 @@ function onbenjiload() {
 				Microsoft launches a deepfakes creator at Ignite 2023 event			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-15T15:30:19-08:00">
 		Nov 15, 2023	</time>
@@ -845,7 +845,7 @@ function onbenjiload() {
 				Microsoft extends generative AI copyright protections to more customers			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-15T08:00:16-08:00">
 		Nov 15, 2023	</time>
@@ -879,7 +879,7 @@ function onbenjiload() {
 				Disney&#8217;s Hotstar tops 50 million concurrent viewers in India-New Zealand cricket clash			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-15T03:37:53-08:00">
 		Nov 15, 2023	</time>
@@ -913,7 +913,7 @@ function onbenjiload() {
 				YouTube adapts its policies for the coming surge of AI videos			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-11-14T06:49:13-08:00">
 		Nov 14, 2023	</time>
@@ -949,7 +949,7 @@ function onbenjiload() {
 	</div><!-- end React-root duplication div -->
 </div><!--end #root-->
 	<script type="application/javascript">
-		if ( ! window.isSSR ) { 
+		if ( ! window.isSSR ) {
 			(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'428726','qstrings': { 'et': 'custom','ea': 'page view','product_id': window.location.pathname,'site': 'techcrunch' },}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","http://web.archive.org/web/20231201233153/https://s.yimg.com/wi/ytc.js","dotq");
 		}
 	</script>

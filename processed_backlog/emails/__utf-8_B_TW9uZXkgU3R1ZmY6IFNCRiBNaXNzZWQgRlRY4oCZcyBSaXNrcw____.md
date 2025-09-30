@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.It is good, for journalists, to ask Sam Bankman-Fried where all the money
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Oh SBF
-    
-  
+
+
 
 It is good, for journalists, to ask Sam Bankman-Fried where all the money went, but he is not going to tell you. The possibilities are:
 	He knows where the money went, and he has huge incentives to lie about it, or	He doesn’t know where the money went, as he sort of keeps saying, and he will just pass along his confusion to you.
@@ -124,89 +124,89 @@ A minimal but still pretty bad form of fraud at FTX would be:
 
 The story of FTX that we have heard over the last month — from Bankman-Fried, from Ray, from everyone else — is that it was a bunch of disorganized children who had no idea what they were doing or where the money was. The story of FTX that we heard — from Bankman-Fried and everyone else — before this month was that FTX were the adults in the room, the hyper-competent, risk-focused, regulation-friendly, sophisticated crypto exchange. If you go around telling that story it really has to be true, or true-ish, or arguably true! If now you go around being like “ah, accounting, risk management, we never really understood those things,” that is not a good defense!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tether lending
-    
-  
+
+
 
 I don’t know, man! Here’s a story:
 	There is a crypto shadow bank. People hand over their money or crypto to the shadow bank, which they trust for whatever reason.	The shadow bank takes the customers’ money or crypto and lends it to other crypto trading firms.	“Don’t worry,” the shadow bank says, “we only lend customers’ money to carefully vetted counterparties, and all of our loans are highly overcollateralized by good liquid collateral.”	“We have very sophisticated risk systems,” it adds, “that make it virtually impossible for us to lose any money on these loans.”	“What? No,” it adds, “you can’t see the list of counterparties or a breakdown of the collateral or the loan-to-value ratios or the terms of the loans, that is very secret business information.”	Crypto prices drop, it turns out that the shadow bank’s loans were highly concentrated and not all that well collateralized, and it freezes customer money and goes bankrupt.
@@ -236,144 +236,144 @@ Maybe this is fine, no problem, just margin lending.
   [4]
  But if your concern is “Tethers are printed out of thin air in order to allow people to buy crypto without putting any actual dollars in,” then this might make you nervous. 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
+
+
 
 Florida Will Pull $2 Billion of Assets From BlackRock   Over ESG. Hedge Funds Millennium, Brevan Howard Move to Fine  New Hires That Back Out. Big traders flock to US equity options with fleeting lifespans. Credit Suisse chair says outflows have reversed since ‘ social media storm.’ EU Asks Members to Set  Russia Oil-Price Cap at $60. US Banks Flock to ‘Last Resort’ Funding Option as   Deposits Wane. Crypto Lenders’ Woes Worsen as   Bitcoin Miners Struggle to Repay Debt.   TSMC Plans to Make More Advanced Chips in US at Urging of Apple. Swiss Say Its $8 Billion of   Frozen Russian Assets Is ‘Only a Fraction’ of Total. Musk’s Neuralink Hopes to   Implant Computer in Human Brain in Six Months. Elon Musk Warned by EU Official to Keep   Putin Propaganda Off Twitter. Elon Musk Is the   ‘Bravest’ Person on Earth, Netflix CEO Says. San Francisco to allow police 'killer robots.' Physicists Create ‘the Smallest, Crummiest Wormhole You Can Imagine.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] FTX US, meanwhile, was a separate entity, a regulated US crypto exchange for cash traders that kept careful custody of customer assets and is currently solvent and could easily pay out customers. I mean, the previous sentence is Bankman-Fried’s claim, which he made to Sorkin and elsewhere. FTX US is currently in bankruptcy and very much not paying out customers! This is, let’s say, a factual dispute between Bankman-Fried and FTX’s current management. If you are an FTX US customer you will not be inclined to take Bankman-Fried’s word for it.
 
 
   [2] Part of that is due to the accounting boo-boo. Bankman-Fried, in the Sorkin interview: “When you scroll back to 2018 — or 2019, I guess — FTX did not have bank accounts. It didn’t have any bank accounts globally. We were trying to get them. It took us a while — it took us a few years. There were customers who wanted to wire money to FTX. And so I think in the meantime, some of them were wiring money to Alameda Research to get credited on FTX. And I think that was a substantial sum. And I think that the FTX’s internal accounting did correctly, effectively try to debit Alameda for those funds. But it didn’t happen in the primary account. And so it didn’t happen — it created a discrepancy between the display of the account and what was really going on there. I’m still looking into exactly how that worked mechanically, but that did make that position size substantially larger than I thought and, I think, than what you would’ve gotten from both the normal avenues.” I do not know what to say about the accounting boo-boo except that, like, “we asked customers to send money to our hedge fund because our exchange didn’t have a bank account, and then we lost track of it” is not *obviously* better than just saying “oh that money, we stole it.”
 
 
-  [3] I mean, it’s the main thing in Bankman-Fried’s version of the story; if the story turns out to be “ehh we just stole all the money” then the mechanics of the liquidation engine aren’t that important. 
+  [3] I mean, it’s the main thing in Bankman-Fried’s version of the story; if the story turns out to be “ehh we just stole all the money” then the mechanics of the liquidation engine aren’t that important.
 
 
   [4] At a very high level of generality, is this   Sam Bankman-Fried’s box? “You can even finance this, right? You put X token in a borrow lending protocol and borrow dollars with it. If you think it's worth like less than two thirds of that, you could even just like put some in there, take the dollars out. Never, you know, give the dollars back. You just get liquidated eventually. And it is sort of like real monetizable stuff in some senses.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

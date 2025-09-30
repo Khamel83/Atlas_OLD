@@ -253,7 +253,7 @@ Trends can be ephemeral, and political coalitions can change unpredictably. Yet 
 
 This next redistricting battle — starting in November, as Democrats try to win the races that will let them redraw the next decade’s maps — might provide a path toward staving off that crisis. To do that, though, the party has to win.
 
-See More: 
+See More:
 
 * [Explainers](/web/20241116175204/https://www.vox.com/explainers)
 * [Features](/web/20241116175204/https://www.vox.com/features)

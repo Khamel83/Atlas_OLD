@@ -52,7 +52,7 @@ But he has backed the process anyway, as have virtually all of his colleagues.
 
 When Donald Trump was elected president, there was much talk about the ways in which he represented something abnormal and unnerving in American politics. But the congressional GOP’s health care process has been stark evidence that the rot goes far deeper than the White House. McConnell may present more conventionally than Trump does, but he is breaking norms, corroding institutions, and ignoring the consequences of his policies and actions with the same reckless abandon, and almost every Senate Republican is going along with it. Something is deeply wrong with the Republican Party right now, and the country is going to pay the price.
 
-See More: 
+See More:
 
 * [Health Care](/web/20241002193827/https://www.vox.com/health-care)
 * [Obamacare](/web/20241002193827/https://www.vox.com/obamacare)

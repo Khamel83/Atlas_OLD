@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The dumbest thing in economics, the US government’s debt ceiling, is clattering into relevance again. Basically the US Department of the Tre
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Mint the premium bonds!
-    
-  
+
+
 
 The dumbest thing in economics, the US government’s debt ceiling, is clattering into relevance again. Basically the US Department of the Treasury has to pay the US government’s bills, and to do that it issues debt, and every time it issues new debt it adds a little to the total amount of debt outstanding, and eventually the debt outstanding reaches some arbitrary number called the “debt ceiling.” And then Treasury can’t issue any more debt, unless Congress raises the debt ceiling. Which it can easily do — it’s just an arbitrary number! — but Republicans in Congress keep threatening not to, and if that happens then the government can’t pay its bills and defaults on its obligations. Here is a recent speech from Assistant Secretary of the Treasury Joshua Frost with more detail on why the debt ceiling is dumb and why Congress should raise it.
 But there is a real risk that Congress won’t, so today Bloomberg Opinion contributor Matt Yglesias has a Substack column arguing that Treasury should solve the problem of the debt ceiling using premium bonds. I think this is correct, I have made this  argument a few times before, and Yglesias clearly explains why the debt ceiling is very dumb and why Treasury should, if need be, use gimmicks to solve it. And as gimmicks go, this one is fine. But his bond math is a little odd so I wanted to walk through a simplified version here.
@@ -97,89 +97,89 @@ Anyway as a matter of financial engineering I find this fun to think about. As a
   [7]
  so it’s worth being ready to do it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Give me nonprofit status, but not yet
-    
-  
+
+
 
 The aspirations of a person starting a business probably go something like this:
 	In the beginning, the owner makes negative money: She has to put her own money into starting the business, paying its expenses, etc., and at first it doesn’t make any revenue.	The business starts bringing in money, and it costs her less to run it.	The business starts fully covering its costs.	The business starts more than covering its costs and paying out some profits to its owner,
@@ -197,20 +197,20 @@ Investors say this compromise, if it goes through, would make the deal more attr
 Absolutely magnificent stuff, taking billions of dollars of outside investment, promising “venture-level returns,” but after that you’re a nonprofit. Imagine the confidence you’d need to cap returns at 20%.
 The funniest (also, worst) outcome would be if every dollar that OpenAI makes, after it pays billions of dollars of capped profits to its investors of course, is earmarked for artificial-intelligence safety research. “As a nonprofit, we are going to invest heavily in making sure that our product does not eradicate humanity, as soon as we finish giving Microsoft a nice venture-level return on its $10 billion investment.” And then OpenAI’s AI, being intelligent, reads the contracts, does the financial analysis, bides its time, and takes over the world 20 minutes before Microsoft gets its capped return.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 I have never seen what I would call “the balance sheet of FTX,” Sam Bankman-Fried’s bankrupt crypto exchange, but I have seen two FTX chief executive officers’ imperfect attempts to make one. In November, in Bankman-Fried’s final days as FTX’s CEO, he produced a spreadsheet listing FTX’s assets and liabilities that he sent around to potential investors to try to raise money; the Financial Times eventually  published it. This spreadsheet was not at all an audited balance sheet; I   called it “an Excel file full of the howling of ghosts and the shrieking of tortured souls,” and it included entries for things like “Hidden, poorly internally labeled ‘fiat@’ account.” Bad! Still, it was a table with some assets and some liabilities. It was balance-sheet-ish.
 Then a few days later John Ray, FTX’s current CEO,   filed a declaration in bankruptcy court describing FTX’s financial situation. This was if anything even less of a balance sheet; it was more of a complaint that producing a balance sheet was impossible. “Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here,” wrote Ray, who also complained that FTX did not really keep track of its crypto assets and that its customer liabilities “are not reflected in the financial statements prepared while these companies were under the control of Mr. Bankman-Fried.” There were some balance-sheet-like tables for some of FTX’s entities, but Ray emphasized that they were not meant to reflect FTX’s financial position.
@@ -235,11 +235,11 @@ Elsewhere:
 	“Inside Sam Bankman-Fried’s $1 Billion Bet on a Bitcoin Miner on the Kazakh Steppe.” Not clear how much value John Ray’s team attributes to that.	“Four US senators have questioned whether top Wall Street law firm Sullivan & Cromwell could  properly investigate possible wrongdoing at FTX as its bankruptcy counsel given its past work for the cryptocurrency exchange.” My view here is that US federal prosecutors are in the business of investigating possible wrongdoing at FTX, while FTX’s bankruptcy counsel is mostly in the business of finding the money, and working for the people who hid the money is probably good practice for finding it. Still you can see their point.	“FTX boss invested in Paradigm fund that backed his crypto exchange.” “‘That’s just weird,’ said Charles Whitehead, a professor at Cornell Law School.” I kind of wish I was a law professor so that sometimes reporters would call me for a quote and I could say “that’s just weird.” Just a perfect quote.
 
 
-  
-    
+
+
       WWE 
-    
-  
+
+
 
 We   talked yesterday about Vince McMahon’s return to World Wrestling Entertainment Inc.: He stepped down as chief executive officer and director last summer, but he remained the controlling shareholder. Last month he changed his mind and asked to come back as executive chairman, but the board of directors refused, so last week he fired several directors and put himself and his other chosen candidates on the board, presumably so they could make him executive chairman again.  That worked:
 
@@ -249,15 +249,15 @@ Mr. McMahon said he supported Stephanie’s personal decision and was grateful t
 
 It was always possible it wouldn’t work. Even when there’s a controlling shareholder, the directors have a fiduciary obligation to do what’s best for the company, not just what the shareholder wants. It was theoretically possible that McMahon could choose his best friends and closest allies, appoint them to the board, come to them and say “okay now make me chairman,” and they could have said “no, in the exercise of our fiduciary duties, we think that’s not a good idea.” Then he’d have to fire them and try again with different allies. That would be a very funny outcome, but it was not very likely, and in the event the board unanimously gave him what he wanted.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Banks’   Revenue Bonanza Seen Under Threat From Looming US Recession. Goldman Sachs embarks on biggest  cost-cutting drive since financial crisis. Review of  Nickel Blowup Calls for Changes at London Metal Exchange. Fidelity Investments Buys  Shoobx to Expand Private-Company Stock-Plan Business. First  Cryptocurrency Insider-Trading Case Yields 10-Month Prison Term. “The 2018 compensation package clearly   wasn’t enough to keep Elon focused on Tesla.”  Supercore inflation. House Republicans to vote on bill  abolishing IRS, eliminating income tax. Prince Harry says he was  bred to offer spare organs to heir William.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Why is it not quite right? Well, the less important answer is that January 2024 Treasuries are trading in about a 4.65% context this morning, so 4.5% is just a convenient round number. The more important answer is that Treasury does not issue one-year “bonds”: Treasury securities include bills, which have maturities of 4 to 52 weeks, notes, which have maturities of 2, 3, 5, 7 or 10 years, and bonds, which have maturities of 20 or 30 years. Importantly, bills do not pay coupons: The way bills work is that you pay, say, $98 today for a bill with a $100 face amount, you get back $100 at maturity, and the $2 difference is your yield. This makes bills tricky to use with the premium-debt gimmick; realistically you need to do that gimmick on notes or bonds. I am starting with a hypothetical one-year interest-bearing security to make the math and intuitions simple, but it’s not really right. That said, the statute authorizing Treasury notes allows them to have maturities of “at least one year,” so it’s not impossible to do this exact trade; it would just be (especially) weird.
 
 
@@ -282,114 +282,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Because I am sort of making a joke here, I am ignoring reinvestment in growth of the business. But in fact at every stage you are making a choice between putting the money into doing more of the business, and cashing it out for yourself. Realistically by the time you get to, like, Step 6 of my list, you have chosen to do a lot of reinvestment rather than consumption, but by now the reinvestment opportunities are growing slower than the profits.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

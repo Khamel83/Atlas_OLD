@@ -23,10 +23,10 @@ In Hale County, Alabama, nearly 1 in 4 working-age adults is on disability.[[2]]
 
 Sonny Ryan, a retired judge in town, didn't hear disability cases in his courtroom. But the subject came up often. He described one exchange he had with a man who was on disability but looked healthy.
 
-"Just out of curiosity, what is your disability?" the judge asked from the bench.  
-"I have high blood pressure," the man said.  
-"So do I," the judge said. "What else?"  
-"I have diabetes."  
+"Just out of curiosity, what is your disability?" the judge asked from the bench.
+"I have high blood pressure," the man said.
+"So do I," the judge said. "What else?"
+"I have diabetes."
 "So do I."
 
 There's no diagnosis called disability. You don't go to the doctor and the doctor says, "We've run the tests and it looks like you have disability." It's squishy enough that you can end up with one person with high blood pressure who is labeled disabled and another who is not.
@@ -44,7 +44,7 @@ As far as the federal government is concerned, you're disabled if you have a med
 ![Graph: Newly Disabled Workers, By Diagnoses](img/pm-gr-disability_diagnoses-616.gif)
 
 
-Source: Social Security Administration  
+Source: Social Security Administration
 Credit: Lam Thuy Vo / NPR
 
 In Hale County, there was one guy whose name was mentioned in almost every story about becoming disabled: Dr. Perry Timberlake. I began to wonder if he was the reason so many people in Hale County are on disability. Maybe he was running some sort of disability scam, referring tons of people into the program.
@@ -113,7 +113,7 @@ There used to be a lot of jobs that you could do with just a high school degree,
 ![Applications for Disability Rise and Fall With the Unemployment Rate](img/pm-gr-disability_applications_ue-616.gif)
 
 
-Source: Bureau of Labor Statistics, Social Security Administration  
+Source: Bureau of Labor Statistics, Social Security Administration
 Credit: Lam Thuy Vo / NPR
 
 Scott tried school for a while, but hated it. So he took the advice of the rogue staffer who told him to suck all the benefits he could out of the system. He had a heart attack after the mill closed and figured, "Since I've had a bypass, maybe I can get on disability, and then I won't have worry to about this stuff anymore." It worked; Scott is now on disability.
@@ -125,7 +125,7 @@ I don't know what that rogue staffer meant when he told Scott Birdsall they were
 ![Graph: Percentage of Population Age 18-64 on Workers' Disability (2011)](img/pm-gr-disability_states-616.gif)
 
 
-Source: Social Security Administration  
+Source: Social Security Administration
 Credit: Lam Thuy Vo / NPR
 
 "That's a kind of ugly secret of the American labor market," David Autor, an economist at MIT, told me. "Part of the reason our unemployment rates have been low, until recently, is that a lot of people who would have trouble finding jobs are on a different program."
@@ -151,8 +151,8 @@ Then I looked at the numbers. I found that the number of kids on a program calle
 ![Graph: Children on Disability (1974-2011)](img/pm-gr-ssi_kids-616.gif)
 
 
-Source: Social Security Administration  
-Credit: Lam Thuy Vo / NPR  
+Source: Social Security Administration
+Credit: Lam Thuy Vo / NPR
 Note: To see the number of disabled children on disability as a percentage of children eligible for the benefits, go [here](children.html).
 
 Jahleel Duroc (pictured above) is gap-toothed, 10 and vibrating with enthusiasm. He's excited to talk to someone new, excited to show me his map of his neighborhood in the Bronx. He's disabled in the eyes of the government because he has a learning disability.
@@ -195,7 +195,7 @@ But when you include disability in the story of welfare reform, the picture look
 ![Graph showing as the number of families on welfare declines the number of low-income on disability rose and the number of former workers on disability went up](img/pm-gr-disabilityvswelfare-616.gif)
 
 
-Source: Department of Health and Human Services, Social Security Administration  
+Source: Department of Health and Human Services, Social Security Administration
 Credit: Lam Thuy Vo / NPR
 
 Part of Clinton's welfare reform plan pushed states to get people on welfare into jobs, partly by making states pay a much larger share of welfare costs. The incentive seemed to work; the welfare rolls shrank. But not everyone who left welfare went to work.
@@ -251,8 +251,8 @@ Judge Randy Frye, who hears disability cases in North Carolina, told me he often
 ![Graph](img/pm-gr-ssdi_numbers-616.gif)
 
 
-Source: Social Security Administration  
-Credit: Lam Thuy Vo / NPR  
+Source: Social Security Administration
+Credit: Lam Thuy Vo / NPR
 Note: To see the percentage of all eligible adults who are on disability, go [here](enlarge.html#pm-gr-ssdi_percentage-616.gif).
 
 Somewhere around 30 years ago, the economy started changing in some fundamental ways. There are now millions of Americans who do not have the skills or education to make it in this country.
@@ -272,6 +272,6 @@ Goss and his colleagues have worked out a temporary fix under which the retireme
 **› [Comment On This Story](http://www.npr.org/blogs/money/2013/03/28/175583318/comment-on-our-disability-series#commentBlock)**
 
 **Note:**
-The following sentences were changed for clarity after publication.  
-1) The sentence that now reads "The vast majority of people receiving federal disability benefits do not work" originally read "People on federal disability do not work." ([back to top](#fn1))  
+The following sentences were changed for clarity after publication.
+1) The sentence that now reads "The vast majority of people receiving federal disability benefits do not work" originally read "People on federal disability do not work." ([back to top](#fn1))
 2) The sentence that now reads "In Hale County, Alabama, nearly 1 in 4 working-age adults is on disability" originally read "In Hale County, Alabama, 1 in 4 working-age adults is on disability." ([back to top](#fn2))

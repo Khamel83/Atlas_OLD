@@ -12,13 +12,13 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-Verify to continue  
-  
-To continue, please confirm that you're a human (and not a spambot).  
-  
-Waiting for vimeo.com to respond... Enable JavaScript and cookies to continue 
+Verify to continue
+
+To continue, please confirm that you're a human (and not a spambot).
+
+Waiting for vimeo.com to respond... Enable JavaScript and cookies to continue
 

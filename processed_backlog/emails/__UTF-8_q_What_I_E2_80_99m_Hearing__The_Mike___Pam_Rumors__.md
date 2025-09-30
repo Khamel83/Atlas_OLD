@@ -43,7 +43,7 @@ EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694
 
 But first...
 
- 
+
 
 Who Won the Week: Zach
 Cregger
@@ -166,7 +166,7 @@ Warners was once considered the Tiffany of movie studios. Sure, the corporate je
 and the nice Acapulco retreat are long gone, but Warner Bros. is still fundamental to the industry’s image of itself. Presiding over the destruction of the place is hardly the Hollywood ending that Zaslav envisioned. “An essential element of the stock price is believing that the I.P. of DC is meaningful,” said one Warners veteran. “David bet big that they can show the world that the DC I.P. can have real value. Superman is the first movie. That will set the tone. They have a tremendous
 amount riding on it.” That’s a staggering amount of pressure on Safran and especially Gunn, who is directing. But if the movie doesn’t work, at least no one can say it’s Mike and Pam’s fault. Unless folks want to blame the marketing…
 
- 
+
 
 Quote of the Week (The Electric State Reviews Edition…)
 ---------------------------------------------------------
@@ -186,7 +186,7 @@ not creators, they’re collectors. And here, they basically turned a junkpile a
 Okay
 okay, let’s stop there. I joke, but despite the 22 percent “fresh” rating, the bros are gonna have the last laugh when this thing becomes Netflix’s most-viewed movie of 2025…
 
- 
+
 
 Matt’s Reading List…
 ------------------------
@@ -218,7 +218,7 @@ Turns out the guests at the real White Lotus Thailand (the Four Seasons Koh Samu
 Nick
 Quah’s first group of best podcasts of the year has dropped, just in time for my spring travel. [Vulture ( https://www.vulture.com/article/new-best-podcasts-2025.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 The Feedback
 ------------
@@ -234,7 +234,7 @@ the pension fund of some major union then play hardball with a different, someti
 “Village (and Vine) had trouble long before Covid. Vine was in the equity and the debt of Village, and the asset was so leveraged that their equity and some/most of their debt was worthless as far back as 2017-18.” —An
 executive
 
- 
+
 
 Finally…
 ----------
@@ -242,7 +242,7 @@ Finally…
 Warner Bros. may fare better with Sinners than it has on Mickey 17,
 according to the latest early tracking report from The Quorum…
 
- 
+
 
 Have a great week,
 
@@ -269,7 +269,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVg3eM1Ro_h71QRyVdbEU=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

@@ -137,7 +137,7 @@ Phillips, 10:57 p.m: "What's going on. Fuck."
 
 Phillips, 11 p.m.: "I can't meet tonight. I have to go now. I will be in touch."
 
-  
+
 
 Phillips, 12:17 a.m.: "I can't text now. She is going to check. Bad. Really bad."
 
@@ -259,7 +259,7 @@ The sexless sex scandal came to affect everyone at ESPN, not just the two lovers
 
 Also:  [Read more excerpts from the court file](https://deadspin.com/steve-phillips-and-brooke-hundley-a-romance-told-throu-511539961), including a full transcript of the text messages between Phillips and Hundley.
 
-  
+
 
 ## Related
 

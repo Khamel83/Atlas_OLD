@@ -135,11 +135,11 @@ The irony in this loss of trust is that the ultimate driver is tech itself. What
 
 That destabilization and resultant loss of trust, meanwhile, is everywhere around us, from our politics to business to every aspect of media. This increased uncertainty and destabilization has and will continue to drive demands for more government intervention — and, like this weekend, it may not even be wrong! More government, though, means replacing trust with more rules, regulations, and restrictions, which will have a long-term effect on innovation. This, perhaps, is the inevitable outcome of tech having set disruption as its objective function: the ultimate casualty may be the Silicon Valley that once was, not just its bank.
 
-* 
+*
 
 “Agency” is an important distinction: these weren’t the ugly subprime mortgages that were at the heart of the 2008 financial crisis; these were mortgages ultimately backed by federal mortgage programs ↩︎ ( #rf1-10643 )
 
-* 
+*
 
 This is why Silicon Valley Bank was not actually insolvent; most of these securities were designated as “Hold To Maturity”, which means they were held on the books at par value, not their market value ↩︎ ( #rf2-10643 )
 

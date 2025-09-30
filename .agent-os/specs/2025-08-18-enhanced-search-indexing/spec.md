@@ -1,8 +1,8 @@
 # Enhanced Search Indexing for Transcript Content
 
-**Date**: August 18, 2025  
-**Status**: 🎯 PLANNED  
-**Priority**: HIGH - Search Quality  
+**Date**: August 18, 2025
+**Status**: 🎯 PLANNED
+**Priority**: HIGH - Search Quality
 **Parent Task**: Post Transcript Discovery Integration
 
 ## Executive Summary
@@ -42,7 +42,7 @@ After bulk transcript discovery adds 100+ new transcripts, enhance the search in
    - Store structured transcript data in database
    - Maintain backward compatibility with existing transcripts
 
-### Phase 2: Enhanced Search Indexing (2 hours)  
+### Phase 2: Enhanced Search Indexing (2 hours)
 **Objective**: Build transcript-aware search capabilities
 
 **Atomic Tasks**:
@@ -126,7 +126,7 @@ CREATE TABLE transcript_segments (
     segment_type TEXT -- question, answer, transition
 );
 
--- Topic clusters table  
+-- Topic clusters table
 CREATE TABLE topic_clusters (
     id INTEGER PRIMARY KEY,
     topic_name TEXT,

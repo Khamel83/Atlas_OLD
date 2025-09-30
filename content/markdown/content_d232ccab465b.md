@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >One-Way Traffic</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Cities aren’t shrinking because everyone’s moving out, but because no one’s moving in.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -900,28 +900,28 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="39"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsk4oj00595jkv5ercsxli@published"
-  
+
 >Between 2011 and 2015, an astounding 952,000 people moved out of New York City—and another 265,000 New Yorkers <a href="https://www.baruch.cuny.edu/nycdata/population-geography/pop-characteristics.htm">died</a>. At that rate, it would take just 35 years for the nation’s largest city to be left to the rats.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="20"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgi5000f3g6ab6khzxbv@published"
-  
+
 >Fortunately, more than a million people arrived in New York during those five years—babies, immigrants, dreamers from around the country.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="60"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgjj000g3g6adzdfgva8@published"
-  
+
 >Think of those numbers every time you hear about the <a href="https://www.reuters.com/article/us-usa-economy-cities/bay-area-exodus-leading-edge-of-pandemic-housing-reshuffle-idUSKBN2AH1O8">supposed</a> <a href="https://www.wsj.com/articles/young-families-are-driving-the-exodus-from-new-york-city-to-the-suburbs-11602763200">pandemic</a> <a href="https://www.politico.eu/article/the-death-of-the-city-coronavirus-towns-cities-retail-transport-pollution-economic-crisis/">exodus</a> afflicting American cities. New Yorkers leave; New Yorkers arrive. New Yorkers die; New Yorkers are born. The churn is constant, not just there but in every city. Like <a href="https://www.laphamsquarterly.org/roundtable/restoring-ship-theseus">the ship of Theseus</a>, the city retains its identity even as its residents turn over, and over, and over.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="132"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgl1000h3g6air8xgw3p@published"
-  
+
 >Big cities have clearly lost some verve during the pandemic. The signs are everywhere, from vacant storefronts to idle stages to muted downtowns. A weekly drumbeat of data, on sales tax receipts and school enrollment and home prices and rents, offers bits and pieces of evidence to back this up. This time, it’s the suits at McKinsey who <a href="https://www.mckinsey.com/featured-insights/future-of-work/the-future-of-work-after-covid-19">report</a> on a very McKinsey metric, the ratio of arriving workers to departing ones as captured by LinkedIn profiles. That ratio is down 27 percent in New York, 24 percent in San Francisco, 13 percent in Boston, and 11 percent in Los Angeles and Seattle. “This could be driven either by a greater number of workers leaving these areas or by fewer people entering these areas in 2020 compared to 2019,” the researchers note.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -932,14 +932,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="64"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgm0000i3g6ajza6vr96@published"
-  
+
 >That’s a huge either/or. If the populations of the nation’s largest cities are truly plummeting, they are in big trouble. In the short term, they’ll have to cut public services and manage mass unemployment as the service sector withers. In the long term, they’ll have to confront the fact that the model behind the urban renaissance of the last 30 years—immigrants and yuppies—is dead.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="76"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgoc000j3g6anrtws15l@published"
-  
+
 >It’s intuitive that urban American neighborhoods would be less appealing right now. Their smaller housing units were a tight squeeze in a year of remote work and Zoom school. Their access to amenities stopped mattering when everything shut down. Crime rates have gone up. And in a world where fewer people have to commute, it’s not clear if living close to the office justifies the high rent. In a plague year, who would want to stay?</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1018,14 +1018,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgue000k3g6agfobupif@published"
-  
+
 >But what if all these departures <em>aren’t </em>actually out of step with historical patterns—there will always be people who move to the suburbs—and the problem is instead that no one is coming to take their place? With national borders closed, universities remote, job onboarding taking place online, and most big-city amenities in hibernation, it would make sense if the typical incoming fleet of U-Hauls were not on the horizon. If that’s the case, cities would have more reason to hope for a quick rebound as mass vaccination arrives this summer.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="64"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskgw1000l3g6ab6g4327a@published"
-  
+
 >New <a href="https://www.clevelandfed.org/newsroom-and-events/publications/cfed-district-data-briefs/cfddb-20210205-did-the-covid-19-pandemic-cause-an-urban-exodus.aspx">research from the Cleveland Federal Reserve</a>, published this month, suggests this is indeed what’s happening. Economist Stephan Whitaker tracked a decade of monthly in- and out-migration from urban neighborhoods in big cities, using an anonymous survey that tracks Americans with a credit file (which includes 9 out of 10 adults). His dataset shows urban neighborhoods did indeed experience an exodus during the pandemic.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1050,7 +1050,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="67"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsksmv00183g6aepaon5a1@published"
-  
+
 >The number of people leaving urban neighborhoods each month between March and September of 2020 rose by 10,000 from its three-year average, to 276,000 from 266,000. That’s a very modest percentage change. More substantial, in absolute and percentage terms, was the faucet of new arrivals being shut off. Monthly in-migration fell from a monthly average of 238,000 to 220,000—a loss almost twice the size of the departures.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1075,7 +1075,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="109"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskpgd000x3g6aqwwrmxt8@published"
-  
+
 >Because it hinges on credit scores, Whitaker’s dataset is likely to show in particular people who move for jobs (rather than college freshmen moving onto urban campuses, for example). “The strongest correlation is that the drop in inflow is higher where you have more of your occupations that are telework-capable,” he told me. “I think what’s happening is people are changing jobs, but because no one is at the office, there’s no point moving to be near the office. Whenever people go back [to work], people will start to lease and move. There may be a bit of a step down if some of the remote work becomes permanent.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1118,7 +1118,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="60"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgskpge000y3g6aq9nghnxq@published"
-  
+
 >In Los Angeles, Chicago, Washington, Seattle, Denver, San Jose, Dallas, Philadelphia, and Minneapolis, for example, inflows have dropped at more than twice the rate than outflows have risen, according to the Cleveland Fed analysis. Among the largest cities, only in New York and <a href="https://www.sfchronicle.com/bayarea/article/People-are-leaving-S-F-but-not-for-Austin-or-15955527.php">San Francisco</a> did departures make up a larger factor than people not arriving. Here’s the overall picture:</p>
 
 <figure
@@ -1221,13 +1221,13 @@ width="712"
   class="slate-paragraph slate-graf"
   data-word-count="65"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsm5fu00233g6a9sg1iyqd@published"
-  
+
 >You’ll notice that, overall, departures have <em>always </em>exceeded arrivals in large cities. This is in part because some walkable, central neighborhoods in cities like Chicago, San Francisco, and New York have been, on net, <a href="https://slate.com/business/2019/04/old-buildings-house-fewer-people-than-they-did-50-years-ago-what-happened.html">losing people for years</a> as rents go through the roof. Manhattan’s Upper West Side, for example, <a href="https://furmancenter.org/neighborhoods/view/upper-west-side#:~:text=In%202018%2C%20there%20were%20about,median%20household%20income%20(%2464%2C850).">lost 12 percent of its population</a> between 2006 and 2018 as median household income rose.</p>
 
 <aside
   data-uri="slate.com/_components/in-article-recirc/instances/cklgsk4oj005a5jkvbsb5k2z3@published"
   class="in-article-recirc"
-  
+
   data-via="article-inline_recirc-section-business"
 >
     <h1 class="in-article-recirc__header">
@@ -1239,25 +1239,25 @@ width="712"
     <ol class="in-article-recirc__list">
         <li class="in-article-recirc__item">
           <a href="https://slate.com/advice/2025/09/money-advice-lake-house-family-feud.html" class="in-article-recirc__link">
-                        
+
             My Siblings Are Feuding Over the Family Lake House. I’m About to Make Things Even Worse.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/children-health-hospitals-treatment-chronic-pain.html" class="in-article-recirc__link">
-                        
+
             They Had a Mysterious Illness. Someone Finally Told Them It Was Real—and There Was a Cure. They Got Something Very Different.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/news-and-politics/2025/09/my-pillow-guy-mike-lindell-supreme-court-lawsuit.html" class="in-article-recirc__link">
-                        
+
             I Won a $5 Million Judgment Against the MyPillow Guy. Now I’m Taking Him to the Supreme Court.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/culture/2025/09/emmys-2025-awards-host-nate-bargatze-boys-and-girls-club-opening-monologue.html" class="in-article-recirc__link">
-                        
+
             The Emmys Tried a Controversial New Approach This Year. I Kind of Loved It.
           </a>
         </li>
@@ -1267,7 +1267,7 @@ width="712"
   class="slate-paragraph slate-graf"
   data-word-count="70"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsmf3d002e3g6ac3x14j1b@published"
-  
+
 >But that is only part of the story. Go beyond the gentrifying neighborhoods and you’ll still find more Americans moving out than moving in. That too is the natural order of things. New York City, even during its growth spurt after the Great Recession, suffered a net loss of 60,000 to 90,000 movers to the rest of the country every year. Los Angeles, Chicago, and Philadelphia are also domestic people-exporters.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1292,7 +1292,7 @@ width="712"
   class="slate-paragraph slate-graf"
   data-word-count="93"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsmf3e002f3g6arlojeyki@published"
-  
+
 >Along with “natural increase” (that’s demographer for making babies), immigrants have historically made up the difference, even if they haven’t pushed big cities to grow on net. New York City, for example, saw a net gain of 60,000 immigrants per year as recently as 2010. A handful of American cities have been <a href="https://research.newamericaneconomy.org/report/immigrants-and-the-growth-of-americas-largest-cities/">dependent on foreign arrivals</a> for almost all their population growth in recent years, including Cincinnati, Birmingham, and Miami. In many larger cities, such as Los Angeles and Chicago, immigrants have for many decades <a href="http://www.amazon.com/dp/1541697243/?tag=slatmaga-20">helped stabilize urban neighborhoods and jump-start local economies</a>.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1335,14 +1335,14 @@ width="712"
   class="slate-paragraph slate-graf"
   data-word-count="42"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsmf3e002g3g6axuofefj5@published"
-  
+
 >“Immigration went down during the years of the Trump administration and contributed to bigger losses or lower gains depending what city you’re talking about, especially big metro magnets like New York and L.A.,” said William Frey, a demographer at the Brookings Institution.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="102"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsmf3f002h3g6a6uoarkwi@published"
-  
+
 >But whatever declines came from Trump’s refusal to admit refugees, inhumane border policies, and reluctance to issue visas and green cards were dwarfed by the <a href="https://www.cato.org/blog/president-trump-reduced-legal-immigration-he-did-not-reduce-illegal-immigration">pandemic-era immigration drop</a>. Monthly green cards issued to immigrants abroad fell from about 40,000 a month in 2019 to fewer than 5,000 in April, May, June, and July of 2020. From April to September of 2020, the U.S. government issued fewer than 400,000 nonimmigrant visas, compared with 5.6 million during the same period in 2016. It may take years to clear that backlog, which means it may take years to get gateway cities up and humming again.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1367,7 +1367,7 @@ width="712"
   class="slate-paragraph slate-graf"
   data-word-count="123"
   data-uri="slate.com/_components/slate-paragraph/instances/cklgsmf3f002i3g6aizi0u1w1@published"
-  
+
 >All of this suggests that while the pandemic may indeed be accelerating out-migration from cities, the key to survival will not be focusing on those who have left—they always did want that yard—but on those who have not yet arrived. That means instead of heeding complaints from departing suburbanites about “law and order” or parking, pols ought to double down on the things that make dense urban neighborhoods attractive to the people who still want to live in them. More housing. Strong tenant protections. A humane social safety net. Clean streets. Better public space. An easy road for small businesses. Think not about those who have come to the end of their time in the city, but those who are yet to <span class="slate-paragraph--tombstone">arrive.</span></p>
 
 <div
@@ -1451,7 +1451,7 @@ width="712"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1486,7 +1486,7 @@ width="712"
   class="slate-adnode"
   data-adnode="business/metropolis"
   data-uri="slate.com/_components/slate-adnode/instances/cklgsk4nv00515jkvjg3e5gmw@published"
-  
+
 ></div>
 
 <script
@@ -1537,7 +1537,7 @@ width="712"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1562,7 +1562,7 @@ width="712"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2072,7 +2072,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

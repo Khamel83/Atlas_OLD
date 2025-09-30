@@ -7,16 +7,16 @@
 
 View this post on the web at https://www.notboring.co/p/tegus-the-outsiders
 
-Welcome to the 645 newly Not Boring people who have joined us since Monday — I need to take breaks more often! If you haven’t subscribed, join 155,188 smart, curious folks by subscribing here: 
+Welcome to the 645 newly Not Boring people who have joined us since Monday — I need to take breaks more often! If you haven’t subscribed, join 155,188 smart, curious folks by subscribing here:
 🎧  For the audio version, click the play button up top or listen on Spotify [ https://substack.com/redirect/345bc988-2cea-4779-b252-95b31151195e?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/39d8b885-4e64-4e30-9bbb-c543c4ce6ad9?r=9p0gt ]
 Today’s Not Boring, the whole thing, is brought to you by… Tegus [ https://substack.com/redirect/ae8d9e01-b7ff-4dc1-80c0-5d9f5f833e16?r=9p0gt ]
-Not Boring readers can try Tegus for free [ https://substack.com/redirect/ae8d9e01-b7ff-4dc1-80c0-5d9f5f833e16?r=9p0gt ]. Sign up by clicking this button to explore expert calls on hundreds of companies like Stripe, SpaceX, Meta, Anduril, Amazon, and more.  
-Hi friends 👋, 
-Happy Thursday! 
-As someone who uses Tegus whenever I begin researching a new company to write about, I’m really excited to bring you the first inside look at the company ever written. 
-It’s clear from talking to the team, and from looking at the numbers, that this is a special company that is going to be around for a long time. It’s also the perfect company to study right now, in a market that once again values free cash flow, strategic chops, and smart capital allocation. 
+Not Boring readers can try Tegus for free [ https://substack.com/redirect/ae8d9e01-b7ff-4dc1-80c0-5d9f5f833e16?r=9p0gt ]. Sign up by clicking this button to explore expert calls on hundreds of companies like Stripe, SpaceX, Meta, Anduril, Amazon, and more.
+Hi friends 👋,
+Happy Thursday!
+As someone who uses Tegus whenever I begin researching a new company to write about, I’m really excited to bring you the first inside look at the company ever written.
+It’s clear from talking to the team, and from looking at the numbers, that this is a special company that is going to be around for a long time. It’s also the perfect company to study right now, in a market that once again values free cash flow, strategic chops, and smart capital allocation.
 This essay is a Sponsored Deep Dive. As a testament to my genuine love of the product, I traded an equivalent amount of the deep dive rate for free access to Tegus for a year. You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/b5b8370b-8af6-4b84-99fc-b611c91c2d68?r=9p0gt ].
-Let’s get to it. 
+Let’s get to it.
 Tegus: The Outsiders
 It feels almost disrespectful to call Tegus [ https://substack.com/redirect/ff6c425a-858c-41be-8c1f-b24669497f4e?r=9p0gt ] a unicorn. Too fluffy. 
 Sure, the five-year-old company has all the markings of the mythical creature: 
@@ -83,12 +83,12 @@ As one investor they spoke to told them, “Go study Costco, because this is the
 The Tegus Business Model
 The unlock was simple in retrospect: instead of charging investors a markup on every expert call and keeping them siloed, like an expensive matchmaking service, Tegus charges investors a subscription fee to access the platform, and then lets them book expert calls at cost. 
 On the surface, it’s the Costco model: sell the product at breakeven, make money on the membership. 
-To read more about Tegus’ product, business model, and strategy, including its recent acquisitions… 
+To read more about Tegus’ product, business model, and strategy, including its recent acquisitions…
 To give you a taste for the quality of the conversations on the platform, Tegus has opened up a free version of one of its most popular, on AWS: Access It Here [ https://substack.com/redirect/6c5bac88-cac0-4d44-9eb8-9b5c687e3590?r=9p0gt ].
 If you want to try Tegus for yourself, sign up with this special Not Boring link for a free trial:
-Thanks to Dan [ https://substack.com/redirect/7a9624c6-5c95-4096-a676-fb580485a1e4?r=9p0gt ] for editing, and to Mike, Tom, Bob, and Jacinta for working with me on the piece! 
-We’ll be back in your inbox with the Weekly Dose of Optimism tomorrow morning! 
-Thanks for reading, 
+Thanks to Dan [ https://substack.com/redirect/7a9624c6-5c95-4096-a676-fb580485a1e4?r=9p0gt ] for editing, and to Mike, Tom, Bob, and Jacinta for working with me on the piece!
+We’ll be back in your inbox with the Weekly Dose of Optimism tomorrow morning!
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOelUwT0RjM01EQXNJbWxoZENJNk1UWTJORFExTmpFMk55d2laWGh3SWpveE5qWTNNRFE0TVRZM0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuTVRTSW1jTEw4T0pndV8wT3RhNlliTVVKbU1SR25rdFBGQmlRVTlESzNfRSIsInAiOjc1NDg3NzAwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NDQ1NjE2NywiZXhwIjoxNjY3MDQ4MTY3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.6CzvBCOHE4dmD-W8_GD5nsjOQ2zlRsc09MUbujihMYg?

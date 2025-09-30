@@ -196,7 +196,7 @@ if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
 							} else {
 								__gtagDataLayer('event', name, parameters);
 							}
-							
+
 						} else {
 							__gtagDataLayer.apply(null, arguments);
 						}
@@ -451,7 +451,7 @@ var alternate_sizes = {"300,600":[["300,600"],["300,250"]],"600,300":[["600,300"
           })();
         </script>
         <script async src="//static.chartbeat.com/js/chartbeat_mab.js" type="97217f8ebf1d2ce8025ab605-text/javascript"></script>
-        
+
     <!-- Google Publisher Tag -->
 
 <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js" type="97217f8ebf1d2ce8025ab605-text/javascript"></script>
@@ -472,7 +472,7 @@ googletag.cmd.push(function () {
             <!-- prebid.js main -->
 
 <script async="async" src="/wp-content/plugins/dfp-ads/assets/js/prebid9.33.0.js" type="97217f8ebf1d2ce8025ab605-text/javascript"></script>
-        
+
         <script type="97217f8ebf1d2ce8025ab605-text/javascript">
             !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
 
@@ -542,7 +542,7 @@ googletag.cmd.push(function () {
 
 <div class="tw-text-white tw-text-4xl tw-font-lora tw-px-8 tw-pb-5">Sections</div>
         <div x-data="{selected:null}">
-            <div class="tw-px-8 tw-mb-10"> 
+            <div class="tw-px-8 tw-mb-10">
                 <div class="tw-border-b tw-border-[#ddd] tw-pb-4">
                     <ul id="menu-new-header-nav" class="menu tw-p-0 tw-m-0 tw-w-full tw-font-sans tw-leading-4 tw-text-black tw-align-baseline tw-border-0"><li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children tw-relative tw-justify-left tw-py-3 tw-text-white tw-cursor-pointer tw-font-lato' x-data = '{ revealed: false }'><span class="tw-flex tw-text-left tw-align-baseline tw-border-0 tw-cursor-pointer tw-text-white tw-items-center tw-h-10"><a class="tw-whitespace-nowrap tw-text-white tw-block tw-h-10 tw-flex hover:tw-underline tw-items-center" href="https://www.washingtonian.com/sections/news/"><span class="tw-flex-1 tw-break-keep">News &amp; Politics</span></a><span class="tw-flex-1 tw-text-right tw-flex tw-justify-end">
                 	<span class="inline-block hover:tw-bg-[#21314B] hover:tw-rounded-full tw-w-10 tw-h-10 tw-flex tw-items-center tw-justify-center" @click="revealed = !revealed"
@@ -688,7 +688,7 @@ googletag.cmd.push(function () {
 </li>
 </ul>                </div>
             </div>
-    
+
             <div class="tw-text-white tw-text-4xl tw-font-lora tw-px-8 tw-pb-5">Reader Favorites</div>
 
 <div class="tw-px-8 tw-mb-10">
@@ -733,11 +733,11 @@ googletag.cmd.push(function () {
             </div>
             <div class="tw-mb-4">
                 &copy; 2025 Washingtonian Media Inc.
-            </div> 
+            </div>
             <div class="tw-mb-10">
                 All Rights Reserved
             </div>
-            
+
         </div>
     </div>
 </nav>
@@ -758,7 +758,7 @@ googletag.cmd.push(function () {
         </div>
                         </div>
             </div>
-        
+
     <header id="masthead" class="site-header full-width-header tw-bg-white" role="banner">
 
 <div class="container-fluid">
@@ -799,13 +799,13 @@ googletag.cmd.push(function () {
 <div class="tw-w-full tw-m-auto md:tw-hidden tw-text-center " x-data="{ showSearch: false, showMobileNav: false  }" x-cloak>
                 <div class="tw-flex tw-items-center gap-4 tw-py-6 tw-px-10">
                     <div class="tw-flex-none text-left tw-w-2/12">
-                        <i 
-                            class="fa-2x fa fa-search tw-text-primary hover:tw-text-secondary tw-cursor-pointer" 
+                        <i
+                            class="fa-2x fa fa-search tw-text-primary hover:tw-text-secondary tw-cursor-pointer"
                             @click="showSearch = true; showMobileNav = false"
                             x-show="showSearch == false"
                         "></i>
-                        <i 
-                            class="fa-2x fa fa-times tw-text-primary hover:tw-text-secondary tw-cursor-pointer" 
+                        <i
+                            class="fa-2x fa fa-times tw-text-primary hover:tw-text-secondary tw-cursor-pointer"
                             @click="showSearch = false; showMobileNav = false"
                             x-show="showSearch == true"
                         "></i>
@@ -816,13 +816,13 @@ googletag.cmd.push(function () {
                         </a>
                     </div>
                     <div class="tw-flex-none tw-w-2/12 text-right">
-                        <i 
-                            class="fa-2x fa fa-bars tw-text-primary hover:tw-text-secondary tw-cursor-pointer" 
+                        <i
+                            class="fa-2x fa fa-bars tw-text-primary hover:tw-text-secondary tw-cursor-pointer"
                             @click="showMobileNav = true; showSearch = false"
                             x-show="showMobileNav == false"
                         "></i>
-                        <i 
-                            class="fa-2x fa fa-times tw-text-primary hover:tw-text-secondary tw-cursor-pointer" 
+                        <i
+                            class="fa-2x fa fa-times tw-text-primary hover:tw-text-secondary tw-cursor-pointer"
                             @click="showMobileNav = false; showSearch = false"
                             x-show="showMobileNav == true"
                         "></i>
@@ -831,12 +831,12 @@ googletag.cmd.push(function () {
                 <div x-show="showSearch" x-transition class="tw-w-full tw-text-center tw-mx-auto tw-pb-6 tw-pt-4 tw-border-t tw-border-b tw-border-t-gray-100 tw-border-b-gray-100">
                     <form class="" action="/" method="get">
                         <div class="tw-relative tw-rounded-full tw-shadow-sm tw-w-11/12 tw-m-auto">
-                            <input type="text" placeholder="Search" name="s" 
+                            <input type="text" placeholder="Search" name="s"
                             class="tw-w-full tw-rounded-full tw-pl-10 tw-py-2 tw-bg-gray-100 tw-border-0 tw-text-md block w-full pr-10"
                              required>
                             <div class="tw-absolute tw-inset-y-0 tw-right-0 tw-pr-4 tw-flex tw-items-center tw-pointer-events-none">
                                  <i class="fa fa-lg fa-search tw-text-primary hover:tw-text-secondary tw-cursor-pointer"></i>
-                            </div>  
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -883,7 +883,7 @@ googletag.cmd.push(function () {
 <li class="tw-mb-6"><a href="https://www.washingtonian.com/sections/shopping/" data-category="Menu_Sections" class="menu-link-class log-event">Shopping</a></li>
 <li class="tw-mb-6"><a href="https://www.washingtonian.com/sections/travel/" data-category="Menu_Sections" class="menu-link-class log-event">Travel</a></li>
 <li class="tw-mb-6"><a href="https://www.washingtonian.com/sections/weddings/" data-category="Menu_Sections" class="menu-link-class log-event">Weddings</a></li>
-</ul>           
+</ul>
         </div>
     </div>
     <div class="tw-flex tw-items-center tw-border-t-gray-100 tw-justify-center tw-gap-6 tw-border-t tw-border-b tw-border-b-gray-100 tw-py-6">
@@ -900,10 +900,10 @@ googletag.cmd.push(function () {
             <span class="fa fa-pinterest"></span>
         </a>
     </div>
-</nav>  
-                </div>  
+</nav>
+                </div>
             </div>
-            
+
             <div class="tw-w-full tw-border-b tw-border-b-gray-200">
                 <div class="tw-max-w-fit tw-m-auto">
                     <nav class="tw-hidden tw-leading-4 tw-text-black tw-align-baseline tw-border-0 lg:tw-flex md:tw-w-full">
@@ -1003,7 +1003,7 @@ googletag.cmd.push(function () {
 </ul>                    </div> -->
                 </div>
             </div>
-        
+
     </header>
 
 <!-- Top Ad Bar -->
@@ -1032,7 +1032,7 @@ googletag.cmd.push(function () {
         </div>
                         </div>
             </div>
-        
+
     <!-- Site Overlay (Required by Pushy) -->
     <div class="site-overlay"></div>
 
@@ -1047,7 +1047,7 @@ googletag.cmd.push(function () {
             <div class="col-md-8">
 
 <div class="article-wrapper">
-                
+
                     <!-- Title and Header -->
                     <div class="article-head">
                         <span class="kicker individual">
@@ -1063,16 +1063,16 @@ googletag.cmd.push(function () {
                         <h1 class="entry-title">Meet the Guy Who Created Virginia&#8217;s Hit Food Hall</h1>
                                                     <h2 class="deck">
                                 Arturo Mei is the brains behind the Block.                            </h2>
-                        
+
                                                     <div class="meta">
                                 <span class="byline"><span class="author vcard">Written by <a href="https://www.washingtonian.com/author/jsidman/" title="Posts by Jessica Sidman" class="author url fn" rel="author">Jessica Sidman</a>        <div class="author-social">
                             <span class="twitter"><a href="https://www.twitter.com/jsidman" class="generic log-event" data-category="AuthorBioboxClick" data-action="twitter" target="_blank"><i class="fa fa-twitter"></i></a></span>
-            
+
                             <span class="email"><a href="/cdn-cgi/l/email-protection#7e585d4f4e4845585d06494d45585d064847451a585d4f4e4745585d06484f4510585d484a45585d06494945585d06484f45585d4f4f4b45585d06484645585d0648474510585d4f4e4d45585d06494a4511585d4f4f4e45585d06484745585d06484f45585d4f4f4e45585d064c1b45585d06484d4511585d4f4e4745" class="generic log-event" data-category="AuthorBioboxClick" data-action="email" target="_blank"><i class="fa fa-envelope"></i></a></span>
-            
-            
-            
-            
+
+
+
+
         </div>
 		</span><span class="posted-on-time"> | Published on <span class="posted-on"><time class="entry-date published updated" datetime="2019-09-10T07:00:19-04:00">September 10, 2019</time></span></span></span>                            </div>
                                                 <div class="social-group" style="">
@@ -1098,7 +1098,7 @@ googletag.cmd.push(function () {
 <div class="tw-mb-4 tw-mt-4">
                             <instaread-player publication="washingtonian"></instaread-player>
                         </div>
-                    
+
                     <!-- Main content -->
                     <div class="article-content">
 
@@ -1112,7 +1112,7 @@ googletag.cmd.push(function () {
 
 <p>Food halls are among the hottest dining trends of 2019. In addition to the recent debuts of <a href="https://ballstonquarter.com/">Quarter Market</a> in Ballston and <a href="https://www.thespotdmv.com/">the Spot</a> in Rockville, at least half a dozen more are coming to the region just this year. <strong>Arturo Mei</strong> cofounded one of the first to arrive—<a href="https://www.theblockfoodhall.com/">the Block</a> in Annandale—and will soon open spinoffs in downtown DC and North Bethesda. Here he talks about changing careers, Instagram food, and his <em>poke</em> preferences.</p>
 <h3>You used to be an accountant. How did you end up operating food halls?</h3>
-<p>My parents and grandparents had Chinese restaurants before, so when I was younger, I was like, “I don’t want to do Chinese restaurants.” I went into the corporate world, did all the finance and accounting stuff, and then didn’t like the work/life balance. I always had a drive for eating and trying a lot of different food, so that’s when I decided to move back and start my own business [Taiwanese-inspired ice-cream purveyor <a href="https://www.snocreamcompany.com/">SnoCream Company</a>].</p><div id="emp-06abd" class="emp-action emp-ad" style="width:100%;text-align:center;"><style>#placement_517782_0_i{width:100%;max-width:550px;margin:0 auto;}</style>   
+<p>My parents and grandparents had Chinese restaurants before, so when I was younger, I was like, “I don’t want to do Chinese restaurants.” I went into the corporate world, did all the finance and accounting stuff, and then didn’t like the work/life balance. I always had a drive for eating and trying a lot of different food, so that’s when I decided to move back and start my own business [Taiwanese-inspired ice-cream purveyor <a href="https://www.snocreamcompany.com/">SnoCream Company</a>].</p><div id="emp-06abd" class="emp-action emp-ad" style="width:100%;text-align:center;"><style>#placement_517782_0_i{width:100%;max-width:550px;margin:0 auto;}</style>
                     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="97217f8ebf1d2ce8025ab605-text/javascript" data-jetpack-boost="ignore">
                         var rnd = Math.floor(Math.random()*10e6);
                         var pid517782 = rnd;
@@ -1146,14 +1146,14 @@ googletag.cmd.push(function () {
         <span class="btn social-button-twitter-text"><i class="fa fa-twitter"></i> Tweet</span>
     </a>
     </div>
-                        
+
             <div class="wash-authors">
-                
+
     <div class="row author author-213">
 
 <div class="col-sm-3 col-xs-4 col-xs-push-4 col-sm-push-9"><div class="force-crop-container-square"><img alt='Jessica Sidman' src="//www.washingtonian.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src='https://secure.gravatar.com/avatar/f4420099da94f354aba803f96ea538c1?s=192&#038;d=mm&#038;r=g' srcset="" data-srcset='https://secure.gravatar.com/avatar/f4420099da94f354aba803f96ea538c1?s=384&#038;d=mm&#038;r=g 2x' class='lazy lazy-hidden avatar avatar-192 photo img-circle float-right force-crop-contents-centered noscrollreveal' height='192' width='192' decoding='async'/><noscript><img alt='Jessica Sidman' src='https://secure.gravatar.com/avatar/f4420099da94f354aba803f96ea538c1?s=192&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f4420099da94f354aba803f96ea538c1?s=384&#038;d=mm&#038;r=g 2x' class='avatar avatar-192 photo img-circle float-right force-crop-contents-centered noscrollreveal' height='192' width='192' decoding='async'/></noscript></div></div>
             <div class="col-sm-9 col-xs-12 col-sm-pull-3">
-            
+
         <div class="name log-event" data-category="AuthorBioboxClick" data-action="name">
 
 <a href="https://www.washingtonian.com/author/jsidman/" class="bio">Jessica Sidman</a>
@@ -1164,21 +1164,21 @@ googletag.cmd.push(function () {
 
 <div class="author-social">
                             <span class="twitter"><a href="https://www.twitter.com/jsidman" class="generic log-event" data-category="AuthorBioboxClick" data-action="twitter" target="_blank"><i class="fa fa-twitter"></i></a></span>
-            
+
                             <span class="email"><a href="/cdn-cgi/l/email-protection#3f55191c0e0e0a04191c0e0f0a04191c47090b04191c47095b045e191c0e0e0f04191c090b04191c47080804191c47090e04191c47080c0457191c0e0f0a04191c0e0e0f04191c47090804191c47080b045051191c0e0f0a04191c47090e04191c47095a04191c470d5a045c191c0e0e0e04191c0e0f0604" class="generic log-event" data-category="AuthorBioboxClick" data-action="email" target="_blank"><i class="fa fa-envelope"></i></a></span>
-            
-            
-            
-            
+
+
+
+
         </div>
     </div>
 </div>
             </div>
-            
+
                     </div>
 
 </div>
-            
+
             </div>
 
 <div class="col-md-4 col-xs-12 sidebar">
@@ -1195,13 +1195,13 @@ googletag.cmd.push(function () {
         </div>
                             </div>
                 </div>
-                    
+
         <div class="hidden-xs">
             <!-- Most Popular Sidebar Sitewide-->
 
 <div class="wash-sidebar most-popular margin-bottom-30" id="most-popular-sidebar">
                 <h3 class="wash-sidebar__title">Most Popular in Food</h3>
-            
+
                 <div class="wash-sidebar__item">
                     <div class="row">
                        <div class="col-xs-1"><span class="wash-sidebar__item-headline--index ">1</span></div>
@@ -1218,7 +1218,7 @@ googletag.cmd.push(function () {
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="wash-sidebar__item">
                     <div class="row">
                        <div class="col-xs-1"><span class="wash-sidebar__item-headline--index ">2</span></div>
@@ -1235,7 +1235,7 @@ googletag.cmd.push(function () {
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="wash-sidebar__item">
                     <div class="row">
                        <div class="col-xs-1"><span class="wash-sidebar__item-headline--index ">3</span></div>
@@ -1252,7 +1252,7 @@ googletag.cmd.push(function () {
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="wash-sidebar__item">
                     <div class="row">
                        <div class="col-xs-1"><span class="wash-sidebar__item-headline--index ">4</span></div>
@@ -1269,7 +1269,7 @@ googletag.cmd.push(function () {
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="wash-sidebar__item">
                     <div class="row">
                        <div class="col-xs-1"><span class="wash-sidebar__item-headline--index ">5</span></div>
@@ -1314,7 +1314,7 @@ googletag.cmd.push(function () {
 
 </div>
                     </div>
-                    
+
         </div>
         <span class="max-height-800">
             <div class="wash-sidebar">
@@ -1343,7 +1343,7 @@ googletag.cmd.push(function () {
                  <path d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z"/>
             </svg>
         </a>
-    </div>   
+    </div>
 </div>
         </span>
 </div>
@@ -1376,7 +1376,7 @@ googletag.cmd.push(function () {
                  <path d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z"/>
             </svg>
         </a>
-    </div>   
+    </div>
 </div>
         </span>
 
@@ -1407,8 +1407,8 @@ googletag.cmd.push(function () {
         <!-- Read More Grid-->
 <script type="97217f8ebf1d2ce8025ab605-text/javascript">
   window._taboola = window._taboola || [];
-  _taboola.push({article:'auto'}); 
-  !function (e, f, u, i) { 
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
     if (!document.getElementById(i)){
       e.async = 1;
       e.src = u;
@@ -1421,9 +1421,9 @@ googletag.cmd.push(function () {
 </script>
 
 <div class="row wash-sidebar" id="related-posts-tags">
-    <div class="col-xs-12"> 
+    <div class="col-xs-12">
         <div id="taboola-below-article-thumbnails"></div>
-    </div>  
+    </div>
 </div>
 
 <script type="97217f8ebf1d2ce8025ab605-text/javascript">
@@ -1484,7 +1484,7 @@ googletag.cmd.push(function () {
         </div>
         </div></div></div>            </div>
         </div>
-    
+
         <div class="row wash-sidebar" id="related-posts-categories">
             <div class="col-md-12 col-xs-12">
                 <h3 class="wash-sidebar__title">More from Food</h3>
@@ -1857,7 +1857,7 @@ jQuery.scrollDepth();
 		});
 		}
 		/* End MonsterInsights Scroll Tracking */
-		
+
 </script><script type="97217f8ebf1d2ce8025ab605-text/javascript" id="eic_public-js-extra">
 /* <![CDATA[ */
 var eic_public = {"responsive_breakpoint":"300","responsive_layout":""};
@@ -1916,7 +1916,7 @@ var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":"
         </script>
         <script src="//rumcdn.geoedge.be/7e0554b8-6ac8-4d85-b781-8a3a3f9cfe5e/grumi-ip.js" async type="97217f8ebf1d2ce8025ab605-text/javascript"></script>
     		<script type="97217f8ebf1d2ce8025ab605-text/javascript">var omapi_data = {"object_id":808020,"object_key":"post","object_type":"post","term_ids":[4,10535,448199,425621,433461,4325,8318,125723],"wp_json":"https:\/\/admin.washingtonian.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"d910279672"};</script>
-		   
+
     <!-- Promo Modal -->
     <!-- <div id="promotion-modal" class="background-wash-grey promo-modal">
         <div class="promo-modal__wrapper promo-modal__body text-center" class="flex items-center">
@@ -1928,14 +1928,14 @@ var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":"
                     Get one year of the magazine and our January issue for $18!
                 </div>
                 <div class="promo-modal__text_2">One year of Washingtonian and a free mug for $18! </div>
-                
+
                 <div class="promo-modal__button___wrapper">
                     <a class="promo-modal__button" href="https://w1.buysub.com/pubs/WH/WSH/subscription_12for18_v2.jsp?cds_page_id=255849&cds_mag_code=WSH&id=1608069585654&lsid=33501559456079120&vid=1">SIGN UP</a>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>  -->
-    
+
 <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="97217f8ebf1d2ce8025ab605-|49" defer></script></body>
 </html>
 

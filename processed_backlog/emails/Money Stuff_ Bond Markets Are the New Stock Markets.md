@@ -7,65 +7,65 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Traditionally there are three main things you need to be a good bond dealer: A listed phone number. As a dealer, your job is to buy bonds fr
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bond trading
-    
-  
+
+
 
 Traditionally there are three main things you need to be a good bond dealer:
-	
-A listed phone number. As a dealer, your job is to buy bonds from people who want to sell them, and sell bonds to people who want to buy them. You rely on customers for your flow, and bonds have historically been a voice-traded market. You need customers to know that you are in the bond-dealing business, and to think of you when they want to trade bonds. 	
+
+A listed phone number. As a dealer, your job is to buy bonds from people who want to sell them, and sell bonds to people who want to buy them. You rely on customers for your flow, and bonds have historically been a voice-traded market. You need customers to know that you are in the bond-dealing business, and to think of you when they want to trade bonds. 
 Some idea of what bonds are worth. If the customers do call you up looking to sell you some bonds, they will expect you to give them a price.
   [1]
- If your price is too high, they will say “done, you buy, pleasure doing business with you,” and then you will own a bunch of bonds that you overpaid for and that you will end up selling at a loss. If your price is too low, they will say “ugh, you are so bad at this, Morgan Stanley bid three points higher,” you won’t do the trade and you will lose a customer. You need to bid a price that is high enough that the customer will want to trade, but low enough that you’ll make money. So you need to know what bonds are worth. This is partly a matter of long-term fundamental and economic analysis but it is also a matter of short-term understanding of the market. If you know another customer is looking to buy the bonds at 87, you can bid 86.5 for them and make a quick 50 cents. Again, the phone number comes in handy: The more you talk to other customers, and know about their holdings and desires and trades, the better you will be at setting a prices.	
+ If your price is too high, they will say “done, you buy, pleasure doing business with you,” and then you will own a bunch of bonds that you overpaid for and that you will end up selling at a loss. If your price is too low, they will say “ugh, you are so bad at this, Morgan Stanley bid three points higher,” you won’t do the trade and you will lose a customer. You need to bid a price that is high enough that the customer will want to trade, but low enough that you’ll make money. So you need to know what bonds are worth. This is partly a matter of long-term fundamental and economic analysis but it is also a matter of short-term understanding of the market. If you know another customer is looking to buy the bonds at 87, you can bid 86.5 for them and make a quick 50 cents. Again, the phone number comes in handy: The more you talk to other customers, and know about their holdings and desires and trades, the better you will be at setting a prices.
 Money. If the customers call you up looking to sell you some bonds, and you say “86.5,” and they say “done, you buy one million at 86.5,” then you will need to pay them $865,000 for the bonds. Then you will try to turn around and sell them to another customer for $870,000 and clip a quick $5,000, but you won’t always be able to do that. Lots of corporate bonds don’t trade all that often. You will need to be able to put many millions of dollars of your employer’s money into buying and holding bonds in inventory for a while, if you want to be in the bond dealing business. 
 
 Historically, in the US, this was a business done by investment banks and trading firms; eventually it became largely a business done by big universal Wall Street banks. Banks had famous brands and lots of salespeople to take customers out to dinner and get to know their needs, so customers knew to call them. They had lots of smart people who were good at pricing bonds, and their customer flow gave them a good sense of market prices. And, being banks, they had money.
@@ -97,37 +97,37 @@ At $67 billion Jupiter Asset Management, Mike Poole says the firm has been stepp
 
 I will say that if you knew a lot about the corporate bond market in, like, the 1960s, and then you knew nothing about the bond market since then, and you tried to guess what the effect of 60 years of improved computer technology would have on bond markets, your guess might be pretty accurate? Like in some ways this is a story of “independent electronic proprietary trading firms are competing with Wall Street’s biggest banks for bond trades.” But in other ways this is a story of “bond dealers in the US used to be mostly independent proprietary trading firms, and of course in the 1960s those firms traded by telephone and priced bonds using gut instinct and connoisseurship, while now they trade by computer and price bonds using algorithms.” 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private markets are the new public markets
-    
-  
+
+
 
 We are at a weird transition point in private stock markets. In the olden days, big companies usually had to go public, because public markets were where the money was. Public stock markets were far deeper than private ones, and so if you wanted to have a big company that could raise a lot of money, you needed to sell stock to public investors.
 That no longer seems to be all that true: There’s tons of money in private markets, from venture funds, private equity funds, SoftBank Group Corp., and public-market investors who are now also willing to invest in private companies. Strictly from a fundraising perspective, big tech companies can kind of stay private forever, and some do.
@@ -150,11 +150,11 @@ Some companies that have stayed private the longest, including Stripe, which is 
 
 It does seem like a headache for a company to spend a lot of time and energy coordinating trades of its stock; why not let an outside marketplace do that? On the other hand, if you are running a startup with an 11-digit valuation, you are probably quite particular about your product and user experience, and you might not want to give up control of something as fundamental as who owns your stock. 
 
-  
-    
+
+
       Archegos
-    
-  
+
+
 
 Classic “open market” stock manipulation
   [6]
@@ -184,30 +184,30 @@ I don’t know! Profitable off-ramps, sure, that sounds like manipulation. (Even
 “Pump and brag”? I mean? If you had Bill Hwang admitting in writing “I manipulated these stocks up to prices that I knew were not justified by the fundamentals, because I wanted to brag about it,” then I suppose that would qualify as market manipulation, but it is a truly wild thing to assert about a $36 billion portfolio. That is a lot of money to spend on … nothing? It is true that there’s something cool about Hwang having built a $36 billion fortune and lost it all in a week; like, that is a great story to tell at parties. (Or in prison?) But who sets out to do that?
 But “King of the universe type thinking” and “visions of grandeur”? Don’t those sound like “not manipulation”? Hwang’s defense will be of the form “I liked the stocks and thought they were undervalued,” and if you believe that then I think his aggressive buying does not count as manipulation. Manipulation here is a matter of intent; you’re allowed to buy stocks that you think are undervalued, even if your buying pushes the stocks up. (Not legal advice!) Obviously Hwang was in an important sense wrong about the stocks being undervalued — once he stopped buying, the prices collapsed — but the question is whether he believed in what he was doing. If he had “visions of grandeur” and “king of the universe type thinking,” doesn’t that just mean that he did believe he was right? 
 
-  
-    
+
+
       Hunterbrook
-    
-  
+
+
 
 If you are looking for news or analysis about Drake vs. Kendrick Lamar, you should look literally anywhere else; Money Stuff is probably the single worst possible source to read about rap beef.
   [7]
 
 However! We have talked a few times about Hunterbrook Media, the combination investigative journalism newsroom and hedge fund. (The New Yorker’s Clare Malone profiled Hunterbrook last week.) One thing about Hunterbrook’s model is that, the more it succeeds as a pure news organization — the more people just go to its website to read news and analysis — the better off it will be as a hedge fund. If Hunterbrook Media becomes everyone’s trusted news source, then when it breaks negative news about companies, people will believe it, and those companies’ stocks will fall. And that will be good for Hunterbrook Capital, which will presumably be shorting those stocks.
-And so it could be in Hunterbrook’s long-term interest to invest in some investigations that are not actionable, that do not lead to short bets against public companies, so long as those investigations build up audience and credibility for the news outlet. And in fact it appears to be 
+And so it could be in Hunterbrook’s long-term interest to invest in some investigations that are not actionable, that do not lead to short bets against public companies, so long as those investigations build up audience and credibility for the news outlet. And in fact it appears to be
 doing some investigations like that. You just want people to be clicking on Hunterbrook for news and investigations that they trust and enjoy, rather than thinking of it as a short-selling hedge fund with an agenda behind every story.
 Anyway a reader sent me this tweet from Hunterbrook’s account about how “Drake appears to own an LLC called ‘Silence Policy’” and “at least 20 other shell companies.” There is a diagram. Look: It’s just a tweet. “We got a little distracted at work today,” added Hunterbrook co-founder Sam Koppelman. But did they? If Hunterbrook somehow published a financial investigation of Drake that got cited in a Kendrick Lamar diss track, that could be far better for its long-term prospects than, like, finding fraud at a big company. Pivot to Drake!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Insider Trading Allegations Hit Asia’s ‘
 Block-Trade King’ for Global Banks. For AI, a Few Seconds of Power Becomes a Booming Business. Giant Batteries Are Transforming the Way the U.S. Uses Electricity. Private Credit Faces Pain From High Interest Rates, Moody’s Says. The Private-Equity Deal That Flattened a Hospital Chain and Its Landlord. Bonuses Seen Soaring for Bond Desks, Traders in Early Prediction. Behind Nigeria’s Arrest of Binance Employee, Claims of a Bribe Request. Gen Z Sinks Deeper Into Debt. Richest NJ Neighborhood Fights Plan for Low-Cost Homes on Toxic Dump. The Office-Market Meltdown Comes for Trump’s Prized Wall Street Building. The Package King of Miami. Italian troops deployed against wild boar to defend ham industry. When is a charitable donation securities fraud? Baguette long.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am simplifying, and normally they will ask you to make a two-way market, putting more pressure on you to be right. Really if a sophisticated customer calls you for a two-way quote and your market is too high they will sell, if your market is too low they will buy, and if your market is too wide they will get mad at you.
 
 
@@ -223,55 +223,55 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Or it will coordinate tenders where the new investors buy directly from the old ones.
 
 
-  [6] This appears to be the term in US law for market manipulation that does *not* involve going around and lying about a stock. More common forms of market manipulation are, like, you buy some stock and 
+  [6] This appears to be the term in US law for market manipulation that does *not* involve going around and lying about a stock. More common forms of market manipulation are, like, you buy some stock and
 put out a fake press release saying the company is being taken over, etc.
 
 
   [7] Though if you have not seen Demi Adejuyigbe’s contribution, I can at least help you with that.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -282,46 +282,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl0iv3.6469/0be0edd6.gif" alt="" border="0" /></a>

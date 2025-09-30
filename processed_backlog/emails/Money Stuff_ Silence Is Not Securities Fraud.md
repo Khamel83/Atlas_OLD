@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         “Everything is securities fraud,” I like to say around here, meaning: Sometimes a public company does a bad thing, or has a bad thing happen
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Not everything is securities fraud
-    
-  
+
+
 
 “Everything is securities fraud,” I like to say around here, meaning:
 	Sometimes a public company does a bad thing, or has a bad thing happen to it.	News of the bad thing comes out and the stock drops.	Shareholders sue, saying “you didn’t tell us about the bad thing in advance, so we bought the stock thinking there was no bad thing, but then we found out that there was a bad thing. We were defrauded; we overpaid for the stock because of your lies.”
@@ -81,37 +81,37 @@ The question in this case is whether the failure to disclose information require
 I guess that is the better reading of the actual words of the rule, though it is a weird reading of its intent. Omitting things that you’re required to disclose really does seem misleading. In any case, there you go, some things are not securities fraud.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Save Mart
-    
-  
+
+
 
 Merger agreements are long and boring and most people don’t read them all the way through. In theory, this might make them a good place for tricks. If you are selling your company, maybe you could try putting on page 47: “Notwithstanding anything else in this agreement, Buyer shall pay Seller an amount in cash equal to the product of (1) the Purchase Price and (2) two (2).” Maybe no one will notice, everyone will sign the contract, you’ll get to closing, the buyer will hand you a check for the agreed purchase price, and you’ll say “no actually on page 47 it says you have to give me twice this amount.” The buyer will flip to page 47 and say “huh I missed that but come on, that was not the deal,” you will say “no, it was the deal, it’s right there in the contract,” you’ll go to court, and the judge will say “well this is mighty weird but a contract is a contract so here’s your money.”
 In practice, you do not hear much about this sort of thing in big mergers and acquisitions, for several reasons:
@@ -145,7 +145,7 @@ Kingswood and the sellers then went to the actual Delaware Chancery Court, which
 To be fair, this is not exactly a trick in the contract; it’s a trick in the balance sheet, or perhaps a tricky interaction between the two. Indap quotes the Kingswood deal guy:
 
 We were surprised that the seller didn’t put any SSI debt in their definition of indebtedness as of the closing, and our view was, if that’s what they believed and we raised it, we thought it would be a contentious topic . . .
-Again, we had had a draft purchase agreement from them dating back to, you know, December that clearly laid out the debt of operating subsidiaries, as well as debt guaranteed by Save Mart was, in fact, indebtedness for purposes of the transaction. Again, it’s a very standard definition. So no, we assumed that they had read their own document that they drafted . . . 
+Again, we had had a draft purchase agreement from them dating back to, you know, December that clearly laid out the debt of operating subsidiaries, as well as debt guaranteed by Save Mart was, in fact, indebtedness for purposes of the transaction. Again, it’s a very standard definition. So no, we assumed that they had read their own document that they drafted . . .
 Because our perspective was, per the purchase agreement, SSI debt was to be included in indebtedness. For some reason, which we don’t know why, that appeared not to be the perspective of the seller at the time that they delivered the preclosing statement.
 
 Indap writes: “In other words, Kingswood had believed, all along prior to signing and closing, that the gross SSI debt belonged on Save Mart’s main balance sheet. But they decided to keep quiet about that until after the deal closed.”
@@ -153,11 +153,11 @@ I said above that you don’t often see trickiness in M&A in part because it is 
 And I said above that you don’t often see trickiness in part because, at least for private equity buyers, it’s a repeat game in which reputation is valuable. On the other hand, do you know what else is valuable? One hundred nine million dollars. If you are about to close a middle-market M&A deal for $40 million, and you get a mistaken balance sheet from the seller that will cause you to unfairly underpay by $500,000, you might, in the spirit of cooperation and fair dealing, email them back to say “hey you missed $500,000 here, let’s fix that.” And they’ll email back and say “thanks” and keep the $500,000 and think fondly of you.
 But if you get a mistaken balance sheet that will create a $109 million windfall for you, you might decide to keep the money. 
 
-  
-    
+
+
       Adam Neumann
-    
-  
+
+
 
 Adam Neumann founded WeWork Inc., a company built on short-term office rentals, happy hours, cool vibes, amazing tech-visionary patter and a tech valuation. He tried to take it public, failed, was ousted with a giant payout, and went off to start a new company called Flow that is roughly WeWork but apartments. (Apartment rentals, happy hours, vibes, patter, venture capitalist investors.)
 Meanwhile WeWork went bankrupt without Neumann’s patter (that may not actually be the reason), and Neumann started talking about maybe buying it back. Last month he apparently submitted a $500 million bid. I have no idea how seriously to take any of this, because “how serious is this” is always the wrong question with Adam Neumann, but last week Ben Bergman at Business Insider interviewed him and asked “what's the likelihood you think you'll be successful at acquiring WeWork?” and he gave a vintage Adam Neumann response:
@@ -167,11 +167,11 @@ So you take all those thoughts, you bring them back into Flow, you take the less
 
 “The future of living has working integrated into it” is a different sort of answer from “we have committed financing lined up,” but it is a very Adam Neumann sort of answer, and that sometimes works for him.
 
-  
-    
+
+
       Delve
-    
-  
+
+
 
 One possibility is that you should try to make your writing sound like a large language model wrote it:
 	Having an LLM write your stuff demonstrates that you understand how to use LLMs, which is perhaps the most useful general business skill in 2024.	Probably an LLM is going to read your stuff, to summarize it for your actual audience, so having it sound like an LLM makes it more legible and persuasive.	Even if a human does read your stuff, probably that human is reading a lot of LLM-generated text these days, so she’ll find your stuff more legible and persuasive if it sounds like an LLM.
@@ -189,15 +189,15 @@ The Y Combinator cofounder said in a reply on the post that he disliked the word
 
 Just, you know, never mind his aesthetic preferences: Should Paul Graham be more receptive to pitches that were written by ChatGPT, or ones that weren’t? If you’re a founder, shouldn’t you have ChatGPT write your cold emails to Paul Graham to free up more time for you to focus on operations? It’s possible that I don't understand business at all. I’m pretty sure the last appearance of the word “delve” in Money Stuff was in 2018, so I’m doing okay, or perhaps badly.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 America’s Bonds Are Getting Harder to Sell. Goldman’s Wall Street Machine Revs Up Driving Surprise Profit Surge. Franklin Templeton Turns Toward Private Investing as Mutual-Fund Business Shrinks.The Swedish kingmakers behind European private equity giant EQT. A Day in the Life of a Walmart Manager Who Makes $240,000 a Year. Crypto Trader Searched Web for ‘Fraud’ Before $110 Million Haul. Bull Case Fizzles for Big Banks to Earn Ever-More on Lending. US Regional Banks Dramatically Step Up Loans to Oil and Gas. Alleged Rent-Fixing of Apartments Nationwide Draws More Legal Scrutiny. Tesla to Cut Over 10% of Workforce in Global Retrenchment. LVMH succession plans accelerate as Arnault children step up. Bitcoin ‘Halving’ Will Deal a $10 Billion Blow to Crypto Miners. Thames Water Given June 12 Deadline to Gain Regulator’s Backing. Two Brothers, a Big Biotech Bet and an $8 Billion Payout. On Himalayan Hillsides Grows Japan’s Cold, Hard Cash. Wrong couple get divorced after solicitor ‘clicks wrong button.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also the lawyers have redlining technology, so you can’t drop a random adjustment into page 47 in the ninth draft of the contract and expect them not to notice.
 
 
@@ -210,48 +210,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Facts here come from Indap’s post, a Cleary Gottlieb client memo, and the arbitration and Chancery Court decisions. Some of my numbers differ from some of the sources for reasons that are not relevant to us (other adjustments, interest, etc.); for instance, the $40 million is about a $32.6 million check a $7 million escrow.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -262,46 +262,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckv2o1.6467/da54eeed.gif" alt="" border="0" /></a>

@@ -7,7 +7,7 @@
 
 # 403 Forbidden
 
-Unknown author • January 10, 2017 
+Unknown author • January 10, 2017
 
 ![403 Forbidden]()
 

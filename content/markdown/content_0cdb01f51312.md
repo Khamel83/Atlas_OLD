@@ -168,7 +168,7 @@ img.emoji {
 				outline-color: rgba( 255, 255, 255, 0.3);
 			}
 		}
-	
+
 </style>
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentyfifteen-ie-css'  href='https://www.1984produkts.com/civilwarroundtable/wordpress/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
@@ -180,7 +180,7 @@ img.emoji {
 <script type="text/javascript" src="http://web.archive.org/web/20201130073926js_/https://www.1984produkts.com/civilwarroundtable/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
 <link rel="https://api.w.org/" href="https://www.1984produkts.com/civilwarroundtable/wp-json/"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.1984produkts.com/civilwarroundtable/wordpress/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.1984produkts.com/civilwarroundtable/wordpress/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.1984produkts.com/civilwarroundtable/wordpress/wp-includes/wlwmanifest.xml"/>
 <link rel="prev" title="where souls were being branded with the shapes of their hope" href="http://web.archive.org/web/20201130073926/https://www.1984produkts.com/civilwarroundtable/2015/06/25/rudy/"/>
 <link rel="next" title="revised catalog of ships, partial" href="http://web.archive.org/web/20201130073926/https://www.1984produkts.com/civilwarroundtable/2015/08/30/revised-catalog-of-ships-partial/"/>
 <meta name="generator" content="WordPress 4.7"/>
@@ -276,9 +276,9 @@ body.custom-background { background-image: url("http://web.archive.org/web/20201
 <nav id="site-navigation" class="main-navigation" role="navigation">
 				<div class="menu-test-menu-container"><ul id="menu-test-menu" class="nav-menu"><li id="menu-item-3192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3192"><a href="http://web.archive.org/web/20201130073926/https://www.1984produkts.com/civilwarroundtable/about-your-dude/">re: your dude</a></li>
 </ul></div>			</nav><!-- .main-navigation -->
-		
-		
-		
+
+
+
 	</div><!-- .secondary -->
 
 </div><!-- .sidebar -->
@@ -289,7 +289,7 @@ body.custom-background { background-image: url("http://web.archive.org/web/20201
 		<main id="main" class="site-main" role="main">
 
 <article id="post-3118" class="post-3118 post type-post status-publish format-standard hentry category-wiry-cat">
-	
+
 	<header class="entry-header">
 		<h1 class="entry-title">all the vatos / never in a poem</h1>	</header><!-- .entry-header -->
 
@@ -648,7 +648,7 @@ body.custom-background { background-image: url("http://web.archive.org/web/20201
 <input type="hidden" name="comment_parent" id="comment_parent" value="0"/>
 </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="bfff86d8c9"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="247"/></p>			</form>
 			</div><!-- #respond -->
-	
+
 </div><!-- .comments-area -->
 
 <nav class="navigation post-navigation" role="navigation">

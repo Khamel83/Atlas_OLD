@@ -71,7 +71,7 @@ for just over $2 million, a solid success. Lucas Cranach the Elder’s Hercules 
 
  
 
-At Sotheby’s, for instance, Cornelis de Vos’s Portrait of a Young Girl at the Virginals was estimated at $600,000 and backstopped with an irrevocable bid. That early offer did not dampen the action, which drove the final selling price ( https://www.sothebys.com/en/buy/auction/2025/master-paintings-sculpture-part-i/portrait-of-a-young-girl-at-a-virginal?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to $2.04 million. The same pattern occurred with Tintoretto’s Portrait of a Young Man Wearing a Fur-Lined Cloak, which was sold 
+At Sotheby’s, for instance, Cornelis de Vos’s Portrait of a Young Girl at the Virginals was estimated at $600,000 and backstopped with an irrevocable bid. That early offer did not dampen the action, which drove the final selling price ( https://www.sothebys.com/en/buy/auction/2025/master-paintings-sculpture-part-i/portrait-of-a-young-girl-at-a-virginal?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to $2.04 million. The same pattern occurred with Tintoretto’s Portrait of a Young Man Wearing a Fur-Lined Cloak, which was sold
 ( https://www.sothebys.com/en/buy/auction/2025/master-paintings-sculpture-part-i/portrait-of-a-young-man-wearing-a-fur-lined-cloak?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) “naked,” as they say in the business, meaning without the protection of a guarantee of any kind. The estimate was
 $800,000, but the buyer thought $2.16 million was a good deal. A work attributed to Peter Paul Rubens, Profile Portrait of a Boy in Historical Costume, was estimated at $200,000. It had an irrevocable bid, too. The work sold for $582,000, which suggests some of the bidders thought that they might be able eventually demonstrate that the painting was indeed by Rubens, himself. 
 
@@ -115,7 +115,7 @@ Christie’s for $126,000, even though the initial estimate was only $30,000; an
 Switzerland, also performed well ( https://www.sothebys.com/en/buy/auction/2025/master-works-on-paper-from-five-centuries/the-falls-of-schaffausen-switzerland?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), making $336,000. The only strong performance in the 19th century European art sale at Sotheby’s was Henry Scott Tuke’s Lovers of the Sun, from 1923, estimated at $150,000 but selling for a
 very ( https://www.sothebys.com/en/buy/auction/2025/19th-century-european-art/lovers-of-the-sun?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) respectable $372,000. 
 
- 
+
 
 Endnotes…
 -----------
@@ -200,6 +200,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU7NZloscpKGfC6Lsr3SE=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

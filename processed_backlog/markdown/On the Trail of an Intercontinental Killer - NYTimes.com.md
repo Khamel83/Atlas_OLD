@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • January 08, 2012 
+Unknown author • January 08, 2012
 
 ![nytimes.com]()
 

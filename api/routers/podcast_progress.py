@@ -15,21 +15,21 @@ router = APIRouter()
 
 class PodcastProgressTracker:
     """Tracks progress for the 37 prioritized podcasts"""
-    
+
     def __init__(self, db_path="atlas.db", prioritized_csv_path="config/podcasts_prioritized_updated.csv"):
         self.db_path = db_path
         self.prioritized_csv_path = prioritized_csv_path
         self.prioritized_podcasts = self.load_prioritized_podcasts()
-    
+
     def load_prioritized_podcasts(self) -> List[Dict[str, Any]]:
         """Load prioritized podcasts from CSV"""
         podcasts = []
-        
+
         try:
             # Get absolute path relative to project root
             project_root = Path(__file__).parent.parent.parent
             csv_path = project_root / self.prioritized_csv_path
-            
+
             with open(csv_path, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
@@ -43,18 +43,18 @@ class PodcastProgressTracker:
                     })
         except Exception as e:
             print(f"Error loading prioritized podcasts: {e}")
-        
+
         return [p for p in podcasts if not p['excluded']]
-    
+
     def get_podcast_database_stats(self, podcast_name: str) -> Dict[str, Any]:
         """Get current stats for a podcast from the database"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            
+
             # Get podcast info
             cursor.execute("SELECT id, name FROM podcasts WHERE name = ?", (podcast_name,))
             podcast_row = cursor.fetchone()
-            
+
             if not podcast_row:
                 return {
                     'podcast_id': None,
@@ -64,40 +64,40 @@ class PodcastProgressTracker:
                     'last_updated': None,
                     'processing_status': 'not_found'
                 }
-            
+
             podcast_id = podcast_row[0]
-            
+
             # Count total episodes in content table
             cursor.execute("""
-                SELECT COUNT(*) FROM content 
-                WHERE content_type = 'podcast_episode' 
+                SELECT COUNT(*) FROM content
+                WHERE content_type = 'podcast_episode'
                 AND metadata LIKE ?
             """, (f'%"{podcast_name}"%',))
             total_episodes = cursor.fetchone()[0] or 0
-            
+
             # Count transcripts found
             cursor.execute("""
-                SELECT COUNT(*) FROM content 
-                WHERE content_type = 'podcast_transcript' 
+                SELECT COUNT(*) FROM content
+                WHERE content_type = 'podcast_transcript'
                 AND title LIKE ?
             """, (f'%[TRANSCRIPT]%{podcast_name}%',))
             transcripts_found = cursor.fetchone()[0] or 0
-            
+
             # Check processing queue status
             cursor.execute("""
-                SELECT COUNT(*) FROM worker_jobs 
+                SELECT COUNT(*) FROM worker_jobs
                 WHERE data LIKE ? AND status = 'pending'
             """, (f'%"{podcast_name}"%',))
             pending_jobs = cursor.fetchone()[0] or 0
-            
+
             # Get last update
             cursor.execute("""
-                SELECT MAX(created_at) FROM content 
+                SELECT MAX(created_at) FROM content
                 WHERE (content_type = 'podcast_episode' OR content_type = 'podcast_transcript')
                 AND (title LIKE ? OR metadata LIKE ?)
             """, (f'%{podcast_name}%', f'%"{podcast_name}"%'))
             last_updated = cursor.fetchone()[0]
-            
+
             return {
                 'podcast_id': podcast_id,
                 'total_episodes': total_episodes,
@@ -106,47 +106,47 @@ class PodcastProgressTracker:
                 'last_updated': last_updated,
                 'processing_status': 'active' if pending_jobs > 0 else 'idle'
             }
-    
+
     def get_universal_queue_stats(self) -> Dict[str, Any]:
         """Get universal processing queue statistics"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            
+
             # Total jobs by status
             cursor.execute("""
-                SELECT status, COUNT(*) FROM worker_jobs 
+                SELECT status, COUNT(*) FROM worker_jobs
                 GROUP BY status
             """)
             status_counts = dict(cursor.fetchall())
-            
+
             # Jobs by type
             cursor.execute("""
-                SELECT type, COUNT(*) FROM worker_jobs 
+                SELECT type, COUNT(*) FROM worker_jobs
                 WHERE status = 'pending'
                 GROUP BY type
             """)
             pending_by_type = dict(cursor.fetchall())
-            
+
             # Recent completions
             cursor.execute("""
-                SELECT COUNT(*) FROM worker_jobs 
-                WHERE status = 'completed' 
+                SELECT COUNT(*) FROM worker_jobs
+                WHERE status = 'completed'
                 AND datetime(completed_at) > datetime('now', '-24 hours')
             """)
             completed_24h = cursor.fetchone()[0] or 0
-            
+
             return {
                 'status_counts': status_counts,
                 'pending_by_type': pending_by_type,
                 'completed_24h': completed_24h
             }
-    
+
     def calculate_progress_percentage(self, current: int, target: int) -> float:
         """Calculate progress percentage"""
         if target == 0:
             return 100.0 if current > 0 else 0.0
         return min((current / target) * 100, 100.0)
-    
+
     def get_progress_summary(self) -> Dict[str, Any]:
         """Get complete progress summary for all prioritized podcasts"""
         summary = {
@@ -160,33 +160,33 @@ class PodcastProgressTracker:
             'queue_stats': self.get_universal_queue_stats(),
             'last_updated': datetime.now().isoformat()
         }
-        
+
         for podcast in self.prioritized_podcasts:
             stats = self.get_podcast_database_stats(podcast['name'])
-            
+
             # Calculate progress
             progress_pct = self.calculate_progress_percentage(
-                stats['total_episodes'], 
+                stats['total_episodes'],
                 podcast['target_count']
             )
-            
+
             podcast_summary = {
                 **podcast,
                 **stats,
                 'progress_percentage': progress_pct,
                 'status': self.get_podcast_status(podcast, stats)
             }
-            
+
             summary['podcasts'].append(podcast_summary)
-            
+
             # Update totals
             if stats['total_episodes'] > 0:
                 summary['podcasts_with_content'] += 1
-            
+
             summary['total_target_episodes'] += podcast['target_count']
             summary['total_current_episodes'] += stats['total_episodes']
             summary['total_transcripts_found'] += stats['transcripts_found']
-            
+
             # Group by category
             category = podcast['category']
             if category not in summary['categories']:
@@ -197,23 +197,23 @@ class PodcastProgressTracker:
                     'current_episodes': 0,
                     'transcripts_found': 0
                 }
-            
+
             summary['categories'][category]['podcasts'] += 1
             summary['categories'][category]['target_episodes'] += podcast['target_count']
             summary['categories'][category]['current_episodes'] += stats['total_episodes']
             summary['categories'][category]['transcripts_found'] += stats['transcripts_found']
-        
+
         # Calculate overall progress
         summary['overall_progress'] = self.calculate_progress_percentage(
             summary['total_current_episodes'],
             summary['total_target_episodes']
         )
-        
+
         # Sort podcasts by progress (lowest first to highlight what needs work)
         summary['podcasts'].sort(key=lambda x: (x['progress_percentage'], x['total_episodes']))
-        
+
         return summary
-    
+
     def get_podcast_status(self, podcast: Dict[str, Any], stats: Dict[str, Any]) -> str:
         """Determine podcast status"""
         if stats['podcast_id'] is None:
@@ -233,18 +233,18 @@ async def podcast_progress_dashboard():
     try:
         tracker = PodcastProgressTracker()
         summary = tracker.get_progress_summary()
-        
+
         # Generate status color
         def get_status_color(status: str) -> str:
             colors = {
                 'complete': '#4CAF50',
-                'processing': '#2196F3', 
+                'processing': '#2196F3',
                 'partial': '#FF9800',
                 'not_started': '#f44336',
                 'not_found': '#9E9E9E'
             }
             return colors.get(status, '#9E9E9E')
-        
+
         # Generate category cards HTML
         category_cards = ""
         for category_name, category_data in summary['categories'].items():
@@ -266,13 +266,13 @@ async def podcast_progress_dashboard():
                 <div class="progress-text">{progress:.1f}% Complete</div>
             </div>
             """
-        
+
         # Generate podcast rows HTML
         podcast_rows = ""
         for podcast in summary['podcasts']:
             status_color = get_status_color(podcast['status'])
             transcript_badge = "📝" if podcast['transcript_only'] else "🎵"
-            
+
             podcast_rows += f"""
             <tr>
                 <td>
@@ -295,12 +295,12 @@ async def podcast_progress_dashboard():
                 <td>{podcast['pending_jobs']}</td>
             </tr>
             """
-        
+
         # Generate queue stats
         queue_stats = summary['queue_stats']
         total_pending = sum(queue_stats['status_counts'].get(status, 0) for status in ['pending'])
         total_running = sum(queue_stats['status_counts'].get(status, 0) for status in ['running'])
-        
+
         html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -505,7 +505,7 @@ async def podcast_progress_dashboard():
         <h1>🎙️ Atlas Podcast Progress</h1>
         <p>Tracking {summary['total_podcasts']} prioritized podcasts • {summary['overall_progress']:.1f}% complete</p>
     </div>
-    
+
     <div class="overview-stats">
         <div class="stat-card">
             <div class="stat-number">{summary['total_current_episodes']}</div>
@@ -524,7 +524,7 @@ async def podcast_progress_dashboard():
             <div class="stat-label">Active Podcasts</div>
         </div>
     </div>
-    
+
     <div class="queue-stats">
         <h3>⚡ Universal Processing Queue Status</h3>
         <div class="queue-grid">
@@ -542,12 +542,12 @@ async def podcast_progress_dashboard():
             </div>
         </div>
     </div>
-    
+
     <div class="section-title">📊 Progress by Category</div>
     <div class="categories-grid">
         {category_cards}
     </div>
-    
+
     <div class="detailed-table">
         <div class="table-header">
             <h2>📋 Detailed Podcast Status</h2>
@@ -568,16 +568,16 @@ async def podcast_progress_dashboard():
             </tbody>
         </table>
     </div>
-    
+
     <div class="last-updated">
         Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
     </div>
 </body>
 </html>
         """
-        
+
         return HTMLResponse(content=html_content)
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Dashboard error: {str(e)}")
 
@@ -597,22 +597,22 @@ async def get_podcast_details(podcast_name: str):
     try:
         tracker = PodcastProgressTracker()
         stats = tracker.get_podcast_database_stats(podcast_name)
-        
+
         # Find the podcast in prioritized list
         podcast_config = None
         for p in tracker.prioritized_podcasts:
             if p['name'] == podcast_name:
                 podcast_config = p
                 break
-        
+
         if not podcast_config:
             raise HTTPException(status_code=404, detail="Podcast not found in prioritized list")
-        
+
         return {
             'podcast': podcast_config,
             'stats': stats,
             'progress_percentage': tracker.calculate_progress_percentage(
-                stats['total_episodes'], 
+                stats['total_episodes'],
                 podcast_config['target_count']
             )
         }

@@ -138,7 +138,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20141101022006/htt
 
 <body>
           <div id="leaderboard">
-        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_leaderboard_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -149,7 +149,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_subscription_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -160,7 +160,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_pencil_slug_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -172,7 +172,7 @@ ec-ads-gpt">
 </div>
 
 </div>
-        <a href="/web/20141101022006/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141101022006im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>    
+        <a href="/web/20141101022006/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20141101022006im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>
   <div class="special-report-header-sponsor"><!-- Site: Web.  Zone: Special reports | Print --> <div id="gpt_sponsored_sr_logo_1"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_sponsored_sr_logo_1");  });
 </script><noscript>
   <a href="//web.archive.org/web/20141101022006/http://pubads.g.doubleclick.net/gampad/jump?iu=/5605/teg.fmsq/ajqj/a/p&amp;t=specialreport%3D20100717%26subs%3Dn%26wsub%3Dn%26sdn%3Dn%26!c%3D16564164&amp;sz=155x70&amp;c=993551637" target="_blank">
@@ -210,7 +210,7 @@ ec-ads-gpt">
       Jul 15th 2010    </time>
                       | <a href="/web/20141101022006/http://www.economist.com/printedition/2010-07-17" class="source">From the print edition</a>
             </aside>
-  
+
   <div class="main-content" itemprop="articleBody">
     <p>WHAT do a Swiss ski resort, an airbase in Afghanistan, a Nigerian fertiliser plant and North Korea&#39;s only mobile phone network have in common? They are all part of the far-flung empire built by Egypt&#39;s richest family. With a combined net worth of $13 billion, Onsi Sawiris and his three sons, each of whom runs one of the three main Orascom firms, stand out for the scale and scope of their business. The construction arm alone has a turnover of $3.8 billion. Four-fifths of this is generated outside Egypt, part of it as a global contractor for America&#39;s air force. Orascom Telecom operates networks in 11 countries, from Algeria to Pakistan to Zimbabwe, and Orascom Development owns and builds hotels, holiday villages and housing estates on three continents. </p>
 <p>The Sawirises have been ambitious and quick off the mark, but other Egyptian entrepreneurs too are expanding overseas, using skills honed by dealing with Egypt&#39;s often tangled bureaucracy to venture into risky but promising markets. Another family firm, Elsewedy Electric, started by selling light bulbs in the 1930s, moved into cable-making in the 1970s and is now the biggest producer of electrical components in Africa and the Middle East, with sales of close to $2 billion. In the past five years alone it has bought firms in Spain and Slovenia and built plants in Ghana, Ethiopia, Zambia, Brazil, Mexico and India. </p>
@@ -226,7 +226,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market 
+  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market
 ">
     <div class="content clearfix">
     <div id="ec-perfect-market-container-content"></div>  </div>

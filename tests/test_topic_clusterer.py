@@ -13,13 +13,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 def test_topic_clusterer():
     """Test the topic clusterer"""
     print("Testing Topic Clusterer...")
-    
+
     try:
         from content.topic_clusterer import TopicClusterer
-        
+
         # Create clusterer
         clusterer = TopicClusterer()
-        
+
         # Sample documents
         documents = [
             {
@@ -35,18 +35,18 @@ def test_topic_clusterer():
                 'content': 'Data science combines statistics, mathematics, and computer science to extract insights from data. It involves data cleaning, data analysis, and data visualization.'
             }
         ]
-        
+
         # Add documents
         clusterer.add_documents(documents)
         assert len(clusterer.documents) == 3
-        
+
         # Perform clustering
         clusters = clusterer.cluster_documents()
         assert isinstance(clusters, list)
-        
+
         # Check that clusters were created
         assert len(clusters) >= 1
-        
+
         # Check cluster structure
         for cluster in clusters:
             assert 'id' in cluster
@@ -55,10 +55,10 @@ def test_topic_clusterer():
             assert 'keywords' in cluster
             assert isinstance(cluster['documents'], list)
             assert isinstance(cluster['keywords'], list)
-        
+
         print("✅ Topic Clusterer test passed!")
         return True
-        
+
     except Exception as e:
         print(f"❌ Topic Clusterer test failed: {e}")
         return False
@@ -67,23 +67,23 @@ def main():
     """Run all tests"""
     print("Running Atlas Topic Clusterer Tests")
     print("=" * 35)
-    
+
     tests = [
         test_topic_clusterer
     ]
-    
+
     passed = 0
     failed = 0
-    
+
     for test in tests:
         if test():
             passed += 1
         else:
             failed += 1
-    
+
     print("\n" + "=" * 35)
     print(f"Test Results: {passed} passed, {failed} failed")
-    
+
     if failed == 0:
         print("🎉 All tests passed!")
         return True

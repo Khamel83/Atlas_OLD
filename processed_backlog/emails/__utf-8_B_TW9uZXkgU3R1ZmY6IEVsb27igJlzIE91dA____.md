@@ -7,120 +7,120 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Ugh, here we are again, huh?Oh ElonI think it is helpful to start with the big picture. Elon Musk is the richest person in
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Ugh, here we are again, huh?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 I think it is helpful to start with the big picture. Elon Musk is the richest person in the world, and, like many other rich people, he has some unusual and expensive hobbies. One of his hobbies is that he sometimes likes to pretend that he will acquire public companies.
   [1]
@@ -195,7 +195,7 @@ I like Twitter’s odds — its odds of getting specific performance and making
 Is it fun for him? If he manages to walk away having spent only millions in financing fees, millions in legal fees and say $1 billion in termination fees, was it worth it? What did he get out of this? The guy really seems to like being on Twitter, and he did make himself the main character in Twitter's drama for months on end. That’s nice for him I guess. Also he made the lives of Twitter’s executives and employees pretty miserable; as a fellow Twitter addict I can kind of see the appeal of that? I always assume that “everyone who works at Twitter hates the product and its users,” and I suppose this is a case of the richest and weirdest user getting some revenge on the employees. He also gave himself an excuse to sell a bunch of Tesla stock near the highs. He maybe got an edit button too? Maybe that’s worth a billion dollars to him?
 I tell you what though. I have learned my lesson. The next time Elon Musk announces that he is going to buy a public company — and he will do it again! — I will know not to believe him. I will definitely know not to write about it.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is an *unusual* rich-person hobby, but by no means an *unprecedented* one. Famously Donald Trump spent some time in the 1980s pretending he was going to buy public companies. But he did this as a way to make money — by extracting greenmail out of the companies — while Musk seems to do it mostly for fun.
 
 
@@ -217,114 +217,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Originally some of the $33.5 billion came from margin loans from his banks against his Tesla stock, but those have gone away and been replaced by equity.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

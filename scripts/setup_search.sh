@@ -41,13 +41,13 @@ check_docker() {
         echo "Please install Docker first: https://docs.docker.com/get-docker/"
         exit 1
     fi
-    
+
     if ! docker info &> /dev/null; then
         print_error "Docker daemon is not running"
         echo "Please start Docker and try again"
         exit 1
     fi
-    
+
     print_success "Docker is available"
 }
 
@@ -75,7 +75,7 @@ stop_existing_container() {
 
 start_meilisearch() {
     print_step "Starting Meilisearch container"
-    
+
     docker run -d \
         --name ${CONTAINER_NAME} \
         -p ${MEILISEARCH_PORT}:7700 \
@@ -83,13 +83,13 @@ start_meilisearch() {
         -e MEILI_NO_ANALYTICS=true \
         -v meilisearch_data:/meili_data \
         getmeili/meilisearch:v1.10.1
-    
+
     print_success "Meilisearch container started"
 }
 
 wait_for_meilisearch() {
     print_step "Waiting for Meilisearch to be ready"
-    
+
     for i in {1..30}; do
         if curl -s ${MEILISEARCH_HOST}/health &>/dev/null; then
             print_success "Meilisearch is ready"
@@ -98,30 +98,30 @@ wait_for_meilisearch() {
         echo -n "."
         sleep 1
     done
-    
+
     print_error "Meilisearch failed to start within 30 seconds"
     exit 1
 }
 
 update_env_config() {
     local env_file=".env"
-    
+
     if [ -f "$env_file" ]; then
         print_step "Updating .env configuration"
-        
+
         # Backup existing .env
         cp "$env_file" "${env_file}.backup.$(date +%Y%m%d_%H%M%S)"
-        
+
         # Remove existing Meilisearch config
         sed -i.tmp '/^MEILISEARCH_/d' "$env_file"
-        
+
         # Add new Meilisearch config
         echo "" >> "$env_file"
         echo "# Meilisearch Configuration" >> "$env_file"
         echo "MEILISEARCH_HOST=${MEILISEARCH_HOST}" >> "$env_file"
         echo "MEILISEARCH_INDEX=atlas_content" >> "$env_file"
         echo "# MEILISEARCH_API_KEY=  # Optional: add API key for production" >> "$env_file"
-        
+
         print_success "Updated .env configuration"
     else
         print_warning ".env file not found"
@@ -157,13 +157,13 @@ show_next_steps() {
 
 show_status() {
     print_step "Checking Meilisearch status"
-    
+
     if docker ps --format 'table {{.Names}}\t{{.Status}}' | grep -q "^${CONTAINER_NAME}"; then
         print_success "Meilisearch container is running"
-        
+
         if curl -s ${MEILISEARCH_HOST}/health &>/dev/null; then
             print_success "Meilisearch service is healthy"
-            
+
             # Show basic stats if available
             if command -v python3 &> /dev/null; then
                 echo ""
@@ -202,7 +202,7 @@ show_help() {
 
 main() {
     local command="${1:-setup}"
-    
+
     case "$command" in
         "setup")
             print_step "Setting up Meilisearch for Atlas"

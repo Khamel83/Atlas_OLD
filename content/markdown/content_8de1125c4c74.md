@@ -27,11 +27,11 @@ function OptanonWrapper(){var t;window.infotrackInitialized||void 0===window.Inf
     </script>
 <meta name="infotrackSnippetVersion" content="7.3.1" data-tracker-key="infotrackSnippetVersion">
 <title>
-    
-      
+
+
         Are Extended Warranties Worth the Money? Here's What Dave Ramsey Thinks
-      
-    
+
+
   </title>
 
 <script type="text/javascript" src="http://web.archive.org/web/20241010112739js_/https://cdn-4.convertexperiments.com/js/10045690-10046166.js"></script>
@@ -119,9 +119,9 @@ function OptanonWrapper(){var t;window.infotrackInitialized||void 0===window.Inf
     "author": {
       "@type": "Person",
       "name": "Christy Bieber",
-      
+
         "description": "Christy Bieber is a full-time personal finance and legal writer with 15 years of experience. She has a JD from UCLA and is a former college instructor.",
-      
+
       "jobTitle": null,
       "sameAs": null,
       "image": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/christy-bieber-crop_deoRUNY.jpg?width=128&height=128",
@@ -188,14 +188,14 @@ function OptanonWrapper(){var t;window.infotrackInitialized||void 0===window.Inf
   "@type": "BreadcrumbList",
   "itemListElement": [
   {"@type": "ListItem", "position": 1, "name": "Knowledge", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com" }
-    
+
           ,
           {"@type": "ListItem", "position": 2, "name": "Personal-finance", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/" }
-      
+
           ,
           {"@type": "ListItem", "position": 3, "name": "Are Extended Warranties Worth the Money? Here&#x27;s What Dave Ramsey Thinks", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/" }
-      
-    
+
+
   ]
 }
 </script>

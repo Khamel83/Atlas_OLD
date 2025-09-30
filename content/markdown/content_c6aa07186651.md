@@ -13,9 +13,9 @@
   content--type-article
   context--slug-woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling
   page--type-news-item
-    
-  
-  
+
+
+
   edition--la
 
 edition--local     no-touch  ">
@@ -23,21 +23,21 @@ edition--local     no-touch  ">
         <meta charset="UTF-8">
         <title>
     Woman Allegedly Accuses Man With Arabic Surname Of Terrorist Plane Threat After He Ends 4-Day Fling - CBS Los Angeles</title>                <!-- Fly Version: 81bd348d2e6f7b11f83567ab55c09c50 -->
-            
-        
+
+
                           <meta http-equiv="origin-trial" content="AmtAue1qy0WZcnNRHnKQlcvSEjITSYWYxUsUV2v3ZOTe8x0RnUkMR08fdhsEsqUc+5eYM4ZCuPg62po9e1wgrgwAAABkeyJvcmlnaW4iOiJodHRwczovL3d3dy5jYnNuZXdzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSFRNTEludGVyZXN0VGFyZ2V0QXR0cmlidXRlIiwiZXhwaXJ5IjoxNzYyODE5MjAwfQ==">
-            
+
                           <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
-            
+
                           <meta name="color-scheme" content="only light">
-            
-            
+
+
       			      				<meta name="robots" content="index, follow, max-image-preview:large">
-      			
+
       			                <meta name="description" content="A 45-year-old Temple City woman is accused of providing false information to an airline in order to take revenge on a male passenger with whom she had a four-day fling.">
-            
+
                             <meta name="keywords" content="United Airlines">
-            
+
                             <meta name="news_keywords" content="United Airlines">
 
 <link rel="alternate" href="ios-app://334256223/https/www.cbsnews.com/losangeles/news/woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling/">
@@ -100,14 +100,14 @@ edition--local     no-touch  ">
       <script type="application/ld+json">
       {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.cbsnews.com\/losangeles\/","@type":"WebPage","@name":"CBSNews.com"}},{"@type":"ListItem","position":2,"name":"Local News","item":{"@id":"https:\/\/www.cbsnews.com\/losangeles\/local-news","@type":"CollectionPage","@name":"Local News"}},{"@type":"ListItem","position":3,"name":"Woman Allegedly Accuses Man With Arabic Surname Of Terrorist Plane Threat After He Ends 4-Day Fling","item":{"@id":"https:\/\/www.cbsnews.com\/losangeles\/news\/woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling\/","@name":"Woman Allegedly Accuses Man With Arabic Surname Of Terrorist Plane Threat After He Ends 4-Day Fling"}}]}
     </script>
-  
+
                     <meta name="origin" content="losangeles">
 
 <meta name="topic_id" content="28443408-f1f3-4ae0-9168-b11ec543c82c">
 
 <link rel="canonical" href="https://www.cbsnews.com/losangeles/news/woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling/">
-            
-            
+
+
                 <meta name="theme-color" content="#101010">
 <link rel="manifest" href="/manifest.json">
 
@@ -123,8 +123,8 @@ edition--local     no-touch  ">
 <link rel="preconnect" href="https://assets1.cbsnewsstatic.com">
             <link rel="preconnect" href="https://assets2.cbsnewsstatic.com">
             <link rel="preconnect" href="https://assets3.cbsnewsstatic.com">
-        
-        
+
+
                     <link rel="dns-prefetch" href="https://global.ketchcdn.com" data-no-header>
 <link rel="dns-prefetch" href="https://cdn.privacy.paramount.com" data-no-header>
 <script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/cbs_news/cbsnews/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();</script>
@@ -181,14 +181,14 @@ edition--local     no-touch  ">
                 });
             });
         </script>
-            
-                    
-        
+
+
+
                     <script>
 var CBSNEWS = CBSNEWS || {};
     CBSNEWS.features = {"pushNotificationsPrimer-us":false,"pushNotificationsPrimer":false,"pushNotificationsPrimer-amp":false,"leadVideoInArticleHeader":false,"smart-banner-SB_download-us":false,"smart-banner-SB_download":false,"pre-election-2022":true,"general-election-2022":false,"pushNotifications":true,"pushNotifications-us":true,"SB_soft-login-gate":false,"pushNotifications-newsletter_widget-us-desktop-news_item":false,"pushNotifications-newsletter_widget-us-mobile-news_item":false,"branded-subshow-60-minutes-overtime":true,"branded-subshow-60-minutes":true,"branded-subshow-face-the-nation":true,"branded-subshow-cbs-essentials":true,"branded-subshow-cbsvillage":true,"branded-subshow-sunday-morning":true,"branded-subshow-evening-news":true,"branded-subshow-cbs-mornings":true,"branded-subshow-48-hours":true,"branded-subshow":false,"pushNotifications-newsletter_widget":false,"viewability-desktop":true,"recirc-source":"chartbeat","freewheel-apple_news":true,"viewability-mobile-live_streaming_player":true,"viewability-desktop-live_streaming_player":true,"viewability-desktop-video":true,"viewability-mobile-video":true,"viewability":false,"freewheel-desktop":true,"freewheel-mobile":true,"freewheel-amp":true,"clickable_logo-android":true,"freewheel":true,"freewheel-feeds-swap-livestream-id":false,"pushNotifications-retries":[3,7,30],"pushNotifications-onPageDelay":15000,"60-minutes-full-episode-ab":false,"App-Tracking-Transparency-Framework-tvOS":true,"general-election-2020_georgia_senate_runoff":true,"general-election-2020_national_exit-poll_house":true,"general-election-2020_national_exit-poll_pres":true,"general-election-2020":true,"vpa-roku":"100:1|0:0","geo-regions-npa":["AT","BE","BG","CY","HR","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE","CH","GB"],"consent-app":false,"trueAnthem-us":true,"stickyHeader-app":false,"videoPreview-app":false,"videoPreview-local_app":false,"viewability-mobile-updating_story":false,"viewability-desktop-updating_story":false,"consent":true,"PnGpixel":25000,"qualtrics":25000,"cedexis":30000,"live-cbsn-rundown":true,"live-cbs-sports-hq-rundown":true,"optimizely":false,"optimizely-desktop-front_door":true,"optimizely-mobile-front_door":true,"optimizely-desktop-news_item":true,"optimizely-mobile-news_item":true,"optimizely-app-news_item":true,"optimizely-desktop-topic_door":true,"optimizely-mobile-topic_door":true,"election-2018":true,"initializeAdsTimeout":1000,"initializeConsentTimeout":10,"super-navigation":"Empty","cleanQueryString":false,"cleanQueryString-app":["adNetwork","adTargeting_campaign","adobe_mc","chromeless","optanonConsent","jsDebug","platform","size","htmlPreview","optimizely_token","optimizely_x","optimizely_x_audiences","optimizely_preview_layer_ids","optimizely_snippet"],"cleanQueryString-app-updating_story":["adNetwork","adTargeting_campaign","adobe_mc","chromeless","optanonConsent","jsDebug","setDevice","version","platform","size","htmlPreview","optimizely_token","optimizely_x","optimizely_x_audiences","optimizely_preview_layer_ids","optimizely_snippet"],"autoplay-mobile":true,"beforeinstallprompt":false,"consentGeo":false,"unload-beacon-app":false,"avia-open-measurement":true,"avia-Nielsen":false,"preload:consent-base":false,"preload:consent-extra":false,"preload:ad":false,"preload:demdex":true,"preload:tealium":false,"optimizely-desktop-undefined":true,"optimizely-mobile-undefined":true,"optimizely-desktop-video":true,"optimizely-mobile-video":true,"smart-banner-SB_soft-login-gate":false,"google-analytics-us":false,"adsBidBarrel":"v3.6.0","flipp-news_item":false,"liveTvButtonInHeader":"50:1|50:0","katysTest":"50:0|25:1|25:2","general-2022":true,"general-election-2022_midterms_exit-poll":true,"general-election-2022_georgia_senate_runoff":true,"fb_pixel":false,"performance-timing":false,"smart-banner-SB_download-amp":false,"geo-regions-gdpr":["AT","BE","BG","CY","HR","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE","CH","GB"],"use-geo-market-header":false,"viewability-mobile-news_item":"On","recirc-queryly-local-article":true,"draggable":true,"viewability-app-news_item":true,"stickyHeader-app-updating_story":true,"primaries-2024":true,"electionDemo":false,"author-bio-page":true,"pre-election-2024":true,"general-election-2024":true,"recirc-queryly":true,"general-election-2024-gov-allowlist":["DE","IN","MI","MO","NH","NC","ND","VT","WA","WV","UT"],"general-election-2024-senate-allowlist":["WA","CA","NV","MT","WV","UT","AZ","NM","ND","NE","TX","MN","MO","WI","MI","IN","TN","MS","OH","NY","PA","WV","VA","NY","VT","ME","MA","RI","CT","NJ","DE","MD","FL","HI"],"general-elections-2024-not-projected-text":false,"newsletterPromoEnabled":false,"factCheck":false,"cbs_auth_enabled":false,"newLocalSchema":false,"videoPreview":false,"csid_use_pluto_id":false,"newFooter":true,"cbs_delay_hero_player":true,"viewability-mobile-show_door":true,"storyRedesign":false,"airship-web-push":false,"article-skybox-expected":false,"weightedFeatures":["vpa-roku","liveTvButtonInHeader","katysTest"]};
 </script>
-                    
+
               <link rel="preload" href="/fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2" as="font" type="font/woff2" crossorigin="use-credentials">
     <link rel="preload" href="/fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2" as="font" type="font/woff2" crossorigin="use-credentials">
     <link rel="preload" href="/fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2" as="font" type="font/woff2" crossorigin="use-credentials">
@@ -197,10 +197,10 @@ var CBSNEWS = CBSNEWS || {};
 
 <link rel="preload" href="/fly/bundles/cbsnewscontent/css/article.min.css?v=81bd348d2e6f7b11f83567ab55c09c50" as="style">
       <link rel="stylesheet" href="/fly/bundles/cbsnewscontent/css/article.min.css?v=81bd348d2e6f7b11f83567ab55c09c50">
-    
+
     <link rel="preload" href="/fly/bundles/cbsnewscontent/css/responsive.min.css?v=81bd348d2e6f7b11f83567ab55c09c50" as="style">
     <link rel="stylesheet" href="/fly/bundles/cbsnewscontent/css/responsive.min.css?v=81bd348d2e6f7b11f83567ab55c09c50">
-  
+
   <style>
       </style>
 
@@ -211,7 +211,7 @@ window.flippxp = window.flippxp || {run: []};
        window.flippxp.registerSlot("#flipp-ux-slot-3n48n33", "CBS", 1191862, [ 260520 ]);
     });
 </script>            <style data-family="family--breaking-news">
-    
+
 .breaking-news{bottom:0;box-shadow:0 -4px 12px 0 rgba(0,0,0,.25);display:flex;height:0;left:0;margin:0;position:fixed;right:0;transition:height 1s ease-out,opacity 1s ease;transform:translateZ(0);z-index:7}.has__top-ad-container--display__sticky__mobile .breaking-news{bottom:70px}.has__top-ad-container--adhesion .breaking-news,body.embedded .breaking-news{display:none}.breaking-news a[href=""]{pointer-events:none}.breaking-news .breaking-news__icon--type-video-play{background-color:rgba(16,16,16,.35);border-radius:50%;fill:#fff;height:40px;position:absolute;width:40px;z-index:7}.breaking-news .breaking-news__headline-wrapper{max-height:100%;position:relative;width:100%}.breaking-news .breaking-news__headline-wrapper--wrapper{align-items:center;color:#fff;display:flex;flex-wrap:wrap;position:absolute;margin:16px 0 0 20px;width:90%}.breaking-news .breaking-news__label-container{font-family:"Proxima Nova",sans-serif;font-size:.94rem;line-height:24px;font-weight:bold;font-size:12px;align-items:center;display:inline-flex;letter-spacing:2px;margin-right:6px;max-height:32px;text-decoration:none;text-transform:uppercase}.breaking-news .breaking-news__label-container--type-live,.breaking-news .breaking-news__label-container:empty{display:none}.breaking-news .breaking-news__video-container{align-items:center;display:none;height:0;justify-content:center;position:relative}.breaking-news .breaking-news__video-container .breaking-news__video{max-height:90px}.breaking-news .breaking-news__headline-wrapper:before,.breaking-news .breaking-news__video-container:before{background:linear-gradient(270deg,#de3d05,#b60505);content:"";height:100%;position:absolute;width:100%}.breaking-news .breaking-news__video-container:before{background:linear-gradient(90deg,rgba(0,0,0,.2),rgba(166,6,6,.5) 50.31%,#b60505);z-index:7}.breaking-news--visible.smart-banner-breaking-news--visible .breaking-news,.device--type-amp .breaking-news{height:90px}.breaking-news--visible.smart-banner-breaking-news--visible .breaking-news .breaking-news__close,.device--type-amp .breaking-news .breaking-news__close{display:block}.breaking-news .breaking-news__label-icon{margin:auto 8px auto 0}.breaking-news .breaking-news__label-label--type-live{padding:0 0 0 22px;position:relative}.breaking-news .breaking-news__label-label--type-live:after,.breaking-news .breaking-news__label-label--type-live:before{content:"";position:absolute;top:calc(50% - 3px);left:6px;border-radius:50%;display:block;width:6px;height:6px;box-sizing:border-box}.breaking-news .breaking-news__label-label--type-live:before{background:#b60505}.breaking-news .breaking-news__label-label--type-live:after{border:1px solid #b60505;animation:pulse 4s ease-in-out 3s infinite}.breaking-news .breaking-news__headline{font-family:"Proxima Nova",sans-serif;font-size:1.94rem;line-height:41px;font-weight:900;color:#fff;display:block;flex:1 1 100%;font-size:13px;height:45px;line-height:13.65px;margin:0;overflow:hidden;text-overflow:ellipsis}.breaking-news .breaking-news__headline:hover{text-decoration:underline;color:hsla(0,0%,100%,.85)}.breaking-news .breaking-news__close{display:none;width:30px;height:30px;background:none;border-radius:50%;position:absolute;top:0;right:5px;border:none;fill:#f2f2f2;z-index:3}.breaking-news .breaking-news__close:hover{cursor:pointer}.breaking-news .breaking-news__close svg{height:32px;width:32px}.breaking-news[type=live] .breaking-news__video-container,.breaking-news[type=liveStreaming] .breaking-news__video-container{display:flex;height:90px}.breaking-news[type=live] .breaking-news__headline-wrapper--wrapper,.breaking-news[type=liveStreaming] .breaking-news__headline-wrapper--wrapper{margin-left:0}.device--type-amp .breaking-news .breaking-news__video-container{display:flex;height:90px}.device--type-amp .breaking-news .breaking-news__headline-wrapper--wrapper.has-video{margin-left:0}@media (min-width:768px){.breaking-news .breaking-news__label-container{background:#f2f2f2;border-radius:2px;color:#b60505;font-size:11px;line-height:normal;margin-bottom:5px;padding:3px 5px}.breaking-news .breaking-news__headline{font-size:17px;white-space:nowrap}.breaking-news .breaking-news__headline-wrapper--wrapper{margin-top:25px}.breaking-news .breaking-news__video-container .breaking-news__video{max-height:90px}.breaking-news .breaking-news__icon--type-video-play{height:50px;width:50px}}@media (min-width:1020px){.breaking-news .breaking-news__label-container{padding:5px 6px}.breaking-news .breaking-news__headline{font-size:24px;line-height:normal}.breaking-news .breaking-news__headline-wrapper--wrapper{margin-top:31px}.breaking-news .breaking-news__video-container .breaking-news__video{max-height:117px}.breaking-news--visible.smart-banner-breaking-news--visible .breaking-news{height:117px}.breaking-news--visible.smart-banner-breaking-news--visible .breaking-news .breaking-news__close{display:block}.breaking-news .breaking-news__content-wrapper:before,.breaking-news .breaking-news__video-container:before{height:117px}.breaking-news[type=live] .breaking-news__video-container,.breaking-news[type=liveStreaming] .breaking-news__video-container{display:flex;height:117px}.breaking-news[type=live] .breaking-news__headline-wrapper--wrapper,.breaking-news[type=liveStreaming] .breaking-news__headline-wrapper--wrapper{margin-left:0}}
 
 body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling/"] { display: none; }
@@ -236,7 +236,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
     document.getElementById('ieblock').setAttribute('style', 'background-color: #B60505; color: #F5F5F5; font-size: 20px; font-family: sans-serif; padding: 100px 100px');
   }
 </script>
-    
+
           <header data-component="navigation" data-navigation-options='{"pageTypes":["live_streaming_player","show_door","video","video_playlist","front_door"]}' id="site-header:11" role="banner" class="site-header__container site-header__container--sticky site-header__container nocontent lazyload ">
   <div class="site-nav__wrapper">
     <div class="site-nav__toggle">
@@ -255,7 +255,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 <nav class="site-nav__container site-nav__container_left">
       <ul class="site-nav">
-                                                  
+
             <li class="site-nav__item ">
                               <a href="/" class="site-nav__item-title" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"latest"}'>
                   Latest
@@ -263,7 +263,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                       <use xlink:href="#icon-chevron-down"></use>
                     </svg>
                                   </a>
-              
+
                                               <ul class="site-nav__flyout column-count--2">
                                       <li class="site-nav__flyout-item ">
                                             <a class="site-nav__anchor" href="/us/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"latest", "clickText":"u.s."}'>
@@ -327,7 +327,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                     </li>
                                   </ul>
                           </li>
-                                                            
+
             <li class="site-nav__item ">
                               <a href="/cbslocal/" class="site-nav__item-title" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"local news"}'>
                   Local News
@@ -335,7 +335,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                       <use xlink:href="#icon-chevron-down"></use>
                     </svg>
                                   </a>
-              
+
                                               <ul class="site-nav__flyout column-count--2">
                                       <li class="site-nav__flyout-item ">
                                             <a class="site-nav__anchor" href="/baltimore/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"local news", "clickText":"baltimore"}'>
@@ -409,7 +409,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                     </li>
                                   </ul>
                           </li>
-                                                                                      
+
             <li class="site-nav__item is--live">
                               <a href="/live/" class="site-nav__item-title" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"live"}'>
                   Live
@@ -417,7 +417,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                       <use xlink:href="#icon-chevron-down"></use>
                     </svg>
                                   </a>
-              
+
                                               <ul class="site-nav__flyout column-count--2">
                                       <li class="site-nav__flyout-item ">
                                             <a class="site-nav__anchor" href="/live/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"live", "clickText":"cbs news 24/7"}'>
@@ -506,7 +506,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                     </li>
                                   </ul>
                           </li>
-                                                            
+
             <li class="site-nav__item ">
                               <a href="#" class="site-nav__item-title" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"shows"}'>
                   Shows
@@ -514,7 +514,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                       <use xlink:href="#icon-chevron-down"></use>
                     </svg>
                                   </a>
-              
+
                                               <ul class="site-nav__flyout column-count--2">
                                       <li class="site-nav__flyout-item ">
                                             <a class="site-nav__anchor" href="/48-hours/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"shows", "clickText":"48 hours"}'>
@@ -583,14 +583,14 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                     </li>
                                   </ul>
                           </li>
-                                                            
+
             <li class="site-nav__item ">
                               <span class="site-nav__item-title">
                   <svg viewbox="0 0 16 16" class="site-nav__item-icon site-nav__item-icon--type-more" aria-hidden="true">
                     <use xlink:href="#icon-nav-more"></use>
                   </svg>
                 </span>
-              
+
                                               <ul class="site-nav__flyout column-count--2">
                                       <li class="site-nav__flyout-item ">
                                             <a class="site-nav__anchor" href="/cbs-investigates/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"more", "clickText":"cbs news investigates"}'>
@@ -681,7 +681,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 <div class="site-logo__container">
       <a href="/" rel="home" aria-label="Go to CBS News National home page" class="site-nav__anchor site-logo__icon" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"cbs news logo"}'>
-        
+
 <svg viewbox="0 0 230 32" class="site-logo__icon" aria-hidden="true">
   <use xlink:href="#logo-cbs-news-horizontal"></use>
 </svg>
@@ -692,7 +692,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 <nav class="site-nav__container site-nav__container_right">
       <ul class="site-nav">
         <li class="site-nav__item">
-          
+
           <a href="#search-form:" class="site-nav__anchor site-nav__item--search-link" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"global nav","moduleAction":"click","moduleLocation":"search icon"}' aria-label="Open search form">
             <svg viewbox="0 0 32 32" class="site-nav__item-icon site-nav__item-icon--type-search" aria-hidden="true">
               <use xlink:href="#icon-search"></use>
@@ -725,7 +725,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 <header class="component header header--with-sub-navigation component--topic- component--view-header-with-sub-navigation is--nonbrand " id="component-losangeles-subnav">
     <div class="component__item-wrapper">
-      
+
               <div class="site-header__container site-header__container--sticky nocontent is--header-component-subnav ">
           <div class="site-nav__wrapper">
             <nav class="site-nav__container">
@@ -737,8 +737,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                   </li>
 
 <li class="site-nav__item separator">|</li>
-                
-                                            
+
+
   <li class="site-nav__item" data-flyout="news-flyout">
                           <a class="site-nav__item-title nav-item--has-flyout" href="/losangeles/local-news/" data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"sub nav","moduleAction":"click","moduleLocation":"news"}'>
           News
@@ -799,7 +799,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
             </nav>
 
 <div class="site-nav__weather">
-                
+
 <a href="/losangeles/weather/" class=" site-nav__weather-anchor lazyload" data-current-weather-options='{"url":"https:\/\/api.weather.com\/v3\/wx\/observations\/current?geocode=34.052234,-118.243685&amp;units=e&amp;language=en-US&amp;format=json&amp;apiKey=2e7f487ccb2849f8bf487ccb28f9f84b","fieldMap":{".current-temperature":"temperature",".current-weather-icon::src":"iconCode"}}' data-component='["current-weather"]' data-track-action='{"linkName":"navigation interactions","moduleCampaign":"navigation interactions","moduleName":"sub nav","moduleAction":"click","moduleLocation":"weather icon"}'>
   <div class="current-weather-icon__wrapper">
     <img class="current-weather-icon">
@@ -882,9 +882,9 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
         </svg>
       </div>
     </div>
-  
-                                               
-    
+
+
+
     <div id="weather-flyout" class="site-nav__flyout-wrapper subnav-flyout">
       <ul class="site-nav__flyout ">
                           <li class="site-nav__flyout-item ">
@@ -905,9 +905,9 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
         </svg>
       </div>
     </div>
-  
-                                               
-              
+
+
+
     <div id="sports-flyout" class="site-nav__flyout-wrapper subnav-flyout">
       <ul class="site-nav__flyout column-count--2">
                           <li class="site-nav__flyout-item ">
@@ -983,9 +983,9 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
         </svg>
       </div>
     </div>
-  
-                                                                           
-              
+
+
+
     <div id="kcal-news-shows-flyout" class="site-nav__flyout-wrapper subnav-flyout">
       <ul class="site-nav__flyout column-count--2">
                           <li class="site-nav__flyout-item ">
@@ -1041,9 +1041,9 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
         </svg>
       </div>
     </div>
-  
-                                               
-              
+
+
+
     <div id="last-item-flyout" class="site-nav__flyout-wrapper subnav-flyout">
       <ul class="site-nav__flyout column-count--2">
                           <li class="site-nav__flyout-item ">
@@ -1120,21 +1120,21 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
     </svg>
   </button>
 </figure>
-    
+
         <div class="container slug--woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling type--content-article">
   <div class="row">
-    
+
             <div class="row">
-    
+
                     <div class="col-12 ">
                                             <div class="row">
-                            
-    
-            
+
+
+
                                     <div class="col-8 ">
-                    
-                                                                                                                                
-                                                                            
+
+
+
 <article id="article-0" data-index="0" data-path="/losangeles/news/woman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling/" class="content content-article lazyload">
 
 <div class="content__promo-image-wrapper" data-sort-time="1325291460000" data-update-time="1325291460000"></div>
@@ -1144,9 +1144,9 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 <div class="item--asset-wrapper ">
                     <a href="https://www.cbsnews.com/losangeles/local-news-los-angeles?ftag=CNM-16-10abg0d" class="item--asset-label is-topic 1" data-invalid-url-rewritten-http="">Los Angeles</a>
-        
-                                    
-        
+
+
+
             </div>
 
 <h1 class="content__title ">Woman Allegedly Accuses Man With Arabic Surname Of Terrorist Plane Threat After He Ends 4-Day Fling</h1>
@@ -1165,7 +1165,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 <ul class="sharebar">
       <li class="sharebar__button-container sharebar__button-container--service  ">
-      
+
             <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.cbsnews.com%2Flosangeles%2Fnews%2Fwoman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling%2F" class="sharebar__button sharebar__button--type-facebook lazyload" title="facebook" target="_blank" data-component="popups" rel="noopener">
                 <svg viewbox="0 0 32 32" class="sharebar__icon sharebar__icon--facebook" aria-hidden="true">
         <use xlink:href="#icon-social-facebook"></use>
@@ -1174,7 +1174,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 </li>
       <li class="sharebar__button-container sharebar__button-container--service  ">
-      
+
             <a href="https://twitter.com/intent/tweet?related=cbsnews,kcalnews&amp;via=kcalnews&amp;text=Woman%20Allegedly%20Accuses%20Man%20With%20Arabic%20Surname%20Of%20Terrorist%20Plane%20Threat%20After%20He%20Ends%204-Day%20Fling&amp;url=https%3A%2F%2Fwww.cbsnews.com%2Flosangeles%2Fnews%2Fwoman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling%2F" class="sharebar__button sharebar__button--type-twitter lazyload" title="twitter" target="_blank" data-component="popups" rel="noopener">
                 <svg viewbox="0 0 32 32" class="sharebar__icon sharebar__icon--twitter" aria-hidden="true">
         <use xlink:href="#icon-social-twitter"></use>
@@ -1183,7 +1183,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 
 </li>
       <li class="sharebar__button-container sharebar__button-container--service  ">
-      
+
             <a href="https://share.flipboard.com/bookmarklet/popout?v=2&amp;utm_source=www.cbsnews.com&amp;utm_medium=article-share&amp;utm_campaign=tools&amp;title=Woman%20Allegedly%20Accuses%20Man%20With%20Arabic%20Surname%20Of%20Terrorist%20Plane%20Threat%20After%20He%20Ends%204-Day%20Fling&amp;url=https%3A%2F%2Fwww.cbsnews.com%2Flosangeles%2Fnews%2Fwoman-allegedly-accuses-man-with-arabic-surname-of-terrorist-plane-threat-after-he-ends-4-day-fling%2F" class="sharebar__button sharebar__button--type-flipboard lazyload" title="flipboard" target="_blank" data-component="popups" rel="noopener">
                 <svg viewbox="0 0 32 32" class="sharebar__icon sharebar__icon--flipboard" aria-hidden="true">
         <use xlink:href="#icon-social-flipboard"></use>
@@ -1277,7 +1277,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
         display: block;
       }
     </style>
-      
+
     <!-- tags -->
   <ul class="content__tags">
           <li><a href="/losangeles/tag/United-Airlines/">United Airlines</a></li>
@@ -1299,14 +1299,14 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
   </article>
 
 </div>
-        
-            
+
+
                 <div class="col-4 nocontent">
 
 <section class="story__right-rail" id="component-story-right-rail-content" data-id="5766778b-0b34-4b78-844a-d2ef0afaac8f" data-slug="story-right-rail-content">
-            
-    
-  
+
+
+
 <style>
   .chip {
     background-image: url('/fly/bundles/cbsnewscore/images/chip-bgd/chip-bgd-cbs-news-losangeles.jpg');
@@ -1330,8 +1330,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 </div>
 
 <div class="component__item-wrapper">
-                                                          
-          
+
+
   <article class="item lazyload item--type-custom">
     <a href="https://www.cbsnews.com/losangeles/news/driver-hits-car-pedestrians-fiery-downtown-los-angeles-crash/?intcid=CNR-01-0623" class="item__anchor" draggable="false" ondragstart="return false;" data-invalid-url-rewritten-http="">
       <span class="img item__thumb item__thumb--crop-0"><img src="https://assets2.cbsnewsstatic.com/hub/i/r/2025/09/14/a7903b84-3404-457c-b120-5c307cd357a9/thumbnail/80x80/5393c251ff043feb9703cad769136fef/screenshot-2025-09-14-062703.png#" alt="Alleged DUI driver hits car, pedestrians in fiery downtown Los Angeles crash " class="lazyload lazyload" height="80" width="80" srcset="https://assets2.cbsnewsstatic.com/hub/i/r/2025/09/14/a7903b84-3404-457c-b120-5c307cd357a9/thumbnail/80x80/5393c251ff043feb9703cad769136fef/screenshot-2025-09-14-062703.png 1x" loading="lazy"></span>
@@ -1342,8 +1342,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
       </div>
     </a>
   </article>
-                                                  
-          
+
+
   <article class="item lazyload item--type-custom">
     <a href="https://www.cbsnews.com/losangeles/news/south-los-angeles-cargo-theft-eight-arrested/?intcid=CNR-01-0623" class="item__anchor" draggable="false" ondragstart="return false;" data-invalid-url-rewritten-http="">
       <span class="img item__thumb item__thumb--crop-0"><img src="https://assets2.cbsnewsstatic.com/hub/i/r/2025/09/13/1f24ddc0-17a3-40ab-ac70-8581e2963863/thumbnail/80x80/94aca541bff513e8750b56d343a89694/user75222-1757649121-media2.jpg#" alt="8 arrested in connection with Los Angeles cargo theft worth $1.4 million " class="lazyload lazyload" height="80" width="80" srcset="https://assets2.cbsnewsstatic.com/hub/i/r/2025/09/13/1f24ddc0-17a3-40ab-ac70-8581e2963863/thumbnail/80x80/94aca541bff513e8750b56d343a89694/user75222-1757649121-media2.jpg 1x, https://assets3.cbsnewsstatic.com/hub/i/2025/09/13/1f24ddc0-17a3-40ab-ac70-8581e2963863/user75222-1757649121-media2.jpg 2x" loading="lazy"></span>
@@ -1354,8 +1354,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
       </div>
     </a>
   </article>
-                                                  
-          
+
+
   <article class="item lazyload item--type-custom">
     <a href="https://www.cbsnews.com/losangeles/news/fullerton-jewelry-robbery-three-los-angeles-county-men-arrested/?intcid=CNR-01-0623" class="item__anchor" draggable="false" ondragstart="return false;" data-invalid-url-rewritten-http="">
       <span class="img item__thumb item__thumb--crop-0"><img src="https://assets3.cbsnewsstatic.com/hub/i/r/2024/11/26/b2324995-fec7-4d7f-aec9-6a054004cf3e/thumbnail/80x80/f329beec41cb625ed3d086c946991f65/gettyimages-1089860018.jpg#" alt="3 men arrested in connection with armed robbery in Orange County " class="lazyload lazyload" height="80" width="80" srcset="https://assets3.cbsnewsstatic.com/hub/i/r/2024/11/26/b2324995-fec7-4d7f-aec9-6a054004cf3e/thumbnail/80x80/f329beec41cb625ed3d086c946991f65/gettyimages-1089860018.jpg 1x, https://assets1.cbsnewsstatic.com/hub/i/2024/11/26/b2324995-fec7-4d7f-aec9-6a054004cf3e/gettyimages-1089860018.jpg 2x" loading="lazy"></span>
@@ -1366,8 +1366,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
       </div>
     </a>
   </article>
-                                                  
-          
+
+
   <article class="item lazyload item--type-custom">
     <a href="https://www.cbsnews.com/losangeles/news/congressman-brad-sherman-studio-city-iranian-woman-detained-ice/?intcid=CNR-01-0623" class="item__anchor" draggable="false" ondragstart="return false;" data-invalid-url-rewritten-http="">
       <span class="img item__thumb item__thumb--crop-0"><img src="https://assets1.cbsnewsstatic.com/hub/i/r/2025/09/01/721c29d1-7f9a-4e30-8e12-cdc0d7ee1c88/thumbnail/80x80/2e6cbccf3e1df083e16299fb78dc7454/screenshot-2025-08-31-221701.png#" alt="Southern California congressman joins fight for Studio City woman's release from ICE detainment " class="lazyload lazyload" height="80" width="80" srcset="https://assets1.cbsnewsstatic.com/hub/i/r/2025/09/01/721c29d1-7f9a-4e30-8e12-cdc0d7ee1c88/thumbnail/80x80/2e6cbccf3e1df083e16299fb78dc7454/screenshot-2025-08-31-221701.png 1x" loading="lazy"></span>
@@ -1378,8 +1378,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
       </div>
     </a>
   </article>
-        
-      
+
+
             </div>
   </section>
 
@@ -1391,25 +1391,25 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
                         </div>
             </div>
                 <div class="row">
-    
-            
+
+
                 <div class="col-12 nocontent">
 
 <section class="component component--view-bulk-component" id="component-taboola-local-article" data-id="c040bda9-7740-4f6a-a436-0dba2109d321" data-slug="taboola-local-article">
-  
+
       <div class="component__item-wrapper">
       <div data-taboola='{"mode":"thumbnails-f","placement":"Below Article Feed Redesign"}'></div>
     </div>
-  
+
   </section>
-        
-      
-        
+
+
+
                                                                   </div>
             </div>
                 <div class="row">
-    
-            
+
+
                 <div class="col-12 nocontent">
 
 </div>
@@ -1554,7 +1554,7 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
               <a href="https://www.cbs.com/showfeedback/" class="" rel="noopener">Feedback</a>
             </dd>
                         </dl>
-    
+
     </nav>
 
 <div class="FooterCopyright">
@@ -1626,8 +1626,8 @@ body .breaking-news[target-url="https://www.cbsnews.com/losangeles/news/woman-al
 <a href="#app" class="smart-banner-download__button smart-banner-download__button--close" aria-label="Continue in Browser" aria-controls="smart-banner-download" on="tap:amp-smart-banner-download.dismiss">Continue</a>
   </div>
 </div>
-    
-          
+
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none" class="svg-sprite">
   <defs>
     <g id="icon-arrow-up">
@@ -1990,7 +1990,7 @@ var require = {"baseUrl":"https://www.cbsnews.com/fly/bundles/cbsnewscore/js-bui
 <link rel="preconnect" href="https://securepubads.g.doubleclick.net" data-no-header>
   <link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin="use-credentials" data-no-header>
   <link rel="dns-prefetch" href="https://adservice.google.com" data-no-header>
-  
+
   <link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" data-no-header>
 
 <link rel="preconnect" href="https://c.amazon-adsystem.com" data-no-header>

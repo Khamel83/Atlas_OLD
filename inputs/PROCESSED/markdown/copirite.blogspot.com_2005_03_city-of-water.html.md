@@ -7,13 +7,13 @@
 
 # Blog not found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Blog not found]()
 
-Blog has been removed  
-  
-Sorry, the blog at copirite.blogspot.com has been removed. This address is not available for new blogs.  
-  
-Did you expect to see your blog here? See: 'I can't find my blog on the Web, where is it?' 
+Blog has been removed
+
+Sorry, the blog at copirite.blogspot.com has been removed. This address is not available for new blogs.
+
+Did you expect to see your blog here? See: 'I can't find my blog on the Web, where is it?'
 

@@ -43,7 +43,7 @@
 <script src="https://web.archive.org/web/20240402023304js_/https://www.cdc.gov/JScript/metrics/adobe/launch/b36c1852e229/2c674008a127/launch-04da70ea688d.min.js" async></script>
 	<title>Dental Caries Among Adults and Older Adults </title>
 		<meta name="description" content="Oral Health Surveillance Report: Trends in Dental Caries and Sealants, Tooth Retention, and Edentulism, United States, 1999â2004 to 2011â2016."/>		<meta name="keywords" content="tooth decay, cavities, dental caries, older adults, non-Hispanic black, Mexican American, Oral Health"/>						<meta name="robots" content="index, archive"/>
-		
+
 			<meta property="cdc:template_version" content="4.0"/>
 		<meta property="cdc:first_published" content="September 11, 2019"/>
 	<meta property="cdc:last_updated" content="June 28, 2019"/>
@@ -85,7 +85,7 @@ font-weight: bold;
 
 </style>		<!-- CSS Added Dynamically Here -->		<meta name="DC.date" content="2021-12-09T04:50:41Z"/>
 				<meta name="cdc:last_published" content="2021-12-10T19:29:58Z"/>
-				
+
 </head>
 <body class="no-js">
 	<div id="skipmenu">
@@ -183,7 +183,7 @@ font-weight: bold;
 									</div>
 			</div>
 						</div>
-			
+
 		<!-- Above Footer Start -->
 		<!-- Global Above Feature -->
 		<!-- Above Footer End -->
@@ -255,7 +255,7 @@ font-weight: bold;
 					</div>
 													</div>
 		</div>
-							
+
 					<div class="row d-none d-lg-block">
 				<div class="col pca">
 					<!-- Persistent Content Area Here -->
@@ -536,7 +536,7 @@ font-weight: bold;
 				</div>
 
 <!-- Above Footer Start -->
-		
+
 		<!-- Above Footer End -->
 				<footer class="" role="contentinfo" aria-label="Footer">
 							<div class="container-fluid footer-wrapper">
@@ -632,7 +632,7 @@ font-weight: bold;
 			</li>
 			<li class="card footer-mobile_connect" role="presentation">
 				<button role="tab" class="card-header tab collapsed " data-target="#footer-mobile-collapse-4" data-toggle="collapse" aria-expanded="false" id="footer-mobile-card-4">CONNECT WITH US</button>
-				<div class="collapse" id="footer-mobile-collapse-4" role="tabpanel" aria-hidden="true"> 
+				<div class="collapse" id="footer-mobile-collapse-4" role="tabpanel" aria-hidden="true">
 					<div class="card-body">
 						<ul class="bullet-list cc-4 lsp-out row">
 							<div class="col-12">
@@ -1133,13 +1133,13 @@ font-weight: bold;
 <!-- JS Added Dynamically Here -->
 
 <script>
-	
+
 	    s.pageName=document.title;
     s.channel="Oral Health";
-    
-    siteCatalyst.setLevel1("Chronic"); 
-    siteCatalyst.setLevel2("DOH"); 
-    siteCatalyst.setLevel3("Oral Health"); 	
+
+    siteCatalyst.setLevel1("Chronic");
+    siteCatalyst.setLevel2("DOH");
+    siteCatalyst.setLevel3("Oral Health");
 	</script>
 <script>
 	window.shortTitle = "Dental Caries Among Adults and Older Adults";

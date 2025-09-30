@@ -9,9 +9,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
+
 	<meta name="generator" content="WordPress 6.8.2" /> <!-- leave this for stats -->
-	
+
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://blogs.fangraphs.com/feed/" />
 	<link rel="alternate" type="text/xml" title="RSS .92" href="https://blogs.fangraphs.com/feed/rss/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://blogs.fangraphs.com/feed/atom/" />
@@ -20,7 +20,7 @@
 
 <title>Top 25 Prospects: Chicago White Sox | FanGraphs Baseball</title>
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" />
 <link rel="canonical" href="https://blogs.fangraphs.com/top-25-prospects-chicago-white-sox/" />
@@ -103,7 +103,7 @@ img.wp-smiley, img.emoji {
                     });
                 });
             </script>
-            
+
 <!-- CACHED HEAD --><meta name="theme-color" content="#50ae26" />
 <link rel="stylesheet" href="https://www.fangraphs.com/dist/css/head_section-style.css?v=e3900843d9af32cb8b88" />
 <link rel="stylesheet" href="https://www.fangraphs.com/dist/css/side_bar-style.css?v=e3900843d9af32cb8b88" />
@@ -146,7 +146,7 @@ img.wp-smiley, img.emoji {
 <div id="wrapper" class="blog-wrapper fg" data-blog="wp">
 <!-- CACHED HEADER -->
 <div id="top">
-  
+
 
 
 <div class="header-chat-alert-spacer" style="visibility: hidden"><a class="header-chat-alert-text"></a></div>
@@ -158,7 +158,7 @@ img.wp-smiley, img.emoji {
         <div class="top-logo sticky">
             <div class="top-logo-bkgd fg"><a href="http://www.fangraphs.com/" target="_top"><div class="top-logo-img fg"></div></a></div>
         </div>
-        
+
 <script>
 window.tudeLoaded = true;
 </script>
@@ -167,7 +167,7 @@ window.tudeLoaded = true;
 
 
         <div id="divHeaderChat" class="header-chat-alert fg"><a class="header-chat-alert-text"></a></div>
-        
+
     </header>
 </div>
 
@@ -190,11 +190,11 @@ window.tudeLoaded = true;
 
 <article>
 				<h1 class="posttitle" id="post-284514"><a href="https://blogs.fangraphs.com/top-25-prospects-chicago-white-sox/" rel="bookmark" title="Permanent link to Top 25 Prospects: Chicago White Sox">Top 25 Prospects: Chicago White Sox</a></h1>
-				
-					<div class="postmeta"> 
-						<div class="postmeta_author">by <a href="https://blogs.fangraphs.com/author/kiley-mcdaniel/" title="Posts by Kiley McDaniel" rel="author">Kiley McDaniel</a> 
+
+					<div class="postmeta">
+						<div class="postmeta_author">by <a href="https://blogs.fangraphs.com/author/kiley-mcdaniel/" title="Posts by Kiley McDaniel" rel="author">Kiley McDaniel</a>
 															<a href="//twitter.com/@kileymcd">
-								<img src="//www.fangraphs.com/images/sm_tw_200.png" class="author_twitter" />								</a> 
+								<img src="//www.fangraphs.com/images/sm_tw_200.png" class="author_twitter" />								</a>
 														</div>
 						<div>May 29, 2018</div>
 					</div>
@@ -220,10 +220,10 @@ window.tudeLoaded = true;
             <div>
                 <div class="team-lg">NL</div><table><tr><td><a href="http://www.fangraphs.com/blogs/top-32-prospects-atlanta-braves">ATL</a></td><td><a href="http://www.fangraphs.com/blogs/top-23-prospects-chicago-cubs">CHC</a></td><td><a href="http://www.fangraphs.com/blogs/prospect-reports-arizona-diamondbacks">ARI</a></td></tr><tr><td><a href="http://www.fangraphs.com/blogs/top-13-prospects-miami-marlins">MIA</a></td><td><a href="http://www.fangraphs.com/blogs/top-30-prospects-cincinnati-reds">CIN</a></td><td><a href="http://www.fangraphs.com/blogs/top-24-prospects-colorado-rockies">COL</a></td></tr><tr><td><a href="http://www.fangraphs.com/blogs/top-20-prospects-new-york-mets">NYM</a></td><td><a href="http://www.fangraphs.com/blogs/top-25-prospects-milwaukee-brewers">MIL</a></td><td><a href="http://www.fangraphs.com/blogs/top-21-prospects-los-angeles-dodgers">LAD</a></td></tr><tr><td><a href="http://www.fangraphs.com/blogs/top-33-prospects-philadelphia-phillies">PHI</a></td><td><a href="http://www.fangraphs.com/blogs/top-21-prospects-pittsburgh-pirates">PIT</a></td><td><a href="http://www.fangraphs.com/blogs/prospect-reports-san-diego-padres">SDP</a></td></tr><tr><td><a href="http://www.fangraphs.com/blogs/top-20-prospects-washington-nationals">WSN</a></td><td><a href="http://www.fangraphs.com/blogs/top-24-prospects-st-louis-cardinals">STL</a></td><td><a href="http://www.fangraphs.com/blogs/prospect-reports-san-francisco-giants">SFG</a></td></tr></table></div>
             </div></div></div><script>
-            
+
         </script>
         <style>
-            
+
         </style>
 
 
@@ -244,7 +244,7 @@ window.tudeLoaded = true;
     text-align: center;
     width: 100%;
 }
-/* 
+/*
 [class^="team-box-"] > div {
     display: inline-block;
     width: 48%;
@@ -1711,8 +1711,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
 <p style="text-align: center;"><span style="font-size: 150%; font-weight: 800; color: #50ae26;">System Overview</span></p>
 <p>The White Sox seem to have some clear tendencies in the types of prospects they have acquired during this rebuild overseen by GM Rick Hahn: power arms rather than command ones, power bats rather than contact ones, prospects with pedigree over late bloomers. It&#8217;s produced a top-heavy system with 10-12 premium prospects for whom it&#8217;s easy to see a role on a championship club followed by depth types that are more single-tool back-of-the-roster players with limited upside than projection types with big upside. By contrast, the Braves and Padres did the same thing in their rebuilds with top-tier prospects, largely speaking, and continued looking for upside with lower-level players as well.</p><div id="ezoic-pub-ad-placeholder-141" class="catchall300"></div>
 <p>That&#8217;s more just a description of what&#8217;s here than a criticism, as the top two prospects, Jimenez and Kopech, were headliners in key blockbuster trades that have performed even better than most expected. They&#8217;re the types of trades that dictate if a GM keeps his job and/or if a rebuild has a chance to work in the end. There has been a college lean to the organization&#8217;s top picks in recent years, so it&#8217;s possible that the top 10 guys here will be in Double-A or higher at the end of the year. With some of the core already in Chicago, it seems like the plan is to be competitive sooner than later.</p>
-<script>var SERVER_DATA = Object.assign(SERVER_DATA || {},{ playeridArr: ["sa856551","sa829713","sa736915","sa829031","sa657705","sa738344","sa3005187","sa737848","sa503669","sa830303","sa915622","sa827177","sa915590","sa602893","sa738926","16159","sa915698","sa875031","sa877349","sa550121","sa917932","18311","sa829000","sa3004051","sa875572","15640","sa737938","sa737534","sa738686","sa874080","sa658576","12983","sa918086","4949","sa829797","sa919409","sa875320","sa828680","16258","sa874145","sa738390","14897","sa830373","15126","sa913343","10603","sa3003396","sa658586","sa828696"]});</script>				
-				
+<script>var SERVER_DATA = Object.assign(SERVER_DATA || {},{ playeridArr: ["sa856551","sa829713","sa736915","sa829031","sa657705","sa738344","sa3005187","sa737848","sa503669","sa830303","sa915622","sa827177","sa915590","sa602893","sa738926","16159","sa915698","sa875031","sa877349","sa550121","sa917932","18311","sa829000","sa3004051","sa875572","15640","sa737938","sa737534","sa738686","sa874080","sa658576","12983","sa918086","4949","sa829797","sa919409","sa875320","sa828680","16258","sa874145","sa738390","14897","sa830373","15126","sa913343","10603","sa3003396","sa658586","sa828696"]});</script>
+
 				</div></article><br />
 
 </script>
@@ -1726,7 +1726,7 @@ Forbes has more pedigree than most of the players who appear in this space, havi
 	<div class="navnext" ga-on="click" ga-event-category="blog-nav" ga-event-action="blog-nav" ga-event-value="1"><a href="https://blogs.fangraphs.com/meg-rowley-fangraphs-chat-5-29-18/" rel="next">Meg Rowley FanGraphs Chat &#8211; 5/29/18</a></div>
 
 <div class="spacer_10"></div>
-				
+
 										<div class="abouta">
 										<p>
 						Kiley McDaniel has worked as an executive and scout, most recently for the Atlanta Braves, also for the New York Yankees, Baltimore Orioles and Pittsburgh Pirates. He's written for ESPN, Fox Sports and Baseball Prospectus. Follow him on <a href="https://twitter.com/#!/kileymcd">twitter</a>.					</p>
@@ -1763,7 +1763,7 @@ Forbes has more pedigree than most of the players who appear in this space, havi
                 </div>
                                 <div class="wpd-thread-list">
                     <div id='wpd-comm-5224661_0' class='comment byuser comment-author-nickgerli even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224661" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -1773,14 +1773,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224661' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
 </div>
 </div>
-    
+
     <div class="wpd-comment-text">
     <p>Not sure I get how Eloy only has 50 game power.</p>
 
@@ -1795,16 +1795,16 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224661_0'></div><div id='wpd-comm-5224670_5224661' class='comment byuser comment-author-barnard odd alt depth-2 wpd-comment wpd-reply wpd_comment_level-2'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224670" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -1814,8 +1814,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224670' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -1842,16 +1842,16 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224670_5224661'></div><div id='wpd-comm-5224680_5224670' class='comment byuser comment-author-nickgerli even depth-3 wpd-comment wpd-reply wpd_comment_level-3'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224680" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -1861,8 +1861,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224680' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -1889,16 +1889,16 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224680_5224670'></div><div id='wpd-comm-5224683_5224680' class='comment byuser comment-author-gards710 odd alt depth-4 wpd-comment wpd-reply wpd_comment_level-4'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224683" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -1908,8 +1908,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224683' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -1936,16 +1936,16 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224683_5224680'></div><div id='wpd-comm-5224695_5224683' class='comment byuser comment-author-nickgerli even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224695" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -1955,8 +1955,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224695' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -1983,14 +1983,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224695_5224683'></div></div><div id='wpd-comm-5224708_5224695' class='comment byuser comment-author-barnard odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224708" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2000,8 +2000,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224708' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2029,14 +2029,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224708_5224695'></div></div><div id='wpd-comm-5224718_5224708' class='comment byuser comment-author-yknotdisco even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224718" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2046,8 +2046,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224718' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2075,14 +2075,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224718_5224708'></div></div><div id='wpd-comm-5224722_5224718' class='comment byuser comment-author-barnard odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224722" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2092,8 +2092,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224722' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2120,14 +2120,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224722_5224718'></div></div><div id='wpd-comm-5224738_5224708' class='comment byuser comment-author-mbs2001 even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224738" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2137,8 +2137,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224738' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2166,14 +2166,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224738_5224708'></div></div><div id='wpd-comm-5224719_5224695' class='comment byuser comment-author-gards710 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224719" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2183,8 +2183,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224719' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2211,14 +2211,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224719_5224695'></div></div><div id='wpd-comm-5224739_5224719' class='comment byuser comment-author-mbs2001 even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224739" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2228,8 +2228,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224739' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2257,14 +2257,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224739_5224719'></div></div><div id='wpd-comm-5224737_5224695' class='comment byuser comment-author-mbs2001 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224737" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2274,8 +2274,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224737' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2302,14 +2302,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224737_5224695'></div></div><div id='wpd-comm-5224755_5224737' class='comment byuser comment-author-gards710 even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224755" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2319,8 +2319,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224755' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2349,14 +2349,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224755_5224737'></div></div><div id='wpd-comm-5224892_5224755' class='comment byuser comment-author-mbs2001 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224892" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2366,8 +2366,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224892' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2403,14 +2403,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224892_5224755'></div></div><div id='wpd-comm-5224949_5224892' class='comment byuser comment-author-gards710 even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224949" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2420,8 +2420,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224949' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2448,14 +2448,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224949_5224892'></div></div></div><div id='wpd-comm-5224686_5224680' class='comment byuser comment-author-jonvanderlugt odd alt depth-4 wpd-comment wpd-reply wpd_comment_level-4'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224686" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2465,8 +2465,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224686' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2493,16 +2493,16 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies" wpd-tooltip-position='left'>
     <i class='fas fa-chevron-up'></i>
 </div>
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224686_5224680'></div><div id='wpd-comm-5224697_5224686' class='comment byuser comment-author-nickgerli even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224697" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2512,8 +2512,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224697' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2540,14 +2540,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224697_5224686'></div></div><div id='wpd-comm-5224698_5224697' class='comment byuser comment-author-brians-sticky-sock odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224698" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2557,8 +2557,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224698' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2585,14 +2585,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224698_5224697'></div></div><div id='wpd-comm-5224701_5224697' class='comment byuser comment-author-sadtrombone even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224701" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2602,8 +2602,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224701' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2630,14 +2630,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224701_5224697'></div></div><div id='wpd-comm-5224726_5224686' class='comment byuser comment-author-sgp2204 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224726" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2647,8 +2647,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224726' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2676,14 +2676,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224726_5224686'></div></div><div id='wpd-comm-5224729_5224726' class='comment byuser comment-author-yknotdisco even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224729" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2693,8 +2693,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224729' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2721,14 +2721,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224729_5224726'></div></div><div id='wpd-comm-5224744_5224729' class='comment byuser comment-author-sgp2204 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224744" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2738,8 +2738,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224744' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2766,14 +2766,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224744_5224729'></div></div><div id='wpd-comm-5224756_5224744' class='comment byuser comment-author-yknotdisco even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224756" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2783,8 +2783,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224756' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2814,14 +2814,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224756_5224744'></div></div><div id='wpd-comm-5224741_5224726' class='comment byuser comment-author-mbs2001 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224741" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2831,8 +2831,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224741' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2859,14 +2859,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224741_5224726'></div></div><div id='wpd-comm-5224740_5224686' class='comment byuser comment-author-mbs2001 even depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224740" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2876,8 +2876,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224740' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2904,14 +2904,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224740_5224686'></div></div><div id='wpd-comm-5224895_5224740' class='comment byuser comment-author-mbs2001 odd alt depth-5 wpd-comment wpd-reply wpd_comment_level-5'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224895" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2921,8 +2921,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224895' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2949,14 +2949,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224895_5224740'></div></div></div></div><div id='wpd-comm-5224682_5224670' class='comment byuser comment-author-tedsoundarguments even depth-3 wpd-comment wpd-reply wpd_comment_level-3'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224682" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -2966,8 +2966,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224682' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -2994,14 +2994,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224682_5224670'></div></div></div><div id='wpd-comm-5224671_5224661' class='comment byuser comment-author-ronniedobbs odd alt depth-2 wpd-comment wpd-reply wpd_comment_level-2'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224671" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -3011,8 +3011,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224671' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -3039,14 +3039,14 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224671_5224661'></div></div><div id='wpd-comm-5224677_5224661' class='comment byuser comment-author-shauncore even depth-2 wpd-comment wpd-reply wpd_comment_level-2'><div class="wpd-comment-wrap wpd-blog-user wpd-blog-subscriber">
-    
+
     <div id="comment-5224677" class="wpd-comment-right">
     <div class="wpd-comment-header">
     <div class="wpd-comment-author ">
@@ -3056,8 +3056,8 @@ Forbes has more pedigree than most of the players who appear in this space, havi
     <i class='far fa-clock' aria-hidden='true'></i>
     7 years ago
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
     <div class="wpd-comment-link wpd-hidden">
     <div style='' class='comment_flag  wc_flag_tooltipster wpf-cta wpd-field-desc'  wpd-tooltip-position='left' wpd-tooltip-size='long' id='fc_5224677' wpd-tooltip='You can flag a comment by clicking its flag icon. Website admin will know that you reported it. Admins may or may not choose to remove the comment or block the author. And please don't worry, your report will be anonymous.'><i class='fas fa-flag'></i></div>
@@ -3084,10 +3084,10 @@ Forbes has more pedigree than most of the players who appear in this space, havi
         <svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='none' d='M0 0h24v24H0z'/><path d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z'/></svg>
     </div>
 </div>
-    
+
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-5224677_5224661'></div></div></div>                    <div class="wpdiscuz-comment-pagination">
@@ -3132,7 +3132,7 @@ Comments Are Loading Now!
 </script>
 
 </div>
-	
+
 
 <!-- </div> -->
 
@@ -3166,7 +3166,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         theme: 'snow',
         debug: 'error'
         };
-        
+
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://blogs.fangraphs.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.33" id="wpdiscuz-combo-js-js"></script>
@@ -3210,7 +3210,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         and play-by-play data provided by Sports Info Solutions.
         </div>
     </div>
-    
+
     <div class="footer-credits-item item-half-wide">
         <a href="http://www.mlb.com" class="footer-credits-item-name">
             <img src="//www.fangraphs.com/images/mlb_logo.png" alt="mlb logo" /></a>
@@ -3308,7 +3308,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
                     else if (!!window.ezstandalone == false && !!window.ayManagerEnv == false) {
                         if (userType == '1') {userType = 'Registered Ad Block';}
                         else {userType = 'Ad Block'}
-                    }                    
+                    }
                     else if (userType == '1') {userType = 'Registered';}
                     else {userType = 'Visitor';}
 

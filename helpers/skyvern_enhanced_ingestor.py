@@ -237,9 +237,9 @@ class SkyvernEnhancedIngestor(BaseIngestor):
         try:
             # Use the router for cost optimization and intelligent model selection
             from helpers.llm_router import get_llm_router, TaskSpec, TaskKind
-            
+
             router = get_llm_router(self.config)
-            
+
             # Prepare the AI prompt for content extraction
             system_prompt = f"""You are an expert content extractor. {extraction_prompt}
 
@@ -256,9 +256,9 @@ Return only the clean article content in markdown format."""
             truncated_html = (
                 html_content[:50000] if len(html_content) > 50000 else html_content
             )
-            
+
             full_prompt = f"Extract content from this HTML:\n\n{truncated_html}"
-            
+
             # Create task spec for HTML content extraction
             task_spec = TaskSpec(
                 kind=TaskKind.REWRITE,  # HTML -> Markdown conversion
@@ -268,18 +268,18 @@ Return only the clean article content in markdown format."""
                 strict_json=False,  # Output is markdown, not JSON
                 priority="normal"
             )
-            
+
             # Use router for intelligent model selection (Economy->Balanced->Premium)
             messages = [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": full_prompt}
             ]
-            
+
             router_result = router.execute_task(
                 spec=task_spec,
                 messages=messages
             )
-            
+
             if router_result.get('success'):
                 return router_result.get('content')
             else:
@@ -293,7 +293,7 @@ Return only the clean article content in markdown format."""
                 return self._extract_content_with_direct_api(html_content, extraction_prompt)
             except:
                 return None
-    
+
     def _extract_content_with_direct_api(self, html_content: str, extraction_prompt: str) -> Optional[str]:
         """Fallback: Direct API call without router."""
         system_prompt = f"""You are an expert content extractor. {extraction_prompt}

@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here is a theory you could have: The world runs on oil right now, demand for oil is high, the price of oil is high, and getting oil out of t
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       People are worried about oil stock buybacks
-    
-  
+
+
 
 Here is a theory you could have:
 	The world runs on oil right now, demand for oil is high, the price of oil is high, and getting oil out of the ground is lucrative.	In X years — pick a number — the world will not run on oil, because the environmental effects of burning oil are bad, and eventually, through some combination of better green-energy technology, consumer demand and government regulation, the world will stop burning oil.	Therefore the oil-drilling business will produce a series of cash flows that is large now and will, over the next X years, decline to zero.
@@ -92,37 +92,37 @@ I should add that, like, pure-play wind-farm companies might have another advant
 I should also say that the specific story here — oil companies are buying back stock rather than drilling more wells — does not require either an ESG perspective or a long-term view that oil is on the decline. “Last time oil prices were high, oil companies overinvested in drilling, and then prices crashed and investors lost money” is also a perfectly reasonable explanation.
 One thing that I think, though, when people get angry about stock buybacks generally, is that there are probably a lot of industries like this? “We do a business, it makes money, we have a lot of money, but eventually this business will end and we won’t be good at whatever replaces it, so we might as well give the money back to shareholders so they can recycle it, instead of naïvely reinvesting in a business that can’t last forever,” is probably the right way to think about things a lot of the time!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG M&A
-    
-  
+
+
 
 Here is a basic dynamic in hostile mergers and acquisitions:
 	A buyer offers to buy a target for a premium to its current share price.	The target’s board of directors says “no, that undervalues our company, sure that offer is higher than our current stock price but our long-term value is much higher than that.” 	Maybe the board is right! Maybe it is defending its shareholders from an opportunistic lowball bid.	Or maybe it’s wrong! Maybe the directors and executives just want to keep their prestigious well-paid jobs, so they are rejecting a bid that is good for shareholders. But they know they can’t say that, so they say that the bid undervalues the company.
@@ -141,11 +141,11 @@ Is Teck rejecting this deal because the price is too low for shareholders? Becau
   [4]
 
 
-  
-    
+
+
       Banks
-    
-  
+
+
 
 We   talked last Thursday about two theories of banking, which I called Theory 1 and Theory 2. Theory 1 is that banks borrow short to lend long: Bank deposits are short-term funding, they get paid a variable market rate of interest, and they can disappear overnight if depositors worry about a bank’s stability or just get a better deal elsewhere. Theory 2 is that banks actually borrow long to lend long: Bank deposits are part of a long-term relationship, and much of what banks do — build branches, cross-sell products, offer ATMs and online banking — is designed to make those deposits sticky, so that their cost doesn’t go up when interest rates go up. Theory 2 is the traditional theory of banking; it’s why there are branches. Theory 1 is the standard theory of modern capital markets; it’s why, when Silicon Valley Bank failed due to taking too much interest-rate risk, lots of people were like “how did they not see that coming” or “why didn’t they hedge?”
 Part of my goal on Thursday was to try to answer those questions, to suggest that Theory 2 really is kind of how banks (and bank regulators) think about the problem. (“Why didn’t they hedge their interest-rate risk?” Well, they had long-duration liabilities, in the form of deposits, and they matched them with long-duration assets, in the form of Treasury and agency bonds, so they were hedged; they just got the duration of their deposits wrong.)
@@ -165,11 +165,11 @@ The whole relationship aspect of banking is devalued; rational economic decision
 Elsewhere at Substack, here is Byrne Hobart on “ The Relationship-Transactional-Relationship Business Cycle,” which is I suppose more optimistic:
 Transaction economics include the flow of object-level decisions—do we buy this Google click, spin up that EC2 instance, or accept this Stripe transaction—and a stock of expectations and trust slowly built up on both sides. It's essentially a form of reputational capital, and a company that's betting most of its revenue or operations on a counterparty that they can't have a conversation with is, in some abstract sense, undercapitalized.
 
-  
-    
+
+
       Nonbanks
-    
-  
+
+
 
 If US regional banks are in decline, who will take their place? “Too-big-to-fail US megabanks” would be the obvious answer, and seems to be true. The biggest banks’ market power and implicit government support means that their funding is more stable and less rates-sensitive than the funding of regional banks. I am a JPMorgan Chase & Co. customer, and I occasionally check to see what rate they are offering on savings accounts, and  it keeps being 0.01%, even as the Fed has raised rates. And I’m still a customer! (Not for savings though.)
 But   I argued last month that there is another, weirder answer, which is that the US financial system could separate the functions of deposit-taking (people want to put their money somewhere safe, earn interest, and be able to withdraw it at any time) and lending (people need loans to buy houses or run businesses). For a long time this has been sort of a niche idea beloved by some economists — versions of it are called “narrow banking” or the “Chicago Plan” — without ever being particularly close to reality.
@@ -189,11 +189,11 @@ I think this concern is a little backwards. For one thing, I don’t love the t
  I have spent a lot of time over the last year or so describing various crypto firms (exchanges and lending platforms) as “crypto shadow banks,” because they are in the business of issuing deposit-like claims and investing that money in crypto hedge funds or whatever. (Well, they were in that business. Then they all had bank runs.)
 But more important: The real risk of banking is on the liability side. What makes banks fragile is deposits. A private credit firm that raises money from investors in a locked-up fund, and uses that money to make idiotic loans that all go bust, is less risky than, well, a licensed bank that raises money from uninsured depositors and uses that money to buy safe US-government-backed bonds, like   Silicon Valley Bank did. (Though: A private credit fund that leverages its fund with short-term borrowing is riskier, more run-prone, more like a bank.) What made SVB risky is that its funding could disappear overnight. If private credit reduces that risk, it’s probably fine for it to take more credit risk.
 
-  
-    
+
+
       Bank preferreds
-    
-  
+
+
 
 In a way, bank preferred stocks are sort of the opposite of bank deposits:
 	Deposits are technically short-term funding (depositors can withdraw them anytime), but banks treat them as reasonably long-term and rate-insensitive. And they are the bank’s most senior funding: If the bank fails, depositors get paid back first.	Preferred stocks are technically perpetual funding (the bank never needs to pay them back), but the bank can pay them back at some scheduled call date. And they are quite junior funding: If the bank fails, there’s basically no way the preferreds are getting anything.
@@ -209,26 +209,26 @@ For smaller lenders, it could spell trouble. They rely on preferred shares to fu
 
 If you issued a 7% perpetual preferred five years ago, and now it’s trading at a 12% yield, that’s great funding for you! It counts as regulatory capital, and you can pay 7% on that forever, even as the rest of your interest expense has gone up. Investors don’t love it, though, and don’t count on doing any more of it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 PacWest   Extends Bounce to Second Day After Dividend Slashed. U.S.  Think Tank Reports Prompted Beijing to Put a Lid on Chinese Data.   AMC Loss Smaller Than Expected as Theater Recovery Continues. SEC Charges Investment Adviser and Fund Trustees with  Liquidity Rule Violations. Binance   Restarts Withdrawals of Bitcoin After Second Halt.   Liechtenstein’s Government Plans to Accept Bitcoin for Payments. ChatGPT Spawns an  Investor Gold Rush in AI.  Tech Workers Aren’t as Rich as They Used to Be.  Nygard vs Bacon: how a gated-community feud ended in a $203mn defamation payout. Kentucky Cattle Scheme Unravels as 78,000 " Ghost Cattle" are Discovered. Will A.I. Become the  New McKinsey?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Pivot to crypto mining? Pivot to the metaverse? Pivot to cannabis? Really you could pivot to *anything*, though pivoting to something energy-related is probably a better use of your skill set.
 
 
   [2] Also we have   talked about carbon capture technology specifically as a good complement to oil drilling; oil companies might in fact be the best investors in that technology.
 
 
-  [3] There is a more technical corporate-finance point to be made here. In my schematic description, the value of oil drilling declines to zero in Year X. Lower numbers are possible! You could imagine a future where, in X years, (1) nobody uses oil and (2) everybody is going around suing oil companies for the costs of repairing environmental damage. In that scenario, being capital-light is a benefit: If you've given the money back to the shareholders, they get to keep it, while if you've held onto it, it can go to pay liabilities. The 
+  [3] There is a more technical corporate-finance point to be made here. In my schematic description, the value of oil drilling declines to zero in Year X. Lower numbers are possible! You could imagine a future where, in X years, (1) nobody uses oil and (2) everybody is going around suing oil companies for the costs of repairing environmental damage. In that scenario, being capital-light is a benefit: If you've given the money back to the shareholders, they get to keep it, while if you've held onto it, it can go to pay liabilities. The
 US coal industry has already very much discovered this point.
 
 
-  [4] To be clear, there is a fourth, straightforwardly shareholder-friendly possibility, which is “they are not rejecting the deal, they are just negotiating for a higher price.” 
+  [4] To be clear, there is a fourth, straightforwardly shareholder-friendly possibility, which is “they are not rejecting the deal, they are just negotiating for a higher price.”
 
 
   [5] He also notes that the thing that the deposit franchise is a hedge *for* is the *mortgage business*. He describes this as “the mortgage industrial complex,” the process in modern US finance by which mortgages get their credit risk guaranteed by government-sponsored entities and are then packaged into mortgage-backed securities that are sold to banks, who bear the interest-rate risk. This is a complicated roundabout version of a very traditional banking business: In “It’s a Wonderful Life,” the bank takes deposits and uses them to fund mortgages. The modern US system has more steps, but the basic idea remains that banks get funding from depositors and use it to take the duration risk of mortgages.
@@ -237,48 +237,48 @@ US coal industry has already very much discovered this point.
   [6] Money market funds are classic shadow banks, though the particular flavor of money market fund I discussed above — the kind that just parks depositor money in overnight Fed reverse repos — does *not* really do maturity transformation or have run risk. But pre-2008 money market funds that bought, like, asset-backed commercial paper with several months of duration did look a lot more bank-like.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -289,46 +289,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cipb16.5pkx/eeca2f28.gif" alt="" border="0" /></a>

@@ -35,7 +35,7 @@ doohickeys. 
 Mentioned in this issue: The Mitchell family, Wilkes-Bashford, Buck Mason, Lee, Lululemon, Lewis Hamilton, NikeSkims, Polo Sport, Puma, Margiela, Sandy Liang, Wales Bonner, Jessie Randall, J.Crew, Madewell, Christophe Lemaire, Sarah-Linh Tran, high-throat pumps, Tonne Goodman, Emporio Armani, Lanvin, Glenn Martens,
 John Galliano, Christian Louboutin, Moschino, Adrian Appiolaza, Rothy’s, and many more…
 
- 
+
 
 Three
 Things You Should Know…
@@ -141,7 +141,7 @@ J.Crew ( https://go.shopmy.us/p-13770603?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%
 Frances de Lourdes ( https://francesdelourdes.com/collections/tees/products/johnny-tee-black?variant=29807531281&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Attersee’s gallery hoppers clients have made the brand’s silk-cashmere blend ( https://shopattersee.com/collections/knitwear/products/the-cashmere-silk-t-shirt-taupe?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) foundational. In an era when getting dressed means dressing down, fancifying mundane staples is an
 art.
 
- 
+
 
 The
 Week in Feedback…
@@ -170,7 +170,7 @@ who knows everything about every brand in the world 
 
 On the pre-Oscars fashion party that Dan Constable and Hillary Kerr threw Thursday night: “This is better than the Vanity Fair party.” —An attendee
 
- 
+
 
 Have a great weekend,
 Lauren
@@ -223,6 +223,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVTq5UrnVXHk6C9AmG9ww=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

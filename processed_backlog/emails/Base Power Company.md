@@ -10,12 +10,12 @@ View this post on the web at https://www.notboring.co/p/base-power-company
 Welcome to the 852 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 225,076 smart, curious folks by subscribing here:
 Hi friends 👋,
 Happy Tuesday and welcome back to Techno-Industrial Tuesdays here at Not Boring!
-My favorite companies are the ones that take understanding whole industries to really grok. To understand Astro Mechanica [ https://substack.com/redirect/2f074162-0a21-4ef5-b7bc-782a5ee8e4f3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you need to understand airlines. To understand Earth AI [ https://substack.com/redirect/c72a0eed-dcb4-4bab-b6fe-00e3445f8ae4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you need to understand mining. As you learn the industry, you identify one or two key bottlenecks to its progress. For airlines, it’s that we’ve maxed out the capabilities of the jet engine. For mining, it’s that new discoveries are harder and more expensive to come by. 
-To understand Base Power Company, you need to understand power, and you come to realize that the grid is the bottleneck. Add more renewables and electrify more things, and the grid gets less stable. 
-That’s what Base is trying to fix, with residential batteries. It’s too early to tell if they’ll pull it off, but the strategy that Zach Dell, Justin Lopas, and the team of ex-Anduril, SpaceX, Tesla, Ramp, Blackstone, and Apple engineers and operators are executing against is sound. 
-Fixing the grid — really going for it with whatever tools are necessary, not just software — is one of those insanely hard problems that startups wouldn’t have dared to tackle a few years ago. I’m pumped to live in a world where they do. 
+My favorite companies are the ones that take understanding whole industries to really grok. To understand Astro Mechanica [ https://substack.com/redirect/2f074162-0a21-4ef5-b7bc-782a5ee8e4f3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you need to understand airlines. To understand Earth AI [ https://substack.com/redirect/c72a0eed-dcb4-4bab-b6fe-00e3445f8ae4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you need to understand mining. As you learn the industry, you identify one or two key bottlenecks to its progress. For airlines, it’s that we’ve maxed out the capabilities of the jet engine. For mining, it’s that new discoveries are harder and more expensive to come by.
+To understand Base Power Company, you need to understand power, and you come to realize that the grid is the bottleneck. Add more renewables and electrify more things, and the grid gets less stable.
+That’s what Base is trying to fix, with residential batteries. It’s too early to tell if they’ll pull it off, but the strategy that Zach Dell, Justin Lopas, and the team of ex-Anduril, SpaceX, Tesla, Ramp, Blackstone, and Apple engineers and operators are executing against is sound.
+Fixing the grid — really going for it with whatever tools are necessary, not just software — is one of those insanely hard problems that startups wouldn’t have dared to tackle a few years ago. I’m pumped to live in a world where they do.
 We go very deep. Click here to read the whole thing online [ https://substack.com/redirect/904aa37f-f5d4-4215-aad8-4fe369c38229?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-Let’s get to it. 
+Let’s get to it.
 Base Power Company [ https://substack.com/redirect/904aa37f-f5d4-4215-aad8-4fe369c38229?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 On my first call with Justin Lopas [ https://substack.com/redirect/cc697e6b-fe00-4f88-ae76-6c53f7c41be1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], he showed me a chart to explain why he left his job as Head of Manufacturing at Anduril to co-found Base Power Company [ https://substack.com/redirect/0c9a4d03-8f74-4c7b-a293-25ccf3edf623?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
 This is an incredible chart. It shows that while the cost to produce electricity has fallen 33% from 6.8 cents per kilowatt hour (kWh) to 4.6 cents/kWh over the past decade, electricity is no cheaper than it was in 2010. That’s because the cost to deliver electricity has increased by 65%, from 2.6 cents/kWh to 4.3 cents/kWh. 
@@ -374,8 +374,8 @@ If they pull it off, that will be a hard-earned advantage and the basis for a ge
 Base is a prime Techno-Industrial [ https://substack.com/redirect/32b5d92c-ce04-4285-ace8-570a71e77053?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. It plans to capture a big chunk of a large incumbent-dominated topline and pair it with software-like margins. What does a PG&E or Southern Company with high free cash flow margins look like?  
 But all of that is in the future. The strategy makes sense, the team is strong, and the mission is big. For now, it’s about executing, learning, and iterating. 
 Do that enough, and you just might end up building The Modern Power Company of the Electric Era, one that makes the world an objectively better place.
-Thanks to Zach, Justin, Cole and Jared for your input, for all the people who’ve written excellent stuff on the grid and batteries, and to Gaurav for introducing us. 
-That’s all for today! If you enjoyed and learned a little bit, spread the good word. 
+Thanks to Zach, Justin, Cole and Jared for your input, for all the people who’ve written excellent stuff on the grid and batteries, and to Gaurav for introducing us.
+That’s all for today! If you enjoyed and learned a little bit, spread the good word.
 We’ll catch you on Friday for our Weekly Dose of Optimism.
 Thanks for reading,
 Packy

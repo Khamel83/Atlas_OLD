@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • February 07, 2020 
+Unknown author • February 07, 2020
 
 ![nytimes.com]()
 

@@ -150,7 +150,7 @@ list ( https://www.culturedmag.com/article/2025/01/01/in-and-out-new-year-trends
 
 Cultures make folk heroes out of unlikely, and often miscast, figures. That said, even making what you think are wry jokes about political violence is decadent, nihilistic, and just plain stupid. Happy New Year, by the way.
 
- 
+
 
 That’s it for me today. Tomorrow, Inner Circle subscribers get an
 exclusive first look at my analysis of ARTDAI’s 2024 data and what it says about the state of the art market. If you’re not yet an Inner Circle member, you can fix that here ( https://puck.news/my-account/billing/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Otherwise, you’ll get the summary on Friday.
@@ -211,6 +211,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUQ1GPOd7lwTmi6_iBVY4=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

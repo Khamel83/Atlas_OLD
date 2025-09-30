@@ -50,7 +50,7 @@ The undecideds were a warning sign that Clinton hadn’t sealed the deal with qu
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

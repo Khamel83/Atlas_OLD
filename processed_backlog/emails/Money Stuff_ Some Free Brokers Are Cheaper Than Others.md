@@ -7,74 +7,74 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.In general, in the US, if you buy or sell stock through a big retail brok
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       PFOF
-    
-  
+
+
 
 In general, in the US, if you buy or sell stock through a big retail brokerage, your broker sends your order to a “wholesaler” — a big electronic market-making firm like Citadel Securities, Virtu Financial Inc. or Jane Street Capital — which takes the other side of the trade, selling you the stock you’re buying or buying the stock you’re selling. The wholesalers want to trade with retail orders, because in general retail orders are less risky than orders on the public stock exchanges; they have less “adverse selection.” If a market maker is trading on the stock exchange, and it buys 100 shares of stock, then there is a decent chance that the seller knows something it doesn’t. Perhaps the seller is a clever hedge fund that has done lots of clever research and knows that the stock is about to go down; if so, the market maker will lose money on the stock it bought. Or perhaps the seller is a gigantic pension fund and is going to go on to dump a million shares and drive down the price; if so, the market maker will also lose money on the stock it bought. Or perhaps the seller is an even faster and smarter electronic trader than the market maker, and it knows that the stock will go down in the next microsecond, etc.
 But if the market maker buys 100 shares directly from a Robinhood Markets Inc. customer, then it knows that it is not trading with a big pension fund or hedge fund or high-frequency trader. It’s certainly possible that a Robinhood trader is particularly well informed, or has a ton of stock to sell (or buy) and has broken up that trade into smaller orders, but it is less likely than it is on the stock exchange. So this is a more attractive trade for the market maker.
 And so market makers strike deals with retail brokerages to trade with their order flow. In exchange for this sweet sweet retail order flow, the market makers give the brokerages two things:
-	
-Price improvement: If the lowest offer price for a stock on the stock exchange is $10.02, the market maker might sell it to the retail customers for a bit less, say $10.017. If the highest bid price is $10.01, the market maker might buy it from retail customers for a bit more, say $10.013. Effectively the wholesaler charges a lower bid/ask spread for less risky order flow. The retail broker’s customers get the savings.	
+
+Price improvement: If the lowest offer price for a stock on the stock exchange is $10.02, the market maker might sell it to the retail customers for a bit less, say $10.017. If the highest bid price is $10.01, the market maker might buy it from retail customers for a bit more, say $10.013. Effectively the wholesaler charges a lower bid/ask spread for less risky order flow. The retail broker’s customers get the savings.
 Payment for order flow, or PFOF: The market maker just writes the brokerage a check for sending it the order flow. The retail brokerage keeps this money for itself, though in practice in a competitive market the brokerage might use the money to, for instance, subsidize zero-commission trading.
 
 This is all terrifically controversial and we talk about it a lot, for instance  here.
@@ -112,63 +112,63 @@ This sort of thing can make people angry. Segregating retail and institutional o
 Extrapolating from the results, they estimate it costs small-time US investors as much as $34 billion a year, said Christopher Schwarz, the finance professor at the University of California, Irvine who wrote the study along with four colleagues. … The overall cost figure is an estimate of what investors would save if their orders were executed by the best performing of the five brokers in the study instead of the fourth best.
 But I’m not sure that is the right conclusion? The best-performing broker is cheaper because wholesalers can discriminate; they think that some brokerages’ orders are less risky than others’, so they charge some brokerages less and others more. If the wholesalers couldn’t discriminate — if they gave every brokerage the same price improvement, or if every retail investor in America read this paper and moved their accounts to TD Ameritrade — then they would have to charge the less-risky investors more to make up for charging the more-risky investors less.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Whistle-blowers
-    
-  
+
+
 
 One way to run the US Securities and Exchange Commission would be that you have a bunch of enforcement lawyers, and they look for fraud, and if they find fraud the SEC collects a big fine, and then the SEC lawyer who brought the case collects 30% of the fine, personally, as a bonus.
 This approach would have some advantages. The SEC routinely extracts nine-digit fines — last month Morgan Stanley   paid $200 million because some of its bankers sent each other text messages — and if SEC enforcement lawyers routinely got paid $60 million bonuses, then the SEC would attract some very talented and motivated enforcement lawyers, who would be very good at extracting fines. This would bring in a lot of money to the US government, and might also do a lot to deter securities fraud.
@@ -185,20 +185,20 @@ Here is the paper, by Alexander Platt, titled “ The Whistleblower Industrial C
 The upshot is that the SEC and CFTC have effectively privatized the tip-sifting function that is at the core of the [whistle-blower programs]. Private lawyers have likely extracted hundreds of millions of dollars in fees and expenses from these programs, with a disproportionate share going to a concentrated group of well-connected, repeat players. 
 We have talked about Jordan Thomas — the lawyer who designed the whistleblower program at the SEC and then left to be one of its main beneficiaries — before;   I wrote: “This is a good trade — build a spigot of government money and plant yourself in front of it.” If you currently work at the SEC, I suppose you have incentives to increase the flow out of the spigot so that one day you too can plant yourself in front of it.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Anti-ESG
-    
-  
+
+
 
 Here  you go:
 
@@ -215,11 +215,11 @@ The basic issue here is that if you are an investment firm, and you decide not t
 A certain amount of the ESG fight will take the form of broad public statements of principles. … But a lot of it will take the form (and has already taken the form) of fact-intensive debates about particular investment decisions. Some investment manager will say “we are underweight oil and gas companies because we are concerned about the financial impact of climate transition risk,” and some state regulator will say “we think it’s actually because you are environmentalists,” and the investment manager will say “no here is our investment model that considers environmental risk as a factor in assessing risk and returns,” and the regulator will say “we think that you are using inappropriately long investment horizons and imprudently weighting this risk in your calculation,” and the manager will provide support for its view, and they’ll go back and forth. Every financial decision can also become a political argument. It seems exhausting.
 It still does.
 
-  
-    
+
+
       APE voting
-    
-  
+
+
 
 We   talked yesterday about AMC Entertainment Holdings Inc.’s weird APE preferred-stock units, which are meant to be a close substitute for AMC’s common stock but which currently trade at about a 25% discount. (APE closed at $7.13 yesterday, AMC at $9.58.) Specifically we talked about an arbitrage trade — put on by Jim Chanos among others — of buying APE, shorting AMC, and hoping that that discount will close. The discount will close, for instance, if AMC gets shareholder approval to issue more common stock, at which point the APEs will automatically convert into common.  Here’s Chanos:
 "Functionally, the two securities are the same. And I'd guess the apes [i.e., AMC’s enthusiastic retail shareholders] will be putting pressure on [AMC Chief Executive Officer Adam] Aron, if the discount continues, to make it freely convertable sooner rather than later," Chanos told CNBC.
@@ -233,11 +233,11 @@ And then at some point AMC goes out to get a shareholder vote on converting the 
 
 So the APEs are a way to give voting rights to people who will be naturally incentivized to vote for what AMC’s management wants, which is more common stock. This is by no means a certainty — if you only get 20% of AMC common shareholders to vote to authorize more shares, then you need to get 80% of APE holders to vote for it — but it helps.
 
-  
-    
+
+
       Securities fraud
-    
-  
+
+
 
 A rough rule of US securities regulation is that if you do an unregistered securities offering you are giving your investors  a free put option. If you sell them stock at $100 without following the registration requirements, and the stock goes up, they get to keep the profits. If the stock goes down, though, they can sue you and get their $100 back. 
 Is there some similar rule that you could use to give yourself a free call option? Like, you sell stock to investors at $100; if the stock goes down, the investors are stuck with it; if the stock goes up, though, you get to pay them back their $100 and keep the profits? It seems implausible. And yet:
@@ -247,11 +247,11 @@ Is there some similar rule that you could use to give yourself a free call optio
 
 Love it! “You can’t demand your share of our profits, because we got those profits from crime, so we should get to keep them.”
 
-  
-    
+
+
       Business cards
-    
-  
+
+
 
 I  just:
 
@@ -264,15 +264,15 @@ Anyway that’s from a very funny Wall Street Journal A-hed about nontraditional
 Ayomide Joseph, a content marketer, tried to use a QR code to share his details with cybersecurity experts, but they refused. The FBI had issued a warning about cybercriminals who redirect codes to fraudulent websites. 
 I am looking forward to reading a story about someone going to a Bored Ape Yacht Club meet-up, handing out QR-code business cards, and using the codes to hack everyone’s wallets and steal all their apes. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Ethereum is really going to move to  proof-of-stake. Hedge Fund Founder Och   Sues Sculptor Over CEO’s ‘Ever-Escalating’ Pay. When Private Equity Takes Over a  Nursing Home. Citigroup Plans to Wind Down  Russian Consumer Operations. Twitter Whistleblower Peiter Zatko Has Warned of  Cyber Disasters for Decades. GameStop Boosts Compensation for Some Store Employees With Shares and Raises. The Future of Shipping Is ...   Sails? Gen Z Wants To Ditch Corporate Jobs For   Influencing, Social Media Dreams.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Does this bother you? It shouldn’t. You pay a bid/ask spread to trade stock. If you buy stock and hold it for a long time, you should on average expect to make money, because stock represents a claim on corporate cash flows and in the long run the economy grows. But if you buy and sell stock in the same day, and if you trade purely at random — as they consciously did! — then on average you should expect to lose money. Your trade has zero expected profit, but you are paying something for liquidity.
 
 
@@ -282,120 +282,120 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Though this may change. SEC Chair Gary Gensler dislikes this, and has “asked staff to make recommendations for the Commission’s consideration around how to enhance order-by-order competition,” which “may be through open and transparent auctions or other means.” In that world, brokerages would have to seek the best price for each order, rather than choosing wholesalers based on how much aggregate price improvement they provide.
 
 
-  [4] These two explanations are related in the sense that a brokerage whose customers mostly do small trades (1) will prioritize price improvement on small orders and (2) will probably not cause a lot of adverse selection. 
+  [4] These two explanations are related in the sense that a brokerage whose customers mostly do small trades (1) will prioritize price improvement on small orders and (2) will probably not cause a lot of adverse selection.
 
 
   [5] Obviously AMC will want a lawyer to look at that. The AMC stock can go down when the APEs convert, etc., it’s not guaranteed free money. But it's an easy pitch.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

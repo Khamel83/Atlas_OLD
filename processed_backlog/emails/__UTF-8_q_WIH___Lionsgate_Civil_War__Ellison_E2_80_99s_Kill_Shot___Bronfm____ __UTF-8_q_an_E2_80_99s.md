@@ -34,7 +34,7 @@ EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -151,7 +151,7 @@ Of course, the likely real endgame for Lionsgate’s Feltheimer and vice chairma
 Burns is to position the company for a sale. Ever since Amazon scooped up MGM Studios for $8.5 billion in 2021, Lionsgate has been viewed as the next logical indie giant to sell. But I’m told that Lionsgate’s team isn’t getting much traction on that front—a potential driver behind this latest restructuring. So think of what’s happening as being like filing for divorce, hitting the gym, and slimming down before looking for a new partner. But which Hollywood companies will survive long
 enough to be along for the ride?
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday night.
  
@@ -206,7 +206,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVh5yUWn061Oikqm2oMm0=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%283%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

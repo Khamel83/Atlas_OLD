@@ -51,7 +51,7 @@
 						MyLearning
 					</span>
 				</a>
-				
+
 				<div class="main-navbar__nav-wrapper">
 					<nav class="main-navbar__main-nav main-nav">
 						<div class="main-nav__links">
@@ -185,7 +185,7 @@
 					<div class="story-nav-previous__title">KS2 Case Study - Gillows Mahogany Furniture</div>
 				</a>
 			</div>
-		
+
 		<article class="chapter-article chapter-article_current" data-id="1409">
 			<div class="chapter-article__inner">
 				<h2 class="chapter-article__title">KS3-4 Case Study - Retribution by Edward Armitage</h2>
@@ -228,7 +228,7 @@
 					</div>
 				</a>
 			</article>
-		
+
 	</section>
 	<aside class="story-wrapper__actions item-actions">
 		<a class="item-actions__link item-actions__link_back-to-top js-item-actions__link_back-to-top" href="#" tabindex="0" role="button" title="Back To Top">
@@ -269,13 +269,13 @@
 	</aside>
 </div>
 		</main>
-		
+
 	<!-- Add To Board Modal -->
 	<div class="modal modal_add-to-board" tabindex="0">
 		<div class="modal__bg"></div>
 		<div class="modal__popup modal__popup_wide">
 			<div class="modal__scrollable">
-				<div class="modal__content">	
+				<div class="modal__content">
 				</div>
 			</div>
 			<a role="button" tabindex="0" href="#" class="modal__close" title="Close Modal">

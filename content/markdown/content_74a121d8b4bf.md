@@ -8,7 +8,7 @@
 
 <html lang="en-US" class="no-js mj-www">
 <head>
-	
+
 <script>
 if (document.cookie.indexOf("scroll0=") > -1) {
 	document.documentElement.className += ' scrolluser';
@@ -17,7 +17,7 @@ if (document.cookie.indexOf("scroll0=") > -1) {
 <meta charset="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src https://* wss://motherjones.coral.coralproject.net wss://motherjones.staging.coral.coralproject.net 'unsafe-inline' 'unsafe-eval' data: blob:; upgrade-insecure-requests;">
-    
+
 	<script>
 		// Google Tag Manager
 		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -36,7 +36,7 @@ if (document.cookie.indexOf("scroll0=") > -1) {
 		h.end=i=function(){
 			// okay instead of screwing w/ the document classname we need to remove the class from all elements w/ the class
 			s.className=s.className.replace(RegExp(' ?'+y),'');
-			// you may have noticed this but it means that if this runs before those elements are ready they stay hidden	
+			// you may have noticed this but it means that if this runs before those elements are ready they stay hidden
 		};
 		(a[n]=a[n]||[]).hide=h;
 		setTimeout(function(){i(); h.end=null},c);
@@ -196,7 +196,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 	<ul>
 		<li class="logo">
 			<a href="/" aria-label="Home" data-ga-label="Home" data-ga-category="NavbarFloating">
-				
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
 			</a>
 		</li>
@@ -276,7 +276,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <div id="TopROS970x250" class="ad-unit ad desktop_ad col-12"><!-- Tag ID: motherjones_leaderboard_atf -->
             <div id="ROS_ATF_970x250">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_leaderboard_atf",
                         slotId: "ROS_ATF_970x250"
                     });
@@ -287,7 +287,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 		<div id="topic-menu" class="grid col-8">
 			<div id="mj_topnav_select" class="menu-top-nav-container">Got tips? <a class="leak-link" href="/contribute/how-to-leak-to-us/"><span>Get in touch</span></a> confidentially.</div>		</div>
 		<div class="subscribe-link col-4">
-			<a 
+			<a
 				href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHOP&c=SEGHOC&d=SEGHOD&f=SEGHOF"
 				data-ga-label="Subscribe|Text"
 				data-ga-category="Masthead">
@@ -313,7 +313,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 					data-ga-label="Home"
 					data-ga-category="Masthead"
 				>
-					
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
 				</a>
 			</div>
@@ -355,7 +355,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <li id="menu-item-970454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970454"><a href="https://www.motherjones.com/newsletters/?mj_oac=desktop_header_nav" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/newsletters/?mj_oac=desktop_header_nav" data-ga-label="NavPosition_11">Newsletters</a></li>
 		<li role="search" id="search-li" tabindex="0">
 			<i class="icon-search"></i>
-			
+
 <form
 	role="search"
 	method="get"
@@ -555,12 +555,12 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 		<section id="post-161491" class="main-col">
 
 <article class="entry-content" itemprop="articleBody">
-				
+
 				<div class="mj-floating-ad-wrapper">
 					<div id="rhc-atf" class="ad"><!-- Tag ID: motherjones_right_rail_1 -->
             <div id="ROS_ATF_300x600">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_right_rail_1",
                         slotId: "ROS_ATF_300x600"
                     });
@@ -729,7 +729,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 			</article>
 
 <footer class="entry-footer">
-				
+
 		<div class="newsletter-signup grid" id="article-footer-newsletter-signup">
 			<div class="col-12">
 				<h3>
@@ -747,8 +747,8 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
                     <div class="sailthru_form">
 						<div class="success" hidden="hidden">Thank you for subscribing!</div>
-			<form 
-				method="post" action="#" class="sailthru-add-subscriber-form" 
+			<form
+				method="post" action="#" class="sailthru-add-subscriber-form"
 				data-ga-label="ArticleFooterNewsletterClick"
 				data-ga-category="MidpagePromo"
 				id="mj-sailthru-subscribe-id--1"
@@ -759,7 +759,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <div class="sailthru_form_input form-group">
 					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
 				</div>
-				
+
 				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
 				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
 				<input type="hidden" name="action" value="add_subscriber" />
@@ -769,7 +769,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 				<input type="hidden" name="hide_title_status" value="" />
 				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
 				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
-				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="hidden" name="email" value="" autocomplete="off" />
 				<input type="submit" name="commit" value="Sign Up" />
 		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
 </section>
@@ -813,7 +813,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <section class="section col-xs-12 eoa-recirc" id="eoa-related">
 		<h2 class="section-heading">Related</h2>
 	<ul class="post-list grid">
-		
+
 <li class="grid col-sm-3 col-xxs-12">
 	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
 			href="https://www.motherjones.com/politics/2011/12/slave-elves-online-shipping/"
@@ -880,7 +880,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <!-- Tag ID: motherjones_medrec_btf_1 -->
             <div id="ROS_BTF_300x250_1">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_medrec_btf_1",
                         slotId: "ROS_BTF_300x250_1"
                     });
@@ -888,7 +888,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
             </div><!-- Tag ID: motherjones_leaderboard_btf_1 -->
             <div id="ROS_BTF_970x250_1">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_leaderboard_btf_1",
                         slotId: "ROS_BTF_970x250_1"
                     });
@@ -898,7 +898,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <section class="section col-xs-12 eoa-recirc" id="eoa-recommend">
 	<h2 class="section-heading">We Recommend</h2>
 	<ul class="post-list grid">
-		
+
 <li class="grid col-sm-6 col-xxs-12 recommended">
 	<div class="col-5 order-1"><a
 			href="https://www.motherjones.com/politics/2025/09/donald-trump-weaponizing-equal-employment-opportunity-commission-stephen-miller-dei/"
@@ -973,7 +973,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <!-- Tag ID: motherjones_medrec_btf_2 -->
             <div id="ROS_BTF_300x250_2">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_medrec_btf_2",
                         slotId: "ROS_BTF_300x250_2"
                     });
@@ -981,7 +981,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
             </div><!-- Tag ID: motherjones_leaderboard_btf_2 -->
             <div id="ROS_BTF_970x250_2">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_leaderboard_btf_2",
                         slotId: "ROS_BTF_970x250_2"
                     });
@@ -991,7 +991,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <section class="section col-xs-12 eoa-recirc" id="eoa-recent">
 	<h2 class="section-heading">Latest</h2>
 	<ul class="post-list grid">
-		
+
 <li class="grid col-sm-3 col-xxs-12">
 	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
 			href="https://www.motherjones.com/politics/2025/09/covid-vaccine-state-tourism-acip-rfk/"
@@ -1063,9 +1063,9 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 			<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
 				<div class="promo-all">
 								<h3>
-				
-					
-				
+
+
+
 				Sign up for our free newsletter
 			</h3>
 				<p><em>Subscribe to the </em>Mother Jones Daily<em> to have our top stories delivered directly to your inbox.</em></p>
@@ -1075,8 +1075,8 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
                     <div class="sailthru_form">
 						<div class="success" hidden="hidden">Thank you for subscribing!</div>
-			<form 
-				method="post" action="#" class="sailthru-add-subscriber-form" 
+			<form
+				method="post" action="#" class="sailthru-add-subscriber-form"
 				data-ga-label="InContentNewsletterClick"
 				data-ga-category="MidpagePromo"
 				id="mj-sailthru-subscribe-id--1"
@@ -1087,7 +1087,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <div class="sailthru_form_input form-group">
 					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
 				</div>
-				
+
 				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
 				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
 				<input type="hidden" name="action" value="add_subscriber" />
@@ -1097,7 +1097,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 				<input type="hidden" name="hide_title_status" value="" />
 				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
 				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
-				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="hidden" name="email" value="" autocomplete="off" />
 				<input type="submit" name="commit" value="Sign Up" />
 		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
 </section>
@@ -1113,13 +1113,13 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
 		<div class="promo-all">
 			<h3>
-				
-					
-				
+
+
+
 				Get our award-winning magazine
 			</h3>
-			<p><em>Save big on a full year of investigations, ideas, and insights.</em></p>	
-			<a class="btn" href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHGP&amp;c=SEGHGC&amp;d=SEGHGD&amp;f=SEGHGF" title="Subscribe" data-ga-label="InContentSubscriptionClick" data-ga-category="MidpagePromo">Subscribe</a>	
+			<p><em>Save big on a full year of investigations, ideas, and insights.</em></p>
+			<a class="btn" href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHGP&amp;c=SEGHGC&amp;d=SEGHGD&amp;f=SEGHGF" title="Subscribe" data-ga-label="InContentSubscriptionClick" data-ga-category="MidpagePromo">Subscribe</a>
 		</div>
 	</div>
 	<div class="col-4"></div>
@@ -1129,11 +1129,11 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
 		<div class="promo-all">
 			<h3>
-				
-					
-						
-					
-				
+
+
+
+
+
 				Support our journalism
 			</h3>
 			<p><em>Help </em>Mother Jones<em>' reporters dig deep with a tax-deductible donation.</em></p>
@@ -1145,7 +1145,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 	<section id="mj-floating-ad-widget-2" class="widget mj-floating-ad"><div id="rhc-scroller" class="ad"><!-- Tag ID: motherjones_right_rail_2 -->
             <div id="ROS_Scroller_Refresh">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_right_rail_2",
                         slotId: "ROS_Scroller_Refresh"
                     });
@@ -1153,7 +1153,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
             </div></div></section><!-- Tag ID: Site_Skin_Left -->
             <div id="Site_Skin_Left">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "Site_Skin_Left",
                         slotId: "Site_Skin_Left"
                     });
@@ -1161,7 +1161,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
             </div><!-- Tag ID: Site_Skin_Right -->
             <div id="Site_Skin_Right">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "Site_Skin_Right",
                         slotId: "Site_Skin_Right"
                     });
@@ -1172,13 +1172,13 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <a class="subscribe" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=MJM&term_pub=MJM&list_source=SEGYN1B"></a>
 </div></div>
 		</section></aside>
- 
+
 </div>
 
 <section class="ad"><!-- Tag ID: motherjones_leaderboard_btf_3 -->
             <div id="ROS_BTF_970x250_3">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_leaderboard_btf_3",
                         slotId: "ROS_BTF_970x250_3"
                     });
@@ -1186,7 +1186,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
             </div><!-- Tag ID: motherjones_medrec_btf_3 -->
             <div id="ROS_BTF_300x250_3">
                 <script data-cfasync="false" type="text/javascript">
-                    freestar.config.enabled_slots.push({ 
+                    freestar.config.enabled_slots.push({
                         placementName: "motherjones_medrec_btf_3",
                         slotId: "ROS_BTF_300x250_3"
                     });
@@ -1263,8 +1263,8 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
                     <div class="sailthru_form">
 						<div class="success" hidden="hidden">Thank you for subscribing!</div>
-			<form 
-				method="post" action="#" class="sailthru-add-subscriber-form" 
+			<form
+				method="post" action="#" class="sailthru-add-subscriber-form"
 				data-ga-label="NewsletterSubscribeView"
 				data-ga-category="BottomPromo"
 				id="mj-sailthru-subscribe-id--1"
@@ -1275,7 +1275,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 <div class="sailthru_form_input form-group">
 					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
 				</div>
-				
+
 				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
 				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
 				<input type="hidden" name="action" value="add_subscriber" />
@@ -1285,7 +1285,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 				<input type="hidden" name="hide_title_status" value="" />
 				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
 				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
-				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="hidden" name="email" value="" autocomplete="off" />
 				<input type="submit" name="commit" value="Sign Up" />
 		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
 </section>
@@ -1302,7 +1302,7 @@ var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
 	<div class="container grid">
 		<section class="logo col-md-3 col-sm-12">
 			<a href="/" aria-label="Home" class="footer-logo">
-				
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
 			</a>
 			<ul class="footer-social">
@@ -1450,7 +1450,7 @@ window.desktopMonthlyValues = {
                     <div class="row col-12 grid">
 
 <button id="desktop-one-time" data-freq="oneTime" class="col-5 adh-btn" >One-Time</button>
-                
+
                         <button id="desktop-monthly" data-freq="monthly" class="col-5 adh-btn" >Monthly</button>
 
 </div><!--.row-->
@@ -1463,13 +1463,13 @@ window.desktopMonthlyValues = {
 
 <button id="desktop-tier-three" data-tier="tierThree" class="col-3 adh-btn" >$</button>
 
-</div><!--.row-->       
-                    
+</div><!--.row-->
+
                     <div id="DesktopOtherAmtCont" class="row col-12 grid">
-                        <button id="desktop-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>                                  
+                        <button id="desktop-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>
                     </div><!--.row-->
                     <div class="row col-12 grid">
-                        <button 
+                        <button
                         data-ga-label="DesktopDonateAdhesionClick"
 						data-ga-category="BottomAdhesion"
                         class="col-md-3 offset-1-md col-sm-4 col-xs-12 desktop-continue" >Continue</button>
@@ -1477,7 +1477,7 @@ window.desktopMonthlyValues = {
                     </div><!--.row-->
                 </div>
             </div>
-             
+
         </section>
 
 </section><section id="mj-pledge-mobile-adhesion-widget-4" class="widget mj-pledge-mobile-adhesion-widget hide">        <script>
@@ -1519,7 +1519,7 @@ window.mobileMonthlyValues = {
                     <div class="row col-12 grid">
 
 <button id="mobile-one-time" data-freq="mobileOneTime" class="col-5 adh-btn" >One-Time</button>
-                
+
                         <button id="mobile-monthly" data-freq="mobileMonthly" class="col-5 adh-btn" >Monthly</button>
 
 </div><!--.row-->
@@ -1532,21 +1532,21 @@ window.mobileMonthlyValues = {
 
 <button id="mobile-tier-three" data-tier="tierThree" class="col-3 adh-btn" >$100</button>
 
-</div><!--.row-->       
-                    
+</div><!--.row-->
+
                     <div id="MobileOtherAmtCont" class="row col-12 grid">
-                        <button id="mobile-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>                                  
+                        <button id="mobile-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>
                     </div><!--.row-->
                     <div class="row col-12 grid">
-                        <button 
+                        <button
                         data-ga-label="MobileDonateAdhesionClick"
-						data-ga-category="BottomAdhesion" 
+						data-ga-category="BottomAdhesion"
                         class="col-md-4 col-sm-4 col-xs-12 mobile-continue" >Continue</button>
                         <img class=" ccards col-md-8 col-sm-6 col-xs-4" src= "https://www.motherjones.com/wp-content/themes/motherjones/img/payment-methods.png" />
                     </div><!--.row-->
                 </div>
             </div>
-             
+
         </section>
 
 </section><script type="speculationrules">
@@ -1571,8 +1571,8 @@ window.mobileMonthlyValues = {
 					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
                     <div class="sailthru_form">
 						<div class="success" hidden="hidden">Thank you for subscribing!</div>
-			<form 
-				method="post" action="#" class="sailthru-add-subscriber-form" 
+			<form
+				method="post" action="#" class="sailthru-add-subscriber-form"
 				data-ga-label="ExitIntentNewsletterClick"
 				data-ga-category="ExitIntent"
 				id="mj-sailthru-subscribe-id--1"
@@ -1583,7 +1583,7 @@ window.mobileMonthlyValues = {
 <div class="sailthru_form_input form-group">
 					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
 				</div>
-				
+
 				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
 				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
 				<input type="hidden" name="action" value="add_subscriber" />
@@ -1593,7 +1593,7 @@ window.mobileMonthlyValues = {
 				<input type="hidden" name="hide_title_status" value="" />
 				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
 				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
-				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="hidden" name="email" value="" autocomplete="off" />
 				<input type="submit" name="commit" value="Sign Up" />
 		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
 </section>

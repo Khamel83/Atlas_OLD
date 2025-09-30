@@ -49,8 +49,8 @@ For more Anduril fun, Madeline Renbarger at Newcomer has a great profile on Andu
 
 [The Investor Who Called Defense Tech’s Big Moment](https://substack.com/redirect/e5d57be3-acc2-41f6-baf3-8e17cf03071f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
 
-  
-  
+
+
 
 [Read more](https://substack.com/redirect/e5d57be3-acc2-41f6-baf3-8e17cf03071f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
 

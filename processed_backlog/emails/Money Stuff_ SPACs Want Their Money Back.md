@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A special purpose acquisition company is a clever bit of financial engineering. A sponsor creates a shell company — the SPAC — that does a p
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SPAC clawbacks!
-    
-  
+
+
 
 A special purpose acquisition company is a clever bit of financial engineering. A sponsor creates a shell company — the SPAC — that does a public stock offering and sells stock for $10 per share. Let’s say she sells 10 million shares for a total of $100 million. The money goes into a pot, and the sponsor goes and looks for a private company to take public. If she finds one, the SPAC merges with the target company, the target company gets the $100 million and the SPAC’s public stock-exchange listing, and the shareholders of the SPAC get shares of the newly public target company. Or, if they don’t want those shares, they can take back their $10, with interest, when the merger closes. The sponsor generally gets 20% of the SPAC’s shares, for free, as a reward for her efforts; here she would get shares worth about $25 million.
   [1]
@@ -120,89 +120,89 @@ But the trust actually returned $10.22 per share, so the sponsor is not on the h
 The other point I want to make is that this is not how money market funds work. That is: In most situations — even situations like African Gold, where the executives are stealing from the SPAC — the shareholders’ money in the SPAC really is safe, and they are guaranteed to get their $10 back with interest. But this points to a situation where that isn’t true: If the SPAC owes money to legitimate vendors, those vendors are creditors who outrank the shareholders, and who can claim money back from the shareholders. The trustee of the pot of money won’t give it to them — the trustee is laser-focused on keeping the shareholders’ money safe — but a court probably will. Courts know that SPAC shareholders are shareholders, and that creditors outrank them.
 Here it’s 11 cents: The shareholders put in $10, got back $10.22, might have to pay back $0.11, and so end up with $10.11. They still get their money back with interest. But that’s because the vendor bills are small. You could imagine another SPAC with a worse outcome: a big vendor bill that eats up all of the interest on the trust account and dips into principal, and a sponsor who is not good for the money. That is not very likely — SPACs tend not to run up huge vendor bills, and if you are a vendor selling millions of dollars of stuff to a SPAC you will probably want to do some due diligence to make sure it has the money to pay you — but it is possible. Empirically, in the SPAC boom of the 2020s, SPACs have been very good at giving shareholders back their $10. But that is not really a guarantee.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 
 I do kind of think that part of the job of the chief executive officer of a bank is that, when there is a run on your bank, you have to go on television and say confidently “yes, everything is fine, our assets are great and the bank run has stopped.” If this is true — if your assets are great and the run has stopped — then, you know, great. If it is not true — if your assets are troubled and the run is ongoing — then, well, that’s why they pay you the big bucks. If you go on television and say “yeah turns out our assets are mostly trash and people are pulling out their money as fast as they can,” then that is definitely the end of your bank: After you say that, the run will intensify and you’ll be broke in an hour. If you go on television and say “everything is great,” and you are confident and poised enough, maybe the run will stop and you’ll have time to actually get back to normal. This stuff is not entirely self-fulfilling — lots of bankers go on TV and say “everything is great” and the run intensifies anyway and they go bankrupt — but it is partially self-fulfilling, and your job as CEO really is to stop the run from intensifying.
   [7]
@@ -226,20 +226,20 @@ In cases of market manipulation, Switzerland’s financial regulator can invoke 
 Look, I assume that Lehmann’s comments were true — or true enough; “basically have stopped” leaves some room for imprecision — but even if they weren’t, they worked — Credit Suisse raised capital and slowed outflows — and that is kind of the job. But then it’s also Finma’s job to investigate. Though possibly not to investigate all that hard:
 “We’d think Finma would not be looking to further destabilize the bank by going after him aggressively,” Adam Terelak, an equity research analyst at Mediobanca, said. “This just adds another headache for the bank that is struggling to stabilize itself post record client outflows.” 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Deutsche Bank
-    
-  
+
+
 
 Elsewhere in modern financial regulatory expectations:
 
@@ -256,11 +256,11 @@ But the modern view of global bank regulation is more like:
 
 The banks regulate themselves, and the regulators do   sort of meta-regulation of the banks’ regulatory work. It is more efficient to delegate the regulation to the banks: The banks have bigger budgets, so they can hire more compliance staff, and the compliance staff sit in the same building and probably have better access to the business units than the regulators do. On the other hand they probably have slightly less incentive to be aggressive than the regulators do. 
 
-  
-    
+
+
       Ransomware HR department
-    
-  
+
+
 
 I dunno, I feel like I   write enough about the back-office functions at ransomware companies (  mainly compliance) that I ought to mention  this Wall Street Journal story:
 
@@ -269,27 +269,27 @@ They had been hired as part of a scam to talk potential victims into installing 
 
 A lot of crime is not very businesslike, but ransomware is an obviously businesslike crime — you need sales and customer service and compliance and a bunch of developers sitting at a computer — and it turns out to be a surprisingly normal business. Ransomware companies are pretty much normal tech companies whose product is crime. And like many other tech companies these days, they’re doing layoffs.
 
-  
-    
+
+
       Money Puff
-    
-  
+
+
 
 Look if you start a newsletter about the cannabis industry and  call it “Money Puff,” am I going to link to it?  Yes I am. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Anti-ESG guy Vivek Ramaswamy is  running for president. Supreme Court Justices  Express Skepticism at Holding Google Liable for Content. Citigroup’s Jane Fraser Bucks Rivals as 2022   Pay Rises to $24.5 Million.   McKinsey Plans to Eliminate About 2,000 Jobs in One of Its Biggest Rounds of Cuts. Elon Musk Cites Jury Verdict Over Tesla Tweets in  SEC Battle.  Missing Chinese banker was working to set up Singapore family office. How  Quirky German Debt Is Winning Followers Abroad. Office Landlord Defaults Are Escalating as Lenders Brace for More Distress. The Investors Who Still Think  Crypto Can Make Them Rich. Solana Spaces   Shutters Crypto-Themed Stores in New York, Miami. Japanese officials investigate  mysterious sphere washed up on beach.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am simplifying and eliding some features — mainly, warrants — that are not relevant here. We’ve discussed SPACs a lot, for instance   here and   here.
 
 
-  [2] For instance it seems to be customary to let the SPAC use some of the interest to pay franchise taxes, and to cover up to $100,000 of dissolution expenses if the SPAC shuts down. 
+  [2] For instance it seems to be customary to let the SPAC use some of the interest to pay franchise taxes, and to cover up to $100,000 of dissolution expenses if the SPAC shuts down.
 
 
   [3] Its initial public offering was for 36 million shares, plus a customary 5.4 million share greenshoe, all of which was exercised, for a total of 41.4 million shares at $10 each, or $414 million.
@@ -313,114 +313,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] For instance,  there were allegations that in 2008 bank regulators may have encouraged banks to lie about Libor rates in order to avoid inducing panic about their rising borrowing costs.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

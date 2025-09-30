@@ -19,7 +19,7 @@ def test_google_search_api(api_key, search_engine_id):
         'q': test_query,
         'num': 1
     }
-    
+
     try:
         response = requests.get(url, params=params, timeout=10)
         if response.status_code == 200:
@@ -42,14 +42,14 @@ def check_status():
     """Check Google Custom Search API configuration status"""
     print("🔍 Google Custom Search API Status Check")
     print("=" * 50)
-    
+
     # Load current environment
     load_dotenv()
-    
+
     # Check if configured
     api_key = os.getenv('GOOGLE_SEARCH_API_KEY')
     engine_id = os.getenv('GOOGLE_SEARCH_ENGINE_ID')
-    
+
     if not api_key or not engine_id:
         print("❌ Google Custom Search API not configured")
         print(f"   API Key: {'Set' if api_key else 'Not set'}")
@@ -61,11 +61,11 @@ def check_status():
         print("   GOOGLE_SEARCH_API_KEY=your_api_key_here")
         print("   GOOGLE_SEARCH_ENGINE_ID=your_engine_id_here")
         return False
-    
+
     print(f"✅ Configuration found:")
     print(f"   API Key: {api_key[:10]}...")
     print(f"   Engine ID: {engine_id}")
-    
+
     # Test the API
     print("\n🧪 Testing API...")
     return test_google_search_api(api_key, engine_id)

@@ -44,12 +44,12 @@ def import_episodes():
                 processed BOOLEAN DEFAULT 0
             )
         """)
-        
+
         total = 0
         for name, url in feeds.items():
             print(f"Importing {name}...")
             feed = feedparser.parse(url)
-            
+
             for entry in feed.entries[:10]:  # Only 10 per podcast for testing
                 audio_url = None
                 if hasattr(entry, 'enclosures'):
@@ -57,18 +57,18 @@ def import_episodes():
                         if 'audio' in enc.type:
                             audio_url = enc.href
                             break
-                
+
                 if audio_url:
                     try:
                         conn.execute("""
-                            INSERT OR IGNORE INTO podcast_episodes 
-                            (title, audio_url, podcast_name) 
+                            INSERT OR IGNORE INTO podcast_episodes
+                            (title, audio_url, podcast_name)
                             VALUES (?, ?, ?)
                         """, (entry.title, audio_url, name))
                         total += 1
                     except:
                         pass
-        
+
         conn.commit()
         print(f"Imported {total} episodes")
 
@@ -90,33 +90,33 @@ def process_episodes():
     with sqlite3.connect("data/atlas.db") as conn:
         # Get unprocessed episodes
         episodes = conn.execute("""
-            SELECT id, title, podcast_name 
-            FROM podcast_episodes 
-            WHERE processed = 0 
+            SELECT id, title, podcast_name
+            FROM podcast_episodes
+            WHERE processed = 0
             LIMIT 5
         """).fetchall()
-        
+
         if not episodes:
             print("No episodes to process")
             return False
-        
+
         for episode_id, title, podcast in episodes:
             print(f"Processing: {title[:50]}...")
-            
+
             # Simulate processing - add to main content table
             conn.execute("""
-                INSERT OR REPLACE INTO content 
+                INSERT OR REPLACE INTO content
                 (title, content, content_type, created_at)
                 VALUES (?, ?, 'podcast_episode', CURRENT_TIMESTAMP)
             """, (f"[PODCAST] {title}", f"Transcript for {title} from {podcast}"))
-            
+
             # Mark as processed
             conn.execute("""
-                UPDATE podcast_episodes 
-                SET processed = 1 
+                UPDATE podcast_episodes
+                SET processed = 1
                 WHERE id = ?
             """, (episode_id,))
-        
+
         conn.commit()
         print(f"Processed {len(episodes)} episodes")
         return True
@@ -124,14 +124,14 @@ def process_episodes():
 def run_continuous():
     """Run processor every 30 seconds"""
     print("Starting simple continuous processor...")
-    
+
     try:
         while True:
             if process_episodes():
                 print("Work done, sleeping 30 seconds...")
             else:
                 print("No work, sleeping 30 seconds...")
-            
+
             time.sleep(30)
     except KeyboardInterrupt:
         print("Stopping processor")
@@ -181,10 +181,10 @@ echo "Test: sqlite3 data/atlas.db 'SELECT COUNT(*) FROM podcast_episodes;'"
    ```bash
    # Check episodes imported
    sqlite3 data/atlas.db "SELECT COUNT(*) FROM podcast_episodes;"
-   
+
    # Check processing
    tail processor.log
-   
+
    # Test search
    curl "http://localhost:7444/api/v1/search/?query=podcast&limit=3"
    ```

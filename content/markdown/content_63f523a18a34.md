@@ -122,7 +122,7 @@ if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
 							} else {
 								__gtagDataLayer('event', name, parameters);
 							}
-							
+
 						} else {
 							__gtagDataLayer.apply(null, arguments);
 						}
@@ -324,10 +324,10 @@ Klicke auf das Hilfe-Symbol oben, um mehr zu erfahren.
 Xh1.mh-header-title { font-size: 2.5rem;}
 X.mh-header::after {
   content: 'DUMMY - Launch on September 18th';
-  z-index: 100; width: 100%; 
-  position: absolute; left: 8%; 
-  top: 220px; font-weight: bold; 
-  font-size: 100px; color: black; 
+  z-index: 100; width: 100%;
+  position: absolute; left: 8%;
+  top: 220px; font-weight: bold;
+  font-size: 100px; color: black;
   opacity: 0.2; transform: rotate(-30deg);
   pointer-events: none;
 }

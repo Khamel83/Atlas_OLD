@@ -53,7 +53,7 @@ def check_content_processing():
     """Check recent content processing activity"""
     try:
         base_dir = Path(__file__).parent
-        
+
         # Check recent podcast processing
         podcast_dir = base_dir / "output" / "podcasts"
         recent_podcasts = 0
@@ -62,8 +62,8 @@ def check_content_processing():
             for file in podcast_dir.glob("*.json"):
                 if datetime.fromtimestamp(file.stat().st_mtime) > cutoff:
                     recent_podcasts += 1
-        
-        # Check recent article processing  
+
+        # Check recent article processing
         article_dir = base_dir / "output" / "articles"
         recent_articles = 0
         if article_dir.exists():
@@ -71,11 +71,11 @@ def check_content_processing():
             for file in article_dir.glob("**/*.json"):
                 if datetime.fromtimestamp(file.stat().st_mtime) > cutoff:
                     recent_articles += 1
-        
+
         # Check database
         db_path = base_dir / "atlas.db"
         db_exists = db_path.exists()
-        
+
         return {
             "status": "active" if (recent_podcasts > 0 or recent_articles > 0) else "idle",
             "recent_podcasts_24h": recent_podcasts,
@@ -89,16 +89,16 @@ def check_transcript_system():
     """Check transcript discovery and fetching"""
     try:
         base_dir = Path(__file__).parent
-        
+
         # Check if transcript discovery results exist
         discovery_file = base_dir / "transcript_discovery_results.json"
         discovery_status = "completed" if discovery_file.exists() else "pending"
-        
+
         # Check for actual transcript files
         transcript_count = 0
         for pattern in ["**/*transcript*.json", "**/*transcript*.md", "**/*transcript*.txt"]:
             transcript_count += len(list(Path("output").glob(pattern))) if Path("output").exists() else 0
-        
+
         return {
             "status": "operational" if transcript_count > 0 else discovery_status,
             "discovery_completed": discovery_status == "completed",
@@ -123,7 +123,7 @@ def check_background_processes():
                     })
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
-        
+
         # Check for uvicorn processes (API server)
         uvicorn_processes = []
         for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
@@ -136,7 +136,7 @@ def check_background_processes():
                     })
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
-        
+
         return {
             "atlas_processes": len(atlas_processes),
             "api_processes": len(uvicorn_processes),
@@ -147,12 +147,12 @@ def check_background_processes():
 
 def get_system_summary():
     """Get overall system health summary"""
-    
+
     print("🎯 Atlas System Monitor")
     print("=" * 50)
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
-    
+
     # Check API Server
     api_status = check_api_server()
     print(f"🌐 API Server:")
@@ -161,7 +161,7 @@ def get_system_summary():
     else:
         print(f"   ❌ {api_status['status'].title()}: {api_status.get('error', 'Unknown error')}")
     print()
-    
+
     # Check Smart Dispatcher
     dispatcher_status = check_smart_dispatcher()
     print(f"🧠 Smart Dispatcher:")
@@ -170,7 +170,7 @@ def get_system_summary():
     else:
         print(f"   ❌ {dispatcher_status['status'].title()}: {dispatcher_status.get('error', 'Unknown error')}")
     print()
-    
+
     # Check Content Processing
     content_status = check_content_processing()
     print(f"📊 Content Processing:")
@@ -178,7 +178,7 @@ def get_system_summary():
     print(f"   Recent activity (24h): {content_status['recent_podcasts_24h']} podcasts, {content_status['recent_articles_24h']} articles")
     print(f"   Database: {'✅' if content_status['database_exists'] else '❌'} {'Present' if content_status['database_exists'] else 'Missing'}")
     print()
-    
+
     # Check Transcript System
     transcript_status = check_transcript_system()
     print(f"🎙️ Transcript System:")
@@ -186,44 +186,44 @@ def get_system_summary():
     print(f"   Discovery: {'✅' if transcript_status['discovery_completed'] else '🔄'} {'Complete' if transcript_status['discovery_completed'] else 'Pending'}")
     print(f"   Transcript files: {transcript_status['transcript_files_found']}")
     print()
-    
+
     # Check Background Processes
     process_status = check_background_processes()
     print(f"🔄 Background Processes:")
     print(f"   Atlas processes: {process_status['atlas_processes']}")
     print(f"   API processes: {process_status['api_processes']}")
-    
+
     if process_status.get('processes'):
         print("   Active processes:")
         for proc in process_status['processes'][:5]:  # Show first 5
             uptime = f" ({proc['uptime_hours']}h)" if 'uptime_hours' in proc else ""
             print(f"     • PID {proc['pid']}: {proc['command'][:80]}...{uptime}")
     print()
-    
+
     # Overall Status
     healthy_components = 0
     total_components = 4
-    
+
     if api_status["status"] == "healthy":
         healthy_components += 1
     if dispatcher_status["status"] == "operational":
-        healthy_components += 1  
+        healthy_components += 1
     if content_status["status"] in ["active", "idle"]:
         healthy_components += 1
     if transcript_status["status"] in ["operational", "completed"]:
         healthy_components += 1
-    
+
     health_percentage = (healthy_components / total_components) * 100
-    
+
     print(f"🎯 Overall Health: {health_percentage:.0f}% ({healthy_components}/{total_components} components healthy)")
-    
+
     if health_percentage >= 75:
         print("✅ Atlas is running well")
     elif health_percentage >= 50:
         print("⚠️ Atlas has some issues but is functional")
     else:
         print("❌ Atlas needs attention")
-    
+
     print("=" * 50)
 
 if __name__ == "__main__":

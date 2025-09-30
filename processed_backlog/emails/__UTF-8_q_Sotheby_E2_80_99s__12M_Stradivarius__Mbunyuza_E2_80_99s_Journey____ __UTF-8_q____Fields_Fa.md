@@ -32,7 +32,7 @@ But first, here’s Julie with more from her conversation with Adam Fields…
 Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Arta Imitates Life
 ------------------
@@ -102,7 +102,7 @@ region known for its white varietal of the fruit. One can’t help but think of 
 
 The chawan range in price from $16,000 to $180,000, depending on size, and about half of the exhibition has been sold. Check it out before it closes on February 15—but try not to go on a Saturday.
 
- 
+
 
 Mbunyuza’s Journey
 --------------------
@@ -202,7 +202,7 @@ at the Ashmolean Museum in Oxford. Despite signs of wear over the centuries, acc
 Will
 the Joachim-Ma violin create auction magic? It has the ingredients: provenance, rarity, beauty, and celebrity of the 19th century variety. As Jiménez told me, it’s like “seeing history, the traces of the violinists who have played it.” Perhaps she was laying it on, but she also said that virtuosos who have had the opportunity to play the Joachim-Ma violin in Sotheby’s galleries have been brought to tears. “They play it and put it down,” she said, “then run back to play it again.”
 
- 
+
 
 Endnotes…
 -----------
@@ -240,6 +240,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUvu0OYAW5-bAanJuwuiA=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

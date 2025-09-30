@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Imagine a video game. There’s an online multiplayer video game, MattQuest, made and run by a video-game company, QuestCo. In the game you pl
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Are NFTs securities?
-    
-  
+
+
 
 Imagine a video game. There’s an online multiplayer video game, MattQuest, made and run by a video-game company, QuestCo. In the game you play a character, and the character can wear a hat. QuestCo periodically releases exciting new limited-edition hats for characters, which you can buy, from the company, with real money. You give them your credit card and they bill you $10 and now your character has a purple hat or whatever. Some hats are common and cheap; others are rare and expensive.
 There is an active secondary market for hats, in which players can sell the hats they own or buy hats from others, for real money. This market is administered by QuestCo, and QuestCo does not allow trading outside of its own platform. So someone who has a rare teal hat might list it for sale for $1,000, and if you covet that hat for your character you can pay $1,000 for it. You use your credit card or a bank transfer to put $1,000 into your account at QuestCo, and then you click to buy the hat, and QuestCo takes the $1,000 out of your account and transfers it to the seller’s account. Actually QuestCo collects a 5% fee on the trade, so the seller gets $950. She gets $950 in her QuestCo account, that is. If she wants to take that money out — to put it in her bank account — QuestCo will send her a bank transfer, but it will take another fee for cashing her out. Also maybe there will be a delay of a few weeks between when she asks to withdraw the money and when she gets it. QuestCo is a video-game company, not a bank, and it might not be super-efficient at processing withdrawals.
@@ -96,7 +96,7 @@ US District Judge Victor Marrero on Wednesday denied a request by Dapper to thro
 “Hypothetically, if Upper Deck or Topps, two longtime producers of physical sports trading cards, were to go out of business, the value of the cards they sold would be wholly unaffected, and may even increase, much like posthumously discovered art,” the judge wrote. 
 He continued: “That is not true here, where plaintiffs allege that the pooling of capital generated from the sale of Moments propped up the Flow Blockchain and where the value of Moments is intertwined with the success of that blockchain and Dapper Labs.”
 
-Here is  the opinion, and I think it is worth noting how involved Dapper is in every part of the investment. Top Shot Moments are not non-fungible tokens on some public third-party blockchain like Ethereum or Solana; instead, they exist on Dapper’s “own private blockchain, Flow,” 
+Here is  the opinion, and I think it is worth noting how involved Dapper is in every part of the investment. Top Shot Moments are not non-fungible tokens on some public third-party blockchain like Ethereum or Solana; instead, they exist on Dapper’s “own private blockchain, Flow,”
   [4]
 though I suppose that characterization is debatable and  Dapper says that Flow is now decentralized. But the way you transfer money onto the Flow blockchain to buy Top Shot Moments does seem to run through Dapper. Specifically (citations omitted):
 
@@ -114,89 +114,89 @@ This is not a definitive ruling that these NFTs are securities — it is just a
 But the main fact of crypto regulation in the US in 2023 is that the SEC is cracking down by saying that everything is a security, and some crypto businesses are pushing back, arguing in court that in fact not everything in crypto is a security. My assumption is that, especially after the crypto collapse last year, courts are going to be very sympathetic to the SEC’s arguments, and very inclined to believe that everything is a security. This decision is another sign of that.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ozy
-    
-  
+
+
 
 I guess  this was inevitable:
 
@@ -223,20 +223,20 @@ One thing that we   talk about sometimes around here is that there is probably
 Is Ozy the first private company to send an investor a pitch deck that inflated its Ebitda by 70% or 80%? Probably not, no. But in recent years there does seem to have been a bit of a crackdown on private-company securities fraud. Some of that is due to   the influence of Theranos, I think, and some of it is just that private markets are bigger and more important than they used to be. “Private markets are the new public markets,” I sometimes say, and if you can raise billions of dollars from big institutions in private markets then you probably will get treated more like a public company.
 Also the main thing is probably just that if you do a fraud that is so egregious and hilarious that it becomes national news, you will get in trouble. If you are marking up your Ebitda a bit in pitches to private investors, prosecutors and the SEC might never hear about it, but if you are doing multiple elaborate impersonations to raise money you are eventually going to attract attention.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Young VCs are sad
-    
-  
+
+
 
 If you left investment banking or consulting a year ago to become a junior investor at a venture capital firm, I guess your timing was bad: VC fundraising has dried up, investment opportunities are thinner, the crypto thing died down and nobody is getting instantly rich the way they were not so long ago. Here is a fun  Business Insider article about how the young VCs are sad:
 
@@ -258,11 +258,11 @@ Sam Loui, a former Techstars global startup-pipeline coordinator, told Insider t
 
 There is something very venture-capital-y about this: In tough times, VCs get back to basics, but the basics are creating online content about about how to get a job in VC.
 
-  
-    
+
+
       MoviePass
-    
-  
+
+
 
 MoviePass was a company that sold its customers unlimited $12 movie tickets for $10 a month, bought the tickets at full price, and lost hundreds of millions of dollars. In order to cut down its losses, it would sometimes   change customers’ passwords so they couldn’t log into their accounts and get movie tickets (but still had to pay their $10 monthly fee). Eventually its top executives   were indicted, accused of securities fraud. This was not a well-run company, nor one that was committed to the highest ethical standards, nor one that was all that careful with money. If you worked there and wanted to submit $260,000 of fake invoices to pay for a party at Coachella, would anyone stop you? No, it turns out,   the pretty unsurprising answer is no:
 
@@ -273,15 +273,15 @@ To repay the money he owed for the Coachella party, Itum submitted sham invoices
 
 Yeah no that makes a lot of sense.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Third Point to Launch Proxy Fight at  Bath & Body Works. Home Lenders Hunt for Ways to Make  6% Mortgages More Attractive. After Multibillion-Dollar   Fintech Binge, Wall Street Has a Writedown Hangover. Apollo Mulls $750 Million   First Boston Leveraged-Finance Bet. World Bank Touts an ESG Bond It Says Is   ‘Immune’ to Greenwashing. More States Push Back Against GOP’s   Anti-ESG Campaign.  Stablecoins Attract Scrutiny in SEC’s Drive to Control Crypto.   Space Billionaire’s Fortune Surges on Ambition to Beat China to Moon. Hundreds of  Energy Department Officials Hold Stocks Related to Agency’s Work Despite Warnings. Police warn 'do not engage'  man in Cookie Monster costume terrorising city.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I think that there is a reasonable argument that the “expectation of profits” prong of the Howey test ought to mean, like, “expectation of cash flow from the underlying enterprise” rather than “getting a thing with no cash-flow rights and expecting to sell it at a higher price due to an irrational frenzy kicked up by the underlying enterprise.” But this is a somewhat metaphysical point, I am sure that the US Securities and Exchange Commission does not believe it, and I suspect that courts don’t either.
 
 
@@ -297,114 +297,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] And so, when an employee of an NFT trading platform was   arrested for insider trading its NFTs, he was arrested for *wire* fraud and *not* charged by the SEC.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

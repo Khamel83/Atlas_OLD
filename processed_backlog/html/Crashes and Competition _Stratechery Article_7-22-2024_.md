@@ -124,22 +124,22 @@ What does seem clear to me is that the way to answer hard questions is to not se
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyNDIzNTEyMCwiaWF0IjoxNzIxNjQzMTIwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.p-4Ernw9zKLCmmUvHHPOJl8oWjLjGkaIb5z6Tu5GcpKWmaNBw1x5tWsssK9SUtQlgqom8N7-CeY906nCuCaa_7HHNUJNoq19axrIghOrczY_QxdZ33ASOQf3Sj2gaFA9gi_JCJRvotbNggV5l_GF-o4jhsdGlpsS7ozzXXQZcwZxJDPxpzeghrn-lRBQ5bAbFhleBmqYZJSkzY4HfE3M3r-zU57rdBImtBlvzFKNvY6Ro27L3-Mcu8hyq7aCNZWI58wOJUmouiuREYqOKIUXg1CHLmELIn5dYo6Kj460UPj-qkDTIuGMliHtSZKv0GhJ752TYRC7b3m9NdSWLKE7Wg%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyNDIzNTEyMCwiaWF0IjoxNzIxNjQzMTIwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.p-4Ernw9zKLCmmUvHHPOJl8oWjLjGkaIb5z6Tu5GcpKWmaNBw1x5tWsssK9SUtQlgqom8N7-CeY906nCuCaa_7HHNUJNoq19axrIghOrczY_QxdZ33ASOQf3Sj2gaFA9gi_JCJRvotbNggV5l_GF-o4jhsdGlpsS7ozzXXQZcwZxJDPxpzeghrn-lRBQ5bAbFhleBmqYZJSkzY4HfE3M3r-zU57rdBImtBlvzFKNvY6Ro27L3-Mcu8hyq7aCNZWI58wOJUmouiuREYqOKIUXg1CHLmELIn5dYo6Kj460UPj-qkDTIuGMliHtSZKv0GhJ752TYRC7b3m9NdSWLKE7Wg%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*

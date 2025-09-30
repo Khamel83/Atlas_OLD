@@ -7,7 +7,7 @@
 
 [Errol Morris](https://archive.nytimes.com/opinionator.blogs.nytimes.com/category/errol-morris/) on photography.
 
-Existence is elsewhere.  
+Existence is elsewhere.
  — André Breton, “The Surrealist Manifesto”
 
 ![lemon](https://static01.nyt.com/images/blogs/opinionator/emorris/adilemma/01_nyt_lemon_427.jpg)[www.istockphoto.com](https://www.istockphoto.com)
@@ -19,7 +19,7 @@ Existence is elsewhere.
 David Dunning, a Cornell professor of social psychology, was perusing the 1996 World Almanac.  In a section called Offbeat News Stories he found a tantalizingly brief account of a series of bank robberies committed
 in Pittsburgh the previous year.  From there, it was an easy matter to track the case to the Pittsburgh Post-Gazette, specifically to an article by Michael A. Fuoco:
 
-ARREST IN BANK ROBBERY,  
+ARREST IN BANK ROBBERY,
  SUSPECT’S TV PICTURE SPURS TIPS
 
 > At 5 feet 6 inches and about 270 pounds, bank robbery suspect McArthur Wheeler isn’t the type of person who fades into the woodwork.  So it was no surprise that he was recognized by informants, who tipped
@@ -46,8 +46,8 @@ possibilities:
 (c) Wheeler had pointed the camera away from his face at the critical moment when he snapped the photo.[[2]](#ftn2)
 
 As Dunning read through the article, a thought washed over him, an epiphany.  If Wheeler was too stupid to be a bank robber, perhaps he was also too stupid to know that he was too stupid to be a bank robber —
-that is, his stupidity protected him from an awareness of his own stupidity.  
-  
+that is, his stupidity protected him from an awareness of his own stupidity.
+
  Dunning wondered whether it was possible to measure one’s self-assessed level of competence against something a little more objective — say, actual competence.  Within weeks, he and his graduate
 student, Justin Kruger, had organized a program of research.  Their paper, “Unskilled and Unaware of It: How Difficulties of Recognizing One’s Own Incompetence Lead to Inflated Self-assessments,”
 was published in 1999.[[3]](#ftn3)
@@ -83,7 +83,7 @@ see the world the way we want to see it.  But the Dunning-Kruger effect suggest
 still have a problem — namely, when your knowledge or expertise is imperfect, you really don’t know it.  Left to your own devices, you just don’t know it.   We’re not very
 good at knowing what we don’t know.
 
-**ERROL MORRIS:**  Knowing what you don’t know?  Is this supposedly the hallmark of an intelligent person?  
+**ERROL MORRIS:**  Knowing what you don’t know?  Is this supposedly the hallmark of an intelligent person?
  **DAVID DUNNING:**  That’s absolutely right.  It’s knowing that there are things you don’t know that you don’t know. [[4]](#ftn4) Donald Rumsfeld gave this speech
 about “unknown unknowns.”  It goes something like this: “There are things we know we know about terrorism.  There are things we know we don’t know.  And there are things
 that are unknown unknowns.  We don’t know that we don’t know.”  He got a lot of grief for that.  And I thought, “That’s the smartest and most modest thing I’ve

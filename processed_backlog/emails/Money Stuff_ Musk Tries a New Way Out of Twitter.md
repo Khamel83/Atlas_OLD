@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A month ago, Elon Musk’s fight with Twitter Inc. was a merger dispute. Musk signed a merger agreement with Twitter in April, in which he agr
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Musk v. Twitter
-    
-  
+
+
 
 A month ago, Elon Musk’s fight with Twitter Inc. was a merger dispute. Musk signed a merger agreement with Twitter in April, in which he agreed to buy Twitter for about $44 billion. Then the stock market went down, and Musk decided that he didn’t want to pay $44 billion for Twitter anymore. And so, like lots of  other regretful acquirers before him, he tried to find an excuse to get out of the deal. There is a standard set of ways to do this. The merger agreement is 73 pages long, full of representations and covenants and conditions. You read through the merger agreement, you find some places where you think Twitter has not lived up to its obligations or met its conditions, you send Twitter a letter saying that and terminating the deal, Twitter sues you, and you meet up in Delaware Chancery Court to argue over what the merger agreement requires.
 This is in fact what Musk did. Frankly  I did not think that he did a very good job of it. His main excuse is that the merger agreement contained a representation that no more than 5% of Twitter’s monetizable daily active users are spam or bot accounts, but in fact vastly more than 5% are bots, so he can get out of the deal. No part of this excuse is true in any way: The merger agreement does not contain that representation, there is no evidence that it’s wrong, and even if it existed and was wrong it would not be a reason to get out of the deal unless it caused a “material adverse effect” on Twitter’s business, which seems unlikely. Nonetheless, this is how you play the game. Musk is trying to prove that the merger agreement does not require him to buy Twitter; Twitter is trying to prove that it does. Like most observers, I think that it clearly does, so this is an uphill fight for Musk, but you never know.
@@ -100,68 +100,68 @@ Still. I guess there are two ways to tell this story. Here’s one:
 	Twitter and Musk signed a merger agreement for him to buy Twitter for $44 billion.	The stock market went down and Musk got cold feet.	So he manufactured a transparently silly excuse (bots) to get out of the deal, and more or less explicitly conveyed “I am the richest person in the world and I love getting in legal fights, so if you sue to hold me to my deal I will waste a lot of time and throw everything I can against you.”	Twitter sued.	Musk is rich and pugnacious and is very publicly hunting for stories of fraud at Twitter.   The incentives are obvious. So a story of fraud materialized — in the form of Zatko’s somewhat miscellaneous complaints about Twitter’s security practices — and now Musk can use it to try to amend his existing lawsuit, file new lawsuits, stretch out discovery, delay things and generally make life more annoying for Twitter, as everyone expected him to do. And next week maybe there’ll be a new whistle-blower complaint, and a new subpoena, a new reason to delay, etc.
 
 Here’s the other:
-	Ditto	Ditto	Ditto	Ditto	
+	Ditto	Ditto	Ditto	Ditto
 Entirely by coincidence it came out that Twitter was doing a big fraud, and Musk just got super lucky that the fraud was caught before he had to close the deal.
 
 I feel like the first story is much more plausible but the second is not literally impossible. If it did turn out that Twitter was a massive secret fraud, it would hardly be fair to make Elon Musk buy it, even if his efforts to get out of buying it so far have been pretty silly.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tether
-    
-  
+
+
 
 This  article is from Saturday, though it could be from any time in the last five years:
 
@@ -179,20 +179,20 @@ One way of putting this might be that Tether is “too big to fail,” that the 
   [3]
  Another way of putting it is that people don’t worry too much about the “backing” of the US dollar itself; a dollar buys a certain amount of goods and services because of broad social acceptance rather than any reserve of gold in a vault somewhere. If enough people believe that a Tether just is a dollar in the crypto world, maybe that’s enough to make it true.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Retail execution
-    
-  
+
+
 
 We   talked on Thursday about a paper titled “The ‘Actual Retail Price’ of Equity Trades,” by Christopher Schwarz, Brad Barber, Xing Huang, Philippe Jorion and Terrance Odean. The paper finds that different retail brokerages execute orders for the same amount of the same stock at the same time at different prices, and that some brokers consistently provide better prices than others. But this is not correlated with how much payment for order flow each broker receives: Some brokers that accept lots of payment for order flow do better than some brokers who accept none, and vice versa.
 Which leaves a mystery. These brokers send their customers’ orders to wholesalers, electronic market-makers that compete to fill the orders. The wholesalers systematically give better execution prices to some brokers than others, but it has nothing to do with how much they are paying those brokers for those orders. But the professors don’t explain what does cause the difference.
@@ -212,11 +212,11 @@ I don’t think this is the explanation, and the authors explicitly reject it:
 Given the importance of latency on our results, we examine the submission time differences as well as the execution time differences of our trades for each broker pair. Table AII in Appendix A describes the distributions of differences in submission and execution times for pairs of brokers. Each broker pair has trades in almost perfectly random order. Most of the trades are within one second of each other. Also, the median execution time differences are essentially zero. Thus, no broker has any systematic advantage in terms of submission and execution times.
 But I mention it here because several people proposed it, and it’s interesting.
 
-  
-    
+
+
       Elon Musk proximity valuation
-    
-  
+
+
 
 We have   talked before about a kid named Jack Sweeney who built a Twitter bot that tracks private jets; Elon Musk asked him to stop tweeting about his flights (“It is a security risk,” Musk complained), Sweeney offered to stop for $50,000, and Musk apparently declined. Here is an incredible follow-up from  the New York Post last week:
 Even if Musk did not want to part with the dough, others were willing to step up for him. “There’s a guy from a smart air conditioning company who said he would give me $50,000 and some other stuff to take down the account,” Sweeney said. “Elon said he had an interest in making Tesla air conditioners. This guy hoped that Elon would notice and buy his company. But the offer did not come come from Elon, so it wasn’t the same thing. I turned it down.”
@@ -224,15 +224,15 @@ The layers of this. One day, when I teach a business-school class on the   Elon 
 	Musk’s perspective: If you are the richest person in the world, as Elon Musk is, you never need to spend any money. When you want something — a mansion, $50,000 to pay a kid to take down a Twitter account — you can just say “huh I wish I had that thing” and people will fall over themselves to buy it for you.	The air conditioner guy’s perspective: If you are a person in the business world, and you can solve some pain point for Elon Musk, that is so obviously good for your career that you should just do it, you don’t need to talk to Musk first, you don’t need to have any deal in place, you don’t need to have any particular mechanism in mind to spend $50,000 doing it. “The guy hoped that Elon would notice and buy his company,” sure, whatever, reasonable bet. We talked about this above and last week, but right now Elon Musk has one very obvious problem — he needs to find some evidence that Twitter Inc. is a massive fraud, so he can get out of his $44 billion deal to buy it — and I suspect there are a lot of people working to solve it. Some of them (his lawyers, etc.) work for him, but most of them are doing it on spec. If you solve that problem for Musk, surely he’ll buy your air-conditioner company or whatever.	Sweeney’s perspective: He’s a college kid, presumably he is not rolling in cash, and he is willing to take his Twitter bot down for a $50,000 payment from Musk, but not from the air-conditioner guy. A $50,000 check from the air-conditioner guy is worth $50,000. A $50,000 check from Elon Musk is priceless. You can tell that story — about the time you blackmailed Elon Musk for $50,000 — forever. That story will get you all sorts of jobs in the tech industry, possibly even at SpaceX. “The way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk,”   I have argued, and here is an example. Fifty thousand dollars from Elon Musk is worth much more than $50,000. And: “If he let me fly with him on his jet, record it and talk about it — and maybe not even pay me the $50,000 — I would take it down,” the Post quotes Sweeney saying. Sure! Flying on a private jet with Elon Musk is worth so much more than $50,000! That is serious proximity to Elon Musk. Do you know how much the air-conditioner guy would pay for 10 minutes on a private jet with Elon Musk? 
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Wall Street Rails Against Costs of Chairman  Gary Gensler’s Regulatory Agenda at SEC. EU to unveil emergency measures to curb soaring  energy prices. Morgan Stanley Banker Put on Leave as   Block-Trade Probe Heats Up. ‘Buffer Funds’ See Record $6 Billion Inflows Amid a Rocky Market. Companies attack Texas over ‘politicised’  ESG blacklist. Pimco ESG Fund's Fine Print:   No Abortion-Related Holdings. “Zuckerberg, whose company has been blamed for enabling genocide in Myanmar because it did not bother to hire moderators who speak Burmese, for example, added that one of his life’s biggest regrets is  competing on the fencing team in high school rather than wrestling.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also his second counterclaim, which is a fraud-like claim under the Texas Securities Act, with slightly different requirements.
 
 
@@ -251,114 +251,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] “What if evil high-frequency traders are racing to buy three shares of AMC ahead of me?,” you ask indignantly, but they just aren’t.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

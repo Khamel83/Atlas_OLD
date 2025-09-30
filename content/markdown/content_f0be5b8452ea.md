@@ -102,16 +102,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px;letter-spacing:.3px;font-size:.75rem;font-weight:590;margin-left:4px;border-radius:4px}a:hover .navLabel__1qTxb.badge__3OvKz{color:#222}
 
 /*# sourceMappingURL=style.css.map*/</style><link rel="preload" href="https://www.buzzfeednews.com/static-assets/bf-header-ui/news/app.23931a8e4f84df2d0b6c.js" as="script"/><div><div><svg width="0" height="0" style="display: block;"><defs><symbol id="bfo-logo" width="315.7" height="53.2"><path d="M31.8 27.3c2.5.2 4.6 1.2 6.4 3.1 1.8 1.9 2.7 4.5 2.7 7.8 0 4-1.3 7.3-4 9.7-2.7 2.4-6.5 3.6-11.6 3.6H.7V4.1h24.5c4.3 0 7.8 1.2 10.4 3.5 2.6 2.4 3.9 5.5 3.9 9.4 0 3-.8 5.3-2.5 7.1s-3.4 2.7-5.3 2.9l.1.3zm-19.4-3.6h10.2c1.7 0 3.1-.5 4.2-1.5 1-1 1.6-2.2 1.6-3.9 0-1.5-.5-2.6-1.5-3.5s-2.3-1.3-3.8-1.3H12.4v10.2zm10.8 18.4c1.8 0 3.3-.5 4.3-1.4 1-.9 1.5-2.2 1.5-3.9 0-1.6-.5-2.8-1.6-3.7-1-.9-2.4-1.4-4-1.4h-11v10.4h10.8zM81.4 51.5H70.1v-3.4c-2.8 3-6.5 4.5-10.9 4.5-4.2 0-7.5-1.4-10-4.1-2.5-2.7-3.8-6.3-3.8-10.7V16h11.2v19.4c0 2.1.6 3.8 1.7 5.1 1.1 1.3 2.6 1.9 4.4 1.9 2.3 0 4.1-.8 5.4-2.4 1.3-1.6 1.9-4.1 1.9-7.5V16h11.3l.1 35.5zM116.3 51.5h-30v-2.1L100.4 25H86.7v-9h29.4v2.1L102 42.5h14.2v9zM151.1 51.5h-29.9v-2.1l14-24.4h-13.7v-9h29.4v2.1l-14.1 24.4H151l.1 9zM167.9 24.4h20.5v10.2h-20.5v17h-11.7V4.1h34v10.2h-22.3v10.1zM271.3 36.7h-26c.7 4.4 4 6.9 8.9 6.9 3.9 0 7.8-1.5 10.7-3.8l4.3 7.5c-4 3.4-9.1 5.3-15 5.3-11.9 0-20-7.2-20-18.8 0-5.5 1.8-10 5.4-13.5 3.6-3.5 8.1-5.3 13.4-5.3 5.1 0 9.4 1.7 12.9 5.2s5.3 8 5.4 13.7v2.8zm-22.9-11.1c-1.4 1-2.4 2.4-2.9 4.1h14.6c-.5-1.8-1.4-3.2-2.7-4.2-1.3-.9-2.8-1.4-4.4-1.4-1.7 0-3.2.5-4.6 1.5zM229.9 36.7h-26c.7 4.4 4 6.9 8.9 6.9 3.9 0 7.8-1.5 10.7-3.8l4.3 7.5c-4 3.4-9.1 5.3-15 5.3-11.9 0-20-7.2-20-18.8 0-5.5 1.8-10 5.4-13.5 3.6-3.5 8.1-5.3 13.4-5.3 5.1 0 9.4 1.7 12.9 5.2s5.3 8 5.4 13.7v2.8zM207 25.6c-1.4 1-2.4 2.4-2.9 4.1h14.6c-.5-1.8-1.4-3.2-2.7-4.2-1.3-.9-2.8-1.4-4.4-1.4-1.7 0-3.2.5-4.6 1.5zM315 51.5h-11.3v-2.8c-2.9 2.6-6.5 3.9-11 3.9-4.8 0-8.9-1.8-12.3-5.3-3.4-3.5-5.1-8-5.1-13.5s1.7-10 5.1-13.5 7.5-5.3 12.3-5.3c4.5 0 8.2 1.3 11 3.9V.6H315v50.9zm-13.8-11.1c1.7-1.7 2.6-3.9 2.6-6.6 0-2.6-.9-4.8-2.6-6.6-1.7-1.7-3.8-2.6-6.1-2.6-2.5 0-4.5.9-6.1 2.6s-2.4 3.9-2.4 6.6c0 2.7.8 5 2.4 6.7s3.6 2.5 6.1 2.5c2.3 0 4.3-.9 6.1-2.6z"></path></symbol><symbol width="32" height="18" id="tasty-logo"><path d="M6.49 2.41a.82.82 0 0 0-.23-.54 1.16 1.16 0 0 0-.54-.24 2.64 2.64 0 0 0-.58-.08 5.38 5.38 0 0 0-.58.07c-.2 0-1 .14-1.16.18s-.94.23-1.18.28-.4.12-.61.16-1.07.22-1.22.28A.55.55 0 0 0 0 3a1.32 1.32 0 0 0 .06.69c.07.17.26.2.46.24a2.14 2.14 0 0 0 .56.07h.53c.16 0 .5-.08.53 0a3.61 3.61 0 0 1 0 .61v9.27c0 .18-.06.33-.08.56s0 .39 0 .57a1.43 1.43 0 0 0 .11.54c.08.19.2.33.39.27a5.71 5.71 0 0 0 .44-.19.79.79 0 0 1 .5-.1c.35 0 .41.08.64-.38a1.42 1.42 0 0 0 .16-.52 3.85 3.85 0 0 0 0-.55c0-.18-.1-.92-.12-1.08s-.09-.94-.09-1.13v-1.72c0-.19.07-1.51.07-1.71V7.27v-.59c0-.2 0-1 .06-1.17s0-.39 0-.59V3.78c0-.25.41-.1.48-.13s.82-.06 1-.08a2.19 2.19 0 0 0 .49-.07c.16-.06.24-.27.28-.5a1.77 1.77 0 0 0 0-.58"></path><path d="M12 14.91c0-.19-.05-.38-.06-.56s0-.38 0-.56-.08-1-.11-1.13-.14-.92-.17-1.11-.07-.36-.1-.55 0-.37-.06-.55-.15-.92-.17-1.11 0-.38 0-.57-.08-.94-.09-1.13-.05-.94-.07-1.13 0-.38 0-.57 0-.38-.07-.56-.07-.37-.11-.56-.19-.92-.24-1.11-.31-.93-.4-1.09a1.53 1.53 0 0 0-.35-.47.74.74 0 0 0-.57-.15 1.23 1.23 0 0 0-.54.15 1.21 1.21 0 0 0-.47.36 2.55 2.55 0 0 0-.23.56c-.07.19-.17.37-.23.57s-.12.4-.19.58-.13.34-.19.58-.08.38-.13.59l-.13.55c0 .19-.09.43-.13.63s-.1.57-.14.77-.15.83-.19 1-.09.42-.12.59-.12 1-.14 1.22-.06.45-.09.65-.05.37-.09.57-.17 1-.2 1.22S6 13.54 6 13.7s0 .32-.08.49-.06.32-.1.49a2.42 2.42 0 0 0-.09.83A.82.82 0 0 0 6 16a.92.92 0 0 0 .63.15c.3 0 1.1-.24 1.31-.56a4 4 0 0 0 .15-1.06 4.85 4.85 0 0 1 .06-.76c0-.06.28 0 .65 0h.6a2.91 2.91 0 0 1 .67 0 4 4 0 0 1 0 .74v1.2a1.67 1.67 0 0 0 0 .49.65.65 0 0 0 .31.37 1.29 1.29 0 0 0 1.21-.14.86.86 0 0 0 .31-.43 8 8 0 0 0 .1-1.09m-2.09-2.74a5.87 5.87 0 0 1-1 0c-.25 0-.53 0-.55-.06a6.17 6.17 0 0 1 .07-.68c0-.21.05-.73.08-1s0-.38 0-.59.09-1 .12-1.18.08-.39.11-.58l.09-.59c0-.21.18-1 .22-1.14.08-.32.17-.64.24-.64a1.71 1.71 0 0 1 .13.68c0 .2.13 1.55.15 1.86s.07 1 .09 1.21.07.4.08.6 0 .4.06.6 0 .41 0 .59.13.91 0 .93"></path><path d="M15.23 5.63a2.8 2.8 0 0 1-.17-.63 4.18 4.18 0 0 1 0-1 3.63 3.63 0 0 1 .3-.75 1.39 1.39 0 0 1 .39-.4.33.33 0 0 1 .49.13 2.39 2.39 0 0 1 0 1.07 5.28 5.28 0 0 0-.18.53 1 1 0 0 0 .16.52.93.93 0 0 0 .31.27 1.31 1.31 0 0 0 .38.21.61.61 0 0 0 .44-.15.76.76 0 0 0 .31-.43 1.7 1.7 0 0 0 .1-.48v-.54-.54a5.11 5.11 0 0 0 0-.55 2.91 2.91 0 0 0-.15-.53 1.46 1.46 0 0 0-.29-.47 1.58 1.58 0 0 0-.42-.35 3.93 3.93 0 0 0-.51-.18 11.07 11.07 0 0 0-1.12-.33 1.46 1.46 0 0 0-.6 0 1.32 1.32 0 0 0-.5.34 1.48 1.48 0 0 0-.36.4 4.43 4.43 0 0 0-.24.54c-.07.18-.32.94-.36 1.13a5 5 0 0 0-.09.55 10.86 10.86 0 0 0 0 1.11c0 .18.08.41.11.59a9.54 9.54 0 0 0 .34 1.06c.06.16.17.34.26.54s.13.39.2.58.4.9.48 1.08.18.38.25.54.45.94.55 1.14.17.41.25.62a4 4 0 0 1 .21.63c0 .14.22.86.23 1a2.2 2.2 0 0 1-.19 1c-.13.19-.21.27-.42.26a.57.57 0 0 1-.48-.43 1.94 1.94 0 0 1-.05-.67v-.57a3.8 3.8 0 0 0-.09-.56 1.5 1.5 0 0 0-.19-.52.69.69 0 0 0-.42-.36 1.22 1.22 0 0 0-.59.05.88.88 0 0 0-.51.27 1.1 1.1 0 0 0-.27.55s0 .93.05 1.14.09.36.13.55a4.82 4.82 0 0 0 .17.54 7.54 7.54 0 0 0 .51 1 3.23 3.23 0 0 0 .37.42 3.18 3.18 0 0 0 .44.33 4.66 4.66 0 0 0 1 .43 1.82 1.82 0 0 0 1.12-.15 2.1 2.1 0 0 0 .48-.3 4.79 4.79 0 0 0 .71-.89 3.66 3.66 0 0 0 .24-.53 7.07 7.07 0 0 0 .17-1.09 5 5 0 0 0-.06-.56c0-.18-.13-.35-.17-.54s-.09-.36-.15-.54-.12-.35-.18-.53-.13-.34-.21-.52-.35-.86-.43-1l-.23-.51-.24-.51c-.08-.17-.11-.36-.19-.53l-.24-.51c-.08-.17-.17-.33-.25-.5s-.13-.35-.2-.52-.13-.35-.2-.52-.15-.34-.22-.52"></path><path d="M23.71 2.39a1.16 1.16 0 0 0 .1-.51 1 1 0 0 0-.18-.49.82.82 0 0 0-.53-.19h-3.58a2.68 2.68 0 0 0-.52 0 .57.57 0 0 0-.44.24 1.35 1.35 0 0 0-.2.47 2.12 2.12 0 0 0 .05.52.83.83 0 0 0 .17.46c.11.13.37.13.64.1a3.5 3.5 0 0 1 .86 0c.06 0 0 .27.07.53a4.58 4.58 0 0 1 0 .56v1.73c0 .2-.08.88-.09 1.07s0 .38 0 .57V8c0 .19-.05.43-.06.62s-.13 1.43-.14 1.61 0 .9 0 1.08v.59c0 .18-.07.94-.07 1.12s-.07.91-.09 1.05a1.83 1.83 0 0 0 0 .51 1.2 1.2 0 0 0 .16.48.62.62 0 0 0 .59.16 3.76 3.76 0 0 0 .58-.15 4.13 4.13 0 0 1 .57-.17.53.53 0 0 0 .51-.26 1.17 1.17 0 0 0 .09-.59c0-.19-.06-.39-.08-.61s0-.39 0-.58v-.58-.58-.59-.59V9.4v-.64-.63-.54-1-.63-.55-.86-.7c0-.17-.06-.67-.06-.8s.27-.08.58-.09.37 0 .53 0a1.42 1.42 0 0 0 .53-.06.69.69 0 0 0 .3-.45"></path><path d="M31.62 6.73a.46.46 0 0 0-.44-.17 1.15 1.15 0 0 0-.47.2 4 4 0 0 0-.44.29l-.41.34c-.14.12-.25.27-.38.38A2.22 2.22 0 0 1 29 8a5.7 5.7 0 0 0-.51.27c-.07 0 0-.54 0-.7s.05-.39.1-.63.07-.35.12-.56l.13-.6c.05-.25.08-.44.11-.58s.06-.33.11-.54.07-.35.11-.54.08-.36.11-.54.05-.38.07-.55a4.12 4.12 0 0 0 0-.55 1.78 1.78 0 0 0 0-.56.55.55 0 0 0-.43-.34 1.57 1.57 0 0 0-.55 0 .85.85 0 0 0-.43.33c-.12.13-.24.19-.29.38a2.37 2.37 0 0 0 0 .48c0 .19-.06.36-.06.54s0 .61-.06.8-.12.69-.15.87-.06.74-.1 1a2.7 2.7 0 0 1-.18.89.71.71 0 0 1-.57.26.86.86 0 0 1-.57-.24c-.13-.1-.13-.51-.14-.78a4.55 4.55 0 0 1 .06-.64c0-.22 0-.44.06-.64s.08-.51.1-.63.16-.84.2-1 .12-.33.15-.5.05-.37.07-.52.06-.46 0-.51a.82.82 0 0 0-.52-.22 1.39 1.39 0 0 0-.55.11c-.2.06-.4.12-.48.28a2.54 2.54 0 0 0-.17.54c0 .16-.17.91-.2 1.1s-.14.92-.17 1.11 0 .38 0 .56 0 .38-.06.56-.06.37-.07.55 0 1 0 1.12a1.46 1.46 0 0 0 .14.54 2.35 2.35 0 0 0 .28.43 1.24 1.24 0 0 0 .35.27 1.81 1.81 0 0 0 .52.2l.52.1.52.06a2.86 2.86 0 0 0 .79 0 2.82 2.82 0 0 1-.62.42l-.47.24-.47.23-.47.23-.5.23c-.17.08-.34.16-.5.25a3.83 3.83 0 0 0-.43.32 4.43 4.43 0 0 0-.51.46 3.71 3.71 0 0 0-.46.91 3.42 3.42 0 0 0-.1.58 4.14 4.14 0 0 0 0 .6 4.69 4.69 0 0 0 .09.59 8.78 8.78 0 0 0 .37 1.09 4.47 4.47 0 0 0 .32.55 3 3 0 0 0 .39.43 2.35 2.35 0 0 0 .46.37 4 4 0 0 0 1.09.38 4 4 0 0 0 1.15-.09 2.43 2.43 0 0 0 .86-.64 5.26 5.26 0 0 0 .39-.46 9.6 9.6 0 0 0 .52-1 3.89 3.89 0 0 0 .19-.62 4.41 4.41 0 0 0 .1-.62v-.62-.63-.59c0-.2-.06-.4-.05-.59s0-.54 0-.61.32-.29.49-.41.9-.54 1.08-.65a4.33 4.33 0 0 0 .5-.38c.11-.09.29-.21.45-.35a5.79 5.79 0 0 0 .74-.85.73.73 0 0 0 0-.55 1.2 1.2 0 0 0-.35-.47zm-4.4 7a3.49 3.49 0 0 1-.24.58 1.32 1.32 0 0 1-.35.45 1 1 0 0 1-.53.17 1.36 1.36 0 0 1-.54-.07 1.07 1.07 0 0 1-.48-.25 1 1 0 0 1-.22-.5 1.24 1.24 0 0 1 0-.54 3.3 3.3 0 0 1 .49-1 3.42 3.42 0 0 1 .4-.39c.13-.1.25-.2.4-.3l.46-.28c.21-.11.66-.47.69-.36s0 .26 0 .82a4.8 4.8 0 0 1 0 .55v.54a3.32 3.32 0 0 1-.08.58z"></path></symbol><symbol width="48" height="18" id="goodful-logo"><path d="M6.88 5.94c-.26 1.73-2.19 4.45-3.44 4.45-.83 0-1.4-.8-1.4-2C2 5.56 4.14 2.61 5.67 2.61a.92.92 0 0 1 1 .94 2.4 2.4 0 0 1-.14.81c-.24.58 1.31.91 1.43.46a5.69 5.69 0 0 0 .26-1.53 2.16 2.16 0 0 0-2.3-2.12c-3.18 0-5.6 3.89-5.6 7.36 0 1.83 1 3.33 2.82 3.33 2.16 0 4-2.64 4.54-5.22zm22.28 3.4c-.2 1.48-1 2.48-1.46 2.48-.34 0-.48-.7-.5-1.36a45.31 45.31 0 0 1 1.15-8.65c0-.66-1.58-.66-1.61.22a34.24 34.24 0 0 0-1 8.37c.09 1.77.86 2.7 1.85 2.7 1.74 0 2.37-2.5 2.6-3.76zM45 13.25c1 0 1.94-1.25 2.42-3 .11-.3-.38-.59-.74-.47-.52 1.55-1 2-1.39 2s-.58-.66-.55-1.81a32.65 32.65 0 0 1 .5-4.82c.34-1.89.49-2.73.94-2.73.23 0 .45.25.45.83 0 1.75-1.25 4.28-2.9 5l.49 1.19c1.94-1 3.63-4.14 3.63-6.12 0-1.47-.73-2.16-1.69-2.16s-2 .75-2.49 3.62c-.19 1.15-.58 4.56-.58 5.3-.01 2.36.84 3.17 1.91 3.17zm-1.73-4.87c-.27 1-1.42 3.11-2.22 3.11-.38 0-.52-.41-.52-1.64a18.77 18.77 0 0 1 .66-4.07c0-.33-1.47-.31-1.52 0a20.44 20.44 0 0 0-.67 4.1c0 2 .74 2.81 1.85 2.81 2.15 0 3.27-3.33 3.46-4.31zm-3.62-2.49c-.67 2.81-1.57 5-2.33 5-.27 0-.53-.19-.53-.75a20.66 20.66 0 0 1 .66-4.39c0-.33-1.49-.31-1.53 0a23.47 23.47 0 0 0-.67 4.42c0 1.45.83 2.06 1.64 2.06 1.79 0 2.74-2.42 3.43-5.62zm-21.45.52c-1.66 0-2.62 1.77-2.62 3.48s.68 3.45 2.47 3.45c1.33 0 2.58-1.58 2.58-4.44 0-1.06-.5-1.91-1.22-1.91A1.53 1.53 0 0 0 18 8.64a2.5 2.5 0 0 0 2.49 2.66 3.6 3.6 0 0 0 2.61-1.93c.16-.25-.61-.67-.69-.56-.56.91-1.39 1.44-2.07 1.17l-1.07-1.45a2.23 2.23 0 0 1 .11.7c0 1.23-.39 2.91-1.22 2.91-.61 0-1-1-1-2.27s.39-2.37 1.53-2.37a.93.93 0 0 0 .53-.7 1.34 1.34 0 0 0-1.02-.39zm-6.11-.11C10.7 6.29 9.54 8 9.54 10.12c0 1.63 1 3.36 2.58 3.36s2.71-2 2.71-4.44c0-.89-.53-1.89-1.27-1.89a1.29 1.29 0 0 0-1.33 1.42 1.85 1.85 0 0 0 2 1.84c1.58 0 2.6-1.39 3-3.09 0-.14-1 .08-1 .16-.61 1.19-1.53 1.87-2.11 1.69l-1-.64.53.84c0 1.45-.5 2.89-1.49 2.89-.67 0-1.11-.84-1.11-2.23 0-1.15.55-2.56 1.27-2.56a2.93 2.93 0 0 1 .58.16c.26.06.75-.47.64-.62a1.68 1.68 0 0 0-1.45-.72zM6.86 5A30.3 30.3 0 0 1 6 13.16c-.31 1.4-1.42 3.42-2.37 3.42a.54.54 0 0 1-.5-.58c0-1.16 1.72-2.28 3.43-2.8 2.07-.6 3.79-1.58 4.08-3.66L10 8.26a3.91 3.91 0 0 1-3.25 3.54c-2.42.58-5 2-5 4.28a1.72 1.72 0 0 0 1.75 1.77c2.41 0 3.81-2.72 4.31-5.42a35.27 35.27 0 0 0 .63-7.69c0-.29-1.58.01-1.58.26zm18.82 4.64c-.16 1.25-.74 2.69-1.6 2.69-.59 0-.86-.7-.86-1.39 0-1.22.67-3.2 1.64-3.2a1.08 1.08 0 0 1 1 .89l.31-1.15a1.4 1.4 0 0 0-1.32-.89c-2 0-3 2.58-3 4.36 0 1.36.64 2.69 2.08 2.69s2.38-1.85 2.58-3.1c-.04.04-.83-.95-.83-.9zm11.13-3.7l-.9-.14c-.66 2.2-1.72 4.2-3.42 4.35-.11 0 .17 1.33.61 1.17 1.9-.54 3.29-2.74 3.71-5.38zm-4.19 5.5l-.92-1a5.64 5.64 0 0 1 1.17 3.3c0 1.53-.67 2.77-1.24 2.77s-1-.55-1-4.62c0-.52 0-1.37.08-1.94.2-3.11.75-5.48 1.49-5.48.36 0 .63.42.63.91 0 1.42-1.46 3.52-2.51 3.52l.53.84C32.38 9.67 34 6.91 34 5.42c0-1.77-1.13-2.33-1.85-2.33-1.75 0-2.82 1.84-3.08 6.67 0 .64-.11 1.55-.11 2.16 0 3.52.49 5.91 2.47 5.91 1.21 0 2.72-1.28 2.72-4.45 0-1.56-1-4.37-2.77-4.37-.67 0-1.11.3-1.11 1.42.02.57 1.11 1.44 2.35 1z"></path></symbol><symbol width="48" height="18" id="asis-logo"><path d="M38.29 13.8h1.8V2.71h-1.8V13.8z"></path><path d="M44.59 5.45a3.6 3.6 0 0 1 3.14 1.48l-1.15 1.15a2.39 2.39 0 0 0-2.08-1c-.77 0-1.29.29-1.29.8s.63.75 1.86 1 2.68.72 2.68 2.51S46.44 14 44.55 14A3.85 3.85 0 0 1 41 12.35l1.17-1.16a2.67 2.67 0 0 0 2.45 1.21c.81 0 1.36-.26 1.36-.88s-.57-.78-1.75-1-2.79-.73-2.79-2.53c0-1.53 1.17-2.49 3.13-2.49"></path><path d="M5.8 5.18l1.84 4.67H4zm-.87-2.43L.22 13.84H2.3l.85-2 .09-.22h5.13l.09.22.85 2h2.08L6.68 2.75z"></path><path d="M15.63 8.93c-1.23-.28-1.86-.42-1.86-1s.52-.8 1.29-.8a2.39 2.39 0 0 1 2.08 1L18.3 7a3.6 3.6 0 0 0-3.14-1.48c-2 0-3.13 1-3.13 2.49 0 1.79 1.56 2.27 2.79 2.53s1.75.41 1.75 1-.55.88-1.36.88a2.67 2.67 0 0 1-2.45-1.21l-1.17 1.16A3.85 3.85 0 0 0 15.11 14c1.89 0 3.2-.8 3.2-2.59S17 9.24 15.63 8.93"></path><path d="M36 2.69l-15.51 9.36v2.14L36 4.83V2.69z"></path></symbol><symbol width="1217" height="150" id="bfn-brand-logo"><path d="M8.5 138.3c3.1-2.9 4.7-7.1 4.4-11.3V27.3c.3-4.2-1.3-8.4-4.4-11.3L0 7.1v-.9h62.4c38.5 0 49.7 12.3 49.7 32.8v1c0 16.4-12.7 31.1-42.9 34.4 35 1.3 49.4 13.1 49.4 35v1.1c0 26.1-19.2 37.6-55.7 37.6H0v-.9l8.5-8.9zm37-65.7h13.3c14.8 0 20.4-4.6 20.4-29.4v-2.7c0-24.8-5.7-29.4-20.4-29.4H45.5v61.5zM84 112.8V108c0-25.2-7-30.8-26-30.8H45.5v59c0 5.2 1.9 7.3 10.2 7.3H58c19 0 26-5.5 26-30.7zM127.3 63c0-7-.8-9-4.4-12.3l-5.5-4.8V45h40.2v72.8c0 10.2 3.7 14.8 13.4 14.8 4.3-.3 8.6-1.4 12.5-3.3V63c0-5.4-.8-6.8-4.4-10l-8.5-7.1V45h42.9v87.8c0 4.8.8 6.5 4.4 10l4.6 4.4v.9h-37.4l-.8-14c-7.7 10.2-18.2 15.8-29.6 15.8-16.9 0-27.5-10.5-27.5-29.4l.1-57.5zm154.5-13.4h-16.4c-7.3 0-9.2.9-13.4 7.7l-21.5 35h-.9V45h80.7v12.9l-52.7 85.7h15.3c7.3 0 9.2-.9 13.4-7.7l22.7-37h.9v49.2h-80.7v-12.9l52.6-85.6zm92.4 0h-16.4c-7.3 0-9.2.9-13.4 7.7l-21.5 35h-.9V45h80.7v12.9L350 143.6h15.3c7.3 0 9.2-.9 13.4-7.7L401.4 99h.9v49.2h-80.7v-12.9l52.6-85.7zm44.8 88.7c3.1-2.9 4.7-7.1 4.4-11.3V27.3c.3-4.2-1.3-8.4-4.4-11.3l-8.5-8.8v-1h108.1v46.5h-.9l-23-33.3c-5.2-7.3-7.5-8.5-16.4-8.5H456v63.6h16.6c3.9 0 6.1-1.1 8.8-5.2l17.1-24.8h.9v64.6h-.9l-17.1-24.8c-2.7-4-5-5.2-8.8-5.2H456v48.1c0 3.7 1.1 5.9 5.5 8.8l16.6 11.3v.9h-67.6v-.9l8.5-9zM551.9 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5 23.2 0 37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.3 23.2-6.5h.9v6.3c-9.3 11.2-25 19.2-40 19.2zm-14.6-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zM637.8 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5s37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.3 23.2-6.5h.9v6.3c-9.3 11.2-25 19.2-40 19.2zm-14.7-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zm56.2 14c0-34 22.9-53 49.7-53 6.5.1 12.9 1.3 19 3.7V28.6c0-5.4-.9-6.7-4.4-8.7l-14.9-8.8v-.9L777.2 0h.9v128.6c0 5.2.9 7.7 4.4 11.3l7.7 7.3v.9h-40.5l-.8-14.4c-7.1 10.2-18.7 16.2-31.1 16.2-22.9 0-38.5-19.6-38.5-52.9v-.8zm54 36.3c5.1-.2 10.2-1.4 14.8-3.7V82.2c0-25.4-7.9-34.8-19-34.8-12.1 0-19.6 10.2-19.6 36.9V87c.1 32.1 10.3 45.5 23.8 45.5zm83.9-120.9l-4.8-4.4v-1H857l59 97.8V54.5c0-7-1.7-11.8-5.9-19l-17-28.4v-.9h42.2v.9L924 37.6c-2.4 5.4-3.5 11.1-3.3 16.9v93.6h-17.5L834.4 33.9c-6.2-10.5-10.9-16.4-17.2-22.3zM974.3 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5 23.2 0 37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.4 23.2-6.5h.9v6.3c-9.4 11.2-25.1 19.2-40 19.2zm-14.8-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zm48.8-34.5l-1.9-1.9v-.9h49v.9l-4.2 4.8c-2.9 2.8-3.9 7.1-2.5 10.9l15 54 12.7-46.6-6.8-23V45h31.1l20.8 71.3 8.5-29.4c1.3-4.3 1.3-8.9 0-13.3l-8.1-27.6v-.9h33.3v.9l-3.7 4.8c-6.7 8.7-12.7 20.8-17.1 36.1l-17.7 61.3h-17.1l-21-71.3-19.2 71.3h-17.1l-22.1-77c-3.9-13.4-6.5-18.2-11.9-23.5zm139.3 58.8h.9l15.5 25c6.8 11.3 11.3 14.2 19.7 14.2 7.9 0 14.4-5 14.4-12.3 0-6.1-2.4-10.7-10.5-16.6l-19.7-14.2c-12.1-8.7-17.5-18.2-17.5-28.6v-.6c0-16.9 12.9-30.4 33.2-30.4 10.2.1 20.2 1.3 30 3.7v36.9h-.9l-13.1-21.3c-7.1-11.6-11.4-15-18.1-15-8.8 0-14.2 5.2-14.2 11.9 0 6.1 2.5 10.2 10.2 15.1l18.4 12.1c15.5 10.2 21 19.7 21 31.5v.9c0 18.6-15 30.9-35 30.9-11.6-.2-23-1.5-34.2-4l-.1-39.2z"></path><path fill="#e32" d="M830.4 150c-12.9.1-23.5-10.3-23.6-23.2-.1-12.9 10.3-23.5 23.2-23.6 12.9-.1 23.5 10.3 23.6 23.2v.2c.3 12.6-9.7 23-22.3 23.4h-.9z"></path></symbol><symbol width="495" height="116" id="bfn-tagline"><path d="M149.741 49.276l-7.572-14.879h-5.744v14.879h-11.488V4.9h22.193c9.922 0 15.405 6.526 15.405 14.879 0 7.831-4.7 11.747-8.878 13.313l9.139 16.184H149.74h.001zm1.306-29.758c0-2.871-2.611-4.699-5.483-4.699h-9.139v9.398h9.139c2.872.26 5.483-1.567 5.483-4.7v.001zm18.015 29.758V4.9h32.636v9.92H180.55v6.786h20.626v9.92H180.55v7.57h21.148v9.919h-32.636v.261zm39.163 0V4.9h22.193c9.922 0 15.405 6.787 15.405 14.879 0 8.092-5.483 14.618-15.405 14.618h-10.705v14.879h-11.488zm25.848-29.758c0-3.133-2.35-4.699-5.221-4.699h-9.139v9.398h9.139c3.133.26 5.221-1.567 5.221-4.7v.001zm14.622 7.57c0-13.574 10.182-22.971 23.759-22.971s23.76 9.397 23.76 22.971-10.183 22.971-23.76 22.971c-13.577 0-23.76-9.397-23.76-22.971h.001zm35.769 0c0-7.309-4.7-12.79-12.01-12.79s-12.01 5.481-12.01 12.79c0 7.309 4.7 12.79 12.01 12.79s12.01-5.481 12.01-12.79zm42.297 22.188l-7.572-14.879h-5.744v14.879h-11.488V4.9h22.193c9.921 0 15.404 6.526 15.404 14.879 0 7.831-4.7 11.747-8.877 13.313l9.138 16.184h-13.054zm1.305-29.758c0-2.871-2.61-4.699-5.483-4.699h-9.138v9.398h9.138c2.872.26 5.483-1.567 5.483-4.7v.001zm27.154 29.758V14.819h-12.533v-9.92h36.292v9.92h-12.271v34.457H355.22zm29.242 0V4.9h11.488v44.376h-11.488zm49.607 0l-18.798-25.581v25.581h-11.488V4.9h11.749l18.015 24.537V4.9h11.488v44.376h-10.966zm16.71-22.188c0-14.096 10.705-22.971 24.02-22.971 9.922 0 15.927 5.22 19.06 10.702l-9.66 4.96c-1.567-2.871-4.961-5.743-9.4-5.743-7.31 0-12.271 5.482-12.271 12.79 0 7.31 5.222 12.792 12.271 12.792 3.133 0 6.528-1.305 8.094-2.61v-3.394h-9.921v-9.92h21.41v17.75c-4.7 5.222-11.228 8.615-19.583 8.615-13.054 0-24.02-8.875-24.02-22.971zm-313.31 83.792V76.424h-12.532v-9.92h36.292v9.92h-12.271v34.456H137.469zm25.588-22.188c0-13.573 10.182-22.97 23.759-22.97s23.76 9.397 23.76 22.97c0 13.574-10.183 22.972-23.76 22.972-13.577 0-23.76-9.398-23.76-22.972h.001zm35.77 0c0-7.309-4.7-12.79-12.011-12.79-7.31 0-12.01 5.481-12.01 12.79 0 7.31 4.7 12.791 12.01 12.791s12.01-5.743 12.01-12.79l.001-.001zm46.734 22.188V92.87l-16.97-26.365h12.793l9.66 16.446 9.4-16.446h13.054l-16.71 26.365v18.011h-11.227v-.001zm26.37-22.188c0-13.573 10.183-22.97 23.76-22.97 13.577 0 23.76 9.397 23.76 22.97 0 13.574-10.183 22.972-23.76 22.972-13.577 0-23.76-9.398-23.76-22.972zm36.031 0c0-7.309-4.7-12.79-12.01-12.79s-12.01 5.481-12.01 12.79c0 7.31 4.7 12.791 12.01 12.791 7.05 0 12.01-5.743 12.01-12.79v-.001zm17.232 4.177V66.504h11.75v26.104c0 5.22 3.132 9.136 9.399 9.136 6.005 0 9.399-3.915 9.399-9.136V66.504h11.488v26.365c0 10.964-6.789 18.795-20.887 18.795-14.36 0-21.149-7.831-21.149-18.795zM.195 109.957L63.64.067l9.043 5.22L9.238 115.178l-9.043-5.221z" fill-rule="nonzero" fill="#000"></path></symbol><symbol id="close-icon" width="38" height="38"><polygon points="30.3,10.5 27.5,7.7 19,16.2 10.5,7.7 7.7,10.5 16.2,19 7.7,27.5 10.5,30.3 19,21.8 27.5,30.3 30.3,27.5 21.8,19 "></polygon></symbol><symbol id="default-user-icon" width="512" height="512"><path d="M256.271 12c-135.09 0-244.271 109.182-244.271 244.271 0 135.09 109.182 244.271 244.271 244.271 135.09 0 244.271-109.182 244.271-244.271 0-135.09-109.182-244.271-244.271-244.271zm168.399 160.997c-12.954 0-27.758-3.701-40.712-14.804-16.655-12.954-22.206-31.459-18.505-55.516 24.057 18.505 44.413 42.562 59.217 70.321zm-168.399-105.481c25.908 0 49.965 5.552 74.022 14.804-18.505 37.011-53.666 62.918-96.228 75.872-44.413 12.954-90.677 5.552-125.837-16.655 33.31-44.413 86.975-74.022 148.043-74.022zm0 377.51c-103.63 0-188.755-85.125-188.755-188.755 0-29.609 7.402-57.367 18.505-81.424 29.609 18.505 64.769 27.758 99.929 27.758 18.505 0 37.011-1.851 55.516-7.402 35.16-9.253 64.769-27.758 86.975-51.815 5.552 16.655 14.804 31.459 29.609 44.413 18.505 14.804 42.562 22.206 64.769 22.206 3.701 0 9.253 0 12.954-1.851 3.701 14.804 5.552 31.459 5.552 48.114 3.701 103.63-81.424 188.755-185.054 188.755zM256.271 385.809c35.16 0 62.918-27.758 62.918-62.918h-127.687c1.851 33.31 29.609 62.918 64.769 62.918zM147.09 230.364h-33.31v31.459c0 18.505 14.804 31.459 31.459 31.459s31.459-14.804 31.459-31.459-12.954-31.459-29.609-31.459zM333.994 261.823c0 18.505 14.804 31.459 31.459 31.459s31.459-14.804 31.459-31.459v-31.459h-31.459c-16.655 0-31.459 12.954-31.459 31.459z"></path></symbol><symbol width="1217" height="150" id="bfn-brand-logo"><path d="M8.5 138.3c3.1-2.9 4.7-7.1 4.4-11.3V27.3c.3-4.2-1.3-8.4-4.4-11.3L0 7.1v-.9h62.4c38.5 0 49.7 12.3 49.7 32.8v1c0 16.4-12.7 31.1-42.9 34.4 35 1.3 49.4 13.1 49.4 35v1.1c0 26.1-19.2 37.6-55.7 37.6H0v-.9l8.5-8.9zm37-65.7h13.3c14.8 0 20.4-4.6 20.4-29.4v-2.7c0-24.8-5.7-29.4-20.4-29.4H45.5v61.5zM84 112.8V108c0-25.2-7-30.8-26-30.8H45.5v59c0 5.2 1.9 7.3 10.2 7.3H58c19 0 26-5.5 26-30.7zM127.3 63c0-7-.8-9-4.4-12.3l-5.5-4.8V45h40.2v72.8c0 10.2 3.7 14.8 13.4 14.8 4.3-.3 8.6-1.4 12.5-3.3V63c0-5.4-.8-6.8-4.4-10l-8.5-7.1V45h42.9v87.8c0 4.8.8 6.5 4.4 10l4.6 4.4v.9h-37.4l-.8-14c-7.7 10.2-18.2 15.8-29.6 15.8-16.9 0-27.5-10.5-27.5-29.4l.1-57.5zm154.5-13.4h-16.4c-7.3 0-9.2.9-13.4 7.7l-21.5 35h-.9V45h80.7v12.9l-52.7 85.7h15.3c7.3 0 9.2-.9 13.4-7.7l22.7-37h.9v49.2h-80.7v-12.9l52.6-85.6zm92.4 0h-16.4c-7.3 0-9.2.9-13.4 7.7l-21.5 35h-.9V45h80.7v12.9L350 143.6h15.3c7.3 0 9.2-.9 13.4-7.7L401.4 99h.9v49.2h-80.7v-12.9l52.6-85.7zm44.8 88.7c3.1-2.9 4.7-7.1 4.4-11.3V27.3c.3-4.2-1.3-8.4-4.4-11.3l-8.5-8.8v-1h108.1v46.5h-.9l-23-33.3c-5.2-7.3-7.5-8.5-16.4-8.5H456v63.6h16.6c3.9 0 6.1-1.1 8.8-5.2l17.1-24.8h.9v64.6h-.9l-17.1-24.8c-2.7-4-5-5.2-8.8-5.2H456v48.1c0 3.7 1.1 5.9 5.5 8.8l16.6 11.3v.9h-67.6v-.9l8.5-9zM551.9 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5 23.2 0 37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.3 23.2-6.5h.9v6.3c-9.3 11.2-25 19.2-40 19.2zm-14.6-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zM637.8 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5s37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.3 23.2-6.5h.9v6.3c-9.3 11.2-25 19.2-40 19.2zm-14.7-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zm56.2 14c0-34 22.9-53 49.7-53 6.5.1 12.9 1.3 19 3.7V28.6c0-5.4-.9-6.7-4.4-8.7l-14.9-8.8v-.9L777.2 0h.9v128.6c0 5.2.9 7.7 4.4 11.3l7.7 7.3v.9h-40.5l-.8-14.4c-7.1 10.2-18.7 16.2-31.1 16.2-22.9 0-38.5-19.6-38.5-52.9v-.8zm54 36.3c5.1-.2 10.2-1.4 14.8-3.7V82.2c0-25.4-7.9-34.8-19-34.8-12.1 0-19.6 10.2-19.6 36.9V87c.1 32.1 10.3 45.5 23.8 45.5zm83.9-120.9l-4.8-4.4v-1H857l59 97.8V54.5c0-7-1.7-11.8-5.9-19l-17-28.4v-.9h42.2v.9L924 37.6c-2.4 5.4-3.5 11.1-3.3 16.9v93.6h-17.5L834.4 33.9c-6.2-10.5-10.9-16.4-17.2-22.3zM974.3 150c-26.5 0-44.4-20.6-44.4-51.7v-.6c0-31.1 21.5-54.5 44.8-54.5 23.2 0 37.6 13.6 37.6 35.9v7.7h-52.7c.8 30.9 13.3 44.2 30.6 44.2 8.2-.1 16.2-2.4 23.2-6.5h.9v6.3c-9.4 11.2-25.1 19.2-40 19.2zm-14.8-67.8h27.1V68.6c0-16.6-3.9-21.2-12.1-21.2-10.9 0-15 10.2-15 32.3v2.5zm48.8-34.5l-1.9-1.9v-.9h49v.9l-4.2 4.8c-2.9 2.8-3.9 7.1-2.5 10.9l15 54 12.7-46.6-6.8-23V45h31.1l20.8 71.3 8.5-29.4c1.3-4.3 1.3-8.9 0-13.3l-8.1-27.6v-.9h33.3v.9l-3.7 4.8c-6.7 8.7-12.7 20.8-17.1 36.1l-17.7 61.3h-17.1l-21-71.3-19.2 71.3h-17.1l-22.1-77c-3.9-13.4-6.5-18.2-11.9-23.5zm139.3 58.8h.9l15.5 25c6.8 11.3 11.3 14.2 19.7 14.2 7.9 0 14.4-5 14.4-12.3 0-6.1-2.4-10.7-10.5-16.6l-19.7-14.2c-12.1-8.7-17.5-18.2-17.5-28.6v-.6c0-16.9 12.9-30.4 33.2-30.4 10.2.1 20.2 1.3 30 3.7v36.9h-.9l-13.1-21.3c-7.1-11.6-11.4-15-18.1-15-8.8 0-14.2 5.2-14.2 11.9 0 6.1 2.5 10.2 10.2 15.1l18.4 12.1c15.5 10.2 21 19.7 21 31.5v.9c0 18.6-15 30.9-35 30.9-11.6-.2-23-1.5-34.2-4l-.1-39.2z"></path><path fill="#e32" d="M830.4 150c-12.9.1-23.5-10.3-23.6-23.2-.1-12.9 10.3-23.5 23.2-23.6 12.9-.1 23.5 10.3 23.6 23.2v.2c.3 12.6-9.7 23-22.3 23.4h-.9z"></path></symbol><symbol id="hamburger" width="16" height="12"><g fill-rule="nonzero"><path d="M0 0h16v2H0zM0 5h16v2H0zM0 10h16v2H0z"></path></g></symbol></defs></svg><div id="js-header-container"><div class><div class="bottomBorder__2Aes2"></div><header class="header__3dp3L"><div class="logoWrapper__3KgDz  embed-header-logo"><a href="/" class="headerTitle__2bnEH"><svg viewBox="0 0 1217 150"><use xlink:href="#bfn-brand-logo"></use></svg></a><span class="textRedCaps__34Fkq">Reporting To You</span></div><div class="js-sticky-container"><div class="mainNavContainer__2e43Q mainNavContainer__3CMRZ js-main-nav
-          
-          
-          
+
+
+
         "><div class="wrapper__1mM_L"><div class="mainNav__3lyXQ"><button type="button" themeName="light_news" aria-label="open menu to see more links" class="menuToggle__1AwWf menuToggle__9wS7_"><i><svg viewBox="0 0 16 12"><use xlink:href="#hamburger"></use></svg></i></button><div class="logoWrapperMW__qUmGe logoWrapperMW__3CUls"><a href="/" class="headerTitle__2bnEH"><svg viewBox="0 0 1217 150"><use xlink:href="#bfn-brand-logo"></use></svg></a></div><div class="signInMW__3sjF- signInMW__1sZFg"><a href="/signin?redirect=https%3A%2F%2Fwww.buzzfeednews.com%2Fauth%2Fsso%2Fsignin%3F" class="signInLink__1z9lD signInLink__1MkSL">Sign In</a></div><nav class="navigationLinks__26RHv wrapper__3Gfjr"><ul class="navigationLinks__ul__3OsA3 topicNav__2Sr2I"><li class="navigationLinks__li__yNiEC topicNavItem__2bLv2 navigationLinks__li__3VCbj"><a href="/signin?redirect=https%3A%2F%2Fwww.buzzfeednews.com%2Fauth%2Fsso%2Fsignin%3Fredirect=" class="navigationLink__3pTrJ navigationLink__32avd link__2GH1p">Sign In</a></li><li class="navigationLinks__li__yNiEC topicNavItem__2bLv2 navigationLinks__li__3VCbj"><a href="https://www.buzzfeednews.com/article/buzzfeednews/about-buzzfeed-news" class="navigationLink__3pTrJ navigationLink__32avd link__2GH1p">About Us</a></li><li class="navigationLinks__li__yNiEC topicNavItem__2bLv2 navigationLinks__li__3VCbj"><a href="https://tips.buzzfeednews.com/" class="navigationLink__3pTrJ navigationLink__32avd link__2GH1p">Got A Tip?</a></li><li class="navigationLinks__li__yNiEC topicNavItem__2bLv2 navigationLinks__li__3VCbj"><a href="https://www.buzzfeed.com/" class="navigationLink__3pTrJ navigationLink__32avd link__2GH1p">buzzfeed.com</a></li></ul></nav></div><section class="moreNav__o8_EV  withDestinations__2b8I4" id="js-more-nav" aria-labelledby="nav-menu-title" role="dialog" aria-modal="true"></section></div></div></div></header></div></div><script>
       window.BZFD = window.BZFD || {};
       window.BZFD.Config = window.BZFD.Config || {};
       window.BZFD.Config.bfwInfoCookie = 'bf2-b_info';
       window.BZFD.__HEADER_STATE__ = {"brand":"news","edition":"us","config":{"abeagle_url":"https://abeagle-public.buzzfeed.com","bf_url":"https://www.buzzfeed.com","brand_urls":{"default":{"asis":"https://www.buzzfeed.com/asis","bfo":"https://www.buzzfeed.com","cocoabutter":"https://www.buzzfeed.com/cocoabutter","perolike":"https://www.buzzfeed.com/perolike","goodful":"https://www.buzzfeed.com/goodful","news":"https://www.buzzfeed.com/news","nifty":"https://www.buzzfeed.com/nifty","adobe":"https://www.buzzfeed.com/makethefeed","lgbtq":"https://www.buzzfeed.com/lgbtq","work-and-money":"https://www.buzzfeed.com/work-and-money"},"jp":{"asis":"https://www.buzzfeed.com/asis","bfo":"https://www.buzzfeed.com","cocoabutter":"https://www.buzzfeed.com/cocoabutter","perolike":"https://www.buzzfeed.com/perolike","goodful":"https://www.buzzfeed.com/goodful","news":"https://www.buzzfeed.com/news","nifty":"https://www.buzzfeed.com/nifty","adobe":"https://www.buzzfeed.com/makethefeed","lgbtq":"https://www.buzzfeed.com/lgbtq","work-and-money":"https://www.buzzfeed.com/work-and-money"},"us":{"asis":"https://www.buzzfeed.com/asis","bfo":"https://www.buzzfeed.com","cocoabutter":"https://www.buzzfeed.com/cocoabutter","perolike":"https://www.buzzfeed.com/perolike","goodful":"https://www.buzzfeed.com/goodful","news":"https://www.buzzfeednews.com","nifty":"https://www.buzzfeed.com/nifty","adobe":"https://www.buzzfeed.com/makethefeed","lgbtq":"https://www.buzzfeed.com/lgbtq","work-and-money":"https://www.buzzfeed.com/work-and-money"},"br":{"asis":"https://www.buzzfeed.com/asis","bfo":"https://www.buzzfeed.com","cocoabutter":"https://www.buzzfeed.com/cocoabutter","perolike":"https://www.buzzfeed.com/perolike","goodful":"https://www.buzzfeed.com/goodful","news":"https://www.buzzfeednews.com","nifty":"https://www.buzzfeed.com/nifty","adobe":"https://www.buzzfeed.com/makethefeed","lgbtq":"https://www.buzzfeed.com/lgbtq","work-and-money":"https://www.buzzfeed.com/work-and-money"},"mx":{"asis":"https://www.buzzfeed.com/asis","bfo":"https://www.buzzfeed.com","cocoabutter":"https://www.buzzfeed.com/cocoabutter","perolike":"https://www.buzzfeed.com/perolike","goodful":"https://www.buzzfeed.com/goodful","news":"https://www.buzzfeednews.com","nifty":"https://www.buzzfeed.com/nifty","adobe":"https://www.buzzfeed.com/makethefeed","lgbtq":"https://www.buzzfeed.com/lgbtq","work-and-money":"https://www.buzzfeed.com/work-and-money"}},"cms_url":"https://cms.buzzfeed.com","community_url":"https://community.buzzfeed.com","contributors_url":"https://contributors.buzzfeed.com","dashbird_url":"https://dashbird.buzzfeed.io","dashbird_community_url":"https://community-dashbird.buzzfeed.com","image_service_url":"https://img.buzzfeed.com/buzzfeed-static","new_post_path":"/post","settings_path":"/settings","membership_path":"/member-center/me?utm_source=buzzfeed&utm_medium=web&utm_campaign=user_menu","ga":"buzzfeed_ga"},"navItems":{"destinations":[{"url":"https://www.buzzfeed.com","name":"bfo","label":"bfo","description":"BuzzFeed has breaking news, vital journalism, quizzes, videos, celeb news, Tasty food videos, recipes, DIY hacks, and all the trending buzz you’ll want to share with your friends.","trackingData":{"item_name":"buzzfeed","target_content_url":"https://www.buzzfeed.com"}},{"url":"https://www.tasty.co","name":"tasty","label":"tasty","description":"Search, watch, and cook every single Tasty recipe and video ever — all in one place!","trackingData":{"item_name":"tasty","target_content_url":"https://www.tasty.co"}},{"url":"https://www.buzzfeed.com/goodful","name":"goodful","label":"goodful","description":"Self care and ideas to help you live a healthier, happier life.","trackingData":{"item_name":"goodful","target_content_url":"https://www.buzzfeed.com/goodful"}},{"url":"https://www.buzzfeed.com/asis","name":"asis","label":"asis","description":"Something for everyone interested in hair, makeup, style, and body positivity.","trackingData":{"item_name":"asis","target_content_url":"https://www.buzzfeed.com/asis"}}],"topics":[{"url":"/signin?redirect=https%3A%2F%2Fwww.buzzfeednews.com%2Fauth%2Fsso%2Fsignin%3F","name":"Sign In","label":"Sign In","signIn":true,"trackingData":{"item_name":"auth_signin","target_content_type":"auth","target_content_id":"sign_in","target_content_url":"https://www.buzzfeednews.com/signin"}},{"url":"https://www.buzzfeednews.com/article/buzzfeednews/about-buzzfeed-news","name":"About Us","label":"About Us","trackingData":{"item_name":"about_us","target_content_type":"buzz","target_content_id":4866004}},{"url":"https://tips.buzzfeednews.com/","name":"Got A Tip?","label":"Got A Tip?","trackingData":{"item_name":"send_tips","target_content_id":"tips","target_content_type":"buzz","target_content_url":"https://tips.buzzfeednews.com/"}},{"url":"https://www.buzzfeed.com/","name":"buzzfeed.com","label":"buzzfeed.com","trackingData":{"item_name":"buzzfeed.com","target_content_url":"https://www.buzzfeed.com/"}}],"sections":[{"name":"Arts & Entertainment","url":"https://www.buzzfeednews.com/section/arts-entertainment","subSections":[]},{"name":"Books","url":"https://www.buzzfeednews.com/section/books","subSections":[]},{"name":"Celebrity","url":"https://www.buzzfeednews.com/section/celebrity","subSections":[]},{"name":"Culture & Criticism","url":"https://www.buzzfeednews.com/section/culture","subSections":[]},{"name":"Health","url":"https://www.buzzfeednews.com/section/health","subSections":[]},{"name":"Internet Culture","url":"https://www.buzzfeednews.com/section/internet-culture","subSections":[]},{"name":"Investigations","url":"https://www.buzzfeednews.com/investigations","subSections":[]},{"name":"JPG","url":"https://www.buzzfeednews.com/section/jpg","subSections":[]},{"name":"LGBTQ","url":"https://www.buzzfeednews.com/section/lgbtq","subSections":[]},{"name":"Opinion","url":"https://www.buzzfeednews.com/collection/opinion","subSections":[]},{"name":"Politics","url":"https://www.buzzfeednews.com/section/politics","subSections":[]},{"name":"Tech","url":"https://www.buzzfeednews.com/section/tech","subSections":[]}]},"theme":"light_news"};
-    </script></div></div></div><div class="_slug__breakingBarWrapper__jE8o8 embed-breaking-bar"></div><div class="desktop-sticky-ad_desktopStickyAdWrapper__a_tyF " style="top:64px;min-height:122px"></div><div class="sticky-ad-placeholder "></div><main aria-hidden="false" class="post_main__leFIt post_buzzfeed_news__Z_Fj7 embed-content" id="buzz-content"><div class="featureimage_featureImageWrapper__T1sw1 featureimage_featureImage-buzzfeed_news__7_qmv embed-feature-image"><div style="padding-bottom:160%" class="featureimage_featureImagePlaceholder__cR9lp"></div></div><div class="post_article__U0mpv post_buzzfeed_news__Z_Fj7 post_wide___d0gy  embed-post"><div class="post_content__w3pdf"><article class="featured-post"><div class="headline_headline__cxqaw  headline_buzzfeed_news__8Dktm embed-buzz-header"><div class="headline_container__AwL7p embed-breadcrumbs"><nav aria-label="Breadcrumb" class="headline_breadcrumbContainerNews__f_GZf"><ol><li class="headline-breadcrumb_breadcrumbNewsItem__X4Dgp"><a class="metadata-link" href="/section/tech">Tech</a></li></ol></nav></div><div class="subscriptionButton_emailSubscription__tDniy"><button class="subscriptionButton_subscribeButton__0LKcO" aria-expanded="false" aria-controls="expansionContent"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="subscriptionButton_newslettersIcon__e4V2r"><path d="M20.9076 11.8393L11.352 19.677C11.2131 19.7973 11.1334 19.972 11.1334 20.1558V24.3019C11.1334 24.9108 11.6384 25.49 12.4008 24.9355L13.6559 24.0274M15.5688 21.1337L21.3658 25.1923C21.7379 25.4528 22.2551 25.2487 22.3491 24.8043L26.119 6.97466C26.2187 6.50321 25.7765 6.09743 25.3153 6.23718L4.80261 12.4531C4.2922 12.6078 4.18954 13.2854 4.63123 13.5843L9.23246 16.6983" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="subscriptionButton_buttonText__ujsLG">Subscribe<!-- --> <span class="subscriptionButton_topic__A_l1u">to <!-- -->BuzzFeed Daily<!-- --> Newsletter</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" class="subscriptionButton_caretUpIcon__r2JZb"><title>Caret Down</title><path d="M19 29.3L2.6 12.9c-.8-.8-.8-2 0-2.8.8-.8 2-.8 2.8 0L19 23.7l13.6-13.6c.8-.8 2-.8 2.8 0 .8.8.8 2 0 2.8L19 29.3z"></path></svg></button></div><br/><div class="headline_container__AwL7p  embed-headline"><h1 class="headline_title__NbsAE embed-headline-title">Here's How Breitbart And Milo Smuggled White Nationalism Into The Mainstream</h1><p class="headline_description__xYhEI embed-headline-description">A cache of documents obtained by BuzzFeed News reveals the truth about Steve Bannon’s alt-right “killing machine.”</p></div><div class="headline-byline_newsHeadlineByline__i9Opd headline-byline_singleHeadlineByline__iF4Nv embed-byline"><span class="headline-byline_text__2w1eR">By </span><span class="headline-byline_bylineWrap__00ICS"><div class="headline-byline_newsByline__IRldZ headline-byline_singleByline__hBH5A"><a href="/author/josephbernstein" class="headline-byline_headlineByline__qjInt"><div class="headline-byline_bylineContainer__6XyH1"><div class="headline-byline_avatar__6_daG  embed-byline-avatar"><picture><source srcSet="https://img.buzzfeed.com/buzzfeed-static/static/2018-07/18/9/user_images/buzzfeed-prod-web-06/sierratall-v2-28972-1531920669-0_large.jpg?downsize=120:*&amp;output-format=auto&amp;output-quality=auto"/><img alt="Joseph Bernstein" height="" loading="eager" fetchpriority="auto" src="https://img.buzzfeed.com/buzzfeed-static/static/2018-07/18/9/user_images/buzzfeed-prod-web-06/sierratall-v2-28972-1531920669-0_large.jpg?downsize=120:*&amp;output-format=jpg&amp;output-quality=auto" width=""/></picture></div><div class="headline-byline_bylineText__Ujt6n embed-byline-text"><span class="headline-byline_text__2w1eR ">by </span><span class="metadata-link headline-byline_bylineName__D9j7i">Joseph Bernstein</span><p class="headline-byline_position__PhIVG">BuzzFeed News Reporter</p></div></div></a></div></span></div><span class="headline-timestamp_timestampNews__0BRt9 embed-timestamp"><span class="headline-timestamp_timestampNews__0BRt9 embed-timestamp"><time dateTime="2017-10-05T20:28:04.000Z"><span class="headline-timestamp_timeDisplay__V7XdF">Posted on<!-- --> <!-- -->October 5, 2017, 8:28 pm</span></time></span></span></div><div class="action-bar_actionBar__3gHbY action-bar_buzzfeed_news__nobM0  embed-action-bar"><div class="floating-share-button_floatingShareButton__zoj_a 
-      
+    </script></div></div></div><div class="_slug__breakingBarWrapper__jE8o8 embed-breaking-bar"></div><div class="desktop-sticky-ad_desktopStickyAdWrapper__a_tyF " style="top:64px;min-height:122px"></div><div class="sticky-ad-placeholder "></div><main aria-hidden="false" class="post_main__leFIt post_buzzfeed_news__Z_Fj7 embed-content" id="buzz-content"><div class="featureimage_featureImageWrapper__T1sw1 featureimage_featureImage-buzzfeed_news__7_qmv embed-feature-image"><div style="padding-bottom:160%" class="featureimage_featureImagePlaceholder__cR9lp"></div></div><div class="post_article__U0mpv post_buzzfeed_news__Z_Fj7 post_wide___d0gy  embed-post"><div class="post_content__w3pdf"><article class="featured-post"><div class="headline_headline__cxqaw  headline_buzzfeed_news__8Dktm embed-buzz-header"><div class="headline_container__AwL7p embed-breadcrumbs"><nav aria-label="Breadcrumb" class="headline_breadcrumbContainerNews__f_GZf"><ol><li class="headline-breadcrumb_breadcrumbNewsItem__X4Dgp"><a class="metadata-link" href="/section/tech">Tech</a></li></ol></nav></div><div class="subscriptionButton_emailSubscription__tDniy"><button class="subscriptionButton_subscribeButton__0LKcO" aria-expanded="false" aria-controls="expansionContent"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="subscriptionButton_newslettersIcon__e4V2r"><path d="M20.9076 11.8393L11.352 19.677C11.2131 19.7973 11.1334 19.972 11.1334 20.1558V24.3019C11.1334 24.9108 11.6384 25.49 12.4008 24.9355L13.6559 24.0274M15.5688 21.1337L21.3658 25.1923C21.7379 25.4528 22.2551 25.2487 22.3491 24.8043L26.119 6.97466C26.2187 6.50321 25.7765 6.09743 25.3153 6.23718L4.80261 12.4531C4.2922 12.6078 4.18954 13.2854 4.63123 13.5843L9.23246 16.6983" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="subscriptionButton_buttonText__ujsLG">Subscribe<!-- --> <span class="subscriptionButton_topic__A_l1u">to <!-- -->BuzzFeed Daily<!-- --> Newsletter</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" class="subscriptionButton_caretUpIcon__r2JZb"><title>Caret Down</title><path d="M19 29.3L2.6 12.9c-.8-.8-.8-2 0-2.8.8-.8 2-.8 2.8 0L19 23.7l13.6-13.6c.8-.8 2-.8 2.8 0 .8.8.8 2 0 2.8L19 29.3z"></path></svg></button></div><br/><div class="headline_container__AwL7p  embed-headline"><h1 class="headline_title__NbsAE embed-headline-title">Here's How Breitbart And Milo Smuggled White Nationalism Into The Mainstream</h1><p class="headline_description__xYhEI embed-headline-description">A cache of documents obtained by BuzzFeed News reveals the truth about Steve Bannon’s alt-right “killing machine.”</p></div><div class="headline-byline_newsHeadlineByline__i9Opd headline-byline_singleHeadlineByline__iF4Nv embed-byline"><span class="headline-byline_text__2w1eR">By </span><span class="headline-byline_bylineWrap__00ICS"><div class="headline-byline_newsByline__IRldZ headline-byline_singleByline__hBH5A"><a href="/author/josephbernstein" class="headline-byline_headlineByline__qjInt"><div class="headline-byline_bylineContainer__6XyH1"><div class="headline-byline_avatar__6_daG  embed-byline-avatar"><picture><source srcSet="https://img.buzzfeed.com/buzzfeed-static/static/2018-07/18/9/user_images/buzzfeed-prod-web-06/sierratall-v2-28972-1531920669-0_large.jpg?downsize=120:*&amp;output-format=auto&amp;output-quality=auto"/><img alt="Joseph Bernstein" height="" loading="eager" fetchpriority="auto" src="https://img.buzzfeed.com/buzzfeed-static/static/2018-07/18/9/user_images/buzzfeed-prod-web-06/sierratall-v2-28972-1531920669-0_large.jpg?downsize=120:*&amp;output-format=jpg&amp;output-quality=auto" width=""/></picture></div><div class="headline-byline_bylineText__Ujt6n embed-byline-text"><span class="headline-byline_text__2w1eR ">by </span><span class="metadata-link headline-byline_bylineName__D9j7i">Joseph Bernstein</span><p class="headline-byline_position__PhIVG">BuzzFeed News Reporter</p></div></div></a></div></span></div><span class="headline-timestamp_timestampNews__0BRt9 embed-timestamp"><span class="headline-timestamp_timestampNews__0BRt9 embed-timestamp"><time dateTime="2017-10-05T20:28:04.000Z"><span class="headline-timestamp_timeDisplay__V7XdF">Posted on<!-- --> <!-- -->October 5, 2017, 8:28 pm</span></time></span></span></div><div class="action-bar_actionBar__3gHbY action-bar_buzzfeed_news__nobM0  embed-action-bar"><div class="floating-share-button_floatingShareButton__zoj_a
+
       floating-share-button_inactive__IOXiB"></div><div role="group" aria-label="Share" class="post_shareTop___30ep"><ul class="share-bar_shareBar__lT55F share-bar_pageLevelOutlineThick__Ye7Rw  share-bar_buzzfeed_news___auUm"><li><div class="shareButton__Qwddr twitter__2yyOE outlineMonochrome__1bpes share-bar_shareButton__pNsGr share-bar_pageLevelOutlineThick__Ye7Rw share-bar_top_share_bar__kSang"><a aria-label="Share On Twitter" class="shareLink__3GGa8" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.buzzfeednews.com%2Farticle%2Fjosephbernstein%2Fheres-how-breitbart-and-milo-smuggled-white-nationalism%3Futm_source%3Ddynamic%26utm_campaign%3Dbfsharetwitter&amp;text=Here&#x27;s%20How%20Breitbart%20And%20Milo%20Smuggled%20Nazi%20and%20White%20Nationalist%20Ideas%20Into%20The%20Mainstream&amp;via=bernstein"><div aria-hidden="true" class="iconContainer__CG3z3"><div class="icon__3VYml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="svg__3re89"><title>Twitter</title><path d="M9.52373 6.77566L15.4811 0H14.0699L8.89493 5.88201L4.7648 0H0L6.24693 8.89549L0 15.9999H1.4112L6.87253 9.78701L11.2352 15.9999H16M1.92053 1.04126H4.08853L14.0688 15.0098H11.9003"></path></svg></div></div></a></div></li><li><div class="shareButton__Qwddr facebook__1CNms outlineMonochrome__1bpes share-bar_shareButton__pNsGr share-bar_pageLevelOutlineThick__Ye7Rw share-bar_top_share_bar__kSang"><a aria-label="Share On Facebook" class="shareLink__3GGa8" href="https://www.facebook.com/dialog/share?href=https%3A%2F%2Fwww.buzzfeednews.com%2Farticle%2Fjosephbernstein%2Fheres-how-breitbart-and-milo-smuggled-white-nationalism%3Futm_source%3Ddynamic%26utm_campaign%3Dbfsharefacebook&amp;app_id=45075597673"><div aria-hidden="true" class="iconContainer__CG3z3"><div class="icon__3VYml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 16" class="svg__3re89"><title>Facebook</title><path d="M7.927 8.93204L8.36663 6.05825H5.61649V4.19334C5.61649 3.40713 6.00064 2.64078 7.23245 2.64078H8.48283V0.194175C8.48283 0.194175 7.34805 0 6.26316 0C3.99813 0 2.51774 1.37631 2.51774 3.86796V6.05825H0V8.93204H2.51774V15.8792C3.02258 15.9586 3.54001 16 4.06711 16C4.59421 16 5.11164 15.9586 5.61649 15.8792V8.93204H7.927"></path></svg></div></div></a></div></li><li><div class="shareButton__Qwddr copy__YNF7L outlineMonochrome__1bpes share-bar_shareButton__pNsGr share-bar_pageLevelOutlineThick__Ye7Rw share-bar_top_share_bar__kSang"><a aria-label="Copy Link" class="shareLink__3GGa8" href=""><div aria-hidden="true" class="iconContainer__CG3z3"><div class="icon__3VYml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" class="svg__3re89"><title>Link</title><path d="M19.7 31.5l-3.8 3.8c-3.8 3.8-10 3.6-13.6-.5-3.3-3.7-2.9-9.4.7-12.9l7.1-7.1c3.1-3 7.8-3.9 11.6-1.8 1 .6 1.9 1.3 2.5 2.1.6.7.5 1.8-.1 2.4l-.2.2c-.8.8-2 .6-2.7-.2-.3-.3-.5-.6-.9-.8-2.2-1.6-5.3-1.3-7.2.7l-7.5 7.5c-2.2 2.2-2.1 5.9.4 8 2.2 1.8 5.4 1.5 7.4-.5l3.6-3.6c.5-.5 1.2-.7 1.8-.5h.1c1.4.3 1.9 2.1.8 3.2zM35.8 3.2C32.2-.9 26-1 22.2 2.7l-3.8 3.8c-1.1 1.1-.6 2.9.9 3.2h.1c.7.2 1.3 0 1.8-.5l3.6-3.6c2-2 5.2-2.3 7.4-.5 2.5 2 2.6 5.8.4 8l-7.5 7.5c-1.9 1.9-5 2.3-7.2.7-.3-.2-.6-.5-.9-.8-.7-.8-1.9-.9-2.7-.2l-.3.2c-.7.7-.7 1.7-.1 2.4.7.8 1.5 1.5 2.5 2.1 3.8 2.1 8.5 1.2 11.6-1.8l7.1-7.1c3.5-3.5 3.9-9.2.7-12.9z"></path></svg></div></div></a></div></li></ul></div></div><div><div class="
         buzz--long
         buzz--Tech
@@ -121,16 +121,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-0
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -144,16 +144,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-1
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-center-normal subbuzz-image--align-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697431" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -161,16 +161,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
     "id": 118697431,
     "buzz_id": 4645447,
     "index": 1
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" subbuzz__media--full-width-container">
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
           "
@@ -179,7 +179,7 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 
 <picture>
   <source media="(min-width: 52rem)" srcset="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-4078-1507061948-7.jpg?downsize=700%3A%2A&amp;output-quality=auto&amp;output-format=auto 1600w" width="720" height="465">
-  
+
   <source srcset="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-4078-1507061948-7.jpg?resize=990%3A640&amp;downsize=700%3A%2A&amp;output-quality=auto&amp;output-format=auto 800w" width="990" height="640">
 
 <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-4078-1507061948-7.jpg?downsize=700%3A%2A&amp;output-quality=auto&amp;output-format=auto"
@@ -187,10 +187,10 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
     class="subbuzz__media-image--static subbuzz-picture js-subbuzz__media js-pinnable"
     width="720"
     height="465"
-    
+
     >
 </picture>
-          
+
           <div data-subbuzz-share="118697431" ></div>
       </div>
     </div>
@@ -209,7 +209,7 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
   ">
   <p>Milo Yiannopoulos at the University of California, Berkeley, on September 24.</p>
 </div>
-  
+
 </div>
 
 </figure>
@@ -218,16 +218,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-2
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -241,16 +241,16 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-3
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697477" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -258,28 +258,28 @@ a .navLabel__1qTxb.badge__3OvKz{background-color:#fe0;color:#222;padding:4px 8px
     "id": 118697477,
     "buzz_id": 4645447,
     "index": 3
-    
-    
+
+
       , "is_fullsize": true
-    
-    
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-03/sub-buzz-28732-1507062302-1.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 66.77%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -292,12 +292,12 @@ style="padding-top: 66.77%"
   data-mobile-crop="66.77"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1600"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697477" ></div>
       </div>
     </div>
@@ -316,7 +316,7 @@ style="padding-top: 66.77%"
   ">
   <p>Protesters at a white supremacist rally at the University of Virginia on August 11.</p>
 </div>
-  
+
 </div>
 
 </figure>
@@ -325,16 +325,16 @@ style="padding-top: 66.77%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-4
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -362,16 +362,16 @@ style="padding-top: 66.77%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-6
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="skincare"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -385,16 +385,16 @@ style="padding-top: 66.77%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-7
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697005" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -402,26 +402,26 @@ style="padding-top: 66.77%"
     "id": 118697005,
     "buzz_id": 4645447,
     "index": 7
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/5/16/asset/buzzfeed-prod-fastlane-03/sub-buzz-26012-1507236596-3.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 45.76%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -434,12 +434,12 @@ style="padding-top: 45.76%"
   data-mobile-crop="45.76"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697005" ></div>
       </div>
     </div>
@@ -462,16 +462,16 @@ style="padding-top: 45.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-8
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -499,16 +499,16 @@ style="padding-top: 45.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-10
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -522,16 +522,16 @@ style="padding-top: 45.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-11
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697296" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -539,26 +539,26 @@ style="padding-top: 45.76%"
     "id": 118697296,
     "buzz_id": 4645447,
     "index": 11
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-01/sub-buzz-13068-1507061242-1.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--no-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 61.92%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -571,12 +571,12 @@ style="padding-top: 61.92%"
   data-mobile-crop="61.92"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697296" ></div>
       </div>
     </div>
@@ -592,16 +592,16 @@ style="padding-top: 61.92%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-12
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -629,16 +629,16 @@ style="padding-top: 61.92%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-14
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -652,16 +652,16 @@ style="padding-top: 61.92%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-15
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-right-large subbuzz-image--align-right"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697040" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -669,26 +669,26 @@ style="padding-top: 61.92%"
     "id": 118697040,
     "buzz_id": 4645447,
     "index": 15
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/15/asset/buzzfeed-prod-fastlane-02/sub-buzz-2362-1507058861-1.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 66.26%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -701,10 +701,10 @@ style="padding-top: 66.26%"
   data-mobile-crop="66.26"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697040" ></div>
       </div>
     </div>
@@ -723,7 +723,7 @@ style="padding-top: 66.26%"
   ">
   <p>Phil Robertson at the 42nd annual Conservative Political Action Conference at the Gaylord National Resort Hotel and Convention Center on February 27, 2015, in National Harbor, Maryland.</p>
 </div>
-  
+
 </div>
 
 </figure>
@@ -732,16 +732,16 @@ style="padding-top: 66.26%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-16
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -755,16 +755,16 @@ style="padding-top: 66.26%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-17
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118696931" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -772,28 +772,28 @@ style="padding-top: 66.26%"
     "id": 118696931,
     "buzz_id": 4645447,
     "index": 17
-    
+
       , "shareBarDisabled": true
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/4/13/asset/buzzfeed-prod-fastlane-01/sub-buzz-10513-1507136437-5.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 19.70%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -806,12 +806,12 @@ style="padding-top: 19.70%"
   data-mobile-crop="19.70"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118696931" ></div>
       </div>
     </div>
@@ -832,16 +832,16 @@ style="padding-top: 19.70%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-18
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -869,16 +869,16 @@ style="padding-top: 19.70%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-20
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="skincare"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -892,16 +892,16 @@ style="padding-top: 19.70%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-21
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118696939" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -909,26 +909,26 @@ style="padding-top: 19.70%"
     "id": 118696939,
     "buzz_id": 4645447,
     "index": 21
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/4/16/asset/buzzfeed-prod-fastlane-03/sub-buzz-2126-1507149802-2.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 41.01%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -941,12 +941,12 @@ style="padding-top: 41.01%"
   data-mobile-crop="41.01"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118696939" ></div>
       </div>
     </div>
@@ -969,16 +969,16 @@ style="padding-top: 41.01%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-22
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1006,16 +1006,16 @@ style="padding-top: 41.01%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-24
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="fast fashion"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1029,16 +1029,16 @@ style="padding-top: 41.01%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-25
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697522" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1046,26 +1046,26 @@ style="padding-top: 41.01%"
     "id": 118697522,
     "buzz_id": 4645447,
     "index": 25
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-4496-1507062674-3.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 66.67%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1078,12 +1078,12 @@ style="padding-top: 66.67%"
   data-mobile-crop="66.67"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697522" ></div>
       </div>
     </div>
@@ -1102,7 +1102,7 @@ style="padding-top: 66.67%"
   ">
   <p>Yiannopoulos holds a press conference down the street from Orlando's Pulse Nightclub on June 15, 2016, two days after the shooting that killed 49 people and injured 53.</p>
 </div>
-  
+
 </div>
 
 </figure>
@@ -1111,16 +1111,16 @@ style="padding-top: 66.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-26
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="fast fashion"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1134,16 +1134,16 @@ style="padding-top: 66.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-27
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-center-normal subbuzz-image--align-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697145" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1151,26 +1151,26 @@ style="padding-top: 66.67%"
     "id": 118697145,
     "buzz_id": 4645447,
     "index": 27
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/15/asset/buzzfeed-prod-fastlane-03/sub-buzz-27266-1507059786-1.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--no-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 75.76%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1183,10 +1183,10 @@ style="padding-top: 75.76%"
   data-mobile-crop="75.76"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697145" ></div>
       </div>
     </div>
@@ -1202,16 +1202,16 @@ style="padding-top: 75.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-28
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1239,16 +1239,16 @@ style="padding-top: 75.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-30
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1262,16 +1262,16 @@ style="padding-top: 75.76%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-31
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118703883" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1279,28 +1279,28 @@ style="padding-top: 75.76%"
     "id": 118703883,
     "buzz_id": 4645447,
     "index": 31
-    
+
       , "shareBarDisabled": true
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/4/13/asset/buzzfeed-prod-fastlane-01/sub-buzz-10901-1507136828-1.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 17.78%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1313,12 +1313,12 @@ style="padding-top: 17.78%"
   data-mobile-crop="17.78"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118703883" ></div>
       </div>
     </div>
@@ -1339,16 +1339,16 @@ style="padding-top: 17.78%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-32
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="skincare"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1362,16 +1362,16 @@ style="padding-top: 17.78%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-33
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-center-normal subbuzz-image--align-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697167" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1379,26 +1379,26 @@ style="padding-top: 17.78%"
     "id": 118697167,
     "buzz_id": 4645447,
     "index": 33
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-3615-1507061260-3.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--no-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 111.82%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1411,10 +1411,10 @@ style="padding-top: 111.82%"
   data-mobile-crop="111.82"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697167" ></div>
       </div>
     </div>
@@ -1430,16 +1430,16 @@ style="padding-top: 111.82%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-34
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1453,16 +1453,16 @@ style="padding-top: 111.82%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-35
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-center-normal subbuzz-image--align-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118712806" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1470,26 +1470,26 @@ style="padding-top: 111.82%"
     "id": 118712806,
     "buzz_id": 4645447,
     "index": 35
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/5/14/asset/buzzfeed-prod-fastlane-03/sub-buzz-16484-1507228439-11.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--no-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 130.49%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1502,10 +1502,10 @@ style="padding-top: 130.49%"
   data-mobile-crop="130.49"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118712806" ></div>
       </div>
     </div>
@@ -1521,16 +1521,16 @@ style="padding-top: 130.49%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-36
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1544,16 +1544,16 @@ style="padding-top: 130.49%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-37
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118706848" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1561,26 +1561,26 @@ style="padding-top: 130.49%"
     "id": 118706848,
     "buzz_id": 4645447,
     "index": 37
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/4/17/asset/buzzfeed-prod-fastlane-03/sub-buzz-4906-1507154357-4.png" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 99.67%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1593,12 +1593,12 @@ style="padding-top: 99.67%"
   data-mobile-crop="99.67"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118706848" ></div>
       </div>
     </div>
@@ -1610,7 +1610,7 @@ style="padding-top: 99.67%"
   ">
   <p>Devin Saucier</p>
 </div>
-  
+
 </div>
 
 </figure>
@@ -1619,16 +1619,16 @@ style="padding-top: 99.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-38
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="skincare"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1656,16 +1656,16 @@ style="padding-top: 99.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-40
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1693,16 +1693,16 @@ style="padding-top: 99.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-42
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1736,7 +1736,7 @@ style="padding-top: 99.67%"
         "playsinline": 0
       },
       "videoId": "XLNLPIRS62g"
-      
+
     }
 
 </script>
@@ -1766,7 +1766,7 @@ style="padding-top: 99.67%"
   ">
   <p>Yiannopoulos singing "America the Beautiful"</p>
 </div>
-  
+
 </figcaption>
 
 </figure>
@@ -1775,16 +1775,16 @@ style="padding-top: 99.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-44
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1798,16 +1798,16 @@ style="padding-top: 99.67%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-45
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--outset-both"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118696992" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1815,26 +1815,26 @@ style="padding-top: 99.67%"
     "id": 118696992,
     "buzz_id": 4645447,
     "index": 45
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/5/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-2724-1507236612-5.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--small-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 22.22%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1847,12 +1847,12 @@ style="padding-top: 22.22%"
   data-mobile-crop="22.22"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
+
     data-force-desktop-width="1040"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118696992" ></div>
       </div>
     </div>
@@ -1875,16 +1875,16 @@ style="padding-top: 22.22%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-46
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="fast fashion"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1898,16 +1898,16 @@ style="padding-top: 22.22%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-image
   subbuzz-index-47
-  
-  
-  
-  
+
+
+
+
   subbuzz-image--longform-center-normal subbuzz-image--align-center"
-  
-  
-  
+
+
+
   data-module="subbuzz-image">
-  
+
   <div id="118697123" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -1915,26 +1915,26 @@ style="padding-top: 22.22%"
     "id": 118697123,
     "buzz_id": 4645447,
     "index": 47
-    
-    
-    
+
+
+
   }
 </script>
 
 <figure class="subbuzz__media">
 
 <div class=" js-full-size-image subbuzz__media--full-width-container">
-      
+
         <noscript>
           <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-10/3/15/asset/buzzfeed-prod-fastlane-03/sub-buzz-27038-1507059608-2.jpg" alt="" class="img-nojs"/>
         </noscript>
-      
+
       <div class="subbuzz__media-container js-subbuzz__media-container
           subbuzz__media-container--no-margin-bottom
            js-progressive-image-container"
 
 style="padding-top: 129.09%"
-          
+
           >
 
 <img class="subbuzz__media-image subbuzz__media-image--deferred
@@ -1947,10 +1947,10 @@ style="padding-top: 129.09%"
   data-mobile-crop="129.09"
   data-span="1"
   data-bfa="@o:{ignore:[bfaBinder]};"
-  
-  
+
+
 >
-          
+
           <div data-subbuzz-share="118697123" ></div>
       </div>
     </div>
@@ -1966,16 +1966,16 @@ style="padding-top: 129.09%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-48
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -2003,16 +2003,16 @@ style="padding-top: 129.09%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-50
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="skincare"
-  
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -2026,29 +2026,29 @@ style="padding-top: 129.09%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-correction-update
   subbuzz-index-51
-  
-  
-  
-  
+
+
+
+
   "
-  
+
   data-keywords="cleaning"
-  
+
   >
-  
+
   <div id="118717915" class="subbuzz-anchor"></div>
 
 <h2 class="subbuzz__header subbuzz__header--standard subbuzz__title ">
 
 <span class="js-subbuzz__title-text">CORRECTION</span>
-    
+
   </h2>
 
 <div data-module="sra-timestamp"
   class="buzz-timestamp js-timestamp js-unsupported-fallback
-  
+
     buzz-timestamp--default
-  
+
   ">
 
 <time class="buzz-timestamp__time js-timestamp__time" data-unix="1507303156">
@@ -2062,22 +2062,22 @@ style="padding-top: 129.09%"
   ">
   <p>Ghaffar Hussain has not worked at Quilliam since October 2014. An earlier version of this story said he worked for the organization at the time he sent an article about female genital mutilation to Yiannopoulos.</p>
 </div>
-  
+
 </figcaption>
 </div></div><div></div></div><div class="js-subbuzz-wrapper "><div>
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-52
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">
@@ -2091,29 +2091,29 @@ style="padding-top: 129.09%"
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-correction-update
   subbuzz-index-53
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   >
-  
+
   <div id="118714676" class="subbuzz-anchor"></div>
 
 <h2 class="subbuzz__header subbuzz__header--standard subbuzz__title ">
 
 <span class="js-subbuzz__title-text">CORRECTION</span>
-    
+
   </h2>
 
 <div data-module="sra-timestamp"
   class="buzz-timestamp js-timestamp js-unsupported-fallback
-  
+
     buzz-timestamp--default
-  
+
   ">
 
 <time class="buzz-timestamp__time js-timestamp__time" data-unix="1507248830">
@@ -2127,22 +2127,22 @@ style="padding-top: 129.09%"
   ">
   <p>Dan Lyons called Yiannopoulos "you little troublemaker." An earlier version of this article said Lyons called him "my little troublemaker."</p>
 </div>
-  
+
 </figcaption>
 </div></div><div></div></div><div class="js-subbuzz-wrapper "><div>
 
 <div class="subbuzz buzz-width--wide__subbuzz buzz-type--long__subbuzz subbuzz-text
   subbuzz-index-54
-  
-  
-  
-  
+
+
+
+
   "
-  
-  
-  
+
+
+
   data-module="subbuzz-text">
-  
+
   <div id="118696913" class="subbuzz-anchor"></div>
 
 <script type="text/x-config">

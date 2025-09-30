@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked yesterday about AMC Entertainment Holdings Inc.’s issuance of a new weird preferred stock thing called “APE units.” At a high leve
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AMC vs. APE
-    
-  
+
+
 
 We   talked yesterday about AMC Entertainment Holdings Inc.’s issuance of a new weird preferred stock thing called “APE units.” At a high level, an APE unit is a slight variant on AMC’s regular common stock, and AMC’s issuance of one APE unit for each share of common stock is just a 2-for-1 stock split. That is, I think, more or less what AMC was going for: It wants to have more common stock (to sell for cash, to pay employees, to pay for acquisitions), but it has run out of authorized common stock and can’t get its shareholders to approve more, so it is issuing APEs as a close substitute for common. The APEs have  the same rights as the common stock: They have the same voting rights, they are entitled to any dividends the common gets, they get paid the same as the common stock in a merger or liquidation, etc. They represent the same economic claim on AMC’s future cash flows as the common stock does, so in theory — the theory that says that a share of stock is worth the present value of its expected future cash flows — they should be worth as much as the common.
 On the other hand the APEs aren’t actually AMC common stock, and, uh, not everyone is necessarily buying AMC stock based on a sober analysis of its cash flows. If you are investing in AMC for meme-driven reasons, you might prefer to buy the common stock because it is a more normal thing to buy and its ticker (AMC) is more obviously associated with the name of the company. Or you might prefer to buy the preferred stock because it is a less normal thing and that’s fun, or because its ticker (APE) is funny.
@@ -101,63 +101,63 @@ The measure ended up passing with 98% approval, according to the company, but it
 
 Yeah, look, if you can’t get retail shareholders to vote on a cannabis megamerger, you’re not going to get them to vote on authorizing new common shares to allow the automatic conversion of preferred equity units. If you are a meme-stock company with a retail-focused investor-relations function, you have to solve the problem of voting. Though I assume that if anyone can do it, AMC can. Give out non-fungible tokens to shareholders who vote? Or popcorn?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Exit vs. voice
-    
-  
+
+
 
 Some companies have good managers and other companies have bad managers. If you are an investor, one thing that you can do is buy stock in companies with good managers and avoid buying stock in companies with bad managers.
   [2]
@@ -169,20 +169,20 @@ I think the intuition here is something like: If you run a big asset management�
   [3]
  In your actively managed funds, you will buy the companies that you like and avoid the companies that you don’t like. In your passively managed index funds, you will buy the companies that you like and also the companies that you don’t like. But you will — mostly symbolically — vote against the managers at the companies you don’t like, because you don’t like them.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       ESG vs. Anti-ESG
-    
-  
+
+
 
 If you are an investment manager, and you believe that climate change is real and bad and caused by fossil fuels, one thing that you might do is avoid investing in fossil-fuel companies. Here are two ways you might explain that choice, to yourself or your clients or anyone else who asks:
 	I think fossil-fuel companies are bad for the world, so I do not want to fund them. This will raise the cost of capital of fossil-fuel extraction, which will lead to less fossil-fuel extraction and less climate change.	I think that climate change is real and caused by fossil fuels, and I think that the world will increasingly realize that, and consumers and regulators will respond by, for instance, taxing or banning fossil-fuel extraction, or shifting away from gasoline-powered cars, or whatever. So fossil-fuel companies have a lot of risk of falling demand or onerous regulation, and the market underprices that risk.
@@ -219,26 +219,26 @@ Three Danish pension fund clients of Federated Hermes are demanding to know why 
 
 I guess the thinking is “do ESG investing, but give money to Republican state financial officers so they leave you alone”? Just exhausting.
 
-  
-    
+
+
       MoviePass is back
-    
-  
+
+
 
 Ehh, it’s hard to care about  this:
 Starting on Aug. 25 at 9 am EDT, you can sign up for a waitlist at the MoviePass website for the beta version of the new model. But it’s not the same MoviePass we once knew and loved, which, let’s be real, was always too good to be true. Instead, this time there will be three subscription price tiers — $10, $20, and $30 — each with a different number of “credits” to use each month to see movies. MoviePass has not revealed how many credits each tier gets, nor how many credits are needed to reserve a ticket.
 Whatever. Old MoviePass was you paid $10 a month for unlimited movie tickets, each of which cost MoviePass about $10, a business model that was   gloriously absurd. New MoviePass is, you know, you pay $X a month for Y movie tickets each of which costs MoviePass $Z, and those numbers are currently unspecified but you sort of assume that Y times Z equals something close to X, and there are volume discounts or advertising or data-harvesting profits that make up the difference, and the thing makes sense for some people and not for others, and it is all sort of a regular business of selling a product that some people find useful for a price that covers your costs. Old MoviePass accomplished its primary goal, which was to use absurd pricing to attract a lot of users, but it did not accomplish (or even really attempt?) its secondary goal, which was to use all those users to make a profit. New MoviePass will presumably start with some sort of business model, which will make it hard for it to go as viral, or be as funny, as the old one did.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The 30-Year-Old Spending $1 Billion to  Save Crypto. Russia Seen Floating   Long-Term Oil Discounts Amid Price-Cap Push. Is  Passive Ownership Bigger than Estimated?  Bed Bath & Beyond Clinches Loan Deal. Gen Z Shows   TikTok What Life's Like on Wall Street—and Banks Don't Know What to Do. Nasdaq’s growing  ESG business is under threat — from Nasdaq. Truth Social Has a Content Moderation Problem. Twitter Is Facing Fresh SEC Scrutiny Over   Spam-Account Calculations. Good Luck Finding a Seat in That Fancy   Airport Lounge. Why Were Rock Stars So Into  The Lord of the Rings?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Or because it has the word “preferred” in the name? In some investing contexts — venture-capital investing in startups, for instance — convertible preferred stock *is* better than common stock, because it is senior to the common stock in the capital structure; if the company ends up doing poorly and selling cheaply, the preferred investors get their money back before the common investors get anything. But this preferred stock is just a common substitute, and its liquidation preference — the amount that it pays back ahead of the common — is just $0.01 per preferred share, or $0.0001 per APE unit. 
+
+  [1] Or because it has the word “preferred” in the name? In some investing contexts — venture-capital investing in startups, for instance — convertible preferred stock *is* better than common stock, because it is senior to the common stock in the capital structure; if the company ends up doing poorly and selling cheaply, the preferred investors get their money back before the common investors get anything. But this preferred stock is just a common substitute, and its liquidation preference — the amount that it pays back ahead of the common — is just $0.01 per preferred share, or $0.0001 per APE unit.
 
 
   [2] Here I am sort of assuming that management quality isn’t priced in: You have done your own research and concluded that management is worse (or better) than the market thinks, etc. I think that roughly lines up with what’s going on in the paper.
@@ -250,114 +250,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Here is   a Bloomberg News article from last year that *does* worry about the distinction, arguing (against the purists) that ESG should be more like Approach 1 and less like Approach 2: “Looking under the hood reveals that the ESG system flips the very notion of sustainable investing on its head. Instead of measuring the risks large companies pose to the world, say through greenhouse gas emissions, water discharges or poor treatment of workers, ESG ratings measure the risk the world poses to the company and its bottom line.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

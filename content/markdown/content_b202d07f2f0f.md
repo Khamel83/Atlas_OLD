@@ -23,12 +23,12 @@
     <title data-rh="true">Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign - The New York Times</title>
     <meta data-rh="true" name="robots" content="max-image-preview:large"/><meta data-rh="true" name="robots" content="noarchive"/><meta data-rh="true" name="description" content="Re-election looks plausible even with a bigger loss in the national popular vote."/><meta data-rh="true" property="og:url" content="http://web.archive.org/web/20220102205100/https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign (Published 2019)"/><meta data-rh="true" property="og:image" content="http://web.archive.org/web/20220102205100im_/https://static01.nyt.com/images/2019/07/18/upshot/19up-mapper1-1563493742586/19up-mapper1-1563493742586-facebookJumbo.png?year=2019&amp;h=550&amp;w=1050&amp;s=e03f5b01f7e9b56b5b315d732d8eeb08d01b69c3f63bad41f9567f0c01cad3bd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="Re-election looks plausible even with a bigger loss in the national popular vote."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><meta data-rh="true" property="twitter:title" content="Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign (Published 2019)"/><meta data-rh="true" property="twitter:description" content="Re-election looks plausible even with a bigger loss in the national popular vote."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2019/07/18/upshot/19up-mapper1-1563493742586/19up-mapper1-1563493742586-videoSixteenByNineJumbo1600.png?year=2019&amp;h=634&amp;w=1126&amp;s=28af4bc77d0e6c5fb7edf90dfe6f7372b3a7f7fa5d6752e2be07a9f6c102b560&amp;k=ZQJBKqZ0VN&amp;tw=1"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/> <link data-rh="true" rel="canonical" href="http://web.archive.org/web/20220102205100/https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><link data-rh="true" rel="alternate" href="http://web.archive.org/web/20220102205100/nyt://article/908c0a83-5845-5da8-bbe2-42baa2f3f658"/><link data-rh="true" rel="amphtml" href="http://web.archive.org/web/20220102205100/https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.amp.html"/><link data-rh="true" rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20220102205100/https://www.nytimes.com/svc/oembed/json/?url=https%3A%2F%2Fwww.nytimes.com%2F2019%2F07%2F19%2Fupshot%2Ftrump-electoral-college-edge-.html" title="Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign"/> <script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"NewsArticle","description":"Re-election looks plausible even with a bigger loss in the national popular vote.","image":[{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20220102205100/https://static01.nyt.com/images/2019/07/18/upshot/19up-mapper1-1563493742586/19up-mapper1-1563493742586-videoSixteenByNineJumbo1600.png","height":634,"width":1126},{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20220102205100/https://static01.nyt.com/images/2019/07/18/upshot/19up-mapper1-1563493742586/19up-mapper1-1563493742586-superJumbo.png","height":751,"width":1126}],"mainEntityOfPage":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html","url":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html","author":[{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"Person","url":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/by/nate-cohn","name":"Nate Cohn"}],"dateModified":"2019-07-24T15:47:11.416Z","datePublished":"2019-07-19T16:26:40.000Z","headline":"Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign","audio":[{"@id":"http://web.archive.org/web/20220102205100/https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/c088616e-88c2-4ef7-ade8-12b3f1abf843/audio/128/default.mp3?awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=c088616e-88c2-4ef7-ade8-12b3f1abf843"}],"publisher":{"@id":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/#publisher"},"copyrightHolder":{"@id":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/#publisher"},"sourceOrganization":{"@id":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/#publisher"},"copyrightYear":2022,"isAccessibleForFree":false,"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"}}</script><script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"http://web.archive.org/web/20220102205100/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20220102205100/https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png","height":40,"width":250},"url":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/","@id":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/#publisher","diversityPolicy":"http://web.archive.org/web/20220102205100/https://www.nytco.com/diversity-and-inclusion-at-the-new-york-times/","ethicsPolicy":"http://web.archive.org/web/20220102205100/https://www.nytco.com/who-we-are/culture/standards-and-ethics/","masthead":"http://web.archive.org/web/20220102205100/https://www.nytimes.com/interactive/2020/09/08/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"http://web.archive.org/web/20220102205100/https://en.wikipedia.org/wiki/The_New_York_Times"}</script>
     <meta data-rh="true" property="article:published_time" content="2019-07-19T16:26:40.000Z"/><meta data-rh="true" property="article:modified_time" content="2019-07-24T15:47:11.416Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000006602494"/><meta data-rh="true" name="nyt_uri" content="nyt://article/908c0a83-5845-5da8-bbe2-42baa2f3f658"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/ebaa3acbbeb64f5480675c68086915f7"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2019/07/18/upshot/19up-mapper1-1563493742586/19up-mapper1-1563493742586-facebookJumbo.png?year=2019&amp;h=550&amp;w=1050&amp;s=e03f5b01f7e9b56b5b315d732d8eeb08d01b69c3f63bad41f9567f0c01cad3bd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" name="byl" content="By Nate Cohn"/><meta data-rh="true" name="news_keywords" content="2020 Election,Electoral College,Polls,Donald Trump,Wisconsin,Miami-Dade County FL,Midterm Elections 2018,US Politics"/><meta data-rh="true" name="pdate" content="20190719"/><meta data-rh="true" property="article:section" content="The Upshot"/><meta data-rh="true" property="article:tag" content="Presidential Election of 2020"/><meta data-rh="true" property="article:tag" content="Electoral College"/><meta data-rh="true" property="article:tag" content="Polls and Public Opinion"/><meta data-rh="true" property="article:tag" content="Trump, Donald J"/><meta data-rh="true" property="article:tag" content="Wisconsin"/><meta data-rh="true" property="article:tag" content="Miami-Dade County (Fla)"/><meta data-rh="true" property="article:tag" content="Midterm Elections (2018)"/><meta data-rh="true" property="article:tag" content="United States Politics and Government"/><meta data-rh="true" property="article:opinion" content="false"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="upshot"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content=""/><meta data-rh="true" name="CT" content=""/><meta data-rh="true" name="PT" content="article"/><meta data-rh="true" name="PST" content="News"/><meta data-rh="true" name="url" content="https://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><meta data-rh="true" name="msapplication-starturl" content="https://www.nytimes.com"/><meta data-rh="true" property="al:android:url" content="nyt://article/908c0a83-5845-5da8-bbe2-42baa2f3f658"/><meta data-rh="true" property="al:android:package" content="com.nytimes.android"/><meta data-rh="true" property="al:android:app_name" content="NYTimes"/><meta data-rh="true" name="twitter:app:name:googleplay" content="NYTimes"/><meta data-rh="true" name="twitter:app:id:googleplay" content="com.nytimes.android"/><meta data-rh="true" name="twitter:app:url:googleplay" content="nyt://article/908c0a83-5845-5da8-bbe2-42baa2f3f658"/><meta data-rh="true" property="al:iphone:url" content="nytimes://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><meta data-rh="true" property="al:iphone:app_store_id" content="284862083"/><meta data-rh="true" property="al:iphone:app_name" content="NYTimes"/><meta data-rh="true" property="al:ipad:url" content="nytimes://www.nytimes.com/2019/07/19/upshot/trump-electoral-college-edge-.html"/><meta data-rh="true" property="al:ipad:app_store_id" content="357066198"/><meta data-rh="true" property="al:ipad:app_name" content="NYTimes"/>
-    
+
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta property="fb:app_id" content="9869919170"/>
 <meta name="twitter:site" content="@nytimes"/>
 <meta name="slack-app-id" content="A0121HXPPTQ"/>
-    
+
     <script>
       const override = (new URL(window.location)).searchParams.get('sentryOverride');
       if (override || Math.floor(Math.random() * 100) <= 1) {
@@ -36,7 +36,7 @@
       }
     </script>
     <script>
-      
+
       if (window.Sentry) {
         window.Sentry.onLoad(function() {
           window.Sentry.init({
@@ -46,7 +46,7 @@
             beforeSend: function(e, v) {
               if (/amazon-adsystem|ads-us|ampproject|amp4ads|pubads|2mdn|chartbeat|gsi|bk_addPageCtx|yimg|BOOMR|boomerang/.test(v.originalException && v.originalException.stack || '')) return null;
               return e;
-            }  
+            }
           });
         });
       }
@@ -141,7 +141,7 @@ return UnifiedTracking;
     }
   }
 </script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   function placeGpt() {
     var purrCookie = testCookie('nyt-purr');
     if (purrCookie && purrCookie.substring(10, 11) === 's') return;
@@ -153,7 +153,7 @@ return UnifiedTracking;
   placeGpt();
 
 }</script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   var purrCookie = testCookie('nyt-purr');
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
@@ -202,7 +202,7 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
 <script defer src="/web/20220102205100js_/https://www.nytimes.com/vi-assets/static-assets/footerBlock-7f10e471616351324da5.js"></script>
     <script defer src="/web/20220102205100js_/https://www.nytimes.com/vi-assets/static-assets/main-a1d23c9320ebd0c4ca0d.js"></script>
     <script>(function () { var _f=function(){try{var e=["first-paint","first-contentful-paint","userBtnRender","appRenderTime"];new window.PerformanceObserver(function(r){for(var n=r.getEntries(),a=0;a<n.length;a+=1){var t=n[a];if(e.indexOf(t.name)>-1){var i={};i[t.name]=Math.round(t.duration||t.startTime),(window.dataLayer=window.dataLayer||[]).push({event:"performance",pageview:{performance:i}})}}}).observe({entryTypes:["mark","measure","paint"]})}catch(e){}};;_f.apply(null, []); })();(function () { var _f=function(){!function(){if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url="http://web.archive.org/web/20220102205100/https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239";var e=(document.currentScript||document.getElementsByTagName("script")[0]).parentNode,n=!1,t=document.createElement("link");t.relList&&"function"==typeof t.relList.supports&&t.relList.supports("preload")&&"as"in t?(window.BOOMR.snippetMethod="p",t.href=window.BOOMR.url,t.rel="preload",t.as="script",t.addEventListener("load",function(){if(!n){var t=document.createElement("script");t.id="boomr-scr-as",t.src=window.BOOMR.url,t.async=!0,e.appendChild(t),n=!0}}),t.addEventListener("error",function(){o(!0)}),setTimeout(function(){n||o(!0)},3e3),BOOMR_lstart=(new Date).getTime(),e.appendChild(t)):o(!1),window.addEventListener?window.addEventListener("load",i,!1):window.attachEvent&&window.attachEvent("onload",i)}function o(t){n=!0;var o,i,d,a,r=document,s=window;if(window.BOOMR.snippetMethod=t?"if":"i",i=function(e,n){var t=r.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),(e=e||r.body).appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]./))return window.BOOMR.snippetMethod="s",void i(e,"boomr-async");(d=document.createElement("IFRAME")).src="about:blank",d.title="",d.role="presentation",d.loading="eager",(a=(d.frameElement||d).style).width=0,a.height=0,a.border=0,a.display="none",e.appendChild(d);try{s=d.contentWindow,r=s.document.open()}catch(e){o=document.domain,d.src="javascript:var d=document.open();d.domain='"+o+"';void 0;",s=d.contentWindow,r=s.document.open()}o?(r._boomrl=function(){this.domain=o,i()},r.write("<body onload='document._boomrl();'>")):(s._boomrl=function(){i()},s.addEventListener?s.addEventListener("load",s._boomrl,!1):s.attachEvent&&s.attachEvent("onload",s._boomrl)),r.close()}function i(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}}()};;_f.apply(null, []); })();</script>
-    
+
     <script>
     (function(){
       if (document.cookie.indexOf('NYT-S') === -1) {
@@ -216,7 +216,7 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
       }
     })();
     </script>
-  
+
     <script>
 (function(w, l) {
   w[l] = w[l] || [];
@@ -230,8 +230,8 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
 <noscript>
 <iframe src="http://web.archive.org/web/20220102205100if_/https://www.googletagmanager.com/ns.html?id=GTM-P528B3>m_auth=tfAzqo1rYDLgYhmTnSjPqw>m_preview=env-130>m_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-    
-    
+
+
     <!-- RELEASE 266bb155e35b022f1d2dd61ec5a481b3f80f1040 -->
   </body>
 </html><!--

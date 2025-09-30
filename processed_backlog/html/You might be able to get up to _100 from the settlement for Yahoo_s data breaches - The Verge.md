@@ -11,7 +11,7 @@
 
 # You might be able to get up to $100 from the settlement for Yahoo’s data breaches
 
- / 
+ /
 
 ## You’ll need to file your claim by July 20th
 
@@ -71,7 +71,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20240305142300im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20240305142300/http://theverge.com/)
 

@@ -75,7 +75,7 @@ The Dress had transcended understanding on a meteoric rise to memehood, from gar
 
 Science explains that our eyes have more difficulty seeing blue light than warmer colors, and that low light situations can make us see things in different shades. Xkcd [weighed in on the science side](https://web.archive.org/web/20250124101211/http://xkcd.com/1492/), with the comic below illustrating how the "different" colors people are seeing could be the result of a white-balance optical illusion.
 
-![dress_color.0.png](https://web.archive.org/web/20250124101211im_/https://cdn0.vox-cdn.com/uploads/chorus_asset/file/3452536/dress_color.0.png)  
+![dress_color.0.png](https://web.archive.org/web/20250124101211im_/https://cdn0.vox-cdn.com/uploads/chorus_asset/file/3452536/dress_color.0.png)
 *([Xkcd](https://web.archive.org/web/20250124101211/http://xkcd.com/1492/))*
 
 Essentially, this is when our eyes are tricked by the context of what we're looking at — a similar thing is happening in the famous '[checker shadow illusion](https://web.archive.org/web/20250124101211/http://en.wikipedia.org/wiki/Checker_shadow_illusion).' And if you don't believe the colors on the two dresses above are the same, try opening up the comic in an image editor of your choice and use the color picker. They. Are. Identical.
@@ -108,7 +108,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250124101211im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250124101211/http://theverge.com/)
 

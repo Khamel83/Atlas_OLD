@@ -49,7 +49,7 @@ original pyramid pattern that feels special now. Buy one here ( https://go.shopm
 Mentioned in this issue: Gucci, Sabato De Sarno, Kering, Francesca
 Bellettini, Silvia Venturini Fendi, Daniel Lee, Burberry, Prada, Saint Laurent, Raf Simons, Miuccia Prada, LVMH, Pierre-Emmanuel Angeloglou, Sarah Jessica Parker, Anna Wintour, Nuuly, Rent the Runway, Luke and Lucie Meier, Jil Sander, Parker Posey, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -128,6 +128,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=IC+Exclusi
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVSdpvE-eJBXvor_HzwfI=&utm_campaign=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_content=IC+Exclusive+Line+Sheet+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

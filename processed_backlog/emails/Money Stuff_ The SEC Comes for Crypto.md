@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         “A decent rule of thumb,” I wrote in March, “is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC v. Crypto
-    
-  
+
+
 
 “A decent rule of thumb,”   I wrote in March, “is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes.” Like:
 	Is your exchange operating an illegal securities exchange in the US? Yes! Yes it is! The view of the US Securities and Exchange Commission, at least, is that every crypto exchange in the US is illegal. You might disagree — plenty of crypto exchange executives disagree, and we will talk more about the arguments below — but realistically, if you are trading crypto, you simply cannot be too squeamish about strict adherence to US securities law.	Is your exchange stealing all of its customers’ money? It might be! Some are! Others are not! This is the one you should mostly care about, if you are a customer.
@@ -95,37 +95,37 @@ As Binance’s CCO bluntly admitted to another Binance compliance officer in Dec
 Just a much clearer perspective! Coinbase hired a lot of lawyers and did a lot of analysis and wrote a lot of checklists to convince itself that it was legally running a crypto exchange in the US. Binance was like “well obviously this is illegal in the US, ah well.” The SEC absolutely agrees with Binance.
 This might work out well for Coinbase: It might be able to go to court and portray itself as a good actor who tried to follow the law, while Binance looks like a bad actor who tried to ignore the law; Coinbase might win against the SEC and Binance might lose. But I have to say that, so far, Binance’s approach seems smarter. (Though obviously don’t put it in writing, etc.) Binance noticed that it's illegal to run a crypto exchange in the US, and did it anyway, but minimized and compartmentalized its US exposure: It has relatively few US customers and seems to keep most of its business out of the US. Coinbase went all-in on the possibility of running a legal and regulatorily compliant crypto exchange in the US, and now the SEC has said that that’s impossible. If the SEC is right, what is left for Coinbase?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC v. Crypto: What is a security?
-    
-  
+
+
 
 Okay let’s discuss the basic theory of the SEC’s case here, which we previously   discussed when the SEC sued Bittrex:
 	If you run an exchange that offers securities trading in the US, you need to register it as a securities exchange with the SEC.	Binance and Coinbase offer trading of crypto tokens that are securities.	They did not register their US exchanges as securities exchanges.
@@ -185,11 +185,11 @@ Or, if you are starting a crypto exchange, you can go to investors and offer the
 I am being a little unfair. I am describing a pure regulatory arbitrage; Binance’s BNB token — or   FTX’s FTT token — is a pure substitute for stock, issued by a company to raise money to run its centralized business. Lots of crypto is not quite like this; in some projects   there is a real idealism about building decentralized ecosystems that will not be owned by any one company, and selling tokens can be a way to create and fund projects without owners, an economic model that really is very different from a shareholder-owned corporation. But much of the time, the crypto ecosystems seem to be built by pretty centralized teams, and the tokens are sold as more or less stock in a new tech company with a promising idea started by a promising team.
 You can see why people in crypto like this! It combines regulatory arbitrage with a certain exciting philosophical newfangledness. You can see why the SEC does not like it! The SEC knows all about “ the countless and variable schemes devised by those who seek the use of the money of others on the promise of profits.” The SEC is the regulator getting arbitraged. And it is not happy about it.
 
-  
-    
+
+
       SEC v. Crypto: What now?
-    
-  
+
+
 
 Oh I don’t know. Conceptually, there are several possible outcomes here:
 	The SEC wins and crypto is more or less banned in the US. You can still buy Bitcoin and probably Ethereum
@@ -207,11 +207,11 @@ When crypto is going down and so many projects are evaporating in fraud and bank
 
 That is the bet that the SEC is making. Now we’ll see if it’s right.
 
-  
-    
+
+
       Private gigs
-    
-  
+
+
 
 If you work at a private equity firm and it has reached its 25th anniversary, it will probably have a party to celebrate. If it has a party, it will probably book a musical guest. If it books a musical guest and David Solomon is unavailable, it will probably book Flo Rida. You will go to your private equity firm’s anniversary party and your boss will give a speech about the value you provide to limited partners, and then she will say “and now, Flo Rida.” And then Flo Rida will come out on stage, and you will perhaps, for just a second, think, “well, why Flo Rida?” And he will probably be thinking “well, why this private equity firm?” But that is just life in modern capitalism, sometimes private equity firms celebrate significant milestones and Flo Rida is there. It doesn’t have to make sense; it just is.
 Evan Osnos has an extremely delightful New Yorker article about the private gig industry, in which star and former-star and near-star musicians collect large checks for playing short sets for the bar mitzvahs and corporate parties of the wealthy. “If you can say, ‘Hey, I’m going to go have a bad time for an afternoon, but it’s going to pay for my kid’s entire college education,’ then that’s a trade-off I think most responsible adults will make,” says one booking agent, correctly. Osnos follows Flo Rida, who “attained celebrity in 2008 with his song ‘Low,’ an admiring ode to a Rubenesque beauty on the dance floor,” to both a bar mitzvah and a private equity gig:
@@ -223,39 +223,39 @@ The partygoers had not been told who the headline entertainer would be, and some
 
 Springsteen! The main thing that I took away from this is that Flo Rida’s band includes “a younger rapper known as Int’l Nephew,” the greatest stage name I have ever seen, but I will probably also use the “with pride in our hearts and sushi in our mouths” line in the future.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 PGA Tour Bows to Saudi Rival in Shock   Combination With LIV Golf. Private Credit is Poised for a Multi-Trillion-Dollar Boom, But It Could Get Ugly Soon. A $1.5 Trillion Backstop for Homebuyers   Props Up Banks Instead. A Wall Street Titan Scores One of the Best  Real Estate Trades Ever. Lina Khan Is Upending Wall Street’s   Merger-Arbitrage Playbook. Companies That Embraced  Social Issues Have Second Thoughts.   Sequoia Splits Into Three Firms Amid Geopolitical Tension. Swiss Government to Have Say on   UBS Assets Backed by Guarantee. Clumps of 5,000-mile  seaweed blob bring flesh-eating bacteria to Florida.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In particular the yacht is just mentioned and dropped. There are weird claims that *could* be read as ominous: “Since the launch of the Binance.US Platform, Merit Peak’s U.S. bank account received, as a ‘pass through’ account, over $20 billion that included customer funds from both Binance Platforms. Merit Peak then transferred the vast majority of those funds to Trust Company A, in transfers that appear to relate to the purchase of BUSD. As Merit Peak was a purportedly independent entity, sending Binance customer funds to Merit Peak placed those funds at risk, including of loss or theft, and was done without notice to customers.” I think I read that to mean “Merit Peak operated as a market maker selling Binance customers BUSD stablecoins,” rather than “Binance siphoned $20 billion of customer money to its affiliated trading firm,” but the SEC just mentions this and moves on.
 
 
-  [2] Coinbase is a US exchange so the analysis is pretty simple. Binance has Binance.us, which is open to US customers, and Binance.com, which is not. The SEC’s complaint against Binance has two components: One is that Binance.us is an illegal securities exchange, because it offers spot trading in crypto assets that the SEC claims are securities (same as Coinbase); the other is that Binance.com actually did let big US traders use its platform (same as the CFTC case against Binance). 
+  [2] Coinbase is a US exchange so the analysis is pretty simple. Binance has Binance.us, which is open to US customers, and Binance.com, which is not. The SEC’s complaint against Binance has two components: One is that Binance.us is an illegal securities exchange, because it offers spot trading in crypto assets that the SEC claims are securities (same as Coinbase); the other is that Binance.com actually did let big US traders use its platform (same as the CFTC case against Binance).
 
 
-  [3] Actually Robinhood almost certainly 
-routes your order to a wholesaler to execute, rather than sending it to the exchange; to some extent Robinhood, or the wholesaler, runs a venue for matching buy and sell orders, with Robinhood’s retail customers on one side and the wholesaler on the other. This is part of what I mean about stock trading venues not all being registered as exchanges; broker-dealers run various sorts of trading venues (internalizing like this, dark pools, etc.) that are somewhat exchange-like but not exchanges. Still they are subject to more SEC registration than crypto exchanges are. 
+  [3] Actually Robinhood almost certainly
+routes your order to a wholesaler to execute, rather than sending it to the exchange; to some extent Robinhood, or the wholesaler, runs a venue for matching buy and sell orders, with Robinhood’s retail customers on one side and the wholesaler on the other. This is part of what I mean about stock trading venues not all being registered as exchanges; broker-dealers run various sorts of trading venues (internalizing like this, dark pools, etc.) that are somewhat exchange-like but not exchanges. Still they are subject to more SEC registration than crypto exchanges are.
 
 
-  [4] Another question raised in these cases is: Are crypto *lending* programs (where a platform like Binance or Coinbase takes its customers’ crypto, lends it to crypto hedge funds, charges interest and passes on a portion of the interest to the customers) and *staking* programs (where the platform takes its customers’ crypto, locks it up in blockchain proof-of-stake mechanisms that validate transactions and earn staking rewards, and passes on a portion of the rewards to the customers) securities, even if the underlying crypto is not a security? We have talked about this question when 
-the SEC sued Kraken for running a staking program, and when it 
-sued Gemini and 
+  [4] Another question raised in these cases is: Are crypto *lending* programs (where a platform like Binance or Coinbase takes its customers’ crypto, lends it to crypto hedge funds, charges interest and passes on a portion of the interest to the customers) and *staking* programs (where the platform takes its customers’ crypto, locks it up in blockchain proof-of-stake mechanisms that validate transactions and earn staking rewards, and passes on a portion of the rewards to the customers) securities, even if the underlying crypto is not a security? We have talked about this question when
+the SEC sued Kraken for running a staking program, and when it
+sued Gemini and
 threatened Coinbase over lending programs. The SEC makes similar claims against Coinbase and Binance this week over lending and staking programs.
 
 
-  [5] The elephant in the room is Ethereum, the second-biggest crypto blockchain behind Bitcoin, which entirely fits the SEC’s description of Solana, Cardano, etc. Is ETH (the Ethereum token) a security? 
+  [5] The elephant in the room is Ethereum, the second-biggest crypto blockchain behind Bitcoin, which entirely fits the SEC’s description of Solana, Cardano, etc. Is ETH (the Ethereum token) a security?
 My view is that (1) the SEC *clearly* thinks ETH is a security, (2) for historical reasons the SEC missed that boat and now US law treats ETH as a non-security commodity, (3) the SEC doesn’t like it but (4) they’re picking their battles and are not going to come out and argue that ETH is a security.
 
 
   [6] I am quoting the Coinbase complaint, though there is similar text in the Binance complaint.
 
 
-  [7] A side note here. Solana did not, in its early fundraising, sell SOL tokens. Instead it sold “Simple Agreements for Future Tokens,” or SAFTs, that is, a sort of futures-contract wrapper for the SOL tokens. The thinking here was that the SAFTs were securities, because they were used to raise money to build a blockchain ecosystem, but that once that ecosystem was running the tokens would be pure “utility tokens,” that is, gas for running the Solana network rather than an investment security. This SAFT idea is sort of best practice in crypto, but the SEC doesn’t really believe in it; their view seems to be once a security, always a security. (We talked about this view 
+  [7] A side note here. Solana did not, in its early fundraising, sell SOL tokens. Instead it sold “Simple Agreements for Future Tokens,” or SAFTs, that is, a sort of futures-contract wrapper for the SOL tokens. The thinking here was that the SAFTs were securities, because they were used to raise money to build a blockchain ecosystem, but that once that ecosystem was running the tokens would be pure “utility tokens,” that is, gas for running the Solana network rather than an investment security. This SAFT idea is sort of best practice in crypto, but the SEC doesn’t really believe in it; their view seems to be once a security, always a security. (We talked about this view
 as far back as 2019.) And so in this week’s complaints, the SEC cites the fact that Solana actually admitted that its (SAFT) fundraising was a securities sale: “Between May 2018 and early March 2020, Solana Labs filed with the SEC multiple forms claiming that its offers and sales of securities—what Solana described in those forms as the ‘sale and issuance of rights to receive Solana Labs, Inc. tokens in the future via a Simple Agreement for Future Tokens (SAFTs)’—were exempt from registration under Rule 506(c) of Regulation D under the Securities Act. Through these offers and sales of securities, Solana sold approximately 177 million SOL, raising over $23 million.” You can follow industry best practices in crypto securities-law compliance, but they are still not good enough for the SEC.
 
 
@@ -271,52 +271,52 @@ as far back as 2019.) And so in this week’s complaints, the SEC cites the fact
   [11] See footnote 5.
 
 
-  [12] Last month 
+  [12] Last month
 Prometheum Ember Capital “said it has received the first special purpose broker-dealer license under US Securities and Exchange Commission guidelines that would allow it to custody digital assets securities,” which I guess is a start.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -327,46 +327,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23civoe6.5k60/5eb0aeda.gif" alt="" border="0" /></a>

@@ -7,11 +7,11 @@
 
 # The Finalists for the 2020 Comedy Wildlife Photography Awards
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![The Finalists for the 2020 Comedy Wildlife Photography Awards](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/animal-comedy-2020-01.jpg)
 
-The Finalists for the 2020 Comedy Wildlife Photography Awards  
-  
-Each year, photographers entering the Comedy Wildlife Photography Awards capture animals in various hilarious (and often anthropomorphic) situations and this year’s finalists can hopefully provide you with some relief from the absolute shitstorm that’s raging outside our skulls here in 2020. [Uh, how about something a little more upbeat next time? -ed] (via digg) 
+The Finalists for the 2020 Comedy Wildlife Photography Awards
+
+Each year, photographers entering the Comedy Wildlife Photography Awards capture animals in various hilarious (and often anthropomorphic) situations and this year’s finalists can hopefully provide you with some relief from the absolute shitstorm that’s raging outside our skulls here in 2020. [Uh, how about something a little more upbeat next time? -ed] (via digg)
 

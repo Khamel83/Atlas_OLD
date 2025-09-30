@@ -12,11 +12,11 @@
 
 # Log into Facebook
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Log into Facebook](https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico)
 
-Notice  
-  
-You must log in to continue. 
+Notice
+
+You must log in to continue.
 

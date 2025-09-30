@@ -1,8 +1,8 @@
 # Docker & OCI Deployment for Personal Atlas
 
-**Date**: August 18, 2025  
-**Status**: 🎯 PLANNED  
-**Priority**: MEDIUM - Infrastructure Simplification  
+**Date**: August 18, 2025
+**Status**: 🎯 PLANNED
+**Priority**: MEDIUM - Infrastructure Simplification
 **Parent Task**: Personal Knowledge System Completion
 
 ## Executive Summary
@@ -94,7 +94,7 @@ Create Docker containerization for Atlas to enable **easy deployment, migration,
    ```dockerfile
    FROM python:3.11-slim as builder
    # Install dependencies, build Python packages
-   
+
    FROM python:3.11-slim as runtime
    # Copy built packages, setup Atlas
    # Configure background services

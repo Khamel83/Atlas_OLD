@@ -14,11 +14,11 @@ Discover new startups in any sector, geography, or stage including stealth.
 Track companies’ performance with insights on fundraising, hiring, web traffic, and more.
 Monitor their networks for the next generation of founders.
 Whether you're an investor or GTM leader, Harmonic is just one of those high-ROI no-brainers to have in your stack. 
-Hi friends 👋 , 
-Happy Tuesday! Hope you all had a great Thanksgiving (or enjoyed the peace and quiet while us Americans were in Turkey comas). 
-Apologies that this is a little late — once again, the newsletter gods dropped a perfect example [ https://substack.com/redirect/28d1c12d-9bf4-4e9d-a01f-c31bb1c60deb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] of the point I was trying to make in my lap at the last minute, and I’ve been up since 5:30 trying to incorporate it. 
-We live in a time of extreme narratives. It’s easy to get caught up and worked up when you take the extremes in isolation. Don’t. They’re part of a bigger game, and once you see it, the world makes a lot more sense. 
-Let’s get to it. 
+Hi friends 👋 ,
+Happy Tuesday! Hope you all had a great Thanksgiving (or enjoyed the peace and quiet while us Americans were in Turkey comas).
+Apologies that this is a little late — once again, the newsletter gods dropped a perfect example [ https://substack.com/redirect/28d1c12d-9bf4-4e9d-a01f-c31bb1c60deb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] of the point I was trying to make in my lap at the last minute, and I’ve been up since 5:30 trying to incorporate it.
+We live in a time of extreme narratives. It’s easy to get caught up and worked up when you take the extremes in isolation. Don’t. They’re part of a bigger game, and once you see it, the world makes a lot more sense.
+Let’s get to it.
 Narrative Tug-of-War
 One of the biggest changes to how I see the world over the past year or so is viewing ideological debates as games of narrative tug-of-war. 
 For every narrative, there is an equal and opposite narrative. It’s practically predetermined, cultural physics. 

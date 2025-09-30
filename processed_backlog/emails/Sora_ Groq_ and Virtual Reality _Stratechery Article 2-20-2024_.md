@@ -129,15 +129,15 @@ I don’t, for the record, think we are at an iPhone moment when it comes to vir
 
 The most important difference, of course, is that mobile phones existed before the iPhone: it was an easy lift to simply sell a better phone. The big question — one that we are only now coming in reach of answering — is if virtual reality will, for a meaningful number of people, be a better reality.
 
-* 
+*
 
 Which is not Elon Musk’s X-adjacent LLM ( https://wow.groq.com/welcome-to-groqs-galaxy-elon/ ). ↩︎ ( #rf1-12344 )
 
-* 
+*
 
 Just for clarity, Groq is a chip; it can run any number of models; the demo on its home page ( https://groq.com/ ) happens to be using the Mixtral 8x7B-32k and LLama 2 70B-4k open source models; the key thing to observe is the speed of the answer, not necessarily its accuracy. ↩︎ ( #rf2-12344 )
 
-* 
+*
 
 I didn’t mention the inter-chip communication for a multi-chip system: that’s deterministic too ↩︎ ( #rf3-12344 )
 

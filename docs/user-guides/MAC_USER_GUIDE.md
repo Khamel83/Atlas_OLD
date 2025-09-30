@@ -133,7 +133,7 @@ python /path/to/atlas/scripts/save_web_page.py --url "$1" --title "$2"
 
 **Features:**
 - ✅ Saves title, URL, and page text automatically
-- ✅ Works with any website  
+- ✅ Works with any website
 - ✅ Smart port detection (prompts for Atlas URL)
 - ✅ Success confirmation when saved
 - ✅ Perfect complement to voice capture
@@ -147,7 +147,7 @@ python /path/to/atlas/scripts/save_web_page.py --url "$1" --title "$2"
 - **Features**: Full content management, search, mobile-optimized interface
 - **Works from**: Any device with browser (phone, laptop, tablet)
 
-### 🎤 **Apple Shortcuts** (Voice Capture)  
+### 🎤 **Apple Shortcuts** (Voice Capture)
 - **"Hey Siri, save to Atlas"** - Works from iPhone/Mac
 - **Sends to**: `https://atlas.khamel.com/api/v1/content/save`
 - **Perfect for**: Voice memos, quick thoughts while mobile
@@ -210,7 +210,7 @@ javascript:(function(){
     var title = document.title;
     var url = window.location.href;
     var content = document.body.innerText;
-    
+
     // Generate summary using Atlas AI
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "https://atlas.khamel.com/api/v1/cognitive/summarize", true);
@@ -301,10 +301,10 @@ def process_custom_content(content, metadata):
     """Custom processing logic"""
     config = load_config()
     manager = MetadataManager(config)
-    
+
     # Your custom processing logic here
     processed_content = content.upper()  # Example transformation
-    
+
     return processed_content
 ```
 

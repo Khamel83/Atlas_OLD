@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"10\/16\/2015","content_publish_time":"07:47","content_last_update_date":"03\/06\/2016","content_last_update_time":"21:33","contentcategory":"Dallas Cowboys,NFL,TV","section_1":"sports","section_2":"sports:tv","story_title":"Which NFL Team Are You Stuck Watching Every Sunday?","story_id":91879,"author":"Kirk Goldsberry","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"long_form_layout","editorial_other_subjects":["Dallas Cowboys","NFL","TV"],"word_count":1401},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Which NFL Team Are You Stuck Watching Every Sunday? | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":91879,"section":"sportstv","seg_a":"",
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Which NFL Team Are You Stuck Watching Every Sunday?" />
@@ -209,7 +209,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -228,13 +228,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Which NFL Team Are You Stuck Watching Every Sunday?									</div>
 				<a href="https://fivethirtyeight.com/features/which-nfl-team-are-you-stuck-watching-every-sunday/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/which-nfl-team-are-you-stuck-watching-every-sunday/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -298,7 +298,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -307,7 +307,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -318,7 +318,7 @@ display: none;
 					<article id="post-91879" class="post-91879 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-dallas-cowboys tag-nfl tag-tv espn_verticals-life espn_verticals-sports contributor-cap-reuben-fischer-baum vertical-sports topic-slug-tv">
 
 <header class="post-info single-post-header">
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Which NFL Team Are You Stuck Watching Every Sunday?								</h1>
@@ -328,13 +328,13 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/kirk-goldsberry/" title="" class="author url fn" rel="author">Kirk Goldsberry</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/tv/" class="term " name="">TV</a></p>
-										
+
 																			<p class="single-metadata single-topic single-date">
 										Published <time class="datetime updated" title="2015-10-16T11:47:36+00:00">Oct. 16, 2015</time>
 									</p>
-									
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -347,7 +347,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-nflmaps-banner1.png">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png 1200w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2015/10/goldsberry-feature-crop.png?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -356,7 +356,7 @@ display: none;
 </span><!-- .has-bugs -->
 
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>Like millions of other Americans, I watch the NFL on a regular basis. However, just like millions of other viewers, most Sundays I am not sure which games will be on my television. I live in Austin, so there’s a good chance I’ll get to see the Cowboys and Texans, but beyond that, there’s no way for me to know what to expect. <a href="http://blogs.fox11online.com/2013/08/05/nfl-on-tv-rules/" target="_blank">Because of the nature of the league’s broadcast deal</a>, and the realities of “regional coverage,” every Sunday the league’s national broadcast partners Fox and CBS assign different games to different markets, based on both regional and national interest. So unless you have a premium NFL television package, your location greatly affects your viewing experiences. Folks in Wisconsin get to watch their Packers every week; folks in northern Florida <a href="http://www.businessinsider.com/orlando-tv-station-apologizes-for-airing-jaguars-2013-9" target="_blank">“get” to see the Jags</a>.</p>
 <p>For years, the strange geographic structures that underpinned league broadcasts were almost entirely obscured from the average consumer. People would turn on their TVs expecting to see one game only to be disappointed by another. In 2005, one of these chronically disappointed viewers was J.P. Kirby, a Patriots fan and self-described “map nerd.” “The station’s site said one thing, the guide in my newspaper said another, and what ended up showing was another game completely, and it wasn’t the Pats game,” <a href="https://twitter.com/theother506" target="_blank">Kirby</a>, 32, a web designer in Fredericton, New Brunswick, told me by email. “I was pissed and figured there had to be a better way to figure this out.” Kirby had an idea to expose the hidden geographic patterns that control our Sunday afternoons: He created a project dedicated to mapping out the NFL’s weekly broadcast schedule.</p>
@@ -364,7 +364,7 @@ display: none;
 "><sup id="ss-1">1</sup></span> Here is one of his maps for this coming week. It’s a simple map that shows which regions see which late game on CBS on Sunday afternoon.</p>
 <figure id="attachment_92126" class="wp-caption alignnone" style="">
 					<img decoding="async" class="wp-image-92126" src="https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png" alt="Screenshot 2015-10-16 08.13.05" width="610" height="434" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png 810w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=100,71 100w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=300,213 300w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=768,546 768w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=683,486 683w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=575,409 575w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=470,334 470w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=600,427 600w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=366,260 366w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=225,160 225w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=207,147 207w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=60,43 60w" sizes="(max-width: 610px) 100vw, 610px" data-sizes="(max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png 810w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=100,71 100w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=300,213 300w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=768,546 768w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=683,486 683w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=575,409 575w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=470,334 470w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=600,427 600w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=366,260 366w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=225,160 225w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=207,147 207w, https://fivethirtyeight.com/wp-content/uploads/2015/10/screenshot-2015-10-16-08-13-05.png?resize=60,43 60w"></figure>
-		
+
 <p>As you can see, the country is split between those seeing San Diego at Green Bay (red), those seeing Baltimore at San Francisco (blue), and Washington state residents seeing Seattle host Carolina. Displaced Seahawks or Panthers fans in New York City won’t get to see their favorite team on local television this week; instead, they’ll be shown the Chargers-Packers game.</p>
 <p>But while Kirby’s project does a good job of visualizing the spatial coverage of NFL broadcasts each week, that’s not all it does; the archive of data he’s compiled over the years also helps us understand larger geographic patterns in NFL television. His data reveals which teams we see most and least often each season and across multiple seasons. It’s a reflection of both regional broadcasting choices for Sunday day games and <a href="http://www.nfl.com/news/story/0ap3000000487256/article/nfl-schedule-release-top-primetime-games-of-2015">national programming selections</a> for the night games on Thursdays, Sundays and Mondays<span class="espn-footnote-link" data-footnote-id="2" data-footnote-url="#fn-2" data-footnote-content='&lt;p&gt;Monday night games are &lt;a href="http://www.espn.com/nfl/story/_/page/MNFHQ/monday-night-football-hq-nfl" target="_blank"&gt;broadcast by ESPN&lt;/a&gt;, which owns FiveThirtyEight.&lt;/p&gt;
 '><sup id="ss-2">2</sup></span>. The choices matter throughout the U.S. and even outside of it: Kirby, who lives an hour from Maine, has access to U.S. networks, which is why he started collecting the data.</p>

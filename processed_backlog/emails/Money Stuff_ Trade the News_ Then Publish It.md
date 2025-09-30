@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One thing that I think about sometimes is the similarity between journalism and insider trading. Consider: You are in the business of findin
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Journalism
-    
-  
+
+
 
 One thing that I   think about sometimes is the similarity between journalism and insider trading. Consider: You are in the business of finding out things about companies that nobody else knows, so you spend your time developing sources at those companies who will tell you things. If their company has a new product coming out, or is about to announce a merger, or has been doing fraud, they call you to tell you before anyone else knows.
 Sometimes they tell you things just because you ask, and they are indiscreet. Sometimes they tell you things out of a sense of public-spiritedness: They think that what they know should be known more broadly. Sometimes they tell you things out of a sense of grievance: They are mad at their bosses and want to leak information. Sometimes they tell you things because you are friends: You have done such a good job of developing relationships that your sources think of you as a personal friend, not just a transactional counterparty. Sometimes there is some amount of favor-trading involved: You get information from them, and in exchange you give them something that they want. Perhaps that is also information: You give them news or gossip about their firm or industry that you got from other sources. Or perhaps you can give them career advice. Or maybe you just buy them lunch, or drinks. Maybe you pay them cash!
@@ -102,37 +102,37 @@ The risks of that model are pretty well known. For one thing, yes, insider tradi
   [8]
  For another thing, activist short sellers are constantly accused of market manipulation: It is just widely assumed that, if you bet against a company’s stock and then publish bad stuff about the company, you are doing something fraudulent and manipulative. If you publish stuff that is wrong, you will get in trouble for securities fraud: Betting against a stock and then publishing falsehoods about the company to drive down the stock is classic fraud, and no one will be sympathetic if you say you made an honest mistake. Even if you publish stuff that is right, people will be suspicious. There is an ongoing US Department of Justice  investigation of activist short sellers, “probing possible coordination surrounding the publication of short reports, looking for signs of market manipulation or other trading abuses.” Is Hunterbrook/Watchdog's whole business model a “sign of market manipulation or other trading abuses?” I don’t think so, but I bet some people will.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       PE tranching
-    
-  
+
+
 
 Historically, a fundamental insight of private equity was that a lot of companies can support a lot more debt than people thought. If you have a company worth $1 billion with stable cash flows, you can probably take out, like, $800 million of debt against those cash flows. So you can buy the company with just $200 million of your own money, and then if you make some improvements and the company is worth $1.2 billion, you have doubled your investment. And people will be happy to lend you the $800 million, because the cash flows are pretty good and because you’ll pay a high interest rate. It’s just that companies never asked to borrow that much money. And private equity came along and asked. This was called the “leveraged buyout” and it revolutionized finance.
 That all happened quite a long time ago, with a lot of success, and now private equity is a mature business with a long track record. To the point that, if you are an investor in a private equity fund, that fund has reasonably predictable cash flows: You can be like “I put $100 million into this fund, and it has five more years before it winds up, and over that time I expect to get back between $70 million and $150 million with some pretty high degree of confidence.”
@@ -147,11 +147,11 @@ The risk to Whitehorse and others who provide this type of financing is that cas
 
 Every financial asset can be sliced up into two tranches, a safer one that gets the first $X of cash flows, and a riskier one that gets whatever’s left after that. If you do that slicing, you will probably find some people who want the safer tranche (but would not want the whole asset), and some people who want the riskier tranche (but would not want the whole asset). And so you have created value. And you can do this over and over again: Get a bunch of risky tranches (say, equity stakes in leveraged buyouts), put them together (into, say, an LP interest in a private equity fund), and slice them again (into preferred stakes for Whitehorse and common stakes for the LP). And that’s  the main thing that finance does.
 
-  
-    
+
+
       PE and rates
-    
-  
+
+
 
 If you had asked me a few years ago, at an extremely high level of generality, how much the two tranches of a leveraged buyout should get paid — like, how much interest lenders should charge for lending money to private equity portfolio companies, and how much the equity investors in the private equity funds should expect to make — I guess I would have thrown out numbers like, I don’t know, 7% and 15%? No science to that. But high-yield debt in like the mid-to-high single digits, and private equity internal rates of return in the low-to-mid teens? Kind of? Blackstone Group Inc., for instance, lists the investment records for its private equity funds, and many of the more recent ones have those sorts of teen-ish IRRs.
 Then interest rates went up a lot very quickly, though. Here is Blackstone founder Steve Schwarzman at a conference in September:
@@ -169,11 +169,11 @@ The yield on the debt financing, around 12 per cent at the time, would have been
 
 Feels like there is going to be a lot of that.
 
-  
-    
+
+
       Oil hedging
-    
-  
+
+
 
 You could have an extremely crude
   [9]
@@ -195,11 +195,11 @@ The recent wave of dealmaking by US oil producers — which may not be finished 
 Hess Corp. and Pioneer Natural Resources Co. have in recent years bought large derivatives positions to lock in prices for their future production. Those holdings are set to dry up after the drillers’ takeovers by Chevron Corp. and Exxon Mobil Corp. because supermajors tend not to hedge, instead using their refining and retail operations as natural buffers against price moves. Two other top hedgers — Devon Energy Corp. and Marathon Oil Corp. — are also said to have held merger talks.
 
 
-  
-    
+
+
       MicroStrategy
-    
-  
+
+
 
 For a long time, there has been demand from investors for a product that is “Bitcoin, but a US-listed stock.” The most straightforward way to satisfy that demand would be with a Bitcoin exchange-traded fund: You put some Bitcoins in a pot, you issue shares of the pot, you let people exchange Bitcoins for shares or shares for Bitcoins in a way that keeps the price of the shares in line with the price of Bitcoin. The US Securities and Exchange Commission, for mostly bad reasons, has refused to allow anyone to do this. The SEC got sued over this,   and lost, and everyone anticipates that there will soon be Bitcoin ETFs.
 But for a long time there weren’t, so that demand has been satisfied by imperfect substitutes. One substitute is   Bitcoin futures ETFs, which are like Bitcoin ETFs but use derivatives and have some slippage. Another substitute is the Grayscale Bitcoin Trust, which is like a Bitcoin ETF except that you can’t take Bitcoins out (you can't trade in your shares for Bitcoins), so the price of the shares does not stay in line with the price of Bitcoin. A third substitute is MicroStrategy Inc., a publicly traded US software company that also just owns a lot of Bitcoin. It’s a publicly traded pot of Bitcoin with a software company attached to it, which is a sillier way to invest in Bitcoin than just a publicly traded pot of Bitcoin without a software company attached, but better than nothing.
@@ -213,11 +213,11 @@ Now with the US Securities and Exchange Commission seeming likely to approve ETF
 
 In a world where a publicly traded pot of Bitcoins is a rare and inaccessible thing, people will pay up for a weird one. In a world in which it is normal and straightforward, they won’t.
 
-  
-    
+
+
       WeWork
-    
-  
+
+
 
 Ah,   well:
 
@@ -229,20 +229,20 @@ SoftBank Group Corp.’s Vision Fund still owns  a majority of WeWork’s stock;
 	Not great!	There is a lot of debt, and WeWork founder Adam Neumann is not as rich as he used to be, and he’s got   other stuff going on. It’s not like he could, or would, come in and buy WeWork out of bankruptcy for $1 and give it a go again. But wouldn’t that be great? We   talk   sometimes around here about what I call the “Wag trade,” where an entrepreneur raises a bajillion dollars from SoftBank for his startup, incinerates it, and then buys the company back from SoftBank for pennies on the dollar. Adam Neumann is the   all-time world champion of incinerating SoftBank’s money, and it would be very satisfying, for me, if he ends up owning WeWork again after it runs through all of SoftBank’s money.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Jury Finds Realtors Conspired to Keep Commissions High. World’s Safest Market Becomes a Magnet for Big Investors. Texting: Wall Street’s Latest Dilemma. Sam’s last stand: Bankman-Fried jury weighs duelling accounts of FTX’s downfall. Sam Bankman-Fried’s Lawyers Seek to Regain Ground in FTX Trial. “ Chandler’s stoicism more broadly reflects Gen X’s tacit acceptance of their lot: the forgotten latchkey kids squished between the Baby Boomers and the Millennials.” Why Fewer Senior Executives Are Taking the   Corporate Jet.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] To be clear, reputable journalists do not normally pay sources for scoops, and frown upon journalists who do. Hedge funds 
+
+  [1] To be clear, reputable journalists do not normally pay sources for scoops, and frown upon journalists who do. Hedge funds
 do sometimes pay for scoops.
 
 
-  [2] There are, of course, many more, like “industrial espionage” or “file whistleblower complaints with the US Securities and Exchange Commission.” 
+  [2] There are, of course, many more, like “industrial espionage” or “file whistleblower complaints with the US Securities and Exchange Commission.”
 
 
   [3] I want to be clear that I am not making any claims about journalistic ethics here. I think some journalists would say that it is unethical, or at least frowned upon, to do some of the favor trading I discuss in my second paragraph. (And almost all journalists would say it is unethical to pay your sources in cash.) But I think most journalists would be okay with at least some of those things. It’s broadly acceptable to buy a source a drink.
@@ -266,54 +266,54 @@ do sometimes pay for scoops.
   [9] Sorry.
 
 
-  [10] A more reasonable model would be like “a small junk-rated exploration-and-production company is very exposed to price risk, while a supermajor with refining, retail, trading, green-energy, etc. divisions and an investment-grade rating has a lot more diversification.” It’s not literally “refining is short oil.” 
+  [10] A more reasonable model would be like “a small junk-rated exploration-and-production company is very exposed to price risk, while a supermajor with refining, retail, trading, green-energy, etc. divisions and an investment-grade rating has a lot more diversification.” It’s not literally “refining is short oil.”
 
 
   [11] To be fair, there are arguments that MicroStrategy is a superior way to own Bitcoin. For instance, it's a way to   own Bitcoin with term leverage, which is otherwise unusual. There is also a sort of   meme-stock-related argument, which is maybe a bad reason to own it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -324,46 +324,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjs1d4.62ol/fd04eb51.gif" alt="" border="0" /></a>

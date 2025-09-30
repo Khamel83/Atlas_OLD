@@ -32,9 +32,9 @@ Apple ( https://podcasts.apple.com/us/podcast/the-grill-room/id1775515432?utm_ca
 Discovery have scrapped plans to launch Venu, their long-awaited sports streaming joint venture. This has been described as a “shocking reversal,” since Disney just neutered Fubo’s legal challenge last week via a merger. On the other hand, most media executives I talk to have been skeptical ( https://puck.news/newsletter_content/wh-reporter-murmurs-godwins-new-boss-a-lachlan-investment-2/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about Venu launching ever since it was first
 announced (back when we called it “Spulu”). It was always an incomplete offering, with an overly complicated corporate arrangement, and vulnerable to legal pressure from competitors.
 
- 
 
- 
+
+
 
 A MESSAGE FROM OUR SPONSOR
 
@@ -226,6 +226,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Roo
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUUxcZjg8RG-sYgXnNPD8=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

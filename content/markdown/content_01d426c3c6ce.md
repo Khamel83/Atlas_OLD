@@ -67,7 +67,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var __dataLayer = {"page":{"content_publish_date":"01\/08\/2015","content_publish_time":"08:29","content_last_update_date":"01\/12\/2015","content_last_update_time":"16:30","contentcategory":"","section_1":"","section_2":"","story_title":"The Men Who Protect the Man","story_id":210006,"author":"","page_name":"features","content_type":"features","app_version":"1.0.4","device_type":"Desktop","prev_page":false},"site":{"baseDomain":"grantland.com","otguid":"0191cec3-baf4-761d-81fa-034310bf96b3","nsl":2},"detailsEndpoint":"https:\/\/grantland.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/"};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <meta name='robots' content='max-image-preview:large' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
@@ -122,7 +122,7 @@ var countryCookie = getCountryCookie();
 		<body class="wp-singular grantland_feature-template-default single single-grantland_feature postid-210006 wp-theme-espn-grantland ad-pre-head slug-green-bay-packers-offensive-line-aaron-rodgers"> <!-- id="home" -->
 			<div class="ad-unit pre-head">
 		<div id="ad-Banner" class="ad-banner" data-defer="none"></div>	</div>
-	
+
 <div id="overlayad" class="ad-unit ad-slot-overlay">
 	<div id="ad-Overlay" class="ad-overlay" data-defer="none"></div></div>
 <div id="wallpaperad" class="ad-unit ad-slot-wallpaper">
@@ -168,7 +168,7 @@ var countryCookie = getCountryCookie();
 <li id="menu-item-94297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94297 post-name-quarterly"><a href="http://www.espn.com" name="&amp;lpos=grantlandSiteNav&amp;lid=ESPN.com">ESPN.com</a></li>
 </ul>
 	</div><!-- /.nav-inner -->
-	
+
 </nav><!--end .nav -->
 
 <div id="single-navigation" class="single-navigation">
@@ -348,7 +348,7 @@ var countryCookie = getCountryCookie();
 					</div>
 
 <p class="filed">Filed Under: <a href="https://grantland.com/tags/aaron-rodgers/">Aaron Rodgers</a>, <a href="https://grantland.com/tags/green-bay-packers/">Green Bay Packers</a>, <a href="https://grantland.com/tags/ted-thompson/">Ted Thompson</a>, <a href="https://grantland.com/tags/josh-sitton/">Josh Sitton</a>, <a href="https://grantland.com/tags/2015-nfl-playoffs/">2015 NFL Playoffs</a>, <a href="https://grantland.com/tags/bryan-bulaga/">Bryan Bulaga</a>, <a href="https://grantland.com/tags/david-bakhtiari/">David Bakhtiari</a>, <a href="https://grantland.com/tags/corey-linsley/">Corey Linsley</a>, <a href="https://grantland.com/tags/t-j-lang/">T.J. Lang</a>, <a href="https://grantland.com/tags/offensive-line/">Offensive line</a></p>
-					
+
 	<div class="media author-bio">
 		<a href="https://grantland.com/contributors/robert-mays/" class="pull"><img width="104" height="104" src="https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?w=104&amp;h=104&amp;crop=1" class="attachment-bio size-bio" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg 1160w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=768,768 768w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=1024,1024 1024w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=750,750 750w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=450,450 450w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=640,640 640w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=300,300 300w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=190,190 190w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=104,104 104w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=209,209 209w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=160,160 160w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=150,150 150w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=326,326 326w, https://grantland.com/wp-content/uploads/2013/11/maysheadshot-e13889833383811.jpg?resize=236,236 236w" sizes="auto, (max-width: 104px) 100vw, 104px" /></a>
 		<div class="bio-data">
@@ -430,7 +430,7 @@ var countryCookie = getCountryCookie();
 											<li>
 							<h3><a href="https://grantland.com/features/jan-hooks-saturday-night-live-phil-hartman-kevin-nealon-lorne-michaels-pee-wees-big-adventure/" name="&lpos=mod_more&lid=Features5" >The Laughs, Pathos, and Overwhelming Talent of Jan Hooks </a> <span class="byline"><time>October 20, 2015</time></span></h3>
 						</li>
-					
+
 				</ul>
 				<p class="more"><a href="https://grantland.com/features/">See all Features</a></p>
 			</section>
@@ -440,9 +440,9 @@ var countryCookie = getCountryCookie();
 
 </div>
 				<!--end layout-main-->
-				
+
 				<aside class="layout-sidebar" id="layout-sidebar">
-					
+
 		<section class="">
 			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
 			<ul class="slats" data-vr-zone="topstoriesrail">
@@ -489,7 +489,7 @@ var countryCookie = getCountryCookie();
 				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
 					<div class="ad-unit boombox">
 				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
-		
+
 		<section class="">
 			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
 			<ul class="slats" data-vr-zone="topstoriesrail">
@@ -532,7 +532,7 @@ var countryCookie = getCountryCookie();
 <div class="house-ad"><a href="https://grantland.com/tags/grantland-channel/"><img width="300" height="158" src="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?w=300" class="attachment-landscape-med size-landscape-med" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png 600w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=450,237 450w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=300,158 300w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=190,100 190w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=160,84 160w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=326,172 326w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=236,124 236w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><a href="https://grantland.com/tags/grantland-channel/">Click here to watch &#8216;Jalen &#038; Jacoby,&#8217; Grantland Features, and video podcasts!</a></div>
 
 </section>
-		
+
 		<div class="articles-seek">
 			<div class="contain">
 
@@ -617,7 +617,7 @@ var countryCookie = getCountryCookie();
 			<a class="" href="https://disneytermsofuse.com/english/">Terms of Use</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/">Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/">Your US State Privacy Rights</a> | <a class="" href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children&#039;s Online Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/">Interest-Based Ads</a> | <a class="" href="http://www.nielsen.com/digitalprivacy">About Nielsen Measurement</a> | <a class="ot-cmp-link" href="https://privacy.thewaltdisneycompany.com/en/dnssmpi/">Do Not Sell My Personal Information</a> | <a class="" href="https://www.espn.com/espn/news/story?page=contact-index">Contact Us</a> | <a class="" href="https://disneyadsales.com/">Disney Ad Sales Site</a>		</p>
 		<p>
 			&copy; 2025 ESPN Enterprises, Inc. All rights reserved.		</p>
-		
+
 		<p>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=grantland.com" rel="generator nofollow" class="powered-by-wpcom">WordPress VIP</a></p>
 	</div>
 </footer>

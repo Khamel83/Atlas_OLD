@@ -7,7 +7,7 @@
 
 # The Curious Case of the Le Guennec Picassos
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![The Curious Case of the Le Guennec Picassos](http://www.vanityfair.com/web/20110529092153im_/http://www.vanityfair.com/favicon.ico)
 

@@ -43,7 +43,7 @@ Still, pay attention to the final margin, both here and in California. When a pa
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

@@ -7,15 +7,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-harpers.org  
-  
-Verifying you are human. This may take a few seconds.  
-  
-harpers.org needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for harpers.org to respond... 
+harpers.org
+
+Verifying you are human. This may take a few seconds.
+
+harpers.org needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for harpers.org to respond...
 

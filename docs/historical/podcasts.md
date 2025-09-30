@@ -207,7 +207,7 @@
 
 ## Column Definitions:
 - **Count**: Target number of episodes to process
-- **Future**: 1 = continue processing in future, 0 = stop processing  
+- **Future**: 1 = continue processing in future, 0 = stop processing
 - **Transcript_Only**: 1 = only get transcripts (no audio), 0 = get audio + transcripts
 - **Exclude**: 1 = completely exclude from processing, 0 = include
 

@@ -12,11 +12,11 @@
 
 # Everything you can imagine is real
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Everything you can imagine is real](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/justin-peters-01.jpg)
 
-Everything you can imagine is real  
-  
-Justin Peters takes stock photos and combines them into fantastical and mind-bending scenes. I’ve seen lots of this sort of thing, but these are particularly well done. The one with the umbrella and the road is a straight-up optical illusion and broke my brain for awhile. (via colossal, which has been a real source of joy & possibility these days) 
+Everything you can imagine is real
+
+Justin Peters takes stock photos and combines them into fantastical and mind-bending scenes. I’ve seen lots of this sort of thing, but these are particularly well done. The one with the umbrella and the road is a straight-up optical illusion and broke my brain for awhile. (via colossal, which has been a real source of joy & possibility these days)
 

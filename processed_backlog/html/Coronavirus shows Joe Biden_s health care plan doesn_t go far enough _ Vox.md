@@ -103,7 +103,7 @@ So far, Biden has done a good job releasing plans and making statements about ho
 
 Finding a synthesis in the health reform debate, one that respects the moderate’s fear of disruption, the leftist critique of the status quo, and the post-coronavirus reality that now surrounds us, would be a good place to start.
 
-See More: 
+See More:
 
 * [Covid-19](/web/20241208133114/https://www.vox.com/coronavirus-covid19)
 * [Health](/web/20241208133114/https://www.vox.com/health)

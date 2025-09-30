@@ -167,11 +167,11 @@ None of this is about archives; it’s about production: impact on the Internet 
 
 Indeed, that is why the section on hallucination works against the New York Times’ argument, if not legally than at least philosophically: sure, GPT-4 might have 95% of the Wirecutter’s recommendations, but who knows which 5% is wrong? You will need to go to the authoritative source. Moreover, this won’t just apply to recliners: it will apply to basically everything. To the extent the web becomes even more probabilistic and hallucinatory the greater value there will be for authoritative content creators capable of living on Internet time, showing their worth not by their archives or rigidity but by their ability to create continuously.
 
-* 
+*
 
 The lawsuit also demonstrates how you can continually ask ChatGPT specifically to continually generate the next paragraph of a particular article that was prompted in a similar way to the sandbox examples above. ↩︎ ( #rf1-12145 )
 
-* 
+*
 
 One interesting exception is that the lawsuit notes that “OpenAI made numerous reproductions of copyrighted works owned by The Times in the course of ‘training’ the LLM.”; in other words the lawsuit isn’t just attacking the final output but intermediary outputs during training. ↩︎ ( #rf2-12145 )
 

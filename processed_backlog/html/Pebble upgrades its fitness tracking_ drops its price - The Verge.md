@@ -10,7 +10,7 @@
 
 # Pebble upgrades its fitness tracking, drops its price
 
- / 
+ /
 
 ## The $100 smartwatch is here
 
@@ -60,7 +60,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207085031im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207085031/http://theverge.com/)
 

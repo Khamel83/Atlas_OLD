@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday. We talked a couple of weeks ago about a fake press release from a fake c
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Cole Capital
-    
-  
+
+
 
 We   talked a couple of weeks ago about a fake press release from a fake company called “Cole Capital Funds” pretending it would buy WeWork Inc. for $9 per share. The press release went out a little after 5 p.m. on Friday, Nov. 3; WeWork filed for bankruptcy the following Monday. I proposed two possible reasons someone might put out that press release:
 	Market manipulation: You buy some WeWork stock cheap, you pretend someone will buy the company at $9, the stock goes up, you sell at a profit.	General fun and hijinks: Some people just like pretending to buy companies?
@@ -92,37 +92,37 @@ Larmore did not exercise his November 3 call options because they had expired be
 
 Should you email the SEC if you are planning to put out a fake press release about a fake tender offer? I guess it doesn’t matter much either way. They can see the press release. I suppose you can argue “no, this was a real offer, as you can see because I emailed the SEC about it,” but they’re not going to believe that. “Larmore and Cole Capital did not have sufficient liquid capital to execute Cole Capital’s proposed tender offer,” says the SEC, and obviously buying all those options first is suspicious. Really the not-legal-advice lesson here is … make sure you have the formatting right before you try to publish your fake merger press release? 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Peak pod
-    
-  
+
+
 
 The most basic   move in     finance is the   slicing of cash flows. You have a thing with some uncertain payoff: It will surely be worth at least $X, but it could be worth as much as $Y. You put the thing in a box and sell claims on the box to different people who want different things. You sell $X worth of senior claims to people who want safety, promising to pay them back first: The box will surely be worth at least $X, so their claims are very safe. And then you sell some junior claims to other people who want risk: The box could be worth as much as $Y, in which case you’d pay off the $X of senior claims and have money left over for the junior claims. Those claims are risky (they could go to zero), but also more lucrative (they could be worth a lot); they promise a higher expected return in exchange for taking more risk. And of course you could slice more finely: Issue one set of super-safe senior claims, another set of pretty safe mezzanine claims, a set of risky junior claims, etc. And an important way to come up with new financial businesses is to notice some financial thing with some fluctuating value and decompose it into a safe part and a risky part. 
 One way to think about multi-manager, multi-strategy   hedge funds (or “pod shops”) is that they are a way to turn investing skill into this sort of tractable, tranche-able financial asset. The rough theory is:
@@ -149,17 +149,17 @@ Clients are now fixated on leverage and the risk of “platform de-grossing” �
 Much of the increased regulatory focus has been in Treasury markets, where leverage tends to be the highest. Hedge funds in aggregate had estimated leverage of 56-to-1 on $553 billion of Treasury repo borrowing as of December 2022, according to a September research note by Federal Reserve staffers Ayelen Banegas and Phillip Monin.
 That’s why many of the big firms incurred larger-than-expected losses during the early days of the Covid-19 pandemic. They were caught in the so-called basis trade, which is designed to profit from small differences between Treasury futures and the cash market. Considered a safe arbitrage bet if held to maturity, it can occasionally go haywire, as it did in March 2020. 
 
-If you are 
+If you are
 long $1 billion of Treasury bonds and short $1 billion of Treasury futures, your chances of losing even 2% of your money are low enough — because Treasury bonds and Treasury futures are almost the same thing — that a bank will lend you 98% of the money you need to do that trade.
   [4]
  But they are not zero! Sometimes bad stuff happens.
 But the other problem is the crowded trades. “Of the $90.7 billion that Citadel held in US stocks at the end of September, 93% was in shares Millennium also holds,” says the article. The essential bet of the multi-manager pod shops is that investing skill is (1) real, repeatable and identifiable and (2) not correlated to broad markets: Picking the better things and shorting the worse things should work whether the stock market is up and down. But the risk is that investing skill might be correlated with everyone else’s investing skill. If you hire people who are really good at knowing which stocks are good and which are bad, and then your four biggest competitors hire similarly skilled people, they might all pick the same good stocks and short the same bad stocks. And then if their bets blow up, they all blow up at once.
 
-  
-    
+
+
       First-loss funds
-    
-  
+
+
 
 Here’s another way to   slice the returns from hedge-fund skill:
 
@@ -174,14 +174,14 @@ I like it. The traditional way to get fired from a multi-manager fund is to have
 
 So someone else should be willing to hire you to run their money, but only if you take the risk of losing 10% of your capital.
 
-  
-    
-      New OpenAI board
-    
-  
 
-One  piece of news is that Microsoft Corp. will have a non-voting observer seat on the new board of directors of OpenAI. The problem, when OpenAI’s board 
-briefly fired Chief Executive Officer Sam Altman, was that Microsoft didn’t know about it in advance. Once Microsoft heard about Altman’s firing, it took, like, four days to get him his job back; that was not all Microsoft’s doing, but Microsoft clearly had something to do with it. “The investors don’t exactly need a board seat if they have a practical veto over the board’s biggest decisions,” 
+
+      New OpenAI board
+
+
+
+One  piece of news is that Microsoft Corp. will have a non-voting observer seat on the new board of directors of OpenAI. The problem, when OpenAI’s board
+briefly fired Chief Executive Officer Sam Altman, was that Microsoft didn’t know about it in advance. Once Microsoft heard about Altman’s firing, it took, like, four days to get him his job back; that was not all Microsoft’s doing, but Microsoft clearly had something to do with it. “The investors don’t exactly need a board seat if they have a practical veto over the board’s biggest decisions,”
 I wrote yesterday, “and the events of the last two weeks suggest that they do.” 
 On the other hand it is inconvenient and disruptive that Microsoft had to effectively veto Altman’s firing after it happened? Better to be told first and head it off. Thus, board observer.
 Here’s  one other piece of news, sort of, about the new board chair, Bret Taylor, “the former co-CEO of business-software giant Salesforce who also was the chairman of Twitter when it dealt with Elon Musk’s ultimately successful takeover effort”:
@@ -196,69 +196,69 @@ That is partly true, but not entirely true, and kind of grim. I wrote:
 A lot of people think of Twitter as a public utility, a public trust, “the town square,” a company with an important social mission that many of its users and employees and Elon Musk care about deeply. And its CEO and board of directors essentially can’t bring themselves to talk about it. When employees asked him about what was best for the company, Agrawal could talk only about the shareholders. Elon Musk is not at all embarrassed to say that Twitter has an important public mission, which is why he’s buying it. But its current management can’t say that, which is why they’re selling it.
 And now the chairman of the Twitter board that sold to Musk is the chairman of OpenAI. Which definitely does have other legal mechanics. For now.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Investors Lose Legal Bid Against Exchange Over  Nickel Market Blowup. Global bank executives hit out at  US capital plans. Europe’s Bailed-Out Banks   Finally Get Sold a Decade After Crisis.   Signa Founder’s Billions Evaporate as Empire Sinks to Insolvency. SEC’s Use of   In-House Judges Cast in Doubt by Supreme Court. FINRA Fines BofA Securities $24 Million for  Treasuries Spoofing and Related Supervisory Failures. EY pushes some  graduate start dates back by almost a year. Airlines Race Toward a Future of  Powering Their Jets With Corn. Grayscale Trust Becomes ‘Live Betting Line’ for   Spot Bitcoin ETF. Bankrupt Bed Bath & Beyond  Seeks $300 Million From MSC Line for Pandemic Shipping Charges. Billionaires amass more through  inheritance than wealth creation, says UBS. Elon Musk   Slings Expletives at Advertisers Fleeing X. “Doritos Silent, a crunch-cancellation software that removes the sound of chewing from voice chats, Zoom or any calls that use headphones.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In fact, in his first attempt, he put out the press release after the market closed, and sold the next day at a loss. In two subsequent hoaxes he managed to get the press release in during market hours, but he still waited too long and sold at a loss.
 
 
   [2] They … hedge? Originally the name “hedge fund” described a business not unlike this, a long/short fund that tried to be largely market-neutral and isolate investing skill. But then “hedge fund” came to describe “a compensation scheme masquerading as an asset class,” covering all sorts of private investment vehicles, many of which took large unhedged directional market bets. But the modern pod shop is a classically hedged hedge fund, one that tries to hedge its market and factor exposures to capture only its managers’ alpha.
 
 
-  [3] And, crucially, who are betting that this question is uncorrelated to the broad market: If you take $100 million and pay them back $150 million, it’s not because *widget prices went up*, it’s because of your skill at identifying which widgets are better, which is not particularly correlated to market conditions. In theory your fund should go up when widget prices are up, or down, or flat, because you are not betting on widget prices generally but on specific mispricings. 
+  [3] And, crucially, who are betting that this question is uncorrelated to the broad market: If you take $100 million and pay them back $150 million, it’s not because *widget prices went up*, it’s because of your skill at identifying which widgets are better, which is not particularly correlated to market conditions. In theory your fund should go up when widget prices are up, or down, or flat, because you are not betting on widget prices generally but on specific mispricings.
 
 
   [4] This is imprecise. The 56-to-1 leverage in repo is on the long-Treasury-bonds side; the futures leverage comes from the futures clearinghouse and is, you know,  25-to-1.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjyu1x.650b/cd28e674.gif" alt="" border="0" /></a>

@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • December 06, 2022 
+Unknown author • December 06, 2022
 
 ![nytimes.com]()
 

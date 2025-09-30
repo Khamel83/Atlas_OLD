@@ -15,7 +15,7 @@ Lauren Sherman
 Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 Hi, and welcome to Line Sheet. I’m back in Los Angeles after a high-speed
-trip to New York: I tried on clothes (at BG ( https://www.bergdorfgoodman.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), The Consistency Project ( https://theconsistencyproject.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and La Garçonne ( https://fave.co/3PRZO5l?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), watched the Betty Gilpin takeover of Oh, Mary! (love her), received a quickie tarot card reading (accurate), got the best facial 
+trip to New York: I tried on clothes (at BG ( https://www.bergdorfgoodman.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), The Consistency Project ( https://theconsistencyproject.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and La Garçonne ( https://fave.co/3PRZO5l?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), watched the Betty Gilpin takeover of Oh, Mary! (love her), received a quickie tarot card reading (accurate), got the best facial
 ( https://www.crystalgreenestudio.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of my life (thank you, Crystal Greene), and road-tested ( https://www.readfeedme.com/p/the-formula-for-a-republican-blowout?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the
 Republican blowout (book Roz ( https://www.instagram.com/rozdoeshair/?hl=en&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )).
 
@@ -40,7 +40,7 @@ Mentioned in this issue: Phoebe Philo, The Row, Céline,
 Miranda July, Halina Reijn, Nicole Kidman, Stephen Sprouse, The Frankie Shop, LVMH, Delphine Arnault, Bergdorf Goodman, Max Wigram, Patrik Silén, Chantal Warner, Bruno Sialelli, Loewe, Lanvin, Jonathan Anderson, Moschino, Adrian Appiolaza, Alexander McQueen, Seán McGirr, Alessandro
 Michele, Gucci, Alessandra Facchinetti, and much more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -157,7 +157,7 @@ one. 
 The “number two to number one” strategy goes in and out of fashion, and generates mixed results. (Alessandro Michele’s Gucci worked, Alessandra Facchinetti’s didn’t.) And yet, I find that a lot of designers feel possessive of their work under a creative director, especially if that person is difficult. They begin to resent her or him for getting
 all the credit, and want their moment in the spotlight. Some are made for that spotlight, others aren’t. As for Sialelli, his influence at Phoebe Philo won’t be felt for some time, and we may never really notice. Because whatever you want to say about Philo—the designs, the business ops, the spending, the distribution—there’s no denying that it’s all her. 
 
- 
+
 
 What
 I’m Reading…
@@ -187,7 +187,7 @@ at the Versace deal through his investment vehicle, Forel. Ferrari-backed Exor s
 People using compounded GLP-1s are freaking out because the F.D.A. is about to take
 the real GLP-1s off the shortage list, which means those (cheaper) alternatives may be removed from the market. My guess is that the actual GLP-1s are going to get much cheaper, very soon. [Business Insider ( https://www.businessinsider.com/fda-compounded-tirzepatide-semaglutide-shortage-ozempic-2025-1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… As a Margiela alum pointed out, that team originated The
 Row’s lookbook style ( https://www.instagram.com/p/C6IoBz1Nu8E/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 20 years ago, so you could say that Aritzia was actually knocking off Margiela. The lesson: Everything comes from something. 
@@ -242,6 +242,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUqgBkAbeyWt_u-YaynyM=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

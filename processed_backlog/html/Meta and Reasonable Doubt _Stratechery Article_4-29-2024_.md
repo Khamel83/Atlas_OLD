@@ -7,8 +7,8 @@
 
 Meta is once again facing investor skepticism over its spending; I can understand reasonable doubt in the short and medium term, but the long-term bet on Mark Zuckerberg still seems worth making.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/meta-and-reasonable-doubt/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21ldGEtYW5kLXJlYXNvbmFibGUtZG91YnQvIl19LCJleHAiOjE3MTY5OTMzMzEsImlhdCI6MTcxNDQwMTMzMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.CffFpd95dzWrOkSJCtEwt421IpvXGAGwKZuc4GPg6G9m1WGAKI9rqD0-1EpUYkL8MjK5Va7dt6ppHilrJ1qzfTNcPSzCKzsFUi4mUH-m5jkP_mVVSJ01kb7rw4gTlsgGsX_PA_aThPLmvNfk-Lb9M8fDSm9aKeCrFpOsHwgzamNVWKMnRUKv_3j3x7qj02F84jR48oH8rQI79Vkb-r6jTNQ7_veSESCra67-wAirzVTy5KlPdaBxVkJc-zuR8PbySX9s5dDOmYpkvZaOt7ggMCoH68HrSpejQuLDs9pHLcRUzfNsuvvUSRGQPG6vCNGMHlJoYN2JZLahh7rVriat5w)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -125,26 +125,26 @@ I do think that continues to be a bet worth making: Meta met the challenges in t
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNjk5MzMzMSwiaWF0IjoxNzE0NDAxMzMxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.WjFx7zjVE2qu2xTdnSYdhMjlzN6mMrFtpkOp3ObqvYb6q0ZcdmzL1hEL1y_eL5cjbiIw1kXwPe74m_7hzpi1bxAdP61x-mxtWzI5aoULW8UN3brS3qfIiushdFt11utotR15X6ePbGTb5nliRaTriT-YhIi4exTdaiHBHyOugIhYhyecB-6QHIjybqhOQ9eEH-3UBq4e2Cq02U9r74ulBHABA0y2NP3Ec9pXGUKwGd-pdZq6KEFSmcrJuiLO8BbIpQK06Z06rIdT9KZy3dTVe6ylwvcoCeAlCVFqG7SeIXtcY6EQfOJLfFDyeRYghTG3VEUcTiNKfBzLAUu8WNwWqA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNjk5MzMzMSwiaWF0IjoxNzE0NDAxMzMxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.WjFx7zjVE2qu2xTdnSYdhMjlzN6mMrFtpkOp3ObqvYb6q0ZcdmzL1hEL1y_eL5cjbiIw1kXwPe74m_7hzpi1bxAdP61x-mxtWzI5aoULW8UN3brS3qfIiushdFt11utotR15X6ePbGTb5nliRaTriT-YhIi4exTdaiHBHyOugIhYhyecB-6QHIjybqhOQ9eEH-3UBq4e2Cq02U9r74ulBHABA0y2NP3Ec9pXGUKwGd-pdZq6KEFSmcrJuiLO8BbIpQK06Z06rIdT9KZy3dTVe6ylwvcoCeAlCVFqG7SeIXtcY6EQfOJLfFDyeRYghTG3VEUcTiNKfBzLAUu8WNwWqA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*
-  
-  
+
+
 
 1. One thing to keep in mind with Microsoft’s reporting is that this is where OpenAI spending — via Azure credits — shows up on the earnings report

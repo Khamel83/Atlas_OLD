@@ -12,7 +12,7 @@
 
 # www.washingtonpost.com
 
-Unknown author • June 13, 2011 
+Unknown author • June 13, 2011
 
 ![www.washingtonpost.com]()
 

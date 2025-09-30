@@ -15,12 +15,12 @@ The background services that power the ingestion have known stability issues whi
 
 | Component | Status | Notes |
 | :--- | :--- | :--- |
-| **Core Ingestion Pipeline** | ✅ **Operational** | Can process articles, podcasts, YouTube, and emails. | 
-| **Background Services** | 🔧 **In Progress** | Being hardened to fix stability issues. | 
-| **Search & Indexing** | 🔧 **In Progress** | Basic full-text search is functional. Ranking and semantic search are not implemented. | 
-| **Analytics Dashboard** | 📝 **Stubs Only** | The UI and API exist as placeholders but are not connected to real data. | 
-| **Cognitive Features** | 📝 **Stubs Only** | The APIs exist but return mock data. The underlying intelligence is not implemented. | 
-| **Deployment (Docker/OCI)** | 📝 **Stubs Only** | Scripts and Dockerfiles exist but have not been validated. | 
+| **Core Ingestion Pipeline** | ✅ **Operational** | Can process articles, podcasts, YouTube, and emails. |
+| **Background Services** | 🔧 **In Progress** | Being hardened to fix stability issues. |
+| **Search & Indexing** | 🔧 **In Progress** | Basic full-text search is functional. Ranking and semantic search are not implemented. |
+| **Analytics Dashboard** | 📝 **Stubs Only** | The UI and API exist as placeholders but are not connected to real data. |
+| **Cognitive Features** | 📝 **Stubs Only** | The APIs exist but return mock data. The underlying intelligence is not implemented. |
+| **Deployment (Docker/OCI)** | 📝 **Stubs Only** | Scripts and Dockerfiles exist but have not been validated. |
 
 ---
 

@@ -36,12 +36,12 @@ class ATPTranscriptScraper:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.atp_transcript_scraper", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def scrape_transcript(self, url):
         transcript_info = TranscriptInfo(url=url, title="ATP Episode", source="atp")
         result = self._manager.fetch_transcript(transcript_info)
         return result.content if result else None
-    
+
     def discover_episodes(self, limit=50):
         transcripts = self._manager.discover_transcripts('atp', limit=limit)
         return [{'url': t.url, 'title': t.title} for t in transcripts]
@@ -51,7 +51,7 @@ class NetworkTranscriptScrapers:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.network_transcript_scrapers", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def scrape_network_transcript(self, url, network='auto'):
         transcript_info = TranscriptInfo(url=url, title="Network Episode", source="network")
         result = self._manager.fetch_transcript(transcript_info)
@@ -62,7 +62,7 @@ class UniversalTranscriptDiscoverer:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.universal_transcript_discoverer", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def discover_transcripts(self, urls):
         return self._manager.discover_transcripts('universal', urls=urls)
 
@@ -71,7 +71,7 @@ class TranscriptProcessor:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.transcript_first_processor", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def process_transcript(self, content):
         # For compatibility, just return the content as-is
         # Real processing happens in TranscriptManager
@@ -82,11 +82,11 @@ class TranscriptSearchIndexer:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.transcript_search_indexer", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def index_transcript(self, transcript):
         # Indexing is handled automatically by TranscriptManager
         return True
-    
+
     def search_transcripts(self, query):
         return self._manager.search_transcripts(query)
 
@@ -95,7 +95,7 @@ class TranscriptSearchRanking:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.transcript_search_ranking", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def rank_results(self, results, query):
         # Ranking is handled by TranscriptManager.search_transcripts
         return results
@@ -105,7 +105,7 @@ class PodcastTranscriptIngestor:
     def __init__(self, *args, **kwargs):
         _deprecated_import_warning("helpers.podcast_transcript_ingestor", "TranscriptManager")
         self._manager = TranscriptManager()
-    
+
     def ingest_transcripts(self, urls):
         return self._manager.bulk_process_transcripts(urls)
 
@@ -161,7 +161,7 @@ def validate_transcript_functionality():
         manager = TranscriptManager()
         health = manager.health_check()
         stats = manager.get_processing_stats()
-        
+
         return {
             'transcript_manager_healthy': health.get('status') == 'healthy',
             'processed_transcripts': stats.get('total_processed', 0),
@@ -183,18 +183,18 @@ TranscriptFinder = UniversalTranscriptDiscoverer
 if __name__ == '__main__':
     # Test compatibility layer
     print("Testing transcript processing compatibility layer...")
-    
+
     # Test unified manager
     manager = TranscriptManager()
     health = manager.health_check()
     print(f"TranscriptManager health: {health}")
-    
+
     # Test migration status
     status = get_migration_status()
     print(f"Migration status: {status}")
-    
+
     # Test validation
     validation = validate_transcript_functionality()
     print(f"Functionality validation: {validation}")
-    
+
     print("Compatibility layer test complete.")

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I.Here is how you run a futures exchange: You offer some bets on some propositions, say, whether Bitcoin will go up or down. Some people com
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Sam
-    
-  
+
+
 
 I.
 Here is how you run a futures exchange:
@@ -152,89 +152,89 @@ As Bankman-Fried acknowledged in a network television interview on or about Dece
 
 If you attract customers and investors by saying that you have good risk management, and then you lose their money, and then you say “oh sorry we had bad risk management,” that is not a defense against fraud charges! That is a confession!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 
 By the way! If you run a crypto exchange, and you steal your customers’ money, is that securities fraud? That is a hard question. I think that the US Securities and Exchange Commission   would mostly say:
 	Most crypto tokens are securities,	You did a fraud about the tokens,	So you did securities fraud.
@@ -252,20 +252,20 @@ Here the underlying bad deed that was transmuted into securities fraud was also
 
 Similarly, here, the underlying bad deed was (allegedly) running a fraud at a crypto exchange, which certainly looks like securities fraud, but might not actually be. But it doesn’t matter; if you have shareholders, any sort of fraud is also securities fraud.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Wirefraud
-    
-  
+
+
 
 I don’t know how true  this is — Bankman-Fried denied it, and it sounds sort of too good to be true — but it is enough up my alley that I have to pass it along:
 
@@ -275,24 +275,24 @@ On Monday (Tuesday AEDT) Mr Bankman-Fried denied being part of the chat saying, 
 
 Don’t … don’t name your group chat Wirefraud? I mean I guess if you work for the US Attorney’s office you can do it, but even then I might go with “Stoppingwirefraud” just to be safe.
 
-  
-    
-      Put spreads
-    
-  
 
-I 
+
+      Put spreads
+
+
+
+I
 wrote yesterday that “big serious players in crypto are long crypto volatility at a small scale, but short crypto volatility at a large scale,” and: “You are long a put spread I guess.” Like three people emailed to point out that really I mean a ratio put spread: You make money if stuff goes down a little, but lose money if it goes down a lot, which is not true of a simple 1-to-1 put spread. I appreciate that my readers care about the specifics of derivatives metaphors.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Brokers braced for big overhaul of US  stock trading rules. Goldman to Cut Hundreds More Jobs as   Consumer Unit Scaled Back. Sears Hometown Stores Files Bankruptcy to Liquidate Merchandise. WeWork’s Once Robust Cash Reserves Have Dwindled, Raising Chances of Default. Twitter   Disbands Independent Trust and Safety Council.   SpaceX Tender Offer Is Said to Value Company at $140 Billion. Tesla Investors Voice Concern Over Elon Musk’s  Focus on Twitter. Former top Twitter official forced to leave home due to threats amid ‘Twitter Files’ release. Binance Is Trying to Calm Investors, but Its Finances Remain a Mystery. Binance temporarily halted withdrawals of stablecoin USDC as investor concerns mount after FTX collapse.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Actual margin levels in crypto are more complicated but FTX US offered  10% initial margin on spot trades; FTX International tended to  offer higher leverage.
 
 
@@ -308,120 +308,120 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] In the general case, you could accept Bitcoin *as* margin, and it is reasonable for crypto futures exchanges to accept widely used liquid cryptocurrencies as collateral. It would be weirder for a metals exchange to accept metals as margin, though I guess not crazy.
 
 
-  [6] There are some complexities there, in that metals futures can be physically settled and there is a   physical delivery mechanism that involves transferring metals in LME-approved warehouses.  But “the LME does not own or operate warehouses, nor does it own the material they contain. It simply authorises warehouse companies and the warehouses they operate to store LME-registered brands of metal, on behalf of warrant holders, and issue LME warrants through their London agent for material delivered into their approved warehouses.” 
+  [6] There are some complexities there, in that metals futures can be physically settled and there is a   physical delivery mechanism that involves transferring metals in LME-approved warehouses.  But “the LME does not own or operate warehouses, nor does it own the material they contain. It simply authorises warehouse companies and the warehouses they operate to store LME-registered brands of metal, on behalf of warrant holders, and issue LME warrants through their London agent for material delivered into their approved warehouses.”
 
 
-  [7] The CFTC says: “In the days and weeks since Bankman-Fried resigned from the companies, he has continued to make widespread public statements, provide explanations, and make admissions, including in live interviews. Several of his statements admit key facts pled herein.” 
+  [7] The CFTC says: “In the days and weeks since Bankman-Fried resigned from the companies, he has continued to make widespread public statements, provide explanations, and make admissions, including in live interviews. Several of his statements admit key facts pled herein.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

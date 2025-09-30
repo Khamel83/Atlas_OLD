@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"08\/11\/2015","content_publish_time":"10:39","content_last_update_date":"04\/12\/2018","content_last_update_time":"15:58","contentcategory":"Video Games","section_1":"culture","section_2":"culture:video games","story_title":"The Last Kings Of Kong","story_id":86272,"author":"David Goldenberg","page_name":"fivethirtyeight:culture:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Video Games"],"word_count":1397},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>The Last Kings Of Kong | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":86272,"section":"culture","seg_a":"","
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The Last Kings Of Kong" />
@@ -206,7 +206,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -225,13 +225,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											The Last Kings Of Kong									</div>
 				<a href="https://fivethirtyeight.com/features/the-last-kings-of-donkey-kong-high-score/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/the-last-kings-of-donkey-kong-high-score/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -295,7 +295,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -304,7 +304,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -321,7 +321,7 @@ display: none;
 								<time class="datetime updated" title="2015-08-11T14:39:48+00:00">10:39 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									The Last Kings Of Kong								</h1>
@@ -331,9 +331,9 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/david-goldenberg/" title="" class="author url fn" rel="author">David Goldenberg</a></p>
-										
-									
-										
+
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,7 +346,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/6457264109_02e4146e84_o-banner.jpg">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png 599w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2015/08/donkey-kong-cross-tensions_171.png?resize=60,45 60w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -357,13 +357,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			A &#8220;Donkey Kong&#8221; arcade cabinet.							<p class="credits">Wally Gobetz / Creative Commons / Flickr</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 				&#8220;Donkey Kong.&#8221;									<p class="credits">Nintendo</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p><span>The best “Donkey Kong” player in the world dies all the time. It’s part of his plan. Dean Saglio, a 38-year-old real estate agent from Rhode Island, knows that the only way he’s going to break his high score (1,206,800) — again — is by taking huge risks throughout the game. It may not be safe to send Mario charging toward that barrel that Kong just threw, but if he times it just right — and gets a little bit lucky with the direction it takes — he can jump it and squeeze out another 100 or so points. If he can execute the move repeatedly throughout the 51 </span><a href="http://www.classicgaming.cc/classics/donkeykong/playguide.php#board1"><span>barrel boards</span></a><span> of the later stages of “Donkey Kong,” then he’s given himself an extra few thousand points — a precious commodity in the race to the highest score possible in “Donkey Kong.”</span></p>
 <p><span>The high-score limit was calculated by Jeremy Young, the resident stats guru of </span><a href="http://donkeykongforum.com/"><span>DonkeyKongForum.com</span></a><span>, the online home of dedicated Donkey-otes forever tilting at high-score windmills. Young, who works as a freelance music arranger in Japan, spends hours a day in the forum, </span><a href="http://donkeykongforum.com/index.php?topic=1344.0"><span>creating scoring charts</span></a><span> for any member who submits his game for review. Together with fellow “Donkey Kong” data analyst Scott Cunningham, he’s been analyzing the strategies and pace of the world’s best players, and has realized that there simply isn’t much room left between the current high score and the maximum one. </span></p>

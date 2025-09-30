@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        One sort of financial innovation is about adding liquidity. There is some class of thing that does not trade very much for some reason, and 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        One sort of financial innovation is about adding liquidity. There is some class of thing that does not trade very much for some reason, and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Illiquidity provision
-    
-  
+
+
 
 One sort of financial innovation is about adding liquidity. There is some class of thing that does not trade very much for some reason, and you find a way to make it trade a lot. Perhaps the thing is very big and not many people can afford to buy it, so you split it into small pieces so people can trade the pieces. This basically describes the stock market: If you like Tesla Inc. as a company, you probably can’t go buy all of it, for a bunch of reasons of which the most important is that it costs $725 billion. But Tesla is split up into billions of shares, and you can go buy a share of Tesla for about $230. 
 Or perhaps the things are very different and non-fungible, making them hard to trade, so you smush lots of them into a big standardized package that is easier to trade. This is roughly the idea behind mortgage bonds, or bond exchange-traded funds, or we   talked the other day about a guy who wants to do it for diamonds. There is no visible trading market price for a 1.53-carat VVS1 diamond, because there aren’t that many diamonds with exactly those characteristics, but if you can build some sort of standardized diamond basket then maybe you can create a market price for that diamond, and thus a market.
@@ -99,63 +99,63 @@ Sponsors note that the stock market is almost always more volatile than the valu
 
 If you can buy a real estate investment that goes up when public real estate investments goes down, that’s good! That’s valuable diversification! You are paying for illiquidity, and getting what you paid for.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Libor
-    
-  
+
+
 
 At a high level, to be guilty of fraud, you need to (1) say something false (2) know that it is false, or at least, have some sort of bad state of mind about what you are saying. (Not legal advice and not quite right, but a good rough intuition.) When people get prosecuted for fraud, often they will fight over both elements. “Everything I said was more or less true, but if it wasn’t then that was an honest mistake,” they will say. But sometimes it is fairly obvious that what they said was false, and so all of the arguments are over their state of mind: When they said these untrue things, were they trying to trick people by knowingly lying, or was it forgivable carelessness?
 It is rare, though, to have the opposite. It is rare for someone to be accused of fraud and say “well yes obviously I intended to lie, but what I said was true, so it’s not fraud.” It is not theoretically impossible, but it is weird. Usually when people try to lie they succeed, at least in the narrow sense of “they try to say something false and in fact say something false.” On the rare occasions when they fail — when they try to lie and say something true instead — generally no one is tricked, and so there is no prosecution for fraud.
@@ -172,20 +172,20 @@ The decision to drop US charges against Hayes follows an appeals court ruling in
 We   talked about that earlier ruling in January. The problem with the Libor prosecutions is that nobody ever proved that the Libor submissions were wrong. Obviously the traders and submitters were trying to lie: The chats are terrible and show their state of mind pretty clearly, and anyway Hayes spent hours confessing to manipulating Libor. But there is no proof that they succeeded in lying: If a Libor submitter thought that his bank could borrow at 2.75%, and instead told the Libor administrator that it could borrow at 2.76%, either number might have been right! The appeals court pointed out that banks regularly borrowed different amounts of money from different counterparties at different rates at around the same time; it simply is not true that there was One Correct Rate that a bank would have paid to borrow money on any particular day. There is probably some range, and if you pick a number in the range you are telling the truth, even if you are consciously trying to pick the wrong number.
 More to the point, it is very hard to prove that you are lying. I mean, if you borrowed a lot of dollars for three months at 2.75% right before the Libor administrators called, and then borrowed more at 2.75% right after, and you said “2.76%” when they called and asked for your three-month dollar borrowing rate, then that seems bad. But that is probably pretty rare, and ordinarily there will be some room for judgment. And the burden of proof is on the prosecution: They need to prove that your Libor submission was false, rather than you proving that it was true. That will generally be hard, and in any case US prosecutors never even tried. They looked at all those chats, all those confessions of guilt, and figured that they were good enough to prove that the traders were lying. But they never quite proved that they weren’t also telling the truth.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 I have basically enjoyed writing about the saga of Elon Musk’s acquisition of Twitter Inc., because there was, you know, a plot. Musk said he wanted to buy Twitter, and there were interesting questions like “will he really” and “where will he get the money” and “will they stop him.” Then he signed a deal to buy Twitter and almost immediately pivoted to trying to get out of the deal, and there were interesting questions like “can he do that” and “in what circumstances will a Delaware court order specific performance if a buyer undermines his own financing.” Then he pivoted back to saying he would close, and there were interesting questions like “really?” 
 But then the deal closed last week, and now it is just a stream of exhausting miscellanea. For instance, Musk wants to start charging people to have a little blue check mark next to their names on Twitter. I   wrote yesterday about reports that the price will be $19.99 per month, but that seems not to be a final decision, and other numbers have been suggested. Also last night Musk was personally negotiating the price with Stephen King. “$20 a month to keep my blue check?”  tweeted King. “[No], they should pay me. If that gets instituted, I’m gone like Enron.”  Musk replied: “We need to pay the bills somehow! Twitter cannot rely entirely on advertisers. How about $8?” I absolutely love that, in between his busy schedule of reading printouts of 50 pages of code per Twitter employee to decide who to fire, Musk is personally going to negotiate commercial terms with each of Twitter’s hundreds of thousands of verified users. I have a blue check, I’m gonna tweet “I’ll pay $7.69” and see what he says.
@@ -200,11 +200,11 @@ The seven lenders are wagering it will be easier to appeal to creditors after Mu
 
 Some analyst has built the first version of the model, and there’s a line for blue-check revenue, and it was built around a $19.99 monthly price, and now she has to update it for that tweet to Stephen King.
 
-  
-    
+
+
       Meme liquidity
-    
-  
+
+
 
 There was a weird, like, weekend last month when people on the internet went around saying that Credit Suisse Group AG was going bankrupt. Credit Suisse has had kind of a tough year, but there was no real indication that it was in any sort of acute financial distress; this seems to have just been a matter of unfounded rumors spread by retail investors on Twitter. A “reverse meme stock,” I called it,   and wrote:
 
@@ -218,11 +218,11 @@ Fuelled by what the bank called “negative press and social media coverage base
 
 The regulatory minimum is 100%, meaning that a bank needs to have liquid assets equal to at least 100% of its expected cash drain in “a 30 calendar day liquidity stress scenario,” so Credit Suisse didn’t get all that close to the brink. Also you do not have to accept Credit Suisse’s claim that the drop was due to “incorrect rumors” rather than clients’ reasonable response to Credit Suisse’s real financial troubles. Still there is at least an arguable transmission mechanism between people posting mean stuff on Twitter and an actual run on the bank.
 
-  
-    
+
+
       Laws of Tax
-    
-  
+
+
 
 I often quote Michael Graetz’s   two laws of tax: It is always better (for tax purposes) to make more money than less money, and it is always better (for tax purposes) to die later than sooner. The Covid-19 pandemic was good for the first goal but   bad for the second:
 
@@ -232,22 +232,22 @@ During the pandemic, more wealthy Americans “may have been caught with an unpl
 
 I suppose that, if you become rich enough to be subject to the estate tax, that is good news. But actually becoming subject to the estate tax is always bad news.
 
-  
-    
-      Things happen
-    
-  
 
-Credit Suisse Is   Not For Sale, Chairman Says. Jack Dorsey rolls his stake into Elon Musk-owned Twitter. After Record Year,  University-Endowment Returns Drop Into Negative Territory. Penguin Random House Blocked From Acquiring Rival Publisher Simon & Schuster. Carlyle seeks $700mn over insurers’ failure to pay for Russian jet seizures. CFA Final Exam Pass Rate Slips to 48% While Remaining Above Pandemic Lows.  Ether miners repurpose tools following the ‘Merge.’ Hong Kong Considers Opening Crypto Retail Trading. Leon Black 
-Renews Legal Fight With Russian Model Over Affair. 
-Dogecoin Jump Fueled by Musk Enlivens Crypto’s Beaten-Down Bulls. After DAO Frenzy Last Year, 
+
+      Things happen
+
+
+
+Credit Suisse Is   Not For Sale, Chairman Says. Jack Dorsey rolls his stake into Elon Musk-owned Twitter. After Record Year,  University-Endowment Returns Drop Into Negative Territory. Penguin Random House Blocked From Acquiring Rival Publisher Simon & Schuster. Carlyle seeks $700mn over insurers’ failure to pay for Russian jet seizures. CFA Final Exam Pass Rate Slips to 48% While Remaining Above Pandemic Lows.  Ether miners repurpose tools following the ‘Merge.’ Hong Kong Considers Opening Crypto Retail Trading. Leon Black
+Renews Legal Fight With Russian Model Over Affair.
+Dogecoin Jump Fueled by Musk Enlivens Crypto’s Beaten-Down Bulls. After DAO Frenzy Last Year,
 Another Constitution Heads to Auction. Excuses, Excuses: Web Searches For   Reasons to Skip Work Soar in 2022.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Oh, come on, I do not steal your money, I am very honest in this hypothetical product. I just get the $5.
 
 
-  [2] Sometimes the stock would keep falling and you’d regret using this service. 
+  [2] Sometimes the stock would keep falling and you’d regret using this service.
 
 
   [3] Though many markets have circuit breakers, trading halts for volatility, etc., which are more limited in effect and time but not totally unrelated.
@@ -259,114 +259,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] “Isn’t that true whether or not they sell the debt,” you might ask, but see the first section about illiquidity provision.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

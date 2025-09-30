@@ -10,7 +10,7 @@
 
 # Wilco is giving away a free album to its fans, and it's called Star Wars
 
- / 
+ /
 
 ## Your dad is going to be really excited
 
@@ -64,7 +64,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207181701im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207181701/http://theverge.com/)
 

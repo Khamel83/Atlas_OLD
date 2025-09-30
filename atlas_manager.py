@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 """
-ATLAS MANAGEMENT SYSTEM - FULLY AUTOMATED
-Runs continuously without manual intervention
+ATLAS MANAGEMENT SYSTEM - LOG-STREAM VERSION
+High-performance continuous processing using log-stream architecture
+Replaces database bottlenecks with fast file-based operations
 """
 
-import sqlite3
-import csv
-import feedparser
-import schedule
 import threading
 import time
 import subprocess
@@ -15,10 +12,13 @@ import os
 import signal
 import sys
 from datetime import datetime, timedelta
-import logging
 import json
+import logging
 
-# Configure logging
+# Import the log-stream processor
+from atlas_log_processor import AtlasLogProcessor
+
+# Configure basic logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -29,364 +29,204 @@ logging.basicConfig(
 )
 
 class AtlasManager:
+    """High-performance Atlas manager using log-stream architecture"""
+
     def __init__(self):
-        self.conn = sqlite3.connect('data/atlas.db')
-        self.cursor = self.conn.cursor()
         self.running = True
+        self.processor = AtlasLogProcessor()
 
         # Create logs directory if it doesn't exist
         os.makedirs('logs', exist_ok=True)
-
-        # Load configurations
-        self.load_configurations()
 
         # Setup signal handlers for graceful shutdown
         signal.signal(signal.SIGINT, self.signal_handler)
         signal.signal(signal.SIGTERM, self.signal_handler)
 
-        logging.info("Atlas Manager initialized")
-        logging.info(f"Total transcripts in database: {self.get_transcript_count()}")
-        logging.info(f"Queue status: {self.get_queue_status()}")
+        # Performance tracking
+        self.start_time = time.time()
+        self.total_episodes_processed = 0
+        self.last_batch_time = time.time()
 
-    def load_configurations(self):
-        """Load podcast configurations"""
-        self.user_podcasts = []
-        with open('config/podcast_config.csv', 'r') as f:
-            reader = csv.reader(f)
-            next(reader)
-            for row in reader:
-                if len(row) >= 6 and row[5] == '0':
-                    self.user_podcasts.append({
-                        'name': row[1].strip('"'),
-                        'count': int(row[2]) if row[2].isdigit() else 0,
-                        'future': row[3] == '1',
-                        'transcript_only': row[4] == '1'
-                    })
+        # Schedule intervals (in seconds)
+        self.rss_discovery_interval = 300  # 5 minutes
+        self.batch_processing_interval = 60   # 1 minute
+        self.metrics_interval = 300         # 5 minutes
 
-        self.rss_mappings = {}
-        with open('config/podcast_rss_feeds.csv', 'r') as f:
-            reader = csv.reader(f)
-            for row in reader:
-                if len(row) >= 2:
-                    self.rss_mappings[row[0].strip('"')] = row[1].strip('"')
-
-        logging.info(f"Loaded {len(self.user_podcasts)} user podcasts")
-        logging.info(f"Loaded {len(self.rss_mappings)} RSS mappings")
+        logging.info("🚀 Atlas Log-Stream Manager initialized")
+        self.processor.logger.metrics("system", "atlas_manager", {
+            "event": "startup",
+            "start_time": datetime.utcnow().isoformat(),
+            "rss_feeds": len(self.processor.rss_feeds),
+            "podcast_configs": len(self.processor.podcast_config),
+            "processed_episodes": len(self.processor.processed_episodes)
+        })
 
     def signal_handler(self, signum, frame):
         """Handle shutdown signals gracefully"""
-        logging.info(f"Received signal {signum}, shutting down gracefully...")
+        logging.info(f"🛑 Received signal {signum}, shutting down gracefully...")
         self.running = False
+        self.processor.logger.metrics("system", "atlas_manager", {
+            "event": "shutdown",
+            "signal": signum,
+            "uptime_seconds": time.time() - self.start_time,
+            "total_processed": self.total_episodes_processed
+        })
 
-    def get_transcript_count(self):
-        """Get current transcript count"""
-        return self.cursor.execute(
-            "SELECT COUNT(*) FROM content WHERE content_type = 'podcast_transcript'"
-        ).fetchone()[0]
-
-    def get_queue_status(self):
-        """Get current queue status"""
-        status = self.cursor.execute(
-            "SELECT status, COUNT(*) FROM episode_queue GROUP BY status"
-        ).fetchall()
-        return dict(status)
-
-    def check_and_add_new_episodes(self):
-        """Check for and add new episodes since September 1, 2025"""
-        logging.info("Checking for new episodes since September 1, 2025")
-
-        cutoff_date = datetime(2025, 9, 1)
-        future_podcasts = [p for p in self.user_podcasts if p['future'] and p['name'] in self.rss_mappings]
-
-        total_added = 0
-
-        for podcast in future_podcasts:
-            podcast_name = podcast['name']
-            rss_url = self.rss_mappings[podcast_name]
-
-            try:
-                feed = feedparser.parse(rss_url)
-                new_episodes = []
-
-                for entry in feed.entries:
-                    pub_date = entry.get('published_parsed')
-                    if pub_date:
-                        pub_datetime = datetime(*pub_date[:6])
-
-                        if pub_datetime >= cutoff_date:
-                            episode_url = entry.get('link', '')
-                            if episode_url:
-                                # Check if already in queue or processed
-                                existing = self.cursor.execute(
-                                    "SELECT id FROM episode_queue WHERE episode_url = ? UNION "
-                                    "SELECT id FROM content WHERE url = ?",
-                                    (episode_url, episode_url)
-                                ).fetchone()
-
-                                if not existing:
-                                    new_episodes.append({
-                                        'title': entry.get('title', 'Untitled Episode'),
-                                        'url': episode_url,
-                                        'pub_date': pub_datetime
-                                    })
-
-                if new_episodes:
-                    # Add to queue
-                    for episode in new_episodes:
-                        self.cursor.execute("""
-                            INSERT INTO episode_queue
-                            (podcast_name, episode_title, episode_url, rss_url, status, created_at, updated_at)
-                            VALUES (?, ?, ?, ?, 'pending', ?, ?)
-                        """, (
-                            podcast_name,
-                            episode['title'],
-                            episode['url'],
-                            rss_url,
-                            datetime.now().isoformat(),
-                            datetime.now().isoformat()
-                        ))
-                        total_added += 1
-
-                    logging.info(f"Added {len(new_episodes)} episodes for {podcast_name}")
-
-                time.sleep(0.5)  # Rate limiting
-
-            except Exception as e:
-                logging.error(f"Error checking {podcast_name}: {e}")
-
-        self.conn.commit()
-        logging.info(f"Total new episodes added: {total_added}")
-        return total_added
-
-    def process_queue_batch(self, batch_size=20):
-        """Process a batch of queued episodes"""
-        logging.info(f"Processing batch of {batch_size} episodes")
-
-        # Get pending episodes
-        pending = self.cursor.execute(
-            "SELECT id, podcast_name, episode_title, episode_url FROM episode_queue "
-            "WHERE status = 'pending' LIMIT ?",
-            (batch_size,)
-        ).fetchall()
-
-        if not pending:
-            logging.info("No pending episodes to process")
-            return 0
-
-        processed = 0
-        found = 0
-
-        for episode_id, podcast_name, episode_title, episode_url in pending:
-            try:
-                # Run episode processor in subprocess
-                result = subprocess.run([
-                    'python3', 'single_episode_processor.py',
-                    str(episode_id),
-                    episode_url,
-                    podcast_name
-                ], capture_output=True, text=True, timeout=60)
-
-                if result.returncode == 0:
-                    # Update status based on result
-                    if 'transcript found' in result.stdout.lower():
-                        self.cursor.execute(
-                            "UPDATE episode_queue SET status = 'found', updated_at = ? WHERE id = ?",
-                            (datetime.now().isoformat(), episode_id)
-                        )
-                        found += 1
-                    else:
-                        self.cursor.execute(
-                            "UPDATE episode_queue SET status = 'not_found', updated_at = ? WHERE id = ?",
-                            (datetime.now().isoformat(), episode_id)
-                        )
-                    processed += 1
-                else:
-                    self.cursor.execute(
-                        "UPDATE episode_queue SET status = 'error', updated_at = ? WHERE id = ?",
-                        (datetime.now().isoformat(), episode_id)
-                    )
-                    logging.error(f"Error processing episode {episode_id}: {result.stderr}")
-
-            except Exception as e:
-                self.cursor.execute(
-                    "UPDATE episode_queue SET status = 'error', updated_at = ? WHERE id = ?",
-                    (datetime.now().isoformat(), episode_id)
-                )
-                logging.error(f"Exception processing episode {episode_id}: {e}")
-
-        self.conn.commit()
-        logging.info(f"Processed {processed} episodes, found {found} transcripts")
-        return processed
-
-    def retry_failed_episodes(self, batch_size=30):
-        """Retry previously failed episodes with intelligent retry logic"""
-        logging.info(f"Retrying {batch_size} failed episodes with enhanced logic")
-
+    def process_continuous_batch(self):
+        """Process continuous batch of episodes"""
         try:
-            # Use simple retry handler
-            from simple_retry_handler import SimpleRetryHandler
-            handler = SimpleRetryHandler()
-            results = handler.process_failed_batch(batch_size)
+            result = self.processor.process_batch(limit=100)
 
-            # Log results
-            logging.info(f"Simple retry completed: {results}")
+            # Update performance metrics
+            self.total_episodes_processed += result['success']
+            self.last_batch_time = time.time()
 
-            # Also run the original retry processor for any newly queued episodes
-            from retry_failed_episodes import retry_failed_episodes
-            success_count = retry_failed_episodes(batch_size)
+            logging.info(f"📊 Batch completed: {result['success']} success, {result['failed']} failed in {result['duration']:.2f}s")
 
-            logging.info(f"Original retry completed: {success_count} new transcripts extracted")
-            return success_count
+            return result
 
         except Exception as e:
-            logging.error(f"Error in simple retry process: {e}")
-            return 0
+            logging.error(f"❌ Batch processing error: {e}")
+            self.processor.logger.fail("system", "atlas_manager", "batch_processing", {
+                "error": str(e),
+                "timestamp": datetime.utcnow().isoformat()
+            })
+            return None
 
-    def process_url_ingestion(self, batch_size=5):
-        """Process URLs from the universal ingestion system"""
-        logging.info(f"Processing {batch_size} URLs from ingestion system")
+    def generate_metrics_report(self):
+        """Generate performance metrics report"""
+        uptime = time.time() - self.start_time
+        uptime_hours = uptime / 3600
 
-        try:
-            from url_ingestion_service import AtlasIngestionService
-            service = AtlasIngestionService()
-            result = service.process_pending_batch(batch_size)
-            logging.info(f"URL ingestion result: {result}")
-            return result.get('success', 0)
-        except Exception as e:
-            logging.error(f"Error processing URL ingestion: {e}")
-            return 0
+        eps = self.total_episodes_processed / uptime if uptime > 0 else 0
 
-    def maintenance_tasks(self):
-        """Perform routine maintenance"""
-        logging.info("Running maintenance tasks")
+        metrics = {
+            "uptime_hours": round(uptime_hours, 2),
+            "total_episodes_processed": self.total_episodes_processed,
+            "episodes_per_hour": round(eps * 3600, 2),
+            "rss_feeds": len(self.processor.rss_feeds),
+            "podcast_configs": len(self.processor.podcast_config),
+            "processed_episodes": len(self.processor.processed_episodes),
+            "last_batch_time": datetime.fromtimestamp(self.last_batch_time).isoformat(),
+            "timestamp": datetime.utcnow().isoformat()
+        }
 
-        # Clean up old error entries
-        week_ago = datetime.now() - timedelta(days=7)
-        deleted = self.cursor.execute(
-            "DELETE FROM episode_queue WHERE status = 'error' AND updated_at < ?",
-            (week_ago.isoformat(),)
-        ).rowcount
+        # Log metrics
+        self.processor.logger.metrics("system", "atlas_manager", metrics)
 
-        # Commit transaction before VACUUM
-        self.conn.commit()
+        # Print summary
+        logging.info(f"📈 Atlas Metrics Report:")
+        logging.info(f"   Uptime: {metrics['uptime_hours']} hours")
+        logging.info(f"   Episodes Processed: {metrics['total_episodes_processed']}")
+        logging.info(f"   Episodes/Hour: {metrics['episodes_per_hour']}")
+        logging.info(f"   RSS Feeds: {metrics['rss_feeds']}")
+        logging.info(f"   Success Rate: {(self.total_episodes_processed / max(1, self.total_episodes_processed + 1)) * 100:.1f}%")
 
-        # Compact database if needed (VACUUM requires no active transaction)
-        try:
-            self.conn.execute("VACUUM")
-        except Exception as e:
-            logging.warning(f"VACUUM failed: {e}")
-            # Continue even if VACUUM fails
+        return metrics
 
-        logging.info(f"Cleaned up {deleted} old error entries")
+    def run_continuous_processing(self):
+        """Main continuous processing loop"""
+        logging.info("🔄 Starting continuous processing loop...")
 
-        # Log current status
-        transcripts = self.get_transcript_count()
-        queue_status = self.get_queue_status()
-
-        logging.info(f"Current status: {transcripts} transcripts, queue: {queue_status}")
-
-    def hourly_tasks(self):
-        """Tasks that run every hour"""
-        logging.info("Running hourly tasks")
-
-        # Process a batch of queue items
-        self.process_queue_batch(batch_size=50)
-
-        # Retry failed episodes with improved patterns
-        self.retry_failed_episodes(batch_size=30)
-
-        # Process URLs from universal ingestion system
-        self.process_url_ingestion(batch_size=5)
-
-        # Check if we need to add more episodes
-        pending_count = self.cursor.execute(
-            "SELECT COUNT(*) FROM episode_queue WHERE status = 'pending'"
-        ).fetchone()[0]
-
-        if pending_count < 1000:
-            self.check_and_add_new_episodes()
-
-    def daily_tasks(self):
-        """Tasks that run daily"""
-        logging.info("Running daily tasks")
-
-        # Check for new episodes from all future podcasts
-        self.check_and_add_new_episodes()
-
-        # Process larger batch
-        self.process_queue_batch(batch_size=100)
-
-        # Run maintenance
-        self.maintenance_tasks()
-
-    def setup_scheduler(self):
-        """Setup the task scheduler"""
-        # Daily tasks at 9:00 AM
-        schedule.every().day.at("09:00").do(self.daily_tasks)
-
-        # Weekly summary on Monday at 2:00 PM
-        schedule.every().monday.at("14:00").do(self.maintenance_tasks)
-
-        # Hourly tasks
-        schedule.every().hour.do(self.hourly_tasks)
-
-    def run_continuous(self):
-        """Run continuous processing loop"""
-        logging.info("Starting continuous processing loop")
-
-        self.setup_scheduler()
+        last_discovery = time.time()
+        last_metrics = time.time()
 
         while self.running:
             try:
-                # Run scheduled tasks
-                schedule.run_pending()
+                current_time = time.time()
 
-                # If no scheduled tasks, process small batches
-                if not schedule.jobs:
-                    self.process_queue_batch(batch_size=10)
+                # RSS Discovery (every 5 minutes)
+                if current_time - last_discovery >= self.rss_discovery_interval:
+                    logging.info("🔍 Running RSS discovery...")
+                    episodes = self.processor.discover_episodes(limit=50)
+                    logging.info(f"📡 Discovered {len(episodes)} new episodes")
+                    last_discovery = current_time
 
-                # Sleep for a short interval
-                time.sleep(300)  # 5 minutes
+                # Batch Processing (every 1 minute)
+                if current_time - self.last_batch_time >= self.batch_processing_interval:
+                    result = self.process_continuous_batch()
+                    if result and result['discovered'] > 0:
+                        logging.info(f"✅ Processed batch: {result['success']}/{result['discovered']} successful")
+
+                # Metrics Report (every 5 minutes)
+                if current_time - last_metrics >= self.metrics_interval:
+                    self.generate_metrics_report()
+                    last_metrics = current_time
+
+                # Sleep for a short interval to prevent high CPU usage
+                time.sleep(10)
 
             except KeyboardInterrupt:
-                logging.info("Received keyboard interrupt, shutting down...")
-                self.running = False
+                logging.info("🛑 Received keyboard interrupt, shutting down...")
+                break
             except Exception as e:
-                logging.error(f"Error in continuous loop: {e}")
-                time.sleep(60)  # Wait a minute before retrying
+                logging.error(f"❌ Error in main processing loop: {e}")
+                self.processor.logger.fail("system", "atlas_manager", "main_loop", {
+                    "error": str(e),
+                    "timestamp": datetime.utcnow().isoformat()
+                })
+                time.sleep(60)  # Wait before retrying
 
-    def run(self):
-        """Main entry point"""
-        logging.info("Starting Atlas Manager")
+    def run_single_batch(self, limit: int = 100):
+        """Run a single batch for testing"""
+        logging.info(f"🎯 Running single batch with limit {limit}...")
+        result = self.processor.process_batch(limit=limit)
 
+        logging.info(f"📊 Single Batch Results:")
+        logging.info(f"   Discovered: {result['discovered']}")
+        logging.info(f"   Success: {result['success']}")
+        logging.info(f"   Failed: {result['failed']}")
+        logging.info(f"   Duration: {result['duration']:.2f}s")
+        logging.info(f"   Episodes/sec: {result['eps']:.2f}")
+
+        return result
+
+    def cleanup_old_logs(self, days: int = 7):
+        """Clean up old log files"""
         try:
-            # Initial setup
-            self.check_and_add_new_episodes()
-            self.maintenance_tasks()
+            cutoff_time = time.time() - (days * 24 * 3600)
+            log_dir = "logs"
 
-            # Start continuous processing
-            self.run_continuous()
+            cleaned_count = 0
+            for filename in os.listdir(log_dir):
+                filepath = os.path.join(log_dir, filename)
+                if os.path.isfile(filepath) and os.path.getmtime(filepath) < cutoff_time:
+                    os.remove(filepath)
+                    cleaned_count += 1
+
+            logging.info(f"🧹 Cleaned up {cleaned_count} old log files")
 
         except Exception as e:
-            logging.error(f"Fatal error: {e}")
-            raise
-        finally:
-            logging.info("Atlas Manager shutting down")
-            self.conn.close()
+            logging.error(f"❌ Error cleaning up logs: {e}")
 
 def main():
-    """Start the Atlas Manager"""
-    print("🚀 STARTING ATLAS MANAGEMENT SYSTEM")
-    print("=" * 60)
-    print("This system will run continuously and automatically:")
-    print("• Check for new podcast episodes")
-    print("• Process transcripts from queued episodes")
-    print("• Perform maintenance tasks")
-    print("• No manual intervention required")
-    print("=" * 60)
+    """Main entry point"""
+    print("🚀 ATLAS LOG-STREAM MANAGEMENT SYSTEM")
+    print("=" * 50)
 
     manager = AtlasManager()
-    manager.run()
+
+    try:
+        if len(sys.argv) > 1 and sys.argv[1] == "--single-batch":
+            # Run single batch for testing
+            limit = int(sys.argv[2]) if len(sys.argv) > 2 else 100
+            manager.run_single_batch(limit)
+        else:
+            # Run continuous processing
+            manager.run_continuous_processing()
+
+    except KeyboardInterrupt:
+        logging.info("🛑 Atlas Manager stopped by user")
+    except Exception as e:
+        logging.error(f"❌ Atlas Manager crashed: {e}")
+        manager.processor.logger.fail("system", "atlas_manager", "crash", {
+            "error": str(e),
+            "timestamp": datetime.utcnow().isoformat()
+        })
+    finally:
+        # Generate final metrics
+        manager.generate_metrics_report()
+        logging.info("🏁 Atlas Manager shutdown complete")
 
 if __name__ == "__main__":
     main()

@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If you want to take over a US public company, the normal way to do it is by calling up the company’s chief executive officer and proposing a
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Children’s Place
-    
-  
+
+
 
 If you want to take over a US public company, the normal way to do it is by calling up the company’s chief executive officer and proposing a merger. You talk to the CEO, you work out a deal, the board approves, they submit it to a shareholder vote, the shareholders approve, and then you buy all of the company’s stock for the price you agreed on.
 A less common approach is the hostile tender offer: You call up the CEO, you propose a merger, she says “absolutely not,” you decide to do it anyway, so you make a public offer to the company’s shareholders to buy all their stock at some fixed price. If a majority of the shareholders tender their shares to you, then you control the company and get to replace the board and do more or less what you want.
@@ -90,37 +90,37 @@ The combination sent PLCE
 The Children’s Place was a popular stock, it put out terrible results, the shareholders rushed to sell, and Mithaq swooped in to buy. Most of the shareholders wanted to sell, so it could get the stock cheap, and they wanted to sell immediately, so it could get the stock fast. Now it owns the company. Maybe it can fix it? It will be a weird ride for the holders of the other 46%.
 There is one immediate problem, which is that by buying a majority of the stock Mithaq has triggered a default on the company’s credit agreement. “As a result of Mithaq’s share ownership position of the Company, Mithaq has triggered a Change of Control thereby causing an Event of Default under the Company’s Amended and Restated Credit Agreement,”  says the company, which “is in discussions with its lenders to seek a waiver of the Event of Default.” Presumably that will cost something, but also, presumably the lenders are happier today than they were after the earnings release: The company is more likely to pay them back now, with its deep-pocketed new owner, than it was immediately after announcing terrible earnings.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Nvidia 13F
-    
-  
+
+
 
 “SoundHound Inc., known for its music recognition app, raised $75 million to compete with the likes of Amazon.com Inc. and Google to build artificial intelligence that helps machines understand human voices,”   reported Bloomberg News. “Investors in this round of fundraising included Samsung Electronics Co.’s Catalyst Fund and graphics chip-maker Nvidia Corp.,” reported Bloomberg. “New Investors Include NVIDIA, Samsung Catalyst Fund, and Other Strategic Investors to Accelerate Globalization and Distribution of Houndify AI Platform,” said SoundHound’s press release.
 I should clarify that I am quoting a Bloomberg story and a press release from seven years ago. Nvidia put some money into a private fundraising round for SoundHound in 2017. Since then, Nvidia has been on a good run; its market value has soared to $1.8 trillion because of its central place in the artificial intelligence business.
@@ -133,11 +133,11 @@ SoundHound, which specializes in voice-enabled artificial intelligence, was rece
 Is it news that Nvidia owns about 0.8% of SoundHound? No, in the sense that Nvidia bought those shares in 2017, and it was disclosed at the time, and then it was disclosed again in 2022 when SoundHound went public. But it is news in the sense that (1) people are paying a lot of attention to Nvidia now as a sort of artificial intelligence kingmaker, (2) people love to pay attention to 13Fs in particular, and to buy stocks that smart hedge fund managers (or Nvidia!) bought last quarter and (3) Nvidia has never filed a 13F before, but had to this quarter, for reasons unrelated to SoundHound. So if you are a 13F reader who has recently started paying attention to Nvidia, that SoundHound stake is news. So the stock was up more than 50% this morning.
 This is mostly a fun story about market inefficiency and the limits of investor attention. Also though I hope someone in Nvidia’s legal department bought a ton of short-dated SoundHound call options yesterday! What a fun insider trading case that would be. If you knew that Nvidia was about to re-disclose its stake in SoundHound, was that material nonpublic information? It was kind of public already. And yet it moved the stock.
 
-  
-    
+
+
       OpenAI
-    
-  
+
+
 
 Here is my rough understanding of the thinking behind OpenAI’s  goofy corporate structure:
 	OpenAI wants to lead the world in the development of artificial general intelligence (AGI), a somewhat vague concept that we can roughly understand to mean “a computer that can think like a human but much better.” Done right, AGI will usher humanity into a paradise of leisure and plenty. Done wrong, AGI will impoverish or enslave or murder all of humanity. Very important to get it right!	Therefore, in developing AGI, OpenAI’s decisions must be made by people who are pure of heart. They can never let short-term commercial considerations override their commitment to the good of humanity, because what they are doing is too important.	Developing AGI — buying processors, training models — will be  extraordinarily expensive, costing perhaps  literally trillions of dollars. So OpenAI will need to raise a lot of money from investors.	Developing AGI will also require hiring the best researchers (and fundraisers!) in a hotly competitive market, so OpenAI will need to be able to pay and motivate them.	Done the wrong way, AGI could be enormously lucrative for the company that develops it
@@ -163,11 +163,11 @@ Maybe? It’s fine? Sam Altman runs one of the biggest and hottest startups in t
 I don’t know, this is all a little absurd, but if you take the first premise seriously — that OpenAI wants to build AGI, and that building AGI the correct way is existentially important for humanity — then it sort of makes sense. It would normally be conventional wisdom to say that it’s a conflict of interest for the CEO of a big company to own its venture arm personally: What if he takes a corporate opportunity that ought to belong to the company? But OpenAI is not, fundamentally, in the business of business; it’s not in the business of seizing commercial opportunities to make money for its shareholders. Oh sure it does that, but only as a tool to achieve its real goal, of making AGI. Letting its celebrity CEO profit from the venture arm, but not from the main product, somehow aligns everyone’s interests.
 Of course the actual conflict of interest is, what if one of the venture investments builds AGI first? In the bad way? What if Sam Altman looks around and is like “man, someone could get rich building AGI, but I can’t get rich if I build it at OpenAI due to its purity, so I’d better fund someone else who’ll do it in the commercial way”?
 
-  
-    
+
+
       Continuation
-    
-  
+
+
 
 The weird story in private equity these days is that private equity firms have two, as far as I can tell, exactly offsetting problems:
 	They have investors who have given them a lot of money recently and want them to spend it buying companies.	They have investors who gave them a lot of money years ago, which they used to buy companies, and now those investors would like them to sell those companies and give them the money back.
@@ -187,11 +187,11 @@ KKR’s investment in Cotiviti comes from KKR North America Fund XIII, a $19 bil
 
 Right, if you bought a company in your old fund in 2018, it’s time to cash that fund out. So you invest in that company from your new fund, which (1) helps you deploy that new fund (which the new fund’s investors want) and (2) helps you cash out the old fund (which the old fund’s investors want). There are   questions about valuation — you don’t want to overpay (hurting the new fund) or underpay (hurting the old fund) — but if you get an outside investor (KKR) that kind of answers those questions; presumably KKR negotiated a market price. And of course KKR needs to deploy its new fund too. Plus opening up the market for big secondary deals probably helps KKR if it too needs to cash out its old funds.
 
-  
-    
+
+
       Private banking
-    
-  
+
+
 
 If you are a bank with a private banking business for wealthy clients, the two main things that you want from your private bankers are:
 	You want them to serve their clients’ needs, put the clients first and make the clients feel well taken care of, so the clients stick with your bank, add more assets to the relationship, and recommend your services to their friends.	You want them to extract more revenue from the clients, by upselling and cross-selling them on new products that earn money for your bank.
@@ -208,16 +208,16 @@ A Citi spokesperson said: “Enhancing client experience is our number-one focus
 
 Do the clients want that? At what frequency do the calls shift from good customer service to pestering? They should have two tiers of private wealth. At $10 million your private bankers call you at least once every 90 days. At $100 million they don’t. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Private Credit  Cuts Pricing to Fend Off Wall Street Deal Grab. Dozens of Banks Rapidly Piled Up  Commercial Property Loans. Late Mortgage Payments Pile Up for Giant Apartment Lender. Private equity should  share more wealth with workers, says US pension giant. JPMorgan sued by chief executive of  fintech it co-owns. Deutsche Bank Told by Regulator to Fix Controls,   Once Again. Drug Shortages Trigger  FTC Probe. Warren Buffett’s Berkshire Hathaway Trims Its Massive  Stake in Apple. The Stanford Professor Taking on Racism in the $4 Trillion  Muni-Bond Market. The  China Conundrum Facing Wall Street Banks. What a  Viral Post on Giraffes Says About China’s Fed-Up Investors. BlackRock Alum Launches Fund Focused on ‘ Weird and Wonderful’ Assets. Squishmallows vs.  Skoosherz. “Lacking change and not knowing  the going rate for baby teeth, he left the equivalent of $64 under their child’s pillow, Singh says, adding: ‘It was an utter failure by the deputy tooth fairy.’” Lyft’s CEO Says ‘My Bad’ on Margin Error, ‘  It Was One Zero.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] I am simplifying in many respects in these two paragraphs. You can negotiate a friendly tender offer (generally followed by a back-end merger). You can do a hostile merger (generally with a proxy fight). You can combine these approaches: Threaten a hostile tender and use that threat to negotiate a quasi-friendly merger. If you get a majority of shares in the tender offer but *don’t* do a back-end merger, you have obligations to the minority shareholders and can’t do *whatever* you want with it. And of course the board can try to block your hostile tender with a   poison pill. 
+
+  [1] I am simplifying in many respects in these two paragraphs. You can negotiate a friendly tender offer (generally followed by a back-end merger). You can do a hostile merger (generally with a proxy fight). You can combine these approaches: Threaten a hostile tender and use that threat to negotiate a quasi-friendly merger. If you get a majority of shares in the tender offer but *don’t* do a back-end merger, you have obligations to the minority shareholders and can’t do *whatever* you want with it. And of course the board can try to block your hostile tender with a   poison pill.
 
 
   [2] Some of these shares came from buying and exercising call options on the same day, why not.
@@ -232,51 +232,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Well: “The board remains majority independent. Independent directors do not hold equity in OpenAI. Even OpenAI’s CEO, Sam Altman, does not hold equity directly. His only interest is indirectly through a Y Combinator investment fund that made a small investment in OpenAI before he was full-time.”
 
 
-  [6] The investors who want their money back, and the investors who want you to deploy their money, may or may not be different investors. 
+  [6] The investors who want their money back, and the investors who want you to deploy their money, may or may not be different investors.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -287,46 +287,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckgjno.5zkw/4754bccc.gif" alt="" border="0" /></a>

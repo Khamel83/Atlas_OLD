@@ -7,11 +7,11 @@
 
 # Nothing found for Milan On The Street Via Solari Milan 10
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Nothing found for Milan On The Street Via Solari Milan 10]()
 
-404  
-  
-The page could not be found. 
+404
+
+The page could not be found.
 

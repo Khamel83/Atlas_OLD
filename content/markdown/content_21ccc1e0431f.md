@@ -26,11 +26,11 @@
         <link rel="shortcut icon" href="/web/20160901075711im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
         <link rel="icon" href="/web/20160901075711im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
 
-<link href="//web.archive.org/web/20160901075711cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">        
-        
+<link href="//web.archive.org/web/20160901075711cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">
+
                 <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/themes/flick/jquery-ui.min.css"/>
-                
-        <link rel="stylesheet" href="//web.archive.org/web/20160901075711cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">        
+
+        <link rel="stylesheet" href="//web.archive.org/web/20160901075711cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/all.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/style.css"/>
 
@@ -81,7 +81,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
 <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/exct_subscription.js?ver=4.5.3"></script>
 <link rel="https://api.w.org/" href="http://www.frugaltravelguy.com/wp-json/"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.frugaltravelguy.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.frugaltravelguy.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.frugaltravelguy.com/wp-includes/wlwmanifest.xml"/>
 <link rel="prev" title="Spending a Full Day In South Africa’s Wine Country" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/south-africa-wine-country-bettys-bay-stellenbosch-franschhoek.html"/>
 <link rel="next" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html"/>
 <link rel="canonical" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html"/>
@@ -102,11 +102,11 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
 	border: 1px solid #c8c8c8;
 }
 </style>
-                
+
         <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.11.1.min.js"></script>
-        
+
                 <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
-        
+
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/ftg-responsive.css"/>
 
 <script type="text/javascript">
@@ -117,16 +117,16 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
         <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquerymx-3.2.custom.min.js?t=2016-09-01"></script>
         <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/mobile-main.js?t=2016-09-01"></script>
         <script type="text/javascript" src="//web.archive.org/web/20160901075711js_/http://s7.addthis.com/js/250/addthis_widget.js#username=manders@internetbrands.com"></script>
-        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=2016-09-01"></script>        
-        
-                
-                
+        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=2016-09-01"></script>
+
+
+
 		<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//web.archive.org/web/20160901075711/http://www.google-analytics.com/analytics.js','ga');
-        
+
           ga('create', 'UA-7661666-1', 'auto');
           ga('send', 'pageview');
         </script>
@@ -136,7 +136,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
             }
         </script>
     </head>
-          
+
 <!--[if lt IE 7 ]>   <body class="ie6">          <![endif]-->
 <!--[if IE 7 ]>      <body class="ie7">          <![endif]-->
 <!--[if IE 8 ]>      <body class="ie8">          <![endif]-->
@@ -153,17 +153,17 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
   })();
 </script>
 
-<div id="wrapper" class="1">          
+<div id="wrapper" class="1">
             <div id="header-wrapper">
                 <div id="header">
                     <div class="header-inner">
                         <div class="flt-rt mobile_only2">
                                                                 <div class="mobile-ad-disclosure" id="link-advertiser-disclosure" href="#disclosure">Advertiser Disclosure</div>
                                                     </div>
-                        <a href="#" class="show_hide flt-lt"> 
+                        <a href="#" class="show_hide flt-lt">
                             <i id="ftg-toggle-left" class="fa fa-bars fa-2x pull-left"></i>
                             <i id="ftg-toggle-left-compressed" class="fa fa-bars fa-2x pull-left"></i>
-                        </a>                      
+                        </a>
                         <div class="clear"></div>
                     </div>
                     <div id="logo-holder">
@@ -172,8 +172,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
                         </a>
                         <a id="site-logo" class="mobile_only2" data-ajax="false" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/">
                             <img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/>
-                        </a>                        
-                        <a id="site-logo-compress" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>                     
+                        </a>
+                        <a id="site-logo-compress" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>
                     </div>
                     <div class="flt-rt mobile-profile"><!-- mobile_only2 -->
                         <i id="ftg-toggle-right" class="fa fa-2x pull-right"></i>
@@ -288,8 +288,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
 	<li class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35563"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/login"><span>Login</span></a></li>
 </ul>
 </li>
-</ul>                            </div>  
-                                                                     
+</ul>                            </div>
+
                     </div><!--/#nav-holder -->
                     <div class="clear"></div>
                 </div>
@@ -298,8 +298,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
             <div class="wrapper-holder">
                 <div class="mobile_only2 ad-disclosure">
                     <div class="mobile-top">
-                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div> 
-                </div>   
+                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div>
+                </div>
     <div id="ad-holder">
         <div class="banner728 widget_text " id="text-3">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=9999&amp;foc=2&amp;foc2=599858" rel="nofollow" alt="Chase Sapphire Preferred® Card - Banner" title="Chase Sapphire Preferred® Card - Banner"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/220022/599858.gif"/></a>		</div>    </div>
 <div id="main" class="single">
@@ -315,8 +315,8 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
                                                 <div class="post-meta header-3">
                                                             		<div class="auth_img">
     									<img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/12/HowieRappaport.jpeg" alt="Howie Rappaport" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                              		</div>
-                                          
-                
+
+
                                 <div class="date">
                                     April 1, 2016                                </div>
                                 <div class="auth_name">
@@ -366,18 +366,18 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
 <p><em>Note: I did inform Arathusa that I intended to blog about my experience and was granted a 20% discount on the cost of our package. The discount was offered after we had already made our decision to stay with Arathusa and in no way influenced ratings or experience. We had committed to a budget and without the discount our stay was within that budget.</em></p>
 <p>Stay tuned for pictures of the animals we saw. I hope the story of our drives inspires and sets a reasonable expectation of what you should look to get from a Safari experience.</p>
 <p><em>[Image via Getty]</em></p>
-              
+
                                                                             <div id="auth_box_bottom">
                                                                   		<div class="auth_img">
         									<img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/12/HowieRappaport.jpeg" alt="Howie Rappaport" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                                  		</div>
-                                                                       
-                           
-                                <div class="auth_box">                 
+
+
+                                <div class="auth_box">
                                     <span class="fullname"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie" title="Posts by Howie Rappaport" rel="author">Howie Rappaport</a></span>
                                          As a kid travel meant hopping in the family station wagon and spending a day at the park or the beach. Everyone got older and longer trips were possible; yes that meant driving from New York to Orlando...<br/>                                    <a class="colorBlue" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie">All Articles</a> | <a class="colorBlue" ref="nofollow" href="http://web.archive.org/web/20160901075711/http://howie/?rel=author" rel="me" target="_blank">Follow on Google+</a>
-                                                                    </div>              
+                                                                    </div>
         			         </div><!-- end of #auth_box_bottom -->
-                                          
+
                                     <div class="associated-card tcc-desktop" id="vlado">
                 <div class="card-header">
                     <span>View:</span>
@@ -591,7 +591,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
                         </td>
                     </tr>
                 </table>
-                
+
             </div>
             <script type="text/javascript">
                 jQuery(document).ready(function () {
@@ -611,7 +611,7 @@ var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:
                         <div class="clr"></div>
                     </div>
           <div name="anchor_comment_top" id="anchor_comment_top"></div>
-          
+
 <div id="disqus_thread">
                     <div id="dsq-content">
 
@@ -752,19 +752,19 @@ config.callbacks.preData.push(function() {
                                     <div class="aside">
                     <div class="prevnext">
                         <!--  previous post -->
-                        	            
+
                             <div class="post-prev-wrap"><strong>Prev.</strong><br/>
                               <div class="post-prev"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/south-africa-wine-country-bettys-bay-stellenbosch-franschhoek.html" title="Spending a Full Day In South Africa's Wine Country" rel="prev"></a></div>                            </div>
-            			                
+
                         <!--  next post -->
-                        						
+
                             <div class="post-next-wrap"><strong>Next</strong><br/>
-                              <div class="post-next"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" rel="next"></a></div>                            </div>											
-            			                        
+                              <div class="post-next"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" rel="next"></a></div>                            </div>
+
                         <div class="clr"></div>
                         <p>Use keys to browse more stories</p>
                     </div><!-- end of .prevnext -->
-                  
+
                     <div class="aside desktop_only">
                          <div class="widget-lft widget_text " id="text-45">			<a href="http://web.archive.org/web/20160901075711/http://www.dpbolvw.net/33106nmvsmu9HHBJCHH9BCFJIBHB9BEGEHDFHGCAAA" target="_blank">
 <img src="http://web.archive.org/web/20160901075711im_/http://www.lduhtrp.net/90103p59y31NVVPXQVVNPQTXWPVPNPSUSVRTVUQOOO" alt="" border="0"/></a>		</div><div class="widget-lft widget_text featured-credit-card" id="text-46"><div class="title"><h2>Featured Credit Cards</h2></div>			<strong>Citi® / AAdvantage® Executive World Elite™ MasterCard®</strong>
@@ -837,7 +837,7 @@ config.callbacks.preData.push(function() {
 <br/>
 <a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.tkqlhce.com/5f108gv30v2IQQKSLQQIKLOKSSMMIKNPKSQNMRRJJJ" rel="nofollow" alt="Citi® / AAdvantage® Platinum Select® MasterCard®"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2015/01/Citi-AA_110x70.jpg" width="110"/></a>		</div>                    </div>
 
-<div class="banner255 widget_text sidebar-300w-ad-unit" id="text-5">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=31139&amp;fot=9999&amp;foc=2&amp;foc2=605712" rel="nofollow" alt="Starwood Preferred Guest® Credit Card from American Express" title="Starwood Preferred Guest® Credit Card from American Express"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/70/605712.gif"/></a>		</div>            
+<div class="banner255 widget_text sidebar-300w-ad-unit" id="text-5">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=31139&amp;fot=9999&amp;foc=2&amp;foc2=605712" rel="nofollow" alt="Starwood Preferred Guest® Credit Card from American Express" title="Starwood Preferred Guest® Credit Card from American Express"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/70/605712.gif"/></a>		</div>
             <div class="widget_text">
                 <div id="twitter-container">
                     <a class="twitter-timeline" href="http://web.archive.org/web/20160901075711/https://twitter.com/FrugalTravelGuy" data-widget-id="698278273084559361" height="300">Tweets by @FrugalTravelGuy</a>
@@ -854,10 +854,10 @@ config.callbacks.preData.push(function() {
                                     <li>
                                                     <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/08/there-are-21-new-unesco-world-heritage-sites-find-out-where.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-50x50.png" class="attachment-50x50 size-50x50 wp-post-image" alt="UNESCO" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-50x50.png 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-150x150.png 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-125x125.png 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-45x45.png 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/08/there-are-21-new-unesco-world-heritage-sites-find-out-where.html" class="post_title">There Are 21 New UNESCO World Heritage Sites—Find out Where!</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/caroline-lupini" title="Posts by Caroline Lupini" rel="author">Caroline Lupini</a>                            </div>
                             <div class="date">
@@ -870,10 +870,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/07/here-are-5-destinations-where-the-us-dollar-is-strongest-for-travel.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="Origami plane made from dollars on the map" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/07/here-are-5-destinations-where-the-us-dollar-is-strongest-for-travel.html" class="post_title">Here Are 5 Destinations Where the US Dollar Is Strongest for Travel</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/caroline-lupini" title="Posts by Caroline Lupini" rel="author">Caroline Lupini</a>                            </div>
                             <div class="date">
@@ -886,10 +886,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/06/before-you-travel-abroad-check-this-list-of-3-locations-that-may-be-foribidden-for-travelers.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="machupicchu" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/06/before-you-travel-abroad-check-this-list-of-3-locations-that-may-be-foribidden-for-travelers.html" class="post_title">Before You Travel Abroad, Check This List of 3 Locations That May Be Restricted For Travelers</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/christinekrzyszton" title="Posts by Christine Krzyszton" rel="author">Christine Krzyszton</a>                            </div>
                             <div class="date">
@@ -902,10 +902,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/05/4-must-see-bucket-list-destinations-to-visit-if-youre-tired-of-seeing-other-tourists.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="No tourists Dead Sea beach" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/05/4-must-see-bucket-list-destinations-to-visit-if-youre-tired-of-seeing-other-tourists.html" class="post_title">4 Must-See Bucket-List Destinations to Visit If You&#8217;re Tired of Seeing Other Tourists</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/christinekrzyszton" title="Posts by Christine Krzyszton" rel="author">Christine Krzyszton</a>                            </div>
                             <div class="date">
@@ -918,10 +918,10 @@ config.callbacks.preData.push(function() {
 <li>
                                                     <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/wrapping-up-my-south-africa-experience.html">
                                 <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="south africa" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
-                        
+
                         <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/wrapping-up-my-south-africa-experience.html" class="post_title">Wrapping up My South Africa Experience</a>
 
-<div class="related-post-meta">       
+<div class="related-post-meta">
                             <div class="auth_name">
                                 <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie" title="Posts by Howie Rappaport" rel="author">Howie Rappaport</a>                            </div>
                             <div class="date">
@@ -959,7 +959,7 @@ config.callbacks.preData.push(function() {
         <div class="divider"><span>Secured &amp; Powered By</span></div>
         <div class="logo"><a href="http://web.archive.org/web/20160901075711/https://ssl.comodo.com/privacy-policy.php" target="_blank"><img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-comodo.png"/></a></div>
         <div class="logo"><a href="http://web.archive.org/web/20160901075711/https://security.intuit.com/index.php" target="_blank"><img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-intuit.png"/></a></div>
-    </div>    
+    </div>
 </div><div id="footer">
             <div class="top-section">
             <div class="widget widget_text " id="text-35">			<ul id="footer-nav">
@@ -972,8 +972,8 @@ config.callbacks.preData.push(function() {
         <li><a href="http://web.archive.org/web/20160901075711/http://www.facebook.com/FrugalTravelGuy"><img alt="Follow FrugalTravelGuy on Facebook" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/facebook-follow.png"/></a></li>
         <li><a href="http://web.archive.org/web/20160901075711/http://twitter.com/#!/frugaltravelguy"><img alt="Follow FrugalTravelGuy on Twitter" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/twitter-follow.png"/></a></li>
 </ul><br/><br/>		</div><div class="widget widget_text " id="text-37">			        <div class="copyright">
-            Copyright © 2016 <strong>Internet Brands, Inc.</strong> All Rights Reserved. 
-<br><a href="http://web.archive.org/web/20160901075711/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> | 
+            Copyright © 2016 <strong>Internet Brands, Inc.</strong> All Rights Reserved.
+<br><a href="http://web.archive.org/web/20160901075711/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> |
 <a href="http://web.archive.org/web/20160901075711/http://www.internetbrands.com/privacy/privacy-main.html" rel="nofollow">Privacy Policy</a>
         </div>
 <script type="text/javascript" src="//web.archive.org/web/20160901075711js_/http://eucookie.internetbrands.com/eucookie/scripts/v1.0.0/eucookie.min.js"></script>
@@ -1000,7 +1000,7 @@ config.callbacks.preData.push(function() {
             el.parentNode.insertBefore(s, el);
         })();
     </script>
-    
+
     <noscript>
         <img src="//web.archive.org/web/20160901075711im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=8138560&amp;cv=2.0&amp;cj=1"/>
     </noscript>

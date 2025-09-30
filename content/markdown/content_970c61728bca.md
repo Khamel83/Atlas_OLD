@@ -15,7 +15,7 @@
 	.footer {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;color: #666666;font-size: 10px;}
 	.footer A {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;color: #666666;font-size: 10px;}
 	.sport {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;color: #000000;font-size: 16px;}
-	
+
 	div img {display:none;}
 
 -->
@@ -30,10 +30,10 @@
 	</script>
 
 <script type="text/javascript" src="https://a.espncdn.com/legacy/desktop/1.0.80/js/espn-critical.js"></script>
-	
-	
-	
-	
+
+
+
+
 	</head><body bgcolor=#FFFFFF>
 
 <!-- SiteCatalyst code version: H.15.1. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
@@ -81,7 +81,7 @@ var s_code=s_omni.t();if(s_code)document.write(s_code)//--></script>
 	</strong></font>
 
 <font class=headline>At its apex, Macho Man was wrestling</font><br/>
-	
+
 	<hr size="1" width=100% noshade>
 	<font class="byline">
 		By Bill Simmons<br/>ESPN.com<br/><br/>
@@ -112,7 +112,7 @@ January 1980. A Saturday morning. I am watching wrestling only because I can't f
 <p>That should have been enough, but Savage had a trump card: he became the first high-profile WWF wrestler to travel with a female manager, the gorgeous Miss Elizabeth, a godsend for horny wrestling fans who eventually opened the door to Missy Hyatt, Sable, Sunny and every "diva" today. Please understand: Wrestling was like a sausage party from college until Miss Elizabeth showed up. Why didn't anyone say, "Hey, our sport revolves around male wrestlers rolling around in tights in front of a predominantly male audience &#133; maybe we should import a few attractive ladies in here to mix it up"? It's a great question. Better late than never.</p><p></p>
 
 <p>Their original storyline apparently was written by Ike Turner: Savage played the jealous, abusive boyfriend who blamed the late Elizabeth for everything, a twisted version of a "damsel in distress" plot. More than once, she would screw up a match and Savage would pull her into the ring by her hair, with fans begging him not to hurt her. Every time, and I mean, <i>every time</i>, we were freaked out that Elizabeth -- more beautiful than just about anyone in 1985 with the possible exception of Kelly Preston, by the way -- might get roughed up by her jealous boyfriend even though it never actually happened. I'm not condoning this angle (and it never would fly in 2011, or even post-OJ, obviously), just noting that Savage had so much talent that even the "mean-spirited, potentially abusive boyfriend" gimmick couldn't hold him down. How many wrestlers could have parlayed that into "good guy" status? </p>
- 
+
 <p>Those Elizabeth blowups and goofy interviews reinforced Savage's defining trait: his unpredictability, always the best thing about his wrestling. If Jimmy Snuka was the Dr. J of jumping off the top rope, then Savage was MJ. Wrestling moved pretty slowly back then: lots of headlocks and clotheslines, lots of rolling around, lots of killed time, lots of fat rolls and labored breathing. Savage murdered that era almost overnight. He dragged 20-minute matches out of Hogan and took 90 percent of the bumps. He climbed to the top rope and delivered flying assaults to opponents <i>outside</i> the ring, which I can't remember having seen before. His devastating finishing move (a flying elbow off the top rope) was so convincing that you always wondered, "Wait, is he actually hurting people when he does that?"</p><p></p>
 
 <p>Everything peaked with his Steamboat feud, which started when Savage <a target="new" href="http://www.youtube.com/watch?v=-e2ccpBDrkk&t=3m15s">"crushed" Steamboat's larynx with the timekeeper's bell</a>. (Steamboat "lost" the ability to speak, which led to some of the unintentionally funniest interviews ever done. In general, Ricky Steamboat made Vin Diesel look like Daniel Day-Lewis.) They settled their score in Detroit in front of something like 90,000 people, with <a target="new" href="http://www.youtube.com/watch?v=D_sT9He21xQ">their Wrestlemania III battle</a> becoming the first great modern match, the Hagler-Hearns of wrestling moments. In a memorable sports year that included Leonard upsetting Hagler, the Lakers outlasting the Celtics, Indiana shocking Syracuse, Elway unleashing The Drive and Calgary toppling Edmonton, I'd put Steamboat-Savage against any of them. It was that good. The full potential of professional wrestling, realized.</p><p></p>

@@ -67,7 +67,7 @@ But it is fascinating to witness the structural changes in the way dividends are
 
 In the past, dividends were the only reason investors placed their money in equities. Now, dividends play a much smaller role, for better or worse, in the overall stock market.
 
-Further Reading:  
+Further Reading:
 [The Half-Life of Investment Strategies](https://awealthofcommonsense.com/2018/08/the-half-life-of-investment-strategies/)
 
 1Cue the conspiracy crowd who will complain the market has been manipulated by buybacks.

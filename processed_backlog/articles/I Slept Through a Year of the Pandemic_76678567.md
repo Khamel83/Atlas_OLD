@@ -113,8 +113,8 @@ The bump on my head tormented me for the first year of my recovery, a permanent 
 
 The bump is smaller now, but still there. My husband has taken to calling it my unicorn horn. To remove it, my doctors say they’ll have to peel back the skin on my forehead and sand down the place where my brain pressed against my skull.
 
-Looking out the window of my new apartment, I can’t help but think that every person on the sidewalk below is suppressing their own tragedy from this time, a story that still needs to be shared and grieved. A line from *The Body Keeps the Score* stays with me, about how telling your story is one of the most important parts of healing and integrating a traumatic experience: “As soon as a story starts being told, particularly if it is told repeatedly, it changes—the act of telling itself changes the tale. The mind cannot help but make meaning out of what it knows, and the meaning we make of our lives changes how and what we remember.”  
-  
+Looking out the window of my new apartment, I can’t help but think that every person on the sidewalk below is suppressing their own tragedy from this time, a story that still needs to be shared and grieved. A line from *The Body Keeps the Score* stays with me, about how telling your story is one of the most important parts of healing and integrating a traumatic experience: “As soon as a story starts being told, particularly if it is told repeatedly, it changes—the act of telling itself changes the tale. The mind cannot help but make meaning out of what it knows, and the meaning we make of our lives changes how and what we remember.”
+
 There is so much I want to tell, and even more I’m determined to change as I slowly make my way out there myself. For one, when a friend shares a story like this with me, I don’t want to nod sympathetically. I want to be able to say, with vigor, “What the *fuck*?”
 
 Over the past year, as I’ve reunited with friends and family, I’ve told this story. With each telling, it gets a little easier, the lessons become more clear, and I need a little less sleep.

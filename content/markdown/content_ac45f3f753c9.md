@@ -75,23 +75,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="15475044" />
-  
+
     <meta name="ncbi_uid" content="15475044" />
-  
+
     <meta name="log_displayeduids" content="15475044" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="Premature autonomy describes a developmental dynamic where parents of high-risk adolescents reduce their involvement and guidance when confronted with challenges of problem behaviour and the influence of deviant friendships. This dynamic was tested on the sample of Oregon Youth Study boys (N=206), w …"><meta name="keywords" content="pmid:15475044, doi:10.1016/j.adolescence.2004.06.005, Comparative Study, Research Support, U.S. Gov&#x27;t, P.H.S., Thomas J Dishion, Sarah E Nelson, Bernadette Marie Bullock, Adolescent, Adolescent Behavior*, Child, Female, Freedom*, Humans, Male, Oregon, Parent-Child Relations*, Peer Group*, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Premature adolescent autonomy: parent disengagement and deviant peer process in the amplification of problem behaviour - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/15475044/"><meta property="og:description" content="Premature autonomy describes a developmental dynamic where parents of high-risk adolescents reduce their involvement and guidance when confronted with challenges of problem behaviour and the influence of deviant friendships. This dynamic was tested on the sample of Oregon Youth Study boys (N=206), w …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Premature adolescent autonomy: parent disengagement and deviant peer process in the amplification of problem behaviour - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/15475044/"><meta name="twitter:description" content="Premature autonomy describes a developmental dynamic where parents of high-risk adolescents reduce their involvement and guidance when confronted with challenges of problem behaviour and the influence of deviant friendships. This dynamic was tested on the sample of Oregon Youth Study boys (N=206), w …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -115,8 +115,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/15475044/">
 
 <meta name="citation_volume" content="27">
-  
-  
+
+
     <meta name="citation_issue" content="5">
 
 <meta name="citation_doi" content="10.1016/j.adolescence.2004.06.005">
@@ -156,7 +156,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -280,10 +280,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -300,7 +300,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -312,7 +312,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -321,8 +321,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -330,7 +330,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -338,7 +338,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -349,8 +349,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -405,7 +405,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -419,7 +419,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -506,7 +506,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -517,13 +517,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="VMmyaiwycABXk50ByQFir9ZtxBdqlECn9UUqhLEFMumzoA5pkGJefAdm2gcIkH8e">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -555,7 +555,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -914,7 +914,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1071,7 +1071,7 @@
 <div class="article-page" id="article-page" data-article-pmid="15475044">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1079,22 +1079,22 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0140197104000715"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=15475044&amp;db=pubmed&amp;nlmid=7808986"
          title="See full text options at Elsevier Science"
-         
+
          data-ga-category="full_text"
          data-ga-action="Elsevier Science"
          data-ga-label="15475044"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a>
 </div>
 
@@ -1313,22 +1313,22 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
-            
+
   <div class="publication-type" >Comparative Study</div>
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1352,9 +1352,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Adolesc%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Adolesc">
@@ -1371,9 +1371,9 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2004 Oct;27(5):515-30.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.adolescence.2004.06.005.
       </span>
@@ -1381,12 +1381,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Premature adolescent autonomy: parent disengagement and deviant peer process in the amplification of problem behaviour
 
 </h1>
@@ -1437,10 +1437,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1450,28 +1450,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> Department of Psychology, Child and Family Center, University of Oregon, 195 West 12th Avenue, Eugene, OR 97401-3408, USA. tomd@uoregon.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">15475044</strong>
@@ -1479,13 +1479,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1502,7 +1502,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1510,40 +1510,40 @@ Affiliations
 </div>
       </div>
       <div class="short-view" id="short-view-heading">
-        
+
   <div class="publication-type" >Comparative Study</div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Premature adolescent autonomy: parent disengagement and deviant peer process in the amplification of problem behaviour
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">Thomas J Dishion</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         J Adolesc<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2004 Oct</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1575,7 +1575,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1589,19 +1589,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1625,9 +1625,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Adolesc%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Adolesc">
@@ -1644,9 +1644,9 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2004 Oct;27(5):515-30.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.adolescence.2004.06.005.
       </span>
@@ -1654,7 +1654,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1688,24 +1688,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> Department of Psychology, Child and Family Center, University of Oregon, 195 West 12th Avenue, Eugene, OR 97401-3408, USA. tomd@uoregon.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">15475044</strong>
@@ -1713,13 +1713,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1736,7 +1736,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1744,8 +1744,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1774,19 +1774,19 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       Premature autonomy describes a developmental dynamic where parents of high-risk adolescents reduce their involvement and guidance when confronted with challenges of problem behaviour and the influence of deviant friendships. This dynamic was tested on the sample of Oregon Youth Study boys (N=206), whose family management practices and friendships were observed on videotaped interaction tasks. Latent growth curve models were used to examine longitudinal trends between deviant friendship interactions and family management. Direct observations of deviant friendship process at age 14 were associated with degradation in family management during adolescence. A comparison of antisocial and well-adjusted boys clarified that parents of antisocial boys (started early and persisted) decreased family management around puberty, in comparison to parents of well-adjusted boys who maintained high levels of family management through adolescence. In predicting late adolescent problem behaviour, there was a statistically reliable interaction between family management degradation and deviant peer involvement in adolescence in support of the premature autonomy hypothesis. Adolescent males involved in deviant friendships, and whose parents decreased their family management, were most likely to use marijuana and commit antisocial acts at age 18. The implications for interventions that target adolescents are discussed.
     </p>
 
@@ -1803,15 +1803,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/15475043/"
@@ -1819,39 +1819,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="15475043"
        data-ga-label="">
-      
+
         The role of family and peer relations in adolescent antisocial behaviour: comparison of four ethnic groups.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Deković M, Wissink IB, Marie Meijer A.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Deković M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Adolesc. 2004 Oct;27(5):497-514. doi: 10.1016/j.adolescence.2004.06.010.</span>
     <span class="docsum-journal-citation short-journal-citation">J Adolesc. 2004.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">15475043</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/23627956/"
@@ -1859,39 +1859,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="23627956"
        data-ga-label="">
-      
+
         Pubertal timing and depressive symptoms in late adolescence: the moderating role of individual, peer, and parental factors.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Benoit A, Lacourse E, Claes M.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Benoit A, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Dev Psychopathol. 2013 May;25(2):455-71. doi: 10.1017/S0954579412001174.</span>
     <span class="docsum-journal-citation short-journal-citation">Dev Psychopathol. 2013.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">23627956</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/11206434/"
@@ -1899,39 +1899,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="11206434"
        data-ga-label="">
-      
+
         Aggression toward female partners by at-risk young men: the contribution of male adolescent friendships.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Capaldi DM, Dishion TJ, Stoolmiller M, Yoerger K.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Capaldi DM, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Dev Psychol. 2001 Jan;37(1):61-73.</span>
     <span class="docsum-journal-citation short-journal-citation">Dev Psychol. 2001.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">11206434</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/16651513/"
@@ -1939,39 +1939,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="16651513"
        data-ga-label="">
-      
+
         Prediction of early-onset deviant peer group affiliation: a 12-year longitudinal study.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Lacourse E, Nagin DS, Vitaro F, Côté S, Arseneault L, Tremblay RE.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Lacourse E, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Arch Gen Psychiatry. 2006 May;63(5):562-8. doi: 10.1001/archpsyc.63.5.562.</span>
     <span class="docsum-journal-citation short-journal-citation">Arch Gen Psychiatry. 2006.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">16651513</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/8362017/"
@@ -1979,42 +1979,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="8362017"
        data-ga-label="">
-      
+
         [Characteristics and functions of friendship in adolescence].
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Claes M, Poirier L.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Claes M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Psychiatr Enfant. 1993;36(1):289-308.</span>
     <span class="docsum-journal-citation short-journal-citation">Psychiatr Enfant. 1993.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">8362017</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
   <span class="language spaced-citation-item citation-part">French.</span>
-  
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=15475044"
@@ -2023,7 +2023,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2032,15 +2032,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/20532814/"
@@ -2048,39 +2048,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="20532814"
        data-ga-label="">
-      
+
         Predicting change in early adolescent problem behavior in the middle school years: a mesosystemic perspective on parenting and peer experiences.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Véronneau MH, Dishion TJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Véronneau MH, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Abnorm Child Psychol. 2010 Nov;38(8):1125-37. doi: 10.1007/s10802-010-9431-0.</span>
     <span class="docsum-journal-citation short-journal-citation">J Abnorm Child Psychol. 2010.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">20532814</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/24491192/"
@@ -2088,39 +2088,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="24491192"
        data-ga-label="">
-      
+
         Parenting behaviors during risky driving by teens with attention-deficit/hyperactivity disorder.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Schatz NK, Fabiano GA, Morris KL, Shucard JM, Leo BA, Bieniek C.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Schatz NK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Behav Ther. 2014 Mar;45(2):168-76. doi: 10.1016/j.beth.2013.08.003. Epub 2013 Sep 5.</span>
     <span class="docsum-journal-citation short-journal-citation">Behav Ther. 2014.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">24491192</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/23996214/"
@@ -2128,39 +2128,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="23996214"
        data-ga-label="">
-      
+
         Youths' substance use and changes in parental knowledge-related behaviors during middle school: a person-oriented approach.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Lippold MA, Greenberg MT, Collins LM.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Lippold MA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Youth Adolesc. 2014 May;43(5):729-44. doi: 10.1007/s10964-013-0010-x. Epub 2013 Aug 31.</span>
     <span class="docsum-journal-citation short-journal-citation">J Youth Adolesc. 2014.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">23996214</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19628137/"
@@ -2168,39 +2168,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="19628137"
        data-ga-label="">
-      
+
         What accounts for differences in substance use among U.S.-born and immigrant Hispanic adolescents?: results from a longitudinal prospective cohort study.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Prado G, Huang S, Schwartz SJ, Maldonado-Molina MM, Bandiera FC, de la Rosa M, Pantin H.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Prado G, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Adolesc Health. 2009 Aug;45(2):118-25. doi: 10.1016/j.jadohealth.2008.12.011. Epub 2009 Feb 24.</span>
     <span class="docsum-journal-citation short-journal-citation">J Adolesc Health. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19628137</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/29356926/"
@@ -2208,42 +2208,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="29356926"
        data-ga-label="">
-      
+
         Examining Relationships among Choice, Affect, and Engagement in Summer STEM Programs.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Beymer PN, Rosenberg JM, Schmidt JA, Naftzger NJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Beymer PN, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Youth Adolesc. 2018 Jun;47(6):1178-1191. doi: 10.1007/s10964-018-0814-9. Epub 2018 Jan 22.</span>
     <span class="docsum-journal-citation short-journal-citation">J Youth Adolesc. 2018.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">29356926</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=15475044"
@@ -2252,7 +2252,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2751,12 +2751,12 @@ Affiliations
       <button class="close-overlay" tabindex="2">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0140197104000715"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=15475044&amp;db=pubmed&amp;nlmid=7808986"
          title="See full text options at Elsevier Science"
          tabindex="1"
@@ -2764,9 +2764,9 @@ Affiliations
          data-ga-action="Elsevier Science"
          data-ga-label="15475044"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a>
 </div>
 
@@ -2806,31 +2806,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -2844,19 +2844,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F15475044%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F15475044%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F15475044%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3072,7 +3072,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3099,7 +3099,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

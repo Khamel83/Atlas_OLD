@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.I know I say this a lot but I really can’t stress enough what a good busi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Tether lending
-    
-  
+
+
 
 I know I say this a lot but I really can’t stress enough what a good business Tether, the big stablecoin issuer, is. It is an unregulated bank that does not pay interest, rates are going up, and its depositor base is quite stable. As of the end of June,  Tether reported assets of about $86.5 billion, a majority of it in US Treasury bills, to back about $83.2 billion of Tethers. That’s up slightly from  the previous quarter: In last year’s crypto winter there was a bit of a run on Tether, but not that much, and it has recovered well; crypto people continue to want to keep their money in Tether.
 Anyway, if you are in charge of Tether, you shouldn’t have to worry about run risk. Tether invests in mostly short-term safe stuff, and short-term safe stuff pays a lot of interest now. Just investing Tether’s pot of money in overnight loans secured by US Treasuries at the Secured Overnight Financing Rate would get you a yield of about 5.3%, or about $4.6 billion a year, absolutely risk-free and with essentially no expenses.
@@ -82,37 +82,37 @@ Tether’s borrowers are big crypto investors looking to get financing for their
 We have   talked about Tether’s lending activity before. One common form of crypto-skeptical conspiracy theory in recent years goes something like this: “Tether is a form of self-sustaining fractional reserve banking for crypto, and it dynamically prints Tethers in order to prop up crypto prices. At the margin, cryptocurrencies are not purchased by real people putting new dollars into the crypto system, but by crypto hedge funds buying crypto using freshly printed Tethers.” 
 This is … kind of … a Tether spokeswoman … saying … that? 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Splunk!
-    
-  
+
+
 
 One thing that happens a lot is that the chief executive officer of a public company sells a bunch of stock, and then the company announces bad news the next week, and people are like “hmm suspicious timing!” Often, when this happens, the CEO points out that she did not decide to sell the stock with that fortuitous timing: Ages ago, she had set up a Rule 10b5-1 plan that would automatically sell some stock at particular times or prices, and it just so happened that the automatic 10b5-1 plan sold stock at a fortuitous time.
 I tend to believe those explanations. Still, we  talk  sometimes around  here about the well-known ways to game the 10b5-1 rules. The classic is:
@@ -131,11 +131,11 @@ The two companies had held talks in the past, but discussions fell apart last ye
 Here is a Form 4 filed yesterday by Splunk’s president and CEO, Gary Steele, disclosing that he sold 9,600 of his shares on Monday at an average price of $120.08. “The sale reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on April 6, 2023.” He sold stock in July too; overall he seems to have trimmed his Splunk holdings by more than 10% under that 10b5-1 plan. If he had held onto the stock until announcing the merger, it would have been worth a lot more. Presumably he knew that, since he was negotiating the merger. But he let his automatic sales go ahead anyway. Tough timing, but good compliance.
 Elsewhere in Splunk timing, someone bought two-day-to-expiry call options yesterday for $0.04 per share and sold them today at $18.30 per share. Good trade! One possibility is insider trading — don’t insider trade by  buying short-dated out-of-the-money call options on merger targets! — but another possibility is that if people are constantly buying very-short-dated options as  a way to do gambling, sometimes they’re going to hit the jackpot.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
  Sure:
 
@@ -149,11 +149,11 @@ Without getting too much into the legal details here, there are  two basic ways 
 These are pretty absolute views, though, and you could imagine a compromise. One rough compromise might be “ehhhhhh the AT1s should be treated more or less like stock” — not absolutely prior to stock (like in View 1), and not absolutely behind stock (like in View 2), but just parallel to stock. That is a pretty normal approach; other banks have AT1 instruments that convert into stock when the bank runs into trouble, instead of being written down to zero. We  talked the other day about how UBS is going out to market more AT1 instruments (to replace the zeroed Credit Suisse ones!), and to make this more palatable it is considering “replacing UBS’s AT1 bonds, which are designed to be written down in the event the bank runs into trouble, with versions of the security that would be converted into equity.”
 Probably doing that to the old Credit Suisse AT1s, retroactively, would be rough justice? Credit Suisse’s shareholders got, I don’t know, depends how you count, somewhere between 1 and 40 cents on the dollar for their shares. (The agreed CHF 0.76 price was “ 99% lower than Credit Suisse's peak share price,” but only 60% lower than its most recent closing price.) Giving its AT1 holders 15 cents or so seems fine.
 
-  
-    
+
+
       Insider gambling
-    
-  
+
+
 
 If you are a financial journalist, and a source at an investment bank calls you up and says “hey hot tip, Consolidated Widgets is in advanced talks to acquire Amalgamated Sprockets,” and you call your other sources and the tip checks out, and you write an article saying “Consolidated in Advanced Talks To Buy Amalgamated,” Amalgamated’s stock will almost certainly shoot up when you publish it.
   [3]
@@ -175,11 +175,11 @@ This is not, I think, mainly a journalism question. The broader issue is:
 
 I just look forward to the US sports gambling market becoming increasingly like the US securities markets, with a lot of rules and enforcement devoted to inside information. I suspect a lot of the rules will be taken from securities markets. The securities markets have a lot of experience with this.
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 One way to think about crypto is that it often applies infinitely scalable technology to ideas that kind of only work once. So in the early days of Bitcoin, a lot of people, including me, thought there was a logical flaw at its heart: Bitcoin was just a ledger maintained by some open-source code, and if it ever got valuable there was nothing to stop anyone else from cloning it and printing many more quasi-Bitcoins that had the same properties and, therefore, the same value as actual Bitcoins. This easy clonability would keep a lid on Bitcoin prices. This was totally wrong! In fact a lot of people did make Bitcoin clones, and a few of them ended up being worth, you know, two or three orders of magnitude less than Bitcoin, and the rest ended up being worth nothing. There were powerful network effects to being the original thing, and while it was easy to copy the technical properties of that thing, the value was not in the technical properties.
 Non-fungible tokens have a similar story, but much more so. I do not fully understand the appeal of, like, Bored Ape Yacht Club. But it’s something like:
@@ -202,11 +202,11 @@ We   talked the other day about the modern history of art pranks, art that was d
 And then non-fungible tokens were invented to sort of mass-produce this effect for the internet age. This should not work: Pretty pictures lost their edge in the art world because they became too easy to mass-produce, and now being-in-on-a-dumb-stunt has also become easy to mass-produce, and it too has, I think, lost its edge. For like seven minutes in 2021, you could say “give me money and I will give you a receipt for nothing" and people would be like “oh that’s a cool joke, here’s the money” and feel good and sophisticated, but that was very easy to do, so everyone did, so that market was saturated and it is, I insist, no longer cool.
 So saturated! So not cool.
 
-  
-    
+
+
       Don’t put it in email, except this one
-    
-  
+
+
 
 Last Thursday  we discussed a corporate compliance dilemma, which is:
 	Sometimes companies do aggressive things.	They do not want anyone saying anything embarrassing about those things in email: If you are doing an aggressive thing, you want to characterize it very carefully in all of your written descriptions. You do not want to create bad evidence for regulators to second-guess what you did.	People will mess that up.	The companies will want to train people not to mess up; they will want to tell them things like “don’t talk about ‘crushing the competition’ in email.”	But that training itself creates bad evidence: Now the regulators have the slide you showed everyone saying “don’t talk about ‘crushing the competition’ in email,” which suggests that you are going around crushing the competition with a guilty conscience.
@@ -221,15 +221,15 @@ Oh. Is Money Stuff ALREADY sponsored by Apollo, Bloomberg, and big Wall Street a
 
 I mean, no, none of that is explicitly what is going on here. And yet!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Higher Interest Rates Not Just for Longer, but  Maybe Forever. Rupert Murdoch Is Stepping Down as Chairman of Fox, News Corp. Klaviyo Shares Soar in Debut, Pointing to IPO Resurgence. Instacart and Arm shares lose steam after IPO pops. Ex-Goldman Bankers Make a Fortune With Controversial   Bet on Coal. SoftBank finance chief criticises S&P for  lack of credit upgrade after Arm deal. BlackRock, State Street Among Money Managers   Closing ESG Funds. Bank of America Is Moving to Same   Dallas Neighborhood as Goldman. Walter Isaacson’s  ‘Elon Musk’ Biography Hits Big in First Week. Who’d  invite the boss to dinner?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Tether does not actually disclose its financial statements and I assume there are some expenses but, you know, what?
 
 
@@ -248,48 +248,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] A reader did email to say “I went to Wharton for undergrad and MBA and ‘don't put it in email’ was a lesson very often imparted to us by professors,” so they’re trying.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -300,46 +300,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjisd1.683a/9ecab0b8.gif" alt="" border="0" /></a>

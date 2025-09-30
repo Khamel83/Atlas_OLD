@@ -26,7 +26,7 @@ for me? Just reply to this email or message me on Signal at 310-804-3198.
 
 Let’s begin…
 
- 
+
 
 Thursday
 Thoughts…
@@ -137,7 +137,7 @@ other creditors to get its money for Resurrections and potentially more, which w
 That may be true, but Village
 Roadshow’s woes also stand as a cautionary tale for Hollywood in 2025: A company that helped make some of the highest-quality and most successful studio movies of the past 30 years essentially wound up killing its golden goose. They took the money from the greatest co-finance deal in town and plowed it into a money-losing production business at exactly the wrong time. Will other entertainment companies learn from that mistake? 
 
- 
+
 
 Finally…
 One Fun Thing…
@@ -147,7 +147,7 @@ I’m sorry to report that Goldbelly, the specialty food delivery service, is no
 Tom Cruise to promote the famous Doan’s Bakery bundt cake that he sends to Hollywood people around the holidays. To its credit, Doan’s itself does not leverage Cruise’s name, referring ( https://www.goldbelly.com/restaurants/doans-bakery?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to the cake on its profile page only as “the personal favorite of one famous actor.” But apparently the Goldbelly people couldn’t resist including the below promo in
 their latest newsletter. Cruise’s lawyers have been notified.
 
- 
+
 
 See you Monday,
 
@@ -202,6 +202,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVb0wDGZSG-LwfFAynLcU=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%283%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

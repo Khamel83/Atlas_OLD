@@ -16,11 +16,11 @@ Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=ey
 If all that isn’t enough: in honor of the history we’re all about to live through next week, Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has suspended all fees on election markets. 
 $100 million in liquidity. 4.05% interest. Zero fees. One historic election. 
 Join us for this historic moment and place your first trade today [ https://substack.com/redirect/866839a6-102f-40b5-9779-72a1b092c1d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-Hi friends 👋, 
-Happy Tuesday! 
-One week until the Presidential Election. Back in July, I wrote that no matter what happens, America will continue to thrive [ https://substack.com/redirect/0a18afdd-2a1a-45fb-a85f-43d9b35c84d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] because entrepreneurial activity can outpace government stagnation. 
+Hi friends 👋,
+Happy Tuesday!
+One week until the Presidential Election. Back in July, I wrote that no matter what happens, America will continue to thrive [ https://substack.com/redirect/0a18afdd-2a1a-45fb-a85f-43d9b35c84d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] because entrepreneurial activity can outpace government stagnation.
 Unintentionally, today’s piece provides another angle on that view. The government’s job is to protect us from infinite downside. The private sector’s job is to pursue infinite upside.
-Let’s get to it. 
+Let’s get to it.
 Infinity Missions
 In the 17th century, a French mathematician and philosopher named Blaise Pascal attempted to answer an age-old question with modern mathematical techniques. 
 Should I believe in God? 
@@ -167,7 +167,7 @@ If the government feels like it’s stagnating, like it couldn’t possibly pull
 It even makes sense. Politicians will be long out of office by the time any Infinity Mission they fund comes close to fruition. Their incentive is to produce short-term, finite upside while protecting against infinite downside. 
 Fortunately, infinity applied to future profits is financially overwhelming enough that companies are incentivized to pursue Infinity Missions, no matter how small their probability of success or how much it costs today. Now that infinity is on the table, I expect it will pull progress further and faster than we’ve seen in the past. 
 Avoiding Hell is necessary, but not sufficient. The real point of the Wager is to reach Heaven.
-That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose. 
+That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose.
 Thanks for reading,
 Packy
 

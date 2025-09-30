@@ -1,10 +1,10 @@
 // content_safari.js - Safari extension content script
 (function() {
     'use strict';
-    
+
     // Listen for messages from the Safari extension
     safari.self.addEventListener("message", handleMessage, false);
-    
+
     function handleMessage(event) {
         switch (event.name) {
             case "showPopup":
@@ -21,7 +21,7 @@
                 break;
         }
     }
-    
+
     function showAtlasPopup() {
         // Create a floating popup for Atlas actions
         const existingPopup = document.getElementById('atlas-popup');
@@ -29,7 +29,7 @@
             existingPopup.remove();
             return;
         }
-        
+
         const popup = document.createElement('div');
         popup.id = 'atlas-popup';
         popup.innerHTML = `
@@ -46,7 +46,7 @@
                 <div id="atlas-status" class="atlas-status"></div>
             </div>
         `;
-        
+
         // Add CSS styles
         const style = document.createElement('style');
         style.textContent = `
@@ -118,20 +118,20 @@
                 display: block;
             }
         `;
-        
+
         document.head.appendChild(style);
         document.body.appendChild(popup);
-        
+
         // Event listeners
         popup.querySelector('.atlas-popup-close').addEventListener('click', () => {
             popup.remove();
         });
-        
+
         popup.querySelector('#atlas-save-page').addEventListener('click', saveCurrentPage);
         popup.querySelector('#atlas-save-article').addEventListener('click', saveArticleContent);
         popup.querySelector('#atlas-save-selection').addEventListener('click', saveSelectedText);
     }
-    
+
     function saveCurrentPage() {
         const data = {
             url: window.location.href,
@@ -139,29 +139,29 @@
             content: document.documentElement.outerHTML,
             source: 'safari-extension-page'
         };
-        
+
         safari.self.tab.dispatchMessage("saveContent", data);
         showStatus('Page saved to Atlas!', 'success');
     }
-    
+
     function saveSelectedText() {
         const selection = window.getSelection().toString().trim();
         if (!selection) {
             showStatus('No text selected', 'error');
             return;
         }
-        
+
         const data = {
             url: window.location.href,
             title: document.title,
             content: selection,
             source: 'safari-extension-selection'
         };
-        
+
         safari.self.tab.dispatchMessage("saveContent", data);
         showStatus('Selection saved to Atlas!', 'success');
     }
-    
+
     function saveArticleContent() {
         // Try to extract article content using common selectors
         const articleSelectors = [
@@ -172,9 +172,9 @@
             '.entry-content',
             '.content'
         ];
-        
+
         let articleContent = '';
-        
+
         for (const selector of articleSelectors) {
             const element = document.querySelector(selector);
             if (element && element.textContent.length > 100) {
@@ -182,29 +182,29 @@
                 break;
             }
         }
-        
+
         if (!articleContent) {
             // Fallback to body content
             articleContent = document.body.textContent;
         }
-        
+
         const data = {
             url: window.location.href,
             title: document.title,
             content: articleContent.trim(),
             source: 'safari-extension-article'
         };
-        
+
         safari.self.tab.dispatchMessage("saveContent", data);
         showStatus('Article saved to Atlas!', 'success');
     }
-    
+
     function showStatus(message, type) {
         const statusEl = document.querySelector('#atlas-status');
         if (statusEl) {
             statusEl.textContent = message;
             statusEl.className = `atlas-status ${type}`;
-            
+
             if (type === 'success') {
                 setTimeout(() => {
                     const popup = document.getElementById('atlas-popup');
@@ -213,5 +213,5 @@
             }
         }
     }
-    
+
 })();

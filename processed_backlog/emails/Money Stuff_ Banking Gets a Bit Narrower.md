@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.We have talked a few times recently about, like, the theory of banking. T
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Emergent narrow banking
-    
-  
+
+
 
 We have   talked a few   times   recently about, like,   the theory of banking. That theory goes roughly like this. Banks fund themselves with deposits, which are basically short term and safe: If you have $100 in a bank account, you expect that it will always be worth $100, and you expect to be able to withdraw five $20 bills any time you want. Meanwhile banks invest their money in assets (loans, bonds) which are basically long term and risky: Banks make loans to risky businesses that don’t have to be repaid for years. 
 This business has well-known problems. The main problems are:
@@ -110,37 +110,37 @@ One very speculative thing that I might say here is that the magic — the opac
   [6]
  If it’s too easy to see what the magician is doing, the magic doesn’t work anymore.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath
-    
-  
+
+
 
 The situation seems to be that it is mathematically impossible for Bed Bath & Beyond Inc. to raise enough money by selling stock to avert bankruptcy. It’s not quite as simple as that — you can write down some scenarios where it can raise enough money — but they are pretty far-fetched. The Wall Street Journal reports:
 
@@ -155,11 +155,11 @@ If you are Bed Bath & Beyond, what do you do? Are you still selling stock? Pre
 
 As your hopes of avoiding bankruptcy fade, it becomes crueler and crueler to your retail investors to keep selling them stock: They are just throwing away their money, and you know it. (And you have told them that — the prospectus for this stock offering is full of warnings that Bed Bath is probably going bankrupt — though they don’t seem to believe you.) On the other hand, as your hopes of avoiding bankruptcy fade, your fiduciary responsibilities are increasingly to your creditors rather than your shareholders, and presumably those creditors want you to raise as much money as you can from shareholders to hand over to them. I can’t tell you how much I am looking forward to the lawsuits here.
 
-  
-    
+
+
       Bond sales
-    
-  
+
+
 
 We   talked yesterday about a self-limiting feature of the recent US banking crisis: Interest rates went up, which caused banks to lose money on their bond portfolios, which caused some bank failures, which caused interest rates — at least, the rates on the long-term bonds those banks held — to go down. That doesn’t do much good for the banks that failed — they are already gone — but any bank that muddled through now looks a bit less bad, because its bonds recovered a bit. “If rising interest rates cause banks to fail,” I wrote, “that will lead to a recession, which will cause interest rates to drop, which will rescue those banks. The trick is the timing.”
 For the banks that did fail, the beneficiary is whoever gets their bonds, which basically means the Federal Deposit Insurance Corp. For a while after the FDIC took over Silicon Valley Bank, there was some speculation that the FDIC would make a profit on the deal: It acquired SVB due to the hole in its balance sheet caused by unrealized losses on its bond holdings, but then those bonds rallied after SVB failed, which in theory could have repaired the hole in the balance sheet and left the FDIC with a profit. In practice, probably not. The  Wall Street Journal reports:
@@ -175,11 +175,11 @@ The market for mortgage-backed bonds weakened slightly this week, possibly in an
 “It’s going to be a challenge to absorb $90 billion of market value,” said Walt Schmidt, a senior vice president at FHN Financial, a mortgage-bond brokerage.
 
 
-  
-    
+
+
       Chainsmokers
-    
-  
+
+
 
 I guess the main difference between Wall Street and Silicon Valley is that if you are a senior executive at Goldman Sachs Group Inc. and also an electronic dance music DJ, your colleagues and mentors on Wall Street  will say things like “please stop being a DJ” or “wow this is some textbook midlife-crisis stuff,” whereas if you are a dance-pop duo and also want to become venture capitalists, other venture capitalists will say things like “great idea,” or “you know, you guys are founders, too, and you built an amazing company,” or “can I be in your music video?” Here is  a Bloomberg Businessweek feature on the founders of Mantis VC, a venture capital firm, who are also the Chainsmokers, a dance-pop firm: 
 
@@ -189,15 +189,15 @@ Pall recalled the early conversations with some of their friends in the highest 
 
 I am somewhat forcing the comparison between the Chainsmokers and Goldman CEO David Solomon, who is also a DJ. For one thing, Solomon was a successful investment banker long before he became a prominent (?) DJ. Nobody came up to him after a DJ gig to be like “you have built a successful playlist, you could probably add a lot of value as an investment banker.” Whereas with the Chainsmokers it was like “you have some hit songs, good enough, welcome to venture capital.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse   AT1 Holders’ Wipeout Challenged in Swiss Court. Singapore bondholders prepare to  sue Switzerland over Credit Suisse. First EU-Wide   Crypto Regulations Clear Final Parliament Vote. House Republicans Face Resistance Reviving  Stablecoin Bill. Fidelity and State Street Push to  Make 401(k)s More Like Pensions. Britain’s ‘capitalism without capital’: the  pension funds that shun risk. EY Confronts Slowing Growth After  Breakup Deal Fails. US Banks Face   Shifting Hundreds of Billions in Assets to EU at ECB Request. SpaceX’s   Rocket Explodes Shortly After Liftoff. When  Apple Comes Calling, ‘It’s the Kiss of Death.’ Crypto Exchange Coinbase Receives License to  Operate in Bermuda. Sweden’s Biggest Pension Fund   Apologizes After $2 Billion Loss. Zurich Elite Caught in Racism Controversy on Blackface Video. BMW apologises for Shanghai auto show  ice cream meltdown. Clearlink CEO celebrates employee  selling dog so he could return to office. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The name comes from the classic textbook description in which banks take $1 of deposits, have to keep $X of cash reserves, and so can lend out the other $(1 - X). X is some fraction that is considerably less than one (thus “fractional reserve banking”), and regulators set the reserve requirements; higher reserve requirements lead to safer banking and less lending, while lower reserve requirements lead to riskier banking and more lending. This does not really describe how modern banking works, and in fact the US  eliminated reserve requirements in 2020, though liquidity regulation has some related effects.
 
 
@@ -216,48 +216,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] On the other hand, that was kind of the promise of crypto: Bitcoin was created in part as a reaction to the financial crisis of 2008, and early crypto enthusiasts were very skeptical of fractional reserve banking. There was an idea that by making finance transparent and public on the blockchain, crypto would   create a new system that would be free from the risk and fragility of fractional reserve banking. And then crypto built an opaque leveraged fractional reserve system anyway, and it blew up just like 2008. “There is some … natural … human … longing … to borrow short and lend long with no equity,”   I once wrote, about the collapses of crypto shadow banks.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -268,46 +268,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cildt8.5o1m/9303743a.gif" alt="" border="0" /></a>

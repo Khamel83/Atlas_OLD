@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In August 2018, Elon Musk tweeted that he was “considering taking Tesla private at $420. Funding secured.” Funding was not secured, Tesla di
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is 420 a weed joke?
-    
-  
+
+
 
 In August 2018,   Elon Musk tweeted that he was “considering taking Tesla private at $420. Funding secured.”   Funding was not secured, Tesla did not go private, and Musk was sued for fraud both   by the US Securities and Exchange Commission and by a class of investors who traded Tesla shares based on that tweet. Musk quickly   settled with the SEC, but the class action dragged on. There is now a jury trial in California, and Musk  has been testifying Friday, Monday and today.
 Here is a paragraph of  the 2018 SEC complaint that I have quoted before:
@@ -86,89 +86,89 @@ By the way, I’ve   said this before, but as a price $420 seems totally reasona
   [1]
 ), and Musk’s process of taking the closing price, adding 20%, and rounding to a pleasing number is just fine. If I were on the jury, my decision about whether or not Musk did securities fraud would not really be affected by whether the price was a weed joke. But as a citizen and a financial columnist, I need to know whether it was a weed joke.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Funding secured
-    
-  
+
+
 
 The whole trial is very weird? The basic situation is that the judge  has already ruled that Musk’s tweet that he had “funding secured” was false, and that he made this false statement recklessly. So the trial — in this lawsuit about whether Musk committed securities fraud — is only for the jury to whether his tweets were material to investors, whether they relied on those tweets, stuff like that. Those strike me as somewhat technical questions of securities class action law that would be hard and annoying for a jury to decide, whereas it would be reasonable to ask a jury “well, did he have funding secured, or what?” But the actual trial is the opposite: The jury rules on questions of materiality, but the question of whether Musk’s tweets were false is already settled.
   [2]
@@ -194,20 +194,20 @@ Musk says that “every financing round I’ve ever done” has been oversubscri
 Well, I do recall reading last month about a   supposed financing round at Musk’s newly private Twitter, where he was going to go out and raise money at the same $44 billion-ish valuation he agreed to in April. That seemed improbable, and I haven’t heard about it since, suggesting that maybe it was not oversubscribed?
 I guess this all has nothing really to do with the lawsuit, since (1) he had not raised the financing to buy Twitter when he tweeted that he had and (2) he never actually did. But really his position is that he tweeted that he was considering taking Tesla private, and that if he did end up deciding to take it private then financing would not be a problem. We can’t really know if that’s true, because the condition was never satisfied. But it seems like it might be.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Does Elon Musk know how mergers work?
-    
-  
+
+
 
 Two small points on Musk’s testimony. First, here is  the Financial Times:
 Nicholas Porritt, a lawyer for shareholders, pointed out Musk did not discuss any proposal in advance with Tesla’s board of directors. But the billionaire said that would be improper: “I, as the bidder, am not allowed to have detailed discussions with the board because it represents the counterparty. So, it would be collusion if I discussed in detail with the board.”
@@ -229,11 +229,11 @@ I don’t really think that Musk’s 2018 tweets about maybe taking Tesla privat
   [6]
  as it is “you are just not supposed to do that, this is not how CEOs behave.” But Musk doesn’t care about how he’s supposed to behave, and often that works out for him.
 
-  
-    
+
+
       Americanas
-    
-  
+
+
 
 I   wrote last week about the rapid collapse of FTX Trading Ltd.:
 
@@ -254,25 +254,25 @@ In the Thursday bankruptcy protection filing — similar to a Chapter 11 in the 
 You might naively assume that a big retailer would not be subject to a run on the bank: You announce “hey we did a lot of fraud,” the stock goes down, but you still have the same stores and inventory and brand as you did the day before, customers keep showing up at your stores and buying stuff, and maybe you cut costs and earn enough to fill the hole in your accounts. Sure you have some long-term debt, and sure the lenders say you are in default and demand their money back, but you can fight that in court for a while. It’s not like you have depositors who can take out all their money at the first hint of fraud.
 But a lesson here is that, deep down, lots of companies are actually levered financial institutions subject to run risk. Americanas doesn’t just sell stuff to customers for money that it uses to pay for more stuff; it sells stuff to customers on credit and then borrows against the receivables to pay its bills. It funds itself with short-term borrowing, that could dry up overnight, and did. Because it did a fraud, and because it told everyone.
 
-  
-    
+
+
       Do the partners at Cravath, Swaine & Moore do a ritual chant at one another’s funerals?
-    
-  
+
+
 
 No, though it would be amazing if they did. There is a claim floating around that, at a Cravath partner’s funeral, there is “a procession of past and present partners,” who chant “The partner is dead, the firm lives.” I   wrote once:
 Would you ... want ... that? You'd be dead, of course, so you wouldn't care, but why would the families allow it? "Next up in the service: Harry's work buddies are gonna chant ominously for a while." It's like John Grisham meets Dan Brown. I hope they wear hooded robes for their chant.
 I was skeptical that this actually happened, and here is a  thorough investigation from Dan Stone debunking it.  “There is no such chant, nor has there ever been,” says Cravath’s head of communications. There is a procession, “if the family wishes,” and the story about the chant seems to involve a misunderstanding about that: A 1993 New Yorker story described the procession and said that the partners’ “en-banc presence announced, as it had on so many occasions in the past, ‘A partner has died; the firm lives.’” I am not sure that’s quite right — you might interpret the procession to mean “we liked spending time with our work buddy and want to pay our final respects” rather than “our Firm can never die” — but even if it is, their presence announced it. They didn’t announce it. That would be weird.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 NYSE Investigates Technical Issue That Caused   Wild Market Open. The Unknown Hedge Fund That Got  $400 Million From Sam Bankman-Fried. SEC Scrutiny  Blocks Some Crypto Firms From Going Public. Banks Offload Millions in   Hung Debt as Sale Restrictions Expire. The rise of Esther Crawford in Elon Musk’s  ‘hardcore’ Twitter. Rich Customers Pull Money From Banks Offering  Paltry Interest Rates. Bankrupt Lender BlockFi to Sell   Bitcoin Mining Machine-Backed Loans. Elliott builds  activist stake in 146-year-old Japanese conglomerate. Mattress Maker   Serta Simmons Files for Chapter 11 Bankruptcy. Microsoft to Deepen  OpenAI Partnership, Invest Billions in ChatGPT Creator. Robert Iger, Henry Kravis to Buy Minority Stake in  Thrive Capital. Wagner Inc: a Russian warlord and  his lawyers. Long Island Commuters to Arrive at Grand Central for First Time. Someone finally bought  Bernie Madoff’s Hamptons home years after forced sale.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The stock split twice since then,  5 for 1 and  3 for 1, meaning that $420 per share in 2018 translates into $28 per share today; the stock closed yesterday at $143.75.
 
 
@@ -291,114 +291,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] There is an idea, in the SEC and class action complaints about those tweets, that Musk hates short sellers and so pretended to take Tesla private in order to harm short sellers. This theory strikes me as absurd: Sure he hates short sellers, but the nonsense about taking Tesla private probably mostly *helped* them.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

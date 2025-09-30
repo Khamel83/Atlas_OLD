@@ -754,7 +754,7 @@ class ReaderModeStrategy(ArticleFetchStrategy):
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         try:
             log_info(log_path, f"Attempting Reader Mode strategy for {url}")
-            
+
             headers = {
                 "User-Agent": "Mozilla/5.0 (compatible; ReaderBot/1.0; +http://www.reader.com/bot.html)",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -763,25 +763,25 @@ class ReaderModeStrategy(ArticleFetchStrategy):
                 "Connection": "keep-alive",
                 "Upgrade-Insecure-Requests": "1",
             }
-            
+
             response = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
             response.raise_for_status()
-            
+
             # Extract content using readability library (simulates reader mode)
             doc = Document(response.content)
             title = doc.title()
             content = doc.summary()
-            
+
             if not content or len(content.strip()) < MIN_WORD_COUNT:
                 return FetchResult(success=False, error="Reader mode content too short", method="reader_mode")
-            
+
             return FetchResult(
                 success=True,
                 content=content,
                 title=title,
                 metadata={"url": url, "strategy": "reader_mode"},
             )
-            
+
         except Exception as e:
             log_error(log_path, f"Reader mode fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), method="reader_mode")
@@ -796,7 +796,7 @@ class JSDisabledStrategy(ArticleFetchStrategy):
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         try:
             log_info(log_path, f"Attempting JS Disabled strategy for {url}")
-            
+
             headers = {
                 "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -806,37 +806,37 @@ class JSDisabledStrategy(ArticleFetchStrategy):
                 "Connection": "keep-alive",
                 "Upgrade-Insecure-Requests": "1",
             }
-            
+
             # Use requests without JavaScript execution
             response = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
             response.raise_for_status()
-            
+
             soup = BeautifulSoup(response.content, "html.parser")
-            
+
             # Remove common paywall scripts
             for script in soup.find_all("script"):
-                if any(keyword in script.get_text().lower() for keyword in 
+                if any(keyword in script.get_text().lower() for keyword in
                       ["paywall", "subscription", "premium", "auth", "login"]):
                     script.decompose()
-            
+
             # Extract title
             title_elem = soup.find("title")
             title = title_elem.get_text().strip() if title_elem else "Untitled"
-            
+
             # Use readability to extract main content
             doc = Document(str(soup))
             content = doc.summary()
-            
+
             if not content or len(content.strip()) < MIN_WORD_COUNT:
                 return FetchResult(success=False, error="JS disabled content too short", method="js_disabled")
-            
+
             return FetchResult(
                 success=True,
                 content=content,
                 title=title,
                 metadata={"url": url, "strategy": "js_disabled"},
             )
-            
+
         except Exception as e:
             log_error(log_path, f"JS disabled fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), method="js_disabled")
@@ -851,7 +851,7 @@ class RefreshStopStrategy(ArticleFetchStrategy):
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         try:
             log_info(log_path, f"Attempting Refresh Stop strategy for {url}")
-            
+
             headers = {
                 "User-Agent": USER_AGENT,
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -860,51 +860,51 @@ class RefreshStopStrategy(ArticleFetchStrategy):
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
             }
-            
+
             # Make request with very short timeout to interrupt before scripts load
             try:
                 response = requests.get(url, headers=headers, timeout=3, allow_redirects=True, stream=True)
-                
+
                 # Read only partial content to avoid paywall scripts
                 content_chunks = []
                 total_size = 0
                 max_size = 100000  # 100KB limit to stop before heavy scripts
-                
+
                 for chunk in response.iter_content(chunk_size=1024):
                     content_chunks.append(chunk)
                     total_size += len(chunk)
                     if total_size > max_size:
                         break
-                
+
                 partial_content = b''.join(content_chunks)
-                
+
             except requests.exceptions.Timeout:
                 # Timeout is expected - we want to stop early
                 partial_content = response.content if 'response' in locals() else b''
-            
+
             if not partial_content:
                 return FetchResult(success=False, error="No content retrieved", method="refresh_stop")
-            
+
             soup = BeautifulSoup(partial_content, "html.parser")
-            
+
             # Extract title
             title_elem = soup.find("title")
             title = title_elem.get_text().strip() if title_elem else "Untitled"
-            
+
             # Extract content from what we got before paywall loaded
             doc = Document(partial_content)
             content = doc.summary()
-            
+
             if not content or len(content.strip()) < MIN_WORD_COUNT:
                 return FetchResult(success=False, error="Refresh stop content too short", method="refresh_stop")
-            
+
             return FetchResult(
                 success=True,
                 content=content,
                 title=title,
                 metadata={"url": url, "strategy": "refresh_stop"},
             )
-            
+
         except Exception as e:
             log_error(log_path, f"Refresh stop fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), method="refresh_stop")
@@ -919,13 +919,13 @@ class InspectElementStrategy(ArticleFetchStrategy):
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         try:
             log_info(log_path, f"Attempting Inspect Element strategy for {url}")
-            
+
             headers = {"User-Agent": USER_AGENT}
             response = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
             response.raise_for_status()
-            
+
             soup = BeautifulSoup(response.content, "html.parser")
-            
+
             # Remove common paywall elements
             paywall_selectors = [
                 "[class*='paywall']", "[id*='paywall']",
@@ -938,42 +938,42 @@ class InspectElementStrategy(ArticleFetchStrategy):
                 ".blur", ".blurred", "[style*='blur']",
                 "[class*='truncated']", "[class*='fade']",
             ]
-            
+
             for selector in paywall_selectors:
                 for element in soup.select(selector):
                     element.decompose()
-            
+
             # Remove style elements that might hide content
             for style in soup.find_all("style"):
                 style_text = style.get_text().lower()
                 if any(keyword in style_text for keyword in ["paywall", "subscription", "blur", "hidden"]):
                     style.decompose()
-            
+
             # Remove scripts that might create paywalls
             for script in soup.find_all("script"):
                 script_text = script.get_text().lower()
-                if any(keyword in script_text for keyword in 
+                if any(keyword in script_text for keyword in
                       ["paywall", "subscription", "premium", "auth", "login", "modal"]):
                     script.decompose()
-            
+
             # Extract title
             title_elem = soup.find("title")
             title = title_elem.get_text().strip() if title_elem else "Untitled"
-            
+
             # Use readability on cleaned HTML
             doc = Document(str(soup))
             content = doc.summary()
-            
+
             if not content or len(content.strip()) < MIN_WORD_COUNT:
                 return FetchResult(success=False, error="Inspect element content too short", method="inspect_element")
-            
+
             return FetchResult(
                 success=True,
                 content=content,
                 title=title,
                 metadata={"url": url, "strategy": "inspect_element"},
             )
-            
+
         except Exception as e:
             log_error(log_path, f"Inspect element fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), method="inspect_element")
@@ -1177,7 +1177,7 @@ class ArticleFetcher:
             log_path,
             f"All fetch strategies failed or returned low-quality content for {url}. Attempting Google Search fallback...",
         )
-        
+
         # Try Google Search fallback to find alternative URLs
         try:
             import sys
@@ -1185,12 +1185,12 @@ class ArticleFetcher:
             sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
             from helpers.google_search_fallback import search_with_google_fallback
             import asyncio
-            
+
             # Extract title from the URL for better search results
             # We can parse the URL path or use a simple extraction
             from urllib.parse import urlparse, unquote
             parsed_url = urlparse(url)
-            
+
             # Try to extract meaningful search terms from URL
             path_parts = [part for part in parsed_url.path.split('/') if part and not part.isdigit()]
             if path_parts:
@@ -1199,9 +1199,9 @@ class ArticleFetcher:
             else:
                 # Fallback to using the domain
                 search_query = f"article {parsed_url.netloc}"
-            
+
             log_info(log_path, f"Google Search fallback: searching for '{search_query}'")
-            
+
             # Run async search in sync context
             if hasattr(asyncio, '_nest_patched'):
                 # Already in async context (Jupyter/etc), use existing loop
@@ -1210,10 +1210,10 @@ class ArticleFetcher:
             else:
                 # Create new event loop
                 alternative_url = asyncio.run(search_with_google_fallback(search_query, priority=2))
-            
+
             if alternative_url and alternative_url != url:
                 log_info(log_path, f"Google Search found alternative URL: {alternative_url}")
-                
+
                 # Try to fetch the alternative URL with our strategies
                 for strategy in self.strategies[:3]:  # Only try top 3 strategies for alternative URL
                     result = strategy.fetch(alternative_url, log_path)
@@ -1224,14 +1224,14 @@ class ArticleFetcher:
                         result.metadata['original_url'] = url
                         result.metadata['alternative_url'] = alternative_url
                         return result
-                
+
                 log_info(log_path, f"Alternative URL found but could not fetch content successfully")
             else:
                 log_info(log_path, "Google Search fallback did not find alternative URL")
-                
+
         except Exception as e:
             log_error(log_path, f"Google Search fallback failed: {e}")
-        
+
         return FetchResult(
             success=False, error="All strategies including Google Search fallback failed"
         )

@@ -26,10 +26,10 @@
 <title>Print Story: Diet soda tied to stroke risk, but reasons unclear - Yahoo! News</title>
     <meta name="description" content="It's far from definitive proof, but new research raises concern about diet soda, finding higher risks for stroke and heart attack among people who drink it everyday versus those who drink no soda at all.">
     <meta name="keywords" content="Health,AP">
-    
-    
+
+
 <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20110219020725cs_/http://l.yimg.com/d/combo?yui/2.7.0/build/reset/reset-min.css&amp;yui/2.7.0/build/fonts/fonts-min.css&amp;yui/2.7.0/build/grids/grids-min.css&amp;news/p/common/generic/common_rollup-min-38211.css&amp;news/p/common/generic/print-min-37577.css"/>
-    
+
     <style type="text/css" media="print">
         .darla_ad {display:none;}
     </style>
@@ -38,8 +38,8 @@
 <body>
 
 <div id="doc">
-    
-        
+
+
         <div class="hd">
             <div class="nav">
                 <ul>
@@ -47,15 +47,15 @@
                     <li><a href="http://web.archive.org/web/20110219020725/http://news.yahoo.com/s/ap/20110209/ap_on_he_me/us_med_stroke_diet_soda" class="action" mapleultparams="sec=yn_printpage">Back to story</a></li>
                 </ul>
             </div>
-                
+
             <a href="http://web.archive.org/web/20110219020725/http://news.yahoo.com/" class="logo" mapleultparams="sec=yn-prvdlink">
                 <img src="http://web.archive.org/web/20110219020725im_/http://l.yimg.com/a/i/brand/purplelogo/uh/us/news.gif" alt="Yahoo! News">
             </a>
         </div>
-        
+
         <div class="bd">
                         <img src="http://web.archive.org/web/20110219020725im_/http://l.yimg.com/a/i/us/nws/p/ap_logo_106.png" alt="" class="provider">
-                        
+
             <h1>Diet soda tied to stroke risk, but reasons unclear</h1>
 
 <div class="byline">
@@ -63,8 +63,8 @@
                     By MARILYNN MARCHIONE, AP Medical Writer                    <span class="fn org">Marilynn Marchione, Ap Medical Writer</span>
                 </cite>
                 <abbr title="2011-02-09T14:02:16-0800" class="timedate">Wed&nbsp;Feb&nbsp;9, 5:02&nbsp;pm&nbsp;ET</abbr>            </div><!-- end .byline -->
-            
-            
+
+
                         <div id="darla-ad__LREC" class="mod ad darla_ad"></div>
                         <p>LOS ANGELES &ndash; It's far from definitive proof, but new research raises concern about diet soda, finding higher risks for stroke and heart attack among people who drink it everyday versus those who drink no soda at all.</p>
                         <p>The beverage findings should be "a wakeup call to pay attention to diet sodas," said Dr. Steven Greenberg. He is a Harvard Medical School neurologist and vice chairman of the International Stroke Conference in California, where the research was presented on Wednesday.</p>
@@ -111,8 +111,8 @@ Heart Association on salt: <a href="http://web.archive.org/web/20110219020725/ht
 </div>
 
 </div>
-    
-    
+
+
 <script type="text/javascript" src="http://web.archive.org/web/20110219020725js_/http://l.yimg.com/d/combo?yui/2.7.0/build/yahoo/yahoo-min.js&amp;yui/2.7.0/build/event/event-min.js&amp;yui/2.7.0/build/dom/dom-min.js&amp;yui/2.7.0/build/get/get-min.js&amp;yui/2.7.0/build/animation/animation-min.js&amp;yui/2.7.0/build/json/json-min.js&amp;yui/2.7.0/build/connection/connection-min.js&amp;yui/2.7.0/build/datasource/datasource-min.js&amp;yui/2.7.0/build/selector/selector-min.js&amp;yui/2.7.0/build/cookie/cookie-min.js&amp;yui/2.7.0/build/container/container-min.js&amp;news/p/common/generic/common_page_rollup-min-26267.js&amp;news/p/common/generic/common_base_rollup-min-44697.js"></script>
 
 <script type="text/javascript">
@@ -131,8 +131,8 @@ Heart Association on salt: <a href="http://web.archive.org/web/20110219020725/ht
                         // Referrer
                         YAHOO.News.DARLA_REFERRER = '';
                     </script>
-                
-    
+
+
 </body>
 </html>
 

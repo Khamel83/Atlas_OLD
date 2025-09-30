@@ -189,7 +189,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h6 class="kicker">News Analysis</h6>
 <h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">Becoming Compassionately Numb</nyt_headline></h1>
 <nyt_byline>    <h6 class="byline">By <a rel="author" href="http://web.archive.org/web/20120103000834/http://topics.nytimes.com/top/reference/timestopics/people/c/benedict_carey/index.html?inline=nyt-per" title="More Articles by Benedict Carey" class="meta-per">BENEDICT CAREY</a></h6>
@@ -270,7 +270,7 @@ function getSharePasskey() {
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -283,11 +283,11 @@ function getSharePasskey() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p>
-<em>Benedict Carey is a science reporter for The New York Times.</em>        </p> 
+<em>Benedict Carey is a science reporter for The New York Times.</em>        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-   
+
+
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20120103000834/http://www.nytimes.com/imagepages/2011/10/02/sunday-review/02COMPASSION.html','02COMPASSION_html','width=720,height=543,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -298,8 +298,8 @@ function getSharePasskey() {
 <h6 class="credit">Barbara P. Fernandez/For The New York Times</h6>
 <p class="caption">Do we have no more room in our hearts to care for this Haitian earthquake victim?                            </p>
 </div>
-  
-   
+
+
 </div>
 <div class="articleBody">
  <p>
@@ -327,7 +327,7 @@ In a recent study, Dr. Slovic and two colleagues, Daniel Vastfjall and Ellen Pet
 </nyt_text>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -338,7 +338,7 @@ In a recent study, Dr. Slovic and two colleagues, Daniel Vastfjall and Ellen Pet
 </div>
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div id="articleExtras">
 <div class="expandedToolsRight">
 <div class="articleTools">
@@ -379,7 +379,7 @@ In a recent study, Dr. Slovic and two colleagues, Daniel Vastfjall and Ellen Pet
 <input type="hidden" name="wordCount" value="12">
 </form>
 <a href="#" onclick="submitCCCForm()">Reprints</a>
-</li>	        
+</li>
 </nyt_reprints_form>
 </ul>
         </div>
@@ -404,11 +404,11 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra subColumns">
 <div class="column">
-<script type="text/javascript" src="http://web.archive.org/web/20120103000834js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>    </div>                
+<script type="text/javascript" src="http://web.archive.org/web/20120103000834js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>    </div>
 <div class="column lastColumn">
 <div class="emailAlertModule module">
 <h5 class="sectionHeaderSm">Get Free E-mail Alerts on These Topics</h5>
@@ -451,10 +451,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
         google_hints="Becoming Compassionately Numb";google_ad_channel="archive, archive_sunday-review, archive_Sunday Review";
 </script>
 <!-- ADXINFO classification="feature_squares" campaign="ARTICLE_GOOGLE_SPONLINK"--><script language="JavaScript" type="text/javascript">
-    
+
     // Sponlink_short
 
-NYTD.GoogleAds.getGoogleAds("AFC", { 
+NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
 	google_ad_channel:'left',
         ad_target_list:'sponLink'
@@ -508,7 +508,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 
 <!-- MARKETING MODULE -->
 <div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=9b5c6dd1/655c8340&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://www.nytimes.com/2011/12/28/realestate/commercial/south-florida-developers-poised-for-birth-of-casino-gambling.html%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-PH%26WT.mc_ev=click%26WT.mc_c=176939" target="_blank"><img src="http://web.archive.org/web/20120103000834im_/http://graphics8.nytimes.com/ads/marketing/mm12/realestate_010212.jpg" width="334" height="154" border="0" alt=""></a> 
+  <a href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=9b5c6dd1/655c8340&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://www.nytimes.com/2011/12/28/realestate/commercial/south-florida-developers-poised-for-birth-of-casino-gambling.html%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-PH%26WT.mc_ev=click%26WT.mc_c=176939" target="_blank"><img src="http://web.archive.org/web/20120103000834im_/http://graphics8.nytimes.com/ads/marketing/mm12/realestate_010212.jpg" width="334" height="154" border="0" alt=""></a>
   <div style="padding:7px 9px 0;background:#fff">
       <h2 style="font-size:21px;line-height:23px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=9b5c6dd1/655c8340&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://www.nytimes.com/2011/12/28/realestate/commercial/south-florida-developers-poised-for-birth-of-casino-gambling.html%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-HDR%26WT.mc_ev=click%26WT.mc_c=176939">Readying for casinos in Florida</a></h2>
 
@@ -518,7 +518,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
         <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=9b5c6dd1/655c8340&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://www.nytimes.com/pages/realestate/index.html%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-L2%26WT.mc_ev=click%26WT.mc_c=176939" style="color: #004276">Tools to find your dream home</a></li>
       </ul>
     </div>
- 
+
  <div style="padding:5px 9px; float:left; width:316px; background:#fff"> <a style="float:left" href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=183cba6a/f6aab96a&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://nytimes.com/%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-LOGO%26WT.mc_ev=click%26WT.mc_c=176939" target="_blank"><img src="http://web.archive.org/web/20120103000834im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" width="116" height="18" border="0"></a><a style="float:right" href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=9b5c6dd1/655c8340&amp;camp=nyt2012_module_real_estate_casinos_hp_ros_db&amp;ad=RE-D-I-NYT-MOD-MOD-M234-ROS-0112&amp;goto=http://www.nytimes.com/pages/realestate/index.html%3FWT.mc_id=RE-D-I-NYT-MOD-MOD-M234-ROS-0112-VRT%26WT.mc_ev=click%26WT.mc_c=176939" target="_blank"><img src="http://web.archive.org/web/20120103000834im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_realestate.gif" alt="Real Estate" width="120" height="18" border="0"></a></div><br clear="all">
 
 </div>
@@ -538,7 +538,7 @@ Advertisements	    </h4>
 <div class="cColumn-TextAd">
 <!-- ADXINFO classification="SiteForADay" campaign="NYT2011-Mktg-NeediestCases-S4D-ROS"--><div style="width:320px; height:60px;">
 
-<a href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Right5A&amp;sn2=ad67b126/3434aa6f&amp;sn1=83a259e6/49fd2187&amp;camp=NYT2011-Mktg-NeediestCases-S4D-ROS&amp;ad=Mtkg_NeediestCases_S4D_2011&amp;goto=https%3A%2F%2Fnytneediestcases%2Ecom%2F" target="_blank"> 
+<a href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Right5A&amp;sn2=ad67b126/3434aa6f&amp;sn1=83a259e6/49fd2187&amp;camp=NYT2011-Mktg-NeediestCases-S4D-ROS&amp;ad=Mtkg_NeediestCases_S4D_2011&amp;goto=https%3A%2F%2Fnytneediestcases%2Ecom%2F" target="_blank">
 <img style="float:left; margin-right:10px;" src="http://web.archive.org/web/20120103000834im_/http://graphics8.nytimes.com/adx/images/ADS/28/26/ad.282606/11-1929_NeediestCasses_86x60.jpg" width="86" height="60" border="0" style="vertical-align:text-top;"></a>
 
 <a href="http://web.archive.org/web/20120103000834/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Right5A&amp;sn2=ad67b126/3434aa6f&amp;sn1=83a259e6/49fd2187&amp;camp=NYT2011-Mktg-NeediestCases-S4D-ROS&amp;ad=Mtkg_NeediestCases_S4D_2011&amp;goto=https%3A%2F%2Fnytneediestcases%2Ecom%2F" target="_blank">  <br/>Help New Yorkers in need.<br/>Donate Today.</a>
@@ -576,7 +576,7 @@ if(!kjG){var kjG=[]}kjG.push(kjData);if(!kjLdr){var kjLdr={ld:function(){var b=d
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -596,8 +596,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -730,7 +730,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -806,8 +806,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20120103000834im_/http://up.nytimes.com/?d=0//&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2011%2f10%2f02%2fsunday%2dreview%2fcompassion%2dfatigue%2ehtml%3fsrc%3drechp">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

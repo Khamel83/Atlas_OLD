@@ -41,7 +41,7 @@ BMWUSA.com ( http://bmwusa.com?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F17%
 
 Let’s get to it…
 
- 
+
 
 The Starting Five
 -----------------
@@ -141,7 +141,7 @@ the belief that the teams are actually trying to win it! (Also, ABC’s coverage
 The NBA is also considering bringing back the format that pitted the Eastern Conference All-Stars against their Western Conference counterparts. Even though that arrangement eventually devolved into defense-free, 200-198–style contests that lampooned the actual game, well, it may just seem retro enough to be cool these
 days.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -155,7 +155,7 @@ More on MLB and ESPN: “ESPN is bluffing. Without MLB rights, all ESPN products
 On Duke basketball: “It pains me to say this as a die-hard Tar Heel fan, but it’s unfortunate to find myself liking Grant Hill more as a human after his appearance on The Varsity. What a great guy
 to be leading USA Basketball.” —A Varsity subscriber
 
- 
+
 
 See you Thursday,
 
@@ -183,6 +183,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVFtHNW7rLiiR_cfgy-4Y=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F17%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

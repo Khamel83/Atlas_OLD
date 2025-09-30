@@ -9,7 +9,7 @@
 
 # Splice is making it much easier to buy expensive music production plugins
 
- / 
+ /
 
 ## Adding Ozone 8 and Neutron 2 to its rent-to-own program
 
@@ -73,7 +73,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241208030128im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241208030128/http://theverge.com/)
 

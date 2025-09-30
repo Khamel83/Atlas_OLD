@@ -303,7 +303,7 @@ Other
 
 ##### More In Real Estate
 
-* [Great Homes  
+* [Great Homes
   & Destinations](https://web.archive.org/web/20140712235836/http://www.nytimes.com/pages/great-homes-and-destinations/index.html)
 * [Commercial Real Estate](https://web.archive.org/web/20140712235836/http://www.nytimes.com/pages/realestate/commercial/index.html)
 

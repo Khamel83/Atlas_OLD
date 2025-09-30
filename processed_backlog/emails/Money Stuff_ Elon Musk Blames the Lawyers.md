@@ -7,60 +7,60 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Disclosure! A long time ago I used to work as a very junior mergers-and-acquisitions lawyer at Wachtell, Lipton, Rosen & Katz. The hours wer
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
 
-Disclosure! A long time ago I used to work as a very junior mergers-and-acquisitions lawyer at Wachtell, Lipton, Rosen & Katz. The hours were way too long, but I remain fond of the firm and the people there. Meanwhile I have no real personal connection to Elon Musk except that (1) he keeps doing weird stuff financial stuff for me to write about, which I love and (2) he keeps doing it while I am on vacation, which I do not love. And so I went away on Friday and Musk   did a thing. He sued Wachtell, which represented Twitter Inc. when Musk 
+
+
+Disclosure! A long time ago I used to work as a very junior mergers-and-acquisitions lawyer at Wachtell, Lipton, Rosen & Katz. The hours were way too long, but I remain fond of the firm and the people there. Meanwhile I have no real personal connection to Elon Musk except that (1) he keeps doing weird stuff financial stuff for me to write about, which I love and (2) he keeps doing it while I am on vacation, which I do not love. And so I went away on Friday and Musk   did a thing. He sued Wachtell, which represented Twitter Inc. when Musk
 tried to get out of his deal to buy Twitter, claiming that Wachtell’s fee for that litigation — $90 million — was too big. I just want to be clear up front about my biases. 
 Wachtell is a fairly small law firm that makes a specialty of sell-side public-company M&A work. It is “among the most profitable firms in the US.” Those facts are related. Sell-side public-company M&A work is a pretty lucrative legal specialty.
 Partly this is for the usual obvious reasons: It is high-stakes, complicated, high-pressure, high-dollar stuff. But there is another reason that is perhaps less obvious, which is that your clients don’t pay your bills. Here is how a public-company merger works:
@@ -120,8 +120,8 @@ The Musk Parties moved up the scheduled closing of the Merger Transaction by one
 Well! He sent Twitter a letter
   [9]
 :
-	
-Asking Twitter not to pay any bills before closing, and	
+
+Asking Twitter not to pay any bills before closing, and
 Instructing Twitter not to pay any bills after closing.
 
 One second after closing, Musk owned Twitter, and could tell Twitter not to pay any bills. (And he did, and he has gotten sued for it.) But one second before closing, Musk did not own Twitter, and Twitter could pay all the bills it wanted to. He asked it not to, and it did anyway, and that was fine. “Twitter executives ignored the first half of the Closing Day Directive and instead accelerated Twitter’s outbound payments to third parties,” complains Musk.
@@ -131,37 +131,37 @@ But it also says that on Oct. 14, “Twitter circulated a draft chart of transac
 In any case, what I do know is that (1) Musk asked for the list of transaction expenses before closing and (2) he “moved up the scheduled closing of the Merger,” so he must have either gotten what he asked for or decided he didn’t care. You could imagine Musk demanding a list of transaction expenses, not closing the deal until he got it, getting it, reviewing it, saying “this Wachtell bill is too big,” and refusing to close the deal until it was renegotiated. Or you could imagine him settling the merger litigation by signing some sort of settlement agreement that covered, among other things, litigation expenses. But he didn’t do that. He settled the merger litigation by saying “never mind, I’ll close the deal,” not a negotiated settlement but a pure capitulation. And then, once he did that, he closed the deal as quickly as possible. He did everything impetuously, and one result of that is that he paid a $90 million fee to the law firm that beat him. And now he is complaining! Fine. But it is only his fault.
 Anyway now Musk owns Twitter, after paying $44 billion for it, and he is using it to  talk about the size of his penis. These facts are also related.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Indexing
-    
-  
+
+
 
 The main function of a stock-market index is to provide a list of stocks for index funds to invest in. There is a secondary function that is, like, “summarize the market”: The S&P 500 index, say, is a broad reflection of the stock market, and it is useful for lots of people to be able to look at the S&P and see that it went up that day and say “ah the market is up.” (Or the Nasdaq 100 index is a broad reflection of big tech companies, and it is useful to say things like “the S&P is down a bit but the Nasdaq is up,” meaning that tech is outperforming.) But this is just a nice side effect of the index; the actual job of the index — the thing that the people at S&P Dow Jones Indices are paid for — is to give index funds, the paying customers, a list of stocks to invest in.
 These functions do overlap: Index funds are popular because they provide a way to invest in the broad stock market (or in some sector, etc.); an index that is like “here are all the stocks” is good and will attract a lot of customers to index funds that use it, while an index that is like “here are 43 stocks that some guy picked because he liked the names” is not and won’t. And so index providers want their broad-market indexes to reflect the broad market in some reasonable and justifiable way, not to exclude companies too arbitrarily.
@@ -180,11 +180,11 @@ The rebalance is intended to help fund managers who are linked or benchmarked to
 
 You might want to reduce index concentration because you think those big companies are overpriced, or because you want a broader measure of tech-stock strength that is not so influenced by Apple and Microsoft. But Nasdaq wants to reduce index concentration because its customers have regulatory limits on concentration, and the index is for them.
 
-  
-    
+
+
       Fake accounts
-    
-  
+
+
 
 What percentage of big banks do you think have opened credit cards for customers without those customers’ consent? Is the answer “all of them”? That seems like a reasonable guess? If you are a big bank, you probably want customers to open more credit cards, because credit cards are usually profitable for you. So you probably give your employees some incentive to sell credit cards: perhaps explicit incentive payments, or “you will be fired if you don’t sell 100 credit cards,” or perhaps subtler pressure in the form of praising people who sell lots of credit cards. And if you are a big bank you have thousands of employees in this credit-card-selling business, and surely some of them will think “hey, if I just fill out the form for this confused customer to open a credit card, he’ll get a credit card and not even notice; it won’t cost him anything or make the bank any money, but I’ll get credit for selling another credit card.” From the bank’s perspective, most of its credit cards will be opened by people who want them and use them, and are lucrative, but some won’t be. And some of those will be what you’d call “fake accounts.”
 Wells Fargo & Co. did   rather a lot of this and got in huge trouble in 2016, and also ever since; it was treated as a scandalous failing of Wells Fargo’s uniquely bad culture. And in degree, sure, maybe. But at a big enough bank I bet it’s hard to get to zero fake accounts.  Here’s this:
@@ -193,11 +193,11 @@ Yeah it can’t just be Wells Fargo. That is from a broader  set of enforcement 
 Bank of America had a policy of charging customers $35 after the bank declined a transaction because the customer did not have enough funds in their account. The CFPB’s investigation found that Bank of America double-dipped by allowing fees to be repeatedly charged for the same transaction. Over a period of multiple years, Bank of America generated substantial additional revenue by illegally charging multiple $35 fees.
 Basically if you are a merchant and you get a check that bounces, you can go back to the issuing bank the next day and say “well is there enough money now?” If there is, you get paid. If there isn’t, the bank charges an extra non-sufficient fund fee, which seems harsh. “Bank of America would assess these repeat non-sufficient fund fees potentially as soon as the next day after the initial transaction,” says the CFPB. “From September 2018 until February 2022, Bank of America generated hundreds of millions of dollars in such fees.”
 
-  
-    
+
+
       Emoji contract
-    
-  
+
+
 
 I mean  sure, of course, thumbs up:
 
@@ -209,16 +209,16 @@ Both parties clearly understood these terse responses were meant to be confirmat
 
 Is that even interesting? A lot of trading in financial markets is done by chat messages, and it is pretty clear that if you type “done” in a chat message that can create a binding contract. The difference between “done” and the thumbs-up emoji is not that great, and I suspect it’s mostly generational; the emoji seems like a perfectly reasonable way to say “yes I agree to these terms for our trade.” In a few years the eggplant emoji will be the normal way to bind banks to nine-digit swaps trades.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Powell Haunted by Repo Crisis as Fed Aims to   Cut Balance Sheet. Poisoned Cough Syrup Killed Kids; Authorities Cut the Investigation Short.  Short Seller   Andrew Left Is Living in Fear of the Feds. CLO Market Set for $20 Billion   Reset Spree in Sign of Thawing. Silicon Valley Bank’s Former Parent Sues FDIC Over $2 Billion in Deposits. Big Banks Face Higher   Capital Requirements From US Regulators. Revolut’s US payment flaws allowed thieves to steal $20mn. Winklevoss Twins’ Gemini  Sues Crypto Conglomerate DCG, Citing Fraud. Bain Gets Courtesy Call From Top Shanghai Party Official. PGA Tour Will Tout   Minimal Saudi Influence in Golf Merger at Congressional Hearing. The chef and the  sandwich shop owner at the heart of Trafigura’s fraud case. Margaritaville Resort Times Square Faces Wastin’ Away in Bankruptcy. Sex, Drugs and Spreadsheets: Dr. Glazer Treats Wall Street’s  Addiction Surge. Vivek Ramaswamy rolls out fundraising program allowing supporters to earn 10% cut of money they raise.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] If the buyer is also a public company, the deal might be for stock, or a mix of stock or cash; if the buyer is a private equity firm, or just a guy, it will be all cash. A stock deal complicates this analysis a bit: If you are doing an all-stock merger of equals, any cash paid to your lawyers really does come out of your shareholders’ pockets in a fairly tangible way, since they are shareholders of the surviving company. 
+
+  [1] If the buyer is also a public company, the deal might be for stock, or a mix of stock or cash; if the buyer is a private equity firm, or just a guy, it will be all cash. A stock deal complicates this analysis a bit: If you are doing an all-stock merger of equals, any cash paid to your lawyers really does come out of your shareholders’ pockets in a fairly tangible way, since they are shareholders of the surviving company.
 
 
   [2] The buyer can’t just make those decisions — it can’t just install its own executives and run the target company itself — in part because it hasn’t paid yet and the deal might not close, but also in part because it might violate antitrust laws for the buyer to run the target before they get antitrust merger clearance.
@@ -245,48 +245,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] It’s attached as an exhibit to  the complaint, at page 152 of 158. “We write on behalf of Elon Musk to ask Twitter, Inc. … to immediately discontinue all outbound payments,” it begins, “in order to assist Mr. Musk’s funds flow preparations.” Just a request. Then it goes on: “Mr. Musk would also like to provide advance instructions to the Company regarding outbound payments and disbursements to third parties following completion of the merger. … The Company and its employees should not make any payments or other disbursements to any third party without the prior consent of Mr. Musk.” Before closing, it’s an “ask”; after closing it’s an “instruction.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -297,46 +297,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj2xn4.5im9/531dff23.gif" alt="" border="0" /></a>

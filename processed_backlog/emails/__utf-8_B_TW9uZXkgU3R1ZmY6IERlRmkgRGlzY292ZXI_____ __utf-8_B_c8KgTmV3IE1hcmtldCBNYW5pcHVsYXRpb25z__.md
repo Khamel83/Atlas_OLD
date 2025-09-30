@@ -9,74 +9,74 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The simplest form of market manipulation is: Buy a lot of Thing X, pushing its price up. Sell it at the new high price, for a profit. This, 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        The simplest form of market manipulation is: Buy a lot of Thing X, pushing its price up. Sell it at the new high price, for a profit. This,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Mango
-    
-  
+
+
 
 The simplest form of market manipulation is:
 	Buy a lot of Thing X, pushing its price up.	Sell it at the new high price, for a profit.
 
 This, I frequently   point out, should not work. In Step 1, you push up the price of X by buying it; therefore, in Step 2, you will push the price down by selling it. There are no free lunches that are this simple.
 Here is a small modification that seems promising:
-	Buy a lot of Thing X, pushing its price up.	
+	Buy a lot of Thing X, pushing its price up.
 Borrow against your X: If you have 100 million X, and X is now worth $1, then you have $100 million worth of X, and maybe someone will give you, say, a $50 million margin loan against it.	Run away with the $50 million.
 
 The reason this seems promising is that you are not selling X in Step 2, which means you are not pushing down its price. Still it strikes me as doubtful, in the general case. You had to spend a lot of money to (1) accumulate 100 million X and (2) push its price up. If X started at $0.01, and ended at $1, and you bought 100 million of it to get it there, then you probably paid an average price of around $0.50. (You bought your first 1 million at $0.01, your next 1 million at $0.02, etc.) So you paid about $50 million to push the value of your holdings to $100 million. But you can’t borrow the full $100 million: At best, you’ll probably get a margin loan of about $50 million. So you’ll get back roughly what you put in, or realistically less given various frictional costs.
@@ -100,65 +100,65 @@ The price jump stoked an unrealized profit from the futures. The attacker used t
 Crypto derivatives trader Joshua Lim  explained the exploit on Twitter, and it is pretty much the schematic thing I laid out above. The attacker funded one account on the Mango perpetual futures exchange with $5 million, offered 483 million futures on Mango’s own MNGO governance token, funded another account with another $5 million, and lifted those 483 million futures at a price of $0.0382. Then the “attacker started to move the price of MNGO” on the spot market, by buying MNGO tokens on centralized exchanges. “At MNGO/USD price of $0.91 per unit, account B was in the money by 483mm * ($0.91 - $0.03298) = $423mm,” and “that was enough unrealized P&L to take out a loan of $116mm across a bunch of tokens, which then left Mango and leaves the protocol at a deficit.” 
 Look, I had never heard of the Mango token until this morning, which is a crucial advantage for me. If you had come to me and said “I have Mango tokens with a market value of $423 million, I want to use them as collateral for a loan, would you lend me $116 million against these Mango tokens?” I would have said “absolutely not, Mango tokens, not a thing.” And that would have been correct, both in the narrow sense that the “real” market value of 483 million Mango tokens was about $18 million and in the broader sense of, well, why was it even $18 million? But the Mango protocol itself just had some price oracles that connected to some exchanges, and when those exchanges showed that the tokens were trading at $0.91, it believed them. So it computed a value of $423 million, and that was plenty of collateral to support a $116 million loan, and there you go. Mango could look at market prices, but it could not apply common sense, and that was its problem.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bored apes
-    
-  
 
-Bored Ape Yacht Club (BAYC) is an entity that owns the intellectual property rights to some cartoons and tries to make money by 
+
+
+Bored Ape Yacht Club (BAYC) is an entity that owns the intellectual property rights to some cartoons and tries to make money by
 licensing them to Seth Green or whatever. BAYC issues several sorts of financial instruments, including “Apes,” which convey certain intellectual property rights to particular cartoons, and “ApeCoins,” which give you the right to vote on things like (1) who BAYC should license its cartoons to and (2) how the money should be spent. These instruments trade on financial markets, and the more demand there is for the cartoons (and the more money BAYC makes), the more valuable Apes and ApeCoins will be.
 That is a loose description of the situation, and you could quibble with some details. Still I think it is more right than wrong. What legal conclusions can you draw from it? It’s never legal advice around here, but here are some thoughts:
 	ApeCoins are shares of stock in the BAYC entity, and are therefore securities under US law;	Apes are arguably securities under US law, though it is debatable.
@@ -184,20 +184,20 @@ The CFTC’s view is that just buying governance tokens doesn’t make you a gen
 Under the Commission’s definition, [a token holder who votes] has now become a member of the unincorporated association and (possibly unknowingly) assumed personal liability and is subject to CFTC sanctions for any violations of the [Commodity Exchange Act] by the Ooki DAO.
 It is possible that DAOs are just the worst of all worlds: Their tokens are similar enough to corporate shares to be subject to securities laws, but different enough to create unlimited liability for their holders.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Look, I think that Elon Musk is going to close his deal to buy Twitter Inc. by the end of the month. He   has said he will, Twitter (presumably) wants that, he has the money, he will get extremely in trouble with the Delaware Court of Chancery if he does not, he seems to have a renewed enthusiasm for messing with Twitter, I think it will happen. (Not, ever, investment advice!) That said lots of people are understandably skeptical, and he changes his mind a lot, so I keep reading theories about how he might still wiggle out.
 Here I want to discuss two of them briefly, not because I think they are great theories but because people keep asking me about them. One is that Musk has put a lot of effort recently into  spreading Russian and Chinese propaganda? On Twitter, he has  endorsed most of Vladimir Putin’s war aims in Ukraine, and in a lunch interview with the Financial Times he  called for China to annex Taiwan. (There is also  a sketchy report, which he has denied, that Musk talked to Putin before endorsing his annexation of parts of Ukraine.) He is a man with many weird hobbies, but this is a particularly odd hobby, and as far as I can tell a new one. One possibility here is that (as he says) he is worried about the risk of nuclear war and wants to defuse geopolitical tensions by tweeting polls or whatever. Another possibility is that China is a critical market for Tesla Inc., and he is seeking China’s favor.
@@ -211,126 +211,126 @@ That is, before the banks will lend money to Twitter so that Musk can buy it, th
 Here I am quoting from the “Form of Solvency Certificate” in Annex E-1 to the commitment letters; “the Borrower,” here, means Twitter, though Twitter “after giving effect to” Musk’s acquisition. It is not entirely clear to me who has to sign this certificate — technically, it’s an officer of Twitter — but people seem to think that Musk can say “well, if I take over Twitter, I will appoint myself as chief financial officer, and then I will refuse to sign this certificate, and then the banks won’t lend, so I can’t take over Twitter.” That is convoluted but, fine, I guess, I don’t know.
 Could he do this? I mean, (1) not investing advice! but (2) no? He agreed — last week! — to pay $46 billion for Twitter, so it would be hard for him to argue that it’s not worth more than $13 billion, the amount it will borrow. And while Twitter will have to work a bit to pay its debt — “Twitter now faces an annual interest burden of nearly $1.2 billion,” reports   Bloomberg’s Paula Seligson, and “might not become free-cash-flow positive until 2025” — it has a lot of cash on its balance sheet and is unlikely to run out of money to pay interest anytime soon. Twitter will have a lot of debt, but it seems hard to argue that it’s insolvent. Also, just, Musk’s lawyers told a court last week that they expected the banks to fund; if he blows that up now he’s going to have a lot of explaining to do. I don’t see it, but I pass it along to you because I know nothing and there are still like two weeks left on this thing. Presumably something will happen that surprises me.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Gilts sell off as Bank of England reiterates plan to  end bond-buying scheme. BOE Credibility on the Line Amid   Pension Deadline Confusion. White House Weighs Ban on   Russian Aluminum Over Ukraine War Escalation. That Sky-High  I Bond Interest Rate Will Be Coming Down to Earth.  CVC’s biggest bet yet: the fiercely private buyout firm set to go public. Nigeria Exploring   Restructuring Some Debt, Finance Minister Says. Credit Suisse Shares Drop on   US Tax Probe Over Accounts. Nike to Crack Down on  Sneaker-Buying Bots, Dealing a Blow to Resale Market. Crypto Exchange  Bittrex to Pay $29 Million Over Violating Sanctions. Musk Launches New ‘Burnt Hair’ Perfume With Fragrance of ‘Repugnant Desire.’ Fake Russian Astronaut Duped Woman Of Rs 24 Lakh, Said He Needed Money To 'Return To Earth.'
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There is a  rough rule of thumb that if you get securities from an issuer and wait one year before selling them, then they are exempt from registration and you can sell them freely. This is not legal advice and there are many exceptions, but it’s part of why many crypto projects have one-year lockups on tokens that they sell to investors.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

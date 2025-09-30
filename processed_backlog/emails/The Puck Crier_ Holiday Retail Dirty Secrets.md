@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/The Puck Crier Holiday Retail Dirty Secrets_Tue,_17_Dec_2024_16-02-35_+0000_193d55b763c5a2cb.eml
 **Processed:** 2025-08-24T19:13:10.576179
 
-Puck logo ( https://puck.news/?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Lauren & Sarah IC ( https://puck.news/my-account/billing/?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear Reader,     
@@ -36,7 +36,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
-swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_content=Lauren+%26+Sarah+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

@@ -7,70 +7,70 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: This isn’t working, so let’s try something different. Money Stuff will be back with special editions this afternoon, this 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+        Programming note: This isn’t working, so let’s try something different. Money Stuff will be back with special editions this afternoon, this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: This isn’t working, so let’s try something different. Money Stuff will be back with special editions this afternoon, this evening and at midnight tonight. It will also have several special editions per day over the weekend and on Monday. I don’t know how I am going to fill all this space. I hope news happens, frequently! For instance, it would be enormously helpful to me, as I struggle to find things to write about, if Elon Musk was doing weird things every few hours of this long weekend, so that I could write about them. If you know Musk, you might pass that request along for me. “Elon, Matt Levine really wants you to keep changing your mind on Twitter, so that he can write about it,” you could tell him. I’m sure he would sympathize, and I just don’t know what I will do this weekend without more drama from him.
   [1]
 
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Here’s a puzzle for you:
 	On April 4, Elon Musk   signed an agreement saying that he would join the board of directors of Twitter Inc. and not make a hostile bid for Twitter. On April 9, five days later, Musk   decided not to join the board of directors; by April 13, he   made a hostile bid for Twitter.	On April 25, Elon Musk   signed a merger agreement to buy Twitter for $54.20 per share in cash. On May 13, 18 days later,   Musk announced that the deal was “on hold,” though it took him   until July 8 to formally tell Twitter that he was not going to buy it. 	Twitter sued in the Delaware Court of Chancery, it was not going great for Musk, and the trial was scheduled to start on Oct. 17. And this Monday, Oct. 3, Musk sent Twitter  a letter saying that   he gives up and now plans to close the deal on the original terms, paying $54.20 per share in cash. And then his lawyers filed a motion with the court asking the judge to stop the trial: “Closing is expected on or around October 28,” they wrote, so “there is no need for an expedited trial to order Defendants to do what they are already doing and this action is now moot.”  Twitter’s lawyers objected; they don’t want to stop the trial until they actually see Musk’s money.	But yesterday evening the judge, Chancellor Kathaleen McCormick, agreed with Musk,  ruling: “This action is stayed until 5 p.m. on October 28, 2022, to permit the parties to close on the transaction. If the transaction does not close by 5 p.m. on October 28, 2022, the parties are instructed to contact me by email that evening to obtain November 2022 trial dates.”	Musk changed his mind and agreed to close on Oct. 3. Oct. 28 is twenty-five days after that, and twenty-two days after the judge’s ruling yesterday. He backed out of his agreement to join the board in five days. He changed his mind about his merger agreement in 18 days. No Elon Musk decision about Twitter has lasted three weeks without being reversed.	What are the odds that he changes his mind again before Oct. 28?
@@ -112,67 +112,67 @@ If Elon Musk walked into court and handed Twitter’s lawyers a sack full of $4
  His banks are really big banks, and can surely get together their $13 billion portion. Again, might take a few days, some paperwork, but that is the business they have chosen; you can’t really go around being like “I promise Morgan Stanley will give me $13 billion but we need to wait until it gets its paycheck at the end of the month.” 
 So when Musk told Twitter that he wants to call off the lawsuit and close the merger, Twitter understandably said, yes, right, show us the $46 billion and we’ll get right on that. And Musk said, no, let’s call off the lawsuit first, and then you’ll get your money by the end of the month. I don’t think that Musk was wrong to ask for that; I think that calling off the lawsuit probably will make the closing easier and smoother and more pleasant and possibly even faster. I can see why the judge granted Musk’s request. But I can also see why Twitter is nervous. Twitter would be happier if it could see the money. And Musk changes his mind a lot.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse Offers $3 Billion   Debt Buyback to Calm Nerves. Egypt Plans   New Derivatives to Build Market for Currency Hedging. A $568 Million Hack of   Binance Coin Roils Crypto Sector Anew. How Companies  Treat Stock Options When Tallying Cash Flow Perplexes Investors. Hackers Target Eager Homebuyers With a   Dumb Scam That Keeps Working. Steve Cohen’s New Edge Is Hedge Fund Moneyball at Playoff-Bound   Mets.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Just kidding obviously. The next Money Stuff will be, you know, when you get it. Will it be Tuesday? It might be Tuesday! Who can predict that far ahead.
 
 
@@ -188,114 +188,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Lauren Hirsch of the New York Times pointed out on Twitter: "Tesla's earnings are Oct 19. I assume Musk is in a quiet period now, which would mean he can't sell more stock until after. So, another thing a delay might allow him is the ability to raise more cash via stock sale." This is a fair point; perhaps he *can't* actually get his $33 billion together on quite such short notice, though I bet some bank could bridge that with a two-week margin loan if he really wanted to get it done.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,9 +8,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	
+
 	<!-- Open Graph bullshit -->
-<!-- 
+<!--
 	<meta property="og:site_name"   content="Daring Fireball" />
 	<meta property="og:title"       content="Walt Mossberg: ‘Why Does Siri Seem So Dumb?’" />
 	<meta property="og:url"         content="https://daringfireball.net/2016/10/mossberg_siri" />
@@ -18,7 +18,7 @@
 	<meta property="og:image"       content="https://daringfireball.net/graphics/df-square-1024" />
 	<meta property="og:type"        content="article" />
 -->
-	
+
 	<!-- Twitter Card bullshit -->
 	<meta name="twitter:card"         content="summary" />
 	<meta name="twitter:site"         content="@daringfireball" />
@@ -82,7 +82,7 @@ else {
 <li><a href="/contact/" title="How to send email or feedback regarding Daring Fireball.">Contact</a></li>
 <li><a href="/colophon/" title="About this site and the tools used to produce it.">Colophon</a></li>
 <li><a href="/feeds/">Feeds / Social</a></li>
-<!-- 
+<!--
 <li><a href="https://twitter.com/daringfireball">Twitter</a></li>
  -->
 <li><a href="/feeds/sponsors/">Sponsorship</a></li>
@@ -214,7 +214,7 @@ Copyright &copy; 2002–2025 The Daring Fireball Company LLC.
 
 <!-- Google Analytics -->
 
-<!-- 
+<!--
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-593949-1']);

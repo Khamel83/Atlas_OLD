@@ -9,59 +9,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off Monday, back on Tuesday.I guess it is time for an Eleventh Law of Insider Trading, and frankly it’
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off Monday, back on Tuesday.
 
-  
-    
+
+
       Insider trading
-    
-  
+
+
 
 I guess it is time for an  Eleventh Law of Insider Trading, and frankly it’s a little weird that this has never come up before, but: Don’t ... insider trade … while … drunk? 
 
@@ -74,37 +74,37 @@ The next day Goel texted him, “Did you book the court?” Niranjan said he was
 
 Don’t play squash while drunk either, probably, though you make your own decisions on that one. I do love the idea that this guy got stock tips from his buddy on the squash court and was like “ahh these tips are probably legit,” and then his buddy made such a show of spycraft and communicating in code that he was eventually like “wait a minute, we are doing crimes here!” The lesson is, “don’t call bribes chickens”: If you go around ostentatiously talking in code, people might not know what crimes you are doing, but they will know you are doing crimes. If you go around like “I really enjoy analyzing stocks, and after reading message boards and researching the company I think that this Lumos Pharma company is going places,” at least your trial will be less embarrassing.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AI vs. AI
-    
-  
+
+
 
 A big modern theme in financial markets, or at least in the popular imagination of financial markets, is humans trying to trick robots. You see this at the market-microstructure level: There are, in the world, people who   click really fast in their brokerage accounts to try to spoof high-frequency-trading algorithms. (Navinder Singh Sarao, who was arrested for spoofing that caused a flash crash in 2010, viewed himself as fighting “the mass manipulation of the high frequency nerds.”) And you see it in securities fraud: People write   fake press releases and  fake Securities and Exchange Commission filings about mergers, not so much because they expect other people to find those filings believable, but because they expect trading algorithms to see the headlines and react to them immediately — driving up the price of the stock and allowing them to make a quick profit before anyone notices that the news is fake.
 The next theme might be robots trying to trick robots? Generative artificial intelligence “will pile pressure on the labor force, especially for higher-wage knowledge workers whose activities ‘were previously considered to be relatively immune from automation,’”   says a McKinsey report; it would be funny if McKinsey had a large language model write the report.
@@ -125,11 +125,11 @@ Yin Luo, head of quantitative research at New York data group Wolfe Research, pr
 It is funny to imagine an end state here in which markets are entirely dominated by computers playing games with each other that are so complex and unintuitive that no human can understand them, so that a company will announce surprising good news and the stock will go down and everyone will be like “eh, bots, what can you do.”
 Would it be so different from how financial markets work now? Financial markets aggregate human views and preferences in an emergent way, so that it’s not obvious what the views and preferences are just from the price action. “Stocks went up because bad economic data convinced investors that the Fed would pause its rate hikes” is not really that much more intuitive or accurate an explanation than, like, “stocks went up because some computers tricked some other computers into thinking economic data was good.”
 
-  
-    
+
+
       BlackRock Bitcoin ETF
-    
-  
+
+
 
 One easily imaginable but also kind of weird future for crypto would be:
 	Bitcoin, and I guess Ethereum, are respectable and fully domesticated parts of the traditional financial system. Big asset managers, managing money for pension funds or college endowments or insurance companies or your 401(k), buy billions of dollars of Bitcoin by calling up their sales coverage at Goldman Sachs or JPMorgan, and then hold all those Bitcoin in standard respectable institutional custody arrangements.	Pretty much every other cryptocurrency is banned in the US and eventually withers down to nothing.
@@ -150,11 +150,11 @@ And:
 On June 6, 2023, the SEC filed a complaint against the Relevant Coinbase Entities in federal district court in the Southern District of New York. … If the Prime Broker were to be required or choose as a result of a regulatory action (including, for example, the litigation initiated by the SEC), to restrict or curtail the services it offers, it could negatively affect the Trust’s ability to operate or process creations or redemptions of Baskets, which could force the Trust to liquidate or adversely affect the price of the Shares. While the Bitcoin Custodian is not named in the complaint, if Coinbase Global, as the parent of the Bitcoin Custodian, is required, as a result of a judicial determination, or could choose, to restrict or curtail the services its subsidiaries provide to the Trust, or its financial condition is negatively affected, it could negatively affect the Trust’s ability to operate.
 “Our custodian might be illegal” is an unusual risk factor for a BlackRock trust, but that’s life in crypto.
 
-  
-    
+
+
       KYC
-    
-  
+
+
 
 A funny business model for a crypto exchange
   [3]
@@ -165,15 +165,15 @@ There are various problems here. (For one thing, Steps 1 and 2 could get you in 
 Still here is  a funny tweet:
 
 
-    
+
 
 If you could pass KYC checks to open an account at FTX and send in your money, but you can’t pass the KYC checks to get (what’s left of) your money back, is that a problem with old FTX or new FTX?
 
-  
-    
+
+
       Braiiiiiins
-    
-  
+
+
 
 “Don’t put it in email,” I say around here, as well as “don’t call bribes chickens.” Here is a paragraph from a  US federal criminal indictment (via  Intelligencer) that obviously has to be in Money Stuff:
 Between on or about September 3, 2018, through July 12, 2021, JOSHUA TAYLOR transferred 39 electronic payments to PayPal account Twiam@yahoo.com, operated by DENISE LODGE, totaling $37,355.56, in payment for human remains stolen by CEDRIC LODGE from Harvard Medical School. For example, on May 19, 2019, Taylor sent DENISE LODGE $1,000 with a memo that read “head number 7.” On November 20, 2020, Taylor sent DENISE LODGE $20 with a memo that read, “braiiiiiins.”
@@ -184,15 +184,15 @@ No, you need a systemic fix. Here are some free business ideas:
 
 Like disappearing messages, but for this very specific niche temptation. I don’t know, man. There are just a lot of Venmo/PayPal/etc. memo fields in federal indictments.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Crispin Odey’s One-Week Downfall Was  Decades in the Making. Odey Seeks  New Home for Funds and Staff in Move That Signals Firm’s End. Fed, SEC Probing Goldman Sachs’s Role in SVB’s Final Days. When a Huawei Bid Turned Into a Hunt for a Corporate Mole. Wall St  bank job cuts set to surpass 11,000 as CEOs unwind hiring binge. How  Republicans and Big Business Broke Up. Restaurant Chain   Cava Almost Doubles After $318 Million IPO. Carving Up the Bond Market Swells Into $39 Billion ETF Business. Bankman-Fried Prosecutors Ask Judge to  Set Aside Some Counts. A $1.7 Billion Opioid Settlement Is at Risk of Falling Apart. Tesla Offers Months of   Free Charging to Move Inventory Cars. Ousted Nikola Founder  Urges Leadership Change at EV Maker. Two Crypto Platforms   Halt Withdrawals in an Echo of the Sector’s 2022 Woes. Mysterious   1,000% Stock Gains Baffle Traders in Indonesia. “Beach, who has spoken of having a large collection of guns and knives, wrote emails that made references to  hunting Jews and shooting Mexicans.” Italy and the Mediterranean Are   Awash in Yachts.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Honestly! If you were the McKinsey consultant writing  that report, would you be looking over your shoulder at the AI model using your report as training data? Or, like, did an AI write that report about how AI will replace knowledge workers, and will human McKinsey consultants come out with a report next week saying “no it won’t”? Also! This report was about how generative AI has “potential economic benefits of as much as $4.4 trillion, about 4.4% of the world economy’s output.” Last year McKinsey  put out a report about how “the metaverse” has the “potential to generate up to $5 trillion in value by 2030.” Surely you could feed *that* report into a large language model, ask it to write a similarly gushing report about AI in the style of McKinsey, and get something that … is at least convincing enough to get some headlines?
 
 
@@ -202,48 +202,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Inspired by Lock, Stock and Two Smoking Barrels.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -254,46 +254,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cixy2e.5je0/54313da2.gif" alt="" border="0" /></a>

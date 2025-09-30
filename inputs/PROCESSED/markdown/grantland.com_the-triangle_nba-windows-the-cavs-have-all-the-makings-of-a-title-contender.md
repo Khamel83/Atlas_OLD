@@ -7,131 +7,131 @@
 
 # » NBA Windows: The Cavs Have All the Makings of a Title Contender
 
-Zach Lowe • Unknown date 
+Zach Lowe • Unknown date
 
 ![» NBA Windows: The Cavs Have All the Makings of a Title Contender](https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg)
 
-This year, more than any in recent memory, the NBA is about windows of opportunity. As we gear up for what could be a classic season, Grantland will take a close look at the ones that matter.  
-  
-♦♦♦  
-  
-He has lived through four years of ceaseless losing while friends have urged him to leave Cleveland. But now, Anderson Varejao is finally willing to utter the c-word.  
-  
-“The championship is our goal this season,” Varejao says after a long pause. “But there are some very good teams out there. I hope it works right away and we beat everybody, but it doesn’t work like that. It’s going to take time.”  
-  
-The Cavaliers have a healthy respect for process. The consumer product will look glamorous, with outlet passes, killer crossovers, alley-oops, and floppy hair. The preparation that will go into that glamorous display will be mostly grunt work we’ll never see — the trial and error of building systems on both ends of the floor and the monotony of teaching proper NBA habits. It is breaking down “defense” into hundreds of component bits of footwork, and getting the unholy trinity of Kevin Love, Dion Waiters, and Kyrie Irving to master them. It is nurturing chemistry, tweaking rotations, and learning tendencies.  
-  
-The Cavaliers are paying respect to process before discussing end goals. David Blatt in July was a giddy presence talking hoops and chomping down pancakes at his Vegas hotel. David Blatt in October is ready to work, if you’d please.  
-  
-Click here for more from our 2014-15 NBA preview.  
-  
-“I don’t want to talk anymore about how we’re gonna play,” says the Cavaliers’ new coach. “That’s like giving away the store before you open it. I hope we’re gonna play good. How’s that?”  
-  
-If the Cavs won’t say it, we have to say it for them: These guys are absolutely title contenders, right this very second, and they may enter the season as favorites. Yeah, sure, it takes time even for über-talented teams to jell. The Lakers super-team of just two seasons ago crumbled because of injuries, bad chemistry, coaching chaos, and age. Even the Heat, with three prime superstars, took two seasons to find their ideal lineup construction and win the title. The Cavs might need time, especially given their obvious defensive limitations and depth issues.  
-  
-But the foundation of that L.A. team was ancient compared to these Cavs. The 2010-11 Heat had to mesh two ball-dominant wing players, including one who couldn’t shoot 3s, and they were still up 2-1 in the freaking Finals. The Celtics won right away in 2008. The three Cleveland stars make for an easy blend, the supporting cast is decent, Derrick Rose has to prove it again, and the rest of the East is still mostly bad.  
-  
-The time is now for the Cavs, whether they like it or not. The NBA’s monstrous new television deal, and the potential of a huge jump in the salary cap for 2016-17, adds to the urgency. Love has said all the right things about committing to Cleveland, but there are no guarantees in the NBA. Love could (and perhaps should) sign a one-year deal this summer and reenter free agency seeking a long-term max contract in July 2016 amid the largest pool of cap room in NBA history. One thing goes wrong — one injury, one pang of envy during a stretch in which he’s the third option, one dispute with the coach — and a superstar could bolt. Ask the Lakers about Dwight Howard.  
-  
-Right away, the Cavs are going to be an offensive colossus. LeBron James is one by himself, and in Love, Blatt has found the perfect big man for a hybrid Princeton system that bends defenses with constant screening on and off the ball.  
-  
-The questions will come on the other end, where Cleveland faces a double whammy: It doesn’t have a rim protector, and as things stand now, it will start three bad defensive players. There is a ceiling to how good you can be defensively when 60 percent of your starting lineup is below average.  
-  
-But the Cavs aren’t panicking about their lack of rim protection, and they are not going to rush out and trade for a heavy-minutes lug who can’t do what Blatt’s system demands on offense. The Cavs, in fact, might benefit more by acquiring a defensive-minded wing with some shooting range for the starting lineup — a move that would tilt that 60 percent figure in the right direction and allow Waiters to take a leadership role on the second unit. That would reduce the pressure on Blatt to have one of Irving and LeBron on the floor at all times, freeing him to maximize the minutes his three superstars play together.  
-  
-We’re getting ahead of ourselves. The phrase “We’re only as good as our defense” is echoing through Cleveland headquarters, and that end of the floor is where the mystery lies.  
-  
-Coaches across the league are surprisingly optimistic about Cleveland building a defense just good enough to let the offense propel them. A few reasons:  
-  
-• The Love-Varejao and Love–Tristan Thompson combinations play big. LeBron, the team’s real fourth big, is probably the best shot-blocker among that quartet, but this won’t be a Miami-style case of a tiny team flailing around under the boards against behemoths like Chicago, Indiana, and Washington.  
-  
-Love and Varejao are among the league’s dozen or so best rebounders, and Thompson is at least serviceable on the defensive glass. They’re not leapers, but they will box your ass out under the basket. The small-ball Heat were a bottom-10 defensive rebounding team for LeBron’s last two years there. They won by forcing turnovers and scoring the hell out of the ball.  
-  
-That should change here, and the Cavaliers, with the league’s premier outlet passer and a rocket-fueled group of ball handlers, should be able to turn defensive rebounds into easy transition points.  
-  
-Cleveland’s three main bigs can also switch assignments as matchups dictate. Love is stout enough to battle most nominal centers in the post, allowing Varejao and Thompson, quicker and more intuitive defenders, to deal with stretchy power forwards.  
-  
-Legit size is part of what makes Cleveland so terrifying on offense. Miami had to contort itself uncomfortably to find the ideal floor spacing for LeBron’s inside-out game to breathe. The Heat downsized, with Shane Battier as an undersize shooting power forward, and held it together on defense with frantic rotations and elite speed.  
-  
-The Cavaliers can functionally play small while remaining big, and that’s because of Love. He’s a real power forward, not a wing bravely masquerading as one, and he has true quick-release 3-point range. Cleveland might not be able to mimic Miami’s “five-out” style in a literal sense, since its centers can’t shoot 3s like Chris Bosh, but that distinction is meaningless.  
-  
-The “five-out” thing didn’t really exist when Dwyane Wade was on the floor, and Miami’s other non-LeBron wings didn’t have Waiters’s athleticism or shooting potential. Waiters shot 37 percent from deep last season, and he could push 40 percent if he ditches all the ridiculous off-the-dribble chucking that no longer has a place on this loaded team.  
-  
-The Cavs will surround Varejao/Thompson with four good-to-elite shooters, all of whom are able to work off the dribble. That is better than a forced “five-out.”  
-  
-God help the NBA when Blatt goes ultra-spacey with small-ball lineups like Irving-Waiters–Mike Miller–LeBron-Love. That will be a rare, defensively challenged look, but it is completely unguardable. Defensive limitations don’t matter when you go on a 15-2 run in 90 seconds.  
-  
-• Blatt is a good enough coach to craft a coherent defensive system around some wacky pieces. That’s part of the intrigue: A bunch of Cleveland’s players have spent recent seasons playing in defensive systems that went against NBA trends.  
-  
-Much of the league has copied pieces of the conservative scheme Tom Thibodeau uses in Chicago, in which (1) big men drop far back against the pick-and-roll, and (2) help defenders from the weak side are cautious in creeping away from shooters. Point guards in this defense try to block their opposite number from even using the pick by standing between the ball handler and the screener:  
-  
-LeBron and his Miami expats are coming from the polar-opposite style — a hyperaggressive trapping defense that required scrambling rotations from everyone. Cleveland lifers with stints under Mike Brown played heavy minutes in a scheme in which big men jumped out aggressively on the pick-and-roll and point guards chased ball handlers over picks instead of walling them off.  
-  
-Even Love hedged out on the pick-and-roll at times in Minnesota.  
-  
-Nobody knows yet what Blatt will do, but the variety of experience on the roster offers the promise of stylistic flexibility. “We’re gonna be versatile,” Blatt says. “The fact that we have guys coming from so many different systems will help us.”  
-  
-If the Cavs are facing a great shooting big man, or just want to screw with a team’s head, they might suddenly start blitzing on the pick-and-roll. “We’re going to do some jumping and showing,” Varejao says. “And then on some nights, we’ll look like Chicago.”  
-  
-They have the capacity to switch a lot, especially late in the shot clock. LeBron can deal with bigger players, and the three core bigs are all capable of scooting along with little guys for a couple of beats. When the Cavs go small, with LeBron at power forward, they’ll often pair him with Shawn Marion — another hybrid forward with whom LeBron can switch assignments on the fly.  
-  
-Switching creates mismatches, but it can also stall out an opposing offense. And Blatt has always been willing to send hard traps at those mismatches, especially as the shot clock ticks away. “Our guys are going to find themselves in switching situations and trapping situations,” Blatt says. “They will have to adjust.”  
-  
-Switcheroo tactics aside, the Cavaliers will have a base system, and Tyronn Lue’s presence as the league’s highest-paid assistant ever provides a clue about what that system will look like. Lue came to Cleveland after several years under Doc Rivers, and in L.A. last season, the coaches implemented an amped-up version of Thibodeau’s system.  
-  
-Rivers likes a little more pressure, and he often had his bigs slide out to the level of the screen on the pick-and-roll — a tactic some coaches call going “up to touch”:  
-  
-Blake Griffin, the most mobile Clippers big, often hedged hard on the pick-and-roll — especially as a means of staying attached to elite shooters who set picks:  
-  
-It’s somewhere between Miami’s pressure and Chicago’s conservativeness, and all three of Cleveland’s core bigs are mobile enough to venture out to the 3-point arc. Having two defenders extend that far means the other three have to rotate aggressively into the middle or the strong side; someone has to cut off that big man’s potential roll to the basket, and every such rotation requires another one behind it.  
-  
-On this Vince Carter–Dirk Nowitzki pick-and-roll, Griffin hedges, Glen Davis rotates across the paint to take Griffin’s man, and J.J. Redick crashes down onto Big Baby’s original assignment:  
-  
-This is a way to protect the rim without a shot-blocker: just show the offense some bodies in the way and force them to pass it out. “It’s an oversimplification to say we don’t have rim protection,” Blatt says. “Not having a shot-blocker does not mean you don’t protect the rim. It just requires a different approach.”  
-  
-Varejao is one of the league’s all-time great charge-takers, and he argues that even just trying to take charges can be a more effective form of rim protection than chasing shot-blocks. Defenders who leap for rejections take themselves out of the play, and if they launch too early, ball handlers can read the play and dish a drop-off pass before the next defender is ready to rotate.  
-  
-A charge-taker can stay on his feet if the ball handler passes early, and a charge attempt often stops the play — with a turnover, foul, or loose ball that flies out of bounds. “Taking charges is a lot better when you think about it,” Varejao says. “When you block a shot, you have no idea where it’s going to go.” Varejao puts his body in harm’s way doing this, and he has missed a ton of games. An injury to Cleveland’s best big-man defender would be catastrophic to its title hopes.  
-  
-The Cavs on the surface did a decent job of protecting the rim last season; they allowed just 24 shots per game in the restricted area, the third-lowest mark in the league, and they managed that without fouling much.  
-  
-But here’s the catch: They got smoked from 3-point range. Opponents hit 36.7 percent of their 3s against the Cavs last season, and only the Sixers, who were not trying to be an actual NBA team, allowed more corner 3s. Putting bodies in the paint doesn’t accomplish anything if there are open shooters everywhere. Help defenders have to make the right rotations to the right people at the right times, and they have to do it with peak effort and precise technique.  
-  
-This is where the development of Irving and Waiters is so important. Rotating inside and back out, like Redick in that above Clippers still, is the hardest part of NBA perimeter defense. Players have to time their cuts right, rotate to the right person under stress, and maintain their balance as they rush to close out on shooters. Waiters and Irving have struggled at all of the above.  
-  
-It isn’t just about effort, though that will help. Waiters gave exactly zero craps about getting back on defense last season, and Irving has a habit of standing flat-footed in no-man’s-land after a single rotation.  
-  
-There is a lot for both to iron out. Watch here as Waiters lazily reaches for the ball, creating a cascade of breakdowns that includes Irving needlessly rotating toward Andray Blatche — and leaving his man in the left corner for an easy drive-and-kick chance:  
-  
-This is about craft — about proper footwork, understanding opposing personnel, and internalizing the game plan. It is hard physical and mental labor, and it’s possible neither guy is quite ready for it yet — though Irving flashed a dialed-up defense on Team USA this summer.  
-  
-The Cavs have a $5.3 million trade exception courtesy of the Keith Bogans Memorial Contract, and they’ll likely kick the tires on a number of workable wing defenders who fit into that salary — Corey Brewer, Iman Shumpert, Jared Dudley, Kyle Singler, Kentavious Caldwell-Pope, Wesley Johnson, Reggie Bullock, an excess Memphis wing, and others.  
-  
-Not all of those guys will be available, and they’d all come with major questions — about mind-set (Shumpert), shooting ability (Brewer), and other stuff. But Cleveland will look as hard for a 3-and-D wing as it will for a rim protector. Hell, it might even get both — one via trade, and the other when buyout candidates start trickling in around January.  
-  
-But this team isn’t going to be some helpless sieve. The tools of a solid defense are here, and you can win the title with a solid defense and an all-world offense. The Cavs probably won’t be a top-10 defense, but they could sniff that territory, and it’s possible the East won’t burp out a single offense potent enough to worry them.  
-  
-And, holy crap, is this team going to be great on offense. Blatt’s sets are filled with constant motion, both on the ball and away from it, involving all kinds of screens. A LeBron-Varejao pick-and-roll might be happening on the right side while Love sets a down screen for Irving on the left side, and those dueling actions will flow into two more elements.  
-  
-Every pick presents a chance to punch a hole through one section of the defense. That innocent Love pick for Irving away from the ball? If Love hits it flush, his guy might have to rush toward the baseline to account for Irving’s basket cut.  
-  
-And just that little blip can be death. Maybe Love pops out for an open 3-pointer. Maybe LeBron hits Irving on the cut. Maybe the other team switches in desperation, leaving a little guy to deal with Love on the block.  
-  
-Every pick is an opportunity when one of the big dudes setting them is a good high-volume 3-point shooter. Blatt has also used fake picks in the past, and those fakes are more convincing, drawing more urgent responses, when the faker is a large man with 3-point range.  
-  
-Blatt will get tricky with Love, and it’s going to be great. The coach has always featured big men doing stuff on and off the ball at the elbow, and Love thrived in all kinds of funky sets out there in Minnesota. Blatt has used this exact set often in Europe:  
-  
-More Love favorites would include:  
-  
-The threat of Love’s shooting will open up driving lanes for everyone. Good luck defending a LeBron-Love or Irving-Love pick-and-roll, especially when the Cavs precede it with actions that nudge the defense out of position by the time that pick-and-roll starts. LeBron’s post-up game isn’t going anywhere, either. Blatt runs a lot of cross screens under the rim to free his post threats for quick-hitting attacks.  
-  
-Much has been made about whether Irving can adjust to an off-ball role, but Blatt’s offense will be democratic. The ball will fly around until someone gets it with a gap to attack, and everyone will have the green light to shoot through those gaps. Irving struggled on spot-up shots last season, but he’s a good shooter suddenly plopped onto a killer roster. He’ll be fine.  
-  
-Toss in offensive rebounding, an area that many of the league’s better scoring teams punt in favor of transition defense, and the Cavs should chase the top spot in the points per possession rankings in Year 1.  
-  
-There will be hiccups, of course. The Cavs will struggle for spacing when Thompson and Varejao share the floor. Blatt will have to sort out a bunch of thorny rotation questions — how often to go small, and how dramatically to stagger minutes so at least one of his three stars is on the floor at all times. Staggering star minutes is a way to avoid droughts, and pulling LeBron early in the first and third quarters, as the Mavs do with Nowitzki, could be a smart way to unleash hell with LeBron as a small-ball power forward against opposing bench units in the second and fourth quarters. But staggering has a downside: You play your best lineups a bit less than you might otherwise.  
-  
-Blatt isn’t concerned about this stuff yet. “We’re going to have to see how it all fits together,” he says. “Some of it will depend on how we’re playing, and who we’re playing.”  
-  
-Many of those rotation questions will vanish in the playoffs, when the stars can ramp up their minutes; we should see approximately zero shared meaningful Thompson-Varejao minutes in high-stakes games. The playoffs will be the real measure of this Cleveland team, and the measuring can start this season. 
+This year, more than any in recent memory, the NBA is about windows of opportunity. As we gear up for what could be a classic season, Grantland will take a close look at the ones that matter.
+
+♦♦♦
+
+He has lived through four years of ceaseless losing while friends have urged him to leave Cleveland. But now, Anderson Varejao is finally willing to utter the c-word.
+
+“The championship is our goal this season,” Varejao says after a long pause. “But there are some very good teams out there. I hope it works right away and we beat everybody, but it doesn’t work like that. It’s going to take time.”
+
+The Cavaliers have a healthy respect for process. The consumer product will look glamorous, with outlet passes, killer crossovers, alley-oops, and floppy hair. The preparation that will go into that glamorous display will be mostly grunt work we’ll never see — the trial and error of building systems on both ends of the floor and the monotony of teaching proper NBA habits. It is breaking down “defense” into hundreds of component bits of footwork, and getting the unholy trinity of Kevin Love, Dion Waiters, and Kyrie Irving to master them. It is nurturing chemistry, tweaking rotations, and learning tendencies.
+
+The Cavaliers are paying respect to process before discussing end goals. David Blatt in July was a giddy presence talking hoops and chomping down pancakes at his Vegas hotel. David Blatt in October is ready to work, if you’d please.
+
+Click here for more from our 2014-15 NBA preview.
+
+“I don’t want to talk anymore about how we’re gonna play,” says the Cavaliers’ new coach. “That’s like giving away the store before you open it. I hope we’re gonna play good. How’s that?”
+
+If the Cavs won’t say it, we have to say it for them: These guys are absolutely title contenders, right this very second, and they may enter the season as favorites. Yeah, sure, it takes time even for über-talented teams to jell. The Lakers super-team of just two seasons ago crumbled because of injuries, bad chemistry, coaching chaos, and age. Even the Heat, with three prime superstars, took two seasons to find their ideal lineup construction and win the title. The Cavs might need time, especially given their obvious defensive limitations and depth issues.
+
+But the foundation of that L.A. team was ancient compared to these Cavs. The 2010-11 Heat had to mesh two ball-dominant wing players, including one who couldn’t shoot 3s, and they were still up 2-1 in the freaking Finals. The Celtics won right away in 2008. The three Cleveland stars make for an easy blend, the supporting cast is decent, Derrick Rose has to prove it again, and the rest of the East is still mostly bad.
+
+The time is now for the Cavs, whether they like it or not. The NBA’s monstrous new television deal, and the potential of a huge jump in the salary cap for 2016-17, adds to the urgency. Love has said all the right things about committing to Cleveland, but there are no guarantees in the NBA. Love could (and perhaps should) sign a one-year deal this summer and reenter free agency seeking a long-term max contract in July 2016 amid the largest pool of cap room in NBA history. One thing goes wrong — one injury, one pang of envy during a stretch in which he’s the third option, one dispute with the coach — and a superstar could bolt. Ask the Lakers about Dwight Howard.
+
+Right away, the Cavs are going to be an offensive colossus. LeBron James is one by himself, and in Love, Blatt has found the perfect big man for a hybrid Princeton system that bends defenses with constant screening on and off the ball.
+
+The questions will come on the other end, where Cleveland faces a double whammy: It doesn’t have a rim protector, and as things stand now, it will start three bad defensive players. There is a ceiling to how good you can be defensively when 60 percent of your starting lineup is below average.
+
+But the Cavs aren’t panicking about their lack of rim protection, and they are not going to rush out and trade for a heavy-minutes lug who can’t do what Blatt’s system demands on offense. The Cavs, in fact, might benefit more by acquiring a defensive-minded wing with some shooting range for the starting lineup — a move that would tilt that 60 percent figure in the right direction and allow Waiters to take a leadership role on the second unit. That would reduce the pressure on Blatt to have one of Irving and LeBron on the floor at all times, freeing him to maximize the minutes his three superstars play together.
+
+We’re getting ahead of ourselves. The phrase “We’re only as good as our defense” is echoing through Cleveland headquarters, and that end of the floor is where the mystery lies.
+
+Coaches across the league are surprisingly optimistic about Cleveland building a defense just good enough to let the offense propel them. A few reasons:
+
+• The Love-Varejao and Love–Tristan Thompson combinations play big. LeBron, the team’s real fourth big, is probably the best shot-blocker among that quartet, but this won’t be a Miami-style case of a tiny team flailing around under the boards against behemoths like Chicago, Indiana, and Washington.
+
+Love and Varejao are among the league’s dozen or so best rebounders, and Thompson is at least serviceable on the defensive glass. They’re not leapers, but they will box your ass out under the basket. The small-ball Heat were a bottom-10 defensive rebounding team for LeBron’s last two years there. They won by forcing turnovers and scoring the hell out of the ball.
+
+That should change here, and the Cavaliers, with the league’s premier outlet passer and a rocket-fueled group of ball handlers, should be able to turn defensive rebounds into easy transition points.
+
+Cleveland’s three main bigs can also switch assignments as matchups dictate. Love is stout enough to battle most nominal centers in the post, allowing Varejao and Thompson, quicker and more intuitive defenders, to deal with stretchy power forwards.
+
+Legit size is part of what makes Cleveland so terrifying on offense. Miami had to contort itself uncomfortably to find the ideal floor spacing for LeBron’s inside-out game to breathe. The Heat downsized, with Shane Battier as an undersize shooting power forward, and held it together on defense with frantic rotations and elite speed.
+
+The Cavaliers can functionally play small while remaining big, and that’s because of Love. He’s a real power forward, not a wing bravely masquerading as one, and he has true quick-release 3-point range. Cleveland might not be able to mimic Miami’s “five-out” style in a literal sense, since its centers can’t shoot 3s like Chris Bosh, but that distinction is meaningless.
+
+The “five-out” thing didn’t really exist when Dwyane Wade was on the floor, and Miami’s other non-LeBron wings didn’t have Waiters’s athleticism or shooting potential. Waiters shot 37 percent from deep last season, and he could push 40 percent if he ditches all the ridiculous off-the-dribble chucking that no longer has a place on this loaded team.
+
+The Cavs will surround Varejao/Thompson with four good-to-elite shooters, all of whom are able to work off the dribble. That is better than a forced “five-out.”
+
+God help the NBA when Blatt goes ultra-spacey with small-ball lineups like Irving-Waiters–Mike Miller–LeBron-Love. That will be a rare, defensively challenged look, but it is completely unguardable. Defensive limitations don’t matter when you go on a 15-2 run in 90 seconds.
+
+• Blatt is a good enough coach to craft a coherent defensive system around some wacky pieces. That’s part of the intrigue: A bunch of Cleveland’s players have spent recent seasons playing in defensive systems that went against NBA trends.
+
+Much of the league has copied pieces of the conservative scheme Tom Thibodeau uses in Chicago, in which (1) big men drop far back against the pick-and-roll, and (2) help defenders from the weak side are cautious in creeping away from shooters. Point guards in this defense try to block their opposite number from even using the pick by standing between the ball handler and the screener:
+
+LeBron and his Miami expats are coming from the polar-opposite style — a hyperaggressive trapping defense that required scrambling rotations from everyone. Cleveland lifers with stints under Mike Brown played heavy minutes in a scheme in which big men jumped out aggressively on the pick-and-roll and point guards chased ball handlers over picks instead of walling them off.
+
+Even Love hedged out on the pick-and-roll at times in Minnesota.
+
+Nobody knows yet what Blatt will do, but the variety of experience on the roster offers the promise of stylistic flexibility. “We’re gonna be versatile,” Blatt says. “The fact that we have guys coming from so many different systems will help us.”
+
+If the Cavs are facing a great shooting big man, or just want to screw with a team’s head, they might suddenly start blitzing on the pick-and-roll. “We’re going to do some jumping and showing,” Varejao says. “And then on some nights, we’ll look like Chicago.”
+
+They have the capacity to switch a lot, especially late in the shot clock. LeBron can deal with bigger players, and the three core bigs are all capable of scooting along with little guys for a couple of beats. When the Cavs go small, with LeBron at power forward, they’ll often pair him with Shawn Marion — another hybrid forward with whom LeBron can switch assignments on the fly.
+
+Switching creates mismatches, but it can also stall out an opposing offense. And Blatt has always been willing to send hard traps at those mismatches, especially as the shot clock ticks away. “Our guys are going to find themselves in switching situations and trapping situations,” Blatt says. “They will have to adjust.”
+
+Switcheroo tactics aside, the Cavaliers will have a base system, and Tyronn Lue’s presence as the league’s highest-paid assistant ever provides a clue about what that system will look like. Lue came to Cleveland after several years under Doc Rivers, and in L.A. last season, the coaches implemented an amped-up version of Thibodeau’s system.
+
+Rivers likes a little more pressure, and he often had his bigs slide out to the level of the screen on the pick-and-roll — a tactic some coaches call going “up to touch”:
+
+Blake Griffin, the most mobile Clippers big, often hedged hard on the pick-and-roll — especially as a means of staying attached to elite shooters who set picks:
+
+It’s somewhere between Miami’s pressure and Chicago’s conservativeness, and all three of Cleveland’s core bigs are mobile enough to venture out to the 3-point arc. Having two defenders extend that far means the other three have to rotate aggressively into the middle or the strong side; someone has to cut off that big man’s potential roll to the basket, and every such rotation requires another one behind it.
+
+On this Vince Carter–Dirk Nowitzki pick-and-roll, Griffin hedges, Glen Davis rotates across the paint to take Griffin’s man, and J.J. Redick crashes down onto Big Baby’s original assignment:
+
+This is a way to protect the rim without a shot-blocker: just show the offense some bodies in the way and force them to pass it out. “It’s an oversimplification to say we don’t have rim protection,” Blatt says. “Not having a shot-blocker does not mean you don’t protect the rim. It just requires a different approach.”
+
+Varejao is one of the league’s all-time great charge-takers, and he argues that even just trying to take charges can be a more effective form of rim protection than chasing shot-blocks. Defenders who leap for rejections take themselves out of the play, and if they launch too early, ball handlers can read the play and dish a drop-off pass before the next defender is ready to rotate.
+
+A charge-taker can stay on his feet if the ball handler passes early, and a charge attempt often stops the play — with a turnover, foul, or loose ball that flies out of bounds. “Taking charges is a lot better when you think about it,” Varejao says. “When you block a shot, you have no idea where it’s going to go.” Varejao puts his body in harm’s way doing this, and he has missed a ton of games. An injury to Cleveland’s best big-man defender would be catastrophic to its title hopes.
+
+The Cavs on the surface did a decent job of protecting the rim last season; they allowed just 24 shots per game in the restricted area, the third-lowest mark in the league, and they managed that without fouling much.
+
+But here’s the catch: They got smoked from 3-point range. Opponents hit 36.7 percent of their 3s against the Cavs last season, and only the Sixers, who were not trying to be an actual NBA team, allowed more corner 3s. Putting bodies in the paint doesn’t accomplish anything if there are open shooters everywhere. Help defenders have to make the right rotations to the right people at the right times, and they have to do it with peak effort and precise technique.
+
+This is where the development of Irving and Waiters is so important. Rotating inside and back out, like Redick in that above Clippers still, is the hardest part of NBA perimeter defense. Players have to time their cuts right, rotate to the right person under stress, and maintain their balance as they rush to close out on shooters. Waiters and Irving have struggled at all of the above.
+
+It isn’t just about effort, though that will help. Waiters gave exactly zero craps about getting back on defense last season, and Irving has a habit of standing flat-footed in no-man’s-land after a single rotation.
+
+There is a lot for both to iron out. Watch here as Waiters lazily reaches for the ball, creating a cascade of breakdowns that includes Irving needlessly rotating toward Andray Blatche — and leaving his man in the left corner for an easy drive-and-kick chance:
+
+This is about craft — about proper footwork, understanding opposing personnel, and internalizing the game plan. It is hard physical and mental labor, and it’s possible neither guy is quite ready for it yet — though Irving flashed a dialed-up defense on Team USA this summer.
+
+The Cavs have a $5.3 million trade exception courtesy of the Keith Bogans Memorial Contract, and they’ll likely kick the tires on a number of workable wing defenders who fit into that salary — Corey Brewer, Iman Shumpert, Jared Dudley, Kyle Singler, Kentavious Caldwell-Pope, Wesley Johnson, Reggie Bullock, an excess Memphis wing, and others.
+
+Not all of those guys will be available, and they’d all come with major questions — about mind-set (Shumpert), shooting ability (Brewer), and other stuff. But Cleveland will look as hard for a 3-and-D wing as it will for a rim protector. Hell, it might even get both — one via trade, and the other when buyout candidates start trickling in around January.
+
+But this team isn’t going to be some helpless sieve. The tools of a solid defense are here, and you can win the title with a solid defense and an all-world offense. The Cavs probably won’t be a top-10 defense, but they could sniff that territory, and it’s possible the East won’t burp out a single offense potent enough to worry them.
+
+And, holy crap, is this team going to be great on offense. Blatt’s sets are filled with constant motion, both on the ball and away from it, involving all kinds of screens. A LeBron-Varejao pick-and-roll might be happening on the right side while Love sets a down screen for Irving on the left side, and those dueling actions will flow into two more elements.
+
+Every pick presents a chance to punch a hole through one section of the defense. That innocent Love pick for Irving away from the ball? If Love hits it flush, his guy might have to rush toward the baseline to account for Irving’s basket cut.
+
+And just that little blip can be death. Maybe Love pops out for an open 3-pointer. Maybe LeBron hits Irving on the cut. Maybe the other team switches in desperation, leaving a little guy to deal with Love on the block.
+
+Every pick is an opportunity when one of the big dudes setting them is a good high-volume 3-point shooter. Blatt has also used fake picks in the past, and those fakes are more convincing, drawing more urgent responses, when the faker is a large man with 3-point range.
+
+Blatt will get tricky with Love, and it’s going to be great. The coach has always featured big men doing stuff on and off the ball at the elbow, and Love thrived in all kinds of funky sets out there in Minnesota. Blatt has used this exact set often in Europe:
+
+More Love favorites would include:
+
+The threat of Love’s shooting will open up driving lanes for everyone. Good luck defending a LeBron-Love or Irving-Love pick-and-roll, especially when the Cavs precede it with actions that nudge the defense out of position by the time that pick-and-roll starts. LeBron’s post-up game isn’t going anywhere, either. Blatt runs a lot of cross screens under the rim to free his post threats for quick-hitting attacks.
+
+Much has been made about whether Irving can adjust to an off-ball role, but Blatt’s offense will be democratic. The ball will fly around until someone gets it with a gap to attack, and everyone will have the green light to shoot through those gaps. Irving struggled on spot-up shots last season, but he’s a good shooter suddenly plopped onto a killer roster. He’ll be fine.
+
+Toss in offensive rebounding, an area that many of the league’s better scoring teams punt in favor of transition defense, and the Cavs should chase the top spot in the points per possession rankings in Year 1.
+
+There will be hiccups, of course. The Cavs will struggle for spacing when Thompson and Varejao share the floor. Blatt will have to sort out a bunch of thorny rotation questions — how often to go small, and how dramatically to stagger minutes so at least one of his three stars is on the floor at all times. Staggering star minutes is a way to avoid droughts, and pulling LeBron early in the first and third quarters, as the Mavs do with Nowitzki, could be a smart way to unleash hell with LeBron as a small-ball power forward against opposing bench units in the second and fourth quarters. But staggering has a downside: You play your best lineups a bit less than you might otherwise.
+
+Blatt isn’t concerned about this stuff yet. “We’re going to have to see how it all fits together,” he says. “Some of it will depend on how we’re playing, and who we’re playing.”
+
+Many of those rotation questions will vanish in the playoffs, when the stars can ramp up their minutes; we should see approximately zero shared meaningful Thompson-Varejao minutes in high-stakes games. The playoffs will be the real measure of this Cleveland team, and the measuring can start this season.
 

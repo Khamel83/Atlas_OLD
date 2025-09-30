@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked a couple of times last week about Sam Bankman-Fried’s formative time as an intern at Jane Street Capital, where he learned to thin
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff: More Kelly sorry
-    
-  
+
+
 
 We talked a  couple of  times last week about Sam Bankman-Fried’s formative time as an intern at Jane Street Capital, where he learned to think in bets but maybe went a bit overboard. Michael Lewis’s book about Bankman-Fried, Going Infinite, describes the internship program, in which interns are encouraged to bet with each other but not allowed to lose more than $100 per day.
 I expressed some surprise that the interns felt compelled to gamble their entire $100 daily stake on a coin flip with 1% edge. “A Jane Street intern had what amounted to a professional obligation to take any bet with a positive expected value,” writes Lewis, and that   seemed odd to me; surely you don’t want to risk your entire bankroll on a barely weighted coin flip. I connected this story to Bankman-Fried’s own repeated claims about his linear utility function and wild risk appetite, and of course to what eventually happened to FTX.
@@ -77,37 +77,37 @@ And then some young traders leave Jane Street after just a few years to strike o
 
  
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff: Elsewhere in bets
-    
-  
+
+
 
 In unrelated news,
   [3]
@@ -119,17 +119,17 @@ Meanwhile the prosecutors are making their own fairly straightforward bet:
 	If they throw the book at him and go to trial, they will probably win. The evidence seems strong, they have all of his friends testifying against him, and it’s hard for me to imagine a jury saying “ehh this guy lost $8 billion of customer money but it was probably just an accident.” 	If they cut any sort of deal, they will increase their odds of winning from, like, 99% to 100%, but they will get a lot of criticism for going easy on society’s big crypto villain. It’s not worth it! This case is not just about sending Sam Bankman-Fried to prison; it is about explaining what went wrong at FTX, and about saying, with the full force of the US government, that That Was Bad. A plea deal doesn’t send the right message.
 
 The second bet is: Will Bankman-Fried take the stand and testify in his own defense? Buddy he has  posted on Substack in his own defense; of course he will testify. Bankman-Fried will talk to absolutely anyone, with no filter at all, about what happened at the end of FTX. You think he won’t talk to a jury about it?
-Isn’t it risky for him to testify? Won’t he be subjected to withering cross-examination from well-prepared prosecutors who will trap him in lies? Well! I mean, sure, probably. But if he does not testify, all the jury will have is (1) the testimony of FTX customers who are like “all our money is gone,” (2) the testimony of all of his closest friends and colleagues testifying “yeah we stole all the money because Sam told us to” and (3) 
+Isn’t it risky for him to testify? Won’t he be subjected to withering cross-examination from well-prepared prosecutors who will trap him in lies? Well! I mean, sure, probably. But if he does not testify, all the jury will have is (1) the testimony of FTX customers who are like “all our money is gone,” (2) the testimony of all of his closest friends and colleagues testifying “yeah we stole all the money because Sam told us to” and (3)
 screenshots of FTX computer code that is like “IF you_feel_like_it THEN steal(all.the.money).” His testimony just cannot make things worse! The jury is going to get the prosecutors’ story and it is really, really, really, really bad for Bankman-Fried. He needs to tell his side of the story to have any shot at all. If his testimony has a 10% chance of being compelling and a 90% chance of being disastrous, that is all upside.
   [4]
  If he does not testify, that is 100% disastrous.
 Also, he has charmed people before. Obviously the context here is different, and it is easier to be charmed by the world’s youngest self-made billionaire than by a criminal defendant in a fraud trial. But I think the bet, in testifying, has to be that Bankman-Fried will sound better and more reasonable in explaining what was going on than the prosecutors will, that they will try to trip him up and fail, that he will come across as a reasonable but unlucky nerd and they will come across as unreasonable bullies. I don’t think that is all that likely, but it is not a crazy bet. And it’s better than nothing.
 
-  
-    
+
+
       Binance fund
-    
-  
+
+
 
 In November 2022, after FTX went bankrupt, Binance, the biggest crypto exchange, announced an “industry recovery fund” to do bailouts for crypto. Changpeng “CZ” Zhao, Binance’s founder, tweeted that the fund would “help projects who are otherwise strong, but in a liquidity crisis.” As Bloomberg’s Emily Nicolle  writes today, the plan was to “pull together some of the industry’s biggest names and raise at least $1 billion to finance promising startups which, due to forces outside their own control, were strapped for cash.”
 At the time, I found this plan puzzling, because I had never heard of a crypto project that was “otherwise strong, but in a liquidity crisis.”   I asked: “Has there ever been a pure liquidity problem at a crypto firm?” Crypto project that got hacked and lost all its money? Sure. Crypto project whose founders ran off with all the money? Sure. Crypto project whose money was all in magic beans that turned out to be worthless? Sure.
@@ -141,11 +141,11 @@ The quiet unwinding of the IRI is a stark reminder of crypto’s penchant for ma
 
 I don’t actually think that Zhao made any bold promises he didn’t deliver on? I think he promised to “help projects who are otherwise strong, but in a liquidity crisis,” and unsurprisingly there weren’t many.
 
-  
-    
+
+
       Innovation Refunds
-    
-  
+
+
 
 One thing that I  think about sometimes is that corporations are, by their nature, perpetual, and that this creates weird biases. People just naturally expect businesses to last forever, or, rather, they think that the mark of a successful business is longevity. You invent a product, you sell it, you get money, you invest in research and development, you make more products, you keep up with trends, you make money forever. Sure sometimes you fail — you invent a product but no one buys it and you shut down — but the goal is to keep selling products forever.
 But it is not obvious to me that this makes sense for every business model? “You invent a product, you sell it, you get rich, you get into yachts” is also, in its way, a success. It seems to me that you might go into a business with a finite lifespan, figuring “this business is good now, and will not last forever, but I will make money now and then I will stop.” For instance
@@ -168,11 +168,11 @@ The details here are that the IRS is cracking down on ERC claims, and that Innov
 Some accountants who have seen its work question the quality of its analysis. Fewer than 10 Innovation Refunds clients have told the company that their ERC claims are currently under audit, Makler said, and the company stands behind its work.
 But the big picture is, I mean, you started a company to extract money from a tax program that was always set to expire: Surely the job is to extract the money and then shut down? “Innovation Refunds has processed more than $6 billion in ERC claims, for which it could earn roughly $1.5 billion in fees.” That’s fine, no? You don’t have to “hang your future on returning to the ERC”; you’ve got $1.5 billion for two years’ work. That’s pretty good!
 
-  
-    
+
+
       Ozempic is great for business
-    
-  
+
+
 
 We   talked yesterday about a hypothetical drug, “a drug that reduces consumption in general, a universal demand suppressant,” which puts its users into such a Zen state of contentment that they have no need for other goods or services. This drug would have weird economic effects: A pharmaceutical company could perhaps make a lot of money selling it, but lots of other companies — the companies that sell consumption, that sell snacks and alcohol and airplane tickets and streaming video and internet ads — would lose money. And in our world of universal common ownership of the stock market, there would be a tension between a pharmaceutical company making money from this drug and costing its owners money as all their other portfolio companies lose business.
 This was of course inspired by Ozempic and Wegovy and similar new appetite-suppressing drugs. But while they are a little like that hypothetical drug, they aren’t really. For one thing, these drugs don’t suppress demand all that much, and to the extent they do it is mostly demand for snacks and alcohol, not for vacations or social media posts. Realistically people on Ozempic will probably just spend less money on snacks and more money on cars or whatever.
@@ -185,15 +185,15 @@ Other industries seen benefiting from the growth of weight-loss drugs include ph
 
 If everyone loses 30 pounds they will all have to buy new clothes, which is good for the clothing business.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Country Garden Signals Default as China Property Woes Deepen.  Evergrande Investors Warn of ‘Uncontrollable Collapse.’ Ship Freight Rates Tumble as U.S. Consumers  Buy Fewer Goods. IMF warns of ‘heightened risk’ from  bond market turmoil. ECB Steps Up Scrutiny of Banks’   Commercial Real Estate Loans. Big Tech Struggles to Turn  AI Hype Into Profits. U.S. Probe of  Russia-Sanctions Busting Focuses on Major Oil Trader. How UBS’s $3.3bn  Credit Suisse deal spawned $9bn of legal claims. Deutsche Bank’s Spanish   FX Swap Sales Examined by Regulator. Global Hedge Funds Push Back Against   China Draft Rules. Why  Nelson Peltz Grew Impatient With Disney’s Turnaround Efforts. Americans Have     Saved Hundreds of Billions More Than Previously Thought. “We find that  Ivy League athletes outperform their non-athlete counterparts in the labor market.” Phishing  tests. Teens Love  LinkedIn.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is not the only possible view. Often the best indication of a positive-expected-value trade is that, ex post, it made money. In Jack Schwager’s “Hedge Fund Market Wizards,” Steve Clark memorably says: “Your job as a trader is to make the line go from bottom left to top right. That’s it. If the line goes down too much or too long, you were wrong. You can’t argue that the market is wrong because it is your job to predict every move in the market. You had managers in 2008 who lost 50 percent, and in some cases even as much as 80 percent. Why? Because they couldn’t accept they were wrong. They kept doing the math, and they kept saying they were right. They missed the point. Their math might have been right, but their job isn’t to do the math; their job is to trade what is in front of them. You had guys saying they were right, the market was wrong, and that they had billions of dollars of embedded value in their portfolio. Their job isn’t to create billions of dollars of embedded value; their job is to make the line go from bottom left to top right.” In some sense the more sophisticated analysis is that your job is to take positive-expected-value bets, but there is a lot to be said for the cruder analysis.
 
 
@@ -209,48 +209,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] There is also this fun Byrne Hobart post about the maker of the Instant Pot, which went bankrupt because everybody who wanted an Instant Pot bought one, and then never had any possible need for another one, because the first one did the job and was well made.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -261,46 +261,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjmy7r.5mhg/7a7b47bd.gif" alt="" border="0" /></a>

@@ -3,7 +3,7 @@
 **Source:** inputs/New Docs/html/fivethirtyeight.com_features_the-53-best-franchise-players-in-the-nba.html
 **Processed:** 2025-08-24T19:13:19.875509
 
-![](https://fivethirtyeight.com/wp-content/uploads/2015/10/gettyimages-468843682-1.jpg?w=575) 
+![](https://fivethirtyeight.com/wp-content/uploads/2015/10/gettyimages-468843682-1.jpg?w=575)
 ![](https://fivethirtyeight.com/wp-content/uploads/2015/10/carmelo.png?w=150&h=150&crop=1)
 
 

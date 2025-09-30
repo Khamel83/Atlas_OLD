@@ -36,7 +36,7 @@ From 2005 to 2007, Bermanâs companies dominated the bidding room, spending 
 
 He was a big player at tax lien auctions in Maryland, too, where he wasÂ [caught in 2007 rigging bidsÂ](http://www.fbi.gov/baltimore/press-releases/2009/ba061609.htm)at sales across the state, leading to the largest criminal conspiracy case of its kind at the time.
 
-**HOMES FOR THE TAKING:**   
+**HOMES FOR THE TAKING:**
 LIENS, LOSS AND PROFITEERS â Part 2 of 4
 
 [**Part 1**](/sf/investigative/2013/09/08/left-with-nothing/): How a small debt becomes a big problem
@@ -47,8 +47,8 @@ LIENS, LOSS AND PROFITEERS â Part 2 of 4
 
 Â
 
-**More from the series**  
-â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)  
+**More from the series**
+â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)
 â¢ [Full coverage](/sf/investigative/collection/homes-for-the-taking/)
 
 At the Districtâs auctions, no one was watching.
@@ -303,7 +303,7 @@ Bill O'Leary
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

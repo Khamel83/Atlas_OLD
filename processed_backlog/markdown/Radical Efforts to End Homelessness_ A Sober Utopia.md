@@ -12,11 +12,11 @@
 
 # Pacific Standard
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Pacific Standard](https://psmag.com/wp-content/uploads/2024/07/cropped-favicon-32x32-1.png?w=32)
 
-404  
-  
-It seems we cannot find what you are looking for. Perhaps searching can help. 
+404
+
+It seems we cannot find what you are looking for. Perhaps searching can help.
 

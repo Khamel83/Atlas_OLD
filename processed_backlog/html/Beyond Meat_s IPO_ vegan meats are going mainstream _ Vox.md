@@ -74,7 +74,7 @@ Tamar Haspel, a food-policy columnist at the Washington Post, joins Sean Rameswa
 
 [***Sign up for the Future Perfect newsletter.***](/web/20241002174533/https://www.vox.com/future-perfect-newsletter) *Twice a week, you’ll get a roundup of ideas and solutions for tackling our biggest challenges: improving public health, decreasing human and animal suffering, easing catastrophic risks, and — to put it simply — getting better at doing good.*
 
-See More: 
+See More:
 
 * [Business & Finance](/web/20241002174533/https://www.vox.com/business-and-finance)
 * [Culture](/web/20241002174533/https://www.vox.com/culture)

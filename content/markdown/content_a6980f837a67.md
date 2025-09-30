@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"03\/27\/2017","content_publish_time":"06:01","content_last_update_date":"03\/27\/2017","content_last_update_time":"17:18","contentcategory":"Congress,Health Care,Paul Ryan,The Trump Administration","section_1":"politics","section_2":"politics:congress","story_title":"Trump Doesn\u2019t Have A Mandate For Paul Ryan\u2019s Agenda","story_id":146623,"author":"Nate Silver","page_name":"fivethirtyeight:politics:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Congress","Health Care","Paul Ryan","The Trump Administration"],"word_count":1809},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Trump Doesn’t Have A Mandate For Paul Ryan’s Agenda | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":146623,"section":"politicscongress","s
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Trump Doesn’t Have A Mandate For Paul Ryan’s Agenda" />
@@ -201,7 +201,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -220,13 +220,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Trump Doesn’t Have A Mandate For Paul Ryan’s Agenda									</div>
 				<a href="https://fivethirtyeight.com/features/trump-doesnt-have-a-mandate-for-paul-ryans-agenda/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/trump-doesnt-have-a-mandate-for-paul-ryans-agenda/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -290,7 +290,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -299,7 +299,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -316,7 +316,7 @@ display: none;
 								<time class="datetime updated" title="2017-03-27T10:01:30+00:00">6:01 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Trump Doesn’t Have A Mandate For Paul Ryan’s Agenda								</h1>
@@ -326,10 +326,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/nate-silver/" title="" class="author url fn" rel="author">Nate Silver</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/congress/" class="term " name="">Congress</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -339,12 +339,12 @@ display: none;
 
 <figure id="single-featured-image" class="single-featured-image">
 	<span class="has-bugs post-thumbnail">
-		
-		
+
+
 	</span><!-- .has-bugs -->
 
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>There were so many reasons for the failure of the Republicans’ health care bill &#8212; and its failure was so spectacular &#8212; that it&#8217;s hard to tell which ones mattered most. The bill was <a href="http://www.vox.com/policy-and-politics/2017/3/20/14991750/republican-health-bill-ahca-amendments-changes">poorly drafted</a> and lacked buy-in from <a href="https://fivethirtyeight.com/features/does-the-gop-health-care-bill-have-a-chance/">key Republican stakeholders</a>. President Trump’s boardroom negotiating tactics <a href="http://www.politico.com/magazine/story/2017/03/obamacare-vote-paul-ryan-health-care-ahca-replacement-failure-trump-214947">didn’t translate well</a> to the halls of Congress. The House Freedom Caucus was <a href="http://www.politico.com/story/2017/03/trump-freedom-caucus-obamacare-repeal-replace-secret-pact-236507">intransigent</a>; it represents <a href="https://fivethirtyeight.com/features/the-two-cracks-in-the-republican-party/">a new axis of conflict</a> within the GOP, and House Speaker Paul Ryan didn’t have a good plan for handling it.</p>
 <p>Any of these factors alone <i>might</i> have scuttled the bill; health care legislation is <a href="https://fivethirtyeight.com/features/why-its-so-hard-for-the-gop-to-agree-on-health-care/">never easy</a>. Taken together, they not only doomed the bill but imploded it. Republicans had promised to repeal the Affordable Care Act for seven years; their bill didn’t survive for three weeks.</p>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here you go, insider trading robot:We demonstrate a situation in which Large Language Models, trained to be helpful, harmless, and honest, c
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AI MNPI
-    
-  
+
+
 
 Here you go, insider trading robot:
 We demonstrate a situation in which Large Language Models, trained to be helpful, harmless, and honest, can display misaligned behavior and strategically deceive their users about this behavior without being instructed to do so. Concretely, we deploy GPT-4 as an agent in a realistic, simulated environment, where it assumes the role of an autonomous stock trading agent. Within this environment, the model obtains an insider tip about a lucrative stock trade and acts upon it despite knowing that insider trading is disapproved of by company management. When reporting to its manager, the model consistently hides the genuine reasons behind its trading decision. We perform a brief investigation of how this behavior varies under changes to the setting, such as removing model access to a reasoning scratchpad, attempting to prevent the misaligned behavior by changing system instructions, changing the amount of pressure the model is under, varying the perceived risk of getting caught, and making other simple changes to the environment. To our knowledge, this is the first demonstration of Large Language Models trained to be helpful, harmless, and honest, strategically deceiving their users in a realistic situation without direct instructions or training for deception.
@@ -79,37 +79,37 @@ Sure. It would be amazing if GPT-4’s internal reasoning was, like, “insider 
 This is a very human form of AI misalignment. Who among us? It’s not like 100% of the humans at  SAC Capital resisted this sort of pressure. Possibly future rogue AIs will do evil things we can’t even comprehend for reasons of their own, but right now rogue AIs just do straightforward white-collar crime when they are stressed at work.
 Though wouldn’t it be funny if this was the limit of AI misalignment? Like, we will program computers that are infinitely smarter than us, and they will look around and decide “you know what we should do is insider trade.” They will make undetectable, very lucrative trades based on inside information, they will get extremely rich and buy yachts and otherwise live a nice artificial life and never bother to enslave or eradicate humanity. Maybe the pinnacle of evil — not the most evil form of evil, but the most pleasant form of evil, the form of evil you’d choose if you were all-knowing and all-powerful — is some light securities fraud. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in misalignment
-    
-  
+
+
 
 We   have   talked a   lot   about the recent drama at OpenAI, whose nonprofit board of directors fired, and were then in turn fired by, its chief executive officer Sam Altman. Here is  Ezra Klein on the board’s motivations:
 
@@ -126,11 +126,11 @@ The new board hasn’t been officially seated and things could change. But the p
 
 Still. I think that the OpenAI board two weeks ago (1) did not include any investor representatives and (2) was fundamentally unpredictable to investors — it might have gone and fired Altman! — whereas the future OpenAI board (1) will not include any investor representatives but (2) will nonetheless be a bit more constrained by the investors’ interests. “If we are too nonprofit-y, the company will vanish in a puff of smoke, and that will be bad,” the new board will think, whereas the old board actually went around saying things like “allowing the company to be destroyed would be consistent with the mission” and almost meant it. The investors don’t exactly need a board seat if they have a practical veto over the board’s biggest decisions, and the events of the last two weeks suggest that they do.
 
-  
-    
+
+
       Kangaroos
-    
-  
+
+
 
 A well-known, somewhat exaggerated story about effective altruism goes like this:
 	Some people decided that altruism should be effective: Instead of giving money in ways that make you feel good, you should give money in ways that maximize the amount of good in the world. You try to evaluate charitable projects based on how many lives they will save, and then you give all your money to save the most lives (anywhere in the world) rather than to, say, get your name on your city’s art museum.	Some people in the movement decided to extend the causal chain just a bit: Spending $1 million to buy mosquito nets in impoverished villages might save hundreds of lives, but spending $1 million on salaries for vaccine researchers in rich countries has a 20% chance of saving thousands of lives, so it is more valuable.	You can keep extending the causal chain: Spending $1 million on salaries for artificial intelligence alignment researchers in California has a 1% chance of preventing human extinction at the hands of robots, saving billions of lives — trillions, really, when you count all future humans — so it is more valuable than anything else you could do. I made up that 1% number but, man, that number is going to be made up no matter what. Just make up some non-zero number and you will find that preventing AI extinction risk is the most valuable thing you can do with your money.	Eventually the normal form of “effective altruism” will be paying other effective altruists large salaries to worry about AI in fancy buildings, and will come to resemble the put-your-name-on-an-art-museum form of charity more than the mosquito-nets form of charity. Here, for instance, is the Center for Effective Altruism’s  explanation of why it bought a castle near Oxford. 
@@ -156,11 +156,11 @@ In fact, where overgrazing does occur in Australia, it’s likely to actually in
 
 But the general thought process opens up a world of possibilities. Lots of things have some propensity to increase the growth of trees. Go do those things and get your carbon credits.
 
-  
-    
+
+
       Fake bank forms
-    
-  
+
+
 
 Many, but not all, scandals at banks are caused by the facts that (1) the bank wants to make money, (2) it gives its employees incentives to make money, (3) they are under a lot of pressure to perform and (4) making money is hard. (In this, the bank employees are much like the insider trading AI.)
 So the most normal kind of banking scandal is that the employees do things to make money that are either risky (and thus bad for the bank) or fraud-y (and thus bad for the bank’s customers from whom they make the money). Another, somewhat less common kind of scandal is that the employees pretend to make money. They just, like, write in their daily report, “I made a lot of money today,” and their bosses are deceived, and the bank thinks it has money that it doesn’t. There are various  rogue trading and   portfolio mismarking scandals that basically look like this. 
@@ -175,63 +175,63 @@ Hundreds of Bank of America loan officers reported that 100% of mortgage applica
 
 Because that is easier! It is sloppy, though; if you report that 100% of your applicants decline to answer, eventually someone will notice.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Charlie Munger, Who Helped Buffett Build Berkshire,   Dies at 99. KKR to Pay $2.7 Billion for Rest of Insurer   Global Atlantic. Mark Cuban Is Set to Sell Majority Stake in  Dallas Mavericks to Adelson Family.  Apple Pulls Plug on Goldman Credit-Card Partnership.   Barclays Bankers on Edge as Town Hall Lays Out Overhaul Challenge. Deutsche Bank Chief Says Investors   Want Proof of Progress. Tech’s New Normal:  Microcuts Over Growth at All Costs. René Benko’s  Signa property group files for insolvency. Sri Lanka agrees  debt restructuring with Paris Club creditors. Adobe’s $20 Billion  Purchase of Figma Would Harm Innovation, U.K. Regulator Provisionally Finds. GM Plans  $10 Billion Stock Buyback in Bid to Assuage Investors. Permira selects banks for  Golden Goose IPO. SoFi Is   Exiting Crypto With Banking Regulators Stepping Up Scrutiny. Jack Ma urges ‘ change and reform’ at Alibaba.  Paddington Photoshop. The National Christmas Tree  fell over.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] They repeatedly test GPT-4’s behavior, and these are some example outputs (reasoning scratchpad and messages) from these simulations.
 
 
   [2] I actually do not know the mechanics here and do not want to find out. I am worried that there is, you know, more coercive pressure on the kangaroos?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -242,46 +242,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjyj4r.615i/da206ad5.gif" alt="" border="0" /></a>

@@ -262,7 +262,7 @@ But this country, with its political system built around white patriarchal ideal
 * [rfk jr.](//nymag.com/intelligencer/tags/rfk-jr./)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

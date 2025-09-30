@@ -12,7 +12,7 @@
 
 # lamag.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![lamag.com]()
 

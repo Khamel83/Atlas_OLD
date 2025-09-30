@@ -90,7 +90,7 @@ Processing has resumed!
 ### Monitoring Schedule
 
 - **Watchdog runs every 5 minutes**
-- **Stall detection at 30 minutes of inactivity**  
+- **Stall detection at 30 minutes of inactivity**
 - **Auto-restart with full logs**
 - **Recovery confirmation when healthy**
 

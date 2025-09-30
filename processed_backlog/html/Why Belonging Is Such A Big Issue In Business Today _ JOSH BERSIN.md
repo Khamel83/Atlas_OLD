@@ -5,7 +5,7 @@
 
 # Why Belonging Is Such A Big Issue In Business Today
 
-by 
+by
 [joshbersin](https://joshbersin.com/author/joshbersin/ "Posts by joshbersin")
 ·
 Published August 31, 2020
@@ -111,29 +111,29 @@ Stay tuned for more on this topic, I hope to hear from you.
 
 [The Trouble with Gender Targets](https://hbr.org/2013/10/the-trouble-with-gender-targets)
 
-Dobbin, F., & Kalev, A. (2016, July-August). [Why diversity programs fai](https://hbr.org/2016/07/why-diversity-programs-fail)l: And what works  
+Dobbin, F., & Kalev, A. (2016, July-August). [Why diversity programs fai](https://hbr.org/2016/07/why-diversity-programs-fail)l: And what works
 better. Harvard Business Review, 94(7-8), 52-60.
 
 Toward a systemic and inclusive framework. In B. M. Ferdman & B. R. Deane (Eds.),
 
-[Diversity at work: The practice of inclusion](https://doi.org/10.1002/9781118764282.ch1) (p. 3–54). Jossey-Bass. https://  
+[Diversity at work: The practice of inclusion](https://doi.org/10.1002/9781118764282.ch1) (p. 3–54). Jossey-Bass. https://
 doi.org/10.1002/9781118764282.ch1
 
-Plaut VC1, Garnett FG, Buffardi LE, Sanchez-Burks J. (2011) [“What about me?” Perceptions of](https://www.ncbi.nlm.nih.gov/pubmed/21534702)  
+Plaut VC1, Garnett FG, Buffardi LE, Sanchez-Burks J. (2011) [“What about me?” Perceptions of](https://www.ncbi.nlm.nih.gov/pubmed/21534702)
 exclusion and whites’ reactions to multiculturalism.
 
-Macdonald G1, Leary MR. Psychol Bull. 2005 Mar;131(2):202-23. [Why does social exclusion hurt?](https://www.ncbi.nlm.nih.gov/pubmed/15740417)  
+Macdonald G1, Leary MR. Psychol Bull. 2005 Mar;131(2):202-23. [Why does social exclusion hurt?](https://www.ncbi.nlm.nih.gov/pubmed/15740417)
 The relationship between social and physical pain.
 
-[Why rejection hurts](https://www.edge.org/conversation/naomi_eisenberger-why-rejection-hurts).  
-https://www.edge.org/conversation/naomi\_eisenberger-why-rejection-hurts  
+[Why rejection hurts](https://www.edge.org/conversation/naomi_eisenberger-why-rejection-hurts).
+https://www.edge.org/conversation/naomi\_eisenberger-why-rejection-hurts
 Walton, G. M., & Cohen, G. L. (2007).
 
-[A question of belonging: Race, social fit, and achievement](https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.92.1.82). Journal of Personality and Social Psychology, 92(1), 82–96.  
-https://doi.org/10.1037/0022-3514.92.1.82  
+[A question of belonging: Race, social fit, and achievement](https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.92.1.82). Journal of Personality and Social Psychology, 92(1), 82–96.
+https://doi.org/10.1037/0022-3514.92.1.82
 https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.92.1.82
 
-[Fear of Being Different Stifles Talen](https://hbr.org/2014/03/fear-of-being-different-stifles-talent)t.  
+[Fear of Being Different Stifles Talen](https://hbr.org/2014/03/fear-of-being-different-stifles-talent)t.
 https://hbr.org/2014/03/fear-of-being-different-stifles-talent
 
 Shore, L.M., Randel, A.E., Chung, B., Dean, M.A., Ehrhart, K.H., Singh, G. (2011). Inclusion and diversity in work groups: A review and model for future research. Journal of Management, 37.

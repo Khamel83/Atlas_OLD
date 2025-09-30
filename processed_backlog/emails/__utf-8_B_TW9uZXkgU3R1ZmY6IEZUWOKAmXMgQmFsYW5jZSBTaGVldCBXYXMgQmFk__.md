@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There is so much, but I want to start with Serum.If a troubled company has a few days to beg potential investors for a bailout before it fil
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The box
-    
-  
+
+
 
 There is so much, but I want to start with Serum.
 If a troubled company has a few days to beg potential investors for a bailout before it files for bankruptcy, and it sends those investors its balance sheet so they can consider investing, and they all pass, and then the company files for bankruptcy, of course the balance sheet was bad. That is not a state of affairs that is consistent with a pristine fortress balance sheet.
@@ -129,63 +129,63 @@ So you've got this box and it’s kind of dumb, but like what's the end game, r
 
 The box, it turns out, was FTX (and Serum). It looked like a life-changing, world-altering business that would replace all the banks. It had a token, FTT (and SRM), with a multibillion-dollar market cap. You could even finance it, or FTX/Alameda could anyway: They could put FTT (and SRM) tokens in a box and get money out. (From customers.) They could take the dollars out and never, you know, give the dollars back. They just got liquidated eventually. And those tokens, FTT and SRM, were sort of like real monetizable stuff in some senses. But in other senses, not.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       But where did it go?
-    
-  
+
+
 
 I tried, in the previous section, to capture the horrors of FTX’s balance sheet as it spiraled into bankruptcy. But, as I said, there is something important missing in that account. What’s missing is the money. What’s missing is that FTX had at some point something like $16 billion of customer money, but most of its assets turned out to be tokens that it made up. It did not pay $16 billion for those tokens, or even $1 billion, probably.
   [7]
@@ -216,31 +216,31 @@ Here we are in the realm of pure speculation, but you could imagine a number of 
 
 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       So many other things
-    
-  
+
+
 
 Let’s do an FTX lightning round:
 	Due to some combination of the speed of its collapse and the casualness of its accounting and governance,   FTX did a “freefall” bankruptcy filing, without any prepared first-day motions or declarations. (Here is  the filing.) Ordinarily in a bankruptcy you get, pretty early on, a declaration from some senior officer kind of explaining what went down. Here we are still waiting for that.	Customers are, obviously, unhappy — including retail customers of FTX US, a separate entity that was supposed to be insulated from FTX international, but that seems to have “stopped processing withdrawals Friday after the bankruptcy filing.” 	FTX was also an institutional exchange, and some number of crypto hedge funds seem to have gotten caught with  their money trapped at FTX.	Withdrawals from FTX.com were mostly shut down as it imploded, but some off-ramps were open. For instance  Justin Sun’s Tron blockchain provided a credit facility allowing people to, effectively, withdraw Tron’s tokens from FTX. This led to FTX customers dumping other assets to buy Tron assets so they could get out. If you are a blockchain entrepreneur, “buy my token because even if your exchange collapses you’ll still be able to get your money back” is kind of a good pitch?	Another off-ramp is that for a while Bahamas residents  could take their money out, “per our Bahamian HQ’s regulation and regulators.” But then the Securities Commission of the Bahamas  put out a statement on Saturday saying, no, actually, “the Commission wishes to advise that it has not directed, authorized or suggested to FTX Digital Markets Ltd. the prioritization of withdrawals for Bahamian clients,” and that those withdrawals might be voidable in bankruptcy. Oops?	That Bahamas off-ramp led to a weird nonfungible token trade, where Bahamas residents could create NFTs, sell them at absurd markups on FTX to non-Bahamian customers, take out the proceeds and then transfer the proceeds to an outside wallet of the non-Bahamian customer. Here is more from  Aleksandar Gilbert at the Defiant. “‘This appears to be the first recorded case of NFT utility in existence,’ crypto influencer Cobie sarcastically tweeted early Friday.” 	I guess FTX got hacked? “Sam Bankman-Fried’s bankrupt digital-asset exchange FTX was hit by a mysterious outflow of about $662 million in tokens in the past 24 hours,”   reported Bloomberg News on Saturday.	“FTX’s  list of investors spans powerful and well-known investment firms: NEA, IVP, Iconiq Capital, Third Point Ventures, Tiger Global, Altimeter Capital Management, Lux Capital, Mayfield, Insight Partners, Sequoia Capital, SoftBank, Lightspeed Venture Partners, Ribbit Capital, Temasek Holdings, BlackRock and Thoma Bravo.” I suppose FTX is a failure of venture capitalist due diligence, but it’s an odd kind. The usual VC due diligence failure is, like, you back an entrepreneur who promises a futuristic product, and the product doesn’t work. FTX worked fine: People liked its technology, and it seems to have made money. The problem was in its balance sheet, which was full of snakes, and its governance, which put all the snakes there. Ideally the venture capitalists would have spotted that in due diligence, but the typical VC company has a very simple balance sheet and terrible governance, so it is sort of understandable that they sailed right by those problems.	“FTX’s Sam Bankman-Fried was interviewed by Bahamian police and regulators on Saturday,”   obviously.   And: “The Bahamian police said they’re working with the Bahamas Securities Commission to investigate whether there was any criminal misconduct in the collapse of the crypto exchange FTX.”  And: “The Manhattan U.S. attorney’s office is investigating FTX’s collapse.”	“Bankman-Fried’s Cabal of Roommates in the Bahamas Ran His Crypto Empire – and Dated. Other Employees Have Lots of Questions,” was a brisk and informative  CoinDesk headline last week.	“Big Investors Are Giving Up on Crypto Markets Going Mainstream,” ha.	Michael Lewis was somehow there for all of this, and is already  selling the movie rights.	“Sam Bankman-Fried is not very good at League of Legends,” reports the Financial Times. 
 
 Also   this is not FTX news but it is funny: “Crypto.com said it recovered almost $400 million in cryptoasset Ether from Asian exchange Gate.io, after it accidentally transferred the funds to the wrong account.” Not now, Crypto.com!
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Imagine being Elon Musk’s bankers on the Twitter Inc. deal. They have loaned him about $13 billion, which they planned to syndicate to investors, but which they are currently stuck holding. To syndicate that debt, they will need to prepare disclosure materials describing Twitter’s business plans and financial position. How will they do that? Twitter has completely upended  its business every few hours over the last two weeks. Musk  fired its chief accounting officer. Before the deal closed, Musk went around accusing Twitter of massive fraud, and as far as I know he is still pursuing those claims. He will, with absolutely no prompting,   tell anyone who listens that Twitter is at risk of imminent bankruptcy.
 What do you say, in the debt offering documents? “Please lend money to this company, which is a fraud and probably bankrupt, but we can’t tell you much about its business plan or financials”? Who would buy that? I mean, probably someone, is the answer; there is some price at which some high-yield investor would be willing to underwrite this mess. That price   seems to be roughly 60:
@@ -259,11 +259,11 @@ The ad campaign SpaceX is buying to promote Starlink is called a Twitter “take
 
 Sure. And in Delaware today,  the trial is starting in a lawsuit about Musk’s compensation plan at Tesla Inc.; for some reason Tesla shareholders seem to think that Musk runs his companies like personal playthings rather than acting as a loyal fiduciary for his outside shareholders.
 
-  
-    
+
+
       Anti-ESG antitrust
-    
-  
+
+
 
 Imagine that a big investor buys up a lot of stock in all of the oil companies, and she goes to meet with the chief executive officers of all the oil companies, and she says to them: “As your biggest shareholder, I want you to drill less oil, so that supplies are constrained and the price of oil goes up. Don’t worry though, I am also the biggest shareholder of all your competitors, and I will tell them the same thing. Everyone will drill less oil, so the price will go up, and you’ll all make more money with less work.” And this works, and all the oil companies drill less, and the price of oil goes up, and they all make more profit.
 I am not an antitrust expert, and nothing here is ever legal advice, but you can see how that could be an antitrust violation, no? It seems like a conspiracy to restrain trade and raise prices. It’s a bit odd — the CEOs are not conspiring with each other, but sort of coordinating through their big shareholder — but it’s fishy, anyway.
@@ -276,15 +276,15 @@ The GOP says it’s targeting “ESG collusion.” In letters sent to a group of
 One way to analyze this is that ESG investing and democracy are two different ways to coordinate behavior. One way to make the world better is to vote for representatives who will enact laws that make the world better; another way is to buy shares in companies and pressure them to do things that make the world better. It is tempting, and not exactly wrong, to think that ESG investing might sometimes be more effective, or that it is more likely to change the world in ways that you think are better. (Simplistically: Democracy, in the US, overweights the views of rural voters; investing overweights the views of coastal asset managers.) And so if you decide that something needs to be done to fight climate change, and you look at American politics, and then you look at the executives of big asset management companies, you might think “ah, yes, the asset managers need to fight climate change.” 
 But investing is only a very limited way to coordinate behavior! If you buy all the stocks of all the companies and too clearly coordinate between them, that’s an antitrust risk.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 China Plans   Property Rescue in Latest Surprise Policy Shift. Elizabeth Holmes Should Get   15 Years’ Prison for Fraud, US Says. Elizabeth Holmes Asks for a Lenient   18-Month Sentence at Home. More Zealot Than Showman:   Elizabeth Holmes Admirers Speak Out. Wealthy Russians Seen Fueling Demand for   Caribbean Island’s Passport. Jeff Bezos Is   Giving Dolly Parton $100 Million in Latest Award. KFC apologises after German  Kristallnacht promotion.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I mean, the entry is “-8,000,000,000.” Below that is an entry for “withdrawals on Sunday” of “5,000,000,000.” These are *bizarrely* round numbers. I suppose that if you’re siphoning off $8 billion to your affiliated trading firm in a hidden account, you might siphon off a round $8 billion, but lots of uncoordinated customer withdrawals are not going to add up to exactly $5 billion even. The point here is that FTX appears to have had no real accounting system for customer withdrawals? Just sort of take a guess and chuck it in an Excel sheet?
 
 
@@ -312,117 +312,117 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] See about 31:45 in   this video.
 
 
-  [10] See also Byrne Hobart’s post today about Bankman-Fried, utilitarianism, and more-than-full-Kelly betting. You can construct some weird utilitarianism that is like “it is optimal to constantly gamble customer money on crypto bets in order to maximize your chances of stopping a malignant AI from destroying humanity.” 
+  [10] See also Byrne Hobart’s post today about Bankman-Fried, utilitarianism, and more-than-full-Kelly betting. You can construct some weird utilitarianism that is like “it is optimal to constantly gamble customer money on crypto bets in order to maximize your chances of stopping a malignant AI from destroying humanity.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

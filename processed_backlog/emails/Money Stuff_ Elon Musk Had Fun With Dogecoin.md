@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Dogecoin is a tradable electronic token representing the value of Elon Musk’s attention. When Elon Musk tweets about Dogecoin, its price goe
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Did Elon Musk manipulate Dogecoin?
-    
-  
+
+
 
 Dogecoin is a tradable electronic token representing the value of Elon Musk’s attention. When Elon Musk tweets about Dogecoin, its price goes up. When he goes on “Saturday Night Live” and makes painful jokes about Dogecoin, its value goes up.
   [1]
@@ -123,37 +123,37 @@ On February 24, 2021, Musk tweeted an image of a cartoon Shiba Inu in a spacesui
 
 Come on! Come on! You could find some humorless quibbles here: Did Elon Musk really believe, and have adequate grounds for believing, that the “Dogecoin standard” would swallow the global financial system? But most of these tweets are just pictures of dogs. The overall thrust here is that Dogecoin is an online joke, and Elon Musk is a famous person who likes online jokes, and for a time there was a valuable synergy there. The value of Dogecoin as an online joke went up when Elon Musk was making Dogecoin jokes online. If you bought Dogecoin because Elon Musk tweeted about it, you didn’t buy it because you expected it to become the global monetary standard, or because you expected Tesla to start pricing cars in Dogecoin or whatever. You bought it because Elon Musk tweeted about it. That was the whole analysis: “Elon Musk tweeted about this joke dog coin, so I’m gonna buy it.” He really did tweet about it! How could you have been misled?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in Elon Musk
-    
-  
+
+
 
 Do you know what else would be a good tradable token of Elon Musk-ness? The stock of Twitter Inc., or X Corp. or whatever they’re calling it these days. But Twitter is closely held since Musk and a few friends bought it last year, so retail investors cannot trade it for its meme potential, and Musk’s public pronouncements cannot move its stock.
 And so this morning my Bloomberg Opinion colleague Ed Hammond argues that “  For His Next Trick, Musk Should Take Twitter Public.” The rationale here is not so much that Twitter needs the money (though it does!) or that it makes more sense as a pubic company or whatever, and more that Musk is leaving money on the table by doing meme-stock stuff to a private company:
@@ -167,11 +167,11 @@ People sometimes contrast corporate chief executive officers whose skills invol
   [6]
  And yet perhaps his greatest accomplishments are in financial engineering? In some ways Musk invented and perfected  meme stocks long before anyone ever thought about GameStop, and he has used his meme abilities to   raise billions of dollars of retail capital, get Tesla Inc. through tough financial times, and become, on some days, the richest person in the world. Plus whatever he did or didn’t get up to with Dogecoin. It is silly for him to run Twitter without taking advantage of his immense ability to move stock prices and raise capital. He is drawing so much attention to himself with Twitter, and he is world-historically good at turning attention into money. Why not do it with Twitter?
 
-  
-    
+
+
       Online banks
-    
-  
+
+
 
 We have   talked a   lot   recently about two theories of banking, and specifically of bank deposits. Theory 1 says that bank deposits are short-term funding, and depositors can take their money out at any time. Theory 2 says that bank deposits are actually long-term funding; depositors are information-insensitive and have long-term relationships with the bank, and though they are technically allowed to take their money out at any time, they rarely do.
 Theory 2, I have argued, is the traditional theory of bankers, and it influences traditional banking behavior. Specifically:
@@ -190,11 +190,11 @@ That growth came at a price. The average interest rate paid on deposits was 3.2%
 
 Right, if you are a traditional bank and you believe in Theory 2 and rates go up and you are right, you do great: You make more money on your assets, you don’t pay any more money on your deposits, and you capture a big spread. But if you’re wrong, all your depositors leave and you go bust, or at least, you pay like 4% on deposits and keep earning like 3% on your long-term assets. If you are an online bank and you believe in Theory 1, the outcomes are a bit simpler and less binary: You pay more interest as rates go up, but you probably don’t go bust.
 
-  
-    
+
+
       Hedge fund compensation
-    
-  
+
+
 
 When I was an investment banker, a guy joined our desk as a vice president from another bank. He had several months of gardening leave — enforced, paid time off due to his noncompete agreement with his prior bank — and then started working on our desk. He lasted, in my memory, a few months, and then left to go back to his old bank, after another period of gardening leave. We all thought he was a genius. Really the best possible job, it seemed to me at the time, was getting paid an investment banking salary for not doing investment banking. If you could just yo-yo back and forth between banks, taking six months of paid time off each time you moved, that seemed ideal. Others might disagree, and I was not, to be fair, a very good or ambitious investment banker. Maximizing gardening leave is not really a path to becoming a master of the universe. But it seemed nice.
 If you work at a financial services firm and you go to your boss and say “I am taking a job offer at a competitor, they are going to pay me $2 million a year,” your boss might say “no, stay, we’ll pay you $2.25 million.” For a high performer, money can be matched. But if going to the competitor gets you six months’ gardening leave, that might be a good reason to leave anyway. Can your boss match that? Well I mean sure, why not. Bloomberg’s   Nishant Kumar reported last week:
@@ -210,11 +210,11 @@ Hedge funds have long been the land of eye-popping rewards, but a few recent tre
 
 But “Lipner wasn’t the only one offered the sabbatical by Millennium.” Not working at a hedge fund does seem to be a highly desirable perk among people who work at hedge funds.
 
-  
-    
+
+
       Elsewhere in multistrategy hedge funds
-    
-  
+
+
 
 In general if you start a hedge fund and you go into an institutional allocator’s office and say “give me money so I can buy the stocks that will go up,” they are likely to say to you “no, we are full up on people who buy stocks that go up, we want returns that are uncorrelated to the stock market.” And if you go away and put on a fake mustache and come back and say “give me money so I can buy the bonds that will go up,” or the commodity futures or the cryptocurrencies or the equity volatility or the distressed credit or the farmland that will go up, they will also have heard that story before and already have an allocation. But if you go into an allocator’s office and say “give me money so I can buy temperature,”   that will pique their interest:
 
@@ -226,16 +226,16 @@ More than half of the fund’s teams run their own firms while managing accounts
 
 “We identify dislocations where the temperature is high one place and low somewhere else, and then we short the high temperature and buy the low temperature,” is probably not the strategy here, though it would be wonderful if it was. Anyway I love the idea of a hedge fund where the rules are (1) you have to make money but (2) you can’t trade stocks, bonds or crypto. The constraints make the art.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS to   Complete Credit Suisse Takeover as Early as June 12. Cboe Is Now   Listing Companies Alongside NYSE and Nasdaq. EV Makers Confront the ‘ Nickel Pickle.’ Assault Allegations Plague a $1.4 Billion Home   Eldercare Startup. Binance’s Regulatory Woes Pave a Path for CEO   Zhao’s Heir Apparent. UK Fines Brokerage ED&F Man £17.2 Million For Role in   Controversial Tax Scheme. BOE Wants   Deposit Protection Fund to Recapitalize Failing Banks. Twitter’s U.S. Ad Sales Plunge 59% as  Woes Continue. ETF Providers Rush to Tap Into  AI Investing Craze. Bitcoin Coders Feud Over Whether to Crush $1 Billion   Frenzy for Memecoins. JPMorgan Turns to   Blockchain for Dollar Trades in India Hub. “On those platforms, it’s listed as First Avenue Gourmet Deli, Hero Sandwich Shop, Bosscat Cheesesteaks, The Pancake Snob, Wraps on Tap, Insomnia Buffalo Wings, Panini Fantasy, Jasmine’s Coffee Bar, Jen’s Burger Blaze, NY Smoothie Joint, Nomad’s Bagels, Tina’s Tea Shop, Aldo’s Wraps Spot, Wonderland Wraps, Sam’s Sandwich Spot, Smoothie and Dessert Spot, Princess Panini, Tessa’s Fruity Treats, Empire State Panini, The Sandwich Slut, La Bella Italian Desserts, Seth’s Sandwiches,  The Sandwich Vibe, LV Taco Bar, Queen’s Quesadillas, The Gourmet Burger and Drip Check Coffee Shop.” SoftBank’s Onetime  Pizza-Robot Darling Shuts Down.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Actually   it goes down, but that is a sort of buy-the-rumor-sell-the-news situation; Dogecoin hit an all-time high just *before* he went on SNL. 
+
+  [1] Actually   it goes down, but that is a sort of buy-the-rumor-sell-the-news situation; Dogecoin hit an all-time high just *before* he went on SNL.
 
 
   [2] The lawsuit is in a strange place; it’s been sort of kicking around for a while, it keeps not quite working, and last week the plaintiffs filed a  motion for leave to amend to submit a third amended complaint. I am quoting in the text from their  proposed third amended complaint, which is the current version of their claims. (I also sometimes quote the  second amended complaint from December, and Musk’s  motion to dismiss that complaint.)
@@ -250,51 +250,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Or: There is a claim about insider trading, that “Musk traded Dogecoin profitably through one or more wallets and domestic exchanges using foreknowledge then unknown and undisclosed to Dogecoin investors generally or publicly, of his own intended moves to manipulate the market.” But his moves were tweets! How can it be illegal insider trading to trade ahead of your own plans to tweet a joke?
 
 
-  [6] Incidentally, I realize that he is  not technically the chief executive officer of Twitter anymore, but we are all grown-ups here, and he runs Twitter. Still I suppose that Twitter’s incoming CEO, Linda Yaccarino, could get out ahead of this by proposing an IPO herself. 
+  [6] Incidentally, I realize that he is  not technically the chief executive officer of Twitter anymore, but we are all grown-ups here, and he runs Twitter. Still I suppose that Twitter’s incoming CEO, Linda Yaccarino, could get out ahead of this by proposing an IPO herself.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -305,46 +305,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23civdab.5qca/35fd04b2.gif" alt="" border="0" /></a>

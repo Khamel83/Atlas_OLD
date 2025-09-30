@@ -36,7 +36,7 @@ Movers carted out his easy chair, his clothes, his television. Next came the thi
 
 All because he didnât pay a $134 property tax bill.
 
-**HOMES FOR THE TAKING:**   
+**HOMES FOR THE TAKING:**
 LIENS, LOSS AND PROFITEERS â Part 1 of 4
 
 [**Part 2**](/sf/investigative/2013/09/09/suspicious-bidding/): Suspicious bids go unnoticed in D.C.
@@ -45,8 +45,8 @@ LIENS, LOSS AND PROFITEERS â Part 1 of 4
 
 [**Part 4**](http://wapo.st/aeon): Debt-collecting machine
 
-**More from the series**  
-â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)  
+**More from the series**
+â¢ [Address errors leave homeowners in the dark](/sf/investigative/2013/10/11/left-in-the-dark/)
 â¢ [Full coverage](/sf/investigative/collection/homes-for-the-taking/)
 
 The retired Marine sergeant lost his house on that summer day two years ago through a tax lien sale âÂ [an obscure programÂ](http://otr.cfo.dc.gov/page/annual-real-property-tax-sale)run by D.C. government that enlists private investors to help the city recover unpaid taxes.
@@ -120,8 +120,8 @@ Tax lien foreclosures that have been identified by The Post
 
 of those foreclosed properties were houses and apartments located mostly in minority neighborhoods
 
-Note: The District no longer sells tax liens for delinquent tax bills under $1,000. Lien amounts include property taxes, penalties and interest. The District doesnât track legal fees charged to homeowners. The estimates of legal fees is besed on a Post study of more than 200 cases. The foreclosure and court cases are through mid-2013.  
-  
+Note: The District no longer sells tax liens for delinquent tax bills under $1,000. Lien amounts include property taxes, penalties and interest. The District doesnât track legal fees charged to homeowners. The estimates of legal fees is besed on a Post study of more than 200 cases. The foreclosure and court cases are through mid-2013.
+
 Source: Data from D.C. Office of Tax and Revenue and D.C. Superior Court
 
 Families have been forced to borrow or strike payment plans to save their homes.
@@ -438,7 +438,7 @@ Michael Williamson
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

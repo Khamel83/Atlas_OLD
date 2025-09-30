@@ -7,7 +7,7 @@
 
 # Amazon.com Page Not Found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Amazon.com Page Not Found](https://images-na.ssl-images-amazon.com/images/G/01/error/168._TTD_.jpg)
 

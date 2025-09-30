@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The general rule in mergers and acquisitions is that if you want to buy a company you have to pay all the shareholders the same price. This 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        The general rule in mergers and acquisitions is that if you want to buy a company you have to pay all the shareholders the same price. This
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Turquoise Hill
-    
-  
+
+
 
 The general rule in mergers and acquisitions is that if you want to buy a company you have to pay all the shareholders the same price. This is not an absolute rule. You can buy some shares of the company at varying market prices before you decide to buy the whole thing at a fixed price, as Elon Musk did with Twitter Inc.
   [1]
@@ -84,63 +84,63 @@ That is … unusual, and a bit aggressive? Turquoise Hill  thinks so:
 The Special Committee was first advised of the potential terms of the Agreements on the evening of Sunday, October 30, 2022. The Special Committee suggested to Rio Tinto that it offer comparable dissent proceedings as those offered to the Named Shareholders in the Agreements to all holders of Minority Shares (the “Minority Shareholders”). Rio Tinto advised that it was not making the terms of the Agreements available to all Minority Shareholders. 
 Ah. Well. I think that if Rio just offered to pay Pentwater and Sailingstone an extra $5 per share, the special committee would have done more than “suggest” offering it to everyone. But if you punt this to arbitration where Rio might pay an extra $5 per share, that might just work.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Distress
-    
-  
+
+
 
 In debt, the rule is different. We have   talked a few times about what I think of as the general theory of modern distressed debt investing, and to oversimplify it only slightly, that theory is “pay 51% of creditors a lot of money, pay the other 49% zero, and get the 51% to vote to stiff the 49%.” Exactly what is not allowed in mergers. People don’t like it that much in debt either.
 The standard story goes like this. A company has a bunch of debt outstanding. It is running into trouble and needs more money to operate, or more time to pay back its debt, or both. It looks carefully into its debt documents and realizes that it can change the terms of its debt, as long as holders of a majority (or sometimes a supermajority, perhaps two-thirds) of the debt agree.
@@ -170,20 +170,20 @@ Indeed, no rational lender would have lent new bona fide money to RCPC under the
 
 The basic question in these cases is: Can you just read the debt documents as craftily as possible, do whatever is strictly allowed by the text, and benefit some creditors at the expense of others? Or is there some background requirement of fairness or “oh come on it can’t have meant that,” so that your craftiest readings don’t actually work? The traditional view is that shareholders are entitled to fiduciary duties — which is why mergers have to be more or less fair to all shareholders — while creditors are entitled only to the letter of their contract. That traditional view has given rise to, you know, all this: a whole industry of distressed-debt cleverness built on structuring transactions to exploit the documents as much as possible. I suppose it is possible to take it too far, though: If creditors get too good at ruthlessly exploiting each other, eventually courts might step in and say “oh come on it can’t have meant that.” If a rule like “creditors are only entitled to what their contract explicitly says” always leads to absurd results, it might stop being the rule.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Borrow long to lend short
-    
-  
+
+
 
 If you have a roughly-one-year-ago-vintage mortgage, you should  probably never move:
 
@@ -194,11 +194,11 @@ By comparison, the average rate for a 30-year, fixed mortgage has more than doub
 
 Disclosure, I have a fairly cheap 30-year fixed-rate mortgage and a Marcus account, and I am not sure I have much of a point here other than to mention that. “Mortgages have negative convexity because their duration goes up as interest rates go up, since nobody wants to prepay, refinance or move when rates are high,” is a thing that I could have told you a year ago, but then it was of sort of academic interest to me. Now I am living it.
 
-  
-    
+
+
       Good severance
-    
-  
+
+
 
 One funny thing that could happen to you is that your employer could promise to pay you $680,000 over 16 months, meaning about $42,500 per month, but then in the contract, instead of typing “we will pay you $680,000 in monthly installments over 16 months,” they might type “we will pay you $680,000 per month for 16 months.” That would be better, for you, though you’d definitely have to go to court about it. Here is  law professor Jeff Lipshaw on a real case:
 
@@ -207,23 +207,23 @@ Then things go terribly wrong (internally).  The outside lawyer changes the dra
 
 This went to court and, as of last month, the executive won — he gets the $11 million — though that could still be appealed. 
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 I am not going to write much about Elon Musk’s plan to charge users of Twitter $8 a month for some vague set of upgrades, but lots of other people have. My favorite might be Ben Thompson’s rather bearish post, which argues essentially that Twitter is a very unpleasant product that most people do not want to use, but is extremely appealing and addictive to a small minority of us with significant personality flaws. This makes it a bad advertising business (not enough scale), but possibly a good subscription business (extremely addictive). I don’t really disagree with him but it is depressing.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Apollo bought close to a third of assets sold in  UK pension fund fire sale.  Broken Deal Triggered Currency Losses for Barclays, Deutsche Bank and Citigroup. Goldman Sachs’ Solomon Sees   Deal Recovery Possible Next Year. HSBC CFO Ewen Stevenson  Sought Top Job Before Surprise Resignation. How a Mysterious   China Screenshot Spurred a $450 Billion Rally. Wall Street Firm Makes a $1.8 Billion Bet on Forest  Carbon Offset. Before  OPEC+ Production Cut, Saudis Heard Objections From a Top Ally, the U.A.E. Global bankers ‘very pro-China’, says UBS chair. Wharton, Berkeley, NYU Offering  Online M.B.A.s for the First Time. With Pay Ranges of $2 Million, NYC   Transparency Law Is Off to a Glitchy Start. Professional  Cornhole Has a Cheating Scandal Called BagGate. 'Non-binary' Romeo and Juliet set in Nazi Germany  apologises for omitting Jews from casting call. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Though he   broke the law a little bit in doing it: The law requires him to disclose his ownership in Twitter once it got above 5%, precisely because that disclosure would alert everyone to his interest in buying the whole company, and might make people stop selling to you at market prices. Musk delayed that legally required disclosure, which allowed him to buy more stock cheaply.
 
 
@@ -233,114 +233,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Or the lenders go to the company; there’s a vigorous market for this stuff, and you want to be proactive about being on the winning side.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

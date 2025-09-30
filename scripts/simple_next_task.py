@@ -14,9 +14,9 @@ READY_TASKS = [
         "priority": "medium"
     },
     {
-        "id": "ATLAS-COMPLETE-030", 
+        "id": "ATLAS-COMPLETE-030",
         "slug": "make-all-tasks-qwen-compatible",
-        "title": "Restructure all tasks for autonomous Qwen execution", 
+        "title": "Restructure all tasks for autonomous Qwen execution",
         "priority": "critical"
     }
 ]

@@ -214,11 +214,11 @@ PODCASTS = [
 
 def main():
     print("🎯 Adding ALL podcasts to database from source of truth...")
-    
+
     # Connect to Atlas database
     db_path = Path.home() / "dev" / "atlas" / "atlas.db"
     conn = sqlite3.connect(db_path)
-    
+
     # Create/recreate podcasts table
     conn.execute("DROP TABLE IF EXISTS podcasts")
     conn.execute("""
@@ -234,7 +234,7 @@ def main():
             updated_at TEXT
         )
     """)
-    
+
     # Add all podcasts
     added_count = 0
     for category, name, count, future, transcript_only, exclude in PODCASTS:
@@ -248,30 +248,30 @@ def main():
             datetime.now().isoformat(), datetime.now().isoformat()
         ))
         added_count += 1
-    
+
     conn.commit()
-    
+
     # Show results
     total_podcasts = conn.execute("SELECT COUNT(*) FROM podcasts").fetchone()[0]
     active_podcasts = conn.execute("SELECT COUNT(*) FROM podcasts WHERE excluded = 0").fetchone()[0]
-    
+
     print(f"\n📊 Database populated:")
     print(f"   📻 Total podcasts: {total_podcasts}")
     print(f"   ✅ Active podcasts (Exclude=0): {active_podcasts}")
-    
+
     # Show breakdown by category for active podcasts
     categories = conn.execute("""
-        SELECT category, COUNT(*) 
-        FROM podcasts 
-        WHERE excluded = 0 
-        GROUP BY category 
+        SELECT category, COUNT(*)
+        FROM podcasts
+        WHERE excluded = 0
+        GROUP BY category
         ORDER BY COUNT(*) DESC
     """).fetchall()
-    
+
     print(f"\n📂 Active podcasts by category:")
     for cat, count in categories:
         print(f"   {cat}: {count}")
-    
+
     conn.close()
     print(f"\n✅ ALL {total_podcasts} podcasts now in Atlas database!")
 

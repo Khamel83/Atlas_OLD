@@ -12,11 +12,11 @@
 
 # Page Not Found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Page Not Found](https://static.core77.com/images/favicons/favicon-192x192.png)
 
-Page Not Found  
-  
-This is not the droid page you were looking for, sorry 'bout that. 
+Page Not Found
+
+This is not the droid page you were looking for, sorry 'bout that.
 

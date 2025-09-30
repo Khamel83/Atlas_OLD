@@ -74,7 +74,7 @@
 
 <div class="si-hr-lo">
       <a class="si-hr-lo__container" href="/" tabindex="1">
-        
+
         <svg class="si-hr-lo__image si-hr-lo__image--full" viewBox="0 0 270.36 100" xmlns="http://www.w3.org/2000/svg">
   <title>Jacobin Logo</title>
   <path d="m238.94,98.81h-13.55V1.07h3.03c3.61,0,7.21.06,10.8-.04,1.25-.04,1.65.42,1.91,1.54,4.49,19.13,9.01,38.24,13.53,57.36.67,2.84,1.36,5.66,2.32,8.46V1.16h13.38v97.59h-15.34c-5.26-22.16-10.51-44.36-15.78-66.56l-.32.05v66.57h.01Z"></path>
@@ -105,12 +105,12 @@
 <!-- Links -->
 
 <ul class="si-hr-lk si-hr-lk--po">
-  
+
     <li class="si-hr-lk__item si-hr-lk__item--1">
       <a class="si-hr-lk__link" href="/subscribe">Subscribe</a>
     </li>
-  
-  
+
+
   <li class="si-hr-lk__item si-hr-lk__item--2">
     <a class="si-hr-lk__link" href="/issue/speculation">Magazine</a>
   </li>
@@ -189,7 +189,7 @@
 
 <li class="si-hr-nv__item si-hr-nv__item--archive">
         <div @click.stop="toggle('archive')" class="si-hr-nv__toggle si-hr-nv__toggle--archive" role="button" tabindex="1" v-bind:class="is_active('archive', 'on')" v-on:keyup-13="toggle('archive')">
-          
+
           <svg class="si-hr-nv__icon si-hr-nv__icon--archive" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <title>Search Icon</title>
   <circle cx="24.79" cy="15.21" r="9.3"></circle>
@@ -220,9 +220,9 @@
 <!-- Checkout Cart -->
 
 <li class="si-hr-nv__item si-hr-nv__item--cart" id="cart">
-        
+
           <cart-header backend-cart-number="0"></cart-header>
-        
+
       </li>
 
 </ul>
@@ -235,7 +235,7 @@
       <div class="si-hr-mu__container">
         <div class="si-hr-mu__side">
           <a class="si-hr-mu__homelink" href="/" tabindex="1">
-            
+
             <svg class="si-hr-mu__logo" viewBox="0 0 19 81" xmlns="http://www.w3.org/2000/svg">
   <title>J</title>
   <path d="M18.29,69.46V.39h-3.15L.71,.35l.06,23.51,7.57-5.03v47.12c0,3.5-1.24,4.63-4.18,4.63H.77v10.06H6.87c8.25,0,11.42-2.94,11.42-11.19"></path>
@@ -295,7 +295,7 @@
       <div class="si-ar__container">
         <form action="/search" class="si-ar__search" method="get" role="search">
           <input class="si-ar__field" name="query" placeholder="Search and hit return" role="searchbox" tabindex="0" type="text"/>
-          
+
           <svg class="si-ar__icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <title>Search Icon</title>
   <circle cx="24.79" cy="15.21" r="9.3"></circle>
@@ -310,7 +310,7 @@
 
 <div data-nosnippet id="site-login" v-cloak>
     <form-login :open-athens="true" :redirect="false" :show-form="login_active" bl="si-hr-ln">
-      
+
     </form-login>
   </div>
 
@@ -344,30 +344,30 @@
 <time class="po-hr-fl__date">06.26.2017</time>
 
 <ul class="po-hr-fl__taxonomies po-hr-fl__taxonomies--location">
-          
+
             <li class="po-hr-fl__taxonomy">
               <a href="/location/united-states">United States</a>
             </li>
-          
+
         </ul>
 
 <ul class="po-hr-fl__taxonomies po-hr-fl__taxonomies--category">
-          
+
             <li class="po-hr-fl__taxonomy">
               <a href="/category/policy">Policy</a>
             </li>
-          
+
             <li class="po-hr-fl__taxonomy">
               <a href="/category/health">Health</a>
             </li>
-          
+
         </ul>
-      
-    
+
+
   </div>
 
 <ul class="po-hr-fl__sharing sm" id="post-header-share">
-    
+
     <li class="po-hr-fl__item sm__item">
       <a @click.stop="facebook_share" class="po-hr-fl__button sm__button" data-js="facebook-share" data-text="A Plan to Win Universal Health Care" data-url="https://jacobin.com/2017/06/trumpcare-obamacare-repeal-ahca-single-payer" role="button" tabindex="0">
         <svg class="po-hr-fl__icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
@@ -417,17 +417,17 @@
 <div class="po-hr-cn__contributors">
         <dl class="po-hr-cn__authors">
           <dt class="po-hr-cn__byline">By</dt>
-          
+
             <dd class="po-hr-cn__author">
               <a class="po-hr-cn__author-link" href="/author/timothy-faust">
                 Timothy Faust
               </a>
             </dd>
-          
+
         </dl>
-        
-          
-        
+
+
+
       </div>
 
 <p class="po-hr-cn__dek">Trumpcare is barbaric. Now is the time to redouble the fight for truly universal health care.</p>
@@ -441,8 +441,8 @@
 <figcaption class="po-hr-im__caption po-hr-im__caption--landscape">
                     <p class="po-hr-im__description">David Prasad / Flickr</p>
                   </figcaption>
-                
-              
+
+
             </figure>
 
 </header>
@@ -540,10 +540,10 @@
 <!-- Main Content -->
 
 <section class="po-cn__section po-wp__section" id="ch-1">
-            
-              
+
+
               <hr class="po-cn__rule po-wp__rule"/>
-            
+
             <p>The sun is setting on America’s half-century-long experiment in punishing the sick. A single-payer program is within reach. Even as their elected officials deny it, <a href="http://www.gallup.com/poll/191504/majority-support-idea-fed-funded-healthcare-system.aspx">Americans demand it</a>. But single-payer is not the goal in and of itself — instead, we must work toward a future where our aggregate resources and capabilities provide for all Americans’ fundamental needs.</p>
 <p>Housing is health care. Food is health care. These are the social determinants of health, and the work of realizing them — the work of striving for health justice — can only begin after we’ve created the universal risk pool and single-payer mechanism.</p>
 <p>The evolution of American private insurance is rooted in the cruel ideology of &#8220;individual accountability&#8221; and atomized personal isolation. It is unconscionable, it is barbaric, and it must be exorcised from our national myth. We can build a system in which no one is torn apart by medical bankruptcy or unable to afford care. Let’s do it right now.</p>
@@ -567,7 +567,7 @@
 <section class="po-fr__section prt-x">
     <h4 class="po-fr__heading">Share this article</h4>
     <div class="po-fr__sharing" id="post-footer-share">
-      
+
       <a @click.stop="facebook_share" class="po-fr__button js-share" data-js="facebook-share" data-text="A Plan to Win Universal Health Care" data-url="https://jacobin.com/2017/06/trumpcare-obamacare-repeal-ahca-single-payer" role="link" tabindex="0">
         <span>Facebook</span>
       </a>
@@ -584,11 +584,11 @@
 
 <section class="po-fr__section">
     <h4 class="po-fr__heading">Contributors</h4>
-    
+
       <p class="po-fr__desc">Timothy Faust is the <cite>Chapo Trap House</cite> health care correspondent and is pursuing a MPA in health policy and finance at NYU's Wagner Graduate School of Public Service.</p>
-    
-    
-    
+
+
+
   </section>
 
 <section class="po-fr__section">
@@ -597,41 +597,41 @@
 <div class="po-fr__taxonomies">
 
 <ul class="po-fr__taxonomy po-fr-tx__taxonomy--location">
-            
+
               <li class="po-fr__item">
                 <a href="/location/united-states">United States</a>
               </li>
-            
+
           </ul>
 
 <ul class="po-fr__taxonomy po-fr-tx__taxonomy--category">
-            
+
               <li class="po-fr__item">
                 <a href="/category/policy">Policy</a>
               </li>
-            
+
               <li class="po-fr__item">
                 <a href="/category/health">Health</a>
               </li>
-            
+
           </ul>
 
 <ul class="po-fr__taxonomy po-fr-tx__taxonomy--tags">
-          
+
             <li class="po-fr__item">
               <a href="/tag/health-care">Health care</a>
             </li>
-          
+
             <li class="po-fr__item">
               <a href="/tag/single-payer">Single payer</a>
             </li>
-          
+
             <li class="po-fr__item">
               <a href="/tag/trumpcare">Trumpcare</a>
             </li>
-          
+
         </ul>
-      
+
     </div>
   </section>
 </footer>
@@ -645,7 +645,7 @@
     <div class="pu-ml__container">
 
 <button @click.stop="close" class="pu-ml__exit">
-        
+
         <svg class="pu-ml__icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
   <title>Remove Icon</title>
   <line x1="7.17" x2="42.83" y1="7.17" y2="42.83"></line>
@@ -655,7 +655,7 @@
 
 <div class="pu-ml__main">
         <figure class="pu-ml__logo">
-          
+
           <svg class="pu-ml__logotype" viewBox="0 0 223 83" xmlns="http://www.w3.org/2000/svg">
   <title>Jacobin Logo</title>
   <path d="M196.28,81.34h-11.09V1.36c.84,0,1.66,0,2.48,0,2.95,0,5.9,.05,8.84-.03,1.02-.03,1.35,.34,1.56,1.26,3.67,15.65,7.37,31.29,11.07,46.93,.55,2.32,1.11,4.63,1.9,6.92V1.44h10.95V81.3h-12.55c-4.3-18.13-8.6-36.3-12.91-54.46l-.26,.04v54.47Z"></path>
@@ -699,7 +699,7 @@
   <transition name="fadein">
     <aside class="po-pr prt-x" v-cloak v-if="print_active">
       <a @click.stop="close_panel" class="po-pr__close">
-        
+
         <svg class="po-pr__icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
   <title>Remove Icon</title>
   <line x1="7.17" x2="42.83" y1="7.17" y2="42.83"></line>
@@ -760,7 +760,7 @@
 <div class="po-ca__col1">
       <section class="po-ca-rp">
         <div class="po-ca-rp__container">
-          
+
           <svg class="po-ca-rp__rule" preserveAspectRatio="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <polygon points="32 8 0 32 0 0 32 0 32 8"></polygon>
 </svg>
@@ -776,11 +776,11 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/christopher-baum">Christopher Baum</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
@@ -793,11 +793,11 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/matt-bruenig">Matt Bruenig</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
@@ -810,11 +810,11 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/dave-kamper">Dave Kamper</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
@@ -827,11 +827,11 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/branko-marcetic">Branko Marcetic</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
@@ -844,11 +844,11 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/adam-gaffney">Adam Gaffney</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
@@ -861,16 +861,16 @@
                       </a>
                     </h1>
                     <ul class="po-ca-rp__authors">
-                      
+
                         <li class="po-ca-rp__author">
                           <a class="po-ca-rp__author-link" href="/author/adam-gaffney">Adam Gaffney</a>
                         </li>
-                      
+
                     </ul>
                   </div>
                 </article>
-              
-            
+
+
           </div>
         </div>
       </section>
@@ -878,7 +878,7 @@
 
 <div class="po-ca__col2">
       <section class="po-ca-au">
-        
+
         <svg class="po-ca-au__rule" preserveAspectRatio="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <polygon points="32 8 0 32 0 0 32 0 32 8"></polygon>
 </svg>
@@ -902,13 +902,13 @@
 
 <section class="po-ca-xc">
         <div class="po-ca-xc__container">
-          
+
           <svg class="po-ca-xc__rule" preserveAspectRatio="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <polygon points="32 8 0 32 0 0 32 0 32 8"></polygon>
 </svg>
 
 <a class="po-ca-xc__frame" href="http://catalyst-journal.com/">
-            
+
             <svg class="po-ca-xc__image" viewBox="0 0 206.08 59.69" xmlns="http://www.w3.org/2000/svg">
   <title>Catalyst Logo</title>
 	<path d="M19.94,8.61c2.91,0,5.39,1.03,6.81,2.81c1.19,1.45,1.8,2.82,2,4.52h7.6c-0.32-2.6-1.3-6.18-4.08-9.04
@@ -983,7 +983,7 @@
 
 <div class="si-fr__main">
     <a class="si-fr__frame" href="/">
-      
+
       <svg class="si-fr__logo" viewBox="0 0 223 83" xmlns="http://www.w3.org/2000/svg">
   <title>Jacobin Logo</title>
   <path d="M196.28,81.34h-11.09V1.36c.84,0,1.66,0,2.48,0,2.95,0,5.9,.05,8.84-.03,1.02-.03,1.35,.34,1.56,1.26,3.67,15.65,7.37,31.29,11.07,46.93,.55,2.32,1.11,4.63,1.9,6.92V1.44h10.95V81.3h-12.55c-4.3-18.13-8.6-36.3-12.91-54.46l-.26,.04v54.47Z"></path>
@@ -998,7 +998,7 @@
 </a>
 
 <section class="si-fr-ml" id="mailing-list-signup">
-      
+
       <svg class="si-fr-ml__rule" preserveAspectRatio="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <polygon points="32 8 0 32 0 0 32 0 32 8"></polygon>
 </svg>

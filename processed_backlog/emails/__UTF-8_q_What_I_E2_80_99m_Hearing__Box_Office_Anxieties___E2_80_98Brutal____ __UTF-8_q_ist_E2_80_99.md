@@ -41,7 +41,7 @@ Mel Gibson, Kathy Kennedy, Jake Paul, John Krasinski, Dave Grohl, and… a curio
 
 But first…
 
- 
+
 
 Who Won the Week: Benson Boone
 ------------------------------
@@ -79,7 +79,7 @@ U.S. consumers.” Some surprises in the nearly all-female Top 10:
 Definitely amusing to see Adele so high given she’s barely done any
 endorsements, doesn’t tour beyond her just-ended Vegas residency, and hasn’t released new music since 2021. Also, where is Snoop?
 
- 
+
 
 The Brutalist Truth About Oscars Controversies
 ----------------------------------------------
@@ -104,7 +104,7 @@ endorsements from the likes of Cate Blanchett that fed all media. That’s what 
 So no, the A.I. in The Brutalist won’t lose it best picture, nor will the cultural missteps in Emilia Pérez (even that “penis to vagina” song), or the lack of intimacy coordinators on Anora, or
 whatever other issues coincidentally arise once nominations are announced on Thursday.    
 
- 
+
 
 Quote of the Week
 -----------------
@@ -250,7 +250,7 @@ Coogler’s vampire movie, Sinners, starring Michael B. Jordan as twin brothers,
 Yes, Warners still has franchise flicks like A Minecraft Movie, The Conjuring: Last Rites, and Mortal Kombat 2. But the De Luca-Abdy non-franchise lineup suggests an alternate, retro universe, where audiences still show up for original movies because of the concepts, well-liked stars, and filmmakers. Audiences certainly claim they want those movies… If they actually do, Warner Bros.
 could emerge from 2025 as more than just the home of Batman and Harry Potter, and maybe give Zaz a reason to fetch his tux from the dry cleaner. 
 
- 
+
 
 My Reading List…
 ------------------
@@ -292,7 +292,7 @@ Lauren Sherman looks at how the L.A. fires are impacting the red carpet side of 
 
 Hmmmm: Kathy Kennedy and Frank Marshall, who sold their Malibu house last year, also recently offloaded a big chunk of their art collection. [Puck ( https://puck.news/an-art-collections-escape-from-los-angeles/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
 
- 
+
 
 The Feedback
 ------------
@@ -325,7 +325,7 @@ future of the storytelling industry?” —A producer
 “I’m proposing a streamlined rehousing fund to provide immediate relief to displaced crew and non-union workers. While the industry unions and organizations like The Motion Picture & Television Fund are stepping in, this initiative would fast-track rehousing efforts, addressing an urgent need for those who keep our industry running. Long term, this fund, with
 investment from larger industry players, could be used to build affordable housing for future industry professionals, ensuring Los Angeles remains a global hub for skilled crews and innovative storytelling. This isn’t just about providing shelter, it’s about securing the future of Hollywood by supporting the people who’ve always made it possible.” —A screenwriter
 
- 
+
 
 Finally… Chart of the Week
 ----------------------------
@@ -365,6 +365,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUh1mswGXPD22JcLAYDtg=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

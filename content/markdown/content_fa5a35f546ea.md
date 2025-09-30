@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"08\/03\/2015","content_publish_time":"10:23","content_last_update_date":"09\/02\/2015","content_last_update_time":"15:31","contentcategory":"2016 Democratic Primary,2016 Election,2016 Presidential Election,Hillary Clinton,Joe Biden,The Endorsement Primary,The Party Decides","section_1":"politics","section_2":"politics:2016 election","story_title":"Joe Biden\u2019s Schr\u00f6dinger\u2019s Cat Campaign","story_id":85243,"author":"Nate Silver","page_name":"fivethirtyeight:politics:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["2016 Democratic Primary","2016 Election","2016 Presidential Election","Hillary Clinton","Joe Biden","The Endorsement Primary","The Party Decides"],"word_count":1294},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Joe Biden&#8217;s Schrödinger&#8217;s Cat Campaign | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":85243,"section":"politics2016-election
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Joe Biden&#8217;s Schrödinger&#8217;s Cat Campaign" />
@@ -205,7 +205,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -224,13 +224,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Joe Biden&#8217;s Schrödinger&#8217;s Cat Campaign									</div>
 				<a href="https://fivethirtyeight.com/features/joe-bidens-potential-2016-presidential-campaign/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/joe-bidens-potential-2016-presidential-campaign/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -294,7 +294,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -303,7 +303,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -320,7 +320,7 @@ display: none;
 								<time class="datetime updated" title="2015-08-03T14:23:09+00:00">10:23 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Joe Biden&#8217;s Schrödinger&#8217;s Cat Campaign								</h1>
@@ -330,10 +330,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/nate-silver/" title="" class="author url fn" rel="author">Nate Silver</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/2016-election/" class="term " name="">2016 Election</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,7 +346,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194.jpg">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg 2228w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=1536,1152 1536w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=2048,1536 2048w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-151448194-1.jpg?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -357,13 +357,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			Vice President Joe Biden arrives for a campaign event with President Obama in 2012 at Strawbery Banke Field in Portsmouth, New Hampshire.							<p class="credits">Saul Loeb / AFP / Getty Images</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 				Vice President Joe Biden arrives for a campaign event with President Obama in 2012 at Strawbery Banke Field in Portsmouth, New Hampshire.									<p class="credits">Saul Loeb / AFP / Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>Pundits — bored with the prospect of a Hillary Clinton coronation — have <a href="https://fivethirtyeight.com/features/the-bernie-sanders-surge-is-about-bernie-not-hillary/">conjectured</a> for months that Joe Biden might run for president, but the vice president has remained on the sidelines. So you’d be right to indulge some skepticism toward the <a href="http://www.nytimes.com/2015/08/02/opinion/sunday/maureen-dowd-joe-biden-in-2016-what-would-beau-do.html?_r=0">latest round of speculation</a> about Biden running.</p>
 <p>But let’s consider Biden’s position from our <a href="http://www.bloombergview.com/articles/2015-04-15/bush-rubio-and-the-inside-trap">outsider’s view.</a> Does it make sense for Biden to enter the race? Not so much for Biden himself, but does it make sense for the Democratic Party to have Biden run? That’s the relevant question from the “<a href="http://www.cjr.org/campaign_desk/how_to_understand_the_invisibl.php?page=all">The Party Decides</a>” paradigm, which would claim that Biden’s candidacy would be futile unless he can win the backing of a substantial constituency of influential Democrats.</p>

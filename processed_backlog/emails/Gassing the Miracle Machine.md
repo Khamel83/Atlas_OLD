@@ -7,9 +7,9 @@
 
 View this post on the web at https://www.notboring.co/p/gassing-the-miracle-machine
 
-Welcome to the 1,662 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 158,411 smart, curious folks by subscribing here: 
+Welcome to the 1,662 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 158,411 smart, curious folks by subscribing here:
 🎧  For the audio version, click the play button or listen on Spotify [ https://substack.com/redirect/0efe5568-5389-4013-8ee4-e864101c7b4b?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/6729ee24-7965-4315-8172-28b98cc1c3c6?r=9p0gt ]
-Today’s Not Boring is brought to you by… Masterworks [ https://substack.com/redirect/164218e7-dadf-41d9-8587-f1fe7f373208?r=9p0gt ] 
+Today’s Not Boring is brought to you by… Masterworks [ https://substack.com/redirect/164218e7-dadf-41d9-8587-f1fe7f373208?r=9p0gt ]
 As inflation and volatile markets continue to bleed the value of your cash and investments, it might be time to look for a potential solution, outside of traditional markets. One thing I’m looking at are real assets. 
 Why real assets? For inflation protection, historical performance, and portfolio diversification. According to new research from Goldman Sachs, portfolios with real assets have actually outperformed the 60/40 portfolio since WWII. 
 Right now, one real asset in my portfolio that's in the green is blue-chip art. Afterall, if there’s one thing Powell can’t print, it's more Picassos. How am I doing it? With the awarding-winning platform, Masterworks. 
@@ -18,11 +18,11 @@ They select works by the same world-renowned artists that are coveted by ultra-w
 Skip the waitlist with the Not Boring link [ https://substack.com/redirect/164218e7-dadf-41d9-8587-f1fe7f373208?r=9p0gt ].
 See important Regulation A disclosures at masterworks.com/cd
 Hi friends 👋,
-What a weekend! Phillies in the NLCS. Eagles 6-0. And we’re keeping the momentum going into Monday morning with a killer guest post on SCIENCE. 
-Optimism has been the theme of the year — and is the mission — here at Not Boring. Our brand of optimism isn’t blind, a belief that things will always go right; it’s that, despite setbacks, humans are capable of discovering solutions to our biggest challenges. The scientific process is a main reason for that. But another theme has been that, while progress is possible, it’s been slower on some fronts than we’d like or even expect. One reason, as we’ve covered, is that we need more energy. Another, that I hear whenever I listen to or read smart people on the subject, is that we aren’t getting as much juice for our scientific research squeeze as we used to. 
-So when Not Boring’s own Elliot Hershberg [ https://substack.com/redirect/ef0bc349-2f73-4777-ad18-9921aa15cbf2?r=9p0gt ] told me that he and Dr. Jocelynn Pearl [ https://substack.com/redirect/19de1692-b56d-46f5-8fe1-369c8d74de1a?r=9p0gt ] wanted to write a piece on the changes underfoot in the way we do scientific research, I jumped at it. They delivered. 
+What a weekend! Phillies in the NLCS. Eagles 6-0. And we’re keeping the momentum going into Monday morning with a killer guest post on SCIENCE.
+Optimism has been the theme of the year — and is the mission — here at Not Boring. Our brand of optimism isn’t blind, a belief that things will always go right; it’s that, despite setbacks, humans are capable of discovering solutions to our biggest challenges. The scientific process is a main reason for that. But another theme has been that, while progress is possible, it’s been slower on some fronts than we’d like or even expect. One reason, as we’ve covered, is that we need more energy. Another, that I hear whenever I listen to or read smart people on the subject, is that we aren’t getting as much juice for our scientific research squeeze as we used to.
+So when Not Boring’s own Elliot Hershberg [ https://substack.com/redirect/ef0bc349-2f73-4777-ad18-9921aa15cbf2?r=9p0gt ] told me that he and Dr. Jocelynn Pearl [ https://substack.com/redirect/19de1692-b56d-46f5-8fe1-369c8d74de1a?r=9p0gt ] wanted to write a piece on the changes underfoot in the way we do scientific research, I jumped at it. They delivered.
 This piece is a deep and sweeping look at how scientific research works in America, how it’s funded and organized, what it does well and where it falls short, and the meta-experiments people are running to jumpstart the Miracle Machine.
-Let’s get to it. 
+Let’s get to it.
 Gassing the Miracle Machine
 By Elliot Hershberg & Jocelynn Pearl
 Science is a foundational instrument for driving human progress.
@@ -65,8 +65,8 @@ The story hasn’t stopped there. Breakthroughs like cell-based therapies [ http
 While the Miracle Machine has changed our world for the better, systemic challenges have emerged over time. Our goal in laying out this bird’s eye view of the current system is to make it easier to understand some of its problems and to have the context to understand new projects seeking to tackle them. 
 To learn how the Miracle Machine has broken down, and three experiments being run to fix it…
 Thanks to Elliot [ https://substack.com/redirect/ef0bc349-2f73-4777-ad18-9921aa15cbf2?r=9p0gt ] and Jocelynn [ https://substack.com/redirect/19de1692-b56d-46f5-8fe1-369c8d74de1a?r=9p0gt ] for sharing their brilliance with us, and to Dan [ https://substack.com/redirect/630b0cff-6891-41b2-abdd-814f406e7ee6?r=9p0gt ] for editing!
-That’s all for today. We’ll be back Thursday with a deep dive on a company making Abundance happen. Have a great week! 
-Thanks for reading, 
+That’s all for today. We’ll be back Thursday with a deep dive on a company making Abundance happen. Have a great week!
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOemc0TXpBeU56SXNJbWxoZENJNk1UWTJOakF4TVRNNE55d2laWGh3SWpveE5qWTROakF6TXpnM0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAudkUxbFRQaG5JOUVzMUtfQlV0Y3BZOXdPMVByQTlDY0xMM3ZWVGcxQjIxZyIsInAiOjc4ODMwMjcyLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NjAxMTM4NywiZXhwIjoxNjY4NjAzMzg3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.j0meoS65GYdm2g0AjnGD_KS0KFDq_OAYZhpgBRBRHgo?

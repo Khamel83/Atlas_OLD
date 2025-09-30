@@ -8,7 +8,7 @@
 - [ ] Integrate with existing podcast processing cycle
 - [ ] Add error handling and retry logic for discovery failures
 
-### Task 1.2: Scale Bulk Discovery Capability  
+### Task 1.2: Scale Bulk Discovery Capability
 - [ ] Remove 5-10 episode testing limits from `scripts/generic_transcript_discovery.py`
 - [ ] Add batch processing for all episodes without transcripts
 - [ ] Implement progress tracking for long-running discovery (progress bars, ETA)
@@ -29,7 +29,7 @@
 - [ ] Track and report discovery yield (target: 50-100 transcripts)
 
 ### Task 2.2: This American Life Systematic Check
-- [ ] Use `thisamericanlife.org/{episode-number}/transcript` pattern  
+- [ ] Use `thisamericanlife.org/{episode-number}/transcript` pattern
 - [ ] Check all episodes in database against transcript availability
 - [ ] Leverage high existing success rate (83%) for bulk discovery
 - [ ] Extract episode numbers from titles systematically
@@ -68,7 +68,7 @@
 - [ ] Success rate improves from 0.7% baseline to 3%+ within first month
 - [ ] Daily reports include comprehensive transcript discovery statistics
 
-### Performance Requirements  
+### Performance Requirements
 - [ ] Discovery processing completes within 4-hour window
 - [ ] Rate limiting prevents service bans (2-5 second delays)
 - [ ] Database updates handle bulk transcript additions efficiently
@@ -93,7 +93,7 @@
 - [ ] 10+ new transcripts from This American Life archive
 - [ ] Weekly automation operational and reporting
 
-### Short-term (Month 1)  
+### Short-term (Month 1)
 - [ ] 100+ total new transcripts across all podcasts
 - [ ] Success rate improvement to 3%+ demonstrated
 - [ ] Pattern learning showing optimization trends

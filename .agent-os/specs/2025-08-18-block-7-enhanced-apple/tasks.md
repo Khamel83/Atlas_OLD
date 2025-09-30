@@ -5,8 +5,8 @@
 ### Phase 1: Advanced Shortcuts (Tasks 7.1.1 - 7.1.4)
 
 #### Task 7.1.1: Enhanced Capture API with Context
-**Estimate**: 4 hours  
-**Dependencies**: None  
+**Estimate**: 4 hours
+**Dependencies**: None
 **Description**: Extend capture API to accept contextual metadata
 
 **Implementation**:
@@ -20,9 +20,9 @@
 - Metadata properly validated and stored
 - Backward compatibility maintained
 
-#### Task 7.1.2: Smart Content Type Detection  
-**Estimate**: 3 hours  
-**Dependencies**: 7.1.1  
+#### Task 7.1.2: Smart Content Type Detection
+**Estimate**: 3 hours
+**Dependencies**: 7.1.1
 **Description**: Automatic content type detection and routing
 
 **Implementation**:
@@ -37,8 +37,8 @@
 - Clear confidence indicators
 
 #### Task 7.1.3: Advanced Shortcuts Scripts
-**Estimate**: 6 hours  
-**Dependencies**: 7.1.1, 7.1.2  
+**Estimate**: 6 hours
+**Dependencies**: 7.1.1, 7.1.2
 **Description**: Create intelligent Shortcuts with contextual logic
 
 **Implementation**:
@@ -53,8 +53,8 @@
 - Graceful error handling and user feedback
 
 #### Task 7.1.4: Auto-Categorization Engine
-**Estimate**: 5 hours  
-**Dependencies**: 7.1.2  
+**Estimate**: 5 hours
+**Dependencies**: 7.1.2
 **Description**: ML-based content categorization
 
 **Implementation**:
@@ -71,8 +71,8 @@
 ### Phase 2: Reading List Integration (Tasks 7.2.1 - 7.2.3)
 
 #### Task 7.2.1: Safari Reading List Parser
-**Estimate**: 4 hours  
-**Dependencies**: None  
+**Estimate**: 4 hours
+**Dependencies**: None
 **Description**: Extract and parse Safari Reading List data
 
 **Implementation**:
@@ -87,8 +87,8 @@
 - Proper error handling for permission issues
 
 #### Task 7.2.2: Bulk Import Pipeline
-**Estimate**: 3 hours  
-**Dependencies**: 7.2.1  
+**Estimate**: 3 hours
+**Dependencies**: 7.2.1
 **Description**: Efficient bulk processing of Reading List items
 
 **Implementation**:
@@ -103,8 +103,8 @@
 - Proper duplicate detection
 
 #### Task 7.2.3: Reading List Shortcuts
-**Estimate**: 2 hours  
-**Dependencies**: 7.2.1, 7.2.2  
+**Estimate**: 2 hours
+**Dependencies**: 7.2.1, 7.2.2
 **Description**: iOS Shortcuts for Reading List management
 
 **Implementation**:
@@ -121,8 +121,8 @@
 ### Phase 3: Location Services (Tasks 7.3.1 - 7.3.3)
 
 #### Task 7.3.1: Location Data Integration
-**Estimate**: 4 hours  
-**Dependencies**: 7.1.1  
+**Estimate**: 4 hours
+**Dependencies**: 7.1.1
 **Description**: Core Location integration with privacy controls
 
 **Implementation**:
@@ -137,8 +137,8 @@
 - Proper data validation and sanitization
 
 #### Task 7.3.2: Location-Based Analytics
-**Estimate**: 3 hours  
-**Dependencies**: 7.3.1  
+**Estimate**: 3 hours
+**Dependencies**: 7.3.1
 **Description**: Location pattern analysis and insights
 
 **Implementation**:
@@ -153,8 +153,8 @@
 - Useful insights for content organization
 
 #### Task 7.3.3: Location-Enhanced Shortcuts
-**Estimate**: 2 hours  
-**Dependencies**: 7.3.1  
+**Estimate**: 2 hours
+**Dependencies**: 7.3.1
 **Description**: Location-aware capture shortcuts
 
 **Implementation**:
@@ -171,8 +171,8 @@
 ### Phase 4: Voice Processing (Tasks 7.4.1 - 7.4.3)
 
 #### Task 7.4.1: Voice Transcription Pipeline
-**Estimate**: 5 hours  
-**Dependencies**: None  
+**Estimate**: 5 hours
+**Dependencies**: None
 **Description**: Voice memo transcription and processing
 
 **Implementation**:
@@ -187,8 +187,8 @@
 - Processes files up to 1 hour
 
 #### Task 7.4.2: Speaker Identification
-**Estimate**: 4 hours  
-**Dependencies**: 7.4.1  
+**Estimate**: 4 hours
+**Dependencies**: 7.4.1
 **Description**: Multi-speaker conversation processing
 
 **Implementation**:
@@ -203,8 +203,8 @@
 - Confidence indicators for speaker changes
 
 #### Task 7.4.3: Voice Memo Shortcuts
-**Estimate**: 3 hours  
-**Dependencies**: 7.4.1  
+**Estimate**: 3 hours
+**Dependencies**: 7.4.1
 **Description**: iOS integration for voice memo capture
 
 **Implementation**:
@@ -226,7 +226,7 @@
 - Location data validation testing
 - Voice transcription accuracy testing
 
-### Integration Tests  
+### Integration Tests
 - End-to-end capture workflow testing
 - Cross-device synchronization testing
 - Bulk import performance testing

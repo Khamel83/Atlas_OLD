@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="nymag.com/intelligencer/_components/clay-meta-description/instances/clduj3jcf00030idu6809lq54@published" -->
 <meta name="description" content="Michelle Goldberg argues in the New York Times that Biden should retire and let a new generation of Democratic leaders emerge. That would likely produce a nasty fight among many candidates with Donald Trump or Ron DeSantis waiting in the wings. ">
-<meta name="twitter:description" content="Plenty of Democrats want Biden to step aside for a new generation of leaders. But they’re wishing for a fight that could hurt more than it helps."> 
+<meta name="twitter:description" content="Plenty of Democrats want Biden to step aside for a new generation of leaders. But they’re wishing for a fight that could hurt more than it helps.">
 <meta property="og:description" content="Plenty of Democrats want Biden to step aside for a new generation of leaders. But they’re wishing for a fight that could hurt more than it helps.">
 
 <!-- data-uri="nymag.com/intelligencer/_components/meta-image/instances/clduj3jci00050iduwwzbli4k@published" -->
@@ -243,7 +243,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -323,14 +323,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -340,7 +340,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"intelligencer","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -445,11 +445,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -688,7 +688,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -948,7 +948,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -985,7 +985,7 @@ nymYTApiReady = true;
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </section>
@@ -1004,7 +1004,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/02/what-would-2024-look-
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-early-and-often inline"
                   href="//nymag.com/intelligencer/tags/early-and-often/">early and often</a>
         </div>
@@ -1021,7 +1021,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/02/what-would-2024-look-
             <div class="main-author hidden-expanded-bio"><span>By</span> <span class="author-name">
         <a href="//nymag.com/author/ed-kilgore/" rel="author" class="article-author"><span>Ed Kilgore</span></a>,
           <span class="author-bio">political columnist for Intelligencer since 2015</span>
-          
+
       </span></div>
 
 </span>
@@ -1082,7 +1082,7 @@ data-canonical-url="http://nymag.com/intelligencer/2023/02/what-would-2024-look-
     </div>
   </header>
   <section class="body">
-    
+
     <div id="intelligencer-zephr-anchor" class="article-content inline" data-editable="content">
       <div class="lede-image-wrapper inline horizontal">
           <div class="image-wrapper">
@@ -1107,10 +1107,10 @@ data-canonical-url="http://nymag.com/intelligencer/2023/02/what-would-2024-look-
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/clduklqlh001q3b6vmzh1z5nv@published" data-word-count="72">Unfortunately, a contested 2024 Democratic primary probably wouldn’t be a calm, deliberative process. It would more likely be a nasty and complicated slugfest leading to a shaky general-election campaign. The GOP presidential field is <a href="https://nymag.com/intelligencer/2023/01/donald-trumps-2024-gop-challengers-need-to-jump-in-soon.html">coming together pretty late</a> compared with previous cycles, and even if Biden made a call soon, Democratic candidates would find themselves scrambling to put together a national campaign. Here are some likely consequences of a sudden Biden retirement.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldul0e8o00243b6v78fmsozk@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     Kamala Harris would run, but she wouldn’t clear the field.
     </span>
@@ -1121,10 +1121,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldul0e8o
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/cldul8bt3002i3b6vcspqlmgm@published" data-word-count="74">Furthermore, Harris might have to prove her appeal to Black voters. In 2020, Black voters strongly <a href="https://nymag.com/intelligencer/2019/08/kamala-harris-black-voters.html">preferred Biden to Harris</a>, ruining her efforts to pursue a <a href="https://nymag.com/intelligencer/2018/10/kamala-harris-updates-obamas-winning-strategy-for-2020.html">strategy modeled on Obama’s</a> in 2008. Would she do better with this crucial segment of the primary electorate in a second presidential campaign? It’s unclear, particularly if the “electability” concerns that helped boost Biden among Black and white voters alike turn out to be a millstone for Harris.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldulbciw002w3b6v8h4l8xt3@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     2020 candidates would flood the race.
     </span>
@@ -1137,10 +1137,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldulbciw
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/cldulkg0m00343b6v6nspckar@published" data-word-count="70">There are also younger 2020 candidates who envision themselves in the White House and may accelerate their plans given the surprising appearance of an “open” nomination contest and the uncertainty as to when the next “opening” might occur. For some reason, <a href="https://nymag.com/intelligencer/2023/02/has-pete-buttigiegs-dream-job-turned-into-a-nightmare.html">Pete Buttigieg</a> is often the sole object of speculation on this possibility, but <a href="https://nymag.com/intelligencer/2020/03/will-petes-and-amys-abandoned-voters-move-to-biden.html">Amy Klobuchar</a>, <a href="https://nymag.com/intelligencer/2020/06/cory-booker-on-the-george-floyd-police-brutality-protests.html">Cory Booker</a>, <a href="https://nymag.com/intelligencer/2020/01/julian-castro-drops-out.html">Julian Castro</a>, and even <a href="https://nymag.com/intelligencer/2019/10/why-havent-more-democratic-candidates-dropped-out.html">Michael Bennet</a> might go for the gold again.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldundtqd003p3b6vf2rzfrpl@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     The primary would attract plenty of fresh candidates, too.
     </span>
@@ -1149,10 +1149,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldundtqd
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/clduneh03003w3b6vovb42wg1@published" data-word-count="81">The 2024 primary field could be even more crowded than it was four years earlier. There are several major Democratic officeholders thought to be waiting for the right moment to run for president. If Biden doesn’t run, that moment might arrive early for three governors: California’s <a href="https://nymag.com/intelligencer/2022/08/what-a-difference-a-year-has-made-for-gavin-newsom.html">Gavin Newsom</a>, Illinois’s <a href="https://nymag.com/intelligencer/2018/10/democrats-are-competitive-in-midwestern-gubernatorial-races.html">J.B. Pritzker</a>, and Michigan’s <a href="https://nymag.com/intelligencer/2023/01/michigan-democrats-2022-midterm-results-the-states-project.html">Gretchen Whitmer</a>. The first two governors have vast resources at their disposal, while the third checks an awful lot of boxes for Democrats valuing electability above all else.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldunpgtp004a3b6vr1inttst@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     The fight over the Democratic primary calendar would become red hot.
     </span>
@@ -1161,10 +1161,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/cldunpgtp
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/cldunrehn004h3b6vyf5k3itp@published" data-word-count="114">Right now, the Democratic National Committee’s Biden-driven bid to <a href="https://nymag.com/intelligencer/2022/12/democrats-make-south-carolina-first-primary-and-dump-iowa.html">shake up the presidential primary calendar</a> is a bit of an abstract proposition; it doesn’t really matter if Biden runs unopposed. If Biden isn’t the nominee, it will suddenly matter a great deal whether the primaries begin with South Carolina rather than New Hampshire, whether Iowa is excluded from the early states altogether, and whether Georgia or Michigan go third or fourth or fifth. In a late-developing open nomination contest, candidates may rise or fall based on how well they navigate the new calendar. So the DNC’s tentative decision to move ahead with a new order of states could suddenly become controversial and even disputed.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/clduo17dz00503b6vmumub9y4@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     Democrats would fall right back into “disarray.”
     </span>
@@ -1175,10 +1175,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/clduo17dz
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/clduo6hzn005e3b6vwtmzq6i9@published" data-word-count="90">But the relative ideological unity of the Democratic Party would by no means guarantee a peaceful nomination process if Biden retires. In primaries in which everyone is mostly aligned on the issues, candidates tend to differentiate themselves on personal matters, often leading to <a href="https://www.latimes.com/politics/story/2023-01-20/california-democratic-senate-primary-free-for-all">especially nasty battles</a>. Warren’s demolition of billionaire <a href="https://nymag.com/intelligencer/2020/02/bloomberg-walks-onto-the-stage-and-into-a-buzzsaw.html">Michael Bloomberg’s 2020 candidacy</a> candidacy in just one debate could provide the template for 2024. And, ideology aside, a competitive contest could revive disagreements over race and gender at a time when the Democratic coalition couldn’t afford any self-inflicted wounds.</p>
 
-<h2  class="clay-subheader_fancy hanging-item" data-editable="text" 
+<h2  class="clay-subheader_fancy hanging-item" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/clduocezn005n3b6vkw5kbz68@published" >
   <style></style>
-  
+
     <span class="unordered-list-item"><p class="list-item-text">.</p></span>
     Costs could be high for Democrats.
     </span>
@@ -1244,7 +1244,7 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/clduocezn
           </a>
         </li>
     </ul>
-      
+
       <a class="see-all-link"
         href="//nymag.com/tags/politics"
         aria-label="See All from More on politics">
@@ -1442,7 +1442,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1469,8 +1469,8 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 </section>
-    <section class="secondary" data-editable="secondary" data-track-zone="secondary">  
-  
+    <section class="secondary" data-editable="secondary" data-track-zone="secondary">
+
 <div data-uri="nymag.com/intelligencer/_components/curated-feed/instances/homepage@published" data-editable="settings" class="curated-feed is-on-article-page">
 
 <div class="feed-header">THE FEED</div>
@@ -1497,7 +1497,7 @@ const ldJsonScript = document.createElement('script');
               </div>
             </div>
           </a>
-          
+
           <a href="https://nymag.com/intelligencer/article/how-donald-trump-has-made-himself-investigation-proof.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
               <time class="timestamp" datetime="2025-09-15T09:00:34.326Z">5:00 a.m.</time>
@@ -1537,9 +1537,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
         <div class="most-popular-embed">
           <section data-uri="nymag.com/intelligencer/_components/most-popular/instances/curated-feed@published" class="most-popular_curated-feed" data-track-type="article-list">
@@ -1838,9 +1838,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/mamdanis-new-ideas-on-crime-make-his-opponents-look-old.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2014,9 +2014,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/diagnosed-narcissists-npd-disorder-coaching-hustle-influencers-tiktok-youtube.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2132,10 +2132,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="nymag.com/intelligencer/_components/choreographer/instances/cl38nlk2i00223f6nrvf6t10w@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2154,7 +2154,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2744,7 +2744,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="nymag.com/intelligencer/_components/affiliate-links/instances/intelligencer@published" class="affiliate-links"
    data-amazon="nymagcom-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -3019,7 +3019,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

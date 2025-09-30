@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Oh man, I want to tell you about the funniest Money Stuff item of, like, summer 2024. Here’s what it will be: Elon Musk is going to ask Tesl
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hotel Delaware
-    
-  
+
+
 
 Oh man, I want to tell you about the funniest Money Stuff item of, like, summer 2024. Here’s what it will be:
 	Elon Musk is going to ask Tesla Inc.’s board of directors to change its state of incorporation from Delaware, which just   invalidated Musk’s $55 billion pay package,   to Texas, which loves Musk and is begging him to move and would probably let him pay himself whatever he wants.	Tesla’s board is going to be like “sure yes of course, whatever you want.”	Then Tesla will ask shareholders to vote to approve the relocation, as Musk  has already said it will do.	Some shareholders will sue Tesla, asking a Delaware court to stop Tesla from moving.	They might win? 
@@ -104,37 +104,37 @@ Anyway, that’s the news from six months from now, and I suppose when it actual
 I don’t know; I think it’s gonna happen. Last week  Musk moved Neuralink Corp., his brain implant company, from Delaware to Nevada, and he previously moved Twitter to Nevada (and renamed it X). Those deals were easy, though: Those are private companies with smallish groups of shareholders, none of whom are all that jazzed to sue Elon Musk, so he can kind of do what he wants.  Tesla is different. It does make sense that Musk would want  to pursue his next idea at one of his other, private, Nevada companies. He just has a lot more control over them.
 I  said last month that “there is something awkward about a judge second-guessing the CEO compensation decisions of the board of directors of a $600 billion company, even if, yes, it’s the board of Tesla.” But that is nothing compared to how awkward it will be for a Delaware judge to prevent the company from leaving Delaware because Musk doesn’t like Delaware judges. It seems like the world can’t really work that way, that Delaware can’t really prevent its companies from leaving. And yet … maybe? It’s gonna be a fun time here at Money Stuff when it happens.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Multistrategy
-    
-  
+
+
 
 I   wrote the other day that Bill Ackman’s hedge fund, Pershing Square LP, “is kind of what you think of when you think of a hedge fund.” But then I realized (in a footnote) that I needed to qualify that statement. I don’t know what you think of when you think of a hedge fund. I think there are two main models. There is what I think of as the old-school classic hedge fund, like Pershing Square, where one high-profile manager makes a handful of concentrated high-conviction market bets using his natural talent and hard work and market experience and gut instinct.
 But then there is the newer model of multimanager, multistrategy hedge funds, or “pod shops,” like Citadel or Millennium or Point72, that have a bunch of different portfolio managers each making bets in some particular sector or strategy. Unlike the old-school managers, the pod-shop portfolio managers don’t usually go on television that much.
@@ -157,11 +157,11 @@ It's an alpha capture-type strategy in which 12 West Palm Beach-based analysts w
 
 If your scientific management determines that the analysts add most of the value and that the portfolio managers can just be automated away, that’s what you do.
 
-  
-    
+
+
       More cell phones
-    
-  
+
+
 
 I guess if you ran a business and you invented some new product that you knew would prove essential to every employee of every investment bank, asset manager and other financial services firm, you might start by selling it to the big banks. The big banks have lots of money and can afford your product, winning their business will validate your product in the eyes of smaller firms, and you just get a lot of bang for your marketing buck: Big banks have thousands of employees, you probably price your product by the seat, and so you can get a lot of money by selling to a large company. But later, after you saturate that market, you will move on to other, smaller firms. Eventually you’ll get around to charging a two-person hedge fund for two copies of your product. There’s still money to be made.
 The US Securities and Exchange Commission does various things, but one thing that it does these days is charge financial services firms large fees for using mobile phones. I mean, it doesn’t provide the phones or anything. But the SEC has developed a theory that it is illegal for employees of securities brokerages and investment managers to use WhatsApp or personal text messages to talk about work, and it has applied that theory retroactively to fine firms whose employees did that. And since, as far as I can tell, every single employee of every single securities brokerage and asset manager has at some point at least texted their boss to say “hey sorry I’m running late for this meeting,” the SEC can more or less fine every financial firm for doing this. It’s not exactly a flat per-seat fee, but the fines do seem to scale with the size of the firm.
@@ -170,24 +170,24 @@ And so  last week:
 The Securities and Exchange Commission [Friday] announced charges against five broker-dealers, seven dually registered broker-dealers and investment advisers, and four affiliated investment advisers for widespread and longstanding failures by the firms and their employees to maintain and preserve electronic communications.
 The firms include Northwestern Mutual, Lincoln Financial, Guggenheim Securities, a bunch of others; the fines ranged from $1.25 million to $16.5 million. There is no suggestion that anyone at any of these firms used their personal phones to do crimes, just that using their personal phones to talk about business is itself illegal. They’re gonna keep going with this. Eventually I’m going to be fined $12.95 for texting a colleague about my work.
 
-  
-    
+
+
       Bill Ackman took the FT’s ‘Bill Ackman or American Psycho?’ quiz
-    
-  
+
+
 
 “I got a perfect score,” he tells Reeves Wiedeman at New York Magazine, in  a profile that also features “a demon child named Ackman who harvests souls for the Great Demon King.” Also quoted in this profile: “There’s a meme going around that apparently I’m causing a lot of marriages to have trouble.” And: “I am an extremely fast writer, and I am powered by a profound love that is infinite.” And: “a WhatsApp group with probably 50 billionaires.” I hope they don’t talk about work.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 David Solomon  Strengthens His Grip on Goldman Sachs. New York Community Bancorp Went From a Crisis Winner to Banking’s Next Worry. Private equity chiefs enjoy $40bn gain in share value as  assets surge. Private Equity   Returns Plunge to Global Financial Crisis Levels. Diamondback to Buy Endeavor for $26 Billion in   Oil Megadeal. The  Priciest Shareholder Fight Ever Is Headed to Disney’s Boardroom. HP Seeks $4 Billion in Losses From Lynch Over   Autonomy Fraud. EY took on $700mn in debt for doomed ‘Project Everest’ spin-off plan. Elon Musk Must Testify in   SEC Twitter Probe, Court Rules. Military Medals and a Famous Last Name: How a  Con Man Made Off With Millions in Texas. Six Years After   Volmageddon, Volatility Fears Resurface in US Stocks. “It was hugely important to me that   investing be the fabric of the novel, not the backdrop.” Inside European finance’s most  secretive society. How Companies   Say ‘Layoffs’ Without Saying ‘Layoffs.’ The  Groucho Marx Theory of Efficient Markets. Citi Tells Dealmakers to   Control Their Drinking at Client Events.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Actually that is the amended complaint after Maffei won the shareholder votes; the first complaint — before the votes — is  here. 
+
+  [1] Actually that is the amended complaint after Maffei won the shareholder votes; the first complaint — before the votes — is  here.
 
 
   [2] From  the initial complaint: “‘Nevada has reformed its laws to free officers and directors from virtually any liability arising from the operation and supervision of their companies. This strategy has allowed Nevada to attract … firms with a preference for strong management protection that is not satisfied by Delaware law.’ It is for this reason that many observers recognize that Nevada sells itself as offering a ‘no liability regime.’ As prominent corporate law professor Ann Lipton recently observed, ‘I tell my students, Nevada is where you incorporate if you want to do frauds.’ Plaintiffs respect the Nevada legislature’s prerogative to distinguish its corporate law from that of Delaware (and the dozens of legal systems around the world that structure their corporate law on Delaware’s model) by appealing to fiduciaries who prefer a no-liability regime. But no rational minority stockholder would voluntarily agree to give up the benefits of the duty of loyalty, particularly in a controlled company where they face an omnipresent risk of self-dealing by a controller who has a history of abusive transactions. Yet that is effectively what Maffei and the other Defendants are imposing on their minority stockholders.”
@@ -196,48 +196,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The crude math there is: Tesla has  3.2 billion shares outstanding, Musk  owns 411 million of them (assuming his big options package is canceled), or 12.9%, and he   says he needs 25% control, or another 12.1%. Tesla’s equity market capitalization, per Bloomberg, was $616.5 billion as of the close last Friday; holding that constant, getting him another 12.1% would require transferring $74.6 billion of value from other shareholders to Musk. (Alternate math might be: Getting him to 25% would require issuing 513 million new shares, since the new shares would change the denominator. Tesla’s stock closed at $193.57 on Friday, making 513 million shares worth about $99.3 billion. This seems wrong — the new shares would be dilutive — but it’s more fun to say that he wants a $100 billion pay package.)
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -248,46 +248,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckfn02.647l/9bb02025.gif" alt="" border="0" /></a>

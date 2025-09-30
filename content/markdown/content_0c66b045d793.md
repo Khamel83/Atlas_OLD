@@ -50,9 +50,9 @@
           "name": "Sydney Brownstone"
         },
         "description": "Six Women Say This Seattle Man Posed as a Female Porn Recruiter in Order to Lure Them to His Apartment",
-        
+
           "isAccessibleForFree": "True"
-        
+
       }
     </script>
 
@@ -62,11 +62,11 @@
   <link rel="icon" type="image/x-icon" href="https://www.thestranger.com/assets/sites/stranger/images/favicon.png">
 
 <meta property="fb:app_id" content="43933993878"/>
-  
-  
+
+
     <meta property="fb:admins" content="741428065"/>
-  
-  
+
+
     <meta property="fb:pages" content="56439755991" />
 
 <link rel="canonical" href="https://www.thestranger.com/features/2016/06/08/24182705/the-audition" />
@@ -110,13 +110,13 @@
   <div class="container">
     <div class="d-grid align-items-center" style="grid-template-columns: 1fr auto 1fr;">
       <div class="d-flex justify-content-end">
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 me-2" href="https://www.thestranger.com" target="_self">The Stranger</a>
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 me-2" href="https://everout.com/seattle/" target="_self">EverOut</a>
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 me-2" href="https://www.portlandmercury.com" target="_self">Portland Mercury</a>
-        
+
       </div>
 
 <div class="network-bar-logo mx-4">
@@ -124,13 +124,13 @@
       </div>
 
 <div class="d-flex justify-content-start">
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 ms-2" href="https://chicagoreader.com" target="_self">Chicago Reader</a>
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 ms-2" href="https://savage.love/" target="_self">Savage Love</a>
-        
+
           <a class="nav-link text-black ff-serif text-uppercase fs-8 ms-2" href="https://www.boldtypetickets.com/" target="_self">Bold Type Tickets</a>
-        
+
       </div>
     </div>
   </div>
@@ -164,7 +164,7 @@
       <div class="d-flex justify-content-center">
         <div class="above-navbar-ad hide-if-no-ad">
         </div>
-        
+
       </div>
       <div class="navbar py-2 py-md-4 px-4 px-md-0 flex-nowrap">
         <button class="navbar-toggler link-icon text-decoration-none p-0" type="button" data-bs-toggle="collapse"
@@ -176,11 +176,11 @@
         <a class="navbar-brand d-inline-block m-3 text-center text-md-start" style="width:250px;" href="/">
           <img class="img-fluid" src="https://www.thestranger.com/assets/sites/stranger/images/site-logo.png?20220525222143" alt="The Stranger">
         </a>
-        
+
           <div class="in-navbar-ad hide-if-no-ad d-none d-lg-block">
             <div id="div-gpt-ad-masthead"></div>
           </div>
-        
+
         <div>
           <div id="navbarSearch">
             <div class="d-flex justify-content-end align-items-center">
@@ -216,67 +216,67 @@
       <div class="row">
         <div class="col-6 px-4">
           <ul class="list-unstyled mb-0">
-            
-            
+
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/slog" target="_self">
                   Slog
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/savage-love" target="_self">
                   Savage Love
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/slog-am-pm" target="_self">
                   Slog AM/PM
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/news" target="_self">
                   News
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/arts" target="_self">
                   Arts
                 </a>
               </li>
-            
+
           </ul>
         </div>
         <div class="col-6 px-4">
           <ul class="list-unstyled mb-0">
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/music" target="_self">
                   Music
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/weed" target="_self">
                   Weed
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/collections/21583868/stranger-suggests" target="_self">
                   Stranger Suggests
                 </a>
               </li>
-            
+
               <li class="nav-item my-3 my-md-2">
                 <a class="fw-medium fs-5 text-decoration-none" data-silo="ttr" href="https://www.thestranger.com/food-and-drink" target="_self">
                   Food & Drink
                 </a>
               </li>
-            
+
           </ul>
         </div>
       </div>
@@ -285,7 +285,7 @@
           <hr class="text-gray-2">
         </div>
       </div>
-      
+
         <div class="row mt-2">
           <div class="col-12 px-4">
             <div class="mb-2">
@@ -304,32 +304,32 @@
                 </a>
               </li>
               <li class="nav-item my-3 my-md-2 text-gray-3">
-                
+
                   <a class="fw-medium fs-5 text-decoration-none" href="https://everout.com/seattle/music/" target="_blank">
                     Live Music
                   </a>
                   &bull;
-                
+
                   <a class="fw-medium fs-5 text-decoration-none" href="https://everout.com/seattle/arts/" target="_blank">
                     Arts
                   </a>
                   &bull;
-                
+
                   <a class="fw-medium fs-5 text-decoration-none" href="https://everout.com/seattle/food/" target="_blank">
                     Food
                   </a>
                   &bull;
-                
+
                   <a class="fw-medium fs-5 text-decoration-none" href="https://everout.com/seattle/" target="_blank">
                     & More!
                   </a>
-                  
-                
+
+
               </li>
             </ul>
           </div>
         </div>
-      
+
       <div class="row mt-2">
         <div class="col-12">
           <hr class="text-gray-2">
@@ -345,58 +345,58 @@
           <hr class="text-gray-2">
         </div>
       </div>
-      
+
         <div class="row mt-2">
           <div class="col-8 px-4">
             <ul class="list-unstyled legal-links mb-0">
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/masthead">Masthead</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/ad-info">Ad Info & Rates</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.strangertickets.com/page/features">Sell Tickets</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/jobs">Jobs at The Stranger</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/contact-information">Contact</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/privacy-policy">Privacy Policy</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/terms-of-use">Terms of Use</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/takedown-policy">Takedown Policy</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://www.thestranger.com/find-it">Find The Stranger Near You</a></li>
-              
+
                 <li><a class="fw-medium fs-5 text-decoration-none" href="https://thestranger.com/subscribe">Subscribe to The Stranger in Print</a></li>
-              
+
             </ul>
           </div>
           <div class="col-4 px-4 text-end">
-            
+
               <span class="fa-stack share-tools" style="vertical-align: top;">
                 <a href="https://bsky.app/profile/thestranger.com" target="_blank">
                   <i class="fa-solid fa-circle fa-stack-2x text-dark"></i>
                   <i class="fa-brands fa-bluesky fa-stack-1x fa-inverse"></i>
                 </a>
               </span>
-            
-            
+
+
               <span class="fa-stack share-tools" style="vertical-align: top;">
                 <a href="https://instagram.com/thestrangerseattle/" target="_blank">
                   <i class="fa-solid fa-circle fa-stack-2x text-dark"></i>
                   <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
                 </a>
               </span>
-            
-            
+
+
               <span class="fa-stack share-tools" style="vertical-align: top;">
                 <a href="https://www.facebook.com/strangerseattle" target="_blank">
                   <i class="fa-solid fa-circle fa-stack-2x text-dark"></i>
                   <i class="fa-brands fa-facebook fa-stack-1x fa-inverse"></i>
                 </a>
               </span>
-            
+
           </div>
         </div>
         <div class="row mt-3">
@@ -407,15 +407,15 @@
             </div>
           </div>
         </div>
-      
-      
+
+
         <div class="row mt-3">
           <div class="col-12 px-4 text-gray-3 fs-7">
             All contents &copy; Noisy Creek, Inc.<br>
 1101 East Pike St. Suite 300, Seattle, WA 98122
           </div>
         </div>
-      
+
     </div> <!-- end primaryNavigation -->
   </div> <!-- end container -->
 </div> <!-- end main-nav -->
@@ -423,26 +423,26 @@
 <div class="trending-links">
       <div class="container">
         <div class="row g-0 mb-0 mb-md-4 py-3 border-bottom border-top align-items-center justify-content-center">
-          
+
             <div class="trending-link-item col-12 col-md-4 text-center py-2 px-4 border-end">
               <a class="text-decoration-none ff-serif fs-5 fs-md-4 text-black" href="https://www.thestranger.com/collections/80225196/fall-arts-2025" target="_self">🎨 Our Fall Arts Issue! 🍁</a>
             </div>
-            
+
               <div class="d-block d-md-none text-center mx-auto text-gray-4 w-25"><hr class="my-0"></div>
-            
-          
+
+
             <div class="trending-link-item col-12 col-md-4 text-center py-2 px-4 border-end">
               <a class="text-decoration-none ff-serif fs-5 fs-md-4 text-black" href="https://www.thestranger.com/collections/21583807/news" target="_self">News</a>
             </div>
-            
+
               <div class="d-block d-md-none text-center mx-auto text-gray-4 w-25"><hr class="my-0"></div>
-            
-          
+
+
             <div class="trending-link-item col-12 col-md-4 text-center py-2 px-4 ">
               <a class="text-decoration-none ff-serif fs-5 fs-md-4 text-black" href="https://www.thestranger.com/collections/21584125/arts" target="_self">Arts and Culture</a>
             </div>
-            
-          
+
+
         </div>
       </div>
     </div>
@@ -453,22 +453,22 @@
       <div class="row justify-content-center my-4 my-md-5 py-0 pb-md-5 pt-md-3 g-0">
         <div class="col-12 col-md-8">
           <div class="date-and-collection mb-4 fs-3">
-            
+
               <a class="article-collection text-uppercase ff-condensed text-primary text-decoration-none mx-1 text-nowrap border-end pe-3" href="/collections/21583817/features">Features</a>
-            
+
             <span class="release-date ff-serif text-gray-3 ps-2">Jun  8, 2016 at  4:00 am</span>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-md-8">
             <h1 class="headline mb-4 ff-header fw-bold">
-              
+
                 The Audition
-              
+
             </h1>
           </div>
         </div>
-        
+
           <div class="row justify-content-center">
             <div class="col-12 col-md-8">
               <h2 class="subheadline mb-4 fs-4 fs-md-2 ff-serif fw-normal text-gray-4">
@@ -476,8 +476,8 @@
               </h2>
             </div>
           </div>
-        
-        
+
+
           <div class="row justify-content-center">
             <div class="col-12 col-md-8">
               <div class="byline text-uppercase fs-5 fs-md-3">
@@ -485,20 +485,20 @@
               </div>
             </div>
           </div>
-        
+
       </div>
-      
-        
+
+
         <div class="cover-image">
           <img class="img-fluid hide-if-missing" src="https://media2.fdncms.com/stranger/imager/u/cover/76334407/img_9529.jpg" alt="">
-          
+
             <div class="image-caption px-3 px-md-0">
               As originally printed, 6-8-16
-              
+
             </div>
-          
+
         </div>
-      
+
     </div> <!-- end component -->
           </div>
         </div>
@@ -509,405 +509,405 @@
             <div id="div-gpt-ad-native-article-sponsorship-label"></div>
   <div id="articleBodyComponent-24182705" class="component article-body my-1 fs-3 ff-serif fw-light">
 
-<p><span id="dropcap">F</span>irst the women received a friend request. Then a message.</p> 
-          
-        
-          
-          <p>"heya!"</p> 
-          
-        
-          
-          <p>"ahoy!"</p> 
-          
-        
-          
-          <p>"oh hi!"</p> 
+<p><span id="dropcap">F</span>irst the women received a friend request. Then a message.</p>
+
+
+
+          <p>"heya!"</p>
+
+
+
+          <p>"ahoy!"</p>
+
+
+
+          <p>"oh hi!"</p>
           <div id="div-gpt-ad-native-inline-1" class="inline-ad py-4 d-flex" style="clear:both"></div>
-        
-          
-          <p>"hi hi hi!"</p> 
-          
-        
-          
-          <p>They didn't know the person adding them on Facebook. According to her Facebook profile, she was "Deja Stwalley," and her photo showed a youngish blonde woman in a blue romper. Stwalley claimed she was a recruiter for indie porn studios.</p> 
-          
-        
-          
-          <p>"i was just scoping your pics</p> 
+
+
+          <p>"hi hi hi!"</p>
+
+
+
+          <p>They didn't know the person adding them on Facebook. According to her Facebook profile, she was "Deja Stwalley," and her photo showed a youngish blonde woman in a blue romper. Stwalley claimed she was a recruiter for indie porn studios.</p>
+
+
+
+          <p>"i was just scoping your pics</p>
           <div id="div-gpt-ad-inline-1" class="interstitial-ad  inline-ad border-bottom border-top py-4"></div>
-        
-          
-          <p>they're hot!"</p> 
-          
-        
-          
-          <p>"Sorry for the blind add but you're super cute so I had to "</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p>Stwalley joked that she loved cocks and money. That's why she got into the porn business. Stwalley told one woman she could make $450 an hour on a six- to eight-hour shoot. She told another that she could make between $2,000 and $3,000 a scene.</p> 
-          
-        
-          
-          <p>Stwalley's webcam was always broken, and she could never speak by phone. But she could always type. If the person Stwalley was chatting with seemed skeptical of the porn recruiter's legitimacy, Stwalley added that she got into this business to protect women from getting lured into sketchy situations.</p> 
-          
-        
-          
-          <p>"basically I try to help girls get into the porn industry without getting screwed over"</p> 
-          
-        
-          
-          <p>"there are scammers out there, but that's why I DO this. lol</p> 
-          
-        
-          
-          <p>one of my bestest friends got scammed and it was a shitty scene"</p> 
+
+
+          <p>they're hot!"</p>
+
+
+
+          <p>"Sorry for the blind add but you're super cute so I had to "</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p>Stwalley joked that she loved cocks and money. That's why she got into the porn business. Stwalley told one woman she could make $450 an hour on a six- to eight-hour shoot. She told another that she could make between $2,000 and $3,000 a scene.</p>
+
+
+
+          <p>Stwalley's webcam was always broken, and she could never speak by phone. But she could always type. If the person Stwalley was chatting with seemed skeptical of the porn recruiter's legitimacy, Stwalley added that she got into this business to protect women from getting lured into sketchy situations.</p>
+
+
+
+          <p>"basically I try to help girls get into the porn industry without getting screwed over"</p>
+
+
+
+          <p>"there are scammers out there, but that's why I DO this. lol</p>
+
+
+
+          <p>one of my bestest friends got scammed and it was a shitty scene"</p>
           <div id="div-gpt-ad-inline-2" class="interstitial-ad  inline-ad border-bottom border-top py-4"></div>
-        
-          
-          <p>"I knew a few other girls with stories like that so me and my ex started doing this. the studios love it cuz now they don't have to</p> 
-          
-        
-          
-          <p>ha ha"</p> 
-          
-        
-          
-          <p>Liz Shearer was 20 years old when she met Stwalley online. Shearer's best friend had been approached by Stwalley and turned her offer down, but she recommended Shearer as someone who might be interested. "I'm really sex-positive, and I've always been really sex-positive, and I've always been really comfortable in my body expressing my sexuality," Shearer tells me. We're sitting on a piece of driftwood on a beach near Shearer's father's house more than a year after Shearer first made contact with Stwalley. Shearer, who recently moved back in with her family, pries open a pack of blue American Spirits. I can't read her expression behind her sunglasses, but she tells me she feels numb.</p> 
-          
-        
-          
-          <p>It was Shearer who first reached out to Stwalley in January of 2015. Shearer was working as a nanny in Bellingham. She needed the money. Stwalley told Shearer that she was a recruiter and it was her job to ferry women into the porn industry safely.</p> 
-          
-        
-          
-          <p>"I decided it was an opportunity I would be interested in," Shearer says. She stares straight ahead, watching a golden retriever romp in the salt water nearby. "And I asked her how I would go about getting an audition."</p> 
-          
-        
-          
-          <p>According to Shearer, Stwalley told her that she could audition with her ex-boyfriend, a photographer named Matt. Stwalley told Shearer that she would also have to have sex with Matt.</p> 
-          
-        
-          
-          <p>"To prove to production companies that having sex with someone I didn't know was something that I could handle," Shearer tells me.</p> 
+
+
+          <p>"I knew a few other girls with stories like that so me and my ex started doing this. the studios love it cuz now they don't have to</p>
+
+
+
+          <p>ha ha"</p>
+
+
+
+          <p>Liz Shearer was 20 years old when she met Stwalley online. Shearer's best friend had been approached by Stwalley and turned her offer down, but she recommended Shearer as someone who might be interested. "I'm really sex-positive, and I've always been really sex-positive, and I've always been really comfortable in my body expressing my sexuality," Shearer tells me. We're sitting on a piece of driftwood on a beach near Shearer's father's house more than a year after Shearer first made contact with Stwalley. Shearer, who recently moved back in with her family, pries open a pack of blue American Spirits. I can't read her expression behind her sunglasses, but she tells me she feels numb.</p>
+
+
+
+          <p>It was Shearer who first reached out to Stwalley in January of 2015. Shearer was working as a nanny in Bellingham. She needed the money. Stwalley told Shearer that she was a recruiter and it was her job to ferry women into the porn industry safely.</p>
+
+
+
+          <p>"I decided it was an opportunity I would be interested in," Shearer says. She stares straight ahead, watching a golden retriever romp in the salt water nearby. "And I asked her how I would go about getting an audition."</p>
+
+
+
+          <p>According to Shearer, Stwalley told her that she could audition with her ex-boyfriend, a photographer named Matt. Stwalley told Shearer that she would also have to have sex with Matt.</p>
+
+
+
+          <p>"To prove to production companies that having sex with someone I didn't know was something that I could handle," Shearer tells me.</p>
           <div id="div-gpt-ad-inline-3" class="interstitial-ad  inline-ad border-bottom border-top py-4"></div>
-        
-          
-          <p>Shearer had never done porn before. "And at the time, I agreed to it," she says. She had Matt come to her apartment in Bellingham, and later, after Stwalley told Shearer that she needed to reshoot, she says she met Matt at a hotel in Seattle.</p> 
-          
-        
-          
-          <p>"Obviously, if I had known what was going on," Shearer says now, "I wouldn't have."</p> 
-          
-        
-          
-          <p><span id="dropcap">T</span>wo years before Shearer met Matt, another woman had a similar experience. In 2013, Deja Stwalley friended 19-year-old Allysia Bishop on Facebook. Stwalley sold Bishop the same pitch she gave Shearer, and Bishop agreed to a shoot with Matt. Bishop says that after working out the details of the audition shoot with Stwalley, she took a cab to Matt's apartment on Capitol Hill.</p> 
-          
-        
-          
-          <p>"He had a little checklist of things I was comfortable doing in the future, like are you fine with bondage, are you fine with whatever," she tells me over the phone. Bishop also remembers Matt making vodka screwdrivers. "He checked a little checklist off and said fine, all right we'll take some pictures. All the while, I was drinking. He was just making me more drinks and more drinks."</p> 
-          
-        
-          
-          <p>Bishop says she drank so much that she nearly blacked out. And that's when she claims that Matt said they had to have sex. "He was like, 'Well, we have to have sex, because if we don't then how am I going to know you're for real and you'll actually be able to do this in the industry? So you have to prove to me you're not going to bail out.'"</p> 
-          
-        
-          
-          <p>Bishop says that she never would have had sex with Matt if she didn't think it was for the audition. She wasn't attracted to him. Bishop left Matt's apartment upset but didn't quite understand why. All she knew was that she felt violated.</p> 
+
+
+          <p>Shearer had never done porn before. "And at the time, I agreed to it," she says. She had Matt come to her apartment in Bellingham, and later, after Stwalley told Shearer that she needed to reshoot, she says she met Matt at a hotel in Seattle.</p>
+
+
+
+          <p>"Obviously, if I had known what was going on," Shearer says now, "I wouldn't have."</p>
+
+
+
+          <p><span id="dropcap">T</span>wo years before Shearer met Matt, another woman had a similar experience. In 2013, Deja Stwalley friended 19-year-old Allysia Bishop on Facebook. Stwalley sold Bishop the same pitch she gave Shearer, and Bishop agreed to a shoot with Matt. Bishop says that after working out the details of the audition shoot with Stwalley, she took a cab to Matt's apartment on Capitol Hill.</p>
+
+
+
+          <p>"He had a little checklist of things I was comfortable doing in the future, like are you fine with bondage, are you fine with whatever," she tells me over the phone. Bishop also remembers Matt making vodka screwdrivers. "He checked a little checklist off and said fine, all right we'll take some pictures. All the while, I was drinking. He was just making me more drinks and more drinks."</p>
+
+
+
+          <p>Bishop says she drank so much that she nearly blacked out. And that's when she claims that Matt said they had to have sex. "He was like, 'Well, we have to have sex, because if we don't then how am I going to know you're for real and you'll actually be able to do this in the industry? So you have to prove to me you're not going to bail out.'"</p>
+
+
+
+          <p>Bishop says that she never would have had sex with Matt if she didn't think it was for the audition. She wasn't attracted to him. Bishop left Matt's apartment upset but didn't quite understand why. All she knew was that she felt violated.</p>
           <div id="div-gpt-ad-native-contribution" class="inline-ad"></div>
-        
-          
-          <p>That same day, Bishop slit her wrists in a bathtub.</p> 
-          
-        
-          
-          <p>The cuts weren't lethally deep, and Bishop says she tried to move on after that. "I kept in contact with the Deja profile because I was promised that people were seeing my portfolio and I was bound to get coverage or get a career eventually," Bishop says. Stwalley kept trying to get Bishop to another shoot with Matt. "And eventually, you know, I was like, 'I don't really know if I want to do photographs with Matt anymore.'"</p> 
-          
-        
-          
-          <p>Bishop never heard from any porn producers.</p> 
-          
-        
-          
-          <p><span id="dropcap">B</span>ishop and Shearer are two of at least six women who say they've been solicited via Facebook by someone calling themselves Deja Stwalley. All six met online after one woman's account of her experience with Stwalley went viral on Facebook. Now, after sharing their stories with one another, they believe that the Deja Stwalley profile was fake.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p>Shearer and two others say they had sex with Stwalley's photographer because they thought they had to for a porn audition. In hindsight, they consider what happened to them sexual assault or fraud. But the justice system has a limited ability—or willingness—to prosecute cases where consent was obtained under false pretenses. Three of the women have gone to local police, but they don't feel they're being taken seriously.</p> 
-          
-        
-          
-          <p>"It makes me feel like they don't really care if he does it again," Shearer says.</p> 
-          
-        
-          
-          <p><span id="drop cap">T</span>hree months ago, Bishop shared her experience with Deja Stwalley and her photographer in a private Facebook group for Seattle's feminist community. The post caught the attention of Maisie (she asked that I not print her real name, saying she was concerned about an abusive ex), another member of the Facebook group. Something about the story struck Maisie as off. "I went to this Deja profile and I thought, 'This is bullshit,'" she says. "It really, really rubbed me the wrong way."</p> 
-          
-        
-          
-          <p>Maisie decided to do some sleuthing of her own. She befriended Deja Stwalley online and posed as someone who might be interested in shooting porn. Stwalley accepted Maisie's friend request and told her about the setup with her photographer. She gave Maisie a link to Matt's website as well as a photo of Matt. Stwalley told Maisie that she worked for a number of indie porn studios, including the production company Burning Angel.</p> 
-          
-        
-          
-          <p>Maisie asked for a talent release waiver to be e-mailed to her. Stwalley complied and e-mailed Maisie a waiver from the address seattle.talent@gmail.com. The release cited a talent agency: West Coast Talent, Inc., located at 233 South Sixth Street, Las Vegas, Nevada.</p> 
-          
-        
-          
-          <p>According to Jace Radke, senior public information officer for the City of Las Vegas, no business is licensed at that address and there are no businesses licensed in Las Vegas as West Coast Talent, Inc. A Google Maps photo of the address shows nothing but a decrepit former hotel.</p> 
-          
-        
-          
-          <p><em>The Stranger</em> contacted Joanna Angel, the founder of Burning Angel, and she said that she had never heard of Stwalley. "For the record, we do not use any 'scouts,'" she added in an e-mail. "We have a model application on the website, occasionally we get referrals from friends of models we work with, or we deal with licensed talent agents. We do not hire/associate with any scouts anywhere."</p> 
-          
-        
-          
-          <p>Still in contact with Stwalley, Maisie asked if Matt could e-mail her about the shoot directly. He did.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p>When Maisie pulled up the source code from the two e-mail addresses—Stwalley's e-mail that had supposedly been sent from Las Vegas and Matt's e-mail sent from Seattle—she found that they used the same IP address near the University District.</p> 
-          
-        
-          
-          <p>Shearer, Bishop, and Maisie now believe that Stwalley doesn't exist and that the entire porn recruiter setup was a hoax orchestrated by Matt, the photographer women were asked to "audition" with in Seattle.</p> 
-          
-        
-          
-          <p>That photographer is local freelance tech journalist Matt Hickey.</p> 
-          
-        
-          
-          <p>Hickey, who has done freelance work for <em>The Stranger</em>, did not respond to multiple requests for comment on the specific allegations in this story. He said his lawyer advised him not to.</p> 
-          
-        
-          
-          <p>"I agree it's weird and also ridiculous, but I'm sorry to say that at this point I can't talk about anything specific, though I may in the future," Hickey wrote in an e-mail.</p> 
-          
-        
-          
-          <p>Stwalley's profile was deactivated shortly after the women began discussing it on Facebook, but they provided <em>The Stranger</em> with screenshots of their messages.</p> 
-          
-        
-          
-          <p>Shearer says she's not going to stay silent. "My goals here are justice for me and everyone else who has been victimized, and education so that women know the dangers of what's out there," Shearer says. "I want to make sure that this kind of thing doesn't happen to anyone else again."</p> 
-          
-        
-          
-          <p><span id="dropcap">M</span>aisie later connected with three more women who said they had been contacted by Stwalley: Anna Bronk, another woman who says she had sex with Matt Hickey in order to audition for Stwalley in early 2016; Jessica Jacobson, a woman who was solicited by Stwalley but didn't bite; and Lyric Weiss, another woman who didn't accept Stwalley's offer to shoot photographs.</p> 
-          
-        
-          
-          <p>All three have screenshots of their chats with Stwalley, and all three believe Hickey posed as Stwalley online. Shearer, Bishop, and Bronk have also positively identified photos of Hickey as the person who allegedly had sex with them.</p> 
-          
-        
-          
-          <p>Two more pieces of evidence lend support to this theory.</p> 
-          
-        
-          
-          <p>In 2010, Hickey sent an e-mail to a friend using the seattle.talent@gmail.com address. When the friend asked what was up with the strange address, Hickey replied: "Something I use for a client's website." This was the same e-mail address Stwalley used to message Maisie.</p> 
-          
-        
-          
-          <p>There is also at least one Deja Stwalley who does exist as a real person. She no longer goes by Stwalley—her last name is now Cook—but she went to middle school with Matt Hickey in Olympia. When <em>The Stranger</em> contacted her to ask if she knew anything about a Deja Stwalley who was a porn scout and worked with Hickey as a photographer, she said she knew nothing of the profile that contacted women online.</p> 
-          
-        
-          
-          <p>But Cook remembers Hickey clearly from her grade-school days: "He had a weirdo crush on me."</p> 
-          
-        
-          
-          <p>Cook later identified a photograph of Hickey. "Yes that is Matt," she wrote in an e-mail. About the profile, she said: "No that is not Deja - me. And no I don't think I recognize her. Kinda pissed she is using my name for this..."</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p><span id="dropcap">S</span>hearer, the young woman who "auditioned" for Hickey in Bellingham, filed a report with the Bellingham Police Department on May 18. Shearer says that the male officer she spoke to said her case would be difficult to prosecute as sexual assault, and Bellingham police also told her she'd have to wait six weeks for a copy of her own police report.</p> 
-          
-        
-          
-          <p>The Bellingham Police Department told <em>The Stranger</em> that detectives reviewed Shearer's case and the next step is a review with their prosecuting attorney.</p> 
-          
-        
-          
-          <p>Bishop, too, has now gone to the Seattle Police Department. I met her at a downtown bar on June 3, the day she filed the report. Two friends had joined her for moral support, and she sipped on a PBR as she recounted how it went. "[The detective] said everything that I'm telling him is really fucked up, but that there are no grounds for a sexual assault case," she said.</p> 
-          
-        
-          
-          <p>Bishop still has the vertical scars from the day she met Matt Hickey, but now they're less noticeable than the tattoo ink that surrounds them. "I'm upset about it," she told me.</p> 
-          
-        
-          
-          <p>Lyric Weiss contacted the Seattle Police Department about being solicited by Stwalley, but said she was turned away with a business card. Maisie has started corresponding with police to give them what information she can. The SPD told <em>The Stranger</em> that they've opened up multiple investigations into the matter, but have not arrested anyone.</p> 
-          
-        
-          
-          <p>Regardless of what police told them, both Bishop and Shearer say they consider what allegedly happened to them sexual assault.</p> 
-          
-        
-          
-          <p>"I think the worst part about it for me is that , if you look at a really cut-and-dried copy of the law, it could seem consensual," Shearer says. "But I had no background information about what was going on at the time."</p> 
-          
-        
-          
-          <p>It doesn't seem like Hickey considers the unmasking of Deja Stwalley to be a major legal threat. After getting hold of Hickey's cell phone number, I texted him to ask what he meant by calling the story "ridiculous."</p> 
-          
-        
-          
-          <p>"I mean how it's taken on a life of its own online, like a terrible game of telephone with no operator," Hickey wrote. "Like there are things people have sent me, things that others have written that are clearly, completely and ridiculously just plain made up. At some point it no longer matters what's true and what's not. Of course, I can't give you details, sorry."</p> 
-          
-        
-          
-          <p>I offered to meet with him in person in case he changed his mind about speaking before the story was published. "I appreciate that, but on the off-chance that this does become a legal problem i really can't. my lawyer is good so I'm heeding his advice. Thanks, though."</p> 
-          
-        
-          
-          <p>"You're not concerned that Shearer's filed a police report?" I asked.</p> 
-          
-        
-          
-          <p>"oh i am. I just can't talk about it."</p> 
-          
-        
-          
-          <p><span id="dropcap">S</span>cammers frequently target sex workers. It happens so often, in fact, that Seattle-based sex worker, writer, and activist Maggie McNeill has a regular feature on her website documenting these sorts of scams.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p>I meet McNeill in her apartment, a space draped in rich, dark fabrics and large tapestries. It's very much a <em>One Thousand and One Nights</em> theme, but instead of Scheherazade telling a sociopathic Persian king a thousand stories to save herself and her sisters, McNeill taps away at a laptop with posts that reach sex workers across the world. McNeill scans her archives and pulls up a post from November 2010. According to the website Expose a Bro, one man allegedly created and maintained a blog supposedly written by a female sex worker. This man allegedly had three separate online personalities: twentysomething escort and sex work blogger "Alexa di Carlo," a sex blogger named "Caitlain" operating a sex education message board for teens, and "Matt," an escort client. "Alexa" vouched for "Matt" and encouraged other sex workers to see him and have rough sex with him. "Matt," in this case, was the creator of all three online personas.</p> 
-          
-        
-          
-          <p>In 2012, British newspaper the <em>Independent</em> outed military contractor and computer consultant Mark Lancaster for running a fake sugar-daddy website. His site, "Sponsorascholar.co.uk," required an undercover reporter to do a sex-based "practical assessment" with Lancaster in order to serve the website's fake clients. Lancaster was later convicted of "voyeurism" and "trafficking," but not of rape. He was jailed for 16 months.</p> 
-          
-        
-          
-          <p>Lancaster's scam was a good gamble, McNeill says. "It's tricking young girls who want to do sex work to whatever level—they may not want to do sex work in the sense that it's their dream career, but it's the best fit for them at the moment—and these men tricked them to get sex out of them. And they figure nobody's going to talk about it. So this Mark Lancaster dude, no doubt he figured nobody's going to go to the cops. These girls are going to feel too ashamed."</p> 
-          
-        
-          
-          <p>Sex-work scammers are rarely prosecuted for rape, and McNeill feels that they should be. "Consent obtained under false pretenses is not consent, and sex without consent is rape," McNeill says. "Because sex work is in the shadows, even when women do report, there's a tendency among the 'good people,' and that includes good women, to shame them—to say, 'You had it coming' or 'Sex work is rape anyway.'"</p> 
-          
-        
-          
-          <p>McNeill gives a classic example: clients who hand sex workers envelopes full of paper instead of cash. A sex worker's consent is contingent on one thing: getting paid. When that condition of consent is violated, the sex is nonconsensual.</p> 
-          
-        
-          
-          <p>There's at least one example of a scammer-rapist getting charged for rape in a place where sex work is decriminalized. In Australia's Australian Capital Territory state, where legislators have decriminalized sex work and sex workers register with the local government, Akis Emmanouel Livas pleaded guilty to his rape charge after handing a sex worker a sealed envelope with nothing but a folded paper bag inside. His victim gave a statement to the court about how violated she felt. Livas was imprisoned for eight months.</p> <div class="article-image article-image-inline image-center"><img class="img-responsive" /></div> 
-          
-        
-          
-          <p><span id="dropcap">I</span>n Washington State, a charge of rape in the first degree requires "forcible compulsion," meaning that the rapist uses or threatens use of a deadly weapon, kidnaps his victim, breaks in, or inflicts serious physical injury. Lack of consent, which the state defines as "actual words or conduct indicating freely given agreement," enters the equation for rape only in the third degree.</p> 
-          
-        
-          
-          <p>Some states—including California, Tennessee, Alabama, and Michigan—actually have rape laws that criminalize consent obtained by trickery. In 2013, California closed a loophole in its rape-by-fraud law to add the condition of impersonation. The change was motivated by one case in which a man climbed into a woman's bed in the middle of the night, and the woman, thinking he was her boyfriend, had sex with him, only to discover when the lights went on that the man she had sex with wasn't her boyfriend.</p> 
-          
-        
-          
-          <p>But many people feel that some rape-by-fraud laws are a slippery slope. When a New Jersey state assemblyman introduced a bill that would have made it illegal to misrepresent oneself for the purpose of having sex, the bill met serious resistance.</p> 
-          
-        
-          
-          <p>"[This] law is so vague and wide-reaching that it's easy to see how pretty much everyone could be considered a rapist, because, as any quick perusing of OkCupid can tell you, representing yourself as someone you are not is a universal behavior," Amanda Marcotte wrote for Slate in 2014. "All of us are claiming we woke up like this, and we are all lying."</p> 
-          
-        
-          
-          <p>But a lie means something completely different in the context of sex work, says Las Vegas defense attorney and former municipal court judge Dayvid Figler.</p> 
-          
-        
-          
-          <p>"There's a difference between a lie and something material someone would rely on to give consent or not," Figler said. He gives an example: In an interpersonal relationship, a person might say, "You should sleep with me because I am the world's greatest lover and I guarantee you'll be satisfied." That may be relevant in the decision to have sex. But if the same person approaches a sex worker, that fact is likely irrelevant. "The sex worker gives consent only if there are reasonable representations that can be relied upon that this isn't anything but a business opportunity," he said.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div> 
-          
-        
-          
-          <p>In the case of Hickey's alleged deception, the women had sex with him only because they thought it was part of an audition process that would lead them to a porn career. Shearer, Bishop, and Bronk all followed up with the Deja Stwalley Facebook profile to see if they were getting any work as a result of their "auditions," and were all rattled to find out they were getting nothing. Now that the memories of her time with Hickey have resurfaced, Shearer has been getting panic attacks.</p> 
-          
-        
-          
-          <p>But Figler says that if a prosecutor wanted to seek justice for these women, that prosecutor could try the case as third-degree rape for violating consent. A prosecutor could try to convince a jury that misrepresentation of the material facts didn't allow for "freely" given consent. That same prosecutor could also look at Washington's laws on fraudulent misrepresentation of a business opportunity.</p> 
-          
-        
-          
-          <p>"I think that you would probably have on some level a tough case because there is this stigma attached: 'Oh, those stupid girls, they got what they deserved trying to get into a sleazy world,'" Figler says. "You're dealing with public opinion about this sort of thing. But [allegedly], they were essentially raped. Their consent was based on a false premise."</p> 
-          
-        
-          
-          <p>For Shearer, the idea that what happened to her wouldn't be considered sexual assault may be the most devastating part. She feels like the police aren't on her side, that they insinuated "my rape wasn't really a rape." She doesn't want to go through that experience again by reporting what happened to the Seattle police.</p> 
-          
-        
-          
-          <p>But that's not stopping her from speaking openly about it. Shearer and Bishop are also defying most journalistic conventions on alleged rape by allowing <em>The Stranger</em> to print their full names.</p> 
-          
-        
-          
-          <p>"I'm going to push this as far as I can," Shearer says. <img src="../../images/rec_star.gif" alt="recommended" width="10" height="10" border="0" /></p> <hr /> 
-          
-        
-          
+
+
+          <p>That same day, Bishop slit her wrists in a bathtub.</p>
+
+
+
+          <p>The cuts weren't lethally deep, and Bishop says she tried to move on after that. "I kept in contact with the Deja profile because I was promised that people were seeing my portfolio and I was bound to get coverage or get a career eventually," Bishop says. Stwalley kept trying to get Bishop to another shoot with Matt. "And eventually, you know, I was like, 'I don't really know if I want to do photographs with Matt anymore.'"</p>
+
+
+
+          <p>Bishop never heard from any porn producers.</p>
+
+
+
+          <p><span id="dropcap">B</span>ishop and Shearer are two of at least six women who say they've been solicited via Facebook by someone calling themselves Deja Stwalley. All six met online after one woman's account of her experience with Stwalley went viral on Facebook. Now, after sharing their stories with one another, they believe that the Deja Stwalley profile was fake.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p>Shearer and two others say they had sex with Stwalley's photographer because they thought they had to for a porn audition. In hindsight, they consider what happened to them sexual assault or fraud. But the justice system has a limited ability—or willingness—to prosecute cases where consent was obtained under false pretenses. Three of the women have gone to local police, but they don't feel they're being taken seriously.</p>
+
+
+
+          <p>"It makes me feel like they don't really care if he does it again," Shearer says.</p>
+
+
+
+          <p><span id="drop cap">T</span>hree months ago, Bishop shared her experience with Deja Stwalley and her photographer in a private Facebook group for Seattle's feminist community. The post caught the attention of Maisie (she asked that I not print her real name, saying she was concerned about an abusive ex), another member of the Facebook group. Something about the story struck Maisie as off. "I went to this Deja profile and I thought, 'This is bullshit,'" she says. "It really, really rubbed me the wrong way."</p>
+
+
+
+          <p>Maisie decided to do some sleuthing of her own. She befriended Deja Stwalley online and posed as someone who might be interested in shooting porn. Stwalley accepted Maisie's friend request and told her about the setup with her photographer. She gave Maisie a link to Matt's website as well as a photo of Matt. Stwalley told Maisie that she worked for a number of indie porn studios, including the production company Burning Angel.</p>
+
+
+
+          <p>Maisie asked for a talent release waiver to be e-mailed to her. Stwalley complied and e-mailed Maisie a waiver from the address seattle.talent@gmail.com. The release cited a talent agency: West Coast Talent, Inc., located at 233 South Sixth Street, Las Vegas, Nevada.</p>
+
+
+
+          <p>According to Jace Radke, senior public information officer for the City of Las Vegas, no business is licensed at that address and there are no businesses licensed in Las Vegas as West Coast Talent, Inc. A Google Maps photo of the address shows nothing but a decrepit former hotel.</p>
+
+
+
+          <p><em>The Stranger</em> contacted Joanna Angel, the founder of Burning Angel, and she said that she had never heard of Stwalley. "For the record, we do not use any 'scouts,'" she added in an e-mail. "We have a model application on the website, occasionally we get referrals from friends of models we work with, or we deal with licensed talent agents. We do not hire/associate with any scouts anywhere."</p>
+
+
+
+          <p>Still in contact with Stwalley, Maisie asked if Matt could e-mail her about the shoot directly. He did.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p>When Maisie pulled up the source code from the two e-mail addresses—Stwalley's e-mail that had supposedly been sent from Las Vegas and Matt's e-mail sent from Seattle—she found that they used the same IP address near the University District.</p>
+
+
+
+          <p>Shearer, Bishop, and Maisie now believe that Stwalley doesn't exist and that the entire porn recruiter setup was a hoax orchestrated by Matt, the photographer women were asked to "audition" with in Seattle.</p>
+
+
+
+          <p>That photographer is local freelance tech journalist Matt Hickey.</p>
+
+
+
+          <p>Hickey, who has done freelance work for <em>The Stranger</em>, did not respond to multiple requests for comment on the specific allegations in this story. He said his lawyer advised him not to.</p>
+
+
+
+          <p>"I agree it's weird and also ridiculous, but I'm sorry to say that at this point I can't talk about anything specific, though I may in the future," Hickey wrote in an e-mail.</p>
+
+
+
+          <p>Stwalley's profile was deactivated shortly after the women began discussing it on Facebook, but they provided <em>The Stranger</em> with screenshots of their messages.</p>
+
+
+
+          <p>Shearer says she's not going to stay silent. "My goals here are justice for me and everyone else who has been victimized, and education so that women know the dangers of what's out there," Shearer says. "I want to make sure that this kind of thing doesn't happen to anyone else again."</p>
+
+
+
+          <p><span id="dropcap">M</span>aisie later connected with three more women who said they had been contacted by Stwalley: Anna Bronk, another woman who says she had sex with Matt Hickey in order to audition for Stwalley in early 2016; Jessica Jacobson, a woman who was solicited by Stwalley but didn't bite; and Lyric Weiss, another woman who didn't accept Stwalley's offer to shoot photographs.</p>
+
+
+
+          <p>All three have screenshots of their chats with Stwalley, and all three believe Hickey posed as Stwalley online. Shearer, Bishop, and Bronk have also positively identified photos of Hickey as the person who allegedly had sex with them.</p>
+
+
+
+          <p>Two more pieces of evidence lend support to this theory.</p>
+
+
+
+          <p>In 2010, Hickey sent an e-mail to a friend using the seattle.talent@gmail.com address. When the friend asked what was up with the strange address, Hickey replied: "Something I use for a client's website." This was the same e-mail address Stwalley used to message Maisie.</p>
+
+
+
+          <p>There is also at least one Deja Stwalley who does exist as a real person. She no longer goes by Stwalley—her last name is now Cook—but she went to middle school with Matt Hickey in Olympia. When <em>The Stranger</em> contacted her to ask if she knew anything about a Deja Stwalley who was a porn scout and worked with Hickey as a photographer, she said she knew nothing of the profile that contacted women online.</p>
+
+
+
+          <p>But Cook remembers Hickey clearly from her grade-school days: "He had a weirdo crush on me."</p>
+
+
+
+          <p>Cook later identified a photograph of Hickey. "Yes that is Matt," she wrote in an e-mail. About the profile, she said: "No that is not Deja - me. And no I don't think I recognize her. Kinda pissed she is using my name for this..."</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p><span id="dropcap">S</span>hearer, the young woman who "auditioned" for Hickey in Bellingham, filed a report with the Bellingham Police Department on May 18. Shearer says that the male officer she spoke to said her case would be difficult to prosecute as sexual assault, and Bellingham police also told her she'd have to wait six weeks for a copy of her own police report.</p>
+
+
+
+          <p>The Bellingham Police Department told <em>The Stranger</em> that detectives reviewed Shearer's case and the next step is a review with their prosecuting attorney.</p>
+
+
+
+          <p>Bishop, too, has now gone to the Seattle Police Department. I met her at a downtown bar on June 3, the day she filed the report. Two friends had joined her for moral support, and she sipped on a PBR as she recounted how it went. "[The detective] said everything that I'm telling him is really fucked up, but that there are no grounds for a sexual assault case," she said.</p>
+
+
+
+          <p>Bishop still has the vertical scars from the day she met Matt Hickey, but now they're less noticeable than the tattoo ink that surrounds them. "I'm upset about it," she told me.</p>
+
+
+
+          <p>Lyric Weiss contacted the Seattle Police Department about being solicited by Stwalley, but said she was turned away with a business card. Maisie has started corresponding with police to give them what information she can. The SPD told <em>The Stranger</em> that they've opened up multiple investigations into the matter, but have not arrested anyone.</p>
+
+
+
+          <p>Regardless of what police told them, both Bishop and Shearer say they consider what allegedly happened to them sexual assault.</p>
+
+
+
+          <p>"I think the worst part about it for me is that , if you look at a really cut-and-dried copy of the law, it could seem consensual," Shearer says. "But I had no background information about what was going on at the time."</p>
+
+
+
+          <p>It doesn't seem like Hickey considers the unmasking of Deja Stwalley to be a major legal threat. After getting hold of Hickey's cell phone number, I texted him to ask what he meant by calling the story "ridiculous."</p>
+
+
+
+          <p>"I mean how it's taken on a life of its own online, like a terrible game of telephone with no operator," Hickey wrote. "Like there are things people have sent me, things that others have written that are clearly, completely and ridiculously just plain made up. At some point it no longer matters what's true and what's not. Of course, I can't give you details, sorry."</p>
+
+
+
+          <p>I offered to meet with him in person in case he changed his mind about speaking before the story was published. "I appreciate that, but on the off-chance that this does become a legal problem i really can't. my lawyer is good so I'm heeding his advice. Thanks, though."</p>
+
+
+
+          <p>"You're not concerned that Shearer's filed a police report?" I asked.</p>
+
+
+
+          <p>"oh i am. I just can't talk about it."</p>
+
+
+
+          <p><span id="dropcap">S</span>cammers frequently target sex workers. It happens so often, in fact, that Seattle-based sex worker, writer, and activist Maggie McNeill has a regular feature on her website documenting these sorts of scams.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p>I meet McNeill in her apartment, a space draped in rich, dark fabrics and large tapestries. It's very much a <em>One Thousand and One Nights</em> theme, but instead of Scheherazade telling a sociopathic Persian king a thousand stories to save herself and her sisters, McNeill taps away at a laptop with posts that reach sex workers across the world. McNeill scans her archives and pulls up a post from November 2010. According to the website Expose a Bro, one man allegedly created and maintained a blog supposedly written by a female sex worker. This man allegedly had three separate online personalities: twentysomething escort and sex work blogger "Alexa di Carlo," a sex blogger named "Caitlain" operating a sex education message board for teens, and "Matt," an escort client. "Alexa" vouched for "Matt" and encouraged other sex workers to see him and have rough sex with him. "Matt," in this case, was the creator of all three online personas.</p>
+
+
+
+          <p>In 2012, British newspaper the <em>Independent</em> outed military contractor and computer consultant Mark Lancaster for running a fake sugar-daddy website. His site, "Sponsorascholar.co.uk," required an undercover reporter to do a sex-based "practical assessment" with Lancaster in order to serve the website's fake clients. Lancaster was later convicted of "voyeurism" and "trafficking," but not of rape. He was jailed for 16 months.</p>
+
+
+
+          <p>Lancaster's scam was a good gamble, McNeill says. "It's tricking young girls who want to do sex work to whatever level—they may not want to do sex work in the sense that it's their dream career, but it's the best fit for them at the moment—and these men tricked them to get sex out of them. And they figure nobody's going to talk about it. So this Mark Lancaster dude, no doubt he figured nobody's going to go to the cops. These girls are going to feel too ashamed."</p>
+
+
+
+          <p>Sex-work scammers are rarely prosecuted for rape, and McNeill feels that they should be. "Consent obtained under false pretenses is not consent, and sex without consent is rape," McNeill says. "Because sex work is in the shadows, even when women do report, there's a tendency among the 'good people,' and that includes good women, to shame them—to say, 'You had it coming' or 'Sex work is rape anyway.'"</p>
+
+
+
+          <p>McNeill gives a classic example: clients who hand sex workers envelopes full of paper instead of cash. A sex worker's consent is contingent on one thing: getting paid. When that condition of consent is violated, the sex is nonconsensual.</p>
+
+
+
+          <p>There's at least one example of a scammer-rapist getting charged for rape in a place where sex work is decriminalized. In Australia's Australian Capital Territory state, where legislators have decriminalized sex work and sex workers register with the local government, Akis Emmanouel Livas pleaded guilty to his rape charge after handing a sex worker a sealed envelope with nothing but a folded paper bag inside. His victim gave a statement to the court about how violated she felt. Livas was imprisoned for eight months.</p> <div class="article-image article-image-inline image-center"><img class="img-responsive" /></div>
+
+
+
+          <p><span id="dropcap">I</span>n Washington State, a charge of rape in the first degree requires "forcible compulsion," meaning that the rapist uses or threatens use of a deadly weapon, kidnaps his victim, breaks in, or inflicts serious physical injury. Lack of consent, which the state defines as "actual words or conduct indicating freely given agreement," enters the equation for rape only in the third degree.</p>
+
+
+
+          <p>Some states—including California, Tennessee, Alabama, and Michigan—actually have rape laws that criminalize consent obtained by trickery. In 2013, California closed a loophole in its rape-by-fraud law to add the condition of impersonation. The change was motivated by one case in which a man climbed into a woman's bed in the middle of the night, and the woman, thinking he was her boyfriend, had sex with him, only to discover when the lights went on that the man she had sex with wasn't her boyfriend.</p>
+
+
+
+          <p>But many people feel that some rape-by-fraud laws are a slippery slope. When a New Jersey state assemblyman introduced a bill that would have made it illegal to misrepresent oneself for the purpose of having sex, the bill met serious resistance.</p>
+
+
+
+          <p>"[This] law is so vague and wide-reaching that it's easy to see how pretty much everyone could be considered a rapist, because, as any quick perusing of OkCupid can tell you, representing yourself as someone you are not is a universal behavior," Amanda Marcotte wrote for Slate in 2014. "All of us are claiming we woke up like this, and we are all lying."</p>
+
+
+
+          <p>But a lie means something completely different in the context of sex work, says Las Vegas defense attorney and former municipal court judge Dayvid Figler.</p>
+
+
+
+          <p>"There's a difference between a lie and something material someone would rely on to give consent or not," Figler said. He gives an example: In an interpersonal relationship, a person might say, "You should sleep with me because I am the world's greatest lover and I guarantee you'll be satisfied." That may be relevant in the decision to have sex. But if the same person approaches a sex worker, that fact is likely irrelevant. "The sex worker gives consent only if there are reasonable representations that can be relied upon that this isn't anything but a business opportunity," he said.</p> <div class="article-image article-image-inline pull-left" style="width: 300px;"><img class="img-responsive" style="width: 300px;" /></div>
+
+
+
+          <p>In the case of Hickey's alleged deception, the women had sex with him only because they thought it was part of an audition process that would lead them to a porn career. Shearer, Bishop, and Bronk all followed up with the Deja Stwalley Facebook profile to see if they were getting any work as a result of their "auditions," and were all rattled to find out they were getting nothing. Now that the memories of her time with Hickey have resurfaced, Shearer has been getting panic attacks.</p>
+
+
+
+          <p>But Figler says that if a prosecutor wanted to seek justice for these women, that prosecutor could try the case as third-degree rape for violating consent. A prosecutor could try to convince a jury that misrepresentation of the material facts didn't allow for "freely" given consent. That same prosecutor could also look at Washington's laws on fraudulent misrepresentation of a business opportunity.</p>
+
+
+
+          <p>"I think that you would probably have on some level a tough case because there is this stigma attached: 'Oh, those stupid girls, they got what they deserved trying to get into a sleazy world,'" Figler says. "You're dealing with public opinion about this sort of thing. But [allegedly], they were essentially raped. Their consent was based on a false premise."</p>
+
+
+
+          <p>For Shearer, the idea that what happened to her wouldn't be considered sexual assault may be the most devastating part. She feels like the police aren't on her side, that they insinuated "my rape wasn't really a rape." She doesn't want to go through that experience again by reporting what happened to the Seattle police.</p>
+
+
+
+          <p>But that's not stopping her from speaking openly about it. Shearer and Bishop are also defying most journalistic conventions on alleged rape by allowing <em>The Stranger</em> to print their full names.</p>
+
+
+
+          <p>"I'm going to push this as far as I can," Shearer says. <img src="../../images/rec_star.gif" alt="recommended" width="10" height="10" border="0" /></p> <hr />
+
+
+
           <p>UPDATE: The woman in the "Deja Stwalley" profile pictures has been found. <a href="http://www.thestranger.com/slog/2016/06/13/24208009/the-audition-update-dc-woman-says-her-photos-were-stolen-to-create-fake-porn-recruiter-facebook-profile">Read more here.</a></p>
       <a name="more"></a>
-          
-        
-        
-        
+
+
+
+
           <div id="div-gpt-ad-native-inline-2" class="inline-ad py-4 d-flex" style="clear:both"></div>
-        
-       
-    
+
+
+
   </div> <!-- end component -->
 
 <div id="articleFooterComponent-24182705" class="component article-footer">
     <div class="row py-3 article-share-tools">
       <div class="col">
         <div class="share-tools-wrapper fs-6 d-flex align-items-center justify-content-start">
-      
-      
+
+
         <a class="btn btn-primary me-3 text-white" href="/features/2016/06/08/24182705/the-audition/comments"><i class="fa-regular fa-comments"></i> Comments 179</a>
-      
-      
+
+
         <a href="https://bsky.app/intent/compose?text=https%3A//www.thestranger.com/features/2016/06/08/24182705/the-audition" class="fa-stack share-tools bluesky-share" style="vertical-align: top;"  target="_blank">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fab fa-bluesky fa-stack-1x fa-inverse"></i>
         </a>
-      
-      
+
+
         <span class="fa-stack tw-share share-tools" style="vertical-align: top;" data-href="https://twitter.com/intent/tweet?url=https%3A//www.thestranger.com/features/2016/06/08/24182705/the-audition">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
         </span>
-      
-      
+
+
         <span class="fa-stack share-tools fb-share" style="vertical-align: top;" data-href="https://www.thestranger.com/features/2016/06/08/24182705/the-audition">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
         </span>
-      
-      
+
+
         <a href="https://www.reddit.com/submit?url=https%3A//www.thestranger.com/features/2016/06/08/24182705/the-audition" class="fa-stack share-tools reddit-share" style="vertical-align: top;"  target="_blank">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
         </a>
-      
-      
+
+
         <a href="mailto:?subject=I%20thought%20you%20might%20like%20this%20article%20from%20The%20Stranger&body=https%3A//www.thestranger.com/features/2016/06/08/24182705/the-audition" class="fa-stack" style="vertical-align: top;">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
         </a>
-      
+
     </div>
       </div>
     </div>
-    
+
       <div class="row mt-3 article-tags mb-5">
         <div class="col">
           <div class="ff-serif text-uppercase">
             <span class="text-gray-3">Tags:</span>
-            
+
               <a class="article-tag text-decoration-none text-gray-4 fw-bold px-1" href="/collections/21583817/features">Features</a>
-            
+
               <a class="article-tag text-decoration-none text-gray-4 fw-bold px-1" href="/collections/24611858/25-years-of-the-stranger">25 Years of the Stranger</a>
-            
+
           </div>
         </div>
       </div>
@@ -915,8 +915,8 @@
 </div> <!-- end component -->
 
 <!-- article-contribution-footer -->
-  
-  
+
+
     <div class="article-contribution-footer py-5">
       <div class="row justify-content-center">
         <div class="col-12">
@@ -927,7 +927,7 @@
         </div>
       </div>
     </div>
-  
+
   <!-- article-contribution-footer -->
           </div>
           <div class="col-1 d-none d-md-block"></div>
@@ -951,87 +951,87 @@
 </div>
           </div>
         </div> <!-- top -->
-        
+
           <div class="row bottom justify-content-center">
             <div class="col-12 col-md-8 px-md-5">
               <div id="editorsPicksComponent" class="component article-list editors-picks my-3 my-md-5">
     <h3 class="ff-header fw-bold pb-1 border-bottom">Editors' Picks</h3>
     <div class="row row-cols-1 row-cols-md-3 pt-3">
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/art-and-performance-fall-2023/2023/09/13/79163137/fantasy-as-incoherent-city">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media2.fdncms.com/stranger/imager/u/large/79163272/fantasy_a__2.jpg">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/art-and-performance-fall-2023/2023/09/13/79163137/fantasy-as-incoherent-city">Fantasy A's Incoherent City</a></h5>
         </div>
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/elections-2023/2023/09/08/79157768/joy-hollingsworth-tried-to-stop-new-apartment-construction-on-madison-in-2017">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media2.fdncms.com/stranger/imager/u/large/79158866/screen_shot_2023-09-08_at_12.26.23_pm.png">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/elections-2023/2023/09/08/79157768/joy-hollingsworth-tried-to-stop-new-apartment-construction-on-madison-in-2017">Joy Hollingsworth Tried to Stop New Apartment Construction on Madison in 2017</a></h5>
         </div>
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/housing/2023/09/27/79182536/can-a-black-person-be-a-nimby">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media1.fdncms.com/stranger/imager/u/large/79185473/nimbypostgetty.png">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/housing/2023/09/27/79182536/can-a-black-person-be-a-nimby">Can a Black Person Be a NIMBY?</a></h5>
         </div>
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/news/2023/07/26/79093387/we-are-the-20">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media1.fdncms.com/stranger/imager/u/large/79093388/judy-heumann---credit-becca-fuhrman-2-.jpg">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/news/2023/07/26/79093387/we-are-the-20">We Are the 20%</a></h5>
         </div>
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/elections-2023/2023/10/25/79225726/what-happens-if-big-business-gets-the-council-it-wants">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media1.fdncms.com/stranger/imager/u/large/79225727/what-if--city-council.jpg">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/elections-2023/2023/10/25/79225726/what-happens-if-big-business-gets-the-council-it-wants">What Happens If Big Business Gets the Council It Wants?</a></h5>
         </div>
-      
+
         <div class="col mb-3">
           <div class="item-image mb-2">
             <a href="/news/2004/02/26/17256/daddy-was-a-bankrobber">
-              
+
                 <img class="img-fluid placeholder-if-missing" src="https://media1.fdncms.com/stranger/imager/u/large/76073615/img_9081.jpg">
-              
+
             </a>
           </div>
           <h5><a class="text-decoration-none text-black headline" href="/news/2004/02/26/17256/daddy-was-a-bankrobber">Daddy Was A Bankrobber</a></h5>
         </div>
-      
+
     </div>
   </div> <!-- end component -->
             </div>
             <div class="col-12 col-md-4">
-              
+
             </div>
           </div> <!-- bottom -->
-        
+
       </div> <!-- main container -->
       <div class="container-fluid footer g-0">
         <div class="component newsletter-sign-up bg-gray-1 p-5 text-center">
@@ -1071,7 +1071,7 @@
 <div class="component footer-nav bg-dark p-4">
   <div class="container">
     <div class="row row-cols-2 row-cols-md-4 text-white mx-md-5 my-5 justify-content-center">
-      
+
     </div>
     <div class="row">
       <div class="col-12 text-center text-gray-3 mt-3">
@@ -1086,14 +1086,14 @@
       </div>
     </div>
     <div class="row row-cols-3 row-cols-md-auto align-items-center justify-content-center mt-5 py-5 border-top border-bottom border-gray-3">
-      
+
         <div class="col text-center mx-md-4">
           <a href="https://portlandmercury.com" target="_blank" class="d-inline-block px-1"><img src="/assets/3/base/images/mercury-logo-darkbg.png" style="max-height: 70px;" class="img-fluid"></a>
         </div>
         <div class="col text-center mx-md-4">
           <a href="https://strangertickets.com" target="_blank" class="d-inline-block px-1"><img src="/assets/3/base/images/strangertickets-logo-darkbg.png" style="max-height: 55px;" class="img-fluid"></a>
         </div>
-      
+
       <div class="col text-center mx-md-4">
         <a href="https://everout.com/seattle/" target="_blank" class="d-inline-block px-1"><img src="/assets/3/base/images/everout-logo-darkbg.png" style="max-height: 70px;" class="img-fluid"></a>
       </div>
@@ -1111,27 +1111,27 @@
 
 <div class="row justify-content-center mt-5">
       <div class="col-12 col-md-8 text-center">
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/masthead">Masthead</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/ad-info">Ad Info & Rates</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.strangertickets.com/page/features">Sell Tickets</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/jobs">Jobs at The Stranger</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/contact-information">Contact</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/privacy-policy">Privacy Policy</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/terms-of-use">Terms of Use</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/takedown-policy">Takedown Policy</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://www.thestranger.com/find-it">Find The Stranger Near You</a>
-        
+
           <a class="p-0 my-1 mx-3 d-inline-block text-uppercase fw-light text-white text-decoration-none" href="https://thestranger.com/subscribe">Subscribe to The Stranger in Print</a>
-        
+
       </div>
     </div>
 
@@ -1147,7 +1147,7 @@
 1101 East Pike St. Suite 300, Seattle, WA 98122
         </div>
       </div>
-    
+
   </div>
 
 </div>
@@ -1159,14 +1159,14 @@
 /* move and reload ads based window size, only reload ads when window passes the breakpoints */
   var startingWidth = $(window).width();
   var newWidth;
-  
+
   var adUnits = [{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-top-super","container":"","spot":"Top_Slider","spotValue":"Top_Slider"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-top-super","container":"","spot":"Top_Slider","spotValue":"Top_Slider"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-mobile-top","container":"","spot":"Mobile_Top_Slider","spotValue":"Mobile_Top_Slider"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-mobile-top","container":"","spot":"Mobile_Top_Slider","spotValue":"Mobile_Top_Slider"},{"unitCode":"Stranger_Feature","min":1200,"max":null,"adDiv":"#div-gpt-ad-masthead","container":".in-navbar-ad","spot":"Masthead","spotValue":"Masthead"},{"unitCode":"Stranger_Feature","min":977,"max":1199,"adDiv":"#div-gpt-ad-masthead","container":".above-navbar-ad","spot":"Masthead","spotValue":"Masthead"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-masthead","container":"","spot":"Masthead","spotValue":"Masthead"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-mobile-masthead","container":"","spot":"Mobile_Masthead","spotValue":"Mobile_Masthead"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-mobile-masthead","container":"","spot":"Mobile_Masthead","spotValue":"Mobile_Masthead"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-sidebar-1","container":"","spot":"Sidebar_1","spotValue":"Sidebar_1"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-sidebar-1","container":"","spot":"Sidebar_1","spotValue":"Sidebar_1"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-sidebar-2","container":"","spot":"Sidebar_2","spotValue":"Sidebar_2"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-sidebar-2","container":"","spot":"Sidebar_2","spotValue":"Sidebar_2"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-sidebar-3","container":"","spot":"Sidebar_3","spotValue":"Sidebar_3"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-sidebar-3","container":"","spot":"Sidebar_3","spotValue":"Sidebar_3"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-inline-1","container":"","spot":"Mobile_Inline_1","spotValue":"Mobile_Inline_1"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-inline-1","container":"","spot":"Mobile_Inline_1","spotValue":"Mobile_Inline_1"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-inline-2","container":"","spot":"Mobile_Inline_2","spotValue":"Mobile_Inline_2"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-inline-2","container":"","spot":"Mobile_Inline_2","spotValue":"Mobile_Inline_2"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-inline-3","container":"","spot":"Mobile_Inline_3","spotValue":"Mobile_Inline_3"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-inline-3","container":"","spot":"Mobile_Inline_3","spotValue":"Mobile_Inline_3"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-native-inline-1","container":"","spot":"Native_Inline_1","spotValue":"Native_Inline_1"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-native-inline-1","container":"","spot":"Native_Inline_1","spotValue":"Native_Inline_1"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-native-inline-2","container":"","spot":"Native_Inline_2","spotValue":"Native_Inline_2"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-native-inline-2","container":"","spot":"Native_Inline_2","spotValue":"Native_Inline_2"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-native-contribution","container":"","spot":"Native_Contribution_Inline","spotValue":"Native_Contribution_Inline"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-native-contribution","container":"","spot":"Native_Contribution_Inline","spotValue":"Native_Contribution_Inline"},{"unitCode":"Stranger_Feature","min":977,"max":null,"adDiv":"#div-gpt-ad-native-article-sponsorship-label","container":"","spot":"Native_Article_Sponsorship_Label","spotValue":"Native_Article_Sponsorship_Label"},{"unitCode":"Stranger_Feature","min":0,"max":976,"adDiv":"#div-gpt-ad-native-article-sponsorship-label","container":"","spot":"Native_Article_Sponsorship_Label","spotValue":"Native_Article_Sponsorship_Label"}];
   responsiveAds(adUnits,{"initialLoad":true});
 
 /* define units */
-  
-    
-      
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], [[970,100],[970,250],[970,90]]).addSize([0,0], []).build();
           Top_Slider = googletag.defineSlot('/1047926/Stranger_Feature', [[970,100],[970,250],[970,90]], 'div-gpt-ad-top-super')
@@ -1175,11 +1175,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Top_Slider');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], []).addSize([0,0], [320,50]).build();
           Mobile_Top_Slider = googletag.defineSlot('/1047926/Stranger_Feature', [320,50], 'div-gpt-ad-mobile-top')
@@ -1188,11 +1188,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Mobile_Top_Slider');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([1200,0], [728,90]).addSize([977,0], [728,90]).addSize([0,0], []).build();
           Masthead = googletag.defineSlot('/1047926/Stranger_Feature', [728,90], 'div-gpt-ad-masthead')
@@ -1201,22 +1201,22 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Masthead');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping()
-            
-              
+
+
                 .addSize([977,0], [])
-              
-            
-              
+
+
+
                 .addSize([0,0], [1,1])
-              
-            
+
+
             .build();
           Mobile_Masthead = googletag.defineOutOfPageSlot('/1047926/Stranger_Feature', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR)
               .defineSizeMapping(mapping)
@@ -1224,11 +1224,11 @@
               .addService(googletag.pubads())
               .setTargeting('spot','Mobile_Masthead');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], [[300,250]]).addSize([0,0], []).build();
           Sidebar_1 = googletag.defineSlot('/1047926/Stranger_Feature', [[300,250]], 'div-gpt-ad-sidebar-1')
@@ -1237,11 +1237,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_1');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], [[300,250]]).addSize([0,0], []).build();
           Sidebar_2 = googletag.defineSlot('/1047926/Stranger_Feature', [[300,250]], 'div-gpt-ad-sidebar-2')
@@ -1250,11 +1250,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_2');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], [[300,250]]).addSize([0,0], []).build();
           Sidebar_3 = googletag.defineSlot('/1047926/Stranger_Feature', [[300,250]], 'div-gpt-ad-sidebar-3')
@@ -1263,11 +1263,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_3');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], []).addSize([0,0], [300,250]).build();
           Mobile_Inline_1 = googletag.defineSlot('/1047926/Stranger_Feature', [300,250], 'div-gpt-ad-inline-1')
@@ -1276,11 +1276,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_1');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], []).addSize([0,0], [300,250]).build();
           Mobile_Inline_2 = googletag.defineSlot('/1047926/Stranger_Feature', [300,250], 'div-gpt-ad-inline-2')
@@ -1289,11 +1289,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_2');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], []).addSize([0,0], [300,250]).build();
           Mobile_Inline_3 = googletag.defineSlot('/1047926/Stranger_Feature', [300,250], 'div-gpt-ad-inline-3')
@@ -1302,11 +1302,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Sidebar_3');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], ['fluid']).addSize([0,0], ['fluid']).build();
           Native_Inline_1 = googletag.defineSlot('/1047926/Stranger_Feature', ['fluid'], 'div-gpt-ad-native-inline-1')
@@ -1315,11 +1315,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Native_Inline_1');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], ['fluid']).addSize([0,0], ['fluid']).build();
           Native_Inline_2 = googletag.defineSlot('/1047926/Stranger_Feature', ['fluid'], 'div-gpt-ad-native-inline-2')
@@ -1328,11 +1328,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Native_Inline_2');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], ['fluid']).addSize([0,0], ['fluid']).build();
           Native_Contribution_Inline = googletag.defineSlot('/1047926/Stranger_Feature', ['fluid'], 'div-gpt-ad-native-contribution')
@@ -1341,11 +1341,11 @@
             .addService(googletag.pubads())
             .setTargeting('spot','Native_Contribution_Inline');
         });
-      
-    
-  
-    
-      
+
+
+
+
+
         googletag.cmd.push(function() {
           var mapping = googletag.sizeMapping().addSize([977,0], ['fluid']).addSize([0,0], ['fluid']).build();
           Native_Article_Sponsorship_Label = googletag.defineSlot('/1047926/Stranger_Feature', ['fluid'], 'div-gpt-ad-native-article-sponsorship-label')
@@ -1358,13 +1358,13 @@
 /* define pagewide targeting and enable services */
   googletag.cmd.push(function() {
     googletag.pubads().setTargeting('view','article');
-    
-      
+
+
         googletag.pubads().setTargeting("content",["24182705"]);
-      
+
         googletag.pubads().setTargeting("author",["Sydney Brownstone"]);
-      
-    
+
+
     googletag.pubads().setTargeting('editorial_version','3');
     googletag.pubads().setTargeting('site','stranger');
     googletag.pubads().setTargeting('test_value','A');
@@ -1392,33 +1392,33 @@
   });
 
 /* display ads */
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-top-super'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-mobile-top'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-masthead'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-mobile-masthead'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-sidebar-1'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-sidebar-2'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-sidebar-3'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-inline-1'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-inline-2'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-inline-3'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-native-inline-1'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-native-inline-2'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-native-contribution'); });
-  
+
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-native-article-sponsorship-label'); });
 
 /* refresh DOM elements for ad units */

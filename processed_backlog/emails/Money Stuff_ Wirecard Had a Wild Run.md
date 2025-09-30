@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Two of the main forms of financial crime are: You have a business that does not make any money, but you’d like people to think that it makes
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Wirecard!
-    
-  
+
+
 
 Two of the main forms of financial crime are:
 	You have a business that does not make any money, but you’d like people to think that it makes money, so that they will give you money. So you write financial statements that say you have a lot of income, but you don’t; the money that you are earning is fake. 	You have a business that makes a lot of money, but by doing crime. You would like to be able to spend the money in the legitimate financial system, use it to buy houses or sports teams or Treasury bills or whatever. So you write financial statements that say you have a lot of income from legitimate activity, but you don’t; your income statements — and the legitimate activities they describe — are fake. But the money is real. 
@@ -92,89 +92,89 @@ By now, Marsalek had fully entrenched himself in the affairs of his Russian merc
 
 See if someone came to me and said “there is a company that fools its auditors using dormant shell companies,” I’d be like, ooh, fun, financial shenanigans. But if they said “and its leader has fully entrenched himself in the affairs of his Russian mercenary friend,” I would be worried.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ChatGPT
-    
-  
+
+
 
 The  stereotype of chat-based large-language-model artificial intelligence products in early 2023 is that they are very good at sounding smart but not so good at being correct. If you ask a model like ChatGPT to write up some investment recommendations, it will produce plausible fluent prose that reads like a professional investment recommendation and that includes compelling citations to data points, but the data might be all made up and the recommendations might be worthless. It is good enough to convince the uninformed, but not good enough to act on.
 Given that stereotype, you might imagine two ways for big banks to think about these models:
@@ -193,20 +193,20 @@ We have  talked a few  times about the US Securities and Exchange Commission’
 In like five years, technology — and the SEC’s interpretation of the rules — will have advanced to the point that banks will get fined if their bankers talk about business with clients on the golf course. “You should have been wearing your bank-issued virtual reality headset and recorded the conversation,” the SEC will say, or I guess “you should have played golf in your bank’s official metaverse, which records all golf conversations for compliance review, rather than on a physical golf course.” The golf course is an unofficial channel! No business allowed!
 Well, similarly. If you want to get advice from a robot about how to invest — or if you want the robot to help you write a presentation for clients — then you had better communicate with the robot using official channels! Typing in the ChatGPT box isn’t an official channel, so it's not allowed.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Biochar
-    
-  
+
+
 
 A  standard thesis of environmental, social and governance (but especially environmental) investing is that companies regularly do stuff that causes externalities, and over time laws and norms will evolve so that they will have to  internalize those externalities. One way for that thesis to work is something like this:
 	There is some company that makes some product that it sells for a lot of money, but the production process creates a lot of pollution.	Right now, that pollution is “free”: The company can dump its poisonous byproducts in the nearest river or whatever. This makes the production process cheap, so the company is profitable.	But soon, the pollution probably won’t be free: The local government will probably tell the company not to dump its byproducts, or else customers will refuse to buy the product because they are more attuned to environmental issues and don’t want to encourage pollution.	So the company will have to clean up its process, which will be expensive, making the company less profitable or perhaps not viable at all.	As an investor, you should think about the likely future restrictions on pollution, and avoid buying companies that are profitable now only because they impose externalities on the world that are not properly priced.
@@ -229,11 +229,11 @@ The point here is that this is a real normal business — producers produce bio
 How do you get people to pay you for those externalities? In theory everyone on earth benefits from having less carbon in the atmosphere; I guess you could take up a collection. But in practice the answer is that some companies create negative externalities in the form of carbon emissions, and due to some combination of regulation, customer pressure, shareholder pressure, employee pressure, etc., they have to internalize those externalities. And instead of doing that themselves — by not producing stuff that creates carbon emissions, by telling their employees not to get on planes to visit clients, whatever — they buy carbon credits in a financial marketplace. They internalize the bad externalities by buying good externalities from the biochar people.
 Elsewhere in ESG, here is a Wall Street Journal story about anti-ESG that includes the sentences “Conservative activists are coordinating a multimillion-dollar national campaign to make ESG the next CRT” and “A digital ad by the Heritage Foundation’s political-action committee portrays an oil-and-gas driller being denied a small-business loan in part because he has never ‘identified as a woman or even nonbinary.’”
 
-  
-    
+
+
       Wormhole 
-    
-  
+
+
 
 In general, in the US, most people have the mostly correct sense that if someone scams some money out of their bank account, they can call their bank and the bank will put it back. The intuitive process is roughly:
 	Someone scams you into sending them money from your bank account.	You call your bank and say “I was scammed, my transfer of $2,000 last Thursday was a fraud,” and provide some details.	Your bank looks at where the money was sent and calls the recipient bank — the scammer’s bank — to say that the transaction was a fraud.	The recipient bank takes the money out of the scammer’s account and sends it back to your bank, which puts it back in your account.
@@ -252,11 +252,11 @@ You can probably figure out where this is going. Jump apparently went to Oasis a
 Once the funds were under Jump’s control, they exited the positions in the Oasis vaults, repaid the $78 million loan that the hacker had taken out from Oasis, and returned the 120,695 wstETH (currently ~$214 million) and 3,214 rETH (~$5.5 million) to their own pockets for a total recovery of a bit more than $140 million at today’s prices. Although ETH prices in USD have come down considerably from the initial hack, those staking derivatives could be exchanged for approximately 137,537 ETH, meaning Jump actually came out of this whole debacle with 17,500 ETH more than the 120,000 that was stolen a year ago.
 Blockworks, which first reported this story, used the headline “Jump Crypto Just Counter-Exploited the Wormhole Hacker for $140 Million.” Did they? I suppose that in crypto, philosophically, if you got hacked, and you manage to get the money back, you would prefer for the story to be “Jump Crypto cleverly hacked the hacker using hacking tools, because crypto is trustless and decentralized and sometimes you have to hack hackers,” rather than “Jump Crypto called customer service and had the transaction reversed.”
 
-  
-    
+
+
       Base/Base
-    
-  
+
+
 
 We   talk from  time to   time around here about how, if there’s good news about some company or thing, the stock of a public company with a similar name or ticker will go up. So in 2021, when   Elon Musk tweeted “Use Signal,” the stock of medical-device company Signal Advance Inc. went up 527%. Presumably Musk was referring to the Signal messaging app, which has nothing to do with Signal Advance, but that doesn’t matter. This is not about the expected value of future cash flows. You are playing a sort of free-association video game, and when the word “Signal” is popular you should buy other things that look like the word “Signal.” 
 Crypto is even more of a free-association video game, and even less forcused on the expected value of future cash flows, so  here you go:
@@ -268,129 +268,129 @@ Despite launching the network with the proviso that "we have no plans to issue a
 
 Coinbase launched a thing called “Base,” which does not involve a token, as it said in the announcement. But there is already a token called “Base.” So.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman Turns to ‘Make-or-Break’ Unit as CEO   Solomon Put to Test. “Raiffeisen, a senior executive at the bank told the Financial Times, now handles 40-50 per cent of all the money flows between Russia and the rest of the world.” Deutsche Bank  Studied Credit Suisse Deals Before Overhaul. TD Bank to   Pay $1.2 Billion to Resolve Suit Tied to Ponzi Scheme. Buyout Firms Looking for Bargains Will Be  Left Disappointed. Investors Are Bracing for Surge in  Market Volatility. JPMorgan Investment Arm Purges Its   ESG Funds of Adani Stocks. Blackstone CEO Schwarzman Reaped Record $1.27 Billion in 2022. How much is  Manchester United really worth? Exits Mount at Crypto Venture Firm  Paradigm. The Green Energy Revolution Needs a 211-Mile Road Through   Pristine Alaskan Wilderness.   Twitter Cuts More Engineering, Product Jobs to Curb Costs.  EY China staff encouraged to wear Communist party badges. Newspapers  Drop ‘Dilbert’ After Cartoonist Calls Black Americans ‘Hate Group.’ “If I had to bet on  any of the Kushners, it would be him.” Chartreuse shortage. People are worried about  bond market liquidity. “That fall, in the Columbia, Maryland, office, a group of  agents who'd missed their sales goals had to put on diapers and eat baby food out of a trough.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not always. If you do a crypto hack and then   launder the proceeds, arguably the original crime was even nerdier than the laundering.
 
 
   [2] Your bank might give you the money back anyway, even if it can’t recover it, but that is a separate issue.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

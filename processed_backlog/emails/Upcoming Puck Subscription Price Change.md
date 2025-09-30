@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/Upcoming Puck Subscription Price Change_Sat,_22_Feb_2025_19-00-13_+0000_1952f0835f4a4a13.eml
 **Processed:** 2025-08-24T19:13:04.073102
 
-Puck logo ( https://puck.news/?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Dear reader,
 
  
@@ -35,7 +35,7 @@ Thanks again for being here. There’s so much more to come. You can reply direc
 Puck - if you know, you know
 
 swash divider
-Facebook ( https://facebook.com/puckdotnews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Price+Increase+Renewal_90DayTrigger+%2860DayABTest%29&utm_content=90Day_Price+Increase+Notice+-+Annual+Subscriber+%28ControlTimeTest%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

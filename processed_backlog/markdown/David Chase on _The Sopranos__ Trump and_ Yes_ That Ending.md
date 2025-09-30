@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • January 07, 2019 
+Unknown author • January 07, 2019
 
 ![nytimes.com]()
 

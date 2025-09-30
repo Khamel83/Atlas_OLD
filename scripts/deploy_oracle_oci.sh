@@ -38,38 +38,38 @@ error() {
 
 check_prerequisites() {
     log "Checking prerequisites..."
-    
+
     # Check OCI CLI
     if ! command -v oci &> /dev/null; then
         error "OCI CLI not found. Install from: https://docs.oracle.com/iaas/tools/oci-cli/"
         exit 1
     fi
-    
+
     # Check Docker
     if ! command -v docker &> /dev/null; then
         error "Docker not found. Please install Docker."
         exit 1
     fi
-    
+
     # Check OCI config
     if [ ! -f ~/.oci/config ]; then
         error "OCI config not found. Run: oci setup config"
         exit 1
     fi
-    
+
     # Check compartment OCID
     if [ -z "$COMPARTMENT_OCID" ]; then
         error "COMPARTMENT_OCID environment variable required"
         echo "Get from: https://cloud.oracle.com/identity/compartments"
         exit 1
     fi
-    
+
     success "Prerequisites check passed"
 }
 
 create_dockerfile() {
     log "Creating Dockerfile..."
-    
+
     cat > "$PROJECT_ROOT/Dockerfile.podemos-rss" << 'EOF'
 FROM python:3.11-slim
 
@@ -104,34 +104,34 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 # Run server
 CMD ["python", "podemos_rss_server.py"]
 EOF
-    
+
     success "Dockerfile created"
 }
 
 build_docker_image() {
     log "Building Docker image..."
-    
+
     cd "$PROJECT_ROOT"
     docker build -f Dockerfile.podemos-rss -t "$IMAGE_NAME" .
-    
+
     success "Docker image built: $IMAGE_NAME"
 }
 
 create_container_instance() {
     log "Creating OCI Container Instance..."
-    
+
     # Create security group if it doesn't exist
     local sg_name="podemos-rss-sg"
     local sg_ocid
-    
+
     sg_ocid=$(oci network security-list list \
         --compartment-id "$COMPARTMENT_OCID" \
         --query "data[?\"display-name\" == '$sg_name'].id | [0]" \
         --raw-output 2>/dev/null || echo "null")
-    
+
     if [ "$sg_ocid" = "null" ]; then
         log "Creating security group..."
-        
+
         sg_ocid=$(oci network security-list create \
             --compartment-id "$COMPARTMENT_OCID" \
             --display-name "$sg_name" \
@@ -168,26 +168,26 @@ create_container_instance() {
             ]' \
             --query "data.id" \
             --raw-output)
-        
+
         success "Security group created: $sg_ocid"
     else
         success "Using existing security group: $sg_ocid"
     fi
-    
+
     # Get default VCN and subnet
     local vcn_ocid
     vcn_ocid=$(oci network vcn list \
         --compartment-id "$COMPARTMENT_OCID" \
         --query "data[0].id" \
         --raw-output)
-    
+
     local subnet_ocid
     subnet_ocid=$(oci network subnet list \
         --compartment-id "$COMPARTMENT_OCID" \
         --vcn-id "$vcn_ocid" \
         --query "data[0].id" \
         --raw-output)
-    
+
     # Create container instance config
     cat > /tmp/container-config.json << EOF
 {
@@ -234,32 +234,32 @@ create_container_instance() {
     ]
 }
 EOF
-    
+
     # Create container instance
     local instance_ocid
     instance_ocid=$(oci container-instances container-instance create \
         --from-json file:///tmp/container-config.json \
         --query "data.id" \
         --raw-output)
-    
+
     success "Container instance created: $instance_ocid"
-    
+
     # Wait for instance to be running
     log "Waiting for instance to be running..."
     oci container-instances container-instance get \
         --container-instance-id "$instance_ocid" \
         --wait-for-state ACTIVE \
         --wait-interval-seconds 10
-    
+
     # Get public IP
     local public_ip
     public_ip=$(oci container-instances container-instance get \
         --container-instance-id "$instance_ocid" \
         --query "data.vnics[0].\"public-ip\"" \
         --raw-output)
-    
+
     success "Instance running at: http://$public_ip:8080"
-    
+
     # Save deployment info
     cat > "$PROJECT_ROOT/deployment_info.json" << EOF
 {
@@ -270,48 +270,48 @@ EOF
     "created_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 }
 EOF
-    
+
     echo "$public_ip"
 }
 
 setup_ssl() {
     local public_ip="$1"
-    
+
     log "Setting up SSL certificate..."
-    
+
     # Note: This would require domain setup and Let's Encrypt
     echo "🔒 SSL setup requires:"
     echo "   1. Point domain to IP: $public_ip"
     echo "   2. Configure Let's Encrypt certificate"
     echo "   3. Update security group for HTTPS (port 443)"
-    
+
     # For now, create self-signed certificate
     log "Creating self-signed certificate for testing..."
-    
+
     # This would be done on the container instance
     # For production, use proper domain and Let's Encrypt
 }
 
 generate_access_token() {
     local public_ip="$1"
-    
+
     log "Generating access token for testing..."
-    
+
     # Create test token for 'acquired' feed
     local test_feed="acquired"
     local response
-    
+
     response=$(curl -s -X POST "http://$public_ip:8080/feeds/$test_feed/generate_token?user_name=test_user" || echo "{}")
-    
+
     if echo "$response" | jq -e '.token' > /dev/null 2>&1; then
         local token
         token=$(echo "$response" | jq -r '.token')
-        
+
         success "Test token generated:"
         echo "   Feed: $test_feed"
         echo "   Token: $token"
         echo "   URL: http://$public_ip:8080/feeds/$test_feed/rss?token=$token"
-        
+
         # Save to deployment info
         jq --arg token "$token" --arg feed "$test_feed" \
            '.test_access = {feed: $feed, token: $token}' \
@@ -324,9 +324,9 @@ generate_access_token() {
 
 test_deployment() {
     local public_ip="$1"
-    
+
     log "Testing deployment..."
-    
+
     # Test health endpoint
     if curl -f -s "http://$public_ip:8080/status" > /dev/null; then
         success "Health check passed"
@@ -334,24 +334,24 @@ test_deployment() {
         error "Health check failed"
         return 1
     fi
-    
+
     # Test root endpoint
     local response
     response=$(curl -s "http://$public_ip:8080/" | jq -r '.message' 2>/dev/null || echo "")
-    
+
     if [ "$response" = "PODEMOS Private RSS Server" ]; then
         success "Server responding correctly"
     else
         error "Server not responding correctly"
         return 1
     fi
-    
+
     success "Deployment test passed"
 }
 
 show_usage_instructions() {
     local public_ip="$1"
-    
+
     echo ""
     echo "🎉 PODEMOS RSS Server deployed successfully!"
     echo ""
@@ -383,7 +383,7 @@ cleanup_temp_files() {
 main() {
     echo "🚀 Oracle OCI Deployment for PODEMOS RSS Server"
     echo "================================================"
-    
+
     # Check for help
     if [[ "${1:-}" == "--help" ]] || [[ "${1:-}" == "-h" ]]; then
         echo "Usage: $0 [OPTIONS]"
@@ -398,25 +398,25 @@ main() {
         echo "  - Valid OCI credentials"
         exit 0
     fi
-    
+
     # Main deployment flow
     check_prerequisites
     create_dockerfile
     build_docker_image
-    
+
     local public_ip
     public_ip=$(create_container_instance)
-    
+
     sleep 30  # Wait for container to fully start
-    
+
     test_deployment "$public_ip"
     generate_access_token "$public_ip"
     setup_ssl "$public_ip"
-    
+
     show_usage_instructions "$public_ip"
-    
+
     cleanup_temp_files
-    
+
     success "Deployment completed successfully!"
 }
 

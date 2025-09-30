@@ -3,12 +3,12 @@
 **Source:** inputs/New Docs/html/www.washingtonpost.com_wp-dyn_content_article_2010_04_05_AR2010040504213_pf.html.html
 **Processed:** 2025-08-24T19:13:28.319482
 
-**Redskins' trade for McNabb continues offseason tradition unlike any other**  
+**Redskins' trade for McNabb continues offseason tradition unlike any other**
 
-By Mike Wise  
+By Mike Wise
 Tuesday, April 6, 2010;
 D01
-  
+
 
 Look, I don't want to rain on Donovan McNabb's parade the day he smiles for the cameras and holds up the burgundy and gold No. 5 jersey he stole from Colt Brennan.
 

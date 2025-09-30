@@ -32,7 +32,7 @@ filters.”
 
 But first…
 
- 
+
 
 Who Won the Week: Gary Bettman
 ------------------------------
@@ -47,7 +47,7 @@ on these people: FX’s awards team for submitting Shogun to the Independent Spi
 
 Speaking of enough is enough…
 
- 
+
 
 Kennedy to Finally Step Down at Lucasfilm
 -----------------------------------------
@@ -69,7 +69,7 @@ The Mandalorian and Grogu, the first Star Wars movie since 2019’s The Rise of 
 Who might Disney film chief Alan Bergman choose as Kennedy’s successor? Dave
 Filoni would be the top internal candidate, I’d surmise, assuming Jon Favreau has little interest. Who else? Let the speculation throughout the Hollywood galaxy begin.
 
- 
+
 
 Quote
 of the Week
@@ -96,12 +96,12 @@ The Imax-Narnia Nuclear Option ( https://puck.news/why-everyone-is-mad-about-net
 After plenty of negotiation, Netflix recently announced that it will give Greta Gerwig a two-week, Imax-exclusive theatrical run for
 her upcoming film. Everyone else, from the studios to the exhibitors, isn’t so happy. 
 
- 
+
 
 Kim Masters ( https://puck.news/author/kim-masters/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Kim Masters ( https://puck.news/author/kim-masters/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Last week, when Imax C.E.O. Rich Gelfond presented the company’s latest quarterly
 earnings report—which fell short of Wall Street expectations and caused the stock to dip 5 percent in after-hours trading—he had some additional, exciting news to discuss: Netflix had committed to showing Greta Gerwig’s upcoming Narnia film on at least 1,000 Imax screens for an exclusive two-week run starting on Thanksgiving weekend 2026. Netflix would then wait two weeks before debuting the film on Christmas Day. The only problem? Theater owners and studio execs, who
@@ -161,7 +161,7 @@ So while it remains to be seen how Narnia will fare in Imax, let’s at least ta
 skirmish, no one will blame her for the plan, though a knowledgeable source says Gerwig got interested in locking up some Imax screens because Warner Bros. couldn’t book any for Barbie thanks to Chris Nolan, who hoovered them up for Oppenheimer. That was a sore subject for Tom Cruise, too; he couldn’t find room on the giant screens for the seventh (and very expensive) Mission: Impossible film, which underperformed at the box
 office with a global take of $571 million. Come to think of it, while Barbie didn’t open on a single Imax screen, either, it still managed to do okay, raking in $1.5 billion on garden-variety movie screens.
 
- 
+
 
 My
 Reading List…
@@ -193,7 +193,7 @@ Dr. Phil’s attempt to reposition his vanity TV network as a Trumpy news channe
 
 More (presented without comment): “Another former employee notes that the production staff makes McGraw look younger by applying a series of face filters in the editing process, a trick referred to internally as the “spa treatment.”
 
- 
+
 
 The
 Feedback
@@ -217,7 +217,7 @@ War with a young audience? The world order is so different now. Will there be Ru
 
 “As a Bond fan, I have to comment that the going-public-domain-in-2035 fact is a hell of a kicker. If they did come back with a rival Bond, it would be an amazing reverse-Never Say Never Again situation! Never Say Never Again AGAIN!” —A writer-actor-producer
 
- 
+
 
 Finally…
 ----------
@@ -244,6 +244,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVO4jaU3Ne8T0gV6HThrE=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

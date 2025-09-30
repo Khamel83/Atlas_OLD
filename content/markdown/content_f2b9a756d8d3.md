@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >The Myth of the Good Guy With a Gun</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >The NRA is wrong: Owning a gun is far more likely to harm you than protect you.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -903,21 +903,21 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="28"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-1@published"
-  
+
 >Wayne LaPierre of the National Rifle Association issued a passionate <a href="http://mediamatters.org/blog/2014/03/06/five-laughably-paranoid-claims-from-nras-wayne/198385">call to arms</a> last year, painting a bleak picture of a dystopian America on the brink of collapse:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="66"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-2@published"
-  
+
 ><blockquote>We know, in the world that surrounds us, there are terrorists and home invaders and drug cartels and car-jackers and knock-out gamers and rapers, haters, campus killers, airport killers, shopping-mall killers, road-rage killers, and killers who scheme to destroy our country with massive storms of violence against our power grids, or vicious waves of chemicals or disease that could collapse the society that sustains us all.</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-3@published"
-  
+
 >LaPierre’s central message: Owning a gun is the solution. The world is a scary place. There are bad guys everywhere threatening you and your family, and the only thing they’re afraid of is a gun in <em>your </em>hands.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -928,14 +928,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-4@published"
-  
+
 >Tragically, a record number of Americans subscribe to some version of this mythology, with <a href="http://www.gallup.com/poll/179213/six-americans-say-guns-homes-safer.aspx">63 percent</a> (67 percent of men polled and 58 percent of women) believing that guns truly do make them safer. The public’s confidence in firearms, however, is woefully misguided: The evidence overwhelmingly shows that guns leave everybody less safe, including their owners.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="99"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-5@published"
-  
+
 >A <a href="http://www.ncbi.nlm.nih.gov/pubmed/24054955">study</a> from October 2013 analyzed data from 27 developed nations to examine the impact of firearm prevalence on the mortality rate. It found an extremely strong direct relationship between the number of firearms and firearm deaths. The paper concludes: “The current study debunks the widely quoted hypothesis that guns make a nation safer.” This finding is bolstered by several previous <a href="http://www.ncbi.nlm.nih.gov/pubmed/20571454">studies</a> that have revealed a significant link between gun ownership and firearm-related deaths. This international comparison is especially harrowing for <a href="http://www.ncbi.nlm.nih.gov/pubmed/11991417">women</a> and <a href="https://www.slate.com/articles/health_and_science/medical_examiner/2014/06/gun_deaths_in_children_statistics_show_firearms_endanger_kids_despite_nra.html">children</a>, who die from gun violence in America at far higher rates than in other countries.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1014,14 +1014,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="41"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-6@published"
-  
+
 >Behind such horrifying statistics are numerous heartbreaking tragedies, such as <a href="http://www.sccadvasa.org/2014/08/senate-judiciary-committee-holds-first-hearing-on-intersection-of-domestic-violence-and-gun-violence/">Zina Daniel</a>, a woman from Illinois who was killed by her abusive ex-husband, or <a href="http://www.huffingtonpost.co.uk/2013/05/02/caroline-sparks-dead-brother-rifle-gift_n_3199563.html">Caroline Sparks</a>, who was only 2 when her 5-year-old brother accidentally killed her with his Crickett rifle.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="172"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-7@published"
-  
+
 >If we examine data from within the United States, the odds aren’t any better for gun owners. The most recent <a href="http://injuryprevention.bmj.com/content/early/2014/04/16/injuryprev-2014-041187.full">study</a> examining the relationship between firearms and homicide rates on a state level, published last April, found a significant positive relationship between gun ownership and overall homicide levels. Using data from 1981–2010 and the best firearm ownership proxy to date, the study found that for every 1 percent increase in gun ownership, there was a 1.1 percent increase in the firearm homicide rate and a 0.7 percent increase in the total homicide rate. This was after controlling for factors such as poverty, unemployment, income inequality, alcohol consumption, and nonhomicide violent crime. Further, the firearm ownership rate had no statistically significant impact on nonfirearm homicides, meaning there was no detectable substitution effect. That is, in the absence of guns, would-be criminals are not switching to knives or some other weapons to carry out homicide. These results are supported by a host of previous <a href="http://www.ncbi.nlm.nih.gov/pubmed/17070975">studies</a> that illustrate that guns increase the rate of homicides.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1107,7 +1107,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="80"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-9@published"
-  
+
 >The evidence against firearm ownership becomes even stronger when <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563517/">suicides</a> and accidents are included in the analysis—guns make both much more likely and more fatal. There can be nothing closer to a consensus in the gun debate than this point. Indeed, <a href="http://www.huffingtonpost.com/evan-defilippis/do-guns-cause-suicide_b_5025646.html">every single case-control study</a> ever conducted in the United States has found that gun ownership is a strong risk factor for suicide, even after adjusting for aggregate-level measures of suicidality such as mental illness, alcoholism, poverty, and so on.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1132,7 +1132,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="86"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-10@published"
-  
+
 >One might accept that firearms are dangerous and that they substantially elevate the risk of homicide, suicide, and fatal accidents, but still believe that policies regulating gun ownership are ineffective—criminals, after all, <a href="http://www.armedwithreason.com/rebutting-the-criminals-dont-follow-laws-and-gun-control-only-hurts-law-abiding-citizens-argument-against-gun-control/">won’t follow them</a>. However, another recent <a href="http://archinte.jamanetwork.com/article.aspx?articleID=1661390">study</a> from May of 2013 analyzed the impact of state firearm laws on firearm-related fatalities. It found that the most gun-restrictive states have significantly fewer firearm fatalities than the states with the least restrictive laws. The results are in line with previous academic <a href="https://www.ncjrs.gov/App/publications/abstract.aspx?ID=209249">studies</a> tackling the same question.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1175,14 +1175,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="55"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-11@published"
-  
+
 >These findings are further supported by a case <a href="http://www.ncbi.nlm.nih.gov/pubmed/24604521">study</a> examining the impact of a 2007 Missouri decision to repeal its permit-to-purchase handgun licensing law. The research concluded that the repeal was associated with a 16 percent increase in annual murder rates, indicating that state gun control laws have a significant impact on the homicide rate.<strong></strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="69"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-12@published"
-  
+
 >Suppose a criminal has just broken into your house brandishing a firearm. You need to protect yourself and your family. Wouldn’t anyone feel safer owning a gun? This is the kind of narrative propagated by gun advocates in defense of firearm ownership. It preys on our fear. Yet, the annual <a href="http://almostdiamonds.blogspot.com/2010/06/how-well-does-your-gun-protect-you.html">per capita risk of death during a home invasion</a> is 0.0000002, which, for all intents and purposes, is zero.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1225,7 +1225,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="91"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-13@published"
-  
+
 >Despite the astronomical odds against being killed, this fear of home invasion often drives people like Becca Campbell of Ferguson, Missouri, to gun ownership. This past November, Campbell was riding home in a car with her boyfriend after purchasing a gun, preparing for the unrest expected to follow the grand jury decision about whether to pursue criminal charges against the policeman who killed Michael Brown. She joked that “<a href="http://fox13now.com/2014/11/24/woman-says-were-ready-for-ferguson-accidentally-shoots-self-in-head/">we’re ready for Ferguson</a>,” waving the gun. Distracted, the boyfriend ran into the car ahead of them, and the gun fired, killing Campbell.</p>
 
 <figure
@@ -1293,14 +1293,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="82"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-15@published"
-  
+
 >Moving from state-level analysis to the household or individual, the risks for gun owners become even more apparent. A recent <a href="http://annals.org/article.aspx?articleid=1814426">meta-analysis</a> of 16 studies examined the relationship between firearms and gun deaths. Gun ownership doubled the risk of homicide and tripled the risk of suicide. This research is bolstered by a <a href="http://www.ncbi.nlm.nih.gov/pubmed/10619696">national survey</a> that found that a gun in the home was far more likely to be used to threaten a family member or intimate partner than to be used in self-defense.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="102"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-16@published"
-  
+
 >Gun advocates may counter that this doesn’t reveal the entire picture. After all, case studies of these fatal gun incidents can’t capture the benefits that widespread defensive gun use bestows on society. However, despite the NRA’s mantra that there are millions of defensive gun uses every year, empirical data reveals that DGUs are actually extremely rare. Criminal uses of firearms far outnumber legal defensive uses. The evidence shows that there may be fewer than even <a href="http://www.politico.com/magazine/story/2015/01/defensive-gun-ownership-myth-114262.html#.VLlAIEfF_Va">3,000 DGUs</a> annually. In comparison, there are 30,000 gun deaths annually, and many more injuries and shattered lives. The costs of gun ownership unequivocally outweigh the benefits.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1379,14 +1379,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="145"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-17@published"
-  
+
 >In light of the overwhelming evidence that guns are a public health threat, gun advocates often retreat to an “it could never happen to me” mentality. This worldview is tragically mistaken. Consider the case of Veronica Dunnachie. She was, by many gun advocates’ definition, <a href="http://www.washingtonpost.com/opinions/the-nras-simplistic-response-to-newtown-good-guy-with-a-gun/2012/12/21/d22ccfe0-4bbc-11e2-9a42-d1ce6d0ed278_story.html">a good gal with a gun</a>. A strident voice for gun rights, she was an open carry advocate, dedicated to expanding the unlicensed open carrying of firearms. In Texas, open carry is currently restricted to long guns; she pushed to include handguns. She frequently attended rallies and protests organized by Open Carry Tarrant County (an offshoot of Open Carry Texas). In a domestic dispute on <a href="http://www.alan.com/2014/12/11/open-carry-activist-charged-with-shooting-death-of-husband-stepdaughter/">Dec. 10</a>, she allegedly shot and killed her husband and stepdaughter. <a href="http://www.thedailybeast.com/articles/2014/12/16/open-carry-militia-mom-murders-family.html">Horrified</a>, Dunnachie called a friend, telling him she “had just done something bad” and, at his urging, checked herself into a nearby mental health clinic.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="55"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-18@published"
-  
+
 >Everyone likes to pretend that he or she is more rational, more responsible, and more immune to the risks that gun ownership poses relative to the average American. Yet, we know from gun violence statistics that many are simply misjudging their own competency. Everyone thinks he or she is above average, but half are mistaken.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1429,7 +1429,7 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="129"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-19@published"
-  
+
 >Rather than gangbangers and maniacal criminals going on killing sprees, it is cases like Dunnachie’s that drive gun violence. <a href="http://www.bjs.gov/content/pub/pdf/htus8008.pdf">FBI data</a> reveal that about twice as many homicides result from arguments than from felonies, and gang violence is only a small contributor. In a careful <a href="http://www.ncbi.nlm.nih.gov/pubmed/25121817">study</a> of the relationships between homicide victims and perpetrators, analyzing data from 1981–2010, Michael Siegel and his colleagues reveal that for every 1 percent increase in gun ownership, there is a 0.9 percent increase in nonstranger homicide. Although stranger homicide does increase slightly as gun ownership rises, the increase is not statistically significant. This indicates that there is no deterrence effect from firearm ownership and that a firearm significantly increases the owner’s chances of killing or being killed by somebody he or she knows.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1551,14 +1551,14 @@ width="590"
   class="slate-paragraph slate-graf"
   data-word-count="68"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-21@published"
-  
+
 >Gun advocates may argue that this reality is a consequence of the fact that there are <em>too few guns; </em>perhaps nonstranger homicides would be lower if everyone you knew were packing heat. Yet a <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.2004.tb00539.x/abstract">study</a> examining data from the National Crime Victimization Survey found that people who used any weapon other than a gun for defense were less likely to be harmed than those who used a firearm.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="43"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-22@published"
-  
+
 >So before you purchase a gun for self-defense, please pause to reflect. Your weapon is much more likely to end up being used to harm than for good, even if you’re one of the “good guys.” The odds are not in your favor.</p>
 
 <div
@@ -1630,7 +1630,7 @@ width="590"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1665,7 +1665,7 @@ width="590"
   class="slate-adnode"
   data-adnode="technology/medical_examiner"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-6b29874f806cd65ad9f67f7540283053-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1716,7 +1716,7 @@ width="590"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1741,7 +1741,7 @@ width="590"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2251,7 +2251,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

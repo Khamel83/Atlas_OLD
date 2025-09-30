@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/announcing-not-boring-capital-fund
 
-Welcome to the 4,534 newly Not Boring people who have joined us since December! If you haven’t subscribed, join 181,387 smart, curious folks by subscribing here: 
+Welcome to the 4,534 newly Not Boring people who have joined us since December! If you haven’t subscribed, join 181,387 smart, curious folks by subscribing here:
 Hi friends 👋, 
 Happy Tuesday and Happy New Year! After a nice winter break and hours spent staring down my Blank Page [ https://substack.com/redirect/0bf2097b-5bb6-4cba-ad18-52540ae9e83f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], we’re back! 
 Let’s kick the Not Boring new year off right: by announcing Not Boring Capital Fund III and inviting you to join in [ https://substack.com/redirect/f59712a8-3d05-4380-a66c-9f48bce6f0ae?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
@@ -166,8 +166,8 @@ If you’d like to consider becoming an LP in Not Boring Capital, please submit 
 It’s not going to be easy, but it’s going to be fun. 
 Thanks to Dan, Henry, Elliot, Rahul, and Puja for the comments and feedback!
 Thanks to Dan, Henry, Elliot, Rahul, and Puja for the comments and feedback!
-That’s all for today! We’ll be back in your inbox on Friday with the first Weekly Dose of Optimism in 2023. 
-Thanks for reading, 
+That’s all for today! We’ll be back in your inbox on Friday with the first Weekly Dose of Optimism in 2023.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPVFU0TVRnNE1UZ3NJbWxoZENJNk1UWTNNek0xT0RreE5Dd2laWGh3SWpveE5qYzFPVFV3T1RFMExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAucEZvZjNzaThpbnJCalp5cWwtZkRWMzZMZGZEdnNfVS01WDdndW1FVWREQSIsInAiOjk1ODE4ODE4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3MzM1ODkxNCwiZXhwIjoxNjc1OTUwOTE0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ._sjXC65GQKSR3g9dGt1iNL6vjB81zsEO0JhTPZ9VOkA?

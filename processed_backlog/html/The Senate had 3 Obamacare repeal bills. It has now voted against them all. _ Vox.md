@@ -38,7 +38,7 @@ After an hour of lobbying on the Senate floor — including discussions with Sen
 
 It’s not clear where Senate Republicans go from here, with their repeal options currently exhausted. They have a caucus that strongly supports repealing and replacing Obamacare but little path left to get there.
 
-See More: 
+See More:
 
 * [Health Care](/web/20241002193811/https://www.vox.com/health-care)
 * [Obamacare](/web/20241002193811/https://www.vox.com/obamacare)

@@ -43,11 +43,11 @@ The poem follows a group of dunces while the goddess Dulness crowns the new king
 
 In the process of perpetually revising his satire, Pope discovered that it is hard to pick out people and objects in the world using print. His friend and fellow satirist, Jonathan Swift, remarked to Pope: ‘I have long observed that 20 miles from London nobody understands hints, initial letters, or town-facts and passages; and in a few years not even those who live in London.’ Unlike oral and manuscript cultures that required close communities, print enabled communication at a distance, which created new opportunities for ambiguity and contested meaning. Print called for new strategies of rhetoric and arrangement. The later iterations of *The* *Dunciad* moved toward abstract characters, as Pope emphasised the shape and form of dullness produced by print media. In Book III, the king of Nonsense offers a vision of dullness’s perpetual return in patterns of circular, reflexive motion:
 
-> As man’s Maeanders to the vital spring  
-> Roll all their tides, then back their circles bring;  
-> Or whirligigs, twirl’d round by skilful swain,  
-> Suck the thread in, then yield it out again:  
-> All nonsense thus, of old or modern date,  
+> As man’s Maeanders to the vital spring
+> Roll all their tides, then back their circles bring;
+> Or whirligigs, twirl’d round by skilful swain,
+> Suck the thread in, then yield it out again:
+> All nonsense thus, of old or modern date,
 > Shall in thee centre, from thee circulate.
 
 ‘Maeanders’ refers to a winding river in ancient Greece but, of course, also to the general action of winding. Pope’s poem is filled with images of echoes, reflections and whirlpools that suggest how copies present duller versions of their sources, just as the Moon only hints at the brightness of the Sun. Like water from a spring, *The* *Dunciad*’s lines circulated across London in the works of the very writers and printers Pope attacked, and their remarks likewise reappeared in later iterations of his poem. The resulting intertextual network became the new depiction of the burgeoning print world in place of the one initially created by the poem.

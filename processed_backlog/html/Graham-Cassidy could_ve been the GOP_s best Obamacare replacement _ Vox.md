@@ -76,7 +76,7 @@ But don’t take it from me. Brookings’s health policy expert Stuart Butler ha
 
 Bad outcomes weren’t the only outcomes possible here. They’re just the ones Graham and Cassidy, for reasons known only to themselves, chose.
 
-See More: 
+See More:
 
 * [Health Care](/web/20241002191226/https://www.vox.com/health-care)
 * [Obamacare](/web/20241002191226/https://www.vox.com/obamacare)

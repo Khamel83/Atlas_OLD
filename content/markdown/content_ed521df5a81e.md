@@ -60,14 +60,14 @@ m.async = !1, m.src = "//web.archive.org/web/20230828065335/https://cdn.deepinte
 }
 		}(window, document);
 
-ditm_dpes(function () {         
-			
+ditm_dpes(function () {
+
 			var config = {"siteId":"75567","type":"direct","storage":"localStorage", "identifiers":[{"key":"npi"}], "npi":npiValue,"hash":"SHA-256"}
 
 ditm_dpes(function () {
 				DeepIntent.Dpes.init(config);
 			});
-			
+
 		});
 	}
 
@@ -314,7 +314,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			.goodrx.-fair-price .content .drug-price {
 				color: #000000;
 			}
-			
+
 				.wp-block-quote:before,
 				blockquote:before {
 					background-color: #0490c4;
@@ -335,7 +335,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					color: #fff;
 					border-color: #0490c4;
 				}
-				
+
 				.button.-primary:hover,
 				.button.-primary:focus,
 				.hmi-container #HMIRegistration .HMIRegistration__submit:hover,
@@ -416,12 +416,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 						border-left-color: #0490c4;
 					}
 				}
-			
+
 				.button.-secondary {
 					color: #0490c4;
 					border-color: #0490c4;
 				}
-				
+
 				.button.-secondary:hover,
 				.button.-secondary:focus{
 					background-color: #0490c4;
@@ -480,34 +480,34 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		.site-footer > .hm-container > .back-to-top.-horizontal {
 			color: #333333;
 		}
-	
+
 		.site-header li.highlight a {
 			color: #0490c4;
 		}
-		
+
 		.site-header a:hover,
 		.site-header a:focus {
 			color: #797979;
 		}
-		
+
 		.site-header .labeled-list h4 {
 			border-bottom-color: #0490c4;
 		}
-		
+
 		.site-header .labeled-list a:hover {
 			color: #0490c4;
 		}
-		
-		@media ( min-width: 50em ) { 
+
+		@media ( min-width: 50em ) {
 			.site-header a:hover,
 			.site-header a:focus {
 				color: #0490c4;
 			}
-			
+
 			.site-header .back {
 				color: #0490c4;
 			}
-			
+
 			.site-header .main-navigation > .menu > li.active > a {
 				background-color: #0490c4;
 			}
@@ -515,11 +515,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .site-header.-theme-five .main-navigation > .menu > li > a {
 				color: #0490c4;
 			}
-		
+
 			.site-header .main-navigation > .menu > li > a:hover {
 				color: #0490c4;
 			}
-		
+
 			.site-header .main-navigation > .menu > li > .sub-menu > li > a {
 				color: #0490c4;
 			}
@@ -528,8 +528,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				color: #797979;
 			}
 		}
-		
-		@media ( min-width: 50em ) { 
+
+		@media ( min-width: 50em ) {
 			.site-header .labeled-list h4 {
 				backround-color: #797979;
 			}
@@ -542,7 +542,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				color: #fff;
 			}
 		}
-	
+
 </style>
 <link rel="stylesheet" id="hmi-registration-ui-css" href="http://web.archive.org/web/20230828065335cs_/https://fonts.googleapis.com/css?family=Bree+Serif&amp;ver=1.2.78" type="text/css" media="all"/>
 <script type="text/javascript" id="lytics-js-js-extra">
@@ -673,7 +673,7 @@ cpn = cpn ? cpn.split(',') : [];
 
 hmAds.setDataLayerTarget( 'User.IsTracked', Cookies.get( 'shadowAccount' ) ? 'true' : 'false' );
         </script>
-        
+
 <!-- Google Tag Manager snippet added by Site Kit -->
 <script type="text/javascript">
 			( function( w, d, s, l, i ) {
@@ -685,7 +685,7 @@ hmAds.setDataLayerTarget( 'User.IsTracked', Cookies.get( 'shadowAccount' ) ? 'tr
 				j.src = 'http://web.archive.org/web/20230828065335/https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 				f.parentNode.insertBefore( j, f );
 			} )( window, document, 'script', 'dataLayer', 'GTM-KN2M773' );
-			
+
 </script>
 
 <!-- End Google Tag Manager snippet added by Site Kit -->
@@ -720,7 +720,7 @@ hmAds.setDataLayerTarget( 'User.IsTracked', Cookies.get( 'shadowAccount' ) ? 'tr
 														<div id="top-wrap">
 						<!-- intentionally empty. do not remove-->
 					</div>
-				
+
 				<div class="controls" id="controls">
 
 <span class="logo">
@@ -760,7 +760,7 @@ Search...
 <li id="54816" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54816"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/departments/mens-health-update/erectile-dysfunction/">ED</a></li>
 <li id="54817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54817"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/nephrology/chronic-kidney-disease-ckd/">CKD</a></li>
 <li id="54818" class="menu-item menu-item-type-taxonomy menu-item-object-category mega menu-item-has-children menu-item-54818"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/urology/">Urology</a><button type="button" class="sub-control"><span class="screen-reader-text">Open Submenu</span></button>
-					<ul class="sub-menu"> 
+					<ul class="sub-menu">
 						<li class="menu-item">
 							 <a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/urology/">Urology<svg role="presentation" class="icon icon--chevron-right-round" aria-label="chevron-right-round"><use xlink:href="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src.svg?ver=1690998145#chevron-right-round"/></svg></a> <button type="button" class="back">Back</button><div class="labeled-list "><div class="widget widget_nav_menu"><div class="menu-urology-column-1-container"><ul id="menu-urology-column-1" class="menu"><li id="menu-item-54846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54846"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/urology/">Urology News</a></li>
 <li id="menu-item-54847" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-54847"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/conference-highlights/">Conference Coverage</a></li>
@@ -780,7 +780,7 @@ Search...
 <li id="menu-item-54861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54861"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/urology/urinary-tract-infections-uti/">Urinary Tract Infections (UTI)</a></li>
 </ul></div></div></div></li> </ul></li>
 <li id="54819" class="menu-item menu-item-type-taxonomy menu-item-object-category mega menu-item-has-children menu-item-54819"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/nephrology/">Nephrology</a><button type="button" class="sub-control"><span class="screen-reader-text">Open Submenu</span></button>
-					<ul class="sub-menu"> 
+					<ul class="sub-menu">
 						<li class="menu-item">
 							 <a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/nephrology/">Nephrology<svg role="presentation" class="icon icon--chevron-right-round" aria-label="chevron-right-round"><use xlink:href="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src.svg?ver=1690998145#chevron-right-round"/></svg></a> <button type="button" class="back">Back</button><div class="labeled-list "><div class="widget widget_nav_menu"><div class="menu-nephrology-column-1-container"><ul id="menu-nephrology-column-1" class="menu"><li id="menu-item-54862" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54862"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/nephrology/">Nephrology</a></li>
 <li id="menu-item-54863" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-54863"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/conference-highlights/">Conference Coverage</a></li>
@@ -804,7 +804,7 @@ Search...
 <li id="menu-item-54881" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54881"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/news/nephrology/transplantation/">Transplantation</a></li>
 </ul></div></div></div></li> </ul></li>
 <li id="54820" class="menu-item menu-item-type-taxonomy menu-item-object-category mega menu-item-has-children menu-item-54820"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/departments/">My Practice</a><button type="button" class="sub-control"><span class="screen-reader-text">Open Submenu</span></button>
-					<ul class="sub-menu"> 
+					<ul class="sub-menu">
 						<li class="menu-item">
 							 <a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/departments/">My Practice<svg role="presentation" class="icon icon--chevron-right-round" aria-label="chevron-right-round"><use xlink:href="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src.svg?ver=1690998145#chevron-right-round"/></svg></a> <button type="button" class="back">Back</button><div class="labeled-list "><div class="widget widget_nav_menu"><div class="menu-my-practice-menu-container"><ul id="menu-my-practice-menu" class="menu"><li id="menu-item-54882" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54882"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/departments/commentary/">Commentary</a></li>
 <li id="menu-item-54906" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54906"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/drug-information-database/">Drug Information Database</a></li>
@@ -817,7 +817,7 @@ Search...
 <li id="menu-item-111709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111709"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/departments/renal-nutrition-update">Renal Nutrition Update</a></li>
 </ul></div></div></div></li> </ul></li>
 <li id="64099" class="menu-item menu-item-type-taxonomy menu-item-object-category mega menu-item-has-children menu-item-64099"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/resources/">Web Exclusives</a><button type="button" class="sub-control"><span class="screen-reader-text">Open Submenu</span></button>
-					<ul class="sub-menu"> 
+					<ul class="sub-menu">
 						<li class="menu-item">
 							 <a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/resources/">Web Exclusives<svg role="presentation" class="icon icon--chevron-right-round" aria-label="chevron-right-round"><use xlink:href="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src.svg?ver=1690998145#chevron-right-round"/></svg></a> <button type="button" class="back">Back</button><div class="labeled-list "><div class="widget widget_nav_menu"><div class="menu-web-exclusives-1-container"><ul id="menu-web-exclusives-1" class="menu"><li id="menu-item-54889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54889"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/expert-perspectives/">Expert Perspectives</a></li>
 <li id="menu-item-67091" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67091"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/web-exclusives/cartoons/">Cartoons</a></li>
@@ -834,7 +834,7 @@ Search...
 </ul>					</nav><!-- .main-navigation -->
 
 <button class="toggle-search" type="button"><span class="searchicon"><svg role="presentation" class="icon icon--search" aria-label="search"><use xlink:href="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src.svg?ver=1690998145#search"/></svg></span><span class="screen-reader-text">Toggle Search Menu</span></button>
-					
+
 				</div>
 
 <div class="secondary-wrap" id="secondary-wrap">
@@ -846,7 +846,7 @@ Search...
 <li id="menu-item-54905" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54905"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/drug-information-database/">Drugs</a></li>
 <li id="menu-item-54827" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54827"><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/cme-articles/">CME</a></li>
 </ul>						</nav>
-					
+
 						<div class="login-nav" id="login-nav">
 							<span class="login-nav-buttons">
 																<button class="fr-dialogmodal-open js-fr-dialogmodal-open buttonlogin" aria-controls="modal-login" type="button">Login</button>
@@ -967,7 +967,7 @@ UtilityMove( {
 
 <main id="main" class="site-main">
 			<nav class="breadcrumbs" aria-label="Breadcrumbs"><p><span><span><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/">Home</a></span> » <span><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/conference-highlights/">Conference Highlights</a></span> » <span><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/conference-highlights/annual-meeting-of-the-society-of-urologic-oncology/">Annual Meeting of the Society of Urologic Oncology</a></span> » <span><a href="http://web.archive.org/web/20230828065335/https://www.renalandurologynews.com/home/conference-highlights/annual-meeting-of-the-society-of-urologic-oncology/suo-2021/">SUO 2021</a></span></span></p></nav>			<div class="site-container">
-	
+
 	<div class="post-container ">
 		<span class="sep"></span>
 				<article id="post-100987" class="post-100987 post type-post status-publish format-standard has-post-thumbnail hentry category-suo-2021 tag-general-urology tag-practice-management tag-suo-2021 tag-urology-conferences hm-article-type-news" itemscope itemtype="https://schema.org/BlogPosting" data-permalink="https://www.renalandurologynews.com/home/conference-highlights/annual-meeting-of-the-society-of-urologic-oncology/suo-2021/urologists-payments-from-medicare-have-shrunk/" data-title="Medicare Reimbursement Has Declined for Urology Services - Renal and Urology News">
@@ -977,7 +977,7 @@ UtilityMove( {
 
 <!-- articles get headers (and footers) -->
 		<header class="post-header">
-							
+
 <div class="post-date ">
 			<span class="screen-reader-text">Publish Date</span>
 		<span itemprop="datePublished">
@@ -985,7 +985,7 @@ UtilityMove( {
 				December 3, 2021			</time>
 		</span>
 	</div>
-			
+
 			<!-- Name of the article -->
 			<h1 class="post-heading heading" itemprop="headline">
 				Medicare Reimbursement Has Declined for Urology Services			</h1>
@@ -1006,7 +1006,7 @@ UtilityMove( {
 </div> <!-- /.author-card -->
 			</div>
 			<div class="social-links">
-	
+
 	<ul>
 		<li>
 			<!-- Facebook -->
@@ -1093,10 +1093,10 @@ UtilityMove( {
 <p><strong>Reference</strong></p>
 
 <p>Pockros B, Finch D, Liang C. <a href="http://web.archive.org/web/20230828065335/https://suo-abstracts.secure-platform.com/a/gallery/rounds/12/details/1591" target="_blank" rel="noreferrer noopener">Trending Medicare reimbursement of the most common urologic oncology surgeries between 2000-2020</a>. Presented at the 22nd annual meeting of the Society of Urologic Oncology. December 1-3, 2021. Poster 182.</p>
-				
-				
-				
-				
+
+
+
+
 			</div>
 
 <section class="post-tags">
@@ -1120,7 +1120,7 @@ UtilityMove( {
 					</div>
 				</div>
 						<!-- related-articles partial is hidden as part of bibblio implementation -->
-			
+
 					</footer>
 
 </div><!--/itemprop=mainEntityOfPage-->
@@ -1218,7 +1218,7 @@ UtilityMove( {
 																														</ul>
 	</div>
 								</div>
-						
+
 													<div class="widget-area">
 								<ul class="widget-list">
 									<li id="nav_menu-2" class="widget widget_nav_menu"><h5 class="widgettitle">Resources</h5>
@@ -1228,7 +1228,7 @@ UtilityMove( {
 </ul></div></li>
 								</ul>
 							</div>
-						
+
 													<div class="widget-area">
 								<ul class="widget-list">
 									<li id="nav_menu-3" class="widget widget_nav_menu"><h5 class="widgettitle">User Center</h5>
@@ -1239,7 +1239,7 @@ UtilityMove( {
 </ul></div></li>
 								</ul>
 							</div>
-						
+
 													<div class="widget-area">
 								<ul class="widget-list">
 									<li id="nav_menu-4" class="widget widget_nav_menu"><h5 class="widgettitle">Other Haymarket Medical Websites</h5>
@@ -1270,7 +1270,7 @@ UtilityMove( {
 </ul></div></li>
 								</ul>
 							</div>
-						
+
 					</div>
 					<div class="copyright">
 													<div class="widget-area">
@@ -1301,7 +1301,7 @@ Your use of this website constitutes acceptance of Haymarket Media&#8217;s <a hr
 					</div>
 
 <div class="mbody">
-						
+
 	<div id="HMILogin__Root" class="hmi-container">
 		<div class="loading">
 			Loading...			<img src="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src/spinner.svg">
@@ -1356,7 +1356,7 @@ window.ssoLogin = new HMIRegistration( options );
 					</div>
 
 <div class="mbody">
-						
+
 	<div id="HMIRegister__Root" class="hmi-container">
 		<div class="loading">
 			Loading...			<img src="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src/spinner.svg">
@@ -1397,7 +1397,7 @@ window.ssoRegister = new HMIRegistration( options );
 </div>
 			</div>
 		</div>
-		
+
 			<div id="modal-register-popup" class="js-fr-dialogmodal fr-dialogmodal more-info">
 	<div class="js-fr-dialogmodal-modal fr-dialogmodal-modal" aria-label="modal-title">
 		<div role="document" class="login-modal">
@@ -1429,7 +1429,7 @@ window.ssoRegister = new HMIRegistration( options );
 			</div>
 
 <div class="mbody">
-				
+
 	<div id="HMIMeteredLogin__Root" class="hmi-container">
 		<div class="loading">
 			Loading...			<img src="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src/spinner.svg">
@@ -1484,7 +1484,7 @@ window.ssoMeteredLogin = new HMIRegistration( options );
 			</div>
 
 <div class="mbody">
-				
+
 	<div id="HMIMeteredRegister__Root" class="hmi-container">
 		<div class="loading">
 			Loading...			<img src="http://web.archive.org/web/20230828065335im_/https://www.renalandurologynews.com/wp-content/themes/haymarket/assets/svg/src/spinner.svg">
@@ -1524,7 +1524,7 @@ window.ssoMeteredRegister = new HMIRegistration( options );
 
 </div>
 	</div>
-</div>		
+</div>
 <template id="hm-template-metering-popup">
 	<p><strong>Enjoying our content?</strong><br/>
 Thanks for visiting <em>Renal &amp; Urology News</em>. We hope you’re enjoying the latest clinical news, full-length features, case studies, and more.</p>
@@ -1555,7 +1555,7 @@ Thanks for visiting <em>Renal &amp; Urology News</em>. We hope you’re enjoying
         </p>
     </div>
     </template>
-	
+
 		<script>
 		window.addEventListener( 'message', function ( e ) {
 			var data;
@@ -1624,7 +1624,7 @@ window.hmBibblioFrontend.popularWidget = {"headerText":"Popular in Renal and Uro
 window.hmBibblioFrontend.courseWidget = {"hideOnMobile":""};
 </script>
 <script defer type="text/javascript" src="http://web.archive.org/web/20230828065335js_/https://www.renalandurologynews.com/wp-content/plugins/hm-bibblio-manager/assets/dist/js/hmBibblioCourses.min.js?ver=1.0.7" id="hm-bibblio-courses-js"></script>
-	
+
 	</body>
 </html>
 <!--

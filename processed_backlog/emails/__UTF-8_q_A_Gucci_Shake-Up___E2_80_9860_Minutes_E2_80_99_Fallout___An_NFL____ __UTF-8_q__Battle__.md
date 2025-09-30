@@ -26,7 +26,7 @@ Peter Hamby talked with JB Pritzker.
 
 Check out these stories, and others, via the links below. And stick around for the backstory on how it all came together.
 
- 
+
 
 FASHION
 FASHION
@@ -43,7 +43,7 @@ meanwhile…
 
 Sarah Shapiro details ( https://puck.news/nikes-comeback-will-depend-on-a-return-to-multichannel/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Nike’s second mover advantage.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -56,7 +56,7 @@ and…
 Julie Davich
 peruses ( https://puck.news/sothebys-aso-tavitian-auction-old-master-paintings-english-furniture/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Aso Tavitian’s gilded age.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -69,7 +69,7 @@ and…
 Eriq Gardner investigates ( https://puck.news/new-superman-could-be-barred-from-release-outside-u-s/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Zaz’s Superman legal
 headache.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -77,7 +77,7 @@ WALL STREET
 Bill Cohan gets a
 surprisingly sunny ( https://puck.news/wall-street-is-still-aboard-the-trump-train/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Trump-era pulse check from the top of Wall Street.
 
- 
+
 
 MEDIA
 MEDIA
@@ -90,7 +90,7 @@ and…
 John Ourand
 covers ( https://puck.news/will-the-nfl-finally-add-an-18th-game/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the latest twist in the NFL’s quest for an 18th game, and detects ( https://puck.news/the-luka-doncic-anthony-davis-trade-has-a-secret-culprit/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the secret culprit in an NBA mega-trade.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -106,7 +106,7 @@ meanwhile…
 
 Peter Hamby checks in ( https://puck.news/jb-pritzker-our-policies-are-not-off-our-message-was/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with the president’s loudest critic: JB Pritzker.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -146,7 +146,7 @@ The Powers That Be ( https://puck.news/podcast_episode/emilia-perez-p-r-panic-th
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 Trading
 Places
@@ -180,7 +180,7 @@ The machinations of the sports media business may not always rise to the level o
 global significance as some of Puck’s other power corners. (To wit: I’d behoove you to spend some time devouring Peter Hamby’s recent chat ( https://puck.news/jb-pritzker-our-policies-are-not-off-our-message-was/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with a presidential-sounding JB Pritzker, or Tara Palmeri’s illuminating conversation ( https://puck.news/john-fetterman-stop-freaking-out-about-trump/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with John Fetterman.) But they reflect how intertwined our society has become. The morning after the trade, executives at Disney and Warner Bros. Discovery were combing through their schedules to see how many times LeBron and his new
 dance partner would show up. (And, as Eriq Gardner reported ( https://puck.news/new-superman-could-be-barred-from-release-outside-u-s/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), the answer may or may not have been enough to distract David Zaslav from the latest headache in his portfolio.) Indeed, this is one of the great stories of our time, and precisely what you should expect to read about in Puck.
 
- 
+
 
 Have a great weekend, and enjoy the game,
 
@@ -197,6 +197,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU5c6IPgDomAgKRY5dIB4=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

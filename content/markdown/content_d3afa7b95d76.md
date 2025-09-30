@@ -50,7 +50,7 @@
 		"@type":    "WebSite",
 		"name":     "ESPN",
 		"url":      "https://www.espn.com/"
-		
+
 	}
 </script>
 
@@ -115,15 +115,15 @@ if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/service-worker.js');
 			}
 		</script>
-	
+
 		<script src="https://a.espncdn.com/redesign/0.741.3/js/espn-head.js"></script>
-	    
+
 		<script>
 			if (espn && espn.geoRedirect){
 				espn.geoRedirect.run();
 			}
 		</script>
-	
+
 <script>
 	var espn = espn || {};
 	espn.isOneSite = false;
@@ -131,21 +131,21 @@ if ('serviceWorker' in navigator) {
 	espn.siteType = "full";
 	espn.anonymous_favorites = "true" === "true";
 	espn.isFantasycast = false;
-	
+
 	espn.absoluteNavLinks = false;
 	espn.useEPlus = true;
 	espn.hidePremiumBranding = false; // used in pof: hide e+ branding if non premium edition (SEWEB-22908)
 	espn.enableObscuredAdsSkipping = false;
-	
+
 	espn.enableInlinePlayback = true;
 	espn.enableInlinePPV = true;
 	espn.dcsOverride = '';
 	espn.cmsOverride = '';
 	espn.load_hl_cb_script = false;
 	espn.enableDmp = "true" === "true";
-	
+
 		espn.playabilitySource = "playbackId";
-	
+
 </script>
 <script src="https://a.espncdn.com/redesign/0.741.3/node_modules/espn-lazysizes/lazysizes.min.js" async></script>
 
@@ -217,7 +217,7 @@ espnAdsConfig.load = espnAdsConfig.load || {};
 
 // Load prebid.js for AppNexus
     (function() {
-        var d   = document, 
+        var d   = document,
             pbs = d.createElement('script'),
             target;
 
@@ -256,13 +256,13 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
 		<!-- abtest data object global -->
 		<script type="text/javascript">
 			var abtestData = {};
-			
+
 		</script>
 
 <div id="fb-root"></div>
 
 <div id="global-viewport"  data-behavior="global_nav_condensed global_nav_full"  class =" interior secondary">
-            
+
 <nav id="global-nav-mobile" data-loadtype="server"></nav>
 
 <div class="menu-overlay-primary"></div>
@@ -277,7 +277,7 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
     </button>
     <div class="wrap">
         <div class="scoreboard-content">
-            
+
             <div class="scoreboard-dropdown-wrapper scoreboard-menu">
                 <!-- mobile dropdown -->
                 <div class="league-nav-wrapper league-nav-mobile mobile-dropdown">
@@ -324,8 +324,8 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
         </div>
     </div>
 </section>
-				
-				
+
+
 <header id="global-header" class="espn-en user-account-management has-search has-wheretowatch">
     <div class="menu-overlay-secondary"></div>
 	<div class="container">
@@ -337,7 +337,7 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
 	</div>
 </div></li><li class="user" data-behavior="favorites_mgmt"></li><li id="scores-link"><a href="#" id="global-scoreboard-trigger" data-route="false">scores</a></ul>
 	</div>
-	
+
 <nav id="global-nav" data-loadtype="server">
 <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
 
@@ -390,9 +390,9 @@ __dataLayer = Object.assign({}, __dataLayer,
 
 <div class="article-header__callout">
         <div class="article-header__text">EXCLUSIVE CONTENT</div>
-        
+
             <a href="https://www.espn.com/watch/offers?successUrl=http%3A%2F%2Finsider.espn.com%2Fnfl%2Fstory%2F_%2Fid%2F12196024%2Fwhy%2Dchicago%2Dbears%2Dkeep%2Djay%2Dcutler%2Dnfl?om-navmethod=story:inline:callout:12196024&cta=story" name="&lpos=story-top" class="button sm button--eplus espn-plus-paywall-article" data-content-id="12196024" >Get ESPN+</a>
-        
+
     </div>
 </div><header class="article-header"><h1>Bears should keep Jay Cutler</h1></header><figure class="article-figure dim16x9"><div class="img-wrap"><picture ><source srcset="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2014%2F1228%2Fchi_g_jcutts_1296x729.jpg&w=920&h=518&scale=crop&cquality=80&location=origin&format=jpg" media="(min-width: 376px)"><source srcset="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2014%2F1228%2Fchi_g_jcutts_1296x729.jpg&w=375&h=211&scale=crop&cquality=80&location=origin, https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2014%2F1228%2Fchi_g_jcutts_1296x729.jpg&w=750&h=422&scale=crop&cquality=40&location=origin&format=jpg 2x" media="(max-width: 375px)"><img   ></picture></div><figcaption class="photoCaption">Jay Cutler has finished in the top 10 in NFL completions four times in his career.&nbsp;<cite>Hannah Foslien/Getty Images</cite></figcaption></figure><div class="article-body"><div class="article-meta"><ul class="authors"><li class="mugshot-shown"><div class="author-img"><img src="https://a.espncdn.com/combiner/i?img=/i/columnists/hornsby_neil_m.jpg&h=80&w=80&scale=crop" alt="" width="40" height="40"></div><div class="author has-bio">Neil Hornsby<span class="timestamp ">Jan 20, 2015, 10:00 AM ET</span></div><div class="author-overlay"><a class="icon-font-after icon-close-solid-after" href="#">Close</a><ul>• Founder of Pro Football Focus<br>
 • Contributes regular columns to ESPN Insider</ul><div class="author-meta"><a class="btn-social icon-font-before icon-twitter-solid-before horizontal" href="http://twitter.com/intent/user?screen_name=PFF_Neil">Follow on X</a></div></div></li></ul></div><div class="content-reactions reactions-not-allowed " data-behavior="content_reactions" data-contentid="12196024" data-nowid="1-12196024" data-contentTitle="Bears should keep Jay Cutler"><div class="content-reactions-popup-overlay"></div><div class="content-reactions_reactions-wrapper"><div class="share-button-wrapper"><button class="icon-button reactions-button reactions-hover-button share-button user-not-parsed" data-behavior="share_button" aria-label="Share"></button><div class="share-popup"><ul class="share-popup-list social-tracking-parent" data-id="12196024" data-name="Bears should keep Jay Cutler" data-type="article"><li><a data-behavior="copy_link" data-social-tool="copy" href="#" data-social-type="content" class="share-popup-link icon-font-before icon-chain-solid-before reactions-copy-link copy-link" aria-label="Copy Link"><span class="copy-link-inner"><span class="copy-link-inner-text share__label"></span><span class="copy-link-success-icon"><img class="icon" src="https://a.espncdn.com/combiner/i?img=/i/content-reactions/check.png&h=80&w=80" alt="Copy Link" loading="lazy"></span></span></a></li><li><a data-social-tool="email" href="mailto:?subject=Bears%20should%20keep%20Jay%20Cutler&body=https%3A%2F%2Fwww.espn.com%2Fnfl%2Finsider%2Fstory%2F_%2Fid%2F12196024" data-social-type="content" class="share-popup-link icon-font-before icon-email-solid-before email social-clicks-email" aria-label="Email">Email</a></li></ul></div></div></div><div class="content-reactions_count-wrapper"></div><div class="reactions-skeleton-loading"><div class="reactions-skeleton-left"><div class="reactions-skeleton-el share-skeleton"></div><div class="reactions-skeleton-el"></div></div><div class="reactions-skeleton-right"><div class="reactions-skeleton-el"></div></div></div></div><p>It didn't take long for new <a href="/nfl/team/_/name/chi/chicago-bears">Chicago Bears</a> coach John Fox to face the question of whether <a href="http://www.espn.com/nfl/player/_/id/9597/jay-cutler">Jay Cutler</a> would be the team's starting quarterback in 2015, as he was asked during his introductory news conference Tuesday.</p><inline1><p>Fox wisely gave a noncommittal answer, but the question isn't going away for Fox and new general manager Ryan Pace. It also might not even be Chicago's biggest roster issue, as the Bears desperately need to turn around a defense that in 2012 was our fourth-rated unit at Pro Football Focus and dropped all the way to No. 32 in 2013. The Bears improved in 2014 thanks to some savvy work in free agency, but the unit was still a major weakness, in large part because of terrible pass coverage.</p><p>But I actually think the Cutler answer can be a simple one for the Bears: They should keep him, but use him differently than Marc Trestman and his staff did in 2014. Some marks in favor of Chicago keeping Cutler:</p><p><strong>1. The contract situation isn't as bleak as it's been made out to be.</strong></p><p>Only $38 million of Cutler's deal is fully guaranteed.</p>
@@ -405,21 +405,21 @@ __dataLayer = Object.assign({}, __dataLayer,
         <div class="espn-plus-content">
             <p>Continue reading this article and more from top writers, for only $11.99/mo.</p>
             <div class="actions">
-                
+
                     <a href="https://www.espn.com/watch/offers?om-navmethod=paywall:article:12196024&cta=story&successUrl=http%3A%2F%2Finsider.espn.com%2Fnfl%2Fstory%2F_%2Fid%2F12196024%2Fwhy%2Dchicago%2Dbears%2Dkeep%2Djay%2Dcutler%2Dnfl" name="&lpos=story-inline" class="button lg button--eplus espn-plus-paywall-article" data-content-id="12196024">Continue Reading</a>
-                
+
             </div>
-            
+
                 <p class="upsell-login">
-                    
+
                     <a href="#" class="espn-app-sign-in" data-route="false" data-behavior="overlay" tref="/members/v3_1/login" data-regformid="espn" data-language="en" data-affiliatename="espn">
                         Already an ESPN+ subscriber? Log in here.
                     </a>
                 </p>
-            
+
         </div>
     </div>
-        
+
 </aside></div><footer class="article-footer" data-behavior="footer_region"><div class="sponsored-links"></div>
 <script type='text/javascript'>
 	(function () {
@@ -502,11 +502,11 @@ var tcStatus = {"tcTwoLocked":false,"fantasyLocked":false,"tcLocked":false,"tcwL
 			topEventsId: 4379198,
 			topSoccerId: 15878776,
 			editionIndex: 'espn-en-frontpage-index',
-			
-			
-			
-			
-			
+
+
+
+
+
 		}
 	};
 
@@ -515,7 +515,7 @@ var tcStatus = {"tcTwoLocked":false,"fantasyLocked":false,"tcLocked":false,"tcwL
 <script type='text/javascript'>
 		jQuery.subscribe('espn.defer.end', function () {
 			espn.scoreboard.init(null, {
-				params : 
+				params :
 					{"type":"story","sportSection":"nfl/insider","indexTopics":{"supportedPubKeys":{"espn-es-co-soccer-index":true,"espnin-en-soccer-index":true,"espn-es-ar-frontpage-index":true,"espn-es-cl-soccer-index":true,"espnin-en-cricket-index":true,"espnuk-en-rugby-index":true,"espnau-en-frontpage-index":true,"espnuk-en-tennis-index":true,"espn-es-cl-frontpage-index":true,"espnuk-en-frontpage-index":true,"espn-en-ncaa-index":true,"espnin-en-frontpage-index":true,"espn-en-tennis-index":true,"espn-es-ar-rpm-index":true,"espn-es-mx-soccer-index":true,"espn-en-womenbb-index":true,"espnuk-en-cricket-index":true,"espnin-en-tennis-index":true,"espn-es-ve-soccer-index":true,"espn-es-ar-soccer-index":true,"espn-es-us-frontpage-index":true,"espn-es-ar-tennis-index":true,"espn-es-co-frontpage-index":true,"espn-es-us-other-sports-index":true,"espn-es-us-soccer-index":true,"espnau-en-rugby-index":true,"espnza-en-frontpage-index":true,"espnuk-en-soccer-index":true,"espn-en-frontpage-index":true,"17784479":true,"espn-es-ve-frontpage-index":true,"espn-es-mx-frontpage-index":true,"espn-es-ar-rugby-index":true,"espnza-en-soccer-index":true,"espn-en-rpm-index":true,"espn-en-frontpage-grant-test-index":true}}}
 			});
 		});
@@ -589,12 +589,12 @@ if (typeof s_omni === 'undefined') {
            espn.ads = espn.ads || {};
            espn.shellParams = espn.shellParams || {};
            espn.shellParams.excludeTVEProviders = false
-            
+
                 $.subscribe("espn.defer.ready", function() {
                     espn_ui.Helpers.watchProviders.initWatchAuth();
                 });
-            
-					
+
+
         </script>
 
 </body>

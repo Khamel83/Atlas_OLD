@@ -27,11 +27,11 @@ In it, Polish economist Michal Kalecki argued that government spending could ens
 
 ## Join Our Newsletter Thank You For Joining!
 
-Original reporting. Fearless journalism. Delivered to you. 
+Original reporting. Fearless journalism. Delivered to you.
 
 Will you take the next step to support our independent journalism by becoming a member of The Intercept?
 
-I'm in 
+I'm in
 [Become a member](https://join.theintercept.com/donate/now/?referrer_post_id=445577&referrer_url=https%3A%2F%2Ftheintercept.com%2F2023%2F09%2F23%2Ftim-gurner-speech-unemployment%2F&source=web_intercept_20241230_Inline_Signup_Replacement)
 
 By signing up, I agree to receive emails from The Intercept and to the [Privacy Policy](/privacy-policy/) and [Terms of Use](/terms-use/).
@@ -110,7 +110,7 @@ In any case, Gurner’s class instincts are telling him exactly what Kalecki for
 
 The reality is that we have the tools to create a much better, richer society for everyone. But the people at the top would prefer a worse, poorer country, if [that’s what’s required](https://rationalwiki.org/wiki/Iron_law_of_institutions) for them to stay completely in charge.
 
-Share 
+Share
 
 * Copy link
 * Share on Facebook
@@ -159,19 +159,19 @@ Monthly
 
 [![](https://theintercept.com/wp-content/uploads/2018/03/Jon-Schwarz_avatar_1521505999-1521505999..jpg)](https://theintercept.com/staff/jonschwarz/)
 
-[Jon Schwarz](https://theintercept.com/staff/jonschwarz/) 
+[Jon Schwarz](https://theintercept.com/staff/jonschwarz/)
 
 
 
 
 
-[jon.schwarz@theintercept.com](mailto:jon.schwarz@theintercept.com) 
+[jon.schwarz@theintercept.com](mailto:jon.schwarz@theintercept.com)
 
 
 
 
 
-[@Schwarz](https://twitter.com/Schwarz) 
+[@Schwarz](https://twitter.com/Schwarz)
 on X
 
 ## Related

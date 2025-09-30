@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qIntroducing_Puck=E2=80=99s_newest_partner,_Leigh_Ann_Caldwell=_Thu,_23_Jan_2025_17-30-48_+0000_1949437a70d6cea4.eml
 **Processed:** 2025-08-24T19:13:06.754155
 
-Puck logo ( https://puck.news/?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Good afternoon,
 
 We’re living in historic times. As Washington settles into the rhythms of a new administration, I could not be more thrilled to welcome Leigh Ann Caldwell to our remarkable and ever expanding partnership at Puck. Leigh Ann is an Emmy Award–winning veteran of NBC, CNN, CBS, and C-SPAN—and, most recently, a lead anchor and senior reporter at The Washington Post. There’s nobody on Capitol Hill who is better sourced or more plugged into the legislators, deal flow, egos, and inside chatter that truly drives the town’s agenda.
@@ -24,7 +24,7 @@ Have a great week,
 Jon
 
 swash divider
-Facebook ( https://facebook.com/puckdotnews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Leigh+Ann+Caldwell+Announcement+JK+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

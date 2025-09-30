@@ -204,7 +204,7 @@ window.setTimeout(function() {
 <input type="hidden" id="searchAll" name="type" value="nyt"/>
 <input type="hidden" name="src" value="busfn"/>
 <input id="searchSubmit" title="Search" width="40" height="19" alt="Search" type="image" src="http://web.archive.org/web/20121109061248im_/http://graphics8.nytimes.com/images/global/global_search/search_button40x19.gif">
-</form>  
+</form>
 </div>
 </div><!--close searchWidget -->
 </div><!--close column -->
@@ -234,9 +234,9 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h1 itemprop="headline" class="articleHeadline"><nyt_headline version="1.0" type=" ">A Capitalistâs Dilemma, Whoever Wins on Tuesday</nyt_headline></h1><nyt_byline>
-<h6 class="byline">By 
+<h6 class="byline">By
 <span itemprop="creator" itemscope itemtype="http://schema.org/Person"><span itemprop="name">CLAYTON M. CHRISTENSEN</span></span></h6>
 </nyt_byline>
 <h6 class="dateline">Published: November 3, 2012    </h6>
@@ -255,11 +255,11 @@ window.setTimeout(function() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p itemprop="articleBody">
-WHATEVER happens on Election Day, Americans will keep asking the same question: When will this economy get better?        </p> 
+WHATEVER happens on Election Day, Americans will keep asking the same question: When will this economy get better?        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-   
+
+
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20121109061248/http://www.nytimes.com/imagepages/2012/11/04/business/4-CAPITAL.html','4_CAPITAL_html','width=441,height=630,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -276,8 +276,8 @@ WHATEVER happens on Election Day, Americans will keep asking the same question: 
 <h6 class="credit">Victo Ngai</h6>
 <p class="caption">Clayton Christensen, author of âThe Innovatorâs Dilemma,â says the winner of the presidential election must face âthe capitalistâs dilemma."                            </p>
 </div>
-  
-   
+
+
 </div>
 <div class="articleBody">
  <p itemprop="articleBody">
@@ -302,7 +302,7 @@ Companies like I.B.M. and Hewlett-Packard had to hire hundreds of thousands of p
 </div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -316,7 +316,7 @@ Companies like I.B.M. and Hewlett-Packard had to hire hundreds of thousands of p
 
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal articleShareToolsBottom" data-shares="facebook|,twitter|,google|,save,email,showall|Share" data-title="A Capitalistâs Dilemma, Whoever Wins on Tuesday" data-url="http://web.archive.org/web/20121109061248oe_/http://www.nytimes.com/2012/11/04/business/a-capitalists-dilemma-whoever-becomes-president.html" data-description="Corporations and private equity have billions of dollars on hand that they could use to empower innovation to end the economic slump. But how best to start the wheels turning?"></div>
 <meta name="emailThisHash" content="VoFYo8r4Gh748OL4JFcGYA">
 </div>
@@ -336,10 +336,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra">
 <div class="column lastColumn">
@@ -398,10 +398,10 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
         google_hints="A Capitalistâs Dilemma, Whoever Wins on Tuesday";google_ad_channel="archive, archive_business, archive_Business Day";
 </script>
 <!-- ADXINFO classification="feature_squares" campaign="ARTICLE_GOOGLE_SPONLINK_Too"--><script language="JavaScript" type="text/javascript">
-    
+
     // Sponlink_short
 
-NYTD.GoogleAds.getGoogleAds("AFC", { 
+NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
 	google_ad_channel:'left',
         ad_target_list:'sponLink'
@@ -453,7 +453,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
 
 <div class="bigAd" id="Box1">
 <!-- ADXINFO classification="Module" campaign="nyt2012_module_shattered_hp_ros_db"--><div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=96a13f4d/89ff2a2c&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://bits.blogs.nytimes.com/2012/11/07/twitter-kills-the-fail-whale-one-tweet-at-a-time/%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-PH%26WT.mc_ev=click%26WT.mc_c=199407" target="_blank"><img src="http://web.archive.org/web/20121109061248im_/http://graphics8.nytimes.com/ads/marketing/mm12/tech/1352384292342_us.jpg" alt="" border="0" height="154" width="334"></a> 
+  <a href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=96a13f4d/89ff2a2c&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://bits.blogs.nytimes.com/2012/11/07/twitter-kills-the-fail-whale-one-tweet-at-a-time/%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-PH%26WT.mc_ev=click%26WT.mc_c=199407" target="_blank"><img src="http://web.archive.org/web/20121109061248im_/http://graphics8.nytimes.com/ads/marketing/mm12/tech/1352384292342_us.jpg" alt="" border="0" height="154" width="334"></a>
   <div style="padding:7px 9px 0;background:#fff">
     <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=96a13f4d/89ff2a2c&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://bits.blogs.nytimes.com/2012/11/07/twitter-kills-the-fail-whale-one-tweet-at-a-time/%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-HDR%26WT.mc_ev=click%26WT.mc_c=199407">Twitter shattered records on election night</a></h2>
     <p style="margin:0 0 3px; padding:0;font-size: 11px;">
@@ -466,15 +466,15 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
       <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=96a13f4d/89ff2a2c&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://bits.blogs.nytimes.com/2012/11/08/daily-report-apple-shares-under-pressure/%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-L2%26WT.mc_ev=click%26WT.mc_c=199407" style="color: #004276">Apple shares under pressure</a></li>
     </ul>
   </div>
-  
-  
+
+
   <div style="padding:5px 9px; float:left; width:316px; background:#fff">
     <a style="float:left" href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=71d4e997/10f85a40&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://nytimes.com/%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-LOGO%26WT.mc_ev=click%26WT.mc_c=199407" target="_blank"><img src="http://web.archive.org/web/20121109061248im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
-    
+
     <a style="float:right" href="http://web.archive.org/web/20121109061248/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/business&amp;pos=Box1&amp;sn2=4b9ff321/390fe73f&amp;sn1=71d4e997/10f85a40&amp;camp=nyt2012_module_shattered_hp_ros_db&amp;ad=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112&amp;goto=http://nytimes.com/pages/technology/index.html%3FWT.mc_id=TE-D-I-NYT-MOD-MOD-M278b-ROS-1112-VRT%26WT.mc_ev=click%26WT.mc_c=199407" target="_blank"><img src="http://web.archive.org/web/20121109061248im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_tech.gif" alt="Tech" border="0" height="18" width="120"></a>
-    
+
   </div>
-  
+
   <br clear="all">
 </div>
 </div>
@@ -503,7 +503,7 @@ NYTD.GoogleAds.getGoogleAds("AFC", {
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -525,8 +525,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -655,7 +655,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -688,8 +688,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20121109061248im_/http://up.nytimes.com/?d=0//&amp;t=6&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2012%2f11%2f04%2fbusiness%2fa%2dcapitalists%2ddilemma%2dwhoever%2dbecomes%2dpresident%2ehtml%3fsrc%3drecg">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

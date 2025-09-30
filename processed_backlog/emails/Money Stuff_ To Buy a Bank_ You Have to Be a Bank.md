@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The cheapest way to get into the banking business might be to buy a failed bank. When the US Federal Deposit Insurance Corp. takes over a fa
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Shelf charter
-    
-  
+
+
 
 The cheapest way to get into the banking business might be to buy a failed bank. When the US Federal Deposit Insurance Corp. takes over a failed bank, it tries to find a buyer, and buying a bank from the FDIC has some attractive features. For one thing, you get a bank, with a brand name and customer relationships and branches and stuff; building all of that from scratch would take you a lot of time and money. You get it cheap, probably, because it failed. And, critically, you don’t buy the whole bank; you get to pick and choose what you want. You take over the failed bank’s customer deposits, but you can avoid many of its other liabilities (long-term debt, lawsuits, etc.), making it a fairly clean thing to buy. And you can buy most of the bank’s assets, but if it has any particularly hairy assets that you don’t want, you probably leave those with the FDIC.
 There is one problem with this approach, though, which is that the FDIC won’t sell you a failed bank unless you are already a bank. This is the flip side of the good things in the previous paragraph: If you buy a failed bank from the FDIC, you are not actually buying the bank, taking over the entire corporate entity with its bank charter.
@@ -80,37 +80,37 @@ Despite the turmoil of early 2023, only five banks failed last year and all were
 
 Yeah, but it doesn’t hurt right? It is a little unclear to me whether Porticoes has raised, or is planning to raise, much committed capital. I don’t see why you’d need to lock up hundreds of millions of dollars to just wait for a bank to fail. The value here is not the money, it’s the charter. Next time a bank fails, you go to private equity firms and say “hey, do you want to buy that failed bank? Well you can’​​​​​t. But if you give us the money, we can buy it for you.” It’s a good regulatory service.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Charter airline regulatory arbitrage
-    
-  
+
+
 
 No, wrong, this might be my favorite business origin story of all time:
 
@@ -135,11 +135,11 @@ The FAA says its review of rules for public charter carriers like JSX came “in
 
 Ah well. Nothing lasts forever; on to the next business model.
 
-  
-    
+
+
       Quants
-    
-  
+
+
 
 Another classic way to set up a business is to go work for a big sophisticated financial firm that has built a good business by being the smartest and fastest at applying high-tech methods to squeeze out the last penny in hypercompetitive liquid financial markets, spend some time there learning the techniques, and then leave for a sleepier market where the competition is weaker and spreads are wider. This describes, like, 90% of crypto markets, for better and worse. But here’s a Wall Street Journal article about quant traders in China’s stock market:
 
@@ -157,11 +157,11 @@ And:
 The country’s two biggest stock exchanges and its securities regulator launched a widespread clampdown on quants in late February, tightening the rules governing the sector and temporarily banning two funds from trading altogether. 
 If you learned your trade at Millennium, you probably did not learn to put that much weight on the risk of regulators banning you from trading when the market goes down, because that was not a regular occurrence at Millennium. 
 
-  
-    
+
+
       Cat bonds
-    
-  
+
+
 
 One more good business model. Learn a real thing about the world; learn to predict weather or something. Then hope that that thing gets ingested into the financial system, so that instead of predicting weather as one of many inputs into some difficult complicated physical business like farming or homebuilding or airline operations, you can just trade concentrated weather derivatives on a computer and get rich directly off your weather-predicting abilities. Here’s a Bloomberg profile of John Seo:
 
@@ -172,11 +172,11 @@ Seo, who has a PhD in biophysics from Harvard University, founded Fermat in 2001
 
 Quantitative financial firms regularly use physical models as metaphors for financial markets — stocks move sort of like particles in  Brownian motion, and this profile has a discussion of “one of Fermat’s strategies” that is “inspired by the laws of physics that govern how airplanes fly” — but of course if you can just use physical models to actually predict the weather that probably helps you trade catastrophic weather risk.
 
-  
-    
+
+
       Goldman North
-    
-  
+
+
 
 How could it possibly be otherwise:
 One executive described an Evercore practice at the end of each year where managing directors submitted how much revenue they believed to have personally originated. Every year, the sum of those numbers has exceeded the group’s total revenue.
@@ -201,66 +201,66 @@ You could tell a crude, like, 25-year history of US investment banking that woul
 So we talked last week about the increasing importance of prime brokerage divisions at big banks, which lend money to hedge funds and proprietary trading firms. I suggested that one possible interpretation might be that banks — for regulatory reasons, for risk reasons, for reasons of changing culture — do less trading using their own balance sheets than they did in, like, 2008; hedge funds and prop trading firms have picked up the slack, and banks remain in the business of lending money to them. 
 Similarly, when I was an investment banker, it was taken for granted that having the balance sheet of a big bank was helpful in winning advisory business. Now, though, maybe it is cleaner and simpler to be a boutique, to advise on mergers without having a bank attached, to be Goldman without the bank. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Corporate Bond Rush Is Breaking Down a Maturity Wall That Everyone Feared. Basis Trade Is Seen Dwindling as Asset Managers Pivot to Credit. TikTok Plans Legal Fight If US Divestment Bill Becomes Law. How TikTok Was Blindsided by U.S. Bill That Could Ban It. Stripe Says Payment Volume Surged to $1 Trillion Last Year. Argentina’s record bond swap aims to pave way to ending currency controls. Social Capital sacks two partners over ‘ situation’ involving AI investment. Surge in Fake Ozempic Reveals Dark Side of Weight-Loss Frenzy. Ex-Wall Street Banker Takes On AOC in New York Democratic Primary. German military still faxes documents and cannot radio allies, official warns. OpenAI Calls Elon Musk ‘Incoherent’ in Legal Filing. “If you meet [Ye] on an airport, I don’t know what you do. Do you hide? Or what do you do?”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The framing in these two paragraphs is based in part on  this December memo from Skadden, Arps, Slate, Meagher & Flom LLP: “Media and other reports often describe these failed bank transactions as if the healthy bank ‘acquired’ the failed bank. However, this shorthand characterization misses an important nuance. In such failed bank transactions, the winning bidder does not acquire the failed bank entity itself (as would generally be the case in an M&A transaction among banks outside of receivership). Rather, the winning bidder acquires from the FDIC only specified assets and assumes specified liabilities of the failed bank. This purchase and assumption structure allows bidders to leave the other assets and liabilities of the failed bank with the FDIC. For example, bidders often will assume all of the failed bank’s deposits but leave behind most of the failed bank’s other liabilities (e.g., other borrowings, litigation exposure, various contractual obligations). This purchase and assumption structure has the practical effect of preventing nonbank investors from participating in these failed bank transactions. From the FDIC’s perspective, a key objective is to provide for assumption of the failed bank’s deposit liabilities — thereby ensuring that customers do not lose their deposits. But, importantly, the only type of legal entity with the authority to assume deposit liabilities is a bank. Thus, while private equity funds and other nonbank investors can bid on the assets of a failed bank, they are not legally able to assume the deposits of a failed bank. For this reason, only bidders that have a bank charter are eligible to participate in the FDIC’s typical purchase and assumption auction.”
 
 
   [2] Last May, I wrote about JPMorgan Chase & Co.’s takeover of First Republic Bank from the FDIC, a high-profile recent deal that more or less followed this classic approach.
 
 
-  [3] You can read some slightly more technical discussions in airline blogs here and here. 
+  [3] You can read some slightly more technical discussions in airline blogs here and here.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -271,46 +271,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckn5dh.5k4m/8d8c6c91.gif" alt="" border="0" /></a>

@@ -26,7 +26,7 @@ with Tim Scott; Julia Ioffe conveyed the whispers about Zelensky’s Oval disast
 
 Check out these stories, and others, via the links below. And stick around for the backstory on how it all came together.
 
- 
+
 
 FASHION
 FASHION
@@ -43,7 +43,7 @@ meanwhile…
 Sarah Shapiro foreshadows ( https://puck.news/doens-next-collab-may-be-with-an-outside-investor/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Dôen’s next investor base and
 surveys ( https://puck.news/the-week-in-shopping-savette-north-face-in-france-and-more/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the latest retail trends.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -56,7 +56,7 @@ and…
 Julie Davich
 parses ( https://puck.news/sothebys-may-old-masters-auction-the-saunders-collection/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Sotheby’s $80 million Old Masters bonanza.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -69,7 +69,7 @@ and…
 Eriq Gardner
 assesses ( https://puck.news/the-battle-for-jeopardy-and-wheel-of-fortune/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the fallout of a fraught Jeopardy! mega-suit.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -77,7 +77,7 @@ WALL STREET
 Bill Cohan
 predicts ( https://puck.news/inside-zaslavs-wbd-surprise-turnaround/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a Zaz turnaround and dissects ( https://puck.news/bill-ackman-clarifies-warren-buffet-comments/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Ackman’s Warren Buffett walk-back.
 
- 
+
 
 MEDIA
 MEDIA
@@ -89,7 +89,7 @@ and…
 
 John Ourand cleans up ( https://puck.news/can-espn-stay-in-the-mlb-business-without-an-mlb-deal/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) an ESPN-MLB mess.
 
- 
+
 
 SILICON VALLEY
 SILICON VALLEY
@@ -97,7 +97,7 @@ SILICON VALLEY
 Baratunde Thurston
 elucidates ( https://puck.news/private-conversation/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Puck readers’ true feelings about A.I., among other topics, via The Puck Private Conversation, powered by Orchestra.  
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -114,7 +114,7 @@ meanwhile…
 
 Peter Hamby detects ( https://puck.news/is-trump-already-losing-the-trump-bros/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Trump’s emerging Gen Z challenge.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -149,7 +149,7 @@ Leigh Ann and Peter examine Trump’s early efforts to hold the House and Senate
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 The
 Diplomats
@@ -181,7 +181,7 @@ The shapeshifting situation in
 Europe is only becoming more complex. By Friday, of course, Trump threatened sanctions on Russia—perhaps inadvertently taking Julia’s advice from her earlier piece, The Fallacy of the Trump-Putin Pact ( https://puck.news/the-trump-putin-negotiations-are-doomed-they-always-were/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), to box in the strongman. Indeed, this is one of the great quagmires of our time, and it’s precisely what you should expect to read in Puck, as
 narrated by the greatest interlocutor out there.
 
- 
+
 
 Have a great weekend,
 
@@ -198,6 +198,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVdgC-3ykQaHDFUr6DfAs=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F8%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

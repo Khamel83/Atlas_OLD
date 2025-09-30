@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Most US public corporations are mostly controlled by their boards of directors, who sort of loosely answer to the shareholders.%3Cp%3EI%20th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Blank checks
-    
-  
+
+
 
 Most US public corporations are mostly controlled by their boards of directors, who sort of loosely answer to the shareholders.
   [1]
@@ -84,37 +84,37 @@ It’s a bit of a mixed bag: The old board does get to keep four board seats thr
 When we first talked about the PRPLS,   I wrote that we “live in a golden age of blank-check preferred stock with weird voting rights and fun acronyms.” Starting with the APEs, boards decided that they could shape shareholding voting in ways that they wanted. But I think that golden age is ending? Boards saw the opportunity to take a bit more power by adjusting shareholder voting rights, but they kept getting sued, and they seem to have backed away from it. 
 Incidentally the poison pill is also a weird blank-check preferred stock designed to keep the board in power over shareholder objections. We  talked about poison pills in detail back when Twitter Inc. did one, but the main idea of the poison pill is that if some acquirer wants to buy a majority of the company’s stock — in a tender offer, or in the open market — the board can block it with “shareholder rights plan” that issues zillions of shares to everyone other than the acquirer, diluting the acquirer; the effect is to prevent the acquirer from buying stock from shareholders who want to sell it. That’s weird! And Delaware courts have, for decades, allowed it: Yes, the pill lets directors basically overrule shareholders’ desires (to sell the company), but if the directors use it in good faith — if they use a pill to prevent a real “threat” to the company, like a takeover offer that they think is too low — then they’re mostly allowed to use it. In some sense APEs and PRPLS and the rest are an extension of that idea, that boards of directors can use blank-check preferred stock to maintain control of their companies even when shareholders are being difficult. But they might have extended the idea too far.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Look at all the trees that they don’t chop down
-    
-  
+
+
 
 The basic logic is that trees capture and store carbon dioxide, which is good for the environment. This means that cutting down a tree is worse for the environment than not cutting down that tree, and planting a tree is better for the environment than not planting that tree.
   [3]
@@ -140,11 +140,11 @@ Taking credit for carbon in harvested wood, manufactured products and on timberl
 
 Yes! A tree in the forest captures carbon, but it might fall and decay and release that carbon! Better cut it down quickly to prevent that!
 
-  
-    
+
+
       Subscription lines
-    
-  
+
+
 
 If you are a private equity fund and you buy a company and hold it for five years and then sell it at twice the equity valuation you paid for it, that’s an annual return of roughly 15%. If your investors wire you the money to buy the company the day you buy it, and you wire them back the money the day you sell it, then they have an annual return of 15%; if they evaluate you based on your annual returns then you score a 15%. But if they don’t wire you the money the day you buy the company — if you just float the company for the first, say, year, and only ask them to put up their money after one year — then their annualized return goes up. Doubling their money over four years, instead of five, gives them a 19% annual return. If they evaluate you based on your annual returns then your score goes up.
 Of course you have to find the money to float the company for a year. A year ago, though, that was fine! Cash was basically free! A bank would lend you the money to buy the company, secured by your ability to call capital from your investors, at a very low interest rate. You’d pay a little bit of money to the bank in interest, and get a much better performance for your investors, and they would like you more and give you more money. Good trade.
@@ -159,11 +159,11 @@ Now that borrowing costs have risen, though, the artificial boost to a fund’s 
 
 Crudely speaking, private equity funds have a cost of equity of, say, 15% or 20%, and that cost isn’t that sensitive to interest rates. If the cost of debt is 2% and the cost of equity is 20%, borrowing is a great substitute for equity. If their cost of debt is 7% and the cost of equity is 20%, it’s less good.
 
-  
-    
+
+
       Coinbase
-    
-  
+
+
 
 I guess this is the glass-half-full   way to put it:
 
@@ -182,11 +182,11 @@ That said there are some uncertainties:
 But the biggest uncertainty is, like, is this it? Is the SEC’s current posture the final answer on US crypto regulation? If we assume that the SEC is going to be maximally aggressive about, not “regulating” crypto, but cracking down on crypto, and if we assume that the SEC will win in court because it has a pretty strong case under existing law, then the basic path for crypto in the US is “it’s going to be more or less illegal to raise money for a crypto project, or to offer a new crypto token widely, or to operate a crypto exchange that trades anything other than Bitcoin and Ether.” It will take some time to get there, since the SEC moves kinda slowly and the courts move even more slowly and crypto people seem very committed to this bit of complaining about “regulatory uncertainty” rather than “the regulators are clearly and fully committed to stamping us out.” But the long-term path that we are currently on is pretty clear.
 So the uncertainty is, will anything about the law or the political situation change? Will  Congress step in and say to the SEC, “nah you can’t fully stamp out crypto”? Will a presidential election bring a new head of the SEC who will say “ehh actually crypto is fine, go ahead”? These outcomes all seem possible; the fact that Europe seems more welcoming to crypto than the US suggests that there is nothing inevitable about the US crackdown. But, again, the political situation for crypto right now seems bad; Coinbase’s argument that the SEC is stifling innovation is less appealing after last year’s crypto meltdown, where much of the innovation in crypto once again turned out to be new ways to steal money from customers. 
 
-  
-    
+
+
       SKKY
-    
-  
+
+
 
 If you are a successful entrepreneur in some industry, you might at some point decide to open a private investing firm to make bets on other companies in that industry. After all, you apparently have some nose for what works, some practical experience in taking a company to the next level, a lot of relevant contacts and industry knowledge; why not scale all of that and apply it to a bunch of businesses instead of just the ones you started? And if you were successful in the industry you probably know some people with private investing experience — people who invested in your companies, etc. — who respect you and would like to work with you; you may not have a lot of investing experience, but you can probably hire people who do. You’re not going to be a huge firm right away, and you’re not necessarily going to be able to immediately compete with, like, Blackstone and Apollo for top talent. But you can try to get some good people and build a good business and grow over time.
 Or if you are Kim Kardashian   that speeds things along a bit:
@@ -197,15 +197,15 @@ SKKY Partners now has almost a dozen employees and expects to surpass 15 by the 
 
 I don’t know, I love it? It just feels like there should be a bit more celebrity branding in financial services? Like plausibly 90% of top private equity professionals think “ugh I can’t imagine telling my Wharton friends that I work for Kim Kardashian,” but the other 10% think “it would be so cool to tell my friends that I work for Kim Kardashian,” and you don’t need to hire everyone. Being the Kim Kardashian private equity firm is a recruiting advantage for some candidates.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Goldman Traders Miss Out on Wall Street’s Fixed-Income Boom.   BofA Tops Estimates as Fixed-Income Traders Fuel Profits. Apple, Goldman Sachs Debut   Savings Account With 4.15% Annual Yield. Depositors pull nearly $60bn from three US banks as  Apple raises pressure. Deutsche Bank Targets Asia’s Rich as   Credit Suisse Clients Flee. HSBC  urged to break up by largest shareholder and accused of ‘exaggerating’ risk. Brookfield   Defaults on $161 Million Debt for Office Buildings. Pension fund Calstrs braced for writedowns in $50bn  property portfolio. Elon Musk Says His AI Project Will  Seek to Understand the Nature of the Universe.   Crypto Dealmaking Reaches All-Time High as VC Funding Remains Scarce.  New York Finance Regulator to  Bill Crypto Firms for Annual Supervision Fees. Americans Using   Buy Now, Pay Later for Groceries Risk ‘Cycle of Debt.’ Ultrarich Hamptons Residents Surge 2,700% in   Seasonal Wealth Migration.  Trump Spac pays $15,000 a month for office in Caribbean home. “[Twitter] feels a little emptier, though certainly not dead. More like the part of the dinner party when  only the serious drinkers remain.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I think a version of this story like “most US public corporations are mostly controlled by their chief executive officers, who sort of loosely answer to the board of directors, and who also get a lot of say in choosing those directors” would not be entirely inaccurate; here I am focusing on the directors/CEO as a unit as opposed to the shareholders, but there are some distinctions between the CEO and the board as well.
 
 
@@ -218,48 +218,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] To be fair: “Weyerhaeuser logs about 2% of its land each year and plants more than 130 million saplings a year to replace much of what it cuts. Company scientists have selectively bred trees over the decades to grow bigger, faster and better for lumber-making than the ones they replace. The company says those new breeds will sock away carbon dioxide faster than the ones cut down, allowing it to boost sequestration and wood production at the same time.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -270,46 +270,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cikvj2.5jf2/defc3d32.gif" alt="" border="0" /></a>

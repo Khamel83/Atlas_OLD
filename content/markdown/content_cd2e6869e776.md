@@ -75,34 +75,34 @@ var template = 'permalink';
 <script>
 	function makeBreadCrumbsForBlogs(node){
 		document.write('<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/">washingtonpost.com</a>&nbsp; &gt; &nbsp;');
-		var end = (node.indexOf("/") != -1) ? node.indexOf("/") : node.length;	
-		var section = node.substring(0, end);	
-		
-		for(var i=0;i<levelA.length;i++) {	
+		var end = (node.indexOf("/") != -1) ? node.indexOf("/") : node.length;
+		var section = node.substring(0, end);
+
+		for(var i=0;i<levelA.length;i++) {
 			if(levelA[i].indexOf(section)!=-1)	{
-				document.write('<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/');			
-				document.write(levelA[i].substring(0,levelA[i].indexOf(',')));			
-				document.write('/">');			
-				document.write(levelA[i].substring(levelA[i].indexOf(',')+1, levelA[i].length));			
-				document.write('</a>');			
-				break;			
-			}		
+				document.write('<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/');
+				document.write(levelA[i].substring(0,levelA[i].indexOf(',')));
+				document.write('/">');
+				document.write(levelA[i].substring(levelA[i].indexOf(',')+1, levelA[i].length));
+				document.write('</a>');
+				break;
+			}
 		}
 
 if(node.indexOf('/')!=-1)		{
 			var levelB = node.substring(node.indexOf('/')+1, node.length);
 			blowout = getDeepLinks(section+'/');
 
-for(var i=0;i<blowout.length;i++)			
-				if(blowout[i].indexOf(node)!=-1)	{				
-					document.write('&nbsp; &gt; &nbsp;');	
+for(var i=0;i<blowout.length;i++)
+				if(blowout[i].indexOf(node)!=-1)	{
+					document.write('&nbsp; &gt; &nbsp;');
 					document.write('<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/wp-dyn/content/');
 					document.write(blowout[i].substring(0,blowout[i].indexOf(',')));
-					document.write('/">');				
+					document.write('/">');
 					document.write(blowout[i].substring(blowout[i].indexOf(',')+1, blowout[i].length));
-					document.write('</a>');	
-					break;				
-				}		
+					document.write('</a>');
+					break;
+				}
 			}
 		}
 </script>
@@ -142,7 +142,7 @@ e.style.display = 'none';
 	<link rel="stylesheet" href="http://web.archive.org/web/20220626231951cs_/http://voices.washingtonpost.com/44/styles09.css" type="text/css"/>
 	<link rel="alternate" type="application/atom+xml" title="Atom" href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/atom.xml"/>
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/index.xml"/>
-	
+
 	<script src="http://web.archive.org/web/20220626231951js_/http://platform.twitter.com/anywhere.js?id=PUEnzFUiNAi62o0HQ2cZg&amp;v=1">  </script>
 	<script type="text/javascript">  twttr.anywhere(function (T) {    T("#bog-banner img.hovercards").hovercards({      username: function(node) {        return node.title;      }    });  });</script>
 	<script type="text/javascript">  twttr.anywhere(function (T) {    T("#hovercards").hovercards({      username: function(node) {        return node.title;      }    });  });</script>
@@ -198,7 +198,7 @@ e.style.display = 'none';
 <!-- /subnav -->
 	<div id="wrapperMain">
 		<div id="wrapperMainRight" style="float:right;">
-			
+
 			<div style="float:left;">
 				<script>
 		<!--
@@ -373,11 +373,11 @@ document.getElementById('ad-bigbox').style.display = 'block';
 </div>
 
 <div id="bannerstrip">
-<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/politics/">Post Politics</a> 
+<a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/politics/">Post Politics</a>
 &nbsp;|&nbsp; <a href="http://web.archive.org/web/20220626231951/http://twitter.com/PostPolitics" id="hovercards" title="postpolitics"><img src="http://web.archive.org/web/20220626231951im_/http://www.washingtonpost.com/wp-dyn/content/graphic/2009/02/03/GR2009020301851.gif" border="0"></a> <a href="http://web.archive.org/web/20220626231951/http://twitter.com/PostPolitics" id="hovercards" title="postpolitics">Follow Post Politics on Twitter</a>
  &nbsp;|&nbsp; <a href="http://web.archive.org/web/20220626231951/http://www.facebook.com/#!/pages/Washington-Post-Politics/374111579728">Facebook</a>
  &nbsp;|&nbsp;
-<a href="http://web.archive.org/web/20220626231951/http://feeds.voices.washingtonpost.com/wp/44/index.xml"><img src="http://web.archive.org/web/20220626231951im_/http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif" align="top" alt="RSS Feeds" border="0" width="25" height="13"/></a>&nbsp;<a href="http://web.archive.org/web/20220626231951/http://feeds.voices.washingtonpost.com/wp/44/index.xml">RSS Feed</a> 
+<a href="http://web.archive.org/web/20220626231951/http://feeds.voices.washingtonpost.com/wp/44/index.xml"><img src="http://web.archive.org/web/20220626231951im_/http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif" align="top" alt="RSS Feeds" border="0" width="25" height="13"/></a>&nbsp;<a href="http://web.archive.org/web/20220626231951/http://feeds.voices.washingtonpost.com/wp/44/index.xml">RSS Feed</a>
 </div>
 </mt:if>
 <div id="widget-strip">
@@ -448,7 +448,7 @@ document.getElementById('ad-bigbox').style.display = 'block';
 	</div>
 	<div class="box">
 		<ul>
-	
+
 <br>
 <a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/dan-balzs-take/" style="font-weight:normal;">&raquo; More of The Take</a>
 		</ul>
@@ -518,17 +518,17 @@ document.getElementById('ad-bigbox').style.display = 'block';
 	</div>
 	<div class="box">
 		<ul>
-			
+
 				<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/2011/01/michelle-obamas-open-letter-to.html">Michelle Obama's open letter to parents about Tucson </a></li>
-			
+
 				<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/2011/01/sarah-palin-doing-interview-on.html">Sarah Palin doing interview on 'Hannity' Monday</a></li>
-			
+
 				<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/2011/01/gibbs-spars-with-russian-journ.html">Gibbs spars with Russian journalist who ties Tucson shootings to U.S. freedoms</a></li>
-			
+
 				<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/2011/01/tavis-smiley-obama-must-do-mor.html">Tavis Smiley: Obama must do more to live up to King's ideals</a></li>
-			
+
 				<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/2011/01/house-will-resume-health-care.html">House to resume work on health-care repeal next week</a></li>
-			
+
 		</ul>
 	<div class="categorylist"><ul>
 
@@ -543,11 +543,11 @@ document.getElementById('ad-bigbox').style.display = 'block';
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/44-the-obama-presidency/capitol-briefing/">Capitol Briefing</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/daily-dose/">Daily Dose</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/dan-balzs-take/">Dan Balz's Take</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/eye-on-2012/">Eye on 2012</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/44-the-obama-presidency/fact-check-2010/">Fact Check 2010</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/eye-on-2012/haley-barbour/">Haley Barbour</a></li>
@@ -555,21 +555,21 @@ document.getElementById('ad-bigbox').style.display = 'block';
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/live-blog/">Live Blog</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/eye-on-2012/marco-rubio/">Marco Rubio</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/44-the-obama-presidency/media-notes/">Media Notes</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/eye-on-2012/newt-gingrich/">Newt Gingrich</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/state-of-the-union/">State of the Union</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/sunday-talkies/">Sunday Talkies</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/44-the-obama-presidency/supreme-court/">Supreme Court</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/tea-party/">Tea Party</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/the-pollster/">The Pollster</a></li>
-			
+
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/the-rundown/">The Rundown</a></li>
 
 <li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/eye-on-2012/tim-pawlenty/">Tim Pawlenty</a></li>
@@ -603,7 +603,7 @@ document.getElementById('ad-bigbox').style.display = 'block';
 </ul>
 
 <div id="all-box">
-			
+
 <div class="link-note" style="background: url(http://web.archive.org/web/20220626231951im_/http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif) no-repeat 0 50%; padding-left:30px; margin-left:4px; padding-top:3px;">
 <a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/44/index.xml">RSS Feed</a>
 </div>
@@ -663,7 +663,7 @@ document.getElementById('ad-bigbox').style.display = 'block';
 		<li><a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/wp-dyn/content/politics/">Politics Home</a></li>
 <li><a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/wp-srv/politics/politics-mv.html">Most Viewed Articles</a></li>
 <li><a href="http://web.archive.org/web/20220626231951/http://blog.washingtonpost.com/thefix/">The Fix</a></li>
-<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/postpartisan/">Post Partisan</a></li>	
+<li><a href="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/postpartisan/">Post Partisan</a></li>
 		</ul>
 	</div>
         <div class="bottom"></div>
@@ -699,7 +699,7 @@ if ( show_doubleclick_ad && ( adTemplate & SKY_LEFT ) == SKY_LEFT )
 		</script>
 <!--------------------------------------------------->
 
-</div> <!-- wrapper mainleft-->	
+</div> <!-- wrapper mainleft-->
 <!-- end sidebar1 -->
 
 <!-- END SIDEBAR1 -->
@@ -726,9 +726,9 @@ if ( show_doubleclick_ad && ( adTemplate & SKY_LEFT ) == SKY_LEFT )
 
 <!-- byline -->
 <div style="font-style: italic;font-size: 14px;padding-bottom: 5px;">
-By 	
+By
 		Washington Post editors
-	
+
 </div>
 <!-- /byline -->
 
@@ -811,7 +811,7 @@ God will help her at break of day.</em> </p>
 
 <p>If there are rain puddles in heaven, Christina is jumping in them today.  And here on Earth, we place our hands over our hearts, and commit ourselves as Americans to forging a country that is forever worthy of her gentle, happy spirit.</p>
 
-<p>May God bless and keep those we've lost in restful and eternal peace.  May He love and watch over the survivors.  And may He bless the United States of America.</p> <a id="more"></a>  
+<p>May God bless and keep those we've lost in restful and eternal peace.  May He love and watch over the survivors.  And may He bless the United States of America.</p> <a id="more"></a>
 </div>  <!-- /entrytext -->
 
 <script>
@@ -826,19 +826,19 @@ var entrycat = ''
 	<div id="MTEntryDay" style="display: none;">12</div>
 	<div id="MTEntryHour" style="display: none;">21</div>
 	<div id="MTEntryMinutes" style="display: none;">25</div>
-	
+
 	<!-- /set posted date -->
 
 <!--  set variable "DanaMilbank" -->
-	
-	
+
+
 	<!-- /set variable "DanaMilbank" -->
 
 <!-- set variable "isBylineOverride" -->
-	
-	
-		
-	
+
+
+
+
 	<!-- /set variable "isBylineOverride" -->
 <!--  -->
 
@@ -846,10 +846,10 @@ var entrycat = ''
 <p class="posted" style="line-height: 140%;">
 	By
 <!--  -->
-		
+
 			Washington Post editors
 <!--  -->
-		
+
 		&nbsp;|&nbsp;January 12, 2011;  9:25 PM ET
 <!-- /Byline -->
 
@@ -911,11 +911,11 @@ Next: <a href="http://web.archive.org/web/20220626231951/http://voices.washingto
 
 <!-- <br /><a href="http://voices.washingtonpost.com/44/">Main Index</a> -->
 <!-- /POSTEDARCH ONLY -->
-</p> 
+</p>
 <span id="aptureEndContent"></span>
 
 <!-- NOTE: FOLLOWING LINE INSERTED ONLY BECAUSE OF BIG WIDGET BOX -->
-	
+
 <!-- BEGIN WIDGET BOX -->
 
 <!--main promo area-->
@@ -935,41 +935,41 @@ Next: <a href="http://web.archive.org/web/20220626231951/http://voices.washingto
 		</div>
 		<br/>
 
-<a id="c6347744"></a> 
+<a id="c6347744"></a>
 			<div class="commentText">
-				<p>Wow, a Home Run. There were tears in my eyes.</p> 
+				<p>Wow, a Home Run. There were tears in my eyes.</p>
 			</div>
-			<p class="posted">Posted by: edwardatvienna | January 13, 2011  9:53 PM 
+			<p class="posted">Posted by: edwardatvienna | January 13, 2011  9:53 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20edwardatvienna%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206347744&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6347744%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6347497"></a> 
+
+			<a id="c6347497"></a>
 			<div class="commentText">
-				<p>Thank you, Mr. President.  You have truly expressed the aspirations of most Americans, and the realization that all of us are united as persons who think, say and do (Thoughts, words and deeds are the entirety of human existence). Your leadership will certainly help to make a reality of my daily prayer (Dear God, please let everyone realize their goals and ambitions, good health, hopes and happiness, in Thy Love, Honor and Glory. Amen) May God's love always guide and direct you, and dwell within you and your wonderful family.  We love you.  Sincerely the Marquart family.</p> 
+				<p>Thank you, Mr. President.  You have truly expressed the aspirations of most Americans, and the realization that all of us are united as persons who think, say and do (Thoughts, words and deeds are the entirety of human existence). Your leadership will certainly help to make a reality of my daily prayer (Dear God, please let everyone realize their goals and ambitions, good health, hopes and happiness, in Thy Love, Honor and Glory. Amen) May God's love always guide and direct you, and dwell within you and your wonderful family.  We love you.  Sincerely the Marquart family.</p>
 			</div>
-			<p class="posted">Posted by: jpmarquart | January 13, 2011  8:15 PM 
+			<p class="posted">Posted by: jpmarquart | January 13, 2011  8:15 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20jpmarquart%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206347497&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6347497%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6346877"></a> 
+
+			<a id="c6346877"></a>
 			<div class="commentText">
 				<p>Mr. President ... you gave us exactly what we needed last night.  I applaud you!!  You spoke to the good in all of us and gave no place to (no mention of) evil.  </p>
 
-<p>Excellent speech.  </p> 
+<p>Excellent speech.  </p>
 			</div>
-			<p class="posted">Posted by: gitouttahere | January 13, 2011  5:33 PM 
+			<p class="posted">Posted by: gitouttahere | January 13, 2011  5:33 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20gitouttahere%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206346877&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6346877%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6346772"></a> 
+
+			<a id="c6346772"></a>
 			<div class="commentText">
-				<p>In his speech at the memorial of the terrible attack in Tucson, President Obama delivered a sensitive speech that transcended the partisan bickering and was crafted of fibers woven with empathy, dignity and humility. President Obama focused this tragic event to its best end to implore all parties to reflect on and strive for a  more sensitive manner of civil discourse. After highlighting the exceptional heroism of the unfortunate people there that devastating morning and their heartbreaking stories, he appealed, âWe should be willing to challenge old assumptions in order to lessen the prospects of violence in the future. He added, âBut what we can't do is use this tragedy as one more occasion to turn on one another. As we discuss these issues, let each of us do so with a good dose of humility. Rather than pointing fingers or assigning blame, let us use this occasion to expand our moral imaginations, to listen to each other more carefully, to sharpen our instincts for empathy, and remind ourselves of all the ways our hopes and dreams are bound togetherâ. In comparison to the vitriolic rhetoric that has shared headlines, recently, he has stood up and separated himself with eloquent phrases reflecting reason and maturity. In addressing the deceased victim 9 year old Cristina Taylor Green's aspirations, he said  âI want to live up to her expectations. I want our democracy to be as good as she imagined it. All of us - we should do everything we can to make sure this country lives up to our children's expectationsâ.  This speech demonstrated a President possessing wisdom that most predecessors either didn't possess or were eluded by. I believe it will be added to some of the greatest speeches of our nation's history. Every American should see it on YouTube that didn't witness it live if they have opportunity. </p> 
+				<p>In his speech at the memorial of the terrible attack in Tucson, President Obama delivered a sensitive speech that transcended the partisan bickering and was crafted of fibers woven with empathy, dignity and humility. President Obama focused this tragic event to its best end to implore all parties to reflect on and strive for a  more sensitive manner of civil discourse. After highlighting the exceptional heroism of the unfortunate people there that devastating morning and their heartbreaking stories, he appealed, âWe should be willing to challenge old assumptions in order to lessen the prospects of violence in the future. He added, âBut what we can't do is use this tragedy as one more occasion to turn on one another. As we discuss these issues, let each of us do so with a good dose of humility. Rather than pointing fingers or assigning blame, let us use this occasion to expand our moral imaginations, to listen to each other more carefully, to sharpen our instincts for empathy, and remind ourselves of all the ways our hopes and dreams are bound togetherâ. In comparison to the vitriolic rhetoric that has shared headlines, recently, he has stood up and separated himself with eloquent phrases reflecting reason and maturity. In addressing the deceased victim 9 year old Cristina Taylor Green's aspirations, he said  âI want to live up to her expectations. I want our democracy to be as good as she imagined it. All of us - we should do everything we can to make sure this country lives up to our children's expectationsâ.  This speech demonstrated a President possessing wisdom that most predecessors either didn't possess or were eluded by. I believe it will be added to some of the greatest speeches of our nation's history. Every American should see it on YouTube that didn't witness it live if they have opportunity. </p>
 			</div>
-			<p class="posted">Posted by: daguroo | January 13, 2011  5:05 PM 
+			<p class="posted">Posted by: daguroo | January 13, 2011  5:05 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20daguroo%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206346772&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6346772%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6346634"></a> 
+
+			<a id="c6346634"></a>
 			<div class="commentText">
 				<p>"I truly believe President Obama's speech last night will go down in history as "The Tucson Address" in the same league as President Lincoln's "Gettysburg Address."</p>
 
@@ -988,61 +988,61 @@ Next: <a href="http://web.archive.org/web/20220626231951/http://voices.washingto
 <p>All that said, I think President Obama gave a fine speech that was severly diminished by all the inappropriate clapping.  You don't clap at a memorial service.</p>
 
 <p><br/>
-</p> 
+</p>
 			</div>
-			<p class="posted">Posted by: mlincoln1 | January 13, 2011  4:33 PM 
+			<p class="posted">Posted by: mlincoln1 | January 13, 2011  4:33 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20mlincoln1%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206346634&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6346634%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6346533"></a> 
+
+			<a id="c6346533"></a>
 			<div class="commentText">
-				<p>in..the..pledge..of..allegiance..to..the..flag..not..have..god..in..it..till..1955..that..is..the..year..of..the..baby-boomers</p> 
+				<p>in..the..pledge..of..allegiance..to..the..flag..not..have..god..in..it..till..1955..that..is..the..year..of..the..baby-boomers</p>
 			</div>
-			<p class="posted">Posted by: progressivegrocer | January 13, 2011  4:16 PM 
+			<p class="posted">Posted by: progressivegrocer | January 13, 2011  4:16 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20progressivegrocer%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206346533&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6346533%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6346068"></a> 
+
+			<a id="c6346068"></a>
 			<div class="commentText">
-				<p>No president in modern American history has taken office amidst such massive problems as has President Obama. We cannot expect one man to solve all of our problems.  But this President has the unique talent and ability to speak to us as one nation, and to convey to all of us the expectation that we all live up to our best ideals.  I belive that is why we elected him, and why we need to listen when he speaks to us.  I hope that his words will be repeated often, and that he continues to address the nation as a healer, because that is what he is. The press should begin by changing its focus, from petty tabloid journalism to much higher aspirations.  Certainly, Obama's words are a beacon to follow in this murky political climate.  Let's all get out of the mud and pursue our better natures.  Thank you Mr. President.</p> 
+				<p>No president in modern American history has taken office amidst such massive problems as has President Obama. We cannot expect one man to solve all of our problems.  But this President has the unique talent and ability to speak to us as one nation, and to convey to all of us the expectation that we all live up to our best ideals.  I belive that is why we elected him, and why we need to listen when he speaks to us.  I hope that his words will be repeated often, and that he continues to address the nation as a healer, because that is what he is. The press should begin by changing its focus, from petty tabloid journalism to much higher aspirations.  Certainly, Obama's words are a beacon to follow in this murky political climate.  Let's all get out of the mud and pursue our better natures.  Thank you Mr. President.</p>
 			</div>
-			<p class="posted">Posted by: Anniesue1 | January 13, 2011  3:01 PM 
+			<p class="posted">Posted by: Anniesue1 | January 13, 2011  3:01 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20Anniesue1%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206346068&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6346068%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6345792"></a> 
+
+			<a id="c6345792"></a>
 			<div class="commentText">
-				<p>President Obama wrote (he writes or edits his speeches, but who cares) and delivered a great speech. He cares so deeply about this Country. Even in this context, there are still hateful words toward him. Never has there been such hatred and disrespect towards an American president. For some people, nothing will change their hearts about a person they hate because of who they resent because he is a Black man. For these people, I say, it must be quite a burden to carry around so much hatred and anamosity in your hearts every day. But keep going to church and declaring yourselves Christians.</p> 
+				<p>President Obama wrote (he writes or edits his speeches, but who cares) and delivered a great speech. He cares so deeply about this Country. Even in this context, there are still hateful words toward him. Never has there been such hatred and disrespect towards an American president. For some people, nothing will change their hearts about a person they hate because of who they resent because he is a Black man. For these people, I say, it must be quite a burden to carry around so much hatred and anamosity in your hearts every day. But keep going to church and declaring yourselves Christians.</p>
 			</div>
-			<p class="posted">Posted by: mguill1045 | January 13, 2011  2:23 PM 
+			<p class="posted">Posted by: mguill1045 | January 13, 2011  2:23 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20mguill1045%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206345792&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6345792%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6345064"></a> 
+
+			<a id="c6345064"></a>
 			<div class="commentText">
-				<p>President Obama's speech was truly amazing. It is exactly what the citizens of Tucson needed to hear, as did the nation. All the finger pointing and name calling needs to stop now. Well done, Mr. President !!!</p> 
+				<p>President Obama's speech was truly amazing. It is exactly what the citizens of Tucson needed to hear, as did the nation. All the finger pointing and name calling needs to stop now. Well done, Mr. President !!!</p>
 			</div>
-			<p class="posted">Posted by: 12brown | January 13, 2011 12:40 PM 
+			<p class="posted">Posted by: 12brown | January 13, 2011 12:40 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%2012brown%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206345064&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6345064%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6345056"></a> 
+
+			<a id="c6345056"></a>
 			<div class="commentText">
-				<p>President Obama's speech was truly amazing. It is exactly what the citizens of Tucson needed to hear, as did the nation. All the finger pointing and name calling needs to stop now. Well done, Mr. President !!!</p> 
+				<p>President Obama's speech was truly amazing. It is exactly what the citizens of Tucson needed to hear, as did the nation. All the finger pointing and name calling needs to stop now. Well done, Mr. President !!!</p>
 			</div>
-			<p class="posted">Posted by: 12brown | January 13, 2011 12:39 PM 
+			<p class="posted">Posted by: 12brown | January 13, 2011 12:39 PM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%2012brown%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206345056&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6345056%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6344787"></a> 
+
+			<a id="c6344787"></a>
 			<div class="commentText">
-				<p>Great speech. Contrast this speech with that given by Palin.</p> 
+				<p>Great speech. Contrast this speech with that given by Palin.</p>
 			</div>
-			<p class="posted">Posted by: kms123 | January 13, 2011 11:59 AM 
+			<p class="posted">Posted by: kms123 | January 13, 2011 11:59 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20kms123%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206344787&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6344787%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6344711"></a> 
+
+			<a id="c6344711"></a>
 			<div class="commentText">
 				<p>Who ever wrote this memorial speach did a great job. </p>
 
@@ -1053,77 +1053,77 @@ Next: <a href="http://web.archive.org/web/20220626231951/http://voices.washingto
 <p>Posted by: markandbeth92 <br/>
 ****************************</p>
 
-<p>Stop hating...or if not possible, avoid breeding...</p> 
+<p>Stop hating...or if not possible, avoid breeding...</p>
 			</div>
-			<p class="posted">Posted by: LABC | January 13, 2011 11:44 AM 
+			<p class="posted">Posted by: LABC | January 13, 2011 11:44 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20LABC%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206344711&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6344711%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6344677"></a> 
+
+			<a id="c6344677"></a>
 			<div class="commentText">
 				<p>I truly believe President Obama's speech last night will go down in history as "The Tucson Address" in the same league as President Lincoln's "Gettysburg Address."</p>
 
 <p>The reaction of the crowd was an indication of the initial power of the speech.  But I think the long-term impact of the speech will be much, much greater.</p>
 
 <p>Many will disagree.  Time will tell.<br/>
-</p> 
+</p>
 			</div>
-			<p class="posted">Posted by: cwright49 | January 13, 2011 11:37 AM 
+			<p class="posted">Posted by: cwright49 | January 13, 2011 11:37 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20cwright49%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206344677&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6344677%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6344387"></a> 
+
+			<a id="c6344387"></a>
 			<div class="commentText">
-				<p>Beautiful and touching thoughts from a president.  May we all pause to reflect and remember as we go forward that we are all Americans united in a common love for our country.  Ideas come and go; some are better and some are worse.  The shared bonds of country and sacrifice endure.</p> 
+				<p>Beautiful and touching thoughts from a president.  May we all pause to reflect and remember as we go forward that we are all Americans united in a common love for our country.  Ideas come and go; some are better and some are worse.  The shared bonds of country and sacrifice endure.</p>
 			</div>
-			<p class="posted">Posted by: GJinOlyWA | January 13, 2011 10:38 AM 
+			<p class="posted">Posted by: GJinOlyWA | January 13, 2011 10:38 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20GJinOlyWA%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206344387&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6344387%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6343871"></a> 
+
+			<a id="c6343871"></a>
 			<div class="commentText">
 				<p>Who ever wrote this memorial speach did a great job.  </p>
 
 <p>I would love to find out who that person was and encourage President Obama to use him more.</p>
 
-<p>Obama did and adequate job of delivering it.</p> 
+<p>Obama did and adequate job of delivering it.</p>
 			</div>
-			<p class="posted">Posted by: markandbeth92 | January 13, 2011  8:41 AM 
+			<p class="posted">Posted by: markandbeth92 | January 13, 2011  8:41 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20markandbeth92%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206343871&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6343871%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6343737"></a> 
+
+			<a id="c6343737"></a>
 			<div class="commentText">
 				<p>This is a wonderful speech. I was particularly taken by "We may not be able to stop all evil in the world, but I know that how we treat one another is entirely up to us. I believe that for all our imperfections, we are full of decency and goodness, and that the forces that divide us are not as strong as those that unite us." - that is so inspirational. We are in Britain, but our thoughts are with the families affected by this tragedy, with the American people, and with President Obama, who has given everyone much to think about with this fine speech. <br/>
-</p> 
+</p>
 			</div>
-			<p class="posted">Posted by: dlusher1 | January 13, 2011  7:40 AM 
+			<p class="posted">Posted by: dlusher1 | January 13, 2011  7:40 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20dlusher1%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206343737&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6343737%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6343685"></a> 
+
+			<a id="c6343685"></a>
 			<div class="commentText">
-				<p>That's how you do it.</p> 
+				<p>That's how you do it.</p>
 			</div>
-			<p class="posted">Posted by: AHappyWarrior | January 13, 2011  7:06 AM 
+			<p class="posted">Posted by: AHappyWarrior | January 13, 2011  7:06 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20AHappyWarrior%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206343685&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6343685%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6343615"></a> 
+
+			<a id="c6343615"></a>
 			<div class="commentText">
-				<p>Excellent speech!</p> 
+				<p>Excellent speech!</p>
 			</div>
-			<p class="posted">Posted by: laSerenissima2003 | January 13, 2011  5:43 AM 
+			<p class="posted">Posted by: laSerenissima2003 | January 13, 2011  5:43 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20laSerenissima2003%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206343615&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6343615%26blog_id=322">Report abuse</a>
 			</p>
-		
-			<a id="c6340808"></a> 
+
+			<a id="c6340808"></a>
 			<div class="commentText">
 				<p><br/>
 You know what You guys should stop complaining because, one the health care we have now isnt as good as it was supposed to be. also the law has just been signed so give it some time. so if u want to say u have the right to choose tell that to ur congress men or state official. If you do not have insurance and need one You can find full medical coverage at the lowest price by searching online for "Wise Health Insurance" If you have health insurance and do not care about cost just be happy it and trust me you are not going to loose anything!<br/>
-</p> 
+</p>
 			</div>
-			<p class="posted">Posted by: earlbishop1 | January 13, 2011  1:03 AM 
+			<p class="posted">Posted by: earlbishop1 | January 13, 2011  1:03 AM
 			| <a href="http://web.archive.org/web/20220626231951/mailto:blogs@washingtonpost.com?subject=44%20%20|%20%20earlbishop1%20%20|%20%20Obama in Tucson: Full text of prepared remarks%20%20|%20%206340808&amp;body=%0D%0D%0D%0D%0D================%0D?__mode=view%26_type=comment%26id=6340808%26blog_id=322">Report abuse</a>
 			</p>
 
@@ -1135,7 +1135,7 @@ You know what You guys should stop complaining because, one the health care we h
 	<div id="comments-open-header" style="margin-top:5px;">
 		<p>We encourage users to analyze, comment on and even challenge washingtonpost.com's  articles, blogs, reviews and multimedia features. </p>
 
-<p>User reviews and comments that include profanity or personal attacks or other inappropriate comments or material will be removed from the site.  Additionally, entries that are unsigned or contain "signatures" by someone other than the actual author will be removed. Finally, we will take steps to block users who violate any of our posting standards, terms of use or privacy policies or any other policies governing this site.  Please review the <a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/wp-srv/liveonline/delphi/delphirules.htm">full rules</a> governing commentaries and discussions.</p> 
+<p>User reviews and comments that include profanity or personal attacks or other inappropriate comments or material will be removed from the site.  Additionally, entries that are unsigned or contain "signatures" by someone other than the actual author will be removed. Finally, we will take steps to block users who violate any of our posting standards, terms of use or privacy policies or any other policies governing this site.  Please review the <a href="http://web.archive.org/web/20220626231951/http://www.washingtonpost.com/wp-srv/liveonline/delphi/delphirules.htm">full rules</a> governing commentaries and discussions.</p>
 	</div>
 
 </div>
@@ -1154,21 +1154,21 @@ function tracksubmit()
  // characters  number and max - the maximum number of characters
 
 function CountLeft(field, count, max) {
- // if the length of the string in the input field is greater than the max value, trim it 
+ // if the length of the string in the input field is greater than the max value, trim it
  if (field.value.length > max)
  field.value = field.value.substring(0, max);
  else
- // calculate the remaining characters  
+ // calculate the remaining characters
  count.value = max - field.value.length;
  }
  </script>
 
 <div id="comment-greeting"></div>
 
-<form method="post" action="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/cgi-bin/mt/mt-comments.cgi" name="comments_form" id="comments-form" onsubmit="tracksubmit();"><input type="hidden" name="static" value="1"/> <input type="hidden" name="entry_id" value="262540"/> 
+<form method="post" action="http://web.archive.org/web/20220626231951/http://voices.washingtonpost.com/cgi-bin/mt/mt-comments.cgi" name="comments_form" id="comments-form" onsubmit="tracksubmit();"><input type="hidden" name="static" value="1"/> <input type="hidden" name="entry_id" value="262540"/>
 <input type="hidden" name="preview" value=""/>
 	<div id="comment-data">
-	
+
 		<p>
 		<label for="comment-text">Comments:</label><br/>
 		<textarea name="text" rows="10" cols="50" tabindex="4" id="comment-text" onkeydown="CountLeft(this.form.text,this.form.left,3000);" onkeyup="CountLeft(this.form.text,this.form.left,3000);"></textarea><br/>
@@ -1184,7 +1184,7 @@ function CountLeft(field, count, max) {
 
 </div>
 <div style="clear: both;">
-	&#160; 
+	&#160;
 </div>
 
 </div> <!-- content -->
@@ -1304,8 +1304,8 @@ if ( show_doubleclick_ad && ( adTemplate & BANNER_FLEX_BOTTOM ) == BANNER_FLEX_B
 		}
 		// -->
 		</script>
-	
-		
+
+
 			<script type="text/javascript" language="javascript">
 function getSPYear(date_string)
 {
@@ -1324,10 +1324,10 @@ if( dateStr.indexOf('2') != -1 )
   thisYear = dateStr;
 }
 function openWin(url)
-{ 
-  var navWin = window.open(url,"NewWin", "scrollbars,toolbar=false,menubar=false,resizable=false,width=740,height=595,top=0,right=1000"); 
+{
+  var navWin = window.open(url,"NewWin", "scrollbars,toolbar=false,menubar=false,resizable=false,width=740,height=595,top=0,right=1000");
 }
-</script> <div style="clear:both"></div> 
+</script> <div style="clear:both"></div>
 <div style="text-align:left;">
 <script type="text/javascript" src="http://web.archive.org/web/20220626231951js_/http://media.washingtonpost.com/wp-srv/wpost/javascript/module/module.external-footer-1.0.0.js"></script>
 </div>
@@ -1374,7 +1374,7 @@ T("#hovercards").hovercards({
 </body>
 
 </html>
- 
+
 <!--
      FILE ARCHIVED ON 23:19:51 Jun 26, 2022 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 04:03:14 Sep 15, 2025.

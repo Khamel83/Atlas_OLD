@@ -19,11 +19,11 @@ class CaptureAPI:
         # Generate unique ID
         # Queue for processing
         # Return success/error
-        
+
     def queue_for_processing(self, content_data):
         # Write to capture queue file
         # Background service will pick up
-        
+
 @app.route('/api/capture', methods=['POST'])
 def capture_endpoint():
     # Handle URL, text, voice content types
@@ -47,7 +47,7 @@ def process_capture_queue(self):
     # Process through appropriate ingestor
     # Clean up processed items
     # Handle errors and retries
-    
+
 def _process_captured_item(self, item):
     # Route to article/text/voice ingestor
     # Preserve original metadata
@@ -71,7 +71,7 @@ def _process_captured_item(self, item):
 struct ContentView: View {
     @State private var serverURL = "http://192.168.1.100:5000"
     @State private var captureHistory: [CaptureItem] = []
-    
+
     var body: some View {
         NavigationView {
             // Simple settings and history
@@ -104,7 +104,7 @@ class ShareViewController: UIViewController {
         // Show simple UI for optional notes
         // Send to Atlas API
     }
-    
+
     func sendToAtlas(_ content: CaptureContent) {
         // HTTP POST to capture API
         // Handle offline queueing
@@ -146,7 +146,7 @@ struct CaptureContent {
       ]
     },
     {
-      "name": "Voice to Atlas", 
+      "name": "Voice to Atlas",
       "description": "Record voice memo and send to Atlas",
       "actions": [
         "dictate_text",
@@ -176,7 +176,7 @@ struct CaptureContent {
 2. Configure server URL in settings
 3. Use share button from any app
 
-## Shortcuts Setup  
+## Shortcuts Setup
 1. Import Atlas shortcuts
 2. Configure server URL in shortcut
 3. "Hey Siri, add to Atlas"
@@ -234,7 +234,7 @@ def process_captured_content(self, capture_item):
     # Route to appropriate ingestor (article, text, etc.)
     # Preserve capture metadata in Atlas metadata
     # Update capture status
-    
+
 # Add capture source to content metadata
 metadata['capture_info'] = {
     'captured_from': 'ios_share_extension',

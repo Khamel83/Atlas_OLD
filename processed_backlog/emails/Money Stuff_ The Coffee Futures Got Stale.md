@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The way I like to think about commodities futures is that there are two metaphysically distinct types of each commodity. Consider nickel. Th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Fresh coffee
-    
-  
+
+
 
 The way I like to think about commodities futures is that there are   two metaphysically distinct types of each commodity. Consider nickel. There is the sort of nickel that is produced by producers and delivered to industrial users for making cars or whatever. If you want nickel to make cars, you will negotiate with a supplier for a particular amount of a particular grade of nickel to show up in particular shapes at a particular time and location.
 And then there is the sort of nickel that underlies nickel futures contracts, which is an abstract generalized kind of nickel used for financial purposes. If you buy a nickel futures contract to hedge the price of nickel, you do not intend to turn the futures contract into cars. Ordinarily you will cash out of the futures contract at expiration. But in order for the futures contract to hedge the price of nickel, it does need to be possible to turn the contract into actual nickel.
@@ -76,37 +76,37 @@ For years, some sellers looking to avoid an “age penalty” meant to discourag
 
 “Just plop coffee beans in the exchange warehouse and leave them there forever” obviously does not work, but “plop coffee beans in the warehouse, leave them there for a respectable amount of time, take them out, walk them across the street, bring them back and plop them in again, repeatedly” worked surprisingly well. In December it will stop working, though everyone gets to do it one more time first. In some ways the simpler solution would be to replace all the coffee beans with pebbles but I guess that would cause problems.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Fake pod shop
-    
-  
+
+
 
 The fastest-growing and most attractive sort of hedge fund these days is the multi-manager “pod shop.” These funds hire lots of different portfolio managers running uncorrelated strategies; they monitor the managers closely, minimize directional market exposure, allocate capital based on performance, and take capital away rapidly from managers who have losses. The resulting fund is exactly what big allocators want: The fund offers a steady stream of returns that are not correlated to the market, it has very low risk, and it is a big stable institution that can manage their money forever. 
 This is such a good model that people keep trying to get into it; we talked on Monday about Bank of New York Mellon’s plans to get into the pod-shop business. (They plan to distinguish themselves from the leading players by charging lower fees and being nicer to their PMs.)
@@ -132,11 +132,11 @@ From January 2018 through March 2020, Individual 2’s trading losses exceeded t
 
 If you lose money every month for two years you will probably lose your job at a traditional multi-manager fund. But not at a fake one!
 
-  
-    
+
+
       Silly pod shops
-    
-  
+
+
 
 Elsewhere in “multi-manager funds are a good business”:
 
@@ -154,11 +154,11 @@ Marshall is responding to this pay pressure not only by complaining at conferenc
 The competition for talent has forced traditional hedge fund players such as Marshall’s firm to adapt. Its flagship Eureka hedge fund this year added a “compensation surcharge” worth as much as 0.75 per cent of the fund’s value, to be used to reward high performers, a decision Marshall said at the time was taken because “multi-manager platforms are driving a bidding war for talent”.
 It’s like when the Affordable Care Act passed and some restaurants  added a stunt surcharge to customer bills to pay for health insurance; the message was “our employee costs have gone up, so we will pass them on to you in a surly showy way.” Only here the cost is not health insurance but competition from Citadel.
 
-  
-    
+
+
       Bridgewater
-    
-  
+
+
 
 We   talked yesterday about Rob Copeland’s new book, The Fund, about Bridgewater Associates, the world’s largest hedge fund, and its founder Ray Dalio. In particular, I mentioned two things:
 	A story Copeland tells about some underlings commissioning a report to Dalio about his own investment ideas, which apparently did not perform that well.	My   half-joking model of Bridgewater as a systematic investment firm, in which a computer does the investing and keeps the human employees from interfering by giving them baroque tasks like ranking each others’ believability. “It’s very important that you rate all of your colleagues on 38 factors after each meeting,” the computer snickers, and the humans are distracted by that while it gets on with the investing.
@@ -171,11 +171,11 @@ Of course Bridgewater is systematic – not “quant” in the Rennaissance Tec
 
 The computer called Dalio’s underlings into its little computer office and was like “oh boy do I have a task for you, you have to tell that Dalio guy to stop messing with my trades.” And they were like “thank you, computer, this is an incredible opportunity for radical transparency and ideas meritocracy,” I guess.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 When UBS Group AG acquired Credit Suisse Group AG in March, Credit Suisse’s additional tier 1 capital securities were   written down to zero. Holders of the AT1s lost all their money, but more importantly they were offended. Those AT1s were not supposed to be written down to zero, they argued: While their terms said they would go to zero in certain sorts of crisis at Credit Suisse, what actually happened was not the exact sort of crisis that was supposed to trigger them. Also Credit Suisse’s common shareholders got paid (a little) in the deal, and the AT1s were supposed to be senior to the common, so what the heck?
 I think it is fair to say that this is the most offensive thing that has ever happened to investors in the AT1 market, and those investors swore eternal vendetta on UBS and Credit Suisse and Switzerland generally, and I was like “lol nobody on earth has a shorter memory than the market for weird bank credit instruments,” and   here’s Bloomberg News today:
@@ -188,11 +188,11 @@ Good for them. To be fair, the new AT1s convert into common equity when they are
 Laurent Frings, head of credit research at Aegon Asset Management, said the equity conversion mechanism — a likely response to the Credit Suisse drama — was also positive. “In terms of optics and the likelihood of seeing another trigger happening and shareholders getting something versus AT1 holders getting zero, this is definitely better.”
 So, yes, the market does remember March.
 
-  
-    
+
+
       NFT Stuff / AI Stuff
-    
-  
+
+
 
 Sure!
 One of OpenSea’s biggest investors has marked down by 90% its stake in the struggling non-fungible-token marketplace, implying that the former crypto darling is now valued at $1.4 billion or less on paper. Coatue Management, a New York–based hedge and venture fund, slashed the value of its $120 million stake in the company to $13 million as of the second quarter of this year, according to a document viewed by The Information.
@@ -214,63 +214,63 @@ More generally, you could have a regulatory model that is like:
 
 Is US crypto regulation like that? Yes? Is AI-regulation-by-copyright like that? No, I am just being silly, but what if it was?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How a Banking Capital of the World Botched Its Own  Banking Rules. Private Equity   Showers Junior Staff With Rewards to Retain Talent. London Quant Rivals Trade Accusations Over Star Trader and Strategies.  Signature Loan Sale Likely to Lower Commercial-Property Values. China  Deal Slump Sends Bankers’ Fees to Decade Low. Bond Selloff at Another  China Property Giant Spurs Authorities to Action. US Calls for New Limits to   Wall Street Bank Backstop After March Crisis. SoftBank paid $1.5bn to  WeWork lenders including Goldman Sachs days before bankruptcy. Molly White on  crypto exchange token death spirals. Endangered   FX Funds Double Their Returns Thanks to Carry Trades. US   30-Year Mortgage Rate Tumbles by Most in More Than a Year. Your Next  Airbnb Host Could Be a Private-Equity Firm. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I mean, it’s not *strictly* necessary; there are various cash-settled futures contracts that work fine. But those need to reference some price of actually delivered commodity, and if there is not some central exchange that trades spot abstract commodity all day, you will have to make some choices about how to define the reference price. A cash-settled Bitcoin futures contract can settle based on some index of Bitcoin prices that is like “the average of the last trade price on these three exchanges at 4 p.m. New York time,” and there will be lots of trades on those exchanges and the index will closely track what people think of as “the” price of Bitcoin. A cash-settled  onion futures contract that settles based on like “the average price of unblemished yellow onions at these five New York area supermarket locations at 4 p.m. New York time” will be more idiosyncratic.
 
 
   [2] Technically there is an intermediate instrument called a “warrant,” essentially a receipt saying that you own the nickel in the warehouse; on expiration of a futures contract the short party is supposed to deliver a warrant to the long party (and then the long party owns the underlying nickel and can, if it wants, take it out).
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -281,46 +281,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjtryb.5im6/0330cab6.gif" alt="" border="0" /></a>

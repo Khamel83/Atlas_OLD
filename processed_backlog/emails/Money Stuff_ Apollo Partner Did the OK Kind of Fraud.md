@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Mohamed Ali Rashid used to be a partner at Apollo Global Management Inc., the big private equity firm. As part of his job, he would fly arou
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Expenses
-    
-  
+
+
 
 Mohamed Ali Rashid used to be a partner at Apollo Global Management Inc., the big private equity firm. As part of his job, he would fly around to visit companies in which he had made, or was considering making, investments on behalf of the private equity funds that Apollo manages. He spent a lot of money on flights, hotels and meals as he evaluated investments and monitored portfolio companies. Naturally he put all of these expenses on his Apollo corporate credit card. That’s why he had the card. He didn’t pay for his flights to monitor portfolio companies.
 Neither, to be clear, did Apollo. Apollo, his firm, turned around and billed those expenses to the funds that it managed for investors or to the portfolio companies that it ran for those funds. Its limited partnership agreements with those funds said that the funds would pay for Apollo’s expenses “arising in connection with [the fund’s] operations and the acquisition, ownership, and maintenance of investments in Portfolio Companies.”
@@ -87,37 +87,37 @@ You can tell in part because the SEC said so in its case against Rashid, quoting
   [5]
  But you can also tell because nobody has sued Apollo for this supposed huge fraud. Rashid improperly billed about $325,000 of fake expenses to Apollo’s clients. For this, the SEC sued him. It also settled with Apollo, for failure to supervise him. But the appeals court here is saying that Apollo “improperly” billed all of its partners’ real travel expenses to its funds for years. If that were true … I mean … wouldn’t the SEC have sued it for that? Surely all of Apollo’s actual travel expenses were several orders of magnitude greater than one partner’s fake travel expenses. Why go after $325,000 of improperly billed fake expenses when there are many millions of dollars of improperly billed real expenses? Doesn’t seem right.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       TikTok 
-    
-  
+
+
 
 Isn’t this a bad look?
 
@@ -133,11 +133,11 @@ But in fact, the opposite often seems to be true. Government officials also hav
 But there are sometimes more direct incentives. Federal prosecutors regularly reach settlements with big companies that require those companies to hire expensive compliance monitors; those lucrative monitoring jobs tend to go to former federal prosecutors. The SEC has a whistleblower program that pays big awards to whistleblowers and their lawyers; the lawyers who are best able to navigate that program and get the awards are ones who used to work at the SEC. Being tough while in office can create opportunities for your predecessors, and set a precedent for your successors to create opportunities for you.
 A regular policy of the US government forcing foreign companies to sell assets to Americans with impeccable national-security credentials would create interesting incentives, is what I am saying here. 
 
-  
-    
+
+
       Nigeria vs. crypto
-    
-  
+
+
 
 Probably the strongest case for crypto is that cryptocurrencies meet a real need for people who live in countries with unstable currencies and weak financial and legal institutions. If keeping your money in the local bank means that your money might lose all its value because of inflation, or be seized by the government, then you will want to keep your money somewhere else. Keeping it on the blockchain — in Bitcoin, in other cryptocurrencies, or in stablecoins pegged to the US dollar — arguably solves both your problems. The government probably can’t take your money if it’s on the blockchain, and it can’t inflate away the value of your money if it’s in Bitcoin or dollars. There are other ways to store your money that are stable and hard to find — diamonds, etc. — but crypto is probably easier to hide, transfer, sell and spend than most of them.
 On the other hand, there is no particular reason for your government to like this. For one thing, it is rude to the government to say “the institutions and currency here are bad so I’m putting my money in Bitcoin.” For another thing, if the government wants to seize your money or whatever, it will be annoyed if you make that difficult: You may see “weak financial and legal institutions,” but the government sees “legitimate enforcement of our laws against improper currency transactions.” Also, though, if everyone decides to get out of the local banks and into Bitcoin, that is going to create problems; it will drive down the local currency and make the banks weaker.
@@ -161,11 +161,11 @@ The request is at the centre of negotiations between Binance and Nigeria, which 
 
 In some broad philosophical sense, the appeal of crypto is that the government can’t just ask a bank for your account information and then seize your account. But in a practical sense that’s not always entirely true.
 
-  
-    
+
+
       Short sellers
-    
-  
+
+
 
 There are not a ton of anthologies of business literature, by which I mean, not journalists writing about business, but businesspeople writing as part of their business. There are some. Jeff Gramm has a book called Dear Chairman, a history and analysis of shareholder activist fights; there is an appendix reprinting the original letters that the activists sent in these fights. Sriram Krishnan has an online collection of influential business memos. Probably others.
 But if I ran, like, an edgy poetry press, I’d want to bring out an anthology of writings by chief executive officers of public companies who are mad about short sellers. There is probably no more gonzo, outrageous and imaginative genre of writing in business, or possibly in literature. I think the category of “CEOs mad about short sellers” is probably broad enough to encompass the absolute spy thriller that former Overstock.com CEO Patrick Byrne wrote at the end of his tenure in 2019, including his tremendous press release titled “Overstock.com CEO Comments on Deep State, Withholds Further Comment” and his blog post threatening the SEC that “if you call ‘Bazoomba!’ for [short sellers] now, I am going to use this website to vaporize you with information I give the public.” It would also include Elon Musk’s performance-art piece where he released a line of Tesla-branded red satin short shorts, and I suppose also his tweets about taking Tesla private. And then there’s this!
@@ -177,15 +177,15 @@ That’s from a CNBC appearance this week by Alex Karp, the CEO of Palantir Tec
   [6]
  If you are a CEO and you take any time out of your busy day to concoct elaborate threats against short sellers, that seems like a bad signal. But a lot of CEOs just can’t help themselves.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Women Aren’t Getting the Big Jobs at Goldman Sachs, and They’re Heading for the Exits. Fed Says Basis Trade ‘Significantly’ Smaller Than Estimated. ‘Rebate Aggregators’ Are Cashing in on Home Electrification. Deutsche Bank cuts cash bonuses by up to 50% over Postbank IT fiasco. BNP Paribas Cuts Investment Banking Bonuses on Weak Trading. Hot New Bitcoin Funds Are Still Waiting for Buy-In from Financial Advisers. How a $14.1 Billion Takeover of U.S. Steel by a Japanese Rival Put Biden on Edge. Saudi Wealth Fund Eyes Bond Sales, IPOs to Finance Spending Ambitions. Munich prosecutor opens money laundering probe into Signa. Trump Has Raised Billionaire John Paulson as Potential Treasury Pick. Adam Neumann’s Flow Plans Apartments, Offices in Downtown Miami. Google Is Trying to Reduce Its Food Waste Without Irritating Employees. “When I sit down when I try to do deep work, like I kind of have a ritual now where I put on some binaural beats from Spotify, I’ll put a Zyn in and then, you know, I’ll make sure that I have my list of stuff I need to do.” Imperial County supervisor candidate told people she was offered $500,000 not to run.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This quote, and many of the details about how Rashid’s expense reports worked, are from the US Securities and Exchange Commission’s 2017 complaint against Rashid, which quotes the limited partnership agreement for Apollo Natural Resources Partners, LP, a fund that Rashid advised.
 
 
@@ -204,48 +204,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] I am not saying that the list of banks has more than zero names on it, but I think the argument is closer there; banks, more than most nonfinancial businesses, really are more fragile and subject to market pressures. Anyway, I’m sure I will get a lot of emails and, after today, my list of nonfinancial companies will have, like, four names on it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -256,46 +256,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cknf0o.5jcv/e34c8eab.gif" alt="" border="0" /></a>

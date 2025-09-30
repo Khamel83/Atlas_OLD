@@ -52,7 +52,7 @@ THE PUCK PRIVATE CONVERSATION
 Puck launched The Private Conversation, powered by Orchestra, to
 collect proprietary data from our insightful and connected audience illuminating their views about the current business environment. Please take a minute to fill out a survey ( https://puckprivateconversations.typeform.com/to/kPm9l8LK?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). We’ll publish an assessment of the results in Q1.
 
- 
+
 
 FASHION
 FASHION
@@ -65,7 +65,7 @@ and…
 Lauren, Rachel Strugatz, and Sarah Shapiro hypothesize ( https://puck.news/mailbag-blake-lively-beautyology-lvmhusa-fantasies-more/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 about the future of Blake Lively’s haircare line, Glossier’s exit, and more.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -73,7 +73,7 @@ ART MARKET
 Marion Maneker
 wades ( https://puck.news/sothebys-abandons-new-fee-structure-after-lackluster-fall/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) deeper into the Sotheby’s disaster.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -86,7 +86,7 @@ and…
 Eriq Gardner ponders the fate of the widening legal fracas and
 previews ( https://puck.news/blake-lively-vs-justin-baldoni-vs-stephanie-jones-the-next-steps/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Murdoch-Prince Harry slugfest.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -94,7 +94,7 @@ WALL STREET
 Bill Cohan
 plays ( https://puck.news/will-the-first-half-of-2025-be-a-cable-m-and-a-bonanza/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) out the Comcast spinoff scenarios and maps Zaz’s endgame options.
 
- 
+
 
 SILICON VALLEY
 SILICON VALLEY
@@ -102,7 +102,7 @@ SILICON VALLEY
 Baratunde Thurston
 envisions ( https://puck.news/how-ai-will-or-wont-change-wall-street/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) A.I.’s impact on the financial services industry, presented by Meta.
 
- 
+
 
 MEDIA
 MEDIA
@@ -114,7 +114,7 @@ and…
 
 John Ourand scoops ( https://puck.news/is-netflix-finally-committed-to-live-sports/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a Netflix bidding war surprise.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -127,7 +127,7 @@ and…
 Tara Palmeri gets an overview ( https://puck.news/trumps-day-one-punch-list/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of Trump Unitary Executive
 Theory.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -167,7 +167,7 @@ The Powers That Be
 Peter and I
 consider ( https://puck.news/podcast_episode/media-monday-abc-news-settlement-chatter-nfl-vs-cfb/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the NFL’s war on Christmas on The Powers that Be.
 
- 
+
 
 Biden
 Time
@@ -218,7 +218,7 @@ But if you only have time to read one piece this weekend, I’d suggest Eriq
 Gardner’s truly excellent foreshadowing of a seismic legal battle that threatens to reset the culture. In Murdoch v. Prince Harry: “They’re Going to Try to Destroy Him,” ( https://puck.news/murdoch-v-prince-harry-theyre-going-to-try-to-destroy-him/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Eriq wades into the nuanced drama playing out between the media mogul’s U.K. tabloid dynasty, the palace, and the exiled prince of Montecito. The stakes
 are enormous, financially, but also in terms of accountability. It’s one of the great stories of our time, and precisely what you should always expect from Puck.
 
- 
+
 
 Happy New Year,
 
@@ -238,6 +238,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUDYOP4R336Djo4pkb6q4=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%2812%2F28%2F24%29&utm_content=The+Backstory+-+SUBSCRIBERS+%2812%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

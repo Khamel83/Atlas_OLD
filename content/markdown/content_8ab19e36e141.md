@@ -43,7 +43,7 @@
             eventTrackingUrl: 'http://web.archive.org/web/20150327040316/http://result.gq.com',
             eventTrackingEnv: 'PROD'
         });
-        
+
     </script>
 
 <script type="text/javascript" src="/web/20150327040316js_/http://www.gq.com/js/gq_redesign.js"></script>
@@ -114,10 +114,10 @@ CN.dart.init({site:'gq.dart', zone: 'news-politics;', kws:[ "articlev2","devin-f
 <div class="display-date">
 
 <!-- MMMM yyyy -->
-          
-          
-              
-              
+
+
+
+
               November 2008
 
 </div>
@@ -188,7 +188,7 @@ CN.dart.init({site:'gq.dart', zone: 'news-politics;', kws:[ "articlev2","devin-f
 
 <div id="statsHolder">
     <script type="text/javascript">
-        
+
     </script>
     <script type="text/javascript">
         <!--

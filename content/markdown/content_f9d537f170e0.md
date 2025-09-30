@@ -15,40 +15,40 @@
             <title>Tinder Has Microtransactions Now</title>
                 <meta name="description" content="Match has added Tinder Coins to Tinder, in-app purchases that can be used to increase your odds of finding a match."/>
               <meta name="robots" content="max-image-preview:large"/>
-              
-            
+
+
   <meta property="og:title" content="Even Tinder Has Microtransactions Now"/>
   <meta property="og:type" content="article"/>
 
 <meta property="og:image" content="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?w=1600&amp;h=900&amp;fit=crop"/>
     <meta property="og:image:width" content="1600"/>
     <meta property="og:image:height" content="900"/>
-      
+
                     <meta property="og:url" content="https://www.thegamer.com/tinder-microtransactions-coins/"/>
-            
+
   <meta property="og:locale" content="en_US"/>
   <meta property="og:description" content="Tinder Coins can be spent on Boost and Super Like to increase your odds of finding a match."/>
       <meta property="og:site_name" content="TheGamer"/>
-  
+
             <meta property="article:published_time" content="2021-11-15T18:35:42Z"/>
               <meta property="article:modified_time" content="2021-11-15T18:35:42Z"/>
                     <meta property="article:section" content="Game News"/>
               <meta property="article:author" content="Josh Coulson"/>
 
 <meta property="article:publisher" content="https://www.facebook.com/thegamercom/"/>
-  
+
           <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@thegamerwebsite"/>
     <meta name="twitter:title" content="Even Tinder Has Microtransactions Now"/>
     <meta name="twitter:description" content="Tinder Coins can be spent on Boost and Super Like to increase your odds of finding a match."/>
                 <meta name="twitter:creator" content="@BristolBeadz"/>
-      
+
           <meta name="twitter:image" content="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=70&fit=crop&w=1200&h=628&dpr=1"/>
                   <meta property="fb:app_id" content="1873947149531023"/>
 
 <link rel="preload" href="https://images.valnetcdn.com/sharedimages/img-lcp.svg" as="image" fetchpriority="low">
-    
-    
+
+
             <script>window.isInAppBrowser =  false  </script>
 
 <link rel="preconnect" href="https://www.google-analytics.com">
@@ -114,8 +114,8 @@
                                                                                                                 "https://opencritic.com/critic/8379/josh-coulson",
                                                                                                                 "https://www.thegamer.com/profile/UH004388"
                                                                             ]
-                                    }                        
-            
+                                    }
+
         ],
         "publisher": {
             "@type": "Organization",
@@ -135,7 +135,7 @@
                         "https://open.spotify.com/show/4NFi3DgWmTCDeFXYPvEka4",
                         "https://flipboard.com/@TheGamer"
                     ],
-            
+
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://static0.thegamerimages.com/assets/images/tg-amp-logo.png",
@@ -145,11 +145,11 @@
         },
 
 "articleSection":["Game News","Microtransactions"],
-        
+
                 "description": "Match has added Tinder Coins to Tinder, in-app purchases that can be used to increase your odds of finding a match."
                 ,"isAccessibleForFree": true,
         "hasPart":[{"@type":"WebPageElement","isAccessibleForFree":true,"cssSelector":".article-body"}]
-        
+
     }
 </script>
 
@@ -162,10 +162,10 @@
                   href="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=943&amp;h=530&amp;dpr=1.5" fetchpriority="high"  as="image"><link rel="preload"
                   media="(min-width: 1024px)"
                   href="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=1100&amp;h=618&amp;dpr=1.5" fetchpriority="high"  as="image">
-                        
-    
-        
-            
+
+
+
+
                 <link rel="preload" href="https://static0.thegamerimages.com/assets/fonts/rajdhani/rajdhani-regular.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
     <link rel="preload" href="https://static0.thegamerimages.com/assets/fonts/rajdhani/rajdhani-bold.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
     <link rel="preload" href="https://static0.thegamerimages.com/assets/fonts/roboto/roboto-regular.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
@@ -233,14 +233,14 @@
 <script>window.isInternalTraffic = false</script>
 
 <script>window.STICKY_FEATURED_VIDEO = 1</script>
-    
+
     <script>
         // GLOBAL JS VARIABLES FOR THE PAGE
-        
+
                                 var VALNET_GLOBAL_FBAPPID = "1873947149531023";
-        
+
         // GLOBAL JS VARIABLES FOR GOOGLE ANALYTICS
-        
+
             var VALNET_GLOBAL_POSTID = "2012107";
             var VALNET_GLOBAL_AUTHOR = "joshcoulson";
             var VALNET_GLOBAL_CHANNEL = "Microtransactions";
@@ -320,7 +320,7 @@
 
 <script>
                 window.vnPromoAsyncFlags = `eyJtdXJhbCI6IlwvcHJvbW9cL25leHRcL211cmFsXC8iLCJtdXJhbENvbmZpZyI6ImV5SmpkWEp5Wlc1MFJHOXRZV2x1SWpvaWQzZDNMblJvWldkaGJXVnlMbU52YlNJc0ltTnZiblpsY25SbFpDSTZleUpqWVhSbFoyOXllU0k2SWxCeWIyMXZkR2x2YmlJc0ltNWhiV1VpT2lKQlpDQkNiRzlqYTJWeUlFMWxjM05oWjJVaUxDSjJZV3gxWlNJNklrTnZiblpsY25SbFpDQlFZV2RsZG1sbGR5SjlMQ0pqYjI1MlpYSjBaV1JWYzJWeUlqcDdJbU5oZEdWbmIzSjVJam9pVUhKdmJXOTBhVzl1SWl3aWJtRnRaU0k2SWtGa0lFSnNiMk5yWlhJZ1RXVnpjMkZuWlNJc0luWmhiSFZsSWpvaVEyOXVkbVZ5ZEdWa0lGVnpaWElpZlgwPSJ9`;
-            </script>        
+            </script>
                     <script>
                             window.newsletterPreferencesPopupScriptLocation = "https://static0.thegamerimages.com/assets/newsletter-preferences-popup.f2350e53.js";
                 window.valnetLoginScriptLocation = "https://static0.thegamerimages.com/assets/valnet-login.6dcad321.js";
@@ -328,17 +328,17 @@
                                                                 window.articleScriptLocation = "https://static0.thegamerimages.com/assets/valnet-footer-article.c643e435.js";
                                         window.articleCommentsScriptLocation = "https://static0.thegamerimages.com/assets/article-comments.be6fe4d9.js";
                                                                 window.footerScriptLocation = "https://static0.thegamerimages.com/assets/valnet-footer.eb31d8a9.js";
-                                                            
+
             window.workerScriptLocation = "https://static0.thegamerimages.com/assets/worker.378c6856.js";
 
 </script>
             <script src="https://static0.thegamerimages.com/assets/worker-caller.a4766b5d.js" defer fetchpriority="high"></script>
-            
+
         <script src="https://static0.thegamerimages.com/assets/splide.min.js" async></script>
-        
+
     <script>
                     var isPreview =  false
-                
+
         window.articlePermalink = "/tinder-microtransactions-coins/";
         window.articleId = "2012107";
         window.articleIdEmaki = "2012107";
@@ -352,8 +352,8 @@
 <script type="text/javascript" src="https://tru.am/scripts/custom/valnet.js" defer></script>
 
 <!-- Google Analytics v4 -->
-        
-        
+
+
                             <script defer src="https://www.googletagmanager.com/gtag/js?id=G-PNTRRB324P"></script>
         <script>
             function getCookiesStartingWith(cname) {
@@ -393,18 +393,18 @@ gtag('config', 'G-PNTRRB324P', ga4ParamsObject);
 
 <!-- sentinel header -->
         <script>
-                                                
-            
-            
-                        
-            
+
+
+
+
+
             let mode_A = null;
 
 sessionStorage.setItem('sn_ssTr', 0);
 
 </script>
-        
-        
+
+
         <script>
             window.sentinelData = window.sentinelData || [];
             function sentinelTrack(){sentinelData.push(arguments)};
@@ -453,11 +453,11 @@ sentinelSetup = {
         window.arrayOfEmbedStyles = [];
         window.arrayOfGalleries = {};
     </script>
-    
+
     <script> window.youtubeEmbedCodes = [] </script>
 
 <link rel="stylesheet" href="https://static0.thegamerimages.com/assets/article-regular.32556fb4.css">
-                                                                                 
+
     <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -466,7 +466,7 @@ sentinelSetup = {
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 </script>
 <!-- End Google Analytics -->
-            
+
             <script type="text/javascript">
         /*!
             Waypoints - 4.0.1
@@ -570,7 +570,7 @@ document.head.appendChild(newScript);
 </script>
 
 <script>  window.paypalClientID = "AWrMHcGU0RN46X5fMGOAQarESxoqlS_swAzbtrutEpvYF-U_EBIDuokZxgk7jk6ei2rPYpUG2VKCNIkY"; </script>
-    
+
         <!-- No AdsNinja v10 Client! -->
 
 <div id="body-anchor"></div>
@@ -588,7 +588,7 @@ document.head.appendChild(newScript);
                 <a href="/" rel="home" class="header-logo">
                     <!-- Full Logo Picture Element -->
                     <picture class="header-full-logo">
-                        
+
                             <source srcset="https://static0.thegamerimages.com/assets/images/tg-logo-full-colored-light.svg?v=3.0" media="(prefers-color-scheme: dark)">
                             <img src="https://static0.thegamerimages.com/assets/images/tg-logo-full-colored-light.svg?v=3.0"
                                 alt="TheGamer logo"
@@ -619,9 +619,9 @@ document.head.appendChild(newScript);
                             <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
                             <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
                         </div>
-                                    
-                
-                                                                                                        
+
+
+
             </div>
 
 </div>
@@ -636,17 +636,17 @@ document.head.appendChild(newScript);
 <label data-stnl='{"category": "Click Interactions","name": "Website Header", "action": "Site Search Click"}' class="js-search-focus css-menu--checkbox-wrapper css-menu--toggle" for="search-menu">
                 <span class="menu-icon topbar-icon icon i-search-menu"></span>
             </label>
-        
+
         <label class="menu-icon topbar-icon icon i-close-menu css-menu--toggle" for="side_menu"><span>Close</span></label>
     </div>
 
 <nav id="menu-site" class="side-navigation-menu" role="navigation">
 
 <ul class="side-navigation-list" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        
+
                                         <li class="sidenav-section">
                     <ul class="side-navigation-list">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/category/game-guides/"
@@ -668,7 +668,7 @@ document.head.appendChild(newScript);
                 </li>
                                                             <li class="sidenav-section">
                     <ul class="side-navigation-list">
-                            
+
                                         <li itemprop="name"
                     class="w-sidenav-subnav sidenav-elements standard">
                                                                 <a href="/aaa-games/"
@@ -679,7 +679,7 @@ document.head.appendChild(newScript);
                         <label class="menu-icon sidenav-icon icon subnav-icon css-menu-toggle" for="navItems-Triple-A Games"><span>Submenu</span></label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/aaa-games/features/"
@@ -717,7 +717,7 @@ document.head.appendChild(newScript);
                         <label class="menu-icon sidenav-icon icon subnav-icon css-menu-toggle" for="navItems-Live-Service Games"><span>Submenu</span></label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/live-service-games/features/"
@@ -755,7 +755,7 @@ document.head.appendChild(newScript);
                         <label class="menu-icon sidenav-icon icon subnav-icon css-menu-toggle" for="navItems-Indie Games"><span>Submenu</span></label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/indie-games/features/"
@@ -793,7 +793,7 @@ document.head.appendChild(newScript);
                         <label class="menu-icon sidenav-icon icon subnav-icon css-menu-toggle" for="navItems-Streaming"><span>Submenu</span></label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/streaming/features/"
@@ -823,7 +823,7 @@ document.head.appendChild(newScript);
                         <label class="menu-icon sidenav-icon icon subnav-icon css-menu-toggle" for="navItems-Movies &amp; Shows"><span>Submenu</span></label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/movies-tv-anime/features/"
@@ -872,7 +872,7 @@ document.head.appendChild(newScript);
             </li>
                                                 <li class="sidenav-section">
                     <ul class="side-navigation-list">
-                            
+
                                         <li itemprop="name"
                     class="w-sidenav-subnav sidenav-elements standard">
                                                                 <input type="checkbox" id="navItems-More" name="navItems-More" class="css-menu--checkbox">
@@ -882,7 +882,7 @@ document.head.appendChild(newScript);
                         </label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/category/tg-originals/"
@@ -937,13 +937,13 @@ document.head.appendChild(newScript);
                         <span class="menu-icon feature-icon icon i-user"></span>
                         <a href="#" id="login-button-sidemenu" class="sidenav-link standard js-subscription-link on-load-show"><span>Sign in</span></a>
                     </li>
-                            
+
                             <li class="sidenav-elements">
                     <span class="menu-icon feature-icon icon i-menu-newsletter"></span>
                     <a href="/page/newsletter/" itemprop="url" class="sidenav-link standard"><span>Newsletter</span></a>
                 </li>
-            
-                                                                                
+
+
         </ul>
 
 <div class="w-side-navigation-social">
@@ -1022,9 +1022,9 @@ document.head.appendChild(newScript);
         <div data-is-action-bar-dynamic-section="true" class="w-dynamic-action">
 
 <div>
-                                                                                                                            
-                                                                                
-        
+
+
+
             <div
             data-id="2012107"
             data-title="Even Tinder Has Microtransactions Now"
@@ -1076,9 +1076,9 @@ document.head.appendChild(newScript);
     data-like-count="0"
 
 data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Action%20Bar%22%2C%22action%22%3A%22Like%20Article%22%7D"
-    
+
             data-id="2012107"
-    
+
             data-value="0"
         data-is-like-article-button="true" >
 
@@ -1087,10 +1087,10 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                             Like
                                 </div>
     </button>
-            
-                            
-                                                                    
-                            
+
+
+
+
             <div data-is-action-bar-more-action="true" class="w-more-action is-hidden">
                 <div title="More Action" data-is-action-bar-more-action-button="true" class="btn-fab action-btn circle small no-label">
                     <div class="main-icon icon i-options" style="padding-top: 2px"></div>
@@ -1123,7 +1123,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                     <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
                     <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
                 </div>
-                    
+
     </div>
 </div>
      </div>
@@ -1207,7 +1207,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
 <article class="w-article widget   article  layout-rich">
 
 <header
-                        
+
             class="article-header   ">
 
 <script type="application/ld+json">
@@ -1244,24 +1244,24 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                                             <img src="https://static0.thegamerimages.com/wordpress%2Fwp-content%2Fauthors%2F66ffc481cb3b6-Josh%20Coulson%20-%20Edited.jpg?fit=crop&amp;w=90&amp;h=90" alt="4" style="display:block;height:auto;max-width:100%;" loading="lazy" decoding="async"/>
                                     </div>
                     </div>
-    
+
     <div class="article-meta">
                     <div class="w-author">
                 <div class="w-author-name">
-                    
+
                                                     <span class="meta_txt">By&nbsp;</span>
-                        
+
                                                     <a data-author-nice-name="joshcoulson" class="meta_txt article-author" href="/author/joshcoulson/">Josh Coulson</a>
-                        
+
                                     </div>
             </div>
-        
+
                                                                             <div class="meta_txt article-date">
                     <time datetime="2021-11-15T18:35:00Z"><span class="is-mobile-hidden">Published</span> Nov 15, 2021</time>
                 </div>
-                    
-                
-        
+
+
+
     </div>
 
 </div>
@@ -1311,7 +1311,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                                 </span>
             </div>
         </div>
-                    
+
 <!-- div class="option-btn btn-share" id="sharingButtonPopup">
     <span class="icon i-share"></span>
     <span class="text">Share</span>
@@ -1370,9 +1370,9 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
         data-like-count="0"
 
 data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Article%20Featured%20Section%22%2C%22action%22%3A%22Like%20Article%22%7D"
-        
+
                     data-id="2012107"
-        
+
                     data-value="0"
                 data-is-like-article-button="true" >
 
@@ -1392,12 +1392,12 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
             <div class="user-box-title">Sign in to your <span class="brand-color">TheGamer</span> account</div>
             <div class="icon i-user-full"></div>
         </a>
-                        
-                                        
-                                            
-                                                
-                                                                                    
-            
+
+
+
+
+
+
     <div class="heading_image responsive-img img-size-heading-image-full-width   expandable "
          data-img-url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg"
                      data-modal-id="single-image-modal"
@@ -1408,51 +1408,51 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
 
 <figure>
     <picture>
-                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=480&amp;h=270&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=480&amp;h=270&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=767&amp;h=431&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=767&amp;h=431&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=943&amp;h=530&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=943&amp;h=530&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(min-width: 1024px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=1100&amp;h=618&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-(1).jpg?q=50&amp;fit=crop&amp;w=1100&amp;h=618&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                
+
+
+
+
+
                                                                                 <img
                                                                                                                                                                     width="1600"
                         height="900"
@@ -1485,41 +1485,41 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
 
 <figure>
     <picture>
-                                                                                                                                                                            
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=500&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=500&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=800&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=800&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=825&amp;dpr=1.5"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/11/tinder-coins-(1).jpg?q=50&amp;fit=crop&amp;w=825&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <img
                                                                 loading="lazy"
                         decoding="async"
@@ -1534,7 +1534,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
 </div>
     </div>
 <p>Match, Tinder&#39;s parent company, outlined the rollout of Tinder Coins during its latest earnings call earlier this month. It also discussed plans for a datings metaverse, a social media and video gaming buzzword right now. This comes after <a href="https://www.thegamer.com/facebook-meta-username-instagram/">Facebook changed its own name to Meta</a> and Mark Zuckerberg outlined his company&#39;s goals in terms of a Facebook metaverse.</p>    <p>While meeting a potential partner virtually before seeing them in person might actually be a good idea, especially in the current climate, it&#39;s hard to imagine anyone will like the idea of their dating app having microtransactions. Well, apart from those at Match making money from it. The word is usually met with a sign and an eye roll in the gaming world, and now the dating world can share that sentiment.</p>    <p>Source: <a href="https://techcrunch.com/2021/11/03/match-group-details-plans-for-a-dating-metaverse-tinders-virtual-goods-based-economy/?guce_referrer=aHR0cHM6Ly90LmNvLw&amp;guce_referrer_sig=AQAAAKfaO2WSINAtxiwGgV5UNIIamWwZyXjF5PuSFCd1ZI9Rh-EWXyv-EP35YIzCPqvcHrCbi4w5LT5NGNRUMj59oak6Iw8lKmSKnVczjP1BljwvueQoVXYxIawvvoo27czJED8Qagat1J3wXu0_CQoQ_n9-dSurdO01jQd-2YSIeBDD" rel="noopener noreferrer" target="_blank">TechCrunch</a></p>    <p><span class="next-single">NEXT: <a href="https://www.thegamer.com/pokemon-go-waiting-to-catch-mew/">Why I&rsquo;m Waiting To Catch Mew In Pokemon Go</a></span></p>    </div><div id="article-waypoint"></div></section>
-    
+
                 <div class="article-options">
 
 <!-- No AdsNinja v10 Client! -->
@@ -1554,11 +1554,11 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
                 </li>
                         </ul>
 </div>
-            
+
                 <div id="threads" class="w-sharing-bottom">
-                                                                                                                    
-                                
-            
+
+
+
                         <div class="w-follow-btn">
             <div
                 data-id="2012107"
@@ -1611,7 +1611,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
         data-like-count="0"
 
 data-id="2012107"
-        
+
                     data-value="0"
                 data-is-like-article-button="true" >
 
@@ -1624,75 +1624,75 @@ data-id="2012107"
 
 <!-- Share module with individual buttons -->
 <div class="sharing-bottom" style="display: none; visibility: hidden">
-                
-                                    
+
+
                                                     <a class="sharing-btn btn-facebook" target="_blank"
                             href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F%2F&amp;src=sdkpreparse">
                                 <span class="icon i-facebook"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-x" target="_blank"
                             href="https://twitter.com/intent/tweet?text=Even%20Tinder%20Has%20Microtransactions%20Now&url=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F">
                                 <span class="icon i-x"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-whatsapp" target="_blank"
                             href="https://web.whatsapp.com/send?text=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F">
                                 <span class="icon i-whatsapp"></span>
                             </a>
-                        
-                                                                
+
+
                             <div id="js-social-sharing-bottom" class="w-wrap-dropdown">
                     <a class="sharing-btn btn-show-more" target="_blank" style="cursor: pointer">
                         <span class="icon i-plus"></span>
                     </a>
                     <div id="js-wrap-dropdown-remaining-socials" class="wrap-dropdown">
-                                                
+
                                                     <a class="sharing-btn btn-linkedin" target="_blank"
                             href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F&title=Even%20Tinder%20Has%20Microtransactions%20Now&source=www.thegamer.com&summary=Tinder%20Coins%20can%20be%20spent%20on%20Boost%20and%20Super%20Like%20to%20increase%20your%20odds%20of%20finding%20a%20match.">
                                 <span class="icon i-linkedin"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-bluesky" target="_blank"
                                href="https://bsky.app/intent/compose?text=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F">
                                 <span class="icon i-bluesky"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-reddit" target="_blank"
                             href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F">
                                 <span class="icon i-reddit"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-flipboard" target="_blank"
                             href="http://share.flipboard.com/bookmarklet/popout?v=2&title=Even%20Tinder%20Has%20Microtransactions%20Now&url=https%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F&utm_campaign=tools&utm_medium=article-share&utm_source=www.thegamer.com">
                                 <span class="icon i-flipboard"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <div class="copy-link-button">
                                 <a class="sharing-btn btn-copy-url" href="javascript:;" data-url="https://www.thegamer.com/tinder-microtransactions-coins/">
                                     <span class="icon i-copy-url" data-url="https://www.thegamer.com/tinder-microtransactions-coins/"></span>
                                 </a>
                             </div>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-mail"
                             href="mailto:?Subject=Even Tinder Has Microtransactions Now&Body=Check%20this%20out%21%0Ahttps%3A%2F%2Fwww.thegamer.com%2Ftinder-microtransactions-coins%2F">
                                 <span class="icon i-mail-1"></span>
                             </a>
-                        
+
                                                                             </div>
     </div>
     </div>
@@ -1750,7 +1750,7 @@ data-id="2012107"
 </style>
 
 </div>
-        
+
         <div id="single-image-modal" class="gallery-lightbox" style="display: none">
             <button class="lightbox__exit-btn icon i-close"><span class="txt">Close</span></button>
             <div class="lightbox">
@@ -1772,7 +1772,7 @@ data-id="2012107"
         window.allowNewComments  = true
         window.sortOrder = 'ASC';
                     window.sortOrder = 'RECOMMENDED';
-        
+
             </script>
 
 <div class="footer-recommended-section">
@@ -1780,31 +1780,31 @@ data-id="2012107"
 <div class='footer-recommended-feed'>
     <div class="footer-section-title icon i-fire">Recommended</div>
     <div class="w-hub-widgets widget__horizontal-list-full">
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="2129890">
-    <a class="dc-img-link" 
-       href="/dragonkin-the-banished-gamescom-preview/" 
+    <a class="dc-img-link"
+       href="/dragonkin-the-banished-gamescom-preview/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/a-stone-dragon-in-dragonkin-the-banished.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/a-stone-dragon-in-dragonkin-the-banished.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1819,14 +1819,14 @@ data-id="2012107"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-14T17:00:18Z">1 day ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/dragonkin-the-banished-gamescom-preview/"
                 target="_self"
@@ -1839,31 +1839,31 @@ data-id="2012107"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="2129700">
-    <a class="dc-img-link" 
-       href="/hollow-knight-silksong-get-good-patient-speed-fast/" 
+    <a class="dc-img-link"
+       href="/hollow-knight-silksong-get-good-patient-speed-fast/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/hornet-from-silksong-inside-a-clock.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/hornet-from-silksong-inside-a-clock.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1880,14 +1880,14 @@ data-id="2012107"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-14T16:00:17Z">1 day ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/hollow-knight-silksong-get-good-patient-speed-fast/"
                 target="_self"
@@ -1900,31 +1900,31 @@ data-id="2012107"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="2129996">
-    <a class="dc-img-link" 
-       href="/demon-slayer-infinity-castle-breaks-pokemon-first-movie-anime-box-office-record/" 
+    <a class="dc-img-link"
+       href="/demon-slayer-infinity-castle-breaks-pokemon-first-movie-anime-box-office-record/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/mixcollage-15-sep-2025-11-32-am-3963.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/mixcollage-15-sep-2025-11-32-am-3963.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1941,14 +1941,14 @@ data-id="2012107"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-15T10:56:07Z">11 hours ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/demon-slayer-infinity-castle-breaks-pokemon-first-movie-anime-box-office-record/"
                 target="_self"
@@ -1961,31 +1961,31 @@ data-id="2012107"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="2129897">
-    <a class="dc-img-link" 
-       href="/another-pint-preview-rpg-pub-management-simulator-indie-charm/" 
+    <a class="dc-img-link"
+       href="/another-pint-preview-rpg-pub-management-simulator-indie-charm/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/another-pint.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/another-pint.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -2002,14 +2002,14 @@ data-id="2012107"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-14T14:00:17Z">1 day ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/another-pint-preview-rpg-pub-management-simulator-indie-charm/"
                 target="_self"
@@ -2024,17 +2024,17 @@ data-id="2012107"
 </div>
             </div>
 </div>
-            
+
                     </div>
-    
-    
+
+
 </footer>
 
 <aside id="secondary" class="sidebar adsninja-rail-container" role="complementary" data-tab="sidebar">
 
 <article class="sidebar-sticky">
-        
-                    
+
+
     <div class="sidebar-tab" data-is-tab-container="true" data-active-tab="trendingNow" >
         <div class="section-header tabs-header-alt">
             <button class="section-title is-active" data-target="trendingNow">Trending Now</button>
@@ -2042,35 +2042,35 @@ data-id="2012107"
         <div class="sidebar-tabs">
             <div class="trending-now" data-tab="trendingNow">
 
-<div class="sentinel-article-sidebarSticky">                            
-                                
-        
-        
-        
-                
-                                                    
-                
-                    
-                        
-    
-    
-                                        
-    
-        
-    
-        
-                
-        
+<div class="sentinel-article-sidebarSticky">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/super-mario-galaxy-switch-collection-sold-out-despite-price/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
@@ -2082,19 +2082,19 @@ data-id="2012107"
                                         data-img-url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/new-project-2025-09-15t101818-512.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/new-project-2025-09-15t101818-512.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                                         />
-                    
+
 			</div>
 
 </div>
 
 </a>
-	            
-        
-        
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/super-mario-galaxy-switch-collection-sold-out-despite-price/" title="Turns Out We&#039;re Okay With $70 After All As Super Mario Galaxy 1+2 Is Already Sold Out At Some Major Retailers"
 												>
 			Turns Out We&#039;re Okay With $70 After All As Super Mario Galaxy 1+2 Is Already Sold Out At Some Major Retailers
@@ -2105,34 +2105,34 @@ data-id="2012107"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/pokemon-legends-z-a-mega-dlc-raichu-unrevealed-stones-speculation/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
@@ -2144,19 +2144,19 @@ data-id="2012107"
                                         data-img-url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/pokemon-legends-z-a-mega-dimensions-trailer-reveal.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/09/pokemon-legends-z-a-mega-dimensions-trailer-reveal.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                                         />
-                    
+
 			</div>
 
 </div>
 
 </a>
-	            
-        
-        
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/pokemon-legends-z-a-mega-dlc-raichu-unrevealed-stones-speculation/" title="Pokemon Fans Are Studying Legends: Z-A&#039;s DLC For Clues About Unrevealed Megas"
 												>
 			Pokemon Fans Are Studying Legends: Z-A&#039;s DLC For Clues About Unrevealed Megas
@@ -2167,34 +2167,34 @@ data-id="2012107"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/borderlands-4-finally-finishes-dunks-watson-side-quest-pre-sequel/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
@@ -2206,19 +2206,19 @@ data-id="2012107"
                                         data-img-url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/mixcollage-30-may-2025-10-34-am-1812.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/mixcollage-30-may-2025-10-34-am-1812.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                                         />
-                    
+
 			</div>
 
 </div>
 
 </a>
-	            
-        
-        
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/borderlands-4-finally-finishes-dunks-watson-side-quest-pre-sequel/" title="Borderlands 4 Finally Finishes A Side Quest That Started All The Way Back In Pre-Sequel"
 												>
 			Borderlands 4 Finally Finishes A Side Quest That Started All The Way Back In Pre-Sequel
@@ -2229,29 +2229,29 @@ data-id="2012107"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 </div>                                                    </div>
                     </div>
     </div>
-    
-        
+
+
                     </article>
                 <!-- No AdsNinja v10 Client! -->
 
@@ -2298,7 +2298,7 @@ data-id="2012107"
                                                     <li class="social-elements"><a class="text  icon i-tiktok" href="https://www.tiktok.com/@thegamerwebsite" target="_blank"></a></li>
                                                     <li class="social-elements"><a class="text  icon i-linkedin" href="https://ca.linkedin.com/company/thegamer" target="_blank"></a></li>
                                             </ul>
-                
+
             </div>
 
 <div class="footer-content-el">
@@ -2349,8 +2349,8 @@ data-id="2012107"
     </div>
 
 </footer>
-            
-        
+
+
         <script> window.isUserVerified = false; </script>
 
 <script type="module">

@@ -167,7 +167,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -232,7 +232,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -261,7 +261,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -303,8 +303,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -358,7 +358,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -372,20 +372,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -470,7 +470,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -484,7 +484,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -492,7 +492,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -500,7 +500,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -508,10 +508,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -525,7 +525,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -602,7 +602,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -610,7 +610,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -618,7 +618,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -626,10 +626,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -643,7 +643,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -676,7 +676,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -691,7 +691,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Weld vs. Helms</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Weld vs. Helms</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -848,14 +848,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="118"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-0@published"
-  
+
 >Bill Weld, the former Republican governor of Massachusetts, wants the Senate to consider his nomination to be U.S. ambassador to Mexico. Jesse Helms, the Republican chairman of the Senate Foreign Relations Committee, wants to stop him. Last week, Weld quit his job to go to Washington to lobby for his cause. Through surrogates, interviews, and press conferences, the two men are waging a war of words. This war isn’t bound by strict rules of logic, but it’s more intellectual than an arm-twisting match. It’s a contest of conceptualization and persuasion. Whichever player successfully frames the questions at stake will capture public opinion and political support, and thereby win. So far, the war has been waged on four fronts:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="75"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-1@published"
-  
+
 ><strong>1.</strong><strong>Drugs vs. “social policy.”</strong> Helms has stuck doggedly to a single issue: drugs. He points out that Weld favors legalizing marijuana for “medical purposes” (which conservatives place on the slippery slope toward complete legalization), favors providing addicts with clean needles (to prevent the spread of AIDS), and that he prosecuted few drug cases as a U.S. attorney. In short, says Helms, Weld is soft on drugs–the last thing we need in an ambassador to Mexico.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -866,7 +866,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="123"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-2@published"
-  
+
 ><span class='clsDropCap'>W</span>eld could reply that he had opposed California’s medical-marijuana initiative because it was too lax, or that Helms is a pusher for tobacco, or that it might be a good idea to stop treating Mexico’s drug problem as a “war.” But Weld hasn’t touched the drug question. How come? One rule of the frame game is to avoid issues on which you’re guaranteed to lose. This isn’t an Ivy League debating society, where you can win by ingeniously defending a difficult position. In politics, you’re in deep trouble as soon as you question the war on drugs. This is particularly true if you’re fighting for a job in the Clinton administration, where insecurity over the drug war runs high. Just ask Joycelyn Elders.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -927,7 +927,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="124"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-3@published"
-  
+
 >Rather than answer Helms’ charge, Weld shifted and broadened the conflict. On July 15, he called a press conference to declare: “Sen. Helms’ opposition has nothing whatsoever to do with drug policy. It has everything to do with the future of the Republican Party. In plain language, I am not Sen. Helms’ kind of Republican. I do not pass his litmus test on social policy. Nor do I want to.” Overnight, the Weld-Helms standoff became a media sensation. This wasn’t just about drugs, reporters concluded. It was about Helms’ distaste for Weld’s “moderate” views on social issues such as abortion. With that, the advantage swung to Weld. While Helms has the more popular position on drugs, Weld has the more popular position on abortion.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -952,7 +952,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="71"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-4@published"
-  
+
 ><span class='clsDropCap'>H</span>elms spokesman Marc Thiessen resisted this maneuver. He insisted Helms’ concern was drugs, not ideology. The evidence backs Thiessen up: Helms supported pro-choice Republican Bill Cohen of Maine for secretary of defense, and has offered to confirm Weld as ambassador to a country without a major marijuana problem, such as India. But in the frame game, such petty facts are easily overwhelmed by larger themes. Weld’s spin prevails, for several reasons.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -977,14 +977,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="72"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-5@published"
-  
+
 >To begin with, Weld’s argument fits nicely into the context of recent Republican infighting. Having come apart over foreign policy (trade with China) and fiscal policy (the House leadership coup), the Republicans seem ripe for a civil war over social policy. Furthermore, the Washington press corps never tires of writing about Republican troubles on abortion and gay rights–though Helms hasn’t mentioned either issue in connection with Weld since the confirmation fight began.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="63"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-6@published"
-  
+
 >Above all, the press loves to personalize debates. Drug policy is boring, but a fight between a saucy blue blood and a surly redneck is fun. Helms wasn’t even the first member of Congress to oppose Weld’s nomination. Others who oppose Weld have pleaded that Helms isn’t the point. It’s a futile argument. Helms and his famous wedge issues are just too colorful.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1027,7 +1027,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="79"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-7@published"
-  
+
 ><span class='clsDropCap'>2</span><strong>Ideology vs. competence.</strong> Congressional Republicans who support Weld’s nomination don’t want their party torn asunder in the process. Their solution is to separate the question of Weld’s ideology from his competence. They point out that he speaks Spanish, knows Mexico, and is smart and accomplished. “This is not about the heart and soul of the Republican Party,” argued Rep. Chris Shays, R-Conn., in a TV debate July 28. “It’s about whether this nominee is competent to serve in Mexico.”</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1070,14 +1070,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="44"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-8@published"
-  
+
 >Helms’ supporters accept this distinction, because it subverts Weld’s campaign to broaden the ideological confrontation. They argue that Weld’s indifference toward the war on drugs has affected his competence as a law enforcer and will do so again if he becomes ambassador to Mexico.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="86"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-9@published"
-  
+
 ><span class='clsDropCap'>W</span>eld, however, maintains the fight <em>is</em> about the party’s soul, even as Republican moderates protest it isn’t. The Helms/Shays argument (for a distinction between ideology and competence) is analytically more sophisticated but viscerally less compelling. Which means it will probably prevail in a confirmation hearing but lose in the court of public opinion, vanquished by Weld’s campaign for libertarian martyrdom. In the frame game, nuance is almost always a loser. Remember, the last guy to argue for a distinction between ideology and competence was Michael Dukakis.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1102,7 +1102,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-10@published"
-  
+
 >Perversely, Weld lost the ideology/competence battle by winning the drugs/morality battle. Not only did he attack Helms July 15, but he deliberately embarrassed the White House–which had refrained from quarreling with Helms–by calling on Clinton to speak up for his confirmation. Weld’s caustic apostasy handed his enemies a persuasive argument against his fitness for the job–that he’s “undiplomatic.”</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1127,7 +1127,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="129"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-11@published"
-  
+
 ><span class='clsDropCap'>3</span><strong>Who started the fight?</strong> Every kid knows that when a parent catches you fighting with another kid, the first thing to do is accuse the other kid of starting it. Weld should have been able to play the victim, since Helms arguably started the fight by announcing in June that he would deny Weld a hearing. But Weld blew this moral advantage by attacking Helms July 15. It wasn’t the first punch thrown, but it was the first one most people saw. This allowed Helms’ spokesman to cast his boss as the victim. Senate Majority Leader Trent Lott, R-Miss., latched on to this as an excuse to side with Helms. Weld “hurt himself by attacking the chairman unfairly and with political rhetoric that was just uncalled for,” Lott complained.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1170,7 +1170,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-12@published"
-  
+
 >Belatedly, Weld is trying to regain the moral high ground. On July 29, he pleaded: “Before I had ever met [Helms], before the man really knew anything about me, he said I was unfit to be ambassador, had loose lips, and was soft on drugs. And I said, ‘Where does Jesse Helms get off saying all these mean things about me?’ And people in Washington threw up their hands in alarm and said, ‘My goodness, he attacked the chairman.’ ” Weld also has claimed to be a victim of Helms’ “ideological extortion.”</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1213,7 +1213,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="110"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-13@published"
-  
+
 >The “ideological extortion” argument is particularly ingenious. Typically, extortion means that you’re threatening someone with harm or embarrassment to extract a concession. Helms has no illusions that he can make Weld concede anything. His vow to kill Weld’s nomination is a promise, not a threat. It’s Weld who’s trying to scare Republicans into supporting him, by threatening to turn his fight with Helms into an ideological civil war. His charge of “ideological extortion” is part of his ideological extortion. And it’s succeeding. On Aug. 3, Sen. Dick Lugar, R-Ind., rescued Weld by demanding that he get a hearing, lest his jihad against Helms ignite “civil war in the Republican Party.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1282,7 +1282,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="86"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-15@published"
-  
+
 > <span class="clsDropCap">4</span><strong> Substance vs. process.</strong> Having lost the advantage on fronts 2 and 3, Weld has opened a fourth, more promising front recently. He has stopped debating the substance of his quarrel with Helms, and has focused instead on his right to a hearing. At a July 28 press conference, Weld repeated his favorite question six times: “I’m going to be asking that one insistent question: Why should there not be a hearing? Why should one man, in a democracy, block the conduct of the people’s business?”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1307,14 +1307,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-16@published"
-  
+
 >This new message helps Weld in the Senate, because it allows Republicans to defend him without exacerbating the party’s internal conflicts. It certainly emboldened Lugar. “A Senate chairman cannot be dictatorial, ultimately, when a majority of the committee, a majority of the Senate, a majority of the American people, want action,” Lugar said of Helms Aug. 3.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="61"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-17@published"
-  
+
 >Likewise, the procedural argument allows the White House to challenge Helms’ obstinacy without appearing to foment the GOP’s identity crisis. Clinton spokesman Mike McCurry, who had refused July 21 to comment on “matters in the other party,” was so moved by Weld’s new plea for a “fair hearing” that he repeated that phrase six times at his July 31 press briefing.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1357,7 +1357,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="65"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-18@published"
-  
+
 ><span class='clsDropCap'>B</span>ut the true beauty of the “give him a hearing” argument is that it capitalizes on anti-Washington populism. In his July 28 press conference, Weld decried the “Washington rules” that allow a single senator to thwart the people’s will by refusing to schedule a hearing. Framed this way, Weld’s apostasy becomes a virtue instead of a vice, suggesting candor instead of a lack of diplomacy.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1382,7 +1382,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="114"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-19@published"
-  
+
 >Which player will win the game? Helms’ allies say the nomination is doomed. They think Weld overlooked the game’s cardinal rule: that Congress has its own rules, including the absolute power of committee chairmen over supplicants such as Weld. Why, he’s not even a governor anymore, they scoff. He’s just a lowly citizen. But maybe they’re the ones who have misjudged the game. Maybe the era of Ross Perot, satellite feeds, and blast-faxes has ended the invisibility and the certainty of the congressional back-room kill. Maybe every political fight is a frame game now. Even if Citizen Weld can’t reach Mexico, he can still reach America. And maybe that’s been his game all along.</p>
 
 <div
@@ -1447,7 +1447,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1482,7 +1482,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="news_and_politics/frame_game"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-fdc4623cdc0b8c52f30da0e7907522c6-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1533,7 +1533,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1558,7 +1558,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2068,7 +2068,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

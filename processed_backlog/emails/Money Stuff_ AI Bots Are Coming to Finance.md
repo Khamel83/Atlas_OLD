@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.Here is a surprising statistic:AI is also expensive, both to develop and 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.Here is a surprising statistic:AI is also expensive, both to develop and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Artificial intelligence
-    
-  
+
+
 
 Here is  a surprising statistic:
 AI is also expensive, both to develop and to run. Estimates show the costs of using large language models to answer a question can be as much as $14 per query, compared with $6 via a human lawyer, according to Lewis Z. Liu, founder and CEO at Eigen. That’s because of the extensive cloud computing costs associated with dealing with complex financial documents.
@@ -89,37 +89,37 @@ Schwartz then asked for its source. The chatbot again claimed the false case was
 
 Yeesh!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Slack
-    
-  
+
+
 
 When a company does an initial public offering, it files a registration statement with the US Securities and Exchange Commission with a prospectus containing financial statements and a description of its business and other relevant details. If you buy stock in the IPO and the stock goes down, and if something in the prospectus is misleading, you can sue the company, and the underwriters of the IPO, for damages. You would sue under section 11 of the Securities Act of 1933, which lets you sue if the registration statement “contained an untrue statement of a material fact or omitted to state a material fact required to be stated therein or necessary to make the statements therein not misleading.” In fact, if you don’t buy stock directly in the IPO, but buy it in the open market the day or week or month after the IPO, you can also sue under section 11: Your shares are “traceable” to the IPO, and you could have been misled by the company’s bad prospectus into buying the stock.
 Now, if you buy stock in a mature public company years after its IPO, and the stock goes down, you can also sue the company. “Everything is securities fraud,” I like to say. The company puts out lots of public disclosures, and you can probably point to one of them and say "hey that was misleading, and when the truth came out my stock went down.” Technically here you would be suing under  section 10 of the Securities Exchange Act of 1934, which makes it illegal for anyone to use “any manipulative or deceptive device or contrivance” “in connection with the purchase or sale of any security.”
@@ -145,11 +145,11 @@ Weird! One possible conclusion here is that, if you are a company considering an
 ): If you do a direct listing, no one can sue you under section 11 for misstatements in your prospectus; they have to meet the higher bar of proving fraud.
 Another possible conclusion here is that, if you are a company considering an IPO, and you don’t want to do a direct listing, you can maybe get these benefits anyway? Just don’t sign a lockup! Let some of your employees or other existing shareholders sell stock immediately, as soon as the IPO prices. Then anyone who buys stock after the IPO can’t prove that they bought stock from the IPO, instead of from your employees.
 
-  
-    
+
+
       SPAC SPAC SPAC
-    
-  
+
+
 
 Schematically the way a special purpose acquisition company works is:
 	A sponsor raises, say, $200 million from retail investors and puts it in a pot. This costs her perhaps a few million dollars in fees for lawyers, bankers, accountants, etc.	She looks for a private company to take public.	If she finds one, she negotiates a deal to take it public. After they sign a deal, they market it to the retail investors, who get to vote on whether to do the deal.
@@ -159,7 +159,7 @@ Schematically the way a special purpose acquisition company works is:
 
 Just from that schematic description you will notice that if a SPAC does a deal, the sponsor makes $50 million, while if it doesn’t do a deal, the sponsor gets nothing and is out of pocket a few million dollars of startup costs. A deal is good for the sponsor; no deal is bad for the sponsor. Meanwhile the quality of the deal matters a lot to the retail shareholders: If the deal is good, their stock goes up and is worth more than the $200 million they paid for it; if it is bad, their stock goes down and is worth less. But it matters very, very little to the sponsor: If she gets $50 million worth of stock for free and the stock declines by 80%, she still has $10 million worth of stock, which is way better than she’d do without the deal.
 Therefore the sponsor’s incentives are:
-	Find the best deal she can get.	But if the best deal she can get is bad, do it anyway.	
+	Find the best deal she can get.	But if the best deal she can get is bad, do it anyway.
 Market the deal aggressively: If the deal is bad, the shareholders will reject it, but if they don’t know that it’s bad they will accept it and the sponsor will get paid. Therefore it is in her interests to make them think that the deal is good, even if she knows it isn’t.
 
 One thing that helped here is that, at the peak of the SPAC boom, there was a  widespread and partially true belief that SPAC marketing could include financial projections, and that those projections could say whatever you wanted. In a traditional initial public offering in the US, it is legally risky to give potential investors projections of future results, and so most companies don’t; in a SPAC, it was thought to be less risky to give projections, and so most companies did. These companies were often, like, flying-car companies with no operating history but grand plans, so the projections mattered a lot.
@@ -177,11 +177,11 @@ Yeah I mean stock went down, incentives were bad, that’s good enough for a law
 In a court filing, lawyers representing Foley, the hockey team owner who is facing a lawsuit over his SPAC’s merger with the digital-payments platform Paysafe Ltd., denied any wrongdoing, saying the investor is following a “one-size fits all” approach echoing similar cases. 
 But one size really does fit all! 
 
-  
-    
+
+
       Harvard MBAs
-    
-  
+
+
 
 One model of elite graduate business schools is that they are expensive two-year vacations for people who are already on a promising career track at big tech and finance companies. This is not necessarily the main model; probably you learn stuff. Still, here is Bloomberg’s Robb Mandelbaum on the surprisingly weak job market for Harvard Business School students this year:
 
@@ -190,11 +190,11 @@ Things looked no better in the finance industry, also among the top three fields
 
 Would these people still have jobs at Google or in private equity if they had stayed at their jobs instead of leaving for Harvard? I don’t know; there have been a lot of layoffs, plus probably they learned something at Harvard. But it might be harder for an employer to lay off a loyal and productive employee than it is to just not hire a new MBA, and in a tough economy, the people who took two years off to network in Cambridge might be less attractive than the people who didn’t.
 
-  
-    
+
+
       Does Goldman Sachs CEO David Solomon DJ at a sleepaway camp?
-    
-  
+
+
 
 I guess the broader question is, if you have a thing, and Goldman Sachs Group Inc. Chief Executive Officer Who Is Also a DJ David Solomon invests in your thing in his personal account (or with Goldman money for that matter), and your thing occasionally has events that involve a DJ, is he the DJ? Do you have to ask him to be the DJ? Does he have to say yes? Is it awkward if you already have a DJ? Will he be annoyed if you ask him? If you don’t? Is he tired of this schtick? Am I? Anyway Bloomberg’s Max Abelson and Sridhar Natarajan   report on Solomon’s personal portfolio of summer camps:
 
@@ -205,15 +205,15 @@ And KenMont/Wood has a DJ, but it’s not him:
 KenMont and KenWood Camp charges $5,200 for two weeks or $8,100 for about three and a half weeks, which includes laundry, a canteen, photos and a bus ride or airport transfer coming and going. Although there are more expensive camps, this sounds like a place fit for a future master of the universe: A camper can expect a day that starts with eggs and waffles before water-skiing, according to its website, then go-karts, chicken nuggets, Monopoly, tennis, a snack break, cooking, soccer, a themed dinner and then an “all-camp blowout” with “our awesome DJ.” An online photo of the disc jockey doesn’t seem to portray Solomon.
 Is that weird? Is it only a matter of time? KenMont/Wood’s DJ might be awesome, but has he played Lollapalooza? 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman Flags   25% Drop in Trading Revenue as Job Cuts Loom. UBS’s Heir Apparent Faces   New Tests and Ex-Colleagues at Credit Suisse.  U.S. Oil Enters World’s Most Important Benchmark. Resilient US junk bond market  baffles investors.  Vanguard Fined for Misleading Money-Market Fund Customers. Tether is   bigger than ever. BHP to pay $280mn after  underpaying 30,000 staff for years. Watchdogs must ‘up their game’ to prevent  future bank failures, says BIS. Apple Customers Say It’s  Hard to Get Money Out of Goldman Sachs Savings Accounts. Elon Musk Again   World’s Richest Person as Arnault’s LVMH Sinks. A Week With the  Wild Children of the A.I. Boom. Can   Workplace Ketamine Retreats Improve Vibes in the Office?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also due to registration requirements, though; if you are a large private equity holder you might need to register your future sales.
 
 
@@ -223,48 +223,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The actual mechanism is more complicated: They do get to vote, but they also get to withdraw their money even if the deal is voted through, so in practice the rational move if you don't like a deal is often to vote yes and redeem your stock. Traditionally de-SPAC deals included a maximum withdrawal condition, though they do not always anymore, so that if 90% of SPAC shareholders voted yes but redeemed then the deal would not go through and the sponsor would not get paid, meaning that redeeming is kind of like voting no. But for our purposes the mechanics don’t matter that much.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciumzw.6501/a6c8f61f.gif" alt="" border="0" /></a>

@@ -40,7 +40,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"11\/11\/2014","content_publish_time":"11:08","content_last_update_date":"11\/11\/2014","content_last_update_time":"14:14","contentcategory":"Football,Google,London,Los Angeles,NFL","section_1":"sports","section_2":"sports:football","story_title":"The NFL Should Expand To London. But First: Canada, Mexico And LA.","story_id":60319,"author":"Nate Silver","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Football","Google","London","Los Angeles","NFL"],"word_count":2837},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>The NFL Should Expand To London. But First: Canada, Mexico And LA. | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -140,7 +140,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":60319,"section":"sportsfootball","seg_
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The NFL Should Expand To London. But First: Canada, Mexico And LA." />
@@ -206,7 +206,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -225,13 +225,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											The NFL Should Expand To London. But First: Canada, Mexico And LA.									</div>
 				<a href="https://fivethirtyeight.com/features/the-nfl-should-expand-to-london-but-first-canada-mexico-and-la/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/the-nfl-should-expand-to-london-but-first-canada-mexico-and-la/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -295,7 +295,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -304,7 +304,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -321,7 +321,7 @@ display: none;
 								<time class="datetime updated" title="2014-11-11T16:08:15+00:00">11:08 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									The NFL Should Expand To London. But First: Canada, Mexico And LA.								</h1>
@@ -331,10 +331,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/nate-silver/" title="" class="author url fn" rel="author">Nate Silver</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/football/" class="term " name="">Football</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -347,7 +347,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/11/london-banner.jpg">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?w=532 1x, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?w=1064 2x">
 						<img width="532" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?w=532" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg 4152w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=92,75 92w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=300,244 300w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=768,624 768w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=1024,832 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=1536,1247 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=2048,1663 2048w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=630,512 630w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=532,432 532w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=433,352 433w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=277,225 277w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=554,450 554w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=320,260 320w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=197,160 197w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=709,576 709w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=191,155 191w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=100,81 100w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=60,49 60w, https://fivethirtyeight.com/wp-content/uploads/2014/11/ap690212792382.jpg?resize=846,687 846w" sizes="(max-width: 532px) 100vw, 532px" />									</picture>
 
@@ -358,13 +358,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			Football fans enjoy the game Sunday between the Dallas Cowboys and the Jacksonville Jaguars at Wembley Stadium in London.							<p class="credits">Matt Dunham / AP</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 				A spectator at the NFL football game between the Dallas Cowboys and the Jacksonville Jaguars at Wembley Stadium in London on Sunday.									<p class="credits">Matt Dunham / AP</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>It might seem like a matter of time before the NFL and London stop flirting and start going steady. Six NFL teams have flown across the Atlantic to play a football game this year — most recently, the Dallas Cowboys and Jacksonville Jaguars, who squared off on Sunday in the third and final London game of the season. (Just as if they were playing on home soil, the Jaguars <a href="http://scores.espn.go.com/nfl/recap?gameId=400554358" target="_blank">lost badly</a>.) The league would have to inconvenience only two additional teams<span class="espn-footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&lt;p&gt;A 16-game regular season would require eight visiting teams to travel to London.&lt;/p&gt;
 "><sup id="ss-1">1</sup></span> to host a franchise in London full-time.</p>

@@ -12,15 +12,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-sethgodin.typepad.com  
-  
-Verify you are human by completing the action below.  
-  
-sethgodin.typepad.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for sethgodin.typepad.com to respond... 
+sethgodin.typepad.com
+
+Verify you are human by completing the action below.
+
+sethgodin.typepad.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for sethgodin.typepad.com to respond...
 

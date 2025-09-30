@@ -42,7 +42,7 @@ The solution to this problem will mean different things to different investors b
 * Avoiding big mistakes is more important than locating big wins with your investments.
 * It’s much easier to be wrong than it is to be right. Very few investors are willing to admit this fact to themselves. This is where you can find your way as an investor.
 
-Further Reading:  
+Further Reading:
 [The S&P 500 Sector Quilt](https://awealthofcommonsense.com/2014/05/sp-500-sector-quilt/)
 
 

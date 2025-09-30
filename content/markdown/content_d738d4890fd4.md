@@ -9,7 +9,7 @@
 		<head>
 										<script src="https://e459.kcci.com/script.js"></script>
 													<script src="https://experiments.parsely.com/vip-experiments.js?apiKey=hearst-10038.hearst.com" data-enable-live-updates="true"></script>
-			
+
 							<script>
 	!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/hearst_tv/kcci_com/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();
 </script>
@@ -199,7 +199,7 @@ window.HTV_DP_CF_URL = "https://onetrust-proxy.htvapps.com/getdp";</script><scri
 ( function( d ) {
 	var env = "prod";
 	var s = document.createElement( "script" );
-	
+
 	s.async = true;
 	s.fetchPriority = "high";
 
@@ -226,7 +226,7 @@ switch ( env ) {
 d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 } )( document );
 </script>
-				
+
 				<div class="site-content">
 					<a href="#" class="skip-to-content">Skip to content</a>
 <script id="weather-images" type="text/x-json">
@@ -276,7 +276,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <!-- / headers/nowcast -->
 <!-- headers/main -->
 
-<header class="header">    
+<header class="header">
     <div class="header-inner">
         <button
             class="header-button header-sidepanel-button"
@@ -369,7 +369,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 											 	height="44"
 											 	width="133" />
                             </a>
-        
+
         <ul class="nav-menu"><li class="nav-item" data-id="1">
             <a id="brazeSubscribe" href="/subscribe" class="nav-item-braze-subscribe">
                 <i class="fa fa-envelope nav-item-braze-subscribe-icon" aria-hidden="true"></i>
@@ -388,8 +388,8 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <script type="text/template" class="alerts-block-template">
 	<div class="alerts--items">
 		<% if ( count > 0 ) { %>
-			
-			
+
+
 			<% if ( weatherAlerts > 0 ) { %>
 				<span class="alerts--item" tabindex="-1" aria-hidden="true" role="alert"  aria-label="Weather Alert">
 					<a target="_top" href="/alerts" class="link" tabindex="-1">
@@ -514,7 +514,7 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 </div>
 <!-- / weather/overlay -->
 <main>
-				
+
 			<!-- blocks/ad.twig -->
 <div class="ad-overlay ">
 	<div class="ad-container "
@@ -540,10 +540,10 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 <!-- blocks/ad.twig -->
 
 </div>
-	
-	
+
+
 	<div class="articles-container">
-		
+
 <!-- article/blocks/content -->
 	<script type="text/javascript">var HRSTArticles = HRSTArticles || {};
 HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"] = {};
@@ -633,29 +633,29 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <div id="wrapper--irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam" class="article--wrapper">
 	<article>
 		<div class="article-content" data-id="c2de50ce-6a2f-495f-ad94-26c05da1e4da" data-canonical-url="https://www.kcci.com/article/irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam/40678822" data-share-url="/article/irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam/40678822">
-			
+
 		<div class="article-content--header">
-						
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<h1 class="article-headline--title">IRS wants tax money from Iowa couple caught in California unemployment scam</h1>
 			</section>
 <!-- /article/blocks/headline -->
 
 </div>
-	
+
 		<div class="article-content--body">
 			<div class="article-content--body-wrapper">
-																		
-									
+
+
 <!-- article/blocks/poster-media -->
 <div class="article-poster-media-wrapper">
 	<div class="article-poster-media">
-					
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">IRS wants tax money from Iowa couple caught in California unemployment scam</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -668,7 +668,7 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <div class="transcript" data-video-id="239659b0-89bf-4493-8de5-1b220e38d386">
 													KCCI 8 NEWS AT 6:00. STACEY: THE INTERNAL REVENUE SERVICE IS THREATENING TO GARNISH THE WAGES OF A DES MOINES COUPLE BECAUSE THEY HAVEN’T PAID THEIR TAXES. STEVE: THE PROBLEM IS THEY NEVER RECEIVED OR EVEN ASKED FOR THE MONEY BUT THE IRS STILL WANTS TO TAX THEM FOR IT. KCCI CHIEF INVESTIGATIVE REPORTER JAMES STRATTON SHOWS US HOW A BUREAUCRATIC BLUNDER HAS TURNED THEIR LIVES UPSIDE DOWN. &gt;&gt; DO YOU KNOW THIS IS THE SAME PLANT AS THAT? JAMES: FOR THE CLARK FAMILY THERE’S NO PLACE, LIKE THIS , QUAINT HOME ON THE SOUTH SIDE OF DES MOINES TOUR GUIDES GABRIELLE AND SAMARA ARE PROUD OF WHERE THEY LIVE. &gt;&gt; WE PUT A LOT OF LOVE IN HERE, WE DID THE WALLS, MY DAD HELPED WITH THE FLOOR. JAMES: BUT THEIR PARENTS ALMOST DIDN’T GET TO PURCHASE THE PLACE THEY CALL HOME. &gt;&gt; WE COULD NOT WE COULD POTENTIALLY NOT HAVE A PLACE TO LIVE RIGHT NOW. JAMES: JULY OF LAST YEAR, WHILE STEVEN AND GLORIA CLARK WERE ABOUT TO CLOSE ON THEIR HOME, AND AFTER THEY NOTIFIED THEIR APARTMENT THEY WERE MOVING THEY , RECEIVED THIS LETTER FROM THE IRS, STATING STEVEN COLLECTED $30,900 IN UNEMPLOYMENT BENEFITS FROM THE STATE OF CALIFORNIA. CLARK SAYS HE NEVER APPLIED FOR IT, NEVER RECEIVED IT, AND -- &gt;&gt; IT WAS KIND OF SHOCKING, BECAUSE I’VE NEVER BEEN TO CALIFORNIA. JAMES: ON TOP OF THAT CLARK , WORKED THE ENTIRE PANDEMIC, AND NEVER EVEN COLLECTED &gt;&gt; IT’S KIND OF JARRING. BECAUSE YOU’RE LIKE, YOU KNOW, I PAY MY TAXES, I FILE EVERY YEAR. YOU KNOW, WHAT ELSE COULD THEY WANT? JAMES: WHAT THE IRS WANTED WAS $5,791.84, THE TAXES ON THE FRAUDULENT THAT CLARK SAYS HE NEVER APPLIED FOR, AND NEVER RECEIVED. &gt;&gt; ONE OF THE ISSUES THAT I HAD WAS THAT WE TOLD THEM THAT WE NEVER LIVED THERE, THAT, YOU KNOW, WE HAD OUR IDENTITY STOLEN. AND THEIR RESPONSE BACK WAS THERE WAS NO IDENTITY THEFT WITH IRS. JAMES: THAT NUMBER, ACCORDING TO WHAT THE IRS TOLD GLORIA THURSDAY AFTERNOON, IS NOW DOWN TO ALMOST $3800. THE COUPLE ALSO FILED A POLICE REPORT WITH THE DES MOINES POLICE DEPARTMENT, BUT THIS IS PART OF A HISTORIC PROBLEM. CALIFORNIA’S EMPLOYMENT DEVELOPMENT DEPARTMENT, OR EDD, HAS ADMITTED TO PAYING OUT MORE THAN $20 BILLION IN FRAUDULENT CLAIMS THROUGHOUT THE PANDEMIC. &gt;&gt; THERE’S WAY TOO MUCH FINGER POINTING HERE. THE IRS WANTS TO BLAME EDD, EDD WANTS TO BLAME THE IRS. JAMES: CONGRESSMAN JOSH HARDER, WHO REPRESENTS CALIFORNIA’S 10TH DISTRICT, SAYS WHAT’S HAPPENING TO THE CLARK FAMILY, AND THOUSANDS OF OTHERS, IS JUST PLAIN WRONG. &gt;&gt; THESE PEOPLE DID NOTHING WRONG. AND THE FACT THAT THE UNEMPLOYMENT OFFICE IS EXPECTING PEOPLE IN IOWA TO NAVIGATE A BUREAUCRACY IN CALIFORNIA WHEN THEY’RE A VICTIM MAKES NO SENSE WHATSOEVER. JAMES: HARDER IS WORKING TO HELP PEOPLE LIKE THE CLARK FAMILY, WHO CAN’T SEEM TO GET THROUGH TO THE EDD, OR THE IRS, BUT ALSO WANTS EDD TO SOLVE IT THEMSELVES. THE CLARK FAMILY HAS CALLED BOTH THE EDD AND IRS MORE THAN A DOZEN TIMES. &gt;&gt; WHEN YOU CALL THE NUMBER, IT LITERALLY SAYS THEY’RE NOT GOING TO RETURN CALLS. LIKE, WHO GETS TO DO THAT? JAMES: WE CALLED CALIFORNIA’S EDD. &gt;&gt; IF YOU ARE REPORTING FRAUD, PRESS 5. JAMES: WELL WE DID NOT GET A PERSON TO ANSWER, WE COULD HAVE LEFT A MESSAGE BUT NO GUARANTEE , THEY’LL CALL BACK. &gt;&gt; YOU WILL NOT RECEIVE A CALL BACK UNLESS ADDITIONAL INFORMATION IS REQUIRED BY THE EDD. JAMES: ON TOP OF THAT, LATE LAST WEEK, THE STATE OF IOWA SENT THIS LETTER, SAYING THE CLARK FAMILY OWED MORE THAN $1800 IN TAXES TO THE STATE. THE FAMILY HAS FILED A FRAUD CLAIM IN IOWA, AND THE STATE SAYS IT WILL HOLD THE PAYMENT REQUIREMENT WHILE IT INVESTIGATES. NOW, A YEAR LATER, THE CLARK FAMILY IS SETTLED INTO THEIR HOME, BUT THE IRS IS STILL WORKING TO GET ITS MONEY. &gt;&gt; IT’S GETTING TO THE POINT OF WHERE THERE’S MENTION OF GARNISHMENT. AND SO, OUR TAX LADY ADVISED TO SET UP A PLAN, $20 A MONTH OR SOMETHING SO THAT THEY DON’T , START DOING THAT. JAMES: A PAYMENT PLAN FOR MONEY THEY NEVER APPLIED FOR, AND NEVER RECEIVED. &gt;&gt; IT’S JUST BEEN A LOT OF TIME AND ENERGY, STRESS, CRYING, WHAT ARE WE GOING TO DO? WHAT COULD POTENTIALLY HAPPEN TO US? IT IS THE IRS. WE’RE LITTLE PEOPLE COMPARED TO, YOU KNOW, THE IRS. JAMES: WHY THE IRS AND THE STATE UNEMPLOYMENT OFFICE AREN’T COMMUNICATING IS NOT CLEAR EVEN , BY CONGRESSMAN HARDER. EDD SAYS IDENTITY THEFT IS A SERIOUS CRIME, AND THAT THEY SAY THEY ARE HELPING FAMILIES THROUGH THESE ISSUES. THEY ADDED IF YOU EXPERIENCED IDENTITY THEFT, TO CALL THEM. THE PROBLEM IS, THE CLARK FAMILY COULDN’T GET ANYONE FROM THE EDD TO TALK TO THEM UNTIL WE GOT INVOLVED. THE STATE HAS FINALLY REACHED OUT TO THE CLARK FAMILY. THE IRS COULD NOT LEGALLY SPEAK ABOUT SPECIFIC CASES, BUT SAYS THOSE WHO EXPERIENCE IDENTITY THEFT SHOULD WORK WITH AN IRS TAXPAYER ADVOCAT
 											</div>
-					
+
 																					<div class="tablet-desktop">
 					<div class="article-branding">
 						<img data-src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/site_branding/kcci.png"
@@ -731,10 +731,10 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <!-- blocks/ad.twig -->
 
 <div class="mobile">
-							
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">IRS wants tax money from Iowa couple caught in California unemployment scam</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -784,16 +784,16 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 
 </div>
 					</div>
-	
-						
+
+
 					<div class="article-content--body-teaser">
-						
+
 					</div>
-	
+
 					<div class="article-content--body-text-raw">
 						The IRS is threatening to garnish the wages of a Des Moines couple because they haven't paid their taxes, the problem is they never received the money the IRS wants them to pay taxes for.July of 2021, while Steven and Gloria Clark were about to close on their home and after they notified their apartment complex they were moving they received a letter from the IRS. The letter stated Steven collected $30,900 in unemployment benefits from the state of California."It was kind of shocking," Clark said. "Because I've never been to California." On top of never visiting the state, he never applied for unemployment there or in Iowa and, of course, never received it.The IRS wanted the taxes on the unemployment, $5,791.84 as of November, and the taxes and penalties on the fraudulent unemployment that Clark never applied for and never received. The IRS told the Clark family late Thursday afternoon that amount has dropped to almost $3,800. "One of the issues I have was that we told them [the IRS} that we never lived there, that we had our identity stolen," said Gloria Clark, Steven's wife. "Their response back was there was no identity theft with the IRS."The couple filed a police report with the Des Moines Police Department, but this is part of a historic problem. California's Employment Development Department, EDD, has admitted to paying out more than $20 billion in fraudulent unemployment claims throughout the pandemic. To put that into perspective, that is more than double the state budget of Iowa."There's way too much finger pointing here," said Congressman Josh Harder, Democrat representing California's 10th District. "The IRS wants to blame EDD, EDD wants to blame the IRS."All the while, the Clark family is stuck in the middle."These people did nothing wrong," he added. "The fact that the unemployment office is expecting people in Iowa to navigate a bureaucracy in California when they're a victim makes no sense whatsoever."Harder is working to help people like the Clark family, who can't seem to get through to the EDD or the IRS, but also wants EDD to solve it themselves. The Clark family has called the EDD and the IRS more than a dozen times."When you call the number it literally says they're not going to return calls," Gloria said about calling the EDD. "Who gets to do that?"KCCI Investigates called California's EDD. While we never did get a person to answer, we could have left a message. However, there's no guarantee they'll call back."You will not receive a call back unless additional information is required by the EDD," the answering machine stated.All while getting stuck between the bureaucratic blunder between the IRS and the EDD, the Clark family received a tax bill from the Iowa Department of Revenue last week. The IDR wants $1,819.47 for taxes, penalties and interest. The family has filed a fraud claim in Iowa and IDR tells KCCI it will hold payment requirements while it investigates. Still, a year later, the IRS is working on getting its money, even threatening to garnish the wages of the Clark family."Our tax lady advises to at least set up some sort of payment plan," said Gloria. " Twenty bucks a month or something so they don't start doing that." A payment plan for the money they never applied for and never received in a state they've never been to."It's just been a lot of time and energy, stress, crying, you know 'what are we going to do?'" said Gloria. "What could potentially happen to us? It's the IRS, we're little people compared to the IRS."Why the state unemployment office and the IRS are not communicating is not clear, even by Congressman Harder. EDD says identity theft is a serious crime and they can confirm they are working with families to fix these issues. The EDD suggests reporting fraud here."The EDD is anxious to investigate and clear any particular issue in which individuals may not know of a claim filed in their name and notices were hijacked by the imposter so we can minimize impacts on identity theft victims," The EDD said in part in a statement. "Particularly if that leads to collection activity that can be avoided. EDD continues to strengthen our efforts to follow up on any such fraud reports."The state of California finally reached out to the Clark family, but only after KCCI Investigates and our sister station KCRA in Sacramento reached out to EDD multiple times.The IRS could not legally speak about specific cases but says those who experience identity theft should work with an IRS taxpayer advocate.
 					</div>
-	
+
 					<div class="article-content--body-text">
 																			<p>The IRS is threatening to garnish the wages of a Des Moines couple because they haven't paid their taxes, the problem is they never received the money the IRS wants them to pay taxes for.</p><p>July of 2021, while Steven and Gloria Clark were about to close on their home and after they notified their apartment complex they were moving they received a letter from the IRS. The letter stated Steven collected $30,900 in unemployment benefits from the state of California.</p>
 <!-- article/blocks/side-floater -->
@@ -812,7 +812,7 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <!-- blocks/ad.twig -->
 
 </div>
-    
+
     </div>
 <!-- article/blocks/side-floater -->
 <p>"It was kind of shocking," Clark said. "Because I've never been to California." </p><p>On top of never visiting the state, he never applied for unemployment there or in Iowa and, of course, never received it.</p><p>The IRS wanted the taxes on the unemployment, $5,791.84 as of November, and the taxes and penalties on the fraudulent unemployment that Clark never applied for and never received. The IRS told the Clark family late Thursday afternoon that amount has dropped to almost $3,800. </p><p>"One of the issues I have was that we told them [the IRS} that we never lived there, that we had our identity stolen," said Gloria Clark, Steven's wife. "Their response back was there was no identity theft with the IRS."</p>
@@ -822,17 +822,17 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <p>"There's way too much finger pointing here," said Congressman Josh Harder, Democrat representing California's 10th District. "The IRS wants to blame EDD, EDD wants to blame the IRS."</p><p>All the while, the Clark family is stuck in the middle.</p><p>"These people did nothing wrong," he added. "The fact that the unemployment office is expecting people in Iowa to navigate a bureaucracy in California when they're a victim makes no sense whatsoever."</p><p>Harder is working to help people like the Clark family, who can't seem to get through to the EDD or the IRS, but also wants EDD to solve it themselves. </p><p>The Clark family has called the EDD and the IRS more than a dozen times.</p><p>"When you call the number it literally says they're not going to return calls," Gloria said about calling the EDD. "Who gets to do that?"</p><p>KCCI Investigates called California's EDD. While we never did get a person to answer, we could have left a message. However, there's no guarantee they'll call back.</p><p>"You will not receive a call back unless additional information is required by the EDD," the answering machine stated.</p><p>All while getting stuck between the bureaucratic blunder between the IRS and the EDD, the Clark family received a tax bill from the Iowa Department of Revenue last week. The IDR wants $1,819.47 for taxes, penalties and interest. </p><p>The family has filed a fraud claim in Iowa and IDR tells KCCI it will hold payment requirements while it investigates. </p><p>Still, a year later, the IRS is working on getting its money, even threatening to garnish the wages of the Clark family.</p><p>"Our tax lady advises to at least set up some sort of payment plan," said Gloria. " Twenty bucks a month or something so they don't start doing that." </p><p>A payment plan for the money they never applied for and never received in a state they've never been to.</p><p>"It's just been a lot of time and energy, stress, crying, you know 'what are we going to do?'" said Gloria. "What could potentially happen to us? It's the IRS, we're little people compared to the IRS."</p><p>Why the state unemployment office and the IRS are not communicating is not clear, even by Congressman Harder. EDD says identity theft is a serious crime and they can confirm they are working with families to fix these issues. The EDD suggests reporting fraud <a href="https://edd.ca.gov/en/about_edd/fraud" target="_blank" rel="nofollow">here</a>.</p><p>"The EDD is anxious to investigate and clear any particular issue in which individuals may not know of a claim filed in their name and notices were hijacked by the imposter so we can minimize impacts on identity theft victims," The EDD said in part in a statement. "Particularly if that leads to collection activity that can be avoided. EDD continues to strengthen our efforts to follow up on any such fraud reports."</p><p>The state of California finally reached out to the Clark family, but only after KCCI Investigates and our sister station KCRA in Sacramento reached out to EDD multiple times.</p><p>The IRS could not legally speak about specific cases but says those who experience identity theft should work with an <a href="https://urldefense.com/v3/__https://www.taxpayeradvocate.irs.gov/__;!!Ivohdkk!gNJrp0uY0cmJ0XD6AsOFJh21VKaPX85IPSJBAvD9yBQB5gho16lL_3lgB5QqMdR8VeFbn_5PeXNEomEvV9ikA7Cn53ZenxA$" target="_blank" rel="nofollow">IRS taxpayer advocate.</a></p>
 
 </div>
-	
-	
-						
-						
+
+
+
+
 														</div>
-	
+
 																</div>
 		</div>
 
 <div class="article-social-branding share-content horizontal infinite-scroll">
-				
+
 <!-- blocks/share-content/share-widget -->
 <div class="share-content js-share-container article-social"
 		data-content-url="/article/irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam/40678822"
@@ -857,15 +857,15 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 				<i class="icon icon-facebook"></i></a>
 			</span>
 		</li>
-	
+
 			<li class="share-content--utils-action twitter">
 							<a href="#" class="js-share-social js-share-twitter"  aria-label="Share this article to Twitter">
 						<span aria-hidden="true">
 				<i class="icon icon-twitter"></i></a>
 			</span>
 		</li>
-	
-	
+
+
 			<li class="share-content--utils-action copy-link">
 			<a href="#" class="js-share-link"  aria-label="Copy this link to clipboard" role="button">
 				<span aria-hidden="true">
@@ -902,7 +902,7 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 </div>
 
 </li>
-	
+
 	</ul>
 <!-- /blocks/share-content/share-content-options -->
 
@@ -910,9 +910,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 <!-- /blocks/share-content/share-widget -->
 
 </div>
-	
-			
-			
+
+
+
 					<div class="article-content--footer no-cream">
 				<h2 class="article-footer--header">Top Picks</h2>
 				<div class="grid-content horizontal-list three-cols">
@@ -933,9 +933,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">&#039;The Pitt&#039; wins drama Emmy Award as the &#039;The Studio&#039; breaks Emmys comedy record</div>
 
 <div class="feed-item-utils  ">
@@ -963,9 +963,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">2025 Emmy Awards: See the full list of winners</div>
 
 <div class="feed-item-utils  ">
@@ -993,9 +993,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">All the celebrity red-carpet looks at the 2025 Emmy Awards</div>
 
 <div class="feed-item-utils  ">
@@ -1023,9 +1023,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">Emmys host shares his plan to keep speeches short</div>
 
 <div class="feed-item-utils  ">
@@ -1040,12 +1040,12 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 </div>
 				</div>
 			</div>
-			
+
 				<div class="clear"></div>
 			</div>
 	</article>
 	<div id="sidelist--irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam">
-		
+
 <!-- article/blocks/sidelist -->
 <aside class="article-sidelist-wrapper full-height">
 						<div class="ad-track">
@@ -1064,16 +1064,16 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 
 </div>
 			</div>
-					
-			
+
+
 		<div class="article-sidelist js-sidelist-sticky-menu">
 			<h2 class="article-sidelist--header" data-text-cream="RECOMMENDED" data-text-toppicks="TOP PICKS">
 				&nbsp;
 			</h2>
 			<ul></ul>
 		</div>
-		
-					
+
+
 			<div class="article-ad rectangle scrollable">
 			<!-- blocks/ad.twig -->
 <div class="ad-rectangle ">
@@ -1106,9 +1106,9 @@ HRSTArticles["c2de50ce-6a2f-495f-ad94-26c05da1e4da"].article = {
 // Align Sidelist at the beginning of content media
 					var headline = document.querySelector("#wrapper--irs-wants-tax-money-from-iowa-couple-caught-in-california-unemployment-scam .article-headline");
 					var offset = headline.getBoundingClientRect().height;
-					
+
 					track.style.paddingTop = offset + "px";
-				
+
 				var observer = new ResizeObserver((entries) => {
 					if (getComputedStyle(aside).display === 'none') {
 						return;
@@ -1297,7 +1297,7 @@ observer.observe(parent);
 <div class="sticky-bottom">
 					<div class="viafoura-container">
 											</div>
-					
+
 <!-- blocks/sticky-bottom-ad.twig -->
 <div class="ad-sticky-container">
 	<span
@@ -1322,7 +1322,7 @@ observer.observe(parent);
 <script type="text/javascript">
 						!(function(j,_name){j[_name]=j[_name]||function e(){(e.q=e.q||[]).push(arguments)},j[_name].v=j[_name].v||2,j[_name].s="3";!(function(j,e,M,U){function T(M,U){try{T=j.localStorage,(M=JSON.parse(T[decodeURI(decodeURI('%67%2565%25%37%34%25%34%39%25%374%25%365%6d'))]("_aQS02NTE3MURFNkVGMzAwRjAyQzhBNERFNDItMQ")).lgk||[])&&(U=j[e].pubads())&&M.forEach((function(j){j&&j[0]&&U.setTargeting(j[0],j[1]||"")}))}catch(q){}var T}try{(U=j[e]=j[e]||{}).cmd=U.cmd||[],typeof U.pubads===M?T():typeof U.cmd.unshift===M?U.cmd.unshift(T):U.cmd.push(T)}catch(q){}})(window,decodeURI(decodeURI('%67oo%25%367%6c%256%35%2574%2561%67')),"function");;})(window,decodeURI(decodeURI('%25%36%31%25%36%34m%69%257%32%61%256c')));!(function(j,e,M,U){M=j.createElement(e),j=j.getElementsByTagName(e)[0],M.async=1,M.src="https://handsomelythumb.com/bundles/g8j2nz/kzy9q5.v2.js",(U=0)&&U(M),j.parentNode.insertBefore(M,j)})(document,"script");
 					</script>
-				
+
 									<script async src="https://accounts.google.com/gsi/client" fetchpriority="low"></script>
 <script>
 		window.addEventListener("load", (event) => {
@@ -1372,7 +1372,7 @@ setSubscribedTextToDiv();
 
 let userEmail = '';
 				try {
-						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;   
+						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;
 				} catch (e) {
 						console.error('Error decoding google one tap jwt');
 				}
@@ -1391,7 +1391,7 @@ if (window.Metaphor?.signUpBraze && userEmail) {
 						window.Metaphor.signUpBraze(userEmail, window.GOOGLE_ONE_TAP_BRAZE_SUBSCRIPTION_GROUP, 'google-onetap-signupbraze');
 				}
 		};
-		
+
 		function setSubscribedTextToDiv() {
 				if (document.getElementById("brazeSubscribeText")) {
 						document.getElementById("brazeSubscribeText").innerHTML = 'Subscribed';

@@ -71,7 +71,7 @@ Retrieve available jobs for a specific worker.
 }
 ```
 
-### 3. Submit Job Results  
+### 3. Submit Job Results
 **POST** `/results`
 
 Submit completed job results back to Atlas.
@@ -80,7 +80,7 @@ Submit completed job results back to Atlas.
 ```json
 {
     "job_id": "e54d2bbe-abec-448a-870c-5c3ee19dbce9",
-    "worker_id": "mac_mini_01", 
+    "worker_id": "mac_mini_01",
     "status": "completed",
     "result": {
         "transcript": "Full transcript text here...",
@@ -167,7 +167,7 @@ Transcribe YouTube videos using yt-dlp + Whisper.
 - `url`: YouTube video URL
 - `title`: Video title (optional)
 
-### transcribe_podcast  
+### transcribe_podcast
 Transcribe podcast episodes from RSS feeds.
 
 **Required Data:**
@@ -209,7 +209,7 @@ Transcribe any audio/video URL.
 - `status`: Job status (pending, assigned, completed, failed)
 - `assigned_worker`: Worker ID assigned to job
 - `created_at`: Job creation timestamp
-- `assigned_at`: Job assignment timestamp  
+- `assigned_at`: Job assignment timestamp
 - `completed_at`: Job completion timestamp
 - `result`: JSON object with job results
 
@@ -233,7 +233,7 @@ class AtlasWorkerClient:
         self.worker_id = worker_id
         self.capabilities = capabilities
         self.base_url = f"{atlas_url}/api/v1/worker"
-        
+
     def register(self):
         """Register this worker with Atlas"""
         response = requests.post(f"{self.base_url}/register", json={
@@ -244,7 +244,7 @@ class AtlasWorkerClient:
             "ytdlp_available": True
         })
         return response.json()
-        
+
     def get_jobs(self):
         """Get available jobs from Atlas"""
         caps = ",".join(self.capabilities)
@@ -253,7 +253,7 @@ class AtlasWorkerClient:
             "capabilities": caps
         })
         return response.json().get("jobs", [])
-        
+
     def submit_result(self, job_id, status, result):
         """Submit job result back to Atlas"""
         response = requests.post(f"{self.base_url}/results", json={
@@ -274,11 +274,11 @@ curl -X POST https://atlas.khamel.com/api/v1/worker/register \
   -H "Content-Type: application/json" \
   -d '{"worker_id":"test_worker","capabilities":["transcribe_youtube"],"platform":"mac","whisper_available":true}'
 
-# Test job creation  
+# Test job creation
 curl -X POST https://atlas.khamel.com/api/v1/worker/jobs \
   -H "Content-Type: application/json" \
   -d '{"type":"transcribe_youtube","data":{"url":"https://youtube.com/watch?v=test"}}'
-  
+
 # Test getting jobs
 curl "https://atlas.khamel.com/api/v1/worker/jobs?worker_id=test_worker&capabilities=transcribe_youtube"
 

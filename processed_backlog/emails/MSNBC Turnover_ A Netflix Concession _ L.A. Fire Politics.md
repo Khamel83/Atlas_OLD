@@ -28,7 +28,7 @@ acolyte now running MSNBC; and Eriq Gardner examined an A.I. suit for the ages. 
 Check
 out these stories, and others, via the links below. And stick around for the backstory on how it all came together.
 
- 
+
 
 FASHION
 FASHION
@@ -45,7 +45,7 @@ meanwhile…
 Sarah Shapiro chats ( https://puck.news/hill-houses-nell-diamond-on-life-after-the-nap-dress/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 with Nell Diamond about life after the Nap Dress.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -58,7 +58,7 @@ and…
 Julie Davich
 reveals ( https://puck.news/an-art-world-brokerage-play/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Gurr Johns’ new brokerage business.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -66,7 +66,7 @@ HOLLYWOOD
 Matt Belloni
 breaks ( https://puck.news/greta-gerwigs-narnia-release-plans-finally-revealed/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the news of Netflix’s Greta Gerwig concession and talks ( https://puck.news/how-los-angeles-can-recover-from-the-fires-how-hollywood-can-help/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Peter Hamby and John Heilemann about the impact of the fires on the industry.
 
- 
+
 
 SILICON VALLEY
 SILICON VALLEY
@@ -74,7 +74,7 @@ SILICON VALLEY
 Eriq Gardner
 previews ( https://puck.news/tiktoks-odds-an-ai-suit-for-the-ages/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) an A.I. lawsuit for the ages.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -82,7 +82,7 @@ WALL STREET
 Bill Cohan
 calculates ( https://puck.news/investing-in-the-trump-musk-romantasy/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the extent of Wall Street’s patience with Musk and convenes ( https://puck.news/bill-ackman-the-orace-of-bro-maha/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Bill Ackman about his Berkshire-style play.
 
- 
+
 
 MEDIA
 MEDIA
@@ -95,7 +95,7 @@ and…
 John Ourand examines ( https://puck.news/what-are-maverick-carters-plans-for-his-new-basketball-league/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the financing of Maverick
 Carter’s new NBA competitor.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -108,7 +108,7 @@ and…
 Peter Hamby assesses ( https://puck.news/the-blood-is-in-the-water-for-karen-bass/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the burgeoning battle between Bass, Newsom, and
 Trump.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -150,7 +150,7 @@ weigh ( https://puck.news/podcast_episode/tiktoks-time-bomb-drakes-defamation-di
 As a reminder, you can update your profile at any time to get more stories
 like these directly in your inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 City of Angels
 --------------
@@ -195,7 +195,7 @@ Have a great weekend,
 
 Jon
 
- 
+
 
 Puck
 
@@ -211,6 +211,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUeakBMMmgxhBosRDS0rc=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%281%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

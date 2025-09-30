@@ -58,7 +58,7 @@ Illustration by Barry Falls
 
 The boundaries between us and the children of others has been a topic here on Motherlode this week. Laura Shumaker raised it in her [essay](https://web.archive.org/web/20120510235943/http://parenting.blogs.nytimes.com/2010/12/07/a-child-wanders-neighbors-whisper/) about how quickly gossip spreads when a mother might possibly have done wrong. A reader touched on it [when asking](https://web.archive.org/web/20120510235943/http://parenting.blogs.nytimes.com/2010/12/06/when-siblings-parent-differently/) how to integrate sharply different parenting styles when siblings come together for the holidays. And in a guest post today [Nicole Blades](https://web.archive.org/web/20120510235943/http://parenting.blogs.nytimes.com/2010/08/11/when-mom-is-mistaken-for-the-nanny/) (who blogs at [MsMaryMack.com](https://web.archive.org/web/20120510235943/http://msmarymack.com/)), continues the conversation, wondering what are the rules when disciplining someone else’s child.
 
-**PLAYGROUND POLITICS**  
+**PLAYGROUND POLITICS**
 By Nicole Blades
 
 A couple of months ago, my son was happily exploring a local playground. I was tracking him — close, but not hovering. When he got to the top of the kiddie structure, he started playing with his truck, running it along the edge of a cedar beam.

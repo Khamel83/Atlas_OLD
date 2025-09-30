@@ -617,7 +617,7 @@ table a {
     <svg x-cloak x-show="expanded === true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="357px" height="357px" viewbox="0 0 357 357">
       <g>
         <g id="close">
-          <polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
+          <polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3
 			214.2,178.5 		"/>
         </g>
       </g>
@@ -983,13 +983,13 @@ $(function() {
       </li>
       <li>
         <a href="summary.php?cycle=2020&amp;ind=A">Money to Congress</a>
-      </li>	 
+      </li>
       <li>
         <a class="active-tab" href="contrib.php?cycle=2020&amp;ind=A">Contributors</a>
-      </li>	 
+      </li>
       <li>
         <a href="recips.php?cycle=2020&amp;ind=A">Recipients</a>
-      </li>	 
+      </li>
       <li>
         <a href="news.php?cycle=2020&amp;ind=A">News</a>
       </li>
@@ -1027,7 +1027,7 @@ function stopInterval(interval) {
 
 }
 
-function initiateChart(){ 
+function initiateChart(){
 		if (typeof FusionCharts === "function" && FusionCharts("split") && FusionCharts("split").dispose) {
 			FusionCharts("split").dispose();
 		}
@@ -1055,7 +1055,7 @@ function stopInterval(interval) {
 
 }
 
-function initiateChart(){ 
+function initiateChart(){
 		if (typeof FusionCharts === "function" && FusionCharts("parties") && FusionCharts("parties").dispose) {
 			FusionCharts("parties").dispose();
 		}
@@ -1075,7 +1075,7 @@ let fusionInterval_parties = setInterval(initiateChart, 3000);
 <div id="showhide"><a id="toggle">Toggle Party/Viewpoint percentages</a></div><table class="datadisplay" style="border-collapse:collapse;border:0;font-size:.85em;" id="datatable"><thead><tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th style="border-left:1px solid #fff;" colspan="3" class="party">To Candidates and Parties</th><th style="border-left:1px solid #fff;" colspan="1" class="libcon">To Candidates and Parties</th><th style="border-left:1px solid #fff;" colspan="1" class="party">To Outside Spending Groups</th><th style="border-left:1px solid #fff;" colspan="3" class="libcon">To Outside Spending Groups</th></tr><tr><th nowrap>Rank</th><th>Contributor</th><th nowrap>Total Contribs</th><th style="border-left:1px solid #fff;" class="sorttable_numeric" nowrap>Total</th><th class="party">Dem%</th><th class="party">Repub%</th><th style="border-left:1px solid #fff;" class="sorttable_numeric" nowrap>Total</th><th class="libcon">Liberal %</th><th class="libcon">Conserv %</th></thead><tbody><tr><td class="center">1</td><td>Reyes Holdings</td><td class="number total">$20,073,305</td><td class="number">$1,566,595</td><td class="number party">1.3%</td><td class="number party">98.7%</td><td class="number">$18,506,600</td><td class="number libcon">0.0%</td><td class="number libcon">100.0%</td><tr><td class="center">2</td><td>Mountaire Corp</td><td class="number total">$14,689,686</td><td class="number">$1,864,673</td><td class="number party">0.1%</td><td class="number party">99.9%</td><td class="number">$12,825,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">3</td><td>British American Tobacco</td><td class="number total">$4,050,261</td><td class="number">$549,852</td><td class="number party">15.5%</td><td class="number party">84.5%</td><td class="number">$3,520,250</td><td class="number libcon">0.0%</td><td class="number libcon">100.0%</td><tr><td class="center">4</td><td>American Crystal Sugar</td><td class="number total" style="background-color:#9DB68C;">$3,465,748</td><td class="number">$2,960,483</td><td class="number party">54.4%</td><td class="number party">45.6%</td><td class="number">$505,000</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">5</td><td>Fanjul Corp</td><td class="number total">$3,045,274</td><td class="number">$2,162,774</td><td class="number party">22.4%</td><td class="number party">77.6%</td><td class="number">$882,500</td><td class="number libcon">11.7%</td><td class="number libcon">88.3%</td><tr><td class="center">6</td><td>Grimmway Enterprises</td><td class="number total">$2,644,539</td><td class="number">$2,579,339</td><td class="number party">0%</td><td class="number party">100.0%</td><td class="number">$90,200</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">7</td><td>Altria Group</td><td class="number total" style="background-color:#9DB68C;">$2,590,687</td><td class="number">$1,544,654</td><td class="number party">34.8%</td><td class="number party">65.2%</td><td class="number">$1,045,639</td><td class="number libcon">3.4%</td><td class="number libcon">96.6%</td><tr><td class="center">8</td><td>Publix Super Markets</td><td class="number total" style="background-color:#9DB68C;">$2,026,389</td><td class="number">$1,567,919</td><td class="number party">25.0%</td><td class="number party">74.8%</td><td class="number">$455,750</td><td class="number libcon">0.4%</td><td class="number libcon">99.6%</td><tr><td class="center">9</td><td>Lmbi LP</td><td class="number total">$1,816,200</td><td class="number">$616,200</td><td class="number party">0%</td><td class="number party">100.0%</td><td class="number">$1,200,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">10</td><td>Jack Link's Beef Jerky</td><td class="number total">$1,410,325</td><td class="number">$1,410,310</td><td class="number party">0.0%</td><td class="number party">100.0%</td><td class="number">$0</td><td class="number libcon">0%</td><td class="number libcon">0%</td><tr><td class="center">11</td><td>McKee Foods</td><td class="number total">$1,390,034</td><td class="number">$1,351,419</td><td class="number party">1.0%</td><td class="number party">99.0%</td><td class="number">$38,565</td><td class="number libcon">0.2%</td><td class="number libcon">99.8%</td><tr><td class="center">12</td><td>Morning Star Co</td><td class="number total">$1,293,371</td><td class="number">$273,079</td><td class="number party">0.9%</td><td class="number party">41.5%</td><td class="number">$1,020,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">13</td><td>Wonderful Co</td><td class="number total">$1,230,263</td><td class="number">$1,059,891</td><td class="number party">97.6%</td><td class="number party">1.6%</td><td class="number">$170,700</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">14</td><td>KapStone Paper &amp; Packaging</td><td class="number total">$1,045,276</td><td class="number">$45,156</td><td class="number party">4.5%</td><td class="number party">95.5%</td><td class="number">$1,000,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">15</td><td>Kroger Co</td><td class="number total" style="background-color:#9DB68C;">$1,034,110</td><td class="number">$1,021,954</td><td class="number party">57.7%</td><td class="number party">41.4%</td><td class="number">$7,349</td><td class="number libcon">88.4%</td><td class="number libcon">11.6%</td><tr><td class="center">16</td><td>Deere &amp; Co</td><td class="number total" style="background-color:#9DB68C;">$1,030,815</td><td class="number">$1,027,591</td><td class="number party">37.5%</td><td class="number party">62.4%</td><td class="number">$2,639</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">17</td><td>Fat Apple Farm</td><td class="number total">$1,025,367</td><td class="number">$1,014,010</td><td class="number party">100.0%</td><td class="number party">0%</td><td class="number">$1,011,357</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">18</td><td>International Paper</td><td class="number total" style="background-color:#9DB68C;">$1,011,405</td><td class="number">$1,006,008</td><td class="number party">41.5%</td><td class="number party">58.4%</td><td class="number">$4,319</td><td class="number libcon">69.9%</td><td class="number libcon">30.1%</td><tr><td class="center">19</td><td>Farm Credit Council</td><td class="number total">$961,485</td><td class="number">$960,985</td><td class="number party">34.8%</td><td class="number party">65.0%</td><td class="number">$500</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">20</td><td>Ocean Star International</td><td class="number total">$899,539</td><td class="number">$899,539</td><td class="number party">0.0%</td><td class="number party">100.0%</td><td class="number">$0</td><td class="number libcon">0%</td><td class="number libcon">0%</td></tbody></table>	</div>
 
 <div id="profileRightColumn">
-        
+
 <style>#indus_search {padding: 15px 15px 1px 15px;}</style>
 <div id="indus_search">
 
@@ -1104,7 +1104,7 @@ let fusionInterval_parties = setInterval(initiateChart, 3000);
 </form>
 
 <form action="/web/20230604212925/https://www.opensecrets.org/industries/contrib.php" method="get" name="sector_switch" id="sector_switch">
-        
+
         <strong>Pick another Sector:</strong>
 			<select name="ind" class="textfield" id="indcode" style="margin-left:0;">
 
@@ -1130,8 +1130,8 @@ let fusionInterval_parties = setInterval(initiateChart, 3000);
 		<input name="key" type="text" class="textfield" id="searchdatafield2" style="width:205px;" placeholder="Enter at least 3 characters" onfocus="clearDefault(this)">
 		<button type="submit" id="section_search" class="btn btn-default" style="margin-top:-10px;margin-left: 0px;"><i class="fa fa-search"></i></button>
     </form>
-	
-	
+
+
 </div>
         <div id="findreps" class="pt-4">
     <strong>Find Your Representatives</strong>
@@ -1140,7 +1140,7 @@ let fusionInterval_parties = setInterval(initiateChart, 3000);
     <input type="hidden" id="type" name="type" value="zip">
     <button type="submit" id="section_search" class="btn btn-default"><i class="fa fa-search"></i></button>
     </form>
-</div>        
+</div>
     </div>
 
 <div id="disclaimer">
@@ -1163,10 +1163,10 @@ let fusionInterval_parties = setInterval(initiateChart, 3000);
 	}
 </style>
 
-<p>METHODOLOGY: The numbers on this page are based on contributions from donors (individuals as well as corporations 
-		and unions that give directly from their treasuries) to outside groups and from PACs (including super PACs) and individuals 
-		giving more than $200 to candidates and party committees. <span style="color:red;font-weight:bold;font-style:italic;">In 
-		many cases, the organizations themselves did not donate; rather the money came from the organization's PAC, its individual 
+<p>METHODOLOGY: The numbers on this page are based on contributions from donors (individuals as well as corporations
+		and unions that give directly from their treasuries) to outside groups and from PACs (including super PACs) and individuals
+		giving more than $200 to candidates and party committees. <span style="color:red;font-weight:bold;font-style:italic;">In
+		many cases, the organizations themselves did not donate; rather the money came from the organization's PAC, its individual
 		members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.</span>
 		</p>
 	<p>All donations took place during the 2019-2020 election cycle and were released by the Federal Election Commission on Monday, March 22, 2021.</p><p class="smallText">Feel free to distribute or cite this material, but please credit OpenSecrets. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: &#105;&#110;&#102;&#111;&#064;&#099;&#114;&#112;&#046;&#111;&#114;&#103;</p>	</div>

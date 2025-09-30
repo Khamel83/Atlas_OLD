@@ -195,7 +195,7 @@ python3 smart_transcription.py --status
 ```
 Shows:
 - Processing queue counts by status
-- Mac Mini connection status  
+- Mac Mini connection status
 - Recent processing activity
 - Prioritized podcasts count
 
@@ -208,7 +208,7 @@ Shows:
 
 1. **SSH Access**: Key-based authentication to Mac Mini
 2. **Whisper Installation**: `pip install openai-whisper`
-3. **Working Directory**: `/tmp/atlas-transcription/` 
+3. **Working Directory**: `/tmp/atlas-transcription/`
 4. **Network Access**: Ability to download podcast audio files
 5. **Storage**: Temporary space for audio files during processing
 
@@ -228,7 +228,7 @@ Shows:
 ✅ **All requirements implemented:**
 
 1. ✅ Check Transcript_Only flag per podcast
-2. ✅ Search for existing transcripts first  
+2. ✅ Search for existing transcripts first
 3. ✅ Only download audio if transcript unavailable AND needed
 4. ✅ Mac Mini local transcription processing
 5. ✅ Universal processing queue (no competing parallel processes)

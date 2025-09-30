@@ -126,7 +126,7 @@ So I want readers to understand that Islamophobia is comprehensive: that it’s 
 
 I also think it’s a cornerstone racial justice issue, and I hope that that commitment [to fighting Islamophobia] doesn’t fade away when Trump steps down.
 
-See More: 
+See More:
 
 * [Life](/web/20241207093208/https://www.vox.com/life)
 * [Politics](/web/20241207093208/https://www.vox.com/politics)

@@ -144,22 +144,22 @@ rsync -avz -e "ssh -i ~/.ssh/atlas_backup" "$TEMP_DIR/" "$REMOTE_USER@$REMOTE_HO
 
 if [ $? -eq 0 ]; then
     log_message "Backup sync completed successfully"
-    
+
     # Create timestamped backup directory
     TIMESTAMP=$(date +%Y%m%d_%H%M%S)
     ssh -i ~/.ssh/atlas_backup "$REMOTE_USER@$REMOTE_HOST" "mkdir -p $REMOTE_PATH/$TIMESTAMP && cp -r $REMOTE_PATH/latest/* $REMOTE_PATH/$TIMESTAMP/" >> $LOG_FILE 2>&1
-    
+
     if [ $? -eq 0 ]; then
         log_message "Timestamped backup created: $TIMESTAMP"
     else
         log_message "WARNING: Failed to create timestamped backup"
     fi
-    
+
     # Send success email notification
     python3 /home/ubuntu/dev/atlas/backup/send_local_notification.py "SUCCESS" "Local backup sync completed successfully"
 else
     log_message "ERROR: Backup sync failed"
-    
+
     # Send failure email notification
     python3 /home/ubuntu/dev/atlas/backup/send_local_notification.py "FAILURE" "Local backup sync failed"
     rm -rf "$TEMP_DIR"
@@ -214,18 +214,18 @@ def send_email(status, message):
     sender_email = os.environ.get('EMAIL_SENDER')
     sender_password = os.environ.get('EMAIL_PASSWORD')
     recipient_email = os.environ.get('EMAIL_RECIPIENT')
-    
+
     # Validate required environment variables
     if not all([sender_email, sender_password, recipient_email]):
         print("Error: Missing email configuration environment variables")
         return False
-    
+
     # Create message
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"Atlas Local Backup {status}"
     msg["From"] = sender_email
     msg["To"] = recipient_email
-    
+
     # Create text part
     text = f"""
 Atlas Local Backup Notification
@@ -235,10 +235,10 @@ Message: {message}
 
 This is an automated message from your Atlas local backup system.
 """
-    
+
     text_part = MIMEText(text, "plain")
     msg.attach(text_part)
-    
+
     # Send email
     try:
         context = ssl.create_default_context()
@@ -246,7 +246,7 @@ This is an automated message from your Atlas local backup system.
             server.starttls(context=context)
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, recipient_email, msg.as_string())
-        
+
         print(f"Local backup email notification sent: {status}")
         return True
     except Exception as e:
@@ -257,10 +257,10 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: send_local_notification.py <status> <message>")
         sys.exit(1)
-    
+
     status = sys.argv[1]
     message = sys.argv[2]
-    
+
     if send_email(status, message):
         sys.exit(0)
     else:
@@ -401,7 +401,7 @@ remote_count=$(ssh -i ~/.ssh/atlas_backup "$REMOTE_USER@$REMOTE_HOST" "ls -1 $RE
 
 if [ $? -eq 0 ]; then
     log_message "Remote backups found: $remote_count"
-    
+
     if [ "$local_count" -eq "$remote_count" ]; then
         log_message "Backup verification successful: counts match"
         exit 0

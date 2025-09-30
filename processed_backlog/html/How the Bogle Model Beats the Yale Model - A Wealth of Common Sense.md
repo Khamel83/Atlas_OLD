@@ -13,7 +13,7 @@ So every year when the NACUBO-Commonfund Study of Endowments comes out you can b
 
 As I’ve done in the past, I broke down these numbers to see how things stacked up against a simple Vanguard 3-fund portfolio\* which I have labeled the Bogle Model:
 
-![screen-shot-2017-02-03-at-2-00-07-pm](https://awealthofcommonsense.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-03-at-2.00.07-PM.png)  
+![screen-shot-2017-02-03-at-2-00-07-pm](https://awealthofcommonsense.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-03-at-2.00.07-PM.png)
 I have to say that the numbers this year surprised me. I would expect the simple index fund portfolio to beat the average returns (that’s just math), but the fact that the Bogle Model portfolio was in the top quartile and even top decile of endowment returns is insane when you consider the depths these universities will go try to beat the market and how sophisticated they are in the eyes of other professional investors.
 
 These funds are invested in venture capital, private equity, infrastructure, private real estate, timber, the best hedge funds money can buy; they have access to the best stock and bond fund managers; they use leverage; they invest in complicated derivatives; they use the biggest and most connected consultants, and the vast majority of these funds still fail to beat a low-cost Vanguard index fund portfolio.
@@ -39,7 +39,7 @@ This has nothing to do with active vs. passive investing. This is all about simp
 
 That’s why the simple, efficient, high-probability Bogle Model wins.
 
-Further Reading:  
+Further Reading:
 [How to Improve the Alternative Asset Management Industry](https://awealthofcommonsense.com/2016/09/how-to-improve-the-alternative-asset-management-industry/)
 
 *\*The Vanguard portfolio is made up of the Total U.S. Stock Market Index Fund (40%), the Total International Stock Market Index Fund (20%) and the Total Bond Market Index Fund (40%). The total cost of this portfolio is a rounding error at around 0.07% in the ETF versions of these funds.*

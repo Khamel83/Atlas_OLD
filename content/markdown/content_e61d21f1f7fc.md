@@ -125,11 +125,11 @@ if ( contentWidthPreference === 'expanded' ) {
 		<div class="sitenotice-wrapper"><div class="sitenotice-wrapper__header"><p class="sitenotice-wrapper__title">Wookieepedia</p><button class="sitenotice-wrapper__close wds-button wds-is-text wds-is-square" type="button"><svg class="wds-icon wds-icon-tiny" aria-hidden="true" focusable="false"><use xlink:href="#wds-icons-close-tiny"></use></svg></button></div><div class="sitenotice-wrapper__content"><div id="localNotice" data-nosnippet=""><div class="anonnotice" lang="en" dir="ltr"><p>To remove ads, <a href="/wiki/Special:Signup" title="Special:Signup"><b>create an account</b></a>.<br /><a href="/wiki/Wookieepedia:Welcome,_newcomers" title="Wookieepedia:Welcome, newcomers"><b>Join Wookieepedia today!</b></a>
 </p></div></div></div><div class="sitenotice-wrapper__read-more"><p>READ MORE</p></div></div>		<div class="banner-notifications-placeholder">
 			<div class="wds-banner-notification__container">
-	
+
 </div>
 		</div>
 	</div>
-	
+
 <nav class="global-top-navigation" id="global-top-navigation" aria-label="Fandom top navigation">
 	<a
 	href="https://www.fandom.com/"
@@ -159,7 +159,7 @@ if ( contentWidthPreference === 'expanded' ) {
 </div>
 			</div>
 </nav>
-	
+
 <div id="community-navigation"
 	 class="community-navigation fandom-sticky-header"
 	 aria-label="Community navigation">
@@ -173,13 +173,13 @@ if ( contentWidthPreference === 'expanded' ) {
 	>
 		<svg class="wds-icon"><use xlink:href="#wds-brand-fandom-logomark"></use></svg>	</a>
 </div>
-	
+
 <a href="https://starwars.fandom.com" class="fandom-sticky-header__sitename" data-tracking-label="community-name">
 	Wookieepedia</a>
-	
+
 <nav class="fandom-community-header__local-navigation">
 	<ul class="wds-tabs">
-					
+
 			<li class="wds-dropdown explore-menu">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="#"
@@ -190,7 +190,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Main_Page"
 			   data-tracking="explore-main-page"
@@ -198,7 +198,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon-tiny wds-icon navigation-item-icon"><use xlink:href="#wds-icons-home-tiny"></use></svg>				<span>Main Page</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="/f"
 			   data-tracking="explore-discuss"
@@ -206,7 +206,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon-tiny wds-icon navigation-item-icon"><use xlink:href="#wds-icons-discussions-tiny"></use></svg>				<span>Discuss</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllPages"
 			   data-tracking="explore-all-pages"
@@ -214,7 +214,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>All Pages</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Community"
 			   data-tracking="explore-community"
@@ -222,7 +222,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Community</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllMaps"
 			   data-tracking="interactive-maps"
@@ -233,7 +233,7 @@ if ( contentWidthPreference === 'expanded' ) {
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="#"
@@ -244,7 +244,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:2025_releases"
 			   class="wds-dropdown-level-nested__toggle"
@@ -254,7 +254,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel"
 			   data-tracking="custom-level-3"
@@ -262,7 +262,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Sanctuary: A Bad Batch Novel</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Han_Solo_-_Hunt_for_the_Falcon"
 			   data-tracking="custom-level-3"
@@ -270,7 +270,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Hunt for the Falcon</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/LEGO_Star_Wars:_Rebuild_the_Galaxy:_Pieces_of_the_Past"
 			   data-tracking="custom-level-3"
@@ -278,7 +278,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>LEGO Star Wars: Rebuild the Galaxy: Pieces of the Past</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Last_Order"
 			   data-tracking="custom-level-3"
@@ -286,7 +286,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Last Order</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3"
 			   data-tracking="custom-level-3"
@@ -297,7 +297,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel"
 			   class="wds-dropdown-level-nested__toggle"
@@ -307,7 +307,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Omega"
 			   data-tracking="custom-level-3"
@@ -315,7 +315,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Omega</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Hunter"
 			   data-tracking="custom-level-3"
@@ -323,7 +323,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Hunter</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wrecker"
 			   data-tracking="custom-level-3"
@@ -331,7 +331,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Wrecker</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tech"
 			   data-tracking="custom-level-3"
@@ -339,7 +339,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tech</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Sohi"
 			   data-tracking="custom-level-3"
@@ -347,7 +347,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Sohi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ponder"
 			   data-tracking="custom-level-3"
@@ -355,7 +355,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Ponder</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Clone_Force_99"
 			   data-tracking="custom-level-3"
@@ -363,7 +363,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Clone Force 99</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Galactic_Empire"
 			   data-tracking="custom-level-3"
@@ -374,7 +374,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Knights"
 			   class="wds-dropdown-level-nested__toggle"
@@ -384,7 +384,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Qui-Gon_Jinn"
 			   data-tracking="custom-level-3"
@@ -392,7 +392,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Qui-Gon Jinn</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Obi-Wan_Kenobi"
 			   data-tracking="custom-level-3"
@@ -400,7 +400,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Obi-Wan Kenobi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Dooku"
 			   data-tracking="custom-level-3"
@@ -408,7 +408,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Dooku</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Berem_Khana"
 			   data-tracking="custom-level-3"
@@ -416,7 +416,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Berem Khana</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Seera_Longa"
 			   data-tracking="custom-level-3"
@@ -424,7 +424,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Seera Longa</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Vetna_Mooncrest"
 			   data-tracking="custom-level-3"
@@ -432,7 +432,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Vetna Mooncrest</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Atha_Prime"
 			   data-tracking="custom-level-3"
@@ -440,7 +440,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Atha Prime</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Corlis_Rath"
 			   data-tracking="custom-level-3"
@@ -448,7 +448,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Corlis Rath</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Yoda"
 			   data-tracking="custom-level-3"
@@ -456,7 +456,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Yoda</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Mace_Windu"
 			   data-tracking="custom-level-3"
@@ -467,7 +467,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic"
 			   class="wds-dropdown-level-nested__toggle"
@@ -477,7 +477,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Adult_novels_%26_audio_drama"
 			   class="wds-dropdown-level-nested__toggle"
@@ -487,7 +487,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Trials_of_the_Jedi"
 			   data-tracking="custom-level-4"
@@ -495,7 +495,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Trials of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Tempest_Breaker"
 			   data-tracking="custom-level-4"
@@ -503,7 +503,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tempest Breaker</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Seeds_of_Starlight"
 			   data-tracking="custom-level-4"
@@ -511,7 +511,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Seeds of Starlight</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Temptation_of_the_Force"
 			   data-tracking="custom-level-4"
@@ -519,7 +519,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Temptation of the Force</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_The_Eye_of_Darkness"
 			   data-tracking="custom-level-4"
@@ -530,7 +530,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Young-adult_novels"
 			   class="wds-dropdown-level-nested__toggle"
@@ -540,7 +540,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Into_the_Light"
 			   data-tracking="custom-level-4"
@@ -548,7 +548,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Into the Light</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Tears_of_the_Nameless"
 			   data-tracking="custom-level-4"
@@ -556,7 +556,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tears of the Nameless</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Defy_the_Storm"
 			   data-tracking="custom-level-4"
@@ -567,7 +567,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Middle-grade_novels"
 			   class="wds-dropdown-level-nested__toggle"
@@ -577,7 +577,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_A_Valiant_Vow"
 			   data-tracking="custom-level-4"
@@ -585,7 +585,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>A Valiant Vow</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Beware_the_Nameless"
 			   data-tracking="custom-level-4"
@@ -593,7 +593,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Beware the Nameless</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Escape_from_Valo"
 			   data-tracking="custom-level-4"
@@ -604,7 +604,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Comics"
 			   class="wds-dropdown-level-nested__toggle"
@@ -614,7 +614,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_(Marvel_Comics_2023)"
 			   data-tracking="custom-level-4"
@@ -622,7 +622,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The High Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_%E2%80%93_Fear_of_the_Jedi"
 			   data-tracking="custom-level-4"
@@ -630,7 +630,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Fear of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_(Dark_Horse_Comics_2023)"
 			   data-tracking="custom-level-4"
@@ -638,7 +638,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The High Republic Adventures</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93_Dispatches_from_the_Occlusion_Zone"
 			   data-tracking="custom-level-4"
@@ -646,7 +646,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Dispatches from the Occlusion Zone</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93Echoes_of_Fear"
 			   data-tracking="custom-level-4"
@@ -654,7 +654,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The High Republic Adventures – Echoes of Fear</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93_Saber_for_Hire"
 			   data-tracking="custom-level-4"
@@ -662,7 +662,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The High Republic Adventures – Saber for Hire</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic:_Shadows_of_Starlight"
 			   data-tracking="custom-level-4"
@@ -676,7 +676,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Legacy_of_Vader"
 			   class="wds-dropdown-level-nested__toggle"
@@ -686,7 +686,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Kylo_Ren"
 			   data-tracking="custom-level-3"
@@ -694,7 +694,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Kylo Ren</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Mustafar"
 			   data-tracking="custom-level-3"
@@ -702,7 +702,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Mustafar</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Anakin_Skywalker"
 			   data-tracking="custom-level-3"
@@ -710,7 +710,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Darth Vader</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Fortress_Vader"
 			   data-tracking="custom-level-3"
@@ -718,7 +718,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Fortress Vader</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Vane%C3%A9"
 			   data-tracking="custom-level-3"
@@ -726,7 +726,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Vaneé</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Armitage_Hux"
 			   data-tracking="custom-level-3"
@@ -734,7 +734,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Armitage Hux</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tava_Ren"
 			   data-tracking="custom-level-3"
@@ -742,7 +742,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tava Ren</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/First_Order"
 			   data-tracking="custom-level-3"
@@ -750,7 +750,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>First Order</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Naboo"
 			   data-tracking="custom-level-3"
@@ -758,7 +758,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Naboo</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Grandea"
 			   data-tracking="custom-level-3"
@@ -772,7 +772,7 @@ if ( contentWidthPreference === 'expanded' ) {
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Star_Wars"
@@ -783,7 +783,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_saga"
 			   class="wds-dropdown-level-nested__toggle"
@@ -793,7 +793,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace"
 			   data-tracking="custom-level-3"
@@ -801,7 +801,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Phantom Menace</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones"
 			   data-tracking="custom-level-3"
@@ -809,7 +809,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Attack of the Clones</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith"
 			   data-tracking="custom-level-3"
@@ -817,7 +817,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Revenge of the Sith</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope"
 			   data-tracking="custom-level-3"
@@ -825,7 +825,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>A New Hope</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back"
 			   data-tracking="custom-level-3"
@@ -833,7 +833,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Empire Strikes Back</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi"
 			   data-tracking="custom-level-3"
@@ -841,7 +841,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Return of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens"
 			   data-tracking="custom-level-3"
@@ -849,7 +849,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Force Awakens</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VIII_The_Last_Jedi"
 			   data-tracking="custom-level-3"
@@ -857,7 +857,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Last Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IX_The_Rise_of_Skywalker"
 			   data-tracking="custom-level-3"
@@ -868,7 +868,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Stand-alone_films"
 			   class="wds-dropdown-level-nested__toggle"
@@ -878,7 +878,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Canon"
 			   class="wds-dropdown-level-nested__toggle"
@@ -888,7 +888,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars_(film)"
 			   data-tracking="custom-level-4"
@@ -896,7 +896,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story"
 			   data-tracking="custom-level-4"
@@ -904,7 +904,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Rogue One</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Solo:_A_Star_Wars_Story"
 			   data-tracking="custom-level-4"
@@ -912,7 +912,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Solo</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Mandalorian_%26_Grogu"
 			   data-tracking="custom-level-4"
@@ -920,7 +920,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Mandalorian & Grogu</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Dave_Filoni)"
 			   data-tracking="custom-level-4"
@@ -928,7 +928,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>New Republic Era film (Filoni)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Sharmeen_Obaid-Chinoy)"
 			   data-tracking="custom-level-4"
@@ -936,7 +936,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>New Jedi Order film (Obaid-Chinoy)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(James_Mangold)"
 			   data-tracking="custom-level-4"
@@ -944,7 +944,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Dawn of the Jedi film (Mangold)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Lando_(film)"
 			   data-tracking="custom-level-4"
@@ -955,7 +955,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Legends"
 			   class="wds-dropdown-level-nested__toggle"
@@ -965,7 +965,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Caravan_of_Courage:_An_Ewok_Adventure"
 			   data-tracking="custom-level-4"
@@ -973,7 +973,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Caravan of Courage</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ewoks:_The_Battle_for_Endor"
 			   data-tracking="custom-level-4"
@@ -981,7 +981,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Battle for Endor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Star_Wars_Holiday_Special"
 			   data-tracking="custom-level-4"
@@ -995,7 +995,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Live-action_television_series"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1005,7 +1005,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Mandalorian"
 			   data-tracking="custom-level-3"
@@ -1013,7 +1013,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Mandalorian</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Temple_Challenge"
 			   data-tracking="custom-level-3"
@@ -1021,7 +1021,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Jedi Temple Challenge</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Book_of_Boba_Fett"
 			   data-tracking="custom-level-3"
@@ -1029,7 +1029,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Book of Boba Fett</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Obi-Wan_Kenobi_(television_series)"
 			   data-tracking="custom-level-3"
@@ -1037,7 +1037,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Obi-Wan Kenobi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Andor_(television_series)"
 			   data-tracking="custom-level-3"
@@ -1045,7 +1045,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Andor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ahsoka_(television_series)"
 			   data-tracking="custom-level-3"
@@ -1053,7 +1053,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Ahsoka</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Acolyte"
 			   data-tracking="custom-level-3"
@@ -1061,7 +1061,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Acolyte</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Skeleton_Crew"
 			   data-tracking="custom-level-3"
@@ -1072,7 +1072,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Animated_television_series"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1082,7 +1082,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Canon"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1092,7 +1092,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -1100,7 +1100,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Rebels"
 			   data-tracking="custom-level-4"
@@ -1108,7 +1108,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Rebels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Resistance"
 			   data-tracking="custom-level-4"
@@ -1116,7 +1116,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Resistance</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch"
 			   data-tracking="custom-level-4"
@@ -1124,7 +1124,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Bad Batch</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tales"
 			   data-tracking="custom-level-4"
@@ -1132,7 +1132,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tales</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Young_Jedi_Adventures"
 			   data-tracking="custom-level-4"
@@ -1143,7 +1143,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Legends"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1153,7 +1153,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Droids:_The_Adventures_of_R2-D2_and_C-3PO"
 			   data-tracking="custom-level-4"
@@ -1161,7 +1161,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Droids</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ewoks_(TV_series)"
 			   data-tracking="custom-level-4"
@@ -1169,7 +1169,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Ewoks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -1177,7 +1177,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -1188,7 +1188,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Visions"
 			   data-tracking="custom-level-3"
@@ -1199,7 +1199,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_games"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1209,7 +1209,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_board_games"
 			   data-tracking="custom-level-3"
@@ -1217,7 +1217,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Board games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_card_games"
 			   data-tracking="custom-level-3"
@@ -1225,7 +1225,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Card games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Miniatures_games"
 			   data-tracking="custom-level-3"
@@ -1233,7 +1233,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Miniatures games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Roleplaying_games"
 			   data-tracking="custom-level-3"
@@ -1241,7 +1241,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Roleplaying games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_attractions"
 			   data-tracking="custom-level-3"
@@ -1249,7 +1249,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Real-world attractions</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Computer_and_video_games"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1259,7 +1259,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:X-Wing_computer_games"
 			   data-tracking="custom-level-4"
@@ -1267,7 +1267,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>X-Wing/TIE Fighter</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Dark_Forces/Jedi_Knight"
 			   data-tracking="custom-level-4"
@@ -1275,7 +1275,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Dark Forces/Jedi Knight</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -1283,7 +1283,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Knights of the Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Battlefront_(series)"
 			   data-tracking="custom-level-4"
@@ -1291,7 +1291,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Battlefront</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed"
 			   data-tracking="custom-level-4"
@@ -1299,7 +1299,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Force Unleashed</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -1307,7 +1307,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Jedi"
 			   data-tracking="custom-level-4"
@@ -1315,7 +1315,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Jedi series</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:LEGO_video_games"
 			   data-tracking="custom-level-4"
@@ -1326,7 +1326,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Virtual_reality_games"
 			   data-tracking="custom-level-3"
@@ -1337,7 +1337,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_books"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1347,7 +1347,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Audiobooks"
 			   data-tracking="custom-level-3"
@@ -1355,7 +1355,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Audiobooks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Comics"
 			   data-tracking="custom-level-3"
@@ -1363,7 +1363,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Comics</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_cookbooks"
 			   data-tracking="custom-level-3"
@@ -1371,7 +1371,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Cookbooks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Game_books"
 			   data-tracking="custom-level-3"
@@ -1379,7 +1379,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Game books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Magazines"
 			   data-tracking="custom-level-3"
@@ -1387,7 +1387,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Magazines</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Music_books"
 			   data-tracking="custom-level-3"
@@ -1395,7 +1395,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Music books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Reference_books"
 			   data-tracking="custom-level-3"
@@ -1403,7 +1403,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Reference books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Short_stories"
 			   data-tracking="custom-level-3"
@@ -1411,7 +1411,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Short stories</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Star_Wars_novels"
 			   data-tracking="custom-level-3"
@@ -1419,7 +1419,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Novels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Young_Readers"
 			   data-tracking="custom-level-3"
@@ -1433,7 +1433,7 @@ if ( contentWidthPreference === 'expanded' ) {
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Main_Page"
@@ -1444,7 +1444,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Star_Wars"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1454,7 +1454,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllPages"
 			   data-tracking="custom-level-3"
@@ -1462,7 +1462,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Content A-Z</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_status_articles"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1472,7 +1472,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_articles"
 			   data-tracking="custom-level-4"
@@ -1480,7 +1480,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Featured articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_articles"
 			   data-tracking="custom-level-4"
@@ -1488,7 +1488,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Good articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_articles"
 			   data-tracking="custom-level-4"
@@ -1499,7 +1499,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Browse"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1509,7 +1509,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Society_and_culture"
 			   data-tracking="custom-level-4"
@@ -1517,7 +1517,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Culture</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Droids"
 			   data-tracking="custom-level-4"
@@ -1525,7 +1525,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Droids</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Events"
 			   data-tracking="custom-level-4"
@@ -1533,7 +1533,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Events</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:The_Force"
 			   data-tracking="custom-level-4"
@@ -1541,7 +1541,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Force</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Individuals"
 			   data-tracking="custom-level-4"
@@ -1549,7 +1549,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Individuals</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Locations"
 			   data-tracking="custom-level-4"
@@ -1557,7 +1557,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Locations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Organizations"
 			   data-tracking="custom-level-4"
@@ -1565,7 +1565,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Organizations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Species"
 			   data-tracking="custom-level-4"
@@ -1573,7 +1573,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Species</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Technology"
 			   data-tracking="custom-level-4"
@@ -1581,7 +1581,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Technology</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_articles"
 			   data-tracking="custom-level-4"
@@ -1592,7 +1592,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Audio_articles_archive"
 			   data-tracking="custom-level-3"
@@ -1600,7 +1600,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Audio articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Random"
 			   data-tracking="custom-level-3"
@@ -1611,7 +1611,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Audio_files"
 			   data-tracking="custom-level-2"
@@ -1619,7 +1619,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Audio files</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Images"
 			   data-tracking="custom-level-2"
@@ -1627,7 +1627,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Images</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Lists"
 			   data-tracking="custom-level-2"
@@ -1635,7 +1635,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Lists</span>
 			</a>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Timelines"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1645,7 +1645,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Media_timelines"
 			   data-tracking="custom-level-3"
@@ -1659,7 +1659,7 @@ if ( contentWidthPreference === 'expanded' ) {
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Special:Community"
@@ -1670,7 +1670,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:About"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1680,7 +1680,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:FAQ"
 			   data-tracking="custom-level-3"
@@ -1688,7 +1688,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>FAQ</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   data-tracking="custom-level-3"
@@ -1696,7 +1696,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Become a Wookieepedian!</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Administrators"
 			   data-tracking="custom-level-3"
@@ -1704,7 +1704,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Administration</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Policies"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1714,7 +1714,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Attribution"
 			   data-tracking="custom-level-4"
@@ -1722,7 +1722,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Attribution</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Canon_policy"
 			   data-tracking="custom-level-4"
@@ -1730,7 +1730,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Canon</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Copyrights"
 			   data-tracking="custom-level-4"
@@ -1738,7 +1738,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Copyright </span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Layout_Guide"
 			   data-tracking="custom-level-4"
@@ -1746,7 +1746,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Layout Guide</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Manual_of_Style"
 			   data-tracking="custom-level-4"
@@ -1754,7 +1754,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Manual of Style</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Naming_policy"
 			   data-tracking="custom-level-4"
@@ -1762,7 +1762,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Naming</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Neutral_point_of_view"
 			   data-tracking="custom-level-4"
@@ -1770,7 +1770,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Neutral point of view</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Notability_policy"
 			   data-tracking="custom-level-4"
@@ -1778,7 +1778,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Notability</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Sourcing"
 			   data-tracking="custom-level-4"
@@ -1786,7 +1786,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Sourcing</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Spoilers"
 			   data-tracking="custom-level-4"
@@ -1797,7 +1797,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/List_of_Star_Wars_Wikis_in_other_languages"
 			   data-tracking="custom-level-3"
@@ -1808,7 +1808,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Forum:Index"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1818,7 +1818,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Consensus_track"
 			   data-tracking="custom-level-3"
@@ -1826,7 +1826,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Consensus track</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Discussions"
 			   data-tracking="custom-level-3"
@@ -1834,7 +1834,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Discussions</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Senate_Hall"
 			   data-tracking="custom-level-3"
@@ -1842,7 +1842,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Senate Hall</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Trash_compactor"
 			   data-tracking="custom-level-3"
@@ -1850,7 +1850,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Trash compactor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Wookieepedian_of_the_Month"
 			   data-tracking="custom-level-3"
@@ -1858,7 +1858,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Wookieepedian of the Month</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Requests_for_user_rights"
 			   data-tracking="custom-level-3"
@@ -1866,7 +1866,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Requests for user rights</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Review_board_membership_nominations"
 			   data-tracking="custom-level-3"
@@ -1877,7 +1877,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1887,7 +1887,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1897,7 +1897,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Project_Defender"
 			   data-tracking="custom-level-4"
@@ -1905,7 +1905,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Project Defender</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Project_Stardust"
 			   data-tracking="custom-level-4"
@@ -1916,7 +1916,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -1926,7 +1926,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Astrography"
 			   data-tracking="custom-level-4"
@@ -1934,7 +1934,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Astrography</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Chiss"
 			   data-tracking="custom-level-4"
@@ -1942,7 +1942,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Chiss</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Comics"
 			   data-tracking="custom-level-4"
@@ -1950,7 +1950,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Comics</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Creators"
 			   data-tracking="custom-level-4"
@@ -1958,7 +1958,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Creators</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Fantasy_Flight_Games"
 			   data-tracking="custom-level-4"
@@ -1966,7 +1966,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Fantasy Flight Games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Galaxy%27s_Edge"
 			   data-tracking="custom-level-4"
@@ -1974,7 +1974,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Galaxy's Edge</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Knights_of_the_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -1982,7 +1982,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Knights of the Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_LEGO"
 			   data-tracking="custom-level-4"
@@ -1990,7 +1990,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>LEGO</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Novels"
 			   data-tracking="custom-level-4"
@@ -1998,7 +1998,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Novels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Pride"
 			   data-tracking="custom-level-4"
@@ -2006,7 +2006,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Pride</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Resistance"
 			   data-tracking="custom-level-4"
@@ -2014,7 +2014,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Resistance</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -2022,7 +2022,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_High_Republic"
 			   data-tracking="custom-level-4"
@@ -2030,7 +2030,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The High Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -2038,7 +2038,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>The Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Women"
 			   data-tracking="custom-level-4"
@@ -2052,7 +2052,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Contact"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2062,7 +2062,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Administrators%27_noticeboard"
 			   data-tracking="custom-level-3"
@@ -2070,7 +2070,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Administrators' noticeboard</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Discord"
 			   data-tracking="custom-level-3"
@@ -2081,7 +2081,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2091,7 +2091,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   data-tracking="custom-level-3"
@@ -2099,7 +2099,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Tutorials</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Jundland_Wastes"
 			   data-tracking="custom-level-3"
@@ -2107,7 +2107,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Editing sandbox</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Things_to_do"
 			   data-tracking="custom-level-3"
@@ -2115,7 +2115,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Things to do</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_status_article_nomination_pages"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2125,7 +2125,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_nominations"
 			   data-tracking="custom-level-4"
@@ -2133,7 +2133,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Featured article nominations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_article_nominations"
 			   data-tracking="custom-level-4"
@@ -2141,7 +2141,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Good article nominations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_nominations"
 			   data-tracking="custom-level-4"
@@ -2152,7 +2152,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_peer_review"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2162,7 +2162,7 @@ if ( contentWidthPreference === 'expanded' ) {
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_reviews"
 			   data-tracking="custom-level-4"
@@ -2170,7 +2170,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Featured article reviews</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_article_reviews"
 			   data-tracking="custom-level-4"
@@ -2178,7 +2178,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Good article reviews</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_reviews"
 			   data-tracking="custom-level-4"
@@ -2189,7 +2189,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:RecentChanges"
 			   data-tracking="custom-level-3"
@@ -2200,7 +2200,7 @@ if ( contentWidthPreference === 'expanded' ) {
 										</ul>
 			</div>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Statistics"
 			   data-tracking="custom-level-2"
@@ -2208,7 +2208,7 @@ if ( contentWidthPreference === 'expanded' ) {
 								<span>Statistics</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeNights"
 			   data-tracking="custom-level-2"
@@ -2272,7 +2272,7 @@ if ( contentWidthPreference === 'expanded' ) {
 	<div class="global-explore-navigation__top">
 		<nav class="global-explore-navigation__nav" aria-label="Fandom navigation">
 			<div>
-				
+
 <div class="global-explore-navigation__item global-explore-navigation__item--with-icon
 global-explore-navigation__menu global-explore-navigation__panel-item">
     <button class="global-explore-navigation__button"
@@ -2310,7 +2310,7 @@ global-explore-navigation__explore global-explore-navigation__panel-item">
 
 </div>
 			<div class="global-explore-navigation__recently-visited global-explore-navigation__item" data-testid="recently-visited__container"></div>
-			
+
 <div class="global-explore-navigation__item global-explore-navigation__item--with-icon
 global-explore-navigation__history global-explore-navigation__panel-item hidden">
 	<button class="global-explore-navigation__button"
@@ -2384,10 +2384,10 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 			<svg class="wds-icon wds-icon-small"><use xlink:href="#wds-icons-moon-small"></use></svg>		</a>
 		</div>
 		</div>
-		
+
 <nav class="fandom-community-header__local-navigation">
 	<ul class="wds-tabs">
-					
+
 			<li class="wds-dropdown explore-menu">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="#"
@@ -2398,7 +2398,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Main_Page"
 			   data-tracking="explore-main-page"
@@ -2406,7 +2406,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon-tiny wds-icon navigation-item-icon"><use xlink:href="#wds-icons-home-tiny"></use></svg>				<span>Main Page</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="/f"
 			   data-tracking="explore-discuss"
@@ -2414,7 +2414,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon-tiny wds-icon navigation-item-icon"><use xlink:href="#wds-icons-discussions-tiny"></use></svg>				<span>Discuss</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllPages"
 			   data-tracking="explore-all-pages"
@@ -2422,7 +2422,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>All Pages</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Community"
 			   data-tracking="explore-community"
@@ -2430,7 +2430,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Community</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllMaps"
 			   data-tracking="interactive-maps"
@@ -2441,7 +2441,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="#"
@@ -2452,7 +2452,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:2025_releases"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2462,7 +2462,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel"
 			   data-tracking="custom-level-3"
@@ -2470,7 +2470,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Sanctuary: A Bad Batch Novel</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Han_Solo_-_Hunt_for_the_Falcon"
 			   data-tracking="custom-level-3"
@@ -2478,7 +2478,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Hunt for the Falcon</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/LEGO_Star_Wars:_Rebuild_the_Galaxy:_Pieces_of_the_Past"
 			   data-tracking="custom-level-3"
@@ -2486,7 +2486,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>LEGO Star Wars: Rebuild the Galaxy: Pieces of the Past</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Last_Order"
 			   data-tracking="custom-level-3"
@@ -2494,7 +2494,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Last Order</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Visions_Volume_3"
 			   data-tracking="custom-level-3"
@@ -2505,7 +2505,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Sanctuary:_A_Bad_Batch_Novel"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2515,7 +2515,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Omega"
 			   data-tracking="custom-level-3"
@@ -2523,7 +2523,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Omega</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Hunter"
 			   data-tracking="custom-level-3"
@@ -2531,7 +2531,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Hunter</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wrecker"
 			   data-tracking="custom-level-3"
@@ -2539,7 +2539,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Wrecker</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tech"
 			   data-tracking="custom-level-3"
@@ -2547,7 +2547,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tech</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Sohi"
 			   data-tracking="custom-level-3"
@@ -2555,7 +2555,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Sohi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ponder"
 			   data-tracking="custom-level-3"
@@ -2563,7 +2563,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Ponder</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Clone_Force_99"
 			   data-tracking="custom-level-3"
@@ -2571,7 +2571,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Clone Force 99</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Galactic_Empire"
 			   data-tracking="custom-level-3"
@@ -2582,7 +2582,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Knights"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2592,7 +2592,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Qui-Gon_Jinn"
 			   data-tracking="custom-level-3"
@@ -2600,7 +2600,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Qui-Gon Jinn</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Obi-Wan_Kenobi"
 			   data-tracking="custom-level-3"
@@ -2608,7 +2608,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Obi-Wan Kenobi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Dooku"
 			   data-tracking="custom-level-3"
@@ -2616,7 +2616,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Dooku</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Berem_Khana"
 			   data-tracking="custom-level-3"
@@ -2624,7 +2624,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Berem Khana</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Seera_Longa"
 			   data-tracking="custom-level-3"
@@ -2632,7 +2632,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Seera Longa</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Vetna_Mooncrest"
 			   data-tracking="custom-level-3"
@@ -2640,7 +2640,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Vetna Mooncrest</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Atha_Prime"
 			   data-tracking="custom-level-3"
@@ -2648,7 +2648,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Atha Prime</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Corlis_Rath"
 			   data-tracking="custom-level-3"
@@ -2656,7 +2656,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Corlis Rath</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Yoda"
 			   data-tracking="custom-level-3"
@@ -2664,7 +2664,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Yoda</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Mace_Windu"
 			   data-tracking="custom-level-3"
@@ -2675,7 +2675,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2685,7 +2685,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Adult_novels_%26_audio_drama"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2695,7 +2695,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Trials_of_the_Jedi"
 			   data-tracking="custom-level-4"
@@ -2703,7 +2703,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Trials of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Tempest_Breaker"
 			   data-tracking="custom-level-4"
@@ -2711,7 +2711,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tempest Breaker</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Seeds_of_Starlight"
 			   data-tracking="custom-level-4"
@@ -2719,7 +2719,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Seeds of Starlight</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Temptation_of_the_Force"
 			   data-tracking="custom-level-4"
@@ -2727,7 +2727,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Temptation of the Force</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_The_Eye_of_Darkness"
 			   data-tracking="custom-level-4"
@@ -2738,7 +2738,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Young-adult_novels"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2748,7 +2748,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Into_the_Light"
 			   data-tracking="custom-level-4"
@@ -2756,7 +2756,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Into the Light</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Tears_of_the_Nameless"
 			   data-tracking="custom-level-4"
@@ -2764,7 +2764,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tears of the Nameless</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Defy_the_Storm"
 			   data-tracking="custom-level-4"
@@ -2775,7 +2775,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Middle-grade_novels"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2785,7 +2785,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_A_Valiant_Vow"
 			   data-tracking="custom-level-4"
@@ -2793,7 +2793,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>A Valiant Vow</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Beware_the_Nameless"
 			   data-tracking="custom-level-4"
@@ -2801,7 +2801,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Beware the Nameless</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_High_Republic:_Escape_from_Valo"
 			   data-tracking="custom-level-4"
@@ -2812,7 +2812,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Comics"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2822,7 +2822,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_(Marvel_Comics_2023)"
 			   data-tracking="custom-level-4"
@@ -2830,7 +2830,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The High Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_%E2%80%93_Fear_of_the_Jedi"
 			   data-tracking="custom-level-4"
@@ -2838,7 +2838,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Fear of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_(Dark_Horse_Comics_2023)"
 			   data-tracking="custom-level-4"
@@ -2846,7 +2846,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The High Republic Adventures</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93_Dispatches_from_the_Occlusion_Zone"
 			   data-tracking="custom-level-4"
@@ -2854,7 +2854,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Dispatches from the Occlusion Zone</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93Echoes_of_Fear"
 			   data-tracking="custom-level-4"
@@ -2862,7 +2862,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The High Republic Adventures – Echoes of Fear</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic_Adventures_%E2%80%93_Saber_for_Hire"
 			   data-tracking="custom-level-4"
@@ -2870,7 +2870,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The High Republic Adventures – Saber for Hire</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_High_Republic:_Shadows_of_Starlight"
 			   data-tracking="custom-level-4"
@@ -2884,7 +2884,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Legacy_of_Vader"
 			   class="wds-dropdown-level-nested__toggle"
@@ -2894,7 +2894,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Kylo_Ren"
 			   data-tracking="custom-level-3"
@@ -2902,7 +2902,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Kylo Ren</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Mustafar"
 			   data-tracking="custom-level-3"
@@ -2910,7 +2910,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Mustafar</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Anakin_Skywalker"
 			   data-tracking="custom-level-3"
@@ -2918,7 +2918,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Darth Vader</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Fortress_Vader"
 			   data-tracking="custom-level-3"
@@ -2926,7 +2926,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Fortress Vader</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Vane%C3%A9"
 			   data-tracking="custom-level-3"
@@ -2934,7 +2934,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Vaneé</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Armitage_Hux"
 			   data-tracking="custom-level-3"
@@ -2942,7 +2942,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Armitage Hux</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tava_Ren"
 			   data-tracking="custom-level-3"
@@ -2950,7 +2950,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tava Ren</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/First_Order"
 			   data-tracking="custom-level-3"
@@ -2958,7 +2958,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>First Order</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Naboo"
 			   data-tracking="custom-level-3"
@@ -2966,7 +2966,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Naboo</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Grandea"
 			   data-tracking="custom-level-3"
@@ -2980,7 +2980,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Star_Wars"
@@ -2991,7 +2991,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_saga"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3001,7 +3001,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace"
 			   data-tracking="custom-level-3"
@@ -3009,7 +3009,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Phantom Menace</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones"
 			   data-tracking="custom-level-3"
@@ -3017,7 +3017,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Attack of the Clones</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith"
 			   data-tracking="custom-level-3"
@@ -3025,7 +3025,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Revenge of the Sith</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope"
 			   data-tracking="custom-level-3"
@@ -3033,7 +3033,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>A New Hope</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back"
 			   data-tracking="custom-level-3"
@@ -3041,7 +3041,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Empire Strikes Back</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi"
 			   data-tracking="custom-level-3"
@@ -3049,7 +3049,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Return of the Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens"
 			   data-tracking="custom-level-3"
@@ -3057,7 +3057,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Force Awakens</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_VIII_The_Last_Jedi"
 			   data-tracking="custom-level-3"
@@ -3065,7 +3065,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Last Jedi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Episode_IX_The_Rise_of_Skywalker"
 			   data-tracking="custom-level-3"
@@ -3076,7 +3076,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Stand-alone_films"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3086,7 +3086,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Canon"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3096,7 +3096,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars_(film)"
 			   data-tracking="custom-level-4"
@@ -3104,7 +3104,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Rogue_One:_A_Star_Wars_Story"
 			   data-tracking="custom-level-4"
@@ -3112,7 +3112,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Rogue One</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Solo:_A_Star_Wars_Story"
 			   data-tracking="custom-level-4"
@@ -3120,7 +3120,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Solo</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Mandalorian_%26_Grogu"
 			   data-tracking="custom-level-4"
@@ -3128,7 +3128,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Mandalorian & Grogu</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Dave_Filoni)"
 			   data-tracking="custom-level-4"
@@ -3136,7 +3136,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>New Republic Era film (Filoni)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(Sharmeen_Obaid-Chinoy)"
 			   data-tracking="custom-level-4"
@@ -3144,7 +3144,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>New Jedi Order film (Obaid-Chinoy)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Untitled_Star_Wars_film_(James_Mangold)"
 			   data-tracking="custom-level-4"
@@ -3152,7 +3152,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Dawn of the Jedi film (Mangold)</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Lando_(film)"
 			   data-tracking="custom-level-4"
@@ -3163,7 +3163,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Legends"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3173,7 +3173,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Caravan_of_Courage:_An_Ewok_Adventure"
 			   data-tracking="custom-level-4"
@@ -3181,7 +3181,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Caravan of Courage</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ewoks:_The_Battle_for_Endor"
 			   data-tracking="custom-level-4"
@@ -3189,7 +3189,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Battle for Endor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Star_Wars_Holiday_Special"
 			   data-tracking="custom-level-4"
@@ -3203,7 +3203,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Live-action_television_series"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3213,7 +3213,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Mandalorian"
 			   data-tracking="custom-level-3"
@@ -3221,7 +3221,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Mandalorian</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Jedi_Temple_Challenge"
 			   data-tracking="custom-level-3"
@@ -3229,7 +3229,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Jedi Temple Challenge</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Book_of_Boba_Fett"
 			   data-tracking="custom-level-3"
@@ -3237,7 +3237,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Book of Boba Fett</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Obi-Wan_Kenobi_(television_series)"
 			   data-tracking="custom-level-3"
@@ -3245,7 +3245,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Obi-Wan Kenobi</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Andor_(television_series)"
 			   data-tracking="custom-level-3"
@@ -3253,7 +3253,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Andor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ahsoka_(television_series)"
 			   data-tracking="custom-level-3"
@@ -3261,7 +3261,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Ahsoka</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/The_Acolyte"
 			   data-tracking="custom-level-3"
@@ -3269,7 +3269,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Acolyte</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Skeleton_Crew"
 			   data-tracking="custom-level-3"
@@ -3280,7 +3280,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Animated_television_series"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3290,7 +3290,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Canon"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3300,7 +3300,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -3308,7 +3308,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Rebels"
 			   data-tracking="custom-level-4"
@@ -3316,7 +3316,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Rebels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Resistance"
 			   data-tracking="custom-level-4"
@@ -3324,7 +3324,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Resistance</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Bad_Batch"
 			   data-tracking="custom-level-4"
@@ -3332,7 +3332,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Bad Batch</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Tales"
 			   data-tracking="custom-level-4"
@@ -3340,7 +3340,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tales</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Young_Jedi_Adventures"
 			   data-tracking="custom-level-4"
@@ -3351,7 +3351,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Legends"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3361,7 +3361,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Droids:_The_Adventures_of_R2-D2_and_C-3PO"
 			   data-tracking="custom-level-4"
@@ -3369,7 +3369,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Droids</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Ewoks_(TV_series)"
 			   data-tracking="custom-level-4"
@@ -3377,7 +3377,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Ewoks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -3385,7 +3385,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -3396,7 +3396,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Visions"
 			   data-tracking="custom-level-3"
@@ -3407,7 +3407,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_games"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3417,7 +3417,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_board_games"
 			   data-tracking="custom-level-3"
@@ -3425,7 +3425,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Board games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_card_games"
 			   data-tracking="custom-level-3"
@@ -3433,7 +3433,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Card games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Miniatures_games"
 			   data-tracking="custom-level-3"
@@ -3441,7 +3441,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Miniatures games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Roleplaying_games"
 			   data-tracking="custom-level-3"
@@ -3449,7 +3449,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Roleplaying games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_attractions"
 			   data-tracking="custom-level-3"
@@ -3457,7 +3457,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Real-world attractions</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Computer_and_video_games"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3467,7 +3467,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:X-Wing_computer_games"
 			   data-tracking="custom-level-4"
@@ -3475,7 +3475,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>X-Wing/TIE Fighter</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Dark_Forces/Jedi_Knight"
 			   data-tracking="custom-level-4"
@@ -3483,7 +3483,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Dark Forces/Jedi Knight</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -3491,7 +3491,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Knights of the Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Battlefront_(series)"
 			   data-tracking="custom-level-4"
@@ -3499,7 +3499,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Battlefront</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed"
 			   data-tracking="custom-level-4"
@@ -3507,7 +3507,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Force Unleashed</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -3515,7 +3515,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Star_Wars_Jedi"
 			   data-tracking="custom-level-4"
@@ -3523,7 +3523,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Jedi series</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:LEGO_video_games"
 			   data-tracking="custom-level-4"
@@ -3534,7 +3534,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Virtual_reality_games"
 			   data-tracking="custom-level-3"
@@ -3545,7 +3545,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_books"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3555,7 +3555,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Audiobooks"
 			   data-tracking="custom-level-3"
@@ -3563,7 +3563,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Audiobooks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Comics"
 			   data-tracking="custom-level-3"
@@ -3571,7 +3571,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Comics</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_cookbooks"
 			   data-tracking="custom-level-3"
@@ -3579,7 +3579,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Cookbooks</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Game_books"
 			   data-tracking="custom-level-3"
@@ -3587,7 +3587,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Game books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Magazines"
 			   data-tracking="custom-level-3"
@@ -3595,7 +3595,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Magazines</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Music_books"
 			   data-tracking="custom-level-3"
@@ -3603,7 +3603,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Music books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Reference_books"
 			   data-tracking="custom-level-3"
@@ -3611,7 +3611,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Reference books</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Short_stories"
 			   data-tracking="custom-level-3"
@@ -3619,7 +3619,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Short stories</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Star_Wars_novels"
 			   data-tracking="custom-level-3"
@@ -3627,7 +3627,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Novels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Young_Readers"
 			   data-tracking="custom-level-3"
@@ -3641,7 +3641,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Main_Page"
@@ -3652,7 +3652,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Star_Wars"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3662,7 +3662,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:AllPages"
 			   data-tracking="custom-level-3"
@@ -3670,7 +3670,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Content A-Z</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_status_articles"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3680,7 +3680,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_articles"
 			   data-tracking="custom-level-4"
@@ -3688,7 +3688,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Featured articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_articles"
 			   data-tracking="custom-level-4"
@@ -3696,7 +3696,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Good articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_articles"
 			   data-tracking="custom-level-4"
@@ -3707,7 +3707,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Browse"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3717,7 +3717,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Society_and_culture"
 			   data-tracking="custom-level-4"
@@ -3725,7 +3725,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Culture</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Droids"
 			   data-tracking="custom-level-4"
@@ -3733,7 +3733,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Droids</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Events"
 			   data-tracking="custom-level-4"
@@ -3741,7 +3741,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Events</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:The_Force"
 			   data-tracking="custom-level-4"
@@ -3749,7 +3749,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Force</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Individuals"
 			   data-tracking="custom-level-4"
@@ -3757,7 +3757,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Individuals</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Locations"
 			   data-tracking="custom-level-4"
@@ -3765,7 +3765,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Locations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Organizations"
 			   data-tracking="custom-level-4"
@@ -3773,7 +3773,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Organizations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Species"
 			   data-tracking="custom-level-4"
@@ -3781,7 +3781,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Species</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Technology"
 			   data-tracking="custom-level-4"
@@ -3789,7 +3789,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Technology</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Real-world_articles"
 			   data-tracking="custom-level-4"
@@ -3800,7 +3800,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Audio_articles_archive"
 			   data-tracking="custom-level-3"
@@ -3808,7 +3808,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Audio articles</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Random"
 			   data-tracking="custom-level-3"
@@ -3819,7 +3819,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Audio_files"
 			   data-tracking="custom-level-2"
@@ -3827,7 +3827,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Audio files</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Images"
 			   data-tracking="custom-level-2"
@@ -3835,7 +3835,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Images</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Lists"
 			   data-tracking="custom-level-2"
@@ -3843,7 +3843,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Lists</span>
 			</a>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Timelines"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3853,7 +3853,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Category:Media_timelines"
 			   data-tracking="custom-level-3"
@@ -3867,7 +3867,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 												</ul>
 			</div>
 		</li>
-						
+
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
 				<a href="https://starwars.fandom.com/wiki/Special:Community"
@@ -3878,7 +3878,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron"><use xlink:href="#wds-icons-dropdown-tiny"></use></svg>			</div>
 			<div class="wds-is-not-scrollable wds-dropdown__content">
 					<ul class="wds-list wds-is-linked">
-													
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:About"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3888,7 +3888,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:FAQ"
 			   data-tracking="custom-level-3"
@@ -3896,7 +3896,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>FAQ</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   data-tracking="custom-level-3"
@@ -3904,7 +3904,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Become a Wookieepedian!</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Administrators"
 			   data-tracking="custom-level-3"
@@ -3912,7 +3912,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Administration</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Policies"
 			   class="wds-dropdown-level-nested__toggle"
@@ -3922,7 +3922,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Attribution"
 			   data-tracking="custom-level-4"
@@ -3930,7 +3930,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Attribution</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Canon_policy"
 			   data-tracking="custom-level-4"
@@ -3938,7 +3938,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Canon</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Copyrights"
 			   data-tracking="custom-level-4"
@@ -3946,7 +3946,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Copyright </span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Layout_Guide"
 			   data-tracking="custom-level-4"
@@ -3954,7 +3954,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Layout Guide</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Manual_of_Style"
 			   data-tracking="custom-level-4"
@@ -3962,7 +3962,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Manual of Style</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Naming_policy"
 			   data-tracking="custom-level-4"
@@ -3970,7 +3970,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Naming</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Neutral_point_of_view"
 			   data-tracking="custom-level-4"
@@ -3978,7 +3978,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Neutral point of view</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Notability_policy"
 			   data-tracking="custom-level-4"
@@ -3986,7 +3986,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Notability</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Sourcing"
 			   data-tracking="custom-level-4"
@@ -3994,7 +3994,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Sourcing</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Spoilers"
 			   data-tracking="custom-level-4"
@@ -4005,7 +4005,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/List_of_Star_Wars_Wikis_in_other_languages"
 			   data-tracking="custom-level-3"
@@ -4016,7 +4016,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Forum:Index"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4026,7 +4026,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Consensus_track"
 			   data-tracking="custom-level-3"
@@ -4034,7 +4034,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Consensus track</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Discussions"
 			   data-tracking="custom-level-3"
@@ -4042,7 +4042,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Discussions</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Senate_Hall"
 			   data-tracking="custom-level-3"
@@ -4050,7 +4050,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Senate Hall</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Trash_compactor"
 			   data-tracking="custom-level-3"
@@ -4058,7 +4058,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Trash compactor</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Wookieepedian_of_the_Month"
 			   data-tracking="custom-level-3"
@@ -4066,7 +4066,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Wookieepedian of the Month</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Requests_for_user_rights"
 			   data-tracking="custom-level-3"
@@ -4074,7 +4074,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Requests for user rights</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Review_board_membership_nominations"
 			   data-tracking="custom-level-3"
@@ -4085,7 +4085,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4095,7 +4095,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4105,7 +4105,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Project_Defender"
 			   data-tracking="custom-level-4"
@@ -4113,7 +4113,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Project Defender</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Project_Stardust"
 			   data-tracking="custom-level-4"
@@ -4124,7 +4124,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProjects"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4134,7 +4134,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Astrography"
 			   data-tracking="custom-level-4"
@@ -4142,7 +4142,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Astrography</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Chiss"
 			   data-tracking="custom-level-4"
@@ -4150,7 +4150,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Chiss</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Comics"
 			   data-tracking="custom-level-4"
@@ -4158,7 +4158,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Comics</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Creators"
 			   data-tracking="custom-level-4"
@@ -4166,7 +4166,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Creators</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Fantasy_Flight_Games"
 			   data-tracking="custom-level-4"
@@ -4174,7 +4174,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Fantasy Flight Games</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Galaxy%27s_Edge"
 			   data-tracking="custom-level-4"
@@ -4182,7 +4182,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Galaxy's Edge</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Knights_of_the_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -4190,7 +4190,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Knights of the Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_LEGO"
 			   data-tracking="custom-level-4"
@@ -4198,7 +4198,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>LEGO</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Novels"
 			   data-tracking="custom-level-4"
@@ -4206,7 +4206,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Novels</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Pride"
 			   data-tracking="custom-level-4"
@@ -4214,7 +4214,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Pride</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Resistance"
 			   data-tracking="custom-level-4"
@@ -4222,7 +4222,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Resistance</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Clone_Wars"
 			   data-tracking="custom-level-4"
@@ -4230,7 +4230,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Clone Wars</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_High_Republic"
 			   data-tracking="custom-level-4"
@@ -4238,7 +4238,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The High Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_The_Old_Republic"
 			   data-tracking="custom-level-4"
@@ -4246,7 +4246,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>The Old Republic</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeProject_Women"
 			   data-tracking="custom-level-4"
@@ -4260,7 +4260,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Contact"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4270,7 +4270,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Forum:Administrators%27_noticeboard"
 			   data-tracking="custom-level-3"
@@ -4278,7 +4278,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Administrators' noticeboard</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Discord"
 			   data-tracking="custom-level-3"
@@ -4289,7 +4289,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4299,7 +4299,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Welcome,_newcomers"
 			   data-tracking="custom-level-3"
@@ -4307,7 +4307,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Tutorials</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Jundland_Wastes"
 			   data-tracking="custom-level-3"
@@ -4315,7 +4315,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Editing sandbox</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Things_to_do"
 			   data-tracking="custom-level-3"
@@ -4323,7 +4323,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Things to do</span>
 			</a>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_status_article_nomination_pages"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4333,7 +4333,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_nominations"
 			   data-tracking="custom-level-4"
@@ -4341,7 +4341,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Featured article nominations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_article_nominations"
 			   data-tracking="custom-level-4"
@@ -4349,7 +4349,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Good article nominations</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_nominations"
 			   data-tracking="custom-level-4"
@@ -4360,7 +4360,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li class="wds-dropdown-level-nested">
 			<a href="https://starwars.fandom.com/wiki/Category:Wookieepedia_peer_review"
 			   class="wds-dropdown-level-nested__toggle"
@@ -4370,7 +4370,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 				<svg class="wds-icon wds-icon-tiny wds-dropdown-chevron"><use xlink:href="#wds-icons-menu-control-tiny"></use></svg>			</a>
 			<div class="wds-is-not-scrollable wds-dropdown-level-nested__content">
 				<ul class="wds-list wds-is-linked">
-											
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Featured_article_reviews"
 			   data-tracking="custom-level-4"
@@ -4378,7 +4378,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Featured article reviews</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Good_article_reviews"
 			   data-tracking="custom-level-4"
@@ -4386,7 +4386,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Good article reviews</span>
 			</a>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:Comprehensive_article_reviews"
 			   data-tracking="custom-level-4"
@@ -4397,7 +4397,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-												
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:RecentChanges"
 			   data-tracking="custom-level-3"
@@ -4408,7 +4408,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 										</ul>
 			</div>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Special:Statistics"
 			   data-tracking="custom-level-2"
@@ -4416,7 +4416,7 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 								<span>Statistics</span>
 			</a>
 		</li>
-														
+
 			<li>
 			<a href="https://starwars.fandom.com/wiki/Wookieepedia:WookieeNights"
 			   data-tracking="custom-level-2"
@@ -4447,15 +4447,15 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 									<svg class="wds-icon wds-icon-small"><use xlink:href="#wds-icons-pencil-small"></use></svg>								</a>
 													</div>
 					</div>
-					
+
 	<div class="page-header" id="page-header" tabindex="-1">
 		<div class="page-header__top">
 			<div class="page-header__meta">
-									
+
 <div class="page-header__categories">
 	<span class="page-header__categories-in">in:</span>
 	<a href="/wiki/Category:Canon_articles" title="Category:Canon articles" data-tracking-label="categories-top-more-0">Canon articles</a>, <a href="/wiki/Category:Articles_in_need_of_updating" title="Category:Articles in need of updating" data-tracking-label="categories-top-more-1">Articles in need of updating</a>, <a href="/wiki/Category:Political_books" title="Category:Political books" data-tracking-label="categories-top-more-2">Political books</a>	</div>
-								
+
 			</div>
 								</div>
 		<div class="page-header__bottom">
@@ -4464,15 +4464,15 @@ global-explore-navigation__history global-explore-navigation__panel-item hidden"
 					<i>The Trail of Political Consciousness</i>				</h1>
 																</div>
 			<div class="page-header__actions" id="p-views">
-				
-				
+
+
 									<a class="wds-button wds-is-text page-header__action-button has-label" href="/wiki/The_Trail_of_Political_Consciousness?veaction=edit"
 					   id="ca-ve-edit"
 					   data-tracking-label="ca-ve-edit"
 							accesskey="v"					>
 						<svg class="wds-icon wds-icon-small"><use xlink:href="#wds-icons-pencil-small"></use></svg>						Edit					</a>
-				
-				
+
+
 									<div class="wds-dropdown">
 						<div role="button"
 							 class="wds-dropdown__toggle wds-button wds-is-text page-header__action-button"
@@ -4633,9 +4633,9 @@ if (!window.canPlayVideo()) {
 <figure class="pi-item pi-image" data-source="image">
 	<a href="https://static.wikia.nocookie.net/starwars/images/e/e2/NemikManifesto2.png/revision/latest?cb=20221229092023" class="image image-thumbnail" title="NemikManifesto2">
 		<img src="https://static.wikia.nocookie.net/starwars/images/e/e2/NemikManifesto2.png/revision/latest/scale-to-width-down/500?cb=20221229092023" srcset="https://static.wikia.nocookie.net/starwars/images/e/e2/NemikManifesto2.png/revision/latest/scale-to-width-down/500?cb=20221229092023 1x, https://static.wikia.nocookie.net/starwars/images/e/e2/NemikManifesto2.png/revision/latest?cb=20221229092023 2x" class="pi-image-thumbnail" data-relevant="1" alt="NemikManifesto2" width="270" height="221" data-image-key="NemikManifesto2.png" data-image-name="NemikManifesto2.png" />
-		
+
 	</a>
-	
+
 </figure>
 
 <h2 class="pi-item pi-item-spacing pi-title pi-secondary-background" data-source="name"><i>The Trail of Political Consciousness</i></h2>
@@ -4644,9 +4644,9 @@ if (!window.canPlayVideo()) {
 	<h2 class="pi-item pi-header pi-secondary-font pi-item-spacing pi-secondary-background">Attribution information</h2>
 
 <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="author">
-	
+
 		<h3 class="pi-data-label pi-secondary-font">Author(s)</h3>
-	
+
 	<div class="pi-data-value pi-font"><a href="/wiki/Karis_Nemik" title="Karis Nemik">Karis Nemik</a><sup id="cite_ref-Axe_1-0" class="reference"><a href="#cite_note-Axe-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup></div>
 </div>
 
@@ -4655,9 +4655,9 @@ if (!window.canPlayVideo()) {
 	<h2 class="pi-item pi-header pi-secondary-font pi-item-spacing pi-secondary-background">Publication information</h2>
 
 <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="media type">
-	
+
 		<h3 class="pi-data-label pi-secondary-font">Type</h3>
-	
+
 	<div class="pi-data-value pi-font">Written and voiced journal<sup id="cite_ref-Daughter_2-0" class="reference"><a href="#cite_note-Daughter-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup></div>
 </div>
 
@@ -4792,7 +4792,7 @@ if (!window.canPlayVideo()) {
 <li class="interwiki-es plainlinks" title="es:Manifiesto de Nemik"><a href="https://starwars.fandom.com/es/wiki/Manifiesto_de_Nemik" class="extiw" title="w:c:es.starwars:Manifiesto de Nemik">español</a></li><li class="interwiki-fr plainlinks" title="fr:Manifeste de Nemik"><a href="https://starwars.fandom.com/fr/wiki/Manifeste_de_Nemik" class="extiw" title="w:c:fr.starwars:Manifeste de Nemik">français</a></li><li class="interwiki-ka plainlinks" title="ka:პოლიტიკური ცნობიერების ნაკვალევი"><a href="https://starwars.fandom.com/ka/wiki/%E1%83%9E%E1%83%9D%E1%83%9A%E1%83%98%E1%83%A2%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%AA%E1%83%9C%E1%83%9D%E1%83%91%E1%83%98%E1%83%94%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%A1_%E1%83%9C%E1%83%90%E1%83%99%E1%83%95%E1%83%90%E1%83%9A%E1%83%94%E1%83%95%E1%83%98" class="extiw" title="w:c:ka.starwars:პოლიტიკური ცნობიერების ნაკვალევი">ქართული</a></li><li class="interwiki-ja plainlinks" title="ja:政治意識の道筋"><a href="https://starwars.fandom.com/ja/wiki/%E6%94%BF%E6%B2%BB%E6%84%8F%E8%AD%98%E3%81%AE%E9%81%93%E7%AD%8B" class="extiw" title="w:c:ja.starwars:政治意識の道筋">日本語</a></li></ul>
 </div>
 </div>
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20250914201149
 Cache expiry: 2592000
@@ -4828,13 +4828,13 @@ Transclusion expansion time report (%,ms,calls,template)
  -->
 </div></div>					</div>
 					<div class="page-footer">
-						
+
 	<div class="wds-collapsible-panel wds-is-collapsed page-footer__categories">
 		<header class="wds-collapsible-panel__header" aria-controls="collapsible-content-categories"
 				aria-expanded="false" tabindex="0">
 			Categories			<svg class="wds-icon wds-icon-small"><use xlink:href="#wds-icons-menu-control-small"></use></svg>		</header>
 		<div class="wds-collapsible-panel__content" id="collapsible-content-categories">
-							
+
 <nav class="article-categories CategorySelect articlePage userCanEdit" id="articleCategories">
 	<div class="container">
 		<ul class="categories">
@@ -4851,7 +4851,7 @@ Transclusion expansion time report (%,ms,calls,template)
 	<span class="name"><a href="/wiki/Category:Political_books" title="Category:Political books">Political books</a></span>
 	<span class="tool removeCategory"></span>
 </li>
-	
+
 							<li class="last">
 					<button class="wds-button wds-is-secondary add" id="CategorySelectAdd" type="button">Add category</button>
 				</li>
@@ -4864,10 +4864,10 @@ Transclusion expansion time report (%,ms,calls,template)
 	</nav>
 					</div>
 	</div>
-						
+
 														<div class="license-description">
 		Community content is available under <a href="https://www.fandom.com/licensing">CC-BY-SA</a> unless otherwise noted.	</div>
-						
+
 						<div id='mw-data-after-content'>
 	<div class="page-footer__trfc-147 trfc-147">
 	<header class="trfc-147__header">
@@ -4884,9 +4884,9 @@ Transclusion expansion time report (%,ms,calls,template)
 </div>
 					</div>
 				</main>
-									
+
 <aside class="page__right-rail">
-		
+
 <div class="right-rail-wrapper WikiaRail">
 	<div id="rail-boxad-wrapper">
 						<div id="top_boxad"></div>
@@ -4917,9 +4917,9 @@ Transclusion expansion time report (%,ms,calls,template)
 			</h2>
 			<section class="global-footer__section global-footer__section-fandom-overview">
 			<h3 class="global-footer__section-header">Explore properties</h3>
-	
-	
-	
+
+
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="https://www.fandom.com/"
@@ -4979,9 +4979,9 @@ Transclusion expansion time report (%,ms,calls,template)
 	</section>
 			<section class="global-footer__section global-footer__section-social-links">
 			<h3 class="global-footer__section-header">Follow Us</h3>
-	
-	
-	
+
+
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="https://www.facebook.com/getfandom"
@@ -5034,9 +5034,9 @@ Transclusion expansion time report (%,ms,calls,template)
 		<div>
 			<section class="global-footer__section global-footer__section-site-overview">
 			<h3 class="global-footer__section-header">Overview</h3>
-	
-	
-	
+
+
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="https://www.fandom.com/what-is-fandom"
@@ -5142,9 +5142,9 @@ Transclusion expansion time report (%,ms,calls,template)
 		<div>
 			<section class="global-footer__section global-footer__section-community">
 			<h3 class="global-footer__section-header">Community</h3>
-	
-	
-	
+
+
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="//community.fandom.com/wiki/Community_Central"
@@ -5177,9 +5177,9 @@ Transclusion expansion time report (%,ms,calls,template)
 	</section>
 			<section class="global-footer__section global-footer__section-advertise">
 			<h3 class="global-footer__section-header">Advertise</h3>
-	
-	
-	
+
+
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="https://about.fandom.com/mediakit"
@@ -5205,20 +5205,20 @@ Transclusion expansion time report (%,ms,calls,template)
 		<div>
 			<section class="global-footer__section global-footer__section-fandom-apps">
 			<h3 class="global-footer__section-header">Fandom Apps</h3>
-	
-			Take your favorite fandoms with you and never miss a beat.	
-	
+
+			Take your favorite fandoms with you and never miss a beat.
+
 	</section>
 			<section class="global-footer__section global-footer__section-fandom-stores">
-	
-	
+
+
 			<img
 			src="https://static.wikia.nocookie.net/6c42ce6a-b205-41f5-82c6-5011721932e7"
 			loading="lazy"
 			class="global-footer__icon"
 			alt="Fandom App logo"
 		/>
-	
+
 			<ul class="global-footer__links">
 							<li>
 												<a href="https://apps.apple.com/us/app/fandom-videos-news-reviews/id1230063803"

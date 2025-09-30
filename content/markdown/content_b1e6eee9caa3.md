@@ -26,7 +26,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta property="fb:app_id" content="9869919170"/>
 <meta name="twitter:site" value="@nytimes"/>
-    
+
     <script>
       const override = (new URL(window.location)).searchParams.get('sentryOverride');
       if (override || Math.floor(Math.random() * 100) <= 1) {
@@ -61,7 +61,7 @@
       (function () { var _f=function(e){window.vi=window.vi||{},window.vi.env=Object.freeze(e)};;_f.apply(null, [{"JKIDD_PATH":"http://web.archive.org/web/20201109040131/https://a.nytimes.com/svc/nyt/data-layer","ET2_URL":"http://web.archive.org/web/20201109040131/https://a.et.nytimes.com","ALS_URL":"http://web.archive.org/web/20201109040131/https://als-svc.nytimes.com","WEDDINGS_PATH":"http://web.archive.org/web/20201109040131/https://content.api.nytimes.com","GDPR_PATH":"http://web.archive.org/web/20201109040131/https://us-central1-nyt-dsra-prd.cloudfunctions.net/datagov-dsr-formhandler","RECAPTCHA_SITEKEY":"6LevSGcUAAAAAF-7fVZF05VTRiXvBDAY4vBSPaTF","ABRA_ET_URL":"//web.archive.org/web/20201109040131/http://et.nytimes.com","NODE_ENV":"production","EXPERIMENTAL_ROUTE_PREFIX":"","ENVIRONMENT":"prd","RELEASE":"615ba861fe4c9a21fece27fa5967dfc174ceeca7","AUTH_HOST":"http://web.archive.org/web/20201109040131/https://myaccount.nytimes.com","SWG_PUBLICATION_ID":"nytimes.com","GQL_FETCH_TIMEOUT":"4000","GOOGLE_CLIENT_ID":"1005640118348-amh5tgkq641oru4fbhr3psm3gt2tcc94.apps.googleusercontent.com","STORY_SURROGATE_CONTROL":"max-age=300, stale-if-error=259200, stale-while-revalidate=259200"}]); })();;
 
 try {
- 
+
   var marks = ['first-paint', 'first-contentful-paint', 'userBtnRender', 'appRenderTime'];
 
 var observer = new window.PerformanceObserver(function(list) {
@@ -80,7 +80,7 @@ var observer = new window.PerformanceObserver(function(list) {
       }
     }
   });
- 
+
   observer.observe({ entryTypes: ['mark', 'measure', 'paint'] });
 } catch(e) {};
 !function(c,e){var s,p,d,u,g,l=[],
@@ -156,7 +156,7 @@ return UnifiedTracking;
     }
   }
 </script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   function placeGpt() {
     var purrCookie = testCookie('nyt-purr');
     if (purrCookie && purrCookie.substring(4, 5) === 's' ||
@@ -170,7 +170,7 @@ return UnifiedTracking;
   placeGpt();
 
 }</script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   var purrCookie = testCookie('nyt-purr');
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
@@ -212,7 +212,7 @@ var AdSlot4=function(){"use strict";function G(n,e,o){var i=document.getElements
     <script defer src="/web/20201109040131js_/http://www.nytimes.com/vi-assets/static-assets/vendor-b414d56d6af1f806e64b.js"></script>
     <script defer src="/web/20201109040131js_/http://www.nytimes.com/vi-assets/static-assets/story-920d18ac4be77c49fb4a.js"></script>
     <script defer src="/web/20201109040131js_/http://www.nytimes.com/vi-assets/static-assets/main-e3ed66276bf94e2319cf.js"></script>
-    
+
     <script>
     (function(){
       if (document.cookie.indexOf('NYT-S') === -1) {
@@ -226,7 +226,7 @@ var AdSlot4=function(){"use strict";function G(n,e,o){var i=document.getElements
       }
     })();
     </script>
-  
+
     <script>
 (function(w, l) {
   w[l] = w[l] || [];
@@ -240,7 +240,7 @@ var AdSlot4=function(){"use strict";function G(n,e,o){var i=document.getElements
 <noscript>
 <iframe src="http://web.archive.org/web/20201109040131if_/https://www.googletagmanager.com/ns.html?id=GTM-P528B3>m_auth=tfAzqo1rYDLgYhmTnSjPqw>m_preview=env-130>m_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-    
+
     <!-- RELEASE 615ba861fe4c9a21fece27fa5967dfc174ceeca7 -->
   </body>
 </html><!--

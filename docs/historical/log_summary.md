@@ -8,7 +8,7 @@
 - **Pattern:** Same podcast URLs failing repeatedly
 - **Value:** None - just repeated disk space errors
 
-## Podcast Ingest Log (2GB, 14.7M lines)  
+## Podcast Ingest Log (2GB, 14.7M lines)
 - **Successes:** 94 podcasts processed
 - **Failures:** 7.3M failures (disk space)
 - **Success Rate:** 0.001%

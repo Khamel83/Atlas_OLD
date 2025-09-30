@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We have talked a few times recently about the cleverness of AMC Entertainment Holdings Inc.’s APE stock issuance plan, but I am ashamed to a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       APE!
-    
-  
+
+
 
 We have   talked a few   times recently about the cleverness of AMC Entertainment Holdings Inc.’s APE stock issuance plan, but I am ashamed to admit that I missed the cleverest part. I now propose to fix that. 
 The situation with the APEs is this. In the last couple of years, AMC has sold a ton of stock, largely at meme-driven high prices, and has used the money for corporate finance purposes like   avoiding bankruptcy and, uh, getting into   gold mining. It would like to sell more stock, but it has a problem. Under its  corporate charter, it only has 524,173,073 authorized common shares, and has issued more or less all of them. (There are  517,580,416 shares outstanding at last count.) It still needs money, but it has no more shares to sell.
@@ -107,89 +107,89 @@ Still there are some kinks to work out, and voting is a big one. … If you are
 
 It did!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Active ESG
-    
-  
+
+
 
 We have talked a few times recently about  a paper finding that managers of environmental, social and governance-oriented mutual funds who have more of their own money in their funds tend to have worse ESG performance: Their funds invest in companies that get worse ESG scores from public ESG raters.  One possible interpretation of this is that ESG managers don’t really “believe in” ESG: If their own money is on the line, they tend to prioritize financial performance over ESG, and they don’t think that ESG really contributes to financial performance, so they pick companies with worse ESG scores.
 But  another possible interpretation is that ESG scores are not a great measure of ESG-ness: Managers who don’t care deeply about ESG (1) don’t put their own money in their funds and (2) blindly track published ESG scores, while managers who do care deeply invest their own money and make their own, nuanced, personal ESG judgments that do not necessarily align with published scores.
@@ -202,20 +202,20 @@ If there is complex, material ESG information that cannot be captured by an ESG 
 
 Just like regular investment funds can either be actively managed or “closet indexers” who mostly track the index, ESG funds can either have active idiosyncratic views about what companies are good for ESG, or can just track published benchmarks. If you just track the benchmarks then you will, in a certain light, have better ESG performance, because the benchmarks are the ESG performance. But that might not be quite what one wants in an ESG manager.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       M&A drafting
-    
-  
+
+
 
 I used to be a mergers-and-acquisitions lawyer, and last year we had some occasion, around here, to  discuss the  mechanics of  public-company merger  agreements in some  detail. That was fun for everyone, I trust. Everyone is pretty much an expert in material adverse effect clauses and ordinary-course-of-business covenants now. 
 In that vein, here is a clever paper on “The Value of M&A Drafting,” by Adam Badawi, Elisabeth de Fontenay and Julian Nyarko, about how lawyers write those agreements. The specific question they are trying to answer is something like: What parts of merger agreements do people care about? When lawyers draft merger agreements, they normally start with the (publicly filed) merger agreement in some previous transaction, and then tinker with that precedent to fit the current deal. Some stuff from the precedent document is carried over verbatim to the new deal; other stuff is more heavily edited and negotiated.
@@ -226,11 +226,11 @@ But our finding that lawyers edit leaked deal agreements less than non-leaked de
 
 I suppose a good follow-up question would be, like, how often does anyone regret not custom-tailoring the mundane clauses? If you are a company doing a merger, should you put your lawyers under strict time constraints, so they only negotiate the bits of the merger agreement that matter?
 
-  
-    
+
+
       People are no longer worried about bond market liquidity
-    
-  
+
+
 
 Well,  here you go:
 
@@ -243,15 +243,15 @@ But Scott Wacker, head of fixed income, currency and commodity ecommerce sales a
 You could have a model that is like “when markets are calm and nothing is happening, people worry that if things do happen they won’t be able to sell their stuff, but when things are happening regularly, people are more worried about the things that are happening than they are about their hypothetical ability to sell stuff.” When liquidity is good and there are no crises, it is easy to say — and hard to disprove — “well if there was a crisis, liquidity would be bad.” But once you have enough crises and liquidity keeps being fine, you have to stop saying that.
 Also, I mean, one could quibble. Russia invaded Ukraine and, as an indirect result, the London Metal Exchange shut down nickel trading for a week. Not very good liquidity, in nickel, that week. But when you’re surveyed at the end of the year, you might not remember that as a liquidity problem; you might remember that as an extreme instance of market volatility. “Liquidity” is sort of an abstract structural thing to worry about when you don’t have any immediate worries; when you have the immediate worries, you tend not to think of them as “liquidity.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Adani Abruptly   Abandons $2.4 Billion Stock Sale as Crisis Mounts. Adani’s  debt-driven expansion under scrutiny. NYSE’s Haywire Trading Spurs Crush of   Demands for Compensation. China Proposes   IPO Reforms to Overhaul $11 Trillion Stock Market. Disney, Salesforce and Others Draw  Activist ‘Swarm’ After Shares Decline. Blackstone’s $69 Billion   Real Estate Fund Hit Monthly Redemption Limit in January. Lazard Fined in Germany for Failing to Prevent   Insider Trading. Biden Administration to Propose Rule to Lower  Credit-Card Late Fees. BP’s CEO Plays Down  Renewables Push. Ex-Citi Analyst Who Exposed Libor Takes Aim at Its Successor. “Because of their frequent trading,  pod shops are basically the main mechanism by which incremental new information gets incorporated into asset prices.” Porsche Blunder Puts   $148,000 Sportscar on Sale for Just $18,000. Missing  Radioactive Capsule Found in Australian Outback. Bleach Is Toxic, But Plenty of Americans Are   Still Drinking It.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In March 2021, it  filed a proposal to authorize 500 million more shares. After pushback, it revised that to just  25 million more. After further pushback, it  dropped even that request.
 
 
@@ -270,114 +270,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] As I  mentioned yesterday, Delaware law requires that the common shareholders vote as a class to increase the number of authorized shares, unless the corporate charter opts out of that requirement, and AMC’s does.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

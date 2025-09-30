@@ -65,12 +65,12 @@
     margin-right: 5vw;
     padding-left: 0;
     padding-right: 0;
-    
+
   }
   /* about page tweaks */
   .page-about-the-stack .kg-header-card.kg-width-full.kg-layout-split h2.kg-header-card-heading {
     font-size: calc(0.6 * clamp(2.8rem,4vw,4.8rem))
-  } 
+  }
   .page-about-the-stack .kg-card.kg-header-card.kg-v2 {
     padding-top: 0;
     padding-bottom: 0;
@@ -82,7 +82,7 @@
     <link rel="icon" href="https://www.thestack.technology/content/images/size/w256h256/2023/03/-23820-Stack-Technology-Icon-Oct-2020-----BLACK-v4.png" type="image/png">
     <link rel="canonical" href="https://www.thestack.technology/databricks-just-raised-a-fresh-500-million-why/">
     <meta name="referrer" content="no-referrer-when-downgrade">
-    
+
     <meta property="og:site_name" content="The Stack">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Databricks just raised a fresh $500m from investors. Why?">
@@ -96,7 +96,7 @@
     <meta property="article:tag" content="funding">
     <meta property="article:tag" content="News">
     <meta property="article:tag" content="Business">
-    
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Databricks just raised a fresh $500m from investors. Why?">
     <meta name="twitter:description" content="&quot;We haven’t disclosed a specific timeline to reaching profitability, and we are continuing to invest aggressively&quot;">
@@ -108,7 +108,7 @@
     <meta name="twitter:data2" content="Databricks, investment, funding, News, Business">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="800">
-    
+
     <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -221,7 +221,7 @@
     opacity: 0.92;
 }</style><script async src="https://js.stripe.com/v3/"></script>
     <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="205b9d4cd315315d316510c978" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://the-stack.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
-    
+
     <link href="https://www.thestack.technology/webmentions/receive/" rel="webmention">
     <script defer src="/public/cards.min.js?v=34be0c8103"></script>
     <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=34be0c8103">
@@ -294,7 +294,7 @@ blockquote {
 /* fix about page layout */
   .page-work-with-us .post-hero-text-content.section-padding-top {
     width: 100%;
-    
+
   }
   /* fix mobile menu */
   @media (max-width: 991px) {
@@ -376,7 +376,7 @@ blockquote {
     </style>
 
     <script>
-    function setupVideo (content, slug, title, autoplay, section) {    
+    function setupVideo (content, slug, title, autoplay, section) {
         console.log('set up for ', slug)
     let placeholderdiv = document.createElement('div');
     placeholderdiv.innerHTML = content
@@ -385,8 +385,8 @@ blockquote {
 
     let videoURLiframe = fragment.querySelector('.kg-embed-card > iframe, .kg-video-card video')
         // determine if this is a youtube video or peertube video
-    let isYoutube = videoURLiframe.src.includes('youtube') || videoURLiframe.src.includes('youtu.be') || videoURLiframe.src.includes('youtube-nocookie') 
-    let tmpsrc = videoURLiframe.src 
+    let isYoutube = videoURLiframe.src.includes('youtube') || videoURLiframe.src.includes('youtu.be') || videoURLiframe.src.includes('youtube-nocookie')
+    let tmpsrc = videoURLiframe.src
     videoURLiframe.setAttribute('width', '100%');
     let videoholder = document.createElement('div')
     videoholder.classList.add('videoWrapper')
@@ -395,13 +395,13 @@ blockquote {
         videoholder.innerHTML = `<iframe src="${tmpsrc}&autoplay=1&mute=1&rel=0&modestbranding=1" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
         } else {
         videoholder.innerHTML = `<iframe src="${tmpsrc}&rel=0&modestbranding=1" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-        } 
+        }
     } else {
         if (autoplay) {
         videoholder.innerHTML = `<iframe src="${tmpsrc}?autoplay=1&muted=1" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
         } else {
         videoholder.innerHTML = `<iframe src="${tmpsrc}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-        } 
+        }
     }
 
     let postid = `${slug}-${section}`
@@ -409,7 +409,7 @@ blockquote {
     let targetElement = document.querySelector(`[data-postid=${postid}] .videoWrapper`);
     if (targetElement) {
         targetElement.replaceWith(videoholder)
-    } 
+    }
     }
 </script>
     </head>
@@ -435,7 +435,7 @@ function getCookie(cname) {
 function checkCookie() {
   let preference = getCookie("darkmode-prefered");
   if (preference != "none") {
-    if (preference == "true") { 
+    if (preference == "true") {
         darkvalue.checked = true;
         document.body.classList.add("dark")
         document.body.classList.remove("light")
@@ -453,7 +453,7 @@ function checkCookie() {
         darkvalue.checked = false;
         document.body.classList.remove("dark")
 
-} 
+}
   }
 }
 checkCookie()
@@ -462,7 +462,7 @@ checkCookie()
         <div class="lighthouse-content-paint-fix ">Content Paint</div>
 
         <script>
-            
+
 
 
             document.addEventListener('DOMContentLoaded', function () {
@@ -474,7 +474,7 @@ checkCookie()
         </script>
 
         <div class="viewport">
-   
+
 
             <div class="site-content">
                 <div class="site-main">
@@ -527,7 +527,7 @@ checkCookie()
                     <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8.33464 14.9998C9.81378 14.9995 11.2503 14.5044 12.4155 13.5932L16.0788 17.2565L17.2571 16.0782L13.5938 12.4148C14.5055 11.2496 15.0009 9.8127 15.0013 8.33317C15.0013 4.65734 12.0105 1.6665 8.33464 1.6665C4.6588 1.6665 1.66797 4.65734 1.66797 8.33317C1.66797 12.009 4.6588 14.9998 8.33464 14.9998ZM8.33464 3.33317C11.0921 3.33317 13.3346 5.57567 13.3346 8.33317C13.3346 11.0907 11.0921 13.3332 8.33464 13.3332C5.57714 13.3332 3.33464 11.0907 3.33464 8.33317C3.33464 5.57567 5.57714 3.33317 8.33464 3.33317Z" fill="var(--text-color)"/>
 </svg>
-                    
+
                 </div>
             </button>
             <button class="menu-button unstyled-button" aria-label="Menu button">
@@ -540,13 +540,13 @@ checkCookie()
         <div class="navbar-links-outer">
             <div class="navbar-links-inner">
                     <ul class="nav">
-            <li class="nav-home" data-label="Home">  
+            <li class="nav-home" data-label="Home">
                 <a class="nav-link hover-underline" href="https://www.thestack.technology/">Home</a>
             </li>
-            <li class="nav-about" data-label="About">  
+            <li class="nav-about" data-label="About">
                 <a class="nav-link hover-underline" href="https://www.thestack.technology/about-the-stack/">About</a>
             </li>
-            <li class="nav-partner" data-label="Partner">  
+            <li class="nav-partner" data-label="Partner">
                 <a class="nav-link hover-underline" href="https://www.thestack.technology/work-with-us/">Partner</a>
             </li>
     </ul>
@@ -561,7 +561,7 @@ checkCookie()
                         </div>
                         <span>
                             Search
-                        </span>                      
+                        </span>
                     </a>
                 </div>
 
@@ -574,7 +574,7 @@ checkCookie()
                                 </div>
                                 <span>
                                     Sign in
-                                </span>                              
+                                </span>
                             </a>
 
                     </div>
@@ -587,7 +587,7 @@ checkCookie()
                                 </div>
                                 <span>
                                     Membership
-                                </span>                              
+                                </span>
                             </a>
                     </div>
                                 <div class="search-wrapper" style="border: none">
@@ -636,7 +636,7 @@ body:not(.dark) .is-dark {
     color: var(--color-base);
 }
 @media (max-width: 991px) {
-.toggledark svg { 
+.toggledark svg {
     width: 28px;
     height: 28px;
 }
@@ -655,7 +655,7 @@ body:not(.dark) .is-dark {
 
 
     <main>
-        
+
 <article data-post-header-type="Vertical" data-has-feature-image="true" data-use-reading-progress-bar="false">
         <header class="hero wide-container">
             <div class="hero-content vertical-post-header">
@@ -678,12 +678,12 @@ body:not(.dark) .is-dark {
     <div class="post-author-images">
             <a href="/author/ed/" class="post-author-image link-hover-animation-half">
                     <img class="image"
-                        src="/content/images/size/w100/2025/05/1745874123238.jpg" 
-                        alt="Edward Targett" 
+                        src="/content/images/size/w100/2025/05/1745874123238.jpg"
+                        alt="Edward Targett"
                         loading="lazy">
             </a>
     </div>
-    
+
     <div class="post-authors-text">
         <div class="post-authors-inner" id="authors">
             <small class="post-author-name">
@@ -699,14 +699,14 @@ body:not(.dark) .is-dark {
             &nbsp;-&nbsp;
             <span>2 min read</span>
         </small>
-    </div>     
+    </div>
 </div>                    </div>
                 </div>
                     <div class="post-main-image-wrapper">
                         <div class="post-hero-top-border top-vertical-border horizontal-line-animation"></div>
                         <div class="post-main-image">
                             <figure class=" vertical-animation">
-                                <img                                 
+                                <img
                                     data-delay="400"
                                     srcset="/content/images/size/w300/2023/09/joe-green-bfJjBskA3gA-unsplash.jpg 300w,
                                             /content/images/size/w720/2023/09/joe-green-bfJjBskA3gA-unsplash.jpg 720w,
@@ -719,7 +719,7 @@ body:not(.dark) .is-dark {
                             </figure>
                         </div>
                     </div>
-                 <div class="post-hero-bottom-border horizontal-line-animation"></div>             
+                 <div class="post-hero-bottom-border horizontal-line-animation"></div>
             </div>
         </header>
 
@@ -765,7 +765,7 @@ body:not(.dark) .is-dark {
                 </div>
     </div>
 
-        <footer>      
+        <footer>
 
             <div class="related-posts wide-container">
                 <div class="related-post-wrapper">
@@ -791,7 +791,7 @@ body:not(.dark) .is-dark {
                             </div>
                         </a>
                 </div>
-            
+
                 <div class="related-post-line"></div>
 
                 <div class="related-post-wrapper">
@@ -813,10 +813,10 @@ body:not(.dark) .is-dark {
         </clipPath>
     </defs>
 </svg>
-                                </div>                           
+                                </div>
                             </div>
                         </a>
-                </div>               
+                </div>
             </div>
         </footer>
 </article>
@@ -836,10 +836,10 @@ body:not(.dark) .is-dark {
             window.addEventListener("load", () => {
                 const iframe = document.querySelector('#ghost-comments-root iframe');
                 if(!iframe) return;
-                
+
                 var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
                 var targetHead = iframe.contentDocument.head;
-    
+
                 var newLink = document.createElement("link");
                 newLink.setAttribute("rel", "stylesheet");
                 newLink.setAttribute("type", "text/css");
@@ -865,8 +865,8 @@ body:not(.dark) .is-dark {
 
                 const linkElement = document.querySelector('link[href*="fonts.bunny.net/css"]');
 
-                if(linkElement){  
-                    const clone = linkElement.cloneNode(true);   
+                if(linkElement){
+                    const clone = linkElement.cloneNode(true);
                     targetHead.appendChild(clone);
                 }
             });
@@ -883,7 +883,7 @@ body:not(.dark) .is-dark {
                     <a class="footer-logo" href="https://www.thestack.technology">
                             <div class="footer-text">
                                 The Stack
-                            </div>                       
+                            </div>
                     </a>
 
                     <div class="footer-paragraph-wrapper">
@@ -915,8 +915,8 @@ body:not(.dark) .is-dark {
                                             <small class="form-alert loading-alert">Processing your request...</small>
                                             <small class="form-alert success-alert">Please check your inbox and click the link to confirm your subscription.</small>
                                             <small class="form-alert error-alert" data-members-error></small>
-                                        </div> 
-                                    </div>            
+                                        </div>
+                                    </div>
                                 </form>
                 </div>
 
@@ -929,10 +929,10 @@ body:not(.dark) .is-dark {
                         </li>
                     </ul>
                         <ul class="footer-nav">
-            <li class="footer-nav-sign-up" data-label="Sign up">  
+            <li class="footer-nav-sign-up" data-label="Sign up">
                 <a class="footer-nav-link hover-underline" href="#/portal/">Sign up</a>
             </li>
-            <li class="footer-nav-privacy-policy" data-label="Privacy Policy">  
+            <li class="footer-nav-privacy-policy" data-label="Privacy Policy">
                 <a class="footer-nav-link hover-underline" href="https://www.thestack.technology/privacy-policy-2/">Privacy Policy</a>
             </li>
     </ul>
@@ -1033,7 +1033,7 @@ const newsearch = instantsearch({
         return; // do not trigger search
     }
     helper.search(); // trigger search
-} , } 
+} , }
 );
 
 const hitTemplate = function (hit) {
@@ -1106,7 +1106,7 @@ newsearch.addWidgets([
   ]);
 
 // --- Throw InstantSearch into the DOM ---
-newsearch.start() 
+newsearch.start()
 document.querySelector('.ais-SearchBox-reset').addEventListener('click', (e) => {
   document.querySelector('.ais-Hits-list').innerHTML = ""
 })
@@ -1246,7 +1246,7 @@ svg.ais-SearchBox-submitIcon {
     margin: 0 0.5rem;
   }
 </style>
-        </div>  
+        </div>
 
         <custom-notifications class="global-notifications">
     <div class="notification subscribe-false">
@@ -1285,6 +1285,6 @@ svg.ais-SearchBox-submitIcon {
 </svg>        <small>Success! You now have access to additional content.</small>
     </div>
 </custom-notifications>
-        
+
     </body>
 </html>

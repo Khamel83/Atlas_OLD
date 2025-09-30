@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The Arena Group Holdings Inc. is a small publicly traded media company that owns titles including TheStreet, Parade and Men’s Journal. Since
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Simplify?
-    
-  
+
+
 
 The Arena Group Holdings Inc. is a small publicly traded media company that owns titles including TheStreet, Parade and Men’s Journal. Since 2019, it has also published Sports Illustrated, though it doesn’t own it: The Sports Illustrated brand is owned by a thing called Authentic Brands Group, which acquired it in 2019 and then licensed it to Arena for 10 years.
   [1]
@@ -90,37 +90,37 @@ I say that Arena decided to stop paying its debts, but it was perhaps not quite 
 A  lot has been  written about the sad possible demise of Sports Illustrated, but I just want to say what a weird merger this is? Bhargava somehow bought Arena twice: He agreed in August to contribute about $110 million of cash and advertising, and some television assets, for a majority stake in Arena, and then again in November he paid about $106 million of cash to buy a controlling share of Arena’s stock and bonds. (The first deal — the merger — hasn’t closed yet, and I suppose there is some doubt that it will, but there is a merger agreement anyway.)
 And then he made himself CEO for about three weeks, and in that time he fired the executives, put the company into default on its debt (to him?), and stopped paying the rent on its main asset, the right to publish Sports Illustrated, causing that asset to disappear (and turn into a $45 million debt). And now all of Arena’s stock is worth less than $20 million, and it sure looks like Bhargava overpaid. Twice? 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Trump SPAC is back
-    
-  
+
+
 
 Absolutely ages ago, in 2021, a special purpose acquisition company called Digital World Acquisition Corp.  announced that it had agreed to merge with Trump Media & Technology Group, Donald Trump’s media company, and take it public. This was surprising for a number of reasons, including that nobody knew that Donald Trump had a media company? It said it was going to launch a social network called Truth Social, and then I guess it did? Eventually? Meanwhile, though, the merger with DWAC did not close,  due to legal holdups mostly. 
 But DWAC and TMTG did announce that they had  lined up a PIPE deal, a private investment in public equity, in which sophisticated institutional investors agreed to invest $1 billion alongside the $287.5 million that was in DWAC’s pot. This was sort of validating, though  the PIPE terms were unusual and very investor-friendly, so maybe not that validating. 
@@ -137,18 +137,18 @@ The SPAC’s surge was kickstarted when the former president cruised to victory 
 
 I mean, yes. Though that’s what I said in 2021. It's weird that the Trump SPAC was a Trump trading sardine for a while, and then everyone forgot about it, and now it’s a trading sardine again. But it seems to be true.
 
-  
-    
+
+
       Bitcoin ETFs
-    
-  
+
+
 
 There is a well-known strategy, in financial markets, of trading ahead of index rebalances. The idea is: You know that on Date X, Stock Y will join Index Z. You know that a lot of index funds are indexed to Index Z, and they will have no choice but to buy Stock Y on Date X. So you buy Stock Y before Date X, knowing that you will have someone to sell it to on Date X. Joining the index will bring in a whole new source of demand for the stock: not just people who have looked at the stock and decided they like it, but a new class of fundamentals-insensitive passive investor who will buy it just because it is in the index. So you buy it first, to sell to them.
 There are ways for this to go wrong. You could get the stocks or weightings wrong, for one thing, or the trade could just get too crowded: If index funds will need to buy $100 million of Stock Y on Date X, and 10 different hedge funds each say “ah I know that there’ll be $100 million of demand for Stock Y, so I’ll buy $50 million of it now,” then there’s $500 million of supply for $100 million of demand and the price will go down on Date X.
 Or I suppose you could mess up by miscounting the number of indexed investors. You could say “there’s $10 billion of assets indexed to Index Z, and Stock Y will be 1% of the index, so that’s $100 million of demand,” but if you’re wrong and there’s only $5 billion of assets indexed to Index Z then there’ll be less demand than you think. This does not seem like a major source of error. People have a decent idea of how much money is in, like, S&P 500 index funds.
 One way to think about the launch of spot Bitcoin exchange-traded funds is that they were a sort of blind index add. Spot Bitcoin ETFs are, as it were, a way to add a new asset — Bitcoin — to the menu of things that you can buy on the stock exchange. It was widely expected that this would bring in a whole new source of demand for Bitcoin: a new class of crypto-curious-but-not-that-curious investor who will buy Bitcoin if it is a stock but not if it is anything else. (A decentralized cryptocurrency, for instance.) Turning Bitcoin into a stock, via spot Bitcoin ETFs, would bring in those investors. So you buy Bitcoin first, to sell it to them.
 It was pretty well understood for months that Bitcoin ETFs were coming, and when. Everyone kind of knew that the US Securities and Exchange Commission would approve them Jan. 10, and they’d launch the next day, to the point that   someone trolled the SEC by falsely tweeting out its approval one day early. And so anyone who might want to do this trade had a pretty good idea about its mechanics and timing.
-But it was much harder to know its size. How many people want to buy Bitcoins on the stock exchange, and how much? If you are a crypto skeptic, you might guess “nobody” and not do this trade. If you are a crypto maximalist, you might also guess “nobody” — you might say “crypto is such a good alternative financial system that it would be insane for anyone to buy it wrapped in a traditional stock market product provided by a big asset manager” — but 
+But it was much harder to know its size. How many people want to buy Bitcoins on the stock exchange, and how much? If you are a crypto skeptic, you might guess “nobody” and not do this trade. If you are a crypto maximalist, you might also guess “nobody” — you might say “crypto is such a good alternative financial system that it would be insane for anyone to buy it wrapped in a traditional stock market product provided by a big asset manager” — but
 
 
 that’s kind of extreme. If you are a crypto enthusiast, though, you might guess “everybody will buy tons of Bitcoins once that becomes convenient, so I should buy tons of Bitcoins to sell to them.” A lot of people apparently had that thought process, and Bitcoin soared from about $27,000 in mid-October to about $47,000 on Jan. 8.
@@ -174,15 +174,15 @@ ProShares this week disclosed plans to launch five ETFs, including one that woul
 
 If you want to make a 2x levered bet against Bitcoin, soon there might be an ETF for that.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 China’s Bold   Stock-Market Rescue Plan Leaves Investors Skeptical. To  Inflate Building Values, Office Landlords Offer Cash Gifts, Discounted Loans. Billionaire Howard Lutnick Is Taking On  Exchange Giant CME. How One Debt-Laden Company Could Create a Storm for  Private Jets. Palantir’s Momentum Hurt by Slowing Growth in Government Deals. EU’s Lending Arm Must Take More Risks on Projects,   Belgium Says. Former  Fed officials’ trades gave ‘appearance of conflict’ but did not break rules. SEC says  false bitcoin post came after phone number was switched. Biden Aims to Stop Countries From Exploiting Americans’ Data for   Blackmail, Espionage. A  New Drinking Game Is Sweeping Britain. Rat  selfies.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I recommend clicking through to Authentic’s portfolio of brands, which includes not only Sports Illustrated and clothing brands like Aéropostale, Billabong, Brooks Brothers, Eddie Bauer, Forever 21, Nine West, Reebok and Quiksilver, but also *the names of people* like Elvis Presley, Muhammad Ali, David Beckham, Greg Norman and Shaquille O’Neal. I don’t want to know how that works. Maybe they license Shaq’s name back to him for a fee?
 
 
@@ -195,48 +195,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] The resignation is not in Arena’s Securities and Exchange Commission filings yet, but it’s on Levinsohn’s LinkedIn, which I guess is pretty official.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -247,46 +247,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckaue2.5im4/49221848.gif" alt="" border="0" /></a>

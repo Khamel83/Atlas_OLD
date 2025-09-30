@@ -102,11 +102,11 @@ So what stage of life is this, where you are banking on your earlier investments
 
 But I’m old, and so enamored of the companies of my youth that I ignored my own (correct!) analysis of Apple’s shift in a desire to believe that this was still a product company that could wow me and charge me like it did in 2020. This is a services company now; the hardware is necessary, but insufficient for long-term growth. So it goes.
 
-* 
+*
 
 I am assuming 45% profit margins for the iPhone. Many iPhone models have reported gross profit margins of 50% or more, but those reports are based on the physical components of the phone, and do not include the attributed cost of software; therefore I am using 45% as a best guess to be conservative in terms of the following argument, but I would guess the true margin, including fully attributed R&D costs, is closer to 40% ↩︎ ( #rf1-13460 )
 
-* 
+*
 
 Although this can be worked around using services like AirMessage ( https://airmessage.org/ ) ↩︎ ( #rf2-13460 )
 

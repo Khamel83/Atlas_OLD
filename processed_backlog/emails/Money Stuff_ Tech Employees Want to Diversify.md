@@ -7,81 +7,81 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note! We are trying something new around here. It’s a podcast. There’s going to be a Money Stuff podcast, in which I’ll discuss 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Programming note! We are trying something new around here. It’s a podcast. There’s going to be a Money Stuff podcast, in which I’ll discuss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh hey it’s a podcast
-    
-  
+
+
 
 Programming note! We are trying something new around here. It’s a podcast. There’s going to be a Money Stuff podcast, in which I’ll discuss topics from that week’s column and other financial news with my friend Katie Greifeld, a Bloomberg reporter and television anchor.
 It will come out on Fridays, starting tomorrow, and we are all going to be very chill and laid-back about it? This is an experiment, we’ll see how it goes, and I’m sure it will change over time as we figure out what it is. Perhaps we’ll answer reader questions, probably we’ll have guests, we’ll see. If you want Money Stuff, but in podcast form, then there is some chance that this will be the podcast for you. 
 If that sounds interesting, you can check out Money Stuff: The Podcast at Apple, Spotify, or wherever you get your podcasts, as one says when one is a podcaster. You can listen to the trailer now, and the first episode will be out tomorrow afternoon.
 
-  
-    
+
+
       Hedging
-    
-  
+
+
 
 If you work at a big public technology company, you might get a large chunk of your pay in the form of stock in your company. Over time, you will accumulate a lot of stock; a lot of your net worth might consist of shares in your company. This is good, this is what the company wants, this aligns incentives: If you own a lot of stock, you will work hard so the company does well so your stock will go up.
 On the other hand, you may not like it. You have a lot of undiversified risk: A lot of your financial net worth is tied up in one company, and a lot of your human capital is tied up in that same company, and if the company goes under you will lose everything. And while it is nice to align incentives, if you are one of thousands of well-paid employees at a large public tech company, there might not be all that much you personally can do to shape the company’s destiny.
 So you might want to diversify. The easy way to do this is to sell your stock and buy an index fund. Your stock probably has vesting periods and restrictions, so you can’t sell all it as soon as you get it, but if you’ve been there a long time you will have lots of unrestricted shares and can sell down.
 But tech stocks mostly go up, so if you’ve been there a long time and are selling shares you got years ago, you will have large capital gains. That’s nice for you, really, but it does mean you have to pay taxes when you sell your stock and buy index funds. 
 On the other hand, what you could do is:
-	Start a partnership with some other people who happen to own stocks in other tech companies. There are lots of those people: If you’re a well-paid Meta engineer with a bunch of stock, you can probably find well-paid Amazon and Alphabet engineers who also own a bunch of their companies’ stocks.	
+	Start a partnership with some other people who happen to own stocks in other tech companies. There are lots of those people: If you’re a well-paid Meta engineer with a bunch of stock, you can probably find well-paid Amazon and Alphabet engineers who also own a bunch of their companies’ stocks.
 Contribute your shares to the partnership, in exchange for a stake in the partnership. You put in $1 million of Meta stock for 1/3 of the partnership; your friends put in $1 million of Amazon and Alphabet stock in exchange for 1/3 stakes in the partnership.	Now, instead of owning $1 million of Meta stock, you own a one-third share in a somewhat more diversified $3 million pot of stocks. (And you can expand this to more stocks for more diversification.)
 
 The advantage is that, while selling your stock for cash and then reinvesting the cash in an index fund is a taxable transaction, contributing your stock to a partnership in exchange for a share of that partnership is not. And if you do it right, you can make the partnership’s holdings look a lot like an index fund. (Not tax advice! It is not in fact quite as simple as this, though this is the right general idea.
   [1]
 )
-It is not trivial to do this right, for you: You have to get the technical tax structuring right, plus what are the odds that you know a bunch of other engineers at other companies with exactly the right amounts of stock to contribute? But with enough well-paid engineers at big public tech companies, it is sensible for someone else to do this at scale and offer it as a product. Bloomberg’s 
+It is not trivial to do this right, for you: You have to get the technical tax structuring right, plus what are the odds that you know a bunch of other engineers at other companies with exactly the right amounts of stock to contribute? But with enough well-paid engineers at big public tech companies, it is sensible for someone else to do this at scale and offer it as a product. Bloomberg’s
 Eliyahu Kamisher reports:
 
 Known as an exchange fund or a swap fund, the product is familiar to the super rich. Now, share-price rallies at companies such as Meta Platforms Inc. and Nvidia Corp. are creating an opportunity to offer the structure to moderately wealthy techies as well, says Srikanth Narayan, founder of San Francisco-based Cache.
@@ -96,42 +96,42 @@ Me, though, I’m more interested in what it could do for incentives. Presumably
 But what if all of the midlevel employees of all of these companies ended up owning diversified portfolios of all of them? What if workers in Big Tech were compensated with, effectively, a portfolio of Big Tech Index shares? (Plus Costco, if Cache can find any.
   [3]
 ) What does that do for competition?
-“Should index funds be illegal,” I 
-sometimes 
-ask around here: If every public company is owned by diversified investors who also own all of its competitors, will those companies have less incentive to compete? One of the 
+“Should index funds be illegal,” I
+sometimes
+ask around here: If every public company is owned by diversified investors who also own all of its competitors, will those companies have less incentive to compete? One of the
 main responses to this concern is that, while the institutional shareholders are mostly diversified, the executives and employees tend to own concentrated positions in their employers’ stocks, so they are motivated to compete. And they run the company from day to day. But what if the employees were all diversified too?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       PCAOB/KPMG
-    
-  
+
+
 
 Here are three stylized facts about accounting:
 	If you are a junior or mid-level accountant at a big public accounting firm, you probably know a lot about accounting. Your accounting training is reasonably fresh in your mind, and you are applying it all day in your job as an accountant.	If you are a quite senior accountant at a big public accounting firm, you might know ever so slightly less accounting? Your accounting training occurred a long time ago. Your day job involves a lot of managing people, schmoozing clients and setting firm strategy; you probably spend less time in the details of technical accounting questions than you used to. You didn’t get to where you are today exclusively by being good at accounting, though that probably helped; you owe your promotions to some other, less accounting-related skills.	Accountants are subject to continuing-education requirements, where professional bodies, regulators and their firms require them to periodically take classes on accounting and pass exams to make sure they still know accounting stuff.
@@ -147,17 +147,17 @@ Yesterday the US Public Company Accounting Oversight Board, which regulates US a
  KPMG Netherlands employees had to take lots of internal training courses, some of the courses had tests that they had to pass, a lot of it was online, and apparently nobody took the tests that seriously so they regularly shared answers with each other:
 From at least October 2017 through 2022, hundreds of KPMG Netherlands personnel, including partners, were involved in improper answer sharing related to training tests, and in some cases the NBA Knowledge tests. This misconduct occurred primarily through emails attaching documents or images containing the contents of the tests and/or answers to test questions. KPMG Netherlands personnel also jointly took tests that were intended to assess individual knowledge.
 Some of this was peer employees sharing the answers with each other, but some of it was the bosses specifically demanding that their underlings help them take the tests. Makes sense! The bosses are good at managing people; the underlings are good at accounting.
-There are lots of cases like this; KPMG itself had another one in 2022. Cheating on internal exams is for the PCAOB a little like 
+There are lots of cases like this; KPMG itself had another one in 2022. Cheating on internal exams is for the PCAOB a little like
 improper cell-phone use for the US Securities and Exchange Commission. It’s a perpetual cash cow — every bank has people who did business on personal cell phones, every accounting firm apparently has people who cheated on training exams — and, while it isn’t particularly bad in itself, perhaps it is a sign of bigger problems. For one thing, it is bad if accountants are unethical and cheat on exams. For another thing, it’s bad if they can’t pass the exams without cheating! They’re supposed to know accounting.
 But you don’t want to overstate that. The problem here does not seem to be that they didn’t know accounting. The problem is that they didn’t take the trainings or exams seriously; they did not see the trainings as essential to their work as accountants, but as meaningless administrative box-checking to be done as quickly as possible before they got back to their actual jobs. Actually sometimes they were in such a hurry to get back to their actual jobs that they left early and made someone else finish checking the boxes:
 In 2021, another senior leader at the Firm, the Supervisory Chairman, engaged in improper answer sharing. … Shortly after joining the  Supervisory Board, the Supervisory Chairman received assistance from a staff member while taking two mandatory trainings that the Supervisory Board had assigned to the Supervisory Chairman. The staff member sat next to the Supervisory Chairman while he took the two training tests, and the staff member finished one of the tests for the Supervisory Chairman when he left for a meeting before completing the test. 
 I guess if your boss tells you to finish his mandatory training exam for him, you have to do it? Does seem like a problem though.
 
-  
-    
+
+
       Change of control
-    
-  
+
+
 
 Many companies have debt agreements that include a “change of control put.” If the company has a change of control, the creditors can demand their money back immediately, often at a premium. This can be a big deal. If a company has bonds outstanding that are due in 2030 and trade at 80 cents on the dollar, and then it has a change of control, it might have to buy the bonds back immediately at 101. It will need to come up with a lot of money, probably by borrowing it at more expensive rates.
 The intuition here is that, often, when a company is taken over, its debt becomes riskier: If you are a bondholder of some reasonably stable public company, and then it gets bought in a leveraged buyout and loaded up with more debt, you will be sad; your debt will lose value. The deal that you originally struck with the company has changed, and you’ll want to get out.
@@ -189,11 +189,11 @@ Richard Clark and Richard Markee will join the board and its finance committee t
 
 Settling a proxy fight doesn’t trigger the puts. Of course presumably if Arkhouse and Brigade acquire the company, that will be a change of control. But that will be their problem, not the shareholders’.
 
-  
-    
+
+
       Who controls a company?
-    
-  
+
+
 
 A reader, knowing how fond I am of this sort of thing, sent me three articles in Bicycle Retailer and Industry News with the following perfect sequence of headlines:
 	“Scott Sports replaces CEO 'to refresh' brand” (March 29)	“Beat Zaugg says he's still CEO of Scott Sports” (April 1)	“Police called to Scott Sports headquarters” (April 4)
@@ -211,17 +211,17 @@ Also the April 4 story contains a tantalizing hint that the Swiss police might 
 Fribourg police spokesperson Bertrand Ruffieux told Euro Day France: "Nothing serious happened. We intervened in a civil matter, a dispute between managers. In this type of case, the police are called to the scene to find a way to open a discussion, and for people to understand each other. But there are no injured or anyone arrested."
 Like you call the Swiss police and the Corporate Disputes Unit shows up with sirens blaring and they get out the bullhorn and shout “we have a copy of your bylaws right here! Don’t do anything rash! A quorum of your board of directors is on the way!”
 
-  
-    
-      Things happen
-    
-  
 
-Cocoa’s Surge Is Drawing Africa’s Farmers Back to the Bean. BlackRock loses appeal over UK tax on $13.5bn BGI deal. Top Crypto Exchanges Look to Move Beyond Settlements With U.S. Regulators. Grant Thornton retirees escalate revolt over private equity deal. Managers to shut or convert $220bn of US money market funds before rule change. Hedge fund takes on shipping magnates over oil tanker deal. “Vulture holdouts of the Elliott-Argentina variety in sovereign debt restructurings aren't really a thing now.” UnitedHealth Chair, Executives 
+
+      Things happen
+
+
+
+Cocoa’s Surge Is Drawing Africa’s Farmers Back to the Bean. BlackRock loses appeal over UK tax on $13.5bn BGI deal. Top Crypto Exchanges Look to Move Beyond Settlements With U.S. Regulators. Grant Thornton retirees escalate revolt over private equity deal. Managers to shut or convert $220bn of US money market funds before rule change. Hedge fund takes on shipping magnates over oil tanker deal. “Vulture holdouts of the Elliott-Argentina variety in sovereign debt restructurings aren't really a thing now.” UnitedHealth Chair, Executives
 Sold $102 Million in Stock Before US Probe Became Public. Vertex Pharmaceuticals to Acquire Alpine Immune Sciences for $4.9 Billion. The Hidden Costs of Homeownership Are Skyrocketing. Vietnamese property tycoon sentenced to death over $12bn fraud. Instagram to Start Blurring Nude Images in Messages to Protect Teens. This disruptive late-night train commuter is ... a horse.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] In 
+
+  [1] In
 particular: “In the 1960s, the federal government tried to squash exchange funds by banning tax-free swaps into partnerships with more than 80% of their assets in liquid investments such as stocks. Wealth managers skirted the measure by putting 79% of the fund in liquid assets and the rest in holdings such as real estate.’”
 
 
@@ -237,48 +237,48 @@ particular: “In the 1960s, the federal government tried to squash exchange fun
   [5] For a sample, see page 11 of this 2012 indenture governing some Macy’s Inc. bonds: “’Change of Control’ means the occurrence of any of the following: (1) the direct or indirect sale, lease, transfer, conveyance or other disposition (other than by way of merger or consolidation), in one or a series of related transactions, of all or substantially all of the properties or assets of the Guarantor and its subsidiaries taken as a whole to any Person other than the Guarantor or one of its subsidiaries; (2) the consummation of any transaction (including, without limitation, any merger or consolidation) the result of which is that any Person becomes the beneficial owner, directly or indirectly, of more than 50% of the then outstanding number of shares of the Guarantor’s Voting Stock or other Voting Stock into which the Voting Stock of the Guarantor is reclassified, consolidated, exchanged or changed, measured by voting power rather than number of shares; (3) the Guarantor consolidates with, or merges with or into, any Person, or any Person consolidates with, or merges with or into the Guarantor, in any such event pursuant to a transaction in which any of the outstanding shares of the Guarantor’s Voting Stock or the Voting Stock of such other Person is converted into or exchanged for cash, securities or other property, other than any such transaction where the shares of the Guarantor’s Voting Stock outstanding immediately prior to such transaction constitute, or are converted into or exchanged for, a majority of the Voting Stock of the resulting or surviving Person or any direct or indirect parent company of the resulting or surviving Person immediately after giving effect to such transaction; (4) the first day on which a majority of the members of the Guarantor’s Board of Directors are not Continuing Directors; or (5) the adoption of a plan providing for the liquidation or dissolution of the Guarantor.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -289,46 +289,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cku94x.5ikk/de7feee5.gif" alt="" border="0" /></a>

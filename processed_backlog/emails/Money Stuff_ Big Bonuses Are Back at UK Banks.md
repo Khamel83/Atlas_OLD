@@ -7,62 +7,62 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        One of the many things that people blamed for the 2008 financial crisis was bank bonuses. The idea was that a lot of bankers and traders at 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        One of the many things that people blamed for the 2008 financial crisis was bank bonuses. The idea was that a lot of bankers and traders at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bonus caps
-    
-  
 
-One of the many things that people blamed for the 2008 financial crisis was bank bonuses. The idea was that a lot of bankers and traders at investment banks got most of their pay in the form of variable year-end bonuses, so they would take a lot of risk in order to get a big bonus: If their risky bets worked out, they’d share in the gains (in the form of a bonus), but if they went bust they wouldn’t bear the losses. If they were instead paid mostly in salary, their risk-taking would have less upside (if they made a lot of money for the firm, they wouldn’t see much of it) and more downside (if they lost a lot of money for the firm, they’d be fired and lose their large recurring salary). I’m not sure this analysis was ever that compelling — even without a year-end bonus it seems like a good career move to make a lot of money for your firm, and 
-also to 
-lose a lot of 
+
+
+One of the many things that people blamed for the 2008 financial crisis was bank bonuses. The idea was that a lot of bankers and traders at investment banks got most of their pay in the form of variable year-end bonuses, so they would take a lot of risk in order to get a big bonus: If their risky bets worked out, they’d share in the gains (in the form of a bonus), but if they went bust they wouldn’t bear the losses. If they were instead paid mostly in salary, their risk-taking would have less upside (if they made a lot of money for the firm, they wouldn’t see much of it) and more downside (if they lost a lot of money for the firm, they’d be fired and lose their large recurring salary). I’m not sure this analysis was ever that compelling — even without a year-end bonus it seems like a good career move to make a lot of money for your firm, and
+also to
+lose a lot of
 money — but it was widely believed, and the European Union ultimately  adopted rules limiting some bank employees’ bonuses to two times their salary.
 In theory this rule should make banks’ behavior less risky — all the bankers and traders will be less inclined to make big bets, etc. — but it also makes their finances more risky: One advantage of paying employees mostly in bonus is that you pay them a lot in good years and less in bad years. The EU bonus cap led to much higher banking salaries (and lower bonuses), which means that banks have to pay employees more in bad years than they would have under the old rules.
   [1]
@@ -94,37 +94,37 @@ I don’t really believe that big banks in the UK will implement a two-tier work
 And then, I don’t know, see what happens? Maybe the PRA is right that the new bonus rules make bonuses the less risky choice, and all the people who get paid mostly in bonus end up being more careful long-term stewards of their banks’ capital, while the people who get paid mostly in salary pay less attention to risk. 
 You can see why, after 2008, politicians and regulators wanted banks to take less risk. But discouraging bankers from being risk-takers has some bad consequences. Banks are fundamentally risky: They are leveraged businesses, they borrow short to lend long, there is always some risk of blowing up. Silicon Valley Bank failed this year because it bought too many Treasury bonds; surely it didn’t intend that to be a big risk. If you get rid of all the risk-takers at a bank, then there will be no one left who is good at taking risks, but the bank will still be taking risks. You have to strike the right balance. Maybe the new regime does that: Paying big bonuses attracts risk takers, but paying big deferred bonuses attracts thoughtful, long-term risk-takers.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       DAOs
-    
-  
+
+
 
 The normal way for a venture capital firm to invest in a startup company is something like this. The startup is a corporation, and it issues stock, and the VC firm (through one of its funds) buys the stock. The VC firm might get a seat on the startup’s board of directors, and might have some say in running the startup. But the startup is a separate company. If it is doing bad stuff, the VC firm could lose the money it invested in the startup, but it will not ordinarily get in trouble for the startup’s actions. When startups like Theranos and FTX collapsed in scandal, the VC firms that bought their stock were treated as victims of the scandals, not co-conspirators. 
 And then the way the VC firm makes money is by eventually selling their stock, when the startup goes public or is bought by a bigger company.
@@ -146,13 +146,13 @@ This theory is not unique to this case, and we   talked last year about a US Com
 I remember the days of crypto optimism in 2021. One thing that crypto enthusiasts and venture capitalists liked to say was that crypto was a new way of organizing human economic behavior, that crypto would enable a new “Web3” in which technology was organized collectively and belonged to its users instead of being owned by big corporations. This could seem pretty cynical, as VC firms often owned big stakes in (the tokens of) these web3 projects. 
 But also it was just a big factual mistake! Crypto and DAOs and web3 were not a new way of organizing human economic behavior;   they were an old way, the general partnership. They were a technological step backward: Ages ago, lawyers and financiers and governments figured out a new way to organize human behavior, the corporation, which allowed people to pool their capital in a new venture in ways that limited their risk and thus encouraged more and safer capital formation. And then crypto came along and people forgot.
 
-  
-    
-      Dimes
-    
-  
 
-One thing that I 
+
+      Dimes
+
+
+
+One thing that I
 think about sometimes is what sorts of businesses, in what sorts of circumstances, have an obligation to catch and report money launderers. If you run a deli and someone comes in and tries to buy a sandwich with a $20 bill, you will not think twice about it; that’s a normal transaction and not at all evidence of money laundering. If you run a real estate brokerage and someone comes in and tries to buy a Central Park South apartment with a suitcase full of $100 bills, you might call a lawyer. Cash transactions are not in themselves suspicious, but at some size they start becoming suspicious.
 Similarly with coin transactions. If you run a supermarket with a Coinstar machine and someone comes in with a jar of change to convert into bills, fine. If some guys come in with a truck and a bucket and spend four hours patiently pouring dimes into the machine, at some point you are going to call the police? You can only have  so many dimes for legitimate reasons:
 
@@ -167,60 +167,60 @@ In the weeks after the theft, the others allegedly converted thousands of dollar
 
 Here is one such  calculator, which tells me that $5,200 is 260 pounds of dimes. It just seems like an exhausting way to do crime.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US   IPO Market Teetering on Edge After Fall Class Disappoints. Private equity firms face worst year for  exiting investments in a decade.  LBO equity checks top 50% for the first time, thanks to high interest rates. How the Highest  Bond Yields in 16 Years Could Chill the Hot U.S. Economy. Dealmakers see  Chevron-Hess tie-up as the start of oil ‘arms race.’ China’s   Property Crisis Is Upending Tens of Thousands of Lives. Bitcoin Hits $35,000 for First Time Since 2022 on   ETF Optimism. Tesla  Confirms Probe Into Executive Perks and Related-Party Deals. Nigeria Fends Off $11 Billion Award as London Judge  Finds Fraud. Banks Face Shake-Up of  Low-Income Lending Rules. Bank of America Voted   Best US Sell-Side Research Firm, Ending JPMorgan’s Reign. Blackstone Chief Schwarzman Says   Remote Workers Don’t Grind as Hard. Is London’s New    £760 Steak Worth It? Business  cold plunge. “If Ceres thought it could  roll the oats market without consequence, it was mistaken.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Two points on this. One is that it’s not *just* the EU rules: I was an investment banker in the US after the financial crisis, and my base salary more or less doubled one day as the banks responded to the EU rules and also general public pressure to pay more base and less bonus. The other point is that one shouldn’t exaggerate too much the pay flexibility of a mostly-bonus-based culture: In a world where everyone gets 90% of their pay in bonus, they tend to expect a certain bonus even in bad years, and zeroing someone’s bonus is a drastic step.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -231,46 +231,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjq3lk.5k63/47bc7638.gif" alt="" border="0" /></a>

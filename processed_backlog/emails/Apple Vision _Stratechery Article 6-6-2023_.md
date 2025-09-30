@@ -182,7 +182,7 @@ What is more striking, though, is the extent to which Apple is leaning into a pe
 
 In other words, there is actually a reason to hope that Meta might win: it seems like we could all do with more connectedness, and less isolation with incredible immersive experiences to dull the pain of loneliness. One wonders, though, if Meta is in fact fighting Apple not just on hardware, but on the overall trend of society; to put it another way, bullishness about the Vision Pro may in fact be a function of being bearish about our capability to meaningfully connect.
 
-* 
+*
 
 You can also use a Quest that is plugged in, but it’s not really designed to have a cord sticking out of it at a right angle ↩︎ ( #rf1-11076 )
 

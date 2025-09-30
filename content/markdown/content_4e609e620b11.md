@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"10\/27\/2014","content_publish_time":"07:34","content_last_update_date":"06\/19\/2020","content_last_update_time":"12:50","contentcategory":"2014 NBA Preview,Boston Celtics,Brooklyn Nets,Detroit Pistons,Milwaukee Bucks,NBA,NBA Preview,New York Knicks,Orlando Magic,Philadelphia 76ers","section_1":"sports","section_2":"sports:2014 nba preview","story_title":"2014 NBA Preview: The Sixers Are Going Nowhere Fast","story_id":57362,"author":"Neil Paine, Ian Levy, John Ezekowitz and Andrew Flowers","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["2014 NBA Preview","Boston Celtics","Brooklyn Nets","Detroit Pistons","Milwaukee Bucks","NBA","NBA Preview","New York Knicks","Orlando Magic","Philadelphia 76ers"],"word_count":2569},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>2014 NBA Preview: The Sixers Are Going Nowhere Fast | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":57362,"section":"sports2014-nba-previe
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="2014 NBA Preview: The Sixers Are Going Nowhere Fast" />
@@ -206,7 +206,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -225,13 +225,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											2014 NBA Preview: The Sixers Are Going Nowhere Fast									</div>
 				<a href="https://fivethirtyeight.com/features/2014-nba-preview-the-sixers-are-going-nowhere-fast/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/2014-nba-preview-the-sixers-are-going-nowhere-fast/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -295,7 +295,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -304,7 +304,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -321,7 +321,7 @@ display: none;
 								<time class="datetime updated" title="2014-10-27T11:34:37+00:00">7:34 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									2014 NBA Preview: The Sixers Are Going Nowhere Fast								</h1>
@@ -331,10 +331,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/neil-paine/" title="" class="author url fn" rel="author">Neil Paine</a>, <a href="https://fivethirtyeight.com/contributors/ian-levy/" title="" class="author url fn" rel="author">Ian Levy</a>, <a href="https://fivethirtyeight.com/contributors/john-ezekowitz/" title="" class="author url fn" rel="author">John Ezekowitz</a> and <a href="https://fivethirtyeight.com/contributors/andrew-flowers/" title="" class="author url fn" rel="author">Andrew Flowers</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/2014-nba-preview/" class="term " name="">2014 NBA Preview</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -347,7 +347,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_banner.png">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?w=475 1x, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?w=950 2x">
 						<img width="475" height="355" src="https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?w=475" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg 475w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=348,260 348w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=214,160 214w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2014/10/quad3_lede.jpg?resize=60,45 60w" sizes="(max-width: 475px) 100vw, 475px" />									</picture>
 
@@ -358,13 +358,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			The top four players by wins above replacement in the lower half of the NBA&#8217;s Eastern Conference, from left to right: Joe Johnson, Deron Williams, Channing Frye, Carmelo Anthony.							<p class="credits">Getty Images</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 													<p class="credits">Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p class="p1">The NBA season approaches with the rolling thunder of a <a href="https://www.youtube.com/watch?v=b866hh4apUI" target="_blank" rel="noopener noreferrer">Shaquille O’Neal</a> <a href="https://www.youtube.com/watch?v=GYcnsFdu8q8" target="_blank" rel="noopener noreferrer">coast-to-coast</a> <a href="https://www.youtube.com/watch?v=br3AaISFc-A" target="_blank" rel="noopener noreferrer">dunk</a>. We felt the footsteps coming weeks ago, and took each NBA player’s projected <a href="http://www.espn.com/nba/story/_/id/10740818/introducing-real-plus-minus"><span class="s1">Real Plus-Minus</span></a> and <a href="https://fivethirtyeight.com/features/carmelo-anthonys-contract-could-doom-the-knicks-to-mediocrity/"><span class="s1">wins above replacement</span></a>, calculated a total for each team, and ran 10,000 simulations of the NBA schedule to divine likely records and championship odds.<span class="espn-footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&lt;p&gt;&lt;span&gt;The rosters we used came from ESPN.com’s depth charts, and were current as of Monday, Oct. 20.&lt;/p&gt;
 "><sup id="ss-1">1</sup></span> We’ve split the teams into the lower and upper tiers in each conference; these are the seven teams that likely won’t make the playoffs from the East. (We previewed the West’s lower and upper tiers <a href="https://fivethirtyeight.com/features/2014-nba-preview-the-lakers-are-even-worse-than-they-were-last-year/"><span class="s1">here</span></a> and <a href="https://fivethirtyeight.com/features/2014-nba-preview-the-rise-of-the-warriors/" target="_blank" rel="noopener noreferrer">here</a>.) Use our stats, x-factors and regressions to prepare before Tuesday night arrives.</p>

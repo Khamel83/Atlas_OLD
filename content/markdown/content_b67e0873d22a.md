@@ -240,7 +240,7 @@ function onbenjiload() {
 </div>
 
 </header>
-		
+
 	<div class="container__access-control">
 		<div class="content">
 			<div class="ad-unit">
@@ -255,7 +255,7 @@ function onbenjiload() {
 	<div class="content">
 		<div class="feature-island">
 			<div class="feature-island-main-block">
-	
+
 	<h2 class="fi-main-block__title">
 		<a class="post-block__title__link" href="http://web.archive.org/web/20231202000540/https://techcrunch.com/2023/12/01/23andme-says-hackers-accessed-significant-number-of-files-about-users-ancestry/">23andMe says hackers accessed &#8216;significant number&#8217; of files about users&#8217; ancestry</a>
 	</h2>
@@ -272,7 +272,7 @@ function onbenjiload() {
 
 <div class="mini-view">
 				<article class="mini-view__item">
-	
+
 	<h3 class="mini-view__item__title">
 		<a href="http://web.archive.org/web/20231202000540/https://techcrunch.com/2023/12/01/openais-gpt-store-delayed-to-2024-following-leadership-chaos/">OpenAI&#8217;s GPT Store delayed to 2024 following leadership chaos</a>
 	</h3>
@@ -281,7 +281,7 @@ function onbenjiload() {
 			<a href="http://web.archive.org/web/20231202000540/https://techcrunch.com/author/devin-coldewey/">Devin Coldewey</a>	</p>
 </article>
 <article class="mini-view__item">
-	
+
 	<h3 class="mini-view__item__title">
 		<a href="http://web.archive.org/web/20231202000540/https://techcrunch.com/2023/12/01/good-old-fashioned-ai-remains-viable-in-spite-of-the-rise-of-llms/">Good old-fashioned AI remains viable in spite of the rise of LLMs</a>
 	</h3>
@@ -290,7 +290,7 @@ function onbenjiload() {
 			<a href="http://web.archive.org/web/20231202000540/https://techcrunch.com/author/">Ron Miller</a>	</p>
 </article>
 <article class="mini-view__item">
-	
+
 	<h3 class="mini-view__item__title">
 		<a href="http://web.archive.org/web/20231202000540/https://techcrunch.com/2023/12/01/the-end-of-elon/">The end of Elon</a>
 	</h3>
@@ -354,7 +354,7 @@ function onbenjiload() {
 				23andMe says hackers accessed &#8216;significant number&#8217; of files about users&#8217; ancestry			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T14:43:04-08:00">
 		Dec 01, 2023	</time>
@@ -388,7 +388,7 @@ function onbenjiload() {
 				Ev startup Fisker cut its 2023 production target for the fourth time			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T14:25:05-08:00">
 		Dec 01, 2023	</time>
@@ -422,7 +422,7 @@ function onbenjiload() {
 				OpenAI&#8217;s GPT Store delayed to 2024 following leadership chaos			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T14:08:57-08:00">
 		Dec 01, 2023	</time>
@@ -456,7 +456,7 @@ function onbenjiload() {
 				AWS re:Invent: Everything Amazon&#8217;s announced, from new AI tools to LLM updates and more			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T13:30:07-08:00">
 		Dec 01, 2023	</time>
@@ -490,7 +490,7 @@ function onbenjiload() {
 				What&#8217;s up with Tesla&#8217;s Cybertruck? Everything to know about the much-hyped electric pickup			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T12:10:46-08:00">
 		Dec 01, 2023	</time>
@@ -524,7 +524,7 @@ function onbenjiload() {
 				When Uncle Sam puts his thumb on your brake pedal			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T12:05:55-08:00">
 		Dec 01, 2023	</time>
@@ -558,7 +558,7 @@ function onbenjiload() {
 				Amazon signs 3-launch deal with SpaceX for Project Kuiper satellite internet constellation			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:53:56-08:00">
 		Dec 01, 2023	</time>
@@ -592,7 +592,7 @@ function onbenjiload() {
 				Tesla Cybertruck delivery event: Everything Elon revealed about the EV pickup			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:50:35-08:00">
 		Dec 01, 2023	</time>
@@ -626,7 +626,7 @@ function onbenjiload() {
 				Good old-fashioned AI remains viable in spite of the rise of LLMs			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:24:45-08:00">
 		Dec 01, 2023	</time>
@@ -660,7 +660,7 @@ function onbenjiload() {
 				TC+ Roundup: Forestry tech is at an inflection point			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:05:59-08:00">
 		Dec 01, 2023	</time>
@@ -694,7 +694,7 @@ function onbenjiload() {
 				Bluesky rolls out automated moderation tools, plus user and moderation lists			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T11:00:40-08:00">
 		Dec 01, 2023	</time>
@@ -728,7 +728,7 @@ function onbenjiload() {
 				Pitch Deck Teardown: Scalestack&#8217;s $1M AI sales tech seed deck			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T10:30:10-08:00">
 		Dec 01, 2023	</time>
@@ -762,7 +762,7 @@ function onbenjiload() {
 				X says it will chase SMB ad dollars after Musk&#8217;s &#8216;go  f*** yourself&#8217; comments to fleeing advertisers			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T10:03:29-08:00">
 		Dec 01, 2023	</time>
@@ -796,7 +796,7 @@ function onbenjiload() {
 				Why Rover&#8217;s $2.3B sale price makes good sense			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T09:30:56-08:00">
 		Dec 01, 2023	</time>
@@ -830,7 +830,7 @@ function onbenjiload() {
 				Revenue-based financing heats up in the Middle East as Flow48 attracts $25M in funding			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T09:30:45-08:00">
 		Dec 01, 2023	</time>
@@ -864,7 +864,7 @@ function onbenjiload() {
 				Microsoft is in talks with partners about launching an Xbox mobile store			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T09:10:02-08:00">
 		Dec 01, 2023	</time>
@@ -898,7 +898,7 @@ function onbenjiload() {
 				Amazon finds itself in the unusual position of playing catch-up in AI			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T09:00:42-08:00">
 		Dec 01, 2023	</time>
@@ -932,7 +932,7 @@ function onbenjiload() {
 				Capsule&#8217;s new app combines AI and human editors to curate the news			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T08:20:20-08:00">
 		Dec 01, 2023	</time>
@@ -966,7 +966,7 @@ function onbenjiload() {
 				8 authors and their 8 gift book picks for this holiday season			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T08:05:15-08:00">
 		Dec 01, 2023	</time>
@@ -1000,7 +1000,7 @@ function onbenjiload() {
 				The end of Elon			</a>
 		</h2>
 		<div class="post-block__meta">
-			
+
 <div class="river-byline">
 	<time class="river-byline__time" datetime="2023-12-01T07:50:51-08:00">
 		Dec 01, 2023	</time>
@@ -1036,7 +1036,7 @@ function onbenjiload() {
 	</div><!-- end React-root duplication div -->
 </div><!--end #root-->
 	<script type="application/javascript">
-		if ( ! window.isSSR ) { 
+		if ( ! window.isSSR ) {
 			(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'428726','qstrings': { 'et': 'custom','ea': 'page view','product_id': window.location.pathname,'site': 'techcrunch' },}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","http://web.archive.org/web/20231202000540/https://s.yimg.com/wi/ytc.js","dotq");
 		}
 	</script>

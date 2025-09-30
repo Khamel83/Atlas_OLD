@@ -9,59 +9,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The way a public company’s quarterly earnings call generally works is tha
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Don’t talk like a robot
-    
-  
+
+
 
 The way a public company’s quarterly earnings call generally works is that it puts out a press release with the earnings information and then its chief executive officer and chief financial officer get on a call with analysts. The CEO and CFO give an introduction to the call, describing the quarter’s highlights, and then the analysts ask questions and the executives answer them. 
 Here is an experiment you could do. You take the earnings release, the company’s previous financial statements and the introduction to the earnings call, and you feed them all into a ChatGPT large language model. Then, you take the analysts’ questions on the call, and instead of having the CEO and CFO answer them, you let ChatGPT do it. How would ChatGPT do?
@@ -82,39 +82,39 @@ HAID is strongly positively associated with the absolute CAR [cumulative abnorma
 
 Possibly the takeaway, for corporations, is that if earnings are bad you should have ChatGPT do your earnings call, but if they’re good you should do it yourself. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bitcoin accounting
-    
-  
 
-The US generally accepted accounting for Bitcoin 
+
+
+The US generally accepted accounting for Bitcoin
 is that it can go down, but not up: If you are a corporation and you buy some Bitcoins, then the Bitcoins are reflected on your balance sheet at their cost, but you test them every quarter for impairment. If the price has gone down, the Bitcoins are impaired: You reflect their lower value on your balance sheet, and you take a loss on your income statement. If the price has gone up, you don’t reflect the higher value on your balance sheet or take a gain in income. (If you sell the Bitcoins at a higher price, you do have a gain in income.)
 Accounting is, by default, conservative, and if you come to an accountant and say “we have invented a new sort of digital asset, how should we account for it,” this is what they will come up with.
   [2]
@@ -130,15 +130,15 @@ The FASB, which sets accounting standards for U.S. public and private companies 
 Public companies’ financial statements will have to disclose their crypto assets, separating them from intangible assets like patents and trademarks, on a quarterly and annual basis. Private companies must do the same in whichever financial reports they compile. Businesses will have to include gains and losses on their crypto assets in their net income.
 The rule is set to go into effect for 2025 annual reports for calendar-year public and private companies, which can adopt the changes early. 
 
-I do not think that the weird accounting is, like, the main impediment to all of corporate America shifting its working capital from dollars into Bitcoins. But the accounting is annoying, and companies that own have a lot of Bitcoin will 
+I do not think that the weird accounting is, like, the main impediment to all of corporate America shifting its working capital from dollars into Bitcoins. But the accounting is annoying, and companies that own have a lot of Bitcoin will
 grumble about it a bit in their securities filings. (“Any decrease in their fair values below our carrying values for such assets at any time subsequent to their acquisition will require us to recognize impairment charges,”  says Tesla Inc., “whereas we may make no upward revisions for any market price increases until a sale. For any digital assets held now or in the future, these charges may negatively impact our profitability in the periods in which such impairments occur even if the overall market values of these assets increase.”)
 Now, though, if you are a public company and you buy Bitcoin and the price of Bitcoin goes up, you have income. That might make it a bit more attractive to buy Bitcoin.
 
-  
-    
+
+
       Crushed rocks
-    
-  
+
+
 
 Sorry I just love this stuff:
 
@@ -149,14 +149,14 @@ That powder is then combined with water to become calcium hydroxide and spread o
 Brisbane, Calif.-based Heirloom first used the process to remove a few grams of carbon from the air, then gradually stepped up to removing metric tons. It soon hopes to be removing thousands of metric tons. The goal is to bring down costs faster than competitors through the use of low-cost limestone. 
 
 There is that famous Paul Volcker line about how the ATM is the only good financial innovation, but I think this is good too. Oh I mean obviously what Heirloom is up to is not a financial innovation; it is an innovation in engineering and climate science. But historically if you built a product whose output was “the Earth’s atmosphere will be very very slightly cooler,” no one would buy it. Most people would be worse off with a warming world, but free-riding and coordination problems make it hard to charge all of them for your rock-crushing business. Perhaps governments — who are in the business of providing public goods to their citizens — would pay you, but climate change is politically controversial and there are free-riding problems there  too (your crushed rocks cool the atmosphere for Russia as well as the US).
-But the modern financial system has created 
+But the modern financial system has created
 this new coordination mechanism, in which big public companies feel pressure from their shareholders and customers and employees and general corporate social norms to be carbon-neutral, and since they generate carbon in their businesses they pay for carbon credits to offset what they generate, and “pay for carbon credits” means things like “commit hundreds of millions of dollars so that Heirloom can get its limestone-crushing business off the ground and profitably sell a slightly cooler atmosphere to Microsoft and other customers.” Inventors are going around thinking up ways to reduce global warming not out of personal altruism, but because now reducing global warming is profitable. Because financial markets have found a way to take abstract altruism — millions of people’s unfocused concerns about a warming world — and channel it into money.
 
-  
-    
+
+
       WeWork
-    
-  
+
+
 
 Conceptually one way that WeWork Inc. makes money is by a sort of maturity mismatch:
 	It leases big blocks of office space from landlords for long terms: It will lease 10 floors of a building for 10 years, say.	It subdivides that space into smaller (spatial and temporal) units, and rents those units to customers: It will rent six desks on one floor to a startup on a month-to-month basis, say.	Renting six desks for a month is more expensive, per desk, than renting 10 floors for 10 years — there is a volume discount — and WeWork profits on the spread.
@@ -174,13 +174,13 @@ If the office market had boomed, WeWork would have made a lot of money on the s
   [3]
  When it slumped, though, the landlords share in the pain.
 
-  
-    
-      Sculptor
-    
-  
 
-Sure 
+
+      Sculptor
+
+
+
+Sure
 I guess:
 
 Boaz Weinstein and his group of bidders revised their offer to buy Sculptor Capital Management Inc., seeking to address some of the concerns the board’s special committee outlined in a proxy filing last week, according to people familiar with the matter.
@@ -188,7 +188,7 @@ While Weinstein’s bid remains at $12.76 a share, it has beefed up its equity c
 Sculptor accepted Rithm Capital Corp.’s lower bid of $11.15 a share, or about $639 million, in July. It still preferred that offer as of a filing on Aug. 30, citing a variety of concerns about the higher bid from the other group.
 It’s unclear whether Sculptor will be swayed by the amended proposal. 
 
-We 
+We
 discussed the board’s concerns last week, and I think they fall into two main buckets:
 	The board seems to think that Weinstein and friends are a bunch of flakes who might walk away from the deal, so they want strong deal protections to prevent that.	The board seems to think that Sculptor’s hedge fund clients won’t want Weinstein and friends to take over Sculptor’s funds, and Weinstein’s deal (like Rithm’s) is contingent on client approval. If the clients say no to Weinstein, then his deal won’t go through and Sculptor’s shareholders won’t get the $12.76.
 
@@ -203,11 +203,11 @@ No matter how loud the volume gets (from talk of a strategic transaction or othe
 
 I suppose that performance is relevant to the question of whether clients would prefer the Rithm deal (which would mostly keep current management) or the Weinstein deal (less so). The better Sculptor’s performance is, the less vulnerable it probably is to a hostile takeover.
 
-  
-    
+
+
       Pre-revenue banking platform
-    
-  
+
+
 
 In the consumer tech world it is pretty common for a company to start with a popular product but no revenue model. “We will build an app to let people share pictures with their friends, for free” is an idea that can be worth billions of dollars even if it doesn’t make any money. Because, you know, at this point, there is a pretty good history of people finding ways to make it make money. Ads, mainly. Eventually you get to critical mass and you charge companies to advertise to the people sharing pictures with their friends. This does not always work, but it works often enough and in big enough ways that people keep doing it.
 You see it less in banking? But here’s this:
@@ -220,11 +220,11 @@ Mathur said the stake could be sold in the next few months, though no deal is ce
 
 “It has never charged banks or borrowers for access to the platform,” but “it has the potential to provide equity upside for Citi.” Presumably by one day charging them?
 
-  
-    
+
+
       Gardening leave
-    
-  
+
+
 
 Generally the way it works in financial services firms is that if you are a senior enough employee, and you quit to go work for a competitor, your old firm will (1) prevent you from starting work at the competitor for a few months and (2) pay you your salary during those months. This is called “gardening leave,” and for some high-powered job changers,   it is very annoying: They have big plans to get a running start at their new firm, and being held out of the game for months is a huge disadvantage. For other, somewhat less high-powered job changers, this is amazing: You get paid a big salary to not work. I   wrote a few months ago about a guy who joined my investment-bank desk after a long gardening leave, stayed for a bit, then quit to go back to his old job, after another period of gardening leave. How I admired him! He had life figured out.
   [4]
@@ -242,16 +242,16 @@ Still a six-month paid vacation, but paid less. Speaking of having things figur
 “I was annoyed at the garden leave until, a month in, I realised this was the greatest thing that’s ever happened to me, like a fully paid retirement in the middle of my career,” the partner said.
 Right?
 
-  
-    
-      Things happen
-    
-  
 
-China’s Credit Wreck Exposes 
+
+      Things happen
+
+
+
+China’s Credit Wreck Exposes
 Governance Failings to the World. Wells Fargo Is Still in Fix-It Mode. How Elon Musk’s Impulses Transformed Twitter. The Middle East Becomes the World’s ATM. The Fintech Owner Accused of   Laundering Drug Money in Huge Bitcoin Scheme. More Binance Executives Leave, Including Some Overseeing Russia. Ex-FTX Executive   Salame to Plead Guilty to Criminal Charges. The Nine   Most Important Styles of Pizza in America Right Now. Air Canada kicks off passengers who  refused vomit-smeared seats. Man who tried to cross ocean in human hamster wheel banned from sea.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I have stylized it a bit: They actually fed ChatGPT the earnings-call transcripts up to the point a question was asked (i.e. the introduction and any previous questions and answers), and then had it answer the question. They didn’t feed it the earnings release or prior filings.
 
 
@@ -267,48 +267,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] It’s not exactly at full pay, since a lot of financial-services compensation comes in the form of bonus, and you normally get only your base salary and not your bonus during gardening leave. But of course your bonus arrangements with your new firm are negotiable, and maybe they’ll guarantee you a full-year bonus even if they only get you for six months.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -319,46 +319,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjfimt.65s3/ce001b24.gif" alt="" border="0" /></a>

@@ -622,8 +622,8 @@ class ContentClassifier:
                 # Store classification result
                 conn.execute(
                     """
-                    INSERT INTO classification_history 
-                    (content_id, content_type, content_preview, predicted_category, 
+                    INSERT INTO classification_history
+                    (content_id, content_type, content_preview, predicted_category,
                      predicted_confidence, predicted_tags, review_status)
                     VALUES (?, ?, ?, ?, ?, ?, ?)
                 """,
@@ -667,7 +667,7 @@ class ContentClassifier:
                     """
                     SELECT id, content_preview, predicted_category, predicted_confidence,
                            predicted_tags, created_at
-                    FROM classification_history 
+                    FROM classification_history
                     WHERE review_status = 'manual_review'
                     ORDER BY created_at DESC
                     LIMIT ?
@@ -695,7 +695,7 @@ class ContentClassifier:
                 # Update classification record
                 conn.execute(
                     """
-                    UPDATE classification_history 
+                    UPDATE classification_history
                     SET manual_category = ?, manual_tags = ?, manual_feedback = ?,
                         reviewed_at = ?, review_status = 'reviewed'
                     WHERE id = ?
@@ -720,7 +720,7 @@ class ContentClassifier:
                 if classification:
                     conn.execute(
                         """
-                        INSERT INTO classification_feedback 
+                        INSERT INTO classification_feedback
                         (content_pattern, correct_category, feedback_type)
                         VALUES (?, ?, ?)
                     """,
@@ -750,7 +750,7 @@ class ContentClassifier:
 
                 manual_reviews = conn.execute(
                     """
-                    SELECT COUNT(*) FROM classification_history 
+                    SELECT COUNT(*) FROM classification_history
                     WHERE review_status = 'manual_review'
                 """
                 ).fetchone()[0]
@@ -770,7 +770,7 @@ class ContentClassifier:
                     """
                     SELECT predicted_category, COUNT(*) as count,
                            AVG(predicted_confidence) as avg_confidence
-                    FROM classification_history 
+                    FROM classification_history
                     GROUP BY predicted_category
                     ORDER BY count DESC
                 """

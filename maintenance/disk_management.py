@@ -73,7 +73,7 @@ def get_disk_usage():
         # Get disk usage for root filesystem
         result = subprocess.run(["df", "/"], capture_output=True, text=True, check=True)
         lines = result.stdout.strip().split("\n")
-        
+
         if len(lines) > 1:
             # Parse disk usage percentage
             usage_info = lines[1].split()
@@ -88,28 +88,28 @@ def get_disk_usage():
 def send_alert(usage_percent, threshold):
     """Send disk space alert"""
     print(f"WARNING: Disk usage at {usage_percent}% exceeds {threshold}% threshold")
-    
+
     # Send email alert (implementation would be similar to previous alert scripts)
     # For now, we'll just print to log
     log_message = f"DISK_ALERT: Usage {usage_percent}% exceeds {threshold}% threshold"
     with open("/home/ubuntu/dev/atlas/logs/disk_alert.log", "a") as f:
         f.write(f"{datetime.now()}: {log_message}\n")
-    
+
     return True
 
 def cleanup_old_logs():
     """Clean up old log files"""
     print("Cleaning up old log files...")
-    
+
     log_dir = "/home/ubuntu/dev/atlas/logs"
     if not os.path.exists(log_dir):
         print("Log directory not found")
         return False
-    
+
     # Find and delete log files older than 30 days
     cmd = f"find {log_dir} -name '*.log' -mtime +30 -delete"
     result = run_command(cmd, "Deleting old log files")
-    
+
     if result is not None:
         print("Old log cleanup completed")
         return True
@@ -120,21 +120,21 @@ def cleanup_old_logs():
 def cleanup_temp_files():
     """Clean up temporary files"""
     print("Cleaning up temporary files...")
-    
+
     temp_dirs = [
         "/tmp/atlas",
         "/home/ubuntu/dev/atlas/tmp"
     ]
-    
+
     cleaned_count = 0
-    
+
     for temp_dir in temp_dirs:
         if os.path.exists(temp_dir):
             try:
                 # Find and delete files older than 7 days
                 cmd = f"find {temp_dir} -type f -mtime +7 -delete"
                 result = run_command(cmd, f"Cleaning temporary directory: {temp_dir}")
-                
+
                 if result is not None:
                     # Count files in directory after cleanup
                     count_cmd = f"find {temp_dir} -type f | wc -l"
@@ -145,23 +145,23 @@ def cleanup_temp_files():
                         cleaned_count += 1
             except Exception as e:
                 print(f"Error cleaning temporary directory {temp_dir}: {str(e)}")
-    
+
     print("Temporary file cleanup completed")
     return cleaned_count > 0
 
 def cleanup_old_backups():
     """Clean up old backups"""
     print("Cleaning up old backups...")
-    
+
     backup_dir = "/home/ubuntu/dev/atlas/backups"
     if not os.path.exists(backup_dir):
         print("Backup directory not found")
         return False
-    
+
     # Find and delete backup files older than 30 days
     cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' -mtime +30 -delete"
     result = run_command(cmd, "Deleting old backup files")
-    
+
     if result is not None:
         print("Old backup cleanup completed")
         return True
@@ -172,18 +172,18 @@ def cleanup_old_backups():
 def cleanup_oci_backups():
     """Clean up old OCI backups"""
     print("Cleaning up old OCI backups...")
-    
+
     # This would interact with OCI Object Storage to delete old backups
     # For now, we'll just print a message
     print("OCI backup cleanup would be implemented here")
     print("This would use the OCI CLI to delete old objects from the bucket")
-    
+
     return True
 
 def perform_cleanup():
     """Perform all cleanup tasks"""
     print("Performing disk space cleanup...")
-    
+
     # Perform cleanup tasks
     tasks = [
         ("Old log cleanup", cleanup_old_logs),
@@ -191,9 +191,9 @@ def perform_cleanup():
         ("Old backup cleanup", cleanup_old_backups),
         ("OCI backup cleanup", cleanup_oci_backups)
     ]
-    
+
     results = []
-    
+
     for task_name, task_func in tasks:
         print(f"\n{task_name}:")
         try:
@@ -202,34 +202,34 @@ def perform_cleanup():
         except Exception as e:
             print(f"Error in {task_name}: {str(e)}")
             results.append((task_name, False))
-    
+
     # Print summary
     print("\n" + "=" * 40)
     print("Cleanup Summary:")
     print("=" * 40)
-    
+
     all_success = True
     for task_name, success in results:
         status = "PASS" if success else "FAIL"
         print(f"{task_name}: {status}")
         if not success:
             all_success = False
-    
+
     return all_success
 
 def main():
     """Main disk monitoring function"""
     print("Starting disk space monitoring...")
-    
+
     # Get current disk usage
     usage_percent = get_disk_usage()
-    
+
     if usage_percent is None:
         print("Error getting disk usage")
         return False
-    
+
     print(f"Current disk usage: {usage_percent}%")
-    
+
     # Check thresholds
     if usage_percent >= 90:
         print("CRITICAL: Disk usage exceeds 90%")
@@ -245,7 +245,7 @@ def main():
         print("Disk usage is within acceptable limits")
         # Perform routine cleanup
         cleanup_temp_files()
-    
+
     return True
 
 if __name__ == "__main__":
@@ -332,23 +332,23 @@ def run_command(cmd, description=""):
 def cleanup_logs():
     """Clean up old log files"""
     print("Cleaning up logs...")
-    
+
     log_dir = "/home/ubuntu/dev/atlas/logs"
     if not os.path.exists(log_dir):
         print("Log directory not found")
         return False
-    
+
     # Count log files before cleanup
     count_cmd = f"find {log_dir} -name '*.log' | wc -l"
     count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
     if count_result.returncode == 0:
         before_count = int(count_result.stdout.strip())
         print(f"Log files before cleanup: {before_count}")
-    
+
     # Delete log files older than 30 days
     cmd = f"find {log_dir} -name '*.log' -mtime +30 -delete"
     result = run_command(cmd, "Deleting old log files")
-    
+
     if result is not None:
         # Count log files after cleanup
         count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
@@ -364,14 +364,14 @@ def cleanup_logs():
 def cleanup_temp():
     """Clean up temporary files"""
     print("Cleaning up temporary files...")
-    
+
     temp_dirs = [
         "/tmp/atlas",
         "/home/ubuntu/dev/atlas/tmp"
     ]
-    
+
     total_cleaned = 0
-    
+
     for temp_dir in temp_dirs:
         if os.path.exists(temp_dir):
             try:
@@ -381,11 +381,11 @@ def cleanup_temp():
                 if count_result.returncode == 0:
                     before_count = int(count_result.stdout.strip())
                     print(f"Files in {temp_dir} before cleanup: {before_count}")
-                
+
                 # Delete files older than 7 days
                 cmd = f"find {temp_dir} -type f -mtime +7 -delete"
                 result = run_command(cmd, f"Deleting old files in {temp_dir}")
-                
+
                 if result is not None:
                     # Count files after cleanup
                     count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
@@ -396,30 +396,30 @@ def cleanup_temp():
                         print(f"Deleted {cleaned} files from {temp_dir}")
             except Exception as e:
                 print(f"Error cleaning {temp_dir}: {str(e)}")
-    
+
     print(f"Total temporary files cleaned: {total_cleaned}")
     return total_cleaned > 0
 
 def cleanup_backups():
     """Clean up old backups"""
     print("Cleaning up backups...")
-    
+
     backup_dir = "/home/ubuntu/dev/atlas/backups"
     if not os.path.exists(backup_dir):
         print("Backup directory not found")
         return False
-    
+
     # Count backup files before cleanup
     count_cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' | wc -l"
     count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
     if count_result.returncode == 0:
         before_count = int(count_result.stdout.strip())
         print(f"Backup files before cleanup: {before_count}")
-    
+
     # Delete backup files older than 30 days
     cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' -mtime +30 -delete"
     result = run_command(cmd, "Deleting old backup files")
-    
+
     if result is not None:
         # Count backup files after cleanup
         count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
@@ -436,16 +436,16 @@ def main():
     """Main cleanup function"""
     print("Starting disk cleanup...")
     print("=" * 40)
-    
+
     # Perform cleanup tasks
     tasks = [
         ("Log cleanup", cleanup_logs),
         ("Temporary file cleanup", cleanup_temp),
         ("Backup cleanup", cleanup_backups)
     ]
-    
+
     results = []
-    
+
     for task_name, task_func in tasks:
         print(f"\n{task_name}:")
         try:
@@ -454,24 +454,24 @@ def main():
         except Exception as e:
             print(f"Error in {task_name}: {str(e)}")
             results.append((task_name, False))
-    
+
     # Print summary
     print("\n" + "=" * 40)
     print("Cleanup Summary:")
     print("=" * 40)
-    
+
     all_success = True
     for task_name, success in results:
         status = "PASS" if success else "FAIL"
         print(f"{task_name}: {status}")
         if not success:
             all_success = False
-    
+
     if all_success:
         print("\nAll cleanup tasks completed successfully!")
     else:
         print("\nSome cleanup tasks failed. Please check the logs.")
-    
+
     return all_success
 
 if __name__ == "__main__":

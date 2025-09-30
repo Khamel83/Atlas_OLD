@@ -4,7 +4,7 @@ Atlas Documentation Build Script
 
 This script builds the complete Atlas documentation including:
 - API reference from docstrings
-- User guides and tutorials  
+- User guides and tutorials
 - Developer documentation
 - Testing documentation
 """
@@ -83,19 +83,19 @@ echo -e "\n${YELLOW}🔨 Building HTML documentation...${NC}"
 # Run Sphinx build with proper error handling
 if sphinx-build -b html -W --keep-going . _build/html; then
     echo -e "\n${GREEN}✅ Documentation built successfully!${NC}"
-    
+
     # Check if documentation was actually created
     if [ -f "_build/html/index.html" ]; then
         echo -e "${GREEN}📄 Main documentation file: $(pwd)/_build/html/index.html${NC}"
-        
+
         # Calculate documentation size
         DOC_SIZE=$(du -sh _build/html | cut -f1)
         echo -e "${GREEN}📊 Documentation size: $DOC_SIZE${NC}"
-        
+
         # Count generated pages
         HTML_COUNT=$(find _build/html -name "*.html" | wc -l)
         echo -e "${GREEN}📑 Generated pages: $HTML_COUNT${NC}"
-        
+
     else
         echo -e "${RED}❌ Documentation build completed but index.html not found${NC}"
         exit 1
@@ -125,7 +125,7 @@ echo -e "\n${YELLOW}📊 Generating documentation coverage report...${NC}"
 if sphinx-build -b coverage . _build/coverage; then
     if [ -f "_build/coverage/python.txt" ]; then
         echo -e "${GREEN}📈 Coverage report generated${NC}"
-        
+
         # Show coverage summary
         UNDOC_COUNT=$(grep -c "UNDOC" _build/coverage/python.txt || true)
         if [ "$UNDOC_COUNT" -gt 0 ]; then
@@ -142,7 +142,7 @@ if [ "${1:-}" = "--serve" ] || [ "${2:-}" = "--serve" ]; then
     echo -e "\n${YELLOW}🌐 Starting local documentation server...${NC}"
     echo -e "${GREEN}📖 Documentation available at: http://localhost:8000${NC}"
     echo -e "${YELLOW}Press Ctrl+C to stop the server${NC}"
-    
+
     cd _build/html
     python -m http.server 8000
 fi

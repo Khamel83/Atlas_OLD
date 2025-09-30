@@ -99,11 +99,11 @@ This leads to a further point: the payoff from this chip ban will not come immed
 
 There remain good arguments against the entire concept of the chip ban, including the obvious fact that China is heavily incentivized to built up replacements from scratch (and could have leverage on the U.S. on the trailing edge ( https://stratechery.com/2022/chips-and-china/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL2NoaXBzLWFuZC1jaGluYS8iXX0sImV4cCI6MTcwMDIzNDgxNiwiaWF0IjoxNjk3NjQyODE2LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.NhyEgF9yFPlAXBWWHFfdM4ZvRzU5JGmxA_aKfwnbZ5qVq13g7_vdGlVgiPkVCUXTClJC2QXMKPlt3OsTm9pxseyFXkNfNZluGZcYjlZz9sRblfL2ZQ_5_LQjs0dPYyZ2pxSnXRmxfrwUPSQwOTPhNq9RUgJ4zwz_8PTwg0nD9hPccFT3MXK0oaO8frtKjgqlg9CsGFjks_L_E8z7rv336PERVcfRdxZd612aeFAupegJBleBRwaGp8YZP7t6P3sY6C0dmyUHFhKdcXr7UvK38prefgDhbKmv8i1pJbMu2z2vJXlhfV6f135lVI8MaqIXC3cNL71_tW2_vNT94wyEYg ) ): perhaps in 20 years the U.S. will not only have lost its most potent point of leverage but will also see its most cutting edge companies undercut by Chinese competition. That die, though, has long since been cast; the results that matter are not a smartphone in 2023, but the capabilities of 2030 and beyond.
 
-* 
+*
 
 I am not certain I have the exact right numbers for older nodes, but I have confirmed that the numbers are in the right ballpark ↩︎ ( #rf1-11727 )
 
-* 
+*
 
 TSMC first used EUV with latter iterations of its 7nm process, but that was primarily to move down the learning curve; EUV was not strictly necessary, and the original 7nm process used immersion DUV lithography exclusively ↩︎ ( #rf2-11727 )
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Historically, retail stock investing was a bundle of: a sensible way to invest for retirement by buying a share of the future earnings of bi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Online gambling
-    
-  
+
+
 
 Historically, retail stock investing was a bundle of:
 	a sensible way to invest for retirement by buying a share of the future earnings of big businesses, and	fun gambling.
@@ -92,37 +92,37 @@ The sensible, reasonable, academically endorsed best practice for retirement sav
 What should you think about this? What is the right regulatory response? It is tempting to say, like, “I am shocked, shocked to find gambling in the stock market.” The US Securities and Exchange Commission has  expressed concern about the gamification of stock markets, and has cracked down on people make gambling/investing too fun. One objection to modern commission-free trading is that it leads to more gambling behavior. (Also it is made possible by payment for order flow, and brokers get paid more for options order flow, which makes them more likely to push options trading.) Zero-day options strike some people as largely retail gambling products that don’t serve much capital-formation or risk-hedging purpose. Maybe all of it should be banned.
 But I don’t know? As gambling markets go, the stock (and options) market has some attractive features. Insider trading is illegal, and the rules are enforced. Brokers don’t generally steal customers’ money. The stock market rewards skill. It lowers the cost of capital for actual businesses. The people in this article, the people saying “you hit black, double down, black, double down, black, double down” and “I lost $25,000 in poker but smoked the market,” those people are going to gamble somewhere. Maybe it’s for the best that they gamble on options.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 We have talked a lot recently about the takeover battle at publicly traded hedge fund manager Sculptor Capital Management Inc., which is in a weird limbo. In July, Sculptor’s board agreed to sell the company to Rithm Capital Corp. for $11.15 per share. Since then, a group of hedge fund managers led by Boaz Weinstein has offered to buy Sculptor for $12.76 per share, which is more.
 But Sculptor’s board has declined to engage with Weinstein and friends, arguing that their offer is less certain than Rithm’s. In particular, either deal — Weinstein’s or Rithm’s — would require a majority of Sculptor’s hedge-fund clients (the limited partners in its funds) to consent to the new management, and Sculptor argues that its clients will like the Rithm deal (which will leave Sculptor’s current chief executive officer and chief investment officer, Jimmy Levin, in charge of running its funds) but won’t accept the Weinstein deal (which will presumably put Weinstein and friends in charge of the funds). Therefore, Sculptor says, Weinstein’s deal isn’t real: If it took that deal, clients would say no, the deal wouldn’t close, Weinstein would walk away, shareholders wouldn’t get their $12.76, and Rithm would no longer be there to pay $11.15. Better to take a safe $11.15 than a risky $12.76.
@@ -153,11 +153,11 @@ The Topps decision also discussed how a standstill can operate to unfairly preve
 
 I am not sure that the most likely outcome here is that a court will order Sculptor to take Weinstein’s deal or anything, but the point of all of this is to make it unpleasant and embarrassing for the board not to negotiate with Weinstein, so that either (1) they do or (2) Rithm raises its bid. For me, the fun in the Sculptor situation is that it is a bunch of big hedge fund managers sniping at each other. But for Sculptor shareholders, all that matters is getting more money.
 
-  
-    
+
+
       Bank capital complaints
-    
-  
+
+
 
 The way bank capital rules work is that regulators consider various possible activities that banks do, and then specify how much capital a bank needs for each sort of activity. Make $100 of corporate loans, you need like $8 of capital. Buy $100 of Treasury bills, you need $0 of capital. Buy $100 of Bitcoin, you need $100 of capital. That sort of thing.
   [4]
@@ -187,11 +187,11 @@ The Fed is now soliciting comments on the proposed changes in a notice of propos
 
 The basic point here is that the nuances might get fixed, but US banks will still have to have more capital, and Dimon doesn’t like that.
 
-  
-    
+
+
       2x levered Bitcoin ETF
-    
-  
+
+
 
 We   talked yesterday about how the US Securities and Exchange Commission has allowed futures-based Bitcoin exchange-traded funds, but has so far blocked spot Bitcoin ETFs, but that will probably change after the SEC lost a court challenge brought by Grayscale Investments LLC. That means that there will probably soon be spot Bitcoin ETFs, which will be simpler and cheaper than Bitcoin futures ETFs, so investors who want Bitcoin ETFs will probably switch. This is sad for the people who quite cleverly invented Bitcoin futures ETFs as a way around the SEC’s opposition, and who will soon have a clever product that no one wants. There is hope for them, though. I wrote:
 If you run a Bitcoin futures ETF, and you see the spot Bitcoin ETFs coming for you, are you at least considering opening a 2x levered Bitcoin ETF? I’m sure the SEC would love that.
@@ -205,16 +205,16 @@ The fact that the Commission has allowed a leveraged bitcoin futures ETP to beg
 
 If you worry about spot Bitcoin ETFs because you think the Bitcoin market is manipulated, well, a 2x Bitcoin ETF is twice as manipulated.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Treasury Bills Yielding 5% Are a Big Hit With   Retail Investors. US companies opt for  short-term debt in bet that yields have peaked. Banks Load Up on $1.2 Trillion in Risky  ‘Hot’ Deposits. Wall Street Bosses Want Anonymity to   Talk China With Congress. Elizabeth Warren Demands   Probes of Elon Musk, SpaceX After Ukraine Reveations. Arm CEO Pitches   IPO Investors on Shift to High-Margin Chips. Diversity-Focused Firms Cautiously Stick to Their Strategies. Space law.  Loose emu captured after more than two weeks in Massachusetts.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] This is a bit of an exaggeration, since boards can block tender offers with 
+
+  [1] This is a bit of an exaggeration, since boards can block tender offers with
 a poison pill, but it would be hard to justify in the face of an unconditional higher all-cash tender offer.
 
 
@@ -224,55 +224,55 @@ a poison pill, but it would be hard to justify in the face of an unconditional h
   [3] Citations omitted.
 
 
-  [4] These numbers are not meant to be precise or anything, but the traditional rule of thumb is that “the” capital ratio is 8% of risk-weighted assets. Corporate loans have a 100% risk weight, Treasuries 0%, 
+  [4] These numbers are not meant to be precise or anything, but the traditional rule of thumb is that “the” capital ratio is 8% of risk-weighted assets. Corporate loans have a 100% risk weight, Treasuries 0%,
 crypto 1,250%. Modern capital regulation also has a “leverage ratio” requirement that is designed to backstop risk-weighted capital rules by providing a crude minimum capital requirement that is consistent across all exposures, but in practice those rules get pretty complicated too.
 
 
   [5] I omitted the bluntness.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjglcv.5jeh/4c65999b.gif" alt="" border="0" /></a>

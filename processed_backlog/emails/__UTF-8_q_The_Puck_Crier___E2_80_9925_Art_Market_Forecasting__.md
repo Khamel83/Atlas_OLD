@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qThe_Puck_Crier_=E2=80=9925_Art_Market_Forecasting=_Tue,_14_Jan_2025_17-02-41_+0000_19465c4aa6ce0aa9.eml
 **Processed:** 2025-08-24T19:13:05.765644
 
-Puck logo ( https://puck.news/?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Marion + Julie IC ( https://puck.news/my-account/billing/?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear Reader,     
@@ -36,7 +36,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
-swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_content=Marion+%26+Julie+IC+Call+-+SUBSCRIBER+Upsell+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

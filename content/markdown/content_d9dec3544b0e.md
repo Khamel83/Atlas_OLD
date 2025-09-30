@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -904,14 +904,14 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="73"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-1@published"
-  
+
 >Perhaps you’ve met a fellow dog walker at the park who, just six minutes into your first conversation, started talking about her teenage daughter’s menstrual cycle. Maybe you have a roommate who routinely shouts unsolicited updates from the bathroom every time he endures a marathon session on the toilet. These are oversharers. They comprise a certain percentage of the population that either doesn’t know what’s generally considered inappropriate to divulge—or simply doesn’t care.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="85"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-2@published"
-  
+
 >When it comes to posting things on the Internet, however, it seems anyone and everyone is susceptible to oversharing. There’s apparently something alluring about filling those empty white boxes with embarrassing anecdotes—anecdotes that <em>BuzzFeed</em> then compiles and publishes in <a href="http://www.buzzfeed.com/jessicamisener/the-30-absolute-worst-facebook-overshares">list form</a> for everyone else to laugh at. Plus, judging by humor sites such as <a href="http://www.lamebook.com/">Lamebook</a>, there doesn’t appear to be a scarcity of material to draw from, either. Even criminals can’t resist revealing <a href="http://newsfeed.time.com/2012/09/14/dozens-of-brooklyn-gang-members-caught-after-oversharing-on-facebook/">incriminating evidence</a> about themselves sometimes, and thus examples of TMI abound online.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -922,21 +922,21 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="24"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-3@published"
-  
+
 >But why? What compels us to tell the world with our fingers what we’d hesitate to utter in a room full of loved ones?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="99"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-4@published"
-  
+
 >Social scientist and author Sherry Turkle thinks we’re <a href="http://www.nytimes.com/2012/02/12/fashion/tmi-i-dont-want-to-know.html">losing</a> a healthy sense of compartmentalization. Last year, researchers at Harvard <a href="http://www.theatlantic.com/magazine/archive/2012/10/the-selfish-meme/309080/">found</a> that the act of sharing our personal thoughts and feelings activates the brain’s neurochemical reward system in a bigger way than when we merely report the attitudes and opinions of others. Meanwhile, Elizabeth Bernstein of the <em>Wall Street Journal</em> asked around and <a href="http://online.wsj.com/article/SB10001424127887323826804578466831263674230.html">concluded</a> that our newfound urge to disclose is partially due to not only the erosion of private life through the proliferation of reality TV and social media, but also due to our subconscious attempts at controlling anxiety.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="64"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-5@published"
-  
+
 >“This effort is known as ‘self regulation’ and here is how it works,” she writes. “When having a conversation, we can use up a lot of mental energy trying to manage the other person’s impression of us. We try to look smart, witty, and interesting, but the effort required to do this leaves less brain power to filter what we say and to whom.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1015,35 +1015,35 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="29"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-6@published"
-  
+
 >While all these viewpoints help us better understand the oversharing epidemic, they don’t exactly address how the Web itself entices us to expose information that we probably wouldn’t otherwise.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="93"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-7@published"
-  
+
 >Some of the latest research to directly tackle this issue comes from professor Russell W. Belk, chair in marketing at York University in Toronto. In his most recent paper, “Extended Self in a Digital World,” which will appear in the <em><a href="https://www.jcr-admin.org/forthcoming.php?issue=56">Journal of Consumer Research</a></em> this October, Belk argues that our relationship with social media is gradually creating a more complex idea of who we think we are as individuals. Through Pinterest, Instagram, and YouTube, whose former slogan was “Broadcast Yourself,” we construct our identities in a manner that has never before been possible.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="65"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-8@published"
-  
+
 >“When we’re looking at the screen we’re not face-to-face with someone who can immediately respond to us, so it’s easier to let it all out—it’s almost like we’re invisible,” said Belk, of the so-called “disinhibition effect” that online sharing helps create. “The irony is that rather than just one person, there’s potentially thousands or hundreds of thousands of people receiving what we put out there.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="9"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-9@published"
-  
+
 >As for the consequences of these actions, Belk writes:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="62"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-10@published"
-  
+
 ><blockquote>The resulting disinhibition leads many to conclude that they are able to express their “true self” better online than they ever could in face-to-face contexts. This does not mean that there is a fixed “true self” or that the self is anything other than a work in progress, but apparently self-revelation can be therapeutic, at least with the aid of self-reflexive applications.</blockquote></p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1086,7 +1086,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="46"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-11@published"
-  
+
 >Just as a psychoanalyst’s couch or Catholic confessional booth are settings in which we can sort out the details of who we are by divulging our innermost secrets to someone without staring directly at him, Belk believes these sorts of exchanges are migrating onto the Internet:</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1111,21 +1111,21 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="44"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-12@published"
-  
+
 ><blockquote>[It appears] that we now do a large amount of our identity work online. For the Internet constantly asks us “Who are You?” “What do you have to share?” Coupled with new self-revealing proclivities, this incites more open self-extension than in a pre-digital world.</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="27"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-13@published"
-  
+
 >The feedback of friends, family members, acquaintances, and strangers therefore provides continual criticism and validation. Forging a personal identity, after all, is generally considered a collaborative effort.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="52"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-14@published"
-  
+
 >Of course, some might point out that the perceived increase in oversharing is nothing more than that: a perception. In other words, it’s not that there’s an eruption of people willing to bare everything online; it’s that those who do typically post more status updates and garner more exposure on news feeds.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1150,7 +1150,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="106"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-15@published"
-  
+
 >While difficult to measure, the <em>Washington Post</em> published a <a href="http://www.washingtonpost.com/blogs/worldviews/wp/2013/05/30/where-do-people-overshare-most-online-hint-its-not-the-u-s/">survey</a> last spring stating that only 15 percent of American social media users feel they share either “everything” or “most things” online. That’s not a lot—especially considering that more than 60 percent of participants from Saudi Arabia admitted they belong in that same category. As the accompanying story implies, however, the survey doesn’t account for the vastly different cultures and social norms the various participants exist within. While tweeting about your aunt’s divorce might be considered taboo in one country, it might be received with a shrug in a nation inured to the antics of the Kardashians.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1193,14 +1193,14 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-16@published"
-  
+
 >Still, something seems amiss when people feel it’s more important to <a href="http://latimesblogs.latimes.com/lanow/2012/11/turlock-woman-fired-facebook-obama.html">express a desire</a> on Facebook for the president to be assassinated than it is to, say, exercise tact or avoid losing your job. (Yes, she was fired.)</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="41"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-17@published"
-  
+
 >Another crucial ingredient encouraging online exhibitionism is, as stated by Belk, the “tension between privacy and potential celebrity.” For some people, the longing to be popular far outweighs the longing to be respected, and their social media accounts can verify this.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1243,28 +1243,28 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="67"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-18@published"
-  
+
 >According to a 2010 <a href="http://www.psychologytoday.com/blog/fulfillment-any-age/201304/the-high-cost-facebook-exhibitionism">study</a>, playfully titled, “Examining Students’ Intended Image on Facebook: ‘What Were They Thinking?!’ ” Facebook users who didn’t mind if strangers could view their profile, as opposed to those who did, were “significantly more likely to post inappropriate content and to portray an image that would be considered sexually appealing, wild, or offensive.” In other words, they want everyone to think they’re cool.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="24"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-19@published"
-  
+
 >As Jen Doll <a href="http://www.theatlanticwire.com/national/2013/05/undershare-vs-overshare/64971/">notes</a> at the <em>Atlantic Wire</em>, “[N]o one gets criticized specifically for <em>undersharing</em>. No one says that word. People just say ‘boring.’”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="104"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-20@published"
-  
+
 >In sum, the traditional line separating what’s private from what’s public is disintegrating with each and every overshare, and while some offenders may not be thinking about their actions this deeply, Belk’s research suggests it’s our ongoing quest for identity—or as some prefer to call it, “personal brand”—that’s propelling this disintegration. We want to be interesting. We want to be memorable. We want people to follow us, but we need their attention first. And if there’s one thing reality TV and advertising has taught us, it’s that the lowest common denominator is both the easiest and most efficient way of getting people to notice.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="9"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-21@published"
-  
+
 ><em>This article originally appeared on </em><a href="http://www.psmag.com/culture/how-the-internet-makes-us-overshare-64427/" target="_blank">Pacific Standard<em> magazine’s website</em></a><em>.</em></p>
 
 <div
@@ -1348,7 +1348,7 @@ width="568"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1383,7 +1383,7 @@ width="568"
   class="slate-adnode"
   data-adnode="technology/future_tense"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-bf26017e40ddc127552b3d672dc03142-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1434,7 +1434,7 @@ width="568"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1459,7 +1459,7 @@ width="568"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1969,7 +1969,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

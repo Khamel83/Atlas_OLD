@@ -5,7 +5,7 @@
 This document summarizes the implementation of Blocks 11-13 of the Atlas Production System:
 
 - **Block 11: Core API Framework**
-- **Block 12: Authentication & Security API** 
+- **Block 12: Authentication & Security API**
 - **Block 13: Content Management API**
 
 ## Block 11: Core API Framework

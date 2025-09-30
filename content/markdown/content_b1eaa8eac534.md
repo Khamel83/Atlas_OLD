@@ -12,7 +12,7 @@
 function OptanonWrapper() {
     NPR_OptanonWrapper = true;
     document.dispatchEvent(new CustomEvent('npr:DataConsentAvailable'));
-    
+
     OneTrust.OnConsentChanged(function() {
         document.dispatchEvent(new CustomEvent('npr:DataConsentChanged'));
     });
@@ -317,7 +317,7 @@ tp.push(["init", function() {
 </li><li class="submenu__item">
     <a href="https://www.npr.org/podcasts/510374/trumps-terms"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"trump&#39;s terms ","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510374\/trumps-terms"}' >
         <img src="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100.jpg"   class=" lazy" alt="" loading="lazy" />
-        Trump's Terms 
+        Trump's Terms
     </a>
 </li></ul>
 
@@ -425,9 +425,9 @@ tp.push(["init", function() {
 </div>
 
 <span class="credit" aria-label="Image credit">
-        
+
         NPR
-        
+
     </span>
 </div>
 
@@ -472,7 +472,7 @@ tp.push(["init", function() {
                           <span class="subscribe__imagecontainer subscribe__imagecontainer--spotify">
                           </span>
                           Spotify</a></li>
-                      
+
                       <li>
                         <a href="https://music.amazon.com/podcasts/ae206475-0338-4b52-91db-12dc53d3da8b" data-analytics-allow-facebook="data-analytics-allow-facebook"  data-metrics-ga4='{&quot;category&quot;:&quot;podcast&quot;,&quot;action&quot;:&quot;podcast_follow_click&quot;,&quot;clickName&quot;:&quot;amazon music&quot;,&quot;clickType&quot;:&quot;podcast follow button&quot;}' >
                           <span class="subscribe__imagecontainer subscribe__imagecontainer--amazon-music">
@@ -488,8 +488,8 @@ tp.push(["init", function() {
                           <span class="subscribe__imagecontainer subscribe__imagecontainer--youtube-music">
                           </span>
                         YouTube Music</a></li>
-                      
-                      
+
+
                       <li>
                         <a target="_blank" href="https://feeds.npr.org/510317/podcast.xml" data-analytics-allow-facebook="data-analytics-allow-facebook"  data-metrics-ga4='{&quot;category&quot;:&quot;podcast&quot;,&quot;action&quot;:&quot;podcast_follow_click&quot;,&quot;clickName&quot;:&quot;rss&quot;,&quot;clickType&quot;:&quot;podcast follow button&quot;}' >
                           <span class="subscribe__imagecontainer subscribe__imagecontainer--rss">
@@ -532,10 +532,10 @@ tp.push(["init", function() {
     </time>
 </div>
       </div>
-      
+
 <!-- END CLASS="STORY-META__ONE-INNER" -->
    </div>
-   
+
 <!-- END CLASS="STORY-META__ONE" -->
    <div class="story-meta__two">
             <div id="storybyline" class="storybyline-wrap linkLocation">
@@ -596,11 +596,11 @@ tp.push(["init", function() {
 </div>
             </div>
          </div>
-         
+
 <!-- END CLASS="BUCKETWRAP BYLINE" -->
       </div>
    </div>
-   
+
 <!-- END CLASS="STORY-META__TWO" -->
 </div>
 
@@ -615,7 +615,7 @@ tp.push(["init", function() {
                     <b class="audio-module-listen-icon icn-play"></b>
                     <b class="audio-module-listen-text">
                         <b class="audio-module-cta">
-                            
+
                             Listen
                         </b>
                         <b class="audio-module-listen-duration">
@@ -679,8 +679,8 @@ tp.push(["init", function() {
 </div>
 <div id="storytext" class="storytext storylocation linkLocation">
       <div id="res1007602797" class="bucketwrap list slideshow">
-  
-  
+
+
   <div id="slideshow__gallery--1007602797" data-resid="1007602797" data-toggle-caption="" class="swipe slideshow__gallery">
     <ul>
     </ul>
@@ -736,9 +736,9 @@ https://media.npr.org/assets/img/2021/06/17/schulman-sarah-by-drew-stevens_custo
             <p>
                 Author and activist Sarah Schulman
                 <b class="credit" aria-label="Image credit">
-                    
+
                     Drew Stephens
-                    
+
                 </b>
                 <b class="hide-caption"><b>hide caption</b></b>
             </p>
@@ -748,9 +748,9 @@ https://media.npr.org/assets/img/2021/06/17/schulman-sarah-by-drew-stevens_custo
     </div>
 
 <span class="credit" aria-label="Image credit">
-        
+
         Drew Stephens
-        
+
     </span>
 </div>
    </div>
@@ -783,9 +783,9 @@ https://media.npr.org/assets/img/2021/06/17/9780374185138_custom-6ac1e0e336d61aa
             <p>
                 Let The Record Show: A Political History of ACT UP New York, 1987-1993 by Sarah Schulman
                 <b class="credit" aria-label="Image credit">
-                    
+
                     Farrar, Straus and Giroux
-                    
+
                 </b>
                 <b class="hide-caption"><b>hide caption</b></b>
             </p>
@@ -795,9 +795,9 @@ https://media.npr.org/assets/img/2021/06/17/9780374185138_custom-6ac1e0e336d61aa
     </div>
 
 <span class="credit" aria-label="Image credit">
-        
+
         Farrar, Straus and Giroux
-        
+
     </span>
 </div>
    </div>
@@ -843,7 +843,7 @@ https://media.npr.org/assets/img/2021/06/17/9780374185138_custom-6ac1e0e336d61aa
 <div id="callout-end-of-story-mount-piano-wrap" class="callout-end-of-story-mount-piano-wrap">
       <div id="callout-end-of-story-mount-piano" class="callout-end-of-story-mount-piano">
          </div>
-   
+
 <!-- END ID="CALLOUT-END-OF-STORY-MOUNT-PIANO" CLASS="CALLOUT-END-OF-STORY-MOUNT-PIANO" -->
 </div>
 
@@ -927,7 +927,7 @@ https://media.npr.org/assets/img/2021/06/17/9780374185138_custom-6ac1e0e336d61aa
 </section>   <div id="main-sidebar">
             <div id="right-rail-content-widgets-mount">
                </div>
-      
+
 <!-- END ID="RIGHT-RAIL-CONTENT-WIDGETS-MOUNT" -->
       <aside id="ad-standard-wrap" class="ad-wrap standard" aria-label="advertisement">
     <div class="ad-header "><span>Sponsor Message</span></div>
@@ -940,7 +940,7 @@ https://media.npr.org/assets/img/2021/06/17/9780374185138_custom-6ac1e0e336d61aa
 
 </aside>
    </div>
-   
+
 <!-- END ID="MAIN-SIDEBAR" -->
 </div>
 

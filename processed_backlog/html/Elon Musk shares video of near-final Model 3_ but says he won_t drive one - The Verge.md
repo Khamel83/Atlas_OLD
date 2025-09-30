@@ -11,7 +11,7 @@
 
 # Elon Musk shares video of near-final Model 3, but says he won’t drive one
 
- / 
+ /
 
 ## He tweeted a lot this morning
 
@@ -70,7 +70,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241208014707im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241208014707/http://theverge.com/)
 

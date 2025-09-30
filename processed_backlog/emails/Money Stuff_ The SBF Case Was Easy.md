@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I am probably the person in the world who was most susceptible to Sam Bankman-Fried’s “actually it’s complicated” defense of the collapse of
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF stuff
-    
-  
+
+
 
 I am probably the person in the world who was most susceptible to Sam Bankman-Fried’s “actually it’s complicated” defense of the collapse of his crypto exchange, FTX Trading:
 	I love for things to be complicated!	I have, if I do say so myself, a pretty robust sense of humor about fraud, particularly crypto fraud.	I have met Bankman-Fried and liked him, and actually   found his arguments about real-time automated futures margining compelling.	I have written a lot about things — the breakdown in the   nickel market last year, the collapse of   Silicon Valley Bank earlier this year — that have approximately the same shape as the collapse of FTX, but without any fraud.
@@ -75,37 +75,37 @@ There is one more problem with the “bank run” defense: FTX was not a bank. O
 Running a crypto futures exchange in the Bahamas is not like that. It’s not that there were no rules, exactly; Bankman-Fried certainly found a lot of rules to break. But there was not a mature regulatory environment, and the people running FTX seem to have thought that they could make up the rules as they went. Nor was there much of a social purpose to what Bankman-Fried was up to: For all of FTX’s Super Bowl ads urging people to get into crypto, Bankman-Fried never really argued that he was doing anything useful. FTX was not channeling money from savers into productive businesses. He was providing a casino for crypto gamblers, taking a cut of their money and using it for effective altruism and marketing.
 When it turned out that he was taking, not a cut of their money, but … kind of … all of it, then that just looks like the purest possible fraud. In happier times, Bankman-Fried once   described to me the crypto tokens that his exchange traded with incredible cynicism, and I said: “You're just like, well, I'm in the Ponzi business and it's pretty good.” (“I think that’s a pretty reasonable response,” he said.) When the Ponzi business collapses, though, it’s pretty bad.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BNY Mellon multi-manager
-    
-  
+
+
 
 Traditionally, the way to be a good hedge fund manager was to be good at picking investments that would go up. A good track record, and a good story to tell about your track record, were the main things. Possibly the only things: In the olden days, hedge funds were thought of as being less bureaucratic and political than big banks; each hedge fund was a pirate ship run by a charismatic captain who cared nothing for social niceties and just maximized loot.
 In modern hedge funds, the dominant model is the multi-manager, multi-strategy “pod shop.” The way to be a good portfolio manager at one of those funds is also to be good at picking investments that go up, subject to more constraints (on risk, factor neutrality, office politics, etc.) than the traditional pirate manager.
@@ -122,11 +122,11 @@ Newton said that it would still be able to compete for talent with existing mult
 
 In general, I am very sympathetic to claims like “there are a lot of incredibly talented people who want less stress in their lives, and are willing to take a pay cut to be yelled at less.” Quite possibly there is a market opportunity for a Nice Pod Shop, one that pays portfolio managers less but that attracts top talent by promising not to get on their case too much if they have a down month. I am not sure how well that pitch will work with investors though.
 
-  
-    
+
+
       People are worried about private credit liquidity
-    
-  
+
+
 
 I   wrote last month that “private credit” as a category feels new and different from the main existing categories of corporate credit (leveraged loans, bonds), but that over time I expect it to converge. (Just as loans and bonds, which used to have different lenders and uses, have converged.) I speculated that “sometime within the next, like, three years, I am going to be writing about a story like ‘Company X is launching a marketplace to allow private credit lenders to trade loans.’” Right now private credit is a fairly illiquid asset class, which offers attractive returns in part because you’re getting   an illiquidity premium, but in fairly short order someone will be like “ehh I’d rather have the liquidity.”
 Today at Bloomberg, Laura Benitez and Silas Brown   write about liquidity in the private credit market. I mean, they are writing about the liquidity of limited partner stakes in private credit funds, not of the individual loans, but still:
@@ -142,11 +142,11 @@ Elsewhere, here Marc Rubinstein on private credit. He quotes Apollo’s Marc Row
 “By some estimates, dealer capital – the capital that facilitates trading – is roughly 10% today of what it was in 2008.” Yet markets are three times the size. Rowan sees last year’s breakdown in the UK liability-driven investment (LDI) pension industry as the kind of thing that’s inevitable in a less liquid public market. “It will not surprise me going forward to see liquidity challenged, public markets challenged, and investors beginning to understand that liquidity only exists on the way up and does not exist on the way down,” says Rowan. “We should expect a more volatile, less liquid world in public markets.”
 If you are not happy with bond market liquidity anyway, the illiquidity in private credit will be less daunting.
 
-  
-    
+
+
       PIK loans
-    
-  
+
+
 
 Elsewhere in private credit products that work best with long-term locked-up capital, PIK is back:
 
@@ -159,11 +159,11 @@ The  big story of the last year or so in financial markets has been a rapid incr
 But we are now in a period where the big story might be “everyone thinks that high rates are a dream and they will wake up”? The entire pitch for US residential real estate is “buy a house now, even though mortgage rates are 8%, and just  refinance for free later when they go back down to normal.” But is a 3.5% mortgage rate really normal? Are you so sure that rates are heading back down soon?
 Anyway the pitch for leveraged buyouts is apparently the same? “Buy this company now, even though rates are 16%, capitalize the interest and refinance for free later when rates go back down to normal.” It will be a mess if they don’t.
 
-  
-    
+
+
       Still Sculptor
-    
-  
+
+
 
 “Sculptor’s over,” I   wrote last week: Sculptor Capital Management Inc.'s deal to sell itself to Rithm Capital Corp., which was in doubt for months due to a higher bid from a group led by Boaz Weinstein, finally seems to be done. Rithm raised its bid from $12 to $12.70, still lower than Weinstein's bid but quicker and more certain, and Sculptor’s estranged founder, Dan Och, agreed to vote for Rithm’s deal. That means that almost half of Sculptor’s shares (Och’s, current management’s, and some shares owned by Rithm) are locked up to vote for the deal, making it very likely to go through. Also Och   had filed a pretty punchy lawsuit to stop the deal, and he dropped it last week. Also last week, Institutional Shareholder Services recommended that shareholders vote for the deal, and said that it’s “nearly a foregone conclusion” anyway.
 Still  here’s Alison Frankel:
@@ -177,20 +177,20 @@ Glasscock said on Wednesday that he has “real concerns” about the Och group�
 
 Basically Och and his fellow former executives were suing Sculptor to stop the Rithm deal, but are now supporting it. Och’s group argues that this is because the Rithm deal is now better for all shareholders: The group’s “negotiations with Rithm prodded the real estate investment firm to raise its offer by about $44 million – a bounty, it said, for all Sculptor shareholders.” The class-action lawyers, though, argue that Och got some special benefits out of the deal, mainly involving Sculptor’s   tax receivable agreement, and that now everyone — Sculptor’s board, its management, Och — is selling out shareholders to get benefits for themselves. Also apparently Weinstein is still around willing to pay $13.50. So the deal is not quite done yet.
 
-  
-    
+
+
       Font detectives
-    
-  
+
+
 
 Craig Wright is a guy who says he is Satoshi Nakamoto, the pseudonymous inventor of Bitcoin, and who is involved in litigation with the Crypto Open Patent Alliance, which says he isn’t.  Here is a post from the Bitcoin Legal Defense Fund claiming that several of the documents “on which [Wright] primarily relies in support of his claim to be Satoshi” might be forgeries. The alleged evidence includes “metadata showing the documents that Dr. Wright claims were written in 2008 were edited with software (Grammarly, MathType, OpenOffice.org, Code2Flow) and fonts (Calibri Light and Nirmala UI) that didn’t yet exist,” as well as “metadata showing that Satoshi Nakamoto’s name had been replaced with Wright’s name on the Bitcoin White Paper, by editing it around 2019 using Adobe software.”
 I have to say that it would be useful if someone could invent a method of storing electronic information in a permanent, immutable, provably incorruptible way! Of course that wouldn’t be very helpful here, though, unless the person had invented it in 2008. 
 
-  
-    
+
+
       Someone programmed a robot with Elon Musk’s sense of humor
-    
-  
+
+
 
 Seems bad? Also though it “has real-time access to info via the X platform,” formerly known as Twitter, “which is a massive advantage over other models.” Is it? Isn’t Twitter/X where people go to post lies and jokes? I just? “I have programmed a robot with Elon Musk’s business acumen and engineering skills,” terrific. “I have programmed a robot with Elon Musk’s Twitter jokes, and also everybody else’s Twitter jokes,” why? What is that robot for? Is the answer “getting engagement on Twitter”? Why? 
 Anyway Musk’s large language model is called “Grok,” which, to be fair, is a pretty good name for an AI. It “‘has a rebellious streak’ and was modeled after the Hitchhiker’s Guide to the Galaxy,” less promising.
@@ -204,63 +204,63 @@ It read, in part: “Can you believe it? The jury took just eight hours to figur
 
 Five hours! Traditional large-language-model chatbots are fluent, confident and inaccurate; Grok is fluent, confident, inaccurate and also “snarky,” amazing.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How Russia  Games Oil Sanctions for Big Profits. Bankers Seek Legal Cover After Backing $1.5 Trillion of   ESG Debt. US  asset managers launch new round of job cuts as investors seek safety. Investors Continue to Push for Direct Access to Management. South Korea to   Ban Short-Selling of Stocks Until June 2024. Tech Giants Spend Billions on AI Startups—and Get Just as Much Back. China Unleashes Crackdown on ‘ Pig Butchering.’ Former Crypto Day Traders Say   No Thanks Even as Bitcoin Roars Back. US seeks  clawback of fees paid to law firm with ties to top bankruptcy judge. The New Headache for Bosses:  Employees Aren’t Quitting. Mark Zuckerberg Undergoes Surgery for   Martial Arts Knee Injury. What Happens to a  Werewolf on the Moon?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I have sort of stolen this point from  Katie Baker’s report on the verdict.
 
 
   [2] I should clarify that I have no particular feelings about Heinlein and love Douglas Adams; I am just saying that “Grok” is a good reference, while anyone who goes around saying “I have invented the Hitchhiker’s Guide to the Galaxy, from the books of the same name” is probably pretty tedious.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -271,46 +271,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjt6ir.5k5w/da91585f.gif" alt="" border="0" /></a>

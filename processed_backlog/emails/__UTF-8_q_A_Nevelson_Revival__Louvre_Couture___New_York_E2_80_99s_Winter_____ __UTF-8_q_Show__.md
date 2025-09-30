@@ -33,7 +33,7 @@ But first, a quick stop in Paris…
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 Paris Curates Fashion
 ---------------------
@@ -200,7 +200,7 @@ also memorialized in gold by Yves Saint Laurent.
 
 The Winter Show is on view for 10 days, accompanied by a full slate of events and programming. Don’t miss my friend Christine Donahue Kavanagh of Sotheby’s leading a panel discussion this Sunday afternoon about collection management and legacy planning.
 
- 
+
 
 Endnotes…
 -----------
@@ -238,6 +238,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUmwbRWtH3_PgfuNO3BGY=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

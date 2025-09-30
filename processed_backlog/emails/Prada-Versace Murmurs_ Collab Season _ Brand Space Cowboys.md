@@ -37,7 +37,7 @@ and here ( https://open.spotify.com/episode/2BiVTrlaw6EfYFe6g5SY4d?utm_campaign=
 Mentioned in this issue: Araks Yeramyan, Versace, Prada, Olympia Gayot, Luca Solca, JCPenney, Patrizio Bertelli, Scarlett Johansson, Zoë Kravitz, LVMH, Kering, the aughts,
 nostalgia, Olivia Jade, TikTok, Jacob Elordi, Hannah Krohne, Gap, Madhappy, Zoe Saldaña, Mara Roszak, hair, J.Crew, Emma Stone, Urban Decay, Doechii, MAC, The Row, Meg Strachan, L.L.Bean, Aimé Leon Dore, Rothy’s, Gucci Westman, Lori Loughlin, and many, many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -65,7 +65,7 @@ Mongolian cashmere crewneck sweater ( https://go.shopmy.us/p-11917494?utm_campai
 cashmere comb ( https://go.shopmy.us/p-11917665?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—a requirement for this quality of cashmere—for $1. The fact that the cashmere comb was included in their top 10 holiday season products suggests that it might be working. 
 
 Indeed, the Mongolian cashmere crewneck garnered nearly 17,000 reviews at a 4.9 rating, which is really impressive. Other items rounding out their bestsellers:
-beanies ( https://go.shopmy.us/p-11918512?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), v-necks ( https://go.shopmy.us/p-11918550?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (Becky Malinsky shouted out the Quince men’s v-neck ( https://go.shopmy.us/p-11918627?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in her roundup last week), and gloves 
+beanies ( https://go.shopmy.us/p-11918512?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), v-necks ( https://go.shopmy.us/p-11918550?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (Becky Malinsky shouted out the Quince men’s v-neck ( https://go.shopmy.us/p-11918627?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in her roundup last week), and gloves
 ( https://go.shopmy.us/p-11918830?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 Further down the list was the ponte straight leg pant ( https://go.shopmy.us/p-11918255?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—a sign that this isn’t just a tops business, in retail parlance. Is that an opportunity for optimization or a chilling warning that, like Allbirds or Bombas or other largely single-category D.T.C. brands, Quince may enjoy a familiar and brief sine curve of success and retail humility?
 
@@ -147,7 +147,7 @@ As I was walking the Nordstrom floor the other day, I noticed that they
 were heavily promo-ing Flabelus ( https://go.shopmy.us/p-11891488?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (what a name), a Spanish brand founded in 2020 that also offers slipper-adjacent wares. Spain, of course, has a long tradition of shoe manufacturing, and there’s an emphasis here on espadrilles. Smart of the Nordstrom buyer to identify this label and give it decent distribution. It could maybe become the next
 Rothy’s ( https://go.shopmy.us/p-11923982?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), that Bay Area-founded D.T.C. shoe brand that is now owned by the Havaianas makers. (Rothy’s was an unabashed private equity play, but the product—pointy flats and driving shoes, mostly—ended up being far more resilient to changes in customer tastes than the dreaded Allbirds, which got a lot more fanfare at launch. 
 
- 
+
 
 The Week in Feedback…
 -----------------------
@@ -179,7 +179,7 @@ On Aspen’s cheesiest (but also best?) store: “Kemo Sabe will always make me 
 More on Kemo Sabe: “Everyone from
 my city that goes there spends thousands on a Western hat, wears it while in Aspen, then comes home and never wears it again. The alcohol in the store is smart, because it convinces way more people than you expect to buy something they don’t need. I always pop in when in Aspen just to survey the scene but have never made a purchase. Maybe when I’m there in February, I will drink enough to do it. But likely not.” —A cool lawyer
 
- 
+
 
 What I’m Reading… and Listening To…
 -----------------------------------------
@@ -202,7 +202,7 @@ Disney Cruise business—if you’re gonna take a cruise, I guess it should be a
 My friend, Joyce Lee, a creative and design consultant (and former creative director for Madewell), asked industry insiders to share stories of their most famous
 items. [Time Less ( https://open.substack.com/pub/thisistimeless/p/the-test-of-time?utm_campaign=post&utm_medium=web&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Sarah and me. A quick note on P.R. musical chairs.
 Congrats to dear Ben Cercio, who was just named head of comms and marketing at Givenchy, just in time for Sarah Burton’s debut in a few weeks. Ben is one of the nicest, but also… don’t cross him! (I say that as a compliment.) 
@@ -267,6 +267,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUUsSdP9ABdhcOeeAcIrU=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

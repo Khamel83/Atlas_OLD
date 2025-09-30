@@ -170,33 +170,33 @@ class AtlasAnalyticsDashboard:
     def __init__(self, atlas_dir: Path):
         self.atlas_dir = atlas_dir
         self.db_path = atlas_dir / 'data' / 'atlas.db'
-        
+
     def generate_analytics(self) -> Dict[str, Any]:
         """Generate comprehensive analytics for Atlas content"""
-        
+
         analytics = {
             'content_stats': self.get_content_statistics(),
-            'processing_metrics': self.get_processing_metrics(), 
+            'processing_metrics': self.get_processing_metrics(),
             'learning_patterns': self.get_learning_patterns(),
             'source_analysis': self.get_source_analysis(),
             'time_analysis': self.get_time_analysis()
         }
-        
+
         return analytics
-    
+
     def get_content_statistics(self) -> Dict[str, int]:
         """Get basic content statistics"""
-        
+
         # Count processed files
         output_dir = self.atlas_dir / 'output'
-        
+
         stats = {
             'total_articles': 0,
-            'total_podcasts': 0,  
+            'total_podcasts': 0,
             'total_videos': 0,
             'total_documents': 0
         }
-        
+
         if output_dir.exists():
             for file in output_dir.rglob('*.md'):
                 content = file.read_text()
@@ -208,36 +208,36 @@ class AtlasAnalyticsDashboard:
                     stats['total_videos'] += 1
                 elif 'Type: Document' in content:
                     stats['total_documents'] += 1
-        
+
         return stats
-    
+
     def get_processing_metrics(self) -> Dict[str, Any]:
         """Get processing performance metrics"""
-        
+
         metrics = {
             'success_rate': 85.0,
             'average_processing_time': '2.3 seconds',
             'total_processing_time': '14.2 hours',
             'error_rate': 15.0
         }
-        
+
         return metrics
-    
+
     def get_learning_patterns(self) -> Dict[str, Any]:
         """Analyze learning patterns from content consumption"""
-        
+
         patterns = {
             'most_active_hours': ['9-11 AM', '2-4 PM', '7-9 PM'],
             'content_preferences': ['Technology', 'Science', 'Business'],
             'learning_velocity': 'Increasing 12% monthly',
             'knowledge_retention': '78% estimated retention rate'
         }
-        
+
         return patterns
-    
+
     def get_source_analysis(self) -> Dict[str, Any]:
         """Analyze content sources and their value"""
-        
+
         sources = {
             'top_sources': [
                 {'name': 'Hacker News', 'articles': 245, 'value_score': 8.7},
@@ -248,55 +248,55 @@ class AtlasAnalyticsDashboard:
             'source_diversity': 45,
             'quality_score': 8.3
         }
-        
+
         return sources
-    
+
     def get_time_analysis(self) -> Dict[str, Any]:
         """Analyze content consumption over time"""
-        
+
         analysis = {
             'weekly_trend': '+15% increase',
-            'monthly_growth': '+23% month-over-month', 
+            'monthly_growth': '+23% month-over-month',
             'peak_learning_days': ['Tuesday', 'Wednesday', 'Sunday'],
             'content_velocity': '12 items per day average'
         }
-        
+
         return analysis
-    
+
     def export_dashboard_data(self, output_path: Path) -> bool:
         """Export dashboard data to JSON file"""
-        
+
         try:
             analytics = self.generate_analytics()
-            
+
             with open(output_path, 'w') as f:
                 json.dump(analytics, f, indent=2)
-            
+
             print(f"✅ Dashboard data exported to {output_path}")
             return True
-            
+
         except Exception as e:
             print(f"❌ Failed to export dashboard data: {e}")
             return False
 
 def main():
     """Main function for analytics dashboard"""
-    
+
     atlas_dir = Path('/home/ubuntu/dev/atlas')
     dashboard = AtlasAnalyticsDashboard(atlas_dir)
-    
+
     print("📊 Generating Atlas Analytics Dashboard...")
-    
+
     # Generate analytics
     analytics = dashboard.generate_analytics()
-    
+
     # Print summary
     print("\\n📈 Analytics Summary:")
     print(f"Total Articles: {analytics['content_stats']['total_articles']}")
-    print(f"Total Podcasts: {analytics['content_stats']['total_podcasts']}")  
+    print(f"Total Podcasts: {analytics['content_stats']['total_podcasts']}")
     print(f"Total Videos: {analytics['content_stats']['total_videos']}")
     print(f"Processing Success Rate: {analytics['processing_metrics']['success_rate']}%")
-    
+
     # Export data
     output_file = atlas_dir / 'analytics' / 'dashboard_data.json'
     dashboard.export_dashboard_data(output_file)
@@ -325,22 +325,22 @@ if __name__ == "__main__":
 </head>
 <body>
     <h1>Atlas Personal Analytics Dashboard</h1>
-    
+
     <div class="metric-card">
         <div class="metric-value">{{ analytics.content_stats.total_articles }}</div>
         <div class="metric-label">Total Articles Processed</div>
     </div>
-    
+
     <div class="metric-card">
         <div class="metric-value">{{ analytics.content_stats.total_podcasts }}</div>
         <div class="metric-label">Podcasts Analyzed</div>
     </div>
-    
+
     <div class="metric-card">
         <div class="metric-value">{{ analytics.processing_metrics.success_rate }}%</div>
         <div class="metric-label">Processing Success Rate</div>
     </div>
-    
+
     <div class="metric-card">
         <div class="metric-value">{{ analytics.learning_patterns.knowledge_retention }}</div>
         <div class="metric-label">Knowledge Retention Rate</div>
@@ -371,12 +371,12 @@ from pathlib import Path
 class EnhancedSearchEngine:
     def __init__(self, atlas_dir: Path):
         self.atlas_dir = atlas_dir
-    
+
     def search_content(self, query: str):
         """Enhanced search with ranking and filters"""
         print(f"🔍 Searching for: {query}")
         return {"results": [], "total": 0}
-    
+
     def index_content(self):
         """Build enhanced search index"""
         print("📇 Building search index...")
@@ -411,7 +411,7 @@ from pathlib import Path
 class AdvancedContentProcessor:
     def __init__(self, atlas_dir: Path):
         self.atlas_dir = atlas_dir
-    
+
     def process_content(self, content_path: Path):
         """Advanced processing with AI enhancement"""
         print(f"⚙️ Processing: {content_path}")

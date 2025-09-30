@@ -54,7 +54,7 @@ Villeneuve, Mikey Madison
 
 WATCH THE CONVERSATION ( https://puck.news/the-town-live-taping-mikey-madison-denis-villeneuve/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Going There: The Fearless Performances ( https://puck.news/leading-oscar-contenders-on-their-fearless-performances/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
@@ -77,7 +77,7 @@ Sarsgaard, Jeremy Strong, Zoe Saldaña
 
 WATCH THE CONVERSATION ( https://puck.news/leading-oscar-contenders-on-their-fearless-performances/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Stranger Than Fiction: The Documentary Truth Tellers ( https://puck.news/filmmakers-behind-the-years-best-documentaries-talk-story-craft/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
@@ -105,7 +105,7 @@ Mayer | Brown ( https://www.mayerbrown.com/en?utm_campaign=Stories+of+the+Season
 WATCH THE
 CONVERSATION ( https://puck.news/filmmakers-behind-the-years-best-documentaries-talk-story-craft/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Slaying the Screen: The
 Fashion and Costumes of the Season ( https://puck.news/stories-of-the-season-slaying-the-screen/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
@@ -158,6 +158,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Stories+of
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?utm_campaign=Stories+of+the+Season+Recap+-+Beefree+-+SUBSCRIBERS+%2811%2F27%2F24%29&utm_content=Stories+of+the+Season+Recap+-+Beefree+-+LEADS+%2811%2F27%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

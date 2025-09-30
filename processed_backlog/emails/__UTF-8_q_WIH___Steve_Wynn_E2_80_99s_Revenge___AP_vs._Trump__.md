@@ -23,7 +23,7 @@ But first…
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -133,7 +133,7 @@ litigation?
 While this may all escalate into lawfare, a compromise seems attainable—one that reacquaints society with the value of speech protections and fosters a dialogue on which policies best address disinformation and libel tourism without rising to censorship on one hand and lies without consequence on the other. Of course, such a resolution won’t emerge from a single Supreme Court petition, but it may be
 premature to dismiss the possibility that nothing good can possibly come from a new paradigm.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday. See you then. 
 
@@ -186,6 +186,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVG7hCQLoBOhxkCEjWqFI=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

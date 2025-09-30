@@ -12,11 +12,11 @@
 
 # » B.S. Report: Bob Ryan and JackO
 
-Bill Simmons • Unknown date 
+Bill Simmons • Unknown date
 
 ![» B.S. Report: Bob Ryan and JackO](https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg)
 
-Bill Simmons talks to Bob Ryan about the Miami Heat’s winning streak and later calls JackO to discuss the Yankees and Red Sox.  
-  
-To listen to this podcast, you can download it on iTunes here or go to the ESPN.com PodCenter here. 
+Bill Simmons talks to Bob Ryan about the Miami Heat’s winning streak and later calls JackO to discuss the Yankees and Red Sox.
+
+To listen to this podcast, you can download it on iTunes here or go to the ESPN.com PodCenter here.
 

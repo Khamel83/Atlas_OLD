@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I do see Elon Musk’s point. He runs, what, six companies? SpaceX, Neuralink, Twitter/X, the tunnel one, xAI, probably some I’m forgetting. A
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tornetta
-    
-  
+
+
 
 I do see Elon Musk’s point. He runs, what, six companies? SpaceX, Neuralink, Twitter/X, the tunnel one, xAI, probably some I’m forgetting. And Tesla Inc., the only one of them that is public, though for a while he also had SolarCity Corp. before (controversially)   merging it into Tesla. Each of these companies does something different— rocket science, brain surgery, posting on the internet, tunnels, artificial intelligence, cars — but there is overlap. They seem to  share employees and a certain ambitious science fiction ethos, and you could imagine futuristic projects that could be done at any of them.
 At all but one of his companies, he could stroll into the boardroom, throw a big bag of ketamine down onto the table, and say “I need the company to spend $50 million to build a giant golden statue of me riding a rocket,”
@@ -98,7 +98,7 @@ In 2018, Tesla’s board of directors granted Musk a pile of stock options to ac
 A Tesla stockholder named Richard Tornetta sued; I guess he’s enough of a Musk fan to own Tesla stock, but enough of a Musk skeptic to challenge his compensation. And yesterday he won. Here is  the opinion, by Delaware Chancellor Kathaleen St. J. McCormick. The actual analysis is more complicated than my sketch above; there are four parts
   [8]
 :
-	
+
 Generally speaking, a board’s decision about how much to pay its chief executive officer is almost completely unreviewable in court, “the quintessential business determination subject to great judicial deference.” In Delaware corporate law, the “business judgment rule” provides that a court generally will not second-guess a board’s decisions about how to run the business. But there is an exception for transactions between a company and its “controlling shareholder,” and that is a  somewhat vague concept. Musk, when he got this pay package, owned 21.9% of Tesla’s stock: not a majority, but a lot. And combining that with his role as founder-CEO, his importance to the company and his power over the board, the judge decided that he was the controlling shareholder.
   [9]
  For transactions with the controlling shareholder, the standard is not “business judgment” (a court won’t second-guess the board’s decision), but “entire fairness” (the court will second-guess the board’s decision).	Still, even a conflicted transaction with the controlling shareholder is not subject to entire fairness review, if the shareholders vote to ratify it. Here, Musk’s compensation package was put to a shareholder vote, and 81% of shares  voted in favor. (Or 73%, not counting Musk’s and his brother’s votes.) But! The plaintiffs here argued, and the judge agreed, that the shareholder vote was not “fully informed,” “because the proxy statement inaccurately described key directors as independent and misleadingly omitted details about the process.”
@@ -121,7 +121,7 @@ Well, I don’t disagree with that. In fact I  wrote similar  things in 2018, wh
 So I see his point!
 
 
-    
+
 
 Of course, this is the reason to incorporate in Delaware
   [14]
@@ -137,41 +137,41 @@ Even now, Musk has good reasons for doing his next good idea at Tesla. It’s th
 But he also has some good reasons for doing his next good idea at SpaceX or xAI or X or Neuralink or Boring Co. or a brand-new startup. One is that his ownership of Tesla has gone down (because he sold stock! to buy Twitter!), so he does capture less of the value he creates there. 
 But the bigger one is that at Tesla, unlike at his other companies, Musk really is subject to rules, to outside supervision. If he tweets nonsense about Tesla, the US Securities and Exchange Commission   can punish him. If he has his buddies on the Tesla board pay him another $50 billion, a Delaware court can make him give the money back. His power over Tesla is, as public-company CEOs go, pretty absolute: The board loves him, the shareholders love him, he doesn’t have to show up at work, they pay him $50 billion, it’s great. But his power over Tesla is not that absolute, compared to running a private company without the interference of courts or the SEC. And he runs five private companies! I bet he is a bit fonder of them today. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
+
+
 
 Pimco Squares Up for a Bareknuckle Fight in   Private Credit. Sotheby’s  Cleared of Claims It Duped Russian Billionaire.  23andMe’s Fall From $6 Billion to Nearly $0. What Investors Need to Know About the U.S. Government’s  Borrowing Plans. Allen Media Group Makes $14.3 Billion Offer for  Paramount Global.  Boeing Says It Can’t Set 2024 Financial Goals Amid 737 Max Woes. SpaceX’s Starship Wins Contract to Launch   Airbus Space Station.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is loosely inspired by the guys who built a six-ton “sculpture of a Mr. Musk-headed goat riding a rocket,” though they were just some crypto guys with no connection to his companies, and it wasn’t made of gold.
 
 
@@ -217,48 +217,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [15] From the chancellor’s opinion: “Musk ultimately acquired Twitter and named himself ‘chief twit,’ a role analogous to CEO. Musk also testified that he asked approximately 50 Tesla engineers to ‘volunteer’ to help him evaluate Twitter’s engineering team. No one on the [Tesla] Board called Musk to tell him not to do this. In the weeks prior to trial, Musk spent the ‘lion’s share’ of his time at Twitter.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckcrfl.5jdn/49278889.gif" alt="" border="0" /></a>

@@ -155,7 +155,7 @@ include the timeless Symmetry Pouchette ( https://go.shopmy.us/p-14092011?utm_ca
 Meanwhile, The Row and Phoebe Philo’s arrival at Galeries Lafayette marks a strategic evolution
 for both labels as they balance calculated scarcity with measured accessibility. Beyond expanding their Paris footprint (The Row opened a flagship store there last fall), the move signals their confidence in the French and European luxury market, while courting the customer who values in-person shopping and tactile connection to the garments. They’re engaged in a careful distribution dance, one that expands reach while maintaining an aura of exclusivity.
 
- 
+
 
 The
 Week in Feedback: “Who Is Going to Gucci?”
@@ -175,7 +175,7 @@ Fabio Zambernardi?” —A pretty smart person
 
 “They should pay Hedi [Slimane] whatever it costs. It will be worth every penny.” —An enigma who knows everything
 
- 
+
 
 See you at Hermès tomorrow,
 Lauren
@@ -204,6 +204,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVctZcoKYdKkqz_dd06GE=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

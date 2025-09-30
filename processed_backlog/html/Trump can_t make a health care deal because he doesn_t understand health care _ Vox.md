@@ -60,7 +60,7 @@ By making McConnell that guy through his own inattention and ignorance, Trump se
 
 During the campaign, Trump posed as a master dealmaker. But you can’t make a deal if you don’t understand what’s being discussed, what the various sides want, or what the trade-offs involved in different concessions would mean. And you really can’t make a deal if you don’t know what you want or why you want it. Preparation, information, and clarity matter in policymaking, and the widely acknowledged reality that Trump is completely underprepared, woefully uninformed, and personally confused mattered here.
 
-See More: 
+See More:
 
 * [Health Care](/web/20241013173424/https://www.vox.com/health-care)
 * [Obamacare](/web/20241013173424/https://www.vox.com/obamacare)

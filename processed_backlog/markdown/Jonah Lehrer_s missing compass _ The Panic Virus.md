@@ -12,7 +12,7 @@
 
 # 429 Too Many Requests
 
-Unknown author • August 03, 2012 
+Unknown author • August 03, 2012
 
 ![429 Too Many Requests]()
 

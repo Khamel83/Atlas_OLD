@@ -102,7 +102,7 @@ Museums are another story. We’re only
 now seeing the debuts of many shows conceived in the wake of George Floyd’s 2020 murder, and there are surely more to come. Some of these shows will be powerful and great; others, meanwhile—like The Met’s Flight Into Egypt: Black Artists and Ancient Egypt—will be try-hard, and leave themselves open to attack. That means we’re likely to see more examples of MAGA enthusiasts picking fights with museums. But whatever the mood of our culture and politics, the market will
 continue to seek out new talents, not as categories but as artists. Some will have a brief moment in the sun. Others will become lasting figures in our culture. There’s no dictating taste.
 
- 
+
 
 Endnotes…
 -----------
@@ -166,6 +166,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVEMaadR7m922PmkR12fA=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic function of crypto is that you can buy cryptocurrencies with dollars and sell cryptocurrencies for dollars. I suppose there are ot
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Silvergate
-    
-  
+
+
 
 The basic function of crypto is that you can buy cryptocurrencies with dollars and sell cryptocurrencies for dollars. I suppose   there are other functions? But the main thing is that if you think Bitcoin will go up, you spend some dollars to buy some Bitcoin, and then if it goes up (or doesn’t), you sell it for dollars.
 If you like crypto a lot — or if you are an institutional-ish crypto trader — you will do this a lot, and you may find yourself frustrated with the dollar side of things. Crypto trades globally, 24 hours a day, seven days a week; you can use smart contracts to send crypto automatically, and sending crypto is generally a permissionless lightly-regulated activity. But if you want to buy crypto with dollars, you need to use the US dollar financial system, which can feel clunky to you, a crypto native. You will probably have to send a bank transfer, but the banks are not open 24/7, and some of them might raise annoying questions if you try to transfer money from your bank account to buy crypto. 
@@ -148,89 +148,89 @@ Deposits placed by a crypto-asset-related entity that are for the benefit of the
 It’s almost like they knew this was coming. The regulators did not quite say “therefore, don’t bank crypto exchanges”; in fact,  they said the opposite: “Banking organizations are neither prohibited nor discouraged from providing banking services to customers of any specific class or type, as permitted by law or regulation.” But you got the idea.
 I suppose this counts as contagion from the crypto crash to the real financial system: A regulated US bank is worried about “its ability to continue as a going concern,” and it is dumping Treasuries and munis and mortgage-backed securities to pay back its debts. It is a narrow sort of contagion: That bank is pretty much the Bank of Crypto, and I don’t think that, like, your mortgage rate will be materially higher because Silvergate had to sell off a few billion dollars of bonds. But it is certainly the sort of contagion that regulators will want to discourage, and now they have clear evidence that it’s real.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Football governance
-    
-  
+
+
 
 A major-league professional sports team, as a company, is a weird combination of (1) a multibillion-dollar business and (2) some guy’s personal hobby. You would not expect the corporate governance of the average sports team to be pristine, because after all it is generally a toy that a billionaire bought for himself to make watching sports more fun. On the other hand, because sports teams are such big businesses, it is not uncommon for them to have minority owners: There’s the guy who is the “owner” of the team, the public face, the hobbyist in charge, and then there could be a few other investors who also own smaller stakes in the team. They are also there mostly for hobbyist reasons, to be clear, and might prioritize, like, hanging out with the players over maximizing free cash flow. But they won’t want the team to spend money recklessly in ways that mainly benefit the majority owner. Whereas the majority owner might think “this is my toy and I can do whatever I want with it.”
 Here is a very funny  ESPN story about corporate governance at the Washington Commanders of the National Football League, whose majority owner is the controversial Daniel Snyder, but which also has some minority owners. The minority owners have things like a shareholder agreement specifying their rights and a board of directors that is supposed to meet to oversee the team’s management, but really it is Snyder’s team and the governance stuff doesn’t count for much. The problems here start with the fact that the team took out a $55 million credit line without board approval, but things snowball from there:
@@ -247,20 +247,20 @@ The partners said they discovered Snyder had leased his personal jets back to th
 The thing is that if you are the high-profile owner of a football team then in some sense everything you do really is somehow on behalf of the team: You are the face of the team, your yacht parties are team-related events, your jet has to be in team colors, etc. Your whole lifestyle is bound up with the team. And if the team has some minority investors, well, they’re going to help pay for that lifestyle.
 Elsewhere: “Washington’s football team, which owner Dan Snyder is exploring selling, ranked last in a new survey conducted by the NFL Players Association that rated teams in eight categories, including the treatment of players’ families, nutrition, the training staff and team travel. In three categories, the Commanders received an F- grade.”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Elsewhere in private jets
-    
-  
+
+
 
 I guess if you are the chief executive officer of a company it is just a good business decision to buy a private jet? For yourself, I mean, with your own money, not for the company. The trade is that you buy the jet for yourself, you use it to fly around to business meetings, and you charge your company for the use of the jet. You do enough meetings and the jet pays for itself, with shareholder money. This is not exactly legal, but  here we are:
 
@@ -269,11 +269,11 @@ The SEC’s orders find that Furman owned a private aircraft, which he leased to
 
 I bet he’s kicking himself that it never occurred to him to put the company’s logo on the jet and charge extra for that.
 
-  
-    
+
+
       Private equity boondoggles
-    
-  
+
+
 
 If you run a private equity fund that seeks investment from state pension funds, you will want to have some sort of governance board that includes representatives from those pension funds, not just — not primarily — as a governance tool but also s a marketing tool, a way to maintain friendly relationships with the pension funds who give you money. You’ll invite the representatives to meetings, schmooze with them, make them feel included, help them understand and appreciate what you are doing, make them feel good about your fund and the relationship. Will you share a nice meal with them, at these meetings? Will you pick up the check? Will the meetings be in Tuscany? Oh sure. Bloomberg’s  Neil Weinberg reports:
 
@@ -287,11 +287,11 @@ Such LPACs are supposed to be a means of giving state officials a voice in how t
 Presumably the LPAC could do its governance and advisory work over email and Zoom, and honestly that seems like it would be more convenient for a lot of these pension funds. But imagine being the first private equity firm to announce that change. 
 
 
-  
-    
+
+
       Cramer ETF
-    
-  
+
+
 
 Incredible   bit here:
 
@@ -311,16 +311,16 @@ Also, from the prospectus:
 The Trust, the Fund and the adviser are not affiliated with Cramer or any of the media by which his recommendations are communicated. Cramer is not involved in the creation, management or operations of the Fund. The adviser does not in all cases perform fundamental investment analysis of securities bought, sold and held by the Fund. The primary factor for transacting in such securities or related securities is the fact that they are mentioned by Cramer.
 Surely if one of these funds consistently outperforms the market, Cramer should stop giving away free alpha to Tuttle and start running his own fund (or inverse fund) himself? It would be funny if it was the inverse one. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How is former Fugee and Jho Low acquaintance   Pras Michél doing? How is BitMEX founder  Arthur Hayes doing? Joe Biden expected to issue first presidential veto in  anti-ESG vote.  Bank Profits Fell 6% Last Year as War, Inflation and Higher Rates Hurt Results. London Dealmakers Say   Move to Wall Street From The City Is Just Starting. Scandal at South Africa’s Eskom: the CEO and the  cyanide-laced coffee.  Carlyle deal to bolster buyout fund falls flat with investors.   Tesla Erases $50 Billion in Market Value as Its Investor Day Disappoints. U.S. regulators rejected Elon Musk’s bid to  test brain chips in humans, citing safety risks. China holds up Arm’s exit from  troubled joint venture. See inside the  luxury bunkers where the super-rich reportedly plan to save themselves from a future apocalypse.  Whiskey Fungus Fed by Jack Daniel’s Encrusts a Tennessee Town.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Crypto exchanges, which are also in the business of holding dollars for customers, 
+
+  [1] Crypto exchanges, which are also in the business of holding dollars for customers,
 often do this, and it is a natural way for them to fall into disaster — particularly if they are lending against cryptocurrencies that they made up.
 
 
@@ -339,114 +339,114 @@ often do this, and it is a natural way for them to fall into disaster — partic
   [6] Oh, to be clear, in all sorts of US shadow banking it’s pretty standard and explains, you know, 2008.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

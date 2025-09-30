@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I don’t think that anything interesting turns on whether or not this weekend’s resolution of Silicon Valley Bank was a “bailout,” so let’s n
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bailouts etc.
-    
-  
+
+
 
 I don’t think that anything interesting turns on whether or not this weekend’s resolution of Silicon Valley Bank was a “bailout,” so let’s not discuss that.
   [1]
@@ -120,37 +120,37 @@ One other point on this subject. If you are a banking regulator and you think th
 On the other hand, it’s tricky: Silicon Valley Bank did (more or less) the responsible thing last week by trying to raise equity to shore up its balance sheet, and that’s what brought it down, as people  saw the equity raise and panicked. I doubt anyone wants to be the next regional bank to go out with a marketed stock offering. And a bank regulatory climate that is too punitive for shareholders will make it hard for banks to sell more stock, which is the main thing they should be doing.
 I guess that is the tension now. Bank regulators want depositors to feel like they are not taking a risk by keeping their money in the bank. They want the banks and their shareholders not to take risks with those depositors’ money. But they do still want shareholders to take the risk of owning bank stock. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Banking as mystery
-    
-  
+
+
 
 I   wrote yesterday about the Fed’s Bank Term Funding Program. Banks buy long-term bonds, mark them “held to maturity,” and then when those bonds lose value the banks ignore it for accounting purposes. But that only goes so far: The banks disclose the losses in footnotes to their financial statements, people sometimes notice, and when the losses get too big there are runs. The BTFP is a way for the Fed to take over the job of ignoring those losses instead: The Fed promised to lend against those bonds at 100 cents on the dollar, as though they hadn’t lost value. The Fed is not subject to bank runs. The Fed can credibly ignore those losses; banks can only mostly ignore them.
 I also wrote about Tether:
@@ -162,11 +162,11 @@ In other news, here is “Monetary Tightening and U.S. Bank Fragility in 2023: M
 We analyze U.S. banks’ asset exposure to a recent rise in the interest rates with implications for financial stability. The U.S. banking system’s market value of assets is $2 trillion lower than suggested by their book value of assets accounting for loan portfolios held to maturity. Marked-to-market bank assets have declined by an average of 10% across all the banks, with the bottom 5th percentile experiencing a decline of 20%. We illustrate that uninsured leverage (i.e., Uninsured Debt/Assets) is the key to understanding whether these losses would lead to some banks in the U.S. becoming insolvent-- unlike insured depositors, uninsured depositors stand to lose a part of their deposits if the bank fails, potentially giving them incentives to run. A case study of the recently failed Silicon Valley Bank (SVB) is illustrative. 10 percent of banks have larger unrecognized losses than those at SVB. Nor was SVB the worst capitalized bank, with 10 percent of banks having lower capitalization than SVB. On the other hand, SVB had a disproportional share of uninsured funding: only 1 percent of banks had higher uninsured leverage. Combined, losses and uninsured leverage provide incentives for an SVB uninsured depositor run. We compute similar incentives for the sample of all U.S. banks. Even if only half of uninsured depositors decide to withdraw, almost 190 banks are at a potential risk of impairment to insured depositors, with potentially $300 billion of insured deposits at risk. If uninsured deposit withdrawals cause even small fire sales, substantially more banks are at risk. Overall, these calculations suggests that recent declines in bank asset values very significantly increased the fragility of the US banking system to uninsured depositor runs.
 Yeesh! Not now!
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 Oh sure:
 
@@ -183,11 +183,11 @@ The investigations are also examining stock sales that SVB Financial’s officer
 
 I said above that, as a moral hazard matter, SVB’s executives are out of their jobs and their shares are zeroed, which is a good warning to other risk-loving bank executives. But several of them sold stock just before the failure, so they are not really zeroed, and you can see how that would rub people the wrong way. My own impression is that this is unlikely to be insider trading: SVB’s balance-sheet problems were disclosed and known weeks ago, and I gather that SVB’s executives were as surprised as anyone else by the run last week. But, still, it doesn’t look great.
 
-  
-    
+
+
       Not now Credit Suisse!
-    
-  
+
+
 
  Come on:
 
@@ -196,15 +196,15 @@ The Zurich-based bank said Tuesday it will take steps to fix ineffective checks 
 
 There is never a great time for a bank to announce “hey turns out we don’t really know what’s going on at our bank,” but this week does feel like a particularly bad time.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 AMC plunges as investors approve reverse stock split,  APE share conversion. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] For what it’s worth, I agree with  my Bloomberg colleague Joe Weisenthal that (1) it was obviously a bailout and (2) that is sort of a morally neutral conclusion. If there is some established resolution procedure for a failed bank that would expose some claimants to some risk of loss, and the government steps in to modify that resolution procedure to give those claimants more money and/or certainty, then that is just obviously a bailout; what else could it be? (Josh Barro: “I think a fair definition of a ‘bailout’ is when people or entities receive an ad hoc financial rescue to which they were not legally entitled before the event that necessitated the rescue.”) But it seems perfectly coherent to think something like “the SVB resolution was a bailout of depositors, but that was good, and doesn’t really have much or any economic cost to taxpayers given the likely selling price of the assets.”
 
 
@@ -226,95 +226,95 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] No time to explain! Covered in   yesterday’s column!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cicwsn.5jeh/9cd6f36b.gif" alt="" border="0" /></a>

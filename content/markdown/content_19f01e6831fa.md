@@ -75,23 +75,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="8747496" />
-  
+
     <meta name="ncbi_uid" content="8747496" />
-  
+
     <meta name="log_displayeduids" content="8747496" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="These findings suggest that adolescent alcohol use is affected minimally by the environmental consequences of parent problem drinking and family functioning, but substantially by sibling environmental effects."><meta name="keywords" content="pmid:8747496, doi:10.15288/jsa.1996.57.8, Research Support, U.S. Gov&#x27;t, P.H.S., M McGue, A Sharma, P Benson, Adolescent, Adoption / psychology*, Alcohol Drinking / genetics, Alcohol Drinking / psychology*, Alcoholism / genetics, Alcoholism / psychology*, Child of Impaired Parents / psychology*, Female, Humans, Male, Parent-Child Relations*, Personality Development, Risk Factors, Sibling Relations*, Social Environment, Social Facilitation, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Parent and sibling influences on adolescent alcohol use and misuse: evidence from a U.S. adoption cohort - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/8747496/"><meta property="og:description" content="These findings suggest that adolescent alcohol use is affected minimally by the environmental consequences of parent problem drinking and family functioning, but substantially by sibling environmental effects."><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Parent and sibling influences on adolescent alcohol use and misuse: evidence from a U.S. adoption cohort - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/8747496/"><meta name="twitter:description" content="These findings suggest that adolescent alcohol use is affected minimally by the environmental consequences of parent problem drinking and family functioning, but substantially by sibling environmental effects."><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -115,8 +115,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/8747496/">
 
 <meta name="citation_volume" content="57">
-  
-  
+
+
     <meta name="citation_issue" content="1">
 
 <meta name="citation_doi" content="10.15288/jsa.1996.57.8">
@@ -156,7 +156,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -280,10 +280,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -300,7 +300,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -312,7 +312,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -321,8 +321,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -330,7 +330,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -338,7 +338,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -349,8 +349,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -405,7 +405,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -419,7 +419,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -506,7 +506,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -517,13 +517,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="LPsB6DCEEyDZzbpt1UIwhYOppLvZlXefQ9Nk1Ot8gE5pcy9NqEJasV9AFvu9EqzW">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -555,7 +555,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -914,7 +914,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1071,7 +1071,7 @@
 <div class="article-page" id="article-page" data-article-pmid="8747496">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1079,22 +1079,22 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://www.jsad.com/doi/10.15288/jsa.1996.57.8"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=5480&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=8747496&amp;db=pubmed&amp;nlmid=7503813"
          title="See full text options at Dartmouth Journal Services"
-         
+
          data-ga-category="full_text"
          data-ga-action="Dartmouth Journal Services"
          data-ga-label="8747496"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.jsad.com-pb-assets-JSAbutton.jpg" alt="Dartmouth Journal Services full text link"><span class="text">
-            
+
               Dartmouth Journal Services
-            
+
           </span></a>
 </div>
 
@@ -1324,20 +1324,20 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1361,9 +1361,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Stud+Alcohol%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Stud Alcohol">
@@ -1380,9 +1380,9 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">1996 Jan;57(1):8-18.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.15288/jsa.1996.57.8.
       </span>
@@ -1390,12 +1390,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Parent and sibling influences on adolescent alcohol use and misuse: evidence from a U.S. adoption cohort
 
 </h1>
@@ -1446,10 +1446,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1459,28 +1459,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> Department of Psychology, University of Minnesota, Minneapolis 55455, USA.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">8747496</strong>
@@ -1488,13 +1488,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1511,7 +1511,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1521,36 +1521,36 @@ Affiliations
       <div class="short-view" id="short-view-heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Parent and sibling influences on adolescent alcohol use and misuse: evidence from a U.S. adoption cohort
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">M McGue</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         J Stud Alcohol<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">1996 Jan</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1582,7 +1582,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1596,19 +1596,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1632,9 +1632,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Stud+Alcohol%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Stud Alcohol">
@@ -1651,9 +1651,9 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">1996 Jan;57(1):8-18.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.15288/jsa.1996.57.8.
       </span>
@@ -1661,7 +1661,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1695,24 +1695,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> Department of Psychology, University of Minnesota, Minneapolis 55455, USA.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">8747496</strong>
@@ -1720,13 +1720,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1743,7 +1743,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1751,8 +1751,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1781,50 +1781,50 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
         <strong class="sub-title">
           Objective:
         </strong>
-      
+
       Although adolescent alcohol use has been consistently associated with parental drinking behavior, sibling drinking behavior and family functioning, the extent to which these associations owe to genetic or shared environmental influences has not been previously investigated. Using an adoption study design, we sought to determine whether the familial correlates of adolescent alcohol involvement were due to common genetic or common environmental effects.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Method:
         </strong>
-      
+
       The sample consisted of 653 adopted families ascertained through adoption agencies in four U.S. states. Each family consisted of a target adopted adolescent, an adoptive mother and an adoptive father. In addition, 68 birth adolescents (i.e., biological offspring of the adoptive parents) and 187 second adopted adolescents from these families participated in the study. All participants completed a mail survey that included assessment of drinking behavior and family functioning.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Results:
         </strong>
-      
+
       The relationship between parental problem drinking and adolescent alcohol involvement was moderate and significant among birth offspring (corrected multiple correlation, Rc = .30), but small and non-significant among adoptive offspring (Rc = .00). The relationship between adolescent alcohol involvement and family functioning was substantial for birth offspring (Rc = .39), but only modest for adoptive offspring (Rc = .16). The nonbiological sibling correlation for involvement with alcohol was significant (r = .24) and moderated by sibling pair demographic similarity, such that same-sex, similar-age siblings were substantially more similar (r = .45) than opposite-sex, dissimilar-aged siblings (r = .01).
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Conclusions:
         </strong>
-      
+
       These findings suggest that adolescent alcohol use is affected minimally by the environmental consequences of parent problem drinking and family functioning, but substantially by sibling environmental effects.
     </p>
 
@@ -1841,15 +1841,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/24988261/"
@@ -1857,39 +1857,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="24988261"
        data-ga-label="">
-      
+
         General and specific predictors of nicotine and alcohol dependence in early adulthood: genetic and environmental influences.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Samek DR, Keyes MA, Hicks BM, Bailey J, McGue M, Iacono WG.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Samek DR, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Stud Alcohol Drugs. 2014 Jul;75(4):623-34. doi: 10.15288/jsad.2014.75.623.</span>
     <span class="docsum-journal-citation short-journal-citation">J Stud Alcohol Drugs. 2014.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">24988261</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/11141037/"
@@ -1897,39 +1897,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="11141037"
        data-ga-label="">
-      
+
         Environmental transmission of DSM-IV substance use disdorders in adoptive and step families.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Newlin DB, Miles DR, van den Bree MB, Gupman AE, Pickens RW.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Newlin DB, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Alcohol Clin Exp Res. 2000 Dec;24(12):1785-94.</span>
     <span class="docsum-journal-citation short-journal-citation">Alcohol Clin Exp Res. 2000.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">11141037</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19215604/"
@@ -1937,39 +1937,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="19215604"
        data-ga-label="">
-      
+
         Parental alcohol dependence and the transmission of adolescent behavioral disinhibition: a study of adoptive and non-adoptive families.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">King SM, Keyes M, Malone SM, Elkins I, Legrand LN, Iacono WG, McGue M.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">King SM, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Addiction. 2009 Apr;104(4):578-86. doi: 10.1111/j.1360-0443.2008.02469.x. Epub 2008 Feb 11.</span>
     <span class="docsum-journal-citation short-journal-citation">Addiction. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19215604</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/8858548/"
@@ -1977,39 +1977,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="8858548"
        data-ga-label="">
-      
+
         Estimating genetic and environmental effects of alcohol use and dependence from a national survey: a "quasi-adoption" study.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Light JM, Irvine KM, Kjerulf L.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Light JM, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Stud Alcohol. 1996 Sep;57(5):507-20. doi: 10.15288/jsa.1996.57.507.</span>
     <span class="docsum-journal-citation short-journal-citation">J Stud Alcohol. 1996.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">8858548</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/1758995/"
@@ -2017,42 +2017,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="1758995"
        data-ga-label="">
-      
+
         Developmental behavior-genetic perspective of alcoholism etiology.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Tarter RE.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Tarter RE.</span>
     <span class="docsum-journal-citation full-journal-citation">Recent Dev Alcohol. 1991;9:69-85.</span>
     <span class="docsum-journal-citation short-journal-citation">Recent Dev Alcohol. 1991.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">1758995</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=8747496"
@@ -2061,7 +2061,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2070,15 +2070,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/23104446/"
@@ -2086,39 +2086,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="23104446"
        data-ga-label="">
-      
+
         Underage alcohol use: summary of developmental processes and mechanisms: ages 16-20.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Brown SA, McGue M, Maggs J, Schulenberg J, Hingson R, Swartzwelder S, Martin C, Chung T, Tapert SF, Sher K, Winters KC, Lowman C, Murphy S.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Brown SA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Alcohol Res Health. 2009;32(1):41-52.</span>
     <span class="docsum-journal-citation short-journal-citation">Alcohol Res Health. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">23104446</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/32127866/"
@@ -2126,39 +2126,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="32127866"
        data-ga-label="">
-      
+
         Determinants of harmful use of alcohol among urban slum dwelling adults in Kenya.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Gitatui M, Kimani S, Muniu S, Okube O.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Gitatui M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Afr Health Sci. 2019 Dec;19(4):2906-2925. doi: 10.4314/ahs.v19i4.12.</span>
     <span class="docsum-journal-citation short-journal-citation">Afr Health Sci. 2019.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">32127866</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/29083505/"
@@ -2166,39 +2166,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="29083505"
        data-ga-label="">
-      
+
         Developmental Etiologies of Alcohol Use and Their Relations to Parent and Peer Influences Over Adolescence and Young Adulthood: A Genetically Informed Approach.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Deutsch AR, Wood PK, Slutske WS.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Deutsch AR, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Alcohol Clin Exp Res. 2017 Dec;41(12):2151-2162. doi: 10.1111/acer.13506. Epub 2017 Oct 30.</span>
     <span class="docsum-journal-citation short-journal-citation">Alcohol Clin Exp Res. 2017.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">29083505</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/20148780/"
@@ -2206,39 +2206,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="20148780"
        data-ga-label="">
-      
+
         Consilient research approaches in studying gene x environment interactions in alcohol research.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Sher KJ, Dick DM, Crabbe JC, Hutchison KE, O'Malley SS, Heath AC.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Sher KJ, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Addict Biol. 2010 Apr;15(2):200-16. doi: 10.1111/j.1369-1600.2009.00189.x.</span>
     <span class="docsum-journal-citation short-journal-citation">Addict Biol. 2010.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">20148780</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19205784/"
@@ -2246,42 +2246,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="19205784"
        data-ga-label="">
-      
+
         Predictors of problem drinking in adolescence and young adulthood. A longitudinal twin-family study.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Poelen EA, Engels RC, Scholte RH, Boomsma DI, Willemsen G.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Poelen EA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Eur Child Adolesc Psychiatry. 2009 Jun;18(6):345-52. doi: 10.1007/s00787-009-0736-x. Epub 2009 Feb 5.</span>
     <span class="docsum-journal-citation short-journal-citation">Eur Child Adolesc Psychiatry. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19205784</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=8747496"
@@ -2290,7 +2290,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2964,12 +2964,12 @@ Affiliations
       <button class="close-overlay" tabindex="2">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://www.jsad.com/doi/10.15288/jsa.1996.57.8"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=5480&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=8747496&amp;db=pubmed&amp;nlmid=7503813"
          title="See full text options at Dartmouth Journal Services"
          tabindex="1"
@@ -2977,9 +2977,9 @@ Affiliations
          data-ga-action="Dartmouth Journal Services"
          data-ga-label="8747496"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.jsad.com-pb-assets-JSAbutton.jpg" alt="Dartmouth Journal Services full text link"><span class="text">
-            
+
               Dartmouth Journal Services
-            
+
           </span></a>
 </div>
 
@@ -3019,31 +3019,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -3057,19 +3057,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F8747496%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F8747496%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F8747496%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3285,7 +3285,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3312,7 +3312,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

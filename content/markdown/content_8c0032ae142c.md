@@ -142,7 +142,7 @@ pmc_meta=pmc_meta || {}, pmc_meta.omni_visit_id = window.pmc_cookies.omni_visit_
 			<script>
 			window.pmc_is_adblocked = false;
 		</script>
-		
+
 <!--START Parsely Headine Script-->
 <script
 	type="text/plain"
@@ -222,7 +222,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 		<script type="text/javascript">
 			var pmc_ga_dimensions = {"dimension1":"article","dimension3":"1235181298","dimension4":"adalessandro","dimension5":"news","dimension6":"andor|breaking-news|disney|lucasfilm|tony-gilroy","dimension7":"tv","dimension8":"news","dimension9":"tv","dimension10":"2022","dimension11":"11","dimension12":"23","dimension13":"17","dimension14":"20","dimension25":"2022-11-24T01:20:08+00:00","dimension26":"2022-11-23 17:20:08","dimension27":"Wednesday","dimension29":"anonymous"};
 			var pmc_ga_mapped_dimensions = {"page-type":"1","page-subtype":"2","id":"3","author":"4","category":"5","tag":"6","vertical":"7","primary-category":"8","primary-vertical":"9","publish-year":"10","publish-month":"11","publish-day":"12","publish-hour":"13","publish-minute":"14","protocol":"15","paywall-entitlement":"16","paywall-sub-level-required":"17","paywall-sub-roadblock-hit":"18","paywall-acct-type":"19","paywall-acct-id":"20","paywall-org-name":"21","paywall-org-id":"22","paywall-auth-provider":"23","paywall-logged-in":"24","publish-timestamp-gmt":"25","publish-timestamp":"26","publish-day-of-week":"27","omni-visit-id":"28","user-type":"29","a-b-test":"30","experiment-name":"31","paywall-special-product-code":"32","paywall-product-code":"33","post-options":"34","child-post-id":"35","page-variant-name":"36","pageview-id":"37"};
-			
+
 			// Set default dimensions that require C0002 OneTrust group consent.
 			// $dimension_map['human-readable-label'] becomes its number, such as 15 for 'protocol'.
 			window.pmc_ga_dimensions_requiring_c0002 = [];
@@ -235,7 +235,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 							if( 'undefined' !== typeof pmc_meta && 'string' === typeof pmc_meta.omni_visit_id ){
 				dim["dimension28"] = pmc_meta.omni_visit_id;
 			}
-		
+
 		try {
 						var pmc_piano_reporting_cookie = JSON.parse(pmc.cookie.get('pmc_piano_reporting')) || {};
 
@@ -325,7 +325,7 @@ if ( '' !== location.search ) {
 gtag('set', 'page_location', location_url);
 						}
 					}
-					
+
 				window.pmcGaCustomDimensions = ga3Dimensions;
 
 window.dataLayer.push({
@@ -488,7 +488,7 @@ blogherads.adq.push(function () {
     "logo": "https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/build/images/logo-black.svg"
 }
 			</script>
-			
+
 <style type="text/css">
 article #connatix-contextual-player {
 	aspect-ratio: 16/9;
@@ -562,7 +562,7 @@ article [id^="jwplayer_"][id$="_div"] {
 			gtag('js', new Date());
 
 gtag( 'config', 'G-487Y5JM3D8', { 'send_page_view': false } );
-		
+
 		</script>
 			<style>img#wpstats{display:none}</style>
 		<script type="application/ld+json" class="wp-parsely-metadata">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"\u2018Andor\u2019: Tony Gilroy On Cassian&#8217;s Season One Finale Ultimatum; Teases Season 2 Filled With Rebel Gangsters &amp; Outliers","url":"http:\/\/deadline.com\/2022\/11\/andor-season-one-finale-tony-gilroy-interview-season-two-spoilers-1235181298\/","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/deadline.com\/2022\/11\/andor-season-one-finale-tony-gilroy-interview-season-two-spoilers-1235181298\/"},"thumbnailUrl":"https:\/\/deadline.com\/wp-content\/uploads\/2022\/11\/andor-4.jpg?w=150","image":{"@type":"ImageObject","url":"https:\/\/deadline.com\/wp-content\/uploads\/2022\/11\/andor-4.jpg"},"articleSection":"News","author":[{"@type":"Person","name":"Anthony D'Alessandro"}],"creator":["Anthony D'Alessandro"],"publisher":{"@type":"Organization","name":"Deadline","logo":"https:\/\/deadline.com\/wp-content\/uploads\/2019\/04\/cropped-icon-512x512.png"},"keywords":["andor","breaking news","disney+","lucasfilm","tony gilroy"],"dateCreated":"2022-11-24T01:20:08Z","datePublished":"2022-11-24T01:20:08Z","dateModified":"2022-11-25T20:56:31Z"}</script><meta name="robots" content="max-image-preview:large"><link rel="alternate" type="application/rss+xml" title="Deadline Feed" href="https://deadline.com/feed/rss/" /><link rel="alternate" type="application/rss+xml" title="Deadline &raquo; News Feed" href="https://deadline.com/category/news/feed/" />		<script>
@@ -734,15 +734,15 @@ var pmc_harmony_event_data = {"start_time":"1748361600","end_time":"1748448000",
 	});
 
 (function ( blogherads ) {
-		
+
 		blogherads.adq.push( function () {
 
 blogherads.setConf( 'vertical', 'news' );
-			
-			
-			
-			
-			
+
+
+
+
+
 			blogherads.setTargeting( 'pt', 'article' );
 blogherads.setTargeting( 'tag', ["andor","breaking-news","disney-2","lucasfilm","tony-gilroy"] );
 blogherads.setTargeting( 'ci', 'ART-1235181298' );
@@ -793,7 +793,7 @@ if (blogherads.setADmantXData) {
  * 911 regarding right rail ad unit
  * overlapping featured items in
  * latest news section on homepage
- * 
+ *
  * this is temp band-aid and should
  * be removed once a proper fix
  * has been added
@@ -987,27 +987,27 @@ form.post-password-form {
 	background-color: #920200;
 }
 
-/* temp CSS for Homepage Roadblock */ 
-body.home section.awardsline { 
-background-color: black; 
+/* temp CSS for Homepage Roadblock */
+body.home section.awardsline {
+background-color: black;
 }
 
-body.home section.awardsline h2, body.home section.awardsline h3, body.home section.awardsline a.c-button { 
-color: #c6a55b; 
+body.home section.awardsline h2, body.home section.awardsline h3, body.home section.awardsline a.c-button {
+color: #c6a55b;
 }
 
-body.home section.awardsline a.a-icon-after::after { 
-filter: brightness(0) saturate(100%) invert(67%) sepia(61%) saturate(343%) hue-rotate(3deg) brightness(91%) contrast(81%); 
+body.home section.awardsline a.a-icon-after::after {
+filter: brightness(0) saturate(100%) invert(67%) sepia(61%) saturate(343%) hue-rotate(3deg) brightness(91%) contrast(81%);
 }
 
-body.home section.what-we-are-watching { 
-background-color: #550100; 
+body.home section.what-we-are-watching {
+background-color: #550100;
 }
 
 /* hotfix to remove Carousel from Venice FF Tag Page PEP-10987 */
 body.tag-1691562 div.a-sidebar-grid__main header, body.tag-1691562 div.a-sidebar-grid__main div.pmc-u-margin-b-2:nth-of-type(1) {display:none;}
 		</style>
-		
+
 <script
 	type="text/plain" src="https://deadline.com/wp-content/plugins/pmc-plugins/pmc-taboola/assets/build/index.js?ver=514b500f0fa5ab25088a" class=" optanon-category-C0004" async="1" ></script>
 
@@ -1112,7 +1112,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="skin-ad-inject-container">
 			<div class="admz " id="adm-responsive-skin-ad">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -1120,7 +1120,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="gpt-dl-ros-skin-uid3"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'reskin', 'gpt-dl-ros-skin-uid3' )
@@ -1147,7 +1147,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <div class="above-header-ad // a-prepare-for-header-leaderboard-ad">
 			<div class="admz " id="adm-header">
 					<div class="adma boomerang " data-device="Desktop" data-width="2">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -1155,7 +1155,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="div-gpt-dl-ros-dfp-interstitial-uid4"
 		class=" adw-2 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'inlineoop', 'div-gpt-dl-ros-dfp-interstitial-uid4' )
@@ -1169,7 +1169,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 </div>
 			</div>
 						<div class="adma boomerang " data-device="Desktop" data-width="728">
-				
+
 <div style="min-width:50px;min-height:50px;"
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -1177,7 +1177,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="div-gpt-deadline-ros-970x90-uid5"
 		class=" adw-728 adh-90" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'banner', 'div-gpt-deadline-ros-970x90-uid5' )
@@ -1195,7 +1195,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 			</div>
 				</div>
 	</div>
-	
+
 <header data-header id="pmc-core-header" class="a-stacking-context a-stack-2 pmc-u-background-white">
 	<div data-header-sticky class="header__bar js-Header-contents // pmc-u-background-white">
 		<div class="a-wrapper u-flex u-justify-content-space-between">
@@ -1216,7 +1216,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 Open Mega Menu
 
 </span>
-	
+
 	</button>
 
 <div class="pmc-expandable-search // pmc-js-expandable-search u-flex is-search-expandable pmc-u-margin-lr-1 u-hidden@desktop-max">
@@ -1229,10 +1229,10 @@ Open Mega Menu
 	</svg>
 
 </button>
-	
+
 	<div class="expandable-search__target // a-glue-parent pmc-js-expandablesearch-target lrv-a-unstyle-button lrv-u-color-black js-fade js-fade-is-out" hidden>
 		<div class="expandable_search__inner a-glue a-glue--t-0 a-glue--l-0 lrv-u-height-100p" data-header-search-trigger="">
-			
+
 <div data-pmc-es-search-form="small_search_form"></div>
 		</div>
 	</div>
@@ -1241,13 +1241,13 @@ Open Mega Menu
 
 <a class="c-button  js-hide-when-sticky u-hidden@desktop-max pmc-u-font-weight-bold pmc-u-font-size-14 pmc-u-line-height-copy" href="https://deadline.com/tip-line/">
 
-Got A Tip?	
+Got A Tip?
 	</a>
 					</div>
 					<div class="pmc-a-grid-item js-hide-when-sticky">
-						
+
 <div class="pmc-u-margin-t-050 u-max-width-500">
-		
+
 <a class="c-logo  a-unstyle-link" href="/">
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529.2 68.13"><title>deadline-logo-svg</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M474.84,68c4.23,0,7.92-.36,12.69-.36H512.1c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H499.86c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69h-3.06c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H487.53c-4.77,0-8.46-.36-12.69-.36-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M444.78,13.86V51.39c0,1-.09,1.35-.54,1.35s-.81-.27-1.44-1.35l-26.1-47c-1.8-3.15-3.15-4.14-6.93-4.14-1.71,0-4.5.36-7.2.36-3.69,0-6.57-.45-9.81-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3.24,0,4.41,1.8,4.41,6.48v40.5c0,4.68-1.17,6.48-4.41,6.48-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05,4.32,0,8.28-.45,13.05-.45s8.73.45,13.05.45c3.06,0,4.59-1.44,4.59-4.05,0-2.25-1.44-3.69-4-3.69-1,0-3.51.54-4.86.54-3.24,0-4.41-1.8-4.41-6.48V15.21c0-1.08.09-1.35.63-1.35s.72.27,1.35,1.35l27.27,47.7c2.43,4.32,3.42,5.22,7.83,5.22h.81c3.78,0,5.49-1.71,5.49-5.22v-49c0-4.59,1.26-6.39,4.59-6.39,1.08,0,3.33.36,4.23.36a3.29,3.29,0,0,0,3.51-3.6c0-2.61-1.53-4.05-4.5-4.05-4.14,0-7.65.45-12.15.45-4.77,0-8.82-.45-13.23-.45-3,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1.08,0,3.51-.54,4.95-.54,3.15,0,4.41,1.8,4.41,6.48M350.82,68c4.41,0,8.46-.45,13.41-.45s9.09.45,13.5.45c3,0,4.59-1.44,4.59-4.05a3.55,3.55,0,0,0-3.87-3.69c-1.26,0-3.78.54-5.22.54-3.06,0-4.14-1.89-4.14-6.84V14.22c0-5,1.08-6.84,4.14-6.84,1.44,0,4,.54,5.22.54a3.55,3.55,0,0,0,3.87-3.69c0-2.61-1.62-4.05-4.59-4.05-4.41,0-8.55.45-13.5.45s-9-.45-13.41-.45c-3.06,0-4.59,1.44-4.59,4.05,0,2.25,1.44,3.69,3.87,3.69,1.17,0,3.78-.54,5.22-.54,3.06,0,4.14,1.89,4.14,6.84V54c0,5-1.08,6.84-4.14,6.84-1.44,0-4.05-.54-5.22-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.53,4.05,4.59,4.05m-63.45,0c4.23,0,7.92-.36,12.69-.36H323c5.76,0,11.25.36,13.23.36,2.79,0,4-1.26,4-4.23,0-1.71-.18-5.67-.18-10,0-2.61.18-6,.18-7.38,0-2.7-1.44-4.23-4-4.23a3.71,3.71,0,0,0-4,4c0,1.17.36,3.6.36,5.76,0,6.66-2.52,8.91-9.9,8.91h-9.63c-6.39,0-7.74-1.44-7.74-7.83V14.31c0-5,1.17-6.93,4.5-6.93,1.44,0,4.05.54,5.22.54,2.43,0,4-1.44,4-3.69,0-2.61-1.53-4.05-4.59-4.05-4.59,0-8.73.45-13.95.45-4.86,0-8.82-.45-13.14-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3,0,4.14,1.71,4.14,6.12V54.72c0,4.41-1.17,6.12-4.14,6.12-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M245.61,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14c0-5.22,1.53-6.12,10.71-6.12,16.2,0,23.58,8.55,23.58,27.27S262,61.2,245.61,61.2m.63,6.93q32.67,0,32.67-34.29c0-22.68-10.62-33.75-32.49-33.75-4.32,0-13.41.45-15.93.45-5,0-9.09-.36-13.68-.36-3,0-4.5,1.35-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.7,1.53,4.05,4.5,4.05,4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45M164,36.45c-1.62,0-2-.72-1.26-2.7l7.83-22.41c.36-1,.54-1.26,1.08-1.26s.63.27,1,1.26l7.83,22.41c.72,2,.36,2.7-1.26,2.7Zm32.85,17.1-17.37-48c-1.62-4.41-2.7-5.58-7-5.58h-1.17c-4.41,0-5.4,1.17-7,5.58l-17.46,48c-2.07,5.76-3.69,6.66-7.29,6.84-2.43.18-3.69,1.44-3.69,3.78,0,2.61,1.44,3.87,4.32,3.87,3.42,0,6.48-.36,10.44-.36,4.41,0,8.46.36,12.51.36,2.88,0,4.41-1.44,4.41-4.05,0-2.25-1.44-3.69-3.87-3.69-.9,0-2.34.36-4.14.36-3,0-4.5-1.17-4.5-3.51a11.45,11.45,0,0,1,.81-3.69l2.79-7.83c.45-1.35,1.17-2.16,2.61-2.16H181.8a2.72,2.72,0,0,1,2.79,2.16l2.79,7.83a11.45,11.45,0,0,1,.81,3.69q0,3.51-4.59,3.51c-1.71,0-3.06-.36-4-.36A3.55,3.55,0,0,0,175.68,64c0,2.61,1.62,4.05,4.41,4.05,4.14,0,8.19-.36,12.87-.36,3.87,0,7.11.36,10.62.36,2.88,0,4.32-1.26,4.32-3.87,0-2.34-1.26-3.6-3.69-3.78-3.69-.18-5.31-1.08-7.38-6.84M75.06,68c4.23,0,7.92-.36,12.69-.36h24.57c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H100.08c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69H96.75c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H87.75C83,.54,79.29.18,75.06.18c-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69C70.56,66.6,72,68,75.06,68M33.3,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14C22.5,7.92,24,7,33.21,7c16.2,0,23.58,8.55,23.58,27.27S49.68,61.2,33.3,61.2m.63,6.93q32.67,0,32.67-34.29C66.6,11.16,56,.09,34.11.09,29.79.09,20.7.54,18.18.54,13.14.54,9.09.18,4.5.18,1.53.18,0,1.53,0,4.23,0,6.48,1.44,7.92,3.87,7.92c1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54C1.44,60.3,0,61.74,0,64,0,66.69,1.53,68,4.5,68c4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45"/></g></g></svg>
 <span class="screen-reader-text">Deadline</span>
@@ -1255,7 +1255,7 @@ Got A Tip?
 </div>
 					</div>
 					<div class="js-hide-when-sticky u-hidden@desktop-max pmc-a-grid-item u-margin-l-auto">
-						
+
 <div class="u-flex u-flex-direction-column u-align-items-center u-hidden@desktop-max">
 	<div class="pmc-u-margin-b-025 u-max-width-300 u-height-16">
 
@@ -1266,18 +1266,18 @@ Got A Tip?
 
 </div>
 	<div class="pmc-u-margin-b-0 u-flex u-align-items-center u-justify-content-center">
-		
+
 <h2 id="header-social-list" class="c-label  pmc-u-font-weight-normal pmc-u-font-size-12" >
 
 Follow Us:
 
 </h2>
-		
+
 <ul class="o-social-list  pmc-u-padding-t-050"
 			aria-labelledby="header-social-list"
 	>
 			<li class="o-social-list__item">
-			
+
 			<a class="pmc-u-color-black pmc-u-padding-lr-025 u-display-block u-color-brand-red-dark:hover" href="https://www.facebook.com/deadline/" aria-label="facebook"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -1290,7 +1290,7 @@ Follow Us:
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="pmc-u-color-black pmc-u-padding-lr-025 u-display-block u-color-brand-red-dark:hover" href="https://x.com/deadline" aria-label="x"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -1303,7 +1303,7 @@ Follow Us:
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="pmc-u-color-black pmc-u-padding-lr-025 u-display-block u-color-brand-red-dark:hover" href="https://www.youtube.com/user/deadlinecom/" aria-label="youtube"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -1316,7 +1316,7 @@ Follow Us:
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="pmc-u-color-black pmc-u-padding-lr-025 u-display-block u-color-brand-red-dark:hover" href="https://www.instagram.com/deadline/" aria-label="instagram"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -1329,7 +1329,7 @@ Follow Us:
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="pmc-u-color-black pmc-u-padding-lr-025 u-display-block u-color-brand-red-dark:hover" href="https://www.tiktok.com/@deadline" aria-label="tiktok"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -1348,7 +1348,7 @@ Follow Us:
 				</div>
 
 <div class="u-hidden@desktop-max js-hide-when-sticky pmc-u-margin-tb-050 pmc-u-padding-tb-050 u-border-tb-1 u-border-color-grey-medium-light">
-					
+
 	<h2 id="main-nav-screen-reader" class="a-screen-reader-only">
 		site categories	</h2>
 
@@ -1359,102 +1359,102 @@ Follow Us:
 <ul class="o-nav__list " data-dropdown-list=""
 			>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/tv/"
-		
+
 >
 	TV	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/film/"
-		
+
 >
 	Film	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover 			a-show-on-hover-parent pmc-u-padding-r-125 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link   menu-item-has-children" href="https://deadline.com/p/awards-season/"
-		
+
 >
 	Awards	</a>
 									<ul class="a-unstyle-list a-show-on-hover u-box-shadow-light ">
 																					<li class="pmc-padding-b075">
-									
+
 <a class="c-nav-link  " href="https://deadline.com/p/awards-season/"
-		
+
 >
 	Awards Hub	</a>
 								</li>
 																												<li class="pmc-padding-b075">
-									
+
 <a class="c-nav-link  " href="https://issuu.com/deadlinehollywood"
-		
+
 >
 	Digital Issues	</a>
 								</li>
 																		</ul>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/box-office/"
-		
+
 >
 	Box Office	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/business/"
-		
+
 >
 	Biz	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/international/"
-		
+
 >
 	International	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/h/political-news/"
-		
+
 >
 	Politics	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/theater/"
-		
+
 >
 	Theater	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/category/reviews/"
-		
+
 >
 	Reviews	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/category/obituaries/"
-		
+
 >
 	Obits	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="/video/"
-		
+
 >
 	Video	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover 			a-show-on-hover-parent pmc-u-padding-r-125 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link   menu-item-has-children" href="https://deadline.com/p/events-hub/"
-		
+
 >
 	Events	</a>
 									<ul class="a-unstyle-list a-show-on-hover u-box-shadow-light 					inline_flex ">
@@ -1463,51 +1463,51 @@ Follow Us:
 																						Contenders										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-television-docs-unscripted-2025/"
-		
+
 >
 	Television: Docs+Unscripted+Variety	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-television-2025/"
-		
+
 >
 	Television	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-film-nominees/"
-		
+
 >
 	Film: Nominees	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-film-documentary/"
-		
+
 >
 	Film: Documentary	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-film-international/"
-		
+
 >
 	Film: International	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-film-los-angeles/"
-		
+
 >
 	Film: Los Angeles	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/contenders-film-london/"
-		
+
 >
 	Film: London	</a>
 											</li>
@@ -1518,16 +1518,16 @@ Follow Us:
 																						Sound &amp; Screen										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/sound-screen-television-2025/"
-		
+
 >
 	Television	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/p/sound-screen-film/"
-		
+
 >
 	Film	</a>
 											</li>
@@ -1535,24 +1535,24 @@ Follow Us:
 								</div>
 																												<div class="nested_nav">
 																			<li class="c-title pmc-padding-b075">
-											
+
 <a class="c-nav-link   menu-item-has-children" href="#"
-		
+
 >
 	Other	</a>
 										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://fortheloveofdocs.deadline.com/"
-		
+
 >
 	For The Love Of Docs	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/visual-effects-and-screen/"
-		
+
 >
 	Visual Effects + Screen	</a>
 											</li>
@@ -1561,53 +1561,53 @@ Follow Us:
 																		</ul>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover 			a-show-on-hover-parent pmc-u-padding-r-125 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link   menu-item-has-children" href="https://deadline.com/p/film-festival-news/"
-		
+
 >
 	Festivals	</a>
 									<ul class="a-unstyle-list a-show-on-hover u-box-shadow-light 					inline_flex ">
 																					<div class="nested_nav">
 																			<li class="c-title pmc-padding-b075">
-											
+
 <a class="c-nav-link  c-title  bold menu-item-has-children" href="#"
-		
+
 >
 	North America	</a>
 										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/sundance-film-festival/"
-		
+
 >
 	Sundance	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/toronto-film-festival/"
-		
+
 >
 	Toronto	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/telluride-film-festival/"
-		
+
 >
 	Telluride	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/sxsw/"
-		
+
 >
 	SXSW	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/tribeca-film-festival/"
-		
+
 >
 	Tribeca	</a>
 											</li>
@@ -1615,38 +1615,38 @@ Follow Us:
 								</div>
 																												<div class="nested_nav">
 																			<li class="c-title pmc-padding-b075">
-											
+
 <a class="c-nav-link  c-title  bold menu-item-has-children" href="#"
-		
+
 >
 	Europe	</a>
 										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/venice/"
-		
+
 >
 	Venice	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/cannes/"
-		
+
 >
 	Cannes	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/zurich-summit/"
-		
+
 >
 	Zurich	</a>
 											</li>
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/berlin-film-festival/"
-		
+
 >
 	Berlin/EFM	</a>
 											</li>
@@ -1654,17 +1654,17 @@ Follow Us:
 								</div>
 																												<div class="nested_nav">
 																			<li class="c-title pmc-padding-b075">
-											
+
 <a class="c-nav-link   menu-item-has-children" href="#"
-		
+
 >
 	Middle East	</a>
 										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/red-sea-film-festival/"
-		
+
 >
 	Red Sea	</a>
 											</li>
@@ -1672,17 +1672,17 @@ Follow Us:
 								</div>
 																												<div class="nested_nav">
 																			<li class="c-title pmc-padding-b075">
-											
+
 <a class="c-nav-link   menu-item-has-children" href="#"
-		
+
 >
 	Asia	</a>
 										</li>
 																		<ul class="a-unstyle-list">
 																					<li class="pmc-padding-b075">
-												
+
 <a class="c-nav-link  " href="https://deadline.com/tag/tokyo-film-festival/"
-		
+
 >
 	Tokyo	</a>
 											</li>
@@ -1691,16 +1691,16 @@ Follow Us:
 																		</ul>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/p/insider-apple-shrinking-2024/"
-		
+
 >
 	Insider	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 u-color-brand-red-dark:hover " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-icon-before a-icon-newsletter pmc-u-color-brand-red" href="https://cloud.email.deadline.com/signup/"
-		
+
 >
 	News Alerts	</a>
 							</li>
@@ -1710,9 +1710,9 @@ Follow Us:
 			</div>
 
 <div class="js-show-when-sticky // u-width-100p u-flex u-align-items-center">
-				
+
 <div class="u-border-lr-1@desktop u-border-color-grey-medium-light">
-	
+
 <button class="o-icon-button o-icon-button--with-label a-become-close-button@desktop-max a-become-close-button--trigger u-border-a-0 u-min-height-50" data-mega-menu-trigger>
 
 <svg class="c-icon  "
@@ -1725,14 +1725,14 @@ Follow Us:
 Menu
 
 </span>
-	
+
 	</button>
 </div>
 
 <div class="u-width-200 u-flex-shrink-0 u-margin-lr-auto@desktop-max u-flex-order-n1@desktop pmc-u-padding-r-1@desktop">
-	
+
 <div class="pmc-u-margin-t-050 u-max-width-500">
-		
+
 <a class="c-logo  a-unstyle-link" href="/">
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529.2 68.13"><title>deadline-logo-svg</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M474.84,68c4.23,0,7.92-.36,12.69-.36H512.1c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H499.86c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69h-3.06c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H487.53c-4.77,0-8.46-.36-12.69-.36-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M444.78,13.86V51.39c0,1-.09,1.35-.54,1.35s-.81-.27-1.44-1.35l-26.1-47c-1.8-3.15-3.15-4.14-6.93-4.14-1.71,0-4.5.36-7.2.36-3.69,0-6.57-.45-9.81-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3.24,0,4.41,1.8,4.41,6.48v40.5c0,4.68-1.17,6.48-4.41,6.48-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05,4.32,0,8.28-.45,13.05-.45s8.73.45,13.05.45c3.06,0,4.59-1.44,4.59-4.05,0-2.25-1.44-3.69-4-3.69-1,0-3.51.54-4.86.54-3.24,0-4.41-1.8-4.41-6.48V15.21c0-1.08.09-1.35.63-1.35s.72.27,1.35,1.35l27.27,47.7c2.43,4.32,3.42,5.22,7.83,5.22h.81c3.78,0,5.49-1.71,5.49-5.22v-49c0-4.59,1.26-6.39,4.59-6.39,1.08,0,3.33.36,4.23.36a3.29,3.29,0,0,0,3.51-3.6c0-2.61-1.53-4.05-4.5-4.05-4.14,0-7.65.45-12.15.45-4.77,0-8.82-.45-13.23-.45-3,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1.08,0,3.51-.54,4.95-.54,3.15,0,4.41,1.8,4.41,6.48M350.82,68c4.41,0,8.46-.45,13.41-.45s9.09.45,13.5.45c3,0,4.59-1.44,4.59-4.05a3.55,3.55,0,0,0-3.87-3.69c-1.26,0-3.78.54-5.22.54-3.06,0-4.14-1.89-4.14-6.84V14.22c0-5,1.08-6.84,4.14-6.84,1.44,0,4,.54,5.22.54a3.55,3.55,0,0,0,3.87-3.69c0-2.61-1.62-4.05-4.59-4.05-4.41,0-8.55.45-13.5.45s-9-.45-13.41-.45c-3.06,0-4.59,1.44-4.59,4.05,0,2.25,1.44,3.69,3.87,3.69,1.17,0,3.78-.54,5.22-.54,3.06,0,4.14,1.89,4.14,6.84V54c0,5-1.08,6.84-4.14,6.84-1.44,0-4.05-.54-5.22-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.53,4.05,4.59,4.05m-63.45,0c4.23,0,7.92-.36,12.69-.36H323c5.76,0,11.25.36,13.23.36,2.79,0,4-1.26,4-4.23,0-1.71-.18-5.67-.18-10,0-2.61.18-6,.18-7.38,0-2.7-1.44-4.23-4-4.23a3.71,3.71,0,0,0-4,4c0,1.17.36,3.6.36,5.76,0,6.66-2.52,8.91-9.9,8.91h-9.63c-6.39,0-7.74-1.44-7.74-7.83V14.31c0-5,1.17-6.93,4.5-6.93,1.44,0,4.05.54,5.22.54,2.43,0,4-1.44,4-3.69,0-2.61-1.53-4.05-4.59-4.05-4.59,0-8.73.45-13.95.45-4.86,0-8.82-.45-13.14-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3,0,4.14,1.71,4.14,6.12V54.72c0,4.41-1.17,6.12-4.14,6.12-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M245.61,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14c0-5.22,1.53-6.12,10.71-6.12,16.2,0,23.58,8.55,23.58,27.27S262,61.2,245.61,61.2m.63,6.93q32.67,0,32.67-34.29c0-22.68-10.62-33.75-32.49-33.75-4.32,0-13.41.45-15.93.45-5,0-9.09-.36-13.68-.36-3,0-4.5,1.35-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.7,1.53,4.05,4.5,4.05,4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45M164,36.45c-1.62,0-2-.72-1.26-2.7l7.83-22.41c.36-1,.54-1.26,1.08-1.26s.63.27,1,1.26l7.83,22.41c.72,2,.36,2.7-1.26,2.7Zm32.85,17.1-17.37-48c-1.62-4.41-2.7-5.58-7-5.58h-1.17c-4.41,0-5.4,1.17-7,5.58l-17.46,48c-2.07,5.76-3.69,6.66-7.29,6.84-2.43.18-3.69,1.44-3.69,3.78,0,2.61,1.44,3.87,4.32,3.87,3.42,0,6.48-.36,10.44-.36,4.41,0,8.46.36,12.51.36,2.88,0,4.41-1.44,4.41-4.05,0-2.25-1.44-3.69-3.87-3.69-.9,0-2.34.36-4.14.36-3,0-4.5-1.17-4.5-3.51a11.45,11.45,0,0,1,.81-3.69l2.79-7.83c.45-1.35,1.17-2.16,2.61-2.16H181.8a2.72,2.72,0,0,1,2.79,2.16l2.79,7.83a11.45,11.45,0,0,1,.81,3.69q0,3.51-4.59,3.51c-1.71,0-3.06-.36-4-.36A3.55,3.55,0,0,0,175.68,64c0,2.61,1.62,4.05,4.41,4.05,4.14,0,8.19-.36,12.87-.36,3.87,0,7.11.36,10.62.36,2.88,0,4.32-1.26,4.32-3.87,0-2.34-1.26-3.6-3.69-3.78-3.69-.18-5.31-1.08-7.38-6.84M75.06,68c4.23,0,7.92-.36,12.69-.36h24.57c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H100.08c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69H96.75c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H87.75C83,.54,79.29.18,75.06.18c-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69C70.56,66.6,72,68,75.06,68M33.3,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14C22.5,7.92,24,7,33.21,7c16.2,0,23.58,8.55,23.58,27.27S49.68,61.2,33.3,61.2m.63,6.93q32.67,0,32.67-34.29C66.6,11.16,56,.09,34.11.09,29.79.09,20.7.54,18.18.54,13.14.54,9.09.18,4.5.18,1.53.18,0,1.53,0,4.23,0,6.48,1.44,7.92,3.87,7.92c1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54C1.44,60.3,0,61.74,0,64,0,66.69,1.53,68,4.5,68c4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45"/></g></g></svg>
 <span class="screen-reader-text">Deadline</span>
@@ -1741,7 +1741,7 @@ Menu
 </div>
 
 <div class="u-hidden@desktop-max u-flex u-align-items-center u-max-width-500 u-flex-1 pmc-u-padding-l-1">
-		
+
 <span id="" class="c-label  pmc-u-color-brand-red pmc-u-font-size-16" >
 
 Read Next:
@@ -1750,24 +1750,24 @@ Read Next:
 		<h3 id="" class="c-title  read-next pmc-u-font-weight-normal a-truncate-ellipsis">
 
 <a href="https://deadline.com/2025/09/law-order-35th-anniversary-emmy-tribute-mariska-hargitay-1236530586/" class="c-title__link a-unstyle-link"  >
-	
-		
-					Emmys&#8217; &#8216;Law &amp; Order&#8217; Franchise 35th Anniversary Tribute Becomes Mariska Hargitay Lifetime Achievement Roast &#8211; Watch		
+
+
+					Emmys&#8217; &#8216;Law &amp; Order&#8217; Franchise 35th Anniversary Tribute Becomes Mariska Hargitay Lifetime Achievement Roast &#8211; Watch
 			</a>
-	
+
 </h3>
 	</div>
 
 <div class="u-border-lr-1@desktop u-border-color-grey-medium-light u-margin-l-auto@desktop u-min-height-50 u-flex u-align-items-center">
-	
+
 	<a class="c-button c-button--plain pmc-u-color-brand-red pmc-u-font-weight-bold u-hidden@desktop-max" href="https://deadline.com/tip-line/">
 
-Got A Tip?	
+Got A Tip?
 	</a>
-	
+
 	<a class="c-button  pmc-u-color-brand-red pmc-u-font-weight-bold pmc-u-font-size-10 pmc-u-padding-tb-025 pmc-u-padding-lr-050 u-hidden@desktop u-text-transform-uppercase pmc-u-line-height-small" href="https://deadline.com/tip-line/">
 
-Tip Us	
+Tip Us
 	</a>
 </div>
 			</div>
@@ -1797,28 +1797,28 @@ Tip Us
 <div class="o-tease o-tease--flipped pmc-breaking-news u-flex u-justify-content-space-between pmc-u-background-brand-red pmc-breaking-news u-flex u-justify-content-space-between" >
 
 <div class="o-tease__primary pmc-u-padding-tb-1 pmc-u-padding-l-1 pmc-u-color-white">
-							
+
 	<h2 id="" class="c-heading  u-text-transform-uppercase pmc-u-margin-b-050 pmc-u-font-family-balto pmc-u-font-size-18@tablet pmc-u-font-size-12 pmc-u-font-weight-bold u-font-style-italic">
 
 Breaking News
 		</h2>
-			
+
 							<span id="" class="c-title  ">
 
 <a href="https://deadline.com/lists/emmys-2025-winners-list/" class="c-title__link a-unstyle-link pmc-u-font-size-28@tablet pmc-u-font-size-20"  >
-	
-		
-					‘The Pitt’ Wins Drama Series, ‘The Studio’ Tops Comedy As ‘Adolescence’ Leads The Field – Full Winners List		
+
+
+					‘The Pitt’ Wins Drama Series, ‘The Studio’ Tops Comedy As ‘Adolescence’ Leads The Field – Full Winners List
 			</a>
-	
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary u-max-width-190 u-width-100p u-hidden@desktop-max">
-			
+
 	<a href="https://deadline.com/lists/emmys-2025-winners-list/" class="c-figure__link "
 							tabindex="-1"
 			>
@@ -1837,8 +1837,8 @@ Breaking News
 
 </a>
 		</div>
-		
-	
+
+
 </div>
 
 </section>
@@ -1858,23 +1858,23 @@ Breaking News
 <ul class="o-nav__list u-justify-content-center@mobile-max" data-dropdown-list=""
 			>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 pmc-u-color-brand-red pmc-u-padding-r-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/"
-		
+
 >
 	Home	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 pmc-u-color-brand-red pmc-u-padding-r-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-icon-before a-icon-forward-slash" href="https://deadline.com/v/tv/"
-		
+
 >
 	TV	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 pmc-u-color-brand-red pmc-u-padding-r-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-icon-before a-icon-forward-slash" href="https://deadline.com/category/news/"
-		
+
 >
 	News	</a>
 							</li>
@@ -1883,7 +1883,7 @@ Breaking News
 <h1 class="c-title pmc-u-font-size-20 pmc-u-font-size-38@tablet pmc-u-font-size-46@desktop-xl u-text-align-center@mobile-max u-letter-spacing-0025 pmc-u-line-height-normal u-line-height-45@tablet pmc-u-padding-t-1 pmc-u-padding-t-050@mobile-max">‘Andor’: Tony Gilroy On Cassian&#8217;s Season One Finale Ultimatum; Teases Season 2 Filled With Rebel Gangsters &amp; Outliers</h1>		</header>
 
 <div class="a-article-grid__author ">
-			
+
 <div class="u-display-inline-flex u-align-items-center">
 
 <figure class="c-figure c-figure--circle u-max-width-60 pmc-u-margin-r-1 u-border-a-1 u-border-color-grey-medium-light u-flex-shrink-0" style="">
@@ -1922,7 +1922,7 @@ Breaking News
 
 <span class="pmc-u-font-size-12 pmc-u-color-grey-medium-dark pmc-u-font-family-helvetica pmc-u-margin-l-025">@AwardsTony</a></span>
 						</a>
-					
+
 											<h4 class="c-title pmc-u-padding-t-050 pmc-u-padding-b-025">
 							More Stories By Anthony						</h4>
 
@@ -1945,7 +1945,7 @@ Breaking News
 </section>
 			</button>
 		</div>
-		
+
 <time class="pmc-u-color-grey-medium-dark pmc-u-font-family-helvetica pmc-u-font-size-14">November 23, 2022 5:20pm</time>
 	</div>
 </div>
@@ -1955,7 +1955,7 @@ Breaking News
 			<div class="u-flex u-flex-direction-column@desktop u-margin-lr-auto pmc-u-margin-r-00@tablet">
 					<div class="pmc-u-color-grey-medium-dark pmc-u-font-family-helvetica u-flex u-flex-direction-column u-text-align-center pmc-u-margin-r-1 pmc-u-margin-r-00@mobile-max pmc-u-padding-t-050 u-hidden@mobile-max">
 		<span class="pmc-u-font-size-20">2</span><span class="pmc-u-font-size-12 u-text-transform-uppercase">Comments</span>	</div>
-	
+
 <h2 id="article-social-share" class="a-screen-reader-only">Services to share this page.</h2>
 <ul class="social-share // a-unstyle-list u-flex u-flex-wrap-wrap u-flex-direction-column@desktop u-flex-direction-row@desktop u-align-items-center u-justify-content-center@mobile-max" data-collapsible="" aria-labelledby="article-social-share">
 
@@ -2077,7 +2077,7 @@ Breaking News
 
 <div class="admz " id="adm-inline-article-ad-1">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style="min-width:50px;min-height:75px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -2085,7 +2085,7 @@ Breaking News
 	<div id="gpt-dsk-tab-mid-article1-uid0"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-dsk-tab-mid-article1-uid0' )
@@ -2106,97 +2106,97 @@ Breaking News
 <div class="injected-related-story // u-margin-tb-250 u-margin-t-4@desktop-xl u-margin-b-3@desktop-xl" >
 	<h3 id="title-of-a-story" class="c-title  u-margin-b-025 u-border-t-4 u-padding-t u-border-color-brand-red">
 
-Related Stories		
-	
+Related Stories
+
 </h3>
 	<div class="u-flex u-padding-tb-1 u-border-t-1 u-border-b-1 u-flex-direction-column@mobile-max u-border-color-grey-medium-light" >
 					<article class="o-card  u-flex u-flex-flex-grow-1 u-width-100p@mobile-max u-width-50p">
 
 <a tabindex="0" href="https://deadline.com/2025/09/2025-tv-premiere-dates-1235811038/" class="">
-	
-	
+
+
 					<div class="c-lazy-image  u-width-150 u-margin-t-1">
-	
+
 			<div class="lrv-a-crop-3x2 a-crop-16x9 u-margin-t-n0" style="">
-	
+
 			<img decoding="async" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/public/lazyload-fallback.jpg" data-lazy-src="https://deadline.com/wp-content/uploads/2024/11/Premiere-Dates-2025.jpg?w=300" alt="2025 TV Premiere Dates" data-lazy-srcset="" data-lazy-sizes="" height="" width="">
-	
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content u-padding-lr-050 u-padding-lr-125@tablet u-padding-lr-125@mobile-max">
-		
+
 					<span class="c-span  lrv-u-whitespace-nowrap">
 	<a href="https://deadline.com/category/news/" class="c-span__link  a-font-accent-bold-xs u-color-brand-red u-text-transform-uppercase u-display-block">
 
 News
 	</a>
 </span>
-		
+
 					<h3 id="title-of-a-story" class="c-title  a-font-secondary-m">
 
 <a href="https://deadline.com/2025/09/2025-tv-premiere-dates-1235811038/" class="c-title__link a-font-secondary-m lrv-a-unstyle-link lrv-u-color-brand-primary:hover"  >
-	
-		
-					2025 Premiere Dates For New &amp; Returning Series On Broadcast, Cable &amp; Streaming		
+
+
+					2025 Premiere Dates For New &amp; Returning Series On Broadcast, Cable &amp; Streaming
 			</a>
-	
+
 </h3>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </article>
 							<article class="o-card  u-flex u-flex@mobile-max u-flex-flex-grow-1 u-padding-l-125@tablet u-margin-t-125@mobile-max u-width-100p@mobile-max u-width-50p u-border-l-1@tablet u-border-dotted-l@tablet u-border-color-grey-medium-light">
 
 <a tabindex="0" href="https://deadline.com/2025/09/netflix-new-japanese-series-steel-ball-run-jojo-bizarre-adventure-1236528983/" class="">
-	
-	
+
+
 					<div class="c-lazy-image  u-width-150 u-margin-t-1">
-	
+
 			<div class="lrv-a-crop-3x2 a-crop-16x9 u-margin-t-n0" style="">
-	
+
 			<img decoding="async" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/public/lazyload-fallback.jpg" data-lazy-src="https://deadline.com/wp-content/uploads/2025/09/EN_NF_JP_10thAnniversary_3840X2160px_RGB_Evergreen.jpg?w=300" alt="&#039;Straight To Hell,&#039; &#039;Did Someone Happen to Mention Me?&#039; &amp; &#039;Steel Ball Run&#039;" data-lazy-srcset="" data-lazy-sizes="" height="" width="">
-	
+
 			</div>
-	
+
 	</div>
-		
-		
-		
+
+
+
 	<div class="o-card__content u-padding-l-125">
-		
+
 					<span class="c-span  lrv-u-whitespace-nowrap">
 	<a href="https://deadline.com/category/news/" class="c-span__link  a-font-accent-bold-xs u-color-brand-red u-text-transform-uppercase u-display-block">
 
 News
 	</a>
 </span>
-		
+
 					<h3 id="title-of-a-story" class="c-title  a-font-secondary-m">
 
 <a href="https://deadline.com/2025/09/netflix-new-japanese-series-steel-ball-run-jojo-bizarre-adventure-1236528983/" class="c-title__link a-font-secondary-m lrv-a-unstyle-link lrv-u-color-brand-primary:hover"  >
-	
-		
-					Netflix Unveils Three New Japanese Series, &#039;Steel Ball Run,&#039; &#039;Straight To Hell&#039; &amp; &#039;Did Someone Happen To Mention Me?&#039;		
+
+
+					Netflix Unveils Three New Japanese Series, &#039;Steel Ball Run,&#039; &#039;Straight To Hell&#039; &amp; &#039;Did Someone Happen To Mention Me?&#039;
 			</a>
-	
+
 </h3>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </a>
-	
+
 </article>
 			</div>
 </div></p>
@@ -2207,7 +2207,7 @@ News
 <div class="pmc-contextual-player" data-pmc-adm-ad-id="1234771711">
 			<h3>
 			Watch on Deadline		</h3>
-	
+
 		<div id="connatix-contextual-player">
 		<script id="connatix_contextual_player_div">
 			if ( !window.pmc.harmony?.isEventAdScheduledTime() ) {
@@ -2238,22 +2238,22 @@ News
 <figure class="o-figure   alignright size-large is-resized alignright lrv-u-max-width-100p" style="width:100%; max-width:1024px;">
 
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-16x9" style="padding-bottom:calc((429/1024)*100%);">
-	
+
 						<img decoding="async" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/public/lazyload-fallback.jpg" data-lazy-src="https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?w=300" alt="" data-lazy-srcset="https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg 3840w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=150,63 150w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=300,126 300w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=1024,429 1024w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=1536,643 1536w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=2048,858 2048w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=239,100 239w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=60,25 60w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=352,147 352w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=110,46 110w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=285,119 285w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=320,134 320w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=640,268 640w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=800,335 800w, https://deadline.com/wp-content/uploads/2022/11/PGM-FF-005645.jpg?resize=1280,536 1280w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="429" width="1024" decoding="">
-			
+
 			</div>
-	
+
 	</div>
-	
-			
-			
+
+
+
 <figcaption class="c-figcaption  lrv-u-font-size-12 lrv-u-padding-tb-025">
-	
+
 					<span class=" lrv-u-font-size-16 lrv-u-font-size-14@mobile-max lrv-a-font-body-m u-font-style-italic lrv-u-font-weight-bold lrv-u-font-family-primary u-line-height-20 u-letter-spacing-0 u-line-height-18@mobile-max">(L-R): Corv (Noof Ousellam), Lieutenant Keysax (Nick Moss), Supervisor&nbsp;Dedra Meero&nbsp;(Denise Gough) and Captain Vanis Tigo&nbsp;(Wilf Scolding) </span>
-		
-							
+
+
 	</figcaption>
 
 </figure>
@@ -2265,7 +2265,7 @@ News
 
 <div class="admz " id="adm-inline-article-ad-2">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style="min-width:50px;min-height:75px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -2273,7 +2273,7 @@ News
 	<div id="gpt-dl-mid-article-inject2-uid1"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-dl-mid-article-inject2-uid1' )
@@ -2312,22 +2312,22 @@ News
 <figure class="o-figure   aligncenter size-large aligncenter lrv-u-max-width-100p" style="width:100%; max-width:1024px;">
 
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-16x9" style="padding-bottom:calc((429/1024)*100%);">
-	
+
 						<img decoding="async" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/public/lazyload-fallback.jpg" data-lazy-src="https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?w=300" alt="" data-lazy-srcset="https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg 3840w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=150,63 150w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=300,126 300w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=1024,429 1024w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=1536,643 1536w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=2048,858 2048w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=239,100 239w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=60,25 60w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=352,147 352w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=110,46 110w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=285,119 285w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=320,134 320w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=640,268 640w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=800,335 800w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-2.jpg?resize=1280,536 1280w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="429" width="1024" decoding="">
-			
+
 			</div>
-	
+
 	</div>
-	
-			
-			
+
+
+
 <figcaption class="c-figcaption  lrv-u-font-size-12 lrv-u-padding-tb-025">
-	
+
 					<span class=" lrv-u-font-size-16 lrv-u-font-size-14@mobile-max lrv-a-font-body-m u-font-style-italic lrv-u-font-weight-bold lrv-u-font-family-primary u-line-height-20 u-letter-spacing-0 u-line-height-18@mobile-max">Maarva (Fiona Shaw) in a scene from <a  href="https://deadline.com/tag/lucasfilm/"  id="auto-tag_lucasfilm_1"  data-tag="lucasfilm"  >Lucasfilm</a>&#8216;s ANDOR, exclusively on Disney+. &copy;2022 Lucasfilm Ltd. &amp; TM. All Rights Reserved.</span>
-		
-							
+
+
 	</figcaption>
 
 </figure>
@@ -2354,22 +2354,22 @@ News
 <figure class="o-figure   alignright size-large is-resized alignright lrv-u-max-width-100p" style="width:100%; max-width:1024px;">
 
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-16x9" style="padding-bottom:calc((429/1024)*100%);">
-	
+
 						<img decoding="async" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://deadline.com/wp-content/themes/pmc-deadline-2019/assets/public/lazyload-fallback.jpg" data-lazy-src="https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?w=300" alt="" data-lazy-srcset="https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg 3840w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=150,63 150w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=300,126 300w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=1024,429 1024w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=1536,643 1536w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=2048,858 2048w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=239,100 239w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=60,25 60w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=352,147 352w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=110,46 110w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=285,119 285w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=320,134 320w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=640,268 640w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=800,335 800w, https://deadline.com/wp-content/uploads/2022/11/andor-finale-3.jpg?resize=1280,536 1280w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="429" width="1024" decoding="">
-			
+
 			</div>
-	
+
 	</div>
-	
-			
-			
+
+
+
 <figcaption class="c-figcaption  lrv-u-font-size-12 lrv-u-padding-tb-025">
-	
+
 					<span class=" lrv-u-font-size-16 lrv-u-font-size-14@mobile-max lrv-a-font-body-m u-font-style-italic lrv-u-font-weight-bold lrv-u-font-family-primary u-line-height-20 u-letter-spacing-0 u-line-height-18@mobile-max">Luthen Rael (Stellan Skarsgard) in Lucasfilm&#8217;s ANDOR</span>
-		
-							
+
+
 	</figcaption>
 
 </figure>
@@ -2393,7 +2393,7 @@ News
 
 <div class="admz " id="adm-inline-article-ad-x-19">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -2401,7 +2401,7 @@ News
 	<div id="gpt-dsk-tab-mid-articleX-uid2"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-dsk-tab-mid-articleX-uid2' )
@@ -2461,13 +2461,13 @@ News
 <section data-toaster-wrap class="toaster u-width-100p u-hidden@desktop-max" tabindex="0">
 	<div data-toaster class="pmc-u-margin-b-0 pmc-u-background-white u-box-shadow-medium pmc-u-padding-a-1 a-wrapper">
 		<header class="u-flex">
-			
+
 	<h2 id="" class="c-heading  pmc-u-font-family-balto pmc-u-font-size-24 pmc-u-font-weight-bold">
 
 Must Read Stories
 		</h2>
 			<button class="u-cursor-pointer a-unstyle-button a-icon-before a-icon-do-not-enter u-margin-l-auto u-display-inline-flex u-align-items-center pmc-u-font-size-12 pmc-u-color-brand-red u-color-brand-red-dark:hover u-width-200" data-toaster-trigger>
-				
+
 <span id="" class="c-label  pmc-u-font-weight-normal  pmc-u-margin-l-050 pmc-u-font-size-12" data-toaster-trigger-label>
 
 Hide Articles
@@ -2475,27 +2475,27 @@ Hide Articles
 </span>
 			</button>
 		</header>
-		
+
 <ul class="o-story-list pmc-a-grid pmc-a-cols4"
 	>
 			<li class="o-story-list__item pmc-u-padding-tb-1">
-			
+
 <div class="o-tease  " >
 
 <div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-font-size-14">
 
 <a href="https://deadline.com/tag/emmy-photos/" class="c-title__link pmc-u-color-black u-color-brand-red:hover"  >
-	
-		
-					The Best Of The Red Carpet, Executive Arrivals, Parties &amp; Events		
+
+
+					The Best Of The Red Carpet, Executive Arrivals, Parties &amp; Events
 			</a>
-	
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary u-width-50 pmc-u-margin-r-1">
@@ -2511,28 +2511,28 @@ Hide Articles
 </figure>
 
 </div>
-		
-	
+
+
 </div>
 		</li>
 			<li class="o-story-list__item pmc-u-padding-tb-1">
-			
+
 <div class="o-tease  " >
 
 <div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-font-size-14">
 
 <a href="https://deadline.com/2025/09/emmys-2025-snubs-surprises-jeff-hiller-white-lotus-1236531917/" class="c-title__link pmc-u-color-black u-color-brand-red:hover"  >
-	
-		
-					Snubs &amp; Surprises: ‘Pitt’, Britt Lower, Jeff Hiller Wins &amp; ‘White Lotus’ Shutout		
+
+
+					Snubs &amp; Surprises: ‘Pitt’, Britt Lower, Jeff Hiller Wins &amp; ‘White Lotus’ Shutout
 			</a>
-	
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary u-width-50 pmc-u-margin-r-1">
@@ -2548,28 +2548,28 @@ Hide Articles
 </figure>
 
 </div>
-		
-	
+
+
 </div>
 		</li>
 			<li class="o-story-list__item pmc-u-padding-tb-1">
-			
+
 <div class="o-tease  " >
 
 <div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-font-size-14">
 
 <a href="https://deadline.com/2025/09/emmys-2025-tv-review-cbs-1236531428/" class="c-title__link pmc-u-color-black u-color-brand-red:hover"  >
-	
-		
-					Emmys TV Review: It&#8217;s Safety First For Boring Show Hosted By Nate Bargatze		
+
+
+					Emmys TV Review: It&#8217;s Safety First For Boring Show Hosted By Nate Bargatze
 			</a>
-	
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary u-width-50 pmc-u-margin-r-1">
@@ -2585,28 +2585,28 @@ Hide Articles
 </figure>
 
 </div>
-		
-	
+
+
 </div>
 		</li>
 			<li class="o-story-list__item pmc-u-padding-tb-1">
-			
+
 <div class="o-tease  " >
 
 <div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-font-size-14">
 
 <a href="https://deadline.com/lists/emmys-2025-best-worst-moments/" class="c-title__link pmc-u-color-black u-color-brand-red:hover"  >
-	
-		
-					The Highs &amp; The Lows From The 2025 Primetime Emmy Awards		
+
+
+					The Highs &amp; The Lows From The 2025 Primetime Emmy Awards
 			</a>
-	
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary u-width-50 pmc-u-margin-r-1">
@@ -2622,8 +2622,8 @@ Hide Articles
 </figure>
 
 </div>
-		
-	
+
+
 </div>
 		</li>
 	</ul>
@@ -2631,7 +2631,7 @@ Hide Articles
 </section>
 
 <div class="article-tags u-flex u-align-items-center u-flex-direction-column@mobile-max u-justify-content-center pmc-u-margin-b-1">
-	
+
 <h2 id="article-read-more-about" class="c-label  pmc-u-font-size-16 pmc-u-margin-r-025" >
 
 Read More About:
@@ -2645,37 +2645,37 @@ Read More About:
 					aria-labelledby="article-read-more-about"
 			>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 a-icon-before a-icon-forward-slash pmc-u-margin-l-050 pmc-u-margin-b-050@mobile-max " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/tag/andor/"
-		
+
 >
 	Andor	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 a-icon-before a-icon-forward-slash pmc-u-margin-l-050 pmc-u-margin-b-050@mobile-max " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/tag/breaking-news/"
-		
+
 >
 	Breaking News	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 a-icon-before a-icon-forward-slash pmc-u-margin-l-050 pmc-u-margin-b-050@mobile-max " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/tag/disney-2/"
-		
+
 >
 	Disney+	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 a-icon-before a-icon-forward-slash pmc-u-margin-l-050 pmc-u-margin-b-050@mobile-max " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/tag/lucasfilm/"
-		
+
 >
 	Lucasfilm	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-size-12 a-icon-before a-icon-forward-slash pmc-u-margin-l-050 pmc-u-margin-b-050@mobile-max " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/tag/tony-gilroy/"
-		
+
 >
 	Tony Gilroy	</a>
 							</li>
@@ -2696,19 +2696,19 @@ Read More About:
 2 Comments
 
 </span>
-	
+
 			</a>
 	</button>
 
 <div class="newsletter-cta">
 	<div class="lrv-u-margin-tb-125 lrv-u-margin-tb-150@desktop-xl lrv-u-padding-tb-2 lrv-u-flex lrv-u-justify-content-space-between lrv-u-border-t-2 lrv-u-border-b-2 lrv-u-align-items-center lrv-u-flex-direction-column@mobile-max lrv-u-padding-a-2@mobile-max">
 		<div class="lrv-u-text-align-center@mobile-max">
-			
-							
+
+
 	<h2 id="section-heading" class="c-heading larva  lrv-u-font-weight-bold lrv-u-padding-b-025 lrv-u-font-size-32">
 
 Subscribe to Deadline
-	
+
 	</h2>
 
 <p class="c-tagline  lrv-u-margin-a-00 lrv-u-font-size-18 u-width-80p@desktop u-line-height-23 lrv-u-margin-b-150@mobile-max u-font-family-helvetica">Get our Breaking News Alerts and Keep your inbox happy.</p>
@@ -2727,7 +2727,7 @@ Subscribe to Deadline
 <div class="pmc-u-margin-tb-2">
 		<div class="admz " id="adm-after-article">
 					<div class="adma boomerang " data-device="Desktop" data-width="620">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="11"
@@ -2735,7 +2735,7 @@ Subscribe to Deadline
 	<div id="div-gpt-dl-ros-620x250-uid6"
 		class=" adw-620 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'div-gpt-dl-ros-620x250-uid6' )
@@ -2800,13 +2800,13 @@ Subscribe to Deadline
 
 </li><!-- #comment-## -->
 		</ul>
-		
-		
+
+
 </div>
 <div class="pmc-u-margin-tb-2">
 		<div class="admz " id="adm-after-comments">
 					<div class="adma boomerang " data-device="Desktop" data-width="620">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="11"
@@ -2814,7 +2814,7 @@ Subscribe to Deadline
 	<div id="div-gpt-dl-ros-620x251-uid7"
 		class=" adw-620 adh-251" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'div-gpt-dl-ros-620x251-uid7' )
@@ -2837,7 +2837,7 @@ Subscribe to Deadline
 			<aside class="article-sidebar pmc-a-grid-item a-space-children-vertical a-space-children--2" aria-labelledby="sidebar">
 					<div class="admz " id="adm-widget-b-dl-ros-300x600">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div rail-ads-1 ad-text"
 	data-priority="11"
@@ -2845,7 +2845,7 @@ Subscribe to Deadline
 	<div id="div-gpt-deadline-ros-300x600-uid8"
 		class=" adw-300 adh-600" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'div-gpt-deadline-ros-300x600-uid8' )
@@ -2865,30 +2865,30 @@ Subscribe to Deadline
 
 <h3 id="side-trending-on-deadline" class="c-title  pmc-u-font-family-eksell pmc-u-font-size-32 pmc-u-padding-b-025 pmc-u-font-weight-normal source-ga">
 
-Trending on Deadline		
-	
+Trending on Deadline
+
 </h3>
 
 <ul class="o-story-list "
 			aria-labelledby="side-trending-on-deadline"
 	>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/emmys-2025-snubs-surprises-jeff-hiller-white-lotus-1236531917/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">1</span>
-		
-					Emmys&#039; Snubs &amp; Surprises: &#039;The Pitt&#039;, Britt Lower, Jeff Hiller Win, &#039;White Lotus&#039; Shut Out		
-	
+
+					Emmys&#039; Snubs &amp; Surprises: &#039;The Pitt&#039;, Britt Lower, Jeff Hiller Win, &#039;White Lotus&#039; Shut Out
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -2904,28 +2904,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/hannah-einbinder-emmys-palestine-interview-1236532131/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">2</span>
-		
-					&#039;Hacks&#039; Hannah Einbinder On &quot;Free Palestine&quot; Speech: &quot;It Is My Obligation As A Jewish Person To Distinguish Jews From The State Of Israel&quot;		
-	
+
+					&#039;Hacks&#039; Hannah Einbinder On &quot;Free Palestine&quot; Speech: &quot;It Is My Obligation As A Jewish Person To Distinguish Jews From The State Of Israel&quot;
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -2941,28 +2941,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/emmys-2025-tv-review-cbs-1236531428/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">3</span>
-		
-					Emmys TV Review: Nate Bargatze-Hosted Show Goes Safety First With $100K Charity Gimmick &amp; Not Much Else		
-	
+
+					Emmys TV Review: Nate Bargatze-Hosted Show Goes Safety First With $100K Charity Gimmick &amp; Not Much Else
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -2978,28 +2978,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/the-studio-seth-rogen-sal-saperstein-emmys-interview-1236532571/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">4</span>
-		
-					&#039;The Studio&#039;s Seth Rogen Explains Why No One Thanked Sal Saperstein At The Emmys		
-	
+
+					&#039;The Studio&#039;s Seth Rogen Explains Why No One Thanked Sal Saperstein At The Emmys
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3015,28 +3015,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/emmys-eric-dane-no-show-jesse-williams-greys-anatomy-tribute-1236530886/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">5</span>
-		
-					Eric Dane Misses Emmys&#039; Planned &#039;Grey&#039;s Anatomy&#039; Reunion As Fellow Alum Jesse Williams Presents Solo		
-	
+
+					Eric Dane Misses Emmys&#039; Planned &#039;Grey&#039;s Anatomy&#039; Reunion As Fellow Alum Jesse Williams Presents Solo
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3052,28 +3052,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/brian-kilmeade-fox-news-homeless-just-kill-them-1236530964/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">6</span>
-		
-					Fox News&#039; Brian Kilmeade Apologizes For &quot;Just Kill Them&quot; Comments About Mentally Ill Homeless People		
-	
+
+					Fox News&#039; Brian Kilmeade Apologizes For &quot;Just Kill Them&quot; Comments About Mentally Ill Homeless People
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3089,28 +3089,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/emmy-analysis-the-studio-adolescence-the-pitt-hbo-netflix-1236531341/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">7</span>
-		
-					‘The Studio’ Breaks Emmy Record, ‘Adolescence’ &amp; ‘The Pitt’ Have Big Nights As HBO Max &amp; Netflix Share Honors &amp; Apple Lands Best-Ever Awards Haul		
-	
+
+					‘The Studio’ Breaks Emmy Record, ‘Adolescence’ &amp; ‘The Pitt’ Have Big Nights As HBO Max &amp; Netflix Share Honors &amp; Apple Lands Best-Ever Awards Haul
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3126,28 +3126,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/emmys-off-camera-moments-stephen-colbert-hannah-einbinder-1236532014/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">8</span>
-		
-					Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP Status To The Cheers For Hannah Einbinder&#039;s &quot;Free Palestine&quot; Message		
-	
+
+					Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP Status To The Cheers For Hannah Einbinder&#039;s &quot;Free Palestine&quot; Message
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3163,28 +3163,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/the-late-show-with-stephen-colbert-emmy-talk-series-1236531333/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">9</span>
-		
-					Stephen Colbert Hopes Late-Night Has Long-Term Future After ‘The Late Show’ Wins First Main Late-Night Emmy, Two Months After Being Axed		
-	
+
+					Stephen Colbert Hopes Late-Night Has Long-Term Future After ‘The Late Show’ Wins First Main Late-Night Emmy, Two Months After Being Axed
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3200,28 +3200,28 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease o-tease--flipped u-border-b-2 u-border-color-blue-light pmc-u-padding-t-1 pmc-u-padding-b-1" >
 
 <a href="https://deadline.com/2025/09/charlie-sheen-didnt-personally-ask-jon-cryer-doc-1236531267/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<span id="" class="c-title  pmc-u-color-black pmc-u-font-size-16 pmc-u-font-weight-normal">
 
 <span class="c-title__before a-icon-after a-icon-forward-slash u-text-transform-uppercase">10</span>
-		
-					Charlie Sheen Didn&#039;t &quot;Personally&quot; Ask Jon Cryer To Be Part Of Doc: &quot;I Didn&#039;t Have The Right Number&quot;		
-	
+
+					Charlie Sheen Didn&#039;t &quot;Personally&quot; Ask Jon Cryer To Be Part Of Doc: &quot;I Didn&#039;t Have The Right Number&quot;
+
 </span>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-l-1">
@@ -3237,9 +3237,9 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 	</ul>
@@ -3247,7 +3247,7 @@ Trending on Deadline
 </div>
 	<div class="admz " id="adm-widget-b-dl-ros-300x250">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:276px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="11"
@@ -3255,7 +3255,7 @@ Trending on Deadline
 	<div id="div-gpt-deadline-ros-300x250-uid9"
 		class=" adw-300 adh-250 slot-rotate-rail-bottom" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'flexrec', 'div-gpt-deadline-ros-300x250-uid9' )
@@ -3290,7 +3290,7 @@ Trending on Deadline
 		target="_blank"
 		data-email-capture
 	>
-		
+
 <div class="c-email-field  pmc-u-font-size-14 u-min-width-200@mobile-max u-flex u-align-items-center u-border-b-1 u-border-color-black u-justify-content-center u-width-300 u-margin-lr-auto u-max-width-100p">
 	<label class="c-email-field__label u-flex-shrink-0" for="widget-newsletter-email-input">Your Email</label>
 	<input class="c-email-field__input pmc-u-font-size-14" name="EmailAddress" id="widget-newsletter-email-input" required type="email" placeholder="email@example.com" />
@@ -3321,30 +3321,30 @@ Trending on Deadline
 	<h3 id="" class="c-title  pmc-u-font-size-28 pmc-u-padding-b-025">
 
 <a href="https://deadline.com/v/tv/" class="c-title__link "  >
-	
-		
-					Latest TV News		
+
+
+					Latest TV News
 			</a>
-	
+
 </h3>
 
 <ul class="o-story-list "
 	>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease u-border-t-1 u-border-color-grey-medium-light pmc-u-padding-t-1 pmc-u-margin-b-1  " >
 
 <a href="https://deadline.com/2025/09/the-studio-seth-rogen-sal-saperstein-emmys-interview-1236532571/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-color-black pmc-u-font-size-14 pmc-u-line-height-small">
 
-&#039;The Studio&#039;s Seth Rogen Explains Why No One Thanked Sal Saperstein At The Emmys		
-	
+&#039;The Studio&#039;s Seth Rogen Explains Why No One Thanked Sal Saperstein At The Emmys
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-r-1">
@@ -3360,26 +3360,26 @@ Trending on Deadline
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease u-border-t-1 u-border-color-grey-medium-light pmc-u-padding-t-1 pmc-u-margin-b-1  " >
 
 <a href="https://deadline.com/2025/09/emmys-2025-snubs-surprises-jeff-hiller-white-lotus-1236531917/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-color-black pmc-u-font-size-14 pmc-u-line-height-small">
 
-Emmys&#039; Snubs &amp; Surprises: &#039;The Pitt&#039;, Britt Lower, Jeff Hiller Win, &#039;White Lotus&#039; Shut Out		
-	
+Emmys&#039; Snubs &amp; Surprises: &#039;The Pitt&#039;, Britt Lower, Jeff Hiller Win, &#039;White Lotus&#039; Shut Out
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-r-1">
@@ -3395,26 +3395,26 @@ Emmys&#039; Snubs &amp; Surprises: &#039;The Pitt&#039;, Britt Lower, Jeff Hille
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease u-border-t-1 u-border-color-grey-medium-light pmc-u-padding-t-1 pmc-u-margin-b-1  " >
 
 <a href="https://deadline.com/2025/09/emmys-off-camera-moments-stephen-colbert-hannah-einbinder-1236532014/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-color-black pmc-u-font-size-14 pmc-u-line-height-small">
 
-Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP Status To The Cheers For Hannah Einbinder&#039;s &quot;Free Palestine&quot; Message		
-	
+Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP Status To The Cheers For Hannah Einbinder&#039;s &quot;Free Palestine&quot; Message
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-r-1">
@@ -3430,26 +3430,26 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 			<li class="o-story-list__item ">
-			
+
 <div class="o-tease u-border-t-1 u-border-color-grey-medium-light pmc-u-padding-t-1 pmc-u-margin-b-1  " >
 
 <a href="https://deadline.com/2025/09/emmy-analysis-the-studio-adolescence-the-pitt-hbo-netflix-1236531341/" class="u-display-contents ">
 			<div class="o-tease__primary ">
-			
+
 							<h3 id="" class="c-title  pmc-u-color-black pmc-u-font-size-14 pmc-u-line-height-small">
 
-‘The Studio’ Breaks Emmy Record, ‘Adolescence’ &amp; ‘The Pitt’ Have Big Nights As HBO Max &amp; Netflix Share Honors &amp; Apple Lands Best-Ever Awards Haul		
-	
+‘The Studio’ Breaks Emmy Record, ‘Adolescence’ &amp; ‘The Pitt’ Have Big Nights As HBO Max &amp; Netflix Share Honors &amp; Apple Lands Best-Ever Awards Haul
+
 </h3>
-			
-			
-			
+
+
+
 					</div>
 
 <div class="o-tease__secondary pmc-u-margin-r-1">
@@ -3465,9 +3465,9 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 </figure>
 
 </div>
-		
+
 			</a>
-	
+
 </div>
 		</li>
 	</ul>
@@ -3487,7 +3487,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 		</style>
 		<div class="markplace-ads" data-event-tracking="" ><h3 id='pmc-marketplace-ads-1' class='widget-title marketplace-title'><span>Marketplace</span></h3><ul aria-labelledby="pmc-marketplace-ads-1"><li id="pmc-ads-widget-71" class="marketplace-ad widget_pmc-ads-widget">	<div class="admz " id="adm-widget-b-dsk-marketplace-2">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -3495,7 +3495,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 	<div id="div-gpt-dsk-dl-mp2-uid10"
 		class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'nativemini', 'div-gpt-dsk-dl-mp2-uid10' )
@@ -3511,7 +3511,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 				</div>
 </li><li id="pmc-ads-widget-9" class="marketplace-ad widget_pmc-ads-widget">	<div class="admz " id="adm-widget-b-dsk-marketplace-1">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -3519,7 +3519,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 	<div id="div-gpt-dsk-dl-mp1-uid11"
 		class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'nativemini', 'div-gpt-dsk-dl-mp1-uid11' )
@@ -3535,7 +3535,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 				</div>
 </li><li id="pmc-ads-widget-73" class="marketplace-ad widget_pmc-ads-widget">	<div class="admz " id="adm-widget-b-dsk-marketplace-3">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -3543,7 +3543,7 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 	<div id="div-gpt-dsk-dl-mp3-uid12"
 		class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'nativemini', 'div-gpt-dsk-dl-mp3-uid12' )
@@ -3605,20 +3605,20 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 
 <h3 id="footer-menu-deadline" class="o-nav__title is-active is-heading pmc-u-font-size-20 pmc-u-margin-b-050 a-icon-after-down a-icon-after-down-hide@mobile pmc-u-margin-a-00@mobile-max"
 				data-dropdown-list-item="true" aria-expanded="" >Deadline</h3>
-			
+
 	<ul class="o-nav__list pmc-u-margin-a-00@mobile-max pmc-u-color-grey-medium-light u-color-white@mobile-max" data-dropdown-list="true"
 			>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="/about-dhd/"
-		
+
 >
 	About Us	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="/advertise"
-		
+
 >
 	Advertise	</a>
 							</li>
@@ -3631,55 +3631,55 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 
 <h3 id="footer-menu-legal" class="o-nav__title is-active is-heading pmc-u-font-size-20 pmc-u-margin-b-050 a-icon-after-down a-icon-after-down-hide@mobile pmc-u-margin-a-00@mobile-max"
 				data-dropdown-list-item="true" aria-expanded="" >Legal</h3>
-			
+
 	<ul class="o-nav__list pmc-u-margin-a-00@mobile-max pmc-u-color-grey-medium-light u-color-white@mobile-max" data-dropdown-list="true"
 			>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://pmc.com/terms-of-use/"
-		
+
 >
 	Terms of Use	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://pmc.com/privacy-policy/"
-		
+
 >
 	Privacy Policy	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/accessibility/"
-		
+
 >
 	Accessibility	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="http://optout.aboutads.info/"
-		
+
 >
 	AdChoices	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://pmc.com/privacy-policy/#california"
-		
+
 >
 	California Privacy Rights	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://pmc.com/opt-out"
-		
+
 >
 	Your Privacy Choices	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  privacy-consent" href="#"
-		
+
 >
 	EU Privacy Preferences	</a>
 							</li>
@@ -3692,48 +3692,48 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 
 <h3 id="footer-menu-sitemap" class="o-nav__title is-active is-heading pmc-u-font-size-20 pmc-u-margin-b-050 a-icon-after-down a-icon-after-down-hide@mobile pmc-u-margin-a-00@mobile-max"
 				data-dropdown-list-item="true" aria-expanded="" >Sitemap</h3>
-			
+
 	<ul class="o-nav__list pmc-u-margin-a-00@mobile-max pmc-u-color-grey-medium-light u-color-white@mobile-max" data-dropdown-list="true"
 			>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/tv/"
-		
+
 >
 	TV	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/film/"
-		
+
 >
 	Film	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/awards/"
-		
+
 >
 	Awards	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/box-office/"
-		
+
 >
 	Box Office	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/business/"
-		
+
 >
 	Business	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium-light u-color-white:hover pmc-u-font-size-18@mobile-max pmc-u-font-size-12 pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/v/international/"
-		
+
 >
 	International	</a>
 							</li>
@@ -3745,8 +3745,8 @@ Emmys: 10 Things The Cameras Didn’t Catch — From Stephen Colbert&#039;s MVP 
 			<section class="pmc-a-grid-item u-flex u-flex-direction-column u-align-items-center pmc-u-text-align-center pmc-u-padding-a-1">
 				<h3 id="" class="c-title  pmc-u-margin-b-025">
 
-Connect with Us		
-	
+Connect with Us
+
 </h3>
 
 <p class="c-tagline  pmc-u-font-size-14 pmc-u-color-grey-medium-light u-font-style-italic pmc-u-font-family-georgia pmc-u-padding-b-1 pmc-u-padding-t-050" >Get our latest storiesin the feed of your favorite networks</p>
@@ -3754,7 +3754,7 @@ Connect with Us
 <ul class="o-social-list  "
 	>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-white pmc-u-color-brand-red pmc-u-margin-lr-025" href="https://www.facebook.com/deadline/" aria-label="facebook"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -3767,7 +3767,7 @@ Connect with Us
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-white pmc-u-color-brand-red pmc-u-margin-lr-025" href="https://x.com/deadline" aria-label="x"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -3780,7 +3780,7 @@ Connect with Us
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-white pmc-u-color-brand-red pmc-u-margin-lr-025" href="https://www.youtube.com/user/deadlinecom/" aria-label="youtube"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -3793,7 +3793,7 @@ Connect with Us
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-white pmc-u-color-brand-red pmc-u-margin-lr-025" href="https://www.instagram.com/deadline/" aria-label="instagram"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -3806,7 +3806,7 @@ Connect with Us
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-white pmc-u-color-brand-red pmc-u-margin-lr-025" href="https://www.tiktok.com/@deadline" aria-label="tiktok"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -3823,23 +3823,23 @@ Connect with Us
 			<section class="pmc-a-grid-item u-flex u-flex-direction-column u-align-items-center pmc-u-text-align-center pmc-u-padding-a-1 u-border-tb-1@desktop-max u-border-lr-1@desktop u-border-color-grey-medium-dark">
 				<h3 id="" class="c-title  pmc-u-margin-b-025">
 
-Have a Tip?		
-	
+Have a Tip?
+
 </h3>
 
 <p class="c-tagline  pmc-u-font-size-14 pmc-u-color-grey-medium-light u-font-style-italic pmc-u-font-family-georgia pmc-u-padding-b-1 pmc-u-padding-t-050" >We want to hear from you! Send us a tip using our annonymous form.</p>
 
 <a class="c-button c-button--plain pmc-u-font-size-12 pmc-u-color-white pmc-u-font-weight-bold u-text-transform-uppercase a-icon-after a-icon-right-arrow u-color-grey-medium-light:hover " href="https://deadline.com/tip-line/">
 
-Send Us a Tip	
+Send Us a Tip
 	</a>
 			</section>
 			<section class="pmc-a-grid-item u-flex u-flex-direction-column u-align-items-center pmc-u-text-align-center pmc-u-padding-a-1 u-height-100p">
-				
+
 <h3 id="" class="c-title  pmc-u-margin-b-025">
 
-Stay in the Know		
-	
+Stay in the Know
+
 </h3>
 
 <p class="c-tagline  pmc-u-font-size-14 pmc-u-color-grey-medium-light u-font-style-italic pmc-u-font-family-georgia pmc-u-padding-b-1 pmc-u-padding-t-050" >Sign up for our breaking news alerts</p>
@@ -3853,7 +3853,7 @@ Stay in the Know
 	data-email-capture
 >
 	<div class="u-flex u-border-b-1 u-border-color-white pmc-u-padding-b-025">
-		
+
 <div class="c-email-field  pmc-u-font-size-14 u-min-width-200@mobile-max u-flex u-align-items-center">
 	<label class="c-email-field__label u-flex-shrink-0" for="footer-newsletter-email-input">Your Email</label>
 	<input class="c-email-field__input pmc-u-font-size-14" name="EmailAddress" id="footer-newsletter-email-input" required type="email" placeholder="email@example.com" />
@@ -3895,12 +3895,12 @@ Stay in the Know
 	</svg>
 
 <div class="pmc-u-font-size-10 pmc-u-color-grey-medium-dark pmc-u-margin-b-00 u-flex-order-3@mobile-max u-text-align-center@mobile-max">
-		
+
 	<p class="c-tagline  pmc-u-font-size-10 pmc-u-color-grey-medium-dark pmc-u-margin-b-00 u-flex-order-3@mobile-max u-text-align-center@mobile-max" >Deadline is a part of Penske Media Corporation. &copy; 2025 Deadline Hollywood, LLC. All Rights Reserved.</p>
 
-Powered by 
+Powered by
 <a class="c-nav-link  c-nav-link--underline" href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit"
-		
+
 >
 	WordPress.com VIP	</a>
 	</div>
@@ -3913,170 +3913,170 @@ Powered by
 		Our Sites	</span>
 	<ul class="o-dropdown__list a-screen-reader-only pmc-u-background-white pmc-u-margin-a-00" tabindex="0">
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.artnews.com/c/art-in-america/"
 				rel="nofollow"
-	
+
 >
 	Art in America	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.artforum.com/"
 				rel="nofollow"
-	
+
 >
 	Artforum	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.artnews.com/"
 				rel="nofollow"
-	
+
 >
 	ARTnews	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.billboard.com/"
 				rel="nofollow"
-	
+
 >
 	Billboard	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.blogher.com/"
 				rel="nofollow"
-	
+
 >
 	BlogHer	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://deadline.com/"
 				rel="nofollow"
-	
+
 >
 	Deadline	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.theflowspace.com/"
 				rel="nofollow"
-	
+
 >
 	Flow Space	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.goldderby.com/"
 				rel="nofollow"
-	
+
 >
 	Gold Derby	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.indiewire.com/"
 				rel="nofollow"
-	
+
 >
 	IndieWire	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://robbreport.com/"
 				rel="nofollow"
-	
+
 >
 	Robb Report	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.rollingstone.com/"
 				rel="nofollow"
-	
+
 >
 	Rolling Stone	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.sheknows.com/"
 				rel="nofollow"
-	
+
 >
 	SheKnows	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://soaps.sheknows.com/"
 				rel="nofollow"
-	
+
 >
 	Soaps	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://sourcingjournal.com/"
 				rel="nofollow"
-	
+
 >
 	Sourcing Journal	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.sportico.com/"
 				rel="nofollow"
-	
+
 >
 	Sportico	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://stylecaster.com/"
 				rel="nofollow"
-	
+
 >
 	StyleCaster	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.hollywoodreporter.com/"
 				rel="nofollow"
-	
+
 >
 	The Hollywood Reporter	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://tvline.com/"
 				rel="nofollow"
-	
+
 >
 	TVLine	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://variety.com/"
 				rel="nofollow"
-	
+
 >
 	Variety	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://www.vibe.com/"
 				rel="nofollow"
-	
+
 >
 	Vibe	</a>
 							</li>
 					<li class="o-dropdown__list-item ">
-									
+
 <a class="c-nav-link  pmc-u-padding-l-1 pmc-u-line-height-large pmc-u-text-transform-uppercase u-display-block u-color-white:hover u-background-brand-red:hover" href="https://wwd.com/"
 				rel="nofollow"
-	
+
 >
 	WWD	</a>
 							</li>
@@ -4088,174 +4088,174 @@ Powered by
 
 <h3 id="" class="o-nav__title is-active is-heading pmc-u-font-size-12@mobile-max pmc-u-margin-b-050 a-icon-after-down a-icon-after-down-hide@mobile a-icon-bottom-arrow pmc-u-margin-a-00@mobile-max"
 				data-dropdown-list-item="true" aria-expanded="" >Our Sites</h3>
-			
+
 	<ul class="o-nav__list pmc-u-margin-a-00@mobile-max pmc-u-color-grey-medium-light u-color-black@mobile-max" data-dropdown-list="true"
 			>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.artnews.com/c/art-in-america/"
 				rel="nofollow"
-	
+
 >
 	Art in America	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.artforum.com/"
 				rel="nofollow"
-	
+
 >
 	Artforum	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.artnews.com/"
 				rel="nofollow"
-	
+
 >
 	ARTnews	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.billboard.com/"
 				rel="nofollow"
-	
+
 >
 	Billboard	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.blogher.com/"
 				rel="nofollow"
-	
+
 >
 	BlogHer	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://deadline.com/"
 				rel="nofollow"
-	
+
 >
 	Deadline	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.theflowspace.com/"
 				rel="nofollow"
-	
+
 >
 	Flow Space	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.goldderby.com/"
 				rel="nofollow"
-	
+
 >
 	Gold Derby	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.indiewire.com/"
 				rel="nofollow"
-	
+
 >
 	IndieWire	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://robbreport.com/"
 				rel="nofollow"
-	
+
 >
 	Robb Report	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.rollingstone.com/"
 				rel="nofollow"
-	
+
 >
 	Rolling Stone	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.sheknows.com/"
 				rel="nofollow"
-	
+
 >
 	SheKnows	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://soaps.sheknows.com/"
 				rel="nofollow"
-	
+
 >
 	Soaps	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://sourcingjournal.com/"
 				rel="nofollow"
-	
+
 >
 	Sourcing Journal	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.sportico.com/"
 				rel="nofollow"
-	
+
 >
 	Sportico	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://stylecaster.com/"
 				rel="nofollow"
-	
+
 >
 	StyleCaster	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.hollywoodreporter.com/"
 				rel="nofollow"
-	
+
 >
 	The Hollywood Reporter	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://tvline.com/"
 				rel="nofollow"
-	
+
 >
 	TVLine	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://variety.com/"
 				rel="nofollow"
-	
+
 >
 	Variety	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://www.vibe.com/"
 				rel="nofollow"
-	
+
 >
 	Vibe	</a>
 							</li>
 					<li class="o-nav__list-item pmc-u-color-grey-medium pmc-u-font-size-12@mobile-max pmc-u-margin-t-1@mobile-max pmc-u-line-height-large " data-dropdown-list-item="true">
-				
+
 <a class="c-nav-link  " href="https://wwd.com/"
 				rel="nofollow"
-	
+
 >
 	WWD	</a>
 							</li>
@@ -4278,7 +4278,7 @@ Powered by
 					</button>
 
 <div class="u-display-none@desktop-max pmc-u-padding-r-2">
-						
+
 <a class="c-logo  mega-menu__logo // pmc-u-color-white u-color-grey-medium-light:hover u-display-block u-width-100p" href="/">
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529.2 68.13"><title>deadline-logo-svg</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M474.84,68c4.23,0,7.92-.36,12.69-.36H512.1c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H499.86c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69h-3.06c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H487.53c-4.77,0-8.46-.36-12.69-.36-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M444.78,13.86V51.39c0,1-.09,1.35-.54,1.35s-.81-.27-1.44-1.35l-26.1-47c-1.8-3.15-3.15-4.14-6.93-4.14-1.71,0-4.5.36-7.2.36-3.69,0-6.57-.45-9.81-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3.24,0,4.41,1.8,4.41,6.48v40.5c0,4.68-1.17,6.48-4.41,6.48-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05,4.32,0,8.28-.45,13.05-.45s8.73.45,13.05.45c3.06,0,4.59-1.44,4.59-4.05,0-2.25-1.44-3.69-4-3.69-1,0-3.51.54-4.86.54-3.24,0-4.41-1.8-4.41-6.48V15.21c0-1.08.09-1.35.63-1.35s.72.27,1.35,1.35l27.27,47.7c2.43,4.32,3.42,5.22,7.83,5.22h.81c3.78,0,5.49-1.71,5.49-5.22v-49c0-4.59,1.26-6.39,4.59-6.39,1.08,0,3.33.36,4.23.36a3.29,3.29,0,0,0,3.51-3.6c0-2.61-1.53-4.05-4.5-4.05-4.14,0-7.65.45-12.15.45-4.77,0-8.82-.45-13.23-.45-3,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1.08,0,3.51-.54,4.95-.54,3.15,0,4.41,1.8,4.41,6.48M350.82,68c4.41,0,8.46-.45,13.41-.45s9.09.45,13.5.45c3,0,4.59-1.44,4.59-4.05a3.55,3.55,0,0,0-3.87-3.69c-1.26,0-3.78.54-5.22.54-3.06,0-4.14-1.89-4.14-6.84V14.22c0-5,1.08-6.84,4.14-6.84,1.44,0,4,.54,5.22.54a3.55,3.55,0,0,0,3.87-3.69c0-2.61-1.62-4.05-4.59-4.05-4.41,0-8.55.45-13.5.45s-9-.45-13.41-.45c-3.06,0-4.59,1.44-4.59,4.05,0,2.25,1.44,3.69,3.87,3.69,1.17,0,3.78-.54,5.22-.54,3.06,0,4.14,1.89,4.14,6.84V54c0,5-1.08,6.84-4.14,6.84-1.44,0-4.05-.54-5.22-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.53,4.05,4.59,4.05m-63.45,0c4.23,0,7.92-.36,12.69-.36H323c5.76,0,11.25.36,13.23.36,2.79,0,4-1.26,4-4.23,0-1.71-.18-5.67-.18-10,0-2.61.18-6,.18-7.38,0-2.7-1.44-4.23-4-4.23a3.71,3.71,0,0,0-4,4c0,1.17.36,3.6.36,5.76,0,6.66-2.52,8.91-9.9,8.91h-9.63c-6.39,0-7.74-1.44-7.74-7.83V14.31c0-5,1.17-6.93,4.5-6.93,1.44,0,4.05.54,5.22.54,2.43,0,4-1.44,4-3.69,0-2.61-1.53-4.05-4.59-4.05-4.59,0-8.73.45-13.95.45-4.86,0-8.82-.45-13.14-.45-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.51-.54,4.86-.54,3,0,4.14,1.71,4.14,6.12V54.72c0,4.41-1.17,6.12-4.14,6.12-1.35,0-3.87-.54-4.86-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.61,1.44,4.05,4.5,4.05M245.61,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14c0-5.22,1.53-6.12,10.71-6.12,16.2,0,23.58,8.55,23.58,27.27S262,61.2,245.61,61.2m.63,6.93q32.67,0,32.67-34.29c0-22.68-10.62-33.75-32.49-33.75-4.32,0-13.41.45-15.93.45-5,0-9.09-.36-13.68-.36-3,0-4.5,1.35-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4.05-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69,0,2.7,1.53,4.05,4.5,4.05,4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45M164,36.45c-1.62,0-2-.72-1.26-2.7l7.83-22.41c.36-1,.54-1.26,1.08-1.26s.63.27,1,1.26l7.83,22.41c.72,2,.36,2.7-1.26,2.7Zm32.85,17.1-17.37-48c-1.62-4.41-2.7-5.58-7-5.58h-1.17c-4.41,0-5.4,1.17-7,5.58l-17.46,48c-2.07,5.76-3.69,6.66-7.29,6.84-2.43.18-3.69,1.44-3.69,3.78,0,2.61,1.44,3.87,4.32,3.87,3.42,0,6.48-.36,10.44-.36,4.41,0,8.46.36,12.51.36,2.88,0,4.41-1.44,4.41-4.05,0-2.25-1.44-3.69-3.87-3.69-.9,0-2.34.36-4.14.36-3,0-4.5-1.17-4.5-3.51a11.45,11.45,0,0,1,.81-3.69l2.79-7.83c.45-1.35,1.17-2.16,2.61-2.16H181.8a2.72,2.72,0,0,1,2.79,2.16l2.79,7.83a11.45,11.45,0,0,1,.81,3.69q0,3.51-4.59,3.51c-1.71,0-3.06-.36-4-.36A3.55,3.55,0,0,0,175.68,64c0,2.61,1.62,4.05,4.41,4.05,4.14,0,8.19-.36,12.87-.36,3.87,0,7.11.36,10.62.36,2.88,0,4.32-1.26,4.32-3.87,0-2.34-1.26-3.6-3.69-3.78-3.69-.18-5.31-1.08-7.38-6.84M75.06,68c4.23,0,7.92-.36,12.69-.36h24.57c5.76,0,11.25.36,13.23.36,2.7,0,3.87-1.26,3.87-4.23,0-1.53-.27-5-.27-8.73,0-2.34.27-5.31.27-6.48,0-2.7-1.35-4.32-3.87-4.32s-3.87,1.62-3.87,4c0,1,.36,3.06.36,4.86,0,5.76-2.52,7.74-9.54,7.74H100.08c-5.85,0-7-1.26-7-7.11V39.51c0-3.33.72-4.14,3.69-4.14h3.06c4.41,0,5.94,1,5.94,3.78,0,.81-.18,2.7-.18,3.24,0,2.43,1.35,3.78,3.69,3.78,2.61,0,3.87-1.44,3.87-4.32s-.54-6.12-.54-9.45.54-6.57.54-9.36c0-3-1.26-4.59-3.87-4.59-2.34,0-3.69,1.44-3.69,3.87,0,.54.18,2.43.18,3.33,0,2.7-1.53,3.69-5.94,3.69H96.75c-3,0-3.69-.81-3.69-4.05V13.77c0-5.49,1.08-6.48,6.39-6.48h12.33c6.48,0,8.91,1.8,8.91,6.66,0,1.89-.36,4-.36,4.86,0,2.52,1.44,4.05,3.87,4.05s4-1.53,4-4.23c0-1.17-.27-4.23-.27-6.48,0-3.33.27-6.39.27-7.74,0-3-1.26-4.23-4-4.23-2.52,0-7.65.36-13.23.36H87.75C83,.54,79.29.18,75.06.18c-3.06,0-4.5,1.44-4.5,4.05,0,2.25,1.44,3.69,3.87,3.69,1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54-2.43,0-3.87,1.44-3.87,3.69C70.56,66.6,72,68,75.06,68M33.3,61.2c-9.27,0-10.8-1.08-10.8-7.56V13.14C22.5,7.92,24,7,33.21,7c16.2,0,23.58,8.55,23.58,27.27S49.68,61.2,33.3,61.2m.63,6.93q32.67,0,32.67-34.29C66.6,11.16,56,.09,34.11.09,29.79.09,20.7.54,18.18.54,13.14.54,9.09.18,4.5.18,1.53.18,0,1.53,0,4.23,0,6.48,1.44,7.92,3.87,7.92c1,0,3.6-.54,5-.54,2.88,0,4,1.71,4,6.12V54.72c0,4.41-1.08,6.12-4,6.12-1.44,0-4-.54-5-.54C1.44,60.3,0,61.74,0,64,0,66.69,1.53,68,4.5,68c4.59,0,8.64-.36,13.68-.36,2.52,0,11.61.45,15.75.45"/></g></g></svg>
 <span class="screen-reader-text"></span>
@@ -4588,16 +4588,16 @@ Powered by
 </div>
 
 <div class="mega-menu__footer // pmc-u-color-white u-width-100p">
-				
+
 <div class="u-flex u-flex-direction-column@desktop-max pmc-u-padding-tb-1">
 	<section class="u-flex u-flex-direction-column@desktop-max u-align-items-center pmc-u-margin-r-1@desktop u-align-items-center">
 		<h3 class="c-title pmc-u-font-size-20 pmc-u-font-size-24@desktop pmc-u-margin-b-050 pmc-u-margin-t-050@desktop">Follow Us</h3>
 		<div class="pmc-u-padding-l-1@desktop">
-			
+
 <ul class="o-social-list  "
 	>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-black pmc-u-color-white pmc-u-margin-lr-025 u-border-color-grey-medium-dark u-color-grey-medium-light:hover u-border-a-1" href="https://www.facebook.com/deadline/" aria-label="facebook"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -4610,7 +4610,7 @@ Powered by
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-black pmc-u-color-white pmc-u-margin-lr-025 u-border-color-grey-medium-dark u-color-grey-medium-light:hover u-border-a-1" href="https://x.com/deadline" aria-label="x"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -4623,7 +4623,7 @@ Powered by
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-black pmc-u-color-white pmc-u-margin-lr-025 u-border-color-grey-medium-dark u-color-grey-medium-light:hover u-border-a-1" href="https://www.youtube.com/user/deadlinecom/" aria-label="youtube"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -4636,7 +4636,7 @@ Powered by
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-black pmc-u-color-white pmc-u-margin-lr-025 u-border-color-grey-medium-dark u-color-grey-medium-light:hover u-border-a-1" href="https://www.instagram.com/deadline/" aria-label="instagram"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -4649,7 +4649,7 @@ Powered by
 </a>
 		</li>
 			<li class="o-social-list__item">
-			
+
 			<a class="u-display-block u-border-radius-50p pmc-u-background-black pmc-u-color-white pmc-u-margin-lr-025 u-border-color-grey-medium-dark u-color-grey-medium-light:hover u-border-a-1" href="https://www.tiktok.com/@deadline" aria-label="tiktok"
 					rel="noopener noreferrer"
 				target="_blank">
@@ -4702,30 +4702,30 @@ Powered by
 <ul class="o-nav__list u-justify-content-center@desktop-max u-flex-wrap-wrap" data-dropdown-list=""
 			>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-family-helvetica pmc-u-color-grey-medium-light pmc-u-font-weight-normal pmc-u-font-size-10 pmc-u-margin-lr-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-unstyle-link" href="/advertising-deadline-hollywood/"
-		
+
 >
 	Advertise	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-family-helvetica pmc-u-color-grey-medium-light pmc-u-font-weight-normal pmc-u-font-size-10 pmc-u-margin-lr-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-unstyle-link" href="/about-dhd/"
-		
+
 >
 	About Us	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-family-helvetica pmc-u-color-grey-medium-light pmc-u-font-weight-normal pmc-u-font-size-10 pmc-u-margin-lr-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-unstyle-link" href="/contact-us/"
-		
+
 >
 	Give us feedback	</a>
 							</li>
 					<li class="o-nav__list-item u-text-transform-uppercase pmc-u-font-family-helvetica pmc-u-color-grey-medium-light pmc-u-font-weight-normal pmc-u-font-size-10 pmc-u-margin-lr-050 " data-dropdown-list-item="">
-				
+
 <a class="c-nav-link  a-unstyle-link" href="https://deadline.com/tip-line/"
-		
+
 >
 	Leave us a tip	</a>
 							</li>
@@ -4733,7 +4733,7 @@ Powered by
 </nav>
 	</div>
 	<div class="u-flex u-align-items-center pmc-u-padding-a-050 u-border-t-1@desktop-max u-border-color-grey-medium-dark">
-		
+
 			<a class="u-width-100@mobile-max u-width-150 u-height-20 u-margin-r-auto pmc-u-margin-r-00@desktop u-margin-l-auto@desktop" href="https://pmc.com/" aria-label="pmc-logo-white"
 					rel="noopener noreferrer"
 				target="_blank">

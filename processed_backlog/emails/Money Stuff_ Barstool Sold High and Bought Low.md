@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One way to think about it is that if you are a gambling company, and it is 2020 and sports gambling is becoming broadly legal in the US, you
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Barstool
-    
-  
+
+
 
 One way to think about it is that if you are a gambling company, and it is 2020 and sports gambling is  becoming broadly legal in the US, you will want to market sports gambling broadly to potential customers, and the best way to do that might be to team up with a popular sports media brand. Name your sports gambling site after the sports media brand, and at the top of every article on the media brand’s website have a little call to action like “I see you are reading about the Mets, would you like to place a wager on the Mets?” You are fundamentally a gambling company, which is still a bit suspicious and seedy to some sports fans; you will get more customers and trust and goodwill from a sports company.
 So, when sports gambling is becoming broadly legal in the US, you strike a marketing partnership with the very biggest and best sports media brand you can get. Which will not be that big or that good. You’re not going to get ESPN. It’s early days for broadly accepted sports gambling, it’s still a little edgy, and the best you will do is teaming up with kind of an edgy sports media brand. Barstool Sports, for instance, the bro-y and controversial site that appeals particularly to young men. And you will pay it a large amount of money for a licensing deal where you get to name your sports gambling site Barstool Sportsbook and advertise it on Barstool’s media properties.
@@ -92,37 +92,37 @@ Also Penn gets 50% of the proceeds if Portnoy sells. He “has no plans to sell 
   [3]
  It’s embarrassing enough to buy it from Portnoy for $550 million and then sell it back to him for $0, but it would be much worse if he turned around and sold it to someone else for $550 million again.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       WeWork
-    
-  
+
+
 
 Elsewhere in, uh, controversial founders who sold high and then rode their startups down to zero, I have always had kind of a soft spot for WeWork Inc.’s business model. WeWork did many absurd things, which I lovingly documented, but the idea seems fine? Companies want to outsource real-estate management, lots of people work for smaller startup-y companies that want flexible office arrangements, and particularly in this new post-pandemic world of remote work it makes sense for office-space management to be more flexible and outsourced and pooled. I feel like if WeWork didn’t exist and you started it now, people would say “oh that makes a lot of sense.”
 But WeWork does exist, and it does not make a lot of sense:
@@ -135,11 +135,11 @@ Though that could still pan out, it hasn’t been happening quickly enough for W
 
 Ah, well. I have also  long been an admirer of WeWork founder Adam Neumann’s ability to extract money from SoftBank, collecting hundreds of millions of dollars for himself at the peak and then walking away (for more money!) as WeWork crashed. As an entrepreneur, Neumann is more impressive if the business he built is a lasting success, even at a lower valuation than the one he cashed out at. But as a trader, his accomplishment is more impressive if the business goes to zero. “SoftBank made a mistake that involved spending $10 billion to build a $400 million company, and Adam Neumann was there to take the other side of that mistake,” I  once wrote, and that story is starker and sharper and more absurd if SoftBank spent the $10 billion on nothing.
 
-  
-    
+
+
       Yellow
-    
-  
+
+
 
 Yellow Corp., the trucking company, shut down its operations in July and filed for bankruptcy this past weekend. Its stock is up since it shut down operations. That’s weird! Well, I mean, it’s weird, but it’s pretty common these days: Meme-stock companies sometimes become extra meme-y when they are near, or in, bankruptcy, as retail investors develop conspiracy theories about short squeezes and rescue deals and rush to buy the stock. And there have been some references to Yellow as a meme stock.
 But that explanation does not quite work, because a lot of the buying in the Yellow rally was done by an investment firm called MFN Partners that is also a big shareholder in another trucking company, and that disclosed a 42.5% stake in Yellow early last week. Not really the way meme investing works. What was going on? I  expressed some puzzlement earlier this week, but I suppose the simplest answer would be “MFN knows trucking and sees equity value here.” Anyway:
@@ -154,11 +154,11 @@ You could tell a simple corporate finance story in which bankruptcy, or rumors o
 
 And so if you see some declining company muddling along, you might assume “well sure there’s value left here but they’re gonna waste it all, shareholders are never going to see a penny of it,” and you might value the stock at roughly zero. And then if the company said “okay never mind we’re going bankrupt and liquidating” you might change your mind and buy the stock. That is not quite Yellow’s story — there were labor troubles, etc. — but it could be the right model. It is rare for companies to liquidate while there is still value left for shareholders, but it is not impossible, and I suppose if you find one who is doing it you should bet on it.
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 The syllogism is:
 	Every bad thing that a public company does  is securities fraud: The company did the bad thing, it didn’t tell shareholders about it in advance, the shareholders bought the stock not knowing about the bad thing, and when they learned of it they felt defrauded.	In the US, politics are both polarized and totalizing: Everything that everyone does has some political valence, and some people will think it is bad while others will think it is good.	Therefore everything that a public company does strikes someone as bad, and is therefore securities fraud.
@@ -179,25 +179,25 @@ Even if these “stakeholder”-driven risks could be defined as “social and p
 Sure. I guess the important point here is that the stock went down. Half of Americans might think that anything a public company does is bad, and half might think it is good, but it’s only securities fraud if the stock went down.
 We  talked a few years ago about a shareholder lawsuit against Oracle Corp. for not doing enough to implement its diversity policies; now here’s one against Target for doing too much. “Everything is securities fraud” started as mostly a left-ish sort of idea, that you could sue companies for securities fraud to punish  pollution or  sexual harassment, but the idea is too good and too all-purpose to be limited to one side of American politics. Caring about diversity is securities fraud, and not caring about diversity is securities fraud, because everything is securities fraud, as long as the stock goes down.
 
-  
-    
+
+
       M&A typo
-    
-  
+
+
 
 On July 28, Biogen Inc.  agreed to acquire Reata Pharmaceuticals Inc. for   about $7.3 billion, with the deal expected to close in the fourth quarter. As is usual in a merger agreement, there are some  provisions for termination fees: If Reata walks away because it gets a better offer, it has to pay Biogen $264 million; if Biogen fails to get antitrust approvals, it has to pay Reata $301 million. Yesterday morning Reata filed its  quarterly report on Form 10-Q, and it almost described those fees correctly:
 If the Merger Agreement is terminated under specified circumstances, we will be required to pay Biogen a termination fee of $264.0 million.  The Merger Agreement also provides that, in connection with the termination of the Merger Agreement under specified circumstances including antitrust related circumstances, Merck will be required to pay us a termination fee of $301.0 million.
 Oops! Merck & Co. will not actually be required to pay Reata a termination fee in any circumstances; Merck is an entirely different company and not involved in this merger. As far as I knew! But I learned of this typo from an Evercore ISI research note saying “Reata 10-Q implicates MRK as other bidder” and noting that “this disclosure is making the rounds in risk arb investor community,” and Reata’s stock was actually up a bit yesterday. Is it possible that Merck was competing with Biogen to buy Reata, Biogen won the deal but Reata still has unresolved feelings for Merck, this typo was Freudian, Merck will read it that way and rekindle its interest in Reata, and ultimately there will be a topping bid? Sure I dunno maybe. My sense is that most typos in merger documents are not Freudian but are the result of law-firm associates getting too little sleep and copying things from precedents, but it would be very funny if this deal did get topped and this 10-Q was the first sign of it, or even the cause.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 U.S. to Ban Some  Investments in China. NYSE, Nasdaq Battle for New Listings in Sign of  IPO Awakening. Abu Dhabi oil giant builds internal ‘investment bank’ to chase $50bn in global deals.   Italian Banks’ Payout Pledges Seen Feasible After Tax Cap. Banks Face Stepped-Up   Scrutiny From Fed Over Crypto Activities.  Loan losses at US banks hit $19bn as borrowers feel rate rise pain.  TED talks cross free speech ‘red line’ in Xi Jinping’s China. “Siegel scrutinized Two Sigma’s website,  upset if his biography was shorter than Overdeck’s.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Actually Penn bought a minority interest in Barstool in 2020, and bought the rest of it this February, but from the beginning there were  put/call options that made it likely that Penn would be a complete owner eventually. It’s not quite that Penn decided to buy all of Barstool in February and then to sell it in August.
 
 
@@ -207,48 +207,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Conceivably they should have asked for 99% of the proceeds, but I suppose that they’re better off if he does have some incentive to sell it and to maximize the price, so 50% is probably about right.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -259,46 +259,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj9bl2.5n91/d5f6dff1.gif" alt="" border="0" /></a>

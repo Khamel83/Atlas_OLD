@@ -77,23 +77,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="23000632" />
-  
+
     <meta name="ncbi_uid" content="23000632" />
-  
+
     <meta name="log_displayeduids" content="23000632" />
-  
+
     <meta name="log_source_db" content="pubmed,pmc" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="Siblings play a significant but neglected role in family socialization dynamics, and focusing on the sibling relationship is a non-stigmatizing point of entry into the family for prevention programming. Siblings are Special (SAS) was designed as a universal program that targets both sibling relation …"><meta name="keywords" content="pmid:23000632, PMC3513510, doi:10.1016/j.evalprogplan.2012.08.003, Research Support, N.I.H., Extramural, Research Support, Non-U.S. Gov&#x27;t, Mark E Feinberg, Kari-Lyn Sakuma, Susan M McHale, Adaptation, Psychological, Adolescent, Adolescent Behavior / psychology*, Adolescent Development, Conflict, Psychological, Family Relations, Female, Humans, Male, Parenting*, Parents / psychology, Program Evaluation / methods*, Risk-Taking*, Sibling Relations*, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Enhancing sibling relationships to prevent adolescent problem behaviors: theory, design and feasibility of Siblings Are Special - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/23000632/"><meta property="og:description" content="Siblings play a significant but neglected role in family socialization dynamics, and focusing on the sibling relationship is a non-stigmatizing point of entry into the family for prevention programming. Siblings are Special (SAS) was designed as a universal program that targets both sibling relation …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Enhancing sibling relationships to prevent adolescent problem behaviors: theory, design and feasibility of Siblings Are Special - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/23000632/"><meta name="twitter:description" content="Siblings play a significant but neglected role in family socialization dynamics, and focusing on the sibling relationship is a non-stigmatizing point of entry into the family for prevention programming. Siblings are Special (SAS) was designed as a universal program that targets both sibling relation …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -117,8 +117,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/23000632/">
 
 <meta name="citation_volume" content="36">
-  
-  
+
+
     <meta name="citation_issue" content="1">
 
 <meta name="citation_doi" content="10.1016/j.evalprogplan.2012.08.003">
@@ -158,7 +158,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -282,10 +282,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -302,7 +302,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -314,7 +314,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -323,8 +323,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -332,7 +332,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -340,7 +340,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -351,8 +351,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -407,7 +407,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -421,7 +421,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -494,7 +494,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -508,7 +508,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -519,13 +519,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="KplbdQzU3eYtTAXTLwrCt999BESxVbe64zE1TXWJheef6Pu8Y6Kq4IUq8w2EEYtm">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -557,7 +557,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -916,7 +916,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1073,7 +1073,7 @@
 <div class="article-page" id="article-page" data-article-pmid="23000632">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1081,39 +1081,39 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0149-7189(12)00065-1"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=23000632&amp;db=pubmed&amp;nlmid=7801727"
          title="See full text options at Elsevier Science"
-         
+
          data-ga-category="full_text"
          data-ga-action="Elsevier Science"
          data-ga-label="23000632"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a><a class="link-item
                 pmc
                 "
          href="https://pmc.ncbi.nlm.nih.gov/articles/pmid/23000632/"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=True&amp;PrId=3494&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=23000632&amp;db=pubmed&amp;nlmid=7801727"
          title="Free full text at PubMed Central"
-         
+
          data-ga-category="full_text"
          data-ga-action="PMC"
          data-ga-label="23000632"
       ><span class="text">
-            
+
               Free PMC article
-            
+
           </span></a>
 </div>
 
@@ -1354,20 +1354,20 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1391,9 +1391,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Eval+Program+Plann%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Eval Program Plann">
@@ -1410,15 +1410,15 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2013 Feb;36(1):97-106.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.evalprogplan.2012.08.003.
       </span>
-    
-    
-    
+
+
+
       <span class="secondary-date">
         Epub 2012 Sep 1.
       </span>
@@ -1426,12 +1426,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Enhancing sibling relationships to prevent adolescent problem behaviors: theory, design and feasibility of Siblings Are Special
 
 </h1>
@@ -1487,10 +1487,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1500,28 +1500,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> The Pennsylvania State University, University Park, PA 16802, United States.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">23000632</strong>
@@ -1529,13 +1529,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier pmc">
   <span class="id-label">
-    
+
       PMCID:
-    
+
   </span>
 
 <a class="id-link"
@@ -1552,13 +1552,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1575,7 +1575,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1585,36 +1585,36 @@ Affiliations
       <div class="short-view" id="short-view-heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Enhancing sibling relationships to prevent adolescent problem behaviors: theory, design and feasibility of Siblings Are Special
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">Mark E Feinberg</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         Eval Program Plann<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2013 Feb</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1646,7 +1646,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1660,19 +1660,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1696,9 +1696,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Eval+Program+Plann%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Eval Program Plann">
@@ -1715,15 +1715,15 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2013 Feb;36(1):97-106.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1016/j.evalprogplan.2012.08.003.
       </span>
-    
-    
-    
+
+
+
       <span class="secondary-date">
         Epub 2012 Sep 1.
       </span>
@@ -1731,7 +1731,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1770,24 +1770,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> The Pennsylvania State University, University Park, PA 16802, United States.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">23000632</strong>
@@ -1795,13 +1795,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier pmc">
   <span class="id-label">
-    
+
       PMCID:
-    
+
   </span>
 
 <a class="id-link"
@@ -1818,13 +1818,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1841,7 +1841,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1849,8 +1849,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1879,19 +1879,19 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       Siblings play a significant but neglected role in family socialization dynamics, and focusing on the sibling relationship is a non-stigmatizing point of entry into the family for prevention programming. Siblings are Special (SAS) was designed as a universal program that targets both sibling relationship and parenting mediating processes in middle childhood to prevent behavior problems in adolescence. We describe the theoretical framework underlying SAS, the SAS curriculum, and the feasibility of the program based on a study of 128 middle-childhood aged sibling dyads. Data on the quality of program implementation, program fidelity, siblings' engagement, and ratings of impact indicated the SAS program was acceptable to families and schools, that the curriculum could be implemented with high fidelity, that siblings and parents participated at high levels and were highly engaged, and that, from the perspective of group leaders, school administrators and parents, the program had a positive impact on the siblings.
     </p>
 
@@ -1915,7 +1915,7 @@ Affiliations
 
 <div class="figures-list" id="slides-container"
              itemscope itemtype="http://schema.org/ImageGallery">
-          
+
             <figure class="figure-item "
                     itemscope itemtype="http://schema.org/ImageObject"
                     itemprop="associatedMedia"
@@ -1941,7 +1941,7 @@ Affiliations
               <meta itemprop="height" itemtype="http://schema.org/ImageObject" content="775">
 
 <div class="figure-caption figure-caption-text" itemtype="http://schema.org/ImageObject" itemprop="caption" aria-hidden="true">
-                  
+
                   <div class="caption-wrap">
 
 <strong class="figure-label">
@@ -1974,7 +1974,7 @@ Affiliations
 </figcaption>
 
 </figure>
-          
+
             <figure class="figure-item "
                     itemscope itemtype="http://schema.org/ImageObject"
                     itemprop="associatedMedia"
@@ -2000,7 +2000,7 @@ Affiliations
               <meta itemprop="height" itemtype="http://schema.org/ImageObject" content="775">
 
 <div class="figure-caption figure-caption-text" itemtype="http://schema.org/ImageObject" itemprop="caption" aria-hidden="true">
-                  
+
                   <div class="caption-wrap">
 
 <strong class="figure-label">
@@ -2033,7 +2033,7 @@ Affiliations
 </figcaption>
 
 </figure>
-          
+
         </div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
@@ -2114,15 +2114,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/39428692/"
@@ -2130,39 +2130,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="39428692"
        data-ga-label="">
-      
+
         Sibling socialization of alcohol use during adolescence: An integrated model of sibling influence processes.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Whiteman SD, Zhou W, Serang S, Maiya S, Kelly BC, Mustillo SA, Maggs JL.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Whiteman SD, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Addiction. 2025 Feb;120(2):358-367. doi: 10.1111/add.16687. Epub 2024 Oct 20.</span>
     <span class="docsum-journal-citation short-journal-citation">Addiction. 2025.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">39428692</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/16402880/"
@@ -2170,39 +2170,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="16402880"
        data-ga-label="">
-      
+
         The consequences of antisocial behavior in older male siblings for younger brothers and sisters.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Snyder J, Bank L, Burraston B.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Snyder J, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Fam Psychol. 2005 Dec;19(4):643-53. doi: 10.1037/0893-3200.19.4.643.</span>
     <span class="docsum-journal-citation short-journal-citation">J Fam Psychol. 2005.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">16402880</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/27077238/"
@@ -2210,39 +2210,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="27077238"
        data-ga-label="">
-      
+
         Family-focused prevention with Latinos: What about sisters and brothers?
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Updegraff KA, Umaña-Taylor AJ, Rodríguez De Jesús SA, McHale SM, Feinberg MF, Kuo SI.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Updegraff KA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Fam Psychol. 2016 Aug;30(5):633-40. doi: 10.1037/fam0000200. Epub 2016 Apr 14.</span>
     <span class="docsum-journal-citation short-journal-citation">J Fam Psychol. 2016.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">27077238</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/22105663/"
@@ -2250,39 +2250,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="22105663"
        data-ga-label="">
-      
+
         The third rail of family systems: sibling relationships, mental and behavioral health, and preventive intervention in childhood and adolescence.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Feinberg ME, Solmeyer AR, McHale SM.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Feinberg ME, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Clin Child Fam Psychol Rev. 2012 Mar;15(1):43-57. doi: 10.1007/s10567-011-0104-5.</span>
     <span class="docsum-journal-citation short-journal-citation">Clin Child Fam Psychol Rev. 2012.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">22105663</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/22909908/"
@@ -2290,42 +2290,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="22909908"
        data-ga-label="">
-      
+
         Bullying among siblings.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Wolke D, Skew AJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Wolke D, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Int J Adolesc Med Health. 2012;24(1):17-25. doi: 10.1515/ijamh.2012.004. Epub 2011 Nov 29.</span>
     <span class="docsum-journal-citation short-journal-citation">Int J Adolesc Med Health. 2012.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">22909908</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=23000632"
@@ -2334,7 +2334,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2343,15 +2343,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/33840878/"
@@ -2359,39 +2359,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="33840878"
        data-ga-label="">
-      
+
         Rethinking Leisure Time Use Metrics: Greater Diversity in Shared Sibling Leisure is Associated with Higher Relationship Quality during Emerging Adulthood.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Layland EK, Hodge CJ, Glaza M, Peets JO.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Layland EK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Soc Pers Relat. 2020 Feb;37(2):516-537. doi: 10.1177/0265407519867771. Epub 2019 Aug 11.</span>
     <span class="docsum-journal-citation short-journal-citation">J Soc Pers Relat. 2020.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">33840878</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/38191901/"
@@ -2399,39 +2399,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="38191901"
        data-ga-label="">
-      
+
         Peer factors and prosocial behavior among Chinese adolescents from difficult families.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Mu Y, Du B.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Mu Y, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Sci Rep. 2024 Jan 8;14(1):815. doi: 10.1038/s41598-023-50292-0.</span>
     <span class="docsum-journal-citation short-journal-citation">Sci Rep. 2024.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">38191901</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/36033089/"
@@ -2439,39 +2439,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="36033089"
        data-ga-label="">
-      
+
         Family Related Variables' Influences on Adolescents' Health Based on Health Behaviour in School-Aged Children Database, an AI-Assisted Scoping Review, and Narrative Synthesis.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Huang Y, Procházková M, Lu J, Riad A, Macek P.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Huang Y, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Front Psychol. 2022 Aug 10;13:871795. doi: 10.3389/fpsyg.2022.871795. eCollection 2022.</span>
     <span class="docsum-journal-citation short-journal-citation">Front Psychol. 2022.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">36033089</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/23298985/"
@@ -2479,39 +2479,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="23298985"
        data-ga-label="">
-      
+
         Siblings are special: initial test of a new approach for preventing youth behavior problems.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Feinberg ME, Solmeyer AR, Hostetler ML, Sakuma KL, Jones D, McHale SM.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Feinberg ME, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Adolesc Health. 2013 Aug;53(2):166-73. doi: 10.1016/j.jadohealth.2012.10.004. Epub 2012 Nov 20.</span>
     <span class="docsum-journal-citation short-journal-citation">J Adolesc Health. 2013.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">23298985</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/34937954/"
@@ -2519,42 +2519,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="34937954"
        data-ga-label="">
-      
+
         Sibling relationship quality in the context of digital leisure and geographic distance for college-attending emerging adults.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Layland EK, Peets JO, Hodge CJ, Glaza M.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Layland EK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Leis Res. 2021;52(3):307-329. doi: 10.1080/00222216.2021.1899778. Epub 2021 Jun 8.</span>
     <span class="docsum-journal-citation short-journal-citation">J Leis Res. 2021.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">34937954</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=23000632"
@@ -2563,7 +2563,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2573,104 +2573,104 @@ Affiliations
       References
     </h2>
     <div id='top-references-list' class="references-lists-container">
-  
+
     <div class="refs-list">
 
 <ol id="top-references-list-1" class="references-list">
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Bank L, Burraston B, Snyder J. Sibling conflict and ineffective parenting as predictors of adolescent boys&#x27; antisocial behavior and peer difficulties: Additive and interactional effects. Journal of Research on Adolescence. 2004;14(1):99–125.
-            
-          
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Bank L, Kothari BH, Snyder J, Wilson DM, Feingold A. Sibling Intervention for Children with Conduct Problems: Testing the Benefits for Older and Younger Siblings. 2011
-            
-          
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Bank L, Patterson GR, Reid JB. Negative sibling interaction patterns as predictors of later adjustment problems in adolescent and young adult males. In: Brody GH, editor. Sibling relationships: Their causes and consequences. Advances in applied developmental psychology. Vol. viii. Westport, CT: Ablex Publishing; 1996. pp. 197–229.
-            
-          
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Berndt TJ, Bulleit TN. Effects of sibling relationships on preschoolers&#x27; behavior at home and at school. Developmental Psychology. 1985;21(5):761–767.
-            
-          
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Bierman KL. Peer rejection: Developmental process and intervention strategies. New York: Guilford Press; 2004.
-            
-          
+
+
         </li>
-      
+
     </ol>
   </li>
 
 </ol>
-      
-        
+
+
         <div class="actions-bar">
-  
+
     <button
       class="show-all"
       ref="linksrc=show_all_references_link"
       aria-controls="top-references-list-1"
-      
+
       data-next-page-url="/23000632/references/"
       data-ga-category="reference"
       data-ga-action="show_more"
     >
       Show all 50 references
     </button>
-  
-  
+
+
 </div>
 
 </div>
@@ -3338,12 +3338,12 @@ Affiliations
       <button class="close-overlay" tabindex="3">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0149-7189(12)00065-1"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=23000632&amp;db=pubmed&amp;nlmid=7801727"
          title="See full text options at Elsevier Science"
          tabindex="1"
@@ -3351,16 +3351,16 @@ Affiliations
          data-ga-action="Elsevier Science"
          data-ga-label="23000632"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a><a class="link-item
                 pmc
                 "
          href="https://pmc.ncbi.nlm.nih.gov/articles/pmid/23000632/"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=True&amp;PrId=3494&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=23000632&amp;db=pubmed&amp;nlmid=7801727"
          title="Free full text at PubMed Central"
          tabindex="2"
@@ -3368,9 +3368,9 @@ Affiliations
          data-ga-action="PMC"
          data-ga-label="23000632"
       ><span class="text">
-            
+
               Free PMC article
-            
+
           </span></a>
 </div>
 
@@ -3410,31 +3410,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -3448,19 +3448,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F23000632%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F23000632%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F23000632%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3676,7 +3676,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3703,7 +3703,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

@@ -29,7 +29,7 @@ async def get_transcript_admin_stats():
         # Processing statistics by podcast (found/total/success rate)
         # This is a more complex query. For simplicity, let's get counts per podcast.
         cursor.execute("""
-            SELECT 
+            SELECT
                 json_extract(metadata, '$.podcast') AS podcast_name,
                 COUNT(*) AS transcript_count
             FROM content
@@ -43,7 +43,7 @@ async def get_transcript_admin_stats():
 
         # Recent activity log (last 20 transcript discoveries)
         cursor.execute("""
-            SELECT 
+            SELECT
                 id, title, created_at, json_extract(metadata, '$.podcast') AS podcast_name
             FROM content
             WHERE content_type = 'transcript'

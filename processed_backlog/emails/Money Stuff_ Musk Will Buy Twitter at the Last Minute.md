@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Obviously I’ll miss this but at least it is going to go exactly as long as possible: Elon Musk yesterday pledged to close the acquisition of
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Obviously I’ll miss this but at least it is going to go  exactly as long as possible:
 
@@ -103,63 +103,63 @@ But Roelof Botha can’t go to his LPs and say “oh we’re not in this deal to
 It is … common in, like, venture-capitalist and tech-investor circles for people to think “man, if Elon Musk ran Twitter, he could do a much better job.” This is not the sort of belief that starts with a detailed financial model. It starts with the basic popular intuition that Twitter is very valuable and important, and very poorly run and poorly monetized, and with another popular intuition that the world’s richest person, who builds electric cars and sends rockets into space, is unusually talented at running disparate businesses. “If you gave this very popular important product to a guy who is world-historically good at business, he could make it a good business,” is the general idea. It seems reasonable! 
 Well, I still think that, but I just write on the internet. As a fiduciary you owe your investors a duty of care, and it is helpful if you can say things like “I’m pretty sure we’ve got a spreadsheet somewhere” and “I talked to Elon a bit about his plans and he has some.” It is fine for me to say things like “the way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk,” but that is not in the textbooks yet, and if you chuck $800 million of your clients’ money into that thesis you had better have some backup arguments. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ye
-    
-  
+
+
 
 The way it works if you’re Mark Zuckerberg is that you have a business, and it makes about $30 billion a year in profit, but that $30 billion is not direct deposited into your bank account. For one thing, the money goes back into the business, to pay for  legs or whatever. For another thing, you “have” the business in a loose sense, but you are not the sole proprietor of the business; for various reasons — to attract employees and pay for acquisitions and raise money — you have given a lot of shares in the business to other people, and you only actually own  about 13% of it. So in some rough sense your share of the annual profits from the business is about $4 billion a year, but again you don’t get that in cash. The business does not pay any dividends to shareholders, and your annual salary is $1, so there is no real cash involved. How rich are you?
 The answer is “extremely rich,” though we can give a better answer; the Bloomberg Billionaires Index lists Zuckerberg’s wealth as $51.6 billion. We can do this because your business, Meta Platforms Inc., is a company, and there are ways to calculate the value of a company. Simplistically, a big stable company like Meta is worth some multiple of its annual profits; let’s say a reasonable multiple would be about 12. Your $30-billion-a-year business is worth about $360 billion or so, you own 13% of it, so you “have” about $48 billion.
@@ -186,20 +186,20 @@ While Gap and Balenciaga previously dropped Ye, the largest chunk of his fortune
 
 A few weeks ago he had $122 million in the bank and was a billionaire; today he has $122 million in the bank and is not.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Distressed debt
-    
-  
+
+
 
 I have in the past  described the fundamental theory of modern distressed debt investing:
 	A company borrows $1 billion, in a syndicated loan or a bond issue, from a bunch of different investors.	As is customary, the loan agreement or bond indenture says “this agreement may be amended by a majority of the investors.”	Time passes and the company runs into some trouble.	The company goes out to 51% of the investors — holders of $510 million of the bond or loan — and says: “Psst. We will pay you back 110 cents on the dollar — $561 million total — if you agree to let us stiff the other guys.”	So the 51% holders vote to amend the agreement to say “these holders will get 110 cents on the dollar, and the other holders will get zero.”	The other 49% are really mad and surprised.	The amendment works, 51% of the holders make a nice profit, 49% of the holders lose all their money, and the company pockets the extra $439 million.
@@ -212,11 +212,11 @@ Here is  the 8-K. If you agree to the exchange, you get some new longer-dated n
 Though it’s not that bad. There are two ways to approach these transactions. One really is that you get 51% of the bondholders to vote to stiff the other 49%: There is limited money to go around, and if you take money from the 49% that gives you some money to pay to the 51% (for their vote) and some money to give to the company (to spend on staying afloat). In that sort of transaction, you want a thin majority; you want to stiff 49% of the bondholders because that leaves more money for everyone else.
 The other is that you go out to all of the bondholders and ask them to vote for an extension, restructuring, etc., and you say “by the way, if we get a majority to approve this extension, we will also stiff the minority.” You pressure bondholders into approving the deal, but if they approve the deal they get what everyone else gets. That is what is happening here. The goal is to get everyone to agree to the deal, not to get a small majority and stop paying the rest.
 
-  
-    
+
+
       Cheapest-to-deliver diamonds
-    
-  
+
+
 
 Intuitively the price of a diamond has three components:
 	Broad diamond prices, driven by things like macroeconomic conditions, industrial uses for diamonds, successful branding of diamonds as necessary for marriages, etc.	The specific characteristics (size, clarity, cut, etc.) of the particular diamond.	Probably a retail markup.
@@ -237,15 +237,15 @@ Fungibility, more than opaque pricing or illiquidity, is the biggest hurdle for 
 
 Of course the other real technology is financial technology. You sell your Aggregated Diamond Clusters to get a price for diamonds, then you sell your Two to Three Carat VVS1 Diamond Cluster Tranches to get a price for size and clarity, and then you get some correlation traders to bet on whether that premium will go up or down. Financializing diamonds as a fungible standardized commodity is the first step; financializing them back into individual diamonds is the next step.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Italian bank fundraising attracts  ‘state aid’ scrutiny in Brussels. Apple Issues New App Store Rules for   Crypto and NFT Payments. Intel Prices Widely Anticipated IPO for Self-Driving Car Unit  Mobileye. Catholic funds are  feasting on forbidden fruit. LME must ‘justify continued faith’ after  nickel chaos, says chief. Russian Oligarchs Obscure Their Wealth Through Secretive  Isle of Man Network. Pension Fund Appetite for  Commercial Real Estate Is Fading Fast. First  bitcoin ETF loses record amount in its initial year. Beeple Creates  Digital-Art Museum in Charleston, S.C. The Try Guys and the  Prison of Online Fame. What’s  Jacob Wohl up to?
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The real deadline is probably  when Fedwire closes, which is basically 6 p.m. You need to be able to send the money!
 
 
@@ -261,114 +261,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Man, not a businessman.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

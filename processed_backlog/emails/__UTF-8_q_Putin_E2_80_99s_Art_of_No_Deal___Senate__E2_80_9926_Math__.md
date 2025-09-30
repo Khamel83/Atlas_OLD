@@ -35,7 +35,7 @@ Now, here’s Abby with more on some Senate ’26 math…
 Abby Livingston
 Abby Livingston
 
- 
+
 
 The
 Senate Dem Shuffle
@@ -142,7 +142,7 @@ Ironically, Trump is just amplifying a pattern we saw during the Obama administr
 military aid to Ukraine. “Nobody believes in Article V anymore,” Bondarev said, referring to the NATO collective-security guarantee that Trump has repeatedly questioned—including just last week, when he said ( https://www.france24.com/en/live-news/20250313-nato-s-trump-whisperer-heads-to-white-house-for-tough-talks?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that if alliance members “don’t pay, I’m not going to defend them.” Added Bondarev: “Everyone knows that the United States
 isn’t going to help anyone.”
 
- 
+
 
 That’s all from me, friends. I’ll see you back here next week. Until then, good night, because you know
 damn well that tomorrow will be worse.
@@ -196,6 +196,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
 click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVkfN0bT5fEnsf5aStPmo=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

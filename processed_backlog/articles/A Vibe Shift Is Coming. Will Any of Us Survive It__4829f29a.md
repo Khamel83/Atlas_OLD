@@ -85,7 +85,7 @@ I could just choose to opt out, but here’s a glimpse of what awaits me if I su
 * [one great story](//www.thecut.com/tags/one-great-story/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

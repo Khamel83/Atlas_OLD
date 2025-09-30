@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One idea that you sometimes hear is that, when the broad stock market steadily goes up each year, that is bad for investment managers. If th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Merger arb v. Lina Khan
-    
-  
+
+
 
 One idea that you sometimes hear is that, when the broad stock market steadily goes up each year, that is bad for investment managers. If the S&P 500 index just goes up 15% per year, then anyone can do great by buying an index fund, and the benefits of picking the best stocks are lower. Highly paid active managers distinguish themselves more in choppy markets, where picking the right stocks is distinctly more valuable than picking the wrong ones.
 Similarly you could imagine an antitrust enforcement regime in which the US Federal Trade Commission almost never tries to block mergers, except in the most egregious cases of monopoly power. In this regime:
@@ -80,37 +80,37 @@ Since its inception, Pentwater, which oversees close to $5 billion, has averaged
 Yes right if you are good at merger arb you want some dispersion in outcomes. Pentwater also “last year scooped up shares of Twitter, now X, in a wager that Elon Musk would ultimately acquire the company,” another situation where it was helpful to be able to notice that Musk’s case for getting out of the deal   was laughably weak.
 Elsewhere in the FTC: “FTC Sues Amazon in Landmark Antitrust Case Over Marketplace.”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Citadel Securities oops
-    
-  
+
+
 
 Did the US Securities and Exchange Commission catch Citadel doing naked short selling? Ahahaha no, come on, I would never say a thing like that.  It was Citadel Securities:
 
@@ -130,11 +130,11 @@ Of course here this is silly, it’s a nothing. The SEC mentions naked short sel
  (Also the problem here was symmetrical, and Citadel Securities sometimes marked long sales as short because it was selling for customers and thought it was shorter than it was.) The SEC says that “this delay did not benefit Citadel Securities or its trading strategies”; it is a clerical mishap that made some trading data wrong, but it was not intentional, didn’t save Citadel Securities any money, and doesn’t seem to have had any effect on anything but the SEC’s recordkeeping.
 Still. Dumb Money, the GameStop movie, will be in wide release this coming weekend, portraying Citadel Securities (and Citadel) boss Ken Griffin as a cartoon villain. If you think that Ken Griffin is a cartoon villain, there’s a decent chance that you are also  mad about naked short selling, and, you know, here’s this!
 
-  
-    
+
+
       AI in banking
-    
-  
+
+
 
 One somewhat plausible view of artificial intelligence in investment banking is:
 	A robot can do most of the work that first-year investment banking analysts do: preparing financial models from templates, choosing comparable companies, formatting pitchbooks, cutting league-table data in exactly the right way to make their bank No. 1, etc.	A robot cannot do most of the work that senior managing directors do: meeting clients face-to-face with a firm handshake and good eye contact, asking them about their kids and their golf game, giving strategic advice about merger negotiations and financing options, exercising good judgment, tossing aside the pitchbook that the analysts spent sleepless nights preparing to have a heart-to-heart chat about whatever’s on the client’s mind, etc.
@@ -156,11 +156,11 @@ The technology will pave the way for "a new way of being a banker," Bitticks sai
 
 Is it possible that tediously compiling an update on industry trends and client personnel gossip, and then handing it to your managing director before she flies off to the meeting, is good preparation for one day flying to the meeting yourself to give a market update and gossip with the client? I honestly have no idea. But, like, when the analysts are not preparing the pitchbooks for the meetings they are not attending, what will they be doing to become more strategic and analytical?
 
-  
-    
+
+
       Short ESG
-    
-  
+
+
 
 One basic idea in environmental, social and governance investing is that you should allocate much (100%?) of your investment portfolio to companies with good ESG credentials, and less (0%?) of your portfolio to companies with bad ESG credentials. You have some reason for liking ESG — the  main ones are “I think I will make the world a better place by allocating capital to green companies and withholding capital from dirty ones,” or “I think that ESG risk factors are important for long-run financial returns, so companies with good ESG credentials will outperform those with bad ESG credentials”
   [4]
@@ -185,11 +185,11 @@ There’s “so much capital chasing” ESG assets, but there are “so few good
 
 As with so much of ESG, one theory here is that this is a good way to make money: People overpay for fake ESG stocks, so you short them and make money as the market corrects. But another theory is that this is good for the earth: People overpay for fake ESG stocks, providing cheap capital to companies that are bad for the earth, but creating an incentive for you to go sniff out the fraud and short them, increasing their cost of capital and making ESG’s work — of rewarding good ESG companies — more efficient.
 
-  
-    
+
+
       Elsewhere in greenwashing
-    
-  
+
+
 
 Another basic idea in ESG investing is:
 	You run an investment firm.	You tell people “we always consider ESG factors in making our investment decisions,” because people like to hear that. “We have an ESG checklist,” you say, “and we check it every time we make an investment.” Your investors are pleased to hear about the checklist.	You don’t literally always consider ESG factors. Sometimes an investment seems good and you just forget about the checklist.	The US Securities and Exchange Commission  eventually sues you.
@@ -204,11 +204,11 @@ Whereas in fact it just often considered ESG factors:
 For example, quality checks conducted on a sample of research notes written between January and November 2020 showed that of the research notes sampled, only about 54% of active equity research notes and 21% of fixed income research notes mentioned ESG criteria. Despite these findings, DIMA did not have the Policy removed from the website, nor did DIMA revise its responses to RFPs, or make efforts to remove the paid investment industry magazine article from the Internet.
 I do think that the lowest-hanging possible greenwashing fruit is “if you say you have an ESG checklist, check the checklist every time.” The checklist doesn’t have to be good, it doesn’t have to determine your investing decisions, you just have to check it. But you do have to check it!
 
-  
-    
+
+
       Jon Corzine
-    
-  
+
+
 
 I learned this weekend that Jon Corzine is still running a hedge fund? Or  he was until last week:
 
@@ -219,11 +219,11 @@ JDC-JSC, Corzine’s New York-based money-management firm, terminated its regist
 MF Global went bankrupt in 2011, and “JDC-JSC began raising money in 2018.” Wild stuff. “I look forward to being able to devote more time and energy to the things that matter most to me, which include philanthropy, teaching, and, most importantly, my family,” says Corzine.
 In an odd coincidence, Sam Bankman-Fried’s criminal fraud trial starts next week, and if I were Jon Corzine I think I might volunteer to help Bankman-Fried out with that trial. Jon Corzine is really the world’s leading expert at running a futures firm that used customer money to cover losses from risky financial bets and  basically getting away with it, and there but for the grace etc.
 
-  
-    
+
+
       Sam Bankman-Fried’s fraud trial starts next week
-    
-  
+
+
 
 There is  going to be a lot of  media about it? Here is  a New York Post story about an Alameda Research software engineer in Hong Kong who had the rather cinematic experience of ordering lunch on the corporate credit card, having the card declined, and immediately drawing the correct conclusion, which was “I need to be on the next flight out of Chinese jurisdiction”:
 
@@ -234,15 +234,15 @@ After the meeting, Baradwaj said he and his stunned colleagues had to “literal
 
 Though it’s not like flying to US jurisdiction was a great idea for everyone at FTX.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Private Equity’s Slow Carnage Unleashes a  Wave of Zombies. “If you can earn 12 per cent, maybe 13 per cent on a really good day in senior secured bank debt, what else do you want to do in life?” People are worried about   stock buybacks. People are worried about  the basis trade. Hedge Funds   Cut Stock Leverage at Fastest Pace Since 2020 Crash. JPMorgan Settles With Jes Staley, US Virgin Islands to End   Epstein Legal Woes. Glencore traded thousands of tonnes of  Russian copper through Turkey. “Chinese regulators have taken a novel approach to prop up the country’s faltering stock market by banning many companies’ biggest shareholders  from selling.” Wells Fargo Preps for   Wealth Battle After $1 Billion Turnaround.  Commercial Real Estate’s Next Big Headache: Spiraling Insurance Costs. Zero-day options now account for  50% of S&P options volumes. Taxpayers Stuck Paying the Bills for Oligarchs’ Seized  Yachts and Mansions. Elon Musk is  very annoying to play poker with. Fake  steakhouse.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Importantly, what this means is that the trade was a “riskless principal” trade and the customer paid the prices Citadel Securities paid. If Citadel Securities was buying 10,000 shares for its own inventory, and then at the end it sold all 10,000 to the customer at the price at the time, then it kind of did own those shares along the way. But the way these trades worked is that Citadel Securities got paid the actual prices it paid along the way, so at the time it bought 10 shares it *really had* already sold them at the price it paid (plus some commissions, spread or whatever).
 
 
@@ -261,48 +261,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Short selling and long buying are not fully symmetrical and “ESG factors represent long-term risks” is arguably a good reason to buy good ESG stocks and hold them for the long term, but a bad reason to short bad ESG stocks, because short selling involves more short-term risks.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -313,46 +313,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjjuf1.683c/3f5f523f.gif" alt="" border="0" /></a>

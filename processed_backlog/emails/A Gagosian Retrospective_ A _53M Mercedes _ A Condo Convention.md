@@ -59,7 +59,7 @@ call from one of Condo’s galleries, with whom the collector had never done bus
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 NYC Ballet in Technicolor
 -------------------------
@@ -164,7 +164,7 @@ produces something that is both totally foreign and frustratingly familiar. Gago
 As I tried to take pictures with my iPhone, the camera kept trying to read several of the illegibly scrawled blackboard paintings as text. Over and over, it flashed with a yellow symbol indicating it had transcribed the image into
 text. Yet every time I pressed the icon, curious to see what it could possibly have captured, the phone came up blank. It was a tidy summation of the experience: recognizable, but utterly alien.
 
- 
+
 
 Endnotes…
 -----------
@@ -214,6 +214,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUyP_vBffCf9jhJ-fpHwk=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F2%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

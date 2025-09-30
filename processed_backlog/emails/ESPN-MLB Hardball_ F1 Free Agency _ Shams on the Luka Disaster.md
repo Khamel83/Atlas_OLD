@@ -36,7 +36,7 @@ with my peerless Puck colleague Peter Hamby on his great daily podcast, The Powe
 
 Now, let’s get to it…
 
- 
+
 
 Player of the Week: Eric
 Shanks
@@ -45,7 +45,7 @@ Shanks
 The Fox Sports C.E.O. had a hell of a week. The Super Bowl eclipsed records with
 127.7 million viewers, $800 million in advertising booked and served, and even 13.6 million viewers on Tubi—an all-time high. All for a game that was effectively over in the first quarter. It’s Fox’s world these days…
 
- 
+
 
 Down to the J.V.: Nico
 Harrison
@@ -55,7 +55,7 @@ We’re living in an age where the president’s prior opponents are serving in 
 avowed anti-vaxxer is running the U.S. Health Department, but no one is buying the Mavericks G.M.’s assertion that trading Luka Dončić for Anthony Davis was some sort of perverse upgrade. Harrison wasn’t prepared for the fallout, and the organization inadequately predicted the reverberations. The team ejected fans for holding up “Fire Nico” signs, including one fan who mouthed “Fire Nico” on the Jumbotron. A couple of days ago, fans resumed the “Fire
 Nico” chant when Harrison attended an SMU game. This has turned into a P.R. disaster for a team that went to the NBA Finals last year.
 
- 
+
 
 The Starting Five
 -----------------
@@ -152,7 +152,7 @@ Dodgers, eclipsed 12 million viewers and set records, even though the games were
 Ultimately, Greenfield believes that ESPN should not exercise the out in its MLB contract, especially considering its planned launch of a direct-to-consumer service—dubbed Flagship—this fall. ESPN’s
 streamer will need year-round programming, and “without Sunday Night Baseball and the Home Run Derby,” Greenfield wrote, “ESPN’s summer programming would be underwhelming.” 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -172,7 +172,7 @@ was born in Philly but my family moved around a couple times. When I was around 
 walked up to Hubie and asked him about Wilt. He spoke to us for a good 10 or so minutes, giving nothing but praise for Wilt (he must be a Wilt > Russell guy because it all felt genuine). After I gave that speech, my mom had to confirm to the teacher that we had actually met Hubie Brown and I wasn’t just making up these very complimentary Hubie quotes about Wilt. I like to think of it as the best speech ever given by an elementary student, but I may be biased. It was at least probably better
 than whatever incoherent monologue Marchand could have managed.” —A Varsity subscriber
 
- 
+
 
 Have a great weekend,
 
@@ -216,6 +216,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVAkv_HjL3QSE62BuzIhk=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

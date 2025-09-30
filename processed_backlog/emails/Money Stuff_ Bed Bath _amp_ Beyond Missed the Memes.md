@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         My basic view is that if you are a company that has become a meme stock, you should do an at-the-money offering to sell as much stock as you
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath & Beyond
-    
-  
+
+
 
 My basic view is that if you are a company that has become a meme stock, you should do an at-the-money offering to sell as much stock as you can to retail investors at irrational prices. There are, however, reasonable objections to that view. Two are:
 	You will want to be really careful about disclosure. If you sell a bunch of stock to retail investors at irrational prices, and then the stock drops, someone will sue you saying “you didn’t tell me this price was irrational.” There are defenses there, but you need to be careful. Certainly if there’s any bad news that might come out, you’ll want to disclose it before the stock offering, because you don’t want lawsuits of the form “I bought your stock at irrational prices because I didn’t know about the bad news.” 	You will have to get a bit lucky with timing. If you prepare a registration statement and announce an at-the-money offering at the peak of meme-stock enthusiasm, shareholders might say “YES MORE STOCK!” and the price might go up. But if you notice that you’re a meme stock and then go off and prepare a registration statement and get lawyers comfortable with it, that takes time, and by the time you are ready to launch the offering you might not be a meme anymore.
@@ -96,66 +96,66 @@ In December 2004, Bed Bath’s market capitalization was about $12.5 billion, ac
   [1]
  Bed Bath was doing stock buybacks this year, as its business was deteriorating; in fact, the reason that Cohen re-disclosed his options position in August is that his ownership percentage had increased due to those buybacks. 
 And now, after buying back 264.7 million shares at an average price of $44 per share for decades, Bed Bath needs cash and wants to sell 12 million shares to whoever will buy them.
-In general when some troubled brick-and-mortar retailer has spent billions on stock buybacks, 
+In general when some troubled brick-and-mortar retailer has spent billions on stock buybacks,
 I am not troubled. Other people are: “If it had hung on to that money, it wouldn’t be in trouble now,” they say. I disagree. The problem, often, is with long-term trends in the business. By sending money out to shareholders when times were good, Bed Bath managed its decline gracefully. Sure today the company is worth a fraction of what it was worth a decade ago, but its shareholders, as a whole, did fine. They took some of their value in shares in a declining company, but most of it in cash thrown off by that company.But eventually you are left with some stub, a smaller company with a lower stock price that has reached the end of its throwing-off-cash phase. What do you do with that? Well, I dunno, the modern corporate-finance approach is I guess that you make it a meme stock? By the time you have finished this graceful decline, your company (1) is in shaky financial circumstances, so it attracts short sellers and (2) has some nostalgia value, because it was once a big name and now isn’t. That combination is valuable now! Now being a nostalgic company with shaky finances can attract a whole new shareholder base, a post-cash-flow shareholder base. You pay shareholders as much as you can with buybacks, and whatever’s left you sell to the meme people.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private equity recruiting
-    
-  
+
+
 
 The basic way that private equity hires is that you graduate from college, then you work for two years as an analyst at an investment bank, and then you leave your bank to join a private equity firm as an associate. You interview for the PE job before the investment banking job ends. I suppose in ancient times you might have interviewed, like, a couple of months before the banking job ended, and then gave notice at your bank and left for PE. But in modern times this process has become increasingly standardized — private equity is the Normal Next Thing you do after banking — and there is an organized recruiting process that, like so many such processes, creeps earlier each year. These days, with some exceptions for Covid, the norm is that PE recruiting happens two years in advance, meaning that investment-banking analysts start interviewing for their PE jobs more or less the minute they arrive at their banking jobs. Here’s Insider on this year’s cycle:
 The process, which is beginning earlier than ever, appears to have started Monday evening, with a handful of firms suddenly springing into action and igniting an industry-wide stampede to lay claim to junior banker talent. It's unclear what prompted the sudden kickoff, but by Tuesday morning offers had already gone out at some firms, while other firms were nearing the completion of the race, sources said.
@@ -170,20 +170,20 @@ So what do they talk about with these just-out-of-college analysts with no work 
 Questions may include: "What's the nature of the work that we do? How do you think it's different than what you do [in investment banking]? How much do you know about it from what you've read?," this person said.
 What I like about this process is that it sort of enacts private equity: On some random Monday evening, you get an urgent email saying that you need to travel to do a high-stakes time-sensitive meeting while juggling all of your existing work and staying at the office until 2 a.m. If you’re charming and composed and talking intelligently through a leveraged buyout model at 2 a.m. on short notice then you can probably do the job, so there’s no need to ask too many substantive questions.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Goldman RTO
-    
-  
+
+
 
 Goldman Sachs Group Inc. is back in the office:
 
@@ -198,11 +198,11 @@ Still there is obviously some sort of signal being sent here, perhaps to clients
 I can imagine that message being … appealing? Not to everyone, but you don’t need everyone. Back when I was an investment banker (disclosure: at Goldman), there was some sense that some banks were more intense and worked longer hours than others. But it was all anecdotal; no bank had, like, a formal seven-days-in-the-office-a-week policy. By the middle of last decade there was a backlash to the intensity, and many banks (including Goldman) instituted formal not-seven-days-a-week policies, where junior bankers had “protected weekends” to prevent them from working too hard. But it is possible that investment banking has become too boring and too standardized, and that some banks will want to differentiate themselves as “we are intense,” and being early and uncompromising to a five-days-in-the-office requirement could be a crude way to signal that. And then the intense young bankers will want to work at Goldman and the more laid-back ones won’t. And then the intense ones will get more of the plum private-equity jobs, because they are intense, and then everyone will want to work at Goldman to get those jobs. It has historically been hard for an investment bank to visibly signal that it is more intense than other investment banks. But return-to-office might create some differences.
 Or it might not and every bank will match this policy within a week, that is also entirely possible.
 
-  
-    
+
+
       iRrEvErSiBlE tRaNsAcTiOnS
-    
-  
+
+
 
 Oh  sure, sure:
 
@@ -211,129 +211,129 @@ The incident occurred back in May 2021, but was not discovered until an annual a
 
 I’m sorry but if I were the judge in this case I’d order them to send her another $10.5 million. Teach them a lesson. You’re a crypto exchange! Your refund mechanics consist of a customer-service employee typing amounts in a box with no checks! You threw away $10 million and didn’t notice it for months! Then you went to court to reverse your own mistake! Come on. 
 
-  
-    
-      Things happen
-    
-  
 
-Electric Vehicle Startups Seek $9.5 Billion After 
-Burning Through SPAC Cash. Bankman-Fried Says His 
-Crypto Bailouts Had ‘Mixed Results.’ Landmark US-China  audit deal spurs hunt for devils in the details. Cineworld incorrectly reported its  largest shareholder. Women Who Stay Single and Don’t Have Kids Are 
+
+      Things happen
+
+
+
+Electric Vehicle Startups Seek $9.5 Billion After
+Burning Through SPAC Cash. Bankman-Fried Says His
+Crypto Bailouts Had ‘Mixed Results.’ Landmark US-China  audit deal spurs hunt for devils in the details. Cineworld incorrectly reported its  largest shareholder. Women Who Stay Single and Don’t Have Kids Are
 Getting Richer. “The  Arthur Andersen name also lives on through an assortment of scattered objects, including a used stapler that’s up for sale on eBay for $2,500.” Alfredo  sauce spill partially closes I-55 in Memphis. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Obviously this is not a real description of what happened: In fact the market cap was higher than $12.5 billion in some post-2004 years, and this ignores time value of money. Still a funny coincidence.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

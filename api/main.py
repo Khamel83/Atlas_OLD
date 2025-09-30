@@ -102,33 +102,33 @@ async def get_mobile_dashboard_html():
         from helpers.simple_database import SimpleDatabase
         import subprocess
         import psutil
-        
+
         db = SimpleDatabase()
-        
+
         # Get processing stats
         with db.get_connection() as conn:
             total_items = conn.execute('SELECT COUNT(*) FROM content WHERE content IS NOT NULL AND length(content) > 100').fetchone()[0]
             processed_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND ai_summary != ""').fetchone()[0]
             articles_count = conn.execute('SELECT COUNT(*) FROM content WHERE content_type = "article"').fetchone()[0]
             podcasts_count = conn.execute('SELECT COUNT(*) FROM content WHERE content_type = "podcast"').fetchone()[0]
-            
+
             # Get recently processed items (by updated_at when AI processing completed)
             recent = conn.execute('''
-                SELECT id, title, updated_at 
-                FROM content 
-                WHERE ai_summary IS NOT NULL 
+                SELECT id, title, updated_at
+                FROM content
+                WHERE ai_summary IS NOT NULL
                 AND updated_at > datetime('now', '-24 hours')
                 ORDER BY updated_at DESC LIMIT 5
             ''').fetchall()
-        
+
         # System info
         disk_usage = psutil.disk_usage('/')
         free_gb = disk_usage.free / (1024**3)
-        
+
         # Processing progress
         progress_pct = (processed_items / total_items * 100) if total_items > 0 else 0
         remaining_items = total_items - processed_items
-        
+
         # Check if mass processing is running
         mass_processing_running = False
         try:
@@ -136,11 +136,11 @@ async def get_mobile_dashboard_html():
             mass_processing_running = 'mass_ai_reprocessing.py' in result.stdout
         except:
             pass
-            
+
         # Cost calculations for normal operation (not mass processing)
         import datetime
         now = datetime.datetime.now()
-        
+
         if mass_processing_running:
             # Show mass processing costs
             estimated_cost = processed_items * 0.000048
@@ -153,18 +153,18 @@ async def get_mobile_dashboard_html():
                 day_ago = (now - datetime.timedelta(days=1)).isoformat()
                 week_ago = (now - datetime.timedelta(days=7)).isoformat()
                 month_ago = (now - datetime.timedelta(days=30)).isoformat()
-                
+
                 # Count items that were actually processed (updated) in these time periods
                 day_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (day_ago,)).fetchone()[0]
                 week_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (week_ago,)).fetchone()[0]
                 month_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (month_ago,)).fetchone()[0]
-                
+
                 day_cost = day_items * 0.000048
                 week_cost = week_items * 0.000048
                 month_cost = month_items * 0.000048
-                
+
                 cost_display = f"Day: ${day_cost:.4f} | Week: ${week_cost:.4f} | Month: ${month_cost:.4f}"
-        
+
         # Get transcript statistics
         transcript_stats_data = {}
         try:
@@ -290,7 +290,7 @@ async def get_mobile_dashboard_html():
             <h1>🧠 Atlas Dashboard</h1>
             <p class="status-good">✅ System Running</p>
         </div>
-        
+
         <div class="card">
             <h2>⚡ Processing Status</h2>
             <div class="{"status-processing" if mass_processing_running or remaining_items > 0 else "status-good"}">
@@ -304,7 +304,7 @@ async def get_mobile_dashboard_html():
             </div>
             {f'<div class="monospace">⏱️  ~{remaining_items//500:.0f} hours remaining</div>' if mass_processing_running else ''}
         </div>
-        
+
         <div class="card">
             <h2>📊 Content Library</h2>
             <div class="stats-grid">
@@ -326,7 +326,7 @@ async def get_mobile_dashboard_html():
                 </div>
             </div>
         </div>
-        
+
         <div class="card">
             <h2>🎙️ Transcript Statistics</h2>
             <div class="stats-grid">
@@ -352,14 +352,14 @@ async def get_mobile_dashboard_html():
             <h3>Top Podcasts by Transcripts</h3>
             {''.join([f'<div class="recent-item">{item.get("podcast_name", "N/A")}: {item.get("transcript_count", 0)}</div>' for item in transcript_stats_data.get('podcast_stats', [])])}
         </div>
-        
+
         <div class="card">
             <h2>💰 Processing Costs</h2>
             <div class="monospace">
                 {cost_display}
             </div>
         </div>
-        
+
         <div class="card">
             <h2>🚀 Quick Actions</h2>
             <form id="urlForm">
@@ -367,17 +367,17 @@ async def get_mobile_dashboard_html():
                 <button type="submit" class="btn">Save to Atlas</button>
             </form>
         </div>
-        
+
         <div class="card">
             <h2>📝 Recently Processed</h2>
             {''.join([f'<div class="recent-item">#{item[0]}: {item[1][:60]}{"..." if len(item[1]) > 60 else ""}</div>' for item in recent])}
         </div>
     </div>
-    
+
     <div class="refresh-indicator">
         Auto-refresh every 30 seconds
     </div>
-    
+
     <!-- Atlas Dashboards -->
     <div class="card">
         <h2>🧭 Atlas Dashboards</h2>
@@ -390,7 +390,7 @@ async def get_mobile_dashboard_html():
             </a>
         </div>
     </div>
-    
+
     <!-- Quick Tools -->
     <div class="card">
         <h2>🛠️ Atlas Tools</h2>
@@ -415,33 +415,33 @@ async def get_mobile_dashboard_html():
             💡 <strong>Tip:</strong> Use the bookmarklet on any website to save articles to Atlas instantly
         </div>
     </div>
-    
+
     <div style="text-align: center; margin-top: 30px; padding: 20px; border-top: 1px solid #e5e7eb;">
         <a href="https://github.com/Khamel83/atlas" target="_blank" style="color: #6b7280; text-decoration: none; font-size: 14px;">
             📚 Atlas on GitHub
         </a>
     </div>
-    
+
     <script>
         // Auto-refresh every 30 seconds
         setInterval(() => location.reload(), 30000);
-        
+
         // Handle URL form submission
         document.getElementById('urlForm').addEventListener('submit', async (e) => {{
             e.preventDefault();
             const url = document.getElementById('urlInput').value;
             const btn = e.target.querySelector('.btn');
-            
+
             btn.textContent = 'Saving...';
             btn.disabled = true;
-            
+
             try {{
                 const response = await fetch('/api/v1/content/submit-url', {{
                     method: 'POST',
                     headers: {{'Content-Type': 'application/json'}},
                     body: JSON.stringify({{url: url}})
                 }});
-                
+
                 if (response.ok) {{
                     document.getElementById('urlInput').value = '';
                     btn.textContent = '✅ Saved!';
@@ -472,39 +472,39 @@ async def get_mobile_dashboard_html():
         // Handle file upload
         async function uploadFile(file) {{
             if (!file) return;
-            
+
             const btn = document.getElementById('uploadBtn');
             const result = document.getElementById('uploadResult');
-            
+
             btn.textContent = '📤 Uploading...';
             btn.style.cursor = 'not-allowed';
             result.style.display = 'none';
-            
+
             const formData = new FormData();
             formData.append('file', file);
-            
+
             try {{
                 const response = await fetch('/upload', {{
                     method: 'POST',
                     body: formData
                 }});
-                
+
                 const data = await response.json();
-                
+
                 if (data.success) {{
                     btn.textContent = '✅ Upload Complete!';
                     btn.style.background = 'linear-gradient(135deg, #48bb78, #38a169)';
-                    
+
                     const res = data.results;
                     let resultHtml = `<strong>✅ ${{res.filename}}</strong><br>`;
                     resultHtml += `Type: ${{res.type}} | `;
-                    
+
                     if (res.data) {{
                         if (res.data.rows) resultHtml += `${{res.data.rows}} rows, ${{res.data.columns.length}} columns`;
                         else if (res.data.lines) resultHtml += `${{res.data.lines}} lines, ${{Math.round(res.data.size/1024)}}KB`;
                         else if (res.data.files) resultHtml += `${{res.data.files}} files in archive`;
                     }}
-                    
+
                     result.innerHTML = resultHtml;
                     result.style.display = 'block';
                     result.style.background = '#f0fff4';
@@ -513,14 +513,14 @@ async def get_mobile_dashboard_html():
                 }} else {{
                     btn.textContent = '❌ Upload Failed';
                     btn.style.background = 'linear-gradient(135deg, #f56565, #e53e3e)';
-                    
+
                     result.innerHTML = `<strong>❌ Error:</strong> ${{data.error}}`;
                     result.style.display = 'block';
                     result.style.background = '#fff5f5';
                     result.style.color = '#742a2a';
                     result.style.border = '1px solid #feb2b2';
                 }}
-                
+
                 // Reset button after 3 seconds
                 setTimeout(() => {{
                     btn.textContent = '📁 Upload File (CSV, JSON, TXT, ZIP)';
@@ -528,17 +528,17 @@ async def get_mobile_dashboard_html():
                     btn.style.cursor = 'pointer';
                     document.getElementById('fileInput').value = '';
                 }}, 3000);
-                
+
             }} catch (error) {{
                 btn.textContent = '❌ Upload Error';
                 btn.style.background = 'linear-gradient(135deg, #f56565, #e53e3e)';
-                
+
                 result.innerHTML = `<strong>❌ Network Error:</strong> ${{error.message}}`;
                 result.style.display = 'block';
                 result.style.background = '#fff5f5';
                 result.style.color = '#742a2a';
                 result.style.border = '1px solid #feb2b2';
-                
+
                 setTimeout(() => {{
                     btn.textContent = '📁 Upload File (CSV, JSON, TXT, ZIP)';
                     btn.style.background = 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)';
@@ -551,23 +551,23 @@ async def get_mobile_dashboard_html():
         async function processCSV() {{
             const btn = document.getElementById('processBtn');
             const progress = document.getElementById('csvProgress');
-            
+
             btn.textContent = '🚀 Starting CSV Processing...';
             btn.style.cursor = 'not-allowed';
             progress.style.display = 'block';
             progress.innerHTML = 'Initializing batch processing...';
-            
+
             try {{
                 const response = await fetch('/process-csv', {{
                     method: 'POST'
                 }});
-                
+
                 const result = await response.json();
-                
+
                 if (result.success) {{
                     btn.textContent = '✅ Processing Started!';
                     progress.innerHTML = `<strong>🚀 Batch Processing Started</strong><br>Processing ${{result.total_urls}} URLs through Atlas ingestion pipeline...`;
-                    
+
                     // Start progress monitoring
                     startProgressMonitoring();
                 }} else {{
@@ -576,7 +576,7 @@ async def get_mobile_dashboard_html():
                     progress.style.background = '#fff5f5';
                     progress.style.borderColor = '#feb2b2';
                 }}
-                
+
             }} catch (error) {{
                 btn.textContent = '❌ Network Error';
                 progress.innerHTML = `<strong>❌ Network Error:</strong> ${{error.message}}`;
@@ -590,10 +590,10 @@ async def get_mobile_dashboard_html():
                 try {{
                     const response = await fetch('/csv-status');
                     const status = await response.json();
-                    
+
                     const progress = document.getElementById('csvProgress');
                     const percentage = status.total > 0 ? Math.round((status.processed / status.total) * 100) : 0;
-                    
+
                     if (status.active) {{
                         progress.innerHTML = `
                             <strong>📊 Processing in Progress</strong><br>
@@ -601,7 +601,7 @@ async def get_mobile_dashboard_html():
                             ✅ Succeeded: ${{status.succeeded}} | ❌ Failed: ${{status.failed}}<br>
                             <small>Current: ${{status.current_url || 'Loading...'}}</small>
                         `;
-                        
+
                         // Continue monitoring
                         setTimeout(updateProgress, 2000);
                     }} else {{
@@ -614,19 +614,19 @@ async def get_mobile_dashboard_html():
                             `;
                             progress.style.background = '#f0fff4';
                             progress.style.borderColor = '#9ae6b4';
-                            
+
                             // Reset button
                             const btn = document.getElementById('processBtn');
                             btn.textContent = '🚀 Process All URLs from CSV (6,194 URLs)';
                             btn.style.cursor = 'pointer';
                         }}
                     }}
-                    
+
                 }} catch (error) {{
                     console.log('Progress monitoring error:', error);
                 }}
             }};
-            
+
             // Start monitoring immediately
             updateProgress();
         }}
@@ -634,9 +634,9 @@ async def get_mobile_dashboard_html():
 </body>
 </html>
         '''
-        
+
         return html
-        
+
     except Exception as e:
         # Fallback error page
         return f'''
@@ -662,10 +662,10 @@ def is_safe_file(filename: str, content: bytes) -> tuple[bool, str]:
     """Check if file is safe to process."""
     ALLOWED_EXTENSIONS = {'.txt', '.csv', '.json', '.md', '.zip', '.log'}
     _, ext = os.path.splitext(filename.lower())
-    
+
     if ext not in ALLOWED_EXTENSIONS:
         return False, f"File extension '{ext}' not allowed"
-    
+
     # Skip magic check for now to avoid import issues
     return True, "File appears safe"
 
@@ -676,23 +676,23 @@ async def upload_file(file: UploadFile = File(...)):
         content = await file.read()
         if len(content) > 50 * 1024 * 1024:
             return JSONResponse(status_code=413, content={"error": "File too large (50MB max)"})
-        
+
         is_safe, safety_msg = is_safe_file(file.filename, content)
         if not is_safe:
             return JSONResponse(status_code=400, content={"error": f"File rejected: {safety_msg}"})
-        
+
         # Save file
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         safe_filename = f"{timestamp}_{file.filename}"
         filepath = os.path.join(UPLOAD_DIR, safe_filename)
-        
+
         with open(filepath, 'wb') as f:
             f.write(content)
-        
+
         # Process based on file type
         _, ext = os.path.splitext(file.filename.lower())
         results = {"filename": file.filename, "type": ext, "processed": True, "path": filepath}
-        
+
         if ext == '.csv':
             try:
                 import pandas as pd
@@ -706,9 +706,9 @@ async def upload_file(file: UploadFile = File(...)):
                 }
             except Exception as e:
                 results["error"] = str(e)
-        
+
         return JSONResponse(content={"success": True, "results": results})
-        
+
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": f"Upload failed: {str(e)}"})
 
@@ -724,33 +724,33 @@ async def get_csv_status():
 async def process_csv_urls():
     """Process all URLs from the most recent uploaded CSV file."""
     global csv_processing_status
-    
+
     if csv_processing_status["active"]:
         return JSONResponse(content={"error": "CSV processing already in progress"})
-    
+
     try:
         # Find the most recent CSV file
         import glob
         csv_files = glob.glob(os.path.join(UPLOAD_DIR, "*ip.csv"))
         if not csv_files:
             return JSONResponse(content={"error": "No CSV file found"})
-        
+
         latest_csv = max(csv_files, key=os.path.getmtime)
-        
+
         # Read CSV and extract URLs, separating email vs web URLs
         import pandas as pd
         df = pd.read_csv(latest_csv)
-        
+
         # Separate email URLs from web URLs
         email_urls = df[df['URL'].str.startswith('instapaper-private://email/')].copy()
         web_urls = df[~df['URL'].str.startswith('instapaper-private://email/')]['URL'].dropna().tolist()
-        
+
         # Process email URLs for title matching and web search
         email_matches, email_searches = await process_email_urls(email_urls)
-        
+
         # Combine web URLs with found URLs from email searches
         urls = web_urls + email_searches
-        
+
         # Initialize status
         csv_processing_status = {
             "active": True,
@@ -761,17 +761,17 @@ async def process_csv_urls():
             "current_url": "",
             "start_time": datetime.datetime.now().isoformat()
         }
-        
+
         # Process URLs in background
         import asyncio
         asyncio.create_task(process_urls_batch(urls))
-        
+
         return JSONResponse(content={
-            "success": True, 
+            "success": True,
             "message": f"Started processing {len(urls)} URLs from {os.path.basename(latest_csv)}",
             "total_urls": len(urls)
         })
-        
+
     except Exception as e:
         csv_processing_status["active"] = False
         return JSONResponse(status_code=500, content={"error": f"Failed to start CSV processing: {str(e)}"})
@@ -780,29 +780,29 @@ async def process_urls_batch(urls):
     """Process URLs in batch using unified Atlas ingestion queue."""
     from helpers.unified_ingestion import submit_urls
     global csv_processing_status
-    
+
     if not urls:
         csv_processing_status["active"] = False
         csv_processing_status["current_url"] = "COMPLETED"
         return
-    
+
     try:
         # Submit ALL URLs to unified queue in one operation
         job_ids = submit_urls(urls, priority=60, source="csv_upload")
-        
+
         # Update status
         csv_processing_status["processed"] = len(urls)
         csv_processing_status["succeeded"] = len(job_ids)
         csv_processing_status["failed"] = len(urls) - len(job_ids)
         csv_processing_status["current_url"] = f"Queued {len(job_ids)} URLs"
-        
+
         print(f"✅ CSV Processing: Queued {len(job_ids)} URLs via unified ingestion system")
-        
+
     except Exception as e:
         csv_processing_status["failed"] = len(urls)
         csv_processing_status["current_url"] = f"Error: {str(e)}"
         print(f"❌ CSV Processing failed: {e}")
-    
+
     # Mark as completed
     csv_processing_status["active"] = False
     csv_processing_status["current_url"] = "COMPLETED"
@@ -812,24 +812,24 @@ async def process_email_urls(email_df):
     import sqlite3
     import pandas as pd
     from helpers.simple_database import SimpleDatabase
-    
+
     db = SimpleDatabase()
     matched_count = 0
     search_urls = []
-    
+
     with db.get_connection() as conn:
         for _, row in email_df.iterrows():
             title = row['Title'].strip() if pd.notna(row['Title']) else ""
             if not title:
                 continue
-                
+
             # Search for existing content with similar title
             cursor = conn.execute(
                 "SELECT url FROM content WHERE title LIKE ? AND url NOT LIKE 'instapaper-private:%' LIMIT 1",
                 (f"%{title}%",)
             )
             existing = cursor.fetchone()
-            
+
             if existing:
                 matched_count += 1
                 # Already have this content
@@ -837,10 +837,10 @@ async def process_email_urls(email_df):
             else:
                 # Need to web search for this title
                 search_urls.append(await web_search_for_title(title))
-    
+
     # Filter out None results from failed searches
     found_urls = [url for url in search_urls if url]
-    
+
     return matched_count, found_urls
 
 async def web_search_for_title(title):
@@ -849,9 +849,9 @@ async def web_search_for_title(title):
     import sys
     import os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    
+
     from helpers.google_search_fallback import search_with_google_fallback
-    
+
     try:
         # Use the new fallback system with background processing
         result = await search_with_google_fallback(title, priority=3)  # Background priority
@@ -870,7 +870,7 @@ async def test_web_search(request: dict):
     title = request.get("title", "")
     if not title:
         return {"error": "Title is required"}
-    
+
     result = await web_search_for_title(title)
     return {"title": title, "found_url": result}
 
@@ -880,9 +880,9 @@ async def get_google_search_stats():
     import sys
     import os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    
+
     from helpers.google_search_fallback import get_google_search_stats
-    
+
     try:
         stats = get_google_search_stats()
         return stats
@@ -895,7 +895,7 @@ async def google_search_analytics():
     import sys
     import os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    
+
     try:
         from helpers.google_search_analytics import create_monitoring_dashboard
         return create_monitoring_dashboard()
@@ -908,7 +908,7 @@ async def google_search_report():
     import sys
     import os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    
+
     try:
         from helpers.google_search_analytics import GoogleSearchMonitor
         monitor = GoogleSearchMonitor()

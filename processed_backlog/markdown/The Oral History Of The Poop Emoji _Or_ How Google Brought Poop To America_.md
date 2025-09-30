@@ -12,7 +12,7 @@
 
 # fastcompany.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![fastcompany.com]()
 

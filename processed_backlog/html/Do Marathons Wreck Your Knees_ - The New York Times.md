@@ -31,7 +31,7 @@ in these measures, known as T2 and T1rho values, have been linked to cartilage d
 Three months after the race, the runners’ T2 values had returned to normal, but their T1rho values remained elevated, although they were declining. Whether the remaining increase was permanent and whether it
 indicated that, at some deep, molecular level the marathon had changed the runners’ knee cartilage, ‘‘is simply unclear at this point,’’ Dr. Luke said.
 
-In other words, the issue of whether distance running does or does not harm your knees would appear still to be open (to the considerable satisfaction of some of my nonrunning friends).  
+In other words, the issue of whether distance running does or does not harm your knees would appear still to be open (to the considerable satisfaction of some of my nonrunning friends).
  Yet another new study, however,
 offers some additional and consequential evidence. For that study, published in July in The Journal of the American College of Sports Medicine, researchers at Monash University in Melbourne, Australia, compiled
 and reviewed several decades’ worth of studies about activity and knee health. The reviewed studies involved a variety of sports, not just distance running. But those other sports, notably basketball and

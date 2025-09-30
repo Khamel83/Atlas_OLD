@@ -127,7 +127,7 @@ Imagine there are four products each delivered as a monthly subscription. We hav
 
 * CasualFan: Someone who would value the good if they had access to it, but lack one of the two SuperFan criteria ー either they aren’t willing to pay the a-la-carte price for the good, or don’t have the activation energy to seek it out, or both.
 
-* 
+*
 
 NonFan: Someone who will ascribe zero (or perhaps negative) value to having access to the good.
 
@@ -204,11 +204,11 @@ The NBA and other major sports are, to be clear, not newspapers: there is only o
 
 The impact of the Internet on industry after industry, medium after medium, is to give customers choice: the entities that thrive work diligently to build a direct connection with customers and increase the attractiveness of the product, and the rest get ground up in the grist of Aggregation.
 
-* 
+*
 
 Yes, that race is in April, so I’m stretching the “anniversary” angle a bit ↩︎ ( #rf1-10562 )
 
-* 
+*
 
 One of the best examples of a misplaced focus on revenue is that the NBA Finals are sponsored by YouTube TV, which does not carry regional sports networks, and then runs commercials during the Finals advertising their lower prices. The NBA is literally collecting money from an entity that is killing one of its key sources of revenue ↩︎ ( #rf2-10562 )
 

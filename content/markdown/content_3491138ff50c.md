@@ -46,7 +46,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<header class="vector-header mw-header no-font-mode-scale">
 		<div class="vector-header-start">
 			<nav class="vector-main-menu-landmark" aria-label="Site">
-				
+
 <div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
 	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
 	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
@@ -56,7 +56,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
-		
+
 <div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
@@ -75,12 +75,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Navigation
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -89,12 +89,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Contribute
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages"><span>Special pages</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -106,7 +106,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </div>
 
 </nav>
-			
+
 <a href="/wiki/Main_Page" class="mw-logo">
 	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
 	<span class="mw-logo-container skin-invert">
@@ -117,7 +117,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 </div>
 		<div class="vector-header-end">
-			
+
 <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
 	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
 
@@ -144,31 +144,31 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
 	<div class="vector-user-links-main">
-	
+
 <div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <nav class="vector-appearance-landmark" aria-label="Appearance">
-		
+
 <div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
 	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
 	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
@@ -178,28 +178,28 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
-				
+
 			</div>
-		
+
 	</div>
 </div>
 
 </nav>
-	
+
 <div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
 <div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
 			<li id="pt-sitesupport-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" class=""><span>Donate</span></a>
 </li>
@@ -209,12 +209,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 </li>
 
 </ul>
-		
+
 	</div>
 </div>
 
 </div>
-	
+
 <div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
 	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
 	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
@@ -225,12 +225,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="pt-sitesupport" class="user-links-collapsible-item mw-list-item"><a href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en"><span>Donate</span></a></li><li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Gerald+Jay+Sussman" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Gerald+Jay+Sussman" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -239,12 +239,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -266,7 +266,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		<div id="mw-navigation">
 			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
 				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
-				
+
 				</div>
 		</nav>
 		</div>
@@ -279,8 +279,8 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
 	data-feature-name="toc-pinned"
 	data-pinnable-element-id="vector-toc"
-	
-	
+
+
 >
 	<h2 class="vector-pinnable-header-label">Contents</h2>
 	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
@@ -302,7 +302,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Education</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Education-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -314,7 +314,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Academic work</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Academic_work-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -326,7 +326,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Awards and organizations</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Awards_and_organizations-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -338,7 +338,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Personal life</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Personal_life-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -350,7 +350,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>Select bibliography</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-Select_bibliography-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -362,7 +362,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>See also</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-See_also-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -374,7 +374,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>References</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-References-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -386,7 +386,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 				<span>External links</span>
 			</div>
 		</a>
-		
+
 		<ul id="toc-External_links-sublist" class="vector-toc-list">
 		</ul>
 	</li>
@@ -401,7 +401,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 			<main id="content" class="mw-body">
 				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
 					<nav aria-label="Contents" class="vector-toc-landmark">
-						
+
 <div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
 	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
 	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
@@ -412,13 +412,13 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
 			</div>
-		
+
 	</div>
 </div>
 
 </nav>
 					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Gerald Jay Sussman</span></h1>
-							
+
 <div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
 	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 15 languages"   >
 	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-15" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
@@ -428,9 +428,9 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div class="vector-menu-content">
-			
+
 			<ul class="vector-menu-content-list">
-				
+
 				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D9%8A%D8%B1%D8%A7%D9%84%D8%AF_%D8%AC%D8%A7%D9%8A_%D8%B3%D9%88%D8%B3%D9%85%D8%A7%D9%86" title="جيرالد جاي سوسمان – Arabic" lang="ar" hreflang="ar" data-title="جيرالد جاي سوسمان" data-language-autonym="العربية" data-language-local-name="Arabic" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D8%AC%D8%B1%D8%A7%D9%84%D8%AF_%D8%AC%DB%8C_%D8%B3%D8%A7%D8%B3%D9%85%D9%86" title="جرالد جی ساسمن – South Azerbaijani" lang="azb" hreflang="azb" data-title="جرالد جی ساسمن" data-language-autonym="تۆرکجه" data-language-local-name="South Azerbaijani" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Gerald_Jay_Sussman" title="Gerald Jay Sussman – German" lang="de" hreflang="de" data-title="Gerald Jay Sussman" data-language-autonym="Deutsch" data-language-local-name="German" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Gerald_Sussman" title="Gerald Sussman – Spanish" lang="es" hreflang="es" data-title="Gerald Sussman" data-language-autonym="Español" data-language-local-name="Spanish" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%AC%D8%B1%D8%A7%D9%84%D8%AF_%D8%AC%DB%8C_%D8%B3%D8%A7%D8%B3%D9%85%D9%86" title="جرالد جی ساسمن – Persian" lang="fa" hreflang="fa" data-title="جرالد جی ساسمن" data-language-autonym="فارسی" data-language-local-name="Persian" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Gerald_Jay_Sussman" title="Gerald Jay Sussman – French" lang="fr" hreflang="fr" data-title="Gerald Jay Sussman" data-language-autonym="Français" data-language-local-name="French" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%9F%B4%EB%93%9C_%EC%A0%9C%EC%9D%B4_%EC%84%9C%EC%8A%A4%EB%A8%BC" title="제럴드 제이 서스먼 – Korean" lang="ko" hreflang="ko" data-title="제럴드 제이 서스먼" data-language-autonym="한국어" data-language-local-name="Korean" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Gerald_Jay_Sussman" title="Gerald Jay Sussman – Italian" lang="it" hreflang="it" data-title="Gerald Jay Sussman" data-language-autonym="Italiano" data-language-local-name="Italian" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ht mw-list-item"><a href="https://ht.wikipedia.org/wiki/Gerald_Jay_Sussman" title="Gerald Jay Sussman – Haitian Creole" lang="ht" hreflang="ht" data-title="Gerald Jay Sussman" data-language-autonym="Kreyòl ayisyen" data-language-local-name="Haitian Creole" class="interlanguage-link-target"><span>Kreyòl ayisyen</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a href="https://mg.wikipedia.org/wiki/Gerald_Jay_Sussman" title="Gerald Jay Sussman – Malagasy" lang="mg" hreflang="mg" data-title="Gerald Jay Sussman" data-language-autonym="Malagasy" data-language-local-name="Malagasy" class="interlanguage-link-target"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%AC%D9%8A%D8%B1%D8%A7%D9%84%D8%AF_%D8%AC%D8%A7%D9%89_%D8%B3%D9%88%D8%B3%D9%85%D8%A7%D9%86" title="جيرالد جاى سوسمان – Egyptian Arabic" lang="arz" hreflang="arz" data-title="جيرالد جاى سوسمان" data-language-autonym="مصرى" data-language-local-name="Egyptian Arabic" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%AB%E3%83%89%E3%83%BB%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%BB%E3%82%B5%E3%82%B9%E3%83%9E%E3%83%B3" title="ジェラルド・ジェイ・サスマン – Japanese" lang="ja" hreflang="ja" data-title="ジェラルド・ジェイ・サスマン" data-language-autonym="日本語" data-language-local-name="Japanese" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Gerald_Sussman" title="Gerald Sussman – Portuguese" lang="pt" hreflang="pt" data-title="Gerald Sussman" data-language-autonym="Português" data-language-local-name="Portuguese" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%81%D1%81%D0%BC%D0%B0%D0%BD,_%D0%94%D0%B6%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%B4_%D0%94%D0%B6%D0%B5%D0%B9" title="Сассман, Джеральд Джей – Russian" lang="ru" hreflang="ru" data-title="Сассман, Джеральд Джей" data-language-autonym="Русский" data-language-local-name="Russian" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E5%82%91%E6%8B%89%E5%BE%B7%C2%B7%E5%82%91%E4%BC%8A%C2%B7%E8%96%A9%E6%96%AF%E6%9B%BC" title="傑拉德·傑伊·薩斯曼 – Chinese" lang="zh" hreflang="zh" data-title="傑拉德·傑伊·薩斯曼" data-language-autonym="中文" data-language-local-name="Chinese" class="interlanguage-link-target"><span>中文</span></a></li>
 			</ul>
 			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q92981#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
@@ -443,15 +443,15 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<div class="vector-page-toolbar-container">
 						<div id="left-navigation">
 							<nav aria-label="Namespaces">
-								
+
 <div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Gerald_Jay_Sussman" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Gerald_Jay_Sussman" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -463,12 +463,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 
 <div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
-			
+
+
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -479,22 +479,22 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 						</div>
 						<div id="right-navigation" class="vector-collapsible">
 							<nav aria-label="Views">
-								
+
 <div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Gerald_Jay_Sussman"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
 </nav>
-				
+
 							<nav class="vector-page-tools-landmark" aria-label="Page tools">
-								
+
 <div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
 	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
 	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
@@ -502,7 +502,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 	<div class="vector-dropdown-content">
 
 <div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
-						
+
 <div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
 	<div
 	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
@@ -521,12 +521,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Actions
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Gerald_Jay_Sussman"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=history"><span>View history</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -535,12 +535,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		General
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Gerald_Jay_Sussman" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Gerald_Jay_Sussman" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;oldid=1304305924" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Gerald_Jay_Sussman&amp;id=1304305924&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGerald_Jay_Sussman"><span>Get shortened URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Special:QrCode&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGerald_Jay_Sussman"><span>Download QR code</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -549,12 +549,12 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		Print/export
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Gerald_Jay_Sussman&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
@@ -563,19 +563,19 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 		In other projects
 	</div>
 	<div class="vector-menu-content">
-		
+
 		<ul class="vector-menu-content-list">
-			
+
 			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Gerald_Jay_Sussman" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://en.wikisource.org/wiki/Author:Gerald_Jay_Sussman" hreflang="en"><span>Wikisource</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q92981" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
 		</ul>
-		
+
 	</div>
 </div>
 
 </div>
 
 </div>
-				
+
 	</div>
 </div>
 
@@ -587,7 +587,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 					<div class="vector-sticky-pinned-container">
 						<nav class="vector-page-tools-landmark" aria-label="Page tools">
 							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
-				
+
 							</div>
 		</nav>
 						<nav class="vector-appearance-landmark" aria-label="Appearance">
@@ -619,9 +619,9 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 <div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
 					</div>
 					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
-					
-					
-					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">American computer scientist</div> 
+
+
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">American computer scientist</div>
 <p class="mw-empty-elt">
 </p>
 <style data-mw-deduplicate="TemplateStyles:r1295905060">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn">Gerald Jay Sussman</div></th></tr><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:Jerry_Sussman.jpg" class="mw-file-description"><img alt="Photograph of head of a man wearing glasses and a dark burgundy fez hat" src="//upload.wikimedia.org/wikipedia/commons/0/0e/Jerry_Sussman.jpg" decoding="async" width="206" height="300" class="mw-file-element" data-file-width="206" data-file-height="300" /></a></span><div class="infobox-caption">Gerald Sussman appearing in a 1986 video recording of the SICP lectures</div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><span style="display:none"> (<span class="bday">1947-02-08</span>) </span>February 8, 1947<span class="noprint ForceAgeToShow"> (age&#160;78)</span><br /><div style="display:inline" class="birthplace">US</div></td></tr><tr><th scope="row" class="infobox-label">Education</th><td class="infobox-data"><a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a> (<a href="/wiki/Bachelor_of_Science" title="Bachelor of Science">SB</a> 1968, <a href="/wiki/Doctor_of_Philosophy" title="Doctor of Philosophy">PhD</a> 1973)</td></tr><tr><th scope="row" class="infobox-label">Known&#160;for</th><td class="infobox-data"><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial intelligence</a><br /><i><a href="/wiki/Structure_and_Interpretation_of_Computer_Programs" title="Structure and Interpretation of Computer Programs">Structure and Interpretation of Computer Programs</a></i> (SICP)</td></tr><tr><th scope="row" class="infobox-label">Spouse</th><td class="infobox-data"><a href="/wiki/Julie_Sussman" class="mw-redirect" title="Julie Sussman">Julie Sussman</a></td></tr><tr><th scope="row" class="infobox-label">Awards</th><td class="infobox-data"><a href="/wiki/IJCAI_Computers_and_Thought_Award" title="IJCAI Computers and Thought Award">IJCAI Computers and Thought Award</a> (1981)<br /><a href="/wiki/ACM_Fellow" title="ACM Fellow">ACM Fellow</a> (1990)</td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1295905060" /><b>Scientific career</b></td></tr><tr><th scope="row" class="infobox-label">Fields</th><td class="infobox-data category"><a href="/wiki/Cognitive_science" title="Cognitive science">Cognitive science</a>, <a href="/wiki/Electrical_engineering" title="Electrical engineering">electrical engineering</a>, <a href="/wiki/Computer_science" title="Computer science">computer science</a></td></tr><tr><th scope="row" class="infobox-label">Institutions</th><td class="infobox-data"><a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Thesis" title="Thesis">Thesis</a></th><td class="infobox-data"><i> A Computational Model of Skill Acquisition </i>&#160;<span style="font-size:97%;">(1973)</span></td></tr><tr><th scope="row" class="infobox-label"><a href="/wiki/Doctoral_advisor" title="Doctoral advisor">Doctoral advisor</a></th><td class="infobox-data"><a href="/wiki/Seymour_Papert" title="Seymour Papert">Seymour Papert</a></td></tr><tr><th scope="row" class="infobox-label">Doctoral students</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist">
@@ -645,7 +645,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 <div class="mw-heading mw-heading2"><h2 id="Academic_work">Academic work</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gerald_Jay_Sussman&amp;action=edit&amp;section=2" title="Edit section: Academic work"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
 <p>Sussman is a coauthor (with <a href="/wiki/Hal_Abelson" title="Hal Abelson">Hal Abelson</a> and <a href="/wiki/Julie_Sussman" class="mw-redirect" title="Julie Sussman">Julie Sussman</a>) of the introductory computer science textbook <i><a href="/wiki/Structure_and_Interpretation_of_Computer_Programs" title="Structure and Interpretation of Computer Programs">Structure and Interpretation of Computer Programs</a></i> (SICP). It was used at MIT for several decades, and has been translated into several languages.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2020)">citation needed</span></a></i>&#93;</sup>
 </p><p>Sussman's contributions to <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">artificial intelligence</a> include problem solving by debugging almost-right plans, propagation of constraints applied to electrical circuit analysis and synthesis, dependency-based explanation and dependency-based backtracking, and various language structures for expressing problem-solving strategies. Sussman and his former student, <a href="/wiki/Guy_L._Steele_Jr." title="Guy L. Steele Jr.">Guy L. Steele Jr.</a>, invented the programming language <a href="/wiki/Scheme_(programming_language)" title="Scheme (programming language)">Scheme</a> in 1975.
-</p><p>Sussman saw that artificial intelligence ideas can be applied to <a href="/wiki/Computer-aided_design" title="Computer-aided design">computer-aided design</a> (CAD). Sussman developed, with his graduate students, sophisticated computer-aided design tools for <a href="/wiki/Very_Large_Scale_Integration" class="mw-redirect" title="Very Large Scale Integration">Very Large Scale Integration</a> (VLSI). Steele made the first Scheme hardware chips in 1978.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2025)">citation needed</span></a></i>&#93;</sup> These ideas and the AI-based CAD technology to support them were further developed in the Scheme chips of 1979 and 1981. The technique and experience developed were then used to design other special-purpose computers. 
+</p><p>Sussman saw that artificial intelligence ideas can be applied to <a href="/wiki/Computer-aided_design" title="Computer-aided design">computer-aided design</a> (CAD). Sussman developed, with his graduate students, sophisticated computer-aided design tools for <a href="/wiki/Very_Large_Scale_Integration" class="mw-redirect" title="Very Large Scale Integration">Very Large Scale Integration</a> (VLSI). Steele made the first Scheme hardware chips in 1978.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2025)">citation needed</span></a></i>&#93;</sup> These ideas and the AI-based CAD technology to support them were further developed in the Scheme chips of 1979 and 1981. The technique and experience developed were then used to design other special-purpose computers.
 </p><p>Sussman was the principal designer of the <a href="/wiki/Digital_Orrery" class="mw-redirect" title="Digital Orrery">Digital Orrery</a>,<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2025)">citation needed</span></a></i>&#93;</sup> a machine designed to do high-precision integrations for <a href="/wiki/Orbital_mechanics" title="Orbital mechanics">orbital mechanics</a> experiments.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup> The Orrery hardware was designed and built by a few people in a few months.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2025)">citation needed</span></a></i>&#93;</sup>
 </p><p>Using the Digital Orrery, Sussman has worked with <a href="/wiki/Jack_Wisdom" title="Jack Wisdom">Jack Wisdom</a> to discover numerical evidence for <a href="/wiki/Chaos_theory" title="Chaos theory">chaotic motions</a> in the outer planets. The Digital Orrery machine is now retired at the <a href="/wiki/Smithsonian_Institution" title="Smithsonian Institution">Smithsonian Institution</a> in Washington, DC.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2025)">citation needed</span></a></i>&#93;</sup> Sussman was also the lead designer of the Supercomputer Toolkit, another <a href="/wiki/Multiprocessor" class="mw-redirect" title="Multiprocessor">multiprocessor</a> computer optimized for evolving of <a href="/wiki/Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equations</a>. The Supercomputer Toolkit was used by Sussman and Wisdom to confirm and extend the discoveries made with the Digital Orrery to include the entire planetary system.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup>
 </p><p>Sussman has pioneered the use of computational descriptions to communicate methodological ideas in teaching subjects in Electrical Circuits and in Signals and Systems. Over the past decade Sussman and Wisdom have developed a subject that uses computational techniques to communicate a deeper understanding of advanced <a href="/wiki/Classical_mechanics" title="Classical mechanics">classical mechanics</a>. In <i>Computer Science: Reflections on the Field, Reflections from the Field</i>,<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2025)">citation needed</span></a></i>&#93;</sup> he writes "... computational algorithms are used to express the methods used in the analysis of dynamical phenomena. Expressing the methods in a computer language forces them to be unambiguous and computationally effective. Students are expected to read the programs and to extend them and to write new ones. The task of formulating a method as a computer-executable program and debugging that program is a powerful exercise in the learning process. Also, once formalized procedurally, a mathematical idea becomes a tool that can be used directly to compute results." Sussman and Wisdom, with Meinhard Mayer, have produced a textbook, <i><a href="/wiki/Structure_and_Interpretation_of_Classical_Mechanics" title="Structure and Interpretation of Classical Mechanics">Structure and Interpretation of Classical Mechanics</a></i> (SICM), to capture these new ideas.
@@ -934,7 +934,7 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.style
 <li><a href="/wiki/Robin_Popplestone" title="Robin Popplestone">Robin Popplestone</a></li></ul>
 </div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><span class="noviewer" typeof="mw:File"><span title="List-Class article"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/20px-Symbol_list_class.svg.png" decoding="async" width="16" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/40px-Symbol_list_class.svg.png 1.5x" data-file-width="180" data-file-height="185" /></span></span> <b><a href="/wiki/List_of_Lisp-family_programming_languages" title="List of Lisp-family programming languages">List</a></b> <span class="noviewer" typeof="mw:File"><a href="/wiki/File:Symbol_book_class2.svg" class="mw-file-description" title="Wikipedia book"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/20px-Symbol_book_class2.svg.png" decoding="async" width="16" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/40px-Symbol_book_class2.svg.png 1.5x" data-file-width="180" data-file-height="185" /></a></span> <b><a href="https://en.wikibooks.org/wiki/Subject:Lisp_programming_language" class="extiw" title="wikibooks:Subject:Lisp programming language">Books</a></b> <span class="noviewer" typeof="mw:File"><span title="Commons page"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/20px-Commons-logo.svg.png" decoding="async" width="12" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></span></span> <b><a href="https://commons.wikimedia.org/wiki/Category:Lisp_(programming_language)" class="extiw" title="commons:Category:Lisp (programming language)">Commons</a></b> <span class="noviewer" typeof="mw:File"><span title="Category"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png" decoding="async" width="16" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/40px-Symbol_category_class.svg.png 1.5x" data-file-width="180" data-file-height="185" /></span></span> <b><a href="/wiki/Category:Lisp_(programming_language)" title="Category:Lisp (programming language)">Category</a></b> <span class="noviewer" typeof="mw:File"><span title="Category"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png" decoding="async" width="16" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/40px-Symbol_category_class.svg.png 1.5x" data-file-width="180" data-file-height="185" /></span></span> <b><a href="/wiki/Category:Lisp_programming_language_family" title="Category:Lisp programming language family">Category</a></b></div></td></tr></tbody></table></div>
 <div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1236075235" /></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_databases_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q92981#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata2746" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority_control_databases_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q92981#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata2746" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control databases</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q92981#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000115567673">ISNI</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/46791066">VIAF</a></span><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/108123313">2</a></span></li></ul></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://id.oclc.org/worldcat/entity/E39PBJv4jgbMb4QR4GTyFXxRrq">WorldCat</a></span></li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/1043872582">Germany</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/n84027941">United States</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb121078622">France</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb121078622">BnF data</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/00475814">Japan</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ntk2011627543&amp;CON_LNG=ENG">Czech Republic</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p070823316">Netherlands</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/90413182">Norway</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://lod.nl.go.kr/resource/KAC200812323">Korea</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://dbn.bn.org.pl/descriptor-details/9810703988005606">Poland</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.nli.org.il/en/authorities/987007427332505171">Israel</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://opac.kbr.be/LIBRARY/doc/AUTHORITY/14035438">Belgium</a></span></li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Academics</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://ci.nii.ac.jp/author/DA00017499?l=en">CiNii</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.mathgenealogy.org/id.php?id=20655">Mathematics Genealogy Project</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://dl.acm.org/profile/81100636113">Association for Computing Machinery</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://zbmath.org/authors/?q=ai:sussman.gerald-jay">zbMATH</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://dblp.org/pid/s/GeraldJSussman">DBLP</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://mathscinet.ams.org/mathscinet/MRAuthorID/169055">MathSciNet</a></span></li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.deutsche-digitale-bibliothek.de/person/gnd/1043872582">DDB</a></span></li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://www.idref.fr/029454727">IdRef</a></span></li><li><span class="uid"><a rel="nofollow" class="external text" href="https://lux.collections.yale.edu/view/person/9ac420b6-b1ca-4127-b30c-5c63fa424cf5">Yale LUX</a></span></li></ul></div></td></tr></tbody></table></div>
-<!-- 
+<!--
 NewPP limit report
 Parsed by mw‐web.codfw.main‐cd5666477‐ncw65
 Cached time: 20250914172843
@@ -976,10 +976,10 @@ Transclusion expansion time report (%,ms,calls,template)
 					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1947_births" title="Category:1947 births">1947 births</a></li><li><a href="/wiki/Category:20th-century_American_mathematicians" title="Category:20th-century American mathematicians">20th-century American mathematicians</a></li><li><a href="/wiki/Category:21st-century_American_mathematicians" title="Category:21st-century American mathematicians">21st-century American mathematicians</a></li><li><a href="/wiki/Category:American_computer_scientists" title="Category:American computer scientists">American computer scientists</a></li><li><a href="/wiki/Category:American_electrical_engineers" title="Category:American electrical engineers">American electrical engineers</a></li><li><a href="/wiki/Category:American_artificial_intelligence_researchers" title="Category:American artificial intelligence researchers">American artificial intelligence researchers</a></li><li><a href="/wiki/Category:Fellows_of_the_IEEE" title="Category:Fellows of the IEEE">Fellows of the IEEE</a></li><li><a href="/wiki/Category:Fellows_of_the_American_Association_for_the_Advancement_of_Science" title="Category:Fellows of the American Association for the Advancement of Science">Fellows of the American Association for the Advancement of Science</a></li><li><a href="/wiki/Category:Fellows_of_the_Association_for_the_Advancement_of_Artificial_Intelligence" title="Category:Fellows of the Association for the Advancement of Artificial Intelligence">Fellows of the Association for the Advancement of Artificial Intelligence</a></li><li><a href="/wiki/Category:Free_software_programmers" title="Category:Free software programmers">Free software programmers</a></li><li><a href="/wiki/Category:GNU_people" title="Category:GNU people">GNU people</a></li><li><a href="/wiki/Category:Jewish_American_scientists" title="Category:Jewish American scientists">Jewish American scientists</a></li><li><a href="/wiki/Category:Lisp_(programming_language)_people" title="Category:Lisp (programming language) people">Lisp (programming language) people</a></li><li><a href="/wiki/Category:Living_people" title="Category:Living people">Living people</a></li><li><a href="/wiki/Category:Massachusetts_Institute_of_Technology_School_of_Science_alumni" title="Category:Massachusetts Institute of Technology School of Science alumni">Massachusetts Institute of Technology School of Science alumni</a></li><li><a href="/wiki/Category:MIT_School_of_Engineering_faculty" title="Category:MIT School of Engineering faculty">MIT School of Engineering faculty</a></li><li><a href="/wiki/Category:Members_of_the_Free_Software_Foundation_board_of_directors" title="Category:Members of the Free Software Foundation board of directors">Members of the Free Software Foundation board of directors</a></li><li><a href="/wiki/Category:Members_of_the_United_States_National_Academy_of_Engineering" title="Category:Members of the United States National Academy of Engineering">Members of the United States National Academy of Engineering</a></li><li><a href="/wiki/Category:Programming_language_designers" title="Category:Programming language designers">Programming language designers</a></li><li><a href="/wiki/Category:21st-century_American_Jews" title="Category:21st-century American Jews">21st-century American Jews</a></li><li><a href="/wiki/Category:1994_fellows_of_the_Association_for_Computing_Machinery" title="Category:1994 fellows of the Association for Computing Machinery">1994 fellows of the Association for Computing Machinery</a></li><li><a href="/wiki/Category:American_textbook_writers" title="Category:American textbook writers">American textbook writers</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_dead_FTP_links" title="Category:Articles with dead FTP links">Articles with dead FTP links</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_April_2025" title="Category:Use mdy dates from April 2025">Use mdy dates from April 2025</a></li><li><a href="/wiki/Category:Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2020" title="Category:Articles with unsourced statements from November 2020">Articles with unsourced statements from November 2020</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2025" title="Category:Articles with unsourced statements from February 2025">Articles with unsourced statements from February 2025</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2025" title="Category:Articles with unsourced statements from April 2025">Articles with unsourced statements from April 2025</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2025" title="Category:Articles containing potentially dated statements from 2025">Articles containing potentially dated statements from 2025</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Official_website_different_in_Wikidata_and_Wikipedia" title="Category:Official website different in Wikidata and Wikipedia">Official website different in Wikidata and Wikipedia</a></li></ul></div></div>
 				</div>
 			</main>
-			
+
 		</div>
 		<div class="mw-footer-container">
-			
+
 <footer id="footer" class="mw-footer" >
 	<ul id="footer-info">
 	<li id="footer-info-lastmod"> This page was last edited on 5 August 2025, at 06:45<span class="anonymous-show">&#160;(UTC)</span>.</li>
@@ -1007,8 +1007,8 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 </footer>
 
 </div>
-	</div> 
-</div> 
+	</div>
+</div>
 <div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
 	<div id="vector-sticky-header" class="vector-sticky-header">
 		<div class="vector-sticky-header-start">
@@ -1018,7 +1018,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 <span>Search</span>
 			</button>
 		</div>
-			
+
 		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
 			<div class="vector-typeahead-search-container">
 				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
@@ -1027,7 +1027,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 							<div class="cdx-text-input cdx-text-input--has-start-icon">
 								<input
 									class="cdx-text-input__input mw-searchInput" autocomplete="off"
-									
+
 									type="search" name="search" placeholder="Search Wikipedia">
 								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
 							</div>
@@ -1040,7 +1040,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 		</div>
 		<div class="vector-sticky-header-context-bar">
 				<nav aria-label="Contents" class="vector-toc-landmark">
-						
+
 					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
 						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
 						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
@@ -1048,10 +1048,10 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 <span class="vector-dropdown-label-text">Toggle the table of contents</span>
 						</label>
 						<div class="vector-dropdown-content">
-					
+
 						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
 						</div>
-					
+
 						</div>
 					</div>
 			</nav>
@@ -1112,7 +1112,7 @@ additional terms may apply. By using this site, you agree to the <a href="https:
 </div>
 <div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
 	<ul>
-		
+
 	</ul>
 </div>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-cd5666477-b2zbc","wgBackendResponseTime":127,"wgPageParseReport":{"limitreport":{"cputime":"0.673","walltime":"0.812","ppvisitednodes":{"value":5037,"limit":1000000},"revisionsize":{"value":21423,"limit":2097152},"postexpandincludesize":{"value":154686,"limit":2097152},"templateargumentsize":{"value":9072,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":99293,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  687.081      1 -total"," 32.97%  226.519      1 Template:Reflist"," 23.86%  163.965      1 Template:Infobox_scientist"," 16.19%  111.220      9 Template:Navbox"," 16.01%  109.992     11 Template:Cite_web"," 13.74%   94.413      1 Template:Lisp_programming_language","  9.68%   66.492      1 Template:Short_description","  7.65%   52.530      6 Template:Fix","  7.21%   49.516      4 Template:Citation_needed","  7.12%   48.924      1 Template:Birth_date_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.428","limit":"10.000"},"limitreport-memusage":{"value":8930690,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-cd5666477-ncw65","timestamp":"20250914172843","ttl":2592000,"transientcontent":false}}});});</script>

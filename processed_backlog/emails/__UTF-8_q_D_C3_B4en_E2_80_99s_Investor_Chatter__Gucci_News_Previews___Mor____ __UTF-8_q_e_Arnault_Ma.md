@@ -153,7 +153,7 @@ launch that was like, My favorite brand in the ’90s partnering with my favorit
 We feel like we have such a good connection to our customer in understanding product category needs, so for us, doing collaborations is less of a testing mechanism and more [about] customer acquisition, to delight our existing customers and maybe
 convert customers. We have been strategic about pricing, knowing that our goal is to continue to convert that younger shopper into our brand with some of our opening price point items, and we’ve had a lot of success.
 
- 
+
 
 What
 We’re Reading…
@@ -186,7 +186,7 @@ don’t have a ring as extraordinary as that Princess Diana sapphire, but at the
 Social media consultant Rachel Karten breaks down what brands need to consider when they launch a Substack
 newsletter, from how to measure performance to whether or not it’s even worth it. [Link In Bio ( https://www.milkkarten.net/p/brands-posting-on-substack-strategy?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Until tomorrow,
 
@@ -217,6 +217,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVY1X36i610iK231Bn5iE=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

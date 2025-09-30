@@ -12,7 +12,7 @@
 
 # 404 Error: Page Not Found
 
-Unknown author • November 20, 2001 
+Unknown author • November 20, 2001
 
 ![404 Error: Page Not Found]()
 

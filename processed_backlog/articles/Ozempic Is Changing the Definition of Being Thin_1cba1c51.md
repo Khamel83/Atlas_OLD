@@ -159,7 +159,7 @@ Surely he misses it? Not really. “The old enjoyment, or dread, or whatever you
 * [one great story](//www.thecut.com/tags/one-great-story/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

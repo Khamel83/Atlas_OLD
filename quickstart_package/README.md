@@ -175,7 +175,7 @@ Use the share extension to capture content from any app:
    ```bash
    # Check system resources
    python helpers/resource_monitor.py
-   
+
    # Check logs
    tail -f logs/atlas_service.log
    ```
@@ -184,7 +184,7 @@ Use the share extension to capture content from any app:
    ```bash
    # Check processing logs
    tail -f logs/article_fetcher.log
-   
+
    # Verify URLs are accessible
    curl -I https://example.com/article1
    ```
@@ -193,7 +193,7 @@ Use the share extension to capture content from any app:
    ```bash
    # Check if web server is running
    ps aux | grep web/app.py
-   
+
    # Check for port conflicts
    lsof -i :8000
    ```

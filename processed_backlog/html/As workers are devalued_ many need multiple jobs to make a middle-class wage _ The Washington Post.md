@@ -49,10 +49,10 @@ The crowd applauded. The game resumed. Green walked back upstairs. The trash was
 
 **Liftoff & Letdown**: The American middle class is floundering, and it has been for decades. The Post examines the mystery of whatâs gone wrong and shows what the country must focus on to get the economy working for everyone again.
 
-**Chapter 1:**Â [Why Americaâs middle class is lost](/sf/business/2014/12/12/why-americas-middle-class-is-lost/)  
-**Chapter 3:**Â [The skills trap that keeps people poor](/sf/business/2014/12/15/the-college-trap-that-keeps-people-poor/)  
-**Chapter 4:** [A black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)  
-**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)  
+**Chapter 1:**Â [Why Americaâs middle class is lost](/sf/business/2014/12/12/why-americas-middle-class-is-lost/)
+**Chapter 3:**Â [The skills trap that keeps people poor](/sf/business/2014/12/15/the-college-trap-that-keeps-people-poor/)
+**Chapter 4:** [A black hole for our best and brightest](/sf/business/2014/12/16/a-black-hole-for-our-best-and-brightest/)
+**Chapter 5:** [Whatâs killing entrepreneurship?](/sf/business/2014/12/17/the-great-start-up-slowdown/)
 **Chapter 6:** [What went wrong, and how to fix it](/sf/business/2014/12/19/fixing-the-broken-talent-flow/)
 
 Green once held a middle-class job. Now, to make enough money to send his children to college, he works the equivalent of two full-time jobs: one maintaining highways for the state of North Carolina and one ushering fans and collecting trash for a variety of sports teams around Winston-Salem.
@@ -169,7 +169,7 @@ The American middle class is floundering, and it has been for decades. The Post 
 
 Â© 1996-2022 The Washington Post
 
-  
+
 
 [Terms of Service](https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html)
 

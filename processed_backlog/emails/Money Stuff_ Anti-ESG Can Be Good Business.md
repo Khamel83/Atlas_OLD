@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         My basic view of bubbles is that if you can identify a bubble, and you have some free time, the right move is to sell into the bubble. Not s
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Anti-ESG
-    
-  
+
+
 
 My basic view of bubbles is that if you can identify a bubble, and you have some free time, the right move is to sell into the bubble. Not sell short, mind you, which is risky; you don’t know when the bubble will pop. Sell long. Get into the business that is bubbly, because that’s where the money is. There is demand; become the supply. My  model of Adam Neumann is that he correctly identified a huge bubble in venture funding for fast-growing not-quite-tech companies, positioned himself in front of a firehose of SoftBank money, and became dynastically wealthy as that bubble popped. He was the Big Short of the recent tech bubble, but without the timing risk of actually selling short.
 Or in 2017 every random micro-cap public company  pivoted to the blockchain. Correctly!
@@ -99,63 +99,63 @@ Mr. Neugebauer said he was furious and was convinced that Mr. Ramaswamy, who wro
 
 Asset management! Beer! It doesn’t matter! The product is not the point.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Crypto custody
-    
-  
+
+
 
 I   used to   say that the fate of all crypto exchanges was to be hacked, but in fairness that has stopped being true. Big modern crypto exchanges tend to be serious professional companies that care a lot about information security, and when one is hacked and  loses $570 million of crypto, that is news, as opposed to just, you know, Thursday. It still happens though. There is some combination of factors that makes exchanges’ pots of customer crypto just irresistible to hackers, something like:
 	Cryptocurrencies are more or less bearer instruments, so if you steal a bunch of Bitcoin you can use them more easily than if you steal a bunch of Treasury bonds or whatever.	Computer hackers tend to be intellectually and aesthetically interested in crypto, so they focus their hacking energies on crypto exchanges rather than banks.	Crypto is pretty thinly regulated, so you are somewhat less likely to attract law-enforcement attention for hacking a crypto exchange than for hacking a bank.	Crypto is all pretty new, so there is less in the way of best practices around information security.	Crypto exchanges mostly aren’t just one guy with a laptop anymore, but they are still more likely to be closer to “one guy with a laptop” than the average bank is.
@@ -178,20 +178,20 @@ A worker in Bulgaria, who processed the refund, had entered the wrong numbers in
 
 It would be funny if “the blockchain” was just a euphemism for “an Excel spreadsheet.”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Here’s another way that Elon Musk’s deal to buy Twitter Inc. could have gone:
 
@@ -220,11 +220,11 @@ Sequoia Capital, which has committed $800 million to the deal, plans to keep its
 That leaves him writing about a $26 billion check, and it is not entirely clear to me if he has that much money in cash. Tesla Inc. is  scheduled to announce earnings on Oct. 19, which presumably will open a window for Musk to sell more Tesla stock if he needs to to raise the rest of the money.
 While he waits to close, Musk is doing things like  calling on China to annex Taiwan and asking Kanye West not to tweet about “going death con 3 on Jewish people,” so the new golden age of free speech on Twitter is gonna be weird. 
 
-  
-    
+
+
       Margin call
-    
-  
+
+
 
 One thing that banks do is make margin loans. You lend money to people, secured by their stock in a publicly traded company. You lend, say, 20% to 50% of the value of the stock, and if the stock drops you can demand that they put up more collateral or repay some of the loan. The risk to you is mostly that the stock falls too fast: You lend $40 against $100 worth of stock, and the stock falls to $60 and you send an email demanding more collateral, and by the time the borrower replies to the email the stock is at $20 and you’re not getting your money back.
 One particularly interesting class of margin borrowers are the chief executive officers, board members and senior executives of public companies who want to borrow against their own companies’ stock. In a sense, CEOs are the most obvious margin borrowers: If I own publicly traded stock and want money, I can just sell the stock, but it is more awkward for a CEO to sell her own company’s stock. Selling stock might reduce her control of the company, and it will generally look bad and upset shareholders, so she might be inclined to get money by borrowing against her stock instead of selling it. 
@@ -238,19 +238,19 @@ His seat on the board limited his ability to raise additional funds because most
 
 To be clear, Foley   stepped down as CEO in February, and the stock rallied briefly; his departure from the board in September doesn’t seem to have done all that much to the stock price. But in general if you are a founder, board member and executive chairman of a company, and you find yourself leaving the company so that you can spend more time with the money you borrowed against your stock, something has gone a bit wrong.
 
-  
-    
+
+
       Nobel Prize
-    
-  
+
+
 
 The  cool  people on economics Twitter were going around yesterday saying, like, “everyone knew about bank runs way before Diamond and Dybvig popularized them,” and I guess that is fair; certainly I saw “It’s a Wonderful Life” before I read “Bank Runs, Deposit Insurance, and Liquidity.” Still if you asked me what has been the most important economic concept of my career, perhaps of my adult life, I guess I’d say “bank runs”? The 2008 global financial crisis was a sort of generalized bank run, run dynamics are at the heart of  a lot of problems since then, and crypto has invented  exciting new ways to have bank runs. So awarding  the Nobel Memorial Prize in Economics to Ben Bernanke, Douglas Diamond and Philip Dybvig for their work on “why banks are needed, why they are vulnerable and what to do about it” seems pretty reasonable.
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 I guess you have three options:
 	Pay Damien Hirst £2,000 and get one of his dot paintings; 	Pay Damien Hirst £2,000 and not get one of his dot paintings; or	Don’t pay Damien Hirst £2,000 at all.
@@ -275,129 +275,129 @@ Livestreaming the event, the Turner Prize winner and assistants used tongs to de
 The market for NFTs  has collapsed, but in the bull market of 2021 thousands of artists and hucksters had this exact same idea, which was “I will make or acquire some art object, light it on fire, and sell an NFT ‘of’ the incinerated object to crypto people.” Hirst, being an art industrialist, introduced mass production into the mix, but his basic idea was an exact copy of everyone else’s. The “object-fire-token-money NFT cycle,”   I have called it.
 As a matter of finance, I cannot fault this: If you can identify a bubble, and you have some free time, the right move is to sell into the bubble. But as art I hate it. It’s so stupid! Everyone involved should be incredibly embarrassed! What an absolute lack of creativity! Everything about this is the opposite of art! If you find yourself lighting thousands of your paintings on fire because nobody wants them, the obvious conclusion to take from that is that you are a bad artist, and that conclusion is correct!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Under Pressure, Goldman CEO Ditches   Dream of Consumer Domination. Ben & Jerry’s vs Unilever: how a star acquisition became a legal nightmare. UK   Pension Funds Call on BOE to Extend Intervention Amid Turmoil. Derivatives clearing exacerbated LDI cash crunch. Bank of England widens government bond purchases as it warns of  financial stability risk.  Government Officials Invest in Companies Their Agencies Oversee. The Most Powerful Buyers in   Treasuries Are All Bailing at Once. Credit Suisse May Face $8 Billion   Capital Shortfall in 2024. Whistleblowers accuse EY of whitewashing suspicious trades at longstanding client. Europe’s   Russia Oil Sanctions Are Affecting Trading Already. UK’s ‘magic circle’ law firms struggle to grow in US amid  sinking pound. CFA   Level II Pass Rate Slips to 40% as Covid-19 Continues to Disrupt Some Tests. Florida Couple Turned the  Empty Miami Mansions of Venezuela’s Elite Into Personal Piggy Banks.  Pls fix. Alberta hamlet of Cheadle now home to  giant Cheetos statue.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Was there a recent bubble in email newsletters? Who can say.
 
 
   [2] Or “ESG correctly identifies under-appreciated economic risks, so I will get long ESG stocks to insulate myself against those risks,” or “ESG is a permanent feature of investing but is about trading off economic returns for non-economic social benefits, so I will underweight ESG stocks to maximize my own economic returns and let other people worry about society,” etc.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

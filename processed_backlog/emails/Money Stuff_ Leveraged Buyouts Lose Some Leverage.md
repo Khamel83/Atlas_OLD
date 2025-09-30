@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There is an important time lag in the financing of a leveraged buyout: At Time 1, a private equity firm signs a deal to buy a company with b
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Non-LBO
-    
-  
+
+
 
 There is an important time lag in the financing of a leveraged buyout:
 	At Time 1, a private equity firm signs a deal to buy a company with borrowed money. The private equity firm works with some banks, who will get it the debt financing it needs to pay for the company.	Months pass, as the deal gets shareholder and regulatory approvals, and as the banks market the debt to investors (hedge funds, asset managers, and other people who buy LBO debt). Eventually, at Time 2, the deal closes (the private equity firm actually buys the company), and the banks get the money from the debt investors and deliver it to the buyer. 
@@ -97,63 +97,63 @@ The sponsors may ultimately replace some of the equity with loans or bonds at a 
 
 Obviously the risk is that the market gets even worse. But it’s bad now, so it’s tempting to bet it will get better.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       BMH
-    
-  
+
+
 
 Back in the spring of 2020, when the world was largely shut down for Covid-19, I   wrote about what I   called the Boredom Markets Hypothesis,
   [5]
@@ -176,20 +176,20 @@ Robinhood Chief Executive Vlad Tenev said at the September investor conference t
 
 I hope that that is how Robinhood does product design. “What are people Googling,” I hope Robinhood asks, “and how can we give them that in the form of an entertaining financial product?” I hope they’re going to introduce inflation futures and binary options on oil prices. If you are in the entertainment business, you have to keep up with the trends.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Wash trading
-    
-  
+
+
 
 If you go on  CoinMarketCap.com, it will tell you that “the global crypto market cap is $923.36B,” as of about 9:30 this morning. As with any index-y data provider, there are subjective choices being made there about exactly what and how to count. But  here is a Wired story about a guy whose “own [crypto] balance exceeds five trillion dollars,” which … seems … high? He has roughly five times as much crypto as there is crypto. Clearly CoinMarketCap is not counting his stash.
 Oh, no, I’m kidding, you know how this joke goes. This is the hoary old joke about how “market capitalization,” in crypto — and really in stocks, too — is fake, or at least potentially fake. It goes like this:
@@ -215,11 +215,11 @@ The right thing to do, given the fact that the value attributed to his coins was
 
 What? No. The system worked. He created some fake cryptocurrencies, fake traded them with himself, got them up to a multitrillion-dollar fake valuation, and then was unable to cash them out at any value other than zero, which is their actual value. And then instead of trying to trick anyone into buying them, he went to Wired to be like “look at this dumb thing I did.” This is all fine.
 
-  
-    
+
+
       Decentralized manhunt
-    
-  
+
+
 
 There is a widespread — not universal, but widespread — view in crypto that decentralization is good, and law and regulation are bad. Governments should not be able to tell anyone what to do, and certainly they should stay out of voluntary transactions between individuals. “What if those transactions turn out to be scams,” is the obvious question, and people who hold these views have a range of different responses. Here are sketches of a few of them:
 	“Code is law”: Scams will be prevented by everyone doing their transactions using transparent audited code, with  adversarial hardening of that code quickly working to make scams impossible.	“Code is law”: Anything that happens is by definition not a scam. If two people agree to a transaction, and one of them was lying, well, it turns out that those are the rules of the game they played, and no one can complain.	Economic incentives, social sanctions, reputation, altruism, etc. will prevent scams: Most people in most of the world mostly don’t do scams, not because they worry about going to prison but because it is hard to do scams, no one will like you if you do one, and you’ll feel bad about yourself. Why shouldn’t that be true in crypto?	Okay fine a little regulation, but not, like, registration of tokens as securities.
@@ -239,11 +239,11 @@ Another URG member nicknamed HKTrader said he worked for a fintech company headq
 
 I kind of can’t believe they don’t have a token?
 
-  
-    
+
+
       Greenwashing
-    
-  
+
+
 
 I don’t know, I’m a cynical American, and when I see an ad from a company that says “we planted 1 million trees last year,” I assume it also cut down 2 million. “We did a good thing” does not, to me, imply that you didn’t also do bad things. The bad things are the reason you’re advertising the good thing! But UK advertising regulators disagree:
 
@@ -255,11 +255,11 @@ It said the ads “omitted material information and were therefore misleading”
 
 I guess the question is what you think the baseline is. “Of course we lend to fossil fuel companies, that’s what banks do, but at least we also plant trees,” is one view, which would make this ad fine. “Of course you plant trees for PR purposes, that’s what banks do, but you also lend to fossil fuel companies,” would be another view.
 
-  
-    
+
+
       Mack! Mack! Mack!
-    
-  
+
+
 
 Man this is how you end a memoir:
 Mack saves his most meaningful short lines for his finale. In an addendum, he says he’s been diagnosed with a mild cognitive impairment. “My prognosis is far from perfect, but my life is perfect,” he writes. “I have f---ing killed it. I knocked the cover off the ball in the financial world.”
@@ -271,16 +271,16 @@ The memoir (Simon Element, $28.99) serves up a rare opportunity to hear power’
 
 I think that’s charming. If you go to a publisher and say “I am a former investment bank CEO, my life is perfect, I am going to write a memoir about how perfect it is,” there will be a lot of obstacles in your way. “That sounds like it lacks conflict,” the publisher will say. “You literally want me to write ‘I knocked the cover off the ball in the financial world’ at the end of your memoir?” your ghostwriter will say. “Should you not maybe tone it down a little bit,” your loved ones will say. “The book doesn’t just lack a reckoning with Morgan Stanley’s role in the financial crisis, it fast-forwards from Christmas of 2007 to the next year’s Lehman collapse as if there’s nothing to report,” Max Abelson will say. But you don’t care! Your life is perfect! You killed it! There are so many incentives in the world pushing people toward false humility; it is inspiring to see someone resist them.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Biden Open to   New SPR Sales as Last Planned Tranche Released. Recession Fears Hit  Risky Mortgage Debt Amid Default Concerns. Carnival borrows $2bn as  investors clamour for cruise ship-backed bond.   Bitcoin Miners Pan for Cash as Profits Dry Up and Crypto Markets Slump. Hong Kong launches $3.8bn fund to  lure back international business. California Baker Creates   Life-sized Han Solo Out of Bread. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] This one seems quite hard because LBO debt is issued by the company, and if the buyer hasn’t bought it yet then it won’t want to issue the debt to pay for being bought. 
+
+  [1] This one seems quite hard because LBO debt is issued by the company, and if the buyer hasn’t bought it yet then it won’t want to issue the debt to pay for being bought.
 
 
   [2] Not always. There is some history of allocating it to the *seller*, by giving the buyer a “financing out” where it can get out of the deal if financing markets are closed. And there is some history of allocating it to the *buyer*, where it commits to the deal (with no financing out) but does not have strong commitments from its banks. (This is common in strategic deals, for instance, as opposed to private equity deals.)
@@ -289,120 +289,120 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] That math is, like, =PV(11% yield, 7-year term, $8 per year, $100 payment at maturity), or about $85.86. In reality leveraged buyout financing will include a mix of fixed-rate bonds, floating-rate loans, etc., and this is a toy example.
 
 
-  [4] Less than that really, because the banks get paid fees for doing the financing, which partly offset the losses. 
+  [4] Less than that really, because the banks get paid fees for doing the financing, which partly offset the losses.
 
 
   [5] Richard Thaler   called it the “bored market hypothesis.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

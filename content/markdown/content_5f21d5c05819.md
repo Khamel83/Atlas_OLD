@@ -14,22 +14,22 @@
     </style>
 
 <meta name="twitter:card" content="summary_large_image"/>
-    
-    
-    
-    
+
+
+
+
     <meta name="twitter:description" content="Loneliness in adolescents has been an increasing problem for many years, and research indicates that the pandemic continues to exacerbate things. As a result, many families are seeking mental health care for kids and teens."/>
-    
-    
+
+
     <meta name="twitter:image" content="https://npr.brightspotcdn.com/dims4/default/b89f2d2/2147483647/strip/true/crop/5760x3240+0+300/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg"/>
 
 <meta name="twitter:image:alt" content="A young boy wearing khaki pants and a reddish shirt holds hands with his mom, who&#x27;s wearing a bright sweater. They face away from the camera, walking down a hall that&#x27;s dotted with backups hung on hooks."/>
-    
-    
-    
-    
+
+
+
+
     <meta name="twitter:title" content="Kids were lonely before COVID-19. The pandemic has made things worse."/>
-    
+
 <meta name="disqus.shortname" content="npr-kera">
 <meta name="disqus.url" content="https://www.keranews.org/health-wellness/2021-12-16/kids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse">
 <meta name="disqus.title" content="Kids were lonely before COVID-19. The pandemic has made things worse.">
@@ -44,11 +44,11 @@
 <meta property="og:image" content="https://npr.brightspotcdn.com/dims4/default/6c71511/2147483647/strip/true/crop/5760x3024+0+408/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg">
 
 <meta property="og:image:url" content="https://npr.brightspotcdn.com/dims4/default/6c71511/2147483647/strip/true/crop/5760x3024+0+408/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg">
-    
+
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
-    
+
     <meta property="og:image:alt" content="A young boy wearing khaki pants and a reddish shirt holds hands with his mom, who&#x27;s wearing a bright sweater. They face away from the camera, walking down a hall that&#x27;s dotted with backups hung on hooks.">
 
 <meta property="og:description" content="Loneliness in adolescents has been an increasing problem for many years, and research indicates that the pandemic continues to exacerbate things. As a result, many families are seeking mental health care for kids and teens.">
@@ -88,8 +88,8 @@
 }</style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Kids were lonely before COVID-19. The pandemic has made things worse. | KERA News</title><meta name="description" content="Loneliness in adolescents has been an increasing problem for many years, and research indicates that the pandemic continues to exacerbate things. As a result, many families are seeking mental health care for kids and teens."><link rel="canonical" href="https://www.keranews.org/health-wellness/2021-12-16/kids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse"><meta name="brightspot.contentId" content="0000017d-b1fd-d352-a5ff-bbffbc460000"><link rel="apple-touch-icon"sizes="180x180"href="/apple-touch-icon.png"><link rel="icon"type="image/png"href="/favicon-32x32.png"><link rel="icon"type="image/png"href="/favicon-16x16.png">
-    
-    
+
+
     <meta name="brightspot-dataLayer" content="{
   &quot;author&quot; : &quot;Sujata Dand&quot;,
   &quot;bspStoryId&quot; : &quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,
@@ -149,9 +149,9 @@ googletag.pubads().enableSingleRequest()
 
 window.fbAsyncInit = function() {
       FB.init({
-          
+
               appId : '310883543495549',
-          
+
           xfbml : true,
           version : 'v2.9'
       });
@@ -203,10 +203,10 @@ window.fbAsyncInit = function() {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N39QFDR');</script><script>window.addEventListener('DOMContentLoaded', (event) => {
     window.nulldurationobserver = new MutationObserver(function (mutations) {
-        document.querySelectorAll('.StreamPill-duration').forEach(pill => { 
+        document.querySelectorAll('.StreamPill-duration').forEach(pill => {
       if (pill.innerText == "LISTENNULL") {
          pill.innerText = "LISTEN"
-      } 
+      }
     });
       });
 
@@ -364,8 +364,8 @@ head.appendChild(link);
     </symbol>
     <symbol id="mono-icon-twitter" viewBox="0 0 1200 1227">
         <g>
-            <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 
-            750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 
+            <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491
+            750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412
             515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"></path>
         </g>
     </symbol>
@@ -492,12 +492,12 @@ head.appendChild(link);
     <div class="PH-ham-m">
         <div class="PH-ham-m-wrapper">
             <div class="PH-ham-m-top">
-                
+
                     <div class="PH-logo">
                         <ps-logo>
 <a aria-label="home page" href="/" class="stationLogo"  >
-    
-        
+
+
             <picture>
 
 <source type="image/webp"  width="267"
@@ -511,16 +511,16 @@ head.appendChild(link);
 <img class="Image" alt="" srcset="https://npr.brightspotcdn.com/dims4/default/f0e5aaa/2147483647/strip/true/crop/304x60+0+0/resize/534x106!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims4%2Fdefault%2Ffc3228b%2F2147483647%2Fresize%2Fx60%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb9%2Fc1%2F498638bc4823bba01b54979be2df%2Fkeranews-horiz.png 2x" width="267" height="53" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/7c8aa13/2147483647/strip/true/crop/304x60+0+0/resize/267x53!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims4%2Fdefault%2Ffc3228b%2F2147483647%2Fresize%2Fx60%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb9%2Fc1%2F498638bc4823bba01b54979be2df%2Fkeranews-horiz.png">
 
 </picture>
-        
-    
+
+
     </a>
 </ps-logo>
 
 </div>
-                
+
                 <button class="PH-ham-m-close" aria-label="hamburger-menu-close" aria-expanded="false"><svg class="close-x"><use xlink:href="#close-x"></use></svg></button>
             </div>
-            
+
                 <div class="PH-search-overlay-mobile">
                     <form class="PH-search-form" action="https://www.keranews.org/search#nt=navsearch" novalidate="" autocomplete="off">
                         <label><input placeholder="Search" type="text" class="PH-search-input-mobile" name="q" required="true"><span class="sr-only">Search Query</span></label>
@@ -529,191 +529,191 @@ head.appendChild(link);
                 </div>
 
 <div class="PH-ham-m-content">
-                
-                
+
+
                     <nav class="Nav gtm_nav">
-    
-    
+
+
         <ul class="Nav-items">
-            
+
                 <li class="Nav-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/TexasNewsroom">TEXAS NEWS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/health-wellness">HEALTH &amp; WELLNESS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/education">EDUCATION</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/politics">POLITICS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/arts-culture">ARTS &amp; CULTURE</a>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/arts-culture">KERA Arts</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/artsaccess">ARTS ACCESS</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="http://www.kera.org/calendar" target="_blank">Go See DFW</a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/arts-culture">KERA Arts</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/artsaccess">ARTS ACCESS</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="http://www.kera.org/calendar" target="_blank">Go See DFW</a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">NEWSLETTERS</a>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/wake-up-with-kera-news">WAKE UP with KERA News </a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">KERA News Weekday Update Newsletter Signup </a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/wake-up-with-kera-news">WAKE UP with KERA News </a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">KERA News Weekday Update Newsletter Signup </a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/tags/89th-texas-legislature">2025 LEGISLATIVE SESSION</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="Nav-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <span>ABOUT</span>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/radio/" target="_blank">RADIO SCHEDULE</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/staff">KERA STAFF</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/about/contact/" target="_blank">CONTACT</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/about/employment/" target="_blank">CAREERS</a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/radio/" target="_blank">RADIO SCHEDULE</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/staff">KERA STAFF</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/about/contact/" target="_blank">CONTACT</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/about/employment/" target="_blank">CAREERS</a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
         </ul>
-    
+
 </nav>
-                
-                
+
+
                     <div class="PH-disclaimer">© 2025 KERA News</div>
-                
+
             </div>
         </div>
     </div>
@@ -721,11 +721,11 @@ head.appendChild(link);
 <div class="PH-top-bar" data-inverse-colors="" >
             <div class="PH-top-bar-content">
                 <button class="PH-menu-trigger" aria-label="hamburger-menu-open" aria-expanded="false"><svg class="burger-menu"><use xlink:href="#burger-menu"></use></svg><svg class="close-x"><use xlink:href="#close-x"></use></svg><span class="label">Menu</span></button>
-                
+
                     <div class="PH-logo"><ps-logo>
 <a aria-label="home page" href="/" class="stationLogo"  >
-    
-        
+
+
             <picture>
 
 <source type="image/webp"  width="267"
@@ -739,18 +739,18 @@ head.appendChild(link);
 <img class="Image" alt="" srcset="https://npr.brightspotcdn.com/dims4/default/f0e5aaa/2147483647/strip/true/crop/304x60+0+0/resize/534x106!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims4%2Fdefault%2Ffc3228b%2F2147483647%2Fresize%2Fx60%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb9%2Fc1%2F498638bc4823bba01b54979be2df%2Fkeranews-horiz.png 2x" width="267" height="53" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/7c8aa13/2147483647/strip/true/crop/304x60+0+0/resize/267x53!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims4%2Fdefault%2Ffc3228b%2F2147483647%2Fresize%2Fx60%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb9%2Fc1%2F498638bc4823bba01b54979be2df%2Fkeranews-horiz.png">
 
 </picture>
-        
-    
+
+
     </a>
 </ps-logo>
 </div>
-                
-                
+
+
                     <div class="PH-tagline">NPR for North Texas</div>
-                
+
             </div>
             <div class="PH-end">
-                
+
                     <button class="PH-search-button" aria-label="header-search-icon"><svg class="icon-magnify"><use xlink:href="#icon-magnify"></use></svg><span class="sr-only">Show Search</span><svg class="close-x"><use xlink:href="#close-x"></use></svg></button>
 
 <div class="PH-search-overlay">
@@ -764,14 +764,14 @@ head.appendChild(link);
                         <svg class="heart"><use xlink:href="#heart"></use></svg>
                         <a   href="https://www.kera.org/donate/radio/" class="Link"  target="_blank"   >Donate</a>
                     </div>
-                
+
             </div>
     </div>
 
 <div class="PH-persistent-player">
-            
-                
-                    
+
+
+
 <ps-brightspot-persistent-player
     class="BrightspotPersistentPlayer"
      player-id="brightspot-player"
@@ -846,7 +846,7 @@ head.appendChild(link);
             <div class="BrightspotPersistentPlayer-trackSlider-duration" data-track-duration>0:00</div>
         </div>
     </div>
-    
+
     <div class="BrightspotPersistentPlayer-drawerOverlay" data-control-drawer-overlay></div>
     <div class="BrightspotPersistentPlayer-drawer">
         <div class="BrightspotPersistentPlayer-drawerMain">
@@ -883,16 +883,16 @@ head.appendChild(link);
                 Available On Air Stations
             </div>
             <ul class="BrightspotPersistentPlayer-streamsList" data-streams-list>
-                
+
                     <li class="BrightspotPersistentPlayer-streamsList-item" data-first-stream>
                         <ps-stream
     data-stream-name="KERA stream"
     data-stream-id="stream-00000170-35ff-d87b-a1f6-7dff81cc0000"
     data-stream-ucsId="51828a34e1c89729c0efc053"
     data-stream-program-name="Morning Edition"
-    
-    
-    
+
+
+
     >
 
 <ps-stream-url
@@ -910,32 +910,32 @@ head.appendChild(link);
             </svg>
         </span>
         <span class="Stream-text">
-            
+
                 <span class="Stream-status">
-                    
+
                         <span class="Stream-statusTextOnAir">
                             On Air
                         </span>
-                    
+
                     <span class="Stream-statusTextNowPlaying">
                         Now Playing
                     </span>
                 </span>
-            
-            
-            
-                
+
+
+
+
                     <span class="Stream-name">KERA stream</span>
-                
-            
+
+
         </span>
     </button>
 </ps-stream>
                     </li>
-                
+
             </ul>
         </div>
-        
+
         <button class="BrightspotPersistentPlayer-drawer-closeButton" data-control-drawer-close aria-label="close">
             <svg class="close-x">
                 <use xlink:href="#close-x"></use>
@@ -953,202 +953,202 @@ head.appendChild(link);
             </svg>
         </button>
     </div>
-    
+
 </ps-brightspot-persistent-player>
 
 </div>
-    
-    
+
+
         <div class="PH-nav-bar">
-            
+
                 <nav class="DropdownNavigation gtm_nav" itemscope itemtype="http://schema.org/SiteNavigationElement"
-    
+
 >
-    
-    
+
+
         <ul class="DropdownNavigation-items">
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/TexasNewsroom">TEXAS NEWS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/health-wellness">HEALTH &amp; WELLNESS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/education">EDUCATION</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/politics">POLITICS</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/arts-culture">ARTS &amp; CULTURE</a>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/arts-culture">KERA Arts</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/artsaccess">ARTS ACCESS</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="http://www.kera.org/calendar" target="_blank">Go See DFW</a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/arts-culture">KERA Arts</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/artsaccess">ARTS ACCESS</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="http://www.kera.org/calendar" target="_blank">Go See DFW</a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">NEWSLETTERS</a>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/wake-up-with-kera-news">WAKE UP with KERA News </a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">KERA News Weekday Update Newsletter Signup </a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/wake-up-with-kera-news">WAKE UP with KERA News </a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup">KERA News Weekday Update Newsletter Signup </a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI"  data-group-navigation>
     <div class="NavI-text gtm_nav_cat">
-        
+
             <a class="NavI-text-link" href="https://www.keranews.org/tags/89th-texas-legislature">2025 LEGISLATIVE SESSION</a>
-        
+
     </div>
 
 </div></li>
-            
+
                 <li class="DropdownNavigation-items-item" ><div class="NavI" >
     <div class="NavI-text gtm_nav_cat">
-        
+
             <span>ABOUT</span>
-        
+
     </div>
-    
+
         <div class="NavI-more">
             <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
         </div>
 
 <ul class="NavI-items">
-            
-                
+
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/radio/" target="_blank">RADIO SCHEDULE</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.keranews.org/staff">KERA STAFF</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/about/contact/" target="_blank">CONTACT</a>
 </li>
-                
+
                     <li class="NavI-items-item gtm_nav_subcat" ><a class="NavLink" href="https://www.kera.org/about/employment/" target="_blank">CAREERS</a>
 </li>
-                
-            
+
+
         </ul>
         <ul class="NavI-items-placeholder">
-            
-                
+
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/radio/" target="_blank">RADIO SCHEDULE</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.keranews.org/staff">KERA STAFF</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/about/contact/" target="_blank">CONTACT</a>
 </li>
-                
+
                     <li class="NavI-items-item"><a class="NavLink" href="https://www.kera.org/about/employment/" target="_blank">CAREERS</a>
 </li>
-                
-            
+
+
         </ul>
-    
+
 </div></li>
-            
+
         </ul>
-    
+
 </nav>
-            
+
         </div>
-    
+
 </ps-header>
 
 <div class="Page-above" ><div class="AdModule" >
-    
+
 <ps-google-dfp-ad data-hide-on-mobile='true'>
     <div id="googleAdc474cdd8-821a-441a-a088-7d26b5639481"
         class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1058955/KERA_News_leaderboard_1" data-slot-sizes="[[728, 90]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1158,7 +1158,7 @@ head.appendChild(link);
 
 </div>
 <div class="AdModule" >
-    
+
 <ps-google-dfp-ad data-hide-on-desktop='true'>
     <div id="googleAd5bb52acb-a8ca-4675-be2b-5c9a998b62db"
         class="GoogleDfpAd " data-hide-on-desktop='true' data-slot-name="1058955/KERA_News_mobile_1" data-slot-sizes="[[320, 50]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1170,7 +1170,7 @@ head.appendChild(link);
 </div>
 
 <div class="ArtP-content">
-            
+
             <div class="ArtP-wrapper">
                 <main class="ArtP-main">
                     <div class="ArtP-main-content">
@@ -1181,17 +1181,17 @@ head.appendChild(link);
 
 <div class="ArtP-breadcrumbs">
                 <div>
-                    
+
                         <a   href="https://www.keranews.org/health-wellness" class="Link"   >Health &amp; Wellness</a>
-                        
-                    
-                    
+
+
+
                 </div>
-                
+
             </div>
-        
-    
-    
+
+
+
 </div>
 
 <h1 class="ArtP-headline">
@@ -1200,24 +1200,24 @@ head.appendChild(link);
 
 <div class="ArtP-contentInfo">
                                     <div class="ArtP-byline">
-                                        
-                                        
-                                            
-                                                
+
+
+
+
                                                 <div class="ArtP-authors">
-    
+
         <div class="ArtP-authorName">
-            <span class="ArtP-authorBy">KERA | 
+            <span class="ArtP-authorBy">KERA |
                     By
                     <a  aria-label="Sujata Dand" href="https://www.keranews.org/sujata-dand-2" class="Link"   >Sujata Dand</a>
-                
+
             </span>
         </div>
 
 </div>
-                                                
-                                            
-                                        
+
+
+
                                         <div class="ArtP-timestamp"><div class="ArtP-datePublished">
         Published&nbsp;December 16, 2021 at 6:00 AM CST
     </div>
@@ -1230,55 +1230,55 @@ head.appendChild(link);
 <div class="ArtP-actions">
                                             <ps-actionbar class="ActionBar">
     <ul class="ActionBar-items">
-        
-            
+
+
                 <li class="ActionBar-items-item"> <a class="ActionLink gtm_share" data-platform="facebook" href="https://www.facebook.com/dialog/share?app_id=310883543495549&display=popup&href=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse"
     target="_blank" data-social-service="facebook">
     <svg><use xlink:href="#mono-icon-facebook"></use></svg><span>Facebook</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse&text=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse."
     target="_blank" data-social-service="twitter">
     <svg><use xlink:href="#mono-icon-twitter" /></svg><span>Twitter</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="linkedin" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse&mini=true&title=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse.&summary=Loneliness%20in%20adolescents%20has%20been%20an%20increasing%20problem%20for%20many%20years%2C%20and%20research%20indicates%20that%20the%20pandemic%20continues%20to%20exacerbate%20things.%20As%20a%20result%2C%20many%20families%20are%20seeking%20mental%20health%20care%20for%20kids%20and%20teens.&source=KERA"
     target="_blank" data-social-service="linkedin">
     <svg><use xlink:href="#mono-icon-linkedin"></use></svg><span>LinkedIn</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="mailto" href="mailto:?body=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse.%0A%0Ahttps%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse%0A%0ALoneliness%20in%20adolescents%20has%20been%20an%20increasing%20problem%20for%20many%20years%2C%20and%20research%20indicates%20that%20the%20pandemic%20continues%20to%20exacerbate%20things.%20As%20a%20result%2C%20many%20families%20are%20seeking%20mental%20health%20care%20for%20kids%20and%20teens."
     data-social-service="mailto">
     <svg><use xlink:href="#icon-email"></use></svg><span>Email</span>
 </a>
 </li>
-            
-        
+
+
     </ul>
 </ps-actionbar>
 
 </div>
 
 <div class="ArtP-audioPlayer">
-                                        
-    
+
+
         <ps-stream
     data-stream-name="Kids were lonely before COVID-19. The pandemic has made things worse."
     data-stream-id="0000017d-b617-d125-adfd-fe1f24280000"
-    
-    
+
+
     data-stream-duration="4:44"
     on-demand
-    
+
     external>
 
 <ps-stream-url
@@ -1296,32 +1296,32 @@ head.appendChild(link);
             </svg>
         </span>
         <span class="StreamPill-text">
-            
-            
+
+
                 <span class="StreamPill-duration">
                     Listen <span class="StreamPill-textDivider">&bull;</span> 4:44
                 </span>
-            
-            
+
+
         </span>
     </button>
 </ps-stream>
 
 </div>
-                                    
+
                                 </div>
-                                
-                                    
+
+
                                         <div class="ArtP-lead">
 <figure class="Figure">
-     
-        
+
+
             <picture>
-    
-    
-        
-            
-    
+
+
+
+
+
             <source media="(max-width: 768px)"  type="image/webp"  width="420"
      height="280" srcset="https://npr.brightspotcdn.com/dims4/default/791b9a1/2147483647/strip/true/crop/5760x3840+0+0/resize/840x560!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg 2x"data-size="fallbackImageSizeMobile"
 />
@@ -1341,36 +1341,36 @@ head.appendChild(link);
 <img class="Image" alt="A young boy wearing khaki pants and a reddish shirt holds hands with his mom, who&#x27;s wearing a bright sweater. They face away from the camera, walking down a hall that&#x27;s dotted with backups hung on hooks." srcset="https://npr.brightspotcdn.com/dims4/default/3cad435/2147483647/strip/true/crop/5760x3840+0+0/resize/1760x1174!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg 2x" width="880" height="587" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/e9d05b4/2147483647/strip/true/crop/5760x3840+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Fea%2F357565e04c78bdd7c54de98b7174%2Fraquel-and-jeremiah-isolation-series-kc-3.jpg">
 
 </picture>
-        
-    
-    
-    
+
+
+
+
     <div class="Figure-content">
 
 <div class="Figure-credit-container"><div class="Figure-credit">Keren Carrión</div>
-            
+
                 <div class="Figure-divider">/</div>
-            
-        
+
+
             <div class="Figure-source"> KERA News</div></div><figcaption class="Figure-caption">Some North Texas mental health professionals are reporting a spike in children suffering from social anxiety and depression with no previous history of mental health concerns.</figcaption>
     </div>
-    
+
 </figure>
 </div>
 
 <div class="ArtP-articleContainer">
-                                
+
                                     <div class="ArtP-articleBody">
                                         <p><i>A note to readers: this story discusses suicide.</i></p><p>The surgeon general just issued a warning that young people are facing “devastating” mental health effects as a result of the challenges experienced by their generation, including the coronavirus pandemic.</p><p>The <u><a   href="https://www.hhs.gov/sites/default/files/surgeon-general-youth-mental-health-advisory.pdf" class="Link"  target="_blank"   >53</a><a   href="https://www.hhs.gov/sites/default/files/surgeon-general-youth-mental-health-advisory.pdf" class="Link"  target="_blank"   >-</a><a   href="https://www.hhs.gov/sites/default/files/surgeon-general-youth-mental-health-advisory.pdf" class="Link"  target="_blank"   >page report</a></u> said emergency room visits for suicide attempts rose 51% for adolescent girls in early 2021 as compared to the same period in 2019. The figure rose 4% for boys. </p><p>Families are seeking help for their children in record numbers at <a   href="https://www.childrens.com/" class="Link"  target="_blank"   >Children’s Health</a> in Dallas. The outpatient clinic has been at capacity for more than a year.</p><p>“One of the biggest symptoms of depression is isolation,” said Roshini Kumar, Clinical Manager of Outpatient Psychology and Suicide Prevention and Resilience at Children's Health. She reports a spike in children suffering from social anxiety and depression with no previous history of mental health concerns.</p><p><b><h2 class="">A grueling couple of years</h2></b></p><p>Shan’ya Taylor, 14, spent most of last school year in her room: sleeping, watching television and writing.</p><p>“If I didn’t want to talk to my parents or my sister, I would just write in here. I'm good at hiding,” she said. She’s in ninth grade at Red Oak High School. “It was hard. It was confusing, stressful, depression. It was so hard.”</p><p>Shan’ya’s parents wanted their children to be vaccinated before sending them back to school in person. Mom Andryan Simpson said not being around her classmates really affected her daughter.</p><p>“Her grades were showing, her self-esteem, her lack of communication. She was rebelling against it majorly,” Simpson said. Even though Shan’ya is back in school now, Simpson said she still thinks her daughter is lonely.</p><div class="Enh" data-align-center>
 <figure class="Figure">
-    
-        
+
+
             <picture>
-    
-    
-        
-            
-    
+
+
+
+
+
             <source media="(max-width: 768px)"  type="image/webp"  width="420"
      height="315" srcset="https://npr.brightspotcdn.com/dims4/default/0da22fe/2147483647/strip/true/crop/4032x3024+0+0/resize/840x630!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2Fd8%2F71f78fbf440aa70486380d89f827%2Fsujata-web-photo.jpg 2x"data-size="fallbackImageSizeMobile"
 />
@@ -1390,32 +1390,32 @@ head.appendChild(link);
 <img class="Image" alt="Andryan Simpson, wearing a leopard print dress, delicate gold necklace and glasses smiles next to her daughter, Shan’ya Taylor who is 14. She&#x27;s wearing a long-sleeved black t-shirt, stacked bracelets and hoop earrings." srcset="https://npr.brightspotcdn.com/dims4/default/6d375c2/2147483647/strip/true/crop/4032x3024+0+0/resize/1760x1320!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2Fd8%2F71f78fbf440aa70486380d89f827%2Fsujata-web-photo.jpg 2x" width="880" height="660" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/b0e51a6/2147483647/strip/true/crop/4032x3024+0+0/resize/880x660!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2Fd8%2F71f78fbf440aa70486380d89f827%2Fsujata-web-photo.jpg">
 
 </picture>
-        
-    
-    
-    
-    
+
+
+
+
+
     <div class="Figure-content">
 
 <div class="Figure-credit-container"><div class="Figure-credit">Sujata Dand</div>
-            
+
                 <div class="Figure-divider">/</div>
-            
-        
+
+
             <div class="Figure-source"> KERA special contributor</div></div><figcaption class="Figure-caption">Shan’ya Taylor's mom, Andryan Simpson, wanted her daughter to be vaccinated before sending her back to school in person. All that time without her classmates was really hard on Shan’ya, who's 14.</figcaption>
     </div>
-    
+
 </figure>
 </div>
 <p>Dr. Madhukar Trivedi, Director of the Center for Depression Research and Clinical Care at UT Southwestern Medical Center, said kids are struggling.</p><p>“My fear is that this is going to leave residual problems for a long time,” Trivedi said.</p><div class="Enh" data-align-center>
     <div class="PromoD"  data-image-align="left"
   style=" --promoBgColor: #ffffff;"
 >
-    
-        
-            
+
+
+
                 <div class="PromoD-media">
-                    
+
                         <a   href="https://trk.kera.org/newsfr20/" class="Link"   ><picture>
 
 <source type="image/webp"  width="880"
@@ -1429,23 +1429,23 @@ head.appendChild(link);
 <img class="Image" alt="Woman smiling at phone while looking out the window with the KERA News logo overlayed." srcset="https://npr.brightspotcdn.com/dims4/default/52be156/2147483647/strip/true/crop/1754x1080+83+0/resize/1760x1084!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2Fca%2Fd69c02f3402cbcb854f44ce2a796%2F1221-b-generic-donate-module-1920x1080.jpg 2x" width="880" height="542" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/1db93ff/2147483647/strip/true/crop/1754x1080+83+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2Fca%2Fd69c02f3402cbcb854f44ce2a796%2F1221-b-generic-donate-module-1920x1080.jpg">
 
 </picture></a>
-                    
+
                 </div>
 
 <div class="PromoD-content">
-            
-            
+
+
                 <div class="PromoD-description">If you find this reporting valuable, consider&nbsp;making a <b><a   href="https://trk.kera.org/newsfr20/" class="Link"  target="_blank"   >tax-deductible donation</a></b>&nbsp;today. KERA News is made possible through the generosity of our members.  Thank you.</div>
-            
-            
+
+
         </div>
 
 </div>
 </div>
 <p><b><h2 class="">Youth loneliness and its years-long upward trend</h2></b></p><p>A looming concern for mental health experts is that loneliness in adolescents has been increasing for the last decade. <u><a   href="https://www.sciencedirect.com/science/article/pii/S0140197121000853" class="Link"  target="_blank"   >A new study in the Journal of Adolescence</a></u> surveyed more than a million teenagers worldwide. In 2018, nearly twice as many teens displayed elevated levels of loneliness compared to 2012. 2012 was also the year when smartphone ownership passed 50% in the U.S. </p><p>Before that, loneliness and depression among teens had been unchanged or down for several years.</p><p>Experts say screen time may also be taking the place of activities important for physical and mental well-being, including sleep, exercise and in-person activity. Kumar has worked with kids who have felt hopeless, and has found ways for them to foster connections.</p><p>“Therapy is not always in an office. It can be yoga. It can be soccer. There’s also a lot of evidence-based ways that we can pull ourselves out of it.”</p><p>But, that means prioritizing well-being for everyone — kids included. And experts say pandemic or not, that need won’t disappear.</p><p><i>If you need help, call the National Suicide Prevention Lifeline at <a   href="tel:800-273-8255" class="Link"  target="_blank"   >800-273-8255</a></i><br><i><u></u></i></p>
                                     </div>
-                                
-                                
+
+
                             </div>
                          </article>
                         </ps-article>
@@ -1460,70 +1460,70 @@ head.appendChild(link);
 <div class="ArtP-actions">
                                 <ps-actionbar class="ActionBar">
     <ul class="ActionBar-items">
-        
-            
+
+
                 <li class="ActionBar-items-item"> <a class="ActionLink gtm_share" data-platform="facebook" href="https://www.facebook.com/dialog/share?app_id=310883543495549&display=popup&href=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse"
     target="_blank" data-social-service="facebook">
     <svg><use xlink:href="#mono-icon-facebook"></use></svg><span>Facebook</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse&text=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse."
     target="_blank" data-social-service="twitter">
     <svg><use xlink:href="#mono-icon-twitter" /></svg><span>Twitter</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="linkedin" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse&mini=true&title=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse.&summary=Loneliness%20in%20adolescents%20has%20been%20an%20increasing%20problem%20for%20many%20years%2C%20and%20research%20indicates%20that%20the%20pandemic%20continues%20to%20exacerbate%20things.%20As%20a%20result%2C%20many%20families%20are%20seeking%20mental%20health%20care%20for%20kids%20and%20teens.&source=KERA"
     target="_blank" data-social-service="linkedin">
     <svg><use xlink:href="#mono-icon-linkedin"></use></svg><span>LinkedIn</span>
 </a>
 </li>
-            
-        
-            
+
+
+
                 <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="mailto" href="mailto:?body=Kids%20were%20lonely%20before%20COVID-19.%20The%20pandemic%20has%20made%20things%20worse.%0A%0Ahttps%3A%2F%2Fwww.keranews.org%2Fhealth-wellness%2F2021-12-16%2Fkids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse%0A%0ALoneliness%20in%20adolescents%20has%20been%20an%20increasing%20problem%20for%20many%20years%2C%20and%20research%20indicates%20that%20the%20pandemic%20continues%20to%20exacerbate%20things.%20As%20a%20result%2C%20many%20families%20are%20seeking%20mental%20health%20care%20for%20kids%20and%20teens."
     data-social-service="mailto">
     <svg><use xlink:href="#icon-email"></use></svg><span>Email</span>
 </a>
 </li>
-            
-        
+
+
     </ul>
 </ps-actionbar>
 
 </div>
 
 <div class="ArtP-bottomByline">
-                                
+
     <div class="ArtP-aui">
 
 <div class="ArtP-aui-bio">
-            
+
                 <div class="ArtP-aui-bio-name">
                     <a href="https://www.keranews.org/sujata-dand-2" aria-label="">Sujata Dand</a>
                 </div>
 
 <div class="ArtP-aui-bio-content">
-                
+
             </div>
 
 <div class="ArtP-aui-bio-cta">
-                
+
                     <a href="https://www.keranews.org/sujata-dand-2" aria-label="See stories by Sujata Dand">
                         See stories by Sujata Dand
                     </a>
-                
+
             </div>
         </div>
     </div>
 
 </div>
-                        
+
                     </div>
 
 </main>
@@ -1531,14 +1531,14 @@ head.appendChild(link);
 <aside class="ArtP-aside">
                         <aside class="ArtP-aside-content">
                             <div class="">
-    
+
         <div class="OneColumnContainer">
     <div class="OneColumnContainer-row">
-        
+
             <div class="OneColumnContainer-column">
                 <div class="HtmlModule"><a href="https://www.kera.org/protect/" target="_blank"><img src="https://www.kera.org/wp-content/uploads/2025/07/KERA_FF_Preview_Image_300x250-01-1.png" style='margin:auto;'></a></div>
 <div class="AdModule" >
-    
+
 <ps-google-dfp-ad>
     <div id="googleAd16ae4f81-bfd8-4f22-b9c8-ff0b10a1904e"
         class="GoogleDfpAd " data-slot-name="1058955/KERA_News_medium_1" data-slot-sizes="[[300, 250]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1548,17 +1548,17 @@ head.appendChild(link);
 
 </div>
 <div class="PromoD"  data-image-align="top">
-    
-        
-            
+
+
+
                 <div class="PromoD-media">
-                    
+
                         <a   href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup" class="Link"   ><picture>
-    
-    
-        
-            
-    
+
+
+
+
+
             <source media="(max-width: 768px)"  type="image/webp"  width="420"
      height="326" srcset="https://npr.brightspotcdn.com/dims4/default/2df1684/2147483647/strip/true/crop/356x276+0+0/resize/840x652!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff0%2F6d%2F595119cf4c939ed26dc1cf9cdba1%2Fkeranewsstackedv2.png 2x"data-size="fallbackImageSizeMobile"
 />
@@ -1578,23 +1578,23 @@ head.appendChild(link);
 <img class="Image" alt="" srcset="https://npr.brightspotcdn.com/dims4/default/5fd9cdf/2147483647/strip/true/crop/356x276+0+0/resize/1760x1364!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff0%2F6d%2F595119cf4c939ed26dc1cf9cdba1%2Fkeranewsstackedv2.png 2x" width="880" height="682" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/ad33d06/2147483647/strip/true/crop/356x276+0+0/resize/880x682!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff0%2F6d%2F595119cf4c939ed26dc1cf9cdba1%2Fkeranewsstackedv2.png">
 
 </picture></a>
-                    
+
                 </div>
 
 <div class="PromoD-content">
-            
-            
+
+
                 <div class="PromoD-description">The best stories from KERA sent to your inbox.</div>
-            
-            
+
+
                 <div class="PromoD-cta-button" style="background-color:">
                      <a  aria-label="SUBSCRIBE" href="https://www.keranews.org/kera-news-weekday-update-newsletter-signup" class="Link"   >SUBSCRIBE</a>
                 </div>
-            
+
         </div>
 
 </div><div class="AdModule" >
-    
+
 <ps-google-dfp-ad>
     <div id="googleAda9a6d4eb-6619-4679-8248-747eb30c3c3b"
         class="GoogleDfpAd " data-slot-name="1058955/KERA_News_medium_2" data-slot-sizes="[[300, 250]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1604,7 +1604,7 @@ head.appendChild(link);
 
 </div>
 <div class="AdModule" >
-    
+
 <ps-google-dfp-ad>
     <div id="googleAd2ad779f5-dfcc-488c-91f3-d21182414adb"
         class="GoogleDfpAd " data-slot-name="1058955/KERA_News_medium_3" data-slot-sizes="[[300, 250]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1614,7 +1614,7 @@ head.appendChild(link);
 
 </div>
 <div class="AdModule" >
-    
+
 <ps-google-dfp-ad>
     <div id="googleAd1ac83760-f88f-461f-a7c2-99512ff319ea"
         class="GoogleDfpAd " data-slot-name="1058955/KERA_News_medium_4" data-slot-sizes="[[300, 250]]" data-targeting-data="{&quot;id&quot;:&quot;0000017d-b1fd-d352-a5ff-bbffbc460000&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Coronavirus &amp; COVID-19&quot;,&quot;Mental Health: On Our Minds&quot;,&quot;Children&#x27;s Health Medical Center&quot;,&quot;KERA News&quot;],&quot;category&quot;:&quot;Health &amp; Wellness&quot;,&quot;programs&quot;:[]}" >
@@ -1625,7 +1625,7 @@ head.appendChild(link);
 </div>
 
 </div>
-        
+
     </div>
 </div>
 
@@ -1633,7 +1633,7 @@ head.appendChild(link);
 
 </aside>
                     </aside>
-                
+
             </div>
         </div>
 
@@ -1641,11 +1641,11 @@ head.appendChild(link);
     <ps-footer>
     <div class="Page-footer-content">
         <div class="Page-footer-site-info">
-            
+
                 <div class="Page-footer-logo"><ps-logo>
 <a aria-label="home page" href="/" class="stationLogo"  >
-    
-        
+
+
             <picture>
 
 <source type="image/webp"  width="267"
@@ -1659,137 +1659,137 @@ head.appendChild(link);
 <img class="Image" alt="" srcset="https://npr.brightspotcdn.com/dims4/default/eb13396/2147483647/strip/true/crop/350x69+0+0/resize/534x106!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2Fce%2Fa505e248400b93d515b881896ce4%2Fkeranews-horiz-redwhite.png 2x" width="267" height="53" loading="lazy" src="https://npr.brightspotcdn.com/dims4/default/2b55b7e/2147483647/strip/true/crop/350x69+0+0/resize/267x53!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2Fce%2Fa505e248400b93d515b881896ce4%2Fkeranews-horiz-redwhite.png">
 
 </picture>
-        
-    
+
+
     </a>
 </ps-logo>
 </div>
-            
-            
+
+
                 <div class="Page-footer-social"><div class="SocialBar">
     <div class="SocialBar-heading">Stay Connected</div>
 
 <ul class="SocialBar-items">
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.instagram.com/keratx/" target="_blank" data-social-service="instagram" data-platform="instagram"><svg><use xlink:href="#mono-icon-instagram"></use></svg><span class="sr-only">instagram</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.youtube.com/@keraorgtx" target="_blank" data-social-service="youtube" data-platform="youtube"><svg><use xlink:href="#mono-icon-youtube"></use></svg><span class="sr-only">youtube</span></a>
 </li>
-            
+
                 <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.facebook.com/keratx" target="_blank" data-social-service="facebook" data-platform="facebook"><svg><use xlink:href="#mono-icon-facebook"></use></svg><span class="sr-only">facebook</span></a>
 </li>
-            
+
         </ul>
-    
+
 </div>
 </div>
-            
-            
+
+
                 <div class="Page-footer-disclaimer">© 2025 KERA News</div>
-            
+
         </div>
 
 <div class="Page-footer-columns">
                 <nav class="FooterNav gtm_nav" >
-    
+
         <ul class="FooterNav-items">
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://www.kera.org/" target="_blank">KERA</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="http://kids.kera.org" target="_blank">Kids and Family</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://www.keranews.org/arts-culture">KERA Arts</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://tellyspotting.kera.org/" target="_blank">Tellyspotting</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://kxt.org/" target="_blank">KXT 91.7</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://www.kera.org/about/privacy-policy/" target="_blank">Privacy Policy</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://www.kera.org/about/terms-of-use/" target="_blank">Terms of Use </a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
                 <li class="FooterNav-items-item">
                     <div class="FooterNavItem" >
     <div class="FooterNavItem-text">
-        
+
             <a class="FooterNavItem-text-link" href="https://www.kera.org/about/contact/" target="_blank">Contact Us</a>
-        
+
     </div>
 
 </div>
                 </li>
-            
+
         </ul>
-    
+
 </nav>
             </div>
 
 </div>
-    
+
     </ps-footer>
 </footer>
 

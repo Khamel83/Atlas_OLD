@@ -29,7 +29,7 @@ cd atlas
 
 ### Step 2: Verify Installation
 ```bash
-# Check system status  
+# Check system status
 python3 atlas_status.py
 # Should show: ✅ Atlas is ready!
 ```
@@ -89,7 +89,7 @@ Visit `https://atlas.khamel.com/ask/html` and try:
 2. **Re-train Siri**: "Set Up Hey Siri Again"
 3. **Check shortcuts**: Open Shortcuts app, verify Atlas shortcuts imported
 
-### Atlas Won't Start  
+### Atlas Won't Start
 ```bash
 # Check Python environment
 python3 --version  # Should be 3.9+

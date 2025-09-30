@@ -23,12 +23,12 @@
     <title data-rh="true">Opinion | Here’s My Novel Idea for the Republican Party - The New York Times</title>
     <meta data-rh="true" name="robots" content="noarchive"/><meta data-rh="true" name="description" content="American politics needs more factions. The Republican senators floating populist proposals should forge one."/><meta data-rh="true" property="og:url" content="http://web.archive.org/web/20211126163816/https://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Opinion | Here’s My Novel Idea for the Republican Party"/><meta data-rh="true" property="og:image" content="http://web.archive.org/web/20211126163816im_/https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-facebookJumbo.jpg"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="American politics needs more factions. The Republican senators floating populist proposals should forge one."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><meta data-rh="true" property="twitter:title" content="Opinion | Here’s My Novel Idea for the Republican Party"/><meta data-rh="true" property="twitter:description" content="American politics needs more factions. The Republican senators floating populist proposals should forge one."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-videoSixteenByNine3000.jpg"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/> <link data-rh="true" rel="canonical" href="http://web.archive.org/web/20211126163816/https://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><link data-rh="true" rel="alternate" href="http://web.archive.org/web/20211126163816/nyt://article/b1a4ca9f-9dee-5edb-a24b-253b1ef0335d"/><link data-rh="true" rel="amphtml" href="http://web.archive.org/web/20211126163816/https://www.nytimes.com/2021/04/27/opinion/republican-party.amp.html"/><link data-rh="true" rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20211126163816/https://www.nytimes.com/svc/oembed/json/?url=https%3A%2F%2Fwww.nytimes.com%2F2021%2F04%2F27%2Fopinion%2Frepublican-party.html" title="Here’s My Novel Idea for the Republican Party"/> <script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"NewsArticle","description":"American politics needs more factions. The Republican senators floating populist proposals should forge one.","image":[{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211126163816/https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-videoSixteenByNineJumbo1600.jpg","height":900,"width":1600},{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211126163816/https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-superJumbo.jpg","height":2048,"width":2022},{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211126163816/https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-mediumSquareAt3X.jpg","height":1800,"width":1800}],"mainEntityOfPage":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/2021/04/27/opinion/republican-party.html","url":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/2021/04/27/opinion/republican-party.html","inLanguage":"en","author":[{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"Person","url":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/by/ross-douthat","name":"Ross Douthat"}],"dateModified":"2021-04-28T21:29:03.000Z","datePublished":"2021-04-27T09:00:11.000Z","headline":"Opinion | Here’s My Novel Idea for the Republican Party","publisher":{"@id":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/#publisher"},"copyrightHolder":{"@id":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/#publisher"},"sourceOrganization":{"@id":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/#publisher"},"copyrightYear":2021,"isAccessibleForFree":false,"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"}}</script><script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"http://web.archive.org/web/20211126163816/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211126163816/https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png","height":40,"width":250},"url":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/","@id":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/#publisher","diversityPolicy":"http://web.archive.org/web/20211126163816/https://www.nytco.com/diversity-and-inclusion-at-the-new-york-times/","ethicsPolicy":"http://web.archive.org/web/20211126163816/https://www.nytco.com/who-we-are/culture/standards-and-ethics/","masthead":"http://web.archive.org/web/20211126163816/https://www.nytimes.com/interactive/2020/09/08/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"http://web.archive.org/web/20211126163816/https://en.wikipedia.org/wiki/The_New_York_Times"}</script>
     <meta data-rh="true" property="article:published_time" content="2021-04-27T09:00:11.000Z"/><meta data-rh="true" property="article:modified_time" content="2021-04-28T21:29:03.000Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000007730227"/><meta data-rh="true" name="nyt_uri" content="nyt://article/b1a4ca9f-9dee-5edb-a24b-253b1ef0335d"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/febbd758511541809f2d60ca8f7bef68"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2021/04/29/opinion/27douthat-lead-print/27douthat-lead-facebookJumbo.jpg"/><meta data-rh="true" name="byl" content="By Ross Douthat"/><meta data-rh="true" name="news_keywords" content="US Politics,Republicans,Senate,Congress,Joe Biden,Tom Cotton,Ted Cruz,Josh Hawley,Mitt Romney,Marco Rubio,House of Representatives,Congress,Donald Trump"/><meta data-rh="true" name="pdate" content="20210427"/><meta data-rh="true" property="article:section" content="Opinion"/><meta data-rh="true" property="article:tag" content="United States Politics and Government"/><meta data-rh="true" property="article:tag" content="Republican Party"/><meta data-rh="true" property="article:tag" content="Senate"/><meta data-rh="true" property="article:tag" content="Biden, Joseph R Jr"/><meta data-rh="true" property="article:tag" content="Cotton, Tom"/><meta data-rh="true" property="article:tag" content="Cruz, Ted"/><meta data-rh="true" property="article:tag" content="Hawley, Josh D (1979- )"/><meta data-rh="true" property="article:tag" content="Romney, Mitt"/><meta data-rh="true" property="article:tag" content="Rubio, Marco"/><meta data-rh="true" property="article:tag" content="House of Representatives"/><meta data-rh="true" property="article:tag" content="Trump, Donald J"/><meta data-rh="true" property="article:opinion" content="true"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="opinion"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content="ross-douthat"/><meta data-rh="true" name="CT" content=""/><meta data-rh="true" name="PT" content="article"/><meta data-rh="true" name="PST" content="Op-Ed"/><meta data-rh="true" name="url" content="https://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><meta data-rh="true" name="msapplication-starturl" content="https://www.nytimes.com"/><meta data-rh="true" property="al:android:url" content="nyt://article/b1a4ca9f-9dee-5edb-a24b-253b1ef0335d"/><meta data-rh="true" property="al:android:package" content="com.nytimes.android"/><meta data-rh="true" property="al:android:app_name" content="NYTimes"/><meta data-rh="true" name="twitter:app:name:googleplay" content="NYTimes"/><meta data-rh="true" name="twitter:app:id:googleplay" content="com.nytimes.android"/><meta data-rh="true" name="twitter:app:url:googleplay" content="nyt://article/b1a4ca9f-9dee-5edb-a24b-253b1ef0335d"/><meta data-rh="true" property="al:iphone:url" content="nytimes://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><meta data-rh="true" property="al:iphone:app_store_id" content="284862083"/><meta data-rh="true" property="al:iphone:app_name" content="NYTimes"/><meta data-rh="true" property="al:ipad:url" content="nytimes://www.nytimes.com/2021/04/27/opinion/republican-party.html"/><meta data-rh="true" property="al:ipad:app_store_id" content="357066198"/><meta data-rh="true" property="al:ipad:app_name" content="NYTimes"/>
-    
+
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta property="fb:app_id" content="9869919170"/>
 <meta name="twitter:site" content="@nytimes"/>
 <meta name="slack-app-id" content="A0121HXPPTQ"/>
-    
+
     <script>
       const override = (new URL(window.location)).searchParams.get('sentryOverride');
       if (override || Math.floor(Math.random() * 100) <= 1) {
@@ -36,7 +36,7 @@
       }
     </script>
     <script>
-      
+
       if (window.Sentry) {
         window.Sentry.onLoad(function() {
           window.Sentry.init({
@@ -46,15 +46,15 @@
             beforeSend: function(e, v) {
               if (/amazon-adsystem|ads-us|ampproject|amp4ads|pubads|2mdn|chartbeat|gsi|bk_addPageCtx|yimg|BOOMR|boomerang/.test(v.originalException && v.originalException.stack || '')) return null;
               return e;
-            }  
+            }
           });
         });
       }
     </script>
 
 <link data-rh="true" rel="shortcut icon" href="/web/20211126163816im_/https://www.nytimes.com/vi-assets/static-assets/favicon-d2483f10ef688e6f89e23806b9700298.ico"/><link data-rh="true" rel="apple-touch-icon" href="/web/20211126163816im_/https://www.nytimes.com/vi-assets/static-assets/apple-touch-icon-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="144×144" href="/web/20211126163816im_/https://www.nytimes.com/vi-assets/static-assets/ios-ipad-144x144-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="114×114" href="/web/20211126163816im_/https://www.nytimes.com/vi-assets/static-assets/ios-iphone-114x144-080e7ec6514fdc62bcbb7966d9b257d2.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" href="/web/20211126163816im_/https://www.nytimes.com/vi-assets/static-assets/ios-default-homescreen-57x57-43808a4cd5333b648057a01624d84960.png"/>
-    
-    
+
+
     <link href="http://web.archive.org/web/20211126163816cs_/https://g1.nyt.com/fonts/css/web-fonts.b1c035e4560e0216caf8f03326e0430712b61041.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="/web/20211126163816cs_/https://www.nytimes.com/vi-assets/static-assets/global-a390e9d7a067927dd253742a2f0124d4.css"/>
     <style>[data-timezone] { display: none }</style>
@@ -143,7 +143,7 @@ return UnifiedTracking;
     }
   }
 </script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   function placeGpt() {
     var purrCookie = testCookie('nyt-purr');
     if (purrCookie && purrCookie.substring(4, 5) === 's' ||
@@ -157,7 +157,7 @@ return UnifiedTracking;
   placeGpt();
 
 }</script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   var purrCookie = testCookie('nyt-purr');
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
@@ -240,7 +240,7 @@ pushSignup(config);
 <script defer src="/web/20211126163816js_/https://www.nytimes.com/vi-assets/static-assets/footerBlock-3dafbe9a13698233fdd7.js"></script>
     <script defer src="/web/20211126163816js_/https://www.nytimes.com/vi-assets/static-assets/main-7064c440f09b4b678468.js"></script>
     <script>(function () { var _f=function(){try{var e=["first-paint","first-contentful-paint","userBtnRender","appRenderTime"];new window.PerformanceObserver(function(r){for(var n=r.getEntries(),a=0;a<n.length;a+=1){var t=n[a];if(e.indexOf(t.name)>-1){var i={};i[t.name]=Math.round(t.duration||t.startTime),(window.dataLayer=window.dataLayer||[]).push({event:"performance",pageview:{performance:i}})}}}).observe({entryTypes:["mark","measure","paint"]})}catch(e){}};;_f.apply(null, []); })();(function () { var _f=function(){!function(){if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url="http://web.archive.org/web/20211126163816/https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239";var e=(document.currentScript||document.getElementsByTagName("script")[0]).parentNode,n=!1,t=document.createElement("link");t.relList&&"function"==typeof t.relList.supports&&t.relList.supports("preload")&&"as"in t?(window.BOOMR.snippetMethod="p",t.href=window.BOOMR.url,t.rel="preload",t.as="script",t.addEventListener("load",function(){if(!n){var t=document.createElement("script");t.id="boomr-scr-as",t.src=window.BOOMR.url,t.async=!0,e.appendChild(t),n=!0}}),t.addEventListener("error",function(){o(!0)}),setTimeout(function(){n||o(!0)},3e3),BOOMR_lstart=(new Date).getTime(),e.appendChild(t)):o(!1),window.addEventListener?window.addEventListener("load",i,!1):window.attachEvent&&window.attachEvent("onload",i)}function o(t){n=!0;var o,i,d,a,r=document,s=window;if(window.BOOMR.snippetMethod=t?"if":"i",i=function(e,n){var t=r.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),(e=e||r.body).appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]./))return window.BOOMR.snippetMethod="s",void i(e,"boomr-async");(d=document.createElement("IFRAME")).src="about:blank",d.title="",d.role="presentation",d.loading="eager",(a=(d.frameElement||d).style).width=0,a.height=0,a.border=0,a.display="none",e.appendChild(d);try{s=d.contentWindow,r=s.document.open()}catch(e){o=document.domain,d.src="javascript:var d=document.open();d.domain='"+o+"';void 0;",s=d.contentWindow,r=s.document.open()}o?(r._boomrl=function(){this.domain=o,i()},r.write("<body onload='document._boomrl();'>")):(s._boomrl=function(){i()},s.addEventListener?s.addEventListener("load",s._boomrl,!1):s.attachEvent&&s.attachEvent("onload",s._boomrl)),r.close()}function i(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}}()};;_f.apply(null, []); })();</script>
-    
+
     <script>
     (function(){
       if (document.cookie.indexOf('NYT-S') === -1) {
@@ -254,7 +254,7 @@ pushSignup(config);
       }
     })();
     </script>
-  
+
     <script>
 (function(w, l) {
   w[l] = w[l] || [];
@@ -268,8 +268,8 @@ pushSignup(config);
 <noscript>
 <iframe src="http://web.archive.org/web/20211126163816if_/https://www.googletagmanager.com/ns.html?id=GTM-P528B3>m_auth=tfAzqo1rYDLgYhmTnSjPqw>m_preview=env-130>m_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-    
-    
+
+
     <!-- RELEASE 32a936f59e25d82bf400b5fbdb2cc8153b5ff610 -->
   </body>
 </html><!--

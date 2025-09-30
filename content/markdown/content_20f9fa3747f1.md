@@ -9,7 +9,7 @@
 		<head>
 										<script src="https://w110.kcra.com/script.js"></script>
 													<script src="https://experiments.parsely.com/vip-experiments.js?apiKey=hearst-10042.hearst.com" data-enable-live-updates="true"></script>
-			
+
 							<script>
 	!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/hearst_tv/kcra_com/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();
 </script>
@@ -200,7 +200,7 @@ window.HTV_DAI_RDP_CUST = "site=kcra&pos=midroll&dp=1";</script><script>!functio
 ( function( d ) {
 	var env = "prod";
 	var s = document.createElement( "script" );
-	
+
 	s.async = true;
 	s.fetchPriority = "high";
 
@@ -227,7 +227,7 @@ switch ( env ) {
 d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 } )( document );
 </script>
-				
+
 				<div class="site-content">
 					<a href="#" class="skip-to-content">Skip to content</a>
 <script id="weather-images" type="text/x-json">
@@ -277,7 +277,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <!-- / headers/nowcast -->
 <!-- headers/main -->
 
-<header class="header">    
+<header class="header">
     <div class="header-inner">
         <button
             class="header-button header-sidepanel-button"
@@ -369,7 +369,7 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 											 	height="44"
 											 	width="133" />
                             </a>
-        
+
         <ul class="nav-menu"><li class="nav-item" data-id="1">
             <a id="brazeSubscribe" href="/subscribe" class="nav-item-braze-subscribe">
                 <i class="fa fa-envelope nav-item-braze-subscribe-icon" aria-hidden="true"></i>
@@ -388,8 +388,8 @@ d.getElementsByTagName( "head" )[ 0 ].appendChild( s );
 <script type="text/template" class="alerts-block-template">
 	<div class="alerts--items">
 		<% if ( count > 0 ) { %>
-			
-			
+
+
 			<% if ( weatherAlerts > 0 ) { %>
 				<span class="alerts--item" tabindex="-1" aria-hidden="true" role="alert"  aria-label="Weather Alert">
 					<a target="_top" href="/alerts" class="link" tabindex="-1">
@@ -514,7 +514,7 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 </div>
 <!-- / weather/overlay -->
 <main>
-				
+
 			<!-- blocks/ad.twig -->
 <div class="ad-overlay ">
 	<div class="ad-container "
@@ -540,10 +540,10 @@ window.optable.site = isProdDomain ? window.HRST.site.prefix : '';
 <!-- blocks/ad.twig -->
 
 </div>
-	
-	
+
+
 	<div class="articles-container">
-		
+
 <!-- article/blocks/content -->
 	<script type="text/javascript">var HRSTArticles = HRSTArticles || {};
 HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"] = {};
@@ -633,29 +633,29 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <div id="wrapper--oakland-athletics-west-sacramento-timeline" class="article--wrapper">
 	<article>
 		<div class="article-content" data-id="bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5" data-canonical-url="https://www.kcra.com/article/oakland-athletics-west-sacramento-timeline/64344042" data-share-url="/article/oakland-athletics-west-sacramento-timeline/64344042">
-			
+
 		<div class="article-content--header">
-						
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<h1 class="article-headline--title">A&#039;s home opener timeline: Events that brought the team from Oakland to West Sacramento</h1>
 			</section>
 <!-- /article/blocks/headline -->
 
 </div>
-	
+
 		<div class="article-content--body">
 			<div class="article-content--body-wrapper">
-																		
-									
+
+
 <!-- article/blocks/poster-media -->
 <div class="article-poster-media-wrapper">
 	<div class="article-poster-media">
-					
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">A&#039;s home opener timeline: Events that brought the team from Oakland to West Sacramento</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -668,7 +668,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <div class="transcript" data-video-id="9365e4a6-7035-4a2a-88a2-92de9dec9e82">
 													THEY GOT HERE TO THE CAPITAL CITY. THE ODDSMAKERS ARE OBVIOUSLY IMPRESSED BY THE A’S AWESOME POWER. THE OAKLAND COLISEUM IS WHERE THE ATHLETICS WON FOUR WORLD SERIES TITLES. THEIR LAST CAME AFTER A FOUR GAME SWEEP OF THE SAN FRANCISCO GIANTS IN 1989. BUT THAT WOULD BE THEIR FINAL WORLD SERIES TITLE IN THE CITY. THEY HAD CALLED HOME FOR 57 YEARS AS THE FIRST DOMINO TO FALL WERE COMPLAINTS OF DETERIORATING STADIUM CONDITIONS. THE FIRST TRIP I MADE AFTER I WAS ELECTED COMMISSIONER WAS TO OAKLAND. I UNDERSTAND THAT, AND THAT’S WHY WE’VE ALWAYS HAD A POLICY OF DOING EVERYTHING HUMANLY POSSIBLE TO AVOID A RELOCATION, AND I TRULY BELIEVE WE DID THAT. IN THIS CASE. THE COMMISSIONER MET WITH THE PRINCIPAL OWNER OF THE ATHLETICS, JOHN FISHER, WHO PROPOSED A 35 000 SEAT BALLPARK ON THE OAKLAND WATERFRONT AT HOWARD TERMINAL. BUT THAT DOMINO FELL AFTER THE CITY AND TEAM COULD NOT AGREE ON HOW TO SPLIT THE COST OF THE $12 BILLION DEVELOPMENT. BUT UNFORTUNATELY, IT HAS BECOME CLEAR THAT WE ARE NOT ABLE TO REACH AN ACCEPTABLE TERMS AND THAT THE A’S HAVE NOT BEEN ENGAGED AS GOOD PARTNERS IN THESE EFFORTS. FROM THERE, THE MLB COMMISSIONER DECIDED IT WAS TIME TO ALLOW THE ATHLETICS TO PULL UP ITS OAKLAND ROOTS. AFTER 57 YEARS AND FIND A CITY THAT WOULD BE WILLING TO ROLL THE DICE AND WELCOME A MAJOR LEAGUE BASEBALL TEAM. ON APRIL 20TH, 2023, THE A’S ANNOUNCED THAT THEY HAD SIGNED A BINDING AGREEMENT TO PURCHASE LAND FOR A BALLPARK IN LAS VEGAS. THEN SEVEN MONTHS LATER, THAT DOMINO BECAME A FACT. I UNDERSTAND THERE’S AN INCREDIBLY DIFFICULT DAY FOR OAKLAND FANS, AND I JUST WANT TO SAY WE WE GAVE EVERY EFFORT AND DID EVERYTHING WE COULD TO TRY AND FIND A SOLUTION THERE, AND IT WAS ONLY IN THE LAST COUPLE OF YEARS THAT WE BEGAN TO TURN OUR ATTENTION TO ANOTHER MARKET, THAT BEING LAS VEGAS. THE GROUNDBREAKING FOR THE NEW 33 000 SEAT DOMED STADIUM WITH A RETRACTABLE ROOF IS SCHEDULED FOR LATER THIS YEAR AT A COST OF $1.7 BILLION. WE LOOK FORWARD TO BEING IN LAS VEGAS TREMENDOUS SUPPORT LOCALLY FOR HAVING THE A’S THERE, AND WE DO BELIEVE OVER THE LONG HAUL, LAS VEGAS WILL BE A GRE
 											</div>
-					
+
 																					<div class="tablet-desktop">
 					<div class="article-branding">
 						<img data-src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/site_branding/kcra.png"
@@ -730,10 +730,10 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <!-- blocks/ad.twig -->
 
 <div class="mobile">
-							
+
 <!-- article/blocks/headline -->
 <section class="article-headline">
-	
+
 			<div class="article-headline--title">A&#039;s home opener timeline: Events that brought the team from Oakland to West Sacramento</div>
 			</section>
 <!-- /article/blocks/headline -->
@@ -782,16 +782,16 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 
 </div>
 					</div>
-	
-						
+
+
 					<div class="article-content--body-teaser">
-						
+
 					</div>
-	
+
 					<div class="article-content--body-text-raw">
-						The Sacramento area is now the temporary home of the Athletics for the next three seasons as the franchise awaits a new stadium in Las Vegas.  Major League Baseball in Sacramento has been a dream of locals for years, and the A's souring relationship with the city of Oakland over where the team would play provided an opportunity for the Capitol region. | MORE | 5 things to know about the history of pro baseball in Sacramento When it was announced on April 4, 2024, that West Sacramento's Sutter Health Park would host the A's, then-Sacramento Mayor Darrell Steinberg released a statement calling the announcement of the move a "moment of conflicting emotions." The A's' departure from Oakland has a complicated history that spans several years and includes local politics, disagreements on funding for a new stadium and increasing feelings of betrayal from the fanbase. Read below for a recent timeline of events that led to Sutter Health Park emerging as the temporary ballpark for the A's amid the chaos. You can also find an informational graphic at the bottom of the story that lays out key franchise updates since the announcement and details on how the region has prepared for Opening Day. Oakland waterfront stadium talks stall In 2014, John Fisher and the A's ownership group signed a 10-year lease for the team to play at the Oakland Coliseum. As the contract came closer to its expiration date, the noise increased over the years on where the A's would play next. Keeping the team in Oakland didn't always seem as impossible as it would eventually be, but the issue of building a stadium more advanced than the Coliseum still loomed large. The ownership group had flirted with the idea since taking over in 2005. In 2018, the team announced plans to build a new waterfront ballpark at Howard Terminal near Jack London Square in Oakland that could seat 34,000. “I think the urban downtown location right on the waterfront is really a game-changer for the A’s and for Oakland,” said team president Dave Kaval in 2018.By 2020, the COVID-19 pandemic, pushback from businesses near the waterfront and disputes over whether the ownership group or taxpayer dollars would be funding the bulk of stadium costs, which were roughly $12 billion, had made the proposal complicated.The city of Oakland had agreed to pay for the transportation systems and infrastructure that would surround the ballpark, but were reportedly denied funding by the U.S. Department of Transportation in 2023. Back-and-forth discussions on funding for the project were stalling, while also running up against the end of the A's lease agreement with the Oakland Coliseum. | WATCH BELOW | A's President Dave Kaval on temporary move to SacramentoThe Las Vegas A's?   In April 2023, the Oakland A's  signed a binding agreement to purchase land for a new retractable roof ballpark in Las Vegas. According to reporting from The Associated Press, former Oakland Mayor Sheng Thao said in a statement that she was disappointed the A's didn't negotiate with the city as a “true partner.”“The city has gone above and beyond in our attempts to arrive at mutually beneficial terms to keep the A’s in Oakland," she said. "In the last three months, we’ve made significant strides to close the deal. Yet, it is clear to me that the A’s have no intention of staying in Oakland and have simply been using this process to try to extract a better deal out of Las Vegas. I am not interested in continuing to play that game — the fans and our residents deserve better."On June 15, 2023, Nevada Gov. Joe Lombardo signed into law a $380 million public financing package to help build a Major League Baseball stadium for the Oakland Athletics on the Las Vegas Strip. The stadium's estimated cost was $1.5 billion, significantly less than the $12 billion plan proposed by Fisher and his ownership group for the Oakland waterfront ballpark.  In July, Mayor Thao met with Major League Baseball Commissioner Rob Manfred in Seattle to prove that the city of Oakland made a ballpark proposal to the A's, according to reporting from The Athletic. This came after Manfred had told reporters that there was never an offer from Oakland to keep the A's in town. Thao said she called the meeting to dispel that claim.Thao said she still had an interest in working with the A's to get a ballpark built. Las Vegas and the A's were moving fast, but their plan still needed approval from MLB owners. MLB owners approve the move to Vegas On Nov. 16, 2023, the owners of Major League Baseball unanimously approved the Oakland A's' move to Las Vegas. The move was dependent on a co-sign from Manfred and a 75% vote of the 30 teams. With the move approved, the path was laid for the city of Oakland to be looking at losing its third major sports franchise in a five-year span. The Golden State Warriors moved across the Bay to San Francisco in 2019 and the Raiders, who used to share the Oakland Coliseum with the A's, began playing in their new Las Vegas stadium in 2020. Sacramento reported as frontrunner to host A's Once the A's move to Las Vegas was approved, a new question was raised: Where would they play in the meantime? The stadium in Las Vegas will not be ready for the A's until 2028, but the team's lease would be ending with the Oakland Coliseum after the 2024 season. In January 2024, KCRA 3 learned that Sacramento was a front-runner to host the A's from 2025-27. Sutter Health Park in West Sacramento, the home of the River Cats, the Triple-A affiliate of the San Francisco Giants, was speculated as the ballpark from the beginning.  Before the move was even a reality,  West Sacramento Mayor Martha Guerrero said she was thrilled Sutter Health Park was at the top of the list for the A’s.“The news coming out that it’s looking favorable has been real exciting for all of us,” Guerrero said. “I get a lot of phone calls from constituents, a lot of people stopping me, asking what the progress looks like, and I’m just keeping my fingers crossed, hoping that it happens.”Sacramento River Cats: "We are not going anywhere"With the Sacramento River Cats just days away from their season opener, rumors were swirling that Sutter Health Park could be a destination for the Oakland Athletics.On March 27, KCRA 3's Michelle Dapper asked River Cats President Chip Maxon about the conversations surrounding the A's possible move to Sacramento."I'm hoping you can give me some answers on that," Maxon said. "We are Sacramento's team, we're not going anywhere. If someone else were to play here, we've made it clear we want to play all 75 home games for the River Cats for the foreseeable future." | MORE | How will the A's coming to West Sacramento affect minor league team River Cats?A's fans boycott the last Opening Day in Oakland On March 28, 2024, the A's had their final home opener in Oakland. The Coliseum was the team's stomping ground since 1968, but in their 2024 opener, the 56 years of fan excitement had turned into anger.Cars lined up, waiting to be let into the parking lot, but not all of them were there to see the game. Many fans decided to boycott the team by staying in the parking lot, toting signs that say, "Sell" or, "Stay in Oakland."Those boycotting hoped to send a message by having more fans outside the stadium than inside."It does not feel like Opening Day," KCRA 3's Michelle Dapper noted.The A's did not open the gates until about two hours before the game. Normally, the gates open four to six hours in advance.| MORE | Oakland Athletics' Opening Day marks end of an eraSacramento reps meet with John Fisher On April 3, 2024, John Fisher was in Sacramento to talk with representatives about a temporary home for the A's, according to the San Francisco Chronicle. This meeting came after the A's owner met with Oakland and Alameda County officials the day before to discuss a lease extension at the Coliseum.Sacramento Kings and River Cats owner Vivek Ranadivé, who is described as a "good friend" of the A's owner, was at the meeting.  A's move to Sutter Health Park becomes official, the Sacramento region prepares for Opening Day  The following day, closed-door conversations between ownership and Ranadivé ended in a news conference at Sutter Health Park, announcing the partnership. Ranadivé said the decision came together rather quickly. A's President Dave Kaval said talks lasted several months.While it took some heavy lifting to get that done, there were still questions left  unanswered. How would fans in Oakland feel about the move? Would a minor league ballpark be a suitable home for MLB games? Would West Sacramento be able to prepare for another baseball team in less than a year? The graphic below provides a timeline addressing these questions and more. 
+						The Sacramento area is now the temporary home of the Athletics for the next three seasons as the franchise awaits a new stadium in Las Vegas.  Major League Baseball in Sacramento has been a dream of locals for years, and the A's souring relationship with the city of Oakland over where the team would play provided an opportunity for the Capitol region. | MORE | 5 things to know about the history of pro baseball in Sacramento When it was announced on April 4, 2024, that West Sacramento's Sutter Health Park would host the A's, then-Sacramento Mayor Darrell Steinberg released a statement calling the announcement of the move a "moment of conflicting emotions." The A's' departure from Oakland has a complicated history that spans several years and includes local politics, disagreements on funding for a new stadium and increasing feelings of betrayal from the fanbase. Read below for a recent timeline of events that led to Sutter Health Park emerging as the temporary ballpark for the A's amid the chaos. You can also find an informational graphic at the bottom of the story that lays out key franchise updates since the announcement and details on how the region has prepared for Opening Day. Oakland waterfront stadium talks stall In 2014, John Fisher and the A's ownership group signed a 10-year lease for the team to play at the Oakland Coliseum. As the contract came closer to its expiration date, the noise increased over the years on where the A's would play next. Keeping the team in Oakland didn't always seem as impossible as it would eventually be, but the issue of building a stadium more advanced than the Coliseum still loomed large. The ownership group had flirted with the idea since taking over in 2005. In 2018, the team announced plans to build a new waterfront ballpark at Howard Terminal near Jack London Square in Oakland that could seat 34,000. “I think the urban downtown location right on the waterfront is really a game-changer for the A’s and for Oakland,” said team president Dave Kaval in 2018.By 2020, the COVID-19 pandemic, pushback from businesses near the waterfront and disputes over whether the ownership group or taxpayer dollars would be funding the bulk of stadium costs, which were roughly $12 billion, had made the proposal complicated.The city of Oakland had agreed to pay for the transportation systems and infrastructure that would surround the ballpark, but were reportedly denied funding by the U.S. Department of Transportation in 2023. Back-and-forth discussions on funding for the project were stalling, while also running up against the end of the A's lease agreement with the Oakland Coliseum. | WATCH BELOW | A's President Dave Kaval on temporary move to SacramentoThe Las Vegas A's?   In April 2023, the Oakland A's  signed a binding agreement to purchase land for a new retractable roof ballpark in Las Vegas. According to reporting from The Associated Press, former Oakland Mayor Sheng Thao said in a statement that she was disappointed the A's didn't negotiate with the city as a “true partner.”“The city has gone above and beyond in our attempts to arrive at mutually beneficial terms to keep the A’s in Oakland," she said. "In the last three months, we’ve made significant strides to close the deal. Yet, it is clear to me that the A’s have no intention of staying in Oakland and have simply been using this process to try to extract a better deal out of Las Vegas. I am not interested in continuing to play that game — the fans and our residents deserve better."On June 15, 2023, Nevada Gov. Joe Lombardo signed into law a $380 million public financing package to help build a Major League Baseball stadium for the Oakland Athletics on the Las Vegas Strip. The stadium's estimated cost was $1.5 billion, significantly less than the $12 billion plan proposed by Fisher and his ownership group for the Oakland waterfront ballpark.  In July, Mayor Thao met with Major League Baseball Commissioner Rob Manfred in Seattle to prove that the city of Oakland made a ballpark proposal to the A's, according to reporting from The Athletic. This came after Manfred had told reporters that there was never an offer from Oakland to keep the A's in town. Thao said she called the meeting to dispel that claim.Thao said she still had an interest in working with the A's to get a ballpark built. Las Vegas and the A's were moving fast, but their plan still needed approval from MLB owners. MLB owners approve the move to Vegas On Nov. 16, 2023, the owners of Major League Baseball unanimously approved the Oakland A's' move to Las Vegas. The move was dependent on a co-sign from Manfred and a 75% vote of the 30 teams. With the move approved, the path was laid for the city of Oakland to be looking at losing its third major sports franchise in a five-year span. The Golden State Warriors moved across the Bay to San Francisco in 2019 and the Raiders, who used to share the Oakland Coliseum with the A's, began playing in their new Las Vegas stadium in 2020. Sacramento reported as frontrunner to host A's Once the A's move to Las Vegas was approved, a new question was raised: Where would they play in the meantime? The stadium in Las Vegas will not be ready for the A's until 2028, but the team's lease would be ending with the Oakland Coliseum after the 2024 season. In January 2024, KCRA 3 learned that Sacramento was a front-runner to host the A's from 2025-27. Sutter Health Park in West Sacramento, the home of the River Cats, the Triple-A affiliate of the San Francisco Giants, was speculated as the ballpark from the beginning.  Before the move was even a reality,  West Sacramento Mayor Martha Guerrero said she was thrilled Sutter Health Park was at the top of the list for the A’s.“The news coming out that it’s looking favorable has been real exciting for all of us,” Guerrero said. “I get a lot of phone calls from constituents, a lot of people stopping me, asking what the progress looks like, and I’m just keeping my fingers crossed, hoping that it happens.”Sacramento River Cats: "We are not going anywhere"With the Sacramento River Cats just days away from their season opener, rumors were swirling that Sutter Health Park could be a destination for the Oakland Athletics.On March 27, KCRA 3's Michelle Dapper asked River Cats President Chip Maxon about the conversations surrounding the A's possible move to Sacramento."I'm hoping you can give me some answers on that," Maxon said. "We are Sacramento's team, we're not going anywhere. If someone else were to play here, we've made it clear we want to play all 75 home games for the River Cats for the foreseeable future." | MORE | How will the A's coming to West Sacramento affect minor league team River Cats?A's fans boycott the last Opening Day in Oakland On March 28, 2024, the A's had their final home opener in Oakland. The Coliseum was the team's stomping ground since 1968, but in their 2024 opener, the 56 years of fan excitement had turned into anger.Cars lined up, waiting to be let into the parking lot, but not all of them were there to see the game. Many fans decided to boycott the team by staying in the parking lot, toting signs that say, "Sell" or, "Stay in Oakland."Those boycotting hoped to send a message by having more fans outside the stadium than inside."It does not feel like Opening Day," KCRA 3's Michelle Dapper noted.The A's did not open the gates until about two hours before the game. Normally, the gates open four to six hours in advance.| MORE | Oakland Athletics' Opening Day marks end of an eraSacramento reps meet with John Fisher On April 3, 2024, John Fisher was in Sacramento to talk with representatives about a temporary home for the A's, according to the San Francisco Chronicle. This meeting came after the A's owner met with Oakland and Alameda County officials the day before to discuss a lease extension at the Coliseum.Sacramento Kings and River Cats owner Vivek Ranadivé, who is described as a "good friend" of the A's owner, was at the meeting.  A's move to Sutter Health Park becomes official, the Sacramento region prepares for Opening Day  The following day, closed-door conversations between ownership and Ranadivé ended in a news conference at Sutter Health Park, announcing the partnership. Ranadivé said the decision came together rather quickly. A's President Dave Kaval said talks lasted several months.While it took some heavy lifting to get that done, there were still questions left  unanswered. How would fans in Oakland feel about the move? Would a minor league ballpark be a suitable home for MLB games? Would West Sacramento be able to prepare for another baseball team in less than a year? The graphic below provides a timeline addressing these questions and more.
 					</div>
-	
+
 					<div class="article-content--body-text">
 																			<p>The Sacramento area is now the temporary home of the Athletics for the next three seasons as the franchise awaits a new stadium in Las Vegas.  </p><p>Major League Baseball in Sacramento has been a dream of locals for years, and the A's souring relationship with the city of Oakland over where the team would play provided an opportunity for the Capitol region. </p>
 <!-- article/blocks/side-floater -->
@@ -810,7 +810,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <!-- blocks/ad.twig -->
 
 </div>
-    
+
     </div>
 <!-- article/blocks/side-floater -->
 <p><strong>| MORE | <a href="https://www.kcra.com/article/sports-sacramento-history-of-baseball-archive-athletics/63871217" target="_blank">5 things to know about the history of pro baseball in Sacramento</a></strong> <br></p><p>When it was announced on April 4, 2024, that West Sacramento's Sutter Health Park would host the A's, then-Sacramento Mayor Darrell Steinberg released a statement calling the announcement of the move a "moment of conflicting emotions."</p><p><div class="screen-reader-only">
@@ -820,7 +820,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 
 <div class="embed embed-resize embed-twitter embed-center lazyload-in-view">
 	<div class="embed-inner">
-		
+
                 <blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/MkPNThI7mT" rel="nofollow">pic.twitter.com/MkPNThI7mT</a></p>&mdash; @Darrell_Steinberg (@Mayor_Steinberg) <a href="https://twitter.com/Mayor_Steinberg/status/1775911158416838854?ref_src=twsrc^tfw" rel="nofollow">April 4, 2024</a></blockquote>
 
 </div>
@@ -846,7 +846,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 
 <div class="embed embed-resize embed-twitter embed-center lazyload-in-view">
 	<div class="embed-inner">
-		
+
                 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;We are Sacramento’s team and we are not going anywhere.&quot; The Sacramento River Cats respond to the rumblings on the possibilities of the A&#39;s playing at Sutter Health Park from 2025-2027 <a href="https://twitter.com/kcranews?ref_src=twsrc^tfw" rel="nofollow">@kcranews</a> <a href="https://twitter.com/RiverCats?ref_src=twsrc^tfw" rel="nofollow">@RiverCats</a> <a href="https://twitter.com/Athletics?ref_src=twsrc^tfw" rel="nofollow">@Athletics</a> <a href="https://t.co/VEkm6LxyzZ" rel="nofollow">pic.twitter.com/VEkm6LxyzZ</a></p>&mdash; Michelle Dapper (@KCRAdapper) <a href="https://twitter.com/KCRAdapper/status/1773123999347716381?ref_src=twsrc^tfw" rel="nofollow">March 27, 2024</a></blockquote>
 
 </div>
@@ -863,7 +863,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 
 <div class="embed embed-resize embed-twitter embed-center lazyload-in-view">
 	<div class="embed-inner">
-		
+
                 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kings owner Vivek Ranadive said things came about very quickly with Sacramento landing the Athletics. A&#39;s President Dave Kaval says the timeline took several months <a href="https://twitter.com/Athletics?ref_src=twsrc^tfw" rel="nofollow">@Athletics</a> <a href="https://twitter.com/RiverCats?ref_src=twsrc^tfw" rel="nofollow">@RiverCats</a> <a href="https://twitter.com/DaveKaval?ref_src=twsrc^tfw" rel="nofollow">@DaveKaval</a> <a href="https://twitter.com/Vivek?ref_src=twsrc^tfw" rel="nofollow">@Vivek</a> <a href="https://twitter.com/kcranews?ref_src=twsrc^tfw" rel="nofollow">@kcranews</a> <a href="https://t.co/IldWvqSrd0" rel="nofollow">pic.twitter.com/IldWvqSrd0</a></p>&mdash; Michelle Dapper (@KCRAdapper) <a href="https://twitter.com/KCRAdapper/status/1776003941467062414?ref_src=twsrc^tfw" rel="nofollow">April 4, 2024</a></blockquote>
 
 </div>
@@ -871,17 +871,17 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <p>While it took some heavy lifting to get that done, there were still questions left  unanswered. </p><p>How would fans in Oakland feel about the move? Would a minor league ballpark be a suitable home for MLB games? Would West Sacramento be able to prepare for another baseball team in less than a year? </p><p><strong><em>The graphic below provides a timeline addressing these questions and more. </em></strong></p><div class="infogram-embed" data-id="6f44abd4-82fe-4273-b165-360c0ff4a022" data-type="interactive" data-title="A&amp;#39;s since Sacramento move was announced "></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><ul></ul>
 
 </div>
-	
-	
-						
-						
+
+
+
+
 														</div>
-	
+
 																</div>
 		</div>
 
 <div class="article-social-branding share-content horizontal infinite-scroll">
-				
+
 <!-- blocks/share-content/share-widget -->
 <div class="share-content js-share-container article-social"
 		data-content-url="/article/oakland-athletics-west-sacramento-timeline/64344042"
@@ -906,15 +906,15 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 				<i class="icon icon-facebook"></i></a>
 			</span>
 		</li>
-	
+
 			<li class="share-content--utils-action twitter">
 							<a href="#" class="js-share-social js-share-twitter"  aria-label="Share this article to Twitter">
 						<span aria-hidden="true">
 				<i class="icon icon-twitter"></i></a>
 			</span>
 		</li>
-	
-	
+
+
 			<li class="share-content--utils-action copy-link">
 			<a href="#" class="js-share-link"  aria-label="Copy this link to clipboard" role="button">
 				<span aria-hidden="true">
@@ -951,7 +951,7 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 </div>
 
 </li>
-	
+
 	</ul>
 <!-- /blocks/share-content/share-content-options -->
 
@@ -959,9 +959,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 <!-- /blocks/share-content/share-widget -->
 
 </div>
-	
-			
-			
+
+
+
 					<div class="article-content--footer no-cream">
 				<h2 class="article-footer--header">Top Picks</h2>
 				<div class="grid-content horizontal-list three-cols">
@@ -982,9 +982,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">Nighttime golfing in 1992 – was anyone hit?</div>
 
 <div class="feed-item-utils  ">
@@ -1012,9 +1012,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">&#039;The Pitt&#039; wins drama Emmy Award as the &#039;The Studio&#039; breaks Emmys comedy record</div>
 
 <div class="feed-item-utils  ">
@@ -1042,9 +1042,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">2025 Emmy Awards: See the full list of winners</div>
 
 <div class="feed-item-utils  ">
@@ -1072,9 +1072,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 			</div>
 
 </div>
-	
+
 		<div class="grid-content-inner">
-			
+
 			        		<div class="feed-item-title">All the celebrity red-carpet looks at the 2025 Emmy Awards</div>
 
 <div class="feed-item-utils  ">
@@ -1089,12 +1089,12 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 </div>
 				</div>
 			</div>
-			
+
 				<div class="clear"></div>
 			</div>
 	</article>
 	<div id="sidelist--oakland-athletics-west-sacramento-timeline">
-		
+
 <!-- article/blocks/sidelist -->
 <aside class="article-sidelist-wrapper full-height">
 						<div class="ad-track">
@@ -1113,16 +1113,16 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 
 </div>
 			</div>
-					
-			
+
+
 		<div class="article-sidelist js-sidelist-sticky-menu">
 			<h2 class="article-sidelist--header" data-text-cream="RECOMMENDED" data-text-toppicks="TOP PICKS">
 				&nbsp;
 			</h2>
 			<ul></ul>
 		</div>
-		
-					
+
+
 			<div class="article-ad rectangle scrollable">
 			<!-- blocks/ad.twig -->
 <div class="ad-rectangle ">
@@ -1155,9 +1155,9 @@ HRSTArticles["bf8ddea7-c7e8-4e4d-80a4-c610bcf946c5"].article = {
 // Align Sidelist at the beginning of content media
 					var headline = document.querySelector("#wrapper--oakland-athletics-west-sacramento-timeline .article-headline");
 					var offset = headline.getBoundingClientRect().height;
-					
+
 					track.style.paddingTop = offset + "px";
-				
+
 				var observer = new ResizeObserver((entries) => {
 					if (getComputedStyle(aside).display === 'none') {
 						return;
@@ -1349,7 +1349,7 @@ observer.observe(parent);
 <div class="sticky-bottom">
 					<div class="viafoura-container">
 											</div>
-					
+
 <!-- blocks/sticky-bottom-ad.twig -->
 <div class="ad-sticky-container">
 	<span
@@ -1374,7 +1374,7 @@ observer.observe(parent);
 <script type="text/javascript">
 						!(function(j,_name){j[_name]=j[_name]||function e(){(e.q=e.q||[]).push(arguments)},j[_name].v=j[_name].v||2,j[_name].s="3";!(function(j,e,M,U){function T(M,U){try{T=j.localStorage,(M=JSON.parse(T[decodeURI(decodeURI('%2567e%25%37%34I%25%374%65m'))]("_aQS02NTE3MURFNkVGMzAwRjAyQzhBNERFNDItMg")).lgk||[])&&(U=j[e].pubads())&&M.forEach((function(j){j&&j[0]&&U.setTargeting(j[0],j[1]||"")}))}catch(q){}var T}try{(U=j[e]=j[e]||{}).cmd=U.cmd||[],typeof U.pubads===M?T():typeof U.cmd.unshift===M?U.cmd.unshift(T):U.cmd.push(T)}catch(q){}})(window,decodeURI(decodeURI('%67o%6fgle%25%374%25%361%2567')),"function");;})(window,decodeURI(decodeURI('%25%36%31d%25%36%64%69%25%372%256%31%25%36%63')));!(function(j,e,M,U){M=j.createElement(e),j=j.getElementsByTagName(e)[0],M.async=1,M.src="https://handsomelythumb.com/files/nd1mxymc_7r7r.v1.js",(U=0)&&U(M),j.parentNode.insertBefore(M,j)})(document,"script");
 					</script>
-				
+
 									<script async src="https://accounts.google.com/gsi/client" fetchpriority="low"></script>
 <script>
 		window.addEventListener("load", (event) => {
@@ -1424,7 +1424,7 @@ setSubscribedTextToDiv();
 
 let userEmail = '';
 				try {
-						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;   
+						userEmail = JSON.parse(atob(event.credential.split('.')[1])).email;
 				} catch (e) {
 						console.error('Error decoding google one tap jwt');
 				}
@@ -1443,7 +1443,7 @@ if (window.Metaphor?.signUpBraze && userEmail) {
 						window.Metaphor.signUpBraze(userEmail, window.GOOGLE_ONE_TAP_BRAZE_SUBSCRIPTION_GROUP, 'google-onetap-signupbraze');
 				}
 		};
-		
+
 		function setSubscribedTextToDiv() {
 				if (document.getElementById("brazeSubscribeText")) {
 						document.getElementById("brazeSubscribeText").innerHTML = 'Subscribed';

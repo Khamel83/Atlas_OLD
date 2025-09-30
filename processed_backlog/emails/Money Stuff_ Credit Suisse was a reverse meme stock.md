@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One truly new fact that I have learned about financial markets in the last two years is that random silly enthusiasm from retail investors o
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Reverse meme
-    
-  
+
+
 
 One truly new fact that I have learned about financial markets in the last two years is that random silly enthusiasm from retail investors on social media can   save a big company from bankruptcy. You have a somewhat nostalgic consumer-oriented company, it falls on hard times, it has too much debt, things look grim, short sellers are circling, and then some people on Reddit are like “hey let’s have some fun and stick it to the short sellers,” it becomes a meme, the stock rallies, the company raises money at the new high stock price, it pays off its debts, it expands into non-fungible tokens, the retail investors save the day. It is still a little early to write an ending to this story. “Saved by retail investors, the company becomes a faithful and sensible steward of their capital and pivots to a leading role in the new economy,” maybe. “Eventually the company incinerates the Reddit investors’ money the way it incinerated previous investors’ money, but everyone has fun along the way,” also possible.
 What about the reverse? Can random silly pessimism from retail investors on social media cause a big company to go bankrupt? No, I think is the answer so far, but give it time. Here’s a fun New York Times story about how Credit Suisse Group AG  became a reverse meme stock:
@@ -113,63 +113,63 @@ I assume Credit Suisse will not be doing an at-the-market stock   offering to U
   [5]
  It’s a shame that Credit Suisse is a reverse meme stock instead of a regular meme stock, since it needs to raise capital, and nobody raises capital better than a meme stock. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elon Musk update
-    
-  
+
+
 
 “Hey @elonmusk can you please fix these bots on this … platform you got tricked into buying,” Barstool Sports guy Dave Portnoy  tweeted last night. “I’m getting bot’d to death.” “I have a plan,”  Elon Musk replied. People who are 10,000 years old, as I am, will remember that   eons ago, in April, Elon Musk WANTED TO BUY TWITTER INC. BECAUSE IT HAD TOO MANY BOTS AND HE HAD A PLAN TO FIX THAT. But then he discovered that there were a lot of bots on Twitter! And then he didn’t want to buy it anymore! There was a whole court case about how Musk didn’t know there were bots on Twitter and was tricked into buying it! Even though literally  in the press release announcing the deal he said he would “make Twitter better” by “defeating the spam bots”! And then we spent months   pretending that there was some real dispute here, that he might have somehow been misled about the bots. And then he dropped the whole thing a few weeks before the trial was supposed to start and said, sure, fine, I’ll buy Twitter,   never mind. And now his fans on Twitter are like “what Twitter really needs is for someone to fix the bot problem” and Elon Musk is like “I have a plan.” I am going insane.
 Elsewhere, Musk’s banks, led by Morgan Stanley, are going to   take an absolute bath on the $13 billion of debt financing for the Twitter deal that they committed to in April, but on its   earnings call last week Morgan Stanley had some good news:
@@ -181,20 +181,20 @@ I assume that what that means is something like:
 	Morgan Stanley has a big book of loan commitments, for Twitter and other buyouts that it has agreed to finance.	It tries to hedge some of the risks in that book. Perhaps it hedges interest-rate risk (with Treasuries, futures, swaps, etc.), and perhaps it hedges generic credit risk (with index credit-default swaps, etc.). Morgan Stanley’s Twitter commitment looks worse now than it did in April in part because Musk has spent the last few months trashing Twitter, but mostly because rates have gone up and credit has gotten worse generally, and these generic hedges would have protected Morgan Stanley against those risks.	It probably didn’t go and sell some hedge fund billions of dollars of specific Twitter loan pricing risk, though it would be amazing if it had. If you are the hedge fund manager who’s on the hook for Morgan Stanley’s Twitter losses, do reach out.
 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       ESG PR
-    
-  
+
+
 
 Engine No. 1 LLC is a small asset management firm that  owns 39,396 shares of Coca-Cola Co. stock, or roughly 0.00091% of the company, worth about $2.2 million; Bloomberg reports that it is Coke’s 1,263rd-largest shareholder. Could Coke’s 1,262nd-largest or 1,264th-largest shareholder get a meeting with management to talk about plastics? I dunno, but Engine No. 1 (1) can and (2) can get it written up in several news stories. Here is  Liz Hoffman at Semafor:
 
@@ -216,11 +216,11 @@ A related benefit is what any activist fund gets from a successful proxy fight: 
 
 You don’t even have to threaten! You can do it in a passive ETF! You don’t even have to be mad! “We would like to come to your office to praise you for recycling,” you can tell Coke, and you’ll scare them a little and get attention for your environmental, social and governance activism efforts. 
 
-  
-    
+
+
       ESG non-PR
-    
-  
+
+
 
 “Everything is securities fraud,” I like to say around here: If a public company does a bad thing, shareholders will sue it for not telling them in advance about its plans to do the bad thing. There are variations. One is that if a company has a publicized policy of doing good things, and then it does a bad thing (or does not do the good things), it will get a lawsuit. And so if you are a company with a code of ethics, and an executive does something unethical, you   will get sued for fraud because you published a code of ethics. “You said you have a code of ethics, which implied that your executives were ethical, but you neglected to mention that one of them wasn’t.”
 This concept is really   about the US — other countries do not have quite this culture of “everything is securities fraud” — but you can sort of generalize it. If you are a public company and you announce plans to do good things, you will get a lot of scrutiny for any failure to live up to those plans. Better not to announce them. Here’s  the Financial Times on “green hushing,” which is a way to avoid accusations of “greenwashing”:
@@ -238,11 +238,11 @@ In the US, the state of Texas in 2021 passed a law that attacked ESG investing f
 Eventually some US company is going to attempt to win favor with Texas regulators by announcing “we have a plan to increase our use of fossil fuels in order to pollute more,” and then it will turn out that it did not actually increase its use of fossil fuels, and then it will get sued for securities fraud, and that will be a very American story indeed.
 
 
-  
-    
+
+
       De? Fi
-    
-  
+
+
 
 There are two main approaches to running a crypto exchange in 2022:
 	You set up a centralized exchange in some country. You form a corporation, the corporation runs the exchange, it opens accounts and holds crypto for customers, and you try to be a good corporate citizen. You follow the country’s laws as much as possible, and you lobby to change the ones you don’t like. Exactly how regulated you are (and how much lobbying clout you have) depends on the country, and this approach encompasses both “incorporate in the US and beg the Securities and Exchange Commission for permission to do anything at all” and “incorporate in a small island nation, buy its political system and do whatever you want.” Both have pluses and minuses: The buy-an-island approach gives you a lot of flexibility and probably nice weather; the US approach gives you access to a lot of customers and, arguably, the confidence-boosting value of US regulatory oversight.	You set up a decentralized exchange with no legal entities at all, or at least none that run the exchange. The exchange consists of smart contracts that run permanently on some blockchain; people can interact with the exchange in a purely decentralized, permissionless way. You might try to avoid personal criminal liability by not coding or advertising the exchange in a way that is going to get you obviously arrested by US authorities, or alternatively by being anonymous and staying away from the US. But even if you do get arrested, the exchange is open and decentralized and hard to shut down. It exists not in a corporate entity but in code on a decentralized censorship-resistant blockchain.
@@ -269,15 +269,15 @@ This is actually similar to the argument about why I don’t want my family to b
 
 There is something very crypto about this. If you built a bond trading platform and went out to asset managers to sign them up, they would ask you questions like “where is this platform incorporated?” And if you said “oh that’s a secret,” that would be a gigantic red flag and no one would sign up. In crypto, though, permissionless anonymous decentralized finance is a goal, and “we don’t want to get any regulated legal entities involved in our exchange” is a natural thing to say. Sometimes this involves actual DeFi — exchanges that are open-source smart-contract protocols running on a blockchain — but sometimes it involves centralized exchanges that are companies, but secret.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman’s Fixed-Income Traders Help Counter   Bleak Quarter. BoE set to  further delay sales of government bonds until markets calm. Private equity circles fallen stars of pandemic IPO boom. ExxonMobil accuses Russia of ‘expropriation’ as it exits oil project. US Regulators Probing Bankrupt Crypto Hedge Fund  Three Arrows Capital. SEC must clarify which NFTs will be regulated, says commissioner. Visa, Mastercard Draw New Government Scrutiny Over Debit-Card Routing. The plight of expat workers at KPMG Saudi Arabia. Former WSJ reporter says law firm used Indian hackers to sabotage his career. CEO of Anti-Woke Bank Startup GloriFi Resigns. New Zealand bird of the year contest bars  world’s fattest parrot from running. Florida  clown murder trial postponed after discovery of ‘clown sighting file.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] It *could*, of course, but only by buying all the stock (at $40  per share) and taking the $20 of cash flows for itself. Not a good trade! There is no feasible way to get *short* the company and also transform it into its cash flows.
 
 
@@ -299,114 +299,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Not for  the Tornado Cash guy, obviously, and there have been enforcement actions against DeFi protocols (or at least their promoters and developers). But consider the SEC’s crackdown on centralized crypto yield products, and then consider the relative absence of its crackdown on DeFi yield products (and how popular DeFi yield products are).
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,254 +7,254 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Poison pillsHere are some things you could do[1]: Buy 51% of the stock of a public company in the open market over time, just buying wheneve
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Poison pills
-    
-  
+
+
 Here are some things you could do[1]:	Buy 51% of the stock of a public company in the open market over time, just buying whenever anyone sells, looking for any blocks of stock that come loose, paying the market price for each trade, etc. To put numbers on it, let’s say you start buying at around $40 per share and finish at around $50 per share. (Your buying, and the legally required disclosure of your ownership, will push up the price.) Once you have 51%, you take control, vote out the board, vote in your buddies, elect a new chief executive officer and run the company however you want.	Buy 51% of the stock of a public company in a tender offer. A tender offer is just a big coordinated public offer to buy stock, open to all shareholders at the same price. You announce to all shareholders, “I want to buy 51% of this company and I’ll pay $50 per share in cash, but I won’t buy more than 51%.” More than 51% tender, you prorate the offer (not buying all the shares that are tendered), you get to exactly 51%, paying $50 per share. You proceed as above, taking control of the board etc.	You acquire 51% of the company and take control of the board, as in either Thing 1 or Thing 2. Then you propose a merger at $30 per share. The new board — your buddies — agrees, and submits it to a shareholder vote. You vote your 51% of the shares in favor, and the merger happens; you acquire the remaining 49% of the stock at $30 per share. The holders of that 49% — who did not sell to you at $50 in the first step — are forced to sell to you at $30 in the second step. (That’s how mergers work: When the merger happens, the stock is automatically converted into whatever the merger consideration is, here $30 in cash.)	Same as Thing 1, but instead of buying 51% you buy, I don’t know, 30%. At 30% you just need to convince a few other shareholders to vote with you to kick out the board, etc. As the biggest shareholder, you might have effective control even without a majority.	Offer to buy 100% of the stock of the company in a tender offer. Announce to all shareholders, “I want to buy 100% of this company and I’ll pay $50 per share in cash. But let me warn you. If I get above 51%, but not to 100%, I will definitely do a second-step merger (as in Thing 3), and I’ll do it at $30 per share. So if you want $50, you better tender now, because if you don’t you’re getting $30.” Shareholders might think that $50 is too low, and might not want to tender. But they can’t be sure that 51% of the stock won’t tender, and they don’t want to be left out. So they tender for $50 to avoid getting stuck with $30. (This is called a “two-tier tender offer.”)	Same as Thing 5 but you don’t make the threat explicit. “I want to buy 100% of this company and I’ll pay $50 per share in cash,” you say. But you have a reputation for being tough, and a history of treating minority shareholders poorly. The threat is implicit, so shareholders tender at $50 to avoid ending up in the minority of a company that you control.These are the things, the classic things. They are “coercive takeover tactics,” in the lingo. They are ways for someone — a “corporate raider,” in the lingo — to take over a company without paying a fair price for it, or without offering every shareholder the same price. Or, I mean, arguably without paying a fair price; you might think that some of these things are fine. (If you can get 51% of the shareholders of a company to sell you their stock in market transactions, what’s the problem?) But boards of directors of public companies generally take a dim view of these things. They think of themselves as fiduciaries for all of the shareholders, and they do not like the idea of someone buying the company out from under them. Instead, the board of directors will prefer a nice tidy negotiation between the buyer and the board. The buyer comes to the board and offers a merger, and they negotiate the terms with each other. If the board agrees to a deal, it will generally involve the buyer paying the same price to every shareholder, and it will be a price that the board thinks reflects the full value of the company. Once the buyer has an agreement with the board, they will go out together, buyer and board, and seek shareholder approval. (Either by signing a merger agreement and submitting it to a shareholder vote, or by doing a tender offer in which the buyer asks to buy all the shares from shareholders directly, but on terms approved by the board.) If the board does not agree to the deal, the buyer goes away peacefully and does not cause trouble by buying more stock, launching a tender offer to shareholders without board approval, or running a proxy fight in which the buyer tries to replace the board with its own nominees. That is the dignified, controlled way that corporate boards generally prefer to do mergers-and-acquisitions negotiations.Many buyers like to do M&A this way too. (If you are taking over a company, it helps to be friendly with the people running the company! You’ll need them to help you run the company!) But some buyers — the corporate raiders, etc. — like to retain the ability to go hostile, to do unsolicited tender offers or proxy fights if the board rejects their offers. For one thing, sometimes boards are unreasonable, and going directly to the shareholders is the only way to get a deal done. For another thing, the threat of going hostile can be helpful in negotiations with the board.In the U.S., the board has a powerful tool in this fight. It is the poison pill. (Everyone calls it that, though its technical legal name is a “shareholder rights plan.”) The board of directors of a company, feeling threatened by a big acquirer of its stock or a corporate raider proposing to buy the company, will adopt a “shareholder rights plan.” The gist of the plan is that if anyone — meaning, basically, the buyer — acquires more than X% of the company’s stock (often X is 15 or 20), then that person’s shares go poof. You can’t actually do that — you can’t make one shareholder’s shares go poof — but you can get arbitrarily close by allowing all of the other shareholders of the company to buy many more shares at a discount, or by giving them more shares for free. So you say “if anyone goes above 15% of the stock, then we will distribute one free share of stock for each existing share, except that the person who went above 15% doesn’t get any of the free stock.” So if someone gets 15%, then everyone else’s shares get doubled, taking the acquirer down to about 8%.[2] (In theory you could do this repeatedly, so that the acquirer could never get a controlling stake.)The actual mechanics are a bit more complicated than that, but not worth worrying about[3]; even the summary in the previous paragraph is not worth worrying about. The point is that the pill makes it very bad for anyone to get above 15% of the stock — it basically makes their stock go poof — so nobody does. For a long time it was common to say that a poison pill had never been triggered; that is not quite true anymore, but it is still close enough. When a board adopts a poison pill, for all practical purposes that prevents a buyer from buying more than 15% of the stock, either in the open market or in a tender offer. So it forces the buyer to negotiate with the board. If the buyer wants to buy the company, it has to strike a deal with the board (which will then get rid of the pill); it can’t just go directly to the shareholders to buy stock, because the pill will make its shares go poof.(Some disclosure: The poison pill was invented by the law firm of Wachtell, Lipton, Rosen & Katz, where I worked briefly in the mid-2000s. In my discussion of takeover defenses and tactics, I am drawing on Wachtell’s “Takeover Law and Practice” guide, which is worth reading if you want more detail on how this all works. But I worked there a long time ago and any errors or oversimplifications here are not the firm’s fault.)The poison pill is a bizarre and drastic thing for a board to do — to make one shareholder’s stock go poof! — and when it was invented in the 1980s there was some skepticism that it was legal. But the Delaware Supreme Court approved it, in a 1985 decision, noting that the board’s reason for “the adoption of the Rights Plan was in reaction to what it perceived to be the threat in the market place of coercive two-tier tender offers” (my Thing 5 above). Basically the idea was that (1) corporate raiders sometimes do bad coercive things to take over companies, (2) boards have a fiduciary duty to stop them and (3) drastic measures, like the poison pill, are justified to stop coercive takeover tactics.But the pill quickly became a standard feature of corporate defense even against not-very-coercive actions. Boards of directors have successfully used poison pills to block non-coercive, all-shares-at-the-same-price tender offers, and to put limits on activists’ ability to run proxy fights. The broad general rule is that the board gets to decide on takeovers, and that if it acts in good faith to prevent a change of control, it can, even if shareholders would prefer to take the money.So what does this have to do with Elon Musk.This weekend, Twitter Inc.’s board  adopted a poison pill to protect itself against Elon Musk’s  plan to maybe acquire the company. You can read Twitter’s press release here; here is a more detailed summary of the pill, and here and here are the actual legal documents. The main mechanism of the pill is that if Musk or anyone else acquires more than 15% of Twitter's stock, then every other Twitter shareholder will have the right to pay $210 to acquire $420 worth of Twitter stock (at then-current market prices). 420 IS A WEED JOKE. Otherwise these numbers are sort of arbitrary — again, pills don’t get triggered, so the particular numbers don’t matter — and I imagine the conversation went like this:Lawyer: The pill will be structured to let other shareholders buy a large amount of stock at a discount to dilute Musk’s stake.Twitter: How much stock?Lawyer: It doesn’t really matter, but a lot, enough to swamp Musk. Typically the exercise price would be like $100 to $200, and you’d get twice as much stock, like, $200 to $400 worth.Twitter: We are defending against Elon Musk here and ordinary tactics are not enough. We need to harness the power of the number 420. Lawyer: Okay then $420 worth of stock, whatever.Another, perhaps more practical provision of the pill says that the board can just exchange each right for one share of stock, for free, meaning in essence that the board can double everyone else’s number of shares of Twitter while holding Musk’s constant, without asking anyone to put in more money. This weekend, Musk tweeted “Love Me Tender.” Because he is engaged in an annoying meme-driven maybe-hostile-takeover-battle, everyone interpreted this to mean something like “maybe I will do a tender offer for Twitter, or maybe not, who knows, aren’t I a little scamp.” With the pill in place, he more or less can’t. He has to negotiate with the board, or run a proxy fight to replace the board,[4] or get other shareholders to pressure the board to get rid of the pill, or I suppose sue the board to get rid of the pill.There is a popular belief that, since Musk offered a cash acquisition at a price that is a decent premium to the market price, the board is somehow either obligated to accept his deal or at least obligated to let the shareholders decide.[5] This is wrong. The board gets to decide. From Wachtell’s takeover guide:It seems clear that the target may, if it meets the relevant standard, “just say no” to an acquisition proposal. Targets of unsolicited offers have been successful in rejecting such proposals in order to follow their own strategic plans. …While a rights plan [i.e. poison pill] is often the most useful tool for staving off a hostile bid, it is not necessary to successfully “just say no” in every situation. What is typically necessary—and what a rights plan is designed to protect—is a thoughtful long-term plan that was developed by a board and management whom long-term shareholders trust to deliver value.The basic legal rule here is the “business judgment rule,” which is that the board of directors runs the company and courts do not generally second-guess their decisions if they are made carefully and in good faith. If Twitter’s board is advised by good bankers and lawyers, has no serious conflicts of interest, takes Musk’s offer seriously, and concludes that keeping Twitter independent and executing its strategic plan will be worth more to shareholders than Musk’s $54.20, then it can decline Musk’s offer.There are other relevant rules. One is that, if the board does decide to sell the company for cash, it needs to maximize value for shareholders. This is called the board’s “Revlon duty,” but it is pretty limited. It does not mean that the board has to sell to Musk if his offer is higher than the current stock price. It just means that, if the board decides to sell for cash, it needs to maximize value.[6] But even if the board does decide to sell, it could conceivably take another offer at a lower price than Musk’s bid, if either (1) the other deal is for stock, whose valuation is more subjective or (2) the other deal is, in the board’s judgment, more likely to be completed, for instance because it has actual financing and Musk’s doesn’t really.Another relevant rule is that, if the board says no, any defensive measures it puts in place have to be reasonable. This is called the “Unocal standard.” The board needs to show that it has “reasonable grounds for believing that a danger to corporate policy and effectiveness existed,” and that its defensive measures were “reasonable in relation to the threat posed.” This is also not that high a bar, though: The poison pill is a fairly standard defensive measure at this point, and the board’s conclusion that a takeover price is “inadequate” is generally enough of a threat.Why would Twitter's board of directors want to stop Elon Musk? There is one main reason, which is that they (might) believe, in good faith, that the company is worth more than the $54.20 per share that he has offered to pay for it. This is of course a debatable point. Twitter was trading in the $70s last summer, so there is some recent evidence that it might be worth more than $54.20. But in the weeks before Musk built his stake, it was trading in the $30s, so the market no longer believes that. Twitter’s own performance is what caused the price decline, and it is not obvious that it will turn around soon.Awkwardly, Twitter’s own adviser, Goldman Sachs Group Inc. (disclosure: I also used to work there) put a $30 price target on Twitter in February. (Twitter has also  hired JPMorgan; Bloomberg tells me its most recent price target is $56.) I know this because Musk tweeted out the research report. Goldman’s research analysts, who put out this price target, are pretty independent from its investment bankers, who are advising Twitter, and there’s no reason that the bankers could not find the $54.20 price inadequate even as the analysts think Twitter would be lucky to get $30. But it is the sort of thing that Musk rightly makes fun of. Still, enough  shareholders and analysts seem to think that $54.20 is inadequate that Twitter’s board, in its independent business judgment, could conclude the same thing. And so the board put in place a poison pill to stop Musk from going directly to the shareholders with his $54.20 bid. Maybe now Musk and the board will negotiate a higher price, perhaps $69. Or maybe now the board will find a higher bidder. Or maybe not; maybe the board will just say no to Musk and that will be that. It is not the most common result in these situations, just because then the stock would probably go back down, at least in the short run, and shareholders would be mad. But it is a thing that the board can do, and that a court generally won’t second-guess.But I also want to spend some time on other reasons that a board of directors might want to stop Elon Musk, reasons in the general “coercive takeover tactics” bucket. Let me just list a few things that the board’s lawyers might say if this poison pill ever gets litigated.First, Musk did acquire 9.1% of the company secretly, in the open market, paying prices in the high $30s to get a start on his takeover without paying a control premium. Crucially, he seems to have done some of this acquiring illegally: He was required by law to disclose his ownership stake, and probably his intention to take over the company, by March 24, but he waited until April 4 to make that disclosure, and claimed to be a passive investor when he finally did. This delay allowed him to buy an extra 13 million shares at lower prices,  saving him (and costing shareholders) on the order of $140 million.The consensus seems to be that the U.S. Securities and Exchange Commission can’t do much about this, and while there is a shareholder lawsuit about it already, it’s not clear that that will accomplish much either. Sometimes companies will ask courts to “sterilize” an acquirer’s shares, preventing him from voting them, if he acquired them in violation of the disclosure rules, but those requests don’t have much success. Basically Musk seems to have broken the law to buy his shares, but no one can do much about it.But Twitter can stop him from buying more stock secretly, by implementing the pill. It can reasonably argue that it is protecting shareholders from being tricked by illegal secret stock accumulation, and that Musk has already demonstrated that he is willing to do illegal secret stock accumulation. Second, Musk has arguably made at least one coercive threat: He has said, in his public communications to the board, that if he can’t buy Twitter at $54.20 he will dump his 9.1% stake, driving down the stock price. This does not strike me as a particularly bad coercive threat — it doesn’t really leave Twitter worse off than it was before he arrived — but Tulane law professor Ann Lipton argued on Twitter that “shareholders asked to vote or tender on this offer would be doing so under threat, which the Board is legally entitled to protect against,” and I think it is certainly an argument that the board could make.Third, Musk has said that he wants to buy all of Twitter at $54.20 per share. But he has also implied that he doesn’t. At a conference last week, Musk  said that he intends “to retain as many shareholders as is allowed by the law in a private company.” It is not at all clear what he means by that, or how seriously he means it. But it is reminiscent of what he said when he briefly pretended he was going to take Tesla Inc. private: He wanted to allow Tesla’s existing public shareholders to roll over into the private company. (It was not clear then either what he meant.) And, crucially,  that was part of his financing plan: He claimed that his takeover of Tesla would not require the full amount of cash to buy out all the shares, because he assumed a lot of public shareholders would roll over.The financing for Musk’s Twitter bid  is also murky, and I suppose it might rely on the same sort of vague wishful assumption that a lot of shareholders will roll over. Musk will need about $40 billion to buy out all of Twitter’s shares that he does not already own, but what if his plan is to spend, say, $25 billion, and to assume that holders of the other $15 billion will roll their stock over into a new Twitter, controlled by Elon Musk?If he negotiates a merger with the board, then the board can insist on protections for the shareholders: It can require that shareholders be given a choice of cash or stock, that there be enough funding for everyone to elect cash, that the shareholders get full disclosure before electing, etc. Maybe some shareholders will want to roll their shares into Musk Twitter.But if Musk launches a hostile tender offer without negotiating with the board, he might try to finesse this point. He might offer to buy, you know, 75% of the company or whatever, saying “I am confident that a lot of shareholders will want to keep their shares so I am not offering to buy it all.” You might end up in coercive-takeover territory, where some shareholders want to cash out but can’t, or where some shareholders rush to cash out because they fear getting stuck with stock in a Musk-controlled Twitter.[7] This would be pretty weird, and I do not think it is particularly likely, but it is a possibility given his history and his statements and his caginess about his financing. And I could see Twitter’s board justifying the pill on these grounds too, as a way to prevent Musk from buying less than all of Twitter on the cheap.Anyway this Wednesday is April 20, that is, 4/20, the holiest day of the year for people who can’t stop making weed jokes, like Musk and, now, Twitter. I assume that on Wednesday morning either they will sign a friendly deal, or Musk will launch his tender offer (despite the pill!?). Otherwise they’ll have to wait until June 9.Elsewhere in all this:	At FT Alphaville,  Sujeet Indap built an LBO model suggesting that there’s a way for a Twitter acquisition to work out.	At the Diff,  Byrne Hobart has some strategic suggestions for whoever ends up owning Twitter.	Here is   a Bloomberg News story from last week about Elon Musk’s retail-investor fans buying Twitter stock. They don’t seem to be buying that much, though: “The $423.9 million added from retail traders since the disclosure of his stake, for instance, equals about 1.2% of Twitter’s current market value.” Meanwhile, given the stock price, it does not seem like merger arbitrageurs are piling into Twitter stock because they expect a deal to get done.	Recently Musk has been going around complaining that, when he pretended in 2018 that he was going to take Tesla Inc. private, he really did have “funding secured.” I   remember reading the Securities and Exchange Commission’s complaint against Musk in 2018, and it seemed pretty clear that he had had only the vaguest of chats about funding; in the subsequent years he has never provided any evidence at all that he actually had the funding. He signed a settlement with the SEC over this incident, and his  current complaining seems like  a violation of that settlement. None of this matters to the Twitter bid, I guess, but it remains annoying.	Also a judge seems to have ruled that, when he said he had “funding secured,”   that was false? 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Meanwhile in crypto
-    
-  
+
+
 Here’s a trade you can’t do:	Find a small publicly traded bank. Say it’s a bank with $10 billion of assets, with an equity market capitalization of $1 billion. (These are realistic numbers; the market value of a bank’s stock will generally be much lower than the value of its assets, because most of those assets are in effect owed to its depositors.[8])	Buy 51% of the stock for $510 million or whatever. 	Vote out the board, vote in a new board and make yourself the chief executive officer.	Take the $10 billion in the vault and send it to yourself, making $10 billion on your $510 million investment.	Smirk “what, I own the bank, I take the money, that’s how it works.”That’s not how it works, you can’t do this,[9] if you did do it you would go to prison, but you’d be stopped well before that point. But in its outlines it is a tempting and elegant trade, and we have  talked about variations that work a little better. (The guy we talked about did go to prison, though he did get the money first, so his version worked only a little better.)The basic idea of the trade is that there exist in the world some very large pots of money — banks, insurance companies, asset managers, etc. — that are controlled by relatively small companies. It takes a smaller amount of money to buy control of the company, and then you get to decide what to do with the larger pot of money that the company manages. In the world of traditional finance, this is a well-known problem, and those pots of money tend to be very carefully regulated to guard against some opportunist taking control of them on the cheap and draining the money from the pot.In crypto, etc. etc. etc. etc. etc. you know how this is gonna go. Here’s Anthony Lee Zhang on Twitter:Beanstalk, a moderately popular new algo-stable protocol, just got attacked for $80MThis one is a very interesting hack: rather than exploit a bug in the code, it was a "governance attack". My understanding is that holders of beanstalk equity token holders can vote on changes to the protocol: literally, chunks of code that are added to the protocolThe way an algo-stable works, there's an equity layer and a debt (stablecoins) layer, and possibly a bunch of reserves, so the equity layer effectively has control over a bunch of "stuff" that the protocol ownsHence, a fairly simple attack:1. Propose a piece of code to the protocol that says "send the entire treasury to my address A"2. Buy a bunch of equity tokens and vote the change in3. Send the entire treasury to your address AAnd here is CoinDesk’s summary:The attacker took out a flash loan on lending platform Aave which enabled them to amass a large amount of Beanstalk’s native governance token, Stalk. With the voting power granted by these Stalk tokens, the attacker was able to quickly pass a malicious governance proposal that drained all protocol funds into a private Ethereum wallet.Various crypto pots of money are controlled by governance tokens, and the market capitalization of the governance token is often a lot lower than the value in the pot, for basically the same reasons that the market capitalization of a bank is generally much lower than the value of the bank’s assets. And the governance token can, by majority vote, decide what to do with the pot. (Sometimes — many pots are better designed than this!) And in crypto, you can often do a series of transactions as a single integrated transaction, in which you take out a flash loan to buy all the governance tokens, vote the governance tokens to give yourself the pot of money, use some of the pot to repay the flash loan and keep the rest for yourself — all at once. And so someone did. Again: You could do exactly this trade with a bank, instead of a stablecoin, if banks were stupidly designed. But they are not![8] This is obvious to banking people but perhaps not to everyone: The way a bank works is that it takes deposits (and owes money back to depositors) and uses them to make loans, buy bonds, etc. A bank with $10 billion of assets might have $9 billion of deposits and $1 billion of equity value. It has $10 billion of stuff, it owes $9 billion back to depositors, so there’s $1 billion left over, which belongs to its shareholders. The point is just that banks are very *leveraged*; they fund most of their assets with deposits, so the assets are worth way more than the equity value of the bank. JPMorgan Chase & Co. has a market capitalization of about $370 billion.[9] Among other things because they don’t keep the deposits in cash in the vaults, etc., though that is not actually as big an obstacle as it seems. The trick is to sell the bank’s $10 billion of assets, lend the $10 billion to yourself instead, and use it to buy yachts. That trick also does not work, though, usually.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Hedging vs. manipulation
-    
-  
+
+
 Two years ago this week, the price of oil futures became negative. It was weird and we  talked about it a  bunch.  One thing that we  talked about was the trade-at-settlement mechanism. The way TAS works is that, sometime in the middle of the trading day, I agree to buy futures from you at the end of the day, for whatever the closing (settlement) price happens to be (plus or minus a few pennies of premium or discount). We agree on a quantity but not a price; we just take whatever the closing price is as the price for our trade.You might be doing this because you are a price-insensitive natural seller. I, on the other hand, might be an arbitrageur or market maker or prop trader; I might not want to end up owning all those futures. I will hedge my transaction: I’ll buy 100 contracts from you via TAS, and then sell 100 contracts in the market — at actual prices — to end up flat. I might try to do this hedging sometime near the close of trading that day, so that my selling prices will roughly match the settlement price at which I am buying.If I do a lot of selling right at the close, that will have a tendency to drive down the closing price. If there are no other big buyers right at the close, this can be very lucrative for me. For instance if the price is $20, half an hour before the close, and I start selling a bunch and the price drops to $10, and if I sell some more and it drops to $0, and I sell even more and it drops to negative $10, and so forth, I might end up selling my contracts at an average price of, say, negative $10, and then I buy from you at the settlement price of, say, negative $37.63, which was the actual closing price of West Texas Intermediate crude futures on April 20, 2020. So I make $27.63 per barrel. A point that I often make is that it is very hard, in this scenario, to distinguish proper “hedging” (I am long TAS, so I hedge by selling futures) from improper “manipulation” (I am long TAS, so I push down the settlement price by selling futures). Or rather, two related points that I often make are:	It is hard to distinguish hedging from manipulation just by looking at trading history, but	The way people distinguish these things in practice is by looking at the traders’ chat logs and see if they say things like “boy I really manipulated that price, hope I don’t go to prison.”Anyway the people who made money trading TAS oil contracts that day  had some bad chat logs:At 3:29 p.m. on April 20, 2020 -- the only day that oil prices have ever dropped below zero -- a British trader sent a message to his buddies: “We pushed each other so hard for years for this one moment … And we f[******] blitzed it boys.”Moments earlier, one of his colleague wrote on their WhatsApp message group, “Please don’t tell anyone what happened today lads x.”Those written exchanges among traders dubbed the “Essex Boys,” who made $700 million when oil collapsed, were cited by a U.S. judge who gave the green light to a proposed class-action lawsuit filed against them in August 2020. His ruling was unsealed Tuesday in Chicago.  ...“The content of their communications, along with the high degree of correlative trading among most of them, give rise to a highly plausible inference of an agreement among them,” the judge wrote in his unsealed order, which included excerpts of messages between the traders. Yep! That is how it works.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Russia Has Found No Place Yet to  Invest Reserves After Sanctions. Can Russia Pay its 2022 Dollar Bond Obligation in Rubles? Bank of America Traders Get Boost From Market Volatility,  Beat Estimates. Ex-Bank of America Trader Pleads Guilty to  Treasury Spoofing. Homeowner Groups Seek to Stop Investors From Buying Houses to Rent. Goldman’s  Youngest Black Partner Leaving to Start His Own Fund.  Infowars Files for Bankruptcy Amid Sandy Hook Lawsuits.  Evergreen Ship Lodged in Chesapeake for a Month Moving Again. FDA Probes Lucky Charms’ Possible Link to Illnesses. Man wins $450K lawsuit after surprise work birthday party triggers panic attack.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Don’t take this too literally. Some of these things are pretty hard to do. The second-step merger in Thing 3, for instance, would probably be subject to entire fairness review as I describe it in the text, and you’d be unlikely to get away with it. Even in Thing 1, your appointed directors will have fiduciary duties to all shareholders, and buying 51% in the open market seems hard. I am describing these things to illustrate the concepts, not because they can really all be done.[2] That is, the acquirer has 15 shares and everyone else combines for 85. Then everyone else gets doubled, giving them 170, while the acquirer still only has 15, or 15/185 = 8.1% of the stock.[3] The traditional “flip-in” pill operates by distributing “rights” to shareholders, basically options to buy shares; if an acquirer “triggers” the pill by going above 15%, then the rights become exercisable. Generally the rights have an exercise price that is rather higher than the current stock price, and you can buy stock with a current market value of 200% of the exercise price. So you have to pay, say, $210 to get $420 worth of stock. Shareholders would be expected to exercise the rights, buying a lot of stock and diluting the acquirer. Modern pills also have an “exchange” provision that works like I said in the text: Instead of asking shareholders to put up a bunch more cash (which they might not do!), the exchange provision just gives every shareholder one free share in exchange for their rights, diluting the acquirer.[4] Which would take forever. Twitter’s annual meeting to elect directors is already scheduled for May 25, and Musk is probably too late to run a proxy fight for that meeting. Also Twitter has a classified board, meaning that only one-third of directors are elected each year, so he would have to win two proxy fights to get a board majority. Incidentally, Twitter is trying to *get rid of* the classified board, which requires an 80% vote of shareholders, though I wonder if it regrets that effort given Musk’s arrival.[5] William Cohan suggests that if “the $54.20 price is ‘fair,’ from a financial point of view,” then Twitter’s board “will have little choice but to accept Musk’s offer.” This is not quite how it works. In general, a board can reject an offer that it thinks is inadequate. Sometimes it will get an opinion from a financial adviser saying that the offer is inadequate. In general, a board can accept an offer that it thinks is fair; almost always, it will get an opinion from a financial adviser saying that the offer is fair. *These are different words*, and while they may not *mean* anything different, they allow for wiggle room. Thus a board can reject an offer of $54.20 per share and get an “inadequacy” opinion saying $54.20 is inadequate, and then later decide it has no choice but to accept the same offer and get a “fairness” opinion saying $54.20 is fair, and the opinions will be from the same bank and based on the same facts, and it’s all fine. “The price can be considered fair but still inadequate,” wrote Steven Davidoff about this practice in 2008, and: “Since financial valuation is a subjective exercise and there are no set, agreed guidelines or practices for it, there is substantial leeway for investment banks to arrive at their client's desired conclusion.” The narrow point here is that, if Twitter wanted to do this deal, it could probably get a fairness opinion from its advisers saying that $54.20 is “fair,” but that does not in any way obligate Twitter to take the deal.[6] I am oversimplifying when I say “sell for cash,” though it is a customary oversimplification. Delaware law has an annoying concept of a “change of control,” in which selling a company for cash changes its control, because the shareholders are cashed out and someone else controls the company, while selling it for stock does not, because the shareholders remain shareholders of the acquirer. But if the acquirer is itself a controlled company — if it has one big shareholder who will own a majority of the surviving company, etc. — then that is also a “change of control” and implicates Revlon. None of that seems important here.[7] Twitter’s board might add that Musk, as a controlling shareholder, has some history of disregard for minority shareholder rights. Currently some Tesla shareholders are  suing Musk over Tesla’s takeover of SolarCity, another company that Musk controlled, arguing that the takeover benefited Musk at the expense of public shareholders. I don’t know how strong that case is, but again it’s something for the board to mention. Incidentally a ruling on that case is expected this month. Fun!
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

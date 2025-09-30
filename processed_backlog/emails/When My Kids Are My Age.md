@@ -66,7 +66,7 @@ As I sat here writing this on Father’s Day, while my kids were playing on the 
 It got me. I stopped writing, went down to the beach, and played with my kids. There’s no point in getting excited about living longer and being able to work less if you already don’t get to enjoy the time you have with the people you love. 
 But they’re at the beach again, and I’m here writing. Unlike the fisherman, I don’t want the world to look the same when I retire as it does today.
 Thanks to my mom for the idea and Dan [ https://substack.com/redirect/ef38cb38-9f2c-42f8-8802-1f02279d4ebe?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Puja [ https://substack.com/redirect/a078e22c-3475-4a17-87b2-674c2f22a534?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
-That’s all for today. We’ll be back in your inbox on Friday for the Weekly Dose. 
+That’s all for today. We’ll be back in your inbox on Friday for the Weekly Dose.
 Thanks for reading,
 Packy
 

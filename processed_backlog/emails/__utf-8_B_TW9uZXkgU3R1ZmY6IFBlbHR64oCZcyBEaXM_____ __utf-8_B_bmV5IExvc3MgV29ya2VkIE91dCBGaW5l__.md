@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If you are an activist hedge fund, I guess you have two motivations: You are, essentially, a value investor: You buy companies that are chea
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Activism
-    
-  
+
+
 
 If you are an activist hedge fund, I guess you have two motivations:
 	You are, essentially, a value investor: You buy companies that are cheap because they are mismanaged, and then you try to fix the mismanagement (by yelling at management, running proxy fights, etc.) so the stock goes up.	You probably do like conflict, right? You probably think that you could do a better job of running the company than management does. You want to win proxy fights, get board seats, so that you can impose your will on the company — and so that,   in your next activist engagement, the company will be scared of you and more likely to do what you want.
@@ -80,37 +80,37 @@ That is a roughly 40% return on the investment over the period Trian has owned t
 
 I suppose the way to spin this is that Peltz forced Disney to improve its operations and get serious about succession planning, which made the stock more valuable, so he lost the proxy fight.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Trump Media
-    
-  
+
+
 
 On the one hand, as we   have   discussed, the stock price of Trump Media & Technology Group Corp. has nothing to do with the company’s fundamentals. Last year Trump Media lost $58 million on $4 million of revenue, but the stock has a market capitalization of more than $6 billion. It is hard to work out a model of “this expected cash flows to shareholders from this company’s business have a present value of $6 billion.”
 On the other hand, there are cash flows to shareholders. Just not from the business. The cash flows are from stock lending. Here’s the New York Times:
@@ -145,11 +145,11 @@ One less obvious answer, suggested to me by a reader, is: Trump Media itself c
 
 Another less obvious answer, suggested to me by a different reader, is: Could Trump lend out his stock to short sellers? Right now some Trump Media shareholders are making money by lending their stock to haters; can Trump himself get in on that action? Probably not, is the answer. For one thing, the lock-up agreement says that he can’t “lend, offer, pledge, hypothecate, encumber,” etc. his stock. Even after the lock-up expires, though, as a 58% shareholder an officer, there would probably be legal restrictions on his shares: He can’t sell them freely, so he’d probably be restricted from lending them too. But making money from people betting against him would be a pretty fitting way for this to work.
 
-  
-    
+
+
       Paramount
-    
-  
+
+
 
 I wrote yesterday that, if you want to do a merger with a public company, it helps to already own most of the company, but it can also make things more complicated. The Wall Street Journal reports:
 
@@ -173,11 +173,11 @@ So if you want to acquire Paramount, the obvious two-step process is:
 As I said yesterday, there are safeguards against that. The main one is that Paramount’s board has appointed a special committee of independent directors to negotiate and approve any deal; the special committee has to work on behalf of all shareholders, and will presumably reject a deal that is really good for Redstone and bad for the rest of the shareholders.
 But as I also said yesterday, these deals tend to be controversial and lead to lawsuits. If Redstone has a deal to sell to Skydance, then in some sense the board can’t negotiate a deal with Apollo: Paramount can’t do any sort of merger without the approval of the 77.4% Redstone stake, so if Redstone doesn’t want to sell to Apollo there is no deal to be done. All the board can do is negotiate the best possible deal for shareholders that Redstone will agree to. And so it can end up negotiating exclusively with Skydance even while there are other bidders out there, because Skydance has a deal with the controlling shareholder.
 
-  
-    
+
+
       Comp is down
-    
-  
+
+
 
 It used to be that the big investment banking was the generic way to become rich. If you were a young person with fancy credentials, a strong desire for money, and no strong preferences or interests, it was kind of natural to go to a bank. “Oddly enough,” Michael Lewis wrote of his first day as a Salomon Brothers bond salesman with a Princeton art history degree, “I didn’t really imagine I was going to work, more as if I were going to collect lottery winnings.”
 That was in 1985, and the next two decades or so were good, dynamic, lucrative times for the big investment banks. They dominated finance, and they innovated, building new products that increased their dominance and brought in lots of money.
@@ -191,26 +191,26 @@ The source, who noted the median Manhattan rent is $4,257 according to a StreetE
 
 What is the world coming to when the investment banking kids can’t even afford the branzino at Carbone.
 
-  
-    
+
+
       Meanwhile at Meta
-    
-  
+
+
 
 Here is a Bloomberg Businessweek story about a guy at Meta Platforms Inc. who used its internal chat system to solicit his co-workers to invest in his real estate venture. A bunch of them invested and then the venture failed, “leaving about 160 people who’d found real estate investments via the platform, including the dozens of Meta employees, with an estimated $50 million in losses.” Meta has the deepest pockets nearby, so of course the employees are half-heartedly blaming the company:
 Meta had no direct connection to the episode, but that doesn’t necessarily matter when people feel burned. Employees complained to the company that it should take responsibility for what happens on its internal chatrooms. “Maybe [Meta] should have had a policy against any sort of promotions like that,” says Jeff Smith, a former Facebook product designer who says he lost more than $50,000. “I think something like this could happen at any workplace.”
 Any workplace? How many workplaces do you think there are where dozens of people casually invest five-figure sums in their co-worker’s speculative real estate platform after reading about it on the company Slack? This does not seem like a big problem for, say, Goldman Sachs vice presidents. Really this episode is a good bit of recruiting for Meta: “Come to Meta and you can afford to be as casual with your money as we were.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How Hertz’s Bet on Teslas Went Horribly Sideways. Chase Bank to Let Advertisers Target Customers Based on Spending Data. Anatomy of a credit card rewards program. Private equity stakes unloaded at a discount as investors seek exits. The British Are Coming for Your White-Collar Job. Commodity trading profits hit record $104bn last year. Apple Explores Home Robotics as Potential ‘Next Big Thing’ After Car Fizzles. Activist Fund Sachem Head to Build Stake in Delivery Hero. CFA Level 1 Pass Rate Rises to 44%, Above Historic Average. In one of L.A.’s largest cash heists, burglars steal as much as $30 million in elaborate operation. “One 700-word article was turned into a 34-slide slideshow, exposing the person who read it on a computer to about 150 ads.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] In particular, if the stock falls then you might expect the dollar cost of stock borrow to fall. 
+
+  [1] In particular, if the stock falls then you might expect the dollar cost of stock borrow to fall.
 
 
   [2] Incidentally the value of these warrants is basically their intrinsic value less borrow cost: There is not a ton of Black-Scholes time value in them, both because they are very in-the-money and because Trump Media can redeem them (i.e. force exercise) pretty much as soon as they become exercisable.
@@ -219,55 +219,55 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Probably you want the borrowing to be non-recourse: That is, you post $1 billion of stock to borrow $500 million, and if the stock goes down to $100 million, or zero, the banks can’t ask you for any more money; they can look only to the collateral to get their money back. Obviously the banks will not like that so much, though there are ways to make them feel better. (Funded collars, etc.) But borrowing recourse against a meme stock is not *really* a good way to monetize it: If the stock goes to zero, you have to pay back the money!
 
 
-  [4] I 
+  [4] I
 have argued that just waiving the lock-up for him, so he could borrow against his shares, would work fine too.
 
 
-  [5] Also: “People close to the Apollo bid said the private-equity firm wouldn’t need additional debt financing to buy Paramount because its existing capital structure could be rolled into a new deal.” 
+  [5] Also: “People close to the Apollo bid said the private-equity firm wouldn’t need additional debt financing to buy Paramount because its existing capital structure could be rolled into a new deal.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -278,46 +278,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cksn0x.5hsw/231eff18.gif" alt="" border="0" /></a>

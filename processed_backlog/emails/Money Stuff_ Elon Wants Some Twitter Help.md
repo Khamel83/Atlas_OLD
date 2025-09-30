@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Imagine taking the job! Yesterday Elon Musk tweeted a poll asking if he should step down as “head” of Twitter Inc.; 17.5 million people vote
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Imagine taking the job! Yesterday Elon Musk  tweeted a poll asking if he should step down as “head” of Twitter Inc.; 17.5 million people voted, and the results were 57.5% to 42.5% in favor of him stepping down. “I will abide by the results of this poll,” he said. But he also  tweeted “As the saying goes, be careful what you wish, as you might get it.”  And: “No one wants the job who can actually keep Twitter alive. There is no successor.”  And: “The question is not finding a CEO, the question is finding a CEO who can keep Twitter alive.” And, listing qualifications for the next chief executive officer: “You must like pain a lot. One catch: you have to invest your life savings in Twitter and it has been in the fast lane to bankruptcy since May. Still want the job?”
 Meanwhile Musk has been  trying to  raise money for Twitter at $54.20 per share, the $44 billion valuation at which he bought it; he   said in October that he was “obviously overpaying.” Since then things have, uh, not gone well. So the proposition is … what? You take all of your money, you give it to Musk to buy equity in his company at a price that you all agree is absurd? And then you get to work for him, running a sullen and broken Twitter according to his ever-shifting whims, until he changes his mind and fires you? And when he fires you he   denies you severance and dares you to sue, and  accuses you of being a sex criminal? 
@@ -85,89 +85,89 @@ A search through Twitter confirms that Musk is turning up constantly in people�
 
 I guess that’s worth paying $44 billion for.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon (2)
-    
-  
+
+
 
 About that equity sale.  Semafor reported:
 
@@ -187,20 +187,20 @@ Also my initial assumption was that, if Musk was selling Twitter shares, he was 
 But the FT article indicates that the proposed deal is primary, that is, the seller of these shares (and the recipient of the money) would not be Musk, but Twitter itself, to use the money to expand, hire programmers, shore up finances, etc. At some level this is a strange move, going back to raise more equity two months after a going-private deal.
 On the other hand, one thing that Musk has always been good at is capital raising: He has the ability to inspire equity investors to buy stock in his companies at uneconomically high valuations, and the ruthlessness to hit the bid over and over again. At Tesla that has mostly involved   doing at-the-market offerings of stock to retail investors; at Twitter I guess it involves going back to his venture-capital backers and saying “hey, if you don’t want to mark down your investment at the end of the year, consider throwing in some more money at the same price.”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Voyager
-    
-  
+
+
 
 I want to make sort of a generic point about crypto shadow banks. Let’s say you have a crypto shadow bank, say a lending platform that takes customer deposits and uses them to lend to crypto hedge funds. It has customer deposits of $1 billion, it has shareholders’ equity of $100 million, and it buys $1.1 billion of assets, meaning mostly cryptocurrencies and loans to crypto hedge funds. The value of the assets goes down (to $1 billion, or maybe a bit more, or maybe a lot less), there’s a run on the bank, and the lending platform halts withdrawals and files for bankruptcy.
 It goes to bankruptcy court and says “hi, we owe customers $1 billion and we have assets that might be worth $1 billion or might not, but we’re gonna try to get as much as we can for them.” There are two possible paths here.
@@ -238,11 +238,11 @@ We will do everything in our power to speed up the legal and court approval proc
 
 Presumably Binance.US is sharing those audits and those balance sheets with the bankruptcy court. Voyager has already been burned once.
 
-  
-    
+
+
       Elsewhere in crypto auditing
-    
-  
+
+
 
 If you are a public accounting firm, you are in the business of signing your name to a piece of paper saying “this company’s financial statements are basically true,” and charging for it. Before signing your name, you will do your best to confirm that the financial statements are true, but there is always a risk that you’re wrong. If you are wrong you might get sued or fined; also, though, if you are wrong too often your signature will lose its value and people will stop paying you for it. Your high-level goal is to (1) minimize that risk while (2) maximizing your revenue. Broadly speaking, you minimize risk by being conservative, by only auditing the statements of simple trustworthy companies in stable industries, and you maximize revenue by being aggressive, by auditing the statements of companies in fast-growing industries and by being, uh, customer-friendly about your audits.
 The tensions here are all very obvious and hard, but sometimes there are easy calls. Like if you got into aggressively auditing statements of companies in a complicated and risky industry because you were betting on its rapid growth, and then people lose confidence in the finances of companies in that industry and it starts shrinking, then (1) the risk of auditing that industry has gone way up and (2) the potential revenue has gone way down. Why bother?   Anyway:
@@ -254,11 +254,11 @@ Proof-of-reserves reports have faced scrutiny as they are not comparable to a fu
 
 In theory, auditing is especially valuable in an industry where some big firms are giant scams and some are not and it is hard to tell the difference from the outside. In practice, it is not clear that auditors can tell the difference either, and the risk is high.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 This is the sort of thing that would have made more sense in 2017 than in 2022 but  the muni market moves slowly:
 
@@ -267,11 +267,11 @@ Alphaledger recently acted as the underwriter for three debt sales in New York, 
 
 Blockchain!
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 This is the sort of thing that would have   made more sense in like May, but apparently you can still steal Bored Apes? And even resell them for money?  Molly White reports:
 
@@ -281,129 +281,129 @@ When the collector did so, the smart contract drained the collector's wallet of 
 
 Here is  more detail. It used to be that the way to steal Bored Apes from collectors was that, like, you sent them a Twitter direct message saying “your shoelaces are untied,” and they’d be like “wait they are?,” and you’d be like “yes, to re-tie them please send me the private keys to your crypto wallet,” and they’d be like “oh sure makes sense here you go” and you’d take their apes. Now you have to pretend to offer them money for licensing and then ask them for their private keys.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Bob Iger vs. Bob Chapek:  Inside the Disney Coup. If Grayscale’s Bitcoin ETF Dreams Fail, Firm May  Try a Tender Offer, CEO Says. Private Equity Firms   Dig Deep for Acquisitions While Banks Nurse Losses. Credit Suisse financed  Greensill’s plan to set up insurance firm. Mortgage  Buydowns Are Making a Comeback. Highest Interest Rates in 15 Years Are Derailing the   American Dream. Crypto’s Onetime Fans Are  Calling It Quits After FTX Collapse. Mauboussin and Callahan on  Capital Allocation. “FTAV dug through the 52 companies the  Alameda/FTX/SBF complex gave a cool milli to.” You can stay in the  ‘world’s largest’ wine bottle for $40. “Millennial  cringe.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I’m oversimplifying here in assuming that all the customer liabilities are dollar-denominated; in fact, the customers will want to withdraw various sorts of crypto, and the buyer will have to give it to them. This doesn’t matter much conceptually but it can make things messier in practice.
 
 
   [2] BlockFi got an FTX rescue *without* filing for bankruptcy: It agreed to sell itself to FTX for a pittance in exchange for a guarantee of customer accounts, but when FTX went bankrupt BlockFi quickly followed. Voyager filed for bankruptcy and then   got an offer from FTX, which  Voyager’s management actually *resisted*, saying that it was good for FTX but bad for Voyager’s customers. That turned out to be right! Ultimately FTX won the deal in bankruptcy, and then lost it again when it went bankrupt.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

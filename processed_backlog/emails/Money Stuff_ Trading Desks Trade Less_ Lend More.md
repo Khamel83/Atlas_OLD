@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What does the trading business of a big bank do? One crude model might be: In the olden days, perhaps 20 years ago, the trading division did
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Prime brokerage
-    
-  
+
+
 
 What does the trading business of a big bank do? One crude model might be: In the olden days, perhaps 20 years ago, the trading division did trading. It did customer facilitation trading (dealing, market making): buying securities that customers wanted to sell, selling securities that customers wanted to buy, using the bank’s balance sheet and collecting a spread for that service. And it did proprietary trading: buying securities that the bank wanted to buy (because it thought they would go up) and selling securities that it wanted to sell. There is some conceptual distinction between those businesses, but they are related; in either case, the bank’s traders used its balance sheet to buy and sell securities and took the risk that those securities might go down. 
 Since the 2008 financial crisis, that has become somewhat less true. In the US, proprietary trading, as a business for big banks, has been more or less outlawed for a decade by the Volcker Rule. Customer facilitation trading is still a big business, but it is   widely believed that banks have scaled back their market making for a variety of regulatory and risk-appetite reasons: The Volcker Rule complicates market making, increased capital requirements have made it less economical for banks to use their balance sheets to trade securities, and the generally more boring and conservative culture of post-crisis banks has left them less interested in taking big trading risks. And so more of what the trading desks do now is matching up buyers and sellers without using the bank’s own balance sheet to buy and sell stuff.
@@ -77,37 +77,37 @@ Many believe the appeal of financing has only increased over time, arguing these
 
 It is striking how normal this is. People sometimes argue that it is aberrant that banks ever got into the business of trading stocks and bonds to begin with. (For a while, it was more or less illegal in the US.) Broadly speaking, in the economy, there are all sorts of businesses that do stuff, and banks are in the meta-business of lending them money to do the stuff. That meta-business is supposed to be safer than the underlying businesses: Instead of being in risky businesses themselves, banks have a diversified collection of senior claims on risky businesses; the other businesses run the risks, and the banks get the relatively safe first claim on their revenues. In some loose sense maybe this is true of securities trading too, and in the long run the right business for bank trading divisions to be in is lending money to other businesses that do the actual trading.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private markets are the new public markets
-    
-  
+
+
 
 Well, here’s another model for a bank’s trading business. Maybe the job of a trading business is to have a lot of clients, to know their positions well, and to match up their desires. You know that Alice has 100 shares of XYZ stock and wants to sell it, you know that Bob has some cash and is looking to buy 100 shares of XYZ stock, you match them up, make the trade happen and collect a commission.
 In regular-way trading of US public stocks, this is an almost absurd way to think of the bank’s role: Alice just sends an electronic sell order, Bob sends a buy order, they cross on some electronic trading venue and no human at the bank needs to have any interaction at all with Alice or Bob. Relatedly, the commissions that the bank can collect on that trade are pretty low; for most retail brokerage platforms they are zero. But banks do sometimes put together larger block trades of stock for their customers, where their market knowledge is more valuable and they can get paid more. And of course a lot of other products — many high-yield bonds, asset-backed securities, etc. — do tend to trade mostly through the memory and market knowledge of bank traders. If there are only 100 of some bond, and I want to buy them, I don’t know who owns them, but maybe some big bank’s trading desk does. And I have to pay that bank to find them for me.
@@ -121,11 +121,11 @@ Here is the statement, which adds:
 Clients who use the desk can benefit from direct support for one-off sales of private company shares. Conversely, clients intent on investing in private companies can gain access to investments not widely accessible. This offering complements the existing private investment platforms for clients offered through Morgan Stanley Wealth Management.
 Yes, right, if you are a Morgan Stanley wealth client and you own shares in a private company and want to sell them, Morgan Stanley would like to know about that. If you are a Morgan Stanley wealth client and you want some shares in a private company, Morgan Stanley would like to know about that too. If it has both sides of the trade, it will put them together, make its clients happy and make some money. Good service, good fee opportunity, and also a business where it is an advantage to have a large client base. Though: “In addition to existing client relationships, it has established relationships with leading secondary marketplaces which can help clients gain exposure to a broader market with a focus on transaction execution quality.” Private markets are the new public markets, and this business will eventually be anonymized and electronified too.
 
-  
-    
+
+
       Elon vs. the lawyers
-    
-  
+
+
 
 So the obvious thing to say is that  this is absurd:
 
@@ -155,11 +155,11 @@ Now, there is an obvious hole in this analysis.
  That $56 billion wasn’t just to pay Musk for his past efforts. This is a repeat game. Musk is still Tesla’s chief executive officer, he still makes lots of decisions, he still seems to be important to Tesla’s success, and the board and shareholders still want him around. Yoinking back his pay package for the last five years is going to de-motivate him for the future. If your model of Musk is that his efforts can create or destroy hundreds of billions of dollars of value for Tesla — and that he has a lot of good options for how to spend his time — then stiffing him on back pay is not a good long-term decision.
 That said, though, Elon Musk himself has made it hard to make that objection. Before the decision in this case came down, back when Musk still theoretically had those $56 billion of stock options, he was   going around saying in public that he was no longer motivated to do a good job for Tesla, that he was going to take his best ideas elsewhere, and that he’d need tens of billions of dollars in additional stock options to re-motivate him. His position was basically that the $56 billion was past pay for past performance, and that if Tesla wants his future efforts it needs to give him another huge pay package. And if that’s right — if that $56 billion only purchased Musk’s last five years of effort, with no future loyalty — then, sure, maybe it’s a good deal to take it back.
 
-  
-    
+
+
       Zombie VCs
-    
-  
+
+
 
 I used to be an investment banker, and I often went to client meetings, because that’s what I was getting paid to do. Had they not paid me to do it, I would not have gone to client meetings. I recognize that, in this and other ways, I was a bad investment banker. The people who really get ahead in investment banking, and in financial services generally, are the ones who would go to client meetings for free, who can’t think of a better use of time than meeting with clients, who get social and emotional and intellectual satisfaction from doing client meetings. I   wrote once about Andrea Orcel, who had to be forcibly prevented from flying to Davos to meet clients when he was between jobs. That is the level of commitment to client meetings that you want in your financial professional.
 Anyway  this made me laugh: 
@@ -181,15 +181,15 @@ Telling people you are a VC also gets you into a lot of glitzy parties and confe
 
 Heavens no, you wouldn’t want to give up going to conferences.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The  radical changes coming to the world’s biggest bond market. JetBlue   Abandons Troubled $3.8 Billion Deal for Spirit Air. Investors Raise  Macy’s Buyout Bid. Elon Musk vs. Everyone: The New  Fight in AI. How Elon Musk Is Using His AI Startup to Help  Turn Around X. The   Monaco Royals Whose Deals Have Brought Peril to the Palace Doors. Investors left in the dark after US companies fail to  file on time. Nvidia’s Surge Stokes  Talk of a Bubble.  Hipgnosis cuts value of music portfolio by over a quarter. Chinese Gangs Use  Cryptocurrencies to Launder Billions. “From the beginning of this case the government has been blitzing, and Xaviar’s  pocket was collapsing.” Is Your 401(k)  Destroying Capitalism? Glasgow’s  Sad Oompa Loompa Isn’t Gonna Sugarcoat This. “ Clippy isn’t just a paper clip, he’s a legend.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One problem was “then 2008 happened.” Another problem is that the 30-to-1 leverage came in part through a “too-big-to-fail subsidy,” in which bank leverage was implicitly backed by the US government, and post-crisis regulation tried to move away from that.
 
 
@@ -208,48 +208,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Well, several. Another important hole is that my analysis pretends that there are two entities, Musk and Tesla, negotiating at arm's length. Of course the other point of Chancellor McCormick’s decision is that that wasn’t true, and that Musk controlled Tesla and was essentially negotiating with himself. Again that strikes me as mostly correct.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -260,46 +260,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckkrj1.5il9/3375d715.gif" alt="" border="0" /></a>

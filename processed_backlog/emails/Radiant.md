@@ -323,9 +323,9 @@ Luckily, that harsh new home comes with some built-in advantages on the mining f
 And then, of course, when the humans arrive, you’ll need food, so you’ll need people (or robots) who know how to grow it. From a nutrition perspective, potatoes are all wrong, you need wheat and rice. So to prepare yourself, you build threshing and winnowing equipment with your kids, rip up the grass, convert your front yard to a wheat field, then you go out and harvest it, make bread, go out and sit in the field with your kids in the sun and chat and eat the bread. 
 At least, that’s what Doug would do, and what Doug did do, because he takes this plan very seriously. And because he knows better than anyone in the world that we’re not going to be able to build a future home for humanity on Mars if we don’t start taking it very seriously today. 
 Don’t wait. Ever.
-Thanks to Doug, René and the Radiant team for letting me peek inside Radiant, to Adam for introducing me to Doug, to Fred for your insights, and to Claude for editing. 
-That’s all for today. We’ll be back in your inbox with the Weekly Dose on Friday. 
-Thanks for reading, 
+Thanks to Doug, René and the Radiant team for letting me peek inside Radiant, to Adam for introducing me to Doug, to Fred for your insights, and to Claude for editing.
+That’s all for today. We’ll be back in your inbox with the Weekly Dose on Friday.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFEzTXpnM01qQTFMQ0pwWVhRaU9qRTNNakk1TkRnM01UUXNJbVY0Y0NJNk1UYzFORFE0TkRjeE5Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlFyMk5vSXlKQVNFMnJwUy1ydTJuemN2SDhkSTgzRTZZdFNncVppRjFpMmsiLCJwIjoxNDczODcyMDUsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzIyOTQ4NzE0LCJleHAiOjE3MjU1NDA3MTQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.RrRCBy2A4wmMog8YOyj07Tx4YCCye_eVZ5xDrChgfGs?

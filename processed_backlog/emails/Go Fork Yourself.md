@@ -7,9 +7,9 @@
 
 View this post on the web at https://www.notboring.co/p/go-fork-yourself
 
-Welcome to the 1,169 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 142,501 smart, curious folks by subscribing here: 
+Welcome to the 1,169 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 142,501 smart, curious folks by subscribing here:
 🎧 I’m going to try to record the audio version later today, we wrote down to the wire!
-Programming Note: We’re due with our second kid any day now. Whenever she comes, I’m taking off for a month. We’ll still have some great guest posts and the Weekly Dose of Optimism, but this Thursday, if we make it there, will be the last essay I write until September! 
+Programming Note: We’re due with our second kid any day now. Whenever she comes, I’m taking off for a month. We’ll still have some great guest posts and the Weekly Dose of Optimism, but this Thursday, if we make it there, will be the last essay I write until September!
 Today’s Not Boring is brought to you by… Masterworks [https://substack.com/redirect/902c3dac-a137-4eee-b7cd-81ea04679e11?u=16283549]
 During my paternity leave, I’m trying to stay as far away from a keyboard, and the markets, as possible.
 That’s why I’m happy I’ve been investing with Masterworks. Nobody is panic selling Picassos.
@@ -17,15 +17,15 @@ On Masterworks, anyone can easily invest in blue-chip contemporary art, at a lev
 Masterworks’ team of experts scours the blue-chip art market, gives members the opportunity to invest in pieces they like, and decides when to sell. Since inception in September 2019, their art investments have generated 15.3% net annualized appreciation. I don’t need to look at my portfolio except when I want to admire the art.
 The only problem? I’ve wanted to complement my Basquiat and Warhol with a Banksy for months. So of course when I finally had a chance 2 days ago, the shares sold out in 14 minutes and I missed it. Don’t be like me. Skip the waitlist with the Not Boring link:
 Hi friends 👋 ,
-Happy Monday! 
-If you read “governance” and thought about skipping today because that sounds boring, I implore you to read on. Flipping DAO governance models is one of the most fascinating rabbit holes I’ve gone down recently. Incentivizing dissent over consensus creates both an internet-native model for organizing humans and directing resources, and a source of real differentiation versus incumbents. 
-But like Tokenomics [https://substack.com/redirect/610e5f87-0ac5-4ba1-b0fd-659a75e962eb?u=16283549], for which we needed to borrow Tina He [https://substack.com/redirect/a92546f7-5043-499e-b51b-2fd085f2f70e?u=16283549]’s brilliance to explain, DAO governance is a topic so complex and fast-evolving that we needed to tap not one, but two, people who live and breathe the topic. 
-Today, I’m teaming up with two of my favorite people / writers in web3: 
+Happy Monday!
+If you read “governance” and thought about skipping today because that sounds boring, I implore you to read on. Flipping DAO governance models is one of the most fascinating rabbit holes I’ve gone down recently. Incentivizing dissent over consensus creates both an internet-native model for organizing humans and directing resources, and a source of real differentiation versus incumbents.
+But like Tokenomics [https://substack.com/redirect/610e5f87-0ac5-4ba1-b0fd-659a75e962eb?u=16283549], for which we needed to borrow Tina He [https://substack.com/redirect/a92546f7-5043-499e-b51b-2fd085f2f70e?u=16283549]’s brilliance to explain, DAO governance is a topic so complex and fast-evolving that we needed to tap not one, but two, people who live and breathe the topic.
+Today, I’m teaming up with two of my favorite people / writers in web3:
 Luca Prosperi [https://substack.com/redirect/6a418be4-0567-466c-a9d4-b6c7fbc33753?u=16283549], the author of the truly excellent Dirt Roads [https://substack.com/redirect/00ec5208-2b12-486b-b690-4c3df03d1334?u=16283549], mathematician, ex-MakerDAO, and advisor to Cherry Ventures.
-David Phelps [https://substack.com/redirect/79e1d5b5-4474-4d00-81d7-162bbb9c9200?u=16283549], the author of Three Quarks [https://substack.com/redirect/077b6ecd-a67d-4606-9504-7de0d0383c88?u=16283549], co-creator of ecodao and jokedao, investor at cowfund, advisor to TCG Crypto, Gitcoin steward, and more. 
-Luca and David are two of my favorites because they’re simultaneously optimistic about web3, vocal about its shortcomings, and actively engaged in building solutions. If you don’t already, follow them on Twitter and subscribe to their newsletters to get a sense of what I mean. 
-Bringing old models online isn’t the goal. Creating new ones that weren’t possible offline is. 
-Let’s get to it. 
+David Phelps [https://substack.com/redirect/79e1d5b5-4474-4d00-81d7-162bbb9c9200?u=16283549], the author of Three Quarks [https://substack.com/redirect/077b6ecd-a67d-4606-9504-7de0d0383c88?u=16283549], co-creator of ecodao and jokedao, investor at cowfund, advisor to TCG Crypto, Gitcoin steward, and more.
+Luca and David are two of my favorites because they’re simultaneously optimistic about web3, vocal about its shortcomings, and actively engaged in building solutions. If you don’t already, follow them on Twitter and subscribe to their newsletters to get a sense of what I mean.
+Bringing old models online isn’t the goal. Creating new ones that weren’t possible offline is.
+Let’s get to it.
 Go Fork Yourself [ https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvZ28tZm9yay15b3Vyc2VsZj90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpZME1qY3dNemNzSW1saGRDSTZNVFkxT1RNMU9EQTROU3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS43aTRvU0tmUjUxek14U0dlVHFidDI5NmM3TnlWdnVWa3JWcWlxanBTdlY0IiwicCI6NjY0MjcwMzcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU5MzU4MDg1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Pc4Ch-fJIYxlqm6Kn8XzevjO48bX6ACEz_cZaCOt06I? ]
 (Click this 👆 to read the whole thing online)
 In video games, “speedrunning” means completing a video game as fast as possible. 
@@ -82,7 +82,7 @@ Quadratic Voting: Meant to decrease the voting power of large holders while stil
 Proof of Participation: Proposed by people including Vitalik Buterin [https://substack.com/redirect/845268a6-fa92-4fa2-882a-dad2764fcce0?u=16283549], PoP would only give votes to those who have actively participated in the DAO or protocol, which should make it harder and more expensive to wage governance attacks. 
 There are others, but the majority of variations seem to focus mainly on deploying protection layers to improve productivity and mitigate or delay the effects of governance hacks – so called Optimistic Governance [https://substack.com/redirect/66a2eff9-64d8-4350-99bd-c5dcdff5796f?u=16283549] – but not much more. All are important improvements, but they don’t answer a key question: are the underlying governance frameworks adopted able to incentivise virtuous behaviors while tackling complex tasks? 
 Our guess is that, for the vast majority if not totality of DAO governance models out there, the answer is no.
-To dive deeper into the wonderful world of forking… 
+To dive deeper into the wonderful world of forking…
 Thanks to Luca [https://substack.com/redirect/6a418be4-0567-466c-a9d4-b6c7fbc33753?u=16283549] and David [https://substack.com/redirect/79e1d5b5-4474-4d00-81d7-162bbb9c9200?u=16283549] for all the good stuff in the piece, and to Dan [https://substack.com/redirect/3937ed3f-5305-4a2b-a731-4a8fb3e38dd8?u=16283549] for editing!
 Have a great week, and see you back here later this week (baby permitting).
 Thanks for reading,

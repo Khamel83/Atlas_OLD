@@ -6,13 +6,13 @@ chrome.runtime.onInstalled.addListener(function() {
     title: "Save Page to Atlas",
     contexts: ["page"]
   });
-  
+
   chrome.contextMenus.create({
     id: "atlasSaveSelection",
     title: "Save Selection to Atlas",
     contexts: ["selection"]
   });
-  
+
   chrome.contextMenus.create({
     id: "atlasSaveLink",
     title: "Save Link to Atlas",
@@ -39,14 +39,14 @@ function saveContent(url, title, source, content = '') {
   chrome.storage.sync.get(['atlasServerUrl'], function(result) {
     const serverUrl = result.atlasServerUrl || 'https://atlas.khamel.com';
     const apiUrl = `${serverUrl}/api/v1/content/save`;
-    
+
     const data = {
       url: url,
       title: title,
       content: content,
       content_type: 'article'
     };
-    
+
     fetch(apiUrl, {
       method: 'POST',
       headers: {

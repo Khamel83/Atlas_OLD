@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#d8352a">
   <meta name="msapplication-navbutton-color" content="#d8352a">
@@ -129,7 +129,7 @@ window.DIDOMI = {
 
 </head>
 <body class="region_us content content-show  refresh-article max-lg:relative">
-  
+
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WX8PHK9"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -400,7 +400,7 @@ window.DIDOMI = {
 <div id="outer">
 
 <article id="article" class="clearfix has-desktop-magazine has-mobile-magazine" data-id="174313" itemscope itemtype="http://schema.org/Article">
-    
+
     <figure class="magazine">
   <div class="image" style="background-image: url(https://images.theconversation.com/files/439973/original/file-20220110-27-psk7vr.jpg?ixlib=rb-4.1.0&amp;rect=35%2C335%2C4000%2C2000&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop);">
     <div class="placeholder-container" style="--aspect-ratio-percent:66.25%;--background-color:#a69363"><img alt="A man walks past a row of brightly coloured houses" class="lazyloaded" src="https://images.theconversation.com/files/439973/original/file-20220110-27-psk7vr.jpg?ixlib=rb-4.1.0&amp;rect=35%2C0%2C4000%2C2646&amp;q=20&amp;auto=format&amp;w=320&amp;fit=clip&amp;dpr=2&amp;usm=12&amp;cs=strip" data-id="439973" itemprop="image"></div>
@@ -415,7 +415,7 @@ window.DIDOMI = {
 
 <div class="magazine-title">
     <div class="wrapper">
-      
+
   <header class="content-header-container grid-twelve large-grid-eleven">
     <div>
       <div class="content-header-block">
@@ -716,7 +716,7 @@ window.DIDOMI = {
 <div class="page-addendum">
   <div class="wrapper">
     <div class="grid-sixteen grid-last">
-      
+
 <div id="addendum-write" class="addendum-block want-to-write">
   <h3 class="border">Want to write?</h3>
   <p>

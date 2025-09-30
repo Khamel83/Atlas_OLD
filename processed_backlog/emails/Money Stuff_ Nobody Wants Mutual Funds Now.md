@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        It feels like there are two dominant retail investment strategies: Buy and hold index funds, or Actively trade individual stocks and, while 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        It feels like there are two dominant retail investment strategies: Buy and hold index funds, or Actively trade individual stocks and, while
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Barbell strategy
-    
-  
+
+
 
 It feels like there are two dominant retail investment strategies:
 	Buy and hold index funds, or	Actively trade individual stocks and, while you’re at it, maybe options or crypto.
@@ -97,37 +97,37 @@ Everyday investors are known to buy the dip, piling into markets during weak per
 Crudely speaking, if index funds offer market performance, and retail investors on average outperform the market, then professional investors on average will underperform the market: “Over the past decade, about 86% of all large-cap U.S. equity funds have underperformed the S&P 500, according to S&P Dow Jones Indices.”
 This seems bad for the big asset managers? They are squeezed from both sides: There is the rise of indexing, but there’s also the pretty good performance of individual investors who pick their own stocks. For a long time now, one argument for active management has been along the lines of “sure index funds look good in a rising market, but wait until the market goes down; then people will see the value of active stock selection.” But in fact people have seen the value of owning a lot of Apple and Tesla, which they can just do on their own. The real argument for active management surely has to be something like “sure index funds and also individual stock trading look good in a market dominated by the biggest names, but wait until Tesla and Apple underperform and the way to make money is by buying stocks that retail investors have never heard of.” Which is a harder pitch.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Brightline redline
-    
-  
+
+
 
 When I was a young mergers-and-acquisitions lawyer in New York, someone told me that, when you do a merger in Germany, everyone has to get together and read the entire contract out loud before signing it. This struck me as wild.
   [2]
@@ -153,11 +153,11 @@ The details are not particularly important.
   [3]
  What’s important is the email chain. A contract exists, in the form of a PDF with the Certares/Knighthead fund’s signature, but the two sides disagree about what it says.
 
-  
-    
+
+
       Bail-in
-    
-  
+
+
 
 A general problem in banking crises is:
 	If a bank is in trouble, the best way to fix that trouble is ordinarily for the bank to issue equity, but	If the bank tells potential investors how much trouble it is in, they might not want to buy that equity.
@@ -182,11 +182,11 @@ Given the speed at which a bail-in may need to be exercised, it will likely not 
 
 Of course the SEC is right that the bank really ought to “enable prompt provision to the market of current and accurate (pro-forma) financial statements”: Presumably its stock will continue to trade after the bail-in (that’s the point of the bail-in!), and stock investors will want accurate disclosure if they are buying and selling the stock. But that’s true without the bail-in too: Any bank crisis is going to be complicated and fast-moving, and a bank will have to figure out the frequency and details of its public disclosures to keep shareholders informed. Vaporizing some debt into stock adds some complication — you might want “current and accurate (pro-forma) financial statements” to reflect the vaporization — but honestly it seems like less of a big deal than, you know, huge deposit flight.
 
-  
-    
+
+
       Carbon accounting
-    
-  
+
+
 
 Carbon credits are largely a matter of baselines. We talk about this a lot with trees. One classic way to get carbon credits is by  not chopping down a forest. But the amount of credit you can claim for this is necessarily bound up with the question of whether the forest would have been chopped down without your intervention. This creates oddities. We  talked last week about a carbon-offset project in Zimbabwe that ran into trouble because too few trees were chopped down: Sure the trees that the project protected weren’t chopped down, but neither were trees in a nearby “reference” forest, so the impact of the carbon-offset project was limited. “That seems good,” I wrote. “For the climate? But bad for the people hawking carbon credits.”
 Direct carbon capture technology — where you  build a big machine to “suck carbon dioxide out of the atmosphere and bury it deep underground” — has less of this baseline problem. But not none!
@@ -198,22 +198,22 @@ A Bloomberg Green investigation has revealed that Century never operated at mo
 It might seem, from a climate perspective, like a boon that Century never reached its full potential since its performance was inextricably linked to natural gas production. But picking the wrong location for an expensive carbon capture project carried real climate costs. Cheaper shale gas elsewhere met the same demand, without the benefit of carbon capture. As a result, total emissions likely ended up higher.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Chevron to Buy Hess for $53 Billion in Latest Oil Megadeal. Treasury 10-Year Yield Breaches   5% for First Time Since 2007. Qatar’s Hamas Ties Could Thwart $475 Billion Investing Ambition. Private-Equity Professionals Remain  Upbeat on Pay Despite Industry Slump. Investors Find Value in Seemingly Valueless   Convertible Bonds. Pimco Is Selling   Hung Debt It Bought From Banks for a Premium. There’s Never Been a Worse Time to  Buy Instead of Rent. Car Owners Fall   Behind on Payments at Highest Rate on Record. Business Schools Grapple With How To   Teach Artificial Intelligence. The  fake hitman, the crypto king and a wild revenge plan gone bad.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One important element here is that mutual funds were once a way to diversify your stock portfolio in a world where the normal way to buy individual stocks was in round lots of 100 shares. If you had $10,000 to invest, that might get you 100 shares of one or two stocks, whereas a mutual fund could buy dozens of stocks for you and give you fractional ownership of each of them. But now you can trade individual stocks for free and buy fractional shares directly from your broker, so that benefit of mutual funds is much less important.
 
 
   [2] Casual Googling suggests that  this is true, but oh man is this not German legal advice.
 
 
-  [3] Basically Brightline’s position appears to be that if subsidiaries sell new stock, then they stop being guarantor subsidiaries and so can go borrow new money without repaying Certares/Knighthead. Certares/Knighthead disagree with this position. But if the credit agreement was amended to specifically acknowledge the sale of stock by a subsidiary, and Certares/Knighthead signed off on it, then Brightline would have an easier time arguing “you agreed to let us do this trade so it must be fine.” 
+  [3] Basically Brightline’s position appears to be that if subsidiaries sell new stock, then they stop being guarantor subsidiaries and so can go borrow new money without repaying Certares/Knighthead. Certares/Knighthead disagree with this position. But if the credit agreement was amended to specifically acknowledge the sale of stock by a subsidiary, and Certares/Knighthead signed off on it, then Brightline would have an easier time arguing “you agreed to let us do this trade so it must be fine.”
 
 
   [4] This is distinct from banks’   additional tier 1 capital securities, hybrid instruments that by their terms convert into equity (or are written down) in some bad scenarios. But it is conceptually similar.
@@ -222,48 +222,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Robin Wigglesworth at  FT Alphaville discussed it at the time.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -274,46 +274,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjpssy.5huu/35a4a8e2.gif" alt="" border="0" /></a>

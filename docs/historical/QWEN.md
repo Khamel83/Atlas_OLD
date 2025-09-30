@@ -42,7 +42,7 @@ Atlas/
 ├── run.py                    # Main CLI entry point
 ├── helpers/                  # Core processing modules
 │   ├── article_fetcher.py   # Article ingestion (929 lines)
-│   ├── youtube_ingestor.py  # YouTube processing (545 lines) 
+│   ├── youtube_ingestor.py  # YouTube processing (545 lines)
 │   ├── podcast_ingestor.py  # Podcast processing (267 lines)
 │   ├── metadata_manager.py  # Content metadata management
 │   ├── path_manager.py      # File system organization
@@ -159,7 +159,7 @@ The web interface is built with FastAPI and provides:
 
 **ALL user-configurable values MUST be in `.env`** - Never hardcode:
 - File paths, directories, URLs
-- API keys, credentials, tokens  
+- API keys, credentials, tokens
 - Timeouts, retry counts, limits
 - Feature flags, toggles
 - Any value that might need adjustment
@@ -238,7 +238,7 @@ As of August 2025, Atlas has achieved its core content processing mission with:
 # Process articles from inputs/articles.txt
 python run.py --articles
 
-# Process YouTube videos from inputs/youtube.txt  
+# Process YouTube videos from inputs/youtube.txt
 python run.py --youtube
 
 # Process podcasts from inputs/podcasts.opml

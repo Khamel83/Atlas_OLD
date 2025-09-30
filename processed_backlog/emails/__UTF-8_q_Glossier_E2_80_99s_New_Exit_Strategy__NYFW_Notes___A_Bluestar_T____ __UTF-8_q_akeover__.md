@@ -153,7 +153,7 @@ part to Rêve and Doux, and that momentum has continued into 2025, due in part t
 I’m genuinely curious to see what new products Glossier has in the pipeline, as well as what will happen when the company goes head-to-head with Rhode over shelf space at Sephora. But regardless of its competition or its innovation, the
 L’Oréals and LVMHs of the world aren’t fighting to pay billions for Sephora’s 25th bestselling makeup brand. While it’s possible that Glossier’s burgeoning fragrance collection may help to boost revenues and profitability in the short term––I heard Sephora projects that Fleur will be the most successful of the three flankers––there are other brands with better financials and growth trajectories that are likely more attractive to potential acquirers.
 
- 
+
 
 That’s it from Rachel and me. By the way, if you were one of many who signed an N.D.A.
 in the Dior men’s building this week… you know where to find me! (Do we think we’ll go back to Dior Homme, by the way?)
@@ -211,6 +211,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU_NHzDarVEa8hhbd9AUo=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -127,7 +127,7 @@ He tried to get DeMatha, but Wootten declined. “Morgan told me he put it to a 
 
 > “Everybody was talking about how they needed Americans,” Strickland says. “I had my head down at the meeting and kind of said under my breath, ‘I guess I could get my buddies.’”
 
-  
+
 
 Strickland remembers being at a tournament committee meeting as time was running out and no Yanks were onboard.
 
@@ -249,7 +249,7 @@ But, grateful as Strickland is that his pals came over all those years ago, he�
 
 “I’ve got to hire some Irish guys,” he says.
 
-  
+
 
 ## Related
 

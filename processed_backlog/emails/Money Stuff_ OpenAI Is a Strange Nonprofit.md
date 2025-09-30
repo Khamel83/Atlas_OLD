@@ -7,60 +7,60 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off for the rest of the week, back on Monday. Happy Thanksgiving!Another note: This is being published
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off for the rest of the week, back on Monday. Happy Thanksgiving!
 Another note: This is being published a little before 1 p.m. New York time on Tuesday, Nov. 21. The OpenAI stuff moves pretty fast, and it is possible that by later this afternoon everything will be different. I mean, sorry?
 
-  
-    
+
+
       OpenAI: Nonprofit governance
-    
-  
+
+
 
 One way to look at   the OpenAI situation is that OpenAI is a nonprofit organization, and it is not that uncommon for nonprofits to have tension between their mission and their staff.
 This is arguably a silly way to look at the situation, because, for a few years ending last Friday, nobody really thought of OpenAI as a nonprofit. OpenAI was an $86 billion tech startup that was building artificial intelligence tools that were expected to result in huge profits for its investors (Microsoft Corp., venture capital firms) and employees (many of whom owned stock). But technically that OpenAI — OpenAI Global LLC, the $86 billion startup with employee and VC and strategic shareholders — was a subsidiary controlled by the nonprofit, OpenAI Inc., and the nonprofit asserted itself dramatically last Friday when its board of directors fired its chief executive officer, Sam Altman, and threw everything into chaos.
@@ -88,37 +88,37 @@ There’s strong momentum outside OpenAI to get Altman reinstated too. OpenAI’
 “We are continuing to go over mutually acceptable options and are scheduled to speak again tomorrow morning when everyone’s had a little more sleep,” Makanju wrote. “These intense discussions can drag out, and I know it can feel impossible to be patient.”
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI: Startup governance
-    
-  
+
+
 
 Obviously another way to look at the OpenAI situation is that OpenAI is an $86 billion tech startup that did some real odd stuff to incinerate most of its value. 
 In some ways this is not that unusual a story of nonprofit governance, in which the board’s abstract commitment to the mission conflicts with the practical on-the-ground experiences of the staff. But it sure is an unusual story of startup governance, in which Microsoft agreed to invest $13 billion in OpenAI, and other venture capitalists also put in money, and employees got stock grants, without the contractual or fiduciary rights that investors would normally get. And then one day the board of OpenAI was like “hey we decided to blow up the company” and the investors were like “wait a minute can you really do that” and the board was like “oh yeah sure we can.” So   Bloomberg reports that “some investors were considering writing down the value of their OpenAI holdings to zero.” Eighty-six billion dollars of value evaporated in a weekend.
@@ -134,11 +134,11 @@ There are other oddities here that I do not really understand but want to mentio
 
 Coming from the world of finance, all of this feels odd to me; ordinarily there would be contracts preventing a company’s biggest customer from hiring its CEO and him then bringing over his whole team to build the same cutting-edge technology they were building at the company. Here, I guess, there aren’t? Everyone just trusted each other? Seems like a mistake.
 
-  
-    
+
+
       Binance
-    
-  
+
+
 
 Broadly speaking the US government has two objections to Binance Holdings Ltd.:
 	Binance is a crypto exchange, and the US Securities and Exchange Commission thinks that crypto exchanges are more or less illegal under US law.
@@ -169,11 +169,11 @@ Changpeng Zhao is scheduled to appear in Seattle federal court Tuesday afternoon
 The deal would allow Zhao to retain his majority ownership of Binance, although he won’t be able to have an executive role at the company. He would face sentencing at a later date.
 
 
-  
-    
+
+
       Ozempic is good/bad for business
-    
-  
+
+
 
 On the one hand, Bloomberg’s   Deena Shanker reports that Ozempic is the Grinch that stole Thanksgiving:
 
@@ -184,86 +184,86 @@ On the other hand, Isabelle Lee reports that   there’s an ETF now:
 A niche issuer is launching a biotechnology exchange-traded fund whose key holdings include firms benefiting from the hype around weight-loss drugs.
 I suppose the trendy Thanksgiving trade is long weight-loss-drugs and short food manufacturers.
 
-  
-    
+
+
       Here is a link to Manifold Markets
-    
-  
+
+
 
 Manifold Markets is a  sort-of-play-money prediction market that allows people to propose questions and bet on the answers. For instance, here is a market on “Why was Sam Altman fired” with dozens of proposed answers. One proposed answer is “hidden, poorly internally labeled ‘fiat@’ account,” which is a pretty good joke. I liked it enough that, this weekend, I  linked to it on Threads. This apparently prompted a reader to email me to point out that there are  several Matt Levine-related markets on Manifold, including “Will Matt Levine link to Manifold by 2024,” which “Resolves to YES if Manifold Markets is referenced or linked to by Matt Levine in his Money Stuff newsletter, before the end of next year.” The odds when I looked yesterday were about 40%. The odds at 11:30 a.m. today were 84%. The odds when I publish this will, of course, be 100%. Did I insider trade on this market? No. Was I tempted? For pedagogical and comedic purposes, I mean, not to win play money? A little.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 OpenAI’s Board Approached Anthropic About Merger. Benioff Woos OpenAI Staff to  Salesforce With Offer to Match Pay. Former GitHub Chief Nat Friedman Declined OpenAI Interim CEO Role. New OpenAI CEO Was a Character in a  Harry Potter Fanfic That's Wildly Popular With Effective Altruists. Higher Interest Rates Are Shattering   Housing Dreams Around the World. Company Led by Former NYSE President Buys Crypto News Site  CoinDesk. Blackstone to shut  multi-strategy fund after assets fall 90%. Distressed-Debt Manager Invictus  Loses Control of Flagship Fund After Battle With Top Investors. Meloni, UBS and Jefferies Pull Off Stealth $1 Billion   Bank Sale. EV Startup Fisker Has  Lost Another Chief Accounting Officer.   Kim Kardashian’s Buyout Firm Reaches First Deal With Truff Sauce Brand. The Call Center Where  George Santos Learned to Con. Elite Runner Who  Rode in a Car During a Race Is Banned for a Year. Cocktails Are Sandwiches Now.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am contrasting the “staff” and the “board,” but there is a third important category, which is “the senior executive leadership.” In fact it is not uncommon for nonprofits to be led by their *founders*, who put together the board and who are often more committed to the mission than anyone else, with the board as kind of a rubber stamp made up of cronies of the founder-executive director. An oddity of OpenAI is that its founder-CEO seems to have been aligned with the staff and not with the board (that he was on).
 
 
   [2] Obviously if the staff is wrong this is, like, the highest-stakes bet in the history of human civilization? AI stuff is so weird man.
 
 
-  [3] The US Commodity Futures Trading Commission 
+  [3] The US Commodity Futures Trading Commission
 also thinks that Binance is illegally allowing US customers access to its unregistered commodity futures trading platform, which is not at all the same concern as the SEC’s, but which I am nonetheless going to bucket with the SEC’s concern because it has similar effects.
 
 
   [4] This also solves the CFTC problem. Both the SEC and CFTC complain that Binance has a technically non-US exchange but allows US customers to access it, so you’d have to clean that up a bit more.
 
 
-  [5] This is just the slightest of exaggerations, and there needs to be some US (or US dollar) nexus, but the Justice Department 
+  [5] This is just the slightest of exaggerations, and there needs to be some US (or US dollar) nexus, but the Justice Department
 will find one.
 
 
-  [6] The CFTC case previews them a little bit, I think. I 
+  [6] The CFTC case previews them a little bit, I think. I
 wrote about that case: “There are … look, there are not *no* accusations that Binance is laundering money for terrorists or secretly trading against its customers, but there are relatively few accusations like that; again, as crypto exchanges go, that’s pretty good.” From the CFTC complaint: "For example, in February 2019, after receiving information 'regarding HAMAS transactions' on Binance, Lim explained to a colleague that terrorists usually send 'small sums' as 'large sums constitute money laundering.' Lim’s colleague replied: 'can barely buy an AK47 with 600 bucks.' d with regard to certain Binance customers, including customers from Russia, Lim acknowledged in a February 2020 chat: 'Like come on. They are here for crime.'"
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -274,46 +274,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjwvit.5jeh/a600e1ae.gif" alt="" border="0" /></a>

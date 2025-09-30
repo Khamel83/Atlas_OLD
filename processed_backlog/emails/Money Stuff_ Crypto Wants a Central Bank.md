@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Has there ever been a pure liquidity problem at a crypto firm? Like what I have in mind is this: A crypto firm owes $100 (in crypto I guess)
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Binance bailout fund
-    
-  
+
+
 
 Has there ever been a pure liquidity problem at a crypto firm? Like what I have in mind is this:
 	A crypto firm owes $100 (in crypto I guess) to somebody (customers, lenders) who can demand their money back on short notice.	The firm has $200 worth of stuff (crypto assets I guess). 	The customers or lenders demand their $100 back all at once.	The firm’s $200 worth of stuff is not immediately accessible for some reason: It is in long-term crypto-denominated mortgages, say. Or it is in locked crypto tokens. Or it is in crypto tokens and there is, for some reason, a temporary lack of liquidity in the market for those tokens. Or it is a large quantity of some crypto token that could be sold for $200 over the course of a week or two, but if you sell it in an hour or two — to give people their money back all at once — that will crash the price.	The firm cannot raise $100 to pay back its customers or lenders, and implodes.	But it had $200 worth of stuff! Very unfair.
@@ -88,63 +88,63 @@ Several of the other most notable liquidity crises in crypto this year were at f
  
 It is possible that over the next few years there will be a Binance-led industry recovery fund, and it will act like a central bank for crypto, and it will lend freely, against good collateral, at penalty rates. And occasionally, in challenging markets, crypto projects that are otherwise strong, but in a liquidity crisis, will come to the Central Binance Bank to borrow money, and the Central Binance Bank will support them, and they will preserve long-term value. But if the Central Binance Bank had existed this year, how many projects would it have saved? Not FTX, anyway.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       More FTX
-    
-  
+
+
 
 That said, if you just wanted to have a liquidity crisis,  here’s one way to do it:
 
@@ -174,20 +174,20 @@ So he was planning a series of cryptic tweets? “Something like that.”But why
 
 By noon today he got through “What H-A-P-P-E-N-E-D,” followed by a legal disclaimer and “I'll get to what happened. But for now, let's talk about where we are today.”
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Greenleasing
-    
-  
+
+
 
 If I were a young person looking for a place to start a career in finance, one niche that I might consider is ESG Consultant But Evil. A lot of big companies and investors these days are looking for ways to improve their environmental, social and governance ratings, and a lot of them will go to various sorts of ESG consultants who will tell them how to cut emissions or whatever. But some of them will go to ESG Consultants But Evil, who will sort of sneak in through the back door and say “hey I’ve got some carbon credits that fell off a truck, I’ll sell ’em to you for 20 cents on the dollar.” Lots of people want to go into ESG to save the world, so that is a competitive business. Getting into ESG for the financial engineering seems pretty interesting and possibly less crowded.
 Possibly more crowded though. Here are  Bloomberg’s Sheryl Tian Tong Lee and Stephen Stapczynski last week: 
@@ -204,11 +204,11 @@ Just! Imagine being the banker who shows up at the energy company that is tryin
 Oh, I can’t resist, one note. The trade here is that you have someone for whom carbon emissions are expensive, and you arrange a trade to park its emissions with a counterparty who is indifferent to emissions, for a fee. Great trade, fantastic, but you could do better. What you really want is a counterparty who wants to increase its emissions. You want a counterparty who will boast, like, “we are on track to emit more carbon this year than we ever have before, we are the world leaders in pollution,” because it gets some economic benefit from increasing emissions. Ideally you want one side of the trade who will pay to get rid of emissions, and the other side who will pay to take on emissions, and you — the ESG Consultant But Evil who arranges the trade — take a fee from both sides. 
 I feel like if you play your cards right you could find a few counterparties like that in Texas? It is not quite the case that Texas has an alternative carbon-emissions accounting regime in which companies are penalized for not emitting enough carbon. But it is a little bit the case. Right now big financial firms are facing financial penalties in Texas for not doing enough fossil-fuel financing. Set up a Texas shell company, have it buy all the worst fossil-fuel projects from all the ESG-sensitive companies around the world, have it produce insane amounts of carbon emissions, and then go to banks to be like “if you lend this company money then you will get a ton of credit in Texas for fossil-fuel fifinancing.” I have not worked this idea out fully. But I bet someone will.
 
-  
-    
+
+
       Where are the customers’ cars?
-    
-  
+
+
 
 There is a surprisingly fruitful subfield of academic finance research about fund managers’ cars. We   talked a few years ago about  a paper finding that “hedge fund managers who own powerful sports cars take on more investment risk but do not deliver higher returns.” And now  here is a paper — which shares three of its four authors with the powerful-sports-car one — about how “mutual fund managers increase investment allocations to companies manufacturing automobiles they have purchased.” If you drive a Ferrari you will take more risk for fewer returns; if you drive a Ford you’ll buy stock in Ford. Also:
 
@@ -217,129 +217,129 @@ Consistent with the information-based explanation, we find that after an automob
 
 If you drive a Ford and then buy Ford stock, you probably have a good reason, and the stock will go up. Somehow the paper does not mention Tesla.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 SEC Levied   Record Enforcement Penalties for Misconduct in 2022. Steve Cohen’s Point72 Weighs Limit on   Investor Redemptions. Credit Suisse to sell much of  securitised products group to Apollo. Buffett Takes $5 Billion   Stake in TSMC, Sparking Surge in Shares. Elon Musk’s  Influence Over Tesla’s Board in Focus as Tesla Compensation Trial Kicks Off. Musk Publicly   Punishes Twitter Engineers Who Call Him Out Online. Tyson's New CFO   Apologizes on Earnings Call Eight Days After Arrest. People are  worried about  bond market liquidity.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is a general statement and there are those who will argue that the Fed does not *always* lend against good collateral. Also, to be clear, if a bank is in this situation — $100 of deposits and $0 of assets — then, in the US, the Fed won’t help, but the Federal Deposit Insurance Corp. will. But the FDIC will help *depositors*, not *the bank*. The bank will be shut down and handed over to other, more competent banks; the FDIC will just make sure the depositors get their money back (subject to limits, etc.).
 
 
   [2] Here is  Byrne Hobart on the Binance rescue fund: “An industry downturn is an opportunity to consolidate market share, especially in an industry where regulators are unfriendly to most operators and can't do much to stop consolidation. When J.P. Morgan bailed out the US financial system, it might have had some element of civic virtue, but was also an opportunity to buy cheap assets and make his bank more central to the system. Assuming Binance is well-capitalized, a bit of instability would be a nice opportunity for them. Assuming it's not, the offer is probably fairly genuine, and CZ may worry that without intervention, the entire system that's made him a decabillionaire will fail. So the appropriate reaction is partly a function of exactly what kind of bluff he's making.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

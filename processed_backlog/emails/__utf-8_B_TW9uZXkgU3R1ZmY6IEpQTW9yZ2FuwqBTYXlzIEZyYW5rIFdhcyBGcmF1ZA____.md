@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday. In 2021, JPMorgan Chase & Co. paid $175 million to acquire F
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       Frank!
-    
-  
+
+
 
 In 2021, JPMorgan Chase & Co. paid $175 million to acquire Frank, a financial technology company that helps students fill out college financial aid forms. It is not obvious why this would be a lucrative business for JPMorgan, or Frank, but that was not really the point of the acquisition. The point of the acquisition is that helping students fill out college financial aid forms, while not itself lucrative, might help you build long-term financial relationships with them at an early and impressionable point in their lives. If Frank helps a student fill out her financial aid forms, she might like Frank, so when Frank emails her and says “hey now that you’re in college you should set up a checking account, here’s one,” she might open the checking account — at JPMorgan — that Frank recommends. Later, she might get her mortgage through a Frank recommendation. JPMorgan was buying Frank’s customer relationships, so that it could use them to sell financial products that were lucrative.
 That is, in some sense, JPMorgan paid Frank $175 million for an email list. As the proprietor of an email list myself, I have some interest in this transaction.
@@ -129,89 +129,89 @@ Frank paid Enformion $70,000 for this. So, in essence, it paid a total of $175,0
   [4]
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in email businesses
-    
-  
+
+
 
 Sam Bankman-Fried  has a Substack? I have subscribed. There is a widespread consensus, particularly among criminal defense lawyers, that Bankman-Fried should stop talking and tweeting and blogging, but I kind of don’t see how this hurts. His only real hope of avoiding many years in prison is to convince people that he did not steal money from FTX’s customers, but rather that he ran a leveraged financial institution that ineptly but innocently ran into trouble. This will be very hard to do! But I am not sure it is impossible. The task, really, is to lay out a reasonable-seeming story of how FTX’s innocent choices led to its insolvency. Eventually he has to do that to a jury, but why not get some practice on Substack?
   [5]
@@ -231,7 +231,7 @@ Actually, though, this first Substack post mostly isn’t about FTX Internationa
 So here Bankman-Fried’s goal is to argue that lending money to Alameda was rational. The basic form of the argument is that Alameda was a big fund with lots of valuable assets, so FTX had no problem lending it money, and then all those assets vanished in the blink of an eye for reasons that were not his fault. So he writes:
 
 Alameda, then, entered 2022 with roughly:
-		$100b NAV			$8b net borrow			1.06x leverage			Tens of billions of dollars of liquidity	
+		$100b NAV			$8b net borrow			1.06x leverage			Tens of billions of dollars of liquidity
 
 Then, over the course of the year, markets crash–again and again and again.  
 
@@ -258,20 +258,20 @@ Still I guess it is sort of a defense? The defense is: “Alameda had assets, th
   [8]
  but it’s a lot better than “I just stole the money,” and it seems to be what he is going with.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Premium bonds 
-    
-  
+
+
 
 We   talked yesterday about the idea that the US Department of the Treasury should issue premium bonds to avoid the debt ceiling. The idea is that the Treasury could issue a 10-year bond with a $100 face amount and a 15.6% interest rate, and that bond would be worth about $200. It could sell the bond for $200, raising $200 in cash but counting for only $100 against the debt ceiling. If you buy that bond, you pay $200 now and get back only $100 in 10 years, but you get $15.60 per year in interest over those 10 years, which makes it worth it.
 People raised a couple of objections that I want to quickly discuss here. First of all, a lot of people worry about the tax treatment. If you buy a $200 Treasury for $200, and you get 3.6% interest ($7.20 per year) and your $200 back at maturity, you pay tax on that $7.20 of annual interest but not on the $200 you get back at the end. If you buy a $100 Treasury for $200, and you get 15.6% interest ($15.60 per year) and $100 back at maturity, you pay tax on the $15.60 of annual interest. More of your payments are characterized as taxable income rather than non-taxable return of principal, which seems bad.
@@ -282,19 +282,19 @@ Second, there is a timing worry. The way this works is that Treasury would issue
   [10]
  So it does not seem implausible that Treasury could cover its monthly expenses by issuing premium bonds worth 200 cents on the dollar, even if it didn’t start much before hitting the limit.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Bed Bath & Beyond Triples as   Retail Traders Fuel Latest Burst. Nelson Peltz Plans Proxy Fight Against  Disney. Subway  Explores Sale That Could Value Sandwich Chain at More Than $10 Billion. Fed on Track for   Rate-Hike Downshift After Cool Inflation Data.  Saudi Aramco bets on being the last oil major standing. JPMorgan Accuses Morgan Stanley Defector of   Poaching 32 Clients. How’s   Barry Silbert doing? “Mike Novogratz Wants to   Punch Disgraced Crypto Titans in the Face”?? “It’s a stark difference from the late crowd, where everyone is upset and barfing.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] “JPMC has all the emails showing the fraud because Javice and Amar used Frank’s email accounts to create the Fake Customer List and the email accounts now belong to JPMC following the Merger.” 
+
+  [1] “JPMC has all the emails showing the fraud because Javice and Amar used Frank’s email accounts to create the Fake Customer List and the email accounts now belong to JPMC following the Merger.”
 
 
-  [2] I used to do mergers and acquisitions work at a law firm that rather famously  does not bill by the hour. My most pleasing task was sending client bills that were like “Services rendered … $4,000,000.” 
+  [2] I used to do mergers and acquisitions work at a law firm that rather famously  does not bill by the hour. My most pleasing task was sending client bills that were like “Services rendered … $4,000,000.”
 
 
   [3] Why a consultant? JPMorgan says: “Javice also cited privacy concerns in sharing Frank’s customer data directly with JPMC. After numerous internal conversations, and in order to allay Javice’s concerns, JPMC agreed to use a third-party data management vendor, Acxiom, to validate Frank’s customer information rather than providing the personal identifying information directly to JPMC.”
@@ -306,7 +306,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] One obvious answer is "because it gives prosecutors more information about his defense and more time to figure out how to undermine it." But presumably they have a pretty good idea anyway.
 
 
-  [6] Frustratingly, it is not laid out as a balance sheet; I think you have to read the first line — “Customer balances” — as the liabilities and the other lines — “Wallet balances,” “FBO bank balances,” “Corp balances” and “Reg bank balances” — as the assets. 
+  [6] Frustratingly, it is not laid out as a balance sheet; I think you have to read the first line — “Customer balances” — as the liabilities and the other lines — “Wallet balances,” “FBO bank balances,” “Corp balances” and “Reg bank balances” — as the assets.
 
 
   [7] He is also making the case that FTX could have been saved? “I think it’s likely that FTX could have made all customers whole if a concerted effort had been made to raise liquidity. There were billions of dollars of funding offers when Mr. Ray took over, and more than $4b that came in after. If FTX had been given a few weeks to raise the necessary liquidity, I believe it would have been able to make customers substantially whole.” I mean? Okay?
@@ -321,114 +321,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] Treasury  reports that it has about $23 billion of marketable securities outstanding as of last February, and Nasdaq reports that their average maturity is 62 months. So that’s an average of $370 billion of maturities a month.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

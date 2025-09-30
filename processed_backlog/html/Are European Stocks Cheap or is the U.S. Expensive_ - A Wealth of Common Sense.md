@@ -35,10 +35,10 @@ To recap:
 * European equities currently sport a 1.2% advantage in terms of dividend yields.
 * This information won’t matter until it matters as fundamentals in the stock market require patience and don’t work on a set schedule.
 
-Source:  
+Source:
 [European Equities Revisited (AMP Capital)](https://smsfcommunity.ampcapital.com.au/t5/Forum-Investing-in-your-SMSF/European-equities-revisited/m-p/326#M61)
 
-Further Reading:  
+Further Reading:
 [When Global Stocks Go On Sale](https://awealthofcommonsense.com/2016/02/when-global-stocks-go-on-sale/)
 
 
@@ -80,7 +80,7 @@ Discussions found on the web
 
      + True, HEDJ up 6% or so in the past 5 yrs so currencies are a little under half of the underperformance.
 
-       - HEDJ might not be the tool we hoped for as a way to remove the currency component from the US/Euro comparisons.  
+       - HEDJ might not be the tool we hoped for as a way to remove the currency component from the US/Euro comparisons.
          Hedged Europe ETF performance not so hot HEDJ while up 30% you’d be up 70% if you just bought Europe index and shorted euro currency.
 
          HEDJ while up 30% you’d be up 70% if you just bought Europe index and shorted euro currency.
@@ -99,21 +99,21 @@ Discussions found on the web
 
    * True, you have to take into account the industry make-up in all of this. Not always an apples-to-apples comparison making valuation comps across countries.
 6. My thinking is that, in general, US equities are cheap, and European equities are cheaper.
-7. Thanks for the report!  
-   My question is where and how to buy europe stocks… i know there are lot of ADR’s but it seems to me that is better to buy directly european stocks from their original stock markets. For example when i try to research the dividend history of a europe company, i don’t find the info in the ADR website (most of them in OTC markets)… so is more difficult.  
-   Another issue is the lack of dividend growth stocks outside the US….  
-   what is your opinion ? why almost all the great dividend growth stocks are in the US and only a few outside it ?  
+7. Thanks for the report!
+   My question is where and how to buy europe stocks… i know there are lot of ADR’s but it seems to me that is better to buy directly european stocks from their original stock markets. For example when i try to research the dividend history of a europe company, i don’t find the info in the ADR website (most of them in OTC markets)… so is more difficult.
+   Another issue is the lack of dividend growth stocks outside the US….
+   what is your opinion ? why almost all the great dividend growth stocks are in the US and only a few outside it ?
    Any recommendation or idea?
 
-   Thanks and keep continue writing.  
+   Thanks and keep continue writing.
    Mat
-8. Thanks for the report!  
-   My question is where and how to buy europe stocks… i know there are lot of ADR’s but it seems to me that is better to buy directly european stocks from their original stock markets. For example when i try to research the dividend history of a europe company, i don’t find the info in the ADR website (most of them in OTC markets)… so is more difficult.  
-   Another issue is the lack of dividend growth stocks outside the US….  
-   what is your opinion ? why almost all the great dividend growth stocks are in the US and only a few outside it ?  
+8. Thanks for the report!
+   My question is where and how to buy europe stocks… i know there are lot of ADR’s but it seems to me that is better to buy directly european stocks from their original stock markets. For example when i try to research the dividend history of a europe company, i don’t find the info in the ADR website (most of them in OTC markets)… so is more difficult.
+   Another issue is the lack of dividend growth stocks outside the US….
+   what is your opinion ? why almost all the great dividend growth stocks are in the US and only a few outside it ?
    Any recommendation or idea?
 
-   Thanks and keep continue writing.  
+   Thanks and keep continue writing.
    Mat
 9. It’s a spread of confidence and most easily played using futures. For example buy the S&P 500 through the E-mini futures at The Chicago Mercantile Exchange (CME) and sell the DAX through FDAX futures on Eurex. The investing marketplace simply has more confidence in growth here than they do in Europe. Interest rate expectations, as shown through changes in deferred interest rate futures contracts, are indicative of that.
 10. I have wrestled with this a lot. I don’t know about Europe as a whole, but I know that the very long-term total return (past 30 yrs) of the FTSE100 is around 9% pa, whereas DOW is around 11%. And of course 2 percentage-points over 30 years makes for a very big difference, compounded year-in-year-out.
@@ -127,11 +127,11 @@ Discussions found on the web
 
     All my percentages are approximate.
 
-    Mario Draghis QE will make European  
-    Stock more favourable.  
-    The EURUSD will fall towards 1-1.04 (9-10%)  
-    Dax will hit 12400 (23.22%)  
-    DJIA will hit 20700 (17%)  
+    Mario Draghis QE will make European
+    Stock more favourable.
+    The EURUSD will fall towards 1-1.04 (9-10%)
+    Dax will hit 12400 (23.22%)
+    DJIA will hit 20700 (17%)
     Brent Crude will hit 71.54 (62.93%)
 
     As of April 13, 2016 none of the above have a confirmed trend reversal on the monthly charts. Could be a dead cat bounce but if history is any indication of the future then doubt it unless we have a bond market collapse.
@@ -156,40 +156,40 @@ Discussions found on the web
 
     From Dec 2007 to March 2009 we had a grand financial crisis. A bubble burst, a finance crisis occurred. It was a bloodbath!
 
-    Dax- minus 55.68%  
-    DJIA – minus 53.41%  
-    Brent Crude -minus 76.33%  
+    Dax- minus 55.68%
+    DJIA – minus 53.41%
+    Brent Crude -minus 76.33%
     EURUSD- minus 23.41%
 
     What happened after that was an amazing QE recovery. Free money being printed it drove economies for over 6 years and in year 7 we are experiencing hiccups, war, Oil and anemic growth.
 
     BUT since 2009 the Dax has outperformed the DJIA.
 
-    Looking at the DAX vs the DJIA is the benchmark that I consider as it is difficult to find other benchmark indexes and here one can see clearly see starting March 2009 a bull rally  
+    Looking at the DAX vs the DJIA is the benchmark that I consider as it is difficult to find other benchmark indexes and here one can see clearly see starting March 2009 a bull rally
     commenced. The Dax from its low in March to its peak in April 2015 rose an impressive 245%.
 
-    The DJIA from its low in March to its peak in May 2015 rose 177%.  
-    Brent Crude rose from its low of 33.73 in DECEMBER 2008 rose an impressive 292.89% until April 2011.  
+    The DJIA from its low in March to its peak in May 2015 rose 177%.
+    Brent Crude rose from its low of 33.73 in DECEMBER 2008 rose an impressive 292.89% until April 2011.
     The USD rose from 1.24729 in MARCH 2009 to 1.49391 until April 2011.
 
     In 2011 we had a correction.
 
-    From the lows of that correction in Sept 2011 to April 2015 the DAX rose 153.3%.  
-    The DJIA rose 78.05% from Oct 2011until May 2015.  
-    BRENT CRUDE fell 78% from Feb 2012 until January 2016.  
+    From the lows of that correction in Sept 2011 to April 2015 the DAX rose 153.3%.
+    The DJIA rose 78.05% from Oct 2011until May 2015.
+    BRENT CRUDE fell 78% from Feb 2012 until January 2016.
     The EURUSD fell 29.56% from May 2011until March 2015.
 
     In Jan 2015 when European QE was started the DAX soared 22.41% in 3 months until April 2015.
 
-    The DJIA was little influenced a 5.86% rise until May 2015 as the US was expecting its first rate hikes.  
+    The DJIA was little influenced a 5.86% rise until May 2015 as the US was expecting its first rate hikes.
     Crude rose 45.4% to 69.31 USD in May 2015.
 
     The EURUSD rose 11.3% to 1.1676 from March 2015 to August 2015 contrary to the concept of the European QE.
 
     There was a huge divergence and starting April/May 2015 everything went to the dogs-
 
-    Oil price started falling May 2015- 69.31 to 27.99 USD (59.74%) in January 2016,  
-    USD started falling from August 2015 to a low of 1.0555 in November 2015.  
+    Oil price started falling May 2015- 69.31 to 27.99 USD (59.74%) in January 2016,
+    USD started falling from August 2015 to a low of 1.0555 in November 2015.
     The DAX fell a whopping 30% from April 2015 to Feb 2016 and lastly the DJIA fell 16% from May 2015 to January 2016.
 
     In December 2015 Janet Yellen introduced the first rate hike. The markets lost it in January 2016.
@@ -204,9 +204,9 @@ Discussions found on the web
 
     In February the markets started to price in the anticipated European all out Bazooka from Mario Draghi and in March he introduced it.
 
-    Dax- February –March 2016- Mario DRAGHI effect-16.67%  
-    DJIA- February –March 2016- Mario DRAGHI effect-15.14%  
-    BRENT CRUDE- February –March 2016- Mario DRAGHI effect-66.26%  
+    Dax- February –March 2016- Mario DRAGHI effect-16.67%
+    DJIA- February –March 2016- Mario DRAGHI effect-15.14%
+    BRENT CRUDE- February –March 2016- Mario DRAGHI effect-66.26%
     EURUSD- February –March 2016- Mario DRAGHI effect-6.79%
 
     The markets look fine a correction just took place so there is only one way and that is up. A recession has not yet occurred.

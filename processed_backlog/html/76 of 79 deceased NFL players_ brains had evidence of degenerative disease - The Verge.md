@@ -9,7 +9,7 @@
 
 # 76 of 79 deceased NFL players' brains had evidence of degenerative disease
 
- / 
+ /
 
 ## Majority of football players who submitted their brains to Department of Veterans Affairs' study had chronic traumatic encephalopathy
 
@@ -73,7 +73,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207090926im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207090926/http://theverge.com/)
 

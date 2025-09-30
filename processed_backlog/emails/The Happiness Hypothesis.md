@@ -7,16 +7,16 @@
 
 View this post on the web at https://www.notboring.co/p/the-happiness-hypothesis
 
-Welcome to the 3,463 newly Not Boring people who have joined us over the past two weeks! If you haven’t subscribed, join 192,831 smart, curious folks by subscribing here: 
+Welcome to the 3,463 newly Not Boring people who have joined us over the past two weeks! If you haven’t subscribed, join 192,831 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Oceans [ https://substack.com/redirect/6b8e2ba1-b22b-41c8-8eaf-c227170a8a6b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Oceans [ https://substack.com/redirect/6b8e2ba1-b22b-41c8-8eaf-c227170a8a6b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a white glove outsourcing firm purpose built to help small businesses, busy executives, and high growth companies easily find and work with the best global talent in operational roles. All Oceans talent comes from Sri Lanka. 
 Why Sri Lanka? Simple: it has the best talent-to-price ratio on the planet. Oceans [ https://substack.com/redirect/6b8e2ba1-b22b-41c8-8eaf-c227170a8a6b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] recruits, vets, trains, and employs top talent in the region from name brand firms and universities. You pay between $2,500 - $3,500 per month for a full time, embedded team member with 5-10 years of experience. That’s ~$36K/yr for talent that would cost $150K+ (easily) in the US.
 They are already serving clients like Austin Reif (Morning Brew), Ndamukong Suh (Philadelphia Eagles), Joe McCann (Asymmetric Financial) and dozens of high growth SMBs. So if you’re looking for top, affordable talent to take on operational roles (EA+, Operations, Sales/Marketing, Finance, Back Office), check out Oceans [ https://substack.com/redirect/6b8e2ba1-b22b-41c8-8eaf-c227170a8a6b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Hi friends 👋,
-Happy Monday! Hope you all had a great weekend. 
-I didn’t want to write about SVB. Everyone wrote about SVB. Some were qualified to write about, some were making it up. What’s happening in the banking sector is an important story, but it’s not one that I can add much to. 
+Happy Monday! Hope you all had a great weekend.
+I didn’t want to write about SVB. Everyone wrote about SVB. Some were qualified to write about, some were making it up. What’s happening in the banking sector is an important story, but it’s not one that I can add much to.
 Part of the SVB situation that caught me off guard though, and that is more up Not Boring’s alley, is the strength of the anti-tech sentiment that’s emerged in its wake. That’s something I wanted to write about. I’ve started about 15 drafts, trying to figure out what I wanted to say and how to say it. Here’s number 16.
-Let’s get to it. 
+Let’s get to it.
 The Happiness Hypothesis
 People don’t seem to like the tech industry as much as the tech industry likes itself. 
 A small group is unhappy with technology generally, a larger one is unhappy with the tech industry as it stands today, and an even larger one is unhappy with venture capitalists. 
@@ -100,9 +100,9 @@ That depends. 
 I tend to agree with Ernie’s observation that, “This is precisely why people are pessimistic in the face of increasing material progress. They’ve lost their old source of meaning from the struggle to survive, and can’t find their own way forward.” 
 As technology enables longer lives and more free time and more material abundance, it leaves an equal and opposite opportunity for humans to turn that potential happiness into real happiness. 
 I won’t pretend to know the answer there — there are probably as many answers as there are people — but I’d love to hear your thoughts.
-Thanks to Dan [ https://substack.com/redirect/03e74198-b1a2-4de1-9c08-e47e52e660b3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
-That’s all for today. We’ll be back in your inbox on Friday with another Weekly Dose! 
-Thanks for reading, 
+Thanks to Dan [ https://substack.com/redirect/03e74198-b1a2-4de1-9c08-e47e52e660b3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
+That’s all for today. We’ll be back in your inbox on Friday with another Weekly Dose!
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEE1TkRVeU1qVXpMQ0pwWVhRaU9qRTJOemt6TVRZMk5UQXNJbVY0Y0NJNk1UWTRNVGt3T0RZMU1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlktdE5zNzZOWXlENzV2RVpCbFp3UURMdzRDMkhYQU55QWhJcjk2WTNwUkEiLCJwIjoxMDk0NTIyNTMsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc5MzE2NjUwLCJleHAiOjE2ODE5MDg2NTAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.4w8k7uy0nTfEcO9rKVqjCfq0ioyo5IA9igxwI49PT2U?

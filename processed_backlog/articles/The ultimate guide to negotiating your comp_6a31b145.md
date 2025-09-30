@@ -91,8 +91,8 @@ Demonstrating unmistakable value for the company you’re interviewing with, and
 
 This shift isn’t semantic—it fundamentally transforms how decision-makers perceive your value. When you make them feel confident, inspired, and excited about the future you’ll build together, compensation becomes a natural reflection of that value, not a negotiation point.
 
-Recently, I guided a Senior PM whose offer started with an advertised range of $185K-$285K. After our targeted interview and negotiation strategy, they walked away with a staggering $1.1M annual package—nearly four times the upper limit. This isn’t an isolated success. I’ve helped hundreds of leaders dramatically increase their compensation by refusing to accept published salary ranges as the final word.   
-  
+Recently, I guided a Senior PM whose offer started with an advertised range of $185K-$285K. After our targeted interview and negotiation strategy, they walked away with a staggering $1.1M annual package—nearly four times the upper limit. This isn’t an isolated success. I’ve helped hundreds of leaders dramatically increase their compensation by refusing to accept published salary ranges as the final word.
+
 I’ll show you exactly how they do it.
 
 ## **Your negotiation playbook**

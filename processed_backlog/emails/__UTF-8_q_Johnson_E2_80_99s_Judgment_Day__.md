@@ -5,7 +5,7 @@
 **Source:** inputs/saved_emails/=UTF-8qJohnson=E2=80=99s_Judgment_Day=_Tue,_31_Dec_2024_15-03-48_+0000_1941d3eaec49258d.eml
 **Processed:** 2025-08-24T19:13:08.895320
 
-Puck logo ( https://puck.news/?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) 
+Puck logo ( https://puck.news/?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Puck’s Inner Circle Call
 
 Abby IC ( https://puck.news/my-account/billing/?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Dear Reader,     
@@ -36,7 +36,7 @@ Fritz
 
 UPGRADE TODAY ( https://puck.news/my-account/billing/?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
-swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+swash dividerFacebook ( https://facebook.com/puckdotnews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_content=Abby+IC+Call+-+SUBSCRIBER+Upsell+%2812%2F31%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

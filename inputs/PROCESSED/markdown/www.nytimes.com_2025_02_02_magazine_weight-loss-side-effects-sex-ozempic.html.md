@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • February 02, 2025 
+Unknown author • February 02, 2025
 
 ![nytimes.com]()
 

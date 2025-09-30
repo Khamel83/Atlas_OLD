@@ -379,7 +379,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 
 <div class="product-well">
     <div class="product-well__item product-well__item--featured">
-      
+
 <div class="product-tile--featured product-tile--light">
   <a class="js-ga-product " data-vendor-id="483" data-vendor-name="Hawkins New York" data-category-name="Bedding &amp; Pillows" data-price="78.0" data-ga-category="" data-ga-action="" data-product-id="2648" data-product-name="Stonewashed Linen Bedding (Queen)" data-url="/web/20200803152708/https://food52.com/shop/products/2648-stonewashed-linen-bedding-queen" data-img="https://images.food52.com/gvifAZMs4WgRf4JEIRdv6pj1Um4=/470x470/38f7882b-ad0a-4f8d-be8a-748dd73e4984--2016-1106_hawkins-ny_stonewashed-linen-bedding_family_silo_rocky-luten_082.jpg" data-sku-id="" data-price-range="<span>$78</span>–<span>$822</span>" href="/web/20200803152708/https://food52.com/shop/products/2648-stonewashed-linen-bedding-queen">
     <div class="img--spacer product-tile__img">
@@ -749,7 +749,7 @@ Somewhere in between sateen and percale sheeting, <a href="http://web.archive.or
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
   <h3 class="comments__title">
     <span class="icon__comments"></span>
@@ -965,7 +965,7 @@ Somewhere in between sateen and percale sheeting, <a href="http://web.archive.or
     </nav>
 
 <div class="footer__actions">
-      
+
 <div class="social-charms ">
 
 <div class="social-charms__icons">
@@ -1112,7 +1112,7 @@ Somewhere in between sateen and percale sheeting, <a href="http://web.archive.or
         f52.inputs.sailthru = sailthru;
       })();
     </script>
-    
+
       <script src="/web/20200803152708js_/https://food52.com/assets/manifest.blog_show-208de8c8e333591b1fd16b7b7af8457850869ef72275da30b0ffe0bce03bdf1b.js"></script>
 
 <script>

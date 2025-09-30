@@ -73,7 +73,7 @@
                 </div>
                 <div class="two-column-body">
                     <div class="left-column">
-                        
+
                         <div class="article-body rich-text-element bodytext">
                             <div class="ql-editor">
                                 <div class="editor-image photo-slideshow">
@@ -100,7 +100,7 @@
               </span>
                         <span class="image-caption">
               <span class="caption-text">
-                
+
                 <span class="caption-author"> (Photo Credit: U.S. Army)</span>
               </span>
               <a href="https://api.army.mil/e2/c/images/2017/12/13/501414/original.jpg" title="View original" target="_blank" rel="noopener">VIEW ORIGINAL</a>
@@ -280,7 +280,7 @@
         </div>
     </div> <!-- end .article-container -->
         <div id="ga-analytic-codes" data-codes="UA-151128497-1"></div>
-        
+
     <div id="lightbox" class="hidden">
   <div class="container click-close">
     <a class="thumbnail hidden" id="thumbnail"><span class="thumbnail-button"></span></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Silicon Valley Bank was shut down by the Federal Deposit Insurance Corp. on Friday, March 10, for running out of money. It is of course bad 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Silicon Valley Bank was shut down by the Federal Deposit Insurance Corp. on Friday, March 10, for running out of money. It is of course bad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SVB
-    
-  
+
+
 
 Silicon Valley Bank was shut down by the Federal Deposit Insurance Corp. on Friday, March 10, for running out of money. It is of course bad for a bank to run out of money. But it is also a little hard to understand how a bank like SVB could have run out of money, in the US, in 2023. The structure of the modern banking system is supposed to prevent that, and SVB seemed in some ways like a bank that was particularly unlikely to run out of money. But it did.
 The very stylized   facts of SVB are that it had about $190 billion of deposits and invested much of that money — call it $120 billion — in a portfolio of mostly Treasury and agency bonds. The rest was invested in more complicated, riskier, traditional banking assets (loans, etc.), but SVB actually did  relatively little lending, for a bank, and had rather a lot of safe bonds. 
@@ -91,37 +91,37 @@ SVB Financial Group won provisional court approval Tuesday to spend only a fract
 
 SVB Financial, the holding company, has various assets that are not part of the bank that the FDIC seized, and that can be used to pay its creditors in bankruptcy. But one of those assets is $2 billion in accounts at SVB (the bank), and the FDIC controls the bank, and it doesn’t want to give the deposits back. Presumably this is because (1) the FDIC thinks the bank might have some claims against the holding company, (2) it is always better to litigate those claims while you are holding the money, and (3) there is a general philosophical distastefulness about holding-company creditors getting paid while the bank is insolvent, there is not enough money to pay depositors, and the FDIC has to make up the difference. “When a bank fails and can’t pay depositors, its holding-company bondholders get nothing” is not quite the law, but you can see why it might be the FDIC’s policy preference, and right now they’ve got the cash.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in US bank rescues
-    
-  
+
+
 
 Things seem   less urgent at First Republic?
 
@@ -151,11 +151,11 @@ The regional bank, whose shares have tumbled 58% this month, obtained $1.4 billi
 
 It used to be that banks funded themselves with deposits and used the money to make loans to private equity firms. Now banks fund themselves with loans from private equity firms.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 A general dynamic in bank rescues is:
 	You want the shareholders of the failed bank to take big losses, because (1) the whole point of equity capital at a bank is to bear losses before depositors or taxpayers and (2) you want to punish the shareholders to discourage other banks from taking dumb risks.	To avoid contagion, you want all the other banks to shore up their balance sheets by selling stock to raise loss-absorbing equity capital.
@@ -186,11 +186,11 @@ One well-known feature of bank rescues is that the legal terms of a bank’s f
 Similarly it would be bad if AT1 securities were mostly held in small retail accounts by retirees who relied on them for income: If zeroing AT1s would impose serious hardship on ordinary people, then that is hard for a regulator to do, which means that the AT1s can’t fulfill their purpose of absorbing losses. So banning them from retail accounts seems like good bank regulation. On the other hand, if Swiss bank AT1s are not held by Swiss retirees, but are held by wealthy Asian individuals, then that is in some ways politically ideal: The Swiss regulators get to impose losses on people who (1) can afford them and (2) don’t vote in Switzerland. (Though, if the combined UBS/Credit Suisse’s   wealth management business in Asia is an important part of its success, imposing losses on those clients has some problems.)
 By the way, it’s also bad if AT1s are held in margin accounts at banks! You don’t want banks to have much exposure to other banks’ AT1s, because then zeroing one bank’s AT1 causes losses at other banks and can create contagion.
 
-  
-    
+
+
       ESG elasticity
-    
-  
+
+
 
 Here are two ways of thinking about discount rates:
 	If you raise the discount rate, then a dollar today is worth relatively more than a dollar in five years. As the Fed has hiked interest rates over the last year, the valuations of hot tech startups have fallen,   in part because tech startups stereotypically lose a lot of money today in the pursuit of riches in the long term. With higher interest rates, the long term is less valuable, and you’d be happier with the money today; companies with stable current cash flows look more attractive relative to companies that will lose money for a decade but eventually take over the world. 	If you raise the cost of capital of some activity — the discount rate for that activity — you will get less of it. If environmental, social and governance-focused investors shun polluting sectors like coal,   the cost of capital for coal miners goes up, which makes it more expensive to pursue new coal-mining projects, which means that they will do fewer of those projects, which means that ESG investors will make the world better by raising the cost of capital of bad activities.
@@ -207,15 +207,15 @@ If you lower the cost of capital for already-green companies, they can’t gener
   [4]
  If you lower the cost of capital for companies that are currently pretty polluting, they might be able to take a longer-term view and invest in energy-transition initiatives, new methods of manufacturing that use less energy, etc. But if you raise the cost of capital for companies that are currently pretty polluting, the long term matters less, and they’re more likely to pollute as much as they can while the polluting is good.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed Says US Banks Sound as It  Hikes Rate by Quarter Point. Zero-Day Options Boom Is Turning Wall Street Trading On Its Head. People are worried about   bond market liquidity. What the takeover of Credit Suisse means for UBS. UBS Shares Storm Back to Pre-SVB Levels With  Post-Deal Surge. UBS Offers  Bond Buyback To Soothe Concerns on Deal’s Risk. Credit Suisse Staff Face More  Deferred Pay Pain on Swiss Ban. Swiss  Commodity Traders Worry About Impact of Credit Suisse Deal. London Losing to Paris in   Battle of Equity Markets.   Carvana Plans $1 Billion Debt Exchange in Restructuring Bid. SVB’s   Greg Becker Was Silicon Valley’s Money Man for 30 Years, Until Suddenly He Wasn’t. SVB’s   Loans to Insiders Tripled to $219 Million Before It Failed. Nick Leeson, Former Rogue Trader, Reemerges as a   Private Spy.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] "Blockchain," lol.
 
 
@@ -228,48 +228,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Particularly because, like Travelers, many companies that screen as green are not really in the business of making physical stuff.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -280,46 +280,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciespo.5in1/c689b5a1.gif" alt="" border="0" /></a>

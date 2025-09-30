@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         So how could this happen? I don’t know, but let me speculate a little bit.Let’s start with Coinbase. Coinbase Global Inc. runs a cryptocurre
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 So how could   this happen? I don’t know, but let me speculate a little bit.
 Let’s start with Coinbase. Coinbase Global Inc. runs a cryptocurrency exchange. When FTX.com, one of the largest crypto exchanges, was instantaneously vaporized yesterday,  Coinbase put out a statement, the gist of which was “don’t worry, we are not going to be instantaneously vaporized.” The part that I want to focus on is this paragraph:
@@ -146,63 +146,63 @@ His answer, at least for now, is that the financial hole appears too deep. Binan
 
 Seems bad.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       WhatsApp
-    
-  
+
+
 
 Do you think that there is a big financial firm in the US that got through the entire pandemic without any employees doing any business over WhatsApp or text messages from their personal phone? It seems somewhat unlikely. So much business is about personal relationships, and texting and WhatsApp can feel more personal than your firm email account. And since you were not visiting clients in person during the pandemic, or sitting in your office, you might have been a bit more inclined to use your personal cell phone to communicate.
 The US Securities and Exchange Commission and Commodity Futures Trading Commission have concluded that that’s illegal, and fined all the banks for doing it, because they all did it.   The fine is $200 million per bank (SEC and CFTC combined). I mean, there’s a little bit of differentiation, but not too much. Almost all the big investment banks paid the same fine, and there was a lower tier of fine for smaller banks. Nobody cares very much about how culpable each bank is, or how many bad messages it sent. (With one exception: Bank of America Corp. paid a bit more for being a bit more culpable.) It is just a weird sort of one-off tax on big banks, like a backdoor windfall profits tax. “WhatsApp, everyone pay $200 million.” Okay.
@@ -213,20 +213,20 @@ Apollo Global Management Inc., Carlyle Group Inc. and KKR & Co. said in regulato
 
 Just a weird business all around. Everybody used WhatsApp and now everybody writes checks.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
  Huh:
 
@@ -240,15 +240,15 @@ What is he doing with the money? Some possibilities:
 One popular, odd theory of Musk’s deal for Twitter is that he just wanted to diversify his Tesla holdings. Simply selling billions of dollars of Tesla stock would have upset his fans, driven down the stock price and undermined his image as a committed true believer. But selling billions of dollars of Tesla stock to fund a weird quest to buy Twitter would … I mean, be a distraction at least.
 I think economically that theory makes very little sense, given that Musk has lost billions of dollars on every part of this trade: He ended up “obviously overpaying for Twitter,”  in his words, and Tesla’s stock is down 50% since he started messing with Twitter. But it sure has been a distraction! If you are a Tesla shareholder, or anyone else really, it is hard to care that much about Elon Musk dumping $4 billion of Tesla stock in November 2022. He just has so much else going on.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Barclays Joins Rivals in   Culling Investment-Banking Staff. Tiger Global Slashes Value of  Private Tech Bets by Billions, Documents Show. Opposition shadows  Cerberus windfall from Albertsons supermarket deal. Twitter says  user growth has picked up since Elon Musk took over. EDF Employees Challenge   Chairman’s Role in $10 Billion Buyout. Tyson Foods CFO Arrest Adds to  Governance Challenges for Board. National Park Service Asks Visitors to  Please Stop Licking Toads. Martin Shkreli tells Do Kwon “Jail is not that bad.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Coinbase does offer a noncustodial wallet where you can trade on Coinbase and hold your Bitcoins yourself.
 
 
@@ -264,7 +264,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] I want to be careful to say that I am not an expert on Coinbase’s business models and do not want to, like, endorse it. Don’t go put all your money in Coinbase because I said so or anything! And in fact Coinbase does have other revenue models besides charging trading fees, some of which are more run-vulnerable than what I say in the text. (Most notably, there *are* loan products. “We provide retail and commercial loans to qualified customers secured by their crypto asset holdings on our platform, which exposes us to the risk of our borrowers’ inability to repay such loans,” says a risk factor in  Coinbase’s Form 10-K.) But Coinbase’s claims this week, and its securities filings, suggest that the dominant business model is boringly segregating customer money and charging fees.
 
 
-  [6] Well, I can, using futures, but futures are just a synthetic form of the leveraged transaction in the text. If I short Bitcoin at $20,000 via futures and put up $4,000 of collateral, that is a leveraged trade; if Bitcoin goes above $24,000 then my collateral is gone. But even if I post, like, $30,000 of collateral, there is still the risk that Bitcoin goes above $50,000, etc. 
+  [6] Well, I can, using futures, but futures are just a synthetic form of the leveraged transaction in the text. If I short Bitcoin at $20,000 via futures and put up $4,000 of collateral, that is a leveraged trade; if Bitcoin goes above $24,000 then my collateral is gone. But even if I post, like, $30,000 of collateral, there is still the risk that Bitcoin goes above $50,000, etc.
 
 
   [7] As a legal/contractual matter, you may or may not have “recourse” against her — you may or may not be able to sue her for the extra money— but as a practical matter you are a crypto exchange, don’t count on getting that money back.
@@ -276,114 +276,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] They’ll probably lend you like $100 against $200 of their stock, in an ordinary-course transaction; they just won’t do too much of it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

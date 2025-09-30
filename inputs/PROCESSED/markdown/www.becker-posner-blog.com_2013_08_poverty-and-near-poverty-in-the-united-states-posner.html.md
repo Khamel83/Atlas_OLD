@@ -7,15 +7,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-www.becker-posner-blog.com  
-  
-Verify you are human by completing the action below.  
-  
-www.becker-posner-blog.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.becker-posner-blog.com to respond... 
+www.becker-posner-blog.com
+
+Verify you are human by completing the action below.
+
+www.becker-posner-blog.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.becker-posner-blog.com to respond...
 

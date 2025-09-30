@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        “Naked short selling is an imaginary problem,” I said last week, enraging apparently hundreds of very online investors in a now-private oil 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        “Naked short selling is an imaginary problem,” I said last week, enraging apparently hundreds of very online investors in a now-private oil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Naked short selling
-    
-  
+
+
 
 “Naked short selling is an imaginary problem,”   I said last week, enraging apparently hundreds of very online investors in a now-private oil company called Next Bridge Hydrocarbons Inc. for reasons that are, I promise, not worth getting into. And so of course yesterday the US Securities and Exchange Commission  brought a naked short selling enforcement action:
 
@@ -112,37 +112,37 @@ The SEC goes through another example in which Sabby allegedly (naked) shorted a 
  But if you are, it’s a pretty safe trade: If the stock is at $2, and you sell 1 million shares and push down the price to $1.50, then (1) you probably sold at an average price of about $1.75 and (2) you can go to the company and say “hey, the stock closed at $1.50, but we need a discount to the last closing price to make this big purchase, what about $1?” and they’ll probably say yes and you’ll have locked in a profit of $0.75 per share.
 So! I mean: Yes, there is naked short selling, in the world. But notice that what is happening here is not a shadowy cabal of hedge funds conspiring to push down the prices of companies’ stocks to ruin them, and heroic companies fighting back to save their shareholders from the scourge of naked short selling. What is happening here is a hedge fund working with the companies to give them financing, and (allegedly) using naked short selling to make a risk-free profit on the trade at the expense of the company’s other, regular shareholders.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Goldman partners
-    
-  
+
+
 
 When David Solomon became chief executive officer of Goldman Sachs Group Inc. in 2018, Goldman did a public-relations push making the following points:
 	Solomon moonlights as an electronic dance music DJ.	Isn’t that cute?	Nobody thought that someone who DJs could become the CEO of Goldman Sachs. Conservative older bankers regularly advised Solomon to hang up his headphones, buckle down and take up golf. But he persevered and followed his passion and proved the doubters wrong and, in fact, became the CEO of Goldman Sachs and also a DJ.
@@ -175,11 +175,11 @@ Goldman put GreenSky up for sale in April, when CEO David Solomon said it no lon
 
 Took their eyes off the ball because of all the DJing, etc.
 
-  
-    
+
+
       DWS managing directors
-    
-  
+
+
 
 Everyone who has worked at an investment bank for more than five minutes has at least two different titles:
 	Everyone has a rank in the investment banking hierarchy. This varies a bit from bank to bank, but is largely pretty standard. Where I worked the ranks were analyst, associate, vice president, managing director and partner; there are other variations.	Everyone is the head of something, or at least co-head. Global Head of Cardboard Packaging Investment Banking, or Americas Head of Exotic Volatility Trading in Stocks Starting with ‘P,’ or whatever. And many people are the head of two things, or three things, or most commonly an indeterminate number of things.
@@ -198,11 +198,11 @@ Instead of corporate titles, DWS now uses functional titles such as “head of�
 
 Yeah I can see how that would be confusing. Everyone is the head of something, and how do you know how important the thing you are head of is if you don’t have a title? 
 
-  
-    
+
+
       Morgan Stanley interns
-    
-  
+
+
 
 Is this cringe?  Seems cringe:
 
@@ -213,15 +213,15 @@ The investment bank beamed the headshots of its newest summer analysts on the sc
 Why just the summer interns? Why not scroll the names, titles and photographs of every Morgan Stanley employee in Times Square constantly all year long? And if the answer is “ugh no that’s horrible,” why subject the interns to it? I know, I know, because it is funny, and to haze them.
 In other news I got  new promotional photos for Money Stuff, which I love and am tempted to embed here but I have some sense of shame. Now I’m gonna try to get Bloomberg to project them in Times Square however.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US   Inflation Slows, Giving Room for Fed to Pause Rate Hikes. US  junk loan defaults surge as higher interest rates start to bite. Ex-Goldman Banker Faces   Squash Pal-Turned-Informant in Trial. Howard Lutnick tilts at  Chicago’s flagship futures — again.   Arm Courts Intel as Anchor Investor in Upcoming IPO. Odey Shuts Its Swan Fund,   Gates Redemptions on Multiple Vehicles. JPMorgan cuts ties with  Odey Asset Management. Coinbase Pushes for   Legislative Remedy as It Fights SEC Suit. Binance US Says   Asset Freeze Sought by SEC Will Cripple Crypto Exchange. Binance US Hires Former SEC Enforcement Co-Director as It   Fights Charges. The Damning Details That Led JPMorgan Chase to  Settle With Epstein’s Victims. Instant Pot and Pyrex Maker Instant Brands Files for Bankruptcy. Manchester United Shares Soar After Tweet Spurs Sale Speculation. You Can Now Send Your Kids to Summer Camp for a Month in   Bali.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is the rule for investors; the rule for market makers is more permissive in ways, and for reasons, that we will not talk about here because it will probably make people mad somehow.
 
 
@@ -246,48 +246,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] For a while I was pitching a strange sort of equity forward sale contract that is called, for reasons that are not that relevant here, a “stock borrow facility.” Relationship bankers often had no real idea what that was, or interest in finding out, and I was once introduced as our “global head of stock borrow.” A real job — relevant to naked shorting (above) — that I absolutely did not have, and that someone else absolutely did. But close enough.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -298,46 +298,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cix5nd.5je5/e8ff7519.gif" alt="" border="0" /></a>

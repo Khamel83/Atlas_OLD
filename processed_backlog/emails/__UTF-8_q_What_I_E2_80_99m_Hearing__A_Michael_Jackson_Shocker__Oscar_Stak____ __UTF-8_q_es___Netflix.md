@@ -32,7 +32,7 @@ Still not a Puck member? Click here ( http://puck.news/join?utm_campaign=What+I%
 
 Let’s begin…
 
- 
+
 
 Thursday Thoughts…
 --------------------
@@ -267,7 +267,7 @@ The good news, according to everyone I spoke with, is that the usable footage th
 the musical sequences play big, like something you’d want to watch in Imax. Time after time, Jackson’s millions of fans have chosen to celebrate his music and larger-than-life persona—and ignore the allegations that consumed the final third of his life. So I’m betting Michael, if it ultimately pleases the fans, will be a global hit in the vein of King’s Bohemian Rhapsody, and nobody in the real world will care about any of these extraordinary behind-the-scenes problems. That
 is, of course, if the movie is actually released. 
 
- 
+
 
 Finally… One Fun Thing…
 ---------------------------
@@ -346,6 +346,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUlr7NlExRrgT3tSPYVz4=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

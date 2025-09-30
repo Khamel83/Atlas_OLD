@@ -109,7 +109,7 @@ class AtlasDailyReporter:
                 # Get transcript discovery stats
                 cursor.execute(
                     """
-                    SELECT COUNT(*) FROM episodes 
+                    SELECT COUNT(*) FROM episodes
                     WHERE transcript_url IS NOT NULL OR transcript_status = 'found'
                 """
                 )
@@ -119,7 +119,7 @@ class AtlasDailyReporter:
 
                 cursor.execute(
                     """
-                    SELECT COUNT(DISTINCT podcast_id) FROM episodes 
+                    SELECT COUNT(DISTINCT podcast_id) FROM episodes
                     WHERE transcript_url IS NOT NULL OR transcript_status = 'found'
                 """
                 )

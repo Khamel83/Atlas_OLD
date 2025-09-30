@@ -145,7 +145,7 @@ And Beard’s market needs some growth. Although a large photo collage, Lion at 
 One of the shibboleths of the art market is that it is lawless and unregulated. But that’s not true. Auction houses and art dealers are subject to commercial laws, and more importantly, the market has developed its own systems of
 self-regulation. The strength and quality of an artist’s studio or foundation can be the difference between their legacy dissipating into the ether or gathering strength with time. A spokesperson for Heritage Auctions said, “Heritage will be filing a response to this frivolous lawsuit within the next two weeks.”
 
- 
+
 
 That’s it for today. Tomorrow’s Inner Circle email is an interview
 with Mattia De Luca about his hugely popular Giorgio Morandi exhibition last season. There’s another important Morandi show of the trove of works held at the Magnani-Rocca Foundation about to open ( https://www.davidzwirner.com/exhibitions/2025/giorgio-morandi-masterpieces-from-the-magnani-rocca-foundation?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at David Zwirner later in the week.
@@ -210,6 +210,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUZ1BP9h5lMATHZi1bI3k=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

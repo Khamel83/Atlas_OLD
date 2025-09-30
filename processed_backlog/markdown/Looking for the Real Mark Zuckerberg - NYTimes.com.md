@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • December 12, 2010 
+Unknown author • December 12, 2010
 
 ![nytimes.com]()
 

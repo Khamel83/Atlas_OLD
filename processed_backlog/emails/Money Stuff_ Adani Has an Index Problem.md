@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.One important way for activist short selling to work is that a short sell
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Adani
-    
-  
+
+
 
 One important way for activist short selling to work is that a short seller makes a big bet against a company’s stock, the short seller publishes a report saying that the company is a fraud, the company publishes a rebuttal saying that actually it is good and the short seller is the fraud, and then some outside referee with some official power evaluates both reports and decides who wins.
 This is not an absolute requirement: The short seller might publish a report saying “this company’s sales growth is not going to be what the market expects, so it is overpriced,” and the company could publish a response saying “no,” and then some combination of (1) the company’s future performance and (2) the reactions of other investors will decide who wins. Here, there is no outside referee and no single definitive determination of who is right and who is wrong.
@@ -115,89 +115,89 @@ Adani Group said it did not receive a formal request for a margin call. The full
 
 The banks demanding their money back scores a point for Hindenburg, but Adani paying it scores a point for Adani.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Beyond bankruptcy
-    
-  
+
+
 
 We have talked, over the last   couple of   days, about Bed Bath & Beyond Inc.’s weird deal to sell $1 billion worth of convertible preferred stock, mostly to Hudson Bay Capital, to avoid bankruptcy. One general takeaway is that it is not a deal that you would be happy about, if you’re Bed Bath’s board of directors. For one thing, it is lavishly expensive; if it works and Bed Bath sells all the stock and stays out of bankruptcy, Hudson Bay will make hundreds of millions of dollars of more-or-less guaranteed profits.
 Also, though, the mechanics of the deal seem to rely on Hudson Bay converting its preferred stock into common shares and reselling them in the open market, presumably to retail investors, presumably at prices that are … you know, determined by the market, but maybe not prices that Bed Bath’s board and advisers think are rational right this minute. Bed Bath was already looking for bids for its assets in bankruptcy and not really finding any, suggesting that the value of its equity, to sophisticated investors, was rather less than zero. And the structure of the Hudson Bay deal itself suggests that Hudson Bay doesn’t think Bed Bath’s stock is worth its market price: Hudson Bay gets to buy stock from Bed Bath over time at hefty discounts to whatever the market price is, so it’s not exactly making a big bet on Bed Bath’s long-term value. “We believe that recent volatility and our current market prices reflect market and trading dynamics unrelated to our underlying business, or macro or industry fundamentals, and we do not know if or how long these dynamics will last,”  says the prospectus for the deal; it’s standard meme-stock boilerplate but also they might mean it. If this deal works, it will effectively require Bed Bath to pump out a billion dollars of new stock to retail investors  as it hovers near bankruptcy. That is an awkward thing for a board of directors to approve.
@@ -227,20 +227,20 @@ Elsewhere in Bed Bath, Ben Fife at Chicago Venture Partners emailed to point ou
   [7]
  Basically this seems to have been a private deal to raise $1 billion from Hudson Bay, with a few other investors along for a tiny portion of the deal to make it a public offering.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Tax loss harvesting
-    
-  
+
+
 
 If you buy some stocks that go up and some stocks that go down, then it is usually tax-efficient for you to sell the stocks that went down (giving you taxable losses that you can use to shield other income from taxes) and keep the stocks that went up (deferring taxable income until you really need the money). I do not give tax advice around here, but this is a popular approach. If you have a bunch of stocks with losses and you sell them, then you will have a lot of cash. If you don’t need the cash (perhaps because you saved so much money on taxes?), you will probably want to invest it somewhere. You will look around for good investments, and you might want to buy some stocks that have sold off and are now trading at attractive prices. 
 Be careful! Some of the beaten-down stocks that are now trading at attractive prices might be the ones you just sold, and that’s bad. In US tax law, you can’t (1) sell stock that went down, (2) claim a taxable loss and (3) immediately go buy that stock again. That’s cheating; that’s the same thing as just holding the stock, and you can’t claim a tax loss for just holding the stock. If you do this trade — sell a stock, claim a loss, buy it right back — that’s  called a “wash sale” and not allowed. (Again, not tax or legal advice.)
@@ -261,11 +261,11 @@ But, by Goldman’s own description, it is halting only a narrow slice of its lo
 
 It would be irresponsible not to! 
 
-  
-    
+
+
       The CEO of Goldman Sachs is also a DJ!
-    
-  
+
+
 
 Look,  this Insider article about some Goldman Sachs Group Inc. partners who are dissatisfied with CEO David Solomon’s leadership, and who have … talked among themselves about maybe complaining to Goldman’s board? ... is not mainly about Solomon’s hobby of being a DJ. I think it’s mainly about pay:
 
@@ -280,15 +280,15 @@ When Goldman's board announced Solomon's 2022 pay at $25 million late last month
 When he became CEO, Solomon got a lot of press, as an inspiring example of a man who overcame obstacles to achieve his dream of being both the CEO of Goldman Sachs and also a DJ. The obstacles included some of his advisers telling him that he should not be a DJ if he also wanted to be CEO of Goldman Sachs, but he ignored them, listened to his heart, and kept DJing (and becoming the CEO of Goldman Sachs). Recently though his press has gotten worse, and I   wrote earlier this week about a New York Times investigation into conflicts of interest (!??!??!!!!!) between his DJing and CEOing roles. What if, I wondered, “Solomon’s efforts to combine DJing and Goldman Sachs CEOing really did bring down the firm?” 
 Well, that still seems unlikely, but I do hope that if a group of disgruntled partners complains to the board, they will lead with the DJing thing. I hope that if Solomon is pushed out it is over the DJing thing. “David Solomon has resigned as CEO to spend more time with his turntables,” I hope the press release reads. Disclosure, I used to work at Goldman, and I am not saying that I think Solomon should be pushed out; I’m just saying that if he is pushed out, the funniest possible explanation will be that the partnership and board of Goldman Sachs concluded, after trying the experiment, that it is impossible to be both the CEO of Goldman Sachs and also a DJ.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Credit Suisse Sinks as Path to Profits Keeps Getting Steeper. Credit Suisse   Cuts Bonuses 50% as Executive Board Takes Zero. ‘Sam? Are you there?!’ The bizarre and brutal  final hours of FTX. Commodity Trader Trafigura Faces $577 Million Loss After Uncovering   Nickel Fraud. Toshiba receives  $15bn buyout proposal from private equity group. Home-Buying Companies  Stuck With Hundreds of Houses as Demand Slows. Tether Says Crypto Reserves Boosted by   $700 Million in Profit. Binance.US CFO Says  Customer Funds Are Safe. ChatGPT Mania Spurs Crypto Fans’ Stampede to   ‘Faddish’ AI Tokens. Comedians Are Finding Lucrative Side Hustles — No Joke —   as Babysitters.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] A few recent cases. (1) In 2020, activist short seller Hindenburg Research put out a report saying that Nikola Corp.’s electric trucks were fake. That caught the attention of the US Department of Justice and Securities and Exchange Commission, which investigated and concluded that the trucks were indeed fake; the SEC fined Nikola $125 million, its founder was  convicted on fraud charges, and Nikola’s stock is down more than 90% since Hindenburg’s report. (2) Way back in 2012, Bill Ackman put out a report saying that Herbalife Nutrition Ltd. was a pyramid scheme. This caught the attention of the US Federal Trade Commission, which investigated and … well, it  kind of did conclude that Herbalife was a pyramid scheme, but the fine was small and Herbalife was allowed to clean up its business and is basically fine; its stock price today is a bit higher than it was when Ackman published his report. (3) There is some sort of burbling US federal investigation of activist short sellers? I don’t really know what it is or if it will go anywhere, but if it does then presumably one of their targets will claim some sort of vindication.
 
 
@@ -310,114 +310,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] See page  A-30 of the prospectus for that definition. The company initially issued 23,685 shares of convertible preferred with a face amount of $237 million and a cash price of $225 million (i.e., it sold them for 95 cents on the dollar); Hudson Bay presumably bought at least 20,000 of them ($200 million face amount) for at least $190 million. The remaining $800 million comes in the form of “convertible preferred warrants,” which are allocated “pro rata” to “investors that purchase $75,000,000 or more of our Series A Convertible Preferred Stock” in the offering. If Hudson Bay bought $200 million worth, then that leaves only $37 million for everyone else, making Hudson Bay the only investor to get the warrants and be in the remaining $800 million tranche.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

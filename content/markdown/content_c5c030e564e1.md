@@ -41,7 +41,7 @@
 <script src="http://web.archive.org/web/20250910034345js_/https://www.cdc.gov/JScript/dmat/cdc-dmat.min.js?account=cdcgov" async></script>
 	<title>FastStats - Overweight Prevalence</title>
 								<meta name="robots" content="index, archive"/>
-		
+
 		<meta property="cdc:template_version" content="4.0"/>	<meta property="cdc:first_published" content="March 5, 2018"/>
 	<meta property="cdc:last_updated" content="October 25, 2024"/>
 	<meta property="cdc:last_reviewed" content="October 25, 2024"/>
@@ -63,7 +63,7 @@
 <link rel="stylesheet" type="text/css" href="/web/20250910034345cs_/https://www.cdc.gov/nchs/fastats/local/b/css/local.css?v=5058"/>
 	<!-- CSS Added Dynamically Here -->		<meta name="DC.date" content="2025-01-15T05:53:52Z"/>
 				<meta name="cdc:last_published" content="2025-06-09T04:03:12Z"/>
-				
+
 </head>
 <body class="no-js cdc-page">
 	<div id="skipmenu">
@@ -159,7 +159,7 @@
 			</div>
 						<nav role="navigation" aria-label="Mobile Nav" id="mobilenav" class="sticky-top">
 							</nav>
-			
+
 		<!-- Global Above Feature -->
 
 <div class="container-fluid feature-area">
@@ -233,7 +233,7 @@
 
 </div>
 		</div>
-							
+
 					<div class="row d-none d-lg-block">
 				<div class="col pca">
 					<!-- EMPTY SSI -->									</div>
@@ -292,7 +292,7 @@
            document.getElementById("gov-d-origin").setAttribute("value", window.location.href.toLowerCase());
         </script>
     </div>
-</div> 
+</div>
 <!-- EMPTY SSI -->					<div class="d-none d-lg-block">
 											</div>
 								</div>
@@ -907,12 +907,12 @@
 <!-- NCHS Web Survey (turned on 9/1.* 12/30/* every year) -->
 <!-- script src="/nchs/JS/SMpopupSurvey.js" type="text/javascript"> /script -->
 <script>
-	
-	
+
+
     s.pageName=document.title;
     s.channel="NCHS";
-    
-    	
+
+
 	</script>
 <script>
 	window.shortTitle = "Obesity and Overweight";

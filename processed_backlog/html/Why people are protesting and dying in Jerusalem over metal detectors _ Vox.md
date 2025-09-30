@@ -87,7 +87,7 @@ Preventing the violence from escalating even further will require a great deal o
 
 **Correction:** An earlier version of this story misidentified the al-Aqsa Mosque saying it was “also known as the Dome of the Rock, the golden-domed mosque.” In fact the al-Aqsa mosque and the Dome of the Rock are two distinct buildings, which face each other. The Dome of the Rock is a shrine, not a mosque.
 
-See More: 
+See More:
 
 * [Politics](/web/20241219234007/https://www.vox.com/politics)
 * [World Politics](/web/20241219234007/https://www.vox.com/world-politics)

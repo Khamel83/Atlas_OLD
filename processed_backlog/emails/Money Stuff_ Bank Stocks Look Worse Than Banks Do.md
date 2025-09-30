@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One way to think about it is that the stock market is supposed to be efficient and the market for bank deposits is not. The point of the sto
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh banks
-    
-  
+
+
 
 One way to think about it is that the stock market is supposed to be efficient and the market for bank deposits is not. The point of the stock market is that a lot of well-informed hedge fund managers and hard-working analysts and Reddit-reading day traders are all competing with each other to find out information about each company and use that information to determine the fair value of its stock. The price of a stock changes each second to reflect the information and views collected by the market, and if the market is working well then that price reflects the collective best guess at the long-term value of the company. In practice the market sometimes tries too hard, and stock prices bounce around more than is justified by changes in fundamental information, but this is the goal.
 The point of a checking account is that you put your money there and don’t think about it. You don’t compete with a bunch of hedge fund managers to understand your bank’s financial statements; you don’t stay up late reading Reddit for clues about its business prospects; you maybe aren’t even aware of the interest rate that it pays you. A checking account is not a high-risk, high-reward financial instrument that you have spent a long time doing due diligence on. It’s just money in the bank.
@@ -142,37 +142,37 @@ Depositors are no longer panicking, but investors are. It might be time to consi
 
 Incidentally there are stronger and weaker forms of Possibility 4. The strong form is something like “dastardly short sellers are knowingly shorting stocks of regional banks with the goal of causing panic and driving them into failure, so they can take profits.” The weak form is something like “rational market participants look at the stocks of regional banks and conclude that they are overvalued, because they honestly (correctly or incorrectly) believe that earnings will be lower or failure more likely than the market thinks, so they short the stocks, which might cause them to fail and generate profits for the short sellers.” The effect can exist with or without the intent.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Pacific West (not that one!)
-    
-  
+
+
 
 The Pacific Ocean is to the west of the western part of the US. The US has like a zillion banks, most of them pretty local. Often they have blandly geographical names. If you are a bank in the western part of the US, sorta near the ocean, your name might well include the words “Pacific” or “west” or both. The western part of the US is large and has a lot of coastline, and also a lot of banks, so it should not be surprising that there is both a “Pacific West Bancorp” (the holding company for Pacific West Bank) and a “PacWest Bancorp” (the holding company for Pacific Western Bank), or that they are entirely different banks. PacWest Bancorp’s stock has had a wild ride in recent days. Pacific West Bancorp’s stock has not. It would like to keep it that way:
 
@@ -184,11 +184,11 @@ I once joked on Twitter that the “biggest risk to the US banking system is th
 One of my favorite banking stories of all time is when   Amalgamated Bank agreed to acquire Amalgamated Bank, though eventually that amalgamation was called off due to regulatory opposition. As far as I know both the Amalgamated Banks, and any additional Amalgamated Banks, are fine, but you can see how this creates confusion.
 I suppose the solution to the current regional banking crisis might involve a lot of banking industry consolidation, and while the simplest version of that is probably just for JPMorgan Chase & Co. to buy everyone, a tidier and funnier version might be for all the banks with similar names to merge with each other. How many Pac(ific) West Bancorps do we really need?
 
-  
-    
+
+
       If the SEC allows a company to go public, does that mean that the company’s business is legal?
-    
-  
+
+
 
 No, but, I mean, I can see  how the company would think that?
 
@@ -200,11 +200,11 @@ I think that in some crude practical sense Coinbase is right: If it filed to go 
 Of course the background fact is that between late 2020 when Coinbase filed to go public, and early 2023 when the SEC has started rumbling about a   Coinbase enforcement action, the presidential administration and the SEC’s leadership changed, and it is now much more skeptical of crypto. Coinbase  went public three days before Gensler was  sworn in at the SEC; he was just a bit too late to stop the IPO.
 But technically nothing works that way; technically the SEC never gave any official approval of Coinbase’s business model, and technically “you let us get away with doing illegal stuff for a few years so you can’t stop us now” is not a good legal argument. But I see why they’re annoyed.
 
-  
-    
+
+
       Do Kwon
-    
-  
+
+
 
 If a South Korean citizen operates a South Korean company in South Korea that takes money mostly from South Korean investors, but also some US investors, and then loses that money due to alleged crimes, and then he flees to Montenegro and gets caught, and Montenegro wants to send him away to be prosecuted for his alleged crimes, where should it send him? The two choices are:
 	South Korea, where he’s from, where a lot of the victims are from, where he did the alleged crimes, and where prosecutors are keen to prosecute him; or	The US, which wants to have a monopoly on prosecuting all big financial crimes that take place anywhere on Earth.
@@ -217,15 +217,15 @@ South Korea is vying with U.S. prosecutors to extradite Mr. Kwon from Montenegro
 
 I assume the real answer is “eventually, both,” and we are just debating the order.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS ‘Clean Team’   Descends on Credit Suisse as Deal Nears Closing. Inside  Wells Fargo's 'chaotic' journey to transform its services for the ultrarich. New York AG Proposes Landmark   Crypto Law, Citing ‘Dysfunction.’ FDIC Plans to Hit Big Banks With Fees to  Refill Deposit Insurance Fund. U.S. Companies in China Worry  Due Diligence Will End in Spy Dramas. Crypto Firms Find a Way to  Bank Without Banks. US banking crisis pushes  gold close to all-time high. TD-First Horizon Collapse Points to   Merger-Arbitrage Traders’ Biggest Fear.  HSBC shareholders reject Ping An-backed split proposal at AGM. Corporate  Profit Margins Are Finally Stabilizing, Creating New Tailwind for Stocks. The  ‘Bad Boy’ of Shipping Cashes In on Russian Oil. Teza, WorldQuant Open   Armenian Offices to Tap Russian Talent. Data Science Is the Hot New Master’s at B-Schools. Twitter’s  Blue Check Marks Become Polarizing Symbol of Elon Musk’s Tenure. Hedge fund billionaire  Louis Bacon awarded $203mn in defamation feud.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Except, of course, to check to see if it is actually FDIC-insured? I don’t think I have ever met anyone who has actually done that diligence, though. The main protection there is that the *FDIC*   tries to stop businesses from advertising that they are banks, or that they are FDIC-insured, if they are not. Like one part of deposit insurance is insuring all bank deposits, and the other part is making sure that no one puts their money into things that they think are FDIC-insured bank deposits but aren’t.
 
 
@@ -241,48 +241,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] We have talked about this idea before. Last October, I wrote a column titled “Credit Suisse Was a Reverse Meme Stock”: The New York Times  had reported that a bunch of retail investors had worked themselves up about Credit Suisse Group AG, circulated rumors that it might fail, and drove the stock down. I wrote that, at some level, that can become self-fulfilling: "It is theoretically possible to meme a bank into bankruptcy, in a way that it is not possible to meme, say, Tesla Inc. into bankruptcy. You get enough people worried, they stop funding the bank, and it blows up, even if its business was otherwise sound." The retail traders do not seem to have had that effect on Credit Suisse, though it did blow up a few months later, so who knows really.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -293,46 +293,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciouog.5lpy/e92d955c.gif" alt="" border="0" /></a>

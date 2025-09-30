@@ -31,7 +31,7 @@
   <meta name="theme-color" content="#ffffff">
 
 <link rel="pingback" href="https://millionmilesecrets.com/xmlrpc.php">
-	
+
 	<title>Book NOW: Incredibly Low Airfare to Hong Kong, Abu Dhabi, &amp; More! | Million Mile Secrets</title>
 
 <!-- All in One SEO Pack 2.3.13.2 by Michael Torbert of Semper Fi Web Design[832,938] -->
@@ -104,7 +104,7 @@ table.tablepress th{font-size:15px;border:1px solid #ddd}table.tablepress th,tab
 <script type="text/javascript" src="//web.archive.org/web/20170724034344js_/https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js?ver=4.8"></script>
 <link rel="https://api.w.org/" href="https://millionmilesecrets.com/wp-json/"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://millionmilesecrets.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://millionmilesecrets.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://millionmilesecrets.com/wp-includes/wlwmanifest.xml"/>
 <meta name="generator" content="WordPress 4.8"/>
 <link rel="shortlink" href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/?p=107312"/>
 <link rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmillionmilesecrets.com%2F2014%2F12%2F25%2Fbook-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more%2F"/>
@@ -133,7 +133,7 @@ table.tablepress th{font-size:15px;border:1px solid #ddd}table.tablepress th,tab
   <!-- End Facebook Pixel Code -->
 
 <script src="//web.archive.org/web/20170724034344js_/https://assets.adobedtm.com/35c935cd798f6a0634b954c60f0f14c3bb4b481c/satelliteLib-6437b3f2fbdad68c35d8190e1b718c534aed105f.js"></script>
-      
+
 </head>
 
 <body class="post-template-default single single-post postid-107312 single-format-standard">
@@ -154,7 +154,7 @@ var _gaq = _gaq || [];
 </script>
 
 <div id="top"></div>
-	
+
 	<div id="page">
 		<header id="masthead" class="site-header almost-full" role="banner">
 			<div class="site-header-main grid container">
@@ -196,16 +196,16 @@ var _gaq = _gaq || [];
                             <input name="input_1" id="input_2_1" type="email" value="" class="large" tabindex="1" placeholder="Email Address" aria-required="true" aria-invalid="false"/>
                         </div></li>
                             </ul></div>
-        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_2" class="gform_button button" value="Go" tabindex="2" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  if( !jQuery(&quot;#gform_2&quot;)[0].checkValidity || jQuery(&quot;#gform_2&quot;)[0].checkValidity()){window[&quot;gf_submitting_2&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} if( !jQuery(&quot;#gform_2&quot;)[0].checkValidity || jQuery(&quot;#gform_2&quot;)[0].checkValidity()){window[&quot;gf_submitting_2&quot;]=true;}  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }"/> 
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_2" class="gform_button button" value="Go" tabindex="2" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  if( !jQuery(&quot;#gform_2&quot;)[0].checkValidity || jQuery(&quot;#gform_2&quot;)[0].checkValidity()){window[&quot;gf_submitting_2&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} if( !jQuery(&quot;#gform_2&quot;)[0].checkValidity || jQuery(&quot;#gform_2&quot;)[0].checkValidity()){window[&quot;gf_submitting_2&quot;]=true;}  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }"/>
             <input type="hidden" class="gform_hidden" name="is_submit_2" value="1"/>
             <input type="hidden" class="gform_hidden" name="gform_submit" value="2"/>
-            
+
             <input type="hidden" class="gform_hidden" name="gform_unique_id" value=""/>
             <input type="hidden" class="gform_hidden" name="state_2" value="WyJbXSIsIjkxNTAyM2NiYjNjNzg0NmVkODIwZDUxODhiYzNhM2RhIl0="/>
             <input type="hidden" class="gform_hidden" name="gform_target_page_number_2" id="gform_target_page_number_2" value="0"/>
             <input type="hidden" class="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" value="1"/>
             <input type="hidden" name="gform_field_values" value=""/>
-            
+
         </div>
                         </form>
                         </div><script type="text/javascript"> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
@@ -482,7 +482,7 @@ var _gaq = _gaq || [];
 
 <div class="main">
       <!-- Desktop Submenus -->
-      
+
       <!-- Mobile Submenus -->
 
 <div class="container grid">
@@ -502,8 +502,8 @@ var _gaq = _gaq || [];
 		<main id="main" class="site-main" role="main" itemscope itemtype="http://schema.org/BlogPosting">
 
 <div class="blog-content">
-				
-								
+
+
 				<h1 itemprop="headline">Book NOW: Incredibly Low Airfare to Hong Kong, Abu Dhabi, &#038; More!</h1>
 				<p class="metadata"><time datetime="2014-12-25" itemprop="datePublished">December 25, 2014</time> by <span itemscope itemtype="http://schema.org/Organization" itemprop="author">Million Mile Secrets Team <span itemprop="name" class="hide">Million Mile Secrets Team</span></span></p>
 				<img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2014/12/Book_NOW_Incredibly_Low_Airfare_To_Hong_Kong_Abu_Dhabi_More_01.jpg" alt="Book NOW: Incredibly Low Airfare to Hong Kong, Abu Dhabi, &amp; More!" class="hide" itemprop="image">
@@ -832,7 +832,7 @@ var _gaq = _gaq || [];
                      </figure>
                      <div class="decomments-description-block">	<div class="decomments-title-block" style="min-height:37px;">
 					<a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2014/12/25/book-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more/#comment-4415268" class="decomments-date-link">
-				
+
 			<time datetime="1:51 pm January 2, 2015">1:51 pm<i>January 2, 2015</i></time>			</a>
 			<span class="decomments-autor-name">jignesh</span> 			</div>
        <div class="decomments-comment-main"><div class="decomments-text-holder decomments-content-4415268"><p>Kindly inform about ticket cost to mumbai for less than 400 dollars in january and february 2015</p>
@@ -852,7 +852,7 @@ var _gaq = _gaq || [];
                      </figure>
                      <div class="decomments-description-block">	<div class="decomments-title-block" style="min-height:37px;">
 					<a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2014/12/25/book-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more/#comment-4341275" class="decomments-date-link">
-				
+
 			<time datetime="8:33 pm December 27, 2014">8:33 pm<i>December 27, 2014</i></time>			</a>
 			<span class="decomments-autor-name">mike</span> 			</div>
        <div class="decomments-comment-main"><div class="decomments-text-holder decomments-content-4341275"><p>what days did you book for Marcos and what day were you able to book on because I can't seem to find any</p>
@@ -872,7 +872,7 @@ var _gaq = _gaq || [];
                      </figure>
                      <div class="decomments-description-block">	<div class="decomments-title-block" style="min-height:37px;">
 					<a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2014/12/25/book-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more/#comment-4339557" class="decomments-date-link">
-				
+
 			<time datetime="5:38 pm December 27, 2014">5:38 pm<i>December 27, 2014</i></time>			</a>
 			<a class="decomments-autor-name" href="http://web.archive.org/web/20170724034344/http://www.travelpointsandpics.com/" rel="nofollow">Marcos</a> 			</div>
        <div class="decomments-comment-main"><div class="decomments-text-holder decomments-content-4339557"><p>Got 5 r/t NYC/Abu Dhabi for $177 each!!!</p>
@@ -892,7 +892,7 @@ var _gaq = _gaq || [];
                      </figure>
                      <div class="decomments-description-block">	<div class="decomments-title-block" style="min-height:37px;">
 					<a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2014/12/25/book-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more/#comment-4329833" class="decomments-date-link">
-				
+
 			<time datetime="12:36 am December 27, 2014">12:36 am<i>December 27, 2014</i></time>			</a>
 			<a class="decomments-autor-name" href="http://web.archive.org/web/20170724034344/http://wheatgrasshome.com/" rel="nofollow">Top Juicer</a> 			</div>
        <div class="decomments-comment-main"><div class="decomments-text-holder decomments-content-4329833"><p>Man, I wanted to jump on this so bad but the cheap dates didn't line up with my grad school's plans..ugh</p>
@@ -912,7 +912,7 @@ var _gaq = _gaq || [];
                      </figure>
                      <div class="decomments-description-block">	<div class="decomments-title-block" style="min-height:37px;">
 					<a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2014/12/25/book-now-incredibly-low-airfare-to-hong-kong-abu-dhabi-more/#comment-4322026" class="decomments-date-link">
-				
+
 			<time datetime="10:18 am December 26, 2014">10:18 am<i>December 26, 2014</i></time>			</a>
 			<span class="decomments-autor-name">Sharon</span> 			</div>
        <div class="decomments-comment-main"><div class="decomments-text-holder decomments-content-4322026"><p>I booked 2 tickets for Chicago to Abu Dhabi connecting through Paris for $345 next September. Anyone have any advice on extending the Paris stopover for a few days? I originally tried to book a multistop trip and that made the price shoot up..</p>
@@ -978,7 +978,7 @@ var _gaq = _gaq || [];
          </div> <!-- .related-article -->
               </div> <!-- .blog-content -->
     </div> <!-- .latest-posts -->
-  
+
 			</div> <!-- .blog-content -->
 
 </main><!-- .site-main -->
@@ -986,20 +986,20 @@ var _gaq = _gaq || [];
 </div><!-- .content-area -->
 
 <div class="grid-cell w25 secondary desktop-sidebar">
-		
+
 <div id="secondary">
       <div class="advertiser-disclosure disclosure-sidebar">
       <a href="#">Advertiser Disclosure</a>
     </div>
-  
-  
+
+
   <!-- Our Favorites -->
       <section class="featured-cards">
       <div class="section-header">
         <h3>Our Favorites</h3>
       </div>
       <div class="section-body grid">
-                        
+
         <div class="featured-card grid grid-cell w100 image" itemscope itemtype="http://schema.org/CreditCard">
                           <div class="card-image grid-cell w30">
                 <a href="/web/20170724034344/https://millionmilesecrets.com/go/ChaseInkBusinessPreferredBanner80KW/" itemprop="url" target="_blank"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/06/InkBusinessPreferred.png" alt="Ink Business Preferred℠ Credit Card" itemprop="image"></a>
@@ -1009,7 +1009,7 @@ var _gaq = _gaq || [];
               <p class="card-tagline" itemprop="description">Earn 80,000 bonus points</p>
             </div> <!-- .card-content -->
           </div> <!-- .featured-card -->
-                        
+
         <div class="featured-card grid grid-cell w100 image" itemscope itemtype="http://schema.org/CreditCard">
                           <div class="card-image grid-cell w30">
                 <a href="/web/20170724034344/https://millionmilesecrets.com/go/ChaseSapphirePreferredBanner50KW/" itemprop="url" target="_blank"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/06/SapphirePreferred50K.png" alt="Chase Sapphire Preferred® Card" itemprop="image"></a>
@@ -1019,7 +1019,7 @@ var _gaq = _gaq || [];
               <p class="card-tagline" itemprop="description">50,000 bonus points</p>
             </div> <!-- .card-content -->
           </div> <!-- .featured-card -->
-                        
+
         <div class="featured-card grid grid-cell w100 image" itemscope itemtype="http://schema.org/CreditCard">
                           <div class="card-image grid-cell w30">
                 <a href="/web/20170724034344/https://millionmilesecrets.com/go/AMEXBusinessGold50K201609/" itemprop="url" target="_blank"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/06/GoldRewardsAMEX.png" alt="The Business Gold Rewards Card from American Express OPEN" itemprop="image"></a>
@@ -1029,7 +1029,7 @@ var _gaq = _gaq || [];
               <p class="card-tagline" itemprop="description">50,000 points. Terms apply.</p>
             </div> <!-- .card-content -->
           </div> <!-- .featured-card -->
-                        
+
         <div class="featured-card grid grid-cell w100 image" itemscope itemtype="http://schema.org/CreditCard">
                           <div class="card-image grid-cell w30">
                 <a href="/web/20170724034344/https://millionmilesecrets.com/go/AmexPlatinum60K201703/" itemprop="url" target="_blank"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/06/PlatinumAMEX.png" alt="The Platinum Card® from American Express" itemprop="image"></a>
@@ -1041,7 +1041,7 @@ var _gaq = _gaq || [];
           </div> <!-- .featured-card -->
               </div> <!-- .section-body -->
     </section>
-  
+
   <!-- Ad #1 -->
 
 <p class="ad"><center><a target="_blank" href="/web/20170724034344/https://millionmilesecrets.com/go/SapphirePreferredBanner50K"><img src="http://web.archive.org/web/20170724034344im_/https://imgsynergy.com/product_creatives/6d6f42cebbdb9802321842b7c3291d3a.gif" width="300" height="250" alt="Chase Sapphire Preferred® Card - Banner" border="0" style="max-width: 100%; height: auto;"></a></center><br><br><br></p>
@@ -1054,7 +1054,7 @@ var _gaq = _gaq || [];
   </div>
   <div class="blog-body">
     <div class="posts grid">
-                  
+
       <div class="post grid-cell w20">
         <a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/07/12/2017-credit-cards-worth-the-annual-fee/"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/07/2017_Credit_Cards_Worth_The_Annual_Fee_01-600x338.jpg" alt="Hello to 3 New Cards, Goodbye to 7, Keeping 8: Joseph’s Plan" itemprop="image"></a>
         <h5 class="title"><a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/07/12/2017-credit-cards-worth-the-annual-fee/">Hello to 3 New Cards, Goodbye to 7, Keeping 8: Joseph&#8217;s Plan</a></h5>
@@ -1070,7 +1070,7 @@ var _gaq = _gaq || [];
           </div>
         </div>
       </div> <!-- .post -->
-                  
+
       <div class="post grid-cell w20">
         <a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/07/11/best-travel-credit-cards-july-2017/"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/07/Best_Travel_Credit_Cards_July_2017_01-600x400.jpg" alt="7 Best Credit Cards to Help Achieve Your Travel Goals – July 2017" itemprop="image"></a>
         <h5 class="title"><a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/07/11/best-travel-credit-cards-july-2017/">7 Best Credit Cards to Help Achieve Your Travel Goals – July 2017</a></h5>
@@ -1086,7 +1086,7 @@ var _gaq = _gaq || [];
           </div>
         </div>
       </div> <!-- .post -->
-                  
+
       <div class="post grid-cell w20">
         <a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/06/22/disney-dream-cruise-review/"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2017/06/Disney_Dream_Cruise_Review_01.jpg" alt="Considering a Disney Dream Cruise? Read This First!" itemprop="image"></a>
         <h5 class="title"><a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/06/22/disney-dream-cruise-review/">Considering a Disney Dream Cruise? Read This First!</a></h5>
@@ -1102,7 +1102,7 @@ var _gaq = _gaq || [];
           </div>
         </div>
       </div> <!-- .post -->
-                  
+
       <div class="post grid-cell w20">
         <a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/05/22/can-you-buy-a-car-with-a-credit-card/"><img src="http://web.archive.org/web/20170724034344im_/https://millionmilesecrets.com/wp-content/uploads/2016/11/Can_You_Buy_A_Card_With_A_Credit_Card_01.jpg" alt="How to Buy a Car With a Credit Card to Earn Miles" itemprop="image"></a>
         <h5 class="title"><a href="http://web.archive.org/web/20170724034344/https://millionmilesecrets.com/2017/05/22/can-you-buy-a-car-with-a-credit-card/">How to Buy a Car With a Credit Card to Earn Miles</a></h5>
@@ -1178,51 +1178,51 @@ var _gaq = _gaq || [];
 <li>
                       <a href="http://web.archive.org/web/20170724034344/https://awardwallet.com/" target="_blank"><span>Award Wallet</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://www.boardingarea.com/" target="_blank"><span>Boarding Area Blogs</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://dealswelike.com/" target="_blank"><span>Deals We Like</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://frequentmiler.boardingarea.com/" target="_blank"><span>Frequent Miler</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://www.frugaltravelguy.com/" target="_blank"><span>Frugal Travel Guy</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://www.economist.com/blogs/gulliver" target="_blank"><span>Gulliver</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://boardingarea.com/blogs/loyaltytraveler/" target="_blank"><span>Loyalty Traveller</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://boardingarea.com/blogs/mommypoints/" target="_blank"><span>Mommy Points</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://boardingarea.com/blogs/onemileatatime/" target="_blank"><span>One Mile at a Time</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://ow.ly/9g1XD" target="_blank"><span>Rapid Travel Chai</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://ow.ly/9g20U" target="_blank"><span>The Points Guy</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://travelisfree.com/" target="_blank"><span>Travel Is Free</span></a>
                     </li>
-                
+
                     <li>
                       <a href="http://web.archive.org/web/20170724034344/http://boardingarea.com/blogs/viewfromthewing/" target="_blank"><span>View From The Wing</span></a>
                     </li>
@@ -1237,16 +1237,16 @@ var _gaq = _gaq || [];
                             <input name="input_1" id="input_1_1" type="email" value="" class="large" tabindex="1" placeholder="Email Address" aria-required="true" aria-invalid="false"/>
                         </div></li>
                             </ul></div>
-        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Go" tabindex="2" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"/> 
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Go" tabindex="2" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"/>
             <input type="hidden" class="gform_hidden" name="is_submit_1" value="1"/>
             <input type="hidden" class="gform_hidden" name="gform_submit" value="1"/>
-            
+
             <input type="hidden" class="gform_hidden" name="gform_unique_id" value=""/>
             <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjkxNTAyM2NiYjNjNzg0NmVkODIwZDUxODhiYzNhM2RhIl0="/>
             <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0"/>
             <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1"/>
             <input type="hidden" name="gform_field_values" value=""/>
-            
+
         </div>
                         </form>
                         </div><script type="text/javascript"> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
@@ -1327,31 +1327,31 @@ jQuery('.single div.blog-article-content a').each(function(e) {
   <svg xmlns="http://www.w3.org/2000/svg">
     <symbol id="arrow-steps-slider" viewbox="0 0 15 26">
        <path d="M11.8,25.2c0.3,0.3,0.7,0.4,1,0.4c0.3,0,0.6-0.1,0.8-0.3c0.6-0.4,0.8-1.2,0.4-1.8L8.9,13.1l5.2-10.4
-	c0.3-0.7,0.1-1.4-0.4-1.8c-0.3-0.2-0.5-0.3-0.8-0.3c-0.4,0-0.8,0.1-1,0.4L0.7,12c-0.6,0.6-0.6,1.5,0,2.1L11.8,25.2z"/> 
+	c0.3-0.7,0.1-1.4-0.4-1.8c-0.3-0.2-0.5-0.3-0.8-0.3c-0.4,0-0.8,0.1-1,0.4L0.7,12c-0.6,0.6-0.6,1.5,0,2.1L11.8,25.2z"/>
     </symbol>
     <symbol id="bullets-01" viewbox="0 0 6 6">
-       <path d="M5.6,3c0,1.5-1.2,2.6-2.6,2.6S0.4,4.5,0.4,3S1.5,0.4,3,0.4S5.6,1.5,5.6,3"/> 
+       <path d="M5.6,3c0,1.5-1.2,2.6-2.6,2.6S0.4,4.5,0.4,3S1.5,0.4,3,0.4S5.6,1.5,5.6,3"/>
     </symbol>
     <symbol id="button-lock" viewbox="0 0 11 18">
        <path d="M5.5,10c0.6,0,1.1,0.5,1.1,1.1c0,0.3-0.2,0.6-0.4,0.8l0.3,2.3H4.6l0.3-2.3c-0.2-0.2-0.4-0.5-0.4-0.8C4.4,10.5,4.9,10,5.5,10
 	L5.5,10z M5.5,3C6.9,3,8,4.1,8,5.5v1.6C6.3,6.9,4.6,6.9,3,7.1V5.5C3,4.1,4.1,3,5.5,3z M5.5,1.1c-2.4,0-4.4,2-4.4,4.4v2
 	c-0.1,0-0.2,0-0.3,0.1C0.4,7.6,0.1,8,0.1,8.3v7c0,0.3,0.2,0.7,0.5,0.8c3.2,1.1,6.5,1.1,9.7,0c0.3-0.1,0.5-0.4,0.5-0.8v-7
-	c0-0.4-0.2-0.7-0.6-0.8c-0.1,0-0.2,0-0.4-0.1v-2C9.9,3.1,7.9,1.1,5.5,1.1L5.5,1.1z"/> 
+	c0-0.4-0.2-0.7-0.6-0.8c-0.1,0-0.2,0-0.4-0.1v-2C9.9,3.1,7.9,1.1,5.5,1.1L5.5,1.1z"/>
     </symbol>
     <symbol id="card-post-more-arrow" viewbox="0 0 14 8">
        <path d="M13.6,1.5c0.2-0.2,0.2-0.4,0.2-0.6c0-0.2,0-0.3-0.2-0.5c-0.2-0.3-0.7-0.4-1-0.2L7,3.1L1.3,0.3c-0.4-0.2-0.8-0.1-1,0.2
-	C0.2,0.6,0.1,0.8,0.1,0.9c0,0.2,0.1,0.4,0.2,0.6l6.1,6.1c0.3,0.3,0.8,0.3,1.1,0L13.6,1.5z"/> 
+	C0.2,0.6,0.1,0.8,0.1,0.9c0,0.2,0.1,0.4,0.2,0.6l6.1,6.1c0.3,0.3,0.8,0.3,1.1,0L13.6,1.5z"/>
     </symbol>
     <symbol id="explore-blog-posts-arrow" viewbox="0 0 17 9">
        <path d="M16,1.7c0.2-0.2,0.3-0.4,0.3-0.6c0-0.2,0-0.4-0.2-0.5c-0.2-0.4-0.7-0.5-1.1-0.3L8.5,3.5L2,0.3C1.6,0.1,1.2,0.2,0.9,0.6
-	C0.8,0.7,0.8,0.9,0.8,1.1c0,0.2,0.1,0.5,0.3,0.6l6.9,6.9c0.4,0.4,0.9,0.4,1.3,0L16,1.7z"/> 
+	C0.8,0.7,0.8,0.9,0.8,1.1c0,0.2,0.1,0.5,0.3,0.6l6.9,6.9c0.4,0.4,0.9,0.4,1.3,0L16,1.7z"/>
     </symbol>
     <symbol id="hero-slider-arrow" viewbox="0 0 19 34">
        <path d="M15.4,33c0.4,0.4,0.9,0.6,1.3,0.6c0.4,0,0.8-0.1,1.1-0.4c0.8-0.5,1-1.6,0.6-2.4l-6.8-13.7l6.8-13.7c0.4-0.9,0.2-1.9-0.6-2.4
-	c-0.3-0.2-0.7-0.4-1.1-0.4c-0.5,0-1,0.2-1.3,0.6L0.9,15.8c-0.8,0.8-0.8,1.9,0,2.7L15.4,33z"/> 
+	c-0.3-0.2-0.7-0.4-1.1-0.4c-0.5,0-1,0.2-1.3,0.6L0.9,15.8c-0.8,0.8-0.8,1.9,0,2.7L15.4,33z"/>
     </symbol>
     <symbol id="hero-slider-slides" viewbox="0 0 11 11">
-        <circle class="st0" cx="5.5" cy="5.5" r="4.9"/> 
+        <circle class="st0" cx="5.5" cy="5.5" r="4.9"/>
     </symbol>
     <symbol id="quotes-1" viewbox="0 0 32 25.8">
        <g> <path d="M12.9,18.3c0,2.3-0.6,4-1.7,5.2c-1.2,1.2-2.7,1.7-4.7,1.7c-2.1,0-3.6-0.7-4.7-2.1c-1.1-1.4-1.6-3.1-1.6-4.9
@@ -1359,7 +1359,7 @@ jQuery('.single div.blog-article-content a').each(function(e) {
 		C9.2,9.8,8.3,11.6,8,13.6c0.2-0.1,0.6-0.1,1.1-0.1c1.2,0,2.1,0.5,2.8,1.4C12.6,15.9,12.9,17,12.9,18.3z M29.4,18.3
 		c0,2.3-0.6,4-1.7,5.2c-1.2,1.2-2.7,1.7-4.7,1.7c-2.1,0-3.6-0.7-4.7-2.1c-1.1-1.4-1.6-3.1-1.6-4.9c0-2.7,0.5-5.1,1.5-7.2
 		c1-2.1,2.3-3.9,3.7-5.4c1.4-1.5,2.9-2.6,4.4-3.5c1.5-0.8,2.7-1.4,3.7-1.7l1.8,4.2c-1.8,0.9-3.4,2.1-4.8,3.6
-		c-1.3,1.5-2.2,3.4-2.5,5.4c0.2-0.1,0.6-0.1,1.1-0.1c1.2,0,2.1,0.5,2.8,1.4C29.1,15.9,29.4,17,29.4,18.3z"/> </g> 
+		c-1.3,1.5-2.2,3.4-2.5,5.4c0.2-0.1,0.6-0.1,1.1-0.1c1.2,0,2.1,0.5,2.8,1.4C29.1,15.9,29.4,17,29.4,18.3z"/> </g>
     </symbol>
     <symbol id="quotes-2-01" viewbox="0 0 32 25.8">
        <g> <path d="M2.8,6.6c0-1,0.2-1.8,0.7-2.6c0.4-0.8,1-1.4,1.6-1.8C5.7,1.7,6.4,1.3,7.1,1c0.8-0.3,1.5-0.4,2.2-0.4c2.4,0,4,0.6,4.8,1.8
@@ -1367,20 +1367,20 @@ jQuery('.single div.blog-article-content a').each(function(e) {
 		c1.8-1,3.4-2.2,4.8-3.7c1.3-1.5,2.2-3.3,2.6-5.5C4.4,12,2.8,10.1,2.8,6.6z M19.2,6.6c0-1,0.2-1.8,0.7-2.6c0.4-0.8,1-1.4,1.6-1.8
 		c0.6-0.5,1.3-0.9,2.1-1.1c0.8-0.3,1.5-0.4,2.2-0.4c2.4,0,4,0.6,4.8,1.8c0.8,1.2,1.2,2.9,1.2,5.1c0,2.7-0.5,5.1-1.5,7.1
 		c-1,2.1-2.3,3.8-3.7,5.3c-1.4,1.5-2.9,2.7-4.4,3.6c-1.5,0.9-2.7,1.5-3.7,1.8l-1.9-4c1.8-1,3.4-2.2,4.8-3.7c1.3-1.5,2.2-3.3,2.6-5.5
-		C20.8,12,19.2,10.1,19.2,6.6z"/> </g> 
+		C20.8,12,19.2,10.1,19.2,6.6z"/> </g>
     </symbol>
     <symbol id="search-tool" viewbox="0 0 14 14">
        <g> <path d="M9.5,9.1c0.9-0.9,1.4-2.2,1.4-3.6c0-3-2.4-5.4-5.4-5.4S0.2,2.5,0.2,5.5s2.4,5.4,5.4,5.4c1.1,0,2.2-0.4,3-0.9l3.8,3.8
 		c0.1,0.1,0.3,0.2,0.4,0.2c0.2,0,0.3-0.1,0.4-0.2c0.2-0.2,0.2-0.6,0-0.8L9.5,9.1z M5.6,9.6c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2
-		s4.2,1.9,4.2,4.2S7.9,9.6,5.6,9.6z"/> </g> 
+		s4.2,1.9,4.2,4.2S7.9,9.6,5.6,9.6z"/> </g>
     </symbol>
     <symbol id="share-icon" viewbox="0 0 16 16">
        <path d="M12.9,14.3c-3.3,0.8-5.6-1.2-5.6-3.3c0-2.1,2-3.5,4.2-3.5c2.2,0,4.2,1.5,4.2,3.5c0,0.7-0.3,1.4-0.7,2c0,0.6,0.4,1.6,0.7,2.2
 	C14.8,15,13.5,14.6,12.9,14.3z M6,10.9c0-2.7,2.5-4.8,5.5-4.8c0.6,0,1.1,0.1,1.6,0.2c0-3.1-3.1-5.4-6.5-5.4c-3.4,0-6.5,2.3-6.5,5.4
-	c0,1.1,0.4,2.2,1.1,3c0,1-0.6,2.4-1.1,3.4c1.4-0.3,3.4-0.8,4.3-1.4c0.5,0.1,1,0.2,1.5,0.2C6,11.4,6,11.2,6,10.9z"/> 
+	c0,1.1,0.4,2.2,1.1,3c0,1-0.6,2.4-1.1,3.4c1.4-0.3,3.4-0.8,4.3-1.4c0.5,0.1,1,0.2,1.5,0.2C6,11.4,6,11.2,6,10.9z"/>
     </symbol>
     <symbol id="social-facebook" viewbox="0 0 20 20">
-       <path d="M7.5,6.7H5.1V10h2.5v9.8h4.1V10h3l0.3-3.3h-3.3V5.3c0-0.8,0.2-1.1,0.9-1.1h2.4V0.2h-3.1c-2.9,0-4.3,1.3-4.3,3.8V6.7z"/> 
+       <path d="M7.5,6.7H5.1V10h2.5v9.8h4.1V10h3l0.3-3.3h-3.3V5.3c0-0.8,0.2-1.1,0.9-1.1h2.4V0.2h-3.1c-2.9,0-4.3,1.3-4.3,3.8V6.7z"/>
     </symbol>
     <symbol id="social-instagram" viewbox="0 0 24 24">
        <path d="M12,2.2c3.2,0,3.6,0,4.9,0.1c3.3,0.1,4.8,1.7,4.9,4.9c0.1,1.3,0.1,1.6,0.1,4.8c0,3.2,0,3.6-0.1,4.8
@@ -1389,17 +1389,17 @@ jQuery('.single div.blog-article-content a').each(function(e) {
 	C0,8.3,0,8.7,0,12s0,3.7,0.1,4.9c0.2,4.4,2.6,6.8,7,7C8.3,24,8.7,24,12,24s3.7,0,4.9-0.1c4.4-0.2,6.8-2.6,7-7C24,15.7,24,15.3,24,12
 	s0-3.7-0.1-4.9c-0.2-4.4-2.6-6.8-7-7C15.7,0,15.3,0,12,0z M12,5.8c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2
 	C18.2,8.6,15.4,5.8,12,5.8z M12,16c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C16,14.2,14.2,16,12,16z M18.4,4.2
-	c-0.8,0-1.4,0.6-1.4,1.4S17.6,7,18.4,7c0.8,0,1.4-0.6,1.4-1.4S19.2,4.2,18.4,4.2z"/> 
+	c-0.8,0-1.4,0.6-1.4,1.4S17.6,7,18.4,7c0.8,0,1.4-0.6,1.4-1.4S19.2,4.2,18.4,4.2z"/>
     </symbol>
     <symbol id="social-mail-01" viewbox="0 0 19 13">
        <path d="M0.4,0.9v11.3c0,0.4,0.3,0.7,0.6,0.7H18c0.3,0,0.6-0.3,0.6-0.7V0.9L9.9,9.4c-0.2,0.2-0.6,0.2-0.8,0L0.4,0.9z M1.4,0.1L9.5,8
-	l8.1-7.9H1.4z"/> 
+	l8.1-7.9H1.4z"/>
     </symbol>
     <symbol id="social-twitter" viewbox="0 0 20 20">
        <path d="M20,3.8c-0.7,0.3-1.5,0.5-2.4,0.6c0.8-0.5,1.5-1.3,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1c-0.7-0.8-1.8-1.3-3-1.3
 	c-2.6,0-4.6,2.5-4,5C6.4,6.7,3.4,5.1,1.4,2.6C0.3,4.5,0.8,6.9,2.7,8.1C2,8.1,1.4,7.9,0.8,7.6c0,1.9,1.3,3.7,3.3,4.1
 	c-0.6,0.2-1.2,0.2-1.9,0.1c0.5,1.6,2,2.8,3.8,2.8c-1.7,1.4-3.9,2-6.1,1.7c1.8,1.2,4,1.8,6.3,1.8c7.6,0,11.9-6.4,11.7-12.2
-	C18.8,5.3,19.5,4.6,20,3.8z"/> 
+	C18.8,5.3,19.5,4.6,20,3.8z"/>
     </symbol></svg></div>
 
 <script type="text/javascript">_satellite.pageBottom();</script>

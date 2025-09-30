@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -876,14 +876,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87gy9v001gaakrd4xap6f1@published"
-  
+
 >Humans have been trying and often failing to land robots on Mars since 1962. Four different space agencies from around the world have attempted this improbable feat 18 times. It’s happened successfully only eight times—remarkably, all by NASA. On Thursday, the American space agency will try for number nine, as the Perseverance rover attempts to gently settle onto the Red Planet.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="131"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ijxk000r3b6brd2brvru@published"
-  
+
 >Launched July 30, Perseverance carries an impressive array of instruments and technologies, including 23 cameras, three spectrometers, a radar mapper, and a weather station. My team at Arizona State University will be operating two of the most powerful of the rover’s cameras—a pair of mast-mounted, stereo, zoomable, multicolor digital imagers called Mastcam-Z. We’ll be using those cameras to reveal the geology, topography, and other properties of the landing site, and to help the mission engineers efficiently drive the rover and drill into specially selected rocks. (ASU is a partner with Slate and New America in Future Tense.) Also along for the ride are technology demonstration experiments designed to test the ability to fly a <a href="https://slate.com/technology/2021/02/mars-ingenuity-helicopter-perseverance-rover-landing-nasa.html">helicopter drone</a> (with two more cameras) on another planet and to extract oxygen from the thin, CO<sub>2</sub>-dominated Martian air.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -894,7 +894,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="128"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ijyp000s3b6be4ajrbbu@published"
-  
+
 >But what separates the Mini Cooper–size Perseverance rover from its doppelgänger Curiosity—the sibling NASA rover that landed back in 2012 and that has been mountain climbing and exploring Gale crater for more 3,000 Mars days now—is that for the first time ever, this is a round-trip journey, at least for a few precious parts of the rover. Perseverance carries 43 small sample tubes that are designed to be filled with scientifically meaningful rocks and dirt and air drilled or scooped up by the rover and then packaged and sealed for eventual return to Earth. That is, while we’ve seen Mars rocks and soils through the eyes of our robotic avatars for more than 40 years, we’re planning to be able to see <em>these </em>samples with our own eyes, eventually. This is a very big deal.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -973,14 +973,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="93"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ijzs000t3b6byglipeej@published"
-  
+
 >Although 47 robotic orbiters, landers, and rovers have been launched to Mars since 1960, none of them have yet brought anything back. In the 1970s the Soviet Union successfully returned rocks and soils from the Moon using its robotic Luna landers, and that robotic lunar sample return feat was recently repeated by the Chinese National Space Agency with its Chang’e-5 mission. But Mars is a lot farther away and a lot harder to land on. And perhaps most significantly, once landed, it is much more difficult to take off again, rendering a return to Earth extremely challenging.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="123"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik0w000u3b6bna25e0bz@published"
-  
+
 >The other science goals of the Perseverance<em> </em>rover aren’t too far afield from those of recent previous Mars rover missions: explore the geology and chemistry of an ancient lake and spectacularly preserved river delta in Jezero crater to search for signs of past habitability and perhaps even past (microbial) inhabitants; study the planet’s current weather and climate; test technologies that could be useful for future human exploration. But the overarching goal of returning carefully selected and comprehensively documented samples from that field site will dominate the way that the team of hundreds of NASA and university scientists, engineers, and students will guide the vehicle across the terrain and decide where to park and drill. The goal of bringing those samples back home overprints the entire mission.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1023,7 +1023,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="152"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik1x000v3b6b7bqj8xjp@published"
-  
+
 >But why do we need to bring samples back to Earth? The answer is based on what we know about Mars from decades of previous landers and rovers. Early in its history—some 3 billion to 4 billion years ago—Mars was a lot more like Earth. Today, the surface of the Red Planet is a hostile, bone-dry place where the air has only about 1 percent the pressure of Earth’s, where temperatures routinely swing between around 40 degrees F to -150 every day and night, and where it’s all bathed in harsh ultraviolet and higher-energy radiation from the sun and deep space. It makes Antarctica seem like a tropical wonderland in comparison. But we’ve learned from previous robotic missions that long ago, Mars was warmer and wetter, the atmosphere was thicker, there was a strong magnetic field that helped shield the surface from harsh radiation. The place was <em>habitable</em> for life as we know it.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1066,7 +1066,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="131"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik34000w3b6b7g8xe7gn@published"
-  
+
 >But was it <em>inhabited</em>? That’s the question that is driving Perseverance and other missions in NASA’s robotic solar system exploration program. We’ve also learned from past missions that the evidence for ancient life on Mars—if there was any, and if that evidence is preserved at all—is likely to be subtle. Faint chemical or mineral residues that could have biologic or nonbiologic origins. Subtle textural features in rocks or outcrops that could be consistent (or not) with the kinds of textures left behind by ancient early microorganisms on Earth, like stromatolites. Short of finding a bona fide macroscopic fossil—which is highly unlikely based on our understanding of how evidence of early life is preserved on our own planet—any evidence for ancient life on Mars is likely to be extremely hard to confirm with the instruments on the rover.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1108,7 +1108,7 @@ width="1560"
 <aside
   data-uri="slate.com/_components/in-article-recirc/instances/ckl87gy9v001haakr00cxprw3@published"
   class="in-article-recirc"
-  
+
   data-via="article-inline_recirc-section-technology"
 >
     <h1 class="in-article-recirc__header">
@@ -1120,25 +1120,25 @@ width="1560"
     <ol class="in-article-recirc__list">
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/children-health-hospitals-treatment-chronic-pain.html" class="in-article-recirc__link">
-                        
+
             They Had a Mysterious Illness. Someone Finally Told Them It Was Real—and There Was a Cure. They Got Something Very Different.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/gen-z-tiktok-alcoholics-anonymous-sobriety.html" class="in-article-recirc__link">
-                        
+
             How Gen Z Is Rewriting the Rules of Sobriety
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/charlie-kirk-shooting-video-dead-violence-social-media.html" class="in-article-recirc__link">
-                        
+
             The Charlie Kirk Video Was Inescapable Online. It’s Proof of Something Dark.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/hemmorhoids-phone-on-toilet-study.html" class="in-article-recirc__link">
-                        
+
             It Turns Out That Using Your Phone on the Toilet Could Leave You With a Pretty Painful Problem
           </a>
         </li>
@@ -1148,7 +1148,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="127"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik6n000x3b6b4xvstc2w@published"
-  
+
 >We need to bring samples back to Earth so that multiple sophisticated laboratories around the world can apply a barrage of techniques. They can thus attempt to tease out that evidence with much higher fidelity and with greater scientific and experimental rigor than is possible to do today on the surface of Mars, even with the most advanced robotic laboratories that we have. The mission of Perseverance to collect those samples is the first step, and the follow-on steps to gather them—to launch them off the surface, capture them in Mars orbit, and rocket them safely back to a landing on Earth perhaps within a decade—are actively being formulated by NASA and the European Space Agency. Perseverance is the first step in a much larger international Mars Sample Return mission.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1173,14 +1173,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="122"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik7r000y3b6btspwafuv@published"
-  
+
 >Indeed, the allure of the Red Planet and the potential clues it offers to the origin and evolution of life on our own world is so compelling that two more space agencies are joining the Mars explorers club just this month. The United Arab Emirates Hope orbiter and the Chinese National Space Agency’s Tianwen-1<em> </em>orbiter both successfully went into orbit around the planet last week, beginning what agencies hope will be multiyear missions focused on studying the surface and atmosphere in detail, and demonstrating those countries’ prowess in operating deep space robotic missions. And sometime this spring, the Chinese will also attempt to become the first nation beyond the U.S. to successfully land on the Red Planet, when Tianwen-1 deploys a lander and a rover to the surface.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="21"
   data-uri="slate.com/_components/slate-paragraph/instances/ckl87ik8z000z3b6b1coiob6c@published"
-  
+
 >The saga of searching for our origins by exploring other planets takes perseverance indeed, and the next exciting episode starts <span class="slate-paragraph--tombstone">Thursday.</span></p>
 
 <p class="future-tense-kicker" data-uri="slate.com/_components/future-tense-kicker/instances/ckl87gy9v001iaakrgbxvt26t@published" >
@@ -1266,7 +1266,7 @@ width="1560"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1301,7 +1301,7 @@ width="1560"
   class="slate-adnode"
   data-adnode="technology/future_tense"
   data-uri="slate.com/_components/slate-adnode/instances/ckl87gy8z0018aakrm09zm5m1@published"
-  
+
 ></div>
 
 <script
@@ -1352,7 +1352,7 @@ width="1560"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1377,7 +1377,7 @@ width="1560"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1887,7 +1887,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

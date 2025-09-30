@@ -110,7 +110,7 @@ This is where the Walmart analogy is useful: McMillon needed to let e-commerce s
 
 Nadella, similarly, needed to break up Windows and end Ballmer’s dreams of vertical domination so that the company could build a horizontal services business that, a few years later, could actually make Windows into a differentiated operating system that might, for the first time in years, actually drive new customer acquisition.
 
-* 
+*
 
 It’s also unclear how specifically TOPS are defined, as the precision of the calculations used for measurements makes a big difference. ↩︎ ( #rf1-12997 )
 

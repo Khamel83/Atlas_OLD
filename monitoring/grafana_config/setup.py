@@ -86,7 +86,7 @@ host = 127.0.0.1:3306
 name = grafana
 user = root
 password =
-url = 
+url =
 ssl_mode = disable
 
 [session]

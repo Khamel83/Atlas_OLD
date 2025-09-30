@@ -7,61 +7,61 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A couple of times recently, I have contrasted Bill Ackman’s old-school approach to managing a hedge fund — he’s a famous guy, he makes conce
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Inactive Man
   [1]
 
 
-    
-  
+
+
 
 A   couple of   times recently, I have contrasted Bill Ackman’s old-school approach to managing a hedge fund — he’s a famous guy, he makes concentrated high-conviction bets on stocks, he doesn’t hedge much — with the more scientific modern approach of multimanager multistrategy “pod shop” funds, which hire many portfolio managers to make distinct bets, hedging out factor exposure and isolating only their alpha, their skill, their excess returns that are not correlated to the broader market. I noted that the old-school approach seems to have become less popular with institutional investors, and that the pod shops have an advantage in raising money and   charging fees these days. Ackman’s simple legible approach, meanwhile, appeals to retail investors, and he’s out raising money from ordinary investors and offering lower fees.
 But I neglected to mention one incredibly important advantage of Ackman’s approach, which is that if you do it right, you don’t have to do much. Pick like 10 stocks that are going to go up, buy them all, and then chill. Oh, if the stocks go down, that creates a lot of work for you: You might have to sell them and buy other stocks (that will go up), you might have to reevaluate your process and rethink your life choices, maybe you have to fire an analyst and hire a new one, plus you are going to be spending a lot of time calling up your investors and reassuring them so they don’t withdraw their money.
@@ -78,37 +78,37 @@ That exceeds the returns for hedge funds including Citadel’s main Wellington s
 I mean, sure, right, the S&P 500 index was up 24.2% last year, and Pershing Square  owns basically a long-only portfolio of large-cap US stocks. It had better have been up 26.7%! Its investors got S&P 500 exposure with a little bit better performance. Meanwhile, Citadel and Millennium investors were paying more for somewhat lower returns that are less correlated to the stock market: That particular thing, uncorrelated returns, is an attractive product for many investors, and Citadel and Millennium work very hard to give them that. You have to pay for all that effort. You can pay a bit less for Ackman’s Zen repose. 
 Incidentally, these “best-paid” lists are   always a little debatable; they measure how much money these managers made, but that includes returns on their own money in their funds as well as fee income. Ackman made a lot of money last year because he bought stocks that went up. Decent way to do it!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Children’s Place
-    
-  
+
+
 
 We talked   last Thursday about a weird little acquisition of The Children’s Place Inc., a children’s apparel retailer with an equity market capitalization of $363 million as of last Friday. The Children’s Place got acquired last week in the simplest and yet most unusual possible way: Someone just went to the stock exchange and kept buying stock until they owned a majority of it. Then they sent the company a letter saying “hi we’re your new owners now.” It’s the way you would buy a public company if you had a lot of money and knew nothing about mergers and acquisitions. Just keep hitting the Buy button on your Robinhood app until you control the company.
 The buyer  is “the Al-Rajhi family, the founders of Saudi Arabia’s largest private bank,” through vehicles including Mithaq Capital SPC and the wonderfully named Snowball Compounding Ltd. Last Friday, Mithaq filed a Schedule 13D explaining their trades and plans. Apparently they own just over 7 million shares of The Children’s Place, or about 56.1% of the stock, and “are proud to be majority owners of the Issuer, are enthusiastic about its long-term prospects and look forward to helping it thrive and deliver top quality products to families.” They were  trading the stock starting at least in early January, but they bought and sold; they didn’t start accumulating it in earnest until about Feb. 7, and went from a small stake to a majority in five trading days.
@@ -127,11 +127,11 @@ By the way, I said last week, and again above, that this is a pretty unusual way
 For instance, in hostile M&A deals in the 1980s, the “street sweep” was a fairly common  takeover practice. This was a form of open-market buying to get a majority of the stock, though it’s a bit different from the approach with The Children’s Place in that it was typically done after a public takeover contest was announced. The idea is that you launch a tender offer or other hostile bid, and that attracts attention from merger arbitrageurs. The stock turns over: The normal long-term investors sell, and the arbitrageurs buy. Then a potential buyer goes out to the arbitrageurs and buys their stock from them directly, getting a big chunk of shares — perhaps a majority — without messing around with a tender offer. 
 But even the approach with The Children’s Place — buying in the open market without any public contest or negotiated purchases — has happened before. In particular, that is how Warren Buffett acquired control of Berkshire Hathaway Inc. in the 1960s: As he once put it, he was a smallish shareholder, but then the company “made me very mad, so I just started buying more stock”; eventually “I bought enough so we controlled the company, and we changed the management.” It’s entirely possible that that’s what just happened at The Children’s Place, too.
 
-  
-    
+
+
       Pre-capitalizations
-    
-  
+
+
 
 Meanwhile in more normal M&A, a common form of acquisition is the leveraged buyout (LBO) by a private equity firm: Some company puts itself up for auction, a few private equity firms bid, and one of them wins and buys the company. The buyer generally borrows a lot of the money needed to buy the company, with that borrowing coming either from bonds and loans underwritten by one or more big banks, or (more recently) from private credit lenders. Traditionally that lending business is a huge (though risky) source of revenue for the banks, who can make more on the fees from the financing than they do on mergers-and-acquisitions advisory fees.
 And so a certain amount of M&A structuring is built around banks’ desire to get financing fees. For instance, traditionally, the company selling itself will hire a bank as an adviser, and the potential buyers will each hire their own bank, who will advise them on the deal and also provide their financing (if they win the auction). But this means that the company’s bankers won’t get any financing fees, which is a bummer for them. So some deals come with “stapled financing,” in which the seller’s bankers offer to provide financing for the winning bidder: This perhaps  makes the auction more competitive, but it also means that the seller’s bankers have a chance to get financing fees.
@@ -143,11 +143,11 @@ The quest to win fees is driving some banks, including Bank of America, to pitch
 
 Presumably this makes the most sense for companies with private equity owners (who might shop them to new private equity owners), which already have LBO-ish capital structures that they just want to be portable.
 
-  
-    
+
+
       Shadow trading
-    
-  
+
+
 
 If you worked at Pfizer Inc. in 2021, and you got early notice of Pfizer’s successful clinical trial of Paxlovid, its Covid-19 treatment, you could have bought call options on Pfizer’s stock and made a lot of money when the results were announced and the stock went up. And then you would have gotten very arrested, because that’s illegal insider trading. And in fact a Pfizer employee allegedly did do that, and   got arrested.
 Or you could have bought call options on Royal Caribbean Cruise Ltd.’s stock and made a lot of money when the Paxlovid results were announced. Because Royal Caribbean’s stock did go up 8% that day. It was maybe not the most obvious thing in the world that Royal Caribbean would go up because Paxlovid worked, but nor was it all that surprising; if you were paying attention to the world, you could have had some thought process like “few businesses were hit harder by Covid than cruises, and a cure for Covid is going to make it easier for people to go back on cruise ships, so Royal Caribbean should go up a lot.” And you would have been right and made a lot of money.
@@ -163,11 +163,11 @@ I mean, on the one hand, that’s true, but on the other hand, imagine if the co
 I have said this before, but for years readers have emailed me with some variation on this idea. “If I have inside information about my company, can I trade our competitor’s stock, knowing that the news is probably good for them too?” My general thoughts on this question used to be (1) nothing here is ever legal advice, (2) the SEC wouldn’t like it and (3) the law is arguably a little unclear, since there are no real precedents. That state of affairs probably deterred at least some people from doing shadow trading: Why do something the SEC thinks is illegal, even if the law is unclear?
 But now the SEC has brought a case, which has the advantage and disadvantage that it might resolve the ambiguity. On the one hand, now you definitely know that the SEC doesn’t like shadow trading, which might be an additional deterrent. On the other hand, what if the SEC loses? What if the answer is “not legal advice, the SEC won’t like it, but courts say it’s allowed so there’s nothing the SEC can do about it”? I suspect that will mean much more shadow trading. 
 
-  
-    
+
+
       Rogue chatbot
-    
-  
+
+
 
 Oh,  robots:
 
@@ -182,15 +182,15 @@ Tribunal member Christopher Rivers, who decided the case in favor of Moffatt, ca
 The funny thing is that the chatbot is more human than Air Canada. Air Canada is a corporation, an emergent entity that is made up of people but that does things that people, left to themselves, would not do. The chatbot is a language model; it is in the business of saying the sorts of things that people plausibly might say. If you just woke up one day representing Air Canada in a customer-service chat, and the customer said “my grandmother died, can I book a full-fare flight and then request the bereavement fare later,” you would probably say “yes, I’m sorry for your loss, I’m sure I can take care of that for you.” Because you are a person! The chatbot is decent at predicting what people would do, and it accurately gave that answer. But that’s not Air Canada’s answer, because Air Canada is not a person.
 I   think sometimes about  Ted Chiang’s essay arguing that popular fears about runaway artificial intelligence are really about modern corporate capitalism, that modern corporations actually do what we worry superintelligent AIs might one day do. “Consider,” writes Chiang: “Who pursues their goals with monomaniacal focus, oblivious to the possibility of negative consequences? Who adopts a scorched-earth approach to increasing market share?” Here, the AI chatbot was benevolent and human; the corporation was not.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Capital One to   Buy Discover for $35 Billion in Year's Biggest Deal. Two   Rothschild Bank Clans Fight Over Clients, Power and the Family Name. The Secret  Oil-Trading Ring That Funds Russia’s War. Markets Start to Speculate If the   Next Fed Move Is Up, Not Down. Can the  SEC’s landmark reforms survive a Wall Street fightback?   Bitcoin Liquidity Shifts to the US as Spot ETFs Reshape Crypto Markets. Wall Street’s   Moelis Bet Big on the Middle East; Now He’s Cashing In. ‘The one thing I’ve always had is  deal flow’: RedBird’s Gerry Cardinale. Arkhouse Seeks Majority on   Macy’s Board After Rejected Takeover Bid. China’s Bold   Mortgage Rate Cut Met With Lukewarm Reaction. Bad  property debt exceeds reserves at largest US banks. Investors  shun riskiest US corporate bonds on default fears.  Megaprojects in the Desert Sap Saudi Arabia’s Cash. Billions Start Flowing to  Chip Makers for New U.S. Factories. OpenAI Quietly Deletes Ban on Using ChatGPT for “Military and Warfare.” Nvidia as  meme stock. Trump Hawks Gold,   Self-Branded $399 Sneaker as Legal Fees Mount. RIP  chocolate chip. Keynesian  lawn care.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Sorry. From the New York Magazine profile of Ackman last week: “Ackman believes that our lives are often fated from birth. ‘I have a view that people become their names,’ he told me. ‘Like, I’ve met people named Hamburger that own McDonald’s franchises.’ We’d been talking for nearly an hour and a half when Ackman asked me what my name was, hoping to offer a diagnosis. After he seemed momentarily stumped by my surname, I offered him my first name, which he misheard as Reed. ‘Read … write,’ he said, before turning back to himself. ‘So, my name is Ackman — it’s like Activist Man.’”
 
 
@@ -203,51 +203,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Form 4  has to be filed within two business days. Mithaq first became a Form 4 filer on Friday, Feb. 9, and filed its  first Form 4 after the close on Tuesday, Feb. 13, two business days later. Schedule 13D  has to be filed within five business days of crossing over 5%, which Mithaq also did on Feb. 9; it  filed its 13D after the close on Friday, Feb. 16, five business days later.
 
 
-  [5] Incidentally, a reader asked me if Mithaq was obligated to file a Hart-Scott-Rodino notification, and I think the answer is no? In general, if you’re buying a big stake in a US company, you need to  file an HSR notification with US antitrust regulators and wait about 30 days before completing the acquisition, which is one reason that M&A is normally done with merger agreements or tender offers rather than with the Buy button on Robinhood. But The Children’s Place is small enough that Mithaq could acquire a majority of the stock without hitting the  $119.5 million HSR threshold. 
+  [5] Incidentally, a reader asked me if Mithaq was obligated to file a Hart-Scott-Rodino notification, and I think the answer is no? In general, if you’re buying a big stake in a US company, you need to  file an HSR notification with US antitrust regulators and wait about 30 days before completing the acquisition, which is one reason that M&A is normally done with merger agreements or tender offers rather than with the Buy button on Robinhood. But The Children’s Place is small enough that Mithaq could acquire a majority of the stock without hitting the  $119.5 million HSR threshold.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -258,46 +258,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckhkot.5iln/a107f04b.gif" alt="" border="0" /></a>

@@ -13,13 +13,13 @@ Eight Sleep [ https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1
 There’s no product I’ve used more over the past couple of years than my Eight Sleep Pod Cover. If I’m lucky, I use it for a little more than a third of each day. When I do, I feel sharper, happier, and more ready to crank out 10,000+ words. 
 There’s also nothing more important to your performance than good sleep, something I learned the hard way after having kids. The Eight Sleep [ https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] Pod Cover has been a godsend on that front. I like to sleep cold, Puja likes to sleep hot, and before we got our Pod Cover, we constantly fought over the thermostat. Now, I set my temperature to -8, she sets hers to +3, and we both sleep happy. 
 And it keeps getting better. Eight Sleep [ https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] recently launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to one hour more of quality sleep every night. Wildly, the Pod 4 Ultra can detect when I’m snoring and automatically lift my side of the bed a few degrees to improve airflow and stop the snoring. Once they figure out how to get me to stop waking up to pee, I might sleep 12 hours a night… 
-Invest in better sleep. It pays dividends. Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best.  
+Invest in better sleep. It pays dividends. Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best. 
 Head to eightsleep.com/notboring [ https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and use code NOTBORING to get $350 off Pod 4 Ultra.
-Hi friends 👋 , 
+Hi friends 👋 ,
 Happy Tuesday and welcome to our Not Boring Fourth of July Spectacular. 🇺🇸
-It’s become popular, once again, to point out everything that’s wrong with America and speculate on the country’s decline. We’ll be fine, y’all. Great, even. 
-Because in America, we can all choose to make the country better and just do it. 
-Let’s get to it. 
+It’s become popular, once again, to point out everything that’s wrong with America and speculate on the country’s decline. We’ll be fine, y’all. Great, even.
+Because in America, we can all choose to make the country better and just do it.
+Let’s get to it.
 The American Millennium 
 If America is doing so poorly, why is America doing so well? 
 In June 2012, in the opening scene of The Newsroom, Jeff Daniels’ curmudgeonly newsman Will McAvoy is asked why America is the greatest country in the world. 
@@ -28,7 +28,7 @@ McAvoy goes on an all-time Sorkinian rant, rattling off statistics – we’re 7
 This was 2012. The statistics he listed haven’t moved much over the last twelve years, and since then, the country has gone through a series of descending political nadirs, the deepest of which may have been last Thursday’s Presidential Debate, which placed a tart cherry on top of the decline of trust in government institutions that Americans have reported for decades. 
 During and after the debate, thousands of people took to X to call the end of the American Empire. If these are the two people in the running to run the country, the logic goes, the country must be in bad shape. 
 Are McAvoy and the tweeters right? Is it over? 
-No. We will be fine. Great, even. 
+No. We will be fine. Great, even.
 First off, calling the end of the American Empire is a perpetual tradition. The Newsroom did it in 2012. Last night, as I was reading The Prize [ https://substack.com/redirect/13898dfd-ad68-4f7b-89a9-08366d367c0d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] before bed, I came across this 1980 headline [ https://substack.com/redirect/7a51918c-5f6d-41b1-8f68-2bd91cf2222c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] from Foreign Affairs:
 Oil prices had tripled in 1979 as OPEC flexed its dominant position. Iran, where Ayatollah Ruhollah Khomeini had returned from exile and toppled the America-friendly Shah, took American hostages. The West had become over reliant on the Middle East for the resource on which it had become so dependent. Things look bleak. And what happened? 
 OPEC overplayed its hand, setting high non-market prices despite warnings from the Saudi oil minister that doing so would lead to a crash as the forces of supply and demand took over. They did, and oil fell from its 1980 peak of $40/barrel to just over $10 in 1986. Meanwhile, the West got to work reducing its dependence on foreign oil, first with energy efficiency standards, and then with technology: growing government-supported R&D into renewables first, then fracking. The Soviet Union fell in 1991, making America more powerful a decade after that article than it was on the day it was written. Last year, the EIA announced that in 2023, the US had produced more crude oil than any country, ever. 
@@ -120,8 +120,8 @@ The American Empire isn’t over. It’s just beginning. This will be the Americ
 So go throw on your finest red, white, and blue, crack open a cold one, release a flock of Bald Eagles, and celebrate the Fourth of July in the greatest country the world has ever known. 
 Then get back to work. 
 God bless you, and God bless the United States of America.
-Thanks to Dan [ https://substack.com/redirect/8d60523f-f93b-452c-93bc-49eaa10a5d64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Claude [ https://substack.com/redirect/ec692185-a2b0-4353-ad9c-5e1fd51dd970?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing. 
-That’s all for today. Have a great 4th of July. We’ll be back in your inbox with a Weekly Dose on Friday. 
+Thanks to Dan [ https://substack.com/redirect/8d60523f-f93b-452c-93bc-49eaa10a5d64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Claude [ https://substack.com/redirect/ec692185-a2b0-4353-ad9c-5e1fd51dd970?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing.
+That’s all for today. Have a great 4th of July. We’ll be back in your inbox with a Weekly Dose on Friday.
 Thanks for reading,
 Packy
 

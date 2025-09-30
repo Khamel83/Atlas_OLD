@@ -205,7 +205,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h1 itemprop="headline" class="articleHeadline"><nyt_headline version="1.0" type=" ">Connie Britton Is a Late Bloomer</nyt_headline></h1>     <div class="articleSpanImage"><span itemprop="associatedMedia" itemscope itemid="http://graphics8.nytimes.com/images/2013/02/17/magazine/17britton1/mag-17Britton-t_CA0-articleLarge.jpg" itemtype="http://schema.org/ImageObject">
 <img src="http://web.archive.org/web/20130221003845im_/http://graphics8.nytimes.com/images/2013/02/17/magazine/17britton1/mag-17Britton-t_CA0-articleLarge.jpg" width="600" height="705" alt="" border="0" itemprop="url" itemid="http://graphics8.nytimes.com/images/2013/02/17/magazine/17britton1/mag-17Britton-t_CA0-articleLarge.jpg">
 <meta itemprop="identifier" content="http://graphics8.nytimes.com/images/2013/02/17/magazine/17britton1/mag-17Britton-t_CA0-articleLarge.jpg"/>
@@ -224,9 +224,9 @@ window.setTimeout(function() {
             articleSpanImage.style.filter = filter;
         }
     </script>
-<![endif]--> 
+<![endif]-->
 <nyt_byline>
-<h6 class="byline">By 
+<h6 class="byline">By
 <span itemprop="author" itemscope itemtype="http://schema.org/Person" itemid="http://topics.nytimes.com/top/reference/timestopics/people/d/susan_dominus/index.html">
 <a href="http://web.archive.org/web/20130221003845/http://topics.nytimes.com/top/reference/timestopics/people/d/susan_dominus/index.html" rel="author" title="More Articles by SUSAN DOMINUS"><span itemprop="name">SUSAN DOMINUS</span></a></span></h6>
 </nyt_byline>
@@ -246,12 +246,12 @@ window.setTimeout(function() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p itemprop="articleBody">
-Connie Britton got over it a long time ago, the part that got away. But it&rsquo;s a good story, and she still tells it with feeling: The year was 1995. Edward Burns, who had just directed her (and starred in) &ldquo;The Brothers McMullen,&rdquo; reached into his backpack one night over dinner and handed her a script that Cameron Crowe had sent him to read. Burns wasn&rsquo;t interested himself, wanting to act in his own films instead. But he thought Britton was perfect for the romantic lead.        </p> 
+Connie Britton got over it a long time ago, the part that got away. But it&rsquo;s a good story, and she still tells it with feeling: The year was 1995. Edward Burns, who had just directed her (and starred in) &ldquo;The Brothers McMullen,&rdquo; reached into his backpack one night over dinner and handed her a script that Cameron Crowe had sent him to read. Burns wasn&rsquo;t interested himself, wanting to act in his own films instead. But he thought Britton was perfect for the romantic lead.        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->  
-   
+
+<!--forceinline-->
+
 <div class="inlineImage module">
 <div class="image">
 <div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20130221003845/http://www.nytimes.com/imagepages/2013/02/17/magazine/17britton2.html','17britton2_html','width=434,height=630,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
@@ -268,7 +268,7 @@ Connie Britton got over it a long time ago, the part that got away. But it&rsquo
 <h6 class="credit">Craig Blankenhorn/ABC Photo Archives</h6>
 <p class="caption">âSpin City,â 1999.                            </p>
 </div>
-  
+
 </div>
 <div id="readerscomment" class="inlineLeft"></div>
 <div class="articleBody">
@@ -283,7 +283,7 @@ Britton, sipping a glass of water with mint leaves, was watching her son, Eyob, 
 <p>Editor: <a href="http://web.archive.org/web/20130221003845/mailto:vera@nytimes.com">Vera Titunik</a></p>	</div>
 </nyt_author_id><nyt_correction_bottom>	<div class="articleCorrection">
 <p><span class="italic">This article has been revised to reflect the following correction:</span></p><p><strong>Correction: February 17, 2013</strong></p><p><span class="italic"><p>An article on Page 20 this weekend about the actress Connie Britton, who starred in the television drama âFriday Night Lights,â misidentifies the season in which her character became a high-school principal. It was the programâs third season, not its first.</p>
-<p>Â </p></span></p>	
+<p>Â </p></span></p>
 </div>
 </nyt_correction_bottom><nyt_update_bottom>
 </nyt_update_bottom>
@@ -291,7 +291,7 @@ Britton, sipping a glass of water with mint leaves, was watching her son, Eyob, 
 </div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -305,7 +305,7 @@ Britton, sipping a glass of water with mint leaves, was watching her son, Eyob, 
 
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal articleShareToolsBottom" data-shares="facebook|,twitter|,google|,save,email,showall|Share" data-title="Connie Britton Is a Late Bloomer" data-url="http://web.archive.org/web/20130221003845oe_/http://www.nytimes.com/2013/02/17/magazine/connie-britton-is-a-late-bloomer.html" data-description="The 45-year-old known for her exemplary television marriage and amazing hair has built the rare career for an actress: one that gets better with age."></div>
 <meta name="emailThisHash" content="fgWfFP+d+IUGd0tvJpGBzA">
 </div>
@@ -325,14 +325,14 @@ Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066"
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div id="embeddedCommentsTileAd" class="hidden">
 
 </div>
 <div id="commentsContainer" class="commentsContainer singleRule"></div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra">
 <div class="column lastColumn">
@@ -454,7 +454,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
 
 <div class="bigAd" id="Box1">
 <div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=e84c2685/7a158318&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://theater.nytimes.com/2013/02/17/theater/edie-falcos-new-role-in-her-colleague-liz-flahives-play.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-PH%26WT.mc_ev=click%26WT.mc_c=208859" target="_blank"><img src="http://web.archive.org/web/20130221003845im_/http://graphics8.nytimes.com/ads/marketing/mm13/theater/1361292415524_us.jpg" alt="" border="0" height="154" width="334"></a> 
+  <a href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=e84c2685/7a158318&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://theater.nytimes.com/2013/02/17/theater/edie-falcos-new-role-in-her-colleague-liz-flahives-play.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-PH%26WT.mc_ev=click%26WT.mc_c=208859" target="_blank"><img src="http://web.archive.org/web/20130221003845im_/http://graphics8.nytimes.com/ads/marketing/mm13/theater/1361292415524_us.jpg" alt="" border="0" height="154" width="334"></a>
   <div style="padding:7px 9px 0;background:#fff">
     <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=e84c2685/7a158318&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://theater.nytimes.com/2013/02/17/theater/edie-falcos-new-role-in-her-colleague-liz-flahives-play.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-HDR%26WT.mc_ev=click%26WT.mc_c=208859">Edie Falco in "The Madrid," now playing at City Center</a></h2>
     <p style="margin:0 0 3px; padding:0;font-size: 11px;">
@@ -467,15 +467,15 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
       <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=e84c2685/7a158318&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://theater.nytimes.com/2013/02/19/theater/reviews/the-man-who-laughs-at-urban-stages.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-L2%26WT.mc_ev=click%26WT.mc_c=208859" style="color: #004276">"The Man Who Laughs," at Urban Stages</a></li>
     </ul>
   </div>
-  
-  
+
+
   <div style="padding:5px 9px; float:left; width:316px; background:#fff">
     <a style="float:left" href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=15d71454/d783833e&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://nytimes.com/%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-LOGO%26WT.mc_ev=click%26WT.mc_c=208859" target="_blank"><img src="http://web.archive.org/web/20130221003845im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
-    
+
     <a style="float:right" href="http://web.archive.org/web/20130221003845/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Box1&amp;sn2=585d7930/c4351de1&amp;sn1=15d71454/d783833e&amp;camp=nyt2013_module_motherhood_hp_ros_db&amp;ad=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213&amp;goto=http://nytimes.com/pages/theater/index.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M293b-ROS-0213-VRT%26WT.mc_ev=click%26WT.mc_c=208859" target="_blank"><img src="http://web.archive.org/web/20130221003845im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_theater.gif" alt="Theater" border="0" height="18" width="120"></a>
-    
+
   </div>
-  
+
   <br clear="all">
 </div>
 </div>
@@ -506,7 +506,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -528,8 +528,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -659,7 +659,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -692,8 +692,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20130221003845im_/http://up.nytimes.com/?d=0/15/&amp;t=6&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2013%2f02%2f17%2fmagazine%2fconnie%2dbritton%2dis%2da%2dlate%2dbloomer%2ehtml%3fhp%3d">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

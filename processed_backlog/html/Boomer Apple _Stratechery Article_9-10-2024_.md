@@ -7,8 +7,8 @@
 
 Apple is well and truly a services company; hardware is necessary but insufficient for future growth.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/boomer-apple/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2Jvb21lci1hcHBsZS8iXX0sImV4cCI6MTcyODU2NzMyMSwiaWF0IjoxNzI1OTc1MzIxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.OzuMMyC2OM6DOrwYdIv8hMOkhZgv0WliIVF17gRWOv7R7CZkUzR077mZbSAjebFFGehTVvemq1FVDtQ7IO0ou5H3-wcBOOaybuCoXYG26YyanmDvrZ3IgbEwlhRP-JwA4UXyCRRPJ7_d6JnkPe4g_2iBsaocj_gv5p07vP9u2aeSuT0Y6j4ZbEonSzdgKyZ6cC8djE90iPkhrjX-BPZl26nUXXGt_M0AOxvtdOYyWs72EdUsIAxlNlYnAMhHnnOT9tmc-D2wQ66OlVlXeqhvfNdUXiM8ZF9Cu1x1QFQCLVkrBGYUoZjImSdARYwXCvlFNnVBKP5syK0wsAZh9Yrorg)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -130,27 +130,27 @@ But I’m old, and so enamored of the companies of my youth that I ignored my ow
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyODU2NzMyMSwiaWF0IjoxNzI1OTc1MzIxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.FcNIlJSegWxiegibAl4m8X4LAyL3yxIjo57Jau8pUVMdEWMcwz97Uorsa17qexXIMKi2j-j-qi5VbRHkVDSgysDw11Uj5hpQDI0bmiP4hoH8wdIIbzMJowx1h8QvZOeOIToqfJrGfyaHZj8L-TmlV-m7pF_y8hVkmpBD5F4bJFeKyQjrONavtEDUUAAd4TJpHrAkOVrq4hdWp8M8LZNfn0YgIgOq14lWw1HqK8tRbYPOuu2er78_oq-VrNo4cK6dMhLeMCtXYrDld4qe8kK4rFuXaDXaZ33_zdISLjT_XcSBwctBlpprOpa0zEMongDge9cq3l0-noYigpPonpaWBQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyODU2NzMyMSwiaWF0IjoxNzI1OTc1MzIxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.FcNIlJSegWxiegibAl4m8X4LAyL3yxIjo57Jau8pUVMdEWMcwz97Uorsa17qexXIMKi2j-j-qi5VbRHkVDSgysDw11Uj5hpQDI0bmiP4hoH8wdIIbzMJowx1h8QvZOeOIToqfJrGfyaHZj8L-TmlV-m7pF_y8hVkmpBD5F4bJFeKyQjrONavtEDUUAAd4TJpHrAkOVrq4hdWp8M8LZNfn0YgIgOq14lWw1HqK8tRbYPOuu2er78_oq-VrNo4cK6dMhLeMCtXYrDld4qe8kK4rFuXaDXaZ33_zdISLjT_XcSBwctBlpprOpa0zEMongDge9cq3l0-noYigpPonpaWBQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*
-  
-  
+
+
 
 1. I am assuming 45% profit margins for the iPhone. Many iPhone models have reported gross profit margins of 50% or more, but those reports are based on the physical components of the phone, and do not include the attributed cost of software; therefore I am using 45% as a best guess to be conservative in terms of the following argument, but I would guess the true margin, including fully attributed R&D costs, is closer to 40%
 2. Although this can be worked around using services like [AirMessage](https://airmessage.org/)

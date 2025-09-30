@@ -11,7 +11,7 @@
 
 # MakerBot is replacing its most ill-fated 3D printing product
 
- / 
+ /
 
 ## A newer, (hopefully) better Smart Extruder
 
@@ -65,7 +65,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250126232818im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250126232818/http://theverge.com/)
 

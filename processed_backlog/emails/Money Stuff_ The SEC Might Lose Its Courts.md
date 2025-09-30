@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Tomorrow the US Supreme Court will hear arguments in a case about whether the US Securities and Exchange Commission can fine people without 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Tomorrow the US Supreme Court will hear arguments in a case about whether the US Securities and Exchange Commission can fine people without
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is the SEC unconstitutional?
-    
-  
+
+
 
 Tomorrow the US Supreme Court will hear arguments in a case about whether the US Securities and Exchange Commission can fine people without a jury trial. The SEC can bring “administrative proceedings” in its own in-house courts, in front of SEC employees called administrative law judges, rather than bringing them in regular courts. A lot of people think that this is unfair, and in the political and legal climate of 2023, arguments like “this administrative agency has too much power to regulate” go a lot further than they used to.
 And so a guy named George Jarkesy allegedly did some quite garden-variety fraud with   boiler-room   operator Thomas Belesis, and the SEC  brought an administrative case against him a decade ago, and he fought the case by arguing that the SEC should have to sue him in real court, and last year he won that argument in a federal appeals court in Texas. We   talked about it at the time. And now the SEC has taken it to the Supreme Court.
@@ -84,37 +84,37 @@ But if Jarkesy wins a total victory on the nondelegation argument, that’s diff
 I don’t think that’s necessarily a likely outcome here. The Supreme Court could rule against Jarkesy, or it could rule for him on the jury-trial stuff without bothering with the nondelegation argument, or it could rule for him on the nondelegation argument in a narrow way, saying that this particular delegation is not allowed without undercutting all of the SEC’s rules. Or it could rule against him on the nondelegation argument (saying that this is not a legislative decision, for instance) while ruling for him on the jury-trial stuff. In some ways that is the easiest outcome: The Supreme Court has several justices who would love to revive the nondelegation doctrine, but this is a somewhat silly case to do it in.
 But the Supreme Court does have several justices who would love to revive the nondelegation doctrine in a way that really would undermine most of securities regulation, and while this is a silly case to do it in, it is a case to do it in. You never know! Tomorrow could be a big day for the SEC.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI
-    
-  
+
+
 
 Yesterday   I wrote out a list of reasons that you might have updated your valuation of OpenAI over the past two weeks. You might, I argued, have business or governance or regulatory reasons to think that OpenAI is worth more than the $86 billion it was worth two weeks ago. Or you might have business or governance or regulatory reasons to think it is worth less. I also suggested that there might be technological, development-of-artificial-general-intelligence reasons it is worth more: The boardroom coup that led to Sam Altman’s brief firing seems to have been precipitated in part by OpenAI’s “powerful artificial intelligence discovery” that allowed it to build a model called Q* that “was able to solve math problems that it hadn’t seen before.” I wrote: “If you were willing to buy OpenAI stock at an $86 billion valuation as a bet that it would develop increasingly powerful AI models, evidence that it has in fact developed increasingly powerful AI models should cause you to increase your valuation.”
 In a footnote, I wrote that “for symmetry I want an answer like ‘less than $86 billion, for discovery of artificial general intelligence reasons,’ but I have trouble coming up with a good one.” Of course that was meant as a prompt to my readers. I got a few answers I want to share with you. One possibility, which I got first from Sam Tobin-Hochstadt:
@@ -125,11 +125,11 @@ One more, from another reader:
 OpenAI worth < $86B for tech reasons is definitely possible. It can solve a few math word problems and now the researchers think they have AGI? Who are these rubes?
 I mean that’s probably unfair but it’s also funny.
 
-  
-    
+
+
       Hector
-    
-  
+
+
 
 I can never resist  stories like this:
 
@@ -144,11 +144,11 @@ I used to be an investment banker working almost exclusively on the least profit
 
 Most of investment banking is, by its nature, unprofitable work: Mostly you pitch deals that won’t happen to clients who won’t hire you, and only occasionally do you do big lucrative deals for generous repeat clients. What a dream, for management to say “stop doing all the unprofitable work and just focus on the clients who pay us lots of money.” Of course for me, having none of those clients, that would have meant getting fired, but still. 
 
-  
-    
+
+
       FutureCoal
-    
-  
+
+
 
 We  talked a few months ago about a company called GreenSaif Pipelines Bidco, which is Saudi Aramco. I mean, it isn’t really; it’s a special purpose vehicle that owns some Saudi Aramco pipeline joint ventures and that sold some bonds to finance them. The bonds found their way into an index of environmental, social and governance investments, because technically they were not bonds issued by an oil or pipeline company (bad ESG) but by an investment company (good ESG, or at least neutral). Even though “Pipelines” is right in the name. But “Green” is in the name first. If you were an extremely careless ESG investor — and it is arguably rational to be an extremely careless ESG investor? — you might look at that name, see the word “Green,” stop reading before you got to “Pipelines,” and buy the bonds. I guess.
 Anyway  here’s coal:
@@ -158,23 +158,23 @@ The World Coal Association has rebranded itself as “FutureCoal: The Global All
 
 “Lowering of the global coal IQ” is a magnificent bit of marketing and I lost several points of (regular) IQ just by reading it. But presumably the point here is that some investors, activists, governments, etc., are going to see that name and read “The Global Alliance for Sustainable” and figure “ah well that’s good then” without getting to the word “Coal.” I suppose starting with “FutureCoal:” is a mistake? Really they should put that off as long as possible. Call it “FutureGreen: The Global Alliance for Responsible, Sustainable and Clean Energy Derived From Natural Resources Such As Our Favorite Resource, One You Might Have Heard of, It’s a Really Good One, You’re Not Going to Believe This, Get Ready, It’s Coal.” No one’s gonna read that far.
 
-  
-    
+
+
       Sauna arbitrage
-    
-  
+
+
 
 We   talked yesterday about a fat-finger error at a Nordic electric company that led to Finnish power prices being negative one day last week. I wrote: “Those prices seem to be … real? Like, to consumers? I think not literally negative to consumers, but quite cheap.” Several Finnish readers emailed to say, no, the prices really were negative to consumers, even after all fees, and you could make tens of euros by profligately wasting electricity that day. Each reader also added that they ran their saunas to make a profit.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman CEO Says Proposed Bank Rules Could Impact   Airfares, Pensions. JPMorgan vs Citi: the Wall Street fight to  bank New York’s top lawyers. UBS Chair Kelleher Warns Bubble Is Forming in   Private Credit. UBS chair aims for ‘bloodless coup’ with Sergio Ermotti succession. Wall Street Banks Are Poaching Goldman’s   AI Talent. Musk’s   Cybertruck Is Already a Production Nightmare for Tesla. Tesla’s   Cybertruck Will Test America’s Great Political Divide. China Scrambles to Contain a Looming  Shadow-Bank Meltdown. Gold Bars and Tokyo Apartments: How Money Is  Flowing Out of China. The human cost of  China’s property crisis. Deloitte and KPMG ask staff to  use burner phones for Hong Kong trips. Fraudulent   Pandemic Loans Cost UK £1.4 Billion and Counting.  Buybuy Baby Is Back—and Opening Stores Again. A Three-Year Cruise Is Canceled for  Lack of a Ship. Hedge Fund Chief Marshall Demands Share of   Treasure Found at Sea.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That column includes surely my all-time best disclosure-brag, if I do say so myself, about my wife arguing a nondelegation case in the Supreme Court while I hobnobbed with the chair of the SEC in the audience.
 
 
@@ -184,48 +184,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] There are important exceptions here, with private equity firms (and, on the trading side, a few big hedge funds) being known as demanding clients who are also generous fee payers.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -236,46 +236,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjyah5.63gw/92bc4c67.gif" alt="" border="0" /></a>

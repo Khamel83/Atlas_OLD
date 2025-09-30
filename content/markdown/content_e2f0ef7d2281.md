@@ -14,7 +14,7 @@
 
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 <script type='text/x-mathjax-config'>
 MathJax.Hub.Config({
   tex2jax: {
@@ -148,7 +148,7 @@ max-width: 350px;
 				padding: 0 13px;
 				white-space: nowrap;
 			}
-		
+
 </style>
 <link rel='stylesheet' id='cmplz-cookie-css' href='https://blog.givewell.org/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieconsent.min.css?ver=5.1.3' type='text/css' media='all' />
 <script type="text/javascript" src="https://blog.givewell.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
@@ -171,20 +171,20 @@ max-width: 350px;
 for (var t=0; t<document.links.length; t++) {
       var all_links = document.links[t];
       change_link = false;
-      
+
       if(document.links[t].hasAttribute('onClick') == false) {
         // forced if the address starts with http (or also https), but does not link to the current domain
         if(all_links.href.search(/^http/) != -1 && all_links.href.search('blog.givewell.org') == -1 && all_links.href.search(/^#/) == -1) {
           // console.log('Changed ' + all_links.href);
           change_link = true;
         }
-          
+
         if(force != '' && all_links.href.search(force) != -1) {
           // forced
           // console.log('force ' + all_links.href);
           change_link = true;
         }
-        
+
         if(ignore != '' && all_links.href.search(ignore) != -1) {
           // console.log('ignore ' + all_links.href);
           // ignored
@@ -199,10 +199,10 @@ if(change_link == true) {
       }
     }
   }
-  
+
   // Load
   function external_links_in_new_windows_load(func)
-  {  
+  {
     var oldonload = window.onload;
     if (typeof window.onload != 'function'){
       window.onload = func;
@@ -223,7 +223,7 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 .footnote_tooltip { font-size: 13px !important; background-color: #fff7a7 !important; border-width: 1px !important; border-style: solid !important; border-color: #cccc99 !important; border-radius: 3px !important; -webkit-box-shadow: 2px 2px 11px #666666; -moz-box-shadow: 2px 2px 11px #666666; box-shadow: 2px 2px 11px #666666;}
 .footnote_plugin_tooltip_text {
    vertical-align: baseline !important;
-    top: -.5em !important; 
+    top: -.5em !important;
 }
 
 .footnote_container_prepare > p  {
@@ -318,8 +318,8 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 
                     <div id="block-search-form" class="block block-search">
                         <div class="content">
-        
-  <form action="https://www.givewell.org/search/ss360"  method="get" id="ss360-searchbox-form">  
+
+  <form action="https://www.givewell.org/search/ss360"  method="get" id="ss360-searchbox-form">
     <div>
         <span class="btn-open"></span>
         <span class="search-arr"></span>
@@ -375,9 +375,9 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
                     <h1 class="title">The GiveWell Blog</h1>
                 </div>
 
-		
 
-			
+
+
 <article id="post-14240" class="content-single post-14240 post type-post status-publish format-standard hentry category-malaria-charity category-malaria-vaccine category-path category-world-health-organization">
 	<header class="entry-header">
 		<h1 class="entry-title">Why GiveWell funded the rollout of the malaria vaccine</h1>
@@ -432,19 +432,19 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 
 </article><!-- #post-## -->
 
-			
+
 <div id="comments" class="comments-area post-comments">
 
-	
+
 			<h3 class="comments-title">Comments</h3>
 
-		
+
 		<ul class="comment-list">
 				<li class="comment even thread-even depth-1" id="comment-963045">
 
 		<div id="div-comment-963045" class="comment-body">
-	
-	
+
+
 	<div class="comment-author">
     	<strong>Connie @ Naturesblendshop</strong> on <a href="https://blog.givewell.org/2023/05/12/why-givewell-funded-malaria-vaccine-rollout/#comment-963045">June 27, 2023 at 4:12 pm</a> said:
 	</div>
@@ -457,10 +457,10 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 	</li><!-- #comment-## -->
 		</ul><!-- .comment-list -->
 
-		
-	
+
+
 			<p class="no-comments">Comments are closed.</p>
-	
+
 <div class="comment-form">
     <div class="content-section">
         <div class="grid">
@@ -473,14 +473,14 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 
 
 </div><!-- #comments -->
-		
+
 
             	</main><!-- #main -->
             </div><!-- #primary -->
         </div>
 
         <div class="column col-aside desktop">
-            
+
 <div id="secondary" class="widget-area" role="complementary">
 
 <div class="social-icons">
@@ -492,9 +492,9 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 
 <aside id="recent-posts" class="block widget recent-posts">
         <h2 class="widget-title">Recent Blog Posts</h2>
-        <p>Want to stay updated on GiveWell's research? Read our blog or follow us by <a href="https://www.givewell.org/formstack/email-signup" target="_blank">email</a>, 
-        <a href="https://facebook.com/givewell.org" class="facebook" target="_blank" title="Facebook">Facebook</a>, 
-        <a href="https://twitter.com/GiveWell" class="twitter" target="_blank" title="Twitter">Twitter</a>, 
+        <p>Want to stay updated on GiveWell's research? Read our blog or follow us by <a href="https://www.givewell.org/formstack/email-signup" target="_blank">email</a>,
+        <a href="https://facebook.com/givewell.org" class="facebook" target="_blank" title="Facebook">Facebook</a>,
+        <a href="https://twitter.com/GiveWell" class="twitter" target="_blank" title="Twitter">Twitter</a>,
         or <a href="http://www.givewell.org/rss" class="rss" title="RSS">RSS</a>.</p>
         <ul>
                                         <li><a href="https://blog.givewell.org/2025/09/11/podcast-episode-11-a-frontline-view-of-foreign-aid-cuts-with-chais-ceo/">Podcast Episode 11: A Frontline View of Foreign Aid Cuts with CHAI&#8217;s CEO</a></li>
@@ -535,7 +535,7 @@ external_links_in_new_windows_load(external_links_in_new_windows_loop);
 <aside id="archives" class="block widget archives">
         <h2 class="widget-title">Archives</h2>
         <ul>
-            
+
                         <li class="accordion">
                             <a href="#" class="accordion-title">2025</a>
                             <div class="accordion-container">

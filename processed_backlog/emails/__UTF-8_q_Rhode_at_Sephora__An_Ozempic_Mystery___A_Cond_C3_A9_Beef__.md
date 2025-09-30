@@ -14,7 +14,7 @@ Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Shee
 
 Hi, and welcome back to Line Sheet. Another season of Couture is behind us.
 Chanel looked really good ( https://wwd.com/fashion-news/shows-reviews/gallery/chanel-spring-2025-couture-1236888697/chanel-spring-2025-couture-at-paris-fashion-week-6/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and I’m sorry if you disagree. (We can all agree on the goodness of Schiaparelli ( https://www.wmagazine.com/fashion/schiaparelli-couture-spring-2025-paris-runway-photos?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). The Valentino
-photo treatment ( https://wwd.com/fashion-news/shows-reviews/gallery/valentino-spring-2025-couture-1236892638/valentino-spring-2025-couture-5/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) was 👌.) Also: Congrats to Glenn Martens, who was finally named creative director of Maison Margiela, an appointment first flagged by me ( https://puck.news/newsletter_content/the-givenchy-news-a-16-million-polo-bar-east-alaias-moment-2/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) way back in September 2024. (As I’d also suggested previously 
+photo treatment ( https://wwd.com/fashion-news/shows-reviews/gallery/valentino-spring-2025-couture-1236892638/valentino-spring-2025-couture-5/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) was 👌.) Also: Congrats to Glenn Martens, who was finally named creative director of Maison Margiela, an appointment first flagged by me ( https://puck.news/newsletter_content/the-givenchy-news-a-16-million-polo-bar-east-alaias-moment-2/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) way back in September 2024. (As I’d also suggested previously
 ( https://puck.news/what-matthieu-blazys-appointment-means-for-chanel/?1738169541&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Martens will stay on as creative director of another OTB-owned label, Diesel.) Best of luck to him. 
 
  
@@ -29,7 +29,7 @@ Mentioned in this issue: Hailey Beiber, Rhode,
 Sephora, Selena Gomez, Rare Beauty, Ariana Grande, Kim Kardashian, Jens Grede, Skims, Anna Wintour, Tate McRae, Vogue, Claudia Schiffer, Matilda Djerf, Michael D. Ratner, Victoria’s Secret, Makeup by Mario, Glow Recipe, Manuel Arnaut, Ozempic, Coach, Prada, Saint Laurent, and many
 more…   
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -139,7 +139,7 @@ did just make $90 million in two months online, so someone must be searching for
 Anyway, come Thursday, don’t even think of calling Peptide Lip Shape a liner. A person close to the brand told me the brand does not consider this a liner, but rather a “contouring stick, but for lips.” Liner is supposed to contain the bleed—beauty speak for when lipstick unpleasantly migrates
 beyond the borders of your natural, un-lined lips—and Rhode’s version is meant to be used as a “shaper” to make lips more full. It’s also dual-ended and has a little silicone smudger to “diffuse” color or “tidy up the edges.” Rhode’s really sticking to this spiel, and I love it, but to be clear: This product’s main function is lip lining.
 
- 
+
 
 What
 Rachel’s Reading…
@@ -167,7 +167,7 @@ Fashion Week. [Vogue ( https://www.vogue.com/slideshow/tiffany-and-co-titan-phar
 
 Victoria Beckham Beauty has a new C.E.O. [WWD ( https://wwd.com/beauty-industry-news/beauty-features/victoria-beckham-beauty-new-ceo-1236883463/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… We have been alerted that Gap Inc. C.E.O. Richard
 Dickson was at… Davos. See, actions do speak louder than words! 
@@ -234,6 +234,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUtGaJRda5Ty2_lGr91ko=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

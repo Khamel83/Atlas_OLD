@@ -7,15 +7,15 @@
 
 # Up in the Trees
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Up in the Trees](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/manuelo-bececco-01.jpg)
 
-Up in the Trees  
-  
-Amongst much fine work on his website and Instagram, Manuelo Bececco’s photos of forest canopies are my favorites. And did you notice the crown shyness in the first photo?  
-  
-Crown shyness, a phenomenon where the leaves and branches of individual trees don’t touch those of other trees, forming gaps in the canopy.  
-  
-(via moss and fog) 
+Up in the Trees
+
+Amongst much fine work on his website and Instagram, Manuelo Bececco’s photos of forest canopies are my favorites. And did you notice the crown shyness in the first photo?
+
+Crown shyness, a phenomenon where the leaves and branches of individual trees don’t touch those of other trees, forming gaps in the canopy.
+
+(via moss and fog)
 

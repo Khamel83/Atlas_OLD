@@ -18,11 +18,11 @@ No membership fees.
 The lowest venture investment minimum ever offered. 
 Join America’s largest direct-access alternative asset manager and the more than 2 million people already using Fundrise [ https://substack.com/redirect/effd8427-0407-4607-ae96-673cbcb83922?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Hi friends 👋,
-Happy Tuesday! 
+Happy Tuesday!
 Recently, I’ve noticed a lot of chatter about degrowth, the idea that we need to stop growing, consume less, go back to the way things were. I think it’s one of the dumbest and most dangerous ideas there is, modern Malthusianism.
 To be clear: I do not think that we should, as Jane Goodall suggested, get rid of ~7 billion people to maybe save the planet. I think we should harness those peoples’ ideas and efforts to create abundance for even more people, all without harming the planet.
-We should celebrate our progress, not for technology’s sake, but because it’s taken the work of billions of people over millennia to get here. So today, we’ll do that. 
-Dan told me to make this one much shorter, but I kept it long and full of messy details to express just how complex and improbable progress is. 
+We should celebrate our progress, not for technology’s sake, but because it’s taken the work of billions of people over millennia to get here. So today, we’ll do that.
+Dan told me to make this one much shorter, but I kept it long and full of messy details to express just how complex and improbable progress is.
 Let’s get to it.
 I, Exponential
 “There is no reason to regret that I cannot finish the church. I will grow old but others will come after me. What must always be conserved is the spirit of the work, but its life has to depend on the generations it is handed down to and with whom it lives and is incarnated.”

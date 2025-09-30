@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One question people have asked is: Why didn’t Silicon Valley Bank hedge its interest-rate risk? SVB, like other regional banks, got a lot of
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Interest-rate hedging
-    
-  
+
+
 
 One question people have asked is: Why didn’t Silicon Valley Bank hedge its interest-rate risk? SVB, like other regional banks, got a lot of deposits and invested them in long-term US government and agency bonds with fixed interest rates. As interest rates went up, those bonds lost value, eating through all of SVB’s equity. This was bad, people noticed, they withdrew their deposits, and SVB ran out of money. This was all pretty predictable, or at least a known risk. Why didn’t SVB hedge?
 We have talked about a couple of answers to that question:
@@ -92,37 +92,37 @@ The firm confronted swelling paper losses on securities it owns and grappled wit
 
 It has $3.9 billion of swaps to  hedge $3.9 billion of available-for-sale securities, out of a total of about $141 billion of available-for-sale and $170 billion of held-to-maturity securities. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in banks and interest-rate risk
-    
-  
+
+
 
 We have   talked a few   times recently about two theories of banking, which I have boringly called Theory 1 and Theory 2. Theory 1 is a mark-to-market, legalistic approach: A bank uses short-term deposits to fund long-term assets, which makes it risky and fragile and particularly at risk from rising interest rates, which increase its cost of funding and decrease the value of its assets.
 Theory 2 is a traditional, relationship-driven approach: A bank has a “deposit franchise” of long-term loyal customers, which gives it long-term rate-insensitive funding to invest in long-term assets, and it is at risk from falling interest rates, which decrease the amount of net interest margin it can earn on its assets. The problem, I have suggested, is that banks (and regulators) have traditionally thought in a Theory 2 sort of way, and modern financial markets, and the Fed’s rapid interest-rate increases, seem to have put us in a Theory 1 world.
@@ -137,11 +137,11 @@ But they add an increased likelihood of interest-rate-driven deposit outflows, a
 The second reason for outflows is a run by uninsured depositors. Uninsured depositors have an incentive to run if the value of their claims exceeds the value of the bank if they do run. In standard models (Diamond and Dybvig, 1983) this is due to fire sales of the bank’s loans. There are no such fire sales in our model; the bank’s assets are fully liquid. Runs are instead due to the nature of the deposit franchise. When a deposit is withdrawn, the bank loses the stream of deposit spreads net of operating costs it would have earned on that deposit. In effect, the deposit franchise is subject to an extreme form of “fire sale”: its value is fully destroyed in a run. Moreover, since its value is increasing in interest rates, a run is more destructive – and hence more likely – at high interest rates.
 This is sort of what you saw in the recent bank runs: Regional banks had financial assets (loans, bonds) whose market value fell due to rising interest rates until it was slightly less than their liabilities. On traditional banking theory, that’s survivable: The deposit franchise is itself valuable, and the combined value of the financial assets and the deposit franchise ought to have exceeded the liabilities, so the banks were solvent and valuable. But in practice the value of the deposit franchise evaporated overnight, leaving only a pile of financial assets that had lost value, funded by a bunch of short-term loans that came due.
 
-  
-    
+
+
       Narrow banking/shadow banking
-    
-  
+
+
 
 Along these lines, I   wrote yesterday that the main risk of banking comes not from its assets (bonds, loans) but from its liabilities: If you fund your business with short-term loans (deposits) that can be withdrawn at any time, but you assume that your relationships with your lenders (depositors) are so good that they would never withdraw their money, you are liable to get in trouble. And we have talked about the possibility that, in a mark-to-market, no-relationships, Theory 1 sort of world, that funding model for banks wouldn’t work, or at least would become less popular. There is a set of ideas called “narrow banking” or the “Chicago plan,” in which:
 	Deposits would not be used to fund loans or other long-term assets, but would just be parked at the Federal Reserve: Banking would be fully reserved, bank accounts would just be dollars, and they would not be used to make loans.	Loans would be equity-funded: People who wanted to take credit (or interest-rate) risk would invest their money in funds, and the funds would make loans (or buy bonds). But the investors in those funds would not be information-insensitive bank depositors who expected access to their money at any time; they would be conscious risk-takers. They would know what they were getting into: They would lock up their money for a long time and understand that they were taking the risk of any loan losses. Loans would effectively come from loan mutual funds, not from banks.
@@ -161,11 +161,11 @@ Overall, the financial stability vulnerabilities posed by private credit funds a
 
 Are private credit funds making worse loans than banks are? Just the wrong question to ask! The right question is “can there be a run on private credit funds,” and the answer, so far, is “mostly no.”
 
-  
-    
+
+
       Active passive management
-    
-  
+
+
 
 Bloomberg’s Ye Xie and Liz McCormick have sort of   a funny profile of Josh Barrickman, who runs Vanguard Group Inc.’s Americas bond indexing business. You might think that the guy running $1 trillion of bond index funds would not have to make a lot of decisions — “just buy the index” — but in fact the way you run a bond index fund is not by buying all the bonds in the index: There are too many, and many of them don’t trade that much. Instead you buy a lot of the bonds in the index, try to get a representative sample, try to track the index, and end up making a lot of decisions. You are in some sense much less active than an active bond manager, but on the other hand you run $1 trillion and they don’t:
 
@@ -177,11 +177,11 @@ That means many of the decisions he makes, like which bonds to buy when trying t
 
 If you run $1 trillion of indexed bond money and capture one basis point a year with your active decisionmaking, that’s $100 million of alpha. 
 
-  
-    
+
+
       Shaq is hiding from an FTX lawsuit
-    
-  
+
+
 
 Sure   whatever:
 
@@ -192,70 +192,70 @@ O’Neal stood as a holdout among the group for not acknowledging receipt of the
 
 Seems like a blockchain could fix this.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 PacWest, Western Alliance Slide as   Regional Bank Stocks Fall.  Betting Against Banks Brings Reward and Backlash. Regional Banks Will   Cut Bonuses While Big Firms Raise Incentive Pay. US lenders warned that  commercial property is ‘next shoe to drop.’ Concern Over TD  Anti-Money-Laundering Practices Helped Scuttle First Horizon Deal. Goldman to Pay $215 Million to End Case on   Underpaying Women. UBS to   Overhaul Board After Credit Suisse Deal. “Zoltan Pozsar, a widely followed Credit Suisse  markets guru, has left the bank.” Tempur Sealy to   Buy Mattress Firm for About $4 Billion. The  Supreme Court Case That Could Threaten the SEC’s Climate-Disclosure Rule. High-Tech Banks Grapple With a Rise in Old-Fashioned Crime:  Check Fraud. Ireland to propose creation of  sovereign wealth fund. Sri Lanka’s Creditors Hold Inaugural Debt Meet as China Observes. Why  Flossbar/Medbar Failed & What We Learned Along the Way. FTX Founder Sam Bankman-Fried  Seeks Dismissal of Criminal Charges. JPMorgan Ordered to   Pay Javice's Lawyers While They Sue Her. Spotify ejects thousands of AI-made songs in  purge of fake streams.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Another way to make money would have been to take less duration risk and more credit risk: to make, say, floating-rate loans to businesses. But SVB’s customer base 
+
+  [1] Another way to make money would have been to take less duration risk and more credit risk: to make, say, floating-rate loans to businesses. But SVB’s customer base
 made that harder: In 2022, startups and VCs were flush with cash, so they parked a lot of deposits with SVB and didn’t need many loans. SVB couldn’t take credit risk to earn money, so it took duration risk.
 
 
-  [2] In super rough numbers, SVB’s portfolio had a duration of about 6 years, the 10-year Treasury rate went up by about 2 percentage points from early 2022 through early 2023, so its $120 billion portfolio lost $120bn x 6 x 2% = $14.4 billion or so of value. This is not really right, but it’s the rough intuition. 
+  [2] In super rough numbers, SVB’s portfolio had a duration of about 6 years, the 10-year Treasury rate went up by about 2 percentage points from early 2022 through early 2023, so its $120 billion portfolio lost $120bn x 6 x 2% = $14.4 billion or so of value. This is not really right, but it’s the rough intuition.
 
 
-  [3] See my fake math in the footnote above. Six years duration, $120bn notional, 0.25% move, $1.8 billion loss. 
+  [3] See my fake math in the footnote above. Six years duration, $120bn notional, 0.25% move, $1.8 billion loss.
 
 
-  [4] “ASC” stands for “Accounting Standards Codification,” and is the way the US Financial Accounting Standards Board codifies US generally accepted accounting principles. 
+  [4] “ASC” stands for “Accounting Standards Codification,” and is the way the US Financial Accounting Standards Board codifies US generally accepted accounting principles.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -266,46 +266,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciplk5.5n9o/e3758b4d.gif" alt="" border="0" /></a>

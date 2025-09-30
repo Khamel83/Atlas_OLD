@@ -11,7 +11,7 @@ by Jaimie Ding
 ·
 April 26, 2023
 
-![](https://ca-times.brightspotcdn.com/dims4/default/cd01c85/2147483647/strip/true/crop/230x228+0+0/resize/230x228!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe7%2Fc2%2Faf9b52504766a3cb8a9eba3a92bd%2Fb.jpg) 
+![](https://ca-times.brightspotcdn.com/dims4/default/cd01c85/2147483647/strip/true/crop/230x228+0+0/resize/230x228!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe7%2Fc2%2Faf9b52504766a3cb8a9eba3a92bd%2Fb.jpg)
 
 Brown hair, dark eyes, a little bit of scruff. Jackson looked charming in his baby-blue button-up tee and the fanny pack he wore slung across his chest.
 

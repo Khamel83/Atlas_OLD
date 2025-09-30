@@ -48,7 +48,7 @@ Growing trees, the living systems that pull CO2 out of the atmosphere while turn
 Instead of escaping into virtual worlds, at some point, we’ll be able to grow new ones. Imagine Dev’s kids dreaming up the ideal treehouse … and then growing it in their backyard. 
 To keep pulling on threads…
 Thanks to Dan [https://substack.com/redirect/ab9051bb-2304-4325-8b1b-15ef5fa08cf8?u=16283549] for editing!
-Have a great week, and see you back here on Thursday! 
+Have a great week, and see you back here on Thursday!
 Thanks for reading,
 Packy
 

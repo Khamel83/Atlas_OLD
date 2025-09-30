@@ -37,7 +37,7 @@ the majority of the country of that fact. More on all that below the fold.
 
 But first…
 
- 
+
 
 Back to Black
 -------------
@@ -201,6 +201,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Dry+Powder
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=dry_powder&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUgLAWShwgHAWrUF92om4=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

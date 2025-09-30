@@ -46,10 +46,10 @@ function OptanonWrapper() { }
 					<!-- SailThru -->
 			<meta name="sailthru.canonical" content="https://wtop.com/europe/2022/02/sweden-joins-others-in-announcing-end-of-virus-restrictions/"/>
 			<meta name="sailthru.date" content="2022-02-03 05:37:00"/>
-			
+
 					<meta name="sailthru.tags" content="Europe News,Health &amp; Fitness News,Lifestyle News,World News"/>
-			
-				
+
+
 								<meta name="sailthru.image.full" content="https://wtop.com/wp-content/uploads/2022/02/Virus_Outbreak_Sweden_83362-scaled.jpg"/>
 			<meta name="sailthru.image.thumb" content="https://wtop.com/wp-content/uploads/2022/02/Virus_Outbreak_Sweden_83362-150x150.jpg"/>
 				<!-- /SailThru -->
@@ -135,7 +135,7 @@ img.emoji {
 		'//web.archive.org/web/20231204225737/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-TZGJTC');</script>
 		<!-- End Google Tag Manager -->
-                            
+
 		 <!-- Google Analytics  -->
 		<!-- Old GA code - running concurrently with new GA4 -->
                 <script>
@@ -145,20 +145,20 @@ img.emoji {
 			})(window,document,'script','//web.archive.org/web/20231204225737/https://www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-23103174-10', 'auto', {'allowLinker': true });
- 
+
   			ga('require', 'linker');
   			ga('linker:autoLink', ['wtop.com','wtop.collegehoops.upickem.net']);
 					ga('set', 'dimension1', '');
 					ga('set', 'dimension2', '');
 					ga('send', 'pageview');
 		</script>
-                
+
                 <!-- Global site tag (gtag.js) - Google Analytics -->
 			<!-- This is GA4 -->
 			<script async src="http://web.archive.org/web/20231204225737js_/https://www.googletagmanager.com/gtag/js?id=G-7DGXB37KZH"></script>
 			<script>
 				window.dataLayer = window.dataLayer || [];
-				
+
 				window.dataLayer.push({
 					'author' : 'The Associated Press',
 					'primary_category' : 'Europe News'
@@ -168,7 +168,7 @@ ga('create', 'UA-23103174-10', 'auto', {'allowLinker': true });
 
 gtag('config', 'G-7DGXB37KZH');
 
-</script>           
+</script>
               <!-- //This is GA4 -->
 
 <!-- // Google Analytics -->
@@ -405,9 +405,9 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
                     <a href="http://web.archive.org/web/20231204225737/https://wtop.com/">
                         <img class="logo" src="http://web.archive.org/web/20231204225737im_/https://wtop.com/wp-content/themes/wtop-new/images/wtop-news-logo-new.png" alt="WTOP News" loading="lazy">
                     </a>
-                </div>   
+                </div>
             </div>
-           
+
             <div id="nav-search" class="nav-search-wrapper">
                 <nav class="primaryNav__container" align="center" data-class="nav">
 <!--                    <div class="primaryNav_mobile_bg" style="display: none"></div>-->
@@ -415,7 +415,7 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19811295"><a href="http://web.archive.org/web/20231204225737/https://wtop.com/traffic/" class="Nav-link">Traffic</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19811296"><a href="http://web.archive.org/web/20231204225737/https://wtop.com/weather/" class="Nav-link">Weather</a></li>
 </ul>                </nav>
-                
+
 <div class="search" data-class="search">
     <button class="search__icon" data-class="search-toggle" aria-label="Search">
         <i class="icon fa fa-search"></i>
@@ -443,7 +443,7 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
 
 </div><!-- end of class "container__inner" -->
 <!--        <iframe src="http://git.wtop.com/wp-content/themes/wtop-new/partials/header/listen-live.php" style="width:100%; height:45px;"></iframe>-->
-        
+
 <!-- Listen Live starts -->
 <div id="header-audio-player">
     <div class="inner left_container">
@@ -488,7 +488,7 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
     </section>
 </div>
 <!-- Listen Live ends -->
-    </div>    
+    </div>
 </header>
 
 <main class="page__single container">
@@ -509,9 +509,9 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
                                                     </center>
 
 </div>
-                                
+
                 <div class="single-header--byline-and-share">
-                    
+
       <div class="Entry-info single-header--byline">
                     <div class="page__single--header-inner">
               <div class="post__info">
@@ -574,8 +574,8 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
             <div id="Entry-content" class="entry-content Entry-content ">
                                                                     <div class="Before-content">
                                             </div>
-                
-                                
+
+
                 <p>STOCKHOLM (AP) — Sweden on Thursday joined other European nations in saying it will remove coronavirus restrictions.</p>
 <p>“It is time to open Sweden again,” said Prime Minister Magdalena Andersson, announcing the restrictions would be removed from Feb. 9.</p>
 <p>Among the measures and recommendations that will be lifted, Sweden will allow people to return to restaurants with no limitation on how many people can be there, how much space there should be or opening hours. Requirements for vaccine certificates and wearing face masks on public transportation will also be removed, as well as the recommendation to limit social contacts.</p>
@@ -585,15 +585,15 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
 <p>The reason for the Swedish move is similar to that in Denmark: Although there is an increase in infection rates, it is not burdening hospitals. High vaccination rates are also making the situation look more hopeful. Andersson said 80% of all Swedes over the age of 50 have now received three vaccine doses. </p>
 <p>___</p>
 <p>Follow AP’s pandemic coverage at https://apnews.com/hub/coronavirus-pandemic</p>
-                
+
                                     <p>Copyright
                         &copy;&nbsp;2023 The Associated Press. All rights reserved. This material may not be published, broadcast, written or redistributed.</p>
-                
+
                 <div class="after-content After-content">
                                     </div>
 
 </div>
-            
+
             <div class="lower-share-bar">
                 <div class="share-bar">
     <div class="share-bar__inner">
@@ -729,11 +729,11 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
                         |                                            <a href="http://web.archive.org/web/20231204225737/https://wtop.com/world/" class="related-categories-category">World News</a>
                                                             </div>
             </div>
-        
+
             </div>
 
 </div>
-            
+
                         <div id="below-single-article"></div>
 
 <div class="RevContent">
@@ -744,7 +744,7 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
         </div>
                     <!-- FNN Stories Widget -->
 <div class="fnn-stories-widget">
-    
+
 <div style="margin-top: 20px;padding-top:20px;border-top:2px solid #eee;">
     <img src="http://web.archive.org/web/20231204225737im_/https://wtop.com/wp-content/themes/wtop-new/images/fnn-logo.svg" style="max-width:250px;" alt="Federal News Network Logo"></img>
     <div class="row" id="fnn_widget_on_wtop_article" style="min-height:220px;"></div>
@@ -861,9 +861,9 @@ var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article"
                         </div>
                     </form>
                     <div class="subscribe__stepTwo" id="confirmation-message-sailthru-form-content-footer" aria-live="polite"><div class="image"><img src="http://web.archive.org/web/20231204225737im_/https://wtop.com/wp-content/themes/wtop-new/assets/img/loading.gif" loading="lazy"/> </div></div>
-                         
-                    
-                    
+
+
+
                 </div>
 
 <div class="socialMedia footer__aside">
@@ -985,7 +985,7 @@ var Sailthru_config = {"domain":"horizon.wtop.com"};
                         window.addEventListener("load", downloadComScoreAtOnload, false);
                     else if (window.attachEvent)
                         window.attachEvent("onload", downloadComScoreAtOnload);
-                    else window.onload = downloadComScoreAtOnload; 
+                    else window.onload = downloadComScoreAtOnload;
 		</script>
 		<noscript>
 		  <img src="//web.archive.org/web/20231204225737im_/https://b.scorecardresearch.com/p?c1=2&amp;c2=16067480&amp;cv=2.0&amp;cj=1"/>
@@ -1011,7 +1011,7 @@ _qevents.push({
                         window.addEventListener("load", downloadQuantcastAtOnload, false);
                     else if (window.attachEvent)
                         window.attachEvent("onload", downloadQuantcastAtOnload);
-                    else window.onload = downloadQuantcastAtOnload; 
+                    else window.onload = downloadQuantcastAtOnload;
 		</script>
 		<noscript>
 			<div style="display:none;">
@@ -1019,9 +1019,9 @@ _qevents.push({
 			</div>
 		</noscript>
 		<!-- /Quantcast -->
-		
-<div id="modalWtopLiveLogin">	
-    <div class="form">				
+
+<div id="modalWtopLiveLogin">
+    <div class="form">
         <div class="error-message text-left"></div>
         <div>
             Log in to your WTOP account for notifications and alerts customized for you.
@@ -1029,12 +1029,12 @@ _qevents.push({
         <form>
             <div class="group_field email_input_group">
                 <i class="fas fa-at"></i>
-                <input type="email" name="email" placeholder="Email" autocomplete="off">                                    
+                <input type="email" name="email" placeholder="Email" autocomplete="off">
             </div>
             <div class=" group_field password_input_group">
                 <i class="fas fa-key"></i>
-                <input type="password" name="password" placeholder="Password">                                    
-            </div>                                
+                <input type="password" name="password" placeholder="Password">
+            </div>
             <input type="submit" class="btn" value="LOGIN">
             <br/>
             <a href="http://web.archive.org/web/20231204225737/https://live.wtop.com/listen/register" target="_blank">Sign up</a>
@@ -1049,7 +1049,7 @@ _qevents.push({
             </button>
         </div>
         <div class="small-6 large-6 columns text-center">
-            <button class="view-profile show-as-link">            
+            <button class="view-profile show-as-link">
                 <i class="fas fa-user"></i> <span class="small-text">VIEW PROFILE</span>
             </button>
         </div>
@@ -1083,7 +1083,7 @@ _qevents.push({
         });
     });
 
-const observer = lozad('.wtop-lozad'); 
+const observer = lozad('.wtop-lozad');
     observer.observe();
 </script>
 </body>

@@ -226,7 +226,7 @@ And I really worry that this may accelerate these cultural divides that politics
 
 ***Update, March 18, 9:30am: This article has been updated to clarify that Blue Rose conducted ad testing for Future Forward, the largest superPAC supporting Kamala Harris.***
 
-See More: 
+See More:
 
 * [2024 Elections](/2024-elections)
 * [Donald Trump](/donald-trump)

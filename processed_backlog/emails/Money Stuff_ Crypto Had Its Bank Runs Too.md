@@ -7,60 +7,60 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One possibility is that fractional reserve banking is deeply rooted in human nature. People have money, they would like to keep it somewhere
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Crypto bank runs
-    
-  
 
-One possibility is that 
+
+
+One possibility is that
 fractional reserve banking is deeply rooted in human nature. People have money, they would like to keep it somewhere safe, they would like it to grow, they would like to be able to get it back at any time. Other people need money, they are willing to pay to borrow it, but they want it for a long time — they want to be able to use it to buy a house or build a business; they don’t want their lender to be able to demand the money back at any time. The savers and the borrowers just want different things. Why would anyone want to lock their money up for a long time? Why would anyone want to borrow money for an uncertain time?
 If you are an enterprising middleman, you can try to convince one side or the other to do something that doesn’t quite match their desires — “invest your money long-term, but if you need it back we can probably find a way to get it to you,” or “borrow short-term, but you can probably keep rolling your debt for a long time” — but it is easier and more appealing to just promise everyone exactly what they want. People who want to park their money give it to you and you promise to give it back whenever they want; people who want to borrow money borrow it from you and you tell them they can keep it for a long time; probably this all works out, but the mismatch is now your problem, not theirs. Of course it is also their problem, since if it doesn’t work out you are probably bankrupt. But you don’t tell them that it’s their problem. This is better marketing.
 This most obviously describes the “maturity transformation” function of traditional banking, “a superposition of fraud and genius that interposes itself between investors and entrepreneurs,” in  Steve Randy Waldman’s words. But it also describes a whole range of shadow banking activities, some of which are more genius and others of which are more fraud. We have talked about   Greensill Capital, which was in the business of using investor money to finance companies’ receivables: A company would sell a product to a buyer on credit and Greensill would advance it the cash against the bill. Companies said “well that’s fine but we’d rather get longer-term unsecured loans,” and Greensill was like “ah well we can call that a loan against future receivables,” and it had a classic business of telling its investors that they were lending short-term, telling its borrowers that they were borrowing long-term, and ending up in a lot of trouble.
@@ -107,37 +107,37 @@ Pepe was obsessively promoted on Twitter before and after its launch, and it pea
 
 Yep yep yep the printing press, absolutely.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tiger Global 
-    
-  
+
+
 
 In the startup boom of recent years, Tiger Global Management got a reputation for investing in every startup, moving fast, paying top dollar and not being too involved in governance. This always  struck me as sort of a clever differentiation. A  reasonable model of venture capital investing, particularly during a boom, is something like:
 	Most of the returns of venture investing come from a few big home-run deals, so the trick is to be in those.	Due diligence and careful deal selection don’t matter very much: Being in the handful of big home runs and losing 100% on a bunch of other deals is better than missing some home runs and avoiding most of the losers.	Valuation doesn’t matter very much: Overpaying for the handful of big home runs is better than missing them.	What matters is getting into all of the good deals, which means acquiring a reputation, with startup founders, for being easy to work with.	“Easy to work with” certainly means moving fast and paying top dollar.	Some VCs clearly think that it also means something like “bringing my expertise and wisdom to the board of directors,” but Tiger Global plausibly concluded that saying “nah, we don’t need a board seat, we trust you” and not calling startup founders to share their wisdom would actually be received pretty well.	Also, by moving fast, paying top dollar and not doing much diligence, Tiger Global got a lot of press — often quoting other VCs complaining about them — which probably inspired some startup founders to say “hey, actually these guys sound good, let’s call them.”
@@ -152,11 +152,11 @@ In 2022, Tiger’s flagship fund suffered its worst annual loss, losing more tha
 
 And here the reputation probably does not help? If you go to the secondary market with a bunch of startup stakes and a reputation for paying top dollar and not doing much due diligence, people are going to want a discount.
 
-  
-    
+
+
       CS AT1 CDS
-    
-  
+
+
 
 There were no credit default swaps on Credit Suisse Group AG’s additional tier 1 capital securities, I think for good reason. The purpose of the AT1s — we   talked about them in March — was to be written down to zero if Credit Suisse got in trouble; Credit Suisse did get in trouble, and the AT1s were accordingly written down to zero. The AT1s were meant to, and did, shift some of the risk of the bank’s failure from Swiss taxpayers to investors.
 The purposes of CDS are mostly (1) to help lenders and investors hedge their credit risk and (2) to allow speculators to bet against the credit of a company. The AT1s were supposed to be sold to people — large sophisticated asset managers, foreign high-net-worth investors — who voluntarily took on the risk of a Credit Suisse collapse, to put some of the tail risk of the banking system in the hands of people who could bear it. If they all hedged by buying CDS from a bank, that would defeat the purpose; you don’t want some other bank secretly holding all that risk. Meanwhile, you don’t necessarily want to encourage a market for people to speculate that a big global bank will fail and be taken over by the government; AT1 CDS for speculative purposes seems kind of dangerous.
@@ -178,20 +178,20 @@ Credit Suisse Group has a bond outstanding that is trading at around 65 cents on
 
 The way CDS works is, roughly, that if it is triggered then it pays out 100 cents on the dollar minus the current value of the underlying bonds. Usually that value is low (and CDS pays a lot), if the issuer has really gone bankrupt, or roughly 100 cents on the dollar (and CDS pays very little), if the issuer is fine but the CDS has been triggered for some weird technical reasons. Here the CDS has been triggered for some weird technical reason — these bonds are fine — but there is still potential for a real payout because they have lost value due to interest rates. We   talked a couple of weeks ago about people trading CDS on the US government. There, too, the bet is that a US debt default would trigger CDS, but that US bonds would be relatively unimpaired (because probably a debt-ceiling default would be cured quickly). But because interest rates have moved so much so quickly, long-term US government bonds — as well as Credit Suisse subordinated bonds — trade well below 100 cents on the dollar, so triggering CDS is valuable. 
 
-  
-    
+
+
       BlackRock
-    
-  
+
+
 
 Both the  Wall Street Journal and  Insider have stories on the race to succeed Larry Fink as chief executive officer of BlackRock Inc.; they have slightly different shortlists of potential successors. Insider also has  an org chart of “the 150 most powerful people under CEO Larry Fink as succession planning looms,” and one thing I enjoyed in the org chart is that the guy who seems to be in charge of investing the money — the head of the portfolio management group — is two levels below Fink. Fink has 12 direct reports, and one of those direct reports (President Rob Kapito) has 10 direct reports, and one of those direct reports is Rich Kushel, the head of portfolio management. A naive model of BlackRock is something like “BlackRock controls a pool of  $9 trillion and decides how to invest it,” but it is sort of striking how small a part of BlackRock’s business the deciding-where-to-invest-the-money part is. Raising the money, doing stewardship, building technology, lots of other things also seem to occupy a lot of time.
 Incidentally Kushel is on Insider’s, but not the Journal’s, list of potential successors. Investing the money is not necessarily the main thing that BlackRock does, but I suppose it is good preparation for running BlackRock.
 
-  
-    
+
+
       FTX taxes
-    
-  
+
+
 
 I feel like a pretty popular story of crypto exchange FTX Trading Inc. and its affiliated trading firm Alameda Research is something like “FTX and Alameda looked like extremely lucrative businesses, but really they weren’t; they were just propping themselves up by stealing tons of FTX customer money.” But the US Internal Revenue Service seems to have a very different take? At CoinDesk,  Tracy Wang reports:
 
@@ -201,71 +201,71 @@ Bankruptcy documents detailing the $20.4 billion claim against Alameda Research 
 
 I guess that  on Sam Bankman-Fried’s estimates Alameda peaked at about $100 billion of net asset value, so $20 billion would be a reasonable tax bill if that was all realized profits. On the other hand its current value is negative many billions of dollars; surely there is some offset. 
 
-  
-    
-      Things happen
-    
-  
 
-Greece’s ‘greatest turnround’: from  junk to investment grade. Microsoft’s $69 Billion 
-Activision Deal Wins EU Approval. Newmont Seals $19 Billion 
-Newcrest Takeover in Top Gold Deal. Twitter’s New CEO Says She’s ‘Excited’ to Transform Platform. 'It can't get much worse than this': A trail of portfolio managers have resigned or been liquidated as the once lush index-rebalance strategy dries up. Big Banks Face Billions in Extra  FDIC Fees After SVB Failure. Dip Buyers Scorched by  Cratering Bank Stocks Rush for the Exits. CEO Pay Packages Fell Sharply in 2022, the First Decline in a Decade. 
+
+      Things happen
+
+
+
+Greece’s ‘greatest turnround’: from  junk to investment grade. Microsoft’s $69 Billion
+Activision Deal Wins EU Approval. Newmont Seals $19 Billion
+Newcrest Takeover in Top Gold Deal. Twitter’s New CEO Says She’s ‘Excited’ to Transform Platform. 'It can't get much worse than this': A trail of portfolio managers have resigned or been liquidated as the once lush index-rebalance strategy dries up. Big Banks Face Billions in Extra  FDIC Fees After SVB Failure. Dip Buyers Scorched by  Cratering Bank Stocks Rush for the Exits. CEO Pay Packages Fell Sharply in 2022, the First Decline in a Decade.
 Jeffrey Epstein Keeps Haunting Wall Street Long After His Death. 
-Vice to Get New Owners as Media Darling Files for Bankruptcy. “To draw a larger pool of traders, the new futures contract represents  a truckload of two-by-fours delivered to Chicago, instead of a train-car full sent to the British Columbia interior.” 
+Vice to Get New Owners as Media Darling Files for Bankruptcy. “To draw a larger pool of traders, the new futures contract represents  a truckload of two-by-fours delivered to Chicago, instead of a train-car full sent to the British Columbia interior.”
 Business Lunches Are Back in New York, Chicago as Pandemic Fades. “The Lifestyle.” I’ll be waiting for you with my shotgun, Revolut executive  texts customer. “Unfortunately, the lack of generational wealth/seed capital from ethically bankrupt sources left me unable to weather the quiet winter season, or to grow in the ways needed to be sustainable longer-term.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The exception is that  some *employees* of crypto platforms kind of did treat the platforms that way.
 
 
-  [2] We have talked a   couple of   times about proposals to ban short sales of bank *stocks*. Bank-stock short selling makes people uncomfortable for some of the same reasons — speculation that a bank will collapse can become self-fulfilling, etc. — but there are lots of reasons to short stocks, including to hedge many other trades and to express a view on valuation; the reasons for buying naked CDS on AT1 securities are narrower. 
+  [2] We have talked a   couple of   times about proposals to ban short sales of bank *stocks*. Bank-stock short selling makes people uncomfortable for some of the same reasons — speculation that a bank will collapse can become self-fulfilling, etc. — but there are lots of reasons to short stocks, including to hedge many other trades and to express a view on valuation; the reasons for buying naked CDS on AT1 securities are narrower.
 
 
   [3] There are further complications, including one about holdco versus opco issuance that requires the use of a bond that matured in 2020, but never mind.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -276,46 +276,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciqwmz.5jet/659081ba.gif" alt="" border="0" /></a>

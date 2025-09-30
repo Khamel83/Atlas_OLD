@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/how-do-i-teach-these-kids
 
-Welcome to the 873 newly Not Boring people who have joined us since last Monday — I need to take breaks more often! If you haven’t subscribed, join 155,416 smart, curious folks by subscribing here: 
+Welcome to the 873 newly Not Boring people who have joined us since last Monday — I need to take breaks more often! If you haven’t subscribed, join 155,416 smart, curious folks by subscribing here:
 🎧  For the audio version, listen on Spotify [ https://substack.com/redirect/664b9af5-2cdb-46aa-9bf2-6343cae921d0?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/0376bd8f-5a40-42bc-96f4-dca88ac78d54?r=9p0gt ]
 Hi friends 👋, 
 Happy Monday! Big week here at Not Boring HQ: Friday was Puja and my 5th anniversary (Happy Anniversary Puj!), tomorrow is Dev’s 2nd birthday, and Thursday is Maya’s 2-month birthday. 
@@ -16,7 +16,7 @@ The question is: how the hell are you supposed to educate a kid today? 
 Dev and Maya get a blank educational slate to start with. Puja and I are responsible for figuring out how to give them the best education possible, one that helps them love learning, have fun, and get prepared for life beyond school. I don’t think the answer is as simple as “Get them into the best schools possible.” I think it’s a lot more complicated than that, and will only get more complicated as things move faster. 
 This isn’t meant to be a complete survey and analysis of the modern educational system, it’s more of an exploration of how I’m thinking about it personally in the very specific context of Dev and Maya’s education. What’s the best way to prepare my two kids? 
 And I don’t have the answers – there’s probably no “right” answer. Instead, this is meant to start a conversation, and selfishly, to give me some more direction as I think through it. I’d love to hear your thoughts, jump in here: 
-Let’s get to it. 
+Let’s get to it.
 How Do I Teach These Kids?!
 Now that we have kids, my most important job is raising them. I want them to be happy and kind and smart and creative and hard-working and a little devilish. I remember walking around holding Dev when he was really little and telling him those things, listing the qualities I wanted to instill in him as if he could absorb the words and make them so. In reality, it’s a lot harder than that. 
 A timely example. Last night, after we had our family over to celebrate his birthday, I gave him a bath, put him in his pajamas, and started reading him a book, Goodnight, Goodnight Construction Site [ https://substack.com/redirect/587a0ef8-165f-4851-b9fe-d708f6707e6e?r=9p0gt ] to be exact. As we were finishing – “Great work today! Now…shh…goodnight!” – my mind was already on getting back to work and finishing this piece. I was tired, and starting back up after a long day was already daunting enough. When he asked, “Can we read one more book please?” I started to shake my head no, tell him it was time to go to sleep, that dad had to work… and then I remembered what I was about to go work on: an essay about educating him and his sister. The hypocrisy was too thick. We read another book. 
@@ -57,9 +57,9 @@ That doesn’t mean that there shouldn’t be rules, or that we should teach the
 On a recent Lunar Society podcast episode [ https://substack.com/redirect/2f02832a-8125-44d1-baf0-7af1dafb3328?r=9p0gt ], Dwarkesh Patel asked Tyler Cowen if we should just let high schoolers go wild and educate themselves without structure, and Cowen’s response seems instructive for designing educational systems in a world in which kids can write essays with AI: 
 “I think they need some structure, but you have to let them rebel against it, and do their own thing also.” 
 To read the rest of the piece, including thoughts from Patrick Collison, Erik Hoel, and Emad Mostaque and the 10 things I’m going to focus on:
-Thanks to Dan [ https://substack.com/redirect/98d0fa2c-0ae5-4f8f-9d13-09ec84991f08?r=9p0gt ] and Puja [ https://substack.com/redirect/fd6edcd7-40ac-4c11-82f8-fcc32d2bc226?r=9p0gt ] for reading and editing! 
-That’s all for today. See you back here Friday for your Weekly Dose of Optimism. Have a great week. 
-Thanks for reading, 
+Thanks to Dan [ https://substack.com/redirect/98d0fa2c-0ae5-4f8f-9d13-09ec84991f08?r=9p0gt ] and Puja [ https://substack.com/redirect/fd6edcd7-40ac-4c11-82f8-fcc32d2bc226?r=9p0gt ] for reading and editing!
+That’s all for today. See you back here Friday for your Weekly Dose of Optimism. Have a great week.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOell5TlRJME1qa3NJbWxoZENJNk1UWTJORGd3TVRVME15d2laWGh3SWpveE5qWTNNemt6TlRRekxDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuOEZXZVpGM2cwbm9xMVM1TVdYYjVxdklDQ1BOQ0Y4Q3dYQ2dXcnZMOERoayIsInAiOjc2MjUyNDI5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.XG5S_88XQNIG24j0qTVNbaNlCzYftkcFxcTiNkSz948?

@@ -12,7 +12,7 @@
 ### Basic Shortcuts
 
 - **capture_thought.shortcut** - Quickly capture any thought or note
-- **log_meal.shortcut** - Log meals with photos and descriptions  
+- **log_meal.shortcut** - Log meals with photos and descriptions
 - **log_mood.shortcut** - Track mood and energy levels
 - **start_focus.shortcut** - Begin focused work sessions
 
@@ -36,7 +36,7 @@ Each shortcut needs to know your Atlas server address:
 
 1. Open the Shortcuts app
 2. Find the Atlas shortcut
-3. Tap "Edit" 
+3. Tap "Edit"
 4. Look for the "Text" action with "http://localhost:8000"
 5. Replace with your Atlas server URL if different
 
@@ -74,7 +74,7 @@ After installation, you can use:
 ## Next Steps
 
 1. **Customize shortcuts** for your workflow
-2. **Add to Home Screen** for quick access  
+2. **Add to Home Screen** for quick access
 3. **Set up automation triggers** for routine captures
 4. **Explore the Atlas dashboard** to see your captured content
 

@@ -7,7 +7,7 @@
 
 # 404 Page Not Found
 
-Unknown author • August 20, 2010 
+Unknown author • August 20, 2010
 
 ![404 Page Not Found]()
 

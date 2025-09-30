@@ -23,12 +23,12 @@
     <title data-rh="true">Could an Ex-Convict Become an Attorney? I Intended to Find Out - The New York Times</title>
     <meta data-rh="true" name="robots" content="max-image-preview:large"/><meta data-rh="true" name="robots" content="noarchive"/><meta data-rh="true" name="description" content="After serving time for a crime I committed at 16, I discovered how hard it is for a felon to get a second chance."/><meta data-rh="true" property="og:url" content="http://web.archive.org/web/20211230230233/https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Could an Ex-Convict Become an Attorney? I Intended to Find Out (Published 2018)"/><meta data-rh="true" property="og:image" content="http://web.archive.org/web/20211230230233im_/https://static01.nyt.com/images/2018/10/21/magazine/21GettingOut2/21GettingOut2-facebookJumbo.png?year=2018&amp;h=550&amp;w=1050&amp;s=e807d70197ec855646736c7bab55094873d858efeffde31d70c08ed396ef785b&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="After serving time for a crime I committed at 16, I discovered how hard it is for a felon to get a second chance."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><meta data-rh="true" property="twitter:title" content="Could an Ex-Convict Become an Attorney? I Intended to Find Out (Published 2018)"/><meta data-rh="true" property="twitter:description" content="After serving time for a crime I committed at 16, I discovered how hard it is for a felon to get a second chance."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2018/10/21/magazine/21GettingOut2/21GettingOut2-videoSixteenByNineJumbo1600.png?year=2018&amp;h=768&amp;w=1366&amp;s=45532d8cfce7b4238742ef7c28768e35c6f2b1acc098a9341dbe2d9f0b449185&amp;k=ZQJBKqZ0VN&amp;tw=1"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/> <link data-rh="true" rel="canonical" href="http://web.archive.org/web/20211230230233/https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><link data-rh="true" rel="alternate" href="http://web.archive.org/web/20211230230233/nyt://article/4969a382-f0f6-5c68-9d67-86db133ef01a"/><link data-rh="true" rel="amphtml" href="http://web.archive.org/web/20211230230233/https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.amp.html"/><link data-rh="true" rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20211230230233/https://www.nytimes.com/svc/oembed/json/?url=https%3A%2F%2Fwww.nytimes.com%2F2018%2F10%2F16%2Fmagazine%2Ffelon-attorney-crime-yale-law.html" title="Could an Ex-Convict Become an Attorney? I Intended to Find Out"/> <script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"NewsArticle","description":"After serving time for a crime I committed at 16, I discovered how hard it is for a felon to get a second chance.","image":[{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211230230233/https://static01.nyt.com/images/2018/10/21/magazine/21GettingOut2/21GettingOut2-videoSixteenByNineJumbo1600.png","height":768,"width":1366},{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211230230233/https://static01.nyt.com/images/2018/10/21/magazine/21GettingOut2/21GettingOut2-superJumbo.png","height":2048,"width":1366}],"mainEntityOfPage":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html","url":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html","author":[{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"Person","url":"","name":"Reginald Dwayne Betts"}],"dateModified":"2020-06-14T13:55:49.000Z","datePublished":"2018-10-16T09:00:10.000Z","headline":"Could an Ex-Convict Become an Attorney? I Intended to Find Out","audio":[{"@id":"http://web.archive.org/web/20211230230233/https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/b2bdc7e7-11f6-4871-920b-50f9b847e64e/audio/128/default.mp3?awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=b2bdc7e7-11f6-4871-920b-50f9b847e64e"}],"publisher":{"@id":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/#publisher"},"copyrightHolder":{"@id":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/#publisher"},"sourceOrganization":{"@id":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/#publisher"},"copyrightYear":2021,"isAccessibleForFree":false,"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"}}</script><script data-rh="true" type="application/ld+json">{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"http://web.archive.org/web/20211230230233/http://schema.org","@type":"ImageObject","url":"http://web.archive.org/web/20211230230233/https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png","height":40,"width":250},"url":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/","@id":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/#publisher","diversityPolicy":"http://web.archive.org/web/20211230230233/https://www.nytco.com/diversity-and-inclusion-at-the-new-york-times/","ethicsPolicy":"http://web.archive.org/web/20211230230233/https://www.nytco.com/who-we-are/culture/standards-and-ethics/","masthead":"http://web.archive.org/web/20211230230233/https://www.nytimes.com/interactive/2020/09/08/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"http://web.archive.org/web/20211230230233/https://en.wikipedia.org/wiki/The_New_York_Times"}</script>
     <meta data-rh="true" property="article:published_time" content="2018-10-16T09:00:10.000Z"/><meta data-rh="true" property="article:modified_time" content="2020-06-14T13:55:49.000Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000006159444"/><meta data-rh="true" name="nyt_uri" content="nyt://article/4969a382-f0f6-5c68-9d67-86db133ef01a"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/a31c712c5ebc49488c43e5c9bfae25cc"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2018/10/21/magazine/21GettingOut2/21GettingOut2-facebookJumbo.png?year=2018&amp;h=550&amp;w=1050&amp;s=e807d70197ec855646736c7bab55094873d858efeffde31d70c08ed396ef785b&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" name="byl" content="By Reginald Dwayne Betts"/><meta data-rh="true" name="news_keywords" content="Ex Cons,Black People;African-Americans;Black Culture and History,Lawyers,Yale,Law school,Legislation,American Bar Association,Criminal Sentence,,"/><meta data-rh="true" name="pdate" content="20181016"/><meta data-rh="true" property="article:section" content="Magazine"/><meta data-rh="true" property="article:tag" content="Ex-Convicts"/><meta data-rh="true" property="article:tag" content="Blacks"/><meta data-rh="true" property="article:tag" content="Legal Profession"/><meta data-rh="true" property="article:tag" content="Yale University"/><meta data-rh="true" property="article:tag" content="Law Schools"/><meta data-rh="true" property="article:tag" content="Law and Legislation"/><meta data-rh="true" property="article:tag" content="American Bar Assn"/><meta data-rh="true" property="article:tag" content="Sentences (Criminal)"/><meta data-rh="true" property="article:tag" content="Narrated"/><meta data-rh="true" property="article:tag" content="The Sunday Read"/><meta data-rh="true" property="article:opinion" content="false"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="magazine"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content="the-sunday-read"/><meta data-rh="true" name="CT" content="spotlight"/><meta data-rh="true" name="PT" content="article"/><meta data-rh="true" name="PST" content="News"/><meta data-rh="true" name="url" content="https://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><meta data-rh="true" name="msapplication-starturl" content="https://www.nytimes.com"/><meta data-rh="true" property="al:android:url" content="nyt://article/4969a382-f0f6-5c68-9d67-86db133ef01a"/><meta data-rh="true" property="al:android:package" content="com.nytimes.android"/><meta data-rh="true" property="al:android:app_name" content="NYTimes"/><meta data-rh="true" name="twitter:app:name:googleplay" content="NYTimes"/><meta data-rh="true" name="twitter:app:id:googleplay" content="com.nytimes.android"/><meta data-rh="true" name="twitter:app:url:googleplay" content="nyt://article/4969a382-f0f6-5c68-9d67-86db133ef01a"/><meta data-rh="true" property="al:iphone:url" content="nytimes://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><meta data-rh="true" property="al:iphone:app_store_id" content="284862083"/><meta data-rh="true" property="al:iphone:app_name" content="NYTimes"/><meta data-rh="true" property="al:ipad:url" content="nytimes://www.nytimes.com/2018/10/16/magazine/felon-attorney-crime-yale-law.html"/><meta data-rh="true" property="al:ipad:app_store_id" content="357066198"/><meta data-rh="true" property="al:ipad:app_name" content="NYTimes"/>
-    
+
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta property="fb:app_id" content="9869919170"/>
 <meta name="twitter:site" content="@nytimes"/>
 <meta name="slack-app-id" content="A0121HXPPTQ"/>
-    
+
     <script>
       const override = (new URL(window.location)).searchParams.get('sentryOverride');
       if (override || Math.floor(Math.random() * 100) <= 1) {
@@ -36,7 +36,7 @@
       }
     </script>
     <script>
-      
+
       if (window.Sentry) {
         window.Sentry.onLoad(function() {
           window.Sentry.init({
@@ -46,7 +46,7 @@
             beforeSend: function(e, v) {
               if (/amazon-adsystem|ads-us|ampproject|amp4ads|pubads|2mdn|chartbeat|gsi|bk_addPageCtx|yimg|BOOMR|boomerang/.test(v.originalException && v.originalException.stack || '')) return null;
               return e;
-            }  
+            }
           });
         });
       }
@@ -141,7 +141,7 @@ return UnifiedTracking;
     }
   }
 </script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   function placeGpt() {
     var purrCookie = testCookie('nyt-purr');
     if (purrCookie && purrCookie.substring(10, 11) === 's') return;
@@ -153,7 +153,7 @@ return UnifiedTracking;
   placeGpt();
 
 }</script><script data-rh="true">if (window.NYTD && window.NYTD.Abra && window.NYTD.Abra('dfp_story_toggle') !== '1_block') {
-    
+
   var purrCookie = testCookie('nyt-purr');
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
@@ -200,7 +200,7 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
 <script defer src="/web/20211230230233js_/https://www.nytimes.com/vi-assets/static-assets/headerfullbleedvertical-a7565ca628d7dc0cec9e.js"></script>
     <script defer src="/web/20211230230233js_/https://www.nytimes.com/vi-assets/static-assets/main-a1d23c9320ebd0c4ca0d.js"></script>
     <script>(function () { var _f=function(){try{var e=["first-paint","first-contentful-paint","userBtnRender","appRenderTime"];new window.PerformanceObserver(function(r){for(var n=r.getEntries(),a=0;a<n.length;a+=1){var t=n[a];if(e.indexOf(t.name)>-1){var i={};i[t.name]=Math.round(t.duration||t.startTime),(window.dataLayer=window.dataLayer||[]).push({event:"performance",pageview:{performance:i}})}}}).observe({entryTypes:["mark","measure","paint"]})}catch(e){}};;_f.apply(null, []); })();(function () { var _f=function(){!function(){if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url="http://web.archive.org/web/20211230230233/https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239";var e=(document.currentScript||document.getElementsByTagName("script")[0]).parentNode,n=!1,t=document.createElement("link");t.relList&&"function"==typeof t.relList.supports&&t.relList.supports("preload")&&"as"in t?(window.BOOMR.snippetMethod="p",t.href=window.BOOMR.url,t.rel="preload",t.as="script",t.addEventListener("load",function(){if(!n){var t=document.createElement("script");t.id="boomr-scr-as",t.src=window.BOOMR.url,t.async=!0,e.appendChild(t),n=!0}}),t.addEventListener("error",function(){o(!0)}),setTimeout(function(){n||o(!0)},3e3),BOOMR_lstart=(new Date).getTime(),e.appendChild(t)):o(!1),window.addEventListener?window.addEventListener("load",i,!1):window.attachEvent&&window.attachEvent("onload",i)}function o(t){n=!0;var o,i,d,a,r=document,s=window;if(window.BOOMR.snippetMethod=t?"if":"i",i=function(e,n){var t=r.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),(e=e||r.body).appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]./))return window.BOOMR.snippetMethod="s",void i(e,"boomr-async");(d=document.createElement("IFRAME")).src="about:blank",d.title="",d.role="presentation",d.loading="eager",(a=(d.frameElement||d).style).width=0,a.height=0,a.border=0,a.display="none",e.appendChild(d);try{s=d.contentWindow,r=s.document.open()}catch(e){o=document.domain,d.src="javascript:var d=document.open();d.domain='"+o+"';void 0;",s=d.contentWindow,r=s.document.open()}o?(r._boomrl=function(){this.domain=o,i()},r.write("<body onload='document._boomrl();'>")):(s._boomrl=function(){i()},s.addEventListener?s.addEventListener("load",s._boomrl,!1):s.attachEvent&&s.attachEvent("onload",s._boomrl)),r.close()}function i(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}}()};;_f.apply(null, []); })();</script>
-    
+
     <script>
     (function(){
       if (document.cookie.indexOf('NYT-S') === -1) {
@@ -214,7 +214,7 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
       }
     })();
     </script>
-  
+
     <script>
 (function(w, l) {
   w[l] = w[l] || [];
@@ -228,8 +228,8 @@ if (purrCookie && purrCookie.substring(10, 11) === 'n') {
 <noscript>
 <iframe src="http://web.archive.org/web/20211230230233if_/https://www.googletagmanager.com/ns.html?id=GTM-P528B3>m_auth=tfAzqo1rYDLgYhmTnSjPqw>m_preview=env-130>m_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-    
-    
+
+
     <!-- RELEASE 266bb155e35b022f1d2dd61ec5a481b3f80f1040 -->
   </body>
 </html><!--

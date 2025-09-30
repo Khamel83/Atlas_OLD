@@ -12,7 +12,7 @@
 function OptanonWrapper() {
     NPR_OptanonWrapper = true;
     document.dispatchEvent(new CustomEvent('npr:DataConsentAvailable'));
-    
+
     OneTrust.OnConsentChanged(function() {
         document.dispatchEvent(new CustomEvent('npr:DataConsentChanged'));
     });
@@ -317,7 +317,7 @@ tp.push(["init", function() {
 </li><li class="submenu__item">
     <a href="https://www.npr.org/podcasts/510374/trumps-terms"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"trump&#39;s terms ","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510374\/trumps-terms"}' >
         <img src="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2024/11/20/trumps-terms_tile-art_sq-a562bd2ad2a39113dc7da18658fc1e25d0664257-s100.jpg"   class=" lazy" alt="" loading="lazy" />
-        Trump's Terms 
+        Trump's Terms
     </a>
 </li></ul>
 
@@ -423,10 +423,10 @@ tp.push(["init", function() {
     </time>
 </div>
       </div>
-      
+
 <!-- END CLASS="STORY-META__ONE-INNER" -->
    </div>
-   
+
 <!-- END CLASS="STORY-META__ONE" -->
    <div class="story-meta__two">
             <div id="storybyline" class="storybyline-wrap linkLocation">
@@ -446,11 +446,11 @@ tp.push(["init", function() {
 </div>
             </div>
          </div>
-         
+
 <!-- END CLASS="BUCKETWRAP BYLINE" -->
       </div>
    </div>
-   
+
 <!-- END CLASS="STORY-META__TWO" -->
 </div>
 
@@ -492,9 +492,9 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
             <p>
                 A man walks into the building of the Internal Revenue Service, which oversees the Low-Income Housing Tax Credit Program, in Washington, D.C., on March 10, 2016.
                 <b class="credit" aria-label="Image credit">
-                    
+
                     Andrew Caballero-Reynolds/AFP/Getty Images
-                    
+
                 </b>
                 <b class="hide-caption"><b>hide caption</b></b>
             </p>
@@ -504,9 +504,9 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
     </div>
 
 <span class="credit" aria-label="Image credit">
-        
+
         Andrew Caballero-Reynolds/AFP/Getty Images
-        
+
     </span>
 </div>
 <div class="enlarge_measure">
@@ -522,9 +522,9 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
     <div class="image_data">
         <p class="caption">A man walks into the building of the Internal Revenue Service, which oversees the Low-Income Housing Tax Credit Program, in Washington, D.C., on March 10, 2016.</p>
         <span class="credit" aria-label="Image credit">
-            
+
             Andrew Caballero-Reynolds/AFP/Getty Images
-            
+
         </span>
     </div>
 </div>
@@ -548,7 +548,7 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
 <!-- END CLASS="BUCKET" -->
 <p class="byline">Daniel Garcia-Diaz, an auditor with the Government Accountability Office</p></aside>
    </div>
-   
+
 <!-- END ID="RES540966449" CLASS="BUCKETWRAP PULLQUOTE" -->
    <p>The program, called the Low Income Housing Tax Credit program, gives developers and investors billions of dollars in tax credits to build new affordable housing for tens of thousands of people each year. It is one of the federal government's two main programs to provide housing for the poor, along with the Section 8 rental assistance program.</p>   <p>But <a href="http://www.npr.org/2017/05/09/527046451/affordable-housing-program-costs-more-shelters-less">an investigation in May by NPR</a> and the <a href="http://www.pbs.org/wgbh/frontline/film/poverty-politics-and-profit/">PBS program FRONTLINE</a> found that LIHTC is producing fewer new units of housing each year while costing taxpayers 50 percent more in tax credit dollars – even after accounting for increasing construction costs.</p>   <p>Garcia Diaz said there is no way for government auditors to determine whether the projects are costing too much, whether developments are completed on time, or if the buildings are in compliance — because the IRS does not collect or maintain that data.</p>   <p>Diaz noted that the IRS has only audited seven of the 58 state agencies that administer the program in more than 30 years, and when audits were completed, significant problems were found.</p>   <div id="res540961630" class="bucketwrap internallink insettwocolumn inset2col ">
             <div class="bucket img">
@@ -556,13 +556,13 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
                         <h3 class="slug"><a href="https://www.npr.org/series/571657237/the-housing-fix">NPR News Investigations </a></h3>
             <h3><a href="https://www.npr.org/2017/05/09/527046451/affordable-housing-program-costs-more-shelters-less"  data-metrics-ga4='{"category":"recirculation","action":"story_recirculation_click","clickType":"inset box","clickUrl":"https:\/\/www.npr.org\/2017\/05\/09\/527046451\/affordable-housing-program-costs-more-shelters-less"}' >Affordable Housing Program Costs More, Shelters Fewer</a></h3>
          </div>
-         
+
 <!-- END CLASS="BUCKETBLOCK" -->
       </div>
-      
+
 <!-- END CLASS="BUCKET IMG" -->
    </div>
-   
+
 <!-- END ID="RES540961630" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
    <p>"The LIHTC program is a very hard program to review," he told lawmakers at the hearing, called as the committee revisits the tax code to look for solutions to a growing shortage of low-income housing in the U.S. "The lack of information at a federal level, basic information about allocations awarded to projects, placed-in-service dates, are just very difficult for us to review."</p>   <p>The IRS is able to take the tax credits back from developers and investors when projects go bad, but Garcia-Diaz said the IRS is unable to tell auditors how many times that has happened, if ever. NPR and FRONTLINE found at least three instances where some of the largest affordable housing developers in the country were charged with stealing money from the program.</p>   <aside id="ad-secondary-wrap" class="ad-wrap secondary" aria-label="advertisement">
     <div class="ad-header "><span>Sponsor Message</span></div>
@@ -597,7 +597,7 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
 <div id="callout-end-of-story-mount-piano-wrap" class="callout-end-of-story-mount-piano-wrap">
       <div id="callout-end-of-story-mount-piano" class="callout-end-of-story-mount-piano">
          </div>
-   
+
 <!-- END ID="CALLOUT-END-OF-STORY-MOUNT-PIANO" CLASS="CALLOUT-END-OF-STORY-MOUNT-PIANO" -->
 </div>
 
@@ -681,7 +681,7 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
 </section>   <div id="main-sidebar">
             <div id="right-rail-content-widgets-mount">
                </div>
-      
+
 <!-- END ID="RIGHT-RAIL-CONTENT-WIDGETS-MOUNT" -->
       <aside id="ad-standard-wrap" class="ad-wrap standard" aria-label="advertisement">
     <div class="ad-header "><span>Sponsor Message</span></div>
@@ -694,7 +694,7 @@ https://media.npr.org/assets/img/2017/08/01/gettyimages-514653578_custom-560215f
 
 </aside>
    </div>
-   
+
 <!-- END ID="MAIN-SIDEBAR" -->
 </div>
 

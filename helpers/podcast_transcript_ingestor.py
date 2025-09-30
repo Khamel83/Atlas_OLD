@@ -178,7 +178,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
         # Check both possible transcript locations:
         # 1. data/podcasts/transcripts/ (main transcripts directory)
         # 2. data/podcasts/{podcast}/transcripts/ (per-podcast directories)
-        
+
         # Main transcripts directory
         main_transcripts_dir = base_path / "transcripts"
         if main_transcripts_dir.exists():
@@ -425,7 +425,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
                     content_type="podcast",
                     date=metadata.get("publish_date")
                 )
-                
+
                 if enhanced_result and enhanced_result.get('status') != 'error':
                     insights = enhanced_result.get('insights', {})
                     quality = insights.extraction_quality if hasattr(insights, 'extraction_quality') else 0.0
@@ -433,7 +433,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
                         self.log_path,
                         f"✅ Enhanced processing completed: {meta.title} (Quality: {quality:.2f})",
                     )
-                
+
             except Exception as e:
                 log_error(
                     self.log_path, f"Error in enhanced processing: {e}"

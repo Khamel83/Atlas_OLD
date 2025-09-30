@@ -12,11 +12,11 @@
 
 # Page not found – Constitution Society
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Page not found – Constitution Society](https://constitution.org/wp-content/themes/kleo/assets/img/404_image.png)
 
-This is somewhat embarrassing, isn’t it?  
-  
-It looks like nothing was found at this location. Maybe try a search? 
+This is somewhat embarrassing, isn’t it?
+
+It looks like nothing was found at this location. Maybe try a search?
 

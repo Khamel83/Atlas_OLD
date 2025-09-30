@@ -45,7 +45,7 @@ Learn more about open source AI. ( https://ai.meta.com/open?utm_campaign=The+Bes
 
 Let’s get into it…
 
- 
+
 
 King
 of the Hill: Rep. Angie Craig
@@ -55,7 +55,7 @@ Minnesota Democrat Angie Craig stunned Capitol Hill this week when
 she became the most junior Democrat in memory to take leadership in a House committee. In winning the ranking member slot at House Agriculture, she deposed the outgoing Democratic leader, David Scott of Georgia, and leapfrogged a more senior rival, Jim Costa of California. And she did this after having served only three terms—a remarkable display of political acumen, as well as a blow to the House Democratic seniority system. Just as importantly, the promotion
 signals that Craig is precisely the sort of Democrat the party wants front-and-center during Trump II: moderate, Midwestern… and decidedly not A.O.C.
 
- 
+
 
 The
 Week Ahead
@@ -93,7 +93,7 @@ run cover ( https://www.nytimes.com/2024/04/29/us/politics/hakeem-jeffries-mike-
 would potentially be much more costly for rank-and-file Democrats if they were to swoop in and save Johnson on January 3, which would involve members standing up on the House floor and declaring their support for Johnson by name, and on live television. Democrats who vote for Johnson would increase their risk of a primary challenge, so volunteers were always going to be hard to wrangle, even before the events of last week. In short, the speaker finds himself in the kind of pickle that,
 if history is a guide, has presaged a short tenure. Still, rumors of Johnson’s political demise have been greatly exaggerated over the past year, and perhaps just in the past week. Yes, the coming roll call will be his hardest test yet, but the very fact he’s kept the job this shows his political skills shouldn’t be discounted. 
 
- 
+
 
 Christie’s
 Musk Prediction
@@ -106,7 +106,7 @@ somewhat unfalsifiable and self-soothing prediction on ABC’s This Week: Elon M
 Christie then walked through the stages of MAGA excommunication: It begins “when Trump believes that something has gone wrong, and he needs someone to blame, and Musk becomes the person to blame.
 And no one knows how long that will take.” This can happen to even the most loyal of soldiers—just ask Mike Johnson. “This is a guy who’s done everything Trump’s asked him to do,” Christie said. “He’s essentially gotten down on one knee to Trump on a regular basis, and now, we have this problem this week. You watch. Trump will run from him because that’s what he does.”
 
- 
+
 
 More
 Sunday Show Tea Leaves
@@ -194,6 +194,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT8ZKCd1LPGpE4fgjFuBc=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

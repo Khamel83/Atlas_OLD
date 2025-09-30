@@ -36,8 +36,8 @@ But first, letâs retrace how this state of affairs really came about in the
 Weâll begin by taking a closer look at the apparent atomic unit of the âconversational UIâ, the message bubble. To do that, weâre going to go back in time a bit. Letâs go back to 2003 or so.
 
 In those days, sending a quick text meant dealing with a UI that looked like this:
-  
-  
+
+
 ![Old SMS UI](/img/content/conversational-ui/Nokia1100SMS.png)
 
 In many phoneâs UIs, SMSes were treated like mini-emails, often complete with an inbox, outbox, and drafts. So fussy!
@@ -87,8 +87,8 @@ OAs gained the ability to send and recieve money. The accounts could have QR cod
 While this craziness was flying around out here, what sort of vision did those disruptors back on the west coast begin conjuring for our future bot overlords? Letâs ponder this example from [the homepage of Microsoftâs recently-launched Bot Framework](https://dev.botframework.com/). Hereâs how they think weâll be ordering pizzas in the future:
 
 ![Pizza Bot is operational. Beep boop](/img/content/conversational-ui/MSPizzaBot.png)
-  
-  
+
+
 Good gravy, thatâs **over 73 taps**[1](#fn:1) to tell Pizza Bot what I want. And this is when he already knows me on a first-name basis! Iâd hate to see him when heâs just warming up to someone.
 
 Man, counting those taps sure has made me hungry! We havenât quite got pizza here, but thereâs Pizza *Hut*, which is almost the same. Let me open their official accountâ¦
@@ -104,7 +104,7 @@ Well, it isnât exactly Rayâs, thatâs for sure, but itâs pizz
 The key wins for WeChat in the above interaction (compared to a native app) largely came from steamlining away app installation, login, payment, and notifications, optimizations having nothing to do with the conversational metaphor in its UI. These are the steps that generate the most friction in any mobile experence â native app or not.
 
 It shouldnât require any detailed analysis, then, to point out the patent inanity of these other recent examples of bots and conversational UI proffered by companies on the vanguard of the trend:
-  
+
 ![Some more bots](/img/content/conversational-ui/OtherStupidBots.png)
 
 This notion of a bot handling the above sorts of tasks is a curious kind of [skeumorphism](https://en.wikipedia.org/wiki/Skeuomorph). In the same way that a contact book app (before the flat UI fashion began) may have presented contacts as little cards with drop shadows and ring holes to suggest a Rolodex, conversational UI, too, has applied an analog metaphor to a digital task and brought along details that, in this form, no longer serve any purpose. Things like the small pleasantries in the above exchange like âpleaseâ and âthank youâ, to asking for various pizza-related choices sequentially and separately (rather than all at once). These vestiges of human conversation no longer provide utility (if anything, they impede the task). I am no more *really* holding a conversation than my contact book app *really* is a lâil Rolodex. At the end, a single call to some ordering interface will be made.

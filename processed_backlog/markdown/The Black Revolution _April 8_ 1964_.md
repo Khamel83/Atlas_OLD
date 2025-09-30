@@ -12,13 +12,13 @@
 
 # malcolmxfiles.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![malcolmxfiles.com]()
 
-This page isn’t working  
-  
-malcolmxfiles.com is currently unable to handle this request.  
-  
-HTTP ERROR 500 
+This page isn’t working
+
+malcolmxfiles.com is currently unable to handle this request.
+
+HTTP ERROR 500
 

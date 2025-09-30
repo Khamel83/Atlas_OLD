@@ -7,260 +7,260 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         OopsIf you are a high-powered trader at a big investment bank, two things that might happen are: You might make $600 million for your bank t
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oops
-    
-  
+
+
 If you are a high-powered trader at a big investment bank, two things that might happen are:	You might make $600 million for your bank this year, or	You might lose $600 million for your bank this year.Neither is very likely, particularly not in this more boring post-crisis world, but either is possible. If you make $600 million that’s good and you’ll get a huge bonus. If you lose $600 million that’s bad and you’ll probably get fired, though it depends, and anyway you’ll have a cool war story that will  quickly get you  another big job somewhere else. There is a widespread view that traders have asymmetric upside, that they have a call option on their trading: They benefit a lot from trading well but don’t lose that much from trading badly.If you are a mid-level securities lawyer in the structured notes division of a big investment bank, two things that might happen are:	You will carefully tick all the boxes in a finicky and complicated business, allowing your bank to continue its program of issuing structured notes. The bank will make a lot of money from structured notes, and you will be paid reasonably well, but no one will be like “oh you’re our hero, you made sure all the forms were filled out correctly.” It’s just your job, and you do your job, and whatever.	You will forget to tick one box and the bank will somehow lose $600 million on structured notes from a lack of box-ticking? I don’t even know what happens to you in this case. I guess you get fired? For losing the bank $600 million? Intuitively you seem to have asymmetric downside; you have written a put option on your securities lawyering. But maybe not? Like, you don’t even make enough money for firing you to be satisfying, or to feel commensurate with the $600 million loss; they might just not bother firing you. You might be too cursed for your bosses to get close enough to fire you. You might spend the rest of your days walking aimlessly around the office as everyone scurries away to avoid your evil vibes. Maybe a few of the traders will befriend you, though. A lawyer who loses $600 million on a trade is a rare beast, and much cooler to traders than all the boring regular lawyers who don’t lose money.If you are a mid-level structured-notes lawyer, the first outcome is overwhelmingly likely; in fact I think it describes the career of every mid-level structured-notes lawyer who ever structured a note. Except one!As part of its structured products business, Barclays Bank PLC (“BBPLC”), a subsidiary of Barclays PLC (“BPLC”), is a frequent issuer of structured notes and exchange traded notes in the United States and elsewhere. These securities are often issued to meet actual and anticipated client demand for such securities.BBPLC has determined that the securities offered and sold under its US shelf registration statement during a period of approximately one year exceeded the registered amount (such excess, the “Affected Securities”) giving rise to a right of rescission among certain purchasers of Affected Securities requiring BBPLC to repurchase the Affected Securities at their original purchase price. As a result, BBPLC has elected to conduct a rescission offer to eligible purchasers of the Affected Securities. Details of the rescission offer will be published by BBPLC in due course.Based on current market prices of the Affected Securities and the estimated pool of potentially eligible purchasers electing to participate in the rescission offer, Barclays expects the rescission losses (net of tax) to be c.£450m and the CET1 ratio of BPLC and its consolidated subsidiaries to be in the middle of the 13-14% target range as at 31 March 2022. This reflects a c.14 bps reduction from the estimated loss and a further c.15 bps reduction due to an increase in risk weighted assets in respect of short-term hedging arrangements designed to manage the risks to Barclays arising out of the rescission offer.A footnote adds: “In August 2019, BBPLC registered US$20.8bn in maximum aggregate offering price of securities (the ‘Registered Amount’) and has exceeded the Registered Amount by approximately US$15.2bn.”The technicalities of this are like … I wish I had some cool story to tell here, but this is the opposite of a cool story. This is: If you want to sell securities to the public, including structured notes and exchange-traded notes, you have to register the sales of those securities with the U.S. Securities and Exchange Commission. If you are a tech startup looking to sell stock to the public for the first time, this is an “initial public offering” and is a big fraught emotional moment. If you are already a giant public global bank like Barclays, and you sell billions of dollars of bonds and structured notes and other things every year, it is just boring administrative work.You file a “shelf registration statement” saying, in essence, “we’re going to sell various assorted securities over the next few years.” This is a simple document describing all possible securities in vague and general terms, and it includes some very large arbitrary number for how many securities you might sell. (Barclays put $20,081,600,000 in its 2019 shelf registration statement.) And every time you sell some structured notes or ETNs or whatever, you do a “shelf takedown” (metaphorically, you take the registration statement down from the shelf, you use it to sell stuff, and you put it back on the shelf) and use some of that capacity. When you do a takedown, you write a “prospectus supplement” or “pricing supplement” describing the actual terms of the particular notes that you’re issuing, to supplement the generic shelf registration statement; you file the supplement with the SEC so that investors can read about whatever structured note they’re buying. Ideally you’d KEEP TRACK OF HOW MUCH YOU ISSUE, and subtract each issuance from the $20.1 billion you started with, and when that $20.1 billion gets down to, you know, $2 billion, you file another shelf registration statement with the SEC saying “we might do another $20 billion of stuff.” And that new shelf registration is quickly approved by the SEC,[1] and nobody thinks too much about it, and then you can sell $20 billion more stuff, and the numbers are all arbitrary and this is all administrative.And if you just forget — if some junior person in the internal legal team leaves, and forgets to pass along the “shelfcapacityleft_07.xls” spreadsheet to her successor, and it stops being updated — then, uh. Then, at first, nothing happens. No bell rings. The SEC doesn’t call you up to be like “I see you are selling securities illegally.” (They don’t really keep track either.) The buyers of these notes don’t notice: You are still (you think) doing shelf takedowns; you are still writing pricing supplements describing the new notes and filing them with the SEC. The buyers have access to all the information they would have had if you had filed a new shelf; nobody is harmed by any of this. You just keep bopping along as though everything was fine, and then one day a new junior analyst starts on the legal team and finds the “shelfcapacityleft_07.xls” spreadsheet in a folder and asks the vice president “hey what is this,” and the VP looks, and she realizes what it is, and they check the math 20 times because it seems too horrible to be true, and then they all leave for the bar at noon because it is not a fixable error and they will miss each other when they’re all fired tomorrow.It is not a fixable error because the rules are harsh, and there is no no-harm-no-foul rule for illegal securities offerings. If you sell securities without a valid registration statement — as Barclays did — then you have to offer to buy the securities back at the price you sold them for. If the securities were structured notes and ETNs — that is, bets that some index will go up or down, or weird exotic options bets — and if you don’t catch the mistake for a whole year, then some of them will have gone down a lot. You sold them for $100 and now they are worth $50 and you have to buy them back at $100. (Others will have gone up a lot, but you don’t get to buy those back at par: You have to offer to rescind all of your sales, but the holders can decline.) You can call up the SEC and say “we messed up a little bit but no one was harmed, sorry,” and the SEC will say “ah yes we see, we understand, no one was harmed and you didn’t mean it,” and they will feel sorry for you, but they will still make you offer to buy back all the ETNs. And then you’ll lose 450 million pounds.[2]This is just, like, securities regulation is complicated, and if you forget to do a complicated thing then you might have to give an arbitrary amount of money to an arbitrary group of people. I don’t know what to tell you. Nobody does:“It looks like an operational or legal failure,” said Jerome Legras, managing partner at Axiom Alternative Investments, a fund that specializes in bank debt. “It’s hard to believe they would do such a stupid thing. This honestly is the first time I’ve heard of something like this.”Me too! Barclays is going to investigate what happened:Barclays has commissioned an independent review of the facts and circumstances relating to this matter including, among other things, the control environment related to such issuances. Separately, regulatory authorities are conducting inquiries and making requests for information.I hope that they will eventually publish the full report and we can find out what the actual file name of “shelfcapacityleft_07.xls” was and when it was last updated. Perhaps we will learn the name of the junior analyst in the legal department responsible for updating the spreadsheet, and which law school she left for when she stopped updating it. And maybe the name of the mid-level securities lawyer in charge of making sure that the analysts updated it, the one who forgot to tell the new analyst where to find the spreadsheet. In a fair world, that person would be as legendary as a trader who lost $600 million, and would have no trouble finding a new job. Someone should hire this lawyer! Not great with details, but, for a lawyer, an absolutely incredible familiarity with risk.Two other things. First: This will cost Barclays 450 million pounds, but who will get the money?[3] Clearly part of the answer is: Barclays’s high-net-worth clients who bought structured notes that went down. Structured notes are generally derivative bets on stock indexes and stuff; they tend to be sold directly by Barclays to customers, and then held by the customers to maturity. Barclays’s structured note sales for roughly the last year were illegal, so if you were one of those clients, you probably still own the notes, and if they went down — if the index that you bet on went down — you can make Barclays pay you back. A nice random windfall for you.But another part of the answer is that this registration statement covered not only Barclays’s structured notes business (lots of smallish issuances aimed at high-net-worth clients) but also its exchange-traded notes business.  Bloomberg News notes:The statement announcing it had launched $15.2 billion more notes over the course of about a year than it had registered for didn’t specifically mention two offerings tied to stock volatility and oil, respectively, known as the iPath Series B S&P 500 VIX Short-Term Futures ETN (ticker VXX) and the iPath Pure Beta Crude Oil ETN (OIL). But on March 14 the issuer moved to block new money flowing into the products, which at the time had a combined $1 billion in assets -- spurring wild price moves while disconnecting their market values from underlying assets. In the case of VXX, which allows traders to wager on gyrations in stock prices, the market fallout is potentially significant, with Goldman Sachs Group Inc. strategists among those noting its size and influence among short sellers and options traders. VXX was trading at $48.04 a year ago; it was down to $28.81 on March 14, when Barclays stopped selling more of it. If you bought VXX to bet that volatility was going up, you lost — but if you bought at the right time and in the right way, you get to tear up your bet. Presumably the people who bought VXX directly from Barclays are mostly market makers, and the biggest holders of VXX today are market makers.[4] I am not sure exactly who will get to demand rescission on these trades, and I suspect that people who bought from the market maker might also have a case. But it would be funny if Barclays’s 450 million-pound loss was mostly a random windfall for high-frequency traders who make markets in exchange-traded funds.Second: Barclays did not notice this for a year, and I suspect that nobody else did either. But you could have. All of this stuff is more or less public. Here is Barclays’s 2019 shelf registration statement, registering $20,081,600,000 of securities. Here is the SEC’s web page for that “file number,” that is, for securities sold from that registration statement. There are many hundreds of entries on that page; each day, Barclays would sell a bunch of new structured notes from this prospectus. More or less at random, here’s $2,657,000 of “Callable Contingent Coupon Notes” issued in January 2020.[5] You could have kept your own “Barclaysshelfcapacityleft.xls” spreadsheet. Start it at $20,081,600,000 in 2019, and every day you type in whatever Barclays sold and subtract that from the capacity it has left. Around a year ago,[6] the capacity would have got down to zero, and then negative. By this month it was negative fifteen billion dollars.And then you could have … you know? Done trades? You could have opened up an account at Barclays, and when your salesperson called and said “hey would you like a bond that pays 6.5% interest but loses money if the worst of several stock indexes goes down a lot,” you could have said:	Oh yes!	For, like, $100 million.	But let’s increase the interest rate and the barriers, to make it as risky as possible: Make it pay 20% a year, but lose money if any of those indexes go down a moderate amount.	Also please sell me $100 million of the opposite note, one that pays 20% a year but loses money if any of the indexes go up.Get it? If you know that Barclays is selling these notes illegally, and Barclays doesn’t, then (1) you are getting a put option on the notes from Barclays and (2) Barclays is not charging you for it. So you want to buy a lot of the notes (which are mispriced), and you want the notes to be risky (which makes the put option more valuable). And ideally you would buy opposite notes to lock in a profit: One goes up a lot, one goes down a lot; you make money on the one that goes up a lot, and you hand the other one back to Barclays and demand your money back. I don’t think anyone did this trade, in part because this stuff is tedious to keep track of and not worth it because nobody ever messes it up. But Barclays did! And if you caught them, oh man, what a great trade.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Fade
-    
-  
+
+
 The way a block trade often works is that a big seller — a public company, a private equity backer of the company, a group of big investors in the company — comes to one or more banks and says “hey I might be interested in selling a block, get ready.” And the banks think about their capacity to do the trade, and what they think the stock is worth. And then at 4:01 p.m., right after the market closes, the seller comes back to the banks and says “okay give me your price.” And the banks bid for the stock, and whoever bids the highest price wins and gets the block of stock. And then at like 4:15 p.m. the winning bank goes out and calls its big customers and tries to sell them the stock it just bought. If it sells all of the stock, that evening (or the following morning before the market opens), for a higher price than it bid, it makes money and has done a successful block trade. If it can’t resell all the stock before the market opens, then the block is “hung” — the bank is stuck with the risk — and that’s not a great outcome. (Could be fine, though, if the stock goes up the next day! But that’s not generally the goal of block trading.) If it resells at a lower price than it paid, then it loses money because it priced the block too high.You might notice a problem. The problem is that the seller talks to the banks twice: once to give them some sort of warning that a block is coming, and again at 4:01 p.m. to ask for their bids. (The first call might come the morning of the same day, or mid-afternoon, or conceivably as much as weeks in advance depending on the need for securities filings, financial advice, etc.) If you are a bank, and you have some warning that you’re going to be asked to bid on a block, the main thing you will want to know is: Which of my clients will want to buy this block? Your job, in buying the block, is to resell it quickly. If you know that a lot of your clients want to buy the stock, then you can be confident of reselling it quickly.So you might just call them up and ask them? This is somewhere between “frowned upon” and “illegal,” depending on the specific circumstances, but it would help you with your bid. Perhaps you ask them hypothetically, or you ask them their feelings about a sector generally, or you survey them about a bunch of hypothetical blocks and sneak the real one in there. Get, as they say, some “market color” before you have to bid on the block.There is another benefit of tipping your hand a bit. In general your bid, at 4:01 p.m., will be evaluated against the closing price of the stock, at 4 p.m. You will probably bid less than the closing price, because the block represents a lot of new supply, and you’ll need to sell it at a discount to get clients to buy it. But the tighter the discount, the better your bid looks. If the stock closes at $100 and you bid $99.25, that’s a nice impressive bid, a tight discount of less than 1%. If you bid $92 you are not taking this seriously and you are going to annoy the client. If you bid $100 — if you think that you can resell the stock for the closing price, or even a higher price — then everyone will be very impressed and you’ll probably win the block. Nobody expects you to bid $102. The closing price is the anchor for the block price; a bid at a slight (or even no) discount to the close is a good bid, while a bid that is far below the close is a bad bid.But when you get that first call, at 9 a.m. or 2 p.m. or whatever, you don’t know the closing price yet. If the stock is at $100 at 2 p.m., and then it has a little accident and it closes at $93, and you bid $92.50 for the block, then hey that’s a really tight discount, good job. If … you were to … cause … that accident … then … well, you might go to jail, but you might also be able to make a lot of money on block trades? If the stock drops to $93 in the last two hours of trading, because you told your clients a block was coming and they dumped the stock, and you buy the stock at a tight discount to the closing price, you’ll have a good chance of reselling it at $93 or more, because that $93 price is in some sense not real; it just reflects people getting ready for the block trade. The price drop is the discount; you don’t need to buy the stock at a discount to the closing price because the closing price already reflects the supply of the block. Because you told everyone about it. Anyway:Executives at Blackstone Inc., Carlyle Group Inc. and KKR & Co. have separately grown frustrated in recent years with the notion that many banks -- not necessarily Morgan Stanley -- may flag impending deals to market participants who then sell the shares or bet against them, driving down prices. Some buyout firms began exploring ways to head off potential declines, people with knowledge of their situations said. Yet now, all across Wall Street the knives are out for Morgan Stanley. Since word emerged last month that the equities powerhouse is being examined as part of U.S. probes into whether banks tipped off hedge funds to stock sales big enough to move markets, the industry has been buzzing about the “Morgan Stanley fade.” Competitors, who couldn’t figure out how Morgan Stanley was bidding for block trades at such tight discounts, are now swapping “I told you so’s.” Authorities examining Morgan Stanley’s business haven’t accused it of wrongdoing.Such jealousy and tensions are understandable: The bank has dominated the often-lucrative business since 2020, when it surpassed Goldman Sachs Group Inc. in handling blocks of U.S. stocks, according to data on registered block trades compiled by Dealogic.I should be clear that I have no idea what is going on here and no real reason to think that anyone was leaking news about block trades in order to drive down the price. I just want to point out that driving down the price is, for a bank, a good idea. (Economically, I mean; not legally or morally or for client relationships.) You can bid really tight discounts if the stock keeps going down before you bid.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Tesla
-    
-  
+
+
 A weird archaism of American corporate law is that companies have to write down, fairly early in their histories, the maximum number of shares of stock they can have outstanding, and then that number can only be changed by a vote of shareholders. You’re in your garage setting up your little startup — or, more plausibly, you’re taking that startup public as a medium-sized company — and the lawyers are like “what is the most shares you could ever possibly want to issue” and you’re like “I dunno, two billion?” You pick some comically large number and then, you hope, never worry about it again.[7] And then sometimes things go wrong and your stock price goes down to $0.25 and you need to raise a few hundred million dollars and the lawyers are like “you are out of shares” and it’s really the dumbest reason to be unable to raise money.[8]Conversely if you write down that you’ll never issue more than 2 billion shares, in the back of your mind you are probably thinking of some normal share price and multiplying it by 2 billion and thinking “well that is a lot of money.” Like: If your stock gets to $200 and you issue all 2 billion shares you will be a $400 billion company and that will be a huge wild success, and when future-you is running a $400 billion company, you will be so happy and fulfilled that “not enough authorized shares” will not be a thing that you even think about.Or so you think now, in the garage, but in fact:On March 28, 2022, Tesla, Inc. (the “Company” or “Tesla”) announced its plan to request stockholder approval at the upcoming 2022 Annual Meeting of Stockholders (the “Annual Meeting”) for an increase in the number of authorized shares of common stock through an amendment to the Company’s Amended and Restated Certificate of Incorporation (the “Amendment”) in order to enable a stock split of the Company’s common stock in the form of a stock dividend. Tesla’s Board of Directors (“Board”) has approved the management proposal, but the stock dividend will be contingent on final Board approval.Tesla has about 1.03 billion shares of stock outstanding; it has 2 billion authorized shares. Its stock closed on Friday at $1,010.64, giving it a market capitalization of about $1.04 trillion. That is a high and annoying price for stock, and for various reasons — psychological appeal to small-dollar retail investors, appeal to small-dollar retail options traders, ease of employee compensation, being in the Dow — companies sometimes want lower and less annoying stock prices. Split the stock 10 for 1 and have a $101 stock price, that’s nice. (And Tesla did a 5-for-1 split in 2020.) But Tesla can’t split the stock 10 for 1, or even 2 for 1, because it is out of stock, so it has to ask shareholders for more. They’ll agree, of course; it’s fine. It’s just silly and nice. Tesla wrote down the maximum amount of stock it could ever need, and it needs more because it did too well.By the way, this is different from the Barclays thing! The problem is not Tesla’s securities registration — that’s very easy — but rather the number of shares authorized in its corporate charter. You have to list your number of authorized shares in your financial statements every quarter, and it is audited, and people will generally be aware of it. You can mess it up — you can plan to sell an amount of stock that is not technically authorized — but someone will catch it before you actually sell the stock.[9] It’s just easier to notice than the shelf registration thing. 
-  
-    
+
+
       Expenses
-    
-  
+
+
 Some Deutsche Bank AG bankers apparently  time traveled here from 2006?Deutsche Bank AG fired a number of top bankers in New York after a tab run up at a strip club was expensed as legitimate business spending, according to people with knowledge of the matter.  Ben Darsney, former Americas head of equity capital markets, Ravi Raghunathan, Brandon Sun and Daniel Gaona were fired after seeking reimbursement for a restaurant visit, the people said, asking not to be identified discussing a private matter. Once the bank discovered the issue, it decided to terminate the executives, the people said. The firings were first reported by Bloomberg News on Thursday.Someone should make a Lucite tombstone for the last New York investment banker to successfully expense a strip club. I bet the competition is already over.
-  
-    
+
+
       Things happen
-    
-  
+
+
 G-7 Rejects Putin’s Demand for  Ruble Payments for Russian Gas. How Russia’s Central Bank Engineered the Ruble’s Rebound. HSBC removes references to Ukraine ‘war’ from analyst reports.  Credit Suisse Stops New Business in Russia, Cuts Exposure. Western companies in Abramovich-linked buildings fear paying rent on Moscow offices.  Vanguard Stumbles In Pivot From Cult of Jack Bogle. Hycroft Completes $138.6 Million At-The-Market Equity Offering Program. The Riskiest Bets in the Stock Market Are the Most Popular. “A former San Angelo police chief has been found guilty on four charges stemming from an accusation that he improperly used his influence to convince city councilors to award a $6 million contract to a radio communications company investigators believe paid him kickbacks through his Earth, Wind and Fire cover band.” The most boring person in the world works in data analytics, likes watching TV, and lives in a town, scientists say.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] In many cases the SEC doesn’t even read it; it’s an “automatic shelf registration statement” that is effective without SEC review. I don’t think that this applies to Barclays Bank PLC, the Barclays subsidiary issuing these notes, which uses an “F-3” shelf rather than an “F-3ASR” automatic shelf, but I am not really a connoisseur of the difference. Even a non-automatic shelf, by a big bank, for structured notes, is going to get pretty perfunctory SEC review.[2] The other thing going on here is that the notes are not what Barclays thought they were: Instead of, like, “this note pays 6.5% and goes down if a stock index goes down,” they were “this note pays 6.5% and does *not* go down if a stock index goes down, because if that happens Barclays has to buy back the note.” Each note contained an embedded put at par that Barclays didn’t notice. Thus Barclays’s *hedging* was wrong. And now it has to re-hedge with the embedded puts it just noticed. This is roughly what Barclays means when it says its capital has been reduced by “a further c.15 bps reduction due to an increase in risk weighted assets in respect of short-term hedging arrangements designed to manage the risks to Barclays arising out of the rescission offer.”[3] The 450 million pounds is not the amount that Barclays has to *pay*, but rather the difference between what it has to pay and where the notes are marked. If you bought a note for $10 million and now it has gone down and is worth $8 million, Barclays will pay you $10 million and take back the note; that counts as a $2 million loss.[4] Bloomberg’s top four holders on the HDS page are SIG Holdings LLC (i.e. Susquehanna International Group), Citadel Advisors LLC, Goldman Sachs Group Inc. and Jane Street Group LLC.[5] I assume that most structured notes are essentially one-off issuances to private-wealth clients. So some Barclays salesperson said to some client “hey would you like a structured note that pays 6.5% but loses money if the Nasdaq, Russell 2000 and Dow all go down a lot,” and the client said “sure,” and the client bought $2.7 million of it and that was one pricing supplement. [6] Here I am relying on Barclays’s press release; it’s not like I have actually built this spreadsheet. Seems tedious.[7] As far as I know the only reason not to write down, like, 400 trillion is that it’s embarrassing to have a weird number in your public reports, even if it doesn’t matter? Delaware — where most big companies are incorporated — does charge its corporate franchise tax based in part on number of authorized shares, but the cap on that is $200,000 per year and that kicks in at a relatively normal number.[8] You can find your way around it. Issue preferred stock, get a shareholder vote, that sort of thing, but it’s annoying.[9] In my old job helping companies raise money by selling equity-linked instruments, did I ever mess this up? Yes, yes I did. But we always caught it well before, like, launching the deal. (And then we’d find annoying ways around it.)
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

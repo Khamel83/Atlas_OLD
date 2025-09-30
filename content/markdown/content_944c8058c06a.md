@@ -24,7 +24,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	
+
 	<!-- If you're reading this, we need your help building back better. https://usds.gov/ -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
 
@@ -306,7 +306,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 
 </div><!-- site-header-menu-wrap -->
-			
+
 			<div class="mobile-menu-toggle">
 				<button class="mobile-menu-toggle__control js-mobile-menu-control js-open-main-menu" aria-labelledby="mm-label">
 
@@ -618,13 +618,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </form>
 	<div class="container">
 		<div class="row justify-content-center">
-			
+
 			<div class="col-md-10 col-lg-8 col">
 
 <div class="topper__date shared-meta" data-beat="3" data-beat-topper="3">
 							<time class="posted-on entry-date published updated" datetime="2024-03-11T12:00:00-04:00">March 11, 2024</time>						</div>
-					
-					
+
+
 					<h1 class="page-title topper__title news" data-beat="1" data-beat-topper="1">
 						FACT SHEET: The President’s Budget Cuts the Deficit by $3 Trillion Over 10<span class="dewidow">&nbsp;</span>Years					</h1>
 
@@ -651,9 +651,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </nav>
 
 </div>
-			
-				
-				
+
+
+
 									</div>
 	</div>
 </header>
@@ -821,7 +821,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li id="menu-item-1801" class="site-id-2 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language menu-item-1801 col navlink top-level-menu-item"><a rel="alternate" href="http://web.archive.org/web/20240311181454/https://www.whitehouse.gov/es/" lang="es-US" hreflang="es-US">Español</a></li>
 </ul>						</nav><!-- .primary -->
 					</section><!-- #primary-footer-menu-section -->
-					
+
 					<div class="footer-right">
 												<section class="justify-content-center footer-navigation-section secondary-footer-navigation">
 							<nav class="footer-secondary col-xs-12 col-md-12 col-lg-10" aria-label="Secondary Footer Navigation">
@@ -831,7 +831,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li id="menu-item-54643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54643 col small-text top-level-menu-item"><a href="http://web.archive.org/web/20240311181454/https://www.whitehouse.gov/accessibility/">Accessibility Statement</a></li>
 </ul>							</nav><!-- .footer-secondary -->
 						</section>
-						
+
 						<div class="social-and-address">
 															<div class="footer__social">
 									<nav class="col-xs-12" aria-label="Social Navigation">
@@ -868,7 +868,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<a class="scroll-read-more" href="#content">
 		<div class="scroll-to-top__inner">
 			<span class="screen-reader-text">Scroll to Top</span>
-			
+
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 11.3 28" role="img" aria-labelledby="scroll-to-top-svg-title">
 	<title id="scroll-to-top-svg-title">
 		Scroll to Top	</title>

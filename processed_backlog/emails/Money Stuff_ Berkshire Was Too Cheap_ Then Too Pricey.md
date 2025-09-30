@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are two ways to buy stock: market orders and limit orders.%3Cp%3EI%20mean,%20there%20are%20other%20order%20types,%20but%20these%20are%
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Don’t use market orders!
-    
-  
+
+
 
 There are two ways to buy stock: market orders and limit orders.
   [1]
@@ -83,37 +83,37 @@ If you did this dumb trade, Interactive Brokers fixed it for you: They took over
  Interactive Brokers also “filed a clearly erroneous execution (‘CEE’) petition with NYSE and certain other U.S. exchanges, seeking to bust the trades that had occurred at anomalously high prices during the disorderly market that followed the resumption of trading.”
 But the exchanges declined to bust the trades, apparently on the reasoning that those trades were not clearly erroneous. Paying $648,000, or even $741,971.39, for BRK/A shares is not crazy. Paying $185 is. The customers tried to buy the stock at clearly erroneous prices, but they ended up buying it at regular prices. Erroneously. They made the error, not the market.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Archegos tapes
-    
-  
+
+
 
 Here is some elite investment bank chief executive officer performance:
 Jefferies calls CEO Rich Handler, who is on holiday in Turks and Caicos with a spicy margarita on the way. They tell him Archegos isn’t answering their calls. Handler says he’s going to get his cocktail and he wants Archegos positions gone and a tally of losses by the time he comes back. It was one of the few banks that escaped with minimal losses.
@@ -144,11 +144,11 @@ I once talked to a hedge fund executive about his prime brokerage relationships.
 He said that what matters is that they think you’ll make it. If they think you’re going bankrupt, they are going to want to get their money out. Their personal fondness for you, your past business, all the fees you’ve paid them, even the specific terms of the contract: All of that is yesterday’s news; what matters is if you’ll be around to pay them back tomorrow. The only trick is to build a reputation for being careful, for being a survivor, for running only risks that won’t blow you up. If your prime brokers think that you’re a survivor, they’ll help you survive. If they don’t think you’re a survivor, you won’t be.
 I guess this is obvious? But Archegos is, allegedly, the fraud version of it. If all your prime brokers think that you are a family office with stable long-term funding and a portfolio consisting mostly of boring positions in household-name stocks, they will each let you make a few spicy bets with them. And when those bets move against you and you get big margin calls, they won’t move too quickly to close you out: You have all those safe positions everywhere else, you have plenty of money, you’re good for it. And then if it turns out that your entire portfolio is spicy bets everywhere and you go to zero in three days, the banks will understandably feel defrauded.
 
-  
-    
+
+
       Private equity recruiting
-    
-  
+
+
 
 I have to say, if private equity firms are going to recruit new associates before they start their jobs as investment banking analysts, they shouldn’t do it in late June? Move it a few months earlier, to like April, when the future associates are second-semester college seniors and have nothing better to do but interview with PE firms. But, no:
 
@@ -159,11 +159,11 @@ This year, two sources said that the unexpected start meant that some incoming j
 
 That is from a Business Insider article that quotes a junior banker from last year’s PE recruiting cycle saying “honestly, it has been making me think that private equity, especially, is just such an abusive industry,” and deciding not to go into private equity at all. I suppose the counterpoint is: Yes, that’s what it’s supposed to do. If you’re not willing to drop everything to fly to New York ahead of your investment banking start date to do private equity recruiting, will you drop everything to fly across the country to close a deal as a private equity employee? Making recruiting stressful and inconvenient probably does make it more informative; it tells you something about the candidate’s dedication and performance under stress. And what else do the firms have to go on? It’s not like these people have done any deals.
 
-  
-    
+
+
       Head of Macro
-    
-  
+
+
 
 The greatest hedge fund dispute of our time rolls on:
 
@@ -210,15 +210,15 @@ Greenlight also says:
 Overall, Fishback seems to have accomplished his goal of generating the publicity he sought. Fishback’s posts themselves were widely viewed, with some receiving more than one million views. Major media outlets covered the “dispute” that Fishback pretextually procured, including the New York Times, Business Insider, Yahoo Finance, Bloomberg and Morningstar, and as a result, his wrongful statements have been published to millions more.
 Yes that is going to continue happening.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Companies slash borrowing costs on $400bn of US junk loans. Switzerland Sticks to Bank Capital Schedule in Blow to UBS. Ghana strikes deal with bondholders to end debt default. Starboard Value Criticizes Autodesk Board in Letter, Believes Investors Were Intentionally Misled. SEC’s Gary Gensler on his agenda: ‘If the courts adjust, we adjust.’ Why Venture Capital Is Weighed Down by Its 2021 Vintage. Tech Investor Sean Parker Leads Rescue of Struggling AI Startup. Americans Chasing High Interest Rates Risk Falling Into a ‘Cash Trap.’ Atos crisis deepens as biggest shareholder ditches rescue plan. VW Latches Onto Rivian in $5 Billion EV Pact to Regain Momentum. IRS Apologizes to Billionaire Ken Griffin for Leak of Tax Records. Ex-Segantii trader told Morgan Stanley banker: ‘I know who my daddy is,’ court filings claim. Australian Bank Monitors How You Tilt Your Phone to Detect Scams.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I mean, there are other order types, but these are the important ones.
 
 
@@ -231,48 +231,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] I made that up; I’m sure it was a regular bar.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
   <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23clcbew.5k2e/e9cd2adc.gif" alt="" border="0" /></a>

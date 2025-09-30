@@ -115,7 +115,7 @@ If your provider isn’t able to get answers to your questions within their spec
 
 Ritsema agrees. “If you don’t have confidence in your medical provider for whatever reason,” she says, “schedule an appointment with somebody else who you think will make you feel more confident.”
 
-See More: 
+See More:
 
 * [Even Better](/even-better)
 * [Health Care](/health-care)

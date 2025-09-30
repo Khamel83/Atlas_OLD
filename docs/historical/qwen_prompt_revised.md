@@ -32,7 +32,7 @@ echo "Selected task: $TASK_JSON"
 ### 2. Parse Task Details
 ```bash
 TASK_ID=$(echo "$TASK_JSON" | jq -r '.[0].id')
-TASK_SLUG=$(echo "$TASK_JSON" | jq -r '.[0].slug') 
+TASK_SLUG=$(echo "$TASK_JSON" | jq -r '.[0].slug')
 TASK_TITLE=$(echo "$TASK_JSON" | jq -r '.[0].title')
 ```
 
@@ -56,7 +56,7 @@ After successful completion, update TASKS.md:
 # Change this:
 status: todo
 
-# To this:  
+# To this:
 status: done
 completion_date: 2025-08-28
 completed_by: qwen
@@ -86,7 +86,7 @@ TIMESTAMP=$(date +%Y%m%d)
 OUTPUT=$(ls -la)
 RESULT=$(python3 script.py)
 
-# ✅ ALLOWED - Use direct assignment or pre-created scripts  
+# ✅ ALLOWED - Use direct assignment or pre-created scripts
 TIMESTAMP="20250828"
 bash scripts/rotate_large_logs.sh  # Pre-created without substitution
 python3 script.py > output.tmp && RESULT=$(cat output.tmp)
@@ -96,7 +96,7 @@ python3 script.py > output.tmp && RESULT=$(cat output.tmp)
 ```bash
 # ✅ SAFE patterns
 find /path -name "*.log" -size +100M -delete
-mv "file.log" "file.log.old" 
+mv "file.log" "file.log.old"
 grep -q "pattern" file.txt && echo "found"
 ```
 
@@ -149,7 +149,7 @@ task(ATLAS-COMPLETE-XXX): Brief description of what was completed
 - Files created/modified: path1.py, path2.md
 - Verification: tests pass, linting clean
 
-🤖 Generated with Qwen Autonomous Agent  
+🤖 Generated with Qwen Autonomous Agent
 Co-Authored-By: Qwen <qwen@anthropic.com>
 ```
 
@@ -172,7 +172,7 @@ If you encounter unrecoverable errors:
 
 Track these metrics per task:
 - Execution time
-- Number of file operations  
+- Number of file operations
 - Subprocess calls made
 - Error rate
 - Disk space used

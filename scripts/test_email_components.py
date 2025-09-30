@@ -18,12 +18,12 @@ def main():
     """Main function to test email components without authentication"""
     print("Atlas Email Components Test")
     print("=" * 30)
-    
+
     try:
         # Test the email-to-HTML converter
         print("Testing Email-to-HTML Converter...")
         converter = EmailToHtmlConverter()
-        
+
         # Test email data
         email_data = {
             'subject': 'Weekly Newsletter',
@@ -41,30 +41,30 @@ Check out our latest articles:
 Best regards,
 The Team'''
         }
-        
+
         # Convert to HTML
         print("   Converting email to HTML...")
         html_output = converter.convert_email_to_html(email_data)
-        
+
         # Save to file
         print("   Saving to file...")
         with open('test_newsletter.html', 'w') as f:
             f.write(html_output)
-        
+
         print("   Conversion successful!")
         print("   HTML output saved to test_newsletter.html")
-        
+
         # Verify the output
         assert '<h1' in html_output
         assert 'Weekly Newsletter' in html_output
         assert 'http://example.com/productivity' in html_output
         assert '<a href=' in html_output
-        
+
         print("\nAll tests passed!")
         print("Email components are working correctly.")
-        
+
         return True
-        
+
     except Exception as e:
         print(f"Error during test: {e}")
         import traceback

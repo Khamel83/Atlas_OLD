@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The way a bank works is that it borrows short to lend long. Simplistically, a bank might get its money from demand deposits, checking and sa
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Silicon Valley Bank
-    
-  
+
+
 
 The way a bank works is that it borrows short to lend long. Simplistically, a bank might get its money from demand deposits, checking and savings accounts that customers can withdraw at any time. And the bank might pay, say, 0% interest on those deposits. And then it invests the money in some longer-term assets, loans and bonds that don’t get paid back for years, and that pay, say, 2% interest. The bank earns 2% on its money, pays 0% to depositors for the money, and keeps the spread, the net interest margin, which is 2% in this example.
 Sometimes interest rates go up or down, though. Simplistically, short-term interest rates in the US are set by the Federal Reserve, which will raise interest rates to cool the economy if inflation is too high.
@@ -150,37 +150,37 @@ The Fed can do that! The Fed can certainly hold the assets to maturity; it c
 One way to think of this is that US banks — especially SVB, but not only SVB — have had huge mark-to-market losses on their bond portfolios as interest rates go up, but it is traditional for banks to ignore those losses. In traditional banking, rising interest rates are a matter of opportunity costs and net interest margin, not of large mark-to-market losses.
 But in the modern world — of more pervasive financial markets and more sophisticated accounting and faster-moving information — the banks and their customers were unable to ignore those losses. So the Fed stepped in and said: Look, we are best positioned to ignore those losses, so we will. The service that the Fed is providing to the banking system here is ignoring that rates went up when it values banks’ bonds. That service is incredibly valuable. Historically banks’ retail depositors provided it, but now only the Fed can.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Signature
-    
-  
+
+
 
 Oh yeah, Signature Bank failed? 
 
@@ -195,11 +195,11 @@ But I think there’s another way to read this. The measures that US regulators 
 But every other bank’s shareholders and bondholders and executives will benefit from those measures. If you are an uninsured depositor at a medium-sized bank that made some dumb rates bets, there is no reason to move your money now; the Fed has made it clear that it will support that bank. This (probably!)   takes run risk off the table for those banks, making them less likely to fail, making their stocks and bonds more valuable than they would be if the Fed hadn’t acted to limit contagion. (In actual fact many bank stocks are  down big today, though presumably they’d be down more without these measures.) The rescue of Silicon Valley Bank’s depositors comes too late for Silicon Valley Bank’s shareholders, but it’s good for every similar bank’s shareholders.
 As a matter of rough justice you could imagine the Fed looking at the most similar bank — arguably Signature, with its huge proportion of uninsured deposits and its exposure to fast-money crypto/tech customers — and saying “no, not you, your shareholders are getting toasted.” The mechanics of the rescue mean that inevitably some bank shareholders will be bailed out, but not all of them.
 
-  
-    
+
+
       Elsewhere in BTFP
-    
-  
+
+
 
 I love my readers, and yesterday one of them more or less immediately emailed to ask, about the Fed’s Bank Term Funding Program: “Can I get in on this? Specifically, can I buy a controlling interest in a bank, and then buy a bunch of long dated treasury instruments at $80, and exchange them for $100 immediately?” Great question! The answer is no. Here is  the termsheet for the BTFP:
 
@@ -212,11 +212,11 @@ So you needed to own the bonds by yesterday in order to borrow against them toda
 This means that BTFP is not a perpetual program to let banks ignore mark-to-market accounting forever: It is a way for banks to roll off their existing portfolios of Treasuries that have lost value in the current rate-hiking cycle, to transition to a steady state where (you hope!) banks are less at risk from interest-rate increases.
 Also here is  the list of eligible collateral, which is all pretty high-quality stuff, “direct obligations of, and obligations fully guaranteed as to principal and interest by, the United States,” meaning Treasury bonds, agency securities, etc. Again, this is purely a bailout of banks’ bad interest-rate bets; they get to ignore losses on long-dated Treasuries but not any mistakes they made on business loans.
 
-  
-    
+
+
       Deposit trading
-    
-  
+
+
 
 Do you think they  got any trades in?
 
@@ -226,11 +226,11 @@ Bids range from 60 to 80 cents on the dollar, the people said, reflecting a rang
 
 That is from Semafor on Saturday, and we now know the answer is 100 cents on the dollar. When we talked about this on Friday, I figured plausible answers ranged from 95 to 100, with 100 being the most likely outcome. If you are a startup who woke up today needing to make payroll, you might have been tempted by 60, even though it was objectively way too low. Except that when you woke up today the FDIC had already said you’d be able to get 100 cents on the dollar immediately. Things were less certain on Saturday, but you probably didn’t need to make payroll on Saturday. Seems unlikely that Oaktree did much business (or  Jefferies, which was also offering to buy claims), but still, I admire the speedy opportunism.
 
-  
-    
+
+
       Bond trading
-    
-  
+
+
 
  Sure?
 
@@ -243,11 +243,11 @@ Investors and credit graders expect the holding company will be put into Chapter
 
 I mean the Treasury can’t really just decide to wipe out the bonds: If it turns out that Silicon Valley Bank ultimately sells for more than its deposits, somebody has to get that money, and the bondholders are … “first in line” is an exaggeration, probably the bank regulators could find ways to extract some extra money from SVB to pay for its rescue, but the bondholders are in line. The fact that the FDIC didn’t succeed in selling SVB over the weekend is not a great sign for the eventual recovery, but I’m not sure it’s obvious that the recovery will be zero, even though Treasury would probably like that outcome.
 
-  
-    
+
+
       USDC
-    
-  
+
+
 
 Most of the leading crypto stablecoins have a pretty simple model: You give some stablecoin issuer $1, the issuer keeps the dollar and gives you back a dollar-denominated stablecoin, and the issuer promises to redeem the stablecoin for a dollar when you want. Meanwhile, the issuer has to hang on to the dollar. There are roughly two ways for it to do this:
 	The issuer can try to work nicely with US regulators, get various licenses, and park its money in some combination of Treasury bills, other safe liquid assets, and accounts at regulated US banks.	The issuer can be a total mystery! The money is somewhere! Probably! But you’ll never find out where.
@@ -264,26 +264,26 @@ Top stablecoin Tether or USDT — which has previously faced scrutiny over its r
 One possible understanding of this situation is that Circle made some bad credit decisions with its portfolio (putting billions of dollars into a rickety US bank), while Tether made excellent credit decisions with its portfolio (putting billions of dollars into whatever it is putting billions of dollars into). And, by extension, the traditional regulated US banking system isn’t that safe, and Tether’s more complicated exposures are actually better than keeping the money in the bank.
 Another possible understanding, though, is that banking requires mystery! My point, in the first section of this column, was that too much transparency can add to the fragility of a bank, that the Fed is providing a valuable service by ignoring banks’ mark-to-market losses. Circle does not provide that service. Circle keeps its money in a bank with financial statements, and that bank fails, and Circle dutifully puts out a statement saying “whoops we had $3.3 billion in the failed bank,” and people naturally panic and USDC depegs. You have no idea where Tether keeps its money, so you have no idea if anything went wrong. This has generally struck me as bad, but it might have some advantages.
 
-  
-    
+
+
       Programming note
-    
-  
+
+
 
 Money Stuff was supposed to be off on Friday, but then Silicon Valley Bank collapsed and   there was an unscheduled Money Stuff. Back when Elon Musk was trying to buy or not buy Twitter, that sort of thing happened a lot, to the point that  the Verge published a story titled “A brief history of Elon Musk sabotaging Matt Levine’s time off.” This is enough of a thing that people sometimes joke on Twitter about buying index options whenever I write “Money Stuff will be off tomorrow,” on the theory that the market gods always get up to something crazy whenever I try to take a day off.
 Naturally someone did a backtest and turns out it’s a bad idea (not investing advice!). Here is “A Matt Levine Effect?” by Paul Connell, William Fallon and Nicholas Foretek, on SSRN and everything:
 This paper constructs a novel dataset to explore whether Matt Levine’s vacation drives market volatility as suggested by readers and Levine himself. It finds that contrary to expectations, Levine’s vacations have an (almost) statistically significant effect in the opposite direction: decreasing market volatility. This paper provides a series of potential explanations for this observed market reaction.
 The main explanation is that I take vacations at normal vacation times, when everyone else takes vacations and markets are often quiet. The paper is full of good sentences, including “The measured effect of Matt Levine’s vacations on financial market volatility is negative and of a considerable magnitude,” “This paper contributes to two bodies of research. The first is a collection of studies that examine spurious statistical correlates of important macroeconomic events,” “To our knowledge, we are the first to combine Money Stuff publication dates, VIX closing data, federal bank holidays and sunspot records into a single database” and “Collection of the data for this study was made possible by the authors’ status as graduate students who, if our advisors are asking, definitely spent the whole week before spring break working on our dissertations.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Ron DeSantis blames Silicon Valley Bank’s collapse on  DEI. Trouble at SVB, First Republic Signal   Reckoning for Tech Money Fueling California. Ben Thompson: The End of Silicon Valley (Bank). Savers Pile Money Into  Bank CDs as Rates Top 5%.   Mortgage Payments Hit Record High. Pfizer to buy oncology-focused biotech  Seagen for $43bn. Adani Founders Prepay   Share-Backed Loans Worth $2.15 Billion. JPMorgan’s Jes Staley Suit Seen as Prelude to   Settlement Over Epstein Claims. Drunk Drivers’ Cars Are Being   Sent to Ukraine by Latvia. March Madness, Vasectomies Are an  Unlikely Pairing Filling Urology Offices.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In fact, banks generally make higher net interest margins as rates go up, because they can increase their interest income (on long-term loans and bonds) faster than they increase their deposit interest expense. I cited it   the other day, but here’s “Banking on Deposits: Maturity Transformation without Interest Rate Risk,” by Itamar Drechsler, Alexi Savov and Philipp Schnabl, in the Journal of Finance in 2021: “We show that maturity transformation does not expose banks to interest rate risk — it hedges it. The reason is the deposit franchise, which allows banks to pay deposit rates that are low and insensitive to market interest rates. Hedging the deposit franchise requires banks to earn income that is also insensitive, that is, to lend long term at fixed rates. As predicted by this theory, we show that banks closely match the interest rate sensitivities of their interest income and expense, and that this insulates their equity from interest rate shocks. Our results explain why banks supply long-term credit.”
 
 
@@ -314,98 +314,98 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] I don’t really know, but if you take its equity capital as of Dec. 31 and subtract unrealized losses on its HTM portfolio you get a barely positive number, and then if you haircut, like, its wine loans at all, you get a negative number. And then stuff only got worse over February and March. Here’s a  Jefferies valuation suggesting assets were worth less than its *deposits* as of Friday.
 
 
-  [11] Nathan Tankus  tweeted: “A lot of the discussion this weekend is coming close to accepting @rohangrey's argument that any asset a bank is authorized to make should be acceptable collateral at acquisition price at the discount window.” 
+  [11] Nathan Tankus  tweeted: “A lot of the discussion this weekend is coming close to accepting @rohangrey's argument that any asset a bank is authorized to make should be acceptable collateral at acquisition price at the discount window.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciclsr.648a/8d2c0056.gif" alt="" border="0" /></a>

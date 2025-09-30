@@ -44,7 +44,7 @@ Iger, Bryan Lourd, Blake Lively, John Branca, Orin Snyder, Peter Micelli, Timoth
 
 But first…
 
- 
+
 
 Who Won the Week: Greg Peters and Ted Sarandos
 ----------------------------------------------
@@ -70,7 +70,7 @@ seventh-place The Big Bang Theory to other platforms. And the original series ch
 Honorable mention: Little House on the Prairie, which was canceled
 in 1983, generated more than 13 billion minutes of viewing on Peacock. Thirteen billion. In 2024.
 
- 
+
 
 Quote of the Week
 -----------------
@@ -81,7 +81,7 @@ biggest baguette producer in France and who falls in love with Agtugo Ratatouill
 —The logline for Johanne Sacreblu, a scathing short-film send-up of Oscar frontrunner Emilia Pérez filled with stereotypes about France, starring only Mexican actors, and directed by a Mexican trans woman. It’s at 21,000 views on
 Letterboxd ( https://letterboxd.com/film/johanne-sacreblu-el-musical/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and counting, so check it out here ( https://ohnotheydidnt.livejournal.com/129915814.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) before Netflix pays $10 million for worldwide rights and destroys it.
 
- 
+
 
 CAA v. Range: The Antitrust Argument
 ------------------------------------
@@ -129,7 +129,7 @@ Guild, and its 2023 purchase of ICM Partners, among other, smaller agencies. Tha
 “For an agency that professes to support talent, it’s ironic that CAA is now attempting
 to reduce choice in the industry,” Snyder told me tonight. “At the same time, CAA is sending a clear message to all of its agents that their hard-earned vested equity could be taken away forever at the whim of the agency.”
 
- 
+
 
 My Reading List…
 ------------------
@@ -257,7 +257,7 @@ Say what you will about the Oscars, but Hollywood’s big night is one of the la
 
  
 
- 
+
 
 The Feedback
 ------------
@@ -284,7 +284,7 @@ asking to get fucked… The only surprise is that Graham would think this wouldn
 “Couldn’t
 happen to nicer people. 😂” —Another producer   
 
- 
+
 
 Finally…
 ----------
@@ -314,6 +314,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUqzozI_PFAJNimRXEeEI=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

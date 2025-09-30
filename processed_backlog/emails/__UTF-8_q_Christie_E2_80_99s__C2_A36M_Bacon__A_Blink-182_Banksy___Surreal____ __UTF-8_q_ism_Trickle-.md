@@ -33,7 +33,7 @@ At the same time, more lots by Tillmans were sold during each of the past four y
 Bidders are acquiring more lower-value works by Tillmans, which is reflected in the collection that Christie’s is going to sell in March. There is one work estimated at £120,000, and the remaining works are all estimated in the low five figures—the sweet spot in Tillmans’ market. If you want to do your own research using ARTDAI’s data (and I’m sure you’ll be more careful than I was), Wall Power readers can get access as individuals using this
 link ( https://artd.ai/puck-news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). (Puck receives a commission if you do decide to sign up.)
 
- 
+
 
 Christie’s to Offer £6M Francis
 Bacon Portrait in London
@@ -47,7 +47,7 @@ million.
 One of the most striking shows of the fall season in London was the National Portrait Gallery’s
 Francis Bacon: Human Presence, which was designed to refocus attention on Bacon’s interest in portraiture. It even included a small Rembrandt, on loan from a museum in France, that had been an inspiration to the artist. There was also a small portrait by Bacon, Portrait of Man with Glasses III (1963), which has appeared in 17 different Bacon exhibitions, and has never been auctioned. On March 5, Christie’s will offer the work with a £6 million estimate. 
 
- 
+
 
 Banksy at Sotheby’s
 ---------------------
@@ -139,7 +139,7 @@ a painting, but a small terra-cotta sculpture from 1938, estimated at $30,000, b
 Abercrombie’s work “has a dream quality and speaks to the fantasy that people are craving right now,”
 said Zachary Wirsum, head of postwar and contemporary art at Freeman’s Hindman, who told me there are a few works by the artist coming up in his May sale. “Even with how the market has risen, it still has room to grow,” Wirsum told me. Dugan agreed: “Her work is just going to continue to gain interest and notoriety.”
 
- 
+
 
 Endnotes…
 -----------
@@ -208,6 +208,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVG0o28uVaSptXowgCwZw=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

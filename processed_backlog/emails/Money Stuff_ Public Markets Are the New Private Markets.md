@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A not uncommon situation is: You are an employee of a hot tech startup, you own stock in your startup, but you can’t sell it. One reason tha
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Destiny
-    
-  
+
+
 
 A not uncommon situation is: You are an employee of a hot tech startup, you own stock in your startup, but you can’t sell it. One reason that you might not be able to sell it is that the company isn’t public yet, so the shares aren’t listed on the stock exchange and there is no easy way to sell them. But that problem can be overcome: People want to buy the stocks of hot private startups, there are online marketplaces and brokers looking for shares, and probably with a bit of effort you could find a buyer.
 The other reason that you might not be able to sell your stock is that the company doesn’t let you. It is pretty common for hot private tech startups to limit the sale of their stock: The company might have transfer restrictions (“you can’t sell your stock without our permission”), or a right of first refusal (ROFR, “you can’t sell your stock unless you first offer to sell it back to us at the same price”), or both. Of course these transfer restrictions will go away when the company goes public, but you don’t know when that will be, and it could be a long wait.
@@ -102,40 +102,40 @@ Should the portfolio company object to the existence of the forward contract, it
 
 It seems to me that the safest way for a forward contract to work is for the company not to know about it: Once it goes public, the seller just delivers the unrestricted stock and never tells the company. But once you put it in a prospectus, the company knows!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC v. crypto
-    
-  
+
+
 
 A pretty standard story in crypto is:
-	Crypto in general, and Crypto Project X in particular, are building something. Each crypto project is working to achieve some vision of the future of finance or communications or media or wireless networking or whatever, and crypto collectively — the aggregate of those projects — is moving toward some loosely shared vision of a future of decentralized ownership, censorship resistance, etc.	By buying tokens of Crypto Project X, you are betting on the success of whatever they are building: If the thing succeeds, the tokens will be worth more than you paid for them.	
+	Crypto in general, and Crypto Project X in particular, are building something. Each crypto project is working to achieve some vision of the future of finance or communications or media or wireless networking or whatever, and crypto collectively — the aggregate of those projects — is moving toward some loosely shared vision of a future of decentralized ownership, censorship resistance, etc.	By buying tokens of Crypto Project X, you are betting on the success of whatever they are building: If the thing succeeds, the tokens will be worth more than you paid for them.
 Probably the people building Crypto Project X are selling its tokens to raise money to build the thing, or doing something that rhymes with that.
   [5]
 
@@ -166,11 +166,11 @@ Last year, as the SEC accelerated its crypto crackdown, I wrote about its timin
 In 2021, if the SEC thought your token was a security and you thought it wasn’t, you could go to court to argue about it, and try to convince a judge that the SEC was wrong on the law. You might win, who knows. … But in 2023, the SEC can go to court and say to a judge “we need to protect investors from unregistered crypto securities offerings, because look at how many of them are frauds that went bankrupt,” and while that legal argument is no better than it was in 2021, it is much more persuasive now. At some emotional level the debate is “we need to stop fraudsters” versus “we need to allow for innovation,” and the fraud/innovation balance has shifted a lot in recent months.
 Well, now crypto is booming again, but the memory of all those frauds is still pretty fresh, and the SEC has notched some important wins.
 
-  
-    
+
+
       Shadow trading
-    
-  
+
+
 
 Elsewhere in SEC wins, Bloomberg’s Rachel Graf reported Friday:
 
@@ -182,11 +182,11 @@ Grewal put out a statement about that one too:
 We have talked about the Panuwat case before, because there was obviously something novel about it: It’s the first shadow trading enforcement case. Every other insider trading case has had the form “person gets inside information about Company X and trades Company X stock (or options)”; this one is “person gets inside information about Company X and trades Company Y stock (actually options).” Where Company X and Company Y are closely correlated competitors, it makes sense that the SEC thought this was illegal insider trading, and they won. But it was a novel argument.
 Incidentally, it’s hard to know how important the Panuwat result is. One possible interpretation is “shadow trading is illegal now,” but that might go too far. (Not legal advice!) The way US insider trading law works, broadly speaking, is that it is illegal to trade stock using material nonpublic information in breach of some duty to someone. We have talked before about how important it was to this case that Medivation had a broad anti-insider-trading policy that specifically mentioned trading in “the securities of another publicly traded company, including all significant collaborators, customers, partners, suppliers, or competitors of the Company.” Under that policy, Panuwat had a contractual duty to Medivation not to use his inside information about Medivation to trade the stocks of its competitors. But not every company has a policy like that; some have policies saying, for instance, “don’t use inside information to trade our stock,” without mentioning competitors. For all I know some companies might encourage their executives to trade competitors’ stocks. The meaning of Panuwat might be something like “shadow trading is illegal if your company tells you it is.”
 
-  
-    
+
+
       Trader pay
-    
-  
+
+
 
 My model of investment banks is that they are socialist collectives run for the benefit of their employees, but I confess that that is an outdated model. Once upon a time it was more or less literally true — the big investment banks were once private partnerships — and even as public companies investment banks have sometimes had a tendency to run themselves for the enrichment of their employees rather than of shareholders. But the industry is not what it used to be, banks care more about their shareholders now, and these days some of the big investment banks seem positively skeptical of socialism.
 For instance, the Financial Times reports:
@@ -208,22 +208,22 @@ After a year or two of guaranteed compensation in a new role, “you’re out an
 
 I feel like I’d probably be a better version with myself with more money.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Bank Valuations at Stake as EU Splits With Wall Street Over ESG. Steelworkers Push Back Against $14 Billion Deal for U.S. Steel as Vote Looms. Vitol posts $13bn profits in second consecutive year of bumper results. How Aston Martin Outran a Billion-Dollar Debt Time Bomb. TSMC Gets $11.6 Billion in US Grants, Loans for Three Chip Fabs. Jersey Mike’s Considers Sale. Wall Street Is Searching for AI Winners Across Emerging Markets. Chinese State Bank Asks Court to Liquidate Developer Shimao. ZiG Debuts in Zimbabwe’s Sixth Effort at a Revamped Currency. Brazil’s Top Justice Opens Criminal Inquiry Against Elon Musk. The Best Summer Camps for Future Tech Moguls. Retiree loses $1 million in new timeshare fraud by Mexican drug cartel known for cannibalism. I’m verified on Twitter again.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There are some situations where public companies might have transfer restrictions or ROFRs on some of their shares, but generally not permanent restrictions for every employee. Employees might find themselves locked up for a few months after the initial public offering, and any new grant of shares might be restricted for some period, but eventually they’ll have freely tradable stock.
 
 
   [2] Realistically she’d probably pay you less than $50, to account for the risk and delay and complexity.
 
 
-  [3] Or the company is acquired, you get $20 per share in cash, and the forward contract requires you to pay her the $20. Or the company fails, the stock is worth $0, and the forward contract doesn’t matter. 
+  [3] Or the company is acquired, you get $20 per share in cash, and the forward contract requires you to pay her the $20. Or the company fails, the stock is worth $0, and the forward contract doesn’t matter.
 
 
   [4] Generically, a “forward contract” often means a contract in which (1) I agree to pay you $50 in a year and (2) you agree to deliver me the stock in a year. The thing in the text is a “prepaid forward contract,” in which I pay you now and you deliver the stock later. But in tech-startup employee liquidity usage, a “forward contract” is normally prepaid, because you want the money now.
@@ -232,48 +232,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] E.g., they are building the thing on the cheap without raising money, but they *have* a lot of the tokens, and if the thing succeeds those tokens will make them rich.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -284,46 +284,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckthcw.5k48/ec7dd866.gif" alt="" border="0" /></a>

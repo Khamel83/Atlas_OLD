@@ -75,21 +75,21 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="11931216" />
-  
+
     <meta name="ncbi_uid" content="11931216" />
-  
+
     <meta name="log_displayeduids" content="11931216" />
-  
+
     <meta name="log_source_db" content="pubmed" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="To treat caries with the traditional method of restorative dentistry is beyond the financial capabilities of the majority of low-income nations, as three-quarters of these countries do not even have sufficient resources to finance an essential package of health care services for their children."><meta name="keywords" content="pmid:11931216, Robert Yee, Aubrey Sheiham, Adolescent, Child, DMF Index, Delivery of Health Care, Integrated / economics, Dental Care for Children / economics*, Dental Caries / economics*, Dental Restoration, Permanent / economics*, Developing Countries / economics*, Health Care Costs / statistics &amp; numerical data*, Health Expenditures / statistics &amp; numerical data, Health Resources / economics, Humans, Public Health / economics, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="The burden of restorative dental treatment for children in Third World countries - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/11931216/"><meta property="og:description" content="To treat caries with the traditional method of restorative dentistry is beyond the financial capabilities of the majority of low-income nations, as three-quarters of these countries do not even have sufficient resources to finance an essential package of health care services for their children."><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The burden of restorative dental treatment for children in Third World countries - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/11931216/"><meta name="twitter:description" content="To treat caries with the traditional method of restorative dentistry is beyond the financial capabilities of the majority of low-income nations, as three-quarters of these countries do not even have sufficient resources to finance an essential package of health care services for their children."><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -113,8 +113,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/11931216/">
 
 <meta name="citation_volume" content="52">
-  
-  
+
+
     <meta name="citation_issue" content="1">
 
 <meta name="citation_doi" content="">
@@ -154,7 +154,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -278,10 +278,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -298,7 +298,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -310,7 +310,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -319,8 +319,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -328,7 +328,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -336,7 +336,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -347,8 +347,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -403,7 +403,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -417,7 +417,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -490,7 +490,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -504,7 +504,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -515,13 +515,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="Vx6e2ITarKkE6KAMYA5lzkIkISpCts2Ffr5hF2WELDdxEAg8uezSrSMU5BsoEfjd">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -553,7 +553,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -912,7 +912,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1265,20 +1265,20 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1302,9 +1302,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Int+Dent+J%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Int Dent J">
@@ -1325,12 +1325,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   The burden of restorative dental treatment for children in Third World countries
 
 </h1>
@@ -1376,10 +1376,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1389,28 +1389,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> United Mission to Nepal, Oral Health Programme, Kathmandu. rrsyee@hotmail.com</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">11931216</strong>
@@ -1418,7 +1418,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1428,36 +1428,36 @@ Affiliations
       <div class="short-view" id="short-view-heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   The burden of restorative dental treatment for children in Third World countries
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">Robert Yee</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         Int Dent J<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2002 Feb</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1489,7 +1489,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1503,19 +1503,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1539,9 +1539,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Int+Dent+J%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Int Dent J">
@@ -1562,7 +1562,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1591,24 +1591,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> United Mission to Nepal, Oral Health Programme, Kathmandu. rrsyee@hotmail.com</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">11931216</strong>
@@ -1616,7 +1616,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1624,8 +1624,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="citation-button citation-dialog-trigger"
@@ -1650,50 +1650,50 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
         <strong class="sub-title">
           Objective:
         </strong>
-      
+
       To analyse whether developing countries have sufficient health dollars to treat existing diseases in general and dental caries in particular in their child population.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Methods:
         </strong>
-      
+
       Assessments of the costs of treating existing and future caries by the conventional approach. Analysis of WHO dental databases and spreadsheet calculations of costs based upon population projections, prevalence and trends in patterns of caries.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Findings:
         </strong>
-      
+
       Even though the caries levels are low and most of the disease occurs on the occlusal and the buccal/lingual surfaces, more than 90% of the dental caries remains untreated in Third World countries. Calculations reveal that to restore the permanent dentition of the child population of low-income nations using traditional amalgam restorative dentistry would cost between pounds 1,024 ($US1618) and pounds 2,224 ($US3513) per 1,000 children of mixed ages from 6 to 18 years. This exceeds the available resources for the provision of an essential public health care package for the children of 15 to 29 low-income countries.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Conclusions:
         </strong>
-      
+
       To treat caries with the traditional method of restorative dentistry is beyond the financial capabilities of the majority of low-income nations, as three-quarters of these countries do not even have sufficient resources to finance an essential package of health care services for their children.
     </p>
 
@@ -1710,15 +1710,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/8708118/"
@@ -1726,39 +1726,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="8708118"
        data-ga-label="">
-      
+
         Prevalence and treatment costs of infant caries in Northern California.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Ramos-Gomez FJ, Huang GF, Masouredis CM, Braham RL.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Ramos-Gomez FJ, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">ASDC J Dent Child. 1996 Mar-Apr;63(2):108-12.</span>
     <span class="docsum-journal-citation short-journal-citation">ASDC J Dent Child. 1996.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">8708118</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/10734613/"
@@ -1766,39 +1766,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="10734613"
        data-ga-label="">
-      
+
         Medicaid costs associated with the hospitalization of young children for restorative dental treatment under general anesthesia.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Kanellis MJ, Damiano PC, Momany ET.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Kanellis MJ, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Public Health Dent. 2000 Winter;60(1):28-32.</span>
     <span class="docsum-journal-citation short-journal-citation">J Public Health Dent. 2000.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">10734613</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/9542392/"
@@ -1806,39 +1806,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="9542392"
        data-ga-label="">
-      
+
         Dental caries in developing countries. Preventive and restorative approaches to treatment.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Cirino SM, Scantlebury S.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Cirino SM, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">N Y State Dent J. 1998 Feb;64(2):32-9.</span>
     <span class="docsum-journal-citation short-journal-citation">N Y State Dent J. 1998.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">9542392</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/9088701/"
@@ -1846,39 +1846,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="9088701"
        data-ga-label="">
-      
+
         Can organised dental care for children be both good and cheap?
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Riordan PJ.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Riordan PJ.</span>
     <span class="docsum-journal-citation full-journal-citation">Community Dent Oral Epidemiol. 1997 Feb;25(1):119-25. doi: 10.1111/j.1600-0528.1997.tb00908.x.</span>
     <span class="docsum-journal-citation short-journal-citation">Community Dent Oral Epidemiol. 1997.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">9088701</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/9048407/"
@@ -1886,42 +1886,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="9048407"
        data-ga-label="">
-      
+
         Early childhood caries: overview and recent findings.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Tinanoff N, O'Sullivan DM.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Tinanoff N, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Pediatr Dent. 1997 Jan-Feb;19(1):12-6.</span>
     <span class="docsum-journal-citation short-journal-citation">Pediatr Dent. 1997.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">9048407</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=11931216"
@@ -1930,7 +1930,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -1939,15 +1939,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/25923691/"
@@ -1955,39 +1955,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="25923691"
        data-ga-label="">
-      
+
         Household expenditure for dental care in low and middle income countries.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Masood M, Sheiham A, Bernabé E.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Masood M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">PLoS One. 2015 Apr 29;10(4):e0123075. doi: 10.1371/journal.pone.0123075. eCollection 2015.</span>
     <span class="docsum-journal-citation short-journal-citation">PLoS One. 2015.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">25923691</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/28540273/"
@@ -1995,39 +1995,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="28540273"
        data-ga-label="">
-      
+
         The Efficiency Assessment of Dental Units Using Data Envelopment Analysis Approach: The Case of Iran.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Barouni M, Amiresmaieli MR, Shahravan A, Amini S.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Barouni M, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Iran J Public Health. 2017 Apr;46(4):552-559.</span>
     <span class="docsum-journal-citation short-journal-citation">Iran J Public Health. 2017.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">28540273</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/25867816/"
@@ -2035,39 +2035,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="25867816"
        data-ga-label="">
-      
+
         Chlorhexidine treatment for the prevention of dental caries in children and adolescents.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Walsh T, Oliveira-Neto JM, Moore D.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Walsh T, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Cochrane Database Syst Rev. 2015 Apr 13;2015(4):CD008457. doi: 10.1002/14651858.CD008457.pub2.</span>
     <span class="docsum-journal-citation short-journal-citation">Cochrane Database Syst Rev. 2015.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">25867816</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/32742093/"
@@ -2075,39 +2075,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="32742093"
        data-ga-label="">
-      
+
         Burden of Dental Caries in India: Current Scenario and Future Strategies.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Miglani S.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Miglani S.</span>
     <span class="docsum-journal-citation full-journal-citation">Int J Clin Pediatr Dent. 2020 Mar-Apr;13(2):155-159. doi: 10.5005/jp-journals-10005-1733.</span>
     <span class="docsum-journal-citation short-journal-citation">Int J Clin Pediatr Dent. 2020.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">32742093</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/37288412/"
@@ -2115,42 +2115,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="37288412"
        data-ga-label="">
-      
+
         Evaluation of peer role models as oral health education providers among school children in Mysuru, Karnataka, India.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Sharma P, Chandrashekar BR, Bhaskar V, Bharath S, Sundar M.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Sharma P, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Educ Health Promot. 2023 Mar 31;12:106. doi: 10.4103/jehp.jehp_672_22. eCollection 2023.</span>
     <span class="docsum-journal-citation short-journal-citation">J Educ Health Promot. 2023.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">37288412</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=11931216"
@@ -2159,7 +2159,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2688,31 +2688,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -2726,19 +2726,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F11931216%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F11931216%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F11931216%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -2954,7 +2954,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -2981,7 +2981,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

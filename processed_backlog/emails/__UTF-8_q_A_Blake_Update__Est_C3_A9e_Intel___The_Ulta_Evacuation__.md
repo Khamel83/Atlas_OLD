@@ -53,7 +53,7 @@ Relatedly,
 I’ve been hearing that ambitious sales associates at Tiffany’s have been calling their best customers to entreat them to come in and shop before prices go up this week. Hermès is also raising prices for its bags, but holding the increases below 10 percent. (Hermès is fairly judicious about price increases—as everyone who works in this industry knows, the bags could be far more expensive and would still sell.) But I’m hearing that brands with less stellar reputations are tweaking, too, all the
 way up to 10 percent, which feels like the most you can get away with these days. For example, the Kelly 25 Sellier in Epsom went from $11,800 to $12,600, an increase of 6.8 percent (although this style ( https://go.shopmy.us/p-11879189?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F8%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) is on resale sites for over $20k, if we want to chat about market value). If you’ve noticed some price changes, let’s discuss at SShapiro@puck.news ( sshapiro@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F8%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 The Discourse: Are We Headed for a Supplements Backlash?
 --------------------------------------------------------
@@ -167,7 +167,7 @@ life.” It’s unfortunate, because if Blake Brown had come out a year ago, it 
 However, another beauty executive I spoke with argued that, scandal aside, the line never had “the markers of success I’d expect from a haircare brand.” In other words, it would have been hard to sustain the initial pop of sales driven by Lively’s celebrity because
 nothing about the collection says “new, interesting, advanced hair technology,” à la K18 or Kérastase, which benefits from parent company L’Oréal’s deep R&D resources. “That’s the only way to get people to buy your hair products,” this beauty executive noted. “It needs to have good branding––which Blake Brown also doesn’t have—but hair, even more than skincare, has to lead with whatever is powering it.”
 
- 
+
 
 What Rachel’s Reading…
 --------------------------
@@ -191,7 +191,7 @@ Business ( https://www.voguebusiness.com/story/beauty/what-investors-want-from-b
 One of my favorite writers, Marisa Meltzer, started a beauty Substack. I
 signed up the minute she announced it. The second one comes out tomorrow. [Soft Power ( https://marisameltzer.substack.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F8%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Endnotes…
 -----------
@@ -257,6 +257,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUSBfQa5gnswSXUvu-R5U=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F8%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

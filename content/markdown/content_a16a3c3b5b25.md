@@ -29,19 +29,19 @@
     </style>
   </head>
   <body>
-    <img src="/web/20120118185355im_/http://www.fastcompany.com/sites/all/themes/fc_v1/images/logo.gif" alt="logo" border="0"/>    
+    <img src="/web/20120118185355im_/http://www.fastcompany.com/sites/all/themes/fc_v1/images/logo.gif" alt="logo" border="0"/>
     <div class="source_url">
         Article location:<a href="http://web.archive.org/web/20120118185355/http://www.fastcompany.com/magazine/154/im-with-the-brand.html">http://www.fastcompany.com/magazine/154/im-with-the-brand.html</a>    </div>
-    
+
     <div class="created">
     	March 24, 2011    </div>
-	
-	
+
+
 	<div class="tagwrap">
-		<div class="tags">Tags: <a href="/web/20120118185355/http://www.fastcompany.com/taxonomy/term/4">Leadership</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/innovation-2">Innovation</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/social-responsibility-1">Ethonomics</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/morgan-spurlock">Morgan Spurlock</a></div>	
+		<div class="tags">Tags: <a href="/web/20120118185355/http://www.fastcompany.com/taxonomy/term/4">Leadership</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/innovation-2">Innovation</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/social-responsibility-1">Ethonomics</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/morgan-spurlock">Morgan Spurlock</a></div>
 	</div>
-	
-	
+
+
     <h2 class="title">
       Morgan Spurlock: I'm With The Brand    </h2>
 

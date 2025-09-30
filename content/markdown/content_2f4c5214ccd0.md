@@ -75,23 +75,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="16791523" />
-  
+
     <meta name="ncbi_uid" content="16791523" />
-  
+
     <meta name="log_displayeduids" content="16791523" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="This study extends earlier investigation of family risk-related moderation of two brief, family-focused preventive interventions. It examines effects on the trajectories of substance initiation over a period of six years after a pretest assessment, evaluating whether effects were comparable across h …"><meta name="keywords" content="pmid:16791523, doi:10.1007/s11121-006-0036-3, Randomized Controlled Trial, Research Support, N.I.H., Extramural, Richard Spoth, Chungyeol Shin, Kari Azevedo, Adolescent, Adolescent Behavior, Alcohol Drinking, Family*, Humans, Risk Factors, Substance-Related Disorders / prevention &amp; control, Substance-Related Disorders / therapy*, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Universality of effects: an examination of the comparability of long-term family intervention effects on substance use across risk-related subgroups - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/16791523/"><meta property="og:description" content="This study extends earlier investigation of family risk-related moderation of two brief, family-focused preventive interventions. It examines effects on the trajectories of substance initiation over a period of six years after a pretest assessment, evaluating whether effects were comparable across h …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Universality of effects: an examination of the comparability of long-term family intervention effects on substance use across risk-related subgroups - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/16791523/"><meta name="twitter:description" content="This study extends earlier investigation of family risk-related moderation of two brief, family-focused preventive interventions. It examines effects on the trajectories of substance initiation over a period of six years after a pretest assessment, evaluating whether effects were comparable across h …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -115,8 +115,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/16791523/">
 
 <meta name="citation_volume" content="7">
-  
-  
+
+
     <meta name="citation_issue" content="2">
 
 <meta name="citation_doi" content="10.1007/s11121-006-0036-3">
@@ -156,7 +156,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -280,10 +280,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -300,7 +300,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -312,7 +312,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -321,8 +321,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -330,7 +330,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -338,7 +338,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -349,8 +349,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -405,7 +405,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -419,7 +419,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -506,7 +506,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -517,13 +517,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="SB0G9aR0sFfipryV1Rwg2yks3YW3mI2vKTpzKY0ErZVOujTVkZTowaQ5ySlrXqkH">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -555,7 +555,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -914,7 +914,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1071,7 +1071,7 @@
 <div class="article-page" id="article-page" data-article-pmid="16791523">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1079,22 +1079,22 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://doi.org/10.1007/s11121-006-0036-3"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3055&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=16791523&amp;db=pubmed&amp;nlmid=100894724"
          title="See full text options at Springer"
-         
+
          data-ga-category="full_text"
          data-ga-action="Springer"
          data-ga-label="16791523"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif" alt="Springer full text link"><span class="text">
-            
+
               Springer
-            
+
           </span></a>
 </div>
 
@@ -1335,22 +1335,22 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
-            
+
   <div class="publication-type" >Randomized Controlled Trial</div>
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1374,9 +1374,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Prev+Sci%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Prev Sci">
@@ -1393,9 +1393,9 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2006 Jun;7(2):209-24.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1007/s11121-006-0036-3.
       </span>
@@ -1403,12 +1403,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Universality of effects: an examination of the comparability of long-term family intervention effects on substance use across risk-related subgroups
 
 </h1>
@@ -1469,10 +1469,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1482,28 +1482,28 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> Partnerships in Prevention Science Institute, Iowa State University, ISU Research Park, Building 2, 2625 North Loop Drive, Suite 500, Ames, 50010-8296, USA. rlspoth@iastate.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">16791523</strong>
@@ -1511,13 +1511,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1534,7 +1534,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1542,40 +1542,40 @@ Affiliations
 </div>
       </div>
       <div class="short-view" id="short-view-heading">
-        
+
   <div class="publication-type" >Randomized Controlled Trial</div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Universality of effects: an examination of the comparability of long-term family intervention effects on substance use across risk-related subgroups
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">Richard Spoth</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         Prev Sci<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2006 Jun</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1607,7 +1607,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1621,19 +1621,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1657,9 +1657,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Prev+Sci%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="Prev Sci">
@@ -1676,9 +1676,9 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2006 Jun;7(2):209-24.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1007/s11121-006-0036-3.
       </span>
@@ -1686,7 +1686,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1730,24 +1730,24 @@ Affiliations
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> Partnerships in Prevention Science Institute, Iowa State University, ISU Research Park, Building 2, 2625 North Loop Drive, Suite 500, Ames, 50010-8296, USA. rlspoth@iastate.edu</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">16791523</strong>
@@ -1755,13 +1755,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1778,7 +1778,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1786,8 +1786,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1816,19 +1816,19 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       This study extends earlier investigation of family risk-related moderation of two brief, family-focused preventive interventions. It examines effects on the trajectories of substance initiation over a period of six years after a pretest assessment, evaluating whether effects were comparable across higher- and lower-risk subgroups. The two interventions, designed for general-population families of adolescents, were the seven-session Iowa Strengthening Families Program (ISFP) and the five-session Preparing for the Drug Free Years program (PDFY). Thirty-three rural public schools were randomly assigned to either the ISFP, the PDFY, or a minimal contact control condition. Curvilinear growth curve analyses were used to evaluate the universality of intervention effectiveness by testing for risk moderation of intervention effects on school-level substance use trajectories of initiation of alcohol and illicit substance use. Results were most consistent with the interpretation that both interventions provided comparable benefits for both outcome measures, regardless of family risk status. Findings are discussed in terms of their implications for implementing universal preventive interventions in general populations.
     </p>
 
@@ -1845,15 +1845,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/15279537/"
@@ -1861,39 +1861,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="15279537"
        data-ga-label="">
-      
+
         Brief family intervention effects on adolescent substance initiation: school-level growth curve analyses 6 years following baseline.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Spoth R, Redmond C, Shin C, Azevedo K.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Spoth R, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Consult Clin Psychol. 2004 Jun;72(3):535-42. doi: 10.1037/0022-006X.72.3.535.</span>
     <span class="docsum-journal-citation short-journal-citation">J Consult Clin Psychol. 2004.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">15279537</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/19634956/"
@@ -1901,39 +1901,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="19634956"
        data-ga-label="">
-      
+
         Universal intervention effects on substance use among young adults mediated by delayed adolescent substance initiation.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Spoth R, Trudeau L, Guyll M, Shin C, Redmond C.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Spoth R, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Consult Clin Psychol. 2009 Aug;77(4):620-32. doi: 10.1037/a0016029.</span>
     <span class="docsum-journal-citation short-journal-citation">J Consult Clin Psychol. 2009.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">19634956</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/9583342/"
@@ -1941,39 +1941,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="9583342"
        data-ga-label="">
-      
+
         Direct and indirect latent-variable parenting outcomes of two universal family-focused preventive interventions: extending a public health-oriented research base.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Spoth R, Redmond C, Shin C.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Spoth R, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Consult Clin Psychol. 1998 Apr;66(2):385-99. doi: 10.1037//0022-006x.66.2.385.</span>
     <span class="docsum-journal-citation short-journal-citation">J Consult Clin Psychol. 1998.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">9583342</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/25022191/"
@@ -1981,39 +1981,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="25022191"
        data-ga-label="">
-      
+
         Screening and brief intervention for alcohol and other abuse.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Harris SK, Louis-Jacques J, Knight JR.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Harris SK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Adolesc Med State Art Rev. 2014 Apr;25(1):126-56.</span>
     <span class="docsum-journal-citation short-journal-citation">Adolesc Med State Art Rev. 2014.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">25022191</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/32453373/"
@@ -2021,42 +2021,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="32453373"
        data-ga-label="">
-      
+
         Interventions to Prevent Illicit and Nonmedical Drug Use in Children, Adolescents, and Young Adults: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">O'Connor E, Thomas R, Senger CA, Perdue L, Robalino S, Patnode C.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">O'Connor E, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">JAMA. 2020 May 26;323(20):2067-2079. doi: 10.1001/jama.2020.1432.</span>
     <span class="docsum-journal-citation short-journal-citation">JAMA. 2020.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">32453373</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=16791523"
@@ -2065,7 +2065,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2074,15 +2074,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/18236158/"
@@ -2090,39 +2090,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="18236158"
        data-ga-label="">
-      
+
         Adolescent neurological development and its implications for adolescent substance use prevention.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Lopez B, Schwartz SJ, Prado G, Campo AE, Pantin H.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Lopez B, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Prim Prev. 2008 Jan;29(1):5-35. doi: 10.1007/s10935-007-0119-3. Epub 2008 Jan 31.</span>
     <span class="docsum-journal-citation short-journal-citation">J Prim Prev. 2008.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">18236158</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/20655946/"
@@ -2130,39 +2130,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="20655946"
        data-ga-label="">
-      
+
         One-year follow-up evaluation of the Project Towards No Drug Abuse (TND) dissemination trial.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Rohrbach LA, Sun P, Sussman S.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Rohrbach LA, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Prev Med. 2010 Sep-Oct;51(3-4):313-9. doi: 10.1016/j.ypmed.2010.07.016. Epub 2010 Jul 23.</span>
     <span class="docsum-journal-citation short-journal-citation">Prev Med. 2010.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">20655946</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/22298017/"
@@ -2170,39 +2170,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="22298017"
        data-ga-label="">
-      
+
         Differential impact of a Dutch alcohol prevention program targeting adolescents and parents separately and simultaneously: low self-control and lenient parenting at baseline predict effectiveness.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Koning IM, Verdurmen JE, Engels RC, van den Eijnden RJ, Vollebergh WA.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Koning IM, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Prev Sci. 2012 Jun;13(3):278-87. doi: 10.1007/s11121-011-0267-9.</span>
     <span class="docsum-journal-citation short-journal-citation">Prev Sci. 2012.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">22298017</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/23276777/"
@@ -2210,39 +2210,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="23276777"
        data-ga-label="">
-      
+
         PROSPER community-university partnership delivery system effects on substance misuse through 6 1/2 years past baseline from a cluster randomized controlled intervention trial.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Spoth R, Redmond C, Shin C, Greenberg M, Feinberg M, Schainker L.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Spoth R, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Prev Med. 2013 Mar;56(3-4):190-6. doi: 10.1016/j.ypmed.2012.12.013. Epub 2012 Dec 28.</span>
     <span class="docsum-journal-citation short-journal-citation">Prev Med. 2013.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">23276777</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Clinical Trial.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/21513680/"
@@ -2250,42 +2250,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="21513680"
        data-ga-label="">
-      
+
         Parent-child divergence in the development of alcohol use norms from middle childhood into middle adolescence.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Prins JC, Donovan JE, Molina BS.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Prins JC, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Stud Alcohol Drugs. 2011 May;72(3):438-43. doi: 10.15288/jsad.2011.72.438.</span>
     <span class="docsum-journal-citation short-journal-citation">J Stud Alcohol Drugs. 2011.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">21513680</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=16791523"
@@ -2294,7 +2294,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2304,22 +2304,22 @@ Affiliations
       References
     </h2>
     <div id='top-references-list' class="references-lists-container">
-  
+
     <div class="refs-list">
 
 <ol id="top-references-list-1" class="references-list">
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Prev Sci. 2002 Sep;3(3):203-21
-            
-              
-                
+
+
+
                   -
                   <a
                     class="reference-link"
@@ -2330,26 +2330,26 @@ Affiliations
                   >
                     PubMed
                   </a>
-                
-              
-            
-          
+
+
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Am J Community Psychol. 1999 Oct;27(5):673-710
-            
-              
-                
+
+
+
                   -
                   <a
                     class="reference-link"
@@ -2360,26 +2360,26 @@ Affiliations
                   >
                     PubMed
                   </a>
-                
-              
-            
-          
+
+
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             Biometrics. 1990 Sep;46(3):673-87
-            
-              
-                
+
+
+
                   -
                   <a
                     class="reference-link"
@@ -2390,26 +2390,26 @@ Affiliations
                   >
                     PubMed
                   </a>
-                
-              
-            
-          
+
+
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             J Health Soc Behav. 1992 Jun;33(2):158-67
-            
-              
-                
+
+
+
                   -
                   <a
                     class="reference-link"
@@ -2420,26 +2420,26 @@ Affiliations
                   >
                     PubMed
                   </a>
-                
-              
-            
-          
+
+
+
+
         </li>
-      
+
     </ol>
   </li>
 
 <li>
     <ol class="references-and-notes-list">
-      
+
         <li
           class="skip-numbering"
            value="1">
-          
+
             J Abnorm Child Psychol. 2002 Feb;30(1):37-52
-            
-              
-                
+
+
+
                   -
                   <a
                     class="reference-link"
@@ -2450,33 +2450,33 @@ Affiliations
                   >
                     PubMed
                   </a>
-                
-              
-            
-          
+
+
+
+
         </li>
-      
+
     </ol>
   </li>
 
 </ol>
-      
-        
+
+
         <div class="actions-bar">
-  
+
     <button
       class="show-all"
       ref="linksrc=show_all_references_link"
       aria-controls="top-references-list-1"
-      
+
       data-next-page-url="/16791523/references/"
       data-ga-category="reference"
       data-ga-action="show_more"
     >
       Show all 30 references
     </button>
-  
-  
+
+
 </div>
 
 </div>
@@ -2956,12 +2956,12 @@ Affiliations
       <button class="close-overlay" tabindex="2">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://doi.org/10.1007/s11121-006-0036-3"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3055&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=16791523&amp;db=pubmed&amp;nlmid=100894724"
          title="See full text options at Springer"
          tabindex="1"
@@ -2969,9 +2969,9 @@ Affiliations
          data-ga-action="Springer"
          data-ga-label="16791523"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif" alt="Springer full text link"><span class="text">
-            
+
               Springer
-            
+
           </span></a>
 </div>
 
@@ -3011,31 +3011,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -3049,19 +3049,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F16791523%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F16791523%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F16791523%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3277,7 +3277,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3304,7 +3304,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

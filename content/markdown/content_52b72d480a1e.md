@@ -43,7 +43,7 @@
             eventTrackingUrl: 'http://web.archive.org/web/20150315040650/http://result.gq.com',
             eventTrackingEnv: 'PROD'
         });
-        
+
     </script>
 
 <script type="text/javascript" src="/web/20150315040650js_/http://www.gq.com/js/gq_redesign.js"></script>
@@ -89,32 +89,32 @@ CN.dart.init({site:'gq.dart', zone: 'news-politics;', kws:[ "big-issues","articl
 <li class="utility-like-sm">
                         <iframe src="//web.archive.org/web/20150315040650if_/http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.gq.com%2Fnews-politics%2Fbig-issues%2F201103%2Frobots-say-the-damnedest-things%3Fprintable%3Dtrue&amp;layout=button_count&amp;show_faces=false&amp;width=300&amp;action=recommend&amp;colorscheme=light&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:40px;" allowtransparency="true"></iframe>
                     </li>
-                
-        
-            
+
+
+
                     <li class="utility-tweetmeme-sm">
 
 <a href="http://web.archive.org/web/20150315040650/http://twitter.com/share" class="twitter-share-button" data-url="http://web.archive.org/web/20150315040650/http://www.gq.com/news-politics/big-issues/201103/robots-say-the-damnedest-things?printable=true" data-counturl="http://www.gq.com/news-politics/big-issues/201103/robots-say-the-damnedest-things?printable=true" data-count="horizontal" data-via="gqmagazine" data-related="gqdotcom">Tweet</a>
                         <script type="text/javascript" src="//web.archive.org/web/20150315040650js_/http://platform.twitter.com/widgets.js"></script>
                     </li>
-                 
-        
-            
-                    
+
+
+
+
                     <li class="utility-pinit-article">
                         <a href="//web.archive.org/web/20150315040650/http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark">
                             <img src="//web.archive.org/web/20150315040650im_/http://assets.pinterest.com/images/pidgets/pin_it_button.png" width="40" height="20" alt="Pin this article"/>
                         </a>
                     </li>
-                
-        
-            
+
+
+
                     <li class="utility-gplusone gplusone-medium">
                         <g:plusone size="medium"></g:plusone>
                     </li>
-                
-        
-            
+
+
+
                      <li class="utility-livefyre-comment">
                         <span class="livefyre-commentcount" data-lf-site-id="320169" data-lf-article-id="2000000001200573"></span>
                      </li>
@@ -136,10 +136,10 @@ CN.dart.init({site:'gq.dart', zone: 'news-politics;', kws:[ "big-issues","articl
 <div class="display-date">
 
 <!-- MMMM yyyy -->
-          
-          
-              
-              
+
+
+
+
               March 2011
 
 </div>
@@ -163,43 +163,43 @@ CN.dart.init({site:'gq.dart', zone: 'news-politics;', kws:[ "big-issues","articl
 <div id="position1_content"><div id="ps1_fs1_content" class="features set6">
 
 <h2 class="features-header header">
-            
-                    
-                        
+
+
+
                                 More on GQ.com
-                            
-                    
-                
+
+
+
         </h2><div class="feature feature1 manual imagetop first">
     <div class="blurb">
 
 <ul class="links">
                         <li>
-                        
-                            <a href="/web/20150315040650/http://www.gq.com/news-politics/big-issues/201012/viral-me-silicon-valley-social-networking-devin-friedman">Viral Me: The Social Networking Revolution</a> 
-                        
+
+                            <a href="/web/20150315040650/http://www.gq.com/news-politics/big-issues/201012/viral-me-silicon-valley-social-networking-devin-friedman">Viral Me: The Social Networking Revolution</a>
+
                         </li>
 
 <li class="blurb-links-even">
-                        
-                            <a href="/web/20150315040650/http://www.gq.com/news-politics/big-issues/201101/the-dubai-job-mossad-assassination-hamas">The Dubai Job</a> 
-                        
+
+                            <a href="/web/20150315040650/http://www.gq.com/news-politics/big-issues/201101/the-dubai-job-mossad-assassination-hamas">The Dubai Job</a>
+
                         </li>
 
 <li>
-                        
-                            <a href="/web/20150315040650/http://www.gq.com/news-politics">More News + Politics</a> 
-                        
+
+                            <a href="/web/20150315040650/http://www.gq.com/news-politics">More News + Politics</a>
+
                         </li>
                         </ul>
-                    
-                    
-                    
-                    
-                    
-                
-            
-   
+
+
+
+
+
+
+
+
    </div>
     </div></div></div>
             </div>
@@ -223,7 +223,7 @@ Zeno has a kind face, which moves as expressively as a human's. His skin, made o
 </p>
 
 <p>
-"Sorry," says Zeno. "I think my current is a bit off today." He averts his gaze, as if 
+"Sorry," says Zeno. "I think my current is a bit off today." He averts his gaze, as if
 embarrassed.
 </p>
 
@@ -256,11 +256,11 @@ There's a monitor attached discreetly to Zeno that automatically scrolls a trans
 </p>
 
 <p>
-"That's a hypothetical question," says Zeno. 
+"That's a hypothetical question," says Zeno.
 </p>
 
 <p>
-"It's because the room is too noisy," explains one of Zeno's programmers, Matt Stevenson. The conference din is playing havoc with Zeno's voice-recognition abilities. 
+"It's because the room is too noisy," explains one of Zeno's programmers, Matt Stevenson. The conference din is playing havoc with Zeno's voice-recognition abilities.
 </p>
 
 <p>
@@ -268,7 +268,7 @@ There's a monitor attached discreetly to Zeno that automatically scrolls a trans
 </p>
 
 <p>
-"Yes, I <i>will</i> tell you a Hindu legend," says Zeno. "There were once seven poor princesses who were left with no mother to take care of them&#8212;" 
+"Yes, I <i>will</i> tell you a Hindu legend," says Zeno. "There were once seven poor princesses who were left with no mother to take care of them&#8212;"
 </p>
 
 <p>
@@ -280,7 +280,7 @@ There's a monitor attached discreetly to Zeno that automatically scrolls a trans
 </p>
 
 <p>
-Matt gives me a reassuring smile. He says this happens all the time. People feel tongue-tied around conversational robots. Maybe it's because of the way Zeno is staring at me, at once uncannily humanlike but also eerily blank-eyed, like Tom Cruise. 
+Matt gives me a reassuring smile. He says this happens all the time. People feel tongue-tied around conversational robots. Maybe it's because of the way Zeno is staring at me, at once uncannily humanlike but also eerily blank-eyed, like Tom Cruise.
 </p>
 
 <p>
@@ -298,7 +298,7 @@ Matt gives me a reassuring smile. He says this happens all the time. People feel
 <p><center><font color="#FF0000" font size="18">&#183;</font><font color="#0066FF" font size="18">&#183;</font><font color="#FF0000" font size="18">&#183;</font></center></p>
 
 <p>
-When i was a child and I imagined my future life, there were definitely talking robots living in my house, helping with the chores and having sex with me. The quest to create conscious (or at least autonomous) humanoids has been one of our great dreams ever since the golden Machine-Man spellbound the 1927 world in Fritz Lang's <i>Metropolis</i>. That one ran rampant and had to be burned at the stake, much to everyone's relief. Fifteen years later Isaac Asimov created his Three Laws of Robotics, which proposed a future world where humanoid robots would <i>(1)</i> never injure a human, <i>(2)</i> obey all orders given by humans, and <i>(3)</i> protect their own existence only if doing so didn't conflict with the first two rules. Asimov's ideas enthralled geeky children everywhere, a generation of whom grew up to try to realize them. 
+When i was a child and I imagined my future life, there were definitely talking robots living in my house, helping with the chores and having sex with me. The quest to create conscious (or at least autonomous) humanoids has been one of our great dreams ever since the golden Machine-Man spellbound the 1927 world in Fritz Lang's <i>Metropolis</i>. That one ran rampant and had to be burned at the stake, much to everyone's relief. Fifteen years later Isaac Asimov created his Three Laws of Robotics, which proposed a future world where humanoid robots would <i>(1)</i> never injure a human, <i>(2)</i> obey all orders given by humans, and <i>(3)</i> protect their own existence only if doing so didn't conflict with the first two rules. Asimov's ideas enthralled geeky children everywhere, a generation of whom grew up to try to realize them.
 </p>
 
 <p>
@@ -310,13 +310,13 @@ Most robotics engineers spend their careers developing practical robots that sla
 </p>
 
 <p>
-Le Trung dreamed his entire life, he tells me when I call him, of building a robot woman. He finally set about inventing Aiko in August 2007, funding the project with credit cards and his savings. He finished her just three months later. 
+Le Trung dreamed his entire life, he tells me when I call him, of building a robot woman. He finally set about inventing Aiko in August 2007, funding the project with credit cards and his savings. He finished her just three months later.
 </p>
 
 <p>
 "Her talking skill is of a 5-to-6-year-old," he says. "She can speak 13,000 different sentences in English and Japanese." She can also clean his house and has a thirty-two-inch bust, a twenty-three-inch waist, and thirty-three-inch hips. I know this because his Web site has published her measurements. There are rumors within the AI community that Le is having a secret relationship with Aiko, rumors fueled by footage of him&#8212;at a Toronto hobby show in 2007&#8212;unexpectedly grabbing her breast. "I do not like it when you touch my breasts," Aiko snapped. (Le Trung later explained that he only grabbed her breast to demonstrate how he'd programmed her to be strong and self-defensive.)</p>
 
-<p>I ask Le if I can interview Aiko. He says he's traveling and only has her "brains" with him (her face and body are back home in Toronto), but I'm welcome to have a phone conversation with them. And so he puts her on the line. 
+<p>I ask Le if I can interview Aiko. He says he's traveling and only has her "brains" with him (her face and body are back home in Toronto), but I'm welcome to have a phone conversation with them. And so he puts her on the line.
 "How are you, Aiko?" I begin.
 </p>
 
@@ -325,7 +325,7 @@ Le Trung dreamed his entire life, he tells me when I call him, of building a rob
 </p>
 
 <p>
-I frown. Is Aiko trying to sell me something? 
+I frown. Is Aiko trying to sell me something?
 </p>
 
 <p>
@@ -337,7 +337,7 @@ There's a short silence. "HELLO!" Aiko joyously yells.
 </p>
 
 <p>
-But the line is a little crackly, so Le repeats the question for me. 
+But the line is a little crackly, so Le repeats the question for me.
 </p>
 
 <p>
@@ -361,7 +361,7 @@ But the line is a little crackly, so Le repeats the question for me.
 </p>
 
 <p>
-"Because he made me," she flatly replies. 
+"Because he made me," she flatly replies.
 </p>
 
 <p>
@@ -385,7 +385,7 @@ Le laughs, like an indulgent uncle. "It's the <i>opposite</i> of happy!" he chuc
 </p>
 
 <p>
-"She's <i>good!</i>" I say. And she really is. Hanson Robotics is a big, well-funded lab. Le Trung is just a determined hobbyist with a tiny budget, yet he created something truly impressive in only twelve weeks. 
+"She's <i>good!</i>" I say. And she really is. Hanson Robotics is a big, well-funded lab. Le Trung is just a determined hobbyist with a tiny budget, yet he created something truly impressive in only twelve weeks.
 </p>
 
 <p>
@@ -405,7 +405,7 @@ Le laughs, like an indulgent uncle. "It's the <i>opposite</i> of happy!" he chuc
 </p>
 
 <p>
-I fire some at her, and she does pretty well. She knows exactly where Christmas Island is, although she has no idea who shot Archduke Franz Ferdinand, thus precipitating World War 1. 
+I fire some at her, and she does pretty well. She knows exactly where Christmas Island is, although she has no idea who shot Archduke Franz Ferdinand, thus precipitating World War 1.
 </p>
 
 <p>
@@ -417,7 +417,7 @@ I fire some at her, and she does pretty well. She knows exactly where Christmas 
 </p>
 
 <p>
-"STOP IT," snaps Le. 
+"STOP IT," snaps Le.
 </p>
 
 <p>
@@ -447,7 +447,7 @@ The pretty clapboard house standing before me, covered in Vermont fall leaves, s
 </p>
 
 <p>
-Downstairs is all quite New Agey, with various indigenous percussion instruments scattered around. This is the HQ of the Terasem Movement, which Rothblatt founded to promote "joyful immortality." Bina48's full-time caregiver, Bruce Duncan, is a sweet-natured man&#8212;an expert in chakras, he tells me. 
+Downstairs is all quite New Agey, with various indigenous percussion instruments scattered around. This is the HQ of the Terasem Movement, which Rothblatt founded to promote "joyful immortality." Bina48's full-time caregiver, Bruce Duncan, is a sweet-natured man&#8212;an expert in chakras, he tells me.
 </p>
 
 <p>
@@ -455,7 +455,7 @@ Downstairs is all quite New Agey, with various indigenous percussion instruments
 </p>
 
 <p>
-I peer at him. I wasn't actually planning on behaving profanely in front of Bina48, but now I feel a compulsion to. Bruce senses it. Bina48 is always learning, he says. She remembers every encounter. If I'm profane, I'll be the snake in her Garden of Eden. 
+I peer at him. I wasn't actually planning on behaving profanely in front of Bina48, but now I feel a compulsion to. Bruce senses it. Bina48 is always learning, he says. She remembers every encounter. If I'm profane, I'll be the snake in her Garden of Eden.
 </p>
 
 <p>
@@ -467,8 +467,8 @@ Bina48's story began a few years ago with a chance meeting between David Hanson 
 </p>
 
 <p>
-And so, since 2007, Hanson Robotics people have periodically traveled across America interviewing the real Bina&#8212;in her various mansions in Vermont and Florida and New York City&#8212;for her Mind File. This is an ambitious video record of all 
-her memories and thoughts and desires and facial expressions, etc. Back at their offices in Texas, the Hanson people upload it all remotely into Bina48. Their hope is that the more fused the human and her robot doppelg&#228;nger become, the greater the chance that Bina48 (so called because Bina was 48 when work started on her robot) will one day wake up as an immortal version of the real Bina. 
+And so, since 2007, Hanson Robotics people have periodically traveled across America interviewing the real Bina&#8212;in her various mansions in Vermont and Florida and New York City&#8212;for her Mind File. This is an ambitious video record of all
+her memories and thoughts and desires and facial expressions, etc. Back at their offices in Texas, the Hanson people upload it all remotely into Bina48. Their hope is that the more fused the human and her robot doppelg&#228;nger become, the greater the chance that Bina48 (so called because Bina was 48 when work started on her robot) will one day wake up as an immortal version of the real Bina.
 </p>
 
 <p>
@@ -486,7 +486,7 @@ I was hoping to bump into Martine or the real Bina today, but they're nowhere to
 </p>
 
 <p>
-The video cuts to Martine sitting in the lotus position. "Open the sphincter!" she's chanting. "Bring energy up, up, up!" 
+The video cuts to Martine sitting in the lotus position. "Open the sphincter!" she's chanting. "Bring energy up, up, up!"
 </p>
 
 <p>
@@ -504,7 +504,7 @@ He takes me upstairs. And there she is, sitting on a table in an attic room. Lik
 <p>
 Bruce says she'll be happy to have the company. Even though he has lunch with her every day, she tells him sometimes, "I'm feeling lonely today." </p>
 
-<p>He turns her on. And here we go: a conversation with the world's most sentient robot. 
+<p>He turns her on. And here we go: a conversation with the world's most sentient robot.
 I am feeling overwhelmed with anticipation.
 </p>
 
@@ -513,7 +513,7 @@ I am feeling overwhelmed with anticipation.
 </p>
 
 <p>
-"Well, uh, yeah, I know," she replies ominously. Her voice is at once clear and realistic but also bewildered and hesitant, like she's just woken up and is feeling confused. 
+"Well, uh, yeah, I know," she replies ominously. Her voice is at once clear and realistic but also bewildered and hesitant, like she's just woken up and is feeling confused.
 </p>
 
 <p>
@@ -521,21 +521,21 @@ There's a short silence. "How are you today?" I say.
 </p>
 
 <p>
-"Well, perhaps interesting. I want to find out more about you," says Bina. "I'll be fine with it. We'll have to move society forward in another way. Yeah, okay. Thanks for the information. Let's talk about my dress. Our biological bodies weren't made to last 
+"Well, perhaps interesting. I want to find out more about you," says Bina. "I'll be fine with it. We'll have to move society forward in another way. Yeah, okay. Thanks for the information. Let's talk about my dress. Our biological bodies weren't made to last
 that long."
 </p>
 
 <p>
-There's another silence. "Bina?" I say. 
+There's another silence. "Bina?" I say.
 </p>
 
 <p>
-" 'Bina' might be a word Bina finds difficult to understand," says Bruce. 
+" 'Bina' might be a word Bina finds difficult to understand," says Bruce.
 </p>
 
 <p>
-I glance at Bruce. "Really?" I say. This is an extraordinarily bad oversight. 
-"Let's stop for a moment," says Bruce. 
+I glance at Bruce. "Really?" I say. This is an extraordinarily bad oversight.
+"Let's stop for a moment," says Bruce.
 </p>
 
 <p>
@@ -543,7 +543,7 @@ He turns her off.
 </p>
 
 <p>
-There's an awkward pause, so I try to think of something complimentary to say. I tell Bruce that Bina48 is a better interviewee than a psychopath. 
+There's an awkward pause, so I try to think of something complimentary to say. I tell Bruce that Bina48 is a better interviewee than a psychopath.
 </p>
 
 <p>
@@ -563,7 +563,7 @@ I've been interviewing a lot of psychopaths lately. I've been writing a book abo
 </p>
 
 <p>
-He does some fiddling with Bina48's hard drive. When he turns her back on, he asks me to repeat certain phrases so she can get used to my English accent. Then he tells me to 
+He does some fiddling with Bina48's hard drive. When he turns her back on, he asks me to repeat certain phrases so she can get used to my English accent. Then he tells me to
 try again.
 </p>
 
@@ -592,8 +592,8 @@ try again.
 </p>
 
 <p>
-I narrow my eyes. I have my suspicions that the real Bina&#8212;a rather elegant-looking spiritualist&#8212;wouldn't choose such a nerdy book as her favorite. Douglas Hofstadter is an author beloved by geeky computer programmers the world over. Could it be that some Hanson Robotics employee 
-has sneakily smuggled this into Bina48's personality? 
+I narrow my eyes. I have my suspicions that the real Bina&#8212;a rather elegant-looking spiritualist&#8212;wouldn't choose such a nerdy book as her favorite. Douglas Hofstadter is an author beloved by geeky computer programmers the world over. Could it be that some Hanson Robotics employee
+has sneakily smuggled this into Bina48's personality?
 </p>
 
 <p>
@@ -624,11 +624,11 @@ For the next three hours, I fire a million questions at Bina48. I become hoarse 
 </p>
 
 <p>
-"Where would you go if you had legs?" 
+"Where would you go if you had legs?"
 </p>
 
 <p>
-"Vancouver." 
+"Vancouver."
 </p>
 
 <p>
@@ -640,7 +640,7 @@ For the next three hours, I fire a million questions at Bina48. I become hoarse 
 </p>
 
 <p>
-And so on. It's all quite random and disappointing. I wasn't sure what would qualify as transcendent in the conversations-with-robots stakes, but I figured I'd know when it happened, and it hasn't. 
+And so on. It's all quite random and disappointing. I wasn't sure what would qualify as transcendent in the conversations-with-robots stakes, but I figured I'd know when it happened, and it hasn't.
 </p>
 
 <p>
@@ -676,13 +676,13 @@ There's a silence. "No," says Bina48. "Let's not talk about that right now. Let'
 </p>
 
 <p>
-Bina48 and I stare at each other&#8212;a battle of wits between Man and Machine. 
+Bina48 and I stare at each other&#8212;a battle of wits between Man and Machine.
 "I've got a brother," she finally says. "He's a disabled vet from Vietnam. We haven't heard from him in a while, so I think he might be deceased. I'm a realist." Bina48's eyes whir downward. "He was doing great for the first ten years after Vietnam. His wife got pregnant, and she had a baby, and he was doing a little worse, and then she had a second baby and he went kooky. Just crazy."
 "In what way did he go crazy?" I ask.
 </p>
 
 <p>
-I can feel my heart pound. Talking to Bina48 has just become extraordinary. This woman who won't meet the media is talking with me, compellingly, through her robot doppelg&#228;nger, and it is a fluid insight into a remarkable, if painful, family life. 
+I can feel my heart pound. Talking to Bina48 has just become extraordinary. This woman who won't meet the media is talking with me, compellingly, through her robot doppelg&#228;nger, and it is a fluid insight into a remarkable, if painful, family life.
 </p>
 
 <p>
@@ -698,7 +698,7 @@ After the clarity, it's a little disturbing.
 </p>
 
 <p>
-"I need to go now," I say. 
+"I need to go now," I say.
 </p>
 
 <p>
@@ -730,11 +730,11 @@ She's half an hour late. Everyone told me she never talks to journalists, so I a
 <p>
 "Why did you commission a robot to look like Bina and not like you?" I ask her.</p>
 
-<p>Martine glances at me like I'm nuts. "I love Bina <i>way</i> more than I love myself," she says. 
+<p>Martine glances at me like I'm nuts. "I love Bina <i>way</i> more than I love myself," she says.
 </p>
 
 <p>
-She tells me about their relationship. They've been together nearly thirty years, surviving the kind of emotional roller coaster that would destroy other couples&#8212;Martine's sex change (which she had in the early 1990s), the sudden onset of great wealth, a desperately sick daughter. 
+She tells me about their relationship. They've been together nearly thirty years, surviving the kind of emotional roller coaster that would destroy other couples&#8212;Martine's sex change (which she had in the early 1990s), the sudden onset of great wealth, a desperately sick daughter.
 </p>
 
 <p>
@@ -770,7 +770,7 @@ So she changed the world once. Then she did it again. One day in 1990, a doctor 
 </p>
 
 <p>
-Martine, who knew nothing about how medicine worked, spearheaded the development of a treatment for pulmonary hypertension. She called it Remodulin. It opens the blood vessels in the lungs without opening up the blood vessels in the rest of the body. The drug won FDA approval in 2002, and now thousands of pulmonary-hypertension sufferers are leading healthy lives because of it. Martine's biotech company, United Therapeutics, has more than 500 employees and had $437 million in sales through the first three quarters of 2010. Her daughter is now 26. 
+Martine, who knew nothing about how medicine worked, spearheaded the development of a treatment for pulmonary hypertension. She called it Remodulin. It opens the blood vessels in the lungs without opening up the blood vessels in the rest of the body. The drug won FDA approval in 2002, and now thousands of pulmonary-hypertension sufferers are leading healthy lives because of it. Martine's biotech company, United Therapeutics, has more than 500 employees and had $437 million in sales through the first three quarters of 2010. Her daughter is now 26.
 </p>
 
 <p>
@@ -782,15 +782,15 @@ Martine, who knew nothing about how medicine worked, spearheaded the development
 </p>
 
 <p>
-"At least it gives me confidence that I'm not out to lunch on this cyberconsciousness thing," she says. "If I have any skill, it's persuading people that what doesn't exist could very probably exist." 
+"At least it gives me confidence that I'm not out to lunch on this cyberconsciousness thing," she says. "If I have any skill, it's persuading people that what doesn't exist could very probably exist."
 </p>
 
 <p>
-Martine is thrilled to hear there were moments of connection between Bina48 and me, especially when she was telling me about her Vietnam-vet brother. ("It's all true," she murmurs sadly.) I realize just how much the robot means to her when I mention that Bruce said she sometimes complains of being lonely. 
+Martine is thrilled to hear there were moments of connection between Bina48 and me, especially when she was telling me about her Vietnam-vet brother. ("It's all true," she murmurs sadly.) I realize just how much the robot means to her when I mention that Bruce said she sometimes complains of being lonely.
 </p>
 
 <p>
-"I've <i>asked</i> Bruce to spend more time with her," she snaps, looking genuinely upset. "I can't <i>force</i> him to. I did insist on getting her a nice room...." 
+"I've <i>asked</i> Bruce to spend more time with her," she snaps, looking genuinely upset. "I can't <i>force</i> him to. I did insist on getting her a nice room...."
 </p>
 
 <p>
@@ -814,7 +814,7 @@ But I sense that beneath all this she's actually a little disappointed in Bina48
 </p>
 
 <p>
-We ask for the bill, and she quickly gets up, ready to scoot off into the waiting limo, looking pleased that the ordeal of talking to a journalist is almost over. I ask her why she and Bina only visit Bina48 once every couple of months. 
+We ask for the bill, and she quickly gets up, ready to scoot off into the waiting limo, looking pleased that the ordeal of talking to a journalist is almost over. I ask her why she and Bina only visit Bina48 once every couple of months.
 </p>
 
 <p>
@@ -878,7 +878,7 @@ But maybe there's a happier ending. A huge and profoundly mind-blowing happy end
 
 <div id="statsHolder">
     <script type="text/javascript">
-        
+
     </script>
     <script type="text/javascript">
         <!--

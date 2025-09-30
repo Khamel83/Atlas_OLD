@@ -29,7 +29,7 @@ chown -R ubuntu:ubuntu /var/log/atlas /var/lib/atlas
 echo "📋 Installing service files..."
 services=(
     "atlas-api.service"
-    "atlas-google-search.service" 
+    "atlas-google-search.service"
     "atlas-manager.service"
     "atlas-web.service"
     "atlas-health-monitor.service"

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow through Tuesday, back next Wednesday, May 31. As you know, Money Stuff’s time off is corr
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow through Tuesday, back next Wednesday, May 31.  As you know, Money Stuff’s time off is correlated with lower market volatility. I take this to be bullish for debt-ceiling negotiations, though of course this is not investing advice. Anyway, good luck with all that, see you Wednesday.
 
-  
-    
+
+
       Debt ceiling stuff
-    
-  
+
+
 
 I kind of don’t get this:
 
@@ -94,37 +94,37 @@ It’s hard to see how any agency could justify keeping the top rating amid the 
 It seems to be true that Fitch’s harrumphing has some mind-concentrating effect; I just don’t get why. Also, while I take the point that “the kind of dysfunction now on display in Washington” is certainly more suggestive of AA+ functioning than AAA functioning, I cannot really imagine a good way for Fitch to flip that switch. If they had downgraded the US a month ago would that have been helpful? (S&P did it 12 years ago; is that better?) Would it have been informative? What if they were like “ehhh actually this dysfunction is more BBB+”? How precisely can you grade the dysfunction and map it to ratings categories? How does that help?
 If I were a ratings agency my rating on US government debt would not be a semi-arbitrary collection of As. My rating would be “this is US government debt.” For good and for ill, people mostly know what that means!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Additional debt ceiling stuff
-    
-  
+
+
 
 One model you could have is that US Treasury bills and US regional banks compete for savers’ money. If you want to put your cash somewhere safe for a short term, you put it in the bank or you buy Treasury bills. In the last few months, Treasury bills were offering much higher interest rates and looked much safer than a lot of regional bank accounts. This was bad for the banks: People took their money out of the banks and put it into Treasuries, the banks lost their cheap funding, their business got worse and a few of them failed.
 But now there is the debt ceiling, and one consequence of that is that Treasury bills, while they are   paying like 7%, no longer look all that safe. Which makes bank accounts relatively more attractive, even if they pay less. Last week Bloomberg’s   Alice Atkins reported:
@@ -147,11 +147,11 @@ Under Wall Street’s plan, though, investors would be able to keep trading all 
 
 I would say the article is fairly optimistic about global financial markets continuing to function despite a default, and I too   have been cautiously optimistic. But I will say! “Chaos and confusion would be kept at bay through a series of conference calls” is not completely encouraging? I get it, if you have a big uncertain event you want to keep lines of communication open and make sure everyone stays informed. But just getting everyone on the phone periodically can also be a way to generate chaos. Ideally you’d be like “chaos and confusion will be kept at bay through a series of carefully tested fixes that can be deployed automatically, but we’ll do conference calls to make sure it’s all going fine.” Leading with the conference calls makes me a little nervous.
 
-  
-    
+
+
       Reverse meme stocks
-    
-  
+
+
 
 The theory is pretty straightforward:
 	Banks are  a confidence business. If people trust that a bank is safe and sound, they will keep their money there; if they don’t, they won’t.	If people all pull their money out of a bank, it won’t be safe and sound: It will have to sell off long-term assets to pay back depositors, it will get a bad price, and it won’t have enough to pay them all.
@@ -185,11 +185,11 @@ PacWest depositors were unnerved. The bank later disclosed that customers yanked
 Did they withdraw their money because of his posts on Discord? Because his put buying drove the stock down? Probably not. And this did not drive PacWest into failure or anything.
 Still! Part of me, as an enjoyer of weird financial stuff, would be very interested to see a case of online retail traders causing a bank failure. It does feel like it would be a bad thing, though? Also, once you prove it can be done, why stop with one bank?
 
-  
-    
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 One way to think about stock buybacks is that, if you are a $10 billion company, and you think that in the future you will be a $50 billion company, you should buy back stock. Your business has a lot of great opportunities to make money, so your stock is a good investment. It is cheap today and will be expensive later; if you buy stock then you will make money on the trade.
 Another way to think about stock buybacks is that, if you are a $10 billion company, and you think that in the future you will be a $5 billion company, you should buy back stock. If your business is shrinking and there are not a lot of great opportunities to make money, then your company doesn’t need to be as big as it once was. The business doesn’t need the amount of capital that it once did; you do not need to reinvest in capital equipment and research and development if your market is shrinking. There is money today, you don’t have any great uses for it, you might as well return it to shareholders. And in the US in 2023, the normal way to return money to shareholders is by buying back stock.
@@ -203,11 +203,11 @@ That activity has offered an important source of support for the stock market. D
 
 Obviously many of the specific stories here are along the lines of “our business is great, we are rolling in money, we just cannot possibly spend it all and we’re giving some back to shareholders.” But I am not sure that that is the macro story. If you think that the economy is on the brink of a recession and business will be bad, and you are an investor, you might want to sell stock. If you think that the economy is on the brink of a recession and business will be bad, and you are a company, you might want to buy your stock.
 
-  
-    
+
+
       Arm twisting
-    
-  
+
+
 
 The current  prime minister of the UK has a Stanford MBA and worked at Goldman Sachs Group Inc. and a hedge fund. The current  US ambassador to Japan was an investment banker at Wasserstein Perella & Co. When Japanese conglomerate SoftBank Group Corp. was planning an initial public offering of chip company Arm Ltd. and deciding whether to list Arm in the US or the UK or both, those countries’ top, uh,  public-service investment bankers jumped in to pitch. Bloomberg’s Min Jeong Lee, Ian King and Katherine Doherty report:
 
@@ -222,15 +222,15 @@ He worked with [Nasdaq Inc. Chief Executive Officer Adena] Friedman and Nasdaq s
 
 I just love the idea of the US ambassador to Japan writing and presenting bullet points like “US-listed peers have tighter spreads, higher valuation and greater liquidity than US American Depository Receipts with a foreign listing.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Can Morgan Stanley pull off a  bloodless succession? The  fall of Vice: private equity’s ill-fated bet on media’s future.   Nvidia’s Blowout Forecast Sparks $260 Billion AI Rally. Jana Prepares for  Proxy Fight at Freshpet. CVC Seeks to Join Apollo, KKR in   Underwriting Debt for Buyouts. Friday Is Now an Options Feeding Frenzy as   Big Tech Meets Zero-Day Options.   Anti-ESG Campaign Triggers More Defections From Insurer Group. TD   Plots Share Buybacks After First Horizon Deal Falls Apart. Leon Black  Wins Dismissal of Rape Suit. Crypto Mogul   Do Kwon’s Bail Is Revoked in Montenegro. Elon Musk Urges More Companies to  Shrink Like Twitter. DeSantis Campaign Debut on Twitter Faces   Technical Glitches. Bill Ackman Says Icahn   ‘Somewhat’ Like Archegos as Stock Plunges Anew. “When real estate investor Yannis Delikanakis   woke up from a 26-day coma in April 2020, he discovered that his bank accounts had been frozen and he’d been ousted from the private equity fund that he had co-founded 16 years earlier.” Company Earnings Guidance Is   Wrong About 70% of the Time.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] It would be funny if Fitch employed one guy whose whole job was to deeply understand the personalities and negotiating styles and desires of US congressional and executive leaders so that, once every few years, they could trot him out to be like “yeah I think McCarthy is gonna cave” or whatever and his view would be authoritative. But I don’t think that guy would be very useful for Fitch’s business! Mostly they rate structured credit and stuff.
 
 
@@ -240,48 +240,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] We won’t know that they can’t! Just that they haven’t yet.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -292,46 +292,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cit8kx.5uyv/14a93fdb.gif" alt="" border="0" /></a>

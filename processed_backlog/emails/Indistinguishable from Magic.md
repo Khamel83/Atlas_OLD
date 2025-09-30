@@ -14,10 +14,10 @@ Polywork [ https://substack.com/redirect/4b33c45f-230f-47a3-b358-f263da52d1b6?r=
 It’s been in private beta for just over a year, but this week it publicly launched for everyone, was #1 on Product Hunt, and announced its Series B funding. So what’s its magic?
 Polywork [ https://substack.com/redirect/4b33c45f-230f-47a3-b358-f263da52d1b6?r=9p0gt ] understands that as professionals, our list of job titles don’t do a good job of telling our full stories. Furthermore, it’s purpose built for professionals who want to connect with one another beyond their 9-5. There’s a growing network of amazing professionals from places like Figma, Snapchat, and Github all sharing what they want to do — making it incredibly easy to collaborate with anyone, on anything.
 Hi friends 👋,
-Happy Monday! Last week, I asked people on Twitter [ https://substack.com/redirect/795761b4-f7d5-4300-88c0-48ba0e3ee345?r=9p0gt ] for the best essays and blog posts they’ve ever read and they delivered. You should check out the replies. There’s gold in there. 
-I think as a result of reading so much great stuff, I had more fun writing this week’s piece than I’ve had writing in a long time. It flowed. 
+Happy Monday! Last week, I asked people on Twitter [ https://substack.com/redirect/795761b4-f7d5-4300-88c0-48ba0e3ee345?r=9p0gt ] for the best essays and blog posts they’ve ever read and they delivered. You should check out the replies. There’s gold in there.
+I think as a result of reading so much great stuff, I had more fun writing this week’s piece than I’ve had writing in a long time. It flowed.
 I hope you like this one, and if you do, that you’ll share it and spread the magic.
-Let’s get to it. 
+Let’s get to it.
 Indistinguishable from Magic [ https://substack.com/redirect/caee1626-51d2-4f36-9ff2-1676737adc31?r=9p0gt ]
 (Click that link 👆 to read the full thing in your browser)
 There’s a famous quote from “English science-fiction writer, science writer, futurist, inventor, undersea explorer, and television series host” Arthur C. Clarke. You probably already know the one I’m talking about: 
@@ -51,10 +51,10 @@ I clicked, the wheel clicked back, and the song played. Magical. But I don’t t
 Spotify was a different story. I’ve thought about my first Spotify experience a lot. I vividly remember the first time we used Spotify on the party bus. It was a Sunday. People were half-asleep, half-dead, just hoping to survive the trip back to the city. But as sometimes happened, a small group didn’t want to waste the last few party-able hours of the weekend before heading back to the office. 
 So I plugged in my phone to the audio jack and connected to the Spotify app. 
 I asked my friends Kirk and Nick what they wanted to listen to, we picked a crowd pleaser, searched it, and … there it was. 
-To keep reading about the old magic and the new… 
-Thanks to Dan [ https://substack.com/redirect/a6498f02-0f12-4d52-a701-df2f6ce319f3?r=9p0gt ] for editing and to Polywork [ https://substack.com/redirect/4b33c45f-230f-47a3-b358-f263da52d1b6?r=9p0gt ] for sponsoring the magic! 
-That’s all for today. We’ll be back with Weekly Dose of Optimism lucky number 13 on Friday. Have a great week! 
-Thanks for reading, 
+To keep reading about the old magic and the new…
+Thanks to Dan [ https://substack.com/redirect/a6498f02-0f12-4d52-a701-df2f6ce319f3?r=9p0gt ] for editing and to Polywork [ https://substack.com/redirect/4b33c45f-230f-47a3-b358-f263da52d1b6?r=9p0gt ] for sponsoring the magic!
+That’s all for today. We’ll be back with Weekly Dose of Optimism lucky number 13 on Friday. Have a great week!
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOek00TnpZMU5qVXNJbWxoZENJNk1UWTJNelU1TVRreE5Dd2laWGh3SWpveE5qWTJNVGd6T1RFMExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuTmNaVmJGMFFuc0p5YlVLMGllemxZeC13cmdMU29mT1N3U0RpRF9YendNOCIsInAiOjczODc2NTY1LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MzU5MTkxNCwiZXhwIjoxNjY2MTgzOTE0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.nYtQYUjS3idvPtPF5nQGzDTWyb7GGMWmHof-6M2gEFk?

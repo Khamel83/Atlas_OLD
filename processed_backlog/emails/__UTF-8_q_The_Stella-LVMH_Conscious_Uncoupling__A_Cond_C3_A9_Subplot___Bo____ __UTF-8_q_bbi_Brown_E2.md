@@ -181,7 +181,7 @@ doesn’t help that McCartney’s greater mission—to make the fashion industry
 Now that she’s exhausted the only strategic partners for a brand of that stature, she’ll have to fight all these headwinds herself. It’s fitting that the brand’s recent marketing campaign was called “It’s
 About Fucking Time,” inspired by the t-shirt she wore to Paul’s 1999 induction into the Rock and Roll Hall of Fame. The phrase has become a sort of manifesto for McCartney: a person of tremendous privilege and advantages who has chosen, time and again, to rebel against the forces that made her success possible in the first place. With this new beginning, McCartney will once again need to prove herself. The question is whether this is her time… or her time is simply up.
 
- 
+
 
 What
 I’m Reading… and Watching…
@@ -204,7 +204,7 @@ R.I.P. Doris Brynner.
 This Gordon von Steiner–directed Chanel commercial, featuring Dua Lipa lip-syncing to She Drives Me Crazy, is awesome. As Meecham Whitson Meriweather, one of X’s last great cultural critics, said, it’s so ’90s. I
 love this song a lot (played continually in my house growing up), Dua Lipa is soooooo pretty, and the clothes look great. And while I still get a little stressed by how referential everything is these days, I’m embracing it in this case. It’s a good omen for the future of Chanel. [X ( https://x.com/MediumSizeMeech/status/1885449207412060647?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Look, if I don’t see you in New York, there’s always London,
 Milan, and two whole weeks in Paris. Can’t wait.
@@ -263,6 +263,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUzeGZZNBBKYdP5xKRyb4=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

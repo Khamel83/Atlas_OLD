@@ -189,7 +189,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -254,7 +254,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -283,7 +283,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -325,8 +325,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -380,7 +380,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -394,20 +394,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -492,7 +492,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -506,7 +506,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -514,7 +514,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -522,7 +522,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -530,10 +530,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -547,7 +547,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -610,7 +610,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -624,7 +624,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -632,7 +632,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -640,7 +640,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -648,10 +648,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -665,7 +665,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -698,7 +698,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -713,7 +713,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Individual-Mandate Hypocrisy</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Why aren’t conservatives complaining about this South Carolina insurance law?</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -904,14 +904,14 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="120"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-1@published"
-  
+
 >The “individual mandate” in President Obama’s <a href="http://www.healthcare.gov/law/index.html">Affordable Care Act</a> has provoked incredible enthusiasm among the act’s supporters and towering rage in its opponents. The obligation either to purchase insurance or to pay a fine whose proceeds would be used to offset the cost of care to the uninsured is viewed either as an essential part of the architecture of health care reform or as an affront to liberty. In few places has the attack on the individual mandate been more vociferous than in South Carolina, where both new Governor Nikki Haley and Senator Jim DeMint are leading members of the Tea Party movement. They view the individual mandate as inimical to our Constitution and the worst manifestation of government excess.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="222"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-2@published"
-  
+
 >So it may surprise you to know that South Carolina has its own individual mandate—structured exactly like the federal health care mandate, but for auto insurance. Unlike virtually all other states, which require every driver to carry liability insurance, South Carolina has a more complex system. Under South Carolina state law, in effect for more than a decade, a car owner in the state must either have liability insurance <em>or</em> obtain an “<a href="http://www.scdmvonline.com/DMVNew/forms/dmvb-18.pdf">uninsured motorist registration</a>.” The fee for the uninsured registration is $550 and is deposited into the “uninsured drivers fund.” The website of the South Carolina Department of Insurance explains that the $550 fee is used to “<a href="http://doi.sc.gov/Documents/Consumers/Consumer%20-%20Auto%20-%20Auto%20Facts%20and%20Tips.pdf">offset the costs of uninsured motorist coverage</a>.” (Some portion is also used for consumer education programs.) The “uninsured motorist coverage” is a cost borne by drivers who have their own liability insurance but also need additional insurance to provide for coverage in the event they have an accident caused by a driver who does not have liability insurance—the “uninsured driver.”  By statute—SC Code section 38-77-155—funds from the uninsured drivers fund are distributed to insurers who offer this uninsured motorist coverage. Bottom line: South Carolina forcibly transfers money from drivers who refuse to buy insurance to drivers who do buy insurance to cover the costs of risk created by the drivers who don’t buy insurance.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -922,21 +922,21 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="47"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-3@published"
-  
+
 >The $550 fee is a rough approximation of the cash needed to insure that those who have not purchased insurance pay their fair share to the system. Eliminating free riders—those who create risk but don’t pay for it—is the worthy objective of South Carolina’s uninsured motorist registration.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-4@published"
-  
+
 >South Carolina even has an enforcement mechanism to make sure people abide by this structure: Any driver stopped by a police officer who can’t produce an insurance certificate or a certificate of “uninsured registration” is charged the $550. In other words, if they stop you and catch you, they make sure you buy into the system.  </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-5@published"
-  
+
 >Make no mistake, this structure is precisely what the health care act requires: Either be insured or pay a fine—a fine calibrated to subsidize the costs and risks you create by participating without insurance. And also understand: This makes perfect sense. Eliminating “free riders” is the only way to make an insurance system work. Everybody from the Heritage Foundation to Newt Gingrich to Mitt Romney to President Obama has come to this same conclusion.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1015,7 +1015,7 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="199"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-6@published"
-  
+
 >Opponents of the individual mandate in the health care reform bill have tried to deal with the auto insurance analogy before. Senator DeMint and others have attempted, valiantly, to distinguish auto insurance by arguing that driving is a voluntary act and, therefore, that those who chose not to drive are not forced to buy insurance. But this is, as lawyers say, a distinction without a difference. The core logic in each case is identical: If you create risk and costs to other individuals and society at large by your activity, and yet you refuse to pay for those costs and risks, so that others are being forced to cover your free-riding, then it is fair to require you to share part of the burden. The fact that one can theoretically opt out of driving has no impact on this argument. Opponents refuse to acknowledge the logic of the individual health-insurance mandate despite their embrace of it in the case of auto insurance. (Their other argument about the constitutional authority of Congress to impose the health mandate, which I view as being equally lacking in merit, will nonetheless have to be resolved by the Supreme Court, most probably this term.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1058,14 +1058,14 @@ width="250"
   class="slate-paragraph slate-graf"
   data-word-count="171"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-7@published"
-  
+
 >The only escape hatch for Senator DeMint and others would be if they were truly willing to let people “opt out” of the health care system. Then only those who “opted in” could be forced to participate—as with auto insurance. But what would that mean? That if somebody came to an emergency room with a heart attack and that person could not pay cash on the barrel, didn’t have insurance to cover, or hadn’t paid the equivalent of the “uninsured registration fee”—we would really throw them out on the street and say, Sorry, no care for you? Having listened to the audience reaction at the recent Republican presidential debate, where death seemed to be a popular means to resolve social ills, there clearly may be a few fringe voices who have that view. But I don’t believe there is a significant number of people who truly want us to deny critical or emergency care to the sick based on the absence of payment. Indeed, federal law requires that care be provided.  </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="46"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-8@published"
-  
+
 >Since opting out is neither morally nor legally possible, we must create a system that then requires everybody to participate in covering some portion of the costs. That is what South Carolina has done for auto insurance and what the nation must do for health care.</p>
 
 <div
@@ -1137,7 +1137,7 @@ width="250"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1172,7 +1172,7 @@ width="250"
   class="slate-adnode"
   data-adnode="news_and_politics/the_best_policy"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-355f01cd73a4c93d90168bbc36fffb09-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1223,7 +1223,7 @@ width="250"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1248,7 +1248,7 @@ width="250"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1758,7 +1758,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

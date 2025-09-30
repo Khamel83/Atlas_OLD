@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.You can, with hindsight, do some dumb math about Silvergate Capital Corp.
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Silvergate
-    
-  
+
+
 
 You can, with hindsight, do some dumb math about Silvergate Capital Corp., the crypto-friendly bank that melted this month. At the end of September, various crypto companies had about $12 billion of deposits at Silvergate.
   [1]
@@ -103,89 +103,89 @@ Another way to think about this story is that the dumb idea I started with — 
 That is kind of what Tether does, but also kind of not: It does stuff like make loans collateralized by Bitcoin, and otherwise seems to take risks that I personally would not take with a $70 billion pile of non-interest-bearing deposits. And the reason for this is basically that Tether is not actually a bank, and it has somewhat fraught relationships with the global banking system, and so it keeps finding itself doing stuff that a bank wouldn’t do.
 But Silvergate is a bank! You would think that someone with a banking license could find a way to take a bunch of deposits from crypto firms who are desperate for banking, not pay them interest, and make money. It’s apparently harder than it sounds though.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Silicon Valley Bank
-    
-  
+
+
 
 Elsewhere in  boring maturity mismatches and a lack of deposit diversification:
 
@@ -198,20 +198,20 @@ During the recent tech boom years, SVB’s deposits swelled as it took on cash f
 
 Same basic idea: Take a bunch of deposits from one industry, invest them in safe but long-dated stuff, and then rates go up, your assets lose value, and your concentrated depositor industry vanishes. But Silvergate’s depositors really vanished, and it is shutting down; Silicon Valley’s story is more “a slowdown in VC funding” and “cash burn at many of its clients.” There is still a lot of franchise value there, which is why it can plug the hole in its balance sheet by selling stock instead of by shutting down.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Wrestling bets
-    
-  
+
+
 
 Oh man, I am so excited to write about  this insider trading case in like a year:
 
@@ -230,21 +230,21 @@ Somebody needs to know the outcome months before the match, but that knowledge 
 If WWE succeeds in its bid to legalize gambling on matches, it could open the door for legalized betting on other guarded, secret scripted events, such as future character deaths in TV series.
 It seems arbitrary to be able to bet only on events that occur in the real world. Why not bet on fictional sports too.
 
-  
-    
+
+
       Bed Bath & Beyond
-    
-  
+
+
 
 Hey they  got some more money:
 Bed Bath & Beyond Inc. (Nasdaq: BBBY) [yesterday] announced the receipt of approximately $135 million in gross proceeds, for a cumulative total of $360 million through March 7th, 2023, upon exercise of preferred stock warrants issued in its previously announced public equity offering. As a reminder, on February 7, 2023, the Company completed an underwritten public offering which raised initial gross proceeds of $225 million and enabled the Company to receive up to an additional $800 million. 
 We   talked last week about the drama here: As long as Bed Bath’s stock stays above $1.25 (later rising to $1.50), it can keep drawing down more money on its possibly-$1-billion   funding deal led by Hudson Bay Capital Management   last month. But, because Hudson Bay is apparently selling stock to the public about as fast as it can buy it from Bed Bath, it will only keep putting up money if the stock stays high enough. So far it has, and Bed Bath has drawn the next tranche.
 
-  
-    
+
+
       3NC1
-    
-  
+
+
 
 I once worked as an investment banker underwriting convertible bonds. A convertible bond is a bond with an embedded equity option, so I became reasonably competent at pricing and understanding equity options. Once, for some reason, I needed to think about pricing a fixed-income option; I needed to know how to price the difference between, let’s say, a non-callable 8-year high-yield bond and a similar bond that was callable at par after 4 years, something like that. So I went over to the leveraged finance desk and asked the VP I knew, like, “how do you think about the volatility input for pricing up that option,” and he said “Volatility? What? It costs 25 basis points.” And I was enlightened.
 Of course if I had asked the swaps desk I would have gotten a different answer.  This story, from Bloomberg’s Caleb Mutua and Nina Trentmann, brought me back:
@@ -259,11 +259,11 @@ In this transaction, the company is essentially buying the option from money man
 
 The swaps desk has an option pricing model, and they put in market inputs and price the option, and in a volatile rates market the price will be high. The bond market doesn’t think too hard about this stuff; it is like “ehhh call options cost 25bps.” There is a trade to be done. 
 
-  
-    
+
+
       An honor just to be nominated
-    
-  
+
+
 
 Each year, there are three sorts of mutual fund managers:
 	Ones who win Morningstar’s Fund Manager of the Year award,
@@ -278,19 +278,19 @@ That is from the abstract to “Unwanted Attention? Negativity Bias in Mutual Fu
 First, we show that nomination for the award is mainly based on past performance as is consistent with other rank-order tournaments in the investment management industry. Second, we present results demonstrating that, after the initial shortlisting, performance plays no role in separating ultimate winners from nonrecipient nominees. Third, we document that runner-up funds experience a negative investment flow shock in univariate before and after award date tests, as well as in regression (including difference-indifferences or DID) tests pitching nonrecipient funds against the winners. This result is not driven by the media effect on winners documented by Kaniel and Parham (2017) – winner funds do not systematically beat non-recipients on flows. Fourth, we show that the negativity bias highlighted by our results is restricted to retail rather than institutional investors.
 If you are choosing your mutual fund based on an award, I guess there is not much reason to choose the runners-up.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 A Few Rich Firms Are Fueling   Record US Buybacks. JPMorgan Blames Staley for   Epstein Ties, Demands Eight Years of Pay. JPMorgan Slams Claims About Dimon’s Role in   Epstein Case. Credit Suisse  Delays Annual Report After Last-Minute SEC Request. Visa, Mastercard Pause Work on Code Aimed at   Tracking Gun Purchases.   Rookie Traders Are Earning $400,000 in One Unlikely Markets Hub (Sydney). EY fights to save plan to  split business in two. Trial Targets Bankers Who Moved Money for  Putin’s Cellist Friend. Cathie Wood’s flagship  Ark fund tops $300mn in fees despite losses. Stablecoins Like UDSC  Are Commodities, CFTC Chair Says. SunnyD Vodka Seltzer Is Here.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Numbers here come, variously, from Silvergate’s  most recent 10-Q (as of Sept. 30, pre-bank-run), from its  call report (as of the end of 2022), and from its  earnings release for the fourth quarter. 
+
+  [1] Numbers here come, variously, from Silvergate’s  most recent 10-Q (as of Sept. 30, pre-bank-run), from its  call report (as of the end of 2022), and from its  earnings release for the fourth quarter.
 
 
-  [2] Oh I am oversimplifying; in fact Silvergate had $1.2 billion of *interest-bearing* deposits in September 2022, up from $77 million at the end of 2021, in addition to its $12 billion of non-interest-bearing accounts. That seems to have been mainly a consequence of the early stages of its bank run: “Average interest bearing liabilities increased $1.3 billion or 270.7% for the three months ended September 30, 2022, compared to the three months ended June 30, 2022, due to the utilization of short-term brokered certificates of deposit and higher average balances of FHLB advances,” Silvergate reported. 
+  [2] Oh I am oversimplifying; in fact Silvergate had $1.2 billion of *interest-bearing* deposits in September 2022, up from $77 million at the end of 2021, in addition to its $12 billion of non-interest-bearing accounts. That seems to have been mainly a consequence of the early stages of its bank run: “Average interest bearing liabilities increased $1.3 billion or 270.7% for the three months ended September 30, 2022, compared to the three months ended June 30, 2022, due to the utilization of short-term brokered certificates of deposit and higher average balances of FHLB advances,” Silvergate reported.
 
 
   [3] “In the fourth quarter of 2022, the Company determined that based on recent changes in market conditions of the digital asset industry, the likelihood of the launch of a blockchain-based payment solution was no longer imminent.” Amazing sentence.
@@ -302,114 +302,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] This is not quite right anymore: Starting in 2018, Morningstar replaced this award with the “Morningstar Awards for Investing Excellence.” Prior to that, there were about five fund managers of the year each year. From the paper cited in the text: “Since 1995, Morningstar has split the FMOY award into three categories: domestic stock, fixed income, and international stock. In 2012, Morningstar introduced two additional awards, in the allocation and alternatives categories.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

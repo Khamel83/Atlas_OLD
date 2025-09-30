@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"12\/13\/2016","content_publish_time":"14:19","content_last_update_date":"12\/15\/2016","content_last_update_time":"15:22","contentcategory":"Chicago Bulls,Dwyane Wade,Jimmy Butler,NBA,Rajon Rondo","section_1":"sports","section_2":"sports:nba","story_title":"Why The Bulls Beat The Best Teams And Then Lose To The Worst Ones","story_id":137250,"author":"Chris Herring","page_name":"fivethirtyeight:sports:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Chicago Bulls","Dwyane Wade","Jimmy Butler","NBA","Rajon Rondo"],"word_count":1605},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Why The Bulls Beat The Best Teams And Then Lose To The Worst Ones | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":137250,"section":"sportsnba","seg_a":"
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Why The Bulls Beat The Best Teams And Then Lose To The Worst Ones" />
@@ -205,7 +205,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -224,13 +224,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Why The Bulls Beat The Best Teams And Then Lose To The Worst Ones									</div>
 				<a href="https://fivethirtyeight.com/features/why-the-bulls-beat-the-best-teams-and-then-lose-to-the-worst-ones/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/why-the-bulls-beat-the-best-teams-and-then-lose-to-the-worst-ones/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -294,7 +294,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -303,7 +303,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -320,7 +320,7 @@ display: none;
 								<time class="datetime updated" title="2016-12-13T19:19:04+00:00">2:19 PM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Why The Bulls Beat The Best Teams And Then Lose To The Worst Ones								</h1>
@@ -330,10 +330,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/chris-herring/" title="" class="author url fn" rel="author">Chris Herring</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/nba/" class="term " name="">NBA</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,7 +346,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?w=1150 2x">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?w=1150 2x">
 						<img width="575" height="383" src="https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg 3648w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=100,67 100w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=300,200 300w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=768,512 768w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=1024,683 1024w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=1536,1024 1536w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=2048,1365 2048w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=683,455 683w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=575,383 575w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=470,313 470w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=600,400 600w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=390,260 390w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=240,160 240w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=864,576 864w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=207,138 207w, https://fivethirtyeight.com/wp-content/uploads/2016/12/gettyimages-625212682.jpg?resize=60,40 60w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -357,9 +357,9 @@ display: none;
 <figcaption class="caption featured-image-caption">
 				Different Bulls, same result?									<p class="credits">Garrett Ellwood / NBAE via Getty Images</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>CHICAGO — After dealing <a href="http://www.espn.com/nba/story/_/id/16427840/new-york-knicks-acquire-derrick-rose-chicago-bulls">a former most valuable player</a>, letting a fiery, <a href="http://www.nba.com/2014/news/04/21/newser-chicago-bulls-joakim-noah-defensive-poy.ap/">ex-defensive player of the year walk in free agency</a> and <a href="http://www.miamiherald.com/sports/nba/miami-heat/article88110112.html">signing a future, yet aging Hall of Famer</a>, the Bulls were bound to change. We just didn’t know whether it’d be for better or for worse.</p>
 <p>But, ironically, even with a mostly new cast surrounding star swingman Jimmy Butler, one of the most bizarre tendencies from past Bulls’ teams persists: the baffling ability to take down some of the league’s best teams one night but lose to its very worst the next. Many have tried to explain the phenomenon, and the explanations range from <a href="http://www.blogabull.com/2016/4/7/11321660/chicago-bulls-injury-history-training-staff-derrick-rose">an unfortunate run of injuries</a> to <a href="http://www.sbnation.com/nba/2014/2/27/5453366/chicago-bulls-nba-tom-thibodeau-joakim-noah">team style and composition influencing consistency</a> to the general wear and tear of <a href="http://www.espn.com/blog/chicago/bulls/post/_/id/12449/thibodeau-pushes-his-players-to-the-max">life under the exacting rule of former coach Tom Thibodeau</a>, who’s set to storm the opposing sideline in Chicago for the first time Tuesday night as coach of the Minnesota Timberwolves.</p>
@@ -470,7 +470,7 @@ display: none;
 <p>But things have played out far differently in clutch moments, when the game slows down and spacing gets cramped because teams refuse to guard Rondo near the arc.</p>
 <figure id="attachment_137265" class="wp-caption aligncenter" style="">
 					<img decoding="async" class="size-full wp-image-137265" src="https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png" alt="screen-shot-2016-12-13-at-4-24-44-am" width="575" height="323" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png 1366w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=100,56 100w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=300,169 300w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=768,432 768w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=1024,576 1024w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=683,384 683w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=575,323 575w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=470,264 470w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=600,337 600w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=462,260 462w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=285,160 285w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=207,116 207w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=60,34 60w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png 1366w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=100,56 100w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=300,169 300w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=768,432 768w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=1024,576 1024w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=683,384 683w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=575,323 575w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=470,264 470w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=600,337 600w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=462,260 462w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=285,160 285w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=207,116 207w, https://fivethirtyeight.com/wp-content/uploads/2016/12/screen-shot-2016-12-13-at-4-24-44-am.png?resize=60,34 60w"></figure>
-		
+
 <p>That explains why <a href="http://stats.nba.com/league/team/#!/clutch/?sort=FG_PCT&amp;dir=-1">the Bulls own the NBA’s worst field-goal percentage during the last five minutes of close games</a> and how <a href="http://stats.nba.com/team/#!/1610612741/lineups-advanced/?sort=MIN&amp;dir=1&amp;Season=2016-17&amp;SeasonType=Regular%20Season&amp;GroupQuantity=3&amp;Period=4">the same three players are losing by 12 points per 100 plays in fourth quarters</a>.</p>
 <p>Nevertheless, the Bulls have been able to survive many of their late-game scares with solid defense. They’ve been surprisingly good on that end of the floor, <a href="http://stats.nba.com/teams/opponent/#!?sort=OPP_FTA&amp;dir=-1">limiting opponents to 18 free throws a game, second-fewest in the NBA</a>, while also <a href="http://www.chicagotribune.com/sports/basketball/bulls/ct-bulls-defense-force-turnovers-spt-1025-20161024-story.html">forcing turnovers at a better rate</a> than last season.</p>
 <p>And for how horrible their shooting is, the Bulls make up for some of that with their newfound ability to draw fouls — never much of a strength of <a href="http://www.espn.com/blog/truehoop/post/_/id/22636/assessing-derrick-rose-and-basketball">the old-look Bulls</a> <a href="http://www.espn.com/nba/insider/columns/story?columnist=hollinger_john&amp;page=PERDiem-101210">and their star</a>. Their free-throw attempts — more consistent than relying on someone like Butler’s jump shot — are up <a href="http://www.basketball-reference.com/teams/CHI/2017.html">more than 21 percent</a> from the same point last season. Another welcome source of scoring: the offensive glass. Chicago, <a href="http://stats.nba.com/teams/misc/#!?Season=2011-12&amp;SeasonType=Regular%20Season&amp;sort=PTS_2ND_CHANCE&amp;dir=-1">similar to the Bulls teams that Thibodeau coached</a>, owns the <a href="http://stats.nba.com/league/team/#!/advanced/?sort=OREB_PCT&amp;dir=1">best offensive-rebounding rate</a> in the NBA and <a href="http://stats.nba.com/teams/misc/#!?Season=2016-17&amp;SeasonType=Regular%20Season&amp;sort=PTS_2ND_CHANCE&amp;dir=-1">scores more second-chance points</a> per night than any other club.</p>

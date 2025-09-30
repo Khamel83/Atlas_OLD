@@ -9,59 +9,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff was supposed to be off today, but is not.Statistically speaking, almost nobody who has ever bought Meta Platfo
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff was supposed to be off today, but is not.
 
-  
-    
+
+
       Ripple
-    
-  
+
+
 
 Statistically speaking, almost nobody who has ever bought Meta Platforms Inc. stock bought it from Meta. Between its founding in 2004 and its 2012  initial public offering, Facebook (as Meta was then called) raised about $2.9 billion by selling stock to venture capitalists.
   [1]
@@ -154,41 +154,41 @@ More broadly, if you take this decision seriously, it means that the SEC has ess
 But I am not sure that it is actually all that good for crypto in the long run. The message of this decision is that crypto companies can freely sell tokens to retail investors as long as those retail investors are uninformed and the companies are secretive about it; only if they sell tokens openly to sophisticated investors will they get in trouble. That’s bad.
 In the 1920s, a lot of people started very shady companies and raised a lot of money by selling stock with bad and misleading disclosures, and so the securities laws were created to stop them. That did not have the result of stamping out stock issuance in the US. Quite the contrary! The US stock market was helped enormously by having disclosure rules and protections for retail investors. The basic rule of the US stock market is “you can kind of do what you like with sophisticated investors, but there are strict rules about how much you have to disclose to retail investors,” and that works out well. The opposite rule in this case — “you can do what you like with retail, but stay away from sophisticated investors” — seems likely to work out poorly. If the law encourages crypto companies to take advantage of the least sophisticated investors, then who would want to invest in crypto?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Things happen
-    
-  
+
+
 
 JPMorgan Notches   Record Revenue on Rates, First Republic Deal. Citi Gets Boost From Credit Cards as Borrowers Start to Struggle.   Wells Fargo Lifts Net Interest Income Guidance on Rate Hikes.   BlackRock Assets Rise to $9.4 Trillion, Fueled by Bull Run. Silicon Valley start-ups explore sales as  funding runs dry. French Billionaire Pinault Is in Talks to Buy   CAA Talent Agency in $7 Billion Deal.  FTX Sues Over European Unit Deal, Seeking to Recover $323 Million. More than 120 senior  Credit Suisse investment bankers flee for rivals. Stablecoin  rating agency. Airport  rides. Tortoise  trusts. A  renegade sea otter is terrorizing California surfers.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Lazily estimated from the “additional paid-in capital” line in the  capitalization table of the IPO prospectus.
 
 
@@ -225,48 +225,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [12] Well. I suppose if you are a crypto investment bank in the business of brokering token sales from issuers to venture capitalists, then those are securities offerings and you technically need to register with the SEC as a securities brokerage. But brokers and exchanges in the secondary market would not.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -277,46 +277,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj3n5d.5wi9/aca1d558.gif" alt="" border="0" /></a>

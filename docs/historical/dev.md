@@ -28,7 +28,7 @@ This document outlines the development philosophy and processes for the Atlas pr
 - **MANDATORY pre-flight disk checks** before background operations
 - **Circuit breaker pattern** - Stop after 10 consecutive failures, don't retry indefinitely
 - **Log rotation enforcement** - Size-based (50MB max) and time-based (daily) cleanup
-- **Failure rate monitoring** - Alert if >50% operations fail, investigate immediately  
+- **Failure rate monitoring** - Alert if >50% operations fail, investigate immediately
 - **Error log deduplication** - Don't log identical errors repeatedly
 - **Background service health** - Monitor resource usage, not just process existence
 - **Storage audits** - Regular `du -sh` checks to identify bloat before crisis
@@ -65,14 +65,14 @@ class BackgroundService:
         self.project_root = Path(__file__).parent.parent
         # ALWAYS use this pattern for subprocess calls
         self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
-        
+
     def run_subprocess(self, script_name):
         subprocess.run([self.python_executable, script_name], cwd=self.project_root)
 ```
 
 ### **Common Failure Patterns to AVOID:**
 - ❌ `sys.executable` - Points to system Python, not venv
-- ❌ `/venv/bin/python3` - Wrong venv name  
+- ❌ `/venv/bin/python3` - Wrong venv name
 - ❌ Hardcoded absolute paths - Break on deployment
 - ❌ Assuming `python3` command uses venv - Uses system Python
 
@@ -141,7 +141,7 @@ All tasks in `TASKS.md` must follow these rules for successful Qwen execution:
 Every task MUST include `verification_command` with bash tests:
 ```yaml
 verification_command: |
-  test -f docs/user-guides/SETUP.md && 
+  test -f docs/user-guides/SETUP.md &&
   wc -w docs/user-guides/SETUP.md | awk '{if($1<350) exit 1}' &&
   grep -q "Installation" docs/user-guides/SETUP.md
 ```
@@ -149,7 +149,7 @@ verification_command: |
 #### **3. No Manual Testing or Device Access**
 Qwen cannot:
 - Test on iOS/macOS devices
-- Take screenshots or record videos  
+- Take screenshots or record videos
 - Interact with browser extensions
 - Perform user experience testing
 - Access external APIs without credentials
@@ -166,7 +166,7 @@ Always specify exact paths and directory structures:
 # ❌ BAD
 - "Create documentation files"
 
-# ✅ GOOD  
+# ✅ GOOD
 - "Create docs/user-guides/MAC_GUIDE.md"
 - "Generate apple_shortcuts/shortcuts/save-to-atlas.shortcut"
 - "Update web/templates/dashboard.html with new sections"
@@ -197,11 +197,11 @@ Follow the agents.md execution pattern:
 preflight_checks:
   - "test -f .env || cp .env.template .env"
   - "python3 -c 'import requests' || pip install requests"
-  
+
 git_workflow:
   branch_name: "task/ATLAS-COMPLETE-XXX-description"
   commit_prefix: "task(ATLAS-COMPLETE-XXX):"
-  
+
 post_completion:
   - "git add . && git commit -m 'task(ATLAS-COMPLETE-XXX): completed task'"
   - "python3 scripts/update_index.sh"
@@ -211,7 +211,7 @@ post_completion:
 Before adding any task to `TASKS.md`, verify:
 
 - [ ] All steps are concrete file/code operations
-- [ ] Verification command tests actual deliverables  
+- [ ] Verification command tests actual deliverables
 - [ ] No manual testing or device access required
 - [ ] File paths and structures explicitly specified
 - [ ] Content requirements quantified (word counts, sections)
@@ -223,7 +223,7 @@ Before adding any task to `TASKS.md`, verify:
 ```yaml
 # ❌ These will fail in autonomous mode:
 - "Create engaging user experience"
-- "Test thoroughly on multiple devices"  
+- "Test thoroughly on multiple devices"
 - "Gather user feedback and iterate"
 - "Make it look professional"
 - "Optimize for best practices"
@@ -247,7 +247,7 @@ Before adding any task to `TASKS.md`, verify:
 #### **1. Task Status Tracking Problems**
 **Issue**: Tasks marked as "todo" remained that way even after completion, causing Qwen to skip or re-attempt completed work.
 
-**Fix**: 
+**Fix**:
 - Manually updated completed tasks in `TASKS.md` to `status: done`
 - Updated: ATLAS-COMPLETE-001, ATLAS-COMPLETE-002, ATLAS-COMPLETE-003
 
@@ -261,14 +261,14 @@ HDR = re.compile(r"^### \[(?P<id>[^\]]+)\]\s*(?P<title>.+)$")
 ```
 
 **Fix**: Corrected regex to match actual TASKS.md format:
-```python  
+```python
 # ✅ WORKING - Matches "### **ATLAS-COMPLETE-001: Title**"
 HDR = re.compile(r"^### \*\*(?P<id>ATLAS-COMPLETE-\d+):\s*(?P<title>[^*]+)\*\*$")
 ```
 
 **Prevention**: Test regex patterns against actual task headers before deployment.
 
-#### **3. Command Substitution Security Restrictions**  
+#### **3. Command Substitution Security Restrictions**
 **Issue**: Scripts failed with "Command substitution using $() is not allowed for security reasons"
 
 **Fix**: Created `scripts/rotate_large_logs.sh` without command substitution:
@@ -314,7 +314,7 @@ READY_TASKS = [
 python3 scripts/next_task.py
 
 # Test simplified picker
-python3 scripts/simple_next_task.py  
+python3 scripts/simple_next_task.py
 
 # Test log rotation (if needed)
 bash scripts/rotate_large_logs.sh
@@ -327,7 +327,7 @@ python3 quick_task_test.py
 Before starting autonomous Qwen execution:
 
 - [ ] Test `scripts/next_task.py` returns valid JSON
-- [ ] Verify completed tasks marked as `status: done` 
+- [ ] Verify completed tasks marked as `status: done`
 - [ ] Check no command substitution ($()) in scripts
 - [ ] Confirm PyYAML installed system-wide
 - [ ] Test regex patterns against actual task headers
@@ -352,7 +352,7 @@ Gemini CLI provides 60 Pro requests initially, then drops to free tier with limi
 ```bash
 # Strategic analysis and architecture decisions
 gemini -p "Analyze TASKS.md and create execution plan for next 5 tasks with dependencies"
-gemini -p "Review current Atlas architecture and identify optimization opportunities"  
+gemini -p "Review current Atlas architecture and identify optimization opportunities"
 gemini -p "Design error handling strategy for background services"
 gemini -p "Create comprehensive test strategy for cognitive features"
 ```
@@ -368,7 +368,7 @@ gemini -p "Execute the test plan created in Phase 1"
 ### **Authentication Strategy**
 ```bash
 # Option 1: OAuth (Recommended for Atlas)
-# - 60 requests/min, 1000 requests/day initially  
+# - 60 requests/min, 1000 requests/day initially
 # - Gemini 2.5 Pro with 1M token context
 # - No API key management
 gemini auth login
@@ -384,7 +384,7 @@ gemini -k
 Create `GEMINI.md` in project root for consistent behavior:
 ```markdown
 # Atlas Project Context for Gemini CLI
-You are working on Atlas, a cognitive amplification system. 
+You are working on Atlas, a cognitive amplification system.
 
 ## Key Constraints:
 - Follow bulletproof process management patterns
@@ -413,7 +413,7 @@ You are working on Atlas, a cognitive amplification system.
 # Architecture analysis
 gemini --include-directories helpers,monitoring "Analyze memory leak patterns and design prevention strategy"
 
-# Strategic task planning  
+# Strategic task planning
 gemini -p "Review TASKS.md and create detailed execution plan with time estimates and risk analysis"
 
 # Complex problem solving
@@ -437,7 +437,7 @@ gemini -p "Create pytest test for the implemented memory leak detection using th
 #### **Pro Tier Usage (First 60 requests)**
 Priority order for maximum value:
 1. **Strategic Planning** (20 requests): Architecture decisions, task sequencing, risk analysis
-2. **Problem Solving** (20 requests): Complex debugging, system design, optimization strategies  
+2. **Problem Solving** (20 requests): Complex debugging, system design, optimization strategies
 3. **Code Review** (10 requests): Security analysis, performance review, best practices
 4. **Documentation** (10 requests): Architecture docs, user guides, API documentation
 
@@ -455,7 +455,7 @@ Focus on concrete implementation:
 # 1. Gemini for planning (Pro tier)
 PLAN=$(gemini -p "Create execution plan for ATLAS-COMPLETE-005 with specific file changes and validation steps")
 
-# 2. Qwen for execution (unlimited)  
+# 2. Qwen for execution (unlimited)
 echo "$PLAN" > task_execution_plan.md
 # Then run Qwen with the detailed plan
 ```
@@ -490,7 +490,7 @@ gemini -p "Run validation tests for the implemented changes and fix any errors"
 ### **Best Practices Summary**
 - **Front-load planning**: Use Pro tier for high-level analysis and strategy
 - **Batch execution**: Group implementation tasks for free tier usage
-- **Context optimization**: Use GEMINI.md and directory inclusion for better results  
+- **Context optimization**: Use GEMINI.md and directory inclusion for better results
 - **Hybrid approach**: Gemini for planning, Qwen for execution
 - **Error recovery**: Leverage Gemini's problem-solving for debugging complex issues
 - **Request tracking**: Monitor usage to stay within limits and optimize value
@@ -543,7 +543,7 @@ Never hardcode ports in documentation:
 # ❌ BAD - Hardcoded port
 Visit https://atlas.khamel.com
 
-# ✅ GOOD - Dynamic port reference  
+# ✅ GOOD - Dynamic port reference
 PORT=$(python -c 'from get_port import get_project_port; print(get_project_port())')
 Visit http://localhost:$PORT
 ```
@@ -551,7 +551,7 @@ Visit http://localhost:$PORT
 #### **5. Zero-Hardcode Rule**
 **CRITICAL**: Core services must NEVER hardcode ports. All hardcoding leads to:
 - Development conflicts between projects
-- Deployment issues across environments  
+- Deployment issues across environments
 - Documentation becoming outdated
 - Developer confusion about which service runs where
 

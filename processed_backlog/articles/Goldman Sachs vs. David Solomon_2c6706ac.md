@@ -53,7 +53,7 @@ Solomon went to work for firms like Bear Stearns and Drexel Burnham Lambert inst
 
 “If you wanted, you could start over as an analyst,” Lemkau told him. “And then people wouldn’t call you that.”
 
-Although Solomon didn’t experience Goldman in its pre-IPO partnership days, he rose to lead the investment-banking division, where his rigorous and demanding style kept his team at the top of the industry. By some accounts, it had never been better run. “I can’t think of  
+Although Solomon didn’t experience Goldman in its pre-IPO partnership days, he rose to lead the investment-banking division, where his rigorous and demanding style kept his team at the top of the industry. By some accounts, it had never been better run. “I can’t think of
 a more horrible thing to say about a person, but he’s just kind of an executioner,” says a former executive.
 
 Success created cover for Solomon’s rougher qualities. He had a reputation for being “very punitive, very sharp-tongued, very hotheaded,” says Jamie Fiore Higgins, a former managing director and the author of a 2022 memoir, *Bully Market: My Story of Money and Misogyny at Goldman Sachs*. Solomon could also be sensitive about his image. After a reporter described him as “paunchy” in a 2011 article, Solomon confronted her. Grabbing the fleshy inches covering his midsection, he demanded, “Do you think this is a paunch?”
@@ -156,7 +156,7 @@ Solomon has lately tried to win back the partners, hosting “cultural stewardsh
 * [one great story](//nymag.com/intelligencer/tags/one-great-story/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

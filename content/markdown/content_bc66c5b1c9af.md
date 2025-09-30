@@ -268,9 +268,9 @@ function e(t, e) {
 }
 if(location.search.indexOf('no_sparrow')<0){
 e("http://web.archive.org/web/20201214112519/https://pixel.condenastdigital.com/config/v2/production/the-new-yorker.config.js", function() {
-  e("http://web.archive.org/web/20201214112519/https://pixel.condenastdigital.com/sparrow.min.js", function() { 
+  e("http://web.archive.org/web/20201214112519/https://pixel.condenastdigital.com/sparrow.min.js", function() {
     if (window.SparrowConfigV2) {
-      window.sparrow = new window.Sparrow(window.SparrowConfigV2); 
+      window.sparrow = new window.Sparrow(window.SparrowConfigV2);
       new DQ();
     }
   })

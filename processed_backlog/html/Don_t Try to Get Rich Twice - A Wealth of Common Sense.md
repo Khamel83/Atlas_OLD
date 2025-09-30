@@ -32,10 +32,10 @@ Risk comes in many shapes and forms. For some people, risk means running out of 
 
 It’s hard enough to get rich once. Don’t force yourself to have to get rich twice.
 
-Source:  
+Source:
 [Warren Buffett Meeting with University Maryland MBA Students (David Kass)](http://blogs.rhsmith.umd.edu/davidkass/uncategorized/warren-buffetts-meeting-with-university-of-maryland-mbams-students-november-18-2016/)
 
-Further Reading:  
+Further Reading:
 [Book Review: Simple Wealth, Inevitable Wealth](https://awealthofcommonsense.com/2014/05/book-review-simple-wealth-inevitable-wealth-2/)
 
 

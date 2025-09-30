@@ -12,7 +12,7 @@
 
 # » B.S. Report: Jon Hamm
 
-Bill Simmons • Unknown date 
+Bill Simmons • Unknown date
 
 ![» B.S. Report: Jon Hamm](https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg)
 

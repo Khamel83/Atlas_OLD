@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • May 16, 2017 
+Unknown author • May 16, 2017
 
 ![nytimes.com]()
 

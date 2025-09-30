@@ -31,10 +31,10 @@ class LogEntry:
 
 class LogDashboard:
     """Log viewing and analysis dashboard."""
-    
+
     def __init__(self):
         self.logger = get_logger("log_dashboard")
-        
+
         # Use same log directory logic as logging_config
         try:
             self.log_dir = Path("/var/log/atlas")
@@ -42,18 +42,18 @@ class LogDashboard:
         except PermissionError:
             self.log_dir = Path("logs") / "atlas"
             self.log_dir.mkdir(exist_ok=True, parents=True)
-        
+
         self.log_db_path = self.log_dir / "log_index.db"
         self.setup_log_database()
-    
+
     def setup_log_database(self):
         """Setup SQLite database for log indexing."""
         try:
             self.log_dir.mkdir(exist_ok=True, parents=True)
-            
+
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS log_entries (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -67,12 +67,12 @@ class LogDashboard:
                     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
                 )
             """)
-            
+
             # Create indexes separately
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_timestamp ON log_entries(timestamp)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_level ON log_entries(level)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_component ON log_entries(component)")
-            
+
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS error_patterns (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -83,37 +83,37 @@ class LogDashboard:
                     severity TEXT DEFAULT 'medium'
                 )
             """)
-            
+
             conn.commit()
             conn.close()
-            
+
         except Exception as e:
             self.logger.error(f"Failed to setup log database: {e}")
-    
+
     def index_log_files(self):
         """Index JSON log files into database for fast searching."""
         try:
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             # Get last indexed timestamp
             cursor.execute("SELECT MAX(timestamp) FROM log_entries")
             last_indexed = cursor.fetchone()[0]
-            
+
             indexed_count = 0
-            
+
             for log_file in self.log_dir.glob("*.json.log"):
                 with open(log_file, 'r') as f:
                     for line_num, line in enumerate(f, 1):
                         try:
                             log_data = json.loads(line.strip())
-                            
+
                             # Skip if already indexed
                             if last_indexed and log_data.get('timestamp', '') <= last_indexed:
                                 continue
-                            
+
                             cursor.execute("""
-                                INSERT INTO log_entries 
+                                INSERT INTO log_entries
                                 (timestamp, level, component, message, details, performance_metrics, log_file)
                                 VALUES (?, ?, ?, ?, ?, ?, ?)
                             """, (
@@ -126,70 +126,70 @@ class LogDashboard:
                                 str(log_file)
                             ))
                             indexed_count += 1
-                            
+
                         except json.JSONDecodeError:
                             # Skip invalid JSON lines
                             continue
                         except Exception as e:
                             self.logger.error(f"Error indexing line {line_num} in {log_file}: {e}")
-            
+
             conn.commit()
             conn.close()
-            
+
             if indexed_count > 0:
                 self.logger.info(f"Indexed {indexed_count} new log entries")
-            
+
         except Exception as e:
             self.logger.error(f"Failed to index log files: {e}")
-    
-    def get_recent_logs(self, limit: int = 100, level_filter: str = None, 
+
+    def get_recent_logs(self, limit: int = 100, level_filter: str = None,
                        component_filter: str = None, hours_back: int = 24) -> List[LogEntry]:
         """Get recent log entries with optional filtering."""
         try:
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             # Build query with filters
             query = """
                 SELECT timestamp, level, component, message, details, performance_metrics
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
             """.format(hours_back)
-            
+
             params = []
-            
+
             if level_filter:
                 query += " AND level = ?"
                 params.append(level_filter)
-            
+
             if component_filter:
                 query += " AND component = ?"
                 params.append(component_filter)
-            
+
             query += " ORDER BY timestamp DESC LIMIT ?"
             params.append(limit)
-            
+
             cursor.execute(query, params)
             results = cursor.fetchall()
-            
+
             logs = []
             for row in results:
                 timestamp, level, component, message, details_json, metrics_json = row
-                
+
                 details = None
                 if details_json:
                     try:
                         details = json.loads(details_json)
                     except json.JSONDecodeError:
                         pass
-                
+
                 performance_metrics = None
                 if metrics_json:
                     try:
                         performance_metrics = json.loads(metrics_json)
                     except json.JSONDecodeError:
                         pass
-                
+
                 logs.append(LogEntry(
                     timestamp=timestamp,
                     level=level,
@@ -198,110 +198,110 @@ class LogDashboard:
                     details=details,
                     performance_metrics=performance_metrics
                 ))
-            
+
             conn.close()
             return logs
-            
+
         except Exception as e:
             self.logger.error(f"Failed to get recent logs: {e}")
             return []
-    
+
     def get_error_summary(self, hours_back: int = 24) -> Dict[str, Any]:
         """Get error summary statistics."""
         try:
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             # Error counts by level
             cursor.execute("""
                 SELECT level, COUNT(*) as count
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
                 AND level IN ('ERROR', 'CRITICAL', 'WARNING')
                 GROUP BY level
             """.format(hours_back))
-            
+
             error_counts = {row[0]: row[1] for row in cursor.fetchall()}
-            
+
             # Top error messages
             cursor.execute("""
                 SELECT message, COUNT(*) as count
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
                 AND level IN ('ERROR', 'CRITICAL')
                 GROUP BY message
                 ORDER BY count DESC
                 LIMIT 10
             """.format(hours_back))
-            
+
             top_errors = [{"message": row[0], "count": row[1]} for row in cursor.fetchall()]
-            
+
             # Component error breakdown
             cursor.execute("""
                 SELECT component, level, COUNT(*) as count
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
                 AND level IN ('ERROR', 'CRITICAL', 'WARNING')
                 GROUP BY component, level
                 ORDER BY component, level
             """.format(hours_back))
-            
+
             component_errors = {}
             for row in cursor.fetchall():
                 component, level, count = row
                 if component not in component_errors:
                     component_errors[component] = {}
                 component_errors[component][level] = count
-            
+
             conn.close()
-            
+
             return {
                 "error_counts": error_counts,
                 "top_errors": top_errors,
                 "component_errors": component_errors,
                 "total_errors": sum(error_counts.values())
             }
-            
+
         except Exception as e:
             self.logger.error(f"Failed to get error summary: {e}")
             return {"error_counts": {}, "top_errors": [], "component_errors": {}, "total_errors": 0}
-    
-    def search_logs(self, search_term: str, limit: int = 100, 
+
+    def search_logs(self, search_term: str, limit: int = 100,
                    hours_back: int = 24) -> List[LogEntry]:
         """Search logs for specific terms."""
         try:
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             cursor.execute("""
                 SELECT timestamp, level, component, message, details, performance_metrics
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
                 AND (message LIKE ? OR component LIKE ?)
                 ORDER BY timestamp DESC
                 LIMIT ?
             """.format(hours_back), (f"%{search_term}%", f"%{search_term}%", limit))
-            
+
             results = cursor.fetchall()
-            
+
             logs = []
             for row in results:
                 timestamp, level, component, message, details_json, metrics_json = row
-                
+
                 details = None
                 if details_json:
                     try:
                         details = json.loads(details_json)
                     except json.JSONDecodeError:
                         pass
-                
+
                 performance_metrics = None
                 if metrics_json:
                     try:
                         performance_metrics = json.loads(metrics_json)
                     except json.JSONDecodeError:
                         pass
-                
+
                 logs.append(LogEntry(
                     timestamp=timestamp,
                     level=level,
@@ -310,38 +310,38 @@ class LogDashboard:
                     details=details,
                     performance_metrics=performance_metrics
                 ))
-            
+
             conn.close()
             return logs
-            
+
         except Exception as e:
             self.logger.error(f"Failed to search logs: {e}")
             return []
-    
+
     def get_performance_timeline(self, hours_back: int = 24) -> Dict[str, List]:
         """Get performance metrics over time."""
         try:
             conn = sqlite3.connect(self.log_db_path)
             cursor = conn.cursor()
-            
+
             cursor.execute("""
                 SELECT timestamp, performance_metrics
-                FROM log_entries 
+                FROM log_entries
                 WHERE timestamp >= datetime('now', '-{} hours')
                 AND performance_metrics IS NOT NULL
                 ORDER BY timestamp
             """.format(hours_back))
-            
+
             timeline = {
                 "timestamps": [],
                 "memory_usage": [],
                 "cpu_usage": [],
                 "queue_pending": []
             }
-            
+
             for row in cursor.fetchall():
                 timestamp, metrics_json = row
-                
+
                 try:
                     metrics = json.loads(metrics_json)
                     timeline["timestamps"].append(timestamp)
@@ -350,23 +350,23 @@ class LogDashboard:
                     timeline["queue_pending"].append(metrics.get("queue_pending", 0))
                 except json.JSONDecodeError:
                     continue
-            
+
             conn.close()
             return timeline
-            
+
         except Exception as e:
             self.logger.error(f"Failed to get performance timeline: {e}")
             return {"timestamps": [], "memory_usage": [], "cpu_usage": [], "queue_pending": []}
-    
+
     def generate_html_dashboard(self) -> str:
         """Generate HTML dashboard for log viewing."""
         # Update log index first
         self.index_log_files()
-        
+
         recent_logs = self.get_recent_logs(limit=50)
         error_summary = self.get_error_summary()
         performance_timeline = self.get_performance_timeline()
-        
+
         html_template = """
 <!DOCTYPE html>
 <html lang="en">
@@ -499,7 +499,7 @@ class LogDashboard:
             <p>Real-time system monitoring and log analysis</p>
             <p><small>Last updated: {current_time}</small></p>
         </div>
-        
+
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-number error">{total_errors}</div>
@@ -518,12 +518,12 @@ class LogDashboard:
                 <div class="stat-label">Active Components</div>
             </div>
         </div>
-        
+
         <div class="chart-container">
             <h3>Performance Timeline (24h)</h3>
             <canvas id="performanceChart" width="400" height="100"></canvas>
         </div>
-        
+
         <div class="filters">
             <div class="filter-group">
                 <label for="levelFilter">Log Level:</label>
@@ -549,13 +549,13 @@ class LogDashboard:
             </div>
             <button class="refresh-btn" onclick="location.reload()">🔄 Refresh</button>
         </div>
-        
+
         <div class="log-container">
             <div class="log-header">Recent Log Entries</div>
             {log_entries_html}
         </div>
     </div>
-    
+
     <script>
         // Performance Chart
         const ctx = document.getElementById('performanceChart').getContext('2d');
@@ -607,20 +607,20 @@ class LogDashboard:
                 }}
             }}
         }});
-        
+
         // Auto-refresh every 30 seconds
         setTimeout(() => location.reload(), 30000);
     </script>
 </body>
 </html>
         """
-        
+
         # Generate log entries HTML
         log_entries_html = ""
         for log in recent_logs:
             level_class = log.level.lower()
             timestamp_short = log.timestamp.split('T')[1].split('.')[0] if 'T' in log.timestamp else log.timestamp
-            
+
             log_entries_html += f"""
             <div class="log-entry">
                 <span class="log-timestamp">{timestamp_short}</span>
@@ -629,17 +629,17 @@ class LogDashboard:
                 {log.message}
             </div>
             """
-        
+
         # Generate component options
         components = set(log.component for log in recent_logs)
         component_options = "".join(f'<option value="{comp}">{comp}</option>' for comp in sorted(components))
-        
+
         # Prepare chart data
         chart_labels = json.dumps([ts.split('T')[1].split('.')[0] for ts in performance_timeline["timestamps"][-20:]])
         memory_data = json.dumps(performance_timeline["memory_usage"][-20:])
         cpu_data = json.dumps(performance_timeline["cpu_usage"][-20:])
         queue_data = json.dumps(performance_timeline["queue_pending"][-20:])
-        
+
         return html_template.format(
             current_time=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             total_errors=error_summary["total_errors"],
@@ -662,49 +662,49 @@ def get_log_dashboard() -> LogDashboard:
 
 if __name__ == "__main__":
     import argparse
-    
+
     parser = argparse.ArgumentParser(description="Atlas Log Dashboard")
     parser.add_argument("--index", action="store_true", help="Index log files")
     parser.add_argument("--generate-html", action="store_true", help="Generate HTML dashboard")
     parser.add_argument("--search", type=str, help="Search logs for term")
     parser.add_argument("--errors", action="store_true", help="Show error summary")
-    
+
     args = parser.parse_args()
-    
+
     dashboard = get_log_dashboard()
-    
+
     if args.index:
         print("Indexing log files...")
         dashboard.index_log_files()
         print("Log indexing completed.")
-    
+
     elif args.generate_html:
         html_content = dashboard.generate_html_dashboard()
         output_file = Path("logs") / "dashboard.html"
         output_file.parent.mkdir(exist_ok=True)
-        
+
         with open(output_file, 'w') as f:
             f.write(html_content)
-        
+
         print(f"HTML dashboard generated: {output_file}")
-    
+
     elif args.search:
         results = dashboard.search_logs(args.search)
         print(f"Found {len(results)} matching entries:")
         for log in results[:10]:  # Show first 10
             print(f"{log.timestamp} [{log.level}] {log.component}: {log.message}")
-    
+
     elif args.errors:
         error_summary = dashboard.get_error_summary()
         print("Error Summary (24h):")
         print(f"Total errors: {error_summary['total_errors']}")
         for level, count in error_summary['error_counts'].items():
             print(f"  {level}: {count}")
-        
+
         if error_summary['top_errors']:
             print("\nTop Error Messages:")
             for error in error_summary['top_errors'][:5]:
                 print(f"  {error['count']}x: {error['message'][:80]}...")
-    
+
     else:
         print("Use --help to see available options")

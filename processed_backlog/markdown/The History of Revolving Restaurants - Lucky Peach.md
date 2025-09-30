@@ -12,11 +12,11 @@
 
 # Page not found – luckypeach.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Page not found – luckypeach.com]()
 
-Nothing here  
-  
-It looks like nothing was found at this location. Maybe try a search? 
+Nothing here
+
+It looks like nothing was found at this location. Maybe try a search?
 

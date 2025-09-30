@@ -10,21 +10,21 @@
 Jun 19, 2024, 4:01 AM PDT
 
 Facebook
- 
 
-[Email](mailto:?subject=Almost%20half%20of%20Dell's%20full-time%20US%20workforce%20has%20rejected%20the%20company's%20return-to-office%20push&body=Almost%20half%20of%20Dell's%20full-time%20US%20workforce%20has%20rejected%20the%20company's%20return-to-office%20push%0D%0A%0D%0Ahttps%3A%2F%2Fwww.businessinsider.com%2Fus-dell-workers-reject-return-to-office-hybrid-work-2024-6&) 
+
+[Email](mailto:?subject=Almost%20half%20of%20Dell's%20full-time%20US%20workforce%20has%20rejected%20the%20company's%20return-to-office%20push&body=Almost%20half%20of%20Dell's%20full-time%20US%20workforce%20has%20rejected%20the%20company's%20return-to-office%20push%0D%0A%0D%0Ahttps%3A%2F%2Fwww.businessinsider.com%2Fus-dell-workers-reject-return-to-office-hybrid-work-2024-6&)
 
 
 Twitter
- 
+
 
 
 LinkedIn
- 
+
 
 
 Copy Link
- 
+
 
 
 
@@ -37,7 +37,7 @@ Impact Link
 ![](https://i.insider.com/66631d211cd3b17790445bd5?width=400&format=jpeg&auto=webp)
 
 Dell's return-to-office policy has faced internal resistance.
- 
+
 Delmaine Donson/Getty Images; Jenny Chang-Rodriguez
 
 This story is available exclusively to Business Insider

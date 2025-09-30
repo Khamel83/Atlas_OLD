@@ -11,11 +11,11 @@ Welcome to the 116 newly Not Boring people who have joined us since last Tues
 Today’s Not Boring, the whole thing, is brought to you by… Array Labs [ https://substack.com/redirect/40dec0ea-6455-4f3b-848c-69ec93150823?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 If you get as fired up reading this essay as I did writing it, you can simply go build radar satellite clusters to map the Earth in 3D by joining Array Labs:
 Hi friends 👋, 
-Happy Tuesday! It’s fall in New York City, the Eagles looked great on Monday Night Football, and I get to bring you a deep dive that’s been melting my brain for weeks. 
+Happy Tuesday! It’s fall in New York City, the Eagles looked great on Monday Night Football, and I get to bring you a deep dive that’s been melting my brain for weeks.
 If I’ve spoken with you over the past few weeks, chances are I’ve told you about Array Labs. It was designed for me. A deeply Hard Startup, riding exponential technology curves, to build distributed systems for space, to enable businesses on Earth, with a strategy as thoughtful as its hardware.
-Nothing makes me happier than banging my head against a complex company like Array for weeks to understand it well enough to share it with all of you. This is a longer essay that I’ve written in a while, because fully appreciating what Array is trying to do requires some knowledge of the earth observation market, how satellites work, how radars work, business strategy, the self-driving car market, and more. 
+Nothing makes me happier than banging my head against a complex company like Array for weeks to understand it well enough to share it with all of you. This is a longer essay that I’ve written in a while, because fully appreciating what Array is trying to do requires some knowledge of the earth observation market, how satellites work, how radars work, business strategy, the self-driving car market, and more.
 This is a Sponsored Deep Dive. I’ve always said that I’d only write them on companies I’d want to invest in — and I hope to invest in Array Labs when they raise next — and as Not Boring Capital’s thesis has tightened to Hard Startups that can bend the world’s trajectory upwards, so has the deep dive bar. Array clears that bar by hundreds of kilometers. You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/3da1d5d3-8923-45c1-905b-9046ca7ec780?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-So throw on some appropriate music… 
+So throw on some appropriate music…
 And let’s get to it.
 Array Labs: 3D Mapping Earth from Space
 A real-time, 3D map of the world is the holy grail of earth observation (EO). 
@@ -73,11 +73,11 @@ Foundation model companies, always hungry for more data to scale performance, co
 If the data was good and cheap enough, entrepreneurs would certainly dream up uses that I can’t. 
 In its ideal state, earth observation will expand humanity’s ability to understand, respond to, and shape events on a global scale. 
 And we’re getting closer. Over the past century, we’ve made significantly more progress towards that ideal state than we did in all of the millennia of human history before it. 
-There’s much more where this came from. For history on mapmaking and earth observation, a SAR primer, a peek into how Array plans to build the most efficient image collection system in the history of mankind, the curves it’s riding, its strategy, some risks, and where it’s heading… 
+There’s much more where this came from. For history on mapmaking and earth observation, a SAR primer, a peek into how Array plans to build the most efficient image collection system in the history of mankind, the curves it’s riding, its strategy, some risks, and where it’s heading…
 (Click the button or the title up top to head over to Not Boring)
 Here’s a little teaser:
-Thanks to Dan for editing, and to Andrew and Duffy for teaching me the ins and outs of SAR and letting me tell the Array Labs story! 
-That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday. Go get it this week. 
+Thanks to Dan for editing, and to Andrew and Duffy for teaching me the ins and outs of SAR and letting me tell the Array Labs story!
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday. Go get it this week.
 Thanks for reading,
 Packy
 

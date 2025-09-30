@@ -11,7 +11,7 @@
 
 # Niantic partners with Sleep No More creator to build immersive AR theater experiences
 
- / 
+ /
 
 ## Niantic is also working on 10 new projects, including games AR headsets
 
@@ -63,7 +63,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20231207101335im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20231207101335/http://theverge.com/)
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        There are not a lot of hostile takeovers of hedge funds. If you run a hedge fund, generally speaking, nobody is going to replace you as the 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        There are not a lot of hostile takeovers of hedge funds. If you run a hedge fund, generally speaking, nobody is going to replace you as the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 There are not a lot of hostile takeovers of hedge funds. If you run a hedge fund, generally speaking, nobody is going to replace you as the manager of that hedge fund without your permission. Your clients might leave, if you underperform or otherwise upset them, but they are not going to come to you as a group and say “we got to talking and 51% of us agree that we would rather have Boaz Weinstein run this fund.” Your lieutenants might become dissatisfied with working for you, but generally you control the company and they don’t, so they can’t mount a coup; their only recourse is to leave and start their own funds.
 But that is because the traditional hedge fund management firm is a private company mostly owned by its founder-boss. You can, however, have a hedge-fund firm that is also a public company, with public shareholders who control a majority of the votes. Then things can get tricky.
@@ -107,37 +107,37 @@ I have to say, this all seems very … solvable? Like:
 
 The market is pretty optimistic; at noon today Sculptor’s stock was trading around $11.85, well above the $11.15 Rithm deal price.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The CEO of Goldman Sachs is also a DJ
-    
-  
+
+
 
 The unstable situation at Goldman Sachs Group Inc., from about 1999 until   maybe 2021, is that its partners thought it was a private partnership run for their amusement, while its shareholders thought it was a public corporation run for their enrichment. This was a productive tension. Goldman’s partners arguably worked harder and were more loyal and thought more about the firm’s long-term interests than managing directors at other investment banks, because they were partners in firm. And junior people were motivated by the possibility of partnership to work harder and be more loyal too. Having good motivated employees is a good way to make a lot of money and, thus, make the shareholders rich. (Disclosure: I used to work at Goldman, though I was not motivated enough by the possibility of partnership to stay, or frankly to make a lot of money for shareholders.)
 But ultimately the difference between a partnership and a public company is that if the managing partner of a partnership gets great economic results but is rude to the other partners, they can fire him, but if the chief executive officer of a public company gets great results but is rude to the managing directors, they can’t fire him. Only the board can fire him, and the board is responsible to the shareholders, and if the shareholders are happy and the managing directors are sad then the CEO stays. If all the managing directors quit and are replaced by less talented, less hard-working and less loyal managing directors, leading to reduced economic profits, then eventually the board will fire the CEO. But being rude to the MDs is not in itself sufficient grounds for termination. Whereas being rude to the partners of a partnership absolutely is! It’s their company, and sure they are there to get rich, but they are also there to feel important, and if the managing partner is rude to them then he has to go.
@@ -164,11 +164,11 @@ Also, I don’t know if you knew this, but every article about Solomon is requir
 For much of Solomon’s remarkable career, he’s had the financial performance to ignore suggestions that he change his personality. His execution during the pandemic made 2021 Goldman’s best fiscal year ever with profits of nearly $22 billion. Not long afterward, a member of the bank’s board learned he was scheduled to play a set at Lollapalooza and confronted him about the cringey optics. “Listen, this is my hobby. Your hobby is playing golf,” Solomon said. The board member tried to sway the CEO: “No one has ever OD’d at Pine Valley or Shinnecock. There’s a reputational thing.”
 It also quotes former Goldman CEO Lloyd Blankfein telling people “DJ-ing is not a social hobby,” which is not quite true (you’re hosting a party!), but you know what he means: If you go golfing with clients, you spend hours walking around and bonding with them; if you DJ an event with clients you have headphones on and they can’t talk to you over your sick beats. How can you close a deal like that?
 
-  
-    
+
+
       Standard Industries
-    
-  
+
+
 
 An important form of financial arbitrage goes something like this:
 	There are glamorous businesses, but everyone wants to be in those businesses, so it is hard to get rich in them.	There are unglamorous businesses that are lucrative, but high-achieving people do not want to be in those businesses because they want to be able to tell their friends that they do something glamorous.	If you can rebrand an unglamorous business in a glamorous way, you can both get rich and feel cool telling your friends about it.
@@ -185,11 +185,11 @@ And:
 In 2019, Standard started a webcast speaker series that treated employees in its trucking and roofing subsidiaries — and anyone who wanted to watch online — to events featuring “innovators and thought leaders” in conversation with Mr. Millstone and Mr. Winter. Participants included the author Jennifer Egan discussing curiosity and fiction and the TV host Seth Meyers musing on fatherhood. 
 If you make enough money from your roofing company, you can make it a classy sophisticated roofing company.
 
-  
-    
+
+
       The Soho House guy
-    
-  
+
+
 
 I am late to this, but a whole lot of people sent me  this post from a guy named Jack Raines in which he detailed his plan to (1) use ChatGPT and a fake profile picture to catfish 30,000 men on Hinge into buying $3,000 Soho House memberships in order to impress fake dates and (2) “make $343,000” by buying call options on Soho House & Co. ahead of earnings. “I estimate that I contributed $90,000,000+ to Soho House’s top line in Q2,” he wrote. “Of course, this isn’t priced in. How could it be? So I bought $50,000 in call options expiring next week, knowing that they will print money after Soho House’s earnings.” I don’t know why those call options would make exactly $343,000 in his scenario; I’m just telling you what he wrote.
 Now, in the event,  Soho House’s second-quarter earnings were pretty good, and the stock was up almost 15% on the day. I have not bothered to figure out what call options he would have been buying, but if he bought them maybe he made money. Soho House’s total membership revenues for the quarter were $89 million, up from $66 million in the same quarter of 2022, and from $83 million in the first quarter of 2023, so he clearly did not contribute $90 million of revenue for the quarter. 
@@ -198,27 +198,27 @@ People mostly sent it to me with some version of the question “is this fraud�
 
 Mostly though I want to point out that if you ever concoct a cunning plan to create $90 million of revenue for a public company and cash in by making $343,000 for yourself on short-dated call option trades, you have made a terrible mistake, even if everything works perfectly! You’re capturing like 0.4% of the value you created. If you can create $90 million in revenue for Soho House out of nowhere, just call them up and offer to do it for a 10% cut, which is $9 million, which is so much more than $343,000. Really though if your plan is to trick people into paying $90 million for something that costs you nothing, you should be aiming to capture $90 million of that! Not legal advice! 
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Elon Musk did a bunch of tweeting (x’ing) about fighting Mark Zuckerberg while I was out on vacation and I did not have to pay attention to it at all. It felt great! Here is  an article about it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Arm Listing Set to Be Turning Point for   IPO Market, SoftBank. Goldman Sachs explores  investment adviser sale in retreat from mass market. Citi  considers overhaul that would hand more power to chief Jane Fraser. Wall Street Banks Rush to Reclaim Edge in Market for  Buyout Debt. Private credit extracts tough terms from buyout shops lacking options. Banks Don’t Love  Rich Mortgage Borrowers as Much as They Used To. Yang Huiyan, the Country Garden scion trying to stave off collapse.  Private fund industry prepares for battle over sweeping US rules. Is  Finra illegal? Meta’s  Threads App to Launch Web Version as Rivalry With X Enters New Stage. X to   Get Rid of Ability to Block Accounts, Owner Elon Musk Says. “Just because one ESG factor works, it doesn’t mean you can  blindly pursue another factor and hope to make money.” What the World’s Richest People  Wear on Yachts. Boston couple’s  dog eats passport days before wedding in Italy.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Och’s position here is interesting. He is a big shareholder in Sculptor, and no longer an employee, so he wants to maximize price. But he also has a weird tax position that gives him unusual incentives: He has a tax receivable agreement with Sculptor that requires it to pay him a lot of money for the tax savings of its corporate/partnership structure, and he owns partnership units that would incur a lot of tax on a sale. A footnote to the proxy statement says: “For context, the Special Committee and its legal and financial advisors discussed that the Former EMD Group’s economic interests diverge in certain respects from those of a public company shareholder due in part to, among other things, (a) the fact that absent a ‘roll over’ of LP Class A Units and LP Class A-1 Units in a tax-deferred transaction, members of the Former EMD Group would recognize significant taxable gain in excess of the proceeds received in the Mergers (as a result of taxable gain attributable in large part to tax-deferred distributions previously received by the Former EMD Group) and (b) the fact that the members of the Former EMD Group are beneficiaries under the TRA and thus entitled to certain future payments pursuant to the TRA following the closing of a potential transaction.” (“Former EMD Group” refers to former executive managing directors, mainly Och, and the TRA is the tax receivable agreement.) What this means is that Och has incentives to try to stop any deal that would cash him out (because he’d pay more taxes than he’d get in cash), and prefer a deal that lets him roll over his partnership units and keep them outstanding for a long time to defer taxes. The Rithm deal *does* let him roll over his units, or did anyway. Also from the proxy: “On August 16, 2023, the Former EMD Group sent a letter to the Special Committee (the ‘August 16 Letter’) expressing concerns about the Transactions, and filed a Schedule 13D/A publicly disclosing the August 16 Letter. The transaction documents provide that if any member of the Former EMD Group makes any communication to any third party that, among other things, criticizes, disparages or creates a negative impression of the Transactions, Parent or the Company, then Parent will have no obligation to offer the Rollover to the Former EMD Group. As a result, the public disclosure of the August 16 Letter resulted in Parent no longer having the obligation to offer the Rollover to the Former EMD Group.” Ha! Anyway the proxy suggests that Och rejected higher bids for the company because they offered him worse tax treatment.
 
 
-  [2] There is an interesting legal question here, which is: If you are Sculptor’s board of directors, and you are contemplating selling the company, should you consider *only* maximizing the price you get for shareholders of the management company, or *also* doing what is right for the investors in the fund? If, like, Elon Musk came along and offered Sculptor an ironclad deal to pay $13 per share, and announced plans to invest all of the funds in Dogecoin, would the board have to take that offer? Incidentally the big private-equity firms that went public often 
+  [2] There is an interesting legal question here, which is: If you are Sculptor’s board of directors, and you are contemplating selling the company, should you consider *only* maximizing the price you get for shareholders of the management company, or *also* doing what is right for the investors in the fund? If, like, Elon Musk came along and offered Sculptor an ironclad deal to pay $13 per share, and announced plans to invest all of the funds in Dogecoin, would the board have to take that offer? Incidentally the big private-equity firms that went public often
 explicitly disclaimed fiduciary duties to their public shareholders, so they could be fiduciaries for their funds’ LPs instead, but I don’t think Sculptor works that way.
 
 
@@ -231,48 +231,48 @@ explicitly disclaimed fiduciary duties to their public shareholders, so they cou
   [5] From the proxy: “Twenty-five of the seventy potential acquirors, including Rithm, executed NDAs with the Company. Of the twenty-five NDAs executed with potential acquirors, twenty-four contained a standstill provision (all but Bidder A), twenty-two of the standstill provisions contained ‘don’t ask/don’t waive’ provisions, all of which the Board of Directors has since waived through adoption of a resolution that permits each counterparty to submit confidential proposals to the Board of Directors or the Special Committee, and five of the standstill provisions terminated automatically upon the announcement of the Merger Agreement."
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjbuk7.5lpu/ddcfead1.gif" alt="" border="0" /></a>

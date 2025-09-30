@@ -31,7 +31,7 @@ Mentioned in this issue: Simone Bellotti, Bally, Jil Sander, Renzo Rosso, Luke a
 Villaseñor, Charlotte Collet, Michael A. Reinstein, Cheryl Hines, R.F.K. Jr., Olivia Nuzzi, Mary Janes, Leo Mas, Nicolas Girotto, Daniel Lee, Burberry, Joshua Schulman, LVMH, Hermès, Luca Solca, Jonathan Anderson, Dior, John Galliano’s newspaper print, Jean-Jacques
 Guiony, Alexandre Arnault, and many, many more… 
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -149,7 +149,7 @@ leather goods. (At Bally, he proved that he could design novel handbags.) And Ji
 And yet, I can’t help but feel a little sadness that the great, short-lived Bally experiment appears to
 be nearing its end. In fashion, everything is so predictable. The discovery of Bellotti’s talent was a genuine, too-good-to-be-true surprise. How lucky were we to have witnessed it. 
 
- 
+
 
 What
 I’m Reading…
@@ -177,7 +177,7 @@ Longtime Cartier exec Mercedes Abramo was named the C.E.O. of North America at R
 expensive fashion item was a $30,711 Tom Ford-for-Gucci baby-blue chubby. The top-five most expensive fashion items sold were designed by Tom Ford (two spots), John Galliano (two spots), and Alexander McQueen, all of whom came to prominence in the 1990s. (Says a lot about where we are in the fashion cycle.) Tiffany sales grew by 41 percent. Hermès was the top-selling handbag brand, with Gucci coming in second, beating Chanel and Louis Vuitton. There’s so much fun stuff in here.
 [1stDibs ( https://www.1stdibs.com/info/2024-luxury-e-commerce-report/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F22%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#LER2024topsales )]
 
- 
+
 
 And finally… Where is Galliano? Who is replacing him at Margiela? Who is the
 new designer of Missoni? Who is the new Jean Paul Gaultier designer? Why are people still talking about Dario Vitale and Versace? What other questions do you need me to answer?
@@ -240,6 +240,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUkEFUtDmRIdfXBPvFMCk=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F22%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

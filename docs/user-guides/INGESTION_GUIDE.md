@@ -129,7 +129,7 @@ Atlas includes PODEMOS, a comprehensive personal podcast processing system that 
    ```bash
    # Export OPML from your podcast app (Overcast, Pocket Casts, etc.)
    # Save as inputs/podcast_subscriptions.opml
-   
+
    # Import subscriptions to PODEMOS
    python3 podemos_opml_parser.py inputs/podcast_subscriptions.opml
    ```
@@ -141,7 +141,7 @@ Atlas includes PODEMOS, a comprehensive personal podcast processing system that 
    PODEMOS_PROCESSING_TIME="02:00"  # 2 AM daily processing
    PODEMOS_RSS_HOST=your_domain.com
    PODEMOS_AUTH_TOKEN=your_secure_token
-   
+
    # Oracle OCI configuration for RSS hosting
    OCI_BUCKET_NAME=your_bucket_name
    OCI_REGION=your_region
@@ -151,10 +151,10 @@ Atlas includes PODEMOS, a comprehensive personal podcast processing system that 
    ```bash
    # Start feed monitoring (runs continuously)
    python3 podemos_feed_monitor.py --daemon
-   
+
    # Start RSS server for private feeds
    python3 podemos_rss_server.py --daemon
-   
+
    # Or use unified service manager
    python3 unified_service_manager.py start --podemos
    ```
@@ -203,7 +203,7 @@ Atlas includes PODEMOS, a comprehensive personal podcast processing system that 
    ```bash
    # Check PODEMOS processing status
    python3 podemos_monitor.py --status
-   
+
    # View recent processing activity
    python3 podemos_monitor.py --recent-activity
    ```
@@ -368,7 +368,7 @@ For specific videos or one-time processing:
    # Create file with YouTube URLs (one per line)
    echo "https://youtube.com/watch?v=VIDEO_ID_1" > inputs/youtube_urls.txt
    echo "https://youtube.com/watch?v=VIDEO_ID_2" >> inputs/youtube_urls.txt
-   
+
    # Process batch
    python3 scripts/atlas_scheduler.py --youtube-batch inputs/youtube_urls.txt
    ```
@@ -421,7 +421,7 @@ Process your entire YouTube watch history:
 
 ✅ **Fully Supported:**
 - Public videos with official captions
-- Videos with auto-generated captions  
+- Videos with auto-generated captions
 - Educational content and lectures
 - Podcast episodes uploaded to YouTube
 - Conference talks and presentations
@@ -722,10 +722,10 @@ def process_custom_content(content, metadata):
     """Custom processing logic"""
     config = load_config()
     manager = MetadataManager(config)
-    
+
     # Your custom processing logic here
     processed_content = content.upper()  # Example transformation
-    
+
     return processed_content
 ```
 

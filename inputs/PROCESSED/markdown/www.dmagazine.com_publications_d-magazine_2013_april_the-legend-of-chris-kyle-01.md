@@ -7,15 +7,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-www.dmagazine.com  
-  
-Verify you are human by completing the action below.  
-  
-www.dmagazine.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.dmagazine.com to respond... 
+www.dmagazine.com
+
+Verify you are human by completing the action below.
+
+www.dmagazine.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.dmagazine.com to respond...
 

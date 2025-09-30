@@ -9,68 +9,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The simplest form of investment scam is that you promise people some attr
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Good (alleged) scam
-    
-  
+
+
 
 The simplest form of investment scam is that you promise people some attractive return on their investment, they like the promised return and give you their money, and you steal it. In this scam, what sort of return should you offer your marks in order to maximize your take? There are two basic approaches, which are:
 	A reasonable return, or	An insane return.
@@ -99,7 +99,7 @@ Glaspie offered increasingly extravagant returns that grew from 10 times the inv
 The SEC prints different versions of the payout table that Glaspie allegedly offered investors, which kept growing over time; by June 2021 it looked like this:
 
 
-    
+
 
 At the highest tier, a $100,000 investment, that’s a 56 million percent promised return, not even counting the Bentley, which I guess  more than doubles your money right there. Also, I mean, imagine a world in which you put $25,000 into some investment and got back ELEVEN POINT TWO FIVE BILLION DOLLARS and they also gave you a “$35k car allowance!” and you were excited for the car allowance? Like, you check your bank balance, and it says $11,250,000,000, and then you go to the Subaru dealership and pick out a nice Forester in the  top trim package and the salesperson is like “that one is $36,495, let me tell you about our financing options” and you are like “actually I have a voucher?” ELEVEN BILLION DOLLARS PLUS A CAR ALLOWANCE! Come on. This is so, so stupid. Nobody could have fallen for this, except that people allegedly did, to the tune of $45 million, and those are the people you want when you’re running a scam. CoinDeal’s email list is worth a fortune. 
 My favorite part, though, might be the section about Linda Knott. According to the SEC complaint, she didn’t know these people, and wasn’t in any real sense a part of their alleged scam. She just used their alleged scam as a substrate to run her own alleged scam:
@@ -114,89 +114,89 @@ I mean, if you believe CoinDeal’s promises,
   [3]
  then raising $749,000 from investors to put into CoinDeal would earn those investors a return of … my calculator says $421 billion? Plus like 10 Bentleys? They’ll hardly miss the $79,000 you take off the top.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private markets don’t like to go down
-    
-  
+
+
 
 We   talked yesterday about an enduring appeal of private investing — venture capital, private equity, non-traded real estate, etc. — which is that, when the stock market goes down, your private investments don’t have to. If you own public stocks, those stocks trade every day, and if their prices go down then your portfolio is worth less. If you own private investments, they don’t trade every day, so you have a lot of flexibility in how you mark them to market. You can look at discounted cash flow analyses and public comparables and appraisals and recent fundraising rounds and come to some estimate of the value, but that estimate might be less volatile than a public stock price. And so if you are a hedge fund that owns a bunch of public tech stocks and a bunch of private tech stocks, and the public stocks go down by 20%, you can say things like “our large private holdings to some extent insulated us from the downturn in public markets,” and skeptical journalists and investors can say things like “well, did they really?”
 Obviously there are limits to this, and if there is a sustained downturn in public markets because economic conditions have gotten worse and tech companies have a harder time raising money, you eventually have to mark down the private stakes too. But you still have some room to argue about how much they are worth, and some incentives to make that number high. Here is a   Bloomberg News story about how hedge funds and mutual funds have been marking their private tech stakes differently:
@@ -222,20 +222,20 @@ During the recent bull market, venture-capital investors that typically exit a s
 
 That’s the thing about public markets, sometimes they go down.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Ransomware compliance
-    
-  
+
+
 
 I continue to be fascinated by the role of chief compliance officer at a ransomware company. In general, the chief compliance officer at any company has a dial in front of her that she can turn to get More Crime or Less Crime, and at a normal company — a bank, for instance — her job consists of (1) turning it most of the way toward Less Crime, but (2) not all the way, and (3) acting very contrite when politicians and regulators yell at her about the residual crime. “We have a zero-tolerance policy for crime,” she will say, and almost mean.
 But the chief compliance officer at a ransomware company — I assume that this is not an actual job, but rather one of many hats worn by some senior executive at the ransomware company, though what do I know — will turn the dial most of the way toward More Crime, since after all a ransomware company’s whole business is crime, but, again, not all the way. Sometimes she will say no to crime, or at least act very contrite after doing crime. She will have, like, a 98% tolerance policy for crime.
@@ -251,11 +251,11 @@ He suggested the move could be directed at those partners who might see the atta
 
 The way the ransomware business is organized seems to be that there are a couple of, like, malware-as-a-service providers like LockBit and DarkSide that provide software and expertise to independent hacker customers who pick the targets and do the hacks; the providers and the hackers split the ransoms. If you are one of the providers, you have to choose your hacker partners carefully so that they do the right amount of crime: You don’t want incompetent or unambitious hackers who can’t make any money, but you also don’t want overly ambitious hackers who hack, you know, the US Department of Defense, or the Hospital for Sick Children. Meanwhile you also have to market yourself to hacker partners so that they choose your services, which again requires that you have a reputation for being good and bold at crime, but not too bold. Your hacker partners want to do crime, but they have their limits, and if you get a reputation for murdering sick children that will cost you some criminal business.
 
-  
-    
+
+
       Coinbase compliance
-    
-  
+
+
 
 What about the chief compliance officer of a crypto exchange? I feel like historically there the job was to set the dial somewhere in the middle; in the early days of Bitcoin, exchanges often had, you know, a 35% tolerance for crime, and that was often what customers wanted. But over time that tolerance has come down. Now, if you are a US-regulated public company like Coinbase Global Inc., you are in almost the same sort of business as a bank, and you ought to have the same zero-ish (ish!) tolerance for crime that a bank would. But it takes time for attitudes and procedures to change, and crypto exchanges grew quickly over the last few years, so a crypto exchange’s compliance department might be a little less sophisticated and experienced than a bank’s. Plus there is the demand side: Relatively few of a bank’s customers will be there to do crime, but the proportion might be higher at a crypto exchange.  Anyway:
 
@@ -268,11 +268,11 @@ To be fair he also tricked the company’s bank, so you can’t blame this one
   [5]
  Also he presumably used Coinbase so that he could turn the money into crypto and make off with it — if he just kept it in the US dollar banking system it could have been fairly easily recovered — but in fact that didn’t work and the authorities got the money back. So this is not really an advertisement for the usefulness of crypto for crime. Still the point is that not too long ago, “I will steal $150 million from my employer, plop it into a newly opened Coinbase account and immediately withdraw it to a wallet that I control” was a more-or-less plausible way to use Coinbase for crime, and now presumably that loophole has closed.
 
-  
-    
+
+
       Celsius
-    
-  
+
+
 
 If you lend your cryptocurrency to a crypto shadow bank that   promises you an 18% return, and the crypto shadow bank goes bankrupt, do you automatically get your money back? I   asked that question last month, and I felt then — and still feel — that it answers itself. The answer is no. When you loaned your crypto to the crypto shadow bank, you were taking credit risk; the crypto shadow bank was trying to use your crypto to make more money (crypto) so it could pay you your return. When it failed to do that — when it lost your crypto — it went bankrupt. If you storm in and say “open up the vault and give me my money back,” the crypto shadow bank will say “no, you have misunderstood how this works, we don’t have a vault, what we have is a bunch of investments that we use to make money to pay the 18% return we promised you, and those went poorly.”
 A lot of crypto shadow banks went bankrupt last year, and people did storm in to demand that they open the vaults and give the money back, due to a series of misconceptions that we also talked about last month. (The main ones: That the crypto was in a vault, or that a crypto shadow bank is somehow a bank backed by regulation or deposit insurance or whatever.) We talked about this because some customers of Celsius Network LLC, a bankrupt crypto shadow bank, had filed a motion in bankruptcy court arguing that they owned the crypto that they had deposited with Celsius as part of its “Earn” program, where Celsius took their crypto and invested it and paid high returns for a while and then lost the crypto and went bankrupt.
@@ -284,15 +284,15 @@ Further, even if the Court found that Account Holders loaned digital assets to C
 
 I don’t know what to say except “yes, obviously, of course.” If you lend money to a crypto firm that promises you an 18% return, and it goes bankrupt, you don’t get your money back! That’s why it promised you an 18% return! What else could possibly have been going on here?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Silvergate Raced to Cover $8.1 Billion in Withdrawals During Crypto Meltdown. Behind FTX’s Turbocharged Push to   Attract Small Crypto Savers.  Bed Bath & Beyond Warns It May Go Out of Business. Banks vs.  Fintechs: Why all the billions in the world can't help Wall Street crush its digital rivals.  Hong Kong Stock Exchange Woos Global Companies After Expanding China Link. Genesis Says It Needs More Time to  Fix Crypto Lending Problems. FTX-Linked  Robinhood Stake Worth $460 Million Is Seized by US. SEC Pushes Back on Binance.US  Deal to Buy Voyager Digital. Chinese researchers claim to find way to  break encryption using quantum computers. Nigeria to   Ban Cash Withdrawals From Government Accounts. Self-driving  stroller.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Another technical advantage is that it lends itself to a *Ponzi* scheme, that is, a scheme where you *actually* pay early investors with the money you raise from later investors. Madoff ran his scheme for years, and sometimes some of his investors asked for their money back, and he was able to give it to them, with their purported profits, because he had raised a lot of money and was offering modest returns. If you offer 1,000,000% returns, and one of your investors asks for her money back, you probably won’t have enough to pay her out in full. The 1,000,000% return business only works for a scam where you take money and *never* pay anyone back.
 
 
@@ -308,114 +308,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] The story, dates and amount match up pretty well with  a $154 million theft from Sony Group Corp.: “According to the government’s complaint, Rei Ishii, an employee of Sony Life Insurance Company Ltd. (‘Sony Life’) in Tokyo, allegedly diverted the $154 million when the company attempted to transfer funds between its financial accounts. Ishii allegedly did this by falsifying transaction instructions, which caused the funds to be transferred to an account that Ishii controlled at a bank in La Jolla, California. Ishii then quickly converted the funds to Bitcoin cryptocurrency, the complaint said. ... Law enforcement was able to trace Bitcoin transfers and identify that approximately 3,879.16 Bitcoins, representing the proceeds of the funds stolen from a subsidiary of Sony Life, had been transferred to a specific Bitcoin address and then to an offline cryptocurrency cold wallet.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

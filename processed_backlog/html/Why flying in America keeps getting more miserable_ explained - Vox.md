@@ -156,7 +156,7 @@ Airlines clearly *could* build that kind of redundancy into their systems. Indee
 
 But to do so would cost money. Less overselling of seats and more padding of schedules for crew and equipment would ultimate translate to higher fares. That’s a price we pretty clearly could bear as a society if we chose to, but as consumers we have collectively and repeatedly chosen not to. Instead, wherever competition has reared its head in the industry, the mass market has aimed for low prices above all else, followed by a vigorous culture of collective complaining when something goes wrong.
 
-See More: 
+See More:
 
 * [Explainers](/web/20240805171738/https://www.vox.com/explainers)
 

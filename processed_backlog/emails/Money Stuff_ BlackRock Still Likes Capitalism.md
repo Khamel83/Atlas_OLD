@@ -7,266 +7,266 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Larry Fink letterWell this isn’t very helpful: Delivering on the competing interests of a company’s many divergent stakeholders is not easy.
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Larry Fink letter
-    
-  
+
+
 Well this isn’t very helpful:Delivering on the competing interests of a company’s many divergent stakeholders is not easy. As a CEO, I know this firsthand. In this polarized world, CEOs will invariably have one set of stakeholders demanding that we do one thing, while another set of stakeholders demand that we do just the opposite.That is why it is more important than ever that your company and its management be guided by its purpose. If you stay true to your company’s purpose and focus on the long term, while adapting to this new world around us, you will deliver durable returns for shareholders and help realize the power of capitalism for all.I suppose if you are the chief executive officer of a public company you will sometimes find yourself in a situation where some of your stakeholders demand that you do one thing while another set of stakeholders demand that you do just the opposite. And you might say, well, one of our important stakeholders — not the most important probably, not up there with customers or employees, but certainly important — is Larry Fink, who runs BlackRock Inc., which is among our biggest shareholders, as it is for almost every public company. And so you might call Larry Fink up and say “hey Larry I got some people who want me to double down on producing thermal coal and I got some other people who want me to get out of the thermal coal business, what do you think I should do?” And Fink will be like … “stay true to your company’s purpose and focus on the long term”? Okay? “Larry, I gotta be honest with you, my company’s purpose is mining thermal coal, that’s just what we do, but the long-term prospects for thermal coal are not so hot; should I stick to our purpose, fulfill it, pay out some dividends and disappear, or should I try to pivot into wind farms?” I feel like Larry Fink  has a preference here! But he is just one stakeholder among many.Anyway here’s Fink’s annual letter to CEOs, which I quoted above. “The Power of Capitalism” is the title? I don’t really know who the audience is here? CEOs? I am not sure how actionable it is, for a CEO. The famous problem of stakeholder capitalism, as Fink says, is that while it is relatively easy to figure out what shareholders are supposed to want — stocks that go up — it is much harder to figure out what all your stakeholders want and how to prioritize them. If as a CEO you say “I work for the shareholders and I do what I can to make the stock go up,” then you pretty much know what you have to do. Memes, is the answer, it turns out:  What you have to do is meme stuff. Crypto, electric vehicles, non-fungible tokens, that sort of thing. I’m sorry! I don’t like it either. But this is a question that is subject to empirical analysis. Whereas if you work for the stakeholders then, you know, which stakeholders and when? Your only guidepost is to “stay true to your company’s focus,” which does not necessarily answer all of your practical questions, though it probably will stop you from messing around with NFTs.Presumably the audience is really BlackRock’s clients, the people and institutions whose trillions of dollars of retirement savings are managed by BlackRock. One model for Fink’s annual letter is that he has cranked up the environmental, social and governance stuff, in the letters and elsewhere, for the past few years, because ESG is hot in the investment-management industry and talking about it attracts clients. But there are vague rumblings of a backlash, of clients and politicians worrying that BlackRock is “too ‘woke,’” so he’s dialing it back like 10% in this letter:Stakeholder capitalism is not about politics. It is not a social or ideological agenda. It is not “woke.” It is capitalism, driven by mutually beneficial relationships between you and the employees, customers, suppliers, and communities your company relies on to prosper. This is the power of capitalism. In today’s globally interconnected world, a company must create value for and be valued by its full range of stakeholders in order to deliver long-term value for its shareholders. It is through effective stakeholder capitalism that capital is efficiently allocated, companies achieve durable profitability, and value is created and sustained over the long-term. Make no mistake, the fair pursuit of profit is still what animates markets; and long-term profitability is the measure by which markets will ultimately determine your company’s success.One way to read that passage is “we would still like to manage money for Republicans too.”This is kind of a boring letter? There is something odd about the world’s largest shareholder advocating for stakeholder capitalism, saying to corporate CEOs “no,  don’t put shareholders first, prioritize your workers and customers and communities above shareholder profits.” But of course he’s not saying that. The point of this year’s letter is to dispel the idea that he might be saying that. He’s saying that sometimes having good customer service, paying employees enough to motivate them, and not breaking the law can help maximize the long-term value of a company’s cash flows to shareholders, and so companies should do those things. Their executives should run the company, you know, well, like a business. They should make good choices and not bad ones, so that the business is valuable, for its shareholders, who are Fink’s clients. There is nothing here that  Milton Friedman could possibly object to.There are, in the world, investors who specialize in finding companies that make money but spend it wastefully on businesses with poor long-term prospects, buy up shares in those companies and push them to cut that spending and return cash to shareholders who can put it to better uses. There are, in the world, investors who specialize in finding companies that don’t make any money but that have bold and achievable long-term dreams, buy up shares in those companies and give them funding to turn those dreams into reality. There are investors who specialize in some industry and try to pick which firms in that industry will thrive in the long run and which will fail. BlackRock is not one of those investors — or, rather, it does a bit of all of those things, but as a whole it specializes in (1) finding all of the companies, (2) buying like 7% of their stock and (3) holding it forever.[1]  And then Fink writes an annual letter to all of them at once. How nuanced can that one letter be? “Try to do a good job” is pretty broadly applicable advice, but beyond that situations will differ. Even “try to manage your company for the long term” and “stay true to your company’s purpose,” generic as they sound, can conflict with each other.Also here’s this:We see a growing interest among shareholders – including among our own clients – in the corporate governance of public companies.That is why we are pursuing an initiative to use technology to give more of our clients the option to have a say in how proxy votes are cast at companies their money is invested in. We now offer this option to certain institutional clients, including pension funds that support 60 million people. We are working to expand that universe.We are committed to a future where every investor – even individual investors – can have the option to participate in the proxy voting process if they choose.We know there are significant regulatory and logistical hurdles to achieving this today, but we believe this could bring more democracy and more voices to capitalism. Every investor deserves the right to be heard. We will continue to pursue innovation and work with other market participants and regulators to help advance this vision toward reality.One way to put it is that right now Larry Fink gets to decide how trillions of dollars’ worth of shares are voted at corporate meetings, and he is volunteering to give up that power and hand it back to his clients (eventually). Do you think a fully distributed BlackRock, one where each client votes its own shares rather than delegating that power to Larry Fink, would be as influential as the current actual BlackRock? Would its letters get as much attention?
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Non-precedential comp
-    
-  
+
+
 Traditionally the way pay works at an investment bank is that, at senior levels, most of your pay is in the form of a variable end-of-year bonus. If you and your group and your firm all have a good year, you will get a large bonus, many multiples of your base salary. If you or your group or your firm have a bad year, you will get a smaller bonus. If your bonus is zero — if your only pay for the year is your base salary — then you will feel deeply aggrieved and throw a huge tantrum, and also odds are you’re getting fired. This is the traditional approach to things, and it has fallen out of favor a bit since the 2008 financial crisis, but it is still a useful rough model.The problem here is that variable compensation has sort of asymmetric effects on happiness and loyalty. If you get paid $4 million one year and $5 million the next, you will probably be happy both years. You got paid a lot in absolute terms, and your pay went up year over year. If in Year 1 you took out an expensive mortgage, in Year 2 you can pay it easily.If you get paid $5 million one year and $4 million the next, though, you will be very sad the second year. Your pay went down year-over-year, suggesting that your employer either (1) does not appreciate your efforts or (2) is not in a financial position to reward them appropriately. Neither is a good sign for your long-term relationship. If in Year 1 you took out an expensive mortgage, in Year 2 finances will feel a bit tight. “You knew your pay was completely variable, why did you take out an expensive mortgage,” is perhaps a reasonable question, but you don’t want to hear it. After all, you keep getting better at your job; you are more experienced and have deeper client relationships and are more senior and taking on more responsibility. Why should you get paid less this year than last year? “Because the bank had a worse year” is a fine, correct answer, but it is not emotionally satisfying. You might quit in a huff.This makes really good years particularly tricky for a bank. If the bank pays out huge bonuses at the peak of the boom, then the next year everyone will be disappointed and quit in huffs. (Though the poor job market that year might limit the losses.) If it doesn’t do that — if it holds back some money so as not to set expectations too high, and so as to have some more money in reserve to pay bonuses next year — then everyone will feel underpaid versus their competitors at other banks who do pay everything out, and they’ll quit now for a competitor. There is not really an easy way around this — and highly variable compensation is basically good for the bank’s financial resilience and for the employees’ incentives — but I suppose one easy-ish way around it is to pay bankers huge bonuses in really good years, but include a little note with the huge bonus saying “don’t get used to it.” The note doesn’t really contain any information they didn’t already know — their pay is variable, a huge payout in a good year guarantees nothing for next year, don’t take out a mortgage based on this year’s bonus, etc. — but it’s still worth reminding them.So,  sure:The top 1% at Goldman Sachs Group Inc. is set to receive a special one-time reward in addition to annual bonuses, recognizing the Wall Street titan’s roaring success through the pandemic.The unusual payments to partners -- the roughly 400 executives who fill out the investment bank’s highest rung -- will add millions of dollars to many compensation packages, according to people with knowledge of the matter, who asked not to be identified discussing internal decisions. That group is already in line for larger payouts that range from a few million dollars to multiples of that after a year of record earnings.Goldman’s management, under pressure to fend off increasingly aggressive poaching on Wall Street, views the extra boosts as a creative solution that will come with a warning: Recipients shouldn’t mistake the bumps as part of a new pay floor, two of the people said. When compensation is set next year, managers will ignore the one-time payouts when making comparisons.So if you get paid a $1 million salary and a $5 million bonus and a $5 million other bonus for 2021, and then in 2022 you get $7 million, you will say “what the heck, last year I got $11 million and now you are cutting me to $7 million,” and your boss will say “no, last year you got $6 million and now I am raising you to $7 million, congratulations.” And your boss will technically be right even though you did get $11 million last year, because some of it didn’t count. And you will grumble a little less because you were warned.Meanwhile in stakeholder capitalism, Goldman  announced earnings this morning:Goldman Sachs Group Inc. equities traders posted a decline in the fourth quarter, adding to evidence that the frenzied activity touched off by the pandemic is cooling, even as the bank ratcheted up payouts for employees. The company’s shares tumbled.Revenue from the bank’s trading operation slid 7%, missing analysts’ estimates for a small gain. The surprise letdown came from its equities business, which declined 11%, according to a statement Tuesday. Despite rounding off their best year ever for both revenue and earnings, Goldman executives will need to address investor concerns that the trading business is on a downward trajectory.Compensation and benefits, the single biggest driver of expenses at Goldman, jumped 33% to $17.7 billion in 2021, an indication of big rewards for employees after a record year. ...The trading boom set off by the market volatility of Covid-19 might be starting to fade, and companies are having to contend with higher costs to prevent employees from defecting. That leaves bank leaders with the task of resetting expectations.The classic defense of shareholder capitalism goes something like “shareholders are the residual claimants on the cash flows of the corporation, while every other stakeholder has some contractual relationship with the company, so directors and managers should have fiduciary duties to those residual claimants.” But anyone who has worked at a bank knows that the shareholders are not the only residual claimants. The employees get their cut too.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Incentives
-    
-  
+
+
 My  general view of the “revolving door” is that it is good for regulators to get a reputation for being tough in high-profile cases, because that will make them more attractive to the private sector. If you are a regulator with a reputation for being tough, then:	Potential private-sector employers will think that you’re a creative hardworking go-getter, because those characteristics tend to correlate with toughness in regulation. 	Potential private-sector employers will have more need to hire ex-regulators, because regulation is tougher so there is more work to do to respond to it, and ex-regulators are particularly qualified to do that work.	Other employees at your regulator will respect your toughness, and so when you go into private practice and advocate for a client to those regulators, they will take you seriously and be inclined to go easier on your clients; private-sector employers understand this.	Potential private-sector employers will want to hire you at a high salary because then you will stop being a regulator, and if you are tough on them as a regulator it is worth paying you to stop. Of course you can take this too far. If you develop a reputation for being unreasonable or unprofessional or dishonest in your pursuit of tough regulatory action, private-sector employers will be less interested in hiring you. Or if you conduct a perfectly reasonable and  honestly rather gentle investigation into a hilariously thin-skinned billionaire this might happen:A partner at law firm Cooley LLP got an unexpected call late last year from a lawyer for one of the firm’s most famous clients, Elon Musk’s Tesla Inc., with an ultimatum.The world’s richest man wanted Cooley, which was representing Tesla in numerous lawsuits, to fire one of its attorneys or it would lose the electric-vehicle company’s business, people familiar with the matter said.The target of Mr. Musk’s ire was a former U.S. Securities and Exchange Commission lawyer whom Cooley had hired for its securities litigation and enforcement practice and who had no involvement in the firm’s work for Tesla. At the SEC, the attorney had interviewed Mr. Musk during the agency’s investigation of the Tesla chief executive’s 2018 tweet claiming, wrongly, to have secured funding to potentially take the electric-vehicle maker private. …Cooley has declined to fire the attorney, who remains an associate at the firm, the people said. Since early December, Tesla has begun taking steps in several cases to replace Cooley or add additional counsel, legal documents show. Mr. Musk’s rocket company Space Exploration Technologies Corp., also known as SpaceX, has stopped using Cooley for regulatory work, according to people familiar with the matter.One assumes that Musk was operating out of pure emotional grudge here, but I suppose it’s worth asking if that phone call was a good strategic move. Of course Cooley can’t actually fire the associate, which would be disastrous for its reputation. But that’s not the goal here. Other law firms that do a bunch of work with Tesla might have to ask prospective hires, like, “hey you haven’t done anything to annoy Elon Musk have you?” And so current government regulators might think “hmm, I should go easy on Elon Musk so he doesn’t ruin my future career.”But, look, if a regulator started an investigation into Elon Musk, and Musk called her up and said “do you know who I am, I will ruin your career,” that would definitely make things worse for him, don’t you think? Like she’d tell her bosses and they’d throw the book at him, add charges of interfering with an investigation, etc. Threatening to ruin a regulator’s career for investigating you is a very bad look! Of course Musk didn’t do that. Instead he actually tried to ruin a regulator’s career for investigating him. Arguably that’s a smarter move? Like, the Cooley associate is no longer at the SEC and that investigation is closed, so Musk’s direct risk is lower.And yet … if you’re at the SEC now, and you’re conducting a different investigation of Tesla, wouldn’t this make you want to be tougher on him? Or if you’re at the Justice Department, or some other government agency? His odds of actually ruining your career are low; there are a lot of law firms, most of them don’t work with Tesla, and Musk didn’t even succeed in getting this associate fired. As a matter of regulatory solidarity, and of punishing Musk for trying to intimidate regulators, wouldn’t you go a bit harder now?
-  
-    
+
+
       Incentives (2)
-    
-  
+
+
 If you were designing a revolving-door career from first principles it might go something like this:	You work in government and design a program that gives people in the private sector nine-figure payouts, but only sometimes, and with a lot of complex qualifications and subjectivity.	You quit immediately for the private sector.	You hang out a shingle advertising yourself as the only person with the knowledge and connections to get people those nine-figure payouts.	You take a chunk for yourself.This is a good trade — build a spigot of government money and plant yourself in front of it — but still you could improve it. As I said above, it is good for a regulator to develop a reputation for toughness, in part because that will get you continuing respect from the people still in government administering the spigot. And of course spigots of government money are controversial and could be shut off at any time due to budget problems etc. So what you want to do is replace Step 1 above with:	You work in government and design a program that very toughly takes nine-figure sums from bad private-sector actors and then gives a share of them to good private-sector actors, but only sometimes and with a lot of complex qualifications and subjectivity.	Etc.Anyway here’s Patrick Radden Keefe in the New Yorker about whistle-blower lawyer Jordan Thomas:Submitting explosive government filings on behalf of anonymous clients is what Jordan Thomas does for a living. He is an attorney who represents whistle-blowers. Thomas previously worked at the Securities and Exchange Commission, where he helped create a new program, implemented in 2011, that encouraged people to report corporate malfeasance. The program, developed after the 2008 financial crisis and the Bernie Madoff scandal, established a substantial monetary incentive for whistle-blowers, by allowing them to share in the proceeds of successful S.E.C. actions. These awards, which are sometimes referred to as bounties, can range from ten per cent to thirty per cent of what the errant company ends up paying the government. Since its introduction, the program has dispersed more than $1.2 billion in awards. In the words of the former S.E.C. chair Mary Jo White, it has been “a game changer.”Just after Thomas helped introduce this new regime, he left the government and opened a legal practice dedicated to representing whistle-blowers who brought cases to the S.E.C. Today, he is perhaps the foremost attorney representing such whistle-blowers. …Because Thomas is often among the few people who know about the clandestine risks that his clients undertake, and about the secret windfalls they receive, he can occasionally act like their therapist or priest, giving them the faith to persevere. It helps, of course, that he is one of the designers of the bureaucratic gantlet they face. “He’s the architect of the Matrix,” the whistle-blower said. “Jordan Thomas built this machine.” ...Because he works on contingency, his fee is a significant chunk of any rewards that his clients receive. When the S.E.C. announced, in 2018, that in the Merrill Lynch case it would pay two awards, totalling eighty-three million dollars, it was reported that Labaton Sucharow could make more than twenty-five million dollars. Thomas expanded his team, bringing on two partners, Rich Levine and Michael Stevenson, who are also former S.E.C. officials. If you work in the SEC’s whistle-blower office, why wouldn’t you quit after a while to do the same job but for a cut of the proceeds?I will say that this is arguably good incentive design. Arguably everyone at the SEC should do a rotation through the whistle-blower office, just to get a taste for it. As I said above, the revolving door primarily creates incentives for regulators to be tough, but it secondarily creates incentives for them to be polite and clubbable. If your regulatory career is an audition for a private-sector job, you want the private-sector lawyers you deal with to think of you as tough but fair, professional and honest, someone they could see as a colleague. You want to make lots of ambitious cases and win them, but you don't want everyone to hate you. But if your post-SEC career is as a lawyer for whistle-blowers it’s fine if everyone hates you! That’s the job really! Elon Musk definitely can’t get Jordan Thomas fired! He is a liberating role model for SEC enforcers.
-  
-    
+
+
       Bridgewater
-    
-  
+
+
 A good genre of financial news article is calling people up and asking them to talk trash anonymously about Ray Dalio’s hedge fund Bridgewater Associates. Bridgewater is huge and lucrative, so lots of people want to talk about it, and it’s weird, so they have funny things to say about it. Plus people who used to work at Bridgewater are weird themselves, and smart and opinionated, so they’ll give good quotes. So here’s Robin Wigglesworth at the Financial Times:“I think he’s trying to figure out what to do. He’s either lost his mojo, or just doesn’t want to do it any more,” said one senior former Bridgewater employee of Dalio. “He basically has a firm that is not really structured to be sustainable without him, but isn’t really sustainable with him either.”Sure that’s good, what else you got?“The culture is very strong. People either become true believers, or they leave,” said the former senior employee. “Radical transparency has caused a strange culture, but mostly because of the way it has been executed. It unintentionally turns Bridgewater into a Real Housewives of LA kind of place.”Hmm, love it, but can we get more of a European sports metaphor?“They are the Manchester United of hedge funds,” said one investor who has visited Bridgewater’s leafy Westport, Connecticut headquarters but declined to invest. “Once great but these days struggling.” Terrific. Ray Dalio writes books and does weird public-facing stuff, would anyone be interested in making fun of those?Not all of Bridgewater’s clients have been thrilled at the time Dalio has spent cultivating his public profile. One institutional investor said simmering concerns over Bridgewater’s growing size, opacity and slipping returns had been compounded by the amount of media attention it was attracting, leading them to pull their money out a few years ago.“Put very bluntly, we would rather have a hedge fund manager tending the shop and focusing on their fund, rather than writing books,” the investor said. “Bridgewater itself became a talking point.”I do feel like this is a criticism that people make of almost every celebrity hedge fund manager: They start out totally focused on making good investments, they make some good investments, they have good returns, they attract more assets, they get really rich, they go on television, they become convinced that they’re omnicompetent geniuses, they get more interested in going on TV and telling people how to solve the world’s problems than they are in picking investments that will go up. And, sure, why wouldn’t you follow that path? You’re already rich.The thing about Bridgewater is that it seems particularly optimized to make this easier? For one thing, it’s not clear how much time Dalio needs to devote to picking good investments, given Bridgewater’s process. (I  have joked that Bridgewater has a computer that picks the investments, and a lot of interpersonal drama and management hooey to distract the human employees so they don’t interfere with the computer.) For another  thing, it’s not at all clear that Dalio (or the computer) needs to pick good investments, since Bridgewater is so huge and famous that its clients are sticky in a you-never-get-fired-for-picking-Bridgewater sort of way. Also Bridgewater’s story is not “we pick good investments because Ray Dalio is a stock-picking genius,” but rather “we pick good investments because we have cracked the code of general management and built a culture that somehow generates good investments as a byproduct,” which does seem like it would lend itself to a certain generalist overconfidence? “By sitting around and rating each other’s faults we have somehow managed to pick stocks that go up, which is pretty random, so maybe that technique can be used to solve other, unrelated problems.” 
-  
-    
+
+
       Things happen
-    
-  
+
+
 Microsoft to Buy Activision Blizzard in  $69 Billion Gaming Deal. Credit Suisse’s António Horta-Osório Lost Board Support Over Covid-19 Rules Breach. Affirm to Put ‘Buy Now, Pay Later’ Options on Verifone Systems. London Stock Exchange Proposes Special Listings for Private Companies. Nickel Market Caught Up in Fresh Squeeze. Chamath Palihapitiya Sparks Fury After Saying ‘Nobody Cares’ About China’s Uyghurs. “2021 was a record year for expletives in conference calls.” Michael Avenatti Sues Feds for Mistreatment in Prison, Claims Guards Only Let Him Read Trump’s Art of the Deal. The anime "Dune" DAO learns about copyright. More skunks can do handstands than we thought.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] So this passage sounds strange coming from BlackRock: “BlackRock wants to see the companies we invest in for our clients evolve and grow so that they generate attractive returns for decades to come. As long-term investors, we are committed to working with companies from all industries. But we too must be nimble and ensure our clients’ assets are invested, consistent with their goals, in the most dynamic companies – whether startups or established players – with the best chances at succeeding over time. As capitalists and as stewards, that’s our job. … But access to capital is not a right. It is a privilege. And the duty to attract that capital in a responsible and sustainable way lies with you.” Access to capital from index funds is kind of a right, if you’re in the index!
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

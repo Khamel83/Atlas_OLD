@@ -46,7 +46,7 @@ Hank Azaria, Kendrick Lamar, Ari Emanuel, Tom Staggs, Mikey Madison, Charlotte K
 
 But first…
 
- 
+
 
 Who Won the Week: Paul Cheesbrough and Anjali Sud
 -------------------------------------------------
@@ -84,7 +84,7 @@ been consolidated under Hello Sunshine C.E.O. Sarah Harden. Candle also owns Coc
 
 It’s gonna be interesting to see how the merger dance plays out among all these independent, privately backed producers that were conceived (and valued) on pre-correction models. I could see Moonbug selling to Disney or a rival, and the studio group could roll into Legendary or another general-interest player—though probably not for anything near that $900 million valuation that Candle put on Hello Sunshine back in 2021.
 
- 
+
 
 Quote
 of the Week
@@ -244,7 +244,7 @@ Yes, everything seems to be out of whack—not just in Hollywood, which is still
 plane crash on D.E.I. initiatives even before the bodies had been pulled out of the Potomac, federal agencies that have banned the word “feminism.” Meanwhile, sexual misconduct allegations don’t even seem to register. So the Ratner movie might also seem to represent a return to the bad old days for what used to be called the “weaker sex.” He’s pushed for years to make another Rush Hour movie without success, but we all know how much the studios love their recognizable I.P. Will
 progressive Hollywood allow him back? It’s pretty clear at this point that almost anything can happen. It’s enough to make one wonder whether Melania still has that jacket—the one reading, “I really don’t care. Do u?”
 
- 
+
 
 My
 Reading List…
@@ -287,7 +287,7 @@ Michael Schulman compares this bizarre awards season to the scandals and machina
 
 Mikey Madison (or whoever’s coaching her) continues to effectively shut down the whole lack of an intimacy coordinator “controversy” on Anora. [Talk Easy ( https://talkeasypod.com/mikey-madison/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 The
 Feedback
@@ -315,7 +315,7 @@ thing is how Baldoni and his producer crew messed up from the get-go. It’s Pro
 “The only
 explanation that makes any sense is that Justin and Blake are in love with each other.” —Another producer
 
- 
+
 
 And Finally…
 --------------
@@ -342,6 +342,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU82-VNCVh3bvgviX4VDk=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -649,7 +649,7 @@ head.appendChild(script);
 }})();
 </script>
 </div></div>
-<!-- In Post Ad 1 -->  
+<!-- In Post Ad 1 -->
 <script type='text/javascript'>
 CRcounter = 0;
 CRtoshow = 1;
@@ -674,7 +674,7 @@ CRtoshow = 1;
 </table>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td nowrap valign="center" height="28px" align="left"><span style="color:#000000;"><a href="//www.calculatedriskblog.com/p/about-calculated-risk.html">About</a> | <a href="//www.calculatedriskblog.com/p/advertising.html">Advertising</a> | <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#118;&#101;&#95;&#104;&#105;&#107;&#101;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;">Email CR</a> | <a href="//www.calculatedriskblog.com/p/doris-tanta-dungey.html">Tanta</a> | <a href="//www.calculatedriskblog.com/p/weekly-schedule.html">Weekly Schedule</a> | <a href="//www.content.iclnd.com/nl/ads/calculatedrisk/offers-page.html">Sponsored Offers</a></span> 
+<td nowrap valign="center" height="28px" align="left"><span style="color:#000000;"><a href="//www.calculatedriskblog.com/p/about-calculated-risk.html">About</a> | <a href="//www.calculatedriskblog.com/p/advertising.html">Advertising</a> | <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#118;&#101;&#95;&#104;&#105;&#107;&#101;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;">Email CR</a> | <a href="//www.calculatedriskblog.com/p/doris-tanta-dungey.html">Tanta</a> | <a href="//www.calculatedriskblog.com/p/weekly-schedule.html">Weekly Schedule</a> | <a href="//www.content.iclnd.com/nl/ads/calculatedrisk/offers-page.html">Sponsored Offers</a></span>
 <td nowrap valign="center" height="28px" align="right"><span style="color:#000000;"><a href="//iclnd.investingchannel.com/nl/calculatedrisk/">Subscribe via email</a> | <a href="//www.threads.net/@calculatedriskblog">&nbsp;Threads&nbsp;</a> | <a href="//feeds.feedburner.com/CalculatedRisk" rel="alternate" type="application/rss+xml"><img alt="feed" style="vertical-align:middle;border:0" src="//www.feedburner.com/fb/images/pub/feed-icon16x16.png" />&nbsp;RSS Feed&nbsp;</a>&nbsp;&nbsp;<a href="//feeds.feedburner.com/CalculatedRisk" rel="alternate" type="application/rss+xml"></a></span></td>
 </td></tr></table>
 </div>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The rule in the US is that corporate bonds are “securities” and corporate loans are not. Bonds are subject to the securities laws and regula
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Are loans securities?
-    
-  
+
+
 
 The rule in the US is that corporate bonds are “securities” and corporate loans are not. Bonds are subject to the securities laws and regulated by the US Securities and Exchange Commission, and if the issuer of a bond lies to a buyer then that’s securities fraud. Loans are not subject to securities laws, not regulated by the SEC, and lying about loans is probably some sort of fraud, but not securities fraud.
 The traditional reason for this distinction is that bonds could be sold to mom-and-pop investors and traded on secondary markets, so you wanted good public securities-style disclosure about those bonds, while loans were made by banks which held them to maturity. Banks, the theory went, didn’t need the protections of securities laws, because they were banks. They were sophisticated lenders who knew their borrowers intimately and got much more information before making a loan than they would get from a bond prospectus. And loans were structurally less risky and volatile than bonds: They were secured by collateral, so they were safer than unsecured bonds, and the fact that they didn’t trade meant that lenders didn’t usually have big mark-to-market losses on their loans.
@@ -89,37 +89,37 @@ The pleaded facts do not plausibly suggest that application of securities laws a
 The stuff about collateral is true, but of course Millennium went bankrupt and the lenders lost money, so it’s not that true. The thing that matters here, I think, is the last sentence: Bank regulators regulate syndicated loans (even though most of the lenders aren’t banks), so securities law doesn’t have to.
 None of this makes very much sense on an intellectual level. On the other hand, surely the thinking here — and probably the reason the SEC declined to weigh in — is that the loan market works fine, the bond market works fine, and there’s no reason to change anything, and changing the rules of the loan market would, at least in the short term, cause a lot of disruption. It doesn’t make a ton of sense that bonds are securities and loans aren’t, but it doesn’t really cause much trouble either, so the courts might as well leave it alone.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Are NFTs securities?
-    
-  
+
+
 
 I   like to   explain crypto initial coin offerings by saying that “they’re like if the Wright Brothers sold air miles to finance inventing the airplane,” so here’s another old-timey analogy for non-fungible token offerings. Imagine that one day in the boom times of the 1920s a young animator named Walter Disney shows up at the stock market one day looking to raise money for his new company. “I am going to make a fortune making movies and theme parks,” he says, “and I am giving you the opportunity to invest early. I’m not selling you shares of my company, though; I’m selling something even better. Here’s a drawing of a mouse. If you give me $1 million, I will use it to build a movie studio and theme-park empire, and the mouse will feature prominently in that empire, and you will get the royalties from that mouse. Here’s a dog, and a duck, and some nephew ducks. Same deal, though the nephew ducks are cheaper.”
 Obviously that would, in hindsight, have been a good investment. What kind of investment would it have been? Would it have been like buying art? Would it have been like buying intellectual property? Or would it have been like investing in a speculative business? The mouse is a picture of a mouse, like art, but he’s valuable if Disney builds a film and theme-park empire and not if he doesn’t, like stock.
@@ -139,11 +139,11 @@ C. “We’re going to be investing that money into development, into bringing o
 
 Yeah sounds like securities. No one is touting the aesthetic value of the NFTs, or even saying what the intellectual property franchise would be; they’re just talking about getting rich. 
 
-  
-    
+
+
       ESG pay
-    
-  
+
+
 
 Traditional corporate finance theory says that the sole purpose of the corporation is to maximize profits for shareholders, not because that is the most important thing in the world, but because it is very helpful to pick one thing. Corporations are, for the most part, run by their executives and directors, who mostly choose their own successors without much oversight from shareholders or anyone else. If the rule is “executives have to maximize profits for shareholders,” that gives directors and shareholders and governance activists and everyone else something to measure: If profits are good, then the executives are doing a good job; if they aren’t they aren’t.
 If the rule is “executives have to maximize profits for shareholders, minimize pollution and maximize employee morale,” then executives and directors have a lot of leeway in measuring their performance. “Ah well our buddy the CEO didn’t make a lot of money for shareholders this year,” the directors can say, “and the pollution is terrible, but surveys show employee satisfaction is up 0.3 points on a 7-point scale, so let’s max out her bonus.” 
@@ -159,11 +159,11 @@ Southwest, in a regulatory filing earlier this year, said the December cancellat
 
 The board can always determine that the company performed above target-level expectations on DEI initiatives, whereas “did the planes take off?” is harder to game.
 
-  
-    
+
+
       SVB wine
-    
-  
+
+
 
 A few weeks ago, walking down the street in Midtown, I saw someone wearing a t-shirt that said “Silicon Valley Bank Risk Management Department, Spring 2023.” I am pretty sure it was printed as an after-the-fact joke,
   [3]
@@ -181,16 +181,16 @@ The oddball asset sales are lore within the FDIC. A column in its internal newsl
 
 Do you think the FDIC put out the fire? I feel like these days you could make more money by selling “Failed Bank’s Coal Mine, Currently On Fire” than if you put the fire out. People want a good disaster story!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman Is   Selling a Wealth-Advisory Unit to $240 Billion Money Manager. SEC Probes Major Lender Over   Mortgage-Backed Securities Sold to Wall Street. The ‘Fidelity Mafia’ Behind Big Crypto.   Bitcoin ETF Deadlines Loom Again for SEC Ahead of Labor Day Weekend. SoftBank seeks to build  investment war chest on back of Arm IPO. 3M Agrees to Pay More Than $5.5 Billion Over Combat Earplugs. Hester Peirce  profile. FTX turns to Mike Novogratz’s Galaxy Digital to  sell crypto tokens. Corporate  crowdfunding. The Silicon Valley Elite Who Want to  Build a City From Scratch. “The prime years for making smart financial decisions are, on average,  53 and 54.” The Next Wave of Scams Will Be   Deepfake Video Calls From Your Boss. France to pay farmers €200mn for  destroying wine surplus.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] I realize “they don’t trade so their price can’t go down” is not correct as a matter of financial theory, but it 
+
+  [1] I realize “they don’t trade so their price can’t go down” is not correct as a matter of financial theory, but it
 has some intuitive appeal. Also corporate loans are stereotypically floating-rate, while corporate bonds are stereotypically fixed-rate, which makes bond prices more volatile when rates move.
 
 
@@ -200,48 +200,48 @@ has some intuitive appeal. Also corporate loans are stereotypically floating-rat
   [3] Casual Googling finds many versions of it on Etsy.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -252,46 +252,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjdb5n.5jel/9c39583b.gif" alt="" border="0" /></a>

@@ -22,7 +22,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
+
 <!-- Add to home screen for iOS -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" sizes="180x180" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png">
@@ -36,7 +36,7 @@
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/favicon.png">
 <link rel="shortcut icon" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/favicon.ico">
-	
+
 <!--
 		 _     _ _           ____          _          _____ _    ___
 		| |   (_) | _____   / ___|___   __| | ___    | ____| |__|__ \
@@ -412,7 +412,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 		<script type="text/javascript">
 			var pmc_ga_dimensions = {"dimension1":"single-variety_vip_post","dimension3":"1235791123","dimension4":"andrew-wallenstein","dimension6":"benjamin-netanyahu|gaza|hamas|museum-of-tolerance","dimension10":"2023","dimension11":"11","dimension12":"16","dimension13":"06","dimension14":"00","dimension25":"2023-11-16T14:00:00+00:00","dimension26":"2023-11-16 06:00:00","dimension27":"Thursday","dimension29":"anonymous"};
 			var pmc_ga_mapped_dimensions = {"page-type":"1","page-subtype":"2","id":"3","author":"4","category":"5","tag":"6","vertical":"7","primary-category":"8","primary-vertical":"9","publish-year":"10","publish-month":"11","publish-day":"12","publish-hour":"13","publish-minute":"14","protocol":"15","paywall-entitlement":"16","paywall-sub-level-required":"17","paywall-sub-roadblock-hit":"18","paywall-acct-type":"19","paywall-acct-id":"20","paywall-org-name":"21","paywall-org-id":"22","paywall-auth-provider":"23","paywall-logged-in":"24","publish-timestamp-gmt":"25","publish-timestamp":"26","publish-day-of-week":"27","omni-visit-id":"28","user-type":"29","a-b-test":"30","experiment-name":"31","paywall-special-product-code":"32","paywall-product-code":"33","post-options":"34","child-post-id":"35","page-variant-name":"36","pageview-id":"37"};
-			
+
 			// Set default dimensions that require C0002 OneTrust group consent.
 			// $dimension_map['human-readable-label'] becomes its number, such as 15 for 'protocol'.
 			window.pmc_ga_dimensions_requiring_c0002 = [];
@@ -425,7 +425,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 							if( 'undefined' !== typeof pmc_meta && 'string' === typeof pmc_meta.omni_visit_id ){
 				dim["dimension28"] = pmc_meta.omni_visit_id;
 			}
-		
+
 			dim[decodeURIComponent( 'dimension7' ) ] = 'daily-commentary';
 			dim[decodeURIComponent( 'dimension5' ) ]  = 'film';
 
@@ -518,7 +518,7 @@ if ( '' !== location.search ) {
 gtag('set', 'page_location', location_url);
 						}
 					}
-					
+
 				window.pmcGaCustomDimensions = ga3Dimensions;
 
 window.dataLayer.push({
@@ -683,7 +683,7 @@ blogherads.adq.push(function () {
     "logo": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/build/svg/brand-logo.svg"
 }
 			</script>
-			
+
 <style type="text/css">
 article #connatix-contextual-player {
 	aspect-ratio: 16/9;
@@ -740,7 +740,7 @@ article [id^="jwplayer_"][id$="_div"] {
 			gtag('js', new Date());
 
 gtag( 'config', 'G-S6DEFT20P4', { 'send_page_view': false } );
-		
+
 		</script>
 				<style type="text/css">
 			/*
@@ -827,16 +827,16 @@ var pmc_harmony_event_data = {"start_time":"1748361600","end_time":"1748448000",
 	});
 
 (function ( blogherads ) {
-		
+
 		blogherads.adq.push( function () {
 
 blogherads.setConf( 'vertical', 'ros' );
-			
+
 						blogherads.setConf( 'country_code_ad_unit_map', {"AU":"Variety_AU","NZ":"Variety_AU"} );
-			
-			
-			
-			
+
+
+
+
 			blogherads.setTargeting( 'pt', 'variety_vip_post' );
 blogherads.setTargeting( 'tag', ["benjamin-netanyahu","gaza","hamas","museum-of-tolerance"] );
 blogherads.setTargeting( 'ci', 'ART-1235791123' );
@@ -912,11 +912,11 @@ body.post-type-archive-variety_vip_report .lrv-u-font-family-secondary{
 }
 
 body.post-type-archive-variety_vip_report div.o-top-story__inner h3.c-title {
-	font-family: "Graphik XX Cond"; 
+	font-family: "Graphik XX Cond";
 }
 
 body.post-type-archive-variety_vip_video .u-font-family-basic{
-	font-family: "Para Supreme Regular"; 
+	font-family: "Para Supreme Regular";
 }
 
 /* temp classes for adding responsive video to Custom HTML Widget on homepage for Variety PoW 9-28-22 Event */
@@ -1230,7 +1230,7 @@ body.page-template-page-vip div.more-from-widget div.o-more-link &gt; a.c-link {
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.page-template-page-vip section.upcoming-events div.o-more-link &gt; a.c-link {
@@ -1518,7 +1518,7 @@ body.single-variety_vip_video div.more-from-widget div.o-more-link &gt; a.c-link
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.single-variety_vip_post div.more-from-widget div.o-more-link &gt; a.c-link:hover,
@@ -1627,7 +1627,7 @@ body.tax-variety_vip_tag div.more-from-widget div.o-more-link &gt; a.c-link {
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.post-type-archive-variety_vip_post div.more-from-widget div.o-more-link &gt; a.c-link:hover,
@@ -1676,7 +1676,7 @@ body.single-variety_vip_video div.a-content .pmc-paywall&gt;p:first-child:first-
 .postid-1236121979 div#leaderboard-no-padding {
 display: none;
 }		</style>
-		
+
 <script
 	type="text/plain" src="https://variety.com/wp-content/plugins/pmc-plugins/pmc-taboola/assets/build/index.js?ver=514b500f0fa5ab25088a" class=" optanon-category-C0004" async="1" ></script>
 
@@ -1745,17 +1745,17 @@ window.pmc_taboola.push({"other":"auto"});</script>
 
 <div class="header-sticky // u-background-color-black u-color-white u-grid-gap-2@desktop lrv-u-width-100p lrv-u-width-100p u-background-image-slash lrv-a-glue-parent u-z-index-top variety-vip-header-sticky">
 			<div class="js-Header"><div class="js-Header-contents lrv-u-background-color-white u-background-image-slash">
-	
+
 		<div class="header-sticky__wrapper lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-space-between u-height-40@tablet lrv-u-position-relative ">
 			<div class="header-sticky__menu // lrv-u-flex lrv-u-align-items-center a-glue-parent@tablet lrv-u-padding-l-1"
 									data-collapsible="collapsed"
 				>
 									<span data-collapsible-toggle="always-show">
-									
+
 	<button class="o-icon-button  lrv-u-align-items-center lrv-u-border-a-0 lrv-u-flex u-min-height-40 a-become-close-button a-become-close-button--trigger lrv-u-background-color-transparent lrv-u-color-black u-color-brand-primary:hover u-width-40">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-18 u-height-18 u-width-24@tablet u-height-24@tablet"
 			aria-hidden="true"
 	>
@@ -1763,40 +1763,40 @@ window.pmc_taboola.push({"other":"auto"});</script>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to expand the Mega Menu</span>
-	
-	
+
+
 	</button>
 									</span>
-				
-									
+
+
 <div class="js-vip_menu u-padding-lr-3 lrv-a-glue lrv-a-glue--b-0 lrv-a-glue--l-0 lrv-a-glue--r-0 a-glue--t-250 a-glue--t-275@tablet lrv-u-background-color-white u-width-350@tablet u-height-350@tablet u-border-a-1@tablet u-border-color-dusty-grey a-glue--l-auto@tablet u-box-shadow-menu@tablet" data-collapsible-panel>
-	
+
 <div data-pmc-es-search-form="small_search_form"></div>
 	<div class="vip-menu__primary">
-		
+
 <nav class="o-nav  lrv-u-margin-t-2">
 
 <ul class="o-nav__list lrv-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item lrv-u-flex lrv-u-border-b-1 u-border-color-iron-grey">
-							
+
 <a class="c-link  lrv-u-color-black lrv-u-font-family-secondary lrv-u-font-weight-bold lrv-u-font-size-18 u-padding-lr-250 lrv-u-padding-b-050 u-padding-t-125  u-padding-b-050@tablet" href="/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-flex lrv-u-border-b-1 u-border-color-iron-grey">
-							
+
 <a class="c-link  lrv-u-color-black lrv-u-font-family-secondary lrv-u-font-weight-bold lrv-u-font-size-18 u-padding-lr-250 lrv-u-padding-b-050 u-padding-t-125  u-padding-b-050@tablet" href="/vip-special-reports/"
 			>
 	Special Reports</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-flex lrv-u-border-b-1 u-border-color-iron-grey">
-							
+
 <a class="c-link  lrv-u-color-black lrv-u-font-family-secondary lrv-u-font-weight-bold lrv-u-font-size-18 u-padding-lr-250 lrv-u-padding-b-050 u-padding-t-125  u-padding-b-050@tablet" href="/vip-video/"
 			>
 	Video</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-flex lrv-u-border-b-1 u-border-color-iron-grey">
-							
+
 <a class="c-link  lrv-u-color-black lrv-u-font-family-secondary lrv-u-font-weight-bold lrv-u-font-size-18 u-padding-lr-250 lrv-u-padding-b-050 u-padding-t-125  u-padding-b-050@tablet lrv-a-icon-before a-icon-left-caret u-margin-l-n150" href="/"
 			>
 	Back to Variety</a>
@@ -1806,12 +1806,12 @@ window.pmc_taboola.push({"other":"auto"});</script>
 	</div>
 
 <div class="vip-menu__secondary">
-		
+
 <nav class="o-nav  u-margin-t-150">
 
 <ul class="o-nav__list lrv-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item lrv-u-margin-b-050">
-							
+
 <a class="c-link  lrv-u-color-black lrv-u-font-family-secondary lrv-u-font-weight-bold lrv-u-text-transform-uppercase u-font-size-13 u-letter-spacing-2" href="/tips/"
 			>
 	Have a news Tip?</a>
@@ -1826,15 +1826,15 @@ window.pmc_taboola.push({"other":"auto"});</script>
 							</div>
 
 <div class="header-sticky__search lrv-u-flex lrv-u-align-items-center a-hidden@mobile-max">
-				
+
 <div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-height-100p lrv-u-align-items-center lrv-u-width-100p lrv-u-justify-content-center lrv-u-color-black lrv-u-font-family-secondary  lrv-u-padding-lr-050">
 
 <div class="expandable-search__trigger // js-ExpandableSearch-trigger lrv-u-flex lrv-u-align-items-center">
-		
+
 	<button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex a-hidden@mobile-max u-color-medium-grey:hover lrv-u-color-black u-color-brand-primary:hover">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-25 u-height-25"
 			aria-hidden="true"
 	>
@@ -1842,14 +1842,14 @@ window.pmc_taboola.push({"other":"auto"});</script>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
 	</div>
 
 <div class="expandable-search__target // js-ExpandableSearch-target lrv-a-glue-parent js-fade js-fade-is-out lrv-u-width-100p u-max-width-500 lrv-u-color-black lrv-u-font-family-secondary  lrv-u-padding-lr-050" hidden>
 		<div class="expandable-search__inner lrv-a-glue lrv-a-glue--t-0 lrv-u-height-100p lrv-u-width-100p u-max-width-500 " data-header-search-trigger="">
-			
+
 <div data-pmc-es-search-form="small_search_form"></div>		</div>
 	</div>
 
@@ -1857,7 +1857,7 @@ window.pmc_taboola.push({"other":"auto"});</script>
 			</div>
 
 <div class="u-margin-lr-auto@mobile-max u-margin-r-auto@tablet  lrv-u-flex lrv-u-align-items-center u-width-100p@tablet u-order-n1@tablet lrv-u-height-100p">
-				
+
 	<a class="c-logo lrv-u-color-white u-width-84  lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center u-background-color-brand-accent-100-b a-hidden@mobile-max u-padding-lr-075@tablet u-width-115@tablet lrv-u-height-100p u-border-r-6@tablet lrv-u-border-color-brand-primary lrv-u-flex-shrink-0" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
@@ -1865,7 +1865,7 @@ window.pmc_taboola.push({"other":"auto"});</script>
 <a href="https://variety.com/vip/" class=" lrv-a-font-primary-xs lrv-u-color-white u-color-light-grey-tint-two:hover lrv-a-truncate-ellipsis-1line u-letter-spacing-096-important a-hidden@tablet">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  u-width-65 u-height-20"
 			aria-hidden="true"
 	>
@@ -1873,20 +1873,20 @@ window.pmc_taboola.push({"other":"auto"});</script>
 	</svg>
 
 <span class="lrv-a-screen-reader-only">After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t — Yet</span>
-	
-			
+
+
 <span class="c-span   a-hidden@mobile-max">
 
 Read Next: ‘Roxanne’ Singer Arizona Zervas Signs With Columbia
 </span>
-	
+
 	</a>
-				
-									
+
+
 	<a href="https://variety.com/vip/" class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-height-100p  lrv-u-flex@tablet lrv-u-width-100p lrv-u-align-items-center u-margin-l-075@tablet a-hidden@mobile-max">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  c-icon lrv-u-display-block lrv-u-width-75p u-height-25 u-width-500@desktop-xl"
 			aria-hidden="true"
 	>
@@ -1894,15 +1894,15 @@ Read Next: ‘Roxanne’ Singer Arizona Zervas Signs With Columbia
 	</svg>
 
 <span class="lrv-a-screen-reader-only">After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t — Yet</span>
-	
-			
+
+
 <span class="c-span  lrv-u-display-none">
 
 Menu
 </span>
-	
+
 	</a>
-				
+
 							</div>
 
 <div class="login-actions //  lrv-u-flex lrv-u-align-items-center lrv-u-margin-r-050" data-testid="login-actions-vip">
@@ -1917,20 +1917,20 @@ Menu
 	</div>
 
 <div class="login-action-account-dropdown js-show-menu-when-authenticated lrv-a-hidden">
-		
+
 <div class="o-drop-menu lrv-a-glue-parent lrv-u-whitespace-nowrap lrv-u-border-color-grey lrv-u-font-family-secondary" data-collapsible="collapsed" 	>
 	<a class="o-drop-menu__toggle " href="#" data-collapsible-toggle="always-show">
-					
+
 <span class="c-span  lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-font-size-12 lrv-u-color-black u-letter-spacing-001 lrv-u-margin-l-050 u-color-brand-primary:hover lrv-a-hidden@mobile-max">
 
 Account
 </span>
-		
-					
+
+
 	<button class="o-icon-button lrv-u-align-items-center lrv-u-border-a-0 lrv-u-flex o-icon-button u-min-height-40 lrv-u-background-color-transparent a-hidden@tablet">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -1941,26 +1941,26 @@ Account
 			</a>
 
 <div class="o-drop-menu__list js-drop-menu__tooltip lrv-a-glue lrv-a-glue--r-0 lrv-u-width-300 lrv-u-background-color-white lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-padding-a-1" data-collapsible-panel>
-					
+
 <span class="c-span  lrv-u-font-size-16 lrv-u-font-weight-bold lrv-u-text-transform-uppercase lrv-u-color-grey-dark vy-vip-username ">
 
 Welcome
 </span>
-		
-					
+
+
 	<p class="c-tagline  lrv-u-margin-tb-00 lrv-u-padding-t-025 lrv-u-padding-b-1 lrv-u-font-size-14 lrv-u-color-grey-dark vy-vip-username-subscriber ">VIP Subscriber</p>
 
 <nav class="o-nav  ">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-margin-t-050 " aria-labelledby="">
 					<li class="o-nav__list-item  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-color-brand-primary:hover lrv-u-display-block">
-							
+
 <a class="c-link  lrv-a-unstyle-link vy-vip-my-account subscriber-my-account-link" href="https://variety.com/my-account/"
 			>
 	Manage Account</a>
 						</li>
 					<li class="o-nav__list-item  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-color-brand-primary:hover lrv-u-display-block">
-							
+
 <a class="c-link  lrv-a-unstyle-link vy-vip-logout subscriber-logout-link" href="#"
 				rel="nofollow"
 		>
@@ -1975,22 +1975,22 @@ Welcome
 		<div class="lrv-u-flex">
 			<div class="">
 				<div class="a-hidden@mobile-max">
-					
+
 <a id="vy_head_login" href="#" class="header-button // lrv-u-display-inline-block lrv-a-unstyle-button lrv-u-text-align-center lrv-u-line-height-normal lrv-u-cursor-pointer lrv-u-padding-tb-025 lrv-u-padding-lr-050 lrv-u-color-black lrv-u-border-a-1 u-border-color-black u-color-brand-primary:hover lrv-u-background-color-white lrv-u-text-transform-uppercase pmc-vyvip-subscription-login-link a-hidden@mobile-max lrv-u-margin-r-050">
-	
+
 <span class="c-span  lrv-u-font-weight-bold lrv-u-font-family-secondary lrv-u-font-size-12 u-letter-spacing-2 lrv-u-text-transform-uppercase lrv-u-color-black u-color-brand-primary:hover lrv-u-display-inline-block lrv-u-width-100">
 
 Log in
 </span>
 	</a>
 				</div>
-				
+
 <div class="o-login-icon">
-	
+
 	<a href="#" class="lrv-u-align-items-center lrv-u-border-a-0 lrv-u-flex o-icon-button u-min-height-40 lrv-u-background-color-transparent a-hidden@tablet a-hidden@tablet pmc-vyvip-subscription-login-link">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -1998,25 +1998,25 @@ Log in
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Login</span>
-	
-			
+
+
 <span class="c-span   a-hidden@mobile-max lrv-u-border-a-1 lrv-u-display-block lrv-u-font-size-12 lrv-u-font-weight-bold lrv-u-font-family-secondary lrv-u-padding-tb-050 lrv-u-padding-lr-050 lrv-u-text-align-center lrv-u-text-transform-uppercase u-letter-spacing-2 u-border-color-brand-secondary-30">
 
 Login
 </span>
-	
+
 	</a>
 </div>
 			</div>
 		</div>
 	</div>
 </div>
-			
+
 		</div>
 
 <div class="lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-end lrv-u-padding-tb-025 u-padding-lr-075 a-hidden@tablet u-background-color-pale-sky vip-login-bar ">
 					<div class="header-sticky__user-menu">
-						
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal a-space-children--025 lrv-u-align-items-center lrv-u-a-unstyle-list" aria-labelledby="">
@@ -2027,8 +2027,8 @@ Login
 </nav>
 					</div>
 				</div>
-					
-									
+
+
 <div class="vip-header-navbar // u-background-color-brand-accent-100-b u-border-color-brand-secondary-30 lrv-u-color-white lrv-u-text-transform-uppercase a-header-vip-navbar">
 	<div class="lrv-u-flex lrv-u-justify-content-space-between lrv-u-flex-grow-1">
 		<div class="lrv-u-flex lrv-u-align-items-center lrv-u-height-auto">
@@ -2036,24 +2036,24 @@ Login
 			<div class="u-width-76 u-width-90@tablet lrv-u-display-inline-block u-background-color-brand-accent-100-b a-hidden@mobile-max u-padding-lr-075@tablet u-width-115@tablet lrv-u-height-100p lrv-a-floated-left">
 				&nbsp;
 			</div>
-			
+
 <nav class="o-nav  lrv-u-flex lrv-u-align-items-center lrv-u-height-auto lrv-u-padding-tb-075@desktop u-height-40@tablet u-height-auto@mobile-max">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-width-100p@mobile-max lrv-u-flex lrv-a-space-children-horizontal lrv-u-align-items-center lrv-u-a-unstyle-list " aria-labelledby="">
 					<li class="o-nav__list-item  lrv-u-text-align-center@mobile-max lrv-u-padding-a-050@mobile-max lrv-u-padding-lr-2 lrv-u-line-height-small lrv-u-border-r-1">
-							
+
 <a class="c-link  lrv-a-unstyle-link a-font-basic-m a-font-basic-s@mobile lrv-u-padding-tb-050@tablet lrv-u-padding-lr-025@mobile lrv-u-padding-lr-050@tablet u-letter-spacing-001@tablet lrv-u-color-grey-light u-letter-spacing-004 u-letter-spacing-001@mobile-max lrv-u-font-size-12 u-font-size-11@mobile-max" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
 						</li>
 					<li class="o-nav__list-item  lrv-u-text-align-center@mobile-max lrv-u-padding-a-050@mobile-max lrv-u-padding-lr-2 lrv-u-line-height-small lrv-u-border-r-1">
-							
+
 <a class="c-link  lrv-a-unstyle-link a-font-basic-m a-font-basic-s@mobile lrv-u-padding-tb-050@tablet lrv-u-padding-lr-025@mobile lrv-u-padding-lr-050@tablet u-letter-spacing-001@tablet lrv-u-color-grey-light u-letter-spacing-004 u-letter-spacing-001@mobile-max lrv-u-font-size-12 u-font-size-11@mobile-max" href="https://variety.com/vip-category/special-report/"
 			>
 	Special Reports</a>
 						</li>
 					<li class="o-nav__list-item  lrv-u-text-align-center@mobile-max lrv-u-padding-a-050@mobile-max lrv-u-padding-lr-2 lrv-u-line-height-small lrv-u-border-r-1">
-							
+
 <a class="c-link  lrv-a-unstyle-link a-font-basic-m a-font-basic-s@mobile lrv-u-padding-tb-050@tablet lrv-u-padding-lr-025@mobile lrv-u-padding-lr-050@tablet u-letter-spacing-001@tablet lrv-u-color-grey-light u-letter-spacing-004 u-letter-spacing-001@mobile-max lrv-u-font-size-12 u-font-size-11@mobile-max" href="https://variety.com/vip-category/video/"
 			>
 	Video</a>
@@ -2065,8 +2065,8 @@ Login
 	</div>
 </div>
 						</div></div>
-		
-		
+
+
 </div>
 <div id="post-1235791123">
 
@@ -2074,33 +2074,33 @@ Login
 
 <div class="article-header // lrv-u-flex lrv-u-flex-direction-column u-margin-t-2@tablet lrv-u-margin-lr-auto u-max-width-830">
 	<div class="article-header__inner // ">
-		
+
 <div class="article-meta // lrv-u-align-items-center lrv-u-flex-direction-column@mobile-max u-align-items@mobile-max u-border-color-dusty-grey lrv-u-flex lrv-u-justify-content-space-between u-border-b-1@tablet u-margin-b-150@mobile-max lrv-u-padding-t-050@tablet u-padding-b-075@tablet">
 	<div class="lrv-u-padding-r-050">
-		
+
 <div class="breadcrumbs // lrv-u-color-brand-primary lrv-u-text-align-center@mobile-max u-padding-lr-225@mobile-max">
-	
+
 <nav class="o-nav-breadcrumblist  lrv-u-text-transform-uppercase lrv-u-font-family-secondary u-font-size-15 u-letter-spacing-012">
 
 <ol class="o-nav-breadcrumblist__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-align-items-center lrv-u-a-unstyle-list lrv-u-flex lrv-u-flex-direction-column@mobile-max lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-u-align-items-center a-children-icon-after a-children-icon-r-angle-quote a-children-icon-spacing-050"
 		>
 					<li class="o-nav-breadcrumblist__list-item "
 			>
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-grey-dark:hover lrv-a-hover-effect lrv-u-font-weight-bold u-font-weight-normal@mobile-max lrv-u-whitespace-nowrap" href="/vip/"
 			>
 	VIP+</a>
 			</li>
 					<li class="o-nav-breadcrumblist__list-item "
 			>
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-grey-dark:hover lrv-a-hover-effect lrv-u-font-weight-bold u-font-weight-normal@mobile-max lrv-u-whitespace-nowrap" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
 			</li>
 					<li class="o-nav-breadcrumblist__list-item "
 			>
-				
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-grey-dark:hover lrv-a-hover-effect lrv-u-font-weight-bold u-font-weight-normal@mobile-max lrv-u-whitespace-nowrap" href="https://variety.com/vip-tag/film/"
 			>
 	Film</a>
@@ -2111,11 +2111,11 @@ Login
 	</div>
 
 <div class="lrv-u-flex ">
-		
+
 <time class="c-timestamp  lrv-u-text-transform-uppercase u-color-iron-grey a-hidden@mobile-max u-font-family-accent u-letter-spacing-003 u-font-size-13"
 	datetime="00:00-YY-DD-MM"
 		>
-	November 16, 2023 6:00am PT	
+	November 16, 2023 6:00am PT
 </time>
 	</div>
 </div>
@@ -2123,12 +2123,12 @@ Login
 <h1 id="section-heading" class="c-heading larva  lrv-u-font-family-primary u-font-weight-medium lrv-u-line-height-small  lrv-u-text-align-center lrv-u-text-transform-uppercase u-margin-t-075@tablet lrv-u-padding-tb-050 lrv-u-padding-lr-2 u-font-size-50 u-font-size-70@tablet u-letter-spacing-2 u-line-height-xsmall@desktop">
 
 After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t — Yet
-	
+
 	</h1>
 
 <div class="author-social // lrv-a-glue-parent lrv-u-margin-b-1 u-margin-b-125@tablet">
-	
-			
+
+
 <div class="author // u-font-size-13 u-font-family-accent u-color-iron-grey">
 	<div class="lrv-u-align-items-center lrv-u-text-align-center@mobile-max lrv-u-flex">
 		<div class="u-flex@tablet lrv-u-width-100p">
@@ -2136,7 +2136,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 									<button class="lrv-a-unstyle-button lrv-u-flex-grow-1 lrv-u-align-items-center lrv-u-width-100p" data-collapsible="collapsed">
 						<div class="author-toggle lrv-u-flex u-justify-content-center@mobile-max">
 							<p class="lrv-u-margin-tb-00 u-font-family-accent u-color-iron-grey u-letter-spacing-003 lrv-u-margin-r-050 lrv-u-margin-r-1@tablet">
-								By 
+								By
 <a class="c-link  u-color-iron-grey" href="https://variety.com/author/andrew-wallenstein/"
 			>
 	Andrew Wallenstein</a>
@@ -2145,7 +2145,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 <div class="js-author__toggle // lrv-u-flex lrv-u-align-items-center lrv-u-cursor-pointer" data-collapsible-toggle="always-show">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  u-width-16 u-height-16 lrv-u-color-brand-primary"
 			aria-hidden="true"
 	>
@@ -2156,37 +2156,37 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 						</div>
 
 <div class="lrv-u-width-100p lrv-u-margin-t-1" data-collapsible-panel>
-							
+
 <section class="author-details // u-background-color-grey-lightest u-border-color-picked-bluewood u-border-t-6 lrv-a-glue-parent u-box-shadow-variety-expander">
-	
+
 <h3 id="title-of-a-story" class="c-title  lrv-u-font-size-15 lrv-u-font-size-18@tablet lrv-u-font-family-secondary">
 
-<a href="https://variety.com/author/andrew-wallenstein/" class="c-title__link u-color-brand-secondary" 
+<a href="https://variety.com/author/andrew-wallenstein/" class="c-title__link u-color-brand-secondary"
 		  >
-	
-		
-					Andrew Wallenstein		
+
+
+					Andrew Wallenstein
 			</a>
-	
+
 </h3>
 
 <p class="c-tagline  lrv-u-font-family-secondary lrv-u-margin-tb-00 lrv-u-font-size-14 u-color-brand-secondary-50 lrv-u-line-height-medium">President and Chief Media Analyst</p>
 
 <div class="lrv-u-flex lrv-u-align-items-center">
-			
+
 <a class="c-link  lrv-u-font-size-10 u-color-brand-secondary-50 u-font-family-accent lrv-a-icon-before a-icon-twitter-basic u-margin-t-025 u-margin-t-00@tablet" href="https://twitter.com/awallenstein"
 			target="_blank"
 				rel="noopener"
 		>
 	awallenstein</a>
 		</div>
-	
+
 	<ul class="author-details__list lrv-a-unstyle-list u-margin-t-1">
 					<h4 class="author-details-list__title lrv-u-border-b-1 u-font-family-accent lrv-u-text-transform-uppercase lrv-u-letter-spacing-012 lrv-u-font-size-12 u-border-color-loblolly-grey lrv-u-font-weight-normal">Latest</h4>
-		
-					
+
+
 <li class="author-details-item // lrv-u-flex lrv-u-justify-content-space-between lrv-u-align-items-center lrv-u-border-b-1 u-border-color-loblolly-grey">
-	
+
 <a class="c-link  lrv-u-font-family-secondary lrv-u-padding-tb-050 lrv-u-font-weight-bold lrv-u-color-black lrv-u-font-size-14@tablet-max lrv-u-font-size-18@tablet lrv-u-margin-b-050@mobile-max u-line-height-1@tablet" href="https://variety.com/2025/tv/news/orna-guralnik-couples-therapy-showtime-ethics-psychology-1236488756/"
 			>
 	Dr. Orna Guralnik Reflects on the Ethics of Practicing &#8216;Couples Therapy&#8217; on TV</a>
@@ -2194,12 +2194,12 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 <time class="c-timestamp  u-font-family-accent u-color-iron-grey lrv-u-font-size-14 a-hidden@desktop-max"
 	datetime="00:00-YY-DD-MM"
 		>
-	3 weeks ago	
+	3 weeks ago
 </time>
 	</li>
-					
+
 <li class="author-details-item // lrv-u-flex lrv-u-justify-content-space-between lrv-u-align-items-center lrv-u-border-b-1 u-border-color-loblolly-grey">
-	
+
 <a class="c-link  lrv-u-font-family-secondary lrv-u-padding-tb-050 lrv-u-font-weight-bold lrv-u-color-black lrv-u-font-size-14@tablet-max lrv-u-font-size-18@tablet lrv-u-margin-b-050@mobile-max u-line-height-1@tablet" href="https://variety.com/2025/music/news/music-industry-streaming-live-concerts-ai-1236476625/"
 			>
 	The Key Changes Rocking the Music Industry in 2025</a>
@@ -2207,12 +2207,12 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 <time class="c-timestamp  u-font-family-accent u-color-iron-grey lrv-u-font-size-14 a-hidden@desktop-max"
 	datetime="00:00-YY-DD-MM"
 		>
-	1 month ago	
+	1 month ago
 </time>
 	</li>
-					
+
 <li class="author-details-item // lrv-u-flex lrv-u-justify-content-space-between lrv-u-align-items-center lrv-u-border-b-1 u-border-color-loblolly-grey">
-	
+
 <a class="c-link  lrv-u-font-family-secondary lrv-u-padding-tb-050 lrv-u-font-weight-bold lrv-u-color-black lrv-u-font-size-14@tablet-max lrv-u-font-size-18@tablet lrv-u-margin-b-050@mobile-max u-line-height-1@tablet" href="https://variety.com/2025/sports/news/chiney-ogwumike-espn-basketball-the-w-1236450035/"
 			>
 	ESPN&#8217;s Chiney Ogwumike Holds Court Amid a Hectic Hoops Summer</a>
@@ -2220,22 +2220,22 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 <time class="c-timestamp  u-font-family-accent u-color-iron-grey lrv-u-font-size-14 a-hidden@desktop-max"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 months ago	
+	2 months ago
 </time>
 	</li>
 			</ul>
 
 <div class="lrv-u-flex lrv-u-align-items-center">
-			
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-margin-l-auto lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-font-size-12 u-color-brand-secondary-50 lrv-u-font-family-secondary u-letter-spacing-012 lrv-a-icon-after a-icon-long-right-arrow lrv-u-margin-t-050 u-margin-t-075@tablet lrv-u-margin-b-050@mobile-max" href="https://variety.com/author/andrew-wallenstein/"
 			>
 	More Stories</a>
 		</div>
-	
+
 			<div data-collapsible-toggle="always-show">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  u-width-26 u-height-26 lrv-a-glue u-background-color-picked-bluewood lrv-u-color-white lrv-u-border-radius-50p lrv-u-border-a-1 u-padding-a-035 a-glue--l-50p a-glue--b-n13 u-transform-translateX-n50p lrv-u-cursor-pointer u-transform-nx-50p u-margin-t-n1"
 			aria-hidden="true"
 	>
@@ -2251,15 +2251,15 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 	</div>
 
 </div>
-	
+
 	<div class="author-social__share // lrv-a-glue lrv-a-glue--r-0 lrv-a-glue--t-0 a-hidden@mobile-max">
-				
+
 <div class="social-share lrv-u-align-items-center lrv-u-flex lrv-u-margin-t-1@mobile-max">
-	
-	
+
+
 	<ul class="lrv-a-unstyle-list lrv-u-flex u-flex-wrap-wrap lrv-a-space-children-horizontal u-color-brand-secondary-50" data-collapsible="collapsed">
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-facebook:hover" href="https://www.facebook.com/dialog/share?title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;sdk=joey&#038;display=popup&#038;ref=plugin&#038;src=share_button&#038;app_id=278816682243900&#038;href=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/"
 					rel="facebook"
 							>
@@ -2274,7 +2274,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-twitter:hover" href="https://twitter.com/intent/post?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;text=After%20Seeing%20Israel%E2%80%99s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage%2C%20I%20Say%20You%20Shouldn%E2%80%99t%20%E2%80%94%20Yet&#038;via=variety"
 					rel="twitter"
 							>
@@ -2289,7 +2289,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-flipboard:hover" href="https://share.flipboard.com/bookmarklet/popout?v=2&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="flipboard"
 							>
@@ -2304,7 +2304,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-pinit:hover" href="https://pinterest.com/pin/create/link/?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;description=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="pinit"
 							>
@@ -2319,7 +2319,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-tumblr:hover" href="https://www.tumblr.com/widgets/share/tool/preview?shareSource=legacy&#038;canonicalUrl&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;posttype=link&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="tumblr"
 							>
@@ -2333,7 +2333,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 
 </a>
 			</li>
-		
+
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-toggle>
 				<span class="lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050" tabindex="0">
 
@@ -2346,7 +2346,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 			</li>
 
 <li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-reddit:hover" href="https://www.reddit.com/submit?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="reddit"
 							>
@@ -2361,7 +2361,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-linkedin:hover" href="https://www.linkedin.com/shareArticle?mini=1&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;summary&#038;source=variety"
 					rel="linkedin"
 							>
@@ -2376,7 +2376,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-whatsapp:hover" href="whatsapp://send?text=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet%20-%20https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/"
 					rel="whatsapp"
 							>
@@ -2391,7 +2391,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-email:hover" href="mailto:?subject=variety%20:%20After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;body=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/%20-%20After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="email"
 							>
@@ -2406,7 +2406,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-print:hover" href=""
 					rel="print"
 							>
@@ -2421,7 +2421,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-comment:hover" href="https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/#respond"
 					rel="comment"
 							>
@@ -2440,21 +2440,21 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 	</div>
 
 <div class="author-social__timestamp // lrv-u-flex a-hidden@tablet a-hidden@desktop u-justify-content-center@mobile-max ">
-			
+
 <time class="c-timestamp   u-font-size-13 u-font-family-accent u-color-iron-grey lrv-u-text-transform-uppercase lrv-u-padding-b-050 lrv-u-border-t-1 u-margin-t-075@mobile-max u-padding-t-075@mobile-max u-letter-spacing-003"
 	datetime="00:00-YY-DD-MM"
 		>
-	November 16, 2023 6:00am PT	
+	November 16, 2023 6:00am PT
 </time>
 		</div>
 		<div class="author-social__share // a-hidden@tablet a-hidden@desktop u-justify-content-center@mobile-max lrv-u-flex">
-			
+
 <div class="social-share lrv-u-align-items-center lrv-u-flex lrv-u-margin-t-1@mobile-max">
-	
-	
+
+
 	<ul class="lrv-a-unstyle-list lrv-u-flex u-flex-wrap-wrap lrv-a-space-children-horizontal u-color-brand-secondary-50" data-collapsible="collapsed">
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-facebook:hover" href="https://www.facebook.com/dialog/share?title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;sdk=joey&#038;display=popup&#038;ref=plugin&#038;src=share_button&#038;app_id=278816682243900&#038;href=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/"
 					rel="facebook"
 							>
@@ -2469,7 +2469,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-twitter:hover" href="https://twitter.com/intent/post?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;text=After%20Seeing%20Israel%E2%80%99s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage%2C%20I%20Say%20You%20Shouldn%E2%80%99t%20%E2%80%94%20Yet&#038;via=variety"
 					rel="twitter"
 							>
@@ -2484,7 +2484,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-flipboard:hover" href="https://share.flipboard.com/bookmarklet/popout?v=2&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="flipboard"
 							>
@@ -2499,7 +2499,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-pinit:hover" href="https://pinterest.com/pin/create/link/?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;description=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="pinit"
 							>
@@ -2514,7 +2514,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 			</li>
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max">
-				
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-tumblr:hover" href="https://www.tumblr.com/widgets/share/tool/preview?shareSource=legacy&#038;canonicalUrl&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;posttype=link&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="tumblr"
 							>
@@ -2528,7 +2528,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 
 </a>
 			</li>
-		
+
 					<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-toggle>
 				<span class="lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050" tabindex="0">
 
@@ -2541,7 +2541,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 			</li>
 
 <li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-reddit:hover" href="https://www.reddit.com/submit?url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="reddit"
 							>
@@ -2556,7 +2556,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-linkedin:hover" href="https://www.linkedin.com/shareArticle?mini=1&#038;url=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/&#038;title=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;summary&#038;source=variety"
 					rel="linkedin"
 							>
@@ -2571,7 +2571,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-whatsapp:hover" href="whatsapp://send?text=After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet%20-%20https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/"
 					rel="whatsapp"
 							>
@@ -2586,7 +2586,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-email:hover" href="mailto:?subject=variety%20:%20After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet&#038;body=https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/%20-%20After%20Seeing%20Israel’s%20Gory%20Oct.%207%20Hamas%20Attack%20Footage,%20I%20Say%20You%20Shouldn’t%20—%20Yet"
 					rel="email"
 							>
@@ -2601,7 +2601,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-print:hover" href=""
 					rel="print"
 							>
@@ -2616,7 +2616,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 </a>
 				</li>
 							<li class="lrv-u-flex lrv-u-align-items-center lrv-u-margin-b-050@mobile-max" data-collapsible-panel>
-					
+
 	<a class="lrv-a-unstyle-link lrv-u-border-color-grey-light lrv-u-display-block u-display-inline-flex lrv-u-padding-lr-050 u-color-comment:hover" href="https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/#respond"
 					rel="comment"
 							>
@@ -2637,7 +2637,7 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 	</div>
 
 <div class="article-header__feature // ">
-			
+
 	<a href="https://variety.com/vip/bearing-witness-october-7th-massacre-israel-idf-hamas-gaza-footage-1235791123/" class="o-figure__link u-flex-order-n1@mobile-max"
 					target="_self"
 					>
@@ -2645,31 +2645,31 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 <figure class="o-figure  lrv-u-font-family-secondary u-color-brand-secondary-50 u-flex-order-n1@mobile-max lrv-u-margin-b-050@mobile-max lrv-u-max-width-100p" style="">
 
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&#038;h=511&#038;crop=1" alt="Illustration of an eye that&#039;s crying with a star of David in the pupil" srcset="https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1 1920w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=150%2C84 150w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=300%2C169 300w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=125%2C70 125w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=1000%2C563 1000w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=910%2C511 910w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=681%2C383 681w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=450%2C253 450w, https://variety.com/wp-content/uploads/2023/11/featured_bearing_witness.jpg?w=910&amp;h=511&amp;crop=1&amp;resize=250%2C140 250w" sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
-	
-			
-			
+
+
+
 <figcaption class="c-figcaption  lrv-u-flex lrv-u-flex-direction-column lrv-u-margin-t-050 lrv-u-padding-tb-1 lrv-u-padding-t-050@tablet u-padding-lr-225@mobile-max">
-	
-		
+
+
 									<cite class="lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-text-transform-uppercase u-font-size-9 u-letter-spacing-005 u-color-brand-secondary-50">Illustration: Cheyne Gateley/Variety VIP+</cite>
-					
+
 	</figcaption>
 
 </figure>
 
 </a>
 		</div>
-	
-	
-	
+
+
+
 	</div>
 
 <div class="lrv-u-background-color-body">
@@ -2844,19 +2844,19 @@ After Seeing Israel’s Gory Oct. 7 Hamas Attack Footage, I Say You Shouldn’t 
 		</div>
 
 <div class="lrv-wrapper lrv-margin-lr-auto">
-	
+
 <div class="more-from-widget // u-border-t-6 u-border-color-brand-secondary-50 lrv-u-margin-b-2 lrv-u-margin-lr-auto lrv-u-margin-b-2 u-margin-t-150@tablet u-max-width-618">
-	
+
 <div class="more-from // lrv-u-flex u-justify-content-center@mobile-max lrv-u-align-items-center lrv-u-text-align-center lrv-u-padding-t-025 lrv-u-padding-t-050@tablet lrv-u-padding-b-050 u-border-b-1@tablet u-border-color-loblolly-grey u-padding-b-1@tablet">
 
 <h2 id="section-heading" class="c-heading larva  u-text-transform-uppercase@mobile-max lrv-u-font-family-primary u-font-size-30 u-font-weight-medium u-letter-spacing-040@mobile-max u-font-family-secondary@tablet u-font-size-32@tablet u-font-weight-bold@tablet">
 
 More From
-	
+
 	</h2>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-margin-l-025 u-height-20 u-width-70"
 			aria-hidden="true"
 	>
@@ -2868,224 +2868,224 @@ More From
 <ul class="o-tease-list  lrv-a-unstyle-list u-padding-lr-150@mobile-max"
 	>
 			<li class="o-tease-list__item lrv-u-border-b-1 u-border-color-loblolly-grey">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column@mobile-max lrv-u-padding-b-1 u-padding-t-075" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-secondary-m u-min-height-24em lrv-u-margin-t-050@mobile-max">
 
-<a href="https://variety.com/vip/los-angeles-film-tv-production-future-becomes-clearer-reforms-1236470367/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/vip/los-angeles-film-tv-production-future-becomes-clearer-reforms-1236470367/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					L.A.’s Production Future Becomes Clearer as Reforms Take Shape		
+
+
+					L.A.’s Production Future Becomes Clearer as Reforms Take Shape
 			</a>
-	
+
 </h3>
-			
-			
-							
+
+
+
 <a class="c-link  lrv-u-display-block lrv-u-text-transform-uppercase a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-009 u-margin-t-075" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
-			
-							
+
+
 <time class="c-timestamp  a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-005"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 months	
+	2 months
 </time>
-			
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 u-margin-r-125@tablet u-order-n1@tablet lrv-u-width-100p u-width-177@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/vip/los-angeles-film-tv-production-future-becomes-clearer-reforms-1236470367/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?w=1024" data-lazy-src="https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?w=1024" alt="Film reel dropping through a Plinko game" data-lazy-srcset="https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg 2000w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=150,84 150w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=300,169 300w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=125,70 125w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=1000,563 1000w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=910,511 910w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=681,383 681w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=450,253 450w, https://variety.com/wp-content/uploads/2021/01/featured_films_flux_plinko.jpg?resize=250,140 250w" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item lrv-u-border-b-1 u-border-color-loblolly-grey">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-align-items-center lrv-u-padding-b-1 u-padding-t-075" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-secondary-m u-min-height-24em u-min-height-24em u-min-height-24em">
 
-<a href="https://variety.com/vip/music-piracy-still-a-problem-1236467435/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/vip/music-piracy-still-a-problem-1236467435/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					The Music Industry’s New Problem May Have an Old Cause: Piracy		
+
+
+					The Music Industry’s New Problem May Have an Old Cause: Piracy
 			</a>
-	
+
 </h3>
-			
-			
-							
+
+
+
 <a class="c-link  lrv-u-display-block lrv-u-text-transform-uppercase a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-009 u-margin-t-075" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
-			
-							
+
+
 <time class="c-timestamp  a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-005"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 months	
+	2 months
 </time>
-			
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 u-margin-r-125@tablet u-order-n1@tablet u-width-44p@mobile-max u-width-177@tablet">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/vip/music-piracy-still-a-problem-1236467435/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?w=1024" data-lazy-src="https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?w=1024" alt="Music note with copyright symbols" data-lazy-srcset="https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg 1920w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=150,84 150w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=300,169 300w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=125,70 125w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=1000,563 1000w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=910,511 910w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=681,383 681w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=450,253 450w, https://variety.com/wp-content/uploads/2024/10/featured_music_licensing.jpg?resize=250,140 250w" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item lrv-u-border-b-1 u-border-color-loblolly-grey">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-align-items-center lrv-u-padding-b-1 u-padding-t-075" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-secondary-m u-min-height-24em u-min-height-24em u-min-height-24em">
 
-<a href="https://variety.com/vip/umg-downtown-live-nation-indie-music-1236464990/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/vip/umg-downtown-live-nation-indie-music-1236464990/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					It’s “Majors vs. Indies” Summer for the Music Industry		
+
+
+					It’s “Majors vs. Indies” Summer for the Music Industry
 			</a>
-	
+
 </h3>
-			
-			
-							
+
+
+
 <a class="c-link  lrv-u-display-block lrv-u-text-transform-uppercase a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-009 u-margin-t-075" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
-			
-							
+
+
 <time class="c-timestamp  a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-005"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 months	
+	2 months
 </time>
-			
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 u-margin-r-125@tablet u-order-n1@tablet u-width-44p@mobile-max u-width-177@tablet">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/vip/umg-downtown-live-nation-indie-music-1236464990/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?w=1024" data-lazy-src="https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?w=1024" alt="Illustration with music note and money" data-lazy-srcset="https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg 1920w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=150,84 150w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=300,169 300w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=125,70 125w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=1000,563 1000w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=910,511 910w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=681,383 681w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=450,253 450w, https://variety.com/wp-content/uploads/2022/07/featured_music_revenue.jpg?resize=250,140 250w" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item lrv-u-border-b-1 u-border-color-loblolly-grey">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-align-items-center lrv-u-padding-b-1 u-padding-t-075" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-secondary-m u-min-height-24em u-min-height-24em u-min-height-24em">
 
-<a href="https://variety.com/vip/ramping-up-streaming-ad-loads-wrong-move-1236461257/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/vip/ramping-up-streaming-ad-loads-wrong-move-1236461257/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Why Ramping Up Ad Loads Could Be the Wrong Move for Streamers		
+
+
+					Why Ramping Up Ad Loads Could Be the Wrong Move for Streamers
 			</a>
-	
+
 </h3>
-			
-			
-							
+
+
+
 <a class="c-link  lrv-u-display-block lrv-u-text-transform-uppercase a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-009 u-margin-t-075" href="https://variety.com/vip-category/daily-commentary/"
 			>
 	Daily Commentary</a>
-			
-							
+
+
 <time class="c-timestamp  a-hidden@mobile-max u-color-brand-secondary-50 u-font-family-accent u-font-size-13 u-letter-spacing-005"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 months	
+	2 months
 </time>
-			
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 u-margin-r-125@tablet u-order-n1@tablet u-width-44p@mobile-max u-width-177@tablet">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/vip/ramping-up-streaming-ad-loads-wrong-move-1236461257/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-16x9" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?w=1024" data-lazy-src="https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?w=1024" alt="featured_streaming_ads" data-lazy-srcset="https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg 1920w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=150,84 150w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=300,169 300w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=125,70 125w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=1000,563 1000w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=910,511 910w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=681,383 681w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=450,253 450w, https://variety.com/wp-content/uploads/2022/06/featured_streaming_ads.jpg?resize=250,140 250w" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 	</ul>
 
 <div class="lrv-a-wrapper lrv-u-flex lrv-u-justify-content-space-between lrv-u-padding-tb-1">
-		
-		
+
+
 	<div class="o-more-link // lrv-u-margin-l-auto">
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-margin-r-auto lrv-u-cursor-pointer lrv-a-font-primary-xs u-color-black lrv-u-text-transform-capitalize lrv-a-icon-after a-icon-long-right-arrow-black u-text-decoration-underline:hover u-color-black:hover" href="/vip/page/2/"
 			>
 	More Stories</a>
@@ -3102,13 +3102,13 @@ More From
 <section class="newswire__wrapper // lrv-a-wrapper u-margin-t-3">
 	<div class="newswire // lrv-u-background-color-white">
 		<div class="newswire__header // lrv-u-flex lrv-u-flex-direction-column@mobile-max u-align-items-flex-end@tablet">
-			
+
 <div class="more-from // lrv-u-flex lrv-u-align-items-center u-border-b-1 lrv-u-margin-b-150 u-border-t-5 u-border-color-black lrv-u-width-100p">
 
 <h2 id="section-heading" class="c-heading larva  lrv-u-padding-t-075 lrv-u-padding-b-150 lrv-a-font-secondary-l u-color-black lrv-u-width-100p">
 
 More From Our Brands
-	
+
 	</h2>
 
 </div>
@@ -3117,179 +3117,179 @@ More From Our Brands
 <ul class="o-tease-list  lrv-a-unstyle-list u-align-items-stretch lrv-a-grid a-cols1 a-cols5@tablet u-grid-gap-0@tablet u-grid-gap-150@mobile-max a-separator-b-1@mobile-max a-separator-r-1@tablet u-margin-lr-n1@tablet"
 	>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://www.rollingstone.com/politics/politics-news/kyrsten-sinema-cnn-ai-1235426582/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Rolling Stone
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Why Is Kyrsten Sinema on CNN Talking About AI?		
-	
+Why Is Kyrsten Sinema on CNN Talking About AI?
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://www.rollingstone.com/wp-content/uploads/2025/09/kyrsten-sinema-ai-tv.jpg?resize=232,175" data-lazy-src="https://www.rollingstone.com/wp-content/uploads/2025/09/kyrsten-sinema-ai-tv.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://robbreport.com/shelter/celebrity-homes/mark-wahlberg-former-house-beverly-hills-1237027858/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Robb Report
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Mark Wahlberg’s Former L.A. Mansion Is Back on the Market for $21.8 Million		
-	
+Mark Wahlberg’s Former L.A. Mansion Is Back on the Market for $21.8 Million
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://robbreport.com/wp-content/uploads/2025/09/9694OakPass_MarkWahlberg_BH_FI.jpg?resize=232,175" data-lazy-src="https://robbreport.com/wp-content/uploads/2025/09/9694OakPass_MarkWahlberg_BH_FI.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://www.sportico.com/leagues/football/2025/nfl-offensive-linemen-protector-award-highest-paid-1234870769/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Sportico
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Offensive Linemen Have Never Been Bigger, Figuratively		
-	
+Offensive Linemen Have Never Been Bigger, Figuratively
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://www.sportico.com/wp-content/uploads/2025/09/OLine_Prominence.png?resize=232,175" data-lazy-src="https://www.sportico.com/wp-content/uploads/2025/09/OLine_Prominence.png?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://wwd.com/business-news/mergers-acquisitions/dickies-bluestar-600-million-sold-1238160084/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 WWD
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Dickies Sold to Bluestar Alliance for $600 Million		
-	
+Dickies Sold to Bluestar Alliance for $600 Million
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://wwd.com/wp-content/uploads/2020/04/dickies-mens-tough-max-duck-carpenter-pant.jpg?resize=232,175" data-lazy-src="https://wwd.com/wp-content/uploads/2020/04/dickies-mens-tough-max-duck-carpenter-pant.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 	</ul>
@@ -3301,200 +3301,200 @@ Dickies Sold to Bluestar Alliance for $600 Million
 <div id="piano-sticky-footer" class="a-sticky-footer"></div>
 <footer class="footer // lrv-a-wrapper lrv-u-padding-t-1 lrv-u-padding-b-150 lrv-u-padding-b-3@tablet lrv-u-background-color-white">
 	<div class="lrv-u-flex lrv-u-flex-direction-column\@mobile-max lrv-u-padding-t-2 u-padding-t-150@tablet u-border-t-1 u-border-color-black">
-		
+
 <div class="c-lazy-image  lrv-u-flex-shrink-0 lrv-u-margin-r-2 u-width-255 a-hidden@desktop-xl-max">
 			<a href="/variety-vip-subscribe" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
-	
+
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://read.variety.com/get_image.aspx?eid=b82fc113-db56-4cb7-95bd-7a5b3df35cfa&#038;w=320&#038;pnum=1" data-lazy-src="https://read.variety.com/get_image.aspx?eid=b82fc113-db56-4cb7-95bd-7a5b3df35cfa&#038;w=320&#038;pnum=1" alt="Lazy loaded image" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
-	
+
+
 			</a>
 	</div>
 
 <div class="lrv-u-flex lrv-u-flex-direction-column u-justify-content-space-between@tablet lrv-u-width-100p">
 			<div class="footer-menu">
-				
+
 <div class="footer-menus // lrv-a-grid u-grid-gap-2@tablet a-cols5@tablet lrv-u-color-black">
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black a-hidden@tablet">Variety</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/variety-about-us/"
 			>
 	About Us</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://variety.com/static-pages/advertise/"
 			>
 	Advertise</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.canva.com/design/DAGsmtzYJ5o/zv3LMXKR7FoyEFMWt7TU8g/view?utm_content=DAGsmtzYJ5o&#038;utm_campaign=designshare&#038;utm_medium=link2&#038;utm_source=uniquelinks&#038;utlId=h2938b5ba2a"
 			>
 	Media Kit</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/careers-listing/"
 			>
 	Careers</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Legal</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/terms-of-use/"
 			>
 	Terms of Use</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/privacy-policy/"
 			>
 	Privacy Policy</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/privacy-policy/#california"
 			>
 	California Privacy Rights</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important privacy-consent" href="#"
 			>
 	Privacy Preferences</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://optout.aboutads.info/?c=2&#038;lang=EN"
 			>
 	AdChoices</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.pmc.com/opt-out"
 			>
 	Your Privacy Choices</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://variety.com/accessibility/"
 			>
 	Accessibility</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Magazine</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/customer-service/"
 			>
 	Customer Service</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://magazineshop.us/collections/variety"
 			>
 	Back Issues</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="http://variety.com/variety-magazine-subscribe/"
 			>
 	Subscribe</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/magazine-faq"
 			>
 	Help</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">More</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://cloud.email.variety.com/signup/"
 			>
 	Newsletters</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://read-archive.variety.com/"
 			>
 	Archives</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://events.variety.com/"
 			>
 	Events</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://luminatedata.com/filmandtv/"
 			>
 	Luminate</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Connect</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.instagram.com/variety/"
 			>
 	Instagram</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://twitter.com/variety"
 			>
 	Twitter</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.youtube.com/user/Variety"
 			>
 	YouTube</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.facebook.com/Variety"
 			>
 	Facebook</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.linkedin.com/company/variety"
 			>
 	LinkedIn</a>
@@ -3505,7 +3505,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</div>
 
 <div class="footer-meta // lrv-u-text-align-center u-margin-t-050">
-				
+
 	<a class="c-logo lrv-u-display-block lrv-u-margin-lr-auto lrv-u-color-black u-width-128" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
@@ -3536,14 +3536,14 @@ Dickies Sold to Bluestar Alliance for $600 Million
 					<div class="lrv-u-flex lrv-u-align-items-center lrv-a-wrapper u-padding-lr-125">
 						<div class="lrv-u-flex lrv-u-align-items-center u-max-width-865 lrv-u-margin-lr-auto lrv-u-width-100p">
 							<div class="a-hidden@mobile-max">
-								
+
 	<a class="c-logo lrv-u-display-block u-width-127 lrv-u-color-white lrv-u-flex" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
 							</div>
 
 <div class="lrv-u-width-100p u-max-width-705 lrv-u-font-family-secondary lrv-u-margin-t-2@mobile-max lrv-u-margin-l-2@tablet">
-								
+
 <div data-pmc-es-search-form="small_search_form"></div>							</div>
 						</div>
 						<button class="mega-menu__close-button // js-MegaMenu-Trigger lrv-u-justify-content-center lrv-u-align-items-center lrv-u-flex-shrink-0 lrv-u-border-a-0 a-become-close-button a-become-close-button--trigger a-hidden@mobile-max u-width-30 lrv-u-background-color-transparent">
@@ -3553,11 +3553,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 				</div>
 
 <ul class="mega-menu-content // mega-menu__parent-list // lrv-a-unstyle-list lrv-a-wrapper lrv-a-grid@tablet a-cols5@tablet u-grid-gap-2@tablet u-margin-b-3@tablet u-padding-lr-2 u-padding-lr-125@tablet" data-collapsible-group="">
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/film/"
 			>
 	Film</a>
@@ -3608,11 +3608,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/tv/"
 			>
 	TV</a>
@@ -3663,11 +3663,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/what-to-watch-streaming-movies-shows-online/"
 			>
 	What To Watch</a>
@@ -3682,11 +3682,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/music/"
 			>
 	Music</a>
@@ -3731,11 +3731,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/t/documentaries-to-watch/"
 			>
 	Docs</a>
@@ -3750,11 +3750,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/digital/"
 			>
 	Tech</a>
@@ -3781,11 +3781,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/c/global/"
 			>
 	Global</a>
@@ -3818,11 +3818,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/e/contenders/"
 			>
 	Awards Circuit</a>
@@ -3873,11 +3873,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="/videos"
 			>
 	Video</a>
@@ -3922,11 +3922,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/t/what-to-hear/"
 			>
 	What to Hear</a>
@@ -3941,11 +3941,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="#"
 			>
 	More Coverage</a>
@@ -3990,11 +3990,11 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="#"
 			>
 	More Variety</a>
@@ -4045,7 +4045,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 
 <ul class="o-nav__list lrv-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item lrv-u-margin-b-1">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m u-margin-b-1" href="/tips"
 			>
 	Have a News Tip?</a>
@@ -4054,7 +4054,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 							<div id="piano-mega-menu-mobile-module-header-link-vy" class=""></div>
 						</li>
 					<li class="o-nav__list-item lrv-u-margin-b-1">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m u-margin-b-1" href="https://cloud.email.variety.com/signup/"
 			>
 	Newsletters</a>
@@ -4084,16 +4084,16 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			<div class="lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-grid-gap-2">
 				<h3 class="lrv-a-font-secondary-m">Alerts and Newsletters</h3>
 				<div>
-					
+
 <form class="o-email-capture-form lrv-js-EmailCapture  pmc-recaptcha-enterprise-form" method="post" action="https://cloud.email.variety.com/api/" name="newsletter-module-form" target="_blank">
 
 <div class="o-email-capture-form__inner lrv-u-flex">
-		
+
 <div class="c-email-field  ">
 	<label class="c-email-field__label lrv-u-display-none" for="mega_newsletter_email">Your Email</label>
 	<input class="c-email-field__input u-width-222 u-border-b-1 u-border-color-black lrv-u-padding-tb-025 lrv-u-padding-lr-2 lrv-a-font-secondary-regular-xs a-placeholder-color-medium-grey" name="EmailAddress" id="mega_newsletter_email" required type="email" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 </div>
-		
+
 	<button class="c-button larva  lrv-a-unstyle-button lrv-u-cursor-pointer u-margin-l-2" type="submit"
 			>
 
@@ -4101,7 +4101,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 		Sign Up	</span>
 
 <span class="lrv-a-screen-reader-only">Sign Up</span>
-	
+
 	</button>
 	</div>
 
@@ -4110,9 +4110,9 @@ Dickies Sold to Bluestar Alliance for $600 Million
 	<input type="hidden" name="__successPage" data-email-capture-success-url="https://cloud.email.variety.com/signup/?signup=success" value="" />
 
 <input type="hidden" name="Editorial_Daily_Headlines_Opted_In" id="mega_newsletter_name" value="Yes" />
-			
+
 <input type="hidden" name="Editorial_Daily_Headlines_Opt_In_Date" id="mega_newsletter_date" value="2025-09-15" />
-			
+
 <input type="hidden" name="source" id="mega_newsletter_src" value="MegaMenu" />
 	</form>
 				</div>
@@ -4131,7 +4131,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 <ul class="o-social-list  lrv-a-unstyle-list lrv-u-flex lrv-u-align-items-center u-margin-l-n050 u-margin-r-250"
 	>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.instagram.com/variety/"
 					rel="noopener noreferrer"
 							>
@@ -4146,7 +4146,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://twitter.com/variety"
 					rel="noopener noreferrer"
 							>
@@ -4161,7 +4161,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.youtube.com/user/Variety"
 					rel="noopener noreferrer"
 							>
@@ -4176,7 +4176,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.facebook.com/Variety"
 					rel="noopener noreferrer"
 							>
@@ -4191,7 +4191,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.linkedin.com/company/variety"
 					rel="noopener noreferrer"
 							>
@@ -4214,12 +4214,12 @@ Dickies Sold to Bluestar Alliance for $600 Million
 			</div>
 
 <div class="lrv-u-flex lrv-u-align-items-center u-grid-gap-4">
-				
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal a-space-children--175 lrv-u-align-items-center lrv-u-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item ">
-							
+
 <a class="c-link  lrv-a-font-primary-s lrv-u-color-black u-text-decoration-underline:hover" href="/tips"
 			>
 	Got a Tip?</a>
@@ -4245,24 +4245,24 @@ Dickies Sold to Bluestar Alliance for $600 Million
 
 <div class="lrv-u-flex lrv-u-justify-content-space-between lrv-u-border-t-1 lrv-u-padding-t-150 u-padding-b-3 u-border-color-black">
 			<div>
-				
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal u-grid-gap-2 lrv-u-align-items-center lrv-u-a-unstyle-list lrv-u-line-height-large u-justify-content-center@desktop-max lrv-u-flex-wrap-wrap" aria-labelledby="">
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="#"
 			>
 	Advertise</a>
 						</li>
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="/variety-about-us"
 			>
 	About</a>
 						</li>
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="/static-pages/contact-us/"
 			>
 	Contact Us</a>
@@ -4272,7 +4272,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 				<small class="lrv-a-font-secondary-regular-xs">Variety is a part of Penske Media Corporation. &copy; 2025 Variety Media, LLC. All Rights Reserved.</small>
 			</div>
 			<div class="lrv-u-flex lrv-u-align-items-center">
-				
+
 	<a class="u-width-222 u-height-30" href="https://pmc.com/"
 					rel="noopener noreferrer"
 							target="_blank"
@@ -4282,7 +4282,7 @@ Dickies Sold to Bluestar Alliance for $600 Million
 <span class="lrv-a-screen-reader-only" data-label="c_icon_link_screen_reader_text">Icon Link</span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-height-100p lrv-u-width-100p"
 			aria-hidden="true"
 	>

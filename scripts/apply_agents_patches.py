@@ -18,21 +18,21 @@ def upsert(txt, name, body):
     return txt + sep + block
 
 SECTIONS = {
- "PRE_FLIGHT_HARD_CHECKS_EXTENDED": 
+ "PRE_FLIGHT_HARD_CHECKS_EXTENDED":
     "- `scripts/preflight.sh` must pass (ensures `.env`, OpenRouter defaults, budgets, policy).\n" +
     "- Refresh index **before** changes: `CURRENT_TASK_ID=<ID> scripts/update_index.sh`.\n" +
     "- Budget gate (estimate): `python3 scripts/budget_guard.py check --cost <est_cost_usd> --task <ID>`.\n" +
     "- Then proceed with branch creation and task execution."
  ,
 
- "POST_MERGE_EXTENDED": 
+ "POST_MERGE_EXTENDED":
     "- Refresh index and commit:\n" +
     "  - `scripts/update_index.sh`\n" +
     "  - `git add AGENT_INDEX.* && git commit -m \"task(<ID>): refresh index\" && git push`\n" +
     "- Budget log (actual or estimate): `python3 scripts/budget_guard.py log --cost <actual_or_est> --task <ID>`. "
  ,
 
- "TASK_SELECTION_POLICY": 
+ "TASK_SELECTION_POLICY":
     "### Task Selection Policy (no user prompts)\n" +
     "- When you are about to ask “what next?”, run:\n" +
     "  - `python3 scripts/next_task.py pick` → JSON of the highest-priority **unblocked** task(s).\n" +
@@ -48,7 +48,7 @@ SECTIONS = {
     "- If `NO-READY-TASK`: rebuild index; if still none, create `PLAN-NEXT` task with concrete next steps and stop."
  ,
 
- "ID_BASED_ADDRESSING": 
+ "ID_BASED_ADDRESSING":
     "### ID-based addressing\n" +
     "- Prefer `fid` from `AGENT_INDEX.json` over filenames.\n" +
     "- To resolve:\n" +
@@ -57,7 +57,7 @@ SECTIONS = {
     "- Always update the index before and after tasks to keep IDs accurate."
  ,
 
- "GRACEFUL_FAILURE_POLICY": 
+ "GRACEFUL_FAILURE_POLICY":
     "### Graceful failure policy\n" +
     "- `ON_ERROR=skip|halt|ask` (default `skip`).\n" +
     "  - **skip**: If non-blocking, open `FIX-<ID>-<slug>`, log details, continue.\n" +

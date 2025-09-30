@@ -14,13 +14,13 @@ def demo_enhanced_search():
     """Demo the enhanced search engine"""
     print("🔍 Atlas Enhanced Search Engine Demo")
     print("=" * 45)
-    
+
     try:
         from search.enhanced_search import EnhancedSearchEngine
-        
+
         # Create search engine
         search_engine = EnhancedSearchEngine()
-        
+
         # Sample documents
         documents = [
             {
@@ -57,12 +57,12 @@ def demo_enhanced_search():
                 }
             }
         ]
-        
+
         # Build index
         print("Building search index...")
         search_engine.build_index(documents)
         print("✅ Index built successfully!")
-        
+
         # Perform search
         print("\nSearching for 'python programming'...")
         results = search_engine.search('python programming')
@@ -70,34 +70,34 @@ def demo_enhanced_search():
         for result in results:
             print(f"  - {result['doc_id']}: Score {result['score']:.4f}")
             print(f"    Content: {result['content'][:100]}...")
-        
+
         # Perform semantic search
         print("\nPerforming semantic search for 'artificial intelligence'...")
         semantic_results = search_engine.semantic_search('artificial intelligence')
         print(f"Found {len(semantic_results)} semantic search results:")
         for result in semantic_results:
             print(f"  - {result['doc_id']}: Score {result['score']:.4f}")
-        
+
         # Perform filtered search
         print("\nPerforming filtered search for 'data' in 'data-science' category...")
         filtered_results = search_engine.filter_search(
-            'data', 
+            'data',
             filters={'category': 'data-science'}
         )
         print(f"Found {len(filtered_results)} filtered results:")
         for result in filtered_results:
             print(f"  - {result['doc_id']}: Score {result['score']:.4f}")
-        
+
         # Get index stats
         stats = search_engine.get_index_stats()
         print(f"\nIndex Statistics:")
         print(f"  Documents: {stats['document_count']}")
         print(f"  Terms: {stats['term_count']}")
         print(f"  Average Document Length: {stats['avg_document_length']:.2f}")
-        
+
         print("\n✅ Enhanced Search Engine demo completed successfully!")
         return True
-        
+
     except Exception as e:
         print(f"❌ Enhanced Search Engine demo failed: {e}")
         return False
@@ -106,18 +106,18 @@ def demo_indexing_system():
     """Demo the indexing system"""
     print("\n📚 Atlas Search Indexing System Demo")
     print("=" * 45)
-    
+
     try:
         from search.indexing_system import SearchIndexer
         import os
-        
+
         # Create indexer with temporary database
         db_path = "/tmp/demo_search_index.db"
         if os.path.exists(db_path):
             os.remove(db_path)
-            
+
         indexer = SearchIndexer(db_path)
-        
+
         # Sample documents
         documents = [
             {
@@ -147,13 +147,13 @@ def demo_indexing_system():
                 }
             }
         ]
-        
+
         # Index documents
         print("Indexing demo documents...")
         for doc in documents:
             indexer.index_document(doc)
         print("✅ Documents indexed successfully!")
-        
+
         # Retrieve a document
         print("\nRetrieving document 'demo_doc_1'...")
         doc = indexer.get_document('demo_doc_1')
@@ -163,7 +163,7 @@ def demo_indexing_system():
             print(f"Author: {doc['author']}")
         else:
             print("Document not found")
-        
+
         # Update a document
         print("\nUpdating document 'demo_doc_1'...")
         indexer.update_document('demo_doc_1', {
@@ -174,22 +174,22 @@ def demo_indexing_system():
             }
         })
         print("✅ Document updated successfully!")
-        
+
         # Get index stats
         stats = indexer.get_index_stats()
         print(f"\nIndex Statistics:")
         print(f"  Documents: {stats['document_count']}")
         print(f"  Terms: {stats['term_count']}")
         print(f"  Document-Term Associations: {stats['document_term_count']}")
-        
+
         # Close and cleanup
         indexer.close()
         if os.path.exists(db_path):
             os.remove(db_path)
-        
+
         print("\n✅ Search Indexing System demo completed successfully!")
         return True
-        
+
     except Exception as e:
         print(f"❌ Search Indexing System demo failed: {e}")
         return False
@@ -198,15 +198,15 @@ def demo_search_api():
     """Demo the search API endpoints"""
     print("\n🌐 Atlas Search API Demo")
     print("=" * 45)
-    
+
     try:
         from api.search_api import search_bp, initialize_search_system
-        
+
         # Initialize search system
         print("Initializing search system...")
         initialize_search_system()
         print("✅ Search system initialized!")
-        
+
         # Show available endpoints
         print("\nAvailable API Endpoints:")
         print("  GET /api/search/query?q=<query>")
@@ -218,10 +218,10 @@ def demo_search_api():
         print("  DELETE /api/search/documents/<doc_id>")
         print("  GET /api/search/stats")
         print("  GET /api/search/health")
-        
+
         print("\n✅ Search API demo completed successfully!")
         return True
-        
+
     except Exception as e:
         print(f"❌ Search API demo failed: {e}")
         return False
@@ -230,25 +230,25 @@ def main():
     """Run all demos"""
     print("🚀 Atlas Search System Demo")
     print("=" * 50)
-    
+
     demos = [
         demo_enhanced_search,
         demo_indexing_system,
         demo_search_api
     ]
-    
+
     passed = 0
     failed = 0
-    
+
     for demo in demos:
         if demo():
             passed += 1
         else:
             failed += 1
-    
+
     print("\n" + "=" * 50)
     print(f"Demo Results: {passed} passed, {failed} failed")
-    
+
     if failed == 0:
         print("🎉 All demos completed successfully!")
         print("\n🎯 Atlas Search System is ready for use!")

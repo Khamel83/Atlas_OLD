@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The Economics 101 story is that markets respond to shortages through pric
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Good Ponzi
-    
-  
+
+
 
 The Economics 101 story is that markets respond to shortages through price signals. If a widget factory burns down, there will be a shortage of widgets, widget users will pay higher prices to secure their scarce widgets, and entrepreneurs, seeing those high prices, will jump in to build their own widget factories and solve the shortfall. 
 Of course in the real world this mechanism is imperfect and not instantaneous: If there’s a shortage of widgets and the price spikes, you can’t necessarily open a widget factory tomorrow. You need expertise and capital and raw materials and workers to respond to the price signal.
@@ -89,45 +89,45 @@ By the way, if you were the guy at these meetings who didn’t know that Weins
 It would not be my choice, but prosecutors say that they went with Option 3:
 Both during and after these August 2022 meetings, the Conspirators agreed to continue concealing WEINSTEIN’s identity from investors and to raise additional money to pay off existing Tryon investors, all in an effort to stop the Ponzi Scheme from falling apart and to cover up the Defendants’ fraud.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Are loans securities?
-    
-  
+
+
 
 Traditionally, in US law, a bond is a security and a bank loan is not. If a company borrows money by selling bonds to the bond market, it has to follow securities laws; the theory is that bonds are sold publicly to lots of different unrelated investors, who will want the disclosures and legal protections of the securities laws. If a company borrows money by taking out bank loans, it does not have to follow securities laws; the theory is that loans are negotiated directly with a handful of banks who are sophisticated, know the company well and do not really need the protections of securities laws. 
 In modern markets that is not particularly true. “Bank loans,” these days, are   often syndicated loans sold to hundreds of investors, many of whom are hedge funds or collateralized-loan-obligation managers or otherwise not banks. Bonds, meanwhile, are mostly sold to big institutional investors too, and there is some overlap between the loan and bond investor bases. It seems a bit strange and outdated to treat loans and bonds differently, and so you sometimes come across people who argue that loans should be securities, or people who are surprised to learn that they aren’t.
 Frankly I am not sure that any of this makes a huge difference. The bond market and the syndicated loan market both involve mainly sophisticated institutional investors; most companies do not raise money by selling bonds or loans to retail investors. Most bond offerings are exempt from securities registration under private-placement rules, and all syndicated loans would be too, even if they were securities. If you lie in your loan documents probably someone can sue you for fraud (bank fraud?), even if they can’t sue you for securities fraud, and even if the standards are a bit different. Most bonds don’t trade on national securities exchanges anyway, so it’s not like making loans securities would require them to trade on exchanges.
-Still there are some differences that probably matter a lot to, like, the lawyers supporting loan arranging and trading desks (and electronic loan trading platforms). Declaring loans securities would cause various sorts of disruption. My 
+Still there are some differences that probably matter a lot to, like, the lawyers supporting loan arranging and trading desks (and electronic loan trading platforms). Declaring loans securities would cause various sorts of disruption. My
 favorite difference is that you’re allowed to trade loans with inside information, sort of, while you are not allowed to trade securities with inside information: Insider trading in securities is illegal, while banks were historically supposed to be intimately familiar with the nonpublic details of their borrowers’ businesses, and if you bought a loan from the bank that made it then of course you would assume that the bank knew things that you didn’t. (These days, syndicated loan markets have “public side” traders, people at hedge funds and elsewhere who trade both loans and bonds and so don’t get inside information, and “private side” traders, people at banks and other lenders who deal directly with companies and get inside information.)
 What does not happen, in syndicated loan deals, is that banks sell them to retail investors without any disclosure and then say “haha, not a security, you can’t sue us!” This is all an institutional market.
-Anyway, some institutional investors in a loan deal didn’t like how the deal worked out, so they 
+Anyway, some institutional investors in a loan deal didn’t like how the deal worked out, so they
 sued JPMorgan Chase & Co., an arranger of the loan, for securities fraud. JPMorgan said, nope, not securities, so not securities fraud. (The case is called Kirschner v. JPMorgan, and we have talked about it a   couple of  times over the years.)
 The standard view is that syndicated loans are not securities, and a federal court agreed with JPMorgan and dismissed the case. The investors appealed. The federal appeals court had the bright idea of asking the US Securities and Exchange Commission, which after all regulates securities, for its views. The SEC is very keenly interested in the exact contours of what is and is not a security, so you might expect it to enthusiastically answer the court’s question.   But, nope:
 
@@ -150,11 +150,11 @@ I should say that a view like “no, syndicated loans are not securities, but al
   [4]
  But also, the reason the SEC wants to regulate crypto tokens as securities is that they are sold broadly to retail investors, while syndicated loans are not. If your concern is protecting retail investors from risky speculative investments promoted with wild promises, treating crypto tokens as securities probably helps you achieve your goal, while treating syndicated loans as securities is irrelevant.
 
-  
-    
+
+
       Nasdaq 100
-    
-  
+
+
 
 Just to close a loop here. We   talked last week about a quirk of Nasdaq’s published methodology for rebalancing its Nasdaq 100 index, which would seem to have the effect of (1) reducing the weights of six big companies (Microsoft Corp., Apple Inc., Alphabet Inc, Nvidia Corp., Amazon.com Inc. and Tesla Inc.) in the index and (2) increasing the weight of Meta Platforms Inc. in the index. That was weird! “This would be kind of a silly result,” I wrote, “bringing Meta above 5% of the index and arbitrarily flipping its position with Tesla, and it’s entirely possible that the actual adjustment will not work this way.”
 It will not. Bloomberg’s Lu Wang   reported this week:
@@ -169,11 +169,11 @@ At Wells Fargo & Co., the team originally forecast Meta’s weight would be redu
 
 I don’t want to overstate this — Meta’s stock trades more than $5 billion a day, and there is other news out there — but it is the case that   index rebalancing is a big business at a number of hedge funds, and if you got this wrong (as I kind of did!) then you were buying Meta stock at somewhat inflated prices from other index-rebalancing-arbitrageurs who got it right.
 
-  
-    
+
+
       FTX
-    
-  
+
+
 
 I am not sure I believe stories that the young staff of Sam Bankman-Fried’s FTX crypto empire formed a “polycule,” but I will say that I have never before heard of someone funding multiple hedge funds run by his former romantic partners and allocating capital among them as a sign of affection:
 
@@ -198,11 +198,11 @@ Fine. But when I read these passages, I tend to think:
 
 I don’t know what that tells you. Maybe Ellison wrote a lot about her feelings but was careful not to confess to crimes in the Google document. Maybe she did confess to crimes in the Google document, but those entries haven’t become public yet. Still I think that this story slightly reduces my estimation of the government’s case against Bankman-Fried. Ellison will apparently testify that Bankman-Fried signed off on stealing customer money in mid-2022, and that she knew that was wrong and felt bad about it. But if her contemporaneous diary entries are all like “I am just not sure that I have the traits of a successful leader,” rather than like “I worry we’re doing a Ponzi,” doesn’t that undermine her story?
 
-  
-    
+
+
       BlackRock
-    
-  
+
+
 
 I mean, obviously,  what did they expect:
 
@@ -210,7 +210,7 @@ New York City Comptroller Brad Lander slammed a decision by BlackRock Inc., its 
 “BlackRock has clearly stated that climate risk is an investment risk, but actions speak louder than words,” New York City Comptroller Brad Lander said in an emailed statement. “At a time when financial institutions need to take a collective approach to addressing the financial risks from climate change, BlackRock shareholders expect climate-competent, not climate-conflicted, directors.”
 BlackRock this week named Saudi Aramco Chief Executive Officer Amin Nasser to its board, underscoring the investment firm’s commitment to the oil industry. The move comes as BlackRock finds itself at the center of a highly politicized debate around environmental, social and governance investing, with Republicans accusing it of focusing too much on climate change and social issues.
 
-Sure, fine, this is the lowest-hanging fruit. We 
+Sure, fine, this is the lowest-hanging fruit. We
 talked about BlackRock’s decision on Tuesday, and I found it baffling. “I would just not write a lot of letters to CEOs about how important climate change is, and also not put a Saudi oil executive on the board,” I wrote; the combination that BlackRock has chosen (some ESG advocacy, lots of fossil-fuel investment, Nasser on the board) seems likely to please no one. Sure Lander is mad. But imagine reading this article, which you will not read anywhere else because I am just making it up:
 
 Texas Comptroller Glenn Hegar praised a decision by BlackRock Inc., an external money manager banned from doing business with Texas, to appoint the chief executive of the world’s biggest oil company to its board.
@@ -218,15 +218,15 @@ Texas Comptroller Glenn Hegar praised a decision by BlackRock Inc., an external 
 
 It’s impossible to imagine, right? Nobody who has criticized BlackRock for its ESG commitments (except I guess Nasser himself, who “has criticized ESG in the past”) is excited about this appointment. They should have appointed Donald Trump to the board. That would have given Glenn Hegar something to think about.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Federal Reserve tries to make up for lost decades with  real-time payments system. Blackstone’s   $1 Trillion Triumph Is Muted by Deal Slowdown. Apollo to Launch Private Fund in   Asset-Based Financing Buildout.  Tech Stocks, Meme Stocks, Crypto: Investors Are Feeling Bold Again. Adidas and Ye’s Secret Battle Over a $100 Million   Marketing Fund. White Men Experience Biggest   Cognitive Declines After Retirement. “That’s exactly what you want to do! Hell is wrong with you?  I signed up for Snakes on a Plane and I guarantee you that audiences will be way more excited about Snakes on a Plane than Pacific Flight 121.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Some   related background   reading from Money Stuff.
 
 
@@ -239,48 +239,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] See the previous footnote: The essential test for whether crypto is a security is Howey, while the essential test for whether a loan is a security is Reves, and there is not a ton of analytical overlap between them.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -291,46 +291,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj4xfz.5je1/7871c48b.gif" alt="" border="0" /></a>

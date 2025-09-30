@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The more I learn about the deli, the less I understand it. The deli is (was) of course Your Hometown Deli, a deli in Paulsboro, New Jersey, 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        The more I learn about the deli, the less I understand it. The deli is (was) of course Your Hometown Deli, a deli in Paulsboro, New Jersey,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The deli
-    
-  
+
+
 
 The more I learn about the deli, the less I understand it. The deli is (was) of course Your Hometown Deli, a deli in Paulsboro, New Jersey, that  opened in 2015 and  closed this August. During most of its seven-year run, Your Hometown Deli was also the only business of a US public company called Hometown International Inc., which means among (many) other things that you can  read its financial statements online. It had annual revenue that got as high as  $76,213 in 2016 (dollars in dollars) and as low as  $13,976 in 2020 (“The Company was forced to temporarily close the delicatessen due to the stay-at-home order issued by the Governor of New Jersey on March 9, 2020, resulting from the outbreak of COVID-19.”). It never managed to turn a profit,
   [1]
@@ -137,63 +137,63 @@ This money was paid under “consulting agreements,” and the SEC says that “
 Did … it … work? I guess that is the main thing I don’t understand about the deli. They succeeded in turning a small money-losing deli into a public company with a $100 million paper valuation, and then merging that public company with another company at an even higher valuation, which I think is most of the plan. But, except for the week after David Einhorn made fun of them, they don’t seem to have succeeded in actually selling any of this stock to anyone (except Maso?). One possibility is that this was all entirely ill-conceived and they never would have. Another possibility is that the publicity Einhorn brought to the deli made it impossible for the plan to succeed, and the regulators have been toying with them ever since, sure that they’d never actually manage to dump their stock on the public.
 I don’t know! The poor deli guy. He just wanted to start a deli. His  high school wrestling buddy, Patten, was a sophisticated financier, so he discussed his deli plans with him. And if you believe these allegations, his friend was like “well what you do is you get a public-company shell and you operate the deli as a subsidiary of the shell until I can sell the shell to international financial interests to use to take other dodgy companies public, at which point I will get a bunch of shares to dump on the unsuspecting public, and you’ll get your deli back.” Just start the deli! The moral of the story might be that if you want to start a small local business you should not ask your international financier friends for advice.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Texting
-    
-  
+
+
 
 In 1948, the US Securities and Exchange Commission published Rule 17a-4(b), which required regulated brokers to keep “originals of all communications received and copies of all communications sent by such member, broker or dealer (including inter-office memoranda and communications) relating to his business as such.” You can find the current version of the rule online  here, but you can also find the 1948 original online  here, and even on the internet it is pleasingly yellowed. The rule has changed a bit in the ensuing decades, but not too much. “His business” is now “its business,” because brokers are no longer assumed to be male, though they are now assumed to be corporations, and an added sentence notes that “communications includes sales scripts and recordings of telephone calls required to be maintained” by  other rules. But the basics are still the same. “Inter-office memoranda” are still in the rule.
 In 1948, if you were a broker, you probably communicated with your coworkers in roughly three ways:
@@ -230,20 +230,20 @@ No look if you announce that every big bank paid the exact same fine for systema
 “Finance, ultimately, depends on trust. By failing to honor their recordkeeping and books-and-records obligations, the market participants we have charged today have failed to maintain that trust,” said SEC Chair Gary Gensler. “Since the 1930s, such recordkeeping has been vital to preserve market integrity. As technology changes, it’s even more important that registrants appropriately conduct their communications about business matters within only official channels, and they must maintain and preserve those communications.”
 My point here is that when these rules were written, it would have been absurd to say that brokers had to “appropriately conduct their communications about business matters within only official channels.” Everyone understood, in 1948, that only a small sliver of business was conducted in formal letters and memoranda, and that mostly you’d talk about business face-to-face. “As technology changes,” lots of forms of written electronic communication become substitutes not for memoranda, but for face-to-face conversation. So the SEC’s requirements constantly become broader. If you just talk to your colleagues in person, the SEC does not expect you to preserve that. Once you move that chat to WhatsApp, it does.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       David Solomon hobby update
-    
-  
+
+
 
 When David Solomon became the chief executive officer of Goldman Sachs Group Inc., he and Goldman did a lot of public relations around the fact that he also likes to DJ. Part of the purpose of this, I guess, was to suggest that Solomon is cool and young and with-it? But part of it was to suggest that Solomon was an outsider, not a traditional banker, who had to overcome adversity on his way to the top. The adversity of crusty old traditional bankers saying “David, you have talent, but you’ll never become CEO of Goldman if you keep DJing.” From a  2019 profile in Fortune:
 Solomon was outed as DJ D-Sol by the New York Times in 2017, when he was still one of two copresidents gunning for the top job at the firm. Known at the office as an über-professional, hard-charging manager with little patience for small talk, Solomon was anxious that people would no longer take him seriously—mistakenly equating the side gig with some sort of midlife crisis. Some advisers told him to hang it up. “I thought for a minute, Well, can I do this, can I not do this?” recalls Solomon, who donates the proceeds from his gigs and Spotify plays to drug-addiction-related philanthropies. (He says the total he has raised is in the six figures.) Those doubts soon dispersed, especially after his boss at the time, then-CEO Lloyd Blankfein, and others endorsed it. “You know what, it’s who I am, and nobody would tell me not to play golf,” Solomon says now. “And why shouldn’t I—because I’m a CEO?”
@@ -252,16 +252,16 @@ Well. Here’s  an Insider article from last week about how “Goldman Sachs in
 Solomon has recently been working on his golf game and has sought out memberships at some of the country's most prestigious golf clubs and courses, sources said. The CEO is a member of The Bridge, which The New York Times once described as "casual chic" with a clubhouse that was "glassy and aggressively futuristic" and looked "more like a contemporary art museum in Berlin."
 Now that he’s been the CEO for a while he’s allowed to golf too.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UK Bonds Surge as BOE Says It Will   Purchase Gilts, Delay Sales. BOE Actions Prompted by Concern That   Cash Calls Today Would Trigger Gilt Crash. Treasury 10-Year Yield Rises   Above 4% to Highest Since 2008. ‘ Volatility vortex’ slams into $24tn US government bond market. ECB officials back another  big rate rise in effort to tame inflation. Here Are The Big Dangers Looming in The   Credit Market. Elon Musk Asks Appeals Court to End His ‘  Twitter Sitter’ Deal. Cathie Wood’s ARK Launches  Venture Fund Open to Individual Investors. NFT Trading Volumes   Collapse 97% From January Peak. Crypto industry is  not as ethical as private equity, says buyout billionaire.  Celsius CEO Alex Mashinsky Steps Down. Crypto Fugitive Do Kwon Says He   Isn’t Hiding From Authorities. Trump-linked SPAC changes address to  UPS Store as investors pull more than $130 million.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Despite keeping labor costs extraordinarily low: It  paid $360 for labor in 2018, $120 in 2019 and $126 in 2020. I don’t know! There has been a lot of reporting about the stock market implications of the deli, and a certain amount of   reporting about its sandwiches, but I have never read anything about how it hires and retains counter workers. 
+
+  [1] Despite keeping labor costs extraordinarily low: It  paid $360 for labor in 2018, $120 in 2019 and $126 in 2020. I don’t know! There has been a lot of reporting about the stock market implications of the deli, and a certain amount of   reporting about its sandwiches, but I have never read anything about how it hires and retains counter workers.
 
 
   [2] Does? In April it merged with a private company, effectively taking that company public, and is now called Makamer Holdings Inc., but it still trades, infrequently, under its old HWIN ticker.
@@ -270,13 +270,13 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Some of these details are from Bloomberg data, not the SEC complaint.
 
 
-  [4] A more technical point is that you might want to “uplist” the stock. US companies that are publicly traded but not listed on a big exchange (Nasdaq or the New York Stock Exchange) are said to trade “over the counter,” but there are tiers of the over-the-counter markets, which are administered by OTC Markets Group Inc. “The ‘OTC Pink Open Market’ (‘OTC Pink Market’) is the lowest tier marketplace for the trading of OTC securities,”  says the SEC, while “the ‘OTCQB’ is the middle tier marketplace for the trading of OTC securities and consists mainly of early-stage and developing U.S. and international companies.” Moving from the Pink Market to the OTCQB “provided more visibility for Hometown International’s securities, fewer obstacles to trading its shares, and enabled the shareholders whose shares were registered in the Form S-1 to sell their shares at a price higher than $6.50, as the Form S-1 Registration Statement capped the sale price at $6.50 per share until the shares were quoted on certain markets, including the OTCQB.” And so the SEC alleges that the defendants did schemes to get Hometown uplisted, including distributing shares to their friends to meet the 50-shareholder requirement. 
+  [4] A more technical point is that you might want to “uplist” the stock. US companies that are publicly traded but not listed on a big exchange (Nasdaq or the New York Stock Exchange) are said to trade “over the counter,” but there are tiers of the over-the-counter markets, which are administered by OTC Markets Group Inc. “The ‘OTC Pink Open Market’ (‘OTC Pink Market’) is the lowest tier marketplace for the trading of OTC securities,”  says the SEC, while “the ‘OTCQB’ is the middle tier marketplace for the trading of OTC securities and consists mainly of early-stage and developing U.S. and international companies.” Moving from the Pink Market to the OTCQB “provided more visibility for Hometown International’s securities, fewer obstacles to trading its shares, and enabled the shareholders whose shares were registered in the Form S-1 to sell their shares at a price higher than $6.50, as the Form S-1 Registration Statement capped the sale price at $6.50 per share until the shares were quoted on certain markets, including the OTCQB.” And so the SEC alleges that the defendants did schemes to get Hometown uplisted, including distributing shares to their friends to meet the 50-shareholder requirement.
 
 
   [5] None of these April trades are mentioned in the SEC’s and DOJ’s examples of wash trades, but that doesn’t mean that they definitively weren’t.
 
 
-  [6] This is not unrelated to a hypothetical trade I 
+  [6] This is not unrelated to a hypothetical trade I
 wrote about last January, where you are a hedge fund, you buy stock in a small-cap company, and then you put out a bearish-sounding note about it so retail investors rush in to punish you by buying the stock, which you then sell.
 
 
@@ -286,120 +286,120 @@ wrote about last January, where you are a hedge fund, you buy stock in a small-c
   [8] Also a perfectly acceptable way to communicate with someone sitting next to you, though you *might* talk to them instead.
 
 
-  [9] Fun fact: During my time at Goldman, there was a scandal about staff allegedly referring to customers as “muppets,” which led to a firmwide search of electronic messages to catch references to muppets. I am not joking. “Goldman’s ‘muppet hunt’ draws a blank,” was a  real Financial Times headline. One fallout of this is that it became very much frowned upon to swear in IMs, or even to use swear abbreviations like “wtf” or “fml.” If you typed “wtf” in an IM you’d get a stern talking-to from compliance. 
+  [9] Fun fact: During my time at Goldman, there was a scandal about staff allegedly referring to customers as “muppets,” which led to a firmwide search of electronic messages to catch references to muppets. I am not joking. “Goldman’s ‘muppet hunt’ draws a blank,” was a  real Financial Times headline. One fallout of this is that it became very much frowned upon to swear in IMs, or even to use swear abbreviations like “wtf” or “fml.” If you typed “wtf” in an IM you’d get a stern talking-to from compliance.
 
 
   [10] Similarly, you never see prosecutors announce a murder conviction by saying “this murderer violated the very important law against murder.” Any time a regulator has to say explicitly that a rule is “very important,” that’s because he has some doubts.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -38,7 +38,7 @@
 				a.appendChild(r);
 			})(window,document,'//web.archive.org/web/20230317190202/https://static.hotjar.com/c/hotjar-','.js?sv=');
 		</script>
-		
+
 <!-- Quantcast Tag, part 1 -->
 <script type="text/javascript">
 var _qevents = _qevents || [];
@@ -240,7 +240,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 		<script type="text/javascript">
 			var pmc_ga_dimensions = {"dimension1":"article","dimension3":"1234720464","dimension4":"eric-kohn","dimension5":"film","dimension6":"amy-seimetz|columns|eric-kohns-column|the-weeknd","dimension8":"film","dimension10":"2022","dimension11":"04","dimension12":"30","dimension13":"10","dimension14":"00","dimension25":"2022-04-30T14:00:56+00:00","dimension26":"2022-04-30 10:00:56","dimension27":"Saturday","dimension29":"anonymous"};
 			var pmc_ga_mapped_dimensions = {"page-type":"1","page-subtype":"2","id":"3","author":"4","category":"5","tag":"6","vertical":"7","primary-category":"8","primary-vertical":"9","publish-year":"10","publish-month":"11","publish-day":"12","publish-hour":"13","publish-minute":"14","protocol":"15","paywall-entitlement":"16","paywall-sub-level-required":"17","paywall-sub-roadblock-hit":"18","paywall-acct-type":"19","paywall-acct-id":"20","paywall-org-name":"21","paywall-org-id":"22","paywall-auth-provider":"23","paywall-logged-in":"24","publish-timestamp-gmt":"25","publish-timestamp":"26","publish-day-of-week":"27","omni-visit-id":"28","user-type":"29","a-b-test":"30","experiment-name":"31","paywall-special-product-code":"32","paywall-product-code":"33","post-options":"34","child-post-id":"35","page-variant-name":"36","pageview-id":"37"};
-			
+
 			window.pmc_ga_dimensions_requiring_c0002 = [];
 			pmc_ga_dimensions_requiring_c0002["dimension15"]
 				= document.location.protocol.replace(':', '');
@@ -342,7 +342,7 @@ ga('set', 'location', location_url);
 
 ga('require', 'displayfeatures');					ga('set', ga3Dimensions);
 					window.pmcGaCustomDimensions = ga3Dimensions;
-				
+
 		ga( 'require', "GTM-TKWCQCP" );
 
 ga('send', 'pageview');
@@ -448,7 +448,7 @@ blogherads.adq.push(function () {
     "logo": "http://web.archive.org/web/20230317190202/https://www.indiewire.com/wp-content/themes/indiewire/assets/build/images/Logo_IndieWire.png"
 }
 			</script>
-			
+
 <style type="text/css">
 article [id^="jwplayer_"][id$="_div"] {
 	aspect-ratio: 16/9;
@@ -507,7 +507,7 @@ if ( 'function' === typeof gtag ) {
 			gtag('js', new Date());
 
 gtag( 'config', 'G-3QZ1BLEPP5', { 'send_page_view': false } );
-		
+
 		</script>
 				<link rel="search" type="application/opensearchdescription+xml" href="http://web.archive.org/web/20230317190202/https://www.indiewire.com/pmc-opensearch" title="IndieWire  Search"/>
 	<meta name="robots" content="max-image-preview:large">
@@ -682,13 +682,13 @@ var pmcadm_floating_preroll_data = {"backup_channel_id":"","cookie_name":"pmc-ad
 
 (function ( blogherads ) {
 		blogherads.adq.push( function () {
-			
+
 							blogherads.setConf( 'vertical', 'film' );
-			
-			
-			
-			
-			
+
+
+
+
+
 			blogherads.setTargeting( 'pt', 'article' );
 blogherads.setTargeting( 'ci', 'ART-1234720464' );
 blogherads.setTargeting( 'tag', ["amy-seimetz","columns","eric-kohns-column","the-weeknd"] );
@@ -761,7 +761,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 </head>
 
 <body class="post-template-default single single-post postid-1234720464 single-format-standard pmc-desktop pmc-no-tablet pmc-no-mobile geo-us pmc-group-pmc-dev pmc-group-pmc-product pmc-gallery__" style="">
-	
+
 		<!-- Google Tag Manager -->
 		<noscript>
 			<iframe src="http://web.archive.org/web/20230317190202if_/https://www.googletagmanager.com/ns.html?id=GTM-W3K4Q7" height="0" width="0" title="GTM" style="display:none;visibility:hidden"></iframe>
@@ -789,7 +789,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="skin-ad-inject-container">
 			<div class="admz" id="adm-responsive-skin-ad">
 					<div class="adma boomerang" data-device="Desktop" data-width="1">
-				
+
 <div style="" class="pmc-adm-boomerang-pub-div " data-priority="10">
 	<div id="gpt-iw-ros-skin-uid8" class="adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -817,7 +817,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 			<div id="leaderboard" class="iw-leaderboard-ad">
 					<div class="admz" id="adm-leaderboard">
 					<div class="adma boomerang" data-device="Desktop" data-width="970">
-				
+
 <div style="min-width:50px;min-height:50px;" class="pmc-adm-boomerang-pub-div " data-priority="9">
 	<div id="div-gpt-indiewire-ros-leaderboard-uid9" class="adw-970 adh-90" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -839,7 +839,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 		</div>
 
 <main id="layout-container" class="layout-container l-page">
-							
+
 <div id="back-to-brand" class="back-to-brand">
 	<a href="http://web.archive.org/web/20230317190202/https://www.indiewire.com/" class="back-to-brand-a">
 		<i class="fa fa-angle-double-left back-to-brand-i" aria-hidden="true"></i>Back to IndieWire	</a>
@@ -1216,7 +1216,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p class="p1">I&#8217;m told that Seimetz had already directed about four episodes of the six-episode series and adapted the show to her loose, exploratory approach. The story of a female pop singer (Lily Rose Depp) ensnared in a relationship with an L.A. cult leader (Tesfaye) was shot with more of a run-and-gun style than the script suggested, with improvisation adding new dimensions.</p>
 <p>	<div class="admz" id="adm-inline-article-ad-1">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:50px;min-height:75px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-article-uid0" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1267,7 +1267,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <div id="attachment_1201715644" style="width: 680px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-1201715644" decoding="async" class="wp-image-1201715644 size-large" src="http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/plugins/lazy-load-0.7/images/1x1.trans.gif" alt width="670" height="377" data-lazy-src="http://web.archive.org/web/20230317190202/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?w=670" data-lazy-srcset="http://web.archive.org/web/20230317190202/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg 670w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=300,169 300w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=600,338 600w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=125,70 125w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=660,370 660w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=150,84 150w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=110,62 110w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=285,160 285w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=320,180 320w, https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=640,360 640w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px"><noscript><img aria-describedby="caption-attachment-1201715644" decoding="async" class="wp-image-1201715644 size-large" src="http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?w=670" alt="" width="670" height="377" srcset="http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg 670w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=300,169 300w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=600,338 600w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=125,70 125w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=660,370 660w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=150,84 150w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=110,62 110w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=285,160 285w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=320,180 320w, http://web.archive.org/web/20230317190202im_/https://www.indiewire.com/wp-content/uploads/2016/08/amy-seimetz.jpg?resize=640,360 640w" sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px"/></noscript><p id="caption-attachment-1201715644" class="wp-caption-text"><a href="http://web.archive.org/web/20230317190202/https://www.indiewire.com/t/amy-seimetz/" id="auto-tag_amy-seimetz" data-tag="amy-seimetz">Amy Seimetz</a> on the set of &#8220;The Girlfriend Experience&#8221;</p></div><p class="image-credit">Amy Seimetz/Starz</p>
 <p>	<div class="admz" id="adm-inline-article-ad-2">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:50px;min-height:75px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-article2-uid1" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1294,7 +1294,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p>All along, Seimetz made clear that she wanted to work on her own terms. &ldquo;I&rsquo;m actually really territorial about my writing and directing,&rdquo; she <a href="http://web.archive.org/web/20230317190202/https://www.indiewire.com/2019/04/amy-seimetz-interview-pet-sematary-1202058479/">told me a few years ago</a>. &ldquo;It takes time because I want it to be mine. I&rsquo;ve turned down a lot of pilots and other people&rsquo;s scripts.&rdquo;</p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-11">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid2" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1321,7 +1321,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p>Earlier this month, Lena Dunham <a href="http://web.archive.org/web/20230317190202/https://www.instagram.com/p/CcfkW0kL9iV/" rel="nofollow" target="_blank">saluted the 10-year anniversary of &ldquo;Girls.&rdquo;</a> She scored the HBO show when she was 23 and a prodigy after winning SXSW&#8217;s Grand Jury Prize with her intimate debut feature &ldquo;Tiny Furniture.&rdquo; Back then, few emerging filmmakers looked toward TV. Case in point: The next year, SXSW winner Robbie Pickering won the top prize for his own debut, &ldquo;Natural Selection.&rdquo; Pickering&rsquo;s bittersweet dark comedy, which starred a top-notch Rachael Harris as a religious woman who discovers her late husband&rsquo;s illegitimate son, suggested the makings of a next-gen Alexander Payne. But he stumbled through his sophomore gig, the misbegotten Sony horror comedy &ldquo;Freaks of Nature,&#8221; led by future &#8220;Succession&#8221; star Nicolas Braun. After that, Pickering was in oblivion &mdash; until this month, when he resurfaced as the showrunner of Starz miniseries &ldquo;Gaslit.&rdquo;</p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-16-1">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid3" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1348,7 +1348,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p>For many directors, TV provides a healthier template. It&rsquo;s also where more diverse stories have a better chance of being told. What directors don&#8217;t get is a measure of veto power, and that can limit their potential to stand out. The showrunner role tends to fall to someone who has a lot of experience, especially if the show&rsquo;s creator has none (i.e. &ldquo;Barry,&rdquo; in which Bill Hader paired with &ldquo;Seinfeld&rdquo; writer Alec Berg). The WGA Showrunner Training program helps some newcomers figure out the job, but it&rsquo;s not a universal access point: Pickering applied and was rejected. &ldquo;Going through what I went through in film is a training program in itself,&rdquo; he said.</p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-22-2">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid4" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1376,7 +1376,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p>He sold a pilot to The CW, but as he struggled with taking notes from the network, he told his agents he wanted to staff writers rooms instead. Chun worked on 100 episodes of TV over five years, and continued writing features on the side, including two projects acquired by the Russo brothers as potential directing vehicles for the duo. That never happened, but it gave him the encouragement to keep at it. While his relationship with Warner Bros. on &ldquo;Gotham&rdquo; helped him land the &ldquo;Gremlins&rdquo; gig, he&#8217;s developing another feature with &ldquo;Sorry to Bother You&rdquo; producer Nina Yang Bongiovi.</p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-28-3">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid5" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1404,7 +1404,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p>A few weeks back, I was binging HBO&rsquo;s queer pirate odyssey &ldquo;Our Flag Means Death&rdquo; (which had better get a second season!) when one of its delightfully whimsical episodes ended with a director credit for Nacho Vigalondo. Some readers know that name as the beguiling creative mind behind &ldquo;Colossal,&rdquo; the Anne Hathaway-as-a-kaiju-monster addiction dramedy so inventive it&rsquo;s a miracle it exists at all. Vigalondo does silly-sublime better than anyone.</p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-34-4">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid6" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1440,7 +1440,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <p><em>&mdash;Anonymous specialty distributor</em></p>
 <p>	<div class="admz" id="adm-inline-article-ad-x-43-5">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="gpt-iw-article-mid-articleX-uid7" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1486,7 +1486,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 
 <div class="admz" id="adm-sharethrough-article-native-river-ad">
 					<div class="adma boomerang" data-device="Desktop" data-width="1">
-				
+
 <div style="" class="pmc-adm-boomerang-pub-div " data-priority="10">
 	<div id="gpt-iw-native-article-bottom-uid10" class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1522,7 +1522,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="med_rec_bottom">
 			<div class="admz" id="adm-single-bottom">
 					<div class="adma boomerang" data-device="Desktop" data-width="620">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div ad-text" data-priority="10">
 	<div id="div-gpt-indiewire-ros-620x250-uid11" class="adw-620 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1539,7 +1539,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 </div>
 			</div>
 						<div class="adma boomerang" data-device="Desktop" data-width="1">
-				
+
 <div style="" class="pmc-adm-boomerang-pub-div " data-priority="10">
 	<div id="gpt-iw-article-inline-uid12" class="adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1558,9 +1558,9 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	</div>
 	<br>
 </div>
-			
-			
-		
+
+
+
 		</div>
 
 </div>
@@ -1568,7 +1568,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <div class="right-side">
 		<div class="admz" id="adm-right-rail-1">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div right-rail-1 ad-text" data-priority="10">
 	<div id="div-gpt-indiewire-ros-300x250-uid13" class="adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1601,7 +1601,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 </div>
 <aside id="pmc-ads-widget-9" class="widget widget_pmc-ads-widget">	<div class="admz" id="adm-widget-b-dsk-tab-ros-rail-mid">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:160px;min-height:250px;" class="pmc-adm-boomerang-pub-div " data-priority="10">
 	<div id="gpt-dsk-right-rail-middle-uid14" class="adw-300 adh-600" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1630,7 +1630,7 @@ Podcasts
 </h2>
 <p class="c-tagline">Listen to these IndieWire podcasts.</p>
 <ul class="o-story-list">
-	
+
 		<li class="o-story-list__item">
 
 <article class="o-tease u-bg-icon u-bg-icon--podcast">
@@ -1692,7 +1692,7 @@ Craft
 </h2>
 <p class="c-tagline">Interviews with leading film and TV creators about their process and craft.</p>
 <ul class="o-story-list">
-	
+
 		<li class="o-story-list__item">
 
 <article class="o-tease u-bg-icon u-bg-icon--bullet">
@@ -1746,7 +1746,7 @@ Craft
 
 </aside><div class="pmc-sticky-sidebar sidebar"><aside id="pmc-ads-widget-19" class="widget widget_pmc-ads-widget">	<div class="admz" id="adm-widget-b-indiewire-ros-rail-bottom">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;" class="pmc-adm-boomerang-pub-div sticky-right-rail-bottom ad-text" data-priority="10">
 	<div id="div-gpt-indiewire-rail-bottom-uid15" class="adw-300 adh-250 slot-rotate-rail-bottom" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1765,7 +1765,7 @@ Craft
 				</div>
 </aside>		<aside id="zoninator_zoneposts_widget-12" class="widget widget-zone-posts">
 		<h2 class="widgettitle">Featured Posts</h2>
-		
+
 		<ul>
 							<li>
 					<a href="http://web.archive.org/web/20230317190202/https://www.indiewire.com/gallery/best-90s-movies/">
@@ -1791,7 +1791,7 @@ Craft
 
 </aside>		<aside id="pmc-ads-widget-22" class="widget widget_pmc-ads-widget">	<div class="admz" id="adm-widget-b-dsk-marketplace">
 					<div class="adma boomerang" data-device="Desktop" data-width="300">
-				
+
 <div style="" class="pmc-adm-boomerang-pub-div " data-priority="10">
 	<div id="gpt-dsk-marketplace-uid16" class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
@@ -1814,15 +1814,15 @@ Craft
 
 <div class="ad-above-footer">
 			</div>
-	
+
 <div class="l-section l-newswire u-padding-b-5 u-padding-b-30@tablet-min">
-	
+
 </div><!-- /.l-section -->
 <footer class="l-footer">
 
 <div class="l-footer__primary u-invert-colors u-grid-3-pack">
 		<nav class="l-footer__menu">
-			
+
 <div class="c-page-nav c-page-nav--footer u-text-align-center@tablet-min" data-dropdown>
 	<h4 class="c-page-nav__item c-page-nav__item--heading c-page-nav__chevron u-text-transform-uppercase is-active is-heading" data-dropdown-list-item="true">
 		IndieWire	</h4>
@@ -1832,7 +1832,7 @@ Craft
 </div><!-- .c-page-nav--footer -->
 		</nav>
 		<nav class="l-footer__menu">
-			
+
 <div class="c-page-nav c-page-nav--footer u-text-align-center@tablet-min" data-dropdown>
 	<h4 class="c-page-nav__item c-page-nav__item--heading c-page-nav__chevron u-text-transform-uppercase is-active is-heading" data-dropdown-list-item="true">
 		Legal	</h4>
@@ -1841,7 +1841,7 @@ Craft
 </div><!-- .c-page-nav--footer -->
 		</nav>
 		<nav class="l-footer__menu">
-			
+
 <div class="c-page-nav c-page-nav--footer u-text-align-center@tablet-min" data-dropdown>
 	<h4 class="c-page-nav__item c-page-nav__item--heading c-page-nav__chevron u-text-transform-uppercase is-active is-heading" data-dropdown-list-item="true">
 		Sitemap	</h4>
@@ -2056,7 +2056,7 @@ _qevents.push([
 <!-- START callback function for onhashchange(when the hash tag in the url gets updated) -->
 <script type="text/plain" class="optanon-category-C0004">
 	function global_urlhashchanged() {
-		
+
 		// Track PV in GA
 		try {
 			ga( 'send', 'pageview', location.pathname + location.hash );

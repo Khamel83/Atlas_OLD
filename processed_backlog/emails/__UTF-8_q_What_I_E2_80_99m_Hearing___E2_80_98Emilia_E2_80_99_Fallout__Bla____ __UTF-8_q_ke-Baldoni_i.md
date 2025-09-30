@@ -43,7 +43,7 @@ Caitlyn Jenner, Barry Manilow, and… some fun stuff from inside the Grammys.
 
 But first…
 
- 
+
 
 Who Won the Week: Kendrick
 Lamar
@@ -94,7 +94,7 @@ awards campaigns turned them into main characters of the celebrity industrial co
 Back in 2016, when Fox Searchlight paid a then-record $17.5 million for The Birth of a Nation, information about filmmaker Nate Parker’s college rape trial was just sitting on his Wikipedia page for anyone to see. After those resurfaced allegations derailed the
 movie, I remember a lot of “never again” hand-wringing about vetting key talent before jumping into bed with them. Seems everyone forgot. Maybe now they’ll remember.  
 
- 
+
 
 Quote of the Week
 -----------------
@@ -149,7 +149,7 @@ now. Both sides seemed ready to dive into discovery, telling the judge about the
 What about those not inside the courtroom, like The New York Times, which hasn’t been served yet? Surely,
 the Times will want to protect its source discussions. I could see the paper filing motions on this front. If the litigation indeed devolves into lawyers becoming defendants—at very least, they’ll be witnesses—this will get very messy. 
 
- 
+
 
 My Reading List…
 ------------------
@@ -230,7 +230,7 @@ Disney bought Fox. During the pandemic era, Sony decided to lease several of its
 
 Continue reading online… ( https://puck.news/dog-man-is-a-hit-where-are-the-other-animated-films/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 The Feedback
 ------------
@@ -246,7 +246,7 @@ Knowing Hollywood, they’ll fuck up, shun her, and turn her into a much bigger 
 
 “I don’t know anyone voting for this performance, so can we just stop talking about it and move on?” —A writer
 
- 
+
 
 Finally… Some Fun Chatter From Grammy Weekend…
 --------------------------------------------------
@@ -257,7 +257,7 @@ The Weeknd for about four months on the terms and conditions for his return afte
 “Die With a Smile,” on Thursday, going instead with “California Dreamin’” as an L.A. tribute. … Producer Ben Winston came up with the idea of doing commercials for L.A. businesses only about a week ago, so producers scrambled to put them together with Doja Cat, Charlie Puth, Anderson .Paak, and the Jonas Brothers. At the Clive Davis party/fundraiser, Jody Gerson, UMPG C.E.O. and
 MusiCares executive of the year, admitted to sneaking into the party “a few times” early in her career. … Barry Manilow, 81, was seen vaping.
 
- 
+
 
 Have a great week,
 
@@ -288,6 +288,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUz7SS9U0F4b-eRc5V-jo=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

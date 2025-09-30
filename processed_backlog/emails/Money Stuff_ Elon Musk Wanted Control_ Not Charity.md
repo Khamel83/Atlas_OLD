@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here is a partial list of things that Elon Musk has thought are the most important things in the world: “Solving the environment,” by buildi
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI
-    
-  
+
+
 
 Here is a partial list of things that Elon Musk has thought are the most important things in the world:
 	“Solving the environment,” by building electric cars at Tesla.	Making humanity a “multi-planet species,” by building spaceships at SpaceX.	Buying Twitter to prevent the “corrosive effect on civilization” of San Francisco’s “mind virus.”
@@ -81,7 +81,7 @@ Anyway here’s this:
 OpenAI fired back at a lawsuit filed against it by Elon Musk in a blog post Tuesday, using the billionaire’s own emails to show he backed the company’s plans to become a for-profit business and that he insisted it raise “billions” of dollars to be relevant compared with Google.
 Here is  OpenAI’s blog post, which explains that OpenAI was founded as a nonprofit but eventually decided it needed more money than it could get from donors:
 We spent a lot of time trying to envision a plausible path to AGI. In early 2017, we came to the realization that building AGI will require vast quantities of compute. We began calculating how much compute an AGI might plausibly require. We all understood we were going to need a lot more capital to succeed at our mission—billions of dollars per year, which was far more than any of us, especially Elon, thought we’d be able to raise as the non-profit.
-Yes, right, it turns out that it is easier to motivate people to give you computing power if you pay them for it, it is easier to motivate researchers to develop artificial intelligence if you  give them stock options, and it is easier to get people to give you money if you  offer them a share of your financial returns. (OpenAI has raised 
+Yes, right, it turns out that it is easier to motivate people to give you computing power if you pay them for it, it is easier to motivate researchers to develop artificial intelligence if you  give them stock options, and it is easier to get people to give you money if you  offer them a share of your financial returns. (OpenAI has raised
 roughly 100 times as much money from investors as it ever did from donors.) If you want to build a car company or a rocket company or a social network, this is also true, so it seems intuitive to apply the same reasoning to AI.
 Elon Musk knows this and, apparently, agreed that OpenAI should pivot to profit. But he took his usual view, that the best way to do good for the world was through a for-profit company that he controlled:
 
@@ -93,37 +93,37 @@ And now Elon Musk in fact  does have a for-profit artificial intelligence startu
 After Musk filed his lawsuit, Altman wrote a memo to his staff: “The implication that benefiting humanity is somehow at odds with building a business is confusing,” he said. “I miss the old Elon.” 
 No, see, he still thinks that building a business is the best way to benefit humanity, which is why he’s doing it. But the old Elon also liked to make outlandish claims in court; you just can’t take this stuff too seriously.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Celsius
-    
-  
+
+
 
 When I worked as a mergers-and-acquisitions lawyer and then as an investment banker, I thought that you could trade stocks in the US from 9:30 a.m. to 4 p.m. New York time, Monday through Friday. Was that completely accurate? No, of course not: There were, and still are, early morning and after-hours trading sessions, and I knew that. But it was close to true: There was, and still is, much more trading during normal market hours than in the extended sessions.
 And it was a very useful approximation of the truth. In particular, here are two stylized facts that are sort of true and that work very nicely together:
@@ -165,11 +165,11 @@ It’s fine! This is how it’s supposed to work! There are two sorts of time in
 
 If you put your earnings up on your website at 7 p.m. and then put them out on a news wire at 6 a.m., that’s fine! Those times are the same time! You did exactly what you are supposed to do; you got the information out there in the quiet time between when the market closed and when it opened again. Except the market was kind of open the whole time.
 
-  
-    
+
+
       The board is in charge
-    
-  
+
+
 
 The other day I mentioned a lawsuit against Crown Castle Inc., whose estranged co-founder sued over a deal the company struck with Elliott Investment Management. Elliott had run an activist campaign and threatened a proxy fight, and Crown Castle settled by giving Elliott two board seats. The co-founder, Ted Miller, wants to nominate his own board candidates and objected to Crown Castle’s agreement to endorse Elliott's directors without even considering his. “The affairs of Delaware corporations,” his lawyers wrote, “must be managed by boards of directors, not backroom deals.” 
 Well, this week Crown Castle and Elliott amended their deal to add a “fiduciary out.” That is: They still have a contract saying that the board will endorse Elliott’s nominees, but now the contract specifically says that the board can change its mind if it decides that that’s in the best interests of shareholders:
@@ -177,11 +177,11 @@ If the Board in good faith determines (a “Recommendation Determination”), af
 That does seem like a fairly straightforward fix. Miller’s objection was a technical point of Delaware law: The board of directors has to run the company in the way that it thinks is best for shareholders, so signing a contract saying “the board will recommend your nominees” might be illegal, if (1) the board later gets other nominees, (2) it decides, in its heart of hearts, that those nominees are better, but (3) it feels bound by the contract to recommend the first, worse nominees. But if you rewrite the contract to say “the board can change its mind,” that addresses the problem. And these outs are not uncommon. In particular, many public-company merger agreements let the target company’s board get out of the merger if, after jumping through some hoops, they conclude that another deal is in the shareholders’ best interests.
 Obviously rewriting the contract to say that the board can change its mind makes it a less useful contract. But the point is that, here, the board wanted the deal with Elliott, and probably doesn’t want Miller’s nominees on the board. Rewriting the contract solves the technical problem but probably doesn’t change what will actually happen.
 
-  
-    
+
+
       Good honeypot
-    
-  
+
+
 
 The internet  tells me that there are about 1.2 million people in the US with top secret security clearance. You could imagine a sort of cool spy-movie world in which “top secret” secrets were really top secret and only shared with a few, carefully vetted, highly trustworthy people. But at 1.2 million people, nah. At 1.2 million people, even if your vetting process is 99.99% reliable, you will still have 120 people who forget their top secret documents on the train, or leave their top secret laptops open at the coffee shop while they go to the bathroom, or have loud top secret phone conversations in public places, or are actual spies for the other side. At 1.2 million people, no matter how good your vetting is, the far left tail of the trustworthiness distribution is going to be  this guy:
 
@@ -198,23 +198,23 @@ On or about April 12, “Sweet Dave, the supply of weapons is completely classif
 
 Did he ever worry that maybe she only loved him for his top secret information and not for his sparkling personality? Did he care? How could this possibly have worked? Well, it only had to work on one guy.
 
-  
-    
+
+
       What does Crypto smell like?
-    
-  
+
+
 
 Here’s a  terrible commercial from Binance. I am dying to know what it smells like, if anyone has a bottle.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 New York Community Bancorp Seeks Cash Infusion. The traders hunting for  power-grid bottlenecks. SEC Scales Back New Pollution-Disclosure Rules for Companies. Bitcoin  Volatility Picks Up After Token’s Run to All-Time High. The Believers Who Rode Bitcoin to a Record High—and the Ones Who Missed Out.  Citi Reorganization Has Gone Swifter Than Expected, CEO Says. UBS chief Sergio Ermotti hits out at Europe’s ‘ parochial’ view of banks. EV group Lucid admits it cannot rely on ‘ bottomless wealth’ of Saudi owner. China Stock Watchdog  Vows Action at Times of ‘Market Failures.’ Dartmouth Players Vote for Union in First for  College Sports. Vax-happy 62-year-old gets COVID shot more than 200 times — leaving  scientists stunned. “Oblectate, nunc hic sumus.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] He did start a company to build underground tunnels because he was sick of traffic, but honestly that's fine too.
 
 
@@ -227,54 +227,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Because Elon Musk follows absolutely no conventional rules of M&A, I once  made a joke about this on Twitter, about his deal to buy Twitter, which I assumed would casually be announced in the middle of the trading day. And  then it was!
 
 
-  [5] Actually it’s not uncommon to want to announce Sunday evening, before Asian markets open. 
+  [5] Actually it’s not uncommon to want to announce Sunday evening, before Asian markets open.
 
 
   [6] Incidentally, sometimes when I use the word “millisecond” in this column, I get amused emails from electronic traders being like “bro a millisecond is soooooooooo long, try every microsecond counts.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -285,46 +285,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckldmo.5il5/2794317a.gif" alt="" border="0" /></a>

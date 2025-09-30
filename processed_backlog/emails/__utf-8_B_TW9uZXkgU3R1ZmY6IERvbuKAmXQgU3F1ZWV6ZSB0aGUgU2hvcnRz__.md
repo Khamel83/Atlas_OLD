@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.“He who sells what isn’t his’n, must buy it back or go to pri
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       MMTLP
-    
-  
+
+
 
 “He who sells what isn’t his’n, must buy it back  or go to prison,” which sometimes gives people bad ideas. Here is the bad idea:
 	If people sell stock short, they have to borrow the stock from a stock lender, and return it when they are done. They borrow the stock, they sell it, they wait, and then they buy it back to return to the lender. (The short sellers hope that the stock goes down between when they sell it and when they buy it.)	If the stock pays a dividend, the short sellers have to pay the dividend back to the stock lender.	If the stock somehow becomes not tradable, then the short sellers can’t buy it back to deliver to their lenders, and they are stuck, bwahahahahaha, prison!	If the stock pays a dividend that is not cash or regular stock, but rather some weird thing that is not tradable, then the short sellers can’t get the dividend to deliver to their lenders, and they are stuck, bwahahahahaha, prison!
@@ -110,37 +110,37 @@ My takeaways would be:
 	Naked short selling is an imaginary problem.	US securities regulators think that  engineering a short squeeze is market manipulation, and they are not going to help a company’s efforts to squeeze its shorts.	If a company is doing some baroque corporate-finance structuring with the express purpose of hurting short sellers, that is good news for short sellers and bad news for shareholders.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       UnTRustworthy
-    
-  
+
+
 
 I guess one trade you could do is, like, you incorporate a company called Renaisssance Technologies LLC, and you register a domain like rentech.com, and you send out letters to a bunch of big institutional allocators and high-net-worth individuals saying “good news, Renaisssance Technologies is opening its prestigious Medalion Fund to a few selected investors, you are one of them, wire us some money, the fees are 5 and 50.” All of the typos in that sentence are intentional. And some people who get the letter miss the typos and think that Renaissance Technologies is opening its prestigious Medallion Fund to them, and they wire you $100 million, and then you have $100 million. You could steal it. Or, much better, you could invest it in a diversified portfolio of stocks and keep 5% of the assets plus 50% of the gains for yourself. Stealing it is a crime; investing it and charging the fees that you agreed to is … I mean … I don’t recommend it, but it’s an interesting idea.
 Is it? Is this a thing? We   talk sometimes around here about people who put out fake press releases announcing fake mergers, and sometimes the fake buyer is like KRK & Co. or Carlisle Group or Cerebrus or Blackst0ne or whatever, but I don’t think I’ve ever heard of someone intentionally creating a confusing company name to try to solicit investors. Until now! From Leanna Orr’s  Allocator newsletter:
@@ -153,11 +153,11 @@ Upon information and belief, it is apparent that Defendants are following a comm
 
 I hope it’s lots. I hope that EnTRust’s private-equity-style investments in public markets are outperforming EnTrust’s. I hope this really is “a common strategy,” and there are lots of BLackstones and Blackst0nes and Blakcstones and Blåckstones out there.  
 
-  
-    
+
+
       GameStop
-    
-  
+
+
 
 I   talk a lot around here about Elon Musk’s magical ability to move the prices of financial assets: Musk can tweet about Tesla Inc. stock or Dogecoin or some small company, and the thing he tweets about will go up. The “Elon markets hypothesis,”   I call it; “the way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk.” Mostly I just think it would be amazing to have that power. “I just think that if you presented this possibility to any famous investor throughout history they would absolutely faint with excitement,”   I once wrote. To be fair, though, Musk is not the only person ever to be able to do this. Other famous investors have been able to move stocks with the pure power of their attention. Warren Buffett has a halo effect. Hindenburg Research can crash its short targets. If you get a reputation, and a following, you can get the power to move stocks.
 Sometimes it’s temporary though. For a while, in the meme-stock boom, Ryan Cohen had this power: He was the Meme Stock Guy, and his involvement in a stock could send it up. Early last year, Cohen bought some options on Bed Bath & Beyond Inc.; he reminded the market of his purchase in August, and the stock shot up from $4.89 to $30,   allowing Cohen to sell out at a profit. Great trade.
@@ -182,11 +182,11 @@ GameStop is now back to relying more on its stores to support its shrinking e-co
 
 If you paid $300 for GameStop stock in January 2021 because you thought that Ryan Cohen would turn it into an e-commerce juggernaut to threaten Amazon, your bet, uh, has not paid off yet. At noon today the stock was trading at about $21.45, which is still higher than where it started 2021.
 
-  
-    
+
+
       Coinbase puts
-    
-  
+
+
 
 Coinbase Global Inc.’s stock is down about 17% this week, and I don’t entirely understand why. Sure yes the US Securities and Exchange Commission   sued Coinbase on Tuesday, alleging that its core business is an illegal securities exchange; if the SEC wins that case it will be devastating for Coinbase. But everyone knew, with an unusually high degree of confidence, that that case was coming, and what the SEC’s arguments would be. I   wrote about it in March, because the SEC formally notified Coinbase that the lawsuit was coming, and Coinbase publicized that notice and its response. And the SEC’s arguments — that most crypto tokens are securities, so if you run a crypto exchange you are running an illegal securities exchange — are also well known, and the SEC made them when it   sued another crypto exchange, Bittrex, in April. There’s nothing really new in the Coinbase complaint. If the Coinbase complaint said “Coinbase is offering illegal trading in crypto tokens, plus stealing customer money,” that would be bad, and news. But the complaint just says “Coinbase is offering illegal trading in crypto tokens,” which we already knew. Surely that was priced in?
 Of course last week there was still some uncertainty; maybe SEC Chair Gary Gensler would get hit by a bus before he could get around to bringing the Coinbase case that we all knew was coming. Or maybe the SEC would drag things out a bit, negotiate, be persuaded by Coinbase’s arguments or cowed by Coinbase’s promises to fight the case to the bitter end or chastened by congressional hearings criticizing its regulatory approach. The filing of the lawsuit collapsed the uncertainty; the SEC is actually doing the thing it was expected to do. So the stock went down.
@@ -203,16 +203,16 @@ Which is why I said that you shouldn’t do it: This trade is so good that i
 But one weirdly important market trend in the last few years is that everyone is buying short-dated out-of-the-money options all the time now. Here’s a Bloomberg story from March titled “  ‘Degenerate Gambling’ in Zero-Day Options Thrills Retail Traders,” and another one titled “  Zero-Day Options Boom Is Turning Wall Street Trading On Its Head,” and one from May titled “  Zero-Day Options Are Reordering the Way the Stock Market Behaves.” Here is a Financial Times story from last December titled “ Big traders flock to US equity options with fleeting lifespans.” Much of that is about index options trading, but   the meme-stock boom also involved a lot of very short-dated single-stock options bets. It is fun to gamble! Short-dated options are a satisfying way to gamble: You put in a little money, you either lose it or win a lot of money, and you find out fairly quickly. And so they have become very popular.
 But because they are popular, their value as a signal is much lower. If your first ever options trade makes you a ton of money immediately on big unexpected news, that looks suspicious. If your thousandth short-dated out-of-the-money options trade makes you a ton of money immediately on big unexpected news, that was bound to happen eventually.
 
-  
-    
-      Things happen
-    
-  
 
-Wall Street Firm Citadel Securities Courts AI Startups for Trading Edge. How Crispin Odey evaded sexual assault allegations for decades. Bonds Everywhere Suffer as   Rate-Hike Fears Swamp Traders. 
+
+      Things happen
+
+
+
+Wall Street Firm Citadel Securities Courts AI Startups for Trading Edge. How Crispin Odey evaded sexual assault allegations for decades. Bonds Everywhere Suffer as   Rate-Hike Fears Swamp Traders.
 Binance Money Trail Reveals $70 Billion Flowing Through Silvergate, Signature. EU eyes conflicts of interest crackdown in ESG ratings rules. Lawmakers Try Again to Curb  Visa, Mastercard Fees, With Broader Support.  Binance.US Was Deeply Unprofitable in 2022, Documents Show. IRS Sends Taxpayers Bills With  Wrong Due Dates. East Coast Air Crisis Seen Lingering Until Tuesday:   Smoke Latest. Twitter Co-Founder Williams Says He Was ‘Sad’ After Musk's Purchase.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I will grudgingly concede that Elon Musk may be a third exception. I have no good explanation for that, but he seems to spend a ton of time   getting mad about short sellers, and it works out fine.
 
 
@@ -222,48 +222,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] [AMC Entertainment Holdings Inc. is another one; it raised a ton of money from its meme-stock status and pivoted to, among other things,   gold mining, with mixed results.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -274,46 +274,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciw74l.5k62/12c1946b.gif" alt="" border="0" /></a>

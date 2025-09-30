@@ -8,16 +8,16 @@
 View this post on the web at https://www.notboring.co/p/astro-mechanica
 
 Welcome to the 702 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 222,725 smart, curious folks by subscribing here:
-Hi friends 👋 , 
-Happy Monday! 
-Earlier this year, I wrote a piece on Techno-Industrials [ https://substack.com/redirect/1b3eb3bc-9d95-433e-94d7-1366fde5a048?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-I don’t think it’s impossible for startups to take down large, seemingly invincible incumbents, even in the hardest, most physical categories. It’s happened before, it will happen again, and I think Techno-Industrials will be the ones to do it. 
-These companies have some similarities — using technology to deliver more for less in large existing markets — but each contender is necessarily unique. Trying to reshape industries as diverse as chemicals, energy, agriculture, defense, and aerospace takes very different approaches. 
-So this year, I want to write deep dives about a number of Techno-Industrials and the industries they’re trying to pull out of stagnation. The best way to understand the general trend, I think, is to zoom in on the specific cases. 
-The companies I’ll write about are still very young and the odds are that each of them will fail, or at least fall short of their very big goal. But I hope that a few will succeed, and that these deep dives will be the first thing you read about the companies and entrepreneurs that one day have whole books written about them. I’m certainly rooting for them. 
-Today, we’re starting off with Astro Mechanica. Ian Brooke’s company wants to ride its new engine all the way to becoming The Aerospace Company, offering supersonic flights anywhere in the world for about the same as a normal flight costs today. 
-Better technology is necessary, but not sufficient, to remake an industry. When I saw Ian’s engine reach escape velocity on twitter a few weeks back, I wanted to learn more about the business side of this new technology. This is what I learned [ https://substack.com/redirect/ed449eba-10e3-4cf3-93d3-12c8cb8e6356?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-Let’s get to it. 
+Hi friends 👋 ,
+Happy Monday!
+Earlier this year, I wrote a piece on Techno-Industrials [ https://substack.com/redirect/1b3eb3bc-9d95-433e-94d7-1366fde5a048?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+I don’t think it’s impossible for startups to take down large, seemingly invincible incumbents, even in the hardest, most physical categories. It’s happened before, it will happen again, and I think Techno-Industrials will be the ones to do it.
+These companies have some similarities — using technology to deliver more for less in large existing markets — but each contender is necessarily unique. Trying to reshape industries as diverse as chemicals, energy, agriculture, defense, and aerospace takes very different approaches.
+So this year, I want to write deep dives about a number of Techno-Industrials and the industries they’re trying to pull out of stagnation. The best way to understand the general trend, I think, is to zoom in on the specific cases.
+The companies I’ll write about are still very young and the odds are that each of them will fail, or at least fall short of their very big goal. But I hope that a few will succeed, and that these deep dives will be the first thing you read about the companies and entrepreneurs that one day have whole books written about them. I’m certainly rooting for them.
+Today, we’re starting off with Astro Mechanica. Ian Brooke’s company wants to ride its new engine all the way to becoming The Aerospace Company, offering supersonic flights anywhere in the world for about the same as a normal flight costs today.
+Better technology is necessary, but not sufficient, to remake an industry. When I saw Ian’s engine reach escape velocity on twitter a few weeks back, I wanted to learn more about the business side of this new technology. This is what I learned [ https://substack.com/redirect/ed449eba-10e3-4cf3-93d3-12c8cb8e6356?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Let’s get to it.
 Astro Mechanica: The Aerospace Company [ https://substack.com/redirect/ed449eba-10e3-4cf3-93d3-12c8cb8e6356?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 (This is a long one. Click the link 👆 to read the full thing online.)
 There’s an old joke in the aerospace industry that goes like this: 
@@ -131,7 +131,7 @@ The Turboelectric Adaptive Engine, by making 3x faster flight affordable, might 
 But new technology is necessary, not sufficient. 
 The engine is a platform, a starting point from which to design new airframes and business models that match its capabilities. 
 How would you design a business around supersonic planes that can be built and operated more cheaply than their subsonic counterparts? You’d have the opportunity to rethink everything. 
-Whereas Boeing ushered in the Jet Age using Pratt & Whitney JT3C turbojet engines on planes flown and operated by Pan Am, Astro Mechanica wants to usher in the Turboelectric Age on Astro Mechanica planes flying Astro Mechanica engines operated by Astro Mechanica itself. 
+Whereas Boeing ushered in the Jet Age using Pratt & Whitney JT3C turbojet engines on planes flown and operated by Pan Am, Astro Mechanica wants to usher in the Turboelectric Age on Astro Mechanica planes flying Astro Mechanica engines operated by Astro Mechanica itself.
 Vertical integration is back, baby! 
 But no one’s about to hand a two year old company $10 billion or so to rebuild the airline industry from scratch. (Whether maybe they should is another discussion for another essay.)
 So like the engine itself, Astro Mechanica is designing its business model to be efficient at all speeds and stages, too. 
@@ -288,7 +288,7 @@ The company has had as smooth a path as possible to this point in the journey, p
 VC funding isn’t a goal; it’s a destination. But in the case of this business, so much will depend on its ability to find financial partners who support its more-for-more vision of aerospace that financing is as core to the business as the engine itself. 
 Cash is its fuel, and whether it crashes, simply sells a better engine, builds a nice launch business, or takes the baton from Boeing and drags aerospace into the Turboelectric Age will depend in large part on how it balances its own speed and efficiency from here. 
 Pursuing Moonshots 
-Financialization couldn’t save Boeing, or the airline industry as we know it. 
+Financialization couldn’t save Boeing, or the airline industry as we know it.
 Trying to get more-for-less without technological progress – more revenue on fewer assets by outsourcing, more seats in the same plane by shrinking seats – is a one-way ticket to stagnation and decline.  
 I’ve argued that it’s not Boeing’s fault, or any of the airlines’ fault, but a natural consequence of reaching the end of a technological paradigm that’s had so much juice squeezed out of it already. It was inevitable. 
 Astro Mechanica wants to get more-for-less the right way: through technology. More speed for less cost through adaptive engines. That engine is just the start. 
@@ -313,9 +313,9 @@ Maybe Astro Mechanica will bring affordable supersonic travel to humankind. 
 It’s going to take a ton of work, time, capital, luck, skill, and adaptability. It will take getting the core of each piece of the business right, and then growing fractally out from there while maintaining fidelity with the original thing. It will take becoming great at things that the company has never done. 
 If it really has a more-for-less engine, there are a million ways for Astro Mechanica to make high-margin revenue in the short-term that require a lot less work, time, capital, luck, skill, and adaptability than this crazy plan to build The Aerospace Company over decades. 
 But if Astro Mechanica really has a more-for-less engine, it must pursue the moonshot. I want to live in a world that supports that pursuit.
-Thanks to Ian for letting me tell the Astro Mechanica story, to Christian for input and feedback, and to Dan [ https://substack.com/redirect/55572882-914a-484f-a190-73e4a5dc2c15?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
+Thanks to Ian for letting me tell the Astro Mechanica story, to Christian for input and feedback, and to Dan [ https://substack.com/redirect/55572882-914a-484f-a190-73e4a5dc2c15?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today. We’ll be back in your inbox tomorrow with a Weekly Dose.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFF6TURNNE5EVXhMQ0pwWVhRaU9qRTNNVEU1Tnpjek1EUXNJbVY0Y0NJNk1UY3hORFUyT1RNd05Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Ll9IMlhldjBrZ0VPYVozVlNXRTlCRU5Hb2pqUWE4U3RsckhibHpnQlpGZjAmZXhwaXJlcz0zNjVkIiwicCI6MTQzMDM4NDUxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTcxMTk3NzMwNCwiZXhwIjoxNzE0NTY5MzA0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.smcWYvZGPjuOEpLCtlVVB3g3_spj0h1INbLnTPkBMbc?

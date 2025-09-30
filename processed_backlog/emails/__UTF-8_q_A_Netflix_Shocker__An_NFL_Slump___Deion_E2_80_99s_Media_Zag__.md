@@ -31,7 +31,7 @@ Christmas Day NFL experiment. Thanks, Ayesha!
 Also also: Take a moment to fill out this survey ( https://puckprivateconversations.typeform.com/to/kPm9l8LK?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for the second installment of The Puck Private Conversation series, powered by Orchestra. It only takes a minute or two, and the data will provide a snapshot of how our elite readership is thinking
 about the Trump transition, among other fun topics. 
 
- 
+
 
 The Brady Meter: Week
 16
@@ -52,7 +52,7 @@ similarly wan. “You just would love to have that one back,” Brady said. Trul
 The Fox Sports pregame show poked fun at the fact that Brady lost his voice a couple of weeks ago by depicting his Christmas stocking filled with lozenges. “Tom had the most hot tea that he’s ever had in his life last week to make sure his voice was good, and it carried him through the broadcast,” his booth mate,
 Kevin Burkhardt, quipped ( https://x.com/awfulannouncing/status/1870583187153563688?utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). 
 
- 
+
 
 The Starting Five
 -----------------
@@ -145,7 +145,7 @@ and boxing matches. Its move into the NFL, WWE, and FIFA marks more of a walking
 
 The hope among all leagues and conferences is that Netflix soon segues to the next phase of its development. After all, the NFL is expected to exercise an out in its broadcast deals by 2030. The MLB and NHL national media rights deals are up, too, in 2028. Some wonder aloud if Netflix is already poised to take over the sports media business as surreptitiously as it did Hollywood.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -163,7 +163,7 @@ a sport going through debilitating change.” —A journalist
 On the CFP schedule: “College football is played on Saturdays. You don’t run from a bully. And the NFL’s greed knows no end. Having the Chiefs play three games in 10 days?! Are they trying to ruin their most popular team?! I may be biased because I’m in a place where college football is more popular. Perhaps some casual fans nationally
 aren’t aware of the first-round games since this is Year 1, but I believe the ratings will be better than you think. Sign me up!” —A Varsity subscriber who was not prepared for all those blowouts
 
- 
+
 
 We have a full house this week with all the kids back in town, so I
 will be off on Thursday. Look for my next private email on Monday.
@@ -224,6 +224,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT9kkOpftpC4FaIh--pi8=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

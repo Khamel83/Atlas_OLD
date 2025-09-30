@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         An important and surprising insight of modern finance is that shareholders are, at least indirectly,%3Cp%3EMost%20shareholders%20are%20not%2
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Shareholders as consumers
-    
-  
+
+
 
 An important and surprising insight of modern finance is that shareholders are, at least indirectly,
   [1]
@@ -77,37 +77,37 @@ Shareholders want a firm's objective function to place some weight on consumer w
 I mean, sure, (1) shareholders are humans, (2) humans buy groceries or whatever, (3) shareholders of grocery companies would prefer to pay less for their groceries, (4) grocery companies should cater to those preferences of their human shareholders by lowering prices to a level that does not maximize profits. 
 I am not sure that I agree with the conclusion, either that shareholders do in fact want their companies to lower prices to maximize consumer welfare or that the companies should do that. Not every possible non-shareholder interest of shareholders actually matters, or should matter, to corporate governance. But a surprising lot of them do.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       MANG VC
-    
-  
+
+
 
 What I wrote above was about public companies with normal public-company shareholders: humans, index funds, etc. Private companies are a little different. Private companies often have a handful of big investors, and you really can figure out what they want (you can ask them!), and what they want might very explicitly be something other than “maximize the profits of this company.”
 On Thursday, Apoorv Agrawal wrote a post titled “New VC in town: ‘MANG’” that got some  attention in the tech and venture capital world. Agrawal writes:
@@ -126,11 +126,11 @@ Basically if you’re a regular old venture capitalist and you invest $1 billion
 It also means that governance at these startups will be more complicated: Some corporate decisions could be bad for shareholders as shareholders, but good for the biggest shareholder as a commercial partner. Agrawal:
 MANG aren’t purely financial investors and will have strategic directives that may be misaligned with other purely financial investors. They may limit/block acquisition offers and financing rounds that would have been advantageous from a financial standpoint but didn’t align with their strategic interests.
 
-  
-    
+
+
       Exxon vs. Arjuna
-    
-  
+
+
 
 And then  there’s this:
 
@@ -140,8 +140,8 @@ Arjuna submitted a proposal in December asking shareholders to pass resolutions 
 “Defendants are asking Exxon Mobil to change its day-to-day business by altering the mix of—or even eliminating—certain of the products that it sells,” the oil company said in the lawsuit. Their goal, it alleged, is “to force Exxon Mobil to change the nature of its ordinary business or to go out of business entirely.”
 
 Here is  Exxon’s complaint. There is something a little odd about going to court over this. The way this normally works is:
-	Arjuna submits a nonbinding shareholder proposal for Exxon’s annual meeting.	Exxon puts the proposal in its proxy statement for the annual meeting.	Shareholders get to vote.	The shareholders vote no: Exxon’s complaint notes that Follow This submitted very similar proposals for its 2022 and 2023 annual meetings, and they got 27.1% and 10.5% of the vote, respectively.	
-Even if the shareholders vote yes, Exxon doesn’t have to do anything about it: The proposals are nonbinding, advisory expressions of shareholder desire, and the board and management are free to ignore them. Nothing in the law, or in the text of the proposals, requires Exxon to do anything. 	
+	Arjuna submits a nonbinding shareholder proposal for Exxon’s annual meeting.	Exxon puts the proposal in its proxy statement for the annual meeting.	Shareholders get to vote.	The shareholders vote no: Exxon’s complaint notes that Follow This submitted very similar proposals for its 2022 and 2023 annual meetings, and they got 27.1% and 10.5% of the vote, respectively.
+Even if the shareholders vote yes, Exxon doesn’t have to do anything about it: The proposals are nonbinding, advisory expressions of shareholder desire, and the board and management are free to ignore them. Nothing in the law, or in the text of the proposals, requires Exxon to do anything. 
 Even if Exxon voluntarily does what the shareholders ask, it’s not that much. Here, the proposal asks the company “to go beyond current plans, further accelerating the pace of emission reductions in the medium-term for its greenhouse gas (GHG) emissions across Scope 1, 2, and 3, and to summarize new plans, targets, and timetables.” There are no hard and fast requirements; the request is just “do a bit more about greenhouse gases, and tell us what you’re doing.”
 
 The normal approach, for a company faced with this sort of proposal, is to consider it a nuisance, grumble about it, ask shareholders to vote against it, but not really worry about it that much. It’s nonbinding! And the shareholders will vote no anyway! It doesn’t matter.
@@ -161,15 +161,15 @@ Arjuna and Follow This have submitted numerous shareholder proposals to energy c
 
 This is not a legal argument; the legal argument is the thing about the ordinary course of business. It is a philosophical argument: Real shareholders care only about shareholder value and long-term returns for their retirement savings; shareholders who want anything else are abusing the system.
 
-  
-    
-      Capital Zero
-    
-  
 
-Thebig meta-story in recent financial history is that interest rates were zero for a long time, and people got used to that, and then they suddenly went up, and there was a painful period of adjustment as everyone’s expectations were confounded. This arguably explains the 2023 
-regional banking troubles, and tech startups, and crypto, and 
-maybe ESG, but also lots of minor adjustments like 
+
+      Capital Zero
+
+
+
+Thebig meta-story in recent financial history is that interest rates were zero for a long time, and people got used to that, and then they suddenly went up, and there was a painful period of adjustment as everyone’s expectations were confounded. This arguably explains the 2023
+regional banking troubles, and tech startups, and crypto, and
+maybe ESG, but also lots of minor adjustments like
 private credit hurdle rates. Also here is a Wall Street Journal  story about Capital One Financial:
 
 When the Federal Reserve started raising interest rates in 2022, many customers of the McLean, Va., bank assumed their rates would go up. Instead, Capital One is paying them far below the 4.35% it advertises on its main savings account.
@@ -177,11 +177,11 @@ The issue dates back to a little-noticed change Capital One made in the era of l
 
 See, see, see, 360 Performance Savings pays 4.35%, but 360 Savings does not. If you want performance from your savings, you need performance savings, otherwise you just get savings. Back when rates everywhere were basically zero, this difference did not matter and nobody noticed it, which is how some people were in the bad savings account while others were in the good one. Now that matters.
 
-  
-    
+
+
       Quants
-    
-  
+
+
 
 Many stories about retail stock investors are   essentially entertainment stories. People enjoy buying some stock because it is like watching a television show, or joining a social-media community, or role-playing Gordon Gekko. They are not maximizing risk-adjusted returns; they are optimizing on multiple dimensions; they want some returns but also some fun. WallStreetBets Reddit posters love posting their losses, because a big loss is bad financially but makes you more of a player in the Reddit community. The game is more fun if it is played in a swashbuckling way, though that can also make it less lucrative.
 In the world of professional investing, quantitative investing tends to be about reducing swashbuckling tendencies: Instead of trusting your gut on a stock pick, you use carefully tested signals to pick stocks without emotion and try to minimize your factor exposures so that you are taking  only the risks you are being paid to take. In the world of retail day traders, that just isn’t very much fun is it? Here’s a Wall Street Journal story titled “Meet the Investors Trying Quantitative Trading at Home,” and they have some fun: 
@@ -191,16 +191,16 @@ Daniel Hutchens, 40, is a former Microsoft cybersecurity engineer who codes his 
 
 If it was always something viable, it wouldn’t be neat. The chance of something horrendous is what makes it exciting.
 
-  
-    
-      Things happen
-    
-  
 
-A Rewiring of the World’s Biggest Bond Market Will   Transform Trading. Citi’s exit will  transform municipal bonds. Wall Street Banks Want to Lure Back 
+
+      Things happen
+
+
+
+A Rewiring of the World’s Biggest Bond Market Will   Transform Trading. Citi’s exit will  transform municipal bonds. Wall Street Banks Want to Lure Back
 Loan Deals Lost to Private Credit. SEC Probes   B. Riley Deals With Client Tied to Failed Fund.   ADM Places CFO on Leave, Cuts Earnings Forecast Amid Probe. Investor Threatens to Take  Macy’s Offer to Shareholders. US regulator  hits back at banks over criticism of tougher capital rules. Truist, Fifth Third Join Wall Street   Banks’ Bond Sales Spree.   Ivory Coast Tests Eurobond Market for Locked-Out African Nations.   Niger Misses Another Bond Payment, Posing Risk to Region’s Banks. US hedge funds far outperformed local rivals in  China in 2023. Company behind  Terra crypto collapse files for US bankruptcy protection. “Anna Lembke, a doctor and the head of Stanford University's Addiction Medicine Dual Diagnosis Clinic, said the finance industry was drawn to stimulants such as cocaine and Adderall because they act as ‘a vehicle for working more, working harder, not getting sleep,  getting more bonuses and more stock options, and being successful.’” “It’s unbelievable that someone has a  pickleball court in their yard and wants to get a pickleball court shut down.” “Taken together, these recent posts of Ackman’s are like a novella, an exquisite piece of  satirical fiction in digital epistolary form.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Most shareholders are not people: They are mutual funds, exchange-traded funds, pensions, endowments, hedge funds or other institutions. Still their ultimate beneficiaries are usually people, so you can attribute the preferences of the ultimate people to the funds. (Also the funds tend to be *managed* by people, who might express their own preferences through the funds.)
 
 
@@ -210,48 +210,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Also, there is an intuition like “these companies generate way more cash than they know what to do with, which also lowers their cost of investing.” “The combined operating profits for MANG in 2023 were $276B,” writes Agrawal, “representing  ~5x growth in the last 10 years. What do you do with all this cash?”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -262,46 +262,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckaiec.5im5/d04344e8.gif" alt="" border="0" /></a>

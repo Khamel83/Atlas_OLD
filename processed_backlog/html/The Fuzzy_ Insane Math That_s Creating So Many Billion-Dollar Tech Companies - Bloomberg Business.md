@@ -21,7 +21,7 @@ Follow us on:
 by
 [Sarah Frier](authors/AP-41JG4_zk/sarah-frier)[Eric Newcomer](authors/ASFMS16EsvU/eric-newcomer)
 
-9:00 AM EDT   
+9:00 AM EDT
  March 17, 2015
 
 Snapchat, the photo-messaging app raising cash at a [$15 billion valuation](https://web.archive.org/web/20150320060847/http://www.bloomberg.com/news/articles/2015-03-11/alibaba-said-to-plan-snapchat-funding-at-15-billion-valuation), probably isn't actually *worth* more than Clorox or Campbell Soup. So where did investors come up with that enormous headline number?

@@ -28,20 +28,20 @@ for i, line in enumerate(lines):
                 print(f"  Task saved: {current_task}")
             except Exception as e:
                 print(f"  YAML error: {e}")
-        
+
         current_task = {"id": m.group("id"), "title": m.group("title")}
         in_yaml_block = False
         yaml_lines = []
-    
+
     elif line.strip() == "```yaml" and current_task:
         print(f"  Starting YAML block")
         in_yaml_block = True
         yaml_lines = []
-    
+
     elif line.strip() == "```" and in_yaml_block:
         print(f"  Ending YAML block with {len(yaml_lines)} lines")
         in_yaml_block = False
-    
+
     elif in_yaml_block:
         yaml_lines.append(line)
 

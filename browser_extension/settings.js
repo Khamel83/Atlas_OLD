@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   saveSettingsButton.addEventListener('click', function() {
     const serverUrl = serverUrlInput.value.trim();
-    
+
     if (!serverUrl) {
       showStatus('Please enter a server URL', 'error');
       return;
     }
-    
+
     // Validate URL format
     try {
       new URL(serverUrl);
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
       showStatus('Please enter a valid URL', 'error');
       return;
     }
-    
+
     chrome.storage.sync.set({atlasServerUrl: serverUrl}, function() {
       showStatus('Settings saved successfully!', 'success');
     });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     statusDiv.textContent = message;
     statusDiv.className = 'status ' + type;
     statusDiv.style.display = 'block';
-    
+
     if (type === 'success') {
       setTimeout(() => {
         statusDiv.style.display = 'none';

@@ -135,9 +135,9 @@ So, great! There’s a limited financial and temporal leash for this retailer to
 
 Some other highlights:
 
-📍The debtors have retained **Hilco Merchant Resources LLC** to liquidate 95 stores and **A&G Realty** as real estate advisor to negotiate with landlords.   
-📍As of the petition date, the debtors will no longer accept gift cards on the e-commerce platform. Express loyalists will have 30 days to use their gift cards in stores. Nothing like forcing customers to get in the car and venture into a B&M location!  
-📍There were lovely one-time cash retention bonus awards given to the CEO and new CFO days before BK ($500k for the former,⁶ $429k for the latter) with an open-ended promise of more juice to potentially come later (“*An additional amount payable upon the consummation of a going-concern transaction will be negotiated at a later date by the Company and key stakeholders.*”).   
+📍The debtors have retained **Hilco Merchant Resources LLC** to liquidate 95 stores and **A&G Realty** as real estate advisor to negotiate with landlords.
+📍As of the petition date, the debtors will no longer accept gift cards on the e-commerce platform. Express loyalists will have 30 days to use their gift cards in stores. Nothing like forcing customers to get in the car and venture into a B&M location!
+📍There were lovely one-time cash retention bonus awards given to the CEO and new CFO days before BK ($500k for the former,⁶ $429k for the latter) with an open-ended promise of more juice to potentially come later (“*An additional amount payable upon the consummation of a going-concern transaction will be negotiated at a later date by the Company and key stakeholders.*”).
 📍A bid procedures motion is already on file. Phoenix JV proposed a 5% break-up fee plus a $5mm expense reimbursement in its LOI but the debtors’ bid procedures motion reflects a 3% break-up fee plus a 3% expense reimbursement. You can do the math as to how those two different ways of framing it compare to one another. This is what the proposed sale timing looks like:
 
 [![](https://substackcdn.com/image/fetch/w_525,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e6fc952-7c27-4a00-9be2-f0ebbf00fe80_673x760.png)](https://substack.com/redirect/b8c819bf-1eb4-4bd4-aff7-6bee0632c516?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)

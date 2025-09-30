@@ -7,7 +7,7 @@
 
 # Elvis Impersonator Paul Kevin Curtis and the Ricin Assassination Plot
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Elvis Impersonator Paul Kevin Curtis and the Ricin Assassination Plot](http://www.gq.com/web/20141023011052im_/http://www.gq.com/favicon.ico)
 

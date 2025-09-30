@@ -7,7 +7,7 @@
 
 # The New York Public Library just uploaded nearly 200,000 images you can use for free
 
- / 
+ /
 
 ## A nostalgist's dream come true
 
@@ -67,7 +67,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250120021519im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250120021519/http://theverge.com/)
 

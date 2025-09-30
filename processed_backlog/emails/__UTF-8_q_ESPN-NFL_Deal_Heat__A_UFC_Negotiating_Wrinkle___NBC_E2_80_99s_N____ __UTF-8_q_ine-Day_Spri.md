@@ -24,7 +24,7 @@ Super Bowl week is filled with world-colliding moments, and Michael Rubin’s Fa
 Ludacris had just wrapped up a set on the stage, and Donald Trump Jr. and his entourage sailed past on their way to the exits. Where else but Super Bowl week can you see sports business all-stars like Gianni Infantino, Josh Harris, David Tepper, and Jimmy Pitaro post up at the same party as Leo DiCaprio, Post Malone, Megan Thee
 Stallion, and even Turtle from Entourage?
 
-Before we get started, I want to pour one out for 91-year-old Hubie Brown, who called his last NBA game for ESPN yesterday, concluding what an emotional Mike Breen called “the most remarkable career in sports broadcasting history.” (I encourage all of you to watch ( https://x.com/NBA/status/1888707949633191940?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) this touching six-minute video.) Also on Sunday, amid his ongoing battle with cancer, Dick Vitale triumphantly returned to ESPN’s college basketball sidelines for the first time in two years to call Clemson’s upset of Duke. (This heart-warming ABC News video is also worth 
+Before we get started, I want to pour one out for 91-year-old Hubie Brown, who called his last NBA game for ESPN yesterday, concluding what an emotional Mike Breen called “the most remarkable career in sports broadcasting history.” (I encourage all of you to watch ( https://x.com/NBA/status/1888707949633191940?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) this touching six-minute video.) Also on Sunday, amid his ongoing battle with cancer, Dick Vitale triumphantly returned to ESPN’s college basketball sidelines for the first time in two years to call Clemson’s upset of Duke. (This heart-warming ABC News video is also worth
 ( https://abcnews.go.com/Sports/wireStory/back-baby-espns-dick-vitale-makes-return-commentating-118612116?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a
 click.)
 
@@ -35,7 +35,7 @@ in the Timberwolves and Lynx. Plus, make sure you don’t miss Sunday’s episod
 
 Let’s get to it…
 
- 
+
 
 The Brady Meter: Super Bowl
 Edition
@@ -55,7 +55,7 @@ You could hear the anguish in his voice as he recalled his long bus ride to the 
 Brady was obviously prepared to call the game, but he ran into a broadcaster’s worst nightmare: a blowout Super Bowl, with empty minutes of time to fill that can feel like hours. It’s hard for even the most seasoned  broadcasters to rise to the occasion, let alone a rookie. Brady has been very good this season when talking about
 strategy during close games, but he’s clearly pulled out of his comfort zone when called upon to be a storyteller. But shake it off, Tommy! Now begins a period of gradual renewal: watching film, working on that sore throat and chipper voice, and preparing for a return to the salt mines in September—and the debut of The Brady Meter, Season 2. 
 
- 
+
 
 The Starting Five
 -----------------
@@ -123,7 +123,7 @@ play a major role in Flagship’s launch.) Meanwhile, this exit opportunity woul
 Negotiations for the media assets have also coincided with talks regarding the NFL Draft, which the league
 has put up for bid starting in 2026. Thus far, the draft has received a lot of interest. ESPN, Fox, and Google/YouTube all submitted bids months ago, but the NFL has yet to make a move. All sides expect developments in the coming weeks.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -137,7 +137,7 @@ schedule: “Here’s what I don’t get about the 18-game discussion. The Eagle
 On the NFLPA’s opposition to an 18th game: “I am not a labor expert by any means. But
 to my untrained eye, every single negotiation between a players association and a Big Four American sports league in my lifetime has benefitted the league far more than it benefitted the players. I recognize that owners hold the leverage, but someone please explain this to me like I’m 5.” —A Varsity subscriber
 
- 
+
 
 See you Thursday from San Francisco,
 
@@ -188,6 +188,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU8wDW6PqAQKcXp9jHzYM=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

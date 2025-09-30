@@ -8,7 +8,7 @@
 ```
 This single command does everything and never fails.
 
-### **Option 2: Manual Steps**  
+### **Option 2: Manual Steps**
 ```bash
 # 1. Check status
 python atlas_status.py
@@ -59,7 +59,7 @@ Status + development setup guidance.
 
 📊 CURRENT STATUS
    📰 Articles processed: 3,488
-   🎙️  Podcasts processed: 951  
+   🎙️  Podcasts processed: 951
    📁 HTML files remaining: 2,102
    📈 Progress: 62.4% complete
    ⏰ Last activity: 0.5h ago
@@ -79,7 +79,7 @@ Status + development setup guidance.
 🚨 SYSTEM ISSUES DETECTED
 ❌ Background service: Not running
 
-🚨 ISSUES  
+🚨 ISSUES
    ❌ Background service not running
    ❌ Low disk space: 0.8GB free
 
@@ -123,7 +123,7 @@ Status + development setup guidance.
 - ✅ Recent error activity
 
 ### **Processing Status:**
-- ✅ Articles/podcasts processed 
+- ✅ Articles/podcasts processed
 - ✅ HTML files remaining in queue
 - ✅ Overall progress percentage
 - ✅ Last activity timestamp

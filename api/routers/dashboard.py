@@ -22,7 +22,7 @@ async def dashboard_home(analytics: AnalyticsEngine = Depends(get_analytics_engi
     try:
         # Get analytics data
         summary = await get_analytics_summary(analytics)
-        
+
         # Simple HTML dashboard
         html_content = f"""
 <!DOCTYPE html>
@@ -97,7 +97,7 @@ async def dashboard_home(analytics: AnalyticsEngine = Depends(get_analytics_engi
         <h1>🧠 Atlas Analytics Dashboard</h1>
         <p>Personal cognitive amplification platform</p>
     </div>
-    
+
     <div class="stats-grid">
         <div class="stat-card">
             <div class="stat-number">{summary.get('total_items', 0):,}</div>
@@ -116,14 +116,14 @@ async def dashboard_home(analytics: AnalyticsEngine = Depends(get_analytics_engi
             <div class="stat-label">Success Rate</div>
         </div>
     </div>
-    
+
     <div class="content-section">
         <h2>📊 System Status</h2>
         <p><strong>Analytics Sync:</strong> {summary.get('analytics_status', 'Unknown')}</p>
         <p><strong>Search Index:</strong> {summary.get('search_status', 'Unknown')}</p>
         <p><strong>Last Updated:</strong> {summary.get('last_updated', 'Unknown')}</p>
     </div>
-    
+
     <div class="content-section">
         <h2>🔌 API Endpoints</h2>
         <div class="api-links">
@@ -134,14 +134,14 @@ async def dashboard_home(analytics: AnalyticsEngine = Depends(get_analytics_engi
             <a href="/api/v1/dashboard/analytics" class="api-link">Analytics JSON</a>
         </div>
     </div>
-    
+
     <div class="content-section">
         <h2>📈 Recent Activity</h2>
         <div id="activity">
             {summary.get('recent_activity', '<p>No recent activity</p>')}
         </div>
     </div>
-    
+
     <script>
         // Auto-refresh every 30 seconds
         setTimeout(() => location.reload(), 30000);
@@ -150,7 +150,7 @@ async def dashboard_home(analytics: AnalyticsEngine = Depends(get_analytics_engi
 </html>
         """
         return html_content
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Dashboard error: {str(e)}")
 
@@ -168,25 +168,25 @@ async def get_analytics_summary(analytics: AnalyticsEngine) -> Dict[str, Any]:
         # Import here to avoid circular imports
         import sqlite3
         from datetime import datetime
-        
+
         # Get main database stats
         atlas_db = sqlite3.connect("data/atlas.db")
         total_items = atlas_db.execute("SELECT COUNT(*) FROM content").fetchone()[0]
         articles = atlas_db.execute("SELECT COUNT(*) FROM content WHERE content_type = 'article'").fetchone()[0]
         success_items = atlas_db.execute("SELECT COUNT(*) FROM content WHERE LENGTH(metadata) > 100").fetchone()[0]
         atlas_db.close()
-        
+
         # Get search database stats
         search_db = sqlite3.connect("data/enhanced_search.db")
         searchable_items = search_db.execute("SELECT COUNT(*) FROM search_index").fetchone()[0]
         search_db.close()
-        
+
         # Calculate success rate
         success_rate = (success_items / total_items * 100) if total_items > 0 else 0
-        
+
         # Get analytics status
         analytics_status = "Active" if hasattr(analytics, 'db_path') else "Inactive"
-        
+
         # Recent activity
         recent_activity = f"""
         <ul>
@@ -196,7 +196,7 @@ async def get_analytics_summary(analytics: AnalyticsEngine) -> Dict[str, Any]:
             <li>✅ Background services operational</li>
         </ul>
         """
-        
+
         return {
             "total_items": total_items,
             "articles": articles,
@@ -207,7 +207,7 @@ async def get_analytics_summary(analytics: AnalyticsEngine) -> Dict[str, Any]:
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "recent_activity": recent_activity
         }
-        
+
     except Exception as e:
         return {
             "total_items": 0,

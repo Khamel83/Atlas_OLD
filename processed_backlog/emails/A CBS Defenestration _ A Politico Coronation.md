@@ -172,6 +172,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Roo
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVIWh0wuyyqf_CRDnUE6g=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -42,10 +42,10 @@ A few thoughts:
 * Diversify more broadly beyond U.S. equities in areas that have higher expected returns.
 * Behavior and fees will matter more than ever in a lower return environment.
 
-Source:  
+Source:
 [Vanguard’s Jack Bogle on Index Funds, Negative Rates](http://www.bloomberg.com/news/videos/2016-09-09/vanguard-s-jack-bogle-on-indexing-negative-rates)
 
-Further Reading:  
+Further Reading:
 [Does a Change in Expectations Require a Change in Strategy?](https://awealthofcommonsense.com/2015/11/does-a-change-in-expectations-require-a-change-in-strategy/)
 
 *\*Returns used here are nominal and don’t factor inflation into the mix, another potential reason for the changes in P/E multiples over time.*

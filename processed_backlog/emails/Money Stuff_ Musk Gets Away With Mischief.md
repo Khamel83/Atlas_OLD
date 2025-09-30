@@ -7,70 +7,70 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        In August 2018, Elon Musk, the chief executive officer and largest shareholder of Tesla Inc., tweeted: “Am considering taking Tesla private 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        In August 2018, Elon Musk, the chief executive officer and largest shareholder of Tesla Inc., tweeted: “Am considering taking Tesla private
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elon won
-    
-  
+
+
 
 In August 2018, Elon Musk, the chief executive officer and largest shareholder of Tesla Inc.,   tweeted: “Am considering taking Tesla private at $420. Funding secured.” As has by now been pretty exhaustively documented, he was considering taking Tesla private at $420 per share, but he did not have funding secured. He ended up not pursuing the transaction, ostensibly because shareholders didn’t like it, though also possibly because the transaction structure he had in mind — one in which Tesla somehow became “private” but   kept all of its existing shareholders? — was not actually possible, or perhaps because he got bored with the idea and moved on to his next provocation.
-If he had decided to push ahead with the idea, would he have been able to raise the necessary $60 billion or so to finance the deal? I dunno, maybe? At the time that seemed like a lot of money. Tesla’s market capitalization last Friday was $601 billion, though, so in hindsight buying it — or financing Musk’s plan to buy it — in 2018 would have worked out well. And Musk does seem to be 
+If he had decided to push ahead with the idea, would he have been able to raise the necessary $60 billion or so to finance the deal? I dunno, maybe? At the time that seemed like a lot of money. Tesla’s market capitalization last Friday was $601 billion, though, so in hindsight buying it — or financing Musk’s plan to buy it — in 2018 would have worked out well. And Musk does seem to be
 pretty good at raising money. And, at the time of his tweet, he had had preliminary conversations with Saudi Arabia’s Public Investment Fund about financing the deal. They had enough money to do it. It’s not unreasonable to think that he could have gotten the money.
 When Musk tweeted, Tesla’s stock went up. It had been trading at about $340 per share shortly before his tweet, and traded up to about $380 shortly after; it soon sank back below the unaffected price. The US Securities and Exchange Commission quickly   sued Musk for securities fraud, arguing that funding was not secured;   Musk settled for a fine and a promise not to tweet material things about Tesla unless a lawyer reviewed them first. (He promptly   forgot about that.) 
 Also though some shareholders who bought the stock at its elevated post-tweet price sued Musk for fraud, arguing that they were deceived by his tweets. That case took a long time, but on Friday a jury   decided in Musk’s favor:
@@ -101,89 +101,89 @@ You don’t have to like this! “He’s incorrigible, so we’ll let him do wha
 “There was nothing there to give me an ‘aha’ moment,” he said, later adding, “Elon Musk is a guy who could sneeze and the stock market could react.”
 Anyway Musk celebrated by  tweeting “I am deeply appreciative of the jury’s unanimous finding of innocence in the Tesla 420 take-private case,” and I simply cannot believe   that 420 was not a weed joke, but I guess the legal system has spoken.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in Elon
-    
-  
+
+
 
 We have talked about this before, but the most important job for any sort of adviser to the target company in any sort of hostile mergers-and-acquisitions situation is to get paid before the deal closes. After the deal closes, your client is gone, and the hostile acquirer now owns it, and he has fired all of your contacts and doesn’t want to pay your bills. You send him a bill that is like “For fighting you off: $2 million,” and he is like “well, you didn’t fight me off, and I didn’t want you to, and I’m not paying.” 
 We   talked about it two weeks ago because Elon Musk’s takeover of Twitter Inc. was pretty hostile — not in the traditional corporate-finance sense that he acquired the company through a tender offer over the objection of its board, but in every other sense — and Twitter’s advisers keep showing up with unpaid bills and saying “please Mr. Musk, our bills,” and he keeps saying “absolutely not” and they keep suing. Two weeks ago it was Charles River Associates, for some lawsuit consulting;  now it is Innisfree:
@@ -195,24 +195,24 @@ That firm, Innisfree M&A Incorporated, sued Twitter on Friday in New York State 
 Yeah, he’s not paying rent, he’s not gonna pay you. 
 Elsewhere: “When Does Elon Musk Sleep? Billionaire Speaks of Limits to Fixing Twitter and His Back Pain.” 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Otherwise, though, everything is securities fraud
-    
-  
 
-My 
+
+
+My
 general theory is that every bad thing that a public company does is securities fraud. The public company does a bad thing and does not immediately disclose it to shareholders (because it is bad). Eventually the bad thing comes out. The stock drops on the news (which is bad). Shareholders who bought the stock sue, saying that they were defrauded: The company lied to them by not telling them about the bad thing, so they bought the stock at inflated prices; when the bad thing came out, the stock dropped to its true value, exposing the fraud.
-That is the basic theory. But there is a more advanced part of the theory. Technically the previous paragraph is 
+That is the basic theory. But there is a more advanced part of the theory. Technically the previous paragraph is
 not quite right, because technically it is not lying — it is not always securities fraud — if a company simply doesn’t mention a bad thing. Technically  the rule is that it is fraud “to make any untrue statement of a material fact or to omit to state a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading.” Just omitting a material fact — without saying anything else misleading — doesn’t count.
 What this means for the class-action lawyers bringing “everything is securities fraud” cases is that you have to find some other statement that looks misleading in light of the bad things that the company failed to mention. We have talked about a couple of classic methods:
 	If the company makes public statements about its 		policies or values or 		code of ethics, you can say “aha, these statements were misleading, because you were doing bad things, and that isn’t very ethical is it?”	If a company 		discloses risk factors like “we might get hacked, which would be bad,” or “we rely on the services of our chief executive officer, so we hope he doesn’t do anything terrible,” then you can say “aha, those statements were misleading, because you didn’t say that you had already been hacked, or that your CEO was already doing terrible stuff that would force you to fire him.” 
@@ -240,11 +240,11 @@ We   talked last month about environmental, social and governance investing and 
 One rough way to think about the “everything is securities fraud” theory is that, once upon a time, most sorts of corporate behavior fell into these categories — investors were presumed not to care about them, they weren’t discussed in filings, etc. — and the only area that mattered was, like, financial results. “Securities fraud” meant lying about earnings. And then over time various areas of corporate behavior — executive ethics, cybersecurity, etc. — became things that companies disclosed and investors were presumed to care about, and so now shareholders can sue companies if bad things happen in those areas.
 Sometimes this is a matter of explicit rules: The SEC now has a rule regulating disclosure about blood diamonds, and has proposed vastly expanded disclosure about  cybersecurity and   climate issues. Other times it’s not; it’s just an informal expansion of the information that companies have to collect and report. 
 
-  
-    
+
+
       Fifth Avenue adverse possession!
-    
-  
+
+
 
 You don’t see  this every day:
 
@@ -255,15 +255,15 @@ In its lawsuit, the co-op board is arguing that it should be the rightful owner 
 
 Adverse possession is a thing that you learn in law school and associate with, like, medieval England or the Wild West or whatever, and then you move to New York and go work at a law firm and figure it could not possibly come up in practice because nobody in Manhattan has so much space that they might forget about some of their space and ignore your use of it for a decade. Like if you started living in a corner of someone’s studio apartment, they would notice immediately and kick you out. But this co-op apparently used Eliot Spitzer’s ditch for a decade and now it might be theirs?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Swiss authorities open criminal probe into  bank data breaches.   Rothschilds Map Bank’s New Path With $4 Billion Go-Private Deal. Hack of   ION Derivatives System Prompts Caution in Other Markets.  Carson Block profile. Banks Borrow Unsecured Cash at Record Clip While Deposits Flee. Oil Industry’s Windfall  Fails to Excite Wall Street. Bitcoin Resurgence Brings Back Old Phenomenon of   Wild Weekends. The Retreat of the Amateur Investors. Nissan, Renault  Alliance Shake-Up to Give Each Company More Independence. Ford Lost $2 Billion in 2022 as Some  Investments Soured. Hedge funds rush to  unwind bets on falling markets as stocks surge. Musk Offers to   Share Twitter Ad Revenue With Blue Subscribers. How did JPMorgan  fall for Frank? How Sam Bankman-Fried’s  Psychiatrist Became a Key Player at Crypto Exchange FTX. Kim Kardashian  paid $1M to speak at Miami hedge fund event: sources. ChatGPT   Gets an MBA. “Orders running to more than 100 words addressed the ripeness of avocados.” Man rescued by Coast Guard  wanted in ‘Goonies’ fish incident.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also,  in a later tweet: “Investor support is confirmed. Only reason why this is not certain is that it’s contingent on a shareholder vote.” That one strikes me as harder to explain away, but it also got less attention. I feel like it is not entirely reasonable to read “Considering taking Tesla private. … Only reason why this is not certain is that it’s contingent on a shareholder vote” to mean what it literally says; I think you have to give the “considering” part more weight than the “this is certain except for ____” part. But I dunno. Also I suppose “contingent on a shareholder vote” gave him cover to withdraw the idea when informal polling of shareholders suggested they didn’t love it.
 
 
@@ -276,114 +276,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] There is another less interesting part of the settlement, having to do with Activision’s confidentiality agreements: When employees left the company, they signed separation agreements promising to keep Activision’s information confidential. These agreements had an exception that allowed the former employees to make “disclosures that are truthful representations in connection with a report or complaint to an administrative agency,” because it is frowned upon (and illegal) for a company to prohibit its employees from blowing the whistle to regulators. But the Activision agreements had a parenthetical allowing that disclosure “only if I notify the Company of a disclosure obligation or request within one business day after I learn of it and permit the Company to take all steps it deems to be appropriate to prevent or limit the required disclosure,” and the SEC takes the position that that is also illegal, because it interferes with whistle-blowing.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

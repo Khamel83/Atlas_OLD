@@ -154,7 +154,7 @@ like Musk and “bougie wealth,” because he thinks it might trickle down to hi
 “It’s sad,” Cloobeck told me, “because, as strong as he is, we found his kryptonite. Everything’s about money and greed. It’s not the way we roll. We have values. The one thing the Democratic Party will need to establish is a new brand based on values,
 articulated in three sound bites instead of word salad. That’s what I’m working on in the state as a bully pulpit. And then nationally.” Is this the sound of the start of the Democratic resistance, reconstituting itself yet again for a more conservative era, or just more wishful thinking?
 
- 
+
 
 Finally, a quick mea culpa to my friend Kara Swisher, who was misidentified in
 last Sunday’s email as Linda Yaccarino’s interlocutor during the X C.E.O.’s cringe-inducing interview at the Code conference in September 2023. Yaccarino was in fact chatting with CNBC’s Julia Boorstin, not Kara. Well done, Julia.
@@ -204,6 +204,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Dry+Powder
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=dry_powder&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVIPnx6wsm4csPpWibtd4=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F16%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

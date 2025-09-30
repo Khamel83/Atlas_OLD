@@ -27,7 +27,7 @@ All of which is to say: With basically every team having incorporated some or al
 
 According to the NBA’s stats site, Minnesota’s starting five—Jeff Teague, Jimmy Butler, Andrew Wiggins, Taj Gibson, Karl-Anthony Towns—is the NBA’s most used five-man lineup, by miles. Through 28 games, that lineup has logged 167 more minutes—nearly three and a half more games—than any other lineup. And that’s only when they’re all five playing together: At a point in the season when other teams are using deep rotations and all-bench second units to develop their reserves and prevent wear and tear on their starters, the Timberwolves virtually never go any significant stretch of time without at least one starter on the floor. Butler is playing the second-most minutes of any player; Wiggins, the sixth-most; Towns, a 22-year-old seven-footer in a sport in which heavy minutes burdens have been  [known to correlate to career-shortening lower-leg injuries to seven-footers](https://twitter.com/search?q=towns&src=typd), is playing the 15th-most minutes in the entire NBA. 22 of the other 29 teams do not have one single player logging more minutes per night than any of those three. All five Timberwolves starters average more than 33.5 minutes of playing time per game; seven entire NBA teams are not giving that much playing time to even one single member of their roster; 11 more teams only have one player logging that heavy a burden.
 
-  
+
 
 And in recent days Thibodeau has taken this to even more perverse extremes. Last night, against the Philadelphia 76ers, in a game that included a five-minute overtime period, Teague played 38 minutes; Gibson and Wiggins each played 40; Butler played 46; Towns, the seven-footer, played 48. From the 3:41 mark of the third quarter to the end of overtime, Towns never sat, logging nearly 26 straight minutes of action—as many minutes, for reference, as Enes Kanter, the starting center for the New York Knicks, averages in total per 48-minute game. The Timberwolves only used eight of their 12 active players against the 76ers. Two nights before that, against the Dallas Mavericks, all five starters played at least 34 minutes in regulation, Towns played 38, Butler played 41, and again the Timberwolves only used eight players.
 
@@ -49,7 +49,7 @@ For all that, Thibodeau’s over-reliance on his starters isn’t even good bask
 
 Last night was more of the same: The T-Wolves went into the fourth quarter with a 76-75 lead on the Sixers, and then got outscored 44-36 in the fourth quarter and overtime. A number of critical, crunch-time possessions ended with the Sixers getting an easy basket on a backdoor cut while visibly gassed Minnesota players failed to rotate. The players Thibodeau had relied on to win him the first three quarters of the game had already played an absurd amount of basketball. They got tired, like humans do.
 
-  
+
 
 ## Related
 

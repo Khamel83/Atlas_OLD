@@ -33,8 +33,8 @@ Product is not available in this quantity.
 
 #### Get The 5 Types of Wealth by Sahil Bloom
 
-Reject the default and live by design. In this book, I offer a new way for you to think about your life. A new way to measure what matters, make better decisions, and design your life around the pillars that truly create lasting joy and fulfillment.  
-  
+Reject the default and live by design. In this book, I offer a new way for you to think about your life. A new way to measure what matters, make better decisions, and design your life around the pillars that truly create lasting joy and fulfillment.
+
 No matter who you are, or where you are on your journey, this book is for you.
 
 Thank you! Your submission has been received!
@@ -240,8 +240,8 @@ As always, until next time...stay curious, friends!
 
 # Get The 5 Types of Wealth by Sahil Bloom
 
-Reject the default and live by design. In this book, I offer a new way for you to think about your life. A new way to measure what matters, make better decisions, and design your life around the pillars that truly create lasting joy and fulfillment.  
-‍  
+Reject the default and live by design. In this book, I offer a new way for you to think about your life. A new way to measure what matters, make better decisions, and design your life around the pillars that truly create lasting joy and fulfillment.
+‍
 No matter who you are, or where you are on your journey, this book is for you.
 
 [Preorder Now!](http://the5typesofwealth.com)

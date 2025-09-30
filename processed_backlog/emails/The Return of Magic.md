@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/the-return-of-magic
 
-Welcome to the 973 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 236,618 smart, curious folks by subscribing here: 
+Welcome to the 973 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 236,618 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Baseten [ https://substack.com/redirect/ea37b81c-3de4-467b-97c3-3f5ee0354c64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Baseten [ https://substack.com/redirect/ea37b81c-3de4-467b-97c3-3f5ee0354c64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]'s model performance engineers have built the world's fastest inference engine for Whisper [ https://substack.com/redirect/9f2eddab-ac59-4c9b-9054-2886d83d3e77?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the best open-source audio transcription (speech-to-text) AI model:
 Over 800x real-time factor (1 hour transcribed in ~4 seconds)
@@ -53,7 +53,7 @@ Of course, we still need to build the things. We need to give the curves [ https
 We will use atomic and solar energy to power abundance, travel at greater speeds with greater levels of autonomy across the globe, colonize the Moon, then colonize Mars. With gene and cell therapies, we will first cure disease, and then expand what the human body can do. Our agents will do mundane work for us, while we do art or whatever. They’ll help accelerate progress in science and engineering, and speed up the inevitable arrival of Dyson Spheres and O’Neill Cylinders and fully compliant humanoid servants with whom we will communicate via our Brain Computer Interfaces.
 This all sounds like sci-fi, and a few years ago, people would have told you you were crazy for believing any of it, but now… it seems kind of inevitable, right? A matter of when, not if.
 The fact that it seems so obvious, though, is a sign that it won’t play out like that.
-My hunch is that studying consciousness will add new and unpredictable richness to our capabilities, and set us down a new branch. 
+My hunch is that studying consciousness will add new and unpredictable richness to our capabilities, and set us down a new branch.
 To be clear: this is just my own intuition, backed by a little knowledge and a lot of clues, as someone who is in the middle of my own ride down the backside of the Midwit Rollercoaster.
 I do not have an airtight, falsifiable argument to support my intuition. I have a cumulative case [ https://substack.com/redirect/97683e74-b416-4b8c-96ce-6bc5ea7159a9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: individually imperfect pieces of evidence that, taken together, suggest something real. The cumulative case argument is also known as the argument from the abundance of arguments.
 This piece has been the hardest for me to write of the entire year. Not in some spiritual or emotional way; in a literal way: there is just an abundance of individually half-baked arguments that I need to wrangle into something coherent.
@@ -191,7 +191,7 @@ Then the third synchronicity.
 After watching the Riz / Jesse conversation and then listening to The Telepathy Tapes, I wanted to go as deep as I could on this. I downloaded like seven books, and read a couple. I was about 10% into Riz’s book, The Simulated Multiverse [ https://substack.com/redirect/c91bedcf-12ec-4842-b120-d3ea948124a3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], when I got into bed and had a thought: read Autobiography of a Yogi [ https://substack.com/redirect/acf5e738-9fb8-4204-b06e-fd4338af679c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 I’d started reading it a few years ago, then stopped, then started over earlier this year while we were in Barcelona, then stopped. I wasn’t sure whether to take some of the acts Paramahansa Yogananda described literally or metaphorically or what. So I stopped and read something else.
 When I opened it back up in my Kindle, this was the page I’d left off eight months ago:
-Certainly, in a book about a Yogi, it’s not so bizarre to find a page like this. But in all 300 pages, this is the one that is most aligned with The Telepathy Tapes: human broadcasting stations, “transferred his thoughts effectively to another person,” “antenna of intuition,” “all thoughts vibrate eternally in the cosmos,” “detect the thoughts of any mind, living or dead.” Come on! 
+Certainly, in a book about a Yogi, it’s not so bizarre to find a page like this. But in all 300 pages, this is the one that is most aligned with The Telepathy Tapes: human broadcasting stations, “transferred his thoughts effectively to another person,” “antenna of intuition,” “all thoughts vibrate eternally in the cosmos,” “detect the thoughts of any mind, living or dead.” Come on!
 Like de Chardin, Paramahansa Yogananda even talks about communications technology as an intimation that man is an all-pervading spirit! Come ON!
 The one line on the page that I didn’t highlight, the last one which spills over to the next page, I didn’t think was as relevant until I started writing this piece. Now that I’m re-reading it, here it is:
 “Very strange, very wonderful, seemingly very improbable phenomena may yet appear, which, when once established, will not astonish us more than we are now astonished at all that science has taught us during the last century,” Charles Robert Richet, Nobel Prizeman in physiology, has declared.
@@ -228,9 +228,9 @@ Given that, it is a cosmic imperative to build, to create, to travel beyond the 
 We have an imperative to expand and to live fully, to do new things and have new ideas, to bring new people into the world and give them a rich, magical universe to explore.
 The Return of Magic isn’t a rejection of reason and science. Reason and science have gotten us here, and we need science to expand. But we must simultaneously rediscover the wonder and intuition that we’ve forgotten, so that we might see the universe as alive, connected, and full of possibilities.
 You can start small, though: listen to The Telepathy Tapes [ https://substack.com/redirect/8d255485-f9a6-40ca-9a5f-1022ccc69003?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and keep your eyes open for the synchronicities.
-That’s all for today, and the last essay of 2024. Thanks for coming on this journey with us! It’s been a hell of a year, and I’m energized to make 2025 even stronger. 
-For now, we’ll be back in your inbox tomorrow with a Weekly Dose. 
-Thanks for reading, 
+That’s all for today, and the last essay of 2024. Thanks for coming on this journey with us! It’s been a hell of a year, and I’m energized to make 2025 even stronger.
+For now, we’ll be back in your inbox tomorrow with a Weekly Dose.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFV6TXpFek1EWXlMQ0pwWVhRaU9qRTNNelEyTWpZM09UVXNJbVY0Y0NJNk1UYzJOakUyTWpjNU5Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkF3T0NHTWdmM0FOazlxQ3pzQXFGZko5d0dsWWExelNTMUJFYWt5Z08wTmsiLCJwIjoxNTMzMTMwNjIsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzM0NjI2Nzk1LCJleHAiOjE3MzcyMTg3OTUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.SGqgNzFrA5L5NigC6UBbjxhNvZiO_kF2hwlHR1j9Mpk?

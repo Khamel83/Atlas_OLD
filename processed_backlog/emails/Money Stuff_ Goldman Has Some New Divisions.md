@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic historical situation is that there were commercial banks and investment banks.%3Cp%3EThis%20is%20a%20very%20US-centric%20story,%20
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Goldman
-    
-  
+
+
 
 The basic historical situation is that there were commercial banks and investment banks.
   [1]
@@ -96,63 +96,63 @@ So Goldman will have  three divisions, roughly transaction banking, money manage
 The changes to the banking and trading business are expected to be minimal, with the remaining slate of leaders taking over the reins of the new, combined group. The combination is driven partly by a shift to showcase to investors the relative strength of that business compared with peers across Wall Street.
 But it seems culturally significant. For its entire history until this week, Goldman was an investment bank. Now it is a big financial company that has an investment bank.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Anti-ESG
-    
-  
+
+
 
 If a municipality puts a bond financing out for competitive bids, and the winning bidder is a bank that sometimes considers environmental, social and governance factors in some of its investing and financing decisions, and then the municipality decides to boycott banks that consider ESG factors, and so it cancels the financing with the winning bank, and instead does a worse financing with another bank that never considers ESG factors, and as a result it has to pay more money for financing, whose fault is that? I mean … there is an obvious answer? It’s the municipality’s fault? I do not see how you could say it’s the bank’s fault? But you can try I guess?
 
@@ -166,20 +166,20 @@ We  talked on Thursday about two somewhat contradictory visions of anti-ESG:
 
 Most people in the anti-ESG movement will tell you that it is just about maximizing financial returns and avoiding politics. But then you get a case like this where the school district simply incinerates some money to pursue Republican political goals! But they had the nerve to ask the bank for the money back.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Parler?
-    
-  
+
+
 
 Last week Kanye West was suspended from Twitter for promising to go “death con 3 On JEWISH PEOPLE,” and complained that “the Jewish media blocked me out.” So here’s this:
 
@@ -191,11 +191,11 @@ Meanwhile Donald Trump is using his social network, Truth Social, to threaten 
 The acquisition announcement says that “Under the terms of their agreement in principle, the parties intend to enter into a definitive purchase agreement and expect to close during the fourth quarter of 2022.” Ye has certain similarities to his friend Elon Musk, in that they are both whimsical, fond of “free speech,” and have signed agreements to buy social media companies. But Musk went and whimsically signed a definitive merger agreement to buy Twitter Inc., and then changed his mind (because of what he found in post-signing due diligence, or because the market went down, or because he changes his mind a lot and buying Twitter no longer seemed fun), and was  surprised and disappointed to find that that’s not allowed and he really does have to buy Twitter. ( Probably?)
 Ye had the good sense to whimsically sign an agreement in principle to buy Parler: He has agreed to try to negotiate an agreement, but it’s not a done deal yet. If he finds bad news in due diligence — or even if he gets bored of the idea of owning Parler — he can probably get out of it. If more than 5% of Parler users are bots, well, there’s no deal yet! In some ways Ye seems to have planned this better than Musk did.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 Meanwhile Elon Musk has about $7 billion of equity commitments from his friends, crypto exchanges, Middle Eastern funds, etc., to join his deal to buy Twitter, and there is some uncertainty about whether those people will actually kick in the money or whether Musk will have to cover their checks. My  rough assumption is that (1) those people probably could get out of their commitments, since Musk terminated the deal three times, so it’s a little tough for him to argue that it’s still binding on them, but (2) they probably won’t, because they signed up for the deal based mostly on blind faith in (or desire to be close to) Musk, and nothing about that rationale has really changed. Here is a counterargument though:
 
@@ -223,11 +223,11 @@ There are regimes sort of like that for other industries — if you want to buy
 It is not in a heavily regulated industry, and there’s no particular antitrust problem with Musk acquiring it. “World’s richest person acquires the main venue for public communication” does seem like the sort of thing that ought to raise regulatory concerns, but in our actually existing system I’m not sure what those concerns would be. 
 I mean, I can see the concerns that it raises, but not the regulatory concerns.
 
-  
-    
+
+
       SPACs
-    
-  
+
+
 
 I feel like people do not understand the basic economic proposition of a special purpose acquisition company?   A SPAC is a gamble by its sponsors. The sponsors put in some money — let’s say it’s $8 million — to pay startup costs to raise a pool of cash from public investors. Then they have about two years to look for a private company to merge with and take public. If they find a target, negotiate a merger, get approval from the public investors, and take it public, then they make a lot of money. Let’s say they make $54 million, or roughly seven times what they put in. Good payoff. If they fail to find a target, or they can’t negotiate the deal, or if the public investors don’t approve of the deal, then they lose their $8 million.
 Meanwhile the public investors — the people who put money into the pool of cash — get back (1) shares of the target company, if the SPAC succeeds, or (2) the money they put in, with a little bit of interest, if it fails. In Case 2, the public investors basically break even; the interest they got from the SPAC isn’t materially worse than they would have gotten in a bank account. In Case 1, the public investors get shares in a newly public company, which is good if the company is good or bad if the company is bad. So you could separate the public investors’ result into Case 1a, “shares that go up,” and Case 1b, “shares that go down.” In Case 1a, you’re happy; getting valuable shares is better than getting your money back. In Case 1b, you’re sad, and you would rather have gotten your money back.
@@ -242,11 +242,11 @@ At the same time, SPAC managers, known as sponsors, turned an average investment
 Yes look this is right as far as it goes, but it looks only at a subset of SPACs, the subset of “SPACs that merged with private companies.” That’s like saying that people who bought winning lottery tickets, on average, made money. If you ran a SPAC that succeeded — by the narrow SPAC standard of “did a merger” — then you turned $8 million into $54 million, even though the public investors lost money. But if you ran a SPAC that failed — that didn’t find a merger — then you turned $8 million into zero, while your public investors got their money back with interest.
 Obviously the point here is that success for the public investors is the opposite: You’d rather get your money back than lose 37% of your investment. On average, sponsors do better from the SPACs that succeed, but regular investors do better from the ones that fail.
 
-  
-    
+
+
       Bitcoin astrologer
-    
-  
+
+
 
 I am just mad I didn’t think of the idea of “Bitcoin astrologer” first. Just saying or reading or typing those words, I think “oh right yes of course that’s gonna be lucrative.” But  also this:
 
@@ -255,15 +255,15 @@ Altman’s Twitter critics say she received the money to create favorable conten
 
 I don’t know about you, but I am shocked that someone might have undermined the integrity of CREATING ASTROLOGY CONTENT ABOUT CRYPTO LENDERS by being less than forthcoming about accepting payments. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UK Opens £40 Billion Emergency Liquidity for   Energy Firms. Bank of England to   Resume Corporate Bond Sales Next Week. U.K. Reverses Nearly All Tax Plans to  Reassure Markets. Hedge Fund Managers Score   Tax Break While Keeping Investment Control. How   Gamers Beat NFTs. Mastercard Debuts Service Offering   Crypto-Trading Tied to Bank Accounts. The   Coal Is Gone, But the Mess Remains. Credit Suisse Investment Bank CEO   Meissner Set to Leave Firm. American Executives in Limbo at Chinese  Chip Companies After U.S. Ban. Inmate Stole $11 Million in  Gold Coin Scheme While in Prison, Officials Say.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is a very US-centric story, for particular historical and regulatory reasons, and Europe and Asia were often more comfortable with universal banking earlier than the US was.
 
 
@@ -273,114 +273,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Reporters can ask Musk what his plans are for dealing with China, but he can ignore them. A Financial Times reporter asked Musk about China and this happened: “There are some topics that amuse Musk, eliciting prolonged laughter, and other questions that are met with deliberate silence before he speaks. The longest silence follows my question about China and the risk to Tesla’s Shanghai factory, which produces between 30 per cent and 50 per cent of Tesla’s total production.” And then Musk pivoted to saying that the People’s Republic of China should annex Taiwan, but in a nice way.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

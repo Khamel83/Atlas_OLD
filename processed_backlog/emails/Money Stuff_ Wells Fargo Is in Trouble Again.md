@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I think often about the time I wrote:If you have U.S. dollars in a bank account at JPMorgan Chase & Co., and I have U.S. dollars in a bank a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Wells Fargo
-    
-  
+
+
 
 I   think often about the time   I wrote:
 If you have U.S. dollars in a bank account at JPMorgan Chase & Co., and I have U.S. dollars in a bank account at JPMorgan Chase & Co., and I want to send you 100 of my dollars, what we do is I tell JPMorgan to subtract 100 from the number of dollars in my bank account and add 100 to the number of dollars in your bank account. This gets dressed up in a lot of procedures, because it would be bad if JPMorgan got the math wrong or if it moved money from one account to another without getting the proper authorizations, but as a matter of, like, computer science, it is dead easy. JPMorgan keeps a list of people and how many dollars they have, and you and I both trust JPMorgan to keep that list (that’s what it means that we bank there!), and so we just tell JPMorgan to update the list to reflect the transaction between us.
@@ -98,89 +98,89 @@ While $3.7 billion may sound like a lot, the CFPB recognizes that this alone wil
 
 Imagine being the sort of person who gets ahead in banking and becomes a senior executive at Wells Fargo. One of your subordinates comes to you to be like “I have an idea for a new product that will attract a lot of customers and bring in a lot of revenue.” Another one of your subordinates comes to you to be like “sometimes we charge people late fees even after agreeing not to, because our systems don’t talk to each other very well; I have an idea for how to modernize them to make sure that doesn’t happen. It will cost a lot of money, but in exchange we, uh, won’t get to charge as many late fees?” Which subordinate would you want to spend more time with? Who sounds like more fun?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Look it has been a weird few years. In February 2021, during meme-stock mania, I coined   the Elon Markets Hypothesis,   the idea that “the way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk”:
 Musk is the richest person in the world, and in a dynamic, fun, traveling-to-Mars sort of way. It makes sense that his pronouncements have a certain religious character, that his tweets can endow arbitrary objects with mana. If the richest person in the world tweets “Gamestonk!” then I think that means that, if you buy GameStop stock, you will partake in his wealth and dynamism at a remove; you will get rich and have fun doing it. (Not! Investing! Advice!) Maybe that is not how it works on a conscious level—though I think that sometimes it is?—but surely at some subconscious level people want to order their lives in accordance with the cryptic instructions of a charismatic flying zillionaire.
@@ -198,20 +198,20 @@ But it’s actually a little worse than that, because, as CEO, not only will you
 Also if you are a Tesla shareholder, the thing that you are mad about is that the CEO of Tesla is now working long hours as the CEO of Twitter, and I am not sure that you will be happier to learn that the CEO of Tesla will instead work long hours as a senior manager at Twitter? Like, I mean, at Tesla, the people who make the cars seem to have important jobs, while the CEO can apparently be absent for months at a time without impacting production too much. (Impacting the stock price, sure.) You could imagine Musk being CEO of Twitter as a part-time job, the way it is at Tesla, where he tweets a lot and makes some policy decisions but is not in the weeds of every engineering decision. But, no, he is in the weeds of every engineering decision, and wants to continue that even after he steps down as CEO.
 Also if Musk does a bad job as head of software and servers, can the new CEO fire him? To be clear I would never, ever, ever want to be CEO of Twitter — even before Musk took it over, and certainly not after — but wouldn’t it be a little tempting to be CEO just so you could fire Musk? Like obviously he would then fire you, more or less immediately; you are both his boss (you’re the CEO and he is the head of a division) and his employee (you’re a manager and he’s the majority shareholder). But you’d have, like, 15 minutes. You could order security to escort him out of the building; you could put out a press release; you could tweet from the official account “Elon has been fired for not being hardcore enough,   let that sink out.” Oh then he’d fire you and deny you severance and call you a sex criminal; your life would be horrible forever. But for a minute it would be very funny.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Not now, Coinbase
-    
-  
+
+
 
 After the collapse of FTX, what is the path forward for crypto regulation? I have no idea! The basic situation in the US is that regulators — mainly, the US Securities and Exchange Commission — are  pretty hostile to  crypto, and if a crypto exchange comes to the regulators and says “how can I set up a full-service, innovative, but regulatorily compliant crypto exchange for US customers” the regulators will say “I’m so glad you came in, welcome,” and then  throw them in a dungeon. After FTX, you could have two views of that approach:
 	If US regulators had been more accommodating, more crypto trading would have moved to US-regulated exchanges that were transparent, audited, and carefully supervised by US regulators, and the result would have been that FTX would not have lost billions of dollars of customer money. Or:	If US regulators had been more accommodating, crypto exchanges like FTX would have had a lot more access to US customers, and would have lost a lot more of their money.
@@ -230,11 +230,11 @@ Anyway here’s a blog post from Brian Armstrong, the founder of Coinbase Global
 
 If Coinbase had proposed these things three months ago they would have seemed like a wild libertarian crypto-maximalist wish list. But then FTX collapsed! Nobody wants to hear this stuff now. It is fine for people in crypto to say “the collapse of FTX, a centralized exchange, proves that DeFi is the future,” but imagine a congressperson, now, saying “I have met with the CEO of a crypto exchange and decided that encoding trust on-chain is good enough for me, so I am proposing a law forbidding the SEC from regulating decentralized crypto exchanges.” 
 
-  
-    
+
+
       Taxi front-running
-    
-  
+
+
 
 I  don’t know, man:
 At all times relevant to this Indictment, taxi drivers who sought to pick up a fare at JFK were required to wait in a holding lot at JFK before being dispatched to a specific terminal by the Dispatch System. Taxi drivers were frequently required to wait several hours in the lot before being dispatched to a terminal, and were dispatched in approximately the order in which they arrived at the holding lot.
@@ -246,126 +246,126 @@ ABAYEV and LEYMAN’s scheme resulted in large numbers of taxi drivers skipping 
 
 “I know that the Pentagon is being hacked[.].  So, can’t we hack the taxi industry[?],” Abayev allegedly texted one of the Russian hackers, before they actually did. Like, fine, fine, you’re not supposed to hack the dispatch system, they were stealing the money, sure. But surely it was worth $10 to these drivers to skip a multi-hour wait for a fare? Arrest these guys, fine, but shouldn’t JFK be copying their idea? 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Palantir’s SPAC Bets Backfire, Hitting Company’s Growth. FTX clients to  vie for priority payouts in US bankruptcy case. FTX Wants to  Claw Back Sam Bankman-Fried’s Donations. Sam Bankman-Fried to   Fly to US Wednesday, Escorted by FBI Agents. FTX Claims Are Luring Some Big Players in the Distressed Market. Core Scientific   Declares Bankruptcy as Crypto Winter Lingers. Citadel, Other  Hedge-Fund Winners in 2022 to Return Some Profits to Clients. Short Seller  Carson Block Sues the SEC. Some Turkish Banks Are Now Literally   Giving Out Free Money. The   Golden Age of Cocaine Is Happening Right Now. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] To be fair it’s entirely possible that they were *not* paying their mortgages, that they were supposed to be offered a modification to enable them to pay or defer their mortgages, and that Wells Fargo thought they were dead because they weren’t paying. But eventually they must have paid something, which is why Wells Fargo has to pay them remediation averaging $12,600 each. Like if Wells Fargo was just not in contact with them at all then it is hard to see how it could have harmed them; the harm is taking their money, which is a weird thing to do if you thought they were dead.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and next week, back on April 10. Empirically this is expected to dampen market volatility
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and next week, back on April 10. Empirically this is expected to dampen market volatility, though this is not investing advice and past results may not be representative of future performance. But enjoy a nice quiet week in financial markets without me, have fun, try not to break anything.
 
-  
-    
+
+
       Bloodbath: Beyond
-    
-  
+
+
 
 In early February, Bed Bath & Beyond Inc. was skating pretty close to bankruptcy. If it had filed for bankruptcy, the expected outcome would be that its shares of stock would be worthless and its creditors would end up owning the company; probably the company   would have liquidated, stores would have closed, and the creditors would get pennies on the dollar. But it was not there yet: At the beginning of February, Bed Bath’s stock traded at around $3 per share, for an equity market capitalization of around $300 million to $400 million, because shareholders held out some hope. On a bankruptcy filing, that value would more or less immediately jump to zero.
   [1]
@@ -115,37 +115,37 @@ One other point. On this math Hudson Bay has bought roughly 73% of Bed Bath’s 
   [12]
  US securities law   requires investors to disclose their share ownership — on Schedule 13D or 13G — within 10 days after they get above 5% of a company’s stock. Hudson Bay has never filed a 13D for Bed Bath; it doesn’t even show up on Bloomberg’s holders list. Hudson Bay may have bought almost 311 million Bed Bath shares, but it didn’t keep them for long; it was selling them as fast as it could get them. Which was not quite fast enough.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       RRP, TNB
-    
-  
+
+
 
 A few years ago a bank named TNB USA Inc. — it stands for “The Narrow Bank” — started up with a simple business model. It would take deposits from customers and park 100% of the deposits at the Federal Reserve. The Fed pays interest on bank reserves, so TNB would get interest from the Fed; it would pass some of that interest along to its depositors and keep some to pay its expenses.
 This business model had two benefits:
@@ -184,11 +184,11 @@ Mr. Johnson said that Choice’s bankers and products hold their own against tho
 
 And the biggest enchilada is the Fed, which didn’t want to compete with the banks for deposits, but which ended up doing it anyway.
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 I mean, not really,   but:
 
@@ -200,16 +200,16 @@ Game … used? Used for what? The patch says “MLB Debut,” you stick it on y
 If this works, will next year’s rookies wear two patches? Why not a patch for everyone in every game? Then probably most of them sell for, like, ten bucks, or just get tossed in the garbage after the game, but if someone pitches a perfect game or breaks a record or whatever, his game-worn Official Collectible Right Shoulder Upper Patch from that game is worth … I guess more than ten bucks?
 Look there have always been sports collectibles. Mostly they have been, you know, balls and jerseys and stuff, actual equipment, though the baseball card market is large and longstanding. But I suppose the innovation of crypto and non-fungible tokens was to discover that you could just create an arbitrary number of things, call them collectibles, convince people that they have some meaning, and then sell them for money. Ooh you can buy a rookie’s game-worn MLB Debut patch, don’t you kind of want to?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Average   Wall Street Bonus Plunges 26% to $176,700. FDIC Considers Forcing   Big Banks to Pay Up After $23 Billion Hit. Ryan Cohen’s Grand Plans for GameStop Keep Shrinking. JPMorgan, Goldman Plan to Start Trading   Private Credit Loans. Boutique adviser Centerview beats Wall Street banks in deal rankings. Gemini Preps Overseas Derivatives Exchange to Offer ‘Perpetual Futures.’ Crypto Giant Binance Offered Perks to ‘Flash Boys,’ Regulator’s Lawsuit Says. ‘Degenerate Gambling’ in   Zero-Day Options Thrills Retail Traders. Banking Worries Fuel Gold Price Rally. Elon Musk’s Move to Monetize Twitter’s Blue Check Mark Riles Celebrities. What’s Troubling Private Equity Executives, According to Their Personal Coaches. Dungeons & Dragons’ Epic Quest to Finally   Make Money.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Well. I mean. Maybe the stock would trade *up* on a bankruptcy filing because it is something of a meme stock and 
+
+  [1] Well. I mean. Maybe the stock would trade *up* on a bankruptcy filing because it is something of a meme stock and
 meme stocks do that. But a bankruptcy filing would, reasonably quickly and reasonably certainly, make the stock *worth* zero.
 
 
@@ -249,54 +249,54 @@ meme stocks do that. But a bankruptcy filing would, reasonably quickly and reaso
   [13] This draws on a classic Interfluidity post by Steve Randy Waldman titled “Why is finance so complex?”; we have   talked about it a   few times during the current banking crisis.
 
 
-  [14] In 2008, money market funds often invested in commercial paper that turned out to be riskier than people expected, and there were runs and panics at money market funds. In the aftermath, there were various proposals for capital and liquidity regulation at money market funds, and even today you can find people talking about the risks that they pose as shadow banks that borrow short to lend long(er) with no capital requirements. Here is a speech by Janet Yellen *today* saying that “If there is any place where the vulnerabilities of the system to runs and fire sales have been clear-cut, it is money market funds,” and that “In the banking sector, capital and liquidity requirements and federal deposit insurance reduce the likelihood of runs taking place. In case runs occur, access to the discount window helps provide buffers for banks. Yet the financial stability risks posed by money market and open-end funds have not been sufficiently addressed.” And, sure, a money market fund that bought a lot of risky commercial paper with six-month terms could get itself into trouble. But the actually existing threat to financial stability from actual money market funds in March 2023 is the opposite: It’s not that risky money market funds face run risk, it’s that it’s too easy for a money market fund to be very *safe and attractive* — to put all its money in overnight Fed deposits earning 4.8% — so depositors run *from* banks to money market funds. 
+  [14] In 2008, money market funds often invested in commercial paper that turned out to be riskier than people expected, and there were runs and panics at money market funds. In the aftermath, there were various proposals for capital and liquidity regulation at money market funds, and even today you can find people talking about the risks that they pose as shadow banks that borrow short to lend long(er) with no capital requirements. Here is a speech by Janet Yellen *today* saying that “If there is any place where the vulnerabilities of the system to runs and fire sales have been clear-cut, it is money market funds,” and that “In the banking sector, capital and liquidity requirements and federal deposit insurance reduce the likelihood of runs taking place. In case runs occur, access to the discount window helps provide buffers for banks. Yet the financial stability risks posed by money market and open-end funds have not been sufficiently addressed.” And, sure, a money market fund that bought a lot of risky commercial paper with six-month terms could get itself into trouble. But the actually existing threat to financial stability from actual money market funds in March 2023 is the opposite: It’s not that risky money market funds face run risk, it’s that it’s too easy for a money market fund to be very *safe and attractive* — to put all its money in overnight Fed deposits earning 4.8% — so depositors run *from* banks to money market funds.
 
 
   [15] A third objection that the Fed raised in 2019 was that narrow banking would expand the Fed’s balance sheet, which is also true of RRP and money market funds. (Also that it would make monetary policy harder, which I think is less clearly true: Arguably the drop-off in lending that results from the move out of banks into money-market funds is kind of the *point* of the Fed’s monetary tightening.)
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -307,46 +307,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cigob6.5kyi/213a7696.gif" alt="" border="0" /></a>

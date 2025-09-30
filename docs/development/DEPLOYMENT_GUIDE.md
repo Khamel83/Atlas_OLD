@@ -27,7 +27,7 @@ nano .env
 # Your OpenRouter API key for AI processing
 OPENROUTER_API_KEY=your_actual_api_key_here
 
-# Atlas environment 
+# Atlas environment
 ATLAS_ENV=production
 DATA_DIRECTORY=output
 
@@ -158,7 +158,7 @@ Atlas automatically decides what to process locally vs send to Mac Mini:
 
 ```
 YouTube 30min video → Mac Mini (save storage/CPU)
-Article           → Atlas (immediate processing)  
+Article           → Atlas (immediate processing)
 Podcast 5min      → Atlas (quick transcription)
 Audio file upload → Mac Mini (better transcription)
 ```

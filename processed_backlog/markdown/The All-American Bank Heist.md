@@ -12,11 +12,11 @@
 
 # Service unavailable!
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Service unavailable!]()
 
-Service unavailable!  
-  
-The server is temporarily unable to service your request due to too Many Requests. Please try again later. 
+Service unavailable!
+
+The server is temporarily unable to service your request due to too Many Requests. Please try again later.
 

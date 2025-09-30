@@ -13,11 +13,11 @@ SUMMARY
 > hot Brooklyn afternoon, two New York men set out to rob a bank. Sonny (Al Pacino)
 > is the mastermind, Sal (John Cazale) is the follower, and disaster is the
 > result. Because the cops, crowds, TV cameras and even the pizza man have
-> arrived. The "well-planned" heist is now a circus.  
+> arrived. The "well-planned" heist is now a circus.
 >     Sonny wants money to pay for his male wife's sex change
 > operation. His other (female) wife is driving him crazy, along with his mother
-> and his partner who thinks Wyoming is a country.  
->     But the craziest part is that it's all based on a true story.  
+> and his partner who thinks Wyoming is a country.
+>     But the craziest part is that it's all based on a true story.
 >     *(from the presskit)*
 
 CAST /CREW
@@ -38,7 +38,7 @@ ARTICLES
 >
 > [*An Interview with Pierre
 > Huyghe On the Occasion of "Even More Real Than You" Marian
-> Goodman Gallery, New York.  
+> Goodman Gallery, New York.
 > Jan. 9 - Feb. 17, 2001*](http://www.frenchculture.org/art/events/huyghes-even.html)
 >
 > > French artist **Pierre Huyghe**
@@ -50,44 +50,44 @@ ARTICLES
 > *[Even More
 > Real Than You,](http://www.frenchculture.org/art/events/huyghes-even.html) Film about the memory of the event itself*
 >
-> > **About [Even more Real Than You](http://www.frenchculture.org/art/events/huyghes-even.html)**  
+> > **About [Even more Real Than You](http://www.frenchculture.org/art/events/huyghes-even.html)**
 > >    On
 > > the occasion of Huyghe's first NY one-man show, **Even More Real Than You**, jounalist**Adrian Dannatt** interviewed the artist for **[The Art Newspaper](http://www.theartnewspaper.com/interviews/interviews.asp)**.
-> >   
-> >     The following are some exerpts from that interview:  
+> >
+> >     The following are some exerpts from that interview:
 > >     "Pierre Huyghe is from of a generation of younger French artists
 > > who seem to have finally broken the proverbial curse of Gallic provincialism and blossomed
-> > onto the international scene..."  
+> > onto the international scene..."
 > >     "Although Huyghe became best known for the work he has made in the
 > > last five years playing with film and video imagery in a genre that has by now become sui
 > > generis, Huyghe has wider ambitions. Indeed he is keen not to be thought of as a
 > > video-installation artist, rather, as an artist who uses a wide variety of different tools
-> > and media and so happens at the moment to be using film to express himself."  
+> > and media and so happens at the moment to be using film to express himself."
 > > **Q. How does it feel to be that involved in a film you have not
-> > made yourself?  
+> > made yourself?
 > >     A.** It is not about the film. That is the point. It is about the
 > > memory of this person, the re-enaction of a memory. When I do this kind of work, which I
 > > have done two or three times, it is never about referencing or deconstructing a film or
 > > the nature of Hollywood. I am speaking about the story of a man and about representation.
-> > It is about how you create an image and have that image represent you.   
+> > It is about how you create an image and have that image represent you.
 > > **Q. Could you explain your work "The third memory" currently
 > > at Marian Goodman Gallery? Essentially it is a recreation, a talk-through of the
 > > actual
-> > bank robbery which later inspired the film "Dog day afternoon."**  
+> > bank robbery which later inspired the film "Dog day afternoon."**
 > > **A**. Exactly, so it's not a reconstitution of the film; people make that
 > > confusion. It's a re-enactment of a fact. In 1972 John Wojtowicz made this bank robbery.
 > > There were many interpretations of this in newspapers, and from these reports they made a
-> > scenario, then a script, and then they made a film.  
+> > scenario, then a script, and then they made a film.
 > >     During all this Wojtowicz was in jail and there was a confusion between
 > > what he actually did, what he did according to the press, and the events as described by
 > > the film. Naturally, it was confusing for him too. It would be confusing for anyone to see
-> > their life acted by Al Pacino.   
+> > their life acted by Al Pacino.
 > >     So the interesting part is how you represent this story, how he came to
 > > find himself represented in the press, television, then in a fiction film. I decided to
 > > ask him to explain how it happened, but what is interesting today is that, of course, his
-> > memory is affected by the fiction itself.   
+> > memory is affected by the fiction itself.
 > > **Q. How does it feel to be that involved in a film you have not made
-> > yourself?  
+> > yourself?
 > >    A**. It is not about the film. That is the point. It is about the memory
 > > of this person, the re-enaction of a memory. When I do this kind of work, which I have
 > > done two or three times, it is never about referencing or deconstructing a film or the
@@ -101,11 +101,11 @@ ARTICLES
 > > Dog Day Afternoon, and everything was going very well until about 10 days before we were
 > > to start shooting, when Al Pacino wanted to quit the picture. They summoned me to New
 > > York, and I arrived to find Sidney Lumet and Al in the depth of gloom about the whole
-> > thing.  
+> > thing.
 > >     Al said it had become apparent in the course of the rehearsals that the
 > > homosexuality of the relationship was the dominant thing, and he'd decided he didn't want
 > > to do that, for a lot of reasons, personal and professional - that he didn't want to do a
-> > scene in which he appeared with [Chris Sarandon's] character.  
+> > scene in which he appeared with [Chris Sarandon's] character.
 > >     I had written the key, climactic scene between the two of them, these
 > > two people who were lovers-in fact, they were married in church by a homosexual priest-and
 > > in the movie, they come to a point where they have to say goodbye to each other forever.
@@ -114,12 +114,12 @@ ARTICLES
 > > 'faggot' at them. So they have to say goodbye to each other in this absolute madness, and
 > > it ended with a kiss on the lips. Well Al said he would not do that scene, and I don't
 > > blame him at all. The full dimensions were not apparent, as to how this would appear on
-> > screen, until they got into rehearsing it.  
+> > screen, until they got into rehearsing it.
 > > ***[![](http://velvet_peach.tripod.com/pics/pac_dda5.jpg)](http://velvet_peach.tripod.com/pics/pac_dda5.jpg)***   
 > > So what it got down to was, Al said, 'I want to take out all the references, to sex - all
 > > that has to go. Furthermore, I won't appear in a scene where I have to be face-to-face
 > > with him.' So I said, 'The only way you'll play a scene together is on the telephone?' And
-> > he said, 'That's right.'  
+> > he said, 'That's right.'
 > >     So I said, 'I don't see anything else to do now but send the screenplay
 > > to Dustin Hoffman.' And Al said, 'Before you do that, I wish you'd just think of one
 > > thing: You've had marriages, and you've had love affairs in which there have been
@@ -128,13 +128,13 @@ ARTICLES
 > > you write a relationship about two people who love each other and can't find a way to live
 > > with each other?' And I saw instantly that he was absolutely, totally right! And I said,
 > > 'You sonovabitch-why didn't you think of this four months ago, when there was some time to
-> > write this?'  
+> > write this?'
 > >     But you know, it actually turned out to be rather easy. It took about
 > > 48 hours to do the rewrite. The first thing I did was cut out all the scenes I had written
 > > for them and reduced it, essentially, to the scene that plays on the telephone. For each
 > > one of them, I wrote a monologue that ran about four pages ... about how they met, why
 > > they loved each other, why they can't live together, what's wrong with the other person,
-> > and all the lousy things they'd done to each other.  
+> > and all the lousy things they'd done to each other.
 > >     I gave the copies to Pacino and Sarandon, and then I turned on a tape
 > > recorder. And they started by reading from their monologues, and then improvising a bit
 > > off it, and I just ran the tape recorder for about a half-hour. Then I took that material
@@ -143,7 +143,7 @@ ARTICLES
 > > character to say that he had nothing to do with the planning of the crime, so he's not an
 > > accessory and won't have to go to jail. If you look at it, in about eight minutes, they
 > > act out the exact arc of their real-life relationship. It goes from bad to worse, with a
-> > great deal of tenderness and no sexuality at all.  
+> > great deal of tenderness and no sexuality at all.
 > >     And I realized something else that resulted from making that
 > > alteration, and that is, it changed the whole nature of the movie. While it was funnier
 > > the other way, to many people, in the end, it would have come out as being homophobic. It
@@ -160,39 +160,39 @@ ARTICLES
 > > bank guard, begins locking the doors behind departing customers. Shirley Ball, a teller,
 > > starts her final tally of the day's receipts. And bank manager Robert Barrett looks up
 > > from a couple of loan applications to see a sandy-haired, baby-faced young man nervously
-> > approaching his desk.   
-> >     "Are you Mr. Barrett?"  
-> >     "Yes."   
-> >     "I'm Mr. . ."  
+> > approaching his desk.
+> >     "Are you Mr. Barrett?"
+> >     "Yes."
+> >     "I'm Mr. . ."
 > >     Barrett doesn't quite catch the name. The young man sits down at his
-> > desk, however, and manages to pronounce his next couple sentences a little more clearly.  
+> > desk, however, and manages to pronounce his next couple sentences a little more clearly.
 > >     "Freeze," says the visitor, whose name is Sal Naturile.
-> > "This is a holdup. I'm not alone."   
+> > "This is a holdup. I'm not alone."
 > >     Behind the tellers' counter, Shirley Ball taps away at her adding
 > > machine, engrossed in the figures on the tape. It takes a commotion from across the room,
 > > the clear shout of an obscenity, to snap her attention. Who would use language like that
 > > in a bank? Shirley Ball looks up and sees her boss at his desk, a gun at his head, his
 > > hands in the air and a what-can-I-do? expression on his face. Now she spots the second
 > > robber, John Wojtowicz, a dark, thin fellow with the broken-faced good looks of an Al
-> > Pacino or a Dustin Hoffman, heading into the tellers' area with an attaché case.   
+> > Pacino or a Dustin Hoffman, heading into the tellers' area with an attaché case.
 > >     Wojtowicz begins filling the case with $37,951 in cash, $175,150 in
 > > traveler's checks--not as much as he and his partner hoped for but enough of a modest
-> > winning to reverse two lifetimes of steady losing.   
+> > winning to reverse two lifetimes of steady losing.
 > >     Already halfway through the robbery, they can afford to be decent. They
 > > promise to lock the seven lady tellers, the guard and the bank manager in a vault and to
-> > call the cops after their getaway. Nobody is getting hurt.   
+> > call the cops after their getaway. Nobody is getting hurt.
 > >     The phone rings on Barrett's desk and the bank manager-still under the
 > > gun-takes the call. Joe Anterio, a personnel officer in Chase Manhattan's downtown
 > > headquarters, is requesting the transfer of a teller to another branch. Barrett surprises
 > > Anterio by opposing the transfer. Instead, he suggests the name of a teller who'd been
-> > fired four months earlier on suspicion of theft.   
+> > fired four months earlier on suspicion of theft.
 > >     "You're talking funny, Bob," Anterio says. ','Is something
-> > wrong down there?"   
+> > wrong down there?"
 > >     "Yep!" says Barrett, slamming down the phone. Unaware of the
 > > message hidden in Barrett's seemingly routine phone conversation, the robbers go about
 > > their business. Meanwhile, in downtown Manhattan, the astonished personnel man makes the
 > > calls which bring to the bank the first of 200 police and FBI men, dozens of newsmen and
-> > their hostages trapped together behind t@ose doors for dozen crazy hours.   
+> > their hostages trapped together behind t@ose doors for dozen crazy hours.
 > >     The man in charge of FBI operations in New York this August afternoon
 > > is Richard Baker, a poised, articulate gentleman who looks more like a banker than an FBI
 > > agent-you wouldn't dream of looking for a telltale pistol bulge underneath *his* pinstriped
@@ -204,7 +204,7 @@ ARTICLES
 > > to. So will several other FBI agents, including one who isdestined to play a
 > > decisive role. This agent's full name, his background and his rank have not been revealed,
 > > but before dawn of the next day the hostages and the robbers will meet a man named
-> > "Murphy."   
+> > "Murphy."
 > >     "We were shaking, we were nervous, we didn't know which way they
 > > would turn," says teller Shirley Ball, who becomes a hostage as the police close in
 > > on the building. "They were stuck with us, and we were stuck with them. I guess I was
@@ -216,32 +216,32 @@ ARTICLES
 > > and erratic rapport springs up between the hostages and their captors. They are in it
 > > together now, sharing the bank which is their prison. Acting the role of a harried but
 > > kindly warden, John Wojtowicz decides to allow his prisoners unlimited phone calls to
-> > relatives on the outside.   
+> > relatives on the outside.
 > >     In Manhattan, Harry Ball, a cosmetics executive, hears about the bank
 > > robbery from his wife, Shirley, who calls his office to explain thatsheis a prisoner.
 > > -Harry Ball leaves his office without telling anyone what's happening. He takes the subway
-> > to Brooklyn.   
+> > to Brooklyn.
 > >     Inside the bank is bedlam. Bank robbers and hostages listening to live
 > > radio coverage of the caper. Phone calls going out, phone calls coming in. "I hope
 > > they kill you all," a voice, at the end of the line tells bank manager Barrett.
 > > "Make your move now," whispers another voice, calling every 15 minutes. Barrett
 > > fields yet another phone call and turns to John Wojtowiez. "You're wanted on the
-> > phone, John. It's the police. They want to talk to you."   
+> > phone, John. It's the police. They want to talk to you."
 > >     By now, John Wojtowicz wants to talk to the police. He wants to talk
 > > about negotiations, about hostages, about producing a plane which will carry him to
 > > distant places. But more than this, he wants to talk to the person who matters most of
 > > all. As worried married men will do, he asks to be allowed to talk to his
 > > "wife." The police send a squad car to the mental ward of a nearby hospital and
-> > pick up a 26-year-old male named Ernest Aron.   
+> > pick up a 26-year-old male named Ernest Aron.
 > >     There was nothing in John Wojtowicz's early years to suggest that he
 > > would ever find himself holding off police at the doors of a bank and haggling with them
 > > for a meeting with a homosexual spouse. For most of his 27 years his life seemed pointed
 > > to nothing more than a routine job, a faithful female wife, and someday a move to the
-> > suburbs.   
+> > suburbs.
 > >     His mother, Theresa, remembers a good boy who didn't smoke, rarely
 > > drank. He played softball, collected stamps, and carefully clipped out newspaper stories
 > > about politics. He finished Erasmus High School with a 97% average, shining in math and
-> > mechanical drawing. His favorite extracurricular activity was Monopoly.  
+> > mechanical drawing. His favorite extracurricular activity was Monopoly.
 > >     Only an occasional flare-up of temperamental rage *marred an* otherwise
 > > studious and pedestrian mind. It seemed right to his moth- er that her son should take a
 > > job in a bank directly after high school and that he should find a girl friend-and an
@@ -250,12 +250,12 @@ ARTICLES
 > > dingbat. He dubbed her in return a "mouth." The couple met on a bank-sponsored
 > > ski trip to Massachusetts, were engaged as Wojtowicz was drafted and shipped to Vietnam,
 > > and were finally married just as soon as he got back to Brooklyn, safe and sound, one year
-> > later. And then the trouble began.   
+> > later. And then the trouble began.
 > >     On his wedding night Wojtowicz fought with Carmen's family over the
 > > gift money. He threw the bills, over $1,000, at his father-in-law's feet and stomped out.
 > > "With us Italians," his mother says, "if a marriage begins like that, it's
 > > sure to end the same way." Eventually it did. Carmen and their two children nestled
-> > in with her folks, and her husband moved back into his cramped quarters at home.   
+> > in with her folks, and her husband moved back into his cramped quarters at home.
 > >     In the bad times following the collapse of his marriage, Wojtowicz
 > > drifted into the netherworld of New York's homosexual bars. There he combined a new
 > > nickname with his mother's maiden name and be- came Littlejohn Basso. His previously
@@ -272,33 +272,33 @@ ARTICLES
 > > its finery, its ceremony, the wedding couldn't have been more straight. The wedding couple
 > > sent formal invitations to over 300 guests, set out a lavish buffet, arranged for a
 > > photographer, and even allowed the proceedings to be videotaped. Wojtowiez's mother came.
-> > So did Aron's father.   
+> > So did Aron's father.
 > >     But Wojtowicz quickly found his new marriage beset by problems among
 > > them Ernest Aron's longing for a sex-change operation. In April, four months later, Aron
 > > penciled out a letter and tacked it on the door. "Dearest John," it began,
 > > "I'm sorry I won't be able to see you tonight as by the time you read this note I'll
 > > be in Florida. I'm really sorry it ended this way, but I just can't take it any
-> > longer."   
+> > longer."
 > >     These must have been the worst weeks in John Wojtowicz's life. The
 > > quiet normality of his first marriage was far behind him. The precarious second life he'd
 > > built around his liaison with Ernest Aron was a shambles. Deserted, low on cash, convinced
 > > that certain "lumps" in his intestines were growing into a terminal cancer, Wo-
 > > jtowicz groped for one master stroke which would provide for his wife and kids, regain the
 > > esteem of Ernest Aron, and enable him to spend whatever time he had left living, as he had
-> > always wanted to live, "high on the hog."   
+> > always wanted to live, "high on the hog."
 > >     That's when the desperate talk about a bank robbery began. Wojtowicz
 > > enlisted the help of Sal Naturile, a quiet, brooding kid who always had a frown on an
 > > otherwise gentle face. He had been in and out of state institutions in New Jersey since
 > > age II, mostly for truancy, theft and parole violations. His most serious-and
 > > ingenious-escapade involved hiding himself overnight in a department store, ringing up
-> > cash receipts in the dark, and walking out the next day with TV sets in each hand.   
+> > cash receipts in the dark, and walking out the next day with TV sets in each hand.
 > >     John Wojtowicz divided the last weekend before the robbery as he had
 > > divided his whole adult life: between his two wives. On Friday night he took Carmen and
 > > the kids to see a double feature, *The Car- ey Treatment and Shaft's Big Score.* Saturday
 > > night he saw Ernest. They had another fight and the next day Wojtowicz left Aron at his
 > > Brooklyn apartment. Depressed and anxious, Aron popped a few bar- biturates, enough to
-> > scare friends into calling an ambulance. He was rushed to King's County Hospital.   
-> >   
+> > scare friends into calling an ambulance. He was rushed to King's County Hospital.
+> >
 > >     They are all part of an American
 > > street scene now-the FBI agents, the curious mob, friends and relatives of hostages and
 > > bank robbers-all crowding together on the Flatbush sidewalk in the early summer evening,
@@ -307,9 +307,9 @@ ARTICLES
 > > gard. In exchange for his delivery, Wojtowicz release's the first hos- tage. Calvin Jones,
 > > the guard, saunters out of the bank, flashing a peace sign and wearing a weak smile. From
 > > police headquarters in a nearby barbershop, Ernest Aron calls Wojtowicz. In the bank,
-> > Shir- ley Ball overhears part of their anguished conversation.   
+> > Shir- ley Ball overhears part of their anguished conversation.
 > >     "But Ernie," pleads Wojtowicz, "I did this for you, so
-> > you could have your operation. Why are you afraid of me?"   
+> > you could have your operation. Why are you afraid of me?"
 > >     But there will be no reunion. Ernest Aron refuses, and John Wojtowicz
 > > has to settle for a meeting with another homosexual friend, Pat Coppola. Hustled across
 > > the street, an FBI man's hand firmly clasped around his belt to prevent his joining his
@@ -318,20 +318,20 @@ ARTICLES
 > >
 > >    "How about that Ernie?" a
 > > disappointed John Wojtowiez muses to bank manager Barrett. "He wouldn't even come in
-> > here."  
+> > here."
 > >     But if Ernie won't meet with him, the gathering press corps is more
 > > than anxious to hear from him. Over the phone Wojtowiez gives numerous interviews, repling
 > > reporters wit 'h his opinions on capital punishment, which he favors, on his father, whom
 > > he hates, and on religion, in which he devoutly believes. He also believes in the power of
-> > the press to extricate him from the jam he is in.   
+> > the press to extricate him from the jam he is in.
 > >     "I want people out there, I want reporters out there, they're
 > > what's keeping me alive," he tells Barrett.
 > >
 > >     "Hey," he suddenly
 > > exclaims.  "I want to talk to Jackie Jensen.  Lemme talk to Jackie
-> > Jensen!"  
+> > Jensen!"
 > >     "You want Jackie Jensen?!" Barrett answerswearily.
-> > "Jackie Jensen used to play for the Yankees, John. You want Jim Jensen of CBS."   
+> > "Jackie Jensen used to play for the Yankees, John. You want Jim Jensen of CBS."
 > >     "Yah! That's him!"
 > >
 > >     Mrs. Richard Baker eats supper alone
@@ -363,30 +363,30 @@ ARTICLES
 > > he talked. John called me 'mouth' because I was the talkative one. It was, 'Hey, mouth, do
 > > this' and 'Hey, mouth, do that.' I really liked them both.  They tried to be
 > > nice-except when they were cornered.  Such aboveboard guys, they even told us they
-> > would kill us if they had to."  
+> > would kill us if they had to."
 > >     "I'm supposed to hate you guys, but I've had more laughs tonight
-> > than I've had in weeks," bank manager Barret tells John Wojtowicz.     
+> > than I've had in weeks," bank manager Barret tells John Wojtowicz.  
 > >     Recalls Barrett: "We had a kind of camaraderie. Every time he'd
 > > stress a point he'd walk around the floor three times gesturing, speaking in a real
 > > Brooklyn accent. He'd spot a police sniper outside and say, 'What d'ya think of that
 > > sonofabitch! He really wants me, he wants me in the worst way.' And I'd laugh and say,
-> > 'Yeah, John, I guess he does.' "   
+> > 'Yeah, John, I guess he does.' "
 > >     Sometimes in the lengthening night, John Wojtowiez shares some of his
 > > puzzled thoughts with Barrett. He wonders aloud: "Now, I can shoot *you* and
 > > they won't give me the gas chamber. But if I shoot a cop, I get it. Now I wonder: if I put
 > > a gun at your head and another gun in your hand and made you shoot the cop, would you get
-> > it?"   
+> > it?"
 > >     One round of negotiations comes to a successful conclusion. The re-
 > > sult: three pizzas are delivered to the door of the bank. Another re- sult: Wojtowicz
 > > orders Shirley Ball to pay for the pizza and she obeys: more than $1,000 in singles comes
 > > fluttering onto the pavement. The FBI agents who retrieve the money off the bank steps
-> > draw a lusty cheer from the crowd.   
+> > draw a lusty cheer from the crowd.
 > >     "Enough is enough," Shirley Ball is telling the FBI at the
 > > front of the bank. While John Wojtowiez looks on, Mrs. Ball demands some ac- tion, for by
 > > 2 a.m. the moment has come when the hostages and the robbers realize they have one thing
-> > in common: they both desperately want to get out of the bank.   
+> > in common: they both desperately want to get out of the bank.
 > >     "Do you want to trade eight lives for two?" Mrs. Ball asks
-> > the FBI. "Don't stretch our luck**,** give them their demands."   
+> > the FBI. "Don't stretch our luck**,** give them their demands."
 > >     After Mrs. Ball finishes talking to the FBI, the police bring up her
 > > husband, Harry, who arrived by subway eight hours ago and has been waiting in the crowd.
 > > Mrs. Ball greets her husband, but keeps one ear glued on John Wojtowicz, who is wrapped up
@@ -397,38 +397,38 @@ ARTICLES
 > >
 > >     "Hey, you? You got something?
 > > You need a doctor?" Wojtowicz shouts to bank manager Barrett. Barrett is a diabetic
-> > and now, he realizes, his captor is consenting to his examination by a doctor.   
+> > and now, he realizes, his captor is consenting to his examination by a doctor.
 > >     "I didn't need an examination and I had scme orange juice to
 > > drink. But the doctor examines me in a car outside and says, 'Okay, now we'll drive you to
-> > the hospital for a cardiogram.' "   
+> > the hospital for a cardiogram.' "
 > >     It's a chance to leave the bank-probably for good-but Barrett isn't
 > > taking it. He waves off the doctor and returns to the bank, where he resumes a joking,
 > > reassuring banter with his tellers. "Bet you never thought you'd spend the night with
 > > your boss," he tells them.
 > >
 > >     "Do you want to go to
-> > Moscow?" Wojtowicz asks Shirley Ball.   
-> >     "No, I don't want to go to Moscow."   
-> >     "Do you want to go to Tel Aviv?"   
+> > Moscow?" Wojtowicz asks Shirley Ball.
+> >     "No, I don't want to go to Moscow."
+> >     "Do you want to go to Tel Aviv?"
 > >     "No, I don't want to go to Tel Aviv. What if an Arab catches me on
-> > my way there?"   
-> >     "Well, wherever you want to go, girls . . .   
+> > my way there?"
+> >     "Well, wherever you want to go, girls . . .
 > >     Around 3 a.m., itappears that the FBI hasfinally caved in to the rob-
 > > bers'demands. After 12 hours the hostages and their captors are going to travel to Kennedy
 > > Airport. Then they will emplane for foreign airports, freeing one hostage at each stage
 > > along the way, until only the two robbers are left to enjoy their winnings in a foreign
 > > land. As part of the deal, one hostage would be freed at the bank, two more at the
-> > airport. In a lottery among female hostages, Josephine Tuttino draws the lucky blank.  
+> > airport. In a lottery among female hostages, Josephine Tuttino draws the lucky blank.
 > >     At 3:50 a.m. John Wojtowicz boldly steps out of the bank to check the
 > > long airport limousine parked in front. He frisks the FBI driver and barges up to a
-> > cluster of plainclothesmen at a nearby corner.   
+> > cluster of plainclothesmen at a nearby corner.
 > >     "I want all of you cops across the street," he shouts, but
-> > the cops are slow to respond.   
-> >     "Don't you know what 'across the street' means?"   
+> > the cops are slow to respond.
+> >     "Don't you know what 'across the street' means?"
 > >     "That son of a bitch," a cop whispers under his breath.
-> > "Can you believe it?"   
+> > "Can you believe it?"
 > >     "All you people with guns," Wojtowicz continues. "I want
-> > them on the ground."   
+> > them on the ground."
 > >     The police obey, and Wojtowicz heads back to the bank. Out of the bank
 > > they come-Wojtowicz, alone; Barrett, holding the rnoney, half-jokingly insisting on
 > > keeping CLase Manhattan's property till the last possible moment; and Sal Naturile,
@@ -441,38 +441,38 @@ ARTICLES
 > > Murphy, and his moment has finally come. He is a tall, good-looking Ivy League type whom
 > > the hostages had seen earlier around the bank. Now they hear him talking with the robbers
 > > on the way to the airport, casualty chattering while Sal Naturile keeps a gun pointed at
-> > the driver's seat.  
+> > the driver's seat.
 > >     "You want the windows up, I'll open the windows; you want them
 > > down, I'll close them," Murphy banters. "Whatever you want, just ask for it.
 > > Hey, careful with that gun, Sal, hold it a little higher, huh? We hit a bump and you'll
-> > blow me to pieces. I don't want to die."   
+> > blow me to pieces. I don't want to die."
 > >     At a remote runway at Kennedy Airport, the limousine stops and they
 > > wait in darkness for the plane, Murphy alone in the front seat, three hostages in the seat
 > > behind him, then Naturile, fianked by two hostages, and finally Wojtowicz in the last
 > > seat, also fianked by two hostages. Another set of lotteries determines that one more
 > > hostage, Kathleen Amore, will be released right away, another, Santa Strazella, when the
-> > others board the plane.   
+> > others board the plane.
 > >     Wojtowiez and Naturile are relaxed a little now, relaxed by Murphy's
 > > amiable chatter, relaxed by the imminence of their escape, relaxed enough to suggest that
 > > the whole entourage leave the runway and move over to the main terminal for hamburgers.
 > > The idea of an armed march through the heart of the airport appalls the FBI-but it leads
-> > to the opening they have been waiting for so long.   
+> > to the opening they have been waiting for so long.
 > >     Murphy gets out of the car, ostensibly to talk about hamburgers with
 > > the other lawmen. Then he returns and they follow him back. Richard Baker moves to one
 > > side of the car. Another agent, Fred Fehl, moves to the other side, and Chief of New York
 > > Detectives Louis Cottell positions himself at the rear of the limousine. Nervous at the
 > > sight of so many enemies so near, Sal Naturile asks Shirley Ball, to sit nearer him. And
-> > now, just now, they see their plane, a Hansa jet, taxiing toward them.   
+> > now, just now, they see their plane, a Hansa jet, taxiing toward them.
 > >     What happened then was either more or less than the robbers deserved.
 > > They were authentic "crazy mixed-up kids," this odd couple, and they should have
 > > been playing with toy guns and paper money, with neighborhood playmates as hostages and
 > > Keystone Kops to oppose them, and all of it climaxing in a funny ending, not a sudden
 > > death. But they have used real guns to rob a real bank and to threaten people's lives. Now
-> > the playing is over. Amiable, chattering Murphy proceeds to execute Baker's fatal plan.   
+> > the playing is over. Amiable, chattering Murphy proceeds to execute Baker's fatal plan.
 > >     "Is there going to be food on the plane?" he asks Baker, who
 > > is standing just outside the car window. They have already agreed on the code. Murphy
-> > means: Sal's gun is up high, I can take him now.   
-> >     "Yes," replies Baker, meaning: and I can take John.   
+> > means: Sal's gun is up high, I can take him now.
+> >     "Yes," replies Baker, meaning: and I can take John.
 > >     They move together, Murphy turning in the driver's seat, smoothly
 > > lifting the .38, which has been concealed under the floor mat, aim- ing over the first row
 > > of hostages and firing one true shot into Na- turile's chest; Baker, reaching into the
@@ -484,12 +484,12 @@ ARTICLES
 > > - he was in jail, facing charges for armed bank robbery and kidnapping. But she wondered
 > > about his young, quiet partner.
 > >
-> >   "Is Sal dead?" she asks.   
-> >     "Dead on arrival."  
-> >    "Well," she says, "better him than me."   
-> >     "You're right."   
-> >     "Did you shoot him?"  
-> >     "Yes."   
+> >   "Is Sal dead?" she asks.
+> >     "Dead on arrival."
+> >    "Well," she says, "better him than me."
+> >     "You're right."
+> >     "Did you shoot him?"
+> >     "Yes."
 > >     She kissed Murphy on the cheek. She remembers he seemed embarrassed by
 > > the kiss.
 
@@ -528,10 +528,10 @@ THE FILM
 
 > DOMINIC CHIANESE (Sonny's father)
 >
-> > *SALON.COM: Did you have a friendship with Pacino?*  
-> > *DC:* Yes.  
+> > *SALON.COM: Did you have a friendship with Pacino?*
+> > *DC:* Yes.
 > > *SALON.COM: Was he partly responsible for you appearing in "Dog Day
-> > Afternoon"?  
+> > Afternoon"?
 > > DC:* Oh, he introduced me to Sidney Lumet [who directed the film].And I did three
 > > movies with Sidney. He is a great director. He used me as a mobster and as a judge. And,
 > > let's see, he used me as a regular, normal man, this sensible guy who was Al Pacino's
@@ -547,9 +547,9 @@ THE FILM
 > O'Donnell Show, April 2002)
 >
 > > *RS:* Al Pacino who is the reason I got interested
-> > [in acting] in the first place.  
+> > [in acting] in the first place.
 > > *ROSIE: No kidding. What was the role you saw him in that made you want to be an actor?
-> > Do you remember what it was?  
+> > Do you remember what it was?
 > > RS:*Oh, just pick it, but probably *[Dog Day Afternoon](http://velvet_peach.tripod.com/fpacdogdayafternoon.html)*.
 
 TRIVIA*[![](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)*
@@ -566,7 +566,7 @@ TRIVIA*[![](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)](http://velvet_pea
 > a sex-change operation in Denmark for his lover.  Police appeared at first to give in
 > to the gunmen's demands: the hostages and their captors were taken by limousine to Kennedy
 > International Airport, where a plane stood by.  But at Kennedy, one gunman was shot
-> to death; the other, John Wojtowicz, was captured.  
+> to death; the other, John Wojtowicz, was captured.
 >     And in a bit of "Where Are They Now?" Time reported in its
 > 10-12-87 issue: Elizabeth Debbie Eden, 41, formerly Ernest Aron, the transsexual whose
 > wish for a sex-change operation resulted in the 1972 Brooklyn bank robbery that inspired
@@ -586,10 +586,10 @@ TRIVIA*[![](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)](http://velvet_pea
 >
 > **(won)** Best Original Screenplay (Frank Pierson)
 >
-> **(nominated)**Best Picture  
-> Best Actor (Al Pacino)  
-> Best Supporting Actor (Chris Sarandon)  
-> Best Director (Sidney Lumet)  
+> **(nominated)**Best Picture
+> Best Actor (Al Pacino)
+> Best Supporting Actor (Chris Sarandon)
+> Best Director (Sidney Lumet)
 > Best Film Editing
 >
 > ![](http://velvet_peach.tripod.com/animball.gif) Several of the co-stars were also featured in other films.
@@ -597,24 +597,24 @@ TRIVIA*[![](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)](http://velvet_pea
 > **Dominic Chianese** *([The Godfather Part II](http://velvet_peach.tripod.com/fpacgodfather2.html)*
 > ("Johnny Ola"), *[...And Justice For Al](http://velvet_peach.tripod.com/fpacandjusticeforall.html)*
 > (at the beginning of the film - the guy who's in the stretcher who's car gets banged up), *[Richard III](http://velvet_peach.tripod.com/fzpacrichard3.html)* (on stage), *Oedipus*
-> (on stage)  
+> (on stage)
 > **John Cazale** *[The Godfather](http://velvet_peach.tripod.com/fpacgodfather1.html)* (his
 > brother Fredo), [*The
 > Godfather Part II*](http://velvet_peach.tripod.com/fpacgodfather2.html)**Charles Durning** *[Dick Tracy](http://velvet_peach.tripod.com/fpacdicktracy.html)* (police
-> officer)  
+> officer)
 > **Penny Allen***[Scarecrow](http://velvet_peach.tripod.com/fpacscarecrow.html)*
 > ("Annie" his ex-wife), *[Looking
 > for Richard](http://velvet_peach.tripod.com/fpaclfr.html)* ("Queen Elizabeth"), She is also the wife of longtime
-> friend and mentor Charles Laughton  
+> friend and mentor Charles Laughton
 > **Sulley Boyar***[Serpico](http://velvet_peach.tripod.com/fpacserpico.html)* (the guy from the
 > police academy presenting [Serpico](http://velvet_peach.tripod.com/fpacserpico.html)
-> with a medal of honor)  
+> with a medal of honor)
 > **Martin Bregman** *[Serpico](http://velvet_peach.tripod.com/fpacserpico.html)*, *[Scarface](http://velvet_peach.tripod.com/fpacscarface.html)*, *[Sea of Love](http://velvet_peach.tripod.com/fpacseaoflove.html)*, *[Carlito's Way](http://velvet_peach.tripod.com/fpaccarlitosway.html)*
 > (producer) **Sidney Lumet***[Serpico](http://velvet_peach.tripod.com/fpacserpico.html)* (director)
 >
 > ![](http://velvet_peach.tripod.com/animball.gif) The real
-> robbers stole $213,000, held the hostages for 14 hours.  
->   
+> robbers stole $213,000, held the hostages for 14 hours.
+>
 > ![](http://velvet_peach.tripod.com/animball.gif) The real Sonny (John Wojtowicz) was paid
 > $7,500 + one percent of the net movie profits for the movie rights for his story. He gave
 > $2,500 to Ernie, his male lover, to have the sex change operation that was his reason for
@@ -626,15 +626,15 @@ TRIVIA*[![](http://velvet_peach.tripod.com/pics/pac_dda3.jpg)](http://velvet_pea
 DVD INFO
 
 > ![](http://velvet_peach.tripod.com/animball.gif) Region 1
-> encoding (US and Canada only)  
+> encoding (US and Canada only)
 > ![](http://velvet_peach.tripod.com/animball.gif) Color,
-> Closed-captioned  
+> Closed-captioned
 > ![](http://velvet_peach.tripod.com/animball.gif) Production
-> notes  
+> notes
 > ![](http://velvet_peach.tripod.com/animball.gif) Full-screen
-> and widescreen letterbox formats  
+> and widescreen letterbox formats
 > ![](http://velvet_peach.tripod.com/animball.gif) Scene
-> Access  
+> Access
 > ![](http://velvet_peach.tripod.com/animball.gif) Subtitles:
 > English, French & Spanish
 

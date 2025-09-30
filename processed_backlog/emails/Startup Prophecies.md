@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/startup-prophecies
 
-Welcome to the 746 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 184,867 smart, curious folks by subscribing here: 
+Welcome to the 746 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 184,867 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Wander [ https://substack.com/redirect/62f0053a-3fa1-488d-ba3f-12f134e69d33?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Last week, I wrote about Wander [ https://substack.com/redirect/2754c8d4-2a80-4983-b6bc-c7d512b2c4c0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. It’s already one of our most popular deep dives ever. Here’s a quick refresher:
 Wander [ https://substack.com/redirect/5ddd0d69-6025-45e8-8eb8-64e3fd89359d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a network of smart vacation homes that come with inspiring views, modern workstations, restful beds, hotel-grade cleaning and 24/7 concierge service –– combining the quality of a luxury hotel with the space and comfort of a vacation home, only better. Don’t take my word for it. Use promo code notboring for $250 off your next trip. (Expires Thursday at 11:59pm ET). Explore now. [ https://substack.com/redirect/5ddd0d69-6025-45e8-8eb8-64e3fd89359d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
@@ -107,9 +107,9 @@ If this idea takes off, I want Not Boring Capital’s Portfolio page to be an On
 For now, I’ll start by minting this post on Mirror. If this version of events comes to be, if a rich ecosystem of Startup Prophecies develops, maybe this post will be worth something one day. Who knows. The point here isn’t to make money now – I’ll donate the proceeds to charity – but to watch what happens when more people are aligned behind missions they believe in and the people bringing those missions to life. 
 Let’s see what happens. 
 P.S. Startup Prophecies is just one riff on Prophecy Markets. There are many riffs left to explore. 👀 
-Thanks to Dan, Jacob, and Puja for your feedback! 
-That’s all for today! We’ll be in your podcast feeds this week and in your inbox with a Weekly Dose on Friday. 
-Thanks for reading, 
+Thanks to Dan, Jacob, and Puja for your feedback!
+That’s all for today! We’ll be in your podcast feeds this week and in your inbox with a Weekly Dose on Friday.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEF4TWpreE56ZzBMQ0pwWVhRaU9qRTJOelUzTnpjMk9EQXNJbVY0Y0NJNk1UWTNPRE0yT1RZNE1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Lk1ZeURfTS1IdzJldGZELTJNd28zdWhoSWo2d0M5cTd0RXZoalNXcFpZOFkiLCJwIjoxMDEyOTE3ODQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1Nzc3NjgwLCJleHAiOjE2NzgzNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.y1EDaNsJ1N4xv8PokoSAzfXyX_oNID82oCV2ImqAIAc?

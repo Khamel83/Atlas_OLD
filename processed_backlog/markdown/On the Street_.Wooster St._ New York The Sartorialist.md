@@ -12,11 +12,11 @@
 
 # Nothing found for Photos On The Street Wooster St New York 4
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Nothing found for Photos On The Street Wooster St New York 4]()
 
-404  
-  
-The page could not be found. 
+404
+
+The page could not be found.
 

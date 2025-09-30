@@ -7,11 +7,11 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...](https://stratechery.memberful.com/images/logo-circle-8459cf49.svg)
 
-Almost done!  
-  
-Please complete the security check below to continue. 
+Almost done!
+
+Please complete the security check below to continue.
 

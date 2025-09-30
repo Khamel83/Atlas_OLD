@@ -173,7 +173,7 @@ Now one of her top concerns is the water supply. In recent years, the water leve
 
 Left: Ernesto Ponce in Yoricostio. Right: An assault rifle in Ernestoâs toolshed
 
-I wanted to see what life was like in the thick of the avocado corridor, a stretch of fertile soil and clement weather that yields an astonishing year-round harvest. At one end is the town of TancÃ­taro, where one of the avocado-themed statues depicts the earth as a pit. At the other end is Uruapan, home to a professional soccer team called the Aguacateros. Uruapan hosts an annual avocado festival; while I was there, TancÃ­taro held  
+I wanted to see what life was like in the thick of the avocado corridor, a stretch of fertile soil and clement weather that yields an astonishing year-round harvest. At one end is the town of TancÃ­taro, where one of the avocado-themed statues depicts the earth as a pit. At the other end is Uruapan, home to a professional soccer team called the Aguacateros. Uruapan hosts an annual avocado festival; while I was there, TancÃ­taro held
 a world record for plating an 8,351.1-pound serving of guacamole. (This would be surpassed by a 10,961-pound serving in a nearby community a few months later.) Each town claims to be the avocado capital of the world.
 
 They are, in less vaunted terms, the urban centers where avocados are packed and processed; the fruit is grown in the surrounding countryside. I made plans to head to the outskirts of Yoricostio, to a farming hamlet full of avocado orchards that are neither dangerous nor difficult to access. I pulled into a parking lot in front of a church where two farmers were leaning against a pickup truck.

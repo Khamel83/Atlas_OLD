@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -716,7 +716,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >The Beginning of the End of the Screen Time Wars</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >The American Academy of Pediatrics updates its guidelines for young kids—finally.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -905,21 +905,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="51"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-1@published"
-  
+
 >On Friday morning, the American Academy of Pediatrics shifted its stance on what is commonly known as “screen time,” abandoning its controversial recommendation to <a href="https://www.slate.com/articles/technology/technology/2011/10/how_much_tv_should_kids_watch_why_doctors_prohibitions_on_screen.html">keep children under age 2 away from screen media</a>. Instead, it now provides mostly evidence-based guidance on how to use technology responsibly with kids of all ages.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="27"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-2@published"
-  
+
 >For researchers who have lobbied the AAP for years to <a href="https://www.slate.com/articles/technology/future_tense/2014/11/zero_to_three_issues_common_sense_advice_on_toddler_screen_time.html">change its rules in response to new studies on children and media</a>, there is one word: Finally.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="163"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-3@published"
-  
+
 >The <a href="http://dx.doi.org/10.1542/peds.2016-2591">policy statements</a> <a href="http://dx.doi.org/10.1542/peds.2016-2592">released Friday</a> represent a pivotal moment for anyone who is raising or working with kids. For years, the AAP has been publishing statements on kids and screens in the journal <em>Pediatrics </em>after long periods of vetting and review. Many child-health advocates regard each new installment<em> </em>as the gospel of guidance on using media with children. And for years, those statements have emphasized the negative aspects of screen media and counseled against “exposing” children to it, often relying on older studies on how much time kids spend watching TV. Yet over the past decade, an increasing number of researchers, many educators, and not surprisingly, children’s media developers have pointed to <a href="http://www.tapclickread.org/wp-content/uploads/2015/08/Research-Bibliography-for-TapClickRead-2015.pdf">a growing pile of studies</a> that show how children, even at very young ages, can benefit from using media when it catalyzes conversation and is <a href="https://www.slate.com/articles/technology/future_tense/2013/09/baby_app_ftc_complaints_are_missing_the_big_picture.html">designed for learning</a>. Even pediatricians started calling on the AAP to overturn what felt like arbitrary and unrealistic limits that did not reflect the current science.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -930,14 +930,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-4@published"
-  
+
 >The new policy statement on children ages zero to 5 takes into account much of that new research. Instead of recommending outright bans on screens, it directs doctors to ask parents about “family media use,” to help families develop plans for using media with different guidelines for each child, and to educate parents on the importance of “hands-on, unstructured, and social play.” It allows for video chatting no matter what a child’s age, citing <a href="http://onlinelibrary.wiley.com/doi/10.1111/cdev.12166/abstract">new</a> <a href="http://www.sciencedirect.com/science/article/pii/S2212868916300277">studies</a> on how the use of FaceTime and Skype with distant relatives can benefit children.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="75"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-5@published"
-  
+
 >It advises parents of children 18 to 24 months old “who want to introduce digital media” that they should choose high-quality programming and apps to watch and play with alongside their young children. For infants, toddlers, and preschoolers, it recommends “no screens during meals and for 1 hour before bedtime,” providing specific guidance related to daily routines that are likely to be easier for parents to enact than trying to keep children from screens entirely.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1016,21 +1016,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-6@published"
-  
+
 >It also emphasizes critical thinking about content and <a href="http://www.joanganzcooneycenter.org/initiative/the-new-coviewing-initiative-investigating-and-designing-for-joint-media-engagement/">the importance of shared media moments</a>, encouraging families to “test apps before the child uses them, play together, and ask the child what he or she thinks about the app.” I’ve long been chanting the <a href="http://www.tapclickread.org/wp-content/uploads/2016/05/2016.06.26_NA_TCR_3Cs.pdf">Three C’s</a> when choosing children’s media—pay attention to the content, context, and child—so it is heartening to see this acknowledgment that digital-age media management is about more than time with devices.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="60"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-7@published"
-  
+
 >“We wanted to tell parents not only what <em>not </em>to do, but also <em>what</em> to do,” said Jenny Radesky, a lead author of the AAP’s new guidance, who is a pediatrician and assistant professor at the C.S. Mott Children’s Hospital at the University of Michigan. “It is too simplistic to just put rules around ages and hours of the day.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="108"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-8@published"
-  
+
 >The AAP does revert to that simplistic construction, however, when it guides families with children 2 to 5 years to “limit screen use to 1 hour per day of high-quality programming” each day. Chip Donohue, the director of the Technology in Early Childhood Center at Erikson Institute, a Chicago-based graduate school for early educators, predicts this will sow confusion. A <a href="https://www.ncbi.nlm.nih.gov/pubmed/26616748">recent study</a> showed that two hours per day is about average for American preschoolers—though in that study, as in so many others, there is no analysis of the different types of content those children might be watching, let alone whether they are watching with family members or peers. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1073,7 +1073,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="104"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-9@published"
-  
+
 >“This will trip us up,” Donohue said. It is not hard to imagine scenarios, for example, in which a 4-year-old might use a screen during preschool to watch a clip from <em>Sid the Science Kid</em> as part of a science lesson and later view video from a field trip. Then in the afternoon, after playing outside, he may come indoors with his friends to play a shared doodling app, and after dinner watch a favorite educational show with dad and a sibling. Those interactions would likely go over the one-hour-per-day limit. And yet is there any evidence that they are actually harming the kid?</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1098,28 +1098,28 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="35"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-10@published"
-  
+
 >In an email, Radesky explained that the driving force for that particular recommendation was <a href="https://www.ncbi.nlm.nih.gov/pubmed/22158265">research on obesity from sedentary media</a> use coupled with parents’ desires for information on how to use time wisely. She added:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="51"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-11@published"
-  
+
 ><blockquote>“That one-hour limit recommendation (which, like any recommendation, parents can choose to follow or not based on what works for their family) does not include constructive/connective types of media use such as video-chatting, taking photos or making videos, looking at maps or looking up information online together, etc.—it’s entertainment media use.”</blockquote></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="11"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-12@published"
-  
+
 >The AAP will clearly have to clarify that in future communications.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-13@published"
-  
+
 >Overall, however, Donohue said he feels “generally positive” about the AAP’s new approach. “They highlight the point of joint media engagement,” the term used to describe parents and children (or siblings or educators) viewing and engaging with media together. “And they are encouraging parents as role models for their kids around media,” Donohue said. “That is exciting.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1180,7 +1180,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="181"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-14@published"
-  
+
 >The AAP’s power to shape the conversation on kids and new media dates back to the late 1990s and early 2000s, when DVD products such as <em>Baby Einstein</em> were a staple of baby showers. In 1999, the organization published a <a href="http://pediatrics.aappublications.org/content/104/2/341">statement</a> saying that children under the age of 2 should not be put in front of TV or videos. In a <a href="http://pediatrics.aappublications.org/content/107/2/423.full">2001 statement</a> about older children, it set time limits of one to two hours, focused on the impact of violent media, and made little to no reference of what children might learn from shows like <em>Sesame Street</em>. That, plus a flood of new preschool TV shows and the parental control offered by on-demand television, brought a decade of unrest among parents and educators. (It was during this time that my children were very young and after digging into the research that countered some of the AAP’s guidance, I decided to write a book on the topic, <em><a href="http://www.amazon.com/dp/0465029809/?tag=slatmaga-20">Screen Time</a>.</em>) In 2011, the academy <a href="http://pediatrics.aappublications.org/content/128/5/1040.full">released an update</a> that reinforced “no screens under 2” and continued to emphasize the harms of screen media.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1223,7 +1223,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="189"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-15@published"
-  
+
 >By 2013, however, there were signs that a shift might be coming. A <a href="http://pediatrics.aappublications.org/content/early/2013/10/24/peds.2013-2656.full.pdf+html">statement released that year</a> opened the door to recognizing that not all families and children were the same, and encouraged families to create a “family media plan.” In 2014, Dimitri Christakis, a pediatrician at Seattle Children’s Hospital nationally known for his research on infants and television, <a href="http://jamanetwork.com/journals/jamapediatrics/fullarticle/1840251">called for the AAP to revise its guidelines</a> and look at new studies on interactive media and touch screens. A few months later, a group of pediatricians led by Radesky, who then worked at Boston Medical Center, published a similar <a href="http://pediatrics.aappublications.org/content/135/1/1">article about why interactive media required different guidelines</a>. And for several years, pediatrician Michael Rich of the Boston Children’s Hospital, has been <a href="http://cmch.tv/press/">speaking out</a> in the national media about <a href="http://www.theverge.com/2016/8/30/12715848/new-york-post-internet-texting-addiction-irresponsible-hysteria">misinformation that is leading to hysteria over screen media</a>, unnecessarily scaring parents.  Last fall, the academy held a symposium in Chicago with researchers and published <a href="http://www.aappublications.org/content/36/10/54">“Beyond ’Turn it Off’,”</a><em> </em>an <em>AAP News </em>article that signaled the AAP’s willingness to make revisions and agreed that simplistic notions of “screen time” were no longer helpful. “Screen time,” it said, “is becoming simply <em>time</em>.”</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1266,14 +1266,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="84"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-16@published"
-  
+
 >The AAP is not the only institution making room for thinking differently about screen media with kids. Its new policy statements (there are three: one on children ages 0–5, one for 5- to 18-year- olds, and one that details the research across both) coincide with a <a href="http://tech.ed.gov/earlylearning/ ">report unveiled Friday</a> by the U.S. Department of Education and the U.S. Department of Health and Human Services that focuses on technology’s use in early learning. (All will be discussed live Friday on <a href="http://www.facebook.com/AmerAcadPeds">Facebook</a> at 1:30 p.m. Eastern.)</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="41"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-17@published"
-  
+
 >The AAP has also created an <a href="https://www.healthychildren.org/English/media/Pages/default.aspx">online tool for parents</a>—an interactive guide to building a family media plan—to help families pick and choose different approaches to media management and customizes their household’s rules according to the needs of their individual children.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1298,14 +1298,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="128"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-18@published"
-  
+
 >These attempts to help families think more strategically about what they want for their children are long overdue. Going beyond time limits is not an invitation for a complete free-for-all, nor an abdication of responsibility on the part of parents and others who raise children. Nothing in the AAP’s guidance or the federal government’s report says, “Just hand your kid an iPad.” Instead, they ask parents and educators to step into their role as mentors and guides. “We don’t want to feed into the cult of intensive parenting,” said Radesky, who has two kids herself, ages 3 and 7. “But we do want them to be aware and involved.” In short: Don’t start watching the clock as soon as your kid starts playing games. Instead, watch—and interact with—her.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="43"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-19@published"
-  
+
 ><em>This article is part of </em><a href="https://www.slate.com/futuretense"><em>Future Tense</em></a><em>, a collaboration among </em><a href="http://www.asu.edu/?feature=research"><em>Arizona State University</em></a><em>, </em><a href="http://www.newamerica.org/"><em>New America</em></a><em>, and </em><strong><em>Slate</em></strong><em>. Future Tense explores the ways emerging technologies affect society, policy, and culture. To read more, </em><a href="http://www.twitter.com/futuretensenow"><em>follow us on Twitter</em></a><em> and sign </em><a href="http://link.slate.com/join/3qk/newslettersignup"><em>up for our weekly newsletter</em></a><em>.</em></p>
 
 <div
@@ -1377,7 +1377,7 @@ width="1180"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1412,7 +1412,7 @@ width="1180"
   class="slate-adnode"
   data-adnode="technology/future_tense"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-a84be9e0506d65eacab0c0d32844e4bf-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1463,7 +1463,7 @@ width="1180"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1488,7 +1488,7 @@ width="1180"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1998,7 +1998,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

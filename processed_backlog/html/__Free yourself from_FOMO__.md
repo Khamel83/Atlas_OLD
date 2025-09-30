@@ -23,10 +23,10 @@ Thousands of lawyers, bankers, financial advisors, and investors get all-access 
 
 ###### \*Offer available to new individual subscribers only.
 
-© 2024 Petition LLC   
-Petition LLC, 412 N. Main Street, STE 100  
-Buffalo, Wyoming 82834, Email: petition@petition11.com  
-Twitter: @petition   
+© 2024 Petition LLC
+Petition LLC, 412 N. Main Street, STE 100
+Buffalo, Wyoming 82834, Email: petition@petition11.com
+Twitter: @petition
 [Unsubscribe](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9wZXRpdGlvbi5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNVEEzTWl3aWNHOXpkRjlwWkNJNk1UUTJNalkyTnpjeExDSnBZWFFpT2pFM01qQXdOakExTlRBc0ltVjRjQ0k2TVRjMU1UVTVOalUxTUN3aWFYTnpJam9pY0hWaUxUUWlMQ0p6ZFdJaU9pSmthWE5oWW14bFgyVnRZV2xzSW4wLlhWS2V3cDFpTTVFUnJOZGJ2bnF4WGJsX21Hdks5UXc5cXppQkZNX1p5YW8iLCJwIjoxNDYyNjY3NzEsInMiOjQsImYiOmZhbHNlLCJ1IjoxNjI4MTA3MiwiaWF0IjoxNzIwMDYwNTUwLCJleHAiOjE3MjI2NTI1NTAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.ain5Dt_fefmIUme5xQ49HYYH5zccN8bxBF3mG3wm6bY?)
 
 [![](https://substackcdn.com/image/fetch/w_393%2Cc_limit%2Cf_auto%2Cq_auto:good%2Cfl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png)](https://substack.com/redirect/d896be3d-d72b-450b-a690-205aff76358e?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)[![](https://substackcdn.com/image/fetch/w_405%2Cc_limit%2Cf_auto%2Cq_auto:good%2Cfl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png)](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1wZXRpdGlvbkBraGFtZWwuY29tJnI9OW95azAiLCJwIjoxNDYyNjY3NzEsInMiOjQsImYiOmZhbHNlLCJ1IjoxNjI4MTA3MiwiaWF0IjoxNzIwMDYwNTUwLCJleHAiOjE3MjI2NTI1NTAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.gOe7McJAZ2RCIPU_RNApDaOfwqVGcguysh-QlJFi81E?)

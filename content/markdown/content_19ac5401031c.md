@@ -45,7 +45,7 @@
 </head>
 
 <body  class="with-cu-identity">
-  
+
   <div class="flex-wrap-footer">
     <header>
       <a href="#content" class="is-sr-only">Skip to main content</a>
@@ -408,7 +408,7 @@ View a PDF of the paper titled Rethinking the Inception Architecture for Compute
 <div class="columns is-mobile lab-row">
           <div class="column lab-switch">
             <label class="switch">
-              <input        
+              <input
                 id="catalyzex-toggle"
                 data-script-url="/static/browse/0.3.4/js/catalyzex.js"
                 type="checkbox" class="lab-toggle" aria-labelledby="label-for-cx">
@@ -436,7 +436,7 @@ View a PDF of the paper titled Rethinking the Inception Architecture for Compute
             <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
           </div>
         </div>
-  
+
         <div class="columns is-mobile lab-row">
           <div class="column lab-switch">
             <label class="switch">

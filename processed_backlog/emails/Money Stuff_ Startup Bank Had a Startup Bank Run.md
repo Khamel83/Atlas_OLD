@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff was supposed to be off today, but: bank run!The lesson might be that there are some industries that are bad to
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff was supposed to be off today, but: bank run!
 
-  
-    
+
+
       SVB
-    
-  
+
+
 
 The lesson might be that there are some industries that are bad to bank. Imagine that it was 2021, and someone was like “do you want to start the Bank of Crypto? What about the Bank of Venture-Backed Tech Startups?” You’d be tempted, right? Those industries had so much money! They seemed cool. If you were their bank — if you were the specialized bank that exclusively focused on those industries — influencers on Twitter would tweet nice things about you, and you’d get invited to fancy parties. Also, as their bank, you’d probably find a way to get a cut of growing industries with lots of potential. Provide banking services to tech startups, get warrants in those startups, get rich when they go public. Provide banking services to crypto exchanges, start some sort of blockchain-based payment network, get rich through the magic of saying “blockchain” a lot. 
 But the structure of being the Bank of Crypto or Startups was a bit rickety. Traditionally, the way a bank works is that it takes deposits from people who have money, and makes loans to people who need money. The weird problem with focusing exclusively on crypto or startups in 2021 is that they had too much money. If you were the Bank of Startups, the main service that you provided to startups is that equity investors  would give them a truck full of cash and they’d deposit it at your bank. Here is how SVB Financial Group, the holding company of Silicon Valley Bank, describes the vibe of 2021 and 2022 in its  Form 10-K two weeks ago:
@@ -138,95 +138,95 @@ Above that, though, I have no idea. The stock closed at $106.04 per share yeste
 The simple way to look at SVB from an investing perspective is to separate the ongoing business from the balance sheet for a moment, and ask: what premium does SVB's business deserve to book value, in a hypothetical world where they didn't make a massive rates bet? Over the last twenty years, they've traded at an average of 2.3x tangible book value, and generally at a premium to their banking peers. So a simple way to value the business is to say that the fair value of the business is generally ~100 cents on the dollar in liquidating value and another ~130 cents on the dollar in franchise value. If that liquidating value has been vaporized by a rates bet, the surviving business is still worth a premium to book.
 But that was yesterday, and the franchise value melts pretty quickly when you go into FDIC receivership. The bear case is … well, back in November, when crypto exchange FTX was still looking for a rescue (it never found one), I wrote that the traditional price for that sort of rescue is “we will buy your exchange, make sure that all your customers are made whole, and give you a Snickers bar in exchange for 100% of the equity.” That may be where this is heading.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       More From Bloomberg Opinion
-    
-  
 
-	Silicon Valley Bank’s Swoon Should   Scare Us All.	Why Is the US Regulating JPMorgan But   Not SVB?	SVB and Silvergate Tumult Has Echoes in   Texas Bank Crisis.	
+
+
+	Silicon Valley Bank’s Swoon Should   Scare Us All.	Why Is the US Regulating JPMorgan But   Not SVB?	SVB and Silvergate Tumult Has Echoes in   Texas Bank Crisis.
  Crypto Carcass Will Attract Hedge Fund Vultures.	Banks Throw Markets a   Curveball.
 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Similarly in crypto, on 2021, crypto exchanges had tons of cash that they needed to park at a bank, but were not really in the business of taking loans from banks. There was a lot of lending in the crypto world, but it was all loans secured by Bitcoins and stuff and that is mostly too spicy for a bank; it was mostly done by crypto shadow banks (including exchanges themselves). Though Silvergate did some of it.
 
 
@@ -254,114 +254,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] When IndyMac Bancorp failed in 2008, uninsured depositors got back 50 cents on the dollar, though they were  relatively small. Since then, it  seems to be an FDIC  goal to get the uninsured depositors paid.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

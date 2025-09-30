@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Why the Art World Is So Loathsome</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Eight theories.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -902,21 +902,21 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="47"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-1@published"
-  
+
 ><em>Now that photographs of this year’s Art Basel Miami are finally working their way out of everyone’s Instagram feeds, it’s worth revisiting Simon Doonan’s takedown of the modern art world. First published in 2012, it explains why Doonan skipped Miami that year—and what’s wrong with art today.</em></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="39"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-2@published"
-  
+
 >Freud said the goals of the artist are fame, money, and beautiful lovers. Based on my artist acquaintances, I would say this holds true today. What <em>have</em> changed, however, are the goals of the art itself. Do any exist?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="50"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-3@published"
-  
+
 >How did the art world become such a vapid hell-hole of investment-crazed pretentiousness? How did it become, as Camille Paglia <a href="http://online.wsj.com/article/SB10000872396390444223104578034480670026450.html">has recently described it</a>, a place where “too many artists have lost touch with the general audience and have retreated to an airless echo chamber”? (More from her in a moment.)</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -927,42 +927,42 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="17"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-4@published"
-  
+
 >There are sundry problems bedeviling the contemporary art scene. Here are eight that spring readily to mind:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="4"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-5@published"
-  
+
 ><strong>1. </strong><strong>Art Basel Miami.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-6@published"
-  
+
 >It’s baaa-ack, and I, for one, will not be attending. The overblown art fair in Miami—an offshoot of the original, held in Basel, Switzerland—has become a promo-party cheese-fest. All that craven socializing and trendy posing epitomize the worst aspects of today’s scene, provoking in me a strong desire to start a Thomas Kinkade collection. Whenever some hapless individual innocently asks me if I will be attending Art Basel—even though the shenanigans don’t start for another two weeks, I am already getting e-vites for pre-Basel parties—I invariably respond in Tourette’s mode:</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="71"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-7@published"
-  
+
 >“No. In fact, I would rather jump in a river of boiling snot, which is ironic since that could very well be the title of a faux-conceptual installation one might expect to see at Art Basel. Have you seen Svetlana’s new piece? It’s a river of boiling snot. No, I’m not kidding. And, guess what, Charles Saatchi wants to buy it and is duking it out with some Russian One Percent-er.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="6"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-8@published"
-  
+
 ><strong>2. </strong><strong>Blood, poo, sacrilege, and porn.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="172"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-9@published"
-  
+
 >Old-school ’70s punk shock tactics are so widespread in today’s art world that they have lost any resonance. As a result, twee paintings like <a href="http://www.britsattheirbest.com/cr_gainsborough_blue_boy.jpg">Gainsborough’s <em>Blue Boy</em></a> and <a href="http://www.youreinsanehoney.com/modernart/romanticism/constable-thehaywain.jpg">Constable’s <em>Hay Wain</em></a> now appear mesmerizing, mysterious, and wildly transgressive. And, as Camille Paglia brilliantly argues in her must-read new book, <a href="http://www.amazon.com/gp/product/0375424601/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0375424601&linkCode=as2&tag=slatmaga-20"><em>Glittering Images</em></a>, this torrent of penises, elephant dung, and smut has not served the broader interests of art. By providing fuel for the Rush Limbaugh-ish prejudice that the art world is full of people who are shoving yams up their bums and doing horrid things to the Virgin Mary, art has, quoting Camille again, “allowed itself to be defined in the public eye as an arrogant, insular fraternity with frivolous tastes and debased standards.” As a result, the funding of school and civic arts programs has screeched to a halt and “American schoolchildren are paying the price for the art world’s delusional sense of entitlement.” Thanks a bunch, <a href="http://en.wikipedia.org/wiki/Karen_Finley">Karen Finley</a>, <a href="http://en.wikipedia.org/wiki/Chris_Ofili">Chris Ofili</a>, <a href="http://en.wikipedia.org/wiki/Andres_Serrano">Andres Serrano</a>, <a href="http://en.wikipedia.org/wiki/Damien_Hirst">Damien Hirst</a>, and the rest of you naughty pranksters!</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1041,35 +1041,35 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-10@published"
-  
+
 >Any taxpayers not yet fully aware of the level of frivolity and debasement to which art has plummeted need look no further than the Museum of Modern Art, which recently hosted a jumbo garage-sale-cum-performance piece created by one Martha Rosler titled “<a href="http://www.moma.org/visit/calendar/exhibitions/1279">Meta-Monumental Garage Sale</a>.” Maybe this has some reverse-chic novelty for chi-chi arty insiders, but for the rest of us out here in the real world, a garage sale is just a garage sale.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="5"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-11@published"
-  
+
 ><strong>3. </strong><strong>Art a la mode.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="214"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-12@published"
-  
+
 >The growing mania for melanging fashion with art is great for the former, but it has been a gravitas-eroding catastrophe for the latter. The world of style is ephemeral and superficial by nature. Art, real art, fabulous art, high art, must soar and endure and remain unencumbered by the need to sell handbags and blouses. Example: Selfridges recently strapped a massive effigy of <a href="http://en.wikipedia.org/wiki/Yayoi_Kusama">dot-queen Yayoi Kusama</a> to the front of the store in celebration of her new collaboration with Louis Vuitton. Similar installations took place at Vuitton stores worldwide. There was no downside for the historic department store or for Maison Vuitton. From a fashion point of view the entire project was memorable and rather marvelous. But what about Art? Did the excitable hordes of tourists who were sticker-shocking their way through the spotty merchandise have any notion that they were scrutinizing the oeuvre of a so-called great artist? Did they, as a result, schlep to the Whitney to see the Kusama exhibit? And what of Ms. Kusama herself? How is the poor luv fairing after being dragged up Rodeo Drive and down 57<sup>th</sup> Street? Just as well she is already in a nut house. (She voluntarily committed herself to a psychiatric hospital in 1977 and has lived and made art there ever since.)</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="4"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-13@published"
-  
+
 ><strong>4. The post-skill movement.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="62"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-14@published"
-  
+
 >“No major figure of profound influence has emerged in painting or sculpture since the waning of Pop Art and the birth of Minimalism in the early 1970s,” writes Camille P. But what about those annoying YBAs, the young British artists, the folks that noted U.K.-based art critic Brian Sewell has wickedly and accurately dubbed “The Post-Skill Movement”? Are they profound or influential?</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1130,7 +1130,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="157"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-15@published"
-  
+
 >As a window dresser (recently retired) who pursued his craft for more than 40 years, I have always taken a keen interest in art. I have occasionally collaborated with artists—Warhol, Rauschenberg, Mapplethorpe, Candyass—all the while enjoying the freedom of <em>not</em> being an artist myself. I always saw my work as a combo of street theater and Coney Island sideshow. This allowed me to switch styles and try anything without ever feeling the need to create profundity or permanence. Example: I am probably the only person on Earth to have incorporated—back in the ’70s—colostomy bags into a designer clothing display. Did it mean anything? Was it ART? No, emphatically, no! A nurse friend gave me large stash of dead-stock unused bags, and I felt compelled to rescue them, which is another way of saying that I had not prepared anything for my window installation on that particular week and was glad to take receipt of a ready-made prop.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1155,7 +1155,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-16@published"
-  
+
 >For years I happily free-associated with my papier-mâché, my props, and my found objects … and then something weird happened. Artists put down their brushes and stole my <em>objets trouves</em>, my staple guns and glue guns. I first noticed the trend at the <a href="http://en.wikipedia.org/wiki/Sensation_(art_exhibition)">1997 Sensation show</a> at the Royal Academy in London. Enter the Post-Skill Movement.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1198,7 +1198,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="96"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-17@published"
-  
+
 >With its Damien Hirst vitrines, Tracey Emin camping vignettes, and Sarah Lucas found-object tableaux, this landmark show was like one giant Barneys window. This realization brought me no satisfaction: “If art is morphing into display, then what the hell are we window dressers supposed to plonk into our constantly changing vignettes?” I asked myself as I gazed at Jake and Dinos Chapman’s defiled window mannequins. I felt like a professional hooker who is no longer sure what to wear because all the regular respectable ladies are now dressing like sluts. (Which, by the way, <a href="https://www.slate.com/articles/video/conversations_with_slate/2012/01/simon_doonan_on_why_stilettos_and_spray_tans_should_be_avoided_.html">they are</a>.)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1241,21 +1241,21 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="48"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-18@published"
-  
+
 >In a desperate search of some gravitas and some skill, I fled the <em>Sensation</em> tableaux and ran next door to the adjacent, and infinitely more artful, <em>Victorian Fairy Painting</em> exhibit. FYI, the catalog for <a href="http://www.amazon.com/Victorian-Fairy-Painting-Pamela-Trimpe/dp/1858940435">this strange and significant show</a> is still available and makes a lovely holiday gift.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="5"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-19@published"
-  
+
 ><strong>5. </strong><strong>The flight of craft.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-20@published"
-  
+
 >As stated above, a lack of skill and craft among artists is sucking the life and the gravitas out of the art world. There are, thank God, still some artists and designers who are bucking this trend and making gorgeous stuff. You won’t find it at trendy galleries or at Art Basel. You are more likely to find it among the potters and craftsmen on Etsy. My favorite artists at the moment work in the field of illustration and applied art: Examples include <a href="http://en.wikipedia.org/wiki/Ruben_Toledo">Ruben Toledo</a>, <a href="http://www.jeanpaulphilippe.eu/index.php?option=com_content&task=view&id=3&Itemid=8&lang=en">John-Paul Philippe</a>, and <a href="http://malcolmhillnyc.com/malcolmhillnyc.com/malcolmhill.html">Malcolm Hill</a>.  </p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1280,7 +1280,7 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="119"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-21@published"
-  
+
 ><strong>6. Adderall a go-go.<br>
   <br>
  </strong>Short attention spans have made art into one quickie sight gag after another. Is that an oversized Tiffany bag? No, it’s <a href="http://www.artnet.com/artwork/426108560/139/jonathan-seliger-charms.html">a metal sculpture by Jonathan Seliger</a>. Gotcha! Clearly, in our frenetic, technology-obsessed age we have lost the ability to contemplate and are interested only in visual puns. Camille to the rescue: <a href="http://www.amazon.com/Glittering-Images-Journey-Through-Egypt/dp/0375424601"><em>Glittering Images</em></a><em>—</em>I keep banging on about her book, but only because it’s so fantastic—is an invitation to think, to scrutinize, to gaze, to stare, to shut the fuck up, to learn, and to self-cultivate. La Paglia dares to take us beyond the high jinks of contemporary art and refocuses our Internet-scrambled brains on the pure uncynical contemplation of high art. Surrender to her!</p>
@@ -1289,14 +1289,14 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="6"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-22@published"
-  
+
 ><strong>7. Dollars and shekels and rubles.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="65"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-23@published"
-  
+
 >My father-in-law, Harry Adler, was a committed, ferocious, lifelong passionate artist who produced a massive body of work in all mediums. However, I never once remember him holding up a painting or a drawing and asking, “How much d’ya think I could get for this?” Unfettered by the impulse to grease his creative journey with financial validation, he pursued his art with freedom and authenticity.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1375,28 +1375,28 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-24@published"
-  
+
 >Today’s successful artists, on the other hand, seem <em>obsessed</em> with money. How, you may ask, does this jive with the artist’s bohemian esprit? In the age of Occupy, when the 1 percent are so reviled, how do groovy, liberal, and, one assumes, democratic dealers and artists rationalize their politician-like reliance upon, and coziness with, the super-wealthy?</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="54"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-25@published"
-  
+
 >“Aha!” I hear you artists say. “But what about fashion? Aren’t fancy designers and retailers reliant on exactly the same group?” To which I reply, “Exactly my point. Fashion has no lofty goals. It’s about buying a dollop of transformative glamour and a jolt of prestige. Should art not aspire to more than that?”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="4"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-26@published"
-  
+
 ><strong>8. Cool is corrosive.</strong></p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-27@published"
-  
+
 >The dorky uncool ’80s was a great time for art. The <a href="http://en.wikipedia.org/wiki/Keith_Haring">Harings</a>, <a href="http://en.wikipedia.org/wiki/Ronnie_Cutrone">Cutrones</a>, <a href="http://en.wikipedia.org/wiki/Kenny_Scharf">Scharfs</a>, and <a href="http://en.wikipedia.org/wiki/Basquiat">Basquiats</a>—life-enhancing, graffiti-inspired painters—communicated a simple, relevant, populist message of hope and flava during the darkest years of the AIDS crisis. Then, in the early ‘90s, grunge arrived, and displaced the unpretentious communicative culture of the ‘80s with the dour obscurantism of COOL. Simple fun and emotional sincerity were now seen as embarrassing and deeply uncool. Enter artists like <a href="http://en.wikipedia.org/wiki/Rachel_Whiteread">Rachel barrel-of-laughs Whiteread</a>, who makes casts of the insides of cardboard boxes. (Nice work if you can get it!)</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1439,14 +1439,14 @@ width="568"
   class="slate-paragraph slate-graf"
   data-word-count="27"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-28@published"
-  
+
 >A couple of decades on, art has become completely pickled in the vinegar of COOL, and that is why it is so irrelevant to the general population.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="146"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-29@published"
-  
+
 >Enough kvetching. Let’s end on a positive note. Not every blue-chip artist today is shoving his poo into tins and calling it art. I love me a little Nick Cave and an occasional Jeff Koons. And here’s the great news: While we wait for the art world to change direction and seek out a more meaningful place in our lives, there are no shortage of chuckles to be had. The landscape of art has never been more vast or intriguingly bonkers. The pretentions and foibles, to mention nothing of the gobbledygook theoretical justifications that accompany all the neo-Duchamp-ian bollocks, provide many occasions for amusement, mockery, and parody. If Jacques Tati were alive today he would have unwittingly blundered round that “Meta-Monumental Garage Sale” looking for a new raincoat. On his way home, he would have popped into a travel agent and booked his flight to Miami.</p>
 
 <div
@@ -1522,7 +1522,7 @@ width="568"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1557,7 +1557,7 @@ width="568"
   class="slate-adnode"
   data-adnode="culture/doonan"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-322c278cae28148f5ccabaab66b8cf72-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1608,7 +1608,7 @@ width="568"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1633,7 +1633,7 @@ width="568"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2143,7 +2143,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

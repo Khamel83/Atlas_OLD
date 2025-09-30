@@ -14,17 +14,17 @@
 		<meta name="title" content="Rothberg, Michael - Department of English UCLA">
 		<meta name="author" content="Loyal Design | hello@thisisloyal.com | thisisloyal.com">
 		<title>Rothberg, Michael - Department of English UCLA</title>
-		
+
 		<!-- OPEN GRAPH TAGS -->
 		<meta property="og:title" content="Rothberg, Michael - Department of English UCLA" />
 		<meta property="og:image" content="https://english.ucla.edu/wp-content/uploads/Michael-Rothberg-Stockholm-e1509139774409.jpeg" />
 		<meta property="og:site_name" content="UCLA English" />
 		<meta property="og:url" content="https://english.ucla.edu/people-faculty/rothberg-michael/" />
 		<meta property="og:description" content="Professor" />
-		
+
 		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO plugin v24.6 - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://english.ucla.edu/people-faculty/rothberg-michael/" />
 	<meta property="og:locale" content="en_US" />
@@ -90,7 +90,7 @@ gtag("config", "UA-9673482-21");
 <link rel="apple-touch-icon" href="https://english.ucla.edu/wp-content/uploads/cropped-share_image-180x180.png" />
 <meta name="msapplication-TileImage" content="https://english.ucla.edu/wp-content/uploads/cropped-share_image-270x270.png" />
 		<style type="text/css" id="wp-custom-css">
-			
+
 /* DivTable.com */
 .divTable{
 	display: table;
@@ -125,10 +125,10 @@ gtag("config", "UA-9673482-21");
 .divTableBody {
 	display: table-row-group;
 }		</style>
-				
+
 	</head>
 	<body>
-		
+
 		<!-- HEADER -->
 		<header id="header" class="unselectable">
 			<div class="site-outer-max-width h-wrapper">
@@ -357,10 +357,10 @@ gtag("config", "UA-9673482-21");
 				</div>
 			</div>
 		</header>
-		
+
 		<!-- CONTENT -->
 		<div id="content">
-	
+
 <main role="main">
 
 <header class="site-full-width header-content">
@@ -375,9 +375,9 @@ gtag("config", "UA-9673482-21");
 	<div class="clear-both"></div>
 	<div class="site-full-width page-content-area single">
 		<div class="site-outer-max-width m-wrapper">
-			
+
 			<div class="holder">
-			
+
 				<div class="main">
 					<div class="margin site-outer-padding">
 						<div class="inner">
@@ -407,7 +407,7 @@ Tel: 310.825.4173 / Fax: 310.267.4339 / <span id="cloak132477a920b10188f7bfd50b
 							</svg>
 						</div>
 						<div class="clear-both"></div>
-					</div>	
+					</div>
 				</div>
 
 <aside class="sidebar">
@@ -416,18 +416,18 @@ Tel: 310.825.4173 / Fax: 310.267.4339 / <span id="cloak132477a920b10188f7bfd50b
 				</aside>
 
 <div class="clear-both"></div>
-				
+
 			</div>
-			
+
 		</div>
-		
+
 	</div>
 
 </main><!-- .site-main -->
 
 <!-- CONTENT -->
 		</div>
-		
+
 		<div class="search-screen">
 			<div class="site-outer-max-width">
 				<div class="site-outer-padding">
@@ -437,7 +437,7 @@ Tel: 310.825.4173 / Fax: 310.267.4339 / <span id="cloak132477a920b10188f7bfd50b
 								<div class="form">
 									<form role="search" method="get" action="https://english.ucla.edu/">
 										<input type="search" placeholder="Search" value="" name="s" />
-										<button type="button" class="close-button">			
+										<button type="button" class="close-button">
 											<svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
 												<polygon fill-rule="evenodd" clip-rule="evenodd" points="20.35,16 32,27.65 27.65,32 16,20.35 4.35,32 0,27.65 11.65,16 0,4.35 4.35,0 16,11.65 27.65,0 32,4.35 "></polygon>
 											</svg>

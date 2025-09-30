@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >The Truth About Islam</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Of course it isn’t a religion of violence. If it were, why would so many Muslim societies be so peaceful?</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -901,14 +901,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-1@published"
-  
+
 >In the last five years the world’s two-decade–long decline in political violence has stalled and been decisively reversed. Worldwide death tolls have risen at an astonishing rate—up more than 600 percent from 2010 to the end of 2014, according to Uppsala University’s authoritative Conflict Data Program. The primary drivers of this startling change have been wars in which radical Islamist insurgents are one of the warring parties—Syria, Iraq, Afghanistan, and Nigeria being the deadliest.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="54"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-2@published"
-  
+
 >As the slaughter has increased and spread internationally, so too have claims in the West that Islam—perceived as an inherently<em> </em>violent religion—has been its primary driver. Pushed by right-wing partisans, as well as some liberal critics, these claims have fanned a wave of strident, and sometimes violent, anti-Muslim sentiment across Europe and North America.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -919,21 +919,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="51"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-3@published"
-  
+
 >A 2014 study by Pew Research found that in seven countries in Europe more than half of those polled held negative views of Muslims. A YouGov survey in the spring of 2015, following the <em>Charlie Hebdo</em> killings in France, found that 40 percent of those polled had negative opinions of Muslims.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="74"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-4@published"
-  
+
 >The savagery of the terror assaults perpetrated by ISIS and its franchise groups has helped build support for claims in the West that Islam is a religion of violence. But the faith of 1.8 billion<em> </em>Muslims, almost a quarter of the world’s population, is far too complex and open to far too many competing interpretations, to be reduced to simplistic slogans like a “religion of violence”—or indeed a “religion of peace.” Islam is both.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="57"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-5@published"
-  
+
 >What is striking about the current debate is how extraordinarily little its participants appear to know about the <em>extent</em> of Muslim—and non-Muslim—violence. It appears, for example, that none of the anti-Muslim critics are aware that, with respect to the single greatest source of deadly intentional violence worldwide, Muslim societies are among the least violent in the world.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1012,21 +1012,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="33"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-6@published"
-  
+
 >This is not to deny the incontestable fact that campaigns of political violence in which Islamist radical groups—like ISIS—are one of the warring parties are now the world’s deadliest—and by a huge margin.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="88"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-7@published"
-  
+
 >This reality might seem to lend credence to claims that Islam is indeed an inherently violent religion, but this is to confuse the ultra-violent ideology of a very small minority of Muslims at a particular point in time with the Islamic religion as it is understood and practiced today by the overwhelming majority of a billion-plus Muslims worldwide. This majority, of course, despises the gross brutality of ISIS, al-Qaida, and the other ultra-violent Islamist groups. The animus of mainstream Islam is hardly surprising—ISIS has mostly killed fellow Muslims.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-8@published"
-  
+
 >Given today’s headlines, it may come as a surprise to learn that in the 1970s there were no major conflicts involving Islamist radicals being waged around the world. This raises an obvious question. If Islam is in fact an inherently violent religion, how do we account for these—and many other—long periods of peacefulness within Muslim societies?  </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1051,7 +1051,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="53"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-9@published"
-  
+
 >The reality is that Islam—like Christianity, Judaism, Hinduism, and other major world religions—is neither inherently violent nor inherently peaceful. Like every other great religion, the history of Islam is darkened by periods of violent bloodletting. And the holy texts of all religions can be mined for quotes to legitimize terrorism—or indeed principled nonviolence.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1076,14 +1076,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="47"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-10@published"
-  
+
 >Thus ISIS and other extreme Islamist radicals have no difficulty finding justification in medieval Islamic texts for their ultra-violent ideology and barbaric practices. But these extreme interpretations have minimal support among Muslims around the world and tell us nothing about the propensity for violence in mainstream Islam. </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="111"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-11@published"
-  
+
 >In October 2014, the first opinion polls on public attitudes toward ISIS were published in three Arab countries for the Fikra Forum. The findings were instructive. Just 3 percent of Egyptians held favorable views of ISIS. The figure for Saudi Arabia was 5 percent and for Lebanon less than 1 percent. A year later Pew Research found that just 1 percent of Lebanese held “favorable opinions” of ISIS, 3 percent in predominantly Sunni Jordan, and 1 percent in Israel. In the Palestinian territories the figure was 6 percent, but even here a massive 84 percent held unfavorable opinions of ISIS. Previous polls revealed very similar trends about Muslim opinions toward al-Qaida.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1126,14 +1126,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-12@published"
-  
+
 >Discussions about the violence of contemporary Islam focus overwhelmingly on armed conflict and terrorism. But a more appropriate metric for determining the propensity for violence of a particular society, culture, or religion is the incidence of intentional homicide.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-13@published"
-  
+
 >In almost all societies it is murder, not war, that accounts for the large majority of intentional killings. And perpetrating homicide, unlike embarking on wars or terror campaigns, does not require long preparation, intensive organization, a huge range of weaponry, complex logistics, political mobilization, intensive training, or a great deal of money—which is one reason why war and terrorism death tolls around the world are far smaller than the number of homicides. It is far more difficult to mount an armed campaign against a state than to kill an individual.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1176,7 +1176,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="80"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-14@published"
-  
+
 >And even today, wars directly affect only a relatively small minority of countries. All countries suffer from homicides, however. In 2015, the <em>Global Burden of Armed Violence </em>published by the Geneva-based Small Arms Survey, found that between 2007 and 2012, for every individual killed in war or terror campaigns around the world, seven individuals were murdered. Worldwide, for most people, in most countries, most of the time, murder is a far greater threat to human security than organized political violence.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1201,14 +1201,14 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="56"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-15@published"
-  
+
 >So if there really is an inherent—Islam-driven—propensity for deadly violence in Muslim societies, we should expect to find that the greater the percentage of Muslims in society, the greater would be the numbers of homicides. In fact, the reverse is the case: The higher the percentage of Muslims in a society, the lower the homicide rate.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="72"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-16@published"
-  
+
 >In 2011, a major study by University of California, Berkeley, political scientist M. Steven Fish presented cross-national statistical data showing that between 1994 and 2007, annual homicide rates in the Muslim world averaged just 2.4 per 100,000 of the population. That was approximately a third of the rate for the non-Muslim world and less than the average rate in Europe. It is also approximately <em>half </em>the homicide rate in the United States.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1251,7 +1251,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="50"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-17@published"
-  
+
 >In comparing individual countries, the difference is even greater. The latest homicide statistics from the U.N.’s Office on Drugs and Crime reveal that for every murder perpetrated in Indonesia, the world’s most populous Muslim state, seven people are murdered in the United States. This reality should give American Islamophobes pause. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1276,21 +1276,21 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="71"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-18@published"
-  
+
 >It is possible in principle, as some critics have argued, that the lower murder rates in Muslim countries could be due not to a generally low propensity for homicide but to authoritarian governments whose harsh anti–violent crime policies are more effective in reducing the incidence of murder than those of democracies like the United States. But Fish’s careful statistical analyses controlled for this possibility and found no evidence to support it.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="29"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-19@published"
-  
+
 >When it comes to war, Fish found no statistical evidence to support Samuel Huntington’s controversial “clash of civilizations” thesis that Muslim societies are inherently more war-prone than non-Muslim states.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="59"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-20@published"
-  
+
 >Moreover, a lot depends on what <em>type </em>of war is being counted. A 2011 analysis by the <em>Human Security Report</em> looked at which states had fought most international wars—including colonial wars—since the end of World War II. The top four were France, Britain, Russia/Soviet Union, and the United States—in that order. No Muslim-majority country was in the top eight.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1351,7 +1351,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-21@published"
-  
+
 >Yet another metric for determining the violence-proneness of countries is the “conflict year,” the number of armed conflicts—civil as well as international—that a country experiences in a calendar year. Some particularly conflict-prone countries—Burma is the prime example—have frequently found themselves fighting several different wars in a single calendar year for decades. Here the <em>Human Security Report</em> found that the countries that had experienced most “conflict years” since the World War II were—in this order—Burma, India, Ethiopia, the Philippines, Britain, France, Israel, and Vietnam. Again no Muslim-majority country was in the top eight.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1376,7 +1376,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-22@published"
-  
+
 >Fish does not, however, claim that Muslim societies are less violent than those in the non-Muslim world with respect to <em>all</em> forms of deadly violence. Indeed, he points out that when it comes to terrorism, Islamist radicals were responsible for 70 percent of deaths from “high-casualty terrorist bombings” around the world between 1994 and 2008. This means, he suggests, that while terrorism is very far from being a uniquely Muslim phenomenon, “… its perpetrators in recent times are disproportionately Islamists.” Since 2010, the incidence of Islamist terrorism has increased sharply.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1401,7 +1401,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="80"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-23@published"
-  
+
 >But in this context it is instructive to note that approximately 600 million of the world’s 1.8 billion Muslims live in Southeast Asia and China, while a little more than half that number—317 million—live in the Middle East and North Africa.<sup> </sup>Yet the rate of deadly political violence associated with radical Islamist groups in Southeast Asian and China today is only a tiny fraction of that of the less populous Muslim states of the Middle East and North Africa region.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1426,7 +1426,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="83"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-24@published"
-  
+
 >Why should the level of political violence in the populations of these two regions differ so dramatically even though they share the same allegedly violence-prone religion? One possible answer is that<em> </em>religion is <em>not</em> the primary driver of conflict in these regions. In Southeast Asia, national governments in Muslim-majority countries have what political scientists call “performance legitimacy”—meaning they deliver the goods and services that their citizens want. With few exceptions, the governments of their co-religionists in the Middle East and North Africa do not.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1451,7 +1451,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="61"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-25@published"
-  
+
 >In the radical Islamist conflicts that are tearing apart Syria, Iraq, and other parts of the region, the exclusionary politics, state repression, rights abuses, corruption, and incompetence of the regimes that the radicals have sought to overthrow provide more compelling insights into what drives the abhorrent violence of ISIS than does the extreme Islamist ideology that seeks to legitimize the killing.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1476,7 +1476,7 @@ width="1180"
   class="slate-paragraph slate-graf"
   data-word-count="73"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-26@published"
-  
+
 >ISIS’s narrow, extreme interpretation of medieval Islam has certainly influenced the gruesome <em>forms </em>that its violence takes—the gory beheadings, choreographed mass executions, immolations, crucifixions, the stoning of adulterers, and sexual slavery. But claims that the savagery of this tiny minority of the world’s Muslims demonstrate that Islam itself is an <em>inherently </em>violent religion are supported by neither logic, history, nor any compelling contemporary evidence. But Islam is not an inherently peaceful religion either. </p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1603,7 +1603,7 @@ width="1180"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1638,7 +1638,7 @@ width="1180"
   class="slate-adnode"
   data-adnode="news_and_politics/politics"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-43e0acc60e67f0db170d20e795f9a014-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1689,7 +1689,7 @@ width="1180"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1714,7 +1714,7 @@ width="1180"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2224,7 +2224,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

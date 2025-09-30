@@ -16,8 +16,8 @@ to have,” or “Better than the opposite.”
 
 Notice it isn’t generally people pulling back-to-back shifts in the I.C.U. or commuting by bus to three minimum-wage jobs  who tell you how busy they are; what those people are is not busy but *tired. Exhausted. Dead on their feet*.
 It’s almost always people whose lamented busyness is purely self-imposed: work and obligations they’ve taken on voluntarily, classes and activities they’ve “encouraged” their kids
-to participate in. They’re busy because of their own ambition or drive or anxiety, because they’re addicted to busyness and dread what they might have to face in its absence.  
-  
+to participate in. They’re busy because of their own ambition or drive or anxiety, because they’re addicted to busyness and dread what they might have to face in its absence.
+
  Almost everyone I know is busy. They feel anxious and guilty when they aren’t either working or doing something to promote their work. They schedule in time with friends
 the way students with 4.0 G.P.A.’s  make sure to sign up for community service because it looks good on their college applications. I recently wrote a friend to ask if he wanted to do something this
 week, and he answered that he didn’t have a lot of time but if something was going on to let him know and maybe he could ditch work for a few hours. I wanted to clarify that my question had not been a preliminary

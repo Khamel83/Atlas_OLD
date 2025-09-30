@@ -8,15 +8,15 @@
 View this post on the web at https://www.notboring.co/p/ramp-and-the-ai-opportunity
 
 Welcome to the 93 newly Not Boring people who have joined us since Thursday! If you haven’t subscribed, join 226,688 smart, curious folks by subscribing here:
-Hi friends 👋, 
-Happy Tuesday and welcome back to our fourth Not Boring Deep Dive on Ramp [ https://substack.com/redirect/f1cac6f5-8e25-4004-b26e-a9641b7b566b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-Ramp is one of the fastest-growing, best-run startups in the world. It’s also just one of my favorites. I met Ramp CEO Eric Glyman the first year I wrote Not Boring, invested personally in the company before I had a fund, and have invested via Not Boring Capital twice. 
-I haven’t written about any other company more than once, but Ramp has become a tradition here, and I learn something totally new every time. 
-This time, it’s AI. Specifically, what will the B2B software landscape look like as companies build AI into their products? What will the experience of using software at work be like? 
+Hi friends 👋,
+Happy Tuesday and welcome back to our fourth Not Boring Deep Dive on Ramp [ https://substack.com/redirect/f1cac6f5-8e25-4004-b26e-a9641b7b566b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Ramp is one of the fastest-growing, best-run startups in the world. It’s also just one of my favorites. I met Ramp CEO Eric Glyman the first year I wrote Not Boring, invested personally in the company before I had a fund, and have invested via Not Boring Capital twice.
+I haven’t written about any other company more than once, but Ramp has become a tradition here, and I learn something totally new every time.
+This time, it’s AI. Specifically, what will the B2B software landscape look like as companies build AI into their products? What will the experience of using software at work be like?
 Software is not dead, but I do think B2B will consolidate. There will be some massive winners, the ones who can help take all of the work that people in a particular department hate off their plates. And if you’re going to choose a department, finance is a good one to choose: finance controls the purse strings, and it touches every piece of the organization, even ones that don’t seem like “finance.”
-Like Travel. Today, Ramp is launching Ramp Travel [ https://substack.com/redirect/2c0d9055-90d1-4922-acbc-a3d0261c2707?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which means you can now book travel right through Ramp. I tried it, and it’s predictably great. 
+Like Travel. Today, Ramp is launching Ramp Travel [ https://substack.com/redirect/2c0d9055-90d1-4922-acbc-a3d0261c2707?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which means you can now book travel right through Ramp. I tried it, and it’s predictably great.
 It also points to a world in which you just hand over your card to an AI agent and let it do all of the booking for you — to save you time and money, and let you focus on the parts of your job that you actually like doing.
-Let’s get to it. 
+Let’s get to it.
 Ramp and the AI Opportunity [ https://substack.com/redirect/f6a55824-0408-4099-9110-7c77d6425a4a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Sunday, April 24th was a fantastic Sunday for Neal Shipley. 
 Shipley had won a spot in the 2024 Masters at Augusta National by finishing as the runner-up in the 2023 U.S. Amateur. He came into Augusta one of just five amateur golfers in golf’s greatest tournament. By Sunday, he was the only one left. Oh, and he was paired up with Tiger Woods. 

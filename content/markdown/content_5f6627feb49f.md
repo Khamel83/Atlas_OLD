@@ -198,7 +198,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20161202103614/htt
   </head>
 
 <body class="not-front not-logged-in page-node node-type-article one-sidebar sidebar-right t11-mobile-overlay path-node-21590976 world-menu-inactive business-menu economics-menu printedition-menu science-technology-menu culture-menu">
-      
+
   <!-- Begin Tealium Integration -->
   <script type="text/javascript">
     <!--//--><![CDATA[//><!--
@@ -214,7 +214,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20161202103614/htt
         a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
       })();
     </script>
-  
+
   <!-- End Tealium Integration -->
         <div id="fb-root"></div>
 <script>
@@ -236,7 +236,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20161202103614/htt
     document.getElementById('fb-root').appendChild(e);
   }());
 </script>          <div id="ec-cookie-messages-container"><div id="ec-cookie-messages-wrapper"><div class="ec-cookie-message" id="ec-cookie-message-0"><a href="/web/20161202103614/http://www.economist.com/ec-cookie-message/0" class="dismiss-messages"></a><div id="teconsent"><script type="text/javascript" src="http://web.archive.org/web/20161202103614js_/http://consent-st.truste.com/get?name=notice.js&amp;domain=economist.com&amp;c=teconsent"></script></div><strong>Our cookie policy has changed.</strong>  Review our <a href="/web/20161202103614/http://www.economist.com/cookies-info" target="_blank">cookies policy</a> for more details and to change your cookie preference.<br>By continuing to browse this site you are agreeing to our use of cookies.</div></div></div>      <div id="leaderboard" class="clearfix">
-    <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+    <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_leaderboard_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -247,7 +247,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_subscription_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -258,7 +258,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_pencil_slug_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -271,8 +271,8 @@ ec-ads-gpt">
 
 </div>
 <header class="mh">
-  <!-- 
-  To use as a standalone component please wrap it up into a <header class="mh"></header> 
+  <!--
+  To use as a standalone component please wrap it up into a <header class="mh"></header>
 -->
 <div class="mh-stripe">
   <div class="mh-stripe-wrap">
@@ -371,12 +371,12 @@ ec-ads-gpt">
   <div id="page" class="container">
     <a name="top" id="navigation-top"></a>
 
-<div class="ec-messages messages-warning message-region message-beta_bar" id="ec-message-9"><div class="ec-messages-inner"><a href="/web/20161202103614/http://www.economist.com/ec-cookie-message/9" class="dismiss-messages"></a>You switched back to old version of <em>The Economist</em> website. Please let us what you think.<div class="ec-messages-buttons"><a href="http://web.archive.org/web/20161202103614/https://docs.google.com/forms/d/e/1FAIpQLSemK5kOQGLVWFJnWhJdJEJ2xa4RrMQgXMfSq2lWwC--NdFXBg/viewform" class="beta-bar-button beta-bar-feedback" target="_blank">Leave feedback</a><a href="#" class="beta-bar-button beta-bar-new-version">Back to new version</a></div></div></div>        
+<div class="ec-messages messages-warning message-region message-beta_bar" id="ec-message-9"><div class="ec-messages-inner"><a href="/web/20161202103614/http://www.economist.com/ec-cookie-message/9" class="dismiss-messages"></a>You switched back to old version of <em>The Economist</em> website. Please let us what you think.<div class="ec-messages-buttons"><a href="http://web.archive.org/web/20161202103614/https://docs.google.com/forms/d/e/1FAIpQLSemK5kOQGLVWFJnWhJdJEJ2xa4RrMQgXMfSq2lWwC--NdFXBg/viewform" class="beta-bar-button beta-bar-feedback" target="_blank">Leave feedback</a><a href="#" class="beta-bar-button beta-bar-new-version">Back to new version</a></div></div></div>
     <div id="columns" class="clearfix">
-                  
+
       <div id="column-content" class="grid-10 grid-first clearfix">
                                 <!-- Create left column on search pages -->
-                                                  
+
 <article itemscope itemtype="http://schema.org/Article">
   <hgroup class="typog-content-header main-content-header">
           <h2 class="fly-title" itemprop="alternativeHeadline">New Zealand</h2>
@@ -389,7 +389,7 @@ ec-ads-gpt">
       Nov 30th 2013    </time>
           | <span class="location">CANTERBURY</span>
           </aside>
-  <div id="block-ec_components-share_inline_header" class="block block-ec_components 
+  <div id="block-ec_components-share_inline_header" class="block block-ec_components
 ">
     <div class="content clearfix">
     <div class="share_inline_header"><ul class="clearfix"><li class="share-inline-header-timekeeper first" data-ec-omniture-frame="top_timekeeper"><a href="# " data-ec-omniture="bookmark|social_buttons|bookmark_saved" data-ec-bookmark-impression="19|16846017" data-ec-bookmark-click="20|16846017|bookmark > social buttons > BM|event80"><img src="http://web.archive.org/web/20161202103614im_/http://cdn.static-economist.com/sites/all/modules/custom/ec_bookmark/assets/timekeeper-btn.png" alt="Timekeeper" title="Timekeeper" width="94" height="20" height="20" width="94"/></a><div class="timekeeper-bubble">
@@ -427,7 +427,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_components-share_inline_footer" class="block block-ec_components 
+  <div id="block-ec_components-share_inline_footer" class="block block-ec_components
 ">
     <div class="content clearfix">
     <div class="share_inline_footer"><ul class="clearfix"><li class="share-inline-footer-facebook first" data-ec-omniture-frame="footer_fb"><fb:like href="http://www.economist.com/news/asia/21590976-government-resists-pressure-two-important-fronts-standing-firm" ref="scn/fb_ec/standing_firm" send="false" layout="button_count" show_faces="false" font=""></fb:like></li>
@@ -438,19 +438,19 @@ ec-ads-gpt">
 </ul></div>  </div>
 </div>
 
-<div id="block-ec_components-comments_links" class="block block-ec_components 
+<div id="block-ec_components-comments_links" class="block block-ec_components
 ">
     <div class="content clearfix">
     <div class="ec-comments-links-box clearfix"><a href="/web/20161202103614/http://www.economist.com/node/21590976/comments#comments" class="view-comments" data-ec-omniture="go_to_comments">View all comments (1)</a></div>  </div>
 </div>
 
-<div id="block-ec_sailthru-ec_sailthru_content_container" class="block block-ec_sailthru 
+<div id="block-ec_sailthru-ec_sailthru_content_container" class="block block-ec_sailthru
 ">
     <div class="content clearfix">
     <div id="sailthru-scout"></div>  </div>
 </div>
 
-<div id="block-ec_components-print_sub" class="block block-ec_components 
+<div id="block-ec_components-print_sub" class="block block-ec_components
 ">
     <div class="content clearfix">
     <a href="http://web.archive.org/web/20161202103614/http://econ.st/1SRY7PO" class="ec-print-sub-ad clearfix">Want more? Subscribe to <i>The Economist</i> and get the week's most relevant news and analysis.</a>  </div>
@@ -582,7 +582,7 @@ ec-ads-gpt">
     </div>
   </div> <!-- /#homepage-issue -->
 </div>
-          <div id="block-ec_components-page_tools_compact" class="block block-ec_components 
+          <div id="block-ec_components-page_tools_compact" class="block block-ec_components
 ">
     <div class="content clearfix">
     <ul class="ec-page-tools ec-pt-compact clearfix"><li class="pt-comment first"><a href="/web/20161202103614/http://www.economist.com/node/21590976/comments#comments" class="view-comments" data-ec-omniture="go_to_comments">Comment (1)</a></li>
@@ -593,7 +593,7 @@ ec-ads-gpt">
 </ul>  </div>
 </div>
 
-<div id="block-ec_ads-mpu_no_wrapper_top_ad" class="block block-ec_ads 
+<div id="block-ec_ads-mpu_no_wrapper_top_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec-ads ec-ads-remove-if-empty ec-ads-remove-wrapper"><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_mpu_no_wrapper_top_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_mpu_no_wrapper_top_ad");  });
@@ -604,7 +604,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-top_mpu_ad" class="block block-ec_ads 
+<div id="block-ec_ads-top_mpu_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec-ads ec-ads-remove-if-empty"><p class="ec-ads-label">Advertisement</p><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_top_mpu_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_top_mpu_ad");  });
@@ -615,7 +615,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-ribbon_ad" class="block block-ec_ads 
+<div id="block-ec_ads-ribbon_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec_topic_ribbon ec-ads-remove-if-empty"><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_ribbon_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_ribbon_ad");  });
@@ -626,7 +626,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_social-right_rail_social_share_buttons" class="block block-ec_social 
+<div id="block-ec_social-right_rail_social_share_buttons" class="block block-ec_social
 ">
     <div class="content clearfix">
     <div id="social-share-buttons-block">
@@ -665,7 +665,7 @@ ec-ads-gpt">
 </div>  </div>
 </div>
 
-<div id="block-ec_blogs-ec_blogs_block_recent" class="block block-ec_blogs 
+<div id="block-ec_blogs-ec_blogs_block_recent" class="block block-ec_blogs
 ">
     <div class="content clearfix">
     <div class="title">
@@ -729,7 +729,7 @@ ec-ads-gpt">
 </div><div class="more-latest-updates"><a href="/web/20161202103614/http://www.economist.com/latest-updates" class="more">More latest updates &raquo;</a></div>  </div>
 </div>
 
-<div id="block-ec_mostx-mostpopular" class="block block-ec_mostx 
+<div id="block-ec_mostx-mostpopular" class="block block-ec_mostx
 ">
     <div class="content clearfix">
     <div id="most-lists" class="block">
@@ -737,13 +737,13 @@ ec-ads-gpt">
   <div class="list-wrapper">
           <ul id="commented-list" class="show">
         <li class="mostx-first"><a href="/web/20161202103614/http://www.economist.com/news/business/21710828-weakness-trump-inc-may-pose-more-problem-its-sprawl-donald-trumps-conflicts?spc=scode&amp;spv=xm&amp;ah=9d7f7ab945510a56fa6d37c30b6f1709" id="track-commented-21710828"><img src="http://web.archive.org/web/20161202103614im_/http://cdn.static-economist.com/sites/default/files/imagecache/mostx_block/images/print-edition/20161126_WBP001_0.jpg" alt="Donald Trump’s conflicts of interest" title="" class="mostx-image-first" width="168" height="95"/><span class="mostx-list">1</span><span class="mostx-text"><span class="mostx-fly-title">Deconstructing Donald</span>Donald Trump’s conflicts of interest</span></a></li><li><a href="/web/20161202103614/http://www.economist.com/news/middle-east-and-africa/21710934-arabs-make-up-just-5-worlds-population-they-account-about-half?spc=scode&amp;spv=xm&amp;ah=9d7f7ab945510a56fa6d37c30b6f1709" id="track-commented-21710934"><span class="mostx-list">2</span><span class="mostx-text"><span class="mostx-fly-title">De-development</span>: Another Arab awakening is looming, warns a UN report</span></a></li><li><a href="/web/20161202103614/http://www.economist.com/blogs/democracyinamerica/2016/11/hillary-or-bust?spc=scode&amp;spv=xm&amp;ah=9d7f7ab945510a56fa6d37c30b6f1709" id="track-commented-21710947"><span class="mostx-list">3</span><span class="mostx-text"><span class="mostx-fly-title">Hillary or bust</span>: Why an electoral college rebellion would be a bad idea</span></a></li><li><a href="/web/20161202103614/http://www.economist.com/news/leaders/21710807-or-without-america-self-interest-will-sustain-fight-against-global-warming-climate?spc=scode&amp;spv=xm&amp;ah=9d7f7ab945510a56fa6d37c30b6f1709" id="track-commented-21710807"><span class="mostx-list">4</span><span class="mostx-text"><span class="mostx-fly-title">The burning question</span>: Climate change in the era of Trump</span></a></li><li><a href="/web/20161202103614/http://www.economist.com/blogs/graphicdetail/2016/11/daily-chart-19?spc=scode&amp;spv=xm&amp;ah=9d7f7ab945510a56fa6d37c30b6f1709" id="track-commented-21710943"><span class="mostx-list">5</span><span class="mostx-text"><span class="mostx-fly-title">Daily chart</span>: Donald Trump’s tech troubles</span></a></li>      </ul>
-    
+
   </div>
 </div>
   </div>
 </div>
 
-<div id="block-ec_ads-bottom_mpu_ad" class="block block-ec_ads 
+<div id="block-ec_ads-bottom_mpu_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec-ads ec-ads-remove-if-empty"><p class="ec-ads-label">Advertisement</p><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_bottom_mpu_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_bottom_mpu_ad");  });
@@ -754,13 +754,13 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_pixel_tracking_onscroll-bottom_onscroll" class="block block-ec_pixel_tracking_onscroll 
+<div id="block-ec_pixel_tracking_onscroll-bottom_onscroll" class="block block-ec_pixel_tracking_onscroll
 ">
     <div class="content clearfix">
     <div id="onscroll-ad-holder-mpu2"></div>  </div>
 </div>
 
-<div id="block-block-1" class="block block-block 
+<div id="block-block-1" class="block block-block
 ">
     <div class="content clearfix">
     <div id="product-events">
@@ -778,7 +778,7 @@ Visit The Economist e-store and you’ll find a range of carefully selected prod
   </div>
 </div>
 
-<div id="block-ec_ads-bottom_right_mpu_ad" class="block block-ec_ads 
+<div id="block-ec_ads-bottom_right_mpu_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec-ads ec-ads-remove-if-empty"><p class="ec-ads-label">Advertisement</p><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_bottom_right_mpu_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_bottom_right_mpu_ad");  });
@@ -789,19 +789,19 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_pixel_tracking_onscroll-bottom_right_onscroll" class="block block-ec_pixel_tracking_onscroll 
+<div id="block-ec_pixel_tracking_onscroll-bottom_right_onscroll" class="block block-ec_pixel_tracking_onscroll
 ">
     <div class="content clearfix">
     <div id="onscroll-ad-holder"></div>  </div>
 </div>
 
 </div> <!-- /#side-bar -->
-      
-      
+
+
     </div> <!-- /#columns -->
           <div id="footer-classifieds" class="clearfix">
         <div class="title">Classified ads</div>
-        <div id="block-ec_ads-button_ad_1" class="block block-ec_ads 
+        <div id="block-ec_ads-button_ad_1" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified first">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_1"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_1");  });
@@ -812,7 +812,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified first">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-button_ad_2" class="block block-ec_ads 
+<div id="block-ec_ads-button_ad_2" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_2"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_2");  });
@@ -823,7 +823,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-button_ad_3" class="block block-ec_ads 
+<div id="block-ec_ads-button_ad_3" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_3"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_3");  });
@@ -834,7 +834,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-button_ad_4" class="block block-ec_ads 
+<div id="block-ec_ads-button_ad_4" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_4"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_4");  });
@@ -845,7 +845,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-button_ad_5" class="block block-ec_ads 
+<div id="block-ec_ads-button_ad_5" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_5"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_5");  });
@@ -856,7 +856,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-button_ad_6" class="block block-ec_ads 
+<div id="block-ec_ads-button_ad_6" class="block block-ec_ads
 ec-ads-gpt ec-classified-box ec-ads-classified last">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_button_ad_6"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_button_ad_6");  });
@@ -959,7 +959,7 @@ ec-ads-gpt ec-classified-box ec-ads-classified last">
   </div>
 
 </aside>
-    <div id="block-ec_ads-slider_ad" class="block block-ec_ads 
+    <div id="block-ec_ads-slider_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_slider_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_slider_ad");  });
@@ -970,7 +970,7 @@ ec-ads-gpt">
 </noscript></div>  </div>
 </div>
 
-<div id="block-ec_ads-adcast" class="block block-ec_ads 
+<div id="block-ec_ads-adcast" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div class="ec-ads-remove-if-empty"><!-- Site: Globalisation.  Zone: World | Asia | Articles --> <div id="gpt_adcast"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_adcast");  });
@@ -1168,8 +1168,8 @@ END of Universal McCann Tag: Please do not remove!!
 window.bk_async = function() {
 	// INSERT DATA HERE IN THE FORM:
 	// bk_addPageCtx("<<SOMEKEY>>", "<<SOMEVALUE>>");
-	
-	
+
+
 	try{
 		if(typeof Econ.user.user.country !== 'undefined'){
 			var bkCountry = (typeof Econ.user.user.country.iso != 'undefined' ? Econ.user.user.country.iso : '');
@@ -1177,10 +1177,10 @@ window.bk_async = function() {
 			bk_addPageCtx("ctry", bkCountry);
 			bk_addPageCtx("reg", bkRegion);
 		}
-	}	
+	}
 	catch(e){}
-	
-	try{	
+
+	try{
 		if(typeof s !='undefined'){
 			var bkChannel = (typeof s.channel != 'undefined' ? s.channel : '');
 			var bkPageName = (typeof s.pageName != 'undefined' ? s.pageName : '');
@@ -1225,7 +1225,7 @@ bk_addPageCtx("chan", bkChannel);
 			bk_addPageCtx("events", bkevents);
 		}
 	}
-	catch(e){}	
+	catch(e){}
   bk_doJSTag(18452, 10);
 
 };

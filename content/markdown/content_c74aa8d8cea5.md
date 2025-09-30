@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO plugin v25.9 - https://yoast.com/wordpress/plugins/seo/ -->
 	<meta name="description" content="The capacity to generate electricity has transitioned from coal to natural gas to renewable energy, a trend projected to continue." />
 	<link rel="canonical" href="https://headwaterseconomics.org/economic-development/evolution-electricity-generation/" />
@@ -2295,7 +2295,7 @@ gtag("config", "G-4GZ7QHJZ4N", {"googlesitekit_post_type":"post","googlesitekit_
 				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 				f.parentNode.insertBefore( j, f );
 			} )( window, document, 'script', 'dataLayer', 'GTM-PLFVK7T' );
-			
+
 </script>
 
 <!-- End Google Tag Manager snippet added by Site Kit -->
@@ -2311,17 +2311,17 @@ gtag("config", "G-4GZ7QHJZ4N", {"googlesitekit_post_type":"post","googlesitekit_
 			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLFVK7T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
-		
+
 <div class="wp-site-blocks"><header class="wp-block-template-part">
 <div class="wp-block-group gapless-group is-content-justification-center is-layout-constrained wp-container-core-group-is-layout-40373c2f wp-block-group-is-layout-constrained wp-container-3 is-position-sticky" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-group alignfull site-header is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-12c14382 wp-block-group-is-layout-flex" style="padding-top:8px;padding-right:var(--wp--preset--spacing--20);padding-bottom:8px;padding-left:var(--wp--preset--spacing--20)"><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;" class="wp-block-site-logo wp-container-content-422d1810"><a href="https://headwaterseconomics.org/" class="custom-logo-link" rel="home"><img width="230" height="45" src="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png" class="custom-logo" alt="Headwaters Economics" decoding="async" srcset="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png 1801w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-450x89.png 450w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-900x178.png 900w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-768x152.png 768w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-1536x304.png 1536w" sizes="(max-width: 230px) 100vw, 230px" /></a></div>
 
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex"><nav class="is-responsive items-justified-right social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-aa60f3ea wp-block-navigation-is-layout-flex" aria-label="Main Menu" 
-		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex"><nav class="is-responsive items-justified-right social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-aa60f3ea wp-block-navigation-is-layout-flex" aria-label="Main Menu"
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open"
 				data-wp-on-async--click="actions.openMenuOnClick"
 				data-wp-on--keydown="actions.handleMenuKeydown"
 			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z" /></svg></button>
-				<div class="wp-block-navigation__responsive-container"  id="modal-1" 
+				<div class="wp-block-navigation__responsive-container"  id="modal-1"
 				data-wp-class--has-modal-open="state.isMenuOpen"
 				data-wp-class--is-menu-open="state.isMenuOpen"
 				data-wp-watch="callbacks.initMenu"
@@ -2330,15 +2330,15 @@ gtag("config", "G-4GZ7QHJZ4N", {"googlesitekit_post_type":"post","googlesitekit_
 				tabindex="-1"
 			>
 					<div class="wp-block-navigation__responsive-close" tabindex="-1">
-						<div class="wp-block-navigation__responsive-dialog" 
+						<div class="wp-block-navigation__responsive-dialog"
 				data-wp-bind--aria-modal="state.ariaModal"
 				data-wp-bind--aria-label="state.ariaLabel"
 				data-wp-bind--role="state.roleAttribute"
 			>
-							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close"
 				data-wp-on-async--click="actions.closeMenuOnClick"
 			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
-							<div class="wp-block-navigation__responsive-container-content" 
+							<div class="wp-block-navigation__responsive-container-content"
 				data-wp-watch="callbacks.focusFirstElement"
 			 id="modal-1-content">
 								<ul class="wp-block-navigation__container is-responsive items-justified-right social-links wp-block-navigation"><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Research</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Research submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/economic-development/"><span class="wp-block-navigation-item__label">Rural Economy</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/wildfire/"><span class="wp-block-navigation-item__label">Wildfire</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/flooding/"><span class="wp-block-navigation-item__label">Flooding</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/outdoor-recreation/"><span class="wp-block-navigation-item__label">Outdoor Recreation</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/public-lands/"><span class="wp-block-navigation-item__label">Public Lands</span></a></li></ul></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/community-assistance/"><span class="wp-block-navigation-item__label">Community Assistance</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/tools/"><span class="wp-block-navigation-item__label">Tools</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content"><span class="wp-block-navigation-item__label">About</span><span class="wp-block-navigation-item__description">Pages about Headwaters Economics</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="About submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/about/"><span class="wp-block-navigation-item__label">Our Impact</span><span class="wp-block-navigation-item__description">Page about Headwaters Economics&#8217; impact, projects, and services</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/our-team/"><span class="wp-block-navigation-item__label">Our Team</span></a></li></ul></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/contact/"><span class="wp-block-navigation-item__label">Contact</span></a></li></ul>
@@ -2374,9 +2374,9 @@ jQuery(document).ready(function($) {
 
 <img id="preload" src="https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg" style="display:none;" fetchpriority="high" />
 			<div class="masthead has-featured-image alignfull" style="background: url(https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg) center;background-size:cover;" >
-			    
+
                 <div></div>
-                
+
                 <header class="is-layout-constrained" role="heading">
                                         <h1 class="has-x-large-font-size">The Evolution of U.S. Electricity Generation Capacity</h1>
                     <span class="postmeta wp-block-post-date has-small-font-size has-source-serif-pro-font-family">
@@ -2463,11 +2463,11 @@ by type and state </h2>
 
 <p>In the interactive visualization below, select the electricity generation source and state using the drop-down menus. You can also <a href="https://headwaterseconomics.org/wp-content/uploads/U.S.-Electricity-Generation-Capacity-1950-2030.xlsx">download the data</a>.</p>
 
-<div 
-  style='overflow:hidden;' 
+<div
+  style='overflow:hidden;'
   class=""
 >
-  <div 
+  <div
     id="viz-block-CapacityData"
     data-url="https://public.tableau.com/views/Evolution-Electricity-Generation-FINAL/CapacityData"
     data-height-to-suppress="27"
@@ -2631,7 +2631,7 @@ by type and state </h2>
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script src="https://headwaterseconomics.org/wp-content/plugins/genesis-blocks/dist/assets/js/dismiss.js?ver=1756138570" id="genesis-blocks-dismiss-js-js"></script>
 </body>

@@ -8,22 +8,22 @@ FILE="$ROOT/docs/adr/${DATE}-${SLUG}.md"
 mkdir -p "$ROOT/docs/adr"
 cat > "$FILE" <<'EOF'
 # Title: REPLACE
-**Date:** YYYY-MM-DD  
-**Status:** proposed | accepted | superseded  
-**Context**  
+**Date:** YYYY-MM-DD
+**Status:** proposed | accepted | superseded
+**Context**
 - Problem and constraints.
 
-**Decision**  
+**Decision**
 - What we chose and why.
 
-**Alternatives Considered**  
-- Option A …  
+**Alternatives Considered**
+- Option A …
 - Option B …
 
-**Consequences**  
+**Consequences**
 - Positive / negative / risks.
 
-**Alignment**  
+**Alignment**
 - How this advances Atlas mission/vision.
 EOF
 sed -i.bak "s/REPLACE/$TITLE/; s/YYYY-MM-DD/$(date +%F)/" "$FILE" && rm -f "$FILE.bak"

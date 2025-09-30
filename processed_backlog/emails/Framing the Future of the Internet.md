@@ -7,11 +7,11 @@
 
 View this post on the web at https://www.notboring.co/p/framing-the-future-of-the-internet
 
-Welcome to the 364 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 219,232 smart, curious folks by subscribing here: 
+Welcome to the 364 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 219,232 smart, curious folks by subscribing here:
 Hi friends 👋,
 Happy Tuesday! 
-Today’s piece is about a company I’ve mentioned a few times over the past couple years, Farcaster. 
-Farcaster is a crypto company, a decentralized social network, but I want you to try to not think about it with any of the baggage you might associate with crypto as you read this piece. Think about it as a platform or a network. 
+Today’s piece is about a company I’ve mentioned a few times over the past couple years, Farcaster.
+Farcaster is a crypto company, a decentralized social network, but I want you to try to not think about it with any of the baggage you might associate with crypto as you read this piece. Think about it as a platform or a network.
 In Chris Dixon’s new book, Read Write Own [ https://substack.com/redirect/1c6df092-2b02-4afd-bf34-263234384edd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which comes out today, he uses the term “blockchain network” as an alternative to corporate networks like Facebook and Twitter and protocols networks like SMTP and HTTP. “Blockchains are the only credible, known architecture,” he writes, “for building networks with the societal benefits of protocol networks and the competitive advantages of corporate networks.” Farcaster is a blockchain network.
 The benefits of blockchain networks can be hard to grok in the abstract. What’s happening at Farcaster is a concrete and approachable example of why they might win, playing out in real time.
 To see it for yourself, join Farcaster [ https://substack.com/redirect/c7e4c275-76b1-4668-9855-381691ac00a8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. Cast me a hello when you’re there @packy and share a link to this essay, and I’ll recast it to welcome you. 
@@ -109,8 +109,8 @@ That one is compelling because it removes friction from commerce (onchains capit
 Update: I wrote this section last night, and this morning, I woke up to this:
 Of course, I ordered Girl Scout Cookies directly from my feed (2 Trefoils, 1 Tagalongs, 1 Thin Mints). The experience isn’t one-click yet, but it was really smooth. I made my order, added it to my cart, and checked out. The @cookie account sent me a cast with a link to my cart. I entered my address, checked out with Coinbase Commerce, and paid in ETH. Smooth. 
 I couldn’t have asked for a better example of the composability, permissionlessness, and experimentation I’m talking about. Yesterday afternoon, someone proposed Instant Checkout. Last night, someone built it. Over the next few days, the swarm of builders will remix it and improve on the process. 
-And speaking of remixing, Frames themselves are composable, as Once Upon’s Paul Cowgill pointed out. Builders can make Frames of Frames, snapping them together to create entirely new experiences. 
-This feels like what the internet is supposed to feel like. 
+And speaking of remixing, Frames themselves are composable, as Once Upon’s Paul Cowgill pointed out. Builders can make Frames of Frames, snapping them together to create entirely new experiences.
+This feels like what the internet is supposed to feel like.
 A lot of people are talking and writing about Frames. The hype is deserved. This is a really big deal. 
 But – don’t say it, don’t say it – we’re still so early. 
 Developers and creators will dream up things that I can’t, and build an increasingly rich ecosystem in the process. Maybe one day, as the gravity of its infrastructure and user base pull in more and more developers, Farcaster will topple Twitter. Maybe it will obviate the need for App Stores altogether by throwing the things people do in apps right in the feed, one click away. 

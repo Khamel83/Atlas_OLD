@@ -46,7 +46,7 @@ the Hegseth hearing…
 Abby Livingston
 Abby Livingston
 
- 
+
 
 Hegseth’s Dry January
 -----------------------
@@ -278,6 +278,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUZ6eQX6jmPiQ_Z_wVe_c=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

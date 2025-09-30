@@ -22,7 +22,7 @@ In other news, I’ve got a bit of intel on the acquisition of Christian Lacroix
 Mentioned in this issue:
 LTK, Amber Venz Box, ShopMy, Alix Earle, Paige DeSorbo, Molly Sims, Hearst, Dotdash Meredith, Christian Lacroix, Sociedad Textil Lonia, Bernard Arnault, LVMH, the British Fashion Council, Laura Weir, Vogue, Edward Enninful, Saks and Neimans, Phoebe Philo, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -126,7 +126,7 @@ It will be
 fascinating to behold the composition of ShopMy’s upcoming financing round. Would a media company like Hearst or Dotdash Meredith strategically invest to eventually augment their own commerce business? (Alas, probably not, given that the valuation could price them out.) A retailer perhaps? (Walmart, like many others, has already created their own affiliate program.) In the end, I would presume it’s a composition of V.C.s with consumer and enterprise interests, like Norwest Venture Partners,
 Sequoia, etcetera. A market rivalry, after all, is simply a category awaiting a winner.
 
- 
+
 
 What Sarah’s Reading…
 -------------------------
@@ -149,7 +149,7 @@ also enjoyed listening to Madé Lapuerta, the creator of the fabulous Instagram 
 I bought this A24-published book after
 hearing about it on the podcast A Thing or Two with Claire and Erica, and the recommendations for family movies are fantastic. Just when I thought I had watched all the good ones…  [“Hey Kids, Watch This” ( https://fave.co/4a5hGTo?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Sarah and me. A final P.S.A. re: haircare: I almost
 exclusively use Rōz products ( https://fave.co/4h68LmX?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), thanks to a recommendation from Future Publishing S.V.P. Hillary Kerr, even though our hair textures could not be more different. (Sarah is going to have more on Rōz in Friday’s email.) Last week, in search of a curl-defining product, another friend recommended that I add in Crown
@@ -213,6 +213,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUQv8qniO-x649TcXQnkY=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

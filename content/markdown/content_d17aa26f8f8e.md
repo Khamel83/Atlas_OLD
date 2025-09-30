@@ -40,18 +40,18 @@ ga('create', 'UA-9984238-6', 'auto');
 <!--  <div class="float-right">
   <a href="http://ineteconomics.org/" target="_blank"><img src="hetimages/inet_logo_small75.gif" alt="INET logo" id="inet_logo" border="0"  style="background: #000; display:block;"></a>
   </div>  <!-- end of .float-right -->
-  
-  
+
+
 <!--	<div id = "inet_logo_box"> <!-- INET logo box begin -->
 <!--		<a href="http://ineteconomics.org/" target="_blank">
 		<img src="hetimages/inet_logo_small75.gif" alt="INET logo" class="inet_logo" border="0" width="207" height="57"></a>
-		
+
 		</div> <!-- INET logo box end -->
 
 <div class = "big_sidebar"> <!-- big_sidebar box begin -->
 
 <!-- sidebar boxes begin -->
-		
+
 	<div id = "het_logo_box">  <!-- het_logo box begin -->
 	    <a href="../home.htm">
 		<img class = "het_logo" src="../hetimages/logo.gif" alt="History of Economic Thought Website logo" id="het_logo" width="114" height="115" border="0"></a>
@@ -69,8 +69,8 @@ ga('create', 'UA-9984238-6', 'auto');
 	</ul>
 
 </div> <!-- sidebar_navigation_box ends -->
-   
-      
+
+
  	<div id = "inet_logo_box"> <!-- inet logo box nested in top row -->
 		<a href="http://ineteconomics.org/" target="_blank">
 		<img src="../hetimages/inet_logo_small75.gif" alt="INET logo" border="0" width="135" height="34"></a>
@@ -88,8 +88,8 @@ ga('create', 'UA-9984238-6', 'auto');
 <!--			<hr size = 10 color = #842B45> -->
 
 <div id = "breadcrumbs_box">
-	
-<a href="../index.htm" class = "breadcrumb">Home</a> > 
+
+<a href="../index.htm" class = "breadcrumb">Home</a> >
 <a  href="../alphabet.htm" class = "breadcrumb">Profiles</a>
 
 <!--		<hr color = #842B45> -->
@@ -119,8 +119,8 @@ ga('create', 'UA-9984238-6', 'auto');
 
 <table border="0" width="100%" id="body" >
 	<tr>
-		
-		
+
+
 <div id = "search_results"> <!-- where search results show up -->
 
 </div> <!-- search results end -->
@@ -155,7 +155,7 @@ Revival</a>&quot; of the 1930s and have guided much of economics since. </p>
 in self-imposed exile,&nbsp; following the example of Mazzini and other Italian
 nationalists. Vilfredo was the third child (and first son) of his marriage to a
 Frenchwoman.</p>
-<p>The Pareto family returned to Genoa in 1852 where his father became a French 
+<p>The Pareto family returned to Genoa in 1852 where his father became a French
 teacher at a local school.&nbsp; Around 1859, they
 moved to Casale Monferrato (Piedmont), where his father had another
 teaching appointment in accounting and agriculture at the Istituto Leardi. In 1862, Pareto's father took a civil service job in the
@@ -163,10 +163,10 @@ ministry of agriculture, industry and trade in Turin, the Piedmontese (and now I
 provisional capital was moved to Florence (Tuscany), the <i>marchese</i> was
 forced to follow.&nbsp; But his son stayed behind in Turin to complete his
 studies.&nbsp;</p>
-<p>Vilfredo Pareto followed a conventional schooling, guided by his father. He 
-obtained his <i>Licenza de maturita</i> from the Royal Technical Institute in 
-Turin (1864), and proceeded to enroll at the University of Turin, where obtained a degree in mathematics and physics 
-in 1867.&nbsp; His first publication (1866) was published in his father's 
+<p>Vilfredo Pareto followed a conventional schooling, guided by his father. He
+obtained his <i>Licenza de maturita</i> from the Royal Technical Institute in
+Turin (1864), and proceeded to enroll at the University of Turin, where obtained a degree in mathematics and physics
+in 1867.&nbsp; His first publication (1866) was published in his father's
 journal.&nbsp;
 After a year of military service, Pareto signed up to take an advanced degree in
 civil engineering at the polytechnic institute of Turin. As his thesis on solid
@@ -175,12 +175,12 @@ were to characterize his later contributions to economics.&nbsp;</p>
 <p> After graduating
 at the top of his class in 1870, Pareto moved to Florence to take up a job as an
 engineer with the local branch of the Rome
-Railway Company (Società Strade Ferrate Romane), which had just been created 
+Railway Company (Società Strade Ferrate Romane), which had just been created
 from a merger.&nbsp; The annexation of Rome -- the final step in the
 unification of Italy -- happened that very year and, naturally, much debate
 swirled around the political future of the new nation.&nbsp; A radical democrat
 and &quot;<a href="../schools/manchester.htm">classical liberal</a>&quot;,
-Pareto had been energized in his youth by the liberal ideals of Cavour -- and 
+Pareto had been energized in his youth by the liberal ideals of Cavour -- and
 was consequently
 horrified at the Bismarckian-style interventionist state that was being called for by
 &quot;modern&quot; Italian politicians.&nbsp;&nbsp; The strongly-opinionated
@@ -192,17 +192,17 @@ while condemning Bismarckian paternalism.&nbsp; It was here that he made the
 acquaintance of the celebrated Peruzzi family of Florence.&nbsp; Pareto began
 attending the Peruzzi <i>salons</i> and imbibing in the political and
 intellectual milieu of post-<i>risorgimento</i> Italy.&nbsp;&nbsp;</p>
-<p>In 1873, Pareto quit his humdrum job to and moved to San Giovanni Valdarno to take up a more 
-responsible position with a local iron and steel company (Società per 
-l'Industria del Ferro).&nbsp;&nbsp; It was in dealing with the demands and&nbsp; 
+<p>In 1873, Pareto quit his humdrum job to and moved to San Giovanni Valdarno to take up a more
+responsible position with a local iron and steel company (Società per
+l'Industria del Ferro).&nbsp;&nbsp; It was in dealing with the demands and&nbsp;
 complaints of iron workers, that Pareto's interest in economics really picked
 up.&nbsp; During this time, he took many business trips to Germany, France,
 Belgium, Austria, etc. and soaked up not only the politics, but also the local
-economic and sociological literature.&nbsp;He became a founding member of the &quot;Società 
+economic and sociological literature.&nbsp;He became a founding member of the &quot;Società
 Adamo Smith&quot; in Florence, launched by <a href="ferrara.htm">Ferrara</a> in 1874.</p>
 <p>Pareto's first venture into economics came in 1877, in a celebrated address to the
 <i>Accademia dei Georgofili</i>. Pareto lashed out at the <a href="../schools/historic.htm">German
-Historical School</a> -- then enjoying a wave of 
+Historical School</a> -- then enjoying a wave of
 <a href="../schools/italian.htm">popularity in Italy</a> after the
 fall of the Cavourist liberal government in 1876 and the installation of a more
 interventionist&nbsp; government under Agostino Depretis.&nbsp; The
@@ -220,14 +220,14 @@ duties, Pareto had more time to reflect -- and, now as director, more issues to
 reflect upon, particularly with regard to government regulation and worker
 conditions.</p>
 <p>Around this time, Pareto decided to get into politics himself.&nbsp; In 1877,
-he had been elected to the municipal council of Valdano.&nbsp; Now, in 1880, 
+he had been elected to the municipal council of Valdano.&nbsp; Now, in 1880,
 Pareto
 decided to run for national parliament as the radical party candidate for Montevarchi.&nbsp;
 He lost.&nbsp; He tried again in 1882, this time as a deputy for Pistoia.&nbsp;
 He lost again.&nbsp;&nbsp;</p>
 <p>Pareto's up-close-and-dirty experience with the mechanisms of political
-double-dealing and patronage embittered him permanently.&nbsp; Henceforth, 
-Pareto would take up the politics of resentment against the &quot;corrupt&quot; system.&nbsp; 
+double-dealing and patronage embittered him permanently.&nbsp; Henceforth,
+Pareto would take up the politics of resentment against the &quot;corrupt&quot; system.&nbsp;
 He derided the
 Italian
 parliamentary system as a sham, a &quot;pluto-democracy&quot;, a fig leaf for
@@ -241,7 +241,7 @@ of <i>laissez-faire</i>, and yet happily putting up tariff walls and other
 protections for the profits of the rich.&nbsp; Urged by his friends to run for a
 seat again, Pareto would reply, &quot;I prefer to discover shame rather than be
 a part of it.&quot;&nbsp;</p>
-<p>In 1887, the Belgian economist Gustave <a href="molinari.htm">de Molinari</a> 
+<p>In 1887, the Belgian economist Gustave <a href="molinari.htm">de Molinari</a>
 spotted Pareto's
 tireless polemics in the press and invited him to submit articles on the Italian
 situation to the prestigious <i>Journal d'economistes</i>. Pareto happily
@@ -268,7 +268,7 @@ blocked.&nbsp;</p>
 then Italy's leading Neoclassical economist, and a friendship sparked between the
 two men..&nbsp; In 1891, Pareto published an article in the <i>Revue des deux
 mondes</i>, which favorably cited an article by Pantaleoni.&nbsp; The content of
-the article -- and the association between the serene academic and the revolted 
+the article -- and the association between the serene academic and the revolted
 engineer --
 came to the attention of the authorities and Pantaleoni was promptly dismissed
 from his teaching job at Bari.&nbsp;&nbsp;</p>
@@ -291,7 +291,7 @@ while Pareto remained a caustic, disputatious, aristocratic cynic.&nbsp;In
 spite of this, Walras decided that Pareto ought to succeed him.&nbsp; Pareto was
 appointed in 1893, and his position at Lausanne made permanent in
 1894.&nbsp;</p>
-<p>Doubtlessly, there were many people in Italy who were glad to see Pareto gone 
+<p>Doubtlessly, there were many people in Italy who were glad to see Pareto gone
 and safely
 hidden away in Switzerland.&nbsp; But from his new academic perch, Pareto's
 nerve only increased.&nbsp; His attacks on the Italian government continued in
@@ -339,7 +339,7 @@ the doctrines of the <a href="../schools/lausanne.htm">Lausanne
 School</a>.&nbsp; Interspersed with his presentations of pure economic theory
 were numerous asides on methodology and applied economics and extensive
 sociological observations.&nbsp;&nbsp; His recent reading of Karl <a href="marx.htm">Marx</a>
-and Social Darwinists like Herbert <a href="spencer.htm">Spencer</a> leaves its 
+and Social Darwinists like Herbert <a href="spencer.htm">Spencer</a> leaves its
 imprimatur.&nbsp;&nbsp;</p>
 <p>One of the contributions of the <i>Cours</i> was his exposition of &quot;Pareto's
 Law&quot; of income distribution.&nbsp; He argued
@@ -368,9 +368,9 @@ led to violent street demonstrations against the Italian government.&nbsp; In a
 pre-emptive attempt to avoid a mass uprising, the authorities clamped down hard
 on liberals, socialists any other potential troublemakers.&nbsp; Outspoken
 journalists and academics, like Pantaleoni, were dismissed and exiled. Pareto's
-&quot;Chronace&quot;&nbsp; were terminated in 1897.&nbsp; In Switzerland,&nbsp; Pareto assisted 
-and even housed many Italian liberals and socialists that had been chased out of Italy 
-(particularly after the 1898 May riots).&nbsp; When the Dreyfus affair broke out in 
+&quot;Chronace&quot;&nbsp; were terminated in 1897.&nbsp; In Switzerland,&nbsp; Pareto assisted
+and even housed many Italian liberals and socialists that had been chased out of Italy
+(particularly after the 1898 May riots).&nbsp; When the Dreyfus affair broke out in
 France, Pareto put his pen to work against the anti-Semitic
 French military authorities.&nbsp;</p>
 <p>In a famous 1900 <i>Rivista</i> article, Pareto suddenly changed direction.&nbsp; Heretofore a radical democrat,
@@ -389,7 +389,7 @@ really only aspired to enjoy the privileges and powers of governing.&nbsp;&nbsp;
 <p> Pareto resumed his task as political polemicist -- and went on a crusade to expose the
 sham of political ideology and doctrine.&nbsp; He condemned <a href="../schools/utopia.htm">socialists</a>
 of all stripes roundly in a 1902 book, but took particular aim at logically
-demolishing the &quot;new gospel&quot; of <a href="../schools/marxian.htm">Marxism</a>.&nbsp; 
+demolishing the &quot;new gospel&quot; of <a href="../schools/marxian.htm">Marxism</a>.&nbsp;
 Marx had sold a delusion, Pareto declared.&nbsp; The class struggle is eternal; the promised &quot;classless&quot; society
 that would emerge under communism was
 merely ideological fodder for socialist leaders to lay on their flock.&nbsp; Of
@@ -443,7 +443,7 @@ wines and a large cabinet of exquisite liquers.&nbsp; His wife ran off in 1901, 
 an Italian citizen, he could not legally divorce her.&nbsp; A Frenchwoman, Jane
 Régis moved in shortly afterwards, and they remained devoted companions for the
 rest of his life. He only married her in 1923, after he became a citizen of
-the city-state of Fiume and thus overcame the legal obstacles to divorcing his 
+the city-state of Fiume and thus overcame the legal obstacles to divorcing his
 first wife.</p>
 <p>Pareto used his time at
 Céligny to write his <i>Trattato di sociologia generale</i>, which was finally
@@ -556,8 +556,8 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 </p>
 
 <ul>
-  <li>&quot;Applicazioni del disegno axometrico&quot;, 1866, <i>Giornale dell'Ingegnere, 
-	Architetto ed Agronomo</i>, Pt. 1 (<a href="https://books.google.com/books?id=neLT0rmjl6IC&pg=PA689#v=onepage&q&f=false">p.689</a>), 
+  <li>&quot;Applicazioni del disegno axometrico&quot;, 1866, <i>Giornale dell'Ingegnere,
+	Architetto ed Agronomo</i>, Pt. 1 (<a href="https://books.google.com/books?id=neLT0rmjl6IC&pg=PA689#v=onepage&q&f=false">p.689</a>),
 	Pt. 2 (<a href="https://books.google.com/books?id=neLT0rmjl6IC&pg=PA745#v=onepage&q&f=false">p.745</a>)</li>
   <li><i>Principii fondamentali della teorie dell' elasticità dei corpi solidi
     e ricerche fondamentali sulla integrazione delle equazioni differenziali che
@@ -567,23 +567,23 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 	<a href="https://books.google.com/books?id=CEtTAAAAcAAJ&pg=PA138#v=onepage&q&f=false">
 	p.138</a></li>
 	<li>&quot;Discourse - sulla rappresentanza proporzionale&quot;,&nbsp; 1872, <i>
-	Bolletino Associazione per lo studio della Rappresentanza proporzionale</i> 
+	Bolletino Associazione per lo studio della Rappresentanza proporzionale</i>
 	(v.2), p.110.</li>
-  <li>&quot;Suffragio universale - lettera al march. Pallavicino&quot;, 1872, <i>Gazzetta del popolo</i> 
-	(Nov), [&quot;On 
+  <li>&quot;Suffragio universale - lettera al march. Pallavicino&quot;, 1872, <i>Gazzetta del popolo</i>
+	(Nov), [&quot;On
 	Universal Suffrage&quot;]</li>
-	<li>&quot;La rappresentanza proporzionale nella Società operaia di S.Giovanni in 
-	Val d'Arno&quot;, 1874, <i>Bolletino Associazione per lo studio della 
+	<li>&quot;La rappresentanza proporzionale nella Società operaia di S.Giovanni in
+	Val d'Arno&quot;, 1874, <i>Bolletino Associazione per lo studio della
 	Rappresentanza proporzionale</i> (v.4), p.459</li>
-  <li>&quot;Lo stato italiano industriale considerato specialmente secondo i giudizi 
-	della inchiesta industriale, Lettera al direttore dell' Economista&quot;, 1876 
+  <li>&quot;Lo stato italiano industriale considerato specialmente secondo i giudizi
+	della inchiesta industriale, Lettera al direttore dell' Economista&quot;, 1876
 	letters in<i> L'Economista</i> and<i> La Nazione</i></li>
-	<li>&quot;Il riscatto delle ferrovie&quot;, 1876, in <i>Il riscatto e l'esercizio 
+	<li>&quot;Il riscatto delle ferrovie&quot;, 1876, in <i>Il riscatto e l'esercizio
 	delle strade ferrate</i>, p.17</li>
 	<li>&quot;Die Eisenbahnen in Italien&quot;, 1876, <i>Italia</i> (v.3),
 	<a href="https://books.google.com/books?id=sSoQAAAAYAAJ&pg=PA174#v=onepage&q&f=false">
 	p.174</a></li>
-	<li>&quot;Il Disegno di Legge conto gli abusi del Clero&quot;, 1877, <i>Nuova 
+	<li>&quot;Il Disegno di Legge conto gli abusi del Clero&quot;, 1877, <i>Nuova
 	Antologia</i> (v.34),
 	<a href="https://books.google.com/books?id=JwgQAAAAYAAJ&pg=PA139#v=onepage&q&f=false">
 	p.139</a></li>
@@ -600,12 +600,12 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     dei Georgofili</i>,
 	<a href="https://books.google.com/books?id=OoQXAAAAYAAJ&pg=PA53#v=onepage&q&f=false">
 	p.53</a></li>
-	<li>&quot;Due disegni di legge sociale&quot;, 1883, <i>Rassegna di scienze sociali e 
+	<li>&quot;Due disegni di legge sociale&quot;, 1883, <i>Rassegna di scienze sociali e
 	politiche</i>,
 	<a href="https://books.google.com/books?id=5v8ZAAAAYAAJ&pg=PA353#v=onepage&q&f=false">
 	p.353</a></li>
-	<li>&quot;La legge sulla responsibilità civile dei padroni e imprenditori pei 
-	casi d'infortunio sul lavoro&quot;, 1883, <i>Rassegna di scienze sociali e 
+	<li>&quot;La legge sulla responsibilità civile dei padroni e imprenditori pei
+	casi d'infortunio sul lavoro&quot;, 1883, <i>Rassegna di scienze sociali e
 	politiche</i>,
 	<a href="https://books.google.com/books?id=5v8ZAAAAYAAJ&pg=PA521#v=onepage&q&f=false">
 	p.521</a></li>
@@ -623,11 +623,11 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     dei Georgofili</i>,
 	<a href="https://books.google.com/books?id=XsJMAAAAYAAJ&pg=PA430#v=onepage&q&f=false">
 	p.430</a></li>
-	<li>&quot;Se convegna fissare per legge un minimo al salario guadagnato e un 
+	<li>&quot;Se convegna fissare per legge un minimo al salario guadagnato e un
 	massimo alla richezza speculata&quot;, 1886, <i>Atti dell' Accademia
     dei Georgofili</i>&nbsp;
 	<a href="https://books.google.com/books?id=hIQXAAAAYAAJ&pg=PA103#v=onepage&q&f=false">
-	p.103</a> [English trans. &quot;Whether it is worth establishing by law a minimum 
+	p.103</a> [English trans. &quot;Whether it is worth establishing by law a minimum
 	wage and a maximum margin of profit&quot;] </li>
   <li>&quot;Sulla recrudescenza della protezione doganale in Italia&quot;, 1887, <i>
 	Atti della Reale Accademia Economico-Agraria dei Georgofili di Firenze</i>,
@@ -640,9 +640,9 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     dei Gerogofili</i>,
 	<a href="https://books.google.com/books?id=kpNaAAAAYAAJ&pg=PA26#v=onepage&q&f=false">
 	p.29</a></li>
-  <li>&quot;Letters from Italy&quot;, 1888-89, <i>Liberty</i> (v.6), Ltr.1 (<a href="http://library.libertarian-labyrinth.org/files/original/f9c0cb7eb403563908d909e13406eb81.pdf">Sep 
-	29</a>, p.6), Ltr.2 (<a href="http://library.libertarian-labyrinth.org/items/show/2837">Nov 
-	10</a>, p.5), Ltr 3 (<a href="http://library.libertarian-labyrinth.org/items/show/2840">Jan 
+  <li>&quot;Letters from Italy&quot;, 1888-89, <i>Liberty</i> (v.6), Ltr.1 (<a href="http://library.libertarian-labyrinth.org/files/original/f9c0cb7eb403563908d909e13406eb81.pdf">Sep
+	29</a>, p.6), Ltr.2 (<a href="http://library.libertarian-labyrinth.org/items/show/2837">Nov
+	10</a>, p.5), Ltr 3 (<a href="http://library.libertarian-labyrinth.org/items/show/2840">Jan
 	5</a>, p.7)</li>
 	<li>&quot;L'insegnamento dell' economia politica&quot;, 1890, <i>GdE</i>,
 	<a href="https://books.google.com/books?id=KFg2AQAAMAAJ&pg=PA533#v=onepage&q&f=false">
@@ -650,7 +650,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 	<li>&quot;Amenità protezioniste&quot;, 1890, <i>GdE</i>,
 	<a href="https://books.google.com/books?id=KFg2AQAAMAAJ&pg=PA670#v=onepage&q&f=false">
 	p.670</a></li>
-	<li>&quot;Socialismo e libertà&quot;, 1891, <i>Il pensiero italiano</i>. Pt. 1 
+	<li>&quot;Socialismo e libertà&quot;, 1891, <i>Il pensiero italiano</i>. Pt. 1
 	(p.227), Pt. 2 (p.424) [English trans. &quot;Socialism and Freedom&quot;] </li>
   <li>&quot;L'Italie économique&quot;, 1891, <i>Revue des deux mondes</i>,
 	<a href="https://books.google.com/books?id=7_QYAAAAIAAJ&pg=PA904#v=onepage&q&f=false">
@@ -665,9 +665,9 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     1892</span>, <i>The Chautauquan</i> (Jan),
 	<a href="https://books.google.com/books?id=tW1AAQAAMAAJ&pg=PA448#v=onepage&q&f=false">
 	p.448</a></li>
-	<li>&quot;Les nouvelles théories économiques&quot;, 1892, <i>Le monde économique</i> 
+	<li>&quot;Les nouvelles théories économiques&quot;, 1892, <i>Le monde économique</i>
 	(Jul 23)</li>
-	<li>&quot;Le sorti future della parte liberale&quot;, 1892, <i>Idea liberale</i> (Aug 
+	<li>&quot;Le sorti future della parte liberale&quot;, 1892, <i>Idea liberale</i> (Aug
 	28) [English trans. &quot;The future of the liberal side&quot;]</li>
 	<li><span lang="EN-GB">&quot;State Expenditures in Italy as Compared with the
     National Wealth&quot;, 1892</span>, <i>EJ</i>,
@@ -691,14 +691,14 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     V (October, 1893), <i>Giornale
     degli Economisti</i>. </li>
   <li>&quot;Lo imposto e la povera gente&quot;, 1892 <i>GdE </i>[<a href="https://books.google.com/books?id=x44-AQAAMAAJ&pg=PA621#v=onepage&q&f=false">gb</a>]</li>
-	<li>&quot;The Programme of the Giolotti Ministry&quot;, 1892, <i>The Speaker</i> (Oct 
+	<li>&quot;The Programme of the Giolotti Ministry&quot;, 1892, <i>The Speaker</i> (Oct
 	22),
 	<a href="https://books.google.com/books?id=XolNAAAAYAAJ&pg=PA500#v=onepage&q&f=false">
 	p.500</a></li>
 	<li>&quot;The Coming Elections in Italy&quot;, 1892, <i>The Speaker</i>, (Oct 29),
 	<a href="https://books.google.com/books?id=XolNAAAAYAAJ&pg=PA531#v=onepage&q&f=false">
 	p.531</a></li>
-	<li>&quot;The Result of the Italian Elections&quot;, 1892, <i>The Speaker</i>, (Nov 
+	<li>&quot;The Result of the Italian Elections&quot;, 1892, <i>The Speaker</i>, (Nov
 	26),
 	<a href="https://books.google.com/books?id=XolNAAAAYAAJ&pg=PA648#v=onepage&q&f=false">
 	p.648</a></li>
@@ -720,7 +720,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 	p.408</a></li>
   <li>&quot;Cronache&quot; (various columns, from March, 1893 to July, 1897), <i>Giornale
     degli Economisti</i> </li>
-  <li>&quot;Il dazio sul grano e il socialismo&quot;, 1894, <i>L'Idea Liberale</i> (Apr 1) 
+  <li>&quot;Il dazio sul grano e il socialismo&quot;, 1894, <i>L'Idea Liberale</i> (Apr 1)
 	[English trans. &quot;Socialism and the duty on grain&quot;]</li>
   <li>&quot;The Ethical State&quot;, 1894, <i>Idea liberale</i> </li>
   <li>&quot;Il massimo del utilità dato della libera concorenzia&quot;, 1894, <i>GdE</i> </li>
@@ -732,7 +732,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
   <li><i>Cours d'économie politique professé à l'université de Lausanne</i>,
     1896-7,
 	<a href="https://books.google.com/books?id=qPMzAQAAMAAJ&pg=PR1#v=onepage&q&f=false">
-	v.1</a> [<a href="http://www.institutcoppet.org/wp-content/uploads/2012/05/Cours-déconomie-politique-Tome-I-Vilfredo-Pareto.pdf">pdf</a>], v.2 
+	v.1</a> [<a href="http://www.institutcoppet.org/wp-content/uploads/2012/05/Cours-déconomie-politique-Tome-I-Vilfredo-Pareto.pdf">pdf</a>], v.2
 	[<a href="http://www.institutcoppet.org/wp-content/uploads/2012/05/Cours-déconomie-politique-Tome-II-Vilfredo-Pareto.pdf">pdf</a>]</li>
 	<li>&quot;Aggiunta allo studio sula curva delle entrate&quot;, 1897, <i>GdE</i> [<a href="https://books.google.com/books?id=hoBIAAAAYAAJ&pg=PA15#v=onepage&q&f=false">gb</a>]</li>
 	<li>&quot;Ultima risposta al prof. Edgeworth&quot;, 1897, <i>GdE</i> [<a href="https://books.google.com/books?id=hoBIAAAAYAAJ&pg=PA219#v=onepage&q&f=false">gb</a>]</li>
@@ -764,11 +764,11 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
     der Mathematischen Wissenschaften </i>[French transl. &quot;Economie
     Mathématique&quot; in <i>Encyclopèdie des sciences mathématiques</i>].<i>&nbsp;</i>&nbsp; </li>
   <li>&quot;Il Crepuscolo della Libertà&quot;, 1905, <i>Rivista d'Italia</i>. </li>
-	<li><i>Manuale di economia politica, con una introduzione alla scienza 
+	<li><i>Manuale di economia politica, con una introduzione alla scienza
 	sociale</i>, 1906 [Italian 1906 ed:
 	<a href="https://books.google.com/books?id=2jSYdhaOmMEC&pg=PR3#v=onepage&q&f=false">
-	bk</a>, <a href="https://archive.org/details/manualedieconomi00pareuoft">av</a>] 
-	[Expanded French 1909 ed, <i>Manual d'economique politique</i>]; [English 
+	bk</a>, <a href="https://archive.org/details/manualedieconomi00pareuoft">av</a>]
+	[Expanded French 1909 ed, <i>Manual d'economique politique</i>]; [English
 	1971 trans. <i>Manual of Political Economy</i>]</li>
   <li>&quot;L'économie et la sociologie au point de vue scientifique&quot;, 1907, <i>Rivista
     di Scienza</i>. </li>
@@ -790,15 +790,15 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 	v.2</a> [French 1917 trans, <i>Traité de
     sociologie générale</i>,
 	<a href="https://books.google.com/books?id=lfncXYNkipAC&pg=PR3#v=onepage&q&f=false">
-	v.1</a> [<a href="https://archive.org/details/traitdesociolo01pareuoft">av</a>], 
-	v.2 [<a href="https://archive.org/details/traitdesociolo02pare">av</a>]] [English 
-	1935 trans <i>Mind and Society</i>, v.1 [<a href="https://archive.org/details/mindsocietytratt01pare">av</a>], 
-	v.2 [<a href="https://archive.org/details/TheMindAndSocietyVolIii">av</a>], 
-	v.3 [<a href="https://archive.org/details/mindandsocietyvo029378mbp">av</a>], 
+	v.1</a> [<a href="https://archive.org/details/traitdesociolo01pareuoft">av</a>],
+	v.2 [<a href="https://archive.org/details/traitdesociolo02pare">av</a>]] [English
+	1935 trans <i>Mind and Society</i>, v.1 [<a href="https://archive.org/details/mindsocietytratt01pare">av</a>],
+	v.2 [<a href="https://archive.org/details/TheMindAndSocietyVolIii">av</a>],
+	v.3 [<a href="https://archive.org/details/mindandsocietyvo029378mbp">av</a>],
 	v.4 [<a href="https://archive.org/details/mindandsocietyvo029091mbp">av</a>]
     Extracts<a href="http://diogenes.baylor.edu/WWWproviders/Larry_Ridener/courses/CIRCELIT.HTML">
     (1) </a>,
-    <a href="http://home.mira.net/~gaffcam/phil/pareto.htm">(2)</a>, <a href="http://www.marxists.org/reference/subject/philosophy/works/pareto.htm">(3)</a>] 
+    <a href="http://home.mira.net/~gaffcam/phil/pareto.htm">(2)</a>, <a href="http://www.marxists.org/reference/subject/philosophy/works/pareto.htm">(3)</a>]
 	[extract in <a href="http://www.eumed.net/cursecon/economistas/textos/Pareto-sobre_la_utilidad.htm">Spanish</a>]</li>
   <li>&quot;Discorso per il Giubileo&quot;, 1917, <i>La Riforma Sociale</i> - <a href="http://www.unil.ch/cwp/jubile/POCJ1.html">Jubillee
     speech manuscript</a></li>
@@ -809,7 +809,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
   <li><i>Trasformazione della Democrazia</i>, 1921.</li>
   <li><i>Scritti Teorici</i>, 1952 (ed. Demaria)&nbsp;</li>
   <li><i>Mon Journal</i>, 1958&nbsp;</li>
-  <li><i>Lettere a Maffeo Pantaleoni</i>, 1960, v.1 (1890-1896), v.2 (1897-1906) 
+  <li><i>Lettere a Maffeo Pantaleoni</i>, 1960, v.1 (1890-1896), v.2 (1897-1906)
 	and v.3 (1907-1923) [at BEIC:
 	<a href="http://gutenberg.beic.it/webclient/DeliveryManager?pid=5488919&search_terms=DTL6">
 	v.1</a>,
@@ -827,7 +827,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
 </ul>
 
 <!-- #EndEditable --></td>
-		
+
 	</tr>
 
 <a href="#top" class = "profiles_tab", style="float:right;">
@@ -860,7 +860,7 @@ and the <a href="../schools/austrian.htm">Austrians</a>.&nbsp;
   <li>&quot;Review of Pareto's Italie economique article&quot;, 1892, <i>Review of Reviews</i>,
 	<a href="https://books.google.com/books?id=FHNHAAAAYAAJ&pg=PA613#v=onepage&q&f=false">
 	p.613</a></li>
-	<li>&quot;Review of Pareto's Considerazione article&quot;, by Francis Ysidro <a href="edgeworth.htm">Edgeworth</a>, 
+	<li>&quot;Review of Pareto's Considerazione article&quot;, by Francis Ysidro <a href="edgeworth.htm">Edgeworth</a>,
 	1892, <i>EJ</i>,
 	<a href="https://books.google.com/books?id=wd04AAAAMAAJ&pg=PA590#v=onepage&q&f=false">
 	p.590</a></li>
@@ -879,7 +879,7 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
   <li>&quot;Recent Contributions to Mathematical Economics, I &amp; II&quot;, by Francis
     Ysidro <a href="edgeworth.htm">Edgeworth</a>,1915, <em>EJ</em>&nbsp; [<a href="../texts/edgeworth/edgewpapers/edgew2theta.pdf">HET]</a></li>
   <li>&quot;Review of Pareto's <i>Cours d'économie politique</i>, Vol. 1&quot;
-    by Georges <a href="sorel.htm">Sorel</a>, 1896, <i>Le devenir social</i>, Ann. 2, N. 5, May.&nbsp; 
+    by Georges <a href="sorel.htm">Sorel</a>, 1896, <i>Le devenir social</i>, Ann. 2, N. 5, May.&nbsp;
 	[<a href="../texts/pareto/sorel1896pareto1.pdf">HET</a>]</li>
   <li>&quot;Review of Pareto's <i>Cours d'économie politique</i>, Vol. 2&quot;
     by Georges <a href="sorel.htm">Sorel</a>, 1897, <i>Le devenir social</i>, Ann. 3, N. 5, May.&nbsp;[<a href="../texts/pareto/sorel1897pareto2.pdf">HET</a>] </li>
@@ -891,7 +891,7 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
   <li>&quot;Review of Pareto's <i>Manuel d'économie politique</i>&quot; by E. d'Eichthal,
     1909, <i>Revue critique d'histoire et de littérature</i> </li>
 	<li>&quot;Vilfredo Paretos Manuel d'économie politique&quot;, by Knut
-	<a href="wicksell.htm">Wicksell</a>, 1913, <i>ZfVSV</i>,&nbsp; 
+	<a href="wicksell.htm">Wicksell</a>, 1913, <i>ZfVSV</i>,&nbsp;
 	p.132 [<a href="https://archive.org/stream/zeitschriftfrv22geseuoft#page/132/mode/2up">av</a>]</li>
   <li>&quot;Review of Pareto's <i>Traité de sociologie générale</i>&quot; by
     C. Bouglé, 1919, <i>Revue historique</i> [<a href="../texts/pareto/bougle1919pareto.pdf">HET</a>]</li>
@@ -900,7 +900,7 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
 </ul>
 		<p><b>Modern</b></p>
 		<ul>
-  <li>Centre Walras Pareto d'études interdisciplinaires de la pensée économique 
+  <li>Centre Walras Pareto d'études interdisciplinaires de la pensée économique
 	et politique at Lausanne [<a href="http://www.unil.ch/cwp/fr/home/menuinst/recherche/histoire-de-la-pensee-econom/histoire-contextuelle/bio-pareto.html">website</a>]</li>
 	<ul>
   <li>Cercle d'études Paretiennes at Lausanne. </li>
@@ -915,14 +915,14 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
 	<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_torino.pdf">Il Fondo Pareto</a>
     of the Banca Popolare de Sondria.&nbsp; Notiziario includes:&nbsp; .&nbsp; </li>
 	<ul>
-  <li>&quot;Vilfredo Pareto dall'economia alla sociologia&quot; by Carlo 
+  <li>&quot;Vilfredo Pareto dall'economia alla sociologia&quot; by Carlo
 	Mongardini</li>
-  <li>&quot;Un uomo e le sue lettere&quot; by Pier Carlo Della Ferrara, 1997&nbsp; 
+  <li>&quot;Un uomo e le sue lettere&quot; by Pier Carlo Della Ferrara, 1997&nbsp;
 	[<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_uomo.pdf">pdf</a>]</li>
   <li>&quot;Vilfredo Pareto a 100 anni dal "Cours d'économie politique&quot;,
     by Della Ferrara, 1998 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_torino.pdf">pdf</a>]</li>
   <li>&quot;Si nasce per ricordare&quot; by Della Ferrara, 1998 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_milano.pdf">pdf</a>]</li>
-  <li>&quot;Le lettere familiari di Vilfredo Pareto&quot; by Della Ferrara, 1999 
+  <li>&quot;Le lettere familiari di Vilfredo Pareto&quot; by Della Ferrara, 1999
 	[<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_famiglia.pdf">pdf</a>]</li>
   <li>&quot;La giovinezza e gli studi di Vilfredo Pareto&quot;&nbsp; by
     Alessandro Melazzini, 1999 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_giovinezza.pdf">pdf</a>]</li>
@@ -930,26 +930,26 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
   <li>&quot;Pareto e il salotto Peruzzi&quot;&nbsp; by A. Melazzini, 2000 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_peruzzi.pdf">pdf</a>]</li>
   <li>&quot;L'arrivo di Pareto alla Società del Ferro (1873-1875)&quot;
     by&nbsp; A. Melazzini, 2000 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_arrivo.pdf">pdf</a>]</li>
-  <li>&quot;Vilfredo Pareto "signore incaricato" in un'impresa zoppicante (1875-1877)&quot; 
+  <li>&quot;Vilfredo Pareto "signore incaricato" in un'impresa zoppicante (1875-1877)&quot;
 	by&nbsp; A. Melazzini, 2000&nbsp; [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_zoppic.pdf">pdf</a>]</li>
-  <li>&quot;Pareto e il personale delle ferriere del Valdarno&quot; by A. 
+  <li>&quot;Pareto e il personale delle ferriere del Valdarno&quot; by A.
 	Melazzini, 2001 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_personale.pdf">pdf</a>] </li>
-  <li>&quot;Pareto teorico e Pareto pratico&quot;&nbsp; by A. Melazzini&nbsp;&nbsp; 
+  <li>&quot;Pareto teorico e Pareto pratico&quot;&nbsp; by A. Melazzini&nbsp;&nbsp;
 	[<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_teorico-pratico.pdf">pdf</a>]</li>
-	<li>&quot;L'epistemologia della scienza sociale: Barone allievo di Pareto?&quot; by 
+	<li>&quot;L'epistemologia della scienza sociale: Barone allievo di Pareto?&quot; by
 	Catta Eliana Gentilucci, 2001 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_barone.pdf">pdf</a>]</li>
-	<li>&quot;Vilfredo Pareto dall'economia alla sociologia&quot; by Franco Monteforte, 
+	<li>&quot;Vilfredo Pareto dall'economia alla sociologia&quot; by Franco Monteforte,
 	2002 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_22giu02.pdf">pdf</a>]</li>
-	<li>Presentation of Vilfredo Pareto (1848-1923). L'uomo e lo scienziato, 2002.[<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_convegno_22giu02.pdf">pdf</a>], 
+	<li>Presentation of Vilfredo Pareto (1848-1923). L'uomo e lo scienziato, 2002.[<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_convegno_22giu02.pdf">pdf</a>],
 	also [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_convegno_31ott02.pdf">pdf</a>]</li>
 	<li>&quot;L'ingiuria passa, la fama resta&quot; by Sergio Ricossa, 2004 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_ingiuria.pdf">pdf</a>]</li>
-	<li>&quot;Quattro lettere di Vilfredo Pareto a Edoardo Giretti (febbraio 1901- 
+	<li>&quot;Quattro lettere di Vilfredo Pareto a Edoardo Giretti (febbraio 1901-
 	giugno 1903)&quot; by Lucio d'Angelo, 2005 [<a href="http://www.popso.it/fondopareto/notiziario_frames/artic_giretti.pdf">pdf</a>]</li>
-	<li><a href="http://www.popso.it/fondopareto/icono.html">Photographs</a> of 
+	<li><a href="http://www.popso.it/fondopareto/icono.html">Photographs</a> of
 	Pareto, <a href="http://www.popso.it/fondopareto/icono.html">drawings</a>,
 	<a href="http://www.popso.it/fondopareto/icono.html">other</a></li>
   </ul>
-    <li><i>Vilfredo Pareto (1848-1923). L'uomo e lo scienziato</i>, edited by G. 
+    <li><i>Vilfredo Pareto (1848-1923). L'uomo e lo scienziato</i>, edited by G.
 	Manca, 2002.</li>
   <li><a href="http://www.unil.ch/cwp/docs/POC.html">Annoucement of <i>Oeuvres complètes de Vilfredo Pareto</i></a>,
     ed. G. Busino </li>
@@ -958,7 +958,7 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
 	<li>&quot;Pareto: Manual of Political Economy&quot;, by John S. <a href="chipman.htm">
 	Chipman</a>, 2002 [<a href="http://www.econ.umn.edu/~jchipman/DALLOZ5.pdf">pdf</a>]</li>
   <li> &quot;Pareto and Contemporary Economic Theory&quot; by John S.
-	<a href="chipman.htm">Chipman</a>, 2006, <i>Rivista intern. sci. econ. comm</i>. 
+	<a href="chipman.htm">Chipman</a>, 2006, <i>Rivista intern. sci. econ. comm</i>.
 	[<a href="http://www.econ.umn.edu/~jchipman/MILAN6.pdf">pdf</a>]</li>
   <li><a HREF="http://laf.cioe.com/~jheinze/pareto.html">Biography</a> of Pareto - in English.
   </li>
@@ -995,20 +995,20 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
   <li><a href="http://www.multimania.com/sociol/socio/autob/pareto.htm">Pareto Page</a> (in
     French)</li>
   <li><a href="http://www.pareto.co.uk/vilfredo.htm">Pareto Consulting</a>?!&nbsp; (don't ask)</li>
-	<li>&quot;Bibliographie Chronologique des ecrits de Vilfredo Pareto&quot;, by G. 
+	<li>&quot;Bibliographie Chronologique des ecrits de Vilfredo Pareto&quot;, by G.
 	Busino, 1975,&nbsp; <i>Oeuvres complètes</i>, v.20&nbsp; [prev:
 	<a href="https://books.google.com/books?id=1kgPkOqke6gC&lpg=PP1&pg=PA71#v=onepage&q&f=false">
 	p.71</a>]</li>
-	<li>&quot;Bibiographia Chronolgica di Vilfredo Pareto&quot; by Fiorenzo Mornati, 2006 
+	<li>&quot;Bibiographia Chronolgica di Vilfredo Pareto&quot; by Fiorenzo Mornati, 2006
 	[<a href="http://www.popso.it/fondopareto/biblio_frames/bibliografia_pareto_mornati_2005.pdf">pdf</a>]; </li>
-	<li>&quot;Cronologia della Vita&quot;, p.779 [<a href="http://www.cairn.info/lettres-et-correspondances--9782600041232-page-779.htm">online</a>] 
-	and &quot;Bibliografia cronologica di Vilfredo Pareto&quot;, 1989, <i>Pareto: v.30 
+	<li>&quot;Cronologia della Vita&quot;, p.779 [<a href="http://www.cairn.info/lettres-et-correspondances--9782600041232-page-779.htm">online</a>]
+	and &quot;Bibliografia cronologica di Vilfredo Pareto&quot;, 1989, <i>Pareto: v.30
 	Lettres et Correspondences</i>, p.785 [<a href="http://www.cairn.info/lettres-et-correspondances--9782600041232-page-785.htm">online</a>]</li>
 	<li><a href="http://agso.uni-graz.at/lexikon/klassiker/pareto/37bio.htm">
 	Pareto entry</a> at 50 Klassiker der Soziologie, Graz</li>
 	<li><a href="http://www.treccani.it/enciclopedia/pareto-vilfredo-marchese/">
 	Pareto entry</a> at Treccani.it</li>
-	<li><a href="http://www.britannica.com/biography/Vilfredo-Pareto">Pareto 
+	<li><a href="http://www.britannica.com/biography/Vilfredo-Pareto">Pareto
 	entry</a> at Britannica</li>
 	<li><a href="https://en.wikipedia.org/wiki/Vilfredo_Pareto">Wikipedia</a></li>
 </ul>
@@ -1055,7 +1055,7 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
 <div id = "foot_logo_box"> <!-- begin foot logo box -->
 	    <a href="../home.htm">
 	<img class = "het_logo" src="../hetimages/logo.gif" alt="History of Economic Thought Website logo" id="het_logo_foot" width="80" height="83" border="0"></a>
-	   
+
  </div> <!-- end of foot_logo box -->
 <div id = "footnav_box"> <!--not really needed -->
 
@@ -1065,10 +1065,10 @@ of Pareto's <i>Manuale di Economia Politica</i>&quot;, by Philip H. <a href="wic
 	    <li class="footnav-item"><a href="../thought.htm">Schools of Thought</a></li>
 	    <li class="footnav-item"><a href="../essays.htm">Essays & Surveys</a></li>
 	    <li class="footnav-item"><a href="../contact.htm">Contact</a></li>
-	</ul> 
+	</ul>
 </div> <!-- end of footnav box -->
 
-<div id = "foot_inet_box"> 
+<div id = "foot_inet_box">
 		<a href="http://ineteconomics.org/" target="_blank">
 		<img src="../hetimages/inet_logo_small75.gif" alt="INET logo" border="0" width="135" height="34"></a>
 	</div> <!-- inet_logo_box ends -->

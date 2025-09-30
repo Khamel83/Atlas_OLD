@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A special purpose acquisition company is a publicly traded shell company that raises a pot of money to go out and find a private company, me
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SPAC PIPE insider trading
-    
-  
+
+
 
 A special purpose acquisition company is a publicly traded shell company that raises a pot of money to go out and find a private company, merge with it, and take it public. When the SPAC goes public, it sells shares for $10 each and puts the money in the pot; then the shares trade on the stock exchange while it looks for a target. Initially, they should trade at roughly $10, since they represent a claim on $10 in the pot of cash. But then the SPAC finds a deal, negotiates it, signs it, and announces it to the market, and then the shares of the SPAC will trade to reflect the market’s view of the deal. If the deal is good, the SPAC shares will trade up, to $12 or $15 or $35 or whatever. If the deal is bad, the SPAC shares will probably trade at about $10, since SPAC investors who don’t like the deal can get their money back instead of rolling their shares into the new company.
 That feature of SPACs — that investors who don’t like the deal can get their money back — is a little annoying for the target company. If you are a private company and you sign a deal with a $200 million SPAC to go public, you are hoping to get the SPAC’s $200 million: Like an initial public offering, a SPAC merger is not just a way to get a stock-exchange listing but also a way to raise money. But the SPAC’s shareholders can take their money back, so you don’t actually know, when you sign the deal, how much money you will get. Could be $200 million, could be $10 million, could be zero.
@@ -89,37 +89,37 @@ On August 1, 2020, Matthaei paid approximately $38,500 for Wygovsky and his fami
 
 The classic way for insider trading to work is that there is an insider with the information who cannot trade on it because it would be too obvious, so he gives the information to his friend, the friend trades on it, and then the friend pays the insider back for the information. The most traditional way for the friend to pay back the insider is by handing him a paper bag full of cash in a parking lot, but really you are limited only by your imagination, and I guess by the amount of profits. If you make $1.5 million on an insider tip, I suppose the classy way to thank the tipper is by paying for his private jet from St. Barths to Nantucket.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bloodbath
-    
-  
+
+
 
 We  talked last month about Bed Bath & Beyond Inc.’s corporate financing strategy. A few months ago, Bed Bath’s stock was trading at about $3, and it was about to file for bankruptcy, which would almost certainly cause the stock to jump to $0 and stay there. (There is not enough money to pay creditors, and surely nothing left over for shareholders.) That would be a sad outcome, and Bed Bath tried something different: It decided to sell as much stock as possible to try to raise money to put off bankruptcy. Maybe it would work, the stock would rally, they’d sell a bunch of stock, they’d pay off their debt and everything would be great. Or maybe it would fail, the stock would keep declining, they’d sell a bunch of stock anyway, and they’d raise some cash to give the creditors a slightly better recovery in bankruptcy. 
 Bed Bath started on this plan in February, and by the end of March (1) it had sold about 311 million shares (almost three times as many as it had outstanding in January), (2) it had raised about $360 million and (3) it had driven its stock price down to $0.80. Fine, good, great work. Bad for the share price ($0.80 is less than $3), in a sense, but better than the alternative of bankruptcy ($0.80 is more than $0). We talked about this in March because Bed Bath was slightly shifting the form of this plan — it had been selling the stock in a   complicated expensive way to an investor called Hudson Bay Capital, which then sold it to Bed Bath’s retail investors, and in March it stopped that and started selling the stock to those retail investors in a more straightforward way
@@ -145,11 +145,11 @@ In the event, Hertz’s business recovered, the equity had value,  the retail in
 The core idea of U.S. securities law is disclosure: Companies should accurately and completely disclose their situations to investors, and then investors get to make up their own minds about what stocks to buy and how much to pay. In weird and bubbly and meme-y times, that idea makes people nervous: “Sure sure sure you have disclosed all your financial information, but you are bankrupt, how can you sell stock to people? How can they buy it?” And so there is a temptation to meddle, to restrict trades even with full disclosure, to protect investors from their own fully informed but apparently crazy decisions. With Hertz, that happens to have been a mistake.
 I suppose that gives Bed Bath a little more room to maneuver: It is tempting for regulators to second-guess retail investors’ decisions to buy shares of bankrupt-ish meme-stock companies, and the SEC succumbed to that temptation with Hertz and was wrong. And now Bed Bath is warning of bankruptcy and pounding out as much stock as its retail investors will buy, and they keep buying it.
 
-  
-    
+
+
       X
-    
-  
+
+
 
 Sure   fine whatever:
 
@@ -165,11 +165,11 @@ Elsewhere  in X news:
 Mr. Musk said he was no longer Twitter’s chief executive officer, joking that his dog, Floki, technically held that job. He said he had no one in mind to take over as Twitter boss right now.
 Again the corporate formalities just don’t matter very much: Twitter/X is a private company, Musk owns the large majority of its shares and controls it completely, and he is a micromanager with very specific views on how he wants it to be run. If you are the “CEO,” you are not making big strategic decisions; you are just implementing Musk’s whims of the day. He might as well give the job to his dog.
 
-  
-    
+
+
       FTX
-    
-  
+
+
 
 If you are a big law firm hired to work on a big case for a big company, your basic approach is going to be leaving no stone unturned. You will put a huge team on the case and pursue every possible avenue, even ones that contradict each other. You never know what will work out, and you have lots of associates who can be staffed on the case, and — this is crucial — you bill by the hour, so you try everything and see what sticks. Some effort will be wasted, of course, but you can bill the client for all of it, and the client understands that in an important matter it is better to waste a lot of effort than to miss something critical because you decided it wasn’t worth pursuing.
 If you are a big law firm hired to work on a big bankruptcy, there will be some constraints on this approach, because your bills will be public and subject to court approval and, you know, the client is bankrupt, so it can’t afford to be quite as lavish with your time as a non-bankrupt client would be. Still, the basic approach is kind of in the DNA of big law firms, so it’s hard to resist.
@@ -184,11 +184,11 @@ Lawyers also corresponded with Ray on tax issues. One fee was to “analyze poss
 I   wrote on Monday that Ray “was hired as the CEO of FTX to put it into bankruptcy, to steer it through bankruptcy, and to maximize recovery for FTX’s customers and other creditors, and he has spent a lot of his time publishing gleeful reports about how bad everything at FTX is and how incompetent and criminal its former managers, led by former CEO Sam Bankman-Fried, were.” And I suggested that there might be some tension between publishing all those reports about FTX’s badness, and also trying to reopen it for business as though nothing bad had happened.
 But, look, fair enough, if I ran S&C’s FTX team, I would staff an army of lawyers on Project Everything Is Fine and We’re Rebooting FTX As the World’s Leading Crypto Exchange, and I would staff an entirely separate army of lawyers on Project Dig Up Every Possible Item of Dirt About FTX to Prove It’s the Worst Company Ever, and I’d let them both work in parallel and see what pans out. And both of those teams would be separate from the core team on Project Just Find Out Where All the Assets Are and Liquidate Them to Pay Creditors. It’s fine! Plenty of lawyers, plenty of money, this is what you do.
 
-  
-    
+
+
       Who controls an imaginary company?
-    
-  
+
+
 
 If you buy some shares of a public company, and you use your rights as a fairly tiny shareholder to call a shareholder meeting to replace the chief executive officer of the company, and nobody shows up to the meeting but you, and you vote your shares to replace the CEO with yourself, and then you send all of the company’s money to yourself, is that … does that work? No, no it does not, for tons of reasons (it is somewhere between hard and impossible for shareholders of most public companies to call special meetings, if it happens lots of investors will show up, shareholders vote on the board and not the CEO directly, the CEO can’t just wire herself the company’s money, etc.), but it is funny to imagine.
 Also if the company exists in a video game I guess you can do it. Here is a story about  corporate activism in the multiplayer game EVE Online:
@@ -203,69 +203,69 @@ Not that long ago, if you wanted to exploit the under-thought-out voting mechani
 Elsewhere, here is an Andreessen Horowitz report on the “State of Crypto 2023”:
 We believe recent setbacks underscore the failure of opaque, centralized systems in contrast to the resilience of decentralized infrastructure. We believe decentralized computing platforms can also counter the trend of power consolidating into the hands of a few giant tech corporations. The internet needs web3. Those who understand this will fight for the future of these technologies.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 EY  scraps break-up plan after months of internal dissent. Private Equity’s Latest Money-Making Trade:   Buying Its Own Debt. For  Regional Banks, Surviving Won’t Be the Same as Thriving. Buffett Says More Bank Failures Are Likely But   Depositors Are Safe. Big Banks That Shored Up First Republic Pushed to   Boost Reserves. Blue Owl Launches Business to Invest in Fund Managers’ Prized Assets. Employees Call Out   Locker-Room Culture at Phoenix Suns Owner’s Company.  Followers Describe Allure of Chinese Businessman Charged With $1 Billion Fraud. Glencore offers $8.2bn cash sweetener in  takeover bid for Teck. Thoma Bravo lost out in race for coveted tech group amid  antitrust fears. Exxon Deal Hunt Signals Possible  Shale M&A Wave. Inside  Rupert Murdoch’s Succession Drama. Crypto VC Funding Plunges by 80% in Dire Quarter for Startups.   TRX Coin Linked to Justin Sun’s Tron Crypto Platform Drops on Binance US Delisting Plan. Former Outcome Health Executives Found Guilty of Fraud. Javice to Have   No JPMorgan Contact, Except About Mortgage.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or at least there was back in the recent SPAC boom. As SPAC financing has gotten harder recently, it has become more common for companies to do SPAC deals where all the money is withdrawn and the target just gets a listing.
 
 
   [2] Though sometimes the whole deal will be conditional on some maximum withdrawal amount, so if everyone (or more than 50%, etc.) in the SPAC withdraws their money then the whole deal is off and the target gets nothing.
 
 
-  [3] Also there is some sense in which you shouldn’t have to trade, since after all the whole point of the wall-cross is that they are offering you the opportunity to invest in the SPAC deal at $10 per share, so you don’t need to go insider trade by buying stock in the market at $10 per share. You can make basically the same bet by just agreeing to the PIPE. Still you get more flexibility by buying in the market: You can buy the stock now and dump it at a profit as soon as the deal is announced, instead of waiting for the deal to close and being locked up for a while in the PIPE. Also a SPAC normally has warrants, publicly-traded options to buy its stock, and you can buy the warrants to make a leveraged bet on the stock. Basically insider trading on a SPAC wall-cross is a quicker and cheaper way to bet on the SPAC than actually investing in the PIPE. 
+  [3] Also there is some sense in which you shouldn’t have to trade, since after all the whole point of the wall-cross is that they are offering you the opportunity to invest in the SPAC deal at $10 per share, so you don’t need to go insider trade by buying stock in the market at $10 per share. You can make basically the same bet by just agreeing to the PIPE. Still you get more flexibility by buying in the market: You can buy the stock now and dump it at a profit as soon as the deal is announced, instead of waiting for the deal to close and being locked up for a while in the PIPE. Also a SPAC normally has warrants, publicly-traded options to buy its stock, and you can buy the warrants to make a leveraged bet on the stock. Basically insider trading on a SPAC wall-cross is a quicker and cheaper way to bet on the SPAC than actually investing in the PIPE.
 
 
   [4] Still not *that* straightforward; there’s a complicated purchase agreement with its broker, B. Riley Principal Capital II LLC, in which B. Riley is buying shares at the volume-weighted average price and selling them into the market.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -276,46 +276,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cijhy6.5jf6/7d1375a0.gif" alt="" border="0" /></a>

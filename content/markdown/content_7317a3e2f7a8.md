@@ -51,7 +51,7 @@ if (!d.getElementById(id)) {
                     document.querySelectorAll('a[target="_blank"]').forEach(link => {
                         link.setAttribute('rel', 'noopener noreferrer');
                     });
-                });</script> 
+                });</script>
  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">var dataLayer_content = {"pageTitle":"Oak Tree Road is a Street of Dreams for Lovers of South Asian Cuisine","pagePostType":"post","pagePostType2":"single-post","pageCategory":["eat-drink"],"pageAttributes":["edison","middlesex-county"],"pagePostAuthor":"New Jersey Monthly","pagePostDate":"May 1, 2017","pagePostDateYear":2017,"pagePostDateMonth":5,"pagePostDateDay":1,"pagePostDateDayName":"Monday","pagePostDateHour":5,"pagePostDateMinute":0,"pagePostDateIso":"2017-05-01T05:00:51-04:00","pagePostDateUnix":1493614851};
 	dataLayer.push( dataLayer_content );</script> <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -233,13 +233,13 @@ createCookie('wiggle_seen','wiggle_seen',30);</script> <div class="site-branding
                                 const content = document.querySelector('.content')
                                 const pTags = document.querySelectorAll('.content > p')
 								let randomArticlePosition = '5'
-								
+
 								try {
        								randomArticlePosition = parseInt(randomArticlePosition)
 								} catch (error) {
 									randomArticlePosition = 0
 								}
-								
+
 								if (randomArticlePosition != 0) {
 									if (pTags.length > randomArticlePosition) {
 										if (randomArticlePosition - 2 < 0) {

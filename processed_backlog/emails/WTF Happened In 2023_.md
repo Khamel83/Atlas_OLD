@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/wtf-happened-in-2023
 
-Welcome to the 797 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 209,294 smart, curious folks by subscribing here: 
+Welcome to the 797 newly Not Boring people who have joined us since last Tuesday! If you haven’t subscribed, join 209,294 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Pesto [ https://link.sbstck.com/redirect/cdd878bc-112f-48c1-bfb5-058061da2e90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Pesto [ https://link.sbstck.com/redirect/cdd878bc-112f-48c1-bfb5-058061da2e90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the easiest way to recruit and hire high-quality developers in emerging markets. Through its plug-and-play platform, you can quickly source, recruit, and hire affordable top-tier developers. Pesto [ https://link.sbstck.com/redirect/cdd878bc-112f-48c1-bfb5-058061da2e90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] wades through the noise so you don’t have to. 
 Pesto [ https://link.sbstck.com/redirect/cdd878bc-112f-48c1-bfb5-058061da2e90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] becomes your local team to:
@@ -17,10 +17,10 @@ Hire based on local salaries and regulations
 Pesto [ https://link.sbstck.com/redirect/cdd878bc-112f-48c1-bfb5-058061da2e90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] moves fast – you can go from demo to developer in less than two weeks. The platform is already used by dozens of enterprise clients and startups like Alloy, Pulley, and Snorkel AI to scale their engineering teams.
 Give them a shot & enjoy a 25% discount on your first hire when you mention "Not Boring".
 Hi friends 👋,
-Happy Wednesday! Apologies for getting this one out a day late — I was a little under the weather but back at it and feeling good. 
+Happy Wednesday! Apologies for getting this one out a day late — I was a little under the weather but back at it and feeling good.
 Every week in the Weekly Dose of Optimism, we highlight five stories of the incredible things that humans pull off. The Weekly Dose started as a small fight back against the prevailing sense of pessimism in the air that I described in Optimism [ https://link.sbstck.com/redirect/bbd9aa57-7e3d-4ecb-bf4c-023daee98e9a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-Recently, though, Dan and I have noticed the winds shifting. There’s a growing sense of optimism beyond this little newsletter. We are so back. 
-Let’s get to it. 
+Recently, though, Dan and I have noticed the winds shifting. There’s a growing sense of optimism beyond this little newsletter. We are so back.
+Let’s get to it.
 WTF Happened in 2023?
 When economic historians in 2073 look back on the past fifty years of growth and abundance, they’ll pull up a bunch of charts, and one question will jump out at them: WTF Happened In 2023?
 Maybe I’m drunk on a cocktail of optimism and technological progress, but it feels like 2023 is the turning point: from Stagnation to Acceleration.

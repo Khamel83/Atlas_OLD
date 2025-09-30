@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Yeesh! UBS Group AG is planning to cut more than half of Credit Suisse Group AG’s 45,000-strong workforce starting next month as a result of
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       UBS vs. CS
-    
-  
+
+
 
  Yeesh!
 
@@ -80,37 +80,37 @@ UBS is hoping to retain the majority of Credit Suisse’s private bankers, thoug
 
 By the way, this model is oversimplified. In particular, in risk businesses at investment banks, some execution work is not worth doing: If you are trading derivatives that reliably lose money, or making loans to clients who are not creditworthy, you should just stop doing that. In some ways this is a form of marketing: A good way for an investment bank to gain market share is to do trades with negative risk-adjusted returns, because lots of people will want to be on the other side of those trades. The team at Credit Suisse that   gave synthetic prime brokerage financing to Archegos should just stop, and   it did. One way for UBS to save on headcount is by no longer having to compete with Credit Suisse for deals. Another way for UBS to save on headcount is by no longer doing whole categories of deals that Credit Suisse did (the ones that blew up Credit Suisse). The less competition there is among big banks, the less any bank will feel the need to take dumb risks to win business.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Lordstown
-    
-  
+
+
 
 In about 2020, a lot of electric-vehicle companies went public in the US and raised money by merging with special-purpose acquisition companies. Some general features of these de-SPAC deals were:
 	The EV company was not all that far along in developing a commercially viable vehicle.	But it gave shareholders projections saying that it would sell a zillion vehicles at huge profits by, like, 2023.	It did not.
@@ -141,11 +141,11 @@ The bankruptcy declaration says:
 The purpose of these Chapter 11 Cases is for the Company to maximize value by conducting a robust sale process, reducing its cash burn to preserve resources, and centralizing the claims asserted against the Company to efficiently resolve those claims and provide meaningful recoveries to its creditors and, if sufficient, its shareholders. 
 As in any bankruptcy, one goal is to maximize the value of assets, by selling the company for as much as it can get and by suing Foxconn for damages. And as in any bankruptcy, the other goal is to figure out who has a claim to the assets, and divide the assets fairly among those claimants. Here the claims are fairly simple, with no debt and limited operations. The question is how much of the money Lordstown has to pay to its former shareholders (or the SEC) for getting their hopes up, and how much money it will have left to pay its current shareholders.
 
-  
-    
+
+
       Tokens
-    
-  
+
+
 
 The current regulatory situation for crypto in the US is that the US Securities and Exchange Commission thinks that basically all crypto tokens (except Bitcoin and a few others) are securities, it keeps arguing this in court, and it likes its chances of winning. If the SEC is right, this poses all sorts of problems for crypto. Two big ones that we have   discussed a   lot recently are:
 	New crypto projects that want to raise money by issuing tokens have to either register them with the SEC, which is somewhere between difficult and impossible for token issuers, or sell them under an exemption from registration, which means roughly “sell them only to venture capitalists, institutions and other accredited investors (or non-US investors), and lock up those investors so they don’t dump them on retail.” And existing crypto projects that previously raised money by selling tokens might get in trouble (and have to pay fines or give back the money) for doing illegal securities offerings.	Crypto exchanges that want to list tokens (other than a few non-securities like Bitcoin) need to register with the SEC as national securities exchanges, which is somewhere between difficult and impossible for crypto exchanges. Though there are   exceptions here too; a brokerage that intermediates securities trades for its customers might be able to provide a trading venue without being a full-blown exchange, though it will still have to register with the SEC and be subject to some oversight.
@@ -164,11 +164,11 @@ Some securities lawyers question whether Rule 144 can be used to trade cryptocur
 
 This is not quite as simple as “even if crypto tokens are illegal securities offerings, if you wait a year they become more legal,” but that is a little bit what is happening here.
 
-  
-    
+
+
       Art vs. fraud
-    
-  
+
+
 
 Here is a fun art project:
 	I go around on social media saying that I have a clever hedge fund that makes returns of 420% per year by trading at nighttime in a multibillion-dollar secret market run by foreign central banks and the Illuminati.
@@ -185,15 +185,15 @@ He added, “In effect, the jury found that Rothschild was simply a swindler.”
 
 I mean! A con artist, like a regular artist, is in the business of creating an imaginary world and inviting his audience to share it. I suppose the difference is that a regular artist’s audience knows that the work is imaginary and willingly suspends disbelief, while the con artist’s audience thinks that the work is real and is tricked into suspending disbelief. But sometimes it is hard to tell which is which just from the work itself. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The   New M&A Rules That Would Delay Million-Dollar Deals. US banks step up sales of loan portfolios to  private lenders. Hedge Fund Manager  Chris Brown Is Coming Out — and Fighting Back.  Sequoia Made a Fortune Investing in the U.S. and China; Then It Had to Pick One.   Andurand’s Oil Hedge Fund Plunge Exceeds 50% in Worst Ever Loss. New   Carbon Offset Rules Aim to Clean Up Company Climate Claims. Sam Bankman-Fried  Loses Bid for Dismissal of Criminal Charges. How to  Read an S-1. Rolex and Patek Prices Fall as   Subdial Index Nears Two-Year Low. How Tulsa cops brought down a $500 million   catalytic converter crime ring. How Frog and Toad became  queer anti-capitalist cottagecore icons. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] It also notes that “the JV Agreement contemplated that the JV’s first vehicle program would be based on certain vehicle designs that a Foxconn affiliate in Taiwan, called Foxtron, had already largely developed,” but that Foxconn ended up not sharing those designs with Lordstown. I am not sure how that fits with Lordstown supplying the cross-functional expertise in designing electric vehicles from scratch.
 
 
@@ -206,48 +206,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] If you have not read Guy Lawson’s “Octopus,” you should fix that. The secret Illuminati night market is pretty close to the actual theory of the “prime bank” scam, and it keeps working.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -258,46 +258,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj0dtu.63fx/e6363437.gif" alt="" border="0" /></a>

@@ -26,20 +26,20 @@
         <link rel="icon" href="/web/20151112231610im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
 
 <!--<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/flick/jquery-ui.css" rel="stylesheet" type="text/css"/>-->
-        <link href="//web.archive.org/web/20151112231610cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">        
+        <link href="//web.archive.org/web/20151112231610cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20151112231610cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.10.3/css/flick/jquery-ui.min.css"/>
 
-<link rel="stylesheet" href="//web.archive.org/web/20151112231610cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">        
+<link rel="stylesheet" href="//web.archive.org/web/20151112231610cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="http://web.archive.org/web/20151112231610cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/all.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20151112231610cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/style.css"/>
         <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20151112231610cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/ftg-responsive.css"/>
 
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->
-        <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.10.2.min.js"></script> 
+        <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.10.2.min.js"></script>
         <!--
         <script type="text/javascript" src="http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.11.1.min.js"></script>
         -->
-        
+
         <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.10.3/js/jquery-ui-1.10.3.min.js"></script>
 
 <script type="text/javascript">
@@ -55,18 +55,18 @@
 <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquerymx-3.2.custom.min.js?t=1447370170"></script>
         <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/mobile-main.js?t=1447370170"></script>
         <script type="text/javascript" src="//web.archive.org/web/20151112231610js_/http://s7.addthis.com/js/250/addthis_widget.js#username=manders@internetbrands.com"></script>
-        
+
         <script type="text/javascript" src="http://web.archive.org/web/20151112231610js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=1447370170"></script>
-        
-        
-                
-                
+
+
+
+
 		<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//web.archive.org/web/20151112231610/http://www.google-analytics.com/analytics.js','ga');
-        
+
           ga('create', 'UA-7661666-1', 'auto');
           ga('send', 'pageview');
         </script>
@@ -100,11 +100,11 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
                         <div class="flt-rt mobile_only2">
                                                                 <div class="mobile-ad-disclosure" id="link-advertiser-disclosure" href="#disclosure">Advertiser Disclosure</div>
                                                     </div>
-                        <a href="#" class="show_hide flt-lt"> 
+                        <a href="#" class="show_hide flt-lt">
                             <i id="ftg-toggle-left" class="fa fa-bars fa-2x pull-left fa-border"></i>
                             <i id="ftg-toggle-left-compressed" class="fa fa-bars fa-2x pull-left fa-border"></i>
                         </a>
-                      
+
                         <div class="clear"></div>
                     </div>
                     <div id="logo-holder">
@@ -113,8 +113,8 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
                         </a>
                         <a id="site-logo" class="mobile_only2" href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/">
                             <img alt="Frugal Travel Guy" src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/>
-                        </a>                        
-                        <a id="site-logo-compress" href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>                     
+                        </a>
+                        <a id="site-logo-compress" href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>
                     </div>
                     <div class="flt-rt mobile-profile" style="display:none"><!-- mobile_only2 -->
                         <i id="ftg-toggle-right" class="fa fa-user fa-2x pull-right fa-border"></i>
@@ -122,7 +122,7 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
 
 <div id="nav-holder">
                         <div>
-                                                        <div class="user-credentials">			<div id="btn-advertiser-disclosure" href="#disclosure"></div>		</div>                                                                                    			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                                    </div>   
+                                                        <div class="user-credentials">			<div id="btn-advertiser-disclosure" href="#disclosure"></div>		</div>                                                                                    			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                                    </div>
                         <div id="main-unli" class="desktop_only">
                             <ul id="nav" class="main-menu"><li id="menu-item-34940" class="colorOrange menu-item menu-item-type-custom menu-item-object-custom menu-item-34940"><a href="/web/20151112231610/http://www.frugaltravelguy.com/wallet"><span>Wallet</span></a></li>
 <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/ricks-top-travel-deals"><span>Top Travel Deals</span></a>
@@ -242,7 +242,7 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
 	<li class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35563"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/login"><span>Login</span></a></li>
 </ul>
 </li>
-</ul>                        </div>                       
+</ul>                        </div>
                     </div><!--/#nav-holder -->
                     <div class="clear"></div>
                 </div>
@@ -251,7 +251,7 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
             <div class="wrapper-holder">
                 <div class="mobile_only2 ad-disclosure">
                     <div class="mobile-top">
-                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div> 
+                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div>
                 </div>
 
 <div id="ad-holder">
@@ -269,8 +269,8 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
                         <div class="post-meta header-3">
                                                     		<div class="auth_img">
 									<img src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/05/Christine-Kryzston.jpg" alt="Christine Krzyszton" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                          		</div>
-                                    
-            
+
+
                   <div class="date">
                   September 9, 2015                  </div>
                   <div class="auth_name">
@@ -304,17 +304,17 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
 <p>Are you ready for <a href="http://web.archive.org/web/20151112231610/http://mtlzipline.com/en/" target="_blank">zip lining in urban Montreal</a>? For an amazing view of the city and Bonsecours Island, try the short zip lining experience from the <a href="http://web.archive.org/web/20151112231610/http://mtlzipline.com/en/find-us/" target="_blank">Old Port of Montreal</a>. For around $15, you can fly like a bird and savor a day or nighttime view.</p>
 <p>For a European vacation close to home that won’t cost a fortune, Montreal is the perfect choice.</p>
 <p><em>[Image via Getty]</em></p>
-              
+
                                           <div id="auth_box_bottom">
                                                     		<div class="auth_img">
 									<img src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/05/Christine-Kryzston.jpg" alt="Christine Krzyszton" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                          		</div>
-                                                                 
-                   
-                  <div class="auth_box">                 
+
+
+                  <div class="auth_box">
                        <span class="fullname"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/author/christinekrzyszton" title="Posts by Christine Krzyszton" rel="author">Christine Krzyszton</a></span>
-                   Christine Krzyszton lives in Northern Michigan and has been writing about her weekend adventures for over five years for weekly newsletters, a baby boomer blog and a regional men’s magazine. She is the author of HOW TO SEE...<br/>                   <a class="colorBlue" href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/author/christinekrzyszton">All Articles</a>                  </div>              
+                   Christine Krzyszton lives in Northern Michigan and has been writing about her weekend adventures for over five years for weekly newsletters, a baby boomer blog and a regional men’s magazine. She is the author of HOW TO SEE...<br/>                   <a class="colorBlue" href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/author/christinekrzyszton">All Articles</a>                  </div>
 			  </div><!-- end of #auth_box_bottom -->
-                            
+
                             <div class="associated-card tcc-desktop" id="vlado">
                 <div class="card-header">
                     <span>View:</span>
@@ -474,7 +474,7 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
                         </td>
                     </tr>
                 </table>
-                
+
             </div>
             <script type="text/javascript">
                 jQuery(document).ready(function () {
@@ -493,7 +493,7 @@ if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-w
               <div class="post-prev"><h3>Previous Story</h3><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/09/even-more-amex-platinum-benefits-are-you-taking-advantage.html" title="Even MORE Amex Platinum Benefits -- Are You Taking Advantage?" rel="prev">Even MORE Amex Platinum Benefits &#8212; Are You Taking Advantage?</a></div>              <div class="post-next"><h3>Next Story</h3><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/09/4-reasons-to-invest-in-air-canada-aeroplan-miles.html" title="4 Reasons to Invest in Air Canada Aeroplan Miles" rel="next">4 Reasons to Invest in Air Canada Aeroplan Miles</a></div>            </div>
             <div class="clr"></div>
           </div>
-          
+
 <div id="disqus_thread">
                     <div id="dsq-content">
 
@@ -652,19 +652,19 @@ config.callbacks.preData.push(function() {
                         <div class="aside">
           <div class="prevnext">
             <!--  previous post -->
-            	            
+
                 <div class="post-prev-wrap"><strong>Prev.</strong><br/>
                   <div class="post-prev"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/09/even-more-amex-platinum-benefits-are-you-taking-advantage.html" title="Even MORE Amex Platinum Benefits -- Are You Taking Advantage?" rel="prev"></a></div>                </div>
-			                
+
             <!--  next post -->
-            						
+
                 <div class="post-next-wrap"><strong>Next</strong><br/>
-                  <div class="post-next"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/09/4-reasons-to-invest-in-air-canada-aeroplan-miles.html" title="4 Reasons to Invest in Air Canada Aeroplan Miles" rel="next"></a></div>                </div>											
-			            
+                  <div class="post-next"><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/09/4-reasons-to-invest-in-air-canada-aeroplan-miles.html" title="4 Reasons to Invest in Air Canada Aeroplan Miles" rel="next"></a></div>                </div>
+
             <div class="clr"></div>
             <p>Use keys to browse more stories</p>
           </div><!-- end of .prevnext -->
-          
+
           <div class="aside desktop_only">
                         <div class="widget-lft widget_text " id="text-45">			<a target="_blank" href="http://web.archive.org/web/20151112231610/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=1036&amp;foc=2&amp;foc2=603112" rel="nofollow" alt="Chase Sapphire Preferred® Card - Banner" title="Chase Sapphire Preferred® Card - Banner"><img border="0" src="http://web.archive.org/web/20151112231610im_/http://content.linkoffers.net/SharedImages/Products/220022/603112.gif"/></a>		</div><div class="widget-lft widget_text featured-credit-card" id="text-46"><div class="title"><h2>Featured Credit Cards</h2></div>			<strong>Citi® / AAdvantage® Platinum Select® MasterCard®</strong>
 <br/>
@@ -739,10 +739,10 @@ config.callbacks.preData.push(function() {
 <strong>Chase Sapphire Preferred&#174; Card</strong>
 <br/>
 <a target="_blank" href="http://web.archive.org/web/20151112231610/http://track.linkoffers.net/a.aspx?foid=13242625&amp;fot=1016&amp;foc=2&amp;foc2=601633" rel="nofollow" alt="Chase Sapphire Preferred® Card" title="Chase Sapphire Preferred® Card"><img border="0" src="//web.archive.org/web/20151112231610im_/http://content.linkoffers.net/SharedImages/Products/204650/601633.png"/></a>		</div>                    </div>
-                 
+
             <div class="banner255 widget_text sidebar-300w-ad-unit" id="text-5">			<a target="_blank" href="http://web.archive.org/web/20151112231610/http://track.linkoffers.net/a.aspx?foid=26315568&amp;fot=1040&amp;foc=2&amp;foc2=606822" rel="nofollow" alt="Hilton HHonors™ Card from American Express" title="Hilton HHonors™ Card from American Express"><img border="0" src="http://web.archive.org/web/20151112231610im_/http://content.linkoffers.net/SharedImages/Products/220637/606822.png"/></a>		</div>            <div class="widget-rght">
         <h2 class="related_post_title">Related Posts</h2><ul class="related_post"><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/02/upper-management-at-delta-appears-to-be-losing-their-minds.html" title="Upper Management at Delta Appears to Be Losing Their Minds">Upper Management at Delta Appears to Be Losing Their Minds</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/10/hey-big-spenders-jump-on-this-british-airways-100k-offer.html" title="Hey Big Spenders! Jump on This British Airways 100K Offer!">Hey Big Spenders! Jump on This British Airways 100K Offer!</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2008/12/how-many-miles-and-points-and-marriott.html" title="How Many Miles and Points?">How Many Miles and Points?</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2014/10/frugal-guide-to-montreal.html" title="Frugal Guide to Montreal">Frugal Guide to Montreal</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2009/12/biddy-in-4c-3c-and-15b.html" title="The Biddy in 4C, 3C and 15B">The Biddy in 4C, 3C and 15B</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2014/04/a-sample-newbie-application-day.html" title=" A Sample Newbie Application Day"> A Sample Newbie Application Day</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/07/how-i-ended-up-needing-paramedic-assistance-at-the-airport.html" title="How I Ended up Needing Paramedic Assistance at the Airport">How I Ended up Needing Paramedic Assistance at the Airport</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2015/07/hot-new-travel-trend-4-reasons-to-choose-slow-travel.html" title="Hot New Travel Trend: 4 Reasons to Choose ‘Slow Travel’">Hot New Travel Trend: 4 Reasons to Choose &#8216;Slow Travel&#8217;</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2013/12/news-new-aadvantage-forum-and-alaska-airlines-enhances-mileage-plan.html" title="News: New AAdvantage Forum and Alaska Airlines Enhances Mileage Plan">News: New AAdvantage Forum and Alaska Airlines Enhances Mileage Plan</a></li><li><a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/2009/12/citicard-visa-and-business-visa-link.html" title="Citicard Visa and Business Visa Link Extended">Citicard Visa and Business Visa Link Extended</a></li></ul>      </div>
-                  <div class="widget-rght widget_text sidebar-300w-ad-unit" id="text-29">			<a target="_blank" href="http://web.archive.org/web/20151112231610/http://track.linkoffers.net/a.aspx?foid=22927074&amp;fot=1036&amp;foc=2&amp;foc2=606599" rel="nofollow" alt="British Airways Visa Signature® Card - Banner" title="British Airways Visa Signature® Card - Banner"><img border="0" src="http://web.archive.org/web/20151112231610im_/http://content.linkoffers.net/SharedImages/Products/220016/606599.png"/></a>		</div>            
+                  <div class="widget-rght widget_text sidebar-300w-ad-unit" id="text-29">			<a target="_blank" href="http://web.archive.org/web/20151112231610/http://track.linkoffers.net/a.aspx?foid=22927074&amp;fot=1036&amp;foc=2&amp;foc2=606599" rel="nofollow" alt="British Airways Visa Signature® Card - Banner" title="British Airways Visa Signature® Card - Banner"><img border="0" src="http://web.archive.org/web/20151112231610im_/http://content.linkoffers.net/SharedImages/Products/220016/606599.png"/></a>		</div>
             </div>
     <div class="clear"></div>
   </div>
@@ -776,8 +776,8 @@ config.callbacks.preData.push(function() {
         <li><a href="http://web.archive.org/web/20151112231610/http://www.facebook.com/FrugalTravelGuy"><img alt="Follow FrugalTravelGuy on Facebook" src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/facebook-follow.png"/></a></li>
         <li><a href="http://web.archive.org/web/20151112231610/http://twitter.com/#!/frugaltravelguy"><img alt="Follow FrugalTravelGuy on Twitter" src="http://web.archive.org/web/20151112231610im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/twitter-follow.png"/></a></li>
 </ul><br/><br/>		</div><div class="widget widget_text " id="text-37">			        <div class="copyright">
-            Copyright © 2015 <strong>Internet Brands, Inc.</strong> All Rights Reserved. 
-<br><a href="http://web.archive.org/web/20151112231610/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> | 
+            Copyright © 2015 <strong>Internet Brands, Inc.</strong> All Rights Reserved.
+<br><a href="http://web.archive.org/web/20151112231610/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20151112231610/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> |
 <a href="http://web.archive.org/web/20151112231610/http://www.internetbrands.com/privacy/privacy-main.html" rel="nofollow">Privacy Policy</a>
         </div>
 <script type="text/javascript" src="//web.archive.org/web/20151112231610js_/http://eucookie.internetbrands.com/eucookie/scripts/v1.0.0/eucookie.min.js"></script>
@@ -804,7 +804,7 @@ config.callbacks.preData.push(function() {
             el.parentNode.insertBefore(s, el);
         })();
     </script>
-    
+
     <noscript>
         <img src="//web.archive.org/web/20151112231610im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=8138560&amp;cv=2.0&amp;cj=1"/>
     </noscript>

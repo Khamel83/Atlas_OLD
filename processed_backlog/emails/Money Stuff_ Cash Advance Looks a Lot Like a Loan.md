@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         New York usury law makes it illegal to charge very high interest rates on loans. If you charge more than 16% on a loan in New York, the borr
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Merchant cash advance
-    
-  
+
+
 
 New York usury law makes it illegal to charge very high interest rates on loans. If you charge more than 16% on a loan in New York, the borrower might not have to pay you back; if you charge more than 25%, you might be committing a crime.
   [1]
@@ -107,37 +107,37 @@ For another example, Delta Bridge purchased 225% of a merchant’s revenue, wher
 
 Right, if you’re buying 225% of a company’s revenue, that’s probably not really what’s going on.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Short vol
-    
-  
+
+
 
 Maybe the main way for things to go wrong in financial markets is the one that goes by the name “picking up pennies in front of a steamroller.”
   [6]
@@ -166,11 +166,11 @@ Derivatives specialists and volatility fund managers are so far brushing off the
 
 “I am a canny trader simply meeting retail-investor demand to do something dumb” is a great pitch for an investment product.
 
-  
-    
+
+
       ‘How Bitcoin Made a Believer Out of BlackRock’
-    
-  
+
+
 
 That is the headline of this Wall Street Journal article, and I assumed that the entire body of the article would be “you can charge 25 basis points on $13 billion of passively managed assets,” but I guess that would be boring. That is the answer, though? BlackRock is a gigantic asset manager that caters to every reasonable investing taste. It spends a lot of time talking about the importance of environmental sustainability, but if you want to buy coal stocks, BlackRock is happy to help with that, which is why it is one of the world’s largest owners of coal stocks. Similarly, if you want to buy Bitcoin, Bitcoin is now mainstream and respectable enough that BlackRock probably won’t get in trouble for helping with that, so, sure, why shouldn’t it collect $27 million a year for holding Bitcoins for you?
   [8]
@@ -184,23 +184,23 @@ John Reed Stark, former chief of the Securities and Exchange Commission’s Offi
 
 I feel like everybody understands it perfectly?
 
-  
-    
+
+
       OpenAI is fine now
-    
-  
+
+
 
 Good news, OpenAI hired a law firm to investigate whether Sam Altman, its chief executive officer, did anything wrong to merit being briefly fired by its previous board of directors, and the law firm (and OpenAI’s current board) concluded nope, everything’s good. “‘We have unanimously concluded that Sam and Greg are the right leaders for OpenAI,’ stated Bret Taylor, Chair of the OpenAI Board.” Altman is rejoining the board of directors, and OpenAI will get “a new set of corporate governance guidelines,” a whistleblower hotline and a stronger conflict of interest policy. It would be pretty incredible if Altman had won the power struggle, gotten his job back, gotten rid of the old board, installed a new board, and then been thrown out by that board after they reviewed the evidence and concluded that the old board was right. But that did not happen.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Reddit Launches Long-Awaited IPO With $748 Million Target. World’s Last Negative Rate Experiment Nears Its End in Japan. Dealmaking slowdown leaves private equity with record unsold assets. Russia Names Broker for Frozen-Assets Swap With Foreigners. Telegram hits 900mn users and nears profitability as founder considers IPO. South Korea says banks ‘mis-sold’ China-linked derivatives. “India accounted for a staggering 78% of equity options contracts traded worldwide in 2023.” Online Investing Platform Webull Adds Futures and Commodities Trading. Elon Musk’s charitable foundation “has failed in recent years to give away the bare minimum required by law to justify the tax break.” Surge Pricing Is Coming to More Menus Near You. Chasing Passive Income, Americans Turn to Vending Machines. Workers distracted by office chitchat are pretending to be in Zoom meetings to signal to colleagues ‘I don’t want to talk to you.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Obviously this is not legal advice, there are various ways around it, and don’t email me about your credit card.
 
 
@@ -225,48 +225,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] The sponsor’s fee on BlackRock's Bitcoin exchange-traded fund is 0.25% after the first 12 months; before that, it’s 0.12% of the first $5 billion of assets and 0.25% of the rest. Using $13.2 billion of assets and that blended fee I get about $26.6 million of fees now; using 0.25% it's $33 million or so.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -277,46 +277,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckmids.64yo/04f24b52.gif" alt="" border="0" /></a>

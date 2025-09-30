@@ -15,11 +15,11 @@ Fast-growing B2B SaaS companies like Loom, Hopin, Airbase, and many others use W
 WorkOS [https://substack.com/redirect/722c6c03-3aa7-4906-ba88-fd4cc57d91e5?u=16283549] is an API that increases your TAM.
 You can try it now – WorkOS [https://substack.com/redirect/722c6c03-3aa7-4906-ba88-fd4cc57d91e5?u=16283549] is free to get started and scales with you as you grow.
 Hi friends 👋,
-Happy Monday! 
+Happy Monday!
 Each quarter since I started Not Boring Capital, I’ve been sharing my LP Updates in the newsletter. This quarter, there was one specific question that I wanted to address in the LP Update that I ended up going so deep on that I actually finished this part before I finished the rest of the update, so that’s what I’m sending today.
-The question: why invest in hard startups?  
-I’m learning how to be a better venture investor every day, so this is a work-in-progress and a snapshot of how I’m thinking about it today. Don’t take it as gospel — push back! — but I thought it would be interesting to share how I’m thinking through it. 
-Let’s get to it. 
+The question: why invest in hard startups?
+I’m learning how to be a better venture investor every day, so this is a work-in-progress and a snapshot of how I’m thinking about it today. Don’t take it as gospel — push back! — but I thought it would be interesting to share how I’m thinking through it.
+Let’s get to it.
 The Good Thing About Hard Things [ https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWdvb2QtdGhpbmctYWJvdXQtaGFyZC10aGluZ3M_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qTTBOemMwTlRjc0ltbGhkQ0k2TVRZMU56VTBORFEwTml3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuRnQwb2FrN3hKQ0xtODEzRWV5eEVBeGZHQTJ2a1hicktFSFNQX001eWUzRSIsInAiOjYzNDc3NDU3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1NzU0NDQ0NiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.4s7XRRXCOSqjZtsZ1ry_1G3Jt4tkMVB8ByaSt1WGHEI? ]
 (Click the title to read in the browser)
 In a 2015 blog post, The Carlota Perez Framework [https://substack.com/redirect/0d48c88b-e895-443d-840f-f77049dae9ac?u=16283549], USV’s Fred Wilson wrote: 
@@ -68,10 +68,10 @@ We are building an exponential number of Internet companies that compete over ev
 It’s easier than ever to build the average software company – plug into AWS, snap in a bunch of APIs, follow established playbooks – and harder than ever to make it really big. Modularized inputs and playbooks lead to more competition, smaller opportunities, and lower margins. 
 This isn’t true for the exceptional, ambitious software companies. Luttig wrote a piece called Rippling and the return of ambition [https://substack.com/redirect/435e5a38-466f-415c-b33c-b0b990605c08?u=16283549], with the subtitle “In an era of software incrementalism, Rippling is bringing ambition back.” Rippling is a SaaS company on its face, but it would fit my criteria. Ramp [https://substack.com/redirect/d172c091-37e0-4dc3-8ff2-0ba57287678b?u=16283549] and Replit [https://substack.com/redirect/e459b763-8685-452b-b180-59eede203949?u=16283549] are two examples of ambitious software companies in the portfolio, and there are more. I’d invest in those all day. It’s software incrementalism I’m avoiding. 
 It won’t be as easy for the average, or even very good, software startups to get really big as it was in the past decade. There’s too much competition. Worse, competitors have many of the same weapons. The incumbents that new entrants face will themselves be relatively new startups. They’ll be able to adjust more quickly to the new entrants’ attacks, and if the new entrant succeeds, there will be another, newer new entrant there to try to steal the prize. 
-To learn more about hard startups and the good thing about hard things… 
-Thanks to Dan [https://substack.com/redirect/a40f0b23-d000-43ea-9b16-af53b3728718?u=16283549] for editing! 
-That’s all for today! We’ll be back on Thursday with a Deep Dive on one of the most important companies in crypto. 
-Thanks for reading, 
+To learn more about hard startups and the good thing about hard things…
+Thanks to Dan [https://substack.com/redirect/a40f0b23-d000-43ea-9b16-af53b3728718?u=16283549] for editing!
+That’s all for today! We’ll be back on Thursday with a Deep Dive on one of the most important companies in crypto.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOak0wTnpjME5UY3NJbWxoZENJNk1UWTFOelUwTkRRME5pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlBqV3EyODJILWY2Q2g4a2RQbjhYTFA5QmgtN09xemM5LXNqZzR2LUlkMFUiLCJwIjo2MzQ3NzQ1NywicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTc1NDQ0NDYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.rMGncpoN-_6LOTOyckXim0bJurhx-Trk0pId4eZLWfE?

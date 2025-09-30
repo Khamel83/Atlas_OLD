@@ -102,7 +102,7 @@ In 2021, she tested positive for a high-risk form of HPV, one of the variants li
 
 By 2022, Andrew was legitimately famous. Typical headlines read “I tried a Stanford professor’s top productivity routine” and “Google CEO Uses ‘Nonsleep Deep Rest’ to Relax.” Reese Witherspoon told the world that she was sure to get ten minutes of sunlight in the morning and tagged Andrew. When he was not on his own podcast, Andrew was on someone else’s. He kept the place in Topanga, but he and Sarah began splitting rent in Berkeley. In June 2022, they fully combined lives; Sarah relocated her family to Malibu to be with him.
 
-According to Sarah, Andrew’s rage intensified with cohabitation. He fixated on her decision to have children with another man. She says he told her that being with her was like “bobbing for apples in feces.” “The pattern of your  
+According to Sarah, Andrew’s rage intensified with cohabitation. He fixated on her decision to have children with another man. She says he told her that being with her was like “bobbing for apples in feces.” “The pattern of your
 11 years, while rooted in subconscious drives,” he told her in December 2021, “creates a nearly impossible set of hurdles for us … You have to change.”
 
 Sarah was, in fact, changing. She felt herself getting smaller, constantly appeasing. She apologized, again and again and again. “I have been selfish, childish, and confused,” she said. “As a result, I need your protection.” A spokesperson for Huberman denies Sarah’s accounts of their fights, denies that his rage intensified with cohabitation, denies that he fixated on Sarah’s decision to have children with another man, and denies that he said being with her was like bobbing for apples in feces. A spokesperson said, “Dr. Huberman is very much in control of his emotions.”
@@ -141,7 +141,7 @@ As their relationship intensified over the years, he talked often about the fami
 
 In September 2022, Eve noticed that Sarah was looking at her Instagram stories; not commenting or liking, just looking. Impulsively, Eve messaged her. “Is there anything you’d rather ask me directly?” she said. They set up a call. “Fuck you Andrew,” she messaged him.
 
-Sarah moved out in August 2023 but says she remained in a committed relationship with Huberman. (A spokesperson for Huberman says they were separated.) At Thanksgiving that year, she noticed he was “wiggly” every time a cell phone came out at the table — trying to avoid, she suspected, being photographed. She says she did not leave him until December. According to Sarah, the relationship ended, as it had started, with a lie. He had been at her place for a couple of days and left for his place  
+Sarah moved out in August 2023 but says she remained in a committed relationship with Huberman. (A spokesperson for Huberman says they were separated.) At Thanksgiving that year, she noticed he was “wiggly” every time a cell phone came out at the table — trying to avoid, she suspected, being photographed. She says she did not leave him until December. According to Sarah, the relationship ended, as it had started, with a lie. He had been at her place for a couple of days and left for his place
 to prepare for a Zoom call; they planned to go Christmas shopping the next day. Sarah showed up at his house and found him on the couch with another woman. She could see them through the window. “If you’re going to be a cheater,” she advises me later, “do not live in a glass house.”
 
 On January 11, a woman we’ll call Alex began liking all of Sarah’s Instagram posts, seven of them in a minute. Sarah messaged her: “I think you’re friends with my ex, Andrew Huberman. Are you one of the woman he cheated on me with?” Alex is an intense, direct, highly educated woman who lives in New York; she was sleeping with Andrew; and she had no idea there had been a girlfriend. “Fuck,” she said. “I think we should talk.” Over the following weeks, Sarah and Alex never stopped texting. “She helped me hold my boundary against him,” says Sarah, “keep him blocked. She said, ‘You need to let go of the idea of him.’” Instead of texting Andrew, Sarah texted Alex. Sometimes they just talked about their days and not about Andrew at all. Sarah still thought beautiful Eve, on the other hand, “might be crazy,” but they talked some more and brought her into the group chat. Soon there were others. There was Mary: a dreamy, charismatic Texan he had been seeing for years. Her friends called Andrew “bread crumbs,” given his tendency to disappear. There was a fifth woman in L.A., funny and fast-talking. Alex had been apprehensive; she felt foolish for believing Andrew’s lies and worried that the other women would seem foolish, therefore compounding her shame. Foolish women were not, however, what she found. Each of the five was assertive and successful and educated and sharp-witted; there had been a type, and they were diverse expressions of that type. “I can’t believe how crazy I thought you were,” Mary told Sarah. No one struck anyone else as a stalker. No one had made up a story about a dead baby or torn out hair with chunks in it. “I haven’t slept with anyone but him for six years,” Sarah told the group. “If it makes you feel any better,” Alex joked, “according to the CDC,” they had all slept with one another.
@@ -156,7 +156,7 @@ They realized that on March 21, 2021, a day of admittedly impressive logistical 
 
 “Sleep well beautiful,” he texted Sarah.
 
-“The scheduling alone!” Alex tells me. “I can barely schedule three Zooms in  
+“The scheduling alone!” Alex tells me. “I can barely schedule three Zooms in
 a day.”
 
 In the aggregate, Andrew’s therapeutic language took on a sinister edge. It was communicating a commitment that was not real, a profound interest in the internality of women that was then used to manipulate them.
@@ -243,7 +243,7 @@ Three of the women on the group text met up in New York in February, and the gro
 * [one great story](//nymag.com/intelligencer/tags/one-great-story/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

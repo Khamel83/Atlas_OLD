@@ -75,23 +75,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="17314726" />
-  
+
     <meta name="ncbi_uid" content="17314726" />
-  
+
     <meta name="log_displayeduids" content="17314726" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="RS narratives provided unique information in the prediction of adolescent antisocial behavior. RSs should be considered in the assessment of family dynamics and the design of interventions to prevent and treat adolescent behavior problems."><meta name="keywords" content="pmid:17314726, doi:10.1097/chi.0b013e31802d0b27, Research Support, N.I.H., Extramural, Bernadette Marie Bullock, Thomas J Dishion, Adolescent, Adolescent Behavior / psychology*, Affect, Antisocial Personality Disorder / diagnosis*, Antisocial Personality Disorder / epidemiology, Antisocial Personality Disorder / psychology, Attitude / ethnology, Child, Ethnicity, Expressed Emotion*, Family / psychology*, Female, Humans, Male, Mother-Child Relations*, Narration*, Personality Development*, Social Behavior*, Substance-Related Disorders / epidemiology, Surveys and Questionnaires*, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Family processes and adolescent problem behavior: integrating relationship narratives into understanding development and change - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/17314726/"><meta property="og:description" content="RS narratives provided unique information in the prediction of adolescent antisocial behavior. RSs should be considered in the assessment of family dynamics and the design of interventions to prevent and treat adolescent behavior problems."><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Family processes and adolescent problem behavior: integrating relationship narratives into understanding development and change - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/17314726/"><meta name="twitter:description" content="RS narratives provided unique information in the prediction of adolescent antisocial behavior. RSs should be considered in the assessment of family dynamics and the design of interventions to prevent and treat adolescent behavior problems."><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -115,8 +115,8 @@
 <meta name="citation_abstract_html_url" content="https://pubmed.ncbi.nlm.nih.gov/17314726/">
 
 <meta name="citation_volume" content="46">
-  
-  
+
+
     <meta name="citation_issue" content="3">
 
 <meta name="citation_doi" content="10.1097/chi.0b013e31802d0b27">
@@ -156,7 +156,7 @@
 <a class="usa-skipnav" href="#article-details">
     Skip to main page content
   </a>
-  
+
     <!-- ========== BEGIN HEADER ========== -->
 <section class="usa-banner">
   <div class="usa-accordion">
@@ -280,10 +280,10 @@
        href="/"
        data-ga-category="featured_link"
        data-ga-action="pubmed_logo">
-      
-      
+
+
         <img src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/core/images/pubmed-logo-blue.svg" alt="pubmed logo" />
-      
+
     </a>
 
 <a href="#" class="search-input-trigger" data-alt-title="Hide search bar" title="Show search bar" aria-label="Show search bar">
@@ -300,7 +300,7 @@
 <input
       type="search"
       name="term"
-      
+
       data-skip-ie-scroll-to-top=""
       data-replace-term-with-exact=""
       data-exact-query=""
@@ -312,7 +312,7 @@
 </div>
 
 </div>
-    
+
     <!-- Create alert and Create RSS are buttons that look like links -->
     <!-- Better for them to look like buttons but no space -->
     <div class="search-links-wrapper content-page-layout">
@@ -321,8 +321,8 @@
            class="search-input-link adv-search-link"
            data-ga-category="featured_link"
            data-ga-action="adv_search">Advanced</a>
-        
-        
+
+
         <a href="/clipboard/"
            class="search-input-link clipboard-link hidden"
            data-ga-category="featured_link"
@@ -330,7 +330,7 @@
           Clipboard <span class="amount-in-clipboard"></span>
         </a>
       </div>
-      
+
         <span class="search-input-link user-guide-link" role="navigation" aria-label="User guide">
           <a href="/help/"
              data-ga-category="featured_link"
@@ -338,7 +338,7 @@
             User Guide
           </a>
         </span>
-      
+
     </div>
   </div>
 
@@ -349,8 +349,8 @@
       <div class="inner-wrap">
         <div class="actions-container">
           <div class="return-to-search">
-  
-  
+
+
 </div>
 
 <div class="multiple-results-actions " role="region" aria-label="save, email, send to">
@@ -405,7 +405,7 @@
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -419,7 +419,7 @@
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -492,7 +492,7 @@
     <h2 class="action-panel-heading">
       Email citation
     </h2>
-    
+
       <div class="email-login-message usa-alert usa-alert-slim usa-alert-warning">
         <div class="usa-alert-body">
           <div class="usa-alert-text">
@@ -506,7 +506,7 @@
           </div>
         </div>
       </div>
-    
+
     <form id="email-action-panel-form"
           class="action-panel-content action-form"
           action="/send-email/"
@@ -517,13 +517,13 @@
           method="post"
           >
       <input type="hidden" name="csrfmiddlewaretoken" value="7Q5L9txCioSEkdZJTLUJyjlFPIgMjG3pu5anWsXYUM5WZyv3RtpZjWb785LyEjBG">
-      
+
       <div class="action-panel-control-wrap">
         <span class="action-panel-label">
           To:
         </span>
         <span class="email-to" id="email-to" aria-label="Recipient Email Address">
-          
+
         </span>
       </div>
 
@@ -555,7 +555,7 @@
           <option value="summary-text">Summary (text)</option>
           <option value="abstract">Abstract</option>
           <option value="abstract-text">Abstract (text)</option>
-          
+
         </select>
       </div>
       <div class="include-supplemental-container">
@@ -914,7 +914,7 @@
                     id="saved-search-email-text"
                     class="saved-search-email-text"></textarea>
         </div>
-        
+
       </div>
 
 <div class="action-panel-actions">
@@ -1071,7 +1071,7 @@
 <div class="article-page" id="article-page" data-article-pmid="17314726">
     <aside class="page-sidebar">
   <div class="inner-wrap">
-    
+
   <div class="full-text-links">
     <div class="full-view">
       <h3 class="title">
@@ -1079,22 +1079,22 @@
       </h3>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0890-8567(09)61684-1"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=17314726&amp;db=pubmed&amp;nlmid=8704565"
          title="See full text options at Elsevier Science"
-         
+
          data-ga-category="full_text"
          data-ga-action="Elsevier Science"
          data-ga-label="17314726"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a>
 </div>
 
@@ -1324,20 +1324,20 @@
 </aside>
 
 <main class="article-details" id="article-details">
-  
-  
+
+
 <!-- "Filters applied" shows only when page is redirected from search -->
 <!-- because search found one result -->
 
 <header class="heading" id="heading">
-  
-    
+
+
       <div class="full-view" id="full-view-heading">
-        
+
           <div class="article-citation">
 
 <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="full-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1361,9 +1361,9 @@
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Am+Acad+Child+Adolesc+Psychiatry%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Am Acad Child Adolesc Psychiatry">
@@ -1380,9 +1380,9 @@
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2007 Mar;46(3):396-407.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1097/chi.0b013e31802d0b27.
       </span>
@@ -1390,12 +1390,12 @@
 </div>
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Family processes and adolescent problem behavior: integrating relationship narratives into understanding development and change
 
 </h1>
@@ -1443,10 +1443,10 @@ Affiliations
         Expand
       </span>
     </button>
-  
+
 </div>
-        
-        
+
+
           <div class="extended-article-details" id="expanded-authors" aria-hidden="true">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
@@ -1456,32 +1456,32 @@ Affiliations
             Affiliations
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="full-view-affiliation-1"
                   id="full-view-affiliation-1"
               ><sup class="key">1</sup> Drs. Bullock and Dishion are with the Child and Family Center, University of Oregon, Eugene. Electronic address: bullock@uoregon.edu.</li>
-            
+
               <li data-affiliation-id="full-view-affiliation-2"
                   id="full-view-affiliation-2"
               ><sup class="key">2</sup> Drs. Bullock and Dishion are with the Child and Family Center, University of Oregon, Eugene.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 </div>
-        
-        
-  
+
+
+
     <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">17314726</strong>
@@ -1489,13 +1489,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1512,7 +1512,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1522,36 +1522,36 @@ Affiliations
       <div class="short-view" id="short-view-heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Family processes and adolescent problem behavior: integrating relationship narratives into understanding development and change
 
 </h1>
 
 <div class="short-citation">
   <span class="authors-list">
-    
-      
+
+
         <span class="authors-list-item "><span class="full-name">Bernadette Marie Bullock</span><span class="citation-separator">&nbsp;et al.</span></span>
-      
-    
+
+
   </span>
-  
-    
+
+
       <span class="citation-journal">
         J Am Acad Child Adolesc Psychiatry<span class="citation-separator">.</span>
       </span>
-      
+
         <span class="date">
           <span class="citation-year">2007 Mar</span><span class="citation-separator">.</span>
         </span>
-      
-    
-  
+
+
+
 </div>
 
 <div class="more-article-details-section with-display-settings">
@@ -1583,7 +1583,7 @@ Affiliations
     </div>
 
 <div class="content">
-      
+
         <div class="format-container">
           <span class="option-label">
             Format
@@ -1597,19 +1597,19 @@ Affiliations
 
 </select>
         </div>
-      
+
     </div>
   </div>
 </div>
-          
+
         </div>
         <div class="extended-article-details" id="full-article-details" aria-hidden="true">
-          
+
             <div class="article-citation">
-              
-  
+
+
     <div class="article-source">
-      
+
 <div class="journal-actions dropdown-block"><button id="short-view-journal-trigger"
             class="journal-actions-trigger trigger"
             ref="linksrc=journal_actions_btn"
@@ -1633,9 +1633,9 @@ Affiliations
               Search in PubMed
             </a></li><li><a class="search-in-nlm-catalog-link dropdown-block-link"
                ref ="linksrc=search_in_nlm_catalog_link"
-               
+
                  href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Am+Acad+Child+Adolesc+Psychiatry%22%5BTitle+Abbreviation%5D"
-               
+
                data-ga-category="search_catalog"
                data-ga-action="journal_link"
                data-ga-label="J Am Acad Child Adolesc Psychiatry">
@@ -1652,9 +1652,9 @@ Affiliations
             </a></li></ul></div></div></div><span class="period">. </span><span class="cit">2007 Mar;46(3):396-407.</span>
 
 </div>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1097/chi.0b013e31802d0b27.
       </span>
@@ -1662,7 +1662,7 @@ Affiliations
 </div>
 
 <div class="expanded-authors" id="short-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -1693,28 +1693,28 @@ Affiliations
             Affiliations
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="short-view-affiliation-1"
                   id="short-view-affiliation-1"
               ><sup class="key">1</sup> Drs. Bullock and Dishion are with the Child and Family Center, University of Oregon, Eugene. Electronic address: bullock@uoregon.edu.</li>
-            
+
               <li data-affiliation-id="short-view-affiliation-2"
                   id="short-view-affiliation-2"
               ><sup class="key">2</sup> Drs. Bullock and Dishion are with the Child and Family Center, University of Oregon, Eugene.</li>
-            
+
           </ul>
         </div>
 
 </div>
 
 <ul class="identifiers" id="short-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <strong class="current-id" title="PubMed ID">17314726</strong>
@@ -1722,13 +1722,13 @@ Affiliations
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -1745,7 +1745,7 @@ Affiliations
 </span>
 
 </li>
-      
+
     </ul>
 
 <div class="in-clipboard-label " hidden>
@@ -1753,8 +1753,8 @@ Affiliations
 </div>
         </div>
       </div>
-    
-  
+
+
 </header>
 
 <div class="actions-buttons inline"><div class="inner-wrap"><button class="full-text-links-button full-text-links-dialog-trigger"
@@ -1783,50 +1783,50 @@ Affiliations
           </span><select name="format" data-initial-value="abstract" aria-label="Display format" id="inline-actions-display-format"><option value="abstract">Abstract</option><option value="pubmed">PubMed</option><option value="pmid">PMID</option></select></div></div></div></div></div></div>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
         <strong class="sub-title">
           Objective:
         </strong>
-      
+
       Mothers' relational schemas (RSs) regarding their adolescents were assessed using the Family Affective Attitude Rating Scale for coding 5-minute speech samples. The internal consistency and validity of positive RS and negative RS scales were also evaluated.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Method:
         </strong>
-      
+
       Data were collected from a multiethnic subsample of early-starting antisocial (n = 20) and successful (n = 20) urban adolescents and their families, using direct observations of parent-adolescent interactions, 5-minute speech samples, and questionnaires.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Results:
         </strong>
-      
+
       The negative RS and positive RS scales were internally consistent, correlated reliably with critical and positive dimensions of 5-minute speech samples expressed emotion and with observed parent-adolescent interactions, and discriminated between antisocial and successful adolescents. Negative RS accounted for unique variance in adolescent antisocial behavior when controlling for previous problem behavior and observed coercion. A significant interaction was also found between negative RS and observed parent-adolescent dynamics when escalations in adolescent problem behavior were added to the model.
     </p>
 
 <p>
-      
+
         <strong class="sub-title">
           Conclusions:
         </strong>
-      
+
       RS narratives provided unique information in the prediction of adolescent antisocial behavior. RSs should be considered in the assessment of family dynamics and the design of interventions to prevent and treat adolescent behavior problems.
     </p>
 
@@ -1843,15 +1843,15 @@ Affiliations
       <h2 class="title">
         Similar articles
       </h2>
-      
+
         <ul class="articles-list" id="similar-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/20724001/"
@@ -1859,39 +1859,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="20724001"
        data-ga-label="">
-      
+
         Assessing relational schemas in parents of children with externalizing behavior disorders: reliability and validity of the Family Affective Attitude Rating Scale.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Pasalich DS, Dadds MR, Hawes DJ, Brennan J.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Pasalich DS, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Psychiatry Res. 2011 Feb 28;185(3):438-43. doi: 10.1016/j.psychres.2010.07.034. Epub 2010 Aug 17.</span>
     <span class="docsum-journal-citation short-journal-citation">Psychiatry Res. 2011.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">20724001</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/10400060/"
@@ -1899,39 +1899,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="10400060"
        data-ga-label="">
-      
+
         Development of adolescent problem behavior.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Ary DV, Duncan TE, Biglan A, Metzler CW, Noell JW, Smolkowski K.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Ary DV, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Abnorm Child Psychol. 1999 Apr;27(2):141-50. doi: 10.1023/a:1021963531607.</span>
     <span class="docsum-journal-citation short-journal-citation">J Abnorm Child Psychol. 1999.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">10400060</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/11817635/"
@@ -1939,39 +1939,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="11817635"
        data-ga-label="">
-      
+
         Parent-adolescent conflict and adolescent antisocial and prosocial behavior: a longitudinal study in a Chinese context.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Shek DT, Ma HK.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Shek DT, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Adolescence. 2001 Fall;36(143):545-55.</span>
     <span class="docsum-journal-citation short-journal-citation">Adolescence. 2001.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">11817635</span></span>
-  
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/16920240/"
@@ -1979,39 +1979,39 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="16920240"
        data-ga-label="">
-      
+
         Evaluative behavioral judgments and instrumental antisocial behaviors in children and adolescents.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Fontaine RG.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Fontaine RG.</span>
     <span class="docsum-journal-citation full-journal-citation">Clin Psychol Rev. 2006 Dec;26(8):956-67. doi: 10.1016/j.cpr.2006.07.003. Epub 2006 Aug 21.</span>
     <span class="docsum-journal-citation short-journal-citation">Clin Psychol Rev. 2006.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">16920240</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/16478303/"
@@ -2019,42 +2019,42 @@ Affiliations
        data-ga-category="similar_article"
        data-ga-action="16478303"
        data-ga-label="">
-      
+
         Toward a comprehensive model of antisocial development: a dynamic systems approach.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Granic I, Patterson GR.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Granic I, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Psychol Rev. 2006 Jan;113(1):101-31. doi: 10.1037/0033-295X.113.1.101.</span>
     <span class="docsum-journal-citation short-journal-citation">Psychol Rev. 2006.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">16478303</span></span>
-  
-  
-    
-  
+
+
+
+
   <span class="publication-type spaced-citation-item citation-part">Review.</span>
-  
-  
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed&from_uid=17314726"
@@ -2063,7 +2063,7 @@ Affiliations
     >
       See all similar articles
     </a>
-  
+
 </div>
 
 </div>
@@ -2072,15 +2072,15 @@ Affiliations
       <h2 class="title">
         Cited by
       </h2>
-      
+
         <ul class="articles-list" id="citedby-articles-list">
-          
-  
-    
-      
-  
+
+
+
+
+
     <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/34694837/"
@@ -2088,39 +2088,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="34694837"
        data-ga-label="">
-      
+
         Mothers' and fathers' attachment styles and power-assertive control: Indirect associations through parental representations.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">An D, Kochanska G.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">An D, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">J Fam Psychol. 2022 Sep;36(6):975-985. doi: 10.1037/fam0000930. Epub 2021 Oct 25.</span>
     <span class="docsum-journal-citation short-journal-citation">J Fam Psychol. 2022.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">34694837</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/21403057/"
@@ -2128,39 +2128,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="21403057"
        data-ga-label="">
-      
+
         Strengthening families program (10-14): effects on the family environment.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Riesch SK, Brown RL, Anderson LS, Wang K, Canty-Mitchell J, Johnson DL.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Riesch SK, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">West J Nurs Res. 2012 Apr;34(3):340-76. doi: 10.1177/0193945911399108. Epub 2011 Mar 14.</span>
     <span class="docsum-journal-citation short-journal-citation">West J Nurs Res. 2012.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">21403057</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/21688899/"
@@ -2168,39 +2168,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="21688899"
        data-ga-label="">
-      
+
         Trajectories of family management practices and early adolescent behavioral outcomes.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Wang MT, Dishion TJ, Stormshak EA, Willett JB.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Wang MT, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Dev Psychol. 2011 Sep;47(5):1324-41. doi: 10.1037/a0024026.</span>
     <span class="docsum-journal-citation short-journal-citation">Dev Psychol. 2011.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">21688899</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/37079146/"
@@ -2208,39 +2208,39 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="37079146"
        data-ga-label="">
-      
+
         Conception and Development of the Warmth/Affection Coding System (WACS): A Novel Hybrid Behavioral Observational Tool for Assessing Parent-to-Child Warmth.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Prasad AH, Keevers Y, Kaouar S, Kimonis ER.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Prasad AH, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Res Child Adolesc Psychopathol. 2023 Sep;51(9):1357-1369. doi: 10.1007/s10802-023-01055-y. Epub 2023 Apr 20.</span>
     <span class="docsum-journal-citation short-journal-citation">Res Child Adolesc Psychopathol. 2023.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">37079146</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 <li class="full-docsum">
-  
+
   <div class="docsum-content" style="display:inline;">
     <a class="docsum-title"
        href="/22754051/"
@@ -2248,42 +2248,42 @@ Affiliations
        data-ga-category="cited_by"
        data-ga-action="22754051"
        data-ga-label="">
-      
+
         Childhood Maltreatment and Prospectively Observed Quality of Early Care as Predictors of Antisocial Personality Disorder Features.
-      
+
     </a>
     <div class="docsum-citation full-citation">
-  
-    
-      
+
+
+
         <span class="docsum-authors full-authors">Shi Z, Bureau JF, Easterbrooks MA, Zhao X, Lyons-Ruth K.</span>
-        
-      
-    
+
+
+
     <span class="docsum-authors short-authors">Shi Z, et al.</span>
     <span class="docsum-journal-citation full-journal-citation">Infant Ment Health J. 2012 Jan;33(1):55-96. doi: 10.1002/imhj.20295. Epub 2012 Jan 23.</span>
     <span class="docsum-journal-citation short-journal-citation">Infant Ment Health J. 2012.</span>
-  
-  
+
+
   <span class="citation-part">PMID: <span class="docsum-pmid">22754051</span></span>
   <span class="free-resources spaced-citation-item citation-part">Free PMC article.</span>
-  
-    
-  
-  
-  
-  
+
+
+
+
+
+
 </div>
 
 </div>
-  
+
     </li>
 
 </ul>
 
 <div class="actions-bar">
-  
-  
+
+
     <a
       class="show-all-linked-articles"
       href="/?linkname=pubmed_pubmed_citedin&from_uid=17314726"
@@ -2292,7 +2292,7 @@ Affiliations
     >
       See all "Cited by" articles
     </a>
-  
+
 </div>
 
 </div>
@@ -3119,12 +3119,12 @@ Affiliations
       <button class="close-overlay" tabindex="2">[x]</button>
       <div class="full-text-links-list">
   <a class="link-item
-                
+
                 dialog-focus"
          href="https://linkinghub.elsevier.com/retrieve/pii/S0890-8567(09)61684-1"
          target="_blank"
          rel="noopener"
-         
+
          ref="linksrc=fulltextorjournal_fulltext&amp;is_pmc=False&amp;PrId=3048&amp;itool=Abstract-def&amp;log$=linkouticon&amp;uid=17314726&amp;db=pubmed&amp;nlmid=8704565"
          title="See full text options at Elsevier Science"
          tabindex="1"
@@ -3132,9 +3132,9 @@ Affiliations
          data-ga-action="Elsevier Science"
          data-ga-label="17314726"
       ><img src="https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif" alt="Elsevier Science full text link"><span class="text">
-            
+
               Elsevier Science
-            
+
           </span></a>
 </div>
 
@@ -3174,31 +3174,31 @@ Affiliations
 <div class="citation-style-selector-wrapper">
   <label class="selector-label">Format:</label>
   <select aria-label="Format" class="citation-style-selector" tabindex="4">
-    
+
       <option data-style-url-name="ama"
               value="AMA"
               >
         AMA
       </option>
-    
+
       <option data-style-url-name="apa"
               value="APA"
               >
         APA
       </option>
-    
+
       <option data-style-url-name="mla"
               value="MLA"
               >
         MLA
       </option>
-    
+
       <option data-style-url-name="nlm"
               value="NLM"
               selected="selected">
         NLM
       </option>
-    
+
   </select>
 </div>
 
@@ -3212,19 +3212,19 @@ Affiliations
   <div id="more-actions-dialog" class="dialog more-actions-dialog">
     <strong class="title">Send To</strong>
     <ul class="more-actions-links">
-      
+
         <li><a id="clipboard-trigger" role="button"
                class="submit-button clipboard-trigger clipboard-trigger-target dialog-focus link-item "
                href="#">Clipboard</a></li>
-      
+
       <li><a class="link-item"
              role="button"
              href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F17314726%2F%23open-email-panel">Email</a></li>
       <li><a class="save-trigger link-item" role="button" href="#">Save</a></li>
-      
+
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F17314726%2F%23open-bibliography-panel">My Bibliography</a></li>
         <li><a class="link-item" role="button" href="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F17314726%2F%23open-collections-panel">Collections</a></li>
-      
+
       <li><a class="citation-manager-trigger link-item" role="button" href="#">Citation Manager</a></li>
     </ul>
     <button class="close-overlay">[x]</button>
@@ -3440,7 +3440,7 @@ Affiliations
     </footer>
  <!-- ========== END FOOTER ========== -->
   <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
- 
+
   <script type="text/javascript">
     var nwds_version = "1.2.4";
 
@@ -3467,7 +3467,7 @@ var alertsUrl = "/core/alerts/alerts.js";
 <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.1119c5b65e07.js"></script>
 
 <!-- Project base scripts -->
-  
+
     <script src="https://cdn.ncbi.nlm.nih.gov/pubmed/7f7bfbc9-f4e1-46ab-853c-9ca1d3e01844/CACHE/js/output.598ebf77bf13.js"></script>
 
 <script>

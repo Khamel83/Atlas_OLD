@@ -7,9 +7,9 @@
 
 # TYWKIWDBI ("Tai-Wiki-Widbee"): Computer-generated waterfall images
 
-View My Complete Profile • Unknown date 
+View My Complete Profile • Unknown date
 
 ![TYWKIWDBI \(](https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uZ26esb9P2eVvWdvsnTZI2gQvsWXXAfXCLo50FJvGod_JzsCRvUSLGdfGJKuxXDSJ1HSa5vr-FOeIybT14TXUPfWSBtaLCZuDeg3IW_1POVttXYA=w1200-h630-n-k-no-nu)
 
-"Things You Wouldn't Know If We Didn't Blog Intermittently." 
+"Things You Wouldn't Know If We Didn't Blog Intermittently."
 

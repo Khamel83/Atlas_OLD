@@ -121,7 +121,7 @@ Finally, a large portion of WeWork’s business does come from traditional cowor
 
 As CoStar’s Leonard put it, “If you can survive it, the concept is still good. The survivors of this period will probably do well and thrive again.”
 
-See More: 
+See More:
 
 * [Covid-19](/web/20250105132426/https://www.vox.com/coronavirus-covid19)
 * [Coworking](/web/20250105132426/https://www.vox.com/coworking)

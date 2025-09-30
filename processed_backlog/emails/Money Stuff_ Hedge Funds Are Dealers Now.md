@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         In the olden days, there were two sorts of people who traded stocks or bonds for a living. We can call them “dealers” and “investors,” thoug
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Dealers
-    
-  
+
+
 
 In the olden days, there were two sorts of people who traded stocks or bonds for a living. We can call them “dealers” and “investors,” though those terms are imperfect.
   [1]
@@ -115,37 +115,37 @@ The SEC ultimately scrapped the $25 billion threshold and some other parts that 
 
 The basic business is using borrowed money to buy and sell lots of Treasuries, fairly quickly, because you have a computer model that tries to take advantage of pricing discrepancies. If those pricing discrepancies are bid/ask spreads, you’re a dealer; if they’re not, you’re not. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Weeeeeeeeeeee
-    
-  
+
+
 
 We   talked yesterday about Adam Neumann’s apparent desire to buy WeWork Inc. out of bankruptcy. Neumann’s lawyer
   [6]
@@ -159,11 +159,11 @@ It’s February! If you are dropping Third Point’s name now, and you last had 
 There is always a chicken-and-egg quality to these things: Neumann obviously can’t line up committed financing to buy WeWork without getting due diligence information and some engagement from WeWork, and he can’t get serious engagement from WeWork without credible financing. Still, you can sort of understand why WeWork is not engaging with Neumann. Besides the obvious reasons! 
 Elsewhere, the Wall Street Journal reports that “Neumann courted a group of WeWork’s largest creditors to try and convince them that they should support his efforts to line up a bid for the company, but they declined, according to people familiar with the talks.” Did that group include SoftBank Group Corp.? I feel like if I ran SoftBank’s WeWork investment at this point, I would sell it all to Adam Neumann for $1 and a legally binding promise that I would never hear from him again.
 
-  
-    
+
+
       Carlyle
-    
-  
+
+
 
 Stereotypically, shareholders of publicly traded financial firms really value steady recurring earnings, and really distrust lumpy performance-based earnings. They put a high multiple on annual fee income, and a low multiple on one-time trading profits. So if you are a private equity firm charging clients annual management fees of 2% of assets, and performance fees of 20% of profits, the shareholders will like the management fees and dislike the performance fees.
 Stereotypically, if you want to keep your employees hungry and motivated, you should pay them with a lot of lumpy performance-based bonuses and not a lot of steady recurring salaries. Don’t pay them to coast; make them earn their money. If you are a private equity firm charging 2 and 20, you can use some of those management fees to pay salaries, but your employees should expect to make most of their money from performance, from the 20% performance fees.
@@ -175,25 +175,25 @@ The move frees up more stable sources of cash known as fee-related income to sha
 
 Plausibly the dealmakers would also prefer to have more steady fee-related income, but you want to keep them hungry.
 
-  
-    
+
+
       Bankroll size
-    
-  
+
+
 
 The  Kelly criterion tells you what percentage of your money you should put on some favorable bet. If you work in financial markets, you want to make a bunch of bets where you think the odds are in your favor, and if you can estimate the odds then Kelly gives you a guide to how much of your money you should put on each bet. Kelly gives you an answer that is a percentage of your current bankroll. But what is your bankroll?
 We   talked a few   times last year about a dumb story from Sam Bankman-Fried’s internship at Jane Street, where he kept making the maximum bet on slightly favorable coin flips, and I was like “well that’s not very Kelly is it.” But probably I was wrong. Jane Street interns were limited to losing $100 per day, so I sort of took $100 to be the size of his bankroll and thought he was aggressive to bet it all on a 51% coin flip. But readers pointed out, no, come on, his net worth at the time was not $100; $100 was nothing to him even though it was all he could bet that day. As a percentage of his actual bankroll that was a fine bet.
 Anyway here is a  fun post from Byrne Hobart titled “What’s the True Bankroll?” Sometimes the true bankroll is much bigger than the obvious bankroll: Sam Bankman-Fried’s $100 daily betting allowance was much smaller than his true bankroll, and Hobart points out that if you start your first job and have $1,000 to invest, your true bankroll is more like your lifetime expected savings than it is your current $1,000. Other times the true bankroll might be smaller than the obvious bankroll: If you are a portfolio manager at a multi-manager hedge fund, and you run a $500 million portfolio, you might think that your bankroll is $500 million. But if you know that you’ll get fired for a 10% decline in your portfolio, is your actual bankroll $50 million? No, but also maybe a little bit yes.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Litquidity Unmasked. NYCB’s Credit Grade Is   Cut to Junk by Moody’s. UBS to  Restart Buybacks After Progress on Credit Suisse Integration. UBS Offers $1 Billion   AT1s in Fast Start to Its Funding Plan. How  India’s Education Tech Giant Got Schooled and Lost $20 Billion in Value. US   Commercial Real Estate Contagion Is Now Moving to Europe. China Replaces   Top Markets Regulator as Xi Tries to End Rout.  Shein seeks Chinese regulators’ tacit approval for US public offering. Star China Banker’s Disappearance Made His Firm a   Buyout Target. McKinsey and BCG warn  staff face jail if they reveal Saudi work. HSBC’s New ‘Wise Killer’ App Vies for FX Customers. Woodside, Santos  End Talks on Merger to Create $57 Billion Energy Giant. Tesla Asks   Which Jobs Are Critical, Stoking Layoff Fears. Organ playing 639-year-long piece  changes chord. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The US Securities and Exchange literature  sometimes calls them “dealers” and “traders,” but “trader” to me feels more generic; a “trader” at a bank is ordinarily a dealer. “Investor” is imperfect because it has a bit of a long-term connotation, which I don’t intend. “Speculator” would be fine for “investor” but people sometimes take it as pejorative. “Market maker” is, I think, generally a good synonym for “dealer.”
 
 
@@ -212,48 +212,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] The lawyer is Alex Spiro, who is also Elon Musk’s lawyer, and who seems to have a lot of fun.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -264,46 +264,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckeivq.5ils/0c0761f6.gif" alt="" border="0" /></a>

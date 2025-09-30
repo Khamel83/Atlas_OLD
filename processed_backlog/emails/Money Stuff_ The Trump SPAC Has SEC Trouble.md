@@ -7,128 +7,128 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Over the past few months I have written a long piece about crypto for Bloomberg Businessweek. It is out today, and you can read it here. Som
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Crypto
-    
-  
+
+
 
 Over the past few months I have written a long piece about crypto for Bloomberg Businessweek. It is out today, and   you can read it here. Some of the themes will be familiar to Money Stuff readers: I touch on crypto’s sometimes hilarious and sometimes insightful reinvention of traditional finance, as well as Bitcoin’s revolutionary (re)discovery of the fact that, if a bunch of people decide that something should be valuable, that’s enough to make it valuable. But I also try to start from the beginning of crypto and build step by step, to develop complex modern crypto ideas from first principles.
 If you are a crypto expert you will probably hate this because I skipped over or slighted your favorite things. If you are a crypto hater you will probably hate this because, you know, it’s 40,000 words about crypto. I am neither, really; I come to crypto from the perspective that it is flawed but interesting, a laboratory for ideas about finance and society rather than a finished product. I had fun writing it, and I hope you have fun reading it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Trump SPAC
-    
-  
+
+
 
 There’s a weird conceptual problem with going public through a special purpose acquisition company, which is that the public can buy your stock before you’re allowed to sell it. 
 Imagine that you are a charismatic founder and you have started a company that plans to generate electricity by building cold fusion reactors that run on rainbows. You go to professional investors to raise money, and they say things like “what” and “no.” You are very charismatic, though, and you’re pretty sure that you could raise lots of money from retail investors and use it to buy yachts, I mean, no, sorry, use it to build the reactors, definitely that. But your company is private and you can’t just market broadly to retail investors to raise money. You need to make it a public company first, and then you can raise lots of money from retail.
@@ -139,7 +139,7 @@ The traditional way to do this is with an initial public offering: You file a re
  and you’ll never get through SEC review. And so you’ll never be able to sell stock to public investors. 
 The newer way to do this is with a SPAC, a special purpose acquisition company. Some sponsor raises a pool of money from public investors, by doing a public offering with a pretty minimalist prospectus. (“We will raise $200 million and try to find a company to merge with,” is the gist of it.) The SEC approves this pretty easily because there is no real business and no real promises in the prospectus. Then shares of the SPAC trade publicly: Public investors bought shares for $10 from the SPAC, and can now sell those shares for $9.95 or $11 or whatever the market price is. Generally the market price will be right around $10, at the beginning, because the SPAC is just a pool of cash and one share represents a claim on $10 of that cash.
 Then the SPAC’s sponsors call you up and say “hey would you like to merge with our SPAC, you’ll get our $200 million and you can be public.” And you say “sure yes I’d love $200 million and a public listing.” And then — then I want to be specific about the sequence of events:
-	You sign a deal with the SPAC, agreeing to merge, pending regulatory and shareholder approvals.	You announce the deal: The SPAC puts out a press release about the deal and how excited everyone is.	The SPAC stock trades up: Retail investors love your charisma and your promises about rainbows and cold fusion, and now the SPAC shares represent not a claim on $10 but a future share of your company, so they buy the SPAC shares and they trade up to $15 or $20 or $50 or $80.	
+	You sign a deal with the SPAC, agreeing to merge, pending regulatory and shareholder approvals.	You announce the deal: The SPAC puts out a press release about the deal and how excited everyone is.	The SPAC stock trades up: Retail investors love your charisma and your promises about rainbows and cold fusion, and now the SPAC shares represent not a claim on $10 but a future share of your company, so they buy the SPAC shares and they trade up to $15 or $20 or $50 or $80.
 Then you and the SPAC sponsor get to work on filing the registration statement for your merger, which will contain information about your business, your plans, the market and your historical financial results.	Then the SEC reviews the registration statement and sends comments. The comments are “what” and “no” and “we have found our handcuffs.”	The SEC never gets satisfied, they never declare the registration statement effective, the merger never closes, and you never get the $200 million.	The SPAC closes up without a merger and gives shareholders their $10 back.
 
 In some rough sense the system worked: The SEC reviewed your registration statement, found it implausible, and prevented you from selling stock and getting money from retail investors. You buy no yachts. But in another very important sense the system failed, in that the retail investors were buying stock. They paid $20 or $50 or $80 for the SPAC’s stock, in open-market transactions, on the basis of under-informed enthusiasm and speculation about your prospects, before you even filed the registration statement. In an IPO, retail investors can’t buy the stock until the SEC allows you to sell it. In a SPAC, that’s not true. They can buy the stock before you sell it, because it’s already public; SPAC stock is a sort of future claim on the stock of the target company, and it trades even before the target company is public.
@@ -165,20 +165,20 @@ But that was a year ago and things have changed. Now Truth Social does have an 
 If the merger does goes through, it could be a financial bonanza for Mr. Trump, who will own nearly 80 percent of the company. Planning for Trump Media began in earnest just days after the Jan. 6, 2021, attack on the U.S. Capitol by some of Mr. Trump’s supporters.
 My best guess is that the SEC is sort of worried that this thing will be a big bust and is using the early merger talks as an excuse to prevent Donald Trump from dumping it on retail investors. But the retail investors have already bought it! They just want the deal to go through so they have some chance to get their $94.20 back.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Celsius
-    
-  
+
+
 
 If a bank blows up, there is a strict and well-known order of recovery, which is that depositors get all their money back before shareholders of the bank get anything. This is a general rule of bankruptcy — creditors get paid before shareholders — but it’s particularly important in banking. Banks are very leveraged; they take lots of deposits with only a small sliver of equity. It is very important that those deposits be very safe, that they be, in the jargon, “ information insensitive.” The idea is that depositors should not have to do careful analysis of their bank’s health before depositing money. That’s the shareholders’ job. The shareholders are on the hook for most of the losses, so, the theory goes, they will keep an eye on the banks’ managers and make sure they’re not doing anything too dumb.
 There are flaws in this theory, sure, but the alternative is probably worse.   Meanwhile in crypto!
@@ -187,11 +187,11 @@ To be fair, that’s from an article about how the stockholders lost an effort 
 The Requesting Equity Holders’ legal position is that Celsius account holders do not hold claims at each Debtor entity. Further, they argue that the Celsius Entities are, essentially, a conglomerate of three business lines conducted by separate and distinct legal entities, including, without limitation: (i) the storage business, which is conducted by GK8, whose equity the Debtors are seeking to sell; (ii) the mining operations, which are conducted by Debtor Celsius Mining LLC (a subsidiary of CNL) and its non-Debtor subsidiary, Celsius Mining IL Ltd. (collectively, the “Mining Entities” and, together with CNL and GK8, the “Non-Customer Facing Entities”); and (iii) the retail customer-facing business, which is conducted primarily through Celsius Network LLC and is thus separate from the Non-Customer Facing Entities. The Requesting Equity Holders contend that only the equity holders, and not Celsius account holders, have claims against Non-Customer Facing Entities. The Debtors and Committee disagree and the Debtors have noted publicly that they believe Celsius account holders have claims against all Debtor entities.
 Celsius, they argue, is not so much a bank whose depositors had senior claims on all of its money, and more of a vague agglomeration of businesses, most of which are entirely protected from depositor claims. I do not have enough information to judge if that is correct. But it would be incredibly bad if it were!
 
-  
-    
+
+
       Drug deal gone wrong
-    
-  
+
+
 
 Here is a US Securities and Exchange Commission  enforcement action that, in my lifetime, would have been a very different type of enforcement action by a very different US government agency:
 
@@ -207,16 +207,16 @@ If you sell $1.9 million of flowers to a resin manufacturer and buy back $2.1 mi
  That’s $200,000 of expenses and $0 of revenue; if you book it as revenue then that’s misleading.
 I want to tell you that armed SEC agents kicked down the door of Cronos’s (insect-infested) greenhouse, streamed past rows of marijuana plants, raced into the office in the back and seized all of its spreadsheets. I want to tell you that the SEC came in with spreadsheet-sniffing dogs. But in fact nobody kicked down anything: “After discovering the accounting errors, Cronos promptly reported the misconduct to the SEC and provided extensive cooperation that meaningfully advanced the Commission’s investigation.” It’s a very law-abiding marijuana company.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed Is  Losing Billions, Wiping Out Profits That Funded Spending. Credit Suisse Nears Sale of Securitized-Products Group. Shares in Chinese Companies Crash After Xi Jinping Stacks Party With Allies. Hedge Funds Get   Their First Prime Minister in UK’s Rishi Sunak. BlackRock Is Getting Used to Being in the  ESG Crossfire. Banks Are Offering 4.5% CDs—Just Not to Regular Customers. ‘Texas two-step’: the US legal move letting corporations off the hook. Private Equity Scrambles to Comply With SEC Marketing Rule as Deadline Nears. Juul Discusses a Possible Bailout With Two of Its Biggest Investors. The Fantasy of  Instant Delivery Is Imploding. DeFi’s  Highest Bidders at Center of Market-Moving Crypto Trades. Video Games Linked to Better Cognitive Skills in Brain Study. “Hitler  took the song electric.” Parkour athletes  switch off Paris lights one by one. Rats with  tiny backpacks could soon save the lives of earthquake survivors.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Lawyers, and the SEC, make a big point of saying that the SEC does not “approve” the registration statement. “The Securities and Exchange Commission and state securities regulators have not approved or disapproved of these securities or determined if this prospectus is truthful or complete. Any representation to the contrary is a criminal offense,” is the standard boilerplate. But if the SEC really *doesn’t* approve, it can refuse to declare it effective and you’ve got problems. 
+
+  [1] Lawyers, and the SEC, make a big point of saying that the SEC does not “approve” the registration statement. “The Securities and Exchange Commission and state securities regulators have not approved or disapproved of these securities or determined if this prospectus is truthful or complete. Any representation to the contrary is a criminal offense,” is the standard boilerplate. But if the SEC really *doesn’t* approve, it can refuse to declare it effective and you’ve got problems.
 
 
   [2] The SEC, as I point out weirdly often around here, does not actually have the power to arrest you. Still.
@@ -225,114 +225,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] That’s not quite right, in that Company A wasn’t actually taking Cronos’s flowers and turning them into resin to deliver back to Cronos; it was delivering *different* resin to Cronos (and processing the flowers into resin for future sale), and the purchases were simultaneous. But in a more or less fungible commodity business, it is more or less right. Also,  from the SEC’s order against Hilson: “On September 19, 2019, a senior executive at Company A emailed Hilson informing him that, although Company A had no need to purchase Cronos’ biomass, the company would enter into such a transaction, in part to help Cronos meet its revenue goals. However, the senior executive made clear that Company A would purchase Cronos’ biomass only if Cronos agreed to buy it back as a derivative product or in some other form in the following quarter. Hilson orally agreed to the condition proposed by the senior executive at Company A although he was not authorized to enter into such a buy back arrangement. Hilson did not disclose to others at Cronos that he had orally committed to Company A that Cronos would repurchase the cannabis as a derivative product or in some other form in the following quarter.” So ultimately it was just paying Company A for processing.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

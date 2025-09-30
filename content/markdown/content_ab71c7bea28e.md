@@ -103,7 +103,7 @@ pre, code {
 <script crossorigin="anonymous" type="application/javascript" src="http://web.archive.org/web/20250902100546js_/https://github.githubassets.com/assets/copilot-coding-agent-status-6c555f135d99.js" defer="defer"></script>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/primer-react.ccd7aec5fe9a23db3da7.module.css"/>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/copilot-coding-agent-status.18a276928d4b7c45824e.module.css"/>
-  
+
   <script crossorigin="anonymous" type="application/javascript" src="http://web.archive.org/web/20250902100546js_/https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_notifications-subscriptions-menu_ent-c054c3-a501f1b541dd.js" defer="defer"></script>
 <script crossorigin="anonymous" type="application/javascript" src="http://web.archive.org/web/20250902100546js_/https://github.githubassets.com/assets/notifications-subscriptions-menu-9c34396d95ba.js" defer="defer"></script>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/notifications-subscriptions-menu.44a4ce5e60cfd5c27b1a.module.css"/>
@@ -195,12 +195,12 @@ pre, code {
 
 <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
     <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
-</span>      
-      
+</span>
+
       <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/keyboard-shortcuts-dialog.2de9c7d6456a311fce49.module.css"/>
 
 <react-partial partial-name="keyboard-shortcuts-dialog" data-ssr="false" data-attempted-ssr="false" data-react-profiling="false">
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"http://web.archive.org/web/20250902100546/https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
   <div data-target="react-partial.reactRoot"></div>
 </react-partial>
@@ -247,7 +247,7 @@ pre, code {
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/appearance-settings.c82a4db79200850fb016.module.css"/>
 
 <react-partial partial-name="appearance-settings" data-ssr="false" data-attempted-ssr="false" data-react-profiling="false">
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
   <div data-target="react-partial.reactRoot"></div>
 </react-partial>
@@ -720,7 +720,7 @@ pre, code {
 <ul class="list-style-none f5">
                     <li>
   <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_sponsors&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_sponsors_link_open_source_navbar&quot;}" href="/web/20250902100546/https://github.com/sponsors">
-      
+
       <div>
           <div class="color-fg-default h4">
             GitHub Sponsors
@@ -737,7 +737,7 @@ pre, code {
 <ul class="list-style-none f5">
                     <li>
   <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;the_readme_project&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;the_readme_project_link_open_source_navbar&quot;}" href="http://web.archive.org/web/20250902100546/https://github.com/readme">
-      
+
       <div>
           <div class="color-fg-default h4">
             The ReadME Project
@@ -889,7 +889,7 @@ pre, code {
   <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.searchSuggestionsDialog" role="dialog" id="search-suggestions-dialog" aria-modal="true" aria-labelledby="search-suggestions-dialog-header" data-view-component="true" class="Overlay Overlay--width-large Overlay--height-auto">
       <h1 id="search-suggestions-dialog-header" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
     <div class="Overlay-body Overlay-body--paddingNone">
-      
+
           <div data-view-component="true">        <div class="search-suggestions position-fixed width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column query-builder-container" style="border-radius: 12px;" data-target="qbsearch-input.queryBuilderContainer" hidden>
           <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="query-builder-test-form" action="" accept-charset="UTF-8" method="get">
   <query-builder data-target="qbsearch-input.queryBuilder" id="query-builder-query-builder-test" data-filter-key=":" data-view-component="true" class="QueryBuilder search-query-builder">
@@ -1157,7 +1157,7 @@ pre, code {
   </div>
   <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden data-target="qbsearch-input.darkBackdrop"></div>
   <div class="color-fg-default">
-    
+
 <dialog-helper>
   <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="feedback-dialog-title" aria-describedby="feedback-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
     <div data-view-component="true" class="Overlay-header">
@@ -1166,7 +1166,7 @@ pre, code {
       <h1 class="Overlay-title " id="feedback-dialog-title">
         Provide feedback
       </h1>
-        
+
     </div>
     <div class="Overlay-actionWrap">
       <button data-close-dialog-id="feedback-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
@@ -1174,7 +1174,7 @@ pre, code {
 </svg></button>
     </div>
   </div>
-  
+
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
         <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/web/20250902100546/https://github.com/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="yf1x1ecUCRTdt3wikDMJU23WmbZ36560hVPIgAN9uAZLKeE8NvL+ry9GRLH40Ss4a1YxYiZ60TrfxYZ95R+WaQ=="/>
@@ -1192,7 +1192,7 @@ pre, code {
 </dialog></dialog-helper>
 
 <custom-scopes data-target="qbsearch-input.customScopesManager">
-    
+
 <dialog-helper>
   <dialog data-target="custom-scopes.customScopesModalDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="custom-scopes-dialog" aria-modal="true" aria-labelledby="custom-scopes-dialog-title" aria-describedby="custom-scopes-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
     <div data-view-component="true" class="Overlay-header Overlay-header--divided">
@@ -1209,7 +1209,7 @@ pre, code {
 </svg></button>
     </div>
   </div>
-  
+
 </div>
       <scrollable-region data-labelled-by="custom-scopes-dialog-title">
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
@@ -1275,7 +1275,7 @@ pre, code {
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/appearance-settings.c82a4db79200850fb016.module.css"/>
 
 <react-partial partial-name="appearance-settings" data-ssr="false" data-attempted-ssr="false" data-react-profiling="false">
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
   <div data-target="react-partial.reactRoot"></div>
 </react-partial>
@@ -1292,7 +1292,7 @@ pre, code {
 </header>
 
 <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
-  
+
         <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
     <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
 </svg>
@@ -1313,7 +1313,7 @@ pre, code {
 <div id="js-flash-container" class="flash-container" data-turbo-replace>
 
 <template class="js-flash-template">
-    
+
 <div class="flash flash-full   {{ className }}">
   <div>
     <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
@@ -1322,7 +1322,7 @@ pre, code {
 </svg>
     </button>
     <div aria-atomic="true" role="alert" class="js-flash-alert">
-      
+
       <div>{{ message }}</div>
 
 </div>
@@ -1340,12 +1340,12 @@ pre, code {
 <div class="d-flex flex-nowrap flex-justify-end mb-3  px-3 px-lg-5" style="gap: 1rem;">
 
 <div class="flex-auto min-width-0 width-fit">
-            
+
   <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
       <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
     <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
 </svg>
-    
+
     <span class="author flex-self-stretch" itemprop="author">
       <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/OpenNMT/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/web/20250902100546/https://github.com/OpenNMT">
         OpenNMT
@@ -1478,7 +1478,7 @@ pre, code {
 <ul data-view-component="true" class="UnderlineNav-body list-style-none">
       <li data-view-component="true" class="d-inline-flex">
   <a id="code-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments repo_attestations /OpenNMT/OpenNMT-py" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
@@ -1488,7 +1488,7 @@ pre, code {
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
   <a id="issues-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /OpenNMT/OpenNMT-py/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
 </svg>
@@ -1498,7 +1498,7 @@ pre, code {
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
   <a id="pull-requests-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /OpenNMT/OpenNMT-py/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
 </svg>
@@ -1508,7 +1508,7 @@ pre, code {
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
   <a id="actions-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /OpenNMT/OpenNMT-py/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
 </svg>
@@ -1518,13 +1518,13 @@ pre, code {
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
   <a id="security-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/security" data-tab-item="i4security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /OpenNMT/OpenNMT-py/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
 </svg>
         <span data-content="Security">Security</span>
           <include-fragment src="/OpenNMT/OpenNMT-py/security/overall-count" accept="text/fragment+html" data-nonce="v2:cdded7c5-e560-3bb2-485a-5d39a32f36c6" data-view-component="true">
-  
+
   <div data-show-on-forbidden-error hidden>
     <div class="Box">
   <div class="blankslate-container">
@@ -1542,7 +1542,7 @@ pre, code {
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
   <a id="insights-tab" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/pulse" data-tab-item="i5insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /OpenNMT/OpenNMT-py/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
+
               <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
 </svg>
@@ -1560,111 +1560,111 @@ pre, code {
 
 <anchored-position data-target="action-menu.overlay" id="action-menu-05664c1f-d9fc-4370-b9e3-6a8a5f7f8fcf-overlay" anchor="action-menu-05664c1f-d9fc-4370-b9e3-6a8a5f7f8fcf-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
   <div data-view-component="true" class="Overlay Overlay--size-auto">
-    
+
       <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
   <div data-view-component="true">
     <ul aria-labelledby="action-menu-05664c1f-d9fc-4370-b9e3-6a8a5f7f8fcf-button" id="action-menu-05664c1f-d9fc-4370-b9e3-6a8a5f7f8fcf-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
         <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-6cfb5951-8630-4887-a752-b7f6a5436219" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Code
-</span>      
+</span>
 </a>
-  
+
 </li>
         <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-187de881-7281-4a1b-a3b7-17034b58677c" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Issues
-</span>      
+</span>
 </a>
-  
+
 </li>
         <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-8a0d8955-f018-496a-bdd2-8b9ce0c8fbef" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Pull requests
-</span>      
+</span>
 </a>
-  
+
 </li>
         <li hidden="hidden" data-menu-item="i3actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-35f0bdd5-e05a-4278-bbd8-a293cb0f2612" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Actions
-</span>      
+</span>
 </a>
-  
+
 </li>
         <li hidden="hidden" data-menu-item="i4security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-c1085ea2-3da7-438c-a855-9133d70c3a52" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Security
-</span>      
+</span>
 </a>
-  
+
 </li>
         <li hidden="hidden" data-menu-item="i5insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
+
+
     <a tabindex="-1" id="item-9c10d69a-c2a0-4d3b-a688-981d7d6f911a" href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
 </svg>
         </span>
-      
+
         <span data-view-component="true" class="ActionListItem-label">
           Insights
-</span>      
+</span>
 </a>
-  
+
 </li>
-</ul>    
+</ul>
 </div></action-list>
 
 </div>
-      
+
 </div></anchored-position>  </focus-group>
 </action-menu></div>
 </nav>
@@ -1683,7 +1683,7 @@ pre, code {
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="http://web.archive.org/web/20250902100546cs_/https://github.githubassets.com/assets/repos-overview.636bb31f4e5feb8e05c2.module.css"/>
 
 <react-partial partial-name="repos-overview" data-ssr="true" data-attempted-ssr="true" data-react-profiling="false">
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{"initialPayload":{"allShortcutsEnabled":false,"path":"/","repo":{"id":82841862,"defaultBranch":"master","name":"OpenNMT-py","ownerLogin":"OpenNMT","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2017-02-22T19:01:50.000Z","ownerAvatar":"http://web.archive.org/web/20250902100546/https://avatars.githubusercontent.com/u/23035727?v=4","public":true,"private":false,"isOrgOwned":true},"currentUser":null,"refInfo":{"name":"master","listCacheKey":"v0:1741232841.0","canEdit":false,"refType":"branch","currentOid":"97111d97551c24857076a4102eabdb468b35cff4"},"tree":{"items":[{"name":".github/workflows","path":".github/workflows","contentType":"directory","hasSimplifiedPath":true},{"name":"available_models","path":"available_models","contentType":"directory"},{"name":"config","path":"config","contentType":"directory"},{"name":"data","path":"data","contentType":"directory"},{"name":"docker","path":"docker","contentType":"directory"},{"name":"docs","path":"docs","contentType":"directory"},{"name":"eval_llm","path":"eval_llm","contentType":"directory"},{"name":"onmt","path":"onmt","contentType":"directory"},{"name":"tools","path":"tools","contentType":"directory"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"CHANGELOG.md","path":"CHANGELOG.md","contentType":"file"},{"name":"CONTRIBUTING.md","path":"CONTRIBUTING.md","contentType":"file"},{"name":"LICENSE.md","path":"LICENSE.md","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"SECURITY.md","path":"SECURITY.md","contentType":"file"},{"name":"build_vocab.py","path":"build_vocab.py","contentType":"file"},{"name":"requirements.opt.txt","path":"requirements.opt.txt","contentType":"file"},{"name":"server.py","path":"server.py","contentType":"file"},{"name":"setup.cfg","path":"setup.cfg","contentType":"file"},{"name":"setup.py","path":"setup.py","contentType":"file"},{"name":"train.py","path":"train.py","contentType":"file"},{"name":"translate.py","path":"translate.py","contentType":"file"}],"templateDirectorySuggestionUrl":null,"readme":null,"totalCount":22,"showBranchInfobar":false},"fileTree":null,"fileTreeProcessingTime":null,"foldersToFetch":[],"treeExpanded":false,"symbolsExpanded":false,"copilotSWEAgentEnabled":false,"isOverview":true,"overview":{"banners":{"shouldRecommendReadme":false,"isPersonalRepo":false,"showUseActionBanner":false,"actionSlug":null,"actionId":null,"showProtectBranchBanner":false,"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_repo","releasePath":"/OpenNMT/OpenNMT-py/releases/new?marketplace=true","showPublishActionBanner":false},"interactionLimitBanner":null,"showInvitationBanner":false,"inviterName":null,"actionsMigrationBannerInfo":{"releaseTags":[],"showImmutableActionsMigrationBanner":false,"initialMigrationStatus":null},"showDeployBanner":false,"detectedStack":{"framework":null,"packageManager":null}},"codeButton":{"contactPath":"/contact","isEnterprise":false,"local":{"protocolInfo":{"httpAvailable":true,"sshAvailable":null,"httpUrl":"http://web.archive.org/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py.git","showCloneWarning":null,"sshUrl":null,"sshCertificatesRequired":null,"sshCertificatesAvailable":null,"ghCliUrl":"gh repo clone OpenNMT/OpenNMT-py","defaultProtocol":"http","newSshKeyUrl":"/settings/ssh/new","setProtocolPath":"/users/set_protocol"},"platformInfo":{"cloneUrl":"http://web.archive.org/web/20250902100546/https://desktop.github.com","showVisualStudioCloneButton":false,"visualStudioCloneUrl":"http://web.archive.org/web/20250902100546/https://windows.github.com","showXcodeCloneButton":false,"xcodeCloneUrl":"xcode://clone?repo=https%3A%2F%2Fgithub.com%2FOpenNMT%2FOpenNMT-py","zipballUrl":"/OpenNMT/OpenNMT-py/archive/refs/heads/master.zip"}},"newCodespacePath":"/codespaces/new?hide_repo_select=true\u0026repo=82841862"},"popovers":{"rename":null,"renamedParentRepo":null},"commitCount":"2,895","overviewFiles":[{"displayName":"README.md","repoName":"OpenNMT-py","refName":"master","path":"README.md","preferredFileType":"readme","tabName":"README","richText":"\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eAnnouncement: OpenNMT-py is no longer actively supported.\u003c/h1\u003e\u003ca id=\"user-content-announcement-opennmt-py-is-no-longer-actively-supported\" class=\"anchor\" aria-label=\"Permalink: Announcement: OpenNMT-py is no longer actively supported.\" href=\"#announcement-opennmt-py-is-no-longer-actively-supported\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eWe started a new project \u003ca href=\"https://eole-nlp.github.io/eole/\" rel=\"nofollow\"\u003eEole\u003c/a\u003e available on \u003ca href=\"https://github.com/eole-nlp/eole\"\u003eGithub\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eIt is a spin-off of OpenNMT-py in terms of features but we revamped a lot of stuff.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eEole handles NMT, LLM, Encoders as well as a new concept of Estimator within a NMT Model See this \u003ca href=\"https://medium.com/p/05b00b271a47\" rel=\"nofollow\"\u003epost\u003c/a\u003e and this \u003ca href=\"https://www.linkedin.com/posts/vincentnguyenngoc_embarrassingly-small-english-to-german-model-activity-7203400634727841792-FCre?utm_source=share\u0026amp;utm_medium=member_desktop\" rel=\"nofollow\"\u003enews\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eIf you are a developer, switch now. If you are a user only, then we will publish the first py-pi versions shortly.\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eOpenNMT-py: Open-Source Neural Machine Translation and (Large) Language Models\u003c/h1\u003e\u003ca id=\"user-content-opennmt-py-open-source-neural-machine-translation-and-large-language-models\" class=\"anchor\" aria-label=\"Permalink: OpenNMT-py: Open-Source Neural Machine Translation and (Large) Language Models\" href=\"#opennmt-py-open-source-neural-machine-translation-and-large-language-models\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/actions\"\u003e\u003cimg src=\"https://github.com/OpenNMT/OpenNMT-py/workflows/Lint%20\u0026amp;%20Tests/badge.svg\" alt=\"Build Status\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\n\u003ca href=\"https://opennmt.net/OpenNMT-py/\" rel=\"nofollow\"\u003e\u003cimg src=\"https://camo.githubusercontent.com/c21574baf34c81b3651a5274c8b074471bc1e142a9516c0cfa75dea9223d93fe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6c61746573742d626c75652e737667\" alt=\"Documentation\" data-canonical-src=\"https://img.shields.io/badge/docs-latest-blue.svg\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\n\u003ca href=\"https://gitter.im/OpenNMT/OpenNMT-py?utm_source=badge\u0026amp;utm_medium=badge\u0026amp;utm_campaign=pr-badge\" rel=\"nofollow\"\u003e\u003cimg src=\"https://camo.githubusercontent.com/1be18573405bcd5548f73672a1315ca14f6586cf463270a618c1dd38a3fb243a/68747470733a2f2f6261646765732e6769747465722e696d2f4f70656e4e4d542f4f70656e4e4d542d70792e737667\" alt=\"Gitter\" data-canonical-src=\"https://badges.gitter.im/OpenNMT/OpenNMT-py.svg\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\n\u003ca href=\"https://forum.opennmt.net/\" rel=\"nofollow\"\u003e\u003cimg src=\"https://camo.githubusercontent.com/5cb9841a85156887fe41cb860fed03af683d8586864d6a5ec88709f4ae141182/68747470733a2f2f696d672e736869656c64732e696f2f646973636f757273652f7374617475733f7365727665723d6874747073253341253246253246666f72756d2e6f70656e6e6d742e6e6574253246\" alt=\"Forum\" data-canonical-src=\"https://img.shields.io/discourse/status?server=https%3A%2F%2Fforum.opennmt.net%2F\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eOpenNMT-py is the \u003ca href=\"https://github.com/pytorch/pytorch\"\u003ePyTorch\u003c/a\u003e version of the \u003ca href=\"https://opennmt.net\" rel=\"nofollow\"\u003eOpenNMT\u003c/a\u003e project, an open-source (MIT) neural machine translation (and beyond!) framework. It is designed to be research friendly to try out new ideas in translation, language modeling, summarization, and many other NLP tasks. Some companies have proven the code to be production ready.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eWe love contributions! Please look at issues marked with the \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/issues?q=is%3Aissue+is%3Aopen+label%3A%22contributions+welcome%22\"\u003econtributions welcome\u003c/a\u003e tag.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eBefore raising an issue, make sure you read the requirements and the \u003ca href=\"https://opennmt.net/OpenNMT-py/\" rel=\"nofollow\"\u003eFull Documentation\u003c/a\u003e examples.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eUnless there is a bug, please use the \u003ca href=\"https://forum.opennmt.net\" rel=\"nofollow\"\u003eForum\u003c/a\u003e or \u003ca href=\"https://gitter.im/OpenNMT/OpenNMT-py\" rel=\"nofollow\"\u003eGitter\u003c/a\u003e to ask questions.\u003c/p\u003e\n\u003chr\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eFor beginners:\u003c/h2\u003e\u003ca id=\"user-content-for-beginners\" class=\"anchor\" aria-label=\"Permalink: For beginners:\" href=\"#for-beginners\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThere is a step-by-step and explained tuto (Thanks to Yasmin Moslem): \u003ca href=\"https://github.com/ymoslem/OpenNMT-Tutorial\"\u003eTutorial\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003ePlease try to read and/or follow before raising newbies issues.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eOtherwise you can just have a look at the \u003ca href=\"https://opennmt.net/OpenNMT-py/quickstart.html\" rel=\"nofollow\"\u003eQuickstart\u003c/a\u003e steps\u003c/p\u003e\n\u003chr\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eNew:\u003c/h2\u003e\u003ca id=\"user-content-new\" class=\"anchor\" aria-label=\"Permalink: New:\" href=\"#new\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eYou will need Pytorch v2 preferably v2.2 which fixes some \u003ccode\u003escaled_dot_product_attention\u003c/code\u003e issues\u003c/li\u003e\n\u003cli\u003eLLM support with converters for: Llama (+ Mistral), OpenLlama, Redpajama, MPT-7B, Falcon.\u003c/li\u003e\n\u003cli\u003eSupport for 8bit and 4bit quantization along with LoRA adapters, with or without checkpointing.\u003c/li\u003e\n\u003cli\u003eYou can finetune 7B and 13B models on a single RTX 24GB with 4-bit quantization.\u003c/li\u003e\n\u003cli\u003eInference can be forced in 4/8bit using the same layer quantization as in finetuning.\u003c/li\u003e\n\u003cli\u003eTensor parallelism when the model does not fit on one GPU's memory (both training and inference)\u003c/li\u003e\n\u003cli\u003eOnce your model is finetuned you can run inference either with OpenNMT-py or faster with CTranslate2.\u003c/li\u003e\n\u003cli\u003eMMLU evaluation script, see results \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/eval_llm/MMLU/readme.md\"\u003ehere\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp dir=\"auto\"\u003eFor all usecases including NMT, you can now use Multiquery instead of Multihead attention (faster at training and inference) and remove biases from all Linear (QKV as well as FeedForward modules).\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eIf you used previous versions of OpenNMT-py, you can check the \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/CHANGELOG.md\"\u003eChangelog\u003c/a\u003e or the \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/docs/source/changes.md\"\u003eBreaking Changes\u003c/a\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eTutorials:\u003c/h2\u003e\u003ca id=\"user-content-tutorials\" class=\"anchor\" aria-label=\"Permalink: Tutorials:\" href=\"#tutorials\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eHow to replicate Vicuna with a 7B or 13B llama (or Open llama, MPT-7B, Redpajama)  Language Model: \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/docs/source/examples/replicate_vicuna/ReplicateVicuna.md\"\u003eTuto Vicuna\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eHow to finetune NLLB-200 with your dataset: \u003ca href=\"https://forum.opennmt.net/t/finetuning-and-curating-nllb-200-with-opennmt-py/5238\" rel=\"nofollow\"\u003eTuto Finetune NLLB-200\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eHow to create a simple OpenNMT-py REST Server: \u003ca href=\"https://forum.opennmt.net/t/simple-opennmt-py-rest-server/1392\" rel=\"nofollow\"\u003eTuto REST\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eHow to create a simple Web Interface: \u003ca href=\"https://forum.opennmt.net/t/simple-web-interface/4527\" rel=\"nofollow\"\u003eTuto Streamlit\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eReplicate the WMT17 en-de experiment: \u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/docs/source/examples/wmt17/Translation.md\"\u003eWMT17 ENDE\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eSetup\u003c/h2\u003e\u003ca id=\"user-content-setup\" class=\"anchor\" aria-label=\"Permalink: Setup\" href=\"#setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eUsing docker\u003c/h3\u003e\u003ca id=\"user-content-using-docker\" class=\"anchor\" aria-label=\"Permalink: Using docker\" href=\"#using-docker\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eTo facilitate setup and reproducibility, some docker images are made available via the Github Container Registry:\n\u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/pkgs/container/opennmt-py\"\u003ehttps://github.com/OpenNMT/OpenNMT-py/pkgs/container/opennmt-py\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eYou can adapt the workflow and build your own image(s) depending on specific needs by using \u003ccode\u003ebuild.sh\u003c/code\u003e and \u003ccode\u003eDockerfile\u003c/code\u003e in the \u003ccode\u003edocker\u003c/code\u003e directory of the repo.\u003c/p\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"docker pull ghcr.io/opennmt/opennmt-py:3.4.3-ubuntu22.04-cuda12.1\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003edocker pull ghcr.io/opennmt/opennmt-py:3.4.3-ubuntu22.04-cuda12.1\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eExample oneliner to run a container and open a bash shell within it\u003c/p\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"docker run --rm -it --runtime=nvidia ghcr.io/opennmt/opennmt-py:test-ubuntu22.04-cuda12.1\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003edocker run --rm -it --runtime=nvidia ghcr.io/opennmt/opennmt-py:test-ubuntu22.04-cuda12.1\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eNote: you need to have the \u003ca href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\" rel=\"nofollow\"\u003eNvidia Container Toolkit\u003c/a\u003e (formerly nvidia-docker) installed to properly take advantage of the CUDA/GPU features.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eDepending on your needs you can add various flags:\u003c/p\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003e\u003ccode\u003e-p 5000:5000\u003c/code\u003e to forward some exposed port from your container to your host;\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e-v /some/local/directory:/some/container/directory\u003c/code\u003e to mount some local directory to some container directory;\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e--entrypoint some_command\u003c/code\u003e to directly run some specific command as the container entry point (instead of the default bash shell);\u003c/li\u003e\n\u003c/ul\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eInstalling locally\u003c/h3\u003e\u003ca id=\"user-content-installing-locally\" class=\"anchor\" aria-label=\"Permalink: Installing locally\" href=\"#installing-locally\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eOpenNMT-py requires:\u003c/p\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003ePython \u0026gt;= 3.8\u003c/li\u003e\n\u003cli\u003ePyTorch \u0026gt;= 2.0 \u0026lt;2.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp dir=\"auto\"\u003eInstall \u003ccode\u003eOpenNMT-py\u003c/code\u003e from \u003ccode\u003epip\u003c/code\u003e:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"pip install OpenNMT-py\"\u003e\u003cpre\u003epip install OpenNMT-py\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eor from the source:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"git clone https://github.com/OpenNMT/OpenNMT-py.git\ncd OpenNMT-py\npip install -e .\"\u003e\u003cpre\u003egit clone https://github.com/OpenNMT/OpenNMT-py.git\n\u003cspan class=\"pl-c1\"\u003ecd\u003c/span\u003e OpenNMT-py\npip install -e \u003cspan class=\"pl-c1\"\u003e.\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eNote: if you encounter a \u003ccode\u003eMemoryError\u003c/code\u003e during installation, try to use \u003ccode\u003epip\u003c/code\u003e with \u003ccode\u003e--no-cache-dir\u003c/code\u003e.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e\u003cem\u003e(Optional)\u003c/em\u003e Some advanced features (e.g. working pretrained models or specific transforms) require extra packages, you can install them with:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"pip install -r requirements.opt.txt\"\u003e\u003cpre\u003epip install -r requirements.opt.txt\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eManual installation of some dependencies\u003c/h3\u003e\u003ca id=\"user-content-manual-installation-of-some-dependencies\" class=\"anchor\" aria-label=\"Permalink: Manual installation of some dependencies\" href=\"#manual-installation-of-some-dependencies\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eApex is highly recommended to have fast performance (especially the legacy fusedadam optimizer and FusedRMSNorm)\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"git clone https://github.com/NVIDIA/apex\ncd apex\npip3 install -v --no-build-isolation --config-settings --build-option=\u0026quot;--cpp_ext --cuda_ext --deprecated_fused_adam --xentropy --fast_multihead_attn\u0026quot; ./\ncd ..\"\u003e\u003cpre\u003egit clone https://github.com/NVIDIA/apex\n\u003cspan class=\"pl-c1\"\u003ecd\u003c/span\u003e apex\npip3 install -v --no-build-isolation --config-settings --build-option=\u003cspan class=\"pl-s\"\u003e\u003cspan class=\"pl-pds\"\u003e\"\u003c/span\u003e--cpp_ext --cuda_ext --deprecated_fused_adam --xentropy --fast_multihead_attn\u003cspan class=\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e ./\n\u003cspan class=\"pl-c1\"\u003ecd\u003c/span\u003e ..\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eFlash attention:\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eAs of Oct. 2023 flash attention 1 has been upstreamed to pytorch v2 but it is recommended to use flash attention 2 with v2.3.1 for sliding window attention support.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eWhen using regular \u003ccode\u003eposition_encoding=True\u003c/code\u003e or Rotary with \u003ccode\u003emax_relative_positions=-1\u003c/code\u003e OpenNMT-py will try to use an optimized dot-product path.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eif you want to use \u003ca href=\"https://github.com/Dao-AILab/flash-attention#installation-and-features\"\u003eflash attention\u003c/a\u003e then you need to manually install it first:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"pip install flash-attn --no-build-isolation\"\u003e\u003cpre\u003epip install flash-attn --no-build-isolation\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eif flash attention 2 is not installed, then we will use \u003ccode\u003eF.scaled_dot_product_attention\u003c/code\u003e from pytorch 2.x\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eWhen using \u003ccode\u003emax_relative_positions \u0026gt; 0\u003c/code\u003e or Alibi \u003ccode\u003emax_relative_positions=-2\u003c/code\u003e OpenNMT-py will use its legacy code for matrix multiplications.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eflash attention and \u003ccode\u003eF.scaled_dot_product_attention\u003c/code\u003e are a bit faster and saves some GPU memory.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eAWQ:\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eIf you want to run inference or quantize an AWQ model you will need AutoAWQ.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eFor \u003ca href=\"https://github.com/casper-hansen/AutoAWQ\"\u003eAutoAWQ\u003c/a\u003e:\npip install autoawq\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eDocumentation \u0026amp; FAQs\u003c/h2\u003e\u003ca id=\"user-content-documentation--faqs\" class=\"anchor\" aria-label=\"Permalink: Documentation \u0026amp; FAQs\" href=\"#documentation--faqs\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://opennmt.net/OpenNMT-py/quickstart.html\" rel=\"nofollow\"\u003eFull HTML Documentation\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://github.com/OpenNMT/OpenNMT-py/blob/master/docs/source/FAQ.md\"\u003eFAQs\u003c/a\u003e\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eAcknowledgements\u003c/h2\u003e\u003ca id=\"user-content-acknowledgements\" class=\"anchor\" aria-label=\"Permalink: Acknowledgements\" href=\"#acknowledgements\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eOpenNMT-py is run as a collaborative open-source project.\nProject was incubated by Systran and Harvard NLP in 2016 in Lua and ported to Pytorch in 2017.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eCurrent maintainers (since 2018):\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://github.com/francoishernandez\"\u003eFrançois Hernandez\u003c/a\u003e\n\u003ca href=\"https://github.com/vince62s\"\u003eVincent Nguyen\u003c/a\u003e (Seedfall)\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eCitation\u003c/h2\u003e\u003ca id=\"user-content-citation\" class=\"anchor\" aria-label=\"Permalink: Citation\" href=\"#citation\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eIf you are using OpenNMT-py for academic work, please cite the initial \u003ca href=\"https://www.aclweb.org/anthology/P17-4012\" rel=\"nofollow\"\u003esystem demonstration paper\u003c/a\u003e published in ACL 2017:\u003c/p\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"@misc{klein2018opennmt,\n      title={OpenNMT: Neural Machine Translation Toolkit}, \n      author={Guillaume Klein and Yoon Kim and Yuntian Deng and Vincent Nguyen and Jean Senellart and Alexander M. Rush},\n      year={2018},\n      eprint={1805.11462},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e@misc{klein2018opennmt,\n      title={OpenNMT: Neural Machine Translation Toolkit}, \n      author={Guillaume Klein and Yoon Kim and Yuntian Deng and Vincent Nguyen and Jean Senellart and Alexander M. Rush},\n      year={2018},\n      eprint={1805.11462},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e","loaded":true,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":[{"level":1,"text":"Announcement: OpenNMT-py is no longer actively supported.","anchor":"announcement-opennmt-py-is-no-longer-actively-supported","htmlText":"Announcement: OpenNMT-py is no longer actively supported."},{"level":1,"text":"OpenNMT-py: Open-Source Neural Machine Translation and (Large) Language Models","anchor":"opennmt-py-open-source-neural-machine-translation-and-large-language-models","htmlText":"OpenNMT-py: Open-Source Neural Machine Translation and (Large) Language Models"},{"level":2,"text":"For beginners:","anchor":"for-beginners","htmlText":"For beginners:"},{"level":2,"text":"New:","anchor":"new","htmlText":"New:"},{"level":2,"text":"Tutorials:","anchor":"tutorials","htmlText":"Tutorials:"},{"level":2,"text":"Setup","anchor":"setup","htmlText":"Setup"},{"level":3,"text":"Using docker","anchor":"using-docker","htmlText":"Using docker"},{"level":3,"text":"Installing locally","anchor":"installing-locally","htmlText":"Installing locally"},{"level":3,"text":"Manual installation of some dependencies","anchor":"manual-installation-of-some-dependencies","htmlText":"Manual installation of some dependencies"},{"level":2,"text":"Documentation \u0026 FAQs","anchor":"documentation--faqs","htmlText":"Documentation \u0026amp; FAQs"},{"level":2,"text":"Acknowledgements","anchor":"acknowledgements","htmlText":"Acknowledgements"},{"level":2,"text":"Citation","anchor":"citation","htmlText":"Citation"}],"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Fopennmt%2Fopennmt-py"}},{"displayName":"CONTRIBUTING.md","repoName":"OpenNMT-py","refName":"master","path":"CONTRIBUTING.md","preferredFileType":"contributing","tabName":"Contributing","richText":null,"loaded":false,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":null,"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Fopennmt%2Fopennmt-py"}},{"displayName":"LICENSE.md","repoName":"OpenNMT-py","refName":"master","path":"LICENSE.md","preferredFileType":"license","tabName":"MIT","richText":null,"loaded":false,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":null,"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Fopennmt%2Fopennmt-py"}},{"displayName":"SECURITY.md","repoName":"OpenNMT-py","refName":"master","path":"SECURITY.md","preferredFileType":"security","tabName":"Security","richText":null,"loaded":false,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":null,"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Fopennmt%2Fopennmt-py"}}],"overviewFilesProcessingTime":0,"copilotSWEAgentEnabled":false}},"appPayload":{"helpUrl":"http://web.archive.org/web/20250902100546/https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-9bd411a8e273.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-410714137fc9.js","githubDevUrl":null,"enabled_features":{"copilot_workspace":null,"code_nav_ui_events":false,"react_blob_overlay":false,"accessible_code_button":true}}}}</script>
   <div data-target="react-partial.reactRoot"><style data-styled="true" data-styled-version="5.3.11">.hUCRAk{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
 data-styled.g1[id="Box-sc-g0xbh4-0"]{content:"hUCRAk,"}/*!sc*/
@@ -1819,14 +1819,14 @@ Project was incubated by Systran and Harvard NLP in 2016 in Lua and ported to Py
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Citation</h2><a id="user-content-citation" class="anchor" aria-label="Permalink: Citation" href="#citation"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto">If you are using OpenNMT-py for academic work, please cite the initial <a href="http://web.archive.org/web/20250902100546/https://www.aclweb.org/anthology/P17-4012" rel="nofollow">system demonstration paper</a> published in ACL 2017:</p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="@misc{klein2018opennmt,
-      title={OpenNMT: Neural Machine Translation Toolkit}, 
+      title={OpenNMT: Neural Machine Translation Toolkit},
       author={Guillaume Klein and Yoon Kim and Yuntian Deng and Vincent Nguyen and Jean Senellart and Alexander M. Rush},
       year={2018},
       eprint={1805.11462},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }"><pre class="notranslate"><code>@misc{klein2018opennmt,
-      title={OpenNMT: Neural Machine Translation Toolkit}, 
+      title={OpenNMT: Neural Machine Translation Toolkit},
       author={Guillaume Klein and Yoon Kim and Yuntian Deng and Vincent Nguyen and Jean Senellart and Alexander M. Rush},
       year={2018},
       eprint={1805.11462},
@@ -2008,9 +2008,9 @@ Project was incubated by Systran and Harvard NLP in 2016 in Lua and ported to Py
 
 <div class="BorderGrid-row">
               <div class="BorderGrid-cell">
-                
+
   <include-fragment aria-busy="true" aria-label="Loading latest packages" src="/opennmt/opennmt-py/packages_list?current_repository=OpenNMT-py" data-nonce="v2:cdded7c5-e560-3bb2-485a-5d39a32f36c6" data-view-component="true">
-  
+
     <h2 class="h4 mb-3">
   <a href="/web/20250902100546/https://github.com/orgs/OpenNMT/packages?repo_name=OpenNMT-py" data-view-component="true" class="Link--primary no-underline Link d-flex flex-items-center">Packages
       <span title="0" hidden="hidden" data-view-component="true" class="Counter ml-1">0</span></a></h2>
@@ -2046,7 +2046,7 @@ Project was incubated by Systran and Harvard NLP in 2016 in Lua and ported to Py
 
 <div class="BorderGrid-row">
               <div class="BorderGrid-cell">
-                
+
   <h2 class="h4 mb-3">
     <a href="/web/20250902100546/https://github.com/OpenNMT/OpenNMT-py/network/dependents" data-view-component="true" class="Link--primary no-underline Link">Used by <span title="326" data-view-component="true" class="Counter">326</span></a>  </h2>
 
@@ -2213,7 +2213,7 @@ Project was incubated by Systran and Harvard NLP in 2016 in Lua and ported to Py
 
 </div>
 </div>
-  
+
 </div></div>
 
 </div>

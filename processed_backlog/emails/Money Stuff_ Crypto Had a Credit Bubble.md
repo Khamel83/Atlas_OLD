@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Apparently the way it works is that if you blow up a big crypto firm, you have to sit in your home in a crypto-friendly jurisdiction giving 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        Apparently the way it works is that if you blow up a big crypto firm, you have to sit in your home in a crypto-friendly jurisdiction giving
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The crypto financial crisis of 2022
-    
-  
+
+
 
 Apparently the way it works is that if you blow up a big crypto firm, you have to sit in your home in a crypto-friendly jurisdiction giving long rambling interviews about your failures to everyone who wants to chat. Arguably this is an improvement over traditional finance, where if you blow up a financial institution you keep quiet and leave the talking to your lawyers. (“Sam Bankman-Fried Should Shut Up, Bernie Madoff’s Lawyer Says,” is a   Bloomberg headline from last week.) Or perhaps it is one more case of us watching in real time as crypto re-learns the lessons of traditional finance. Maybe in six months all the busted crypto leaders will be saying “oh wow we should not have given all those interviews.” 
 We have talked a lot about Sam Bankman-Fried’s rather unsatisfying Bahamas-based interviews about how he blew up FTX and Alameda Research, and we’ll talk more about them below. But here I want to start with a strangely satisfying  interview that Kyle Davies gave to Hugh Hendry about Three Arrows Capital, or 3AC, the crypto trading firm that he ran with Su Zhu and that blew up over the summer. To be fair, as of this writing, I have seen only Part I of this interview, which only glances at the collapse of 3AC, so it is not fully satisfying.
@@ -112,89 +112,89 @@ But at least, the shadow banks thought, they were lending the money to hedge fun
 In recent months I have often thought,   and written, that the crypto industry in 2022 rediscovered the 2008 financial crisis. A quick summary of 2008 is that there was a lot of demand for safe assets, for bonds with AAA ratings. The financial system obligingly manufactured those assets, taking risky assets — mostly subprime mortgages — and packaging and slicing them to achieve AAA ratings. There was so much demand for safe assets that the manufacturing process got sloppy: The subprime mortgages got ever more subprime, the slicing and repackaging got less effective, and ultimately some of the safe assets turned out not to be safe. 
 Something like that seems to have happened in crypto but there is a critical difference. In crypto, there are no mortgages to speak of. You cannot really start by taking some somewhat risky cash flows and tranching them to make some of the cash flows safer. There are no cash flows. The safe assets in crypto — interest-bearing accounts at Voyager or Celsius or BlockFi or  Gemini — are created by making unsecured billion-dollar loans, negotiated in a single phone call, to arbitrage trading firms that are actually just making long-term bets on the marketing abilities of blockchain entrepreneurs. Crypto shadow banks did not manufacture safe assets out of risky investments; they just relabeled the risky investments as safe assets. There were people taking wild speculative risks on brand-new, sentiment-driven crypto projects, and there were people who wanted to invest safely and earn 8%, and they were the same people.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Meanwhile, FTX
-    
-  
+
+
 
 Sam Bankman-Fried continues his sad press tour, but his explanations of what happened to FTX’s customers’ money remain unsatisfying. Here is the version that Bankman-Fried seems to be settling on; it is infuriatingly simple:
 	Customers deposited several billion dollars into FTX through Alameda: For weird bank-access reasons, FTX couldn’t accept some wire transfers from customers, so the customers transferred their money to Alameda Research, FTX’s affiliated trading firm, instead, and Alameda passed it on to FTX. (This would be a huge red flag even if nothing else went wrong!)	Alameda sent the money to FTX, which credited it to customers, but they somehow forgot to debit it from Alameda, leading FTX to think that its customers had the money but also that Alameda had billions of dollars more than it actually had.	Alameda proceeded to lose the money on dumb trades and lavish spending, but no one noticed, because (1) they thought Alameda had so much money it didn’t matter and (2) their accounting generally was pretty bad.
@@ -255,20 +255,20 @@ In broad strokes, that seems to have been true of FTX as well, just going around
 Another possibility is, you know, naivety, dumbness, sloppiness, over-automation, etc.: FTX just thought “ah well if a token’s price goes up then it’s valuable and we can lend against it,” so they did, without checking to see if the prices made sense or learning lessons when they didn’t. 
 But another possibility is what we talked about in the previous section: None of this made any sense. Bitcoin is worth $17,000; it has no cash flows and someone just made it up within recent memory. Ethereum, Dogecoin, etc. Essentially all of the assets in crypto trade on sentiment, and it is incoherent to say “well Bitcoin is really worth $17,000 so I will lend against it at a high loan-to-value ratio, while MobileCoin is not really worth $70 so I won’t.” If you are in the business of lending against crypto — more broadly, if you are in the business of promising safety in crypto, as  FTX was — then it is easy to end up lending billions of real dollars against a pile of collateral that doesn’t make sense. In part due to adverse selection — if the collateral is worth so much, why are they using it to borrow from you? — but in part because no pile of crypto collateral is ever going to make complete sense.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Bribes
-    
-  
+
+
 
 The standard way to do bribes (not legal advice!) is:
 	You work for some big international company.	You want to win a lucrative government contract in some foreign country.	You sign a deal with some well-connected partner company in the foreign country, in which you pay the partner company a bunch of cash, and the partner company agrees to provide you with some sort of vague services connected to the contract.	The foreign partner company takes the cash that you paid it, keeps some for itself, and pays the rest directly to the foreign official in charge of awarding the contract.	The official awards the contract to you.	The contract is lucrative enough to cover the cost of the bribes, and the foreign partner company’s cut, and your company’s profit margin, and your bonus.
@@ -290,11 +290,11 @@ But there were trust issues:
 The bribe scheme nearly came undone when Service Provider A’s chair refused to share the spoils with the Eskom Official due to an apparent falling out between them. In order to save the illicit arrangement, Capture Team Lead attempted to broker a peace between the two, going so far as arranging a face-to-face meeting, but the efforts were unsuccessful.
 So they had to find a new local intermediary to pass along the bribes. When you’re the shark running the capture team, this is a risk that you take: You can’t necessarily trust that the well-connected local intermediary that you hire to pass on the bribes will actually pass on the bribes.
 
-  
-    
+
+
       Goose eggs
-    
-  
+
+
 
 The old model of financial industry compensation was that mid-level and senior bankers got relatively low base salaries and made most of their money through bonuses. This had a lot of advantages for the banks. It encouraged loyalty: You couldn’t leave mid-year, since most of your pay came at the end of the year. It also limited the financial risk of compensation: In a bad year, banks could cut their compensation expense pretty dramatically, since they paid most of it in one shot at the end of the year. There were downsides, though: It took more total compensation to compete with other industries that offered more normal salaries, and there was a view among regulators that the bonus culture encouraged excessive risk-taking. So after the financial crisis, banks grudgingly moved to a model of somewhat higher base salaries and lower bonuses.
 One result of that is that, in the olden days, getting a bonus of zero was pretty much the equivalent being fired, while in the modern model it … well, it’s still pretty bad.   Bloomberg News reports:
@@ -305,19 +305,19 @@ Bonus snubs are often a precursor to a firing but also sort of a dare: If a comp
 “Where else are these bankers going to go?” Keizner said. “The banks want their teams to stick around because when things turn back around the banks don’t want to find themselves understaffed and scrambling again.”
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse’s  Investment Bank Spinoff Attracts Saudi Crown Prince. Deutsche Bank Considers Return to Trading   Mortgage Securities. How  the gates closed on Blackstone’s runaway real estate vehicle. Asset managers pour money into  tech platforms to take on BlackRock. FTX collapse sends shockwaves through  Coinbase’s stocks and bonds. Stablecoin Issuer   Circle’s SPAC Deal With Concord Scrapped. OPEC+ Keeps  Oil Curbs Despite Russia Price Cap. Poor Countries Feel Sting of  Local-Currency Debt. Texas’s   Crypto Mining Boom Is Starting to Look More Like a Bust. Carolina Panthers’ Owner Tepper Under Investigation for   Scrapped NFL Facility. Hertz to Settle Most   False-Arrest Claims for $168 Million. “Would you want to live in a   world without points?”  Raccoons Get a Reputation Makeover.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One fun bit of foreshadowing is at about the 47-minute mark where Davies says: “If we were a dollar-based guy, we would have earned our 30% and, you know, we would have done well, but would not have been the multiple …. We made 80x in crypto. It would not have been like that. Until we blew up. Then we went to zero. But, yeah.”
 
 
-  [2] A note on the source of the arbitrage here. In Davies’s telling, every bank started offering electronic FX trading platforms to their customers, with the hope of locking the customers into their platform and earning fat commissions. Funds like 3AC would sign up for every bank’s electronic platform. Thus 3AC could see every bank’s bid and offer for each currency; the *banks*, meanwhile, could not, because they couldn’t join the other banks’ platforms. Every so often some bank would have a market of like .9999 / 1.0001 on some lightly traded currency, and some other bank would have a market of 1.0002 / 1.0004, and 3AC would buy from one bank at 1.0001 and sell to the other bank at 1.0002 and clip an easy 0.0001 of risk-free profit. This is an “arbitrage” in the sense that it is an essentially risk-free trade of buying and selling the same thing at different prices at the same time, but in modern finance arbitraging your banks against each other is considered not so much “an arbitrage” as it is “rude,” and the main risk in this trade is that if you did it too often the banks would stop trading with you. 
+  [2] A note on the source of the arbitrage here. In Davies’s telling, every bank started offering electronic FX trading platforms to their customers, with the hope of locking the customers into their platform and earning fat commissions. Funds like 3AC would sign up for every bank’s electronic platform. Thus 3AC could see every bank’s bid and offer for each currency; the *banks*, meanwhile, could not, because they couldn’t join the other banks’ platforms. Every so often some bank would have a market of like .9999 / 1.0001 on some lightly traded currency, and some other bank would have a market of 1.0002 / 1.0004, and 3AC would buy from one bank at 1.0001 and sell to the other bank at 1.0002 and clip an easy 0.0001 of risk-free profit. This is an “arbitrage” in the sense that it is an essentially risk-free trade of buying and selling the same thing at different prices at the same time, but in modern finance arbitraging your banks against each other is considered not so much “an arbitrage” as it is “rude,” and the main risk in this trade is that if you did it too often the banks would stop trading with you.
 
 
   [3] One way for this to be true would be to trade traditional futures where the futures price is higher than the spot price: If Bitcoin trades at $17,000, a Bitcoin future for delivery in a month might trade at $17,500. Another way for it to be true would be to trade perpetual futures — more common in crypto-native markets — where the perpetual future has a  high funding rate paid to the short party, meaning that you pay a running spread to be long via futures. When we talked about this stuff a lot in 2017 it was about regulated futures on traditional commodities markets, which have expiries and traded at a premium; on crypto-native markets perpetual futures seem to be more common and that’s mostly what 3AC seems to have done.
@@ -332,114 +332,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] At about 59:30.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -18,7 +18,7 @@ By **John Gruber**
 
 [![Lex.Games](/martini/images/lexgames.png)](https://lex.games/df)
 
-[Lex.Games](https://lex.games/df): Free daily word games from Lex Friedman. Not the weird Elon stan;  
+[Lex.Games](https://lex.games/df): Free daily word games from Lex Friedman. Not the weird Elon stan;
  the *real* Lex Friedman.
 
 # The iPhone X
@@ -155,6 +155,6 @@ After two months using an iPhone X, I’m convinced Apple succeeded. The iPhone 
 | **Next:** | [Apple Responds to Controversy on iPhone Batteries and Performance](https://daringfireball.net/2017/12/apple_iphone_batteries) |
 
 [Display Preferences](/preferences/ "Customize the font size and presentation options for this web site.")
-  
-  
+
+
 Copyright © 2002–2025 The Daring Fireball Company LLC.

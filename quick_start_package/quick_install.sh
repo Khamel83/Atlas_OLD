@@ -100,7 +100,7 @@ echo -e "${BLUE}🎯 Starting Atlas service...${NC}"
 if [ -f "atlas_service_manager.py" ]; then
     python3 atlas_service_manager.py start > /dev/null 2>&1 &
     sleep 3
-    
+
     # Check if service started
     if curl -s http://localhost:8000 > /dev/null 2>&1; then
         echo -e "${GREEN}✅ Atlas service started successfully${NC}"

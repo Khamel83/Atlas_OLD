@@ -11,7 +11,7 @@
 
 # How to use Evernote to organize your life
 
- / 
+ /
 
 ## Never forget the important stuff
 
@@ -161,7 +161,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250116182358im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250116182358/http://theverge.com/)
 

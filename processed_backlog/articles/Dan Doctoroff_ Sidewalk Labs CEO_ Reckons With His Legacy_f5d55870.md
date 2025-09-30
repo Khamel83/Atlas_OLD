@@ -113,7 +113,7 @@ Photo-illustration (sources): Etienne Fossard/brooklynbridgepark.org, Courtesy o
 * [one great story](//www.curbed.com/tags/one-great-story/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

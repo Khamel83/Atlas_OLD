@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Thursday.In March 2022, Barclays Plc%3Cp%3EI%20am%20just%20going%20to%20call%20t
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Thursday.
 
-  
-    
+
+
       Barclays!
-    
-  
+
+
 
 In March 2022, Barclays Plc
   [1]
@@ -129,63 +129,63 @@ The actual SEC fined Barclays $200 million on top of the rescission costs, and 
 "This case highlights why it is essential for firms like Barclays to have robust internal controls over their offers and sales of securities," said Gurbir S. Grewal, Director of the SEC’s Division of Enforcement. "While we acknowledge Barclays’ efforts to identify, disclose and remediate this conduct, the control deficiencies and the scope of the conduct at issue here was simply staggering. The time for other firms employing similar shelf registrations to take notice and improve their internal compliance and control functions is now."
 Just unbelievably harsh! Sure yes this was very bad, but the only victim of it was Barclays; the investors who bought unregistered securities were not deceived in any way, and many of them ended up with a random windfall. Sure yes Barclays’s shareholders suffered by having to pay out that random windfall, but it’s not like fining them $200 million more makes that any better. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Not legal advice but
-    
-  
+
+
 
 If your older brother does some crime, and he collects his loot in Bitcoin, and the US government seizes his Bitcoin, and you steal the Bitcoin back out from under the government’s nose, and you convert the Bitcoin into dollars, should you put the dollars into a bathtub and roll around in them while women dance around you and your buddy takes pictures on your phone? I am not your lawyer and I am not going to give you legal advice, though I think you can easily imagine the look your lawyer would give you if you asked her this question. I will say though that if you ask your buddies this question, they would probably say “oh absolutely yes that sounds like a good time,” and I cannot really fault them. Rolling around in a bathtub of money that you stole from the government really is funny. Anyway here’s Bloomberg’s David Voreacos with   one of the great first paragraphs of financial journalism:
 Gary Harmon grinned as he lounged in a bathtub full of dollar bills surrounded by scantily clad women. The moment, captured in a photo on his cellphone, could be part of his undoing. To US prosecutors, it’s evidence that he suddenly came into a lot of money.
@@ -198,20 +198,20 @@ Larry Harmon, who’s since pleaded guilty to laundering $311 million through cr
 
 Colloquially you can say that you have Bitcoin “on” a hardware wallet or other computer storage device, like  the guy in Wales who threw his in a garbage dump and keeps getting publicity for his schemes to dig it up. But really the hardware wallet just stores your private keys to one or more Bitcoin addresses, and having those on a hardware wallet doesn’t stop you from also storing them somewhere else — on another hardware wallet, in your iPhone notes app, on a Post-it note, by memorizing them (or by memorizing a seed phrase that can be used to generate the keys), etc. The lesson for the government is that if you arrest someone for Bitcoin crime and you seize his hardware wallet, you have not seized his Bitcoin; you have just seized a hard drive, and he — or his brother, or anyone else — might have other ways to access the Bitcoins. The way you seize the Bitcoins is by getting his private keys — from the hardware wallet, or by asking him, or whatever — and then transferring them to an address that you control, where you can be pretty sure that he and his friends do not have the keys.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Whistles, whistles
-    
-  
+
+
 
 I   wrote in August about Elon Musk’s efforts to get out of buying Twitter Inc.:
 
@@ -228,15 +228,15 @@ The potential whistleblower said that Twitter’s chosen metric to measure bots 
 
 Yes look if he testifies that Twitter’s securities filings were accurate, but he didn’t like them, then that won’t help Musk very much will it. The problem here is that the incentives are so large and well-known that they will attract a lot of people who are eager to help but have nothing to offer.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Credit Suisse’s Options Worsen as Markets Mayhem Takes Toll. How big is the  capital hole at Credit Suisse? Kwarteng Gave BOE Permission for £100 Billion of   Bond Buying. Fund Managers, Regulators Wrestle Over Plans to  Tighten ESG Rules. China’s  property crash: ‘a slow-motion financial crisis.’ Poshmark to Sell Itself for Less Than  Half Its IPO Price to Korea’s Naver. Nikola Founder   Trevor Milton Won’t Testify in Fraud Trial. Theranos Founder  Elizabeth Holmes Gets Hearing on New Trial. Bankrupt Crypto Firm   Celsius Sets Dates for Auction of Assets. Crypto Could  Threaten Financial System, Federal Risk Panel Warns. PwC sees opportunity to poach staff during  EY split. Software   Robots Are Gaining Ground in White-Collar Office World. Elon Musk Sets Off Uproar in Ukraine by Tweeting His   ‘Peace’ Plan. “It’s about addressing a feeling I think a lot of people relate to, and turning that feeling that already exists of guilt or anxiety into a sense of freedom,   or empowerment or joy.” “Can you buy Twitter   and then delete it, please!? xx.” “Verified users are without question the worst part of any mainstream platform and if you want to imagine a world without online anonymity, go tell me about the incredible original content  trending on LinkedIn right now.” “The Onion files this brief to protect its continued ability to create  fiction that may ultimately merge into reality.” “If you do what you hate, the money will  chase you down a dark alleyway and throttle you.” Adult  Happy Meals.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am just going to call the whole thing “Barclays,” and Barclays Plc is the top-level holding company. In fact various Barclays entities are involved here, and in particular last week’s settlement is with Barclays Plc and Barclays Bank Plc; Barclays Bank Plc is the filer of the relevant registration statements.
 
 
@@ -252,7 +252,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] For simplicity I am skipping over another dumb detail of this story, which is that Barclays overshot its issuance on a *previous* shelf registration statement (a 2018 conversion of its WKSI shelf into a non-WKSI limited shelf). That was a smaller dollar amount and a less dramatic discovery, but same basic problem.
 
 
-  [6] Obviously I’m relying on, and quoting, last week’s SEC order. 
+  [6] Obviously I’m relying on, and quoting, last week’s SEC order.
 
 
   [7] See the cover page of the registration statement. The SEC’s filing fee rates change each year; the current fee is $110.20 per million dollars registered.
@@ -264,114 +264,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] Singles, mind you; it looks like there is maybe $150 in this picture. So not *great* evidence.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

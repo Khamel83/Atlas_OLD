@@ -7,30 +7,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    
+
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- AppResources meta begin -->
         <meta name="paf-app-resources" content="" />
                  <script type="text/javascript">var ncbi_startTime = new Date();</script>
-            
+
         <!-- AppResources meta end -->
-        
+
         <!-- TemplateResources meta begin -->
         <meta name="paf_template" content="" />
 
 <!-- TemplateResources meta end -->
-        
+
         <!-- Logger begin -->
         <meta name="ncbi_db" content="books" /><meta name="ncbi_pdid" content="book-part" /><meta name="ncbi_acc" content="NBK542165" /><meta name="ncbi_domain" content="statpearls" /><meta name="ncbi_report" content="record" /><meta name="ncbi_type" content="fulltext" /><meta name="ncbi_objectid" content="" /><meta name="ncbi_pcid" content="/NBK542165/" /><meta name="ncbi_pagename" content="Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner - StatPearls - NCBI Bookshelf" /><meta name="ncbi_bookparttype" content="chapter" /><meta name="ncbi_app" content="bookshelf" />
         <!-- Logger end -->
-        
+
         <title>Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner - StatPearls - NCBI Bookshelf</title>
-        
+
         <!-- AppResources external_resources begin -->
         <link rel="stylesheet" href="/core/jig/1.15.2/css/jig.min.css" /><script type="text/javascript" src="/core/jig/1.15.2/js/jig.min.js"></script>
 
 <!-- AppResources external_resources end -->
-        
+
         <!-- Page meta begin -->
         <meta name="robots" content="INDEX,FOLLOW,NOARCHIVE" /><meta name="citation_inbook_title" content="StatPearls [Internet]" /><meta name="citation_title" content="Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner" /><meta name="citation_publisher" content="StatPearls Publishing" /><meta name="citation_date" content="2025/08/09" /><meta name="citation_author" content="Melina Brizuela" /><meta name="citation_author" content="Joseph O. Daley" /><meta name="citation_pmid" content="31194322" /><meta name="citation_fulltext_html_url" content="https://www.ncbi.nlm.nih.gov/books/NBK542165/" /><link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="DC.Title" content="Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner" /><meta name="DC.Type" content="Text" /><meta name="DC.Publisher" content="StatPearls Publishing" /><meta name="DC.Contributor" content="Melina Brizuela" /><meta name="DC.Contributor" content="Joseph O. Daley" /><meta name="DC.Date" content="2025/08/09" /><meta name="DC.Identifier" content="https://www.ncbi.nlm.nih.gov/books/NBK542165/" /><meta name="description" content="Dental infections originate in the tooth or its supporting structures and can spread to the surrounding tissues. When facial structures are compromised, the infection originates from necrotic pulp, periodontal pockets, or pericoronitis. Dental infections have always been common and were one of the leading causes of death hundreds of years ago. The London, England, Bills of Mortality in the 1600s reported teeth infections as the fifth or sixth leading cause of death.[1] In 1908, dental infections were believed to carry a mortality rate of 10% to 40%.[2] Fortunately, due to improved dental hygiene, modern dentistry, and antibiotics, dental infections are now rarely life-threatening." /><meta name="og:title" content="Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner" /><meta name="og:type" content="book" /><meta name="og:description" content="Dental infections originate in the tooth or its supporting structures and can spread to the surrounding tissues. When facial structures are compromised, the infection originates from necrotic pulp, periodontal pockets, or pericoronitis. Dental infections have always been common and were one of the leading causes of death hundreds of years ago. The London, England, Bills of Mortality in the 1600s reported teeth infections as the fifth or sixth leading cause of death.[1] In 1908, dental infections were believed to carry a mortality rate of 10% to 40%.[2] Fortunately, due to improved dental hygiene, modern dentistry, and antibiotics, dental infections are now rarely life-threatening." /><meta name="og:url" content="https://www.ncbi.nlm.nih.gov/books/NBK542165/" /><meta name="og:site_name" content="NCBI Bookshelf" /><meta name="og:image" content="https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/bookshelf/thumbs/th-statpearls-lrg.png" /><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@ncbibooks" /><meta name="bk-non-canon-loc" content="/books/n/statpearls/article-20354/" /><link rel="canonical" href="https://www.ncbi.nlm.nih.gov/books/NBK542165/" /><link rel="stylesheet" href="/corehtml/pmc/css/figpopup.css" type="text/css" media="screen" /><link rel="stylesheet" href="/corehtml/pmc/css/bookshelf/2.26/css/books.min.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/bookshelf/2.26/css/books_print.min.css" type="text/css" media="print" /><style type="text/css">p a.figpopup{display:inline !important} .bk_tt {font-family: monospace}  .first-line-outdent .bk_ref {display: inline}  .body-content h2, .body-content .h2  {border-bottom: 1px solid #97B0C8} .body-content h2.inline {border-bottom: none} a.page-toc-label , .jig-ncbismoothscroll a {text-decoration:none;border:0 !important} .temp-labeled-list  .graphic {display:inline-block !important} .temp-labeled-list  img{width:100%}</style><script type="text/javascript" src="/corehtml/pmc/js/jquery.hoverIntent.min.js"> </script><script type="text/javascript" src="/corehtml/pmc/js/common.min.js?_=3.18"> </script><script type="text/javascript" src="/corehtml/pmc/js/large-obj-scrollbars.min.js"> </script><script type="text/javascript">window.name="mainwindow";</script><script type="text/javascript" src="/corehtml/pmc/js/bookshelf/2.26/book-toc.min.js"> </script><script type="text/javascript" src="/corehtml/pmc/js/bookshelf/2.26/books.min.js"> </script><meta name="book-collection" content="NONE" />
 
@@ -45,7 +45,7 @@
                     <noscript>
 	<p class="nojs">
 	<strong>Warning:</strong>
-	The NCBI web site requires JavaScript to function. 
+	The NCBI web site requires JavaScript to function.
 	<a href="/guide/browsers/#enablejs" title="Learn how to enable JavaScript" target="_blank">more...</a>
 	</p>
 	</noscript>
@@ -96,16 +96,16 @@
 	</section>
 	<div class="usa-overlay"></div>
 	<header class="ncbi-header" role="banner" data-section="Header">
-		
+
 		<div class="usa-grid">
 			<div class="usa-width-one-whole">
-				
+
 				<div class="ncbi-header__logo">
 					<a href="/" class="logo" aria-label="NCBI Logo" data-ga-action="click_image" data-ga-label="NIH NLM Logo">
 						<img src="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg" alt="NIH NLM Logo" />
 					</a>
 				</div>
-				
+
 				<div class="ncbi-header__account">
 					<a id="account_login" href="https://account.ncbi.nlm.nih.gov" class="usa-button header-button" style="display:none" data-ga-action="open_menu" data-ga-label="account_menu">Log in</a>
 					<button id="account_info" class="header-button" style="display:none" aria-controls="account_popup" type="button">
@@ -121,7 +121,7 @@
 						<span class="sr-only">Show account info</span>
 					</button>
 				</div>
-				
+
 				<div class="ncbi-popup-anchor">
 					<div class="ncbi-popup account-popup" id="account_popup" aria-hidden="true">
 						<div class="ncbi-popup-head">
@@ -148,7 +148,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</header>
@@ -161,7 +161,7 @@
 	</div>
 	<section data-section="Alerts">
 		<div class="ncbi-alerts-placeholder"></div>
-	</section>    
+	</section>
 </div>
                             <div class="header">
     <div class="res_logo"><h1 class="res_name"><a href="/books/" title="Bookshelf home">Bookshelf</a></h1><h2 class="res_tagline"></h2></div>
@@ -177,29 +177,29 @@
 </div>
 
 <!--<component id="Page" label="headcontent"/>-->
-                            
+
                         </div>
                         <div class="content">
                             <!-- site messages -->
                             <!-- Custom content 1 -->
 <div class="col1">
-    
+
 </div>
 
 <div class="container">
     <div id="maincontent" class="content eight_col col">
         <!-- Custom content in the left column above book nav -->
         <div class="col2">
-            
+
         </div>
-        
+
         <!-- Book content -->
 
 <!-- Custom content between navigation and content -->
         <div class="col3">
-            
+
         </div>
-        
+
         <div class="document">
             <div class="pre-content"><div><div class="bk_prnt"><p class="small">NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.</p><p>StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. </p></div><div class="iconblock clearfix whole_rhythm no_top_margin bk_noprnt"><a class="img_link icnblk_img" title="Table of Contents Page" href="/books/n/statpearls/"><img class="source-thumb" src="/corehtml/pmc/pmcgifs/bookshelf/thumbs/th-statpearls-lrg.png" alt="Cover of StatPearls" height="100px" width="80px" /></a><div class="icnblk_cntnt eight_col"><h2>StatPearls [Internet].</h2><a data-jig="ncbitoggler" href="#__NBK542165_dtls__">Show details</a><div style="display:none" class="ui-widget" id="__NBK542165_dtls__"><div>Treasure Island (FL): <a href="https://www.statpearls.com/" ref="pagearea=page-banner&amp;targetsite=external&amp;targetcat=link&amp;targettype=publisher">StatPearls Publishing</a>; 2025 Jan-.</div></div><div class="half_rhythm"></div><div class="bk_noprnt"><form method="get" action="/books/n/statpearls/" id="bk_srch"><div class="bk_search"><label for="bk_term" class="offscreen_noflow">Search term</label><input type="text" title="Search this book" id="bk_term" name="term" value="" data-jig="ncbiclearbutton" /> <input type="submit" class="jig-ncbibutton" value="Search this book" submit="false" style="padding: 0.1em 0.4em;" /></div></form></div></div></div></div></div>
             <div class="main-content lit-style" itemscope="itemscope" itemtype="http://schema.org/CreativeWork"><div class="meta-content fm-sec"><h1 id="_NBK542165_"><span class="title" itemprop="name">Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner</span></h1><p class="contrib-group"><span itemprop="author">Melina Brizuela</span>; <span itemprop="author">Joseph O. Daley</span>.</p><a data-jig="ncbitoggler" href="#__NBK542165_ai__" style="border:0;text-decoration:none">Author Information and Affiliations</a><div style="display:none" class="ui-widget" id="__NBK542165_ai__"><p class="contrib-group"><h4>Authors</h4><span itemprop="author">Melina Brizuela</span><sup>1</sup>; <span itemprop="author">Joseph O. Daley</span><sup>2</sup>.</p><h4>Affiliations</h4><div class="affiliation"><sup>1</sup> International University Of Catalunya (UIC)</div><div class="affiliation"><sup>2</sup> Private Practice</div></div><p class="small">Last Update: <span itemprop="dateModified">August 9, 2025</span>.</p></div><div class="jig-ncbiinpagenav body-content whole_rhythm" data-jigconfig="allHeadingLevels: ['h2'],smoothScroll: false" itemprop="text"><div id="article-20354.s1"><h2 id="_article-20354_s1_">Continuing Education Activity</h2><p>Dental infections, though often considered minor, can escalate rapidly and result in serious complications if not promptly recognized and managed. This activity equips clinicians with the knowledge to identify, assess, and manage dental infections that present in medical settings. Participants will gain an understanding of the pathophysiology and clinical manifestations of dental caries, pulpitis, apical abscesses, periodontal disease, and pericoronitis, as well as distinguishing between reversible and irreversible pulpitis, appropriate use of antibiotics, red flag symptoms, and indications for emergency referral&#x02014;particularly in cases of Ludwig angina or airway compromise.</p><p>This course will explore structured patient evaluations, interpretation of relevant imaging, and evidence-based analgesia while recognizing the limits of medical management. This activity also underscores the significance of interprofessional collaboration and early dental referral for definitive care. By improving diagnostic accuracy and optimizing initial management, clinicians can reduce complications, avoid unnecessary antibiotic use, and improve outcomes for patients who present to emergency or primary care settings with dental concerns.&#x000a0;This activity for healthcare professionals is designed to enhance the learner's competence in identifying oral facial infections, performing the recommended evaluation, and implementing an appropriate interprofessional approach when managing this condition.</p><p>
@@ -258,20 +258,20 @@ This book is distributed under the terms of the Creative Commons Attribution-Non
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 </a>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
 </p></div><div class="small"><span class="label">Bookshelf ID: NBK542165</span><span class="label">PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31194322" title="PubMed record of this page" ref="pagearea=meta&amp;targetsite=entrez&amp;targetcat=link&amp;targettype=pubmed">31194322</a></span></div></div></div>
-            
+
         </div>
 
 <!-- Custom content below content -->
         <div class="col4">
-            
+
         </div>
-        
-        
+
+
         <!-- Book content -->
-        
+
         <!-- Custom contetnt below bottom nav -->
         <div class="col5">
-            
+
         </div>
     </div>
 
@@ -282,20 +282,20 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 </div>
         <div xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></div><div class="portlet"><div class="portlet_head"><div class="portlet_title"><h3><span>Views</span></h3></div><a name="Shutter" sid="1" href="#" class="portlet_shutter" title="Show/hide content" remembercollapsed="true" pgsec_name="PDF_download" id="Shutter"></a></div><div class="portlet_content"><ul xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="simple-list"><li><a href="/books/NBK542165/?report=reader">PubReader</a></li><li><a href="/books/NBK542165/?report=printable">Print View</a></li><li><a data-jig="ncbidialog" href="#_ncbi_dlg_citbx_NBK542165" data-jigconfig="width:400,modal:true">Cite this Page</a><div id="_ncbi_dlg_citbx_NBK542165" style="display:none" title="Cite this Page"><div class="bk_tt">Brizuela M, Daley JO. Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner. [Updated 2025 Aug 9]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. <span class="bk_cite_avail"></span></div></div></li></ul></div></div><div class="portlet"><div class="portlet_head"><div class="portlet_title"><h3><span>In this Page</span></h3></div><a name="Shutter" sid="1" href="#" class="portlet_shutter" title="Show/hide content" remembercollapsed="true" pgsec_name="page-toc" id="Shutter"></a></div><div class="portlet_content"><ul xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="simple-list"><li><a href="#article-20354.s1" ref="log$=inpage&amp;link_id=inpage">Continuing Education Activity</a></li><li><a href="#article-20354.s2" ref="log$=inpage&amp;link_id=inpage">Introduction</a></li><li><a href="#article-20354.s3" ref="log$=inpage&amp;link_id=inpage">Etiology</a></li><li><a href="#article-20354.s4" ref="log$=inpage&amp;link_id=inpage">Epidemiology</a></li><li><a href="#article-20354.s5" ref="log$=inpage&amp;link_id=inpage">Pathophysiology</a></li><li><a href="#article-20354.s6" ref="log$=inpage&amp;link_id=inpage">History and Physical</a></li><li><a href="#article-20354.s7" ref="log$=inpage&amp;link_id=inpage">Evaluation</a></li><li><a href="#article-20354.s8" ref="log$=inpage&amp;link_id=inpage">Treatment / Management</a></li><li><a href="#article-20354.s9" ref="log$=inpage&amp;link_id=inpage">Differential Diagnosis</a></li><li><a href="#article-20354.s10" ref="log$=inpage&amp;link_id=inpage">Prognosis</a></li><li><a href="#article-20354.s11" ref="log$=inpage&amp;link_id=inpage">Complications</a></li><li><a href="#article-20354.s12" ref="log$=inpage&amp;link_id=inpage">Deterrence and Patient Education</a></li><li><a href="#article-20354.s13" ref="log$=inpage&amp;link_id=inpage">Pearls and Other Issues</a></li><li><a href="#article-20354.s14" ref="log$=inpage&amp;link_id=inpage">Enhancing Healthcare Team Outcomes </a></li><li><a href="#article-20354.s15" ref="log$=inpage&amp;link_id=inpage">Review Questions</a></li><li><a href="#article-20354.s16" ref="log$=inpage&amp;link_id=inpage">References</a></li></ul></div></div><div class="portlet"><div class="portlet_head"><div class="portlet_title"><h3><span>Related information</span></h3></div><a name="Shutter" sid="1" href="#" class="portlet_shutter" title="Show/hide content" remembercollapsed="true" pgsec_name="discovery_db_links" id="Shutter"></a></div><div class="portlet_content"><ul><li class="brieflinkpopper"><a class="brieflinkpopperctrl" href="/books/?Db=pmc&amp;DbFrom=books&amp;Cmd=Link&amp;LinkName=books_pmc_refs&amp;IdsFromResult=4781156" ref="log$=recordlinks">PMC</a><div class="brieflinkpop offscreen_noflow">PubMed Central citations</div></li><li class="brieflinkpopper"><a class="brieflinkpopperctrl" href="/books/?Db=pubmed&amp;DbFrom=books&amp;Cmd=Link&amp;LinkName=books_pubmed_refs&amp;IdsFromResult=4781156" ref="log$=recordlinks">PubMed</a><div class="brieflinkpop offscreen_noflow">Links to PubMed</div></li></ul></div></div><div class="portlet"><div class="portlet_head"><div class="portlet_title"><h3><span>Recent Activity</span></h3></div><a name="Shutter" sid="1" href="#" class="portlet_shutter" title="Show/hide content" remembercollapsed="true" pgsec_name="recent_activity" id="Shutter"></a></div><div class="portlet_content"><div xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="HTDisplay" class=""><div class="action"><a href="javascript:historyDisplayState('ClearHT')">Clear</a><a href="javascript:historyDisplayState('HTOff')" class="HTOn">Turn Off</a><a href="javascript:historyDisplayState('HTOn')" class="HTOff">Turn On</a></div><ul id="activity"><li class="ra_rcd ralinkpopper two_line"><a class="htb ralinkpopperctrl" ref="log$=activity&amp;linkpos=1" href="/portal/utils/pageresolver.fcgi?recordid=68c7d9791506190342d10ea5">Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner - S...</a><div class="ralinkpop offscreen_noflow">Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner - StatPearls<div class="brieflinkpopdesc"></div></div><div class="tertiary"></div></li></ul><p class="HTOn">Your browsing activity is empty.</p><p class="HTOff">Activity recording is turned off.</p><p id="turnOn" class="HTOff"><a href="javascript:historyDisplayState('HTOn')">Turn recording back on</a></p><a class="seemore" href="/sites/myncbi/recentactivity">See more...</a></div></div></div>
-        
+
         <!-- Custom content below discovery portlets -->
         <div class="col7">
-            
+
         </div>
     </div>
 </div>
 
 <!-- Custom content after all -->
 <div class="col8">
-    
+
 </div>
 <div class="col9">
-    
+
 </div>
 
 <script type="text/javascript" src="/corehtml/pmc/js/jquery.scrollTo-1.4.2.js"></script>
@@ -317,11 +317,11 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 </script>
                         </div>
                         <div class="bottom">
-                            
+
                             <div id="NCBIFooter_dynamic">
     <!--<component id="Breadcrumbs" label="breadcrumbs"/>
     <component id="Breadcrumbs" label="helpdesk"/>-->
-    
+
 </div>
 
 <div class="footer" id="footer">
@@ -358,7 +358,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 							.cls-12 {
 							fill: #737373;
 							}
-							
+
 							.cls-11 {
 							fill-rule: evenodd;
 							}
@@ -390,7 +390,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="container-fluid bg-primary">
 		<div class="container pt-5">
 			<div class="row mt-3">
@@ -502,7 +502,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentOmnitureBaseJS/InstrumentNCBIConfigJS/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js?v=1"> </script>    
+	<script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentOmnitureBaseJS/InstrumentNCBIConfigJS/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js?v=1"> </script>
 	<script type="text/javascript" src="/portal/portal3rc.fcgi/static/js/hfjs2.js"> </script>
 </div>
                         </div>
@@ -515,14 +515,14 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
         <!-- /.grid -->
 
 <span class="PAFAppResources"></span>
-        
+
         <!-- BESelector tab -->
-        
-        
-        
+
+
+
         <noscript><img alt="statistics" src="/stat?jsdisabled=true&amp;ncbi_db=books&amp;ncbi_pdid=book-part&amp;ncbi_acc=NBK542165&amp;ncbi_domain=statpearls&amp;ncbi_report=record&amp;ncbi_type=fulltext&amp;ncbi_objectid=&amp;ncbi_pcid=/NBK542165/&amp;ncbi_pagename=Oral Facial Infection of Dental Origin: A Guide for the Medical Practitioner - StatPearls - NCBI Bookshelf&amp;ncbi_bookparttype=chapter&amp;ncbi_app=bookshelf" /></noscript>
-        
-        
+
+
         <!-- usually for JS scripts at page bottom -->
         <!--<component id="PageFixtures" label="styles"></component>-->
 

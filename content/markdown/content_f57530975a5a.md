@@ -74,7 +74,7 @@ gtag('config', 'G-NMK389HVE6');</script> <!-- OneTrust Cookies Consent Notice st
     if (parts.length >= 2) // >= accounts for multiple cookies of the same name
         return parts.pop().split(";").shift();
     }
-    
+
     // Add all required cookie group IDs to the following array
     var groupID = ['C0004', 'C0005']; // e.g. C0004 = targeting cookie, C0005 = social cookie
     var domain = ".millionmilesecrets.com"; // must match the cookie domain
@@ -152,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					"traits": { email },
 					userId,
 				});
-			}); 
+			});
 		}
 
 function sha256(str) {

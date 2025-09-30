@@ -22,11 +22,11 @@
 body .transition {display: block}
 .w-editor .transition {display: none;}
 .no-scroll-transition {overflow: hidden; position: relative;}
-  
- 
+
+
   <!--Tooltip Styling-->
 <link rel="stylesheet" href="https://unpkg.com/tippy.js@4/themes/light-border.css"/>
-  
+
 .tippy-box[data-theme~='tomato'] {
   background-color: tomato;
   color: yellow;
@@ -36,7 +36,7 @@ body .transition {display: block}
 
 <script async src="https://dash.sparkloop.app/widget/MF06bf819d1a40/embed.js" data-sparkloop></script>
 
-<style> 
+<style>
 .no-scroll {overflow:hidden;}
 .p-transition .grid-4 {grid-template-columns: minmax(16%, 16%) 34% 1fr 34%;}
 </style>
@@ -45,7 +45,7 @@ body .transition {display: block}
 		!function (w, d, t) {
 		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
 )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-		
+
 		  ttq.load('CE73L6RC77UA05OMRCN0');
 		  ttq.page();
 		}(window, document, 'ttq');
@@ -92,7 +92,7 @@ body {-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -o-
 <script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body class="body-5"><div class="primary-symbol"><div class="html-embed-11 w-embed w-script"><style>
  ::selection {color: white; background: #358dff;}
  </style>
- 
+
  <script>
 var Webflow = Webflow || [];
 Webflow.push(function() {
@@ -111,14 +111,14 @@ Webflow.push(function() {
       Cookies.set('notice', 'shown', { expires: expireTime });
        $('.modal_dontleave').remove();
   });
-  
+
     // On button click
     $('.modal_dontleave').click(function() {
       // Calculate when you want to display the notice again (change 15 to number of minutes you want)
       var expireTime = new Date(new Date().getTime() + 60000 * 60 * 24 * 60);
       // Set this cookie
       Cookies.set('notice', 'shown', { expires: expireTime });
-      
+
     });
   });
 });
@@ -133,18 +133,18 @@ function addEvent(obj, evt, fn) {
 
 addEvent(document, 'mouseout', function(evt) {
     if (evt.toElement == null && evt.relatedTarget == null) {
-      if($('.modal_dontleave').length){  
-      $('.modal_dontleave').attr("style","display:flex !important;"); 
+      if($('.modal_dontleave').length){
+      $('.modal_dontleave').attr("style","display:flex !important;");
       }
     };
 });
 
 </script>
 
-<style> 
+<style>
 .grayscale {
   filter: grayscale(1);
-  -webkit-filter: grayscale(1); 
+  -webkit-filter: grayscale(1);
   filter: grayscale(100%);
 
 }
@@ -286,7 +286,7 @@ let transitionTrigger = $(".transition-trigger");
 let introDurationMS = 0;
 let exitDurationMS = 1000;
 let excludedClass = "no-transition";
-  
+
 // On Page Load
 if (transitionTrigger.length > 0) {
 	transitionTrigger.click();
@@ -311,8 +311,8 @@ window.onpageshow = function(event) {if (event.persisted) {window.location.reloa
 setTimeout(() => {$(window).on("resize", function () {
 setTimeout(() => {$(".transition").css("display", "none");}, 50);});
 }, introDurationMS);
-  
-  
+
+
 </script>
 
 <script>

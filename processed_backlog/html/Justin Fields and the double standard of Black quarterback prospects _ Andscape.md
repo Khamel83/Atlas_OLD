@@ -19,7 +19,7 @@ The NFL draft process displayed how race plays a part in evaluating talent
 [![Martenzie Johnson](https://andscape.com/wp-content/uploads/2016/05/johnson.png?w=90)](https://andscape.com/contributors/martenzie-johnson/)
 
 
-By [Martenzie Johnson](https://andscape.com/contributors/martenzie-johnson/) 
+By [Martenzie Johnson](https://andscape.com/contributors/martenzie-johnson/)
 [@10zJohnson](https://twitter.com/10zJohnson)
 
 April 26, 2021

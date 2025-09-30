@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I don’t think I’ve ever seen a debt tender offer announced at 2 a.m.? You just fell asleep reading the words “debt tender offer,” didn’t you
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse
-    
-  
+
+
 
 I don’t think I’ve ever seen a debt tender offer announced at 2 a.m.? You just fell asleep reading the words “debt tender offer,” didn’t you? Nobody stays up until the wee hours of the morning due to the excitement or urgency of a debt tender offer. But  this seems to have   hit the wire at 1:45 a.m. Zurich time:
 
@@ -92,37 +92,37 @@ It’s offering to buy back 14 dollar- and euro-denominated senior debt securit
 But surely Credit Suisse would be thrilled to have the tender offer fail — to have no one show up to sell bonds at these prices — and miss out on saving the $70 million. Seventy million dollars is pocket change; Credit Suisse posted a  net loss of CHF 7.3 billion last year. If its short-term debt rallies enough that it is no longer able to buy back its one-month bonds at a 19% yield, that means that its one-month debt is no longer trading at a 19% yield. That’s way better than saving $70 million! Global banks live or die by their access to credit markets, and they don’t live all that long if their debt trades at distressed levels. 
 Credit Suisse’s main goal right now is to convince funding markets that everything is fine. If you want to convince traders of something, the best evidence is a trade. The market is telling Credit Suisse that its debt is distressed. Credit Suisse wants to tell the market that it isn’t, that everything is fine. The way to do that is with price: The market says “Credit Suisse’s debt is distressed and only worth 84 cents on the dollar,” and Credit Suisse says “oh yeah? I’ll pay you 90.” It is a show of confidence from Credit Suisse, backed up by a show of confidence from the SNB. Perhaps it will help.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       First Republic
-    
-  
+
+
 
 Here are two Wall Street Journal stories. One  is about First Republic Bank:
 
@@ -153,11 +153,11 @@ The biggest banks, including JPMorgan, Bank of America and Citigroup, would cont
 
 The traditional approach — SVB’s apparent approach — is that you solve your capital problems, and that calms depositors and prevents the bank run. A reasonable thing to think! But it didn’t work for SVB, so First Republic might as well reverse the order. Fix the run — by getting a ton of deposits from other banks — and then go out and raise capital. With less of a threat of imminent disaster, maybe stock investors will be more willing to pay up.
 
-  
-    
+
+
       Europe vs. US
-    
-  
+
+
 
 Above, I quoted yesterday’s  joint SNB/Finma statement about Credit Suisse being fine. I should say that the statement does not lead with Credit Suisse being fine. It leads with making fun of America:
 
@@ -177,11 +177,11 @@ The 2008 crisis triggered a sea change in how to handle the collapse of banks, w
 I can find nothing to object to in this criticism. Yes, absolutely, after 2008 global regulators tried to create regimes to minimize the systemic risks of big banks, and US regulators supervised regional banks like SVB with a light touch specifically because our political system concluded that those banks were not systemically important, and then at the first sign of trouble at SVB the US did conclude it was systemically important and rushed to implement a giant bailout. “Killed a fly with a sledgehammer” seems right, as does “long and boring meetings” for that matter.
 That said, my gut instinct is that something like “talk constantly about how you’ll never ever ever ever do bailouts, but then occasionally do a bailout” is basically the right approach to bank regulation? As a matter of moral hazard and discouraging bad risk-taking, you have to tell banks “we would never bail you out,” because then they will try to behave themselves. But then if they do take bad risks, as a matter of not burning the house down, you bail them out anyway. 
 
-  
-    
+
+
       Outsider trading
-    
-  
+
+
 
 If you are a senior executive at a public company, your trades in your own company’s stock will be heavily scrutinized. Your trades in your company’s competitors’ stocks, though, will probably be less scrutinized. But ProPublica got a bunch of tax returns for a bunch of public-company executives and scrutinized their stock trades, and they  found a number that were pretty well timed:
 A Gulf of Mexico oil executive invested in one partner company the day before it announced good news about some of its wells. A paper-industry executive made a 37% return in less than a week by buying shares of a competitor just before it was acquired by another company. And a toy magnate traded hundreds of millions of dollars in stock and options of his main rival, conducting transactions on at least 295 days. He made an 11% return over a recent five-year period, even as the rival’s shares fell by 57%.
@@ -204,11 +204,11 @@ It feels vaguely like bad corporate governance for an executive of one company t
   [5]
  And yet I do not think it is insider trading exactly, and I sympathize. If I were a CEO, I’d be tempted by this. If some other company is better at your job than you are, why not own their stock?
 
-  
-    
+
+
       Financial prisoner exchange
-    
-  
+
+
 
 Broadly speaking, due to war and sanctions and geopolitical tensions, Russian banks with euros in Europe often can’t send those euros back to Russia, and European banks with rubles in Russia often can’t send those rubles back to Europe. But these are not real things. A “euro” or a “ruble” is not a bank note that needs to get on a plane and cross a border. They are just entries in ledgers.
 If you are a European bank with Russian operations, and you know a Russian bank with European operations, you might propose a trade: “You give us your euros in Europe, which you can’t get use but we can, and we’ll give you our rubles in Russia, which we can’t use but you can.”
@@ -222,11 +222,11 @@ The creative solution is likely to raise eyebrows among western politicians and 
 
 Well it raised my eyebrows. I do love a creative banking deal, but still.
 
-  
-    
+
+
       Every [clap emoji] thing [clap emoji] is [clap emoji] securities [clap emoji] fraud
-    
-  
+
+
 
 Yep   yep:
 
@@ -235,11 +235,11 @@ The proposed class-action complaint, filed in federal court in Camden, New Jerse
 
 To be fair, surprising financial losses at a bank are a lot closer to traditional securities fraud than most of the stuff I write about under the heading “everything is securities fraud,” but still the timing here feels a bit cruel.
 
-  
-    
+
+
       Isn’t it ironic
-    
-  
+
+
 
 Should you be involved in a corporate musical parody video in which you lock arms with your coworkers in a kickline? Buddy, if anyone even suggests that, you should quit your job, short your company’s stock and call the police; this is not legal or investing advice but it   would have worked out for Signature Bank:
 
@@ -252,15 +252,15 @@ Alyson Stone, who was senior vice president of strategy and marketing until she 
 
 Oh me too, me too. To be fair, these videos are from long ago and if you had shorted the stock based on them you’d have had a rough decade. But it’s the principle of the thing.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 “The Schedules and SOFAs filed describe $3.2 billion in payments and loans to founders, chiefly from Alameda Research, including  $2.2 billion to Sam Bankman-Fried.”  Goldman looked to buy SVB in 2020 but talks fizzled. Government Will Likely Only Sell Silicon Valley Bank to Another Bank, Sources Say. WeWork Nears Deal for Capital Injection and Debt Conversion, Sources Say. U.S. Threatens Ban if  TikTok’s Chinese Owners Don’t Sell Stakes. In New York City, a $100,000 Salary   Feels Like $36,000. Barney Frank defends role at Signature Bank: ‘I need to make money.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This more or less describes what seems to have   happened to Signature Bank last weekend: “The decision to take possession of the bank and hand it over to the FDIC was based on the current status of the bank and its ability to do business in a safe and sound manner on Monday.”
 
 
@@ -276,95 +276,95 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Consider also all of the stuff about “should index funds be illegal”: If shareholders are all diversified, does that create anticompetitive incentives? What if executives are too?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cide1d.5k67/79203648.gif" alt="" border="0" /></a>

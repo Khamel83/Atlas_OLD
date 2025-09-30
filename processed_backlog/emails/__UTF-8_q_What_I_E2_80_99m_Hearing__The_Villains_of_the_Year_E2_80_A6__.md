@@ -45,7 +45,7 @@ Sheridan, Taylor Swift, Quinta Brunson, Doug Johnson, Stephanie Jones, Jamie Pat
 
 But first…
 
- 
+
 
 Who Won the Week: Jeff Fowler
 -----------------------------
@@ -62,7 +62,7 @@ his fake job in the Trump administration: “special envoy to the U.K.”   
 
 Noted: The “special envoy” position likely will not require Senate confirmation, where Burnett might have been subjected to questioning about the contents/whereabouts of the infamous The Apprentice tapes or other behavior he witnessed while working with Trump for more than a decade.  
 
- 
+
 
 Quote of the Week
 -----------------
@@ -123,7 +123,7 @@ where the film made $613 million, almost 80 percent of its global haul. Uni also
 Since Goldeneye, when Broccoli and Wilson really began managing Bond, they’ve worked with everyone from Frank Mancuso in the ’90s at MGM, to Amy Pascal at Sony on the first few Daniel Craig films, to Gary Barber and Jonathan Glickman back at MGM. The producers have had at least decent relationships with all of them, meaning this truly is an Amazon problem—one they need to solve to
 finally get some value out of that $8.5 billion MGM deal.  
 
- 
+
 
 My Reading List…
 ------------------
@@ -292,7 +292,7 @@ maintains she didn’t), she was under no such constraint. 
 A pretty smart strategy, though this case is certainly in the early stages. With Freedman promising to sue Jones, a fiery response from Baldoni’s team expected as soon as this week, and a full civil lawsuit likely from Lively, this situation could unmask the rat-fucking underworld of Hollywood crisis P.R. like nothing since the Weinstein exposés. “The allegations in the complaint are head-turning, but I
 think it’s nothing compared to the litigation that’s coming,” Puck’s legal expert, Eriq Gardner, slacked me today. (He’ll have more on Thursday.) Indeed, 2024 may end up as a turning point when the cold war over public perception of celebrities turned hot.   
 
- 
+
 
 Previous Villains of the Year…
 
@@ -328,7 +328,7 @@ settlement, shortly after George was ordered to sit for a deposition. My guess i
 “You didn’t mention the biggest reason CAA agents are stuck there: equity. It’s easy for Doug to leave for [a rival like] WME when you don’t have any big equity stake you
 are giving up. But if you become a manager [and don’t ‘compete’ with CAA] you can keep that equity.” —A manager
 
- 
+
 
 Finally…
 ----------
@@ -367,7 +367,7 @@ Quarter Sheets: Echo Park’s sensation is redefining a dream combo of pizza and
 For more detailed food recommendations in L.A. and beyond, subscribe to Jamie’s excellent newsletter,
 With Jamie. ( https://www.withjamie.com/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
- 
+
 
 Have a great holiday week,
 
@@ -391,6 +391,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT99ddZtKaTTFPgGRZ6KU=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Credit default swaps have two related functions: You can trade CDS to bet on the creditworthiness of some company (or country, or type of st
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Icahn CDS bet
-    
-  
+
+
 
 Credit default swaps have two related functions:
 	You can trade CDS to bet on the creditworthiness of some company (or country, or type of structured credit, etc.). When the company reports good earnings or otherwise seems to be more creditworthy, its CDS price will go down, and people who sold CDS will have a mark-to-market gain. When the company reports bad earnings or otherwise seems to be falling apart, its CDS price will go up, and people who bought CDS will have a mark-to-market gain.	CDS works as insurance against default. If the company (country, pool of loans, etc.) defaults on its debt, then CDS is “triggered,” the people who sold CDS have to pay some money to the people who bought CDS, and there is some fairly complex   auction process to determine how much.
@@ -84,37 +84,37 @@ Icahn increased the size of his bet, according to financial filings. 
 And then loans to Crossgates Mall defaulted in May 2023, and they were sold at auction, and “the servicer received a stalking horse offer of $162 million from a small Connecticut hedge fund called Cannae Portfolio Advisors,” $40 million higher than the next bid and “just enough to ensure that one of the three Crossgates securitizations would avoid losses that would trigger a CDS payout tied to certain tranches of the debt.”
 Icahn bet that mall debt would perform poorly, and it did, and he made money. And then he kept the bet on, and increased it. But meanwhile the bet itself shifted: It was no longer a bet that mall debt would perform poorly; it was now a bet on how an auction for one particular loan would clear. It stopped being a bet on macroeconomic conditions, and became a bet on a poker game. He should have gotten out while he was still right.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Crypto lending
-    
-  
+
+
 
 At a very high level, the way banking works is:
 	People have money and would like to earn interest on it.	They put the money in the bank, which lends it to other people, who do stuff — run businesses, buy houses — with the money and pay interest to the bank.	This funds economic activity, and over time, the economy mostly grows. There are more people, more productivity, more stuff. If I take $100 from you and use it to buy a house or start a business, and I promise to pay you back $110 with the proceeds of my house or business, there’s a pretty good chance that I will be able to do that, that the thing I buy now will be worth more later. I invest the $100 in productive enterprises, those productive enterprises pay off $120, I pay back the loan with interest and have $10 left over for myself.	Obviously sometimes this doesn’t work — my business fails, my neighborhood gets cheaper — but the successes should outweigh the failures, and if banks are diversified and well capitalized they’ll be fine and can pay back their depositors.	Occasionally the whole system overreaches — all the banks decide, at once, to bet all their money on home prices going up — and the bet goes wrong and  there’s a financial crisis.
@@ -168,11 +168,11 @@ Crypto lending is still small compared with the leverage bubble that took down l
 
 I suppose one broad question you could ask here is not, like, “what collateral are they getting for these loans” but rather “what sort of productive economic activity are these loans funding?” If the answer is “they are designed to encourage more trading on crypto exchanges” then, uh. 
 
-  
-    
+
+
       Bitcoin ETF
-    
-  
+
+
 
 The regulatory situation in the US is that there are exchange-traded funds that allow people to speculate on Bitcoin (and Ether), but those funds hold Bitcoin (or Ether) futures, not actual Bitcoins. The US Securities and Exchange Commission has, so far, declined to approve spot Bitcoin ETFs (funds that just hold Bitcoins). It has said that this is because the spot Bitcoin market is largely unregulated and so there is a risk of manipulation, whereas Bitcoin futures trade on regulated US exchanges and so are safer. This has always   struck me as incoherent (manipulating the spot market also manipulates the futures), and in August   a federal appeals court ruled that it was “arbitrary and capricious,” which probably means that the SEC will have to approve spot Bitcoin ETFs pretty soon.
 But it hasn’t yet! Bloomberg’s   Vildana Hajric reports:
@@ -185,11 +185,11 @@ Still, the episode suggests that there remains a lot of excitement and hope for 
 Again, I am not that sympathetic to the SEC’s objections to a spot Bitcoin ETF. But this story makes me a little more sympathetic? The price of Bitcoin jumped by 10% because people on social media were saying, falsely, that BlackRock’s spot Bitcoin ETF was approved. Seems like the sort of thing that could be manipulated!
 Obviously the Chicago Mercantile Exchange front-month Bitcoin futures also briefly jumped above $30,000 today. If you want to move the price of Bitcoin futures with gossip and hearsay, that is pretty much exactly as easy as moving the price of spot Bitcoin with gossip and hearsay, because they are kind of the same price.
 
-  
-    
+
+
       Two sandwiches
-    
-  
+
+
 
 I used to work at an investment bank and, well, I don’t want to say that I witnessed anyone abusing their meal allowance, but let’s say that I can easily imagine how it might come about. You finish work early but stay at the office an extra 15 minutes just to be able to claim your  $30 dinner allowance. Or you order your dinner and take it home to eat, rather than being chained to your desk as the meal allowance assumes. You order two cheap items, eat one, and bring one home for your partner, or for lunch tomorrow. You order dinner for a group of analysts on your desk, it comes to more than $30 per person, and you throw in the names of a few analysts who aren’t there so you can use their allowance too. Or you do one of the seven more creative minor abuses that my readers are going to email me about today.
 Again, I am not saying that I witnessed any of this behavior, necessarily, in so many words. But I can imagine it. I can even imagine that the bank wouldn’t mind it that much. The numbers involved are small, relative to bankers’ pay and to the value of keeping them at work late; an analyst scheming to stay later at work is probably good for the bank. Also a certain risk appetite and ethical flexibility probably help too. It’s probably not even worth it for the bank to audit any meal receipts. If it’s under the allowance, just pay it, who cares.
@@ -209,81 +209,81 @@ The judge said in the ruling: … “I am satisfied that even if the expense cla
 
 Should a senior manager have spent time haggling over a €100 meal bill? Not as such, no. Should a senior manager have spent time investigating and firing a guy who invented elaborate lies to tell his boss in order to cover up an unjustified free sandwich? Yes? That’s bad? Being aggressive with expense reports, meh, whatever, maybe on balance a good trait in an investment banker. But writing tons of easily checkable lies in email and being indignant about it just seems like a bad compliance risk.
 
-  
-    
+
+
       Zuzalu
-    
-  
+
+
 
 I guess some foundational questions in crypto are, if you got all the most dedicated crypto enthusiasts in the world together in one place and let them build a new society together, would that new society run on the blockchain? Would it use cryptocurrency for payments? Lol, no. Ethereum founder Vitalik Buterin threw a two-month-long Ethereum conference at a resort in Montenegro, and his report on the experience is thoughtful and candid:
 Crypto payments, a long-time dream of the Bitcoin and Ethereum communities, were present but limited. No one even considered governing Zuzalu with a DAO, a decentralized autonomous organization running on a blockchain. A two-hundred-person community lasting for two months was either too short, too small, or both for such a thing to really make sense. But these two dreams are important enough that future experiments, whether run by the Zuzalu community or by independent spinoffs, will undoubtedly make a much more concerted effort to realize them.
 Blockchain governance and crypto payments might still conquer the world, but they couldn’t conquer the two-month Ethereum co-living experiment.
 
-  
-    
+
+
       Compass
-    
-  
+
+
 
 I do not have that much occasion to cover financial-industry-adjacent puzzle hunts in this newsletter, but I do have a   little, so  I will mention that the Compass hunt was this past weekend. Sadly I missed it   again, but congratulations to Midnight Marauders, this year’s winning team. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The   Goldman Banker on a Crucial Mission to Help Juice Its Stock.  Trading Stocks Loses Its Thrill: ‘I Would Get Burned.’ Ozempic Is Obviously Good For Business. How  Evergrande’s Chief Tried to Turn Things Around—and Failed.   Rite Aid Files for Bankruptcy as Debt Load, Opioid Risk Rise. These Companies Are Being  Squeezed by Higher Rates. Time Is Running Out for the ‘  Year of the Bond’ as Losses Mount. SEC’s New   Hedge Fund Rules Lack an Accountant’s Precision. Citigroup’s Fraser Plans to Remove   Five Management Layers in Reorganization.   Schwab’s Net Interest Revenue Falls 24% From Client Cash Moves. Why the U.S. Government Has  $5 Billion in Bitcoin. M.B.A. Job-Offers in Short Supply as Tech, Finance, Consulting  Dial Back Recruiting. The Ivy League  Doesn’t Want Frasier Crane. Introducing The Businessweek Show With Max Abelson. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Except, ironically,   FTX and Alameda Research, who were sending customer money into all sorts of non-crypto venture investments, a few of which — in artificial intelligence, for instance — might pay off. Oh and possibly   Tether, who for all I know might have been investing a lot of crypto money in   Chinese real estate.
 
 
   [2] You can tell because the “NAV statement” cited in the CFTC complaint  is famous.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -294,46 +294,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjo8xk.5hv0/3b97cff3.gif" alt="" border="0" /></a>

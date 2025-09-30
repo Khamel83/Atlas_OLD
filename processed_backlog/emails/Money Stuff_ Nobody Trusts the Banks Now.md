@@ -7,62 +7,62 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What is going on? I think there are two ways to think about the basic business of banking: Banks borrow short to lend long. They use deposit
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh banks
-    
-  
+
+
 
 What is going on? I think there are two ways to think about the basic business of banking:
-	
-Banks borrow short to lend long. They use deposits (which can be withdrawn at any time) to fund loans and buy bonds (which don’t get repaid for a long time).	
+
+Banks borrow short to lend long. They use deposits (which can be withdrawn at any time) to fund loans and buy bonds (which don’t get repaid for a long time).
 Banks really borrow long to lend long. They use deposits to fund loans and buy bonds, and as a technical legal matter those deposits are short-term (and can be withdrawn at any time), but they aren’t really. Most people — and most businesses — keep their money at a bank because it is convenient, it’s where their paycheck direct deposit and bill auto-pays are set up, and it would be a pain to move to a new bank. Most people do not obsessively check the interest rates on their bank accounts to find the highest one, or obsessively check the financial condition of their bank to see if it’s safe. Banks invest in customer relationships — by building branches and cross-selling services and offering conveniences like online banking — and those relationships are long-term and sticky and include deposits. In a real economic sense, banks are making loans and buying bonds that match the duration of their long-term, relationship-driven deposits.
 
 In Theory 1, banking is an inherently risky business model (if the depositors all ask for their money back at once, you are in trouble). Specifically, it is a model with a ton of interest-rate risk. More specifically, if interest rates go up, that’s bad. You got all these short-term deposits and used them to buy long-term fixed-rate assets; when rates go up, your long-term assets lose value and you have to pay more interest on the short-term deposits.
@@ -119,37 +119,37 @@ Why? I don’t know. Some speculations
 	The 2008 financial crisis involved a lot of businesses — “shadow banks” — that borrowed short to lend long and sort of figured that their short-term funding was actually pretty stable and long-term. That worked out poorly, and people are skeptical about similar claims even from actual banks with branches and everything.	Relationship businesses in general are on the decline. In a world of electronic communication and global supply chains and work-from-home and the gig economy, business relationships are less sticky and “I am going to go into my bank branch and shake the hand of the manager and trust her with my life savings” doesn’t work. “I am going to do stuff for relationship reasons, even if it costs me 0.5% of interest income, or a slightly increased risk of losing my money” is no longer a plausible thing to think. Silicon Valley Bank’s VC and tech customers talked lovingly about how good their relationships with SVB were, after withdrawing all their money. They had fiduciary duties to their own investors to keep their money safe! Relationships didn’t matter.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Raising equity
-    
-  
+
+
 
 Or just, like, you are a regional bank, your assets have lost value, you look a little bit mark-to-market insolvent, what do you do? Well, the traditional approach is that you raise equity: You sell stock to investors, so that you will have more equity, so that you will no longer be insolvent. Why would the investors buy the stock? Well, the traditional answer is that a bank is worth more than just its balance sheet, more than its assets minus its liabilities. It has those relationships! It can generate income in the future, which is worth something, even if its assets have technically lost value.
   [8]
@@ -170,11 +170,11 @@ Elsewhere,  here is a proposal for “Resolving the Banking Crisis” by Peter 
 
 Maybe! But the recent experience is that trying to raise equity can cause the collapse: If you need to raise money, nobody wants to hear about “franchise value.” This is a problem, because DeMarzo et al. are not wrong: Most of these banks probably are economically viable, and the solution to a banking crisis really is to raise more equity. But it seems to be a bit stuck.
 
-  
-    
+
+
       PacWest, Western Alliance
-    
-  
+
+
 
 Et   cetera:
 
@@ -192,11 +192,11 @@ The Financial Times reported Thursday morning that the Phoenix-based company has
 
 Doing a deal is probably good for stability, but a rumor that you are trying to do a deal is bad.
 
-  
-    
+
+
       First Horizon
-    
-  
+
+
 
  Weird:
 
@@ -207,11 +207,11 @@ Even before the market turmoil, doubts about the deal had been swirling for mont
 
 JPMorgan Chase & Co.   bought a bigger bank than First Horizon three days ago! My rough model of bank merger regulation is that there are people whose job is basically “antitrust regulator,” and in the current administration they are generally skeptical of bank mergers, particularly ones in which a big bank gets bigger. And then there are people whose job is basically “financial stability regulator,” and in the current regional banking chaos they are going out and pitching mergers themselves. I think if you’re a financial-stability person right now, any regional bank merger is a good regional bank merger. But the antitrust people have had longer to work on this one and they don’t like it.
 
-  
-    
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 I   wrote yesterday about the US Securities and Exchange Commission’s theory of stock buybacks. In particular, there is sort of a background theory of “buybacks are bad because companies should be spending that money on salaries or research instead,” but the SEC’s concern is the more niche theory that “buybacks are bad because executives sell stock when companies are buying.” I quoted a 2018 speech by former SEC Commissioner Robert Jackson:
 In half of the buybacks we studied, at least one executive sold shares in the month following the buyback announcement. In fact, twice as many companies have insiders selling in the eight days after a buyback announcement as sell on an ordinary day. So right after the company tells the market that the stock is cheap, executives overwhelmingly decide to sell.
@@ -225,25 +225,25 @@ Combine that with the open-window point, and you get something like the followin
 
 Feels like the sort of result the SEC might like.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Swiss Hit With 120 Lawsuits Over Credit Suisse   AT1 Bond Wipeout. SVB Financial Must Wait in Line for Its $2 Billion,   FDIC Says. Big   Hedge Funds Face New 72-Hour Deadline to Report Losses. Scrambling to Avoid Default, White House Weighs  Debt-Limit Fallback Options. Veteran of 1980s banks crisis  hits out at sale of First Republic to JPMorgan. Federal Agency  Suspends Inspector General After Oversight Body Alleged ‘Substantial Misconduct.’ The unknown Indian company shipping millions of barrels of  Russian oil. Coinbase Is Facing an ‘  Existential Risk’ as SEC Reins In Crypto. Bill Gates, Leon Black, Thomas Pritzker: ​One​ Day in the Life of  Jeffrey Epstein. Epstein’s Islands Sell to Finance Buyer   Planning Luxury Resort. Paris shaking off  ‘backwater’ tag as international banks expand. Twitter’s   Unpaid Bills Threaten to Be an Even Bigger Problem for Elon Musk. “About 60% of First Republic’s outposts are just a five-minute walk — or less —   from a Chase branch.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am being very general here, and this description is accurate mainly for held-to-maturity bonds and loans. Banks classify other bonds as available-for-sale, and their market value is a bit more relevant for accounting and capital, though there is some controversy about  the details there.
 
 
-  [2] In particular, I worked at Goldman Sachs Group Inc. during the global financial crisis, including when Goldman became a bank holding company in 2008. I recall that, before 2008, Goldman could be a bit snooty about the regular banks: “We mark everything to market, which imposes discipline and makes us smart and careful,” was the message, “while regular banks can just say that their loans are ‘held to maturity’ and never reflect their true value in their financial statements.” 
+  [2] In particular, I worked at Goldman Sachs Group Inc. during the global financial crisis, including when Goldman became a bank holding company in 2008. I recall that, before 2008, Goldman could be a bit snooty about the regular banks: “We mark everything to market, which imposes discipline and makes us smart and careful,” was the message, “while regular banks can just say that their loans are ‘held to maturity’ and never reflect their true value in their financial statements.”
 
 
   [3] I have cited it a few times now, but this 2021 Journal of Finance paper by Itamar Drechsler, Alexi Savov and Philipp Schnabl, “Banking on Deposits: Maturity Transformation without Interest Rate Risk,” is a good modern explanation of this theory. A sample: “We show that despite having a large maturity mismatch banks do not take on significant interest rate risk. Rather, because of the deposit franchise, maturity transformation actually reduces the amount of interest rate risk banks take on. Two essential properties of the deposit franchise drive this result. First, the deposit franchise gives banks market power over retail deposits, which allows them to borrow at rates that are both low and insensitive to market interest rates. Second, while running a deposit franchise incurs high operating costs (branches, salaries, marketing, technology), these costs do not vary much over time and hence are also insensitive to interest rates. Thus, even though deposits are short term, funding via a deposit franchise resembles funding with long-term fixed-rate debt."
 
 
-  [4] Even Byrne Hobart, who shorted SVB and flagged its insolvency back in February, didn’t really think it was a big deal: He wrote at the time that “one reason banks aren't required to mark assets to market is that they can hold them indefinitely as long as they have deposits,” and that “it would take an absolutely titanic bank run to actually impair the company’s liquidity, so a run is unlikely.” 
+  [4] Even Byrne Hobart, who shorted SVB and flagged its insolvency back in February, didn’t really think it was a big deal: He wrote at the time that “one reason banks aren't required to mark assets to market is that they can hold them indefinitely as long as they have deposits,” and that “it would take an absolutely titanic bank run to actually impair the company’s liquidity, so a run is unlikely.”
 
 
   [5] Here is Bloomberg News on the   proposed regulatory changes. Here is a column from  Bank Reg Blog. Here is  a Twitter thread from Dan Davies.
@@ -258,51 +258,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Also, on Theory 2, if the assets have lost value then the liabilities have also become smaller: Your sticky core deposits, which still pay low interest rates, offset some of the asset losses. Part of the value that   JPMorgan Chase & Co. attributed to First Republic Bank was this “core deposit” value.
 
 
-  [9] This is loose. Companies can do buybacks using 10b5-1 plans or accelerated share repurchases where much or all of the purchasing happens during a blackout period, though they will *sign* those plans (and presumably announce them) during an open window. 
+  [9] This is loose. Companies can do buybacks using 10b5-1 plans or accelerated share repurchases where much or all of the purchasing happens during a blackout period, though they will *sign* those plans (and presumably announce them) during an open window.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -313,46 +313,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciojln.5ky8/44736678.gif" alt="" border="0" /></a>

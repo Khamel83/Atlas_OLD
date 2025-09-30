@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • April 20, 2014 
+Unknown author • April 20, 2014
 
 ![nytimes.com]()
 

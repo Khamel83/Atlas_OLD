@@ -36,8 +36,8 @@ screen=desktop-article
   <meta name="robots" content="index,follow,max-image-preview:large,max-video-preview:-1">
   <meta name="description" content="Charlie Sheen&#039;s dream of turning his Beverly Hills mansion into a porn house could come true -- TMZ has learned a MAJOR porn company has made an official CASH offer on the place.">
         <link rel="image_src" href="https://imagez.tmz.com/image/30/16by9/2011/05/26/3028852399f15496b9d45656ca65c30d_xl.jpg">
-  
-  
+
+
       <script type="application/ld+json">
       {
     "@context": "https://schema.org",
@@ -97,7 +97,7 @@ screen=desktop-article
     "datePublished": "2011-05-27T06:00:00-07:00"
 }
     </script>
-  
+
   <meta property="fb:app_id" content="310610065699820">
 <meta property="article:publisher" content="https://www.facebook.com/tmz">
 <meta property="og:site_name" content="TMZ">
@@ -107,17 +107,17 @@ screen=desktop-article
     <meta property="og:title" content="Porn Co. YouPorn.com Makes Offer On Charlie Sheen Mansion">
     <meta property="og:description" content="Charlie Sheen&#039;s dream of turning his Beverly Hills mansion into a porn house could come true -- TMZ has learned a MAJOR porn company has made an official CASH offer on the place.">
           <meta property="og:image" content="https://imagez.tmz.com/image/30/16by9/2011/05/26/3028852399f15496b9d45656ca65c30d_xl.jpg">
-      
+
   <meta name="twitter:site" content="@TMZ">
 
 <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Porn Co. YouPorn.com Makes Offer On Charlie Sheen Mansion">
     <meta name="twitter:description" content="Charlie Sheen&#039;s dream of turning his Beverly Hills mansion into a porn house could come true -- TMZ has learned a MAJOR porn company has made an official CASH offer on the place.">
           <meta name="twitter:image" content="https://imagez.tmz.com/image/30/16by9/2011/05/26/3028852399f15496b9d45656ca65c30d_xl.jpg">
-      
+
       <meta name="apple-itunes-app" content="app-id=299948601, app-argument=https://www.tmz.com/2011/05/26/charlie-sheen-sold-house-porn-stars-company-offer-to-buy/?tmz#article">
     <link rel="manifest" href="/manifest.webmanifest">
-  
+
 <link rel="icon" type="image/png" sizes="32x32" href="https://static.tmz.com/tmz-web/icons/favicon-32x32-v1.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://static.tmz.com/tmz-web/icons/favicon-16x16-v1.png">
 <link rel="mask-icon" color="#cf0000" href="https://static.tmz.com/tmz-web/icons/safari-pinned-tab-v1.svg">
@@ -357,7 +357,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="header-wrapper" class="header-wrapper">
       <!-- start: promotion-slot desktop-news-permalink-header -->
 <style>
-  header .masthead-locale, 
+  header .masthead-locale,
   .header-after-wrapper .locale-nav,
   .body-home .nav--is-open .nav__item-locale,
   .body-news .nav--is-open .nav__item-locale,
@@ -422,7 +422,7 @@ const style = document.createElement('style');
 <!-- end https://github.com/tmz-apps/tmz-web/issues/2755 -->
     <div id="widget-2658a1af-28e1-4361-bd65-e1edf66e13bf" class="curator-widget curator-widget-header curator-alert-widget curator-alert-widget-header" data-widget-ref="tmz:alert-widget:2658a1af-28e1-4361-bd65-e1edf66e13bf">
       <!-- no nodes returned or tags.enabled != 'true' -->
-  
+
   </div>
 <script>
 // app_version=3.41.0, device_view=desktop, viewer_country=US, ajax=false
@@ -649,7 +649,7 @@ wbq.push(function loadWidget() {
     </a>
   </li>
 </ul><!--/.masthead-social-->
-            
+
 <div class="masthead-tip">
   <a class="masthead-tip__btn masthead-tip__btn--default js-track-link " href="https://www.tmz.com/pages/tips/" data-context="{&quot;section&quot;:&quot;header&quot;,&quot;name&quot;:&quot;got-a-tip&quot;}" aria-label="Got a Tip?">Got <span>A Tip?</span></a>
   <a class="masthead-tip__contact js-track-link" href="https://www.tmz.com/pages/tips/" data-context="{&quot;section&quot;:&quot;header&quot;,&quot;name&quot;:&quot;email-or-call&quot;}">Email Or Call (888) 847-9869</a>
@@ -674,7 +674,7 @@ wbq.push(function loadWidget() {
     <path fill="#fff" d="M80 69 61.8 51c3.3-5.1 5.2-11.2 5.2-17.8C67 14.9 52 0 33.5 0S0 14.9 0 33.3c0 18.3 15 33.3 33.5 33.3 6.3 0 12.1-1.7 17.1-4.7L69 80l11-11zM12.5 33.3c0-11.5 9.4-20.9 21-20.9s21 9.4 21 20.9c0 11.5-9.4 20.9-21 20.9s-21-9.4-21-20.9z"/>
   </svg>
 </button><!--/.masthead_buttons -->
-            
+
   <a aria-labelledby="logo-title" class="masthead-logo js-track-link" href="https://www.tmz.com/" data-context="{&quot;section&quot;:&quot;head&quot;,&quot;name&quot;:&quot;tmz-logo&quot;}">
           <svg role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="300" height="122" viewBox="0 0 300 122">
       <title id="logo-title">TMZ</title>
@@ -698,7 +698,7 @@ wbq.push(function loadWidget() {
 </div>
 <!--/.masthead-search-->
           </div><!--/.masthead-->
-          
+
 <nav class="nav-desktop js__nav-desktop">
   <ul class="nav-desktop__list">
     <li class="nav-desktop__item"><a class="nav-desktop__link nav-desktop__link--default js-track-link" href="https://www.tmz.com/" data-context="{&quot;section&quot;:&quot;nav&quot;,&quot;name&quot;:&quot;news&quot;,&quot;pos&quot;:1}">News</a></li>
@@ -986,16 +986,16 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
 });
 </script>
 <!--/.tip-->
-  
+
       <div id="jumbotron-top" class="jumbotron jumbotron-top">
       <!-- start: promotion-slot desktop-news-jumbotron-top -->
 
 <!-- start: tmz:hero-bar-widget:8ec9caec-8b57-4a30-8fb8-567656840632 -->
-  
+
     <div id="widget-8ec9caec-8b57-4a30-8fb8-567656840632" class="curator-widget curator-widget-jumbotron curator-hero-bar-widget curator-hero-bar-widget-jumbotron" data-widget-ref="tmz:hero-bar-widget:8ec9caec-8b57-4a30-8fb8-567656840632">
           <section class="hero-bar">
       <div class="hero-bar__row">
-                                      
+
           <div class="hero-bar__col">
             <article class="hero-bar__card">
               <a
@@ -1016,7 +1016,7 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
               </a>
             </article>
           </div>
-                                      
+
           <div class="hero-bar__col">
             <article class="hero-bar__card">
               <a
@@ -1037,7 +1037,7 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
               </a>
             </article>
           </div>
-                                      
+
           <div class="hero-bar__col">
             <article class="hero-bar__card">
               <a
@@ -1058,7 +1058,7 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
               </a>
             </article>
           </div>
-                                      
+
           <div class="hero-bar__col">
             <article class="hero-bar__card">
               <a
@@ -1079,7 +1079,7 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
               </a>
             </article>
           </div>
-                                      
+
           <div class="hero-bar__col">
             <article class="hero-bar__card">
               <a
@@ -1102,7 +1102,7 @@ Array.from(tipToggleBtn).forEach(tipBtn => tipBtn.addEventListener('click', togg
           </div>
               </div>
     </section>
-  
+
   </div>
 <script>
 // app_version=3.41.0, device_view=desktop, viewer_country=US, ajax=false
@@ -1158,10 +1158,10 @@ wbq.push(function loadWidget() {
 
 <!-- end: promotion-slot desktop-news-jumbotron-top -->
     </div><!--/#jumbotron-top-->
-  
+
       <div class="main-wrapper main-wrapper--news main-wrapper--has-sidebar">
         <main id="main" class="main">
-    
+
     <article class="article article--permalink ">
       <header class="article__header">
                               <h1 class="article__header--headline-title">Porn Co. YouPorn.com Makes Offer On Charlie Sheen Mansion</h1>
@@ -1170,7 +1170,7 @@ wbq.push(function loadWidget() {
                           <span class="article__header--hf2 text-titlecase h2">Makes Offer</span>
                           <span class="article__header--hf3 text-titlecase h2">On Charlie Sheen Mansion</span>
                       </h2>
-        
+
         <div class="social-media-container" role="region">
           <ul class="social social--sm">
                         <li class="social-item">
@@ -1225,8 +1225,8 @@ wbq.push(function loadWidget() {
               window.TMZ.dispatch(window.TMZ.actions.loadNode({"_schema":"pbj:tmz:dam:node:image-asset:1-0-0","_id":"image_jpg_20110526_3028852399f15496b9d45656ca65c30d","status":"published","etag":"1bb20b76169ee490afb03d4b59cc49c2","created_at":"1306448377000000","title":"0526_hooker_house_charlie_ex","mime_type":"image\/jpeg","file_size":"81814","file_etag":"b707af3b83f4245d0205b4d2ac99a753","gallery_seq":0,"width":550,"height":300,"tags":{"cf_slug":"0526-hooker-house-charlie-ex","cf_element":"image","cf_guid":"9a0c7f45-42a7-436e-fc7a-b9d2e6a1f9ec"}}));
             });
           </script>
-        
-        
+
+
     <section
               id="cb-d372fe8c6f362af9dad843a7e04ef8f8"
         class="canvas-block canvas-block-permalink canvas-text-block canvas-text-block-permalink canvas-text-block--default  canvas-block-is-first "
@@ -1406,7 +1406,7 @@ wbq.push(function loadWidget() {
               </div>
                       </div>
         </section>
-      
+
               <section class="tag-cloud">
           <ul class="tag-cloud__list-group">
                           <a
@@ -1429,18 +1429,18 @@ wbq.push(function loadWidget() {
         <!-- start: promotion-slot desktop-news-permalink -->
 
 <!-- start: tmz:code-widget:35e71e3b-b339-4b66-9400-30bbf35ffd27 -->
-  
+
     <div id="widget-35e71e3b-b339-4b66-9400-30bbf35ffd27" class="curator-widget curator-widget-permalink curator-code-widget curator-code-widget-permalink" data-widget-ref="tmz:code-widget:35e71e3b-b339-4b66-9400-30bbf35ffd27">
 <script>
     wbq.push(function gdprConnatix() {
          var response = 'unknown';
-       
+
          function accept() {
            if (response === 'accepted') {
              // idempotency ftw
              return;
            }
-    
+
           (function () {
             if (typeof window.cnxps !== 'undefined') {
               return;
@@ -1486,17 +1486,17 @@ wbq.push(function loadWidget() {
               n.head.appendChild(t);
             }(document);
           })();
-           
+
            response = 'accepted';
          }
-       
+
          function reject() {
            if (response === 'rejected') {
              return;
            }
            response = 'rejected';
          }
-       
+
          watchConsent(function(canUse) {
            canUse('connatix') ? accept() : reject();
          });
@@ -1553,7 +1553,7 @@ wbq.push(function loadWidget() {
 
 <!-- end: tmz:ad-widget:48e0d17a-fa27-42fb-8563-d37b01c3c0aa -->
 <!-- start: tmz:code-widget:42ffb615-fbe5-4d34-97a7-df9e2fe77753 -->
-  
+
     <div id="widget-42ffb615-fbe5-4d34-97a7-df9e2fe77753" class="curator-widget curator-widget-permalink curator-code-widget curator-code-widget-permalink" data-widget-ref="tmz:code-widget:42ffb615-fbe5-4d34-97a7-df9e2fe77753">
 <div id="outbrain-permalink"></div>
 <script>
@@ -1704,12 +1704,12 @@ if (search.classList.contains('search-screen--is-open')) {
           });
         </script>
           </div>
-  
+
       <div id="jumbotron-bottom" class="jumbotron jumbotron-bottom js-html-import-lazy" data-url="/_/promotion/news-jumbotron-bottom/jumbotron.html">
     </div><!--/#jumbotron-bottom-->
-  
+
       <div id="ad-footer"></div>
-    
+
 <footer class="footer">
   <div class="row footer__row">
     <div class="col footer__col footer__col--about">
@@ -1799,7 +1799,7 @@ const emailValue = document.getElementById('newsletter-subscription-email');
     });
   });
 </script>
-  
+
 <div id="ad-adhesion"></div>
 <div id="ad-interstitial"></div>
 <div id="ad-skin"></div>

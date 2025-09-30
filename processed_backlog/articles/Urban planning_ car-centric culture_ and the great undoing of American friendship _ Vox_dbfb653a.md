@@ -78,7 +78,7 @@ My city, Houston, isn’t exempt from any of that. Even during the pandemic, unl
 
 Hanna Barczyk for Vox
 
-See More: 
+See More:
 
 * [Cities & Urbanism](/cities-and-urbanism)
 * [Features](/features)

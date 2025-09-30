@@ -29,7 +29,7 @@ more on the family below…)
 
 Okay… let’s get into it.
 
- 
+
 
 Player of the Week: Rob
 Pelinka
@@ -39,7 +39,7 @@ It takes a lot for the NBA to break through during Super Bowl week. But as I wal
 yesterday, people were still agog over the audacious Luka-A.D. trade, four days after it was announced. I’ll let others decide whether the Lakers’ general manager won the Luka trade or not, even though the emerging consensus is that Pelinka hosed his Mavs counterpart, Nico Harrison. And I’ll wait for Puck fashion guru Lauren Sherman to weigh in on the Fonzie-esque leather jacket that Pelinka wore to this week’s press conference.
 But the sheer bravado of the trade is still making waves in New Orleans.
 
- 
+
 
 Down to the J.V.: Ron Torbert,
 Super Bowl Referee
@@ -49,7 +49,7 @@ The idea that NFL referees are biased toward the Chiefs is ridiculous, of course
 associated with the league, including TV network executives and sponsors, laughs at the notion that the refs want Patrick Mahomes to win. But, alas, this lingering conspiracy theory has become a leitmotif of Super Bowl week: The topic came up during Roger Goodell’s Monday presser; players have had to address it during their media availability; even the Fox broadcasters were asked to comment during a Zoom meeting with reporters. All of
 this speculation will inevitably make this the most scrutinized game of head official Ron Torbert’s career. 
 
- 
+
 
 The Starting Five
 -----------------
@@ -134,7 +134,7 @@ the 2029 season—a move that would coincide with the beginning of C.B.A. negoti
 In their respective press conferences, Goodell and Howell offered a preview of how those negotiations might play out. On Monday, Goodell touted the virtues of international expansion and noted that concussions were at an historically low level this year, citing rule changes and
 equipment improvements. Howell remarked that he’d seen data indicating that an added game would result in more injuries. He also mentioned that international travel would exacerbate player health issues. Let the games begin… 
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -157,7 +157,7 @@ implications, but those can usually be managed unless you get into a situation l
 On NFL officiating: “Great pod with Don Van Natta. With regard to your conversation about the growing fan skepticism regarding NFL officiating, isn’t this an extension of society? Americans have less
 faith in institutions, including elections and government. It appears this is an example of sports reflecting a society that is transferring language from the 2020 election to explain an outcome that a segment of society disagrees with. I don’t believe either is rigged, but the narrative is a clear business risk for the NFL.” —A Varsity subscriber
 
- 
+
 
 Have a great weekend,
 
@@ -208,6 +208,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU3fmHF3vnzxX_b3aRWUQ=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

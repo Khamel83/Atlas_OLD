@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The rule, according to the US Securities and Exchange Commission, is that if you work at an investment bank or a brokerage firm or an invest
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Cell phones
-    
-  
+
+
 
 The rule, according to the US Securities and Exchange Commission, is that if you work at an investment bank or a brokerage firm or an investment adviser, you are allowed to communicate with your colleagues and clients about business on “official channels,” and you are not allowed to communicate with them about business on “unofficial channels.” There are some obvious cases:
 	You are allowed to use your firm’s email system, and Bloomberg messaging, and other electronic communications channels that are approved and monitored and archived by your firm.	I guess you are allowed to put a letter in the mail? If you type it in Word on your office computer? Can’t imagine it comes up that often. 	You are not allowed to message your colleagues or clients about deals by WhatsApp or text message on your personal cell phone.
@@ -89,37 +89,37 @@ Anyway though here’s a line from the SEC’s  SocGen case:
 Similarly, a managing director who is head of a capital markets desk exchanged text, WhatsApp, and LinkedIn messages with at least six other SGAS employees.
 There is no allegation that this managing director sent any nefarious LinkedIn messages; he was not sending his colleagues LinkedIn messages that were like “hey let’s spoof the price of this stock.” I’m sure he was sending them LinkedIn messages like “I would like to endorse you for Capital Markets Structuring and Networking.” But it turns out that even LinkedIn is too spicy for the SEC.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Good trade
-    
-  
+
+
 
 I don’t understand  this, and I think it’s more fun if you don’t understand it:
 
@@ -141,11 +141,11 @@ Vilanova said the company is disappointed, as Venture Global has already produce
 We  talked last week about a bad UK electricity trade: Drax Group Plc gets some green-energy subsidies in the form of essentially a fixed-price contract, where it supplies electricity to customers from a biomass power plant at a fixed price that was expected to make it profitable. When electricity prices were low, Drax ran the power plant, got paid the higher fixed price, and made a profit. When electricity prices are high, Drax turns off the subsidized plant, doesn’t sell any electricity from the plant at the lower fixed price, and instead runs its other plants, sells electricity at high prices and sells the biomass pellets to make more money. Good trade! For Drax I mean; bad trade for the UK government that negotiated it. I wrote that if you have a fixed-price contract that pays based “on how much electricity they actually supply, and let them decide how much to supply, then they will supply a lot when the contract is favorable to them and nothing when it is favorable to you.”
 The contract here is more sensible — Venture Global is required to supply a certain amount of LNG to its long-term customers at fixed prices — but apparently still gives Venture Global enough of an option that this is the result.
 
-  
-    
+
+
       ESG
-    
-  
+
+
 
 For a while, environmental, social and governance investing was a hot marketing tool in the investing world: If you did ESG, some people would say “oh ESG I like that,” and nobody would say “oh ESG I don’t like that,” so you would gain customers and not lose any. And because ESG was a fairly fuzzy concept, you could “do ESG” without too much effort: If you just bought the stocks that you wanted to buy, but before you clicked “buy” you spent five seconds asking yourself “do I feel like this company is pretty green,” that was probably ESG enough to slap the label on your fund.
 Not anymore! Now lots of people — primarily US Republican politicians — say “oh ESG I hate that,” so the ESG label will alienate lots of customers. And lots of other people still say “oh ESG I like that,” but their standards have gone up: Now, if you advertise that you are ESG, you have to take it seriously. Now, if you advertise that you are ESG but people do not trust your ESG evaluations, you can get in trouble — with customers and possibly   with regulators — for “greenwashing.”
@@ -164,11 +164,11 @@ Their attacks have also overshadowed real concerns about ESG ratings sold by S&P
 
 “I think they stopped doing ESG ratings for Reason X, and I disapprove; they should have stopped doing ESG ratings for Reason Y.” Yes, right, all the more reason to stop!
 
-  
-    
+
+
       Goldman in Russia
-    
-  
+
+
 
 I guess that if you are a global investment bank with a presence in Russia, you have some assets in Russia, and you have some liabilities in Russia. You own Russian stocks and bonds and what have you, on the one hand, and on the other hand you have some derivatives trades where you owe Russian clients money. When Russia invaded Ukraine, you quickly had to stop dealing with Russia, for sanctions and reputational reasons. This meant, on the one hand, that you couldn’t really use your Russian assets: Perhaps you could quickly dump some of your Russian stocks and bonds, but private stakes and anything illiquid are kind of just out of reach, sitting in Russia but unavailable to you. And on the other hand, you can’t really pay your Russian liabilities: Wiring money to a sanctioned Russian bank to settle a derivatives trade, for instance, is going to make your compliance officer nervous.
 Probably the assets and liabilities partially offset each other, though, and an approximate solution is to abandon everything, tell your Russian creditors “look we have some Russian assets we’re not using but we can’t give them to you,” and let the Russians sort it out:
@@ -183,15 +183,15 @@ The Goldman fund had written down the price of these assets to zero, according t
 
 Yeah I mean those assets were frozen before, too. So were those liabilities. There’s a trade to be done, as long as Goldman doesn’t do it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Goldman Sachs CEO Brings Back   Blankfein Confidant in Key Internal Role. UBS Retains   12 Credit Suisse Bankers to Help Lead Americas Unit. US   Bank Shares Drop After Moody’s Cuts Ratings, Warns on Risks. Banker   Bonuses Seen Falling With Wealth as Bright Spot. The new  commodity superpowers. Yellow’s   Last-Gasp Loan From Apollo Carries a 17% Interest Rate. New Lending by  Mortgage REITs Has Dried Up. Italy’s Bank   Dividend Feast Thrown Into Doubt After Windfall Tax. Paramount to Sell  Simon & Schuster to KKR for $1.62 Billion. SoftBank Plans  Fresh AI Bets After First Investment Gains in 18 Months. Dish to   Buy EchoStar as Ergen’s TV Empire Shifts to Wireless. Tesla’s   New CFO Now Has Two Jobs and a Lot of Question Marks. Administrator for  Greensill Bank sues insurer Zurich for $250mn. MrBeast’s burger company is suing him for $100 million. “  At a Duane Reade on Fifth Avenue, [John Paulson] said he’d watched someone empty shelves to fill a cart and then walk out without paying.” “Activist investor Daniel Loeb, a triathlete, did the same at 15 Central Park West, getting into a ‘conflict’ with mothers in the building over   the pool’s temperature.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There is a third category, of voice telephone calls (and now video calls), which is a bit more complicated. My recollection of my time in banking is that sales and trading phones were  basically always recorded and investment banking phones usually were not, but that was ages ago and at least in the UK investment banking calls  are now recorded.
 
 
@@ -201,48 +201,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The CFTC has a narrower remit here, and brought only four cases today; the SEC brought 11.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -253,46 +253,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj92jx.5mh7/b91cda66.gif" alt="" border="0" /></a>

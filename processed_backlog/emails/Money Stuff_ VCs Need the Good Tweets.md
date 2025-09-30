@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.A decent model for venture capital investing in recent years — though pos
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       VC Twitter ghostwriter
-    
-  
+
+
 
 A  decent  model for  venture capital investing in recent years — though possibly not anymore? — is that capital is plentiful, investment decisions are easy, and the hard part of the job is deal flow. Every year there are some good startups raising money, they get to choose their investors, investors compete to be on the list, and your job, as a VC, is to win that competition and get the good deals. If your skill as a venture capitalist is raising money from limited partners, or evaluating companies and deciding which ones will succeed and which will fail, that’s no good. Everyone can do that; it’s easy to raise money and to identify the good startups. What’s hard is to get an allocation in an investment round with a good startup. 
 If this is your model, the simplest approach might be to buy a bunch of billboards in San Francisco that say “hi, we are venture investors, we have tons of money, and if you have a startup and ask us for money (1) we will give it to you (2) without asking too many questions (3) at a very high valuation.” You can just publicly offer founders the economic terms — lots of money, limited dilution, certainty, ease of use, minimal distraction — that they want. This should make you a more attractive investor than someone who wants to do a lot of due diligence and negotiates for a lower valuation and a lot of governance rights.
@@ -88,66 +88,66 @@ So taking risks can lead to greater attentional rewards, but the precise level o
 Do you want to have board meetings where one board member is constantly saying “narrative violation!” or “‘O.K., what’s the opposite of what you’re saying, let’s try that”? Well, I don’t, but what unicorns have I founded? Maybe the best founders want to challenge themselves by surrounding themselves with the VCs who are most annoying on Twitter. 
 One problem here is that if you have someone ghostwrite all your tweets and then you show up at board meetings and you’re boring, word will get out, and your deal flow will dry up. (“Sure that guy has good tweets but he’s on my board and he’s never either given me good advice or told a good joke, don’t take his money,” the founders will say to each other.) Another problem is that, if you are a venture capitalist and you are optimizing your Twitter brand, then your deal flow will over-index on founders who spend too much time on Twitter. Which could be fine, why not, you might get to invest in the next Tesla or SpaceX. But it is possible that the people who are working to build the next generation of great businesses are hanging out on, you know, Hacker News, or TikTok, or possibly even doing work instead of reading your jokes online.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       “Up” rounds
-    
-  
+
+
 
 That said, there are other VC skills. For instance, sometimes a startup founder will come to you with a problem. The problem is:
-	The startup raised money last year at a $5 billion valuation.	Now it needs to raise more money.	But it is only worth $3 billion, because the market is down. 
+	The startup raised money last year at a $5 billion valuation.	Now it needs to raise more money.	But it is only worth $3 billion, because the market is down.
   [1]
 
 	Due to the rules of the venture capital game, it is not allowed to raise money at a lower valuation: This is a “down round,” which is horribly embarrassing and imperils its ability to raise money, attract employees, retain customers, go public, etc.
@@ -165,22 +165,22 @@ Now investors are getting better terms. [Louis] Lehot, the startup lawyer, said 
 Investors like liquidation preferences so much that they’re willing to agree to funding on valuations equal to or higher than a company’s previous round—despite difficulties in the startup’s underlying business. But they also come at a potentially steep cost for founders and employees, who could get left with nothing.
 
 If you invest $100 million in a company at a $1 billion (post-money) valuation with a 2x liquidation preference, and it succeeds and goes public in three years at a $5 billion valuation, then you will get back $500 million, i.e. 10% of its value. If it sells itself in three years at a $500 million valuation, though, you will get back $200 million, i.e. twice your money, which is 40% of its value. In a sense, it turns out that you invested at a $250 million valuation: You put up $100 million and ended up with 40% of the company. You invested at a valuation to be determined later, but a valuation cap of $1 billion. But the valuation cap is what gets reported.
-Back in 2017  a paper called “Squaring Venture Capital Valuations with Reality”   got a lot of attention. The authors, Will Gornall and Ilya Strebulaev, argued that the headline valuations of a lot of big tech unicorns were overstated, because investors got various goodies (mainly liquidation preferences) that reduced their effective valuations. This turned out not to be very important in the following few years, because there was a pretty strong tech bull market, which meant that (1) startups were increasingly able to refuse to give investors those goodies and (2) the realized value of those liquidation preferences was low. (If every $1 billion startup ends up going public at $5 billion, your 2x liquidation preference doesn’t matter.) But now the market has turned, and VC financial engineering has value again. 
-
-  
-    
-      
-        
-      
-    
-  
+Back in 2017  a paper called “Squaring Venture Capital Valuations with Reality”   got a lot of attention. The authors, Will Gornall and Ilya Strebulaev, argued that the headline valuations of a lot of big tech unicorns were overstated, because investors got various goodies (mainly liquidation preferences) that reduced their effective valuations. This turned out not to be very important in the following few years, because there was a pretty strong tech bull market, which meant that (1) startups were increasingly able to refuse to give investors those goodies and (2) the realized value of those liquidation preferences was low. (If every $1 billion startup ends up going public at $5 billion, your 2x liquidation preference doesn’t matter.) But now the market has turned, and VC financial engineering has value again.
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
       Anti-ESG
-    
-  
+
+
 
 Let’s say you run a pension fund for employees of some company or state government, and an asset manager comes to you with a proposition:
 	She runs a fund that gets better returns, with lower risk and lower fees, than any other available investment opportunity.	She will let you put your pension’s money into her fund.	The cost of this outperformance, though, is that she will murder one of your beneficiaries every week.
@@ -211,11 +211,11 @@ Louisiana is against ESG, and many of BlackRock’s funds are in favor of it, bu
 I would quibble with that last sentence: BlackRock will certainly tell you that its stance on ESG is not political, but purely about maximizing risk-adjusted returns. You could disagree; certainly anti-ESG advocates disagree, and I think it’d be hard to prove that BlackRock’s ESG concerns are purely financial. But the intellectual framework exists for them to say it. Anti-ESG is still too new to have a convincing story for why pursuing Republican political priorities is a way to maximize returns.
 Elsewhere, here is a story about how a lot of the anti-ESG push  comes from Leonard Leo, the impresario of the Federalist Society. He is not solely concerned with financial returns.
 
-  
-    
+
+
       E … S … ??? … G … ??? … ???
-    
-  
+
+
 
 Sure, I don’t know, whatever,  here is Politico’s “Green 28,” its “annual ranking of the 28 power players behind Europe’s green agenda,” and the No. 1 spot  goes to … hmm …
 
@@ -224,11 +224,11 @@ By invading Ukraine and manipulating energy supplies to undermine European suppo
 
 I guess if you are running an anti-ESG business in the US, now you can say “no one should do ESG investing, ESG’s greatest hero is Vladimir Putin”? But if you’re an American anti-ESG person you probably kind of like Putin? I don’t know. Anyway, sure, I guess it’s true that Putin has done as much as anyone to end Europe’s reliance on Russian oil and gas.
 
-  
-    
+
+
       Also possibly ESG
-    
-  
+
+
 
 Here is  an academic paper whose result I do not necessarily understand or believe, but it’s funny so here you go:
 Air pollution is one of the greatest environmental risks and affects various aspects of life. Motivated by the increasing roles of mutual funds in financial markets in recent decades, this study examines the impact of ambient pollution on mutual fund risk in China where pollution is among the most serious environmental concerns. Using propriety data manually collected from various datasets, we find that polluted air increases mutual funds’ tracking errors. The findings are robust after accounting for fund attributes, manager characteristics, and market environment variations. The adoption of different identification strategies, including instrumental variable estimations and difference-in-difference analyses based on two natural experiments, suggests the impact of air pollution on mutual funds’ tracking errors is causal.
@@ -241,11 +241,11 @@ Wild stuff. I do not understand why they would measure tracking error of activ
 From a theoretical standpoint, the relation between air quality and fund managers’ behavior remains unclear. On the one hand, several psychological and economic studies suggest that investors do not always behave rationally (Feng and Seasholes, 2005; Kahneman and Tversky, 1979; Odean, 1998; Shapira and Venezia, 2001). Air pollution accelerates cognitive impairment, and hence, can trigger irrationality, and lead to higher biases in decision-making. On the other hand, while there is ample evidence that retail investors are prone to behavioral biases (e.g., Barberis and Thaler, 2003), professional investors such as fund managers tend to behave opposite to other investors (e.g., Ekholm, 2006; Ekholm and Pasternack, 2007), implying either no, or a negative, association between air quality and fund managers’ behavioral biases. In addition, there could be other possibilities. For instance, one can also argue that air pollution is irrelevant to behavioral biases in mutual funds if one believes that outdoor air pollution should have no or little impact on investment decisions, which are typically made indoors.
 This makes me want to read a study of, like, (1) what percentage of investment decisions are in fact made indoors (I assume it’s quite high, but sometimes you make decisions while walking to the office or whatever) and (2) if the indoor ones are better or worse than the outdoor ones. And I suppose (3) if that changes based on air pollution.
 
-  
-    
+
+
       People are worried about bond market liquidity
-    
-  
+
+
 
 That’s not quite what this is, but close enough:
 
@@ -256,11 +256,11 @@ With the Federal Reserve aggressively raising interest rates, market forces in J
 
 I mean it leaves sellers of that bond with a pretty obvious thing to do, no?
 
-  
-    
+
+
       SEC lexicography
-    
-  
+
+
 
 Here is  a speech that US Securities and Exchange Commission Commissioner Hester Peirce gave last week about the Sarbanes-Oxley Act. Basically she thinks that some Sarbanes-Oxley provisions should be dialed back, but never mind that, here’s this:
 The task facing legislators is somewhat akin to that facing people charged with keeping dictionaries up-to-date. Whether you are responsible for writing laws or dictionaries, you try to be responsive to current events while maintaining a longer-term view. How do you figure out which words are just fads and which merit inclusion in the official dictionary, where they will stay for decades or centuries to come? What will our grandchildren think twenty years from now when they are perusing a dictionary’s digital pages and come across words we added this year? Metaverse, booster dose, side hustle, altcoin, pumpkin spice, use case, and greenwash made the list. Those words and phrases likely have staying power. But sus, yeet, and adorkable—all new slang words in this year’s Merriam-Webster’s dictionary—will we still be using those in twenty years? If so, the English language will be janky and in need of MacGyver[ing]—two other words on this year’s list.
@@ -270,15 +270,15 @@ I don’t love this as a description of lexicography,
   [6]
  I guess that is bullish for crypto, though I am not sure. (Does the permanent concept of “altcoin” imply that no other cryptocurrency will ever surpass Bitcoin? Isn’t that bearish?) Also Peirce is generally the most crypto-sympathetic SEC commissioner. I am pretty sure that SEC Chair Gary Gensler thinks that altcoins are sus, and would prefer to yeet them into the sun.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Core US Inflation Rises to 40-Year High, Securing   Big Fed Hike. Fed Swaps Fully Price   Three-Quarter-Point Rate Hike in November. The Reporter Who Knows What Jerome Powell Is Thinking. Liz Truss in crisis talks on new  tax cut U-turn. Activist Investor Urges  Kohl’s to Replace Board Members. BlackRock   Assets Tumble 16% as Stock and Bond Markets Slide. ‘ Buy Now, Pay Later’ Is Still a Credit-Score Blind Spot. Exxon’s Exodus: Employees Have Finally Had Enough of Its   Toxic Culture. Bitcoin Cowboys Are the Ultimate Stress Test for   Texas’ Power Grid.  One Place Where the Rules Actually Apply to Elon Musk. Ex-Credit Suisse Trader Says   ‘Den of Thieves’ Chat Was Banter. Tom Brady buys Major League  Pickleball team.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also possibly its performance has been bad, but that’s not necessarily true; the main problem is just that the market for startup shares is down.
 
 
@@ -291,120 +291,120 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Not governance, nobody cares about governance, governance is about financial returns.
 
 
-  [5] For one thing, you can take words *out* of later editions? 
+  [5] For one thing, you can take words *out* of later editions?
 
 
   [6] Also the metaverse, lol.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

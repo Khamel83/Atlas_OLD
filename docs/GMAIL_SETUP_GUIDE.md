@@ -11,7 +11,7 @@ This guide covers the manual steps you need to complete to enable Gmail newslett
 
 1. **Go to Google Cloud Console**: https://console.cloud.google.com/
 2. **Create or Select Project**:
-   - Create new project: "Atlas Email Integration" 
+   - Create new project: "Atlas Email Integration"
    - Or use existing project if you have one
 3. **Enable Gmail API**:
    - Go to APIs & Services > Library
@@ -57,7 +57,7 @@ This guide covers the manual steps you need to complete to enable Gmail newslett
    ```bash
    # Edit your .env file and add these Gmail variables:
    nano .env
-   
+
    # Add these lines to .env:
    GMAIL_ENABLED=${GMAIL_ENABLED:-false}
    GMAIL_CREDENTIALS_PATH=${GMAIL_CREDENTIALS_PATH:-email_download_historical/credentials.json}
@@ -73,10 +73,10 @@ This guide covers the manual steps you need to complete to enable Gmail newslett
    ```bash
    # Edit your secrets file
    nano ~/.secrets/atlas.env
-   
+
    # Add this line to enable Gmail:
    export GMAIL_ENABLED=true
-   
+
    # Optional: Override any defaults (usually not needed)
    # export GMAIL_LABEL_NAME=MyCustomLabel
    ```
@@ -166,7 +166,7 @@ ls output/emails/html/
 **Issue**: "access_denied" error
 - **Solution**: Add your email as test user in OAuth consent screen
 
-**Issue**: "invalid_grant" error  
+**Issue**: "invalid_grant" error
 - **Solution**: Delete token.json and re-authenticate
 
 **Issue**: "Label 'Newsletter' not found"
@@ -188,7 +188,7 @@ ls output/emails/html/
 ### Revoke Access
 If you want to revoke Atlas access to Gmail:
 1. Go to https://myaccount.google.com/permissions
-2. Find "Atlas Personal Email Integration" 
+2. Find "Atlas Personal Email Integration"
 3. Click "Remove access"
 4. Delete token.json from Atlas directory
 

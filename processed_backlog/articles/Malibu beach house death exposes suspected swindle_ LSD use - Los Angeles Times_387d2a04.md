@@ -5,7 +5,7 @@
 
 By [Michael Finnegan](https://www.latimes.com/people/michael-finnegan)Staff Writer
 
-April 12, 2023 5 AM PT 
+April 12, 2023 5 AM PT
 
 [For Subscribers](https://www.latimes.com/topic/for-la-times-subscribers)
 
@@ -52,7 +52,7 @@ They also did not realize that surveillance cameras, installed all over the hous
 
 In a swirl of LSD, ketamine, psilocybin mushrooms and marijuana, Sawusch had been flinging food and clothing around the house for days in fits of rage, talking to himself, rocking.
 
-![Mark Sawusch, far right, on the beach in Malibu with Anna Moore and Anthony Flores.](https://ca-times.brightspotcdn.com/dims4/default/b0f1060/2147483647/strip/true/crop/3264x2448+0+0/resize/2000x1500!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2F6b%2F3a7ef92b4993a32566b161354842%2Fmark-anna-anton-beach-walk-2017.jpg) 
+![Mark Sawusch, far right, on the beach in Malibu with Anna Moore and Anthony Flores.](https://ca-times.brightspotcdn.com/dims4/default/b0f1060/2147483647/strip/true/crop/3264x2448+0+0/resize/2000x1500!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2F6b%2F3a7ef92b4993a32566b161354842%2Fmark-anna-anton-beach-walk-2017.jpg)
 
 Mark Sawusch, far right, on the beach in Malibu with Anna Moore and Anthony Flores.
 
@@ -95,8 +95,8 @@ The eye surgeon had struggled for years with depression, but this marked an alar
 
 Subscribers get exclusive access to this story
 
-We’re offering L.A. Times subscribers special access to our best journalism. Thank you for your support.  
-  
+We’re offering L.A. Times subscribers special access to our best journalism. Thank you for your support.
+
 **[Explore more Subscriber Exclusive content](https://www.latimes.com/topic/for-la-times-subscribers).**
 
 Sawusch, who grew up in Florida, had earned his medical degree at the University of Chicago in 1985 and, after a residency at Johns Hopkins Hospital in Baltimore, moved to Los Angeles.
@@ -109,7 +109,7 @@ Advertisement
 
 “I can do that for you,” Flores would tell him.
 
-![Eye surgeon Mark Sawusch in September 2008](https://ca-times.brightspotcdn.com/dims4/default/8d80f5b/2147483647/strip/true/crop/1200x878+0+0/resize/2000x1463!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F95%2Fe6%2F49d10f784ed7b1441e803e680261%2Feye-surgeons-suspicious-death.jpg) 
+![Eye surgeon Mark Sawusch in September 2008](https://ca-times.brightspotcdn.com/dims4/default/8d80f5b/2147483647/strip/true/crop/1200x878+0+0/resize/2000x1463!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F95%2Fe6%2F49d10f784ed7b1441e803e680261%2Feye-surgeons-suspicious-death.jpg)
 
 Mark Sawusch, shown in September 2008, was an ophthalmologist with a private practice in Pacific Palisades.
 
@@ -175,7 +175,7 @@ Flores got a cosmetology license too. He worked at a Melrose Avenue salon in L.A
 
 Flores and Moore met in 2012 at a potluck in a Santa Monica yoga studio. They became lovers and partners in the window-cleaning service. Their lives were so intertwined they would sometimes swap cellphones and text people from both as “Anton&Anna.”
 
-![Anna Moore and Anthony Flores camping in the Sierra Nevada in 2015.](https://ca-times.brightspotcdn.com/dims4/default/6d58858/2147483647/strip/true/crop/750x1001+0+0/resize/2000x2669!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7e%2F9a%2F8f0f91b441e98b963ebb85942cbf%2Fanna-moore-anthony-flores-2015.jpeg) 
+![Anna Moore and Anthony Flores camping in the Sierra Nevada in 2015.](https://ca-times.brightspotcdn.com/dims4/default/6d58858/2147483647/strip/true/crop/750x1001+0+0/resize/2000x2669!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7e%2F9a%2F8f0f91b441e98b963ebb85942cbf%2Fanna-moore-anthony-flores-2015.jpeg)
 
 Anna Moore and Anthony Flores camping in the Sierra Nevada in 2015.
 
@@ -197,7 +197,7 @@ Advertisement
 
 Late one Friday afternoon in June 2017, the couple stopped at Kippy’s organic ice cream shop in Venice. Flores was pondering flavors at the counter when the man behind him asked: “Do you know anything about this alkaline water?”
 
-![Anna Moore and Anthony Flores at a cocktail party on June 22, 2017, in Los Angeles.](https://ca-times.brightspotcdn.com/dims4/default/80b0b14/2147483647/strip/true/crop/2840x2135+0+0/resize/2000x1504!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0e%2F87%2F08d6c8a14021a57428398b32cde9%2Fgettyimages-800032110a.jpg) 
+![Anna Moore and Anthony Flores at a cocktail party on June 22, 2017, in Los Angeles.](https://ca-times.brightspotcdn.com/dims4/default/80b0b14/2147483647/strip/true/crop/2840x2135+0+0/resize/2000x1504!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0e%2F87%2F08d6c8a14021a57428398b32cde9%2Fgettyimages-800032110a.jpg)
 
 Anna Moore and Anthony Flores at a cocktail party for a cosmetics business in Los Angeles the night before they met Mark Sawusch in June 2017.
 
@@ -219,7 +219,7 @@ Sawusch invited them to move into his house, rent-free. They offered to stabiliz
 
 Advertisement
 
-![Mark Sawusch plays the piano at his Malibu beach house, with Anna Moore behind him.](https://ca-times.brightspotcdn.com/dims4/default/e70c3d2/2147483647/strip/true/crop/2656x1701+0+0/resize/2000x1281!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4c%2F23%2F40d970064220962903e6b6bacdb5%2Fmark-anna-making-music-together-at-home2.jpg) 
+![Mark Sawusch plays the piano at his Malibu beach house, with Anna Moore behind him.](https://ca-times.brightspotcdn.com/dims4/default/e70c3d2/2147483647/strip/true/crop/2656x1701+0+0/resize/2000x1281!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4c%2F23%2F40d970064220962903e6b6bacdb5%2Fmark-anna-making-music-together-at-home2.jpg)
 
 Mark Sawusch plays the piano at his Malibu beach house, with Anna Moore behind him.
 
@@ -239,7 +239,7 @@ Advertisement
 
 On his own again, Sawusch faced relentless drama. He was arrested at Moonshadows, an oceanfront restaurant a quick walk from his house, on charges of public intoxication and failure to pay for a meal.
 
-![Moonshadows Malibu restaurant on Pacific Coast Highway was within walking distance of Mark Sawusch's home.](https://ca-times.brightspotcdn.com/dims4/default/0a75447/2147483647/strip/true/crop/3600x2373+0+0/resize/2000x1318!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe4%2F89%2F78eb57814c6681b46d05876a387e%2F1273788-me-eye-surgeons-suspicious-death-8-brv.jpg) 
+![Moonshadows Malibu restaurant on Pacific Coast Highway was within walking distance of Mark Sawusch's home.](https://ca-times.brightspotcdn.com/dims4/default/0a75447/2147483647/strip/true/crop/3600x2373+0+0/resize/2000x1318!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe4%2F89%2F78eb57814c6681b46d05876a387e%2F1273788-me-eye-surgeons-suspicious-death-8-brv.jpg)
 
 Moonshadows Malibu restaurant on Pacific Coast Highway was within walking distance of Mark Sawusch’s home.
 
@@ -281,7 +281,7 @@ Even after 21 years in massage therapy, Peterson, then 54, found this gig unusua
 
 Marijuana smoke wafted through the house most days. Flores and Sawusch liked to smoke pot at the dining room table.
 
-![The deck of Mark Sawusch's Malibu beachfront home.](https://ca-times.brightspotcdn.com/dims4/default/3cc91bd/2147483647/strip/true/crop/1442x860+0+0/resize/2000x1193!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F14%2Fa9%2F2c1324514ac8ad8b68dd3ce7b5bd%2Feye-surgeons-suspicious-death2.JPG) 
+![The deck of Mark Sawusch's Malibu beachfront home.](https://ca-times.brightspotcdn.com/dims4/default/3cc91bd/2147483647/strip/true/crop/1442x860+0+0/resize/2000x1193!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F14%2Fa9%2F2c1324514ac8ad8b68dd3ce7b5bd%2Feye-surgeons-suspicious-death2.JPG)
 
 A photo showing the deck of Mark Sawusch’s Malibu beachfront home was submitted as evidence in court.
 
@@ -309,7 +309,7 @@ After six months, Flores and Moore wrote Sawusch a two-page request for $1 milli
 
 Sawusch said OK. Once the money was wired, it was the most Flores had ever had in a personal bank account, he acknowledged later in his deposition.
 
-![Mark Sawusch, center, drinks a cocktail with Anthony Flores and Anna Moore in 2017.](https://ca-times.brightspotcdn.com/dims4/default/31adb93/2147483647/strip/true/crop/3264x2448+0+0/resize/2000x1500!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F37%2F09%2Fcc6efe6442b0a0ce3dc9da32db41%2Fmark-anton-anna-social-gathering-2017.jpg) 
+![Mark Sawusch, center, drinks a cocktail with Anthony Flores and Anna Moore in 2017.](https://ca-times.brightspotcdn.com/dims4/default/31adb93/2147483647/strip/true/crop/3264x2448+0+0/resize/2000x1500!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F37%2F09%2Fcc6efe6442b0a0ce3dc9da32db41%2Fmark-anton-anna-social-gathering-2017.jpg)
 
 Mark Sawusch, center, drinks a cocktail with Anthony Flores and Anna Moore in 2017.
 
@@ -343,7 +343,7 @@ Flores said he once joined in. “I think I may have, like, taken a small mushro
 
 Malibu’s morning haze was clearing when a man from Topanga Canyon in a purple robe showed up — the shaman for a Mother’s Day acid trip. It was two weeks before Sawusch died.
 
-![The entrance to Mark Sawusch's beachfront home in Malibu.](https://ca-times.brightspotcdn.com/dims4/default/527d7d7/2147483647/strip/true/crop/3600x2394+0+0/resize/2000x1330!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F19%2F71%2F893073e6473b83d9bd457f5abcaf%2F1273788-me-eye-surgeons-suspicious-death-1-brv.jpg) 
+![The entrance to Mark Sawusch's beachfront home in Malibu.](https://ca-times.brightspotcdn.com/dims4/default/527d7d7/2147483647/strip/true/crop/3600x2394+0+0/resize/2000x1330!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F19%2F71%2F893073e6473b83d9bd457f5abcaf%2F1273788-me-eye-surgeons-suspicious-death-1-brv.jpg)
 
 The entrance to Mark Sawusch’s beachfront home in Malibu.
 
@@ -525,7 +525,7 @@ In November 2018, Patsy and Carole got a court order freezing Flores and Moore�
 
 Advertisement
 
-![Anna Moore in Hollywood in November 2018, when she was served with legal papers.](https://ca-times.brightspotcdn.com/dims4/default/c4a43c0/2147483647/strip/true/crop/500x717+0+0/resize/2000x2868!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2Fb3%2F921592ae4f249a57d19cd29ac304%2Fprocess-server-3.jpeg) 
+![Anna Moore in Hollywood in November 2018, when she was served with legal papers.](https://ca-times.brightspotcdn.com/dims4/default/c4a43c0/2147483647/strip/true/crop/500x717+0+0/resize/2000x2868!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2Fb3%2F921592ae4f249a57d19cd29ac304%2Fprocess-server-3.jpeg)
 
 In November 2018, Anna Moore is served with legal papers in Hollywood, notifying her and Anthony Flores that a judge had frozen their bank accounts.
 
@@ -553,7 +553,7 @@ Theodore Lanes, the receiver, and lawyers for the Sawusch family believed they h
 
 After the onset of the COVID-19 pandemic, Flores and Moore took off for Mexico, settling in Tulum, a beach town on the Yucatan Peninsula.
 
-![A view of the Punta Piedra beach in Tulum, Mexico.](https://ca-times.brightspotcdn.com/dims4/default/20f646b/2147483647/strip/true/crop/4032x2688+0+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fad%2F8c%2F7dfe0c1544c3979911dce088fca6%2Fgettyimages-1244668794.jpg) 
+![A view of the Punta Piedra beach in Tulum, Mexico.](https://ca-times.brightspotcdn.com/dims4/default/20f646b/2147483647/strip/true/crop/4032x2688+0+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fad%2F8c%2F7dfe0c1544c3979911dce088fca6%2Fgettyimages-1244668794.jpg)
 
 A view of the Punta Piedra beach in Tulum, Mexico. Anthony Flores and Anna Moore stayed in the beach town after the onset of the COVID-19 pandemic.
 

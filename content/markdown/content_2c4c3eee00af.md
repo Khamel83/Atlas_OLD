@@ -44,19 +44,19 @@
     </a>
     <div id="mobile-nav-container"></div>
     <div id="page-container">
-      
+
         <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
 
 <header class="navbar navbar-default" id="navbar" role="banner">
       <div class="top-user-navigation-wrapper">
         <div class="container">
-          
+
         </div>
       </div>
       <!--
       <div class="mid-header-wrapper">
         <div class="container">
-          
+
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -68,7 +68,7 @@
       <div class="main-navigation-wrapper">
         <div class="container">
           <a id="logo-link" href="/"><img alt="UC Berkeley Sociology Logo" title="Sociology" id="logo" src="/sites/all/themes/soc/logo.svg"/></a>
-          
+
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -79,7 +79,7 @@
                           <div id="navbar-collapse" class="navbar-collapse collapse">
                   <div class="region region-navigation-collapsible">
     <nav role="navigation" aria-labelledby="block-menu-block-main-menu" id="block-menu-block-main">
-            
+
   <h2 class="visually-hidden" id="block-menu-block-main-menu">Main menu</h2>
 
 <ul class="menu menu--main nav">
@@ -105,7 +105,7 @@
                                         <a href="https://docs.google.com/a/berkeley.edu/forms/d/17DHLi5v2lw3h4ETvdKTd3TTjm6bVCQ8jWQW4QCqKYas/viewform?c=0&amp;w=1" title="">Key Requests</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown active active-trail">
                                                                     <a href="/people/faculty" title="People" class="active-trail" data-drupal-link-system-path="people/faculty">People</a>
@@ -129,7 +129,7 @@
                                         <a href="/people/research-faculty" data-drupal-link-system-path="people/research-faculty">Research Faculty</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="/people/staff" data-drupal-link-system-path="people/staff">Staff</a>
@@ -150,10 +150,10 @@
                                         <a href="/people/alumni/book" data-drupal-link-system-path="people/alumni/book">Alumni Book</a>
               </li>
         </ul>
-  
+
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                                                     <a href="/graduate-program-sociology" data-drupal-link-system-path="node/108">Graduate Program</a>
@@ -165,7 +165,7 @@
                                         <a href="/books-dissertations" data-drupal-link-system-path="node/6123">Books from Dissertations</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                         <a href="/current-students" data-drupal-link-system-path="node/16037">Current Students</a>
@@ -198,7 +198,7 @@
                                         <a href="https://drive.google.com/drive/folders/1kI6HcaeXqbYrqgde-SynanWLpdCsM5N3">Graduate Student Wiki</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="/resources/faculty-office-hours" data-drupal-link-system-path="resources/faculty-office-hours">Faculty Office Hours</a>
@@ -222,7 +222,7 @@
                                         <a href="https://grad.berkeley.edu/admissions/requirements/#evidence-of-english-language-proficiency">Prospective International Students</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="/graduate-course-descriptions" data-drupal-link-system-path="node/6121">Graduate Courses</a>
@@ -231,7 +231,7 @@
                                         <a href="https://sociology.berkeley.edu/student-technical-support" title="IT help for students">Tech Support Links</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                                                     <a href="/undergraduate-program" data-drupal-link-system-path="node/6095">Undergraduate Program</a>
@@ -255,7 +255,7 @@
                                         <a href="/5-resources" data-drupal-link-system-path="node/16312">5. Resources</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                         <a href="/major" data-drupal-link-system-path="node/16034">The Major</a>
@@ -285,7 +285,7 @@
                                         <a href="/research-methods-concentration" data-drupal-link-system-path="node/16626">Research Methods Concentration</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="/resources/faculty-office-hours" data-drupal-link-system-path="resources/faculty-office-hours">Faculty Office Hours</a>
@@ -303,7 +303,7 @@
                                         <a href="/special-enrollment-procedures-seminars-other-sociology-courses" data-drupal-link-system-path="node/6110">Special Enrollment Procedures for Seminars &amp; Other Sociology Courses</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                         <a href="/undergraduate-resources" data-drupal-link-system-path="node/16036">Resources</a>
@@ -333,7 +333,7 @@
                                         <a href="/research-opportunities-potential-funding" data-drupal-link-system-path="node/15694">Research Opportunities</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="https://berkeleyconnect.berkeley.edu/finding-connection/participating-departments/sociology">Berkeley Connect</a>
@@ -342,7 +342,7 @@
                                         <a href="https://sociology.berkeley.edu/student-technical-support" title="IT help for students">Tech Support Links</a>
               </li>
         </ul>
-  
+
               </li>
                       <li class="expanded dropdown">
                                                                     <a href="/news-and-events" title="News &amp; Events" data-drupal-link-system-path="news-and-events">News, Events, and Initiatives</a>
@@ -363,7 +363,7 @@
                                         <a href="https://sociology.berkeley.edu/campus-wide-commencement-information">2025 Commencement</a>
               </li>
         </ul>
-  
+
               </li>
                       <li>
                                         <a href="https://classes.berkeley.edu/" title="Courses">Courses</a>
@@ -382,9 +382,9 @@
         </div>
       </div>
     </header>
-  
+
 <div class="banner-header">
-        
+
           <div class="region region-banner-header">
 
 <section id="block-block-content-e6fa077c-a663-46b2-bcad-762fab748eb7" class="block block-banner-header block-block-content block-block-contente6fa077c-a663-46b2-bcad-762fab748eb7 clearfix" style="background-image:url(/sites/default/files/2019-04/PEOPLE.jpg)" role="region" aria-label="Site Section Name">
@@ -408,8 +408,8 @@
 
 </div>
 </div>
-                      
-                    
+
+
                                               <div class="header-main" role="heading" aria-level="1">
                   <div class="region region-header">
         <h1 class="page-header">Claude S. Fischer</h1>
@@ -421,25 +421,25 @@
                                 <a id="main-content"></a>
               <div class="region region-content">
       <article typeof="schema:Person" about="/faculty/claude-s-fischer">
-  
+
 <div  class="node_top">
-    
+
 <div  class="node_top_image">
-    
+
             <div class="field field--name-user-picture field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/default/files/user/Claude%20S.%20Fischer-492/Claude%20S.%20Fischer-picture.jpg" width="823" height="1024" alt="Claude S. Fischer" typeof="foaf:Image" class="img-responsive" />
 
 </div>
-      
+
   </div>
 <div  class="node_top_copy">
-    
+
 <div  class="node_top_copy_top">
     <h1 class="page--title">Claude S. Fischer</h1>
             <div class="field field--name-field-academic-title field--type-string field--label-hidden field--item">Distinguished Professor of the Graduate School</div>
-      
+
   </div>
 <div  class="node_top_copy_top_2 user_top_details">
-    
+
   <div class="field field--name-field-mywebsite field--type-link field--label-visually_hidden">
     <div class="field--label sr-only">Web Site</div>
               <div class="field--item"><a href="https://madeinamericathebook.wordpress.com/">https://madeinamericathebook.wordpress.com/</a></div>
@@ -472,7 +472,7 @@
 <li class="leaf"><a href="http://sociology.berkeley.edu/user" title>Login</a></li>
 </ul>
 </div>
-      
+
   <div class="field field--name-field-facultypublications field--type-text-long field--label-above">
     <div class="field--label">Representative Publications</div>
               <div class="field--item"><p align="center">&nbsp;</p>
@@ -548,11 +548,11 @@ CA 94720-1980</div>
 <div class="footer-logo"><a class="ucb-logo" href="https://www.berkeley.edu/" target="_BLANK"><img alt="Home" data-entity-type data-entity-uuid src="/sites/all/themes/soc/images/footerLogo.svg" style="width: 167px;"></a></div>
 </div>
 </div></div>
-      
+
   </section>
 
 <nav role="navigation" aria-labelledby="block-menu-block-menu-footer-menus-menu" id="block-menu-block-menu-footer-menus">
-            
+
   <h2 class="visually-hidden" id="block-menu-block-menu-footer-menus-menu">Footer Menus</h2>
 
 <ul class="menu menu--menu-footer-menus nav">
@@ -585,7 +585,7 @@ CA 94720-1980</div>
 
 </div>
     </footer>
-  
+
   </div>
 
 </div>

@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        A fact about financial markets that occasionally produces strange results is that the total market value of a thing is, conventionally, (1) 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        A fact about financial markets that occasionally produces strange results is that the total market value of a thing is, conventionally, (1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       LME
-    
-  
+
+
 
 A fact about financial markets that occasionally produces strange results is that the total market value of a thing is, conventionally, (1) the amount of that thing that exists times (2) the price of the last trade. So Bloomberg tells me that there are about 304.5 million shares of GameStop Corp. stock outstanding, and they closed at $25.60 yesterday, so GameStop’s market capitalization — the total value of its stock — is 304.5 million times $25.60, or about $8 billion. Nobody recently bought or sold all of GameStop for $8 billion, and if somebody did, the price would probably not be $8 billion.
   [1]
@@ -108,63 +108,63 @@ So the LME got together and considered a neatly numbered list of options:
 
 Bloomberg  calculated at the time that the LME ended up canceling $3.9 billion worth of trades over about seven hours on Tuesday morning. This is not my stylized story of a sleepy illiquid overnight market moving the price dramatically: The Tuesday morning session was busy, even if the price swung wildly, and, in Chamberlain’s view, did not “make sense.” But it is still a story in which canceling $3.9 billion of trades avoided $20 billion of margin calls. To LME, at the time, that seemed like a good trade.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 The     story that is emerging about the collapse of Sam Bankman-Fried’s crypto exchange, FTX, and its affiliated trading firm, Alameda Research, is that FTX took customer money for crypto trades, and Alameda used its own money for crypto trades, and nobody kept track of the money, so Alameda kept using FTX customer money for trades, and FTX didn’t notice, and Alameda kept losing that money, and it also didn’t notice? And then one day someone noticed and the whole thing vanished in a puff of smoke? I don’t know! That story makes no sense to me at all! And I don’t think that it is a good story or anything; in many ways an orderly fraud would be better than a vast money-sucking whirlwind of chaos. But “nobody kept track of the money” does seem to be the story that everyone is going with.
 Here is a Wall Street Journal story about  the early days of Alameda:
@@ -191,20 +191,20 @@ Alameda Research, a crypto hedge fund founded by Bankman-Fried, also owes $55,31
 I think that this is best understood as an accounting problem. A month ago,  a common perception of FTX was that it had “one of the highest revenue/profit/valuation per employee as any company in the world.” As far as I can tell, FTX believed this. If in fact your employees are incredibly good at making money, then lavishing them with perks is simply optimal. Allowing $200 a day in DoorDash to prevent your insanely profitable employees from ever having to think about their meal budget is a good business move. Your employees’ time and attention is so valuable that it is foolish to make them waste time filling out expense reports.
 But a big part of the reason that FTX believed it was so profitable is that nobody made any effort to keep track of the money. If you lose $4 billion trading and borrow $8 billion of customer money to cover the gap and don’t keep track of that borrowing, then it looks like you made $4 billion trading, and you will say things like “we are incredibly profitable per employee, $200 DoorDash for everyone!” FTX spent like the company it thought it was, but it didn’t bother to find out what kind of company it actually was.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Hung deals
-    
-  
+
+
 
 Basically the market for leveraged loans was very good at the beginning of 2022, and pretty bad as we near the end of 2022, so a lot of banks signed up to do a lot of buyout loans in 2022 that they ended up being unable to sell on decent terms. If you are a bank, you have to decide whether to sell your loans now, at a loss, or hold on to them and hope the price goes back up. This is an economic decision — like any other trading decision — though it also has an accounting component; if you don’t try to sell the loans then you don’t know how much money you’ve lost. Also there are some year-end issues to consider.   Anyway:
 
@@ -218,11 +218,11 @@ Around here, I have eyes only for that Twitter Inc. debt. I have   joked a  lot 
 I have seen a lot of people speculate about that debt ending up in the hands of tough distressed-debt vulture funds who will keep a close eye on Twitter’s cash flows and fight Elon Musk for control of Twitter, and my reaction is: What? No. If you are a tough distressed-debt vulture investor you have plenty to keep you busy fighting against ordinary companies and private equity sponsors; you don’t need Elon Musk as an enemy. Also you probably don’t want to end up owning Twitter, particularly not if you had to fight Elon Musk for it. What will be left?
 No, if I were Musk’s bankers I’d be trying to sell that debt to … venture capitalists?   Jason Calacanis’s “randos”? Start a retail vehicle, like, the Support Elon’s Twitter Free Speech Thing Credit Fund, to buy the debt at 80? Find some buyers who trust Musk completely and don’t want a fight with him. Or, I’d try selling it to Apple Inc., or Jeff Bezos. Selling that debt to someone who wants a fight with Musk and can afford it, and who might want to own Twitter, makes sense. I just don’t think that’s a distressed fund.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 There was a huge vogue, in about 2017 and 2018, for blockchain projects. “We will put the stock exchange on the blockchain,” or loan trading, or supermarket produce, or real estate, or cargo manifests, or whatever. If you ran a stock exchange or a bank or a shipping company, you needed to have a blockchain project. An industry of blockchain consultants sprang up to sell blockchain projects. The projects were announced. The announcements got written up in the press. We talked about them a lot, around here, back in 2017 and 2018. Not so much since then.
 The last few months have been pretty bad for the reputation of, like, centralized cryptocurrency shadow banks. This has almost nothing to do with the question of whether a blockchain is a good database architecture for stock exchanges or property registers or shipping. But if you announced a blockchain project in 2018, and by 2020 you realized it wasn’t going anywhere, 2022 is a good year to formally kill it. We   talked last week about the Australian Securities Exchange killing its blockchain project (which started way back in 2015), and  now here’s this:
@@ -233,130 +233,130 @@ TradeLens emerged during the “enterprise blockchain” era of 2018 as a high-f
 
 I assume that Maersk will still have some way to keep lists of what’s on its ships? Like that seems like an important function for a shipping company? But they’ll no longer put out excited press releases about how they keep the lists.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Activist House Flippers Take On Wall Street to Keep Homes From Investors. UBS Backtracks on CEO’s Plan to Reach Wider Swath of Wealthy US Clients. A year of pain: investors struggle in a  new era of higher rates. Yield Curve  Inversion Reaches New Extremes. EU wants to use frozen Russian assets to  fund Ukraine reconstruction.   AMC Networks to Cut 20% of US Staff as CEO Abruptly Departs.   DoorDash to Slash About 1,250 Jobs to Pare Back Rising Costs. Singapore’s Temasek  opens review into ill-fated FTX investment. Saudi Wealth Funds Follows   Green Bond with $17 billion Loan. Elon Musk’s Twitter Politics Add to Pressure on  Tesla’s Brand Image. “These were not  the lies of a calculating con artist, but of a mentally ill person who could not help himself.” Ramaphosa Says $580,000 Was   Innocently Hidden in Game Farm Sofa.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Ordinarily the way that this happens is that someone wants to *buy* all of a company, and to do that they normally need to pay significantly *more* than its market capitalization: The per-share price you pay to buy all of the shares is higher than the per-share price you pay to buy one share, in part because you are paying a “control premium” but also because of how supply curves slope. The way demand curves slope, you might also think that a company that was desperate to *sell* all of itself would get a *lower* price than its market cap. (The per-share price you get for a market order to sell one million shares is generally lower than the per-share price you get for selling 100 shares, so why shouldn’t that extend indefinitely?) In practice this doesn’t come up much: Why would a company want to sell all of its shares at below their market price? Still it is a possibility. I don’t pretend to understand 
+
+  [1] Ordinarily the way that this happens is that someone wants to *buy* all of a company, and to do that they normally need to pay significantly *more* than its market capitalization: The per-share price you pay to buy all of the shares is higher than the per-share price you pay to buy one share, in part because you are paying a “control premium” but also because of how supply curves slope. The way demand curves slope, you might also think that a company that was desperate to *sell* all of itself would get a *lower* price than its market cap. (The per-share price you get for a market order to sell one million shares is generally lower than the per-share price you get for selling 100 shares, so why shouldn’t that extend indefinitely?) In practice this doesn’t come up much: Why would a company want to sell all of its shares at below their market price? Still it is a possibility. I don’t pretend to understand
 the situation at Redbox Entertainment Inc., but one possible description is that the board of directors realized it desperately needed to sell itself, and so took a price that was way way lower than its market price.
 
 
   [2] Xiang was not an LME member; instead, he seems to have had over-the-counter trades with his brokers, which they hedged on the LME. The LME’s response suggests that they didn’t even know about this. Paragraph 66: “Subsequent to the Decision, it has emerged that underlying the unprecedented price convulsions on 8 March 2022 there very substantial short positions in the over-the-counter (‘OTC’) market contributing to market disorder. OTC trading is carried out directly between the trading counterparties, without the supervision of an exchange. Entities within the Tsingshan Holding Group Co Ltd (‘Tsingshan’) group appear to have been some (but not all) of those holding large OTC short positions. On 8 March, the LME was not aware of the large short positions in the OTC market: the LME does not monitor OTC positions and, indeed, there are only limited circumstances in which the LME requests disclosure of information about Members' (or their Clients') OTC positions. As explained below, the Claimants are simply wrong to suggest that the LME was motivated to protect Tsingshan or others in its position. Mr. Chamberlain reasonably considered that he did not need to isolate the cause of the disorder in order to determine that the market was disorderly or to determine the appropriate response.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

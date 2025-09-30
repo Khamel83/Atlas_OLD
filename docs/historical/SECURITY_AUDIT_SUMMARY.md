@@ -10,7 +10,7 @@
 
 **🔴 High Priority Updates Required:**
 - **Jinja2 v3.1.2** → v3.1.6+ (5 CVEs: template injection, sandboxed environment bypass)
-- **urllib3 v2.0.7** → v2.5.0+ (3 CVEs: proxy authorization, redirect handling)  
+- **urllib3 v2.0.7** → v2.5.0+ (3 CVEs: proxy authorization, redirect handling)
 - **Twisted v24.3.0** → v24.7.0+ (2 CVEs: XSS, HTTP request smuggling)
 - **PyJWT v2.7.0** → v2.10.1+ (1 CVE: issuer bypass vulnerability)
 
@@ -26,7 +26,7 @@
 # Priority 1 - Security Critical
 sudo apt install python3-jinja2=3.1.6+  # or pip upgrade
 pip install --upgrade urllib3>=2.5.0
-pip install --upgrade twisted>=24.7.0  
+pip install --upgrade twisted>=24.7.0
 pip install --upgrade pyjwt>=2.10.1
 
 # Priority 2 - Important Updates
@@ -67,7 +67,7 @@ pip install --upgrade pillow cryptography certifi
 # Update critical template engine
 pip install --upgrade jinja2>=3.1.6
 
-# Update HTTP client library  
+# Update HTTP client library
 pip install --upgrade urllib3>=2.5.0
 
 # Update JWT library
@@ -90,7 +90,7 @@ pip install --upgrade pyjwt>=2.10.1
 
 #### **Before Production Deployment:**
 - [ ] Update all critical dependencies (Jinja2, urllib3, PyJWT)
-- [ ] Run security scan with zero high/critical vulnerabilities  
+- [ ] Run security scan with zero high/critical vulnerabilities
 - [ ] Enable HTTPS with proper TLS configuration
 - [ ] Configure proper firewall rules
 - [ ] Set up monitoring and alerting
@@ -105,7 +105,7 @@ pip install --upgrade pyjwt>=2.10.1
 # Weekly security scans
 safety scan --json > weekly_security_report.json
 
-# Monthly dependency updates  
+# Monthly dependency updates
 pip list --outdated
 pip install --upgrade package1 package2 ...
 

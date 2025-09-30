@@ -7,7 +7,7 @@
 
 # Access Denied
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Access Denied]()
 

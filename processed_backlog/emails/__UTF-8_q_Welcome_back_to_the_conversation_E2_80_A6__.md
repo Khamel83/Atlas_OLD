@@ -26,7 +26,7 @@ We partnered with Orchestra, the premier strategy and communications agency, and
 ⏰ P.S.: On March 14 from 2:30
 to 3:30 p.m. ET, I’ll be hosting a Zoom call with Orchestra C.E.O. Jonathan Rosen for a deep dive into some of the most interesting findings… and just to chat with you because I like you! RSVP here ( https://us02web.zoom.us/webinar/register/WN__q7XIqnmQASkjQk0gWOTxA?utm_campaign=Puck+Private+Conversation+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_content=Puck+Private+Conversation+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to join the conversation.
 
- 
+
 
 Lighthouse Illustration
 
@@ -60,7 +60,7 @@ Infographic: At a boardroom level, is your organization becoming more or less ou
 With the new administration ordering federal agencies to
 eliminate diversity, equity, and inclusion programs, and demanding investigations into private companies and institutions that promote D.E.I., it’s not that surprising to see businesses shift proactively from resistance to compliance.
 
- 
+
 
 Whisper Illustration
 
@@ -86,7 +86,7 @@ Infographic: Which of the following best characterizes your outlook for your ind
 In another notable split, a majority of those in Media
 (54 percent) expressed a positive outlook for their industry, but only 37 percent of respondents in Entertainment were similarly upbeat.
 
- 
+
 
 Hollywood Illustration
 
@@ -99,7 +99,7 @@ films will improve this year but that it’s still declining in the long run. Th
 Intriguingly, there was also a
 divide between the Art and Fashion camps. A massive majority (83 percent) of respondents in Fashion believe the overall industry trajectory will be mixed depending on the brand—a.k.a. “It depends.” Meanwhile there’s much less ambiguity about the art market, with 48 percent reporting that it’s already bouncing back from last year’s lows.
 
- 
+
 
 Uncle Sam Hat Illustration
 
@@ -132,7 +132,7 @@ As for who should lead the Democrats out of the wilderness, you resoundingly agr
 
 Infographic: Who is most likely to emerge as the Democratic Party’s standard-bearer over the next two years?
 
- 
+
 
 Infographic: Who or what is to blame for Harris’s loss...
 
@@ -180,7 +180,7 @@ his first 100 days?
 
 Infographic: Which of the following do you think Trump will actually do in his first 100 days?
 
- 
+
 
 Foam Finger Illustration
 
@@ -197,7 +197,7 @@ respectively, although there was a divergence in usage by age. Facebook is still
 Not surprisingly, Bluesky and Threads both lagged X in overall use among Puck respondents. But it was somewhat shocking to discover that twice as many of you use Bluesky as
 Threads—the much bigger and better-funded Meta platform, which is integrated into Instagram. It’s an important reminder that when it comes to social media, adoption is driven by social dynamics much more than marketing budget or parent company backing. If that weren’t the case, we’d all be using Google Wave.
 
- 
+
 
 As for their sources of news, Puck respondents are a pretty
 conservative bunch, technologically if not politically, with more than 85 percent getting information from a daily newspaper—whether in print or online. Only 22 percent of respondents cited YouTube, likely attributable to the demographic skew of the survey pool. Even less popular among Puck respondents were A.I.-based news tools. (That’s probably for the best, given the embryonic state of the industry: Apple just announced it would stop using A.I. to summarize
@@ -243,7 +243,7 @@ Do you still watch award shows?
 
 Infographic: Do you still watch award shows?
 
- 
+
 
 UFO Illustration
 
@@ -298,7 +298,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Puck+Priva
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVSTWlHnsWeCfnT6iCI0s=&utm_campaign=Puck+Private+Conversation+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_content=Puck+Private+Conversation+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St,
 New York, NY 10006

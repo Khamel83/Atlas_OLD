@@ -47,7 +47,7 @@ Braid, Don Bacon, R.F.K. Jr., Mark Thompson, Jeff Zucker, Marjorie Taylor Greene
 
 First, a handful of news items I’m gathering, intelligence I’m overhearing, and trends I’m surmising…
 
- 
+
 
 The
 Sunday Dish
@@ -87,7 +87,7 @@ administration at CNN…
 Dylan Byers
 Dylan Byers
 
- 
+
 
 CNN After CNN
 -------------
@@ -259,6 +259,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
 click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUpQ7xxSc5aMwPmlEpozo=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

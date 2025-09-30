@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here is a simple model of a pension fund. You know you will need to pay out a bunch of money 30 years from now, so you buy some 30-year gove
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       LDI
-    
-  
+
+
 
 Here is a simple model of a pension fund. You know you will need to pay out a bunch of money 30 years from now, so you buy some 30-year government bonds and hold them to maturity. When the bonds mature in 30 years, you have money, which you give to the pensioners, and you’re done. This model is obviously oversimplified,
   [1]
@@ -120,63 +120,63 @@ The bank stressed that it was not seeking to lower long-term government borrowin
 
 And FT Alphaville has two very good explainers of the LDI problem, one by  Toby Nangle and another by  Alex Scaggs and Louis Ashworth, which I have drawn on here. And here is Nangle’s prescient LDI explainer from July. Modern finance made UK pensions vulnerable to runs, and then there was a run on those pensions, and the Bank of England had to step in to buy gilts to save them, because that’s what happens in a bank run.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bourbon insider trading
-    
-  
+
+
 
 The basic rule in the US is that if you learn some secret information about a stock, and you have an obligation to keep it secret, and you use that information to trade the stock, or you sell that information to someone else so that they can trade the stock, then you have committed insider trading and you get in trouble.
   [6]
@@ -196,20 +196,20 @@ Vaughan Jones, an attorney for Adams, said his client did distribute the list, b
 
 Yeah I mean in securities law this stuff is all reasonably settled, and lots of people go to jail for insider trading without themselves being insiders; paying an insider $600 for inside information more than qualifies. But in state-law bourbon embezzlement cases it is perhaps less clear.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Hydrogen 
-    
-  
+
+
 
 Here is a weird tension in marketing crypto tokens. If you run some crypto-y project, and it issues a token, and the token is not actually useful for doing anything on your crypto-y platform, one thing that you can do is go around saying “this token has no cash value and will not appreciate, this is for pure entertainment purposes only.” Another thing you can do is go around saying “this token is going to be hugely valuable as our crypto project takes off, buy it now and it will go up.”
 The problem with the first approach is that if you consistently and clearly say “this token is worthless,” probably no one will buy it. (This is not always true — people might buy tokens for a meme, or for aesthetics — but it is a risk.) The problem with the second approach is that if you say “this token represents a bet on the success of our business venture,” then it is   probably a security under traditional US securities law, and the US Securities and Exchange Commission will sue you for securities fraud unless (1) you have registered the security or exempted it from registration (you haven’t) and (2) you are telling the truth about your business venture (are you?). The first approach won’t make you any money; the second approach will get you in trouble.
@@ -238,11 +238,11 @@ Ostern provided Kane and Hydrogen with regular updates on his market manipulatio
 This didn’t really work, I don’t think, in that the SEC brought the case, but I want to highlight the thought process. If (1) the token is absolutely valueless and has nothing to do with any operating business, and (2) you say that clearly and consistently, then you have a decent argument that it is not a “security.” The  “Howey test” of securities law says that something is a security if it involves “the investment of money in a common enterprise with a reasonable expectation of profits to be derived from the efforts of others,” and if you consistently say “there’s no enterprise, there’ll be no profits, and we’ll make no efforts” then you can argue that your token is not a security.
 If you then also hire someone to do a bunch of spoofing and wash trading in your token, that’s bad, and somebody (the Commodity Futures Trading Commission? prosecutors?) might go after you for fraud, but the SEC won’t go after you for securities fraud because the fraud that you are doing is not to a security. If your model is that the SEC has way less of a sense of humor about these things than anyone else, then that might be a good outcome.
 
-  
-    
+
+
       Do Kwon
-    
-  
+
+
 
 In entirely related news, let’s check in with Do Kwon, the founder of the blown-up Terra blockchain and its token Luna,  in an undisclosed location:
 
@@ -255,15 +255,15 @@ If you thought that Luna was an investment in the collaborative effort to build 
   [7]
  and (2) maybe you wanted to buy it, which is why Luna had a market capitalization in the tens of billions of dollars. If you thought that Luna was just, like, an electronic token with no investment thesis, then maybe it wasn’t a security — but why were you buying it?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The   Unstoppable Dollar Is Wreaking Havoc Everywhere But America. US   Mortgage Rates Jump to 6.7%, Hitting Highest Level Since 2007. VW Prices  Porsche IPO at Top of Range. People are worried about  bond market liquidity. Nikola Founder   Bought Utah Ranch With ‘Worthless’ Stock Options. Crazy Eddie’s nephew  sued an online casino for glitches. LeBron James Is Buying a  Professional Pickleball Team. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In real life you need to pay out a bunch of money at many different points in the future, and those government bonds pay interest between now and 30 years from now, and you have some actuarial risk about how long your beneficiaries will live, etc. You’ll buy lots of bonds maturing at lots of points, and reinvest interest, and have some uncertainty about your liabilities. And I am entirely ignoring the effects of inflation, inflation-indexing of benefits, inflation-linked bonds, etc. But simplifying it as “you have to pay a bunch of money in 30 years, so buy assets that will provide that amount of money in 30 years” is fine.
 
 
@@ -273,7 +273,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] I’m assuming for simplicity that you discount your liabilities at the risk-free rate, which is not really right, but directionally this is all pretty much true even if you use some spread to the risk-free rate.
 
 
-  [4] The basic driver of this in my simplified math is the underfunding. If you have a pension with £29 of assets and £48 of liabilities, and discount rates go down, then the values of your assets and liabilities both increase; even if they increase by the same proportion (even if the assets increase by *more*, proportionally), the liabilities are bigger so your underfunding gets larger. 
+  [4] The basic driver of this in my simplified math is the underfunding. If you have a pension with £29 of assets and £48 of liabilities, and discount rates go down, then the values of your assets and liabilities both increase; even if they increase by the same proportion (even if the assets increase by *more*, proportionally), the liabilities are bigger so your underfunding gets larger.
 
 
   [5] No science to this number, and you’d probably do a bit less if your stocks are correlated with rates.
@@ -285,114 +285,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] I’m being loose here — I have been talking about US law, and this is an issue of South Korean law. Nonetheless the basic idea of “is this an investment in a business (a security) or a collectible curiosity (not a security)?” seems conceptually relevant no matter the details of the legal regime.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

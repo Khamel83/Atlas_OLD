@@ -11,16 +11,16 @@ Welcome to the 240 newly Not Boring people who have joined us since last week
 Instead of an ad, let me tell you about… Not Boring Capital [ https://substack.com/redirect/8f219cbb-0a22-49ee-939c-86ec1e71b19d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] 
 Not Boring Capital invests in hard startups and tells their stories.
 For the past couple of years, I’ve been writing about why hard startups [ https://substack.com/redirect/f493bcee-adba-4911-ace3-22b305a80a7e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] are the best place to invest and why I think tech companies are going to get much bigger [ https://substack.com/redirect/bc3e3656-6f56-40b5-86f0-53eb33a6040e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], while investing in many of those companies at Not Boring Capital. SaaS drove the past decade’s returns, but it will not drive the next decade’s. 
-Hard tech companies can scale without diluting early investors [ https://substack.com/redirect/48178f77-74a0-446c-8063-8c8ae87daa2d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to smithereens, and the markets they tap at scale are massive. I think the outcomes will be bigger, and more impactful, as a result. 
+Hard tech companies can scale without diluting early investors [ https://substack.com/redirect/48178f77-74a0-446c-8063-8c8ae87daa2d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to smithereens, and the markets they tap at scale are massive. I think the outcomes will be bigger, and more impactful, as a result.
 We’re in a great position for this shift: we write non-lead checks in the best hard startups we can find and provide differentiated value by explaining what they do, like we’ve done this year with Atomic AI [ https://substack.com/redirect/e336abc0-bb3e-4bdf-9a1c-43d2839e3d50?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Varda [ https://substack.com/redirect/02f74f73-3bdd-47ec-86af-ee63e48a53ac?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and Array Labs [ https://substack.com/redirect/47d78183-482a-4ed0-8752-33e2816ff535?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
 Techno-optimism is on the rise. The future is bright. We’ve been consistent in our conviction throughout the bear market, and it’s time to accelerate. 
 If you’re an accredited investor or family office interested in learning more about investing in Not Boring Capital, let me know here and I’ll reach out:
 Hi friends 👋, 
-Happy Wednesday! What a week. 
+Happy Wednesday! What a week.
 I don’t know if there’s a Newsletter God, but certainly if there is, that god was smiling on me. I wanted to write a piece on grand strategy in tech, and I was gifted the perfect case study. 
-Whether you just want to sound a little more sophisticated when you explain what happened at OpenAI to your family at Thanksgiving dinner or plan to build a trillion-dollar company, I’ve got you covered. 
+Whether you just want to sound a little more sophisticated when you explain what happened at OpenAI to your family at Thanksgiving dinner or plan to build a trillion-dollar company, I’ve got you covered.
 Let’s get to it.
-OpenAI & Grand Strategy 
+OpenAI & Grand Strategy
 There’s this meme that goes something like this: 
 “Men used to go to war, now they run tech companies.” 
 The meme is meant to be sarcastic, to suggest that our modern pursuits are relatively meaningless. 
@@ -40,7 +40,7 @@ What is grand strategy? 
 “The alignment of potentially unlimited aspirations with necessarily limited capabilities.”  
 That’s how Yale Military and Naval History Professor John L. Gaddis defines it in On Grand Strategy [ https://substack.com/redirect/1f4c6338-bec4-49f1-a284-630486185fc0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the 2018 book he wrote to condense the lessons from history’s great leaders and strategists into 312 pages. 
 He adds, “Alignments are necessary across time, space, and scale.” 
-The book talks a lot about war — The New York Times titled its review, When to Wage War, and How to Win — but when I read it a few weeks ago while writing Tech is Going to Get Much Bigger [ https://substack.com/redirect/bc3e3656-6f56-40b5-86f0-53eb33a6040e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], I kept thinking about how much it applies to really ambitious tech companies. 
+The book talks a lot about war — The New York Times titled its review, When to Wage War, and How to Win — but when I read it a few weeks ago while writing Tech is Going to Get Much Bigger [ https://substack.com/redirect/bc3e3656-6f56-40b5-86f0-53eb33a6040e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], I kept thinking about how much it applies to really ambitious tech companies.
 At the end of that piece, I wrote, “Take your ambition and multiply it by 100. Craft a Grand Strategy. We’ll talk about that next time.”
 Then I started writing this piece, thinking about what examples I could use to illustrate the themes from the book, things like… 
 Align aspirations and capabilities

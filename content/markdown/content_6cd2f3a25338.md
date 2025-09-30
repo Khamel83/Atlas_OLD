@@ -17,7 +17,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO plugin v20.4 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Why Have There Been No Great Worker-Owned Restaurants? - MOLD :: Designing the Future of Food</title>
 	<link rel="canonical" href="https://thisismold.com/series/restaurant-labor/why-have-there-been-no-great-worker-owned-restaurants" />
@@ -240,13 +240,13 @@ gtag('config', 'G-YW4L3XM27Z');
 
 <main>
       <article class=" post-type-post header-style-full" id="post-19182">
-    
-    
-    
-    
+
+
+
+
           <header class="article-header">
   <div class="header-featured-image">
-          
+
 <img
    src="https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-worker-owned-social-species.jpg"
    srcset="https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-worker-owned-social-species.jpg 1500w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-worker-owned-social-species-300x218.jpg 300w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-worker-owned-social-species-1024x744.jpg 1024w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-worker-owned-social-species-768x558.jpg 768w"
@@ -260,12 +260,12 @@ gtag('config', 'G-YW4L3XM27Z');
 <div class="container-fluid">
       <div class="mt-3 font-serif italic md:text-right">Artwork by Social Species for MOLD.</div>
     </div>
-  
+
   <div class="py-8 md:py-16">
     <div class="container-fluid">
       <div class="md:grid grid-cols-24">
                   <div class="font-serif leading-tight text-title col-span-4 post-primary-type">Essay</div>
-        
+
         <div class="mt-2 md:mt-0 col-start-7 col-span-full">
           <h1 class="text-headline article-headline">Why Have There Been No Great Worker-Owned Restaurants?</h1>
 
@@ -313,7 +313,7 @@ gtag('config', 'G-YW4L3XM27Z');
           <dt class="uppercase">Words By</dt>
           <dd><a href="https://thisismold.com/author/danidillon" class="hover:underline">Dani Dillon</a></dd>
         </dl>
-      
+
       <ul class="leading-tight uppercase space-y-2">
                   <li>
             <a href="https://thisismold.com/category/series/restaurant-labor" class="hover:underline">Restaurant Labor</a>
@@ -337,7 +337,7 @@ gtag('config', 'G-YW4L3XM27Z');
     </div>
   </div>
 </header>
-    
+
     <section class="article-content pb-8 md:pb-16 xl:pb-24 ">
       <div class="article-body">
                   <div class="mold-block mold-block-3-columns is-style-default">
@@ -459,11 +459,11 @@ gtag('config', 'G-YW4L3XM27Z');
 <section class="related-articles py-8 bg-white md:py-16 xl:py-24 overflow-hidden ">
           <div class="container-fluid">
             <div class="mold-block mold-block-collection-slider is-style-small">
-  
+
   <div class="swiper-container">
     <div class="flex justify-between mb-4 md:mb-8">
               <h2 class="text-subheadline">Restaurant Labor</h2>
-        
+
               <div class="flex justify-end space-x-3">
           <button class="w-6 slider-button-prev" type="button" aria-label="Previous slide">
             <svg fill="currentColor" viewBox="0 0 30 30">
@@ -480,10 +480,10 @@ gtag('config', 'G-YW4L3XM27Z');
           </div>
 
 <div class="swiper-wrapper">
-              
+
         <div class="swiper-slide">
                       <a href="https://thisismold.com/series/restaurant-labor/designing-for-disability">
-              
+
               <img
                  data-src="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE4_1500px-1.jpg"
                  data-srcset="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE4_1500px-1.jpg 1500w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE4_1500px-1-300x218.jpg 300w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE4_1500px-1-1024x744.jpg 1024w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE4_1500px-1-768x558.jpg 768w"
@@ -493,10 +493,10 @@ gtag('config', 'G-YW4L3XM27Z');
                  class="w-full swiper-lazy"
                  >
             </a>
-          
+
           <div class="mt-3 article-slide-content">
                           <div class="mt-3 text-body-italic">Profile</div>
-            
+
             <a href="https://thisismold.com/series/restaurant-labor/designing-for-disability" class="inline-block mt-2 uppercase article-title">
               Towards True Hospitality
             </a>
@@ -508,10 +508,10 @@ gtag('config', 'G-YW4L3XM27Z');
               </div>
                       </div>
         </div>
-              
+
         <div class="swiper-slide">
                       <a href="https://thisismold.com/series/restaurant-labor/hags-queer-restaurant-labor">
-              
+
               <img
                  data-src="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1.jpg"
                  data-srcset="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1.jpg 1500w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1-300x218.jpg 300w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1-1024x745.jpg 1024w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1-768x559.jpg 768w"
@@ -521,25 +521,25 @@ gtag('config', 'G-YW4L3XM27Z');
                  class="w-full swiper-lazy"
                  >
             </a>
-          
+
           <div class="mt-3 article-slide-content">
                           <div class="mt-3 text-body-italic">Interview</div>
-            
+
             <a href="https://thisismold.com/series/restaurant-labor/hags-queer-restaurant-labor" class="inline-block mt-2 uppercase article-title">
               Manhattan&#8217;s Most Anticipated Queer Potluck
             </a>
 
 <div>
                 <a href="https://thisismold.com/series/restaurant-labor/hags-queer-restaurant-labor" class="inline-block leading-none uppercase article-subtitle">
-                  What Telly Justice and Camille Lindsley Have Yet to Tell You About HAGS 
+                  What Telly Justice and Camille Lindsley Have Yet to Tell You About HAGS
                 </a>
               </div>
                       </div>
         </div>
-              
+
         <div class="swiper-slide">
                       <a href="https://thisismold.com/series/restaurant-labor/sustainability-in-restaurants">
-              
+
               <img
                  data-src="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px.jpg"
                  data-srcset="https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px.jpg 1500w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-300x214.jpg 300w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-1024x732.jpg 1024w, https://thisismold.com/wp-content/uploads/2022/04/MOLD_SS_ARTICLE3_1500px-768x549.jpg 768w"
@@ -549,10 +549,10 @@ gtag('config', 'G-YW4L3XM27Z');
                  class="w-full swiper-lazy"
                  >
             </a>
-          
+
           <div class="mt-3 article-slide-content">
                           <div class="mt-3 text-body-italic">Essay</div>
-            
+
             <a href="https://thisismold.com/series/restaurant-labor/sustainability-in-restaurants" class="inline-block mt-2 uppercase article-title">
               Carry On: Reimagining Sustainability
             </a>
@@ -564,10 +564,10 @@ gtag('config', 'G-YW4L3XM27Z');
               </div>
                       </div>
         </div>
-              
+
         <div class="swiper-slide">
                       <a href="https://thisismold.com/series/restaurant-labor/line-cooks-are-designers">
-              
+
               <img
                  data-src="https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-social-species-linecooks.jpg"
                  data-srcset="https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-social-species-linecooks.jpg 1500w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-social-species-linecooks-300x218.jpg 300w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-social-species-linecooks-1024x745.jpg 1024w, https://thisismold.com/wp-content/uploads/2022/04/restaurant-labor-social-species-linecooks-768x559.jpg 768w"
@@ -577,19 +577,19 @@ gtag('config', 'G-YW4L3XM27Z');
                  class="w-full swiper-lazy"
                  >
             </a>
-          
+
           <div class="mt-3 article-slide-content">
-            
+
             <a href="https://thisismold.com/series/restaurant-labor/line-cooks-are-designers" class="inline-block mt-2 uppercase article-title">
               Line Cooks Are Designers
             </a>
 
 </div>
         </div>
-              
+
         <div class="swiper-slide">
                       <a href="https://thisismold.com/series/restaurant-labor/work-in-progress">
-              
+
               <img
                  data-src="https://thisismold.com/wp-content/uploads/2022/04/MOLD-Magazine-Work-In-Progress-Editors-Note-2022.gif"
                  data-srcset=""
@@ -599,10 +599,10 @@ gtag('config', 'G-YW4L3XM27Z');
                  class="w-full swiper-lazy"
                  >
             </a>
-          
+
           <div class="mt-3 article-slide-content">
                           <div class="mt-3 text-body-italic">Editor&#039;s Note</div>
-            
+
             <a href="https://thisismold.com/series/restaurant-labor/work-in-progress" class="inline-block mt-2 uppercase article-title">
               Work in Progress
             </a>
@@ -656,7 +656,7 @@ gtag('config', 'G-YW4L3XM27Z');
 		display: block;
 	}
 	.mc_address_label ~ select {
-		width: 100%;		
+		width: 100%;
 	}
 	.mc_list li {
 		list-style: none;
@@ -694,17 +694,17 @@ gtag('config', 'G-YW4L3XM27Z');
 		padding-left: 4px;
 	}
 	</style>
-	
+
 <div id="mc_signup">
 	<form method="post" action="#mc_signup" id="mc_signup_form">
 		<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
 		<input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
-		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="8c1fe2a689" />		
+		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="8c1fe2a689" />
 			<div id="mc_subheader">
 			Signup for our bi-weekly newsletter for food design news, events and stories direct in your inbox.		</div><!-- /mc_subheader -->
-			
+
 	<div class="mc_form_inside">
-		
+
 		<div class="updated" id="mc_message">
 					</div><!-- /mc_message -->
 
@@ -715,13 +715,13 @@ gtag('config', 'G-YW4L3XM27Z');
 		<div class="mc_signup_submit">
 			<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button" />
 		</div><!-- /mc_signup_submit -->
-	
-	
-				
+
+
+
 	</div><!-- /mc_form_inside -->
 	</form><!-- /mc_signup_form -->
 </div><!-- /mc_signup_container -->
-	
+
   </div>
 
 <div class="mt-16 text-right opacity-50">
@@ -740,7 +740,7 @@ gtag('config', 'G-YW4L3XM27Z');
 		} )( document.body );
 		</script>
 		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>
-  
+
   <script src="https://thisismold.com/wp-content/themes/MOLD2021/static/dist/app.js?id=974bedb730152e0455e4d9d995c26dec"></script>
 </body>
 </html>

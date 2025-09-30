@@ -7,7 +7,7 @@
 
 # UltraDNS Client Redirection Service
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![UltraDNS Client Redirection Service]()
 

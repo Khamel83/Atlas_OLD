@@ -35,7 +35,7 @@ class TestConvertHtmlToMarkdown:
         """Test basic HTML to Markdown conversion."""
         html = "<h1>Title</h1><p>Content</p>"
         result = convert_html_to_markdown(html)
-        
+
         assert "# Title" in result
         assert "Content" in result
 
@@ -57,7 +57,7 @@ class TestConvertHtmlToMarkdown:
         html = '<a href="/page">Link</a>'
         base_url = "https://example.com"
         result = convert_html_to_markdown(html, base_url)
-        
+
         assert "https://example.com/page" in result or "[Link](/page)" in result
 
     @pytest.mark.unit
@@ -66,7 +66,7 @@ class TestConvertHtmlToMarkdown:
         """Test fallback when conversion fails."""
         mock_md.side_effect = Exception("Conversion failed")
         html = "<h1>Test</h1>"
-        
+
         result = convert_html_to_markdown(html)
         assert result == html  # Should return original content
 
@@ -79,7 +79,7 @@ class TestEnsureDirectory:
         """Test creating a new directory."""
         new_dir = temp_dir / "new_directory"
         assert not new_dir.exists()
-        
+
         ensure_directory(str(new_dir))
         assert new_dir.exists()
         assert new_dir.is_dir()
@@ -95,7 +95,7 @@ class TestEnsureDirectory:
         """Test creating nested directories."""
         nested_path = temp_dir / "level1" / "level2" / "level3"
         ensure_directory(str(nested_path))
-        
+
         assert nested_path.exists()
         assert nested_path.is_dir()
 
@@ -109,7 +109,7 @@ class TestEnsureDirectory:
     def test_permission_error(self, mock_makedirs):
         """Test handling of permission errors."""
         mock_makedirs.side_effect = OSError("Permission denied")
-        
+
         with pytest.raises(OSError):
             ensure_directory("/root/test")
 
@@ -122,10 +122,10 @@ class TestSetupLogging:
         """Test basic logging setup."""
         log_file = temp_dir / "test.log"
         setup_logging(str(log_file))
-        
+
         # Test that logging works
         logging.info("Test message")
-        
+
         assert log_file.exists()
         content = log_file.read_text()
         assert "Test message" in content
@@ -135,7 +135,7 @@ class TestSetupLogging:
         """Test that logging setup creates parent directories."""
         log_file = temp_dir / "logs" / "app.log"
         setup_logging(str(log_file))
-        
+
         assert log_file.parent.exists()
 
 
@@ -242,11 +242,11 @@ class TestGenerateMarkdownSummary:
     def test_basic_summary(self):
         """Test basic summary generation."""
         result = generate_markdown_summary(
-            "Test Title", 
-            "https://example.com", 
+            "Test Title",
+            "https://example.com",
             "2024-01-01"
         )
-        
+
         assert "title: Test Title" in result
         assert "source: https://example.com" in result
         assert "date: 2024-01-01" in result
@@ -256,12 +256,12 @@ class TestGenerateMarkdownSummary:
     def test_with_tags(self):
         """Test summary with tags."""
         result = generate_markdown_summary(
-            "Title", 
-            "https://example.com", 
+            "Title",
+            "https://example.com",
             "2024-01-01",
             tags=["tech", "ai"]
         )
-        
+
         assert "'tech'" in result
         assert "'ai'" in result
 
@@ -275,7 +275,7 @@ class TestGenerateMarkdownSummary:
             "2024-01-01",
             content=content
         )
-        
+
         assert content in result
         assert result.endswith(content + "\n")
 
@@ -290,7 +290,7 @@ class TestGenerateMarkdownSummary:
             notes=["note1", "note2"],
             content="Content here"
         )
-        
+
         assert "Full Test" in result
         assert "tag1" in result
         assert "note1" in result
@@ -305,7 +305,7 @@ class TestLogFunctions:
         """Test basic log message function."""
         log_file = temp_dir / "test.log"
         log_message(str(log_file), "INFO", "Test message")
-        
+
         assert log_file.exists()
         content = log_file.read_text()
         assert "INFO: Test message" in content
@@ -315,7 +315,7 @@ class TestLogFunctions:
         """Test log_info convenience function."""
         log_file = temp_dir / "test.log"
         log_info(str(log_file), "Info message")
-        
+
         content = log_file.read_text()
         assert "INFO: Info message" in content
 
@@ -324,7 +324,7 @@ class TestLogFunctions:
         """Test log_error convenience function."""
         log_file = temp_dir / "test.log"
         log_error(str(log_file), "Error message")
-        
+
         content = log_file.read_text()
         assert "ERROR: Error message" in content
 
@@ -333,7 +333,7 @@ class TestLogFunctions:
         """Test logging with empty path."""
         # Should not raise errors
         log_message("", "INFO", "message")
-        log_info("", "message")  
+        log_info("", "message")
         log_error("", "message")
 
 
@@ -345,9 +345,9 @@ class TestCalculateHash:
         """Test basic hash calculation."""
         test_file = temp_dir / "test.txt"
         test_file.write_text("Hello, World!")
-        
+
         hash_value = calculate_hash(str(test_file))
-        
+
         # SHA256 hash should be 64 characters
         assert len(hash_value) == 64
         assert isinstance(hash_value, str)
@@ -358,13 +358,13 @@ class TestCalculateHash:
         test_file1 = temp_dir / "test1.txt"
         test_file2 = temp_dir / "test2.txt"
         content = "Identical content"
-        
+
         test_file1.write_text(content)
         test_file2.write_text(content)
-        
+
         hash1 = calculate_hash(str(test_file1))
         hash2 = calculate_hash(str(test_file2))
-        
+
         assert hash1 == hash2
 
     @pytest.mark.unit
@@ -372,13 +372,13 @@ class TestCalculateHash:
         """Test that different content produces different hashes."""
         test_file1 = temp_dir / "test1.txt"
         test_file2 = temp_dir / "test2.txt"
-        
+
         test_file1.write_text("Content 1")
         test_file2.write_text("Content 2")
-        
+
         hash1 = calculate_hash(str(test_file1))
         hash2 = calculate_hash(str(test_file2))
-        
+
         assert hash1 != hash2
 
     @pytest.mark.unit
@@ -388,7 +388,7 @@ class TestCalculateHash:
         # Create a file larger than the chunk size (4096 bytes)
         content = "A" * 10000
         test_file.write_text(content)
-        
+
         hash_value = calculate_hash(str(test_file))
         assert len(hash_value) == 64
 
@@ -403,7 +403,7 @@ class TestCalculateHash:
         """Test hashing empty file."""
         test_file = temp_dir / "empty.txt"
         test_file.write_text("")
-        
+
         hash_value = calculate_hash(str(test_file))
         assert len(hash_value) == 64
         # Empty file should have consistent hash
@@ -417,14 +417,14 @@ class TestPerformance:
     def test_large_html_conversion_performance(self):
         """Test HTML conversion performance with large content."""
         import time
-        
+
         # Generate large HTML content
         html = "<p>" + "Large content " * 1000 + "</p>"
-        
+
         start_time = time.time()
         result = convert_html_to_markdown(html)
         end_time = time.time()
-        
+
         # Should complete within reasonable time (adjust as needed)
         assert end_time - start_time < 5.0
         assert len(result) > 0
@@ -432,14 +432,14 @@ class TestPerformance:
     def test_multiple_directory_creation_performance(self, temp_dir):
         """Test performance of creating many directories."""
         import time
-        
+
         start_time = time.time()
-        
+
         for i in range(100):
             dir_path = temp_dir / f"dir_{i}"
             ensure_directory(str(dir_path))
-        
+
         end_time = time.time()
-        
+
         # Should complete quickly
         assert end_time - start_time < 2.0

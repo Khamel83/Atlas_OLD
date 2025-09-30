@@ -13,7 +13,7 @@ from helpers.bulletproof_process_manager import get_manager, create_managed_proc
 
 class AtlasTaskManager:
     """Enhanced task manager that works with existing Agent OS structure"""
-    
+
     def __init__(self, base_path: str = "/home/ubuntu/dev/atlas"):
         self.base_path = Path(base_path)
         self.task_files = [
@@ -22,11 +22,11 @@ class AtlasTaskManager:
             self.base_path / "unified_todos.json"
         ]
         self.agent_os_specs = self.base_path / ".agent-os" / "specs"
-        
+
     def load_all_tasks(self) -> Dict[str, Any]:
         """Load tasks from all existing JSON files"""
         all_tasks = {}
-        
+
         for task_file in self.task_files:
             if task_file.exists():
                 try:
@@ -36,31 +36,31 @@ class AtlasTaskManager:
                         print(f"Loaded {len(tasks)} tasks from {task_file.name}")
                 except Exception as e:
                     print(f"Error loading {task_file}: {e}")
-        
+
         return all_tasks
-    
+
     def enhance_task_for_ai_agent(self, task_id: str, task_data: Dict[str, Any]) -> Dict[str, Any]:
         """Enhance existing task with AI agent context"""
         enhanced_task = task_data.copy()
-        
+
         # Add AI agent context if missing
         if "ai_context" not in enhanced_task:
             enhanced_task["ai_context"] = self._generate_ai_context(task_data)
-        
+
         # Add validation scripts if missing
         if "validation_scripts" not in enhanced_task:
             enhanced_task["validation_scripts"] = self._generate_validation_scripts(task_data)
-        
+
         # Add recovery instructions if missing
         if "recovery_instructions" not in enhanced_task:
             enhanced_task["recovery_instructions"] = self._generate_recovery_instructions(task_data)
-        
+
         return enhanced_task
-    
+
     def _generate_ai_context(self, task_data: Dict[str, Any]) -> Dict[str, Any]:
         """Generate AI context for a task"""
         category = task_data.get("category", "general")
-        
+
         context = {
             "required_files": self._get_required_files(task_data),
             "system_overview": "Atlas is a local-first content ingestion and cognitive amplification platform",
@@ -79,39 +79,39 @@ class AtlasTaskManager:
                 "Forgetting to update configuration files"
             ]
         }
-        
+
         return context
-    
+
     def _get_required_files(self, task_data: Dict[str, Any]) -> List[str]:
         """Determine required files based on task content"""
         content = task_data.get("content", "").lower()
         files = []
-        
+
         # Core Atlas files always needed
         files.extend([
             "helpers/config.py",
             "PROJECT_ROADMAP.md",
             ".agent-os/product/mission-lite.md"
         ])
-        
+
         # Add specific files based on task content
         if "test" in content:
             files.extend([
                 "tests/conftest.py",
                 "pytest.ini"
             ])
-        
+
         if "metadata" in content:
             files.append("helpers/metadata_manager.py")
-        
+
         if "path" in content:
             files.append("helpers/path_manager.py")
-        
+
         if "web" in content or "api" in content:
             files.append("web/app.py")
-        
+
         return files
-    
+
     def _get_architectural_context(self, category: str) -> str:
         """Get architectural context based on task category"""
         contexts = {
@@ -121,21 +121,21 @@ class AtlasTaskManager:
             "documentation": "Knowledge capture and user guidance",
             "performance": "System optimization and resource efficiency"
         }
-        
+
         return contexts.get(category, "General system component")
-    
+
     def _generate_validation_scripts(self, task_data: Dict[str, Any]) -> List[Dict[str, str]]:
         """Generate validation scripts for task completion"""
         scripts = []
         content = task_data.get("content", "").lower()
-        
+
         # Always run basic validation
         scripts.append({
             "name": "basic_validation",
             "command": "source venv/bin/activate && python -m pytest --tb=short",
             "description": "Run basic test suite to ensure no regressions"
         })
-        
+
         # Add specific validations based on task type
         if "test" in content:
             scripts.append({
@@ -143,16 +143,16 @@ class AtlasTaskManager:
                 "command": "source venv/bin/activate && python -m pytest --cov=helpers --cov-report=term-missing",
                 "description": "Verify test coverage meets 90% requirement"
             })
-        
+
         if "lint" in content or "format" in content:
             scripts.append({
                 "name": "code_quality",
                 "command": "source venv/bin/activate && python -m ruff check .",
                 "description": "Check code quality and formatting"
             })
-        
+
         return scripts
-    
+
     def _generate_recovery_instructions(self, task_data: Dict[str, Any]) -> Dict[str, Any]:
         """Generate recovery instructions for common failures"""
         return {
@@ -180,17 +180,17 @@ class AtlasTaskManager:
                 "External dependencies unavailable"
             ]
         }
-    
+
     def create_agent_instruction_package(self, task_id: str) -> Dict[str, Any]:
         """Create complete instruction package for AI agent"""
         all_tasks = self.load_all_tasks()
-        
+
         if task_id not in all_tasks:
             raise ValueError(f"Task {task_id} not found")
-        
+
         task_data = all_tasks[task_id]
         enhanced_task = self.enhance_task_for_ai_agent(task_id, task_data)
-        
+
         # Create complete instruction package
         package = {
             "task_id": task_id,
@@ -201,9 +201,9 @@ class AtlasTaskManager:
             "validation_scripts": enhanced_task["validation_scripts"],
             "recovery_instructions": enhanced_task["recovery_instructions"]
         }
-        
+
         return package
-    
+
     def _create_execution_instructions(self, task_data: Dict[str, Any]) -> List[str]:
         """Create step-by-step execution instructions"""
         return [
@@ -216,7 +216,7 @@ class AtlasTaskManager:
             "7. Update documentation if needed",
             "8. Commit changes with descriptive message"
         ]
-    
+
     def _create_quality_gates(self, task_data: Dict[str, Any]) -> List[Dict[str, str]]:
         """Create quality gates that must pass before completion"""
         return [
@@ -239,53 +239,53 @@ class AtlasTaskManager:
                 "required": True
             }
         ]
-    
+
     def get_next_available_task(self, agent_capabilities: List[str] = None) -> Optional[str]:
         """Get next task ready for execution"""
         all_tasks = self.load_all_tasks()
-        
+
         # Find pending tasks with no blocking dependencies
         for task_id, task_data in all_tasks.items():
             if task_data.get("status") == "pending":
                 dependencies = task_data.get("dependencies", [])
-                
+
                 # Check if all dependencies are completed
                 deps_completed = all(
                     all_tasks.get(dep_id, {}).get("status") == "completed"
                     for dep_id in dependencies
                 )
-                
+
                 if deps_completed:
                     return task_id
-        
+
         return None
 
 def demo_enhanced_task_manager():
     """Demonstrate the enhanced task manager"""
     manager = AtlasTaskManager()
-    
+
     print("🤖 Atlas Enhanced Task Manager Demo")
     print("=" * 40)
-    
+
     # Load all tasks
     all_tasks = manager.load_all_tasks()
     print(f"📊 Total tasks loaded: {len(all_tasks)}")
-    
+
     # Show status breakdown
     statuses = {}
     for task in all_tasks.values():
         status = task.get("status", "unknown")
         statuses[status] = statuses.get(status, 0) + 1
-    
+
     print("\n📈 Task Status Breakdown:")
     for status, count in statuses.items():
         print(f"   {status}: {count}")
-    
+
     # Get next available task
     next_task = manager.get_next_available_task()
     if next_task:
         print(f"\n🎯 Next available task: {next_task}")
-        
+
         # Create instruction package
         package = manager.create_agent_instruction_package(next_task)
         print(f"📦 Instruction package created with {len(package['context_files'])} context files")

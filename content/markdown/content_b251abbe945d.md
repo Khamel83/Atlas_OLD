@@ -6,11 +6,11 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"> <head>
-        
+
 <meta property="og:title" content="Goodbye Gatekeepers (Stratechery Weekly Article 2017-10-16)">
 <meta property="fb:page_id" content="43929265776">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="referrer" content="origin">        
+<meta name="referrer" content="origin">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -23,7 +23,7 @@
       }
     </style>
     <![endif]-->
-    
+
   <style type="text/css">
 		body{
 			-webkit-text-size-adjust:100% !important;
@@ -220,7 +220,7 @@
 			height:20px !important;
 		}
 
-}</style>        
+}</style>
                 <style type="text/css">
             /* Facebook/Google+ Modals */
             #social-proxy { background:#fff; -webkit-box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); padding-bottom:35px; z-index:1000; }
@@ -228,7 +228,7 @@
             #social-proxy_close:hover { background-position:0 -240px; }
             body { padding-bottom:50px !important; }
         </style> </head>
-    
+
     <body style="margin: 0px;padding: 0px;-webkit-text-size-adjust: 100% !important;-ms-text-size-adjust: 100% !important;-webkit-font-smoothing: antialiased !important;">
     <table style="width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" align="center" cellpadding="0" cellspacing="0" border="0">
       <tr>
@@ -936,8 +936,8 @@
                                                         </tr>
                                                       </tbody>
                                                     </table>
-                                                    
-                                                    
+
+
                                                   </td>
                                                   <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
                                                 </tr>
@@ -1005,14 +1005,14 @@
                                         </tr>
                                       </tbody>
                                     </table>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
+
+
+
+
+
+
+
+
                                   </td>
                                 </tr>
                               </tbody>
@@ -1092,7 +1092,7 @@
           </tr>
           <!--Social Media Details End Here-->
           <!--Text Goes Here Start Here-->
-          
+
         <!--Text Goes Here End Here-->
         <tr>
           <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
@@ -1160,5 +1160,5 @@
           gtag('js', new Date());
           gtag('set', {'hostname': '.campaign-archive.com'});
           gtag('config', 'UA-39065009-1');
-        </script></body>    
+        </script></body>
 </html>

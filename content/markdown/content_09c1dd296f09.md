@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="How America uses its land" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-52785 single-format-standard wp-theme-fd-modern-6-0 elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,73 +436,73 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-post" class="archive-post eleven columns">
 
 <div class="nine columns offset-by-two alpha">
-		
-                        
-        
+
+
+
 		        <h1>
                 How America uses its land                </h1>
-		
+
     </div>
     <div class="clr"></div>
-    
+
     <div class="byinfo two columns alpha">
-                        
+
         <a href="https://flowingdata.com/2018/08/01/how-america-uses-its-land/">August 1, 2018</a>
-        
+
                 <div style="margin-top:1.5rem">
             <h3 class="toplevel">Topic</h3>
     		<strong><a href="https://flowingdata.com/category/visualization/mapping/" rel="category tag">Maps</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/bloomberg/" rel="tag">Bloomberg</a>, <a href="https://flowingdata.com/tag/land/" rel="tag">land</a>        </div>
-                
-        
+
+
             </div>
-    
+
     <div class="nine columns omega">
-        
-                
+
+
         <div class="archive-featured-image">
                         <img fetchpriority="high" width="750" height="496" src="https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-750x496.png" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-750x496.png 750w, https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-210x139.png 210w, https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-768x508.png 768w, https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-1090x721.png 1090w, https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land.png 1490w" sizes="(max-width: 750px) 100vw, 750px" data-attachment-id="52786" data-permalink="https://flowingdata.com/2018/08/01/how-america-uses-its-land/how-america-uses-its-land/" data-orig-file="https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land.png" data-orig-size="1490,986" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="How America uses its land" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-750x496.png" data-large-file="https://flowingdata.com/wp-content/uploads/2018/07/How-America-uses-its-land-1090x721.png" />                    </div>
                 <!-- <div class="clr"></div> -->
-        
-        
+
+
         <div class="entry">
-                                    
+
                 <p>Dave Merrill and Lauren Leatherby for Bloomberg <a href="https://www.bloomberg.com/graphics/2018-us-land-use/">visualized land use for the conterminous United States using a pixel-like grid map</a>:</p>
 <blockquote><p>The 48 contiguous states alone are a 1.9 billion-acre jigsaw puzzle of cities, farms, forests and pastures that Americans use to feed themselves, power their economy and extract value for business and pleasure.</p>
 <p>Using surveys, satellite images and categorizations from various government agencies, the U.S. Department of Agriculture divides the U.S. into six major types of land. The data can’t be pinpointed to a city block—each square on the map represents 250,000 acres of land. But piecing the data together state-by-state can give a general sense of how U.S. land is used.</p></blockquote>
 <p>The above map is the full aggregate, but be sure to click through to see the comparisons across categories. Using a scrollytelling format, the graphics are a hybrid of grid maps and square pie charts. States serve as a point of reference. They&#8217;re the banana for scale. I like it.</p>
-                
-                
-                                        
+
+
+
             <div class="clr"></div>
         </div><!-- @end .entry -->
-        
-        
+
+
                 <div style="border-top:1px solid #e8e8e8;padding-top:1.5rem">
     		<!-- Begin Mailchimp Signup Form -->
             <h3 class="toplevel" style="margin-bottom:0">FlowingData Delivered to Your Inbox</h3>
     		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     		<style type="text/css">
     			#mc_embed_signup{
-    				background:#fff; clear:left; 
+    				background:#fff; clear:left;
     				font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
-    				font-size: .9rem; 
+    				font-size: .9rem;
     			}
     			#mc_embed_signup form {
     				padding-left: 0;
     			}
-    			#mc_embed_signup input.email { 
-    				font-size: 1rem; 
-    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important; 
+    			#mc_embed_signup input.email {
+    				font-size: 1rem;
+    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important;
     			}
     			#mc_embed_signup .input-group label { vertical-align: middle; }
     			#mc_embed_signup .input-group ul { padding: 0 !important; }
@@ -533,13 +533,13 @@ img.wp-smiley, img.emoji {
     		</form>
     		</div>
     		<!--End mc_embed_signup-->
-            
+
             <div class="clr"></div>
         </div><!-- @end newsletter signup -->
-                
-		
+
+
                 <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -565,8 +565,8 @@ img.wp-smiley, img.emoji {
 
 </div>
     <div class="clr"></div>
-    
-    <div class="nine columns offset-by-two alpha">    
+
+    <div class="nine columns offset-by-two alpha">
     <span id="comments"></span>
 
 </div>
@@ -581,15 +581,15 @@ img.wp-smiley, img.emoji {
                      <a href="https://flowingdata.com/membership/">
                 <p>Support an independent FlowingData, and get extra visualization goodness.</p>
                 <p><small>Become a member &rarr;</small></p>
-                        
+
         </a>
-    </div><!-- @end membership-sidebar --> 
-         
-    
-	
-    	
-    
-    
+    </div><!-- @end membership-sidebar -->
+
+
+
+
+
+
     <div id="book-sidebar" class="sec">
         <h3 class="toplevel" style="margin-bottom:1em">Second Edition</h3>
         <a href="https://book.flowingdata.com/">
@@ -602,18 +602,18 @@ img.wp-smiley, img.emoji {
         <div class="clr"></div>
         <br />
     </div><!-- @end book-sidebar -->
-    
-    
-	
-    
-        
-    
-    
-    
-    
-    
-	
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!-- @end #sidebar -->
 
 <div class="clr"></div>

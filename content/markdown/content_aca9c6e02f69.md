@@ -36,15 +36,15 @@ f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertB
       <meta name="generator" content="Metro Publisher (www.metropublisher.com)" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta itemprop="name" id="publisher-name" content="TAP : The American Prospect" />
-      
-        
-        
-      
+
+
+
+
       <meta name="description" content="A Muslim American lawyer under fire"/>
       <meta name="keywords" content="Abby Rapoport,Abby Rapoport,Politics,Gender &amp; Sexuality,Race &amp; Ethnicity,Conservatism"/>
       <link rel="manifest" href="/manifest.json">
-      
-      
+
+
       <link rel="canonical" href="https://prospect.org/power/sharia-scare-tennessee/"/>
 
 <link href="https://prospect.org/api/rss/content.rss" rel="alternate" type="application/rss+xml" title="TAP : The American Prospect" />
@@ -52,7 +52,7 @@ f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertB
 
 <link rel="stylesheet" type="text/css" href="https://d3t13abgv0q40.cloudfront.net/mp-public/css/theme-sunny.9ab273f6b1c9ad96c6dcec8ce3a2fc5d.css"/>
       <link rel="stylesheet" type="text/css" href="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/screen.css"/>
-      
+
       <script src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/mp.12e0ba2a5495e39c61a24db3b5dc4d7c.js" defer></script>
       <script src="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/option.js"></script>
 
@@ -107,7 +107,7 @@ window.addEventListener("resize", function(){
 
 <meta property="og:description" content="A Muslim American lawyer under fire"/><meta property="og:url" content="https://prospect.org/api/content/67cf2091-3b91-5d50-924a-27b7440313c3/"/><meta property="og:title" content="Sharia Scare in Tennessee"/><meta property="og:type" content="article"/><meta property="og:image" content="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/TAP_Social-Default-icon-f15a22-200px.png"/><meta property="og:site_name" content="The American Prospect"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@theprospect"/><meta name="twitter:creator" content="@theprospect"/><meta name="twitter:image" content="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/TAP_Social-Default-icon-f15a22-200px.png"/>
       <meta name="author" content="Abby Rapoport"/><meta property="article:tag" content="Abby Rapoport"/><meta property="article:tag" content="Politics"/><meta property="article:tag" content="Gender &amp; Sexuality"/><meta property="article:tag" content="Race &amp; Ethnicity"/><meta property="article:tag" content="Conservatism"/><meta property="article:author" content="https://prospect.org/topics/abby-rapoport/"/><meta property="article:published_time" content="2012-07-19T19:17:35"/>
-      
+
       <script type="application/ld+json">
 {"@graph": [{"name": "Sharia Scare in Tennessee", "datePublished": "2012-07-19T19:17:35", "@type": "Article", "keywords": ["Abby Rapoport", "Politics", "Gender & Sexuality", "Race & Ethnicity", "Conservatism"], "mainEntityOfPage": "https://prospect.org/power/sharia-scare-tennessee/", "creator": "Abby Rapoport", "@id": "https://prospect.org/power/sharia-scare-tennessee/", "headline": "Sharia Scare in Tennessee", "author": {"@type": "Thing", "url": "https://prospect.org/topics/abby-rapoport/", "name": "Abby Rapoport"}, "dateModified": "2012-07-20T17:51:44", "url": "https://prospect.org/power/sharia-scare-tennessee/", "articleSection": "Money, Politics and Power", "publisher": {"sameAs": "https://prospect.org/", "@type": "Organization", "name": "The American Prospect", "logo": {"@type": "ImageObject", "url": "https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/TAP_web-logo_black-orange-politics-cropped.svg"}}}], "@context": "http://schema.org"}
 </script>
@@ -127,7 +127,7 @@ window.addEventListener("resize", function(){
 
 <!-- ShareThis End -->
 
-   
+
 <!-- Text to speech integration Start -->
 <script type="text/javascript">
   const putTTs = () => {
@@ -151,12 +151,12 @@ window.addEventListener("resize", function(){
   }
 </script>
 <!-- Text to speech integration End -->
-  
+
 <style>
   #IL_INSEARCH {z-index: 10000!important;}
 </style>
-    
-<!-- Raptive Start --> 
+
+<!-- Raptive Start -->
   <script>
 (function(w, d) {
 w.adthrive = w.adthrive || {};
@@ -187,7 +187,7 @@ n.parentNode.insertBefore(s, n);
 <meta id="worstRating" itemprop="worstRating" content="0" />
       <meta id="bestRating" itemprop="bestRating" content="5" />
       <meta name="theme-color" content="#0E0C0C"/>
-      
+
     </head>
   <body class="mp-type-article mp-sidebar">
       <!-- Google Tag Manager (noscript) -->
@@ -198,8 +198,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="body">
     <a class="skip-to-main" href="#maincontent">Skip to main content</a>
     <broadstreet-zone zone-id="wallpaper_left"></broadstreet-zone>
-    
-      
+
+
         <div id="section_power">
           <div id="subsection_website">
       <div id="page">
@@ -212,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
 </div>
-          
+
 <svg style="display: none;" role="presentation">
   <style>.icon{fill:currentColor}</style>
   <symbol id="nav-icon" viewBox="0 0 170 170">
@@ -221,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </symbol>
 </svg>
 <div id="logo">
-  
+
   <div id="mp-search-bar">
     <form action="https://prospect.org/api/search.html" role="search">
       <input type="text" name="q" aria-label="Enter Search Words" title="Enter Search Words" placeholder="Search..." />
@@ -231,13 +231,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="logo">
   <!--div class="header_links" tal:condition="python: header_links or socialmedia_urls"-->
     <div class="header_links">
-        
+
             <a href="https://prospect.org/newsletter-signup">Newsletter Signup</a>
-        
+
             <a href="https://secure.actblue.com/donate/americanprospect" target="_blank" rel="noopener">Donate</a>
-        
+
     </div>
-    
+
   <a rel="home" href="https://prospect.org" title="The American Prospect"><img src="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/TAP_web-logo_black-orange-politics-cropped.svg" class="standard" alt="The American Prospect" title="The American Prospect" />
     <meta id="logo-url" itemprop="url" content="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/TAP_web-logo_black-orange-politics-cropped.svg" />
     <meta id="logo-width" itemprop="width" />
@@ -251,39 +251,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav id="topnav">
   <a href="#" aria-label="Open Navigation" class="pull"><svg title="Home"><use xlink:href="#nav-icon" /></svg></a>
-  
+
 <ul class="mainnav">
   <li class="menu_section_start menu_section_subscribe">
 	<a href="https://simplecirc.com/subscribe/the-american-prospect" target="_blank" aria-label="Link opens in new window (Manage A Print Subscription)">Manage A Print Subscription</a>
-    
+
   </li>
   <li class="menu_section_recurring-donations">
 	<a href="https://prospect.org/recurring-donations">Manage a Recurring Donation</a>
-    
+
   </li>
   <li class="menu_section_dnc-2024">
 	<a href="https://prospect.org/dnc-2024">DNC 2024</a>
-    
+
   </li>
   <li class="menu_section_coldcivilwar">
 	<a href="https://prospect.org/coldcivilwar">The Cold Civil War</a>
-    
+
   </li>
   <li class="menu_section_pricing">
 	<a href="https://prospect.org/pricing">How Pricing Really Works</a>
-    
+
   </li>
   <li class="selected menu_section_power">
 	<a href="https://prospect.org/power">Money, Politics and Power</a>
-    
+
   </li>
   <li class="menu_section_models">
 	<a href="https://prospect.org/models">Economic Models</a>
-    
+
   </li>
   <li class="menu_section_economy">
 	<a href="https://prospect.org/economy">Economic Policy</a>
-    
+
   </li>
   <li class="menu_section_labor">
 	<a href="https://prospect.org/labor">Working in America<span class="nav_handle"></span></a>
@@ -311,27 +311,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </li>
   <li class="menu_section_civil-rights">
 	<a href="https://prospect.org/civil-rights">Civil Rights in America</a>
-    
+
   </li>
   <li class="menu_section_justice">
 	<a href="https://prospect.org/justice">Law and Justice</a>
-    
+
   </li>
   <li class="menu_section_health">
 	<a href="https://prospect.org/health">Health and Social Policy</a>
-    
+
   </li>
   <li class="menu_section_world">
 	<a href="https://prospect.org/world">America and the World</a>
-    
+
   </li>
   <li class="menu_section_podcasts">
 	<a href="https://prospect.org/podcasts">Podcasts</a>
-    
+
   </li>
   <li class="menu_section_end menu_section_archive">
 	<a href="https://prospect.org/archive">The Prospect Archive</a>
-    
+
   </li>
 </ul>
 
@@ -347,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <article id="main">
 
 <header>
-  
+
   <div id="title">
             <link itemprop="mainEntityOfPage" href="https://prospect.org/power/sharia-scare-tennessee/" />
             <meta itemprop="name" content="Sharia Scare in Tennessee" />
@@ -357,16 +357,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   itemtype="http://schema.org/Organization"
                   itemref="publisher-name publisher-logo" />
             <meta itemprop="dateModified" content="2012-07-20T17:51:44" />
-            
+
             <h1 itemprop="headline">Sharia Scare in Tennessee</h1>
             <p  class="subtitle"><span>A Muslim American lawyer under fire</span></p>
-            
+
           </div>
-          
+
           <div id="pageinfos" class="pageinfos">
-    <p class="author">by 
+    <p class="author">by
     <a href="https://prospect.org/topics/abby-rapoport/" rel="author">Abby Rapoport</a> </p>
-    
+
     <time itemprop="datePublished" datetime="2012-07-19T19:17:35">
     <p class="date">July 19, 2012</p>
     <p class="time">7:17 PM</p></time>
@@ -375,7 +375,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 <aside class="tools">
-    
+
     <div class="share">
       <!-- ShareThis BEGIN -->
 <div class="sharethis-inline-share-buttons"></div>
@@ -413,8 +413,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </aside>
 
 <aside id="bottompageinfos" class="pageinfos">
-    
-    
+
+
     	<div class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
     	<a href="https://prospect.org/topics/abby-rapoport/"><img sizes="auto" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="mp-lazyload" alt="rapoport.jpg.jpe" data-src="https://prospect.org/downloads/218/download/rapoport.jpg.jpe?cb=0bbb1c8e0153fe817cd2a8a67acc21e8&amp;w={width}&amp;h={height}" data-widths="[100, 150, 220, 300]" height="100" src="https://prospect.org/downloads/218/download/rapoport.jpg.jpe?cb=0bbb1c8e0153fe817cd2a8a67acc21e8&amp;w=100" title="rapoport.jpg.jpe" width="100" /></a>
 		    <h3><a href="https://prospect.org/topics/abby-rapoport/" rel="author"
@@ -423,7 +423,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="https://prospect.org/topics/abby-rapoport/" class="mp-more-link">Read more by Abby Rapoport</a>
 
 </div>
-    
+
     <time datetime="2012-07-19T19:17:35">
     <p class="date">July 19, 2012</p>
     <p class="time">7:17 PM</p>
@@ -456,9 +456,9 @@ Every dollar funds our in-depth reporting.&nbsp;</span></span><br />
 <script src="https://americanprospect.activehosted.com/f/embed.php?id=9" charset="utf-8"></script>
 </div>
 <div class="mp-sprocket-ajax-lazy" data-url="https://prospect.org/api/sprockets/ad_broadstreet/93/?context=section.22"></div><div class="mp-sprocket-ajax-lazy" data-url="https://prospect.org/api/sprockets/classic_list/167/?context=section.22"></div><div class="mp-sprocket-ajax-lazy" data-url="https://prospect.org/api/sprockets/ad_broadstreet/88/?context=section.22"></div>
-    
+
   </aside>
-  
+
   </div>
 
 </main>
@@ -467,9 +467,9 @@ Every dollar funds our in-depth reporting.&nbsp;</span></span><br />
           <div id="bottomads">
             <broadstreet-zone zone-id="leaderboard_bottom"></broadstreet-zone>
           </div>
-          
-  
-  
+
+
+
     <div class="mp-cstmfooter">
 	<div class="wrapper">
 		<div class="column one">
@@ -551,35 +551,35 @@ Every dollar funds our in-depth reporting.&nbsp;</span></span><br />
 </div>
       </div>
       </div>
-      
-    
+
+
     <broadstreet-zone zone-id="wallpaper_right"></broadstreet-zone>
     </div>
-  
-  
-  <!-- ActiveCampaign Tracking -->  
+
+
+  <!-- ActiveCampaign Tracking -->
 <script type="text/javascript">
     (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
     vgo('setAccount', '1000784918');
     vgo('setTrackByDefault', true);
 
     vgo('process');
-</script>  
+</script>
 <!-- ActiveCampaign Tracking End -->
 
 <!-- Wisepops -->
 <script data-cfasync="false">(function(w,i,s,e){window[w]=window[w]||function(){(window[w].q=window[w].q||[]).push(arguments)};window[w].l=Date.now();s=document.createElement('script');e=document.getElementsByTagName('script')[0];s.defer=1;s.src=i;e.parentNode.insertBefore(s, e)})('wisepops', 'https://wisepops.net/loader.js?v=2&h=vSwLFFhJJZ');</script>
 <!-- Wisepops End-->
 
- 
-<!-- Ad Block Recovery Start -->  
+
+<!-- Ad Block Recovery Start -->
 <script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://www.npttech.com/advertising.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var n=e.createElement("script");n.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(n)}else{var a=new Date;a.setTime(a.getTime()+3e5),e.cookie="__adblocker=true; expires="+a.toUTCString()+"; path=/"}},t.send()}}(document)}();
 </script>
 
 <script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
 </script>
 <!-- Ad Block Recovery End -->
-  
+
     <script defer src="https://prospect.org/api/design-45a700f0da7e401a19b9e238310a6ecb/footer.js"></script>
 
 <span id="mp-config" data-js="{&quot;_mp_page_content&quot;: {&quot;related_links_url&quot;: &quot;https://prospect.org/api/content/67cf2091-3b91-5d50-924a-27b7440313c3/get_related_links&quot;, &quot;show_tts_player&quot;: false, &quot;google_api_key&quot;: null, &quot;comments_url&quot;: &quot;https://prospect.org/api/content/67cf2091-3b91-5d50-924a-27b7440313c3/get_comments&quot;, &quot;back_title&quot;: &quot;Return to \&quot;Sharia Scare in Tennessee\&quot;&quot;, &quot;media_gallery&quot;: {&quot;wh_sizes&quot;: [320, 480, 720, 1080, 1280, 1440, 1920], &quot;slideshowCurrent&quot;: &quot;{current} of {total}&quot;, &quot;slideshowStart&quot;: &quot;Start Slideshow&quot;, &quot;slideshowStop&quot;: &quot;Stop Slideshow&quot;}, &quot;tcomments&quot;: {&quot;chars_left&quot;: &quot;characters left&quot;, &quot;ugc_allow_comments&quot;: false, &quot;fb_logout&quot;: &quot;Logout&quot;, &quot;content_uuid&quot;: &quot;67cf2091-3b91-5d50-924a-27b7440313c3&quot;, &quot;fb_login&quot;: &quot; or login with Facebook&quot;, &quot;post_moderated&quot;: &quot;Comment successfully submitted. All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;type_captchas&quot;: &quot;Enter the word from the Image&quot;, &quot;info_text&quot;: &quot;All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;rss_feed&quot;: &quot;Comment Feed&quot;, &quot;subject&quot;: &quot;Type subject here...&quot;, &quot;name_required&quot;: &quot;Name required&quot;, &quot;comments&quot;: &quot;Comments&quot;, &quot;post_success&quot;: &quot;Comment successfully submitted. All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;type_comment&quot;: &quot;Type your comment here...&quot;, &quot;view_more&quot;: &quot;View More&quot;, &quot;wrong_captchas&quot;: &quot;Wrong Captchas&quot;, &quot;ugc_email_for_comments&quot;: false, &quot;subject_required&quot;: &quot;Subject required&quot;, &quot;email_invalid&quot;: &quot;Invalid email address&quot;, &quot;your_name&quot;: &quot;Your Name&quot;, &quot;comment_required&quot;: &quot;Comment required&quot;, &quot;email&quot;: &quot;Email&quot;, &quot;post_to_wall&quot;: &quot;Publish comment to your Wall&quot;, &quot;email_required&quot;: &quot;Email required&quot;, &quot;submit&quot;: &quot;Submit&quot;, &quot;fb_app_id&quot;: null}, &quot;osm_active&quot;: false, &quot;media_support&quot;: {&quot;wh_sizes&quot;: [320, 480, 720, 1080, 1280, 1440, 1920], &quot;slots&quot;: [{&quot;media_count&quot;: 1, &quot;slot_id&quot;: 16744, &quot;display_type&quot;: &quot;carousel&quot;, &quot;slot_ord&quot;: 0, &quot;slot_uuid&quot;: &quot;6bc2f66d-09d5-53c6-b68d-e5451c214a11&quot;}]}, &quot;tts&quot;: {&quot;tts_listen&quot;: &quot;Listen to this article (${minutes} min)&quot;, &quot;tts_start&quot;: &quot;Start reading&quot;, &quot;tts_read&quot;: &quot;Read article&quot;, &quot;tts_stop&quot;: &quot;Stop reading&quot;, &quot;tts_unsupported&quot;: &quot;Sorry, your browser does not support text to speech!&quot;, &quot;tts_pause&quot;: &quot;Pause reading&quot;, &quot;tts_language&quot;: &quot;en&quot;}, &quot;show_dynamic_map&quot;: false, &quot;show_occ_paginator&quot;: false, &quot;tts_language&quot;: &quot;en&quot;, &quot;ctype&quot;: null, &quot;is_pro&quot;: true}, &quot;_mp_facebook_&quot;: true, &quot;_mp_&quot;: true, &quot;_mp_sprocket_loader&quot;: true}"/><script defer src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/page_content.013a6bccc5eae3dc33a45baad1118eb0.js" data-config="{&quot;related_links_url&quot;: &quot;https://prospect.org/api/content/67cf2091-3b91-5d50-924a-27b7440313c3/get_related_links&quot;, &quot;show_tts_player&quot;: false, &quot;google_api_key&quot;: null, &quot;comments_url&quot;: &quot;https://prospect.org/api/content/67cf2091-3b91-5d50-924a-27b7440313c3/get_comments&quot;, &quot;back_title&quot;: &quot;Return to \&quot;Sharia Scare in Tennessee\&quot;&quot;, &quot;media_gallery&quot;: {&quot;wh_sizes&quot;: [320, 480, 720, 1080, 1280, 1440, 1920], &quot;slideshowCurrent&quot;: &quot;{current} of {total}&quot;, &quot;slideshowStart&quot;: &quot;Start Slideshow&quot;, &quot;slideshowStop&quot;: &quot;Stop Slideshow&quot;}, &quot;tcomments&quot;: {&quot;chars_left&quot;: &quot;characters left&quot;, &quot;ugc_allow_comments&quot;: false, &quot;fb_logout&quot;: &quot;Logout&quot;, &quot;content_uuid&quot;: &quot;67cf2091-3b91-5d50-924a-27b7440313c3&quot;, &quot;fb_login&quot;: &quot; or login with Facebook&quot;, &quot;post_moderated&quot;: &quot;Comment successfully submitted. All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;type_captchas&quot;: &quot;Enter the word from the Image&quot;, &quot;info_text&quot;: &quot;All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;rss_feed&quot;: &quot;Comment Feed&quot;, &quot;subject&quot;: &quot;Type subject here...&quot;, &quot;name_required&quot;: &quot;Name required&quot;, &quot;comments&quot;: &quot;Comments&quot;, &quot;post_success&quot;: &quot;Comment successfully submitted. All comments are moderated and generally will be posted if they are on-topic and not abusive.&quot;, &quot;type_comment&quot;: &quot;Type your comment here...&quot;, &quot;view_more&quot;: &quot;View More&quot;, &quot;wrong_captchas&quot;: &quot;Wrong Captchas&quot;, &quot;ugc_email_for_comments&quot;: false, &quot;subject_required&quot;: &quot;Subject required&quot;, &quot;email_invalid&quot;: &quot;Invalid email address&quot;, &quot;your_name&quot;: &quot;Your Name&quot;, &quot;comment_required&quot;: &quot;Comment required&quot;, &quot;email&quot;: &quot;Email&quot;, &quot;post_to_wall&quot;: &quot;Publish comment to your Wall&quot;, &quot;email_required&quot;: &quot;Email required&quot;, &quot;submit&quot;: &quot;Submit&quot;, &quot;fb_app_id&quot;: null}, &quot;osm_active&quot;: false, &quot;media_support&quot;: {&quot;wh_sizes&quot;: [320, 480, 720, 1080, 1280, 1440, 1920], &quot;slots&quot;: [{&quot;media_count&quot;: 1, &quot;slot_id&quot;: 16744, &quot;display_type&quot;: &quot;carousel&quot;, &quot;slot_ord&quot;: 0, &quot;slot_uuid&quot;: &quot;6bc2f66d-09d5-53c6-b68d-e5451c214a11&quot;}]}, &quot;tts&quot;: {&quot;tts_listen&quot;: &quot;Listen to this article (${minutes} min)&quot;, &quot;tts_start&quot;: &quot;Start reading&quot;, &quot;tts_read&quot;: &quot;Read article&quot;, &quot;tts_stop&quot;: &quot;Stop reading&quot;, &quot;tts_unsupported&quot;: &quot;Sorry, your browser does not support text to speech!&quot;, &quot;tts_pause&quot;: &quot;Pause reading&quot;, &quot;tts_language&quot;: &quot;en&quot;}, &quot;show_dynamic_map&quot;: false, &quot;show_occ_paginator&quot;: false, &quot;tts_language&quot;: &quot;en&quot;, &quot;ctype&quot;: null, &quot;is_pro&quot;: true}" id="_mp_page_content"></script><script defer src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/sprocket_loader.5111d2bb89749eda9702412555c5be17.js" id="_mp_sprocket_loader"></script>

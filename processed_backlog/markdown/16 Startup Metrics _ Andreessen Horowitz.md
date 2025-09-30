@@ -10,11 +10,11 @@
 
 ---
 
-# 
+#
 
-Unknown author • August 21, 2015 
+Unknown author • August 21, 2015
 
 ![](https://web-static.archive.org/_static/images/archive.ico)
 
-The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this.
 

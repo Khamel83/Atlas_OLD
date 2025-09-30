@@ -11,7 +11,7 @@
 
 # How it’s possible for a person to be sucked from an airplane mid-flight
 
- / 
+ /
 
 ## It’s happened before
 
@@ -85,7 +85,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20231206024739im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20231206024739/http://theverge.com/)
 

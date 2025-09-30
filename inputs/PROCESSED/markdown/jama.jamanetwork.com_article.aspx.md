@@ -7,15 +7,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-jamanetwork.com  
-  
-Verify you are human by completing the action below.  
-  
-jamanetwork.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for jamanetwork.com to respond... 
+jamanetwork.com
+
+Verify you are human by completing the action below.
+
+jamanetwork.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for jamanetwork.com to respond...
 

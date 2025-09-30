@@ -38,7 +38,7 @@ Manfred, Brendan Carr, and… Nikki’s monologue cop-out. 
 
 But first…
 
- 
+
 
 Who Won the Week: Melania Trump
 and Brett Ratner
@@ -73,7 +73,7 @@ What’s still a mystery is how Ratner got involved. He came with the project, p
 mostly been out of the public eye since the #MeToo movement swept him out of Hollywood. But he maintains a bunch of ties to Trumpworld figures. Steven Mnuchin, the treasury secretary under Trump I, was in business with Ratner on RatPac-Dune Entertainment until Mnuchin somewhat controversially ( https://variety.com/2019/politics/news/mnuchn-ratpac-dune-jackie-speier-1203125377/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) sold his stake. Will the Melania project
 chart a course for Brett to return to Hollywood?  
 
- 
+
 
 Quote of the Week
 -----------------
@@ -269,7 +269,7 @@ inflation, fewer mid-to-late-December films to compete with, and a China release
 
 To be continued on Thursday…
 
- 
+
 
 My Reading List…
 ------------------
@@ -292,7 +292,7 @@ industry’s great pivot to video—namely, it makes everyone more dependent on 
 An odd strategy by Globes host Nikki Glaser: tell Howard Stern the better, more biting jokes she didn’t say on the actual show.
 [People ( https://people.com/nikki-glaser-nsfw-jokes-she-didnt-use-2025-golden-globes-hosting-8770180?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
 
- 
+
 
 The Feedback
 ------------
@@ -313,7 +313,7 @@ P.R.—or on their own—to plant the seeds of a story on social media and harve
 
 “Our slogan is, ‘In the chips in ’26.’” —An agent
 
- 
+
 
 Have a great week,
 
@@ -337,6 +337,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUP3Temyw1eHhO7bFZdvc=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -7,9 +7,9 @@
 
 # Loonwatch.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Loonwatch.com](https://s0.wp.com/i/blank.jpg)
 
-Hatred against Jews and hatred against Muslims have a lot in common. One thing in particular is that throughout history Jews and Muslims have been accused of being prone to criminality, rape and violence. The Nazis in the 30’s did so and many antisemites still today spread the lie. The exact same kind of lies […] 
+Hatred against Jews and hatred against Muslims have a lot in common. One thing in particular is that throughout history Jews and Muslims have been accused of being prone to criminality, rape and violence. The Nazis in the 30’s did so and many antisemites still today spread the lie. The exact same kind of lies […]
 

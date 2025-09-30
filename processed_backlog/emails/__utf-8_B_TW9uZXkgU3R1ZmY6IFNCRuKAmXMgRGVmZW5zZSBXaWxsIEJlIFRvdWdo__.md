@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The essential charges against Sam Bankman-Fried are: Customers deposited billions of dollars at his crypto exchange, FTX, to buy crypto. Ban
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SBF Stuff
-    
-  
+
+
 
 The essential charges against Sam Bankman-Fried are:
 	Customers deposited billions of dollars at his crypto exchange, FTX, to buy crypto.	Bankman-Fried’s trading firm, Alameda Research, secretly took that money to gamble on crypto tokens and make weird illiquid venture investments.	Also a lot of the money seems to have been siphoned off to make political donations, buy celebrity endorsements, pay for Bahamas real estate for Bankman-Fried and his family, etc.	When customers started asking for their money back last November, it wasn’t there.
@@ -106,37 +106,37 @@ My view was, and is, that if you talk to a crypto exchange operator and he is li
 Well. It would have been! If you were skeptical about the value of your giant stash of crypto, you wouldn’t borrow customer money against it, and you wouldn’t keep spending real money on endorsements and donations. You’d only do that if (1) you were naively optimistic about the value of your crypto or (2) you were extremely cynical, and stealing it.
 The defense is that Bankman-Fried was incredibly naive. It not only requires you to believe that his lieutenants were stealing all the customer money without him noticing, that he made a series of innocent risk management mistakes while everyone else was building nefarious backdoors. It also requires you to believe that he believed in his stash of crypto, that he thought his vast imaginary wealth was real and his to spend. Obviously it turned out not to be.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Also Three Arrows
-    
-  
+
+
 
 One does not have to overcomplicate things, though. The basic situation is if people give you money for crypto-y stuff, and you don’t give it back — “oops, sorry, market crash!” — then they will naturally be mad at you. And if they notice that you still have a lot of money, even though they didn’t get their money back, they will naturally assume that you stole it. And in some crude moral sense they will be right. Also in a legal sense there’s a decent chance they’ll be right.   Anyway!
 
@@ -148,11 +148,11 @@ Teneo said they will seek to engage with Zhu on matters relating to Three Arrows
 
 I think that Zhu’s and Davies’s legal position is much better than Bankman-Fried’s: The money they lost was from creditors who meant to loan them money to make dumb crypto bets, so no one was really deceived about the core proposition. I have argued before that they   played the crypto bubble perfectly, and I still kind of think that. At the same time! They started with nothing, creditors loaned them billions of dollars, magic occurred and now the creditors have nothing and they have possibly a billion dollars. It is suspicious. “Put them in jail until they cough up the money” is not really a crazy thing for the creditors to ask.
 
-  
-    
+
+
       Sparc-X
-    
-  
+
+
 
 Yessssss yes I love this,  this is the stuff right here:
 
@@ -169,11 +169,11 @@ Also though separately we have   talked a   few   times about Elon Musk immediat
 If Twitter is a private company and you own almost all of the equity, you are mainly exposed to its cash flows, not the meme potential of its stock. If you take it public and sell a bunch of stock to your ardent fans, the business results matter less, and your ability to attract attention matters more. Surely, given the facts here, that increases the valuation?
 Bill Ackman has a public vehicle that could benefit from attention. Elon Musk has a private company that could benefit from attention (and being public). Both of them are very good at getting attention. Just feels like a good trade. They should do it tomorrow. They should do it before they  sell the Twitter buyout debt.
 
-  
-    
+
+
       Lordstown trade
-    
-  
+
+
 
 If you have a business, and there is a huge bubble for throwing money into that business, then I suppose a good trade is (1) you sell the business into the bubble for a lot of money, (2) you wait until the bubble pops and (3) you buy the business back for a very small amount of money. Now you own the business again, and also you have a lot of money. When the bubbly money-thrower was SoftBank Group Corp., I   called this the “Wag trade,” after a literal dog-walking startup that took a bunch of SoftBank money for stock and then gave back much less money for the same amount of stock. 
 Later, there was a huge bubble in electric-vehicle startups raising money through special purpose acquisition companies. Lordstown Motors Corp.  raised $675 million in a SPAC deal in 2020, and its founder sold his stock over time for at least $59 million. Also now he gets the company back:
@@ -187,26 +187,26 @@ Burns and LAS Capital have offered to purchase assets that include battery- and 
 
 I’m not sure exactly what he’s buying, or what it’s worth, but in some broad sense the price he’s paying for it is negative $50 million, so he’s doing fine.
 
-  
-    
+
+
       Dumb Money
-    
-  
+
+
 
 The message of Dumb Money, the movie about the 2021 GameStop meme-stock excitement, is basically “if a bunch of people on the internet tell you to buy a stock, that is good and you will probably make money unless nefarious Wall Street interests cheat to stop you.” Not investment advice but, uh, I’m not sure about that message. Neither is the UK Financial Conduct Authority, which is running an ad at the beginning of UK showings of Dumb Money:
 Running during the premium 'Gold Spot' the advert leverages sensory deprivation in the cinema for optimum impact – lights down, a blank screen and an engaging voiceover. The voiceover starts to talk about a 'once-in-a-lifetime opportunity to make some serious money'. It is then revealed that the anonymous tipster is in fact typing in an online forum, before the advert ends with the FCA’s call to action: 'Don’t Get Played'. The FCA is supporting the main advert with digital screens in cinema foyers, and geo-targeted display ads - tailored to people who have visited cinemas, alongside ads in contextual locations online, where the target audience research investments. This makes the connection with audiences both before and after the film and reminds them what they should do before they invest.
 Then there’s like two hours of movie saying nah, it’s fine, the people on Reddit have your best interests at heart and are also really fun and cool.
 
-  
-    
-      Things happen
-    
-  
 
-With Banks Offering 5% Returns, 
+
+      Things happen
+
+
+
+With Banks Offering 5% Returns,
 Financial Advisers Fight Irrelevance. VCs tell start-ups to delay IPO plans after Arm and Instacart underwhelm. A Fed-Up Jane Fraser Is  Downsizing at Citigroup to Fight Bank’s Painful Slump. Wall Street bankers hope for dealmaking rebound after boom and bust. Pension Funds  Go Cold on Private Equity. Inside  Point72's boot camp for developing all-star portfolio managers, where Steve Cohen is known to grill up-and-comers who think they're ready for the big time.  Dan Loeb’s Hot Hand Goes Cold. Private Equity Blasts Antitrust Agencies’ Efforts to  Slow Mergers. UBS Reaches Settlement With Mozambique Over   Tuna-Bonds. The government shutdown might affect  Fat Bear Week. Phillies deny  emotional support alligator from entering ballpark.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Bankman-Fried has laid out versions of this defense before, including   on his Substack.
 
 
@@ -216,55 +216,55 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] I don’t mean anything by writing that sentence in that order. I am not sure of the timing and order here. “Alameda took $8 billion of FTX customer money, then lost it on dumb bets” and “Alameda lost $8 billion on dumb bets, then took FTX customer money to fill the hole” both seem possible, and my best understanding is that it was some of both.
 
 
-  [4] One possibility that 
+  [4] One possibility that
 we have discussed before is that FTX was an attractive exchange for customers in part because Alameda made a lot of very tight markets on FTX, and Alameda could make those tight markets because it was losing money on every trade, and Alameda could lose money on every trade because it was funding itself by taking money from FTX customers. This would be a complicated but quite pure Ponzi: In this story, customers make money on FTX, but the money is all stolen from other customers, indirectly, through Alameda. Byrne Hobart  writes today about a possible FTX reboot: “But one of the questions that needs to get answered for this plan is what FTX's true economics looked like, and in particular the risk that they were distorted by FTX's relationship with Alameda. Normally, if an exchange were started by a company that planned to trade on it, as well as on other exchanges, the worry would be that the traders would get special privileges. But FTX was more venture-fundable than Alameda, which created the possibility that Alameda could run deliberately flawed trading strategies in order to attract volume from sophisticated traders, and could use that volume to raise money for FTX from VCs, who would be looking at accurate volume data but wouldn't recognize how much of it came from a related party running deliberately bad trades.” That is frankly the benign interpretation, “we lose money at Alameda to attract customer deposits to FTX, which attracts venture funding.” The bad interpretation is “we lose money at Alameda to attract customer deposits to FTX, which we steal.”
 
 
   [5] Don’t take those numbers too seriously; the $30 billion is a wild guess at peak customer assets but I don’t think I’ve ever seen the real number clearly reported? We   know that there was about $16 billion of customer money trapped when the exchange failed, and another  $5 billion was withdrawn the previous day, so $30 billion feels like a roughly plausible peak number. Meanwhile Bankman-Fried  has claimed a $100 billion peak net asset value for Alameda, *not* all of it in Samcoins.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjl5km.5lpu/6e38df1f.gif" alt="" border="0" /></a>

@@ -3,7 +3,7 @@
 **Source:** inputs/New Docs/html/fivethirtyeight.com_features_2015-nfl-preview-what-to-expect-if-youre-a-packers-lions-vikings-or-bears-fan.html
 **Processed:** 2025-08-24T19:14:02.995294
 
-![](https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-461907440-1.jpg?w=575) 
+![](https://fivethirtyeight.com/wp-content/uploads/2015/08/gettyimages-461907440-1.jpg?w=575)
 ![](https://fivethirtyeight.com/wp-content/uploads/2015/08/2015-nfl-preview.png?w=150&h=150&crop=1)
 
 

@@ -8,18 +8,18 @@
 View this post on the web at https://www.notboring.co/p/layerzero-the-language-of-the-omnnichain
 
 Welcome to the 200 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 217,532 smart, curious folks by subscribing here:
-Hi friends 👋, 
-Happy Thursday! 
-Crypto, pronounced dead in 2022, has come back to life. If you’ve been reading Not Boring through that period, you would have known that it would come back eventually. 
-But just because token prices are back up doesn’t mean that crypto is anywhere close to doing the things that I think it will be able to do. Better infrastructure will need to translate into better applications, which will demand better infrastructure, and on and on. It’s a never-ending project. 
-LayerZero Labs is building foundational infrastructure for crypto all the way at the foundation… LayerZero. It’s an omnichain messaging protocol, a transport layer that allows applications to send messages containing bytes of information from one chain to another. If it succeeds, each blockchain will be like a node in one larger, more performant network. 
+Hi friends 👋,
+Happy Thursday!
+Crypto, pronounced dead in 2022, has come back to life. If you’ve been reading Not Boring through that period, you would have known that it would come back eventually.
+But just because token prices are back up doesn’t mean that crypto is anywhere close to doing the things that I think it will be able to do. Better infrastructure will need to translate into better applications, which will demand better infrastructure, and on and on. It’s a never-ending project.
+LayerZero Labs is building foundational infrastructure for crypto all the way at the foundation… LayerZero. It’s an omnichain messaging protocol, a transport layer that allows applications to send messages containing bytes of information from one chain to another. If it succeeds, each blockchain will be like a node in one larger, more performant network.
 Today, it’s rolling out v2 of its protocol. I got an early look, and I’m excited to explain what it is and why I think it’s going to be important. Apologies for the late send — v2 is hot off the presses [ https://substack.com/redirect/3e8b77c0-10d3-42bf-8536-4c6cac3ae201?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 This essay is a Sponsored Deep Dive. While the piece is sponsored, these are all my real and genuine views. I haven’t written as many of them this year as I have before because I’m only writing them on companies that I think have a chance to be really important in an area I care about, and LayerZero Labs fits that bill.
-I’ve been a fan of LayerZero since I had LayerZero Labs CEO Bryan Pellegrino on Not Boring Founders in early 2022, and I’m impressed with the improvements they’ve made in v2 and the potential of the business model. 
+I’ve been a fan of LayerZero since I had LayerZero Labs CEO Bryan Pellegrino on Not Boring Founders in early 2022, and I’m impressed with the improvements they’ve made in v2 and the potential of the business model.
 You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/8ff3ed3c-91af-4655-9e5d-ef8c1d8fce19?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-As always, please, please for the love of God note that this is not investment advice. LayerZero doesn’t have a token, but it will at some point. When that time comes: please do not look back at this piece as investment advice. If you’re reading this from that future time, please note the following: I am a terrible trader. This is a sponsored piece. a16z, where I’m an advisor, is an investor in LayerZero Labs. I have no idea where ZRO will be priced when trading starts. 
-I just think it’s important infrastructure for crypto, and that crypto infrastructure is important. 
-Let’s get to it. 
+As always, please, please for the love of God note that this is not investment advice. LayerZero doesn’t have a token, but it will at some point. When that time comes: please do not look back at this piece as investment advice. If you’re reading this from that future time, please note the following: I am a terrible trader. This is a sponsored piece. a16z, where I’m an advisor, is an investor in LayerZero Labs. I have no idea where ZRO will be priced when trading starts.
+I just think it’s important infrastructure for crypto, and that crypto infrastructure is important.
+Let’s get to it.
 LayerZero: The Language of the Omnichain
 In the beginning, there was Bitcoin. 
 Bitcoin [ https://substack.com/redirect/6f0f5ae3-ddc3-4af9-8e76-22db2bee370d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] did one thing well. “A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.”
@@ -298,8 +298,8 @@ And as for you? If you haven’t played around with crypto for the past year, I 
 LayerZero still has a long way to go. It’s live in a number of use cases, including DEXes (Trader Joe), stablecoins (MIM), and games (Parallel [ https://parallel.life/ ]), but developers have barely scratched the surface of the omnichain app design space. Even with a better product, it will have to hook into more chains, win BD battles, and clearly communicate to developers why and how they can build better products on top of its infrastructure. 
 But wherever we are in the price cycle, that’s the cycle that excites me most: better infrastructure enabling better applications that bring more people onchain without forcing them to sacrifice security or performance. I think LayerZero v2 is a big step in that cycle, and I’m excited to see what developers build on it. 
 Thanks to Bryan and the LayerZero Labs team for working with me and answering my dumb questions, and to Dan for editing!
-That’s all for today! We’ll be back in your inbox tomorrow with a Weekly Dose. 
-Thanks for reading, 
+That’s all for today! We’ll be back in your inbox tomorrow with a Weekly Dose.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE01Tnpnd016Z3hMQ0pwWVhRaU9qRTNNREkxTmpjNU9ETXNJbVY0Y0NJNk1UY3dOVEUxT1RrNE15d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmNoTEpsc3dOSlNCMUxTTEh6U1lzWjFJZzVYdzRzVHZhTzZjOFBXR201S0EmZXhwaXJlcz0zNjVkIiwicCI6MTM5NzgwMzgxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTcwMjU2Nzk4MywiZXhwIjoxNzA1MTU5OTgzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.L53k0ciWCQvKR3DWjTZSu1Zely3RPw1scw-2rhCAu-g?

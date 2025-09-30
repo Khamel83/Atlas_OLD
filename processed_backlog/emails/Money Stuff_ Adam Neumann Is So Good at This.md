@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.Here are three ways to become a billionaire. One is you create some good 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.Here are three ways to become a billionaire. One is you create some good
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Adam Neumann
-    
-  
+
+
 
 Here are three ways to become a billionaire. One is you create some good or service, you sell it for more than it costs you to produce it, and you keep doing that until you have a billion dollars. Call this a cash billionaire.
 Another is you create some good or service, you sell it for more than it costs you to produce it, and you keep doing that until you are making, like, $100 million a year. Then you do a discounted cash flow analysis and say “well, it’s $100 million a year, figure it grows at 8% per year for the next 20 years, discount that back to today at a 15% discount rate and you get a present value of more than a billion dollars.” You own a stream of future cash flows worth $1 billion, which makes you a billionaire. This is a fairly common way for a business owner to become a billionaire; it has also become possible for celebrities, and we have talked about it in relation to  Ye (Kanye West) and   Taylor Swift. Call this a discounted cash flow billionaire.
@@ -73,8 +73,8 @@ On the other hand if you convince someone else that you have a 1% chance at do
   [3]
 
 Of course eventually you will either succeed (with 1% probability) or fail (99%) at creating a trillion-dollar company. If time goes by and you do not discover teleportation and you get bored and go back to your day job, then (let us assume) your probability of making $1 trillion goes to zero, and you are no longer a billionaire. Unless you already converted some of your stake to cash. If you convinced someone to give you a billion dollars for a 10% stake in your company with a 1% chance at a trillion-dollar idea, and then the company goes to zero, then:
-	
-You have a billion dollars, and	
+
+You have a billion dollars, and
 She has lost a billion dollars.
 
 That’s it. The trillion dollars is gone, though it was never there; the true ex ante odds of you making a trillion dollars are essentially unknowable, but the ex post result is that you didn’t.
@@ -89,37 +89,37 @@ But a part of Neumann might be thankful he was forced out in 2019 following the 
 
 We have   discussed this   before. My view is: Oh yes! Adam Neumann really did figure out how to make money. He figured out maybe the best and funniest way anyone has ever made money in the history of capitalism, which is “act crazy around Masayoshi Son until money spews out of him.” Figuring out how to rent out office space for more than you pay for it has absolutely nothing to do with it. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Adam Neumann (2)
-    
-  
+
+
 
 At the Wall Street Journal,  Eliot Brown reports:
 
@@ -134,11 +134,11 @@ By the way, I would not really describe this transaction as, like, “SoftBank 
 
 So you do it as a loan payable in stock: Neumann technically still owns the stock, he gets cash for it up front, if the company craters he keeps the cash, but if the company soars he keeps the stock. It’s a big cash payoff plus some stock options. The options turned out to be worthless, but the cash is still good.
 
-  
-    
+
+
       Warren Buffett
-    
-  
+
+
 
 For a long time, Warren Buffett has been my go-to illustration of the principle that you are allowed to insider trade on your own inside information. Like:
 	Warren Buffett runs Berkshire Hathaway Inc. and makes its investing decisions.
@@ -172,11 +172,11 @@ The question came up a second time at a Berkshire shareholder meeting that year,
 
 Really? No possible problems about conflict? JPMorgan’s stock has significantly outperformed Wells Fargo’s since February 2012. Warren Buffett, the legendary stock picker, picked two big banks that he liked; he bought one for himself and one for his shareholders. The one he bought for himself was, he said, his second choice, but it performed much better than the one that he bought for his shareholders. Is that not a conflict of interest? Would it not align interests a bit if Buffett bought the stocks for himself that he buys for his company?
 
-  
-    
+
+
       IPOs
-    
-  
+
+
 
 The basic tactical approach to doing an initial public offering is that you go out and market the company to investors and you try to get orders for more shares than you have to sell. If you are selling 10 million shares, you want investors to want to buy 20 million. Then you price the IPO (at a price where investors would buy 20 million shares) and allocate it to investors. Some investors get all the shares they asked for, some get less, and on average they get about 50% of what they wanted.
 Then, the next day, the stock opens for trading, and all the people who got fewer shares than they wanted say “boy, great company, I wanted 100,000 shares but only got 50,000, so I’m gonna go out and buy the other 50,000 in the market today.” So there is buying demand for the shares. Meanwhile some of the people you sold to are flippers; you gave them 100,000 shares and they immediately dump them, creating supply. But on average there is more demand than supply (you sold fewer shares than people wanted), so the price goes up. This is an “IPO pop” and is mostly considered good, though that is a bit complicated and if the IPO pop is too big — if the stock doubles on the first day — then   Bill Gurley will show up and complain that the company left money on the table. 
@@ -195,13 +195,13 @@ One fund manager whose firm was allotted a small number of shares in the Instaca
 
 If you want $50 million of an IPO and get $25 million, you might buy the rest in the secondary market the next day. If you want $50 million and get $2 million, you might be like “ehh this is not worth bothering with” and sell your allocation the next day.
 
-  
-    
-      
+
+
+
   Terminator: Fair Use Doctrine
 
-    
-  
+
+
 
 For reasons honestly not worth getting into,   yesterday I proposed a science fiction “story about venture capitalists building a runaway artificial intelligence that will likely enslave or destroy humankind, only to be thwarted by a minor poet suing them for copyright violations for scraping her poems.” Also in a   footnote to an unrelated part of the column I mentioned a hypothetical onion futures contract. That was a mild joke. Onion futures, famously,  are illegal in the US: You can trade futures on most agricultural commodities, but due to an onion corner in the 1950s, onion futures have been banned for decades.
 Anyway a reader pointed out that last year Scott Alexander, who is more committed to his hypothetical speculative fiction jokes than I am, actually  wrote a whole science fiction story about a runaway artificial intelligence that was built to trade on prediction markets “and, when possible, execute actions” to make the predictions come true. You can see how that could work out badly for humanity. There is, however, in this story, one refuge for humans: Because onion futures are illegal, the AI was programmed to ignore onions. “Every proto-AI, every neuron in the massive incipient global brain, had a failsafe that would return a null result whenever onions were involved.” Also there is some crypto, “so the huddled remnants of humanity set out turning people into a token representing onions.” Also they wear onions.
@@ -213,15 +213,15 @@ More generally, you could have a regulatory model that is like:
 
 It is apparently a fruitful model for science fiction.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Eli Lilly Wins FDA Nod for   Obesity Drug That Rivals Wegovy, Ozempic. Apple dealt blow at top EU court over  €14.3bn tax bill in Ireland. UBS Chief Ermotti Doesn’t See   Cultural Clash With Credit Suisse. Ex-Carlyle Partner Sues UBS Over $2 Million   Account Liquidation. Fed Probes Morgan Stanley’s  International Wealth-Management Practices. Citigroup Fined for Discriminating Against  Armenian Americans. More  Executives Vanish in China, Casting Chill Over Business Climate. Thailand’s ‘  Salesman’ Prime Minister Travels the World to Court Investments. Last-Minute Bid Would Seek to Revive Collapsed Trucker  Yellow. Former NYSE President in Talks to  Reboot FTX Exchange. Washington’s   Pandas Are Returning to China Via FedEx. NYC’s Gambino Family Faces Crackdown With ‘Joe Brooklyn’ Arrested.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] My second category is essentially “reasonably recurring cash flows discounted at some rate that reflects the risk of something changing for the worse,” while my third is essentially “not much in the way of cash flows, but some probability of things changing dramatically for the better.” But there is a continuum; if you are making $50 million a year then, at the right growth assumptions and discount rate, you are plausibly a billionaire, and that’s somewhere between the second and third categories. (Sam Bankman-Fried’s net worth, at his peak, came mostly not from his actual cash flows, though they were large, but from his big plans for the future.) If you make $1 a year — or lose $10 million a year for that matter — then with *some* growth assumptions, you are a billionaire, but that’s clearly the third category.
 
 
@@ -246,48 +246,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] I think the reason for this is that he bought the Lubrizol shares before it was clear that Berkshire would buy the company, but then was involved in the acquisition. It’s not so much that he bought the shares knowing that Berkshire would buy Lubrizol, but that he pushed Berkshire to buy Lubrizol knowing that he owned the stock.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -298,46 +298,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cju1zh.5jdy/7f390132.gif" alt="" border="0" /></a>

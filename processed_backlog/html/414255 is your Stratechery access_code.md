@@ -6,7 +6,7 @@
 # 414255 is your Stratechery access code
 
 [![](https://assets.stratechery.passport.online/assets/banner_orangeLogoBlackText@2x.png)](https://stratechery.com)
-  
+
 
 #### Hi Omar Zoheri, Here is your code for Stratechery:
 

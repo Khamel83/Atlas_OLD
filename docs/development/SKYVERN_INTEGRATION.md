@@ -308,11 +308,11 @@ def create_custom_extraction_task(self, url: str, custom_requirements: str):
     """Create a custom Skyvern task for specialized extraction."""
     prompt = f"""
     {custom_requirements}
-    
+
     Navigate to: {url}
     Extract content according to the above requirements.
     """
-    
+
     return self.skyvern_client.run_task(
         url=url,
         prompt=prompt,
@@ -328,7 +328,7 @@ Process multiple URLs efficiently:
 def batch_process_with_skyvern(self, urls: List[str]) -> List[Dict]:
     """Process multiple URLs with intelligent strategy selection."""
     results = []
-    
+
     for url in urls:
         try:
             result = self.ingest_content(url)
@@ -340,7 +340,7 @@ def batch_process_with_skyvern(self, urls: List[str]) -> List[Dict]:
             })
         except Exception as e:
             results.append({'url': url, 'success': False, 'error': str(e)})
-    
+
     return results
 ```
 
@@ -365,6 +365,6 @@ For issues and questions:
 
 Sites that benefit most from Skyvern integration:
 - **Medium**: 95% success rate with member content
-- **NYT**: 85% success rate with subscription articles  
+- **NYT**: 85% success rate with subscription articles
 - **Reddit**: 100% success rate with full thread extraction
 - **Documentation sites**: 90% success rate with multi-page content

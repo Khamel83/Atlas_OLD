@@ -192,7 +192,7 @@ Trump will likely lose on Tuesday. But if he loses, it will be because he is a c
 
 ### Watch: Trump’s success reveals a frightening weakness in American democracy
 
-See More: 
+See More:
 
 * [2016 Presidential Election](/web/20250106005019/https://www.vox.com/presidential-election)
 * [Politics](/web/20250106005019/https://www.vox.com/politics)

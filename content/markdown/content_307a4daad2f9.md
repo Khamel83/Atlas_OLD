@@ -16,7 +16,7 @@
     "@context": "http://schema.org",
     "@type": "ItemList",
     "itemListElement": [
-    
+
         {
             "@type": "SiteNavigationElement",
             "position": 1,
@@ -25,8 +25,8 @@
             "url":"https://nationalpost.com/subscribe/"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 2,
@@ -35,8 +35,8 @@
             "url":"https://nationalpost.com/newsletters/"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 3,
@@ -45,8 +45,8 @@
             "url":"https://nationalpost.com/category/news/canada"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 4,
@@ -55,8 +55,8 @@
             "url":"https://nationalpost.com/category/news/world"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 5,
@@ -65,8 +65,8 @@
             "url":"https://nationalpost.com/category/opinion"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 6,
@@ -75,8 +75,8 @@
             "url":"https://nationalpost.com/category/longreads"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 7,
@@ -85,8 +85,8 @@
             "url":"https://nationalpost.com/"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 8,
@@ -95,8 +95,8 @@
             "url":"https://nationalpost.com/category/life"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 9,
@@ -105,8 +105,8 @@
             "url":"https://nationalpost.com/category/shopping\u002Dessentials"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 10,
@@ -115,8 +115,8 @@
             "url":"https://nationalpost.com/"
         }
         ,
-        
-    
+
+
         {
             "@type": "SiteNavigationElement",
             "position": 11,
@@ -124,12 +124,12 @@
             "description": "",
             "url":"https://nationalpost.com/category/healthing"
         }
-        
-    
+
+
     ]
 }
 </script><script id=page-data type=application/json>
-    
+
     {"identity": {"sso": {"account": null, "application": null, "client": null, "flowName": null, "flowVersion": null, "loginradius": {"appName": "postmedia", "apiKey": "1a9a7ccf-c3f1-4ec9-a65f-2c3e8d9510a5"}, "vendor": "loginradius"}, "logo": {"default": "https://dcs-static.gprod.postmedia.digital/19.5.1/websites/images/identity/logo-identity-np.svg"}, "themeName": "np", "links": {"privacy": {"link": "https://pages.postmedia.com/privacy-statement/", "title": "Privacy", "a_title": "Link to Postmedia Privacy Statement"}, "terms": {"link": "https://pages.postmedia.com/termsofservice/", "title": "Terms", "a_title": "Link to Postmedia Terms of Service"}, "copyright": {"link": "/copyright/", "title": "Copyright", "a_title": "Link to the Copyright page"}, "site_map": {"link": "/sitemap/", "title": "Site Map", "a_title": "Link to National Post Site map"}, "contact_us": {"link": "/contact/", "title": "Contact Us", "a_title": "Link to National Post Contact page"}, "digital_ad_registry": {"link": "https://adregistry.postmedia.com/", "title": "Digital Ad Registry", "a_title": "Link to National Post Ad Registry page"}}, "property": "National Post", "showPasswordPolicy": false, "gnsOptions": {"offerId": "OFPI60QPGCE1", "templateId": "OT4PMPI615YZ"}, "microsoftLogin": {"id": "a2f5b229-db73-4076-8a05-f85b0fd8a6e8"}, "showNewsletterOptIn": true, "showOnboardPages": true, "subscriber": {"account": "SE0WzqlbUG", "activateTermId": "TMK09QJG8NJY", "resIds": ["RS2KI8Z", "233FsFgZA9v8duerK-KjPbdefault", "-TcmrnMee9tz3rUDjtGn63default", "RH8J4QZ", "Pqsg4-bwvx7naZr-kGgGDMdefault", "RPHXGO7", "RM0H6GV", "IvgBVymL1kWKh5HN831U6gdefault", "R9QGUX7", "RIYM0W7", "RLT3BWE", "nH47ztgoBxOQIun2LnLnledefault", "RI4355E", "R71J8G7", "RB02QRQ", "RLZURKR", "RTHO9J4", "GvBXJquwseufCeGs3tJOjkdefault", "RJNXDIA", "R0M11IF", "sQ7AQQe5q5pg_paAhT_ZVJdefault", "qUx_o-0RHHrInlfDXKGbdLdefault", "Ir6bgRexczYcjJBDWy16Mkdefault", "RU3WZWU", "iIVZ5WCsRhqvgwHFcl-9qYdefault", "R2LTH83", "R9TSN53", "RRI3B6M", "R6DLKPO"], "registrantResId": "RFUJJFE", "registrantTermId": "TMNE0YLTJF6B", "useSandbox": false}, "sophiPaywallOffer": {"offerId": "OFGBVL0UV8TQ", "templateId": "OT0O6Y4O17P9"}, "useSophiDecision": true, "exclusiveNewsletter": {"listId": "Political_Hack_Signup", "resId": "RRUR24W"}}, "analytics": {"femVersion": "v132.0", "platformVersion": "19.5.1", "platform": "Cheetah", "brand": "National Post", "domain": "nationalpost.com", "division": "np", "provider": {"account": "us1-99b65fde89a1a145894d2d51d283cc83"}, "isDev": false, "debug": "DCS | Analytics", "tags": {"gtm": ["GTM-MKM4ZNQ"], "optable": {"slug": "nationalpost-com", "enabled": true}, "comScore": "10276888", "intentiq": {"partner_id": 1589173297, "browser_blackList": "Chrome"}, "live_ramp": "https://launchpad-wrapper.privacymanager.io/0787f10e-ca64-4393-8cda-1b8744767af9/launchpad-liveramp.js", "permutive": {"namespace": "postmedia", "workspace_id": "23dc09d6-b664-425a-a76e-0eed6a6cc102", "organization_id": "23dc09d6-b664-425a-a76e-0eed6a6cc102", "workspace_api_key": "21ec23a2-b38a-456e-b801-e5877a041482"}, "gtm_params": {"amp": {"env": "env-24", "auth": "ZyNB62VqjBH04aIwd0JX6g", "container_id": "GTM-564H6FF"}, "html": {"container_id": "GTM-NTQ8ZV4"}}, "fullContact": "yY2pOf77RzG1E3grWXhBFn9ZtGmt6vYa", "femUrl": "https://fem.gprod.postmedia.digital/v132.0/"}}, "ads": {"lazy": false, "refresh": true, "property": "np", "provider": {"account": "3081"}, "site": "npo.com", "stickyAd": {"mobile": {"enabled": true, "bottom": false, "close": true, "closeTimer": 5, "pageTargeting": []}, "desktop": {"enabled": true, "bottom": false, "close": true, "closeTimer": 5, "pageTargeting": []}}, "jwPlayerAdSettings": {"disableBidding": false, "sendAllBids": true, "bidders": [{"id": "5738779", "name": "PubMatic", "pubid": "164371"}, {"name": "Rubicon", "pubid": "14648", "siteId": "505096", "zoneId": "3013902"}, {"id": "1031514", "name": "IndexExchange"}, {"name": "connatix", "placementId": "399b0642-ec79-4b50-a9c6-90e7e7f93be8"}], "floorPriceCents": 250}, "magniteInArticle": {"mobile": true, "desktop": false}, "scrollingFollow": {"enabled": true, "extraHeight": 0, "disabledPlacements": [], "headerUpdateInterval": 10}, "adLightEnabled": false, "bidding": [{"account": "3528", "client": "amazon"}, {"account": "14648", "client": "magnite"}], "topics": "news,world", "ancestry": ["news"], "type": "story"}, "page": {"ancestry": ["news"], "articleId": "f4ff2a35-5c0b-497d-8e11-d79eed37d0e6", "authors": ["Slate"], "writers": {"main": [{"name": "Slate"}], "wire": []}, "wireId": "", "advertorial": false, "date": {"mod": "2016-07-12T17:18:32+00:00", "pub": "2014-10-24T19:46:15+00:00", "pub_timestamp": 1414179975, "mod_timestamp": 1468343912}, "dist": "National Post", "excerpt": "Video sites are by far the biggest consumers of bandwidth on the web: Netflix, YouTube, Twitch \u2026 MindGeek. Or maybe that last one doesn\u2019t ring a bell? ", "isOrigin": true, "klangoo": null, "originId": "534354", "paywall": "", "tags": ["editors-choice", "pornography"], "title": {"main": "How a (Canadian-founded) company you've never heard of took control of the porn industry", "alt": null}, "type": "story", "wc": 1581, "charCount": 8199, "isPremium": false, "isRegistration": false, "isPaywallWhitelisted": false, "siteName": "nationalpost", "globalSlug": "0627 mansef", "projectType": null, "secondary_categories": ["world"], "isRecommendationEnabled": false, "isWelcomeToMyTopicsModalEnabled": false, "clientId": "a8d5b917-dcb3-4cde-b475-e414d90065be", "responseStatus": 200, "abTest": {"admiralEnabled": true, "disableFlyercity": false, "enablePaywallLimitedAds": true, "useNewStoryPageTemplate": true, "useNewStoryPageTemplateV2": true}}}
 </script><link as=script href=https://ak.sail-horizon.com/spm/spm.v1.min.js rel=preload><link href=https://fem.gprod.postmedia.digital/v132.0/fem.js rel=modulepreload><script>function getFemOverrideFromURLParams(){const a=new URLSearchParams(window.location.search);return a.get('fem_override')}var modern_script_elem,ytAdTargetingLoadEvent,script_onload;window.ytVideoAdTargetingConfig=window.ytVideoAdTargetingConfig||{};if(typeof Event==='function'){ytAdTargetingLoadEvent=new Event('yt_ad_targeting_load_event')}else{ytAdTargetingLoadEvent=document.createEvent('Event');ytAdTargetingLoadEvent.initEvent('yt_ad_targeting_load_event',false,false)};script_onload=function(){window.page=FrontEndModules.initPage(JSON.parse(document.getElementById('page-data').innerHTML));FrontEndModules.getAdTargetingConfig(JSON.parse(document.getElementById('page-data').innerHTML)).then(a=>{window.ytVideoAdTargetingConfig=a;if(window.ytVideoAdTargetingConfig.adTargetingParamsWithIas){window.ytVideoAdTargetingConfig.adTargetingParams+=encodeURIComponent('&cheetah=y');window.ytVideoAdTargetingConfig.adTargetingParamsWithIas+=encodeURIComponent('&cheetah=y')};window.dispatchEvent(ytAdTargetingLoadEvent)}).catch(a=>{console.error(a)})};var locSrc='https://fem.gprod.postmedia.digital/v132.0/';var femOverrideFromURLParams=getFemOverrideFromURLParams();if(femOverrideFromURLParams){sessionStorage.setItem('femOverride',locSrc)}else{var sessionLocSrc=sessionStorage.getItem('femOverride');if(sessionLocSrc){locSrc=sessionLocSrc}};modern_script_elem=document.createElement('script');modern_script_elem.async=true;modern_script_elem.type="module";modern_script_elem.onload=script_onload;modern_script_elem.src=locSrc+ 'fem.js';document.head.appendChild(modern_script_elem)</script><script>var jwDataStore=window.jwDataStore||{custom:{}}</script><script src="https://tags.qortex.ai/bootstrapper?group-id=a3PmJ0rD2E6wwBHJVRNsuw&video-container=jw-qortex-target|cnx-main-container&continuous-load=true"defer></script><script id=admiral-script>!(function(j,_name){j[_name]=j[_name]||function e(){(e.q=e.q||[]).push(arguments)},j[_name].v=j[_name].v||2,j[_name].s="3";!(function(j,e,M,U){function T(M,U){try{T=j.localStorage,(M=JSON.parse(T[decodeURI(decodeURI('%67%25%36%35%74%25%349%74em'))]("_aQS02NjE0MzhFMDk5NDM3RkEwOTE1QzQ2NkUtNTE")).lgk||[])&&(U=j[e].pubads())&&M.forEach((function(j){j&&j[0]&&U.setTargeting(j[0],j[1]||"")}))}catch(q){}var T}try{(U=j[e]=j[e]||{}).cmd=U.cmd||[],typeof U.pubads===M?T():typeof U.cmd.unshift===M?U.cmd.unshift(T):U.cmd.push(T)}catch(q){}})(window,decodeURI(decodeURI('g%6fo%67l%25%365%25%37%34%61%67')),"function");;})(window,decodeURI(decodeURI('%256%31%2564%25%36di%25%372%25%361%25%36c')));!(function(j,e,M,U){M=j.createElement(e),j=j.getElementsByTagName(e)[0],M.async=1,M.src="https://kindhush.com/files/h4gi62szb3c1.min.js",(U=0)&&U(M),j.parentNode.insertBefore(M,j)})(document,"script");
         if (window.admiral !== undefined) {
@@ -158,66 +158,66 @@ window.admiral("targeting", "set", "isSubscribed", isSubscribed.toString());
     </button>
 </script></div></div></div><div class="identity-screen-offer hidden"id=identity-screen-offer></div><div class="identity-screen__more-offer hidden"><a class=identity__link href=/subscribe> View more offers</a></div><footer class="identity-footer identity-screen__content m-x-0 p-x-0 col-sm-6 col-md-12"><div class=identity-footer__active-link>If you are a Home delivery print subscriber, online access is <strong>included</strong> in your subscription. <a class="identity__link identity-footer__link"href=/activate/> Activate your Online Access Now</a></div></footer></div></section></div><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class="ad__section-border article-content__ad-group ad_counter_1"><script class=lazy-loaded-ad><section class="ad"
              aria-describedby="advertisment5423139741193452533877186110685184">
-        
+
             <button class="close-sticky-ad"
                     style="display:none"
                     aria-label="Close sticky ad"><svg class="icon--close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12" version="1.1">
   <polygon points="12 0.95 11.05 0 6 5.05 0.95 0 0 0.95 5.05 6 0 11.05 0.95 12 6 6.95 11.05 12 12 11.05 6.95 6"/>
 </svg>
 </button>
-        
-        
+
+
         <div id="advertisment5423139741193452533877186110685184" class="visually-hidden">Advertisement 1</div>
         <div class="ad__container ">
-            
+
             <div class="ad__label">
-                
+
                     <div class="ad__label__left"></div>
                     <div class="ad__label__center">
-                        
-                            
+
+
                                 Story continues below
-                            
-                        
+
+
                     </div>
                     <div class="ad__label__right"></div>
-                
+
             </div>
-            
+
             <div id="ad__inner-1"
                  class="ad__inner ">
-            
+
             <div data-aqa="advertisement"
-                
-                
+
+
                     data-ad-mobile="[[6,6],[320,50],[300,50],[300,250],[300,600]]"
-                    
+
                         data-is-v2="True"
-                        
-                        
+
+
                             data-ad-loc="in1"
                             id="ad-in1"
                             data-ad="[[728,90],[300,250]]"
-                        
-                    
-                    
-                
-                
+
+
+
+
+
                 class="ad__inner__container"
                 style="--desktopHeight:90px;--mobileHeight:600px"
                 >
-                
-                
+
+
                     <div class="ad__placeholder" aria-hidden="true">
                         <div class="placeholder-inner">
-                            
+
                                 This advertisement has not loaded yet, but your article continues below.
-                            
+
                         </div>
                     </div>
-                
+
             </div>
-            
+
             </div>
         </div>
     </section>
@@ -235,59 +235,59 @@ if (template && !template.dataset.adInjected) {
             }
         });</script></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class=story-v2-content-element-inline><p>MindGeek is a porn provider. Or more accurately, <em>the</em> porn provider. MindGeek has become the porn monopoly, putting industry members in the paradoxical position of working for the very company that profits from the piracy of their work. The MindGeek hydra exerts so much force that people in the online-porn industry are scared to talk about it for fear of blacklisting. And MindGeek’s dominance should serve as a cautionary tale of the dangers of consolidating production and distribution in a single monopolistic owner.</p></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class=story-v2-content-element-inline></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class=story-v2-content-element-inline><div class=embedded-video data-aqa=embed-video><div class=video-placeholder><img alt=Loading... height=64 loading=lazy src=https://dcs-static.gprod.postmedia.digital/19.5.1/websites/images/common/icon-spinner-animated.svg width=64></div><div fallback><div class=video-fallback><div class=video-fallback-line-1>We apologize, but this video has failed to load.</div><div>Try refreshing your browser, or<br><a title="Video Centre"href=/video-centre/>tap here to see other videos from our team</a>.</div></div></div><button class=video-controls type=button>Play Video</button><div data-evt-val='{"control_fields": {"mparticle": {"keys": {"video_autoplay": "video_autoplay", "video_location": "video_location", "video_platform": "video_platform", "video_id": "video_id"}, "extra_keys": []}}, "video_autoplay": "false", "video_location": "story paragraph", "video_platform": "YouTube", "video_id": "c3BDG-qfuvw"}'class=youtube-iframe data-autoplay=False data-channel-id=UC5Vzc-I--guzURose4X6lKQ data-controls=True data-host=nationalpost.com data-is-jw-strategy=False data-jw-strategy-playlist-id data-loc data-loop=False data-mute=False data-playlist-type data-position=inline data-provider=youtube data-single-video-component data-version=Za4Fxrvg data-video-id=c3BDG-qfuvw id=player-c3BDG-qfuvw></div></div></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class=story-v2-content-element-inline><div class="js-widget-content article-content__widget-group article-content__widget-group--content-slot6 article-content__widget-group--newsletter-slot newsletter--indent"><section class="newsletter-widget__new-story-page np-headlinenews background--primary-light-gradient"aria-labelledby=NPPosted1127181159434145085733199373402112 data-account-id=b9d3df2fccd108b5eff3c44f573b2cd6 data-aqa=widget-newsletter data-newsletter=single data-newsletter-component data-target-list=NP_HeadlineNews data-widget=newsletter><div class=newsletter-new-story-page-template><div class=newsletter-widget__header__new-story-page><div class=newsletter-widget__banner__new-story-page><img alt=Posted loading=lazy src=https://dcs-static.gprod.postmedia.digital/19.5.1/websites/images/newsletters/icon-np-posted.svg></div><div><div class="h2 newsletter-widget__title__new-story-page"id=NPPosted1127181159434145085733199373402112>NP Posted</div><p class=newsletter-widget__text__new-story-page>Get a dash of perspective along with the trending news of the day in a very readable format.</p></div></div><div class=newsletter-widget__body__new-story-page><div class=js-replace-main__new-story-page><form aria-describedby="submitErrorNP_HeadlineNews submitSuccessNP_HeadlineNews"class="js-newsletter-form form-container newsletter-widget__form__new-story-page newsletter-widget__form__new-story-page__inline"data-evt-val='{"form_name": "Newsletter", "control_fields": {"mparticle": {"keys": {"form_name": "form_name"}, "mp_event_type": "Other"}}}'action=# data-evt=focusin data-evt-typ=form_interaction novalidate><input name=csrfmiddlewaretoken type=hidden value=Um0aTgDPVgGOWqksOFiN2LFGkObIU83A2Znw5XkXHNGXr5wg6eKEqwQd8jCdpd7p><div class="form-container__field__new-story-page js-newsletter-email__field"><input aria-label="Email Address"class="form__control js-newsletter-email"aria-describedby=emailErrorNP_HeadlineNews aria-invalid=false aria-required=true autocomplete=email id=emailNP_HeadlineNews name=newsletterEmailNP_HeadlineNews placeholder=youremail@email.com required type=email><div class="form-container__message--error js-invalid-email"hidden id=emailErrorNP_HeadlineNews><ul class=errorlist><li>There was an error, please provide a valid email address.</li></ul></div></div><button class="button button--mastheads">Sign Up</button></form><p class="newsletter-widget__disclaimer__new-story-page text-size--tiny">By signing up you consent to receive the above newsletter from Postmedia Network Inc.</p></div><div class=js-submit-success hidden id=submitSuccessNP_HeadlineNews><div class="h3 newsletter__feedback--heading">Thanks for signing up!</div><p class=newsletter-widget__text__new-story-page>A welcome email is on its way. If you don't see it, please check your junk folder.</p><p class="newsletter-widget__text__new-story-page newsletter__feedback--last">The next issue of NP Posted will soon be in your inbox.</p></div><p class="newsletter-widget__text__new-story-page js-submit-error"hidden id=submitErrorNP_HeadlineNews style=margin-top:8px>We encountered an issue signing you up. Please try again</p></div><div class=newsletter-widget__footer><p>Interested in more newsletters? <a class=newsletter-link href=/newsletters>Browse here.</a></p></div></div></section></div></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class=story-v2-content-element-inline><p>Specifically, MindGeek owns a large number of porn aggregator “tube sites” (so named because they mimic YouTube’s format) such as Pornhub, YouPorn, and Redtube, which serve up huge amounts of free porn funded by ads. According to porn-industry blogger Mike South, MindGeek now owns eight of the top 10 of these aggregator sites (the exceptions being xHamster and Xvideos). These sites, whether owned by MindGeek or not, notoriously host a <em>lot</em> of pirated content. While each individual tube site responds to Digital Millennium Copyright Act (DMCA) takedown requests, most porn producers do not have the resources of movie studios or record labels to monitor piracy; according to adult film star Siri, MindGeek’s sites “force copyright holders to jump through hoops to get our content removed.” South told me that consequently, production of porn films is down 75 percent from where it was eight years ago, and DVD sales down 50 percent in that time. The general sentiment is that the porn business crash around 2008 was due to the rise of widescale piracy on tube sites and torrents, an increase in amateur porn, and the Great Recession.</p></div></section><section class="story-v2-content-element article-content__content-group article-content__content-group--story"><div class=visually-hidden>Article content</div><div class="ad__section-border article-content__ad-group ad_counter_2"><script class=lazy-loaded-ad><section class="ad"
              aria-describedby="advertisment7624704825386139559658628017291264">
-        
-        
+
+
         <div id="advertisment7624704825386139559658628017291264" class="visually-hidden">Advertisement 2</div>
         <div class="ad__container ">
-            
+
             <div class="ad__label">
-                
+
                     <div class="ad__label__left"></div>
                     <div class="ad__label__center">
-                        
-                            
+
+
                                 Story continues below
-                            
-                        
+
+
                     </div>
                     <div class="ad__label__right"></div>
-                
+
             </div>
-            
+
             <div id="ad__inner-2"
                  class="ad__inner ">
-            
+
             <div data-aqa="advertisement"
-                
-                
+
+
                     data-ad-mobile="[[7,7],[300,250],[320,50],[300,50]]"
-                    
+
                         data-is-v2="True"
-                        
-                        
+
+
                             data-ad-loc="in2"
                             id="ad-in2"
                             data-ad="[[728,90],[300,250]]"
-                        
-                    
-                    
-                
-                
+
+
+
+
+
                 class="ad__inner__container"
                 style="--desktopHeight:250px;--mobileHeight:250px"
                 >
-                
-                
+
+
                     <div class="ad__placeholder" aria-hidden="true">
                         <div class="placeholder-inner">
-                            
+
                                 This advertisement has not loaded yet, but your article continues below.
-                            
+
                         </div>
                     </div>
-                
+
             </div>
-            
+
             </div>
         </div>
     </section>

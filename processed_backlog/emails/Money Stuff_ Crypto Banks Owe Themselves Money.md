@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Intuitively, the way an unregulated bank works is something like this. You — the shareholder and chief executive officer — start a bank and 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        Intuitively, the way an unregulated bank works is something like this. You — the shareholder and chief executive officer — start a bank and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Gemini vs. Genesis
-    
-  
+
+
 
 Intuitively, the way an unregulated bank works is something like this. You — the shareholder and chief executive officer — start a bank and put up $10 of your own money as initial capital. The bank has $10 of shareholder equity, takes $100 of deposits and makes $110 of loans. If the loans get paid back with interest, then the bank ends up with, say, $116, it pays $103 to its depositors (with interest), and you get your $10 back with $3 of profits. If $20 worth of the loans default, then the bank has only $90 (plus some interest, so, say, $94); the depositors get back 94 cents on the dollar and you lose everything.
 But this all happens over time. The bank borrows short to lend long: The depositors can ask for their money back at any time, but most days most of them don’t, so the bank can make long-term loans that pay higher interest. One thing this means is that if all of the bank’s loans are perfectly good, but all the depositors ask for their money back at once, the bank won’t have it; it will have to sell its loans at discounted prices to raise money, and the depositors will end up getting back less than they put in. The “run on the bank” will itself cause the depositors (and shareholders) to lose money.
@@ -94,89 +94,89 @@ I disagree? The note was a complete gimmick that obviously improved Genesis’s
  If DCG had not given Genesis this IOU, then Genesis would have been insolvent, its investors would have demanded their money back, there would have been a run on the bank and that would have been very bad for liquidity. But it did give Genesis the IOU, so nobody demanded their money back, so liquidity was fine! It’s a gimmick, sure, but it’s sort of the standard gimmick of crypto shadow banking, and it … uh … well, I guess it could work?
 It ended up not working all that well here. As I said above, for this gimmick to work, you need two things: The market has to trust the IOU, and you have to stop losing money on bad loans. As far as I can tell, Genesis satisfied the first condition: DCG wrote it a $1.1 billion IOU in July, and customers like the Winklevoss twins decided that was good enough, so  they did not withdraw their (clients’) money. But it did not satisfy the second: When FTX collapsed in November, Genesis had more exposure, and had to shut down withdrawals anyway. If you trusted the IOU in July, you probably feel foolish now. Winklevoss sure seems to.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       WWE
-    
-  
+
+
 
 There are some public companies where the chief executive officer (and, usually, founder) is also the controlling shareholder. This creates a weird dynamic for those companies’ boards. What if the CEO does something bad, and the board concludes that he should no longer run the company? Ordinarily, in that scenario, the board would fire the CEO. But here the CEO is the controlling shareholder, and he can fire the board. 
 There is a correct answer here, which is that, if the board concludes that it is no longer in the best interests of the company and its shareholders for the CEO to be in charge, they should fire him. They have a fiduciary duty to run the company with loyalty and care; they can’t make a decision that they think is wrong just because they’re afraid of losing their board seats. Then of course the CEO — er, ex-CEO — can fire them, and re-hire himself,  but that’s life:
@@ -202,20 +202,20 @@ Board: Sure do, boss, welcome back!
 But in fact McMahon’s letters to the board barely mention his ability to fire the directors; they letters are all about what is best for the company and its shareholders. And the board said no to him, even though he could fire them, and quickly did.
 One takeaway might just be that everyone here has good lawyers: You always want to create a good record, in which everyone says that they are motivated only by shareholder value and not by raw power. Also, though, if you are a director who got rid of McMahon, and he wants to come back, what is the upside to saying yes? You won’t have a pleasant time at board meetings; presumably he’ll still be mad at you for getting rid of him. And if things go poorly, shareholders will complain: “You thought he was a danger to the company when he left, but then you let him back a few months later?” Really the simplest solution is to have him fire you so you don’t have deal with it anymore.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       VC
-    
-  
+
+
 
 Here is a funny Wall Street Journal story about venture capital incentives:
 
@@ -241,11 +241,11 @@ The SEC inquiries do not indicate wrongdoing and Reuters could not ascertain if 
 
 If the answer is “our diligence process consisted of looking at our ‘anti-portfolio’ web page for five minutes, pondering its implications, shrugging, saying ‘meh I’m sure it’s fine’ and writing a check,” would that be bad? Is that not what the limited partners wanted? 
 
-  
-    
+
+
       Elon vs. California
-    
-  
+
+
 
 One interesting and  possibly even true thing that I learned in law school is that “a jury of one’s peers” was not, originally, meant to be an impartial jury. In medieval times, the idea of rounding up a bunch of locals to decide whether or not you did a crime was that they knew you; they would be more familiar with the facts and personalities than some professional representative of the distant king; they could evaluate your testimony and use their own contextual knowledge to figure out what happened. And so if you were notorious throughout your shire as a bad guy, and you were accused of something bad, the jury of local notables might figure you’re a bad guy so you probably did it, and that was entirely allowed and kind of the point.
 The legal system has evolved since medieval times. Now, in the US, it is much more self-contained and clinical: Verdicts are supposed to be based only on the facts presented in court, and jurors are supposed to be unbiased and tabulae rasae. And so if you get sued, you get to strike potential jurors who have some personal animus against you, and you can even argue that the trial should be moved somewhere else because it will be too hard to find unbiased jurors.  For instance: 
@@ -261,15 +261,15 @@ Quinn Emanuel Urquhart & Sullivan partner Alex Spiro, who has represented Musk i
 I don’t know, man. This makes me more sympathetic to the medieval system. If you get sued in California, it seems a little wrong to argue “no, I can’t be sued in California, everyone in California hates me and has had negative experiences with me, so no one in the whole state can fairly judge me.” If you’ve been mean to everyone in the state, then in a sense they can fairly judge you; you just don’t like the judgment. And sure there is a technical sense in which you can say “I have done mean things to everyone in California, but not securities fraud, but if you let 12 random Californians decide if I have done securities fraud, they will say yes, because they dislike me for other reasons, and that is unfair.” But the medieval view would be “ehh actually that’s fair enough.”
 Also think about the incentives! If you do a little bad stuff in California, you might get sued and lose. Doing bad stuff to one or two or 10,000 people in California could get you in trouble and cost you money. But if you do a lot of bad stuff in California — if you do something bad to 39 million Californians — then you can say “nuh uh, can’t sue me in California, everyone here hates me,” and transfer the lawsuit to somewhere else where they like you more. If you have done securities fraud to some people in California, and they sue you, your best defense might be to offend everyone else in California. If you are the second-richest person in the world and on Twitter a lot, you can probably manage that! (Buy all their companies and fire them, etc.) But it doesn’t seem like something we want to encourage.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 US banks set for  bumper lending profits but face end of rate rise cycle. Fall in tech stocks in 2022 helps fuel recovery for  short sellers. Microsoft eyes $10 billion  bet on ChatGPT. Goldman Draws Over $1.6 Billion to   Strictest ESG Fund Class. Bed Bath & Beyond’s Loss Exceeds Warning as Bankruptcy Looms. Sam Bankman-Fried Associate Nishad Singh Is Third to   Meet With Prosecutors. Fractional Shares, Fixed-Income Pricing to Get   Watchdog Scrutiny. Introducing   Crash Course: Elon Musk vs. the Twitterverse. Xi Jinping’s plan to  reset China’s economy and win back friends. Ghost Banks Limp Along in Argentina, Staying Open as Costly ATMs.  Private jet business soars despite commercial airline revival. US lawyers’  billable hours hit low point amid deal drought.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] It’s documented as a loan, but no cash flowed out; it’s just a promise to pay. If you like, you can make it a loan of $20 of cash, but the cash is used to buy shares in the bank, putting the money back into the bank.
 
 
@@ -279,114 +279,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] I mean, if you’re a reasonably sensible venture capital firm. In fact it is possible, in the world, for investments to do worse than negative 100%; if you invest $10 million in a company, lose the money, and get fined $100 million for something it did, then that’s a negative 1,100% return. It is pretty hard to get that sort of result in venture capital; you’ll generally be careful about having limited liability. But I would not entirely rule it out.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

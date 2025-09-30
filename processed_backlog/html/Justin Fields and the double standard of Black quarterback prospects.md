@@ -3,96 +3,96 @@
 **Source:** inputs/New Docs/reader/theundefeated.com_features_justin-fields-and-the-double-standard-of-black-quarterback-prospects-nfl-draft.html
 **Processed:** 2025-08-24T19:14:16.125714
 
-In late September 2018, when Justin Fields and the Georgia football team were playing a home game against Tennessee, then-Bulldogs baseball player Adam Sasser was sitting in the stands of Sanford Stadium. At some point in the fourth quarter, with Georgia having built a commanding lead, Sasser began yelling for Georgia head coach Kirby Smart to replace starting quarterback Jake Fromm with high-profile freshman Fields, a two-sport star who was also Sasser’s future teammate on the baseball team.  
-  
-According to a fellow student who was present in the stands, Sasser continuously yelled “put that n—– in the game,” in reference to Fields.  
-  
-While Sasser apologized and was later dismissed from the baseball program, the incident is but one instance among many that highlight the racist environment that Black men like Fields are subjected to by deciding to play quarterback. There are overt instances of racism like those expressed by Sasser. But also, in the case of the lead-up to this week’s NFL draft, covert forms of racism in the evaluation process tend to favor whiteness.  
-  
-Make no mistake, Fields will be one of the first five quarterbacks taken in the draft. But the fact that he started the college season as the consensus No. 2 quarterback prospect, before inexplicably dropping as low as the fifth quarterback at times in some mock drafts – behind two white players with lesser pedigrees – is an indictment of an antiquated system as it pertains to Black quarterbacks.  
-  
-There’s no point in putting too much stock in college stats and accolades when it comes to draft prospects. Names such as Johnny Manziel, Tim Tebow and Eric Crouch broke conference and national records and have won the Heisman Trophy, after all. But for Fields, and for this draft in particular, it’s worth mentioning what sort of player is being discussed. After transferring out of Georgia a few months after Sasser’s comments, Fields landed at Ohio State, where he proceeded to:  
-  
-Become the first Big Ten player to throw for 40 touchdowns and rush for 10 touchdowns in a single season (2019).  
-  
-Lead the nation in touchdown-to-interception ratio (2019).  
-  
-Win two Big Ten championships.  
-  
-Play in two College Football Playoff semifinal games (throwing a school bowl-record six touchdowns in the 2020 semifinal) and the 2020 national championship.  
-  
-Throw for 63 touchdowns against just nine interceptions (68.3 completion percentage) and rush for 15 scores in 22 games, in which the team had a 20-2 record, the only losses coming in the playoff.  
-  
-Win Big Ten championship (2019) and Sugar Bowl (2020) MVP awards, and place third in Heisman Trophy voting (2019).  
-  
-After outperforming consensus No. 1 pick Trevor Lawrence in last season’s Sugar Bowl, Fields appeared to have cemented his spot in the draft: ESPN’s Mel Kiper Jr. ranked him as the No. 2 quarterback prospect by the time Fields declared for the draft in mid-January. And then no more games were played and no more passes thrown.  
-  
-Due to the coronavirus pandemic, the NFL forbade in-person timing, testing and interviewing of prospects until official pro days in March. For two months, opinions on draft prospects would have no reason to change. Until they did.  
-  
-Related Story How Seattle’s Richard Sherman pick in 2011 changed the next 10 years of the NFL Read now  
-  
-Enter: BYU’s Zach Wilson and Alabama’s Mac Jones.  
-  
-According to ESPN’s NFL Draft Day Predictor, which forecasts the range of draft outcomes for NFL prospects (based on mock drafts, team needs and Scouts Inc. grades), Fields has a 25.1% chance of still being available at pick No. 9, compared to less than 1% for Jones. Wilson, expected to go No. 2 to the New York Jets, is at 0%.  
-  
-We can leave the draft evaluating to the experts, but with zero explanation, two white quarterbacks with comparable or lesser resumes than Fields were suddenly can’t-miss picks. Whether that is true is irrelevant; it’s more about what happened to Fields since he declared for the draft that exposes the draft process – and the entire football-industrial complex – for the, let’s say, racial institution that it is.  
-  
-According to various media reports, two things are currently being held against Fields: intelligence and attitude.  
-  
-Some NFL teams told Pro Football Network draft analyst Tony Pauline in February that “while [Fields] is a great physical specimen and he’s got tremendous arm strength, and is a great arm talent, they think that there is a concern there about staring down a primary target and not being able to process things that quickly.”  
-  
-Weeks later, ESPN analyst Dan Orlovsky relayed information he had been told as well, only about Fields’ supposed lack of leadership qualities: “He is a last-guy-in, first-guy-out type of quarterback. Like, not the maniacal work ethic. I’ve even heard it compared to Justin Herbert, where it was like, dude, when [white Los Angeles Chargers quarterback] Justin Herbert showed up, he was like a psychopath when it came to working and get ready for the draft. Or even at school, like, ‘Give me more, I want to work nonstop.’ And I’ve heard that there are issues with Justin Fields’ work ethic.”  
-  
-Ohio State Buckeyes quarterback Justin Fields (1) runs with the ball during the CFP National Championship game between the Alabama Crimson Tide and the Ohio State Buckeyes on January 11, 2021 at Hard Rock Stadium in Miami Gardens, Fl. David Rosenblum/Icon Sportswire via Getty Images  
-  
-According to these anonymous personnel, Fields, a Black man, struggles to “process things” and is both selfish and doesn’t have the work ethic of a white man. The dog whistle is screeching.  
-  
-But anyone who has been following professional football shouldn’t be surprised by this. Race has always been a justification for barring Black players from playing certain positions, coaching or managing teams, or even playing in the sport altogether. NFL owners imposed a “gentlemen’s agreement” between the 1930s and 1946 that prevented African Americans from being able to play in the league.  
-  
-But when it comes to Black quarterbacks in particular, the NFL has long gone out of its way to keep the position as white as the painted yard lines on the field. Quarterbacks are expected to be smart, rational decision-makers who command a team and act as the de facto coach on the field. Accuracy and strong arms are a plus, but it mostly comes down to what’s between your ears rather than any other physical attribute. As the authors of The Bell Curve would have you believe, few Black men possess those attributes.  
-  
-Academic research, such as the work of Lawrence A. Wenner and John Girdwood, has shown that Black men are perceived as ignorant, lazy and unable to be team leaders or coaches due to lacking the intelligence to prosper in those positions. Marlin Briscoe was the first Black man to start in the NFL’s modern era, passing for a Denver Broncos rookie-record 14 touchdowns, a record that still stands, but was pushed out of the position after one season. Warren Moon, still the lone Black quarterback in the Pro Football Hall of Fame, spent his first six seasons in the Canadian Football League because teams didn’t believe his skills would translate from college to the pros. We’re all well aware of what was said about the Baltimore Ravens’ Lamar Jackson.  
-  
-Related Story FAMU’s Calvin Ashley hopes to hear his name called during NFL draft Read now  
-  
-These stereotypes manifest themselves in how quarterbacks are evaluated. Take for instance the draft profiles of the first four white and Black quarterbacks to be drafted in 2020. Joe Burrow and Herbert, both white, had “off-the-charts football IQ” and could “[scan] crisply through full slate of progressions without panic,” respectively. But Jordan Love had “below-average decision-making against zone looks” and Jalen Hurts had “slow recognition of early-throw opportunities.”  
-  
-So when it’s said that Fields can’t “process things that quickly,” whether intended or not, that’s 1) not only tapping into racial stereotypes but also 2) factually incorrect.  
-  
-The Draft Network’s Benjamin Solak found that when Fields is forced to “process things” quickly, he’s not too bad at it. The same for USA Today’s Steven Ruiz. Pro Football Focus as well. Men lie. Women lie. The numbers don’t.  
-  
-Ron Veal, a former Arizona quarterback and Fields’ trainer since he was in sixth grade, says he sat in a room with the quarterback for eight weeks over the offseason and nothing about that assessment feels accurate to him.  
-  
-Veal, who also has trained Lawrence, compares reading defenses to learning how to drive a car. With a learner’s permit, things as simple as changing lanes or driving down a two-lane road can appear to be frightening. But the more relaxed and familiar you get with the road, at some point you’ll feel comfortable pushing the limits.  
-  
-“You just can’t do what he did and go out and play on a whim,” Veal said.  
-  
-One also can’t do what Fields did in his two years at Ohio State by not being a hard worker.  
-  
-The No. 1 stereotype as it pertains to Black male athletes is that, because they are born with “natural” athleticism, they don’t have to work as hard as their white counterparts to be successful.  
-  
-Scott Brooks, associate director of the Global Sport Institute at Arizona State University, refers to it as a “zero-sum game,” with athletes only being able to have one trait or the other: brains or brawn.  
-  
-So in the case of Fields, he coasts on his natural abilities rather than puts in the time and hard work to be the best possible version of himself, like, say Herbert or Drew Brees or Tom Brady.  
-  
-Ohio State Buckeyes quarterback Justin Fields (1) throws a pass during the CFP National Championship game between the Alabama Crimson Tide and the Ohio State Buckeyes on January 11, 2021 at Hard Rock Stadium in Miami Gardens, Fl. David Rosenblum/Icon Sportswire via Getty Images  
-  
-But, again, the facts don’t bear this out.  
-  
-When Fields was in high school, he made this statement: “I may not be the most talented, but I will work harder than the next guy and use my arms and legs and mind to extend plays and make things happen.”  
-  
-He backed that up in college.  
-  
-While on one hand, playing through injuries is one component of the exploitation of labor in college sports, Fields took a shot to the ribs in this year’s Sugar Bowl that, he later said, made “even throwing 10 yards” hurt, yet he remained in the game and suited up for the following week’s national title game. Last summer, Fields, along with other players from the Big Ten and Southeastern conferences, petitioned to play through the coronavirus pandemic even though he was already considered a top draft pick and had no reason to risk his health.  
-  
-He is the embodiment of what football culture considers toughness and leadership, yet let an anonymous football person tell it and Fields only cares about himself.  
-  
-“These notions of quarterbacks and leadership,” Brooks said, “it’s only going to look a certain way, a white privileged way of thinking and looking.”  
-  
-How Fields or any of the other top quarterbacks will actually perform in the NFL is a crapshoot: Some top picks flame out of the league before they are fully vested in their pension while sixth-rounders win seven Super Bowls. But Fields – and to an extent, North Dakota State’s Trey Lance – illustrate the double standard that Black quarterbacks face when trying to obtain a job in the NFL.  
-  
-Aside from a tweet here and there about social justice issues, Fields appears to have done everything he could to just be a quarterback – not the Black quarterback. He talks constantly about how hard he’s worked. He risked his safety to play in a season that, it turns out, wouldn’t even benefit him. He, unlike Lawrence, didn’t tell Sports Illustrated that winning isn’t everything to him. It’s because he can’t afford to.  
-  
-Despite all that, Fields’ intelligence and dedication were still questioned. Fields has been considered one of the top quarterbacks since he was a junior in high school and has lived up to every expectation of him, yet here are Wilson and Jones leapfrogging him.  
-  
+In late September 2018, when Justin Fields and the Georgia football team were playing a home game against Tennessee, then-Bulldogs baseball player Adam Sasser was sitting in the stands of Sanford Stadium. At some point in the fourth quarter, with Georgia having built a commanding lead, Sasser began yelling for Georgia head coach Kirby Smart to replace starting quarterback Jake Fromm with high-profile freshman Fields, a two-sport star who was also Sasser’s future teammate on the baseball team.
+
+According to a fellow student who was present in the stands, Sasser continuously yelled “put that n—– in the game,” in reference to Fields.
+
+While Sasser apologized and was later dismissed from the baseball program, the incident is but one instance among many that highlight the racist environment that Black men like Fields are subjected to by deciding to play quarterback. There are overt instances of racism like those expressed by Sasser. But also, in the case of the lead-up to this week’s NFL draft, covert forms of racism in the evaluation process tend to favor whiteness.
+
+Make no mistake, Fields will be one of the first five quarterbacks taken in the draft. But the fact that he started the college season as the consensus No. 2 quarterback prospect, before inexplicably dropping as low as the fifth quarterback at times in some mock drafts – behind two white players with lesser pedigrees – is an indictment of an antiquated system as it pertains to Black quarterbacks.
+
+There’s no point in putting too much stock in college stats and accolades when it comes to draft prospects. Names such as Johnny Manziel, Tim Tebow and Eric Crouch broke conference and national records and have won the Heisman Trophy, after all. But for Fields, and for this draft in particular, it’s worth mentioning what sort of player is being discussed. After transferring out of Georgia a few months after Sasser’s comments, Fields landed at Ohio State, where he proceeded to:
+
+Become the first Big Ten player to throw for 40 touchdowns and rush for 10 touchdowns in a single season (2019).
+
+Lead the nation in touchdown-to-interception ratio (2019).
+
+Win two Big Ten championships.
+
+Play in two College Football Playoff semifinal games (throwing a school bowl-record six touchdowns in the 2020 semifinal) and the 2020 national championship.
+
+Throw for 63 touchdowns against just nine interceptions (68.3 completion percentage) and rush for 15 scores in 22 games, in which the team had a 20-2 record, the only losses coming in the playoff.
+
+Win Big Ten championship (2019) and Sugar Bowl (2020) MVP awards, and place third in Heisman Trophy voting (2019).
+
+After outperforming consensus No. 1 pick Trevor Lawrence in last season’s Sugar Bowl, Fields appeared to have cemented his spot in the draft: ESPN’s Mel Kiper Jr. ranked him as the No. 2 quarterback prospect by the time Fields declared for the draft in mid-January. And then no more games were played and no more passes thrown.
+
+Due to the coronavirus pandemic, the NFL forbade in-person timing, testing and interviewing of prospects until official pro days in March. For two months, opinions on draft prospects would have no reason to change. Until they did.
+
+Related Story How Seattle’s Richard Sherman pick in 2011 changed the next 10 years of the NFL Read now
+
+Enter: BYU’s Zach Wilson and Alabama’s Mac Jones.
+
+According to ESPN’s NFL Draft Day Predictor, which forecasts the range of draft outcomes for NFL prospects (based on mock drafts, team needs and Scouts Inc. grades), Fields has a 25.1% chance of still being available at pick No. 9, compared to less than 1% for Jones. Wilson, expected to go No. 2 to the New York Jets, is at 0%.
+
+We can leave the draft evaluating to the experts, but with zero explanation, two white quarterbacks with comparable or lesser resumes than Fields were suddenly can’t-miss picks. Whether that is true is irrelevant; it’s more about what happened to Fields since he declared for the draft that exposes the draft process – and the entire football-industrial complex – for the, let’s say, racial institution that it is.
+
+According to various media reports, two things are currently being held against Fields: intelligence and attitude.
+
+Some NFL teams told Pro Football Network draft analyst Tony Pauline in February that “while [Fields] is a great physical specimen and he’s got tremendous arm strength, and is a great arm talent, they think that there is a concern there about staring down a primary target and not being able to process things that quickly.”
+
+Weeks later, ESPN analyst Dan Orlovsky relayed information he had been told as well, only about Fields’ supposed lack of leadership qualities: “He is a last-guy-in, first-guy-out type of quarterback. Like, not the maniacal work ethic. I’ve even heard it compared to Justin Herbert, where it was like, dude, when [white Los Angeles Chargers quarterback] Justin Herbert showed up, he was like a psychopath when it came to working and get ready for the draft. Or even at school, like, ‘Give me more, I want to work nonstop.’ And I’ve heard that there are issues with Justin Fields’ work ethic.”
+
+Ohio State Buckeyes quarterback Justin Fields (1) runs with the ball during the CFP National Championship game between the Alabama Crimson Tide and the Ohio State Buckeyes on January 11, 2021 at Hard Rock Stadium in Miami Gardens, Fl. David Rosenblum/Icon Sportswire via Getty Images
+
+According to these anonymous personnel, Fields, a Black man, struggles to “process things” and is both selfish and doesn’t have the work ethic of a white man. The dog whistle is screeching.
+
+But anyone who has been following professional football shouldn’t be surprised by this. Race has always been a justification for barring Black players from playing certain positions, coaching or managing teams, or even playing in the sport altogether. NFL owners imposed a “gentlemen’s agreement” between the 1930s and 1946 that prevented African Americans from being able to play in the league.
+
+But when it comes to Black quarterbacks in particular, the NFL has long gone out of its way to keep the position as white as the painted yard lines on the field. Quarterbacks are expected to be smart, rational decision-makers who command a team and act as the de facto coach on the field. Accuracy and strong arms are a plus, but it mostly comes down to what’s between your ears rather than any other physical attribute. As the authors of The Bell Curve would have you believe, few Black men possess those attributes.
+
+Academic research, such as the work of Lawrence A. Wenner and John Girdwood, has shown that Black men are perceived as ignorant, lazy and unable to be team leaders or coaches due to lacking the intelligence to prosper in those positions. Marlin Briscoe was the first Black man to start in the NFL’s modern era, passing for a Denver Broncos rookie-record 14 touchdowns, a record that still stands, but was pushed out of the position after one season. Warren Moon, still the lone Black quarterback in the Pro Football Hall of Fame, spent his first six seasons in the Canadian Football League because teams didn’t believe his skills would translate from college to the pros. We’re all well aware of what was said about the Baltimore Ravens’ Lamar Jackson.
+
+Related Story FAMU’s Calvin Ashley hopes to hear his name called during NFL draft Read now
+
+These stereotypes manifest themselves in how quarterbacks are evaluated. Take for instance the draft profiles of the first four white and Black quarterbacks to be drafted in 2020. Joe Burrow and Herbert, both white, had “off-the-charts football IQ” and could “[scan] crisply through full slate of progressions without panic,” respectively. But Jordan Love had “below-average decision-making against zone looks” and Jalen Hurts had “slow recognition of early-throw opportunities.”
+
+So when it’s said that Fields can’t “process things that quickly,” whether intended or not, that’s 1) not only tapping into racial stereotypes but also 2) factually incorrect.
+
+The Draft Network’s Benjamin Solak found that when Fields is forced to “process things” quickly, he’s not too bad at it. The same for USA Today’s Steven Ruiz. Pro Football Focus as well. Men lie. Women lie. The numbers don’t.
+
+Ron Veal, a former Arizona quarterback and Fields’ trainer since he was in sixth grade, says he sat in a room with the quarterback for eight weeks over the offseason and nothing about that assessment feels accurate to him.
+
+Veal, who also has trained Lawrence, compares reading defenses to learning how to drive a car. With a learner’s permit, things as simple as changing lanes or driving down a two-lane road can appear to be frightening. But the more relaxed and familiar you get with the road, at some point you’ll feel comfortable pushing the limits.
+
+“You just can’t do what he did and go out and play on a whim,” Veal said.
+
+One also can’t do what Fields did in his two years at Ohio State by not being a hard worker.
+
+The No. 1 stereotype as it pertains to Black male athletes is that, because they are born with “natural” athleticism, they don’t have to work as hard as their white counterparts to be successful.
+
+Scott Brooks, associate director of the Global Sport Institute at Arizona State University, refers to it as a “zero-sum game,” with athletes only being able to have one trait or the other: brains or brawn.
+
+So in the case of Fields, he coasts on his natural abilities rather than puts in the time and hard work to be the best possible version of himself, like, say Herbert or Drew Brees or Tom Brady.
+
+Ohio State Buckeyes quarterback Justin Fields (1) throws a pass during the CFP National Championship game between the Alabama Crimson Tide and the Ohio State Buckeyes on January 11, 2021 at Hard Rock Stadium in Miami Gardens, Fl. David Rosenblum/Icon Sportswire via Getty Images
+
+But, again, the facts don’t bear this out.
+
+When Fields was in high school, he made this statement: “I may not be the most talented, but I will work harder than the next guy and use my arms and legs and mind to extend plays and make things happen.”
+
+He backed that up in college.
+
+While on one hand, playing through injuries is one component of the exploitation of labor in college sports, Fields took a shot to the ribs in this year’s Sugar Bowl that, he later said, made “even throwing 10 yards” hurt, yet he remained in the game and suited up for the following week’s national title game. Last summer, Fields, along with other players from the Big Ten and Southeastern conferences, petitioned to play through the coronavirus pandemic even though he was already considered a top draft pick and had no reason to risk his health.
+
+He is the embodiment of what football culture considers toughness and leadership, yet let an anonymous football person tell it and Fields only cares about himself.
+
+“These notions of quarterbacks and leadership,” Brooks said, “it’s only going to look a certain way, a white privileged way of thinking and looking.”
+
+How Fields or any of the other top quarterbacks will actually perform in the NFL is a crapshoot: Some top picks flame out of the league before they are fully vested in their pension while sixth-rounders win seven Super Bowls. But Fields – and to an extent, North Dakota State’s Trey Lance – illustrate the double standard that Black quarterbacks face when trying to obtain a job in the NFL.
+
+Aside from a tweet here and there about social justice issues, Fields appears to have done everything he could to just be a quarterback – not the Black quarterback. He talks constantly about how hard he’s worked. He risked his safety to play in a season that, it turns out, wouldn’t even benefit him. He, unlike Lawrence, didn’t tell Sports Illustrated that winning isn’t everything to him. It’s because he can’t afford to.
+
+Despite all that, Fields’ intelligence and dedication were still questioned. Fields has been considered one of the top quarterbacks since he was a junior in high school and has lived up to every expectation of him, yet here are Wilson and Jones leapfrogging him.
+
 What Fields may have learned over these last three months is what nearly every Black person does trying to live in American society: No matter what you do, all anyone sees is that you’re Black.

@@ -3,9 +3,9 @@
 **URL:** https://www.linkedin.com/pulse/philanthropy-media-time-more-creativity-sam-gill-stiye
 **Processed:** 2025-08-24T19:15:01.450320
 
-In 2022, we were proud to join a distinguished group of foundations and media organizations in supporting the launch of creative accelerator Rideback RISE. Founded by Netflix Chairman of Film 
+In 2022, we were proud to join a distinguished group of foundations and media organizations in supporting the launch of creative accelerator Rideback RISE. Founded by Netflix Chairman of Film
  Dan Lin
- and led by veteran media executive 
+ and led by veteran media executive
 [Diana Mogollon](https://www.linkedin.com/in/dianamogollon?trk=article-ssr-frontend-pulse_little-mention)
  , [Rideback RISE](https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fridebackrise%2Eorg%2F&urlhash=_UHo&trk=article-ssr-frontend-pulse_little-text-block) seeks to ensure the people making popular entertainment reflect the diversity of our country.
 

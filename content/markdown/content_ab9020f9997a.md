@@ -44,7 +44,7 @@
   </script>
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 <!-- Google Tag Manager for WordPress by gtm4wp.com -->
 <script data-cfasync="false" data-pagespeed-no-defer>
 	var gtm4wp_datalayer_name = "dataLayer";
@@ -126,16 +126,16 @@ a2a_config.callbacks.push({
 			var title = data.title;
 			var t_url = data.url;
 			var override = false;
-			if( title.includes(he.decode(EOSArticle.article.title)) && 
+			if( title.includes(he.decode(EOSArticle.article.title)) &&
 			   "" !== EOSArticle.twitter && null !== EOSArticle.twitter) {
 				title = EOSArticle.twitter;
 				override = true;
 				a2a_config.templates.twitter.via = '';
 			}
 			if( !override ) {
-  				title = title + ' ' + t_url; 
+  				title = title + ' ' + t_url;
 			}
-			
+
 			return {
 				title: title
 			}
@@ -207,7 +207,7 @@ body.custom-background { background-color: #ffffff; }
 	height:0;
 	opacity:0;
 }		</style>
-		
+
   <!-- Twitter universal website tag code -->
   <script>
   !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
@@ -218,7 +218,7 @@ body.custom-background { background-color: #ffffff; }
   twq('track','PageView');
   </script>
   <!-- End Twitter universal website tag code -->
-  
+
 </head>
 
 <body class="wp-singular wpm-article-template-default single single-wpm-article postid-36655 custom-background wp-theme-twentytwenty wp-child-theme-EOS theme-twentytwenty woocommerce-no-js singular has-post-thumbnail has-single-pagination not-showing-comments show-avatars footer-top-visible reduced-spacing">
@@ -282,7 +282,7 @@ body.custom-background { background-color: #ffffff; }
             <p class="eos-header__menu-title"></p>
 
 <ul class="eos-header__menu-wrapper">
-              
+
 <li id="menu-item-6743" class="menu-item menu-item-type-taxonomy menu-item-object-wpm-article-topic menu-item-6743"><a href="https://www.noemamag.com/article-topic/geopolitics-globalization/">Geopolitics &#038; Deglobalization</a></li>
 <li id="menu-item-579" class="menu-item menu-item-type-taxonomy menu-item-object-wpm-article-topic menu-item-579"><a href="https://www.noemamag.com/article-topic/future-of-democracy/">Future of Democracy</a></li>
 <li id="menu-item-578" class="menu-item menu-item-type-taxonomy menu-item-object-wpm-article-topic menu-item-578"><a href="https://www.noemamag.com/article-topic/digital-society/">Digital Society</a></li>
@@ -292,7 +292,7 @@ body.custom-background { background-color: #ffffff; }
             <p class="eos-header__menu-title"></p>
 
 <ul class="eos-header__menu-wrapper">
-              
+
             </ul>
           </div>
               </div>
@@ -334,7 +334,7 @@ body.custom-background { background-color: #ffffff; }
     <div class="splash__container">
         <div class="splash__bg-image">
             <div class="splash__inner-wrapper">
-                
+
 <h1 class="splash__title eos-dynamic-font-size-mobile-33 eos-dynamic-font-size-desktop-99 eos-dynamic-font-capitalization-uppercase">The Exploited Labor Behind Artificial Intelligence</h1>
                     <div class="article-intro-section"><p>Supporting transnational worker organizing should be at the center of the fight for “ethical AI.”</p>
 </div>
@@ -344,7 +344,7 @@ body.custom-background { background-color: #ffffff; }
         <div class="splash__opt2-image test">
             <div class="aspect-ratio-wrapper">
 	            	                	                    <img width="947" height="1186" src="https://noemamag.imgix.net/2022/12/DAIR-scaled.jpg?fit=crop&amp;fm=pjpg&amp;h=1186&amp;ixlib=php-3.3.1&amp;w=947&amp;wpsize=noema-portrait-hero-image&amp;s=a9e3bae7207453f59a8df0df2fb3ee3f" class="desktop-image wp-post-image" alt="" decoding="async" fetchpriority="high" />	                    <img width="767" height="904" src="https://noemamag.imgix.net/2022/12/DAIR-scaled.jpg?fit=crop&amp;fm=pjpg&amp;h=904&amp;ixlib=php-3.3.1&amp;w=767&amp;wpsize=noema-portrait-hero-image-mobile&amp;s=29d2c65afbea5fca60f1942ad5c36058" class="mobile-image wp-post-image" alt="" decoding="async" />	                	                        </div>
-                
+
       <figcaption class="wp-caption-text">
         <div>Nash Weerasekera for Noema Magazine</div>
       </figcaption>
@@ -369,7 +369,7 @@ body.custom-background { background-color: #ffffff; }
 
 <span class="meta-text meta-author">
         By <a href="https://www.noemamag.com/author/adriennewilliams/">Adrienne Williams</a>, <a href="https://www.noemamag.com/author/milagros-miceli/">Milagros Miceli</a> and <a href="https://www.noemamag.com/author/timnitgebru/">Timnit Gebru</a>      </span>
-    
+
     <span class="meta-text meta-date">
       October 13, 2022    </span>
   </div>
@@ -440,9 +440,9 @@ body.custom-background { background-color: #ffffff; }
   </blockquote>
 </figure><p>Amazon warehouse employees are<a href="https://fortune.com/2022/05/24/amazon-warehouse-employee-annual-shareholders-meeting-investing-labor-movement-frontline-workers-daniel-olayiwola/"> </a><a href="https://fortune.com/2022/05/24/amazon-warehouse-employee-annual-shareholders-meeting-investing-labor-movement-frontline-workers-daniel-olayiwola/">tracked</a> via cameras and their inventory scanners, and their performance is<a href="https://www.wsj.com/articles/the-way-amazon-uses-tech-to-squeeze-performance-out-of-workers-deserves-its-own-name-bezosism-11631332821"> </a><a href="https://www.wsj.com/articles/the-way-amazon-uses-tech-to-squeeze-performance-out-of-workers-deserves-its-own-name-bezosism-11631332821">measured</a> against the times managers determine every task should take, based on aggregate data from everyone working at the same facility. Time away from their assigned tasks is tracked and<a href="https://www.vice.com/en/article/5dgn73/internal-documents-show-amazons-dystopian-system-for-tracking-workers-every-minute-of-their-shifts"> </a><a href="https://www.vice.com/en/article/5dgn73/internal-documents-show-amazons-dystopian-system-for-tracking-workers-every-minute-of-their-shifts">used to discipline workers</a>.
           <div class="eos-subscribe-push">
-            
+
             <a target="https://shop.noemamag.com/?utm_source=MiddleCTA&utm_medium=website" href="https://shop.noemamag.com/?utm_source=MiddleCTA&utm_medium=website" data-wpel-link="internal">Read Noema in print.</a>
-            
+
           </div>
         </p><p>Like warehouse workers, Amazon delivery drivers are also monitored through automated surveillance systems: an app called <em>Mentor</em> <a href="https://www.cnbc.com/2021/02/12/amazon-mentor-app-tracks-and-disciplines-delivery-drivers.html">tallies scores</a> based on so-called violations. Amazon’s unrealistic delivery time expectations push many drivers to <a href="https://www.vice.com/en/article/xgxx54/amazon-drivers-are-instructed-to-drive-recklessly-to-meet-delivery-quotas">take risky measures</a> to ensure that they deliver the number of packages assigned to them for the day. For instance, the time it takes someone to fasten and unfasten their seatbelt some 90-300 times a day is <a href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DiSDQeGxnXyY&amp;sa=D&amp;source=docs&amp;ust=1665510275758922&amp;usg=AOvVaw0gbYxsLIPFxQ12k7ydEht0">enough</a> to put them behind schedule on their route. Adrienne and many of her colleagues <a href="https://www.vice.com/en/article/5dg3wb/amazon-delivery-drivers-say-they-sacrifice-their-safety-to-meet-holiday-rush">buckled</a> their seat belts behind their backs, so that the surveillance systems registered that they were driving with a belt on, without getting slowed down by actually driving with a belt on.</p><p>In 2020, Amazon drivers in the U.S. were injured at a nearly <a href="https://www.cbsnews.com/news/amazon-injury-rate-highest-among-warehouses-worker-groups-allege/">50% higher rate</a> than their United Parcel Service counterparts. In 2021, Amazon drivers were injured at a rate of <a href="https://thesoc.org/wp-content/uploads/2022/05/The-Worst-Mile.pdf">18.3 per 100 drivers</a>, up nearly 40% from the previous year. These conditions aren’t only dangerous for delivery drivers — <a href="https://www.cbsnews.com/losangeles/news/2-riverside-county-sheriffs-deputies-recovering-after-being-struck-by-delivery-van-2-pedestrians-killed/">pedestrians</a> and <a href="https://www.nytimes.com/2019/09/05/us/amazon-delivery-drivers-accidents.html#:~:text=Among%20those%20killed%20in%20the%20Amazon%20delivery%20crashes,grandmother%20hit%20in%20front%20of%20an%20Outback%20Steakhouse.">car passengers</a> have been killed and <a href="https://www.businessinsider.com/amazon-van-crash-diver-surveillance-evidence-liability-lawsuit-2021-11">injured</a> in accidents involving Amazon delivery drivers. Some drivers in Japan recently <a href="https://finance.yahoo.com/news/amazon-ai-sending-delivery-drivers-081829474.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAAC9OTtaz3fnfS1cimfjt7lc8mWdzAE3KGPeU1uY1vOaAxHMRbyIzAqdVgVXmGZAFr5uzA8HH-HhfTdLRQQdH6vfjJdLfylxndo_vjhAtCcS5A3d-rYcMLZEBS7RvpyNzPobEknkD-ygTwB2bpgnLCGBXMEYQaU7wRg4CHeWaZ7O">quit in protest </a>because they say Amazon’s software sent them on “impossible routes,” leading to “unreasonable demands and long hours.” In spite of these clear harms, however, Amazon continues to treat its workers like machines.</p><p>In addition to tracking its workers through scanners and cameras, last year, the company required delivery drivers in the U.S. to sign a “<a href="https://www.vice.com/en/article/dy8n3j/amazon-delivery-drivers-forced-to-sign-biometric-consent-form-or-lose-job">biometric consent</a>” form, granting Amazon permission to use AI-powered cameras to monitor drivers’ movements — supposedly to cut down on distracted driving or speeding and ensure seatbelt usage. It’s only reasonable for workers to fear that facial recognition and other biometric data could be used to perfect worker-surveillance tools or further train AI —&nbsp;which could one day replace them. The vague wording in the consent <a href="https://amzl-dsp-bgc-docs.s3.amazonaws.com/Vehicle+Technology+and+Biometric+Consent.pdf">forms</a> leaves the precise purpose open for interpretation, and workers have <a href="https://pnw.ai/article/amazon-and-microsoft-claim-not-to-have-used-ai-training-data-they-re-being-sued-f/122729412">suspected</a> unwanted uses of their data before (though Amazon denied it).</p><p>The &#8220;AI&#8221; industry runs on the backs of these low-wage workers, who are kept in precarious positions, making it hard, in the absence of unionization, to push back on unethical practices or demand better working conditions for fear of losing jobs they can’t afford to lose. Companies make sure to hire people from poor and underserved communities, such as <a href="https://restofworld.org/2021/refugees-machine-learning-big-tech/">refugees</a>, <a href="https://www.theverge.com/2019/3/28/18285572/prison-labor-finland-artificial-intelligence-data-tagging-vainu">incarcerated people</a> and <a href="https://srinstitute.utoronto.ca/news/the-data-production-dispositif">others with few job options</a>, often hiring them through third party firms as <a href="https://www.technologyreview.com/2022/04/20/1050392/ai-industry-appen-scale-data-labels/">contractors</a> rather than as full time employees. While more employers should hire from vulnerable groups like these, it is unacceptable to do it in a predatory manner, with no protections.</p><!-- Quote Block Template -->
 
@@ -488,11 +488,11 @@ body.custom-background { background-color: #ffffff; }
   </blockquote>
 </figure><p>This type of solidarity between highly-paid tech workers and their lower-paid counterparts — who vastly outnumber them — is a tech CEO’s nightmare. While corporations often treat their low-income workers as disposable, they’re more hesitant to lose their high-income employees who can quickly snap up jobs with competitors. Thus, the high-paid employees are allowed a far longer leash when organizing, unionizing, and voicing their disappointment with company culture and policies. They can use this increased security to advocate <em>with</em> their lower-paid counterparts working at warehouses, delivering packages or labeling data. As a result, corporations seem to use every tool at their disposal to isolate these groups from each other.</p><p>Emily Cunningham and Maren Costa created the type of cross-worker solidarity that scares tech CEOs. Both women worked as user experience designers at Amazon’s Seattle headquarters cumulatively for 21 years. Along with other Amazon corporate workers, they co-founded the <a href="https://amazonemployees4climatejustice.medium.com/">Amazon Employees for Climate Justice (AECJ)</a>. In 2019, over 8,700 Amazon workers publicly signed their names to an open letter addressed to Jeff Bezos and the company’s board of directors demanding climate leadership and concrete steps the company needed to implement to be aligned with climate science and protect workers. Later that year, AECJ organized the first walkout of corporate workers in Amazon’s history. The group says over 3,000 Amazon workers walked out across the world in solidarity with a youth-led Global Climate Strike.</p><p>Amazon responded by announcing its <a href="https://www.theclimatepledge.com">Climate Pledge</a>, a commitment to achieve net-zero carbon by 2040 — 10 years ahead of the Paris Climate Agreement. Cunningham and Costa say they were both disciplined and <a href="https://www.cnbc.com/2020/01/02/amazon-threatens-to-fire-employees-who-speak-out-on-climate-change.html">threatened with termination</a> after the climate strike — but it wasn’t until AECJ organized actions to foster solidarity with low-wage workers that they were actually fired. Hours after another AECJ member sent out a calendar invite inviting corporate workers to listen to a panel of warehouse workers discussing the dire working conditions they were facing at the beginning of the pandemic, Amazon fired Costa and Cunningham. The National Labor Relations Board found their firings were <a href="https://www.nytimes.com/2021/04/05/technology/amazon-nlrb-activist-workers.html">illegal</a>, and the company later settled with both women for undisclosed amounts. This case illustrates where executives’ fears lie: the unflinching solidarity of high-income employees who see low-income employees as their comrades.</p><p>In this light, we urge researchers and journalists to also center low-income workers’ contributions in running the engine of “AI” and to stop misleading the public with narratives of fully autonomous machines with human-like agency. These machines are built by armies of underpaid laborers around the world. With a clear understanding of the labor exploitation behind the current proliferation of harmful AI systems, the public can advocate for stronger labor protections and real consequences for entities who break them.</p>
           <div class="eos-subscribe-push">
-          
+
             <a target="https://shop.noemamag.com/?utm_source=BottomCTA&utm_medium=website" href="https://shop.noemamag.com/?utm_source=BottomCTA&utm_medium=website" data-wpel-link="internal">Enjoy the read? Subscribe to get the best of Noema.</a>
-            
+
           </div>
-        
+
       </div><!-- .entry-content -->
 
 </div><!-- .post-inner -->
@@ -504,13 +504,13 @@ body.custom-background { background-color: #ffffff; }
 <section class="main-content ">
 
 <div class="main-content__container eos-wide-contained">
-        
+
       <div class="main-content__article">
 
 <div class="single-card ">
 
 <div class="single-card__image">
-	  
+
     <a href="https://www.noemamag.com/introducing-the-futurology-podcast">
               <video autoplay muted playsinline loop>
           <source src="https://s3.us-east-2.amazonaws.com/assets-noemamag.com/2025/08/Futurology-Motion-Logo-Long.mp4" type="video/mp4">
@@ -526,7 +526,7 @@ body.custom-background { background-color: #ffffff; }
           </span>
           <span class="single-card__topic"><a href="https://www.noemamag.com/article-topic/philosophy-culture/">Philosophy &amp; Culture</a></span>
       </div>
-    
+
     <div class="single-card__title">
       <a href="https://www.noemamag.com/introducing-the-futurology-podcast">
         Introducing The Futurology Podcast      </a>
@@ -539,13 +539,13 @@ body.custom-background { background-color: #ffffff; }
 </div>
 
 </div>
-    
+
       <div class="main-content__article">
 
 <div class="single-card ">
 
 <div class="single-card__image">
-	  
+
     <a href="https://www.noemamag.com/what-the-maga-congress-got-right">
                 <img width="767" height="511" src="https://noemamag.imgix.net/2025/08/1.-America-is-sowing-seeds-copy.jpg?fit=crop&amp;fm=pjpg&amp;h=511&amp;ixlib=php-3.3.1&amp;rect=0%2C483%2C947%2C630&amp;w=767&amp;wpsize=noema-listing-tile&amp;s=626de04b380ef1b9d9e4338c4188bbf0" class="attachment-noema-listing-tile size-noema-listing-tile wp-post-image" alt="Illustration by Olga Aleksandrova for Noema Magazine." decoding="async" loading="lazy" />            </a>
             <div class="single-card__audio">
@@ -561,7 +561,7 @@ body.custom-background { background-color: #ffffff; }
           </span>
           <span class="single-card__topic"><a href="https://www.noemamag.com/article-topic/future-of-capitalism/">Future of Capitalism</a></span>
       </div>
-    
+
     <div class="single-card__title">
       <a href="https://www.noemamag.com/what-the-maga-congress-got-right">
         What The MAGA Congress Got Right      </a>
@@ -574,13 +574,13 @@ body.custom-background { background-color: #ffffff; }
 </div>
 
 </div>
-    
+
       <div class="main-content__article">
 
 <div class="single-card ">
 
 <div class="single-card__image">
-	  
+
     <a href="https://www.noemamag.com/climate-delusion-or-vital-solution-carbon-captures-uphill-battle">
                 <img width="767" height="511" src="https://noemamag.imgix.net/2025/07/FF_01-scaled.jpg?fit=crop&amp;fm=pjpg&amp;h=511&amp;ixlib=php-3.3.1&amp;w=767&amp;wpsize=noema-listing-tile&amp;s=cf6c90dd935a7dec42766ddc89fa24a6" class="attachment-noema-listing-tile size-noema-listing-tile wp-post-image" alt="Illustration by Nicolas Ortega for Noema Magazine." decoding="async" loading="lazy" />            </a>
             <div class="single-card__audio">
@@ -596,7 +596,7 @@ body.custom-background { background-color: #ffffff; }
           </span>
           <span class="single-card__topic"><a href="https://www.noemamag.com/article-topic/climate-crisis/">Climate Crisis</a></span>
       </div>
-    
+
     <div class="single-card__title">
       <a href="https://www.noemamag.com/climate-delusion-or-vital-solution-carbon-captures-uphill-battle">
         'Climate Delusion' Or Vital Solution? Carbon Capture's Uphill Battle      </a>
@@ -609,7 +609,7 @@ body.custom-background { background-color: #ffffff; }
 </div>
 
 </div>
-    
+
   </div>
 </section>
 

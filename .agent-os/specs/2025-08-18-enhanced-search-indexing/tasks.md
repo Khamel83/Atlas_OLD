@@ -10,18 +10,18 @@
 class TranscriptParser:
     def parse_transcript(self, raw_text, metadata):
         # Extract speaker names using common patterns
-        # Identify dialogue segments and Q&A structure  
+        # Identify dialogue segments and Q&A structure
         # Handle timestamps and topic transitions
         # Return structured JSON: {speakers, segments, topics}
-        
+
     def extract_speakers(self, text):
         # Regex patterns for "Speaker:", "Host:", "[Name]:" formats
         # Return list of unique speakers
-        
+
     def segment_by_speaker(self, text, speakers):
         # Split transcript into speaker segments
         # Include start/end positions and timestamps
-        
+
     def extract_topics(self, segments):
         # Simple keyword extraction for topic identification
         # Group related segments by topic similarity
@@ -44,10 +44,10 @@ from helpers.transcript_parser import TranscriptParser
 def process_transcript_content(self, transcript_text, metadata):
     parser = TranscriptParser()
     structured_data = parser.parse_transcript(transcript_text, metadata)
-    
+
     # Store structured data in database
     self.store_transcript_segments(structured_data)
-    
+
     # Maintain backward compatibility
     return structured_data
 ```
@@ -71,12 +71,12 @@ class TranscriptSearchIndexer:
         # Build speaker-specific search terms
         # Generate topic clusters and tags
         # Store in search database with metadata
-        
+
     def build_topic_clusters(self, all_segments):
         # Group segments by topic similarity
         # Create cross-episode topic connections
         # Generate topic-based recommendations
-        
+
     def create_speaker_index(self, segments, speaker_name):
         # Build speaker-specific search index
         # Weight Q&A patterns appropriately
@@ -98,11 +98,11 @@ def search_transcripts(query, speaker=None, topic=None, episode_id=None):
     # Enhanced search with transcript-specific filters
     # Return results with speaker attribution and context
     # Include conversation flow around relevant segments
-    
+
 def get_speaker_topics(speaker_name):
     # Return all topics discussed by specific speaker
     # Enable "what topics did X discuss" queries
-    
+
 def find_related_segments(segment_id, limit=5):
     # Topic-based content recommendations
     # Cross-episode related content discovery
@@ -126,7 +126,7 @@ class ConversationRanking:
         # Weight Q&A segments higher for questions
         # Boost topic transitions and key insights
         # Prioritize guest responses over host questions
-        
+
     def calculate_relevance_score(self, segment, query):
         # Enhanced scoring for conversational content
         # Consider speaker importance and segment type
@@ -149,7 +149,7 @@ def format_transcript_results(results):
     # Show conversation context around matches
     # Add timestamp links for audio/video content
     # Format for both API and web interface consumption
-    
+
 def generate_conversation_context(segment_id, context_lines=3):
     # Return surrounding dialogue for context
     # Include speaker transitions and topic flow

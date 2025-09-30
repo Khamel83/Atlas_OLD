@@ -249,7 +249,7 @@ class TestDiagnosticScript:
                 timeout=10,
             )
             stdout, stderr = process.communicate()
-            
+
             assert process.returncode == 0
             assert "diagnose" in stdout.decode('utf-8').lower()
             assert "--fix-permissions" in stdout.decode('utf-8')

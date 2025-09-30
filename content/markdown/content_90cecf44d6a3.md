@@ -191,11 +191,11 @@
 <div class="main-container">
               <div class="container">
               </div>
-        
+
     <div class="page-content">
       <div class="container">      <div class="region region-content">
       <section id="block-system-main" class="block block-system clearfix">
-      
+
   <article id="node-7724" class="node node-journal-article clearfix" about="/publicsquare/2019/12/11/designing-and-building-mixed-use-centers-suburbs" typeof="sioc:Item foaf:Document">
   <div class="journal-article "><img typeof="foaf:Image" class="img-responsive" src="https://www.cnu.org/sites/default/files/styles/public_square_feature_image/public/Rockville-town-square-2.jpg?itok=KQLxSzh8" width="1880" height="1200" alt="" /><div class="image-credit">Rockville Town Square is living room for the community, surrounded by shops and restaurants. </div></div>  <div class="category">
     <a href="/publicsquare/category/mixed-use" class="btn">Mixed-use</a>
@@ -280,7 +280,7 @@
     <img class="img-responsive" typeof="foaf:Image" src="https://www.cnu.org/sites/default/files/styles/user_head_shot/public/Rob-pic.jpg?itok=hO5bJkjM" width="500" height="500" />  </div>
   <div class="col-xs-8 col-sm-9">
     Robert Steuteville, F-CNU, is editor of Public Square: A CNU Journal and senior communications adviser for the Congress for the New Urbanism.  </div>
-</div></a></div>  
+</div></a></div>
 <div id="related-articles">
   <h3>Recommended for You</h3>
   <div class="row">

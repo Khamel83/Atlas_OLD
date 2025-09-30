@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I think even a year ago it was possible to imagine the traditional financial system learning something from crypto. Crypto built its own fin
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Institutional crypto
-    
-  
+
+
 
 I think even a year ago it was possible to imagine the traditional financial system learning something from crypto. Crypto built its own financial system that does things differently from traditional finance. For instance:
 	Crypto exchanges have websites and are open to everyone. If you want to buy Bitcoin, you don’t have to go to a brokerage firm to send your order to the crypto exchange: You just go to the exchange yourself, deposit some money there, and put in a buy order. Crypto cut out  layers of middlemen and let everyone trade on the same exchanges. There was something egalitarian about this; everyone traded on a level playing field, instead of the US stock market’s system of retail brokers routing their customers’ orders to wholesalers who pay for order flow.	Crypto exchanges also run their own clearinghouses, keeping custody of assets and settling trades, and they use real-time, objective, automated margining systems rather than the  traditional fuzzy margining of traditional finance. FTX, Sam Bankman-Fried’s crypto exchange, was a big proponent of this, and we  talked about its proposal last year. I thought it was cool! Traditional finance involves a lot of unsecured credit risk, while crypto was building a system that was much more based on real-time collateral; Bankman-Fried argued, rather compellingly, that the crypto approach might be safer.	We have  talked a lot about “tokenomics,” the idea of giving people who use a system (say, a crypto exchange) some financial stake in the system (say, a token that gives them a share of the exchange’s fee income). This has some securities-law problems, and some Ponzi-ish elements, and   some wrong-way risk, but it also has a real appeal: It is a way to build network businesses from a cold start, a clever way to solve a business problem	Blockchain blockchain blockchain. I have never really understood why keeping track of stock ownership (or real estate, etc.) on a blockchain was better than keeping track of it in a centralized database run by a trusted intermediary, but people sure talked about it a lot.
@@ -87,37 +87,37 @@ Elsewhere at the Journal, Telis Demos writes about BlackRock Inc.’s proposed B
 BlackRock’s application has at least one notable addition—an expected agreement to share “surveillance” of a spot bitcoin-trading platform with Nasdaq, which would list the ETF, according to a regulatory filing. In other words, the exchange could get confidential information on buyers, sellers and prices. 
 Nobody quite trusts crypto exchanges to catch market manipulation, so they’ll ask Nasdaq to look for market manipulation on the crypto exchanges.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 The basic idea is that if a company’s cost of capital is 10%, and it has some projects that will earn an 11% annual return, it should do those. If it has a lot of them, it should raise more money (at a cost of 10%) to do them all. If it has some projects that will earn only a 9% return, it should not do those. And if it mostly has those kinds of projects — if it has nowhere to put its money that will earn more than its cost of capital — then it should pay down debt or do stock buybacks to return capital to its investors. It has too much capital for the projects it can do; its projects do not earn enough to pay for its expensive capital.
 The “cost of capital” is a somewhat abstract concept — the cost of debt is basically the after-tax cost of interest payments, but if you sell stock you never need to pay it back — but there is pretty broad agreement on what it means and how to calculate it; Bloomberg’s WACC function will just tell you the weighted average cost of capital of any public company you like. Roughly speaking a company’s cost of capital consists of (1) the risk-free interest rate plus (2) a risk premium for the company’s debt and equity; very roughly speaking the cost of capital should go up as interest rates go up, and go down as they go down.
@@ -144,11 +144,11 @@ One way to tell this story is that investors trust their money to management hop
  If a company’s cost of capital is 10%, it has taken money from investors who hope to earn 10%. If it invests that money in projects that earn 10%, it will make its investors happy. But if it invests in projects that earn 9.9%, it will make investors mad.
 The investors are keeping a close eye on the company: They don’t want the managers to blow all of their money on projects earning 5%, or 0%, or corporate jets and stadium naming rights that make the managers feel cool but destroy shareholder value. It is hard to tell, though, on a day-to-day level, whether the company is investing in projects that will return 10% or 9% or 0%; the projects won’t pay off for a while. A rule of thumb that is like “we will invest in projects that we expect to return 15%, and give you back the rest of the money” makes sense as a form of managerial discipline, as a way of making extra-sure that managers are trying to make money for shareholders rather than wasting it. It’s just that it’s too conservative a rule: It leads managers to give shareholders money back, when the shareholders would be better off if they invested it.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 Additional tier 1 capital securities are bonds issued by banks that lose value if the bank fails or comes close to failing. Credit Suisse Group AG failed this year, and its   $17 billion of AT1 securities were written down to zero.
   [5]
@@ -170,11 +170,11 @@ Bondholders based in Paris, Luxembourg, and St. Peter Port, Guernsey argue that 
 
 Yes, but absorbing the losses caused by sharp-elbowed New York investment bankers is why AT1s exist.
 
-  
-    
+
+
       Sesame
-    
-  
+
+
 
 This, from last week, is one of the best stories you’ll ever read about how regulation works:
 
@@ -188,11 +188,11 @@ Advising that the product “may contain” sesame on the label isn’t a practi
 But if you say that the product definitely contains sesame, then you are immunized from trouble. So you just chuck some sesame into everything, change the labels, and you’re fine. It is easier to make sure that there is sesame than that there isn’t, so that’s what companies do.
 Everything is like this? There are huge areas of regulation where the most straightforward approach is to look at the giant book of rules and say “no thank you, I want out of this entirely.” Making non-sesame food products is a heavily regulated business with huge risks if you mess up; making sesame-based food products just lets you escape from that regulatory regime, so you might as well throw in some sesame.
 
-  
-    
+
+
       Business idea
-    
-  
+
+
 
 For a while in the 2010s, arguably the most lucrative business model in the world was “get a guy who can flatter Masayoshi Son and let him just go nuts and bring back billions of dollars of SoftBank financing.” This was  basically WeWork’s business model, and while it didn’t necessarily work out great for WeWork in the long run, it did work out great for Adam Neumann, WeWork’s founder and fundraiser and Masa-flatterer.
 But now it is 2023, we are in the early stages of an artificial intelligence boom, and obviously the best possible business model is “get an AI chatbot who can flatter Masayoshi Son.” The Wall Street Journal reports:
@@ -204,16 +204,16 @@ He said he used ChatGPT every day for brainstorming and has come up with more th
 
 I hope the chatbot  told him that it appreciated how he was crazy, but that he needed to be crazier. I feel like there are a lot of people in the world who would be happy to tell Masayoshi Son that his ideas are feasible and wonderful — whole industries were built on the basic premise of telling Masayoshi Son what he wanted to hear — but there are only so many robots in the world who will tell him that, and now he is looking for robots. Presumably somebody is building more of those robots; it would be silly not to.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Slowdown in  junk-rated loan market hits US corporate borrowing plans.   Money Funds With Record $5.5 Trillion See Case for Pile to Grow. JPMorgan to cash in insurance policy after botched $175mn  Frank deal. Brazil Said to Consider ESG Bond Debut as Soon as September.  Vacant Offices Are Piling Up in Silicon Valley. FTX bankruptcy ‘ on track to be very expensive’ as fees top $200mn. EU Backs   Fresh Russia Sanctions to Crack Down on Circumvention. Germany Issues Arrest Warrant for   Ex-Steinhoff CEO Jooste. Nigeria Police Oppose Suspended Central Bank Head’s   Bail Request. US justice Samuel Alito  defends fishing trip with billionaire Paul Singer. Doodle  house. School  outside Boston.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] We  talked the other day about a model of the stock market in which retail investors put in orders on their broker’s website, the broker sends the order to a market maker like Citadel Securities or Virtu who trades with it, and then the market maker offloads the risk on the public stock exchange. You could imagine something like that developing here: Some of EDX’s order flow might be Schwab sending its customers’ orders to the exchange, but over time retail brokers might send orders directly to wholesalers (and get paid for them), and the wholesalers might use the EDX market to lay off risk. 
+
+  [1] We  talked the other day about a model of the stock market in which retail investors put in orders on their broker’s website, the broker sends the order to a market maker like Citadel Securities or Virtu who trades with it, and then the market maker offloads the risk on the public stock exchange. You could imagine something like that developing here: Some of EDX’s order flow might be Schwab sending its customers’ orders to the exchange, but over time retail brokers might send orders directly to wholesalers (and get paid for them), and the wholesalers might use the EDX market to lay off risk.
 
 
   [2] I am being loose in many ways: The correlation between short- and long-term rates is not 1, nor is the correlation between long-term rates and corporate WACCs, etc.; this is just a very rough sketch of the idea.
@@ -225,51 +225,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Very loosely: A company’s WACC is not really the expected return to its investors, because its cost of debt is tax-affected, but the cost of capital of an entirely equity-funded company more or less is the expected return on its shares.
 
 
-  [5] These two sentences are approximate and non-technical and you could, particularly if you are a Credit Suisse AT1 holder, object to various points in them. 
+  [5] These two sentences are approximate and non-technical and you could, particularly if you are a Credit Suisse AT1 holder, object to various points in them.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -280,46 +280,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciyvd7.5o0m/0130649f.gif" alt="" border="0" /></a>

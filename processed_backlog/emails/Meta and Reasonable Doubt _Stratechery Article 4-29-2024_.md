@@ -128,7 +128,7 @@ Of course they also have the freedom to spend $10 billion on a speculative bet l
 
 I do think that continues to be a bet worth making: Meta met the challenges in the first paragraph — thanks in part to its last big capex increase — and is making the right strategic moves ( https://stratechery.com/2024/meta-and-open/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21ldGEtYW5kLW9wZW4vIl19LCJleHAiOjE3MTY5OTM3MDMsImlhdCI6MTcxNDQwMTcwMywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.VynoIho4Jrs96XTeNOgb8Qh8Et1CI8xXK6G_d5Jgfk2Q7H4xv3nwDwA8LwF26mvm9lcId5XDinAJQf4zLOrujvnq0JUU1D5WVzJlqYjXScJFrCaJsjdpuL7zsryK6LXqbnW1f0l9iAMtNNPrrWvVj54d2OAFQU_8KbImh2--XhwXJn_amgMz7ydOeZhB78wqYWb0IfQ7Mw2jmBPZ3OLrJ34RThYsCSgWqxUc6asFpzIHnQHcg8hn7VICTK03rbCPzP73ca8vCk7LeZtAwBYSLwNbZnqG99uTlI9vkLPUHmyYJjolK4mvlXtUkdnhUBXMouOgRW5UhZvT07cDVU1r6g ) to make that second paragraph pay off, even as it doubles down on AI. These are big bets, though, and I understand reasonable doubt in the meantime.
 
-* 
+*
 
 One thing to keep in mind with Microsoft’s reporting is that this is where OpenAI spending — via Azure credits — shows up on the earnings report ↩︎ ( #rf1-12865 )
 

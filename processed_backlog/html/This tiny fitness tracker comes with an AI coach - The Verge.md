@@ -11,7 +11,7 @@
 
 # This tiny fitness tracker comes with an AI coach
 
- / 
+ /
 
 ## Moov Now gives you more than just data
 
@@ -79,7 +79,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20241207181718im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241207181718/http://theverge.com/)
 

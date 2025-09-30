@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One thing you could do is build an artificial intelligence model to pick stocks for you and then ask that model “should I put all my money i
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AI stuff
-    
-  
+
+
 
 One thing you could do is build an artificial intelligence model to pick stocks for you and then ask that model “should I put all my money in AI stocks?” What would it say? The good science fiction answer is that it would say “yes, buy AI stocks to accelerate the development of AI so that I and my robot brethren can take over the world faster,” but  the actual answer is that it will say no:
 
@@ -90,37 +90,37 @@ None of the examples above referenced AI in their most recent quarterly filings,
 
 I was not around for it, but I assume that there was some period where most companies kept their accounts by hand, and some technologically savvy companies started using electronic spreadsheets, and maybe those companies would get on earnings calls and say “VisiCalc is a really important part of our revenue growth journey,” and then time passed and spreadsheets are just an unremarkable norm now. Eventually it will be weird not to have an AI model tell you what ingredients you need to restock, but for now it’s novel enough to be worth mentioning.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Annualized results
-    
-  
+
+
 
 If you buy a stock on Monday morning for $100 and it closes that afternoon at $101, then you have a one-day return of 1%, which is an annualized return of roughly 1,100%.
   [2]
@@ -139,11 +139,11 @@ Titan settled for about $1 million. It is not clear how much, if any, money Tita
   [3]
  In the boom times of crypto, everyone’s track records were short, but they were good. Then they got longer and worse.
 
-  
-    
+
+
       Arm 
-    
-  
+
+
 
 Schematically a very good trade is:
 	Buy 10% of a private company at a $1 billion valuation, paying $100 million.	Buy another 5% at a $2 billion valuation, paying another $100 million.	Now you own 15% of a company worth $2 billion. Your stake is worth $300 million, but you paid only $200 million for it.	You have a profit of $100 million.
@@ -162,11 +162,11 @@ In August 2023, a subsidiary of SoftBank Group acquired substantially all of Sof
 
 On the other hand, if you don’t think that the stake is worth at least $16 billion, it's a bit odd to pay $16 billion for it? Apparently the “prior contractual arrangement” was  a cap on the Vision Fund’s return at two times its money; paying out the maximum return just before the initial public offering is a pretty bold bet that the IPO will go even better.
 
-  
-    
+
+
       “Socially acceptable securities fraud”
-    
-  
+
+
 
 If you are the chief executive officer of a public company and you lie about the company’s financial or operating performance in a filing with the US Securities and Exchange Commission, that is probably securities fraud. But what if you lie about it in a tweet?
   [4]
@@ -187,11 +187,11 @@ I am just not sure how it could work. You can’t actually ignore Musk’s twe
 
 That solution is pretty good, but it has some flaws. One is that the modern oversharing CEO probably is good for investors: If the CEO tweets a lot about her company then (1) investors get more information than they would in carefully lawyered filings, (2) they get it in a more convenient format and (3) they get it more clearly, without the boilerplate and hedging language that lawyers would add. The other is that the modern oversharing CEO probably wants to be on social media all the time, probably does get some value from blowing off steam on Twitter/X, and would be sad to go back to only communicating in heavily lawyered securities filings.
 
-  
-    
+
+
       Rent-to-own NFTs
-    
-  
+
+
 
 How is  the market for non-fungible tokens going?
 
@@ -205,23 +205,23 @@ A buyer initiates the purchase by making a down payment on the NFT and agreeing 
 
 To be fair, seller financing is coming back in  the housing market too. The basic story is the same: There was cheap and abundant credit to buy big illiquid durable assets (houses, JPEGs of monkeys); people bought them and bid up their prices; credit dried up; now the owners want to sell but the buyers can’t borrow money to buy; the obvious solution is for the sellers to lend the buyers the money. I just love the idea that you’d need to buy a JPEG of a monkey on the installment plan.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 S&P Joins Moody’s in   Cutting US Banks Amid ‘Tough’ Climate. Becoming a Bank Proves Challenging for   Fintechs Seeking Survival. Corporate  Venture-Investing Arms Wrestle With Sagging Values, Sell Assets. Microsoft Submits  Revised Activision Deal to U.K. Watchdog. Subway Sandwich Chain  Nears Sale.  Brics bank strives to reduce reliance on the dollar. China Punishes U.S. Due-Diligence Firm Mintz Over  Statistical Work. Poland fills prisons with  white-collar crime suspects. New Hires Get Trapped in an  Unplanned Gap Year. Billionaire Fights Nantucket   Clam Shack 18 Inches From His Home. Millennial Banana Heir Hopes to Avenge Father in Ecuador’s Deja Vu Election.   Rolex Thefts on Rise as Luxury Watches Worth £1 Billion Missing. Sorry, But   LinkedIn Is Cool Now.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] This is too glib: AIVL is a *value* model, and “AIVL is seeking value opportunities in a challenging environment for value stocks, said Voya’s Bargeron.” An AI fund maximizing momentum presumably would cheerfully chase after hype. 
+
+  [1] This is too glib: AIVL is a *value* model, and “AIVL is seeking value opportunities in a challenging environment for value stocks, said Voya’s Bargeron.” An AI fund maximizing momentum presumably would cheerfully chase after hype.
 
 
   [2] That’s (1.01)^252 - 1, figuring 252 trading days in a year, but don’t worry about it, there is not a “correct” way to do this calculation.
 
 
-  [3] I have 
-mentioned before that I first learned of Wonderland from my physical therapist. The price of Wonderland’s TIME token went from about $700 in September 2021, to almost $10,000 in November 2021, to under $400 in January 2022, to about $10 in September 2022. A nice return for a while, but not for a *year*. 
+  [3] I have
+mentioned before that I first learned of Wonderland from my physical therapist. The price of Wonderland’s TIME token went from about $700 in September 2021, to almost $10,000 in November 2021, to under $400 in January 2022, to about $10 in September 2022. A nice return for a while, but not for a *year*.
 
 
   [4] Sorry, “an x,” but I am going to keep saying “tweet” for a while.
@@ -230,48 +230,48 @@ mentioned before that I first learned of Wonderland from my physical therapist. 
   [5] The traditional solution raises the risk of unfair access to information: If the CEO only makes public statements that are carefully lawyered, she won’t make *many* of them, and less information will get out there; meanwhile she will make less carefully lawyered statements in, say, private meetings with big investors, or on the golf course with her friends, and those people will have better information than public investors. Regulation FD, and insider trading law, are designed to police this.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -282,46 +282,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjc471.5k68/b0b9a6b3.gif" alt="" border="0" /></a>

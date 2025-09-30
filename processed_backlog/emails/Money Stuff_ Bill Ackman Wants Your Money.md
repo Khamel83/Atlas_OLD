@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Bill Ackman started his current hedge fund, Pershing Square LP (PSLP), in 2004. PSLP is kind of what you think of when you think of a hedge 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Bill Ackman started his current hedge fund, Pershing Square LP (PSLP), in 2004. PSLP is kind of what you think of when you think of a hedge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       PSUS
-    
-  
+
+
 
 Bill Ackman started his current hedge fund, Pershing Square LP (PSLP), in 2004. PSLP is kind of what you think of when you think of a hedge fund
   [1]
@@ -106,37 +106,37 @@ But when you are a mature famous hedge fund manager, the performance fees are le
 Not that nice, now. PSH  returned 26.7% to investors last year, net of fees. The rough math is that, on $12 billion of net assets, Pershing Square probably charged PSH investors about $180 million of management fees and more than $400 million of performance fees. Under the PSUS fee structure, investors would have done better — Pershing Square says their net return would have been 30.6% — and Ackman would have done worse; he would have charged less than half as much in fees. 
 But in the long run, I mean, maybe you can’t be a hotshot hedge fund manager forever. But you can manage a permanent capital vehicle forever; that’s the point. Raising enthusiastic permanent capital when enthusiasm is high — and trading some fees for permanence — might be a good idea.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Block trades
-    
-  
+
+
 
 We   talked last month about some bad stuff that Morgan Stanley did in its block trading business. A big holder of stock — say, a private equity firm with a big stake in a company it had already taken public — would decide to sell the stock all at once. It would call Morgan Stanley at like noon and say “we want to sell all our stock in Company X, we’re going to ask you for a bid at 4:05 p.m. today, get ready, but don’t tell anyone.” And the holder would call a few other banks with the same message. And then Morgan Stanley was supposed to sit down and decide what price to bid on the stock, and if it was the highest bidder at 4:05 p.m. it would win the block trade, buy the stock at its bid price, and then turn around and sell the stock to hedge funds and other investors, as quickly as possible and preferably before the market opened the next day. But if it won the bid, it would be at risk: If it couldn’t sell the stock for more than it paid for it, it would lose money.
 One thing that would make this process easier and less risky for Morgan Stanley would be if, between noon and 4 p.m., it were to call a bunch of hedge funds and say “hey, we got a block of Company X coming this evening, would you buy some, and if so for what price?” If it pre-sold the block before putting in a bid, it could be confident that it would be able to resell the stock to investors and make money. But the seller did not want Morgan Stanley to do that, because if word leaked out about the block, people would know that a lot of supply was coming and that the stock would go down, so they would sell the stock first, which would lower the price that the seller could get. So the seller would tell Morgan Stanley, in writing, emphatically, “don’t tell anyone about this block, don’t even drop any hints about it, don’t have even generic conversations about the sector with investors, keep this really secret.”
@@ -161,11 +161,11 @@ Hedge funds on the receiving end of information from a Morgan Stanley executive 
 
 I do think that's basically right. If you meet your buddy from Morgan Stanley on the golf course and he says “hey I’ve got a hot tip for you, don’t tell anyone,” you can assume he’s up to no good. If he calls you at your desk, from his desk, on a recorded line, saying “we’ve got a deal coming and we’d like you to be in it,” I think you’re allowed to assume it’s fine. Even though, here, it was not.
 
-  
-    
+
+
       Should index funds be illegal?
-    
-  
+
+
 
 One finance hypothetical that people like to ponder is: If 90% of the stock market was held by index funds, would that be good or bad for efficiency? Would the prices of stocks better incorporate all information about those stocks, or worse? There are arguments both ways:
 	The negative view is that, if almost everyone indexes, there’s no one around to do the fundamental research to make sure that prices are accurate. Hedge funds and other active managers won’t have enough money to manage, they won’t be able to invest in research and technology, and so there won’t be anyone selling overvalued stocks and buying undervalued ones. It’ll just be index funds blindly buying at whatever the market price is, and that price will be disconnected from fundamentals, and the stock market will no longer be good at allocating capital to its best uses. “Passive Investing is Worse Than Marxism,” in the words of a somewhat famous Sanford C. Bernstein & Co. equity research note.	The positive view is that, the more money that is indexed, the more influence each active manager will have on the stock. If most people index, then active management will shrink, but the best active managers will keep their jobs, and their trading with each other is what will move stocks. Index funds will free-ride on their efforts, but they will still have enough money to make those efforts worthwhile, and those efforts — not the free-riding — will determine the price.
@@ -179,11 +179,11 @@ The basic idea is that there are some public companies whose fundamental perform
 Our main tests reveal an economically and statistically significant 60% lower (-0.34 point estimate difference) in stocks’ idiosyncratic currency sensitivity when in versus not in the S&P 500, whereas the magnitude of idiosyncratic currency shocks does not change significantly. The result is highly robust: It is evident in stocks added to the index, stocks dropped from the index, and both combined. It is robust across reasonable alternative ways of estimating idiosyncratic returns. Moreover, this difference in point estimate becomes more negative over time in lockstep with plausible proxies for the rising importance of indexing. These results are consistent with indexing impairing the incorporation of firm-specific information into stock prices.
 Elsewhere today: “Einhorn Says Markets ‘Fundamentally Broken’ By Passive, Quant Investing.”
 
-  
-    
+
+
       Ozempic is bad for business?
-    
-  
+
+
 
 We have  talked a few times before about how appetite-suppressing drugs like Ozempic are bad for the sales of snack-food companies, and how universal investors who own both the drug companies that sell those drugs, and the food companies that lose out to them, might have mixed feelings. As an amusing theoretical matter, you could imagine those universal shareholders calling up the drug-company CEOs and saying “stop selling these drugs, your profits from the drugs are not enough to offset our losses from snack foods.”
 As a practical matter that seems unlikely. For one thing, it’s probably not true: Maybe Ozempic will suppress snack-food profits but increase, say,  airline profits, enough that the universal holders are better off overall. For another thing, it’s not like universal shareholders really make these calls, probably: It is theoretically interesting to imagine universal shareholders like BlackRock and Vanguard and Fidelity instructing corporate chief executive officers to maximize portfolio profits rather than their own companies’ profits, but they probably don’t really do that. Also it just so happens that the drug companies that make these drugs  have unusual shareholder situations that somewhat insulate them from the usual universal owners of the stock market. 
@@ -194,15 +194,15 @@ Makers of everything from snack food to knee implants are facing a potential thr
 
 I love the idea of Jorgensen getting calls from snack-food companies to plead with him, saying “you are putting me out of business, please just let me keep selling my potato chips.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 A 99% Bond Wipeout Hands Hedge Funds a   Harsh Lesson on China. Decline of the star stockpicker: investors pull $150bn from  equity hedge funds. Saudi Arabia Lines Up Goldman, Citi for   Aramco Share Sale. How Jack Dorsey’s Plan to Get Elon Musk to   Save Twitter Went South. After Its $20 Billion  Windfall Evaporated, a Start-Up Picks Up the Pieces. Faster US   Stock Settlement Has Currency-Market Anchor Scrambling. Investors Are  Almost Always Wrong About the Fed. Citigroup Weighs Cutting 10% of   Wealth Employees in London. McKinsey Places 3,000 Staffers on Review as Economies Slow. Norway oil fund boss criticises ExxonMobil’s ‘aggressive’  climate lawsuit. Loyalty Points Are   Crypto’s New Bait. Lagging Fertility Rate Means   Diapers Aren’t Just for Babies Anymore. Australians Get Right to   Ignore Office Calls, Emails After Hours. American CEOs Visiting China Can’t Escape It: They Have to  Dance on Stage.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I don’t know what you think of. I feel like there is an old-but-not-super-old-school view of hedge funds that was like, somewhat idiosyncratic concentrated big bets put on by a celebrity manager, and Pershing Square was the face of it. Now “hedge fund” often conjures up a factor-neutral multi-manager fund.
 
 
@@ -227,7 +227,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] No, it’ll pay a 2% fee forever; if assets go down that will be less than $200 million.
 
 
-  [9] To take a classic recent example, the 
+  [9] To take a classic recent example, the
 squash buddy insider traders, Akshay Niranjan and Brijesh Goel, the US Securities and Exchange Commission alleged that “Niranjan knew or was reckless in not knowing that Goel’s position at the Investment Bank gave him access to information about these highly confidential transactions and that Goel was prohibited from sharing material nonpublic information about any merger or acquisition transactions in which the Investment Bank was involved.”
 
 
@@ -237,48 +237,48 @@ squash buddy insider traders, Akshay Niranjan and Brijesh Goel, the US Securitie
   [11] The Morck and Yavuz paper quotes Burton Malkiel saying “I think the market could function fine with just 2% or 3% of investors being active and making sure that information was reflected properly in prices.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -289,46 +289,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cketjh.647g/338a661a.gif" alt="" border="0" /></a>

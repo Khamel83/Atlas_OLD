@@ -12,9 +12,9 @@
 
 # Breaking News, World News and Video from Al Jazeera
 
-Nadera Mushtha, Nidžara Ahmetašević, Emina Bužinkić, Belén Fernández, Somdeep Sen, Donald Earl Collins, Hassan Abo Qamar, Andrew Mitrovica, Stephen Kapos • March 20, 2011 
+Nadera Mushtha, Nidžara Ahmetašević, Emina Bužinkić, Belén Fernández, Somdeep Sen, Donald Earl Collins, Hassan Abo Qamar, Andrew Mitrovica, Stephen Kapos • March 20, 2011
 
 ![Breaking News, World News and Video from Al Jazeera](https://www.aljazeera.com/images/logo_aje_social.png)
 
-Before the Supreme Federal Court order for him to stand trial, Bolsonaro had left little doubt as to how he felt about running for office in the 2026 election despite his ban. “Elections without Bolsonaro is a denial of democracy in Brazil,” he said. Now, though, instead of trying to get re-elected, Bolsonaro will be trying to avoid spending the rest of his life in prison. 
+Before the Supreme Federal Court order for him to stand trial, Bolsonaro had left little doubt as to how he felt about running for office in the 2026 election despite his ban. “Elections without Bolsonaro is a denial of democracy in Brazil,” he said. Now, though, instead of trying to get re-elected, Bolsonaro will be trying to avoid spending the rest of his life in prison.
 

@@ -7,262 +7,262 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        CelsiusHere is a financial literacy test for you: You can borrow $18 billion at 8% interest. You can take that money and invest it in loans 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        CelsiusHere is a financial literacy test for you: You can borrow $18 billion at 8% interest. You can take that money and invest it in loans
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Celsius
-    
-  
+
+
 Here is a financial literacy test for you:	You can borrow $18 billion at 8% interest.	You can take that money and invest it in loans that pay 20% interest.	You don’t have to put up any of your own money.	So you get $3.6 billion a year in interest (20% of $18 billion), and you pay out $1.4 billion in interest (8% of $18 billion), so you keep about $2.2 billion for yourself.	Is this good?This is not a yes-or-no question, and the right answer is probably something like “well, good for who?” If you are a person who invents a business like this, and you are able to do it for a year or two and squirrel away the $2.4 billion, it is very very good for you and you can buy yachts and stuff. But in the long run, if you are borrowing at 8% and lending at 20%, you are taking some huge risk somewhere. Those 20% loans are risky and correlated and illiquid and possibly Ponzi schemes; that 8% money is flighty and unstable; you are lending out all the money you are borrowing and there is no cushion anywhere. At some point the people lending you the money at 8% are all going to ask for it back, and the people borrowing the money at 20% aren’t going to give it back, and you’re not going to have the money to pay back the 8% people, and they’re going to be really mad, and that’s when it will be useful for you to have a yacht to sail away on.Anyway here’s a Wall Street Journal article about Celsius:Celsius Network LLC CEO Alex Mashinsky built his cryptocurrency lender into a giant on a pitch that it was less risky than a bank with better returns for customers. But investor documents show the lender carried far more risk than a traditional bank. The lender issued numerous large loans backed by little collateral, according to Celsius investor documents from 2021 reviewed by The Wall Street Journal. The documents show that Celsius had little cushion in the event of a downturn, and made investments that would be difficult to quickly unwind if customers raced to withdraw their money. Celsius didn’t respond to requests for comment from the Journal.Celsius had $19 billion of assets and roughly $1 billion of equity as of last summer, before it raised new funds, according to Celsius investor documents from 2021 reviewed by the Journal. The median assets-to-equity ratio for all the North American banks in the S&P 1500 Composite index was about 9:1, or about half that of Celsius, according to data from FactSet. We have talked a lot about  crypto banks recently, and Celsius’s roughly 5.3% capital ratio is, if anything, high.  Tether’s capital ratio is about 0.2% (!);  Voyager Digital Ltd.’s is about 4.3%. This banking business, this business of borrowing at lower rates and lending at higher rates and having a thin sliver of equity, this is a pretty well-known business, and in traditional banking there are lots of safeguards around it. That sliver of equity can’t be too slim, you need to keep some cash on hand to give back to your depositors, you need to make prudent loans that are not too risky or too concentrated or too much to your own affiliates, etc. In traditional finance there are “shadow banks” that try to do this sort of business with less regulation, but there are regulatory and market constraints on how much of that is allowed, particularly after shadow banking blew up in 2008. Meanwhile in crypto absolutely anything apparently goes.We  talked about Celsius a few weeks ago, and nothing here really comes as a surprise. “Somebody is lying,” Mashinsky  once told Bloomberg Businessweek: “Either the bank is lying or Celsius is lying.” That too was a kind of financial literacy test. Celsius has frozen customer withdrawals for weeks; regular banks, conspicuously, have not. The Journal article also points to sort of a subtle fact about crypto banking and interconnection:Adding to Celsius’s leverage was money borrowed from others including Tether International Ltd., which issues a cryptocurrency pegged to the U.S. dollar. As of last summer, Celsius had a credit facility for up to $1.1 billion from Tether, which itself was an early investor in Celsius with a 7.8% stake in the lender as of last spring, Celsius told investors. ...Like a bank, Celsius was able to pay yields to customers largely by making money through lending at even higher yields to others. One of its biggest units was lending to other crypto financial businesses, including digital-asset manager Galaxy Digital and institutional crypto-lending firm Genesis, Celsius told investors. Celsius projected in May 2021 that institutional lending would bring in about $290 million of revenue for the year, more than one-quarter of total revenue, the documents reviewed by the Journal show. While banks like loans to be overcollateralized—homeowners taking out a mortgage post their house as collateral, which is valued at more than the loan—Celsius required its business borrowers to post only an average of about 50% collateral on its $2.7 billion of loans as of last spring, the documents show. Undercollateralized lending is considered a risky practice, one that was more generous than that of many of Celsius’s competitors. Celsius used some of that collateral to borrow more money itself, a process known as rehypothecation, adding additional risk.Think about how that business might work. At a high level of generality, you have two crypto financial businesses, perhaps they are Celsius and Genesis, or Celsius and Tether, or whatever, but let’s just call them Borrower and Lender. Borrower has some Bitcoins (or Ether or whatever) and wants dollars (or USDC stablecoins or Tether or whatever); Lender has plenty of dollars (USDC, Tether, etc.) that it is willing to lend. Borrower and Lender get together and agree that Borrower will post its Bitcoins to Lender as collateral, and Lender will hand over some dollars to Borrower collateralized by those Bitcoins. Fine. A normal, collateralized margin loan.How many Bitcoins should Borrower give Lender for the dollars? Well, if you are Lender, you will want your loan to be well secured. If Borrower gives you $200 worth of Bitcoin and you lend it $100 of cash, then you will be pretty well secured. If Borrower doesn’t pay you back the $100, you can seize its collateral and sell it for $200, giving you plenty of room to repay your loan. Even if the price of Bitcoin falls by 10% or 20% or 40%, you can still sell the collateral for enough to cover your loan. (If it falls by more than 50%, as it has this year, then you are in trouble, but you have margin calls to protect you along the way; you don’t have to wait for it to fall that far.) This is the way that margin lending generally works in retail stock brokerage accounts.Of course everything is competitive and perhaps Lender will be willing to accept less than $200 worth of Bitcoin for a $100 loan. Perhaps it will feel safe with $150 of collateral, or $120. At some level of collateral, though, you stop feeling safe about the collateral: If you lend $100 of cash against $110 of Bitcoin, Bitcoin is pretty volatile, and if it goes down by 10% your loan will be undercollateralized. If you lend $100 against $110 of Bitcoin, you are making a credit decision: You’re lending the $100 not only because you think Bitcoin is good collateral but also because you think Borrower is good for the money. Certainly if you lend $100 of cash against $50 of Bitcoin, you are making mostly a credit decision; if Borrower vanishes then the best you’re going to do is get $50 back.[1] You are counting on Borrower to repay you, and you have done some underwriting to make you confident that Borrower is a good credit. Or you haven’t, I mean; Celsius has not exactly covered itself in glory in recent weeks. But let’s assume that you do, and you sensibly believe that you are making these (under-)collateralized loans to good strong businesses that should be able to pay you back even in a market downturn.But now let’s flip it around. Let’s say that you are Borrower, not Lender. You are handing over some Bitcoins and getting back dollars. You will have the use of Lender’s $100, and if you disappear Lender won’t get its money back and will have to seize your collateral. But notice that Lender has the use of your Bitcoins, and if Lender disappears you won’t get your Bitcoins back. Of course if that happens you can keep the $100.[2] But if Lender disappears with $200 of your Bitcoins then that’s not too much consolation.In other words, these transactions are completely symmetrical, and if you are posting crypto collateral with a crypto lender then you are taking their credit risk. (Notice, here, that Celsius was not in the business of keeping collateral in separate vaults with the borrowers’ names taped on them, or of taking contingent claims on assets that sat in the borrowers’ wallets: It was rehypothecating the collateral for its own use.)And so if you are a big reputable well-managed crypto firm, and you want to borrow $100 from Celsius, you might want to only post $50 of Bitcoin as collateral, not only because that is more efficient for you (you get more money for less collateral) but also because it is safer for you. If Celsius goes bust or pauses withdrawals and hangs on to your $50 of Bitcoin, well, you still have their $100, it’s fine.[3] I should say that in traditional finance there is a lot of this symmetrical risk: If I post Treasury bonds to borrow cash from you, then I have your cash and you have my Treasuries and we both want to get our stuff back and worry that we won’t. Traditional finance deals with this in various ways:	Legal regimes that give us some sort of priority claim to getting our stuff back if the other one goes bust.	Third-party custody, where some super-safe entity holds the Treasuries so you can’t run off with them.	The lenders (who tend to be overcollateralized — that is, I tend to post Treasuries worth more than the cash you give me back) are often big regulated banks or money-market funds, so I am relying on the regulatory system to make sure that you don’t actually go bust or run off with my Treasuries.	Long-standing cultures and best practices of credit risk management where, for instance, you will do some due diligence on my credit, and I will send you my audited financial statements, and you will have concentration limits where you can’t invest all your money with me, etc. Meanwhile … I guess you could imagine ways to deal with this in crypto? I used to joke, about everything, that “smart contracts via crypto make this super doable.” You could imagine a smart contract where I put up Bitcoins and you put up USDC and if either of us runs into some sort of problem trigger then the thing automatically unwinds. And there are things like this in the world of decentralized finance. But actual big-dollar crypto leverage seems to be built mainly on bilateral over-the-counter arrangements rather than smart contracts.[4] And some crypto lenders probably import credit-risk-management best practices from traditional finance and adapt them in smart ways to the realities of crypto! And some of them absolutely don’t.I have been writing a lot around here about how crypto is having its version of the 2008 financial crisis. One schematic way to tell the story of 2008 would be to focus on “shadow banking.” The basic business of banking is borrowing short-term from people who think their money is very safe, and invest it in longer-term loans that have some risk. That is a dangerous business, and so it is heavily regulated. And in the lead-up to 2008, people in the financial industry found ways to re-create that dangerous sort of business in ways that were less heavily regulated, so they could be more aggressive about leverage and liquidity and concentration and credit risk. And nobody realized how much of this there was, and how dangerous it was, and how interconnected it was with the rest of the financial system, until it popped.And then they did realize, and there was a broad after-the-fact crackdown on shadow banking, and now through some combination of regulation and temperament and bad memories there is just less of this sort of thing in traditional finance. Still lots! But less of it, more constrained, less leveraged. Everyone in traditional finance has seen this movie before and knows how it ends. And yet there is some … natural … human … longing … to borrow short and lend long with no equity? I dunno. Since 2008, the traditional financial industry has tried to suppress that desire. But it found a home in crypto.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Archegos
-    
-  
+
+
 Bill Hwang is a former hedge fund manager who most recently invested his own money through a family office that he called Archegos Capital Management. Archegos  borrowed a lot of money from a bunch of banks to buy a whole ton of about a dozen stocks. When Hwang bought these stocks, they went up a lot. So he was able to borrow more money, which he did, and then he used that money to buy more of the stocks, so they kept going up. Then one of them went down a bit, Hwang got a bunch of margin calls from the banks, he didn’t have any money left (it was all invested in the stocks), so the banks liquidated the stocks and they went all the way back down. Hwang’s money all disappeared, and some of the banks lost billions of dollars that they had loaned him.This was all just a very weird thing to do?[5] Hwang is a financially sophisticated guy, and it is hard to know how he thought this would go. But it went the obvious way and he lost all his money and caused a panic in the market for those dozen stocks, as well as big losses at a few of his banks.The panic and losses were high-profile enough that the US Justice Department and Securities and Exchange Commission looked into them, and in April they charged Hwang with some crimes. Specifically:	They argued that buying all those stocks was market manipulation, because Hwang’s buying made them go up a ridiculous amount, and he should not have done that.	They argued that Hwang borrowed all that money from his banks by lying to them about what he was doing, how concentrated his portfolio was, etc., which is bank fraud.When we  talked about this in April, I was skeptical that this could be market manipulation. The problem is that the DOJ and SEC had no theory of what Hwang was trying to do. If you push up the price of some stocks because you have some giant derivative trade on that makes money from the stocks going up, fine, market manipulation. But if you just generically push stocks up by buying them, and then you sell them, they’ll go back down and you won’t make any money. Hwang doesn’t seem to have made money on this weird round-trip — he seems to have lost most of his money — and nobody has any good ideas about how he could have. So what was the manipulative scheme? Yesterday Hwang’s lawyers filed a motion to dismiss the SEC case against him and honestly it’s pretty compelling? Here is how it begins:The Complaint in this matter is extraordinary: paragraph after paragraph alleges entirely lawful trading on the open market, but then concludes that the trades at issue—real trades subjecting defendant Bill Hwang to real economic risk, and devoid of any deceptive actions—was somehow unlawful. In particular, the Complaint finds manipulation in defendant Bill Hwang’s conduct in trading large volumes of securities, trading which the SEC second-guesses, in hindsight, was “non-economic,” i.e., lacked a legitimate economic basis. Along the way, the SEC declares to be unlawful a number of practices that have long been accepted as entirely legitimate, including trading one’s own money through a family office that has limited reporting requirements, trading on margin or through security-based swaps rather than in the securities themselves, or trading before or at the end of the trading day. The result is a Complaint that is not only unprecedented in its expansion of the notion of “open-market manipulation,” already a questionable theory, but one that would, if sustained, threaten the very existence of markets by allowing regulators to judge, in retrospect, the economic value of trading, and by equating manipulative intent with mere knowledge of the truism that trading, and especially large trades, affects price. No trader could have known that these kinds of actions would someday—because Mr. Hwang’s trading failed in the short term, costing him, but no other investors, billions of dollar of losses—be deemed unlawful, rendering this Complaint not only wrong, but fundamentally unfair and an obvious attempt to rewrite the law and then apply it retroactively. Look, if there’s a stock that trades at $50, and you start buying a ton of it, and you keep buying it as it goes all the way up to $100, and then you sell it and it goes back down to $50, there was something weird about you buying at $100. Why did you buy it at $100? It was not worth $100, apparently, as you can tell from the fact that it traded at $50 before and after your buying spree. You were at least making a mistake buying it at $100, and because $100 is so much more than $50 the mistake seems suspicious. It feels plausible to describe your buying the stock at $100 as “non-economic,” like you were buying it for some reason other than that you thought it was worth $100. But I don’t think that’s enough to count as market manipulation? Hwang’s motion discusses the law (citations omitted):The Supreme Court has characterized “manipulation” as a “term of art” in securities law. It therefore has held that a securities law violation for “market manipulation” requires a showing of “intentional or willful conduct designed to deceive or defraud investors by controlling or artificially affecting the price of securities.” Similarly, the Court has held that to be actionable a manipulation scheme must have a deceptive element.The deception requirement is met under Second Circuit law only by conduct that gives “a false impression of how market participants value a security” and disrupts “the natural interplay of supply and demand.” …While the SEC asserts that Archegos employed “multiple deceptive tactics” and points to “several indicia of manipulation,” it does not actually allege any purported deceptive acts that could have created “a false impression of how market participants value a security,” but only alleges real trades that reflected how Mr. Hwang valued securities and that exposed Archegos and Mr. Hwang to real economic risk. There are no allegations of the kinds of deceptive trading recognized as creating an artificial market and price. Instead, the SEC’s truly radical theory is that Mr. Hwang engaged in a broad market manipulation scheme over the entire six month “Relevant Period” because his trading was so highly concentrated and so voluminous that it created a market price that was somehow “artificial,” which he allegedly recognized and, on unspecified occasions, even intended. This theory of “open-market manipulation” has been debated by legal scholars, but it has never been the basis for a cognizable cause of action in the Second Circuit or indeed in most other Circuits. The leading case on the subject in this Circuit is United States v. Mulheren. In Mulheren, the Court criticized the government’s open-market manipulation theory and reversed a criminal conviction based upon it. Specifically, the government alleged that the defendant bought stock with the sole intent of driving up its price as a favor to Ivan Boesky, who wanted to sell his shares of the same stock back to the company when the stock hit a certain price. Allegations and proof that Boesky told Mulheren that “it would be great if it traded” at the desired price, along with Mulheren’s use of a broker he did not regularly use (to allegedly conceal his trading activity), and that Mulheren’s purchases comprised 70% of the trading in that security between the opening of the market and 11:10 a.m. were, even taken together, insufficient to sustain a conviction for market manipulation. The Court noted that all the evidence presented against Mulheren was at least as consistent with innocent behavior—buying stock because he wanted to own it—as with manipulation. Similarly, all the market-manipulation charges against Hwang are basically “he bought stupid amounts of these stocks at stupid prices.” In hindsight that is definitely true, and strange, but it is hard to see who he deceived by doing that, or how it could be illegal. Maybe he just wanted to own them.You could, I should say, try to make a manipulation case here. In the abstract, a compelling manipulation case would be something like:	Hwang borrowed money to buy a bunch of stocks to make them go up.	When they went up, he borrowed more money to buy more and make them go up more.	When they went up more, he borrowed more money and buried it in his backyard.	Then they went down, the money in his account went to zero, and his banks lost money.	The money in his backyard was still there though.It is not exactly clear that this would count as market manipulation under the relevant precedents, but it makes sense. It is a trade of the form “buy stocks to make them go up so you can make money on some other trade”; here the other trade is borrowing a lot of money (secured by inflated stocks) to bury in your backyard. As far as I can tell, though, there is absolutely no evidence of this; as far as I can tell Hwang plowed most or all of his winnings back into this doomed trade. He just wanted to own the stocks.The other charges against Hwang involve alleged lies to the banks to get them to lend Archegos more money. I am a little skeptical of those charges too: Credit Suisse Group AG, which lost a bunch of money on Archegos,  released its own detailed report that made it pretty clear that it was not really deceived about what Archegos was up to. Still, if you lie to banks to get money, it is tough to argue “well it’s fine because they didn’t believe me.” Hwang has a better argument, though: He didn’t do any of that lying; people who worked for him at Archegos allegedly did:Mindful of its inability to allege any kind of deceit or fraudulent trading conduct, the SEC alleges that swap counterparties were the victims of misstatements that caused them to extend credit to Mr. Hwang’s fund, Archegos. But these misstatements were not, even as alleged, those of Mr. Hwang but of others; the SEC seeks to attribute them to Mr. Hwang only by arguing that he “set the tone” for them.I don’t know. I get the point that if a bunch of stocks crash all at once, and banks lose billions of dollars, because of one guy’s weird trading, it is hard not to charge him with a crime. But it is a bit hard to know what the crime here was.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Print and sprint
-    
-  
+
+
 Obviously there is still tons of  shadow banking in the traditional financial system:The biggest buyers of leveraged loans are looking to repeat a strategy that generated gains of more than 60% during the early part of the pandemic, but raising money for these funds is getting harder. Money managers are quickly buying loans in trading markets and funding their purchases by selling bonds known as collateralized loan obligations. These “print-and-sprint” transactions differ from regular CLOs, where firms buy new loans from companies over months, temporarily funding their purchases with credit lines from banks until they sell CLOs.  Columbia Threadneedle Investments is one of the latest managers to sell print-and-sprint CLOs. Carlyle Group Inc. sold another such deal in Europe -- a feat not accomplished there for years. Managers like Blackstone Inc., Investcorp and Ares Management Corp. are also getting the transactions done, as is Apollo Global Management Inc. “Any savvy manager would want to take advantage of this situation,” said Jerry Howard, head of the US bank loan team at Columbia Threadneedle. More are planning to follow, according to people with knowledge of the matter. But executing the deals is becoming increasingly difficult as CLOs are having to pay more to finance their transactions, particularly when selling the highest-rated bonds they offer, where yields have jumped in recent weeks. Higher funding costs have also cut into the potential profits from a CLO, because loan prices haven’t moved as much.  If you can issue AAA-rated debt to buy junk-rated debt, there are spreads to be earned there.
-  
-    
+
+
       People are worried about bond market liquidity
-    
-  
+
+
 It’s  so back!The magnitude of losses across global markets has spooked bond traders at banks.Many are slashing risk, and some are refusing to buy or sell with clients at all if it means they will have to hold the bonds even for a short while, according to market participants. The biggest global banks -- including Citigroup Inc., Deutsche Bank AG, Goldman Sachs Group Inc. and JPMorgan Chase & Co. -- have been among those cutting back in parts of the debt markets in Europe and the US, the people said.The pullback means pockets of the market are grinding to a halt, posing a problem for asset managers seeking to divest from securities at quick notice to meet redemption requests across credit funds. Earlier this month, investors pulled money out of European fixed income funds at the fastest pace since March 2020, according to a note published last week by BofA Global Research analysts. US high-grade bond investors have now yanked cash for 13 consecutive weeks, extending the longest losing streak on record.“Liquidity has been very poor, and when we need it the most,” David Newman, chief investment officer for global high yield at Allianz Global Investors, said in an interview. “In some cases it’s taken us several weeks to exit what should be very liquid positions. Conversely, we’ve been unable to buy positions that we think offer up opportunity.” …The role of banks is crucial in bond markets because they’re typically traded in over-the-counter, or OTC, markets rather than on exchanges like equities. Trades are also often much bigger, with bonds sold in the millions of euros, with banks bearing the risk of holding large positions for clients if they can’t find buyers.Market participants have long been concerned that banks wouldn’t have the appetite or capacity to cushion bond-market moves in tough periods, both because of losses they took in the financial crisis and the resulting capital rules that required them to fund less of their trading books with borrowed money. Traders have recently seen bouts of illiquidity even in the US Treasury market.“Liquidity has completely dried up, and banks are not willing to take any risk on their books,” said Jochen Felsenheimer, a managing director at XAIA Investment in Munich. “Every bank is telling their traders not to make a single mistake, and to avoid that, they’re taking zero risks.”In like 2015, when I first started  writing regularly about people being worried about bond market liquidity, it was often framed as primarily a regulatory story. (Or an exchange-traded-fund story,  weirdly.) In the good old days, the thinking goes, banks had lots of regulatory capacity to buy all the bonds, so they did and markets were good. But since the post-2008 reforms, the thinking goes, banks are not really allowed to buy all the bonds anymore, so they don’t and markets are bad. I don’t think this was ever completely wrong, but there was obviously always the competing explanation of “banks don’t like to buy bonds when bonds are going down because then they’ll own bonds that are going down.” But the people who worried about bond market liquidity were sometimes explicitly lobbying for looser rules on banks, so they could provide more liquidity, because they viewed this as essentially a regulatory problem.But it has been 14 years since 2008, and the rules kind of are what they are at this point, and in fact some rules about bank trading have  been loosened, and so nobody really goes around saying “bond market liquidity is bad because of bad rules that must be changed.” So now if bond market liquidity gets worse the story is, you know, “banks do not want to buy the bonds we want to sell because they worry those bonds will go down.” It is hard to know how to fix that, or if you’d even want to.
-  
-    
+
+
       Things happen
-    
-  
+
+
 JPMorgan Exits  Nickel Saga as Tycoon Shrinks ‘Big Short.’ Ships going dark: Russia’s grain smuggling in the Black Sea. Crypto Hedge Fund  Three Arrows Set for Court-Ordered Liquidation. ‘ Bitcoin Jesus’ Roger Ver Spars With Crypto Exchange CoinFlex Over Margin Call. Grayscale  Spot Bitcoin ETF Comes With a Catch. Bye Bye, Bored Apes? As a Crypto Winter Descends on the World, Celebrities Have Begun Quietly Deleting Their NFT Profile Pictures. “The knights, squires, show cast and stablehands of Lyndhurst will vote July 15 on whether or not to unionize.” “A urologist has claimed that rich New Yorkers are getting pricey prostate surgery and Botox on their bladders to avoid having to take bathroom breaks on the long drive from the city to the Hamptons.”If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Well, Bitcoin is volatile, so maybe it has gone up and you’ll get $60 back. But realistically there is probably something wrong-way about your credit risk here, and in a world in which Borrower has vanished your Bitcoin is more likely to be worth $40 than $60.[2] This is a very high-level generic statement, not a claim about the actual operations of bankruptcy law or secured financing. Depends on how Lender disappears, etc. But if it truly vanishes — sort of a plausible outcome in crypto — then I guess you keep the money.[3] Again, maybe it is not fine in some technical legal regime in which you might end up, but as a practical first cut, you’d rather have possession of the $100.[4] There are good reasons for that. For one thing, if I’m borrowing from you, it’s to *do* something with the stuff I’m borrowing, not to just leave it accessible to the smart contract that might recall it. For another thing, my point in the text is that *somebody has to be undersecured*: As long as Bitcoin is volatile, we can’t ever really have a loan where I put up $100 of Bitcoin and you put up $100 of Tether and we are both equally secured at all times. So if I put up $110 of Bitcoin and you put up $100 of cash and you vanish, the smart contract can only seize your $100 and I am left with a $10 deficit. *Unsecured* lending is a tough nut to crack in a purely decentralized-finance sort of way, and if I’m lending you one currency and you’re lending me another then one of us sort of has to be undersecured.[5] It is not entirely unrelated to the schematic financial literacy question I asked in the previous section, by the way. Hwang's leverage did get pretty extreme.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

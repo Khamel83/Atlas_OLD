@@ -24,7 +24,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 class MobileDashboardHandler(BaseHTTPRequestHandler):
     """HTTP handler for mobile-friendly dashboard"""
-    
+
     def do_GET(self):
         """Handle GET requests"""
         if self.path == '/':
@@ -35,7 +35,7 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             self.send_alerts()
         else:
             self.send_404()
-    
+
     def send_dashboard(self):
         """Send mobile-friendly dashboard"""
         html_content = '''
@@ -51,7 +51,7 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background-color: #f5f7fa;
@@ -59,20 +59,20 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             line-height: 1.6;
             padding: 16px;
         }
-        
+
         .header {
             text-align: center;
             margin-bottom: 24px;
             padding-bottom: 16px;
             border-bottom: 1px solid #e1e5e9;
         }
-        
+
         .header h1 {
             font-size: 1.5rem;
             font-weight: 600;
             color: #2c3e50;
         }
-        
+
         .status-card {
             background: white;
             border-radius: 12px;
@@ -80,69 +80,69 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             padding: 20px;
             margin-bottom: 16px;
         }
-        
+
         .status-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 16px;
         }
-        
+
         .status-title {
             font-size: 1.1rem;
             font-weight: 600;
             color: #2c3e50;
         }
-        
+
         .status-indicator {
             width: 12px;
             height: 12px;
             border-radius: 50%;
             display: inline-block;
         }
-        
+
         .status-ok {
             background-color: #4caf50;
         }
-        
+
         .status-warning {
             background-color: #ff9800;
         }
-        
+
         .status-error {
             background-color: #f44336;
         }
-        
+
         .metric-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 12px;
         }
-        
+
         .metric-card {
             background: #f8f9fa;
             border-radius: 8px;
             padding: 16px;
             text-align: center;
         }
-        
+
         .metric-value {
             font-size: 1.5rem;
             font-weight: 700;
             color: #2c3e50;
             margin: 8px 0;
         }
-        
+
         .metric-label {
             font-size: 0.85rem;
             color: #6c757d;
         }
-        
+
         .alert-list {
             max-height: 300px;
             overflow-y: auto;
         }
-        
+
         .alert-item {
             padding: 12px;
             border-left: 4px solid #4caf50;
@@ -150,21 +150,21 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             margin-bottom: 8px;
             border-radius: 0 8px 8px 0;
         }
-        
+
         .alert-warning {
             border-left-color: #ff9800;
         }
-        
+
         .alert-error {
             border-left-color: #f44336;
         }
-        
+
         .alert-time {
             font-size: 0.75rem;
             color: #6c757d;
             margin-top: 4px;
         }
-        
+
         .refresh-btn {
             background: #3498db;
             color: white;
@@ -177,16 +177,16 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             width: 100%;
             margin-top: 16px;
         }
-        
+
         .refresh-btn:active {
             background: #2980b9;
         }
-        
+
         @media (max-width: 480px) {
             .metric-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .header h1 {
                 font-size: 1.3rem;
             }
@@ -197,13 +197,13 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
     <div class="header">
         <h1>Atlas System Status</h1>
     </div>
-    
+
     <div class="status-card">
         <div class="status-header">
             <div class="status-title">System Overview</div>
             <div class="status-indicator status-ok"></div>
         </div>
-        
+
         <div class="metric-grid">
             <div class="metric-card">
                 <div class="metric-value">99.9%</div>
@@ -223,12 +223,12 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             </div>
         </div>
     </div>
-    
+
     <div class="status-card">
         <div class="status-header">
             <div class="status-title">Services</div>
         </div>
-        
+
         <div class="metric-grid">
             <div class="metric-card">
                 <div class="metric-value">✓</div>
@@ -248,12 +248,12 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             </div>
         </div>
     </div>
-    
+
     <div class="status-card">
         <div class="status-header">
             <div class="status-title">Recent Alerts</div>
         </div>
-        
+
         <div class="alert-list">
             <div class="alert-item">
                 <div>Backup completed successfully</div>
@@ -269,9 +269,9 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
             </div>
         </div>
     </div>
-    
+
     <button class="refresh-btn" onclick="location.reload()">Refresh Status</button>
-    
+
     <script>
         // Auto-refresh every 30 seconds
         setTimeout(() => {
@@ -281,13 +281,13 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
 </body>
 </html>
 '''
-        
+
         self.send_response(200)
         self.send_header('Content-Type', 'text/html')
         self.send_header('Cache-Control', 'no-cache')
         self.end_headers()
         self.wfile.write(html_content.encode('utf-8'))
-    
+
     def send_status(self):
         """Send simple status page"""
         status_data = {
@@ -306,13 +306,13 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
                 "memory_usage": "1.2GB"
             }
         }
-        
+
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
         self.send_header('Cache-Control', 'no-cache')
         self.end_headers()
         self.wfile.write(json.dumps(status_data, indent=2).encode('utf-8'))
-    
+
     def send_alerts(self):
         """Send alerts page"""
         alerts_data = {
@@ -335,13 +335,13 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
                 }
             ]
         }
-        
+
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
         self.send_header('Cache-Control', 'no-cache')
         self.end_headers()
         self.wfile.write(json.dumps(alerts_data, indent=2).encode('utf-8'))
-    
+
     def send_404(self):
         """Send 404 Not Found"""
         self.send_response(404)
@@ -352,13 +352,13 @@ class MobileDashboardHandler(BaseHTTPRequestHandler):
 def create_mobile_dashboard():
     """Create mobile-friendly dashboard"""
     print("Creating mobile-friendly dashboard...")
-    
+
     # Start HTTP server
     server_address = ('localhost', 8082)
     httpd = HTTPServer(server_address, MobileDashboardHandler)
     print(f"Mobile dashboard running on http://localhost:8082")
     print("Press Ctrl+C to stop")
-    
+
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
@@ -369,7 +369,7 @@ Dashboard server stopped.")
 def test_mobile_interface():
     """Test mobile interface across devices"""
     print("Testing mobile interface...")
-    
+
     # This is a placeholder implementation
     # In a real implementation, this would perform actual device testing
     devices = [
@@ -378,10 +378,10 @@ def test_mobile_interface():
         "iPad Pro (iOS 15)",
         "Google Pixel 6 (Android 12)"
     ]
-    
+
     for device in devices:
         print(f"  Testing on {device}... Passed")
-    
+
     print("Mobile interface testing completed.")
     return True
 
@@ -389,16 +389,16 @@ def main():
     """Main mobile dashboard function"""
     print("Mobile-Friendly Dashboard for Atlas")
     print("=" * 35)
-    
+
     # Create dashboard
     print("
 
 Starting mobile dashboard server...")
     create_mobile_dashboard()
-    
+
     # Test mobile interface
     test_mobile_interface()
-    
+
     print("
 
 Mobile dashboard setup completed!")
@@ -408,7 +408,7 @@ Mobile dashboard setup completed!")
     print("- Bookmark-friendly status endpoint")
     print("- Mobile-optimized alert management")
     print("- Cross-device testing")
-    
+
     print("
 
 Usage:")

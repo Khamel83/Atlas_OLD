@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • February 20, 2011 
+Unknown author • February 20, 2011
 
 ![nytimes.com]()
 

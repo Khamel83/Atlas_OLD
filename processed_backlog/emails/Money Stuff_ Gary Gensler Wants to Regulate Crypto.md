@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.“A basic premise of Web3,” I once wrote, “is that every product is simult
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Crypto securities
-    
-  
+
+
 
 “A basic premise of Web3,”   I once wrote, “is that every product is simultaneously an investment opportunity”:
 If you sign up for a Web3 social network or chat room or trading venue or let’s-buy-the-Constitution lark, you will get some of that project’s tokens, which will entitle you to use the project’s app or exchange or Constitution, and which will give you some notional say in the decentralized governance of the project. Also the tokens will appreciate in value if the project takes off and more people want to use it. It’s as if being an early user of Facebook or Uber also automatically made you a shareholder of Facebook or Uber, and when those services got huge you got rich.
@@ -123,63 +123,63 @@ If you don’t do that, then, what? Then the US will not be a leader in crypto i
 Still I do not understand the game here. Gensler’s posture seems like a massive bet against crypto ever being important. His message is basically “I should be the main regulator of crypto, and as the main regulator my plan is mostly to ban it.” That’s not, abstractly, an insane posture: That’s more or less the view that the US Drug Enforcement Agency takes toward cocaine, for instance. (Or the view that   China takes toward crypto, for that matter.) But most of the people who are jockeying to be the main regulator of crypto want to regulate a thriving ecosystem; they want it to be big, and they want to be in charge of it. Gensler wants to be in charge of it and have it be irrelevant and cumbersome and slow-moving.
 That might be a good pitch, now, in the crypto winter, when so many crypto stories are about people losing their life savings to unregulated scams. But it is not going to appeal to anyone in the crypto industry, and I don’t think it’s going to appeal to the politicians who are interested in crypto and who are  writing their own legislation to decide who should regulate it. Gensler’s posture is that he should be in charge of writing the rules for crypto, but not write them. I don’t see how that can work.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Cineworld
-    
-  
+
+
 
 January 2021 was a really bad time for movie theaters, which were battered by Covid closures and the film industry’s embrace of streaming. But it was a really good time for AMC Entertainment Holdings Inc., a big movie-theater company, because it was the height of the meme-stock craze and AMC was a meme stock. Its revenue was low but its stock was high. AMC seized the moment by selling stock and converting debt into equity at its meme-inflated stock price.   I wrote:
 Six hundred million dollars of debt, vaporized by Reddit enthusiasm. “In the absence of significant increases in attendance from current levels, there is substantial doubt about our ability to continue as a going concern for a reasonable period of time,” AMC warned investors on Monday; four days and a billion dollars later, there is somewhat less doubt. A week ago it was not crazy to think this company was doomed; now it is entirely possible that it will survive and thrive and show movies in movie theaters for decades to come because everyone went nuts and bought meme stocks this week. Capital formation! 
@@ -198,20 +198,20 @@ I used to be an equity capital markets banker in the US, and I guess I believed 
 Obviously none of this was completely true in every respect — everyone probably has their own favorite example of an irrationally overpriced flimsy company on the US stock market, and there are certainly places where US regulation is not all that strict compared to other countries — but, you know, generally. The idea is that the US has the smartest markets, the ones that are the least tolerant of nonsense, and therefore also the deepest markets for the non-nonsense companies.
 And then here is Cineworld being like “well, as we were sliding into bankruptcy, we thought it would be a good idea to sell our worthless stock at high prices to insane rubes, and it turns out they’re all in America.” I guess.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       DWAC
-    
-  
+
+
 
 I guess it’s close?
 
@@ -222,11 +222,11 @@ Digital World previously warned that the vote’s failure could result in the SP
 We have   discussed this   vote a few times   recently. On the one hand, if you don’t have the required 65% of the shares voting by noon on the last day, what are the odds you’ll have them by 3 p.m.? On the other hand, if you’re at like 45% at noon, you don’t bother extending for three more hours; you put in the extra $2.8 million to extend for three more months. 
 The stock is up today, and I was about to write “if you’re buying DWAC at $24 per share you’d better be voting yes.” But of course it doesn’t work that way, and that’s arguably part of the problem. The record date for the vote is Aug. 12, 2022: If you owned DWAC stock on that date, you get to vote; if not, not. Since Aug. 12, roughly 21 million DWAC shares have changed hands, or about three-quarters of its float. If you sold DWAC stock for $30 per share in late August, you still get to vote to extend the deadline, but you will not be particularly motivated: Extending the deadline is good for existing DWAC shareholders but doesn’t affect you at all; if DWAC calls you up to beg you to vote, you might figure it’s spam and hang up on them. If you bought DWAC stock for $30 per share in late August, you’ll be very motivated to vote to extend the deadline, but you can’t. If you bought DWAC stock for $95 per share in March, you should be really motivated to vote, but you might have forgotten about it by now. The people paying the most attention might be the ones who can’t vote the shares.
 
-  
-    
+
+
       SKKY 
-    
-  
+
+
 
 Private equity recruiting kicked off last week, so if you are a top investment banking analyst you probably have your 2024 private equity job lined up by this point. Which means that you missed out on  this opportunity:
 
@@ -236,11 +236,11 @@ Ms. Kardashian, known to many from her appearances on her family’s show “The
 
 “Kim Kardashian posting about a portfolio company is a top quartile most believable value-add capability pitch from PE/VC GPs,”  tweeted Dan McMurtrie: Carlyle Group is just not going to be as good as Kim Kardashian at attracting consumers to a brand. If you are a smallish consumer goods company looking to sell yourself, Kim Kardashian’s private equity fund can probably extract way more synergies — by having Kardashian put your products on her Instagram — than any other buyer can, which means she can pay more for you than anyone else and still make money. Seems like a good pitch.
 
-  
-    
+
+
       NFT Stuff 
-    
-  
+
+
 
 Here’s  a story about, you know, play-to-earn video games, non-fungible tokens, etc.:
 
@@ -250,129 +250,129 @@ But he also envisions NFT games that could exploit the wealth gap between player
 
 I … look, I do not mean to be too naive a cheerleader for the prospects of artificial intelligence, but I do think that within my lifetime AI will reach a point where it can play the NPCs in a video game? Like, the job of “just walk back and forth” in a video game is absolutely absolutely absolutely going to be automated out of existence, in the sense that it has already been automated out of existence, in the sense that it has never been a job, in the sense that video games have software that can make a non-player character walk back and forth automatically, in the sense that that software is what a video game is. Obviously automating that job is cheaper than paying someone in the Philippines to do it. Imagine launching Pac-Man in 1980 and being like “of course we’ll have to hire some remote workers in developing countries to play the ghosts.” Crypto economics is just wild, man.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 ECB Intensifies Inflation Fight With   Historic Jumbo Hike. UK Sets Up   £40 Billion Fund for Energy Traders as Markets Strain. BlackRock Pushes Back on GOP’s ‘Inaccurate’  Attacks Against ESG. China’s Lending Strategy in Emerging Markets Risks Prolonging Borrowers’ Pain. Xi’s ESG Boom Funnels Billions Into   Coal, Liquor, Defense Stocks. Banks try to offload $15bn of Citrix  buyout debt to ‘gun-shy’ investors. Crypto Lender   Celsius Misled Investors, Vermont Regulator Says. Trial of Former Uber Executive Has Security Officials Worried About  Liability for Hacks. Inside Bed Bath & Beyond, Concerns Over  Mounting Stress for CFO. Adam Neumann Is Back, This Time With a   Crypto Angle. People are worried about  bond market liquidity. Bankers, CEOs Splash Millions on   One-Week Superyacht Rentals. “Stock returns during the week are negatively associated with the reported  incidence of domestic violence during the weekend. This relationship is primarily driven by negative returns.” “‘I  bought crypto in 2017,’ Mr. Butler said. ‘That’s how I stay working in fashion.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] When I wrote that on Jan. 27, Wonderland’s TIME token was down about 96% from its peak in November 2021. It fell about another 97% between January and now.
 
 
   [2] One of Cineworld’s problems is that it agreed to buy Canadian movie-theater company Cineplex Inc. just before Covid, and then tried to get out of the deal after Covid. It argued that Cineplex was not operating “in the ordinary course of business,” because it shut down theaters due to Covid. The Canadian court was not impressed and awarded Cineplex more than $1 billion of damages.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,11 +7,11 @@
 
 # imissgrantland.com this domain has already been registered. However, interested party can still solicit a request to buy it from owner.
 
-Unknown author • February 04, 2016 
+Unknown author • February 04, 2016
 
 ![imissgrantland.com this domain has already been registered. However, interested party can still solicit a request to buy it from owner.]()
 
-SSL certificate  
-  
-The certificate can be issued in three simple steps. Approval and implementation can complete on the same day (as low as $2.88/year) 
+SSL certificate
+
+The certificate can be issued in three simple steps. Approval and implementation can complete on the same day (as low as $2.88/year)
 

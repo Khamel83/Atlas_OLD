@@ -113,9 +113,9 @@
     <div id="skip">
       <a href="#content">Jump to Navigation</a>
     </div>
-    
+
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    
+
 <div id="page" class="page">
 
 <header id="header">
@@ -124,8 +124,8 @@
           <img src="/themes/gw_basic/logo.png" alt="Home"/>
         </a>
         <p class="header-donate"><a href="https://secure.givewell.org/" class="header-btn-donate visible">Donate</a></p>
-      
-      
+
+
               <div id="header-region">
           <span class="search-btn-open"></span>
             <div class="region region-header">
@@ -152,11 +152,11 @@
           <span class="btn-close"></span>
         </div>
       </div>
-    </form> 
+    </form>
   </div>
 </div>
 <nav role="navigation" aria-labelledby="" id="block-system-main-menu" class="block block-menu navigation menu--main">
-            
+
   <h2 class="visually-hidden">Main menu</h2>
 
 <div class="content">
@@ -181,10 +181,10 @@
         <a href="/charities/new-incentives" data-drupal-link-system-path="node/2937">New Incentives</a>
               </li>
         </ul>
-  
+
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/our-giving-funds" data-drupal-link-system-path="node/3538">Our Giving Funds</a>
@@ -202,7 +202,7 @@
         <a href="https://airtable.com/appGuFtOIb1eodoBu/shrcjog1m8jLc68Zt">List of Grants</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/research/funding-cuts" data-drupal-link-system-path="node/4214">USAID</a>
@@ -217,7 +217,7 @@
         <a href="/research/global-health-forecasts-march-2025" title="Forecasts on Future US Government Global Health Funding" data-drupal-link-system-path="node/4252">Forecasts on Future Funding</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item expanded">
         <a href="/research" data-drupal-link-system-path="node/3587">Research</a>
@@ -241,7 +241,7 @@
         <a href="/impact-estimates" data-drupal-link-system-path="node/3768">How We Produce Impact Estimates</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item">
         <a href="/about/our-mistakes" data-drupal-link-system-path="node/3475">Our Mistakes</a>
@@ -280,7 +280,7 @@
         <a href="/updates" data-drupal-link-system-path="node/2135">Stay Updated</a>
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item">
         <a href="http://blog.givewell.org">Blog</a>
@@ -331,7 +331,7 @@
         <a href="/gwuk/about" data-drupal-link-system-path="node/3690">Donate to GiveWell UK</a>
               </li>
         </ul>
-  
+
               </li>
         </ul>
 
@@ -342,12 +342,12 @@
 </div>
 
 </div>
-      
+
     </div>
   </header>
   <div id="main">
     <section id="content">
-  
+
       <div id="content-header">
         <div class="container">
 
@@ -375,14 +375,14 @@
 
 </div>
 </aside>
-          
+
         </div>
       </div>
 
 <aside id="sidebar-first" class="column sidebar first">
             <div class="region region-sidebar-first">
     <div id="block-gw-basic-tableofcontents" class="block block-toc-filter">
-  
+
       <h2>Table of Contents</h2>
 
 <div class="content">
@@ -391,128 +391,128 @@
 <div class="toc-desktop toc toc-tree toc-list tableofcontents-processed">
 
 <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Summary">Summary</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#What_do_they_do">1. What do they do?</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#In_a_nutshell">1.1 In a nutshell</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#Overview_of_Against_Malaria_Foundations_activities">1.2 Overview of Against Malaria Foundation’s activities</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#How_do_ITN_campaigns_work">How do ITN campaigns work?</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Identifying_funding_gaps">Identifying funding gaps</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Procuring_ITNs">Procuring ITNs</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Distribution_of_ITNs">Distribution of ITNs</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Monitoring_and_evaluation_1">Monitoring and evaluation</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Research_on_net_effectiveness">Research on net effectiveness</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="no-children">
       <a href="#How_does_Against_Malaria_Foundation_use_its_funding">1.3 How does Against Malaria Foundation use its funding?</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="has-children">
       <a href="#Monitoring_and_information_sharing">2. Monitoring and information sharing</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Overview">2.1 Overview</a>
           </li>
-     
+
     <li class="has-children">
       <a href="#Information_informing_our_cost-effectiveness_analysis">2.2 Information informing our cost-effectiveness analysis</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Cost_information">Cost information</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Distribution_data">Distribution data</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Information_on_other_malaria_funding">Information on other malaria funding</a>
           </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="has-children">
       <a href="#Information_that_we_use_in_other_ways">2.3 Information that we use in other ways</a>
-                
+
     <ul class="toc-accordion">
-     
+
     <li class="no-children">
       <a href="#Registration_2">Registration</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Monitoring_and_evaluation_2">Monitoring and evaluation</a>
           </li>
-  
+
     </ul>
 
 </li>
-  
+
     </ul>
 
 </li>
-     
+
     <li class="no-children">
       <a href="#Qualitative_assessment">3. Qualitative assessment</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#What_do_you_get_for_your_dollar_">4. What do you get for your dollar? </a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Previous_AMF_grants">5. Previous AMF grants</a>
           </li>
-     
+
     <li class="no-children">
       <a href="#Sources">6. Sources</a>
           </li>
-  
+
     </ul>
 
 </div>
@@ -561,18 +561,18 @@
 </div>
 
 </aside>
-      
+
       <div id="content-area">
         <div class="container">
             <div class="region region-content">
     <div id="block-gw-basic-system-main" class="block block-system block-system-main-block">
 
 <div class="content">
-            
+
 <article class="node node--type-page node--view-mode-full">
 
 <div class="node__content">
-    
+
       <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__items">
               <div class="field-item"><div class="toc-filter"><p><a class="button-lg-wide" href="https://secure.givewell.org">Donate</a></p>
 <div class="overview">
@@ -663,7 +663,7 @@
  The aim of mass campaigns is to reach as many people as possible in a given location.<a class="see-footnote" id="footnoteref7" title=" “To achieve and maintain universal ITN coverage, countries should apply a combination of mass free net distribution through campaigns and continuous distribution through multiple channels, in particular through antenatal care (ANC) clinics and the Expanded Programme on Immunization (EPI). Mass campaigns are the only proven cost-effective way to rapidly achieve high and equitable coverage.” WHO, Guidelines for Malaria Vector Control, 2019, p. 39. " href="#footnote7">7</a>
  The interval between campaigns recommended by the World Health Organization (WHO) is three years.<a class="see-footnote" id="footnoteref8" title=" Our understanding is that this recommendation is based on evidence that ITN efficacy declines three years after distribution, suggesting that they should be replaced after that interval. Our review of the evidence has similarly led us to conclude that ITNs provide strong protection from malaria for roughly two years on average. See this section of our report on ITNs.  " href="#footnote8">8</a>
  Many malaria endemic countries aim to deliver nets on this three year schedule, and depending on their size they may conduct campaigns nationwide or on a regional level on a rolling basis.<a class="see-footnote" id="footnoteref9" title=" The countries we are aware of that have used a rolling approach in the past are DRC, Nigeria, and South Sudan. See our summary for DRC and Nigeria on this page, and for South Sudan on this page.  " href="#footnote9">9</a>
- 
+
 </li><li><strong>Continuous distribution</strong> involves ongoing distribution of ITNs during other touchpoints that people may have with the state or healthcare system. Continuous distribution is typically targeted at groups at elevated risk of malaria (e.g., young children and pregnant women), and also helps to fill coverage gaps that emerge after mass campaigns as nets are lost or deteriorate over time.<a class="see-footnote" id="footnoteref10" title=" &quot;Mass campaigns are the only proven cost-effective way to rapidly achieve high and equitable coverage. Complementary continuous distribution channels are also required because coverage gaps can start to appear almost immediately post-campaign due to net deterioration, loss of nets, and population growth… …Continuous distribution through ANC and EPI channels should remain functional before, during and after mass distribution campaigns. School based distribution should be discontinued in campaign years to avoid over-supply of ITNs. In areas where school-based distributions are operating at scale and achieve high coverage, these distributions may even be sufficient to replace mass distribution campaigns.” WHO, Guidelines for Malaria Vector Control, 2019, pp. 39-40.  " href="#footnote10">10</a>
  Settings where people can access ITNs via continuous distribution include antenatal clinics, immunization clinics and schools.<a class="see-footnote" id="footnoteref11" title=" “To achieve and maintain universal ITN coverage, countries should apply a combination of mass free net distribution through campaigns and continuous distribution through multiple channels, in particular through antenatal care (ANC) clinics and the Expanded Programme on Immunization (EPI). Mass campaigns are the only proven cost-effective way to rapidly achieve high and equitable coverage. Complementary continuous distribution channels are also required because coverage gaps can start to appear almost immediately post-campaign due to net deterioration, loss of nets, and population growth… …Continuous distribution through ANC and EPI channels should remain functional before, during and after mass distribution campaigns. School based distribution should be discontinued in campaign years to avoid over-supply of ITNs. In areas where school-based distributions are operating at scale and achieve high coverage, these distributions may even be sufficient to replace mass distribution campaigns.” WHO, Guidelines for Malaria Vector Control, 2019, pp. 39-40.  " href="#footnote11">11</a>
 
@@ -682,7 +682,7 @@
 <p>We have heard of a number of different strategies that national malaria programs employ when there are funding gaps. These can be divided into two main approaches:</p>
 <ul>
 <li>Reducing the number of ITNs distributed in each campaign below the level needed to achieve universal coverage (e.g., by skipping subnational regions with lower malaria rates or regions that are targeted with another malaria intervention, or by reducing the number of ITNs distributed per household).<a class="see-footnote" id="footnoteref16" title=" For example, this page summarizes a grant GiveWell made to AMF in 2021 for ITN campaigns in Nigeria, Uganda and Togo. The Togo and Uganda national malaria programs usually conduct nationwide campaigns every three years, but have historically not had enough funding to cover the entire population in each campaign. We believe that the impact of our funding to AMF was to increase the number of people who would be covered in these campaigns.   " href="#footnote16">16</a>
- 
+
 </li><li>Extending the interval between campaigns (e.g., by conducting rolling campaigns by region so that campaigns happen less often than every three years in each region, or delaying the campaign to continue fundraising).<a class="see-footnote" id="footnoteref17" title=" For example, see this spreadsheet for details of campaigns in 11 Nigerian states receiving support from the President’s Malaria Initiative (PMI). Columns L, Q and V show the intervals between campaigns taking place in the 2012-2020 period. In only one case (Kebbi state in 2018) was the campaign interval within the recommended 36 month period.  " href="#footnote17">17</a>
 
 </li></ul>
@@ -706,7 +706,7 @@
  AMF has always covered the purchase cost for the nets, while partner organizations (in most cases the Global Fund) usually cover distribution and other "non-net costs."<a class="see-footnote" id="footnoteref26" title=" &quot;There was an exception to this between 2013 and 2015 in Malawi where AMF funded the $1.1 million costs of the distribution of 1.4 million nets in order not to miss a window of opportunity to distribute nets given no other funder could be found for the no-net costs and the rainy season was arriving that would make a net distribution difficult.&quot; Rob Mather, AMF CEO, comment on a draft of a previous version of this review, October 31, 2019. " href="#footnote26">26</a>
  AMF also covers the costs of its post-distribution monitoring (discussed <a href="#Monitoring_and_evaluation_1">below</a>),<a class="see-footnote" id="footnoteref27" title=" AMF reports that it has covered monitoring costs in all cases since December 2015. AMF, comment on a draft of this review, November 14, 2023. " href="#footnote27">27</a>
  although these are a small portion of total costs.<a class="see-footnote" id="footnoteref28" title=" For a breakdown of AMF’s spending on previous campaigns, see this spreadsheet.  " href="#footnote28">28</a>
- 
+
 </li><li>The in-country organization (either a government health agency or a non-profit organization) which will carry out the campaign and the process that will be used to carry out the campaign.
 </li><li>What information will be collected and shared with AMF, how it will be collected and when it will be shared. AMF requires that all registration and distribution data is collected digitally rather than using paper-based forms.<a class="see-footnote" id="footnoteref29" title=" AMF, comment on a draft of this review, November 14, 2023.  " href="#footnote29">29</a>
 
@@ -913,7 +913,7 @@
 </li><li>For each funding gap it considers, AMF asks national malaria programs and other funders to fill out a spreadsheet with information about how the current Global Fund malaria allocation<a class="see-footnote" id="footnoteref71" title=" The malaria funding allocation is only one component of the Global Fund’s total allocation for countries, alongside grants for HIV and tuberculosis.  “The Global Fund allocates funding to countries to support HIV, TB and malaria programs and to build resilient and sustainable systems for health. These allocations are made every three years at the beginning of a new allocation period. The total amount available for allocations to countries depends on the funding raised during the corresponding three-year Replenishment cycle. Allocations to individual countries are calculated using a formula that is predominantly based on each country’s disease burden and economic capacity. They are refined to account for important contextual factors through a transparent and accountable qualitative adjustment process.” Global Fund, &quot;Allocation funding&quot;  " href="#footnote71">71</a>
  is being used, how that compares to the previous Global Fund malaria allocation, and what other funding sources are supporting the malaria budget.<a class="see-footnote" id="footnoteref72" title=" This understanding is based on many conversations with AMF over time.  " href="#footnote72">72</a>
  See GiveWell’s <a href="https://docs.google.com/spreadsheets/d/1o4wdmA_4uhZkl87rZLgdQY_T1EPTan5Wp2eSi2sgiKM/edit#gid=0">summary here</a> for an example of this information for the 2018-20 and 2021-23 Global Fund allocations<a class="see-footnote" id="footnoteref73" title=" These dates refer to the implementation periods for the Global Fund cycle, not the fundraising periods. For more details on the distinction, see this page.   " href="#footnote73">73</a>
- for Togo, Guinea, Chad and Uganda. 
+ for Togo, Guinea, Chad and Uganda.
 </li><li>This information allows AMF and GiveWell to monitor patterns in how the country’s malaria budget is being used, including patterns which give us clues about the likelihood that a funding gap would be filled in any case without AMF support. This is one input we use to generate the adjustments for other actors’ spending in our cost-effectiveness analysis.<a class="see-footnote" id="footnoteref74" title=" For example, AMF notified GiveWell that a large proportion of Togo’s malaria allocation from the Global Fund in the 2021-23 grant cycle was being spent on health systems strengthening, rather than programs specific to malaria (see this spreadsheet). This informed our analysis as follows:   Our previous understanding had been that the Global Fund’s malaria allocation for Togo significantly increased between the 2018-20 and 2021-23 grant cycles. As a result, we assumed that the funding gap for ITNs in Togo would shrink in 2021-23 compared to 2018-20 without additional support from AMF. In fact, there was still a funding gap for 2021-23. Learning that this money was being spent on health systems strengthening projects made us more confident that the Togolese government would not have been able to fund the ITN campaign without funding from AMF. However, we still chose to assign a high (60%) probability that other actors would have replaced AMF’s funding in AMF’s absence. This was on the basis that AMF’s history of supporting ITN campaigns in Togo might have been one factor contributing to the Togolese government’s decision to prioritize health systems strengthening projects.  See this section of our grant page for the Togo campaign for further details on our reasoning.  " href="#footnote74">74</a>
 
 </li></ul>
@@ -956,9 +956,9 @@
 </p>
 <ul>
 <li><strong>Self-reported net usage: </strong>What proportion of household members report sleeping under any net found hanging by data collectors (AMF-distributed or not) the previous night?<a class="see-footnote" id="footnoteref84" title=" See this spreadsheet, “Results: Net usage” sheet.  " href="#footnote84">84</a>
- 
+
 </li><li><strong>Inferred usage </strong>(from net presence)<strong>: </strong>As part of the PDM, data collectors assess what proportion of AMF-distributed nets are found hanging in households.<a class="see-footnote" id="footnoteref85" title=" See this spreadsheet, “Results: Net presence” sheet.  " href="#footnote85">85</a>
- We then use this figure to calculate an "inferred" usage rate (<a href="#Net_usage">see below</a>). 
+ We then use this figure to calculate an "inferred" usage rate (<a href="#Net_usage">see below</a>).
 </li><li><strong>Net condition: </strong>What physical condition are the households nets in (as classified by the data collector)?<a class="see-footnote" id="footnoteref86" title=" See this spreadsheet, “Results: Net condition” sheet.  " href="#footnote86">86</a>
 
 </li></ul>
@@ -1111,7 +1111,7 @@
 </li></ul>
 </li><li><strong>Net usage: </strong>We roughly estimate that average usage rates for ITNs in AMF campaigns are 63% across all countries.<a class="see-footnote" id="footnoteref125" title=" See this section of our accompanying report on mass distribution of ITNs.  " href="#footnote125">125</a>
  This estimate is based on usage data from three studies in a meta-analysis of insecticide-treated nets, which found average usage rates of around 70%. We then adjust this estimate downwards because we expect that usage rates in contemporary campaigns would be lower than usage rates in randomized controlled trials (which included activities to encourage usage and guidance on how to hang nets properly).<a class="see-footnote" id="footnoteref126" title=" The meta-analysis and details of the studies it summarizes are discussed in detail in our accompanying report.  " href="#footnote126">126</a>
- 
+
 </li><li><strong>Adjustment for pre-existing nets: </strong>Some people may receive ITNs in AMF campaigns when they already have a non-worn-out net available from previous campaigns. We account for this with an adjustment for pre-existing nets. As of December 2023, we estimate that this reduces the effectiveness of AMF’s ITN campaigns by 3% to 7% (varying by location).<a class="see-footnote" id="footnoteref127" title=" See this section of our accompanying report on ITNs.  " href="#footnote127">127</a>
 
 </li></ul>
@@ -1205,7 +1205,7 @@
 <p><strong>Other factors</strong></p>
 <ul>
 <li>In many conversations with national malaria programs and AMF's other partners, we have explicitly asked for feedback about AMF as a partner and have broadly heard positive feedback. We have, however, occasionally received feedback that AMF can be difficult for national malaria programs to work with, relative to other ITN funders. We have heard two main points of constructive feedback. Firstly, that AMF’s policy of funding only ITNs and not the costs to distribute those ITNs can cause delays and coordination problems (<a href="#Identifying_funding_gaps">more</a>), and secondly that its requirement to "backcheck" 5% of households registered to receive ITNs can make it difficult to work with, because it does not cover the costs of this procedure (<a href="#Registration_1">more</a>).<a class="see-footnote" id="footnoteref132" title=" As discussed above, AMF reports that it is now more explicit about this requirement in initial discussions with each country, and aims to ensure that partners do not have to incur extra costs as a result of the procedure (e.g., because AMF will purchase additional nets to compensate for the costs). It also reports that 5 of 8 countries where it works have adopted the procedure nationwide (including in areas where AMF does not fund nets). AMF, comment on a draft of this review, November 14, 2023. We have not independently investigated or tried to corroborate this. " href="#footnote132">132</a>
- 
+
 </li><li>AMF is a small organization for its budget size. As of December 2023, it had 13 team members<a class="see-footnote" id="footnoteref133" title=" AMF, &quot;People&quot;  " href="#footnote133">133</a>
  and was raising over $100 million per year.<a class="see-footnote" id="footnoteref134" title=" Revenue for the 2021 financial year (ending June 2021) was $107m, and revenue for the 2022 financial year (ending June 2022) was $121m. AMF, &quot;Financial Information&quot;  " href="#footnote134">134</a>
  It does not have the types of support staff (particularly in finance and human resources) that many organizations rely on to identify and mitigate risks to the organization. It also employs fewer staff focused on monitoring, evaluation, and research intended to evaluate and improve its program. This organizational size and structure is notably different from GiveWell's other top charities.
@@ -1947,7 +1947,7 @@ One further exception is that we use data from the PDMs to inform our adjustment
 </div>
 </div></div></div></div></div></div>
           </div>
-  
+
   </div>
 
 </article>
@@ -1963,22 +1963,22 @@ One further exception is that we use data from the PDMs to inform our adjustment
 <aside id="sidebar-second" class="column sidebar second">
             <div class="region region-sidebar-second">
     <div id="block-relatedcontentonagainstmalariafoundation" class="block block-block-content block-block-contentd6ee70fb-b3d9-4230-b005-6fad125a6547">
-  
+
       <h2>Related Content on Against Malaria Foundation</h2>
 
 <div class="content">
-            
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field-item"><ul>
 <li><a href="https://www.givewell.org/international/top-charities/amf/updates">All content on AMF</a>
 </li><li><a href="http://blog.givewell.org/category/against-malaria-foundation/">All blog posts on AMF</a>
 </li><li><a href="https://www.givewell.org/international/site-visits/october-2011">Malawi site visit</a>
 </li></ul>
 </div>
-      
+
     </div>
 </div>
 <div id="block-aggregatorfeed" role="complementary" class="block block-aggregator block-aggregator-feed-block">
-  
+
       <h2>Related Blog Posts</h2>
 
 <div class="content">
@@ -2001,7 +2001,7 @@ One further exception is that we use data from the PDMs to inform our adjustment
         <div class="region region-footer">
             <div class="region region-footer">
     <nav role="navigation" aria-labelledby="block-gw-basic-menu-menu-footer-menu-menu" id="block-gw-basic-menu-menu-footer-menu" class="block block-menu footer-menu menu--menu-footer-menu">
-            
+
   <h2 class="visually-hidden" id="block-gw-basic-menu-menu-footer-menu-menu">Footer Menu</h2>
 
 <div class="content">
@@ -2033,9 +2033,9 @@ One further exception is that we use data from the PDMs to inform our adjustment
 <div id="block-gw-basic-block-36" class="block social block-block-content block-block-content9ab71374-47c0-4ec2-aba8-c86fb1f98658">
 
 <div class="content">
-            
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="social">   <h2>Follow Us:</h2>   <ul>       <li><a href="https://facebook.com/givewell.org" class="facebook" target="_blank" title="Facebook">Facebook</a></li>       <li><a href="https://twitter.com/GiveWell" class="twitter" target="_blank" title="Twitter">Twitter</a></li>       <li><a href="https://www.linkedin.com/company/givewell/" class="linkedin" title="LinkedIn">Linkedin</a></li> </ul> </div> <div class="subscribe"> <h2>Subscribe to email updates:</h2> <form action="https://eepurl.com/gJx5aT" class="email-subscribe" target="_blank" method="post"><input type="text" name="EMAIL" id="txt-email" placeholder="email address"><input type="hidden" name="MERGE1" id="txt-name" value="."><input type="submit" value="Submit" title="Submit"></form></div> <div class="copyright">GiveWell, aka The Clear Fund (a tax-exempt 501(c)(3) public charity), was founded in 2007. We serve donors across the globe; GiveWell's donors are based primarily in the United States, United Kingdom, Australia, Germany, and Canada. This work is licensed under a Creative Commons <span class="nowrap">Attribution-Noncommercial-Share</span> alike 3.0 United States License</div></div>
-      
+
     </div>
 </div>
 
@@ -2044,7 +2044,7 @@ One further exception is that we use data from the PDMs to inform our adjustment
 </div>
       </div>
     </footer>
-  
+
 </div>
 
 </div>

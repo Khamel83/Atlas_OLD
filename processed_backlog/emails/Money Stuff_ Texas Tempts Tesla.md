@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        I can tell you, if you want, the rules that apply to Elon Musk’s pay as chief executive officer of Tesla Inc. under Delaware corporate law. 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        I can tell you, if you want, the rules that apply to Elon Musk’s pay as chief executive officer of Tesla Inc. under Delaware corporate law.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Texas
-    
-  
+
+
 
 I can tell you, if you want, the rules that apply to Elon Musk’s pay as chief executive officer of Tesla Inc. under Delaware corporate law. They are long and boring, a lot of exceptions to exceptions, but to quickly summarize: The board can pay Musk whatever it wants, unless he is a “controlling shareholder,” in which case the pay has to be “entirely fair,” though if the shareholders vote to approve the pay then that probably makes it “entirely fair,” unless the shareholder vote is not fully informed, in which case a judge gets to decide if it was “entirely fair,” which requires a “fair process” in which the board negotiates with Musk at arm’s length, and also a “fair price” in which, you know, the judge decides if Musk is worth the money. 
 This week a judge decided that Musk is not worth the $55.8 billion that Tesla’s board agreed to pay him in 2018, and wrote a 200-page opinion explaining and applying those rules. You can read the opinion, or my post about it yesterday, for a fuller explanation of these rules and how the judge applied them. But I would say that my two main points yesterday were:
@@ -90,37 +90,37 @@ You can find articles like “The Importance of Independent and Disinterested Di
  Because there are Delaware precedents! More than 300 of the companies in the S&P 500 index are incorporated in Delaware; four are incorporated in Texas. If you have a question about what’s allowed under Delaware law, there’s a pretty good chance that a Delaware public company has done it and gotten an answer; in Texas the chances are slim.
 Still, I mean, the bet here for Elon Musk is reasonable: If he moves Tesla to Texas, and then demands that Tesla’s board pay him $100 billion to keep a reasonable fraction of his time and attention on Tesla, and Tesla’s extremely accommodating board says “sure whatever you want,” and a majority of shareholders approve the pay package, and one disgruntled shareholder sues, and the case goes to Texas business court, and the complaining shareholder comes into court citing conflicts of interest and the board’s lack of independence and the Delaware cases on “entire fairness,” and Elon Musk comes into court saying “well that may all be true but what you are missing is that I am Elon Musk,” and Texas Governor Greg Abbott is in the first row of spectators with a big sign saying “TX <3 U ELON,” is the Texas business court, in its first real high-profile case, going to say “actually it’s illegal to pay Elon Musk that much”? It absolutely is not. That much is pretty predictable.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       More Tornetta
-    
-  
+
+
 
 A couple of other points on this week’s Delaware Chancery Court decision in Tornetta v. Musk, invalidating Elon Musk’s big pay package.
 First: “The lawyers who represented victorious Tesla shareholders may be in line for a record-breaking payout worth hundreds of millions, or even billions, of dollars,”  reports Sujeet Indap at the Financial Times. It is logically possible for a Delaware judge to conclude that (1) Elon Musk’s successful efforts, as CEO of Tesla, to take Tesla’s market value from $59 billion to $650 billion, were not worth $55.8 billion to Tesla shareholders, but (2) some lawyers’ successful efforts to make Musk give back the $55.8 billion are worth billions of dollars to Tesla shareholders. And she does in fact get to decide. But I think that if you put it to a vote of Tesla shareholders — “would you rather give Musk $55.8 billion of Tesla stock for running Tesla, or these lawyers $1 billion of Tesla stock
@@ -135,11 +135,11 @@ I don’t know! I assume that Tesla’s shareholders would vote to give him the
 Also, what if the shareholders did approve the pay deal again? Presumably Mr. Tornetta, the disgruntled shareholder who sued in this case, would go back to court. The court would get to review the pay package again, and since Musk is still the controlling shareholder, the review would still be under the “entire fairness" standard. The fully informed shareholder vote would help; as  the judge wrote: “Delaware law allows defendants to shift the burden of proof under the entire fairness standard where the transaction was approved by a fully informed vote of the majority of the minority stockholders.” But she would still review the pay package for “entire fairness”; it’s just that now the plaintiffs would bear the burden of proving that it’s unfair, instead of the board bearing the burden of proving that it’s fair. But she already ruled that it’s unfair! It should be easy for the plaintiffs to prove that; they can just quote her opinion.
 It is possible that the rule of this case is that Tesla is not allowed to pay Musk $55.8 billion, no matter what its shareholders think, no matter how many of them vote to approve it in a fully informed vote. It’s enough to make you want to move to Texas.
 
-  
-    
+
+
       FTX!
-    
-  
+
+
 
 At some point in early 2022, crypto exchange FTX Trading Ltd. apparently had an equity value of $32 billion, based on the price it got in a fundraising round. By November 2022, FTX founder Sam Bankman-Fried was shopping it around at an equity value of $0; he almost found a buyer at $0, but couldn’t quite make it work. FTX had assets (a bunch of crypto tokens, some venture stakes, a surprising amount of Bahamas real estate), and it had liabilities (it owed its customers a lot of crypto tokens), and it had some sort of going-concern franchise value (if it kept operating a crypto exchange, it could keep charging fees and making money). In early 2022, the assets seemed to be worth more than the liabilities, and the franchise value — FTX’s large steady profits, and the prospect of more in the future as it expanded — was high, leading to a $32 billion equity valuation. In late 2022, the assets turned out to be largely magic beans, the liabilities were high, and FTX’s time as a trusted profitable crypto exchange seemed to be over. The result is that no one was willing to pay $0 to take on FTX’s assets and liabilities and franchise: Any buyer would have to cash out FTX’s customers, and there weren’t enough assets to do that.
 Or, I mean, that’s how it seemed. Sam Bankman-Fried, before he went to jail, consistently argued that that wasn’t true, that if he had had another 24 hours he could have found a buyer to acquire FTX for at least $0 and make all of the customers whole. That has always sounded extremely unlikely, given how carelessly FTX handled customer money and how hideous its balance sheet looked at the time of its implosion. But he kept saying it.
@@ -160,11 +160,11 @@ Also there’s the real estate? Generally speaking, FTX seems to have siphoned o
 Also there is just a due diligence layer here that probably matters for valuation. The bankruptcy executives who currently control FTX are humorless types who   care a lot about careful accounting and who report regularly to a court. When they say things like “we found $300 million of assets under a couch cushion,” people are inclined to believe it. When they want to sell stuff, they run a slow and heavily lawyered sales process that lets multiple buyers kick the tires, and the buyers can have some confidence in what they are buying.
 When Sam Bankman-Fried tried to sell FTX for $0, he had a slapdash and terrifying spreadsheet that emphasized the “Hidden, poorly internally labeled ‘fiat@’ account” with a balance of negative $8 billion. If you are a potential buyer, and you get that spreadsheet along with a text message like “hey FYI I need your final binding bid in two hours or it’s off to jail with me,” you might not be inclined to make an aggressive bid? You might think “hmm negative $8 billion is a suspiciously round number, what if there are other hidden liabilities here that I don’t know about and can’t find out about in two hours?” You might just pass. It’s possible that FTX really was worth at least $0 the whole time, that even at its lowest point it had enough stuff lying around to pay back all its customers. It’s just that Sam Bankman-Fried was in no position to make anyone believe that.
 
-  
-    
+
+
       You can get paid for not farming wind
-    
-  
+
+
 
 Everything is   like this, huh:
 
@@ -175,11 +175,11 @@ In effect, they said, the grid has paid some wind farms not to generate power th
 
 That’s from Bloomberg’s Gavin Finch, Todd Gillespie, Eric Fan, Jason Grotto and Sam Dodge. The basic fact of climate markets is that you can get paid for not doing stuff that damages the environment, which is philosophically perplexing and has   all sorts of baseline and   measurement problems. But then a secondary fact is that you can also, occasionally, get paid for not doing even the green stuff: Sometimes it’s good to generate electricity without using fossil fuel, but sometimes it’s even better not to generate electricity without using fossil fuel.
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 If a door flies off an airplane in midair, is that securities fraud? Say it with me now:
 
@@ -194,15 +194,15 @@ Unbeknownst to investors, statements such as those above were false and misleadi
 
 That door flew off on a Friday, and the next Monday the stock dropped by 8%, destroying about $12 billion of market capitalization. There were 177 passengers on the flight, and they each got $1,500 of compensation for the trauma and inconvenience of being on a plane whose door flew off in midair. I suppose some might sue for more. If they all sue and get $50 million each of damages, which seems unlikely, that adds up to like $8.9 billion, still less than Boeing’s shareholders lost on the news. Boeing’s shareholders are the real victims here, or that is the conclusion of “everything is securities fraud” anyway.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 A $560 Billion   Property Warning Hits Banks From NY to Tokyo. Citizens CEO Calls NYCB an Outlier, Says   Regional-Bank Pain Is in the Past.   Deutsche Bank Warns of Potential US Property Losses. A New Solution for CO2 Emissions:  Bury Them at Sea. As  AI Costs Soar, Some Startups Consider Selling. Russia Helps Lift Austria to Ranks of   Energy-Exporters. A Start-Up Secret: Executives’  ‘11th-Hour’ Pay Bumps. Sports Illustrated’s  $10 Million Mystery. America is facing a  'fringe friend' crisis. Startup Nets $140 Million to Bring High-Tech Solutions to  School Bus Rides.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] One thing that I often wondered, as a young mergers-and-acquisitions lawyer in New York, licensed to practice New York law, is how we all got away with giving companies advice about Delaware merger law. But that’s not important right now.
 
 
@@ -215,51 +215,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] Incidentally, in that 1984 federal case, the court complained in a footnote: “We are both surprised and inconvenienced by the circumstance that, despite their multitudinous and voluminous briefs and exhibits, neither plaintiffs nor defendants seriously attempt to analyze officers' and directors' fiduciary duties or the business judgment rule under Texas law. This is particularly so in view of the authorities cited in their discussions of the business judgment rule: Smith and Gearhart argue back and forth over the applicability of the plethora of out-of-state cases they cite, yet they ignore the fact that we are obligated to decide these aspects of this case under Texas law.”
 
 
-  [5] Indap notes: “The fee award in this case will be more challenging, however, given that Musk is simply returning shares he had been granted and that no cash is changing hands between the sides. Bernstein and two other law firms working with it could end up taking fees in Tesla shares, some lawyers speculated.” 
+  [5] Indap notes: “The fee award in this case will be more challenging, however, given that Musk is simply returning shares he had been granted and that no cash is changing hands between the sides. Bernstein and two other law firms working with it could end up taking fees in Tesla shares, some lawyers speculated.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -270,46 +270,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckd3fi.5ilu/bebb3cc2.gif" alt="" border="0" /></a>

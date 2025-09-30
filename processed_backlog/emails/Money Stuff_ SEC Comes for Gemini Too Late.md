@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Well, of course: US regulators sued crypto brokerages Genesis Global Capital and Gemini Trust Co. for breaking securities rules. The Securit
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Earn
-    
-  
+
+
 
 Well, of course:
 
@@ -118,7 +118,7 @@ Genesis also described itself as the “premier institutional digital asset fina
 
 It is probably helpful to the SEC, in making this case, that Genesis and Gemini seem to have lost the money, or at least, uh, rendered it inaccessible. The SEC’s essential argument here is that Gemini Earn is an investment of money in a risky profit-seeking venture whose success depends on the efforts of Cameron Winklevoss and Barry Silbert; Gemini’s and Genesis’s essential argument is “no it isn’t, shhh, it’s just a nice 8% return on your money.” The fact that the money is gone, or at least temporarily indisposed, strengthens the SEC’s position. Ex post, it was definitely risky.
 Of course it would have been better if the SEC had shut down Gemini Earn — like it did Coinbase Lend — before it lost the money, but that is hardly a defense now. 
-The main 
+The main
 remedy for doing an unregistered securities offering is that you have to give the money back: If you raise $900 million from investors for your product, and then the product loses money, you have to give them their money back anyway. Well, that and you probably have to pay a fine to the SEC.
 Elsewhere, Bloomberg News reports on  the Ripple case:
 
@@ -133,89 +133,89 @@ The recent turmoil in crypto markets could taint the court’s view, said Jose
 
 Right. Ripple’s XRP token has lost a lot of value in the last couple of years, though it’s actually up a bit from where it was when the SEC sued; in any case Ripple does have the vague moral defense of “you say we did an unregistered securities offering, but it’s not like we took a bunch of investor money and lost it.” Lots of other crypto projects, including Gemini Earn, do not have that defense. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Chutzpah
-    
-  
+
+
 
 My   basic view is that the crypto financial system was built by a bunch of young people who left traditional finance because they really love building new toy financial systems and crypto offers them a fun sandbox in which to do it. If you went to those people and said “hey, can you design a system for trading claims on bankrupt crypto firms?” they would be like “sure that sounds really fun.” And a lot of them have a lot of time on their hands right now, what with their crypto firms having gone bankrupt. So,  so, so:
 
@@ -230,20 +230,20 @@ The biggest problem
   [4]
  with the crypto financial system is that it is relatively bad at trading real stuff: Crypto exchanges are for trading crypto tokens, and without underlying cash flows or real-world businesses those have a distressing tendency to go to zero and bankrupt everybody. But if you build a crypto exchange whose central product is all the money people lost on the last crypto exchange, you are solving that problem. The net amount of money made in crypto fluctuates wildly, but the total supply of (1) money made in crypto plus (2) money lost in crypto can only really go up. If you build an exchange to let people trade their crypto losses, you will have a durable business.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Golf
-    
-  
+
+
 
 One thing that I  think   about  a   lot is how, back when Goldman Sachs Chief Executive Officer David Solomon (who is also a DJ) was fairly new on the job and was doing a lot of press about also being a DJ, he  told Jen Wieczner at Fortune that other bankers almost thwarted his dream (of being CEO of Goldman Sachs and also a DJ):
 Some advisers told him to hang it up. “I thought for a minute, Well, can I do this, can I not do this?” recalls Solomon, who donates the proceeds from his gigs and Spotify plays to drug-addiction-related philanthropies. ... Those doubts soon dispersed, especially after his boss at the time, then-CEO Lloyd Blankfein, and others endorsed it. “You know what, it’s who I am, and nobody would tell me not to play golf,” Solomon says now. 
@@ -260,11 +260,11 @@ Another lesson is subtly conveyed by “this golf course or that golf course”:
 
 Also though how many clients do you think do deals with Goldman and reminisce with David Solomon “do you remember that time I listened to your   DJ set opening for the Chainsmokers in Water Mill?” It’s a hobby, and I suppose in its way it might impress clients, but it is distinctly less social than golf. You need golf too.
 
-  
-    
+
+
       How is Razzlekhan doing?
-    
-  
+
+
 
  Okay!
 
@@ -275,15 +275,15 @@ Morgan, who has denied wrongdoing, was offered a job “in the role of growth ma
 
 I have to say that she is probably the only business rapper whose stage name I know? And, no offense, not because she is so great at rapping? But because   getting arrested for a multibillion-dollar Bitcoin heist brings a lot of publicity to your business rapping career? Like, that’s a growth marketing success right there, sure.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Goldman, Morgan Stanley Are Weighed Down by High Costs as M&A Slumps. Citi Summons   Unproductive Remote Workers to Office for Coaching. Meme stock investor  Ryan Cohen launches activist campaign at Alibaba. Disney Defends Board, CEO Robert Iger Against  Nelson Peltz’s Criticisms. Looming  Twitter interest payment leaves Elon Musk with unpalatable options. Elon Musk, Tesla Poised for Trial Over 2018 Tweets Proposing to Take Car Maker Private. Elon Musk Wins Vote of Support   From Qatar Amid Twitter Turmoil. Big Four accountants in Spain probed over long hours. Western banks struggle to exit Russia after Putin intervention. Larry Fink Says   ESG Narrative Has Become Ugly, Personal. Vanguard Gets Extra ETF Billions After Largely   Shunning ESG. CFPB Weighs Tougher Rules for Overseas  Money Transfers. Texas-born princess Rita Jenrette faces eviction from  $350M Roman villa. Italy’s   Most-Wanted Mafia Boss Arrested After 30 Years. Enron, Madoff and now FTX: New York’s Belfer family  strike out again.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] A more plausible intuition is that crypto lending products are like *securities lending*: If your broker lends out your shares of stock and gives you some of the interest, that is not generally registered as a security; isn’t crypto lending like that? I don’t have a great answer, but my gut is that securities lending is subject to SEC jurisdiction (the lending program is not a security, but the securities that you’re lending are!), so the SEC doesn’t worry too much about this technicality, while crypto lending is subject to SEC jurisdiction only if the lending program itself is a security, so the SEC cares. That is not a satisfying answer.
 
 
@@ -299,114 +299,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] We could keep going all day. Exercises for the reader: Is it an advantage or a disadvantage that Lemkau “still isn’t great” at golf? And: In this context, is it an advantage that he’s male?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

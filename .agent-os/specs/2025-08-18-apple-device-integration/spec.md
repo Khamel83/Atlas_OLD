@@ -1,8 +1,8 @@
 # Apple Device Integration for Personal Knowledge Capture
 
-**Date**: August 18, 2025  
-**Status**: 🎯 PLANNED  
-**Priority**: HIGH - Core Personal Workflow  
+**Date**: August 18, 2025
+**Status**: 🎯 PLANNED
+**Priority**: HIGH - Core Personal Workflow
 **Parent Task**: Personal Knowledge System Completion
 
 ## Executive Summary
@@ -15,7 +15,7 @@ Create seamless content capture from Apple devices (iPhone, iPad, Mac) to Atlas 
 
 ### ✅ What We Have
 - Atlas ingestion system operational with articles, podcasts, transcripts
-- Background service processing content automatically  
+- Background service processing content automatically
 - Enhanced search with speaker attribution and topics
 - Multiple input methods (files in `inputs/` directory)
 

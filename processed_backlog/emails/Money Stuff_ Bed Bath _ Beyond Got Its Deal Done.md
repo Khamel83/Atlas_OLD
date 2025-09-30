@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We talked yesterday about Bed Bath & Beyond Inc.’s unusual rescue financing deal. Bed Bath was, apparently, a whisker away from filing for a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bed Bath & cetera
-    
-  
+
+
 
 We   talked yesterday about Bed Bath & Beyond Inc.’s unusual rescue financing deal. Bed Bath was, apparently, a whisker away from filing for a messy bankruptcy, and was instead saved by a huge equity investment   led by Hudson Bay Capital Management. The investors  paid Bed Bath $225 million for some convertible preferred stock and warrants, and promised to put up another $800 million for more convertible preferred stock if things go well. 
 I suggested yesterday that the best way to understand this deal is not that Hudson Bay and friends are long-term equity investors in Bed Bath, but that they are planning to buy stock from Bed Bath at a substantial discount to the market price, and then turn around and sell it into the market. The investors paid Bed Bath about $225 million for $237 million face amount of convertible preferred stock (that is, they got a 5% discount): Today, that $237 million of convertible preferred stock is convertible into common stock at  a conversion price of $2.3727. That means that the investors could convert one $10,000 preferred share — that they bought for $9,500 — into 4,214.6 shares of common stock. The stock closed yesterday at $3.01; it was trading at about $2.58 at noon today. The investors could sell their 4,214.6 shares today for about $10,873, for a $1,373 profit on their $9,500 investment, a 14% return in, you know, a day.
@@ -97,89 +97,89 @@ As for the price, the convertible preferred is initially convertible into common
 But is it a public offering? Well, sure, sort of; it was a publicly registered offering, underwritten by an investment bank (B. Riley Securities). The Nasdaq rules say that “Generally, a firm commitment underwritten securities offering registered with the Securities and Exchange Commission will be considered a public offering for these purposes,” though they leave some wiggle room. “When determining whether an offering is a ‘public offering’ for purposes of these rules, Nasdaq staff will consider all relevant factors,” the rules add, including “the manner in which the offering is marketed (including the number of investors offered securities, how those investors were chosen, and the breadth of the marketing effort)” as well as “the extent of the offering's distribution (including the number and identity of the investors who participate in the offering and whether any prior relationship existed between the Company and those investors).” 
 Again I don’t know how much Hudson Bay got of the deal, or how widely it was marketed. It is certainly a weird deal, publicly marketed over one day (yesterday) by a specialty investment bank; I am not sure how many public investors were able to do the work and put orders into the deal, or whether Bed Bath really wanted them to. In some technical sense this was a broad public offering, but it seems like it was really a bespoke deal for a handful of investors — or one investor — who knew exactly what they wanted and got it. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AML
-    
-  
+
+
 
 I wrote once  about the crime dial:
 In general, the chief compliance officer at any company has a dial in front of her that she can turn to get More Crime or Less Crime, and at a normal company — a bank, for instance — her job consists of (1) turning it most of the way toward Less Crime, but (2) not all the way, and (3) acting very contrite when politicians and regulators yell at her about the residual crime. “We have a zero-tolerance policy for crime,” she will say, and almost mean.
@@ -195,20 +195,20 @@ The backtracking highlights the delicate balance facing the bank as it tries to 
 
 One funny part of this story is that, after Credit Suisse had various scandals, it “took steps in 2021 to tighten controls by commissioning Ernst & Young to assess its wealth units’ anti-money laundering procedures in Singapore and Hong Kong.” If you are an outside auditor brought in to do a report on anti-money laundering procedures, the problem is not symmetrical at all, for you. If you recommend “a robust ‘belt and braces’ approach” (as a Credit Suisse spokesperson called it in a statement to Bloomberg News), and the approach is so robust that the clients can never get business approved and the bankers all quit, that’s not your problem; you were hired to stop money laundering, and you did. You bring in an outside consultant, you’re gonna get the dial cranked way too far over toward Less Crime. And then you have to nudge it back.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 One reason to worry about stock buybacks is that you think companies should never return money to shareholders. As far as I can tell this is a real thing that some people believe, though I do not really understand it myself. My model of corporate finance is:
 	people give money to a company,	the company does stuff with the money to try to earn a profit, and 	the company returns some of the profits to the people who gave it the money.
@@ -226,11 +226,11 @@ Democrats had hoped that increasing the cost of stock buybacks would prod compan
 
 The idea that companies shouldn’t return capital to shareholders still strikes me as odd, but it does seem like there’s room to raise buyback taxes to make them more equivalent to dividends.
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 One thing that you can do is make a handbag that looks like an Hermès Birkin bag, call it a “Birkin bag,” and sell it to people for money. The problems with this are:
 	Hard to make the bag, you need materials and labor and stuff, you’ve got to ship it to customers, etc.; and	You are definitely violating Hermès’s trademark and they’ll sue you and win.
@@ -253,15 +253,15 @@ Look, do you know what is a good “artistic experiment that examines how societ
 Obviously Rothschild’s experiment instead examined how society placed value on computer images that imitate Birkin bags, and for a while the answer was “society values those pictures a lot because they are somehow status symbols.” In some sense anyone who does any scam is running an artistic experiment that examines how much money people are willing to give them, but that is not a defense!
 I guess the next step is to seize the MetaBirkins and shred them? In the metaverse or whatever? And take a video of the shredding and sell that as an NFT? Man what an embarrassing time the NFT boom was.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse Tells Some Bankers   Bonuses Will Be in Installments. Treasury Warns That Cloud Computing Poses Risks to Financial Sector. Surprise Used-Car Price Jump Adds to Fed’s Inflation Worries. Robinhood Hits Back at SEC, Warns of Threat to Zero-Commission Trading. Microsoft Deal With Activision Would Harm Gamers, U.K. Regulator Says. Musk Prepares Tesla ‘Master Plan’ for March 1 Investor Day. The Hunt for Crypto Fugitive  Do Kwon Led South Korean Officials to Serbia Last Week. Kyle Davies has 'chosen to ignore his duties' to 3AC after rare Twitter subpoena. Supreme Court Halts Nigerian Plan to Ban High-Value Banknotes. Luxury Mayfair Homes Are Selling at the Fastest Rate Since 2020. Hawaii Tries a New Twist on US Board Gender Quotas: Must Have Men. Adam Neumann Says His Apartments Will Make Tenants Want to Plunge Their Own Toilets.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am guessing a little bit, as Bed Bath does not seem to have filed the “conversion price” (i.e. the cap) yet, but the prospectus (page A-3) says it will be “105% of the Closing Bid Price as of the Trading Day ended immediately prior to the time of execution of the Underwriting Agreement,” the underwriting agreement was signed last night, and the stock closed at $3.01 yesterday. So a cap of around $3.16, unless things have changed.
 
 
@@ -283,114 +283,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] In December, Michael Mauboussin and Dan Callahan at Morgan Stanley published a great overview of capital allocation; among other things it addresses this topic (see page 32): “Dividends and buybacks are equivalent under strict assumptions (see appendix). But how executives think of them is meaningfully different. Dividends, once set, are considered equivalent to investment decisions such as capital expenditures. Buybacks are seen more as a way to disburse residual cash after the firm has made all suitable investments. As a result, dividends are much less volatile than buybacks.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

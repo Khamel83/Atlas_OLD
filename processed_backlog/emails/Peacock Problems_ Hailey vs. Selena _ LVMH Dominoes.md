@@ -29,7 +29,7 @@ top art entrepreneur. Meanwhile, Leigh Ann Caldwell ran the numbers on the O.M.B
 Check out
 these stories, and others, via the links below. And stick around for the backstory on how it all came together. 
 
- 
+
 
 FASHION
 FASHION
@@ -47,7 +47,7 @@ meanwhile…
 Sarah Shapiro chats ( https://puck.news/larroudes-innovative-approach-to-selling-shoes/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with the Larroudés, and
 covers ( https://puck.news/the-week-in-retail-trends-is-there-a-mar-a-lago-effect/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the week in shopping.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -60,7 +60,7 @@ and…
 Julie Davich
 explains ( https://puck.news/a-louise-nevelson-revival-new-yorks-winter-art-shows/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Nevelson momentum, offers a gallery tour, and goes deep ( https://puck.news/the-twelve-million-stradivarius-violin-for-sale-at-sothebys-auction/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on a $12 million Stradivarius.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -73,7 +73,7 @@ and…
 Eriq Gardner has the skinny ( https://puck.news/phillies-owner-ordered-to-sell-mansion-to-cover-unpaid-bill/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on one of
 the entertainment industry’s most notorious lawsuits.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -81,7 +81,7 @@ WALL STREET
 Bill Cohan
 envisions ( https://puck.news/investment-banking-in-the-age-of-ai/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) banking in the age of A.I. and details ( https://puck.news/is-wall-street-right-to-panic-over-deepseek/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Nvidia stock hiccup.
 
- 
+
 
 MEDIA
 MEDIA
@@ -93,7 +93,7 @@ and…
 
 John Ourand investigates ( https://puck.news/espns-acc-deal-and-the-college-sports-have-nots/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) ESPN’s sweetheart ACC deal.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -110,7 +110,7 @@ and…
 
 Peter Hamby hunts ( https://puck.news/democrats-are-struggling-to-find-a-message-against-trump/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for profiles in courage on the left.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -148,7 +148,7 @@ Eriq and Peter wade into ( https://puck.news/podcast_episode/trumps-law-disorder
 As a reminder, you can update your profile at any time to get more stories like these directly in your
 inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 Slowly, Then
 All at Once
@@ -192,7 +192,7 @@ here ( https://puck.news/my-account/billing/?utm_campaign=The+Backstory+-+SUBSCR
 LVMH, after all, is a company steeped in history and yet also ruthlessly attempting to maintain its moat by shuffling its portfolio—divesting smaller entities while focusing on its largest brands, and rearranging creative executives and operators in the process, all while sorting through the
 real-time management of succession planning. Its maneuvers, complex and often vague, are the latest evidence that progress rarely happens gradually but rather, as Hemingway said about bankruptcy, slowly and then seemingly all at once. It’s a leitmotif of our culture, and something you’ll always see reflected in Puck.
 
- 
+
 
 Have a great weekend,
 
@@ -211,6 +211,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUwdBThjHsoPaZeQ9PVKs=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%282%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

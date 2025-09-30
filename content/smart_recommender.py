@@ -13,7 +13,7 @@ import math
 
 class ContentRecommender:
     """Smart content recommender system"""
-    
+
     def __init__(self):
         """Initialize the content recommender"""
         self.user_profiles = {}
@@ -21,11 +21,11 @@ class ContentRecommender:
         self.interaction_history = defaultdict(list)
         self.content_similarity_matrix = {}
         self.recommendation_cache = {}
-    
+
     def add_user_profile(self, user_id: str, profile_data: Dict[str, Any]):
         """
         Add or update user profile
-        
+
         Args:
             user_id (str): User identifier
             profile_data (Dict[str, Any]): User profile data
@@ -40,13 +40,13 @@ class ContentRecommender:
             'created_at': profile_data.get('created_at', datetime.now().isoformat()),
             'updated_at': datetime.now().isoformat()
         }
-        
+
         print(f"User profile added/updated for {user_id}")
-    
+
     def add_content_metadata(self, content_id: str, metadata: Dict[str, Any]):
         """
         Add content metadata
-        
+
         Args:
             content_id (str): Content identifier
             metadata (Dict[str, Any]): Content metadata
@@ -67,14 +67,14 @@ class ContentRecommender:
             'created_at': metadata.get('created_at', datetime.now().isoformat()),
             'updated_at': datetime.now().isoformat()
         }
-        
+
         print(f"Content metadata added for {content_id}")
-    
-    def record_interaction(self, user_id: str, content_id: str, 
+
+    def record_interaction(self, user_id: str, content_id: str,
                          interaction_type: str, interaction_data: Dict[str, Any] = None):
         """
         Record user interaction with content
-        
+
         Args:
             user_id (str): User identifier
             content_id (str): Content identifier
@@ -88,29 +88,29 @@ class ContentRecommender:
             'data': interaction_data or {},
             'timestamp': datetime.now().isoformat()
         }
-        
+
         self.interaction_history[user_id].append(interaction)
-        
+
         # Update user profile with reading history
         if user_id in self.user_profiles:
             user_profile = self.user_profiles[user_id]
             if content_id not in user_profile['reading_history']:
                 user_profile['reading_history'].append(content_id)
                 user_profile['updated_at'] = datetime.now().isoformat()
-        
+
         print(f"Recorded {interaction_type} interaction for user {user_id} with content {content_id}")
-    
-    def generate_recommendations(self, user_id: str, 
+
+    def generate_recommendations(self, user_id: str,
                                num_recommendations: int = 10,
                                recommendation_types: List[str] = None) -> List[Dict[str, Any]]:
         """
         Generate content recommendations for a user
-        
+
         Args:
             user_id (str): User identifier
             num_recommendations (int): Number of recommendations to generate
             recommendation_types (List[str], optional): Types of recommendations
-            
+
         Returns:
             List[Dict[str, Any]]: List of recommendations
         """
@@ -122,7 +122,7 @@ class ContentRecommender:
                 'trending',
                 'personalized_trending'
             ]
-        
+
         # Check cache first
         cache_key = f"{user_id}_{num_recommendations}_{'_'.join(recommendation_types)}"
         if cache_key in self.recommendation_cache:
@@ -131,11 +131,11 @@ class ContentRecommender:
             if datetime.now().timestamp() - cached_result['timestamp'] < 3600:
                 print("Returning cached recommendations")
                 return cached_result['recommendations'][:num_recommendations]
-        
+
         print(f"Generating recommendations for user {user_id}...")
-        
+
         all_recommendations = []
-        
+
         # Generate different types of recommendations
         for rec_type in recommendation_types:
             if rec_type == 'collaborative_filtering':
@@ -150,100 +150,100 @@ class ContentRecommender:
                 recs = self._personalized_trending_recommendations(user_id, num_recommendations)
             else:
                 recs = []
-            
+
             all_recommendations.extend(recs)
-        
+
         # Remove duplicates and rank
         unique_recommendations = self._rank_and_deduplicate_recommendations(all_recommendations)
-        
+
         # Cache results
         self.recommendation_cache[cache_key] = {
             'recommendations': unique_recommendations,
             'timestamp': datetime.now().timestamp()
         }
-        
+
         return unique_recommendations[:num_recommendations]
-    
-    def _collaborative_filtering_recommendations(self, user_id: str, 
+
+    def _collaborative_filtering_recommendations(self, user_id: str,
                                                num_recommendations: int) -> List[Dict[str, Any]]:
         """
         Generate collaborative filtering recommendations
-        
+
         Args:
             user_id (str): User identifier
             num_recommendations (int): Number of recommendations to generate
-            
+
         Returns:
             List[Dict[str, Any]]: Collaborative filtering recommendations
         """
         recommendations = []
-        
+
         # Find similar users
         similar_users = self._find_similar_users(user_id)
-        
+
         # Get content liked by similar users
         for similar_user_id, similarity_score in similar_users:
             user_interactions = self.interaction_history[similar_user_id]
-            
+
             # Look for positive interactions (likes, shares, completions)
             positive_interactions = [
-                interaction for interaction in user_interactions 
+                interaction for interaction in user_interactions
                 if interaction['type'] in ['like', 'share', 'complete', 'read']
             ]
-            
+
             for interaction in positive_interactions:
                 content_id = interaction['content_id']
-                
+
                 # Don't recommend content the user has already interacted with
                 if not self._has_user_interacted_with_content(user_id, content_id):
                     # Calculate recommendation score
                     score = similarity_score * self._calculate_content_popularity(content_id)
-                    
+
                     recommendations.append({
                         'content_id': content_id,
                         'score': score,
                         'reason': f'Liked by similar user (similarity: {similarity_score:.2f})',
                         'type': 'collaborative_filtering'
                     })
-        
+
         return recommendations
-    
-    def _content_based_recommendations(self, user_id: str, 
+
+    def _content_based_recommendations(self, user_id: str,
                                      num_recommendations: int) -> List[Dict[str, Any]]:
         """
         Generate content-based recommendations
-        
+
         Args:
             user_id (str): User identifier
             num_recommendations (int): Number of recommendations to generate
-            
+
         Returns:
             List[Dict[str, Any]]: Content-based recommendations
         """
         recommendations = []
-        
+
         # Get user's reading history
         if user_id not in self.user_profiles:
             return []
-        
+
         user_profile = self.user_profiles[user_id]
         reading_history = user_profile['reading_history']
-        
+
         if not reading_history:
             return []
-        
+
         # Analyze user's interests based on reading history
         user_interests = self._analyze_user_interests(user_id)
-        
+
         # Find content matching user interests
         for content_id, content_meta in self.content_metadata.items():
             # Skip content user has already read
             if content_id in reading_history:
                 continue
-            
+
             # Calculate content relevance score
             relevance_score = self._calculate_content_relevance(content_meta, user_interests)
-            
+
             if relevance_score > 0.1:  # Minimum relevance threshold
                 recommendations.append({
                     'content_id': content_id,
@@ -251,43 +251,43 @@ class ContentRecommender:
                     'reason': f'Matches your interests (relevance: {relevance_score:.2f})',
                     'type': 'content_based'
                 })
-        
+
         return recommendations
-    
-    def _hybrid_recommendations(self, user_id: str, 
+
+    def _hybrid_recommendations(self, user_id: str,
                               num_recommendations: int) -> List[Dict[str, Any]]:
         """
         Generate hybrid recommendations combining multiple approaches
-        
+
         Args:
             user_id (str): User identifier
             num_recommendations (int): Number of recommendations to generate
-            
+
         Returns:
             List[Dict[str, Any]]: Hybrid recommendations
         """
         # Get recommendations from different methods
         cf_recs = self._collaborative_filtering_recommendations(user_id, num_recommendations)
         cb_recs = self._content_based_recommendations(user_id, num_recommendations)
-        
+
         # Combine and weight recommendations
         combined_scores = defaultdict(float)
         recommendation_details = {}
-        
+
         # Weight collaborative filtering (40%)
         for rec in cf_recs:
             content_id = rec['content_id']
             combined_scores[content_id] += rec['score'] * 0.4
             if content_id not in recommendation_details:
                 recommendation_details[content_id] = rec
-        
+
         # Weight content-based (60%)
         for rec in cb_recs:
             content_id = rec['content_id']
             combined_scores[content_id] += rec['score'] * 0.6
             if content_id not in recommendation_details:
                 recommendation_details[content_id] = rec
-        
+
         # Create final recommendations
         hybrid_recommendations = []
         for content_id, score in combined_scores.items():
@@ -298,27 +298,27 @@ class ContentRecommender:
                 'reason': f'Hybrid recommendation (combined score: {score:.2f})',
                 'type': 'hybrid'
             })
-        
+
         return hybrid_recommendations
-    
+
     def _trending_recommendations(self, num_recommendations: int) -> List[Dict[str, Any]]:
         """
         Generate trending content recommendations
-        
+
         Args:
             num_recommendations (int): Number of recommendations to generate
-            
+
         Returns:
             List[Dict[str, Any]]: Trending recommendations
         """
         recommendations = []
-        
+
         # Calculate content popularity based on recent interactions
         content_popularity = defaultdict(int)
-        
+
         # Look at interactions from the last week
         one_week_ago = datetime.now() - timedelta(days=7)
-        
+
         for user_interactions in self.interaction_history.values():
             for interaction in user_interactions:
                 # Parse timestamp
@@ -332,222 +332,222 @@ class ContentRecommender:
                         interaction_time = datetime.fromisoformat(interaction_timestamp).replace(tzinfo=None)
                 except ValueError:
                     continue
-                
+
                 # Only consider recent interactions
                 if interaction_time > one_week_ago.replace(tzinfo=None):
                     content_id = interaction['content_id']
                     content_popularity[content_id] += 1
-        
+
         # Sort by popularity
         sorted_content = sorted(
-            content_popularity.items(), 
-            key=lambda x: x[1], 
+            content_popularity.items(),
+            key=lambda x: x[1],
             reverse=True
         )
-        
+
         # Generate recommendations
         for content_id, popularity_score in sorted_content[:num_recommendations * 2]:
             # Calculate trending score (boost recent content)
             trending_score = self._calculate_trending_score(content_id, popularity_score)
-            
+
             recommendations.append({
                 'content_id': content_id,
                 'score': trending_score,
                 'reason': f'Trending content (popularity: {popularity_score})',
                 'type': 'trending'
             })
-        
+
         return recommendations
-    
-    def _personalized_trending_recommendations(self, user_id: str, 
+
+    def _personalized_trending_recommendations(self, user_id: str,
                                               num_recommendations: int) -> List[Dict[str, Any]]:
         """
         Generate personalized trending recommendations
-        
+
         Args:
             user_id (str): User identifier
             num_recommendations (int): Number of recommendations to generate
-            
+
         Returns:
             List[Dict[str, Any]]: Personalized trending recommendations
         """
         # Get trending content
         trending_recs = self._trending_recommendations(num_recommendations * 2)
-        
+
         # Get user interests
         user_interests = self._analyze_user_interests(user_id)
-        
+
         # Personalize trending recommendations
         personalized_recommendations = []
-        
+
         for rec in trending_recs:
             content_id = rec['content_id']
-            
+
             if content_id in self.content_metadata:
                 content_meta = self.content_metadata[content_id]
-                
+
                 # Calculate personal relevance
                 personal_relevance = self._calculate_content_relevance(content_meta, user_interests)
-                
+
                 # Combine trending score with personal relevance
                 personalized_score = rec['score'] * 0.7 + personal_relevance * 0.3
-                
+
                 personalized_recommendations.append({
                     'content_id': content_id,
                     'score': personalized_score,
                     'reason': f'Personalized trending (relevance: {personal_relevance:.2f})',
                     'type': 'personalized_trending'
                 })
-        
+
         return personalized_recommendations
-    
+
     def _find_similar_users(self, user_id: str) -> List[Tuple[str, float]]:
         """
         Find users similar to the given user
-        
+
         Args:
             user_id (str): User identifier
-            
+
         Returns:
             List[Tuple[str, float]]: List of (user_id, similarity_score) tuples
         """
         if user_id not in self.user_profiles:
             return []
-        
+
         target_user_profile = self.user_profiles[user_id]
         target_reading_history = set(target_user_profile['reading_history'])
-        
+
         similar_users = []
-        
+
         for other_user_id, other_user_profile in self.user_profiles.items():
             if other_user_id == user_id:
                 continue
-            
+
             other_reading_history = set(other_user_profile['reading_history'])
-            
+
             # Calculate Jaccard similarity based on reading history
             intersection = len(target_reading_history.intersection(other_reading_history))
             union = len(target_reading_history.union(other_reading_history))
-            
+
             if union > 0:
                 similarity = intersection / union
                 if similarity > 0.1:  # Minimum similarity threshold
                     similar_users.append((other_user_id, similarity))
-        
+
         # Sort by similarity (descending)
         similar_users.sort(key=lambda x: x[1], reverse=True)
-        
+
         return similar_users
-    
+
     def _analyze_user_interests(self, user_id: str) -> Dict[str, float]:
         """
         Analyze user interests based on reading history
-        
+
         Args:
             user_id (str): User identifier
-            
+
         Returns:
             Dict[str, float]: Interest scores by category/tag
         """
         if user_id not in self.user_profiles:
             return {}
-        
+
         user_profile = self.user_profiles[user_id]
         reading_history = user_profile['reading_history']
-        
+
         # Collect all categories, tags, and keywords from user's reading history
         interest_scores = defaultdict(float)
-        
+
         for content_id in reading_history:
             if content_id in self.content_metadata:
                 content_meta = self.content_metadata[content_id]
-                
+
                 # Weight recent content more heavily
                 recency_weight = self._calculate_recency_weight(content_id, reading_history)
-                
+
                 # Add category scores
                 for category in content_meta['categories']:
                     interest_scores[f'category:{category}'] += 1.0 * recency_weight
-                
+
                 # Add tag scores
                 for tag in content_meta['tags']:
                     interest_scores[f'tag:{tag}'] += 0.8 * recency_weight
-                
+
                 # Add keyword scores
                 for keyword in content_meta['keywords']:
                     interest_scores[f'keyword:{keyword}'] += 0.5 * recency_weight
-        
+
         return dict(interest_scores)
-    
-    def _calculate_content_relevance(self, content_meta: Dict[str, Any], 
+
+    def _calculate_content_relevance(self, content_meta: Dict[str, Any],
                                    user_interests: Dict[str, float]) -> float:
         """
         Calculate content relevance to user interests
-        
+
         Args:
             content_meta (Dict[str, Any]): Content metadata
             user_interests (Dict[str, float]): User interest scores
-            
+
         Returns:
             float: Content relevance score (0-1)
         """
         relevance_score = 0.0
         total_weight = 0.0
-        
+
         # Check category relevance
         for category in content_meta['categories']:
             interest_key = f'category:{category}'
             if interest_key in user_interests:
                 relevance_score += user_interests[interest_key] * 1.0
                 total_weight += 1.0
-        
+
         # Check tag relevance
         for tag in content_meta['tags']:
             interest_key = f'tag:{tag}'
             if interest_key in user_interests:
                 relevance_score += user_interests[interest_key] * 0.8
                 total_weight += 0.8
-        
+
         # Check keyword relevance
         for keyword in content_meta['keywords']:
             interest_key = f'keyword:{keyword}'
             if interest_key in user_interests:
                 relevance_score += user_interests[interest_key] * 0.5
                 total_weight += 0.5
-        
+
         if total_weight > 0:
             return min(1.0, relevance_score / total_weight)
-        
+
         return 0.0
-    
+
     def _calculate_content_popularity(self, content_id: str) -> float:
         """
         Calculate content popularity score
-        
+
         Args:
             content_id (str): Content identifier
-            
+
         Returns:
             float: Popularity score
         """
         popularity_count = 0
-        
+
         for user_interactions in self.interaction_history.values():
             for interaction in user_interactions:
                 if interaction['content_id'] == content_id:
                     popularity_count += 1
-        
+
         # Normalize popularity (simple approach)
         return min(1.0, popularity_count / 100.0)  # Cap at 100 interactions
-    
+
     def _calculate_trending_score(self, content_id: str, popularity_score: int) -> float:
         """
         Calculate trending score for content
-        
+
         Args:
             content_id (str): Content identifier
             popularity_score (int): Raw popularity score
-            
+
         Returns:
             float: Trending score
         """
@@ -555,7 +555,7 @@ class ContentRecommender:
         if content_id in self.content_metadata:
             content_meta = self.content_metadata[content_id]
             pub_date_str = content_meta.get('publication_date')
-            
+
             if pub_date_str:
                 try:
                     pub_date = datetime.fromisoformat(pub_date_str)
@@ -563,23 +563,23 @@ class ContentRecommender:
                     now_naive = datetime.now().replace(tzinfo=None)
                     pub_date_naive = pub_date.replace(tzinfo=None) if pub_date.tzinfo else pub_date
                     days_since_pub = (now_naive - pub_date_naive).days
-                    
+
                     # Boost score for recently published content
                     recency_boost = max(0.1, 1.0 - (days_since_pub / 30.0))
                     return popularity_score * recency_boost
                 except ValueError:
                     pass
-        
+
         return float(popularity_score)
-    
+
     def _calculate_recency_weight(self, content_id: str, reading_history: List[str]) -> float:
         """
         Calculate recency weight for content
-        
+
         Args:
             content_id (str): Content identifier
             reading_history (List[str]): User's reading history
-            
+
         Returns:
             float: Recency weight (0.5-1.5)
         """
@@ -587,7 +587,7 @@ class ContentRecommender:
             # Find position in reading history (most recent = highest weight)
             position = len(reading_history) - reading_history.index(content_id) - 1
             max_position = len(reading_history) - 1
-            
+
             if max_position > 0:
                 # Linear interpolation between 0.5 and 1.5
                 return 0.5 + (position / max_position) * 1.0
@@ -596,15 +596,15 @@ class ContentRecommender:
         except ValueError:
             # Content not in reading history
             return 1.0
-    
+
     def _has_user_interacted_with_content(self, user_id: str, content_id: str) -> bool:
         """
         Check if user has interacted with content
-        
+
         Args:
             user_id (str): User identifier
             content_id (str): Content identifier
-            
+
         Returns:
             bool: True if user has interacted with content
         """
@@ -612,71 +612,71 @@ class ContentRecommender:
             for interaction in self.interaction_history[user_id]:
                 if interaction['content_id'] == content_id:
                     return True
-        
+
         return False
-    
-    def _rank_and_deduplicate_recommendations(self, 
+
+    def _rank_and_deduplicate_recommendations(self,
                                              recommendations: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
         Rank and remove duplicate recommendations
-        
+
         Args:
             recommendations (List[Dict[str, Any]]): List of recommendations
-            
+
         Returns:
             List[Dict[str, Any]]: Ranked and deduplicated recommendations
         """
         # Group by content ID
         content_recommendations = defaultdict(list)
-        
+
         for rec in recommendations:
             content_recommendations[rec['content_id']].append(rec)
-        
+
         # For each content, keep the highest scoring recommendation
         unique_recommendations = []
-        
+
         for content_id, recs in content_recommendations.items():
             # Sort by score descending
             recs.sort(key=lambda x: x['score'], reverse=True)
             # Keep the highest scoring recommendation
             unique_recommendations.append(recs[0])
-        
+
         # Sort all recommendations by score descending
         unique_recommendations.sort(key=lambda x: x['score'], reverse=True)
-        
+
         return unique_recommendations
-    
+
     def get_user_profile(self, user_id: str) -> Optional[Dict[str, Any]]:
         """
         Get user profile
-        
+
         Args:
             user_id (str): User identifier
-            
+
         Returns:
             Optional[Dict[str, Any]]: User profile or None if not found
         """
         return self.user_profiles.get(user_id)
-    
+
     def get_content_metadata(self, content_id: str) -> Optional[Dict[str, Any]]:
         """
         Get content metadata
-        
+
         Args:
             content_id (str): Content identifier
-            
+
         Returns:
             Optional[Dict[str, Any]]: Content metadata or None if not found
         """
         return self.content_metadata.get(content_id)
-    
+
     def get_user_interactions(self, user_id: str) -> List[Dict[str, Any]]:
         """
         Get user interactions
-        
+
         Args:
             user_id (str): User identifier
-            
+
         Returns:
             List[Dict[str, Any]]: List of user interactions
         """
@@ -686,7 +686,7 @@ def main():
     """Example usage of ContentRecommender"""
     # Create recommender
     recommender = ContentRecommender()
-    
+
     # Sample user profiles
     users = [
         {
@@ -706,11 +706,11 @@ def main():
             'reading_history': []
         }
     ]
-    
+
     # Add user profiles
     for user in users:
         recommender.add_user_profile(user['id'], user)
-    
+
     # Sample content metadata
     content_items = [
         {
@@ -756,11 +756,11 @@ def main():
             'summary': 'Master React fundamentals including components, props, and state.'
         }
     ]
-    
+
     # Add content metadata
     for content in content_items:
         recommender.add_content_metadata(content['id'], content)
-    
+
     # Record sample interactions
     interactions = [
         ('user1', 'content1', 'read', {'duration': 18}),
@@ -770,14 +770,14 @@ def main():
         ('user2', 'content1', 'like', {}),
         ('user2', 'content3', 'complete', {'quiz_score': 95})
     ]
-    
+
     # Record interactions
     for user_id, content_id, interaction_type, data in interactions:
         recommender.record_interaction(user_id, content_id, interaction_type, data)
-    
+
     # Generate recommendations
     print("Generating content recommendations...")
-    
+
     # For user1
     user1_recs = recommender.generate_recommendations('user1', num_recommendations=5)
     print(f"\nRecommendations for user1:")
@@ -786,7 +786,7 @@ def main():
         title = content_meta['title'] if content_meta else rec['content_id']
         print(f"  {i}. {title} (Score: {rec['score']:.2f})")
         print(f"     Reason: {rec['reason']}")
-    
+
     # For user2
     user2_recs = recommender.generate_recommendations('user2', num_recommendations=5)
     print(f"\nRecommendations for user2:")
@@ -795,7 +795,7 @@ def main():
         title = content_meta['title'] if content_meta else rec['content_id']
         print(f"  {i}. {title} (Score: {rec['score']:.2f})")
         print(f"     Reason: {rec['reason']}")
-    
+
     # Get user profiles
     print(f"\nUser Profiles:")
     for user_id in ['user1', 'user2']:

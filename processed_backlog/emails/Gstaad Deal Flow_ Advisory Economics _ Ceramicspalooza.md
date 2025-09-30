@@ -156,7 +156,7 @@ their collection—you have to manage who is representing whose interests if you
 To
 cover the overhead costs of a sufficiently large advisory firm, one has to have enough clients willing to pay a retainer. This actually argues for advisory firms to be part of larger entities, like auction houses, because they can carry the overhead and allow the advisors to focus on their work. Unfortunately, a very successful advisor will quickly want to strike out on their own to keep more of the upside. It’s a fissiparous business, this advising thing. 
 
- 
+
 
 Endnotes…
 -----------
@@ -214,6 +214,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVBwMs5id19Ey3KkYnp8A=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F14%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

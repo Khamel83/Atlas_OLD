@@ -7,60 +7,60 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note for Elon Musk: Don’t read the next programming note, skip down, there’s a whole section about your tweets! Poop emojis and 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+        Programming note for Elon Musk: Don’t read the next programming note, skip down, there’s a whole section about your tweets! Poop emojis and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note  for Elon Musk: Don’t read the next programming note, skip down, there’s a whole section about your tweets! Poop emojis and everything! Skip the boring stuff and go straight there! 
 Programming note for everyone else: This is the last Money Stuff of 2023. Probably. Unless Elon buys OpenAI or whatever. I’ll be back in January. Thanks for reading and have a great holiday season.
 
-  
-    
+
+
       LNG contracts
-    
-  
+
+
 
 I am not, by any means, an expert in liquefied natural gas. My background is in financial instruments, stocks and bonds and derivatives on stocks and bonds. The way that, for instance, stock options work is that, if I agree to sell you XYZ stock at $40 at your option, and in a month you exercise the option and hand over the $40, I really do have to give you the stock. Even if it’s trading at $60. Obviously I’d rather sell the stock at $60 to someone else, but I already sold you that option, and I am bound by it. If I sell a Treasury bond futures contract, I have to deliver a Treasury bond at the futures price, even if the price has gone up and I could sell it for more elsewhere. 
 Oh, of course, there are situations where people find ways to get out of their contracts. (And there are stock-related transactions that are not ordinary-course trading — mergers, for instance — and that are considerably more breakable.) But for the most part there is a broadly effective apparatus to make stock and bond trades binding, so binding that it rarely even occurs to anyone to break them. No stock options trader calls their lawyer to be like “man this stock really went up a lot, can I just not deliver it into the call options I sold?” 
@@ -99,37 +99,37 @@ The company was within its rights to cancel the deal. But LNG agreements worth h
 
 No no no, this agreement wasn’t scrapped over a single payment dispute! It was scrapped over, the price went up! Pakistan held back the $10 million thinking that this was a commercial contract that was part of a long-term relationship where everyone was trying to get the best result. But actually it was a trade, and the price had moved against Gunvor, and if you gave it an excuse to get out of the trade it would. And it did.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Credit Suisse retention clawback
-    
-  
+
+
 
 A week before Credit Suisse Goup AG collapsed and was taken over by UBS Group AG, it was desperately trying to hold on to its employees: It was trying to avoid collapse, and if the good employees all left it would definitely collapse, so it would do anything to keep them. It collapsed anyway.
 A week after Credit Suisse collapsed and was taken over by UBS, it was, uh, pretty keen to get rid of all of the employees? Like UBS   pretty immediately signaled “we are going to fire most of Credit Suisse,” and then it   set to work doing that. Losing tons of Credit Suisse employees now wouldn’t sink the combined company, since there are so many UBS people left. If anyone wants to leave voluntarily, hey great that’s super, saves UBS some effort.
@@ -144,11 +144,11 @@ If a bank says to an employee “we’ll give you $1 million to stay, but we’l
   [2]
  If the bank says to an employee “we’ll give you $1 million to stay, and we’ll pay it out now, but if you leave within three years you have to pay us back,” then the bank is taking the employee’s credit risk. By the end, at Credit Suisse, its employees were apparently a better bet than it was. But not a risk-free bet.
 
-  
-    
+
+
       Shohei Ohtani
-    
-  
+
+
 
 Speaking of the credit risk of deferred comp. This past weekend, extremely good baseball player Shohei Ohtani signed a 10-year, $700 million contract to play for the Los Angeles Dodgers. This has become a major item of financial news because (1) sports and (2)   the contract is weird: Ohtani will actually be paid $2 million a year for the 10 years that he plays for the Dodgers, and will then get $68 million a year for the following 10 years, starting in 2034, when he does not play for them.
 The reason for this, as far as I can tell, is basically to free up more money now for the Dodgers to spend on other good players, so that they can be good and win the World Series while Ohtani plays for them. After that, they can just write him huge checks for a decade and have less money to spend on good players, but he won’t be there anymore, and probably the executives who signed him won’t be there anymore (they’ll retire after winning all those World Series), so whatever. This is a well-known form of calculation in the financial world, so much so that it has its own initialism, IBGYBG, “I’ll be gone, you’ll be gone.”
@@ -166,11 +166,11 @@ Also the other obvious question here is, what if Ohtani would like to live on mo
   [5]
  Maybe the bank can figure out the credit risk.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 The situation is roughly:
 	In April 2022, Elon Musk signed a binding  merger agreement to buy Twitter Inc. for $54.20 per share.	In May 2022, he changed his mind, decided he was overpaying, and started tweeting some nonsense about how the deal was “temporarily on hold” because Twitter had too many “spam/fake accounts.” In July, he   sent Twitter a notice that he was terminating the deal.	This was all nonsense, as everyone knew. “‘Temporarily on hold’ is not a thing,”  I wrote. “I think it is important to be clear here that Musk is lying,”  I wrote, about the spam bots. “In our actual universe none of this is true,”  I wrote, about his whole theory. Just absolute nonsense.	Twitter sued Musk to enforce the deal, there was a lot of blustering, but eventually Musk’s lawyers convinced him it would be embarrassing to argue this nonsense in court and he gave up,  buying Twitter in October 2022 for the original price of $54.20 per share. Then he renamed it X Corp. and there has been much additional nonsense that I will not get into here.
@@ -187,11 +187,11 @@ This also seems right to me? It would be odd to find that it’s fraud to figh
 Still there is a tension here. If Musk files a legal document saying “too many bots,” that’s not securities fraud; if he sends a tweet saying “too many bots,” that is? Musk does most of his litigation on Twitter, so it is strange to draw this distinction. Possibly the answer is “don’t do your litigation on Twitter.”
 Also I should say that the judge goes through several of Musk’s bad tweets, concludes that some of them are plausibly false and misleading and thus can support a lawsuit, but also concludes that some are not. For instance, the May 13, 2022, “temporarily on hold” tweet can be securities fraud. But on May 16, 2022, Twitter’s then chief executive officer, Parag Agrawal, tweeted a measured and sensible explanation of how Twitter estimates bot accounts, and “Defendant responded with a tweet of a poop emoji.” That poop emoji has already  had a long legal career — it was in Twitter’s complaint to force Musk to close the deal — and it’s in this case too, but apparently it is not securities fraud. The  moon emoji is securities fraud, the poop emoji is not, modern finance is amazing.
 
-  
-    
+
+
       Flow
-    
-  
+
+
 
 Arguably Adam Neumann has two valuable and largely unrelated skills:
 	He’s a pretty good real estate guy, in the sense that he is good at acquiring buildings, making them nice places to live or work in, and finding tenants who will pay to rent them.	He has some sort of Jedi-mind-trick power where he can walk into a room full of venture capitalists, tell them about his real estate company, and have them say “you are a tech visionary, take all of our money.”
@@ -211,11 +211,11 @@ Neither is happening anytime soon.
 
 Love it! Arguably the basic business model of WeWork was that Adam Neumann took  $14 billion of SoftBank Group Corp.’s money, gave $13 billion of it to companies to subsidize their office rent and happy hours, and kept $1 billion of it for himself. Not bad! But if the basic business model of Flow is that Adam Neumann will take hundreds of millions of dollars of Andreessen Horowitz’s money, give most of it to twentysomethings to subsidize their apartment rents and happy hours, and keep a few buildings for himself, then how could anyone object to that? I just hope he’ll scale it up rapidly and go back to SoftBank for more money. 
 
-  
-    
+
+
       Elsewhere in selling real estate visions to tech investors
-    
-  
+
+
 
 Does Neumann overcomplicate things? Is it simpler to just go to tech investors and say “hello, I am building a new city where everyone will be either a tech founder or a model, and nobody will be ugly or poor, doesn’t that sound nice, give me some money”? Here is a New York Times  story about a guy named Dryden Brown, who has raised money from investors including Paradigm and Sam Altman for “his company, Praxis, which has an ambitious goal: to create a new city on the Mediterranean,” with stuff like this:
 
@@ -225,22 +225,22 @@ Internal Praxis documents outline three “persona groups” who will populate t
 
 “Exposed to the classics by his tutor, Mr. Brown read Ayn Rand and the Austrian economists in high school” is one of the nicer things that the article has to say about him. Martin Shkreli is apparently a member.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 World Central Banks Signal  Victory Over Inflation Is in Sight. Wall Street Traders Go All-In on   Great Monetary Pivot of 2024. “ Local-currency debt is now the biggest drain on many developing countries’ balance sheets.” Hedge Funds to Get New SEC Mandate to  Centrally Clear US Treasuries Trades. The ‘Moneyball’ Firm Behind Your  Chicken. Wall Street Makes   Zero Progress in Energy Finance Transition. Billionaire Jimmy Haslam Is Being   Investigated Over Pilot Payments, Lawyer Says. Amazon  wins in tax battle with European Commission. BP Docks Former CEO Bernard Looney as Much as $40 Million Over ‘ Serious Misconduct.’ Credit Suisse Disbands   China Onshore Wealth Unit, Dozens Depart. The Economics of   Small US Colleges Are Faltering. Elon Musk Is Planning a   New University in Austin. “For three years, as the denizens of the  Melrose Place apartment complex loved, lost, and betrayed one another, the GALA Committee smuggled subversive leftist art onto the set, experimenting with the relationship between art, artist, and spectator.” How to  Brag About Work, Even if It’s Not Going Great. Blackstone Channels Taylor Swift in  New Holiday Video.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] This is a little loose. Really you pay them the spot price minus the contract price ($400, in this toy example), which they then use to buy the commodity at the current price ($500), using $100 of their own money, so that their cost is effectively the contract price. 
+
+  [1] This is a little loose. Really you pay them the spot price minus the contract price ($400, in this toy example), which they then use to buy the commodity at the current price ($500), using $100 of their own money, so that their cost is effectively the contract price.
 
 
   [2] If it says “we’ll give you $1 million to stay, in stock at today’s price, and we’ll deliver it in three years,” then the employee is taking the bank’s equity risk, which is, you know, riskier.
 
 
-  [3] That is, in 2024 Ohtani will earn $68 million payable in 2034, and they’ll have to fund that in 2026. (And in 2025, he’ll earn another $68 million payable in 2034, funded in 2027, etc.) The funding obligation is the present value of the deferred comp; the discount rate specified in the contract is 5% per year, though it can go up if rates are higher. So 68/(1.05)^8 = 46. 
+  [3] That is, in 2024 Ohtani will earn $68 million payable in 2034, and they’ll have to fund that in 2026. (And in 2025, he’ll earn another $68 million payable in 2034, funded in 2027, etc.) The funding obligation is the present value of the deferred comp; the discount rate specified in the contract is 5% per year, though it can go up if rates are higher. So 68/(1.05)^8 = 46.
 
 
   [4] I have no idea what the actual enforcement mechanism is here, or if he can get out if they don't fund it, or if he can sue to force them to fund it, etc.
@@ -249,48 +249,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] See, this is why my reader thinks California should tax the unrealized amount: It arguably creates spending power now.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -301,46 +301,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck28wn.5ily/7832deaa.gif" alt="" border="0" /></a>

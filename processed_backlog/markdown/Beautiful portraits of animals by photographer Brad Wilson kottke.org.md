@@ -12,13 +12,13 @@
 
 # Beautiful portraits of animals by photographer Brad Wilson
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Beautiful portraits of animals by photographer Brad Wilson](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/brad-wilson-01.jpg)
 
-Beautiful portraits of animals by photographer Brad Wilson  
-  
-For his recently released book Wild Life, Brad Wilson shot photos of all kinds of animals on a black background, resulting in unusually expressive portraits.  
-  
-Reminds me of Jill Greenberg’s monkey portraits…expressive in the same way. 
+Beautiful portraits of animals by photographer Brad Wilson
+
+For his recently released book Wild Life, Brad Wilson shot photos of all kinds of animals on a black background, resulting in unusually expressive portraits.
+
+Reminds me of Jill Greenberg’s monkey portraits…expressive in the same way.
 

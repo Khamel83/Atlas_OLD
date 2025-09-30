@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         At Business Insider, Bethany McLean writes about an unusual problem that afflicts her and me and a handful of other journalists, which is (d
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Goldman
-    
-  
+
+
 
 At Business Insider,  Bethany McLean writes about an unusual problem that afflicts her and me and a handful of other journalists, which is (disclosure!) that we used to work at Goldman Sachs Group Inc., and now we write about finance, and we try to be fair and thoughtful, but we still have some rooting interest in Goldman’s mystique. Like:
 	If Goldman does awesome brilliant things, then we look smarter and more awesome by virtue of our association with Goldman.	If Goldman does evil clever things, then that’s pretty good too? Like, one, everyone we meet is like “ooh you must be evil and clever,” and I will definitely take that.
@@ -88,40 +88,40 @@ It is just possible that it is easier, in 2023, for a big private equity firm to
 
 Also though the big private equity firms just … have more of a partnership culture? Just in the simple literal sense that the big private equity firms typically have a complex corporate structure in which they manage funds for clients, and they charge fees for that management, and a set portion of the fees goes to a partnership entity where they are shared by employees rather than the shareholders. They have retained their pre-IPO practices of making a lot of money, divvying it up among themselves, and then letting the shareholders have what’s left. I suppose Goldman’s current approach is nicer for the shareholders, but you can see why Goldman’s partners prefer the old one.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is jiu-jitsu securities fraud?
-    
-  
+
+
 
 Oh, you know:
-	Every bad thing that happens to a public company is also securities fraud.	Getting beaten up is bad.	
+	Every bad thing that happens to a public company is also securities fraud.	Getting beaten up is bad.
 Mark Zuckerberg getting beat up is probably bad for Meta Platforms Inc. “If Mr. Zuckerberg were to become unavailable for any reason,” says Meta in its securities filings, “there could be a material adverse impact on our operations.” For instance if he got beat up real bad.	Therefore Mark Zuckerberg getting beaten up is securities fraud.
 
 And since Zuckerberg enjoys Brazilian jiu-jitsu, which significantly elevates his risk of getting beaten up,
@@ -136,11 +136,11 @@ Look, nobody is more into “everything is securities fraud” than me, but I ca
 Still, why hasn’t Meta added a risk factor for this? Not because it is legally required, I mean, but just because it would be fun for the lawyers? Add a sentence to the risk factors like “our CEO likes to go to gyms to get punched in the face, and if he gets punched really hard in the wrong part of his face then we may be unable to execute on our product roadmap”? Surely writing that sentence is more fun for Meta’s lawyers than whatever else they’ve got going on in their day, even if it is technically less important.
 The corollary to “everything is securities fraud” is that everything is also insider trading, and there are obvious applications here. What if you show up at a Brazilian jiu-jitsu tournament to find that you are fighting Mark Zuckerberg? If you knock him out, can you run to your Robinhood account and short Meta stock before the ambulance gets there? (Can you short the stock before the match if you just know that you’re huge and will knock him out? Do you then fight dirty?) Brazilian jiu-jitsu tournaments now have a unique ability to create material nonpublic information about Meta stock; what if someone uses it?
 
-  
-    
+
+
       Mortgage mark-to-market
-    
-  
+
+
 
 At the Wall Street Journal, James Mackintosh has a fun column about the fact that a lot of US homeowners
   [3]
@@ -166,11 +166,11 @@ Still if you could build a product like this
   [6]
  it’s like a trillion-dollar market, get on that.
 
-  
-    
+
+
       Sentiment analysis
-    
-  
+
+
 
 We   talked yesterday about how investors are increasingly employing robots to analyze corporate executives’ tone of voice on earnings calls. But meanwhile corporate executives are analyzing analysts’ tone of voice on earnings calls, and it is making them sad. Bloomberg’s   Redd Brown reports:
 
@@ -180,15 +180,15 @@ And senior executives do care whether or not Wall Street research firms pat them
 
 There is a chart, counting “good quarter,” “great quarter,” “congrats” and “congratulations” by quarter back through 2019. I wonder if anyone trades on this as a signal. Not, like, for the stock, but for macro trading; is a downturn in “great quarter guys” a leading indicator of recession? Of recovery? Anyway I wrote yesterday that the obvious solution, for conference calls, is for investors and analysts to use robots to ask the questions, and for companies to use robots to answer them. That probably solves this problem: Maybe the analyst-robots would not say “great quarter guys,” but the executive-robots would not be offended.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How Wall Street Makes Millions Selling   Car Loans Customers Can’t Repay. Can  Barclays move beyond scandal and stagnation? Bankers Brace for   Smaller Bonuses With No Relief Seen Next Year. Texas Battles Wall Street in Threat to State’s Muni Market. ICBC Flies Top Executives to US in Race to   Contain Hack Fallout. Hacking Gang Behind Attack on Largest Global Lender Says It   Got Ransom Payment. ‘Super’  multi-manager hedge funds are losing some of their superness. Investors Return to  AT1 Bonds as UBS’s Sale Inspires Confidence. Almost no  Russian oil is sold below $60 cap, say western officials. With Interest Rates Above 9%,  Small Businesses Slam the Brakes. Elon Musk and Jane Fraser Among   CEOs Wooing Xi Jinping. “Pfizer and Merck accounted for half of the  reduction in fourth-quarter earnings estimates between Oct. 1 and early November.” “John Schmidtlein, Google’s main litigator,   visibly cringed when Murphy said the number.” “The Department of Buildings has determined that Ray Dalio, the billionaire founder of Bridgewater, the world’s biggest hedge-fund firm, has constructed an  illegal penthouse addition.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Also I get some unearned moral bump for leaving. “You were at an evil place, but you left, so you must be less evil than the rest of them.”
 
 
@@ -207,48 +207,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Defeasance? Like, you put $300,000 into Treasury Strips today that will come due in time to make all of the remaining mortgage payments for 30 years? This has various problems, the main one being that you can’t move: You generally get to pay off the mortgage over 30 years only if you stay in the house; otherwise you have to prepay it in full.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -259,46 +259,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjv67c.5je8/3ca1df4f.gif" alt="" border="0" /></a>

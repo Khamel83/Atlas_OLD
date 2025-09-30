@@ -12,11 +12,11 @@
 
 # Error 404 - Not Found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Error 404 - Not Found]()
 
-Error 404 - Not Found  
-  
-The document you are looking for may have been removed or re-named. Please contact the web site owner for further assistance. 
+Error 404 - Not Found
+
+The document you are looking for may have been removed or re-named. Please contact the web site owner for further assistance.
 

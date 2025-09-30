@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <link type="text/css" href="/medialibrary/media/v4/css/basic.css" rel="stylesheet">
 <link type="text/css" href="/medialibrary/media/v4/css/reset.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 <link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_print.c7687de8937417888ede.css" rel="stylesheet" media="print"><link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_megamenu_app.80cc0ce1869d66d087cf.css" rel="stylesheet" media="screen"><script type="text/javascript" src="/medialibrary/media/v5/dxt-ui/js/dxt_desktop_megamenu_app.80cc0ce1869d66d087cf.js"></script><script>
        if(document.readyState === "complete") {
         nyfedapi.start();
-        
+
     } else {
         document.addEventListener("DOMContentLoaded", function () {
             nyfedapi.start();
@@ -47,30 +47,30 @@
 <meta property="og:description" content="Data on employment outcomes for new graduates and young workers.">
 <meta property="og:url" content="https://www.newyorkfed.org/research/college-labor-market#--:explore:unemployment">
 <meta property="og:image:alt" content="The Labor Market for Recent College Graduates"/>
- 
- 
+
+
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="https://www.newyorkfed.org/medialibrary/media/research/college-labor-market/College-Labor-OG-twitter-graphic">            <meta name="keywords" content="" />
             <meta name="description" content="" />
-        
+
                               <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S5R6-KN95T-HP8YC-HYFLF-GA6UP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"6S5R6-KN95T-HP8YC-HYFLF-GA6UP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="rwkjetyxh3rke2gijrrq-f-b6d779377-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"385303","ak.ai":parseInt("322044",10),"ak.ol":"0","ak.cr":1,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"c622e659","ak.r":48990,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"141.148.146.0","ak.cport":48632,"ak.gh":"23.62.109.130","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1757957219","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==cQvpJUogXWz2eKyDX/U0sO5Ea7e53fnBGi3WE88iLpEc5dBo3dfxAUkf4KLADXtOSG93OW8purTjAENXuE6/IBfIVCJtZb0/hbhGIvIGKQg2E0fz+93lenktS/Mc7Qc3dXTiN1AdzZn7ignvCvxsMzLRW3CwNh+VyBF3Nskn+Hr8pATmFx6m0mBDsjGUQzcJtwJjB5eYZ9gCfz+6/DubfappEzMve2krnrGdxquEHTZopLLvPr+H4Gu/GW8z1PdRmSdkizFB+s3lTOopUJDCeNFTRueZe0SvHgeN9ve2nOWyBDvqHtshCzHxJxVQDr5s8ScWwJ51SQV0PE2Phnh6R02aJry1yTSM5mPihOEG8oxpeh8uA4pPUJ/kbLqYr66hVDcEoSNSzHVOKq5trGojK1hzc7ARt6G+X+zegESPev8=","ak.pv":"158","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
 <body>
     <a name="top"></a>
     <div class="container_12">
         <header>
-            
+
    <div id="universal">
    <div id="universal_nav">
       <a title="Home" aria-label="Home" href="/" id="nav-item-1"><span class="icon-home" title="Home"></span></a>
-      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a> 
-      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a> 
-      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a> 
-      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a> 
-      <a aria-label="Blog" href="http://libertystreeteconomics.newyorkfed.org" aria-label="Liberty Street Economics Blog" title="Liberty Street Economics Blog" target="_blank" class="nav-type-external" id="nav-item-19">Blog</a> 
+      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a>
+      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a>
+      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a>
+      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a>
+      <a aria-label="Blog" href="http://libertystreeteconomics.newyorkfed.org" aria-label="Liberty Street Economics Blog" title="Liberty Street Economics Blog" target="_blank" class="nav-type-external" id="nav-item-19">Blog</a>
       <a href="/press" aria-label="Press Center" title="Press Center" id="nav-item-21">Press Center</a>
     </div>
     <div id="searchBar">
-      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">    
+      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">
         <span class="icon-search"></span><input name="text" type="text" class="search" id="searchbox" title="Search Box" size="35" maxlength="200" />
         <input aria-label="Application" type="hidden" name="application" value="ny_pub" />
         <input aria-label="Sources" type="hidden" name="sources" value="ny_pub" />
@@ -80,7 +80,7 @@
   </div>
   <div id="logo" class="new-york-fed-logo">
 		<a  aria-label="Federal Reserve Bank of New York" href="/" title="Federal Reserve Bank of New York"><img src="/medialibrary/media/v4/images/new-york-fed-logo.svg" style="width:782px" alt="New York Fed Logo" /></a>
-  </div> 
+  </div>
 
 
 <!-- START : MOBILE HEADER -->
@@ -211,7 +211,7 @@
                 <li id="nav-item-357" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
                     <div class="dxt-level-top">
                         <div>
-                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span> 
+                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span>
                         </div>
                     </div>
                     <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
@@ -341,13 +341,13 @@
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/banking/discountwindow" aria-label="Discount Window" title="Discount Window" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Discount Window']);">Discount Window</a></li>
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/treasury-debt-auctions-and-buybacks-as-fiscal-agent" aria-label="Treasury Debt Auctions and Buybacks as Fiscal Agent" title="Treasury Debt Auctions & Buybacks" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Debt Auctions and Buybacks as Fiscal Agent']);">Treasury Debt Auctions & Buybacks<br>as Fiscal Agent</a>
 </li>
-                <br><br>   
+                <br><br>
                 <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations" aria-label="International Market Operations" title="International Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'International Market Operations']);">INTERNATIONAL MARKET OPERATIONS</a></li>
                     <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-exchange-operations" aria-label="Foreign Exchange Operations" title="Foreign Exchange" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Operations']);">Foreign Exchange</a></li>
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-reserves-management" aria-label="Foreign Reserves Management" title="Foreign Reserves Management" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management']);">Foreign Reserves Management</a></li>
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/central-bank-swap-arrangements" aria-label="Central Bank Swap Arrangements" title="Central Bank Swap Arrangements" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Swap Arrangements']);">Central Bank Swap Arrangements</a></li>
                  </ul></li>
-                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->
                 <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">ACROSS MARKETS</span>
                     <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/op_policies" aria-label="Desk Statements & Operating Policies" title="Statements & Operating Policies" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Desk Statements & Operating Policies']);">Statements & Operating Policies</a></li>
@@ -417,8 +417,8 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                     <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research']);">Economic Research</a>
                 </li>
                 <!-- END : LEVEL 2 -->
-				
-				
+
+
                 <!-- BEGIN FIRST COLUMN -->
                 <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">U.S. Economy</span>
                     <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
@@ -426,7 +426,7 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                             <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Survey of Consumer Expectations" aria-label="Survey of Consumer Expectations" href="/microeconomics/sce#/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Survey of Consumer Expectations']);">Survey of Consumer Expectations</a></li>
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Household Debt &amp; Credit Report" aria-label="Household Debt &amp; Credit Report" href="/microeconomics/hhdc" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Household Debt & Credit Report']);">Household Debt &amp; Credit Report</a></li>
-                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>								
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>
                       </ul>
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Growth &amp; Inflation</span></li>
                             <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
@@ -435,7 +435,7 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed DSGE Model" aria-label="New York Fed DSGE Model" href="/research/policy/dsge#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed DSGE Model']);">New York Fed DSGE Model</a></li>
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed Staff Nowcast" aria-label="New York Fed Staff Nowcast" href="/research/policy/nowcast#/nowcast" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed Staff Nowcast']);">New York Fed Staff Nowcast</a></li>
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="R-star: Natural Rate of Interest" aria-label="R-star: Natural Rate of Interest" href="/research/policy/rstar " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'R-star: Natural Rate of Interest']);">R-star: Natural Rate of Interest</a></li>
-                             
+
                             </ul>
                         <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Labor Market</span></li>
                             <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
@@ -456,16 +456,16 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                                 <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Quarterly Trends for Consolidated U.S. Banking Organizations" aria-label="Quarterly Trends for Consolidated U.S. Banking Organizations" href="/research/banking_research/quarterly_trends" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Quarterly Trends for Consolidated U.S. Banking Organizations']);">Quarterly Trends for Consolidated U.S. Banking Organizations</a></li>
                                    <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Reserve Demand Elasticity" aria-label="Reserve Demand Elasticity" href="/research/reserve-demand-elasticity" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Reserve Demand Elasticity']);">Reserve Demand Elasticity</a></li>
                             </ul>
-						 
+
                     </ul>
                 </li>
-				
-				
-				
-				
-				
-				
-				
+
+
+
+
+
+
+
                 <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
                 <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a title="Regional Economy" aria-label="Regional Economy" href="/regional-economy" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Economy']);">REGIONAL ECONOMY</a></div>
                     <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
@@ -474,19 +474,19 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                                 <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Business Surveys: Special Topics" aria-label="Regional Business Surveys: Special Topics" href="/survey/business_leaders/Supplemental_Survey_Report" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Business Surveys: Special Topics']);">Regional Business Surveys: Special Topics</a></li>
                                 <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Employment Trends" aria-label="Regional Employment Trends" href="/research/regional_economy/regional-employment#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Employment Trends']);">Regional Employment Trends</a></li>
                                 <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Early Benchmarked Employment Data" aria-label="Early Benchmarked Employment Data" href="/research/regional_economy/early-benchmarked-employment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Early Benchmarked Employment Data']);">Early Benchmarked Employment Data</a></li>
-                           
+
 						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">INTERNATIONAL ECONOMY</span></li>
                                 <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Global Supply Chain Pressure Index" aria-label="Global Supply Chain Pressure Index" href="/research/policy/gscpi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Global Supply Chain Pressure Index']);">Global Supply Chain Pressure Index</a></li>
-                                
-                             
-						
+
+
+
                  </ul></li>
-				
-				
-				
-				
-				
-                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+
+
+
+
+
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->
                 <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">RESEARCHERS</span>
 					<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
                     		<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
@@ -856,7 +856,7 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                         </li>
                         <!-- END : LEVEL 4 -->
                     </ul>
-                </li>                        
+                </li>
                        <!-- START : LEVEL 3 -->
                         <li id="nav-item-469" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
                             <a href="/outreach-and-education/other-community-development-work" title="Other Community Development Work">Other Community Development Work</a>
@@ -878,7 +878,7 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                     <div class="dxt-menu-content">
 
 <div class="dxt-menu-content-item dxt-menu-content-item-desc">
-                            
+
                 <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-109" >
  <!-- START : LEVEL 2 -->
                 <li class="dxt-level-2-item nav nav-level-1 nav-type-menu econ-ed-style" id="nav-item-102">
@@ -975,7 +975,7 @@ ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150p
                                 <p>
                                     The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
 
-</p> 
+</p>
                             </a>
 
 </div></div>
@@ -1032,7 +1032,7 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-images {
 }
 
 ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc {
-	width: auto; 
+	width: auto;
 	margin: 0 10px;
 	display: inline-block;
 	vertical-align: top;
@@ -1066,13 +1066,13 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
 <div id="dxt-overlay"></div>
         </header>
         <div id="header-border"></div>
-        
+
 
 <div id="breadcrumb" class="grid_12"></div>
 
         <!--PAGEWATCH-->
         <!-- begin main content -->
-        
+
 
 
 
@@ -1083,7 +1083,7 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
 		<button onClick="shareTwitter()"><img alt="Twitter" class="icon"  src="/medialibrary/media/v4/images/twitter_s.png"></button>
 		<button onClick="printPage()"><img alt="Print" class="icon"  src="/medialibrary/media/v4/images/print_s.png"></button>
 		<button onClick="shareEmail()"><img alt="Email" class="icon"  src="/medialibrary/media/v4/images/email_s.png"></button>
-	</div>	
+	</div>
 </div>
 </div>
 	<style>
@@ -1141,7 +1141,7 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
 			window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Email']);
 		}
-		
+
 	</script>
 <div id="ur-page-notification-app"></div>
 <div class="ts-article-title header-research" style="margin-bottom: 30px; margin-top: 10px;">
@@ -1169,9 +1169,9 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
 
 <div id="ur-tab-content-container"
       class="ur tab content" >
-      <div id="ur-tab-overview" 
+      <div id="ur-tab-overview"
         style="display: none !important">
-        
+
         <app-overview _nghost-pbu-c53="">
           <div _ngcontent-pbu-c53="" class="overviewContainer">
             <div _ngcontent-pbu-c53="" class="leftArea grid_6">
@@ -1179,17 +1179,17 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
                 <div _ngcontent-pbu-c53="" class="reg-intro-text">
                   This web feature provides regularly updated information on labor market outcomes of recent college graduates.
                 </div>
-                <img _ngcontent-pbu-c53="" 
-                  class="heroImage" 
+                <img _ngcontent-pbu-c53=""
+                  class="heroImage"
                   src="/medialibrary/research/interactives/college-labor-market/hero.jpg">
                <p _ngcontent-pbu-c53=""><h3>2025:Q2 Quarterly Highlights</h3></p>
-             
+
                 <p _ngcontent-pbu-c53="">
                  Conditions remained challenging for recent college graduates during the second quarter of 2025. The unemployment rate averaged 5.3 percent, in line with the first quarter, and the underemployment rate held steady at just over 41 percent.
                 </p>
 
 <div _ngcontent-pbu-c53="" class="interactive-button-research">
-                  <a id="ur-overview-explore-button" 
+                  <a id="ur-overview-explore-button"
                     style="color: white !important; font-size: 14px !important;">
                     EXPLORE INTERACTIVE
                   </a>
@@ -1199,8 +1199,8 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
                    1990, allowing for a historical perspective on the experience of those moving into the
                     labor market.
                 </p>
-                
-                <p _ngcontent-pbu-c53="">The interactive charts allow users to: 
+
+                <p _ngcontent-pbu-c53="">The interactive charts allow users to:
                   <ul>
                     <li>compare the unemployment rate for recent college graduates with that of other groups</li>
                     <li>monitor the underemployment rate of recent college graduates</li>
@@ -1210,8 +1210,8 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
                 </p>
                 <!--ng-container--><p _ngcontent-pbu-c53="">A table tracks outcomes by college major with the latest available annual data.</p>
               </div>
-              
-          
+
+
           <hr _ngcontent-pbu-c53="" class="seperator-hr" style="margin: 0 0 20px 0;"><h3 _ngcontent-pbu-c53="">How to cite this report:</h3><p _ngcontent-pbu-c53="" class="cite-text"> Federal Reserve Bank of New York, The Labor Market for Recent College Graduates, https://nyfed.org/collegelabor.</p><br _ngcontent-pbu-c53=""><div _ngcontent-pbu-c53="" class="related-reading"><h3 _ngcontent-pbu-c53="">Related reading:</h3><div _ngcontent-pbu-c53="">Foundational work informing this labor market analysis was published as <a href="https://www.nber.org/books-and-chapters/education-skills-and-technical-change-implications-future-us-gdp-growth/underemployment-early-careers-college-graduates-following-great-recession">Underemployment in the Early Careers of College Graduates following the Great Recession</a> in the <i>NBER Studies in Income and Wealth.</i></div><!--ng-container--><div _ngcontent-pbu-c53="">&nbsp;</div><!--ng-container--><div _ngcontent-pbu-c53="">Many underemployed college graduates actually work in “non-college” jobs that are fairly skilled and well paid, and transition into better roles after gaining some work experience. Learn more in <a href="https://libertystreeteconomics.newyorkfed.org/2016/01/working-as-a-barista-after-college-is-not-as-common-as-you-might-think">Working as a Barista After College Is Not as Common as You Might Think.</a></div><!--ng-container--><div _ngcontent-pbu-c53="">&nbsp;</div><!--ng-container--><div _ngcontent-pbu-c53="">In <a href="https://www.newyorkfed.org/research/current_issues/ci20-1.html">Are Recent College Graduates Finding Good Jobs?</a>, Abel and Deitz examine more than twenty years of data on the employment outcomes of recent graduates.</div><!--ng-container--><div _ngcontent-pbu-c53="">An estimation of the return to a college education supports a conclusion that <a href="https://libertystreeteconomics.newyorkfed.org/2019/06/despite-rising-costs-college-is-still-a-good-investment/">Despite Rising Costs, College Is Still a Good Investment.</a></div><!--ng-container--><div _ngcontent-pbu-c53="">&nbsp;</div>
 <!--ng-container--><!--bindings={
           "ng-reflect-ng-for-of": "Foundational work informing th"
@@ -1220,7 +1220,7 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
         }--><div id="ur-overview-explore-button" class="titleLink">Explore The Labor Market for Recent College Graduates</div>
             <div id="ur-overview-microchart-app" class="ur microchart"></div><!--bindings={
           "ng-reflect-ng-if": "true"
-        
+
           "ng-reflect-ng-if": "true"
         }-->
         <div _ngcontent-pbu-c52="" _nghost-pbu-c16="">
@@ -1234,10 +1234,10 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
             <div _ngcontent-pbu-c16=""><a _ngcontent-pbu-c16="" href="/survey/business_leaders/Supplemental_Survey_Report">Regional Business Surveys: Special Topics</a></div>
             <div _ngcontent-pbu-c16=""><a _ngcontent-pbu-c16="" href="/microeconomics/topics/student-debt">Center for Microeconomic Data -- Student Debt</a></div>
           </div>
-          
+
           <!-- <div _ngcontent-pbu-c16="" class="frb-accordion-wrapper"> -->
           <div _ngcontent-pbu-c16="" class="accordionButton">MEET THE ECONOMISTS</div>
-          
+
             <div _ngcontent-pbu-c16="" class="accordionContent" style="display: none;">
               <div _ngcontent-pbu-c16="" class="wysiwyg"><span _ngcontent-pbu-c16="" class="ts-accordion-content">
                 <div _ngcontent-pbu-c16=""><a _ngcontent-pbu-c16="" href="/research/economists/abel">Jaison R. Abel, Department Head<br> Urban and Regional Studies</a></div>
@@ -1250,8 +1250,8 @@ ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc
         }--></div></app-side-area></div></app-overview>
 
 </div>
-      <div id="ur-tab-chart-app" 
-        class="ur chart-app" 
+      <div id="ur-tab-chart-app"
+        class="ur chart-app"
         style="display: none !important">
       </div>
 
@@ -1342,7 +1342,7 @@ $(this).removeClass('over');
 
 <!-- end main content -->
         <!--/PAGEWATCH-->
-        
+
 <!-- COOKIE CONSENT START -->
 <style>
 #myCookieConsent {
@@ -1383,7 +1383,7 @@ $(this).removeClass('over');
     border-radius: 4px;
 }
 #myCookieConsent a#cookieButton:hover {
-    
+
 
 }
 /*Social Media Footer Styles*/
@@ -1439,27 +1439,27 @@ $(this).removeClass('over');
 </style>
 </style>
 <script type="text/javascript">
-$(document).ready(function(){   
-var d = new Date(); 
-var day = d.getDate(); 
+$(document).ready(function(){
+var d = new Date();
+var day = d.getDate();
 if(sessionStorage.getItem('bannerSeen') != day){
     $("#myCookieConsent").fadeIn();
     sessionStorage.setItem('bannerSeen',day);
 
    $("#cookieButton").click(function() {
- 
+
        $("#myCookieConsent").fadeOut();
 })
-var expireTime = 24000*60*60; 
+var expireTime = 24000*60*60;
 setTimeout(function() {
     sessionStorage.removeItem('bannerSeen');
 }, expireTime);
-} 
-}); 
+}
+});
 
 </script>
 <div id="myCookieConsent">
-	
+
 	<div>By continuing to use our site, you agree to our <a id="terms-of-use" href="/privacy/termsofuse">Terms of Use</a> and <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>. You can learn more about how we use cookies by reviewing our <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>.&nbsp;&nbsp;&nbsp;<a id="cookieButton" title="Close"><img alt="Close" src="/medialibrary/media/footer/close-notice.png"/></a></div>
 </div>
 <!-- COOKIE CONSENT END -->

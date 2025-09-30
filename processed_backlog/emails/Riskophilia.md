@@ -63,7 +63,7 @@ The reason we’ve made so much progress over the past half-century despite our 
 Imagine what the world could be if more of us joined them. We are competent, responsible, and resilient. We have the freedom to engage in activities that involve some degree of risk and personal responsibility. Embrace it. Join the movement. 
 My hunch is that the government will follow. They’re just been giving us the sense of protection we’ve demanded. Let’s demand something better. Vox populi, vox Dei. 
 I refuse to believe that America’s best days are behind it. Decline is not inevitable. But it takes more than tech. It’s up to all of us to cut through the cruft, get back to the sense of freedom and adventure that make the country great, and build from there. 
-Go do that risky thing you’ve been putting off. Now. Build the muscle. Spread the word: we’re going risk-on. 
+Go do that risky thing you’ve been putting off. Now. Build the muscle. Spread the word: we’re going risk-on.
 The only way out is up, even if it’s a little risky up there.
 Thanks to Dan [ https://substack.com/redirect/37225a1e-9f87-4bbe-b194-45d485b1ac28?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
 That’s all for today. We’ll be back in your inbox with the Weekly Dose on Friday.

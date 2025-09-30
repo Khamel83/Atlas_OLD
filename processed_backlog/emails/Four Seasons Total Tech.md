@@ -14,12 +14,12 @@ Oceans [ https://substack.com/redirect/52de8412-070d-4dfd-be9c-ec3e857ad573?j=ey
 For $2,850 per month (<$35K/yr), you can hire folks like Tehani and Lawrence at an 50-80% discount to US-based EA+s.
 Austin Rief [ https://substack.com/redirect/d258301a-c666-4bc6-aa3a-3c8af4e2ea17?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (co-founder and CEO of Morning Brew) had this to say: “I was hesitant to work with an offshore EA, but Ocean’s talent is exceptional. My EA+ has quickly become invaluable, I couldn’t get through the week without her.”
 Ndamukong Suh [ https://substack.com/redirect/c0256d80-3b86-4326-af86-e2fd3dbfbdf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (NFL Player & Investor) added: “I’m constantly managing all the things pulling at my time. I finally caved and got an Oceans EA+ to help with admin, scheduling, research, and planning. She’s amazing and helps me stay focused on what matters every day. Highly recommend." 
-Join dozens of founders, execs, and high growth teams that are hiring affordable EA+ so you can stay lean and focus on the most important work. Schedule a quick call to learn more here: 
-Hi friends 👋, 
-Happy Monday! Now that AI is really here — I spent a dangerous amount of time playing with ChatGPT over the past few days — it seems like it was inevitable. It wasn’t. AI went through its own Winters, during which the smart money was on the technology never living up to its promise. 
-On Friday, Anton [ https://substack.com/redirect/e1b28992-d81c-4171-9c5c-1e7fa40bab34?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and I recorded our third episode of Anton Teaches Packy AI [ https://substack.com/redirect/e1e526fc-145d-4bc3-8def-7da6658b073e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and he suggested that we go all the way back to the beginning, to the 1943 paper that inspired neural networks and the AI Winter that followed when neural networks and connectionism failed to live up to the substantial hype. 
-The juxtaposition of everything happening right now with the strongly negative sentiment during the first AI Winter got me thinking about the seasons that any technology inevitably goes through, and why, despite the inevitability, people keep counting technologies out during their Winters. 
-Let’s get to it. 
+Join dozens of founders, execs, and high growth teams that are hiring affordable EA+ so you can stay lean and focus on the most important work. Schedule a quick call to learn more here:
+Hi friends 👋,
+Happy Monday! Now that AI is really here — I spent a dangerous amount of time playing with ChatGPT over the past few days — it seems like it was inevitable. It wasn’t. AI went through its own Winters, during which the smart money was on the technology never living up to its promise.
+On Friday, Anton [ https://substack.com/redirect/e1b28992-d81c-4171-9c5c-1e7fa40bab34?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and I recorded our third episode of Anton Teaches Packy AI [ https://substack.com/redirect/e1e526fc-145d-4bc3-8def-7da6658b073e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and he suggested that we go all the way back to the beginning, to the 1943 paper that inspired neural networks and the AI Winter that followed when neural networks and connectionism failed to live up to the substantial hype.
+The juxtaposition of everything happening right now with the strongly negative sentiment during the first AI Winter got me thinking about the seasons that any technology inevitably goes through, and why, despite the inevitability, people keep counting technologies out during their Winters.
+Let’s get to it.
 Four Seasons Total Tech
 "Happy families are all alike; every unhappy family is unhappy in its own way."
 – Leo Tolstoy, Anna Karenina 
@@ -74,7 +74,7 @@ Every Trough of Disillusionment is disillusioning in its own way. Every Winter h
 Here’s the gist of the issue: far from doing everything the human mind could within a decade, early AI couldn’t even do the one thing the Department of Defense paid it to do: translate Russian to English. 
 That punch card is from a 1954 experiment that used a 250-word dictionary and syntactical analysis to perform crude translations between the two languages. Three years later, Frank Rosenblatt invented perceptrons, the first neural network. Small, early machine translation wins and the big promise of perceptrons created the hype that led to the Simon & Newell quote above, and ones like The New York Times’ observation that [ https://substack.com/redirect/29a0691d-eed7-416c-b4cb-e95197ae090d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], “The Navy revealed the embryo of an electronic computer that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.”
 Then, in the 1960s, progress stalled.
-To hit the rest of Winter, Spring, and Summer… 
+To hit the rest of Winter, Spring, and Summer…
 Thanks to Dan [ https://substack.com/redirect/a4e50e8d-ad53-4934-8258-955ee19aa2cc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing - both the essay and YouTube - kid’s got range, and to Anton for the conversation that inspired this essay!
 That’s all for today.
 

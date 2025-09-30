@@ -51,7 +51,7 @@ EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694
 
 Now, here’s Sarah…
 
- 
+
 
 Three
 Things You Should Know…
@@ -169,7 +169,7 @@ To wrap up this week’s sightings, an eagle-eyed reader noticed that The Row qu
 Instagram logo to a more pared-down script “TR.” (Yes, everything is quiet there.) But in no way does this suggest a bigger brand overhaul is imminent—some early spring cleaning for social media, perhaps, but they didn’t update the website with the new spring delivery, and there’s no splashy campaign. After all, this is par for the course for the brand: Think about how many times they’ve tweaked the clothing tag in the years since launch. The Row’s whole thing is the pursuit of perfection, even
 when what they’re working with is already perfect.
 
- 
+
 
 The
 Week in Feedback…
@@ -199,7 +199,7 @@ On Lauren’s Vuori ( https://puck.news/the-vuori-reality-distortion-complex/?ut
 obsession: “Fascinated by your fascination with Vuori. I have to ask—as a mom in Coral Gables typing this while wearing Splits59 leggings and an Alo ribbed T—are you sponsored by Vuori? As someone who has tried to ‘get dressed’ but can’t muster the energy to leave my favorite activewear, I follow this space doggedly! I have an aversion to Vuori, but feel the walls closing in! Am I missing something?” —A reader who might enjoy Lauren’s analysis of Vuori’s success on her
 Fashion People ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) podcast
 
- 
+
 
 Until Monday,
 
@@ -222,6 +222,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU4sK0IvT3R0GnNk6RyOc=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F7%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

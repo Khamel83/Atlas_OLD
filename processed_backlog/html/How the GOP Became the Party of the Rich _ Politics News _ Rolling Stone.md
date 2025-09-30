@@ -250,7 +250,7 @@ Such extremist rhetoric – equating taxation with theft – is exactly the kind
 
 *This story is from the November 24, 2011 issue of Rolling Stone.*
 
-**Related**  
+**Related**
 • [Grover Norquist: The Billionaires' Best Friend](/web/20111217025815/http://www.rollingstone.com/politics/news/grover-norquist-the-billionaires-best-friend-20111109) *•* [The Enablers: Democrats On Board With the Party of the Rich](/web/20111217025815/http://www.rollingstone.com/politics/news/the-enablers-democrats-on-board-with-the-party-of-the-rich-20111109) *•* [Must-Read Books on the GOP and the One Percent](/web/20111217025815/http://www.rollingstone.com/politics/blogs/national-affairs/must-read-books-on-the-gop-and-the-one-percent-20111109) *•* [Timeline: How the GOP Became the Party of the Rich](/web/20111217025815/http://www.rollingstone.com/politics/photos/how-the-gop-became-the-party-of-the-rich-20111110)
 
 ### More Music

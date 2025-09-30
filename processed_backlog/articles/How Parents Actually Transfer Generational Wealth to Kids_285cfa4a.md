@@ -82,7 +82,7 @@ You can withdraw up to $10,000 at one time before your bank reports the transact
 * [your parents' money](//nymag.com/intelligencer/tags/your-parents'-money/)
 * [More](#)
 
-[Show 
+[Show
 
 Comment](#comments)
 

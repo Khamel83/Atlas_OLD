@@ -154,7 +154,7 @@ Manfred’s letter to owners rankled some ESPNers for its aggressiveness,
 particularly when he bashed pay TV as a “shrinking platform.” After all, other pay TV channels that carry MLB playoff games, like FS1 and TBS, aren’t exactly growing in the streaming age. Anyway, sources tell me that ESPN is still willing to negotiate a new deal. Sources inside the league, however, suggest that MLB is hellbent on drawing more companies into the ’28 auction, even if it results in smaller, short-term deals for the Sunday Night Baseball package. Either way, this is
 certainly the most notable baseball divorce since Marilyn and DiMaggio… or at least the McCourts.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -178,7 +178,7 @@ record every Purdue basketball game, and you can probably tell your remote to go
 On Thursday’s edition of The Varsity: “Your open rate and reader attention would have greatly
 benefited from a between-second-and-third-periods send during this playoff-style hockey game.” —A media veteran
 
- 
+
 
 See you Thursday,
 
@@ -224,7 +224,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVOwwVz-ygmjG5eHKQ2GU=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.A weird financial anomaly is that, in 2017 and 2018, the bonds of America
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Chatham vs. ACA
-    
-  
+
+
 
 A weird financial anomaly is that, in 2017 and 2018, the bonds of American Media Inc. started to trade at implausibly high prices. By late 2017, these bonds were trading at lower yields than the bonds of Apple Inc., implying that AMI — the small, non-investment-grade publisher of the National Enquirer — was a better credit than Apple. That seemed wrong. In 2018, AMI issued new bonds, at a much higher yield (10.5%) than the existing bonds, which also suggested that the prices of the existing bonds were wrong.
 I remember that, at the time, this was a thing that people talked about. Bond trading prices are public, and you could see the prices of AMI bonds going crazy. Some bonds were trading at obviously wrong prices, for a long time: What gave? The obvious assumption was that someone was doing market manipulation, and it was easy to speculate about who: Chatham Asset Management, the hedge fund firm that owned most of the bonds.
@@ -94,37 +94,37 @@ Likewise, ACA failed to address the Rebalancing Trades in connection with the SE
 
 Yeah I mean that does seem like bad compliance consulting! Really if you are doing something obviously fishy you should just knock it off, but also, separately, if you have a compliance consultant, they should tell you to knock it off.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in bad consulting
-    
-  
+
+
 
 Here is an  SEC enforcement action against Aon Investments USA Inc. that has the quality of a nightmare. Aon acts as an adviser and consultant to the Pennsylvania Public Employees’ Retirement System (PSERS), a public pension fund, and calculates the fund’s investment returns. PSERS asked Aon to do a calculation for it, based on PSERS’s historical returns. The details are not that important, but if the calculation produced a number of 6.36% or higher, that was good. If it produced a number lower than 6.36%, that was bad,  and “public school employees would be required to contribute more to the retirement fund going forward.”
 In 2020, Aon did the calculation and got 6.38%: close to the line, but fine. But some PSERS employees noticed that “some of the quarterly returns in the spreadsheet provided by Aon did not match the historical quarterly returns previously reported by Aon for those periods.” That is a terrible thing to notice. If your client notices that some of the historical quarterly returns in your spreadsheet do not match the historical quarterly returns in their spreadsheet — or, worse, in your own previous spreadsheets — then the best approach is probably to delete all the spreadsheets, delete Excel, take a baseball bat to your computer, change your name, grow a beard, and set sail for a deserted island. This is not legal or investing or consulting advice but, honestly, what are the chances that you will efficiently identify and fix the source of the discrepancy? Better to start over on an island, far from any spreadsheets. Just read this passage and imagine being Aon Employee A:
@@ -139,11 +139,11 @@ The SEC’s press release says that the Aon partner involved “misrepresented t
 On April 16, 2021, Aon sent an update letter to PSERS’s CIO. Although the Aon Partner had given PSERS the impression that Aon had identified and determined the exact cause of the error, the update letter referred to Aon’s “continued review” and indicated that “Aon fully understands that its responsibility to report to PSERS is ongoing and will supplement the information related here when and to the extent appropriate and, of course, as may be responsive to any questions PSERS may have.” The letter further explained that “all indications are that the issues here reflect inadvertent clerical mistakes at a data-entry level.” The letter concluded that “Aon is determined to ascertain all pertinent details surrounding the issues here and will provide it as our comprehensive review continues.”
 Someone just put the wrong numbers in the spreadsheet, somehow, at some point, probably. Nothing to be done about it. Anyway the corrected calculation produced 6.34%, which is bad. 
 
-  
-    
+
+
       SPAC SPAC SPAC
-    
-  
+
+
 
 The central problem of securities regulation is:
 	The lighter the regulation, the easier it is for people to invest in exciting new businesses and technologies that could transform the world and make them rich. (And the easier it is for entrepreneurs to raise money for those businesses.)	The lighter the regulation, the easier it is for people to get ripped off by exciting new businesses and technologies that are fake or stupid.
@@ -174,11 +174,11 @@ But whether or not SPACs survive as a technology, yesterday the SEC killed them 
   [6]
 
 
-  
-    
+
+
       Interest-bearing stablecoins
-    
-  
+
+
 
 The way the stablecoin business works is:
 	You send $1 to a company (the stablecoin issuer), and it sends you back a token representing “one dollar, but on the blockchain.”	If you want your dollar back, you can (probably) give the issuer back the token and get back the dollar.
@@ -200,23 +200,23 @@ Carter said he’s particularly excited about interest-bearing stablecoins. He s
 
 Even beyond stablecoins, there is a general category of financial story that is like “somebody convinces venture capitalists that reinventing banking is a good idea,” and those stories often end up in, uh, interesting places. (A lot of fintech stories are that sort of story, but the story of FTX is really that sort of story.) Reinventing banking is a great idea! You can make a lot of money, pretty consistently, by taking risks that your venture capitalists don’t notice. “We’ll take deposits, pay interest, invest the deposits, earn more interest than we pay, keep the spread and not be subject to bank capital or prudential regulation” is a great trade some large portion of the time, surely large enough to raise some venture capital.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 China's $6 Trillion   Stock Wipeout Exposes Deeper Problems for Xi. Blackstone plans  deal spree to pre-empt market revival. EquiLend, a  Securities Lending Platform, Hit by Cyberattack.  Insurers Rake In Profits as Customers Pay Soaring Premiums. Edinburgh’s Top Fund Managers   Slash Jobs After Assets Drain Away. Atlanta’s   Squatter Problem Is Vexing Wall Street Landlords. Retailers Return to Bringing in Inventory ‘Just in Time.’ Many Younger Americans Don’t See a   Path to Retirement. Sam Bankman-Fried Is  Still Messing Up Bitcoin’s Big Comeback. “Not since the Boston Tea Party has  mixing tea with salt water roiled the Anglo-American relationship so much.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The  SEC complaint calls them “brokers,” but it means broker-dealers, since they bought the bonds on their own balance sheets rather than just connecting buyers and sellers. But the SEC says they were *mostly* brokers: “The business model of several of the Rebalancing Brokers was to ‘match’ buy and sell orders from their customers. Those Rebalancing Brokers ordinarily did not purchase securities for their own inventory—i.e., put the firm’s own capital at risk—or they did so on a very limited basis. Nonetheless, the vast majority of the Rebalancing Trades involved at least one Rebalancing Broker that purchased bonds into its firm’s inventory.” That is, usually they didn’t buy bonds for their balance sheet, but they did for Chatham because they knew they were not really at risk.
 
 
-  [2] To be clear all these numbers are fake, but this is the mechanism the SEC complaint describes. “Over time, an understanding developed on the part of the Rebalancing Brokers that whenever Melchiorre placed an order to sell one of the AMI Bonds for a Client, he would repurchase it for another Client, either directly the following day or days, or indirectly through another broker. … The Rebalancing Brokers stood to benefit from the Rebalancing Trades because they expected Chatham to repurchase the bonds at a higher price, and it typically did so. Melchiorre proposed the price for the Rebalancing Trades and the Rebalancing Brokers agreed to it without first soliciting bids from other market participants. When proposing a price for Rebalancing Trades, Melchiorre considered a number of factors, which included the prior day’s price as reflected in prices published by a pricing service. Those published prices would have been influenced, to some extent, by Chatham’s own trading. When purchasing the AMI Bonds, Melchiorre also added a spread to compensate the Rebalancing Brokers. For example, in the case of a Rebalancing Trade executed through a single Rebalancing Broker overnight, Chatham would repurchase the AMI Bonds for a small spread above what it had sold the AMI Bonds to the broker the day before.” 
+  [2] To be clear all these numbers are fake, but this is the mechanism the SEC complaint describes. “Over time, an understanding developed on the part of the Rebalancing Brokers that whenever Melchiorre placed an order to sell one of the AMI Bonds for a Client, he would repurchase it for another Client, either directly the following day or days, or indirectly through another broker. … The Rebalancing Brokers stood to benefit from the Rebalancing Trades because they expected Chatham to repurchase the bonds at a higher price, and it typically did so. Melchiorre proposed the price for the Rebalancing Trades and the Rebalancing Brokers agreed to it without first soliciting bids from other market participants. When proposing a price for Rebalancing Trades, Melchiorre considered a number of factors, which included the prior day’s price as reflected in prices published by a pricing service. Those published prices would have been influenced, to some extent, by Chatham’s own trading. When purchasing the AMI Bonds, Melchiorre also added a spread to compensate the Rebalancing Brokers. For example, in the case of a Rebalancing Trade executed through a single Rebalancing Broker overnight, Chatham would repurchase the AMI Bonds for a small spread above what it had sold the AMI Bonds to the broker the day before.”
 
 
-  [3] We 
-talked about this the other day in connection with crypto. I wrote: “All the downsides of stock — the fiduciary duties, the sharing of the value of the business, the disclosure obligations — are not incidental; they are not just arbitrary punishments visited on entrepreneurs who issue stock. They’re the point. The reason that entrepreneurs can raise money by issuing stock — they can get real dollars in exchange for pieces of paper saying ‘this is a share of a business that doesn’t exist yet’ — is that there is a highly developed system of obligations that reassures investors that those pieces of paper have value. The investors get some rights, some control, some economic ownership, some legal and regulatory protections, in exchange for their money. And that is why they are willing to part with their money.” 
+  [3] We
+talked about this the other day in connection with crypto. I wrote: “All the downsides of stock — the fiduciary duties, the sharing of the value of the business, the disclosure obligations — are not incidental; they are not just arbitrary punishments visited on entrepreneurs who issue stock. They’re the point. The reason that entrepreneurs can raise money by issuing stock — they can get real dollars in exchange for pieces of paper saying ‘this is a share of a business that doesn’t exist yet’ — is that there is a highly developed system of obligations that reassures investors that those pieces of paper have value. The investors get some rights, some control, some economic ownership, some legal and regulatory protections, in exchange for their money. And that is why they are willing to part with their money.”
 
 
   [4] For instance, SEC Commissioner Hester Peirce, dissenting from yesterday’s SPAC rules, wrote: “SPACs can expand retail investment opportunities by increasing the pool of companies in our public markets. As many observers have noted, the number of public companies has been dropping in the United States. In 1996 there were more than 8,000 listed companies on U.S. stock exchanges. In mid-2022 (the last data available), that number was just over 4,200. For context, real GDP has increased by 80% over the same period. The 1990s saw an annual average of around 412 IPOs, while that average was only 248 IPOs over the last ten years. Without SPACs, the more recent annual average drops to 132 IPOs, while the 1990s average remains largely unchanged.”
@@ -231,48 +231,48 @@ talked about this the other day in connection with crypto. I wrote: “All the d
   [7] Often this is more complicated — not *everyone* can trade directly with the issuer, so you have to sell for a dollar to someone who can — but close enough.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckbeam.647s/7a9a3e2b.gif" alt="" border="0" /></a>

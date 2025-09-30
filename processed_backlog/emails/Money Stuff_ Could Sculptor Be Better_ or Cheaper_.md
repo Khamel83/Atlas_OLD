@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off for the rest of the week, back on Monday.There is something odd about a publicly traded hedge fund
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off for the rest of the week, back on Monday.
 
-  
-    
+
+
       Sculptor
-    
-  
+
+
 
 There is something odd about a publicly traded hedge fund management firm. The typical hedge fund management firm is private, owned mostly by its founder (who is also the chief investment officer and chief executive officer), and the rough cultural expectation is that people who run big hedge funds collect most of the fees from those funds and get very rich. In a publicly traded hedge fund management firm, the CEO/CIO does not own most of the company; outside shareholders do.
   [1]
@@ -111,37 +111,37 @@ Also it is very fun that the Weinstein group would buy Sculptor in their persona
  Instead, they are offering to buy Sculptor in their personal accounts. Like, their day jobs are managing hedge funds, and then as a hobby they will form a sort of hedge-fund-manager supergroup and manage another hedge fund for fun. There are regulatory complications with a hedge-fund firm buying another hedge-fund firm; buying it in your personal account is easier, though I suppose there are conflict questions there too. (If you see a good investment idea in your role at the Sculptor “Office of CIO,” can you bring it to your day job?)
 Really, though, wouldn’t you want to do this? If you are a confident successful hedge fund manager, and you had the chance to get together with your hedge fund manager friends and buy a rival hedge fund manager’s firm out from under him, for fairly cheap, wouldn’t you do it? It seems to me to make economic sense as a trade, but also how much fun is that? “We are willing to bet $650 million that we can do a better job for your clients than you can, and that’s the price tag, so bye!”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       X
-    
-  
+
+
 
 Elsewhere in  weird M&A situations:
 
@@ -173,11 +173,11 @@ After amassing his own fortune through acquiring companies in the steel business
 If you are trying to figure out if a potential buyer of a $7.8 billion company can actually pay for it, him saying “we have the cash” to a reporter is … almost a negative? 
 Anyway if I were US Steel I’d be trying to get a bid from Elon Musk? We know that he will impulsively overpay for companies, he probably has some use for steel, and most important he is obsessed with the letter “X.” US Steel’s stock-exchange ticker is X. You don’t get that ticker every day; surely it’s worth $10 billion to Musk.
 
-  
-    
+
+
       People are worried about stock buybacks
-    
-  
+
+
 
 When I was an investment banker, ages ago, part of my job was to pitch stock buybacks to companies. Part of this pitch involved comparing buybacks to dividends, the other way that companies commonly return cash to shareholders. For me, the advantage of buybacks was obvious: A buyback requires hiring a bank and paying it a commission,
   [12]
@@ -202,15 +202,15 @@ By the way, this is a thing I did not know about the buyback tax:
 The 1% tax—which was a last-minute addition to the climate, health and tax law known as the Inflation Reduction Act passed last year—is levied on net buybacks, meaning total shares repurchased minus new shares issued during the year.
 Here is  the statutory text; section 4501(b)(3) says that the taxable amount of buybacks “shall be reduced by the fair market value of any stock issued by the covered corporation during the taxable year, including the fair market value of any stock issued or provided to employees.” One  complaint that people sometimes  have about stock buybacks is that they are a way to sort of disguise executive compensation: A company pays its executives $100 million worth of stock, then it buys back $100 million worth of stock to avoid the dilutive impact of those payments. I have never found this complaint that compelling (it’s not disguised executive compensation; this is all disclosed), but some people do, and if you do I guess you should be dissatisfied with the buyback tax. It specifically exempts buybacks that are used to offset stock-based compensation.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Bank of America Trading Desks Gain Ground With More Capital, Headcount. Goldman Is Cracking Down on Employees That Aren't in Office   Five Days a Week. Private equity firms hand over  distressed companies to rivals. Wall Street’s  China Dreams Slip Away. Morgan Stanley Fined for UK Energy Trading   WhatsApp Breach. Allocators Aren’t Happy With the  NAV Lending Craze. Europe poised for arrival of  ‘zero-day’ options.  Binance, the Biggest Player in Crypto, Is Facing Legal Risks Over Russia. Ex-OpenSea Employee Sentenced to Three Months in First  NFT Insider-Trading Case. ‘Everybody Else Left or They Died:’   California Bank Grows Simply by Surviving. Do Corporations Care about  ESG Ratings?Bots Are Better than Humans at  Solving CAPTCHAs. Disgraced ex-Suffolk County police chief who botched Gilgo Beach case and  beat up porn thief accused of soliciting sex — at 10 a.m.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Not to spoil it or anything — it’s in the title — but this is going to be about Sculptor Capital Management. Jimmy Levin, Sculptor’s chief executive officer and chief investment officer, owns about 14% of the company. He has about 22% voting power, due to ownership of Class B shares that have votes but no economic rights.
 
 
@@ -256,48 +256,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [15] Of course the $1.6 billion number doesn’t count the taxes on capital gains from sales into the $169 billion of buybacks, but presumably that number is a lot lower than $33.8 billion too.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -308,46 +308,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjccdn.66jt/454f884c.gif" alt="" border="0" /></a>

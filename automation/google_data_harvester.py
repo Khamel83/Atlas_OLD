@@ -80,7 +80,7 @@ class DriveFile:
 
 class GoogleDataHarvester:
     """Automated Google services data harvester"""
-    
+
     def __init__(self, credentials_file: str = "credentials.json", token_file: str = "token.json"):
         self.credentials_file = credentials_file
         self.token_file = token_file
@@ -88,28 +88,28 @@ class GoogleDataHarvester:
         self.gmail_service = None
         self.drive_service = None
         self.calendar_service = None
-        
+
         # Newsletter detection patterns
         self.newsletter_patterns = [
             'newsletter', 'digest', 'weekly', 'daily', 'update',
             'substack', 'mailchimp', 'constantcontact', 'unsubscribe',
             'morning brew', 'the hustle', 'techcrunch', 'hacker news'
         ]
-        
+
         # Common newsletter senders
         self.newsletter_senders = [
             '@substack.com', '@mailchimp.com', '@constantcontact.com',
             '@morning-brew.com', '@thehustle.co', '@techcrunch.com',
             'noreply@', 'newsletter@', 'digest@'
         ]
-    
+
     def authenticate(self) -> bool:
         """Authenticate with Google APIs using OAuth2"""
         try:
             # Load existing credentials
             if os.path.exists(self.token_file):
                 self.creds = Credentials.from_authorized_user_file(self.token_file, SCOPES)
-            
+
             # Refresh or get new credentials
             if not self.creds or not self.creds.valid:
                 if self.creds and self.creds.expired and self.creds.refresh_token:
@@ -119,91 +119,91 @@ class GoogleDataHarvester:
                         logger.error(f"Credentials file {self.credentials_file} not found")
                         logger.info("Please download credentials.json from Google Cloud Console")
                         return False
-                    
+
                     flow = InstalledAppFlow.from_client_secrets_file(self.credentials_file, SCOPES)
                     self.creds = flow.run_local_server(port=0)
-                
+
                 # Save credentials for next run
                 with open(self.token_file, 'w') as token:
                     token.write(self.creds.to_json())
-            
+
             # Initialize services
             self.gmail_service = build('gmail', 'v1', credentials=self.creds)
             self.drive_service = build('drive', 'v3', credentials=self.creds)
             self.calendar_service = build('calendar', 'v3', credentials=self.creds)
-            
+
             logger.info("Successfully authenticated with Google APIs")
             return True
-            
+
         except Exception as e:
             logger.error(f"Authentication failed: {e}")
             return False
-    
+
     def get_gmail_newsletters(self, days_back: int = 30, max_emails: int = 1000) -> List[EmailData]:
         """Extract newsletter emails from Gmail"""
         try:
             logger.info(f"Fetching newsletters from last {days_back} days...")
-            
+
             # Calculate date range
             after_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y/%m/%d')
             query = f'after:{after_date}'
-            
+
             # Get message list
             result = self.gmail_service.users().messages().list(
                 userId='me', q=query, maxResults=max_emails
             ).execute()
-            
+
             messages = result.get('messages', [])
             logger.info(f"Found {len(messages)} emails to process")
-            
+
             newsletter_emails = []
-            
+
             for i, message in enumerate(messages):
                 try:
                     # Get full message
                     msg = self.gmail_service.users().messages().get(
                         userId='me', id=message['id'], format='full'
                     ).execute()
-                    
+
                     email_data = self._parse_email_message(msg)
-                    
+
                     # Check if it's a newsletter
                     if self._is_newsletter(email_data):
                         newsletter_emails.append(email_data)
                         logger.debug(f"Found newsletter: {email_data.subject[:50]}...")
-                    
+
                     if (i + 1) % 100 == 0:
                         logger.info(f"Processed {i + 1} emails, found {len(newsletter_emails)} newsletters")
-                        
+
                 except Exception as e:
                     logger.debug(f"Error processing email {message['id']}: {e}")
                     continue
-            
+
             logger.info(f"Found {len(newsletter_emails)} newsletters")
             return newsletter_emails
-            
+
         except Exception as e:
             logger.error(f"Failed to fetch Gmail newsletters: {e}")
             return []
-    
+
     def _parse_email_message(self, msg: Dict) -> EmailData:
         """Parse Gmail API message into EmailData"""
         headers = {h['name']: h['value'] for h in msg['payload'].get('headers', [])}
-        
+
         subject = headers.get('Subject', 'No Subject')
         sender = headers.get('From', 'Unknown Sender')
         date = headers.get('Date', '')
         labels = [label for label in msg.get('labelIds', [])]
-        
+
         # Extract body
         body = ''
         html_body = None
-        
+
         try:
             body, html_body = self._extract_email_body(msg['payload'])
         except Exception as e:
             logger.debug(f"Error extracting email body: {e}")
-        
+
         return EmailData(
             message_id=msg['id'],
             subject=subject,
@@ -213,16 +213,16 @@ class GoogleDataHarvester:
             html_body=html_body,
             labels=labels
         )
-    
+
     def _extract_email_body(self, payload: Dict) -> tuple[str, Optional[str]]:
         """Extract text and HTML body from email payload"""
         body = ''
         html_body = None
-        
+
         if 'parts' in payload:
             for part in payload['parts']:
                 mime_type = part.get('mimeType', '')
-                
+
                 if mime_type == 'text/plain' and 'data' in part['body']:
                     body = base64.urlsafe_b64decode(part['body']['data']).decode('utf-8')
                 elif mime_type == 'text/html' and 'data' in part['body']:
@@ -234,60 +234,60 @@ class GoogleDataHarvester:
             # Single part message
             if 'data' in payload.get('body', {}):
                 body = base64.urlsafe_b64decode(payload['body']['data']).decode('utf-8')
-        
+
         return body, html_body
-    
+
     def _is_newsletter(self, email_data: EmailData) -> bool:
         """Determine if an email is a newsletter"""
         subject_lower = email_data.subject.lower()
         sender_lower = email_data.sender.lower()
         body_lower = email_data.body.lower() if email_data.body else ''
-        
+
         # Check sender patterns
         for sender_pattern in self.newsletter_senders:
             if sender_pattern in sender_lower:
                 return True
-        
+
         # Check subject patterns
         for pattern in self.newsletter_patterns:
             if pattern in subject_lower:
                 return True
-        
+
         # Check body for newsletter indicators
         if any(pattern in body_lower for pattern in ['unsubscribe', 'newsletter', 'weekly digest']):
             return True
-        
+
         return False
-    
+
     def get_drive_documents(self, days_back: int = 30, max_files: int = 100) -> List[DriveFile]:
         """Extract recent documents from Google Drive"""
         try:
             logger.info(f"Fetching Drive documents from last {days_back} days...")
-            
+
             # Calculate date range
             after_date = (datetime.now() - timedelta(days=days_back)).isoformat()
-            
+
             # Query for documents
             query = f"modifiedTime > '{after_date}' and (mimeType contains 'document' or mimeType contains 'presentation' or mimeType contains 'spreadsheet')"
-            
+
             result = self.drive_service.files().list(
                 q=query,
                 pageSize=max_files,
                 fields="files(id, name, mimeType, createdTime, modifiedTime, size)"
             ).execute()
-            
+
             files = result.get('files', [])
             logger.info(f"Found {len(files)} Drive documents")
-            
+
             drive_files = []
-            
+
             for file_data in files:
                 try:
                     # Get file content if it's a Google Doc/Sheet/Slide
                     content = None
                     if 'document' in file_data['mimeType']:
                         content = self._get_google_doc_content(file_data['id'])
-                    
+
                     drive_file = DriveFile(
                         file_id=file_data['id'],
                         name=file_data['name'],
@@ -297,19 +297,19 @@ class GoogleDataHarvester:
                         size=file_data.get('size'),
                         content=content
                     )
-                    
+
                     drive_files.append(drive_file)
-                    
+
                 except Exception as e:
                     logger.debug(f"Error processing Drive file {file_data['name']}: {e}")
                     continue
-            
+
             return drive_files
-            
+
         except Exception as e:
             logger.error(f"Failed to fetch Drive documents: {e}")
             return []
-    
+
     def _get_google_doc_content(self, file_id: str) -> Optional[str]:
         """Extract text content from Google Doc"""
         try:
@@ -318,22 +318,22 @@ class GoogleDataHarvester:
                 fileId=file_id,
                 mimeType='text/plain'
             ).execute()
-            
+
             return content.decode('utf-8')
-            
+
         except Exception as e:
             logger.debug(f"Error extracting Google Doc content: {e}")
             return None
-    
-    def save_to_atlas(self, emails: List[EmailData], drive_files: List[DriveFile], 
+
+    def save_to_atlas(self, emails: List[EmailData], drive_files: List[DriveFile],
                      atlas_url: str = "http://localhost:8000") -> bool:
         """Save extracted data to Atlas"""
         try:
             total_items = len(emails) + len(drive_files)
             logger.info(f"Saving {total_items} items to Atlas ({len(emails)} emails, {len(drive_files)} drive files)...")
-            
+
             saved_count = 0
-            
+
             # Save emails
             for email_data in emails:
                 try:
@@ -351,19 +351,19 @@ class GoogleDataHarvester:
                             "platform": "gmail"
                         }
                     }
-                    
+
                     response = requests.post(
                         f"{atlas_url}/api/v1/content/save",
                         json=content_data,
                         headers={"Content-Type": "application/json"}
                     )
-                    
+
                     if response.status_code == 200:
                         saved_count += 1
-                    
+
                 except Exception as e:
                     logger.debug(f"Error saving email {email_data.subject}: {e}")
-            
+
             # Save Drive files
             for drive_file in drive_files:
                 try:
@@ -381,33 +381,33 @@ class GoogleDataHarvester:
                             "platform": "google-drive"
                         }
                     }
-                    
+
                     response = requests.post(
                         f"{atlas_url}/api/v1/content/save",
                         json=content_data,
                         headers={"Content-Type": "application/json"}
                     )
-                    
+
                     if response.status_code == 200:
                         saved_count += 1
-                    
+
                 except Exception as e:
                     logger.debug(f"Error saving Drive file {drive_file.name}: {e}")
-            
+
             logger.info(f"Successfully saved {saved_count}/{total_items} items to Atlas")
             return saved_count == total_items
-            
+
         except Exception as e:
             logger.error(f"Failed to save to Atlas: {e}")
             return False
-    
-    def export_to_json(self, emails: List[EmailData], drive_files: List[DriveFile], 
+
+    def export_to_json(self, emails: List[EmailData], drive_files: List[DriveFile],
                       filename: str = None) -> str:
         """Export data to JSON file"""
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"google_data_export_{timestamp}.json"
-        
+
         export_data = {
             "export_date": datetime.now().isoformat(),
             "total_emails": len(emails),
@@ -437,17 +437,17 @@ class GoogleDataHarvester:
                 for file in drive_files
             ]
         }
-        
+
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(export_data, f, indent=2, ensure_ascii=False)
-        
+
         logger.info(f"Exported data to {filename}")
         return filename
 
 def main():
     """Main function for command-line usage"""
     import argparse
-    
+
     parser = argparse.ArgumentParser(description="Google Data Harvester")
     parser.add_argument('--days-back', type=int, default=30, help='Days back to harvest data')
     parser.add_argument('--max-emails', type=int, default=1000, help='Maximum emails to process')
@@ -458,49 +458,49 @@ def main():
     parser.add_argument('--token', default='token.json', help='Google token file')
     parser.add_argument('--emails-only', action='store_true', help='Only harvest emails')
     parser.add_argument('--drive-only', action='store_true', help='Only harvest Drive files')
-    
+
     args = parser.parse_args()
-    
+
     harvester = GoogleDataHarvester(args.credentials, args.token)
-    
+
     try:
         # Authenticate
         if not harvester.authenticate():
             logger.error("Authentication failed")
             return
-        
+
         emails = []
         drive_files = []
-        
+
         # Harvest emails
         if not args.drive_only:
             emails = harvester.get_gmail_newsletters(
                 days_back=args.days_back,
                 max_emails=args.max_emails
             )
-        
+
         # Harvest Drive files
         if not args.emails_only:
             drive_files = harvester.get_drive_documents(
                 days_back=args.days_back,
                 max_files=args.max_drive_files
             )
-        
+
         if not emails and not drive_files:
             logger.warning("No data found")
             return
-        
+
         # Export to JSON
         json_file = harvester.export_to_json(emails, drive_files)
         logger.info(f"Exported data to {json_file}")
-        
+
         # Save to Atlas
         if not args.export_only:
             if harvester.save_to_atlas(emails, drive_files, args.atlas_url):
                 logger.info("Successfully saved all data to Atlas")
             else:
                 logger.error("Failed to save some data to Atlas")
-        
+
     except KeyboardInterrupt:
         logger.info("Process interrupted by user")
     except Exception as e:

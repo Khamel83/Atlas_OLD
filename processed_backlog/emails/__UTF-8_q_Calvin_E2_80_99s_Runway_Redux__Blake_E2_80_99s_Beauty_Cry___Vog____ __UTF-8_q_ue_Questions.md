@@ -43,7 +43,7 @@ kind) and sign up now ( https://puck.news/join/?utm_campaign=Line+Sheet+-+SUBSCR
 Mentioned in this issue: Calvin Klein, Veronica Leoni, British Vogue, Ib Kamara, Condé Nast, Blake Lively, Maryam Nassirzadeh, the Nordstroms, Mickey Drexler, Jeremy
 Allen White, Greta Lee, Raf Simons, Pieter Mulier, Matthieu Blazy, Helmut Lang, Ralph Lauren, Michael Kors, The Row, Céline, Francisco Costa, Eva Serrano, Jil Sander, Italo Zucchelli, and many, many more…    
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -174,7 +174,7 @@ flowers for what was often seen as a thankless task—especially Zucchelli, whos
 In the end, though, PVH isn’t going to waste any money foolishly. And the pivotal question isn’t really whether Leoni’s debut show in February is a success or not. Instead, Larsson and Serrano will have to decide whether Calvin Klein is still capable of being the first word in
 anything. As Calvin Klein, himself, admitted a few years back, he buys his jeans at Uniqlo. 
 
- 
+
 
 What I’m Reading… and Listening To… and Watching…
 ---------------------------------------------------------
@@ -210,7 +210,7 @@ Everyone I know who has worked with photo editor Jody Quon is obsessed with her.
 I watched The Heartbreak Kid this weekend for the first time and loved it. Directed by Elaine May and starring Charles Grodin, Cybill Shepherd, and Jeannie
 Berlin (Cyd Peach from Succession), it’s caught up in some weird rights situation so you can only watch it via the link provided. The fashion is also good—(Peter Bogdanovich era) Cybill in a football jersey! Minnesota college campus coats! Do it over the break, you won’t regret it. [YouTube ( https://www.youtube.com/watch?v=XCGBCbHiHvE&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Here’s your annual reminder that DHL, UPS,
 and USPS are superior to FedEx on any given day. FedEx, I am home! Why don’t you try knocking? 
@@ -249,6 +249,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT9aUBjN_sAlbXWAxj-S8=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F23%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

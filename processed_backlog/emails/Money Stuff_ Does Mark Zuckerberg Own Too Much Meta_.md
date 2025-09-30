@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The most interesting theoretical problem in corporate governance today is
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Who is a company for?
-    
-  
+
+
 
 The most interesting theoretical problem in corporate governance today is, if you are the chief executive officer of a public company, should you try to maximize the value of your company’s stock, or should you try to maximize the value of your stockholders’ portfolios? I guess you could do other things too, but the popular model these days is that your job is to maximize shareholder value. One way to maximize value for your shareholders — the traditional way — is to make your company’s stock go up. The other way to maximize value for your shareholders — the modern-portfolio-theory way — is to make all of the other stocks that your shareholders also own go up. 
 Nobody really says that, because it is insane. For one thing, if you are the CEO of a public company, you don’t really know with precision what other stocks your shareholders own, so it is hard to make them go up.
@@ -87,37 +87,37 @@ This is quite right: The lawsuit is not so much a real lawsuit as it is a piece 
 While fiduciaries have a general obligation to maximize financial value, that obligation must end when it is opposed to stockholder interests. Accordingly, Defendants cannot refuse to consider whether increases in Meta’s financial value come from the pockets of typical Meta stockholders through harm to their investments. Just as Revlon prioritizes stockholder return over corporate cash flows in a sale, fiduciaries must make a good faith effort to address the true cost of corporate operations that tax stockholders’ portfolios. Although Delaware courts may not have previously enforced this obligation, they have not rejected it either, and consistent application of longstanding principles demands its recognition.
 Obviously a rule saying that corporate executives should maximize the value of their shareholders’ portfolios would make no sense for the company. But it would arguably make sense for the shareholders, and aren’t they what matters?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Lawyers vs. bankers
-    
-  
+
+
 
 Where does the value in financial services come from? Some possibilities:
 	Some people have extra money that they want to invest; other people need money to do projects; connecting the people who have money to the people who need money is valuable, and you can get paid for doing it.	Some people have risk and want to be safer; other people would like to take on a bit more risk to earn more money; finding good ways to slice risk and allocate it to the people who want it is valuable, and you can get paid for doing it.	Economic structures are also legal structures, and law and regulation allocate property rights. Finding ways to make the legal system allocate more property rights to your clients (and away from people who are not your clients) is valuable, to your clients, and you can get paid for doing it.
@@ -137,11 +137,11 @@ The reasons for the shifting fortunes between the two groups are varied. No long
 
 One more possible explanation here is that private equity is to some extent a substitute for investment banking: Twenty years ago, if you had a company and wanted to sell it, you hired an investment bank, and the bank found another company that wanted to buy your company and charged a fee. It was a pure brokerage model. Private equity (partially) replaced that with a sort of dealer model: Now, if you have a company and want to sell it, there’s a decent chance that you just sell it to a private equity firm, who holds onto it for a bit, spruces it up, finds another buyer, sells it, and collects a large markup on the overall transaction. Bankers are still involved, but more of the value gets captured by the private equity firm, which anyway employs a lot of successful former investment bankers. If private equity skims off the best bankers and the best banking economics, of course banker pay will go down. Meanwhile the private equity firms still need lots of lawyers.
 
-  
-    
+
+
       Shadow trading
-    
-  
+
+
 
 Sometimes readers of this column email me with questions or ideas. A fairly high percentage of these questions and ideas are about how to insider trade.
   [2]
@@ -175,11 +175,11 @@ After the acquisition, the pharmaceutical trade press noted that there was growi
 
 That looks like a classic shadow trade: You know that one company is getting acquired (by you), so you buy stock in a competitor because it will go up when the acquisition is announced.
 
-  
-    
+
+
       PE recruiting
-    
-  
+
+
 
 Private equity recruiting notoriously happens roughly two years in advance: People get hired at investment banks as analysts, start their two-year analyst program, and more or less immediately start interviewing for private equity jobs to start at the end of the analyst program. The thinking is, roughly:
 	The banks do a decent job of selecting people, so if the PE firms hire from a pool of bank analysts they will get good employees.	The banks do a decent job of training people, so if the analysts finish their two-year analyst program before starting in PE they will know what they are doing.	Nobody is going to distinguish themselves all that much as a banking analyst: The PE firms don’t need to wait until the end of the analyst program to hire the analysts who did the best job; they can just hire the analysts they like the most at the beginning of the program, and figure they will all get the same basic training and experience.	The earlier you hire, the better your selection will be, so if your competitors are hiring in October you hire in September, and the hiring keeps getting earlier and earlier.
@@ -194,11 +194,11 @@ Back in 2010, private equity firms typically waited for junior bankers to soak u
 
 That’s adorable? A downstream effect of a slower M&A environment is that first-month investment banking analysts have never closed a deal, so they don’t feel like they have anything to talk about at PE recruiting, so they don’t do it, so PE firms can’t hire junior associates, so they can’t close more deals, further slowing the M&A environment? I am not at all sure why first-month investment bankers would “believe they should have closed at least one transaction in order to have material to discuss in interviews” — I cannot believe that a first-month banker’s prowess at deal closing would be material in a PE firm’s hiring decisions — but here we are.
 
-  
-    
+
+
       ESG AI
-    
-  
+
+
 
 One way to think about environmental, social and governance investing is that it is a way for diversified investors to pay attention to broad systemic risks — climate change, poor governance — in their portfolios. But not all systemic risks, just a somewhat arbitrary list of them. Climate change: an ESG risk. Nuclear war: ehh, maybe an ESG risk, kind of? Malign artificial intelligence running wild and destroying humanity:  apparently not an ESG risk.
 
@@ -209,11 +209,11 @@ This year, however, ESG funds’ reliance on tech is driving outperformance. The
 
 It is funny to imagine some intermediate phase where artificial intelligence has not enslaved or destroyed humanity, but where some AI robots are killing or enslaving some humans. (Or, like, AI just puts a lot of humans out of work and causes social problems?) In that phase I suppose people would still be investing and AI companies would still be investable and profitable (?); some investors would buy their stocks because they make money, while other socially responsible investors would say “no, AI is bad for humanity so I am going to stay away from those stocks.” But right now AI is, for ESG investors, a pure good.
 
-  
-    
+
+
       How’s Twitter going?
-    
-  
+
+
 
 I do think that if you are hired as the new chief executive officer of a multibillion-dollar website company, and on your first day on the job your direct reports come to you like “we are wrestling with a difficult decision and now that you are here we would like to get your view on it,” and you are like “okay what is it,” and they are like “should we pay the cloud hosting bill so we can keep our website on the internet,” your first reaction will probably be to say “yes we should absolutely do that, why was this a hard question,” and your second reaction will probably be to think “I have made a terrible mistake.” To be fair Linda Yaccarino absolutely  knew what she was getting into:
 
@@ -225,15 +225,15 @@ Under Musk’s ownership, Twitter has been accused of missing payments on some b
 
 “The new CEO’s management style” is that when big vendors send her a bill for services that they provided as agreed and that are critical to Twitter’s functioning, she pays it. This was also the management style of Twitter’s previous CEOs, except one of them.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 BOE Steps Up Inflation Fight With   Surprise Rate Hike to 5%. Google Cloud Launches  Anti-Money-Laundering Tool for Banks, Betting on the Power of AI. To Beat Back New York, London Seeks to  Tap Pension Pot. Marcum to Settle SEC, PCAOB Claims Over Widespread Failures in  SPAC Audits. CFOs Are Hanging On to Expanded  Corporate Jet Perks. Phishing frenzy: School kids are  stealing millions of dollars of NFTs — to buy Roblox skins. The GameStop movie will feature Vincent D’Onofrio as Steve Cohen and   Nick Offerman as Ken Griffin. Elon Musk and Mark Zuckerberg agree to  hold cage fight.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is much *less* true than it used to be, through some combination of extensive position-disclosure rules and the rise of institutional ownership and index funds: The average public-company CEO could, with an afternoon on Bloomberg, get a pretty decent view of her main shareholders’ other holdings, which probably was not true 30 years ago. I suspect that better information about other holdings is part of what has made this question a bit more live now than it used to be.
 
 
@@ -243,48 +243,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Also, I mean, again this is not any sort of advice, but if you have noticed this possibility then you might email me to ask about it, or you might actually go trade on it, but you really should not do *both*. From my selfish perspective I would *love* to read an SEC complaint that is like “the defendant emailed Bloomberg columnist Matt Levine to ask ‘if I know my company is going to be acquired, can I buy call options in our closest competitor,’ and then went out and bought those call options,” but from your perspective you don’t want to be the defendant in that complaint.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -295,46 +295,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciz47h.5hub/b76bc3d1.gif" alt="" border="0" /></a>

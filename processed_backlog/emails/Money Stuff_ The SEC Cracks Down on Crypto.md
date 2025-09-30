@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Imagine that you are a financial regulator, and consider the general proposition: There is some crypto entity, some company that does someth
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Central crypto
-    
-  
+
+
 
 Imagine that you are a financial regulator, and consider the general proposition:
 	There is some crypto entity, some company that does something in the crypto industry.	Regular people give it their dollars or crypto for some purpose.	It gives them back some sort of crypto receipt, saying “we owe you one dollar” or “we owe you one crypto” or whatever.
@@ -85,89 +85,89 @@ Anyway, there have been some recent regulatory actions on some crypto things, a
 When crypto is going down and so many projects are evaporating in fraud and bankruptcy, you can kind of say “I told you so.” There is just a lot more appetite to regulate, or I guess just to shut everything down. “You are stifling innovation,” the indicted founder of a bankrupt crypto firm can say, but nobody cares. 
 I guess this is a little bad, in the sense that it would be better for regulators to impose sensible regulations on the way up — before people lose all their money — rather than being too lax on the way up and overreacting after the crash. But it seems hard to avoid. Also the advantage of regulating after the crash is that you have a better sense of what the risks are. “Crypto is decentralized and transparent and avoids the risks of traditional fractional reserve banking, so it doesn’t need to be regulated like traditional finance,” I suppose people could say in 2021. But now we   know better.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Staking
-    
-  
+
+
 
 To   oversimplify a lot, Ethereum is a  global distributed computer system. People can run programs — smart contracts, crypto exchanges, etc. — on the Ethereum system, which is a sort of virtual computer whose state is maintained by thousands of independent nodes. Anyone can run programs on Ethereum, though you have to pay transaction fees — called “gas” — to run your program. The fees are paid in Ether, the currency of the Ethereum system. There is a system for validating Ethereum transactions, for making sure that all the nodes of the distributed virtual computer agree on what programs have been run and what the results were.  This system involves people — called “stakers” — depositing 32 Ether and then running computer programs to validate the transactions. In exchange for doing this, the stakers get paid in Ether; effectively they get a share of the fees that people pay to run programs on the computer that they help maintain.
 What does this make Ether? Well, it is a little bit of a lot of things:
@@ -210,20 +210,20 @@ Most concerning, though, is that our solution to a registration violation is to 
 
 Again, I have   some general sympathy for that viewpoint. But it is February 2023! The demand for “a public process to develop a workable registration process” for centralized crypto investments has gone down considerably; the demand for just shutting them down has gone up.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Stablecoins
-    
-  
+
+
 
 The standard way that a stablecoin works is:
 	There is some crypto entity, the stablecoin issuer.	Regular people give it their dollars.	It gives them back a stablecoin, a crypto receipt saying “we owe you one dollar” that can be used as a dollar on some crypto blockchain.
@@ -250,11 +250,11 @@ New York’s financial regulator found that Paxos failed to conduct periodic ris
 
 Here is  the DFS consumer alert, saying that “DFS has ordered Paxos to cease minting Paxos-issued BUSD as a result of several unresolved issues related to Paxos’ oversight of its relationship with Binance in regard to Paxos-issued BUSD.” Paxos is a trust company supervised by the DFS, and it is required to have enough assets to fully back its BUSD coin, so I don’t think that this is a statement about the investment risk of BUSD. But it certainly is a statement that regulators are less sympathetic than they used to be.
 
-  
-    
+
+
       Yacht tax
-    
-  
+
+
 
 Here’s a trade I guess?
 	You have a yacht you don’t want. It is worth $1.3 million.	You would like to get more than $1.3 million from it.	You donate it to charity. The charity gives you a receipt saying that the yacht is worth $4.9 million. You take a $4.9 million tax deduction, which is worth about $2 million given your tax rate — more than the yacht was worth if you had sold it.	The charity sells the yacht to your lawyers for $4.9 million, though they pay in the form of a $4.9 million promissory note rather than cash.	The charity assigns the promissory note to your lawyers, meaning that they basically owe themselves the $4.9 million.	The lawyers sell the yacht for $1.3 million and give the charity a 10% fee for its trouble.
@@ -262,15 +262,15 @@ Here’s a trade I guess?
 The result is that you get a tax deduction worth $2 million, the charity gets $130,000, and the lawyers get the rest of the value of the yacht. This shouldn’t work, and it doesn’t work, but it’s funny to think about. A good pressure point in the tax code is the charitable deduction for non-cash assets: If you have some unique non-traded asset (art, yacht, etc.), you can donate it to charity and deduct the market value of the asset, and if there is no market value then you and the charity have some leeway to make it up. You want the value to be high (so you get a bigger deduction), and the charity doesn’t care (it isn’t paying the made-up price), so there are incentives to make up a big number. The IRS knows this and tries to crack down by requiring appraisals, etc., but if you can generate what looks like a market transaction at the made-up price, I guess that helps. But if you generate what looks like a fake transaction, it doesn’t.
 Here is  a Wall Street Journal article about some pyramid-scheme moguls (“He dismissed claims that his business was a pyramid scheme, instead saying it was a ‘dimaryp’—pyramid spelled backward”) who tried this and “ended up paying $3.5 million in taxes and penalties.” They’re suing the lawyers.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 DeSantis Proposes   Barring ESG Criteria in Florida Muni-Bond Sales. Adani Shock Rips Through   ESG Funds as Strategy Fails Test. Goldman CEO tells partners he  should have cut jobs earlier. Google  Miscalculates Stock Severance, Apologizes to Laid-Off Workers. Blackstone’s Big New Idea  Leaves It Bruised.   Remote Work Is Costing Manhattan More Than $12 Billion a Year. Bergdorf’s, Central Park:  Flaco the escaped owl takes a tour of Manhattan. Bourbon  insider trading. “By dating a banker, I got the best of both worlds. I hardly saw him, so I still got to go out with my own friends, but  we texted a lot.” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] My own view is that the legal argument was always pretty good: Under longstanding US law, it sure does seem that most crypto tokens are securities. But pre-FTX, crypto people could go around saying “the SEC is relying on outdated legal doctrines that don’t fit the innovative modern crypto economy,” and that had some appeal; it has so much less appeal now.
 
 
@@ -289,114 +289,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Actually there is some weirdness around redemption, and it’s not obvious that every stablecoin owner is a direct creditor of the issuer. But you are certainly economically exposed to the issuer’s finances if you own its stablecoins.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

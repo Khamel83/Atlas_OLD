@@ -7,71 +7,71 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The last few years saw a big rise and fall in the “iBuyer” business model, where companies like Opendoor Technologies Inc. and Zillow Group 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+        The last few years saw a big rise and fall in the “iBuyer” business model, where companies like Opendoor Technologies Inc. and Zillow Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       iBuyers
-    
-  
+
+
 
 The last few years saw a big rise and fall in the “iBuyer” business model, where companies like Opendoor Technologies Inc. and Zillow Group Inc. used their scale, data and pricing algorithms to get into the market-making business for houses. The iBuyers would offer to buy houses instantly, for cash, with not much in the way of due diligence, which was all very appealing to sellers; they would then have a big inventory of houses that they could flip to buyers. Instead of buyers and sellers meeting each other in messy imperfect markets, the sellers could all sell to the iBuyers and the buyers could all buy from the iBuyers and the iBuyers could intermediate every trade and earn a spread for providing liquidity.
 This is in many ways a clever idea, though it also has some important difficulties that the iBuyers have not entirely solved, and we have   talked about it a   lot around   here. One obvious thing to say about this business model is that it is lucrative if house prices are generally increasing (you buy a house, the price goes up, you sell it) and bad if house prices are generally decreasing (you buy a house, the price goes down, you sell it). And in fact iBuying was good for a while and then bad; Opendoor and Zillow have taken a bath on it, and Zillow shut down its iBuying group in late 2021.
-But another thing to say about this business model is that, if house prices are generally increasing, this model can look predatory. “Zillow is pushing up the price of houses and making them unaffordable, all in the pursuit of evil corporate profits,” people could say, 
+But another thing to say about this business model is that, if house prices are generally increasing, this model can look predatory. “Zillow is pushing up the price of houses and making them unaffordable, all in the pursuit of evil corporate profits,” people could say,
 and did, when Zillow was buying a lot of houses and house prices were going up. Back in 2021,   we talked about “a TikTok video that said an unnamed company was pulling off a convoluted scheme to manipulate housing prices,” by buying a bunch of $300,000 houses for $300,000, then buying one more for $340,000, then selling all 31 for $340,000. This is not really all that plausible as a form of market manipulation, but it was empirically true that for a while rising house prices correlated to the rise of iBuyers, so you can see where the idea came from.
 But then  home prices started falling and iBuyers started losing their shirts. And so you might expect to see a lot of articles saying, like, “Opendoor is pushing down the price of houses and making them more affordable, all in the pursuit of hilarious corporate losses.” I mean, I don’t know, when I say it like that, I guess you wouldn’t expect to see a lot of those articles? But here’s a great one! It’s from Bloomberg’s   Prashant Gopal and Patrick Clark:
 
@@ -86,89 +86,89 @@ The couple are busy on a $50,000 renovation of their kitchen, where plywood coun
 
 Of course not! What a feel-good financial story. “Giant corporations swooped into the market for homes and gave everyone cheap houses, because they were dumb.” In general, people tend to be suspicious of financial intermediation, because the intermediaries are making money and it feels like that must be at your expense. But here the intermediaries were losing money, and that had to be good for someone.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       1MDB
-    
-  
+
+
 
 In the 2010s, Malaysian government officials wanted to steal billions of dollars from their people, so they came to Goldman Sachs Group Inc. for financial structuring advice.  Goldman obliged: A Goldman team led by Tim Leissner helped structure a series of bond deals in which a Malaysian entity called 1MDB raised billions of dollars, which was then allegedly stolen by a middleman named Jho Low, who used some of it to pay bribes to Malaysian officials, some to pay kickbacks to the Goldman bankers, and the rest to buy yachts and art for himself. Goldman itself (disclosure: where I used to work) made hundreds of millions of dollars of fees on these transactions, a fee rate that was a bit high for underwriting sovereign-linked bonds but pretty normal for underwriting crime.
 In the 2020s, a new Malaysian government wanted the money back, so they came to Goldman for … well, for the money, but also a little bit for financial structuring advice? We   talked in 2020 about Goldman’s settlement with Malaysia over 1MDB. The basic terms were:
@@ -191,23 +191,23 @@ I guess the situation here is that if Malaysia seizes a yacht from a 1MDB conspi
 “My only appeal is for them to settle this deal with Malaysia because 1MDB is known throughout the world,” Anwar said Monday in Singapore. “It is there in the books and I think that Goldman Sachs should come out clean and deal with Malaysia.” 
 Obviously the answer to that is that you go out and get some third-party bids on the yachts and give the arbitration panel good evidence of valuation, but it is not a perfect answer.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Sue Elon’s Companies?
   [1]
 
 
-    
-  
+
+
 
 I   used to   joke    that the US Securities and Exchange Commission has an “Elon Musk Division,” but shouldn’t it? Last April Elon Musk just absolutely unambiguously   violated US securities laws in a small but annoying way that probably   saved him about $140 million at the expense of public Twitter investors. The SEC has been “investigating” it since then. I do not know why? The possibilities are basically:
 	The SEC knows that Musk broke the law, but the penalty would be small and unlikely to deter him, and fighting him about it would be tedious and difficult and   possibly career-limiting, and so they’ve decided not to bother. (Or they haven’t decided, but no one is all that excited about actually bringing the case.) Or:	The SEC knows that Musk broke the law, but the penalty would be small and unlikely to deter him, so a crack team of SEC lawyers are working 120-hour weeks in the Securities Fraud Lab to develop a new and more potent strain of enforcement action that they can bring against him that would actually have an effect.
@@ -220,11 +220,11 @@ The review is part of an ongoing Securities and Exchange Commission probe of the
 
 I know nothing, but part of me hopes that one day I will wake up and the Elon Musk Division will have announced like nine unrelated enforcement actions that it was just saving up for a special occasion. 
 
-  
-    
+
+
       ESG skin in the game
-    
-  
+
+
 
 We   talked last week about a paper by Vitaly Orlov, Stefano Ramelli and Alexander Wagner titled “Revealed Beliefs about Responsible Investing: Evidence from Mutual Fund Managers,” about money managers who run environmental, social and governance-focused funds. Basically managers with more of their own money in their ESG funds had worse ESG performance. “The results are contrary to what one would expect if managers really considered ESG strategies an enhanced form of portfolio management,” they wrote, and I agreed, adding that it’s also a little contrary to what you’d expect if they really cared about ESG as a matter of saving the world:
 If you really believe in ESG as a way to get rich, or as a way to improve the world, wouldn’t you both invest your personal wealth in your ESG fund and get a good ESG score? On the other hand if you really believe in ESG as a way to attract assets and charge high fees, you’d probably put your own money somewhere else.
@@ -245,11 +245,11 @@ By the way, you could imagine the same logic applying to investing more broadly.
   [3]
  ESG isn’t quite like that: It’s not quite fair to say that every ESG manager can define “ESG” in her own way, but it’s not entirely wrong either.
 
-  
-    
+
+
       NFT Stuff
-    
-  
+
+
 
 A basic idea in crypto is that things can be simultaneously (1) lucrative and (2) a joke. Like if someone pitched you on Dogecoin as an investment opportunity, you would say “well what is good about Dogecoin,” and they’d say “it has a picture of a dog,” and you’d say “what,” and they’d be like “ha ha ha,” but also Dogecoin does have a $12 billion market capitalization. For a while its price would go up whenever Elon Musk tweeted about it. Was he kidding? Just the wrong question. I   once wrote:
 One question that is never worth asking about anything related to cryptocurrency is, “is this a joke?” Essentially everything in cryptocurrency is simultaneously serious and a joke. This is partly explained by the history of crypto—crypto is Extremely Online, and everything Extremely Online is both serious and a joke—but it is also something essential to its nature. If I told you that there was a vast oil reservoir in my backyard, that would be either true or not true. Oil is a real physical substance; you can look at it and touch it and burn it as fuel. But if I told you I had a vast stash of Mattcoins, and proposed to give you some for a sandwich or a yacht, we would be on less solid ground. Whether the Mattcoins are a valuable currency exchangeable for sandwiches and yachts, or just a joke I made up, is a social fact; it depends on what you think about Mattcoins, and perhaps on whether you find them funny. Crypto is a form of collective storytelling; its truth or falsity does not depend on externally verifiable facts in the world but rather on people’s attitudes toward it. It’s a parody if you think it’s a parody, but if you think it’s real then it’s real.
@@ -271,15 +271,15 @@ In the Birkin matter, Mr. Rothschild received a percentage of each NFT sale. He 
 
 Sure! You should hack his crypto wallet and steal all the money he got for the MetaBirkins, and then say “well that too was an artistic exploration of where the value actually lies, and I found it, and now it lies in my wallet.” Not legal advice!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Adani Labels Fight With US Short Seller as   Attack on India. Adani Backed by UAE Royals Buying $400 Million in   Share Sale. Adani Bond Plunge Deepens as Rebuttal   Fails to Stem Concern. Republicans vow to probe US banks and asset managers’ ‘ESG agenda’ in Congress. Goldman Sachs  Slashes CEO Solomon’s Pay About 30% to $25 Million. Top Bankers in Asia See   50% Pay Cuts After Drought in Deals. Commodity trade costs surge as industry seeks up to $500bn in extra finance. Pension Investments in  Private Credit Hit Eight-Year High. The Fear of Being  J. Crewed Is Once Again Roiling Leveraged Loans. Spain’s biggest banks prepare to  challenge windfall tax. Black box economics: Russia’s internal struggle over  classified financial data. Bitfinex Expects El Salvador  Volcano Token Issuance This Year. “What the label means to say is that the product contains 'natural whisky flavors & other flavors,' but by not including the word 'flavors' after 'natural whisky,' purchasers who look closely will expect  the distilled spirit of whisky was added as a separate ingredient.” Rio Tinto apologises for  losing highly radioactive capsule.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] “SEC, three letter acronym, middle word is Elon’s,”  Elon Musk tweeted in 2020. You know and I know what he meant (something lewd), which is honestly a fascinating feature of the English language and I hope there is a linguistics dissertation about it somewhere. I’m sure someone else has made the “Sue Elon’s Companies” joke before.
 
 
@@ -292,114 +292,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] I am not going to comment on it at all as a matter of, like, intellectual-property law, or fraud. But I will say that as a matter of *comedy* and *social commentary*, this joke — “heh heh heh I made an NFT to hold up a mirror to society’s crass commercialization of art” — is so, so, so, so, so, so, so, so, so dull and derivative and cliché and you should be ashamed of yourself. In 2023! Honestly! Like   Yves Klein did this with some wit and whimsy in the 1950s, and I have no problem with that. But that was a long time ago, and much of the joy of his work was that he had to winkingly convince people that this was a thing. But in the 2020s, NFT platforms and crypto evangelists have already done that work for you, and now there is nothing novel or interesting about selling NFTs of art without the actual art.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

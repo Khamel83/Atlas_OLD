@@ -139,7 +139,7 @@ Edited and translated by Harvey C. Mansfield and Delba Winthrop<br>
 and with an Introduction by Harvey C. Mansfield and Delba Winthrop<br>
 &copy;2000, 816 pages, 1 halftone<br>
 Cloth $35.00 ISBN: 978-0-226-80532-0<br>
-Paper $22.00 ISBN: 978-0-226-80536-8 
+Paper $22.00 ISBN: 978-0-226-80536-8
 <br clear=all>
 
 </p><p>
@@ -161,7 +161,7 @@ For information on purchasing the book&#151;from bookstores or here online&#151;
       <div id="footer">
         <p align="center" style="padding-left: 200px">
           University of Chicago Press: 1427 E. 60th Street Chicago, IL 60637 USA | Voice: 773.702.7700 | Fax: 773.702.9756<br />
-          
+
           <span class="none"><a href="/press/privacy.html">Privacy Policies</a></span>
           <span class="left_bar"><a href="/press/sitemap.html">Site Map</a></span>
           <span class="left_bar"><a href="http://www.bibliovault.org/">Bibliovault</a></span>

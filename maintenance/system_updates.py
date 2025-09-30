@@ -66,7 +66,7 @@ Unattended-Upgrade::Package-Blacklist {
 };
 
 // This option allows you to control if on a unclean dpkg exit
-// unattended-upgrades will automatically run 
+// unattended-upgrades will automatically run
 //   dpkg --force-confold --configure -a
 // The default is true, to ensure updates keep getting installed
 Unattended-Upgrade::AutoFixInterruptedDpkg "true";
@@ -97,7 +97,7 @@ Unattended-Upgrade::MailOnlyOnError "false";
 Unattended-Upgrade::Remove-Unused-Dependencies "true";
 
 // Automatically reboot *WITHOUT CONFIRMATION*
-// if the file /var/run/reboot-required is found after the upgrade 
+// if the file /var/run/reboot-required is found after the upgrade
 Unattended-Upgrade::Automatic-Reboot "true";
 
 // If automatic reboot is enabled and needed, reboot at the specific
@@ -206,7 +206,7 @@ log_message "Starting update monitoring"
 if [ -f "$LOG_FILE" ]; then
     # Get updates from last 24 hours
     recent_updates=$(grep -E "(INFO|ERROR)" $LOG_FILE | tail -20)
-    
+
     if [ -n "$recent_updates" ]; then
         log_message "Recent updates found:"
         echo "$recent_updates" >> $REPORT_FILE

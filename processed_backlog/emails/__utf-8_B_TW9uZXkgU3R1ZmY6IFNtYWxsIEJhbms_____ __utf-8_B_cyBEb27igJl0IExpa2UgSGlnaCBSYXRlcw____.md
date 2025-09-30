@@ -9,59 +9,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.My basic model of banking is that it is a socially beneficial
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       Deposit beta
-    
-  
+
+
 
 My basic model of banking is that it is a socially beneficial trick. People deposit money in the bank, thinking that it is perfectly safe. The bank uses that money to make loans, which are risky. It is good for society, and for economic growth, if people can get money to take risks, but the people who have the money often do not want to take risks with it. The bank is a magic trick that allows risk-averse savers to fund risky projects. Like any magic trick, it requires a certain suspension of disbelief: You can’t just tell people “the way it works is that we take risks with your money, but we tell you it’s safe.” There are some genuine tools (capital, diversification, deposit insurance) to transform the risky loans into safe deposits, but there is also some residue of pure belief, and if people lose that belief then it stops working.
 You can take this a bit further, something like “banks are a way for society to collectively fund nice things, without anybody noticing that they are doing that.” Here is a way to tell the story of local banking:
@@ -82,37 +82,37 @@ If all the burghers of Small Town USA get together and say “we want a local ba
 
 By the way, the same exact analysis applies to Silicon Valley, and to Silicon Valley Bank. If all the venture-capital firms in Silicon Valley had kept their hundreds of millions of dollars of uninsured deposits at SVB earning below-market interest rates despite holes in SVB’s balance sheet, then SVB would have stuck around and been able to make weird bespoke loans to startups and sponsor venture-capital conferences. SVB provided a public good to Silicon Valley, and venture capitalists knew that, and they praised SVB while it was around and lamented it when it was gone. But it was not in their immediate self-interest to keep their money there as rates went up, so they didn’t.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in rates
-    
-  
+
+
 
 Meanwhile if you are a big global bank with a trading business, rising rates are good for you, in the broad sense that decades of zero-ish interest rates made it kind of boring to trade interest rates, while higher and more volatile rates make for more trading and so more revenue and more jobs:
 
@@ -123,11 +123,11 @@ International banks including Barclays Plc and Nomura Holdings Inc. are also
 
 I wrote the other day that “a whole lot of people in fairly senior roles at a whole lot of financial services companies grew up a world of low interest rates; large expanses of the financial industry collectively forgot that rates could go up,” and that is going to be both financially and sociologically interesting. Probably at some bank there is an interest-rate derivatives desk run by a managing director who has spent a decade selling rate caps that never went in the money. It would be funny if rates traders were like Cobol programmers, if banks were tracking down retired traders and trying to lure them back because no current employees have ever seen 5% interest rates.
 
-  
-    
+
+
       Celsius
-    
-  
+
+
 
 I assume that everyone who has paid attention to crypto over the past few years has their own personal top-10 list of “why aren’t those people in jail?” projects. So, so, so, so much of what has gone on in crypto seems clearly to violate US law, and so much of it ended in disaster and huge losses for customers, and I suspect that in quite a few cases the answer to the question “why haven’t the authorities gone after this project?” is “they are too busy going after 20 other projects that also broke the law and failed spectacularly.” We’re gonna be getting crypto enforcement actions for years, but even so there will be a lot of people who did shady things and lost customer money and never face an enforcement action just because time and regulatory resources are finite. Enforcement here just has to be somewhat stochastic; the crypto industry moved so fast and broke so many things that some people will just get away with it.
 Still there are some pretty obvious targets? I am not going to sit here and list my own top 10 or anything. But here is a Bloomberg News story that I read this morning:
@@ -138,11 +138,11 @@ Meanwhile, the Securities and Exchange Commission and federal prosecutors in Man
 
 How ’bout that!
 
-  
-    
+
+
       SBF & TB12
-    
-  
+
+
 
 Here is a New York Times story about quarterback Tom Brady; his ex-wife, supermodel Gisele Bündchen; Sam Bankman-Fried, the former head of crypto exchange FTX Trading; and Sina Nader, FTX’s head of partnerships, who recruited Brady and Bündchen to endorse FTX in exchange for almost $50 million of FTX stock:
 
@@ -166,11 +166,11 @@ Mr. Brady’s other crypto venture has also struggled. Autograph’s revenue san
 
 For a split second “help famous people sell NFTs” seemed like a big business. What a weird time 2021 was.
 
-  
-    
+
+
       Slot-machine streaming
-    
-  
+
+
 
 People watch the NBA because they enjoy seeing world-class athletes accomplish physical feats that ordinary mortals couldn’t do, and because they enjoy the drama of a hard-fought basketball game. I gather that people watch streamers play video games for basically similar reasons: Some people are good at video games, and if you enjoy video games but are less good at them you might enjoy watching the top players play, and also video games are designed to be fun and exciting, so watching someone play one will give you some dramatic entertainment.
 Similarly, I suppose that if you watched someone who was very good at slot machines play a very exciting slot machine, you would derive similar pleasure from it, but (1) no one is good at slot machines,
@@ -191,15 +191,15 @@ Some celebrity slots players disclose their losses as a badge of honor—a signa
 
 Well, I am vastly more skilled at slot machines than these people, in that I have never lost $300,000, or even $300, playing slot machines. I should livestream myself not losing $300,000 a year at slot machines. Just like walk by a row of slots with a videographer and turn confidingly to the camera and whisper “my winning strategy here is to keep walking.” It’s correct! And not more boring than watching me play slots.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Instagram Unveils  Threads App, a Threat to Musk’s Twitter. (Follow me on Threads!) Middle market CLOs are now private credit CLOs. Jefferies Sees  Turnaround in Deals After Prolonged Drought. JetBlue, Turning Focus to Spirit Deal, Won’t Try to Save American Partnership. FTX Lawyer Who Made Problems Disappear Is Caught Up in Crypto Firm’s Fallout. Ex-UBS Trader Hayes Wins Chance to  Appeal Libor Conviction. Warren, Booker Press  Bed Bath & Beyond on Worker Severance Pay. Companies Look to Pay Tech Vendors Based on  Business Outcomes, Not Usage.  CFA Level II Success Rate Jumps Above Historic Average to 52%. More Manhattan Homebuyers  Paying Cash in Sign of Luxury Strength. How a Morgan Stanley  Derivatives Salesperson Became a Celebrity Chef. Right-wing  dog food. Colosseum old.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I wrote in May about, basically, higher deposit betas, and proposed several speculative explanations, including: “Relationship businesses in general are on the decline. In a world of electronic communication and global supply chains and work-from-home and the gig economy, business relationships are less sticky and ‘I am going to go into my bank branch and shake the hand of the manager and trust her with my life savings’ doesn’t work. ‘I am going to do stuff for relationship reasons, even if it costs me 0.5% of interest income, or a slightly increased risk of losing my money’ is no longer a plausible thing to think.” You could tell a similar story about civic engagement: “I am going to keep my money at the local bank because they sponsor the Little League” is just less compelling now than it used to be.
 
 
@@ -215,48 +215,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] No one is going to email me to contradict this one.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -267,46 +267,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj1z43.5n8t/bf30a8b0.gif" alt="" border="0" /></a>

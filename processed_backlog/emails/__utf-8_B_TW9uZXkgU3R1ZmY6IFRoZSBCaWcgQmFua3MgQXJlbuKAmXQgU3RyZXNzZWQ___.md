@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.If you are a risk manager at a big bank, you might want to run some stres
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Stress tests
-    
-  
+
+
 
 If you are a risk manager at a big bank, you might want to run some stress tests examining how your bank will perform under stressful scenarios. If you are creative and good at your job, you will have fun thinking up the scenarios. You will get in a room with some of your subordinates, and ideally with some front-line traders and managers, and brainstorm bad stuff that might happen.
 Your brainstorming might include some history: “What if 2008 happens again?” “What if 1929 happens again?” “What if  LTCM happens again?” It might include some simple numerical questions: “What if the S&P falls by 20%?” “What if the Fed raises rates to 7%?” “What if the Fed lowers rates to 0%?” You might think about social and geopolitical and technological questions and try to translate them into economic scenarios: “What if nobody goes back to the office and office rents fall 50%?” “What if artificial intelligence causes mass unemployment?” “What if Russia’s war in Ukraine keeps pushing up oil prices?” You might think about scenarios specific to your bank’s operations: “What if our CEO gets run over by a bus?” “What if our CEO steals the corporate treasury?”
@@ -89,37 +89,37 @@ This scenario doesn’t count for bank capital requirements — “Consistent w
 But also, in real life, the big banks did fine in the scenario that actually happened (except Credit Suisse!): The problems at US regional banks seem to have driven deposits into the biggest banks, as depositors got nervous about small banks and fled to the safety of big banks. (Look how safe they are, they keep passing the stress tests.) The actual world of 2023 was different from the hypothetical world of the stress tests, and in some ways more stressful for the US banking system, but it  worked out fine for the biggest banks. 
 A general feature of the Fed’s stress tests is that, when the Fed serves up a “severely adverse” stress scenario to the banks, the banks go off and model the effect it would have on their business, and if they come back to the Fed and say “actually this would be good for us,” the Fed gets mad at them. You’re not supposed to say that! Goldman Sachs Group notably did this in 2020, arguing that its trading business was countercyclical, and that in a stressful scenario it would simply make a ton of money trading derivatives;   the Fed was not amused. But sometimes it is true! Some hypothetical scenarios would be very bad for the big banks, other hypothetical scenarios would be good for the big banks, and it’s perfectly plausible that some scenarios would be bad — for the world, for the economy, for the banking system — while also being good for the big banks. The way to manage this risk is to think about lots of scenarios and make sure the banks would survive all of them. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Hot vs. cold money
-    
-  
+
+
 
 See this is how banking is supposed to work:
 
@@ -149,11 +149,11 @@ We have   talked a   lot about two theories of banking. The traditional theory i
 The other theory is that banks have short-term deposits that can vanish overnight, and that they have to pay short-term market rates for that deposit funding. If they use that funding to buy long-term bonds, and then rates go up, they will earn less on their bonds than they pay on their deposits, and will have to sell the bonds at a loss, and might face a bank run and insolvency.
 The traditional theory is basically true of the big banks. Bank of America has a $100 billion loss on its bond portfolio and doesn’t care. The other theory is basically true of the regional banks. They’re borrowing hot money at 5% and it’s a mess.
 
-  
-    
+
+
       DWAC
-    
-  
+
+
 
 In October 2021, a special-purpose acquisition company called Digital World Acquisition Corp. announced that it was going to merge with Trump Media & Technology Group, a company backed by Donald Trump that would soon be launching a social network called TRUTH Social.   I was skeptical at the time, because I figured (1) Donald Trump would probably not be launching a social network? but (2) doing this sort of SPAC deal was a good way for him to raise some money from enthusiastic retail investors. I have to say, I seem to have been wrong on both counts: TRUTH Social, as far as I can tell, exists, while almost two years later Trump has not gotten that SPAC money, as the US Securities and Exchange Commission   has held up the merger for, like, suspected miscellaneous illegality.
 One sort of suspected miscellaneous illegality is that there seems to have been some insider trading around the announcement of the deal. Here is the rough sequence of events:
@@ -174,11 +174,11 @@ On June 4, 2021, SPAC A, TMTG, and Individual A (in both his personal capacity 
 
 So Orlando signed a deal to take TMTG public through SPAC A that would obligate him personally to pay $1 million if he didn’t either complete that deal or take TMTG public through a different SPAC deal. The SPAC A deal didn’t work out, but then Orlando launched a new SPAC (DWAC) and used it to almost immediately sign a deal to take TMTG public, solving his breakup-fee problem. Is that consistent with “we have not, nor has anyone on our behalf, initiated any substantive discussions, directly or indirectly, with any business combination target”? I bet the SEC thinks not.
 
-  
-    
+
+
       Je téléphone à la police
-    
-  
+
+
 
 Does  this warrant a new law of insider trading? 
 
@@ -202,19 +202,19 @@ A bull spread or bull call spread is an options transaction that involves buying
 
 If a company’s stock is trading at $7, and you know that another company is about to buy it at $18 per share, buying $10-strike call options is a more efficient way to profit than just buying the stock at $7: You pay a little bit for the call option, instead of $7 for the stock, and still get most of the upside. But buying $10-strike call options and selling $18-strike call options is an even more efficient way to profit: You spend even less money up front, and you capture the same amount of upside. It is very tidy and high-leverage and efficient. Too efficient! They’re gonna notice that.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Citadel Securities Is Muscling Its Way Into   Credit Trading. Tiger Global Rejects   Hundreds of Offers for Its Stakes in Private Companies. Goldman Sachs   Loses Top M&A Ranking for First Time in Five Years.  FTX Begins Talks on Reboot Amid Regulatory Crackdown on Crypto Exchanges.  Big Oil Mulls a Slippery Future. Odey   Shutters Second Fund to Meet Client Redemption Demands. Women Interviewing for  Bill Gates’s Private Office Were Asked Sexually Explicit Questions. Popularity of   Apps for Early Paydays Masks Added Risks. Overstock.com Buys  Bed Bath & Beyond Intellectual Property for $21.5 Million. Fidelity Plans to Convert $13 Billion of Its Mutual Funds   Into ETFs. A   Bank-Robbing Prison Gang Is in an Alarming Expansion Mode. “Wearing a Mets cap and seated on a bar stool with a seat shaped like a baseball mitt,  Cohen treated his media appearance as if it were a conversation with fans.” Italian teacher sacked for  20 years of absence vows to defend herself.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Technically it thinks up two scenarios, the baseline scenario and the severely adverse scenario, but they differ mostly in degree, so if you are worried about stress testing you will focus mainly on the severely adverse one rather than the similar-but-milder baseline one.
 
 
-  [2] Don’t take those numbers too seriously, but they are based on Bank of America’s 10-Qs as of March 2023 (the most recent one) and March 2020 (early in Covid). Table 6 on page 8 of the 2023 10-Q, and Table 7 on page 9 of the 2020 10-Q, have the relevant balances and rates. In 2020, Bank of America had about $1.6 trillion of interest-bearing liabilities at an average rate of just 1.01%, of which about $1 trillion was in interest-bearing deposits at an average rate of 0.47%. It had about $2.1 trillion in total earning assets at 3.08%, of which $465 billion was in debt securities at 2.49%. In 2023, Bank of America pays 2.93% on $2 trillion of interest-bearing liabilities, of which $1.3 trillion are interest-bearing deposits at 1.38%; it earns 4.36% on $2.7 trillion of earning assets, of which $851 billion are debt securities at 2.58%. 
+  [2] Don’t take those numbers too seriously, but they are based on Bank of America’s 10-Qs as of March 2023 (the most recent one) and March 2020 (early in Covid). Table 6 on page 8 of the 2023 10-Q, and Table 7 on page 9 of the 2020 10-Q, have the relevant balances and rates. In 2020, Bank of America had about $1.6 trillion of interest-bearing liabilities at an average rate of just 1.01%, of which about $1 trillion was in interest-bearing deposits at an average rate of 0.47%. It had about $2.1 trillion in total earning assets at 3.08%, of which $465 billion was in debt securities at 2.49%. In 2023, Bank of America pays 2.93% on $2 trillion of interest-bearing liabilities, of which $1.3 trillion are interest-bearing deposits at 1.38%; it earns 4.36% on $2.7 trillion of earning assets, of which $851 billion are debt securities at 2.58%.
 
 
   [3] That’s just, like, (1.38 - 0.47)/(5 - 0), the change in Bank of America’s reported deposit cost over the last three years divided by the change in fed funds, and not meant to be particularly precise.
@@ -223,48 +223,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] The classic example is that there are two separate golf-buddy insider trading cases out of a single country club in Watertown, Mass.:   In one, an executive told his golf partner inside information “as part of a relationship” in which “they often shared personal confidences about work and family life,” and the golf partner betrayed the executive by trading on the information. The golf partner was charged but the executive was not. In   the other, the executive (allegedly) intentionally tipped his golf partner so he could trade, and they were both charged.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj0n3h.5jdr/8223635f.gif" alt="" border="0" /></a>

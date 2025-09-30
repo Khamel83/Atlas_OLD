@@ -51,7 +51,7 @@ Yes, too bad.
 
 ![collage with vintage images of doctor in white coat, medicine bottles, man's face](https://cdn.theatlantic.com/thumbor/_WxllvK2ieVLE_DyJTiuKsRSyXM=/0x0:1600x1377/928x799/media/img/posts/2022/03/WEL_Russo_StiffNeckSpot/original.jpg)
 
-Illustration by Paul Spella. Sources: Leemage / Universal Images Group / Getty; Retro AdArchives /  
+Illustration by Paul Spella. Sources: Leemage / Universal Images Group / Getty; Retro AdArchives /
  Alamy; Print Collector / Getty; Tetra Images / Getty
 
 One of the problems with screaming “How could you be so stupid?” at people who behave stupidly is that we too often think of the question as rhetorical when it isn’t. Though vaccine hesitancy is often [seen as purely political](https://www.theatlantic.com/ideas/archive/2021/05/the-people-who-wont-get-the-vaccine/618765/), that’s [not necessarily the case](https://www.nytimes.com/2021/04/29/us/vaccine-skepticism-beliefs.html). It also correlates to lack of health care, which means that when public-health officials urge the unvaccinated to [consult their family doctors](https://www.theatlantic.com/politics/archive/2021/09/doctors-tell-patients-not-vaccinated-covid-19/620024/) (on the assumption that they might be more persuasive than government agencies), they’re assuming facts not in evidence. If you can’t afford health insurance, you probably can’t afford a doctor either, and if this is how you’ve been living for the past decade, chances are good that surviving without sound medical advice has become part of your behavioral DNA. Your strategy will be much like my father’s: keep working, save what you can (not much) for the rainy day you know is coming, and hope for the best. Maybe you’ll get lucky and know a guy.

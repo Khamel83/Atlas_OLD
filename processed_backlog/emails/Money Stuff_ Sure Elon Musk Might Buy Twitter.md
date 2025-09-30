@@ -7,227 +7,227 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Oh ElonWell that was weird. On Tuesday I wrote a column saying it was unlikely that Elon Musk will buy Twitter Inc. On Wednesday I left on a
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 Well that was weird. On Tuesday I  wrote a column saying it was unlikely that Elon Musk will buy Twitter Inc. On Wednesday I left on a family vacation. On Thursday, for my sins, Elon Musk announced an offer to buy Twitter for $54.20 per share in cash. 420 is a weed joke.I suppose this increased the probability that Elon Musk will buy Twitter? By a little? Yesterday Twitter’s stock managed to close down 1.7%, at $45.08, suggesting that the market puts a somewhat lower probability on Musk buying Twitter after he formally proposed to buy Twitter than it did before. Musk has some history here: In 2018  he pretended that he was going to take Tesla Inc. private;  he wasn’t, and eventually he  settled  fraud charges with the U.S. Securities and Exchange Commission. Ordinarily if a billionaire chief executive officer of a public company offers to buy a company, the odds that he is kidding are quite low. When it’s Elon Musk, the historical odds are, like, 50/50. (He really bought SolarCity.)By Thursday afternoon, Musk went onstage at a conference — honestly itself a weird thing to do in the middle of a hostile takeover or whatever? — and  said words that I think a connoisseur of mergers and acquisitions, or of Elon Musk, will interpret to mean “okay sure I was kidding a little”:“I am not sure that I will actually be able to acquire it,” the billionaire entrepreneur said Thursday at a TED event in Vancouver. Musk said he has a Plan B if Twitter rejects his offer, without offering more details. …Musk said his intent “is to retain as many shareholders as is allowed by the law in a private company.”When Musk was pretending to take Tesla private, he pretended that he was going to let all of Tesla's existing shareholders remain shareholders of the new “private” Tesla. This is not a thing, and it was never going to work, but it was a nice friendly promise for Musk to make given that he was never going to take Tesla private. And now he’s doing it again, saying that he will take Twitter private while also keeping as many existing shareholders as he can. Sure buddy!One problem with Musk’s offer is that it is pretty low. Musk points out that $54.20 “represents a 54% premium” over where he started investing in Twitter, and a 38% premium over where the stock was before he announced his position. But Twitter was in the $60s in October, and a lot of its big long-term holders seem unlikely to be sellers at $54.20. “‘No board in America is going to take that number,’ said Jefferies analyst Brent Thill.” And here are the Saudis:Saudi Arabia’s Prince Alwaleed bin Talal rejected Elon Musk’s bid to acquire Twitter Inc. for $54.20 per share, saying the deal doesn’t “come close to the intrinsic value” of the popular social media platform. …A 2015 regulatory filing showed that Alwaleed, along with his Kingdom Holding Company, owned a 5.2% stake in the social media platform. The Bloomberg Billionaires Index estimates the position is now about 4.4% of Twitter.This is notable because, when Elon Musk pretended that he had financing to take Tesla private, the Saudi public investment fund was who he  pretended was providing the financing. In fact, on Tuesday I  made a grim joke about the Saudis providing pretend equity financing for Musk to  pretend to buy Twitter. Apparently not!To be fair to Musk, in this deal, he is not pretending to have financing. His offer to Twitter’s board is contingent on “completion of anticipated financing,” and when Musk answered questions at that conference yesterday, one of the questions was of course “do you have funding secured,” and his answer was “I have sufficient assets.” Which means no! “Yes” means yes. “I’m really rich, surely someone will give me the money” means no one has yet.Now, he’s right that he’s very rich, so it’s not at all impossible for him to finance this offer. Musk will need about $40 billion to buy the 91% of Twitter that he does not currently own at $54.20 per share. He owns about 172.6 million shares of Tesla Inc. stock, worth about $170 billion at yesterday’s closing price, plus more shares underlying stock options. He has pledged about 88 million of those shares to secure personal loans, but if he sold the other 84-ish million that would raise about $60 billion after tax, more than enough to pay for Twitter. That would be a pretty extreme move, though. Musk seems to … enjoy … Tesla, and dumping half his stock would both (1) drive the stock price down a lot and (2) signal to the market that he has found a new toy and lost some interest in Tesla. That seems impulsive even for him, though he did sell about 10% of his Tesla stock late last year  sort of due to a Twitter poll so it is certainly possible. Tesla’s stock closed down yesterday, I guess on the threat of massive sales.There are other options. A traditional leveraged buyout of Twitter — buy Twitter with money borrowed against Twitter’s business — seems implausible for reasons we discussed on Tuesday; Twitter just doesn’t have that much debt capacity. (It has a few billion dollars of bonds outstanding, but those would have to be  paid back at a premium if Musk bought Twitter, further increasing the cash needed to do the deal.)Enlisting an equity partner to write a big part of the check seems tough — why be the junior partner on Elon Musk’s whimsical trolling expedition, in which he has said publicly that “I don’t care about the economics at all”? — though the Wall Street Journal reports that “Mr. Musk has heard from outside investors who may be interested in teaming up for his bid.” Perhaps some equity partner will take a gamble on the possibility that, at a private Twitter, Musk will be in charge of memes and trolling, and his partner will be in charge of, like, finances and strategy. Or perhaps he could get a league of libertarian billionaires together to buy Twitter as their collective toy.Or Musk could borrow more against his Tesla stake. Tesla’s own policies prohibit Musk from borrowing more than 25% of the value of his shares, which is barely enough to buy Twitter, even ignoring the fact that he has already used at least some of that capacity. Of course he’s in charge of Tesla and its board is famously deferential to him, so I guess he could change those policies, but that still requires finding a bank to lend him $40 billion against his Tesla stake to finance this lark. Tesla’s stock has quadrupled since mid-2020; if it fell back to mid-2020 levels — say because its charismatic attention-seeking CEO found a new toy — then the loan would be underwater, and selling out of a gigantic Tesla margin loan does not seem like a lot of fun for a bank.You can patch these things together — some Tesla margin borrowing, some Tesla sales, some Twitter leverage, some equity partners, etc. — and probably get to $40 billion, but the financing seems tricky. And when he was asked directly about it in public, Musk did not exactly try to reassure anyone; he didn’t say he had financing, and he did say “I am not sure that I will actually be able to acquire it.” That said, his securities filing does say that he has hired Morgan Stanley as his financial adviser. Presumably they are aware of this; like, they are investment bankers and understand that if you sign a deal to pay $40 billion for a company you need to come up with $40 billion. Presumably they want to earn a fee, which ordinarily only happens if you do a deal, so they have some reason to be confident, and some incentive to stretch to provide financing themselves. Lending the world’s richest man a few billion dollars to earn an M&A fee would not be all that weird a move for a bank to make. And Twitter  has engaged Goldman Sachs Group Inc. to evaluate his bid; they also understand this and will, you know, ask. Still I imagine that Twitter's bankers at Goldman Sachs will sit down with Musk's bankers at Morgan Stanley and Goldman will say “so uh where's the financing coming from” and Morgan Stanley will say “oh the financing is in this can” and hand Goldman a can and Goldman will open the can and a bunch of fake snakes will pop out. “AAAHHH,” Goldman will scream, and then they will chuckle and say “oh Elon, you got us again” and everyone will have a good laugh. Because, again, uniquely among public-company CEOs, Elon Musk has in the past pretended he was going to take a public company private with pretend financing! I am not saying that he’s joking now; I am just saying he’s the only person who has ever made this particular joke in the past.Part of Goldman’s job here is surely to kick the tires on Musk’s deal, open the can of snakes etc. Another part is surely to find a better deal. This is an awkward situation for Twitter's board. They can’t really accept Musk's offer. For one thing the price is embarrassingly low; again, Twitter traded above the offer price last October. For another thing, the financing seems to be made up of cobwebs and phlogiston. But also Musk has joked about taking companies private before, and he generally changes his mind a lot. (He agreed to  join Twitter’s board last week! And then changed his mind  four days later!) If you are a well-advised professional public company board, it is just catastrophic to imagine that you might say “okay Elon $54.20 it is” and then he’d say “ha no I was kidding, psych!” That would be crippling for a public company. Also that is basically what he did to Twitter’s board last weekend! But it’s not easy to tell Musk to get lost either. The price is embarrassingly low, yes, but it also is well above where Twitter was trading pre-Musk; the embarrassment is largely Twitter’s fault. “This is an opportunistic lowball bid that doesn't reflect the true long-term value of the company” is a pretty standard thing for a board to say when faced with a bid like this, and I sympathize with it here — it is an opportunistic lowball bid! — but if that’s your position you have to convince people of that long-term standalone value. “Twitter is in really good hands right now and there’s no need to let Musk mess with it” is not a hugely compelling answer. Its CEO, Parag Agrawal, only recently replaced its charismatic but controversial founder Jack Dorsey, and it is … Twitter ... so it’s hard to fend off a hostile offer by saying “no, we’re good, everything’s perfect here.” Twitter could counter with a more reasonable number, $69 or whatever. Musk’s letter says that $54.20 is his “best and final offer,” and his script for the board says “I am not playing the back-and-forth game. I have moved straight to the end.” One possibility is that he is just saying this; it is after all a common enough thing to say even if you don’t mean it. (If the highest price you’d pay is $69, you might as well bid $54 and see what happens, and if you do that there’s generally no reason to say “I’m bidding $54 but I could do $69 if you’d rather.”) Another possibility is that he is serious, he won’t go a penny above $54.20, and if the board says “what about $69” that’s a nice face-saving way for everyone to walk away from this without (1) Musk buying Twitter, (2) the board fighting a scorched-earth battle to prevent that, or (3) Musk having to say “yeah I was kidding.” But the most classic move for Twitter and its advisers here would be to use Musk’s bid to kick off an auction. Arguably what has happened here is that Musk has put Twitter in play, that after his bid it has to be sold, but not to him. I don’t know to whom, and this is not an easy gig for Goldman, given that Twitter is just as big and hard to finance for anyone else as it is for Musk. The obvious answer is another big cash-rich tech company, but that raises other problems. Mark Cuban tweeted that “every major tech company, Google, [Meta], et al. is on the phone with their antitrust lawyers asking if they can buy Twitter and get it approved. And Twitter is on the phone with their lawyers asking which can be their white knight.” Meanwhile I  wrote on Tuesday, about a then-hypothetical Musk bid:Other than the money, though, there is not much about Twitter that would prevent a takeover. It does not have dual-class stock that would keep its founders in control, and the founders are no longer in charge and don’t even own that much stock. It is not in a heavily regulated industry, and there’s no particular antitrust problem with Musk acquiring it. “World’s richest person acquires the main venue for public communication” does seem like the sort of thing that ought to raise regulatory concerns, but in our actually existing system I’m not sure what those concerns would be. Again it seems weird to me that the richest person in the world buying the “town square” (his words) to privatize it is just fine, while any realistic public-company buyer might run into antitrust trouble, but here we are. A few other points. First, who would be the CEO of a Musk-owned Twitter? He has indicated that he wants to replace current management. He has a number of other full-time jobs himself, so is probably not available. But he clearly wants to meddle. What a terrible job running Twitter for him would be. A few levels down, who is going to run Twitter’s anti-abuse, trust and safety etc. functions, when Musk has made it clear he doesn’t believe in them? (“There is no way you unlock the value of Twitter by making it 99.9% porn, fake Ray-Ban and male enhancement ads,” tweeted Alex Stamos.)Second: Musk tweeted a poll, of course, asking if “Taking Twitter private at $54.20 should be up to shareholders, not the board.” Well! Traditionally, there are two ways to take a company private. You can propose a merger, which by law has to go to the board for approval; the directors consider the offer as fiduciaries for the shareholders, and if they approve then it goes to the shareholders for a vote. Or you can launch a tender offer, which does not have to be approved by the board; you make the offer directly to the shareholders, and if they all sell you their stock then you own the company. I am oversimplifying in various ways, and in modern U.S. mergers-and-acquisitions practice the differences are not nearly that stark. Most tender offers get board approval first, and if you do a hostile tender offer the board can generally stop you by implementing a  poison pill. (And boards can be pressured by hostile bidders into approving mergers.) So surprise hostile tender offers are rare in modern practice, and it is natural that Musk’s first step was a “bear hug” letter to the board.But it is the case that Musk could put a lot more pressure on Twitter’s board if he announced an all-cash tender offer at $54.20 per share than he actually did by sending them a vague nonbinding letter. For one thing, a tender offer is generally viewed as more binding: If you send a nonbinding letter to the board you can always say “never mind”; if you send a tender offer to the shareholders you will have a harder time doing that. So shareholders and boards have to take it more seriously. For another thing, a tender offer will include lots of detailed disclosure about things like … well, for our purposes, mainly it will include detailed disclosure about where the money is coming from. Which Musk’s offer pointedly does not!In other words, if Musk actually wanted the decision on this deal to be made by shareholders, not the board, he could act like it. He has not! He is acting like he wants the decision on this deal to be made by a poll of his Twitter followers, which is not at all how M&A works.Third: What if the board says “no, never, not in a million years”? Musk could go more hostile: Do a tender, run a proxy fight, try to get shareholders to pressure the board, etc. Again, he doesn’t seem all that interested in that, and neither do the shareholders. But it’s certainly possible.Or he could sell his stock. Which is what he said he would do; from his offer letter: “My offer is my best and final offer and if it is not accepted, I would need to reconsider my position as a shareholder.” And: “If the deal doesn’t work, given that I don’t have confidence in management nor do I believe I can drive the necessary change in the public market, I would need to reconsider my position as a shareholder. This is not a threat, it's simply not a good investment without the changes that need to be made.”Now, I cannot resist pointing out that two weeks ago Musk  filed a Schedule 13G indicating that he had bought 9% of Twitter’s stock as a  passive investment with no intention to cause a change in control. If he bought the stock to make management changes, he would have had to file a different, more detailed form, Schedule 13D. People can change their minds! But if Twitter is not now a good investment without radical changes, then why did he buy it as a passive investment two weeks ago? What changed? (Also the 13G was late.) Musk is not even gesturing in the direction of minimal compliance with securities laws at this point. This doesn’t have much to do with whether or not his bid will succeed, and I do not expect that the Securities and Exchange Commission can or will do much about it. But it is annoying!If he does sell the stock, I don’t quite know what that looks like. One possibility is that he sells out, quickly and quietly, after the board rejects his offer but before the stock price goes all the way down to pre-Musk levels, that by drawing attention to Twitter he made it a meme stock and will make a quick profit.[1] Another possibility, more likely I think, is that if this deal dies then Twitter falls to below pre-Musk levels — before Musk’s adventure, Twitter’s price reflected some probability of a takeover; if Musk kicks the tires and no deal happens then that probability is lowered — and he sells out at a loss. A third possibility is that Twitter finds some friendly white knight to buy Musk’s stake as a block at a mutually non-embarrassing price. A fourth possibility is that he sells down to exactly 69,420,000 shares and goes back to filing a 13G and smirking.I don’t know what Twitter does in any of those situations. There is no particularly good outcome for Twitter here. It can sell to Musk and become (more of) a vehicle for his whims and trolling. It can find some other imperfect buyer and try to cobble a desperation deal together. Or it can (maybe) fend off Musk, stay independent, watch its stock drop, alienate one of its most high-profile users, and get second-guessed by shareholders for years. Twitter is in play, but that is only really fun for Musk.Anyway I really truly am on vacation but I assume that by Monday Elon Musk will have somehow acquired Money Stuff. In a sense he already has.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] People keep emailing me to suggest that Musk might be doing some sort of “pump and dump,” where his bid is an elaborate ruse to push up the price of Twitter stock so he can sell at a profit. I do not buy this. For one thing, I think it would be tricky for him to sell while the market still expects a deal; he can’t trade while he has material nonpublic information. But more important, Musk just doesn’t operate that way. He has amply demonstrated his ability to manipulate the price of many financial assets — Tesla stock, Bitcoin, Dogecoin, Twitter stock, whatever — but I do not think he has ever used that ability to make a quick buck. If he comes away from this escapade with an extra, like, $500 million and no Twitter, what does that accomplish for him?
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

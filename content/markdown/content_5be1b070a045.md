@@ -79,7 +79,7 @@ var s_prop15="CEOs,E-commerce,Internet,Technology,Most Popular Stories,Social Is
 </script>
 <div id="wrapper">
 <div id="gatewaySWFWrapper"></div>
-<script type="text/javascript">//<![CDATA[ 
+<script type="text/javascript">//<![CDATA[
 var cacheKiller = new Date();
 if ('SWFObject' in window) { //Initialize SWFObject
 	var so = new SWFObject("http://" + window.location.host + "/gateway.swf?cacheKiller=" + cacheKiller.getTime(), "gatewaySWF", "1", "1", "8");

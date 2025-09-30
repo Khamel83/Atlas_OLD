@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/working-harder-and-smarter
 
-Welcome to the 9,080 newly Not Boring people 🤯 who have joined us since the last post I wrote in August — I need to take breaks more often! If you haven’t subscribed, join 152,217 smart, curious folks by subscribing here: 
+Welcome to the 9,080 newly Not Boring people 🤯 who have joined us since the last post I wrote in August — I need to take breaks more often! If you haven’t subscribed, join 152,217 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Secureframe [ https://substack.com/redirect/ced963c9-e622-4887-aa66-300a28e542ba?r=9p0gt ]
 Secureframe [ https://substack.com/redirect/ced963c9-e622-4887-aa66-300a28e542ba?r=9p0gt ] is the leading, all-in-one platform for security, privacy and compliance. We wrote about the company back in 2021 in “This is How They Tell Me Secureframe Saves The World [ https://substack.com/redirect/003aba36-15b7-4a3f-8489-19d8a930f528?r=9p0gt ].” Secureframe makes it fast, easy, and cost effective to achieve and maintain compliance so you can focus on what matters: Scaling your business, serving customers and growing revenue. 
 With 100+ integrations to core services, Secureframe helps hyper-growth startups continuously uphold the most rigorous global standards, including SOC 2, ISO 27001, HIPAA, PCI, GDPR, CCPA and many others. Secureframe also helps sales teams respond to RFPs and security questionnaires quickly and easily so they can close more deals, faster.
@@ -99,7 +99,7 @@ That narrative is shifting.  
 To read about the Energy Narrative Shift, the Clean Energy Transition, and what it might look like to Work Harder and Smarter…
 Thanks to Dan for editing, and to our friends at Secureframe [ https://substack.com/redirect/ca79e22c-2e0f-4c5f-b021-fa5a307d8401?r=9p0gt ] for sponsoring!
 That’s all for today. Catch you on Thursday for a special Founder’s Letter.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOekk1TVRjeU1UZ3NJbWxoZENJNk1UWTJNams0TnpJd015d2laWGh3SWpveE5qWTFOVGM1TWpBekxDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuS3VNNkJTU3Jub1VrTE5fLUt4YWItOFZ3VC1GM0EzdnFwOW1LMFNkY3c5USIsInAiOjcyOTE3MjE4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2Mjk4NzIwMywiZXhwIjoxNjY1NTc5MjAzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.rOZJWVw-Et4IZtwo08nRBJqA1XVCIpkLTRuQsK1FZSs?

@@ -36,7 +36,7 @@ Before we get started, just a reminder that this weekend in Paris, the men’s s
 Mentioned in this issue: Pia Mance, Heaven Mayhem, Real Fine Studio, Alex Mill, Alex Drexler, Rare Beauty, Larroudé, Marina and Ricardo Larroudé, Staud, Alo, New Balance, Timothée Chalamet, Chanel, Matthieu Blazy, Bottega Veneta, Karl Lagerfeld, Bob Dylan, Pat McGrath, John
 Galliano, Margiela, Phoebe Philo, Bergdorf Goodman, Neiman Marcus, Dover Street Market, Pieter Mulier, Alaia, Skims, and many, many more… 
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -157,7 +157,7 @@ Skims ( https://go.shopmy.us/p-12354962?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2
 brand striving to be a next-gen Victoria’s Secret. And if you don’t have intimate apparel, like U.K.-based mostly dress line Rixo ( https://go.shopmy.us/p-12362108?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), you collab with another brand that does. Rixo and Stripe & Stare partnered on a collection of underthings that includes this Love Heart set (here ( https://go.shopmy.us/p-12354815?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and
 here ( https://go.shopmy.us/p-12354882?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )).
 
- 
+
 
 The
 Week in Feedback…
@@ -191,7 +191,7 @@ On our lack of e-commerce recs geared toward men: “Men get the shoppies, too ;
 On Sarah’s Vuori analysis: “Love the Vuori piece! Went to visit family in San Diego over the holidays and got into a big discussion over whether this can make it and
 how their store felt bland. It’s located right next to Lululemon so we did both back-to-back and stood outside comparing. Family isn’t in the industry and they didn’t get my skepticism or critiques, but… all valid points! All that said, I type as I’m wearing their pants now.” —A brand marketer
 
- 
+
 
 And finally… Did you know that Aritzia is not only knocking off The Row (a
 given), but also knocking off The Row’s lookbook ( https://www.therow.com/collections/spring-2024?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )? (All the way down to the typeface ( https://www.aritzia.com/us/en/shop-by/transitional-dressing?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).) Now that’s influence.
@@ -250,6 +250,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUmt2kHPKJKiGRLRf-pKQ=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

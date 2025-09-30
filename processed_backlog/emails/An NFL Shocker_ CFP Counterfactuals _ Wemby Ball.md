@@ -19,7 +19,7 @@ here.)
 🚨🚨 Pod alert: This weekend, MoffettNathanson’s Michael Nathanson joins the Varsity podcast to discuss everything from Netflix’s sports ambitions to Fox’s streaming endgame. Earlier this week, I did a deep dive ( https://puck.news/podcast_episode/college-footballs-billion-dollar-gold-mine/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) into the first expanded CFP with NBC Sports’s Nicole
 Auerbach. 
 
- 
+
 
 The Brady Meter: NFC Divisional
 Round Edition Commanders 45, Lions 31
@@ -45,7 +45,7 @@ Another fascinating bit of Brady kremlinology took place during crunch time, aft
 he was second-guessing the acumen of Detroit offensive coordinator Ben Johnson—then a finalist to become head coach of Brady’s Raiders. (No conflict, no interest, as the lawyer Allen Grubman allegedly used to say ( https://www.newsweek.com/house-grubman-151527?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )…) It would come out later that Brady had spent hours on a Zoom trying to convince Johnson to come to Las Vegas. Alas, he’s off
 to Chicago.
 
- 
+
 
 Player of the Week: Victor Wembanyama
 -------------------------------------
@@ -58,7 +58,7 @@ The NBA has expanded its global footprint considerably over the past decade, lar
 clear that the league sees the 7-foot-4, 21-year-old French superstar as key to its future growth, especially as it contemplates investing in a European league of its own. This morning, The New York Times posted a story declaring ( https://www.nytimes.com/2025/01/23/business/victor-wembanyama-nba-france.html?searchResultPosition=1&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Wembanyama the future face of the league, as LeBron and Steph and
 K.D. age out. These Paris games mark a good start.
 
- 
+
 
 Down to the J.V.: Lloyd Howell Jr.
 ----------------------------------
@@ -71,13 +71,13 @@ rights deals, how could the Players Association be in a financial jam? Per Fisch
 
 Okay, on to the news…
 
- 
+
 
 The Starting Five
 -----------------
 
 * Tackling the Sunday Ticket appeal: As Varsity readers know, last August, Judge Philip Gutierrez
-overturned 
+overturned
 ( https://email.puck.news/e/c/eyJlbWFpbF9pZCI6ImRnVDJ4Z1lEQVAtOUpQNjlKQUdVaTlwWmNNdlZRazFyT1JLcTM5WT0iLCJocmVmIjoiaHR0cHM6Ly9wdWNrLm5ld3Mvcm9nZXItZ29vZGVsbHMtNS1iaWxsaW9uLXRyaXVtcGgtbWljaGFlbC1ydWJpbi1ibG93YmFjay8_dXRtX2NhbXBhaWduPVdoYXQrSSUyN20rSGVhcmluZystK1NVQlNDUklCRVJTKyUyODglMkYxJTJGMjQlMjlcdTAwMjZ1dG1fY29udGVudD1XaGF0K0klMjdtK0hlYXJpbmcrLStTVUJTQ1JJQkVSUyslMjg3JTJGMTklMkYyNCUyOVx1MDAyNnV0bV9tZWRpdW09ZW1haWxfYWN0aW9uXHUwMDI2dXRtX3NvdXJjZT1jdXN0b21lci5pb1x1MDAyNnV0bV90ZXJtPWY2YzYwNjAzZjQ0NDg1ODQwNlx1MDAyNnV0bV9jYW1wYWlnbj1XaGF0K0klMjdtK0hlYXJpbmclMkIrLStTVUJTQ1JJQkVSUyslMjgxJTJGMjElMkYyNSUyOVx1MDAyNnV0bV9jb250ZW50PVdoYXQrSSUyN20rSGVhcmluZyUyQistK1NVQlNDUklCRVJTKyUyODElMkYxNCUyRjI1JTI5XHUwMDI2dXRtX21lZGl1bT1lbWFpbF9hY3Rpb25cdTAwMjZ1dG1fc291cmNlPWN1c3RvbWVyLmlvXHUwMDI2dXRtX3Rlcm09ZjZjNjA2MTNlZWQ4MDFmZmJkMjQiLCJpbnRlcm5hbCI6ImY2YzYwNjEzZWVkODAxZmZiZDI0IiwibGlua19pZCI6MjA1MTg3Nn0/fa9fc2a3cec2774f6cbb137f4d45a9615123fb89942369e7f4d4513a01499951?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a jury verdict awarding $4.7 billion to NFL Sunday Ticket customers in a class-action antitrust case, saying the jury’s conclusion that NFL owners had conspired to fix prices for their out-of-market package was unfounded. Now, as my Puck partner Eriq Gardner reported ( https://puck.news/newsletter_content/wih-baldonis-endgame-drakes-warpath-cnns-sins/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in
 his always excellent What I’m Hearing+ private email, “The class-action lawyers resubmitted their initial appellate brief—still under seal—a week ago and added an alternative damages calculation under a different formula.” What makes this especially interesting is that, in one of the last acts of his administration, Biden’s Justice Department sided with the plaintiffs, stating that “the NFL’s illegal acts are continuing.” 
 
@@ -153,7 +153,7 @@ One last factor to consider: While the NFL loves to tout its boffo ratings, it�
 also become increasingly tantalized by the financial opportunities afforded by the cash-flush streaming players. And yet, for all their money and subscribers, neither Netflix nor Amazon (and certainly not Peacock) will be able to compete with traditional broadcast networks on total viewership. As the league continues to put more games on O.T.T. services, its viewership numbers will feel the impact. “None of these reasons is massive, but they are all fair to use when explaining why the league’s
 playoff numbers are down,” one executive said.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -174,7 +174,7 @@ On Marchand’s dog-walking: “The person who complained that your Marchand jok
 
  
 
- 
+
 
 Have a great weekend,
 
@@ -234,6 +234,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUliUdbxpZg_U4XB3QRrI=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -112,7 +112,7 @@ Like the others, LA’s teacher battle boils down to funding. By one estimate, C
 
 LA’s union leaders want their strike to make a statement about the [future of the public school system](https://web.archive.org/web/20250101101810/https://www.latimes.com/opinion/op-ed/la-oe-caputo-pearl-teachers-strike-20190106-story.html) and the encroachment of charter schools. Because they know: Major changes to a single region that is home to 700,000 school-age children could set the tone for the progressive education fight across the country.
 
-See More: 
+See More:
 
 * [Politics](/web/20250101101810/https://www.vox.com/politics)
 

@@ -571,7 +571,7 @@ Usage:
 
 This script executes all Atlas production tasks automatically with:
 - Dependency resolution
-- Quality gate validation  
+- Quality gate validation
 - Progress tracking
 - Git workflow automation
 - Error recovery

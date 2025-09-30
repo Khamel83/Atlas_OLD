@@ -341,9 +341,9 @@ Tech conferences look like you’d expect. Tons of people at a Sheraton, keynote
 
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference04.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference02.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference06.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference11.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference09.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference03.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference07.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference08.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference05.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference10.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference01.jpg)![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_conference12.jpg)
 
-**First row:** TechCrunch Disrupt NYC, May 2011; Google I/O developers conference, San Francisco, Mayâ¯2013; Global Mobile Internet Conference, Beijing, April 2015  
-**Second row:**Nvidia GPU, San Jose, Septemberâ¯2010; South by Southwest (SXSW) Interactive Festival, Austin, March 2013; Apple Worldwide Developers Conference (WWDC), San Francisco, June 2008  
-**Third row:** TechCrunch Disrupt NYC, May 2012; Re:publica conference, Berlin, May 2015; TechCrunch Disrupt NYC, May 2015   
+**First row:** TechCrunch Disrupt NYC, May 2011; Google I/O developers conference, San Francisco, Mayâ¯2013; Global Mobile Internet Conference, Beijing, April 2015
+**Second row:**Nvidia GPU, San Jose, Septemberâ¯2010; South by Southwest (SXSW) Interactive Festival, Austin, March 2013; Apple Worldwide Developers Conference (WWDC), San Francisco, June 2008
+**Third row:** TechCrunch Disrupt NYC, May 2012; Re:publica conference, Berlin, May 2015; TechCrunch Disrupt NYC, May 2015
 **Fourth row:** SXSW Interactive Festival, Austin, Marchâ¯2014; WWDC, San Francisco, Juneâ¯2015; Bloomberg Technology Conference!, San Francisco, June 15-16
 
 Technology conferences are where primate dynamics can be fully displayed, where relationships of power and hierarchy can be established. There are keynote speakers—often the people who created the technology at hand or crafted a given language. There are the regular speakers, often paid not at all or in airfare, who present some idea or technique or approach. Then there are the panels, where a group of people are lined up in a row and forced into some semblance of interaction while the audience checks its e-mail.
@@ -356,15 +356,15 @@ Women in software, having had enough, started to write it up, post to blogs. Oth
 
 Conferences began to develop codes of conduct, rules and algorithms for people (men, really) to follow.
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible … â¨  
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible … â¨
 —*[Burlington Ruby Conference](https://web.archive.org/web/20150611164257/http://www.burlingtonrubyconference.com/conduct)*
 
 php[architect] is dedicated to providing a harassment-free event experience for everyone and will not tolerate harassment or offensive behavior in any form.
-  
+
 —*[php[architect]](https://web.archive.org/web/20150611164257/http://www.phparch.com/policies/code-of-conduct/)*
 
 The Atlanta Java Users Group (AJUG) is dedicated to providing an outstanding conference experience for all attendees, speakers, sponsors, volunteers, and organizers involved in DevNexus (GeekyNerds) regardless of gender, sexual orientation, disability, physical appearance, body size, race, religion, financial status, hair color (or hair amount), platform preference, or text editor of choice.
-  
+
 —*[devnexus](https://web.archive.org/web/20150611164257/https://www.devnexus.com/s/code-of-conduct)*
 
 When people started talking about conference behavior, they also began to talk about the larger problems of programming culture. This was always an issue, but the conference issues gave people a point of common reference. Why were there so many men in this field? Why do they behave so strangely? Why is it so hard for them to be in groups with female programmers and behave in a typical, adult way?
@@ -379,10 +379,10 @@ When people started talking about conference behavior, they also began to talk a
 
 #### Famous women in coding history
 
-  
-Ada Lovelace: The first programmer. She devised algorithms for Charles Babbage’s “analytical engine,” which he never built.  
+
+Ada Lovelace: The first programmer. She devised algorithms for Charles Babbage’s “analytical engine,” which he never built.
 ![Ada Lovelace](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_lovelace.jpg)
-Grace Murray Hopper: World War II hero and inventor of the compiler.  
+Grace Murray Hopper: World War II hero and inventor of the compiler.
 ![Grace Murray](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_hopper.jpg)
 
 “Always the only woman in the meeting, often the first—the first female R&D engineer, first female project lead, first female software team lead—in the companies I worked for,” wrote another woman in *[Fast Company](https://web.archive.org/web/20150611164257/http://www.fastcompany.com/3008216/tracking/minding-gap-how-your-company-can-woo-female-coders)* magazine.
@@ -715,7 +715,7 @@ Which will, when compiled and run, print “Hello, world!” to the screen. Let�
 ```
 #include<stdio.h>
 
-void squares(int v) 
+void squares(int v)
 {
   for (int i=1;i<v+1;i++) {
     printf("%d ", i*i);
@@ -723,7 +723,7 @@ void squares(int v)
   printf("\n");
 }
 
-int main() 
+int main()
 {
   squares(10);
 }
@@ -864,34 +864,34 @@ As a class, programmers are easily bored, love novelty, and are obsessed with va
 
 #### Productivity Enhancers
 
-**Nutrition: Soylent**  
+**Nutrition: Soylent**
  Heralded as “the end of food.” Contains potato and rice starches, oat flour, oils, vitamins, and minerals. It was invented in 2013 by Rob Rhinehart, a programmer hoping to make mealtime more efficient. Price: $70 for a bag of Soylent powder, or about $3 per meal.
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_soylent.jpg)
 
-**Caffeine delivery system: Club-Mate**  
+**Caffeine delivery system: Club-Mate**
  A fizzy drink from a Bavarian brewery sold mostly in Europe. It’s made from yerba mate, which has caffeine and polyphenols. Programmers also loooove coffee.
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_clubmate.jpg)
 
-**Computer: 13-inch MacBook Pro**  
+**Computer: 13-inch MacBook Pro**
  Widely rated as having best-in-class hardware, these machines are capable of running Mac as well as Windows and Linux operating systems.
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_macbook.jpg)
 
-**Text editor: Highly subjective**  
+**Text editor: Highly subjective**
  Developers use scores of different text editors, programs that allow them to more easily write and debug code. Favorites include Sublime Text, Text Wrangler, and Brackets.
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_sublime.jpg)
 
-**Old-school desk: The Jerker**  
+**Old-school desk: The Jerker**
  Nerds in countless online forums pine after this discontinued modular Ikea workstation, which allows a user to customize desk and shelf height. It sells for about $250 on EBay.
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_jerker.jpg)
 
-**Standing desk: GeekDesk Max**  
+**Standing desk: GeekDesk Max**
  With four preset heights, a steel frame, and dual motors that lift or lower the tabletop at 1.1 inches per second, this desk can support up to 335 pounds. It comes in small ($949) and large ($985).
-  
+
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_geekdesk.jpg)
 
 Meanwhile, the executives who run large programming teams have to actually ship software. “Ship” is a cult word.
@@ -958,7 +958,7 @@ While no one sings its praises (except for banks—banks love Cobol), it still r
 
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_backus.jpg)
 
-“Much of my work has come from being lazy. I didn’t like writing programs, and so, when I was working on the IBM 701, writing programs for computing missile trajectories, I started work on a programming system to make it easier to write programs.”  
+“Much of my work has come from being lazy. I didn’t like writing programs, and so, when I was working on the IBM 701, writing programs for computing missile trajectories, I started work on a programming system to make it easier to write programs.”
 — *John Backus, 1979, in* Think*, the IBM employee magazine*
 
 That’s the same program that we wrote in C, page 50, the one that ever-so-usefully prints a list of squares. You can pick up the weird metallic smell of large computer centers with raised floors just by looking at some Fortran.[26](#fn.26) It excels at the numerical computing needed by scientists and still beats C for some tasks. Physicists and astronomers like (well, live with) Fortran.
@@ -966,7 +966,7 @@ That’s the same program that we wrote in C, page 50, the one that ever-so-usef
 Lisp, though, is another kind of beast. It emerged straight out of mathematical research. There are many things that made Lisp peculiar. Some people say it stands for “Lots of superfluous parentheses.”[27](#fn.27)
 
 ```
-(defun squares (count)    
+(defun squares (count)
   (dotimes (n count)
     (format t "~a " (* (+ n 1)â¨ (+ n 1)))))
 (squares 10)
@@ -1339,25 +1339,25 @@ Sometimes this is the result of corporate ambition: Java was very much a Sun pro
 
 In Mac OS X, there’s a class called NSButton. It intercepts the clicks of a mouse. A programmer makes a button and tells it what to do when someone clicks on it. A programmer also writes the code that sets a bezel.
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_push.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_push.jpg)
 **Push Button:** Most commonly used button
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_gradient.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_gradient.jpg)
 **Gradient Button:** Usually below lists or grids
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_roundrec.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_roundrec.jpg)
 **Rounded Rect Button:** Used for filtering in Mac Finder and Mail
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_roundtextured.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_roundtextured.jpg)
 **Rounded Textured Button:** Designed for toolbars only
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_textured.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_textured.jpg)
 **Textured Button:** Usage is a mystery
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_recessed.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_recessed.jpg)
 **Recessed Button:** Used as a toggle button only
 
-![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_inline.jpg)  
+![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_btn_inline.jpg)
 **Inline Button:** New style of push button or indicator
 
 Apple and Microsoft, Amazon and Google: factory factories. Their APIs are the products of many thousands of hours of labor from many programmers. Think of the work involved. Someone needs to manage the SDK. Hundreds of programmers need to write the code for it. People need to write the documentation and organize the demos. Someone needs to fight for a feature to get funded and finished. Someone needs to make sure the translation into German is completed and that there aren’t any embarrassing mistakes that go viral on Twitter. Someone needs to actually write the software that goes into making the IDE work.
@@ -1436,7 +1436,7 @@ Eventually, though, I learned to submit. I let myself drift into the computer, t
 Randomly selected item from Stack Overflow, to give you a taste of programming:
 
 Angular 1.3 + ui-router + generator-hg-poly embedding nested(?) views not working
-  
+
 —*TheOncomingCode, StackOverflow.com*
 
 TheOncomingCode seems to be saying that he’s using the AngularJS framework in JavaScript and another piece of code called ui-router. Judging from its name, the latter helps set up routes to address components of a user interface—that is, it helps manage how you view your data.
@@ -1657,31 +1657,31 @@ Now, that number isn’t trivial; if it takes a minute to make a page, you’d n
 
 #### Programming Languages’ Greatest Hits
 
-**Assembly**  
-Pac-Man, Centipede  
+**Assembly**
+Pac-Man, Centipede
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_pacman.gif)
 
-**C**  
+**C**
 Unix, Linux kernel, Python, Perl, PHP
 
-**C++**  
-Windows, Google Chrome, software for F-35 fighter jets  
+**C++**
+Windows, Google Chrome, software for F-35 fighter jets
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_jet.jpg)
 
-**Python**  
+**Python**
 Instagram, Pinterest, Spotify, YouTube
 
-**PHP**  
-Facebook, Wikipedia, WordPress, Drupal  
+**PHP**
+Facebook, Wikipedia, WordPress, Drupal
 ![](/web/20150611164257im_/http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_wiki.jpg)
 
-**Perl**  
+**Perl**
 BuzzFeed
 
-**Java**  
+**Java**
 Google, EBay, LinkedIn, Amazon
 
-**Ruby**  
+**Ruby**
 Twitter, GitHub, Groupon, Shopify
 
 What if you are going to serve only a few hundred thousand pages a month? Then you’ve got tremendous breathing room. You don’t need too many engineers to create the system architecture. You still need to plan, but in general you can read some blog posts and follow along with what others have done. You can be pretty sloppy, to be honest. Again, any language will do.
@@ -1719,11 +1719,11 @@ The management of programmers is a discipline unto itself. There are subdiscipli
 The Agile Manifesto (yep, manifesto) reads as follows:
 
 ▹ Individuals and interactions over processes and tools
-  
+
 ▹ Working software over comprehensive documentation
-  
+
 ▹ Customer collaboration over contract negotiation
-  
+
 ▹ Responding to change over following a plan
 
 There are 17 signatories. And there are as many variations of Agile. I’ve had terrible meetings in my life when I sat between two teams and one of them explained, at length, why Agile with Kanban was better than Agile with Scrum. You could smell the money burning.

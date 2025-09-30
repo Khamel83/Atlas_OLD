@@ -104,10 +104,10 @@ cnnad_createAd("998183","http://web.archive.org/web/20250604031300/http://ads.cn
    </style>
 <![endif]-->
 <style>
-	html body { 
+	html body {
 		-webkit-font-smoothing: antialiased;
-	} 
-	
+	}
+
 	/* required resets for legacy pages that do not contain CSS resets */
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -118,8 +118,8 @@ cnnad_createAd("998183","http://web.archive.org/web/20250604031300/http://ads.cn
 	dl, dt, dd, ol, ul, li,
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
 		margin: 0;
@@ -145,10 +145,10 @@ cnnad_createAd("998183","http://web.archive.org/web/20250604031300/http://ads.cn
    </style>
 <![endif]-->
 <style>
-	html body { 
+	html body {
 		-webkit-font-smoothing: antialiased;
-	} 
-	
+	}
+
 	/* required resets for legacy pages that do not contain CSS resets */
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -159,8 +159,8 @@ cnnad_createAd("998183","http://web.archive.org/web/20250604031300/http://ads.cn
 	dl, dt, dd, ol, ul, li,
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
 		margin: 0;
@@ -174,32 +174,32 @@ cnnad_createAd("998183","http://web.archive.org/web/20250604031300/http://ads.cn
 @font-face {
   font-family: "CNN";
   src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.eot");
-  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.eot#iefix") format("embedded-opentype"), 
+  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.eot#iefix") format("embedded-opentype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.woff") format("woff"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.ttf") format("truetype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Thin.svg#regular") format("svg");
   font-weight: 100;
-  font-style: normal; 
+  font-style: normal;
 }
 @font-face {
   font-family: "CNN";
   src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.eot");
-  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.eot#iefix") format("embedded-opentype"), 
+  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.eot#iefix") format("embedded-opentype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.woff") format("woff"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.ttf") format("truetype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Light.svg#regular") format("svg");
   font-weight: 300;
-  font-style: normal; 
+  font-style: normal;
 }
 @font-face {
   font-family: "CNN";
   src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.eot");
-  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.eot#iefix") format("embedded-opentype"), 
+  src: url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.eot#iefix") format("embedded-opentype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.woff") format("woff"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.ttf") format("truetype"),
        url("http://web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/font/9.0/CNNSansDisplayW04-Regular.svg#regular") format("svg");
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
 }
 @font-face {
   font-family: "CNN";
@@ -1839,7 +1839,7 @@ function cnnm_setCookie(name, value, hours, path, domain, secure) {
 						<span class="pipe"></span>
 					</a>
 		        	<div class="mm_dropdown mm-item-content">
-		          		<div id="flyout_investing" class="mm-content-base"> 
+		          		<div id="flyout_investing" class="mm-content-base">
 		                </div>
 		        	</div>
 		      	</li>
@@ -2065,7 +2065,7 @@ cnnad_createAd("463317","http://web.archive.org/web/20250604031300/http://ads.cn
 	<div class="boxHeading"><a href="/web/20250604031300/https://money.cnn.com/video/series/">Original Shows</a></div>
 	<div class="summaryBlock">   <!--===========IMAGE============--><a href="/web/20250604031300/https://money.cnn.com/video/technology/2012/07/23/bst-stern-nba-tech.fortune"><img border="0" src="//web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/video/technology/2012/07/23/bst-stern-nba-tech.fortune.160x90.jpg" alt="Key to NBA's success? Embracing tech" width="160" height="90" class="summaryImg"></a><!--===========/IMAGE===========--><div class="cnnHeadline"><a href="/web/20250604031300/https://money.cnn.com/video/technology/2012/07/23/bst-stern-nba-tech.fortune">Key to NBA's success? Embracing tech</a></div><div class="cnnBlurbTxt">NBA Commissioner David Stern says the basketball league is looking to expand its use of technology to improve gameplay and increase its audience.&nbsp;<a href="/web/20250604031300/https://money.cnn.com/video/technology/2012/07/23/bst-stern-nba-tech.fortune" class="cnnMore">Play</a></div></div><div class="summaryBlock">   <!--===========IMAGE============--><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/19/pf-uh-roy-rogers-ranch.cnnmoney"><img border="0" src="//web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/video/pf/2012/07/19/pf-uh-roy-rogers-ranch.cnnmoney.160x90.jpg" alt="Selling Roy Rogers' former ranch" width="160" height="90" class="summaryImg"></a><!--===========/IMAGE===========--><div class="cnnEyebrow"><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/19/pf-uh-roy-rogers-ranch.cnnmoney">Unique Homes</a></div><div class="cnnHeadline"><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/19/pf-uh-roy-rogers-ranch.cnnmoney">Selling Roy Rogers' former ranch</a></div><div class="cnnBlurbTxt">With 67 acres of land and room for 150 horses, the former ranch of the 'King of the Cowboys' sold at auction for $640,000.&nbsp;<a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/19/pf-uh-roy-rogers-ranch.cnnmoney" class="cnnMore">Play</a></div></div><div class="summaryBlock">   <!--===========IMAGE============--><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/18/pf-w-hd-tire-rack.cnnmoney"><img border="0" src="//web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/video/pf/2012/07/18/pf-w-hd-tire-rack.cnnmoney.160x90.jpg" alt="Track testing tires to find the best" width="160" height="90" class="summaryImg"></a><!--===========/IMAGE===========--><div class="cnnEyebrow"><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/18/pf-w-hd-tire-rack.cnnmoney">Help Desk</a></div><div class="cnnHeadline"><a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/18/pf-w-hd-tire-rack.cnnmoney">Track testing tires to find the best</a></div><div class="cnnBlurbTxt">Find out how TireRack tests and reviews tires and why choosing the right ones for your car is so important.&nbsp;<a href="/web/20250604031300/https://money.cnn.com/video/pf/2012/07/18/pf-w-hd-tire-rack.cnnmoney" class="cnnMore">Play</a></div></div>
 	<div class="cnnvideo_showSelect" id="cnnvideo_showSelect1"><!-- #2 -->
-		<div class="cnnCtrls_down"><a href="javascript:void(0)" class="toggleList" id="cnnVideoShowList"></a></div> 
+		<div class="cnnCtrls_down"><a href="javascript:void(0)" class="toggleList" id="cnnVideoShowList"></a></div>
 		    <ul class="cnnShowList_item1">
 			    <li><a name="showlist" href="/web/20250604031300/https://money.cnn.com/video/series/">All CNNMoney.com Original Shows</a></li>
 		    </ul>
@@ -2332,7 +2332,7 @@ cnnad_createAdNoTileId("432556","http://web.archive.org/web/20250604031300/http:
 			<!--<form name="quoteForm" action="//apps.money.cnn.com/wsod/QuoteRedirect" method="post">-->
 				<input id="symb" type="text" name="query" value="symbol" size="5" onfocus="if (this.value == 'symbol') {this.value = '';}" onblur="if (this.value == '') {this.value = 'symbol';}"/>
 				<div id="myContainer"></div>
-				<input type="image" name="submit3" src="//web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go.gif" alt="GO" width="31" height="22" class="button" id="quoteGoButton" onmouseover="this.src='//web.archive.org/web/20250604031300/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go_blue.gif'" onmouseout="this.src='//web.archive.org/web/20250604031300/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go.gif'"/> 
+				<input type="image" name="submit3" src="//web.archive.org/web/20250604031300im_/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go.gif" alt="GO" width="31" height="22" class="button" id="quoteGoButton" onmouseover="this.src='//web.archive.org/web/20250604031300/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go_blue.gif'" onmouseout="this.src='//web.archive.org/web/20250604031300/https://i2.cdn.turner.com/money/.element/img/2.0/buttons/button_go.gif'"/>
 				</form>
 				<!--<script>
 				if (window.SymbolComplete != null)
@@ -2549,7 +2549,7 @@ cnnad_createAd("181347","http://web.archive.org/web/20250604031300/http://ads.cn
 <link rel="stylesheet" href="//i.cdn.turner.com/money/.element/ssi/css/4.0/services/members.login.ie.css" type="text/css" />
 <![endif]-->
 <script type="text/javascript" src="/web/20250604031300js_/https://money.cnn.com/.element/script/4.0/services/connect-lite.js"></script>
-	
+
 <script>
 	function getCookie(check_name) {
 		var a_all_cookies = document.cookie.split(';');
@@ -2689,7 +2689,7 @@ try {
 	}
 
 /* Footer CSS */
-	
+
 	._4c3b035b {
 	    background-color: #fff;
 	    color: #000;
@@ -2697,16 +2697,16 @@ try {
 	    letter-spacing: 1px;
 	    text-align: center;
 	}
-	
+
 	._05812abd {
 	    position: relative;
 	    height: 53px;
 	}
-	
+
 	._05812abd span {
 	    height: 53px;
 	}
-	
+
 	._05812abd:before,
 	._05812abd:after {
 	    content: '';
@@ -2717,23 +2717,23 @@ try {
 	    background: #979797;
 	    width: calc(50% - 95px);
 	}
-	
+
 	._05812abd:before {
 	    left: 0px;
 	}
-	
+
 	._05812abd:after {
 	    right: 0px;
 	}
-	
+
 	._05812abd > span img {
 	    height: 53px;
 	}
-	
+
 	._7dc7c77c {
 	    margin: 25px 0px 30px;
 	}
-	
+
 	._7dc7c77c a {
 	    margin: 0px 25px 15px;
 	    text-decoration: none;
@@ -2742,15 +2742,15 @@ try {
 	    font-weight: 200;
 	    font-size: 14px;
 	}
-	
+
 	._7dc7c77c a:hover {
 	    opacity: 0.5;
 	}
-	
+
 	._7f66fb27 a {
 	    margin: 0 12px;
 	}
-	
+
 	.fe31535c {
 	    margin: 25px auto;
 	    padding: 0px 20px;
@@ -2760,17 +2760,17 @@ try {
 	    font-weight: 200;
 	    max-width: 1000px;
 	}
-	
+
 	.fe31535c a {
 	    color: #313131;
 	    text-decoration: none;
 	}
-	
+
 	._4c3b035b #trusteLink a {
 	    position: relative;
 	    margin-right: 15px;
 	}
-	
+
 	._4c3b035b #trusteLink a:after {
 	    content: '';
 	    width: 12px;
@@ -2781,7 +2781,7 @@ try {
 	    top: 2px;
 	    right: -15px;
 	}
-	
+
 	@media screen and (min-width: 641px) {
 	    ._05812abd:before,
 	    ._05812abd:after {
@@ -2793,11 +2793,11 @@ try {
 	        background: #eee;
 	        width: calc(50% - 95px);
 	    }
-	
+
 	    ._7dc7c77c a {
 	        display: inline-block;
 	    }
-	
+
 	    .fe31535c {
 	        font-size: 11px;
 	    }
@@ -2810,12 +2810,12 @@ try {
 	    -ms-flex-align: center;
 	        align-items: center;
 	}
-	
+
 	.d108d922 {
 	    display: inline-block;
 	    line-height: 100%;
 	}
-	
+
 	.d108d922:hover {
 	    opacity: 0.5;
 	}
@@ -2824,12 +2824,12 @@ try {
 	    top: 0px;
 	    display: inline-block;
 	}
-	
+
 	.f234abe9,
 	.f9786d8e {
 	    height: 40px;
 	}
-	
+
 	.a2419916 {
 	    display: inline-block;
 	    height: 100%;
@@ -2874,7 +2874,7 @@ try {
 	    body {
 	        background: #fff;
 	    }
-	
+
 	    ._55afeaf6 {
 	        background-color: white;
 	    }
@@ -3023,19 +3023,19 @@ else if (window.location.hostname === "train.money.cnn.com") {
 else if (window.location.hostname === "stage.money.cnn.com") {
     var cnnOmniture_prodenv = false;
 }
-else { 
+else {
     var cnnOmniture_prodenv = true;
 }
 
-if (window.location.pathname.indexOf('.element') == -1 && window.location.href.indexOf('?fb_xd_fragment#?=&') == -1 && window.location.href.indexOf('search/index.html?') == -1){ 
+if (window.location.pathname.indexOf('.element') == -1 && window.location.href.indexOf('?fb_xd_fragment#?=&') == -1 && window.location.href.indexOf('search/index.html?') == -1){
    var jsmd=_jsmd.init();
    jsmd.send();
-}    
+}
 </script>
 
 <script>
-	window.WM.UserConsent.addScript({ 
-			src: "//web.archive.org/web/20250604031300/https://money.cnn.com/.element/script/6.0/newsbeat/newsbeat.ccpa.js" 
+	window.WM.UserConsent.addScript({
+			src: "//web.archive.org/web/20250604031300/https://money.cnn.com/.element/script/6.0/newsbeat/newsbeat.ccpa.js"
 		}, ['data-store', 'measure-content']);
 </script>
 <!-- STILL NEEDED?
@@ -3059,8 +3059,8 @@ if (window.location.pathname.indexOf('.element') == -1 && window.location.href.i
 
 <!-- Begin: www.iperceptions.com - biz.trackingcode -->
 <script>
-	window.WM.UserConsent.addScript({ 
-			src: "//web.archive.org/web/20250604031300/https://ips-invite.iperceptions.com/webValidator.aspx?sdfc=8903e7fe-104983-4d96497c-d068-4528-a4f9-0dbb51a45963&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0" 
+	window.WM.UserConsent.addScript({
+			src: "//web.archive.org/web/20250604031300/https://ips-invite.iperceptions.com/webValidator.aspx?sdfc=8903e7fe-104983-4d96497c-d068-4528-a4f9-0dbb51a45963&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0"
 		}, ['data-store', 'content-person', 'measure-content', 'product-develop']);
 </script>
 <!-- End: www.iperceptions.com -->
@@ -3095,7 +3095,7 @@ ezt.push({qacct: 'p-D1yc5zQgjmqr5',
 $(".edtn_dropdown dt a").click(function() {
                 $(".edtn_dropdown dd ul").toggle();
             });
-                        
+
             $(".edtn_dropdown dd ul li a").click(function() {
                 var text = $(this).html();
                 $(".edtn_dropdown dt a").html(text);
@@ -3122,53 +3122,53 @@ $(".edtn_dropdown dt a").click(function() {
             });
 
 });
-		
+
 		</script>
-	<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/javascript/1.1/navigation.js"> 
+	<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/javascript/1.1/navigation.js">
 	/***********************************************
 	* AnyLink CSS Menu script- � Dynamic Drive DHTML code library (www.dynamicdrive.com)
 	* This notice MUST stay intact for legal use
 	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 	***********************************************/
-	</script> 
-<link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250604031300cs_/https://i.cdn.turner.com/money/.element/ssi/css/4.0/data/cnn.search.css"/> 
-<script type="text/javascript"> 
+	</script>
+<link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250604031300cs_/https://i.cdn.turner.com/money/.element/ssi/css/4.0/data/cnn.search.css"/>
+<script type="text/javascript">
 	var urlPre="//web.archive.org/web/20250604031300/https://markets.money.cnn.com/";
 	var cnnDomain="//web.archive.org/web/20250604031300/https://money.cnn.com/";
 	var cookieDomain="cnn.com";
 	var tzOffset= -240;
 	//var tzOffset= -300;
-</script> 
- 
-<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/serializer/1.0/serializer.3.js"></script> 
-<!-- jquery already called in header --> 
-<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/jquery/1.3.2/jquery.extensions.js"></script> 
-<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/jquery/1.3.2/jquery.ui.interactions.min.js"></script> 
-<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/fbconnect/1.0/facebook-story-sdk.js"></script> 
-<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/3.0/data/common.js"></script> 
+</script>
+
+<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/serializer/1.0/serializer.3.js"></script>
+<!-- jquery already called in header -->
+<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/jquery/1.3.2/jquery.extensions.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/jquery/1.3.2/jquery.ui.interactions.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/fbconnect/1.0/facebook-story-sdk.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/3.0/data/common.js"></script>
 <script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/3.0/data/symbol.search.js"></script>
 
 <script type="text/javascript" src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.e/script/2.0/pkg/articlebottom/1011.js"></script>
 
-<script src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/2.0/csiManager.js"></script>	 
-<script src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/javascript/4.0/main.footer.js"></script>  
- 
-<img src="//web.archive.org/web/20250604031300im_/https://i.cdn.turner.com/money/video/bvp/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="OmnitureTrack" id="OmnitureTrack" align="right"> 
-<img src="//web.archive.org/web/20250604031300im_/https://i.cdn.turner.com/money/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="cookieCrumb" id="cookieCrumb" align="right"> 
-<script type="text/javascript"> 
+<script src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/script/2.0/csiManager.js"></script>
+<script src="//web.archive.org/web/20250604031300js_/https://i.cdn.turner.com/money/.element/ssi/javascript/4.0/main.footer.js"></script>
+
+<img src="//web.archive.org/web/20250604031300im_/https://i.cdn.turner.com/money/video/bvp/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="OmnitureTrack" id="OmnitureTrack" align="right">
+<img src="//web.archive.org/web/20250604031300im_/https://i.cdn.turner.com/money/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="cookieCrumb" id="cookieCrumb" align="right">
+<script type="text/javascript">
 try { initializeVideo(); }
 catch(e){}
- 
+
 jQuery(document).ready(function(){
 // determine adsquare class for adsquare margin
 	adsquare.addMargin();
- 
+
 // set up horizontal scroll
 	setupFeaturedBoxes();
- 
+
 // set up banner service links
 	chooseMag();
- 
+
 var addBankrateScroller = function() {
 	if( !jQuery.belowthefold('.ratesContainer',{threshold : 0, container: window}) ) {
 		try{ jQuery(window).unbind('scroll', addBankrateScroller); }catch(e){}
@@ -3176,7 +3176,7 @@ var addBankrateScroller = function() {
 		try{ BankrateScroll.init(0); }catch(e){}
 	}
 };
- 
+
 try{
 	if(jQuery('#bankrate_module').length){
 		if( !jQuery.belowthefold('.ratesContainer',{threshold : 0, container: window}) ) {
@@ -3187,11 +3187,11 @@ try{
 		}
 	}
 }catch(e){}
- 
+
 });
- 
-</script> 
- 
+
+</script>
+
 </div></body></html><!--
      FILE ARCHIVED ON 03:13:00 Jun 04, 2025 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 08:38:45 Sep 15, 2025.

@@ -12,9 +12,9 @@
 
 # Page not found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Page not found](http://gizmodo.com/favicon.svg)
 
-We use cookies to personalize and improve your experience on our site and to serve you with relevant advertising. Visit our privacy policy for more information on our data collection practices and to exercise your consumer rights. 
+We use cookies to personalize and improve your experience on our site and to serve you with relevant advertising. Visit our privacy policy for more information on our data collection practices and to exercise your consumer rights.
 

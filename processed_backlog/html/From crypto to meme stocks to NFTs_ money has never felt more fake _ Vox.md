@@ -108,7 +108,7 @@ Hilary Allen, a law professor at American University who specializes in financia
 
 “If it’s just a dot-com bubble, it sucks for the people who invested,” she said. “But if it’s 2008, then we’re all screwed, even those of us who aren’t investing, and that’s not fair. It really depends on who’s getting into this and how integrated it’s getting with the rest of the financial system.”
 
-See More: 
+See More:
 
 * [Business & Finance](/web/20250109162539/https://www.vox.com/business-and-finance)
 * [Money](/web/20250109162539/https://www.vox.com/money)

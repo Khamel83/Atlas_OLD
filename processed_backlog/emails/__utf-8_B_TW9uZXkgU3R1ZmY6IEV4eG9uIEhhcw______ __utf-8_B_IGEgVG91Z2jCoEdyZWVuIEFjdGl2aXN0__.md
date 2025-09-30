@@ -10,10 +10,10 @@
 
 
 
-  
-  
+
+
   Money Stuff
-  
+
 body {
 width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: 0; padding: 0;
 }
@@ -28,94 +28,94 @@ text-decoration: none; color: #000000;
 }
 @media (prefers-color-scheme: dark) {
 }
-[data-ogsc] body {} 
+[data-ogsc] body {}
 
 
 
-  
-  
-    
-      
-        
-          
-            
-              
-                
-              
-            
-          
-        
-        
-          
-            
-          
-        
-      
-      
-      
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ExxonIt’s only a slight overstatement to say that, every year, every publicly traded oil company asks its shareholders to vote on a proposal like this:RESOLVED: Shareholders request that ExxonMobil’s Board of Directors issue an audited report to shareholders on whether and how a significant reduction in fossil fuel demand, envisioned in the IEA Net Zero 2050 scenario, would affect its financial position and underlying assumptions. The Board should summarize its findings to shareholders by January 31, 2022, and the report should be completed at reasonable cost and omitting proprietary information.Oil companies are at the center of debates over climate change. Many investors care a lot about climate change. Shareholders of public companies are, in some loose sense, the owners of those companies; they elect the directors of the companies and have some authority to tell those directors what to do. In particular, a shareholder of a U.S. public company can submit proposals for other shareholders to vote on in the company’s annual proxy statement. Companies have to include the proposals in their proxy statements — that is, put them to a vote of shareholders — unless they can find some reason to omit them. The rule (Rule 14a-8) gives companies lots of reasons to omit proposals, and there is a certain amount of technical lawyering involved in getting a proposal into a proxy statement. In particular, companies can omit a proposal that “deals with a matter relating to the company’s ordinary business operations,” which means that shareholders can’t really submit proposals like “you should stop drilling for oil so much.” “You should write a report about oil drilling” is usually fine.The proposal I quoted above is Item 6 of Exxon Mobil Corp.’s proxy statement this year. It was proposed by Christian Brothers Investment Services Inc., which owns Exxon “shares with a market value greater than $2,000.” Here’s one from Exxon’s proxy statement last year:Resolved: Shareholders request that ExxonMobil, with board oversight, publish a report, omitting proprietary information and prepared at reasonable cost, assessing the public health risks of expanding petrochemical operations and investments in areas increasingly prone to climate change-induced storms, flooding, and sea level rise.That was proposed by “the Park Foundation, a client of As You Sow, ... the beneficial owner of 117 shares.” If shareholders had voted for this proposal, the effect would have been that, uh, Exxon’s shareholders would have requested that report. It is what is called a nonbinding (or “precatory”) shareholder proposal, and Exxon’s board and managers could have said “we appreciate the request but we have decided not to prepare that report.”Or Exxon could have prepared a report and then kept doing what it was doing. The nonbinding request was not “stop expanding petrochemical operations in areas prone to climate change-induced storms” or whatever; it was “write a report.” The report could have said “meh oil drilling is fine, we’re gonna keep doing it,” or it could have said “actually there are some significant risks, but we’re gonna keep doing it.” The shareholder proposal did not ask Exxon to change its business, just to write a report about it.Ultimately only about 24.5% of Exxon’s shareholders voted for last year’s proposal, so it failed anyway.Like I said, this is an every-year sort of thing. In 2016 there were a bunch of climate-related proposals, including “climate expert on board,” “policy to limit global warming to 2°C,” “report on impacts of climate change policies” and “report reserve replacements in BTUs”; they all failed. In 2017, a shareholder proposal asked for “an annual assessment of the long-term portfolio impacts of technological advances and global climate change policies.” Exxon opposed the proposal, noting that it already published annual climate-y reports with names like “Outlook for Energy” and “Energy and Carbon,” but the proposal passed with 62.1% of the vote, and Exxon went and did a report. This had some effect: There wasn’t a climate-change proposal in 2018, though there were proposals for a “board diversity matrix” and a “report on lobbying.” But climate was back in 2019; here’s a 2019 proposal asking for a “new Board Committee on Climate Change to evaluate Exxon Mobil’s strategic vision and responses to climate change”; it got 7.4% of the vote. And then in 2020 there was the Park Foundation’s request for a slightly different report, which failed; in 2021 there’s the Christian Brothers’ request for a yet slightly different report. This is how formal shareholder engagement generally goes: Small social-activist shareholders (individuals, religious orders, activist groups) submit nonbinding proposals asking companies to write reports or form committees, the companies urge shareholders to vote against the proposals, the shareholders usually vote against the proposals, and then everyone does it again next year. Over the long run, the theory goes, this nudges companies in the direction that the activists want: It’s annoying and embarrassing for the companies to fight these proposals every year, so to appease the activists they’ll occasionally write a report; so as not to make the report embarrassing, the company will subtly change its behavior to look better. But each particular proposal can feel a bit trivial: The shareholders are only asked to make a nonbinding request for a report, and they usually don’t even do that.Exxon’s annual meeting today is different. I mean, yes, the Christian Brothers have a nonbinding proposal for a report, that’s the same as every year. But another activist, Engine No. 1 LLC, has a different proposal:Over the past decade, the Company has failed to evolve in a rapidly changing world, resulting in significant underperformance to the detriment of shareholders and risking continued long-term value destruction. … We believe that to address this underperformance, the Company must commit to evolve and chart a long-term strategic plan for sustainable value creation. In that vein, Engine No. 1, through this Proxy Statement, is providing shareholders with the opportunity to weigh in and cast their votes for a slate of independent and highly qualified shareholder-nominated nominees for the first time in the Company’s history. We believe the Nominees will bring a much needed shareholder voice to the current board of directors of the Company (the “Board”).This is very different from the Christian Brothers. For one thing, Engine No. 1 does not own “shares with a market value greater than $2,000,” the minimum threshold for a shareholder proposal; it owns 917,400 shares, worth about $53 million at yesterday’s closing price. This is not a small-stakes social activist; this is an activist hedge fund.For another thing, this proposal is binding, a contested director election rather than a precatory proposal: If a majority of shares are voted for the Engine No. 1 nominees, they will be on Exxon’s board, and Exxon’s nominees won’t be. Even if it wins, Engine No. 1 will only have a minority of the board — four out of 12 directors — so it won’t have an unchecked ability to push through its plans to shake up Exxon’s business, but having four directors and the confidence of the majority of the shareholders is a lot more compelling than having a nonbinding request for a report. And if those directors get on the board, they can meddle in Exxon’s ordinary business: They can propose new ideas to the other directors, and if they win over those directors they can tell Exxon’s executives to implement those ideas and fire the executives if they refuse.And that’s what Engine No. 1 wants: If it wins, it hopes to “impose greater long-term capital allocation discipline by applying more stringent approval criteria for new capital expenditures” and “implement a strategic plan for sustainable value creation by fully exploring growth areas, including more significant investment in clean energy.” That is, stop drilling for oil so much, and spend more time and money on pivoting to clean energy.For a third thing, this proposal is expensive. Nonbinding shareholder proposals get included in the company’s proxy statement; the activist probably needs a lawyer to write the proposal and debate the company’s efforts to exclude it, but you can basically do it as a hobby. Proxy fights over directors are waged using separate proxy statements and a lot of vote canvassing; the activist needs to prepare and file a detailed proxy statement, keep up a steady stream of filings, letters and press releases, and hire people to solicit votes:Since January, Engine No. 1’s bid for four seats on Exxon’s board has turned into one of the most expensive proxy fights ever. Exxon has spent at least $35 million, and Engine No. 1 has spent $30 million, regulatory filings show, in an increasingly pitched battle to persuade shareholders voting Wednesday at the company’s annual meeting.Also it might work:The activists got a boost Tuesday when BlackRock Inc., one of Exxon’s largest shareholders, decided to back three of Engine No. 1’s four board nominees, according to people familiar with the matter.And:The pension systems Calpers, Calstrs and the New York State Common Retirement Fund as well as the European asset manager Legal & General Investment Management have said they will vote for the Engine No 1 slate on Wednesday. America’s two largest proxy advisers this month endorsed some of the hedge fund’s board nominees.Of course I am being a bit silly comparing the Engine No. 1 proxy fight to the Christian Brothers’ nonbinding proxy proposal. The Engine No. 1 proxy fight is a proxy fight, comparable to the many other cases where activist hedge funds urge companies to change their strategies and nominate director candidates to push those changes along. As with most activist-hedge-fund proxy fights, Engine No. 1’s argument to shareholders is essentially a business argument: Exxon’s current strategy has not made enough money for shareholders, and Engine No. 1’s proposed new strategy will make more money for shareholders. (And as with many proxy fights, part of that business case is about “capital allocation discipline”: Activist shareholders tend to think that corporate managers love to waste shareholder money, and they tend to want companies to spend that money on share buybacks instead.)But it is not quite like most proxy fights. For one thing, Exxon is a huge company and Engine No. 1 has a fairly small stake — larger than the Christian Brothers, sure, but smaller than a typical activist stake. (Its $53 million stake represents about 0.02% of the company; it is the 182nd-biggest shareholder on Bloomberg’s holders list.) Spending $53 million on stock and $30 million on a proxy fight is an odd business proposition: If your plan works and the stock goes up 60%, you still lose money. Also, of course, if an activist shareholder accumulates an 8% stake in a company and launches a proxy fight, it has a good start on getting the 51% of the vote it needs; Engine No. 1’s 0.02% doesn’t help much.Instead, Engine No. 1’s business case for change is not a pure business case; it is also an ESG case for change, a push into green energy that appeals to investors interested in environmental, social and governance issues:“This could be a landmark moment for the investment and oil industries alike,” said Edward Mason, director of engagement at Generation Investment Management. “If Engine No 1 candidates are elected, responsible investment will truly have shown its muscle and the import of investor net zero commitments will be clear.”BlackRock, Exxon’s second-biggest shareholder, has  talked a lot about climate change, but it has developed a reputation for voting against too many nonbinding requests for climate reports. Voting for a binding clean-energy proposal at a giant oil company will help change that reputation. I have said this before, but there are basically two kinds of “activism” in investing. One is what the Christian Brothers and As You Sow do: social activism, nonbinding requests that companies issue reports on environmental, social and governance issues. The other is what, like, Carl Icahn does: hedge-fund activism, proxy fights to take control of companies and push them to change strategies to make more money for shareholders. As ESG becomes more mainstream, and as giant investors (1) come to believe that ESG improvements are good for long-term shareholder value and (2) want to vote for ESG improvements in any case to burnish their own ESG credentials, there is an opportunity for a synthesis: You can do hedge-fund activism to take control of companies and change their businesses, by focusing specifically on environmental issues. That’s what Engine No. 1 is trying, and it might work.A bank hearingOccasionally banks do terrible things and their chief executive officers are summoned before Congress to be yelled at, and that can be fun. But today the CEOs of the big U.S. banks are going to Congress to get yelled at for no particular reason, just because Congress likes to do that every year whether or not there’s any news. “Annual Oversight of Wall Street Firms,” it is called, and you can watch the video and read the CEOs’ written testimony here.In the absence of juicy banking news it all  feels pretty miscellaneous. Here, for instance, is the testimony of Morgan Stanley CEO James Gorman, which contains specific responses to questions from Senate Banking Committee Chairman Sherrod Brown, and the questions are mostly not in the vein of, like, “why did you build complex derivatives that were designed to fail” or whatever but rather “what are you doing about climate change? And Covid? And systemic racism in America?” Also one question is effectively “are you breaking any laws we should know about?” A sampling:Describe your state of compliance with all applicable laws and process made to address past violations of law.Provide an assessment of your firm’s efforts to accelerate the transition to a green economy, by reduction in investment and funding of carbon intensive industries, increased investment in green technologies, and efforts to decrease carbon emissions.Assessment of your firm’s response to the non-financial economy’s needs throughout the COVID-19 pandemic.Provide an assessment of your firm’s efforts to identify and alter policies and practices by your institution that contribute to systemic racism and inequality. Discuss the impacts of your firm’s lending, investment, and trading activities on racial and economic inequality in the broader economy generally and in labor markets specifically.You could have a model of big banks that is like “a bank is a reluctant arm of the government.” (A quite respectable model is that  banks are public utilities, private businesses with a special government franchise that comes with benefits and obligations.) All sorts of government policies and goals — monetary and fiscal policy in particular, but also efforts at Covid relief and racial diversity and climate-change mitigation and foreign-policy sanctions and policies on  gun control and fights against terrorism and  sex trafficking and lots of other things — can be transmitted through banks. Often, if a politician wants some improvement on some policy goal, it is easier to get results by yelling at banks for a while than by passing legislation.This makes for surly hearings: The banks want to be left alone to make money; the politicians want the banks to put aside their self-interest and serve the public good. But they are safer ground for the banks than the other kind of hearing. “We want someone to end systemic racism and stop climate change, why aren’t you doing that?” is a better question, for a bank CEO, than “why did you lose all that money on a bad trade?” or “why did your customers lose all that money on a trade you put them in?” Win by losingA somewhat tongue-in-cheek but surprisingly useful maxim of high finance is that it is good for your career if you lose a billion dollars. I mean, if you lose a billion dollars for your employer you will probably be fired, though that depends on who your employer is and how much money you started with and what you did to lose it. But lots of other employers will be excited to hire you, once they learn that you lost a billion dollars for someone else. That is a good sign in a lot of ways:	It shows that someone trusted you to take risks with a lot of money. That’s good! An employer is going to be nervous about letting anyone take billion-dollar risks with its money; if someone else already let you take billion-dollar risks with their money then that is evidence that you are one of the people sensible employers trust to take billion-dollar risks. Of course it went poorly for your last employer but that’s not the point.	It shows that you were willing to take risks. That’s good! Financial firms want people who will do stuff, who will make bold bets, who will take a chance at failing. It’s easy enough to sit around looking busy while basically tracking an index; losing a billion dollars means that you were bold and active.	Sure sure the risks didn’t work out but you probably have a good story about why it seemed like a good idea ex ante.	You have probably learned from your mistakes and won’t do it again. (You probably also, now, have a good story about why it wasn’t a good idea ex ante.[1])	A weird optional bonus is that if you lost a billion dollars for a big employer, you might have some insights into how to take a billion dollars from that employer, which is potentially useful for that employer’s competitors. Not all of finance is, like, Hedge Fund A figuring out how to exploit Bank B’s weaknesses, but some of it is, and if you were one of Bank B’s weaknesses you might be of particular use to Hedge Fund A.People talk about the asymmetric incentives for risk-takers at banks — if you take a lot of risk and it works out, you get a huge bonus; if you take a lot of risk and it blows up, the worst they can do is fire you — but if this maxim is true (and, again, it’s partly a joke) then it's even stronger than that, because if you take a lot of risk and it blows up that’s good for you too. You’re not just long a call on your performance, you’re somehow also long a put. Either way you profit from volatility, so your incentive is to take a lot of risk.[2]I don’t literally mean “a billion dollars,” by the way; that’s a nice round number and certainly attracts attention from future employers, but you can achieve similar career goals with some other large salient loss. Anyway here’s a fun story about  the new chief financial officer of JPMorgan Chase & Co.:Long before Jeremy Barnum was promoted to chief financial officer, he was fired over a trading mishap -- by JPMorgan. He later parted ways with hedge fund BlueMountain Capital Management over another market blunder. ...[In 2004], JPMorgan’s results in fixed income faltered. When Barnum’s [credit derivatives[ team lost a bundle, his name was added to a list of dismissals as the bank’s bosses set out to restructure the unit. He sent coworkers a tongue-in-cheek farewell email recommending that they closely study the career of Joseph Stalin’s henchman Lavrentiy Beria and get really good at PowerPoint.Barnum was soon snapped up by BlueMountain, which named him head of its London office in 2005. The next year, the fund took a bath on wrong-way credit bets linked to Liberty Global Inc.’s Cablecom Holdings, prompting another ouster for Barnum. In a statement at the time, a senior BlueMountain executive said Barnum’s exit was “mutually agreed.”Then came the uncanny turnaround. JPMorgan gave Barnum a second chance and a new mission: Instead of making wagers himself, Barnum would use his trading experience and the lessons he learned to help oversee businesses, spot risks and head off trouble. He rejoined JPMorgan in 2007, right as two of Bear Stearns Cos.’ hedge funds were blowing up.By 2010, Barnum was indispensable to his bosses and on the rise, having helped the firm dodge bullets from the financial crisis. “This guy knows how we lose money,” was I guess the theory; “maybe he can also stop us from losing money.” It worked!By the way, my favorite thing in financial-industry profiles is the unwritten rule that everyone except Chase Coleman has to be described as not fitting in with all those other, stereotypical bankers and hedge funders. The classic of the genre is, like, Warren Buffett lives in a normal house, but lots of bankers and hedge-fund managers in fact live in fancy houses so you have to stretch a little. There is the  hedge-fund consultant whose “most obvious indulgence is a Maserati Ghibli,” or the hedge-fund manager whose “unique position, with one foot inside the lucrative hedge-fund industry and one foot out of it, is perhaps most plain on weekends during the summer,” when — I swear — he only sometimes takes a private plane to his house on Nantucket. (Other times, he flies commercial.) Barnum is unique because, although like a lot of people in finance he went to Groton and Harvard and then straight to JPMorgan, he has a posher accent than everyone else:“You get to know him a little bit and he’s just different than all the other Groton and Harvard people,” said Gus Christensen, a former banker who left Wall Street for politics. They’ve been friends since joining the bank together in 1994, when Barnum, armed with a chemistry degree, showed up in a second-hand Brooks Brothers suit.Christensen and others noted that Barnum’s time overseas had left him talking differently from his peers. “He speaks like a movie actor in the 1930s -- he has a little bit of a lockjaw. It’s not a way of speaking in English that I had heard from anyone else in my generation,” Christensen said. “It’s much more subtle now than it was then.”Well this is ominousNFT dot gamestop dot com, huh. “GameStop NFT,” it says. “Change the Game.” “We are building a team. We welcome exceptional engineers (solidity, react, python), designers, gamers, marketers, and community leaders.” Look, fine, whatever; three things are true:	Non-fungible tokens representing unique entitlements to digital-only assets are in some sense a natively video-game concept. If you play an   immersive multiplayer video game, and you spend hours playing and are deeply invested in your character and care deeply about her success and happiness, you might think nothing of spending millions of in-game currency units, or tens of U.S. dollars, buying things that she needs or wants, or buying unique in-game items that give her an aura of distinction and power. Or you could play a video game in which you  collect different cats, sure, right, “go around collecting digital objects” is a classic sort of gameplay. The items that you are buying and collecting are pure digital artifacts that live on some online platform; saying that you have a unique entitlement to them, and that some bit of code can represent both the digital object and your entitlement to it, seems normal and intuitive. There are of course other uses for NFTs, and I think that they tend to make more sense the closer they come to classic sorts of gaming and leisure collecting activities. NFTs as a complicated form of in-game video-game items, sure. NFTs as a complicated form of   baseball cards and sports memorabilia, sure. NFTs as a complicated form of   conceptual art, yes, look, that’s okay but kind of pushing it. NFTs that  create entitlements to real objects in the real world … I dunno, maybe, but to my mind you could just trade the real objects, or the real entitlements, and dispense with the mystification of the NFT. I guess the point here is that if your business model is “we will somehow execute a vague pivot into being   the future of online video gaming,” NFTs seem like a reasonable sort of pivot.	There is a huge vogue for NFTs right now, or at least there was a month or two ago, and you can sell all sorts of NFTs for wild prices.	There is a huge vogue for GameStop right now, or at least there was a few months ago, and you can sell all sorts of stories about GameStop for wild prices.I don’t know that those three facts add up to anything, but after writing them down next to each other like that I guess, yeah, if I were GameStop I’d hire some NFT developers too.GameStop Corp. common stock closed at $209.43 yesterday, up 16.3% on the day. It was  up more this morning:GameStop shares rallied as much as 10.3% to $231.04 at 9:32 a.m. in New York while AMC rose 9.7% to $18, adding to recent gains. The jumps came as investors increasingly touted the stocks on social media platforms, using hashtags like #AMC500k on Twitter and pumping their bets in trader chatrooms on Stocktwits and Reddit’s WallStreetBets.“It looks like the Reddit Raiders are at it again,” says Michael Pachter, analyst at Wedbush Securities. The pair of companies were among the market’s most actively traded stocks early Wednesday after volumes continued to soar.I hope that GameStop’s NFT developers are working on an NFT of, like, “that time that GameStop became the hottest stock in the world and then stayed that way for months.” That does feel like the sort of event you’d want to commemorate on the blockchain.Things happenAmazon Agrees to  Buy MGM Film Studio for $8.45 Billion. ‘It’s wild out there’: crypto firms lure top bankers in price boom. Meet the Hedge Fund Boss Who Just Bought Tribune’s Newspapers. UniCredit  Bond Coupon Chaos Dents Orcel’s High-Energy Start. Central Banks Face New Balancing Act With Their  Huge Asset Piles. Video Spinoff  Vimeo Slumps in Nasdaq Trading Debut. Traders Shouldn’t Get Prison Time in Spoofing Case, Probation Office Says. Ex-High School Classmates Are Among the World’s Largest  Crypto Holders. Iran  Bans Crypto Mining to Keep the Lights on Over Summer. Workers Return to  Weirder Offices With Moveable Walls and Touchless Elevators. “The scriptures of the sage Levine, who spoke of worrying omens of bond market liquidity, fall under this category.” “What’s fascinating is that, in my own way, I’ve been renting the runway for years.” “And whether you're a person or an inanimate object, if it moves, bulls want to make it stop moving. Which is great for us.” When to Watch the Super Flower Blood Moon Lunar Eclipse 2021 Tonight.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Or not, maybe you are like “that was the correct call, the odds were in my favor, the dice rolled the wrong way but I’d take that bet 100 more times any day.” I feel like that attitude — which in the abstract might be correct — would make it harder for you to get a new job, but what do I know, somebody will appreciate it.[2] Arguably this is the point: Arguably the optimal level of risk-taking for a bank trader or hedge-fund portfolio manager is higher than the natural risk tolerance of the sorts of highly educated prestige-seeking people who are eligible for those roles, so it is good for their employers to say “go ahead, take risk, if it works out you’ll do great and if it doesn’t you’ll also do great.” Obviously lots of people outside the financial industry disagree.
-    
-  
 
 
-    
-      
+
+
+
+
         Follow Us
-        
-          
-        
-        
-          
-        
-        
-          
-        
-      
-      
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
           Get the newsletter
-        
-      
-    
 
 
-      
-      
-  
-    
+
+
+
+
+
+
+
        
-    
-    
-      
-    
-    
+
+
+
+
+
       Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
-    
-    
+
+
        
-    
-  
 
 
-        
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-    
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ce9rlg.5t6n/82de11ab.gif" alt="" border="0" /></a>

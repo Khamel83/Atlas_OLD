@@ -160,7 +160,7 @@
 			}
 		})(document);
 	</script>
-	
+
 <link rel="mask-icon" color="#034981" href="https://9to5mac.com/wp-content/themes/ninetofive/dist/svg/9to5-clock.svg">
 	<meta name="google-adsense-platform-account" content="ca-host-pub-5506057612223327">
 		<script
@@ -267,7 +267,7 @@
 			}
 		})(document);
 	</script>
-	
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=id=GTM-M48W9J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
@@ -461,7 +461,7 @@
 </li>
 </ul></nav>
 			<div class="header-bottom__icons">
-				
+
 	<nav id="nav-social-mobile" class="nav-social-mobile">
 		<ul id="menu-social" class="menu flex"><li id="nav-menu-item-863807" class="menu-item menu-item-type-custom menu-item-object-custom main-menu-item menu-item-depth-0"><a title="View 9to5 on Apple News" href="https://apple.news/THIO8RUsFTaaGHbdNl6KqOQ" class="menu-link main-menu-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-applenews"><path fill="currentColor" d="M407 512H105C47.103 512 0 464.897 0 407V105C0 47.103 47.103 0 105 0h302c57.897 0 105 47.103 105 105v302c0 57.897-47.103 105-105 105"/><path fill="currentColor" d="M407 0H256v512h151c57.897 0 105-47.103 105-105V105C512 47.103 464.897 0 407 0"/><path fill="#f2f2f2" d="M121 111v30H91v215c0 24.813 20.187 45 45 45h240c24.813 0 45-20.187 45-45V111z"/><path fill="#e5e5e5" d="M256 111v290h120c24.813 0 45-20.187 45-45V111z"/><path fill="currentColor" d="M311 229.787V171h-58.787zM209.787 171H181v28.787L282.212 301H311v-28.787zM181 242.213V301h58.787z"/><path fill="#e5e5e5" d="M121 141H91v215c0 19.555 12.541 36.228 30 42.42z"/><path fill="currentColor" d="M256 274.788 282.212 301H311v-28.787l-55-55zM256 171v3.787l55 55V171z"/></svg></a></li>
 <li id="nav-menu-item-863808" class="menu-item menu-item-type-custom menu-item-object-custom main-menu-item menu-item-depth-0"><a title="View 9to5 on LinkedIn" href="https://www.linkedin.com/company/9to5mac.com" class="menu-link main-menu-link"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="icon-linkedin"><path fill="currentColor" d="M29.7 28h-6.564v-9.492c0-2.484-1.027-4.18-3.285-4.18-1.727 0-2.687 1.145-3.134 2.248-.168.395-.142.947-.142 1.499V28h-6.503s.084-16.813 0-18.342h6.503v2.879c.384-1.259 2.463-3.055 5.779-3.055 4.114 0 7.346 2.638 7.346 8.32zM3.496 7.364h-.042C1.36 7.364 0 5.962 0 4.184 0 2.374 1.399 1 3.536 1s3.449 1.37 3.49 3.18c0 1.777-1.354 3.184-3.53 3.184M.749 9.658h5.789V28H.749z"/></svg></a></li>
@@ -532,7 +532,7 @@ window.nineto5ads.push(function() {
 				<ul class="article__meta-guides fs-xs">
 			<li class="meta__guide"><a href="https://9to5mac.com/guides/apple-intelligence/">Apple Intelligence</a></li>
 		</ul>
-									<h1 class="h1">This is every Apple Intelligence feature that’s available now</h1>				
+									<h1 class="h1">This is every Apple Intelligence feature that’s available now</h1>
 				<div class="post-meta flex fs-sm">
 											<a class="plain author-image flex center" href="https://9to5mac.com/author/rchristoffel/">
 							<img alt='Avatar for Ryan Christoffel' src='https://secure.gravatar.com/avatar/bff64efa105c91e6f9c64ea73476006e59b7e460b60496788eec4ade77e58f72?s=30&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/bff64efa105c91e6f9c64ea73476006e59b7e460b60496788eec4ade77e58f72?s=60&#038;d=mm&#038;r=r 2x' class='avatar avatar-30 photo author-gravatar' height='30' width='30' decoding='async'/>						</a>
@@ -546,7 +546,7 @@ window.nineto5ads.push(function() {
 		<div id="river" class="river">
 			<div id="content" class="container flex-lg">
 				<div class="container med post-content">
-					
+
 <figure class="img-border featured-image">
 	<img width="1600" height="800" src="https://9to5mac.com/wp-content/uploads/sites/6/2025/02/apple-intelligence-devices.jpg?quality=82&amp;strip=all&amp;w=1600" class="skip-lazy wp-post-image" alt="How much control are you willing to hand over to Apple Intelligence? [Poll]" srcset="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/02/apple-intelligence-devices.jpg?w=320&amp;quality=82&amp;strip=all&amp;ssl=1 320w, https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/02/apple-intelligence-devices.jpg?w=640&amp;quality=82&amp;strip=all&amp;ssl=1 640w, https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/02/apple-intelligence-devices.jpg?w=1024&amp;quality=82&amp;strip=all&amp;ssl=1 1024w, https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/02/apple-intelligence-devices.jpg?w=1500&amp;quality=82&amp;strip=all&amp;ssl=1 1500w" decoding="async" fetchpriority="high" /></figure>
 
@@ -656,7 +656,7 @@ window.nineto5ads.push(function() {
 	<div class="ad-disclaimer-container"><p class="disclaimer-affiliate"><em>FTC: We use income earning auto affiliate links.</em> <a href="https://9to5mac.com/about/#affiliate">More.</a></p><a href="https://bit.ly/41hwFHk"><img class="aligncenter size-full wp-image-990616" src="https://9to5mac.com/wp-content/uploads/sites/6/2025/02/gif3-1.gif" alt="" width="750" height="150" /></a></div><div id="after_disclaimer_placement"><div class="visitor-promo" data-nosnippet="true">You’re reading 9to5Mac — experts who break news about Apple and its surrounding ecosystem, day after day. Be sure to check out <a href="http://9to5mac.com/">our homepage</a> for all the latest news, and follow 9to5Mac on <a href="http://twitter.com/9to5mac">Twitter</a>, <a href="http://facebook.com/9to5mac">Facebook</a>, and <a href="https://www.linkedin.com/company/9to5mac.com/">LinkedIn</a> to stay in the loop. Don’t know where to start? Check out our <a href="https://9to5mac.com/feature/exclusive/">exclusive stories</a>, <a href="https://9to5mac.com/guides/review/">reviews</a>, <a href="https://9to5mac.com/guides/how-to/">how-tos</a>, and <a href="https://www.youtube.com/9to5mac">subscribe to our YouTube channel</a></div></div>				</div>
 
 <aside class="sidebar container xs">
-	
+
 <div class="featured-items">
 	<h2 attr-title="Featured">
 		Featured	</h2>
@@ -677,9 +677,9 @@ window.nineto5ads.push(function() {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5mac.com/author/benjaminmayo/">
 			<img alt='Avatar for Benjamin Mayo' src='https://secure.gravatar.com/avatar/cf83daab4b0d8e0050f1920bfd4bf0831fe0e065c9659add68ad9866dfd28838?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/cf83daab4b0d8e0050f1920bfd4bf0831fe0e065c9659add68ad9866dfd28838?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5mac.com/author/benjaminmayo/" title="Posts by Benjamin Mayo" rel="author">Benjamin Mayo</a></span>
-	
+
 	<span class="meta__post-date">Sep 12 2025</span>
 
 </div>
@@ -698,9 +698,9 @@ window.nineto5ads.push(function() {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5mac.com/author/chmiller44/">
 			<img alt='Avatar for Chance Miller' src='https://secure.gravatar.com/avatar/57682250b4cca117adc866947cd168039296d63a504baa8880c2572e95a78ca7?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/57682250b4cca117adc866947cd168039296d63a504baa8880c2572e95a78ca7?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5mac.com/author/chmiller44/" title="Posts by Chance Miller" rel="author">Chance Miller</a></span>
-	
+
 	<span class="meta__post-date">Sep 11 2025</span>
 
 </div>
@@ -719,9 +719,9 @@ window.nineto5ads.push(function() {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5mac.com/author/rchristoffel/">
 			<img alt='Avatar for Ryan Christoffel' src='https://secure.gravatar.com/avatar/bff64efa105c91e6f9c64ea73476006e59b7e460b60496788eec4ade77e58f72?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/bff64efa105c91e6f9c64ea73476006e59b7e460b60496788eec4ade77e58f72?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5mac.com/author/rchristoffel/" title="Posts by Ryan Christoffel" rel="author">Ryan Christoffel</a></span>
-	
+
 	<span class="meta__post-date">Sep 11 2025</span>
 
 </div>
@@ -740,9 +740,9 @@ window.nineto5ads.push(function() {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5mac.com/author/dylanmcdonald/">
 			<img alt='Avatar for Dylan McDonald' src='https://secure.gravatar.com/avatar/8e4039cdeade8c328928d43fd0efcc35a3c2bfa330feab471cd765575e2b92cf?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/8e4039cdeade8c328928d43fd0efcc35a3c2bfa330feab471cd765575e2b92cf?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5mac.com/author/dylanmcdonald/" title="Posts by Dylan McDonald" rel="author">Dylan McDonald</a></span>
-	
+
 	<span class="meta__post-date">Sep 11 2025</span>
 
 </div>
@@ -761,7 +761,7 @@ window.nineto5ads.push(function() {
 <div class="container med left">
 					<div class="article__youtube-video"><div class="youtube-video__content flex"><div class="icon-play-button"><span class="icon"></span></div><p><a href="https://www.youtube.com/c/9to5mac?sub_confirmation=1" target="_blank" rel="noopener">Check out 9to5Mac on YouTube for more Apple news:</a></p></div><!-- youtube embed --><div class="fluid-width-video-wrapper wp-block-embed is-type-video"><iframe loading="lazy" title="Recent Videos" data-src="https://www.youtube.com/embed/VmbqunKowLQ?playlist=71phz7W0Z1U,OMVQT4Z1Ty8,5SIcmTIqXTM,8uhJExlkP8c,H96B2WDTvvI,99F7u6-8a84,IPrxguY1ssw,YNwKBq0tDeY,5c0-neXrkeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="1000" height="563"></iframe></div></div><div id="div-gpt-ad-1437016474156-0-991886" class="inlinead ad-container ad-container--river inline-wide-single mobile-and-desktop"></div>						<section id="comments">
 							<h2 attr-title="Comments">Comments</h2>
-							
+
 <!-- Comment script is enqueued in header.php to allow for faster loading. -->
 <div id="openweb-comments" aria-hidden="false">
 	<div
@@ -789,7 +789,7 @@ window.nineto5ads.push(function() {
 								</span>
 							</button>
 						</section><!-- #comments -->
-						
+
 <div class="related-guides">
 	<h2 attr-title="Guides"><span>Guides</span></h2>
 			<div class="related-guides__list flex-md">
@@ -804,7 +804,7 @@ window.nineto5ads.push(function() {
 					</a>
 				</div>
 					</div>
-	
+
 	</div>
 <div class="author-bio author-bio-container">
 	<h2 attr-title="Author"><span>Author</span></h2>
@@ -961,7 +961,7 @@ slot.classList.add( classAdded );
 googletag.pubads().setTargeting( 'post_ID', '991886' );
 				googletag.pubads().setTargeting( 'author', 'rchristoffel' );
 									googletag.pubads().setTargeting( 'cat', ["apple-intelligence"] );
-					
+
 			googletag.pubads().setTargeting( 'page_type', 'post' );
 
 googletag.pubads().enableLazyLoad({

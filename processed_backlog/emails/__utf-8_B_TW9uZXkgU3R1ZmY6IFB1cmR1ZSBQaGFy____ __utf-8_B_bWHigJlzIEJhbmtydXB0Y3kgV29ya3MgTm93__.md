@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Purdue Pharma is a corporation that makes and sells opioid painkillers.%3Cp%3EActually%20the%20main%20debtor%20in%20the%20bankruptcy%20is%20
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Purdue
-    
-  
+
+
 
 Purdue Pharma is a corporation that makes and sells opioid painkillers.
   [1]
@@ -94,37 +94,37 @@ There is an eight-factor test for deciding when to give these releases, though I
 The other is that “the Releases are essential to reorganization,” mainly because, decades ago, Purdue agreed to indemnify the Sacklers for Purdue-related claims against them. And so if someone sued the Sacklers today for things that Purdue did, Purdue would technically be on the hook to pay the damages; that is, the Sacklers would have a claim against the bankruptcy estate. The third-party releases are a way to deal with that uncertain claim (by getting rid of it), and so they help resolve the bankruptcy case and get the victims paid.
 You still don’t have to like it! (And the district court’s decision, though it did not have the intent of extracting an extra billion from the Sacklers, did have that effect.) But it seems like a reasonable outcome, a compromise between the general idea that corporate shareholders get limited liability and the specific intuition that opioid-company controlling shareholders maybe shouldn’t.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Are annuities bank accounts?
-    
-  
+
+
 
 Conceptually, there are three main ways to finance a portfolio of long-term bonds
   [5]
@@ -154,11 +154,11 @@ Yes right if you can’t take money out of your annuity, that makes it very good
 Investors may face another cost buried in the annuity small print: the so-called market value adjustment. When investors surrender an annuity with one of these adjustments, the return is adjusted to reflect changes in the value of the underlying bonds since the contract was bought. 
 So the answer is mostly that there was no run on life insurers because life insurers have structured their business not to be runnable.
 
-  
-    
+
+
       Liability management
-    
-  
+
+
 
 If I borrow $100 from you for several years at a fixed interest rate, and then a year later interest rates have gone down by 2 percentage points, that loan might have a market value of $110: Its fixed interest rate is now 2% above the market rate, making it more valuable. If I then run into some financial difficulties and can’t pay you back, I might come to you and say “hey I am having trouble with this debt, can we work something out?” And you might be inclined to do something, since you are after all $10 richer. You might say “sure we can cut the interest rate by 1 percentage point,” for instance, which would reduce my annual expenses but still leave you with a $105 asset. Or you might agree to extend the loan’s maturity or cut the principal or suspend interest for a year or just hand me $5 or whatever. You have done well on this deal, strictly from an interest-rates perspective, and so you might be inclined to share some of that benefit with me.
   [6]
@@ -175,14 +175,14 @@ The new rate is 6.875%, up from 3.875%, which would bring the monthly payment to
 
 That doesn’t really help? The upshot is that the Federal Housing Administration is going to propose a plan to let homeowners modify their loans and keep their old rates: “The FHA would essentially pay part of the homeowner’s monthly bill, using its insurance fund, then structure the repayment as a second loan due after the first is paid off, officials said.” Obviously you are a more or less non-economic actor committed to helping debtors, you can just give them money. (If you are a government non-economic actor committed to balancing the budget, you can just have them promise to repay you in the distant future.) But it is hard to find a lot of value for everyone to share.
 
-  
-    
+
+
       Blockchain blockchain blockchain
-    
-  
+
+
 
 One view you might have is that crypto, in some form, is the future of the financial system. This is a fairly straightforward view. If you think it, you will want to buy cryptocurrencies, and you will want to buy them in the crypto financial system. What that means is debatable, and debated: Do you buy your crypto on a centralized crypto exchange founded by a laser-eyed crypto visionary, or do you trust only immutable code and buy crypto on decentralized exchanges? But broadly speaking, you use the crypto financial system to place your bets on crypto going up.
-Some people, though, want to make bets on crypto going up without using the crypto financial system. They want to 
+Some people, though, want to make bets on crypto going up without using the crypto financial system. They want to
 buy Bitcoin futures on a US regulated commodity futures exchange, or Ether in their Robinhood account, or whatever. This seems less straightforward: You are betting on crypto, but you are not yourself trusting the crypto financial system. 
 One reason to do this is if you think that crypto is good, but its financial system is bad: You want to bet on crypto for reasons other than its future of enabling financial transactions. I don’t know exactly how that view would go. What about: “Crypto tokens are the foundation for web3, they are the building blocks of the metaverse, they are like shares of stock in the technology entities of the future. But crypto exchanges are under-regulated and careless and have a grim history of losing or stealing customer money. If you can trade these good tokens of the future on the good exchanges of the past, that’s the best possible outcome.” I don’t know that anyone believes the web3 stuff here in 2023, but this is an imaginable view. 
 Another view you might have is that crypto provides a good financial system for some users, but a bad one for institutional customers. There are various possible flavors of this view:
@@ -217,18 +217,18 @@ It’s also a cruel irony that Gemini’s long embrace of regulation — from a 
 
 Yeah I mean I think a few years ago it was entirely rational to think that “pure crypto exchange with no legacy finance ties, but mostly trying to follow US law” was a good niche to be in. Very reasonable bet that   Coinbase and Gemini made. But wrong!
 
-  
-    
+
+
       Things happen
-    
-  
 
 
-Twitter Is Now Worth Just 33% of Elon Musk’s Purchase Price, Fidelity Says. Centerview: the Wall St power brokers confronting a rare rupture. The Anti-Woke Presidential Candidate Who Wants to  Crush ESG and Gut the Fed. Fake Signals and American Insurance: How a Dark Fleet Moves Russian Oil. SEC Queries 
-Private Equity Firms That Pulled Cash as Silicon Valley Bank Failed. Bankman-Fried Points to Law Firm Advice as   FTX Fraud Defense.   Goldman Planning Another Round of Job Cuts Amid Chill in Banking. Crypto Data Firm   Nansen to Lay Off 30% of Staff. Paradigm broadening crypto-only focus to areas including AI. Dimon Hints at Life After JPMorgan, Says He’d   Consider Public Office. Strip Mall Owner Accused of 
+
+
+Twitter Is Now Worth Just 33% of Elon Musk’s Purchase Price, Fidelity Says. Centerview: the Wall St power brokers confronting a rare rupture. The Anti-Woke Presidential Candidate Who Wants to  Crush ESG and Gut the Fed. Fake Signals and American Insurance: How a Dark Fleet Moves Russian Oil. SEC Queries
+Private Equity Firms That Pulled Cash as Silicon Valley Bank Failed. Bankman-Fried Points to Law Firm Advice as   FTX Fraud Defense.   Goldman Planning Another Round of Job Cuts Amid Chill in Banking. Crypto Data Firm   Nansen to Lay Off 30% of Staff. Paradigm broadening crypto-only focus to areas including AI. Dimon Hints at Life After JPMorgan, Says He’d   Consider Public Office. Strip Mall Owner Accused of
 Using Investor Cash for Private Jets. ChatGPT is  bad at tic-tac-toe. South Korea’s Spy Agency Says Kim Jong Un May Have   Insomnia. The  Human Piranha Teaches Salesmanship. India official drains entire dam to  retrieve phone.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Actually the main debtor in the bankruptcy is Purdue Pharma LP, a limited partnership, not a corporation. But the legal situation is essentially the same, the governance structures seem to have been quite corporate, there appear to be other corporations in the hierarchy, and it is just easier to talk about limited liability corporations than limited partnerships. But really instead of “the shareholders of a corporation” I should probably be saying things like “the limited partners of a limited partnership.”
 
 
@@ -247,48 +247,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Or not: You were supposed to get the benefit of declining rates, we knowingly allocated risks that way, etc.; it is not in general fair to expect lenders to give up the benefits of owning fixed-rate loans in a declining interest rate environment. But you might feel a smidge generous.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -299,46 +299,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciudtq.5k63/dbc8602d.gif" alt="" border="0" /></a>

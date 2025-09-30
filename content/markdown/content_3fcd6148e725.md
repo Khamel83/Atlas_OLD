@@ -119,7 +119,7 @@ window._nymPermutive = {
   window._nymPermutive.type = 'Tag page';
   window._nymPermutive.article.vertical = 'NYMag';
 </script>
-  
+
     <script type="application/ld+json">
       {
         "@context": "http://web.archive.org/web/20241226011106/http://schema.org",
@@ -244,7 +244,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -324,14 +324,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) permutive.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    permutive.identify(pid); 
-    if (isCountable) { 
+    permutive.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -341,7 +341,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"nymag","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -441,11 +441,11 @@ dataLayer.push({
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       (new Fingerprint2({excludeJsFonts: true, excludeFlashFonts: true, excludeCanvas: true, excludeWebGL: true})).get(function (fp) {
         var now = Date.now();
         id = fp + '.' + now;
@@ -875,7 +875,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1218,7 +1218,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1285,7 +1285,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b83/b01/8a8decdbae447191461b044fd1a8dd73c3-Doug-Burgum.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b83/b01/8a8decdbae447191461b044fd1a8dd73c3-Doug-Burgum.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2023/10/doug-burgum-still-has-a-lot-of-money-to-light-on-fire.html" class="link-text"><span class="headline">Doug Burgum Still Has a Lot of Money to Light on Fire</span></a><span class="teaser">The North Dakota governor is spending a lot of money for no apparent purpose. But he’s a piker compared to 2020 billionaires Steyer and Bloomberg.</span></div>
@@ -1313,7 +1313,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/464/de4/f70ef69de621be729de60d7f2c1768d461-7817-Living-room.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/464/de4/f70ef69de621be729de60d7f2c1768d461-7817-Living-room.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://www.curbed.com/2023/10/georgina-bloomberg-101-cpw-apartment.html" class="link-text"><span class="headline">Georgina Bloomberg’s Listing Her Apartment for Less Than What She Paid in 2010</span></a><span class="teaser">Uptown co-ops are a tough sell right now.</span></div>
@@ -1341,7 +1341,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/5c6/243/9f57ad59cd8eb02d1fdc396ea896d7e708-adams-nypd.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/5c6/243/9f57ad59cd8eb02d1fdc396ea896d7e708-adams-nypd.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2023/06/keechant-sewell-resigns-eric-adams-nyc.html" class="link-text"><span class="headline">Eric Adams, Micromanager</span></a><span class="teaser">It’s clearer than ever that he’s running New York on his own.</span></div>
@@ -1372,7 +1372,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/89f/001/b9ffacba32f13d09d3f6b900a070e71871-citibike-1.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/89f/001/b9ffacba32f13d09d3f6b900a070e71871-citibike-1.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://www.curbed.com/2023/05/citi-bike-nyc-ridership-10-years.html" class="link-text"><span class="headline">‘We Were Riding in a City That Simply Hadn’t Existed Just a Few Years Earlier’</span></a><span class="teaser">Reflecting on a decade of Citi Bike with a dozen New Yorkers who made it happen.</span></div>
@@ -1400,7 +1400,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/f08/15c/3427b52d371532a596b1596b1c0d092403-eric-adams-lede.2x.rhorizontal.w610.jpg" width="610" height="410">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/f08/15c/3427b52d371532a596b1596b1c0d092403-eric-adams-lede.rhorizontal.w610.jpg" width="610" height="410">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/article/eric-adams-nyc-mayor-six-months-in.html" class="link-text"><span class="headline">Waiting (and Waiting) for an Adams Doctrine</span></a><span class="teaser">Six months into a highly energetic mayoralty, how has Eric Adams changed the city — if at all?</span></div>
@@ -1428,7 +1428,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e63/e76/7a58dfa0e6fb9782544f88ee97e4deb5fa-eric-adams.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e63/e76/7a58dfa0e6fb9782544f88ee97e4deb5fa-eric-adams.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2021/11/eric-adams-needs-to-knock-off-the-globetrotting.html" class="link-text"><span class="headline">Eric Adams Needs to Knock Off the Globe-trotting</span></a><span class="teaser">The mayor-elect’s frequent international jaunts could come at a political cost.</span></div>
@@ -1456,7 +1456,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e7a/076/e01d163b08d4050e87e9ebc98d7134e95c-GettyImages-619826792.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e7a/076/e01d163b08d4050e87e9ebc98d7134e95c-GettyImages-619826792.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2021/08/trump-tax-cuts-saved-bloomberg-usd68-million-in-just-one-year.html" class="link-text"><span class="headline">Trump Tax Cuts Saved Bloomberg $68 Million in Just One Year</span></a><span class="teaser">IRS records obtained by ProPublica show how the Trump tax cuts are a boon for many billionaires — even billionaires who called Trump a “clown.”</span></div>
@@ -1484,7 +1484,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/6a8/991/f2cde4b93ee5bf739170ace6c6e9887ac7-mike-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/6a8/991/f2cde4b93ee5bf739170ace6c6e9887ac7-mike-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/09/bloomberg-pays-fines-of-32-000-florida-felons-to-vote.html" class="link-text"><span class="headline">Bloomberg Helps Pay Fines of 32,000 Florida Ex-Felons So They Can Vote</span></a><span class="teaser">The billionaire helped raise $16 million to pay fees of ex-felons so they can register to vote — despite a GOP-led law that functions as a poll tax.</span></div>
@@ -1512,7 +1512,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/012/a17/167d86290070e054f4569dba8bc8d0cb88-rap-100-the-lost-era-rudy-giuliani.2x.rhorizontal.w610.jpg" width="610" height="410">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/012/a17/167d86290070e054f4569dba8bc8d0cb88-rap-100-the-lost-era-rudy-giuliani.rhorizontal.w610.jpg" width="610" height="410">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://www.vulture.com/article/giuliani-bloomberg-new-york-rap-essay.html" class="link-text"><span class="headline">New York Rap Never ‘Fell Off’ — It Was Snuffed Out</span></a><span class="teaser">Twenty years of pressure from two Republican mayors with lofty dreams of stamping out crime had a demonstrable effect on the culture.</span></div>
@@ -1540,7 +1540,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/bc2/164/f2e1e68c7cc34f1c9c4f6961939d778416-michael-bloomberg-florida.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/bc2/164/f2e1e68c7cc34f1c9c4f6961939d778416-michael-bloomberg-florida.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/09/bloomberg-to-spend-usd100-million-in-florida-to-help-joe-biden.html" class="link-text"><span class="headline">Bloomberg to Spend $100 Million to Help Biden Defeat Trump in Florida</span></a><span class="teaser">The billionaire is fulfilling a long-delayed vow with a major ad buy in a swing state pivotal to both campaigns.</span></div>
@@ -1568,7 +1568,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b3d/7e3/7e9d638a02d6fcb279e8cc80407ba4c1b8-DNC-Day-4.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b3d/7e3/7e9d638a02d6fcb279e8cc80407ba4c1b8-DNC-Day-4.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/08/democratic-national-convention-day-4-live-updates.html" class="link-text"><span class="headline">Democratic National Convention, Day 4: Live Updates</span></a><span class="teaser">Follow along with Intelligencer staff for the fourth and final day of the virtual convention, featuring Mayor Pete, Tammy Duckworth, and Joe Biden.</span></div>
@@ -1596,7 +1596,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/a79/91b/50b1ac4c02f6142fe625c2d97526d293b6-joe-biden-sad.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/a79/91b/50b1ac4c02f6142fe625c2d97526d293b6-joe-biden-sad.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/08/13-days-that-shook-the-political-earth.html" class="link-text"><span class="headline">13 Days That Shook the Political Earth</span></a><span class="teaser">Left for dead by some after New Hampshire, Joe Biden’s brisk comeback was one for the ages.</span></div>
@@ -1624,7 +1624,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e6c/4d3/bbb405709be40671934efb9aff009ba768-25-donkeys.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e6c/4d3/bbb405709be40671934efb9aff009ba768-25-donkeys.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/07/not-much-democratic-disarray-in-2020.html" class="link-text"><span class="headline">Not Much ‘Democratic Disarray’ in 2020</span></a><span class="teaser">Polling indicates that backers of Biden’s primary rivals are falling into line much more solidly than did Sanders supporters in 2016.</span></div>
@@ -1655,7 +1655,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/bd5/693/27dc17beb6d39182d85cf5ea8c9cf2339e-bloomberg-billions.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/bd5/693/27dc17beb6d39182d85cf5ea8c9cf2339e-bloomberg-billions.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/04/billionaire-candidate-spent-over-usd1-billion-on-his-campaign.html" class="link-text"><span class="headline">Billionaire Candidate Spent Over $1 Billion on His Presidential Campaign</span></a><span class="teaser">Michael Bloomberg won 55 delegates in the primary, spending roughly $18 million per delegate.</span></div>
@@ -1683,7 +1683,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b6a/9ff/c983abd4490f5599ab6f46f4d7d7a4636e-bernie-sanders.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b6a/9ff/c983abd4490f5599ab6f46f4d7d7a4636e-bernie-sanders.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/04/bernie-sanders-was-also-done-in-by-bad-luck.html" class="link-text"><span class="headline">Bernie Sanders Was Also Done In by Bad Luck</span></a><span class="teaser">Sanders did some things well and a few poorly in his 2020 bid. But from Bloomberg’s crash to the pandemic, some obstacles were out of his control.</span></div>
@@ -1711,7 +1711,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/59b/a15/73a8f1c0c227e67c857838112dd707c75f-joe-biden-black-support.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/59b/a15/73a8f1c0c227e67c857838112dd707c75f-joe-biden-black-support.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/04/joe-biden-owes-it-all-to-african-american-voters.html" class="link-text"><span class="headline">Joe Biden Owes It All to African-American Voters</span></a><span class="teaser">In retrospect, Biden’s once-improbable nomination was again and again made possible by crucial moments of support from black voters.</span></div>
@@ -1739,7 +1739,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/805/c48/0613b8e941c94a9d92ca66c941cbaf35e5-23-michael-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/805/c48/0613b8e941c94a9d92ca66c941cbaf35e5-23-michael-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/ex-campaign-staff-suing-bloomberg-for-broken-salary-promises.html" class="link-text"><span class="headline">Ex-Campaign Staff Suing Bloomberg For Broken Salary Promises</span></a><span class="teaser">They thought they had steady, well-paid jobs through November. But then they got laid off at the worst possible time.</span></div>
@@ -1767,7 +1767,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/7a3/27a/4bd958e0aa89b0ec17be14474769af5c8c-20-mike-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/7a3/27a/4bd958e0aa89b0ec17be14474769af5c8c-20-mike-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/bloomberg-bails-on-anti-trump-super-pac.html" class="link-text"><span class="headline">Bloomberg Bails on Anti-Trump Super-PAC</span></a><span class="teaser">Yes, he’s giving a relatively parsimonious $18 million to the DNC, but a lot of well-paid staffers will be left in the lurch.</span></div>
@@ -1795,7 +1795,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/5cb/8bc/46d3f3e6bce063f97a0c918624e136686e-04-tennessee-08.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/5cb/8bc/46d3f3e6bce063f97a0c918624e136686e-04-tennessee-08.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/in-tennessee-voting-for-biden-amid-the-wreckage.html" class="link-text"><span class="headline">In Tennessee, Voting for Biden Amid the Wreckage</span></a><span class="teaser">After a series of devastating and deadly storms, the people of Tennessee still showed up to cast their ballots in a tumultuous Democratic primary.</span></div>
@@ -1830,7 +1830,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/efa/9c9/3fcb9c994ca4bbf6be9f5dbb821e15f5c0-4-bloomberg-money-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/efa/9c9/3fcb9c994ca4bbf6be9f5dbb821e15f5c0-4-bloomberg-money-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://www.thecut.com/2020/03/mike-bloomberg-drops-out-of-race-after-spending-usd550-million.html" class="link-text"><span class="headline">Some Better Ways Bloomberg Could’ve Spent $500 Million</span></a><span class="teaser">Instead of sinking it into a doomed presidential campaign.</span></div>
@@ -1858,7 +1858,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ae0/057/2990ff3689a7d7b97472eaee7f5ed64cc2-sanders-biden-2020-race.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ae0/057/2990ff3689a7d7b97472eaee7f5ed64cc2-sanders-biden-2020-race.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/bidens-giant-bounce-suddenly-makes-it-a-two-candidate-race.html" class="link-text"><span class="headline">Biden’s Giant Bounce Suddenly Makes It a Two-Candidate Race</span></a><span class="teaser">All the talk of a contested convention is probably moot now.</span></div>
@@ -1886,7 +1886,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/49f/2e8/195aeaa0a41ca63d81d480cffac57a8f88-03-bloomberg-stage.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/49f/2e8/195aeaa0a41ca63d81d480cffac57a8f88-03-bloomberg-stage.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/super-tuesday-results-michael-bloomberg-loses-badly.html" class="link-text"><span class="headline">No Marketing Budget Could Sell a Product As Bad As Bloomberg 2020</span></a><span class="teaser">But a less egotistical billionaire may one day put Bloomberg’s blueprint for plutocracy to better use.</span></div>
@@ -1914,7 +1914,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/8a1/877/4c0afe2afd7e6f845171da876a4607453e-bloomberg-warren.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/8a1/877/4c0afe2afd7e6f845171da876a4607453e-bloomberg-warren.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/bloomberg-and-warren-in-real-trouble-on-super-tuesday.html" class="link-text"><span class="headline">Bloomberg and Warren in Real Trouble on Super Tuesday</span></a><span class="teaser">Bloomberg’s underperforming everywhere, and Warren is running third in her home state.</span></div>
@@ -1945,7 +1945,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1bc/4e3/30fbea055c818ad85373529cf7efd88a7b-03-joe-biden-smiling.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1bc/4e3/30fbea055c818ad85373529cf7efd88a7b-03-joe-biden-smiling.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/biden-romping-to-big-win-in-virginia.html" class="link-text"><span class="headline">Biden Romping to Big Win in Virginia</span></a><span class="teaser">It was an especially inauspicious result for Michael Bloomberg, who has invested in Virginia Democratic politics for years.</span></div>
@@ -1973,7 +1973,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ea5/f57/85f41ae406e2e1a04cdcd9232909b2117d-03-klobuchar-buttigieg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ea5/f57/85f41ae406e2e1a04cdcd9232909b2117d-03-klobuchar-buttigieg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/what-happens-to-delegates-when-their-candidate-quits.html" class="link-text"><span class="headline">What Happens to Delegates When Their Candidate Quits?</span></a><span class="teaser">Buttigieg and Klobuchar didn’t acquire many pledged delegates before dropping out, but Bloomberg and Warren could be different.</span></div>
@@ -2001,7 +2001,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e6c/6e0/5c89e917d1ccd37425f2f55b777bfce8e8-03-mike-bloomberg-miami.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e6c/6e0/5c89e917d1ccd37425f2f55b777bfce8e8-03-mike-bloomberg-miami.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/bloomberg-why-arent-moderates-coalescing-around-me.html" class="link-text"><span class="headline">Bloomberg: Why Aren’t Moderates Coalescing Around Me?</span></a><span class="teaser">Asked Tuesday why he shouldn’t join Pete and Amy in supporting Joe Biden, Mike Bloomberg suggested they should all support him.</span></div>
@@ -2029,7 +2029,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e5b/3bc/7eb4c63d226d9edf0eb0b4f2c7ed50d0da-02-sanders-biden-super-tuesday.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e5b/3bc/7eb4c63d226d9edf0eb0b4f2c7ed50d0da-02-sanders-biden-super-tuesday.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/five-things-to-watch-for-on-super-tuesday.html" class="link-text"><span class="headline">Five Things to Watch For on Super Tuesday</span></a><span class="teaser">It’s more complicated than just declaring a winner and some losers.</span></div>
@@ -2057,7 +2057,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b52/822/ae61dcc9511ceb5c028a50d4b673b0bd9b-02-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b52/822/ae61dcc9511ceb5c028a50d4b673b0bd9b-02-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/bloomberg-absolved-banks-blamed-homeowners-for-recession.html" class="link-text"><span class="headline">Michael Bloomberg Repeatedly Blamed Homeowners for the Recession</span></a><span class="teaser">The former mayor’s infamous redlining comments weren’t an isolated incident.</span></div>
@@ -2085,7 +2085,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c4b/409/e13bc7a51b2a80d6786b9abe5709fbc5ae-29-michael-bloomberg-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c4b/409/e13bc7a51b2a80d6786b9abe5709fbc5ae-29-michael-bloomberg-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/with-biden-surging-whats-next-for-bloomberg.html" class="link-text"><span class="headline">With Biden Surging, What’s Next for Bloomberg?</span></a><span class="teaser">Bloomberg’s campaign has been premised on a big Super Tuesday performance. Biden’s huge S.C. win has thrown all that into question.</span></div>
@@ -2113,7 +2113,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/060/1af/baa29c82576ff8fb45ad1be648e9f867d6-01-pete-buttigieg-sc-rally.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/060/1af/baa29c82576ff8fb45ad1be648e9f867d6-01-pete-buttigieg-sc-rally.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/03/buttigieg-never-had-a-chance-without-non-white-voters.html" class="link-text"><span class="headline">Buttigieg Never Had a Chance Without Non-White Voters</span></a><span class="teaser">Mayor Pete’s inability to appeal to a diverse base of support led him to the exit before a full demographic humiliation on Super Tuesday.</span></div>
@@ -2141,7 +2141,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c4b/409/e13bc7a51b2a80d6786b9abe5709fbc5ae-29-michael-bloomberg-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c4b/409/e13bc7a51b2a80d6786b9abe5709fbc5ae-29-michael-bloomberg-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/will-biden-bounce-past-bloomberg-on-super-tuesday.html" class="link-text"><span class="headline">Will Biden Bounce Past Bloomberg on Super Tuesday?</span></a><span class="teaser">Biden needs to parlay his recent good luck into a larger delegate haul than Bloomberg’s on Super Tuesday and stay competitive with Sanders.</span></div>
@@ -2169,7 +2169,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/f9e/9ae/357209b519107570ccdf93fc8bb7584447-29-joe-biden-pointing-up.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/f9e/9ae/357209b519107570ccdf93fc8bb7584447-29-joe-biden-pointing-up.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/joe-biden-now-only-democrat-who-can-stop-bernie-sanders.html" class="link-text"><span class="headline">Joe Biden Is Now the Only Democrat Who Can Stop Bernie Sanders</span></a><span class="teaser">What I missed about Biden’s strength.</span></div>
@@ -2197,7 +2197,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/4ba/808/31025143cdb99deb3f29c2da0d17054ce5-29-michael-bloomberg-va-rally.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/4ba/808/31025143cdb99deb3f29c2da0d17054ce5-29-michael-bloomberg-va-rally.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bloombergs-alleged-aid-to-sacklers-should-be-no-surprise.html" class="link-text"><span class="headline">Bloomberg’s Alleged Aid for the Sackler Family Should Come As No Surprise</span></a><span class="teaser">A new report reveals that the billionaire gave PR advice to the now infamous family behind the opioid epidemic.</span></div>
@@ -2228,7 +2228,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/6bd/546/b13c539b327f415ca52f2cc0cd8c5ca961-02-28-bloomberg-1-lede.2x.rhorizontal.w610.jpg" width="610" height="410">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/6bd/546/b13c539b327f415ca52f2cc0cd8c5ca961-02-28-bloomberg-1-lede.rhorizontal.w610.jpg" width="610" height="410">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/mike-bloomberg-2020-campaign.html" class="link-text"><span class="headline">Inside Bloomberg’s $6-Million-a-Day Spoiler Campaign</span></a><span class="teaser">The ego and the altruism of the would-be savior of the Democratic Party.</span></div>
@@ -2256,7 +2256,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/658/4a9/5773f0ac106e5699b171c001c80ba9027c-28-joe-biden-waiting-in-sc.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/658/4a9/5773f0ac106e5699b171c001c80ba9027c-28-joe-biden-waiting-in-sc.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/biden-has-turned-back-the-clock.html" class="link-text"><span class="headline">Biden Has Turned Back the Clock</span></a><span class="teaser">After a political near-death experience followed by a lucky streak, Biden is again a viable candidate for the presidential nomination.</span></div>
@@ -2284,7 +2284,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/9ac/dfc/9287d415eec54bb57ae8ae8de2cc071a1e-28-bill-de-blasio-michael-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/9ac/dfc/9287d415eec54bb57ae8ae8de2cc071a1e-28-bill-de-blasio-michael-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bill-doesnt-like-mike-mayor-de-blasios-war-on-bloomberg.html" class="link-text"><span class="headline">Bill Doesn’t Like Mike: Mayor de Blasio’s War on Bloomberg</span></a><span class="teaser">Hostilities have been rising between the current New York mayor and his predecessor amid Bloomberg’s presidential campaign.</span></div>
@@ -2312,7 +2312,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1f0/579/5be1eb8f95b68ce6fe7f13dabed7ed8839-27-1952-dem-convention.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1f0/579/5be1eb8f95b68ce6fe7f13dabed7ed8839-27-1952-dem-convention.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/a-contested-or-brokered-election-analysis-and-prediction.html" class="link-text"><span class="headline">The Democrats Slouch Toward a Contested Convention</span></a><span class="teaser">If Super Tuesday leaves Democrats with multiple viable candidacies and delegate-snagging stragglers, no one may have a majority before Milwaukee.</span></div>
@@ -2340,7 +2340,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/d04/046/cd9c934065d7ba1220d2a88aa6d4c22785-27-buttigieg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/d04/046/cd9c934065d7ba1220d2a88aa6d4c22785-27-buttigieg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/pete-scrounging-for-super-tuesday-delegates-not-state-wins.html" class="link-text"><span class="headline">Buttigieg’s Plan to Stay Alive in the Primaries</span></a><span class="teaser">Buttigieg’s narrow base of support isn’t helping him as the primary map goes national.</span></div>
@@ -2368,7 +2368,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ae7/4ec/33c0145fcd5a90289766db16635e22b8e9-27-obama-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ae7/4ec/33c0145fcd5a90289766db16635e22b8e9-27-obama-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/many-democrats-think-obama-has-endorsed-a-candidate.html" class="link-text"><span class="headline">Most Democrats Think Obama Has Endorsed a Presidential Candidate. He Hasn’t.</span></a><span class="teaser">Biden and Bloomberg have courted the appearance of a close affinity with the 44th president, and have succeeded to a considerable extent.</span></div>
@@ -2396,7 +2396,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/509/801/a671e09a6a1684abfd65134e003864dcb4-26-sanders-california.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/509/801/a671e09a6a1684abfd65134e003864dcb4-26-sanders-california.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/millions-of-california-indies-banned-from-democratic-primary.html" class="link-text"><span class="headline">The Coming Freak-out Over the California Primary</span></a><span class="teaser">Confusion over how independent voters can participate could cost Bernie Sanders a lot of delegates, if not a win.</span></div>
@@ -2424,7 +2424,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/532/278/7dd6c117869317102a17aee9c65133589a-26-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/532/278/7dd6c117869317102a17aee9c65133589a-26-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bidens-very-narrow-path-to-the-nomination.html" class="link-text"><span class="headline">Biden’s Very Narrow Path to the Nomination</span></a><span class="teaser">After a good debate performance, Biden has a chance to reestablish himself as the moderate alternative to Sanders if he wins South Carolina.</span></div>
@@ -2452,7 +2452,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/858/b05/d29a04389aa7b438f0f005faee27af0fb3-26-dem-debate.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/858/b05/d29a04389aa7b438f0f005faee27af0fb3-26-dem-debate.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/south-carolina-debate-chaos.html" class="link-text"><span class="headline">Chaotic Debate Probably Won’t Help Black Voters Make Up Their Minds</span></a><span class="teaser">But it could also present a rare opportunity.</span></div>
@@ -2480,7 +2480,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e1e/8ce/8573ddfa48fb79a001d971836e86271098-26-bloomberg-sanders.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/e1e/8ce/8573ddfa48fb79a001d971836e86271098-26-bloomberg-sanders.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bernie-id-rather-lose-than-let-bloomberg-spend-money-on-me.html" class="link-text"><span class="headline">Bernie: I’d Rather Lose Than Let Bloomberg Spend Money on Me</span></a><span class="teaser">So much for Bernie’s secret pragmatism.</span></div>
@@ -2511,7 +2511,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/001/bb6/b6791b3eda80176dd6432c393529ea52a6-25-sc-democratic-debate-sanders-biden-kl.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/001/bb6/b6791b3eda80176dd6432c393529ea52a6-25-sc-democratic-debate-sanders-biden-kl.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/what-democrats-said-about-coronavirus-outbreak-at-the-debate.html" class="link-text"><span class="headline">What Candidates Said About the Coronavirus at the Democratic Debate</span></a><span class="teaser">Sanders mocked Trump, Biden said he’d pressure China, Klobuchar promoted the CDC website, and Bloomberg called out the president’s budget cuts.</span></div>
@@ -2539,7 +2539,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ed3/a3f/e06d35e2ee4d35f58a95c41fe17bac8652-biden-sc-debate.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/ed3/a3f/e06d35e2ee4d35f58a95c41fe17bac8652-biden-sc-debate.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/who-won-the-democratic-debate-in-south-carolina.html" class="link-text"><span class="headline">Who Won (and Lost) the Democratic Debate in South Carolina</span></a><span class="teaser">Elizabeth Warren didn’t quite deliver the blockbuster performance she needed, while Joe Biden did just enough to stay on course.</span></div>
@@ -2567,7 +2567,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/12b/b6d/2a087c81ab491ed94e92330f3998428624-bloomberg-sc-debate.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/12b/b6d/2a087c81ab491ed94e92330f3998428624-bloomberg-sc-debate.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/in-second-debate-bloomberg-still-in-a-billionaires-bubble.html" class="link-text"><span class="headline">In Second Debate, Bloomberg Was Still a Man in a Billionaire’s Bubble</span></a><span class="teaser">Despite the best debate prep money can buy, Bloomberg remained awkward, on the defensive, and incapable of going after front-runner Bernie Sanders.</span></div>
@@ -2595,7 +2595,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c0a/367/1d9c275aca200fd404abbe082dd5dcd543-25-mike-bloomberg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/c0a/367/1d9c275aca200fd404abbe082dd5dcd543-25-mike-bloomberg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/mike-bloomberg-quotes-7-recent-remarks-that-arent-helping.html" class="link-text"><span class="headline">7 Resurfaced Remarks That Aren’t Helping Mike Bloomberg’s Campaign</span></a><span class="teaser">The billionaire has spent recent years making statements that he might want to take back.</span></div>
@@ -2623,7 +2623,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b59/63e/4396c5c8671c7183e422f23d6f8c0e762e-24-bloomberg-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/b59/63e/4396c5c8671c7183e422f23d6f8c0e762e-24-bloomberg-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bloomberg-to-blitz-sanders-with-massive-media-buy-report.html" class="link-text"><span class="headline">Bloomberg to Blitz Sanders With Massive Media Buy</span></a><span class="teaser">The billionaire is reportedly coming for Bernie in ads before Super Tuesday, targeting his mixed record on gun control — as Clinton did in 2016.</span></div>
@@ -2651,7 +2651,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1d4/145/196385a25b99c561a7bfd3ccb1c8503036-24-bernie-sanders-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/1d4/145/196385a25b99c561a7bfd3ccb1c8503036-24-bernie-sanders-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/bernie-sanders-fidel-castro-60-minutes-interview-cooper.html" class="link-text"><span class="headline">Bernie Praised Fidel Castro’s Education System. So Did Obama.</span></a><span class="teaser">Sanders’s kind words for Cuba’s literacy program make him a “communist” only if George W. Bush’s praise of the Saudis makes him an Islamist.</span></div>
@@ -2679,7 +2679,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/815/cfa/aa4ae052f1574a13641aefd3b5ee81ddca-24-jim-clyburn.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20241226011106im_/https://pyxis.nymag.com/v1/imgs/815/cfa/aa4ae052f1574a13641aefd3b5ee81ddca-24-jim-clyburn.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20241226011106/https://nymag.com/intelligencer/2020/02/south-carolinas-jim-clyburn-endorses-biden.html" class="link-text"><span class="headline">Carolina Kingmaker Clyburn to Give Biden a Timely Boost With an Endorsement</span></a><span class="teaser">In a state Biden must win, he got the most important endorsement, but it may not be enough to preserve a win in his one-time “firewall.”</span></div>
@@ -2697,7 +2697,7 @@ userDetails.visitCount = getUserVisitCount();
           <div data-uri="/web/20241226011106oe_/https://nymag.com/tags/michael-bloomberg/nymag.com/_components/sticky-ad/instances/tag-ad-top@published" data-editable="adComponent" class="sticky-ad ">
 
 <aside data-uri="nymag.com/_components/ad/instances/clgcrw8wx00053b6w5je7aa8p@published" class="ad vp-0-plus" data-name="" data-sizes="" data-label="" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </div>
@@ -2707,7 +2707,7 @@ userDetails.visitCount = getUserVisitCount();
 </div>
 
 <aside data-uri="nymag.com/_components/ad/instances/tagPageBottomLeaderboardDesktop@published" class="ad vp-1180-plus" data-name="/172968584/nym.Nymag/daily_intelligencer" data-sizes="728x90,728x91,970x90,970x91,970x250,970x252,1024x90,1024x91, 1100x350" data-label="BottomLeaderboard" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </main>
@@ -3119,7 +3119,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

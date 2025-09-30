@@ -33,7 +33,7 @@ Also, congratulations to Paige Leskin for winning the inaugural season of Puck�
 
 Now, on to business…
 
- 
+
 
 The Brady Meter: Week
 18
@@ -158,7 +158,7 @@ this to last longer.”
 MSG carries one of the highest costs of all R.S.N.s in the country, Ross said, due to the fact that both Cablevision—the former vessel of Jim’s father Charles Dolan’s generational wealth—and Verizon Fios competed bitterly for video subscribers in New York. “They were battling for broadband subscribers, so they would never drop content, because the value of the
 subscriber was too high in this broadband battle that they were having,” Ross said. “That competitive dynamic pushed the prices up. Now, the video bundle isn’t dragging along broadband. We’re in a totally different era.”
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -180,7 +180,7 @@ the deal and the ACC’s desire for increased exposure.” —A Varsity subscrib
 
 [Ed. note: CBS renewed a sublicense deal with ESPN last year that allows it to carry ACC and Big 12 basketball games on CBS, CBS Sports Network, and Paramount+. This is the first year of the new deal.]
 
- 
+
 
 See you Thursday,
 
@@ -238,6 +238,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUPkaixVzBowWecyk2SW0=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%281%2F2%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

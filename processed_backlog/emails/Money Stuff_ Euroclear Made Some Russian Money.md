@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Consider a Russian oligarch who invested some money in the bonds of a Ger
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Euroclear
-    
-  
+
+
 
 Consider a Russian oligarch who invested some money in the bonds of a German company a few years ago. After Russia invaded Ukraine, the oligarch was subjected to comprehensive sanctions by the European Union, forbidding anyone in the EU from doing any business with him. His bonds are trapped at an EU brokerage and he can’t sell them. But then the bonds mature and the German company has to pay them back. But it can’t send money to the oligarch. What happens? Who gets the money?
 You could imagine various theoretical possibilities:
@@ -86,37 +86,37 @@ While the EU seeks to spend the profits, Euroclear is facing lawsuits from Russi
 
 It does seem strange for Euroclear to keep all that money just because the pipes backed up.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private equity
-    
-  
+
+
 
 Oversimplifying dramatically, there are two sorts of investment funds in the US: public and private. Public investment funds are most classically mutual funds, but also business development companies and other things. They can be marketed more or less widely to individual investors, and they are subject to regulation by the US Securities and Exchange Commission under the Investment Company Act of 1940. 
 Private investment funds are most classically hedge funds and private equity funds, which restrict their investors to institutions and very rich individuals. These funds are much less regulated, but can’t be marketed widely to individual investors.
@@ -158,11 +158,11 @@ It’s a bit more complicated than that: The conglomerates own joint ventures a
   [10]
  Also the conglomerates are not traditional public companies; they make public filings, but sell their shares privately to accredited investors. Still, these are baby steps into running a private equity fund in the form of a public company.
 
-  
-    
+
+
       Private credit
-    
-  
+
+
 
 There used to be two main ways for companies to borrow money: bonds and bank loans. Bonds were sold publicly to big investors (insurance companies, mutual funds, etc.) and traded in a reasonably active secondary market. Bank loans were made by banks that had deep longstanding relationships with their borrowers, and were then held by those banks to maturity. There were other differences (in seniority, collateral, term, rates, etc.), which were driven in part by the different investor bases and relationships.
 For instance, bank loans to risky companies often had maintenance covenants, requiring the company to have at least some minimum amount of earnings every quarter.
@@ -187,11 +187,11 @@ The global $1.5 trillion private credit market has been known for more conservat
 
 Right now, private credit lenders are much more likely than bond or bank loan investors to be relationship lenders, to get to know the company well, lend it money and hold the loan to maturity. But give that some time and it will change.
 
-  
-    
+
+
       Ted Pick
-    
-  
+
+
 
 I suppose one theory of CEO succession is that the next chief executive officer of a firm should be the person who runs the division that makes the most money, that contributes most to the firm, that is the firm’s intended future. And another theory would be that the next CEO should be the person who runs the division that could lose the most money. If there’s a problem, that guy can fix it! Whereas the guy who runs the consistent moneymaker has had it too easy; what does he know about risk?
 In general, big modern investment banks want to tell their shareholders a story about some other business — asset management, wealth management,  retail banking (?) — that offers more stable revenues than traditional investment banking and sales and trading. But if a big modern investment bank is going to incinerate itself in a week, it’s probably going to be in the sales and trading business inside the investment bank.
@@ -214,11 +214,11 @@ The two deputies are also long-time Morgan Stanley veterans. Saperstein, 56, sta
 
 To be fair you have pulled it off for like 20 hours; see if they’re still there in a year before bragging.
 
-  
-    
+
+
       No HODL
-    
-  
+
+
 
 This is apparently real?
   [15]
@@ -231,15 +231,15 @@ The "Panic Sell" feature is designed to provide traders the convenience to swift
 Honestly: reasonable? On the one hand, I  sometimes point out that often the best thing a retail broker can do for its customers is not answer the phone during a market crash, since customers do sometimes sell irrationally at the bottom. On the other hand, not always! Sometimes the customers are rational. Sometimes the best service is to let everyone sell fast, and asking them to check a little box next to each asset they want to sell costs precious seconds. Especially in crypto, sure, but not only in crypto. I suspect that some number of highly sophisticated algorithmic multi-asset trading firms in traditional finance have a big red “SELL EVERYTHING AND GO TO CASH” button on the wall. Why shouldn’t retail crypto investors?
 Also I love the name. It is pleasantly pejorative: If you want to sell everything at once, they’ll make it easy and fast, but they’ll also make you feel bad about it. Possibly that is the right amount of friction for your broker to provide, selling everything instantly at your request but making a disappointed face at you while they do it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 SBF  Takes the Stand in His Own Defense at Trial Over FTX Failure. FTX Claims Rise After Potential Bidders for Shuttered Exchange Emerge. Sam Bankman-Fried Testimony Is Trial Climax for  FTX Court Watchers. Jury Convicts Hedge-Fund Manager Accused of  Rigging Foreign-Exchange Market. Bitcoin Faces Reality Check if   ETF Launches Spark ‘Sell-the-News’ Pivot. Silver Lake Looks to Privatize Hollywood Agency Titan  Endeavor. Griffin Says SEC Scrutiny of Basis Trade ‘Utterly Beyond Me.’ Xi Jinping Is Looking for Someone to Blame for  China’s Property Bust. Country Garden’s Missed Bond Payment Triggers  CDS Payout. Vanguard Plans to Open a   Miami Office for Offshore Latin America Wealth. Wave of Job Cuts ‘Probably Just the Beginning’ at   Canadian Banks. CEO  morning routines.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Again: oversimplifying dramatically! Basically private funds are exempt from the ’40 Act under Section 3(c)(7), meaning that they sell only to “qualified purchasers,” meaning institutions and individuals with at least $5 million of investments. See Sections 3(c)(7) and 2(a)(51) of the Act. (Or under Section 3(c)(1), meaning that they sell to 100 or fewer “accredited investors,” a lower standard.)
 
 
@@ -255,11 +255,11 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Also a portfolio of minority venture investments, and a portfolio of bonds, but that’s fine; regular companies are allowed to own *some* securities, just not too many. People used to wonder if Apple Inc. was an investment company, because it had a lot of cash that it just parked in investment securities.
 
 
-  [6] We 
+  [6] We
 talked about this distinction in the context of special purpose acquisition companies, which are an oddity, a fund that is raised with the intent of becoming a company.
 
 
-  [7] Traditionally the financing is a bit different: A conglomerate borrows centrally, using its lower cost of capital as a big diversified company, while private equity portfolio companies borrow individually, insulating themselves from one another’s risks. We 
+  [7] Traditionally the financing is a bit different: A conglomerate borrows centrally, using its lower cost of capital as a big diversified company, while private equity portfolio companies borrow individually, insulating themselves from one another’s risks. We
 have discussed this before, though, and it is not always true.
 
 
@@ -281,55 +281,55 @@ have discussed this before, though, and it is not always true.
   [13] By “within the next, like, three years,” I mean next week, after several readers email me today to say “I actually work at a company that just launched this marketplace.”
 
 
-  [14] Including 
+  [14] Including
 prime brokerage, obviously.
 
 
   [15] It links to a real page on MultiBank.io’s website, explaining how to execute a Panic Sell order.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -340,46 +340,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjqmow.5hum/2b341ca3.gif" alt="" border="0" /></a>

@@ -222,7 +222,7 @@ class PodcastStore:
         with self._get_connection() as conn:
             cursor = conn.execute(
                 """
-                INSERT INTO podcasts 
+                INSERT INTO podcasts
                 (name, slug, rss_url, site_url, resolver, episode_selector, transcript_selector, config)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """,
@@ -312,8 +312,8 @@ class PodcastStore:
         with self._get_connection() as conn:
             cursor = conn.execute(
                 """
-                INSERT OR REPLACE INTO episodes 
-                (podcast_id, guid, title, url, publish_date, transcript_url, 
+                INSERT OR REPLACE INTO episodes
+                (podcast_id, guid, title, url, publish_date, transcript_url,
                  transcript_status, transcript_path, metadata)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
@@ -337,7 +337,7 @@ class PodcastStore:
         with self._get_connection() as conn:
             rows = conn.execute(
                 """
-                SELECT * FROM episodes WHERE podcast_id = ? 
+                SELECT * FROM episodes WHERE podcast_id = ?
                 ORDER BY publish_date DESC
             """,
                 (podcast_id,),
@@ -368,7 +368,7 @@ class PodcastStore:
         with self._get_connection() as conn:
             conn.execute(
                 """
-                UPDATE episodes 
+                UPDATE episodes
                 SET transcript_status = ?, transcript_path = ?, updated_at = CURRENT_TIMESTAMP
                 WHERE id = ?
             """,
@@ -381,8 +381,8 @@ class PodcastStore:
         with self._get_connection() as conn:
             cursor = conn.execute(
                 """
-                INSERT INTO discovery_runs 
-                (podcast_id, resolver, episodes_found, transcripts_found, errors, 
+                INSERT INTO discovery_runs
+                (podcast_id, resolver, episodes_found, transcripts_found, errors,
                  duration_seconds, status, started_at)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """,
@@ -412,7 +412,7 @@ class PodcastStore:
         with self._get_connection() as conn:
             conn.execute(
                 """
-                UPDATE discovery_runs 
+                UPDATE discovery_runs
                 SET episodes_found = ?, transcripts_found = ?, errors = ?,
                     duration_seconds = ?, status = ?, completed_at = CURRENT_TIMESTAMP
                 WHERE id = ?
@@ -440,8 +440,8 @@ class PodcastStore:
             # Episode counts by status
             episode_stats = conn.execute(
                 """
-                SELECT transcript_status, COUNT(*) as count 
-                FROM episodes 
+                SELECT transcript_status, COUNT(*) as count
+                FROM episodes
                 GROUP BY transcript_status
             """
             ).fetchall()
@@ -452,10 +452,10 @@ class PodcastStore:
             # Recent discovery runs
             recent_runs = conn.execute(
                 """
-                SELECT podcast_id, resolver, episodes_found, transcripts_found, 
+                SELECT podcast_id, resolver, episodes_found, transcripts_found,
                        errors, completed_at, status
-                FROM discovery_runs 
-                ORDER BY started_at DESC 
+                FROM discovery_runs
+                ORDER BY started_at DESC
                 LIMIT 10
             """
             ).fetchall()

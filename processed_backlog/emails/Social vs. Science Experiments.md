@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/social-vs-science-experiments
 
-Welcome to the 1,333 newly Not Boring people who have joined us since last Monday — I need to take breaks more often! If you haven’t subscribed, join 156,749 smart, curious folks by subscribing here: 
+Welcome to the 1,333 newly Not Boring people who have joined us since last Monday — I need to take breaks more often! If you haven’t subscribed, join 156,749 smart, curious folks by subscribing here:
 🎧  For the audio version, click the play button or listen on Spotify [ https://substack.com/redirect/49dc6d91-7437-4d3b-b168-718dfb29c513?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/13e299cb-c611-4b94-aaa3-32ad002a81be?r=9p0gt ]
 Today’s Not Boring is brought to you by… Secureframe [ https://substack.com/redirect/b41c1c74-af47-47c0-ad51-5feb0b3fa299?r=9p0gt ]
 Secureframe [ https://substack.com/redirect/b41c1c74-af47-47c0-ad51-5feb0b3fa299?r=9p0gt ] is the leading, all-in-one platform for security and privacy compliance. Secureframe makes it fast and easy to get and stay compliant so you can focus on what matters: Scaling your business, customers, and revenue.
@@ -18,11 +18,11 @@ Scale compliance with your business to meet ISO 27001, GDPR, HIPAA, PCI, and oth
 Plus, Secureframe helps sales teams respond to RFPs and security questionnaires quickly and easily with AI so they can close more deals, faster.
 Click here [ https://substack.com/redirect/b41c1c74-af47-47c0-ad51-5feb0b3fa299?r=9p0gt ] to set up a demo. Mention “Not Boring” during your demo to get 20% off your first year of Secureframe. Promotion available through October 31, 2022.
 Hi friends 👋, 
-Happy Monday! I hope you had a great weekend. 
-We talk a lot about progress here in Not Boring. Progress can be difficult and messy and winding, and importantly, progress moves at different speeds and follows different paths for different kinds of products. Today’s essay is my thinking on two types: science experiments and social experiments. 
+Happy Monday! I hope you had a great weekend.
+We talk a lot about progress here in Not Boring. Progress can be difficult and messy and winding, and importantly, progress moves at different speeds and follows different paths for different kinds of products. Today’s essay is my thinking on two types: science experiments and social experiments.
 Successful science experiment products clearly move the world forward; social experiment products are less obviously beneficial and messier in the short-run, but I think they’re every bit as important in the long run, especially in combination with science experiment products.
 This is a “thinking out loud post.” I would love to hear your thoughts and feedback.
-Let’s get to it. 
+Let’s get to it.
 Science Experiments vs. Social Experiments
 Some cutting edge tech products are the result of science experiments, others are the result of social experiments. 
 Science experiment products face a lot of technical risk early on, and getting a product to market can take a lot of time and capital. But when a product is finally objectively good enough, they can face less market risk. Launches are often preceded or accompanied by research papers. Think categories like AI, biotech, energy, chips, and space. 
@@ -39,7 +39,7 @@ Fitting that line looks something like an S-Curve: Slow Growth, Fast Growth (AI 
 People working on science experiments have the benefit of the relative obscurity of the lab. They can tinker, mess up, keep tinkering, progress, take ten steps backwards, and have a breakthrough, all in the privacy of their own four walls. Obviously, private tinkering comes with its own challenges – getting funding might be harder, you can’t point to a million users, the problems are really hard to solve and dead-ends are frequent – but at the end of the day, the biggest question has an objective answer: did you build the thing or not?
 People building social experiments have no such luxury. While technology plays an important role – blockchains, token standards, zero-knowledge proofs, and the like are all major technical innovations – people are a necessary component of the product itself. And people are messy, flighty, scammy, fickle, excitable, and all of the other wonderful things that make us people. Plus, most crypto products are money technologies too, and money enhances all of those human attributes. 
 That means that while people building social experiments can tinker with their tech in private, they can’t simulate the full product experience in a lab and release a perfect product with all of the kinks worked out. They need to release a product into the public lab [ https://substack.com/redirect/0318f169-a420-4d1d-94ca-9f4308dbfbfc?r=9p0gt ] that is the real-world and let the chips fall as they may. 
-Worse, they often need to build hype ahead of the product’s capabilities because they need to stand out and attract people in a crowded market so that the product can actually do what they think it might be able to do in the first place. Even with the best intentions, they’ll be called useless at best, a scam at worst. 
+Worse, they often need to build hype ahead of the product’s capabilities because they need to stand out and attract people in a crowded market so that the product can actually do what they think it might be able to do in the first place. Even with the best intentions, they’ll be called useless at best, a scam at worst.
 Look at the early days of Twitter (“Why would I want to read what people are eating for lunch?”), all of the commentary around Clubhouse, a small startup whose app got so popular that thousands of grownups cheered its downfall, or practically any web3 product. All of the triumphs and defeats play out on the stage of public opinion, causing violent spikes up and down in entire categories.
 This is not meant to excuse the actual scams as fun experiments. Au contraire, the actual scams are doubly-destructive, because they harm their own users and they cast a shadow over the well-intentioned projects. They make a hard thing harder. Fuck ‘em.
 Zooming out, progress in social experiment categories like web3 looks something like this: 
@@ -57,7 +57,7 @@ After a bunch of tedious, incredibly difficult work in relative privacy, these p
 An observant reader might note that solar benefits from learning curves and Wright’s Law, and that improvements in cost and efficiency are a direct result of more solar panels being produced. So adoption is important. Adoption is important and necessary for any business once it becomes a business; it’s the whole point.  Once science experiments come out of the lab and into the market, they often benefit from Scale Economies. 
 But adoption isn’t the product itself, as it is with social experiments. A billion people buying solar panels brings down costs faster, and makes it possible to get closer to the edge of physical limitations more quickly, but it doesn’t change the science. A billion people believing in Bitcoin directly makes Bitcoin stronger and more useful in ways that it wouldn’t be if only ten people believed in it. 
 Social experiments live and die by Network Effects, the prize for dealing with all of the human messiness upfront for the few social experiments that make it to the other side. Network effects can become so strong that it doesn’t matter how bad the bits a company produces are, people will stick around (ahem, Facebook). 
-We’re so close to the end, just missed the email cutoff. Conclusion: 
+We’re so close to the end, just missed the email cutoff. Conclusion:
 Thanks to Dan [ https://substack.com/redirect/7fcfe772-cb04-4bad-ac1a-437d1c2d9280?r=9p0gt ] for editing, and to Chris, Bruno, Nat, Nathan, Jb, Lucas, Tom, Gabriel, 4484, Nathan, B
 en, Alexander, and Jonny from Farcaster for ideas and resources!
 That’s all for today. See you back here Friday for your Weekly Dose of Optimism. Have a great week.

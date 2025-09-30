@@ -78,7 +78,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <script type="text/javascript">
@@ -98,7 +98,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <script type="text/javascript">
@@ -118,7 +118,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <script type="text/javascript">
@@ -138,7 +138,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <script type="text/javascript">
@@ -158,7 +158,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <script type="text/javascript">
@@ -178,7 +178,7 @@ function viewComment(toggle,id) {
           $('#comment-short-'+id).addClass('display-inline');
         }
       }
-    
+
 //--><!]]>
 </script>
 <!--[if lte IE 8]><link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/tnr/style_ie8.css" /><![endif]-->
@@ -188,7 +188,7 @@ function viewComment(toggle,id) {
 <!--[if lte IE 6]><link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/tnr/style_css6.css" /><![endif]-->
 <!--If Less Than or Equal (lte) to IE 6-->
 
-<script type="text/javascript">  
+<script type="text/javascript">
  <!--
 	(function() {
 	var useSSL = 'https:' == document.location.protocol;
@@ -219,63 +219,63 @@ googletag.enableServices();
      </script>
 
 <script type="text/javascript">
-		<!-- 
+		<!--
 			function D_AD(pos)
 			{
 				var id = '';
-		
+
 				if(pos == 'Right1')
 				{
 					id = '';
-		
+
 				   if(id == '')
 				   {
 					  id = '1331851126986-1';
 				   }
 				}
-			 
+
 				if(pos == 'Right2')
 				{
 					id = '';
-					
+
 				   if(id == '')
 				   {
 						id = '1331851126986-2';
-				   }	
+				   }
 				}
-		
+
 				if(pos == 'Right3')
 				{
 					id = '';
-				
+
 					if(id == '')
 					{
 						id = '1331851126986-3';
 					}
 				}
-		
+
 				if(pos == 'Top')
 				{
 					id = '';
-		
+
 					if(id == '')
 					{
 						id = '1331851126986-4';
 					}
 				}
-		
+
 				if(pos == 'Bottom')
 				{
 					id = '';
-					
+
 					if(id == '')
 					{
 						id = '1331851126986-0';
 					}
 				}
-		
+
 				var div = 'div-gpt-ad-' + id;
-			
+
 				document.write('<div id = "div-gpt-ad-' + id + '"><script type="text/javascript">googletag.cmd.push(function(){googletag.display("' + div);
 				document.write('");});<\/script></div>');
 			}
@@ -323,7 +323,7 @@ D_AD('Middle');
 		document.body.insertBefore(el, document.getElementById('wrapper'));
 	}
  }
- // window.onload = function(){jswap();}; 
+ // window.onload = function(){jswap();};
 </script>
 
 <script type="text/javascript">
@@ -418,24 +418,24 @@ var google_conversion_value = 0;
 
 <div class="content">
     <div class="view view-feature-header view-id-feature_header view-display-id-block_2 view-dom-id-7">
-    
-  
-  
+
+
+
       <div class="view-content">
       <ul id="viewscarousel-feature-header-block-2" class="jcarousel-skin-custom"><li><a href="/web/20130119200358/http://www.tnr.com/article/politics/magazine/111370/the-captive-san-clemente"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/nixon_6.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/politics/magazine/111370/the-captive-san-clemente" title="The Captive of San Clemente" alt="The Captive of San Clemente">The Captive of San Clemente</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/art/111990/moma-inventing-abstraction-exhilirating-challenging-and-completely-wrong"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/68598.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/art/111990/moma-inventing-abstraction-exhilirating-challenging-and-completely-wrong" title="The MOMA&amp;amp;#039;s New Show is the Most Exciting Art Exhibit On Now. It&amp;amp;#039;s Also Completely Wrong." alt="The MOMA&amp;amp;#039;s New Show is the Most Exciting Art Exhibit On Now. It&amp;amp;#039;s Also Completely Wrong.">The MOMA&#039;s New Show is the Most Exciting Art Exhibit On Now. It&#039;s Also Completely Wrong.</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/politics/112031/lance-armstrong-no-more-mr-nice-guy"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159537841.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/politics/112031/lance-armstrong-no-more-mr-nice-guy" title="Lance Armstrong, Jerk" alt="Lance Armstrong, Jerk">Lance Armstrong, Jerk</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112035/why-helen-hunt-deserves-best-actress-oscar-the-sessions"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/helen7.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112035/why-helen-hunt-deserves-best-actress-oscar-the-sessions" title="Why Helen Hunt Deserves a Best Actress Oscar for The Sessions" alt="Why Helen Hunt Deserves a Best Actress Oscar for The Sessions">Why Helen Hunt Deserves a Best Actress Oscar for The Sessions</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/112002/baudrillard-and-booth-babes-the-consumer-electronics-show"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/Screen Shot 2013-01-17 at 6.53.39 PM.png" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/112002/baudrillard-and-booth-babes-the-consumer-electronics-show" title="Baudrillard and Babes at the Consumer Electronics Show" alt="Baudrillard and Babes at the Consumer Electronics Show">Baudrillard and Babes at the Consumer Electronics Show</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/112030/after-sandy-hook-how-contemplate-politics-post-tragedy"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159498521.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/112030/after-sandy-hook-how-contemplate-politics-post-tragedy" title="After Sandy Hook: How to Contemplate Politics Post-Tragedy" alt="After Sandy Hook: How to Contemplate Politics Post-Tragedy">After Sandy Hook: How to Contemplate Politics Post-Tragedy</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112006/judge-not-how-the-celebrity-industrial-complex-stalling-itself-out"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159221804.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112006/judge-not-how-the-celebrity-industrial-complex-stalling-itself-out" title="Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail" alt="Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail">Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/politics/111991/america-will-always-buy-what-arnold-schwarzenegger-selling-himself"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/last-stand.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/politics/111991/america-will-always-buy-what-arnold-schwarzenegger-selling-himself" title="Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying" alt="Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying">Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/112026/can-kicking-brief-history"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/Thomas Strosse.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/112026/can-kicking-brief-history" title="The Kick-the-Can Cliche Has Been Kicked Around for Decades" alt="The Kick-the-Can Cliche Has Been Kicked Around for Decades">The Kick-the-Can Cliche Has Been Kicked Around for Decades</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111996/we-know-everything-about-celebrity-scientologists-nothing-about-scientology"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159148966.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111996/we-know-everything-about-celebrity-scientologists-nothing-about-scientology" title="We Know Everything About Celebrity Scientologists, But Nothing About Scientology" alt="We Know Everything About Celebrity Scientologists, But Nothing About Scientology">We Know Everything About Celebrity Scientologists, But Nothing About Scientology</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111969/teddy-turner-congress-south-carolina-media-scion"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/ Hi res Teddy  Marsh 2.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111969/teddy-turner-congress-south-carolina-media-scion" title="Have Family Dinners Prepared Teddy Turner to Be a Politician?" alt="Have Family Dinners Prepared Teddy Turner to Be a Politician?">Have Family Dinners Prepared Teddy Turner to Be a Politician?</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111978/why-you-shouldnt-pay-attention-obamas-inauguration-speech"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/84372270.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111978/why-you-shouldnt-pay-attention-obamas-inauguration-speech" title="A Short History of Meaningless Inauguration Speeches" alt="A Short History of Meaningless Inauguration Speeches">A Short History of Meaningless Inauguration Speeches</a></div></li></ul>    </div>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
 
 </div>
 			</div>
 			<div class="clear"></div>
 		</div>
-		
+
 		<div id="page_wrapper2" class="clearfix">
 		<div id="detail_page" class="clearfix">					<br/>
 						<div id="tabs-wrapper" class="clear-block">			<ul class="tabs primary">
@@ -447,7 +447,7 @@ var google_conversion_value = 0;
 		<div class="tag">
 				</div>
 	</div>
-	
+
 	<div class="entry_header clearfix">
 		<h1>
 		Full Disclosure		</h1>
@@ -459,42 +459,42 @@ var google_conversion_value = 0;
 				<ul class="detail_top_links">
 			<li><div class="author">
 			<a href="#" class="author-info-link" rel="/authorinfo/view/Norman Ornstein"><h3>Norman Ornstein</h3></a><div style="display: none"><div id="about-author" class="author-info-widget"><div class="name">Norman Ornstein</div><div class="links"><a href="/web/20130119200358/http://www.tnr.com/users/norman-ornstein">view bio</a></div><div class="clear"></div><div class="works"><div class="view view-content-by-author view-id-content_by_author view-display-id-default view-dom-id-1">
-    
-  
-  
+
+
+
       <div class="view-content">
       <div class="item-list">
     <ul>
-          <li class="views-row views-row-1 views-row-odd views-row-first">  
+          <li class="views-row views-row-1 views-row-odd views-row-first">
   <div class="views-field-title">
                 <span class="field-content"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111731/welcome-another-golden-era-liberal-senators" title="Welcome to Another Golden Era of Liberal Senators" alt="Welcome to Another Golden Era of Liberal Senators">Welcome to Another Golden Era of Liberal Senators</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-2 views-row-even">
   <div class="views-field-title">
                 <span class="field-content"><a href="/web/20130119200358/http://www.tnr.com/article/politics/102750/mitt-romney-republicans-congress-policy-agenda" title="The Doomed Marriage Between Mitt Romney and Congressional Republicans" alt="The Doomed Marriage Between Mitt Romney and Congressional Republicans">The Doomed Marriage Between Mitt Romney and Congressional Republicans</a></span>
   </div>
 </li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">
   <div class="views-field-title">
                 <span class="field-content"><a href="/web/20130119200358/http://www.tnr.com/article/politics/101721/tnr-symposium-obama-lame-duck" title="Double Down on Bipartisanship!" alt="Double Down on Bipartisanship!">Double Down on Bipartisanship!</a></span>
   </div>
 </li>
       </ul>
 </div>    </div>
-  
-  
-  
-  
-  
-  
-</div> </div></div> 
+
+
+
+
+
+
+</div> </div></div>
 </div>				</div></li>
 			<li class="post_date">May 7, 2011 | 12:00 am			</li>
 						<li class="post_date"><a href="#comments"> 6 comments </a> </li>
 			<li class="post_date"><script type="text/javascript">
-var addthis_config = { services_exclude: 'print,email,mailto' } 
- </script> 
+var addthis_config = { services_exclude: 'print,email,mailto' }
+ </script>
 <!-- AddThis Button BEGIN --><div class="addthis_toolbox addthis_default_style"><a class="addthis_button_reddit"></a><a class="addthis_button_tumblr"></a><a class="addthis_button_stumbleupon"></a><span class="addthis_separator">|</span><a href="http://web.archive.org/web/20130119200358/http://addthis.com/bookmark.php?v=250&amp;username=tnrp2tech" class="addthis_button_expanded">More</a></div><script type="text/javascript" src="http://web.archive.org/web/20130119200358js_/http://s7.addthis.com/js/250/addthis_widget.js#username=tnrp2tech"></script><!-- AddThis Button END -->			</li>
 						<li class="post_date"><a href="/web/20130119200358/http://www.tnr.com/"></a>			</li>
 			<li class="post_date"><a href="/web/20130119200358/http://www.tnr.com/"><img width="13" height="10" border="0" src="/web/20130119200358im_/http://www.tnr.com/sites/default/themes/tnr/images/icon_email.gif"/></a>			</li>
@@ -554,7 +554,7 @@ var addthis_config = { services_exclude: 'print,email,mailto' }
 <li class="pager-item"><a href="/web/20130119200358/http://www.tnr.com/node/88005?page=0,0" title="Go to page 1" class="active">1</a></li>
 <li class="pager-current last">2</li>
 </ul></div></div><div class="pager-x-of-x">Page 2 of 2</div></div><div class="clear"></div>
-				  
+
 	<div class="dotted_line"></div>
 	<div id="content_bottom_sponsored_link" class="content-bottom-sponsored-link">
 		<div style="width: 200px;">
@@ -572,8 +572,8 @@ D_AD('Bottom1');
 	<ul class="links"><li class="comment_forbidden first last"><a href="/web/20130119200358/http://www.tnr.com/user/login">Post a comment</a></li>
 </ul>		<div id="add_this">
 		<script type="text/javascript">
-var addthis_config = { services_exclude: 'print,email,mailto' } 
- </script> 
+var addthis_config = { services_exclude: 'print,email,mailto' }
+ </script>
 <div class="addthis_toolbox"><div class="custom_images"><a class="addthis_button_facebook"><img src="/web/20130119200358im_/http://www.tnr.com/sites/default/themes/tnr/images/social_icons/facebook_32.png" width="32" height="32" alt="Facebook"/></a><a class="addthis_button_twitter"><img src="/web/20130119200358im_/http://www.tnr.com/sites/default/themes/tnr/images/social_icons/twitter_32.png" width="32" height="32" alt="Twitter"/></a><a class="addthis_button_reddit"><img src="/web/20130119200358im_/http://www.tnr.com/sites/default/themes/tnr/images/social_icons/reddit_32.png" width="32" height="32" alt="Reddit"/></a><a href="http://web.archive.org/web/20130119200358/http://www.outloudopinion.com/category/podcasts/outloudopinion-podcasts/thenewrepublic/"><img src="/web/20130119200358im_/http://www.tnr.com/sites/default/themes/tnr/images/outloudopinion.jpg" width="32" height="32" alt="Outloud Opinion"/></a></div></div><script type="text/javascript" src="http://web.archive.org/web/20130119200358js_/http://s7.addthis.com/js/250/addthis_widget.js#username=tnrp2tech"></script><!-- AddThis Button END -->		</div>
 	</div>
 </div>
@@ -602,14 +602,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/07/2011 - 1:46am EDT | <span class="submitted">Konstantin</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323143">
     <p>This is excellent journalism punctuated with a tad more opinion than I would like to see, but that last paragraph nails the issue perfectly.  </p>
 <p>Unfortunately for those who would stand to gain the most by leading the outcry against Republican hypocrisy, that 92% of the public who favor their cause probably only includes a minute number of Americans who would actively follow &amp; understand the legal aspects of the process to correct this problem in the coming months.  Also, legal action of the sort recommended by Mr. Ornstein does not make for riveting political drama and can be drawn out for years while few voters notice.  So, if you had to whittle this article's arguments down to a couple of ... <a class="comment_more_link" href="javascript: viewComment(1,323143);">view full comment</a></p>
@@ -628,14 +628,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/07/2011 - 9:20am EDT | <span class="submitted">Nusholtz</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323152">
     <!--paging_filter--><p><strong>Konstantin</strong> is right.  Excellent journalism, although I did not mind the opinion.  It might help if we had a word or phrase that describes when a politically disposed group (including politicians, media and some members of the judiciary) favors one particular position when it may help their political cause but take the opposite position when it might hurt.  Jon Stewart has made a living off of this.   I'd suggest lying, but one of the positions is not.   How about <em>opportunist hypocrisy<em>?</em></em></p>
   </div>
@@ -651,14 +651,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/07/2011 - 9:27am EDT | <span class="submitted">aduncanson</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323153">
     <!--paging_filter--><p>What I don't get is why corporations or federal contractors are any more vulnerable to intimidation than are individuals.  My political contributions are right there on the internet to see.  And I certainly have had bosses and customers whom I sincerely hoped would never look up my giving record.</p>
   </div>
@@ -674,14 +674,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/07/2011 - 9:34am EDT | <span class="submitted">MikeB.</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323154">
     <!--paging_filter--><p>Mitch McConnell is simply doing the GOP dance on just about every issue.  In McConnell's perfect world there is unlimited corporate and personal contributions to candidates and no disclosure.</p>
 <p>When it looked like tough campaign finance was on the cards he supported disclosure as a talking point and a less bad alternative.</p>
@@ -705,14 +705,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/08/2011 - 9:06am EDT | <span class="submitted">NR143296</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323201">
     <!--paging_filter--><p>Right on Mike B.  An irony here from a constitutional perspective is that the rationale for permitting unlimited political contributions is that such contributions constitute speech -- that is, the expression of support for certain political ideas or candidates.  It remains questionable whether political expenditures actually can be deemed speech under the First Amendent. But surely the CLANDESTINE expenditure of money cannot be deemed an expressive activity.</p>
 <p>Dhurtado</p>
@@ -730,14 +730,14 @@ document.write(str);
   #comments .comment_more_link {
     text-decoration: none;
     color: #cc0000;
-  }  
+  }
 </style>
 <div class="comment">
   <div class="comment-bar">
     05/09/2011 - 9:11am EDT | <span class="submitted">AllanL5</span>
   </div>
-  
-    
+
+
   <div class="display-inline" id="comment-short-323253">
     <!--paging_filter--><p>Completely agree.  If "transparency is the best disinfectant", then anyone claiming disclosure disrupts their free-speech is actually claiming they want to use their free speech for corruption.  Which is what we're seeing.</p>
 <p>What, is there a presumption in the conservative media that if it was known who they're funders were, the electorate would turn against them?  Why wouldn't they assume (since they're claiming "all America is behind us!") that the electorate would approve of who's funding them?  Either way, full disclosure seems a good solution.</p>
@@ -824,9 +824,9 @@ D_AD('Right1');
 
 <div class="content">
     <div class="view view-multimedia view-id-multimedia view-display-id-block_2 view-dom-id-2">
-    
-  
-  
+
+
+
       <div class="view-content">
       <div id="multimedia_block" class="clearfix">
 
@@ -855,12 +855,12 @@ D_AD('Right1');
 
 </div>
     </div>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
 
 </div>
@@ -880,65 +880,65 @@ D_AD('Right2');
 
 <div class="content">
     <div class="view view-tnr-feed-blocks view-id-tnr_feed_blocks view-display-id-block_2 view-dom-id-4">
-    
+
     <div class="attachment attachment-before">
     <div class="view view-tnr-feed-blocks view-id-tnr_feed_blocks view-display-id-attachment_1 view-dom-id-3">
-    
-  
+
+
     <div class="view-content">
       <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-      
+
   <div class="views-field-field-feed-block-logo-fid">
                 <span class="field-content"><img class="imagefield imagefield-field_feed_block_logo" width="299" height="59" alt="" src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/feed_logos/partnernews_politcal_wire.jpg?1305170842"/></span>
   </div>
   </div>
   </div>
-        
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
-  
+
     <div class="view-content">
       <div class="views-row views-row-1 views-row-odd views-row-first">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://politicalwire.com/archives/2013/01/19/would-be_assassin_fails_in_attempt_on_bulgarian_politician.html" target="_blank">Would-be Assassin Fails in Attempt on Bulgarian Politician</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-2 views-row-even">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://politicalwire.com/archives/2013/01/19/quote_of_the_day.html" target="_blank">Quote of the Day</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-3 views-row-odd">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://politicalwire.com/archives/2013/01/19/house_republicans_start_acting_like_theyre_in_minority.html" target="_blank">House Republicans Start Acting Like They&#039;re in Minority</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-4 views-row-even">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://politicalwire.com/archives/2013/01/18/bolivian_lawmaker_caught_raping_unconscious_colleague.html" target="_blank">Bolivian Lawmaker Caught Raping Unconscious Colleague</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-5 views-row-odd views-row-last">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://politicalwire.com/archives/2013/01/18/gallup_and_usa_today_split.html" target="_blank">Gallup and USA Today Split</a></span>
   </div>
   </div>
     </div>
-        
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
 
 </div>
@@ -946,65 +946,65 @@ D_AD('Right2');
 
 <div class="content">
     <div class="view view-tnr-feed-blocks view-id-tnr_feed_blocks view-display-id-block_6 view-dom-id-6">
-    
+
     <div class="attachment attachment-before">
     <div class="view view-tnr-feed-blocks view-id-tnr_feed_blocks view-display-id-attachment_1 view-dom-id-5">
-    
-  
+
+
     <div class="view-content">
       <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-      
+
   <div class="views-field-field-feed-block-logo-fid">
                 <span class="field-content"><img class="imagefield imagefield-field_feed_block_logo" width="299" height="59" alt="" src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/feed_logos/partnernews_rollcall.jpg?1305171156"/></span>
   </div>
   </div>
   </div>
-        
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
-  
+
     <div class="view-content">
       <div class="views-row views-row-1 views-row-odd views-row-first">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://www.rollcall.com/news/republicans_focus_on_hispanic_outreach-220894-1.html" target="_blank">Republicans Focus On Hispanic Outreach</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-2 views-row-even">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://www.rollcall.com/news/gop_groups_urge_moderate_stance_on_immigration-220893-1.html" target="_blank">GOP Groups Urge Moderate Stance on Immigration</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-3 views-row-odd">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://www.rollcall.com/news/house_freshmen_to_watch-220903-1.html" target="_blank">House Freshmen to Watch</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-4 views-row-even">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://www.rollcall.com/news/colberts_sister_businessman_running_in_sc_special-220881-1.html" target="_blank">Colbert&#039;s Sister, Businessman Running in S.C. Special</a></span>
   </div>
   </div>
   <div class="views-separator"></div>  <div class="views-row views-row-5 views-row-odd views-row-last">
-      
+
   <div class="views-field-title">
                 <span class="field-content"><a href="http://web.archive.org/web/20130119200358/http://www.rollcall.com/news/massachusetts_rabbi_passes_on_senate_bid-220879-1.html" target="_blank">Massachusetts: Rabbi Passes on Senate Bid</a></span>
   </div>
   </div>
     </div>
-        
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
 
 </div>
@@ -1028,17 +1028,17 @@ D_AD('Right3');
 
 <div class="content">
     <div class="view view-feature-header view-id-feature_header view-display-id-block_3 view-dom-id-10">
-    
-  
-  
+
+
+
       <div class="view-content">
       <ul id="viewscarousel-feature-header-block-3" class="jcarousel-skin-custom"><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111978/why-you-shouldnt-pay-attention-obamas-inauguration-speech" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/84372270.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111978/why-you-shouldnt-pay-attention-obamas-inauguration-speech" title="A Short History of Meaningless Inauguration Speeches" alt="A Short History of Meaningless Inauguration Speeches">A Short History of Meaningless Inauguration Speeches</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111969/teddy-turner-congress-south-carolina-media-scion" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/ Hi res Teddy  Marsh 2.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111969/teddy-turner-congress-south-carolina-media-scion" title="Have Family Dinners Prepared Teddy Turner to Be a Politician?" alt="Have Family Dinners Prepared Teddy Turner to Be a Politician?">Have Family Dinners Prepared Teddy Turner to Be a Politician?</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111996/we-know-everything-about-celebrity-scientologists-nothing-about-scientology" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159148966.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/111996/we-know-everything-about-celebrity-scientologists-nothing-about-scientology" title="We Know Everything About Celebrity Scientologists, But Nothing About Scientology" alt="We Know Everything About Celebrity Scientologists, But Nothing About Scientology">We Know Everything About Celebrity Scientologists, But Nothing About Scientology</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/plank/112026/can-kicking-brief-history" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/Thomas Strosse.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/plank/112026/can-kicking-brief-history" title="The Kick-the-Can Cliche Has Been Kicked Around for Decades" alt="The Kick-the-Can Cliche Has Been Kicked Around for Decades">The Kick-the-Can Cliche Has Been Kicked Around for Decades</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/politics/111991/america-will-always-buy-what-arnold-schwarzenegger-selling-himself" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/last-stand.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/politics/111991/america-will-always-buy-what-arnold-schwarzenegger-selling-himself" title="Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying" alt="Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying">Arnold Schwarzenegger: The One-Man Brand That America Keeps Buying</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112006/judge-not-how-the-celebrity-industrial-complex-stalling-itself-out" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159221804.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112006/judge-not-how-the-celebrity-industrial-complex-stalling-itself-out" title="Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail" alt="Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail">Judge Not: How the Celebrity-Industrial Complex Is Eating Its Tail</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/112030/after-sandy-hook-how-contemplate-politics-post-tragedy" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159498521.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/112030/after-sandy-hook-how-contemplate-politics-post-tragedy" title="After Sandy Hook: How to Contemplate Politics Post-Tragedy" alt="After Sandy Hook: How to Contemplate Politics Post-Tragedy">After Sandy Hook: How to Contemplate Politics Post-Tragedy</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/112002/baudrillard-and-booth-babes-the-consumer-electronics-show" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/Screen Shot 2013-01-17 at 6.53.39 PM.png" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/112002/baudrillard-and-booth-babes-the-consumer-electronics-show" title="Baudrillard and Babes at the Consumer Electronics Show" alt="Baudrillard and Babes at the Consumer Electronics Show">Baudrillard and Babes at the Consumer Electronics Show</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112035/why-helen-hunt-deserves-best-actress-oscar-the-sessions" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/helen7.jpg" alt="" title="" class="imagecache imagecache-thumbnail90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/books-and-arts/112035/why-helen-hunt-deserves-best-actress-oscar-the-sessions" title="Why Helen Hunt Deserves a Best Actress Oscar for The Sessions" alt="Why Helen Hunt Deserves a Best Actress Oscar for The Sessions">Why Helen Hunt Deserves a Best Actress Oscar for The Sessions</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/blog/politics/112031/lance-armstrong-no-more-mr-nice-guy" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/159537841.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/blog/politics/112031/lance-armstrong-no-more-mr-nice-guy" title="Lance Armstrong, Jerk" alt="Lance Armstrong, Jerk">Lance Armstrong, Jerk</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/art/111990/moma-inventing-abstraction-exhilirating-challenging-and-completely-wrong" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/68598.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/art/111990/moma-inventing-abstraction-exhilirating-challenging-and-completely-wrong" title="The MOMA&amp;amp;#039;s New Show is the Most Exciting Art Exhibit On Now. It&amp;amp;#039;s Also Completely Wrong." alt="The MOMA&amp;amp;#039;s New Show is the Most Exciting Art Exhibit On Now. It&amp;amp;#039;s Also Completely Wrong.">The MOMA&#039;s New Show is the Most Exciting Art Exhibit On Now. It&#039;s Also Completely Wrong.</a></div></li><li><a href="/web/20130119200358/http://www.tnr.com/article/politics/magazine/111370/the-captive-san-clemente" class="imagecache imagecache-thumbnail90 imagecache-linked imagecache-thumbnail90_linked"><img src="http://web.archive.org/web/20130119200358im_/http://www.tnr.com/sites/default/files/imagecache/thumbnail90/nixon_6.jpg" alt="" title="" class="imagecache imagecache-thumbnail90" width="90" height="90"/></a><div class="title"><a href="/web/20130119200358/http://www.tnr.com/article/politics/magazine/111370/the-captive-san-clemente" title="The Captive of San Clemente" alt="The Captive of San Clemente">The Captive of San Clemente</a></div></li></ul>    </div>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>   </div>
 
 </div>
@@ -1048,7 +1048,7 @@ D_AD('Right3');
 			<div id="block-custom_blocks-footer_links" class="block block-custom_blocks">
 
 <div class="content">
-    
+
 <div id="footer_links_wrapper" class="clearfix">
   <div id="topics">
   <ul>
@@ -1175,7 +1175,7 @@ D_AD('Top');
 <script type="text/javascript">
 	var _sf_async_config={uid:34517,domain:"tnr.com"};
 	_sf_async_config.useCanonical = true;
-	
+
 		(function(){
 	  function loadChartbeat() {
 		window._sf_endpt=(new Date()).getTime();
@@ -1191,7 +1191,7 @@ D_AD('Top');
 	  window.onload = (typeof window.onload != 'function') ?
 		 loadChartbeat : function() { oldonload(); loadChartbeat(); };
 	})();
-	
+
 	</script>
 
 <link type="text/css" rel="stylesheet" media="all" href="/web/20130119200358cs_/http://www.tnr.com/sites/all/modules/cluetip/cluetip/jquery.cluetip.css"/>

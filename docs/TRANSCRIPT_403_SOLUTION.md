@@ -50,8 +50,8 @@ python3 nytimes_transcript_handler.py
 
 ### Database Status Check
 ```sql
-SELECT podcast_name, episode_title, transcript_status, transcript_error 
-FROM episodes 
+SELECT podcast_name, episode_title, transcript_status, transcript_error
+FROM episodes
 WHERE transcript_status = 'unavailable';
 ```
 
@@ -115,9 +115,9 @@ curl "https://rss.nytimes.com/services/xml/rss/nyt/podcasts/hardfork.xml"
 ### Database Maintenance
 ```sql
 -- Clear old failed attempts for retry
-UPDATE episodes 
-SET transcript_status = NULL, transcript_error = NULL 
-WHERE transcript_status = 'unavailable' 
+UPDATE episodes
+SET transcript_status = NULL, transcript_error = NULL
+WHERE transcript_status = 'unavailable'
   AND last_attempt < datetime('now', '-30 days');
 ```
 

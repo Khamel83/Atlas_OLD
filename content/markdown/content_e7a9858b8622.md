@@ -264,7 +264,7 @@ img.wp-smiley, img.emoji {
 .learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
 			background-color: #a53635 !important;
 		}
-		
+
 		.learndash-wrapper #quiz_continue_link,
 		.learndash-wrapper .ld-secondary-background,
 		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
@@ -363,7 +363,7 @@ img.wp-smiley, img.emoji {
 					}
 				}
 			</style>
-			
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="How much underwear to bring on a trip &rarr;" />
@@ -407,16 +407,16 @@ img.wp-smiley, img.emoji {
 }		</style>
 		    </head>
 <body data-rsssl=1 class="wp-singular post-template-default single single-post postid-35757 single-format-standard wp-theme-fd-modern-6-0 elementor-default elementor-kit-68731">
-    
+
     <div id="main-wrapper">
         <a name="top"></a>
-        
-	    
-		
-        
+
+
+
+
         <div id="header-wrapper">
             <div id="header" class="container">
-                <div id="logo" class="four columns">    
+                <div id="logo" class="four columns">
                     <a href="https://flowingdata.com/">
                         <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
                     </a>
@@ -436,76 +436,76 @@ img.wp-smiley, img.emoji {
                                             </ul>
                 </div>
             </div><!-- @end #header -->
-            
+
         </div><!-- @end #header-wrapper -->
-        
-        
-        
+
+
+
 <div id="content-wrapper" class="container">
-	
+
 <div id="single-post" class="archive-post eleven columns">
 
 <div class="nine columns offset-by-two alpha">
-		
-                        
-        
+
+
+
 		        <h1>
                 <a href="https://medium.com/@sofauxboho/pack-like-a-nerd-2157aa39738f">How much underwear to bring on a trip <span>&rarr;</span></a>
                 </h1>
-		
+
     </div>
     <div class="clr"></div>
-    
+
     <div class="byinfo two columns alpha">
-                        
+
         <a href="https://flowingdata.com/2014/07/16/how-much-underwear-to-bring-on-a-trip/">July 16, 2014</a>
-        
+
                 <div style="margin-top:1.5rem">
             <h3 class="toplevel">Topic</h3>
     		<strong><a href="https://flowingdata.com/category/visualization/statistical-visualization/" rel="category tag">Statistical Visualization</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/traveling/" rel="tag">traveling</a>, <a href="https://flowingdata.com/tag/underwear/" rel="tag">underwear</a>        </div>
-                
-        
+
+
             </div>
-    
+
     <div class="nine columns omega">
-        
-                
+
+
         <div class="archive-featured-image">
                         <a href="https://medium.com/@sofauxboho/pack-like-a-nerd-2157aa39738f"><img fetchpriority="high" width="620" height="317" src="https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-620x317.jpeg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-620x317.jpeg 620w, https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-210x107.jpeg 210w, https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-960x492.jpeg 960w, https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip.jpeg 1127w" sizes="(max-width: 620px) 100vw, 620px" data-attachment-id="35758" data-permalink="https://flowingdata.com/2014/07/16/how-much-underwear-to-bring-on-a-trip/underwear-to-bring-on-a-trip/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip.jpeg" data-orig-size="1127,578" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Underwear to bring on a trip" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-620x317.jpeg" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/Underwear-to-bring-on-a-trip-960x492.jpeg" /></a>
                     </div>
                 <!-- <div class="clr"></div> -->
-        
-        
+
+
         <div class="entry">
-                                    
+
                 <p>Packing underwear for a short trip is easy. You just pack a pair for each day you&#8217;re away. However, longer trips require extra planning. Pack a pair for every day, and you get a bag that&#8217;s too heavy. Pack too few and you have to launder your dirties more often. </p>
 <p><a href="https://medium.com/@sofauxboho/pack-like-a-nerd-2157aa39738f">Reed Kennedy and Carrie Smith gave this problem some extra thought, in search for the ideal underwear count, given the number of days you leave</a>. The result is the chart above.</p>
 <p>Simply select your trip length on the top, and then move down to find your ideal underwear count. The numbers inside the grid cells indicate how many times you have to launder. Gold numbers indicate a perfect remainder of zero pairs of clean underwear by the time you get home.</p>
 <p>Note: This chart assumes you do not turn your underwear inside out for another wearing. Not that&#8217;d I&#8217;ve ever done that. </p>
 <p><a href="https://medium.com/@sofauxboho/pack-like-a-nerd-2157aa39738f">See the full post</a> for further dirty underwear details.</p>
-                
-                
-                                        
+
+
+
             <div class="clr"></div>
         </div><!-- @end .entry -->
-        
-        
+
+
                 <div style="border-top:1px solid #e8e8e8;padding-top:1.5rem">
     		<!-- Begin Mailchimp Signup Form -->
             <h3 class="toplevel" style="margin-bottom:0">FlowingData Delivered to Your Inbox</h3>
     		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     		<style type="text/css">
     			#mc_embed_signup{
-    				background:#fff; clear:left; 
+    				background:#fff; clear:left;
     				font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
-    				font-size: .9rem; 
+    				font-size: .9rem;
     			}
     			#mc_embed_signup form {
     				padding-left: 0;
     			}
-    			#mc_embed_signup input.email { 
-    				font-size: 1rem; 
-    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important; 
+    			#mc_embed_signup input.email {
+    				font-size: 1rem;
+    				font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New" !important;
     			}
     			#mc_embed_signup .input-group label { vertical-align: middle; }
     			#mc_embed_signup .input-group ul { padding: 0 !important; }
@@ -536,13 +536,13 @@ img.wp-smiley, img.emoji {
     		</form>
     		</div>
     		<!--End mc_embed_signup-->
-            
+
             <div class="clr"></div>
         </div><!-- @end newsletter signup -->
-                
-		
+
+
                 <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
-    
+
     <div id="related">
     	<h3 class="toplevel">Related</h3>
     	<ul>
@@ -568,8 +568,8 @@ img.wp-smiley, img.emoji {
 
 </div>
     <div class="clr"></div>
-    
-    <div class="nine columns offset-by-two alpha">    
+
+    <div class="nine columns offset-by-two alpha">
     <span id="comments"></span>
 
 </div>
@@ -584,15 +584,15 @@ img.wp-smiley, img.emoji {
                      <a href="https://flowingdata.com/membership/">
                 <p>Support an independent FlowingData, and get extra visualization goodness.</p>
                 <p><small>Become a member &rarr;</small></p>
-                        
+
         </a>
-    </div><!-- @end membership-sidebar --> 
-         
-    
-	
-    	
-    
-    
+    </div><!-- @end membership-sidebar -->
+
+
+
+
+
+
     <div id="book-sidebar" class="sec">
         <h3 class="toplevel" style="margin-bottom:1em">Second Edition</h3>
         <a href="https://book.flowingdata.com/">
@@ -605,18 +605,18 @@ img.wp-smiley, img.emoji {
         <div class="clr"></div>
         <br />
     </div><!-- @end book-sidebar -->
-    
-    
-	
-    
-        
-    
-    
-    
-    
-    
-	
-    
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!-- @end #sidebar -->
 
 <div class="clr"></div>

@@ -7,11 +7,11 @@
 
 # Yahoo Search
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Yahoo Search](https://s.yimg.com/pv/static/img/y_icon_iphone_76.min.png)
 
-Donald Trump  
-  
-Trump says he’s ‘very angry’ and ‘pissed off’ at Putin during an NBC News interview 
+Donald Trump
+
+Trump says he’s ‘very angry’ and ‘pissed off’ at Putin during an NBC News interview
 

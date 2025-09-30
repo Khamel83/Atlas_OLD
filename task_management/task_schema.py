@@ -12,7 +12,7 @@ import json
 
 class TaskComplexity(Enum):
     SMALL = "S"      # 1-3 hours
-    MEDIUM = "M"     # 3-8 hours  
+    MEDIUM = "M"     # 3-8 hours
     LARGE = "L"      # 8+ hours
 
 class TaskType(Enum):
@@ -86,7 +86,7 @@ class RecoveryInstructions:
 @dataclass
 class AtomicTask:
     """Complete specification for an atomic, AI-executable task"""
-    
+
     # Core identification
     id: str
     title: str
@@ -94,18 +94,18 @@ class AtomicTask:
     task_type: TaskType
     complexity: TaskComplexity
     estimated_hours: float
-    
+
     # Dependencies and scheduling
     dependencies: List[str] = field(default_factory=list)
     blocks: List[str] = field(default_factory=list)
     priority: int = 5  # 1-10, higher = more important
-    
+
     # AI Agent Context
     context_package: ContextPackage = None
     acceptance_criteria: AcceptanceCriteria = None
     validation_scripts: List[ValidationScript] = field(default_factory=list)
     recovery_instructions: RecoveryInstructions = None
-    
+
     # Execution tracking
     status: TaskStatus = TaskStatus.PENDING
     assigned_agent: Optional[str] = None
@@ -114,13 +114,13 @@ class AtomicTask:
     completed_at: Optional[datetime] = None
     last_attempt: Optional[datetime] = None
     failure_count: int = 0
-    
+
     # Results and artifacts
     git_commits: List[str] = field(default_factory=list)
     artifacts_created: List[str] = field(default_factory=list)
     execution_notes: str = ""
     agent_feedback: str = ""
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for JSON serialization"""
         return {
@@ -150,7 +150,7 @@ class AtomicTask:
             "validation_scripts": self._serialize_validation_scripts(),
             "recovery_instructions": self._serialize_recovery_instructions()
         }
-    
+
     def _serialize_context_package(self) -> Optional[Dict]:
         if not self.context_package:
             return None
@@ -180,7 +180,7 @@ class AtomicTask:
             "success_patterns": self.context_package.success_patterns,
             "related_documentation": self.context_package.related_documentation
         }
-    
+
     def _serialize_acceptance_criteria(self) -> Optional[Dict]:
         if not self.acceptance_criteria:
             return None
@@ -190,7 +190,7 @@ class AtomicTask:
             "quality_metrics": self.acceptance_criteria.quality_metrics,
             "performance_requirements": self.acceptance_criteria.performance_requirements
         }
-    
+
     def _serialize_validation_scripts(self) -> List[Dict]:
         return [
             {
@@ -201,7 +201,7 @@ class AtomicTask:
                 "working_directory": script.working_directory
             } for script in self.validation_scripts
         ]
-    
+
     def _serialize_recovery_instructions(self) -> Optional[Dict]:
         if not self.recovery_instructions:
             return None
@@ -220,7 +220,7 @@ def create_task_template(task_id: str, title: str, task_type: TaskType, complexi
         description=f"Template for {title}",
         task_type=task_type,
         complexity=complexity,
-        estimated_hours=1.0 if complexity == TaskComplexity.SMALL else 
+        estimated_hours=1.0 if complexity == TaskComplexity.SMALL else
                        5.0 if complexity == TaskComplexity.MEDIUM else 12.0
     )
 
@@ -232,11 +232,11 @@ def load_task_from_dict(data: Dict[str, Any]) -> AtomicTask:
 if __name__ == "__main__":
     # Example usage
     example_task = create_task_template(
-        "ATLAS-TEST-001", 
+        "ATLAS-TEST-001",
         "Add unit tests for path_manager.py",
         TaskType.TEST_FIRST,
         TaskComplexity.MEDIUM
     )
-    
+
     print("Example task schema:")
     print(json.dumps(example_task.to_dict(), indent=2))

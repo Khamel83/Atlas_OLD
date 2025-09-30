@@ -257,7 +257,7 @@ We’re all holding ourselves back from our natural behavior. We’ve ceded so m
 
 ---
 
-This article appeared in the March 2025 issue of Esquire  
+This article appeared in the March 2025 issue of Esquire
 [subscribe](https://shop.esquire.com/esquire-all-access-membership-2.html?cds_tracking_code=esqengredirect)
 
 ---

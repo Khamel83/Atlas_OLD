@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Would you want to buy Silicon Valley Bank? You get three main things: A big portfolio of Treasury bonds and agency mortgage-backed securitie
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SVB: M&A
-    
-  
+
+
 
 Would you want to buy Silicon Valley Bank? You get three main things:
 	A big portfolio of Treasury bonds and agency mortgage-backed securities. These are worth what they’re worth: There’s a pretty liquid market for them and not much dispute about their value. They’re worth a lot less than SVB paid for them, which is a big part of why SVB failed last week, but they’re worth a lot more today than they were last week, because SVB failed and so everyone panicked and rushed to buy safe assets like Treasuries.	A portfolio of loans. The   loans  are frankly pretty cool? If you buy this portfolio you will have a lot of mortgages on fancy vineyards? And on a lot of tech execs’ fancy houses? But also you will have a big book of capital-call financing for venture capital firms, a bit of financial engineering that seems to produce safe loans. Also a smaller book of loans to risky startups.
@@ -107,37 +107,37 @@ I assume that SVB — now called “Silicon Valley Bridge Bank NA” — will 
   [3]
  and that the FDIC will sell it off fairly soon. I suppose that, the better it does now at opening accounts and making loans, the more valuable it will be to a buyer; its current FDIC-appointed managers are doing their job of maximizing recovery for the FDIC. But it would be pretty funny if they attract a lot of deposits by saying “we are the safest bank in the US because we are explicitly owned and guaranteed by the government,” and then the government sells them and they go back to being only implicitly guaranteed by the government and all the depositors flee again. “I wanted an account at the Bank of FDIC, but not at PNC, if it’s just PNC I might as well go back to JPMorgan.” If you buy SVB you should demand that the FDIC continue to guarantee all the deposits forever.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SVB: ECM
-    
-  
+
+
 
 As I said above, the basic story of the fall of SVB is that venture-backed tech startups plowed too much money into SVB too quickly in the boom times, and took it out too quickly last week. SVB had nowhere to put that money except in long-dated government bonds with lots of interest-rate risk; when rates went up those bonds lost money, and when its depositors all fled last week it realized those losses and went bust. The depositors were the problem.
 But, as a former equity capital markets banker at Goldman Sachs Group Inc. (disclosure!), I should add that another story of the fall of SVB is that Goldman’s equity capital markets advice might not have been that hot? Here is a pretty brutal review from former capital markets banker  Craig Coben at FT Alphaville:
@@ -173,11 +173,11 @@ I mean the basic issue is that if Goldman is going to buy a $21.4 billion bond p
   [6]
  Presumably Goldman hasn’t just held onto all those bonds the whole time, but if it did, great trade, for Goldman anyway.
 
-  
-    
+
+
       Credit Suisse
-    
-  
+
+
 
 What?
 
@@ -202,11 +202,11 @@ This is stuff   we knew already but it is so briskly summarized: Credit Suisse w
 
 Quite possibly this is all fine and the prices are fair and arm’s-length, but this might be the most conflicted transaction I have ever seen? I just admire it? “No conflict, no interest” is  the old joke, and it is true that the best and most famous investment bankers tend to find themselves with close ties to everyone on every side of every big deal. If Credit Suisse just thinks that Michael Klein is the best investment banker going, then (1) who better to serve on its board of directors, (2) who better to advise it on this tricky transaction and (3) who better to lead its new investment bank? A lesser banker might have said “ahh I’d love to run First Boston but you see I’m on the Credit Suisse board and it’d look bad,” but Klein was like “nope, I’m the guy, don’t care how it looks, I gotta do it all myself.” Love it.
 
-  
-    
+
+
       APEs
-    
-  
+
+
 
 I feel like we were recently in the Era of Meme Stocks, but now that ended and we are in an Era of Banking Crises, and it’s a bit silly to talk about the meme stocks. But they still exist! They’re still doing stuff! We have talked a bunch about AMC Entertainment Holdings Inc.’s   APE gambit. Basically:
 	AMC was a meme stock and issued tons of stock to shore up its balance sheet, pay down debt, and go off on larks like   buying a gold mine.	Eventually it ran out of authorized shares to sell.	It asked its shareholders to approve more shares, but that would require a majority of all of the shares to vote in favor of an amendment to the corporate charter, and retail shareholders stereotypically don’t vote. So AMC couldn’t get enough votes, so it withdrew the request.	Also some of its shareholders objected to the dilution that would come from issuing new shares, though it’s hard to know how much that objection mattered versus just the fact that most of its shareholders don’t vote at all. Not voting is equivalent to voting no, and it seems like AMC’s biggest problem was shareholder apathy rather than shareholder opposition.	AMC came up with a very silly workaround. It issued a new weird class of stock called APEs, AMC Preferred Equity Units. Each APE has the same economic and voting rights as a common share, and AMC gave out one APE for each common share. Then it sold a bunch more APEs to raise cash.	The APEs trade at a discount to the common stock, which makes this strategy sort of awful and dilutive: You are selling something that is economically equivalent to the common, but at a huge discount. 	So AMC asked its shareholders again to approve issuing more shares and converting the APEs into common, which will result in AMC being able to sell lots more regular common stock.	It also stacked this vote, because (1) the APEs vote alongside the common, (2) there are now more APEs than common shares and (3) the APE holders have an incentive to vote to allow the conversion, since the common trades at a much higher price than the APEs.	Also though, (4) the APEs are  structured in a clever way to make sure that they all vote. Technically APEs are not shares but depositary receipts for 1/100th of a share of preferred stock. All the preferred stock is held by a depositary, and the depositary has agreed to vote all of its preferred shares, in proportion to how the APE holders instruct it. So if 40% of the APEs vote yes, 10% vote no, and 50% never return a proxy, the actual vote will be 80% yes and 20% no. Not voting an APE is not equivalent to voting no.	AMC scheduled the shareholder vote for yesterday.	Some  shareholders sued, saying that this whole structure is ridiculous and disenfranchises shareholders.
@@ -221,23 +221,23 @@ AMC said:
 Commenting on the results, Adam Aron, AMC Entertainment Chairman and CEO said, “AMC’s shareholders exercised their rights today to have their voices be heard. They voted resoundingly in favor of proposals that we believe are crucial to AMC’s future. Shareholders overwhelmingly approved combining AMC common shares and APE units, with total votes 87% in favor, while significantly increasing the capacity to issue additional common shares, with total votes 88% in favor.If implemented, AMC should have an ability to raise a significant amount of equity capital in the months and years ahead. Winning these shareholder votes by such a lopsided margin is a powerful vote of confidence to allow AMC to raise equity capital, reduce debt, strengthen our balance sheet and continue our transformation.”
 And I think it has a good argument in court that the shareholders did vote in favor of authorizing new shares, to the extent they voted at all, so the APE mechanism was a way to give shareholders what they wanted even though the shareholders never vote. Again I am not sure that a Delaware court will allow it: The APEs kicked off a wave of strange voting preferred stock deals designed to get around shareholder voting problems, and the court might reasonably think “we don’t want boards of directors to engineer shareholder votes like this so we’re going to block the APEs.” But, again, it would be a bit harsh, because the APEs really do seem to be giving AMC shareholders what they want.
 
-  
-    
+
+
       Isn’t it ironic?
-    
-  
+
+
 
 It is the official position of this column that you should never participate in a corporate parody rap video, but can you, on your own time, record an Alanis Morissette parody video about the collapse of your employer? I mean, I’m not gonna stop you. It helps that this  SVB-themed Alanis Morissette parody is reasonably funny? And actually a pretty good summary of the situation? “It’s a federal bailout, two minutes too late.” “It's like when you thought that T-bonds were safe, but then Jerome Powell went and raised interest rates. It’s the share sale that just didn’t take, so now Elon Musk please buy us.”
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Signature Bank CEO in 2018: “In five years a number of banks   will not be around because of blockchain technology.” Patrick McKenzie: “The world sits atop four elephants who stand astride the risk-free rate, and then it is interest rates all the way down.” Nathan Tankus: “All this nonsense can be eliminated by simply removing the cap on deposit insurance, and admitting that  a bank deposit is money, and should just be treated straightforwardly as such.” Matt Klein: “Banks are speculative investment funds grafted on top of  critical infrastructure.” Fed Weighs  Tougher Rules for Midsized Banks After SVB’s Collapse. Focus on SVB’s $180mn  D&O tower as US acts to avert wider banking crisis. Ukraine Wins UK Top Court Case Over $3 Billion   Bond Default. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Here is an  interesting Twitter thread from Todd Baker about how the loan portfolio and the franchise relate: “The $6.7 billion in ‘investor dependent’ loans to Venture-backed startups are the ones that are difficult for national banks to acquire. They are also the key to the whole SVB ecosystem, including the Global Fund Banking portfolio. … The challenge for FDIC in a nutshell: these apparently disparate lending businesses are all deeply intertwined. High value to a franchise buyer, questionable value to a piecemeal buyer. And if a buyer can't to the earliest stage ‘investor dependent’ loans, can it hold on to the rest of the business?” That is, a small but risky part of SVB’s lending portfolio is making loans to early-stage startups. Most banks don’t like to do that, but it’s what won SVB so much of its other business, because venture capitalists wanted to work with a bank that supported startups.
 
 
@@ -259,95 +259,95 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] On page 327 of the report Credit Suisse notes that the purchase price for the Klein Group is $175 million and the fee under the engagement letter was $10 million. Also I say “a member of its own board,” but technically Klein stepped down from the board on Oct. 27, the day he was hired as an adviser instead.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cid4r5.5jei/085731ef.gif" alt="" border="0" /></a>

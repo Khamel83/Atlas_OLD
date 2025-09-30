@@ -49,7 +49,7 @@ Learn more about open source AI. ( https://ai.meta.com/open?utm_campaign=The+Bes
 
 Let’s jump in…
 
- 
+
 
 King
 of the Hill: Elon Musk
@@ -85,7 +85,7 @@ Many of these policy disagreements will be hashed out in the White House—both 
 65,000 per year, and it’s not hard to imagine Trump (or Elon) leaning on members to maintain or even raise that number. Whether the incoming Congress has the political will to countenance more sweeping changes remains to be seen: Comprehensive immigration reform has been the graveyard for more than a few political careers, and lawmakers may be content to let Trump handle border policy via D.H.S. But this whole spat certainly has put the topic on the front burner, at least as long as Musk,
 Krishnan, Ramaswamy, and other members of the new technocratic right remain in Trump’s good graces. 
 
- 
+
 
 The
 Week Ahead
@@ -139,7 +139,7 @@ paper of record…
 Dylan Byers
 Dylan Byers
 
- 
+
 
 Inside the Washington Post
 Transfer Portal
@@ -188,7 +188,7 @@ Baratunde Thurston
 William D. Cohan
 William D. Cohan
 
- 
+
 
 Wall
 Street’s A.I. Gamble
@@ -264,6 +264,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUFRQD-2fEQ3G9ii_QnoU=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F29%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F29%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

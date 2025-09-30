@@ -174,7 +174,7 @@ div#ez-toc-container .ez-toc-title {font-size: 80%;}div#ez-toc-container .ez-toc
 
     var quidget_tracking_query = {'var2':'', 'trn_id':''};
 
-</script> 
+</script>
 
 <script src='https://www.nextinsure.com/listingdisplay/loader/qdgt' async></script>
 
@@ -205,7 +205,7 @@ div#ez-toc-container .ez-toc-title {font-size: 80%;}div#ez-toc-container .ez-toc
 <!--Carries BO Page CSS -->
 <style type="text/css">
 .BObox{
-    border: 1px solid gray; padding-bottom: 10px; color: #424242; 
+    border: 1px solid gray; padding-bottom: 10px; color: #424242;
     min-height:60px;
     border-radius: 5px;
 }
@@ -213,7 +213,7 @@ div#ez-toc-container .ez-toc-title {font-size: 80%;}div#ez-toc-container .ez-toc
     margin: 0px; border: none;
 }
 .BOhd{
-    background-color: #366c82; padding: 5px; color: white; font-weight: bold; 
+    background-color: #366c82; padding: 5px; color: white; font-weight: bold;
     text-align: center; font-size: 16px;
     border-radius: 5px 5px 0px 0px;
     margin-bottom:5px;
@@ -222,41 +222,41 @@ div#ez-toc-container .ez-toc-title {font-size: 80%;}div#ez-toc-container .ez-toc
     color:white;
 }
 .BOright{
-    float: right; width: 30%; padding: 8px; font-size: 12px; 
+    float: right; width: 30%; padding: 8px; font-size: 12px;
     text-align: center; line-height: 1.2; color: #366c82; height: auto;
 }
 @media (min-width: 1080px) {
 .BOright{
-   width:20%; 
+   width:20%;
 }
 }
 .BOright img.aligncenter{
     margin:auto;
 }
-.BOfyv{margin-left: auto; margin-right: auto; 
+.BOfyv{margin-left: auto; margin-right: auto;
 margin-top:5px;}
 .BOfyv a{font-size:12px;}
 .BOinfo{
     padding: 5px 10px 18px 10px; text-align: left; min-width: 70%;
 }
 .BObon{
-    text-align: left; font-weight: bold; font-size: 18px; line-height: 1.2; 
+    text-align: left; font-weight: bold; font-size: 18px; line-height: 1.2;
     color: #366c82; margin: 8px;
 }
 .BOmo{
     margin-left: 8px; font-size: 12px; line-height: 16px; min-height: 35px;
 }
 .BOtmo{
-    margin-left: 8px; font-size: 12px; line-height: 16px; min-height: 35px; 
+    margin-left: 8px; font-size: 12px; line-height: 16px; min-height: 35px;
     margin-top:5px;
     margin-bottom:-15px;
 }
 .BOline{
-    padding: 8px; background-color: white; font-size: 12px; line-height: 1.25; 
+    padding: 8px; background-color: white; font-size: 12px; line-height: 1.25;
     text-align: left; border-top: solid 1px #BBDFEB; margin: 0px 8px 0px 8px;
 }
 .BOtbl{
-    padding: 8px; background-color: #eef7fa; font-size: 12px; line-height: 1.25; 
+    padding: 8px; background-color: #eef7fa; font-size: 12px; line-height: 1.25;
     text-align: left; border: solid 0px white; margin: 0px 8px 5px 8px;
 }
 .BOcta{
@@ -275,24 +275,24 @@ color:white; text-decoration:none;
 }
 
 .BOern{
-    background-color: #bbdfeb; border-radius: 3px; color: #424242; padding: 0.5%; 
-    font-size: 12px; font-weight: 400; margin:0px 0px 5px 5px; 
-    display: inline-block; width: 24.5%; 
+    background-color: #bbdfeb; border-radius: 3px; color: #424242; padding: 0.5%;
+    font-size: 12px; font-weight: 400; margin:0px 0px 5px 5px;
+    display: inline-block; width: 24.5%;
     text-align:center;
 }
 @media (max-width: 600px) {
 .BOern{
-   padding: 0.5%; width: 48%; 
+   padding: 0.5%; width: 48%;
 }
 }
 .BOapp{
-    background-color: #3cba6a; max-width:350px; 
+    background-color: #3cba6a; max-width:350px;
     text-align:center; color:white; font-weight:700;
     margin:auto; padding:7px; border-radius:5px; margin-top:-10px;
     font-size:12px; margin-bottom:5px;
 }
 .BOapp:hover{
-    box-shadow: 3px 3px 3px #b1b1b1; 
+    box-shadow: 3px 3px 3px #b1b1b1;
 }
 .BOapp a{
     color:white;
@@ -300,7 +300,7 @@ color:white; text-decoration:none;
     font-size:12px;
 }
 .BOapp2{
-    max-width:350px; 
+    max-width:350px;
     text-align:center; color:#0397c2; font-size:16; font-weight:700;
     margin:auto; padding:5px; border-radius:30px; margin-top:-10px;
     font-size:12px; margin-bottom:5px;
@@ -314,13 +314,13 @@ color:white; text-decoration:none;
     color:#32667b;
 }
 .BOapp3{
-    background-image: linear-gradient(to right, #169DB6, #553178); max-width:350px; 
+    background-image: linear-gradient(to right, #169DB6, #553178); max-width:350px;
     text-align:center; color:white; font-size:16; font-weight:700;
     margin:auto; padding:5px; border-radius:30px; margin-top:-10px;
     font-size:12px; margin-bottom:5px;
 }
 .BOapp3:hover{
-    box-shadow: 3px 3px 3px #b1b1b1; 
+    box-shadow: 3px 3px 3px #b1b1b1;
 }
 .BOapp3 a{
     color:white;
@@ -328,12 +328,12 @@ color:white; text-decoration:none;
     font-size:12px;
 }
 .BOsapp{
-    border:solid 3px #f14976; width:100%; 
+    border:solid 3px #f14976; width:100%;
     text-align:center; color:#f14976; font-size:16; font-weight:700;
     padding:8px; border-radius:30px; margin-top:5px;display:inline-block;
 }
 .BOsapp:hover{
-    box-shadow: 3px 3px 3px #b1b1b1; 
+    box-shadow: 3px 3px 3px #b1b1b1;
     background-color:#f14976;
     color:white;
 }
@@ -342,19 +342,19 @@ color:white; text-decoration:none;
     text-align:center;
 }
 .BOnm{
-    background-color: #366c82; padding: 5px 5px 5px 10px; color: white; 
-    text-align: left; font-weight:bold; font-size: 14px; border-radius:5px; 
+    background-color: #366c82; padding: 5px 5px 5px 10px; color: white;
+    text-align: left; font-weight:bold; font-size: 14px; border-radius:5px;
     margin-bottom:5px;
 }
 .BOfo{
-    margin:8px 8px 0px 16px; font-size: 12px; line-height: 1.25; text-align: 
+    margin:8px 8px 0px 16px; font-size: 12px; line-height: 1.25; text-align:
     left; font-weight:bold;
 }
 .BOsml{
     border: 1px solid gray; margin-bottom: 10px; color: #424242;
 }
 .BOtline{
-    padding: 8px; background-color: white; font-size: 12px; line-height: 1.25; 
+    padding: 8px; background-color: white; font-size: 12px; line-height: 1.25;
     text-align: left; margin: 8px;
 }
 .BOtinfo{
@@ -362,37 +362,37 @@ color:white; text-decoration:none;
     padding-bottom:5px; box-shadow: 0px 0px 5px lightgray;
 }
 .BOlft{
-    float: left; width: 25%; padding:12px 8px 8px 8px; font-size: 12px; 
+    float: left; width: 25%; padding:12px 8px 8px 8px; font-size: 12px;
     text-align: center; line-height: 1.2; color: #366c82; max-height: 70px;
 }
 @media (max-width: 600px) {
 .BOlft{
-   float: left; width: 25%; padding:12px 8px 8px 8px; font-size: 12px; 
+   float: left; width: 25%; padding:12px 8px 8px 8px; font-size: 12px;
     text-align: center; line-height: 1.2; color: #366c82; max-height: 75px;
 }
 }
 .BOstxt{
-    max-width:350px; 
+    max-width:350px;
     text-align:center; font-size:10px; line-height:1.2;
-    margin:auto; 
+    margin:auto;
 }
 .BOstxt2{
-    max-width:500px; 
+    max-width:500px;
     text-align:center; font-size:10px; line-height:1.2;
-    margin:auto; 
+    margin:auto;
     padding-bottom:15px;
     color:red;
 }
-.BOlegacy{ max-height: 340px; overflow: auto; padding-right: 3px; 
-margin-bottom: 20px; width: 50%; float: left;  
-text-align: center; 
+.BOlegacy{ max-height: 340px; overflow: auto; padding-right: 3px;
+margin-bottom: 20px; width: 50%; float: left;
+text-align: center;
 border-image:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 100%) 0 0 100 0 repeat;
     border-image-outset: 0px 0px 0px 0px;
     border-width: 0px 0px 10px 0px;
     border-style: solid; }
 @media (max-width: 600px) {
-    .BOlegacy{ max-height: 340px; overflow: auto; padding-right: 3px; 
-margin-bottom: 20px; width: 100%; float: left;  
+    .BOlegacy{ max-height: 340px; overflow: auto; padding-right: 3px;
+margin-bottom: 20px; width: 100%; float: left;
 text-align: center;}}
 .BOban{ background-color:lightgray; margin-bottom:-8px;border-radius:12px;
 font-size:10px;padding:3px; line-height:1.3;color:white;display:inline-block;
@@ -434,15 +434,15 @@ margin-left:3px;vertical-align:top;}
         window.tdb_global_vars = {"wpRestUrl":"https:\/\/frequentmiler.com\/wp-json\/","permalinkStructure":"\/%postname%\/"};
         window.tdb_p_autoload_vars = {"isAjax":false,"isAdminBarShowing":false,"autoloadStatus":"off","origPostEditUrl":null};
     </script>
-    
+
     <style id="tdb-global-colors">:root{--eastcoastcheck-primary:#ffc03a;--eastcoastcheck-accent:#d2930b;--eastcoastcheck-black:#131d23;--eastcoastcheck-darkgrey:#4D5860;--eastcoastcheck-bluegrey:#abb8c0;--eastcoastcheck-grey:#e6eaed;--eastcoastcheck-lightgrey:#FBFBFB;--eastcoastcheck-white:#FFFFFF;--eastcoastcheck-bluegrey2:#5d7e93;--mm-custom-color-4:#C2A25D;--mm-custom-color-5:#F7F9F9;--mm-custom-color-1:#053426;--mm-custom-color-2:#B79259;--mm-custom-color-3:#79847E;--custom-accent-1:#34a86e;--custom-accent-2:#2fc48d;--custom-accent-3:#000000;--doc-custom-color-1:#3A454E;--doc-custom-color-2:#2CC8B3;--doc-custom-color-3:#9BA1A8;--doc-custom-color-4:#EFF3F4;--doc-custom-color-5:#F7F9F9}</style>
 
-    
+
 	            <style id="tdb-global-fonts">
-                
+
 :root{--eastcoast-global:Jost;--eastcoast-accent:Smooch;--global-1:Space Grotesk;--global-2:Red Hat Display;--global-3:Pinyon Script;--doc-global-font-1:Outfit;}
             </style>
-            
+
 <!-- Meta Pixel Code -->
 <script type='text/javascript'>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -462,8 +462,8 @@ fbq('init', '191928715020735', {}, {
 <!-- JS generated by theme -->
 
 <script type="text/javascript" id="td-generated-header-js">
-    
-    
+
+
 
 	    var tdBlocksArray = []; //here we store all the items for the current page
 
@@ -554,8 +554,8 @@ fbq('init', '191928715020735', {}, {
             };
         })();
 
-    
-    
+
+
 var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
 var tds_general_modal_image="yes";
 var tdc_is_installed="yes";
@@ -617,7 +617,7 @@ var td_ad_background_click_target="";
     bottom: auto;
 }
 }		</style>
-		
+
 <!-- Button style compiled by theme -->
 
 <style>.tdm-btn-style1{background-color:#318ba2}.tdm-btn-style2:before{border-color:#318ba2}.tdm-btn-style2{color:#318ba2}.tdm-btn-style3{-webkit-box-shadow:0 2px 16px #318ba2;-moz-box-shadow:0 2px 16px #318ba2;box-shadow:0 2px 16px #318ba2}.tdm-btn-style3:hover{-webkit-box-shadow:0 4px 26px #318ba2;-moz-box-shadow:0 4px 26px #318ba2;box-shadow:0 4px 26px #318ba2}.tdm-btn,.tdm-btn:before{border-radius:100px}@media (min-width:1141px){#td-outer-wrap{margin:0px;position:relative}.td-boxed-layout .td-container-wrap{width:auto}.td-theme-wrap .td-header-menu-wrap.td-affix{width:calc(100% - 0px * 2)!important}}</style>
@@ -636,7 +636,7 @@ ga('set', 'dimension1', 'Nick Reyes and Tim Steinke');
 												ga('set', 'dimension3', 'best-uses, chase-ultimate-rewards, keystone, sweet-spot-spotlight');
 											ga('set', 'dimension4', '1000-1199');
 										ga('set', 'dimension5', '46-50');
-					
+
 	ga('set', 'forceSSL', true);
 	ga('require', 'displayfeatures');
 	ga('send', 'pageview');
@@ -699,7 +699,7 @@ gtag('config', 'G-7C7Q3KJ6V2');
         <div class="td-menu-socials-wrap">
             <!-- socials -->
             <div class="td-menu-socials">
-                
+
         <span class="td-social-icon-wrap">
             <a target="_blank" href="https://www.facebook.com/FrequentMiler" title="Facebook">
                 <i class="td-icon-font td-icon-facebook"></i>
@@ -731,7 +731,7 @@ gtag('config', 'G-7C7Q3KJ6V2');
         </div>
 
         <!-- login section -->
-        
+
         <!-- menu section -->
         <div class="td-mobile-content">
             <div class="menu-simple-menu-container"><ul id="menu-simple-menu-1" class="td-mobile-main-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first menu-item-18904"><a href="https://frequentmiler.com/start-here/">Beginner&#8217;s Guide</a></li>
@@ -788,7 +788,7 @@ gtag('config', 'G-7C7Q3KJ6V2');
 </div>
 
     <div id="td-outer-wrap" class="td-theme-wrap">
-    
+
                     <div class="td-header-template-wrap" style="position: relative">
                                     <div class="td-header-mobile-wrap ">
                         <div id="tdi_1" class="tdc-zone"><div class="tdc_zone tdi_2  wpb_row td-pb-row"  >
@@ -812,7 +812,7 @@ gtag('config', 'G-7C7Q3KJ6V2');
 <style>.tdb_mobile_search{margin-bottom:0;clear:none}.tdb_mobile_search a{display:inline-block!important;position:relative;text-align:center;color:var(--td_theme_color,#4db2ec)}.tdb_mobile_search a>span{display:flex;align-items:center;justify-content:center}.tdb_mobile_search svg{height:auto}.tdb_mobile_search svg,.tdb_mobile_search svg *{fill:var(--td_theme_color,#4db2ec)}#tdc-live-iframe .tdb_mobile_search a{pointer-events:none}.td-search-opened{overflow:hidden}.td-search-opened #td-outer-wrap{position:static}.td-search-opened .td-search-wrap-mob{position:fixed;height:calc(100% + 1px)}.td-search-opened .td-drop-down-search{height:calc(100% + 1px);overflow-y:scroll;overflow-x:hidden}.tdi_18{float:right;clear:none}.tdi_18 .tdb-block-inner{text-align:right}.tdi_18 .tdb-header-search-button-mob i{font-size:22px;width:55px;height:55px;line-height:55px}.tdi_18 .tdb-header-search-button-mob svg{width:22px}.tdi_18 .tdb-header-search-button-mob .tdb-mobile-search-icon-svg{width:55px;height:55px;display:flex;justify-content:center}.tdi_18 .tdb-header-search-button-mob{color:#000000}.tdi_18 .tdb-header-search-button-mob svg,.tdi_18 .tdb-header-search-button-mob svg *{fill:#000000}.tdi_18 .tdb-header-search-button-mob:hover{color:#6b4af9}@media (max-width:767px){.tdi_18 .tdb-header-search-button-mob i{font-size:18px;width:37.8px;height:37.8px;line-height:37.8px}.tdi_18 .tdb-header-search-button-mob svg{width:18px}.tdi_18 .tdb-header-search-button-mob .tdb-mobile-search-icon-svg{width:37.8px;height:37.8px;display:flex;justify-content:center}}</style><div class="tdb-block-inner td-fix-index"><span class="tdb-header-search-button-mob dropdown-toggle" data-toggle="dropdown"><i class="tdb-mobile-search-icon td-icon-search"></i></span></div></div> <!-- ./block --></div></div></div></div><div id="tdi_19" class="tdc-row"><div class="vc_row tdi_20  wpb_row td-pb-row" >
 <style scoped>.tdi_20,.tdi_20 .tdc-columns{min-height:0}.tdi_20,.tdi_20 .tdc-columns{display:block}.tdi_20 .tdc-columns{width:100%}.tdi_20:before,.tdi_20:after{display:table}</style><div class="vc_column tdi_22  wpb_column vc_column_container tdc-column td-pb-span12">
 <style scoped>.tdi_22{vertical-align:baseline}.tdi_22>.wpb_wrapper,.tdi_22>.wpb_wrapper>.tdc-elements{display:block}.tdi_22>.wpb_wrapper>.tdc-elements{width:100%}.tdi_22>.wpb_wrapper>.vc_row_inner{width:auto}.tdi_22>.wpb_wrapper{width:auto;height:auto}</style><div class="wpb_wrapper" ><div class="wpb_wrapper td_block_empty_space td_block_wrap vc_empty_space tdi_24 "  style="height: 50px"></div></div></div></div></div></div></div>                    </div>
-                
+
                     <div class="td-header-desktop-wrap ">
                         <div id="tdi_25" class="tdc-zone"><div class="tdc_zone tdi_26  wpb_row td-pb-row tdc-element-style"  >
 <style scoped>.tdi_26{min-height:0}.td-header-desktop-wrap{position:fixed;top:0;bottom:auto}.tdi_26{border-color:rgba(0,0,0,0.27)!important;box-shadow:0 0 3px #888888!important;z-index:100!important;border-style:solid!important;border-width:0px 0px 1px 0px!important;position:relative}@media (min-width:1019px) and (max-width:1140px){.tdi_26{box-shadow:0 0 3px #888888!important;border-width:0px 0px 1px 0px!important}}@media (max-width:767px){.tdi_26{box-shadow:0 0 0px #888888!important;border-width:0px 0px 0px 0px!important}}</style>
@@ -1332,7 +1332,7 @@ background-color:rgba(0,0,0,0) !important;
 <style>.tdi_91{margin-right:30px!important}</style>
 <style>.tdb_module_header{width:100%;padding-bottom:0}.tdb_module_header .td-module-container{display:flex;flex-direction:column;position:relative}.tdb_module_header .td-module-container:before{content:'';position:absolute;bottom:0;left:0;width:100%;height:1px}.tdb_module_header .td-image-wrap{display:block;position:relative;padding-bottom:70%}.tdb_module_header .td-image-container{position:relative;width:100%;flex:0 0 auto}.tdb_module_header .td-module-thumb{margin-bottom:0}.tdb_module_header .td-module-meta-info{width:100%;margin-bottom:0;padding:7px 0 0 0;z-index:1;border:0 solid #eaeaea;min-height:0}.tdb_module_header .entry-title{margin:0;font-size:13px;font-weight:500;line-height:18px}.tdb_module_header .td-post-author-name,.tdb_module_header .td-post-date,.tdb_module_header .td-module-comments{vertical-align:text-top}.tdb_module_header .td-post-author-name,.tdb_module_header .td-post-date{top:3px}.tdb_module_header .td-thumb-css{width:100%;height:100%;position:absolute;background-size:cover;background-position:center center}.tdb_module_header .td-category-pos-image .td-post-category:not(.td-post-extra-category),.tdb_module_header .td-post-vid-time{position:absolute;z-index:2;bottom:0}.tdb_module_header .td-category-pos-image .td-post-category:not(.td-post-extra-category){left:0}.tdb_module_header .td-post-vid-time{right:0;background-color:#000;padding:3px 6px 4px;font-family:var(--td_default_google_font_1,'Open Sans','Open Sans Regular',sans-serif);font-size:10px;font-weight:600;line-height:1;color:#fff}.tdb_module_header .td-excerpt{margin:20px 0 0;line-height:21px}.tdb_module_header .td-read-more{margin:20px 0 0}.tdb_module_search .tdb-author-photo{display:inline-block}.tdb_module_search .tdb-author-photo,.tdb_module_search .tdb-author-photo img{vertical-align:middle}.tdb_module_search .td-post-author-name{white-space:normal}.tdb_header_search{margin-bottom:0;clear:none}.tdb_header_search .tdb-block-inner{position:relative;display:inline-block;width:100%}.tdb_header_search .tdb-search-form{position:relative;padding:20px;border-width:3px 0 0;border-style:solid;border-color:var(--td_theme_color,#4db2ec);pointer-events:auto}.tdb_header_search .tdb-search-form:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:#fff}.tdb_header_search .tdb-search-form-inner{position:relative;display:flex;background-color:#fff}.tdb_header_search .tdb-search-form-inner:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;border:1px solid #e1e1e1;pointer-events:none}.tdb_header_search .tdb-head-search-placeholder{position:absolute;top:50%;transform:translateY(-50%);padding:3px 9px;font-size:12px;line-height:21px;color:#999;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;pointer-events:none}.tdb_header_search .tdb-head-search-form-input:focus+.tdb-head-search-placeholder,.tdb-head-search-form-input:not(:placeholder-shown)~.tdb-head-search-placeholder{opacity:0}.tdb_header_search .tdb-head-search-form-btn,.tdb_header_search .tdb-head-search-form-input{height:auto;min-height:32px}.tdb_header_search .tdb-head-search-form-input{color:#444;flex:1;background-color:transparent;border:0}.tdb_header_search .tdb-head-search-form-input.tdb-head-search-nofocus{color:transparent;text-shadow:0 0 0 #444}.tdb_header_search .tdb-head-search-form-btn{margin-bottom:0;padding:0 15px;background-color:#222222;font-family:var(--td_default_google_font_2,'Roboto',sans-serif);font-size:13px;font-weight:500;color:#fff;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;z-index:1}.tdb_header_search .tdb-head-search-form-btn:hover{background-color:var(--td_theme_color,#4db2ec)}.tdb_header_search .tdb-head-search-form-btn i,.tdb_header_search .tdb-head-search-form-btn span{display:inline-block;vertical-align:middle}.tdb_header_search .tdb-head-search-form-btn i{font-size:12px}.tdb_header_search .tdb-head-search-form-btn .tdb-head-search-form-btn-icon{position:relative}.tdb_header_search .tdb-head-search-form-btn .tdb-head-search-form-btn-icon-svg{line-height:0}.tdb_header_search .tdb-head-search-form-btn svg{width:12px;height:auto}.tdb_header_search .tdb-head-search-form-btn svg,.tdb_header_search .tdb-head-search-form-btn svg *{fill:#fff;-webkit-transition:all 0.3s ease;transition:all 0.3s ease}.tdb_header_search .tdb-aj-search-results{padding:20px;background-color:rgba(144,144,144,0.02);border-width:1px 0;border-style:solid;border-color:#ededed;background-color:#fff}.tdb_header_search .tdb-aj-search-results .td_module_wrap:last-child{margin-bottom:0;padding-bottom:0}.tdb_header_search .tdb-aj-search-results .td_module_wrap:last-child .td-module-container:before{display:none}.tdb_header_search .tdb-aj-search-inner{display:flex;flex-wrap:wrap;*zoom:1}.tdb_header_search .tdb-aj-search-inner:before,.tdb_header_search .tdb-aj-search-inner:after{display:table;content:'';line-height:0}.tdb_header_search .tdb-aj-search-inner:after{clear:both}.tdb_header_search .result-msg{padding:4px 0 6px 0;font-family:var(--td_default_google_font_2,'Roboto',sans-serif);font-size:12px;font-style:italic;background-color:#fff}.tdb_header_search .result-msg a{color:#222}.tdb_header_search .result-msg a:hover{color:var(--td_theme_color,#4db2ec)}.tdb_header_search .td-module-meta-info,.tdb_header_search .td-next-prev-wrap{text-align:left}.tdb_header_search .td_module_wrap:hover .entry-title a{color:var(--td_theme_color,#4db2ec)}.tdb_header_search .tdb-aj-cur-element .entry-title a{color:var(--td_theme_color,#4db2ec)}.tdc-dragged .tdb-head-search-btn:after,.tdc-dragged .tdb-drop-down-search{visibility:hidden!important;opacity:0!important;-webkit-transition:all 0.3s ease;transition:all 0.3s ease}.tdb-header-search-trigger-enabled{z-index:1000}.tdb-header-search-trigger-enabled .tdb-head-search-btn{display:flex;align-items:center;position:relative;text-align:center;color:var(--td_theme_color,#4db2ec)}.tdb-header-search-trigger-enabled .tdb-head-search-btn:after{visibility:hidden;opacity:0;content:'';display:block;position:absolute;bottom:0;left:0;right:0;margin:0 auto;width:0;height:0;border-style:solid;border-width:0 6.5px 7px 6.5px;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0);-webkit-transition:all 0.4s ease;transition:all 0.4s ease;border-color:transparent transparent var(--td_theme_color,#4db2ec) transparent}.tdb-header-search-trigger-enabled .tdb-drop-down-search-open+.tdb-head-search-btn:after{visibility:visible;opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.tdb-header-search-trigger-enabled .tdb-search-icon,.tdb-header-search-trigger-enabled .tdb-search-txt,.tdb-header-search-trigger-enabled .tdb-search-icon-svg svg *{-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}.tdb-header-search-trigger-enabled .tdb-search-icon-svg{display:flex;align-items:center;justify-content:center}.tdb-header-search-trigger-enabled .tdb-search-icon-svg svg{height:auto}.tdb-header-search-trigger-enabled .tdb-search-icon-svg svg,.tdb-header-search-trigger-enabled .tdb-search-icon-svg svg *{fill:var(--td_theme_color,#4db2ec)}.tdb-header-search-trigger-enabled .tdb-search-txt{position:relative;line-height:1}.tdb-header-search-trigger-enabled .tdb-drop-down-search{visibility:hidden;opacity:0;position:absolute;top:100%;left:0;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0);-webkit-transition:all 0.4s ease;transition:all 0.4s ease;pointer-events:none;z-index:10}.tdb-header-search-trigger-enabled .tdb-drop-down-search-open{visibility:visible;opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.tdb-header-search-trigger-enabled .tdb-drop-down-search-inner{position:relative;max-width:300px;pointer-events:all}.rtl .tdb-header-search-trigger-enabled .tdb-drop-down-search-inner{margin-left:0}.tdb_header_search .tdb-aj-srs-title{margin-bottom:10px;font-family:var(--td_default_google_font_2,'Roboto',sans-serif);font-weight:500;font-size:13px;line-height:1.3;color:#888}.tdb_header_search .tdb-aj-sr-taxonomies{display:flex;flex-direction:column}.tdb_header_search .tdb-aj-sr-taxonomy{font-family:var(--td_default_google_font_2,'Roboto',sans-serif);font-size:13px;font-weight:500;line-height:18px;color:#111}.tdb_header_search .tdb-aj-sr-taxonomy:not(:last-child){margin-bottom:5px}.tdb_header_search .tdb-aj-sr-taxonomy:hover{color:var(--td_theme_color,#4db2ec)}.tdi_91 .tdb-head-search-btn i{font-size:15px;width:31.5px;height:31.5px;line-height:31.5px;color:#000000}.tdi_91 .tdb-head-search-btn svg{width:15px}.tdi_91 .tdb-search-icon-svg{width:31.5px;height:31.5px}.tdi_91 .tdb-head-search-btn{justify-content:flex-end}.tdi_91{float:right;clear:none}.tdi_91 .tdb-search-txt{top:0px;font-family:Heebo!important}.tdi_91 .tdb-drop-down-search{top:calc(100% + 5px);left:auto;right:0}.tdi_91 .tdb-head-search-btn:after{bottom:-5px;border-bottom-color:#bbdfea}.tdi_91 .tdb-drop-down-search-inner{left:-9px;box-shadow:none}.tdi_91 .tdb-drop-down-search .tdb-drop-down-search-inner{max-width:500px}.tdi_91 .tdb-search-form{padding:0px;border-width:0px;border-color:var(--mm-custom-color-1)}body .tdi_91 .tdb-drop-down-search-inner,.tdi_91 .tdb-search-form,.tdi_91 .tdb-aj-search{margin-left:auto;margin-right:0}.tdi_91 .tdb-search-form-inner:after{border-width:0px;border-color:#000000}.tdi_91 .tdb-head-search-form-btn-icon{top:0px}.tdi_91 .result-msg{text-align:center;border-color:var(--mm-custom-color-1);font-family:Heebo!important;font-size:13px!important;font-style:normal!important;font-weight:400!important;letter-spacing:0.5px!important}.tdi_91 .tdb-head-search-btn svg,.tdi_91 .tdb-head-search-btn svg *{fill:#000000}.tdi_91 .tdb-head-search-btn:hover i{color:#32667b}.tdi_91 .tdb-head-search-btn:hover svg,.tdi_91 .tdb-head-search-btn:hover svg *{fill:#32667b}.tdi_91 .tdb-head-search-btn:hover .tdb-search-txt{color:#32667b}.tdi_91 .tdb-search-form:before{background-color:#bbdfea}.tdi_91 .tdb-head-search-form-input{color:#ffffff;font-family:Heebo!important;font-size:13px!important;font-weight:400!important}.tdi_91 .tdb-head-search-form-input.tdb-head-search-nofocus{text-shadow:0 0 0 #ffffff}.tdi_91 .tdb-head-search-placeholder{color:#ffffff;font-family:Heebo!important;font-size:13px!important;font-weight:400!important}.tdi_91 .tdb-search-form-inner{background-color:#318ba2}.tdi_91 .tdb-head-search-form-btn{color:#000000;background-color:rgba(0,0,0,0);font-family:Heebo!important;font-size:13px!important;font-weight:400!important}.tdi_91 .tdb-head-search-form-btn svg,.tdi_91 .tdb-head-search-form-btn svg *{fill:#000000;fill:#000000}.tdi_91 .tdb-head-search-form-btn:hover{color:#32667b;background-color:rgba(0,0,0,0)}.tdi_91 .tdb-head-search-form-btn:hover svg,.tdi_91 .tdb-head-search-form-btn:hover svg *{fill:#32667b;fill:#32667b}.tdi_91 .tdb-head-search-form-btn i{color:#000000}.tdi_91 .tdb-head-search-form-btn:hover i{color:#32667b}.tdi_91 .tdb-aj-search-results{border-color:#e7e7e7}.tdi_91 .result-msg,.tdi_91 .result-msg a{color:#000000}.tdi_91 .result-msg a:hover{color:#37a5c6}.tdi_91 .td_module_wrap:nth-last-child(-n+1){margin-bottom:0;padding-bottom:0}.tdi_91 .td_module_wrap:nth-last-child(-n+1) .td-module-container:before{display:none}.tdi_91 .td_module_wrap{padding-left:10px;padding-right:10px;padding-bottom:10px;margin-bottom:10px}.tdi_91 .tdb-aj-search-inner{margin-left:-10px;margin-right:-10px}.tdi_91 .td-module-container:before{bottom:-10px;border-color:#eaeaea}.tdi_91 .td-module-container{border-color:#eaeaea;flex-direction:row}.tdi_91 .entry-thumb{background-position:center 50%}.tdi_91 .td-image-wrap{padding-bottom:50%}.tdi_91 .td-image-container{flex:0 0 30%;width:30%;display:block;order:0}.ie10 .tdi_91 .td-image-container,.ie11 .tdi_91 .td-image-container{flex:0 0 auto}.ie10 .tdi_91 .td-module-meta-info,.ie11 .tdi_91 .td-module-meta-info{flex:1}.tdi_91 .td-post-vid-time{display:block}.tdi_91 .td-module-meta-info{padding:2px 0 0 15px;border-color:#eaeaea}.tdi_91 .entry-title{margin:0 0 5px;font-family:Heebo!important;font-size:11px!important;line-height:1.4!important;font-weight:700!important;letter-spacing:0.5px!important}.tdi_91 .td-excerpt{margin:0px;column-count:1;column-gap:48px;font-family:Heebo!important;font-size:11px!important;line-height:1.4!important;letter-spacing:0.2px!important}.tdi_91 .td-post-category:not(.td-post-extra-category){display:none}.tdi_91 .td-read-more{display:none}.tdi_91 .td-author-date{display:none}.tdi_91 .td-post-author-name{display:none}.tdi_91 .td-post-date,.tdi_91 .td-post-author-name span{display:none}.tdi_91 .entry-review-stars{display:none}.tdi_91 .td-icon-star,.tdi_91 .td-icon-star-empty,.tdi_91 .td-icon-star-half{font-size:15px}.tdi_91 .td-module-comments{display:none}.tdi_91 .tdb-author-photo .avatar{width:20px;height:20px;margin-right:6px;border-radius:50%}.tdi_91 .td-module-title a{color:#000000;box-shadow:inset 0 0 0 0 #000}body .tdi_91 .td_module_wrap:hover .td-module-title a,.tdi_91 .tdb-aj-cur-element .entry-title a{color:#37a5c6!important}.tdi_91 .td-post-author-name a{color:#000000}.tdi_91 .td-post-author-name:hover a{color:#32667b}.tdi_91 .td-post-category{font-family:Heebo!important;font-size:11px!important}.tdi_91 .td-editor-date,.tdi_91 .td-editor-date .td-post-author-name,.tdi_91 .td-module-comments a{font-family:Heebo!important;font-size:11px!important}body .tdi_91 .tdb-aj-srs-title{color:#ffffff}@media (min-width:768px){.tdi_91 .td-module-title a{transition:all 0.2s ease;-webkit-transition:all 0.2s ease}}@media (min-width:1019px) and (max-width:1140px){.tdi_91 .td_module_wrap{padding-bottom:10px!important;margin-bottom:10px!important;padding-bottom:10px;margin-bottom:10px}.tdi_91 .td_module_wrap:nth-last-child(-n+1){margin-bottom:0!important;padding-bottom:0!important}.tdi_91 .td_module_wrap .td-module-container:before{display:block!important}.tdi_91 .td_module_wrap:nth-last-child(-n+1) .td-module-container:before{display:none!important}.tdi_91 .td-module-container:before{bottom:-10px}.tdi_91 .td-module-title a{box-shadow:inset 0 0 0 0 #000}@media (min-width:768px){.tdi_91 .td-module-title a{transition:all 0.2s ease;-webkit-transition:all 0.2s ease}}}@media (min-width:768px) and (max-width:1018px){.tdi_91 .td_module_wrap{padding-bottom:10px!important;margin-bottom:10px!important;padding-bottom:10px;margin-bottom:10px}.tdi_91 .td_module_wrap:nth-last-child(-n+1){margin-bottom:0!important;padding-bottom:0!important}.tdi_91 .td_module_wrap .td-module-container:before{display:block!important}.tdi_91 .td_module_wrap:nth-last-child(-n+1) .td-module-container:before{display:none!important}.tdi_91 .td-module-container:before{bottom:-10px}.tdi_91 .td-module-title a{box-shadow:inset 0 0 0 0 #000}@media (min-width:768px){.tdi_91 .td-module-title a{transition:all 0.2s ease;-webkit-transition:all 0.2s ease}}}@media (max-width:767px){.tdi_91 .td_module_wrap{padding-bottom:10px!important;margin-bottom:10px!important;padding-bottom:10px;margin-bottom:10px}.tdi_91 .td_module_wrap:nth-last-child(-n+1){margin-bottom:0!important;padding-bottom:0!important}.tdi_91 .td_module_wrap .td-module-container:before{display:block!important}.tdi_91 .td_module_wrap:nth-last-child(-n+1) .td-module-container:before{display:none!important}.tdi_91 .td-module-container:before{bottom:-10px}.tdi_91 .td-module-title a{box-shadow:inset 0 0 0 0 #000}@media (min-width:768px){.tdi_91 .td-module-title a{transition:all 0.2s ease;-webkit-transition:all 0.2s ease}}}</style><div class="tdb-block-inner td-fix-index"><div class="tdb-drop-down-search" aria-labelledby="td-header-search-button"><div class="tdb-drop-down-search-inner"><form method="get" class="tdb-search-form" action="https://frequentmiler.com/"><div class="tdb-search-form-inner"><input class="tdb-head-search-form-input" placeholder=" " type="text" value="" name="s" autocomplete="off" /><div class="tdb-head-search-placeholder">Search...</div><button class="wpb_button wpb_btn-inverse btn tdb-head-search-form-btn" title="Search" type="submit" aria-label=""></button></div></form><div class="tdb-aj-search"></div></div></div><a href="#" role="button" aria-label="" class="tdb-head-search-btn dropdown-toggle" data-toggle="dropdown"><i class="tdb-search-icon td-icon-search"></i></a></div></div> <!-- ./block --></div></div></div></div></div></div>                    </div>
                             </div>
-            
+
 	<div class="fm-top-ad">
 		<center>
 					</center>
@@ -1344,7 +1344,7 @@ background-color:rgba(0,0,0,0) !important;
             <div class="td-pb-row">
                                             <div class="td-pb-span8 td-main-content" role="main">
                                 <div class="td-ss-main-content">
-                                    
+
     <article id="post-116938" class="post-116938 post type-post status-publish format-standard has-post-thumbnail category-awards category-article category-managepoints tag-best-uses tag-chase-ultimate-rewards tag-keystone tag-sweet-spot-spotlight" itemscope itemtype="https://schema.org/Article">
         <div class="td-post-header">
 
@@ -1352,7 +1352,7 @@ background-color:rgba(0,0,0,0) !important;
             <header class="td-post-title">
                 <h1 class="entry-title">Best uses of Chase Ultimate Rewards</h1>
 
-                
+
 
                 <div class="td-module-meta-info">
                     <div class="td-post-author-name"><div class="td-author-by">By</div> <a href="https://frequentmiler.com/author/nick-reyes-and-tim-steinke/">Nick Reyes and Tim Steinke</a><div class="td-author-line"> - </div> </div>                    <span class="td-post-date"><time class="entry-date updated td-module-date" datetime="2024-06-10T19:55:01-04:00" >June 10, 2024</time></span>                    <div class="td-post-comments"><a href="https://frequentmiler.com/chase-ultimate-rewards-sweet-spots/#comments"><i class="td-icon-comments"></i>50</a></div>                                    </div>
@@ -1361,7 +1361,7 @@ background-color:rgba(0,0,0,0) !important;
 
         </div>
 
-        
+
 
         <div class="td-post-content tagdiv-type">
             <div style="margin-top: 12px; margin-bottom: 20px;" class="sharethis-inline-share-buttons" ></div><p>Chase Ultimate Rewards is often a #1 pick when points and miles enthusiasts talk about their favorite award currency, and that&#8217;s primarily due to an abundance of excellent transfer partners.</p>
@@ -1852,7 +1852,7 @@ Want to learn more about miles and points?</strong><a href="https://frequentmile
 
 
         <footer>
-                        
+
             <div class="td-post-source-tags">
                                 <ul class="td-tags td-post-small-box clearfix"><li><span>TAGS</span></li><li><a href="https://frequentmiler.com/tag/best-uses/">Best Uses</a></li><li><a href="https://frequentmiler.com/tag/chase-ultimate-rewards/">Chase Ultimate Rewards</a></li><li><a href="https://frequentmiler.com/tag/keystone/">Keystone</a></li><li><a href="https://frequentmiler.com/tag/sweet-spot-spotlight/">Sweet Spot Spotlight</a></li></ul>            </div>
 
@@ -1883,7 +1883,7 @@ tdBlocksArray.push(block_tdi_93);
             <div class="item-details">
                 <h3 class="entry-title td-module-title"><a href="https://frequentmiler.com/pay-taxes-via-credit-card/"  rel="bookmark" title="How to pay taxes via credit card, 2025 edition">How to pay taxes via credit card, 2025 edition</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 <div class="td-related-span4">
@@ -1894,7 +1894,7 @@ tdBlocksArray.push(block_tdi_93);
             <div class="item-details">
                 <h3 class="entry-title td-module-title"><a href="https://frequentmiler.com/how-to-move-chase-ultimate-rewards-points-within-your-household-video/"  rel="bookmark" title="How to move Chase Ultimate Rewards points within your household (Video)">How to move Chase Ultimate Rewards points within your household (Video)</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 <div class="td-related-span4">
@@ -1905,7 +1905,7 @@ tdBlocksArray.push(block_tdi_93);
             <div class="item-details">
                 <h3 class="entry-title td-module-title"><a href="https://frequentmiler.com/ultra-premium-credit-card-travel-insurance/"  rel="bookmark" title="Guide to Ultra-Premium Credit Card Travel Protections">Guide to Ultra-Premium Credit Card Travel Protections</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" aria-label="prev-page" id="prev-page-tdi_93" data-td_block_id="tdi_93"><i class="td-next-prev-icon td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" aria-label="next-page" id="next-page-tdi_93" data-td_block_id="tdi_93"><i class="td-next-prev-icon td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block -->
     <div class="wpdiscuz_top_clearing"></div>
     <div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div>    <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-2 wpd-comments-open">
@@ -2192,14 +2192,14 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-author ">
     <a href='https://travelbloggerbuzz.com/meme-stocks-insanity-fantastic-us-economy-ai-revolution-fly-to-hawaii-with-miles/' rel='noreferrer ugc nofollow' target='_blank'>Meme Stocks Insanity, Fantastic US Economy, AI Revolution, Fly to Hawaii With Miles - TravelBloggerBuzz</a>
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 14, 2024 3:03 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2229,8 +2229,8 @@ tdBlocksArray.push(block_tdi_93);
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404333_0'></div></div><div id='wpd-comm-2404278_0' class='comment odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2244,14 +2244,14 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-author ">
     Josh
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 13, 2024 2:11 pm">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2281,7 +2281,7 @@ tdBlocksArray.push(block_tdi_93);
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2301,12 +2301,12 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-label" wpd-tooltip="Editor" wpd-tooltip-position="top">
     <span>Editor</span>
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2343,7 +2343,7 @@ tdBlocksArray.push(block_tdi_93);
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2360,13 +2360,13 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-author ">
     Josh
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2403,8 +2403,8 @@ tdBlocksArray.push(block_tdi_93);
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404290_2404279'></div></div></div></div><div id='wpd-comm-2404115_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2418,14 +2418,14 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-author ">
     chris
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 11, 2024 12:38 pm">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2455,8 +2455,8 @@ tdBlocksArray.push(block_tdi_93);
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404115_0'></div></div><div id='wpd-comm-2404086_0' class='comment odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2470,14 +2470,14 @@ tdBlocksArray.push(block_tdi_93);
     <div class="wpd-comment-author ">
     Art_Czar
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 11, 2024 5:40 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2508,8 +2508,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404086_0'></div></div><div id='wpd-comm-2404063_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2523,14 +2523,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Troy
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 10, 2024 4:28 pm">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2560,7 +2560,7 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2580,12 +2580,12 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-label" wpd-tooltip="Editor" wpd-tooltip-position="top">
     <span>Editor</span>
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2622,8 +2622,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404066_2404063'></div></div></div><div id='wpd-comm-2404044_0' class='comment even thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2637,14 +2637,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Mantis
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 10, 2024 10:42 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2678,8 +2678,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404044_0'></div></div><div id='wpd-comm-2404038_0' class='comment odd alt thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2693,14 +2693,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Lee
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 10, 2024 9:07 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -2734,7 +2734,7 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2751,13 +2751,13 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     GemGal
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2794,7 +2794,7 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2811,13 +2811,13 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Lee
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2854,7 +2854,7 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -2871,13 +2871,13 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     GemGal
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2914,8 +2914,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404052_2404050'></div></div></div></div><div id='wpd-comm-2404076_2404038' class='comment odd alt depth-2 wpd-comment wpd-reply wpd_comment_level-2'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2929,13 +2929,13 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Snake River
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -2976,8 +2976,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404076_2404038'></div></div></div><div id='wpd-comm-2404034_0' class='comment even thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -2991,14 +2991,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     P F
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="June 10, 2024 8:27 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     1 year ago
@@ -3028,7 +3028,7 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
+
     <div class="wpd-toggle wpd-hidden wpd_not_clicked" wpd-tooltip="Hide Replies">
     <i class='fas fa-chevron-up'></i>
 </div>
@@ -3048,12 +3048,12 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-label" wpd-tooltip="Admin" wpd-tooltip-position="top">
     <span>Admin</span>
 </div>
-    
-    
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
+
     <div class="wpd-reply-to">
     <i class='far fa-comments'></i>
     Reply to&nbsp;
@@ -3090,8 +3090,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2404036_2404034'></div></div></div><div id='wpd-comm-2353719_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3105,14 +3105,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Samuel L Bronkowitz
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 21, 2022 5:26 pm">
     <i class='far fa-clock' aria-hidden='true'></i>
     2 years ago
@@ -3142,8 +3142,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2353719_0'></div></div><div id='wpd-comm-2353638_0' class='comment odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3157,14 +3157,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Pam
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 20, 2022 11:56 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     2 years ago
@@ -3194,8 +3194,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2353638_0'></div></div><div id='wpd-comm-2353634_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3209,14 +3209,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Lee
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 20, 2022 11:21 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     2 years ago
@@ -3246,8 +3246,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2353634_0'></div></div><div id='wpd-comm-2353629_0' class='comment odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3261,14 +3261,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Mantis
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 20, 2022 9:19 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     2 years ago
@@ -3298,8 +3298,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2353629_0'></div></div><div id='wpd-comm-2353628_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3313,14 +3313,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Seth
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 20, 2022 7:55 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     2 years ago
@@ -3350,8 +3350,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2353628_0'></div></div><div id='wpd-comm-2188208_0' class='pingback odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3365,14 +3365,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     <a href='https://frequentmiler.com/citi-thank-you-points-sweet-spots/' rel='noreferrer ugc' target='_blank'>Citi ThankYou points sweet spots</a>
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="October 23, 2019 1:14 pm">
     <i class='far fa-clock' aria-hidden='true'></i>
     5 years ago
@@ -3402,8 +3402,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2188208_0'></div></div><div id='wpd-comm-2183523_0' class='comment even thread-even depth-1 wpd-comment wpd_comment_level-1'><div class="wpd-comment-wrap wpd-blog-guest">
@@ -3417,14 +3417,14 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <div class="wpd-comment-author ">
     Blue
 </div>
-    
-    
-    
+
+
+
     <div class="wpd-space"></div>
 </div>
     <div class="wpd-uinfo-bottom">
-    
-    
+
+
     <div class="wpd-comment-date" title="July 24, 2019 8:02 am">
     <i class='far fa-clock' aria-hidden='true'></i>
     6 years ago
@@ -3454,8 +3454,8 @@ M&amp;P enthusiasts constantly reevaluate their transfer options depending on pe
     <span>Reply</span>
 </div>
     <div class="wpd-space"></div>
-    
-    
+
+
 </div>
 </div>
 </div><div id='wpdiscuz_form_anchor-2183523_0'></div></div>                    <div class="wpdiscuz-comment-pagination">
@@ -3571,7 +3571,7 @@ var F27562_sb_wait=setInterval(F27562_sb_wait_fn,100);
 .td_block_template_6.widget > ul > li {
                 margin-left: 0 !important;
             }
-            
+
             .td_block_template_6 .td-block-title {
                 text-align: center;
                 font-size: 17px;
@@ -3794,7 +3794,7 @@ Privacy Policy: Please <a href="https://frequentmiler.com/privacy/">click here</
 <a href="https://frequentmiler.com/contact-frequent-miler/">Click here</a> to contact Frequent Miler</p></div></div></div></div></div></div></div>        </div>
 
     </div>
-    
+
 
 </div><!--close td-outer-wrap-->
 
@@ -3809,11 +3809,11 @@ Privacy Policy: Please <a href="https://frequentmiler.com/privacy/">click here</
         Theme: Newspaper by tagDiv.com 2025
         Version: 12.7 (rara)
         Deploy mode: deploy
-        
+
         uid: 68c7a5c9b4c6d
     -->
 
-    
+
 <!-- Custom css from theme panel -->
 <style type="text/css" media="screen">.td-boxed-layout #td-outer-wrap{z-index:auto}@media (max-width:600px){#td-outer-wrap{padding-top:50px}}.td-post-content p{line-height:1.8}.td-post-content a:hover{font-style:oblique}.td-post-content a{color:#37a0c0}.td-ss-main-sidebar{background-color:#eff3f5;padding:20px;border-radius:5px}#s.td-widget-search-input{border:solid 1px #eff3f5}.tdi_93 .td-module-container{border-radius:5px}.tdi_123_rand_style{border-radius:5px}.tdi_124_rand_style{border-radius:5px}.tagdiv-type blockquote{text-align:left;border-left:solid #366c82 3px;padding-left:9px}.td_block_template_18 .td-block-title{font-size:40px;text-align:left}.td-theme-slider .td-slide-nav{opacity:0.8}.iosSlider-col-3 .entry-title{font-size:28px;line-height:32px}.td-page-content li{font-size:16px}.content_block{font-size:18px}table th{background:#366c82;color:#fff;text-align:left;border:solid 1px #bbdfea}table td{border:solid 1px #bbdfea}table.frequent-miler{width:100%}table.frequent-miler.fixed{table-layout:fixed}table.frequent-miler,table.frequent-miler th,table.frequent-miler td{border:1px solid #bbdfea;vertical-align:top}table.frequent-miler tbody{border:none}table.frequent-miler p:last-child{margin:0!important}table.frequent-miler .alignleft{margin:0 16px 8px 0}table.frequent-miler .alignright{margin:0 0 8px 16px}table.frequent-miler th,table.frequent-miler td{padding:8px}table.frequent-miler th{background:#366c82;color:#fff;text-align:left}table.frequent-miler th h1,table.frequent-miler th h2,table.frequent-miler th h3,table.frequent-miler th h4,table.frequent-miler th h5,table.frequent-miler th h6{color:#fff;margin:0;text-align:center}table.frequent-miler a{color:#bbdfea;text-decoration:underline;font-weight:bold}table.frequent-miler2 th{background-color:#366c82;color:#fff}table.frequent-miler2 th td{font-family:Comfortaa}table.frequent-miler2 td{border:none;background-color:#bbdfea}table.frequent-miler2 td+td{background-color:#ffffff}table.frequent-miler2 tr{border:solid 1px #bbdfea}table.frequent-miler2 th{border:solid 1px #bbdfea}table.frequent-miler2 a{color:#bbdfea;text-decoration:underline;font-weight:bold}table.frequent-miler3 th{background-color:#366c82;color:#fff}table.frequent-miler3 th td{font-family:Comfortaa}table.frequent-miler3 td{border:none}table.frequent-miler3 tr{border:solid 1px #bbdfea;font-size:13px}table.frequent-miler3 tr li{font-size:13px}table.frequent-miler3 th{border:solid 1px #bbdfea}table.frequent-miler3 tr td:nth-of-type(1){background-color:#bbdfea}table.frequent-miler3 th a{color:#bbdfea;text-decoration:underline;font-weight:bold}table.frequent-miler3 td a{text-decoration:italic;font-weight:bold}table.frequent-miler3 tr td:nth-of-type(1) a{color:#366c82}table.frequent-miler4 th{background-color:#366c82;color:#fff}table.frequent-miler4 th td{font-family:Comfortaa}table.frequent-miler4 td{border:none}table.frequent-miler4 tr{border:solid 1px #bbdfea;font-size:13px}table.frequent-miler4 tr li{font-size:13px}table.frequent-miler4 th{border:solid 1px #bbdfea}table.frequent-miler4 a{color:#2678BF}.fm-side-scroll-table-old{max-width:100%;overflow-x:auto;box-shadow:inset 5px -5px 20px #333}@media only screen and (max-width:600px){.fm-side-scroll-table-old{max-width:100%;overflow-x:auto;box-shadow:inset 5px -5px 20px #333}}.fm-side-scroll-table{max-width:100%;overflow-x:scroll;padding:3px}.fm-side-scroll-table::-webkit-scrollbar{-webkit-appearance:none;width:7px}.wp-polls .Buttons{background-color:#5bb242}.FM-callout{color:#524b48;background-color:#fff;border:solid 1px #d3d3d3;border-radius:5px;padding:20px;box-shadow:5px 10px 18px #888888;margin:10px 10px 25px 10px;font-size:15px;line-height:1.5em}.FM-callout p{font-size:15px;line-height:1.5em}.FM-tip-callout{color:#524b48;background-color:#fff;background-image:url("https://frequentmiler.com/wp-content/uploads/2024/04/Tip-Background.png");background-position:left;background-repeat:no-repeat;border:solid 1px #d3d3d3;border-radius:5px;padding-left:130px;padding-right:20px;padding-top:20px;padding-bottom:20px;box-shadow:5px 10px 18px #888888;margin:10px 10px 25px 10px}.FM-tip-callout p{font-size:15px;line-height:1.5em}.FM-callout .content_block{font-size:15px;line-height:1.5em}.display-posts-listing.allpost{position:relative;width:100%;max-width:600px}.display-posts-listing.col{display:grid;grid-gap:24px}.display-posts-listing.col .title{display:block;font-size:large;font-weight:bold}.display-posts-listing.col img{display:block;max-width:600px;height:auto}@media (min-width:600px){.display-posts-listing.col{grid-template-columns:repeat(1,1fr)}}@media (min-width:1024px){.display-posts-listing.col{grid-template-columns:repeat(1,1fr)}}.display-posts-listing.grid{display:grid;grid-gap:24px}.display-posts-listing.grid .title{display:block}.display-posts-listing.grid img{display:block;max-width:600px;height:auto}@media (min-width:600px){.display-posts-listing.grid{grid-template-columns:repeat(2,1fr)}}@media (min-width:1024px){.display-posts-listing.grid{grid-template-columns:repeat(3,1fr)}}.dataTables_wrapper input[type="email"],.dataTables_wrapper input[type="text"],.dataTables_wrapper input[type="url"],.dataTables_wrapper input[type="password"],.dataTables_wrapper input[type="search"]{width:auto}.tablepress p{font-size:12px;line-height:1.2}.tablepress ul li{font-size:16px;line-height:20px!important}.tablepress a{text-decoration:underline}.tablepress blockquote{text-align:left;border-left:solid gray 4px;padding-left:4px}.tagdiv-type ul li:not(.blocks-gallery-item),.tagdiv-type ol li:not(.blocks-gallery-item){margin-bottom:2px}.tablepress thead th,.tablepress tfoot th{background:#366c82;color:#fff;font-size:inherit!important}.tablepress thead th{border-bottom:none!important}.tablepress .sorting:hover,.tablepress .sorting_asc,.tablepress .sorting_desc{background-color:#bbdfea!important}.tablepress td,.tablepress th{border:solid 1px #bbdfea}.tablepress .odd td{border-color:#bbdfea}.tablepress .odd td,.tablepress .row-hover tr.odd:hover td{background-color:#f3f3f3}.tablepress .even td,.tablepress .row-hover tr.even:hover td{background-color:#fff}.fm-post-footer .fm-post-footer-cta a.fm-post-footer-cta-btn{background-image:linear-gradient(to right,#53A349,#356B82);text-decoration:none}.fm-post-footer .fm-post-footer-cta a.fm-post-footer-cta-btn:hover{background-color:#356B82;color:#d3d3d3}.td-post-sharing-bottom{display:none}.vertical_Text{display:block;color:#f00;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg)}:target:before{content:'';display:block;height:80px;margin:-80px 0 0}.jetpack_widget_social_icons ul{text-align:center}.FMbubble{display:block;background-color:#6cb4ee;border:solid 1px #e3e3e3;border-radius:20px;box-sizing:border-box;clear:both;float:left;margin-bottom:20px;padding:8px 30px;position:relative;width:auto;max-width:100%;word-wrap:break-word}.FMbubble:before,.FMbubble:after{border-radius:20px / 10px;content:'';display:block;position:absolute}.FMbubble:before{border:10px solid transparent;border-bottom-color:rgba(0,0,0,0.5);bottom:0;left:-7px;z-index:-2}.FMbubble:after{border:8px solid transparent;border-bottom-color:#6cb4ee;bottom:1px;left:-5px}.FMbubble--alt{display:block;background-color:#a9eb57;float:right}.FMbubble--alt:before{border-bottom-color:#a9eb57;border-radius:20px / 10px;left:auto;right:-7px}.FMbubble--alt:after{border-bottom-color:#a9eb57;border-radius:20px / 10px;left:auto;right:-5px}.td-mega-menu-page .td-mega-grid{padding:10px;margin-bottom:-50px}.td-mega-menu-page .td-mega-grid .td_block_wrap{padding-bottom:10px}.summarystyle{background-color:#bbd9d3;padding:30px}.summarystyle-current{background-color:white;padding:30px;border-left:solid 5px #366c82;color:#366c82;font-size:16px}table.summarystyle,table.summarystyle tr,table.summarystyle tbody,table.summarystyle td{background-color:white;border:1px solid #d3d3d3;color:#366c82}.td-mega-menu ul.sub-menu{box-shadow:0 2px 10px #33677d}.FM-related-posts{color:#ffffff;background-image:url("https://frequentmiler.com/wp-content/uploads/2023/01/Related-Posts-BG-24.png");background-color:#366c82;border-radius:5px;background-position:left;background-repeat:no-repeat;min-height:100px;padding-left:130px;padding-top:35px;padding-bottom:35px;padding-right:10px;margin:10px 10px 25px 10px}.FM-related-posts p{font-size:16px;color:#ffffff}.FM-related-posts a{font-size:18px;font-weight:700;color:#ffffff}.FM-beginner{color:#bbdfea;background-image:url("https://frequentmiler.com/wp-content/uploads/2023/12/Beginner-Content.jpg");background-color:#366c82;background-size:contain;border-radius:5px;background-position:top;background-repeat:no-repeat;min-height:100px;padding:90px 20px 20px 20px;margin:10px 10px 25px 10px}.badcolor{background-color:#faeccf;text-align:center}.goodcolor{background-color:#e9faeb;text-align:center}.linebelow{box-shadow:0px 1px 0px #366c82}.lineabove{background-color:#bbdfea;border-top:1px solid #366c82}.BObox{border:1px solid gray;padding-bottom:10px;color:#424242;min-height:60px;border-radius:5px}.BObox hr{margin:0px;border:none}.BOhd{background-color:#366c82;padding:5px;color:white;font-weight:bold;text-align:center;font-size:16px;border-radius:5px 5px 0px 0px;margin-bottom:5px}.BOhd a{color:white}.BOright{float:right;width:30%;padding:8px;font-size:12px;text-align:center;line-height:1.2;color:#366c82;height:auto}@media (min-width:1080px){.BOright{width:20%}}.BOright img.aligncenter{margin:auto}.BOfyv{margin-left:auto;margin-right:auto;margin-top:5px}.BOfyv a{font-size:12px}.BOinfo{padding:5px 10px 18px 10px;text-align:left;min-width:70%}.BOright .BOfyv{max-width:100px}.BObon{text-align:left;font-weight:bold;font-size:18px;line-height:1.2;color:#366c82;margin:8px}.BOmo{margin-left:8px;font-size:12px;line-height:16px;min-height:35px}.BOtmo{margin-left:8px;font-size:12px;line-height:16px;min-height:35px;margin-top:5px;margin-bottom:-15px}.BOline{padding:8px;background-color:white;font-size:12px;line-height:1.25;text-align:left;border-top:solid 1px #BBDFEB;margin:0px 8px 0px 8px}.BOtbl{padding:8px;background-color:#eef7fa;font-size:12px;line-height:1.25;text-align:left;border:solid 0px white;margin:0px 8px 5px 8px}.BOcta{color:white;font-size:12px;font-weight:400;font-style:italic;text-align:center;background-color:#29abe2;margin:auto;margin-bottom:15px;margin-top:-10px;width:150px;border-radius:5px;padding-top:7px;padding-bottom:7px}.BOcta a{color:white;text-decoration:none}.BOtc{padding:4px;margin:4px}.BOebc{padding-left:5px;padding-right:5px}.BOern{background-color:#bbdfeb;border-radius:3px;color:#424242;padding:0.5%;font-size:12px;font-weight:400;margin:0px 0px 5px 5px;display:inline-block;width:24.5%;text-align:center}@media (max-width:600px){.BOern{padding:0.5%;width:48%}}.BOapp{background-color:#3cba6a;max-width:350px;text-align:center;color:white;font-weight:700;margin:auto;padding:7px;border-radius:5px;margin-top:-10px;font-size:12px;margin-bottom:5px}.BOapp:hover{box-shadow:3px 3px 3px #b1b1b1}.BOapp a{color:white;text-align:center;font-size:12px}.BOapp2{max-width:350px;text-align:center;color:#0397c2;font-size:16;font-weight:700;margin:auto;padding:5px;border-radius:30px;margin-top:-10px;font-size:12px;margin-bottom:5px}.BOapp2 a{color:#0397c2;text-align:center;font-size:12px}.BOapp2 a:hover{color:#32667b}.BOapp3{background-image:linear-gradient(to right,#169DB6,#553178);max-width:350px;text-align:center;color:white;font-size:16;font-weight:700;margin:auto;padding:5px;border-radius:30px;margin-top:-10px;font-size:12px;margin-bottom:5px}.BOapp3:hover{box-shadow:3px 3px 3px #b1b1b1}.BOapp3 a{color:white;text-align:center;font-size:12px}.BOsapp{border:solid 3px #f14976;width:100%;text-align:center;color:#f14976;font-size:16;font-weight:700;padding:8px;border-radius:30px;margin-top:5px;display:inline-block}.BOsapp:hover{box-shadow:3px 3px 3px #b1b1b1;background-color:#f14976;color:white}.BOsapp a{color:#f14976;text-align:center}.BOnm{background-color:#366c82;padding:5px 5px 5px 10px;color:white;text-align:left;font-weight:bold;font-size:14px;border-radius:5px;margin-bottom:5px}.BOfo{margin:8px 8px 0px 16px;font-size:12px;line-height:1.25;text-align:left;font-weight:bold}.BOsml{border:1px solid gray;margin-bottom:10px;color:#424242}.BOtline{padding:8px;background-color:white;font-size:12px;line-height:1.25;text-align:left;margin:8px}.BOtinfo{margin:0px 5px 0px 5px;color:#424242;border-radius:5px;padding-bottom:5px;box-shadow:0px 0px 5px lightgray}.BOlft{float:left;width:25%;padding:12px 8px 8px 8px;font-size:12px;text-align:center;line-height:1.2;color:#366c82;max-height:70px;overflow:hidden}@media (max-width:600px){.BOlft{float:left;width:25%;padding:12px 8px 8px 8px;font-size:12px;text-align:center;line-height:1.2;color:#366c82;max-height:75px}}.BOstxt{max-width:350px;text-align:center;font-size:10px;line-height:1.2;margin:auto}.BOstxt2{max-width:500px;text-align:center;font-size:10px;line-height:1.2;margin:auto;padding-bottom:15px;color:red}.BOlegacy{max-height:340px;overflow:auto;padding-right:3px;margin-bottom:20px;width:50%;float:left;text-align:center;border-image:linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 10%,rgba(0,0,0,0) 100%) 0 0 100 0 repeat;border-image-outset:0px 0px 0px 0px;border-width:0px 0px 10px 0px;border-style:solid}@media (max-width:600px){.BOlegacy{max-height:340px;overflow:auto;padding-right:3px;margin-bottom:20px;width:100%;float:left;text-align:center}}.BOban{background-color:lightgray;color:gray;margin-bottom:-8px;border-radius:12px;font-size:10px;padding:3px;line-height:1.3;display:inline-block;margin-left:3px;vertical-align:top}.BOban a{color:#737373;text-decoration:none}.FMcaption{font-size:13px;line-height:1.2;font-style:italic;margin-bottom:10px;margin-top:-15px}.FMtip{visibility:hidden;position:absolute;z-index:1;width:auto;color:white;font-size:12px;line-height:1.4;background-color:#192733;border-radius:10px;padding:10px 15px 10px 15px}.FMtipR{visibility:hidden;position:absolute;z-index:1;width:auto;color:white;font-size:12px;line-height:1.4;background-color:#192733;border-radius:10px;padding:10px 15px 10px 15px;top:-8px;left:120%}.FMtipL{visibility:hidden;position:absolute;z-index:1;width:auto;color:white;font-size:12px;line-height:1.4;background-color:#192733;border-radius:10px;padding:10px 15px 10px 15px;top:-8px;right:120%}.FMhover:hover .FMtip{visibility:visible}.FMhov:hover .FMtip{visibility:visible}.FMhov:hover .FMtipL{visibility:visible}.FMhov:hover .FMtipR{visibility:visible}.FMhover:hover .FMtipL{visibility:visible}.FMhover:hover .FMtipR{visibility:visible}#top{top:-40px;left:-50%}#bottom{top:25px;left:-50%}#left{top:-8px;right:120%}#right{top:-8px;left:120%}.FMhover{position:relative;display:inline;font-family:Arial;text-align:center}.FMhov{position:relative;display:inline;font-family:Arial;text-align:center}.BOlegacy .FMtipR{min-width:150px;max-width:200px}.carriesanchors{background:#366c82;border-radius:5px;text-align:center;color:white;font-size:16px;line-height:2.5;padding:3px}@media (min-width:600px){.FMtip{min-width:200px;max-width:500px}.FMtipR{min-width:200px;max-width:500px}.FMtipL{min-width:200px;max-width:500px}}.dt-container{margin-bottom:0rem}.column-filter-widgets{background-color:#bbdfea;padding:15px;border-radius:5px;margin-bottom:5px}.column-filter-widgets select{border-radius:50px;color:#318ba2;font-size:16px;border:0px;min-width:150px}.column-filter-widgets a.filter-term{color:#318ba2;font-size:14px;padding-right:15px;background-image:url("https://frequentmiler.com/wp-content/uploads/2025/03/turquoise-x-2.png");background-position:right;background-repeat:no-repeat;background-size:12px;text-decoration:none;background-color:#deeff4;margin-top:7px;border-radius:50px;border:3px solid #deeff4}a.filter-term:hover{background-image:url("https://frequentmiler.com/wp-content/uploads/2025/03/black-x-x.png")}.postid-258555 .td-ss-main-sidebar{width:auto}summary{display:list-item;cursor:pointer;color:#0397c2;text-decoration:underline}.postid-264615 #filter-container{background-color:#eef7fa;border:1px solid #bbdfea;;margin-top:5px;padding-top:5px;border-radius:3px}#filter-container fieldset{border-top:none;border-right:none;border-left:none;border-bottom:1px solid #bbdfea}#filter-container fieldset input{max-width:120px}#filter-container fieldset input[type=text]{max-width:100%}#filter-container fieldset{font-size:16px;color:#818181;line-height:1.5}#filter-container fieldset legend{text-transform:uppercase;font-weight:700;font-size:12px;line-height:1.5;color:#0397c2}.tablepress-id-10 tbody td{border:0px}#filter-column{margin-top:30px}fieldset.checkbox-filter.filter-column-5 button{background-color:transparent;border:none;text-align:left;font-style:italic;color:#0397c2;opacity:50%}fieldset.checkbox-filter.filter-column-5 button:hover{background-color:transparent;border:none;text-align:left;font-style:italic;color:#0397c2;opacity:100%}@media screen and (max-width:768px){.postid-264615 #filter-container fieldset{width:100%}.fm-side-scroll-table-mobile{box-shadow:-10px 0px 8px 3px rgba(0,0,0,0.2) inset;overflow:scroll}}.fm-side-scroll-table{box-shadow:-10px 0px 8px 3px rgba(0,0,0,0.2) inset}@media (max-width:767px){#wpdcom .wpd-comment-text{color:#30333A}}</style>
 
@@ -3906,7 +3906,7 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         theme: 'snow',
         debug: 'error'
         };
-        
+
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://frequentmiler.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.33" id="wpdiscuz-combo-js-js"></script>
@@ -3945,14 +3945,14 @@ jQuery().ready(function () {
 
                         tdbMenuItem.blockAtts = '{"main_sub_tdicon":"td-icon-down","sub_tdicon":"td-icon-right-arrow","mm_align_horiz":"content-horiz-right","modules_on_row_regular":"eyJhbGwiOiIyNSUiLCJwb3J0cmFpdCI6IjUwJSJ9","modules_on_row_cats":"eyJhbGwiOiIyNSUiLCJwb3J0cmFpdCI6IjUwJSJ9","image_size":"td_324x400","modules_category":"image","show_excerpt":"none","show_com":"none","show_date":"","show_author":"none","mm_sub_align_horiz":"content-horiz-right","mm_elem_align_horiz":"content-horiz-left","menu_id":"76339","f_elem_font_family":"","f_elem_font_size":"13","f_elem_font_transform":"uppercase","f_elem_font_weight":"600","f_elem_font_spacing":"0.2","f_elem_font_line_height":"1.5","tds_menu_active":"tds_menu_active3","tds_menu_active2-border_size":"0","tds_menu_active2-text_color_h":"#6b4af9","text_color":"#000000","main_sub_color":"#32667b","sep_color":"#32667b","more_icon_color":"#000000","sep_tdicon":"td-icon-vertical-line","sep_icon_size":"10","sep_icon_space":"0","elem_padd":"0 5px","elem_space":"5","mm_width":"eyJhbGwiOiI5MCUiLCJwb3J0cmFpdCI6IjUwMCJ9","mm_padd":"0","mm_posts_limit":"4","modules_gap":"0","all_modules_space":"0","image_height":"50","meta_info_align":"center","f_sub_elem_font_family":"820","f_mm_sub_font_family":"820","f_title_font_family":"820","f_cat_font_family":"820","f_meta_font_family":"820","f_ex_font_family":"820","f_title_font_size":"11","f_title_font_weight":"900","f_title_font_transform":"","f_title_font_spacing":"0.5","f_title_font_line_height":"1.4","mm_sub_border":"0","mm_elem_border":"0","mm_elem_border_a":"0 0 1px 0","mm_border_size":"0","mm_shadow_shadow_size":"0","mm_shadow_shadow_offset_vertical":"0","show_review":"none","show_cat":"none","mc1_el":"12","f_meta_font_size":"10","f_meta_font_style":"italic","f_meta_font_weight":"","f_meta_font_spacing":"-0.2","title_txt":"#000000","title_txt_hover":"#6b4af9","all_underline_height":"1","all_underline_color":"#6b4af9","tds_menu_active1-line_height":"1","tds_menu_active1-line_alignment":"-1","tds_menu_active1-line_color":"eyJ0eXBlIjoiZ3JhZGllbnQiLCJjb2xvcjEiOiIjMzM2NzdkIiwiY29sb3IyIjoiIzUzYTM0OSIsIm1peGVkQ29sb3JzIjpbXSwiY3NzIjoiYmFja2dyb3VuZDogLXdlYmtpdC1saW5lYXItZ3JhZGllbnQoMGRlZywjNTNhMzQ5LCMzMzY3N2QpO2JhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgwZGVnLCM1M2EzNDksIzMzNjc3ZCk7IiwiY3NzUGFyYW1zIjoiMGRlZywjNTNhMzQ5LCMzMzY3N2QifQ==","sub_shadow_shadow_offset_horizontal":"0","sub_shadow_shadow_offset_vertical":"0","tds_menu_sub_active":"tds_menu_sub_active2","tds_menu_sub_active2-sub_text_color_h":"#0397c2","tds_menu_sub_active2-line_height":"1","tds_menu_sub_active2-line_color":"eyJ0eXBlIjoiZ3JhZGllbnQiLCJjb2xvcjEiOiIjMDM5N2MyIiwiY29sb3IyIjoiIzAzOTdjMiIsIm1peGVkQ29sb3JzIjpbXSwiZGVncmVlIjoiLTkwIiwiY3NzIjoiYmFja2dyb3VuZC1jb2xvcjogIzAzOTdjMjsiLCJjc3NQYXJhbXMiOiIwZGVnLCMwMzk3YzIsIzAzOTdjMiJ9","tds_menu_active1-text_color_h":"#32667b","tds_menu_active1-main_sub_color_h":"#32667b","date_txt":"#adadad","author_txt":"#000000","author_txt_hover":"#6b4af9","ex_txt":"#adadad","com_bg":"#adadad","com_txt":"#ffffff","rev_txt":"#6b4af9","audio_btn_color":"#6b4af9","audio_time_color":"#000000","audio_bar_color":"#cdc2f9","audio_bar_curr_color":"#6b4af9","pag_text":"#000000","pag_border":"#000000","pag_h_text":"#6b4af9","pag_h_border":"#6b4af9","pag_h_bg":"#cdc2f9","pag_padding":"0 6px 1px","pag_icons_size":"8","prev_tdicon":"tdc-font-oi tdc-font-oi-caret-left","next_tdicon":"tdc-font-oi tdc-font-oi-caret-right","meta_width":"eyJhbGwiOiI4MCUiLCJwb3J0cmFpdCI6IjkwJSJ9","meta_padding":"eyJhbGwiOiIxMHB4IDAgMCIsInBvcnRyYWl0IjoiMTBweCAwIDEwcHgifQ==","art_title":"0 0 5px 0","time_ago":"yes","time_ago_add_txt":"before","mm_sub_inline":"yes","mm_elem_order":"","sub_shadow_shadow_size":"0","f_sub_elem_font_size":"11","f_sub_elem_font_weight":"500","f_mm_sub_font_size":"11","f_mm_sub_font_weight":"500","f_mm_sub_font_transform":"uppercase","f_mm_sub_font_spacing":"1.2","f_mm_sub_font_style":"","f_mm_sub_font_line_height":"1.2","mm_sub_padd":"0","mm_subcats_bg":"#32667b","mm_subcats_border_color":"#000000","mm_elem_color":"#000000","mm_elem_color_a":"#32667b","mm_elem_border_color_a":"#32667b","mm_elem_border_color":"#000000","mm_elem_bg":"rgba(0,0,0,0)","mm_elem_bg_a":"rgba(0,0,0,0)","mm_elem_padd":"0","mm_elem_space":"20","el_class":"td-mega-menu-subcatgs","sub_elem_padd":"0","sub_padd":"15px","sub_text_color":"#346c7f","sub_color":"#ffffff","tds_menu_sub_active2-line_width":"50%","f_sub_elem_font_spacing":"1.2","f_sub_elem_font_line_height":"1.2","tds_menu_sub_active2-line_alignment":"1","sub_bg_color":"#eef3f6","sub_elem_space":"15","show_mega":"yes","tdc_css":"eyJhbGwiOnsiYm9yZGVyLXJpZ2h0LXdpZHRoIjoiMCIsImJvcmRlci1jb2xvciI6IiMwMDAwMDAiLCJkaXNwbGF5IjoiIn0sInBvcnRyYWl0Ijp7ImJvcmRlci1yaWdodC13aWR0aCI6IjAiLCJkaXNwbGF5IjoiIn0sInBvcnRyYWl0X21heF93aWR0aCI6MTAxOCwicG9ydHJhaXRfbWluX3dpZHRoIjo3NjgsImxhbmRzY2FwZSI6eyJib3JkZXItcmlnaHQtd2lkdGgiOiIwIiwiZGlzcGxheSI6IiJ9LCJsYW5kc2NhcGVfbWF4X3dpZHRoIjoxMTQwLCJsYW5kc2NhcGVfbWluX3dpZHRoIjoxMDE5fQ==","mm_align_screen":"yes","modules_border_color":"#318ba2","modules_border_size":"1px 1px 1px 1px","align_horiz":"content-horiz-center","hover_opacity":"0.5","tds_menu_active3-bg_color":"#ffffff","block_type":"tdb_header_menu","show_subcat":"","show_mega_cats":"","mob_load":"","separator":"","width":"","inline":"","more":"","float_right":"","main_sub_icon_size":"","main_sub_icon_space":"","main_sub_icon_align":"-1","sep_icon_align":"-1","more_txt":"","more_tdicon":"","more_icon_size":"","more_icon_align":"0","sub_width":"","sub_first_left":"","sub_rest_top":"","sub_align_horiz":"content-horiz-left","sub_elem_inline":"","sub_elem_radius":"0","sub_icon_size":"","sub_icon_space":"","sub_icon_pos":"","sub_icon_align":"1","mm_content_width":"","mm_height":"","mm_radius":"","mm_offset":"","mm_subcats_posts_limit":"4","mm_child_cats":"","open_in_new_window":"","mm_ajax_preloading":"","mm_hide_all_item":"","mm_sub_width":"","mm_elem_border_rad":"","mc1_tl":"","mc1_title_tag":"","m_padding":"","modules_border_style":"","modules_divider":"","modules_divider_color":"#eaeaea","h_effect":"","image_alignment":"50","image_width":"","image_floated":"no_float","image_radius":"","hide_image":"","video_icon":"","show_vid_t":"block","vid_t_margin":"","vid_t_padding":"","vid_t_color":"","vid_t_bg_color":"","f_vid_time_font_header":"","f_vid_time_font_title":"Video duration text","f_vid_time_font_settings":"","f_vid_time_font_family":"","f_vid_time_font_size":"","f_vid_time_font_line_height":"","f_vid_time_font_style":"","f_vid_time_font_weight":"","f_vid_time_font_transform":"","f_vid_time_font_spacing":"","f_vid_time_":"","show_audio":"block","hide_audio":"","art_audio":"","art_audio_size":"1","meta_info_horiz":"content-horiz-left","meta_margin":"","meta_info_border_size":"","meta_info_border_style":"","meta_info_border_color":"#eaeaea","modules_category_margin":"","modules_category_padding":"","modules_cat_border":"","modules_category_radius":"0","modules_extra_cat":"","author_photo":"","author_photo_size":"","author_photo_space":"","author_photo_radius":"","show_modified_date":"","time_ago_txt_pos":"","art_excerpt":"","excerpt_col":"1","excerpt_gap":"","excerpt_middle":"","review_space":"","review_size":"2.5","review_distance":"","show_pagination":"","pag_space":"","pag_border_width":"","pag_border_radius":"","f_elem_font_header":"","f_elem_font_title":"Elements text","f_elem_font_settings":"","f_elem_font_style":"","f_elem_":"","sub_border_size":"","sub_border_color":"","sub_border_radius":"","sub_elem_bg_color":"","sub_shadow_shadow_header":"","sub_shadow_shadow_title":"Shadow","sub_shadow_shadow_spread":"","sub_shadow_shadow_color":"","f_sub_elem_font_header":"","f_sub_elem_font_title":"Elements text","f_sub_elem_font_settings":"","f_sub_elem_font_style":"","f_sub_elem_font_transform":"","f_sub_elem_":"","mm_bg":"","mm_content_bg":"","mm_border_color":"","mm_shadow_shadow_header":"","mm_shadow_shadow_title":"Shadow","mm_shadow_shadow_offset_horizontal":"","mm_shadow_shadow_spread":"","mm_shadow_shadow_color":"","mm_elem_shadow_shadow_header":"","mm_elem_shadow_shadow_title":"Elements shadow","mm_elem_shadow_shadow_size":"","mm_elem_shadow_shadow_offset_horizontal":"","mm_elem_shadow_shadow_offset_vertical":"","mm_elem_shadow_shadow_spread":"","mm_elem_shadow_shadow_color":"","f_mm_sub_font_header":"","f_mm_sub_font_title":"Sub categories elements","f_mm_sub_font_settings":"","f_mm_sub_":"","m_bg":"","color_overlay":"","shadow_shadow_header":"","shadow_shadow_title":"Module Shadow","shadow_shadow_size":"","shadow_shadow_offset_horizontal":"","shadow_shadow_offset_vertical":"","shadow_shadow_spread":"","shadow_shadow_color":"","cat_bg":"","cat_bg_hover":"","cat_txt":"","cat_txt_hover":"","cat_border":"","cat_border_hover":"","meta_bg":"","shadow_m_shadow_header":"","shadow_m_shadow_title":"Meta info shadow","shadow_m_shadow_size":"","shadow_m_shadow_offset_horizontal":"","shadow_m_shadow_offset_vertical":"","shadow_m_shadow_spread":"","shadow_m_shadow_color":"","pag_bg":"","f_title_font_header":"","f_title_font_title":"Article title","f_title_font_settings":"","f_title_font_style":"","f_title_":"","f_cat_font_title":"Article category tag","f_cat_font_settings":"","f_cat_font_size":"","f_cat_font_line_height":"","f_cat_font_style":"","f_cat_font_weight":"","f_cat_font_transform":"","f_cat_font_spacing":"","f_cat_":"","f_meta_font_title":"Article meta info","f_meta_font_settings":"","f_meta_font_line_height":"","f_meta_font_transform":"","f_meta_":"","f_ex_font_title":"Article excerpt","f_ex_font_settings":"","f_ex_font_size":"","f_ex_font_line_height":"","f_ex_font_style":"","f_ex_font_weight":"","f_ex_font_transform":"","f_ex_font_spacing":"","f_ex_":"","mix_color":"","mix_type":"","fe_brightness":"1","fe_contrast":"1","fe_saturate":"1","mix_color_h":"","mix_type_h":"","fe_brightness_h":"1","fe_contrast_h":"1","fe_saturate_h":"1","block_template_id":"","td_column_number":1,"header_color":"","ajax_pagination_infinite_stop":"","offset":"","limit":"5","td_ajax_preloading":"","td_ajax_filter_type":"","td_filter_default_txt":"","td_ajax_filter_ids":"","color_preset":"","ajax_pagination":"","ajax_pagination_next_prev_swipe":"","border_top":"","css":"","class":"tdi_35","tdc_css_class":"tdi_35","tdc_css_class_style":"tdi_35_rand_style","context":""}';
 
-                        
+
                         tdbMenuItem.isMegaMenuFull = true;
 
-                        
-                        
+
+
                         tdbMenuItem.megaMenuLoadType = '';
 
-                        
+
                         tdbMenu.addItem(tdbMenuItem);
 
                     });
@@ -3968,9 +3968,9 @@ jQuery().ready(function () {
                 tdbSearchItem._openSearchFormClass = 'tdb-drop-down-search-open';
                 tdbSearchItem._resultsLimit = '4';
 
-                
-	            
-                
+
+
+
                 tdbSearch.addItem( tdbSearchItem );
 
             });
@@ -3984,19 +3984,19 @@ jQuery().ready(function () {
 
                         tdbMenuItem.blockAtts = '{"main_sub_tdicon":"td-icon-down","sub_tdicon":"td-icon-right-arrow","mm_align_horiz":"content-horiz-center","modules_on_row_regular":"20%","modules_on_row_cats":"25%","image_size":"td_324x400","modules_category":"image","show_excerpt":"none","show_com":"none","show_date":"none","show_author":"none","mm_sub_align_horiz":"content-horiz-right","mm_elem_align_horiz":"content-horiz-right","menu_id":"78016","align_horiz":"content-horiz-center","sub_align_horiz":"content-horiz-center","text_color":"#ffffff","f_elem_font_size":"10","tdc_css":"eyJhbGwiOnsicGFkZGluZy10b3AiOiIzMCIsImRpc3BsYXkiOiIifX0=","block_type":"tdb_header_menu","show_subcat":"","show_mega":"","show_mega_cats":"","mob_load":"","separator":"","width":"","inline":"","more":"","float_right":"","elem_space":"","elem_padd":"","main_sub_icon_size":"","main_sub_icon_space":"","main_sub_icon_align":"-1","sep_tdicon":"","sep_icon_size":"","sep_icon_space":"","sep_icon_align":"-1","more_txt":"","more_tdicon":"","more_icon_size":"","more_icon_align":"0","sub_width":"","sub_first_left":"","sub_rest_top":"","sub_padd":"","sub_elem_inline":"","sub_elem_space":"","sub_elem_padd":"","sub_elem_radius":"0","sub_icon_size":"","sub_icon_space":"","sub_icon_pos":"","sub_icon_align":"1","mm_width":"","mm_content_width":"","mm_height":"","mm_padd":"","mm_radius":"","mm_offset":"","mm_align_screen":"","mm_posts_limit":"5","mm_subcats_posts_limit":"4","mm_child_cats":"","open_in_new_window":"","mm_ajax_preloading":"","mm_hide_all_item":"","mm_sub_width":"","mm_sub_padd":"","mm_sub_border":"","mm_sub_inline":"","mm_elem_order":"name","mm_elem_space":"","mm_elem_padd":"","mm_elem_border":"","mm_elem_border_a":"","mm_elem_border_rad":"","mc1_tl":"","mc1_title_tag":"","mc1_el":"","modules_gap":"","m_padding":"","all_modules_space":"36","modules_border_size":"","modules_border_style":"","modules_border_color":"#eaeaea","modules_divider":"","modules_divider_color":"#eaeaea","h_effect":"","image_alignment":"50","image_height":"","image_width":"","image_floated":"no_float","image_radius":"","hide_image":"","video_icon":"","show_vid_t":"block","vid_t_margin":"","vid_t_padding":"","vid_t_color":"","vid_t_bg_color":"","f_vid_time_font_header":"","f_vid_time_font_title":"Video duration text","f_vid_time_font_settings":"","f_vid_time_font_family":"","f_vid_time_font_size":"","f_vid_time_font_line_height":"","f_vid_time_font_style":"","f_vid_time_font_weight":"","f_vid_time_font_transform":"","f_vid_time_font_spacing":"","f_vid_time_":"","show_audio":"block","hide_audio":"","art_audio":"","art_audio_size":"1","meta_info_align":"","meta_info_horiz":"content-horiz-left","meta_width":"","meta_margin":"","meta_padding":"","art_title":"","meta_info_border_size":"","meta_info_border_style":"","meta_info_border_color":"#eaeaea","modules_category_margin":"","modules_category_padding":"","modules_cat_border":"","modules_category_radius":"0","show_cat":"inline-block","modules_extra_cat":"","author_photo":"","author_photo_size":"","author_photo_space":"","author_photo_radius":"","show_modified_date":"","time_ago":"","time_ago_add_txt":"ago","time_ago_txt_pos":"","art_excerpt":"","excerpt_col":"1","excerpt_gap":"","excerpt_middle":"","show_review":"inline-block","review_space":"","review_size":"2.5","review_distance":"","show_pagination":"","pag_space":"","pag_padding":"","pag_border_width":"","pag_border_radius":"","prev_tdicon":"","next_tdicon":"","pag_icons_size":"","main_sub_color":"","sep_color":"","more_icon_color":"","tds_menu_active":"tds_menu_active1","hover_opacity":"","f_elem_font_header":"","f_elem_font_title":"Elements text","f_elem_font_settings":"","f_elem_font_family":"","f_elem_font_line_height":"","f_elem_font_style":"","f_elem_font_weight":"","f_elem_font_transform":"","f_elem_font_spacing":"","f_elem_":"","sub_bg_color":"","sub_border_size":"","sub_border_color":"","sub_border_radius":"","sub_text_color":"","sub_elem_bg_color":"","sub_color":"","sub_shadow_shadow_header":"","sub_shadow_shadow_title":"Shadow","sub_shadow_shadow_size":"","sub_shadow_shadow_offset_horizontal":"","sub_shadow_shadow_offset_vertical":"","sub_shadow_shadow_spread":"","sub_shadow_shadow_color":"","tds_menu_sub_active":"tds_menu_sub_active1","f_sub_elem_font_header":"","f_sub_elem_font_title":"Elements text","f_sub_elem_font_settings":"","f_sub_elem_font_family":"","f_sub_elem_font_size":"","f_sub_elem_font_line_height":"","f_sub_elem_font_style":"","f_sub_elem_font_weight":"","f_sub_elem_font_transform":"","f_sub_elem_font_spacing":"","f_sub_elem_":"","mm_bg":"","mm_content_bg":"","mm_border_size":"","mm_border_color":"","mm_shadow_shadow_header":"","mm_shadow_shadow_title":"Shadow","mm_shadow_shadow_size":"","mm_shadow_shadow_offset_horizontal":"","mm_shadow_shadow_offset_vertical":"","mm_shadow_shadow_spread":"","mm_shadow_shadow_color":"","mm_subcats_bg":"","mm_subcats_border_color":"","mm_elem_color":"","mm_elem_color_a":"","mm_elem_bg":"","mm_elem_bg_a":"","mm_elem_border_color":"","mm_elem_border_color_a":"","mm_elem_shadow_shadow_header":"","mm_elem_shadow_shadow_title":"Elements shadow","mm_elem_shadow_shadow_size":"","mm_elem_shadow_shadow_offset_horizontal":"","mm_elem_shadow_shadow_offset_vertical":"","mm_elem_shadow_shadow_spread":"","mm_elem_shadow_shadow_color":"","f_mm_sub_font_header":"","f_mm_sub_font_title":"Sub categories elements","f_mm_sub_font_settings":"","f_mm_sub_font_family":"","f_mm_sub_font_size":"","f_mm_sub_font_line_height":"","f_mm_sub_font_style":"","f_mm_sub_font_weight":"","f_mm_sub_font_transform":"","f_mm_sub_font_spacing":"","f_mm_sub_":"","m_bg":"","color_overlay":"","shadow_shadow_header":"","shadow_shadow_title":"Module Shadow","shadow_shadow_size":"","shadow_shadow_offset_horizontal":"","shadow_shadow_offset_vertical":"","shadow_shadow_spread":"","shadow_shadow_color":"","title_txt":"","title_txt_hover":"","all_underline_height":"","all_underline_color":"#000","cat_bg":"","cat_bg_hover":"","cat_txt":"","cat_txt_hover":"","cat_border":"","cat_border_hover":"","meta_bg":"","author_txt":"","author_txt_hover":"","date_txt":"","ex_txt":"","com_bg":"","com_txt":"","rev_txt":"","shadow_m_shadow_header":"","shadow_m_shadow_title":"Meta info shadow","shadow_m_shadow_size":"","shadow_m_shadow_offset_horizontal":"","shadow_m_shadow_offset_vertical":"","shadow_m_shadow_spread":"","shadow_m_shadow_color":"","audio_btn_color":"","audio_time_color":"","audio_bar_color":"","audio_bar_curr_color":"","pag_text":"","pag_h_text":"","pag_bg":"","pag_h_bg":"","pag_border":"","pag_h_border":"","f_title_font_header":"","f_title_font_title":"Article title","f_title_font_settings":"","f_title_font_family":"","f_title_font_size":"","f_title_font_line_height":"","f_title_font_style":"","f_title_font_weight":"","f_title_font_transform":"","f_title_font_spacing":"","f_title_":"","f_cat_font_title":"Article category tag","f_cat_font_settings":"","f_cat_font_family":"","f_cat_font_size":"","f_cat_font_line_height":"","f_cat_font_style":"","f_cat_font_weight":"","f_cat_font_transform":"","f_cat_font_spacing":"","f_cat_":"","f_meta_font_title":"Article meta info","f_meta_font_settings":"","f_meta_font_family":"","f_meta_font_size":"","f_meta_font_line_height":"","f_meta_font_style":"","f_meta_font_weight":"","f_meta_font_transform":"","f_meta_font_spacing":"","f_meta_":"","f_ex_font_title":"Article excerpt","f_ex_font_settings":"","f_ex_font_family":"","f_ex_font_size":"","f_ex_font_line_height":"","f_ex_font_style":"","f_ex_font_weight":"","f_ex_font_transform":"","f_ex_font_spacing":"","f_ex_":"","mix_color":"","mix_type":"","fe_brightness":"1","fe_contrast":"1","fe_saturate":"1","mix_color_h":"","mix_type_h":"","fe_brightness_h":"1","fe_contrast_h":"1","fe_saturate_h":"1","el_class":"","block_template_id":"","td_column_number":3,"header_color":"","ajax_pagination_infinite_stop":"","offset":"","limit":"5","td_ajax_preloading":"","td_ajax_filter_type":"","td_filter_default_txt":"","td_ajax_filter_ids":"","color_preset":"","ajax_pagination":"","ajax_pagination_next_prev_swipe":"","border_top":"","css":"","class":"tdi_103","tdc_css_class":"tdi_103","tdc_css_class_style":"tdi_103_rand_style","context":""}';
 
-                        
-                        
+
+
                         tdbMenuItem.isMegaMenuParentPos = true;
 
-                        
+
                         tdbMenuItem.megaMenuLoadType = '';
 
-                        
+
                         tdbMenu.addItem(tdbMenuItem);
 
                     });
-                
-                
+
+
 </script>
 
 <script>var td_res_context_registered_atts=["style_general_mobile_horiz_menu","style_general_header_align","style_general_mobile_menu","style_general_header_logo","style_general_mobile_search","style_general_header_menu","style_general_menu_active3","style_general_menu_sub_active2","style_general_icon_box1","style_general_icon_box","style_general_icon_box4","style_general_button","style_general_module_header","style_general_header_search","style_general_header_search_trigger_enabled","style_general_inline_text"];</script>
@@ -4004,6 +4004,6 @@ jQuery().ready(function () {
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDJDDP27"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		
+
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97f5c440090c2efb',t:'MTc1NzkxNDU4OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

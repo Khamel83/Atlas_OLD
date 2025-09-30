@@ -6,7 +6,7 @@
 
 We believe that personal knowledge systems should:
 - **Serve the individual** - Not extract data for external profit
-- **Respect privacy** - Keep personal data under user control  
+- **Respect privacy** - Keep personal data under user control
 - **Enhance learning** - Support genuine understanding over mere information storage
 - **Promote autonomy** - Enable users to think more clearly, not replace thinking
 - **Value quality** - Focus on meaningful insights over quantity of data
@@ -21,7 +21,7 @@ We believe that personal knowledge systems should:
 
 ### Cognitive Enhancement
 - Tools should make you smarter, not dependent
-- Focus on developing thinking skills and knowledge connections  
+- Focus on developing thinking skills and knowledge connections
 - Support active learning through questioning and reflection
 - Encourage deep work and focused attention
 
@@ -31,7 +31,7 @@ We believe that personal knowledge systems should:
 - No vendor lock-in or proprietary data formats
 - Configurable to match individual learning styles and needs
 
-### Quality over Quantity  
+### Quality over Quantity
 - Better to surface one meaningful insight than 100 trivial suggestions
 - Emphasize understanding over mere information accumulation
 - Support deliberate, intentional knowledge work
@@ -59,7 +59,7 @@ We believe that personal knowledge systems should:
 
 This mission guides all development decisions. When in doubt:
 1. Choose the option that gives users more control
-2. Prioritize privacy over convenience  
+2. Prioritize privacy over convenience
 3. Focus on quality insights over quantity
 4. Support learning over mere consumption
 5. Maintain transparency in all operations

@@ -41,7 +41,7 @@ Now, here’s Julie with the dueling Declarations…
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 One of These Declarations Is Not Like the Others
 ------------------------------------------------
@@ -139,7 +139,7 @@ or works of art made by those without training or exposure to art history. It ha
 others, including this Adolf Wölfli work ( https://www.christies.com/en/lot/lot-6518763?ldp_breadcrumb=back&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). I was particularly interested to see that Louis-Dreyfus, the late father of actress Julia Louis-Dreyfus, had one of Gil Batle’s ostrich eggs ( https://www.christies.com/en/lot/lot-6518702?ldp_breadcrumb=back&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ),
 carved with scenes from the artist’s life in some of America’s most brutal prisons. (There is another ( https://www.christies.com/en/lot/lot-6518735?ldp_breadcrumb=back&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Batle-carved egg in the sale, not from Louis-Dreyfus.) These mind-blowing works are estimated at only $5,000. 
 
- 
+
 
 Endnotes…
 -----------
@@ -215,6 +215,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUi6W8MEJvP-B1Ydnjhk0=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

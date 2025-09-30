@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If I tell you that Company X is an oil company, you probably assume that it creates a lot of carbon emissions. Drilling for oil is dirty wor
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG Aramco
-    
-  
+
+
 
 If I tell you that Company X is an oil company, you probably assume that it creates a lot of carbon emissions. Drilling for oil is dirty work, but also the ultimate users of the oil will burn it and create a lot of emissions, and it seems reasonable to attribute those emissions to Company X. If it didn’t drill the oil, they wouldn’t burn the oil. Maybe they would burn some other oil? But that’s not the point. The point is that most people associate oil companies with carbon emissions, pretty reasonably. And so, for instance, environmental, social and governance-focused (ESG) investors might lower the carbon impact of their portfolios by not investing in oil companies.
 If I tell you that Company Y is an investment firm, you probably assume that it does not itself do a lot of carbon emissions. It’s some people, some desks, some computers. It uses electricity, and its employees probably take business trips on airplanes, but no more than most companies. If you care about carbon emissions, you might ask questions like “is Company Y an ESG investment firm?” or “does Company Y do a lot of investing in coal companies?” or “what are the total carbon emissions of the companies in Company Y’s portfolio?”; you might want to get a broader sense of Company Y’s contribution to carbon emissions beyond the amount of carbon that it uses in its own operations.
@@ -76,37 +76,37 @@ You can do this with anything! Absolutely anything:
 
 Though my made-up names are silly, and in the actual Aramco case one of the not-an-oil-company SPVs is named “GreenSaif Pipelines Bidco.” “Pipelines” is right in the name! The only way you would think that GreenSaif Pipelines Bidco “had no direct links to the fossil-fuel industry” is if (1) you started reading the name but stopped after you got to the “Green” part (plausible!) or (2) you never read the name at all, never thought about it, just looked at the balance sheet and saw only shares of stock, not pipelines or oil wells, and said “ah, stock, well, that’s green enough.”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in ESG
-    
-  
+
+
 
 Well, this is  not an unrelated mechanism:
 
@@ -122,11 +122,11 @@ My general model of ESG and carbon emissions goes something like this:
 
 This story is all of those things.
 
-  
-    
+
+
       Indexes
-    
-  
+
+
 
 We   talked a bit yesterday about how Nasdaq Inc. plans to adjust its Nasdaq 100 index of big tech companies to reduce the impact of the very biggest tech companies. This will have the effect of making the index a bit more representative of the broad tech sector, as my colleague   John Authers explains, but it has the purpose of helping index funds linked to the Nasdaq 100 be in compliance with US Securities and Exchange Commission and Internal Revenue Service rules about diversification. Those rules basically require funds to have no more than 50% of their assets in stocks that each make up more than 5% of their assets; currently the Nasdaq 100 is somewhat uncomfortably close to that cap, so it is going to lower the weights of its biggest stocks to give index funds more breathing room.
 Here is Nasdaq’s  published methodology for re-weighting the Nasdaq 100. Basically the method is:
@@ -144,7 +144,7 @@ Nasdaq’s  announcement says that the “rebalance of the index will be enacted
 :
 
 
-    
+
 
 Notice that there is one stock that is just above 4.5%, and it is Tesla. Notice that there is one stock that is just below 4.5%, and it is Meta. The top six companies (Microsoft, Apple, Alphabet, Nvidia, Amazon and Tesla) are all above 4.5%, and they add up to 50.9% of the index; the reweighting would cut them back to 40%, a 21% decrease. Meanwhile the other stocks in the index would see their weightings go up by 22%.
 Tesla would, on my math, go from being 4.5% of the index to being 2.8%. Meta would, on my math, go from being 4.2% to being 5.1%. It seems that the Nasdaq rebalance will cause investors to sell Tesla and buy Meta. 
@@ -156,11 +156,11 @@ I mention this mostly because it is weird,
   [5]
  but also a little bit because Mark Zuckerberg and Elon Musk are engaged in a series of very strange competitions these days, and this is a funny little win for Zuckerberg.
 
-  
-    
+
+
       Pitches
-    
-  
+
+
 
 The way I thought of the boom in private tech companies in the late 2010s was that there was a lot of global capital available to be invested in tech companies, and relatively few tech ideas and entrepreneurs that could plausibly achieve global scale. Entrepreneurs were in demand, capital was cheap and plentiful, and so you got not only enormous valuations but also very founder-friendly terms for big private tech investments.
 In 2023 it seems somehow appropriate that there is a glut of private equity firms and a shortage of plumbers. Bloomberg’s Michael Sasso reports:
@@ -179,11 +179,11 @@ There’s a business idea there. You start a middle-market investment bank and
  PE-Be-Gone. Surely there are a few thousand clients who’d want that; here are two, anyway.
 Sasso notes some economic factors driving private equity to spend more on roll-ups (plumbing is relatively recession-proof, small private companies are cheaper, public ones are too averse to selling at below-peak valuations). But the deep supply-and-demand story there might be something like “US society pushes young people into college rather than the trades, and then colleges push ambitious students into private equity, and the result is that we have way too many private equity investors and way too few plumbers.” 
 
-  
-    
+
+
       Meetings
-    
-  
+
+
 
 This is   kind of cool I guess:
 
@@ -204,11 +204,11 @@ Kathryn Stinson, a psychotherapist in St. Louis, hosts hourlong body-doubling se
 
 The optimal amount of meetings is not zero, even if you work alone.
 
-  
-    
+
+
       People who live in glass houses
-    
-  
+
+
 
 Man, I have absolutely no idea:
 
@@ -222,15 +222,15 @@ After that order, Tesla board members investigated whether company resources had
 Look honestly I think spending millions of dollars to build a giant glass house for Elon Musk right near Tesla headquarters is a good use of corporate funds? Keep an eye on him. Really if the board had thought of this I would be praising it as an innovative corporate governance idea. You can’t necessarily make Elon Musk warn you when he’s going to   tweet something material or go buy another company to run full-time, but you can give him the gift of a glass house and get yourself a telescope.
 I assume that “42” is the Douglas Adams number, and that originally they wanted to call it Project 69 but chickened out.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Microsoft   Cleared to Buy Activision in US as UK Pauses Fight. Lina Khan Is Taking on the World’s Biggest  Tech Companies—and Losing. Inflation at   3% Flags End of Emergency, Turning Point for Fed. Goldman Breaks Its Own Rule to   Flag Results Much Worse Than Rivals. Pimco Looks to   Alternatives as Credit Market Nears Boiling Point. Nvidia in talks to be an anchor investor in  Arm IPO. How Exposed Are U.S. Banks’ Loan Portfolios to  Climate Transition Risks? Wall Street Is Fighting New York’s Ban on Non-Compete Agreements. Nuclear bomb fallout chosen to define  start of Anthropocene.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Assuming that the cuts are made pro rata, which the methodology does not actually say. You could imagine doing something different, cutting back the bigger stocks more.
 
 
@@ -255,48 +255,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Also, if you worked at Shopify and wanted to have a meeting with three or more people, would you be tempted to get around this calculator? Like just go to their desks and say “hey let’s take a walk together,” rather than using the calendar app and having it shame you? Is that better or worse than using the calendar app? I think I would always rather do a meeting that came from someone coming to my desk and suggesting a walk than a meeting that came from a calendar invitation, but I suppose there are frictions.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -307,46 +307,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj364y.5ose/41c29460.gif" alt="" border="0" /></a>

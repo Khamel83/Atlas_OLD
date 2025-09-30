@@ -119,20 +119,20 @@ A more reasonable comparable would be CoreWeave, a company that gives other comp
 
 Historically, according to data provided by Crunchbase, the largest funding round of the last decade was $14 billion, [raised by Ant Group in 2018](https://techcrunch.com/2018/06/07/ant-financial-raises-14-billion/?ref=wheresyoured.at), followed by Juul, also in 2018, [when it raised $12.8 billion](https://investor.altria.com/press-releases/news-details/2018/Altria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth/default.aspx?ref=wheresyoured.at). Otherwise, OpenAI dominates.
 
-> As another aside, Uber, [a company famed for burning $25 billion dollars to achieve profitability](https://www.theverge.com/2024/2/8/24065999/uber-earnings-profitable-year-net-income?ref=wheresyoured.at), raised a total of...well, [$25 billion](https://www.crunchbase.com/organization/uber?ref=wheresyoured.at), which included four different funding rounds in the year 2018 alone.  
->   
-> And even then it was more profitable than OpenAI, other than in 2020, when it lost $6.7 billion — around $1.7 billion more than OpenAI might lose this year — because *people weren’t going anywhere.*   
->   
-> On top of that, — and yes, I am directly responding to the Information’s “[is OpenAI a good business](https://www.theinformation.com/articles/is-openai-a-good-business?utm_source=ti_app&rc=kz8jh3)?,” the central argument of which is that OpenAI also needs to burn a bunch of money — Uber immediately had a use case people understood, and immediately generated revenue by devouring the taxi monopolies, subsidized heavily by venture capital.   
->   
-> Conversely, OpenAI has devoured no monopoly, and the product category it created — the only one it is really part of — is one entirely subsidized by venture capital and Microsoft. What OpenAI is offering is entirely hype-driven, hard to explain to the layman, a movement driven by a lack of hypergrowth markets.   
->   
-> Uber was priced to replace a monopoly, and one that most people hated. Taxis were expensive, inconvenient, artificially scarce (especially in cities like New York, which limited the supply of taxis through its medallion system), and seldom accepted credit cards. Worse, discrimination against those of a minority background by drivers was rife and unchallenged ([and involved exploitative loan schemes](https://www.nytimes.com/2019/05/19/nyregion/nyc-taxis-medallions-suicides.html?ref=wheresyoured.at)). While we can dislike Uber as a company and criticize its business practices, you can’t deny it had an objective appeal from the outset.   
->   
-> By contrast, OpenAI created an industry-wide FOMO psychosis, and has profited heavily from it, but explaining what ChatGPT is to a layman is possible yet convoluted, which Uber was not.   
->   
-> [I should also add that the media was used by Uber as a means of laundering Uber’s reputation](https://www.promarket.org/2019/11/27/false-claims-and-propaganda-why-ubers-narratives-are-wrong-but-successful/?ref=wheresyoured.at), used specifically to ([and I quote Edward Ongweso Jr](https://thebaffler.com/latest/the-miseducation-of-kara-swisher-ongweso?ref=wheresyoured.at).) convince people to “view its growth as progressive, not parasitic.” It’s important to bring attention to OpenAI and Sam Altman’s attempts to create a narrative promising things that its company has no way of doing, and even more so to not find ways to explain away how unsustainable OpenAI is. It is fundamentally not the media’s job to convince the world that OpenAI is a stable company with great things ahead — that’s OpenAI’s job.   
->   
+> As another aside, Uber, [a company famed for burning $25 billion dollars to achieve profitability](https://www.theverge.com/2024/2/8/24065999/uber-earnings-profitable-year-net-income?ref=wheresyoured.at), raised a total of...well, [$25 billion](https://www.crunchbase.com/organization/uber?ref=wheresyoured.at), which included four different funding rounds in the year 2018 alone.
+>
+> And even then it was more profitable than OpenAI, other than in 2020, when it lost $6.7 billion — around $1.7 billion more than OpenAI might lose this year — because *people weren’t going anywhere.*
+>
+> On top of that, — and yes, I am directly responding to the Information’s “[is OpenAI a good business](https://www.theinformation.com/articles/is-openai-a-good-business?utm_source=ti_app&rc=kz8jh3)?,” the central argument of which is that OpenAI also needs to burn a bunch of money — Uber immediately had a use case people understood, and immediately generated revenue by devouring the taxi monopolies, subsidized heavily by venture capital.
+>
+> Conversely, OpenAI has devoured no monopoly, and the product category it created — the only one it is really part of — is one entirely subsidized by venture capital and Microsoft. What OpenAI is offering is entirely hype-driven, hard to explain to the layman, a movement driven by a lack of hypergrowth markets.
+>
+> Uber was priced to replace a monopoly, and one that most people hated. Taxis were expensive, inconvenient, artificially scarce (especially in cities like New York, which limited the supply of taxis through its medallion system), and seldom accepted credit cards. Worse, discrimination against those of a minority background by drivers was rife and unchallenged ([and involved exploitative loan schemes](https://www.nytimes.com/2019/05/19/nyregion/nyc-taxis-medallions-suicides.html?ref=wheresyoured.at)). While we can dislike Uber as a company and criticize its business practices, you can’t deny it had an objective appeal from the outset.
+>
+> By contrast, OpenAI created an industry-wide FOMO psychosis, and has profited heavily from it, but explaining what ChatGPT is to a layman is possible yet convoluted, which Uber was not.
+>
+> [I should also add that the media was used by Uber as a means of laundering Uber’s reputation](https://www.promarket.org/2019/11/27/false-claims-and-propaganda-why-ubers-narratives-are-wrong-but-successful/?ref=wheresyoured.at), used specifically to ([and I quote Edward Ongweso Jr](https://thebaffler.com/latest/the-miseducation-of-kara-swisher-ongweso?ref=wheresyoured.at).) convince people to “view its growth as progressive, not parasitic.” It’s important to bring attention to OpenAI and Sam Altman’s attempts to create a narrative promising things that its company has no way of doing, and even more so to not find ways to explain away how unsustainable OpenAI is. It is fundamentally not the media’s job to convince the world that OpenAI is a stable company with great things ahead — that’s OpenAI’s job.
+>
 > While I am not sure it’s appropriate to say that I’m a “member of the media,” of the two of us, I think that the PR guy with a part-time newsletter and a podcast should never be the one who’s more willing to be critical.
 
 As of its last round of funding — a secondary market (meaning insiders can sell their stocks to VCs) offering from February of this year — [OpenAI is "valued" at $80 billion](https://www.nytimes.com/2024/02/16/technology/openai-artificial-intelligence-deal-valuation.html?ref=wheresyoured.at). I say "valued," because Microsoft's investment (which likely increased the valuation of the company, though I can't confirm) was predominantly in funny-money, cloud credits, rather than any actual "investment" that would in turn give something a "valuation."
@@ -256,16 +256,16 @@ If I had to just choose a number, I hypothesize that OpenAI needs to raise $20 b
 
 OpenAI would have to regularly make up 5-10% *of all startup funding, forever*, *or at least until it works out how to lose less or make more money.*
 
-> The only other company that has done so is Uber — and as I’ve discussed above, their situation is very, very different. Comparing the two is ahistorical on the funding climate alone, with Uber existing at a time with lower interest rates. Along with $3.5 billion from Saudi Arabia’s Public Investment fund and over $8 billion from Softbank, the latter a secondary market sale, it also raised (equity and debt financing respectively) from Goldman Sachs and Morgan Stanley — two parties I do not believe are going to be willing to subsidize generative AI.   
->   
-> Even if I’m wrong — which I could be, stranger things have happened — the willingness and ease of getting people to hand over hundreds of millions or billions of dollars became markedly different between Uber’s last funding round (September 14 2020) and 2024. The majority of its funding was raised between 2016 and 2019, too, when interest rates were low and, thus, VC coffers were overflowing.   
->   
-> And, crucially, investors had an incredibly clear path to liquidity — an IPO. Uber was always a dog of a company, but they always knew it’d chug along as a growth-at-all-costs monster on the market. How would OpenAI IPO? Its most recent round was a secondary market raise, selling insider stock to new investors.   
->   
-> If we humor this idea as the ultimate goal of pumping this company full of money, what are its plans to go public? [Altman said as recently as June 2023 that its company structure would prohibit an IPO](https://www.reuters.com/technology/openai-ceo-has-no-ipo-plan-due-strange-company-structure-2023-06-06/?ref=wheresyoured.at), but do you think that OpenAI wants to subject itself to the scrutiny of the public markets, especially given their approach to copyrighted material?   
->   
-> Microsoft has a built-in profit share, but what of Sequoia? How does it get paid, other than finding another investor who wants the stock?  
->   
+> The only other company that has done so is Uber — and as I’ve discussed above, their situation is very, very different. Comparing the two is ahistorical on the funding climate alone, with Uber existing at a time with lower interest rates. Along with $3.5 billion from Saudi Arabia’s Public Investment fund and over $8 billion from Softbank, the latter a secondary market sale, it also raised (equity and debt financing respectively) from Goldman Sachs and Morgan Stanley — two parties I do not believe are going to be willing to subsidize generative AI.
+>
+> Even if I’m wrong — which I could be, stranger things have happened — the willingness and ease of getting people to hand over hundreds of millions or billions of dollars became markedly different between Uber’s last funding round (September 14 2020) and 2024. The majority of its funding was raised between 2016 and 2019, too, when interest rates were low and, thus, VC coffers were overflowing.
+>
+> And, crucially, investors had an incredibly clear path to liquidity — an IPO. Uber was always a dog of a company, but they always knew it’d chug along as a growth-at-all-costs monster on the market. How would OpenAI IPO? Its most recent round was a secondary market raise, selling insider stock to new investors.
+>
+> If we humor this idea as the ultimate goal of pumping this company full of money, what are its plans to go public? [Altman said as recently as June 2023 that its company structure would prohibit an IPO](https://www.reuters.com/technology/openai-ceo-has-no-ipo-plan-due-strange-company-structure-2023-06-06/?ref=wheresyoured.at), but do you think that OpenAI wants to subject itself to the scrutiny of the public markets, especially given their approach to copyrighted material?
+>
+> Microsoft has a built-in profit share, but what of Sequoia? How does it get paid, other than finding another investor who wants the stock?
+>
 > Perhaps there’s something I’m missing, but if investors have no path to an IPO, this feels like a game of hot potato, except the loser is left with a big, useless stock.Unless, of course, that investor is Microsoft, who will end up being able to use any leftover tech, and will benefit if OpenAI becomes profitable.
 
 Furthermore, I hypothesize a race to the bottom in generative AI will significantly hamper OpenAI's ability to expand revenue, compounded by the fact that we're approaching the limits of transformer-based architecture.

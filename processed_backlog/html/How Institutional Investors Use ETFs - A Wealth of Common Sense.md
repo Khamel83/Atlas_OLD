@@ -9,18 +9,18 @@ Those who are worried about passive investing taking over the markets point to t
 
 I think it’s great that institutions are taking advantage of ETFs to allow their portfolios to function more efficiently. But the majority of institutions aren’t using ETFs for passive, long-term buy and hold investing. Their holdings serve a host of other purposes. When professional money managers and the media talk about a passive investing bubble it’s worth remembering that not all ETF buyers are passive investors. In his book Balchunas lists thirteen different ways that institutional investors utilize ETFs in their portfolios:
 
-1. Cash equitization  
-2. Manager transistions  
-3. Portfolio rebalancing  
-4. Portfolio completion  
-5. Liquidity sleeves  
-6. Shorting/hedging  
-7. Long and lend  
-8. Tactical moves  
-9. In-kind creation/redemptions  
-10. Bespoke ETFs  
-11. Tax-loss harvesting  
-12. Long-term allocation  
+1. Cash equitization
+2. Manager transistions
+3. Portfolio rebalancing
+4. Portfolio completion
+5. Liquidity sleeves
+6. Shorting/hedging
+7. Long and lend
+8. Tactical moves
+9. In-kind creation/redemptions
+10. Bespoke ETFs
+11. Tax-loss harvesting
+12. Long-term allocation
 13. Personal usage
 
 You should notice that ‘long-term allocation’ is pretty far down the list here. There’s a reason for this. The majority of institutional investors aren’t using ETFs through a passive approach. They’re using them as placeholder investments, for tactical moves, as a way to provide portfolio liquidity or for shorting and hedging; not as a long-term strategic allocation.
@@ -47,10 +47,10 @@ As David Swensen once said, “Instead of concentrating on the central issue of
 
 A focus on asset allocation, low-costs and [organizational alpha](https://awealthofcommonsense.com/2015/12/organizational-alpha/) can be a tough combination to beat for institutional investors but it would require a re-thinking of the current strategy for many. Turning that battleship takes time.
 
-Source:  
+Source:
 [The Institutional ETF Toolbox](http://www.amazon.com/gp/product/1119093864/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1119093864&linkCode=as2&tag=aweaofcomsen-20&linkId=ZJFO6ZQB52ON7UK7)
 
-Further Reading:  
+Further Reading:
 [Bogle vs. Goliath](https://awealthofcommonsense.com/2016/02/bogle-vs-golitath/)
 
 

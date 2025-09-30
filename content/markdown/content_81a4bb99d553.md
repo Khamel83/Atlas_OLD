@@ -13,12 +13,12 @@
  ">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>How I lost 150 pounds in one year &raquo;  AaronGleeman.com &raquo; Aaron Gleeman's Baseball and Minnesota Twins Blog</title>
-	
+
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-	
+
 	<link rel="stylesheet" type="text/css" href="/stylesheets/gleeman.css" media="screen, print">
 	<link rel="pingback" href="https://aarongleeman.com/xmlrpc.php" />
-	
+
 		<link rel='archives' title='June 2020' href='https://aarongleeman.com/2020/06/' />
 	<link rel='archives' title='May 2020' href='https://aarongleeman.com/2020/05/' />
 	<link rel='archives' title='April 2020' href='https://aarongleeman.com/2020/04/' />
@@ -255,7 +255,7 @@ img.emoji {
 </style>
 <link rel='https://api.w.org/' href='https://aarongleeman.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://aarongleeman.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://aarongleeman.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://aarongleeman.com/wp-includes/wlwmanifest.xml" />
 <link rel='prev' title='&#8220;Gleeman and The Geek&#8221; #31: Welcome Back, Baseball' href='https://aarongleeman.com/2012/03/06/podcast-gleeman-and-the-geek-episode-31/' />
 <link rel='next' title='Link-O-Rama' href='https://aarongleeman.com/2012/03/09/link-o-rama-67/' />
 <meta name="generator" content="WordPress 4.9.8" />
@@ -288,16 +288,16 @@ img.emoji {
 		<div id="banner"><a href="/"> </a></div>
 	<h1><a href="https://aarongleeman.com/">AaronGleeman.com</a></h1>
 	</div>
-	
+
 	<div id="wrapper">
-	
+
 
 
 		<div id="main-content">
-		
-			
+
+
 			<div id="blog-content">
-			
+
 
 
 				<div class="post">
@@ -305,7 +305,7 @@ img.emoji {
 					<p class="date">March 7, 2012</p>
 
 					<h2 class="posttitle"><a href="https://aarongleeman.com/2012/03/07/how-i-lost-150-pounds-in-one-year/" rel="bookmark">How I lost 150 pounds in one year</a></h2>
-						
+
 	<div class="storycontent">
 		<p style="text-align: center;"><a href="http://aarongleeman.com/wp-content/uploads/2012/02/Screen-Shot-2012-03-06-at-9.59.39-PM-e1331092906319.png"><img class="alignnone size-full wp-image-70432" title="Screen Shot 2012-03-06 at 9.59.39 PM" src="http://aarongleeman.com/wp-content/uploads/2012/02/Screen-Shot-2012-03-06-at-9.59.39-PM-e1331092906319.png" alt="" width="500" height="353" srcset="https://aarongleeman.com/wp-content/uploads/2012/02/Screen-Shot-2012-03-06-at-9.59.39-PM-e1331092906319.png 759w, https://aarongleeman.com/wp-content/uploads/2012/02/Screen-Shot-2012-03-06-at-9.59.39-PM-e1331092906319-300x211.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
 <p>As a little kid I <a href="http://aarongleeman.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-06-at-10.05.35-PM-e1331093207738.png">was always skinny</a>, but when my growth spurt to 6-foot-2 began around age 15 that turned into chubby and by the end of high school I was fat. After a year of college fat gave way to obese and, for the most part, that's where I stayed. I lost significant amounts of weight several times since then, including a huge loss about five years ago, but inevitably I always put it all back on and then some.</p>
@@ -353,7 +353,7 @@ March 7, 2012: 202 pounds</p>
 	</div>
 
 	<div class="feedback">
-				<a href="https://aarongleeman.com/2012/03/07/how-i-lost-150-pounds-in-one-year/#comments">Comments (197)</a> &infin; 
+				<a href="https://aarongleeman.com/2012/03/07/how-i-lost-150-pounds-in-one-year/#comments">Comments (197)</a> &infin;
 		<a href="https://aarongleeman.com/2012/03/07/how-i-lost-150-pounds-in-one-year/" rel="bookmark">Permalink</a> &infin;
                 <a href="http://twitter.com/aarongleeman">@AaronGleeman on Twitter</a> &infin;
                 <a href="http://aarongleeman.com/tag/gleeman-and-the-geek/">"Gleeman and The Geek" Podcast</a>
@@ -702,28 +702,28 @@ I also think you and Craig should have some sort of worlds strongest blogger com
 			<div style="clear:both;"></div>
 
 			</div> <!-- end #blog-content -->
-		
+
 		</div> <!-- end #main-content -->
 
 
-<!-- begin sidebar-right -->		
+<!-- begin sidebar-right -->
 <div id="sidebar-right">
-	
-	
+
+
 	<!-- ### Aaron Gleeman's about box ### -->
-	
+
 	<div class="sidebox" id="gleeman">
 		<p style="text-align:center"><strong>E-mail:</strong> <a href="mailto:aarongleeman@gmail.com">aarongleeman@gmail.com</a></p>
 		<p style="text-align:center"><strong>Twitter:</strong> <a href="http://twitter.com/aarongleeman">@aarongleeman</a></p>
 	</div>
-	
-	
-	
+
+
+
 <!-- Start - HTML Javascript Adder plugin v3.9 -->
 
 <div class="hjawidget textwidget">
 			<div class="sidebox" class="bigfifty"  style="width: 300px; height: auto;margin-top: 1em;">
-<p style="text-align:center"><strong>The Big 50: The Men and Moments that Made the Minnesota Twins</strong></p>	
+<p style="text-align:center"><strong>The Big 50: The Men and Moments that Made the Minnesota Twins</strong></p>
 
 <p style="text-align:center"><a href="https://www.amazon.com/Big-50-Minnesota-Twins-Moments/dp/162937542X/ref=as_li_ss_tl?ie=UTF8&qid=1507599527&linkCode=ll1&tag=gleeman-20&linkId=1d90d26cebf463aadea744cd48535d82"><img class="alignnone size-full wp-image-48163" title="bigfifty" src="https://aarongleeman.com/wp-content/uploads/2017/10/bigfiftycover.jpg" alt="" width="220" height="340" /></a></p>
 
@@ -736,7 +736,7 @@ I also think you and Craig should have some sort of worlds strongest blogger com
 
 <div class="hjawidget textwidget">
 			<div class="sidebox" id="sponsor">
-<p style="text-align:center"><strong>"Gleeman and The Geek" podcast</strong></p>				
+<p style="text-align:center"><strong>"Gleeman and The Geek" podcast</strong></p>
 
 <p style="text-align:center"><a href="http://aarongleeman.com/tag/gleeman-and-the-geek/"><img class="alignnone size-full wp-image-53024" title="logo" src="https://aarongleeman.com/wp-content/uploads/2012/06/gleeman-geek250.jpg" alt="" width="250" height="250" /></a></p>
 
@@ -788,7 +788,7 @@ I also think you and Craig should have some sort of worlds strongest blogger com
 				<br><a href="http://www.twinkietown.com/">Twinkie Town</a>
 			</div>
 </div>
-		
+
 <!-- Start - HTML Javascript Adder plugin v3.9 -->
 <h2>Latest Tweets</h2>
 <div class="hjawidget textwidget">
@@ -843,22 +843,22 @@ I also think you and Craig should have some sort of worlds strongest blogger com
 <a href="https://aarongleeman.com/tag/trevor-plouffe/" class="tag-cloud-link tag-link-128 tag-link-position-43" style="font-size: 11.194630872483pt;" aria-label="Trevor Plouffe (58 items)">Trevor Plouffe</a>
 <a href="https://aarongleeman.com/tag/tsuyoshi-nishioka/" class="tag-cloud-link tag-link-378 tag-link-position-44" style="font-size: 8.5637583892617pt;" aria-label="Tsuyoshi Nishioka (30 items)">Tsuyoshi Nishioka</a>
 <a href="https://aarongleeman.com/tag/twins/" class="tag-cloud-link tag-link-8 tag-link-position-45" style="font-size: 22pt;" aria-label="Twins (827 items)">Twins</a></div>
- 
+
 </div><!-- end sidebar-right -->
 <!-- begin footer -->
 
 
 	</div> <!-- end #wrapper -->
-	
+
 	<div id="footer">
-	
+
 	<p class="credit"><!--3 queries. 0.162 seconds. <cite>Powered by <a href='http://wordpress.org/' title='Powered by WordPress, state-of-the-art semantic personal publishing platform.'><strong>WordPress</strong></a></cite> --></p>
-	
-	&copy; 2002-2025 Aaron Gleeman	
+
+	&copy; 2002-2025 Aaron Gleeman
 	</div>
-	
+
 	<div id="wpfooter">
-		
+
 <script src="https://aarongleeman.com/wp-content/cache/minify/d2ec1.js"></script>
 
 </div>
@@ -890,7 +890,7 @@ ga('create', 'UA-9575556-2', 'auto');
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
 Object Caching 65/75 objects using disk
-Page Caching using disk: enhanced (SSL caching disabled) 
+Page Caching using disk: enhanced (SSL caching disabled)
 Minified using disk
 Database Caching 5/8 queries in 0.026 seconds using disk
 

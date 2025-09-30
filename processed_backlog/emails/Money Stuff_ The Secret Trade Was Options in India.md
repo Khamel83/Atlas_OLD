@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Wednesday.The story is: Jane Street Group, the proprietary trading firm, found s
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Wednesday.
 
-  
-    
+
+
       Oops
-    
-  
+
+
 
 The story is: Jane Street Group, the proprietary trading firm, found some clever and counterintuitive trading strategy and made a lot of money doing it. Then some of the guys who did the trade left Jane Street for Millennium Management, where Jane Street thinks they are doing the same trade. Now Jane Street is making less money doing the trade, and is unhappy about this. So it sued the guys, and Millennium, for theft of trade secrets. We discussed the lawsuit last week. 
 One obvious problem with Jane Street’s approach is that, if you are an extraordinarily profitable and somewhat secretive proprietary trading firm, and you file a public lawsuit saying “someone stole our extraordinarily profitable and secret proprietary trading strategy,” people are going to be very interested. Everyone is going to try to figure out what the strategy is. Of course, if you are Jane Street, people are always trying to figure out what your strategies are, but filing the lawsuit — even if you redact all the details of the trading strategy — is going to give them an extra incentive, and some clues. 
@@ -80,37 +80,37 @@ Millennium lawyer Andrew Levander … compared the two traders to gold miners w
 
 From Jane Street’s complaint, I suppose you could conclude that they first spotted discrepancies between Indian stocks and options at Jane Street, didn’t believe the discrepancies, did a bunch of test trades to make sure they were real, realized that they were, and then gleefully started betting on those discrepancies and making lots of money. And then they left for Millennium and hey, guess what, there are still discrepancies between Indian stocks and options, just where they left them. Being an experienced options trader means knowing where the discrepancies are and how to find them. If you found them for one firm and then moved to another, does that mean you have to forget the ones you already found?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       DJT
-    
-  
+
+
 
 This is one of the most cynical things I have ever seen:
 
@@ -144,11 +144,11 @@ TMTG replied: “Citadel Securities, a corporate behemoth that has been fined an
 
 “Devin Nunes trades insults with Citadel Securities” probably is a better news cycle for Trump Media than talking about its business.
 
-  
-    
+
+
       The Mango guy
-    
-  
+
+
 
 I’ve become increasingly convinced that the right regulatory approach to crypto might be “let them scam each other as much as possible, and laugh at the results,” but the US Department of Justice disagrees, and their position seems to be more popular with juries:
 
@@ -159,11 +159,11 @@ He definitely did “market manipulation,” in the traditional sense; whether o
 “The FBI and its partners will not stand by when criminals engage in illicit activity at the expense of the American people and our financial institutions,” said Executive Assistant Director Timothy Langan of the FBI’s Criminal, Cyber, Response, and Services Branch. “If you engage in fraudulent activity, whether that be in the cryptocurrency space or through other forms of market manipulation, you will be held accountable for your ill-gotten gains.”
 That seems to be accurate; the Justice Department really has been prosecuting a lot of crypto crimes. Still it seems weird to say that manipulation of the Mango Markets token comes “at the expense of the American people and our financial institutions.” If you run a financial institution and you had exposure to the Mango Markets token, that’s a bigger problem than Avi Eisenberg.
 
-  
-    
+
+
       Gambling
-    
-  
+
+
 
 At Business Insider last week, Emily Stewart had a good meta-explanation for Trump Media, Avi Eisenberg, and honestly most of the stuff we talk about around here.
   [5]
@@ -176,11 +176,11 @@ Well, everyone is pretending. (Except the literal online sports betting sites, 
   [6]
 ) That’s what’s so weird about all of this. If you are a meme-stock executive or a crypto venture capitalist or Robinhood, you can’t just go on TV and say “yes gambling is fun and legal and we are probabilistically charging people a market-clearing price for entertainment.” You have to talk about how your meme stock is the future of free speech or how crypto is the future of ownership or how retail options trading is the future of retirement savings. “This is all legitimate economic activity,” you have to say, because people are still not entirely used to the idea that gambling is legitimate economic activity.
 
-  
-    
+
+
       Rates went up
-    
-  
+
+
 
 In some sense the main story of finance in the 2020s is “interest rates were very low for a very long time, everyone got used to them, and then they went up rapidly and everyone’s intuitions were messed up.” This is of course the main story of the 2023 US regional banking crisis, and it is arguably a crucial part of the story of tech startups, or crypto, or environmental, social and governance investing, or private equity, or private credit hurdle rates, or any number of other things. Or here’s Bloomberg’s Justina Lee on risk parity:
 
@@ -190,11 +190,11 @@ It flourished after the 2008 financial crisis as investors sought a way to prote
 
 Intuitively the way risk parity works is that you invest some of your portfolio in stocks and some of it in bonds, with the goal that each part contributes the same amount of volatility to the portfolio. So if stocks have 30% volatility and bonds have 10% volatility, you put three-quarters of your money in bonds and one quarter in stocks, crudely speaking. The more volatile an asset has been, the less money you allocate to it. When bonds have been very stable for a long period, you put a lot of your money in bonds. When stocks then go up a lot for years, you underperform a more-stock-weighted portfolio. When interest rates suddenly go up a lot — and bonds crash before you update your historical volatility measures — you lose money. 
 
-  
-    
+
+
       Costco gold
-    
-  
+
+
 
 The general form of consumer financial arbitrage is:
 	If you buy stuff at a store with a credit card, the store will pay your credit card company a fee of, say, 1.4% of the price.
@@ -211,29 +211,29 @@ One dealer offered him $200 less than the $2,000 he had paid. Taking such a loss
 
 I mean? Yes? I tremble to think of the number of TikToks and subreddits there must be about buying gold at Costco for credit-card points.
 
-  
-    
+
+
       Ticker typo
-    
-  
+
+
 
 This month, Medigus Ltd., a Nasdaq-listed, Israel-based $4 million-ish market capitalization technology company, changed its name to Xylo Technologies Inc., “to embody its corporate vision and core values,” why not. It announced that it would begin trading on Nasdaq under the ticker symbol XYLO on April 18. It did not. It began trading on Nasdaq under the ticker symbol XLYO on April 18. You probably didn’t notice the difference either. Eventually someone did. Here is a memo from the Options Clearing Corp., dated April 18, saying that “Xylo Technologies Ltd. (XLYO) will change its trading symbol to XYLO effective April 19, 2024.” Here is Bloomberg’s list of corporate actions:
 
 
-    
+
 
 There are a lot of stocks, and they all have tickers, and you cannot expect all of them to be correct. I cannot think of a way that this could matter, but someone sent it to me, and it feels like the sort of thing I have to share with you.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Move Aside, Big Banks: Giant Funds Now Rule Wall Street. New York Stock Exchange tests views on round-the-clock trading. Global banking regulator sounds out investors on suitability of AT1s. Wall Street Bonus Rules Return to Regulatory Agenda in Third Try. TikTok Vows Legal Battle as the US Presses for App’s Sale or Ban. Diversity Goals Are Disappearing From Companies’ Annual Report. Sam Altman Invests in Energy Startup Focused on AI Data Centers. Consulting firms step up efforts to push out their low performers. WeWork Eyes Exit From Chapter 11 Without Additional Bankruptcy Loans. Salesforce’s Talks to Buy Informatica Fizzle. FTX Investors Settle With Bankman-Fried to Pursue Promoters. Wall Street Has Abandoned Wall Street. The Coney Island Apartment Complex That Nearly Sparked a Banking Panic. BlackRock steps up security for Larry Fink after ‘anti-woke’ backlash. Consider the Onion. The Cloud Under the Sea. “Whitcomb says he initially turned to ketamine to treat depression and found it helped him think more expansively about work problems.” Tesla Recalls Almost 3,900 Cybertrucks to Fix Faulty Pedals. Elon Musk’s Robotaxi Dreams Plunge Tesla Into Chaos. Tesla shareholders braced for worst results in 7 years. “‘In the long term, I trust Elon Musk,’ Bartash said. ‘He’s Steve Jobs but multiplied by an order of magnitude. I’m not a cultist, but it’s like biblical proportions when he talks about wanting to democratize space and going to Mars.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Depends how you count. The pro forma financials on page 70 of its recent S-1 show a loss from operations for Trump Media of $16 million and a net loss of $58.2 million. But the pro forma combination of Trump Media and the special purpose acquisition company that bought it had a net loss of $100.7 million, counting things like the legal bills of the SPAC. 
+
+  [1] Depends how you count. The pro forma financials on page 70 of its recent S-1 show a loss from operations for Trump Media of $16 million and a net loss of $58.2 million. But the pro forma combination of Trump Media and the special purpose acquisition company that bought it had a net loss of $100.7 million, counting things like the legal bills of the SPAC.
 
 
   [2] Page 199: “Digital World’s management concluded that an initial valuation of $875 million, with the potential for an additional earnout of $825 million, was a reasonable assessment for TMTG’s enterprise valuation in the Business Combination transaction.”
@@ -245,7 +245,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] The US Securities and Exchange Commission says: “The appearance of a security on a threshold list does not necessarily mean that there has been abusive ‘naked’ short selling or any impermissible trading in the stock. Delivery failures can be caused by both long and short sales.”
 
 
-  [5] Maybe not “Jane Street vs. Millennium” per se, but who knows. “Big market-making firm finds easy picking in Indian options markets” does sound a *little* like “young men love gambling.” “Retail investors make up about 35% of option trades in India,” 
+  [5] Maybe not “Jane Street vs. Millennium” per se, but who knows. “Big market-making firm finds easy picking in Indian options markets” does sound a *little* like “young men love gambling.” “Retail investors make up about 35% of option trades in India,”
 notes Bloomberg, in a story about that Jane Street trade, “with the market regulator estimating that 90% of active retail traders lose money on derivatives.”
 
 
@@ -255,48 +255,48 @@ notes Bloomberg, in a story about that Jane Street trade, “with the market reg
   [7] The numbers here are drawn loosely from this Patrick McKenzie post on the “Anatomy of a credit card rewards program,” and are not meant to be particularly exact.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -307,46 +307,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckws2j.5oqv/6c8c9bf6.gif" alt="" border="0" /></a>

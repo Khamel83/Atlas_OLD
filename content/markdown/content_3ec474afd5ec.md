@@ -15,39 +15,39 @@
             <title>YouTube’s top creators are burning out and breaking down en masse</title>
                 <meta name="description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
               <meta name="robots" content="max-image-preview:large"/>
-              
-            
+
+
   <meta property="og:title" content="YouTube’s top creators are burning out and breaking down en masse"/>
   <meta property="og:type" content="article"/>
 
 <meta property="og:image" content="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&amp;h=900&amp;fit=crop"/>
     <meta property="og:image:width" content="1600"/>
     <meta property="og:image:height" content="900"/>
-      
+
                     <meta property="og:url" content="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"/>
-            
+
   <meta property="og:locale" content="en_US"/>
   <meta property="og:description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
       <meta property="og:site_name" content="Polygon"/>
-  
+
             <meta property="article:published_time" content="2018-06-06T21:30:55Z"/>
               <meta property="article:modified_time" content="2018-06-06T21:30:55Z"/>
                     <meta property="article:section" content="YouTube"/>
               <meta property="article:author" content="Julia Alexander"/>
 
 <meta property="article:publisher" content="https://www.facebook.com/polygon"/>
-  
+
           <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@xcompolygon"/>
     <meta name="twitter:title" content="YouTube’s top creators are burning out and breaking down en masse"/>
     <meta name="twitter:description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
-            
+
           <meta name="twitter:image" content="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=70&fit=crop&w=1200&h=628&dpr=1"/>
                   <meta property="fb:app_id" content="1959515827451960"/>
 
 <link rel="preload" href="https://images.valnetcdn.com/sharedimages/img-lcp.svg" as="image" fetchpriority="low">
-    
-    
+
+
             <script>window.isInAppBrowser =  false  </script>
 
 <link rel="preconnect" href="https://www.google-analytics.com">
@@ -109,8 +109,8 @@
                                                                 , "sameAs":[
                                                                                     "https://www.polygon.com/profile/UD449395"
                                                                             ]
-                                    }                        
-            
+                                    }
+
         ],
         "publisher": {
             "@type": "Organization",
@@ -127,7 +127,7 @@
                         "https://www.instagram.com/polygondotcom/",
                         "https://x.com/polygon"
                     ],
-            
+
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://static0.polygonimages.com/assets/images/poly-amp-logo.png",
@@ -137,11 +137,11 @@
         },
 
 "articleSection":["YouTube","Feature"],
-        
+
                 "description": "\u2018This is all I\u2019ve ever wanted. Why am I so unhappy?\u2019"
                 ,"isAccessibleForFree": true,
         "hasPart":[{"@type":"WebPageElement","isAccessibleForFree":true,"cssSelector":".article-body"}]
-        
+
     }
 </script>
 
@@ -154,10 +154,10 @@
                   href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;h=530&amp;dpr=1.5" fetchpriority="high"  as="image"><link rel="preload"
                   media="(min-width: 1024px)"
                   href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1100&amp;h=618&amp;dpr=1.5" fetchpriority="high"  as="image">
-                        
-    
-        
-            
+
+
+
+
                 <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
     <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/roboto/roboto-regular.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
     <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/roboto/roboto-bold.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
@@ -224,14 +224,14 @@
 <script>window.isInternalTraffic = false</script>
 
 <script>window.STICKY_FEATURED_VIDEO = 1</script>
-    
+
     <script>
         // GLOBAL JS VARIABLES FOR THE PAGE
-        
+
                                 var VALNET_GLOBAL_FBAPPID = "1959515827451960";
-        
+
         // GLOBAL JS VARIABLES FOR GOOGLE ANALYTICS
-        
+
             var VALNET_GLOBAL_POSTID = "200913";
             var VALNET_GLOBAL_AUTHOR = "julia-alexander";
             var VALNET_GLOBAL_CHANNEL = "YouTube";
@@ -311,7 +311,7 @@
 
 <script>
                 window.vnPromoAsyncFlags = `eyJtdXJhbCI6IlwvcHJvbW9cL25leHRcL211cmFsXC8iLCJtdXJhbENvbmZpZyI6ImV5SmpkWEp5Wlc1MFJHOXRZV2x1SWpvaWQzZDNMbkJ2YkhsbmIyNHVZMjl0SWl3aVkyOXVkbVZ5ZEdWa0lqcDdJbU5oZEdWbmIzSjVJam9pVUhKdmJXOTBhVzl1SWl3aWJtRnRaU0k2SWtGa0lFSnNiMk5yWlhJZ1RXVnpjMkZuWlNJc0luWmhiSFZsSWpvaVEyOXVkbVZ5ZEdWa0lGQmhaMlYyYVdWM0luMHNJbU52Ym5abGNuUmxaRlZ6WlhJaU9uc2lZMkYwWldkdmNua2lPaUpRY205dGIzUnBiMjRpTENKdVlXMWxJam9pUVdRZ1FteHZZMnRsY2lCTlpYTnpZV2RsSWl3aWRtRnNkV1VpT2lKRGIyNTJaWEowWldRZ1ZYTmxjaUo5ZlE9PSJ9`;
-            </script>        
+            </script>
                     <script>
                             window.newsletterPreferencesPopupScriptLocation = "https://static0.polygonimages.com/assets/newsletter-preferences-popup.47096cb4.js";
                 window.valnetLoginScriptLocation = "https://static0.polygonimages.com/assets/valnet-login.51760d4c.js";
@@ -319,17 +319,17 @@
                                                                 window.articleScriptLocation = "https://static0.polygonimages.com/assets/valnet-footer-article.fe1088f0.js";
                                         window.articleCommentsScriptLocation = "https://static0.polygonimages.com/assets/article-comments.de734a9e.js";
                                                                 window.footerScriptLocation = "https://static0.polygonimages.com/assets/valnet-footer.45fb19e6.js";
-                                                            
+
             window.workerScriptLocation = "https://static0.polygonimages.com/assets/worker.2c893479.js";
 
 </script>
             <script src="https://static0.polygonimages.com/assets/worker-caller.6e53e777.js" defer fetchpriority="high"></script>
-            
+
         <script src="https://static0.polygonimages.com/assets/splide.min.js" async></script>
-        
+
     <script>
                     var isPreview =  false
-                
+
         window.articlePermalink = "/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/";
         window.articleId = "200913";
         window.articleIdEmaki = "68002";
@@ -341,8 +341,8 @@
                                     </script>
 
 <!-- Google Analytics v4 -->
-        
-        
+
+
                             <script defer src="https://www.googletagmanager.com/gtag/js?id=G-3RRF1V8L1B"></script>
         <script>
             function getCookiesStartingWith(cname) {
@@ -382,18 +382,18 @@ gtag('config', 'G-3RRF1V8L1B', ga4ParamsObject);
 
 <!-- sentinel header -->
         <script>
-                                                
-            
-            
-                        
-            
+
+
+
+
+
             let mode_A = null;
 
 sessionStorage.setItem('sn_ssTr', 0);
 
 </script>
-        
-        
+
+
         <script>
             window.sentinelData = window.sentinelData || [];
             function sentinelTrack(){sentinelData.push(arguments)};
@@ -442,11 +442,11 @@ sentinelSetup = {
         window.arrayOfEmbedStyles = [];
         window.arrayOfGalleries = {};
     </script>
-    
+
     <script> window.youtubeEmbedCodes = [] </script>
 
 <link rel="stylesheet" href="https://static0.polygonimages.com/assets/article-regular.61f31dab.css">
-                                                                                 
+
     <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -455,7 +455,7 @@ sentinelSetup = {
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 </script>
 <!-- End Google Analytics -->
-            
+
             <script type="text/javascript">
         /*!
             Waypoints - 4.0.1
@@ -559,7 +559,7 @@ document.head.appendChild(newScript);
 </script>
 
 <script>  window.paypalClientID = "AWrMHcGU0RN46X5fMGOAQarESxoqlS_swAzbtrutEpvYF-U_EBIDuokZxgk7jk6ei2rPYpUG2VKCNIkY"; </script>
-    
+
         <!-- No AdsNinja v10 Client! -->
 
 <div id="body-anchor"></div>
@@ -577,7 +577,7 @@ document.head.appendChild(newScript);
                 <a href="/" rel="home" class="header-logo">
                     <!-- Full Logo Picture Element -->
                     <picture class="header-full-logo">
-                        
+
                             <source srcset="https://static0.polygonimages.com/assets/images/poly-logo-full-colored-light.svg?v=3.0" media="(prefers-color-scheme: dark)">
                             <img src="https://static0.polygonimages.com/assets/images/poly-logo-full-colored-light.svg?v=3.0"
                                 alt="Polygon logo"
@@ -599,9 +599,9 @@ document.head.appendChild(newScript);
                             <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
                             <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
                         </div>
-                                    
-                
-                                                                                                        
+
+
+
             </div>
 
 <div class="polly">
@@ -658,17 +658,17 @@ document.head.appendChild(newScript);
 <form method="get" class="search-form js-searchBox icon i-search" action="/search/?q=">
                 <input type="text" name="q" class="input-text search-input" autocomplete="off" placeholder="Search Polygon" autofocus="">
             </form>
-        
+
         <label class="menu-icon topbar-icon icon i-close-menu css-menu--toggle" for="side_menu"><span>Close</span></label>
     </div>
 
 <nav id="menu-site" class="side-navigation-menu" role="navigation">
 
 <ul class="side-navigation-list" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        
+
                                         <li class="sidenav-section">
                     <ul class="side-navigation-list">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link emphasized"
                     href="/what-to-play/"
@@ -690,7 +690,7 @@ document.head.appendChild(newScript);
                 </li>
                                                             <li class="sidenav-section">
                     <ul class="side-navigation-list">
-                            
+
                                         <li itemprop="name"
                     class="w-sidenav-subnav sidenav-elements standard">
                                                                 <input type="checkbox" id="navItems-Guides" name="navItems-Guides" class="css-menu--checkbox">
@@ -700,7 +700,7 @@ document.head.appendChild(newScript);
                         </label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/guides/"
@@ -745,7 +745,7 @@ document.head.appendChild(newScript);
                         </label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/gaming/"
@@ -774,7 +774,7 @@ document.head.appendChild(newScript);
                         </label>
 
 <ul class="sidenav-subnav css-menu--target">
-                            
+
                         <li class="sidenav-elements" itemprop="name">
                 <a class="sidenav-link js-sidebar-menu-nav-link standard"
                     href="/entertainment/"
@@ -837,13 +837,13 @@ document.head.appendChild(newScript);
                         <span class="menu-icon feature-icon icon i-user"></span>
                         <a href="#" id="login-button-sidemenu" class="sidenav-link standard js-subscription-link on-load-show"><span>Sign in</span></a>
                     </li>
-                            
+
                             <li class="sidenav-elements">
                     <span class="menu-icon feature-icon icon i-menu-newsletter"></span>
                     <a href="/page/newsletter/" itemprop="url" class="sidenav-link standard"><span>Newsletter</span></a>
                 </li>
-            
-                                                                                
+
+
         </ul>
 
 <div class="w-side-navigation-social">
@@ -913,9 +913,9 @@ document.head.appendChild(newScript);
         <div data-is-action-bar-dynamic-section="true" class="w-dynamic-action">
 
 <div>
-                                                                                                                            
-                                                                                
-        
+
+
+
             <div
             data-id="200913"
             data-title="YouTube’s top creators are burning out and breaking down en masse"
@@ -967,9 +967,9 @@ document.head.appendChild(newScript);
     data-like-count="0"
 
 data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Action%20Bar%22%2C%22action%22%3A%22Like%20Article%22%7D"
-    
+
             data-id="200913"
-    
+
             data-value="0"
         data-is-like-article-button="true" >
 
@@ -978,10 +978,10 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                             Like
                                 </div>
     </button>
-            
-                            
-                                                                    
-                            
+
+
+
+
             <div data-is-action-bar-more-action="true" class="w-more-action is-hidden">
                 <div title="More Action" data-is-action-bar-more-action-button="true" class="btn-fab action-btn circle small no-label">
                     <div class="main-icon icon i-options" style="padding-top: 2px"></div>
@@ -1005,7 +1005,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                     <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
                     <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
                 </div>
-                    
+
     </div>
 </div>
      </div>
@@ -1042,7 +1042,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
 <article class="w-article widget   article  layout-light-wide">
 
 <header
-                        
+
             class="article-header poly  ">
 
 <p>‘This is all I’ve ever wanted. Why am I so unhappy?’</p>
@@ -1081,24 +1081,24 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                                             <img src="https://static0.polygonimages.com/wordpress%2Fwp-content%2Fuploads%2Fchorus%2Fauthor_profile_images%2F196357%2Fjulia.0.jpg?fit=crop&amp;w=90&amp;h=90" alt="4" style="display:block;height:auto;max-width:100%;" loading="lazy" decoding="async"/>
                                     </div>
                     </div>
-    
+
     <div class="article-meta">
                     <div class="w-author">
                 <div class="w-author-name">
-                    
+
                                                     <span class="meta_txt">By&nbsp;</span>
-                        
+
                                                     <a data-author-nice-name="julia-alexander" class="meta_txt article-author" href="/author/julia-alexander/">Julia Alexander</a>
-                        
+
                                     </div>
             </div>
-        
+
                                                                             <div class="meta_txt article-date">
                     <time datetime="2018-06-06T21:30:00Z"><span class="is-mobile-hidden">Published</span> Jun 6, 2018</time>
                 </div>
-                    
-                
-        
+
+
+
     </div>
 
 </div>
@@ -1148,7 +1148,7 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
                                 </span>
             </div>
         </div>
-                    
+
 <!-- div class="option-btn btn-share" id="sharingButtonPopup">
     <span class="icon i-share"></span>
     <span class="text">Share</span>
@@ -1202,9 +1202,9 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Acti
         data-like-count="0"
 
 data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Article%20Featured%20Section%22%2C%22action%22%3A%22Like%20Article%22%7D"
-        
+
                     data-id="200913"
-        
+
                     data-value="0"
                 data-is-like-article-button="true" >
 
@@ -1230,51 +1230,51 @@ data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Arti
 
 <figure>
     <picture>
-                                                                                                                                                                            
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=480&amp;dpr=1.5"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=480&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=767&amp;dpr=1.5"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=767&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;dpr=1.5"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                                            
+
+
+
+
+
                                                     <source
                     media="(min-width: 1024px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1140&amp;dpr=1.5"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1140&amp;dpr=1.5"
                                     />
-                                                                                                                                                                                        
-            
-                                                
-                        
-                                                
+
+
+
+
+
                                                                                 <img
                                                                                                                                                                     width="1600"
                         height="900"
@@ -1303,67 +1303,67 @@ style="background-image: url('https://static0.polygonimages.com/wordpress/wp-con
     <div class="emaki-custom dropcap" id="custom_block_0" >
 
 <div class="custom_block-content dropcap"><p>Three weeks ago, Bobby Burns, a <a href="https://www.washingtonpost.com/news/the-intersect/wp/2018/02/24/lets-ignore-youtubes-worst-creators-for-a-moment-and-watch-these-8-channels-we-actually-love/?noredirect=on" target="_blank">YouTuber with just under one million subscribers</a>, sat down on a rock in Central Park to talk about a recent mental health episode. One week ago, Elle Mills, <a href="https://www.polygon.com/2018/5/7/17319966/youtube-creators-demonetization-advertising-philip-defranco-logan-paul-pewdiepie-casey-neistat" target="_blank">a creator with more than 1.2 million subscribers</a>, uploaded a video that included vulnerable footage during a breakdown. Six days ago, Rubén <a href="https://www.polygon.com/2018/3/26/17163966/fortnite-elrubiusomg-youtube-livestream-twitch-ninja-drake" target="_blank">“El Rubius”</a> Gundersen, the third most popular YouTuber in the world with just under 30 million subscribers, turned on his camera to talk to his viewers about the fear of an impending breakdown and his decision to take a break from YouTube.</p></div>
-    
-        
+
+
     </div>
 </section><!-- No AdsNinja v10 Client! --><p>Burns, Mills and Gundersen aren’t alone. Erik “M3RKMUS1C” Phillips (four million subscribers), Benjamin “Crainer” Vestergaard (2.7 million subscribers) and other top YouTubers have either announced brief hiatuses from the platform, or discussed their own struggles with burnout, in the past month. Everyone from <a href="https://www.polygon.com/2017/10/16/16482348/pewdiepie-smosh-games-youtube" target="_blank">PewDiePie</a> (62 million subscribers) to <a href="https://www.polygon.com/2018/5/8/17331622/jake-paul-team-10-chance-sutton-logan-greg-paul-youtube" target="_blank">Jake Paul</a> (15.2 million subscribers) have dealt with burnout. Lately, however, it seems like more of YouTube’s top creators are coming forward with their mental health problems.</p>    <!-- No AdsNinja v10 Client! --><p>Constant changes to the platform’s algorithm, unhealthy obsessions with remaining relevant in a rapidly growing field and social media pressures are making it almost impossible for top creators to continue creating at the pace both the platform and audience want — and that can have a detrimental effect on the very ecosystem they belong to.</p>    <!-- No AdsNinja v10 Client! --><h2 id="B8LfYK">
                         “Why the fuck am I so unfucking unhappy?”
                </h2>
     <script>
                     window.arrayOfEmbeds["WKKwgq9LRgA"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/WKKwgq9LRgA\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
-            
+
                             window.arrayOfEmbedScripts["youtube"] = "null";
                         </script>
-    
+
     <div class="w-rich w-youtube" id="WKKwgq9LRgA" >
             </div>
 <p>“My life just changed so fast,” Elle Mills said in a video from May 18. “My anxiety and depression keeps getting worse and worse. I’m literally just waiting for me to hit my breaking point.”</p>    <p>Part of her seven-minute confession includes a glimpse of her breakdown, wherein she’s trying to figure out what’s going on in her mind. Mills says:</p>    <blockquote>
-                        <p>This is all I ever wanted. And why the fuck am I so unfucking unhappy? It - It doesn’t make any sense. You know what I mean? Because, like, this is literally my fucking dream. And I’m fucking so unfucking happy. It doesn’t make any fucking sense. It’s so stupid. It is so stupid.</p>    
-            </blockquote><p>Soon after, Mills announced on Twitter that she was taking a break from YouTube and social media. She couldn’t keep up with the pressure, and told her fans that while she was safe, and in good hands, she needed time to recuperate and remember why she loved making videos in the first place.</p>    <p>Sam Sheffer, a popular YouTuber who burst into the spotlight after appearing in <a href="https://www.polygon.com/2018/4/5/17202046/casey-neistat-youtube-factory-vlog-368" target="_blank">multiple Casey Neistat videos</a>, recently took a break from Twitter for similar reasons. In his own video, Neistat addressed Mills’s questions about why she was so unhappy when everything she ever wanted was finally coming together.</p>    
+                        <p>This is all I ever wanted. And why the fuck am I so unfucking unhappy? It - It doesn’t make any sense. You know what I mean? Because, like, this is literally my fucking dream. And I’m fucking so unfucking happy. It doesn’t make any fucking sense. It’s so stupid. It is so stupid.</p>
+            </blockquote><p>Soon after, Mills announced on Twitter that she was taking a break from YouTube and social media. She couldn’t keep up with the pressure, and told her fans that while she was safe, and in good hands, she needed time to recuperate and remember why she loved making videos in the first place.</p>    <p>Sam Sheffer, a popular YouTuber who burst into the spotlight after appearing in <a href="https://www.polygon.com/2018/4/5/17202046/casey-neistat-youtube-factory-vlog-368" target="_blank">multiple Casey Neistat videos</a>, recently took a break from Twitter for similar reasons. In his own video, Neistat addressed Mills’s questions about why she was so unhappy when everything she ever wanted was finally coming together.</p>
     <script>
                     window.arrayOfEmbeds["G38ixvYVNyM"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/G38ixvYVNyM\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
-            
+
                             window.arrayOfEmbedScripts["youtube"] = "null";
                         </script>
-    
+
     <div class="w-rich w-youtube" id="G38ixvYVNyM" >
             </div>
 <p>“I’ve often talked about the pressures of being a YouTuber and it’s a tricky thing to talk about because to find success on YouTube is to live the dream,” Neistat said. “Like, this is the ultimate. And if you achieve this kind of success on this platform, which so many people try to do, like, how dare you complain about it? It is difficult to talk about because unless you’ve been in this position, I think it’s challenging to empathize with it.”</p>    <div class=ad-odd><!-- No AdsNinja v10 Client! --></div><h2 id="831heZ">
                         The pull of the YouTube “schedule”
                </h2><p>The backlash to YouTubers and Twitch streamers who publicly take time away from the spotlight shows its face in almost any comments section about mental health and creators. Their fans are mostly supportive, telling their favorite creators to take time and work on their mental health, but most people who don’t keep up with the day-to-day uploads or aren’t as tuned in to YouTube culture have trouble sympathizing. Here are just a few comments lifted from a recent Polygon article <a href="https://www.polygon.com/2018/1/18/16899532/youtube-twitch-burnout-h3h3-pewdiepie-lirik" target="_blank">about YouTubers and mental health:</a></p>    <blockquote>
-                        <p>“It’s as if their fun hobby that they turned into a career came with all the trappings of having a career.”</p>    
-                    <p>“Of course every job is challenging but bruh, you’re at home, no kids, in front of some camera with this fake cheery persona. Your serious challenges involve a steady schedule and demonstrating your internet personality for the dollars? Please. Thats the line of work you chose. No different than a private dancer. Find another job if its such a problem.”</p>    
-                    <p>“So they’re saying their get-rich-quick scheme isn’t as easy as they initially thought it would be?”</p>    
-                    <p>“Yeah, hard to really sympathize. Boo hoo, I work harder than you think! Umm, is someone holding a gun to your head? No, so if it’s too hard find something else to do. Good grief.</p>    
-                    <p>Fact of the matter is, if they didn’t enjoy it or like the money they were making, they’d be doing something else. They act like they’re in prison doing forced manual labor.”</p>    
-                    <p>“Gee I never get burned out at my job ever. That doesn’t happen to me or billions of other people every day.”</p>    
-            </blockquote><p>There’s a pressure for YouTubers to remain in the spotlight. This is something that PewDiePie, who uploads at least once a day, has said the rigorous pace of YouTube video creation led him to his own obsessions with the platform. Those obsessions turn into eventual dismay over producing and not enjoying the one thing that made him successful.</p>    <p>“I think I have a pretty high tolerance of stress but it just got worse when I came here,” he said in a November 2016 video. “I’m really sorry ... it really sucks for me. I’ve always put YouTube first, always. Even if I’m working on other projects, it doesn’t matter. You guys come first, that’s my main thing. But I can’t do that while I’m here ... keeping the vlogs up is just impossible at this point.”</p>    
+                        <p>“It’s as if their fun hobby that they turned into a career came with all the trappings of having a career.”</p>
+                    <p>“Of course every job is challenging but bruh, you’re at home, no kids, in front of some camera with this fake cheery persona. Your serious challenges involve a steady schedule and demonstrating your internet personality for the dollars? Please. Thats the line of work you chose. No different than a private dancer. Find another job if its such a problem.”</p>
+                    <p>“So they’re saying their get-rich-quick scheme isn’t as easy as they initially thought it would be?”</p>
+                    <p>“Yeah, hard to really sympathize. Boo hoo, I work harder than you think! Umm, is someone holding a gun to your head? No, so if it’s too hard find something else to do. Good grief.</p>
+                    <p>Fact of the matter is, if they didn’t enjoy it or like the money they were making, they’d be doing something else. They act like they’re in prison doing forced manual labor.”</p>
+                    <p>“Gee I never get burned out at my job ever. That doesn’t happen to me or billions of other people every day.”</p>
+            </blockquote><p>There’s a pressure for YouTubers to remain in the spotlight. This is something that PewDiePie, who uploads at least once a day, has said the rigorous pace of YouTube video creation led him to his own obsessions with the platform. Those obsessions turn into eventual dismay over producing and not enjoying the one thing that made him successful.</p>    <p>“I think I have a pretty high tolerance of stress but it just got worse when I came here,” he said in a November 2016 video. “I’m really sorry ... it really sucks for me. I’ve always put YouTube first, always. Even if I’m working on other projects, it doesn’t matter. You guys come first, that’s my main thing. But I can’t do that while I’m here ... keeping the vlogs up is just impossible at this point.”</p>
     <script>
                     window.arrayOfEmbeds["vnr0kCmkMO0"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/vnr0kCmkMO0\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
-            
+
                             window.arrayOfEmbedScripts["youtube"] = "null";
                         </script>
-    
+
     <div class="w-rich w-youtube" id="vnr0kCmkMO0" >
             </div>
-<p>Katrina Gay, national director for strategic partnerships at the National Alliance on Mental Illness, <a href="https://www.polygon.com/2018/1/18/16899532/youtube-twitch-burnout-h3h3-pewdiepie-lirik" target="_blank">told Polygon in January</a> that burnout in highly competitive, creative and front-facing fields like YouTube is common. There are ways to try and avoid it, Gay said, including setting proper hours and finding a way to leave work at work. But when the careers of so many video personalities involve exposing their personal lives, striking a work/life balance is next to impossible.</p>    <p>“No one tells you how many hours you should be working,” Gay said in our interview. “You have to discover that for yourself. Maybe it’s after the fact, when you’ve realized, ‘I’ve overdone it and I’m not as healthy as I should be.’ You have to pause. The process of learning how to do that and when to do it is tough, but necessary. When people are learning to do that right in front of you, like YouTube, it’s modeling healthy behavior for an entire community.”</p>    <p>That’s the position that Rubén “El Rubius” Gundersen found himself this week. Gundersen said he could feel the pressure building for years, but never really took time off to address it. Recently, however, his panic attacks have become more frequent. Gundersen went to visit a doctor and, after learning how to cope with his ongoing mental health issues made worse by burnout, knew he needed to stop.</p>    <p>“I think what I need is to leave for some time, to disconnect a little bit from all of this,” Gundersen said in his May 24 video. “I’ve been doing this for seven years without stopping, without being able to see how I am living from the outside. I always have in my mind what’s going to be next; the next trips, the next project, and it sounds like first world problems I know, but when you get everything together and you want it to be 100 percent, and give 100 percent, some times you can’t.”</p>    
+<p>Katrina Gay, national director for strategic partnerships at the National Alliance on Mental Illness, <a href="https://www.polygon.com/2018/1/18/16899532/youtube-twitch-burnout-h3h3-pewdiepie-lirik" target="_blank">told Polygon in January</a> that burnout in highly competitive, creative and front-facing fields like YouTube is common. There are ways to try and avoid it, Gay said, including setting proper hours and finding a way to leave work at work. But when the careers of so many video personalities involve exposing their personal lives, striking a work/life balance is next to impossible.</p>    <p>“No one tells you how many hours you should be working,” Gay said in our interview. “You have to discover that for yourself. Maybe it’s after the fact, when you’ve realized, ‘I’ve overdone it and I’m not as healthy as I should be.’ You have to pause. The process of learning how to do that and when to do it is tough, but necessary. When people are learning to do that right in front of you, like YouTube, it’s modeling healthy behavior for an entire community.”</p>    <p>That’s the position that Rubén “El Rubius” Gundersen found himself this week. Gundersen said he could feel the pressure building for years, but never really took time off to address it. Recently, however, his panic attacks have become more frequent. Gundersen went to visit a doctor and, after learning how to cope with his ongoing mental health issues made worse by burnout, knew he needed to stop.</p>    <p>“I think what I need is to leave for some time, to disconnect a little bit from all of this,” Gundersen said in his May 24 video. “I’ve been doing this for seven years without stopping, without being able to see how I am living from the outside. I always have in my mind what’s going to be next; the next trips, the next project, and it sounds like first world problems I know, but when you get everything together and you want it to be 100 percent, and give 100 percent, some times you can’t.”</p>
     <script>
                     window.arrayOfEmbeds["G38ixvYVNyM"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/G38ixvYVNyM\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
-            
+
                             window.arrayOfEmbedScripts["youtube"] = "null";
                         </script>
-    
+
     <div class="w-rich w-youtube" id="G38ixvYVNyM" >
             </div>
 <p>The fallout from YouTube due to mental health concerns is a scary trend. Especially when YouTubers and streamers, like <a href="https://www.polygon.com/2018/3/5/17078646/ninja-fortnite-twitch-stream-subscribers" target="_blank">Tyler “Ninja” Blevins</a> talk <a href="https://www.polygon.com/2018/4/24/17274636/ninja-fortnite-twitch-h3h3-podcast" target="_blank">about the schedule they voluntarily keep.</a></p>    <p>“The schedule is: 9:30 is when I start in the morning and then I play until four, so that’s like six, six-and-a-half hours,” Blevins told Ethan and Hila Klein on the H3H3 Podcast. “Then I’ll take a nice three- to four-hour break with the wife, the dogs or family — we have like family nights, too — and then come back on around seven o’clock central until like two, three in the morning. The minimum is 12 hours a day, and then I’ll sleep for less than six or seven hours.”</p>    <div class=ad-even><!-- No AdsNinja v10 Client! --></div><h2 id="FX5urt">
                         What YouTube is doing about burnout
-               </h2><p>YouTubers make almost all of their money from AdSense on YouTube, and projects or merchandise related to YouTube. This creates a pressure to upload a video every single day; to see consistent reach and maintain their positions as top creators among a sea of growing competition, creators have to effectively game the system.</p>    <p>This is where the <a href="https://www.tubefilter.com/2016/06/23/reverse-engineering-youtube-algorithm/" target="_blank">algorithm grade</a> comes in. The algorithm grade is the best working theory YouTubers work under when it comes to ensuring their videos are seen by as many people as possible. There are a bunch of little tricks that make up the algorithm grade (videos should be <a href="https://www.tubefilter.com/2016/05/12/youtube-watch-time-metric-algorithm-statistics/" target="_blank">longer than 10 minutes</a>, for example), but one of the most important details is frequency. It is strongly believed that YouTube accounts with more than 10,000 subscribers should post daily because <a href="http://techtipswithtea.com/youtube-tips/youtube-changes-algorithm-2017-what-it-means-for-you/" target="_blank">YouTube’s algorithm favors frequency and engagement.</a></p>    <p>So people upload, and upload, and upload, and upload, building a bigger fanbase and working non stop. And then the consequences of that hustle hit them like a ton of bricks.</p>    <p><br></p>    <p><span class="related-single">Related: <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">YouTubers look to new platforms after viewer suppression, demonetization issues</a></span><br></p>    <p>“Relevancy” is the word that keeps almost every YouTuber on the tip of their toes, but it’s not the only source of strain. There are also <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">growing demonetization concerns</a> running rampant throughout the community. Posting infrequently means a creator’s videos won’t be recommended. Videos that aren’t recommended aren’t as heavily watched. The last problem a creator wants to worry about is their videos not appearing or being shared because of frequency issues when already trying to skirt around YouTube’s growing advertising restrictions.</p>    <p>“It’s really frustrating to be a creator on YouTube because we don’t really know what’s going on,” PewDiePie said in a video about demonetization and views suppression. “I think YouTube is so scared of telling people what’s going on for media outrage and for people abusing the system, so they don’t generally keep us in the loop.”</p>    <p>Not knowing how YouTube’s monetization system works, while also battling fears of videos being suppressed and less frequent uploads hindering their careers, are major anxieties. And like most anxieties that go untreated, they build up to a breaking point.</p>    
+               </h2><p>YouTubers make almost all of their money from AdSense on YouTube, and projects or merchandise related to YouTube. This creates a pressure to upload a video every single day; to see consistent reach and maintain their positions as top creators among a sea of growing competition, creators have to effectively game the system.</p>    <p>This is where the <a href="https://www.tubefilter.com/2016/06/23/reverse-engineering-youtube-algorithm/" target="_blank">algorithm grade</a> comes in. The algorithm grade is the best working theory YouTubers work under when it comes to ensuring their videos are seen by as many people as possible. There are a bunch of little tricks that make up the algorithm grade (videos should be <a href="https://www.tubefilter.com/2016/05/12/youtube-watch-time-metric-algorithm-statistics/" target="_blank">longer than 10 minutes</a>, for example), but one of the most important details is frequency. It is strongly believed that YouTube accounts with more than 10,000 subscribers should post daily because <a href="http://techtipswithtea.com/youtube-tips/youtube-changes-algorithm-2017-what-it-means-for-you/" target="_blank">YouTube’s algorithm favors frequency and engagement.</a></p>    <p>So people upload, and upload, and upload, and upload, building a bigger fanbase and working non stop. And then the consequences of that hustle hit them like a ton of bricks.</p>    <p><br></p>    <p><span class="related-single">Related: <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">YouTubers look to new platforms after viewer suppression, demonetization issues</a></span><br></p>    <p>“Relevancy” is the word that keeps almost every YouTuber on the tip of their toes, but it’s not the only source of strain. There are also <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">growing demonetization concerns</a> running rampant throughout the community. Posting infrequently means a creator’s videos won’t be recommended. Videos that aren’t recommended aren’t as heavily watched. The last problem a creator wants to worry about is their videos not appearing or being shared because of frequency issues when already trying to skirt around YouTube’s growing advertising restrictions.</p>    <p>“It’s really frustrating to be a creator on YouTube because we don’t really know what’s going on,” PewDiePie said in a video about demonetization and views suppression. “I think YouTube is so scared of telling people what’s going on for media outrage and for people abusing the system, so they don’t generally keep us in the loop.”</p>    <p>Not knowing how YouTube’s monetization system works, while also battling fears of videos being suppressed and less frequent uploads hindering their careers, are major anxieties. And like most anxieties that go untreated, they build up to a breaking point.</p>
     <script>
                     window.arrayOfEmbeds["vnr0kCmkMO0"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/vnr0kCmkMO0\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
-            
+
                             window.arrayOfEmbedScripts["youtube"] = "null";
                         </script>
-    
+
     <div class="w-rich w-youtube" id="vnr0kCmkMO0" >
             </div>
 <p>The issue is that unlike many of us who have bosses or coworkers who tell us to take time off, no one is telling YouTubers to chill out. It’s the opposite. People constantly ask for more, and there’s only so much that one person can offer.</p>    <p>YouTube offers no clear support system for creators, nor is it clear if the company has offered professional help to some of its top creators who’ve made their burnout public. Instead, YouTube’s only direct reaction is a playlist dedicated to burnout and mental health. The creators are essentially working until they no longer physically can, and apologizing to their fans after believing they’ve failed. Polygon has reached out to YouTube for more information about services that are provided to creators.</p>    <p>The only way to beat burnout is to take breaks. Unfortunately, for many YouTubers, those breaks are rarely planned.</p>    <script>
@@ -1371,7 +1371,7 @@ style="background-image: url('https://static0.polygonimages.com/wordpress/wp-con
 </script>
 <div class="w-rich w-megaphone" id="https://player.megaphone.fm/VMP6974494685">
     </div></div><div id="article-waypoint"></div></section>
-    
+
                 <div class="article-options">
 
 <!-- No AdsNinja v10 Client! -->
@@ -1391,11 +1391,11 @@ style="background-image: url('https://static0.polygonimages.com/wordpress/wp-con
                 </li>
                         </ul>
 </div>
-            
+
                 <div id="threads" class="w-sharing-bottom">
-                                                                                                                    
-                                
-            
+
+
+
                         <div class="w-follow-btn">
             <div
                 data-id="200913"
@@ -1448,7 +1448,7 @@ style="background-image: url('https://static0.polygonimages.com/wordpress/wp-con
         data-like-count="0"
 
 data-id="200913"
-        
+
                     data-value="0"
                 data-is-like-article-button="true" >
 
@@ -1461,61 +1461,61 @@ data-id="200913"
 
 <!-- Share module with individual buttons -->
 <div class="sharing-bottom" style="display: none; visibility: hidden">
-                
-                                    
+
+
                                                     <a class="sharing-btn btn-facebook" target="_blank"
                             href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F%2F&amp;src=sdkpreparse">
                                 <span class="icon i-facebook"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-x" target="_blank"
                             href="https://twitter.com/intent/tweet?text=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
                                 <span class="icon i-x"></span>
                             </a>
-                        
-                                                                                    
-                                    
+
+
+
                                                     <a class="sharing-btn btn-linkedin" target="_blank"
                             href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&source=www.polygon.com&summary=%E2%80%98This%20is%20all%20I%E2%80%99ve%20ever%20wanted.%20Why%20am%20I%20so%20unhappy%3F%E2%80%99">
                                 <span class="icon i-linkedin"></span>
                             </a>
-                        
-                                                                                    
+
+
                             <div id="js-social-sharing-bottom" class="w-wrap-dropdown">
                     <a class="sharing-btn btn-show-more" target="_blank" style="cursor: pointer">
                         <span class="icon i-plus"></span>
                     </a>
                     <div id="js-wrap-dropdown-remaining-socials" class="wrap-dropdown">
-                                                
+
                                                     <a class="sharing-btn btn-reddit" target="_blank"
                             href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
                                 <span class="icon i-reddit"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-flipboard" target="_blank"
                             href="http://share.flipboard.com/bookmarklet/popout?v=2&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&utm_campaign=tools&utm_medium=article-share&utm_source=www.polygon.com">
                                 <span class="icon i-flipboard"></span>
                             </a>
-                        
-                                                                
-                                    
+
+
+
                                                     <div class="copy-link-button">
                                 <a class="sharing-btn btn-copy-url" href="javascript:;" data-url="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/">
                                     <span class="icon i-copy-url" data-url="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"></span>
                                 </a>
                             </div>
-                        
-                                                                
-                                    
+
+
+
                                                     <a class="sharing-btn btn-mail"
                             href="mailto:?Subject=YouTube’s top creators are burning out and breaking down en masse&Body=Check%20this%20out%21%0Ahttps%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
                                 <span class="icon i-mail-1"></span>
                             </a>
-                        
+
                                                                             </div>
     </div>
     </div>
@@ -1573,7 +1573,7 @@ data-id="200913"
 </style>
 
 </div>
-        
+
         <div id="single-image-modal" class="gallery-lightbox" style="display: none">
             <button class="lightbox__exit-btn icon i-close"><span class="txt">Close</span></button>
             <div class="lightbox">
@@ -1595,7 +1595,7 @@ data-id="200913"
         window.allowNewComments  = true
         window.sortOrder = 'ASC';
                     window.sortOrder = 'RECOMMENDED';
-        
+
             </script>
 
 <div class="footer-recommended-section">
@@ -1603,31 +1603,31 @@ data-id="200913"
 <div class='footer-recommended-feed'>
     <div class="footer-section-title icon i-fire">Recommended</div>
     <div class="w-hub-widgets widget__horizontal-list-full">
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="711351">
-    <a class="dc-img-link" 
-       href="/video/are-80-dollar-games-anti-consumer/" 
+    <a class="dc-img-link"
+       href="/video/are-80-dollar-games-anti-consumer/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1642,14 +1642,14 @@ data-id="200913"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T09:00:16Z">2 days ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/video/are-80-dollar-games-anti-consumer/"
                 target="_self"
@@ -1662,31 +1662,31 @@ data-id="200913"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="711406">
-    <a class="dc-img-link" 
-       href="/games-like-hollow-knight-silksong/" 
+    <a class="dc-img-link"
+       href="/games-like-hollow-knight-silksong/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1703,14 +1703,14 @@ data-id="200913"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T19:00:16Z">2 days ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/games-like-hollow-knight-silksong/"
                 target="_self"
@@ -1723,31 +1723,31 @@ data-id="200913"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="711428">
-    <a class="dc-img-link" 
-       href="/goty-2025-silksong-clair-obscur-difficulty/" 
+    <a class="dc-img-link"
+       href="/goty-2025-silksong-clair-obscur-difficulty/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1764,14 +1764,14 @@ data-id="200913"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-12T18:00:16Z">3 days ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/goty-2025-silksong-clair-obscur-difficulty/"
                 target="_self"
@@ -1784,31 +1784,31 @@ data-id="200913"
 </div>
 
 </div>
-                                                                    
+
                     <div class="display-card full-cover-image
      " data-content-id="711436">
-    <a class="dc-img-link" 
-       href="/playstation-ps1-30th-anniversary-na/" 
+    <a class="dc-img-link"
+       href="/playstation-ps1-30th-anniversary-na/"
        target="_self"
        rel="">
                     <div class="dc-img">
 
 <picture>
-                                                                                                                                                                                                                                                
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
                                     />
-                                                                                                                                                                                                                                                            
-            
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                         width="1300"
                                                                             height="650"
@@ -1825,20 +1825,20 @@ data-id="200913"
             </a>
 
 <div class="w-display-card-content">
-        
+
                 <div class="w-display-card-details">
             <div class="w-display-card-meta">
                                             <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T16:00:16Z">2 days ago</time></div>
                                 </div>
         </div>
-        
-        
+
+
         <h3 class="display-card-title">
             <a href="/playstation-ps1-30th-anniversary-na/"
                 target="_self"
                 rel=""
                 title="PlayStation&#039;s first generation embraced the weird ">
-                                    PlayStation&#039;s first generation embraced the weird 
+                                    PlayStation&#039;s first generation embraced the weird
                             </a>
         </h3>
 
@@ -1847,19 +1847,19 @@ data-id="200913"
 </div>
             </div>
 </div>
-            
+
                     </div>
-    
-    
+
+
 </footer>
 
 <aside id="secondary" class="sidebar adsninja-rail-container" role="complementary" data-tab="sidebar">
 
 <div id="sidebar-first" class="sidebar-first"></div>
-        
-                                                
-    <article class="sidebar-tabs"> 
-        <ul class="js-tabs-ul tabs-ul tabs-header">                
+
+
+    <article class="sidebar-tabs">
+        <ul class="js-tabs-ul tabs-ul tabs-header">
                             <li id="js-tab-1" class="selected">
                     <h3 class="section-title ">
                                                     Most Popular
@@ -1870,38 +1870,38 @@ data-id="200913"
 <div id="js-content-tab-1"
                 class="js-tab-pane tab-content sidebar-el-content ">
 
-<div class="sidebar-pinned-listing-page-article">                            
-                                
-        
-        
-        
-                
-                                                                        
-                
-                    
-                        
-    
-    
-                                        
-    
-        
-    
-        
-                
-        
+<div class="sidebar-pinned-listing-page-article">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/trick-r-treat-theaters-release-horror-movies-2025/" title="A cult horror hit is finally getting a re-release in time for Halloween"
 												>
 			A cult horror hit is finally getting a re-release in time for Halloween
@@ -1912,37 +1912,37 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/video/how-to-train-your-dragon-stars-dragons-irl/" title="What dragons would Mason Thames and Nico Parker have IRL?"
 												>
 			What dragons would Mason Thames and Nico Parker have IRL?
@@ -1953,37 +1953,37 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/the-penguin-season-2-emmys-matt-reeves-batman/" title="The Penguin may not be a limited series after all"
 												>
 			The Penguin may not be a limited series after all
@@ -1994,37 +1994,37 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/rpg-character-creator-avowed-baldurs-gate-3-dragon-age/" title="Dear RPG devs, please let me back into your character creator"
 												>
 			Dear RPG devs, please let me back into your character creator
@@ -2035,37 +2035,37 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/video/japan-anime-piracy-crackdown/" title="Anime piracy is riskier after Japan&#039;s latest crackdown"
 												>
 			Anime piracy is riskier after Japan&#039;s latest crackdown
@@ -2076,37 +2076,37 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
-                    
+
     >
-                            
-        
-                                    
-        
-        
+
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/demon-slayer-infinity-castle-box-office-us-record/" title="Demon Slayer: Infinity Castle slays the U.S. box office with record-breaking debut"
 												>
 			Demon Slayer: Infinity Castle slays the U.S. box office with record-breaking debut
@@ -2117,22 +2117,22 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 </div>                                        <a href="/most-popular/" class="btn-full">See More</a>
@@ -2140,8 +2140,8 @@ data-id="200913"
             </article>
 
 <article class="sidebar-sticky">
-        
-                    
+
+
     <div class="sidebar-tab" data-is-tab-container="true" data-active-tab="trendingNow" >
         <div class="section-header tabs-header-alt">
             <button class="section-title is-active" data-target="trendingNow">Trending Now</button>
@@ -2149,75 +2149,75 @@ data-id="200913"
         <div class="sidebar-tabs">
             <div class="trending-now" data-tab="trendingNow">
 
-<div class="sentinel-article-sidebarSticky">                            
-                                
-        
-        
-        
-                
-                                                    
-                
-                    
-                        
-    
-    
-                                        
-    
-        
-    
-        
-                
-        
+<div class="sentinel-article-sidebarSticky">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/hackers-30th-anniversary-90s-nostalgia/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
 
 <picture>
-                                                                                                                                                                            
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                 loading="lazy"
                         decoding="async"
@@ -2232,14 +2232,14 @@ data-id="200913"
 </div>
 
 </a>
-	
-            
-        
-        
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/hackers-30th-anniversary-90s-nostalgia/" title="30 years later, Hackers is still the perfect hit of ‘90s nostalgia"
 												>
 			30 years later, Hackers is still the perfect hit of ‘90s nostalgia
@@ -2250,74 +2250,74 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/fire-emblem-fortunes-weave-same-universe-three-houses/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
 
 <picture>
-                                                                                                                                                                            
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                 loading="lazy"
                         decoding="async"
@@ -2332,14 +2332,14 @@ data-id="200913"
 </div>
 
 </a>
-	
-            
-        
-        
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/fire-emblem-fortunes-weave-same-universe-three-houses/" title="New Fire Emblem game might be set in same universe as Three Houses"
 												>
 			New Fire Emblem game might be set in same universe as Three Houses
@@ -2350,74 +2350,74 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 <div class="display-card  article small   active-content                      "
         data-include-community-rating="false"
                     data-nosnippet
     >
-                            
-        
-                                        	
-	                
+
+
+
+
 		<a class="dc-img-link" href="/best-shows-watch-free-binge-sept-13/" >
-	
+
 	<div class="w-img "
 			>
 							<div class="bc-img responsive-img img-displayCard">
 
 <picture>
-                                                                                                                                                                            
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 480px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 767px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <source
                     media="(max-width: 1023px)"
                                         data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                     srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
                                     />
-                                                                                                                                                                                        
-                                                                                                                
-                                                
-                        
-                                                                                                        
+
+
+
+
+
                                                     <img
                                                                 loading="lazy"
                         decoding="async"
@@ -2432,14 +2432,14 @@ data-id="200913"
 </div>
 
 </a>
-	
-            
-        
-        
+
+
+
+
                             <div class="w-display-card-content regular article-block">
 
 <h5 class="display-card-title ">
-    					        				
+
 		<a href="/best-shows-watch-free-binge-sept-13/" title="3 binge-worthy shows you can watch for free this weekend (Sept. 13-14)"
 												>
 			3 binge-worthy shows you can watch for free this weekend (Sept. 13-14)
@@ -2450,29 +2450,29 @@ data-id="200913"
             </div>
 
 <div class="flex w-rating-card-info">
-                    
+
                                     </div>
 
 <div class="w-display-card-details">
 
 <div class="w-display-card-meta">
-			
+
 					</div>
 
 </div>
 
 </div>
-                
-        
-        
-        
+
+
+
+
             </div>
 
 </div>                                                    </div>
                     </div>
     </div>
-    
-        
+
+
                     </article>
                 <!-- No AdsNinja v10 Client! -->
 
@@ -2516,7 +2516,7 @@ data-id="200913"
                                                     <li class="social-elements"><a class="text  icon i-instagram" href="https://www.instagram.com/polygondotcom/" target="_blank"></a></li>
                                                     <li class="social-elements"><a class="text  icon i-twitter" href="https://x.com/polygon" target="_blank"></a></li>
                                             </ul>
-                
+
             </div>
 
 <div class="footer-content-el">
@@ -2567,8 +2567,8 @@ data-id="200913"
     </div>
 
 </footer>
-            
-        
+
+
         <script> window.isUserVerified = false; </script>
 
 <script type="module">

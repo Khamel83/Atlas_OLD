@@ -151,7 +151,7 @@ Considering all that, the likely estimate for this work is probably a conservati
 
 The other Giacometti, while also cast in 1958, was conceived in 1927. Le Couple is only 23 inches tall and was owned by the Museum of Modern Art for more than 25 years, before it was sold to Pace Gallery, who then sold it to the Riggios. In 2019, another cast was auctioned for $2.5 million. I’d expect Christie’s to estimate this one at $2-3 million.
 
- 
+
 
 Endnotes…
 -----------
@@ -224,6 +224,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVP8VKXYGuocnJkIY6Q4o=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

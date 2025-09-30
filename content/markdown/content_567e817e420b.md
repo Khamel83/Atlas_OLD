@@ -222,7 +222,7 @@ window.setTimeout(function() {
 <div id="abColumn" class="abColumn"><!--open abColumn -->
 <div id="article">
 <!--cur: prev:-->
-<div class="columnGroup first">				
+<div class="columnGroup first">
 <h6 class="kicker">Capital Ideas</h6>
 <h1 itemprop="headline" class="articleHeadline"><nyt_headline version="1.0" type=" ">The Liberals Against Affirmative Action</nyt_headline></h1>     <div class="articleSpanImage"><span itemprop="associatedMedia" itemscope itemid="http://graphics8.nytimes.com/images/2013/03/10/sunday-review/10LEONHARDT/10LEONHARDT-articleLarge.jpg" itemtype="http://schema.org/ImageObject">
 <img src="http://web.archive.org/web/20130315152354im_/http://graphics8.nytimes.com/images/2013/03/10/sunday-review/10LEONHARDT/10LEONHARDT-articleLarge.jpg" width="600" height="455" alt="" border="0" itemprop="url" itemid="http://graphics8.nytimes.com/images/2013/03/10/sunday-review/10LEONHARDT/10LEONHARDT-articleLarge.jpg">
@@ -241,9 +241,9 @@ window.setTimeout(function() {
             articleSpanImage.style.filter = filter;
         }
     </script>
-<![endif]--> 
+<![endif]-->
 <nyt_byline>
-<h6 class="byline">By 
+<h6 class="byline">By
 <span itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="http://topics.nytimes.com/top/reference/timestopics/people/l/david_leonhardt/index.html">
 <a href="http://web.archive.org/web/20130315152354/http://topics.nytimes.com/top/reference/timestopics/people/l/david_leonhardt/index.html" rel="author" title="More Articles by DAVID LEONHARDT"><span itemprop="name">DAVID LEONHARDT</span></a></span></h6>
 </nyt_byline>
@@ -263,12 +263,12 @@ window.setTimeout(function() {
 <nyt_correction_top>
 </nyt_correction_top>
     <p itemprop="articleBody">
-WASHINGTON        </p> 
+WASHINGTON        </p>
 </div>
 <div class="articleInline runaroundLeft">
-  
-<!--forceinline-->  
-<div class="columnGroup doubleRule">     
+
+<!--forceinline-->
+<div class="columnGroup doubleRule">
 <h3 class="sectionHeader">Related</h3>
 <ul class="headlinesOnly multiline flush">
 <li>
@@ -279,7 +279,7 @@ Economix Blog: The Leading Liberal Against Affirmative Action</a>
 </li>
 </ul>
 </div>
-    
+
 </div>
 <div class="articleBody">
  <p itemprop="articleBody">
@@ -312,7 +312,7 @@ Perhaps the biggest reason to expect something more is simply that the justices 
 </div>
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="articleFooter">
 <div class="articleMeta">
 <div class="opposingFloatControl wrap">
@@ -326,7 +326,7 @@ Perhaps the biggest reason to expect something more is simply that the justices 
 
 </div>	</div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal articleShareToolsBottom" data-shares="facebook|,twitter|,google|,save,email,showall|Share" data-title="The Liberals Against Affirmative Action" data-url="http://web.archive.org/web/20130315152354oe_/http://www.nytimes.com/2013/03/10/sunday-review/the-liberals-against-affirmative-action.html" data-description="With most cases before the Supreme Court, liberals would contemplate a 5-to-4 decision with dread. But the affirmative action case comes with a fascinating wrinkle."></div>
 <meta name="emailThisHash" content="jiwsFJvMuJJYbri32hzmYQ">
 </div>
@@ -345,10 +345,10 @@ Perhaps the biggest reason to expect something more is simply that the justices 
 
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 </div>
 <!--cur: prev:-->
-<div class="columnGroup ">				
+<div class="columnGroup ">
 <div class="singleRuleDivider"></div>
 <div class="articleBottomExtra">
 <div class="column lastColumn">
@@ -466,7 +466,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
 
 <div class="bigAd" id="Box1">
 <!-- ADXINFO classification="Marketing_Module" campaign="nyt2013_module_sexplay_hp_ros_db" priority="1000" width="336" height="280" --><div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
-  <a href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=16054c69/8184455c&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://www.nytimes.com/2013/02/28/fashion/bondage-domination-and-kink-sex-communities-step-into-view.html%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-PH%26WT.mc_ev=click%26WT.mc_c=211197" target="_blank"><img src="http://web.archive.org/web/20130315152354im_/http://graphics8.nytimes.com/ads/marketing/mm13/style/1362083566361_us.jpg" alt="" border="0" height="154" width="334"></a> 
+  <a href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=16054c69/8184455c&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://www.nytimes.com/2013/02/28/fashion/bondage-domination-and-kink-sex-communities-step-into-view.html%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-PH%26WT.mc_ev=click%26WT.mc_c=211197" target="_blank"><img src="http://web.archive.org/web/20130315152354im_/http://graphics8.nytimes.com/ads/marketing/mm13/style/1362083566361_us.jpg" alt="" border="0" height="154" width="334"></a>
   <div style="padding:7px 9px 0;background:#fff">
     <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#004276;" target="_blank" href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=16054c69/8184455c&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://www.nytimes.com/2013/02/28/fashion/bondage-domination-and-kink-sex-communities-step-into-view.html%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-HDR%26WT.mc_ev=click%26WT.mc_c=211197">Devotees of sex play want to make their voices heard</a></h2>
     <p style="margin:0 0 3px; padding:0;font-size: 11px;">
@@ -479,15 +479,15 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
       <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=4a424728/3c8c59fb&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://runway.blogs.nytimes.com/2013/02/28/alexander-wang-takes-charge-of-balenciaga/%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-L2%26WT.mc_ev=click%26WT.mc_c=211197" style="color: #004276">Alexander Wang takes charge of Balenciaga</a></li>
     </ul>
   </div>
-  
-  
+
+
   <div style="padding:5px 9px; float:left; width:316px; background:#fff">
     <a style="float:left" href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=3fd503b4/8800047c&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://nytimes.com/%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-LOGO%26WT.mc_ev=click%26WT.mc_c=211197" target="_blank"><img src="http://web.archive.org/web/20130315152354im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
-    
+
     <a style="float:right" href="http://web.archive.org/web/20130315152354/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/sunday-review&amp;pos=Box1&amp;sn2=77ef60db/cee08840&amp;sn1=3fd503b4/8800047c&amp;camp=nyt2013_module_sexplay_hp_ros_db&amp;ad=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313&amp;goto=http://nytimes.com/pages/style/index.html%3FWT.mc_id=ST-D-I-NYT-MOD-MOD-M295B-ROS-0313-VRT%26WT.mc_ev=click%26WT.mc_c=211197" target="_blank"><img src="http://web.archive.org/web/20130315152354im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_style.gif" alt="Style" border="0" height="18" width="120"></a>
-    
+
   </div>
-  
+
   <br clear="all">
 </div>
 </div>
@@ -516,7 +516,7 @@ NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_cha
     // Sponlink_A_Short
 
 if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
-     NYTD.GoogleAds.getGoogleAds("AFC", { 
+     NYTD.GoogleAds.getGoogleAds("AFC", {
         google_ad_client:'nytimes_article_var',
         ad_target_list:'sponLinkA'
      });
@@ -538,8 +538,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
                 <h4>
             Inside NYTimes.com        </h4>
     </div>
-    
-        
+
+
     <div id="insideNYTimesScrollWrapper">
         <table id="insideNYTimesBrowser" cellspacing="0">
             <tbody>
@@ -669,7 +669,7 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
             </tbody>
         </table>
     </div>
-    
+
     </div><!-- end #insideNYTimes -->
 
 </div><!--close main -->
@@ -702,8 +702,8 @@ if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20130315152354im_/http://up.nytimes.com/?d=0//&amp;t=6&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2013%2f03%2f10%2fsunday%2dreview%2fthe%2dliberals%2dagainst%2daffirmative%2daction%2ehtml%3fhpw%3d">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

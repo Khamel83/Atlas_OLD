@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The basic rule in the US is that, if you operate a stock exchange, you need to register with the US Securities and Exchange Commission as a 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        The basic rule in the US is that, if you operate a stock exchange, you need to register with the US Securities and Exchange Commission as a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bittrex
-    
-  
+
+
 
 The basic rule in the US is that, if you operate a stock exchange, you need to register with the US Securities and Exchange Commission as a national stock exchange. This comes with a lot of oversight; in particular, the rules of your exchange have to be published and transparent and approved by the SEC.
 I suppose you could debate what qualifies as a stock exchange. Roughly, an exchange is a venue for bringing together buyers and sellers of stock so they can trade with each other, but in modern finance there are gray areas. There are some things that look sort of like stock exchanges — dark pools, alternative trading systems — that are not actually registered as stock exchanges. But they are registered with the SEC too, and the SEC also supervises their operations. For that matter there are stockbrokers: A broker’s website and mobile app can look and feel a bit like a stock exchange, to a retail customer; you can log onto Robinhood and see prices and buy and sell stock. But  there are rules distinguishing brokers from exchanges (a broker mostly does not provide a platform for people to trade with each other, but routes orders to other market venues), and anyway broker-dealers are also registered with the SEC. Also stock clearinghouses (which settle trades, moving stock from the seller to the buyer) have to register. Basically any stock-exchange-like thing has to register with the SEC.
@@ -129,37 +129,37 @@ A Commission serious about regulating—and not destroying—this market would r
 “A Commission serious about regulating—and not destroying—this market” would be a different SEC! You don’t have to like it, but it is easy to know what the SEC wants.
 Also, I should note that two of the crypto tokens mentioned as securities here — DASH and  Algorand — appear to be listed on Coinbase. If it’s illegal for Bittrex to trade them then presumably it is also illegal for Coinbase to trade them. I’m sure we’ll find out the SEC’s views on that soon enough.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       IO mortgages
-    
-  
+
+
 
 For most people, the biggest interest-rate bet they will make in their lives is taking out a mortgage.
   [5]
@@ -178,11 +178,11 @@ One way to think about the 2023 banking mini-crisis in the US is that the proble
  Silicon Valley Bank borrowed short to lend long and ended up with a mark-to-market hole in its balance sheet when interest rates went up, but that’s   a pretty common story for any bank; the problem at SVB was that   all of its depositors were venture-backed tech firms who noticed that hole in the balance sheet, shared that information with their networks, and acted quickly to protect themselves. They were too smart for   their bank’s own good.
 Similarly First Republic courted wealthy and sophisticated clients with favorable mortgage rates. But wealthy and sophisticated clients are kind of a mixed bag! Sure they have the money to pay you back; their credit is good. But the risk is that you will sell them products that are advantageous for them, and not so much for you.
 
-  
-    
+
+
       Schwab
-    
-  
+
+
 
 A good price for a stock trade is $0. If you run a retail brokerage and you charge customers $0 for stock trades, they will tend to keep their money with you and do a lot of stock trades; if you charge them $4.99 they’ll say “meh, stock trading, not great.” Making stock trading frictionless is good for attracting stock trading, and you are in the business of attracting stock trading.
 But it costs you money to do the trades — you need computers and customer service and so forth — and so you need to pay for them somehow. And so a big question in modern US retail stock brokerage is how brokers can make money to subsidize commission-free stock trading. One approach that gets a lot of attention is payment for order flow: The broker can charge its customer $0 for a trade, and then instead of paying to execute the trade on a stock exchange, it can get paid by a market maker that really wants to execute the trade. This is hotly controversial for reasons we have   discussed too many times, and the US Securities and Exchange Commission has been   working on rules to restrict it, rules that might make it harder for brokers to offer commission-free trading.
@@ -212,11 +212,11 @@ In a sign of strength, customers continued to add money to Schwab’s investment
 The Federal Reserve’s rapid interest rate hikes buffeted Schwab’s business in recent quarters. Deposits, which underpin revenue, declined as customers moved away from lower-interest accounts and looked for investments that provide better returns for their excess cash. That trend is beginning to moderate, executives said Monday.
 
 
-  
-    
+
+
       Everything is securities fraud
-    
-  
+
+
 
 If a publicly traded company owns a television network and uses it to make false claims about rigged US elections, is that securities fraud? Uh, I mean, technically   this is a shareholder derivative lawsuit, but I’m going to count it:
 A Fox Corp. investor sued Rupert Murdoch and his son Lachlan on Tuesday, blaming them for allowing Fox News to spread lies about the election and prompting the [Dominion] defamation case. Delaware’s Chancery Court suit accuses the Murdochs and three other Fox directors of “knowingly” hosts and guests to spread Trump’s false stolen-election claims.
@@ -228,15 +228,15 @@ The Board’s failures caused and/or allowed the Company to sell a fictitious st
 What a weird sentence. Surely “serving [the Company’s] own business purposes” is the main fiduciary obligation of the board? More than credibility or avoiding ridicule? Like if the claim here was that Fox frittered away all of its money on things that the directors liked but that were bad for business, fine, but here the claim is that the directors thought the election lies were distasteful but good for business. I am not sure how that is a fiduciary breach.
 The complaint cites various feel-good Fox public statements and says that “Defendants’ actions/inactions violated the Statement of Corporate Governance, the Standards of Business Conduct, the Corporate Social Responsibility policies, and the [Sustainability Accounting Standards Board] standard.” A   standard everything-is-securities-fraud   theory is that if a company says publicly that it has good ethics, and then it turns out that in fact it did unethical things, and the stock drops, then shareholders will sue for fraud; fine. (Fox’s stock is up since the 2020 election but never mind.) You can sue for securities fraud if the public statements are false. But suing for a breach of fiduciary duties seems odder: The essential claim here is that the directors prioritized the business interests of the company over truth, ethics, US democracy, etc. Which is bad, but not necessarily bad for shareholders.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 JPMorgan, Citigroup and Wells Fargo  Reap Gains From Rates Roiling Small Banks. Banks Are Finally Facing Pressure to Pay Depositors More. In Morgan Stanley CEO Race,   Wealth Boss Emerges as One to Watch. Bank Failures Rattle Market for  Short-Term Lending.  Life Insurance Is Profitable Again, but Too Late for Many Insurers. Saudi Arabia Transfers Nearly $78 Billion of  Aramco Shares to Wealth Fund. Swiss-owned company’s  Russian gold trades expose gap in western sanctions. ChatGPT Can Decode Fed Speak,   Predict Stock Moves From Headlines. Elon Musk’s Twitter Payment Plan Puts   NYC Subway Alerts at Risk. ‘Overemployed’ Hustlers Exploit ChatGPT To Take On Even  More Full-Time Jobs. A $300,000 Salary   Feels Like $100,000 in The Priciest US Cities. Police search for group of suspects who stole  2 million dimes from truck in Northeast Philadelphia. Athletics Ireland sorry for mix-up that led to national 10km race being  too short.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is not a necessary function of a crypto exchange, really: The exchange could match buyers and sellers, and then the trades could settle “on chain,” with the tokens moving from the seller’s wallet to the buyer’s on the relevant crypto blockchain without ever passing through the exchange. Historically crypto exchanges have been more convenient when they’re centralized and keep custody of their customers’ tokens (and cash), but there are lots of decentralized exchanges that are not especially clearinghouse-like, and some big centralized exchanges let users self-custody these days. Still most centralized exchanges are also in the clearing business.
 
 
@@ -252,51 +252,51 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] Well. Arguably every financial decision is in some deep sense an interest-rate bet, so, like, going to work at a startup or getting a graduate degree or having children are in some sense decisions about discount rates. But the mortgage is an explicit rates bet.
 
 
-  [6] Or   in crypto. That’s different. 
+  [6] Or   in crypto. That’s different.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -307,46 +307,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciklbe.5kyr/00242d7b.gif" alt="" border="0" /></a>

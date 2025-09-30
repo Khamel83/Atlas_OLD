@@ -33,12 +33,12 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
             "document_output_path": os.path.join(self.temp_dir, "documents"),
         }
         self.manager = MetadataManager(self.config)
-        
+
         # Create sample metadata for testing
         self.sample_metadata = [
             self._create_sample_metadata(
-                "item1", 
-                "Test Article 1", 
+                "item1",
+                "Test Article 1",
                 tags=["AI", "technology"],
                 updated_at="2025-08-12T10:00:00.000000"
             ),
@@ -66,7 +66,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Helper to create sample metadata."""
         if updated_at is None:
             updated_at = datetime.now().isoformat()
-        
+
         return ContentMetadata(
             uid=uid,
             content_type=ContentType.DOCUMENT,
@@ -83,7 +83,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Mock the metadata loading to return our sample data."""
         def mock_get_all_metadata(filters=None):
             result = metadata_list.copy()
-            
+
             # Apply filters if provided
             if filters:
                 if "content_type" in filters:
@@ -91,15 +91,15 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
                     if isinstance(filter_type, str):
                         filter_type = ContentType(filter_type)
                     result = [m for m in result if m.content_type == filter_type]
-                
+
                 if "status" in filters:
                     filter_status = filters["status"]
                     if isinstance(filter_status, str):
                         filter_status = ProcessingStatus(filter_status)
                     result = [m for m in result if m.status == filter_status]
-                    
+
             return result
-        
+
         return patch.object(self.manager, 'get_all_metadata', side_effect=mock_get_all_metadata)
 
     def test_get_all_metadata_no_filters(self):
@@ -114,7 +114,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         with self._mock_metadata_loading(self.sample_metadata):
             result = self.manager.get_all_metadata({"content_type": ContentType.DOCUMENT})
             self.assertEqual(len(result), 3)
-            
+
             result = self.manager.get_all_metadata({"content_type": "document"})
             self.assertEqual(len(result), 3)
 
@@ -122,11 +122,11 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Test get_all_metadata with status filter."""
         sample_with_different_status = self.sample_metadata.copy()
         sample_with_different_status[0].status = ProcessingStatus.PENDING
-        
+
         with self._mock_metadata_loading(sample_with_different_status):
             result = self.manager.get_all_metadata({"status": ProcessingStatus.SUCCESS})
             self.assertEqual(len(result), 2)
-            
+
             result = self.manager.get_all_metadata({"status": "pending"})
             self.assertEqual(len(result), 1)
 
@@ -152,10 +152,10 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Test get_tag_patterns returns tag analysis."""
         with self._mock_metadata_loading(self.sample_metadata):
             result = self.manager.get_tag_patterns(min_frequency=1)
-            
+
             # Should return a dictionary with tag analysis
             self.assertIsInstance(result, dict)
-            
+
     def test_get_tag_patterns_with_min_frequency(self):
         """Test get_tag_patterns respects min_frequency."""
         with self._mock_metadata_loading(self.sample_metadata):
@@ -166,7 +166,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Test get_temporal_patterns returns temporal analysis."""
         with self._mock_metadata_loading(self.sample_metadata):
             result = self.manager.get_temporal_patterns(time_window="month")
-            
+
             # Should return a dictionary with temporal analysis
             self.assertIsInstance(result, dict)
 
@@ -180,10 +180,10 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         """Test get_recall_items returns items needing review."""
         with self._mock_metadata_loading(self.sample_metadata):
             result = self.manager.get_recall_items(limit=5)
-            
+
             # Should return a list of items
             self.assertIsInstance(result, list)
-            
+
             # Check that it contains items
             self.assertGreaterEqual(len(result), 0)
 
@@ -200,7 +200,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
             source="https://test.com",
             title="Test Title"
         )
-        
+
         self.assertIsInstance(metadata, ContentMetadata)
         self.assertEqual(metadata.content_type, ContentType.DOCUMENT)
         self.assertEqual(metadata.source, "https://test.com")
@@ -214,7 +214,7 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         article_dir = self.manager.get_type_directory(ContentType.ARTICLE)
         expected = os.path.join(self.temp_dir, "articles")
         self.assertEqual(article_dir, expected)
-        
+
         document_dir = self.manager.get_type_directory(ContentType.DOCUMENT)
         expected = os.path.join(self.temp_dir, "documents")
         self.assertEqual(document_dir, expected)
@@ -228,13 +228,13 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
     def test_save_metadata_creates_directories(self):
         """Test save_metadata creates necessary directories."""
         metadata = self._create_sample_metadata("test", "Test Title")
-        
+
         with patch("builtins.open", mock_open()) as mock_file, \
              patch("json.dump") as mock_json_dump, \
              patch("os.makedirs") as mock_makedirs:
-            
+
             result = self.manager.save_metadata(metadata)
-            
+
             self.assertTrue(result)
             mock_makedirs.assert_called_once()
             mock_file.assert_called_once()
@@ -251,27 +251,27 @@ class TestMetadataManagerComprehensive(unittest.TestCase):
         with patch("os.path.exists", return_value=True), \
              patch("builtins.open", mock_open(read_data="invalid json")), \
              patch("json.load", side_effect=json.JSONDecodeError("msg", "doc", 0)):
-            
+
             result = self.manager.load_metadata(ContentType.DOCUMENT, "corrupted")
             self.assertIsNone(result)
 
     def test_integration_save_and_load(self):
         """Integration test: save metadata and load it back."""
         original_metadata = self._create_sample_metadata("integration_test", "Integration Test")
-        
+
         # Create the actual directory structure
         metadata_dir = os.path.join(self.temp_dir, "documents", "metadata")
         os.makedirs(metadata_dir, exist_ok=True)
-        
+
         # Save metadata
         self.assertTrue(self.manager.save_metadata(original_metadata))
-        
+
         # Load metadata back
         loaded_metadata = self.manager.load_metadata(
-            ContentType.DOCUMENT, 
+            ContentType.DOCUMENT,
             "integration_test"
         )
-        
+
         self.assertIsNotNone(loaded_metadata)
         self.assertEqual(loaded_metadata.uid, original_metadata.uid)
         self.assertEqual(loaded_metadata.title, original_metadata.title)

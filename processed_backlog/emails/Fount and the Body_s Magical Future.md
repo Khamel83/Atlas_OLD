@@ -7,7 +7,7 @@
 
 View this post on the web at https://email.mg2.substack.com/c/eJxFkMGOhCAMQL9muGmUAXQOHPayv2EQqkMGwYWyxr_f7pjsJpSSNs2jzxqENeVT76kg-70mPHfQEY4SABEyqwXy5J3uFR_vUjyY08L1oxyZL9OSATbjg8Zcge11Dt4a9Cm-J7qOS_bUahwMSFBGgu1H65aFK-7oaQyYxaqLa6rzEC1o-IZ8pggs6CfiXm73jxv_pHMcRxsTzin7uLY2UWmnWFKN2JjoGnxCMyd3lmYzK30kNEvFmoF5zTvOu3svei4FFy1ve2tGIR7iAYMcQfDW2SN8qfW4iW5beVvqXNDYF3E2lvUfl9qvp9kgvBu08UR5q9HjOUE0cwB3ycDL6VvPtEKETK7dZJBMioEMiEFx1V3Lky1JshTvJCOySzQV_6E_ZLGQhA
 
-Welcome to the 1,357 newly Not Boring people who have joined us since last Monday! Join 108,068 smart, curious folks by subscribing here: 
+Welcome to the 1,357 newly Not Boring people who have joined us since last Monday! Join 108,068 smart, curious folks by subscribing here:
 🎧 To get this essay straight in your ears: listen on Spotify [https://email.mg2.substack.com/c/eJxFkUtr7DAMhX9NvAyx_Eiy8KIPCpf2culj01VwbE3GTGLn2k6n6a-vO7MoCAl0OBzxyeiMU4i7WkPK5KcNeV9ReTynGXPGSLaEcXBWUQkdE7wnVnFLO9ERl4ZDRFy0m1WOG5J1G2dndHbBXxxNA4IcFQLTLbUMW86l6cdet51g0kqBrTBUXnP1Zh16gwo_MO7BI5nVMec1VeymgodSYUVfpzVkd9hrE5aySsdwLkOe6PvT7ce_l5e_e0iPO_ukn3_mij0kV7H7-3Xn7u6xfRbwSp84o1_prZmIU9AANIxyCoIDr6GmRnec97wvh3XIobbmPP-X07nizTJBnbYxZW1OP-kkKh_yGKLzU5FPR73gfBEKhqHMZfMu7wN6Pc5or4TyFfSF2TChx1geYAedC17eggTeSpDNlUhBKApBCY0gJdmG4vK_od-WCpOB] or Apple Podcasts [https://email.mg2.substack.com/c/eJxFkNtuwyAMhp-m3C0CxyTkgovd7DUiDm6KlkAGZFXefrSdVMnyUfYvf85UWlI-9Z5KZQ8313MnHeleVqqVMjsK5Tl4LQZQvcSJeY1eKKlYKPM1E20mrLrmg9h-2DU4U0OKzw3OQbKbdqof1GjtFUgoC70jC2gdN-MkUHLz0jWHDxQdafqlfKZIbNW3Wvdy6T8v8NVsT96ZUktn9n2lzqWtNY_ynrQspvphUw5xaUXwQsKIIKZesKCBA_BeoACJgB10whmFOOFEo1SE0Hl3X3-G5X5Bvi3QlcOWatz3Q4pl3W7_n0b-fTMbrc9B-3pucTtiqOdM0diV_AtIfXF9IpoXipQbbz-b2mjiCAPgOMDAXwAaMdmADcAla8o-ta34Fv0DsayOkA] (soon)
 Today’s Not Boring is brought to you by… Composer [https://email.mg2.substack.com/c/eJxFkc2O3CAQhJ_G3NbCbfwzBw4bRfsaVhvaHjQGHNzEmrcPnkmyEuLQH6VqqgwyrTE99R4PFtc18XMnHeg8NmKmJPJBaXJWNz2Mbaduwmplm7EbhTumJRF5dJvmlEnsed6cQXYxvBRSQifuehmHZrYoJZEZDCqEhagMJbZK3iS9fTFbR8GQpt-UnjGQ2PSdeT-q9rOCr3LO86xN9OU1pZoTWrrm7VdmPx0xJ0NV-zNEnmNyYa2gv4An67K_wP8v_SUG_Y5uDYW1H436APgHYmAKXOZzXpYiqeDHjByceQinQQLItlENdApUDXVjcFTqpm40dCMpqK05t1_9elZK-hXqI88Ho3lcu4ukvxdU8nFHT9sLlOyKsfc5OH5OFHDeyL5j5Xc7r6CnlQKl0pqdkEsnaoAe1NBDL98xlty7EnsPshPF2caiCt-mfwAIJqmB]
 We all love Warren Buffet, but trying to “be greedy when others are fearful” is easier in theory than practice. In the market we’re in, removing emotion is key… but hard for us humans. 
@@ -58,7 +58,7 @@ Fount is running the Elon Musk Company Formula on health. 
 We’ll walk through each piece, but the result Fount is building towards is to dramatically increase the amount of human and financial capital going towards building a better future. It’s a non-obvious journey from a $5,000 per month Concierge plan to that goal, but that’s the point. If this were clear or easy, someone would have done it before. It’s a multi-trillion dollar opportunity that Andrew had just the right background to catch hiding in plain sight. 
 I don’t take Elon Musk comparisons lightly. Fount is an incredibly special company run by a one-of-a-kind leader, and I think it has a chance to reshape wellness and healthcare. Today, I’ll explain:  
 The Mad Scientist 
-The Elon Musk Company Formula 
+The Elon Musk Company Formula
 The Biomedical Data Gap 
 My Fount Experience
 Scaling Fount 
@@ -98,11 +98,11 @@ In the Neuralink post, Urban wrote about Musk’s new company thought process: 
 His initial thinking about a new company always starts on the right and works its way left. He decides that some specific change in the world will increase the likelihood of humanity having the best possible future. 
 He knows that large-scale world change happens quickest when the whole world—the Human Colossus—is working on it. And he knows that the Human Colossus will work toward a goal if (and only if) there’s an economic forcing function in place—if it’s a good business decision to spend resources innovating toward that goal.
 Fixing healthcare from the individual level up fits the bill. 
-To learn more about the Elon Musk Company Formula, the biomedical data gap, my experience with Fount, how to scale from $5k/mo to <$100, and what the world looks like if Andrew succeeds… 
-Try Fount For Yourself 
+To learn more about the Elon Musk Company Formula, the biomedical data gap, my experience with Fount, how to scale from $5k/mo to <$100, and what the world looks like if Andrew succeeds…
+Try Fount For Yourself
 Experiencing Fount for yourself beats reading about it. If you have health and performance goals that you want to hit this year, it’s worth talking to the Fount team.
 To apply for the Fount Not Boring Scholarship, fill out this form:
-To skip the waitlist and talk to the Fount team about a personalized program: 
+To skip the waitlist and talk to the Fount team about a personalized program:
 Thanks for reading, and see you on Thursday,
 Packy
 *Investing in securities involves risks, including the risk of loss. Composer Technologies Inc., SEC Registered RIA.

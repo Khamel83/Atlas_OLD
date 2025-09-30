@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/circle-and-usdc-building-a-stable
 
-Welcome to the 778 newly Not Boring people who have joined us since Monday! If you haven’t subscribed, join 140,394 smart, curious folks by subscribing here: 
+Welcome to the 778 newly Not Boring people who have joined us since Monday! If you haven’t subscribed, join 140,394 smart, curious folks by subscribing here:
 🎧 This is a long one! To listen to me read it instead, head over to Spotify [https://substack.com/redirect/44ca79c0-d72f-44b3-a043-2cd9ce73daab?u=16283549] or Apple Podcasts [https://substack.com/redirect/eddff8f8-e9ce-4109-861d-7d3c88bf5396?u=16283549].
 Hi friends ​​👋, 
 Happy Thursday! 
@@ -85,9 +85,9 @@ There are other promising crypto reserve currency projects, all vying to build a
 That brings us to fiat-backed stablecoins, like USDC. 
 Circle’s USDC stablecoin is the most straightforward of the major stablecoins: for every dollar of USDC in circulation, Circle holds $1 worth of straight cash and US Treasury Bills, for which there is the deepest and most liquid market of any asset in the world.
 If you want to redeem 1 USDC for $1, no magic needs to happen. The dollar is sitting there, either right in the USDC reserve bank accounts at BNY Mellon and other large banks, or invested in short-term Treasuries that are easier than anything else in the world to exchange into dollars. Circle posts weekly reporting and monthly attestations on its website [https://substack.com/redirect/85fb1612-203c-4dce-8636-48780aeaccc4?u=16283549].
-To learn so much more about stablecoins, Circle, and USDC… 
+To learn so much more about stablecoins, Circle, and USDC…
 Thanks to Jesse [https://substack.com/redirect/46f9e653-258f-4bf6-a3a6-ca3d06d6a345?u=16283549], Peter [https://substack.com/redirect/6fce0499-3ab6-4592-8da8-a9200eb4d22d?u=16283549], and the Circle team for working with me on this piece, and to Dan [https://substack.com/redirect/e486b91c-9eac-480d-a38d-2bf13414e098?u=16283549] for editing!
-That’s all for today! See you back here tomorrow for some Weekly Optimism. 
+That’s all for today! See you back here tomorrow for some Weekly Optimism.
 Thanks for Reading, Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkFoUWVJQ2dIWDE4LVFKQ25ad0NhWmRDVWV1bTJFYkFtRVJkRmYwd09JQ2ciLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Qlo2ZScpn70VLpizVf_awePbWz0kSFZD5mRSIN97mOA?

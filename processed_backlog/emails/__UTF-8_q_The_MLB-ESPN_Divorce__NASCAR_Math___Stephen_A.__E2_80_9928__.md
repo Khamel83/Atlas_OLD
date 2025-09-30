@@ -37,7 +37,7 @@ Marchand’s roller derby league. (It’s not too early for the brandy on the ni
 
 Let’s get to it…
 
- 
+
 
 Player of the Week: Gary
 Bettman
@@ -47,7 +47,7 @@ Almost immediately after puck drop at last Saturday’s U.S.-Canada game, viewer
 NHL commissioner’s 4 Nations Face-Off tournament was a significant upgrade from the traditional mid-season classic. Three fights in the first nine seconds? ESPN, which carried the whole tournament, was obviously incentivized to market the game throughout the day, but the network also lavished more resources and attention upon it than it would have on a regular game. Every ESPN studio show had a segment on the game—there was P.K. Subban on First Take, a
 Bettman interview, and a live SportsCenter from the arena. And all of this was juxtaposed with Draymond Green shit-canning the NBA All-Star game live on TNT the following night as Chuck, Ernie, Kenny, and Shaq wore their Gone Fishin’ gear during the broadcast.
 
- 
+
 
 Down to the J.V.: Adam Silver
 -----------------------------
@@ -167,7 +167,7 @@ the Xfinity series’ largest audience in two years.
 Interestingly, the 6.8 million viewers who tuned into Fox’s coverage of Daytona bested both the NBA All-Star Game and the NHL’s 4 Nations Face-Off. It was NASCAR’s biggest audience in two years. And if anyone still needs reminding, the fan base is broader than you think. When Phelps was on the Varsity podcast back in November, he said he
 expected ( https://puck.news/podcast_episode/nascars-next-gear-with-steve-phelps/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that the number of NASCAR fans who subscribe to Amazon Prime would grow considerably as it began carrying races. “That universe is, right now, actually higher in terms of a subscriber base than the cable universe,” he said. “Do I think our fans will find it? I am confident that they will.”
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -190,7 +190,7 @@ equivalent of a modern All-Star event: extra flash to cover the intentional lack
 On NASCAR ratings: The CW ratings increase last season was for the second-tier
 Xfinity Series (which is now exclusively on CW). I’m curious to see how the Cup ratings fare with so many fewer races on broadcast TV (just eight points races on Fox and NBC, compared to 20 last season). —A local-news executive producer
 
- 
+
 
 Have a great weekend. See you Monday,
 
@@ -217,6 +217,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVJo4jyzF-u_CDG65Lec4=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F20%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

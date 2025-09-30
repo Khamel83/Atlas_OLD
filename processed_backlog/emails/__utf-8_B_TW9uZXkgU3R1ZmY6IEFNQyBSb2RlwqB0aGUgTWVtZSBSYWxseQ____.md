@@ -7,62 +7,62 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Nothing in this newsletter is ever investment advice. For instance, yesterday AMC Entertainment Holdings Inc. announced that it had complete
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AMC
-    
-  
+
+
 
 Nothing in this newsletter is ever investment advice. For instance, yesterday AMC Entertainment Holdings Inc. announced that it had completed its $250 million at-the-market stock offering just as a meme-stock rally was getting started, and I wrote:
 If I were an AMC investor, I suppose I would find it bullish that AMC (1) was selling a bunch of stock into the market and (2) stopped. There is a good technical reason for AMC investors to be happy: There is less supply coming. When AMC’s stock rallied hard on Monday, AMC was selling into the demand. If AMC rallies today, AMC will not be selling into the demand. 
-Well, if I were an AMC investor, I would have been wrong! AMC’s stock did rally yesterday — or, rather, it opened up more than 100% from Monday’s close, and then gave back a lot of those gains over the course of the day — and AMC did sell into the demand. Bloomberg’s 
+Well, if I were an AMC investor, I would have been wrong! AMC’s stock did rally yesterday — or, rather, it opened up more than 100% from Monday’s close, and then gave back a lot of those gains over the course of the day — and AMC did sell into the demand. Bloomberg’s
 Claire Boston reports:
 
 AMC Entertainment Holdings is taking advantage of its meme stock rally to reduce its debt, revisiting a playbook that helped it shore up liquidity in 2021.
@@ -88,39 +88,39 @@ The latest rout brings further echoes of the meme insanity that gripped markets 
 I don’t know. On the one hand, it would be weird to have a months-long, 1,000%, massive-cultural-phenomenon meme-stock rally every few years. On the other hand, it’s not not weird to have a days-long, 100%, “oh this again huh?” meme-stock rally every few years. The 2021 meme-stock rally was mostly divorced from corporate fundamentals, but it was connected to something; there really was a cultural phenomenon. The 2024 one doesn’t even have that.
 Elsewhere, Bill Gross is selling GameStop straddles, so that’s nice for him.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tesla
-    
-  
 
-One 
+
+
+One
 oddity of the meme stock era is that retail shareholders tend not to vote their stock. If a public company decides to go all in on appealing to meme-driven retail investors, that will have certain advantages: The stock price might go up, the company will be able to raise capital cheaply, and the chief executive officer might get to have fun online. But if the company ever needs shareholders to vote on anything, it might be hard to round up enough votes. Meme-stock investors’ enthusiasm tends not to translate into corporate voting.
 And so we have talked about the complicated and possibly-somewhat-illegal lengths that AMC went to to get shareholder approval to sell more stock, and about the trouble that Trump Media & Technology Group’s special purpose acquisition company had in rounding up enough votes just to stick around long enough to close its deal.
 And then there is arguably the original meme stock. Bloomberg’s 
@@ -136,17 +136,17 @@ We talked about the judge’s ruling in January, and about Tesla’s proposal to
   [3]
  not a majority of the shares outstanding. If all the retail holders don’t vote, his pay package can still be approved, as long as a majority of the institutions vote yes.
   [4]
- Though as I said above, that is perhaps not a foregone conclusion.	But Tesla does need a lot of shareholders to vote on the other big proposal at this meeting, which is moving its state of incorporation 
+ Though as I said above, that is perhaps not a foregone conclusion.	But Tesla does need a lot of shareholders to vote on the other big proposal at this meeting, which is moving its state of incorporation
 to Texas so it doesn’t have to worry about Delaware judges anymore. Unlike the pay package, that proposal requires a majority of the shares outstanding to vote yes,
   [5]
  and it would be rough on Elon Musk if Tesla is stuck in Delaware because his loyal enthusiastic retail shareholders forget to vote to move to Texas. 
 
 
-  
-    
+
+
       BUIDL
-    
-  
+
+
 
 The basic mechanics of a stablecoin are:
 	You send $1 to a stablecoin issuer.	It sends you back one stablecoin, which represents $1 on the blockchain.	The issuer uses your $1 to buy Treasury bills that pay like 5% interest.	You don’t get the interest.
@@ -172,16 +172,16 @@ Obviously BUIDL’s $382 million is teensy compared to Tether’s $110+ billion.
  And I am not entirely convinced that “blockchain blockchain blockchain” is the solution for T+1 settlement. But the point is that BlackRock has a stablecoin product that (1) pays interest, (2) has some adoption among crypto traders and (3) can probably get some adoption among traditional financial institutions because it is BlackRock.
 One way to read this story is that US securities regulation is quite protective of traditional incumbents. The SEC does not object to stablecoins, per se; it would just strongly prefer that those stablecoins be run by BlackRock.
 
-  
-    
+
+
       Jane Street
-    
-  
+
+
 
 I do love that two traders left Jane Street Group for Millennium Management, and Jane Street sued them and Millennium for allegedly stealing Jane Street’s super-secret counterintuitive money-printing trade that it developed with a huge investment of time and money and that is among its most prized intellectual property, and Millennium and the traders went to court and were like “oh you mean the INDIAN OPTIONS trade? The one where you trade OPTIONS in INDIA?” It is very funny, but it is also a good defense strategy. When Jane Street is like “they stole our [redacted] strategy,” that does sound like it might be a trade secret. When they reply “oh come on everyone trades options in India,” it sounds like nothing.
-We talked about the lawsuit a 
-couple of 
-times last month. Yesterday Bloomberg’s 
+We talked about the lawsuit a
+couple of
+times last month. Yesterday Bloomberg’s
 Chris Dolmetsch reported:
 
 The two former Jane Street Group traders accused of stealing an Indian options-trading strategy for Millennium Management countersued their old firm, saying they left because they were disappointed in their 2023 pay packages.
@@ -200,19 +200,19 @@ Obviously one would want to know the profits. But it is also kind of fun that Ja
 2023 was the most successful year of Schadewald’s and Spottiswood’s careers at Jane Street. But Jane Street, as a business philosophy, [redacted]. Schadewald and Spottiswood were naturally disappointed with Jane Street’s compensation decisions delivered during their 2023 year-end performance reviews and felt that they were not given a clear path to advancement within Jane Street and that their contributions to the firm were being undervalued.
 “Jane Street, as a business philosophy,” did something, but what? Presumably “didn’t pay them as much as they were worth on the open market,” but for philosophical reasons. 
 
-  
-    
-      Things happen
-    
-  
 
-BHP Shareholders See Room for One More 
-Sweetened Anglo Bid. Silicon Valley Is Searching for Its Piece of the 
-AI Action. OpenAI Chief Scientist 
-Ilya Sutskever Is Leaving the Company. Citigroup executive responsible for implementing thousands of job cuts quits. Capital rules add to clearing concentration fears in US$715trn derivatives market.  Vanguard Names Former BlackRock Executive as CEO. Calpers to direct $25bn to green private market investments. He Quit Wall Street to Coach Ivy League Tennis—and Built a Columbia Powerhouse. Flood of Fake Science Forces Multiple Journal Closures. Cheating on Workplace Drug Tests Hits a Record. 
+
+      Things happen
+
+
+
+BHP Shareholders See Room for One More
+Sweetened Anglo Bid. Silicon Valley Is Searching for Its Piece of the
+AI Action. OpenAI Chief Scientist
+Ilya Sutskever Is Leaving the Company. Citigroup executive responsible for implementing thousands of job cuts quits. Capital rules add to clearing concentration fears in US$715trn derivatives market.  Vanguard Names Former BlackRock Executive as CEO. Calpers to direct $25bn to green private market investments. He Quit Wall Street to Coach Ivy League Tennis—and Built a Columbia Powerhouse. Flood of Fake Science Forces Multiple Journal Closures. Cheating on Workplace Drug Tests Hits a Record.
 Robin Hood. Westminster.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Math there is: 23,280,295 shares times an implied price of $7.33 per share is $170,644,562 of value paid out in the exchange. That’s for $163,850,000 face value of bonds, so figure it’s $6,794,562 of accrued interest. If you value the bonds at 85 cents on the dollar, that’s $139,272,500 of bond value, plus the $6,794,562 of accrued (which I’m figuring is paid at 100 cents on the dollar), for a total of $146,067,062 of value, divided by the 23,280,295 shares is $6.27.
 
 
@@ -231,48 +231,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] What do we think about that name? I kind of like it; it’s a little crypto joke while also being a good example of tradfi acronyming.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl2iw8.5jc2/47bc9089.gif" alt="" border="0" /></a>

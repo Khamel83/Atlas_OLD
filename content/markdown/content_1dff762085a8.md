@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"08\/25\/2016","content_publish_time":"07:00","content_last_update_date":"08\/25\/2016","content_last_update_time":"07:00","contentcategory":"Bill Clinton,Welfare","section_1":"economics","section_2":"economics:welfare","story_title":"Most Welfare Dollars Don\u2019t Go Directly To Poor People Anymore","story_id":125268,"author":"Andrew Flowers","page_name":"fivethirtyeight:economics:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"standard_layout","editorial_other_subjects":["Bill Clinton","Welfare"],"word_count":1136},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Most Welfare Dollars Don’t Go Directly To Poor People Anymore | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -138,7 +138,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":125268,"section":"economicswelfare","s
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Most Welfare Dollars Don’t Go Directly To Poor People Anymore" />
@@ -204,7 +204,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -223,13 +223,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Most Welfare Dollars Don’t Go Directly To Poor People Anymore									</div>
 				<a href="https://fivethirtyeight.com/features/most-welfare-dollars-dont-go-directly-to-poor-people-anymore/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/most-welfare-dollars-dont-go-directly-to-poor-people-anymore/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -293,7 +293,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -302,7 +302,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -319,7 +319,7 @@ display: none;
 								<time class="datetime updated" title="2016-08-25T11:00:34+00:00">7:00 AM</time>
 
 </p>
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Most Welfare Dollars Don’t Go Directly To Poor People Anymore								</h1>
@@ -329,10 +329,10 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/andrew-flowers/" title="" class="author url fn" rel="author">Andrew Flowers</a></p>
-										
+
 																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/welfare/" class="term " name="">Welfare</a></p>
-										
-										
+
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -345,7 +345,7 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?w=1150 2x">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg 1905w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=768,577 768w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=1024,769 1024w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=1536,1153 1536w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=346,260 346w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=767,576 767w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-0824-e1472059651886.jpg?resize=915,687 915w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
@@ -356,15 +356,15 @@ display: none;
 <figcaption class="caption featured-image-caption">
 				Protesters demonstrate against welfare reform outside the Federal Building in downtown Los Angeles Sunday, Aug. 4, 1996.									<p class="credits">AP Photo/Frank Wiese</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p>Twenty years after President Bill Clinton fulfilled his vow to “end welfare as we know it,” it’s fair to say: mission accomplished. The old U.S. welfare system is dead. Whether the system that replaced it is better for the poorest Americans remains the subject of fierce debate.</p>
 <p>The welfare reform bill that Clinton signed into law 20 years ago this month fractured the U.S. welfare system, from one managed mostly by the federal government to one largely directed by individual states. As each state became empowered to spend its welfare grant as it saw fit, one monolithic system devolved into 50 different ones — with far less money going directly to low-income families.</p>
 <figure id="attachment_125275" class="wp-caption alignleft" style="">
 					<img decoding="async" class="wp-image-125275" src="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png" alt="flowers-welfare-reform-2" width="288" height="344" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png 1196w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=63,75 63w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=251,300 251w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=768,918 768w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=856,1024 856w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=428,512 428w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=361,432 361w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=294,352 294w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=188,225 188w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=376,450 376w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=217,260 217w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=134,160 134w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=482,576 482w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=130,155 130w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=84,100 84w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=50,60 50w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=575,687 575w" sizes="(max-width: 288px) 100vw, 288px" data-sizes="(max-width: 288px) 100vw, 288px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png 1196w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=63,75 63w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=251,300 251w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=768,918 768w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=856,1024 856w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=428,512 428w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=361,432 361w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=294,352 294w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=188,225 188w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=376,450 376w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=217,260 217w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=134,160 134w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=482,576 482w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=130,155 130w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=84,100 84w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=50,60 50w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-2.png?resize=575,687 575w"></figure>
-		
+
 <p>The 1996 reform didn’t result in a reduction in total spending on welfare, now known as Temporary Assistance for Needy Families. Since 1998, the first year for which we have complete data, total TANF spending — both from federal block grants as well as required state matching funds — has remained essentially flat, after adjusting for inflation,<span class="espn-footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&lt;p&gt;The monthly average of the Consumer Price Index was used to deflate the annual spending statistics.&lt;/p&gt;
 "><sup id="ss-1">1</sup></span> according to <a href="http://www.cbpp.org/research/family-income-support/how-states-use-federal-and-state-funds-under-the-tanf-block-grant#_ftn21">data</a> from the Center on Budget and Policy Priorities, a left-leaning think tank that is critical of welfare reform. Per-person spending has fallen, however: In 2014 there were about 12 million more people below the poverty level than in 1998, <a href="http://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-people.html">according to the Census Bureau</a>. The <a href="https://www.census.gov/popest/data/state/totals/1990s/tables/ST-99-07.txt">U.S. population</a> has grown nearly 20 percent during that time.</p>
 <p>Perhaps the more significant change, though, is in how that money is being spent. Welfare reform replaced the old, federally run cash assistance program with a system of state-administered block grants. Under TANF, states can spend welfare money on virtually any program aimed at one of <a href="http://www.acf.hhs.gov/ofa/programs/tanf/about">four broad purposes</a>: (1) assistance to needy families with children; (2) promoting job preparation and work; (3) preventing out-of-wedlock pregnancies; and (4) encouraging the formation of two-parent families.</p>
@@ -372,7 +372,7 @@ display: none;
 <p>The result has been a dramatic shift of resources away from cash assistance and toward spending on other programs. In 1998, nearly 60 percent of welfare spending was on cash benefits, categorized as “basic assistance.” By 2014, it was only about one-quarter of TANF spending. That shift has happened despite a <a href="https://fivethirtyeight.com/features/universal-basic-income/">burgeoning economics literature</a> suggesting that direct cash transfers are in many cases the most efficient tool to fight poverty.</p>
 <figure id="attachment_125274" class="wp-caption alignright" style="">
 					<img decoding="async" class="wp-image-125274" src="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png" alt="flowers-welfare-reform-1" width="288" height="513" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png 1206w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=42,75 42w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=168,300 168w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=768,1368 768w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=575,1024 575w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=862,1536 862w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=1150,2048 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=287,512 287w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=243,432 243w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=198,352 198w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=126,225 126w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=253,450 253w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=146,260 146w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=90,160 90w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=323,576 323w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=87,155 87w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=56,100 56w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=34,60 34w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=386,687 386w" sizes="(max-width: 288px) 100vw, 288px" data-sizes="(max-width: 288px) 100vw, 288px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png 1206w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=42,75 42w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=168,300 168w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=768,1368 768w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=575,1024 575w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=862,1536 862w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=1150,2048 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=287,512 287w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=243,432 243w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=198,352 198w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=126,225 126w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=253,450 253w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=146,260 146w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=90,160 90w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=323,576 323w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=87,155 87w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=56,100 56w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=34,60 34w, https://fivethirtyeight.com/wp-content/uploads/2016/08/flowers-welfare-reform-1.png?resize=386,687 386w"></figure>
-		
+
 <p>Some of the money that used to go to cash assistance now goes to other noncash aid programs, such as child care assistance or work-related activities, and to refundable tax credits that are essentially a different form of cash transfer. But by far the biggest increase comes in what Pavetti’s group classifies as “other,” which the center <a href="http://www.cbpp.org/research/family-income-support/how-states-use-federal-and-state-funds-under-the-tanf-block-grant">says</a> “covers a broad range of uses, including child welfare, parenting training, substance abuse treatment, domestic violence services and early education.” Those programs might be worthwhile in their own right, but they don’t have much to do with the original goals of welfare. In 2014, about one-third of TANF spending went to “other” areas, up from 12 percent in 1998.</p>
 <p>The shift in spending varies greatly from state to state. California gives close to half of its total welfare dollars directly to low-income residents in the form of cash assistance. Georgia, by contrast, spends 80 percent of its funds on programs in the “other” category, and gives just 8 percent directly to families in cash.</p>
 <p>The <i>level </i>of benefits also spans a <a href="https://www.fas.org/sgp/crs/misc/R43634.pdf#page=12">wide spectrum</a>. In 2012, the maximum monthly amount a single parent with two children could receive varied from $770 in New York to just $170 in Mississippi. And that’s assuming they could qualify. The <a href="https://www.fas.org/sgp/crs/misc/R43634.pdf#page=8">maximum monthly earnings</a> for this hypothetical individual to be eligible for TANF was as high as $1,829 in Wisconsin but as low as $268 in Alabama.</p>

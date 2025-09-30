@@ -9,7 +9,7 @@ View this post on the web at https://www.notboring.co/p/meter-the-internet-utili
 
 Welcome to the 419 newly Not Boring people who have joined us since 2024! If you haven’t subscribed, join 239,249 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by 2025 Presenting Sponsor… Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
-I don’t typically write Deep Dives on any company more than once, other than Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I’ve written about Ramp four times. There’s no company I know or trust more, so I’m particularly psyched that Ramp is joining us as a 2025 Presenting Sponsor. 
+I don’t typically write Deep Dives on any company more than once, other than Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I’ve written about Ramp four times. There’s no company I know or trust more, so I’m particularly psyched that Ramp is joining us as a 2025 Presenting Sponsor.
 From the beginning, Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has been on a mission to save finance teams time. In my December 2020 Deep Dive [ https://substack.com/redirect/5011a47f-47cc-4809-883d-3b798522f193?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], I wrote: “By letting Ramp handle all of the work they don’t want to be doing anyway, the finance team is freed up to focus on work that adds value to the business and helps it grow.”
 While the mission remains the same, Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] keeps leveling up the tools it uses to achieve it.
 Now, Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] isn’t just a smarter corporate card—it’s a fully integrated finance automation platform. It streamlines approvals, automates expense management, delivers real-time insights, and seamlessly syncs with ERP systems. Your finance team gets the control and visibility they need, without the busywork.
@@ -17,13 +17,13 @@ With Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j
 That’s why Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is trusted by 30,000+ companies big and small, including Shopify, AirBNB, Stripe, Anduril, CBRE, and of course, Not Boring. Join us.
 Time is money. It’s time your team upgraded to Ramp [ https://substack.com/redirect/dd9f40aa-d227-4c96-8109-158673323dc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: the Official Business Card of Not Boring.
 Hi friends 👋,
-Happy Thursday! I’ve been wanting to share today’s Deep Dive with you for a long time.  
+Happy Thursday! I’ve been wanting to share today’s Deep Dive with you for a long time.
 Normally, when people ask me “What are you writing about?” and I say the name of the company, at least half the people say something like, “Oh yeah, I’ve heard of them, they’re the ones who…” or “That’s so and so’s company, right?”
 When I’ve mentioned Meter, nine times out of ten, I’ve been met with: “Huh? Who’s that?” These are people in tech, other investors, people whose job it is to know today about the companies that will be worth the most money tomorrow. Blank stares.
 That is what I live for. Meter has the widest gap between promise and awareness of any company I’ve covered, and I’m pumped to be the one to get to tell you about them.
 Because the one out of ten who does know about Meter knows. The Meter Fan Club, small but ravenous, has been a secret society. Today, it’s no longer secret.
-Note: the essay is too long to fit in an email; click to read the whole thing online [ https://substack.com/redirect/16f9d120-87a6-458d-9e18-39645b7d1c55?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-Then print it out. Get it bound. Highlight it. Save it. Come back to it. Enjoy. 
+Note: the essay is too long to fit in an email; click to read the whole thing online [ https://substack.com/redirect/16f9d120-87a6-458d-9e18-39645b7d1c55?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Then print it out. Get it bound. Highlight it. Save it. Come back to it. Enjoy.
 Or if you prefer your Deep Dives in your ears, the audio edition will be up soon — check back here in an hour or so, or go to the ElevenReader App [ https://substack.com/redirect/ca333838-0f08-4642-978e-d27d2f34dd38?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Let’s get to it.
 Meter: The Internet Utility
@@ -188,9 +188,9 @@ We all will use the internet, and packets, more than we currently do.
 “This call right now is packets,” Anil told me. “When you order an Uber, send an email, it’s packets. The money in your bank is packets. Everything is just packets moving left to right. That’s it. That’s the world.”
 Move the packets, move the world.
 “We had very particular opinions about how to do that,” Anil said, “and about the business model.”
-Thanks to Sunil, Anil, Sarah, Nitan, Swarit, Dan, Sam, Tom, Bunpa, Evan, and everyone else who taught me how the internet works and how Meter plans to make it work better. 
+Thanks to Sunil, Anil, Sarah, Nitan, Swarit, Dan, Sam, Tom, Bunpa, Evan, and everyone else who taught me how the internet works and how Meter plans to make it work better.
 That’s all for today. We’ll be back in your inbox tomorrow with the Weekly Dose.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFUyTURZeE5UTTNMQ0pwWVhRaU9qRTNNemd5TkRRNE1ETXNJbVY0Y0NJNk1UYzJPVGM0TURnd015d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlFXbEtHa3BQWU5oUmE0a20tSnhPT0wzTi1EQVdKRHNJQ2duM3l6R0IxcW8iLCJwIjoxNTYwNjE1MzcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzM4MjQ0ODAzLCJleHAiOjE3NDA4MzY4MDMsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.YCN_bWGWrXEe7wwdVdcX5fVej1-s7zjpBEoFOKriwOs?

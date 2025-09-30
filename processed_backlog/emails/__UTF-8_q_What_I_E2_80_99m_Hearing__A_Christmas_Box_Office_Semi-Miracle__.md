@@ -141,7 +141,7 @@ Cautious optimism aside, it’s hard to picture the industry rebounding to 2000s
 However, the aspirational
 Christmas box office should presage a continued and permanent theatrical recovery. The positive grosses and varied slate together approach a platonic ideal of what the movie theater is supposed to represent, both commercially and culturally. Time will tell if it’s the start of a happily ever after or a false-hope finale before a darker, grittier sequel. 
 
- 
+
 
 Thanks to Scott. I’ll be back on Monday to officially usher you
 into 2025. 
@@ -204,6 +204,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUKa1aRBFJCPM-sBs2aMs=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F2%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

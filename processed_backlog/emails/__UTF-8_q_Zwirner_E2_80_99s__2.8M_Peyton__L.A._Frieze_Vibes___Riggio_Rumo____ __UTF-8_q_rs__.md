@@ -19,7 +19,7 @@ Maneker.
 
 Covering an art fair can be like an expedition, and I wanted to take you on my weeklong journey here in L.A. So today I’m going to cram a lot of information about Frieze Los Angeles and the art market into one newsletter. I also have a little more backstory on the pitch for the Riggio collection, now that Christie’s has won the consignment over Sotheby’s. So sit back and enjoy the ride…
 
- 
+
 
 A Frieze Day One Sales Report
 -----------------------------
@@ -157,7 +157,7 @@ that will come, but an extended season of chaos in D.C. and beyond won’t help 
 
 Notably, what we did not see or hear at Frieze was grousing or complaints. A lack of excitement isn’t the same as a gloom or dejection. These days, that may be the only victory we can hope for.
 
- 
+
 
 Endnotes…
 -----------
@@ -221,6 +221,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVKtkb5xatzfeQ83WfqXg=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

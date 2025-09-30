@@ -146,17 +146,17 @@ import CoreLocation
 import MobileCoreServices
 
 class ShareViewController: SLComposeServiceViewController, CLLocationManagerDelegate {{
-    
+
     // MARK: - Configuration
     private let serverURL = "{server_url}"
     private let timeout: TimeInterval = 30.0
-    
+
     // MARK: - Properties
     private var locationManager: CLLocationManager?
     private var currentLocation: CLLocation?
     private var sharedContent: [String: Any] = [:]
     private var isProcessing = false
-    
+
     // MARK: - Lifecycle
     override func viewDidLoad() {{
         super.viewDidLoad()
@@ -164,13 +164,13 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
         setupUI()
         extractSharedContent()
     }}
-    
+
     // MARK: - Setup
     private func setupLocationManager() {{
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.desiredAccuracy = kCLLocationAccuracyBest
-        
+
         if CLLocationManager.locationServicesEnabled() {{
             switch locationManager?.authorizationStatus {{
             case .notDetermined:
@@ -182,22 +182,22 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     private func setupUI() {{
         title = "Save to Atlas"
         placeholder = "Add notes (optional)..."
         charactersRemaining = 280
-        
+
         // Customize appearance
         navigationController?.navigationBar.tintColor = .systemBlue
     }}
-    
+
     // MARK: - Content Extraction
     private func extractSharedContent() {{
         guard let extensionItem = extensionContext?.inputItems.first as? NSExtensionItem else {{
             return
         }}
-        
+
         for attachment in extensionItem.attachments ?? [] {{
             if attachment.hasItemConformingToTypeIdentifier(kUTTypeURL as String) {{
                 extractURL(from: attachment)
@@ -210,31 +210,31 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     private func extractURL(from attachment: NSItemProvider) {{
         attachment.loadItem(forTypeIdentifier: kUTTypeURL as String, options: nil) {{ [weak self] (item, error) in
             guard let url = item as? URL else {{ return }}
-            
+
             DispatchQueue.main.async {{
                 self?.sharedContent["type"] = "url"
                 self?.sharedContent["content"] = url.absoluteString
                 self?.sharedContent["title"] = url.absoluteString
-                
+
                 // Try to get page title if available
                 if let title = self?.extensionContext?.inputItems.first?.attributedTitle?.string,
                    !title.isEmpty {{
                     self?.sharedContent["title"] = title
                 }}
-                
+
                 self?.updateUI()
             }}
         }}
     }}
-    
+
     private func extractText(from attachment: NSItemProvider) {{
         attachment.loadItem(forTypeIdentifier: kUTTypeText as String, options: nil) {{ [weak self] (item, error) in
             guard let text = item as? String else {{ return }}
-            
+
             DispatchQueue.main.async {{
                 self?.sharedContent["type"] = "text"
                 self?.sharedContent["content"] = text
@@ -243,7 +243,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     private func extractImage(from attachment: NSItemProvider) {{
         attachment.loadItem(forTypeIdentifier: kUTTypeImage as String, options: nil) {{ [weak self] (item, error) in
             DispatchQueue.main.async {{
@@ -255,11 +255,11 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     private func extractFile(from attachment: NSItemProvider) {{
         attachment.loadItem(forTypeIdentifier: kUTTypeFileURL as String, options: nil) {{ [weak self] (item, error) in
             guard let fileURL = item as? URL else {{ return }}
-            
+
             DispatchQueue.main.async {{
                 self?.sharedContent["type"] = "file"
                 self?.sharedContent["content"] = fileURL.absoluteString
@@ -268,32 +268,32 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     private func updateUI() {{
         // Update the UI with extracted content information
         if let title = sharedContent["title"] as? String {{
             self.textView.text = "Content: \\(title)\\n\\n"
         }}
     }}
-    
+
     // MARK: - SLComposeServiceViewController Overrides
     override func isContentValid() -> Bool {{
         // Validation logic
         return !sharedContent.isEmpty && !isProcessing
     }}
-    
+
     override func didSelectPost() {{
         guard !isProcessing else {{ return }}
         isProcessing = true
-        
+
         // Add user notes
         if let notes = contentText, !notes.isEmpty {{
             sharedContent["notes"] = notes
         }}
-        
+
         // Add metadata
         addMetadata()
-        
+
         // Send to Atlas
         sendToAtlas() {{ [weak self] success in
             DispatchQueue.main.async {{
@@ -302,12 +302,12 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     override func configurationItems() -> [Any]! {{
         // Custom configuration options
         return []
     }}
-    
+
     // MARK: - Metadata
     private func addMetadata() {{
         var metadata: [String: Any] = [
@@ -316,7 +316,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             "device_info": getDeviceInfo(),
             "capture_context": "share_extension"
         ]
-        
+
         // Add location if available
         if let location = currentLocation {{
             metadata["location"] = [
@@ -326,10 +326,10 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
                 "timestamp": ISO8601DateFormatter().string(from: location.timestamp)
             ]
         }}
-        
+
         sharedContent["metadata"] = metadata
     }}
-    
+
     private func getSourceApp() -> String {{
         // Try to determine source app
         if let hostAppBundleID = extensionContext?.inputItems.first?.userInfo?["NSExtensionItemsUserInfoKey"] as? String {{
@@ -337,7 +337,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
         }}
         return "unknown"
     }}
-    
+
     private func getDeviceInfo() -> [String: Any] {{
         let device = UIDevice.current
         return [
@@ -348,7 +348,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             "orientation": getOrientationString()
         ]
     }}
-    
+
     private func getOrientationString() -> String {{
         switch UIDevice.current.orientation {{
         case .portrait: return "portrait"
@@ -360,19 +360,19 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
         default: return "unknown"
         }}
     }}
-    
+
     // MARK: - Network Communication
     private func sendToAtlas(completion: @escaping (Bool) -> Void) {{
         guard let url = URL(string: serverURL) else {{
             completion(false)
             return
         }}
-        
+
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.timeoutInterval = timeout
-        
+
         do {{
             let jsonData = try JSONSerialization.data(withJSONObject: sharedContent)
             request.httpBody = jsonData
@@ -380,7 +380,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             completion(false)
             return
         }}
-        
+
         URLSession.shared.dataTask(with: request) {{ data, response, error in
             if let error = error {{
                 print("Atlas capture error: \\(error.localizedDescription)")
@@ -389,7 +389,7 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
                 completion(false)
                 return
             }}
-            
+
             if let httpResponse = response as? HTTPURLResponse {{
                 completion(httpResponse.statusCode == 200)
             }} else {{
@@ -397,15 +397,15 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}.resume()
     }}
-    
+
     private func storeForOfflineRetry() {{
         // Store content for offline retry
         let timestamp = Int(Date().timeIntervalSince1970)
         let fileName = "atlas_offline_\\(timestamp).json"
-        
+
         if let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {{
             let fileURL = documentsPath.appendingPathComponent(fileName)
-            
+
             do {{
                 let jsonData = try JSONSerialization.data(withJSONObject: sharedContent, options: .prettyPrinted)
                 try jsonData.write(to: fileURL)
@@ -414,16 +414,16 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
             }}
         }}
     }}
-    
+
     // MARK: - Location Manager Delegate
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {{
         currentLocation = locations.last
     }}
-    
+
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {{
         print("Location error: \\(error.localizedDescription)")
     }}
-    
+
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {{
         switch status {{
         case .authorizedWhenInUse, .authorizedAlways:
@@ -465,24 +465,24 @@ class ShareViewController: SLComposeServiceViewController, CLLocationManagerDele
 import Foundation
 
 class OfflineSyncManager {
-    
+
     static let shared = OfflineSyncManager()
     private let serverURL: String
     private let documentsDirectory: URL
-    
+
     private init() {
         self.serverURL = "'''
             + self._build_server_url()
             + """"
         self.documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     }
-    
+
     // MARK: - Offline Storage
     func storeOfflineContent(_ content: [String: Any]) -> Bool {
         let timestamp = Int(Date().timeIntervalSince1970)
         let fileName = "atlas_offline_\\(timestamp).json"
         let fileURL = documentsDirectory.appendingPathComponent(fileName)
-        
+
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: content, options: .prettyPrinted)
             try jsonData.write(to: fileURL)
@@ -492,17 +492,17 @@ class OfflineSyncManager {
             return false
         }
     }
-    
+
     // MARK: - Sync Operations
     func syncOfflineContent(completion: @escaping (Int, Int) -> Void) {
         let offlineFiles = getOfflineFiles()
         var successCount = 0
         var failureCount = 0
         let dispatchGroup = DispatchGroup()
-        
+
         for fileURL in offlineFiles {
             dispatchGroup.enter()
-            
+
             syncFile(fileURL) { success in
                 if success {
                     successCount += 1
@@ -513,55 +513,55 @@ class OfflineSyncManager {
                 dispatchGroup.leave()
             }
         }
-        
+
         dispatchGroup.notify(queue: .main) {
             completion(successCount, failureCount)
         }
     }
-    
+
     private func getOfflineFiles() -> [URL] {
         do {
             let fileURLs = try FileManager.default.contentsOfDirectory(
                 at: documentsDirectory,
                 includingPropertiesForKeys: nil
             )
-            
+
             return fileURLs.filter { $0.lastPathComponent.hasPrefix("atlas_offline_") }
         } catch {
             print("Failed to get offline files: \\(error)")
             return []
         }
     }
-    
+
     private func syncFile(_ fileURL: URL, completion: @escaping (Bool) -> Void) {
         do {
             let jsonData = try Data(contentsOf: fileURL)
             let content = try JSONSerialization.jsonObject(with: jsonData) as? [String: Any]
-            
+
             guard let content = content else {
                 completion(false)
                 return
             }
-            
+
             sendToAtlas(content, completion: completion)
-            
+
         } catch {
             print("Failed to read offline file: \\(error)")
             completion(false)
         }
     }
-    
+
     private func sendToAtlas(_ content: [String: Any], completion: @escaping (Bool) -> Void) {
         guard let url = URL(string: serverURL) else {
             completion(false)
             return
         }
-        
+
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.timeoutInterval = 30.0
-        
+
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: content)
             request.httpBody = jsonData
@@ -569,14 +569,14 @@ class OfflineSyncManager {
             completion(false)
             return
         }
-        
+
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
                 print("Sync error: \\(error.localizedDescription)")
                 completion(false)
                 return
             }
-            
+
             if let httpResponse = response as? HTTPURLResponse {
                 completion(httpResponse.statusCode == 200)
             } else {
@@ -584,7 +584,7 @@ class OfflineSyncManager {
             }
         }.resume()
     }
-    
+
     private func deleteOfflineFile(_ fileURL: URL) {
         do {
             try FileManager.default.removeItem(at: fileURL)
@@ -592,16 +592,16 @@ class OfflineSyncManager {
             print("Failed to delete offline file: \\(error)")
         }
     }
-    
+
     // MARK: - Status
     func getOfflineCount() -> Int {
         return getOfflineFiles().count
     }
-    
+
     func getTotalOfflineSize() -> Int64 {
         let files = getOfflineFiles()
         var totalSize: Int64 = 0
-        
+
         for file in files {
             do {
                 let attributes = try FileManager.default.attributesOfItem(atPath: file.path)
@@ -612,7 +612,7 @@ class OfflineSyncManager {
                 continue
             }
         }
-        
+
         return totalSize
     }
 }"""

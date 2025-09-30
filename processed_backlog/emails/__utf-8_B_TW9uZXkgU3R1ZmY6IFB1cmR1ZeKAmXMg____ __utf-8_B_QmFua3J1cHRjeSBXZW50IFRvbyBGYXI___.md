@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Bankruptcy is a very powerful part of US law. When a company files for bankruptcy, it’s usually because a lot of people have a lot of valid 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        Bankruptcy is a very powerful part of US law. When a company files for bankruptcy, it’s usually because a lot of people have a lot of valid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Purdue
-    
-  
+
+
 
 Bankruptcy is a very powerful part of US law. When a company files for bankruptcy, it’s usually because a lot of people have a lot of valid claims against it. It has borrowed a lot of money, promised to pay it back, and failed to do so; perhaps it has taken money from customers and not delivered the goods; perhaps it has promised its workers pensions and reneged on its promises; perhaps it has harmed a lot of people and been sued for damages.
 All of those people have a good moral case to get their money, and also they are legally entitled to it. But there is not enough money. And so the company files for bankruptcy, and the bankruptcy court has the power to say “nope, you don’t get the money that you deserve and are legally owed.” There are specific rules in the bankruptcy code that determine how the court uses that power — generally, secured creditors get paid back before unsecured ones, etc. — but there is also an element of negotiation and compromise among the claimants, and an element of discretion for the bankruptcy judge. The bankruptcy judge’s basic role is to make the fairest possible division of what’s left in a fundamentally unfair situation. 
@@ -101,37 +101,37 @@ But the Court now throws out the plan—and in doing so, categorically prohibits
 
 Honestly that strikes me as correct too. A bankruptcy court does not have the power to throw out lawsuits against people who are not in bankruptcy, even though that power really would be useful.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Jarkesy
-    
-  
+
+
 
 George Jarkesy Jr. is a fund manager who, according to the US Securities and Exchange Commission, did some frauds. So the SEC sued to stop him and make him pay fines. But rather than sue him in federal court, the SEC sued him in its own in-house courts.
 Why does the SEC have in-house courts? Well, historically, the answer goes something like this. The SEC has to make lots of regulatory determinations about companies and investment advisers. Investment advisers, for instance, are typically registered with the SEC. If you do certain bad things, you can’t be registered with the SEC, so the SEC sometimes needs to decide if you have done those bad things, so it can revoke your registration. How does it decide? Well, it has a sort of quasi-judicial process, in which an SEC employee called an administrative law judge hears both sides of the case (your side, and the SEC enforcement lawyers’ side) and then decides if you did it. And then you can appeal to the bosses of the SEC — the actual commissioners — if you disagree with the ALJ’s decision. The point is that the SEC, as an institution, has to make certain decisions, and the in-house courts are a way to make those decisions fairly.
@@ -144,11 +144,11 @@ The point is that the SEC’s actual legislative actions — writing rules about
 I continue to think that there is a live possibility that, in the not too distant future, the Supreme Court will rule that the SEC has no power to make rules, and all of its rules are invalid. But not today. The court ruled that Jarkesy had a constitutional right to a jury trial, and stopped there: “We do not reach the remaining constitutional issues and affirm the ruling of the Fifth Circuit on the Seventh Amendment ground alone.”
 In some sense I would count this as a victory for the SEC. Oh, sure, it lost, but it was definitely going to lose. This is a relatively narrow loss: It can’t seek fines in its in-house courts, but its basic system of rulemaking survives. For now. Still, Justice Sonia Sotomayor wrote in her dissent: “Today’s decision is a massive sea change. Litigants seeking further dismantling of the ‘administrative state’ have reason to rejoice in their win today, but those of us who cherish the rule of law have nothing to celebrate.”
 
-  
-    
+
+
       Stocks that only go up (a little)
-    
-  
+
+
 
 I wrote on Monday about a hypothetical, bad financial product:
 	You give me $100 today.	In a year, I give you your $100 back, plus any return on the S&P 500 stock index, capped at 5% (i.e. you get $105 back if the S&P is up more than 5%) and floored at 0% (i.e. you get $100 back if the S&P goes down).
@@ -188,11 +188,11 @@ But buffer funds are probably fine? (Not tax advice!) Buffer funds buy and sell
 — but enough.
 
 
-  
-    
+
+
       “Cow-lateralized debt obligation”
-    
-  
+
+
 
 At 9fin, Owen Sanderson reports:
 
@@ -203,11 +203,11 @@ A securitisation portfolio manager, not involved in the deal, said: “If it had
 
 I have given you only a small sampling of the cow puns in the piece. I feel like using cows as collateral is not vastly more challenging, conceptually, than securitizing, like, auto loans, or credit card receivables for that matter. A lot of stuff in finance rests on many layers of abstraction, at the bottom of which is “if they don’t pay you back, you gotta show up with a truck.” But the cows allow for more jokes about payment-in-steak coupons.
 
-  
-    
+
+
       Lemonhead of macro
-    
-  
+
+
 
 Man, I don’t know. We talked yesterday about James Fishback, a guy who has variously sued and been sued by Greenlight Capital over his claims that he was Greenlight’s “head of macro.” I quoted a passage from Greenlight’s latest lawsuit against Fishback that alleged that he did a bad job on something called “the Jelly Donut Assignment” in July 2023. That assignment was not explained further, though I noted that Greenlight’s founder, David Einhorn, has some history with jelly donuts as a macroeconomic metaphor. The Jelly Donut Assignment led to Fishback’s departure from Greenlight, after which he started his own hedge fund, Azoria. Anyway here’s an Axios article from October 2023:
 
@@ -217,16 +217,16 @@ How it works: Like the candy, rate hikes start off sour — the S&P fell 19% las
 
 Okay. Okay. Okay! If you have any other sweet-treat-related macroeconomic theories I do not want to hear them. Meanwhile on X, Fishback keeps posting. Here’s his 2022 comp letter ($975,000 total pay). And here he is admitting that he did a bad job on the Jelly Donut Assignment, saying “I dragged my feet on David’s ‘macro research projects’ because they were laughably stupid” and “I am a macro trader not some washed-up billionaire’s ghost writer.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 
 SpaceX Tender Offer Said to Value Company at Record $210 Billion. Bankers Say 2024 M&A Is Just Good When ‘It Should’ve Been Great.’ Some Bed Bath & Beyond Board Members Worried Secrets Were Passed to Ryan Cohen Before His $60 Million Gain. China’s Finance Elite Face $400,000 Pay Cap, Bonus Clawbacks. The new money laundering network fuelling the fentanyl crisis. The FBI’s Star Cooperator May Have Been Running New Scams All Along. UBS shakes up wealth business to align more closely with investment bank. Nvidia’s Wild Stock Swings Put AI Rally Stamina in Spotlight. RTO Mandates Are Killing the Euphoric Work-Life Balance Some Moms Found. U.S. Recovers Monet Painting, Paris Apartment From 1MDB Fugitive Jho Low. Ex-BNP Lawyer Fired for Racial Slur Loses €1.5 Million Suit. AI Al Michaels. Work besties.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am simplifying here, but actually most of the value of Purdue is not a pile of cash but rather the future profits it can make from selling opioids. So the plan is actually for Purdue to continue selling opioids — but responsibly this time — and give the proceeds to the victims.
 
 
@@ -251,48 +251,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Again, this is a six-month product. So the six-month T-bill pays about 5.3% annualized, but that means about 2.66% for six months.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -303,46 +303,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
   <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23clcmvd.5ku4/06a88bf4.gif" alt="" border="0" /></a>

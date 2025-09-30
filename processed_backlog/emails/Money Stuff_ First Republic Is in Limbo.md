@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.The two options with First Republic Bank are pretty much: Do something, o
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       First Republic
-    
-  
+
+
 
 The two options with First Republic Bank are pretty much:
 	Do something, or	Do nothing.
@@ -111,37 +111,37 @@ More generally, the theory of central banking is that central banks should lend
 But at some point, if the regulators conclude that First Republic is not viable, it is at least, like, embarrassing for them to keep lending it money. In the limit case, if all of First Republic’s deposits fled, you could imagine the Fed lending it $210 billion (up from its current $105 billion of Fed/FHLB money) so it could continue to limp along. But that’s bad! You don’t want a bank out there doing business, making loans, paying executive salaries, that is entirely funded by the Fed. You need some private-sector endorsement of the bank for the Fed to keep supporting it. 
 Also: The losses have already happened. First Republic made loans at low interest rates, now interest rates are higher, and so its loans are not worth what they used to be. As an accounting matter, those losses don’t have to be recognized yet; First Republic’s balance sheet is still technically solvent, and it can muddle along for a while. But  economically the difference between “the banking system reports billions of dollars of losses today and then normal profits afterwards” and “the banking system bleeds these losses into lower accounting profits for the next few years” is not that great, and the former is more clarifying.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Regulatory arbitrage
-    
-  
+
+
 
 I used to be a corporate equity derivatives investment banker, which means that I’d go to companies and try to convince them to buy or sell options on their own stock. If you read a finance textbook, you will get the impression that derivatives are mostly about risk management, about hedging and speculation: People who own stock buy put options to protect themselves agains price declines, or sell call options to transform some of their potential upside into cash now; people who don’t own stock buy calls to take some cheap stock-price risk, etc. 
 This describes almost none of what I was selling to these companies. What I was selling, much of the time, was tax deductions: We could build you a derivative that, sure, had the economic properties of some call options, but that took advantage of technical tax rules to get you extra deductions.
@@ -169,11 +169,11 @@ Brokered deposits have been heavily criticized by former FDIC chair Sheila Bair,
 
 Sure, yes, I don’t disagree, I’d just point out that “[product] is just gaming the [government agency] rules; the government takes all the credit risk and [company] gets the profit” describes a surprisingly large portion of finance!
 
-  
-    
+
+
       Crypto money markets
-    
-  
+
+
 
 Here is a story that you could tell about crypto in 2020 and 2021. Interest rates, in the US, in traditional finance, were very low. If you had some money and you wanted to earn a yield on it, and you put it in the bank, you’d earn roughly 0% interest, and you’d be sad. Crypto found a solution to this. The solution was that crypto platforms — exchanges, lending programs, etc. — would take your money and lend it to absolutely wild leveraged degenerate crypto traders, who would pay high interest rates on that money so they could gamble with it.
   [6]
@@ -201,15 +201,15 @@ The fund even has a digital token called BENJI that represents shares of the fun
 
 We   talked about this fund back in 2019, and I love it, though I still wish that they called the token a “Benjamin.” One way to think about the BENJI is that it is a stablecoin that is worth a dollar, lives on the blockchain, is invested in safe assets by a regulated entity and (unlike most stablecoins) pays interest. Another way to think about the BENJI is that it is just a normal government money market fund, except that the people promoting it say “blockchain” a lot, so if you are a crypto investor you will feel better about giving it your money. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 At  Charles Schwab, Being a Big Bank Has Become a Big Problem. Fed Bosses Steered Examiners Away From  Probing Problems Like SVB. Regional US banks claimed easier capital rules would turbocharge loans. US companies in distress turn to debt exchanges to dodge bankruptcy. Powell Faces Pushback Inside Fed Over Need to Cool   Wage Gains. Fed’s Jerome Powell   Tricked by Russian Pranksters Posing as Zelenskiy. JPMorgan Creates AI Model to Analyze 25 Years of   Fed Speeches. Wall Street’s New Trade:  Covid-19 Insurance Claims.   Deutsche Bank Plans More Job Cuts After Traders Trail Peers. Deutsche Bank says it was hit by a ‘ speculative attack’ during turmoil. Deutsche Bank Seeks to Win Over   Credit Suisse Clients, CFO Says. Japan’s SMBC plans to triple  stake in Jefferies in Wall Street push. Congress Pushes to Police  Stock Trading by Federal Officials. Chinese Authorities  Question Bain Staff in Shanghai. Hong Kong SFC to Issue   Crypto Exchange License Guidelines in May. Bed Bath & Beyond Shoppers Hurry to Use Their  Stacks of Coupons for the Last Time. Former Fugees Rapper  Pras Michel Convicted of Role in Foreign-Influence Scheme Tied to 1MDB. Women CEOs (Finally) Outnumber Those Named   John. “‘I thought I was buggin’! I was like,  Yo, there goes a ... peacock!’ he recalled, saying he assumed he was just too ‘high.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] See page 180 of First Republic’s  annual report, showing mortgages worth about $117.5 billion (against $136.7 billion carrying value), other loans worth $26.4 billion (against $29.3 billion), municipal securities worth about $16 billion (against $19.4 billion), agency mortgage-backed securities worth $6.4 billion (against $7.3 billion), etc.; the total difference is about $26.9 billion. Since then rates have moved and the balance sheet has changed, so don’t take that number too literally.
 
 
@@ -231,48 +231,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] What *is* the trade here? Here is Maple’s deck on the strategy, but to me the hard part is that Room40 is getting USDC (a stablecoin) and buying Treasury bills, presumably using dollars. It needs to convert the USDC into dollars, which I think means borrowing dollars secured by USDC?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cimymg.5imz/6350f8c1.gif" alt="" border="0" /></a>

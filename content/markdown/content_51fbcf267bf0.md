@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="nymag.com/intelligencer/_components/clay-meta-description/instances/citqcxl4k000vbryb2h7ctusg@published" -->
 <meta name="description" content="The president shares with Jonathan Chait a very early draft of his memoirs.">
-<meta name="twitter:description" content="The president shares with Jonathan Chait a very early draft of his memoirs."> 
+<meta name="twitter:description" content="The president shares with Jonathan Chait a very early draft of his memoirs.">
 <meta property="og:description" content="The president shares with Jonathan Chait a very early draft of his memoirs.">
 
 <!-- data-uri="nymag.com/intelligencer/_components/meta-image/instances/citqcxl4k000wbrybaoetxka0@published" -->
@@ -240,7 +240,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -320,14 +320,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -337,7 +337,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"intelligencer","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -442,11 +442,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -685,7 +685,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -945,7 +945,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -982,7 +982,7 @@ nymYTApiReady = true;
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </section>
@@ -1035,7 +1035,7 @@ data-canonical-url="http://nymag.com/intelligencer/2016/10/barack-obama-on-5-day
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-the-obama-years inline"
                   href="//nymag.com/intelligencer/tags/the-obama-years/">the obama years</a>
         </div>
@@ -1098,16 +1098,16 @@ data-canonical-url="http://nymag.com/intelligencer/2016/10/barack-obama-on-5-day
     </div>
   </header>
   <section class="body">
-    
+
     <div id="intelligencer-zephr-anchor" class="article-content inline" data-editable="content">
       <div class="lede-image-wrapper inline ">
       </div>
         <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/citqcxl53001abrybonfbvxor@published" data-word-count="93">On August 25, after a short trip to Baton Rouge to assess flooding in Louisiana and before what will likely be his last visit to China on Air Force One, Barack Obama sat down at the White House to reflect on the past eight years. He led America through a period of dramatic, convulsive change — an era tha<em>t New York</em> Magazine <a href="https://nymag.com/daily/intelligencer/2016/10/8-years-in-obamas-america.html" target="_blank">explores this week in its cover story</a>. Before his conversation with Jonathan Chait, he chose five moments that, he believes, will have outsized historical impact. Here is their conversation in full.<br></p>
 
-<h2  class="clay-subheader" data-editable="text" 
+<h2  class="clay-subheader" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd4v6v002tqky6nqjqgmkw@published" >
   <style></style>
-  
+
     The Republicans
 
 </h2>
@@ -1117,7 +1117,7 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd4v6v
 <aside data-uri="nymag.com/intelligencer/_components/related-stories/instances/cittdlg0f001cl5ycfgm2njaj@published" class="related-stories" data-track-type="article-list" data-track-component-title="Related Stories">
   <h2 class="related-stories-title" data-editable="title">Related Stories</h2>
   <div class="related-stories-content" data-editable="content">
-      
+
 <div data-uri="nymag.com/intelligencer/_components/related-story/instances/cittdlg8o000byby7xfhnzr0d@published" class="related-story" data-editable="url"
   data-track-type="article-link" data-track-component-name="related-stories" data-track-page-uri="nymag.com/intelligencer/_pages/citq686ae0067s6y9nsu8hn4e@published" data-track-headline="8 Years in Obama’s America, By Barack Obama and 60 Other Players and Witnesses" data-track-index="0"
 >
@@ -1178,10 +1178,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd4v6v
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/citqd3jnm000jd8y8j3bqywgv@published" data-word-count="294">And that goes back to the point I made earlier: <a href="http://www.politico.com/story/2009/11/when-a-hug-becomes-a-kiss-of-death-029519" target="_blank">They’re looking at Charlie Crist down in Florida</a>. One hug [from me] and he was toast. Chris Christie couldn’t get his presidential race launched — it was basically over before it started — because he was too friendly and cooperative with me in accepting federal aid for a state that had been <a href="https://nymag.com/daily/intelligencer/2013/01/chris-christie-nails-republicans-on-hurricane-sandy-aid.html" target="_blank">devastated by a hurricane</a>. They’re imagining the potential problems that arise, so it’s pretty hard for them to publicly say, “Obama’s a perfectly reasonable guy, but we just can’t work with him because our base thinks he’s the Antichrist.” It’s a lot easier for them to say, “Oh, the guy’s not listening to us,” or, “He’s uncompromising.” I understand that, it’s not something that has bothered me personally. In fact, sometimes I tease them about it behind the scenes; I’ll tell them, “Look, if you need some help, me attacking you or you know …” And the times where we have gotten things done, it has been very important for me to, frankly, help them try to manage their base. An example where it didn’t work in the end, but where I displayed, I think, great strategic patience, was on comprehensive immigration reform. We deliberately stayed behind the scenes for a very long time so that the Republicans who were working in the Senate could do their business with their Democratic counterparts. There have been times where we finally got a budget resolution where we might have been staffing it and advising it — and I’m talking to Harry Reid and I’m talking to Nancy Pelosi publicly — and we’re quiet and letting them negotiate with their counterparts in Congress because if it looks like they’re negotiating with me, it doesn’t help.</p>
 
-<h2  class="clay-subheader" data-editable="text" 
+<h2  class="clay-subheader" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd858t002uqky6ygyyehp3@published" >
   <style></style>
-  
+
     Obamacare
 
 </h2>
@@ -1208,7 +1208,7 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd858t
 
 </div>
       <figcaption itemprop="caption" class="attribution">
-        
+
         <cite class="credit">Photo: Dan Winters</cite>
       </figcaption>
 
@@ -1218,16 +1218,16 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqd858t
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "author": "Dan Winters",
-      
+
       "contentUrl": "https://pyxis.nymag.com/v1/imgs/aca/415/3dcae4d158c0e19441bb2893cd9bbbaa96-obama-interview-2.2x.w710.jpg"
     }
   </script>
 </div>
 
-<h2  class="clay-subheader" data-editable="text" 
+<h2  class="clay-subheader" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqdbxtc002vqky62rr0suhv@published" >
   <style></style>
-  
+
     The BP Oil Spill
 
 </h2>
@@ -1242,10 +1242,10 @@ data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqdbxtc
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/citqd3js0001fbrybo3q3x7op@published" data-word-count="345"><strong>You think that you rebutted the presumption of incompetence that was attached to the oil spill</strong><strong>?</strong><br>Absolutely, until [the launch of] <a href="https://www.healthcare.gov/" target="_blank">healthcare.gov</a>, which was entirely on us. I think our hard-won reputation for good management took a well-deserved blow. That was dropping your left and getting socked in the jaw. Although even there we learned some lessons and, as a consequence, I think, have really reinvigorated our whole digital shop here. But the general point is that staying focused and disciplined in moments where people are most likely — and certainly the press is most likely — to panic has overall served us well. It doesn’t always serve us well in the short term. It does serve us well in the long term, and that’s a culture that we’ve been able to build here. There are times where I know that that’s perceived as Spock-like or cold or overly rational. What I think people don’t always appreciate is I go and visit these folks who are affected by these issues, and they break my heart. And I’m grieving and thinking about them all the time. It’s not a lack of emotion. It’s an understanding that the single most important thing I can do for them is to get this right. And I think for the most part we’ve been able to do that. Part of it also, by the way, is to do with making sure you’ve got the right people from the start. I was just down in <a href="https://nymag.com/daily/intelligencer/2016/08/louisiana-is-in-for-a-long-painful-recovery.html" target="_blank">Louisiana dealing with the flooding</a> there with [FEMA director] Craig Fugate. There’s an example of, whether you want to attribute it to luck or good management, I’ve got the best guy — on earth, maybe — handling natural disasters. He is just an outstanding public servant. Our insistence on having people who know what they’re doing, and my insistence to my team and the White House that we start with “What’s the right thing to do?” and then we figure out the politics or the optics after we’ve figured that out, is something I don’t apologize for.</p>
 
-<h2  class="clay-subheader" data-editable="text" 
+<h2  class="clay-subheader" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqddvw6001hlgy9nkhvda27@published" >
   <style></style>
-  
+
     Cuba
 
 </h2>
@@ -1268,10 +1268,10 @@ Mandela dies, and I’m asked to speak. And frankly, I’m not sure we had even 
 
 <p class="clay-paragraph" data-editable="text" data-uri="nymag.com/intelligencer/_components/clay-paragraph/instances/citqd3jv40011ucy72s5wnnlm@published" data-word-count="273"><strong>But that was used against you.</strong><br>Yeah, but I didn’t care, because what we discovered subsequently, which was my working theory when I came in, was that Chávez thrived on being elevated as this major enemy of the United States. And if you treated him as he was, which was an authoritarian of a country that wasn’t working economically or politically and who couldn’t really project much beyond rhetoric and posed no threat to the United States, then he would shrink. So it might have hurt me because Republicans were hollering in D.C., but it certainly didn’t hurt me in the region. And it proved, in fact, to disarm him in a way that would allow us to work much more closely with the Cubans or with the Mexicans or the Brazilians or the Chileans or others who try to straddle some of the traditional left-right splits in Latin America. So bottom line is: I shook his hand. I didn’t consider it to be some momentous gesture. It was me shaking the hand of an older man who was sitting on the stage when I was doing a eulogy. But the Cubans responded in a way that maybe I didn’t expect. At that point, we had already begun to have some contact with the Cuban government and were thinking about what might happen. They interpreted that handshake, and my willingness to do that on the world stage, as a signal of greater seriousness. And so it did, I think, facilitate the series of negotiations that then took place. The Vatican was very helpful. And it led to the ultimate policy announcement that we made.</p>
 
-<h2  class="clay-subheader" data-editable="text" 
+<h2  class="clay-subheader" data-editable="text"
 data-uri="nymag.com/intelligencer/_components/clay-subheader/instances/citqdf5rn002xqky6yyt8o2wk@published" >
   <style></style>
-  
+
     Drones
 
 </h2>
@@ -1311,7 +1311,7 @@ I’ll make this last point. On all the issues we’ve discussed, but certainly 
     <a class="single-related-story-link" href="https://nymag.com/daily/intelligencer/2016/10/8-years-in-obamas-america.html"
       data-track-type="article-link" data-track-component-name="single-related-story" data-track-page-uri="nymag.com/daily/intelligencer/_pages/citq686ae0067s6y9nsu8hn4e@published" data-track-headline="8 Years in Obama’s America, By Barack Obama and 60 Other Players and Witnesses" data-track-component-title="related"
     >8 Years in Obama’s America, By Barack Obama and 60 Other Players and Witnesses</a>
-    
+
 </aside>
 
 </div>
@@ -1475,7 +1475,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Intelligencer"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1502,8 +1502,8 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 </section>
-    <section class="secondary" data-editable="secondary" data-track-zone="secondary">  
-  
+    <section class="secondary" data-editable="secondary" data-track-zone="secondary">
+
 <div data-uri="nymag.com/intelligencer/_components/curated-feed/instances/homepage@published" data-editable="settings" class="curated-feed is-on-article-page">
 
 <div class="feed-header">THE FEED</div>
@@ -1530,7 +1530,7 @@ const ldJsonScript = document.createElement('script');
               </div>
             </div>
           </a>
-          
+
           <a href="https://nymag.com/intelligencer/article/how-donald-trump-has-made-himself-investigation-proof.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
               <time class="timestamp" datetime="2025-09-15T09:00:34.326Z">5:00 a.m.</time>
@@ -1570,9 +1570,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
         <div class="most-popular-embed">
           <section data-uri="nymag.com/intelligencer/_components/most-popular/instances/curated-feed@published" class="most-popular_curated-feed" data-track-type="article-list">
@@ -1871,9 +1871,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/mamdanis-new-ideas-on-crime-make-his-opponents-look-old.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2047,9 +2047,9 @@ const ldJsonScript = document.createElement('script');
             </div>
           </a>
         <div class="feed-ad">
-        
-        
-        
+
+
+
         </div>
           <a href="https://nymag.com/intelligencer/article/diagnosed-narcissists-npd-disorder-coaching-hustle-influencers-tiktok-youtube.html" class="feed-item article">
             <div class="feed-item-timestamp-container">
@@ -2165,10 +2165,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="nymag.com/intelligencer/_components/choreographer/instances/cl38nlk2i00223f6nrvf6t10w@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2187,7 +2187,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2777,7 +2777,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="nymag.com/intelligencer/_components/affiliate-links/instances/intelligencer@published" class="affiliate-links"
    data-amazon="nymagcom-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -3052,7 +3052,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

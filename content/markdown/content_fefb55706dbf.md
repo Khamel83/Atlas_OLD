@@ -71,7 +71,7 @@
               <div  id="block-header-top" class="block block-content ced1bdcf-a613-4da6-ae1e-cd14a7af31d2">
 
 <div class="block-content basic body text-with-summary label-hidden text-long"><p><span><a href="http://www.stanford.edu/">Stanford University</a></span></p></div>
-      
+
   </div>
 
 </div>
@@ -84,22 +84,22 @@
         1024:flex-row 1024:items-center
       ">
                   <div  id="block-fsi-domain-logo" class="block fsi-domain-logo">
-  
-    
+
+
       <div class="subdomain-logo__left py-5">
-      
+
               <a href="/" title="Home" rel="home" class="hidden 1024:block">
           <img src="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/2025-01/stanford-line2-822_crop.png" alt="Logo for the Cyber Policy Center"/>
         </a>
-      
+
               <a href="/" title="Home" rel="home" class="1024:hidden">
           <img src="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/2025-01/stanford-line2-822_crop.png" alt="Logo for the Cyber Policy Center"/>
         </a>
           </div>
 </div>
 <div  id="block-fsi-subdomain-logo" class="block fsi-subdomain-logo">
-  
-    
+
+
         <div class="subdomain-logo__right">
       <p>The Cyber Policy Center is part of the&nbsp;<a href="http://fsi.stanford.edu/">Freeman Spogli Institute for International Studies</a>.</p>
     </div>
@@ -131,14 +131,14 @@
 </button>
     <div  class="header-navigation region region-navigation bg-red nav-collapsible">
     <div class="container relative">
-              
+
 <div class="search-block-form google-cse search-form-block block block-search container-inline" data-drupal-selector="search-block-form" id="block-stanford-fsi-search-header" role="search">
-  
+
       <span class="visually-hidden">Search</span>
-    
+
       <form action="/search/google" method="get" id="search-block-form" accept-charset="UTF-8">
-  
-    
+
+
 <div class="js-form-item form-item form-item-edit-keys">
               <input title="Enter the terms you wish to search for." placeholder="Search Cyber" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="40" maxlength="128" class="form-search form-item__textfield" />
         </div>
@@ -149,80 +149,80 @@
 
 </div>
 <div  id="block-fsi-main-menu" class="block fsi-main-menu main-menu-12404442">
-  
-    
-      
+
+
+
 <nav id="main-nav" class="main-nav bg-red">
 
 <ul  class="main-menu hidden">
-            
+
 <li  class="main-menu__item main-menu__item--with-sub">
                 <a href="/sciabout" class="main-menu__link main-menu__link--with-sub" data-drupal-link-system-path="node/29485">About</a>
               <button class="expand-sub">
         <span class="expand-sub--opened">close menu</span>
         <span class="expand-sub--closed">open menu</span>
       </button>
-          
-                                    
-    
+
+
+
 <ul  class="main-menu main-menu--sub main-menu--sub-1 hidden">
-            
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="/research/project-on-democracy-and-the-internet" class="main-menu__link main-menu__link--sub main-menu__link--sub-1">Program on Democracy and the Internet</a>
           </li>
-          
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="/social-media-lab" class="main-menu__link main-menu__link--sub main-menu__link--sub-1" data-drupal-link-system-path="node/30478">Social Media Lab</a>
           </li>
-          
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="/gdpi" class="main-menu__link main-menu__link--sub main-menu__link--sub-1">Global Digital Policy Incubator</a>
           </li>
-          
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="/content/program-platform-regulation" class="main-menu__link main-menu__link--sub main-menu__link--sub-1" data-drupal-link-system-path="node/30136">Program on Platform Regulation</a>
           </li>
-          
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="/content/program-governance-emerging-technologies" class="main-menu__link main-menu__link--sub main-menu__link--sub-1" data-drupal-link-system-path="node/35102">Governance of Emerging Technologies</a>
           </li>
-          
+
 <li  class="main-menu__item main-menu__item--sub main-menu__item--sub-1">
                 <a href="https://www.pascl.stanford.edu/" class="main-menu__link main-menu__link--sub main-menu__link--sub-1">Polarization and Social Change Lab</a>
           </li>
       </ul>
-  
+
       </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/scieducation" class="main-menu__link" data-drupal-link-system-path="node/29469">Courses</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/sciprojects" class="main-menu__link" data-drupal-link-system-path="node/29465">Research</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/people" class="main-menu__link" data-drupal-link-system-path="node/30631">People</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/news" class="main-menu__link" data-drupal-link-system-path="node/29733">News</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/cyber-events" class="main-menu__link" data-drupal-link-system-path="node/30150">Events</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/publications" class="main-menu__link" data-drupal-link-system-path="node/29761">Publications</a>
           </li>
-          
+
 <li  class="main-menu__item">
                 <a href="/content/opportunities-cpc" class="main-menu__link" data-drupal-link-system-path="node/30537">Opportunities</a>
           </li>
       </ul>
-  
+
 </nav>
 
 </div>
@@ -231,8 +231,8 @@
   </div>
 
 <div  id="block-views-block-alert-block-alert" class="block views-element-container views-block alert-block-alert">
-  
-    
+
+
       <div><div class="view alert block-alert js-view-dom-id-ca26a57d47295b89df518b428f3f69dd92e0d64ea5e77db6d913906fedf1f1f7">
 
 </div>
@@ -241,20 +241,20 @@
 </div>
 
 </header>
-      
-    
-    
-    
+
+
+
+
     <div  class="main">
-    <a id="main-content" tabindex="-1"></a>        
+    <a id="main-content" tabindex="-1"></a>
       <main role="main"  class="main-content">
 
 <div class="region region--content grid-full layout--pass--content-medium ie11-autorow" id="content">
     <div data-drupal-messages-fallback class="hidden"></div>
 <div  id="block-stanford-fsi-content" class="block system-main-block">
-  
-    
-      
+
+
+
 <article about="/news/platform-transparency-and-accountability-act-new-legislation-addresses-platform-data-secrecy" class="node node--type-news node--view-mode-full">
   <div class="node__content">
 
@@ -265,7 +265,7 @@
 
 <div  class="header-news pt-5 pb-10 768:pt-[70px] 768:pb-7.5">
   <div  class="header-news__container container container--smaller border-t-1 border-t-gray-e3 border-b-5 border-b-red py-5 768:pt-7 768:pb-8" >
-          
+
   <nav  class="breadcrumb mb-[11px]" role='navigation' aria-labelledby='system-breadcrumb'>
     <h2  class="visually-hidden" id='system-breadcrumb'>Breadcrumb</h2>
     <ol  class="breadcrumb__list mb-[11px]">
@@ -281,7 +281,7 @@
 </li>
         </ol>
   </nav>
-    
+
                       <div  class="header-news__excerpt link--in-article" >
               <h1 class="mb-3.5">
           <div class="node news title string label-hidden">The Platform Transparency and Accountability Act: New legislation addresses platform data secrecy</div>
@@ -290,31 +290,31 @@
                               New legislation, informed by testimony from Nathaniel Persily, Stanford Law professor and Co-director of the Cyber Policy Center, aims to address the concerning disparity between what platforms know about us, and what we know about them.
                         </div>
     <div  class="header-news__annotation flex flex-wrap items-center pt-5">
-              
+
 <div  class="bar-author-date bar-author-date--has-authors flex flex-wrap 480m:justify-center 480m:w-full">
 
 <div  class="authors-list flex flex-wrap">
   <ul  class="authors-list__list flex flex-wrap 480m:justify-center mb-2.5">
-          
-      
+
+
       <li  class="authors-list__item inline-flex">
                               Tara Wright      </li>
       </ul>
   </div>
-  
+
   </div>
                   <div  class="header-news__social flex flex-wrap 480:ml-auto 480m:justify-center 480m:w-full">
               </div>
     </div>
   </div>
 </div>
-    
-    
-    
+
+
+
             <div class="node news field-hero-image entity-reference label-hidden">
 
 <div  class="image-caption max-w-[935px] container-side-styles">
-      
+
 <figure
    class="figure"
   >
@@ -327,7 +327,7 @@
           <source srcset="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/727x409/public/hero/capitol-building.png?h=ae1281eb&amp;itok=HUQIqxYi 1x, https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/727x409_x2/public/hero/capitol-building.png?h=ae1281eb&amp;itok=tB1l7T1y 2x" media="all and (max-width: 767px)" type="image/png" width="727" height="409"/>
           <source srcset="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/440x245/public/hero/capitol-building.png?h=ae1281eb&amp;itok=PBqSvJXY 1x, https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/440x245_x2/public/hero/capitol-building.png?h=ae1281eb&amp;itok=sQT2pEph 2x" media="all and (max-width: 480px)" type="image/png" width="440" height="245"/>
         <!--[if IE 9]></video><![endif]-->
-      
+
 <img
    class="image"
       src="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/895x498/public/hero/capitol-building.png?h=ae1281eb&amp;itok=5focyWYm"
@@ -347,8 +347,8 @@
 
 </div>
 </div>
-      
-    
+
+
       <div class="node news field-paragraphs entity-reference-revisions label-hidden">
               <div class="paragraph-item ptype-full-html">
 
@@ -376,23 +376,23 @@
 	<p style="text-align: center;"><a class="btn" href="https://www.dropbox.com/s/r2tgzblora0mayl/Persily%20Senate%20HSGAC%20Testimony.pdf?dl=0">Testimony Text</a> <a class="btn" href="https://www.coons.senate.gov/imo/media/doc/text_pata_117.pdf">Legislation Text</a></p>
 </div>
 </div>
-      
+
 </div>
 </div>
 </div>
               <div class="paragraph-item ptype-additional-content-people">
 
 <div class="additional-content-people">
-  
+
 <div  class="container container--additional-content py-4 1024:py-5 additional-content-people" >
   <div  class="additional-content additional-content--people flex flex-col 768:flex-row-reverse" >
               <div class="
         flex justify-center
         768:block 768:w-[188px] 768:shrink-0
       ">
-          
+
       </div>
-    
+
     <div class="
       pt-5 px-8 pb-2.5 768:pt-8
        mr-auto
@@ -401,10 +401,10 @@
 <h2
    class="h h2"
 >Nathaniel Persily</h2>
-      
+
               <div class="mb-3.5">Co-director, Cyber Policy Center, James B. McClatchy Professor of Law at Stanford Law School</div>
-      
-      
+
+
         </div>
     </div>
 </div>
@@ -413,7 +413,7 @@
           </div>
 
 <div class="container text-center py-4 1024:py-5">
-    
+
 <a class="link link--btn"
 href="http://cyber.fsi.stanford.edu/news">
 
@@ -433,8 +433,8 @@ All Cyber News
               <div  class="footer__social region region-footer-social">
   <div class="container flex items-center justify-center 768:justify-between py-4">
           <div  id="block-fsi-center-logo" class="block fsi-center-logo">
-  
-    
+
+
         <a href="/" rel="home">
       <img src="https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/2025-01/stanford-line2-822_crop.png" alt="Logo for the Cyber Policy Center"/>
     </a>
@@ -460,42 +460,42 @@ All Cyber News
 Stanford University<br>
 Stanford, CA 94305-6055</div>
 </div>
-      
+
   </div>
 <div  id="block-footer-menu" class="menu-block footer block block-menu navigation menu--footer">
-      
+
   <h2 id="menu-blockfooter-menu">Navigate</h2>
 
 <ul  class="menu">
-            
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/research" class="menu__link">Research</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/education" class="menu__link">Education</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/policy" class="menu__link">Policy</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/people/institute-faculty" class="menu__link">People</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/centers" class="menu__link">Centers</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/news" class="menu__link">News</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/events" class="menu__link">Events</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://fsi.stanford.edu/about" class="menu__link">About</a>
           </li>
@@ -505,7 +505,7 @@ Stanford, CA 94305-6055</div>
 <div  id="block-footer-follow-us" class="block block-content _c2785de-22f2-473e-bc20-d8b2d9c45b38">
 
 <div class="block-content basic body text-with-summary label-hidden text-long"><h3 class="footer-panel__title">Follow Us</h3><p><strong>General inquiries</strong><br>650-723-4581</p><ul class="social-menu"><li class="social-menu__item"><a class="social-menu__link social-menu__link--mail" href="https://fsi.stanford.edu/content/get-connected" target="_blank">Mail</a></li><li class="social-menu__item"><a class="social-menu__link social-menu__link--bluesky" href="https://bsky.app/profile/fsi.stanford.edu" target="_blank">Bluesky</a></li><li class="social-menu__item"><a class="social-menu__link social-menu__link--youtube" href="https://www.youtube.com/channel/UCB2X9yR4GZLfrCe4jChIEwg" target="_blank">Youtube</a></li><li class="social-menu__item"><a class="social-menu__link social-menu__link--instagram" href="https://www.instagram.com/fsi_stanford" target="_blank">Instagram</a></li><li class="social-menu__item"><a class="social-menu__link social-menu__link--linkedin" href="https://www.linkedin.com/company/freeman-spogli-institute-for-international-studies" target="_blank">LinkedIn</a></li><li class="social-menu__item"><a class="social-menu__link social-menu__link--threads" href="https://www.threads.net/@fsi_stanford" target="_blank">Threads</a></li></ul></div>
-      
+
   </div>
 <div  id="block-footer-support-us" class="block block-content f442c8ab-1101-42e7-960d-79b4d0701c1c">
 
@@ -515,7 +515,7 @@ Stanford, CA 94305-6055</div>
 <p>Learn more about how your support makes a difference or make a gift now</p>
 <a class="link link--btn link--yellow" href="https://fsi.stanford.edu/supporting-fsi">Make a gift</a></div>
 </div>
-      
+
   </div>
 
 </div>
@@ -535,23 +535,23 @@ Stanford, CA 94305-6055</div>
       <img src="/themes/custom/stanford_fsi/images/footer-stanford-logo.png" class="w-[112px] m-auto 768:w-[120px]" alt="Footer logo">
     </div>
           <div  id="block-footer-stanford-menu" class="menu-block footer-stanford block block-menu navigation menu--footer-stanford">
-            
+
   <h2 class="visually-hidden" id="menu-blockfooter-stanford-menu">Footer Stanford Menu</h2>
 
 <ul  class="menu">
-            
+
 <li  class="menu__item">
                 <a href="https://www.stanford.edu/" class="menu__link">Stanford Home</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://visit.stanford.edu/plan/" class="menu__link">Maps &amp; Directions</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://www.stanford.edu/search/" class="menu__link">Search Stanford</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://emergency.stanford.edu/" class="menu__link">Emergency Info</a>
           </li>
@@ -559,35 +559,35 @@ Stanford, CA 94305-6055</div>
 
 </div>
 <div  id="block-footer-terms-menu" class="menu-block footer-terms block block-menu navigation menu--footer-terms">
-            
+
   <h2 class="visually-hidden" id="menu-blockfooter-terms-menu">Footer Terms Menu</h2>
 
 <ul  class="menu">
-            
+
 <li  class="menu__item">
                 <a href="https://www.stanford.edu/site/terms/" class="menu__link">Terms of Use</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://www.stanford.edu/site/privacy/" class="menu__link">Privacy</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://uit.stanford.edu/security/copyright-infringement" class="menu__link">Copyright</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="menu__link">Trademarks</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" class="menu__link">Non-Discrimination</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://www.stanford.edu/site/accessibility/" class="menu__link">Accessibility</a>
           </li>
-          
+
 <li  class="menu__item">
                 <a href="https://uit.stanford.edu/security/copyright-infringement" class="menu__link">Copyright Complaints</a>
           </li>
@@ -600,7 +600,7 @@ Stanford, CA 94305-6055</div>
 <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
 </div>
 </div>
-      
+
   </div>
 
 </div>

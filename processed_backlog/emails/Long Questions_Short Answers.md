@@ -11,15 +11,15 @@ Welcome to the 811 newly Not Boring people who have joined us since our last ess
 Today’s Weekly Dose is brought to you by… Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 As a startup founder, finding product-market fit is your top priority.
 But landing bigger customers requires SOC 2 or ISO 27001 compliance—a time-consuming process that pulls you away from building and shipping.
-That’s where Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] comes in.  
+That’s where Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] comes in.
 By automating up to 90% of the work needed for SOC 2, ISO 27001, and more, Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] gets you compliant fast. Vanta opens the door to growth.
 It works. Over 9,000 companies like Atlassian, Factory, and Chili Piper streamline compliance with Vanta’s automation and trusted network of security experts. Whether you’re closing your first deal or gearing up for growth, Vanta makes compliance easy.
 It’s time to grow your ARR. Vanta can help Get $1,000 off Vanta here [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]:
-Hi friends 👋, 
-Happy Wednesday! 
-I’ve been spending a lot of time thinking about the Big Question I’m trying to answer in my work and life. This essay, like many, isn’t meant to provide an answer, but to share how I’m thinking through it in real-time. 
-As more knowledge workers spend their days prompting LLMs, it’s become popular to argue that asking good questions is becoming more valuable. What is less obvious but I think more interesting is that it will expose how little we actually care about answers, and in turn, what makes questions so valuable in the first place. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Wednesday!
+I’ve been spending a lot of time thinking about the Big Question I’m trying to answer in my work and life. This essay, like many, isn’t meant to provide an answer, but to share how I’m thinking through it in real-time.
+As more knowledge workers spend their days prompting LLMs, it’s become popular to argue that asking good questions is becoming more valuable. What is less obvious but I think more interesting is that it will expose how little we actually care about answers, and in turn, what makes questions so valuable in the first place.
+Let’s get to it.
 Long Questions/Short Answers
 Writers all know a secret that I want to share with you, because whether you consider yourself a writer or not, you’re writing a story, too:
 Questions reshape your reality.
@@ -96,7 +96,7 @@ There has never been a better time, however, to be someone with a burning questi
 Pinning down your question isn’t easy – I’m still wrestling with mine – but it’s worth every second you can give to it. It will shape everything else you do.
 Take some time this weekend – better yet, play hooky, take a snow day or a sick day – and just think about the question you’d be happy spending a decade or six trying to answer. It’ll light up your world more than any answer could.
 Long questions, short answers.
-Thanks to Claude for editing and to Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for supporting Not Boring. Go support them so I can keep asking questions. 
+Thanks to Claude for editing and to Vanta [ https://substack.com/redirect/787662db-9766-447e-8c9a-9294ed250e80?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for supporting Not Boring. Go support them so I can keep asking questions.
 That’s all for today. We’ll be back in your inbox on Friday with the Weekly Dose.
 Thanks for reading,
 Packy

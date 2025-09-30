@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.I began yesterday’s column by saying that I used to write a lot about cry
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       BDR
-    
-  
+
+
 
 I began   yesterday’s column by saying that I used to write a lot about crypto, but I am trying to do less of it these days. The main reason, I wrote, is that crypto used to be a laboratory for rediscovering central intuitions about finance: Crypto was building a brand-new alternative financial system from scratch, and crypto enthusiasts were discovering solutions to financial problems for themselves. Sometimes those solutions were better than the traditional solutions, and sometimes they were worse, and sometimes they just used new terminology to re-describe solutions that traditional finance discovered years ago, but in any case they were fun to write about. Better, or worse, or the same, they provided a lens through which to see traditional finance; seeing why crypto did something, and why it did or didn’t work, could help you understand why traditional finance does things the way it does.
 This worked because, in 2020 and 2021, crypto’s financial system was developing at a much more rapid pace than, you know, its underlying real-world utility. People were using crypto to build lots of clever and exciting new ways to trade crypto, or trade crypto derivatives, or   front-run crypto trades, or build infinitely leveraged crypto shadow banks, or steal money from customers; all of that was interesting if you were interested in financial systems. If you were interested in useful consumer products crypto was maybe less exciting, but that’s not my beat so I couldn’t tell you.
@@ -88,37 +88,37 @@ This particular innovation is so old that   I wrote about it back in 2018, when
 Here is Citigroup Inc. looking at investor demand and concluding: Yes, sure, Bitcoin is great, but what Bitcoin investors really want is to hold Bitcoins in the form of receipts issued by a giant bank and registered at DTCC. That’s where the real innovation is! That’s what the people want! “Take this blockchain away from me,” they cry, “and give me the old system that I know!”
 In 2024 that is obviously what they want.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       A DAO
-    
-  
+
+
 
 A lot of innovations in crypto have two separate but related rationales:
 	This thing is the future of human society!	This thing avoids securities law!
@@ -137,11 +137,11 @@ Reading  the SEC order, it is a little puzzling how BarnBridge could have settle
 In July 2023, Ward and Murray took steps to close investments in a second version of SMART Yield that had launched in January 2023, after BarnBridge DAO had stopped offering investments in SMART Yield Pools described in this Order. Ward and Murray also canceled a new product launch, limited access to Discord, Github, and other platforms used by BarnBridge DAO, and stopped development of further securities using the BarnBridge protocol.
 So not that decentralized or autonomous.
 
-  
-    
+
+
       Portable credit
-    
-  
+
+
 
 We talked a while back about   assumable mortgages. A lot of homeowners in the US have mortgages with 3%-ish interest rates that they got a few years ago, but if you try to get a mortgage today, it will have a 7%-ish interest rate. If I own a house and have a 3% mortgage, and I want to sell it to you and you want to buy it, you will go to a bank and get a 7% mortgage, and your bank will give you the money, and you will give me the money, and I will give the money to my bank to pay off my 3% mortgage. This seems very inefficient. You are borrowing expensive money to give to me to pay off a cheap mortgage early.
 It would be better for me, and for you, if you could just assume my mortgage — if you could move into my house and keep making the 3% payments on my mortgage, instead of making the new 7% payments.
@@ -163,11 +163,11 @@ For direct lenders facing rising competition in a market that’s tripled to $1.
 
 Part of the pitch for private credit, as an alternative to traditional syndicated loans, has been along the lines of “if you borrow from a private credit firm instead of from a syndicate of banks and hedge funds and collateralized loan obligations, your lender will be one person with whom you have a good relationship, and if things change in your business you can call her up and discuss things rationally instead of having to go get waivers from a dozen anonymous CLOs.” You might think that this pitch would argue against automatic portability: “Don’t worry about it,” the private-credit firm could tell its borrowers, “if you want to sell, we will be very reasonable about rolling over the loans, you just need to call us and talk about it.” But, no, the borrowers want portability.
 
-  
-    
+
+
       Money for votes
-    
-  
+
+
 
 Someone  sent this to me and I can’t not share it with you:
 
@@ -184,15 +184,15 @@ On the other hand, who would pay? If it is irrational to vote your own shares, i
 But surely the real high-dollar case for buying shareholder votes is in contested proxy fights, where some activist investor has millions of dollars on the line and wants to get its own slate of directors elected. (Also in contested takeovers.) And there I just have trouble imagining big activist shareholders buying votes in proxy fights this way, in part because the disclosure and reputational issues seem like they’d be a mess. The distinguishing feature of proxy fights and hostile takeovers is that everyone sues everyone else about everything, and also “bedbugs” them to the US Securities and Exchange Commission, calling up the SEC to say “hey did you notice our opponents doing something illegal?” Can you imagine the hay that some corporate managers would make out of an evil activist hedge fund buying votes? 
 And in fact Shareholder Vote Exchange’s current list of auctions seems to be headed by pretty routine annual meetings for companies like Visa Inc. and Intuit Inc., none of which have proxy fights ongoing. Still, fun idea!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Silicon Valley Startups Had Their   Worst Funding Year Since 2019. Wall Street’s   Ambitions in China Run Into a Rising Firewall. Bridgewater’s Flagship   Pure Alpha Fund Lost 7.6% Last Year. AQR Capital’s Longest-Running Strategy Gained 18.5% in 2023. The Hidden Force Pushing Mortgage Rates Down. How the  Push for Diversity at Colleges and Companies Came Under Siege. Eli Lilly Warns Against ‘  Cosmetic’ Use of Popular Weight-Loss Drugs. Prosecutors Pursue  Affinity-Fraud Cases in Which Scammers Target Their Own. Confidential   Jeffrey Epstein Documents Unsealed by New York Court. China, Saudi Arabia Top Countries That Spent Millions at  Trump Properties During His Presidency. Chief executive of collapsed crypto fund HyperVerse does not appear to  exist. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Please do not email me about the useful consumer crypto product you built in 2021.
 
 
@@ -214,48 +214,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] I have no idea what the mechanics are here — like, how do they make sure that the vote sellers actually vote the way they are supposed to? — though I suspect it’s not too hard. They say they work with a bunch of brokers’ systems.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -266,46 +266,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck6fl1.64zt/d8293ba8.gif" alt="" border="0" /></a>

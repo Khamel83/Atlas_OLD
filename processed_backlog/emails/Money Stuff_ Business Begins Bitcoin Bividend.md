@@ -7,254 +7,254 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Bividend!Oh I think you’re going to see more of this: BTCS Inc. (Nasdaq: BTCS) (“BTCS” or the “Company”), a blockchain technology-focused co
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bividend!
-    
-  
+
+
 Oh I think you’re going to see more of this:BTCS Inc. (Nasdaq: BTCS) (“BTCS” or the “Company”), a blockchain technology-focused company, has announced the first-ever dividend payable in Bitcoin by a Nasdaq-listed company, which the Company refers to as a Bividend. ...“We want to reward our long-time shareholders for their continued support and encourage financial freedom by providing the means to enable direct ownership of Bitcoin and other digital assets,” stated Charles Allen, Chief Executive Officer of BTCS. …Allen continued, “Now, we are the first Nasdaq-listed company to pay a Bividend, a dividend payable in Bitcoin at the option of our shareholders. This is a moment we have long anticipated since the Company purchased the domain, bividend.com, in February 2015. BTCS is now in the financial position required to execute on the Company’s vision.” With BTCS’ year-end 2021 stock price of $3.14 per share representing a 12.6% discount to the Company’s digital asset holdings and cash position of $3.56 per share, or $37.8 million, this is an ideal time to reward our shareholders with a non-taxable return-of-capital Bividend.Sure. BTCS is a somewhat unloved micro-cap company; yesterday it closed at $3.03 per share for a market cap of about $31 million, on volume of about 94,000 shares. As of 11 a.m. today it had traded 18.9 million shares and was up 52% to $4.61. I have often  argued in this column that if you are a small public company you should talk a lot about crypto and memes and stuff to increase shareholder value. BTCS is a crypto company anyway, but you can always talk more about crypto. A bividend is a terrible name but an obviously good meme-y crypto stunt to increase attention. BTCS will pay about $500,000 in bividends, which bought it about $15 million of market cap. Just a good trade!More interesting than the announcement, though, is the little form you have to fill out to get your bividend. (It’s also filed with the SEC.) I think you’re supposed to do it online (there’s that website), but if I were a BTCS shareholder I’d be tempted to print a copy, fill it out in pen, mail it to BTCS’s main address and see what they do. (I bet it’d work! Boy is that not investing advice!) You write down your name, Social Security number, phone number and email, and then you write down your Bitcoin wallet address, and then you write the Bitcoin wallet address again to confirm that it’s right. (“Bitcoin transactions are irreversible it is advised that you cut and paste your wallet address into this field,” says the form, suggesting that pen-and-paper is not the preferred method, though I suppose you could print your Bitcoin wallet address and then use literal scissors and paste.)My broader point here is that the system of stock ownership runs on different rails from the system of crypto ownership. For instance, it is pretty unusual, in the U.S., to actually own stock in your own name. Most stock is owned in the name of a thing called “Cede & Co.,” a “nominee” for the Depository Trust Co., the big U.S. stock clearinghouse. And then DTC keeps a list of the brokers who “really” own its shares, and those brokers keep their own lists of the customers who “really” own their shares. So if you buy a share of stock through your broker, what you own is a notation in the broker’s database saying that you are entitled to one share, and what the broker owns is a notation in DTC’s database saying that it is entitled to one share. DTC/Cede, meanwhile, actually owns the share, which is to say that Cede owns a notation in the issuer’s transfer agent’s database saying that it is entitled to one share. Actual share ownership — “record” ownership — means being on the transfer agent’s list. This can seem like a rickety system, though it mostly works pretty well. (There  are some  gaps!) In the long run it is an obvious improvement over the prior system of, like, everyone owned paper stock certificates and had to cart them around to settle trades and if you lost your certificate you were out of luck. But the DTC system is decades old at this point and it is not hard to imagine a simpler system. Sometimes the people who go around imagining simpler systems imagine blockchain-based systems. “We’ll have one ledger of share ownership, and [the big banks and brokers][DTC][an open system of crypto miners] will maintain that ledger reliably,” is the thinking there.But here we are in the actual world of 2022, where most people own stock through their brokers. This creates problems for bividends. When a company pays a cash dividend, it pretty much wires the money to DTC, which wires the money to brokerage firms, which deposit the money in their customers’ accounts. But owning crypto is still sort of fraught for brokerages and DTC: There are regulatory custody obligations and capital requirements for holding crypto yourself, and you can’t deposit crypto in a customer account unless you let your customers hold crypto in their accounts, which is sort of a momentous decision for an old-school retail brokerage. So if a company said “we’re going to pay a dividend in Bitcoin” it … kind of … wouldn’t … work? Like, it would have to send the Bitcoins to DTC’s Bitcoin wallet, and DTC would have to send them to the brokerages’ wallets, and some of them would not have wallets and would get pretty upset. For that matter a lot of investors would get pretty upset: If you run a stock mutual fund, you might invest in the stock of BTCS, but your mandate might not allow Bitcoin investing, you might not have a Bitcoin wallet, and you might have trouble complying with your own custody obligations.[1] So a Bitcoin dividend would cause a lot of havoc for the intermediaries in the financial system.This is sort of a known thing, to the point that a selling point of crypto dividends is sometimes “let’s cause havoc for the financial system by doing a crypto dividend.” Overstock.com Inc.  tried it in 2019 to hassle short sellers, and last month  I half-jokingly argued that AMC Entertainment Holdings Inc. should do a crypto dividend to create some pleasing havoc:This would have three benefits. First, it would be fun for enthusiastic retail shareholders ...Second, it would be incredibly annoying for institutional shareholders. … This one does not sound like a benefit, but I feel like for AMC there might be some pleasure in irritating institutional shareholders and driving the stock further into the hands of retail? Possibly not. Possibly this one is just a disadvantage. ...Third, this would be incredibly, incredibly annoying for short sellers.And honestly if your goal in being a crypto company is to accelerate the move from the traditional financial system to the blockchain, to disrupt incumbent financial intermediaries and usher in a future of direct ownership of assets on the blockchain, maybe you want havoc.BTCS does not,[2] though, and its bividend is well-behaved. It is 5 cents a share, payable in dollars in the regular way. You can get it in Bitcoin, but you have to opt in, and open your own Bitcoin wallet, and, crucially, transfer your shares to be held in your own name with BTCS’s transfer agent, so that your broker doesn’t have to worry about passing Bitcoins along to you.[3] Nobody is forced to deal with crypto if they don’t want to. It is a gentle step toward crypto dividends. But there will be more.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Medallion
-    
-  
+
+
 Medallion Financial Corp. is a financing company that historically was mostly in the business of lending money to New York City taxi drivers to finance their purchases of taxi medallions. Historically the only way to drive a taxi in New York was by owning a “medallion,” a taxi license; these licenses were in limited supply, traded on the secondary market, and were very valuable. Taxi drivers often had to borrow money to buy them, and they were good collateral for lenders because their value kept increasing. Then Uber happened. Medallion Financial had a huge portfolio of taxi medallions that collapsed in value; medallions traded at around $1 million in 2014 and were down to about $80,000 by last year. Meanwhile Medallion Financial’s stock lost about 85% of its value between 2013 and 2017.Medallion Financial’s executives were not happy about this, and really why should they be? They were lending money against property, and Uber pretty much came along and lit the property on fire; one can sympathize.[4] In particular, though, it seems like they were not happy about the stock price drop. And so Medallion tried to convince the market that its stock was worth more than the market thought. This often ends poorly, and last week the U.S. Securities and Exchange Commission brought a very funny enforcement lawsuit against Medallion and its president, Andrew Murstein, for allegedly doing illegal things to pump up the stock.The SEC objects to two things that Murstein allegedly did to pump the stock. One is that he hired people to write blog posts under fake names talking about how Medallion’s stock price should be higher, without disclosing that they were getting paid by Medallion. This sort of thing is very much frowned upon: It is generally considered fraud to take money from a company to tout its stock without disclosing the arrangement. According to the SEC’s complaint, Murstein hired several people to blog anonymously on Medallion’s behalf. One was a professional of sorts, Lawrence Meyers, whom the SEC also sued:From 2014 through 2016, Meyers did business through Asymmetrical Media Strategies, whose web site described its “strategic crisis communications strategies” as offering “guerilla PR tactics to deliver our clients’ messages.” Myers’s website also stated: “[w]e will employ any strategy or tactic you desire”; “if you are under attack from opponents seeking to destroy you, we will launch an asymmetrical, sustained, multi-front assault on them”; and “Anonymity—Attack opponents without client exposure—you are kept in the clear. . . . Because we operate without any detectable connection to you, you may engage opponents in any way you choose, while we carry out our stealth mission to undermine their position.” On December 1, 2014, Meyers emailed Murstein to say that “[t]he market clearly does not understand your business,” and suggested “that you retain me to do some online PR for the company via all the financial outlets I write for.” When Murstein responded with interest, Myers proposed “a monthly retainer where I am constantly writing about the company . . . bashing Uber, and specifically the low risk that exists to TAXI itself even if medallion process were to fall[.]” Meyers and Murstein signed a Consulting Agreement dated December 19, 2014 (the “Agreement”) between Ichabod’s Cranium d/b/a Asymmetrical Media Strategies and Medallion Consulting Services LLC (a subsidiary of Medallion Financial). …Between December 2014 and June 2016, Meyers published at least fifty to sixty articles and hundreds of comments relating to Medallion Financial, for which the company paid Meyers approximately $65,000. Meyers never disclosed the compensation he received from Medallion Financial.Meyers’s articles and comments appeared on Seeking Alpha, TheStreet.com, InvestorPlace.com, Crain’s NewYorkBusiness.com and BloggerNewsNetwork.com. …Meyers prepared his articles and comments in close coordination with Murstein. As Murstein was particularly angered by the posts of several individuals, Meyers frequently targeted these individuals with vitriolic postings. …Meyers’s articles, whether under his own name or an alias, never disclosed that he was being paid by Medallion Financial. Instead, Meyers identified himself in his articles as “president of PDL Broker, Inc.” or as “an independent contributor.” I don’t have much to say about this except that “Ichabod’s Cranium” is truly an exceptional name for a business. After a while the Meyers relationship trailed off and Murstein allegedly hired another blogger who was, uh, not really a pro at this:In early 2016, Murstein became acquainted with a woman in her twenties (the “Contractor”) who was looking for work. As Murstein wanted to have another person touting on behalf of Medallion Financial in addition to Meyers, Murstein offered her an IndependentContractor Services Agreement, which Murstein and the Contractor signed.The Contractor had little to no experience with investor relations or the financial markets; as a result, Murstein instructed the Contractor to “speak with [Meyers] on what to do.” Meyers then tutored the Contractor on his methods for posting anonymously. …On April 26, 2016, the Contractor emailed Murstein that she was “[h]appy to keep writing articles” but “it’s just how we are going to publish anonymously is the question.”The day after that, on April 27, 2016, the Contractor forwarded to Murstein an email from an editor at Seeking Alpha thanking the Contractor for “an interesting article” but stating that “[w]e were unable to verify your ID. Please resubmit after uploading a scan of a valid photo ID[.]” The Contractor asked Murstein, “What do you think I should do regarding the ID situation?” On April 28, 2016, the Contractor emailed Murstein that she was “still publishing under a pen name” and was “seeing which one of my friends will let me borrow theirs [ID].” ...On May 2, 2016, Murstein emailed the Contractor that he was “just focused on you getting your articles out for now. Have you gotten any on any web sites yet or picked up by anyone?” The Contractor responded: “Larry [Meyers] sent me the process I have to go through, it’s kind of crazy. In order to be a contributor I have to make up a whole person so I have to do a fake resume, everything. This goes for basically every single website I have tried to get published on. It’s a process.” Eventually reporters found out about this and started asking Medallion about it; Medallion denied everything, and this happened:Although Murstein knew that the Contractor had posted under an alias, he texted the Contractor on November 26, 2016, after he had received the media inquiries, and asked her: “Why did you post articles under a fake name?” The Contractor responded on the same day: “Because you asked me to not use my name. Do you want me to switch it to my name?” Great paper trail! Anyway:On December 5, 2016, Murstein and the Contractor signed a Confidential Agreement and General Release (the “Release”), in which the company agreed to pay the Contractor $15,000 in exchange for the Contractor agreeing to release Medallion Financial from all claims. The Release also required the Contractor to falsely affirm “that she was never instructed by [Medallion Financial] or any other Releasee to write any articles, blogs, posts or comments about Medallion under a pen name or false name.”Fearing that the touting would be made public, on January 18, 2017, Murstein texted the Contractor: “Our lawyers are sending you a letter that you are telling people I told you to write under a false name. First of all there is no reason to talk to people about that. Plus you signed something that says you aren’t supposed to be talking to anyone.”None of this is great! The SEC does not quite come out and say “and also what these people wrote was wrong”; its position appears to be that this sort of undisclosed paid touting is fraud in itself, and that even if the actual articles were honest the dishonesty surrounding them constitutes fraud. Medallion apparently disagrees: “The actions in question occurred five or more years ago at a time when short sellers were engaged in an online campaign to drive down the Company’s stock price for their personal profit by spreading misleading and disparaging information and misrepresenting its business,” the spokesperson said.“Medallion sought only to provide the market with an accurate understanding of the Company’s financial position and prospects and an appropriate and transparent valuation of Medallion Bank and its other assets.” “None of the allegations in the SEC complaint gives rise to a securities violation,” the spokesperson added.The traditional way to “provide the market with an accurate understanding” of your company is to make statements in your own name, but hiring random 20-somethings with fake IDs to post your statements under pseudonyms is … well, I don't want to say it’s also an option, because the SEC clearly disagrees, but I suppose it’s a thing that happens anyway.The other thing that Medallion allegedly did to pump the stock was to fiddle with its financial statements. What happened here is that Medallion has a wholly owned subsidiary, Medallion Bank, that is a bank. Medallion Bank owns the loans that Medallion makes. Historically, Medallion valued Medallion Bank at its book value: It had some assets (mostly medallion loans), it had some liabilities (mostly brokered certificates of deposit), you add up the assets and subtract the liabilities and that’s how much the bank is worth to Medallion. The bank’s financial position is just consolidated with Medallion’s, as though Medallion itself made the loans and borrowed the money.But then — well, here’s how Medallion’s annual report for 2017 puts it:In the 2015 second quarter, the Company first became aware of external interest in Medallion Bank and its portfolio assets at values in excess of their book value. Expression of interest in Medallion Bank from both investment bankers and interested parties has continued through 2016 and 2017. The Company incorporated these new factors in the Medallion Bank’s fair value analysis and the Board of Directors determined that Medallion Bank had a fair value in excess of book value. In addition, in the 2016 third quarter there was a court ruling involving a marketplace lender that the Company believes heightens the interest of marketplace lenders to acquire or merge with Utah industrial banks. The Company also engaged a valuation specialist to assist the Board of Directors in their determination of Medallion Bank’s fair value, and this appreciation of $15,500,000 was thereby recorded in 2015, and additional appreciation of $128,918,000 was recorded in 2016 and $7,849,000 was recorded in 2017. Basically Medallion decided — starting in 2015, just as the medallion market was starting to collapse — that its bank subsidiary was worth more than the value of its loans, that someone would likely pay a premium to buy it, and so it added that premium to the value of the bank. That premium kept going up each year, which Medallion counted as income. So for instance in 2017, Medallion had about $278,000 of net income, of which about $7.8 million came from appreciation in the value of Medallion Bank.[5] So without that appreciation Medallion would have lost money. But with it, it made money. It is helpful, for your stock price, if you make money.This is all sort of curious stuff on its face, but the SEC digs into it and finds another pretty bad paper trail. From the complaint:Murstein wanted to drive the Bank’s fair value even higher above book value. He therefore set out to manufacture market demand for Medallion Bank at the price that he determined. To this end, Murstein initiated contact with four financial firms hoping to generate support for his number. Murstein did not tell these firms that the purpose of his contact was to generate support for an increased valuation with the Auditor and the Valuation Firm.The contacts followed a similar pattern. An email by Murstein would propose a future transaction involving a sale of all of a piece of the Bank at a number dictated by Murstein. Murstein would then ask for something in writing expressing support for his valuation number. At that point, the discussions about a transaction would go no further because Murstein’s purpose was not to negotiate the transaction but rather to mislead the Valuation Firm and the Auditor. For instance:On October 17, 2016, Murstein sent Investment Bank A and Investment Bank B identical emails stating that: “[W]e were approached by an investment bank asking if we are interested in selling a minority stake in our bank to their client. . . . I think we should pursue this or possibly sell it to another investor. Using other potential comps our bank would be worth well over $300 million. . . . [C]ould you quickly put together a rough valuation for our bank. . . . Once we review it [the valuation] we can discuss engaging your firm.” Within days, Investment Banks A and B—incentivized by the prospect of iinvestment banking fees—both responded. Investment Bank A emailed Murstein a letter and summary that stated that “it is reasonable to assume a valuation range of $185MM - $325MM” and that $300 million was “a reasonable proxy for a control sale price” but that this view was “tempered by regulatory uncertainty” that any transaction would receive approval. Investment Bank B responded with a “potential valuation analysis” listing a range of valuations of the Bank up to $371 million.Yes! Look! If you email an investment banker out of the blue being like “we are looking to sell a subsidiary, we need to hire a bank, would you be interested, also how much do you think we could get for it,” the banker is going to reply “yes I am interested and you could get a lot for it.” The banker’s incentives are very straightforward: She wants you to hire her, and she knows that the more money she dangles in front of you the more likely you are to hire her. After you sign the engagement letter, she has plenty of time to walk back your expectations about getting a high price for your subsidiary; when she’s pitching, she wants to be as optimistic as possible. (We have  discussed this a  lot in the context of initial public offerings, but it’s just as true for sell-side mergers and acquisitions.)It's just, you know, the number that the banker writes down when she pitches you on a deal is not a valuation:The Auditor, however, emailed Murstein on October 24, 2016, that Investment Bank A’s summary was “a ‘pitch’ document with appendices rather than a valuation” and “does not support the increase in value in the 3rd quarter of 2016.” In an October 31, 2016, email to Murstein, the Valuation Firm dismissed Investment Bank B’s analysis as “a pitch document” not justifying an increase in the Bank’s fair value.Even sillier:Next, on October 28, 2016, Murstein emailed the president of another Utah industrial bank and asked: “Do you feel that you would be able to value Medallion Bank at $200 million?” Murstein repeated his request in another email to the industrial bank on October 29, 2016: “[S]end me an email Monday saying your [sic] interested in discussing a valuation above $200 mill[ion] with us. I personally think it’s worth a lot more but if I get the email saying that we can discuss everything on the phone or in person.”On October 30, 2016, the bank president emailed Murstein a one-sentence response: “We are good at 200.” If you ask a potential buyer “hey would you pay us at least $200 million for our bank,” he does not have the same incentives as an investment banker; he might just reply “no, buzz off.” Still! If he’d be interested in buying your bank for $150 million, and you email him proposing to negotiate a sale if he’s willing to discuss $200 million, he might send you an email saying “we are good at 200” just to get to the table. Again, not a valuation:The industrial bank never pursued the transaction with Murstein, but internal emails show it was highly skeptical the Bank should be valued at $200 million. In late November 2016, the industrial bank prepared an offer letter to be sent to the Bank’s Board of Directors offering $123.7 million in cash—not $200 million—to purchase the Bank. The draft letter, which was not sent, noted that this proposed offer was “lower than our previously submitted indication of interest” but stated that this was appropriate given recent financial disclosures by Medallion Financial. In an internal email dated November 21, 2016, an employee of the industrial bank stated: “I think Murstein used us, when he requested we give him a $200 million value on the bank so that he could justify not writing it down[.]” Medallion’s auditor and valuation firm did not really buy any of this, so Murstein complained and threatened:On November 1, 2016, Murstein wrote the Valuation Firm: “I would like to give this one more shot before we throw our long term relationship away. I assume if we signed a letter of intent…stating the value of Medallion Bank would be a minimum of $200 million you would be able to sign off on our valuation.”The Valuation Firm, however, told Murstein, over several emails, that the purported transactions from the financial firms were too tenuous to form the basis of any valuation analysis—noting specifically that any sale would first need to include due diligence, including a review of the Bank’s loans. ...On November 1, 2016, Murstein responded that the Valuation Firm was “going out of [its] way not to be reasonable” and that the Valuation Firm’s refusal to accept Murstein’s valuation evidence “will now greatly effect [sic] our relationship going forward.”But the valuation firm stood up to him; actually they come out of this looking quite good:In another internal email dated November 2, 2016, an executive at the Valuation Firm wrote: “Unfortunately at this point, if you have not done so already, you have to let him [Murstein] know that unless he is agreeable to [the Valuation Firm] independently valuingMedallion Bank, he is going to have to go elsewhere…. Wish I had another solution but I think we have lost the client to maintain our integrity and avoid potential liability.” So he fired them, which upset Medallion’s auditor, and went out to some investment banks asking them to give him a valuation opinion in exchange for future banking work:After firing the Valuation Firm, Murstein immediately began opinion-shopping for a more compliant firm.On November 1, 2016, Murstein sent Investment Banks A and B, as well as a third investment bank (“Investment Bank C”), identical emails stating: “Do you think you can issue something like this report [attaching the Valuation Firm’s 2Q 2016 report] indicating the bank is now worth at least 1.3 times book value or $193 million. I believe it is worth substantially more but that is the minimum amount that needs to be confirmed right now for us to work with you to potentially sell a portion of the bank. Thank you.”Investment Banks A and Bank B did not respond to Murstein’s email.An employee of Investment Bank C, however, responded within minutes: “I have little doubt that we can.” Investment Banks A and B look kind of great here: Not responding to an email with potential business, because it is so shady, is a strong move. Investment Bank C, less so:Investment Bank C did not typically provide valuation opinions for public company audits. It agreed to do so largely because of the incentive offered by Murstein to “sell a portion of the bank,” which was much more lucrative than providing a valuation.The quid pro quo arrangement that Murstein offered—providing a pre-determined valuation number dictated by Murstein in exchange for investment banking work—was not disclosed to the Auditor or to investors. Eventually Investment Bank C was also fired, after getting nervous about the valuation exercises and failing to find a buyer for a part of the bank.I don’t know. The basic issue here is that there is a lot of temptation — for hedge fund managers, for  mortgage firms, for  ETF managers, for public-company executives — to write up the value of your assets. In general, the value of your assets is “what somebody would pay for them.” So there is a general temptation to try to get people to email you saying “hey I’d pay $X for your assets,” and then to show that email to your auditor to justify writing up the assets. The email costs them nothing to send, and is valuable for you to receive.Here I guess that worked, but I suppose it is a little encouraging to see how hard it was. Many of the people Murstein allegedly asked to send him those emails declined to do so, and when they did send him those emails and he showed them to the auditors, the auditors mostly didn’t believe them. The gate-keepers did try to gate-keep! Mostly. It’s something.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 No, just kidding, this is not securities fraud at all,  but it is funny:The National Football League, the New York Jets, and the New York Giants were hit with a proposed class action by football fans alleging the teams’ use of the New York name and brand while actually playing in New Jersey constitutes false advertising, deceptive practices, and racketeering.Named plaintiff Abdiell Suero seeks to pursue the claims on behalf of all NFL Giants and Jets fans who reside in New York state. …“Plaintiff and millions of class members have suffered damages by being subjected to expensive and time-consuming transportation from the City and State of New York to East Rutherford, New Jersey on game days to watch the Giants or Jets play,” the complaint alleges.The proposed class has also suffered psychological damages, the complaint asserts.“As Giants and Jets fans, plaintiff and the class are insulted, ridiculed, harassed, tormented, and bullied by NFL fans around the United States due to the affiliation of the Giants and Jets with the State of New York rather than their true home, New Jersey,” according to the complaint.The Jets and Giants have a combined record of 8-24 this season so I feel like Giants and Jets fans are mostly ridiculed and tormented for performance rather than location reasons, but I can’t resist a funny lawsuit.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Chinese banks cut back traditional lending as concern over economy mounts. As Beijing Takes Control, Chinese Tech Companies Lose Jobs and Hope. Deere to Bring  Fully Autonomous Tractor to Market This Year. OpenSea valued at $13.3 billion in new round of venture funding. Sales of Bored Ape Yacht Club NFTs jump past $1 billion amid heightened interest from celebrity collectors.  NFT Hype Sparks a Rush by Finance Pros to Mimic Hot Market. Bitcoin at the Bank: Mainstream Lenders Dabble in Crypto Outside the U.S. BlackBerry Die-Hards Struggle With Final Blow. “The reason I have been brilliant with money is that, in the 1990s, I never took cocaine.” Utah tech executive resigns after anti-semitic email rant. ‘90 Day Fiancé’ star retires from selling farts after heart attack scare.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] If you’re an individual BTCS investor you might also not have a Bitcoin wallet and find all of this unappealing, though honestly if that’s true why are you investing in a micro-cap crypto company?[2] Also the Securities and Exchange Commission does not, and if you do a bividend in a havoc-creating way you will probably annoy the SEC.[3] This is set out in BTCS’s Form 8-K: “For a shareholder to receive a Bividend, the shareholder must complete the opt-in agreement and transfer their shares to the Company’s transfer agent Equity Stock Transfer (‘EST’) prior to the ex-dividend date of March 16, 2022,” etc. The default is that you just get paid in dollars.[4] One doesn’t have to! The property consisted of an inefficient regulatory monopoly! Why should you pay $1 million for a license to drive a cab! Still, once you *have* paid $1 million for a license to drive a cab, it hurts to see those licenses become free.[5] The net income number is “Net increase in assets resulting from operations” on page F-3 here, which is what Bloomberg uses as GAAP net income. The Medallion Bank increase is from the paragraph I quoted above (on page F-8 of that 10-K); the total “Net change in unrealized appreciation on Medallion Bank and other controlled subsidiaries” is $9.5 million but I guess some of that is from other subsidiaries.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

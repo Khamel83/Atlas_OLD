@@ -20,7 +20,7 @@ def test_google_search_api(api_key, search_engine_id):
         'q': test_query,
         'num': 1
     }
-    
+
     try:
         response = requests.get(url, params=params, timeout=10)
         if response.status_code == 200:
@@ -43,19 +43,19 @@ def setup_google_search_api():
     """Guide through Google Custom Search API setup"""
     print("🔍 Google Custom Search API Setup for Atlas")
     print("=" * 50)
-    
+
     # Load current environment
     load_dotenv()
-    
+
     # Check if already configured
     current_api_key = os.getenv('GOOGLE_SEARCH_API_KEY')
     current_engine_id = os.getenv('GOOGLE_SEARCH_ENGINE_ID')
-    
+
     if current_api_key and current_engine_id:
         print(f"📋 Current configuration:")
         print(f"   API Key: {current_api_key[:10]}...")
         print(f"   Engine ID: {current_engine_id}")
-        
+
         test_current = input("\n🧪 Test current configuration? (y/n): ").strip().lower()
         if test_current == 'y':
             if test_google_search_api(current_api_key, current_engine_id):
@@ -63,7 +63,7 @@ def setup_google_search_api():
                 return True
             else:
                 print("❌ Current configuration is not working. Let's set up new credentials.")
-    
+
     print("\n📝 To set up Google Custom Search API:")
     print("1. Go to: https://console.cloud.google.com/")
     print("2. Create a new project or select existing one")
@@ -74,21 +74,21 @@ def setup_google_search_api():
     print("7. Get your Search Engine ID from the control panel")
     print("\n💰 Free tier: 100 searches per day")
     print("💰 Paid tier: $5 per 1000 queries (after free quota)")
-    
+
     print("\n" + "=" * 50)
-    
+
     # Get API key
     api_key = input("🔑 Enter your Google API Key: ").strip()
     if not api_key:
         print("❌ API key is required")
         return False
-    
+
     # Get Search Engine ID
     engine_id = input("🔍 Enter your Search Engine ID: ").strip()
     if not engine_id:
         print("❌ Search Engine ID is required")
         return False
-    
+
     # Test the credentials
     print("\n🧪 Testing API credentials...")
     if test_google_search_api(api_key, engine_id):
@@ -96,7 +96,7 @@ def setup_google_search_api():
         env_file = '.env'
         set_key(env_file, 'GOOGLE_SEARCH_API_KEY', api_key)
         set_key(env_file, 'GOOGLE_SEARCH_ENGINE_ID', engine_id)
-        
+
         print(f"✅ Credentials saved to {env_file}")
         print("🔄 Restart the Atlas API server to use new credentials")
         return True

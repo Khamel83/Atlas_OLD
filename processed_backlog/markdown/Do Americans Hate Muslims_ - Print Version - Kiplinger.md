@@ -10,11 +10,11 @@
 
 ---
 
-# 
+#
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![]()
 
-The Internet Archive discovers and captures web pages through many different web crawls. At any given time several distinct crawls are running, some for months, and some every day or longer. View the web archive through the Wayback Machine 
+The Internet Archive discovers and captures web pages through many different web crawls. At any given time several distinct crawls are running, some for months, and some every day or longer. View the web archive through the Wayback Machine
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The US Securities and Exchange Commission began cracking down on crypto in 2017. At the time, there was a vogue for what were called ICOs, i
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SEC v. crypto exchanges
-    
-  
+
+
 
 The US Securities and Exchange Commission began cracking down on crypto in 2017. At the time, there was a vogue for what were called ICOs, initial coin offerings, in which some crypto company or project would raise money by selling crypto tokens to public investors. The ICO promoters — the people behind the crypto project — would put out a white paper describing their project and promising brilliant innovations and huge profits, and they would sell a bunch of tokens for money. There would generally be very little in the way of disclosure or investor rights. For promoters, the ICO was attractive because it was a way to raise a lot of money from enthusiastic and gullible retail investors without following securities laws. Many, many, many ICOs turned out to be complete vaporware, either frauds or functionally indistinguishable from frauds.
 For the SEC, the ICO was obviously illegal: These tokens were obviously securities, and the ICOs were obviously unregistered securities offerings. (Also, many of them were frauds.) And so the SEC started bringing enforcement actions against ICO promoters, basically making them give the money back and promise not to do it again, and the ICO boom quickly fizzled.
@@ -130,37 +130,37 @@ Tokens offered as part of an investment contract would remain in the Securities 
 You know: Someone wants to start a crypto project, they sell tokens of that project to raise money to build it, they build it, the project becomes an open decentralized blockchain ecosystem that is no longer controlled by the people who built it. When they sell the tokens to build the project, the tokens are securities; when the project is built and decentralized, the tokens are commodities. It is a plausible path for crypto regulation. I do not think that it is currently the law — that’s why they have to propose legislation! — but others disagree.
 Anyway the basic point here is that the SEC has mostly had a pretty easy time arguing that crypto tokens are securities, when it has sued crypto projects for issuing crypto tokens to raise money. (Though it’s still mired in a fight with Ripple.) “This guy raised money for his business by selling speculative tokens to retail investors” just looks so much like a securities offering that the SEC is usually going to win that case, especially if it can add “also the business was a scam.” It is sensible and understandable and, I think, basically correct to extend that reasoning to say “and if all these crypto projects were raising money by selling securities, then surely an exchange where those securities trade is a securities exchange.” But it is not quite that simple.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Other crypto stuff
-    
-  
+
+
 
 The  SEC yesterday “filed an emergency action application seeking a temporary restraining order freezing assets, directing defendants to repatriate assets held for the benefit of customers of the Binance.US crypto trading platform, and seeking other emergency relief against Binance Holdings Limited, BAM Trading Services Inc., BAM Management US Holdings, Inc., and their founder, Changpeng Zhao, to ensure that Binance.US customers’ assets are protected and remain in the United States through the resolution of the SEC’s pending litigation of this matter.” Two things that I   said yesterday about the SEC’s case against Binance are:
 	The case is mostly just that Binance runs a crypto exchange in the US, and crypto exchanges in the US are, in the SEC’s theory, illegal. The case is mostly not that Binance is stealing customer money, which, for a crypto exchange, is pretty good.	Binance cared much, much, much less about trying to comply with US securities regulation than Coinbase did, with occasionally hilarious results. (“We are operating as a fking unlicensed securities exchange in the USA bro,” said Binance’s chief compliance officer, in writing.) But, I argued, this was essentially a correct bet: It is in the SEC’s view illegal to run any sort of crypto exchange in the US, so having a lot of checklists to try to comply with the law is a waste of time. “I have to say that, so far, Binance’s approach seems smarter,” I wrote.
@@ -171,11 +171,11 @@ Otherwise, a quick roundup:
 	The Information’s Aidan Ryan lists “ The Best- and Worst-Case Scenarios for Coinbase.” Basically he’s banking on legislation rescuing Coinbase, which I suspect is what Coinbase is banking on too.	“Coinbase Is Facing a ‘Life or Death’ Battle With the SEC.” Yes! I do not think that it is an actual physical impossibility to operate a crypto exchange in compliance with US securities law as the SEC currently interprets it, but it’s  pretty hard.	“  Coinbase Crackdown Widens as US States Push to Halt Staking Product.” The bad news for crypto is that, while Republicans in Congress do seem sympathetic, a huge variety of US regulators have come out against crypto in a pretty coordinated assault.   Bank regulators! The   CFTC! The SEC, certainly. And now state financial regulators seem to be coordinating with the SEC to go after Coinbase.	“Robinhood  Reviews Crypto Offerings After SEC Crackdown.” Really if you are a securities brokerage (as opposed to an exchange), you can probably find a way to sell crypto to your customers even if crypto is all securities, but you’ll want to make sure you’re doing it right.	“Coinbase Threatens to Take SEC Fight to Supreme Court If Needed.” Has anyone ever not? 
 
 
-  
-    
+
+
       Meta
-    
-  
+
+
 
 The basic story is that social media platforms evolve to give users what they want, not what they say they want, or what the platforms’ executives want them to want. There is a lot of data, a lot of ability to quickly test and iterate, and a strong commercial imperative to get people to spend more time on the platform. If serving people short-form video gets more engagement than serving them photos of their friends, you do that. If serving people conspiracy theories gets more engagement than serving them dry factual news, you do that. If serving some users X gets more engagement than serving them Y, you do that, for any X and Y, and for any particular subset of your users: You give conspiracy theories to your users who want conspiracy theories, short videos to people who want short videos, etc. You get lots of good data and everything can be sliced pretty fine. And if some of your users want to view child sexual abuse material then you serve them that:
 
@@ -191,18 +191,18 @@ In response to questions from the Journal, Instagram removed the option for user
 
 The natural user-interface-design instinct is “if the user wants to view a bad thing, warn them it’s bad, and then let them click through.” Sometimes you have to think about what they are clicking through to though! Soon there will be an artificial intelligence chatbot that is like “The results of this query may lead to the enslavement and destruction of the human race, are you sure you want to continue?” and you can just click “yes.”
 
-  
-    
-      Things happen
-    
-  
 
-Treasury’s $1 Trillion Debt Deluge Threatens Market Calm. 
-Trafigura Traders Share $3 Billion Payout on Record Profit. Golf-Crazy Saudi Wealth Manager Orchestrated the Shock PGA-LIV Truce. Surprise Golf Marriage of PGA and LIV Risks 
-Antitrust Scrutiny. How the PGA Tour and LIV Golf Fought Each Other Into a Merger. Deal drought raises stakes for boutiques. 
+
+      Things happen
+
+
+
+Treasury’s $1 Trillion Debt Deluge Threatens Market Calm.
+Trafigura Traders Share $3 Billion Payout on Record Profit. Golf-Crazy Saudi Wealth Manager Orchestrated the Shock PGA-LIV Truce. Surprise Golf Marriage of PGA and LIV Risks
+Antitrust Scrutiny. How the PGA Tour and LIV Golf Fought Each Other Into a Merger. Deal drought raises stakes for boutiques.
 Dell Family Office to Diversify Portfolio as Big Payday Looms. Supreme Court Rulings Make White-Collar Fraud Charges in the US Harder. Morgan Stanley’s M&A chair  Rob Kindler joins law firm Paul Weiss. Interest-Only Loans Helped Commercial Property Boom; Now They’re Coming Due. New York Has World’s Worst Air Pollution as Canada Wildfires Rage.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] That is very much not legal advice and there are many nuances here, but that is kind of the rough summary of Rule 144.
 
 
@@ -227,48 +227,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] This is different from the oranges in Howey, or the beavers in Kemmerer. If you bought those investment contracts you got oranges, or beavers (?), which are categories of things that exist in the world independent of the efforts of an investment promoter. If you buy SOL you get SOL, a bit of computer code, which is worth $0 if the promoters of Solana do not build and promote a popular blockchain and a lot of money if they do.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -279,46 +279,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23civxkq.5k62/b72072ac.gif" alt="" border="0" /></a>

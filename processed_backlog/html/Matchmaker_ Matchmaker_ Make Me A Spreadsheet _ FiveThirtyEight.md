@@ -3,7 +3,7 @@
 **Source:** inputs/New Docs/html/fivethirtyeight.com_features_christian-rudder-dataclysm-okcupid.html
 **Processed:** 2025-08-24T19:14:07.592282
 
-![](https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?w=575) 
+![](https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?w=575)
 ![](https://fivethirtyeight.com/wp-content/uploads/2015/03/vintage.png?w=150&h=150&crop=1)
 
 

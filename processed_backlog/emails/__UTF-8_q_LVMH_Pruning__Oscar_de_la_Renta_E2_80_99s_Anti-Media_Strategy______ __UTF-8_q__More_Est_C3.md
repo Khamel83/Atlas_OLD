@@ -147,7 +147,7 @@ Indeed, a brand of Oscar de la Renta’s size does not typically compete for min
 in couture. In some ways, that makes the current iteration of Oscar an appealing target for investors who are looking for brands that can endure beyond a single consumer cycle. Last year, the company hired Rothschild to help weigh its options, although nothing materialized during that period, I’m told. While I assume that the company’s investor, Gary Fuhrman’s merchant bank GF Capital Management, would like an exit (it’s been 14 years), it’s also clear that Bolen, who is married
 to the late Oscar de la Renta’s stepdaughter Eliza, plans to keep the business in the family, which obviously narrows the prospects. Good thing he likes his job. 
 
- 
+
 
 What I’m Reading…
 ---------------------
@@ -183,7 +183,7 @@ The W magazine “Directors Issue” covers started dropping. First up, Denis on
 
 From what I’ve heard from multiple people, this rumor about Ryan Murphy adapting Bret Easton Ellis’s The Shards is true and that’s an “ick, no” from me. [X ( https://x.com/anxiousdeluxe/status/1889831762416771483?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Does anyone have a copy of the process book
 Dior designer Jonathan Anderson created for Queer and sent to friends and select press? I know someone who is obsessed with the movie and would like to buy it from you. Unfortunately for them, my copy is not for sale. But I am happy to make a connect!
@@ -234,6 +234,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVAawEbpfAspn2hFlykb8=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

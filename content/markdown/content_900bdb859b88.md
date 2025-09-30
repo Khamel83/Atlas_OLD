@@ -33,8 +33,8 @@
   <link rel="icon" type="image/png" href="https://web.archive.org/web/20240331025609im_/https://www.hellosmile.com/app/themes/hellosmile/img/_favicon/favicon-32x32.png" sizes="32x32">
 
 <meta name="google-translate-customization" content="7e1d3f2ccf312fde-a0aac243c1fe5ce1-gce156dcee165beef-13"></meta>
-  	
-  	
+
+
   	<title>Are Cavities Contagious from Mom to Baby? - hellosmile | Pediatric Dentist | Orthodontist | NYC, Brooklyn</title>
 
 <!--   -->
@@ -47,7 +47,7 @@
 <!--  -->
 
 <!-- wordpress head functions -->
-    	
+
 <!-- This site is optimized with the Yoast SEO plugin v3.0.6 - https://yoast.com/wordpress/plugins/seo/ -->
 <link rel="canonical" href="https://web.archive.org/web/20240331025609/https://www.hellosmile.com/blog-post-5-are-cavities-contagious-from-mom-to-baby/"/>
 <meta property="og:locale" content="en_US"/>
@@ -312,14 +312,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="post--author-social">
 
 <a target="_blank" class="twitter" href="https://web.archive.org/web/20240331025609/https://twitter.com/DrAlibabba"></a>
-                            
+
                                                             <a target="_blank" class="linkedin" href="https://web.archive.org/web/20240331025609/https://www.linkedin.com/pub/ali-baba-attaie-dds-faapd/9/170/5b8"></a>
-                            
+
                         </div>
                     </div>
                 </div>
-                                
-                    
+
+
                     <section class="blogShare">
                     <div class="row">
                         <div class="blogTitle">
@@ -375,9 +375,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<option value="Woodside">Woodside</option>
 				<option value="Jackson Heights">Jackson Heights</option>
 			</select>
-	
-    
-    
+
+
+
 </div>
 <input type="hidden" name="item_key" value=""/>
 <div class="frm_submit">
@@ -462,7 +462,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="https://web.archive.org/web/20240331025609/http://hellolearn.com/" target="" _blank">hellolearn</a></li>
 		<li><a href="/web/20240331025609/https://www.hellosmile.com/pohet" title="POHET" class="inherit">POHET</a></li>
                 <li><a href="https://web.archive.org/web/20240331025609/https://www.hellosmile.com/lab/">Innovation Lab</a></li>
-		
+
             </ul>
         </div>
 
@@ -492,7 +492,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><div class="phone_number" psid="a10d0000004Fu7C">(718) 899-5437</div></li>
                 <li><a href="https://web.archive.org/web/20240331025609/mailto:info@hellosmile.com">info@hellosmile.com</a></li>
                 <li><a href="https://web.archive.org/web/20240331025609/https://www.hellosmile.com/team#jobs">Careers</a></li>
-         
+
             </ul>
         </div>
 

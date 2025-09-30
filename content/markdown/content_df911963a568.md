@@ -73,23 +73,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="17605545" />
-  
+
     <meta name="ncbi_uid" content="17605545" />
-  
+
     <meta name="log_displayeduids" content="17605545" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="The authors studied sibling relationships of African American youths and family and youth characteristics linked to sibling dynamics. Participants were fathers, mothers, and 2 siblings (M = 14.04 and M = 10.34 years of age) from 172 working-middle class 2-parent families. Cluster analyses of data co …"><meta name="keywords" content="pmid:17605545, doi:10.1037/0893-3200.21.2.227, Research Support, N.I.H., Extramural, Susan M McHale, Shawn D Whiteman, Ann C Crouter, Black People / ethnology, Black People / psychology*, Black or African American, Cultural Characteristics, Family Relations, Female, Gender Identity, Humans, Longitudinal Studies, Male, Parent-Child Relations / ethnology, Parenting / ethnology, Parenting / psychology*, Prejudice, Religion and Psychology, Risk-Taking, Sibling Relations / ethnology*, Social Identification, Socialization, Socioeconomic Factors, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Characteristics and correlates of sibling relationships in two-parent African American families - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/17605545/"><meta property="og:description" content="The authors studied sibling relationships of African American youths and family and youth characteristics linked to sibling dynamics. Participants were fathers, mothers, and 2 siblings (M = 14.04 and M = 10.34 years of age) from 172 working-middle class 2-parent families. Cluster analyses of data co …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Characteristics and correlates of sibling relationships in two-parent African American families - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/17605545/"><meta name="twitter:description" content="The authors studied sibling relationships of African American youths and family and youth characteristics linked to sibling dynamics. Participants were fathers, mothers, and 2 siblings (M = 14.04 and M = 10.34 years of age) from 172 working-middle class 2-parent families. Cluster analyses of data co …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -101,22 +101,22 @@
   </noscript>
 
 <link rel="canonical" href="https://pubmed.ncbi.nlm.nih.gov/17605545/" />
-  
-  
-    
+
+
+
       <meta name="citation_journal_title" content="Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)"/>
       <meta name="citation_journal_abbrev" content="J Fam Psychol"/>
       <meta name="citation_publisher" content="J Fam Psychol"/>
-      
+
         <meta name="citation_volume" content="21"/>
-      
-      
+
+
         <meta name="citation_issue" content="2"/>
-      
-      
+
+
         <meta name="citation_firstpage" content="227"/>
-      
-      
+
+
         <meta name="citation_lastpage" content="235"/>
 
 <meta
@@ -130,24 +130,24 @@
               name="citation_author"
               content="Susan M McHale"
             >
-            
-              
+
+
                 <meta name="citation_author_institution" content="Department of Human Development and Family Studies, Pennsylvania State University, University Park, PA 16802, USA. x2u@psu.edu"/>
-              
-            
-          
+
+
+
             <meta
               name="citation_author"
               content="Shawn D Whiteman"
             >
-            
-          
+
+
             <meta
               name="citation_author"
               content="Ji-Yeon Kim"
             >
-            
-          
+
+
             <meta
               name="citation_author"
               content="Ann C Crouter"
@@ -181,26 +181,26 @@
 <header class="heading" id="heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Characteristics and correlates of sibling relationships in two-parent African American families
 
 </h1>
 
 <div class="article-citation" style="display:inline-block;">
-  
+
     <span class="article-source">
-      
+
 <span class="journal" style="display:inline-block;">J Fam Psychol</span><span class="period">. </span><span class="cit">2007 Jun;21(2):227-35.</span>
 
 </span>
-  
-  
-    
+
+
+
       <span class="citation-doi">
         doi: 10.1037/0893-3200.21.2.227.
       </span>
@@ -210,7 +210,7 @@
 <div class="email-authors">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -249,11 +249,11 @@
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="affiliation-1"
                   id="affiliation-1"
               ><sup class="key">1</sup> Department of Human Development and Family Studies, Pennsylvania State University, University Park, PA 16802, USA. x2u@psu.edu</li>
-            
+
           </ul>
         </div>
 
@@ -262,13 +262,13 @@
 </div>
 
 <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <a class="id-link"
@@ -285,13 +285,13 @@
 </span>
 
 </li>
-      
+
         <li>
           <span class="identifier doi">
   <span class="id-label">
-    
+
       DOI:
-    
+
   </span>
 
 <a class="id-link"
@@ -308,25 +308,25 @@
 </span>
 
 </li>
-      
+
     </ul>
 
 </header>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       The authors studied sibling relationships of African American youths and family and youth characteristics linked to sibling dynamics. Participants were fathers, mothers, and 2 siblings (M = 14.04 and M = 10.34 years of age) from 172 working-middle class 2-parent families. Cluster analyses of data collected in home interviews revealed 3 sibling relationship types: positive, negative, and distant. Parent education was lower, parent religiosity higher, and parent-child relationships more positive in the positive group; maternal discrimination experiences were higher in the negative group; youth ethnic identity was stronger in the positive group; and youth depression and risky behavior were higher in the negative group. The findings target sociocultural factors to consider in interventions for African American families.
     </p>
 

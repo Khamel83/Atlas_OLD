@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic problem of the stock market is that a lot of people want to buy a lot of stock, and a lot of people want to sell a lot of stock, b
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       NYSE
-    
-  
+
+
 
 The basic problem of the stock market is that a lot of people want to buy a lot of stock, and a lot of people want to sell a lot of stock, but not at the same time. I might want to buy 1,000 shares of Wells Fargo & Co. stock, and you might want to sell 1,000 shares of Wells Fargo five minutes from now. Our desires match up, but not in time, so we can’t trade with each other. 
 In theory, there are about three ways to deal with this.
@@ -112,89 +112,89 @@ If there is no auction, and your 10,000-share market order gets sent to the reg
 The details are still a little vague and I am being approximate here. You might ask: “Well, if there are a lot of orders to buy a lot of shares and a lot of orders to sell a lot of shares and they all got sent to the regular order book at the same time, wouldn’t they trade with each other and cancel out and lead to pretty normal prices,” but that is apparently not quite how it works. The thing about an auction is that all the orders execute at once; in a central limit order book they execute in some sequential order. You could imagine NYSE looking at its list of orders, seeing a market sell order, executing it against the few resting limit buy orders, crashing the price down, looking at the next order, seeing a market buy order, and executing it against the few resting limit sell orders, shooting the price right back up again. And that’s how you get “sharp price swings, triggering trading halts.” 
 Anyway in the grand scheme of things this doesn’t matter: Yesterday’s opening did match buyers and sellers, over time, and find the market price, just in a harrowing and chaotic way. If you traded at the wrong price, it mattered to you, since you made or lost money, though a lot of those trades   will be busted because they were “clearly erroneous.” NYSE has a sensible market structure for its 9:30:00 a.m. trading, and a sensible market structure for its 9:30:01 a.m. trading, and they are very different, and if you mix them up you get a mess.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 
 Around here I   like to   say that every bad thing that a public company does is also securities fraud. It does the bad thing, it does not immediately tell shareholders about the bad thing, later the shareholders find out about the bad thing, the stock drops, and the shareholders sue, saying “we were tricked into buying your stock because you lied to us about not doing the bad thing.”
 This is I think a broadly correct description of how US securities class actions work in practice, but it is not a technically accurate description of the law, and it is missing some nuance. For one thing, simply not mentioning a bad thing might not be enough to create securities-fraud liability: To sue and win, shareholders will need to point to some misleading statement that the company did make. (So sexual harassment might be securities fraud if a company has a stated policy forbidding sexual harassment, or a risk factor in its annual report saying “we rely on the services of our chief executive officer and would have problems if he was a sexual harasser” but not mentioning that he is.)
@@ -215,20 +215,20 @@ The growing attention of corporate litigators in industries ranging from financi
 
 If you make a product that is bad for the environment, that didn’t use to be securities fraud, but it sure is now.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       SOFR
-    
-  
+
+
 
 For a long time, most floating-rate corporate loans in the US were priced off Libor, the London interbank offered rate, a publicly reported index of bank borrowing costs. A company would borrow money at Libor plus some spread, with the spread compensating its lenders for the credit risk they take by lending to the company. A loan would have an interest rate like “Libor + 300,” and then every three months you’d look at what three-month dollar Libor was and add 300 basis points to it and that would be the interest rate on the loan. And then three months later you’d do it again.
 Then Libor fell into disrepute, and regulators made a big effort to get rid of Libor and replace it with other, more reliable rates. In the US, this  meant mainly SOFR, the Secured Overnight Financing Rate. (And other, longer-term rates that are derived from SOFR: SOFR is, as the name suggests, an overnight rate, but you can get things like “3-month term SOFR” from derivatives markets.) So now you could have a loan with an interest rate like “SOFR + 300,” and every three months you’d look at three-month SOFR and etc. Same basic idea, different index.
@@ -253,11 +253,11 @@ Moreover, they simply weren’t organized enough to block the proposals, especia
 One broad point here is that the traditional way to think about bank lending is that the lenders are sophisticated finance professionals and the borrowers are not: Banks are in the business of making and pricing and negotiating loans; corporate borrowers are in the business of retailing or software or manufacturing or whatever. The banks are repeat players who know the loans inside and out and can negotiate in ways that consistently advantage them; the corporate borrowers have to take what the banks give them.
 But in modern leveraged finance it is almost the opposite? Lenders are not (mainly) banks but CLOs, vehicles with weird incentives and coordination problems. Borrowers meanwhile are not mainly widget manufacturers but, as Ko says, “private equity sponsors,” sophisticated repeat players who are good at making money by extracting it from lenders. If regulators decide to change how bank loans work, traditionally that should be good for the banks. But now it’s good for the borrowers.
 
-  
-    
+
+
       Every financing round that Elon Musk has ever done has been oversubscribed
-    
-  
+
+
 
 That’s what he said, in court,   yesterday! Today  the Wall Street Journal reports:
 
@@ -268,15 +268,15 @@ Fidelity, one of the co-investors that backed Mr. Musk’s takeover of Twitter, 
 
 If he gets $6 billion in orders for a $3 billion financing round at the original takeover price … I don’t even know what to say. That would be amazing. He also testified that he has raised “more money than anyone in history by a significant margin,” so he’s good at raising money and has devoted fans, but even for him this seems like a heavy lift.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Rupert Murdoch  Withdraws Proposal to Merge Fox Corp. and News Corp. How Cash-Needy Private Companies Are   Avoiding Dreaded Down Rounds. Jittery Investors  Turn to Cash in Hunt for Yield. US   Short Seller Takes On Asia’s Richest Man After Targeting Nikola and Twitter. How a prestigious  Wall Street law firm got caught up in FTX’s chaos. BlockFi  secret financials show a $1.2 billion relationship with Sam Bankman-Fried’s crypto empire. Josh Kushner Is   Richer Than Trump After Billionaires Back His Firm. A Startup Is Turning Porta-Potties Into   Sources of Fertilizer. Scientists Have Just Created a Black Hole in The Lab, And It Has Unexpectedly  Started to Glow.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] If you want to buy a share of stock for, like, $10 less than the market price, you can go ahead and put in an unmarketable limit order and wait. Or there are dark pools that focus on crossing natural investor interest, where you might wait a while.
 
 
@@ -295,114 +295,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Again, there is — in the extended session — but this is basically right.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

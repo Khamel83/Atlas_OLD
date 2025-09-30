@@ -38,7 +38,7 @@ Mentioned in this issue: Joe Kudla, Vuori, Livvy
 Dunne, Lululemon, Masayoshi Son, Allbirds, Varley, Adam Selman, Rihanna, Hillary Super, Alex Bolen, Victoria’s Secret, Daniel Roseberry, Donald Trump, Tiffany, Eric Javits, Melania, Oscar de la Renta, J.D. and Usha Vance, Ivanka Trump, Hoka, Jill Biden, Ralph
 Lauren, Bloomingdale’s, the Kentucky Derby, and much more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -151,7 +151,7 @@ or so stores they’re opening, and justify them as a vehicle for growth. 
 Meanwhile, Vuori quickly signed Livvy Dunne, the LSU gymnast, influencer, and SI swimsuit model who is dating star MLB pitcher Paul Skenes, as the brand’s first collaborator. (It has since signed hundreds more college athletes as part of name-image-likeness deals.) Indeed, in a
 multichannel world—and with SoftBank’s money—the company needs to have it both ways: to influence younger customers whose loyalty to Vuori’s soft fabrics could be a durable asset while recognizing that the athleisure wave will only carry them so far. Sustaining that growth will take more than just tech pants, joggers, and flimsy t-shirts.
 
- 
+
 
 What We’re Reading… and Listening To…
 -------------------------------------------
@@ -184,7 +184,7 @@ andNew York Times ( https://www.nytimes.com/2025/01/19/style/prada-mens-fashion-
 Turns out, the one and only Rod Manley, late of Burberry—and, before that, Calvin and Armani—landed at Moncler. (His title is chief brand officer.)
 [WWD ( https://wwd.com/fashion-news/fashion-scoops/moncler-chief-brand-officer-rod-manley-1236855239/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it for today. P.S., remember when people believed that
 Jeremy Scott was really, truly, maybe going to be the next creative director of Chanel? What a year we’ve lived! 
@@ -247,6 +247,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUixpok-tLpx-X45TBR1w=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

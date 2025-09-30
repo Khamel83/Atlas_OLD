@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='noindex, nofollow' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v25.1 (Yoast SEO v25.1) - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>hallucination | TechCrunch</title>
 	<meta name="description" content="Read the latest news about hallucination on TechCrunch" />
@@ -50,7 +50,7 @@ if (sessionValue && !window.tenupDataLayer[param]) {
 				window.tenupDataLayer[param] = sessionValue[param];
 			}
 		});
-		
+
 		// Push the abstracted datalayer to the GTM datalayer.
 		dataLayer.push(window.tenupDataLayer);
 
@@ -298,19 +298,19 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 						<img width="149" height="16" src="https://techcrunch.com/wp-content/uploads/2024/09/tc-lockup.svg" class="wp-block-techcrunch-site-header__logo-small__img" alt="" decoding="async" loading="lazy" />						<span class="screen-reader-text">TechCrunch Desktop Logo</span>
 					</a>
 				</figure>
-			
+
 							<figure class="wp-block-techcrunch-site-header__logo-mobile">
 					<a href="https://techcrunch.com">
 						<img width="47" height="24" src="https://techcrunch.com/wp-content/uploads/2024/09/tc-logo-mobile.svg" class="wp-block-techcrunch-site-header__logo-mobile__img" alt="" decoding="async" loading="lazy" />						<span class="screen-reader-text">TechCrunch Mobile Logo</span>
 					</a>
 				</figure>
-			
-			
+
+
 <div
 	class="wp-block-techcrunch-main-navigation"	data-wp-bind--aria-hidden="state.isSearchOpen"
 >
 	<div class="wp-block-techcrunch-main-navigation__inner">
-		
+
 <nav class="items-justified-left no-wrap wp-block-navigation is-content-justification-left is-nowrap is-layout-flex wp-container-core-navigation-is-layout-1 wp-block-navigation-is-layout-flex" aria-label="Redesign: Primary Navigation"><ul class="wp-block-navigation__container items-justified-left no-wrap wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Latest" data-destinationLink="/latest/" data-event="navigation" class="wp-block-navigation-item__content"  href="/latest/"><span class="wp-block-navigation-item__label">Latest</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Startups" data-destinationLink="/category/startups/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/startups/"><span class="wp-block-navigation-item__label">Startups</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Venture" data-destinationLink="/category/venture/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/venture/"><span class="wp-block-navigation-item__label">Venture</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Apple" data-destinationLink="/tag/apple/" data-event="navigation" class="wp-block-navigation-item__content"  href="/tag/apple/"><span class="wp-block-navigation-item__label">Apple</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Security" data-destinationLink="/category/security/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/security/"><span class="wp-block-navigation-item__label">Security</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="AI" data-destinationLink="/category/artificial-intelligence/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/artificial-intelligence/"><span class="wp-block-navigation-item__label">AI</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Apps" data-destinationLink="/category/apps/" data-event="navigation" class="wp-block-navigation-item__content"  href="/category/apps/"><span class="wp-block-navigation-item__label">Apps</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Disrupt 2025" data-destinationLink="https://techcrunch.com/events/tc-disrupt-2025/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/events/tc-disrupt-2025/"><span class="wp-block-navigation-item__label">Disrupt 2025</span></a></li></ul></nav>
 
 <div class="wp-block-techcrunch-menu-divider"></div>
@@ -321,7 +321,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 
 <div class="wp-block-techcrunch-menu-utility">
 	<div class="wp-block-techcrunch-menu-utility__inner">
-		
+
 <div
 	class="wp-block-techcrunch-site-search"	data-wp-interactive="techcrunch/site-search"
 	data-wp-on--focusout="techcrunch/site-header::callbacks.handleFocusOutsideSearch"
@@ -332,7 +332,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 		data-wp-bind--aria-hidden="techcrunch/site-header::!state.isSearchOpen"
 		data-wp-on--keydown="actions.handleSuggestedSearchArrowKeys"
 	>
-		
+
 <form role="search" method="get" action="https://techcrunch.com/" class="wp-block-search__button-inside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper " ><input autocomplete="off" data-wp-on--keydown="actions.queryAutoSearch" class="wp-block-search__input" id="wp-block-search__input-1" placeholder="Search..." value="" type="search" name="s" required /><button aria-label="Submit" class="wp-block-search__button wp-element-button" type="submit" >Submit</button></div></form>
 		<div aria-hidden="true"
 			class="wp-block-techcrunch-site-search__suggestions"
@@ -378,7 +378,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 		data-wp-bind--aria-hidden="techcrunch/site-header::!state.isMegaMenuOpen"
 	>
 		<div class="wp-block-techcrunch-mega-menu__content-inner">
-			
+
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">
 <h3 class="wp-block-heading wp-block-techcrunch-mega-menu__heading" id="h-topics">Topics</h3>
@@ -627,7 +627,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </header>
 
 <div class="wp-block-group has-gray-100-background-color has-background hero-ad-container is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-bottom:0">
-	
+
 <div class="ad-unit ad-unit--desktop ad-unit--edge-to-edge ad-unit--has-placeholder ad-unit--display wp-block-tc-ads-ad-slot">
 	<div class="ad-unit__ad" id="us-tc-ros-dt-top-center" data-unitcode="us_tc_ros_dt_top_center" data-test="us_tc_ros_dt_top_center" >
 	</div>
@@ -641,7 +641,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </div>
 
 <main class="wp-block-group template-content is-layout-constrained wp-block-group-is-layout-constrained">
-	
+
 	<div class="wp-block-group term-header is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-3 wp-block-group-is-layout-flex">
 		<h1 class="wp-elements-0e52c6b8ac246c03615b587076b8189a wp-block-query-title has-text-color has-green-500-color has-display-1-font-size has-secondary-font-family wp-container-content-1">hallucination</h1>
 
@@ -650,11 +650,11 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 <hr class="wp-block-separator alignfull has-alpha-channel-opacity is-style-option-1"/>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
-		
+
 		<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-			
+
 			<div data-wp-class--has-rapid-read-errors="state.hasErrors" data-wp-class--is-rapid-read-enabled="state.isEnabled" data-wp-class--is-rapid-read-initially-loaded="state.isInitiallyLoaded" data-wp-class--is-rapid-read-loaded="state.hasLoaded" data-wp-class--is-rapid-read-loading="state.isLoading" data-wp-init="actions.mount" data-wp-interactive="techcrunch/rapid-read" data-wp-watch--toggle="callbacks.onToggle" class="wp-block-query is-layout-flow wp-block-query-is-layout-flow has-rapid-read">
-				
+
 <div class="is-layout-flow wp-block-techcrunch-rapid-read">
 	<div class="wp-block-techcrunch-rapid-read__toggle">
 		<button disabled
@@ -711,21 +711,21 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 
 <figure class="loop-card__figure">
 			<img width="631" height="375" src="https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?w=631" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Text to video concept, text-to-video by generative AI. Language model technology. Cyborg hand holding vdo generated by artificial intelligence." decoding="async" fetchpriority="high" srcset="https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg 1682w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=150,89 150w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=300,178 300w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=768,457 768w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=680,404 680w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=1200,713 1200w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=1280,761 1280w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=430,256 430w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=720,428 720w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=900,535 900w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=800,476 800w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=1536,913 1536w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=668,397 668w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=631,375 631w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=1038,617 1038w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=708,421 708w, https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1474155562.jpg?resize=50,30 50w" sizes="(max-width: 631px) 100vw, 631px" />		</figure>
-	
+
 	<div class="loop-card__content">
 
 <div class="loop-card__cat-group">
-				
-				
+
+
 															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
 												</div>
-		
+
 					<h3 class="loop-card__title">
 
 <a data-destinationLink="https://techcrunch.com/2023/09/04/are-language-models-doomed-to-always-hallucinate/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2023/09/04/are-language-models-doomed-to-always-hallucinate/" class="loop-card__title-link">Are AI models doomed to always hallucinate?</a>
 			</h3>
-		
-		
+
+
 					<div class="loop-card__meta">
 													<ul class="loop-card__meta-item loop-card__author-list">
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
@@ -733,8 +733,8 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 																			<time datetime="2023-09-04T06:30:39-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
 	Sep 4, 2023</time>
 																								</div>
-		
-		
+
+
 			</div>
 
 </div>
@@ -748,17 +748,17 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 <div class="loop-card__content">
 
 <div class="loop-card__cat-group">
-				
-				
+
+
 															<a data-destinationLink="https://techcrunch.com/category/hardware/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/hardware/" class="loop-card__cat">Hardware</a>
 												</div>
-		
+
 					<h3 class="loop-card__title">
 
 <a data-destinationLink="https://techcrunch.com/2009/09/15/trip-glasses-promise-fast-track-to-meditation-hallucination/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2009/09/15/trip-glasses-promise-fast-track-to-meditation-hallucination/" class="loop-card__title-link">Trip Glasses promise fast track to meditation, hallucination</a>
 			</h3>
-		
-		
+
+
 					<div class="loop-card__meta">
 													<ul class="loop-card__meta-item loop-card__author-list">
 													<li><a data-destinationLink="https://techcrunch.com/author/contributor/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/contributor/">Contributor</a></li>
@@ -766,8 +766,8 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 																			<time datetime="2009-09-15T11:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
 	Sep 15, 2009</time>
 																								</div>
-		
-		
+
+
 			</div>
 
 </div>
@@ -776,7 +776,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </li></ul>
 
 </div>
-			
+
 		</div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 316px">
@@ -971,9 +971,9 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 </div>
 </div>
 		</div>
-		
+
 	</div>
-	
+
 </main>
 
 <footer class="wp-block-template-part wp-block-template-part--footer">
@@ -1069,7 +1069,7 @@ var tag = {"options":{"customerId":"57e0d511de61c4c5db567e684e3cddae"}};
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script type="text/javascript" src="https://techcrunch.com/_static/??-eJydzTsOAjEMRdENEUyGSKkQa4kcwyTKT7bDiN0DU01N9apzH2zDYG9KTUFXqiSgaBYHL2qxM9jLHBCDhhLexCCMkAUevJN4znKCQwFL+o6p04wyn6ntMexMEJPoT8oamP5wh8d7vVnvrt46v9j8AdIfRac=" ></script><script id="google-recaptcha-js-extra">
 var reCAPTCHA = {"siteKey":"6LcKaMEUAAAAACNhMymsVMHg25lFfksvZZO9EMTZ"};

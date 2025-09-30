@@ -7,15 +7,15 @@
 
 View this post on the web at https://www.notboring.co/p/small-applications-growing-protocols
 
-Welcome to the 1,014 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 202,804 smart, curious folks by subscribing here: 
+Welcome to the 1,014 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 202,804 smart, curious folks by subscribing here:
 Today’s Not Boring is brought to you by… Oceans [ https://substack.com/redirect/255e1f95-1b12-4d09-b82f-59b0931651a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Oceans [ https://substack.com/redirect/255e1f95-1b12-4d09-b82f-59b0931651a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a white glove outsourcing firm purpose built to help small businesses, busy executives, and high growth companies easily find and work with high quality EA+’s. All Oceans talent comes from Sri Lanka.
 Why Sri Lanka? Simple: it has the best talent-to-price ratio on the planet. Oceans recruits, vets, trains, and employs top talent in the region from name brand firms and universities. Folks like Lawrence and Nihara (above) would fetch $100K+ salaries in the US, but with Oceans you can hire them as an EA+ for a fraction of the cost.
 Oceans [ https://substack.com/redirect/255e1f95-1b12-4d09-b82f-59b0931651a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is already serving notable clients like Austin Reif (Morning Brew), Ndamukong Suh (Philadelphia Eagles), Joe McCann (Asymmetric Financial) and dozens of high growth SMBs. Over 20 Not Boring readers have already hired an EA+ through Oceans. If you’re looking to level-up your productivity, check them out today.
-Hi friends 👋, 
-Happy Tuesday! Apologies for getting this one to you a day late. We had a wedding this weekend and an incredible Sixers overtime win on Sunday, and this is one that I didn’t want to rush. 
-I’ve been thinking a lot about what happens when it becomes trivially easy to build software applications — where value accrues, how and whether to build moats, and what to do about it — and today’s essay is one draft of my thinking. 
-Let’s get to it. 
+Hi friends 👋,
+Happy Tuesday! Apologies for getting this one to you a day late. We had a wedding this weekend and an incredible Sixers overtime win on Sunday, and this is one that I didn’t want to rush.
+I’ve been thinking a lot about what happens when it becomes trivially easy to build software applications — where value accrues, how and whether to build moats, and what to do about it — and today’s essay is one draft of my thinking.
+Let’s get to it.
  Small Applications, Growing Protocols
 Brief dance in our hands,
 Small Apps flicker, then depart,
@@ -104,8 +104,8 @@ We should harness the energy Small Apps create during their brief life 
 Open protocols might be a good way to capture those users and their data
 But how do you convince developers to give up control of their data?
 Tokens are actually very useful for aligning incentives, when used correctly
-I even tried to think of ways to do this without crypto — M&A, regular old open protocols, revenue sharing, equity swaps — but none are practical, and to my knowledge, no other approach to this problem has worked. 
-So we’re left with web3 protocols and tokens, with some upgrades. 
+I even tried to think of ways to do this without crypto — M&A, regular old open protocols, revenue sharing, equity swaps — but none are practical, and to my knowledge, no other approach to this problem has worked.
+So we’re left with web3 protocols and tokens, with some upgrades.
 One of the issues with the way application tokens have mostly been used thus far is that often, developers use tokens to attract users to products that aren’t particularly compelling. Many of my favorite web3 products haven’t issued a token, and some never will. 
 For those that have, tokens can be a band-aid, attracting users looking to make some quick money in the hopes that they stick around until the product gets good enough to be compelling on its own. Essentially, the question has been: how much do we need to pay people to use this app and stick around?
 But what if you flipped that?
@@ -141,7 +141,7 @@ Users can build webs of relationships and banks of data that span apps and becom
 And protocols have the chance to acquire more users, data, and activity in order to challenge many of the seemingly impenetrable incumbents over time. 
 In the process, we might lay the foundation for a new way to build big, enduring Super Apps made up of constellations of supernovae built on top of growing, enduring protocols.
 Thanks to Dan [ https://substack.com/redirect/3cfa82fe-de79-49c8-8d53-3e917947e9ec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
-That’s all for today! We’ll be back in your inbox on Friday with your Weekly Dose. 
+That’s all for today! We’ll be back in your inbox on Friday with your Weekly Dose.
 Thanks for reading,
 Packy
 

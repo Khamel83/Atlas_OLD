@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I have previously expressed my fondness for AMC Entertainment Holdings Inc.’s APEs scheme. AMC was a big meme stock and had a lot of investo
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Apes vs. APEs
-    
-  
+
+
 
 I have previously  expressed my fondness for AMC Entertainment Holdings Inc.’s APEs scheme. AMC was a big meme stock and had a lot of investors who wanted to buy its stock; it also needed a lot of money and was happy to sell stock to them. But its corporate charter only allowed it to issue about 524 million common shares, and AMC was running out of stock to sell. It asked its shareholders to authorize more shares but — well, they didn’t exactly say no. What happened is that AMC withdrew the request for more shares because it couldn’t get enough votes, and it couldn’t get enough votes in part because its existing shareholders were worried about dilution, but also in (probably larger) part because AMC’s overwhelmingly retail investor base simply doesn’t vote. Retail shareholders tend not to vote much on anything; they are hard to reach, and voting your shares is confusing and pointless enough that ordinary retail investors rarely do it.
 But AMC needed a majority of all of its shares to vote to authorize new shares; not voting is equivalent to voting no. So AMC had people who wanted to buy stock, it wanted to sell them stock, and it (probably) thought that its shareholders wanted it to issue more stock — but it couldn’t reach those shareholders to get them to vote to approve more stock.
@@ -107,89 +107,89 @@ One other point here. Shareholder class action lawsuits like this are now usuall
   [5]
  The lead plaintiff here — the shareholder who brought the lawsuit — is the Allegheny County Employees’ Retirement System, a pretty normal shareholder class-action plaintiff, yet one who is somehow unrepresentative of AMC’s meme-stock shareholders. Really you want a pseudonymous individual Reddit poster to lead the lawsuit.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Regional Health
-    
-  
+
+
 
 There seems to have been a wave of companies recently that are using blank-check preferred stock to get around a lack of enthusiasm for shareholder voting. AMC is the highest-profile example, but   we talked last week about Soligenix Inc., which had a different approach: It gave all shareholders a dividend of a special preferred stock that gave them an extra 1,000 votes per common share, but the preferred automatically disappears (1) right before the shareholder vote, if it doesn’t vote, or (2) right after the shareholder vote, if it does vote. So at the time of the vote, the only shares that are outstanding are the ones that vote,
   [6]
@@ -201,20 +201,20 @@ All shares of Series E Preferred Stock that are not present in person or by prox
 
 On the one hand it seems like a good solution. On the other hand, the law says that this sort of thing — here, approving the issuance of new shares — requires the approval of a majority of the outstanding shares, not just a majority of the shares that vote. If you can magically get around that requirement with this sort of accounting gimmick, then it’s not much of a requirement.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Ensign Peak
-    
-  
+
+
 
 The rule in the US is roughly that if you are an institution — a pension fund, an endowment, an investment firm, a bank, etc. — and you own more than $100 million worth of stocks, you have to disclose your stock holdings every quarter.
   [7]
@@ -232,11 +232,11 @@ The SEC’s order finds that, from 1997 through 2019, Ensign Peak failed to file
 
 “The Church was concerned that disclosure of the assets in the name of Ensign Peak, a known Church affiliate, would lead to negative consequences in light of the size of the Church’s portfolio,”  says the complaint, and you can see their point. The effect of the 13F rules here is mostly to make public that the church has a lot of money. But the rules are the rules, and setting up 13 shell LLCs to pretend to manage your money for you doesn’t really work to get around them.
 
-  
-    
+
+
       Principles
-    
-  
+
+
 
 The term “hedge fund” can refer to both (1) a small firm run by a single idiosyncratic genius with a gut instinct and a tiny pirate crew or (2) a gigantic institution that is in the business of identifying talented investors and  systematically extracting alpha from them. At some point a lot of the former category transition into the latter category, and it can be awkward. If you started a hedge fund, and your firm grew into a financial services behemoth with thousands of employees and tens of billions of dollars under management, and you’re now at retirement age, the tension is:
 	On the one hand, it is very important to transition your firm into an institution that can work without you: You owe it to your employees and to your clients to make sure that the firm will thrive after you leave; plus, you probably own a bunch of shares and would like them to continue to be valuable.	On the other hand it is your firm, created in your image, and these other people don’t have your creative genius and are going to mess it up.
@@ -256,11 +256,11 @@ Still, some of Mr. Bar Dea’s changes have a hint of the hedge fund’s old way
 
 What? Surely that’s the fastest way to get Dalio to un-retire again. Never mind the money; if you scrap Dalio’s Principles and replace them with your own Principles and they are different principles — if you replace radical transparency with radical politeness? — then he’s going to be on you like a  hyena on a wildebeest.
 
-  
-    
+
+
       Top earning hedge fund manager
-    
-  
+
+
 
 Really the best-performing hedge fund each year — as measured by percentage returns — always should be   one that runs at 50x leverage:
 
@@ -271,11 +271,11 @@ Haidar personally raked in $859 million in 2022, placing him sixth on Bloomberg�
 
 Obviously the worst-performing hedge fund each year should be a different one that runs at 50x leverage. Anyway Bloomberg’s list of top-earning hedge fund managers is mostly a list of huge multistrategy funds, suggesting that the hedge fund business is pretty institutionalized these days. But you still sometimes get a guy with his name on the door, a gut instinct and a ton of leverage breaking into the top ranks.
 
-  
-    
+
+
       De-IPO
-    
-  
+
+
 
 We   talk   sometimes about the basic phenomenon that (1) public-market prices move around a lot and (2) private-market prices don’t. If you run a private real estate firm or a portfolio of private tech company stocks, and the price of publicly traded real estate companies or tech stocks falls by 50%, you might say “huh, shame about all those public companies having problems, but our portfolio is actually up 1% this year.” 
 One interpretation of this is that the fundamental value of your sector really did fall by 50%, and the public market price reflects the best possible consensus of that fact, and you are just able to ignore that because there is no publicly traded mark for your portfolio. Another, opposite interpretation is that the fundamental value hasn’t changed, but the public market panicked for reasons of its own, and you — with your patient approach and absence of a trading price — can just consider fundamental value and ignore meaningless volatility. 
@@ -292,16 +292,16 @@ Fundraising by venture-capital firms hit a nine-year low in the fourth quarter, 
 Venture firms raised $20.6 billion in new funds in the fourth quarter. That was a 65% drop from the year-earlier quarter and the lowest fourth-quarter amount since 2013, according to data firm Preqin Ltd., which tracks venture-fund data. The amount was also less than half the level raised in the preceding three months, the first time fundraising volumes decreased from the third to fourth quarter since 2009, the data show. 
 
 
-  
-    
-      Things happen
-    
-  
 
-Vince McMahon Is Asking $9 Billion for His  Wrestling Empire. Vanguard chief defends decision to pull asset manager out of climate alliance. Debt-Ceiling Standoff Prompts  Backup Plans, but They Face Hurdles Too. Under Elon Musk, Twitter Faces Suits Claiming Over $14 Million in Unpaid Bills. Compound Bank (not Bank!). HSBC Eyes 
+
+      Things happen
+
+
+
+Vince McMahon Is Asking $9 Billion for His  Wrestling Empire. Vanguard chief defends decision to pull asset manager out of climate alliance. Debt-Ceiling Standoff Prompts  Backup Plans, but They Face Hurdles Too. Under Elon Musk, Twitter Faces Suits Claiming Over $14 Million in Unpaid Bills. Compound Bank (not Bank!). HSBC Eyes
 Special Payout on Canada Sale After Ping An Battle. Adani Maps   Comeback Strategy After $135 Billion Hindenburg Rout. In South Florida, an   Anti-Cathie Wood Investor Is Quietly Building a Stock Empire. Manchester United Begins Sifting Through Numerous Bids for Club. Mauritian regulators examine bank in wake of Trafigura nickel fraud. World’s Largest   Four-Day Work Week Trial Finds Few Are Going Back. Iran   Rations Currency Sales After Rial Weakens to New Record Low. You Want at Least $3 Million in Savings to Retire Comfortably. Art Fair Visitor Breaks a  Jeff Koons Balloon Dog Sculpture. Workers stunned as  4-foot alligator is hauled from Brooklyn’s Prospect Park Lake.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In fact AMC sold about 241.6 million shares for about $1.6 billion in 2021, for an average price of about $6.67, not much higher than today’s share price (and today’s price is after the 2-for-1-ish pseudo-stock-split caused by the APEs). But that average price is low because it was selling a lot in desperation in early 2021, and had  only a few million shares left to sell by June 2021 when its stock was trading above $60 on meme energy. If shareholders had approved more shares *then*, as AMC’s executives wanted, it could have hit that bid.
 
 
@@ -329,114 +329,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [9] Random fact: I am currently reading Jack Schwager’s Hedge Fund Market Wizards, which features Dalio and notes that, when he was interviewed for the book in 2011, he had recently transitioned from running Bridgewater to serving as its “mentor.” This weekend’s Times article describes a 2022 negotiation between Dalio and Bridgewater in which Dalio agreed that he would “surrender his titles, take on a new role as ‘mentor to the C.I.O.s and investment committee,’ and remain a member of the hedge fund’s board.” Ray Dalio is in a perpetual state of having just agreed to resign as Bridgewater’s CIO to become its mentor.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/discounting-belief
 
-Welcome to the 2,449 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 167,924 smart, curious folks by subscribing here: 
+Welcome to the 2,449 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 167,924 smart, curious folks by subscribing here:
 Hi friends 👋,
 Happy Monday! What a year the past week has been. 
 I’m not going to write a piece on FTX today, other than to touch on it briefly, not because I don’t think it’s an important story, but because it’s been written about millions of times over the past week and I don’t have much new to add. 
@@ -105,8 +105,8 @@ But there will be opportunities in the micro, in companies that you believe in m
 Legends will be made in this downturn. Some of them will be the ones who take the practical advice from a few paragraphs ago, cut costs, get profitable, survive, and come out swinging in the next bull market. Others will be those who, despite what’s rational, continue to think and act long-term, even when long-term trades at a discount.  
 Whether in a year or a decade, valuations will rise, big companies will be created, and belief will be restored. For whenever that happens, note to self: Don’t Stop Believing is a better song than it is a trading strategy. 
 Thanks to Dan [ https://substack.com/redirect/f8119f2d-56b7-40d6-825b-b7b0aaeb66aa?r=9p0gt ] and Puja [ https://substack.com/redirect/cebb4424-71b7-4f5c-95d4-9d18bfd20042?r=9p0gt ] for editing!
-That’s all for today. We’ll see you on Friday for the Weekly Dose of Optimism, and next Monday for an essay I’m very excited about (if I can wrangle it into form). 
-Thanks for reading, 
+That’s all for today. We’ll see you on Friday for the Weekly Dose of Optimism, and next Monday for an essay I’m very excited about (if I can wrangle it into form).
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPRFF6TlRnek1qWXNJbWxoZENJNk1UWTJPRFF6TWpneU1Dd2laWGh3SWpveE5qY3hNREkwT0RJd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuWm0tZUhnOU5jRHdCRUtpMEtBb1JrLUtLZUZlVHIzYzRKcjQtS0R4MkdIQSIsInAiOjg0MzU4MzI2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.grKJ3zdCxZU-Va-563dSHBEi4zhOlk8VUTd5agML5M4?

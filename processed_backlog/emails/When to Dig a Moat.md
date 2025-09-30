@@ -20,10 +20,10 @@ Connect instantly with huddles
 Fun fact, Dan and I have never scheduled a video meeting. But we huddle all the time. With huddles you can talk, video chat, or share your screen instantly with anyone in your Slack.
 Right now, you can save 50% off your first 3 months of Slack Pro [ https://link.sbstck.com/redirect/76f23ec2-34a2-48a7-99bc-bb12371fe453?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Hi friends 👋 ,
-Happy Tuesday! 
-There’s been a lot of debate about the importance of moats recently. Do startups have them, or not? Do startups need them, or not? 
-In my opinion, the conversation has lacked some depth and dimensionality, which has rendered it relatively useless for entrepreneurs and investors alike. I want to take a shot at clearing it up today. 
-Let’s get to it. 
+Happy Tuesday!
+There’s been a lot of debate about the importance of moats recently. Do startups have them, or not? Do startups need them, or not?
+In my opinion, the conversation has lacked some depth and dimensionality, which has rendered it relatively useless for entrepreneurs and investors alike. I want to take a shot at clearing it up today.
+Let’s get to it.
 When to Dig a Moat
 There’s a belief in tech that if you have the most talented team, the best product, and the fastest growth – that if you just Make Something People Want – you don’t need to worry about moats.
 That’s precisely wrong. 
@@ -70,11 +70,11 @@ In June, Runway raised [ https://link.sbstck.com/redirect/f8d85745-bc0e-4d45-96c
 Because of how hard it is to build what Runway’s built, and the fact that it only recently became apparent that it was possible, it’s been protected by Novelty Uncertainty to date. They’ve also shipped products at a rapid clip to stay ahead. I’m not sure that the company has real moats yet, though, and it should act quickly to dig them before uncertainty runs out. 
 This is why strategy is important for startups, even if it’s uncool. At its simplest, early stage startup strategy is about directing limited resources towards digging moats before you’ve removed enough uncertainty to attract serious competition. 
 I’ve wanted to write a post defending strategy for a while, but I promised myself I’d keep this one short and crisp, so I’ll save that for another post. 
-For now, what’s clear is that while not all startups need moats in the early days, they do need to start digging moats when their eventual success is obvious to them but to very few others. If they’re lucky enough to have something obviously worth attacking one day, moats will matter. 
-Get digging. 
-Thanks to Dan [ https://link.sbstck.com/redirect/e4322359-c89c-4d2b-bc2b-57aa40aeb014?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing! 
-That’s all for today! We’ll be back in your podcast feed tomorrow and in your inbox with the Weekly Dose on Friday. 
-Thanks for reading, 
+For now, what’s clear is that while not all startups need moats in the early days, they do need to start digging moats when their eventual success is obvious to them but to very few others. If they’re lucky enough to have something obviously worth attacking one day, moats will matter.
+Get digging.
+Thanks to Dan [ https://link.sbstck.com/redirect/e4322359-c89c-4d2b-bc2b-57aa40aeb014?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
+That’s all for today! We’ll be back in your podcast feed tomorrow and in your inbox with the Weekly Dose on Friday.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE0xTVRNeU1EQTNMQ0pwWVhRaU9qRTJPRGsyT0RVMk5Ea3NJbVY0Y0NJNk1UWTVNakkzTnpZME9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjlkalBNaVIxQjFZaHJPLUN5TmFkTG5BNFVBMlRRLWZHdHBrR2Qya1lxUmcmZXhwaXJlcz0zNjVkIiwicCI6MTM1MTMyMDA3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.xwPC933ojjS1o9Ew6-g4d7o2lP5WvRTio--vihJpMNU?

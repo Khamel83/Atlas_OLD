@@ -7,8 +7,8 @@
 
 Recent E.U. regulatory decisions cross the line from market correction to property theft; if the E.U. continues down this path they are likely to see fewer new features and no new companies.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/the-e-u-goes-too-far/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3RoZS1lLXUtZ29lcy10b28tZmFyLyJdfSwiZXhwIjoxNzIzMDU0NDg2LCJpYXQiOjE3MjA0NjI0ODYsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.qdrx1m2WS8K-9SUNt5cNgBhQ6NOAjkFGNGryUrspd-OnEuVQmAGuuSEQJvtLU2hkVWW6Vof0SGnaIBoFghCpOq7Hy-Vv8IRb--3hmPlo-C6Pu55rtCGSCRQpdTLs8FYWhV4GEBk-MVPRQvn5Ls1S_4EJZm6EdKE_MHVl89Y3LG_1rdYpZAy99i0Iqi4UNWKhmdgiartu7b3r_GYn_nh_0MeTOl80NX6jr0mvq0CdRctfH1I26rLjk88WyMMCpdv7kA9Kl9iNTUW1K6zY98GkBXkpqTQY6_F-VdWc7hG-dSR3yLI1pWafBYH9wrSRybQfsvxc5Vqfrli0eGR9TVOeUw)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -96,7 +96,7 @@ From the [European Commission’s press release](https://ec.europa.eu/commission
 The Commission takes the preliminary view that Meta’s “pay or consent” advertising model is not compliant with the DMA as it does not meet the necessary requirements set out under Article 5(2). In particular, Meta’s model:
 
 1. Does not allow users to opt for a service that uses less of their personal data but is otherwise equivalent to the “personalised ads” based service.
-2. Does not allow users to exercise their right to freely consent to the combination of their personal data.  
+2. Does not allow users to exercise their right to freely consent to the combination of their personal data.
    To ensure compliance with the DMA, users who do not consent should still get access to an equivalent service which uses less of their personal data, in this case for the personalisation of advertising.
 
 Here is the problem with this characterization: there is no universe where a non-personalized version of Meta’s products are “equivalent” to a non-personalized version from a business perspective. Personalized ads are both far more valuable to advertisers, who only want to advertise to potential customers, not the entire Meta user base, and also a better experience for users, who get more relevant ads instead of random nonsense that isn’t pertinent to them. Indeed, personalized ads are so valuable that [Eric Seufert has estimated](https://mobiledevmemo.com/metas-next-tactic-in-the-eu-pay-or-okay/) that charging a subscription in lieu of personalized ads would cost Meta 60% of its E.U. revenue; being forced to offer completely un-personalized ads would be far more injurious.
@@ -195,26 +195,26 @@ Or, to use Breton’s description, a launchpad without a rocket is just a burned
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyMzA1NDQ4NiwiaWF0IjoxNzIwNDYyNDg2LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.NjMtXBwWbPLt6nRwdxW4JqQKQ3YDGZnTON94636dMAlVnbnzKS_MR8MU1lLWkQ2bPgo51IqMAb1yC3uRQ1D8RpSjVkI3VfV0bxXMSx2WZjpKDa5AiaiO9bdkq8PHQWjFV22ya-h5t3Yr9MQYKdR5H6htLfcX3keIabvVYpAgqgv0NfYPKjQnun6p7tbpP2DBMxP7J4U0J4xldJoM75HDzZeiCPx-n_-RDcty3JbMrk---zHGkiS3LXmdFNodOzl08IeB5WLjSzh-b_1XhvmYj0xIL2L4wyKrcWwxY6slge9nXC3cnuTcQEI7SNQVFSIF11lG4NjPriXkpHMV7OEjeA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyMzA1NDQ4NiwiaWF0IjoxNzIwNDYyNDg2LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.NjMtXBwWbPLt6nRwdxW4JqQKQ3YDGZnTON94636dMAlVnbnzKS_MR8MU1lLWkQ2bPgo51IqMAb1yC3uRQ1D8RpSjVkI3VfV0bxXMSx2WZjpKDa5AiaiO9bdkq8PHQWjFV22ya-h5t3Yr9MQYKdR5H6htLfcX3keIabvVYpAgqgv0NfYPKjQnun6p7tbpP2DBMxP7J4U0J4xldJoM75HDzZeiCPx-n_-RDcty3JbMrk---zHGkiS3LXmdFNodOzl08IeB5WLjSzh-b_1XhvmYj0xIL2L4wyKrcWwxY6slge9nXC3cnuTcQEI7SNQVFSIF11lG4NjPriXkpHMV7OEjeA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*
-  
-  
+
+
 
 1. French startup Mistral is building compelling large language models; the Nvidia action in particular could be fatal to their future

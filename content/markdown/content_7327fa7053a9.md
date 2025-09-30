@@ -151,7 +151,7 @@ name="msapplication-TileImage" content="https://www.sify.com/wp-content/uploads/
 }
 .post-content p a,
 .post-meta .post-cat>a {
-	color: #005a00 !important; 
+	color: #005a00 !important;
 	font-weight:800 !important;
 }
 .post-content  a:hover{

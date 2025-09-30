@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I think that if you are a Tesla Inc. investor the deal you are signing up for is: Elon Musk is a bad and annoying chief executive officer by
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tesla perks
-    
-  
+
+
 
 I think that if you are a Tesla Inc. investor the deal you are signing up for is:
 	Elon Musk is a bad and annoying chief executive officer by almost every conventional metric.
@@ -111,37 +111,37 @@ But there are some limits from being public. … If you want to run a web of 
 I don’t know, it’s just a strange situation. In general it makes sense for US public companies to have rules like “the CEO’s perks should be disclosed to shareholders” or “the CEO can’t go around lying about the company’s business” or whatever. And the rough rule that sophisticated shareholders of private companies can make informed choices to strike whatever deal they want with their CEOs, while public-company shareholders are protected by standard universal rules enforced by the SEC and the Justice Department, also makes sense. In general, public-company CEOs should not be allowed to act like Elon Musk.
 But Elon Musk really has made a lot of money for Tesla’s shareholders! And for SpaceX shareholders, but there seems to be  no rush to go public there. I increasingly think that, when he was pretending to take Tesla private in 2018, Musk was in some sense serious: He realized that, while going public was good for Tesla’s financing, it was a bad fit for his personality, and he kind of wanted to reverse it. CEOs often complain about the costs and constraints and short-termism and legal risks of running a public company; regulators sometimes talk about bringing more companies into the public markets or about giving more investors access to the private markets. But one important feature of public markets, for better or worse, is that they are not very compatible with the whole Elon Musk deal. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Goldman GreenSky
-    
-  
+
+
 
 A basic fact about the mergers-and-acquisitions advisory business is that, if you run a company, and an investment banker comes in to pitch you on doing an acquisition:
 	That acquisition might or might not be a good idea for your company. In general the  track record of companies doing acquisitions is mixed to bad. 	It’s definitely a good idea for the banker! If you hire her bank to do the acquisition, it will get a big fee and she’ll get a big bonus.
@@ -164,11 +164,11 @@ It's not just internal people who have noticed. One former partner who spoke wit
 
 Oh come on! I do not believe for a second that some Goldman investment banker showed up to pitch a merger and the client was like “nope, not taking your merger pitch because Goldman bought GreenSky, proving that you’re dummies like everyone else.” I mean, sure, as a joke. But the idea here is that previously Goldman would pitch M&A deals and the clients were like “oh wow Goldman says I should buy this company, that must be right, they are very smart and their M&A pitch is a disinterested search for truth,” but now that GreenSky didn’t work the clients realize that Goldman is fallible. Everyone always knew the M&A pitches were fallible! Still, fine, I concede that it is a little funny to make fun of your M&A banker for her bank’s bad M&A deals.
 
-  
-    
+
+
       Floating rates
-    
-  
+
+
 
 If you lend someone money at a floating interest rate, and then rates go up a lot, you get paid the new higher interest rate. If you lend someone money at a fixed interest rate, and then rates go up a lot, you still get paid the old low interest rate. Getting paid more is better than getting paid less, so from first principles floating-rate loans are a better investment than fixed-rate bonds, if interest rates are about to go up rapidly.
   [9]
@@ -187,11 +187,11 @@ So far, the skeptics have been mistaken. The economy has remained strong, helpin
 
 I do feel like that was always the advertisement for leveraged loan funds? The advertisement was “rates are zero now, but they won’t be forever, and if they go up you will want to own floating-rate loans”? And that was correct?
 
-  
-    
+
+
       Financial transactions tax
-    
-  
+
+
 
 Chicago is a city with outsized global importance in the industry of high-speed trading. If you are buying financial assets and selling them a millisecond later, you are disproportionately likely to be doing that from Chicago. Also there’s a decent chance that you make a nice living. Meanwhile Chicago’s municipal budget does not look all that hot, and so its civic leaders naturally think about how to raise more revenue. They see all these people doing all these high-speed trades and making a lot of money doing it, and they think, well, if we charged these people just $1 per trade we’d make up our budget shortfall in no time, and surely they wouldn’t miss the dollar?
 Bloomberg’s  Isis Almeida reports that they’ll miss the dollar:
@@ -205,11 +205,11 @@ Most importantly for the derivatives industry, Johnson has floated seeking anoth
 There are occasional proposals for a financial transactions tax at the US federal level, and these discussions often point out that the UK has a somewhat similar tax. And people who oppose the tax are like “no this would drive the financial industry to other countries without the tax,” and people who support it are like “no, that’s dumb, London remains a global financial hub despite having a stamp tax, and the advantages that the US has in terms of deep capital markets and the rule of law are not going to be outweighed by a teeny tiny transaction tax.”
 But in Chicago? You could move to Florida, or even to like Evanston, and get the same capital markets but no transaction tax. A city is probably too small an entity to have its own capital markets regulation; it’s too easy to move to another city. It is the case that Chicago is unusually blessed, among global cities, with people who sit at computers moving huge quantities of money around. But that does seem like kind of a fragile resource. They could put the computers anywhere.
 
-  
-    
+
+
       Vote weighting
-    
-  
+
+
 
 Last week Institutional Investor published a  profile of Andy Golden, the president of Princeton University’s endowment manager, which includes this lovely fact:
 
@@ -220,15 +220,15 @@ I don’t know what that means but I could imagine, like, programming a computer
 In particular I could imagine Bridgewater Associates doing it on the computer, using way more data to compute everyone’s vote weight, and publishing everyone’s coefficients. “Your vote counted for 0.47 votes yesterday but then Dave found you a little annoying in a meeting and pushed the negative feedback button on the app, so now your vote only counts for 0.44.”
 Also though I could imagine not programming a computer model to do that, and just doing it informally in your head? Like Golden apparently does? What is life but interacting with people who give greater or lesser weight to your views and desires, and trying to get your weight up? And having your own formula, in your own head, for how you weight other people’s views and desires? Everyone’s formula for that is odd and secret and unstable: Life changes, friendships change, there’s no accounting for taste, the heart wants what it wants, etc. Except at Bridgewater the formula is probably in the computer.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Deutsche Bank struggles with fallout after huge  Postbank IT migration. CLO Investors Push Back on Use of ‘  Snooze Drag’ Tactic. CLOs Desperate for Collateral Are Loading Up on   Junk Bonds. Goldman Raises $14 Billion For Private Equity   Secondaries Fund. UBS, French Tycoon Face $1.5 Billion Claim in   Tuna Bond Scandal. Why Dollar General Might Just Be the   Worst Retail Job in America. EU to  ban ‘climate neutral’ claims by 2026. Jaguars QB   Trevor Lawrence Settles FTX Endorsement Lawsuit. Kim Kardashian's   Doubters Only Motivate Her to Work Harder. Starbucks   combinatorics. “Despite the pervasiveness of exclusivity and rejection on Yale’s campus, most of the students I spoke with didn’t feel that they were living in an  end-stage meritocracy hellscape.” The Wild Quest to Create a  Fake Indian Cricket League ... That Was Just the Beginning.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Or maybe he's not even a CEO? In 2018 he  half-joked on Twitter that he had “deleted my Tesla titles,” and in 2021 he  changed his title to “Technoking of Tesla,” though by now I think he’s  back to “Technoking of Tesla and Chief Executive Officer.”
 
 
@@ -259,48 +259,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [10] I kid a little, it’s not just about fixed vs. floating but also investment-grade vs. non-investment-grade, but still.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -311,46 +311,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjiiq2.5jef/6c876018.gif" alt="" border="0" /></a>

@@ -24,14 +24,14 @@ function extractArticleContent() {
     '#content',
     '.main-content'
   ];
-  
+
   for (const selector of contentSelectors) {
     const element = document.querySelector(selector);
     if (element) {
       return element.innerText || element.textContent;
     }
   }
-  
+
   // Fallback to body content
   return document.body.innerText || document.body.textContent;
 }

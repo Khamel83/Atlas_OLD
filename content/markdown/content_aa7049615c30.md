@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20230129220151/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -189,7 +189,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -394,7 +394,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
   </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -480,11 +480,11 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
               <p>We first told you about Canal House’s rule-breaking chicken thighs in 2015. Then, our <a href="http://web.archive.org/web/20230129220151/https://food52.com/tags/genius-recipes"><strong>Genius Recipes</strong></a> fearless leader <a href="http://web.archive.org/web/20230129220151/https://food52.com/users/2821-kristen-miglore/">Kristen Miglore</a> described the skin as “impossibly crisp, enough so to satisfy your darkest fried chicken cravings.”</p>
               <p>But they’re way easier than frying.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticle"></div>
               <p>First, you take everything you know about skin-on chicken and toss it out the window. Instead of searing over high heat, you get a cast-iron pan mostly warm, add the thighs, and leave them to tread their own path.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="35813" data-type="recipe" data-layout="flag"></span>
 
@@ -508,7 +508,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--recipe">
   <span class="collectionWidgetRoot" data-id="37393" data-type="recipe" data-layout="flag"></span>
 
@@ -557,7 +557,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
               <p>Now find a loaf of crusty bread. It could be fresh, made this morning and from your favorite bakery. Or it could be a forgotten in the back of the freezer, behind the <a href="http://web.archive.org/web/20230129220151/https://food52.com/recipes/30285-nigella-lawson-s-one-step-no-churn-coffee-ice-cream">coffee ice cream</a> and frost-covered blueberries. Cut into thick slices, then tear into pieces with your hands.</p>
               <p>Oh, look! The chicken is done. Transfer from the pan to a waiting plate. Leave all that schmaltz right where it is. Add the bread and toss in the fat, cooking until it starts to crisp and turn the color of dark honey. Now add minced garlic and chili flakes (because most things are better with them) and the kale. No need to squeeze or wring the kale out—that lingering water is welcome here, something like <a href="http://web.archive.org/web/20230129220151/https://food52.com/recipes/76678-berardino-s-crispy-pancotto">Italian pancotto</a>.
 Nestle the chicken thighs on top. Serve them in the skillet. Or eat from the skillet. I find it tastes even better that way.</p>
-              
+
   <div class="card card--featured card--recipe card--full-recipe">
     <div class="card__container--full-recipe">
       <span class="collectionWidgetRoot" data-id="77151" data-type="recipe" data-layout="flag"></span>
@@ -727,7 +727,7 @@ Nestle the chicken thighs on top. Serve them in the skillet. Or eat from the ski
 
 <h2 class="section-header__text">ANOTHER GENIUS RECIPE FOR&nbsp;DESSERT</h2>
 </div>
-              
+
 <div class="media-embed media-embed--jwplayer media-embed--default ">
         <div class="js-video-container " id="media-embed-video-container-2Rws7fdO" data-ad_schedule_id="IePz8wgy" data-placement_name="Food52_Programmatic_Video" data-video_id="2Rws7fdO" data-player_id="eXbSrbZM">
           <div class="video-player__spacer"></div>
@@ -758,7 +758,7 @@ Nestle the chicken thighs on top. Serve them in the skillet. Or eat from the ski
                   <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Chicken" data-ga-destination-url="/tags/chicken" href="/web/20230129220151/https://food52.com/tags/chicken">Chicken</a></li>
               </ul>
             </div>
-            
+
 <div class="comments-teaser">
   <div class="comments-teaser__icons">
     <span class="icon__comments"></span>
@@ -843,7 +843,7 @@ Nestle the chicken thighs on top. Serve them in the skillet. Or eat from the ski
   </div>
 
 <div class="author__bio">
-      Emma was the food editor at Food52. She created the award-winning column, Big Little Recipes, and turned it into a cookbook in 2021. These days, she's a senior editor at Bon Appétit, leading digital cooking coverage. Say hello on Instagram at @emmalaperruque. 
+      Emma was the food editor at Food52. She created the award-winning column, Big Little Recipes, and turned it into a cookbook in 2021. These days, she's a senior editor at Bon Appétit, leading digital cooking coverage. Say hello on Instagram at @emmalaperruque.
     </div>
 </div>
 
@@ -879,7 +879,7 @@ Nestle the chicken thighs on top. Serve them in the skillet. Or eat from the ski
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">

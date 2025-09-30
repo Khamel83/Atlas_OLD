@@ -46,7 +46,7 @@ Ted Sarandos, Steph Jones, Justin Baldoni, Jason Reitman, Taylor Swift, Sumner R
 
 But first…
 
- 
+
 
 Who Won the Year: It’s a Poll!
 --------------------------------
@@ -208,7 +208,7 @@ Previous Heroes of the Year…
 2021: Bela Bajaria
 (click here ( https://email.puck.news/e/c/eyJlbWFpbF9pZCI6ImRnVDJ4Z1lEQUtBdm55OEJqTFBfV0phVFJSX0dJMHVtU2xNQyIsImhyZWYiOiJodHRwczovL3B1Y2submV3cy90aGUtaGVyby1vZi10aGUteWVhci1pcy1iZWxhLWJhamFyaWEvP3V0bV9jYW1wYWlnbj1XaGF0K0klMjdtK0hlYXJpbmcrLStTVUJTQ1JJQkVSUyslMjgxMiUyRjI4JTJGMjMlMjlcdTAwMjZ1dG1fY29udGVudD1XaGF0K0klMjdtK0hlYXJpbmcrLStTVUJTQ1JJQkVSUyslMjgxMSUyRjYlMkYyMyUyOVx1MDAyNnV0bV9tZWRpdW09ZW1haWxfYWN0aW9uXHUwMDI2dXRtX3NvdXJjZT1jdXN0b21lci5pb1x1MDAyNnV0bV90ZXJtPWY2YzYwNjAwOWYyZmEwMmYiLCJpbnRlcm5hbCI6ImY2YzYwNjAwOWYyZmEwMmYiLCJsaW5rX2lkIjoxODU0Nn0/8d8e5343dd56082672824c660b454566322b5bd8ceab1479a9b673f6f2ce77e6?utm_campaign=%5BCopy%5D+What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ))
 
- 
+
 
 Quote of the Week
 -----------------
@@ -235,7 +235,7 @@ according ( https://podcasts.apple.com/us/podcast/fly-on-the-wall-with-dana-carv
 “Wait a second. You’re the director? … I thought you were a drummer.” —Also Chevy, 40 minutes into a dinner meeting in the late ’80s with Chris Columbus, who was hired
 to direct Christmas Vacation. Columbus quit the movie and made Home Alone instead, he told ( https://www.vanityfair.com/hollywood/story/christmas-movies-chris-columbus-nosferatu?utm_campaign=%5BCopy%5D+What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Vanity Fair while promoting Nosferatu.
 
- 
+
 
 My Reading List…
 ------------------
@@ -254,7 +254,7 @@ Joe Adalian argues that the broadcast networks have stayed semi-relevant by twea
 
 Can someone translate this Justin Baldoni speech, “What If Birth and Death Are Actually the Same?” that he recorded for his church? [Baha’i Teachings ( https://bahaiteachings.org/birth-death-same-justin-baldoni/?utm_campaign=%5BCopy%5D+What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
 
- 
+
 
 The Feedback
 ------------
@@ -297,7 +297,7 @@ fundraiser/Weekend at Bernie’s co-conspirator that Hollywood decided to blame 
 Witherspoon, and other celebrities those inflated valuations that came crashing down this year
 * The word “rightsizing,” the lamest and most overused euphemism for the massive layoffs that dominated the year.
 
- 
+
 
 Finally…
 ----------
@@ -341,6 +341,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=%5BCopy%5D
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUGj6a2uS5pE3KBl-x2XI=&utm_campaign=%5BCopy%5D+What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F26%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2812%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

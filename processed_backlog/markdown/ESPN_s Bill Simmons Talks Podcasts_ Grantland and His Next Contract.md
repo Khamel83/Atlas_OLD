@@ -12,13 +12,13 @@
 
 # www.recode.net
 
-Unknown author • March 15, 2015 
+Unknown author • March 15, 2015
 
 ![www.recode.net]()
 
-This page isn’t working  
-  
-www.recode.net redirected you too many times.  
-  
-ERR_TOO_MANY_REDIRECTS 
+This page isn’t working
+
+www.recode.net redirected you too many times.
+
+ERR_TOO_MANY_REDIRECTS
 

@@ -1,4 +1,4 @@
-# Why Open Source Misses the Point of Free Software - GNU Project - 
+# Why Open Source Misses the Point of Free Software - GNU Project -
 Free Software Foundation
 
 **Source:** inputs/New Docs/html/www.gnu.org_philosophy_open-source-misses-the-point.html.html

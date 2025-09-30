@@ -128,7 +128,7 @@ record of $4 million was set. A rare pair of Hals portraits is on offer for $6 m
 
 After London, the paintings are touring to Amsterdam and Brussels during TEFAF Maastricht, then Los Angeles and Hong Kong in April. As Jordan would tell the next generation of collectors, “Long live the hunt!”
 
- 
+
 
 Endnotes…
 -----------
@@ -152,7 +152,7 @@ also good on Signal and WhatsApp. My email is indeed Marion@puck.news ( Marion@p
 In short: The more you respond to us, the more we can present those comments here in the newsletter.
 Anonymously, of course. It’s our job to fairly represent your thinking—even when it conflicts with or contradicts our own. A good contest of ideas is how we all shape and sharpen our thinking. That’s also how we engage our readers and let them know what people are thinking and doing, and why.
 
- 
+
 
 Hope to hear from you,
 
@@ -205,7 +205,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVY3D3ecHuUcvfu61hB-w=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

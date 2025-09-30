@@ -39,7 +39,7 @@ var countryCookie = getCountryCookie();
 				<script type="text/javascript">
 			var dtciDataLayer = {"page":{"content_publish_date":"09\/09\/2014","content_publish_time":"05:38","content_last_update_date":"02\/15\/2015","content_last_update_time":"07:49","contentcategory":"Data Science,Online Dating","section_1":"culture","section_2":"","story_title":"Matchmaker, Matchmaker, Make Me A Spreadsheet","story_id":52537,"author":"Chadwick Matlin","page_name":"fivethirtyeight:culture:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"long_form_layout","editorial_other_subjects":["Data Science","Online Dating"],"word_count":3742},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
 		</script>
-		
+
 		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
 <title>Matchmaker, Matchmaker, Make Me A Spreadsheet | FiveThirtyEight</title>
 <meta name='robots' content='max-image-preview:large' />
@@ -139,7 +139,7 @@ var ABCAnalytics = {"nielsen":{"asset_id":52537,"section":"culture","seg_a":"","
             margin-left: 5px;
         }
         </style>
-        
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Matchmaker, Matchmaker, Make Me A Spreadsheet" />
@@ -209,7 +209,7 @@ display: none;
 					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
 				</a>
 							</h2>
-			
+
 			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
 				<label for="search-field" class="search-form-label">Search</label>
 				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
@@ -228,13 +228,13 @@ display: none;
 
 </div>
 			<div class="single-sticky">
-		
+
 							<div class="single-sticky-vertical"></div>
 				<div class="single-sticky-title">
 											Matchmaker, Matchmaker, Make Me A Spreadsheet									</div>
 				<a href="https://fivethirtyeight.com/features/christian-rudder-dataclysm-okcupid/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
 				<a href="https://fivethirtyeight.com/features/christian-rudder-dataclysm-okcupid/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
-			
+
 			</div>
 			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
 		<nav class="nav-global" id="nav-global">
@@ -298,7 +298,7 @@ display: none;
 		>
 
 <a href="http://abcnews.com/538" class="banner-content">
-	
+
 		<div class="banner-icon lightning">
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
 
@@ -307,7 +307,7 @@ display: none;
 <div class="banner-icon chevron">
 			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
 		</a>
-	
+
 </div>
 
 <div id="content" class="single single-feature" data-col="2">
@@ -318,7 +318,7 @@ display: none;
 					<article id="post-52537" class="post-52537 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-data-science tag-online-dating espn_bug-vintage espn_verticals-life espn_verticals-science vertical-life">
 
 <header class="post-info single-post-header">
-							
+
 							<div class="single-header">
 								<h1 class="article-title article-title-single entry-title">
 									Matchmaker, Matchmaker, Make Me A Spreadsheet								</h1>
@@ -328,12 +328,12 @@ display: none;
 <div class="single-header-metadata-and-share-wrap">
 								<div class="single-header-metadata-wrap">
 																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/chadwick-matlin/" title="" class="author url fn" rel="author">Chadwick Matlin</a></p>
-										
-									
+
+
 																			<p class="single-metadata single-topic single-date">
 										Published <time class="datetime updated" title="2014-09-09T09:38:10+00:00">Sep. 9, 2014</time>
 									</p>
-									
+
 																	</div>
 								<div class="share">
 																	</div> <!-- .share -->
@@ -346,11 +346,11 @@ display: none;
 					<div class="bug-container">
 				<picture class="featured-picture">
 											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-crop1.jpg">
-					
+
 											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?w=1150 2x">
 						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?w=575" class="attachment-lede size-lede" alt="" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg 1820w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=100,75 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=300,225 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=768,576 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=1024,768 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=1536,1152 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=683,512 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=575,432 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=470,352 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=600,450 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=347,260 347w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=213,160 213w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=207,155 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=60,45 60w, https://fivethirtyeight.com/wp-content/uploads/2014/09/portrait_rudder-lede.jpg?resize=916,687 916w" sizes="(max-width: 575px) 100vw, 575px" />									</picture>
 
-<span class="bug bug-top-left "><img src="https://fivethirtyeight.com/wp-content/uploads/2015/03/vintage.png?w=150&#038;h=150&#038;crop=1"></span>				
+<span class="bug bug-top-left "><img src="https://fivethirtyeight.com/wp-content/uploads/2015/03/vintage.png?w=150&#038;h=150&#038;crop=1"></span>
 			</div>
 
 </span><!-- .has-bugs -->
@@ -358,13 +358,13 @@ display: none;
 <figcaption class="caption banner-caption">
 			Christian Rudder in the OKCupid office in New York City in September 2014.							<p class="credits">Floto + Warner</p>
 					</figcaption>
-	
+
 				<figcaption class="caption featured-image-caption">
 				Christian Rudder in the OKCupid office in New York City in September 2014.									<p class="credits">Floto + Warner</p>
 							</figcaption>
-			
+
 </figure><!-- .single-featured-image -->
-						
+
 						<div class="entry-content single-post-content">
 							<p><span class="drop-cap">I</span>n mid-August, couples and lonely hearts packed a Brooklyn basement to hear scientists make sense of something the crowd could not: love. It was the 11th meeting of the Empiricist League, a kind of ad-hoc, small-scale TED Talks for scientists and the New Yorkers who adore them. In the back corner of the room, Christian Rudder sat by himself at the bar, nursing Stephen King’s “It.”</p>
 <p>Rudder, the 39-year-old president and co-founder of the online dating site OKCupid, had come to deliver a distilled version of what he’s been working on for the last five years. In 2009, Rudder started OKTrends, an in-house blog for OKCupid, as a way to attract new members to a site that was nearly out of money. The posts covered such topics as <a href="http://blog.okcupid.com/index.php/the-4-big-myths-of-profile-pictures/">the best camera angle for a profile picture</a> and <a href="http://blog.okcupid.com/index.php/page/8/">how people lie on their profiles</a> — the mysteries online daters wonder about.</p>
@@ -391,7 +391,7 @@ display: none;
 					<img loading="lazy" decoding="async" class="size-full full-width wp-image-52540" src="https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg" alt="The founders of OKCupid in 2010." width="610" height="406" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg 2048w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=100,67 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=300,200 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=768,512 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=1024,683 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=1536,1024 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=683,455 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=575,383 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=470,313 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=600,400 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=390,260 390w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=240,160 240w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=864,576 864w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=207,138 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=60,40 60w" sizes="auto, (max-width: 610px) 100vw, 610px" data-sizes="auto, (max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg 2048w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=100,67 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=300,200 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=768,512 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=1024,683 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=1536,1024 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=683,455 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=575,383 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=470,313 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=600,400 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=390,260 390w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=240,160 240w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=864,576 864w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=207,138 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/okcupid.jpeg?resize=60,40 60w"><figcaption class="wp-caption-text caption">
 								<p>The founders of OKCupid, Max Krohn, Sam Yagan, Chris Coyne and Christian Rudder, in 2010.</p>									<p class="photo-credit credits">Michael Falco</p></figcaption>
 						</figure>
-		
+
 <p>Their idea was to start a blog that shared the kinds of interesting tidbits about OKCupid users that they were already emailing around the office. The hope was that if Rudder cobbled together pithy insights into, say, <a href="http://blog.okcupid.com/index.php/page/3/">how a woman’s body type correlates to her self-confidence</a>, prospective users would read them and sign up.</p>
 <p>These days, this kind of data-as-PR strategy is commonplace for startups. After the recent earthquake in Napa, Jawbone, which makes a fitness tracker,<a href="https://jawbone.com/blog/napa-earthquake-effect-on-sleep/"> showed how the earthquake disturbed users’ sleep</a>. And PornHub, the porn hub,<a href="http://gizmodo.com/the-ultimate-breakdown-of-how-people-watch-porn-online-1626618056"> recently outlined the different ways its users watch XXX content</a>. But in 2009, Rudder said, “It was a different world because no company ever published any of their data about it. So even just the fact of publishing some stats felt kind of transgressive.”</p>
 <p>Rudder’s first post about race — <a href="http://blog.okcupid.com/index.php/your-race-affects-whether-people-write-you-back/">“How Your Race Affects The Messages You Get”</a> — topped 1 million views. (Currently it stands at 1.2 million views.) This was raw shareable content before Buzzfeed or Upworthy had figured out the social Web. People, it seemed, liked reading about themselves.</p>
@@ -417,7 +417,7 @@ display: none;
 					<img loading="lazy" decoding="async" class="size-full full-width wp-image-52563" src="https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg" alt="Rudder in Bujalski's 2005 film " funny ha ha. width="610" height="343" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=100,56 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=300,169 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=768,432 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=683,384 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=575,323 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=470,264 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=600,338 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=462,260 462w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=284,160 284w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=207,116 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=60,34 60w" sizes="auto, (max-width: 610px) 100vw, 610px" data-sizes="auto, (max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=100,56 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=300,169 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=768,432 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=683,384 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=575,323 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=470,264 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=600,338 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=462,260 462w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=284,160 284w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=207,116 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/funnyhaha1.jpg?resize=60,34 60w"><figcaption class="wp-caption-text caption">
 								<p>Rudder in Bujalski’s 2005 film “Funny Ha Ha.”</p>									<p class="photo-credit credits">Funny Ha Ha</p></figcaption>
 						</figure>
-		
+
 <p><span class="drop-cap">R</span>udder’s childhood had the same shambling, itinerant quality as his career. His family moved around a lot — Cleveland, Mexico City, Houston, Louisville, Little Rock, wherever his dad’s banking job took them next. “They were very nontraumatic-type moves. I don’t know, it was just a thing that happened,” Rudder said.</p>
 <p>Along the way, he wasn’t aspiring to be anything in particular. Not a matchmaker, nor a data scientist, nor a star of a film that New York Times critic A.O. Scott named one of<a href="http://www.nytimes.com/2006/01/08/movies/08lim.html"> his 10 best of the year in 2005</a>, nor the guitarist for a beloved indie pop band. He stumbled into all of it — they were just things that happened.</p>
 <p>They started happening when Rudder went to Harvard in 1993. “I originally went thinking I would do math and physics and then I took some math classes my first year and I was like, whoa, fuck this. First, everybody was way better than I was. Second, I just didn’t like college. Period.” So he took a leave of absence and moved back to Little Rock, where he “hung out, sat around, worked for my girlfriend’s dad. Dicked around in Excel, basically.”</p>
@@ -429,7 +429,7 @@ display: none;
 					<img loading="lazy" decoding="async" class="size-full full-width wp-image-52545" src="https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg" alt="Rudder's band, Bishop Allen." width="610" height="406" srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg 2048w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=100,67 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=300,200 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=768,512 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=1024,683 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=1536,1024 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=683,455 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=575,383 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=470,313 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=600,400 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=390,260 390w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=240,160 240w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=864,576 864w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=207,138 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=60,40 60w" sizes="auto, (max-width: 610px) 100vw, 610px" data-sizes="auto, (max-width: 610px) 100vw, 610px" data-src="https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg 2048w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=100,67 100w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=300,200 300w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=768,512 768w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=1024,683 1024w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=1536,1024 1536w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=683,455 683w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=575,383 575w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=470,313 470w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=600,400 600w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=390,260 390w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=240,160 240w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=864,576 864w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=207,138 207w, https://fivethirtyeight.com/wp-content/uploads/2014/09/bishopallen.jpg?resize=60,40 60w"><figcaption class="wp-caption-text caption">
 								<p>Rudder’s band, Bishop Allen.</p>									<p class="photo-credit credits">Matt Petricone / Courtesy of Dead Oceans</p></figcaption>
 						</figure>
-		
+
 <p>A few years after Rudder left TheSpark he and a Harvard pal, Justin Rice, self-released an album as the band Bishop Allen. The album’s <a href="https://www.youtube.com/watch?v=Q4JQIGrTEKw">fifth track</a> gives a shoutout to Excel, which Rudder used to put the album together. “To figure out where edits should be, Christian would use spreadsheets. So he’d be like, ‘OK, we’re at this BPM, I know 11 measures in I need to splice in this drum fill,’ so he would figure out the exact moment in the timecode to put the edit,” Rice recalled.</p>
 <p>Within five years, the band’s songs would be featured in commercials for Sony and Target, they’d make a cameo in the 2008 film “Nick and Norah’s Infinite Playlist,” and the tours and CDs would bring in enough income for Rudder and Rice to focus on music more or less full time. Immersing himself in Bishop Allen was how Rudder paid the bills while OKCupid struggled to find its audience.</p>
 <p>Bishop Allen wasn’t Rudder’s first taste of minor fame. In 2001, his old roommate from Harvard, Andrew Bujalski, cast him in his first movie, <a href="https://www.youtube.com/watch?v=Wl6oqjT85eM">“Funny Ha Ha.”</a> It was a kind of meditation on what it’s like to be a young adult stuck in mediocrity, and know it. Rudder played Alex, the unattainable guy that the film’s lead, Marnie, is chasing. Bujalski recalled over email, “He had zero interest in pursuing acting, but he brought complete honesty and fearlessness to it and knocked my socks off.” The movie made critics swoon when it came out in 2005, and they dubbed “Funny Ha Ha” the birth of <a href="http://www.newyorker.com/magazine/2009/03/16/youthquake">a new genre of film</a>: mumblecore. Rudder, the math major, satire-writer, Excel-dicker, had helped transform indie cinema. Just one of those things that happened.</p>

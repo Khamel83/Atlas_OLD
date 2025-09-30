@@ -71,7 +71,7 @@ It is that paradox that lies at the heart of *The End of White Christian America
 
 It is that question that Jones’s book leaves us wondering: whether the death of White Christian America, as a cultural construct, is a good thing for Christianity, the religion. For a religion that was once subversive, Jones hints, being countercultural may just be the ideal way to be.
 
-See More: 
+See More:
 
 * [Life](/web/20241221231258/https://www.vox.com/life)
 * [Religion](/web/20241221231258/https://www.vox.com/religion)

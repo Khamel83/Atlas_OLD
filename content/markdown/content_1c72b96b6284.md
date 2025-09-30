@@ -11,7 +11,7 @@
 <p data-page="16706" id="p-8">While the Census Bureau is not responsible for the use of its urban-rural classification in nonstatistical programs, we will work with tribal, federal, state, or local agencies as well as stakeholders, as appropriate, to ensure understanding of our classification. Agencies using the classification for their programs must ensure that the classification is appropriate for their use.</p>
 <h2 id="h-7">I. Summary of Changes Made to the 2020 Census Urban Area Criteria</h2>
 <p data-page="16706" id="p-9">
-                    The following table compares the final 2020 Census urban area criteria with those that were proposed in the 
+                    The following table compares the final 2020 Census urban area criteria with those that were proposed in the
                     <strong>Federal Register</strong>
                      on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>).
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16707">
@@ -106,7 +106,7 @@
 </table></div>
 <h2 id="h-8">II. History</h2>
 <p data-page="16707" id="p-10">
-                    Over the course of a century defining urban areas, the Census Bureau has introduced conceptual and methodological changes to ensure that the urban-rural classification keeps pace with changes in settlement patterns and with changes in theoretical and practical approaches to interpreting and 
+                    Over the course of a century defining urban areas, the Census Bureau has introduced conceptual and methodological changes to ensure that the urban-rural classification keeps pace with changes in settlement patterns and with changes in theoretical and practical approaches to interpreting and
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16708">
 
 (<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16708)
@@ -136,11 +136,11 @@
 <li data-page="16708" id="p-26">Splitting large urban agglomerations.</li>
 </ul>
 <p data-page="16708" id="p-27">
-                    The conceptual and criteria changes adopted for both the 2000 and 2010 Censuses, as well as the history of the Census Bureau's urban and rural classification, are discussed in more detail in the document “A Century of Delineating a Changing Landscape: The Census Bureau's Urban and Rural Classification, 1910 to 2010,” available at 
+                    The conceptual and criteria changes adopted for both the 2000 and 2010 Censuses, as well as the history of the Census Bureau's urban and rural classification, are discussed in more detail in the document “A Century of Delineating a Changing Landscape: The Census Bureau's Urban and Rural Classification, 1910 to 2010,” available at
                     <em><a class="external" href="https://www2.census.gov/geo/pdfs/reference/ua/Century_of_Defining_Urban.pdf" rel="noopener noreferrer" target="_blank">https://www2.census.gov/​geo/​pdfs/​reference/​ua/​Century_​of_​Defining_​Urban.pdf</a>.</em></p>
 <h2 id="h-9">III. Summary of Comments Received in Response to Proposed Criteria</h2>
 <p data-page="16708" id="p-28">
-                    The notice published in the 
+                    The notice published in the
                     <strong>Federal Register</strong>
                      on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) requested comments on proposed criteria for delineating the 2020 Census urban areas. The Census Bureau received 106 responses directly related to the proposed Urban Area Criteria. Responses were received from regional planning and nongovernmental organizations, municipal and county officials, Members of Congress, state governments, federal agencies, and individuals. The criteria in Section V of this document reflect changes made in response to the comments and suggestions received on the proposed criteria for delineating the 2020 Census urban areas.
                 </p>
@@ -156,7 +156,7 @@
 <p data-page="16708" id="p-33">The Census Bureau received fifty-five comments regarding the proposed criteria to utilize housing unit density.</p>
 <p data-page="16708" id="p-34">Twenty-six commenters expressed concern about using housing unit density instead of population density. Eight commenters supported using housing unit density.</p>
 <p data-page="16708" id="p-35">
-                    Twenty commenters expressed concern that the minimum housing unit density threshold of 385 housing units per square mile (HPSM) was too high. One commenter supported the 
+                    Twenty commenters expressed concern that the minimum housing unit density threshold of 385 housing units per square mile (HPSM) was too high. One commenter supported the
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16709">
 
 (<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16709)
@@ -187,12 +187,12 @@
 <p data-page="16709" id="p-47">The Census Bureau's urban area criteria for the 2020 Census consists of a single set of rules that allow for application of automated processes based on the input of standardized nationwide datasets that yield consistent results. Rather than defining areas through a process of accretion over time, the criteria also provide a better reflection of the distribution of population, housing, and other uses and how they reflect the current state of urbanization.</p>
 <h3 id="h-25">Comments Pertaining to the Urban Area Program Timeline</h3>
 <p data-page="16709" id="p-48">
-                    The Census Bureau received twenty-six requests for the extension of the public comment period on the proposed urban area delineation criteria to further assess its potential impacts. Additional comments expressed difficulty in predicting results of changes to criteria as published in the 
+                    The Census Bureau received twenty-six requests for the extension of the public comment period on the proposed urban area delineation criteria to further assess its potential impacts. Additional comments expressed difficulty in predicting results of changes to criteria as published in the
                     <strong>Federal Register</strong>
                      on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) and requested clarification of the proposed urban area delineation criteria.
                 </p>
 <p data-page="16709" id="p-49">
-                    The delineation and production of urban areas and their associated data are scheduled to begin after the release of the Decennial Census block-level population and housing counts to ensure sufficient time to delineate and review the urban area definitions and prepare geographic information files in time for tabulation and inclusion in statistical data products from both the 2020 Census and the American Community Survey (ACS). Adherence to this schedule prevented any attempts toward a test delineation using all the proposed 2020 urban area criteria for the entire United States, Puerto Rico, and the Island Areas, thus prohibiting 
+                    The delineation and production of urban areas and their associated data are scheduled to begin after the release of the Decennial Census block-level population and housing counts to ensure sufficient time to delineate and review the urban area definitions and prepare geographic information files in time for tabulation and inclusion in statistical data products from both the 2020 Census and the American Community Survey (ACS). Adherence to this schedule prevented any attempts toward a test delineation using all the proposed 2020 urban area criteria for the entire United States, Puerto Rico, and the Island Areas, thus prohibiting
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16710">
 
 (<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16710)
@@ -201,12 +201,12 @@
                 </p>
 <h2 id="h-26">IV. Changes to the Proposed Urban Area Criteria for the 2020 Census</h2>
 <p data-page="16710" id="p-50">
-                    This section of the notice provides information about the Census Bureau's decisions on changes that were incorporated into the Urban Area Criteria for the 2020 Census in response to the many comments received. These decisions benefited greatly from public participation as the Census Bureau took into account the comments received in response to the proposed criteria published in the 
+                    This section of the notice provides information about the Census Bureau's decisions on changes that were incorporated into the Urban Area Criteria for the 2020 Census in response to the many comments received. These decisions benefited greatly from public participation as the Census Bureau took into account the comments received in response to the proposed criteria published in the
                     <strong>Federal Register</strong>
                      on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>), as well as comments received during webinars, conference presentations, consultations with professional geographers and other social scientists who work with and define urban and rural concepts and classifications, meetings with federal, state, and local officials and other users of data for urban areas, and additional research and investigation conducted by Census Bureau staff.
                 </p>
 <p data-page="16710" id="p-51">
-                    The changes made to the proposed criteria in Section III of the published in the 
+                    The changes made to the proposed criteria in Section III of the published in the
                     <strong>Federal Register</strong>
                      on February 19, 2021, “Urban Areas for the 2020 Census-Proposed Criteria” (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>), are as follows:
                 </p>
@@ -225,7 +225,7 @@
 <p data-page="16710" id="p-64">13. In Section III, subsection B.9, the Census Bureau modifies the criteria to include the most populous place name of the high-density nucleus.</p>
 <p data-page="16710" id="p-65">14. In Section III, subsection B.9, the Census Bureau modifies the criteria for secondary names to utilize housing unit counts rather than population counts.</p>
 <p data-page="16710" id="p-66">
-                    The sections of the proposed criteria referenced above do not appear in the same order in Section V of this final notice due to the reorganization of existing criteria sections and the addition of new criteria sections. The following table provides a crosswalk of the criteria sections that were proposed in the 
+                    The sections of the proposed criteria referenced above do not appear in the same order in Section V of this final notice due to the reorganization of existing criteria sections and the addition of new criteria sections. The following table provides a crosswalk of the criteria sections that were proposed in the
                     <strong>Federal Register</strong>
                      on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) to the criteria sections of the final criteria in this notice.
                 </p>
@@ -233,7 +233,7 @@
 <thead><tr>
 <th class="center border-top-single border-bottom-single border-right-single">Section name</th>
 <th class="center border-top-single border-bottom-single border-right-single">Proposed 2020 criteria</th>
-<th class="center border-top-single border-bottom-single">Final 2020 
+<th class="center border-top-single border-bottom-single">Final 2020
                              criteria</th>
 </tr></thead>
 <tbody>
@@ -311,13 +311,13 @@
 <h2 id="h-27">V. Urban Area Criteria for the 2020 Census</h2>
 <p data-page="16711" id="p-67">
                     The criteria outlined herein apply to the United States,<sup>[] </sup>
-                    
+
                      Puerto Rico, and the Island Areas of American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands. The Census Bureau will utilize the following criteria and characteristics to identify the areas that will qualify for designation as urban areas for use in tabulating data from the 2020 Census, the American Community Survey (ACS), the Puerto Rico Community Survey, and potentially other Census Bureau censuses and surveys.
                 </p>
 <h3 id="h-28">A. 2020 Census Urban Area Definitions</h3>
 <p data-page="16711" id="p-69">
                     For the 2020 Census, an urban area will comprise a densely developed core of census blocks <sup>[] </sup>
-                    
+
                      that meet minimum housing unit density requirements, along with adjacent territory containing non-residential urban land uses as well as other lower density territory included to link outlying densely settled territory with the densely settled core. To qualify as an urban area, the territory identified according to the criteria must encompass at least 2,000 housing units or at least 5,000 persons. The term “rural” encompasses all population, housing, and territory not included within an urban area.
                 </p>
 <p data-page="16711" id="p-71">1. As a result of the urban area delineation process, an incorporated place or census designated place (CDP) may be partly inside and partly outside an urban area. Further, any census geographic areas, with the exception of census blocks, may be partly within and partly outside an urban area.</p>
@@ -330,7 +330,7 @@
 <p data-page="16711" id="p-76">(a) The census block has a density of at least 425 HPSM; or</p>
 <p data-page="16711" id="p-77">
                     (b) At least one-third of the census block consists of territory with an impervious level of at least 20 percent,<sup>[] </sup>
-                    
+
                      and the census block is compact in nature as defined by a shape index. A census block is considered compact when the shape index is at least 0.185 using the following formula: I = 4πA/P<sup>2</sup>
                      where I is the shape index, A is the area of the entity, and P is the perimeter of the entity; or
                 </p>
@@ -349,7 +349,7 @@
 </ul>
 <h4 id="h-32">3. Inclusion of Noncontiguous Territory Separated by Exempted Territory</h4>
 <p data-page="16711" id="p-89">
-                    The Census Bureau will identify and exempt territory in which residential development is substantially constrained or not possible due to either 
+                    The Census Bureau will identify and exempt territory in which residential development is substantially constrained or not possible due to either
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16712">
 
 (<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16712)
@@ -369,25 +369,25 @@
 <p data-page="16712" id="p-98">(a) Qualify as urban via the impervious surface criteria set forth in Steps B.1.b or B.1.c; and</p>
 <p data-page="16712" id="p-99">
                     (b) Have a total area of at least 0.15 square miles; <sup>[] </sup>
-                    
+
                      and
                 </p>
 <p data-page="16712" id="p-101">(c) Are within 0.5 miles of a Core EBA.</p>
 <p data-page="16712" id="p-102">The Census Bureau will also include all census blocks that:</p>
 <p data-page="16712" id="p-103">
                     (d) Contain a three-year average of at least 1,000 commuter destinations; <sup>[] </sup>
-                    
+
                      and
                 </p>
 <p data-page="16712" id="p-105">(e) Are within 0.5 miles of a Core EBA.</p>
 <p data-page="16712" id="p-106">
                     A final review of these census blocks and surrounding territory <sup>[] </sup>
-                    
+
                      will determine whether to include them in an EBA.
                 </p>
 <p data-page="16712" id="p-108">
                     The Census Bureau will then add census blocks that approximate the territory of airports, provided at least one of the blocks that represent the airport is within 0.5 miles of the edge of a Core EBA. An airport qualifies for inclusion if it is currently functional and one of the following (per the Federal Aviation Administration (FAA) Air Carrier Activity Information System.<sup>[] </sup>
-                    
+
                     ):
                 </p>
 <p data-page="16712" id="p-110">(a) Is a qualified cargo airport; or</p>
@@ -411,7 +411,7 @@
 <p data-page="16712" id="p-125">(b) Both Core EBAs have at least 1,000 housing units or 2,500 persons; and</p>
 <p data-page="16712" id="p-126">
                     (c) The three-year mean worker-flow <sup>[] </sup>
-                    
+
                      between the two Core EBAs is at least 50 percent in at least one direction.
                 </p>
 <h4 id="h-38">9. Identification of Urban Area Agglomerations (UAA)</h4>
@@ -446,7 +446,7 @@
 <p data-page="16713" id="p-145">(b) Split Boundary Assignment.</p>
 <p data-page="16713" id="p-146">
                     Community detection is performed on the three most-recently available years of Longitudinal Employer-Household Dynamics Origin-Destination Employment Statistics (LODES) worker-flow data, using unsupervised clustering, specifically the Leiden Algorithm,<sup>[] </sup>
-                    
+
                      to identify commuter-based partitions. The Leiden Algorithm is first applied separately on each eligible UAA, then subsequent iterations are run on the resulting partitions to provide greater levels of spatial resolution to allow for relatively smaller areas to be added during UAA split boundary assignment. The resulting partitions of the third iteration are used to carry out the following steps, unless the Census Bureau determines doing so would not provide the best split boundary.
                 </p>
 <p data-page="16713" id="p-148">Commuter-based partitions associated with only one intersecting area or one Core EBA meeting the criteria in Step B.10.a.1 or Step B.10.a.2, are grouped together to form component UAAs. Additionally, partitions are grouped or assigned to existing component UAAs if:</p>
@@ -476,7 +476,7 @@
                     If the high-density nuclei of an urban area do not contain a place of at least 2,500 people, the Census Bureau will consider the name of the incorporated place, CDP, or MCD with the largest total population in the urban area, or a local name recognized for the area by the United States Geological Survey's (USGS) Geographic Names Information System (GNIS), with preference given to names also recognized by the United States Postal Service (USPS). The urban area title will include the USPS abbreviation of the name of each state or statistically equivalent entity in which the urban area is located or extends. The order of the state abbreviations is the same as the order of the related place names in the urban area title.<sup>[] </sup>
 </p>
 <p data-page="16713" id="p-170">
-                    If a single place or MCD qualifies as the title of more than one urban area, the urban area with the largest population will use the name of the place or MCD. The smaller urban area will have a title consisting of the place or MCD name and the direction (such as 
+                    If a single place or MCD qualifies as the title of more than one urban area, the urban area with the largest population will use the name of the place or MCD. The smaller urban area will have a title consisting of the place or MCD name and the direction (such as
                     <span class="printed-page-inline unprinted-element document-markup" data-page="16714">
 
 (<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16714)
@@ -610,7 +610,7 @@
                      A retired statistical geographic entity type consisting of a densely settled core created from census tracts or blocks and adjacent densely settled territory that together have a minimum population of 50,000 people. Urbanized areas were not identified for the 2020 census.
                 </p>
 <p data-page="16715" id="p-202">
-                    Robert L. Santos, Director, Census Bureau, approved the publication of this Notice in the 
+                    Robert L. Santos, Director, Census Bureau, approved the publication of this Notice in the
                     <strong>Federal Register</strong>
                     .
                 </p>

@@ -7,7 +7,7 @@
 
 # Bad Santa: The Improbable Holiday Classic
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Bad Santa: The Improbable Holiday Classic](http://www.vanityfair.com/web/20110529092155im_/http://www.vanityfair.com/favicon.ico)
 

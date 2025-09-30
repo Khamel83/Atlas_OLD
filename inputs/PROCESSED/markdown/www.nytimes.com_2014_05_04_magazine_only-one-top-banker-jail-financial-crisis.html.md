@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • May 04, 2014 
+Unknown author • May 04, 2014
 
 ![nytimes.com]()
 

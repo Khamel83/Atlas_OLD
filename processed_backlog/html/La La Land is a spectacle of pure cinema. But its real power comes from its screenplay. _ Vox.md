@@ -80,7 +80,7 @@ That continuity between vision and execution is apparent in every frame of *La L
 
 *La La Land is currently in limited release in select cities. It expands nationwide December 16.*
 
-See More: 
+See More:
 
 * [Culture](/web/20241227035900/https://www.vox.com/culture)
 * [Movies](/web/20241227035900/https://www.vox.com/movies)

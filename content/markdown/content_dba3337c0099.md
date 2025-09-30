@@ -22,7 +22,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
+
 <!-- Add to home screen for iOS -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" sizes="180x180" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png">
@@ -36,7 +36,7 @@
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/favicon.png">
 <link rel="shortcut icon" href="https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/favicon.ico">
-	
+
 <!--
 		 _     _ _           ____          _          _____ _    ___
 		| |   (_) | _____   / ___|___   __| | ___    | ____| |__|__ \
@@ -406,7 +406,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 		<script type="text/javascript">
 			var pmc_ga_dimensions = {"dimension1":"article","dimension3":"1117910352","dimension4":"roy-e-disney|stanley-p-gold","dimension5":"news","dimension7":"biz","dimension8":"news","dimension9":"biz","dimension10":"2004","dimension11":"09","dimension12":"13","dimension13":"15","dimension14":"40","dimension25":"2004-09-13T23:40:00+00:00","dimension26":"2004-09-13 15:40:00","dimension27":"Monday","dimension29":"anonymous"};
 			var pmc_ga_mapped_dimensions = {"page-type":"1","page-subtype":"2","id":"3","author":"4","category":"5","tag":"6","vertical":"7","primary-category":"8","primary-vertical":"9","publish-year":"10","publish-month":"11","publish-day":"12","publish-hour":"13","publish-minute":"14","protocol":"15","paywall-entitlement":"16","paywall-sub-level-required":"17","paywall-sub-roadblock-hit":"18","paywall-acct-type":"19","paywall-acct-id":"20","paywall-org-name":"21","paywall-org-id":"22","paywall-auth-provider":"23","paywall-logged-in":"24","publish-timestamp-gmt":"25","publish-timestamp":"26","publish-day-of-week":"27","omni-visit-id":"28","user-type":"29","a-b-test":"30","experiment-name":"31","paywall-special-product-code":"32","paywall-product-code":"33","post-options":"34","child-post-id":"35","page-variant-name":"36","pageview-id":"37"};
-			
+
 			// Set default dimensions that require C0002 OneTrust group consent.
 			// $dimension_map['human-readable-label'] becomes its number, such as 15 for 'protocol'.
 			window.pmc_ga_dimensions_requiring_c0002 = [];
@@ -420,7 +420,7 @@ div.admz, div.admz-sp { margin-left: auto; margin-right: auto; text-align: cente
 				dim["dimension28"] = pmc_meta.omni_visit_id;
 			}
 					dim[decodeURIComponent( 'dimension34' ) ] = 'no';
-			
+
 		try {
 						var pmc_piano_reporting_cookie = JSON.parse(pmc.cookie.get('pmc_piano_reporting')) || {};
 
@@ -510,7 +510,7 @@ if ( '' !== location.search ) {
 gtag('set', 'page_location', location_url);
 						}
 					}
-					
+
 				window.pmcGaCustomDimensions = ga3Dimensions;
 
 window.dataLayer.push({
@@ -675,7 +675,7 @@ blogherads.adq.push(function () {
     "logo": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/build/svg/brand-logo.svg"
 }
 			</script>
-			
+
 <style type="text/css">
 article #connatix-contextual-player {
 	aspect-ratio: 16/9;
@@ -732,7 +732,7 @@ article [id^="jwplayer_"][id$="_div"] {
 			gtag('js', new Date());
 
 gtag( 'config', 'G-S6DEFT20P4', { 'send_page_view': false } );
-		
+
 		</script>
 				<style type="text/css">
 			/*
@@ -815,16 +815,16 @@ var pmc_harmony_event_data = {"start_time":"1748361600","end_time":"1748448000",
 	});
 
 (function ( blogherads ) {
-		
+
 		blogherads.adq.push( function () {
 
 blogherads.setConf( 'vertical', 'news' );
-			
+
 						blogherads.setConf( 'country_code_ad_unit_map', {"AU":"Variety_AU","NZ":"Variety_AU"} );
-			
-			
-			
-			
+
+
+
+
 			blogherads.setTargeting( 'pt', 'article' );
 blogherads.setTargeting( 'ci', 'ART-1117910352' );
 blogherads.setTargeting( 'kw', ["news","biz"] );
@@ -897,11 +897,11 @@ body.post-type-archive-variety_vip_report .lrv-u-font-family-secondary{
 }
 
 body.post-type-archive-variety_vip_report div.o-top-story__inner h3.c-title {
-	font-family: "Graphik XX Cond"; 
+	font-family: "Graphik XX Cond";
 }
 
 body.post-type-archive-variety_vip_video .u-font-family-basic{
-	font-family: "Para Supreme Regular"; 
+	font-family: "Para Supreme Regular";
 }
 
 /* temp classes for adding responsive video to Custom HTML Widget on homepage for Variety PoW 9-28-22 Event */
@@ -1215,7 +1215,7 @@ body.page-template-page-vip div.more-from-widget div.o-more-link &gt; a.c-link {
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.page-template-page-vip section.upcoming-events div.o-more-link &gt; a.c-link {
@@ -1503,7 +1503,7 @@ body.single-variety_vip_video div.more-from-widget div.o-more-link &gt; a.c-link
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.single-variety_vip_post div.more-from-widget div.o-more-link &gt; a.c-link:hover,
@@ -1612,7 +1612,7 @@ body.tax-variety_vip_tag div.more-from-widget div.o-more-link &gt; a.c-link {
 	font-weight: 700;
 	letter-spacing: 1.92px;
 	line-height: 14.9px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 body.post-type-archive-variety_vip_post div.more-from-widget div.o-more-link &gt; a.c-link:hover,
@@ -1661,7 +1661,7 @@ body.single-variety_vip_video div.a-content .pmc-paywall&gt;p:first-child:first-
 .postid-1236121979 div#leaderboard-no-padding {
 display: none;
 }		</style>
-		
+
 <script
 	type="text/plain" src="https://variety.com/wp-content/plugins/pmc-plugins/pmc-taboola/assets/build/index.js?ver=514b500f0fa5ab25088a" class=" optanon-category-C0004" async="1" ></script>
 
@@ -1722,7 +1722,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="skin-ad-inject-container">
 			<div class="admz " id="adm-responsive-skin-ad">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -1730,7 +1730,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="gpt-dsk-ros-skin-uid4"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'reskin', 'gpt-dsk-ros-skin-uid4' )
@@ -1754,7 +1754,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 <div id="leaderboard-no-padding" class="l-header__leaderboard-no-padding u-margin-a-1@desktop-xl lrv-u-padding-tb-075">
 			<div class="admz " id="adm-leaderboard">
 					<div class="adma boomerang " data-device="Desktop" data-width="728">
-				
+
 <div style="min-width:50px;min-height:50px;"
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -1762,7 +1762,7 @@ window.pmc_taboola.push({"article":"auto"});</script>
 	<div id="div-gpt-dsk-ros-leaderboard-uid5"
 		class=" adw-728 adh-90" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'banner', 'div-gpt-dsk-ros-leaderboard-uid5' )
@@ -1780,18 +1780,18 @@ window.pmc_taboola.push({"article":"auto"});</script>
 			</div>
 				</div>
 	</div>
-	
+
 <div class="main-menu // a-hidden@mobile-max lrv-u-background-color-white lrv-u-border-t-1 u-border-b-1 u-border-color-black lrv-u-color-white lrv-u-padding-b-075 lrv-u-padding-t-075">
-	
+
 <nav class="o-nav-icon  lrv-u-flex lrv-u-align-items-center lrv-u-margin-lr-auto u-max-width-1175@tablet">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex u-gap-16 u-gap-32@desktop lrv-u-justify-content-center lrv-u-font-family-primary lrv-u-padding-lr-1 lrv-u-width-100p" aria-labelledby="">
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/v/film/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1802,15 +1802,15 @@ window.pmc_taboola.push({"article":"auto"});</script>
 
 Film
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/v/tv/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1821,15 +1821,15 @@ Film
 
 TV
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/what-to-watch-streaming-movies-shows-online/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1840,15 +1840,15 @@ TV
 
 What To Watch
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/v/music/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1859,15 +1859,15 @@ What To Watch
 
 Music
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/t/documentaries-to-watch/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1878,15 +1878,15 @@ Music
 
 Docs
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/v/digital/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1897,15 +1897,15 @@ Docs
 
 Digital &amp; Gaming
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/c/global/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1916,15 +1916,15 @@ Digital &amp; Gaming
 
 Global
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="/e/contenders/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1935,15 +1935,15 @@ Global
 
 Awards Circuit
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="/videos/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1954,15 +1954,15 @@ Awards Circuit
 
 Video
 </span>
-	
+
 	</a>
 			</li>
 					<li class="o-nav__list-item ">
-				
+
 	<a href="https://variety.com/t/what-to-hear/" class="lrv-a-unstyle-link lrv-u-color-black u-color-medium-grey:hover lrv-a-font-secondary-regular-xs u-letter-spacing-120-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -1973,7 +1973,7 @@ Video
 
 What To Hear
 </span>
-	
+
 	</a>
 			</li>
 			</ul>
@@ -1983,18 +1983,18 @@ What To Hear
 <header class="header // js-Header u-z-index-middle lrv-u-position-relative lrv-u-margin-b-150@mobile-max u-margin-b-2@tablet">
 	<div class="js-Header-contents lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-space-between a-stacking-context a-stack-1">
 		<div class="js-hide-when-sticky lrv-u-width-100p ">
-			
+
 <div class="header-main // lrv-u-background-color-white lrv-u-width-100p u-border-b-1 u-border-color-black">
 	<div class="header-main__wrapper lrv-a-wrapper lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-space-between u-height-90@tablet lrv-u-padding-t-1 lrv-u-padding-b-1 lrv-u-padding-lr-125">
 		<div class="header-sticky__menu lrv-u-flex lrv-u-align-items-center u-flex-1@tablet">
 			<div class="lrv-u-flex lrv-u-align-items-center u-margin-r-2@tablet u-grid-gap-150">
 
 <div>
-					
+
 	<button class="o-icon-button js-MegaMenu-Trigger lrv-u-align-items-center lrv-u-border-a-0 lrv-u-flex u-min-height-40 a-become-close-button a-become-close-button--trigger lrv-u-background-color-transparent">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-18 u-height-18 u-width-24@tablet u-height-24@tablet"
 			aria-hidden="true"
 	>
@@ -2002,21 +2002,21 @@ What To Hear
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to expand the Mega Menu</span>
-	
-	
+
+
 	</button>
 				</div>
 
 <div class="lrv-u-flex lrv-u-align-items-center a-hidden@mobile-max">
-					
+
 <div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-height-100p lrv-u-align-items-center lrv-u-width-100p lrv-u-justify-content-center lrv-u-color-black lrv-u-font-family-secondary lrv-u-background-color-white">
 
 <div class="expandable-search__trigger // js-ExpandableSearch-trigger lrv-u-flex lrv-u-align-items-center">
-		
+
 	<button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex a-hidden@mobile-max u-color-medium-grey:hover">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-25 u-height-25"
 			aria-hidden="true"
 	>
@@ -2024,14 +2024,14 @@ What To Hear
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
 	</div>
 
 <div class="expandable-search__target // js-ExpandableSearch-target lrv-a-glue-parent js-fade js-fade-is-out lrv-u-width-100p u-max-width-500 lrv-u-color-black lrv-u-font-family-secondary lrv-u-background-color-white" hidden>
 		<div class="expandable-search__inner lrv-a-glue lrv-a-glue--t-0 lrv-u-height-100p lrv-u-width-100p u-max-width-500 " data-header-search-trigger="">
-			
+
 <div data-pmc-es-search-form="small_search_form"></div>		</div>
 	</div>
 
@@ -2040,18 +2040,18 @@ What To Hear
 			</div>
 
 <div class="a-hidden@mobile-max lrv-u-flex lrv-u-flex-wrap-wrap">
-				
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-u-flex lrv-a-unstyle-list lrv-u-flex-wrap-wrap" aria-labelledby="">
 					<li class="o-nav__list-item ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs lrv-u-margin-r-150 u-text-decoration-underline:hover u-letter-spacing-120-important" href="/tips"
 			>
 	Got a Tip?</a>
 						</li>
 					<li class="o-nav__list-item ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs lrv-u-margin-r-150 u-text-decoration-underline:hover u-letter-spacing-120-important" href="https://cloud.email.variety.com/signup/"
 			>
 	Newsletters</a>
@@ -2078,13 +2078,13 @@ What To Hear
 <div class="lrv-a-glue-parent">
 
 <div class="header__logo // lrv-u-flex-shrink-0 u-margin-lr-auto@desktop lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-max-width-205@tablet" data-testid="header-logo">
-				
+
 	<a class="c-logo lrv-u-color-black u-width-104 u-width-168@tablet lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
 			</div>
 		</div>
-		
+
 <div class="login-actions lrv-u-align-items-center lrv-u-justify-content-end lrv-u-flex u-flex-1@tablet" data-testid="header-subscriber-controls">
 	<div class="lrv-u-flex">
 			<div class="a-hidden@mobile-max lrv-u-flex lrv-u-margin-r-1 subscribe-link">
@@ -2093,29 +2093,29 @@ What To Hear
 	</div>
 	<div class="">
 		<div class="a-hidden@mobile-max" data-testid="header-subscriber-controls-desktop">
-			
+
 <div class="o-drop-menu o-drop-menu-login subscription-controls-wrapper lrv-a-glue-parent lrv-u-whitespace-nowrap lrv-u-border-color-grey lrv-u-font-family-secondary" data-collapsible="collapsed" 	>
 	<button aria-label="Click here to open login dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle  subscription-login-link lrv-a-hidden js-drop-menu__toggle lrv-a-font-secondary-regular-xs u-text-decoration-underline:hover lrv-u-background-color-transparent lrv-u-cursor-pointer" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Login
 </span>
-			
+
 				</button>
 	<button aria-label="Click here to open account dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle lrv-a-hidden  subscription-account-link js-show-menu-when-authenticated js-drop-menu__toggle lrv-u-text-align-center lrv-u-padding-tb-025 lrv-u-padding-r-050 lrv-u-line-height-normal lrv-u-display-inline-block lrv-u-background-color-transparent lrv-u-font-size-14 lrv-u-font-family-secondary lrv-u-cursor-pointer u-text-decoration-underline:hover" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Account
 </span>
-			
+
 				</button>
 	<div class="o-drop-menu__list js-drop-menu__tooltip subscription-account-menu lrv-u-margin-t-050 lrv-a-glue lrv-a-glue--r-0 lrv-u-width-300 lrv-u-background-color-white lrv-u-border-a-1 lrv-u-padding-a-1" aria-haspopup="menu" role="menu" aria-labelledby="Account" aria-hidden="true" data-collapsible-panel>
 			<div class="subscription-account-menu-section">
 				<div class="js-hide-menu-when-authenticated">
 											<div role="menuitem" class="subscription-account-vy-digital-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-subscription-variety-digital-link" area-label="Access Variety Digital subscription">
 
@@ -2123,9 +2123,9 @@ Variety Digital
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-archive-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-archive-link" area-label="Access Variety Archives subscription">
 
@@ -2133,9 +2133,9 @@ Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-vip-link">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-vip-link" area-label="Access VIP+ subscription">
 
@@ -2146,15 +2146,15 @@ VIP+
 									</div>
 				<div class="js-show-menu-when-authenticated lrv-a-hidden" data-testid="manage-account-menu">
 											<div role="menuitem" class="subscription-account-welcome-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 
 Welcome
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-my-account-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://variety.com/my-account/" class="c-span__link  pmc-vy-subscription-my-account-link" area-label="Manage your Variety account">
 
@@ -2162,9 +2162,9 @@ Manage Account
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-archives-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://read-archive.variety.com/html5/reader/production/default.aspx?pubname=&#038;pubid=ed3c71d3-ea78-4166-9451-a61f2b122ac2&#038;archiveopen=true" class="c-span__link  pmc-vy-archives-login-link" area-label="Login to access Variety Archives">
 
@@ -2172,9 +2172,9 @@ View Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-digital-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-digital-login-link" area-label="Login to access Variety Digital">
 
@@ -2182,9 +2182,9 @@ Variety Digital Login
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-subscribe-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="/subscribe/" class="c-span__link  pmc-vy-subscribe-link" area-label="">
 
@@ -2192,9 +2192,9 @@ Subscribe
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-logout-link lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="#" class="c-span__link  subscriber-logout-link pmc-vy-logout-link" area-label="Logout of your Variety account">
 
@@ -2202,7 +2202,7 @@ Log Out
 	</a>
 </span>
 						</div>
-					
+
 				</div>
 
 </div>
@@ -2210,17 +2210,17 @@ Log Out
 </div>
 		</div>
 		<div data-testid="header-subscriber-controls-mobile">
-			
+
 <div class="o-drop-menu o-drop-menu-login subscription-controls-wrapper lrv-a-glue-parent lrv-u-whitespace-nowrap lrv-u-border-color-grey lrv-u-font-family-secondary a-hidden@desktop a-hidden@tablet" data-collapsible="collapsed" 	>
 	<button aria-label="Click here to open login dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle  subscription-login-link lrv-a-hidden lrv-u-background-color-transparent lrv-u-align-items-center lrv-u-flex u-min-height-40 lrv-u-cursor-pointer" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Login
 </span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Open Drodpwon Menu</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -2229,14 +2229,14 @@ Login
 
 </button>
 	<button aria-label="Click here to open account dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle lrv-a-hidden lrv-u-display-inline-block subscription-account-link js-show-menu-when-authenticated lrv-u-background-color-transparent lrv-u-align-items-center lrv-u-flex u-min-height-40 lrv-u-cursor-pointer u-text-decoration-underline:hover" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Account
 </span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Open Drodpwon Menu</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -2248,7 +2248,7 @@ Account
 			<div class="subscription-account-menu-section">
 				<div class="js-hide-menu-when-authenticated">
 											<div role="menuitem" class="subscription-account-vy-digital-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-subscription-variety-digital-link" area-label="Access Variety Digital subscription">
 
@@ -2256,9 +2256,9 @@ Variety Digital
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-archive-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-archive-link" area-label="Access Variety Archives subscription">
 
@@ -2266,9 +2266,9 @@ Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-vip-link">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-vip-link" area-label="Access VIP+ subscription">
 
@@ -2279,15 +2279,15 @@ VIP+
 									</div>
 				<div class="js-show-menu-when-authenticated lrv-a-hidden" data-testid="manage-account-menu">
 											<div role="menuitem" class="subscription-account-welcome-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 
 Welcome
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-my-account-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://variety.com/my-account/" class="c-span__link  pmc-vy-subscription-my-account-link" area-label="Manage your Variety account">
 
@@ -2295,9 +2295,9 @@ Manage Account
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-archives-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://read-archive.variety.com/html5/reader/production/default.aspx?pubname=&#038;pubid=ed3c71d3-ea78-4166-9451-a61f2b122ac2&#038;archiveopen=true" class="c-span__link  pmc-vy-archives-login-link" area-label="Login to access Variety Archives">
 
@@ -2305,9 +2305,9 @@ View Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-digital-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-digital-login-link" area-label="Login to access Variety Digital">
 
@@ -2315,9 +2315,9 @@ Variety Digital Login
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-subscribe-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="/subscribe/" class="c-span__link  pmc-vy-subscribe-link" area-label="">
 
@@ -2325,9 +2325,9 @@ Subscribe
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-logout-link lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="#" class="c-span__link  subscriber-logout-link pmc-vy-logout-link" area-label="Logout of your Variety account">
 
@@ -2335,7 +2335,7 @@ Log Out
 	</a>
 </span>
 						</div>
-					
+
 				</div>
 
 </div>
@@ -2347,7 +2347,7 @@ Log Out
 	</div>
 	<div class="js-Header-extra lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-end a-hidden@tablet u-background-color-white">
 		<div class="header-sticky__user-menu lrv-u-width-100p">
-			
+
 <div class="login-actions //  lrv-u-flex lrv-u-align-items-center lrv-u-width-100p" data-testid="header-subscriber-controls-mobile">
 
 <div class="login-action-login-button mobile-subscribe lrv-u-width-100p">
@@ -2362,18 +2362,18 @@ Log Out
 		</div>
 
 <div class="js-show-when-sticky lrv-u-width-100p js-sticky-header-slidedown">
-			
+
 <div class="header-sticky // u-background-color-black u-color-white u-grid-gap-2@desktop lrv-u-width-100p">
 			<div class="lrv-a-wrapper u-padding-lr-125">
-	
+
 		<div class="header-sticky__wrapper lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-space-between u-height-40@tablet lrv-u-position-relative u-grid-gap-2">
 			<div class="header-sticky__menu // lrv-u-flex lrv-u-align-items-center"
 				>
-									
+
 	<button class="o-icon-button js-MegaMenu-Trigger lrv-u-align-items-center lrv-u-border-a-0 lrv-u-flex u-min-height-40 a-become-close-button a-become-close-button--trigger lrv-u-background-color-transparent lrv-u-color-white lrv-u-color-white:hover">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-18 u-height-18 u-width-24@tablet u-height-24@tablet"
 			aria-hidden="true"
 	>
@@ -2381,22 +2381,22 @@ Log Out
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to expand the Mega Menu</span>
-	
-	
+
+
 	</button>
-				
+
 							</div>
 
 <div class="header-sticky__search lrv-u-flex lrv-u-align-items-center a-hidden@mobile-max">
-				
+
 <div class="expandable-search // js-ExpandableSearch lrv-u-flex lrv-u-height-100p lrv-u-align-items-center lrv-u-width-100p lrv-u-justify-content-center lrv-u-color-black lrv-u-font-family-secondary lrv-u-background-color-white">
 
 <div class="expandable-search__trigger // js-ExpandableSearch-trigger lrv-u-flex lrv-u-align-items-center">
-		
+
 	<button class="o-icon-button lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex a-hidden@mobile-max u-color-medium-grey:hover lrv-u-color-white lrv-u-color-white:hover">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-25 u-height-25"
 			aria-hidden="true"
 	>
@@ -2404,14 +2404,14 @@ Log Out
 	</svg>
 
 <span class="lrv-a-screen-reader-only">Click to Expand Search Input</span>
-	
-	
+
+
 	</button>
 	</div>
 
 <div class="expandable-search__target // js-ExpandableSearch-target lrv-a-glue-parent js-fade js-fade-is-out lrv-u-width-100p u-max-width-500 lrv-u-color-black lrv-u-font-family-secondary lrv-u-background-color-white" hidden>
 		<div class="expandable-search__inner lrv-a-glue lrv-a-glue--t-0 lrv-u-height-100p lrv-u-width-100p u-max-width-500 " data-header-search-trigger="">
-			
+
 <div data-pmc-es-search-form="small_search_form"></div>		</div>
 	</div>
 
@@ -2419,7 +2419,7 @@ Log Out
 			</div>
 
 <div class="u-margin-lr-auto@mobile-max u-margin-r-auto@tablet u-grid-gap-2 lrv-u-flex lrv-u-align-items-center">
-				
+
 	<a class="c-logo lrv-u-color-white u-width-84  lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
@@ -2427,7 +2427,7 @@ Log Out
 <a href="https://variety.com/2025/biz/news/coco-gauff-iroc-partner-religion-of-sports-1236515819/" class="a-hidden@mobile-max lrv-a-font-primary-xs lrv-u-color-white u-color-light-grey-tint-two:hover lrv-a-truncate-ellipsis-1line u-letter-spacing-096-important">
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-display-none"
 			aria-hidden="true"
 	>
@@ -2438,10 +2438,10 @@ Log Out
 
 Read Next: Coco Gauff Sets Production and Branded Content Partnership With Religion of Sports
 </span>
-	
+
 	</a>
-				
-				
+
+
 							</div>
 
 <div class="login-actions lrv-u-align-items-center lrv-u-justify-content-end lrv-u-flex u-flex-1@tablet" data-testid="header-subscriber-controls">
@@ -2452,29 +2452,29 @@ Read Next: Coco Gauff Sets Production and Branded Content Partnership With Relig
 	</div>
 	<div class="">
 		<div class="a-hidden@mobile-max" data-testid="header-subscriber-controls-desktop">
-			
+
 <div class="o-drop-menu o-drop-menu-login subscription-controls-wrapper lrv-a-glue-parent lrv-u-whitespace-nowrap lrv-u-border-color-grey lrv-u-font-family-secondary" data-collapsible="collapsed" 	>
 	<button aria-label="Click here to open login dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle  subscription-login-link lrv-a-hidden js-drop-menu__toggle lrv-a-font-secondary-regular-xs u-text-decoration-underline:hover lrv-u-background-color-transparent lrv-u-cursor-pointer" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max lrv-u-color-white u-text-decoration-underline:hover">
 
 Login
 </span>
-			
+
 				</button>
 	<button aria-label="Click here to open account dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle lrv-a-hidden  subscription-account-link js-show-menu-when-authenticated js-drop-menu__toggle lrv-u-text-align-center lrv-u-padding-tb-025 lrv-u-padding-r-050 lrv-u-line-height-normal lrv-u-display-inline-block lrv-u-background-color-transparent lrv-u-font-size-14 lrv-u-font-family-secondary lrv-u-cursor-pointer u-text-decoration-underline:hover" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Account
 </span>
-			
+
 				</button>
 	<div class="o-drop-menu__list js-drop-menu__tooltip subscription-account-menu lrv-u-margin-t-050 lrv-a-glue lrv-a-glue--r-0 lrv-u-width-300 lrv-u-background-color-white lrv-u-border-a-1 lrv-u-padding-a-1" aria-haspopup="menu" role="menu" aria-labelledby="Account" aria-hidden="true" data-collapsible-panel>
 			<div class="subscription-account-menu-section">
 				<div class="js-hide-menu-when-authenticated">
 											<div role="menuitem" class="subscription-account-vy-digital-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-subscription-variety-digital-link" area-label="Access Variety Digital subscription">
 
@@ -2482,9 +2482,9 @@ Variety Digital
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-archive-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-archive-link" area-label="Access Variety Archives subscription">
 
@@ -2492,9 +2492,9 @@ Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-vip-link">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-vip-link" area-label="Access VIP+ subscription">
 
@@ -2505,15 +2505,15 @@ VIP+
 									</div>
 				<div class="js-show-menu-when-authenticated lrv-a-hidden" data-testid="manage-account-menu">
 											<div role="menuitem" class="subscription-account-welcome-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 
 Welcome
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-my-account-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://variety.com/my-account/" class="c-span__link  pmc-vy-subscription-my-account-link" area-label="Manage your Variety account">
 
@@ -2521,9 +2521,9 @@ Manage Account
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-archives-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://read-archive.variety.com/html5/reader/production/default.aspx?pubname=&#038;pubid=ed3c71d3-ea78-4166-9451-a61f2b122ac2&#038;archiveopen=true" class="c-span__link  pmc-vy-archives-login-link" area-label="Login to access Variety Archives">
 
@@ -2531,9 +2531,9 @@ View Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-digital-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-digital-login-link" area-label="Login to access Variety Digital">
 
@@ -2541,9 +2541,9 @@ Variety Digital Login
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-subscribe-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="/subscribe/" class="c-span__link  pmc-vy-subscribe-link" area-label="">
 
@@ -2551,9 +2551,9 @@ Subscribe
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-logout-link lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="#" class="c-span__link  subscriber-logout-link pmc-vy-logout-link" area-label="Logout of your Variety account">
 
@@ -2561,7 +2561,7 @@ Log Out
 	</a>
 </span>
 						</div>
-					
+
 				</div>
 
 </div>
@@ -2569,17 +2569,17 @@ Log Out
 </div>
 		</div>
 		<div data-testid="header-subscriber-controls-mobile">
-			
+
 <div class="o-drop-menu o-drop-menu-login subscription-controls-wrapper lrv-a-glue-parent lrv-u-whitespace-nowrap lrv-u-border-color-grey lrv-u-font-family-secondary a-hidden@desktop a-hidden@tablet" data-collapsible="collapsed" 	>
 	<button aria-label="Click here to open login dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle  subscription-login-link lrv-a-hidden lrv-u-background-color-transparent lrv-u-align-items-center lrv-u-flex u-min-height-40 lrv-u-cursor-pointer" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Login
 </span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Open Drodpwon Menu</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -2588,14 +2588,14 @@ Login
 
 </button>
 	<button aria-label="Click here to open account dropdown menu" aria-controls="dropdown-menu" aria-expanded="false" class="o-drop-menu__toggle lrv-a-hidden lrv-u-display-inline-block subscription-account-link js-show-menu-when-authenticated lrv-u-background-color-transparent lrv-u-align-items-center lrv-u-flex u-min-height-40 lrv-u-cursor-pointer u-text-decoration-underline:hover" href="#" data-collapsible-toggle="always-show">
-							
+
 <span class="c-span   lrv-a-hidden@mobile-max">
 
 Account
 </span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Open Drodpwon Menu</span>
-	
+
 <svg class="c-icon  lrv-u-display-block u-width-20 u-height-20 a-hidden@tablet"
 			aria-hidden="true"
 	>
@@ -2607,7 +2607,7 @@ Account
 			<div class="subscription-account-menu-section">
 				<div class="js-hide-menu-when-authenticated">
 											<div role="menuitem" class="subscription-account-vy-digital-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-subscription-variety-digital-link" area-label="Access Variety Digital subscription">
 
@@ -2615,9 +2615,9 @@ Variety Digital
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-archive-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-archive-link" area-label="Access Variety Archives subscription">
 
@@ -2625,9 +2625,9 @@ Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-account-vy-vip-link">
-							
+
 <span class="c-span  lrv-a-font-secondary-regular-xs lrv-u-padding-b-075 lrv-u-display-block">
 	<a href="#" class="c-span__link  pmc-vy-subscription-variety-vip-link" area-label="Access VIP+ subscription">
 
@@ -2638,15 +2638,15 @@ VIP+
 									</div>
 				<div class="js-show-menu-when-authenticated lrv-a-hidden" data-testid="manage-account-menu">
 											<div role="menuitem" class="subscription-account-welcome-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 
 Welcome
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-my-account-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://variety.com/my-account/" class="c-span__link  pmc-vy-subscription-my-account-link" area-label="Manage your Variety account">
 
@@ -2654,9 +2654,9 @@ Manage Account
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-archives-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://read-archive.variety.com/html5/reader/production/default.aspx?pubname=&#038;pubid=ed3c71d3-ea78-4166-9451-a61f2b122ac2&#038;archiveopen=true" class="c-span__link  pmc-vy-archives-login-link" area-label="Login to access Variety Archives">
 
@@ -2664,9 +2664,9 @@ View Variety Archives
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-digital-login-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="https://emagazines.com/Account/ExpressLogin?plid=304" class="c-span__link  pmc-vy-digital-login-link" area-label="Login to access Variety Digital">
 
@@ -2674,9 +2674,9 @@ Variety Digital Login
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-vy-subscribe-link lrv-u-margin-b-075  u-border-b-1 u-border-color-black lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-075 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="/subscribe/" class="c-span__link  pmc-vy-subscribe-link" area-label="">
 
@@ -2684,9 +2684,9 @@ Subscribe
 	</a>
 </span>
 						</div>
-					
+
 											<div role="menuitem" class="subscription-logout-link lrv-a-hidden">
-							
+
 <span class="c-span   lrv-u-whitespace-nowrap  lrv-u-font-size-14 lrv-u-font-weight-bold lrv-u-color-grey-dark lrv-u-padding-b-050 u-colors-map-accent-b-100-b:hover lrv-u-display-block">
 	<a href="#" class="c-span__link  subscriber-logout-link pmc-vy-logout-link" area-label="Logout of your Variety account">
 
@@ -2694,7 +2694,7 @@ Log Out
 	</a>
 </span>
 						</div>
-					
+
 				</div>
 
 </div>
@@ -2703,14 +2703,14 @@ Log Out
 		</div>
 	</div>
 </div>
-			
+
 		</div>
 
 </div>
-		
+
 									<div class="lrv-u-width-100p a-hidden@tablet">
 					<div class="header-sticky__user-menu lrv-uwidth-100p lrv-u-background-color-black">
-						
+
 <div class="login-actions //  lrv-u-width-100p" data-testid="login-actions-mobile">
 	<div class="login-action-login-button lrv-u-padding-t-025 lrv-u-width-100p">
 		<div class="lrv-a-wrapper lrv-u-margin-lr-125 lrv-u-margin-b-025 lrv-u-border-t-1 lrv-u-border-color-white"></div>
@@ -2722,7 +2722,7 @@ Log Out
 </div>
 					</div>
 				</div>
-					
+
 </div>
 		</div>
 		<div class="a-subscription-banner lrv-a-hidden">
@@ -2740,36 +2740,36 @@ Log Out
 <article class="u-border-r-1@tablet u-border-color-medium-grey u-padding-lr-4@tablet lrv-a-grid-item@tablet lrv-a-span6@tablet lrv-u-width-100p u-margin-b-1">
 
 <div class="">
-					
+
 <div class="article-header // ">
 	<div class="article-header__inner // ">
-		
+
 <div class="article-meta // lrv-u-flex lrv-u-flex-wrap-wrap u-align-items-center@tablet lrv-u-padding-b-1 lrv-u-justify-content-space-between">
 	<div class="lrv-u-padding-r-050">
-		
+
 <div class="breadcrumbs // a-children-icon-r-angle u-color-green lrv-u-line-height-normal">
-	
+
 <nav class="o-nav-breadcrumblist  lrv-u-font-family-secondary lrv-u-text-transform-uppercase">
 
 <ol class="o-nav-breadcrumblist__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal  lrv-u-align-items-center lrv-u-a-unstyle-list lrv-u-flex a-children-icon-spacing-0 lrv-u-align-items-center a-children-icon"
 		>
 					<li class="o-nav-breadcrumblist__list-item lrv-u-display-inline-flex"
 			>
-				
+
 <a class="c-link   lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-color-green u-text-decoration-underline:hover u-color-green:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-padding-lr-025 lrv-u-display-inline-block u-vertical-align-middle" href="/"
 			>
 	Home</a>
 			</li>
 					<li class="o-nav-breadcrumblist__list-item lrv-u-display-inline-flex"
 			>
-				
+
 <a class="c-link   lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-color-green u-text-decoration-underline:hover u-color-green:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-padding-lr-025 lrv-u-display-inline-block u-vertical-align-middle" href="https://variety.com/v/biz/"
 			>
 	Biz</a>
 			</li>
 					<li class="o-nav-breadcrumblist__list-item lrv-u-display-inline-flex"
 			>
-				
+
 <a class="c-link   lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-color-green u-text-decoration-underline:hover u-color-green:hover lrv-a-hover-effect lrv-u-whitespace-nowrap lrv-u-padding-lr-025 lrv-u-display-inline-block u-vertical-align-middle" href="https://variety.com/c/news/"
 			>
 	News</a>
@@ -2780,11 +2780,11 @@ Log Out
 	</div>
 
 <div class="lrv-u-flex lrv-u-align-items-center">
-		
+
 <time class="c-timestamp  u-color-medium-grey lrv-a-font-secondary-regular-xxs u-letter-spacing-088-important"
 	datetime="00:00-YY-DD-MM"
 		>
-	Sep 13, 2004 3:40pm PT	
+	Sep 13, 2004 3:40pm PT
 </time>
 	</div>
 </div>
@@ -2792,16 +2792,16 @@ Log Out
 <h1 id="section-heading" class="c-heading larva   lrv-a-font-primary-xxl lrv-u-margin-b-075 u-color-black">
 
 Roy Disney &#038; Stanley Gold&#8217;s letter to the board
-	
+
 	</h1>
 
 <p class="o-custom-paragraph // lrv-a-font-secondary-regular-m lrv-u-margin-b-1 lrv-u-margin-t-00 u-color-black">
 	</p>
-		
-		
+
+
 <div class="author-social // ">
-	
-			
+
+
 <div class="author // lrv-u-margin-b-150">
 	<div class="lrv-u-flex">
 		<div class="u-flex@tablet lrv-u-width-100p u-max-width-600@tablet u-max-width-640@desktop-xl">
@@ -2817,22 +2817,22 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 	</div>
 
 </div>
-	
+
 	<div class="author-social__share // lrv-u-flex u-justify-content-start lrv-u-align-items-start lrv-u-margin-b-2 lrv-u-margin-t-150">
-					
+
 	<div class="o-comments-link //  u-flex-grow-0@tablet">
-		
+
 <a class="c-link  u-font-size-11 u-font-size-18@tablet u-color-pale-sky-2 u-color-black:hover o-comments-link--icon lrv-a-icon-before a-icon-comments a-children-icon-spacing-0 u-font-family-basic u-margin-r-150 lrv-u-flex" href="#article-comments"
 			>
 	</a>
 	</div>
-				
+
 <div class="social-share lrv-u-align-items-center lrv-u-flex ">
-	
-	
+
+
 	<ul class="lrv-a-unstyle-list lrv-u-flex u-flex-wrap-wrap u-grid-gap-2 u-flex-direction-row u-grid-row-gap-1" data-collapsible="collapsed">
 					<li class="">
-				
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-facebook:hover" href="https://www.facebook.com/dialog/share?title=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board&#038;sdk=joey&#038;display=popup&#038;ref=plugin&#038;src=share_button&#038;app_id=278816682243900&#038;href=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/"
 					rel="facebook"
 							>
@@ -2847,7 +2847,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 			</li>
 					<li class="">
-				
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-twitter:hover" href="https://twitter.com/intent/post?url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;text=Roy%20Disney%20%26%20Stanley%20Gold%E2%80%99s%20letter%20to%20the%20board&#038;via=variety"
 					rel="twitter"
 							>
@@ -2862,7 +2862,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 			</li>
 					<li class="">
-				
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-flipboard:hover" href="https://share.flipboard.com/bookmarklet/popout?v=2&#038;url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;title=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board"
 					rel="flipboard"
 							>
@@ -2877,7 +2877,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 			</li>
 					<li class="">
-				
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-email:hover" href="mailto:?subject=variety%20:%20Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board&#038;body=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/%20-%20Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board"
 					rel="email"
 							>
@@ -2891,10 +2891,10 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 
 </a>
 			</li>
-		
+
 					<li class="" data-collapsible-toggle>
 				<span class="" tabindex="0">
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-more-icon:hover" href="#"
 					rel="ellipsis"
 							>
@@ -2911,7 +2911,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 			</li>
 
 <li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-linkedin:hover" href="https://www.linkedin.com/shareArticle?mini=1&#038;url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;title=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board&#038;summary&#038;source=variety"
 					rel="linkedin"
 							>
@@ -2926,7 +2926,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-pinit:hover" href="https://pinterest.com/pin/create/link/?url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;description=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board"
 					rel="pinit"
 							>
@@ -2941,7 +2941,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-reddit:hover" href="https://www.reddit.com/submit?url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;title=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board"
 					rel="reddit"
 							>
@@ -2956,7 +2956,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-tumblr:hover" href="https://www.tumblr.com/widgets/share/tool/preview?shareSource=legacy&#038;canonicalUrl&#038;url=https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/&#038;posttype=link&#038;title=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board"
 					rel="tumblr"
 							>
@@ -2971,7 +2971,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-whatsapp:hover" href="whatsapp://send?text=Roy%20Disney%20&#038;%20Stanley%20Gold’s%20letter%20to%20the%20board%20-%20https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/"
 					rel="whatsapp"
 							>
@@ -2986,7 +2986,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-print:hover" href=""
 					rel="print"
 							>
@@ -3001,7 +3001,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 </a>
 				</li>
 							<li class="" data-collapsible-panel>
-					
+
 	<a class="lrv-u-display-block u-display-inline-flex lrv-a-unstyle-link u-color-comment:hover" href="https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/#respond"
 					rel="comment"
 							>
@@ -3039,7 +3039,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 <p>Mr. John Bryson<br />Mr. John Chen<br />Ms. Judith Estrin<br />Mr. Alwyn Lewis<br />Ms. Monica Lozano<br />Mr. Robert Matschullat<br />Mr. George Mitchell <br />Father Leo O&#8217;Donovan <br />Mr. Gary Wilson </p>
 <p>	<div class="admz " id="adm-inline-article-ad-1">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:50px;min-height:75px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -3047,7 +3047,7 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 	<div id="gpt-variety-article-mid-article-uid0"
 		class=" adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-variety-article-mid-article-uid0' )
@@ -3065,91 +3065,91 @@ Roy Disney &#038; Stanley Gold&#8217;s letter to the board
 				</div>
 
 <div class="injected-related-story // lrv-u-margin-tb-1" >
-	
+
 <h2 id="title-of-a-story" class="c-title  lrv-u-display-block lrv-u-padding-t-075 lrv-u-padding-b-050 lrv-a-font-secondary-l u-color-black">
 
-Related Stories		
-	
+Related Stories
+
 </h2>
 	<div class="lrv-u-display-block lrv-u-border-t-1 lrv-u-border-b-1" >
 		<div class="lrv-u-display-block lrv-a-children-border-vertical a-children-border--light-grey-tint-two" >
-							
+
 <article class="o-card lrv-u-flex lrv-u-padding-tb-075">
-	
-	
-			
+
+
+
 <div class="c-lazy-image  lrv-u-flex-shrink-0 u-width-125 lrv-u-margin-r-1">
 			<a href="https://variety.com/2025/shopping/news/how-to-watch-2025-emmy-awards-live-online-streaming-1236518133/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/GettyImages-2234875838-1.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/GettyImages-2234875838-1.jpg?w=250&#038;h=167&#038;crop=1" alt="how to watch the 2025 emmy awards live online streaming" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-	
-	
+
+
 		<div class="o-card__content u-width-180">
-				
-		
-					
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/shopping/news/how-to-watch-2025-emmy-awards-live-online-streaming-1236518133/" class="c-title__link lrv-a-unstyle-link a-content-ignore" 
+<a href="https://variety.com/2025/shopping/news/how-to-watch-2025-emmy-awards-live-online-streaming-1236518133/" class="c-title__link lrv-a-unstyle-link a-content-ignore"
 		  >
-	
-		
-					How to Watch the 2025 Emmy Awards Live Online		
+
+
+					How to Watch the 2025 Emmy Awards Live Online
 			</a>
-	
+
 </h3>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </article>
-										
+
 <article class="o-card lrv-u-flex lrv-u-padding-tb-075">
-	
-	
-			
+
+
+
 <div class="c-lazy-image  lrv-u-flex-shrink-0 u-width-125 lrv-u-margin-r-1">
 			<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/Hannah-Einbinder-Emmy-Win-2.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/Hannah-Einbinder-Emmy-Win-2.jpg?w=250&#038;h=167&#038;crop=1" alt="Owen Cooper Emmy Win Adolescence" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-	
-	
+
+
 		<div class="o-card__content u-width-180">
-				
-		
-					
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-title__link lrv-a-unstyle-link a-content-ignore" 
+<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-title__link lrv-a-unstyle-link a-content-ignore"
 		  >
-	
-		
-					Hannah Einbinder Says &#039;Go Birds, F--- ICE and Free Palestine&#039; After Winning Emmy for &#039;Hacks&#039;		
+
+
+					Hannah Einbinder Says &#039;Go Birds, F--- ICE and Free Palestine&#039; After Winning Emmy for &#039;Hacks&#039;
 			</a>
-	
+
 </h3>
-		
-		
-		
-		
+
+
+
+
 			</div>
 
 </article>
@@ -3162,7 +3162,7 @@ Related Stories
 <div class="pmc-contextual-player" data-pmc-adm-ad-id="1234758890">
 			<h3>
 			Popular on Variety		</h3>
-	
+
 		<div id="connatix-contextual-player">
 		<script id="connatix_contextual_player_div">
 			if ( !window.pmc.harmony?.isEventAdScheduledTime() ) {
@@ -3190,7 +3190,7 @@ Related Stories
 <p>For each of you the upcoming September 20 Board meeting will be a moment of truth &#8211; one in which you will have the opportunity to exercise your fiduciary duties and demonstrate your commitment to serving the best interests of The Walt Disney Company and its stockholders.</p>
 <p>	<div class="admz " id="adm-inline-article-ad-2">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:50px;min-height:75px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -3198,7 +3198,7 @@ Related Stories
 	<div id="gpt-dsk-tab-mid-article2-uid1"
 		class=" adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-dsk-tab-mid-article2-uid1' )
@@ -3222,7 +3222,7 @@ Related Stories
 <p>Press accounts suggest that Mr. Eisner intends to ask you to install him as chairman after he relinquishes the CEO title. In other words, his &#8220;succession plan&#8221; is for a company led by Michael Eisner and his obedient lieutenant, Bob Iger, to be handed over to . . . Michael Eisner and Bob Iger. Do you really think that this result will be tolerated by stockholders or will satisfy anyone that you have carried out your responsibilities? Any arrangement that permits Mr. Eisner to remain as Chairman after relinquishing his position as CEO is contrary to best governance practices. Disney stockholders deserve exemplary governance from their directors.</p>
 <p>	<div class="admz " id="adm-inline-article-ad-x-13">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -3230,7 +3230,7 @@ Related Stories
 	<div id="gpt-variety-article-mid-articleX-uid2"
 		class=" adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-variety-article-mid-articleX-uid2' )
@@ -3253,7 +3253,7 @@ Related Stories
 <p>We intend to make it clear &#8211; to our fellow stockholders, to Disney Cast Members and to other Disney constituencies &#8211; that we will strongly support Directors who want to move Disney forward by requiring Mr. Eisner to leave as CEO and as a Director no later than the 2005 Annual Meeting and who are committed to the Board conducting an immediate search for a new CEO. By the same token, we will oppose with unrelenting vigor Directors who continue to support drift, delay, and decay. Should the Board not take the actions proposed above &#8211; immediately engaging an independent executive recruiting firm to conduct a worldwide search for a talented CEO and concurrently announcing that Michael Eisner will leave the Company at the conclusion of that search &#8211; we intend to take our case directly to our fellow stockholders and propose an alternate slate of directors committed to moving the Company forward aggressively.</p>
 <p>	<div class="admz " id="adm-inline-article-ad-x-17-1">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div ad-text"
 	data-priority="10"
@@ -3261,7 +3261,7 @@ Related Stories
 	<div id="gpt-variety-article-mid-articleX-uid3"
 		class=" adw-300 adh-250" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'medrec', 'gpt-variety-article-mid-articleX-uid3' )
@@ -3284,7 +3284,7 @@ Related Stories
 </div>
 
 <div class="o-comments-link // lrv-u-margin-b-2">
-		
+
 <a class="c-link  lrv-u-cursor-pointer lrv-a-font-primary-xs u-color-black lrv-u-text-transform-capitalize lrv-a-icon-after a-icon-long-down-arrow-black a-icon-medium-grey:hover u-color-medium-grey:hover lrv-u-display-flex lrv-u-align-items-center lrv-u-justify-content-center a-content-ignore" href="#article-comments"
 			>
 	Jump to Comments</a>
@@ -3305,57 +3305,57 @@ Related Stories
 <h2 id="section-heading" class="c-heading larva  lrv-u-display-block lrv-u-text-align-center@mobile-max lrv-u-padding-t-075 lrv-u-padding-b-075 lrv-a-font-secondary-l u-color-black">
 
 More from Variety
-	
+
 	</h2>
 
 </header>
-	
+
 	<ul class="lrv-a-grid lrv-a-cols2@tablet lrv-a-cols3@desktop lrv-u-align-items-stretch u-column-gap-050-important // lrv-a-unstyle-list">
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1@desktop lrv-u-padding-b-1@mobile-max">
 	<div class="lrv-a-grid u-grid-gap-050-important">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/chicken-egg-films-documentary-grant-1236501603/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&#038;resize=250%2C167" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&#038;resize=250%2C167" alt="Chicken &amp; Egg" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=1920%2C1280 1920w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=1360%2C907 1360w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=1000%2C667 1000w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/08/hero-banner-for-newsletter.jpg?crop=231px%2C0px%2C2532px%2C1685px&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-chicken-egg-films-documentary-grant-1236501603" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/film/news/chicken-egg-films-documentary-grant-1236501603/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/2025/film/news/chicken-egg-films-documentary-grant-1236501603/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					Chicken &amp; Egg Film&#8217;s $450,000 Research and Development Grant Awarded to 29 Doc Filmmakers (EXCLUSIVE)		
+
+
+					Chicken &amp; Egg Film&#8217;s $450,000 Research and Development Grant Awarded to 29 Doc Filmmakers (EXCLUSIVE)
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3366,50 +3366,50 @@ More from Variety
 
 </li>
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1">
 	<div class="lrv-a-grid u-grid-gap-050-important a-cols3@mobile-max">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/feature/whats-on-netflix-movies-shows-1203517873/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&#038;h=167&#038;crop=1" alt="Wednesday. Jenna Ortega as Wednesday Addams in episode 201 of Wednesday. Cr. Courtesy of Netflix © 2025" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1 972w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=150%2C100 150w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=300%2C200 300w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/08/Wednesday-JennaOrtega-MAIN-e1754610900124.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 lrv-u-order-n1@mobile-max // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-whats-on-netflix-movies-shows-1203517873" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/feature/whats-on-netflix-movies-shows-1203517873/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/feature/whats-on-netflix-movies-shows-1203517873/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					What’s Coming to Netflix in September 2025		
+
+
+					What’s Coming to Netflix in September 2025
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3420,50 +3420,50 @@ More from Variety
 
 </li>
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1">
 	<div class="lrv-a-grid u-grid-gap-050-important a-cols3@mobile-max">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/ricky-gervais-animated-series-alley-cats-netflix-1236515015/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&#038;h=167&#038;crop=1" alt="Alley Cats. (L to R) Ricky Gervias as Gus, Tom Basden as Ponce, David Earl as Puke, Andrew Brooke as Fang, Diane Morgan as Olive, in Alley Cats. Cr. Courtesy of Netflix © 2025" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1 1000w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=150%2C100 150w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=300%2C200 300w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/09/FFL_104-040-0220_MarketingStill_Bleed_BG_002_wide.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 lrv-u-order-n1@mobile-max // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-ricky-gervais-animated-series-alley-cats-netflix-1236515015" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/tv/news/ricky-gervais-animated-series-alley-cats-netflix-1236515015/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/2025/tv/news/ricky-gervais-animated-series-alley-cats-netflix-1236515015/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					Ricky Gervais Sets Adult Animated Comedy Series &#8216;Alley Cats&#8217; at Netflix		
+
+
+					Ricky Gervais Sets Adult Animated Comedy Series &#8216;Alley Cats&#8217; at Netflix
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3474,50 +3474,50 @@ More from Variety
 
 </li>
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1">
 	<div class="lrv-a-grid u-grid-gap-050-important a-cols3@mobile-max">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/netflix-peter-friedlander-exits-scripted-tv-jinny-howe-1236498897/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&#038;h=167&#038;crop=1" alt="Peter Friedlander Jinny Howe" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1 1800w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=150%2C100 150w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=300%2C200 300w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1360%2C907 1360w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1000%2C667 1000w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/08/Netflix.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 lrv-u-order-n1@mobile-max // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-netflix-peter-friedlander-exits-scripted-tv-jinny-howe-1236498897" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/tv/news/netflix-peter-friedlander-exits-scripted-tv-jinny-howe-1236498897/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/2025/tv/news/netflix-peter-friedlander-exits-scripted-tv-jinny-howe-1236498897/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					Netflix&#8217;s Peter Friedlander Exits as Head of U.S. and Canada Scripted TV as Jinny Howe Takes Over		
+
+
+					Netflix&#8217;s Peter Friedlander Exits as Head of U.S. and Canada Scripted TV as Jinny Howe Takes Over
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3528,50 +3528,50 @@ More from Variety
 
 </li>
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1">
 	<div class="lrv-a-grid u-grid-gap-050-important a-cols3@mobile-max">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/alex-de-la-iglesia-netflix-erika-halvorsen-sanfic-1236497858/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&#038;h=167&#038;crop=1" alt="SANFIC 2025" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1 1200w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=150%2C100 150w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=300%2C200 300w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1000%2C667 1000w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/08/Encuentro_023-1.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 lrv-u-order-n1@mobile-max // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-alex-de-la-iglesia-netflix-erika-halvorsen-sanfic-1236497858" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/film/news/alex-de-la-iglesia-netflix-erika-halvorsen-sanfic-1236497858/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/2025/film/news/alex-de-la-iglesia-netflix-erika-halvorsen-sanfic-1236497858/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					Sanfic: Alex de la Iglesia Inspires, Netflix Steps Up at Sanfic, What Sets Latin America Apart and More		
+
+
+					Sanfic: Alex de la Iglesia Inspires, Netflix Steps Up at Sanfic, What Sets Latin America Apart and More
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3582,50 +3582,50 @@ More from Variety
 
 </li>
 					<li class="lrv-u-border-b-1 u-border-color-light-grey-tint-two">
-				
+
 <div class="story // lrv-u-padding-b-1">
 	<div class="lrv-a-grid u-grid-gap-050-important a-cols3@mobile-max">
 
 <div class=" // lrv-a-glue-parent lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-start">
 			<div class="lrv-a-glue-parent">
-									
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/charlie-hunnam-monster-season-4-lizzie-borden-father-1236482728/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&#038;h=167&#038;crop=1" alt="LONDON, ENGLAND - JULY 08: Charlie Hunnam attends the &quot;Modigliani - Three Days On The Wing Of Madness&quot; UK Premiere at the Curzon Mayfair on July 08, 2025 in London, England. (Photo by Gareth Cattermole/Getty Images)" data-lazy-srcset="https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1 5352w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=150%2C101 150w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=300%2C201 300w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1920%2C1280 1920w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1360%2C907 1360w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=1000%2C667 1000w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=910%2C607 910w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=681%2C454 681w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=450%2C300 450w, https://variety.com/wp-content/uploads/2025/08/Charlie-Hunnam.jpg?w=250&amp;h=167&amp;crop=1&amp;resize=250%2C167 250w" data-lazy-sizes="(min-width: 87.5rem) 1000px, (min-width: 78.75rem) 681px, (min-width: 48rem) 450px, (max-width: 48rem) 250px" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
-				
+
 							</div>
 		</div>
 
 <div class="lrv-a-span2 lrv-u-order-n1@mobile-max // lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p lrv-u-justify-content-center">
-							
+
 <h3 id="c-title-charlie-hunnam-monster-season-4-lizzie-borden-father-1236482728" class="c-title  lrv-a-font-primary-xs lrv-u-color-black lrv-u-font-weight-bold lrv-u-display-block u-margin-b-075@tablet u-color-medium-grey:hover a-content-ignore">
 
-<a href="https://variety.com/2025/tv/news/charlie-hunnam-monster-season-4-lizzie-borden-father-1236482728/" class="c-title__link lrv-a-unstyle-link" 
+<a href="https://variety.com/2025/tv/news/charlie-hunnam-monster-season-4-lizzie-borden-father-1236482728/" class="c-title__link lrv-a-unstyle-link"
 		  >
-	
-		
-					Charlie Hunnam Nears Deal to Star in &#8216;Monster&#8217; Season 4 as Lizzie Borden&#8217;s Father		
+
+
+					Charlie Hunnam Nears Deal to Star in &#8216;Monster&#8217; Season 4 as Lizzie Borden&#8217;s Father
 			</a>
-	
+
 </h3>
-			
-			
+
+
 			<ul class="lrv-u-flex lrv-u-order-n1 lrv-a-unstyle-list lrv-a-space-children-horizontal lrv-a-space-children--050 u-letter-spacing-012 // lrv-u-margin-b-00">
 
 </ul>
 
 <ul class="lrv-a-unstyle-list // lrv-u-font-size-12 lrv-u-font-family-primary lrv-u-text-transform-uppercase lrv-u-font-weight-bold lrv-u-color-black  ">
-				
-				
+
+
 							</ul>
 
 </div>
@@ -3641,7 +3641,7 @@ More from Variety
 <div class="OUTBRAIN" data-src="https://variety.com/2004/biz/news/roy-disney-stanley-gold-s-letter-to-the-board-1117910352/" data-widget-id="AR_1"></div>				<div class="lrv-u-margin-tb-1">
 		<div class="admz " id="adm-sponsored-article-page-bottom">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -3649,7 +3649,7 @@ More from Variety
 	<div id="gpt-ap-native-bottom-uid6"
 		class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'nativecontent', 'gpt-ap-native-bottom-uid6' )
@@ -3671,7 +3671,7 @@ More from Variety
 			</article>
 
 <aside class=" lrv-a-space-children-vertical lrv-a-space-children--1 lrv-a-grid-item@tablet lrv-a-span3@tablet">
-									
+
 <section class="most-popular-sidebar // js-LatestNewsButton-WaypointEnd lrv-u-flex-grow-1 lrv-u-flex lrv-u-flex-direction-column lrv-u-background-color-white u-margin-b-3 u-max-height-670@tablet lrv-u-border-b-1 lrv-border-color-black">
 
 <div class="more-from // lrv-u-flex lrv-u-align-items-center u-border-b-1 u-border-color-black lrv-u-margin-b-050">
@@ -3679,153 +3679,153 @@ More from Variety
 <h2 id="section-heading" class="c-heading larva  lrv-u-padding-b-050 lrv-a-font-secondary-l u-color-black">
 
 Most Popular
-	
+
 	</h2>
 
 </div>
 
 <div class="lrv-u-overflow-auto lrv-a-glue-parent lrv-u-height-100p u-min-height-624@tablet u-min-height-300 lrv-u-margin-b-1">
 		<div class="lrv-a-glue@tablet lrv-u-width-100p u-padding-r-150">
-			
+
 <ul class="o-tease-list  lrv-a-unstyle-list"
 	>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/witcher-season-4-liam-hemsworth-henry-cavill-release-date-netflix-1236299282/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/witcher-season-4-liam-hemsworth-henry-cavill-release-date-netflix-1236299282/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					&#8216;The Witcher&#8217; Season 4 First Look: Liam Hemsworth Replaces Henry Cavill as Geralt, Netflix Sets October Release Date		
+
+
+					&#8216;The Witcher&#8217; Season 4 First Look: Liam Hemsworth Replaces Henry Cavill as Geralt, Netflix Sets October Release Date
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/witcher-season-4-liam-hemsworth-henry-cavill-release-date-netflix-1236299282/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/02/The-Witcher.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/02/The-Witcher.jpg?w=250&#038;h=167&#038;crop=1" alt="Witcher" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/awards/news/stephen-colbert-emmys-late-show-cancelation-1236513526/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/awards/news/stephen-colbert-emmys-late-show-cancelation-1236513526/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Stephen Colbert Gets Huge Emmys Standing Ovation, Crowd Chants &#8216;Stephen!&#8217; After CBS Cancels &#8216;Late Show&#8217;		
+
+
+					Stephen Colbert Gets Huge Emmys Standing Ovation, Crowd Chants &#8216;Stephen!&#8217; After CBS Cancels &#8216;Late Show&#8217;
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/awards/news/stephen-colbert-emmys-late-show-cancelation-1236513526/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/Stephen-Colbert-Emmys.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/Stephen-Colbert-Emmys.jpg?w=250&#038;h=167&#038;crop=1" alt="Stephen Colbert Emmys" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/lists/emmys-2025-winners-studio-penguin-severance/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/lists/emmys-2025-winners-studio-penguin-severance/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Emmys 2025 Winners: &#8216;The Studio&#8217; Dominates With 13 Wins, &#8216;Adolescence&#8217; and &#8216;The Pitt&#8217; Win Top Honors		
+
+
+					Emmys 2025 Winners: &#8216;The Studio&#8217; Dominates With 13 Wins, &#8216;Adolescence&#8217; and &#8216;The Pitt&#8217; Win Top Honors
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/lists/emmys-2025-winners-studio-penguin-severance/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/MixCollage-14-Sep-2025-11-11-PM-8617.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/MixCollage-14-Sep-2025-11-11-PM-8617.jpg?w=250&#038;h=167&#038;crop=1" alt="Studio Emmy winner" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  " >
 
 <div class="o-tease__primary ">
 								<div class="admz " id="adm-sponsored-most-popular">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="8"
@@ -3833,7 +3833,7 @@ Most Popular
 	<div id="gpt-hp-native-carousel-uid7"
 		class="" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'nativemini', 'gpt-hp-native-carousel-uid7' )
@@ -3847,315 +3847,315 @@ Most Popular
 </div>
 			</div>
 				</div>
-			
-			
-			
-			
-			
-			
+
+
+
+
+
+
 					</div>
 
 </article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/paramount-condemns-israeli-film-boycott-1236516511/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/paramount-condemns-israeli-film-boycott-1236516511/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Paramount Condemns Israeli Film Boycott After Emma Stone, Joaquin Phoenix and 3,900 Industry Names Sign Pledge: &#8216;Silencing&#8217; Artists Does Not Promote&hellip;		
+
+
+					Paramount Condemns Israeli Film Boycott After Emma Stone, Joaquin Phoenix and 3,900 Industry Names Sign Pledge: &#8216;Silencing&#8217; Artists Does Not Promote&hellip;
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/paramount-condemns-israeli-film-boycott-1236516511/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2020/06/wwd_claudel226173.jpg?crop=35px%2C0px%2C845px%2C562px&#038;resize=250%2C167" data-lazy-src="https://variety.com/wp-content/uploads/2020/06/wwd_claudel226173.jpg?crop=35px%2C0px%2C845px%2C562px&#038;resize=250%2C167" alt="Paramount Pictures Studios Placeholder" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-biggest-anime-opening-1236516498/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-biggest-anime-opening-1236516498/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Box Office: &#8216;Demon Slayer: Infinity Castle&#8217; Reigns With $33 Million Opening Day &mdash; Already the Biggest Debut Ever for Anime		
+
+
+					Box Office: &#8216;Demon Slayer: Infinity Castle&#8217; Reigns With $33 Million Opening Day &mdash; Already the Biggest Debut Ever for Anime
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-biggest-anime-opening-1236516498/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/demon-slayer-kimetsu.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/demon-slayer-kimetsu.jpg?w=250&#038;h=167&#038;crop=1" alt="demon slayer infinity castle box office" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-anime-record-opening-1236517827/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-anime-record-opening-1236517827/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Box Office: &#039;Demon Slayer: Infinity Castle&#039; Debuts to Massive $70 Million, Smashing Opening Weekend Records for Anime		
+
+
+					Box Office: &#039;Demon Slayer: Infinity Castle&#039; Debuts to Massive $70 Million, Smashing Opening Weekend Records for Anime
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/box-office-demon-slayer-infinity-castle-anime-record-opening-1236517827/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/Demon-Slayer-Infinity-Castle1.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/Demon-Slayer-Infinity-Castle1.jpg?w=250&#038;h=167&#038;crop=1" alt="Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Hannah Einbinder Says &#8216;Go Birds, F&#8212; ICE and Free Palestine&#8217; After Winning Emmy for &#8216;Hacks&#8217;		
+
+
+					Hannah Einbinder Says &#8216;Go Birds, F&#8212; ICE and Free Palestine&#8217; After Winning Emmy for &#8216;Hacks&#8217;
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/hacks-hannah-einbinder-wins-emmy-supporting-actress-comedy-1236516350/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/Hannah-Einbinder-Emmy-Win-2.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/Hannah-Einbinder-Emmy-Win-2.jpg?w=250&#038;h=167&#038;crop=1" alt="Owen Cooper Emmy Win Adolescence" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/nate-bargatze-emmys-monologue-2025-1236517956/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/nate-bargatze-emmys-monologue-2025-1236517956/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Nate Bargatze Opens Emmys by Joking CBS Stands for &#8216;Caucasian Broadcast System&#8217; and More in &#8216;Inventor of Television&#8217; Sketch		
+
+
+					Nate Bargatze Opens Emmys by Joking CBS Stands for &#8216;Caucasian Broadcast System&#8217; and More in &#8216;Inventor of Television&#8217; Sketch
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/nate-bargatze-emmys-monologue-2025-1236517956/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/Nate-Bargatze-Emmys-Intro-Sketch.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/Nate-Bargatze-Emmys-Intro-Sketch.jpg?w=250&#038;h=167&#038;crop=1" alt="Nate Bargatze at the 77th Primetime Emmy Awards held at the Peacock Theater on September 14, 2025 in Los Angeles, California." data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/white-lotus-jason-isaacs-warns-hate-weaponized-1236517667/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/white-lotus-jason-isaacs-warns-hate-weaponized-1236517667/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					&#8216;White Lotus&#8217; Star Jason Isaacs Warns &#8216;Hate Is Being Weaponized&#8217; While Accepting Creative Coalition Humanitarian Award		
+
+
+					&#8216;White Lotus&#8217; Star Jason Isaacs Warns &#8216;Hate Is Being Weaponized&#8217; While Accepting Creative Coalition Humanitarian Award
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/white-lotus-jason-isaacs-warns-hate-weaponized-1236517667/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/GettyImages-2230635344.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/GettyImages-2230635344.jpg?w=250&#038;h=167&#038;crop=1" alt="HOLLYWOOD, CALIFORNIA - AUGUST 17: Jason Isaacs attends the HBO Max Emmy Nominee Celebration at NYA WEST on August 17, 2025 in Hollywood, California. (Photo by David Jon/Getty Images for HBO Max)" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex u-border-b-1 u-border-color-light-grey-tint-two lrv-u-padding-tb-1" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 ">
-			
-			
-							
+
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/stephen-king-apologizes-charlie-kirk-stoning-gays-1236516429/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/stephen-king-apologizes-charlie-kirk-stoning-gays-1236516429/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Stephen King Apologizes for Claiming Charlie Kirk &#8216;Advocated Stoning Gays&#8217;: &#8216;This Is What I Get for Reading&#8217; X Without &#8216;Fact-Checking&hellip;		
+
+
+					Stephen King Apologizes for Claiming Charlie Kirk &#8216;Advocated Stoning Gays&#8217;: &#8216;This Is What I Get for Reading&#8217; X Without &#8216;Fact-Checking&hellip;
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1    u-order-n1  u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/stephen-king-apologizes-charlie-kirk-stoning-gays-1236516429/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/stephen-king-apologizes.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/stephen-king-apologizes.jpg?w=250&#038;h=167&#038;crop=1" alt="stephen king charlie kirk" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 	</ul>
@@ -4164,7 +4164,7 @@ Most Popular
 </section>
 	<div class="admz " id="adm-widget-b-dsk-tab-ros-rail-top">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style="min-width:300px;min-height:275px;"
 	class="pmc-adm-boomerang-pub-div rail-ads-1 ad-text"
 	data-priority="9"
@@ -4172,7 +4172,7 @@ Most Popular
 	<div id="div-gpt-dsk-tab-ros-300x600-uid8"
 		class=" adw-300 adh-600" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'flexrec', 'div-gpt-dsk-tab-ros-300x600-uid8' )
@@ -4195,73 +4195,73 @@ Most Popular
 <h2 id="section-heading" class="c-heading larva  lrv-a-font-secondary-l u-color-black u-padding-b-050 u-border-b-1 u-border-color-black">
 
 Must Read
-	
+
 	</h2>
 
 </div>
 
 <div class="must-read-widget__inner // u-margin-t-150 ">
-		
+
 <ul class="o-tease-list  lrv-a-unstyle-list"
 	>
 			<li class="o-tease-list__item ">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column lrv-u-padding-b-150 u-padding-b-1@tablet lrv-u-border-b-1 u-border-color-light-grey-tint-two" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block lrv-u-margin-b-025 u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover">
 	<a href="https://variety.com/v/film/" class="c-span__link  u-color-green u-color-green:hover lrv-u-display-block ">
 
 Film
 	</a>
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-secondary-m  lrv-u-font-weight-bold lrv-u-font-family-secondary lrv-u-font-weight-normal u-max-height-36em a-truncate-ellipsis u-line-height-120">
 
-<a href="https://variety.com/2025/film/features/channing-tatums-roofman-avengers-doomsday-1236502009/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/features/channing-tatums-roofman-avengers-doomsday-1236502009/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					COVER | Channing Tatum&#039;s &#039;Roofman&#039; Reinvention		
+
+
+					COVER | Channing Tatum&#039;s &#039;Roofman&#039; Reinvention
 			</a>
-	
+
 </h3>
-			
-			
-							
+
+
+
 <a class="c-link  lrv-u-display-none" href="#"
 			>
 	By Andrew Wallenstein</a>
-			
-							
+
+
 <time class="c-timestamp  lrv-u-display-none"
 	datetime="00:00-YY-DD-MM"
 		>
-	2 weeks	
+	2 weeks
 </time>
-			
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p  u-order-n1">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/features/channing-tatums-roofman-avengers-doomsday-1236502009/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Channing-Tatum-and-Derek-Cianfrance-Variety-1.jpg?crop=0px%2C150px%2C1500px%2C1000px&#038;resize=681%2C454" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Channing-Tatum-and-Derek-Cianfrance-Variety-1.jpg?crop=0px%2C150px%2C1500px%2C1000px&#038;resize=681%2C454" alt="Channing Tatum and Derek Cianfrance Variety Cover Story" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 	</ul>
@@ -4269,203 +4269,203 @@ Film
 <ul class="o-tease-list  lrv-a-unstyle-list lrv-a-grid u-grid-gap-150@mobile-max a-separator-b-1 lrv-u-margin-t-150 u-margin-t-1@tablet"
 	>
 			<li class="o-tease-list__item  u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-padding-b-150 u-padding-b-1@tablet" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 lrv-u-margin-r-1@mobile-max">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block lrv-u-margin-b-025 u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover">
 	<a href="https://variety.com/v/film/" class="c-span__link  u-color-green u-color-green:hover lrv-u-display-block  ">
 
 Film
 	</a>
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/venice-film-festival-reviews-1236501570/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/venice-film-festival-reviews-1236501570/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Venice Film Festival Reviews		
+
+
+					Venice Film Festival Reviews
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1@tablet u-order-n1@tablet u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/venice-film-festival-reviews-1236501570/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/venice-reviews_.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/venice-reviews_.jpg?w=250&#038;h=167&#038;crop=1" alt="venice film festival reviews" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item  u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-padding-b-150 u-padding-b-1@tablet" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 lrv-u-margin-r-1@mobile-max">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block lrv-u-margin-b-025 u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover">
 	<a href="https://variety.com/v/film/" class="c-span__link  u-color-green u-color-green:hover lrv-u-display-block  ">
 
 Film
 	</a>
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/cooper-hoffman-the-long-walk-acting-challenges-1236498409/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/cooper-hoffman-the-long-walk-acting-challenges-1236498409/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					Cooper Hoffman on &#8216;The Long Walk,&#8217; Coming of Age After &#039;Licorice Pizza&#039;		
+
+
+					Cooper Hoffman on &#8216;The Long Walk,&#8217; Coming of Age After &#039;Licorice Pizza&#039;
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1@tablet u-order-n1@tablet u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/cooper-hoffman-the-long-walk-acting-challenges-1236498409/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/Cooper-Hoffman-Variety-Next-Profile.jpg?crop=0px%2C174px%2C1500px%2C1000px&#038;resize=250%2C167" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/Cooper-Hoffman-Variety-Next-Profile.jpg?crop=0px%2C174px%2C1500px%2C1000px&#038;resize=250%2C167" alt="Cooper Hoffman Variety Next Profile" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item  u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-padding-b-150 u-padding-b-1@tablet" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 lrv-u-margin-r-1@mobile-max">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block lrv-u-margin-b-025 u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover">
 	<a href="https://variety.com/v/tv/" class="c-span__link  u-color-green u-color-green:hover lrv-u-display-block  ">
 
 TV
 	</a>
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/tv/news/snl-new-cast-members-ben-marshall-veronika-slowikowska-1236501541/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/tv/news/snl-new-cast-members-ben-marshall-veronika-slowikowska-1236501541/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					&#8216;SNL&#8217; Adds Five: Meet the New Cast Members		
+
+
+					&#8216;SNL&#8217; Adds Five: Meet the New Cast Members
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1@tablet u-order-n1@tablet u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/tv/news/snl-new-cast-members-ben-marshall-veronika-slowikowska-1236501541/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/09/snl.jpg?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/09/snl.jpg?w=250&#038;h=167&#038;crop=1" alt="SNL Tommy Brennan, Jeremy Culhane, Ben Marshall, Kam Patterson and Veronika Slowikowska" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 			<li class="o-tease-list__item  u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-padding-b-150 u-padding-b-1@tablet" >
 
 <div class="o-tease__primary lrv-u-flex-grow-1 lrv-u-margin-r-1@mobile-max">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block lrv-u-margin-b-025 u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover">
 	<a href="https://variety.com/v/film/" class="c-span__link  u-color-green u-color-green:hover lrv-u-display-block  ">
 
 Film
 	</a>
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs">
 
-<a href="https://variety.com/2025/film/news/e-jean-carroll-telluride-doc-donald-trump-lawsuit-1236502909/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover" 
+<a href="https://variety.com/2025/film/news/e-jean-carroll-telluride-doc-donald-trump-lawsuit-1236502909/" class="c-title__link lrv-u-color-black lrv-u-display-block u-color-medium-grey:hover"
 		  >
-	
-		
-					E. Jean Carroll Hopes Her Explosive Telluride Doc Will &#8216;Finish Off&#8217; Donald Trump		
+
+
+					E. Jean Carroll Hopes Her Explosive Telluride Doc Will &#8216;Finish Off&#8217; Donald Trump
 			</a>
-	
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-margin-r-1@tablet u-order-n1@tablet u-width-128">
-			
+
 <div class="c-lazy-image  ">
 			<a href="https://variety.com/2025/film/news/e-jean-carroll-telluride-doc-donald-trump-lawsuit-1236502909/" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://variety.com/wp-content/uploads/2025/08/AskEJean_Still_01-1-1.webp?w=250&#038;h=167&#038;crop=1" data-lazy-src="https://variety.com/wp-content/uploads/2025/08/AskEJean_Still_01-1-1.webp?w=250&#038;h=167&#038;crop=1" alt="E. Jean Carroll &quot;Ask E. Jean&quot; Telluride" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 			</a>
 	</div>
 		</div>
-		
-	
+
+
 	</article>
 		</li>
 	</ul>
@@ -4478,18 +4478,18 @@ Film
 <h2 id="section-heading" class="c-heading larva  lrv-u-color-black lrv-a-font-secondary-m u-margin-b-150">
 
 Sign Up for Variety Newsletters
-	
+
 	</h2>
 
 <form class="o-email-capture-form lrv-js-EmailCapture u-margin-b-075 u-margin-b-0@tablet pmc-recaptcha-enterprise-form" method="post" action="https://cloud.email.variety.com/api/" name="newsletter-module-form" target="_blank">
 
 <div class="o-email-capture-form__inner lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center lrv-u-flex-direction-column@mobile-max lrv-u-flex-direction-column">
-		
+
 <div class="c-email-field   u-margin-b-150">
 	<label class="c-email-field__label lrv-u-display-none" for="sb_newsletter_email">Your Email</label>
 	<input class="c-email-field__input lrv-a-font-secondary-regular-xs a-placeholder-color-medium-grey lrv-u-border-b-1 u-border-color-black u-padding-b-025 u-width-222 u-height-23 lrv-u-text-align-center lrv-u-text-transform-capitalize" name="EmailAddress" id="sb_newsletter_email" required type="email" placeholder="Enter Your Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 </div>
-		
+
 	<button class="c-button larva  lrv-a-unstyle-button lrv-u-cursor-pointer u-margin-t-150 u-margin-t-0@tablet u-margin-b-075" type="submit"
 			>
 
@@ -4497,7 +4497,7 @@ Sign Up for Variety Newsletters
 		Sign Up	</span>
 
 <span class="lrv-a-screen-reader-only">Sign Up</span>
-	
+
 	</button>
 	</div>
 
@@ -4506,13 +4506,13 @@ Sign Up for Variety Newsletters
 	<input type="hidden" name="__successPage" data-email-capture-success-url="https://cloud.email.variety.com/signup/?signup=success" value="" />
 
 <input type="hidden" name="Editorial_Daily_Headlines_Opted_In" id="sb_newsletter_name_1" value="Yes" />
-			
+
 <input type="hidden" name="Editorial_Daily_Headlines_Opt_In_Date" id="sb_newsletter_date_1" value="2025-09-15" />
-			
+
 <input type="hidden" name="Editorial_Breaking_News_Opted_In" id="sb_newsletter_name_2" value="Yes" />
-			
+
 <input type="hidden" name="Editorial_Breaking_News_Opt_In_Date" id="sb_newsletter_date_2" value="2025-09-15" />
-			
+
 <input type="hidden" name="source" id="sb_newsletter_right_rail" value="RightRail" />
 	</form>
 	</div>
@@ -4523,7 +4523,7 @@ Sign Up for Variety Newsletters
 	</section>
 <div class="textwidget custom-html-widget"><div id="piano-module-300x250"></div></div>	<div class="admz " id="adm-widget-b-dsk-tab-ros-rail-bottom">
 					<div class="adma boomerang " data-device="Desktop" data-width="300">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div rail-ads-2 ad-text"
 	data-priority="10"
@@ -4531,7 +4531,7 @@ Sign Up for Variety Newsletters
 	<div id="gpt-dsk-tab-ros-rail-bottom-uid9"
 		class=" adw-300 adh-250 slot-rotate-rail-bottom slot-rotate-adhesion" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'flexrec', 'gpt-dsk-tab-ros-rail-bottom-uid9' )
@@ -4578,13 +4578,13 @@ Sign Up for Variety Newsletters
 <section class="newswire__wrapper // lrv-a-wrapper u-margin-t-3">
 	<div class="newswire // lrv-u-background-color-white">
 		<div class="newswire__header // lrv-u-flex lrv-u-flex-direction-column@mobile-max u-align-items-flex-end@tablet">
-			
+
 <div class="more-from // lrv-u-flex lrv-u-align-items-center u-border-b-1 lrv-u-margin-b-150 u-border-t-5 u-border-color-black lrv-u-width-100p">
 
 <h2 id="section-heading" class="c-heading larva  lrv-u-padding-t-075 lrv-u-padding-b-150 lrv-a-font-secondary-l u-color-black lrv-u-width-100p">
 
 More From Our Brands
-	
+
 	</h2>
 
 </div>
@@ -4593,223 +4593,223 @@ More From Our Brands
 <ul class="o-tease-list  lrv-a-unstyle-list u-align-items-stretch lrv-a-grid a-cols1 a-cols5@tablet u-grid-gap-0@tablet u-grid-gap-150@mobile-max a-separator-b-1@mobile-max a-separator-r-1@tablet u-margin-lr-n1@tablet"
 	>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://www.rollingstone.com/tv-movies/tv-movie-news/emmys-2025-adolescence-wins-outstanding-limited-series-1235427231/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Rolling Stone
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-‘Adolescence’ Caps Off Dominating Night With Best Limited Series at 2025 Emmy Awards		
-	
+‘Adolescence’ Caps Off Dominating Night With Best Limited Series at 2025 Emmy Awards
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://www.rollingstone.com/wp-content/uploads/2025/09/limited-series-winner.jpg?resize=232,175" data-lazy-src="https://www.rollingstone.com/wp-content/uploads/2025/09/limited-series-winner.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://robbreport.com/shelter/celebrity-homes/mark-wahlberg-former-house-beverly-hills-1237027858/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Robb Report
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Mark Wahlberg’s Former L.A. Mansion Is Back on the Market for $21.8 Million		
-	
+Mark Wahlberg’s Former L.A. Mansion Is Back on the Market for $21.8 Million
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://robbreport.com/wp-content/uploads/2025/09/9694OakPass_MarkWahlberg_BH_FI.jpg?resize=232,175" data-lazy-src="https://robbreport.com/wp-content/uploads/2025/09/9694OakPass_MarkWahlberg_BH_FI.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://www.sportico.com/personalities/athletes/2025/gary-payton-skateboard-venture-league-1234870816/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 Sportico
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-Gary Payton Skateboard Venture Drops in Tricky Alt-League Market		
-	
+Gary Payton Skateboard Venture Drops in Tricky Alt-League Market
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://www.sportico.com/wp-content/uploads/2025/09/Athlete_Founded-League-Launch.png?resize=232,175" data-lazy-src="https://www.sportico.com/wp-content/uploads/2025/09/Athlete_Founded-League-Launch.png?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://wwd.com/fashion-news/fashion-scoops/miu-miu-chinese-actress-li-gengxi-brand-ambassador-1238101818/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 WWD
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-EXCLUSIVE: Miu Miu Names Chinese Actress Li Gengxi Brand Ambassador		
-	
+EXCLUSIVE: Miu Miu Names Chinese Actress Li Gengxi Brand Ambassador
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://wwd.com/wp-content/uploads/2025/09/MiuMiu-li-gengxi-2.jpg?resize=232,175" data-lazy-src="https://wwd.com/wp-content/uploads/2025/09/MiuMiu-li-gengxi-2.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 			<li class="o-tease-list__item u-padding-b-150@mobile-max u-padding-b-lt-0@mobile-max u-border-color-light-grey-tint-two">
-			
+
 	<article class="o-tease  lrv-u-flex lrv-u-flex-direction-column     u-border-color-brand-secondary-40 lrv-u-padding-lr-1@tablet" >
 
 <a href="https://tvline.com/features/tv-schedule-what-to-watch-high-potential-season-2-abc-1235512897/" class="lrv-u-display-contents"
 							rel="nofollow"
 					>
 			<div class="o-tease__primary lrv-u-flex-grow-1 u-margin-t-1 ">
-			
-							
+
+
 <span class="c-span  lrv-u-display-block u-color-green lrv-a-font-primary-xxs lrv-u-text-transform-capitalize u-text-decoration-underline:hover u-color-green:hover lrv-u-padding-b-025">
 
 TVLine
 </span>
-			
-							
+
+
 <h3 id="title-of-a-story" class="c-title  lrv-a-font-primary-xs lrv-u-font-weight-bold lrv-u-color-black lrv-u-color-medium-grey:hover lrv-u-display-block a-truncate-ellipsis u-letter-spacing-080-important">
 
-What to Watch This Week: 40+ Premieres, Finales and More		
-	
+What to Watch This Week: 40+ Premieres, Finales and More
+
 </h3>
-			
-			
-			
-			
+
+
+
+
 					</div>
 
 <div class="o-tease__secondary lrv-u-flex-shrink-0 lrv-u-width-100p u-margin-r-125@tablet u-order-n1">
-			
+
 <div class="c-lazy-image  ">
-	
+
 			<div class="lrv-a-crop-3x2" style="">
-	
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://tvline.com/wp-content/uploads/2025/09/high-potential-season-2-abc.jpg?resize=232,175" data-lazy-src="https://tvline.com/wp-content/uploads/2025/09/high-potential-season-2-abc.jpg?resize=232,175" alt="" data-lazy-srcset="" data-lazy-sizes="auto" height="" width="" decoding="async">
-			
+
 			</div>
-	
+
 	</div>
 		</div>
-		
+
 			</a>
-	
+
 	</article>
 		</li>
 	</ul>
@@ -4820,7 +4820,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 
 <div class="admz " id="adm-mobile-footer">
 					<div class="adma boomerang " data-device="Desktop" data-width="1">
-				
+
 <div style=""
 	class="pmc-adm-boomerang-pub-div "
 	data-priority="10"
@@ -4828,7 +4828,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 	<div id="dsk-tab-ros-inline-oop-uid10"
 		class=" adw-1 adh-1" data-is-adhesion-ad="">
 		<script type="application/javascript">
-			
+
 			blogherads.adq.push(function () {
 								blogherads
 					.defineSlot( 'inlineoop', 'dsk-tab-ros-inline-oop-uid10' )
@@ -4845,200 +4845,200 @@ What to Watch This Week: 40+ Premieres, Finales and More
 <div id="piano-sticky-footer" class="a-sticky-footer"></div>
 <footer class="footer // lrv-a-wrapper lrv-u-padding-t-1 lrv-u-padding-b-150 lrv-u-padding-b-3@tablet lrv-u-background-color-white">
 	<div class="lrv-u-flex lrv-u-flex-direction-column\@mobile-max lrv-u-padding-t-2 u-padding-t-150@tablet u-border-t-1 u-border-color-black">
-		
+
 <div class="c-lazy-image  lrv-u-flex-shrink-0 lrv-u-margin-r-2 u-width-255 a-hidden@desktop-xl-max">
 			<a href="/variety-vip-subscribe" class="c-lazy-image__link lrv-a-unstyle-link"
 																		>
-	
-	
+
+
 						<img class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" src="https://read.variety.com/get_image.aspx?eid=b82fc113-db56-4cb7-95bd-7a5b3df35cfa&#038;w=320&#038;pnum=1" data-lazy-src="https://read.variety.com/get_image.aspx?eid=b82fc113-db56-4cb7-95bd-7a5b3df35cfa&#038;w=320&#038;pnum=1" alt="Lazy loaded image" data-lazy-srcset="" data-lazy-sizes="" height="" width="" decoding="async">
-			
-	
+
+
 			</a>
 	</div>
 
 <div class="lrv-u-flex lrv-u-flex-direction-column u-justify-content-space-between@tablet lrv-u-width-100p">
 			<div class="footer-menu">
-				
+
 <div class="footer-menus // lrv-a-grid u-grid-gap-2@tablet a-cols5@tablet lrv-u-color-black">
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black a-hidden@tablet">Variety</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/variety-about-us/"
 			>
 	About Us</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://variety.com/static-pages/advertise/"
 			>
 	Advertise</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.canva.com/design/DAGsmtzYJ5o/zv3LMXKR7FoyEFMWt7TU8g/view?utm_content=DAGsmtzYJ5o&#038;utm_campaign=designshare&#038;utm_medium=link2&#038;utm_source=uniquelinks&#038;utlId=h2938b5ba2a"
 			>
 	Media Kit</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/careers-listing/"
 			>
 	Careers</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Legal</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/terms-of-use/"
 			>
 	Terms of Use</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/privacy-policy/"
 			>
 	Privacy Policy</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://pmc.com/privacy-policy/#california"
 			>
 	California Privacy Rights</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important privacy-consent" href="#"
 			>
 	Privacy Preferences</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://optout.aboutads.info/?c=2&#038;lang=EN"
 			>
 	AdChoices</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.pmc.com/opt-out"
 			>
 	Your Privacy Choices</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://variety.com/accessibility/"
 			>
 	Accessibility</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Magazine</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/customer-service/"
 			>
 	Customer Service</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://magazineshop.us/collections/variety"
 			>
 	Back Issues</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="http://variety.com/variety-magazine-subscribe/"
 			>
 	Subscribe</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="/magazine-faq"
 			>
 	Help</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">More</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://cloud.email.variety.com/signup/"
 			>
 	Newsletters</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://read-archive.variety.com/"
 			>
 	Archives</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://events.variety.com/"
 			>
 	Events</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://luminatedata.com/filmandtv/"
 			>
 	Luminate</a>
 						</li>
 			</ul>
 </nav>
-			
+
 <nav class="o-nav  lrv-js-MobileHeightToggle">
 
 <h4 id="pmc-footer" class="o-nav__title lrv-js-MobileHeightToggle-trigger lrv-u-padding-lr-2 u-padding-lr-00@tablet u-padding-b-050 lrv-u-margin-b-1@mobile-max lrv-u-width-100p lrv-a-icon-after a-icon-down-chevron lrv-a-icon-after:margin-l-auto lrv-a-icon-after-remove@tablet u-cursor-pointer@mobile-max lrv-a-font-primary-xs u-font-weight-bold@tablet u-border-b-1@mobile-max u-border-color-black">Connect</h4>
-	
+
 	<ul class="o-nav__list lrv-a-unstyle-list lrv-js-MobileHeightToggle-target" aria-labelledby="pmc-footer">
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.instagram.com/variety/"
 			>
 	Instagram</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://twitter.com/variety"
 			>
 	Twitter</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.youtube.com/user/Variety"
 			>
 	YouTube</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.facebook.com/Variety"
 			>
 	Facebook</a>
 						</li>
 					<li class="o-nav__list-item lrv-u-padding-lr-2 u-padding-lr-00@tablet lrv-u-padding-b-050 ">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-secondary-regular-xs u-color-medium-grey:hover u-letter-spacing-096-important " href="https://www.linkedin.com/company/variety"
 			>
 	LinkedIn</a>
@@ -5049,7 +5049,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</div>
 
 <div class="footer-meta // lrv-u-text-align-center u-margin-t-050">
-				
+
 	<a class="c-logo lrv-u-display-block lrv-u-margin-lr-auto lrv-u-color-black u-width-128" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
@@ -5080,14 +5080,14 @@ What to Watch This Week: 40+ Premieres, Finales and More
 					<div class="lrv-u-flex lrv-u-align-items-center lrv-a-wrapper u-padding-lr-125">
 						<div class="lrv-u-flex lrv-u-align-items-center u-max-width-865 lrv-u-margin-lr-auto lrv-u-width-100p">
 							<div class="a-hidden@mobile-max">
-								
+
 	<a class="c-logo lrv-u-display-block u-width-127 lrv-u-color-white lrv-u-flex" href="/" target="_self">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42"><g data-name="logo Variety"><path d="m148.33 13.12-.21.94-1.93.52a2.18 2.18 0 0 0-1 .78l-8.89 11.25-3.31 11c-.18.57.05.91.42 1l2.32.57-.31.94h-11.56l.31-.94 2.17-.52a1.39 1.39 0 0 0 1.1-1.15l3.31-11.14-2.9-10.88c-.13-.52-.29-.94-.83-1.1l-1.36-.37.21-.94h9.86l-.21.94-1.67.47c-.6.16-.73.47-.57 1l2.37 9.23 7-9.34a1 1 0 0 0 .21-.52.47.47 0 0 0-.42-.42l-1.88-.47.26-.94z"/><path d="M125.34 19.28H124l-1.15-3.52a1 1 0 0 0-1.15-.83h-2.9l-6.78 22.72c-.18.57 0 .91.52 1l1.88.52-.31.94h-11.3l.31-.94 2-.47c.89-.21 1.07-.47 1.3-1.25l6.73-22.57h-3.37a1.58 1.58 0 0 0-1.25.78L106.19 19h-1.3l2.11-6.56h.83a1 1 0 0 0 1 .68h14.11a1.32 1.32 0 0 0 1.36-.68h.89zm-20.94-.34h-1.3l-1.25-3.37a1 1 0 0 0-1-.68h-5.4L92.4 25.17h5.09c.52 0 .83-.26 1.2-.78l1.41-2.06h1.3L99 30.52h-1.3l.05-2.9c0-.52-.31-.68-.83-.68h-5L88.48 38.3h7.41a1.91 1.91 0 0 0 1.88-.83l2.95-3.68h1.41l-3 7.1h-.94c-.26-.52-.63-.73-1.57-.73h-17l.31-.94 2-.52a1.4 1.4 0 0 0 1-1.15l6.52-22a.67.67 0 0 0-.31-.89l-1.83-.57.26-.94h14.66a1.23 1.23 0 0 0 1.15-.68h.83z" data-name="Path"/><path d="M148.06 6a193 193 0 0 1-40.23 4.25c-32 0-54.5-4.36-64-6.63L3.8 41.58.54 42 12.31 6.18A43.28 43.28 0 0 1 1.22 9c-.91.1-.94-.42-.52-.65A10.46 10.46 0 0 0 6 2.27c5.77 1.41 10.12.31 15.39-1.62L10.77 30.78 39.13 0a261.16 261.16 0 0 0 52.06 5.45c13.8 0 25.9-2.17 32.14-4.72 8.77 5.22 18.78 4.77 24.52 4.41.83-.05.94.73.21.89" data-name="Path"/><path d="m86.37 13.12-.26.94-2.22.63a1.11 1.11 0 0 0-.78.89l-6.52 21.83c-.18.65-.34 1.07.47 1.3l1.57.47-.31.94H67.87l.31-.94 1.51-.47c.86-.26 1.12-.57 1.3-1.25l6.47-21.94c.13-.47 0-.78-.37-.89l-1.72-.57.26-.94zM70.8 19.8c0 4.1-3.26 7.67-8.56 7.46a13.07 13.07 0 0 1-3.05-.47c0 5 1.54 10.12 4.51 10.12 1.83 0 2.37-1.54 2.63-2.84.05-.21.21-.37.47-.1a4.28 4.28 0 0 1 1.3 3.16c0 3.08-2 4.46-4.88 4.46-7.43 0-7.77-10.7-6.57-17.27.08-.37.21-.42.47-.26a6.52 6.52 0 0 0 3.57.89c2.4 0 4.67-1.9 4.67-5.35S62.5 14 58.27 14l-7 23.5a1.79 1.79 0 0 0-.1.57.52.52 0 0 0 .47.57l2 .52-.31.94H42.91l.31-.94 1.57-.47c.5-.16.7-.44.94-1.2L52.66 14c-3 .63-4.46 1.75-4.46 3.47a2.93 2.93 0 0 0 .52 1.88.94.94 0 0 1 .16.52c0 .39-.34.73-1.3.73a2.82 2.82 0 0 1-3-3.1c0-1.3.81-5.71 12.29-5.71 9.73 0 13.93 3.16 13.93 8" data-name="Path"/><path d="M37.09 17.9 26.32 31.17h9.55zm5.56 21.31-.31.94h-9.87l.31-.94 1.72-.47a1 1 0 0 0 .78-1l.42-4.57H24.62L21 37.54a1.24 1.24 0 0 0-.37.68c0 .23.13.39.42.47l1.67.52-.31.94h-8.3l.37-.94 1.72-.42a3.4 3.4 0 0 0 1.67-1.15l22.4-26.34 2.32-.42-2.16 26.87c-.05.57 0 .94.68 1.1z"/></g></svg>		<span class="lrv-a-screen-reader-only">Variety</span>
 	</a>
 							</div>
 
 <div class="lrv-u-width-100p u-max-width-705 lrv-u-font-family-secondary lrv-u-margin-t-2@mobile-max lrv-u-margin-l-2@tablet">
-								
+
 <div data-pmc-es-search-form="small_search_form"></div>							</div>
 						</div>
 						<button class="mega-menu__close-button // js-MegaMenu-Trigger lrv-u-justify-content-center lrv-u-align-items-center lrv-u-flex-shrink-0 lrv-u-border-a-0 a-become-close-button a-become-close-button--trigger a-hidden@mobile-max u-width-30 lrv-u-background-color-transparent">
@@ -5097,11 +5097,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 				</div>
 
 <ul class="mega-menu-content // mega-menu__parent-list // lrv-a-unstyle-list lrv-a-wrapper lrv-a-grid@tablet a-cols5@tablet u-grid-gap-2@tablet u-margin-b-3@tablet u-padding-lr-2 u-padding-lr-125@tablet" data-collapsible-group="">
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/film/"
 			>
 	Film</a>
@@ -5152,11 +5152,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/tv/"
 			>
 	TV</a>
@@ -5207,11 +5207,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/what-to-watch-streaming-movies-shows-online/"
 			>
 	What To Watch</a>
@@ -5226,11 +5226,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/music/"
 			>
 	Music</a>
@@ -5275,11 +5275,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/t/documentaries-to-watch/"
 			>
 	Docs</a>
@@ -5294,11 +5294,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/v/digital/"
 			>
 	Tech</a>
@@ -5325,11 +5325,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/c/global/"
 			>
 	Global</a>
@@ -5362,11 +5362,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/e/contenders/"
 			>
 	Awards Circuit</a>
@@ -5417,11 +5417,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="/videos"
 			>
 	Video</a>
@@ -5466,11 +5466,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="https://variety.com/t/what-to-hear/"
 			>
 	What to Hear</a>
@@ -5485,11 +5485,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="#"
 			>
 	More Coverage</a>
@@ -5534,11 +5534,11 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</li>
 			</ul>
 </li>
-			
+
 <li class="mega-menu-item // mega-menu__parent-list-item // lrv-js-MobileHeightToggle lrv-u-margin-b-2@mobile-max" data-collapsible="collapsed">
 	<div class="lrv-u-flex lrv-u-border-b-1 u-border-color-medium-grey lrv-u-padding-b-050 u-padding-b-1@tablet">
 		<button class="lrv-js-MobileHeightToggle-trigger lrv-a-unstyle-button u-display-inline-flex lrv-u-margin-l-00 lrv-u-cursor-pointer a-stacking-context a-hidden@tablet lrv-a-icon-before a-icon-down-chevron"><span class="lrv-a-screen-reader-only">Expand the sub menu</span></button>
-		
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black lrv-u-width-100p lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m" href="#"
 			>
 	More Variety</a>
@@ -5589,7 +5589,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 
 <ul class="o-nav__list lrv-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item lrv-u-margin-b-1">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m u-margin-b-1" href="/tips"
 			>
 	Have a News Tip?</a>
@@ -5598,7 +5598,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 							<div id="piano-mega-menu-mobile-module-header-link-vy" class=""></div>
 						</li>
 					<li class="o-nav__list-item lrv-u-margin-b-1">
-							
+
 <a class="c-link  lrv-u-color-black lrv-a-font-primary-s@mobile-max lrv-a-font-secondary-m u-margin-b-1" href="https://cloud.email.variety.com/signup/"
 			>
 	Newsletters</a>
@@ -5628,16 +5628,16 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			<div class="lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center u-grid-gap-2">
 				<h3 class="lrv-a-font-secondary-m">Alerts and Newsletters</h3>
 				<div>
-					
+
 <form class="o-email-capture-form lrv-js-EmailCapture  pmc-recaptcha-enterprise-form" method="post" action="https://cloud.email.variety.com/api/" name="newsletter-module-form" target="_blank">
 
 <div class="o-email-capture-form__inner lrv-u-flex">
-		
+
 <div class="c-email-field  ">
 	<label class="c-email-field__label lrv-u-display-none" for="mega_newsletter_email">Your Email</label>
 	<input class="c-email-field__input u-width-222 u-border-b-1 u-border-color-black lrv-u-padding-tb-025 lrv-u-padding-lr-2 lrv-a-font-secondary-regular-xs a-placeholder-color-medium-grey" name="EmailAddress" id="mega_newsletter_email" required type="email" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 </div>
-		
+
 	<button class="c-button larva  lrv-a-unstyle-button lrv-u-cursor-pointer u-margin-l-2" type="submit"
 			>
 
@@ -5645,7 +5645,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 		Sign Up	</span>
 
 <span class="lrv-a-screen-reader-only">Sign Up</span>
-	
+
 	</button>
 	</div>
 
@@ -5654,9 +5654,9 @@ What to Watch This Week: 40+ Premieres, Finales and More
 	<input type="hidden" name="__successPage" data-email-capture-success-url="https://cloud.email.variety.com/signup/?signup=success" value="" />
 
 <input type="hidden" name="Editorial_Daily_Headlines_Opted_In" id="mega_newsletter_name" value="Yes" />
-			
+
 <input type="hidden" name="Editorial_Daily_Headlines_Opt_In_Date" id="mega_newsletter_date" value="2025-09-15" />
-			
+
 <input type="hidden" name="source" id="mega_newsletter_src" value="MegaMenu" />
 	</form>
 				</div>
@@ -5675,7 +5675,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 <ul class="o-social-list  lrv-a-unstyle-list lrv-u-flex lrv-u-align-items-center u-margin-l-n050 u-margin-r-250"
 	>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.instagram.com/variety/"
 					rel="noopener noreferrer"
 							>
@@ -5690,7 +5690,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://twitter.com/variety"
 					rel="noopener noreferrer"
 							>
@@ -5705,7 +5705,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.youtube.com/user/Variety"
 					rel="noopener noreferrer"
 							>
@@ -5720,7 +5720,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.facebook.com/Variety"
 					rel="noopener noreferrer"
 							>
@@ -5735,7 +5735,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 </a>
 					</li>
 			<li class="o-social-list__item lrv-u-display-inline-block">
-							
+
 	<a class="lrv-u-padding-a-050 lrv-u-display-block lrv-u-color-black lrv-u-margin-r-1" href="https://www.linkedin.com/company/variety"
 					rel="noopener noreferrer"
 							>
@@ -5758,12 +5758,12 @@ What to Watch This Week: 40+ Premieres, Finales and More
 			</div>
 
 <div class="lrv-u-flex lrv-u-align-items-center u-grid-gap-4">
-				
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal a-space-children--175 lrv-u-align-items-center lrv-u-a-unstyle-list" aria-labelledby="">
 					<li class="o-nav__list-item ">
-							
+
 <a class="c-link  lrv-a-font-primary-s lrv-u-color-black u-text-decoration-underline:hover" href="/tips"
 			>
 	Got a Tip?</a>
@@ -5789,24 +5789,24 @@ What to Watch This Week: 40+ Premieres, Finales and More
 
 <div class="lrv-u-flex lrv-u-justify-content-space-between lrv-u-border-t-1 lrv-u-padding-t-150 u-padding-b-3 u-border-color-black">
 			<div>
-				
+
 <nav class="o-nav  lrv-u-flex">
 
 <ul class="o-nav__list lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal u-grid-gap-2 lrv-u-align-items-center lrv-u-a-unstyle-list lrv-u-line-height-large u-justify-content-center@desktop-max lrv-u-flex-wrap-wrap" aria-labelledby="">
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="#"
 			>
 	Advertise</a>
 						</li>
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="/variety-about-us"
 			>
 	About</a>
 						</li>
 					<li class="o-nav__list-item  c-label lrv-a-font-primary-s">
-							
+
 <a class="c-link  lrv-a-unstyle-link lrv-u-color-black u-text-decoration-underline:hover" href="/static-pages/contact-us/"
 			>
 	Contact Us</a>
@@ -5816,7 +5816,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 				<small class="lrv-a-font-secondary-regular-xs">Variety is a part of Penske Media Corporation. &copy; 2025 Variety Media, LLC. All Rights Reserved.</small>
 			</div>
 			<div class="lrv-u-flex lrv-u-align-items-center">
-				
+
 	<a class="u-width-222 u-height-30" href="https://pmc.com/"
 					rel="noopener noreferrer"
 							target="_blank"
@@ -5826,7 +5826,7 @@ What to Watch This Week: 40+ Premieres, Finales and More
 <span class="lrv-a-screen-reader-only" data-label="c_icon_link_screen_reader_text">Icon Link</span>
 
 <span class="lrv-a-screen-reader-only" data-label="c_icon_screen_reader_text">Plus Icon</span>
-	
+
 <svg class="c-icon  lrv-u-height-100p lrv-u-width-100p"
 			aria-hidden="true"
 	>

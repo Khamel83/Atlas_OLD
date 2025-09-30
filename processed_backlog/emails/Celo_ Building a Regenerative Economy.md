@@ -15,7 +15,7 @@ Regenerative finance (ReFi) is one of those radical ideas that are easy to dismi
 If you didn’t do anything for Earth Day on Friday — no judgment — then take the time to read this piece and think about ways you might contribute.
 Today is a sponsored deep dive on Celo (more on the process here [ https://email.mg2.substack.com/c/eJxFkU1vhCAQhn-NHA2grHrg0GS7aXa7vTTZtCeDMCpZBctHN_774npoAjMTJjPvmwcpAgzWrXyxPqAttGFdgBt4-AlCAIeiB9dqxcmB1gUrG6R4qUjNaqR92zuAWeiJBxcBLbGbtBRBW_OcwJgyNPKqZxWWVU_6A6F9ShQKSXFZgqgEbppdV0SlwUjg8AtutQbQxMcQFp8VLxk9paOs9Plg7TBBLu28v8QZTNjKdMmFlurlwu7V-1v8vvrzdVVUyOPnz6PuXtV5bhepb26-fXxtK0HpkBWn6JesOPpROG0GpDnFNJmjjFBWY5wXeXkQpOsFafquroSQWYnngeY-dj4Ied-8IMeNDZ3dVqT2fRQzTM9GYtKmPEejw9qCEd0EascVdupPgO0ABlz6DdWKkFgzXDckBUwOO57Ek9GKVskcSsrKpinzL_oHwd-Zng ]) – and if you’re building a ReFi project, I hope this gets you to take a look at Celo – but the more important mission here is to explain ReFi in a way that makes sense and gets you excited enough to build, invest in, or otherwise support a ReFi project in the first place. Or at least to stop for a few minutes and wonder, “Well, why not?” 
 Disclaimer: This is not financial advice. Price has never come up less in my research, and it’s not a key piece of the story. Celo has native stablecoins that people can use because they’re easier to use, which probably hurts demand for CELO. I have investments in many of the companies discussed in this piece. DYOR.
-Celo is the kind of project that’s like catnip to me: ambitious, complex, optimistic. Obviously, the odds of rebuilding the financial system are stacked against Celo and the builders in its ecosystem. With that acknowledged, let’s dream a little. 
+Celo is the kind of project that’s like catnip to me: ambitious, complex, optimistic. Obviously, the odds of rebuilding the financial system are stacked against Celo and the builders in its ecosystem. With that acknowledged, let’s dream a little.
 Let’s get to it. 
 Celo: Building a Regenerative Economy
 Regenerative Finance (ReFi) is a multi-trillion dollar opportunity to do well by doing good, and Celo is becoming its home. 
@@ -255,7 +255,7 @@ In other words, the carbon coin is kind of like the SuperLorax – it speaks for
 That’s the promise of Celo: that it gives people a set of tools with which, and an ecosystem within which, to build a new financial system that creates the conditions for prosperity for everyone by better accounting for everyone’s debits and credits, extractions and contributions. 
 Celo doesn’t want to do it alone. It’s not going to be the blockchain to end all blockchains. It just wants to fulfill its own unique purpose as the mission-driven home neighborhood for ReFi within a connected, multi-chain ecosystem working together to create a regenerative economy.
 I think this is how the financial system would have been built all along if humans had had the right tools and technology. We do now. The goal is to build a new regenerative system before it’s too late.
-Thanks to Rene, Ed, Tomer, Marek, Phil, Ravi, Mike, Anna, Sep, Jonathan, and Deana for your conversations and contributions to this piece, and to Dan for editing. 
+Thanks to Rene, Ed, Tomer, Marek, Phil, Ravi, Mike, Anna, Sep, Jonathan, and Deana for your conversations and contributions to this piece, and to Dan for editing.
 Thanks for reading, and see you on Thursday,
 Packy
 

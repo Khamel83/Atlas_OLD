@@ -7,7 +7,7 @@
 
 # knowmore.washingtonpost.com
 
-Unknown author • November 12, 2013 
+Unknown author • November 12, 2013
 
 ![knowmore.washingtonpost.com]()
 

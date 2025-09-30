@@ -40,7 +40,7 @@ out of their winery’s tasting room ( https://www.instagram.com/_zoelatta_/p/DE
 Mentioned in this issue: Charlotte Tilbury, Jack McCollough, Lazaro Hernandez, Proenza Schouler, Loewe,
 Jonathan Anderson, Canal Street, Meridith Rojas, MCoBeauty, Brennan Kilbane, e.l.f. Cosmetics, Sol de Janeiro, Sephora, NYFW, Shira Suveyke Snyder, Kay Hong, Patrik Ervell, Sies Marjan, Sander Lak, GQ, Emily Adams Bode Aujla, Karl Lagerfeld, Saks, Neiman Marcus, and many, many more… 
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -146,7 +146,7 @@ Yes, it’s true that launching new products is always a risk—especially when 
 or even deploying marketing spend to make new claims about old ingredients. Alas, these could be more expensive undertakings, but surely, it would be a better use of capital than a reactionary and defensive P.R. campaign. As always, what people choose to spend on skincare and makeup is at their discretion, but I’d argue that by now, we all know how much it actually costs to make beauty products. Perhaps some of the brands charging $50 or $100 for something that costs
 $5 to make are the ones really duping the consumer.  
 
- 
+
 
 What Rachel’s Reading…
 --------------------------
@@ -164,7 +164,7 @@ I went to Sephora last week to get new eyebrow pencils, and the checkout line wa
 checking out with a sales associate via mobile, but I wondered why more people weren’t doing that and thought there has to be a better way. Luckily, Artemis Patrick, the C.E.O. of Sephora North America, just dropped some big news at the NRF convention: The retailer is redesigning every store over the next five years, and hopefully, mobile will become the leading way to check out.
 [Retail Dive ( https://www.retaildive.com/news/sephora-redesigns-stores-brick-and-mortar/737238/?utm_source=substack&utm_medium=email&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from all of us at Line Sheet. I’m still working, so send
 me scoops! Send me intel! Send me angry texts! I’m free on Instagram D.M., Signal, WhatsApp, or text… if you wish. +1 646-241-3902.
@@ -227,6 +227,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUbDIG-SXP767lqTcDCYg=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F15%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

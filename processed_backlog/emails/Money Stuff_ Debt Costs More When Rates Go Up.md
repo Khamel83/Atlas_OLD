@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         This is maybe the first real interest-rate-hiking cycle of my professional life, and I’m kind of excited? Not just my professional life. I’m
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Rates go up
-    
-  
+
+
 
 This is maybe the first real interest-rate-hiking cycle of my professional life, and I’m kind of excited? Not just my professional life. I’m pretty old!
   [1]
@@ -77,37 +77,37 @@ In fact, interest rates on the largest US leveraged loans (which simply refer to
 
 At some level “as interest rates go up, companies will have to pay more interest on their debt” is a pretty banal finding, and yet it does seem to come as a surprise.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Two Sigma
-    
-  
+
+
 
 There are two paradigmatic ways to run a hedge fund:
 	Pirate captain with a pirate crew; or	Institutional firm with professional management, well-defined career paths and succession plans, replicable processes that do not depend on the genius of the charismatic founder, etc.
@@ -128,11 +128,11 @@ Something like that seems to be happening at Two Sigma, which is apparently para
 Some senior employees already have left for competitors such as Citadel, but Two Sigma’s results remain strong. There are few signs investors are pulling their investments, and the firm is still profitable.
 The fund’s managers can’t make any decisions, but it turns out that’s for the best.
 
-  
-    
+
+
       MiFID II
-    
-  
+
+
 
 Sell-side stock research has many functions,
   [2]
@@ -155,11 +155,11 @@ In response, the European Commission — the EU’s executive body — in Decemb
 
 If you are sending a customer a lot of research reports about small-cap stocks, it is generally not because the customer is desperate to learn more about small-cap stocks and will pay you thousands of dollars for your insights. It is because you want the customer to learn more about small-cap stocks, so she’ll buy some.
 
-  
-    
+
+
       Crypto.com prop desk
-    
-  
+
+
 
 The way   the US stock market works is:
 	A retail broker (Robinhood, Fidelity, etc.) has a website, where you can put in an order to sell stock.	They send the order to a market maker (Citadel Securities, Virtu, Jane Street, etc.) who buys the stock from you.	The market maker goes to a stock exchange (the New York Stock Exchange, Nasdaq, etc.) to sell the stock to another market maker or to an institutional investor.
@@ -183,12 +183,12 @@ Its exchange is for institutional traders and “operates as a level playing fie
 
 That might cover various things — the internal trading team might do proprietary directional trading and/or institutional market making on the exchange — but I read it to say mostly “facing Crypto.com’s retail customers is lucrative, so Crypto.com does that itself, and when it trades with those customers it ends up with positions that it has to lay off on the institutional exchange.” That’s kind of how the stock market works except that in stocks the retail broker, the market maker and the exchange are three separate entities. In crypto they are all the same.
 
-  
-    
-      
+
+
+
 Fourteenth Law of Insider Trading
-    
-  
+
+
 
 On Friday   I proposed an Eleventh Law of Insider Trading, “don’t insider trade while drunk.” I need to make a few corrections and clarifications to this law.
 First, and most important: I mean, I used to have a schtick of announcing “laws of insider trading,” which are never legal advice; when I got to 10 in 2018 I  did a little commemorative post. But then I got a little bored, and it has been so long since I announced a new law of insider trading that I forgot some. Here are the actual Eleventh, Twelfth and Thirteenth Laws, in their order of promulgation:
@@ -199,15 +199,15 @@ So “don’t insider trade drunk” is actually the Fourteenth Law of Insider T
 Second, speaking of “not legal advice,” this weekend  Stephen Bainbridge considered this case and concluded that “voluntary intoxication might well be a viable defense to an insider trading charge”: To convict you of the crime of insider trading, prosecutors need to prove that you traded with some intention to defraud, and if you were drunk enough perhaps they will be unable to prove that intent. This suggests the possibility of an Alternate Fourteenth Law of Insider Trading: “Only insider trade while drunk.”
 A reader pointed out that someone did try this defense in Hong Kong in 2012. A non-executive director of Hong Kong Aircraft Engineering Co. was charged with insider dealing: A merger proposal came in, the chief executive officer called the director to invite him to a board meeting to discuss the deal, he went to lunch and bought 4,000 shares of the company’s stock. The director, “who pleaded not guilty at trial, claimed that at the time he purchased the shares, he had forgotten he was an independent non-executive director of HAECO; he was intoxicated and that he did not intend to profit from his trading.” This defense did not work — he was convicted — though the Securities and Futures Commission did note that he “claimed that he had drunk a gin and tonic followed by two glasses of white wine and two glasses of red wine over a four-course lunch at the Hong Kong Club.” 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Why  Inflation Around the World Just Won’t Go Away.   Carlos Ghosn Sues Nissan for $1 Billion in Damages Over Ouster. UBS to Face Penalties Over Credit Suisse’s  Archegos Fiasco. Credit Suisse seeks to strike out Mozambique ‘tuna bonds’ case. China’s ‘trinket town’ at heart of push for  renminbi trade. SVB Financial to sell investment banking unit to management team. SVB Customers Who Lost Their Deposits Remain on the Hook for Loans. Abu Dhabi Wealth Fund ADQ Held Early Talks to   Acquire Lazard. Odey Fund Hit With   Cash Movement Restrictions by UK Watchdog. Odey Wealth tells customers it is ‘considering options’ for the business. Internal JPMorgan Report Provides New Details on Bank’s Ties to  Jeffrey Epstein.   Alibaba Names Tsai Chairman, Wu CEO in Surprise Shake-Up. Farmers Worry $8.2 Billion  Agriculture Deal Will Diminish Competition. Liquidators of Crypto Fund   Three Arrows Seek to Fine Co-Founder $10,000 Per Day.   Binance.US Reaches Agreement With SEC to Avoid Full Asset Freeze. Crypto Entrepreneur   Do Kwon Gets Four-Month Sentence in Montenegro. BlackRock and JPMorgan help set up  Ukraine reconstruction bank. “Among Vanguard’s personal-investor clients, individuals 65 and older have a median  equity allocation of 63%.” One-Percenters Keep Shopping at the  Dollar Store. “A man who posed as a   deal-making billionaire rabbi astrologer and allegedly made a phony $290 million bid for Lord & Taylor pleaded guilty in New York to a fraud that drove his two victims into bankruptcy.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Old enough that *arguably* 2004-2006 was the first real interest-rate-hiking cycle of my professional life, but I was a baby lawyer then so I am not going to count it.
 
 
@@ -217,54 +217,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] [If you send them a report with a Sell recommendation, maybe they will sell it? This is, however, a pretty advanced move.
 
 
-  [4] This is a stylized model, and probably overstates the value of the commissions. Dan Davies wrote last month: "Sellside research is to a very small extent advertisement for brokerage services (which are barely profitable themselves these days), and mainly a way to build the kind of buddy networks with companies and investors that are essential if you want to do advisory or have a capital markets business. It’s noticeable that Deutsche Bank still has an equity research department even though it doesn’t have an equity trading department, and that it appears to have acquired Numis for its network of UK corporate brokerage relationships (of which the provision of research coverage is an important part)." The research is not so much an advertisement for "trade this stock today" as it is for "trust us for your complex financial services needs." It is a relationship-building calling card rather than a product sold on its own. 
+  [4] This is a stylized model, and probably overstates the value of the commissions. Dan Davies wrote last month: "Sellside research is to a very small extent advertisement for brokerage services (which are barely profitable themselves these days), and mainly a way to build the kind of buddy networks with companies and investors that are essential if you want to do advisory or have a capital markets business. It’s noticeable that Deutsche Bank still has an equity research department even though it doesn’t have an equity trading department, and that it appears to have acquired Numis for its network of UK corporate brokerage relationships (of which the provision of research coverage is an important part)." The research is not so much an advertisement for "trade this stock today" as it is for "trust us for your complex financial services needs." It is a relationship-building calling card rather than a product sold on its own.
 
 
   [5] In particular, the market maker would probably prefer to sell your stock to another customer of the retail broker, rather than offloading it on the public exchange.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -275,46 +275,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciymdi.5jdx/fe74d470.gif" alt="" border="0" /></a>

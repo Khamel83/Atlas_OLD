@@ -18,14 +18,41 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi import APIRouter, Depends, Request, Response
 from fastapi.staticfiles import StaticFiles
 
-from helpers.metrics_collector import get_metrics_collector, get_health_summary
-from helpers.logging_config import get_logger
-from helpers.queue_manager import get_queue_status
-from helpers.alerting_service import get_alerting_service
+# Import with fallbacks for missing modules
+try:
+    from helpers.metrics_collector import get_metrics_collector, get_health_summary
+    METRICS_AVAILABLE = True
+except ImportError:
+    METRICS_AVAILABLE = False
+
+try:
+    from helpers.logging_config import get_logger
+    LOGGING_AVAILABLE = True
+except ImportError:
+    import logging
+    LOGGING_AVAILABLE = False
+
+try:
+    from helpers.queue_manager import get_queue_status
+    QUEUE_AVAILABLE = True
+except ImportError:
+    QUEUE_AVAILABLE = False
+
+try:
+    from helpers.alerting_service import get_alerting_service
+    ALERTING_AVAILABLE = True
+except ImportError:
+    ALERTING_AVAILABLE = False
+
+# Fallback logger
+if LOGGING_AVAILABLE:
+    logger = get_logger("monitoring")
+else:
+    logger = logging.getLogger("monitoring")
+    logger.setLevel(logging.INFO)
 
 
 router = APIRouter(prefix="/monitoring", tags=["monitoring"])
-logger = get_logger("monitoring")
 
 # Connected WebSocket clients
 connected_clients = set()
@@ -281,12 +308,12 @@ async def websocket_endpoint(websocket: WebSocket):
 async def get_dashboard_metrics():
     """Get dashboard metrics data."""
     try:
-        metrics_collector = get_metrics_collector()
-        health_summary = get_health_summary()
-        queue_status = get_queue_status()
+        metrics_collector = get_metrics_collector() if METRICS_AVAILABLE else None
+        health_summary = get_health_summary() if METRICS_AVAILABLE else {"status": "unknown", "alerts": []}
+        queue_status = get_queue_status() if QUEUE_AVAILABLE else {"pending": 0, "failed": 0}
 
         return {
-            "metrics": get_all_metrics(metrics_collector),
+            "metrics": get_all_metrics(metrics_collector) if metrics_collector else {},
             "health": health_summary,
             "queue": queue_status,
             "timestamp": datetime.utcnow().isoformat()
@@ -300,16 +327,20 @@ async def get_dashboard_metrics():
 async def get_dashboard_alerts():
     """Get current alerts for the dashboard."""
     try:
-        alerting_service = get_alerting_service()
-        active_alerts = alerting_service.get_active_alerts()
-        alert_status = alerting_service.get_alert_status()
+        if ALERTING_AVAILABLE:
+            alerting_service = get_alerting_service()
+            active_alerts = alerting_service.get_active_alerts()
+            alert_status = alerting_service.get_alert_status()
+        else:
+            active_alerts = []
+            alert_status = {"status": "unknown"}
 
         return {
             "alerts": active_alerts,
             "status": alert_status,
             "count": len(active_alerts),
-            "critical_count": len([a for a in active_alerts if a["alert"].severity == "critical"]),
-            "warning_count": len([a for a in active_alerts if a["alert"].severity == "warning"]),
+            "critical_count": len([a for a in active_alerts if a.get("alert", {}).get("severity") == "critical"]),
+            "warning_count": len([a for a in active_alerts if a.get("alert", {}).get("severity") == "warning"]),
             "timestamp": datetime.utcnow().isoformat()
         }
     except Exception as e:
@@ -505,20 +536,25 @@ async def get_prometheus_metrics():
 async def get_health_check():
     """Get comprehensive health check."""
     try:
-        metrics_collector = get_metrics_collector()
-        health_summary = metrics_collector.get_health_summary()
+        if METRICS_AVAILABLE:
+            metrics_collector = get_metrics_collector()
+            health_summary = metrics_collector.get_health_summary()
+        else:
+            health_summary = {"status": "unknown"}
 
         # Add service-specific health checks
         service_health = {
             "monitoring_service": "healthy" if monitoring_service.is_running else "unhealthy",
-            "alerting_service": "healthy",  # Could add actual health check
-            "queue_manager": "healthy"     # Could add actual health check
+            "alerting_service": "healthy" if ALERTING_AVAILABLE else "unavailable",
+            "queue_manager": "healthy" if QUEUE_AVAILABLE else "unavailable",
+            "metrics_collector": "healthy" if METRICS_AVAILABLE else "unavailable"
         }
 
         # Determine overall status
-        if health_summary["status"] == "critical" or any(status == "unhealthy" for status in service_health.values()):
+        critical_services = [status for status in service_health.values() if status in ["unhealthy", "unavailable"]]
+        if health_summary.get("status") == "critical" or critical_services:
             overall_status = "critical"
-        elif health_summary["status"] == "warning":
+        elif health_summary.get("status") == "warning":
             overall_status = "warning"
         else:
             overall_status = "healthy"
@@ -528,13 +564,9 @@ async def get_health_check():
             "system_health": health_summary,
             "service_health": service_health,
             "checks_performed": [
-                "queue_depth",
-                "processing_rate",
-                "memory_usage",
-                "disk_usage",
-                "alert_conditions",
-                "service_status"
-            ],
+                "service_status",
+                "monitoring_service"
+            ] + (["queue_depth", "processing_rate", "memory_usage", "disk_usage", "alert_conditions"] if METRICS_AVAILABLE else []),
             "timestamp": datetime.utcnow().isoformat()
         }
     except Exception as e:
@@ -578,21 +610,27 @@ def get_all_metrics(metrics_collector) -> Dict[str, Any]:
 def get_realtime_metrics() -> Dict[str, Any]:
     """Get real-time metrics for WebSocket updates."""
     try:
-        metrics_collector = get_metrics_collector()
-        health_summary = get_health_summary()
-        queue_status = get_queue_status()
-        alerting_service = get_alerting_service()
+        metrics_collector = get_metrics_collector() if METRICS_AVAILABLE else None
+        health_summary = get_health_summary() if METRICS_AVAILABLE else {"status": "unknown", "alerts": []}
+        queue_status = get_queue_status() if QUEUE_AVAILABLE else {"pending": 0, "failed": 0}
+
+        alerts_data = {}
+        if ALERTING_AVAILABLE:
+            alerting_service = get_alerting_service()
+            alerts_data = {
+                "active": alerting_service.get_active_alerts(),
+                "status": alerting_service.get_alert_status()
+            }
+        else:
+            alerts_data = {"active": [], "status": "unknown"}
 
         return {
             "type": "metrics_update",
             "data": {
-                "metrics": get_all_metrics(metrics_collector),
+                "metrics": get_all_metrics(metrics_collector) if metrics_collector else {},
                 "health": health_summary,
                 "queue": queue_status,
-                "alerts": {
-                    "active": alerting_service.get_active_alerts(),
-                    "status": alerting_service.get_alert_status()
-                },
+                "alerts": alerts_data,
                 "timestamp": datetime.utcnow().isoformat()
             }
         }

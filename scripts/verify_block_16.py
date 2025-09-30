@@ -22,7 +22,7 @@ def main():
     """Main verification function"""
     print("Atlas Block 16 Implementation Verification")
     print("=" * 45)
-    
+
     # List of required files
     required_files = [
         "helpers/email_auth_manager.py",
@@ -45,14 +45,14 @@ def main():
         "EMAIL_INTEGRATION_README.md",
         "BLOCK_16_COMPLETE.md"
     ]
-    
+
     # Check each file
     all_files_exist = True
     for file_path in required_files:
         full_path = Path("/home/ubuntu/dev/atlas") / file_path
         if not check_file_exists(full_path):
             all_files_exist = False
-    
+
     print("\n" + "=" * 45)
     if all_files_exist:
         print("✅ All required files exist!")
@@ -60,7 +60,7 @@ def main():
     else:
         print("❌ Some files are missing!")
         print("⚠️  Please check the implementation.")
-    
+
     return all_files_exist
 
 if __name__ == "__main__":

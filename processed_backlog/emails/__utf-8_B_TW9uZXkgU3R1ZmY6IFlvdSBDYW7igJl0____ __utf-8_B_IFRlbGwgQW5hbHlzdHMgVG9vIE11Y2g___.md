@@ -9,68 +9,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off for the rest of the week, back on Monday.From first principles, you might imagine that the investo
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off for the rest of the week, back on Monday.
 
-  
-    
+
+
       Reg FD
-    
-  
+
+
 
 From first principles, you might imagine that the investor relations department at a big public company would want to give investors as much information as possible. Tell them what earnings will be like next year, break down the drivers of those earnings, explain the risks, whatever seems helpful. And then if the investors have more detailed follow-up questions, you answer them.
 Obviously there are limits. For one thing, you would not want to give investors information that could hurt your business; you wouldn’t violate customer confidences or give away competitive information or whatever. For another thing, you want to be helpful but not overwhelming; you might not disclose minute-by-minute revenue numbers because that might annoy investors more than it helps them. But if anyone asks for more detail, sure, give it to them.
@@ -78,7 +78,7 @@ Presumably this is not how every investor relations department thinks about thin
 Other companies just won’t care about being helpful to investors; they will think thoughts along the lines of “we want committed long-term investors who do not obsess over short-term quarterly results, so we will keep our guidance vague to weed out the short-termists. Anyone who cares about next quarter’s earnings is not an investor we want.” (Or: “If we tell our investors everything about what we’re doing this quarter to accomplish our long-term goals, they will pressure us to stop, because they care only about short-term results and won’t believe us about our long-term plans.”) I find this position pretty annoying but   it does seem to be popular. 
 Still I presume that a lot of big normal companies will have investor relations departments whose basic goal is helping investors understand the company, and whose basic instinct, when an investor calls with a question about the company, is to try to answer it. Similarly, when a Wall Street analyst calls with a question about the company, the company will try to answer it, because the analyst is in the business of writing reports explaining the company that are read by lots of investors, so answering her questions is a good way to help investors understand the company better.
 In the US, there are two major legal constraints on this desire:
-	
+
 Regulation FD says that you cannot give one investor, or one analyst, “material nonpublic information” that you don’t disclose publicly. The intuition here is that you are not allowed to favor one investor — or one analyst, or one group of investors, or analysts generally — over the general public. Retail investors who own 100 shares and never call investor relations need to get the same information as Wall Street analysts whose job is to cover the company.	“  Everything is securities fraud” says that, among other things, the more information you publish, the more likely you are to get sued if some of it turns out to be wrong.
 
 And so companies mostly do not put out weekly public filings saying “here’s how we currently think our quarter is going, here’s our best guess about the quarterly financial results, and here are some of the important drivers that we’re looking at,” because if those things turned out to be wrong or revised someone would complain. And if you call up a company asking them for that information, they might want to tell you, but due to Regulation FD they can’t.
@@ -95,89 +95,89 @@ The SEC sued; AT&T indignantly replied that it did not share any material nonp
 "The actions allegedly taken by AT&T executives to avoid falling short of analysts’ projections are precisely the type of conduct Regulation FD was designed to prevent," said Gurbir S. Grewal, Director of the SEC’s Division of Enforcement. "Compliance with Regulation FD ensures that issuers publicly disclose material information to the entire market and not just to select analysts."
 It doesn’t really though. It ensures that issuers don’t disclose material information to select analysts, but nothing about it guarantees that they will disclose it to the entire market. They can just keep quiet and have the earnings come as a surprise. I am not sure that that’s better.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Celsius
-    
-  
+
+
 
 If you lend your crypto to a   crypto shadow bank, and the crypto shadow bank goes bankrupt, do you automatically get your money back? I kind of feel like that question answers itself? Like, the whole point of bankruptcy is pretty much that a lot of people loaned money to a company, and it doesn’t have enough money to pay them back, so it goes bankrupt? Somebody is not getting all their money back? Like, specifically, some lenders are not getting their money back? That’s what this all is?
 People have weird intuitions about this. I think that the two main, slightly different, intuitions are:
@@ -203,20 +203,20 @@ While the hodgepodge of contradictory and ever-changing language in the Terms of
 
 Yes, no,  look, any time anyone lends money to a company, the loan will also include a promise to pay the money back. That’s what a loan is! The problem is that, if the company goes bankrupt, it will not necessarily pay back its loans. That’s what bankruptcy is!
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Margining
-    
-  
+
+
 
 One   point that I have made about the collapse of FTX is that, even if you believe Sam Bankman-Fried’s story that FTX was undone by sloppy accounting and carelessness rather than intentional fraud, that story is really bad, because FTX advertised itself specifically as a safe, careful crypto exchange. If you attract customer money by saying that you have a sophisticated automated margining system, and then you lose the customers’ money, and then you say “oh oops we forgot about margining,” then that’s bad even if it’s true. Attracting customer money with lies and then losing it by accident is probably not quite as bad as attracting customer money with lies and then stealing it, but both are very much on the “not allowed” side of the line.
 On that note, we   talked yesterday about some reports that FTX was careless about how it extended credit. Specifically,  the Financial Times reported that, last year, Alameda Research, FTX’s affiliated trading firm, might have lost as much as a billion dollars due to a margining error at FTX. Some trader owned a lot of a strange illiquid token called MobileCoin, and the price of MobileCoin spiked, and the trader used that spike to try to borrow a lot of money from FTX. Then the price of MobileCoin fell back down again, the trader’s position was worthless and FTX had to liquidate it. Rather than liquidating it at a loss and putting the exchange in danger, FTX sold it to Alameda, which took the loss. I suggested that this story foreshadowed FTX’s collapse this year, which seems to have come about in part because FTX extended billions of dollars of credit to Alameda, secured by Alameda’s giant stash of somewhat illiquid tokens (FTT, Serum, Maps, etc.) that FTX had more or less invented.
@@ -261,126 +261,126 @@ One simple point here is that FTX’s Serum holdings — $2.2 billion last wee
 That’s just, like, common sense, man. If you own 20 times the total circulating supply of some token that you made up, you will not be able to sell all of those tokens at the current market price, or half of the current market price, or anything within shouting distance of the current market price, or frankly any price. Your computer — your Excel spreadsheet, anyway, where you multiply your token holdings by the market price — might tell you that that stash of tokens is worth billions of dollars, and that you can lend billions of real dollars secured by that stash. But you’d know in your heart that your computer was wrong.
 Bankman-Fried advertised that FTX’s computers were right! That FTX’s computers knew all this in their hearts, that “the larger your position, the greater % margin we charge,” that “some positions … are large and illiquid enough that the risk engine forces you to fully collateralize a position,” that “it's the risk engine's job to consume that information, and decide what positions are safe,” that “you can create a set of rules for it so that it's conservative,” that “that, in the end, is probably the most important thing we do at FTX.” It would have been! If they had done it!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed to Weigh Higher Interest Rates  Next Year While Slowing Rises This Month. Wall Street Managers Are Learning to   Love Treasury Bonds Again. London Stock Exchange Launches First Fund Under New  Market for Carbon Credits. Ex-Deutsche Bank Trader Builds   $6 Billion Fortune on Trading Boom. Robinhood Wants Your  Retirement Money. SPACs Collapse as $11 Billion of Deals Are Called Off Within an Hour. PwC targets rival EY in bid to  expand partnership. US bank  Silvergate defends ties to Sam Bankman-Fried’s crypto groups. Binance Sees 30%   Surge in Trading Activity on FTX Implosion.   Miami's Crypto Scene Partied Through Art Basel Like FTX Never Happened. Slack CEO Stewart Butterfield to  Depart Salesforce. Snap Investors Hope for   Advertising Windfall as Brands Ditch Musk’s Twitter. The   Viral List That Turned a Yale Professor Into an Enemy of the Russian State. JPMorgan CEO Jamie Dimon Calls Crypto Tokens ‘Pet Rocks.’
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This seems like a wild assumption to me but, like, that’s crypto, man. If something stays above a certain price for five hours, that means that that price is justified by economic fundamentals! Okay!
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

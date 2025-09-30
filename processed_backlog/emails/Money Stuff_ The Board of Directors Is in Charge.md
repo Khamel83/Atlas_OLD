@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The basic rule is that the board of directors of a company is in charge of the company, and when they are faced with a decision, the directo
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Moelis, Crown Castle
-    
-  
+
+
 
 The basic rule is that the board of directors of a company is in charge of the company, and when they are faced with a decision, the directors are supposed to make the choice that they believe is best for the company and all of its shareholders. The shareholders don’t make the decision; the board does.
   [1]
@@ -109,37 +109,37 @@ And in particular, the agreement requires Crown Castle to recommend the Elliott 
 In their haste to lock in a deal and establish a frozen board, the Board agreed to the Cooperation Agreement a month before the nomination window for the 2024 Annual Meeting opened and before it had an opportunity to hear timely alternative proposals from any other stockholders. The Director Defendants had a duty to consider stockholder proposals made during the nomination window, which ran from January 18 to February 17, 2024, and to consider each proposal on its merits. The Defendant Directors breached their contractual obligations to stockholders by entering into the preclusive Cooperation Agreement foreclosing such consideration a month before the window opened.
 At some level it seems obvious that the board of directors of a company facing a proxy fight might settle with the activist by signing a contract saying “we’ll recommend two of your nominees to the board if you support the rest of ours.” But is the board allowed to do that? Is it allowed to commit to making a governance decision like that, without considering other possible nominees? Or does that violate the board’s obligation to run the company using its own best judgment?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Everything is securities fraud: OpenAI
-    
-  
+
+
 
 I sometimes write “everything is securities fraud” as a shorthand for a   particular weird argument about how modern US legal dynamics transmute every bad action taken by a public company into securities fraud, but never mind that. A simpler story is that if the board of directors of a company (public or private) puts out a public statement saying “turns out our chief executive officer is a big liar,” somebody is going to think that’s securities fraud. Whatever the CEO was lying about was probably material to the company — otherwise why would the board care? — and you’ve got to at least look into it.
 This isn’t quite that, but the Wall Street Journal reports:
@@ -155,11 +155,11 @@ Right, maybe they’ll find a “specific statement or communication” to inve
 	OpenAI’s stock does not continuously trade in public markets, so its CEO could go around lying about lots of stuff without tricking investors into buying stock. If you are the CEO of a public company and you go on television and say “we have built a superintelligent robot that can cure cancer,” people will buy your stock, the stock will go up, and if it turns out you were lying, they will sue you for fraud. If you are the CEO of a private company and you do that, nobody will trade the stock, because they can’t. If you then try to raise money by selling stock to investors two weeks later, and you send them a private placement memo saying “we have not built a superintelligent robot, we’re not even working on cancer, our CEO was just letting off steam on TV,” and then they buy the stock, they weren’t misled, were they? This is very much not legal advice, don’t do it, but the point is that every public statement by a public-company CEO is risky, while private companies have more limited investment-related communications.	In a typical private company, and particularly in a typical tech startup, if the CEO is lying to the board of directors, he is also lying to his investors, because ordinarily the board will include several representatives of the venture capital firms that invest in the business. So if the board feels misled, the investors probably feel misled, because they’re the same people. That's not the case here. In fact, it is exactly the opposite here: OpenAI’s 	description of its corporate structure says “the board remains majority independent,” and “independent directors do not hold equity in OpenAI.” (Microsoft Corp., OpenAI’s biggest investor, is represented by an observer on the board, but has no voting rights, and even the observer seat came after Altman’s firing and unfiring.) So in some sense the board of directors was a good group for Altman to mislead: They weren’t investors!	I continue to find it funny and relevant that, at the top of  OpenAI’s operating agreement, it warns investors: “It would be wise to view any investment in OpenAI Global, LLC in the spirit of a donation, with the understanding that it may be difficult to know what role money will play in a post-[artificial general intelligence] world.” I still don’t know what Altman was supposedly not candid about, but whatever it was, how material can it possibly have been to investors, given what they signed up for? “Ooh he said it cost $50 million to train this model but it was really $53 million” or whatever, come on, the investors were donating money, they’re not sweating the details.
 
 
-  
-    
+
+
       Everything is securities fraud: JBS
-    
-  
+
+
 
 On the other hand, the general idea of “everything is securities fraud” is that if investors care about a thing, and the company says misleading stuff about the thing, then that’s securities fraud. Traditionally, investors cared about things like profits, and companies sometimes cooked their books to show misleading profit numbers, and that was traditional securities fraud. But the modern theory understands that investors care about lots of things that could impact the company’s business — its policies for   securing customer data, its   treatment of its employees, its  treatment of its whales — and misleading investors about any of those things could be fraud.
 In the modern world of environmental, social and governance (ESG) investing, it seems pretty uncontroversial to say that at least some investors care about a company’s environmental record. And thus lying about your environmental record gives investors — or regulators — a securities-fraud hook to sue you.
@@ -172,11 +172,11 @@ Several companies across different industries have made net zero commitments ove
 
 Right. I will say it is kind of strange to sue a company specifically for lying about whether it will have net zero emissions by 2040. It’s only 2024! How can you prove that?
 
-  
-    
+
+
       Super users
-    
-  
+
+
 
 The way corporate earnings generally work is that a company puts out a press release with all of its material financial results for the quarter, and then it usually has a public conference call in which it answers questions about those numbers. “Could you explain the drivers of increased expenses this quarter,” an analyst might ask, and the chief financial officer might say “sure, what happened there is ...” and try to give some further explanation of the numbers that investors care about.
 And also there is, sometimes, a third thing, where investors can call up the company’s investor-relations officers directly and say “I am trying to update my model, I see that revenue in the widgets segment is up 2% but margins have contracted, can you help me understand,” and the IR officers might give the investor a bit more explanation. Or they might not. The IR officers have to balance their desire to be helpful — the investors own the company, and the IR officers’ job is to help them understand it — with their desire for fairness; the IR officers are not supposed to tell one investor secret material information that the other investors don’t know. (This is both a matter of good investor relations and also a legal requirement; in the US, Regulation FD prohibits a company from selectively disclosing material nonpublic information.) But it is a balance, and when an investor who follows the company closely calls up with a technical question, the IR officer might answer it. The theory is roughly “this information is material enough that the investor wants it and it would be helpful to give it to her, but not so material that it would be unfair to give it to her alone.” There are various  ways for this to  go wrong.
@@ -188,15 +188,15 @@ The BLS is “currently looking into this data, and we may have additional commu
 
 The BLS did put out the additional communication, in response to “numerous inquiries.” Did the super users get it before everyone else does? Kind of weird.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Stripe reaches $65bn valuation in deal to let employees cash out stock. Frackers Are Now Drilling for  Clean Power. Greg Coffey in Talks to   Buy EMSO, Create $13 Billion Hedge Fund Firm. Hedge fund  Eisler plans hiring spree to take on industry giants. Apple Investors  Grow Impatient on Artificial Intelligence. Elon Musk Says  Long-Delayed Tesla Roadster Coming Next Year. Uber chief unlocks  $136mn in options after beating $120bn valuation target. Nigeria Detains   Binance Executives in Overseas Tax Crackdown. Thinking Outside the  BOXX. Chocolate Makers Try a New Recipe:   Less Chocolate. “Recently, I was asked to fill a role for a chef,  literally just for Dobermans.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Sometimes, also, the shareholders have to ratify the decision: If the directors want to do a big merger, they approve the deal and then put it to a shareholder vote. But the directors have to make their own decision first, using their own judgment. If they think the merger is bad, they have to say no to it; they can’t generally just approve it and say “okay shareholders you decide, vote however you want.” They should only approve a merger that they think is good.
 
 
@@ -221,48 +221,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Famously, after briefly firing Altman,   the old board told employees “that Altman wasn’t candid, and often got his way,” but also “that Altman had been so deft they couldn’t even give a specific example."
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -273,46 +273,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckjvo6.6474/5ad4e527.gif" alt="" border="0" /></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Here are some statistics from Bloomberg’s Olga Kharif: To pass the chartered financial analyst exams and put the “CFA” letters on your résum
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Slerfed!
-    
-  
+
+
 
 Here are some statistics from Bloomberg’s Olga Kharif:
 
@@ -89,37 +89,37 @@ Poor Slorg. Basically the way crypto works is that a guy named Slorg makes up a 
 If this were a company, and Slerf was a stock, this would all be bad: It is bad for a company to lose all of the money it raises in a stock offering. (Also, though, it would probably be reversible. If a company just lost its list of shareholders, it could probably, like, go back through its emails and reconstruct the list.)
 But Slerf is not a company or a stock: It is a crypto token, so absolutely nothing matters. Except that this is all sort of funny, and attention-grabbing, so of course Slerf went up. Arnold: “This mistake was very good for attention, and attention is the true value of any memecoin. So the obvious thing happened and the new tokens that were released shot up around 5,000%.” You could spend another 10 hours and 55 minutes pondering this but I do not recommend it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTXed
-    
-  
+
+
 
 Elsewhere in crypto founders who “f—ed up” and went on social media to apologize:
 
@@ -129,11 +129,11 @@ In a Google document, which prosecutors attached to a court filing seeking to p
 
 The document lists 19 numbered “random probably bad ideas that aren’t vetted.” No. 12 is “Go head to head with Matt Levine on Odd Lots, really lean in to arguments.” I don’t think anyone will be surprised to hear that we (I and Joe Weisenthal and Tracy Alloway of Bloomberg’s Odd Lots) also wanted this. We had a few good chats with Bankman-Fried back before FTX collapsed, and I would have cleared my schedule to do it again in, you know, November 2022. Tremendous content that would have been. It never happened; I’m not sure if that’s because Bankman-Fried decided it was a bad idea, or his lawyers stopped him, or he was arrested before he could do it.
 
-  
-    
+
+
       Oh Elon
-    
-  
+
+
 
 The Elon Musk theory of corporate governance is that everything that Elon Musk does is good for his investors:
 	Elon Musk has made many hundreds of billions of dollars for investors in his various companies.	Those investor returns come, in large part, from Musk’s personal attributes and efforts: Those companies would not be successful without his perfectionism, drive, management style, techno-optimism, etc.; nobody else could have built those companies, and even today they would not perform nearly as well without Musk’s intense personal involvement.	Those personal attributes, which are good for investors, are inseparable from the rest of his personality, which is … oh, you know. “I reinvented electric cars and I’m sending people to Mars in a rocket ship,” Musk once said on Saturday Night Live; “did you think I was also going to be a chill, normal dude?” His personality only works as a complete package; you can’t get the shareholder value creation without the bad tweets.	Therefore, the bad tweets are also good, because they enable the good stuff; they are the compost that feeds the flowers of shareholder value.
@@ -153,11 +153,11 @@ One could quibble. Tesla’s stock peaked in November 2021. Arguably everything 
   [2]
  You might be tempted to look at the evidence and say it was bad. But on the Elon Musk theory of corporate governance, that's impossible.
 
-  
-    
+
+
       Meme governance
-    
-  
+
+
 
 Here’s a stylized history of US corporate governance:
 	In the very olden days, corporations tended to be run and also owned by their founders, titans of business who tended to own controlling stakes in the companies they ran personally. Governance was fairly straightforward: The owner-managers ran their businesses however they thought best.	Then the “separation of ownership and control” developed, where corporations became large and impersonal, owned by thousands of diffuse small shareholders but run by professional managers. Corporate governance questions arose for scholars and lawyers and investors: The managers ran the corporation, theoretically on behalf of its owners (the shareholders), but figuring out how to make sure that the managers did what was best for the owners became an active area of research and debate.	Then institutional investors became bigger, more powerful, and more interested in the governance of their portfolio companies; when the “Big Three” index-fund firms own 20% of the stock of every company, presumably they have some ability to tell those companies what to do. This raised a whole new set of corporate governance questions: Now, instead of powerful managers and diffuse and passive shareholders, you have very large shareholders who overlap among all the companies. (You also have a new separation of ownership and control, because the people who manage investments at the Big Three are not actually the ultimate owners of those investments.) And there is a ton of scholarship and debate about these issues, many of which we have discussed around here.	Meme stocks!
@@ -173,11 +173,11 @@ Also, it sort of looks as if ESG is a concern of institutional investors and re
 Disaggregating ESG performance into the sub-scores for environmental (“E”), social (“S”), and corporate governance (“G”) issues, we find that the post-2019 decline for the treatment group is concentrated in the governance component. We find no significant change in these companies’ performance on “E” or “S” issues after the advent of zero-commission trading. Therefore, the best reading of the decrease in treated firms’ ESG scores could be that the quality of their corporate governance declined after 2019, rather than that retail investor influence caused them to become less “prosocial.” To investigate the determinants of this decrease in “G,” we analyze changes in several corporate governance outcomes that retail investors could have affected: staggered boards, poison pills, majority voting standard, board independence, and board gender diversity. We find that treated firms become significantly less likely to have a majority shareholder voting standard for director elections after the introduction of zero-commission trading. We find no evidence, however, that treated firms perform any differently when we study staggered boards, poison pills, board independence, or gender diversity. Given our prior finding regarding retail investors’ non-participation in voting, we believe it is significant that the only weakened corporate governance outcome we observe is directly related to the process of shareholder voting. 
 “Meme-stock companies are worse at ESG” is not quite right; the story might be more like “meme-stock companies are worse at shareholder voting, because their shareholders don’t vote, and some shareholder voting procedures go into their ESG scores.”
 
-  
-    
+
+
       Fake AI
-    
-  
+
+
 
 If you are an investment adviser, and you tell prospective clients “I will think very hard about what the best investments are for you, and then buy the ones that I think will go up and avoid the ones that I think will go down,” and in fact you pick a bunch of stocks at random in five minutes and spend the rest of your time watching TikTok videos, will you get in trouble? Man, I don’t know, maybe. Probably. But it is hard to prove that you didn’t think seriously about your clients’ investments. Nobody witnesses your thinking, or lack thereof; that is internal to you.
 On the other hand, if you say “I have an artificial intelligence system that will think very hard about your investments,” and you don’t, that they can prove:
@@ -195,73 +195,73 @@ Starting in November 2020 through August 2023, Delphia’s website claimed that 
 Delphia was not in fact using client’s social media and banking data to make investment decisions, but what if it did? How would that be predictive? I could imagine that someone with, say, Robinhood Markets Inc.’s customer data could use it to make some predictions: Robinhood has a lot of customers, and its interface magnifies trends; knowing that a bunch of Robinhood customers are buying Stock X — or posting about it on social media for that matter — might help you predict that Stock X was going up. But Delphia “managed approximately $7 million for about 29,000 individual retail accounts through robo-advisory services and approximately $180 million for five pooled investment vehicles.” How much predictive power would you get from their social media posts? 
 Meanwhile, “Global Predictions represented on its public website that it offered tax-loss harvesting services that could save users ‘thousands of dollars,’ when it did not in fact offer any tax-loss harvesting services,” which is only barely an AI-washing matter.
 
-  
-    
+
+
       Wine-tasting fraud
-    
-  
+
+
 
 The classic wine fraud is that you put some $20 wine in some 1945 Domaine de la Romanée-Conti bottles, you seal them back up real nice, and you sell them to a hedge fund manager for half a million dollars each. But here is a story about an alleged wine fraud run by Omar Khan, who apparently bought real bottles of fancy wine, opened them at fancy dinners, sold tickets for those dinners at high prices, and provided good value for money. (“Some of the most incredible vinous and culinary experiences I’ve ever had,” said one guest.) The alleged fraud is that he had investors in this business (mainly Krešimir Penavić, who made his money at Renaissance Technologies); they gave him money for a share of the ticket-selling profits, and he never gave them the profits. They sued, Khan was arrested, and a judge was puzzled:
 The hearing was thin on details. At one point, the judge seemed confused. “You’re investing in someone else having dinner?” he asked.
 Really anything can be a business, which means that anything can also be a scam.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Social Capital AI Startup Deal Led Palihapitiya to Fire Partners. Nelson Peltz Fights Disney—and Turmoil at His Own Fund. “Consulting firms … have gotten their own destiny wrong.” Reddit removes CEO pay incentives in signal of reduced hopes for IPO. China Turns on the Charm for Foreigners but Its  Allure Has Faded. WeWork Stock Case Spurs Criminal Charges Over $77 Million Tender Offer. (Earlier.) Mike Lynch goes on trial in US over Silicon Valley’s ‘largest fraud.’ Frontier Markets Win Over Bond Investors With ‘Radical Shift.’ The Everything Rally Comes to Derivatives Market. The F-Bomb-Dropping Airline CEO About to Earn a $100 Million-Plus Bonus. EJMR. Soho House is weirding out Portland. Abu Dhabi Speeds Up Country Club Admissions to Lure Hedge Funds. A Famed Danish Chef Is Offering High-End Space Dining for $500,000. “I was amazed how easy it was to trade on Robinhood and how quickly—and effortlessly—I lost money.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Delaware does *understand* that theory, though. The judge wrote: "CEO superstardom is relevant to controller status because the belief in the CEO’s singular importance shifts the balance of power between management, the board, and the stockholders. When directors believe a CEO is uniquely critical to the corporation’s mission, even independent actors are likely to be unduly deferential. They believe that 'letting the CEO go would be harmful to the company and that alienating the CEO might have a similar effect.' They 'doubt their own judgment and hesitate to question the decisions of their superstar CEO.' They view CEO self-dealing as the trade-off for the CEO’s value."
 
 
   [2] Also: Is Musk’s ketamine use good for X shareholders? Has execution at X been particularly good?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -272,46 +272,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckoati.5kw8/86afbd3a.gif" alt="" border="0" /></a>

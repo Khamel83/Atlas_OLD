@@ -7,70 +7,70 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.A decent first cut is that shareholder voting doesn’t matter. That’s not 
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.A decent first cut is that shareholder voting doesn’t matter. That’s not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
-      Shareholder democracy
-    
-  
 
-A decent first cut is that shareholder voting doesn’t matter. That’s not completely right or anything. Sometimes there are things — proxy fights, controversial mergers, 
+
+      Shareholder democracy
+
+
+
+A decent first cut is that shareholder voting doesn’t matter. That’s not completely right or anything. Sometimes there are things — proxy fights, controversial mergers,
 new share issuances for meme stocks — where the shareholder vote really matters. But for almost every US public company, almost every year, the things that come up for votes are:
 	Director elections, which seem like they would matter, but don’t. The director elections are almost always uncontested; you can either vote for the incumbent directors, or you can vote against them and for nobody else. If a majority of the shares are voted against a director, then she will probably have to resign from the board, though not always, but in any case she’ll be replaced by another director chosen by the other incumbent directors. It’s not like the shareholders vote every year on whether or not to fire the board or the chief executive officer.	Nonbinding advisory proposals on things like executive pay, environmental initiatives, governance stuff, etc., where if a majority of shareholders vote against management’s recommendation then that is embarrassing but nothing really happens.
 
@@ -101,63 +101,63 @@ You can read these things as basically expressive. Clients — pensions, indivi
 But now BlackRock kind of can’t say that anymore? “We own 10% of your company but we don’t vote those shares, our clients do, and they’re all over the place.” The result of this is likely to be less shareholder power: The shareholders are more dispersed, and they pay less attention: BlackRock bought all that stock for them; they’re just voting. 
 That is probably what a lot of people want! If you think that shareholder power is bad — for antitrust or woke-capital reasons, or because you are a CEO and find shareholders annoying — then having less shareholder power is a good result. But I am not sure it is a revolution in shareholder democracy.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Twitter Blue
-    
-  
+
+
 
 Here are  some claims about the future of advertising on Twitter now that Elon Musk owns it, from Rob Norman, a former executive at ad agency WPP:
 
@@ -183,28 +183,28 @@ If this comes true, then Musk might have a really good time running Twitter? Why
   [3]
  Will Twitter sell enough ads to service its $13 billion of debt? Will it sell enough subscriptions to replace the lost ad revenue? I don’t know. Will Musk get his money’s worth, paying $44 billion for whatever this is? Well, he’s rich and has weird hobbies and I guess this is one.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Elsewhere in tweeting through it
-    
-  
+
+
 
 Do Kwon’s Twitter account remains really good? Kwon is the founder of Terra, the crypto blockchain that blew up in a   stablecoin meltdown in May. He is now wanted by South Korean prosecutors, and depending on who you believe he is either “not on the run” (his view) or “obviously on the run” (  prosecutors’ view). In any case he is not in custody and very much tweeting through it. Today he tweeted “Strangely, these last few weeks have been one of the most creative periods of my life.” I suppose it takes a lot of creativity to escape an arrest warrant, an  Interpol red notice and some     decentralized crypto vigilantes? I am glad he is having fun.
 
-  
-    
+
+
       Good trade
-    
-  
+
+
 
 “You don’t think about it much,”  I wrote last year, “but every stock trade involves an extension of credit.” Back then, I was talking about the deep plumbing of the stock market, plumbing that broke a little bit in the meme-stock mania and caused Robinhood Markets Inc. to shut down buying of some stocks. But there is a simple retail version, too. In general you can open a brokerage account and link your bank account and transfer $10,000 from your bank account to your brokerage, and that transfer will take  a few days to go through. If you send your brokerage money on Monday, it might not have the money until Wednesday or so. If you send your brokerage $10,000 on Monday, though, it is extremely likely that you want to trade on Monday. And the brokerage wants you to trade when you want to trade, since (1) that is how it makes money and (2) that is good customer service and keeps you coming back to trade more. So it is fairly common that, when you open a brokerage account and transfer in $10,000, the broker will let you do $10,000 worth of trading right then. It will check your bank account, see the $10,000, see you start the transfer, figure you’re almost certainly good for you, and float you the $10,000 to start trading right away. 
 The obvious trade is:
@@ -241,24 +241,24 @@ And to the judge sentencing him for his other crimes:
 On February 19, 2020, Rahman submitted a letter to the sentencing judge in Arbab’s criminal Ponzi scheme case, urging the judge to be lenient in Arbab’s sentencing. Rahman wrote, in part, that Arbab “shouldn’t have to be locked up in prison for such a long time for a mistake that cannot compare to all the ways he is able to benefit society.”
 I mean definitely one way he can benefit society is by teaching other people how to do financial crimes, though I am not sure that’s a net benefit.
 
-  
-    
+
+
       Job posting
-    
-  
+
+
 
 I  joked the other day about Elon Musk borrowing dozens of Tesla Inc. engineers to do post-closing due diligence of his personal purchase of Twitter Inc., saying that using the employees of a public company he runs to help out with his new toy is “like sending Tesla engineers over to clean his swimming pool.” I suppose there are public companies who employ people to clean their CEO’s swimming pool? Why not, if the perk is properly disclosed. And obviously private companies can do whatever they want. If you run a hedge fund and you have a lot of houses and you want someone to set up your various home sound systems, you might not distinguish too clearly between “my personal staff” and “my hedge fund’s employees.” If your limited partners are cool with it, why not, have the fund company pay for it. Anyway  here’s a job posting for a “VIP Support Engineer” from Rokos Capital Management in London:
 We are looking for a subject matter expert to provide VIP support for a senior member of our partnership board and their family. This will cover a wide estate of audio-visual services across properties worldwide, principally involving Apple devices. While this person will own all home entertainment services for this individual, they will also participate in the management and support of our wider corporate infrastructure.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Federal Reserve Hikes by 0.75 Point, Signals Slower Increases but Ultimately Higher Rates. High-Speed Trader Simplex Warned About Potentially Abusive  Options Strategy. Robinhood’s Results Are Latest to Fall Victim to  Crypto Winter. Crypto miners hit hard in digital asset industry’s downturn. Warner Bros. Discovery Marriage Hurt by High Debt, Low Morale. Carl Icahn Has More Than 8% Stake in Beverage-Can Maker  Crown Holdings. Glencore  flew bribe cash across Africa in private jets, court told.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] A fourth way is to be the *controlling* shareholder, generally by being a founder and keeping a majority of the voting stock, but that is a special case and not generally open to, like, BlackRock.
 
 
@@ -268,114 +268,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] As one pseudonymous Twitter user  put it: “I think what he really wanted was to become the owner of an early 2000s forum, like something awful, and have fun messing around with it, everyone paying attention to him as he changes people's avatars and bans people and gets in fights and so on. … his current behavior would be completely normal for that kind of thing, it only seems weird here because there's $44 billion at stake.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

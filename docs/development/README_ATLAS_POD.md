@@ -11,7 +11,7 @@ python -m modules.podcasts.cli init
 python -m modules.podcasts.cli validate --csv config/podcasts.csv
 python -m modules.podcasts.cli register --csv config/podcasts.csv
 
-# Discovery & Fetching  
+# Discovery & Fetching
 python -m modules.podcasts.cli discover --all
 python -m modules.podcasts.cli fetch-transcripts --all
 python -m modules.podcasts.cli watch --all --interval 30m
@@ -23,7 +23,7 @@ python -m modules.podcasts.cli doctor
 ### Database Schema (SQLite)
 - **podcasts** - Registered podcast configurations
 - **episodes** - Discovered episodes with metadata
-- **transcript_sources** - Found transcript URLs with confidence scores  
+- **transcript_sources** - Found transcript URLs with confidence scores
 - **discovery_runs** - Discovery run tracking and stats
 
 ### Transcript Resolvers
@@ -42,30 +42,30 @@ python -m modules.podcasts.cli doctor
 - **config/mapping.yml** - Site-specific CSS selectors and patterns
 - Pre-configured for: Tyler Cowen, Acquired, Hard Fork, Ezra Klein, Planet Money, etc.
 
-## 📊 Production Results 
+## 📊 Production Results
 
-✅ **190 Podcasts Registered** - Complete OPML integration from your podcast collection  
-✅ **9,293 Episodes Discovered** - Massive RSS parsing across all podcasts  
-✅ **110+ Transcripts Found** - Including 91 from Lex Fridman, 10 from This American Life  
-✅ **Quality Validation** - 61KB full conversation transcripts (Charlie Munger episode)  
-✅ **Atlas Integration** - End-to-end processing through search pipeline  
+✅ **190 Podcasts Registered** - Complete OPML integration from your podcast collection
+✅ **9,293 Episodes Discovered** - Massive RSS parsing across all podcasts
+✅ **110+ Transcripts Found** - Including 91 from Lex Fridman, 10 from This American Life
+✅ **Quality Validation** - 61KB full conversation transcripts (Charlie Munger episode)
+✅ **Atlas Integration** - End-to-end processing through search pipeline
 ✅ **High Success Rates** - 83% transcript rate for This American Life, 19% for Lex Fridman
 
 ## 🏆 **Major Transcript Discoveries**
 
 - **Lex Fridman Podcast**: 91 transcripts from 478 episodes (AI/tech conversations)
-- **This American Life**: 10 transcripts from 12 episodes (storytelling excellence) 
+- **This American Life**: 10 transcripts from 12 episodes (storytelling excellence)
 - **Acquired**: 8 business/investment transcripts (Charlie Munger, Costco, Nintendo)
 - **Tyler Cowen**: 2 economic conversation transcripts
 - **Shane Parrish**: 2 knowledge/decision-making transcripts
-- **Ezra Klein**: 1 policy conversation transcript  
+- **Ezra Klein**: 1 policy conversation transcript
 
 ## 🚀 Ready to Use
 
 The system is **production-ready** for:
 
 1. **Bulk Discovery**: `python -m modules.podcasts.cli discover --all`
-2. **Transcript Fetching**: `python -m modules.podcasts.cli fetch-transcripts --all`  
+2. **Transcript Fetching**: `python -m modules.podcasts.cli fetch-transcripts --all`
 3. **Continuous Monitoring**: `python -m modules.podcasts.cli watch --all --interval 30m`
 
 ### Quick Start

@@ -7,7 +7,7 @@
 
 # www.1984produkts.com
 
-Unknown author • October 11, 2014 
+Unknown author • October 11, 2014
 
 ![www.1984produkts.com]()
 

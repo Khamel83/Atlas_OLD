@@ -117,10 +117,10 @@
       </button>
     </div>
     <div data-nc-container="bottom-center">
-      
+
     </div>
     <div data-nc-container="bottom-right">
-      
+
         <div class="Mobile-bar-account" data-nc-element="account" data-controller="UserAccountLink">
           <button class="user-accounts-text-link">
             <span class="unauth">Sign In</span>
@@ -134,7 +134,7 @@
 
 </div>
         </div>
-      
+
       <a href="/web/20240911022039/https://www.everylifeauniverse.org/search" class="Mobile-bar-search" data-nc-element="search-icon" aria-label="Search">
         <svg class="Icon Icon--search" viewbox="0 0 20 20">
           <use xlink:href="/web/20240911022039im_/https://www.everylifeauniverse.org/assets/ui-icons.svg#search-icon"></use>
@@ -147,19 +147,19 @@
     <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
       <div class="Mobile-overlay-menu-main">
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
-          
-  
-    
-      
-        
-          
+
+
+
+
+
+
             <a href="/web/20240911022039/https://www.everylifeauniverse.org/" class="Mobile-overlay-nav-item">
               Home
             </a>
 
 </nav>
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
-          
+
         </nav>
       </div>
       <div class="Mobile-overlay-folders" data-content-field="navigation">
@@ -177,16 +177,16 @@
 
 <div class="Parallax-host-outer">
       <div class="Parallax-host" data-parallax-host>
-        
-          
-            
-              
-              
-                
-              
-            
-          
-        
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
 
@@ -213,7 +213,7 @@
 
 </div>
           <div data-nc-container="top-center">
-            
+
               <div class="Header-account" data-nc-element="account" data-controller="UserAccountLink">
                 <button class="user-accounts-text-link">
                   <span class="unauth">Sign In</span>
@@ -227,8 +227,8 @@
 
 </div>
               </div>
-            
-            
+
+
           </div>
           <div data-nc-container="top-right">
 
@@ -242,7 +242,7 @@
           <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
             <div data-nc-container="bottom-left">
               <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
-                
+
   <div class="Header-nav-inner">
     <a href="/web/20240911022039/https://www.everylifeauniverse.org/" class="Header-nav-item Header-nav-item--active" data-test="template-nav">Home</a>
   </div>
@@ -261,7 +261,7 @@
             <div data-nc-container="bottom-right">
 
 <nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav" data-content-field="navigation">
-                
+
               </nav>
 
 </div>
@@ -271,9 +271,9 @@
 <div class="Content-outer">
 
 <main class="Index" data-collection-id="66da7ad09ace6b2deda53155" data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation">
-            
+
               <section id="intro" class="Index-page" data-collection-id="66da7ad29ace6b2deda53185" data-parallax-id="66da7ad29ace6b2deda53185" data-edit-main-image="Background">
-        
+
           <div class="Index-page-scroll-indicator hidden" data-controller="ScrollIndicator">
             <div class="Index-page-scroll-indicator-text">Scroll</div>
             <svg class="Index-page-scroll-indicator-arrow Icon Icon--caretLarge--down" viewbox="0 0 48 23">
@@ -281,7 +281,7 @@
             </svg>
             <div class="Index-page-scroll-indicator-line"></div>
           </div>
-        
+
         <div class="Index-page-content ">
           <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1726015335649" id="page-66da7ad29ace6b2deda53185"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1725921432892_12054"><div class="sqs-block-content"><!DOCTYPE html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US" lang="en">
@@ -370,26 +370,26 @@
 </div></div><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1725975538959_44493"><div class="sqs-block-content"><a id="form"></a></div></div><div class="sqs-block embed-block sqs-block-embed" data-block-json="{&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;customThumbEnabled&quot;:false,&quot;html&quot;:&quot;<!-- Keep JavaScript and form embed code intact -->\n<script type='text/javascript' src='https://static.everyaction.com/ea-actiontag/at.js' crossorigin='anonymous'></script>\n\n<div class=\&quot;ngp-form\&quot; \n     data-form-url=\&quot;https://secure.everyaction.com/v1/Forms/L5wjNTovG02RmiN1mNX1uQ2\&quot; \n     data-custom-css='' \n     data-fastaction-endpoint=\&quot;https://fastaction.ngpvan.com\&quot; \n     data-inline-errors=\&quot;true\&quot; \n     data-fastaction-nologin=\&quot;true\&quot; \n     data-mobile-autofocus=\&quot;false\&quot;> \n</div>\n&quot;}" data-block-type="22" id="block-yui_3_17_2_1_1725975538959_9885"><div class="sqs-block-content"><!-- Keep JavaScript and form embed code intact -->
 <script type="text/javascript" src="http://web.archive.org/web/20240911022039js_/https://static.everyaction.com/ea-actiontag/at.js" crossorigin="anonymous"></script>
 
-<div class="ngp-form" data-form-url="https://secure.everyaction.com/v1/Forms/L5wjNTovG02RmiN1mNX1uQ2" data-custom-css="" data-fastaction-endpoint="https://fastaction.ngpvan.com" data-inline-errors="true" data-fastaction-nologin="true" data-mobile-autofocus="false"> 
+<div class="ngp-form" data-form-url="https://secure.everyaction.com/v1/Forms/L5wjNTovG02RmiN1mNX1uQ2" data-custom-css="" data-fastaction-endpoint="https://fastaction.ngpvan.com" data-inline-errors="true" data-fastaction-nologin="true" data-mobile-autofocus="false">
 </div>
 </div></div></div></div></div>
         </div>
-        
-          
-        
+
+
+
       </section>
 
 <nav class="Index-nav">
       <div class="Index-nav-inner">
-        
+
           <a href="#intro" class="Index-nav-item active">
             <div class="Index-nav-indicator"></div>
             <div class="Index-nav-text"><span>Intro</span></div>
           </a>
-        
+
       </div>
     </nav>
-            
+
           </main>
 
 </div>

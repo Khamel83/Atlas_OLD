@@ -9,68 +9,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff is going to be off for a few weeks starting tomorrow. I planned this before Elon Musk tried to cancel his Twit
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff is going to be off for a few weeks starting tomorrow. I planned this before Elon Musk tried to cancel his Twitter deal, and I am not a monster, so there will be occasional columns as Musk or other news require. But it will not publish every day; we’ll resume normal service sometime in August.
 
-  
-    
+
+
       Cake
-    
-  
+
+
 
 Not much is going on today, so I thought we might talk about an interesting Delaware Chancery Court decision from last April. In March 2020, a private equity fund, Kohlberg & Co., signed a merger agreement to buy a company called DecoPac Holdings Inc., which “sells cake decorations and technology to supermarkets for use in their in-store bakeries,” in a $550 million leveraged buyout. Kohlberg also got commitment letters from lenders to provide debt financing for the deal.
 Then the Covid-19 pandemic got worse, the supermarket-cake-decorating business declined, and Kohlberg “lost their appetite for the deal shortly after signing it.” So, as the judge — then-Vice Chancellor Kathaleen McCormick — writes, “the buyers called their litigation counsel and began evaluating ways to get out of the deal.”
@@ -93,63 +93,63 @@ At trial, Plaintiffs demonstrated that Kohlberg’s breach of Section 6.15(a) co
 The deal closed in May 2021, a few weeks after her decision; I guess Kohlberg figured out its financing.
 Anyway I know I am late to it but I hope you enjoyed this digression into the recent history of Delaware M&A litigation. McCormick was a vice chancellor at the time of this opinion; she is now the chancellor, the chief judge of the Delaware court that hears basically all high-stakes merger litigation in the US. It will be interesting to see what she does next.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh fine, fine fine fine, fine
-    
-  
+
+
 
 Here’s a letter from Twitter Inc.’s lawyers to Elon Musk’s lawyers about their merger agreement:
 
@@ -163,20 +163,20 @@ Banks had promised that the riskiest Twitter buyout debt -- $3 billion of unsecu
 At a fixed 11.75% coupon, and assuming an eight-year maturity, banks selling the unsecured bonds today would have to offer a discounted price of about 91 cents on the dollar to reach an all-in yield of about 13.6%. That would result in a loss of between $150 million and $200 million, net of underwriting fees banks typically earn for selling unsecured debt.
 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Stock?
-    
-  
+
+
 
 One weird aspect of Musk’s quasi-terminated deal to buy Twitter is that he owns 9.6% of Twitter’s stock. Or, at least, he owned 9.6% of the stock as of Friday. On Friday he sent Twitter a letter purporting to terminate the merger agreement. The merger agreement includes a provision (section 6.2(d)) requiring Musk not to sell any of his shares before Twitter’s shareholder vote on the merger, but if Musk really believes that he has terminated the merger agreement (risky!) then I suppose he can sell the shares, and honestly it would be hilarious if he did. If he does sell any shares, he would have to disclose that “promptly,” which presumably means within a day or so. Is it possible that he started dumping his stock yesterday, and will disclose that this afternoon? I suppose it is technically possible, and would be amazing. (Is it possible that he started dumping his stock yesterday and will file the report late?  That is also possible!
   [1]
@@ -189,11 +189,11 @@ Now, this trade doesn’t really work on its own. (Twitter can’t really buy st
 
 Twitter gets a face-saving headline settlement amount, gets rid of Musk, and doesn’t have him dumping his stock in the market to depress the stock; Musk gets to pay that settlement amount in discounted currency and gets out of the stock without pushing down the price.
 
-  
-    
+
+
       VC value add
-    
-  
+
+
 
 Here is a fun paper called “Predictably Bad Investments: Evidence from Venture Capitalists,” by Diag Davenport of the University of Chicago’s Booth business school:
 Do institutional investors invest efficiently? To study this question I combine a novel dataset of over 16,000 startups (representing over $9 billion in investments) with machine learning methods to evaluate the decisions of early-stage investors. By comparing investor choices to an algorithm’s predictions, I show that approximately half of the investments were predictably bad—based on information known at the time of investment, the predicted return of the investment was less than readily available outside options. The cost of these poor investments is 1000 basis points, totalling over $900 million in my data. I provide suggestive evidence that over-reliance on the founders’ background is one mechanism underlying these choices. Together the results suggest that high stakes and firm sophistication are not sufficient for efficient use of information in capital allocation decisions.
@@ -209,11 +209,11 @@ This paper provides some support for that conventional wisdom: In fact, Davenpor
 One way to read that is: Yes, but they should outperform by more, by getting access to companies and then picking the good ones. If this is your reading, then you (or Davenport) should go start a venture capital fund running his model, and outperform the other VCs. Or he should just sell his model to VC firms so they can get better returns.
 But another reading might be: Yes, but the VC funds have to invest in the bad companies in order to get access to the good ones. I don’t quite know how this would work. (To be clear, it’s not “they have to buy the bad ones to get the good ones because you can’t tell ex ante which is which”: Davenport says you can tell ex ante.) But it could work something like: “Founders choose their venture capital investors through some sort of reputational network; they talk to their founder buddies about which VCs are helpful and good to work with. If a VC rejects too many Stanford-dropout founders by saying ‘sorry my algo says that your company is bad,’ then the Stanford-dropout founders with good companies will hear about that from their Stanford-dropout ffriends, and won’t want to work with that VC. Making bad investments is a way to be part of the club, and being part of the club gets you the deal flow that gives you the good investments.”
 
-  
-    
+
+
       Three Arrows
-    
-  
+
+
 
 It’s a good thing that everyone in crypto got rich enough to buy their own islands because they’ll  need places to flee to:
 
@@ -224,134 +224,134 @@ The liquidators spoke with lawyers for Davies and Zhu via videoconference last w
 
 Zhu responded by tweeting about this from an undisclosed location and, incredibly, telling the liquidators that to preserve value at Three Arrows they need to make sure to buy another crypto token called StarkWare. Just absolutely legendary behavior. It’s all a misunderstanding, see, everything will be fixed if you put some more money into this crypto token, trust me, have I ever steered you wrong before?
 
-  
-    
+
+
       Venomous Lumpsucker
-    
-  
+
+
 
 A while back I read a novel by Ned Beauman called “Venomous Lumpsucker”; it is a science-fiction comedy about … market manipulation in conservation-credit markets? I enjoyed it, and it feels postmodern-finance-y enough that some of my readers might enjoy it too; it’s out in the US today.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Ackman’s Record SPAC to  Return Funds After Deal Hunt Fizzled. Switzerland, Playground of Russian Oligarchs, Emerges as Sanctions Weak Link.  Peloton to Stop In-House Bike Production as Part of Turnaround.  Canoo Shares Double on Walmart Order for 4,500 Electric Vans. Abrdn Launches First Hedge-Fund Index Trackers. Celsius Repays $113 Million of Loans as Crypto Lender  Fights Insolvency. France’s great Dijon mustard crisis. ‘Eat the Rich’  Popsicles Draw New Yorkers Opining on Elon Musk’s Twitter Deal.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Could he have started selling on FRIDAY? No! Surely not! That’s like a whole law school final exam. Also only 29.8 million shares traded Friday.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

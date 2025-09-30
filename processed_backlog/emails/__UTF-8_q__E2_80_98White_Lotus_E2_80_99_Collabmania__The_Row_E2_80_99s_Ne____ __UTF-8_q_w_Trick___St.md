@@ -24,7 +24,7 @@ Mickey’s ring.) After this, it’s over to London, Milan, and… Paris! How gr
 Mentioned in this issue: Christian Louboutin, Ralph Lauren, The Row, Beyoncé, Aligne, Ginny Seymour, Olivia Muniak, Stuart Weitzman, Tapestry, Joanne Crevoiserat, Miu Miu, Petit Bateau, Zara, Gap, Reformation, Lezio Lopes, The White Lotus, Parker Posey,
 Net-a-Porter, Mytheresa, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -92,7 +92,7 @@ The capsule gives off ’90s middle schooler vibes, with a bandeau layered over 
 consumers who like dressing as if they’re wearing a school uniform.
 
 But back to the diffusion of Miu Miu’s perfectly boxy, multicolor-striped t-shirts ( https://go.shopmy.us/p-13485785?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and polo shirts ( https://go.shopmy.us/p-13485848?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that are everywhere right now (see: Gap ( https://go.shopmy.us/p-13446689?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ),
-Reformation ( https://go.shopmy.us/p-13447098?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Free People ( https://go.shopmy.us/p-13446965?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Zara ( https://go.shopmy.us/p-13459002?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Abercrombie ( https://go.shopmy.us/p-13447262?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and Lioness 
+Reformation ( https://go.shopmy.us/p-13447098?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Free People ( https://go.shopmy.us/p-13446965?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Zara ( https://go.shopmy.us/p-13459002?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Abercrombie ( https://go.shopmy.us/p-13447262?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and Lioness
 ( https://go.shopmy.us/p-13447312?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at Revolve and Shopbop ( https://go.shopmy.us/p-13453096?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), first seen on the Spring/Summer 2024 runway. By last summer, top-top influencer Courtney Grow was wearing versions from Uniqlo and Kotn ( https://go.shopmy.us/p-13447399?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). While you currently can’t escape the skater tees, I predict this will soon evolve into a
 return to the classic French Breton ( https://go.shopmy.us/p-13453172?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) stripe. (Miu Miu is already selling boatneck sweaters.) It’s all of a piece.
 
@@ -107,7 +107,7 @@ Mattel exec at the time of the Barbie frenzy, takes credit for its dozens upon d
 
 Clearly, there’s a good deal of irony in the fact that this particular show, which skewers luxury consumption and excess, is participating so enthusiastically in creating more merchandise. On the other hand, whatever it skewers… it’s a business.
 
- 
+
 
 The
 Week in Feedback…
@@ -126,7 +126,7 @@ look like that. We’re not that kind of store. Our customers don’t appreciate
 On the price-value equation: “As someone who buys a lot of The Row and many other brands (now
 and historically), I’m confused by the relentless narrative that The Row is so expensive. Yes, it’s certainly not affordable to most, but it’s comparable to Louis Vuitton, Prada, Gucci, YSL, and yet better quality than all those brands. It’s less expensive than Bottega, Loro Piana, Chanel, and Hermès, but just as well made, if not better. I wonder if some people just like to shit on The Row because it’s not a heritage European house but a ‘celebrity’ brand.” —A designer
 
- 
+
 
 Have a great weekend,
 Lauren
@@ -179,6 +179,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVKq-UcebGgGI0tE1QiBY=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F21%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

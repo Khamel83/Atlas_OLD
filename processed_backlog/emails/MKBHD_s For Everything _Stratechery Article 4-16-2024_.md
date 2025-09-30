@@ -150,15 +150,15 @@ That may sound extreme, but again, this is why it is useful to look to media fir
 
 As for me, I plan on documenting it every step of the way, thanks to every person who has supported Stratechery over the last 10 years, and to whom I alone owe accountability, and gratitude.
 
-* 
+*
 
 Actually, the deference Brownlee gave the vision and the potential of future upgrades was arguably generous ↩︎ ( #rf1-12783 )
 
-* 
+*
 
 I previously spoke for pay, and even more previously offered consulting, and even more previously than that had ads; however, I ended ads in 2014, consulting in 2015, and haven’t accepted any paid speaking opportunities since 2017. This is all covered on my about page ( https://stratechery.com/about/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS9hYm91dC8iXX0sImV4cCI6MTcxNTg3MzQ2MywiaWF0IjoxNzEzMjgxNDYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.f5dmAFJPB9n2b4eoX3PRQ1FY_VpayKdXK8wVPohnvZENSoTvIATrkCOj9SsxxOWOlvu3R3glkYhoHbIf7NOzi0g1KPyvzfZf3IwJ8WDtdIz4CX1KGarkMCwz1hNU-YtNtQqsvtrgJACqudXDgNfPmfnyRh4J6XH_X1A7vl8dz7DkyL0NEwkfeK2uzycd9NlH8c-ptoUObar6BczIAB84UOqk5JnzkGGLz4m3q7ub-3kx0clc7tFBRwCR3c8d7eUZThhIlUqclK4ndyaD3pX7-AW5d5hUq5eQjJuuHG20XxZyjAMSj5ZsUrlMFkWYlMEjjRv4CqIpEZ_aitW0Pzy7WQ ). ↩︎ ( #rf2-12783 )
 
-* 
+*
 
 $12/month or $120/year for the last five years, increasing to $15/month and $150/year on April 22 ↩︎ ( #rf3-12783 )
 

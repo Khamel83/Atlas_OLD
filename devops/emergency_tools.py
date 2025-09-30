@@ -77,7 +77,7 @@ def restart_all_services():
     print("=" * 40)
     print(f"Timestamp: {datetime.now()}")
     print("")
-    
+
     services = [
         ("nginx", "Web Server"),
         ("atlas", "Main Atlas Service"),
@@ -85,54 +85,54 @@ def restart_all_services():
         ("grafana-server", "Dashboard Service"),
         ("postgresql", "Database Service")
     ]
-    
+
     results = []
-    
+
     for service_name, service_desc in services:
         print(f"Restarting {service_desc} ({service_name})...")
-        
+
         # Stop service
         stop_result = run_command(f"sudo systemctl stop {service_name}", f"Stopping {service_name}")
-        
+
         # Wait a moment
         time.sleep(1)
-        
+
         # Start service
         start_result = run_command(f"sudo systemctl start {service_name}", f"Starting {service_name}")
-        
+
         # Check if both commands succeeded
         success = stop_result is not None and start_result is not None
         results.append((service_name, success))
-        
+
         if success:
             print(f"  ✓ {service_desc} restarted successfully")
         else:
             print(f"  ✗ {service_desc} restart failed")
-        
+
         print("")
-    
+
     # Print summary
     print("RESTART SUMMARY:")
     print("=" * 40)
-    
+
     all_success = True
     for service_name, success in results:
         status = "SUCCESS" if success else "FAILED"
         print(f"{service_name}: {status}")
         if not success:
             all_success = False
-    
+
     if all_success:
         print("\n🎉 ALL SERVICES RESTARTED SUCCESSFULLY!")
         print("Atlas should be back online shortly.")
     else:
         print("\n⚠️  SOME SERVICES FAILED TO RESTART!")
         print("Manual intervention may be required.")
-    
+
     # Log emergency restart
     log_file = "/home/ubuntu/dev/atlas/logs/emergency_restart.log"
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
-    
+
     with open(log_file, "a") as f:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"{timestamp}: Emergency restart initiated\n")
@@ -140,7 +140,7 @@ def restart_all_services():
             status = "SUCCESS" if success else "FAILED"
             f.write(f"  {service_name}: {status}\n")
         f.write("\n")
-    
+
     return all_success
 
 def main():
@@ -149,13 +149,13 @@ def main():
     print("=" * 40)
     print("This will restart ALL Atlas services immediately!")
     print("")
-    
+
     # Confirm action
     confirm = input("Are you sure you want to restart all services? Type 'YES' to confirm: ")
     if confirm != "YES":
         print("Emergency restart cancelled.")
         return False
-    
+
     # Perform emergency restart
     return restart_all_services()
 
@@ -229,7 +229,7 @@ def check_memory_usage():
 def check_service_status(service_name):
     """Check if a service is active"""
     try:
-        result = subprocess.run(["systemctl", "is-active", service_name], 
+        result = subprocess.run(["systemctl", "is-active", service_name],
                               capture_output=True, text=True)
         return result.stdout.strip()
     except:
@@ -246,22 +246,22 @@ def check_port_open(port):
 def get_system_info():
     """Get system information"""
     info = {}
-    
+
     # System uptime
     info["uptime"] = run_command("uptime -p", "Getting uptime")
-    
+
     # Load average
     info["load_average"] = run_command("uptime | awk -F'load average:' '{print $2}'", "Getting load average")
-    
+
     # Disk usage
     info["disk_usage"] = check_disk_usage()
-    
+
     # Memory usage
     info["memory_usage"] = check_memory_usage()
-    
+
     # CPU info
     info["cpu_info"] = run_command("lscpu | grep 'Model name' | cut -d: -f2 | xargs", "Getting CPU info")
-    
+
     return info
 
 def check_atlas_services():
@@ -273,7 +273,7 @@ def check_atlas_services():
         "prometheus": "Monitoring",
         "grafana-server": "Dashboard"
     }
-    
+
     status = {}
     for service_name, description in services.items():
         service_status = check_service_status(service_name)
@@ -283,7 +283,7 @@ def check_atlas_services():
             "status": service_status,
             "port_open": port_open
         }
-    
+
     return status
 
 def get_service_port(service_name):
@@ -303,7 +303,7 @@ def main():
     print("=" * 30)
     print(f"Timestamp: {datetime.now()}")
     print("")
-    
+
     # Get system info
     print("🖥️  SYSTEM INFORMATION:")
     print("-" * 25)
@@ -311,7 +311,7 @@ def main():
     for key, value in system_info.items():
         print(f"  {key.replace('_', ' ').title()}: {value}")
     print("")
-    
+
     # Check services
     print("🔧 SERVICE STATUS:")
     print("-" * 20)
@@ -323,7 +323,7 @@ def main():
         print(f"    Status: {info['status']}")
         print(f"    Port: {port_icon} {get_service_port(service_name)}")
         print("")
-    
+
     # Check recent logs
     print("📝 RECENT LOGS:")
     print("-" * 15)
@@ -332,7 +332,7 @@ def main():
         "/var/log/nginx/error.log",
         "/var/log/postgresql/postgresql-*.log"
     ]
-    
+
     for log_file in log_files:
         if "*" in log_file:
             # Handle wildcard
@@ -344,7 +344,7 @@ def main():
                         log_file = actual_files[0]
             except:
                 continue
-        
+
         if os.path.exists(log_file):
             print(f"  Last 5 lines from {log_file}:")
             try:
@@ -407,14 +407,14 @@ def create_emergency_backup():
     """Create emergency backup"""
     print("Creating emergency backup...")
     print("=" * 30)
-    
+
     # Create backup directory
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_dir = f"/home/ubuntu/dev/atlas/backups/emergency_{timestamp}"
     os.makedirs(backup_dir, exist_ok=True)
-    
+
     print(f"Backup directory: {backup_dir}")
-    
+
     # Backup database
     print("Backing up database...")
     db_backup_file = os.path.join(backup_dir, "atlas_db.sql")
@@ -422,7 +422,7 @@ def create_emergency_backup():
         print("  ✓ Database backup created")
     else:
         print("  ✗ Database backup failed")
-    
+
     # Backup configuration
     print("Backing up configuration...")
     config_backup_dir = os.path.join(backup_dir, "config")
@@ -431,7 +431,7 @@ def create_emergency_backup():
         print("  ✓ Configuration backup created")
     except Exception as e:
         print(f"  ✗ Configuration backup failed: {str(e)}")
-    
+
     # Backup critical data directories
     print("Backing up critical data...")
     critical_dirs = [
@@ -439,7 +439,7 @@ def create_emergency_backup():
         ("/home/ubuntu/dev/atlas/outputs", "outputs"),
         ("/home/ubuntu/dev/atlas/inputs", "inputs")
     ]
-    
+
     for source_dir, backup_name in critical_dirs:
         if os.path.exists(source_dir):
             dest_dir = os.path.join(backup_dir, backup_name)
@@ -450,7 +450,7 @@ def create_emergency_backup():
                 print(f"  ✗ {backup_name} backup failed: {str(e)}")
         else:
             print(f"  - {backup_name} directory not found")
-    
+
     # Create backup info file
     info_file = os.path.join(backup_dir, "backup_info.txt")
     with open(info_file, "w") as f:
@@ -462,7 +462,7 @@ def create_emergency_backup():
         f.write(f"  - Database dump\n")
         f.write(f"  - Configuration files\n")
         f.write(f"  - Critical data directories\n")
-    
+
     print(f"\nEmergency backup completed: {backup_dir}")
     return backup_dir
 
@@ -472,16 +472,16 @@ def main():
     print("=" * 30)
     print("This will create a backup of critical system data.")
     print("")
-    
+
     # Confirm action
     confirm = input("Continue with emergency backup? (y/N): ")
     if confirm.lower() != 'y':
         print("Emergency backup cancelled.")
         return
-    
+
     # Create backup
     backup_dir = create_emergency_backup()
-    
+
     if backup_dir:
         print(f"\n✅ Emergency backup created successfully!")
         print(f"Backup location: {backup_dir}")
@@ -527,57 +527,57 @@ class StatusHandler(BaseHTTPRequestHandler):
             self.send_health()
         else:
             self.send_404()
-    
+
     def send_status(self):
         """Send system status as JSON"""
         try:
             # Get system status
             status = self.get_system_status()
-            
+
             # Send response
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
-            
+
             response = json.dumps({
                 "timestamp": datetime.now().isoformat(),
                 "status": status
             }, indent=2)
-            
+
             self.wfile.write(response.encode('utf-8'))
-            
+
         except Exception as e:
             self.send_error(500, f"Error getting status: {str(e)}")
-    
+
     def send_health(self):
         """Send health check response"""
         try:
             # Get health status
             health = self.get_health_status()
-            
+
             # Send response
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
-            
+
             response = json.dumps({
                 "status": "healthy" if health else "unhealthy",
                 "timestamp": datetime.now().isoformat()
             }, indent=2)
-            
+
             self.wfile.write(response.encode('utf-8'))
-            
+
         except Exception as e:
             self.send_error(500, f"Error checking health: {str(e)}")
-    
+
     def send_404(self):
         """Send 404 Not Found response"""
         self.send_response(404)
         self.end_headers()
         self.wfile.write(b"Endpoint not found. Available: /status, /health")
-    
+
     def get_system_status(self):
         """Get overall system status"""
         status = {
@@ -590,23 +590,23 @@ class StatusHandler(BaseHTTPRequestHandler):
             "resources": self.get_resource_usage()
         }
         return status
-    
+
     def get_health_status(self):
         """Get simple health status"""
         # Check if critical services are running
         critical_services = ["atlas", "nginx", "postgresql"]
-        
+
         for service in critical_services:
             try:
-                result = subprocess.run(["systemctl", "is-active", service], 
+                result = subprocess.run(["systemctl", "is-active", service],
                                       capture_output=True, text=True)
                 if result.stdout.strip() != "active":
                     return False
             except:
                 return False
-        
+
         return True
-    
+
     def get_service_status(self):
         """Get status of all services"""
         services = {
@@ -616,12 +616,12 @@ class StatusHandler(BaseHTTPRequestHandler):
             "prometheus": "Monitoring",
             "grafana-server": "Dashboard"
         }
-        
+
         status = {}
-        
+
         for service_name, description in services.items():
             try:
-                result = subprocess.run(["systemctl", "is-active", service_name], 
+                result = subprocess.run(["systemctl", "is-active", service_name],
                                       capture_output=True, text=True)
                 is_active = result.stdout.strip() == "active"
                 status[service_name] = {
@@ -633,13 +633,13 @@ class StatusHandler(BaseHTTPRequestHandler):
                     "description": description,
                     "status": "unknown"
                 }
-        
+
         return status
-    
+
     def get_resource_usage(self):
         """Get system resource usage"""
         resources = {}
-        
+
         # Disk usage
         try:
             result = subprocess.run(["df", "/"], capture_output=True, text=True)
@@ -649,7 +649,7 @@ class StatusHandler(BaseHTTPRequestHandler):
                 resources["disk_usage"] = usage_info[4]
         except:
             resources["disk_usage"] = "unknown"
-        
+
         # Memory usage
         try:
             result = subprocess.run(["free"], capture_output=True, text=True)
@@ -663,9 +663,9 @@ class StatusHandler(BaseHTTPRequestHandler):
                     resources["memory_usage"] = f"{usage_percent:.1f}%"
         except:
             resources["memory_usage"] = "unknown"
-        
+
         return resources
-    
+
     def run_command(self, cmd):
         """Run a shell command"""
         try:
@@ -719,14 +719,14 @@ def show_recent_logs(lines=50):
     """Show recent log entries"""
     print("📄 RECENT LOG ENTRIES")
     print("=" * 30)
-    
+
     log_files = [
         "/home/ubuntu/dev/atlas/logs/atlas.log",
         "/home/ubuntu/dev/atlas/logs/service_health.log",
         "/var/log/nginx/error.log",
         "/var/log/postgresql/postgresql-*.log"
     ]
-    
+
     for log_file in log_files:
         if "*" in log_file:
             # Handle wildcard
@@ -738,7 +738,7 @@ def show_recent_logs(lines=50):
                         log_file = actual_files[0]
             except:
                 continue
-        
+
         if os.path.exists(log_file):
             print(f"\n📋 {log_file}:")
             try:
@@ -756,7 +756,7 @@ def show_running_processes():
     """Show running Atlas processes"""
     print("\n🔄 RUNNING PROCESSES")
     print("=" * 25)
-    
+
     try:
         result = subprocess.run("ps aux | grep atlas | grep -v grep", shell=True, capture_output=True, text=True)
         if result.returncode == 0 and result.stdout.strip():
@@ -770,7 +770,7 @@ def show_network_connections():
     """Show network connections"""
     print("\n🌐 NETWORK CONNECTIONS")
     print("=" * 25)
-    
+
     try:
         result = subprocess.run("ss -tuln | grep -E '(80|443|5000|9090|3000|5432)'", shell=True, capture_output=True, text=True)
         if result.returncode == 0 and result.stdout.strip():
@@ -786,16 +786,16 @@ def main():
     print("=" * 40)
     print(f"Timestamp: {datetime.now()}")
     print("")
-    
+
     # Show recent logs
     show_recent_logs()
-    
+
     # Show running processes
     show_running_processes()
-    
+
     # Show network connections
     show_network_connections()
-    
+
     print("\n🔧 DEBUGGING COMPLETE")
 
 if __name__ == "__main__":

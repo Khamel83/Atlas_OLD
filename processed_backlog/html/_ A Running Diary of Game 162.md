@@ -3,224 +3,224 @@
 **Source:** inputs/New Docs/reader/www.grantland.com_story___id_7033950_a-running-diary-game-162.html
 **Processed:** 2025-08-24T19:14:14.982027
 
-Ninety minutes before the Red Sox played in Baltimore to determine whether (a) they would advance to the 2011 playoffs, (b) they would advance to a one-game playoff in Tampa Bay on Thursday, or (c) they would finish the biggest September collapse in the history of professional baseball, I was paying for groceries in Los Angeles while wearing my trusty Tim Wakefield no. 49 T-shirt jersey. From behind me, I heard a raspy, older, female voice ask me, “You guys gonna win today?”  
-  
-I turned around. The voice belonged to Amy Madigan, the actress who played Kevin Costner’s wife in Field of Dreams.  
-  
-“Yes,” I told her. “We are going to win today. But I don’t know about tomorrow.”  
-  
-“Who’s pitching?” she asked.  
-  
-“Lester today. Tomorrow, I don’t know. Might be Kevin Costner.”  
-  
-She thought this was funny. We spent 15 seconds making small talk, then I spent the next 30 minutes trying to determine whether it was a good omen. That’s what you do when your baseball season is falling apart: you search for signs any signs, anything that means anything. Your whole life becomes a Ouija board. Ray Kinsella’s wife from the cornfield? Had to be a good sign.  
-  
-Field of Dreams was really about hope, higher beings, cosmic forces, unfinished business, believing past the point when you should believe. The Red Sox hit that point about two weeks ago, midway through their improbable swoon, as they kept trotting out the Lackeys, Wakefields and Weilands with everyone thinking, “Wait, we don’t have ANY other options?” It’s been a surreal month for Red Sox fans: Our pre-2004 DNA told us to react the way we always did (total panic, woe-is-us complex, the whole thing); our post-2007 DNA told us, “You won twice, keep it in perspective, this isn’t life or death, other teams have it worse”; and our sports-fan DNA told us, “You just spent the past six months watching a team that’s probably going to kick you in the teeth hard. It’s coming.”  
-  
-By the time Game 162 rolled around, I didn’t know what to think anymore. I ended up at my friend Daniel’s house to watch Sox-Orioles and Rays-Yankees. And yes, I kept a running diary. Here’s what transpired.  
-  
-4:00 p.m. PT — Thanks to NESN for working in the obligatory Carl Crawford strikeout on a pitch in the dirt during its “GAME 162” montage intro. Just what we needed. Jerry Remy tries to make up for it a minute later: “Some comfort food for Boston fans — [Jon] Lester has pitched 17 times against Baltimore; he’s 14-and-0.” Sorry, I’m not sure “comfort” and “Boston fans” can be used in the same sentence this week. It’s illegal.  
-  
-4:02 — A month ago, Ryan Lavarnway was in Triple-A. As recently as 48 hours ago, he wasn’t playing. Today, in Game 162, with a playoff spot on the line? He’s catching and batting fifth. Somehow, I’m fine with this. I can’t think of anyone else I’d bat fifth. Welcome to the 2011 Red Sox season.  
-  
-4:07 — As the camera pans the Red Sox players standing for the national anthem, we see one blond-haired guy, and Daniel says, “Who’s that?” Neither of us have any idea. Again, welcome to the 2011 Red Sox season.  
-  
-4:08 — Baltimore’s starter today: Alfredo Simon, pitching with a giant tobacco can in his back right pocket. Is there a manlier look than chew-can butt? Chaz Bono should add this to his Dancing With the Stars getup; it’s much more effective than the scraggly beard.  
-  
-4:14 — After Simon retires the first two Red Sox hitters (Ellsbury and Pedroia), Ortiz comes up as Remy explains that Francona changed the order for the umpteenth time this season because he wanted “to get his best four hitters up as many times as possible.” Should that really be a new goal when it’s Game 162? I’m almost out on Francona. We’re getting there.  
-  
-4:17 — Adrian Gonzalez grounds out to end the top of the first. Meanwhile, the Yankees have a runner on first with two outs — we have that game showing on Daniel’s iPad thanks to his MLB.TV account, which, of course, is a separate expense than his DIRECTV MLB EXTRA INNINGS in Major League Baseball’s never-ending effort to antagonize its fans. By the way, if you had explained to me as recently as 10 years ago that I’d be living in California and rooting for the Yankees on an iPad, I would have assumed that I was on the lam for a crime and doing whatever it took to survive.  
-  
-4:22 — Red Sox killer Robert Andino leads off for the Orioles as Daniel hisses, “That’s just an eff you move by Showalter.” Lester strikes him out. I’ve had Andino on my AL Keeper Team all season — he’s a homeless man’s Ben Zobrist. There’s no better candidate to ruin the 2011 Red Sox season and join the Bucky Dent/Enos Slaughter/Aaron Boone group. He’s the odds-on favorite.  
-  
-4:25 — J.J. Hardy’s surprisingly good season (30 homers) inadvertently inspires Daniel and me to discuss whether we’d take HGH if we were baseball players. I decide that I wouldn’t take it until I started slipping in my mid-30s, and then I’d start popping them like Pez. Daniel’s take: “I’d definitely take it. I’m thinking about taking it anyway.” He’s serious.  
-  
-4:25 — We’re both confused by NESN’s “Bill James’ Temperature Gauge” graphic — seems like a fancy way to just say someone’s hot or cold. Daniel thinks Bill James could create any stat and people would start using it without ever questioning if it made sense. That’s really the final sabermetric stage: It’s like when A-list actors start releasing music albums. I just hope Bill Barnwell can get there some day.  
-  
-4:25 — Lester strikes out Markakis and gets a groundout from Vlad Guerrero to end the first. In Tampa, David Price needs 29 pitches to get out of the first. 1-0, Yankees. Hmmmmmm.  
-  
-4:29 — J.D. Drew smacks a one-out single, then cracks wise at first base with Mark Reynolds. “What’s going on with J.D.?” Daniel wonders. “He showed emotion last night, now he’s smiling. Next thing you know, he’s gonna steal a base!” I’m gonna miss these moments with J.D. when he’s gone next year. Oh, wait, no I won’t.  
-  
-4:31 — NESN keeps marketing this Fenway Brick, the first product marketed specifically in the hope that girlfriends and wives might mistakenly buy it for their man even though we definitely don’t want one. Ladies, trust me, that Fenway Brick is going in your man’s garage or attic within two weeks. Speaking of bad purchases, Carl Crawford just flied out to end the top of the second.  
-  
-4:41 — Lester gets a long fly ball out from Baltimore’s Secretly Scary Guy (Matt Wieters), then gives up an infield single to Baltimore’s Openly Scary Guy (Adam Jones) before Baltimore’s Secretly Horrendous Guy (Mark Reynolds) grounds into a double play to end the inning. I enjoy Reynolds because he’s one of those guys who secretly sucks by old-school numbers (.220 batting average, 195 K’s, 26 errors at first base) AND new-school numbers (.321 OBP, -26.2 UZR, 0.5 WAR). He bridges all eras.  
-  
-4:47 — After a Mike Aviles walk, NESN shows Crawford staring sadly from the dugout for the 2,500th time this season. I have to come clean: I feel as bad for Crawford as you can feel for someone who’s worth nine figures and helped ruin your baseball season. I don’t think he ever wanted to play in Boston, then they offered him so much money that he couldn’t turn it down and everything’s gone wrong ever since. Like the Karma Gods just said, “Dude, we’re calling you out on this one — you know you wanted to go to Anaheim, you jumped at the money, and now you know, money isn’t everything.” Even if he’s been a mess mentally for much of this season, and even if I’m going to need to give myself amnesia to unremember all the dreadful at-bats he had this season, I still feel like Crawford could redeem himself someday — maybe even during these next five weeks. I’m rooting for him.  
-  
-(Please, Lord, don’t let that paragraph be thrown back in my face.)  
-  
-4:49 — Back-to-back singles by Ellsbury and Pedroia. 1-0, Red Sox, nobody out, David Ortiz up. Semirelated: I wish Ortiz named his different beards with monikers like “Insignia” and “Macarena.” For tonight he shaved his mustache, shaved the left and right sides over his chin, but kept every other part of the beard and connected the soul patch to it. It would have been so much easier if I could have just told you, “Tonight Ortiz is wearing Insignia,” right?  
-  
-4:52 — The bad news: Check-swing double play by Ortiz. The good news: Mark Teixeira just slammed an iPad grand slam! 5-0, Yankees, second inning, Price closing in on 60 pitches. It took three years, but I finally got to enjoy a Mark Teixeira homer that helped the Red Sox.  
-  
-4:57 — After Lavarnway’s strikeout ends the top of the second, Daniel says earnestly, “When you think about it, Ortiz’s beard is really a reminder of his Latino culture.” He’s on his second beer and it already feels like 20. Red Sox 1, Orioles 0.  
-  
-5:06 — Chris Davis has 10 walks in 196 ABs. Actually, make it 11 — Lester just walked him. Meanwhile, I already have Yankee/Tampa fans who are congratulating me on making the playoffs as a reverse jinx. You can’t reverse jinx ME. I’m the master! How dare all of you!  
-  
-5:06 — J.J. Hardy ruins our riveting “Who has a worse beard — Sidney Crosby or Clay Buchholz?” discussion by walloping a two-out, two-run homer. 2-1, Baltimore. No, I’m not blaming the reverse-jinx e-mails — that was a meatball by Lester. God forbid Lester or Beckett have one “Come on, fellas, everyone get on my back!” start these last three weeks.  
-  
-5:11 — We’ve played three innings in 65 minutes. Daniel calls this “a good pace.” I don’t know what’s happened to baseball. I really don’t.  
-  
-5:15 — A one-out double by Scutaro (.382/.436/.573 in September heading into tonight) brings us to America’s favorite game show, What Will Carl Crawford Do? The nominees are  
-  
-A. Strikeout in the dirt;  
-  
-B. Grounder to short;  
-  
-C. Jammed pop fly to short left;  
-  
-D. Jammed pop fly to second base;  
-  
-E. Tapper back to the mound.  
-  
-I said “A,” Daniel said “C.” And our answer is  
-  
-5:17 — “B!” At least he advanced Scutaro to third, leading to  
-  
-5:20 — A run-scoring balk! Scutaro pulled the old, “I’m gonna steal home” stutter-step and hooked Simon. Love that one. We’re tied at two.  
-  
-5:22 — If you’re looking for a guy to end innings by getting thrown out by three steps on bizarrely timed steals of second base, look no further than Mike Aviles. The good news: It’s still 5-0 in Tampa.  
-  
-5:29 — 1-2-3 inning by Lester. Daniel points out that the Red Sox were 10-1 to win the World Series this afternoon, then raises his eyebrows as if to say, “We could still jump on that.” He’s like a crew member of the Titanic planning a jewelry raid post-iceberg. No, thanks. I’m happy just to make the ALDS with this sorry bunch. Anything else is gravy.  
-  
-5:36 — Simon comes one strike from retiring Pedroia when BOOM! Homer to left field (3-2, Red Sox) at almost the exact same moment Teixeira homers again in Tampa (6-0, Yankees). Karma? Coincidence? And is anyone more unstoppable than Mark Teixeira in Game 162, when the Yanks clinched the division a week ago?  
-  
-5:38 — After Ortiz hits a “woulda been a homer almost anywhere else” single off the right-field wall, Showalter goes La Russa on us and quickly pulls Simon like it’s late October or something. You can’t blame him; this is the closest he’ll ever come to managing a playoff game again. He’s jumpy.  
-  
-5:45 — Baltimore’s Troy Patton induces a scorching line drive by Lavarnway (right at Nick Markakis in left, unfortunately), then a pop fly by Drew to end Boston’s threat. Not enough runs. I’m now in “What would be worse than Tampa losing, then us choking and having to play Game 163 anyway?” mode.  
-  
-5:57 — Damn, I knew I shouldn’t have ragged on Mark Reynolds. He just doubled to start the bottom of the fifth, beating Andruw Jones’ homer in Tampa by about 40 seconds (7-0, Yankees). After he’s advanced to third, Lester gets a Reimold grounder to Scutaro (Reynolds goes on contact, gets thrown out by Scutaro by two steps), then an Andino grounder to end the threat. After five: Daniel 3 (drinks), Red Sox 3, Orioles 2.  
-  
-6:05 — I always love hearing the kicking Boston accents during the local NESN commercials (like the creepy Jordan’s Furniture guy just now). It’s too bad you can’t pick the accents for commercials the same way you can manipulate the SAP button. I’d go with “Rhode Island” and maybe even blend “Chicago” in there every few weeks to mix it up.  
-  
-6:13 — After Troy Patton’s impressive 1-2-3 inning, Lester walks Hardy and Markakis to start the bottom of the sixth, then Scutaro robs Vlad’s RBI single up the middle, scoop-tosses it to Pedroia with his glove and Pedroia chucks it to first in time for the DP. What a play! So what if you can time Vlad with a sundial these days what a play!  
-  
-6:15 — Either Lester (87 pitches) just pitched around Wieters, or he can’t find the plate anymore. Third and first, two outs, Adam Jones up. This goes beyond tense. Lester is laboring. Everyone on the Red Sox looks like a college kid whose girlfriend just told him, “We have to talk, I did something dumb last night.” Actually, can we stop showing people in the dugout, NESN? What about fans, grass and wide shots going forward? Please.  
-  
-6:20 — 3-and-2 pitch to Jones swing and a miss! Nine outs to go.  
-  
-6:22 — Just sent the first “you’re alive, right?” text to my dad of the night. That reminds me, where does “buying my dad a plane ticket four weeks ago to come out to California and watch the first weekend of Red Sox playoff games with me?” rank on the Jinx Scale considering the Sox had a nine-game lead at the time? I’m going to say 0.15 out of 10.  
-  
-6:25 — Pedroia draws a one-out walk. Meanwhile, Daniel and I are both horrified that Alfredo Aceves (71 pitches, 6.1 IP in the past three games) is warming up again right now. I know he’s been the unsung hero of the season, and it thrills me to no end that we stole him from the Yankees but at what point is Tito pulling a Torre/Proctor on him?  
-  
-6:29 — Big Papi gets thrown out at second unsuccessfully stretching a single into a double, then Baltimore intentionally walks Gonzalez (second time tonight) and gets a Lavarnway grounder to end the threat. The words “Big Papi” and “stretching” should never go together unless we’re talking about a bag of Doritos that’s on a high shelf.  
-  
-6:32 — Daniel claims that Warren Buffett owns Jordan’s Furniture and pays the old owner to pretend he owns the company for the commercials. The bartender just cut him off.  
-  
-6:34 — Rain delay! “JUST CALL IT!” Daniel screams at the TV. “CALL IT!!!!”  
-  
-6:42 — We’re watching the Yankees on YES — heading into the bottom of the seventh, with the Yankees still leading 7-0, we see A.J. Burnett trotting in from the bullpen as Michael Kay gushes happily, “A.J. Burnett is coming in!” He’s openly rooting for the Rays. You can tell. I mean, what other reason would you have to gush happily, “A.J. Burnett is coming in!”  
-  
-6:52 — It’s pouring rain in Baltimore.  
-  
-7:05 — Still pouring. We’re watching one of those “feels a little like an awkward date” time-killing interviews with NESN’s Heidi Watney and the Boston Globe‘s Nick Cafardo. It feels like they met on Match.com last night. I love these. Did you ever mute the TV and make up fake sentences for the aging sportswriter like, “And after my wife left me I lost 20 pounds, and then that’s when I started doing P90X and it changed my life?” Really? Not even once?  
-  
-7:10 — Just flicked over to the premiere Real World: San Diego episode in time for the line, “Sam goes in for a hug and I’m like, ‘There’s boobs here.'” Daniel thinks every Real World season should have one horny married guy in his mid-40s on the show, volunteers his own services for the next season, then gets up to make himself a screwdriver. This is the most fun I’ve ever had during a rain delay.  
-  
-7:18 — Bases loaded, no outs, Yankees winning by six, bottom of the eighth, Michael Kay saying, “The Yankees have used nine pitchers tonight, there’s really nobody else available other than Scott Proctor,” Daniel and I looking at each other with matching, “Should we be concerned right now?” looks and Luis Ayala hits Sean Rodriguez. 7-2, Yankees.  
-  
-7:18 — Uh-oh.  
-  
-7:18 — The 29,000 Rays fans on hand are going crazy. I’m too nervous to make the “29,000 fans in your must-win game of the year???” joke.  
-  
-7:23 — Down 7-3, Evan Longoria (an absolute beast this month) smacks a three-run homer. My god. It’s a 7-6 ballgame. Leave it to the Yankees to stick it to the Red Sox yet again. They took out six starters and went through eight pitchers already. It’s like they planned ahead of time, “Let’s get an early lead, then we’ll slowly throw the game and it will take every Red Sox fan three innings to realize it. We will WRECK THEM.” It’s working.  
-  
-7:32 — I’m just eating. I’m eating everything in sight.  
-  
-7:39 — Somebody named Greg Golson flies out to end the top of the ninth — he looks like one of the fake Yankees who played against Billy Chapel’s team in For Love of the Game. He might be an actor. I’m not even kidding.  
-  
-7:42 — No Mariano Rivera for the bottom of the ninth. Daniel and I have this exchange:  
-  
-Daniel (confident): “I’m OK with Cory Wade closing this out.”  
-  
-Me: (staring at him in disbelief)  
-  
-Daniel: “What, you’re not OK with Cory Wade?”  
-  
-7:45 — Two outs, nobody on, bottom of the ninth and Tampa sends up one-time Red Sox killer Dan Johnson (batting .108) to save the season. I’m pretty sure he’s not the extra 2 percent. COME ON, YANKEES!  
-  
-7:45 — Sorry, I mean, COME ON, TEAM I NEED TO WIN RIGHT NOW!!!  
-  
-7:47 — Two outs, two strikes home run, Dan Johnson. Right down the right-field line. You’ve gotta be kidding me. That was basically baseball’s version of the Tyree Catch, only if the 18-0 Patriots were a 90-win baseball team that quit with four weeks to go and had little to no chance of winning the title. Still, I’m in shock. Yankees 7, Rays 7.  
-  
-7:48 — The Proctorologist (Scott Proctor) is coming in for the Yankees. He’s their last available pitcher and he has an ERA of 10.38. They should just forfeit. Seriously.  
-  
-7:50 — We find temporary solace in what happened these past three minutes: Upon further review, Johnson’s homer nailed a Rays fan right in the nuts. Hard. We just rewound that five times and laughed evilly three of the times. I hate everybody.  
-  
-7:53 — Kay: “Can you imagine the people of Red Sox Nation what they’re feeling right now?” Yes. Yes I can. Somehow, the Proctorologist gets out of the ninth.  
-  
-8:01 — After a 1-hour, 24-minute rain delay, Alfredo kicks off the bottom of the seventh by nailing Reynolds in the ribs, getting a flyout and then plunking Reimold. So you’re telling me that pitching three straight games and then warming up right before a 90-minute rain delay could have some side effects? I would have saved him for tomorrow. Let’s add this to the “What the hell was Terry Francona doing this month?????” files no matter how this turns out.  
-  
-8:02 — Here’s all you need to know about tonight, this month and this season: I’m PETRIFIED of Robert Andino right now.  
-  
-8:09 — The good news: Aceves got Andino and Hardy out to escape the seventh. The bad news: Tampa’s Kyle Farnsworth escaped a second-and-first jam in the 10th.  
-  
-8:13 — NESN tries to jinx Scutaro by prematurely naming him the “Papa Gino’s Performer of the Game.” Doesn’t work. He hits a one-out single to right. What happens next? Crawford comes through with a double into the gap in left. Wendell Kim’s spirit invades our third-base coach’s body. He sends Scutaro. Scutaro gets thrown out on a bang-bang play at home. That’s our third guy thrown out tonight. Aviles quickly pops up to end the inning. I can type only in short bursts.  
-  
-8:22 — There was a time when I liked seeing Daniel Bard in the eighth. Just not lately. Right as Proctor is somehow getting out of the 10th, Bard needs two warning-track fly balls to get out of the eighth. What an insane night. We’re nearing the 4½-hour mark. I feel like this guy:  
-  
-8:25 — Batting for the Yankees in the top of the 11th: Rudi Stein, Miguel Aguilar and Timmy Lupus.  
-  
-8:29 — Ellsbury beats out an infield single and gets called out, followed by Terry Francona’s successfully arguing that Reynolds juggled the catch THE PLAY HAS BEEN REVERSED! That never happens! Ellsbury quickly steals second and earns some deserved “MVP! MVP! MVP!” chants from the Boston fans on hand.  
-  
-Let’s see: .323/.377/.553, 158 games, 32 HR’s, 39 SB’s (+24), 105 RBI, 119 runs, good defense in center, the biggest hit of the season (his three-run homer against the Yanks on Sunday night) it’s definitely an argument. Although I’d still vote for Justin Verlander. It’s hard to think of anyone being an MVP on a .500 team (Toronto) or a team that choked so memorably in September (Boston). If there was an MVP to be given out this year, it was the NBA Finals MVP — you know, for that September streak when the Red Sox won six of 24 games.  
-  
-8:39 — Pedroia just singled (Ellsbury to third, still no outs). Proctor’s carcass is barely hanging on in Tampa. Daniel and I are nervously killing time by discussing our most meaningless Red Sox possessions. I went with any Manny jersey because “he’s a cheater and an alleged wife-beater and I can’t imagine breaking those out anytime soon.” Daniel went with “my 200 Scott Cooper rookie cards.”  
-  
-8:42 — The Braves are done. Lost in the 13th. I was afraid to mention them — they’re like our co-Kings of Kollapse. I can’t decide if this is good or bad for us. Also a bad sign: Ortiz just hit a ball three feet. Now it’s Ellsbury on third and pinch-runner Joey Gathright on first, one out. Typical Francona overmanaging moment, by the way — they’re definitely walking Gonzalez again, so why take Ortiz’s bat out of the lineup? Aaaaaargh.  
-  
-8:45 — Yup, they just intentionally walked Gonzalez for the third time tonight and Lavarnway hits into a double play to kill the top of the ninth. (The lesson, as always: Maybe it’s not a good idea to bat someone fifth in the biggest game of the season when he wasn’t good enough to play 48 hours ago. I was wrong.) The good news: Now Joey Gathright is batting cleanup if we go into extra innings. A minute later, my man Desmond Jennings (batting .170 in September) flies out to kill a Tampa rally in the 12th.  
-  
-“Daddy needs another drink,” Daniel says. That’s going to be the title of my 2011 Red Sox book.  
-  
-8:49 — Longoria boots Golson’s grounder to start the top of the 12th, Joe Maddon calls for Jake McGee, then Jonathan Papelbon strikes out Adam Jones. These two games are blending into each other. Or, my brain is bleeding. I think I’m always going to remember this night, no matter what happens. We’ve reached that point. It’s morphed into something bigger than just a big night of baseball games. You can feel it. The Dan Johnson homer was the “all bets are off tonight” moment.  
-  
-8:51 — Quick word about Papelbon: He threw 29 pitches for seven gigantic outs on Sunday night against the Yankees, then labored through a 28-pitch, one-out save Tuesday night. Earlier this afternoon, my dad mentioned that Paps looked “exhausted” Tuesday night and we both agreed that we didn’t want to see him pitching in another close game tonight. In Tampa, Eric Chavez singles (first and third, no outs) right before Papelbon strikes out Mark Reynolds (two outs). Come on, baby. Come on.  
-  
-8:53 — Chris Davis keeps Baltimore alive with a double down the line, then Golson gets tagged out for the Yanks on a grounder to third (second and first, one out). And just like that, everything flipped. I can’t wait to write about this in more detail this winter when I’m writing Daddy Needs Another Drink.  
-  
-8:59 — Two outs, two strikes and Nolan Reimold doubles into the gap. Boston 3, Baltimore 3. Oh, and the Yankees just failed to score in the 12th. I feel like Rick Perry’s campaign manager. You can feel it coming now. This isn’t ending well.  
-  
-9:02 — Andino rips a single to left, Crawford dives for it, should catch it, seems like he’s going to catch it can’t catch it. Throws home too late. Game over. Baltimore 4, Boston 3. Season (probably) over.  
-  
-9:03 — (Speechless.)  
-  
-9:04 — (Speechless.)  
-  
-9:05 — (Speechless.)  
-  
-9:06 — Home run, Longoria. Tampa Bay 8, New York 7.  
-  
-9:07 — In the car.  
-  
-And so it went for the 2011 Red Sox, the biggest chokers of any Boston team in my lifetime. At least the ’78 Sox fought back and forced a one-game playoff; these guys couldn’t even do that. They disintegrated over an entire month, day after day after day. You can’t even explain how brutal they were unless you followed the free fall firsthand. Once 82-51, they finished 90-72. From August 30 through September 24, they were 2-18 in games in which they scored fewer than nine runs. Their team ERA for September was 5.90. Their starters finished 4-13 for the month with a 7.03 ERA. Their best setup guy single-handedly blew four games. Their bats went mysteriously silent at the worst possible times, personified by Papi’s three-foot out tonight in a situation in which it was almost impossible NOT to score. If the 2004 Red Sox distinguished themselves by everyone chipping in, the 2011 Red Sox distinguished themselves by chipping out.  
-  
-Their body language grew progressively worse as the month dragged on, with their manager seeming more hopeless and desperate than anyone. They blew basic baseball plays, botched fly balls, dropped relay throws, ended games by getting caught stealing, threw meatballs, bitched at each other, admitted to being scared you name it, they did it. They choked away Game 162 by getting three guys thrown out on the basepaths, by blowing a 3-2 lead in the ninth, by botching a season-deciding fly ball, by letting Chris Davis, Nolan Reimold and Robert Andino beat them with two outs in the ninth. You can’t say it was unbelievable, because, actually, it was totally believable. This was a mercy killing. At least that’s what I will keep telling myself. The 2011 Red Sox needed to go away. And they did.  
-  
-Bill Simmons is the Editor in Chief of Grantland and the author of the recent New York Times no. 1 best-seller The Book of Basketball, now out in paperback with new material and a revised Hall of Fame Pyramid. For every Simmons column and podcast, log on to Grantland. Follow him on Twitter and check out his new home on Facebook.  
-  
-Previously from Bill Simmons:  
-  
-Jonathan Abrams & Bill Simmons: Welcome to NBA Amnesty 2.0  
-  
-NFL Week 3: Summer Mailbag Finale  
-  
-NFL Week 2: The NFL Stock Market  
-  
-NFL Preview: It’s All About Continuity  
-  
-Summer of Mailbag V: Passing the Buck  
-  
-Summer of Mailbag IV: Dawn of the Mailbag  
-  
-Summer of Mailbag III: Attack of the Mailbag!  
-  
-The Glorious Return of the Mailbag  
-  
-Summer of Mailbag: The Revenge  
-  
-Red Sox Report Card  
-  
-‘Good Lord! That’s His Music!’  
-  
+Ninety minutes before the Red Sox played in Baltimore to determine whether (a) they would advance to the 2011 playoffs, (b) they would advance to a one-game playoff in Tampa Bay on Thursday, or (c) they would finish the biggest September collapse in the history of professional baseball, I was paying for groceries in Los Angeles while wearing my trusty Tim Wakefield no. 49 T-shirt jersey. From behind me, I heard a raspy, older, female voice ask me, “You guys gonna win today?”
+
+I turned around. The voice belonged to Amy Madigan, the actress who played Kevin Costner’s wife in Field of Dreams.
+
+“Yes,” I told her. “We are going to win today. But I don’t know about tomorrow.”
+
+“Who’s pitching?” she asked.
+
+“Lester today. Tomorrow, I don’t know. Might be Kevin Costner.”
+
+She thought this was funny. We spent 15 seconds making small talk, then I spent the next 30 minutes trying to determine whether it was a good omen. That’s what you do when your baseball season is falling apart: you search for signs any signs, anything that means anything. Your whole life becomes a Ouija board. Ray Kinsella’s wife from the cornfield? Had to be a good sign.
+
+Field of Dreams was really about hope, higher beings, cosmic forces, unfinished business, believing past the point when you should believe. The Red Sox hit that point about two weeks ago, midway through their improbable swoon, as they kept trotting out the Lackeys, Wakefields and Weilands with everyone thinking, “Wait, we don’t have ANY other options?” It’s been a surreal month for Red Sox fans: Our pre-2004 DNA told us to react the way we always did (total panic, woe-is-us complex, the whole thing); our post-2007 DNA told us, “You won twice, keep it in perspective, this isn’t life or death, other teams have it worse”; and our sports-fan DNA told us, “You just spent the past six months watching a team that’s probably going to kick you in the teeth hard. It’s coming.”
+
+By the time Game 162 rolled around, I didn’t know what to think anymore. I ended up at my friend Daniel’s house to watch Sox-Orioles and Rays-Yankees. And yes, I kept a running diary. Here’s what transpired.
+
+4:00 p.m. PT — Thanks to NESN for working in the obligatory Carl Crawford strikeout on a pitch in the dirt during its “GAME 162” montage intro. Just what we needed. Jerry Remy tries to make up for it a minute later: “Some comfort food for Boston fans — [Jon] Lester has pitched 17 times against Baltimore; he’s 14-and-0.” Sorry, I’m not sure “comfort” and “Boston fans” can be used in the same sentence this week. It’s illegal.
+
+4:02 — A month ago, Ryan Lavarnway was in Triple-A. As recently as 48 hours ago, he wasn’t playing. Today, in Game 162, with a playoff spot on the line? He’s catching and batting fifth. Somehow, I’m fine with this. I can’t think of anyone else I’d bat fifth. Welcome to the 2011 Red Sox season.
+
+4:07 — As the camera pans the Red Sox players standing for the national anthem, we see one blond-haired guy, and Daniel says, “Who’s that?” Neither of us have any idea. Again, welcome to the 2011 Red Sox season.
+
+4:08 — Baltimore’s starter today: Alfredo Simon, pitching with a giant tobacco can in his back right pocket. Is there a manlier look than chew-can butt? Chaz Bono should add this to his Dancing With the Stars getup; it’s much more effective than the scraggly beard.
+
+4:14 — After Simon retires the first two Red Sox hitters (Ellsbury and Pedroia), Ortiz comes up as Remy explains that Francona changed the order for the umpteenth time this season because he wanted “to get his best four hitters up as many times as possible.” Should that really be a new goal when it’s Game 162? I’m almost out on Francona. We’re getting there.
+
+4:17 — Adrian Gonzalez grounds out to end the top of the first. Meanwhile, the Yankees have a runner on first with two outs — we have that game showing on Daniel’s iPad thanks to his MLB.TV account, which, of course, is a separate expense than his DIRECTV MLB EXTRA INNINGS in Major League Baseball’s never-ending effort to antagonize its fans. By the way, if you had explained to me as recently as 10 years ago that I’d be living in California and rooting for the Yankees on an iPad, I would have assumed that I was on the lam for a crime and doing whatever it took to survive.
+
+4:22 — Red Sox killer Robert Andino leads off for the Orioles as Daniel hisses, “That’s just an eff you move by Showalter.” Lester strikes him out. I’ve had Andino on my AL Keeper Team all season — he’s a homeless man’s Ben Zobrist. There’s no better candidate to ruin the 2011 Red Sox season and join the Bucky Dent/Enos Slaughter/Aaron Boone group. He’s the odds-on favorite.
+
+4:25 — J.J. Hardy’s surprisingly good season (30 homers) inadvertently inspires Daniel and me to discuss whether we’d take HGH if we were baseball players. I decide that I wouldn’t take it until I started slipping in my mid-30s, and then I’d start popping them like Pez. Daniel’s take: “I’d definitely take it. I’m thinking about taking it anyway.” He’s serious.
+
+4:25 — We’re both confused by NESN’s “Bill James’ Temperature Gauge” graphic — seems like a fancy way to just say someone’s hot or cold. Daniel thinks Bill James could create any stat and people would start using it without ever questioning if it made sense. That’s really the final sabermetric stage: It’s like when A-list actors start releasing music albums. I just hope Bill Barnwell can get there some day.
+
+4:25 — Lester strikes out Markakis and gets a groundout from Vlad Guerrero to end the first. In Tampa, David Price needs 29 pitches to get out of the first. 1-0, Yankees. Hmmmmmm.
+
+4:29 — J.D. Drew smacks a one-out single, then cracks wise at first base with Mark Reynolds. “What’s going on with J.D.?” Daniel wonders. “He showed emotion last night, now he’s smiling. Next thing you know, he’s gonna steal a base!” I’m gonna miss these moments with J.D. when he’s gone next year. Oh, wait, no I won’t.
+
+4:31 — NESN keeps marketing this Fenway Brick, the first product marketed specifically in the hope that girlfriends and wives might mistakenly buy it for their man even though we definitely don’t want one. Ladies, trust me, that Fenway Brick is going in your man’s garage or attic within two weeks. Speaking of bad purchases, Carl Crawford just flied out to end the top of the second.
+
+4:41 — Lester gets a long fly ball out from Baltimore’s Secretly Scary Guy (Matt Wieters), then gives up an infield single to Baltimore’s Openly Scary Guy (Adam Jones) before Baltimore’s Secretly Horrendous Guy (Mark Reynolds) grounds into a double play to end the inning. I enjoy Reynolds because he’s one of those guys who secretly sucks by old-school numbers (.220 batting average, 195 K’s, 26 errors at first base) AND new-school numbers (.321 OBP, -26.2 UZR, 0.5 WAR). He bridges all eras.
+
+4:47 — After a Mike Aviles walk, NESN shows Crawford staring sadly from the dugout for the 2,500th time this season. I have to come clean: I feel as bad for Crawford as you can feel for someone who’s worth nine figures and helped ruin your baseball season. I don’t think he ever wanted to play in Boston, then they offered him so much money that he couldn’t turn it down and everything’s gone wrong ever since. Like the Karma Gods just said, “Dude, we’re calling you out on this one — you know you wanted to go to Anaheim, you jumped at the money, and now you know, money isn’t everything.” Even if he’s been a mess mentally for much of this season, and even if I’m going to need to give myself amnesia to unremember all the dreadful at-bats he had this season, I still feel like Crawford could redeem himself someday — maybe even during these next five weeks. I’m rooting for him.
+
+(Please, Lord, don’t let that paragraph be thrown back in my face.)
+
+4:49 — Back-to-back singles by Ellsbury and Pedroia. 1-0, Red Sox, nobody out, David Ortiz up. Semirelated: I wish Ortiz named his different beards with monikers like “Insignia” and “Macarena.” For tonight he shaved his mustache, shaved the left and right sides over his chin, but kept every other part of the beard and connected the soul patch to it. It would have been so much easier if I could have just told you, “Tonight Ortiz is wearing Insignia,” right?
+
+4:52 — The bad news: Check-swing double play by Ortiz. The good news: Mark Teixeira just slammed an iPad grand slam! 5-0, Yankees, second inning, Price closing in on 60 pitches. It took three years, but I finally got to enjoy a Mark Teixeira homer that helped the Red Sox.
+
+4:57 — After Lavarnway’s strikeout ends the top of the second, Daniel says earnestly, “When you think about it, Ortiz’s beard is really a reminder of his Latino culture.” He’s on his second beer and it already feels like 20. Red Sox 1, Orioles 0.
+
+5:06 — Chris Davis has 10 walks in 196 ABs. Actually, make it 11 — Lester just walked him. Meanwhile, I already have Yankee/Tampa fans who are congratulating me on making the playoffs as a reverse jinx. You can’t reverse jinx ME. I’m the master! How dare all of you!
+
+5:06 — J.J. Hardy ruins our riveting “Who has a worse beard — Sidney Crosby or Clay Buchholz?” discussion by walloping a two-out, two-run homer. 2-1, Baltimore. No, I’m not blaming the reverse-jinx e-mails — that was a meatball by Lester. God forbid Lester or Beckett have one “Come on, fellas, everyone get on my back!” start these last three weeks.
+
+5:11 — We’ve played three innings in 65 minutes. Daniel calls this “a good pace.” I don’t know what’s happened to baseball. I really don’t.
+
+5:15 — A one-out double by Scutaro (.382/.436/.573 in September heading into tonight) brings us to America’s favorite game show, What Will Carl Crawford Do? The nominees are
+
+A. Strikeout in the dirt;
+
+B. Grounder to short;
+
+C. Jammed pop fly to short left;
+
+D. Jammed pop fly to second base;
+
+E. Tapper back to the mound.
+
+I said “A,” Daniel said “C.” And our answer is
+
+5:17 — “B!” At least he advanced Scutaro to third, leading to
+
+5:20 — A run-scoring balk! Scutaro pulled the old, “I’m gonna steal home” stutter-step and hooked Simon. Love that one. We’re tied at two.
+
+5:22 — If you’re looking for a guy to end innings by getting thrown out by three steps on bizarrely timed steals of second base, look no further than Mike Aviles. The good news: It’s still 5-0 in Tampa.
+
+5:29 — 1-2-3 inning by Lester. Daniel points out that the Red Sox were 10-1 to win the World Series this afternoon, then raises his eyebrows as if to say, “We could still jump on that.” He’s like a crew member of the Titanic planning a jewelry raid post-iceberg. No, thanks. I’m happy just to make the ALDS with this sorry bunch. Anything else is gravy.
+
+5:36 — Simon comes one strike from retiring Pedroia when BOOM! Homer to left field (3-2, Red Sox) at almost the exact same moment Teixeira homers again in Tampa (6-0, Yankees). Karma? Coincidence? And is anyone more unstoppable than Mark Teixeira in Game 162, when the Yanks clinched the division a week ago?
+
+5:38 — After Ortiz hits a “woulda been a homer almost anywhere else” single off the right-field wall, Showalter goes La Russa on us and quickly pulls Simon like it’s late October or something. You can’t blame him; this is the closest he’ll ever come to managing a playoff game again. He’s jumpy.
+
+5:45 — Baltimore’s Troy Patton induces a scorching line drive by Lavarnway (right at Nick Markakis in left, unfortunately), then a pop fly by Drew to end Boston’s threat. Not enough runs. I’m now in “What would be worse than Tampa losing, then us choking and having to play Game 163 anyway?” mode.
+
+5:57 — Damn, I knew I shouldn’t have ragged on Mark Reynolds. He just doubled to start the bottom of the fifth, beating Andruw Jones’ homer in Tampa by about 40 seconds (7-0, Yankees). After he’s advanced to third, Lester gets a Reimold grounder to Scutaro (Reynolds goes on contact, gets thrown out by Scutaro by two steps), then an Andino grounder to end the threat. After five: Daniel 3 (drinks), Red Sox 3, Orioles 2.
+
+6:05 — I always love hearing the kicking Boston accents during the local NESN commercials (like the creepy Jordan’s Furniture guy just now). It’s too bad you can’t pick the accents for commercials the same way you can manipulate the SAP button. I’d go with “Rhode Island” and maybe even blend “Chicago” in there every few weeks to mix it up.
+
+6:13 — After Troy Patton’s impressive 1-2-3 inning, Lester walks Hardy and Markakis to start the bottom of the sixth, then Scutaro robs Vlad’s RBI single up the middle, scoop-tosses it to Pedroia with his glove and Pedroia chucks it to first in time for the DP. What a play! So what if you can time Vlad with a sundial these days what a play!
+
+6:15 — Either Lester (87 pitches) just pitched around Wieters, or he can’t find the plate anymore. Third and first, two outs, Adam Jones up. This goes beyond tense. Lester is laboring. Everyone on the Red Sox looks like a college kid whose girlfriend just told him, “We have to talk, I did something dumb last night.” Actually, can we stop showing people in the dugout, NESN? What about fans, grass and wide shots going forward? Please.
+
+6:20 — 3-and-2 pitch to Jones swing and a miss! Nine outs to go.
+
+6:22 — Just sent the first “you’re alive, right?” text to my dad of the night. That reminds me, where does “buying my dad a plane ticket four weeks ago to come out to California and watch the first weekend of Red Sox playoff games with me?” rank on the Jinx Scale considering the Sox had a nine-game lead at the time? I’m going to say 0.15 out of 10.
+
+6:25 — Pedroia draws a one-out walk. Meanwhile, Daniel and I are both horrified that Alfredo Aceves (71 pitches, 6.1 IP in the past three games) is warming up again right now. I know he’s been the unsung hero of the season, and it thrills me to no end that we stole him from the Yankees but at what point is Tito pulling a Torre/Proctor on him?
+
+6:29 — Big Papi gets thrown out at second unsuccessfully stretching a single into a double, then Baltimore intentionally walks Gonzalez (second time tonight) and gets a Lavarnway grounder to end the threat. The words “Big Papi” and “stretching” should never go together unless we’re talking about a bag of Doritos that’s on a high shelf.
+
+6:32 — Daniel claims that Warren Buffett owns Jordan’s Furniture and pays the old owner to pretend he owns the company for the commercials. The bartender just cut him off.
+
+6:34 — Rain delay! “JUST CALL IT!” Daniel screams at the TV. “CALL IT!!!!”
+
+6:42 — We’re watching the Yankees on YES — heading into the bottom of the seventh, with the Yankees still leading 7-0, we see A.J. Burnett trotting in from the bullpen as Michael Kay gushes happily, “A.J. Burnett is coming in!” He’s openly rooting for the Rays. You can tell. I mean, what other reason would you have to gush happily, “A.J. Burnett is coming in!”
+
+6:52 — It’s pouring rain in Baltimore.
+
+7:05 — Still pouring. We’re watching one of those “feels a little like an awkward date” time-killing interviews with NESN’s Heidi Watney and the Boston Globe‘s Nick Cafardo. It feels like they met on Match.com last night. I love these. Did you ever mute the TV and make up fake sentences for the aging sportswriter like, “And after my wife left me I lost 20 pounds, and then that’s when I started doing P90X and it changed my life?” Really? Not even once?
+
+7:10 — Just flicked over to the premiere Real World: San Diego episode in time for the line, “Sam goes in for a hug and I’m like, ‘There’s boobs here.'” Daniel thinks every Real World season should have one horny married guy in his mid-40s on the show, volunteers his own services for the next season, then gets up to make himself a screwdriver. This is the most fun I’ve ever had during a rain delay.
+
+7:18 — Bases loaded, no outs, Yankees winning by six, bottom of the eighth, Michael Kay saying, “The Yankees have used nine pitchers tonight, there’s really nobody else available other than Scott Proctor,” Daniel and I looking at each other with matching, “Should we be concerned right now?” looks and Luis Ayala hits Sean Rodriguez. 7-2, Yankees.
+
+7:18 — Uh-oh.
+
+7:18 — The 29,000 Rays fans on hand are going crazy. I’m too nervous to make the “29,000 fans in your must-win game of the year???” joke.
+
+7:23 — Down 7-3, Evan Longoria (an absolute beast this month) smacks a three-run homer. My god. It’s a 7-6 ballgame. Leave it to the Yankees to stick it to the Red Sox yet again. They took out six starters and went through eight pitchers already. It’s like they planned ahead of time, “Let’s get an early lead, then we’ll slowly throw the game and it will take every Red Sox fan three innings to realize it. We will WRECK THEM.” It’s working.
+
+7:32 — I’m just eating. I’m eating everything in sight.
+
+7:39 — Somebody named Greg Golson flies out to end the top of the ninth — he looks like one of the fake Yankees who played against Billy Chapel’s team in For Love of the Game. He might be an actor. I’m not even kidding.
+
+7:42 — No Mariano Rivera for the bottom of the ninth. Daniel and I have this exchange:
+
+Daniel (confident): “I’m OK with Cory Wade closing this out.”
+
+Me: (staring at him in disbelief)
+
+Daniel: “What, you’re not OK with Cory Wade?”
+
+7:45 — Two outs, nobody on, bottom of the ninth and Tampa sends up one-time Red Sox killer Dan Johnson (batting .108) to save the season. I’m pretty sure he’s not the extra 2 percent. COME ON, YANKEES!
+
+7:45 — Sorry, I mean, COME ON, TEAM I NEED TO WIN RIGHT NOW!!!
+
+7:47 — Two outs, two strikes home run, Dan Johnson. Right down the right-field line. You’ve gotta be kidding me. That was basically baseball’s version of the Tyree Catch, only if the 18-0 Patriots were a 90-win baseball team that quit with four weeks to go and had little to no chance of winning the title. Still, I’m in shock. Yankees 7, Rays 7.
+
+7:48 — The Proctorologist (Scott Proctor) is coming in for the Yankees. He’s their last available pitcher and he has an ERA of 10.38. They should just forfeit. Seriously.
+
+7:50 — We find temporary solace in what happened these past three minutes: Upon further review, Johnson’s homer nailed a Rays fan right in the nuts. Hard. We just rewound that five times and laughed evilly three of the times. I hate everybody.
+
+7:53 — Kay: “Can you imagine the people of Red Sox Nation what they’re feeling right now?” Yes. Yes I can. Somehow, the Proctorologist gets out of the ninth.
+
+8:01 — After a 1-hour, 24-minute rain delay, Alfredo kicks off the bottom of the seventh by nailing Reynolds in the ribs, getting a flyout and then plunking Reimold. So you’re telling me that pitching three straight games and then warming up right before a 90-minute rain delay could have some side effects? I would have saved him for tomorrow. Let’s add this to the “What the hell was Terry Francona doing this month?????” files no matter how this turns out.
+
+8:02 — Here’s all you need to know about tonight, this month and this season: I’m PETRIFIED of Robert Andino right now.
+
+8:09 — The good news: Aceves got Andino and Hardy out to escape the seventh. The bad news: Tampa’s Kyle Farnsworth escaped a second-and-first jam in the 10th.
+
+8:13 — NESN tries to jinx Scutaro by prematurely naming him the “Papa Gino’s Performer of the Game.” Doesn’t work. He hits a one-out single to right. What happens next? Crawford comes through with a double into the gap in left. Wendell Kim’s spirit invades our third-base coach’s body. He sends Scutaro. Scutaro gets thrown out on a bang-bang play at home. That’s our third guy thrown out tonight. Aviles quickly pops up to end the inning. I can type only in short bursts.
+
+8:22 — There was a time when I liked seeing Daniel Bard in the eighth. Just not lately. Right as Proctor is somehow getting out of the 10th, Bard needs two warning-track fly balls to get out of the eighth. What an insane night. We’re nearing the 4½-hour mark. I feel like this guy:
+
+8:25 — Batting for the Yankees in the top of the 11th: Rudi Stein, Miguel Aguilar and Timmy Lupus.
+
+8:29 — Ellsbury beats out an infield single and gets called out, followed by Terry Francona’s successfully arguing that Reynolds juggled the catch THE PLAY HAS BEEN REVERSED! That never happens! Ellsbury quickly steals second and earns some deserved “MVP! MVP! MVP!” chants from the Boston fans on hand.
+
+Let’s see: .323/.377/.553, 158 games, 32 HR’s, 39 SB’s (+24), 105 RBI, 119 runs, good defense in center, the biggest hit of the season (his three-run homer against the Yanks on Sunday night) it’s definitely an argument. Although I’d still vote for Justin Verlander. It’s hard to think of anyone being an MVP on a .500 team (Toronto) or a team that choked so memorably in September (Boston). If there was an MVP to be given out this year, it was the NBA Finals MVP — you know, for that September streak when the Red Sox won six of 24 games.
+
+8:39 — Pedroia just singled (Ellsbury to third, still no outs). Proctor’s carcass is barely hanging on in Tampa. Daniel and I are nervously killing time by discussing our most meaningless Red Sox possessions. I went with any Manny jersey because “he’s a cheater and an alleged wife-beater and I can’t imagine breaking those out anytime soon.” Daniel went with “my 200 Scott Cooper rookie cards.”
+
+8:42 — The Braves are done. Lost in the 13th. I was afraid to mention them — they’re like our co-Kings of Kollapse. I can’t decide if this is good or bad for us. Also a bad sign: Ortiz just hit a ball three feet. Now it’s Ellsbury on third and pinch-runner Joey Gathright on first, one out. Typical Francona overmanaging moment, by the way — they’re definitely walking Gonzalez again, so why take Ortiz’s bat out of the lineup? Aaaaaargh.
+
+8:45 — Yup, they just intentionally walked Gonzalez for the third time tonight and Lavarnway hits into a double play to kill the top of the ninth. (The lesson, as always: Maybe it’s not a good idea to bat someone fifth in the biggest game of the season when he wasn’t good enough to play 48 hours ago. I was wrong.) The good news: Now Joey Gathright is batting cleanup if we go into extra innings. A minute later, my man Desmond Jennings (batting .170 in September) flies out to kill a Tampa rally in the 12th.
+
+“Daddy needs another drink,” Daniel says. That’s going to be the title of my 2011 Red Sox book.
+
+8:49 — Longoria boots Golson’s grounder to start the top of the 12th, Joe Maddon calls for Jake McGee, then Jonathan Papelbon strikes out Adam Jones. These two games are blending into each other. Or, my brain is bleeding. I think I’m always going to remember this night, no matter what happens. We’ve reached that point. It’s morphed into something bigger than just a big night of baseball games. You can feel it. The Dan Johnson homer was the “all bets are off tonight” moment.
+
+8:51 — Quick word about Papelbon: He threw 29 pitches for seven gigantic outs on Sunday night against the Yankees, then labored through a 28-pitch, one-out save Tuesday night. Earlier this afternoon, my dad mentioned that Paps looked “exhausted” Tuesday night and we both agreed that we didn’t want to see him pitching in another close game tonight. In Tampa, Eric Chavez singles (first and third, no outs) right before Papelbon strikes out Mark Reynolds (two outs). Come on, baby. Come on.
+
+8:53 — Chris Davis keeps Baltimore alive with a double down the line, then Golson gets tagged out for the Yanks on a grounder to third (second and first, one out). And just like that, everything flipped. I can’t wait to write about this in more detail this winter when I’m writing Daddy Needs Another Drink.
+
+8:59 — Two outs, two strikes and Nolan Reimold doubles into the gap. Boston 3, Baltimore 3. Oh, and the Yankees just failed to score in the 12th. I feel like Rick Perry’s campaign manager. You can feel it coming now. This isn’t ending well.
+
+9:02 — Andino rips a single to left, Crawford dives for it, should catch it, seems like he’s going to catch it can’t catch it. Throws home too late. Game over. Baltimore 4, Boston 3. Season (probably) over.
+
+9:03 — (Speechless.)
+
+9:04 — (Speechless.)
+
+9:05 — (Speechless.)
+
+9:06 — Home run, Longoria. Tampa Bay 8, New York 7.
+
+9:07 — In the car.
+
+And so it went for the 2011 Red Sox, the biggest chokers of any Boston team in my lifetime. At least the ’78 Sox fought back and forced a one-game playoff; these guys couldn’t even do that. They disintegrated over an entire month, day after day after day. You can’t even explain how brutal they were unless you followed the free fall firsthand. Once 82-51, they finished 90-72. From August 30 through September 24, they were 2-18 in games in which they scored fewer than nine runs. Their team ERA for September was 5.90. Their starters finished 4-13 for the month with a 7.03 ERA. Their best setup guy single-handedly blew four games. Their bats went mysteriously silent at the worst possible times, personified by Papi’s three-foot out tonight in a situation in which it was almost impossible NOT to score. If the 2004 Red Sox distinguished themselves by everyone chipping in, the 2011 Red Sox distinguished themselves by chipping out.
+
+Their body language grew progressively worse as the month dragged on, with their manager seeming more hopeless and desperate than anyone. They blew basic baseball plays, botched fly balls, dropped relay throws, ended games by getting caught stealing, threw meatballs, bitched at each other, admitted to being scared you name it, they did it. They choked away Game 162 by getting three guys thrown out on the basepaths, by blowing a 3-2 lead in the ninth, by botching a season-deciding fly ball, by letting Chris Davis, Nolan Reimold and Robert Andino beat them with two outs in the ninth. You can’t say it was unbelievable, because, actually, it was totally believable. This was a mercy killing. At least that’s what I will keep telling myself. The 2011 Red Sox needed to go away. And they did.
+
+Bill Simmons is the Editor in Chief of Grantland and the author of the recent New York Times no. 1 best-seller The Book of Basketball, now out in paperback with new material and a revised Hall of Fame Pyramid. For every Simmons column and podcast, log on to Grantland. Follow him on Twitter and check out his new home on Facebook.
+
+Previously from Bill Simmons:
+
+Jonathan Abrams & Bill Simmons: Welcome to NBA Amnesty 2.0
+
+NFL Week 3: Summer Mailbag Finale
+
+NFL Week 2: The NFL Stock Market
+
+NFL Preview: It’s All About Continuity
+
+Summer of Mailbag V: Passing the Buck
+
+Summer of Mailbag IV: Dawn of the Mailbag
+
+Summer of Mailbag III: Attack of the Mailbag!
+
+The Glorious Return of the Mailbag
+
+Summer of Mailbag: The Revenge
+
+Red Sox Report Card
+
+‘Good Lord! That’s His Music!’
+
 To submit questions for the next mailbag, click here; to comment on this story through Facebook, click here.

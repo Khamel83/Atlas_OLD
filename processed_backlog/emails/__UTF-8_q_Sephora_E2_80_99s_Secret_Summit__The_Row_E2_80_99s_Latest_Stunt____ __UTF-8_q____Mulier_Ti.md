@@ -141,7 +141,7 @@ Apple and Eden Sparkling Lychee were both marketed early on to “really play in
 It doesn’t hurt that Kayali is extremely well priced: A giant 100-ml bottle retails for around $130, compared to a Le Labo city scent of the same size that I once paid more than $500 for. I’m certainly not the target customer for
 Boujee Marshmallow and Pistachio Gelato, but even I can appreciate the appeal. Hopefully, Kayali will keep thriving, General Atlantic will get that big exit, and the Sephora Brand Summit’s darling can walk away with its rose… at least until next year.
 
- 
+
 
 What
 Rachel’s Reading…
@@ -156,7 +156,7 @@ L’Oréal sold haircare brand Carol’s Daughter back to its founder, Lisa Pric
 Mitchell Stores, the discreet, family-run group that owns once-independent, upscale department stores across the U.S. (including Wilkes Bashford and Marios), has just bought Dallas institution Stanley Korshak. It’s a win for the city, according to my colleague Sarah Shapiro, given that they’re more
 likely than not losing Neiman Marcus downtown. [MSN ( https://www.msn.com/en-us/money/companies/local-department-store-stanley-korshak-sells-to-northeast-luxury-retailer/ar-AA1AfrKG?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F5%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 That’s it from Line Sheet. One correction from yesterday: Up top, I mentioned that Silas Capital was
 backed by Silas Chou, of Tommy Hilfiger, Michael Kors, and, more recently, Naadam fame. I was wrong. Chou is associated with Torch Capital (and a bunch of other stuff, which is why I got confused), but he’s not the money behind Silas, which was founded in 2012. Anyway, I’m sorry!
@@ -182,6 +182,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVaNFDD0jrqMaZxG4I-Hw=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F5%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

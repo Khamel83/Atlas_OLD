@@ -33,15 +33,15 @@ I also gradually began to incorporate different, more fulfilling foods. I still 
 
 Here are the ingredients for the huge batch I make each week:
 
-- 15 cups of cooked white rice (which is about five cups uncooked)  
-- 28 ounces of [Kame oyster sauce](http://www.kame.com/node/58)  
-- 12 ounces of [Hormel natural choice chicken](http://www.hormelnatural.com/products/categories/carvedchickenbreast.aspx), cut into small pieces  
-- 4 ounces of [John Morrell diced ham](http://johnmorrell.com/products_hamcuts.aspx)  
-- 12 ounces of [Green Giant valley fresh steamers mixed vegetables](http://www.walmart.com/ip/Green-Giant-100-Natural-Valley-Fresh-Steamers-Mixed-Vegetables-12-oz/10813715)  
-- 32 ounces of [egg beaters](http://www.eggbeaters.com/products/original), scrambled  
-- 2 ounces of soy sauce  
-- 0.75 ounces of minced onions  
-- 0.25 ounces of ground black pepper  
+- 15 cups of cooked white rice (which is about five cups uncooked)
+- 28 ounces of [Kame oyster sauce](http://www.kame.com/node/58)
+- 12 ounces of [Hormel natural choice chicken](http://www.hormelnatural.com/products/categories/carvedchickenbreast.aspx), cut into small pieces
+- 4 ounces of [John Morrell diced ham](http://johnmorrell.com/products_hamcuts.aspx)
+- 12 ounces of [Green Giant valley fresh steamers mixed vegetables](http://www.walmart.com/ip/Green-Giant-100-Natural-Valley-Fresh-Steamers-Mixed-Vegetables-12-oz/10813715)
+- 32 ounces of [egg beaters](http://www.eggbeaters.com/products/original), scrambled
+- 2 ounces of soy sauce
+- 0.75 ounces of minced onions
+- 0.25 ounces of ground black pepper
 - 1 ounce of salt
 
 Put it all together in a big fry pan and [what you get is a variation of chicken fried rice](http://aarongleeman.com/wp-content/uploads/2012/03/P1010202.jpg) that tastes good, isn't terrible for you, and will keep you feeling full enough to avoid going off the diet. And as someone with zero cooking ability I can assure you it's incredibly easy to make, with the added bonus that the above recipe will feed you for an entire week and needs just a few minutes in the microwave for each meal.
@@ -50,13 +50,13 @@ I use that chicken-and-rice mashup as the baseline for most meals. For lunch I'l
 
 Nothing crazy and no tricks, just find some reasonably healthy stuff that fills you up and tastes good, and eat it every day while avoiding slip-ups. I'm not sure if that approach is the healthiest or the smartest or even sustainable for the long haul, but I do know that it, along with 30 minutes per day on an elliptical machine, allowed me to go from 355 pounds to 202 pounds in 366 days with the following progression:
 
-March 7, 2011: 355 pounds  
-May 11, 2011: 305 pounds  
-August 12, 2011: 265 pounds  
-September 9, 2011: 253 pounds  
-October 21, 2011: 245 pounds  
-December 1, 2011: 235 pounds  
-January 27, 2012: 215 pounds  
+March 7, 2011: 355 pounds
+May 11, 2011: 305 pounds
+August 12, 2011: 265 pounds
+September 9, 2011: 253 pounds
+October 21, 2011: 245 pounds
+December 1, 2011: 235 pounds
+January 27, 2012: 215 pounds
 March 7, 2012: 202 pounds
 
 I'm certainly proud of myself for losing so much weight, but I'm also incredibly embarrassed on a number of different levels. For one thing I've lost 30 or 50 or even 90 pounds before several times, often writing about it in this space, and then I've always put it back on. That sucks, plain and simple. Beyond that, the biggest key to losing 150 pounds is being incredibly obese to begin with and ... well, that's not particularly fun to talk about either.

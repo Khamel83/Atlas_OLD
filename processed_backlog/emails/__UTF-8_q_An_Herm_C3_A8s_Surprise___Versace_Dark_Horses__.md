@@ -15,7 +15,7 @@ PREVIEW VERSION
 For full access to Puck Inner Circle content,
 upgrade or subscribe ( https://puck.news/join/?utm_campaign=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_content=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) today.
 
- 
+
 
 Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_content=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_content=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
@@ -38,7 +38,7 @@ here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_cam
 Mentioned in this issue: Hermès, Nadège Vanhee, Axel Dumas, Chanel, Matthieu Blazy, Versace,
 the Agnelli family, Mayhoola, Kering, Rick Caruso, Palisades Village, Jonathan Anderson, Loewe, Bottega Veneta,  Bruno Pavlovsky, Chris Black, Patrick Radden Keefe, Ozempic, Legos, Babygirl, Daniel-Yaw Miller, and many more… 
 
- 
+
 
 Three
 Things You Should Know…
@@ -123,6 +123,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUTfCds3kkMOv1oq106XM=&utm_campaign=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_content=Line+Sheet+-+IC+SUBS+%281%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

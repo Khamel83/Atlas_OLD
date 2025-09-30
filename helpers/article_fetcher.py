@@ -187,14 +187,14 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             "fetch_time": None,
         },
     }
-    
+
     # Initialize MetadataManager for proper saving
     metadata_manager = MetadataManager(config)
-    
+
     def convert_meta_to_content_metadata(meta_dict, file_id):
         """Convert old meta dict to ContentMetadata format."""
         from helpers.metadata_manager import FetchDetails
-        
+
         # Convert status string to ProcessingStatus enum
         status_map = {
             "started": ProcessingStatus.STARTED,
@@ -204,7 +204,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             "retry": ProcessingStatus.RETRY,
             "skipped": ProcessingStatus.SKIPPED
         }
-        
+
         # Create FetchDetails from the old format
         fetch_details = FetchDetails(
             attempts=[],  # Could convert from attempts list if needed
@@ -213,14 +213,14 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             total_attempts=meta_dict["fetch_details"].get("total_attempts", 0),
             fetch_time=meta_dict["fetch_details"].get("fetch_time")
         )
-        
+
         # Create ContentMetadata
         metadata = metadata_manager.create_metadata(
             content_type=ContentType.ARTICLE,
             source=meta_dict["source"],
             title=meta_dict["title"] or "[no-title]"
         )
-        
+
         # Set additional fields
         metadata.uid = file_id
         metadata.status = status_map.get(meta_dict["status"], ProcessingStatus.PENDING)
@@ -231,7 +231,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         metadata.fetch_method = meta_dict.get("fetch_method", "unknown")
         metadata.fetch_details = fetch_details
         metadata.date = meta_dict["date"]
-        
+
         # Add any additional fields from meta to type_specific
         metadata.type_specific.update({
             "category_version": meta_dict.get("category_version"),
@@ -240,7 +240,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             "summary_text": meta_dict.get("summary_text"),
             "extract_error": meta_dict.get("extract_error")
         })
-        
+
         return metadata
 
     from helpers.dedupe import link_uid

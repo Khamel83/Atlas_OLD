@@ -295,7 +295,7 @@ All endpoints return consistent error responses:
 API endpoints are rate limited to prevent abuse:
 
 - **General Endpoints**: 1000 requests/hour per IP
-- **Search Endpoints**: 200 requests/hour per IP  
+- **Search Endpoints**: 200 requests/hour per IP
 - **Processing Endpoints**: 50 requests/hour per IP
 - **Upload Endpoints**: 20 requests/hour per IP
 

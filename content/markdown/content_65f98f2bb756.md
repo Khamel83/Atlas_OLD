@@ -23,8 +23,8 @@
             <meta property="og:site_name" content="Vanity Fair | The Complete Archive" />
             <meta property="og:url" content="https://archive.vanityfair.com/article/2019/10/dating-the-monster" />
 
-                                
-         
+
+
         <meta name="description" content="In rarefied New York circles, Jeffrey Epstein was the sociopath who proved the rule" />
 <meta property="og:title" content="Dating the Monster | Vanity Fair" />
 <meta property="og:description" content="In rarefied New York circles, Jeffrey Epstein was the sociopath who proved the rule" />
@@ -35,9 +35,9 @@
 <meta name="twitter:description" content="In rarefied New York circles, Jeffrey Epstein was the sociopath who proved the rule" />
 <meta name="twitter:image" content="https://vanityfair.blob.core.windows.net/vanityfair20191001thumbnails/Spreads/0x600/40.jpg" />
 <meta name="twitter:image:alt" content="Dating the Monster | Vanity Fair | October 2019" />
-<meta name="meterViewCount" content="1" />           
+<meta name="meterViewCount" content="1" />
                                         <link media="all" type="text/css" rel="stylesheet" href="https://archive.vanityfair.com/css/vanityfair/fonts.css?id=271fbb3cc3f12df11894">
-        
+
 
 
                     <script type="text/javascript" async>
@@ -113,7 +113,7 @@
       const collectorURL = "https:\/\/c.vanityfair.com";
       const siteAppVersion = "archive_laravel"
       console.log('App Environment: ' + appEnv, 'App ID: ' + appID, 'collectorURL: ' + collectorURL)
-      //snowplow initial config 
+      //snowplow initial config
       window.snowplowCN(function() {
           const snowplowConfig = {
               appId: appID,
@@ -246,9 +246,9 @@
       // ===== Snowplow Consent Handling End =====
 
       // we have global and adhoc entities. Global entities would be present in all the events. Adhoc entities
-      // would be present only in specific custom events. 
+      // would be present only in specific custom events.
       // Entity Details - Default entities with basic properties. User and Site are some example entities.
-      // Data Governance team can help in providing the details of the basic and custom events. 
+      // Data Governance team can help in providing the details of the basic and custom events.
       var searchUrlParams = new URLSearchParams(window.location.search);
       var campaignEntity = {
           schema: 'iglu:com.condenast/campaign/jsonschema/4-0-1',
@@ -405,7 +405,7 @@
           }
           return null; // Return null if no matching element is found
       }
-</script>;        
+</script>;
         <!-- Google Tag Manager Data Layer -->
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -413,7 +413,7 @@
     </script>
     <!-- End Google Tag Manager Data Layer -->
 
-    
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -430,7 +430,7 @@
                 var tocConfig = null;
                 var searchConfig = null;
             </script>
-        
+
     <script type="text/javascript">
 
         $(function() {
@@ -517,7 +517,7 @@
             Bondi.pages[20191001056] = [{"PageKey":20191001078,"IssueKey":20191001,"Sequence":78,"Spread":1,"PageName":"74","Width":3200,"Height":4350,"SpreadSequence":0,"ImageFormat":null,"SecureImageFormat":"\/image\/single\/20191001\/74\/%s","TogglePage":"74","HasText":true,"HasTextArticleKey":20191001056,"HasTextArticleKeys":null,"CoverType":null,"PageSizes":[{"PageKey":20191001078,"Device":"desktop","MaxDeviceWidth":10000,"DefaultWidth":1000,"DefaultHeight":1359,"MaxWidth":2600,"MaxHeight":3534,"SizeSequence":1,"Pages":null},{"PageKey":20191001078,"Device":"desktop","MaxDeviceWidth":1900,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":2000,"MaxHeight":2719,"SizeSequence":2,"Pages":null},{"PageKey":20191001078,"Device":"desktop","MaxDeviceWidth":1400,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1600,"MaxHeight":2175,"SizeSequence":3,"Pages":null},{"PageKey":20191001078,"Device":"desktop","MaxDeviceWidth":1023,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":4,"Pages":null},{"PageKey":20191001078,"Device":"mobile","MaxDeviceWidth":1080,"DefaultWidth":1400,"DefaultHeight":1903,"MaxWidth":2400,"MaxHeight":3263,"SizeSequence":5,"Pages":null},{"PageKey":20191001078,"Device":"mobile","MaxDeviceWidth":768,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1800,"MaxHeight":2447,"SizeSequence":6,"Pages":null},{"PageKey":20191001078,"Device":"mobile","MaxDeviceWidth":640,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":7,"Pages":null}],"TextArticles":null,"JumpLinks":[],"Articles":[{"Key":20191001056,"Title":"Dating the Monster","Section":"Columns","StartIndex":1,"Genre":"article","PageName":"74","Spread":40}]},{"PageKey":20191001079,"IssueKey":20191001,"Sequence":79,"Spread":1,"PageName":"75","Width":3200,"Height":4350,"SpreadSequence":0,"ImageFormat":null,"SecureImageFormat":"\/image\/single\/20191001\/75\/%s","TogglePage":"74","HasText":true,"HasTextArticleKey":20191001056,"HasTextArticleKeys":null,"CoverType":null,"PageSizes":[{"PageKey":20191001079,"Device":"desktop","MaxDeviceWidth":10000,"DefaultWidth":1000,"DefaultHeight":1359,"MaxWidth":2600,"MaxHeight":3534,"SizeSequence":1,"Pages":null},{"PageKey":20191001079,"Device":"desktop","MaxDeviceWidth":1900,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":2000,"MaxHeight":2719,"SizeSequence":2,"Pages":null},{"PageKey":20191001079,"Device":"desktop","MaxDeviceWidth":1400,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1600,"MaxHeight":2175,"SizeSequence":3,"Pages":null},{"PageKey":20191001079,"Device":"desktop","MaxDeviceWidth":1023,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":4,"Pages":null},{"PageKey":20191001079,"Device":"mobile","MaxDeviceWidth":1080,"DefaultWidth":1400,"DefaultHeight":1903,"MaxWidth":2400,"MaxHeight":3263,"SizeSequence":5,"Pages":null},{"PageKey":20191001079,"Device":"mobile","MaxDeviceWidth":768,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1800,"MaxHeight":2447,"SizeSequence":6,"Pages":null},{"PageKey":20191001079,"Device":"mobile","MaxDeviceWidth":640,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":7,"Pages":null}],"TextArticles":null,"JumpLinks":[],"Articles":[{"Key":20191001056,"Title":"Dating the Monster","Section":"Columns","StartIndex":1,"Genre":"article","PageName":"74","Spread":40}]},{"PageKey":20191001080,"IssueKey":20191001,"Sequence":80,"Spread":2,"PageName":"76","Width":3200,"Height":4350,"SpreadSequence":0,"ImageFormat":null,"SecureImageFormat":"\/image\/single\/20191001\/76\/%s","TogglePage":"76","HasText":true,"HasTextArticleKey":20191001056,"HasTextArticleKeys":null,"CoverType":null,"PageSizes":[{"PageKey":20191001080,"Device":"desktop","MaxDeviceWidth":10000,"DefaultWidth":1000,"DefaultHeight":1359,"MaxWidth":2600,"MaxHeight":3534,"SizeSequence":1,"Pages":null},{"PageKey":20191001080,"Device":"desktop","MaxDeviceWidth":1900,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":2000,"MaxHeight":2719,"SizeSequence":2,"Pages":null},{"PageKey":20191001080,"Device":"desktop","MaxDeviceWidth":1400,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1600,"MaxHeight":2175,"SizeSequence":3,"Pages":null},{"PageKey":20191001080,"Device":"desktop","MaxDeviceWidth":1023,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":4,"Pages":null},{"PageKey":20191001080,"Device":"mobile","MaxDeviceWidth":1080,"DefaultWidth":1400,"DefaultHeight":1903,"MaxWidth":2400,"MaxHeight":3263,"SizeSequence":5,"Pages":null},{"PageKey":20191001080,"Device":"mobile","MaxDeviceWidth":768,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1800,"MaxHeight":2447,"SizeSequence":6,"Pages":null},{"PageKey":20191001080,"Device":"mobile","MaxDeviceWidth":640,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":7,"Pages":null}],"TextArticles":null,"JumpLinks":[],"Articles":[{"Key":20191001056,"Title":"Dating the Monster","Section":"Columns","StartIndex":1,"Genre":"article","PageName":"74","Spread":40}]},{"PageKey":20191001081,"IssueKey":20191001,"Sequence":81,"Spread":2,"PageName":"77","Width":3200,"Height":4350,"SpreadSequence":0,"ImageFormat":null,"SecureImageFormat":"\/image\/single\/20191001\/77\/%s","TogglePage":"76","HasText":true,"HasTextArticleKey":20191001056,"HasTextArticleKeys":null,"CoverType":null,"PageSizes":[{"PageKey":20191001081,"Device":"desktop","MaxDeviceWidth":10000,"DefaultWidth":1000,"DefaultHeight":1359,"MaxWidth":2600,"MaxHeight":3534,"SizeSequence":1,"Pages":null},{"PageKey":20191001081,"Device":"desktop","MaxDeviceWidth":1900,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":2000,"MaxHeight":2719,"SizeSequence":2,"Pages":null},{"PageKey":20191001081,"Device":"desktop","MaxDeviceWidth":1400,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1600,"MaxHeight":2175,"SizeSequence":3,"Pages":null},{"PageKey":20191001081,"Device":"desktop","MaxDeviceWidth":1023,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":4,"Pages":null},{"PageKey":20191001081,"Device":"mobile","MaxDeviceWidth":1080,"DefaultWidth":1400,"DefaultHeight":1903,"MaxWidth":2400,"MaxHeight":3263,"SizeSequence":5,"Pages":null},{"PageKey":20191001081,"Device":"mobile","MaxDeviceWidth":768,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1800,"MaxHeight":2447,"SizeSequence":6,"Pages":null},{"PageKey":20191001081,"Device":"mobile","MaxDeviceWidth":640,"DefaultWidth":800,"DefaultHeight":1088,"MaxWidth":1200,"MaxHeight":1631,"SizeSequence":7,"Pages":null}],"TextArticles":null,"JumpLinks":[],"Articles":[{"Key":20191001056,"Title":"Dating the Monster","Section":"Columns","StartIndex":1,"Genre":"article","PageName":"74","Spread":40}]}];
 
                     Bondi.Viewer.enabled = true;
-        
+
         Bondi.Viewer.bypass = true;
 
     	})(jQuery);
@@ -525,7 +525,7 @@
 
             <script type="application/ld+json">
             {"@context":"http:\/\/schema.org","@type":"NewsArticle","name":"Dating the Monster","headline":"Dating the Monster","url":"https:\/\/archive.vanityfair.com\/article\/2019\/10\/dating-the-monster","thumbnailUrl":"https:\/\/vanityfair.blob.core.windows.net\/vanityfair20191001thumbnails\/Pages\/0x90\/74.jpg","section":"vf-archive","creator":[["Vanessa Grigoriadis"]],"keywords":["article","Columns"],"author":{"@type":"Person","name":"Vanessa Grigoriadis"},"dateCreated":"2019-10-01T00:00:00","datePublished":"2019-10-01T00:00:00","dateModified":"2019-10-01T00:00:00","image":{"@type":"ImageObject","url":"https:\/\/vanityfair.blob.core.windows.net\/vanityfair20191001thumbnails\/Spreads\/0x600\/40.jpg"},"publisher":{"@type":"Organization","name":"Vanity Fair","logo":{"@type":"ImageObject","url":"https:\/\/www.vanityfair.com\/images\/vanityfair-logo-small.png","width":198,"height":40}},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/archive.vanityfair.com\/article\/2019\/10\/dating-the-monster"},"isAccessibleForFree":"False","hasPart":{"@type":"WebPageElement","isAccessibleForFree":"False","cssSelector":".paywall"}}        </script>
-    
+
         <script type="text/javascript">
 (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split( " "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for ( var d = {}, e = ["get_group"].concat( Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
 
@@ -557,22 +557,22 @@
 
                                         <li class="menunav"><a class="nav_topics bndwgt_topics_trigger" href="javascript:void(0);" title="Browse Collections" tabindex="0" aria-haspopup="true" aria-label="Browse Collections">Collections</a></li>
                     <li class="menunav"><a class="nav_authors bndwgt_authors_trigger" href="javascript:void(0);" title="Browse Featured Contributors" tabindex="0" aria-haspopup="true" aria-label="Browse Featured Contributors">Contributors</a></li>
-                    
-                    
+
+
                 </ul>
 
                                                             <div class="promohead"><span class="hider early">The Complete Vanity Fair Archive </span><span class="highlight">FREE Article!</span></div>
-                                    
+
                 <a class="main_nav_logo" href="/" title="Vanity Fair Archive" tabindex="0" aria-label="Vanity Fair Archive Homepage">Vanity Fair Archive</a>
 
                 <ul class="user_menu on_right">
                     <li class="menunav"><a href="https://www.vanityfair.com/">VF.com</a></li>
 
-                    
-                    
+
+
             <li class="user_menu_1 login"><a role="menuitem" class="" href="/login" tabindex="0" aria-label="Sign In">Sign In</a></li>
             <li class="user_menu_2"><a role="menuitem" href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_NAVBAR_0" class="link-subscribe" target="_blank" tabindex="0" aria-label="Subscribe"><span data-alt="Subscribe Now"><span>Subscribe</span></span></a></li>
-            
+
                     <li class="menunav"><a class="nav_search ui icon bnd_search_overlay_trigger" href="javascript:void(0);" title="Search the Vanity Fair Archive" tabindex="0" aria-haspopup="true" aria-label="Search"><i class="search icon"></i></a></li>
                 </ul>
 
@@ -584,16 +584,16 @@
         <div id="bnd_mainmenu_modal"></div>
     <div id="bnd_search_modal"></div>
 
-</header>        
+</header>
         <main role="main" id="main_content">
                                         <div id="viewerApp" style="display: none;" hidden></div>
 
-    
+
 
 
                  <div class="bnd_article_header">
 
-    
+
                     <div class="bnd_artpg_hero_wrap articlekey_20191001056" style="background: linear-gradient(rgba(10, 20, 30, 0.5),rgba(10, 20, 30, 0.85)), no-repeat top 30% center/cover url('https://archive.vanityfair.com/image/spread/20191001/40');">
             <div class="bndwgt__title_box">
     <div class="bndwgt__info">
@@ -602,7 +602,7 @@
         <h1 class="bndwgt__headline">Dating the Monster</h1>
 
                 <h3 class="bndwgt__subhead"><p>In rarefied New York circles, Jeffrey Epstein was the sociopath who proved the rule</p></h3>
-        
+
         <span class="bndwgt__meta">
             <span class="full_date">
                             October 2019
@@ -614,26 +614,26 @@
                     <span class="bndwgt__author role_illustrator role_2ndary">
             Philip Burke
             </span>
-        
+
                       </span>
 
         <ul class="socials" style="margin-top: 20px;">
 
-    
+
     <li><a aria-label="Share via facebook" class="ui circular facebook icon button " href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster&title=Dating+the+Monster" target="_blank"><i class="facebook icon"></i></a></li>
     <li><a aria-label="Share via twitter" class="ui circular twitter icon button " href="https://twitter.com/intent/tweet?text=Dating+the+Monster&url=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster" target="_blank"><i class="twitter icon"></i></a></li>
     <li><a aria-label="Share via mail" class="ui circular mail icon button " href="mailto:?subject=Dating%20the%20Monster&body=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster" target="_self"><i class="mail icon"></i></a></li>
-    
-    
 
-    
+
+
+
 </ul>
 
     </div>
 </div>
         </div>
     </div>
-        
+
 
 
 
@@ -663,18 +663,18 @@
 
             <ul class="socials tocbar">
 
-                
+
                 <li><a aria-label="Share via facebook" class="ui circular facebook icon button " href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster&title=Dating+the+Monster" target="_blank"><i class="facebook icon"></i></a></li>
                 <li><a aria-label="Share via twitter" class="ui circular twitter icon button " href="https://twitter.com/intent/tweet?text=Dating+the+Monster&url=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster" target="_blank"><i class="twitter icon"></i></a></li>
                 <li><a aria-label="Share via mail" class="ui circular mail icon button " href="mailto:?subject=Dating%20the%20Monster&body=https%3A%2F%2Farchive.vanityfair.com%2Farticle%2F2019%2F10%2Fdating-the-monster" target="_self"><i class="mail icon"></i></a></li>
 
-                
+
                                                         <li>
                         <a role="menuitem" href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_STICKY_TOPBAR _0" class="link-subscribe" target="_blank" tabindex="0" aria-label="Subscribe">
                             <span data-alt="Subscribe Now"><span>Subscribe</span></span>
                         </a>
                     </li>
-                                                    
+
             </ul>
 
         </div>
@@ -682,7 +682,7 @@
             <div class="read_progress"></div>
         </div>
     </div>
-    
+
 
 
 
@@ -691,7 +691,7 @@
     <div class="bndwgt__bondi_article_wrap ui container stackable grid">
 
                         <div class="bndwgt__bondi_article eleven wide column">
-        
+
             <div class="container bndwgt__bondi_article_embed">
 
                 <div class="bnd_artpg_keyspread ui container bondi__viewer bndwgt bndwgt__with-numbers widget-spread bndwgt__pagefx a20191001056">
@@ -719,7 +719,7 @@
         <div class="bndwgt__headline">Dating the Monster</div>
 
                 <h3 class="bndwgt__subhead"><p>In rarefied New York circles, Jeffrey Epstein was the sociopath who proved the rule</p></h3>
-        
+
         <span class="bndwgt__meta">
             <span class="full_date">
                             October 2019
@@ -731,7 +731,7 @@
                     <span class="bndwgt__author role_illustrator role_2ndary">
             Philip Burke
             </span>
-        
+
                       </span>
 
     </div>
@@ -742,7 +742,7 @@
 
 
 <div class="bndwgt__article_body bndwgt__inline_text">
-    
+
     <p><span class="drop">M</span>any moons ago, in the early 2000s, my friends spent a weekend in Southampton with a distinctive young blond who resembled Lady Gaga if Gaga were British. She was about 22 and said she was an interior designer, or a jewelry designer, or a motivational coach&mdash;I can't remember which, but in any case the job sounded semi-fake&mdash;and she lived in an apartment on the Upper East Side that her older boyfriend had given her, at least temporarily. He collected art, and they often attended auctions. He loved vegetarian food and playing unfamiliar concertos on his grand piano. As she strolled down Southampton's tree-lined streets, she was struck by their beauty and said she'd have to discuss getting a home there with her boyfriend. His name was Jeffrey Epstein.<br></p>
 <p>Back then, as a cocky, petite, ink-stained wretch, I wasn't one of the young women in Manhattan whom Epstein and his friends approached for relationships, one-night stands, or abuse. But I was surrounded by a lot of them. They were always the most beautiful girls in the room, usually models or former models, with a slightly aloof <em>Stepford Wives</em> aura that masked a deeper vulnerability. Several names came up when they were around: Epstein, supermarket magnate Ron Burkle, film financier Steve Bing, and former president Bill Clinton, then in the prime of his post-presidential career and flying around on Epstein's jet, dubbed the Lolita Express, or Burkle's jet, dubbed Air Fuck One. (Clinton has not been accused of wrongdoing.) The women were often blond&mdash;Epstein, in particular, liked patrician blonds with a bit of a baby face. At his home on the Upper East Side, he kept a photo of '80s soap star Morgan Fairchild, whom he called his ideal woman, though considering they were both in their early 50s back then, she was far too old for him.</p>
 <figure class="floatedimage"><img src="https://vanityfair.blob.core.windows.net/vanityfair20191001thumbnails/Media/0x600/2019100156_1.jpg" data-verified="redactor" data-save-url="https://vanityfair.blob.core.windows.net/vanityfair20191001thumbnails/Media/0x600/2019100156_1.jpg"><em class="caption" data-redactor-tag="em"></em></figure>
@@ -779,8 +779,8 @@
 
 
                         <div class="five wide column bondi_article_sidebar">
-        
-                                                                                                    
+
+
 
             <div class="sbar_module_wrap shaded related_top5">
                 <a class="sbar_cover" href="https://archive.vanityfair.com/issue/20191001" aria-label="View Full Issue">
@@ -788,11 +788,11 @@
                     <span class="button">View Full Issue</span>
                 </a>
 
-                            
+
             <div class="sbar_module">
                 <h2 class="sbar_module_title">More From This Issue</h2>
                 <ul class="storypage--sidebar_list sbar_top10">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2019/10/upon-a-star" title="View Article: UPON A STAR, October 2019 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -894,7 +894,7 @@
                         </div>
 
 
-                        
+
                                     <div class="shared_substory_cta">
     <div class="vf_cta_slant_hed">
         <span class="vf_cta_slant_hed_inner">Join Today</span>
@@ -905,14 +905,14 @@
     </h3>
 </div>
 
-                
-                                
 
-                                                                                        
+
+
+
             <div class="sbar_module mdtp_category">
                 <h2 class="sbar_module_title"><a href="https://archive.vanityfair.com/sections/crime-punishment">Crime & Punishment</a></h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/1993/10/dominick-dunnes-courtroom-notebook-the-menendez-murder-trial" title="View Article: Dominick Dunne's COURTROOM NOTEBOOK: The Menendez Murder Trial, October 1993 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1011,11 +1011,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_author">
                 <h2 class="sbar_module_title">Vanessa Grigoriadis</h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2011/6/ol-mark-pincus-had-a-farm" title="View Article: OL' MARK PINCUS HAD A FARM..., June 2011 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1114,11 +1114,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_illustrator">
                 <h2 class="sbar_module_title">Philip Burke</h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2001/10/the-fox-factor" title="View Article: THE FOX FACTOR, October 2001 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1131,7 +1131,7 @@
                         <span class="tpc_section">Letters</span>
                         <h3 class="tpc_title">THE FOX FACTOR</h3>
                         <span class="tpc_date">October 2001 <!--<span>2001</span>--></span>
-                        
+
                     </div>
                 </a>
             </li>
@@ -1217,11 +1217,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_section">
                 <h2 class="sbar_module_title"><a href="https://archive.vanityfair.com/sections/columns">Columns</a></h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2007/11/the-people-vs-the-profiteers" title="View Article: The People vs. the Profiteers, November 2007 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1320,25 +1320,25 @@
             </li>
                 </ul>
             </div>
-                                                                                
 
-            
-            
-                                                                                        
-            
+
+
+
+
+
         </div>
     </div>
 
-    
+
             <div class="article_substory_wrap">
             <div class="ui container article_substory">
 
                             <div class="sbar_module_wrap related_top5">
-                    
+
             <div class="sbar_module">
                 <h2 class="sbar_module_title">More From This Issue</h2>
                 <ul class="storypage--sidebar_list sbar_top10">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2019/10/upon-a-star" title="View Article: UPON A STAR, October 2019 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1390,13 +1390,13 @@
                 </ul>
             </div>
                 </div>
-            
-                
-                                                                                            
+
+
+
             <div class="sbar_module mdtp_category">
                 <h2 class="sbar_module_title"><a href="https://archive.vanityfair.com/sections/crime-punishment">Crime & Punishment</a></h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/1993/10/dominick-dunnes-courtroom-notebook-the-menendez-murder-trial" title="View Article: Dominick Dunne's COURTROOM NOTEBOOK: The Menendez Murder Trial, October 1993 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1447,11 +1447,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_author">
                 <h2 class="sbar_module_title">Vanessa Grigoriadis</h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2011/6/ol-mark-pincus-had-a-farm" title="View Article: OL' MARK PINCUS HAD A FARM..., June 2011 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1502,11 +1502,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_illustrator">
                 <h2 class="sbar_module_title">Philip Burke</h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2001/10/the-fox-factor" title="View Article: THE FOX FACTOR, October 2001 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1519,7 +1519,7 @@
                         <span class="tpc_section">Letters</span>
                         <h3 class="tpc_title">THE FOX FACTOR</h3>
                         <span class="tpc_date">October 2001 <!--<span>2001</span>--></span>
-                        
+
                     </div>
                 </a>
             </li>
@@ -1557,11 +1557,11 @@
             </li>
                 </ul>
             </div>
-                                                                                                
+
             <div class="sbar_module mdtp_section">
                 <h2 class="sbar_module_title"><a href="https://archive.vanityfair.com/sections/columns">Columns</a></h2>
                 <ul class="storypage--sidebar_list sbar_section">
-                    
+
             <li class="bndwgt widget-spread bndwgt__pagefx">
                 <a class="lndg_art_link" href="https://archive.vanityfair.com/article/2007/11/the-people-vs-the-profiteers" title="View Article: The People vs. the Profiteers, November 2007 | Vanity Fair">
                     <div class="bndwgt__slide">
@@ -1612,12 +1612,12 @@
             </li>
                 </ul>
             </div>
-                                            
-                
+
+
 
             </div>
         </div>
-    
+
         </main>
 
                         <div role="contentinfo" class="bnd_page_footer ui inverted vertical footer segment">
@@ -1634,21 +1634,21 @@
                 <li class="menunav"><a class="nav_welcome" href="/" title="Welcome: Go to Vanity Fair Archive Homepage" tabindex="0" aria-label="Go to Homepage">Welcome</a></li>
 
                 <li class="menunav"><a class="nav_issues bndwgt_decades_trigger" href="javascript:void(0)" tabindex="0" aria-haspopup="true" title="Browse Issues by Decade" aria-label="Browse Issues">Issues</a></li>
-                
+
                                 <li class="menunav"><a class="nav_topics bndwgt_topics_trigger" href="javascript:void(0)" tabindex="0" aria-haspopup="true" aria-label="Browse Collections">Collections</a></li>
                 <li class="menunav"><a class="nav_authors bndwgt_authors_trigger" href="javascript:void(0)" tabindex="0" aria-haspopup="true" title="Browse Featured Contributors" aria-label="Browse Featured Contributors">Contributors</a></li>
-                
-                
+
+
                 <li class="menunav"><a class="nav_search ui icon bnd_search_overlay_trigger" href="javascript:void(0)" tabindex="0" title="Search the Vanity Fair Archive" aria-label="Search" aria-haspopup="true">Search <i class="search icon"></i></a></li>
             </ul>
             <ul class="user_menu">
                 <li class="menunav"><a href="https://www.vanityfair.com/">VF.com</a></li>
 
-                
-                
+
+
             <li class="user_menu_1 login"><a role="menuitem" class="" href="/login" tabindex="0" aria-label="Sign In">Sign In</a></li>
             <li class="user_menu_2"><a role="menuitem" href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_FOOTER_SUBSCRIBE_0" class="link-subscribe" target="_blank" tabindex="0" aria-label="Subscribe"><span data-alt="Subscribe Now"><span>Subscribe</span></span></a></li>
-            
+
             </ul>
             <button id="fides-modal-link">Manage Preferences</button>
             <div class="footer_meta ui horizontal inverted small divided">
@@ -1672,8 +1672,8 @@
         <h1 id="LoginLabel" class="edge">Sign In to Your Account</h1>
         <p class="details">Subscribers have complete access to the archive.</p>
         <a class="ui button bnd_login" tab-index="0" aria-label="Sign In to view Content" href="/login">Sign In</a>
-        
-        
+
+
         <a class="bnd_login_join" href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_SIGN_IN_0" target="_blank"><span>Not a Subscriber?<span class="bnd_login_join_btn">Join Now</span></span></a>
     </div>
 </div>
@@ -1688,7 +1688,7 @@
     <div class="bnd_modaal bnd_modal" data-trigger=".bndwgt_authors_trigger" data-title="Contributors" data-slug="authors"></div>
                 <div id="bnd_issues_modaal" class="bnd_modaal"></div>
                             <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"></script>
-            
+
                         <script type="text/javascript">
                 $(document).ready(function() {
                     $(window).on("scroll", function() {
@@ -1708,7 +1708,7 @@
                 });
             </script>
             <button id="backToTop" class="bnd__backtotop circular ui icon button huge" title="Back to Top" type="button" aria-label="Back to Top of Page"><i class="icon angle up"></i></button>
-        
+
 
             <div class="bndvwr viewer-display" tabindex="-1" role="dialog" aria-hidden="true" aria-label="Magazine Viewer for scanned image pages">
     <!-- <div tabindex="0" class="sentinelStart"></div> -->
@@ -1720,11 +1720,11 @@
             <div class="bndvwr__item"></div>
         </div>
         <div role="navigation" aria-label="Primary Viewer Menu" class="bndvwr__ui bndvwr__ui--hidden  ">
-            
+
             <div role="menu" class="bndvwr__top-bar">
                 <div id="sentinelStart" tabIndex="99"></div>
 
-                
+
                 <a id="" class="bndwvr__logo" role="menuitem" tabindex="99" href="/" title="Vanity Fair Archive Home" aria-label="Vanity Fair Archive Home" rel="home">
                     <h1>Vanity Fair</h1>
                 </a>
@@ -1750,13 +1750,13 @@
                                         <a role="menuitem" tabindex="99" href="https://archive.vanityfair.com/issue/20191001" class="jumpbar__issue" title="View the Full Issue" aria-label="View the Full Issue">October 2016</a>
                                     </div>
                 <div class="jumpbar__btm">
-        
-                    
+
+
                                                              <a href="javascript:void(0);" role="menuitem" tabindex="99" class="jumpbar__bkm_link bndvwr__button--jumpshare" title="View Article Permalink" aria-label="View article permalink on separate page"><i class="ui icon linkify bndvwr__button--jumpshare"></i></a>
-                    
+
 
                                                                                 <a role="menuitem" tabindex="99" class="jumpbar__bkm_link bndvwr__button--print" title="Print this article" aria-label="Print this article"><i class="bkm_icon icon-printer bndvwr__button--print"></i></a>
-                    
+
 
                                     </div>
             </div>
@@ -1765,7 +1765,7 @@
 
                                         <div id="bndvwr__thumbstrip" class="bndvwr__thumbstrip bndvwr__mode_spread" aria-label="Secondary - Viewer Thumbnail Menu">
 
-                                                                
+
 
                     <ul class="bndvwr__flicker" data-flickity1='{ "cellAlign": "left", "contain": true, "groupCells": "80%", "pageDots": false, "imagesLoaded": true, "lazyLoad": true }'>
                                                                                     <li id="thumb_74" class="bndvwr__thumb thumb_even thumb_74">
@@ -1817,7 +1817,7 @@
                         freeScrollFriction: 0.05
                     });
                 </script>
-                            
+
 
             <div id="viewerArrows">
                 <!-- <button role="menuitem" tabindex="99" class="bndvwr__button bndvwr__button--arrow--left" title="Previous Page" aria-label="View Previous Page"></button>
@@ -1827,10 +1827,10 @@
             <div role="menu" class="bndvwr__btm-bar" aria-label="Secondary Viewer Menu">
 
                                 <button role="menuitem" tabindex="99" id="bndwgt_pageinfo_trigger" class="bndvwr__button_custom bndvwr__button--info">Page Details</button>
-                
-                                                
+
+
                                 <button role="menuitem" tabindex="99" id="thumbs_toggle" class="bndvwr__button--thumbs_toggle" title="View Page Thumbnails" aria-label="View Page Thumbnails">View Thumbnails</button>
-                
+
                 <div class="bndvwr__btm-innerRightBar">
                                         <button role="menuitem" tabindex="99" id="bndwgtViewText" class="bndwgt_article_trigger bndvwr__button_custom btn_text bndvwr__button--text" title="Read Article Text" aria-label="Read Plain Article Text">
                         <span class="bndvwr__btn_wide bndvwr__button--text">Read <strong class="bndvwr__button--text">Plain Text</strong></span>
@@ -1854,7 +1854,7 @@
                             .dropdown()
                         ;
                     </script>
-                    
+
                     <button role="menuitem" tabindex="99" class="bndvwr__button bndvwr__button--outzoom" title="Zoom Out Gradually" aria-label="Zoom Out Gradually - or use DOWN arrow"></button>
                     <button role="menuitem" tabindex="99" class="bndvwr__button bndvwr__button--zoom" title="Maximum Zoom In/Out [SPACE BAR]" aria-label="Maximum Zoom in or out - or use SPACE bar"></button>
                     <button role="menuitem" tabindex="99" class="bndvwr__button bndvwr__button--inzoom" title="Zoom In Gradually" aria-label="Zoom In Gradually - or use UP arrow"></button>
@@ -1883,10 +1883,10 @@
 <div class="bndwgt__plain_text_wrapper ui modal">
     <i id="closebutton" class="close icon" role="menuitem" tabindex="0" aria-label="Close plain text window"></i>
 
-    
+
     <div class="content bndwgt__text"></div>
 
-    
+
     <div class="actions">
         <div role="menuitem" tabindex="0" aria-label="Close plain text window" class="ui black deny button">Done Reading</div>
     </div>
@@ -1907,8 +1907,8 @@
         }
     });
 </script>
-    
-    
+
+
     <script src="https://archive.vanityfair.com/js/bondi.article.viewer.js?id=5fd314ee72be0e5c0f25"></script>
 
                             <div class="shared_footer_cta_basic">
@@ -1916,18 +1916,18 @@
 
 
                         <span class="bnd_meter_wrap">
-            
-            
+
+
                         <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_METER_ARTICLE_1 _0" target="_blank" class="hider">
-                <span>The <em>Vanity Fair</em> Archive is a subscriber-only benefit. 
+                <span>The <em>Vanity Fair</em> Archive is a subscriber-only benefit.
                                         <strong>Enjoy one article on us.</strong>
                                     </span>
             </a>
-            
-        </span>
-         
 
-        
+        </span>
+
+
+
 
         <div class="cta_basic_content">
             <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_STICKY_FOOTER_0" target="_blank" class="link">Join Now</a>
@@ -1945,34 +1945,34 @@
     <div class="cta_inner">
 
 
-    
+
                 <h3 class="promohead">
             Access everything <em>Vanity Fair</em> has ever published. <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_RISER_FOOTER_0" target="_blank" >Join Now</a>
             <span class="promodeck">Subscriber-Only Benefit — <strong>The Complete Vanity Fair Archive</strong> • <span class="">EVERY ISSUE. EVERY PAGE. 1913 TO TODAY.</span></span>
         </h3>
-        
+
     </div>
 </div>
 
 
-            
+
                             <div class="shared_footer_cta_basic">
     <div class="cta_inner">
 
 
                         <span class="bnd_meter_wrap">
-            
-            
+
+
                         <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_METER_ARTICLE_1 _0" target="_blank" class="hider">
-                <span>The <em>Vanity Fair</em> Archive is a subscriber-only benefit. 
+                <span>The <em>Vanity Fair</em> Archive is a subscriber-only benefit.
                                         <strong>Enjoy one article on us.</strong>
                                     </span>
             </a>
-            
-        </span>
-         
 
-        
+        </span>
+
+
+
 
         <div class="cta_basic_content">
             <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_STICKY_FOOTER_0" target="_blank" class="link">Join Now</a>
@@ -1990,17 +1990,17 @@
     <div class="cta_inner">
 
 
-    
+
                 <h3 class="promohead">
             Access everything <em>Vanity Fair</em> has ever published. <a href="https://subscribe.vanityfair.com/subscribe/splits/vanityfair/VYF_ARCHIVES?source=HCL_VYF_ARCHIVES_RISER_FOOTER_0" target="_blank" >Join Now</a>
             <span class="promodeck">Subscriber-Only Benefit — <strong>The Complete Vanity Fair Archive</strong> • <span class="">EVERY ISSUE. EVERY PAGE. 1913 TO TODAY.</span></span>
         </h3>
-        
+
     </div>
 </div>
 
 
-            
+
                 <script type="text/javascript">
             $(document).ready(function() {
                 $(window).on("scroll", function() {
@@ -2011,7 +2011,7 @@
                 });
             });
         </script>
-    
+
 
         <script src="https://archive.vanityfair.com/js/app-prod.js?id=527d078d0824bd1381b8"></script>
     </body>

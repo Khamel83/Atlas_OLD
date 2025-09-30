@@ -154,8 +154,8 @@ window.addEventListener("load", () => {
     <input name="hdnRedirectToLoginUrl" type="hidden" id="hdnRedirectToLoginUrl" value="https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&amp;pendoQ4PId=_q4pidval_&amp;projectId=studio&amp;step=login&amp;companyName=Meta&amp;projectIdentifier=Meta&amp;mainColor=%230F5CA3&amp;scope=openid+profile+email&amp;helpUrl=https%3a%2f%2fhelp.events.q4inc.com%2fen%2fir-website.html&amp;response_type=code&amp;response_mode=query&amp;nonce=HXt3Vy30SyKUd4a67VSv6QbyQ8&amp;skipUrl=https%3a%2f%2finvestor.fb.com%2fleadership-and-governance%2f&amp;userEmail=_q4lemail_&amp;redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect%3fstate%3deyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLmZiLmNvbS9sZWFkZXJzaGlwLWFuZC1nb3Zlcm5hbmNlLyIsImV4cCI6MTczODg3NjI2Mi4wLCJpYXQiOjE3MzM2MTY2NjIuMCwiaXNzIjoiUTQuV2ViLlB1YmxpYy5TaXRlIiwiYXVkIjoidXBzdHJlYW0uY2RuLndlYi5wcmQucTRpbmMuY29tIn0.uvazd46HiD-3o7GqXdNGIaRHXttm2wtiOY2Qe0nXqT0"/>
 
 <input type="hidden" id="__RequestVerificationToken"/>
-    
-    
+
+
     <div id="pageClass" class="Sectionhome PageDefault PageLeadershipGovernance LayoutThreeColumnLayout Languageen-US">
         <div class="PageDefaultInner">
             <div id="litPageDiv" class="PageLeadershipampGovernance SectionLeadershipampGovernance ParentSection_home">
@@ -196,33 +196,33 @@ function GetSignature(){{ return ''; }}
 </script>
 
 <a id="lnkPostback" aria-hidden="true" aria-label="lnkPostback" href="javascript:__doPostBack('lnkPostback','')" style="display: none"></a>
-                    
+
 <div class="LayoutDefault LayoutThreeColumn">
 	<div class="LayoutDefaultInner">
 		<div class="HeaderContainer">
 			<div class="PaneHeader"><div class="container clearfix"><span class="HeaderPaneDiv"><span class="HeaderPaneDiv2"><div id="_ctrl0_ctl09_divModuleContainer" class="HtmlTextContainer MobileTriggers">
-    
+
     <div class="ContentContainer">
         <span class="q4i-icon-search search-trigger-mobile"></span>
 <span class="q4i-icon-menu menu-trigger-mobile"></span>
     </div>
 </div></span><span class="HeaderPaneDiv5"><div id="_ctrl0_ctl18_divModuleContainer" class="HtmlTextContainer Logo">
-    
+
     <div class="ContentContainer">
         <a href="/web/20241208230557/https://investor.fb.com/home/default.aspx"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/design/2022/01/Meta_lockup_positive-primary_RGB-(1).jpg"> <br> Meta Investor Relations</a>
     </div>
 </div></span><span class="HeaderPaneDiv6"><div id="_ctrl0_ctl21_divModuleContainer" class="ModuleContainer ModuleSearch Search_desktop">
-	
+
     <div class="ModuleContainerInnerTop">
         <div class="ModuleContainerInner">
 	        <span id="_ctrl0_ctl21_lblSearchText" class="SearchText"></span><input name="_ctrl0$ctl21$txtSearchInput" type="text" id="_ctrl0_ctl21_txtSearchInput" class="SearchInput" value="" onkeypress="javascript:var key; if (window.event) { key = window.event.keyCode; } else if (e) { key = e.which; } else { return true; } if (key == 13) __doPostBack('_ctrl0$ctl21$btnSearch', ''); "/>
             <input type="submit" name="_ctrl0$ctl21$btnSearch" value="" id="_ctrl0_ctl21_btnSearch" class="ModuleButton SearchButton"/>
-            
+
         </div>
     </div>
 </div>
 </span><span class="HeaderPaneDiv7"><div id="_ctrl0_ctl24_divModuleContainer" class="BlankModuleContainer Like-and-Share">
-    
+
     <div class="fb-like" data-href="//facebook.com/facebookinvestorrelations" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
 <div class="fb-share-button" data-href="http://investor.fb.com/" data-layout="button_count"></div>
 <div id="fb-root"></div>
@@ -237,7 +237,7 @@ function GetSignature(){{ return ''; }}
     }(document, 'script', 'facebook-jssdk'));
 </script>
 </div></span><span class="HeaderPaneDiv18"><div id="_ctrl0_ctl42_divModuleContainer" class="BlankModuleContainer">
-    
+
     <script type="text/javascript">
 (function (d, t) {
   var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -247,7 +247,7 @@ function GetSignature(){{ return ''; }}
   })(document, 'script');
 </script>
 </div></span><span class="HeaderPaneDiv20"><div id="_ctrl0_ctl48_divModuleContainer" class="BlankModuleContainer">
-    
+
     <script>
 $(document).ready(function() { // Redirect
     if (location.href.toLowerCase().indexOf('/financials/sec-filings/default.aspx') > -1) {
@@ -258,12 +258,12 @@ $(document).ready(function() { // Redirect
 </script>
 </div></span></span></div></div>
 			<div class="PaneBreadcrumb"><div class="container clearfix"><span class="BreadcrumbPaneDiv3"><div id="_ctrl0_ctl12_divModuleContainer" class="ModuleContainer ModuleSearch Search_mobile">
-	
+
     <div class="ModuleContainerInnerTop">
         <div class="ModuleContainerInner">
 	        <span id="_ctrl0_ctl12_lblSearchText" class="SearchText"></span><input name="_ctrl0$ctl12$txtSearchInput" type="text" id="_ctrl0_ctl12_txtSearchInput" class="SearchInput" value="" onkeypress="javascript:var key; if (window.event) { key = window.event.keyCode; } else if (e) { key = e.which; } else { return true; } if (key == 13) __doPostBack('_ctrl0$ctl12$btnSearch', ''); "/>
             <input type="submit" name="_ctrl0$ctl12$btnSearch" value="" id="_ctrl0_ctl12_btnSearch" class="ModuleButton SearchButton"/>
-            
+
         </div>
     </div>
 </div>
@@ -317,39 +317,39 @@ $(document).ready(function() { // Redirect
     <h1 id="_ctrl0_ctl51_lblTitle" class="ModuleTitle"><span id="_ctrl0_ctl51_lblModuleTitle" class="ModuleTitle"><a name="governancedocuments" class="sectionLink"></a>Governance Documents</span></h1>
     <div id="_ctrl0_ctl51_divYears" class="ModuleYearNavContainer">
         <div class="ModuleYearNavContainerInner">
-            
+
         </div>
     </div>
     <div class="ModuleContainerInnerTop">
     <div class="ModuleContainerInner">
-        
+
                 <div class="ModuleHeader">
-                    
-                    
+
+
                     <span id="_ctrl0_ctl51_repeaterContent_ctl00_lblHeader2" class="ModuleHeaderText ModuleHeaderText2">Document</span>
                     <span class="ModuleHeaderText ModuleHeaderText3">View / Download</span>
                     <span id="_ctrl0_ctl51_repeaterContent_ctl00_lblDescriptionHeader" class="ModuleHeaderText ModuleHeaderDescription">Description</span>
                 </div>
-            
+
                 <div class="ModuleItemRow ModuleItem">
                     <div class="left">
-                        
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/2024/05/03/CURRENT-Corporate-Governance-Guidelines-April-3-2022.pdf" id="_ctrl0_ctl51_repeaterContent_ctl01_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Corporate Governance Guidelines</span></a>
                     </div>
                     <div class="right">
                         <span id="_ctrl0_ctl51_repeaterContent_ctl01_lblDescription" class="ModuleFileDescriptionText"><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/corporate-governance-guidelines/default.aspx" class="icon-html"></a> </span>
-                        <span class="ModuleIcon"><a href="" target=""></a></span>  
+                        <span class="ModuleIcon"><a href="" target=""></a></span>
                         <span id="_ctrl0_ctl51_repeaterContent_ctl01_lblFileSize" class="ModuleFileSizeText">190 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl02_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItemAlt">
                     <div class="left">
-                               
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/2024/12/Code-of-Conduct-2024.pdf" id="_ctrl0_ctl51_repeaterContent_ctl03_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Code of Conduct – Effective December 4, 2024</span></a>
                     </div>
                     <div class="right">
@@ -358,28 +358,28 @@ $(document).ready(function() { // Redirect
                         <span id="_ctrl0_ctl51_repeaterContent_ctl03_lblFileSize" class="ModuleFileSizeText">2.38 MB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl04_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItem">
                     <div class="left">
-                        
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/governance_documents/2024/06/Meta-Platforms-A-R-Certificate-of-Incorporation-06-18-2024.pdf" id="_ctrl0_ctl51_repeaterContent_ctl05_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Certificate of Incorporation</span></a>
                     </div>
                     <div class="right">
                         <span id="_ctrl0_ctl51_repeaterContent_ctl05_lblDescription" class="ModuleFileDescriptionText"></span>
-                        <span class="ModuleIcon"><a href="" target=""></a></span>  
+                        <span class="ModuleIcon"><a href="" target=""></a></span>
                         <span id="_ctrl0_ctl51_repeaterContent_ctl05_lblFileSize" class="ModuleFileSizeText">3.69 MB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl06_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItemAlt">
                     <div class="left">
-                               
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/governance_documents/2024/09/Meta-A-R-Bylaws-9-05-2024.pdf" id="_ctrl0_ctl51_repeaterContent_ctl07_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Bylaws</span></a>
                     </div>
                     <div class="right">
@@ -388,28 +388,28 @@ $(document).ready(function() { // Redirect
                         <span id="_ctrl0_ctl51_repeaterContent_ctl07_lblFileSize" class="ModuleFileSizeText">333 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl08_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItem">
                     <div class="left">
-                        
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/2024/05/Meta-Audit-and-Risk-Oversight-Committee-Charter-05-30-2024.pdf" id="_ctrl0_ctl51_repeaterContent_ctl09_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Audit &amp; Risk Oversight Committee Charter</span></a>
                     </div>
                     <div class="right">
                         <span id="_ctrl0_ctl51_repeaterContent_ctl09_lblDescription" class="ModuleFileDescriptionText"><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/audit-committee-charter/default.aspx" class="icon-html"></a></span>
-                        <span class="ModuleIcon"><a href="" target=""></a></span>  
+                        <span class="ModuleIcon"><a href="" target=""></a></span>
                         <span id="_ctrl0_ctl51_repeaterContent_ctl09_lblFileSize" class="ModuleFileSizeText">226 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl10_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItemAlt">
                     <div class="left">
-                               
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/2024/05/03/Meta-CNGC-Charter-09-07-2023.pdf" id="_ctrl0_ctl51_repeaterContent_ctl11_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Compensation, Nominating &amp; Governance Committee Charter</span></a>
                     </div>
                     <div class="right">
@@ -418,28 +418,28 @@ $(document).ready(function() { // Redirect
                         <span id="_ctrl0_ctl51_repeaterContent_ctl11_lblFileSize" class="ModuleFileSizeText">196 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl12_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItem">
                     <div class="left">
-                        
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/2024/05/Meta-Privacy-and-Product-Compliance-Committee-Charter-5-30-2024.pdf" id="_ctrl0_ctl51_repeaterContent_ctl13_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Privacy &amp; Product Compliance Committee Charter</span></a>
                     </div>
                     <div class="right">
                         <span id="_ctrl0_ctl51_repeaterContent_ctl13_lblDescription" class="ModuleFileDescriptionText"><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/Privacy-Committee-Charter/default.aspx" class="icon-html"></a> </span>
-                        <span class="ModuleIcon"><a href="" target=""></a></span>  
+                        <span class="ModuleIcon"><a href="" target=""></a></span>
                         <span id="_ctrl0_ctl51_repeaterContent_ctl13_lblFileSize" class="ModuleFileSizeText">143 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl14_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItemAlt">
                     <div class="left">
-                               
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/governance_documents/2023/06/Stock-Ownership-Guidelines-June-1-2023.pdf" id="_ctrl0_ctl51_repeaterContent_ctl15_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Stock Ownership Guidelines</span></a>
                     </div>
                     <div class="right">
@@ -448,25 +448,25 @@ $(document).ready(function() { // Redirect
                         <span id="_ctrl0_ctl51_repeaterContent_ctl15_lblFileSize" class="ModuleFileSizeText">165 KB</span>
                     </div>
                 </div>
-            
+
                 <span id="_ctrl0_ctl51_repeaterContent_ctl16_divider" class="ModuleSeparator"></span>
-            
+
                 <div class="ModuleItemRow ModuleItem">
                     <div class="left">
-                        
-                        
+
+
                         <a href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/doc_downloads/governance_documents/2023/02/meta's-approach-to-tax-policy.pdf" id="_ctrl0_ctl51_repeaterContent_ctl17_hrefReport2" target="_blank" class="ModuleHeadlineLink"><span class="ModuleHeadline">Our Approach to Tax Policy</span></a>
                     </div>
                     <div class="right">
                         <span id="_ctrl0_ctl51_repeaterContent_ctl17_lblDescription" class="ModuleFileDescriptionText"></span>
-                        <span class="ModuleIcon"><a href="" target=""></a></span>  
+                        <span class="ModuleIcon"><a href="" target=""></a></span>
                         <span id="_ctrl0_ctl51_repeaterContent_ctl17_lblFileSize" class="ModuleFileSizeText">166 KB</span>
                     </div>
                 </div>
-            
+
                 <div class="ModuleFooter">
                 </div>
-            
+
     </div>
     <div class="ModuleNotFound"></div>
     </div>
@@ -477,12 +477,12 @@ $(document).ready(function() { // Redirect
             <span id="_ctrl0_ctl54_lblModuleTitle" class="ModuleTitle"><a name="management" class="sectionLink"></a>Management</span></h1>
         <div class="ModuleContainerInnerTop">
             <div class="ModuleContainerInner">
-                
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl00_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl00_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/MZ-headshot.jpg" id="_ctrl0_ctl54_lstPersons_ctl00_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl00_lblPersonName2" class="PersonName2">Mark Zuckerberg</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -496,17 +496,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl54_lstPersons_ctl00_lblDescription"><div class="fb-follow" data-href="http://www.facebook.com/zuck" data-width="600" data-colorscheme="light" data-layout="button_count" data-show-faces="false"></div>
 <p>Mark Zuckerberg is the founder, chairman and CEO of Meta, which he originally founded as Facebook in 2004. Mark is responsible for setting the overall direction and product strategy for the company. He leads the design of Meta's services and development of its core technology and infrastructure. Mark studied computer science at Harvard University before moving the company to Palo Alto, California.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl01_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl01_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/Javi-Olivan-(1).jpg" id="_ctrl0_ctl54_lstPersons_ctl01_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl01_lblPersonName2" class="PersonName2">Javier Olivan</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -524,17 +524,17 @@ $(document).ready(function() { // Redirect
 <p>Prior to Meta, Javier was a product manager at Siemens Mobile, where he led a cross-functional team charged with the development and market launch of handset devices. Javier holds a master’s degree in business administration from Stanford University and master’s degrees in both electrical and industrial engineering from the University of Navarra. He sits on the board of Endeavor, a nonprofit supporting the global entrepreneurial ecosystem. </p>
 </span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl02_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl02_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/ProfilePictureMaker.png" id="_ctrl0_ctl54_lstPersons_ctl02_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl02_lblPersonName2" class="PersonName2">Nick  Clegg</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -555,17 +555,17 @@ $(document).ready(function() { // Redirect
 }*/
 </style></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl03_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl03_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/Susan-Li-(Management-Headshot).png" id="_ctrl0_ctl54_lstPersons_ctl03_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl03_lblPersonName2" class="PersonName2">Susan Li</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -578,17 +578,17 @@ $(document).ready(function() { // Redirect
                                 <div class="PersonDescription">
                                     <span id="_ctrl0_ctl54_lstPersons_ctl03_lblDescription"><p>Susan Li is chief financial officer at Meta, where she leads the finance and facilities teams. Prior to becoming CFO, Susan served as the company’s vice president of Finance and led the teams focused on Finance &amp; Business Planning and Treasury. She joined the company, then called Facebook, in 2008. Previously she was an investment banking analyst at Morgan Stanley.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl04_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl04_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/Andrew-Bosworth.jpeg" id="_ctrl0_ctl54_lstPersons_ctl04_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl04_lblPersonName2" class="PersonName2">Andrew Bosworth</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -601,17 +601,17 @@ $(document).ready(function() { // Redirect
                                 <div class="PersonDescription">
                                     <span id="_ctrl0_ctl54_lstPersons_ctl04_lblDescription"><p>Andrew Bosworth — or Boz, as most people know him — is the CTO of Meta, leading the Reality Labs team. Andrew graduated from Harvard in 2004 before working as a developer on Microsoft Visio for almost two years. He joined Mark Zuckerberg at what was then called Facebook in January of 2006 where he created News Feed and many early anti-abuse systems, some of which are still in production. After working briefly on optimizing site speed and reliability, Andrew established and ran the company’s six-week bootcamp program designed to help grow the engineering team and maintain its culture. He then led the integration of the Messages and Chat products while improving stability, followed by tenures leading the Groups, Messenger and Video Calling teams. At various times, he has been the engineering director overseeing Events, Places, Photos, Videos, Timeline, Privacy, Mobile Monetization and Feed Ads. Most recently, he served as the VP of Ads and Business Platform where he led engineering, product, research, analytics, and design. In 2017, he created the company’s AR/VR organization, now called Reality Labs. Andrew leads Meta’s efforts in AR, VR, AI and consumer hardware across Quest, Portal, Ray-Ban Stories and more.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl05_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl05_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/FB_11-180348-v3.jpg" id="_ctrl0_ctl54_lstPersons_ctl05_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl05_lblPersonName2" class="PersonName2">Chris Cox</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -624,17 +624,17 @@ $(document).ready(function() { // Redirect
                                 <div class="PersonDescription">
                                     <span id="_ctrl0_ctl54_lstPersons_ctl05_lblDescription"><p>Chris Cox is chief product officer at Meta, leading its apps and technologies. After earning his bachelor’s degree in symbolic systems from Stanford University in 2004, Chris joined Meta, then called Facebook, in 2005 as a software engineer and helped build the first versions of key Facebook features, including News Feed. He then became director of human resources, setting the tone for the company’s culture. In 2008, he became vice president of product, where he built the initial product management and design teams, before being promoted to chief product officer in 2014. From April 2019 through May 2020, Chris spent time researching and pursuing new projects focused on climate change. He returned to the company in June 2020.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl54_lstPersons_ctl06_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl54_lstPersons_ctl06_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/management/jennifer-newstead-crop.jpg" id="_ctrl0_ctl54_lstPersons_ctl06_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl54_lstPersons_ctl06_lblPersonName2" class="PersonName2">Jennifer Newstead</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -647,12 +647,12 @@ $(document).ready(function() { // Redirect
                                 <div class="PersonDescription">
                                     <span id="_ctrl0_ctl54_lstPersons_ctl06_lblDescription"><p>Jennifer G. Newstead is chief legal officer of Meta, formerly Facebook, where she oversees all legal matters, including corporate governance and securities compliance, regulatory oversight, litigation, intellectual property and commercial matters. Prior to joining Meta, then Facebook, in 2019, Jennifer served as the Legal Adviser of the U.S. Department of State, where she led the legal team responsible for advising the Secretary of State on all domestic and international legal issues affecting the conduct of U.S. foreign relations. Earlier in her career, she served as General Counsel of the White House Office of Management and Budget, as a Principal Deputy Assistant Attorney General of the Office of Legal Policy at the Department of Justice, and as Special Assistant to the President and Associate White House Counsel. Jennifer was a partner for twelve years at Davis Polk &amp; Wardwell LLP, where she advised global corporations in litigation, regulatory investigation and compliance matters. She holds an AB from Harvard University and a JD from Yale Law School. Following law school, she served as a law clerk for Justice Stephen Breyer of the United States Supreme Court and Judge Laurence Silberman of the U.S. Court of Appeals for the D.C. Circuit. She has previously served as an Adjunct Professor of Law at Georgetown University Law Center.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
             </div>
         </div>
     </div>
@@ -662,12 +662,12 @@ $(document).ready(function() { // Redirect
             <span id="_ctrl0_ctl57_lblModuleTitle" class="ModuleTitle"><a name="board" class="sectionLink"></a>Board of Directors</span></h1>
         <div class="ModuleContainerInnerTop">
             <div class="ModuleContainerInner">
-                
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl00_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl00_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/MZ-headshot.jpg" id="_ctrl0_ctl57_lstPersons_ctl00_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl00_lblPersonName2" class="PersonName2">Mark Zuckerberg</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -680,17 +680,17 @@ $(document).ready(function() { // Redirect
                                 <div class="PersonDescription">
                                     <span id="_ctrl0_ctl57_lstPersons_ctl00_lblDescription"><p>Mark Zuckerberg is the founder, chairman and CEO of Meta, which he originally founded as Facebook in 2004. Mark is responsible for setting the overall direction and product strategy for the company. He leads the design of Meta's services and development of its core technology and infrastructure. Mark studied computer science at Harvard University before moving the company to Palo Alto, California.</p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl01_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl01_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Peggy-Alford-squared.jpg" id="_ctrl0_ctl57_lstPersons_ctl01_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl01_lblPersonName2" class="PersonName2">Peggy Alford</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -706,17 +706,17 @@ $(document).ready(function() { // Redirect
 <p><a href="/web/20241208230557/https://investor.fb.com/corporate-governance/compensation-and-governance-committee-charter/default.aspx"><i class="q4i-icon-member chair"></i> Chair of the Compensation, Nominating &amp; Governance Committee</a></p>
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/Privacy-Committee-Charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Privacy &amp; Product Compliance Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl02_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl02_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Marc-Andreessen-squared.jpg" id="_ctrl0_ctl57_lstPersons_ctl02_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl02_lblPersonName2" class="PersonName2">Marc L. Andreessen</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -730,17 +730,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl57_lstPersons_ctl02_lblDescription"><p>Marc L. Andreessen has served as a member of our board of directors since June 2008. Mr. Andreessen is a co-founder and has been a General Partner of Andreessen Horowitz, a venture capital firm, since July 2009. Previously, Mr. Andreessen co-founded and served as the Chairman of the board of directors of Opsware, Inc. (formerly known as Loudcloud Inc.), a software company. He also served as Chief Technology Officer of America Online, Inc., an internet services company. Mr. Andreessen was a co-founder of Netscape Communications Corporation, a software company, serving in various positions, including Chief Technology Officer and Executive Vice President of Products. In addition to serving on our board of directors, Mr. Andreessen currently serves on the boards of directors of Coinbase Global, Inc., a cryptocurrency exchange platform, and Samsara Inc., a connected operations company, as well as on the boards of directors of several private companies. Mr. Andreessen previously served as a member of the boards of directors of eBay Inc. from September 2008 to October 2014, Hewlett-Packard Company from September 2009 to October 2015, and Hewlett Packard Enterprise Company from November 2015 to April 2018. Mr. Andreessen holds a B.S. in computer science from the University of Illinois at Urbana-Champaign.</p>
 <p><a href="/web/20241208230557/https://investor.fb.com/corporate-governance/compensation-and-governance-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Compensation, Nominating &amp; Governance Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl03_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl03_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2024/John-Arnoldr.png" id="_ctrl0_ctl57_lstPersons_ctl03_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl03_lblPersonName2" class="PersonName2">John Arnold</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -754,17 +754,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl57_lstPersons_ctl03_lblDescription"><p>John Arnold is co-founder and co-chair of Arnold Ventures. Arnold Ventures seeks to tackle some of the most pressing problems in the United States by applying evidence-based solutions to improve outcomes in public systems, including health care, education, criminal justice, infrastructure, and public finance. Mr. Arnold is co-founder and chairman of Grid United, a developer of interregional, high-voltage transmission projects with a mission to make America’s power grid more reliable, resilient, and efficient. Mr. Arnold is founder of Centaurus Capital, a family office investment fund focused on the energy industry. Previously, Mr. Arnold served as founder and CEO of Centaurus Energy, a multi-billion-dollar energy commodity hedge fund that he founded after overseeing trading of natural gas derivatives at Enron Corp.</p>
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/audit-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Audit &amp; Risk Oversight Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl04_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl04_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Drew-Houston-squared.png" id="_ctrl0_ctl57_lstPersons_ctl04_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl04_lblPersonName2" class="PersonName2">Andrew  W. Houston</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -778,17 +778,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl57_lstPersons_ctl04_lblDescription"><p>Andrew W. Houston has served as a member of our board of directors since February 2020. Mr. Houston has served as Chief Executive Officer and Chairman of the board of directors of Dropbox, Inc., a global collaboration platform, since June 2007. Mr. Houston holds a B.S. in electrical engineering and computer science from the Massachusetts Institute of Technology.</p>
 <p><a href="/web/20241208230557/https://investor.fb.com/corporate-governance/compensation-and-governance-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Compensation, Nominating &amp; Governance Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl05_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl05_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Nancy-Killefer-squared.jpg" id="_ctrl0_ctl57_lstPersons_ctl05_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl05_lblPersonName2" class="PersonName2">Nancy Killefer</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -803,17 +803,17 @@ $(document).ready(function() { // Redirect
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/audit-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Audit &amp; Risk Oversight Committee</a></p>
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/Privacy-Committee-Charter/default.aspx"><i class="q4i-icon-member chair"></i> Chair of the Privacy &amp; Product Compliance Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl06_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl06_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Bob-Kimmitt-squared.jpg" id="_ctrl0_ctl57_lstPersons_ctl06_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl06_lblPersonName2" class="PersonName2"> Robert M. Kimmitt </span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -827,17 +827,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl57_lstPersons_ctl06_lblDescription"><p>Robert M. Kimmitt has served as a member of our board of directors and as our Lead Independent Director since March 2020. Ambassador Kimmitt has served as Senior International Counsel at Wilmer Cutler Pickering Hale and Dorr LLP, an international law firm, since April 2009. From 2005 to 2009, Ambassador Kimmitt served as Deputy Secretary of the U.S. Department of the Treasury. From 2001 to 2005, he served as Executive Vice President of Global Public Policy at Time Warner, a media and entertainment company. From 2000 to 2001, Ambassador Kimmitt served as Vice Chairman and President of Commerce One, a software company. From 1997 to 2000, he was a partner at Wilmer Cutler &amp; Pickering, and, from 1993 to 1997, a managing director at Lehman Brothers. Previously, he served as United States Ambassador to Germany from 1991 to 1993, Under Secretary of State for Political Affairs from 1989 to 1991, a partner at Sidley &amp; Austin LLP from 1987 to 1989, General Counsel of the U.S. Department of the Treasury from 1985 to 1987, and National Security Council Executive Secretary and General Counsel from 1983 to 1985. Ambassador Kimmitt has extensive public company board experience, most recently serving as a member of the supervisory board of Deutsche Lufthansa AG from April 2010 to May 2018. Ambassador Kimmitt holds a B.S. from the United States Military Academy at West Point and a J.D. from Georgetown University Law Center.</p>
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/Privacy-Committee-Charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Privacy &amp; Product Compliance Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl07_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl07_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2024/Hock-E-Tanr.png" id="_ctrl0_ctl57_lstPersons_ctl07_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl07_lblPersonName2" class="PersonName2">Hock E.  Tan</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -851,17 +851,17 @@ $(document).ready(function() { // Redirect
                                     <span id="_ctrl0_ctl57_lstPersons_ctl07_lblDescription"><p>Hock E. Tan served as Broadcom’s President &amp; CEO and a member of the Board of Directors since March 2006. He was President and Chief Executive Officer at Integrated Circuit Systems, Inc. (“ICS”), a publicly-traded timing solutions IC company, from 1999 until its acquisition by Integrated Device Technology (“IDT”) in 2005. He also served in a number of executive positions at ICS, including as Chief Operating Officer from 1996 to 1999 and Senior Vice President and Chief Financial Officer from 1995 to 1999. He was Vice President of Finance at Commodore International, Ltd. from 1992 to 1994, and held senior management positions at PepsiCo, Inc. and General Motors Corporation. He was also managing director of Pacven Investment, Ltd., a venture capital fund in Singapore, from 1988 to 1992, and was managing director of Hume Industries Ltd. in Malaysia from 1983 to 1988.</p>
 <p><a href="/web/20241208230557/https://investor.fb.com/leadership-and-governance/audit-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Audit &amp; Risk Oversight Committee</a></p></span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl08_divPersonContainer" class="PersonContainer PersonItem clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl08_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/Tracey-Travis-squared.jpg" id="_ctrl0_ctl57_lstPersons_ctl08_imgPhoto2" border="0"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl08_lblPersonName2" class="PersonName2">Tracey T. Travis</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -877,17 +877,17 @@ $(document).ready(function() { // Redirect
 <p><a href="/web/20241208230557/https://investor.fb.com/corporate-governance/audit-committee-charter/default.aspx"><i class="q4i-icon-member chair"></i> Chair of the Audit &amp; Risk Oversight Committee</a></p>
 </span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div id="_ctrl0_ctl57_lstPersons_ctl09_divPersonContainer" class="PersonContainer PersonItemAlt clearfix">
                             <div id="_ctrl0_ctl57_lstPersons_ctl09_divPersonPhoto" class="PersonPhoto"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/board/DoorDash_TonyXu-Square.jpg" id="_ctrl0_ctl57_lstPersons_ctl09_imgPhoto2"/></div>
                             <div class="PersonDetailsContainer">
                                 <h3>
-                                    
+
                                     <span id="_ctrl0_ctl57_lstPersons_ctl09_lblPersonName2" class="PersonName2">Tony Xu</span>
                                     <span class="commaName">,</span>
                                     <span class="SufixName">
@@ -902,17 +902,17 @@ $(document).ready(function() { // Redirect
 <p><a href="/web/20241208230557/https://investor.fb.com/corporate-governance/compensation-and-governance-committee-charter/default.aspx"><i class="q4i-icon-member"></i> Member of the Compensation, Nominating &amp; Governance Committee</a></p>
 </span></div>
                                 <div class="ResolutionPhoto">
-                                    
-                                    
+
+
                                 </div>
                             </div>
                         </div>
-                    
+
             </div>
         </div>
     </div>
 </div></span><span class="ContentPaneDiv4"><div id="_ctrl0_ctl60_divModuleContainer" class="BlankModuleContainer space separator">
-    
+
     <a name="committees" class="sectionLink"></a>
 <div class="Committees-desktop">
     <div class="container">
@@ -940,14 +940,14 @@ $(document).ready(function() { // Redirect
                     <td align="center"><i class="q4i-icon-member"></i></td>
                     <td align="center"></td>
                 </tr>
-                
+
                 <tr>
                     <td class="name">John Arnold</td>
                     <td align="center"><i class="q4i-icon-member"></i></td>
                     <td align="center"></td>
                     <td align="center"></td>
                 </tr>
-                
+
 <!--                 <tr>
                     <td class="name">Kenneth I. Chenault</td>
                     <td align="center"><i class="q4i-icon-member"></i></td>
@@ -1006,7 +1006,7 @@ $(document).ready(function() { // Redirect
                     <td align="center"></td>
                     <td align="center"></td>
                 </tr> -->
-                
+
             </tbody>
         </table>
 
@@ -1037,7 +1037,7 @@ $(document).ready(function() { // Redirect
                         <span class="Name">Marc Andreessen</span>
                         <span class="Type"><i class="q4i-icon-member"></i></span>
                     </li> -->
-                    
+
 <!--                     <li class="clearfix">
                         <span class="Name">Kenneth I. Chenault </span>
                         <span class="Type"><i class="q4i-icon-member"></i></span>
@@ -1066,7 +1066,7 @@ $(document).ready(function() { // Redirect
                     <li class="clearfix">
                         <span class="Name">Peter A. Thiel</span>
                         <span class="Type"><i class="q4i-icon-member chair"></i></span>
-                    </li>      
+                    </li>
                 </ul>
             </li>
 
@@ -1076,7 +1076,7 @@ $(document).ready(function() { // Redirect
                     <li class="clearfix">
                         <span class="Name">Peggy Alford</span>
                         <span class="Type"><i class="q4i-icon-member"></i></span>
-                    </li> 
+                    </li>
                     <li class="clearfix">
                         <span class="Name">Nancy Killefer</span>
                         <span class="Type"><i class="q4i-icon-member chair"></i></span>
@@ -1085,7 +1085,7 @@ $(document).ready(function() { // Redirect
                         <span class="Name">Robert Kimmitt</span>
                         <span class="Type"><i class="q4i-icon-member"></i></span>
                     </li>
-                         
+
                 </ul>
             </li>
         </ul>
@@ -1112,7 +1112,7 @@ $(function () {
             $(this).parent().siblings().find('ul').slideUp();
             $(this).toggleClass('active');
             $(this).parent().siblings().find('.active').removeClass('active');
-           
+
             return false;
         });
         $('.Committees-mobile ul.Level1 > li:first > div').trigger('click');
@@ -1155,62 +1155,62 @@ $(function () {
 <div id="_ctrl0_ctl33_divModuleContainer" class="SocialLinks">
 	<h1 id="_ctrl0_ctl33_lblTitle"><span id="_ctrl0_ctl33_lblModuleTitle" class="ModuleTitle">Learn More</span></h1>
 	<ul id="_ctrl0_ctl33_qlList" class="SocialLinks">
-		
-				
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2023/logos/Meta_Symbol_PositivePrimary_RGB.png"/></a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRowAlt"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/technologies/facebook-app/"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2023/logos/f_logo_RGB-Primary_58.png"/></a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/technologies/messenger/"><img class="fbmessenger-logo" src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2023/logos/logo-256@2x.png"/></a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRowAlt"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/technologies/instagram/"><img src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2023/logos/Instagram_Glyph_Gradient.png"/></a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/technologies/whatsapp/"><img class="whatsapp-icon" src="//web.archive.org/web/20241208230557im_/https://s21.q4cdn.com/399680738/files/images/2023/logos/Digital_Glyph_Green.png"/></a>
-				
-			
+
+
 	</ul>
 </div>
 </span><span class="FooterPane2Div15"><div id="_ctrl0_ctl36_RightBlock" class="RightColumnBlock"></div>
 <div id="_ctrl0_ctl36_divModuleContainer" class="FooterLinks">
-	
+
 	<ul id="_ctrl0_ctl36_qlList" class="FooterLinks">
-		
-				
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://about.meta.com/">About</a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRowAlt"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://www.facebook.com/pages/create/">Create a page</a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://www.metacareers.com/">Careers</a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRowAlt"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://www.facebook.com/privacy/explanation">Privacy</a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRow"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://www.meta.com/help/">Terms</a>
-				
-			
-				
+
+
+
 				<li class="QuickLinkRowAlt"><a target="_blank" href="http://web.archive.org/web/20241208230557/https://www.facebook.com/help/?ref=pf">Help</a>
-				
-			
+
+
 	</ul>
 </div>
 </span><span class="FooterPane2Div16"><div id="_ctrl0_ctl39_divModuleContainer" class="BlankModuleContainer">
-    
+
     <div class="back-to-top"><a href="#top"><i class="q4i-hand-o-up"></i></a></div>
 
 <script type="text/javascript">
@@ -1222,30 +1222,30 @@ function bttBtn(){
       $backToTop.addClass('active');
     }
     else {
-      $backToTop.removeClass('active'); 
+      $backToTop.removeClass('active');
     }
   }
 
 $(window).scroll(function(){
     bttBtn();
   });
-  
+
   $('.back-to-top').on('click', 'a', function(e){
     e.preventDefault();
     $("html,body").animate({
       scrollTop: 0
     }, 650);
   });
-        
+
 </script>
 </div></span><span class="FooterPane2Div19"><div id="_ctrl0_ctl45_divModuleContainer" class="HtmlTextContainer Copyright">
-    
+
     <div class="ContentContainer">
         © Meta <span class="year">2024</span>
     </div>
 </div></span></div></div>
 			<div class="PaneQ4Footer"><div class="container clearfix"><span class="Q4FooterDiv1"><div id="_ctrl0_ctl06_divModuleContainer" class="BlankModuleContainer">
-    
+
     <script src="http://web.archive.org/web/20241208230557js_/https://q4widgets.q4web.com/preview/js/toolbar.js"></script>
 <script type="text/javascript">
 
@@ -1275,7 +1275,7 @@ $(document).ready(function(){
         $navWrap = $('.PaneNavigation'),
         height = $('.PaneNavigation .wrapper').height(),
         positionTop = 0;
-        
+
     $navSec.on('click', '.level3  a[href*="section="]', function(event) {
         event.preventDefault();
         var goTo = $(this).attr('href').split('section=').pop().split('&').shift(),
@@ -1287,7 +1287,7 @@ if (window.location.href.indexOf(current) > -1){
             window.location = $(this).attr('href');
         }
     });
-               
+
     $( window ).load( function(){
         navSecPositions = [];
         updateNavPos();
@@ -1488,7 +1488,7 @@ $(document).ready(function(){
     if (!($('.MailingListListTable .q4i-question.popup').length)) {
         $('<a class="fancybox fancybox--sm js--insert" data-fancybox-type="iframe" href="//web.archive.org/web/20241208230557/https://s21.q4cdn.com/399680738/files/js/disclaimer-roundUp2019b-v2.html"> <span class="q4i-question popup"></span></a>').insertAfter($('.MailingListListTable label:contains("Recent News & Announcements Highlights")'));
     }
-});    
+});
 </script>
 
 <!--[if lte IE 9]>
@@ -1503,7 +1503,7 @@ $('.ModuleSearch input[type="text"]').filter(function(){
 <![endif]-->
 </div></span><span class="Q4FooterDiv6"><div id="_ctrl0_ctl66_divModuleContainer" class="ModuleContent">
     <div class="ModuleOuterContainer">
-        
+
         <div class="ModuleInnerContainer">
 
 <script type="text/javascript">

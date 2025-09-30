@@ -119,7 +119,7 @@ window._nymPermutive = {
   window._nymPermutive.type = 'Tag page';
   window._nymPermutive.article.vertical = 'NYMag';
 </script>
-  
+
     <script type="application/ld+json">
       {
         "@context": "http://web.archive.org/web/20250425090528/http://schema.org",
@@ -244,7 +244,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -324,14 +324,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) permutive.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    permutive.identify(pid); 
-    if (isCountable) { 
+    permutive.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -341,7 +341,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"nymag","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -445,11 +445,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       (new Fingerprint2({excludeJsFonts: true, excludeFlashFonts: true, excludeCanvas: true, excludeWebGL: true})).get(function (fp) {
         var now = Date.now();
         id = fp + '.' + now;
@@ -886,7 +886,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1229,7 +1229,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1296,7 +1296,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/cbb/037/39a0e13c99adb000d5e6c718d184929d06-stagflation-lead.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/cbb/037/39a0e13c99adb000d5e6c718d184929d06-stagflation-lead.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/stagflation-would-blow-up-trumps-second-term.html" class="link-text"><span class="headline">Stagflation Would Blow Up Trump’s Second Term Like Nothing Else</span></a><span class="teaser">The record is pretty clear: Stagflation is a political killer, particularly for a president whose election victory depended so heavily on the economy.</span></div>
@@ -1324,7 +1324,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/8f2/209/6e1b6021f665de33c9bd985f8a70663966-trump-carter-flag.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/8f2/209/6e1b6021f665de33c9bd985f8a70663966-trump-carter-flag.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/trump-has-had-enough-of-mourning-jimmy-carter.html" class="link-text"><span class="headline">Trump Has Had Enough of Mourning Jimmy Carter</span></a><span class="teaser">The Mar-a-Lago flags are flying at full staff again.</span></div>
@@ -1352,7 +1352,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/40c/525/55c9b4e4a1ee5a82786020d4bb2b5045c4-crop-carter-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Joe Biden" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/40c/525/55c9b4e4a1ee5a82786020d4bb2b5045c4-crop-carter-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/carters-funeral-reminded-us-how-presidents-ought-to-behave.html" class="link-text"><span class="headline">Carter’s Funeral Reminded Us How Presidents Ought to Behave</span></a><span class="teaser">Donald Trump could learn a lot from the 39th president’s commitment to honesty, human rights, and self-improvement.</span></div>
@@ -1383,7 +1383,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/5ef/fbb/0c6d2c76f7606738df71283b267209536c-crop-trump-nohearings.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/5ef/fbb/0c6d2c76f7606738df71283b267209536c-crop-trump-nohearings.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/trump-wont-get-the-inauguration-day-he-wanted.html" class="link-text"><span class="headline">Trump Won’t Get the Inauguration Day He Wanted</span></a><span class="teaser">The president-elect is annoyed that flags will be half-staff for Jimmy Carter and angry that the Senate won’t have his Cabinet in place.</span></div>
@@ -1411,7 +1411,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/2d6/c7a/89f4fee84564772a0b359acaa791db3d30-carter-panamatreaty.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/2d6/c7a/89f4fee84564772a0b359acaa791db3d30-carter-panamatreaty.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/trump-wrong-jimmy-carter-panama-canal.html" class="link-text"><span class="headline">Trump Is Wrong: Jimmy Carter Didn’t Lose Due to Panama Canal</span></a><span class="teaser">There were many reasons that Ronald Reagan defeated Jimmy Carter in 1980. The Panama Canal Treaty wasn’t among them.</span></div>
@@ -1439,7 +1439,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b81/9a0/3777a6054aa118d9d3b182705bc00b6763-jimmy-carter-eulogy.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b81/9a0/3777a6054aa118d9d3b182705bc00b6763-jimmy-carter-eulogy.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/carter-state-funeral-biden-eulogy-trump.html" class="link-text"><span class="headline">Carter’s State Funeral May Be Biden’s Last Big Moment</span></a><span class="teaser">President Biden will deliver a eulogy for Carter on January 9 — with his rival and successor Donald Trump in the audience.</span></div>
@@ -1467,7 +1467,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f88/a0d/0a2efa86de09fee39a7191053d582eaabd-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Atlanta Falcons vs Cincinnati Bengals" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f88/a0d/0a2efa86de09fee39a7191053d582eaabd-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://www.vulture.com/article/jimmy-carter-dead.html" class="link-text"><span class="headline">Former President Jimmy Carter Dead at 100</span></a><span class="teaser">The Nobel Peace Prize recipient was the longest living U.S. president.</span></div>
@@ -1495,7 +1495,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/cb0/583/fb80cbb56817b308b9b5359b63f63ab11f-jimmy-carter-1974.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Jimmy Carter, Governor Of Georgia" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/cb0/583/fb80cbb56817b308b9b5359b63f63ab11f-jimmy-carter-1974.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/jimmy-carter-obit-america-greatest-former-president.html" class="link-text"><span class="headline">Jimmy Carter’s Legacy: Imperfect Greatness</span></a><span class="teaser">His postpresidential greatness is what will be remembered. But he was a shrewder politician than people realize.</span></div>
@@ -1523,7 +1523,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/133/3de/4c154b98a617040728dda975eb78a09863-melania-funeral.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/133/3de/4c154b98a617040728dda975eb78a09863-melania-funeral.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2023/11/melania-trump-rosalynn-carter-funeral.html" class="link-text"><span class="headline">Melania Trump Adds Awkward Touch to Rosalynn Carter Funeral</span></a><span class="teaser">She didn’t do anything offensive, but the mere presence of a Trump was controversial.</span></div>
@@ -1551,7 +1551,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/2ea/bec/4764a32c133415f8884226730cc755f1da-jimmy-carter-concession-speech.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/2ea/bec/4764a32c133415f8884226730cc755f1da-jimmy-carter-concession-speech.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2023/03/did-reagan-teams-iran-hostage-sabotage-defeat-jimmy-carter.html" class="link-text"><span class="headline">Did Reagan Team’s Iran-Hostage Sabotage Defeat Jimmy Carter?</span></a><span class="teaser">Reagan-campaign operatives may have prolonged the Iran Hostage Crisis, but that was just one of the damaging political crises Carter faced in 1980.</span></div>
@@ -1579,7 +1579,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/dc5/b8f/c537cf76b0dcbc46f3669261f925a8e47f-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/dc5/b8f/c537cf76b0dcbc46f3669261f925a8e47f-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2023/03/lawmaker-admits-1980-gop-plot-to-prolong-iran-hostage-crisis.html" class="link-text"><span class="headline">Lawmaker Reveals ‘October Surprise’ Plot to Sabotage Jimmy Carter’s Reelection</span></a><span class="teaser">A Reagan campaign ally allegedly worked to convince Iran not to release their American hostages until after Election Day.</span></div>
@@ -1607,7 +1607,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/5cc/f22/635afc107b3d6094a615d97f2cfc48aa6b-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/5cc/f22/635afc107b3d6094a615d97f2cfc48aa6b-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2022/02/did-putin-accidentally-reboot-bidens-presidency.html" class="link-text"><span class="headline">Did Putin Accidentally Reboot Biden’s Presidency?</span></a><span class="teaser">In his handling of the Ukraine crisis and how he frames it in his State of the Union address, Biden has a chance for a rebirth in popularity.</span></div>
@@ -1635,7 +1635,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/034/df8/f9b918b59c27475db030ea6d8a6178c191-joe-biden-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/034/df8/f9b918b59c27475db030ea6d8a6178c191-joe-biden-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/joe-biden-is-not-jimmy-carter.html" class="link-text"><span class="headline">Joe Biden Is Not Jimmy Carter, and This Is Not the 1970s</span></a><span class="teaser">The right’s facile comparisons of the two presidents miss the vastly different circumstances facing Biden and distort Carter’s record.</span></div>
@@ -1666,7 +1666,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/fbb/2c4/1d892298297f087eca705a4e2cebcfe420-biden-nov-7.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/fbb/2c4/1d892298297f087eca705a4e2cebcfe420-biden-nov-7.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/09/biden-may-bounce-back-like-other-presidents-have.html" class="link-text"><span class="headline">Biden May Bounce Back Like Other Presidents Have</span></a><span class="teaser">History shows that presidents usually get reelected unless they are unlucky, or, like Donald Trump, they work hard at alienating voters.</span></div>
@@ -1694,7 +1694,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/79a/f35/6e144a513e1bb5a721540da0f23a45197d-carter-1970s-inflation.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/79a/f35/6e144a513e1bb5a721540da0f23a45197d-carter-1970s-inflation.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/09/the-1970s-when-america-had-a-moral-panic-over-inflation.html" class="link-text"><span class="headline">When America Had a Moral Panic Over Inflation</span></a><span class="teaser">The economic crisis of the 1970s has valuable lessons for Joe Biden.</span></div>
@@ -1722,7 +1722,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b78/e85/ee9c42ae612704794b6c9bf387e60795c9-GettyImages-1232288278.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b78/e85/ee9c42ae612704794b6c9bf387e60795c9-GettyImages-1232288278.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/08/if-democrats-waste-this-trifecta-another-could-take-forever.html" class="link-text"><span class="headline">If Democrats Don’t Exploit This Trifecta, Another Could Be Far Away</span></a><span class="teaser">Democrats will probably lose their governing trifecta in 2022, and it won’t get easier in 2024 or 2026. Historically, they don’t come along often.</span></div>
@@ -1750,7 +1750,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f9b/ce1/fcf9b4d1adf9dd26bd7b65c1db30ecd849-ford-tulane-university.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f9b/ce1/fcf9b4d1adf9dd26bd7b65c1db30ecd849-ford-tulane-university.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/08/saigons-fall-didnt-end-gerald-fords-presidency.html" class="link-text"><span class="headline">The Fall of Saigon Didn’t End Gerald Ford’s Presidency</span></a><span class="teaser">Events in Kabul are bringing back memories of 1975. Will Joe Biden get through his crisis as the 38th president did back then?</span></div>
@@ -1778,7 +1778,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/0c9/93f/f1e927d0223d4ac78dd4926df7deb01b70-nixon-1971.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/0c9/93f/f1e927d0223d4ac78dd4926df7deb01b70-nixon-1971.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/07/why-inflation-panics-are-poison-for-progressive-politics.html" class="link-text"><span class="headline">Why Inflation Panics Are Poison for Progressive Politics</span></a><span class="teaser">Lessons from the Nixon era.</span></div>
@@ -1806,7 +1806,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/13e/c49/5ef9fa340b8add5327f2b6ac929b20dddd-fritz-mondale.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/13e/c49/5ef9fa340b8add5327f2b6ac929b20dddd-fritz-mondale.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/04/fritz-mondale-public-servant.html" class="link-text"><span class="headline">Fritz Mondale, Public Servant</span></a><span class="teaser">The old-school liberal and party loyalist redefined the vice-presidency.</span></div>
@@ -1834,7 +1834,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/aab/2c8/d87f6818b24dc0c5d4cd3d0ea6b6199a58-joe-biden-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/aab/2c8/d87f6818b24dc0c5d4cd3d0ea6b6199a58-joe-biden-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/03/biden-builds-popularity-by-focusing-on-covid-relief-plan.html" class="link-text"><span class="headline">Biden Builds Popularity by Focusing on COVID Relief Plan</span></a><span class="teaser">The COVID-19 stimulus is more popular than Biden himself. That is the key to his stable job-approval rating so far.</span></div>
@@ -1862,7 +1862,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/a02/134/5089b1f6bd4e6fa0aeb1cd53f515979944-george-bush-vaccine.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/a02/134/5089b1f6bd4e6fa0aeb1cd53f515979944-george-bush-vaccine.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/03/ex-presidents-promote-covid-vaccination-except-for-trump.html" class="link-text"><span class="headline">Ex-Presidents Come Together to Promote COVID Vaccination … Except Trump</span></a><span class="teaser">Trump whining as the other former presidents work together on a PSA tells you everything you need to know about his historical uniqueness.</span></div>
@@ -1890,7 +1890,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/3fa/159/d954d98031611cd9edae0d144be43955cf-george-w-bush-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/3fa/159/d954d98031611cd9edae0d144be43955cf-george-w-bush-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/02/a-record-partisan-gap-underlies-bidens-job-approval-rating.html" class="link-text"><span class="headline">Record Polarization Underlies Biden’s Otherwise Normal Job Approval Rating</span></a><span class="teaser">Biden’s impossibly popular among Democrats, and improbably unpopular among Republicans. His relative strength among independents could be key.</span></div>
@@ -1918,7 +1918,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/d38/1b9/6b1bef7a14d11ed548f9e84ea0e29a1f78-trump.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/d38/1b9/6b1bef7a14d11ed548f9e84ea0e29a1f78-trump.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2021/01/trump-job-approval-plunging-he-leaves-office.html" class="link-text"><span class="headline">Trump’s Job Approval Plunging as He Leaves Office</span></a><span class="teaser">Trump’s support is in free fall, but is high enough among Republicans to keep them from dumping him. Biden enters office with a bit of a honeymoon.</span></div>
@@ -1949,7 +1949,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/a67/d50/8e85f4c3804a900aa618881a788fcd9d6b-trump-davis.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/a67/d50/8e85f4c3804a900aa618881a788fcd9d6b-trump-davis.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/article/14th-amendment-ban-trump-holding-office-again.html" class="link-text"><span class="headline">Could the 14th Amendment Ban Trump From Holding Office Again?</span></a><span class="teaser">Even if a Trump political comeback isn’t blocked by impeachment, his incitement to insurrection may make him subject to a ban meant for Confederates.</span></div>
@@ -1977,7 +1977,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/201/6c5/102912acfda47bd15e6780f66a5e76844e-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/201/6c5/102912acfda47bd15e6780f66a5e76844e-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/12/will-joe-biden-get-a-public-opinion-honeymoon.html" class="link-text"><span class="headline">Will Joe Biden Get a Public Opinion ‘Honeymoon?’</span></a><span class="teaser">He’ll probably be more popular at the start of his presidency than Trump was. How much that helps him achieve his agenda is another matter.</span></div>
@@ -2005,7 +2005,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b33/dda/ffe85a57ce48c083ccec672187344a6602-raphael-warnock-kelly-loeffler.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b33/dda/ffe85a57ce48c083ccec672187344a6602-raphael-warnock-kelly-loeffler.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/11/how-georgia-became-the-ultimate-battleground-state.html" class="link-text"><span class="headline">How Georgia Became the Ultimate Battleground State</span></a><span class="teaser">Georgia Democrats have slowly come back after brief successes under Carter and Clinton. But in the January Senate runoffs, they have their big chance.</span></div>
@@ -2033,7 +2033,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/c73/485/46022bf91459d0290c99ba6c451c57e41b-joe-biden-barack-obama.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/c73/485/46022bf91459d0290c99ba6c451c57e41b-joe-biden-barack-obama.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/11/bidens-popular-vote-totals-more-impressive-than-you-think.html" class="link-text"><span class="headline">Biden’s Popular-Vote Win Is Beginning to Look More Impressive</span></a><span class="teaser">Percentage-wise, he did better than any Democrat not named Obama in a half century.</span></div>
@@ -2061,7 +2061,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/882/73b/c838e4816c5ffdff2b6818220d4cb6330f-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/882/73b/c838e4816c5ffdff2b6818220d4cb6330f-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/10/will-2020-election-in-the-south-be-jimmy-carters-revenge.html" class="link-text"><span class="headline">Will 2020 Be Jimmy Carter’s Revenge?</span></a><span class="teaser">The Democratic South is rising again, but this time it’s multiracial and progressive.</span></div>
@@ -2089,7 +2089,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/491/acc/b8704ec91c869391eb49e717f43c14b9ac-biden-jfk-2.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/491/acc/b8704ec91c869391eb49e717f43c14b9ac-biden-jfk-2.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/09/why-being-catholic-isnt-special-in-politics-any-more.html" class="link-text"><span class="headline">Why Being Catholic Isn’t Special in Politics Anymore</span></a><span class="teaser">Joe Biden isn’t appealing to Catholic tradition in his bid to become the second Catholic president. But that’s the American way.</span></div>
@@ -2117,7 +2117,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/84d/72a/934fe3d1d305200e93b7b3fa4c282cd542-jfk-1946.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/84d/72a/934fe3d1d305200e93b7b3fa4c282cd542-jfk-1946.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/09/why-joe-kennedys-loss-isnt-the-end-of-the-kennedy-dynasty.html" class="link-text"><span class="headline">The Fall of the Kennedy Dynasty Took More Than Just One Night</span></a><span class="teaser">Joseph Kennedy III’s loss to Ed Markey was just the latest in a long series of setbacks for the storied political family.</span></div>
@@ -2145,7 +2145,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/86a/18b/f6cde5a7653746ae4188139d9eb192117f-joe-biden-1973.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/86a/18b/f6cde5a7653746ae4188139d9eb192117f-joe-biden-1973.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/08/the-48-year-journey-of-joe-bidens-democratic-party.html" class="link-text"><span class="headline">The 48-Year Journey of Joe Biden’s Democratic Party</span></a><span class="teaser">At the moment he accepts the nomination, Biden and his party have evolved into a proud force for diversity and progressivism.</span></div>
@@ -2173,7 +2173,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/02d/d9e/1974ac5ada52e79e3fecf38b563ee86771-trump-slumping-oval-office.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/02d/d9e/1974ac5ada52e79e3fecf38b563ee86771-trump-slumping-oval-office.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/07/trumps-train-to-reelection-is-on-the-wrong-track.html" class="link-text"><span class="headline">Trump’s Train to Reelection Is on the Wrong Track</span></a><span class="teaser">The percentage of Americans who like the direction of the country under Trump is very low, just like it was for past incumbent losers.</span></div>
@@ -2201,7 +2201,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/d0c/5fd/36ed6792599766335a1e5c66b5735b2ce8-republican-presidents-1980.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/d0c/5fd/36ed6792599766335a1e5c66b5735b2ce8-republican-presidents-1980.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/07/reagan-ford-co-presidency-that-never-was.html" class="link-text"><span class="headline">Remembering the Reagan-Ford ‘Co-Presidency’ That Could Have Been</span></a><span class="teaser">If you find Biden’s veep selection process boring, look back 40 years to a wild ride at the Republican convention where Reagan eventually picked Bush.</span></div>
@@ -2232,7 +2232,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/4aa/496/a47d5c8d3ebceac7ff39850c8cd72c9e8d-former-presidents-obama-bush-clinton.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/4aa/496/a47d5c8d3ebceac7ff39850c8cd72c9e8d-former-presidents-obama-bush-clinton.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/06/obama-bush-carter-george-floyd-protests.html" class="link-text"><span class="headline">Read What Presidents Obama, Bush, Carter, and Clinton Said About George Floyd</span></a><span class="teaser">Every living former president has weighed in on the killing of George Floyd and the subsequent nationwide unrest.</span></div>
@@ -2260,7 +2260,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/0e5/81c/1013d2e65a4ee1280ababd2efea9ebb6b3-22-partisanship.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/0e5/81c/1013d2e65a4ee1280ababd2efea9ebb6b3-22-partisanship.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2020/01/partisan-polarization-reaching-record-levels.html" class="link-text"><span class="headline">Partisan Polarization Reaching Record Levels</span></a><span class="teaser">Trump’s more popular with Republicans than Reagan, less popular with independents than Carter. It’s not just elites who are polarized.</span></div>
@@ -2288,7 +2288,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/df5/ba9/f6335327904ed9cb2e9ae2ea790b3cb215-30-carter-shah-iran.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/df5/ba9/f6335327904ed9cb2e9ae2ea790b3cb215-30-carter-shah-iran.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/12/chase-bank-iran-shah-jimmy-carter-trump-human-rights.html" class="link-text"><span class="headline">Trump Puts Business Above Democracy and Human Rights. So Did Jimmy Carter.</span></a><span class="teaser">As Iran’s pro-business dictatorship faced an uprising, Carter’s administration urged it “to kill as many demonstrators as necessary,” documents show.</span></div>
@@ -2316,7 +2316,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/789/f4f/f87c66d7565a5df494df0b98307cb7915d-19-pete-buttigieg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/789/f4f/f87c66d7565a5df494df0b98307cb7915d-19-pete-buttigieg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/11/buttigieg-argues-only-young-outsiders-win-for-democrats.html" class="link-text"><span class="headline">Buttigieg’s Electability Argument: Only Young Outsiders Win for Democrats</span></a><span class="teaser">Mayor Pete is comparing himself to past winners Carter, Clinton, and Obama, which is clever but not exactly a slam-dunk argument.</span></div>
@@ -2344,7 +2344,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/045/f18/86fa8b65dcd7895f48c4225868cc3c1f49-01-pete-buttigieg.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/045/f18/86fa8b65dcd7895f48c4225868cc3c1f49-01-pete-buttigieg.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/10/pete-buttigieg-wooing-moderates-in-hope-of-a-biden-collapse.html" class="link-text"><span class="headline">Pete Buttigieg Wooing Moderates in Hope of a Biden Collapse</span></a><span class="teaser">But the successful Democratic moderates of the past all had solid African-American support, which Mayor Pete famously lacks.</span></div>
@@ -2372,7 +2372,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/53c/374/012f491f159e25bf73dba4834ffa08d3b5-18-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/53c/374/012f491f159e25bf73dba4834ffa08d3b5-18-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/09/jimmy-carter-saw-a-ufo-on-this-day-in-1973.html" class="link-text"><span class="headline">Jimmy Carter Saw a UFO on This Day in 1973</span></a><span class="teaser">Carter promised to come clean on UFO intel if elected president, but like all of them, he backtracked.</span></div>
@@ -2400,7 +2400,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/276/48a/a6219acb7ba72f2d0bc886e017ba6b8128-13-george-mcgovern-1972.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/276/48a/a6219acb7ba72f2d0bc886e017ba6b8128-13-george-mcgovern-1972.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/08/no-democrats-are-not-in-danger-of-another-mcgovern-disaster.html" class="link-text"><span class="headline">McGovern Didn’t Lose in 1972 by Going Too Far Left. Neither Will 2020 Democrats.</span></a><span class="teaser">The popular narrative of McGovern’s 1972 run is riddled with misconceptions. The risks Democrats run in 2020 have nothing to do with “McGovernism.”</span></div>
@@ -2428,7 +2428,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/718/3b8/018a39f8196ddaed5fb09d49bab4b6c1e0-29-jesse-jackson.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/718/3b8/018a39f8196ddaed5fb09d49bab4b6c1e0-29-jesse-jackson.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/07/what-does-the-history-of-black-primary-voting-say-about-20.html" class="link-text"><span class="headline">What Does the History of Black Primary Voting Tell Us About 2020?</span></a><span class="teaser">It’s not totally clear whether Harris or Booker will perform like Barack Obama in 2008 or like Al Sharpton in 2004.</span></div>
@@ -2456,7 +2456,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/855/bd3/a1365498c81b680376a896bfdf14d81994-13-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/855/bd3/a1365498c81b680376a896bfdf14d81994-13-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/06/jimmy-carter-is-emerging-as-a-role-model-in-2020-primaries.html" class="link-text"><span class="headline">Jimmy Carter Is Emerging As a Role Model in the 2020 Primaries</span></a><span class="teaser">Not only is his name no longer a political slur, Democratic candidates are actively trying to emulate him.</span></div>
@@ -2484,7 +2484,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/616/bf0/7e5b7f269cb8c36e42f946acbd2e4cc058-07-jimmy-carter-1976.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/616/bf0/7e5b7f269cb8c36e42f946acbd2e4cc058-07-jimmy-carter-1976.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/06/is-dnc-winnowing-potential-2020-presidential-dark-horses.html" class="link-text"><span class="headline">Is the DNC ‘Winnowing’ Potentially Strong 2020 Presidential Candidates?</span></a><span class="teaser">The party can’t make everyone happy, but yes, there have been some late bloomers who did well despite poor early polls.</span></div>
@@ -2515,7 +2515,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/66b/51b/d2347a8a2e87e52a1e363cd1dd62a3d7f3-05-joe-biden.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/66b/51b/d2347a8a2e87e52a1e363cd1dd62a3d7f3-05-joe-biden.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/06/biden-hyde-amendment.html" class="link-text"><span class="headline">Could Biden’s Opposition to Federal Abortion Funding Bring Him Down?</span></a><span class="teaser">Backing the federal abortion-funding ban used to be bipartisan — but now Biden is embracing a stance that’s increasingly anathema to Democrats.</span></div>
@@ -2543,7 +2543,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f9c/124/605d59e85ec3b25ba900ebe215201bbcc5-03-jefferson-davis-alabama.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/f9c/124/605d59e85ec3b25ba900ebe215201bbcc5-03-jefferson-davis-alabama.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/06/celebrate-racism-its-jefferson-daviss-birthday-in-alabama.html" class="link-text"><span class="headline">Celebrate Racism! It’s Jefferson Davis’s Birthday in Alabama</span></a><span class="teaser">And yet you wonder why this state enacted an aggressively reactionary abortion law?</span></div>
@@ -2571,7 +2571,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/e70/697/585c23b5a8c029622c6454136ea103adcc-15-donald-trump-jimmy-carter.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/e70/697/585c23b5a8c029622c6454136ea103adcc-15-donald-trump-jimmy-carter.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/04/trump-always-liked-jimmy-carter-despite-years-of-insults.html" class="link-text"><span class="headline">Trump Says He’s ‘Always Liked’ Jimmy Carter Despite Insulting Him for Years</span></a><span class="teaser">After Carter complimented Trump on his handling of the U.S.-China relationship, President 45 walked back years of insults lobbed at President 39.</span></div>
@@ -2599,7 +2599,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/028/e2f/4c03c6952636238bc0133a67aecc8cda0f-09-candace-owens.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/028/e2f/4c03c6952636238bc0133a67aecc8cda0f-09-candace-owens.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/04/candace-owens-says-gop-southern-strategy-never-happened.html" class="link-text"><span class="headline">Yes, Candace, the Southern Strategy Is Real</span></a><span class="teaser">In an egregious statement of historical revisionism, right-wing controversialist Candace Owens denies some very basic facts.</span></div>
@@ -2627,7 +2627,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/317/a03/26f1282e837a442d1da9afe97c7a0995b7-22-jimmy-carter-1976-peanuts.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/317/a03/26f1282e837a442d1da9afe97c7a0995b7-22-jimmy-carter-1976-peanuts.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/03/carters-election-as-president-nearly-as-unlikely-as-trumps.html" class="link-text"><span class="headline">How Jimmy Carter’s Election Previewed Trump’s</span></a><span class="teaser">As Carter becomes the oldest ex-president, it’s useful to remember how strange and unusual his rise to the White House actually was.</span></div>
@@ -2655,7 +2655,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b63/6cc/488eb6b7a7783511407128a43328720014-21-disappearing-dems.2x.rsquare-zoom.w103.gif" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/b63/6cc/488eb6b7a7783511407128a43328720014-21-disappearing-dems.rsquare-zoom.w103.gif" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/03/how-quickly-will-the-democrats-have-a-front-runner.html" class="link-text"><span class="headline">4 Reasons Democrats Will Have a Front-runner Soon — and 3 They Won’t</span></a><span class="teaser">More than likely someone will eventually stroll to the nomination in 2020. But maybe not so fast and maybe not at all.</span></div>
@@ -2683,7 +2683,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/416/02c/33621c9976300609596da4712a2cdf4777-13-dem-debate.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250425090528im_/https://pyxis.nymag.com/v1/imgs/416/02c/33621c9976300609596da4712a2cdf4777-13-dem-debate.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250425090528/https://nymag.com/intelligencer/2019/02/2020-democratic-presidential-field-could-be-the-largest-ever.html" class="link-text"><span class="headline">Looks Like the 2020 Democratic Presidential Field Could Be the Largest Ever</span></a><span class="teaser">In the past, very large presidential fields have produced unusual results, and more often than not, defeat.</span></div>
@@ -2701,7 +2701,7 @@ userDetails.visitCount = getUserVisitCount();
           <div data-uri="/web/20250425090528oe_/https://nymag.com/tags/jimmy-carter/nymag.com/_components/sticky-ad/instances/tag-ad-top@published" data-editable="adComponent" class="sticky-ad ">
 
 <aside data-uri="nymag.com/_components/ad/instances/clgcrw8wx00053b6w5je7aa8p@published" class="ad vp-0-plus" data-name="" data-sizes="" data-label="" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </div>
@@ -2711,7 +2711,7 @@ userDetails.visitCount = getUserVisitCount();
 </div>
 
 <aside data-uri="nymag.com/_components/ad/instances/tagPageBottomLeaderboardDesktop@published" class="ad vp-1180-plus" data-name="/172968584/nym.Nymag/daily_intelligencer" data-sizes="728x90,728x91,970x90,970x91,970x250,970x252,1024x90,1024x91, 1100x350" data-label="BottomLeaderboard" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </main>
@@ -3084,7 +3084,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

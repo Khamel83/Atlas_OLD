@@ -9,67 +9,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         A stereotype about private tech investing is that companies are not supposed to do down rounds. If you are a tech startup, and you raise som
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Structure
-    
-  
+
+
 
 A stereotype about private tech investing is that companies are not supposed to do down rounds. If you are a tech startup, and you raise some money from venture capitalists at a $250 million valuation, and then a year later you want to raise more money, you had better have a $500 million valuation. If the market is tough, $250 million, I guess. But if you go out to raise money at a $150 million valuation, after previously raising at a $250 million valuation, that is very bad. Venture investors want growth, they want positive momentum, they do not want a discount. If your valuation has gone down, that’s a bad sign for your future.
 This is mostly just a set of social conventions. Public companies don’t work this way: If they want to raise money, they sell stock at whatever their stock price is. It would be somewhat silly for a public company to say “we can’t raise money by selling stock because our stock price is lower than it was six months ago,” or for a mutual fund to say “we can’t buy your stock because the price has gone down.” But in private markets it’s a thing.
@@ -120,89 +120,89 @@ The deal, coming at a time when commercial real estate valuations are declining 
 
 Yes but that is the esoteric annoying view. The headline is that UC Investments is buying BREIT at its current offering price.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Twitter valuation
-    
-  
+
+
 
 To be fair, sometimes private-market valuations do go down. For instance a lot of big private companies have public mutual funds as investors, and those funds periodically report the carrying value of their private stakes, and they are a bit more aggressive about marking them down.
   [6]
@@ -224,20 +224,20 @@ It is difficult to inject equity into the capital structure with the debt theore
 It has been reported Twitter is seeking new equity at the previous $54.20 price. Colonizing Mars seems easier.    
 
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       SPAC guy
-    
-  
+
+
 
 Here is a Florida man who spent 2021-2022
 	launching special purpose acquisition companies,	raising money from investors for the SPACs,	stealing the money, and	losing it by day-trading meme stocks and crypto?
@@ -263,19 +263,19 @@ Morgenthau deposited some of the money he raised for Strategic Metals into Afric
 
 Just living 2021 to the fullest.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Investing Novices Are Calling the Shots for $4 Trillion at   US Pensions. Pre-CPI   Trading Surge Was ‘Extremely Unusual,’ Analysis Shows. BlackRock Halts Withdrawals From £3.5 Billion   UK Property Fund. Saudi Crown Prince Tangles With  Sovereign Wealth Fund Over How to Invest Oil Riches. The new Gulf  sovereign wealth fund boom. Head of Saudi Arabia wealth fund subpoenaed in case over  Elon Musk’s Tesla tweet. Wall Street’s  War for Tech Talent Is Cooling Off. Meta Fined More Than $400 Million for Serving  Ads Based on Online Activity. Hedge Fund Debuts in Biggest   Launch Led by a Woman. New Hedge Fund Soars 163% Betting   Everything Is Going Down.   Green Lending Tops Fossil Fuel as Big Oil Gets Cash Elsewhere. Shopify Tells Employees to Just   Say No to Meetings. Goldman Sachs  yanks free coffee perk as layoffs loom. “Swiss cheese tastes better when it  listens to hip hop.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I am stylizing a bit; most venture rounds are convertible preferred, and “structure” tends to mean having a liquidation preference higher than 1x, that is, a guaranteed preferred return. So in reality the Series C might be preferred at a 1x liquidation preference, the Series D might be preferred at 2x, and their liquidation preferences might be pari passu with each other. (I am presenting the Series C as common stock in the text in part because it's simpler and in part because it more closely tracks the BREIT story that we'll get to.) Also, as a public-markets guy I feel compelled to say that this is what we would call “convertible preferred stock,” though in private markets it is common to leave out the word “convertible” because it is just assumed. In public markets, “preferred stock” often means non-convertible preferred stock, a fixed-income instrument that does not share in the upside of the common stock. In private markets that is less common, though it happens; at one point Elon Musk was reportedly in negotiations to issue fixed-income preferred stock out of Twitter Inc.
 
 
-  [2] Or going public at a $1 billion valuation. 
+  [2] Or going public at a $1 billion valuation.
 
 
   [3] To keep things simple I am not giving numbers for their investments; if the Series D is small, then the liquidation preference won’t cost much and the Series C will get almost $1.20, but if it’s large then it will cost a lot and the Series C will get less, possibly under $1.
@@ -290,117 +290,117 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] The intuition here is that if you run a venture capital fund, or even a non-traded REIT with redemption limits, and you report a high value for your assets, that doesn’t have too much real-world effect. But if you run a public mutual fund that offers unlimited daily redemptions, you are constantly cashing out investors at your reported net asset value, and if that NAV is too high then you will be overpaying people who cash out.
 
 
-  [7] It  has until next month to close a deal so, you know. In September it  borrowed $830,000 from its sponsors, presumably to replace some of the money that Morgenthau stole. 
+  [7] It  has until next month to close a deal so, you know. In September it  borrowed $830,000 from its sponsors, presumably to replace some of the money that Morgenthau stole.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

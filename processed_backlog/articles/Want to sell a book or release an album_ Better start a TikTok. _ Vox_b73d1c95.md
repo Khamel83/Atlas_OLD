@@ -106,7 +106,7 @@ The burden of self-promotion isn’t only on creative people, obviously; much li
 
 There are plenty of people who view this as a good thing. A society made up of human beings who have turned themselves into small businesses is basically the logical endpoint of free market capitalism, anyway. To achieve the current iteration of the American dream, you’ve got to shout into the digital void and tell everyone how great you are. All that matters is how many people believe you.
 
-See More: 
+See More:
 
 * [Culture](/culture)
 * [Internet Culture](/internet-culture)

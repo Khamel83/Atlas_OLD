@@ -12,7 +12,7 @@
 
 # www.1984produkts.com
 
-Unknown author • August 04, 2014 
+Unknown author • August 04, 2014
 
 ![www.1984produkts.com]()
 

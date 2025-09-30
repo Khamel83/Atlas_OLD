@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/formic-automating-abundance
 
-Welcome to the 1,977 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 160,388 smart, curious folks by subscribing here: 
+Welcome to the 1,977 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 160,388 smart, curious folks by subscribing here:
 🎧  For the audio version, click the play button or listen on Spotify [ https://substack.com/redirect/f10509c6-64f0-4778-9d3e-641bfc946327?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/65640555-4384-4117-9195-0203aeffc070?r=9p0gt ]
 Today’s Not Boring, the whole thing, is brought to you by… Formic [ https://substack.com/redirect/f5ff6d39-e065-48dd-822e-c46f2dfb2721?r=9p0gt ]
 Formic [ https://substack.com/redirect/93ec02e9-5d27-4c5f-a754-2f9fafd9b3e8?r=9p0gt ] delivers Robots by the Hour to manufacturers. It’s making small and medium American businesses stronger, fighting inflation, and creating abundance. If you want to help bring about an abundant future — or if you just really want to work with cutting edge robots — good news: Formic is hiring [ https://substack.com/redirect/f5ff6d39-e065-48dd-822e-c46f2dfb2721?r=9p0gt ].
@@ -62,7 +62,7 @@ Robotic Powers
 Automating Abundance 
 But first, a little bit more on the robots. To root for Formic as hard as you should, you need to understand why more robots = unequivocally good.
 Those gifs took up a lot of email space! (Worth it). To read the full post…
-Thanks to Saman [ https://substack.com/redirect/46471763-3266-403f-af85-7e385b8d0017?r=9p0gt ] for working with me on the piece, Garry [ https://substack.com/redirect/f98093bf-0851-4b3c-bf38-41df45817385?r=9p0gt ] for the intro, and Dan [ https://substack.com/redirect/f9bc854c-3446-4f5f-abb6-05ffb4d6c15a?r=9p0gt ] for editing! 
+Thanks to Saman [ https://substack.com/redirect/46471763-3266-403f-af85-7e385b8d0017?r=9p0gt ] for working with me on the piece, Garry [ https://substack.com/redirect/f98093bf-0851-4b3c-bf38-41df45817385?r=9p0gt ] for the intro, and Dan [ https://substack.com/redirect/f9bc854c-3446-4f5f-abb6-05ffb4d6c15a?r=9p0gt ] for editing!
 That’s all for today. See you back here Friday for your Weekly Dose of Optimism. Have a great week.
 Thanks for reading,
 Packy

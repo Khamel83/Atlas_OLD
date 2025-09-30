@@ -34,7 +34,7 @@ private email! If being an NFL owner and broadcaster wasn’t enough, Fox Sports
 Finally: R.I.P. to former MLB commissioner Fay Vincent, someone who tried to maintain his
 independence even though he worked for the owners. If you have to choose one obit, I suggest this one ( https://www.nytimes.com/athletic/5937951/2025/02/02/fay-vincent-obituary/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from The Athletic’s Tyler Kepner.
 
- 
+
 
 The Starting Five
 -----------------
@@ -133,7 +133,7 @@ He was excited for his team and his city, of course, but also Amazon.
 “The idea that one of the league’s great stars, at the age of 25, is coming to L.A.? That’s pretty exciting for us,” he said. “As I’m digesting it, I started to think that if we were on the air right now, we would be able to go and
 bring in Dirk Nowitzki for his thoughts. I started to think about how we would cover it a year from now.”
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -156,7 +156,7 @@ On Twenty Thousand Leagues Under the ACC: “The intern that writes your headlin
 On Marchand: “Gewürztraminer! I know all about that German wine. I tried it in 1993 for Cornell’s legendary Introduction to Wines class. Ask Pitaro about it. He had to have
 taken that class, too.” —A sports media veteran
 
- 
+
 
 See you Thursday from New Orleans,
 
@@ -214,6 +214,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUzrInL9WZP8TIG9_Liko=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

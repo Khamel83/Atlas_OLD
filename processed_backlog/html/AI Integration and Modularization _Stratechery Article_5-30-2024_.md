@@ -7,8 +7,8 @@
 
 Breaking down the Big Tech AI landscape through the lens of integration and modularization
 
-  
-   
+
+ 
 [View in browser](https://stratechery.com/2024/ai-integration-and-modularization/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FpLWludGVncmF0aW9uLWFuZC1tb2R1bGFyaXphdGlvbi8iXX0sImV4cCI6MTcxOTU5Mjc4OCwiaWF0IjoxNzE3MDAwNzg4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.QC5FXJ7c_B9e8V9ML6foEZdWrsJGLr94oWVZ0W-3pPtM2LGbbNX6J2vjVfmD6yCvF0lzfiFAUOccIKeuMVOKqD55EuDx9eaxp3zRFZ9HLTrDSk5yob2JLO_6JdIFPSJ84QcNk0-dwB64gZPrXCU1kujIgqOsm3YmSMm8tffCAa9I12L0mzAKZcECxXPPV3okN7PhjS6yFUe3lORO1g_NGfLuoDQv0GAzlzqHFZepzYF401X4Ive4Y-x8njylRpUAbYex1HvsHCX11VHcDjsd01GnHRzGpZjFs3l7DEcTbHr6qQRHXoRTGLlIdkNU2oKWqRwm8_4CnKOUpB1_8ds1-g)
 
 
@@ -140,12 +140,12 @@ I am skeptical: I think that models will certainly differ, but not in a large en
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-Subscription Information  
-  
+Subscription Information
 
-Member: Omar Zoheri  
 
-  
+Member: Omar Zoheri
+
+
 *© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*

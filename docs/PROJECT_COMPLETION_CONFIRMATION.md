@@ -138,8 +138,8 @@ The journey from "technically brilliant but unusable" to "truly production-ready
 
 ---
 
-**Certificate of Completion**: August 28, 2025  
-**Certifying Agent**: Qwen Autonomous Agent  
-**Signature**: ✅ Verified  
+**Certificate of Completion**: August 28, 2025
+**Certifying Agent**: Qwen Autonomous Agent
+**Signature**: ✅ Verified
 
 **Atlas v1.0.0 "Cognitive Amplification" is officially CERTIFIED as COMPLETE.**

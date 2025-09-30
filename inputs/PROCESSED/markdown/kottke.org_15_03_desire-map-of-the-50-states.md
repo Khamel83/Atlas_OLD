@@ -7,11 +7,11 @@
 
 # Desire map of the 50 states
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Desire map of the 50 states](https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/what-states-want.jpg)
 
-Desire map of the 50 states  
-  
-In Alaska, people search for the cost of a gallon of milk. In Alabama and Florida, people search for the cost of abortions. In other states, vasectomies, facelifts, and taxis are popular searches. The map was compiled using the autocomplete results for “how much does a * cost”… for each of the 50 states. (via mr) 
+Desire map of the 50 states
+
+In Alaska, people search for the cost of a gallon of milk. In Alabama and Florida, people search for the cost of abortions. In other states, vasectomies, facelifts, and taxis are popular searches. The map was compiled using the autocomplete results for “how much does a * cost”… for each of the 50 states. (via mr)
 

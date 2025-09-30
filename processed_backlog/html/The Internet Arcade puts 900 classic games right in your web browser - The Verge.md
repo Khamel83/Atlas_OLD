@@ -54,7 +54,7 @@ Most Popular
 
 From our sponsor
 
-### 
+###
 
 [Advertiser Content From![Sponsor logo](/web/20250115193921im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20250115193921/http://theverge.com/)
 

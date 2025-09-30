@@ -126,7 +126,7 @@ On the call, Kownator emphasized that bond reports don’t include revenue from 
 Anyway, coming back to the intended
 takeaway from the call: Sotheby’s wants to be seen as a global luxury retailer. This was Patrick Drahi’s goal from the beginning. It appears he was willing to push the company to the brink to continue on that path. Now that Sotheby’s has the high-traffic Hong Kong flagship and the elegant Paris position, and soon a New York landmark in the Breuer building, we’ll see whether real estate can actually have a transformative effect on its future.
 
- 
+
 
 Endnotes…
 -----------
@@ -206,6 +206,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUpNf57jWf38NkoEiQrlw=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

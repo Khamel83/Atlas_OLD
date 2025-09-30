@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.There is a view that crypto was a low-interest-rates phenomenon, but stab
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Tether reserves
-    
-  
+
+
 
 There is a view that crypto was a low-interest-rates phenomenon, but stablecoins are really a low-interest-rates phenomenon. The idea of the most popular (“fully backed,” non-algorithmic) stablecoins is:
 	You give some company $1.	It promises to give you back the $1 when you want it.
@@ -69,7 +69,7 @@ There is a view that crypto was a low-interest-rates phenomenon, but stablecoin
 
 This description is very, very close to the standard story of banking: You put one paper dollar in the bank, you get back a receipt saying you’ve got $1 in the bank, and you can use that receipt for $1 in the bank to transact with because it is a dollar. Your money in your bank account is not a claim on money, not an IOU for money; your money in your bank account is money. A stablecoin is money, in the specific context of some blockchain.
 However, two other things that bank accounts have are:
-	Branches, tellers, customer service, compliance, stuff like that; and	
+	Branches, tellers, customer service, compliance, stuff like that; and
 Interest — not all of the time, and not so much over the past decade, but in an environment of high interest rates it becomes reasonable to expect to get paid interest on at least some of the money you keep in the bank.
 
 Stablecoins can be like three guys in an undisclosed location who provide good customer service to a dozen big counterparties and have an inscrutable website for everyone else. And they tend not to pay interest.
@@ -100,37 +100,37 @@ I suppose part of the answer is that, if you run Tether, you do not want this bu
 
 If you’ve got some spare cash to buy Bitcoin and support the system, that might be a good use of it.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is blitzscaling illegal?
-    
-  
+
+
 
 Here is a pretty standard story that people used to tell about Uber Technologies Inc., back when it was a tech unicorn, before it went public:
 	Uber sells you a nicer car ride than a taxi, at a lower price.	How does it manage this? Well, by losing money on every ride.	How does it manage that? Well, it raises billions of dollars from venture capitalists, which it uses to subsidize the losses. 	How does it manage that? Well, it tells the venture capitalists a good story. In the story it tells the VCs, Uber grows its market share rapidly by offering the best product at the lowest price. It builds network effects: Every rider wants to use Uber because it has the best deals, which means every driver wants to drive for Uber because it has all the passengers, which means that every rider really wants to use Uber because all the drivers are there, etc. The network effects make this something of a winner-take-all business, and if Uber wins then it will get all the drivers and all the passengers; it will be the app that people use whenever they need a ride. They will stop hailing cabs on the street, or telephoning car services. They will also stop taking buses or subways or personal cars; Uber will become just the way to travel. Bus routes will close, subways will wither, cab drivers will become Uber drivers. Uber’s total addressable market is large, and its market share will grow. Venture capitalists love growing market shares and large total addressable markets.	And, look, when Uber is 99% of the transportation market, it probably won’t lose money on every ride? You can wave at reasons — efficiency? monetizing user data? self-driving cars? — but one obvious reason is it can raise prices. If the taxis are gone and the subways have withered, what are people gonna do? They’re gonna pay more for Uber.
@@ -149,11 +149,11 @@ A venture predator is a startup that uses venture finance to price below its cos
 
 If you were running the third-biggest ride-hailing startup — or if you drove a taxi? — and you were undercut by Uber’s venture-subsidized prices, maybe you should sue?
 
-  
-    
+
+
       FDIC HTM
-    
-  
+
+
 
 We   talked yesterday about a proposal to let banks pay the US Federal Deposit Insurance Corp. special assessment using Treasury bonds. The idea is that, as interest rates went up, Treasury prices fell; banks that owned a lot of Treasuries (or US agency mortgage bonds) had large mark-to-market losses. This sparked bank runs, which caused some banks to fail and forced the FDIC to bail out depositors. Because of the large losses on the banks’ bond portfolios, the FDIC’s insurance fund was out of pocket billions of dollars. The FDIC replenishes this fund by assessing banks for the money, and it has proposed to do so. But some of the banks are still hurting; they don’t want to pay billions of dollars to the FDIC right now, and they still have these lurking mark-to-market losses on their Treasury portfolios. So they proposed to pay the assessment in Treasuries: If a bank owes the FDIC $100, it could give the FDIC Treasury bonds with a face amount of $100, which are now worth $90 or whatever. The bank saves some money and gets some surprisingly toxic assets off its balance sheet.
 Then of course the FDIC gets underpaid, but the point of the plan is that if the FDIC just holds the bonds to maturity, it gets the full $100. The underlying idea here is that these bonds are “worth” $100 in some abstract sense, they are worth $90 at market values, banks carried them on their balance sheets at $100 on the assumption that they could hold them to maturity and get back $100, and then runs on bank deposits called that assumption into question: If you have to sell the bonds today to pay back depositors, they are only worth $90. But if you transfer the bonds to the FDIC, which is not funded by demand deposits, it can hold the bonds to maturity; it is the US government. Moving the bonds from a bank where they’re worth $90 to a government agency where they’re worth $100 just creates value. The Wall Street Journal  summarized this argument:
@@ -163,11 +163,11 @@ This argument is not at all right as a matter of the time value of money, but 
 
 The point is that the FDIC fund is not exactly runnable, but it is sort of second-order runnable: If there is a run on rickety banks, that will lead to a run on the FDIC’s insurance fund, as it will be needed to pay off those banks’ depositors. (This makes the FDIC a little bit   like Silvergate Capital Corp., a regular bank that provided banking services to crypto firms, and that ended up with deposit flight not because its depositors didn’t trust it but because its depositors were crypto firms, and their depositors didn’t trust them and withdrew their money.) It can hold Treasuries to maturity, but only if there are not too many bank runs. 
 
-  
-    
+
+
       CS CDS II
-    
-  
+
+
 
 Sure  why not:
 
@@ -176,11 +176,11 @@ The panel was asked whether a bankruptcy credit event had occurred with regards 
 
 Did Credit Suisse go bankrupt? No; it agreed to be acquired by UBS in a voluntary-ish merger at the strong encouragement of Swiss banking regulators. Did it go bankrupt-ish? Ehh, kind of? Its debt was not impaired, but its additional tier 1 capital securities, which were intended to be written down to zero if Credit Suisse got too close to needing a government bailout, were written down to zero. This did not affect the Credit Suisse bonds that are subject to CDS, but the game here is, you buy the CDS on the unimpaired bonds, and then you argue that something impairment-ish happened in the general neighborhood of those bonds. We have  talked before about arguments that the AT1s were “not subordinated” to the bonds, and that therefore the write-down of the AT1s should be treated as a write-down of the bonds (which were not written down); this argument  did not work. Now there is an argument that the write-down of the AT1s should be treated as a bankruptcy and thus trigger CDS on the bonds (which were not written down). Will this work? I mean, probably not, but it’s worth asking the question.
 
-  
-    
+
+
       How fraud works
-    
-  
+
+
 
 Well,   yes:
 
@@ -189,80 +189,80 @@ A California mutual fund manager was sentenced to four years in prison for defra
 
 It is rare to do fraud with the specific purpose of making your investors lose money, though I suppose it has happened. Usually the purpose is instead to make money for yourself. The latter often causes the former, however.
 
-  
-    
+
+
       Fraud is fun
-    
-  
+
+
 
 Here is a  US federal criminal case against  a teen named Joseph Garrison, who is charged with hacking thousands of accounts on the sports betting site DraftKings and draining $600,000 from them to his own bank account. “Don’t put it in email,” I say a lot around here, or in text messages or other electronic chats. But I understand that that is hard advice to take, particularly for the people doing the crimes. I understand that if you are a teen on the internet doing hacking, and you get $600,000 from your hacking, it is not reasonable for me to expect you not to brag about it to your internet teen friends. It’s just that you’ll get caught and this won’t help:
 On GARRISON’s cellphone, law enforcement also located conversations between GARRISON and his co-conspirators, which included discussions about how to hack the Betting Website and how to profit from the hack of the Betting Website by extracting funds from the Victim Accounts directly or by selling access to the Victim Accounts.  In one particular conversation, GARRISON discussed, in substance and in part, how successful he was at credential stuffing attacks, how much he enjoyed credential stuffing attacks, and how GARRISON believed that law enforcement would not catch or prosecute him.  Specifically, GARRISON messaged the following, in substance and in part: “fraud is fun . . . im addicted to see money in my account . . . im like obsessed with bypassing [stuff].”
 Weirdly the unnamed conspirator  replied saying “idk it ruined my life personally,” which, one, yes, and two, why are you still in this chat? Anyway if you do financial crimes and text your buddies about them and say “fraud is fun” and then you get arrested, (1) that’s definitely gonna be in the Justice Department press release and (2) it is also definitely gonna be in Money Stuff.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Carl Icahn admits he got bearish bet that cost $9bn wrong. Wall Street Fears $1 Trillion   Aftershock From Debt Deal. Private Equity Heads Toward Consolidation. Europe’s   Collateral Drought Shows Up in Bond-Market Anomaly. Tech Unicorn Fivetran Closes on $125 Million in   Debt.  Schwab Taps Credit Markets to Raise $2.5 Billion in Debt. Deutsche Bank to Pay $75 Million to Settle  Jeffrey Epstein Accusers’ Suit. For Executives Only, CEOs Amass Billions in Savings With  ‘Top Hat’ Plans. Hebrew Bible Sells for $38.1 Million,  Second Most Expensive Document Sold at Auction. The Seven Best Places to   Drink in the Hamptons This Summer.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In fact, for legal and efficiency reasons, it might promise only to give the money back to specific authorized counterparties — the idea is not “this is worth $1 because the stablecoin issuer will always give me a dollar for it,” but rather “this is worth $1 because there are like a dozen big crypto firms whom the stablecoin issuer will give a dollar for it, and if I need a dollar I can sell the stablecoin to them for something very close to a dollar because they know the issuer is good for it.”
 
 
   [2] I’m being very loose here, comparing (unaudited!) balance-sheet assets and liabilities and calling the difference “capital.” But this is in some sense analogous to what banking regulators call the “leverage ratio,” i.e. capital divided by un-risk-weighted assets, and the global  minimum leverage ratio is 3%.
 
 
-  [3] It used to do 
+  [3] It used to do
 another great comedy routine where it said that its money was invested in safe highly-rated commercial paper, but it couldn’t say who had issued that paper. But it has largely phased that out, and now says that its money is invested mostly in Treasury bills.
 
 
   [4] In fact the FDIC is backed by the full faith and credit of the US government, so if it depletes the fund it can get more from the Treasury, but presumably it would have to deplete the fund first, at the cost of selling the bonds.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -273,46 +273,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cirp38.5n9g/e07bb03e.gif" alt="" border="0" /></a>

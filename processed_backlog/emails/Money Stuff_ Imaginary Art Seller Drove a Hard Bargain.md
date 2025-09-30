@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        In negotiations, it is often helpful to have someone else, some “absent principal,” to blame for your position. You go to a car dealership, 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        In negotiations, it is often helpful to have someone else, some “absent principal,” to blame for your position. You go to a car dealership,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Art stuff
-    
-  
+
+
 
 In negotiations, it is often helpful to have someone else, some “absent principal,” to blame for your position. You go to a car dealership, the salesperson says “this car costs $25,000,” you say “I want to pay $21,000,” she says “I like you, I want you in this car, but my boss won’t let me go lower than $24,000,” you say “$22,000,” she says “I really want this to work out, let me check with my boss,” she goes into the break room and watches TikToks on her phone for five minutes, she comes back and says “my boss is really mad at me but I talked him down to $23,500.”
 The boss is a crutch, an excuse. The salesperson
@@ -87,37 +87,37 @@ But the Russian collector has said that Bouvier’s role evolved into that of co
 
 We have talked about this case  before, over the years; Rybolovlev has been pursuing Bouvier “in jurisdictions that included Monaco, Singapore, Hong Kong and Geneva,” but has mostly lost. This week in New York there will be a trial on Rybolovlev’s claims against Sotheby’s, the auction house, which he says “helped Bouvier cheat him, in part by creating inflated valuations for the art that served to conceal Bouvier’s large markups.” 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Altmaning
-    
-  
+
+
 
 Usually, the founder and chief executive officer of a startup would like to be able to raise money from investors while keeping complete control of the company, while the investors would prefer to have some control over how their money is used. Ultimately, if there is a sharp disagreement, the investors would like to be able to fire the founder and keep the company for themselves; the founder would like to be able to prevent that, and keep the company (and their money) for herself.
 This is a real tension, both sides have good reasons for their positions — it’s her vision, her blood, sweat and tears; it’s their money — and different startups strike the balance different ways. Some startups have dual-class stock structures and shareholder agreements that allow the founder to keep control of the board no matter how much outside money she raises. Other startups have single-class stock and shareholder agreements that give outside investors a lot of power. Generally, startups will have more founder-friendly structures if (1) they are in high demand (and can thus dictate terms to investors) and (2) their founders care about this stuff; some founders are sort of innocent and say “if I focus on doing a good job the governance will work itself out,” while other founders fight really hard for board control. And there are trends over time: When it is easy for startups to raise money, and hard for venture capitalists to get into deals, the founders get to dictate the terms, and the venture capitalists compete over who can be most founder-friendly. When capital is scarce, the providers of capital get to set the terms.
@@ -135,7 +135,7 @@ Altman eventually made it back to OpenAI in a countercoup. But the tension at on
 Among startups, tougher economic conditions have recently given venture capitalists and investors the upper hand. After OpenAI, founders are going to try to regain their footing.
 
 Sure, fine. “Tougher economic conditions have recently given venture capitalists and investors the upper hand,” so terms are less founder-friendly, and founders would like them to be more founder-friendly, because that is an eternal and universal tension. And “well look at what happened to Sam Altman” is, I suppose, an argument to make in that negotiation.
-But it has nothing to do with anything! What happened to Sam Altman is not that his investors disagreed with his vision and fired him! What happened to Sam Altman is that OpenAI, almost uniquely, is an 
+But it has nothing to do with anything! What happened to Sam Altman is not that his investors disagreed with his vision and fired him! What happened to Sam Altman is that OpenAI, almost uniquely, is an
 $86 billion startup whose governance terms are neither founder-friendly nor investor-friendly. They are nonprofit-board-friendly. That’s so weird! If you’re a tech startup, you don’t need a nonprofit board! The number of tech startups that answer to a nonprofit board is very close to one!
   [3]
  If you don’t have a nonprofit board, this whole problem doesn’t exist! 
@@ -143,11 +143,11 @@ On the other hand, if you are a founder looking to keep more control over your c
 Eric Ries, founder of the Long-Term Stock Exchange and something of a corporate governance guru and go-to mentor among the Silicon Valley set … has a system of hurdles founders can set up that would make it harder for a board to move against a company’s mission or management. The most protective moves, Ries and lawyers say, are implementing supervoting shares or dual-class shares, which give founders ultimate control over their companies. These structures create multiple classes of shares to give founders, and sometimes early employees or investors, voting control.
 Okay sure but OpenAI has an operating agreement that (1) gives investors no votes at all and (2) tells them, in writing, that they should “view any investment … in the spirit of a donation.” That’s way better for a founder than dual-class stock, if the founder is sure she controls the board.
 
-  
-    
+
+
       Carta
-    
-  
+
+
 
 We  talked yesterday about Carta, the startup that manages capitalization tables for other startups. I made the point that managing cap tables is a reasonable business — startups pay you a moderate amount of money to keep track of their shareholder lists — but it is much less lucrative than the business of brokering secondary trades in startup stock, where people will pay you, like, 2% of the value of every trade to match up buyers and sellers. And managing cap tables would seem to be a huge advantage in getting the brokerage business: The lists of shareholders are generally secret, and if you have them (because you are in the business of keeping them), then you know who all the potential sellers are and can broker a lot of trades.
 The problem is that the startups really do want those lists to be secret, and they will be mad if you go and use them to broker trades. And Carta did that: It came to a shareholder of a company whose cap table it manages, pitching that shareholder on selling his stock; the shareholder told the company and the company complained. And the result is that Carta is shutting down its brokerage business. The Financial Times reports:
@@ -158,11 +158,11 @@ Henry Ward, the company’s chief executive, said in a blog post on Monday night
 
 What I said yesterday is that “we’ll give you an inexpensive service and monetize it by using the data for targeted advertising” is really the great business model of the 21st century, and that Carta’s service would seem to generate very valuable data for targeted advertising. (The advertising is “sell your shares of this hot startup,” targeted to actual shareholders.) It is rough, for a hot startup, to disavow that model. Perhaps it is a lesson in the dangers of monetizing too early.
 
-  
-    
+
+
       Pillow talk
-    
-  
+
+
 
 We   talked last June about how the Covid-19 pandemic, and the associated rise in working from home, was good for work-from-home insider trading. Some percentage of insider trading involves people overhearing their partners’ work calls at home, or looking at their partners’ work email while their partners are in the bathroom, and then trading on the partners’ work information. If everyone works from the office, there is a limited opportunity for this sort of thing. If everyone works from the bedroom they share with their partner, there is tons of opportunity for this sort of thing. 
 Today there’s a  Wall Street Journal A-hed treatment of the trend:
@@ -182,25 +182,25 @@ Not surprisingly, many such relationships don’t survive.
 
 We have   talked about this problem in the case of golf buddies: Sometimes, corporate executives talk about their work on the golf course, treating golf like therapy and expecting their golf buddies to keep it confidential. (In that case, if the golf buddy trades, he is guilty of insider trading, but the executive isn’t.) Other times, corporate executives talk about their work on the golf course in order to tip their golf buddies, expecting those buddies to go trade on it. (In that case, they’re both guilty of insider trading.) If you’re not playing the round with them, it is hard to know which cases are which. Same, but more so, with romantic partners.
 
-  
-    
+
+
       Shareholder Vote Exchange
-    
-  
+
+
 
 We  talked last Thursday about the Shareholder Vote Exchange, a business that lets retail shareholders sell their votes. My view was (1) obviously retail shareholders should sell their votes, which are worth nothing to them, but (2) who would buy them? Shareholder votes are worthless to everyone, except to activist hedge funds in very rare contested proxy fights (or buyers in very rare contested takeovers), and in the contested situations anyone who tries to buy votes is going to get very sued.
 But SVE co-founder Preston Yadegar emailed me to point out the obvious use case I missed: Companies can buy their own shareholders’ votes. “Our focus for now,” he writes, “is simply to help issuers achieve quorum (with higher chances of success and at a lower cost).”
 We have  talked a  number of  times in the last  year or two about the baroque lengths that some companies have gone to to get their retail shareholders to vote. Most notably, AMC Entertainment Holdings Inc. was busily issuing shares to meme-stock investors, but then it ran out of authorized shares; it wanted to ask its shareholders to authorize more shares, but it concluded that it couldn’t get enough votes, so it issued a novel form of preferred stock — APES — designed to rig the vote to overcome retail shareholder inertia. This led to lawsuits and was generally expensive and inconvenient. I  wrote in 2022, about AMC, that “if you are a meme-stock company with a retail-focused investor-relations function, you have to solve the problem of voting.” Possibly the simplest solution is to pay the retail investors a few bucks for their votes.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Talent-Hungry Hedge Funds Seen Fueling   Pod Shop M&A in 2024. How Wall Street Firms Are  Warming to AI—With Help From Silicon Valley. Microsoft’s OpenAI Ties Face Potential   EU Merger Probe. Once-Bankrupt   Jefferson County Tests Muni-Bond Market With Mega Deal. Tinder Owner Match Draws  Elliott Investment. China Deal Slump Forces Wall Street Banks to Cast a Wider Net. Ecstasy-for-Medicine Advocate Raises $100 Million. Elon Musk Criticizes WSJ Reporting on  His Use of Illegal Drugs. “Mike Mayo was probably the only contestant at last year’s powerlifting nationals who used to have an Alan Greenspan photo pinned to his apartment wall.” The over 150-year mystery of  why urine is yellow has finally been cracked: study.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Tyler Peters, named in that block quote, was prosecuted criminally, but a jury  acquitted him on all counts, and the SEC then dropped its charges against him. One of his co-defendants was convicted in the criminal trial, then a judge  threw out his conviction, then an appeals court  reinstated it.
 
 
@@ -213,48 +213,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] The genders in this sentence are intentional. The Journal notes: “One thing hasn’t changed since the earliest days of pillow talk: It is usually the men who can’t resist the urge to take advantage of their confidential information.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -265,46 +265,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck7jm2.5je0/1e48f760.gif" alt="" border="0" /></a>

@@ -3,7 +3,7 @@
 **Source:** inputs/New Docs/html/www.ussmariner.com_2006_03_12_bugs-bunny-greatest-banned-player-ever.html
 **Processed:** 2025-08-24T19:14:09.429848
 
-3/12/2006 • 67 comments 
+3/12/2006 • 67 comments
 
 ## Bugs Bunny, greatest banned player ever
 
@@ -118,14 +118,14 @@ We are then introduced to the shabby state of both the grounds keeping and of st
 
 The Gorillas, presumably bored at the level of competition offered at the game, force Teatotallers equipment upon the rabbit and he enters the game. The new lineup is announced:
 
-C: Bugs Bunny  
-LF: Bugs Bunny  
-RF: Bugs Bunny  
-P: Bugs Bunny  
-3B: Bugs Bunny  
-CF: Bugs Bunny  
-1B: Bugs Bunny  
-SS: Bugs Bunny  
+C: Bugs Bunny
+LF: Bugs Bunny
+RF: Bugs Bunny
+P: Bugs Bunny
+3B: Bugs Bunny
+CF: Bugs Bunny
+1B: Bugs Bunny
+SS: Bugs Bunny
 2B: Bugs Bunny
 
 Using an orthodox delivery, Bugs delivers a pitch which appears quite fast, but is then able to take the catcher’s position and (as the catcher) encourage himself (as the pitcher). When he catches the ball, the force of the impact throws him back and shatters the backstop.
@@ -143,10 +143,10 @@ What can we make of this then? Two theories appear initially viable:
 
 When thrown, the pitch must be traveling at least as slow as 15ft/s (to give him time to run to the plate and then talk). At the same time, it can’t touch the ground before crossing the plate, or be ruled an automatic ball, so it must actually be thrown upwards at least as fast as to resist the force of gravity (as g =32ft/s^2). Since the pitch crosses the plate at approximately the same height it was thrown, we know when it left Bunny’s hand, it was traveling at about 64ft/s. Neglecting air friction and the effects of spin on the ball:
 
-0s: 64ft/s up  
-1s: 32ft/s up  
-2s: 0ft/s up  
-3s: 32ft/s down  
+0s: 64ft/s up
+1s: 32ft/s up
+2s: 0ft/s up
+3s: 32ft/s down
 4s: 64ft/s down
 
 64ft/s = 3,840ft/m = 230,400 ft/h = ~44mph
@@ -189,7 +189,7 @@ But then how is he able to catch the ball safely and still be driven into the gr
 
 This would further support the contention that it is Bunny who has a singular ability to accelerate the ball, and that this ability is not limited to catching or to only drawing objects to him.
 
-**Catching**: while waiting for a pitch, is able to yell and cause the ball to accelerate towards him  
+**Catching**: while waiting for a pitch, is able to yell and cause the ball to accelerate towards him
 **Batting**: yells before receiving the pitch, able to hit the ball and then cause it to accelerate equally after contact.
 
 Alternately, we can consider that the mass of the ball is not constant, and Bunny is somehow able to alter or control both the speed and mass of a ball in play to provide beneficial results.

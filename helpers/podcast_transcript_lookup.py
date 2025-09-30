@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
 
-from helpers.database_config import get_database_connection
+import sqlite3
 from helpers.youtube_podcast_fallback import YouTubePodcastFallback
 from helpers.content_transactions import TransactionTimer
 
@@ -52,7 +52,7 @@ class PodcastTranscriptLookup:
 
     def __init__(self):
         self.youtube_fallback = YouTubePodcastFallback()
-        self.conn = get_database_connection()
+        self.conn = sqlite3.connect('/home/ubuntu/dev/atlas/data/atlas.db')
 
     def lookup_transcript(self, podcast_name: str, episode_title: str,
                          episode_url: str = None) -> TranscriptLookupResult:
@@ -327,9 +327,9 @@ class PodcastTranscriptLookup:
 
             # If we have a specific URL, try that first
             if episode_url:
-                transcript_data = scraper.scrape_episode_transcript(episode_url)
-                if transcript_data and transcript_data.get('transcript'):
-                    transcript = transcript_data['transcript']
+                result = scraper.get_transcript_from_url(episode_url)
+                if result.get('success'):
+                    transcript = result['transcript']
 
                     # Store the successful transcript
                     self._store_transcript(podcast_name, episode_title, transcript, 'atp_scraper', episode_url)
@@ -349,9 +349,9 @@ class PodcastTranscriptLookup:
             # Look for matching episode by title similarity
             for episode in episodes:
                 if self._title_similarity(episode_title, episode.get('title', '')) > 0.7:
-                    transcript_data = scraper.scrape_episode_transcript(episode['url'])
-                    if transcript_data and transcript_data.get('transcript'):
-                        transcript = transcript_data['transcript']
+                    result = scraper.get_transcript_from_url(episode['url'])
+                    if result.get('success'):
+                        transcript = result['transcript']
 
                         # Store the successful transcript
                         self._store_transcript(podcast_name, episode_title, transcript, 'atp_scraper', episode['url'])
@@ -418,9 +418,9 @@ class PodcastTranscriptLookup:
             # Try to find episode via search on thisamericanlife.org
             search_result = scraper.search_episode_by_title(episode_title)
             if search_result:
-                transcript_data = scraper.scrape_episode_transcript(search_result['url'])
-                if transcript_data and transcript_data.get('transcript'):
-                    transcript = transcript_data['transcript']
+                result = scraper.get_transcript_from_url(search_result['url'])
+                if result.get('success'):
+                    transcript = result['transcript']
 
                     # Store the successful transcript
                     self._store_transcript(podcast_name, episode_title, transcript, 'tal_scraper', search_result['url'])
@@ -487,9 +487,9 @@ class PodcastTranscriptLookup:
             # Try to find episode via search on 99percentinvisible.org
             search_result = scraper.search_episode_by_title(episode_title)
             if search_result:
-                transcript_data = scraper.scrape_episode_transcript(search_result['url'])
-                if transcript_data and transcript_data.get('transcript'):
-                    transcript = transcript_data['transcript']
+                result = scraper.get_transcript_from_url(search_result['url'])
+                if result.get('success'):
+                    transcript = result['transcript']
 
                     # Store the successful transcript
                     self._store_transcript(podcast_name, episode_title, transcript, '99pi_scraper', search_result['url'])
@@ -606,37 +606,30 @@ class PodcastTranscriptLookup:
             )
 
     def _try_google_search_fallback(self, podcast_name: str, episode_title: str) -> TranscriptLookupResult:
-        """Try Google search as final fallback"""
+        """Try FREE search alternatives as fallback (no expensive APIs)"""
 
         try:
-            from helpers.google_search_fallback import get_google_search_fallback
+            # Use free search alternatives instead of expensive Google Search API
+            import sys
+            sys.path.append('/home/ubuntu/dev/atlas/src')
+            from free_search_alternatives import FreeSearchEngine
             import asyncio
 
-            # Get the Google search fallback instance
-            google_search = get_google_search_fallback()
-
-            if not google_search.enabled:
-                return TranscriptLookupResult(
-                    success=False,
-                    podcast_name=podcast_name,
-                    episode_title=episode_title,
-                    error_message="Google Search API not configured"
-                )
+            # Get free search engine
+            free_search = FreeSearchEngine()
 
             # Create search queries with different patterns for better results
             search_queries = [
                 f'"{podcast_name}" "{episode_title}" transcript',
                 f'"{podcast_name}" "{episode_title}" transcript site:catatp.fm',
                 f'"{podcast_name}" "{episode_title}" transcript site:thisamericanlife.org',
-                f'"{podcast_name}" transcript "{episode_title}"',
-                f'{podcast_name} {episode_title} transcript filetype:pdf'
+                f'"{podcast_name}" transcript "{episode_title}"'
             ]
 
-            # Try each search query until we find a result
+            # Try each search query until we find a result using FREE search
             for search_query in search_queries:
-                logger.info(f"Trying Google search: {search_query}")
+                logger.info(f"Trying FREE search: {search_query}")
 
-                # Use urgent search (priority 1) for immediate results
                 try:
                     # Run the async search in a new event loop if needed
                     try:
@@ -645,31 +638,39 @@ class PodcastTranscriptLookup:
                         loop = asyncio.new_event_loop()
                         asyncio.set_event_loop(loop)
 
-                    result_url = loop.run_until_complete(
-                        google_search.search_with_fallback(search_query, priority=1)
+                    # Use free search alternatives (DuckDuckGo, Wikipedia, etc.)
+                    search_results = loop.run_until_complete(
+                        free_search.search(search_query, max_results=5)
                     )
 
+                    # Find the best transcript URL from results
+                    result_url = None
+                    for result in search_results:
+                        if any(indicator in result.url.lower() for indicator in ['transcript', 'catatp.fm', 'thisamericanlife.org']):
+                            result_url = result.url
+                            break
+
                     if result_url:
-                        logger.info(f"Google search found result: {result_url}")
+                        logger.info(f"FREE search found result: {result_url}")
 
                         # Try to extract transcript from the found URL
                         transcript = self._extract_transcript_from_url(result_url, podcast_name, episode_title)
 
                         if transcript:
                             # Store the successful transcript
-                            self._store_transcript(podcast_name, episode_title, transcript, 'google_search', result_url)
+                            self._store_transcript(podcast_name, episode_title, transcript, 'free_search', result_url)
 
                             return TranscriptLookupResult(
                                 success=True,
                                 podcast_name=podcast_name,
                                 episode_title=episode_title,
                                 transcript=transcript,
-                                source='google_search',
+                                source='free_search',
                                 fallback_used=True
                             )
 
                 except Exception as search_error:
-                    logger.warning(f"Search query failed '{search_query}': {search_error}")
+                    logger.warning(f"FREE search query failed '{search_query}': {search_error}")
                     continue
 
             # No successful searches found transcript content
@@ -677,16 +678,16 @@ class PodcastTranscriptLookup:
                 success=False,
                 podcast_name=podcast_name,
                 episode_title=episode_title,
-                error_message="Google search found no usable transcript results"
+                error_message="FREE search found no usable transcript results"
             )
 
         except Exception as e:
-            logger.error(f"Google search fallback failed: {e}")
+            logger.error(f"FREE search fallback failed: {e}")
             return TranscriptLookupResult(
                 success=False,
                 podcast_name=podcast_name,
                 episode_title=episode_title,
-                error_message=f"Google search error: {str(e)}"
+                error_message=f"FREE search error: {str(e)}"
             )
 
     def _extract_transcript_from_url(self, url: str, podcast_name: str, episode_title: str) -> Optional[str]:

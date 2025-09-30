@@ -42,7 +42,7 @@ Now, take it away Julie…
 Julie Brener Davich
 Julie Brener Davich
 
- 
+
 
 Gallery Hopping With Julie
 --------------------------
@@ -100,7 +100,7 @@ and Phillips in New York are modest this week—there are only 534 lots on offer
  
 
 Sotheby’s sale, Contemporary Curated, is somewhat of a misnomer since much of the material is postwar art. It’s the smallest of the three, with only 99 lots at a combined presale estimate of $15.9 million. In the equivalent sale a year ago, Sotheby’s sold a whopping 339 lots, but the average price per lot was less than half of what it is this season. This year, in fact, fully one-third of the total presale estimate is in the top
-four lots. The very top lot is a recently rediscovered 1985 Joan Mitchell painting ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/untitled-8?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), estimated at $3 million, that has been in the same French collection for 40 years. The other top lots are a 2015 George Condo double portrait ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/artist-and-muse?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) estimated at $1 million; a 1971 Jean Dubuffet wall piece 
+four lots. The very top lot is a recently rediscovered 1985 Joan Mitchell painting ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/untitled-8?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), estimated at $3 million, that has been in the same French collection for 40 years. The other top lots are a 2015 George Condo double portrait ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/artist-and-muse?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) estimated at $1 million; a 1971 Jean Dubuffet wall piece
 ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/echec-a-letre?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from his Hourloupe cycle, which had been in the collection ( https://www.sothebys.com/en/series/a-visionary-eye-the-portman-family-collection?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of Atlanta architect
 John Portman since 1985, for $800,000; and a Jean-Michel Basquiat work ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/untitled-7?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on paper that has changed hands multiple times in the past few years, estimated at $800,000.
 
@@ -151,7 +151,7 @@ Sotheby’s is also offering a
 single-owner collection ( https://www.sothebys.com/en/auction-catalogue/2025/contemporary-curated-n11780/the-infinite-passion-of-life-works-from-the-italian-midcentury?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of nine works by midcentury Italian artists not usually offered in the Contemporary Curated context, estimated at $50,000 to $350,000 each. And last but not least, there’s a dynamic 2022
 painting ( https://www.sothebys.com/en/buy/auction/2025/contemporary-curated/a-garbage-pail-for-my-sickest-feelings?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) estimated at $30,000, by Austyn Weiner, who is about to have a small solo presentation at Lévy Gorvy Dayan.
 
- 
+
 
 Endnotes…
 -----------
@@ -175,7 +175,7 @@ One final endnote…: Larry Gagosian appeared on CBS News Sunday Morning today i
 Basquiat exhibition. It repeated a lot of content from Patrick Radden-Keefe’s New Yorker profile ( https://www.newyorker.com/magazine/2023/07/31/larry-gagosian-profile?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). There’s been much discussion in the media and the art world about Gagosian’s succession plans, since he doesn’t have kids. When asked by CBS correspondent Anthony Mason whether there could ever be a Gagosian empire without
 Gagosian, he answered, “I don’t know; that’s the question. I don’t want to think it’s an impossibility. I think it’s a serious challenge. But I’m not ready to pass the reins. I enjoy it too much.” Mason followed up, “Are you ever going to be, do you think?” And Gagosian answered, “No.”
 
- 
+
 
 Thanks, Julie. This was great. I’ll be back on Tuesday.
 
@@ -204,7 +204,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVNQoiN4DrRy1PWayhLus=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F23%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

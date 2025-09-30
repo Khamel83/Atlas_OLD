@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Ahahaha oops: Lyft Inc. issued a massive correction to its outlook for earnings margin in 2024, saying its margin is expected to expand by 5
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Lyft typo
-    
-  
+
+
 
 Ahahaha   oops:
 
@@ -82,37 +82,37 @@ Also, though, they did the right thing here! They put the press release out aft
 “Lyft clearly did one thing right – it corrected the error quickly and decisively,” said Brad Foster, a partner specializing in securities litigation at corporate law firm Haynes Boone. “The reality is that people make mistakes, and mistakes are not securities fraud.”
 Well, sometimes they are, but not like this. Lyft can’t stop its shareholders from trading after hours, but in some rough sense that’s not its responsibility. If you want to trade in the after-hours market the second the press release hits the tape, the risk of typos is on you.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG as a low-interest-rates phenomenon
-    
-  
+
+
 
 I   wrote last month that ESG — environmental, social and governance investing — might have been a low-interest-rates phenomenon. When interest rates are zero, discount rates are low, and in some sense what happens in 2050 is as important as what happens tomorrow. If a company’s 2050 profits are as important as its 2024 profits, then it should spend a lot of time imagining the world in 2050, trying to make that world better and positioning itself to be profitable in 2050. Reducing greenhouse gas emissions now costs money now, but it might make you more profitable in 2050, and it’s perfectly sensible to trade $1 of profits now for $2 of profits in 2050.
   [4]
@@ -129,11 +129,11 @@ And if that were true, then what you would expect is that the investors would h
 
 That’s bad news for the ESG hiring boom, though   here’s some good news from Bloomberg: “There’s a renewed urgency among investors to work out the implications [of Scope 3 emissions] for the companies they invest in — as well as their own climate commitments.” “Scope 3 emissions are those produced by a company’s customers and supply chain,” and “integrating Scope 3 data with portfolio analysis and investment decisions is ‘often hobbled’ by the complexity of Scope 3 accounting.” That is bad news if you are an investor looking to use Scope 3 data in your investment decisions, but I guess it’s good news if you are an ESG professional looking for a job. In financial services, complexity is good for business.
 
-  
-    
+
+
       2 and 20
-    
-  
+
+
 
 My   crude model of the hedge fund industry goes something like this:
 	The classic old-school hedge fund is run by a charismatic manager who seems to have skill at picking investments. Investors give her money, she picks investments, hopefully they go up and she charges fees of 2% of assets and 20% of profits. She seems to provide “alpha,” in the sense that her investments usually outperform her benchmark, but nobody is all that rigorous about examining what risks she is taking to achieve those returns or whether her investors are being properly compensated for them.	The modern hedge fund is a multimanager multistrategy fund that ruthlessly extracts and scientifically measures alpha, that hires many specialized portfolio managers and forces them to be factor-neutral, so that they make returns not from broad market or sector moves but from picking exactly the right investments to go long and exactly the right ones to short. It allocates capital to them based on their skill, it cuts them off if they lose money, it levers all of this up, and it provides a stream of steady uncorrelated returns that sophisticated institutional investors love. The sophisticated institutional investors give the hedge fund lots of money, so it can hire more portfolio managers, and they pay it fees of, like, 7% of assets and 20% of profits.	These days, the old-school model is in decline and the multistrategy model is ascendant.
@@ -148,11 +148,11 @@ The 2024 increase in fees reflects how global investors are allocating billions 
 
 Roughly, average fees go down because the old hedge fund model is less attractive to investors; average fees go up because the new model is more attractive.
 
-  
-    
+
+
       Prop bets
-    
-  
+
+
 
 Yesterday   I wrote about dumb sports and sports-adjacent proposition bets, and their susceptibility to manipulation, and people emailed me lots of examples that I found amusing and now want to share with you:
 	The players who win the Super Bowl traditionally dump Gatorade on their coach. This is televised, and there is an annual betting market on the color of the Gatorade. “Suspicious betting leads to questions about Super Bowl Gatorade color odds,” is the terrific headline of  this New York Post story from yesterday: A lot of people bet on purple in the day or two before the game, and then it was purple, raising questions about insider betting or manipulation. “Whether it was insider trading given by a select few on the sidelines is unknown, but the days of this popular market could be numbered.” I wonder if the 49ers had different-colored Gatorade ready to go, and if you had to pick the winner of the game to get this market right?	Maybe the  most famous case of prop bet market manipulation came when Sutton United played Arsenal on television in the FA Cup in 2017, and a UK sportsbook offered “odds of 8-1 that [Sutton United] substitute goalkeeper Wayne Shaw would finish an entire pie while the game was going on.” He did do that thing, and was fined £375 and suspended for two months. “Piegate,” it was called. 	We talked about a guy on TikTok who pretended that he was the streaker at this year’s Super Bowl, though he was pretty clearly joking. Apparently this is an old gag;  here’s a guy who streaked at the Super Bowl in 2021 and then claimed that he had bet $50,000 that there would be a streaker. No one believed him: “No book in their right mind would take $50K limits on that. Nowhere close,” said a sportsbook. If you want to bet $100 that there will be a streaker at the Super Bowl, a sportsbook will take your action. If you want to bet $50,000 that there will be a streaker at the Super Bowl, that sportsbook knows full well that you are planning to streak at the Super Bowl, and it won’t take your money.	In non-sports, I wrote, “One worry that people have about prediction markets is that they will call forth events … If you can bet on terrorist attacks, terrorism might become profitable, which is a bad outcome.” A reader reminded me that the US Defense Advanced Research Projects Agency  did try a prediction market in the early 200s, but it “was shut down in August 2003 after multiple US senators condemned it as an assassination and terrorism market.”
@@ -161,11 +161,11 @@ Also in non-sports, Jeffrey Gordon of Columbia Law School emailed me about actu
 The downside [of legalized insider trading] is not widening of the bid-ask spread because of greater presence of informed trading but the temptation to insiders — managers — to run the firm in a way that will produce more “information” on which they can trade — e.g., by choosing a more volatile operating style or capital structure. So insider trading will reduce allocational efficiency because it distorts managerial incentives to run the firm in a value-maximizing way. It's the streaker point you later make brought to the corporate setting. 
 Right, if you are the chief executive officer of a company and insider trading is legal, you will … well, you’ll buy a ton of stock, you’ll put out a press release saying “our margins will expand by 500 basis points next year,” the stock will soar, you’ll dump the stock, you’ll put out another press release saying “whoops typo.” You’ll make the stock as volatile as possible, because you can make more money predicting/causing stock moves, and trading ahead of them, than you can from running the company well.
 
-  
-    
+
+
       Mob insider trading
-    
-  
+
+
 
 My general opinion about insider trading is that you shouldn’t do it, but I know my audience. Not to flatter you too much, but you probably have better ways of making money than insider trading, ways that do not have a high probability of landing you in prison. If you have an otherwise successful, lucrative, legitimate career, why ruin it by engaging in insider trading, a crime where enforcement seems to be pretty effective?
 I do, however, have an extremely-not-legal-advice exception to this opinion, which is that if you are coming to insider trading not from the financial services industry but from the crime industry, then sure, fine, why not. Like if you are in the business of showing up at trucking companies with a crowbar and threatening them into giving you 10% of their revenue, maybe you should switch to the business of showing up at  Phebe’s with a crowbar and threatening junior investment bankers into giving you the names of merger targets. Insider trading is riskier and less lucrative than many forms of legal financial engineering, but safer and more lucrative than many forms of crime.
@@ -178,15 +178,15 @@ In the notice, the FCA warned that mergers and acquisitions advisory firms shoul
 
 I assume the gang approach is less like “give me the name of a merger target or I’ll break your kneecaps” and more like befriending the junior bankers to earn their trust and make them more complicit in the insider trading. But I really don’t know. It does seem like, if you are going to do organized crime, finding an illicit edge in equity trading has to be one of the safer and nicer and more lucrative ways to do it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The Brutal Reality of   Plunging Office Values Is Here. How Wall Street Won a Battle Over  Venezuelan Sanctions. SoftBank’s   Vision Fund Swaps Splashy Bets For ‘Timid’ Investing. U.S. Proposes Requiring Investment Advisers to Put in Place  Anti-Money-Laundering Controls. A  Tiny Hedge Fund Is Becoming a Thorn in the Side of Energy Giant BP.   Bezos Sells $4 Billion of Amazon Stock in Four Trading Days. StanChart   Weighs Break Up of Corporate, Investment Bank. UniCredit Is Set to   Boost Bonus Pool by 16% After Record Year. The Small  University Endowment That Is Beating the Ivy League. Cyber Startup Armis Buys Firm That Sets   ‘Honeypots’ for Hackers.  Mark Gorton and RFK Jr. I’m  eating raw chicken every day for 100 days — or until I’m hospitalized.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] I’m using the “accepted” time stamps on the US Securities and Exchange Commission’s Edgar website for the press release times here.
 
 
@@ -202,48 +202,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] I mean, maybe. Arguably ESG is also repricing because of the political backlash against it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -254,46 +254,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckg8fq.5jdk/23cae8b7.gif" alt="" border="0" /></a>

@@ -6,7 +6,7 @@ from pathlib import Path
 class AdvancedContentProcessor:
     def __init__(self, atlas_dir: Path):
         self.atlas_dir = atlas_dir
-    
+
     def process_content(self, content_path: Path):
         """Advanced processing with AI enhancement"""
         print(f"⚙️ Processing: {content_path}")

@@ -203,7 +203,7 @@ The erstwhile center of civilization, long-since surpassed by the United States,
 
 Or, to use Breton’s description, a launchpad without a rocket is just a burned out piece of concrete.
 
-* 
+*
 
 French startup Mistral is building compelling large language models; the Nvidia action in particular could be fatal to their future ↩︎ ( #rf1-13192 )
 

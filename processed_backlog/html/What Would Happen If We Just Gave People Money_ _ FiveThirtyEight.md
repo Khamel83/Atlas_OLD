@@ -155,7 +155,7 @@ Back when he was gathering signatures in 2012, he would joke about the supposedl
 
 ---
 
-### 
+###
 
 [All Videos](/videos/)[YouTube](https://www.youtube.com/FiveThirtyEight)
 

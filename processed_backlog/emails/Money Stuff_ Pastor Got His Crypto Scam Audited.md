@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Often, if you are marketing an investment, it helps to have your thing validated by some trusted third party. If you’ve got a company and yo
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Audit
-    
-  
+
+
 
 Often, if you are marketing an investment, it helps to have your thing validated by some trusted third party. If you’ve got a company and you want investors, it’s good to send them financial statements that have been audited by a well-known accounting firm. If you’re selling bonds, it’s good to have a high credit rating from a recognized ratings firm. If you’re a software company, it is good to have a security audit from a reputable firm.
 If you are running a scam, all of this is also true, maybe even more so: If you’re selling a fake thing, it is very helpful for you to say “this thing has been certified by a trusted third party.” But of course that is hard, because the reason the trusted third parties are trusted is because they are in the business of not certifying scams, so they are unlikely to certify you.
@@ -99,37 +99,37 @@ The couple also took about $1.3 million from more than $3 million raised for the
 
 Well right but you said that about Hacken too. I think I will need a bit more proof for the claim “God told us to do some scams and also remodel our kitchen.”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private markets are not the new public markets
-    
-  
+
+
 
 I used to say a lot around here that “private markets are the new public markets.” Part of this was about fundraising: In the olden days, companies would raise money privately early in their lives, but if they wanted to graduate to the big leagues — to get big, to be respected by customers and suppliers, and to raise a lot of money — they’d need to go public. But in the last decade, it became easier to raise lots of money at huge valuations without going public: There were more investors (big venture capitalists, sovereign wealth funds, SoftBank Group Corp., even mutual funds) that had lots of money and were willing to invest it in private companies, and globalization and improved technology infrastructure made it easier for those companies to connect with those investors. And so you could have household-name private companies that could raise billions of dollars at $50 billion valuations without going public.
 Part of it, though, was about secondary markets. Historically companies went public, not only to raise more capital, but to allow their early investors (and founders and employees) to sell stock. Private companies could raise money by selling stock to investors, but those investors couldn’t really resell the stock to anyone else; there were no organized markets for trading private-company stock. But that has changed too. For one thing, there are, sort of,  organized markets for trading private stock, though they have never really boomed as much as people hoped. (We  talked a  bit recently about one of them, CartaX, which was shut down ignominiously this month after misusing a startup’s data to pitch an investor on a trade.) Still there is more secondary-market trading between venture capitalists than there used to be, there are dedicated secondaries funds, and big private tech companies have  adopted the technology of “employee tenders,” where new investors buy old shares from employees, letting them resell before the company goes public.
@@ -163,11 +163,11 @@ By the way, this problem too can be solved with structure:
 Some sellers have developed workarounds to unload shares without the startup knowing. They can place their stake in a special purpose vehicle that a buyer can invest in. Others create so-called forward contracts: They officially retain ownership of the shares, but the buyer assumes the right to any future gains or losses and will become the registered owner after an IPO or sale of the company.
 “I own some shares of a hot startup, but I can’t sell them to you, but I can sell you some sort of derivative claim on those shares” is in some ways the great financial product of the tech boom and also a great source of scams. 
 
-  
-    
+
+
       Elsewhere in third-party audits
-    
-  
+
+
 
 Here is a  report from Moody’s about shell companies. “Shell company” is a somewhat vague term, referring to “corporations without significant business assets or operations,” in Moody’s words. There is in general nothing particularly nefarious about having some spare corporations lying around, to optimize liability or ownership or debt subordination or jurisdiction or, yes, fine, of course, taxes. (When I was a young mergers-and-acquisitions lawyer I would occasionally form a bunch of Delaware shell companies for future use doing mergers, and I always got a tiny Bond-villainish thrill from putting my name on them.) But, says Moody’s, “these legal instruments can be abused by bad actors to launder money gained through illicit activities, such as trafficking and environmental crime. They can create a mask for sanctioned individuals to disguise their business ownership, and they can hide financial crimes, such as tax evasion, fraud, and bribery.” 
 So Moody’s analyzed a database of “more than 472 million companies” to identify red flags for when a company might be a bad shell company, or a shell company anyway? 
@@ -180,11 +180,11 @@ Moody’s tool has revealed thousands of directors who are as young as zero or o
 
 Har har har but also there are allegedly more than 30,000 shell company directors who are older than 100? Seems high.
 
-  
-    
+
+
       Elsewhere in crypto security
-    
-  
+
+
 
 Crypto as an industry is getting a bit better at  fending off the North Koreans?
 
@@ -194,11 +194,11 @@ Better security practices, coupled with an overall decrease in DeFi activity, we
 
 I guess. CoinMarketCap tells me that the total market capitalization of crypto peaked at almost $3 trillion in late 2021, was over $2 trillion for much of early 2022, and then fell below $1.5 trillion for late 2022 and most of 2023, before rallying into the recent Bitcoin exchange-traded-fund excitement. The average daily market cap of crypto in 2022 was about $1.3 trillion; in 2023 it fell to $1.18 trillion, down about 10%. The peak in 2022 was $2.25 trillion; in 2023 it was $1.68 trillion, down 26%. Surely part of why North Korea was able to steal less money from crypto in 2023 than in 2022 was improved security, but probably part of it is also that there was less money in crypto in 2023 than in 2022. 
 
-  
-    
+
+
       Workplace excellence
-    
-  
+
+
 
 If you are a big bank and you want your employees to work from the office three days a week, and some of your employees don’t do that, it seems pretty reasonable to send those employees a letter saying “our policies require you to be in the office at least three days a week, you have not met that requirement, and if you keep it up you might get fired.” A lot of companies, understandably, have some sort of work-from-the-office policy, and if you have that policy, you will probably need an enforcement mechanism, warnings of consequences, records of warnings of consequences, etc., the whole apparatus of human resources formality.
 Still  the language here just sounds like it was generated by an artificial intelligence set to “evil”:
@@ -209,15 +209,15 @@ One of the messages said its recipient had failed to meet the bank’s “Workpl
 
 You can say “showing up at the office” instead of “workplace excellence expectations”! That’s clearer and less, like, dystopian. You can call it a “warning” instead of a “letter of education.” Why does everyone have to be so weird about return-to-office.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Regional Banks Had Another Ugly Quarter. Thoma Bravo, Permira Plan Exits as PE Firms   Seek to Return Cash. AI expert warns of  algo-based market manipulation. For  Property Investors, the Price of Homes Is Still Not Right. Credit Card Debt Is Up—and It’s Taking Longer to Pay Down. Ackman Ramps Up Israel Support With 5% Stake in   Tel Aviv Bourse. Oil Trader Sues UAE Claiming   Smear Campaign Bankrupted His Firm. China Beefs Up Support for   Developer Funding By Easing Loan Uses. China  cuts bank reserve ratio to boost growth as sentiment sours. Desperate  Chinese Property Developers Resort to Bizarre Marketing Tactics. Chipotle Looks to Hire 19,000 Workers to Handle This Year’s ‘  Burrito Season.’ Potty-mouthed parrots  teaching other birds to swear as zoo hatches plan to stop problem. Woman Arrested for Allegedly Stealing $2,500 of  Stanley Drinking Cups.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] By the way, I feel like this was just   a *thing* for a while in crypto? It was not uncommon for people to decide to make a crypto thing that was pegged to the price of some other crypto thing (a crypto index, etc.), or some other non-crypto thing (a startup’s stock price, etc.). But the pegging mechanism was not, like, “we will hold a basket of the reference thing, create and redeem tokens for the reference thing, and generally set up an arbitrage mechanism to preserve the peg.” It was just vibes-based, just “wouldn’t it be *nice* if this thing tracked the price of something else?”
 
 
@@ -227,48 +227,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Unless Fidelity is one of your investors, in which case (1) they will publicly disclose their updated valuations, (2) they will feel free to mark down your value and (3) there will be lots of news stories about it. If I google “Fidelity marks down Twitter” I get more than 2 million results.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -279,46 +279,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckb46q.5jdw/09ab87a6.gif" alt="" border="0" /></a>

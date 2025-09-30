@@ -13,11 +13,11 @@ from helpers.utils import log_info, log_error
 
 class ContentIntegration:
     """Integration layer for unified content processing."""
-    
+
     def __init__(self):
         self._pipeline = None
         self._article_manager = None
-    
+
     @property
     def pipeline(self):
         """Lazy load ContentPipeline."""
@@ -25,7 +25,7 @@ class ContentIntegration:
             from helpers.content_pipeline import ContentPipeline
             self._pipeline = ContentPipeline()
         return self._pipeline
-    
+
     @property
     def article_manager(self):
         """Lazy load ArticleManager."""
@@ -42,72 +42,72 @@ _integration = ContentIntegration()
 def process_article_with_pipeline(url: str, config: Dict[str, Any] = None, log_path: str = ""):
     """
     Process article through complete ArticleManager + ContentPipeline workflow.
-    
+
     Args:
         url: Article URL to process
         config: Configuration for processing
         log_path: Path for logging
-        
+
     Returns:
         Tuple of (article_result, content_result)
     """
     log_info(log_path, f"Processing article with full pipeline: {url}")
-    
+
     # Update configs if provided
     if config:
         _integration.article_manager.config.update(config)
         _integration.pipeline.config.update(config)
-    
+
     # Step 1: Fetch article content
     article_result = _integration.article_manager.process_article(url, log_path=log_path)
-    
+
     if not article_result.success:
         log_error(log_path, f"Article fetching failed: {article_result.error}")
         return article_result, None
-    
-    # Step 2: Process content through pipeline  
+
+    # Step 2: Process content through pipeline
     content_result = _integration.pipeline.process_content(
         content=article_result.content,
         title=article_result.title,
         url=url,
         log_path=log_path
     )
-    
+
     log_info(log_path, f"Article processing complete: fetch={article_result.method}, pipeline={len(content_result.processing_stages)} stages")
-    
+
     return article_result, content_result
 
 
 def bulk_process_articles_with_pipeline(urls: List[str], config: Dict[str, Any] = None, log_path: str = ""):
     """
     Bulk process articles through complete workflow.
-    
+
     Args:
         urls: List of article URLs
         config: Configuration for processing
         log_path: Path for logging
-        
+
     Returns:
         List of (article_result, content_result) tuples
     """
     log_info(log_path, f"Bulk processing {len(urls)} articles with full pipeline")
-    
+
     results = []
-    
+
     # Update configs if provided
     if config:
         _integration.article_manager.config.update(config)
         _integration.pipeline.config.update(config)
-    
+
     # Step 1: Bulk fetch articles
     article_results = _integration.article_manager.bulk_process_articles(urls, log_path=log_path)
-    
+
     # Step 2: Process successful articles through content pipeline
     successful_articles = [
-        (url, result) for url, result in article_results.items() 
+        (url, result) for url, result in article_results.items()
         if result.success
     ]
-    
+
     if successful_articles:
         content_items = [
             {
@@ -117,12 +117,12 @@ def bulk_process_articles_with_pipeline(urls: List[str], config: Dict[str, Any] 
             }
             for url, result in successful_articles
         ]
-        
+
         content_results = _integration.pipeline.bulk_process_content(content_items, log_path=log_path)
-        
+
         # Combine results
         content_dict = {item['url']: result for item, result in zip(content_items, content_results)}
-        
+
         for url, article_result in article_results.items():
             content_result = content_dict.get(url) if article_result.success else None
             results.append((article_result, content_result))
@@ -130,10 +130,10 @@ def bulk_process_articles_with_pipeline(urls: List[str], config: Dict[str, Any] 
         # No successful articles to process through pipeline
         for url, article_result in article_results.items():
             results.append((article_result, None))
-    
+
     success_count = sum(1 for ar, cr in results if ar.success and cr is not None)
     log_info(log_path, f"Bulk processing complete: {success_count}/{len(urls)} fully successful")
-    
+
     return results
 
 
@@ -145,9 +145,9 @@ def enhanced_article_processing(url: str, config: Dict[str, Any] = None):
         DeprecationWarning,
         stacklevel=2
     )
-    
+
     article_result, content_result = process_article_with_pipeline(url, config)
-    
+
     # Return in legacy format
     return {
         'success': article_result.success,
@@ -169,12 +169,12 @@ def process_content_comprehensive(content: str, title: str = None, url: str = No
         DeprecationWarning,
         stacklevel=2
     )
-    
+
     if config:
         _integration.pipeline.config.update(config)
-    
+
     result = _integration.pipeline.process_content(content=content, title=title, url=url)
-    
+
     # Return in legacy format
     return {
         'processed_content': result.processed_content or result.content,
@@ -189,7 +189,7 @@ def process_content_comprehensive(content: str, title: str = None, url: str = No
 # Integration with existing ingestors
 class EnhancedArticleIngestor:
     """Enhanced ArticleIngestor using unified processing."""
-    
+
     def __init__(self, config):
         self.config = config
         warnings.warn(
@@ -197,11 +197,11 @@ class EnhancedArticleIngestor:
             DeprecationWarning,
             stacklevel=2
         )
-    
+
     def process_urls(self, urls: List[str]) -> Dict[str, Any]:
         """Process URLs through enhanced pipeline."""
         results = bulk_process_articles_with_pipeline(urls, self.config)
-        
+
         # Convert to expected format
         processed_results = {
             "timestamp": _integration.pipeline.stats.last_updated,
@@ -210,11 +210,11 @@ class EnhancedArticleIngestor:
             "failed": [],
             "results": []
         }
-        
+
         for article_result, content_result in results:
             if article_result.success:
                 processed_results["processed"].append(article_result.url)
-                
+
                 result_item = {
                     "url": article_result.url,
                     "success": True,
@@ -223,7 +223,7 @@ class EnhancedArticleIngestor:
                     "processing_time": article_result.processing_time,
                     "content_length": len(article_result.content) if article_result.content else 0
                 }
-                
+
                 if content_result:
                     result_item.update({
                         "classification": content_result.classification,
@@ -233,7 +233,7 @@ class EnhancedArticleIngestor:
                         "pipeline_stages": len(content_result.processing_stages),
                         "pipeline_success": any(s.success for s in content_result.processing_stages)
                     })
-                
+
                 processed_results["results"].append(result_item)
             else:
                 processed_results["failed"].append(article_result.url)
@@ -243,44 +243,44 @@ class EnhancedArticleIngestor:
                     "error": article_result.error,
                     "fetch_method": article_result.method
                 })
-        
+
         return processed_results
 
 
 # Content processing component integration
 class UnifiedContentProcessor:
     """Unified processor combining all content processing capabilities."""
-    
+
     def __init__(self, config: Dict[str, Any] = None):
         self.config = config or {}
-    
+
     def process_article_url(self, url: str, **kwargs):
         """Process article from URL through complete pipeline."""
         return process_article_with_pipeline(url, self.config, **kwargs)
-    
+
     def process_raw_content(self, content: str, **kwargs):
         """Process raw content through pipeline."""
         if self.config:
             _integration.pipeline.config.update(self.config)
-        
+
         return _integration.pipeline.process_content(content=content, **kwargs)
-    
+
     def bulk_process_urls(self, urls: List[str], **kwargs):
         """Bulk process URLs through complete pipeline."""
         return bulk_process_articles_with_pipeline(urls, self.config, **kwargs)
-    
+
     def bulk_process_content(self, content_items: List[Dict], **kwargs):
         """Bulk process content through pipeline."""
         if self.config:
             _integration.pipeline.config.update(self.config)
-        
+
         return _integration.pipeline.bulk_process_content(content_items, **kwargs)
-    
+
     def get_processing_stats(self):
         """Get combined processing statistics."""
         article_stats = _integration.article_manager.get_processing_stats()
         pipeline_stats = _integration.pipeline.get_pipeline_stats()
-        
+
         return {
             'article_processing': article_stats,
             'content_pipeline': pipeline_stats,
@@ -291,7 +291,7 @@ class UnifiedContentProcessor:
                 }
             }
         }
-    
+
     def reset_all_stats(self):
         """Reset all processing statistics."""
         _integration.article_manager.reset_stats()
@@ -303,7 +303,7 @@ class UnifiedContentProcessor:
 def migrate_to_unified_processing():
     """
     Migration guide for moving to unified processing.
-    
+
     Returns migration instructions as string.
     """
     guide = """
@@ -354,7 +354,7 @@ GRADUAL MIGRATION:
 - Statistics tracking across both systems
 - Full backward compatibility during transition
 """
-    
+
     return guide
 
 
@@ -366,7 +366,7 @@ def create_unified_processor(config: Dict[str, Any] = None) -> UnifiedContentPro
 # Export commonly used functions
 __all__ = [
     'process_article_with_pipeline',
-    'bulk_process_articles_with_pipeline', 
+    'bulk_process_articles_with_pipeline',
     'UnifiedContentProcessor',
     'create_unified_processor',
     'migrate_to_unified_processing'
@@ -377,7 +377,7 @@ if __name__ == "__main__":
     # Test the unified processing
     print("UNIFIED CONTENT PROCESSING TEST")
     print("="*40)
-    
+
     # Test single article
     print("\n1. Testing single article processing:")
     try:
@@ -387,7 +387,7 @@ if __name__ == "__main__":
             print(f"   Pipeline: {len(content_result.processing_stages)} stages, Quality: {content_result.quality_score:.2f}")
     except Exception as e:
         print(f"   Error: {e}")
-    
+
     # Test unified processor
     print("\n2. Testing unified processor:")
     try:
@@ -397,7 +397,7 @@ if __name__ == "__main__":
         print(f"   Quality score: {result.quality_score:.2f}")
     except Exception as e:
         print(f"   Error: {e}")
-    
+
     # Show migration guide
     print("\n3. Migration guide:")
     print(migrate_to_unified_processing())

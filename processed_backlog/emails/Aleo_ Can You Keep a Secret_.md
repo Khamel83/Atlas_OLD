@@ -7,10 +7,10 @@
 
 View this post on the web at https://www.notboring.co/p/aleo-can-you-keep-a-secret
 
-Welcome to the 1,252 newly Not Boring people who have joined us since our last Monday post! If you haven’t subscribed, join 176,385 smart, curious folks by subscribing here: 
+Welcome to the 1,252 newly Not Boring people who have joined us since our last Monday post! If you haven’t subscribed, join 176,385 smart, curious folks by subscribing here:
 🎧  For the audio version, subscribe on Spotify [ https://substack.com/redirect/39d17735-ede6-466a-81c5-fa8d845cd405?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or Apple Podcasts [ https://substack.com/redirect/c5c4ac0c-7497-44f8-ab07-05c13fff600c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (later this week)
 Hi friends 👋,
-Happy Tuesday! This post is coming to you a a day late because it’s the longest I’ve essay I’ve ever written about the most complex subject I’ve ever written about. 
+Happy Tuesday! This post is coming to you a a day late because it’s the longest I’ve essay I’ve ever written about the most complex subject I’ve ever written about.
 There have been many times in Not Boring’s brief history when I’ve realized just how lucky I am to get to write for an audience of smart, curious nerds like you. It takes a special kind of nerd to read multi-thousand word deep dives on topics ranging from blockchains to robots week after week. One of those times that stands out in my memory was in June 2021, when Jill Gunter [ https://substack.com/redirect/6a53bf10-f26d-4a72-b811-5cf3ed175322?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and I wrote a piece on Zero-Knowledge Proofs called, creatively, Zero Knowledge [ https://substack.com/redirect/2a8263e1-b10e-4188-8a17-71e29a368319?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
 Zero-Knowledge Proofs are wonky. For the first thirty or so years of their lives, they existed only deep in the research labs of academic cryptographers. They involve math that I couldn’t begin to understand, let alone explain, and when we wrote that piece, their use cases were still almost purely speculative. Despite that, and despite the fact that there were only 56,891 of us here at that time, Zero Knowledge has been viewed 113k times and was our most popular piece of the month by a landslide. 
 In the piece, we gave an overview of Zero-Knowledge Proofs, and predicted that you’d be hearing a lot more about them over the next five years. Fast-forward 17 months, and the zero-knowledge zeitgeist is upon us. Starkware, zkSync, Aztec, Espresso, ImmutableX, Polygon’s zkEVM, and Aleo are either live on mainnet or in various stages of testnets. If they hit their timelines, Zero Knowledge Proofs could be one of the breakout technologies of 2023. 
@@ -19,7 +19,7 @@ This essay is a Sponsored Deep Dive. While the piece is sponsored, these are all
 You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/64c33754-4b9c-4ec8-a14f-7c3e61a49f4f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
 Please, please for the love of God note that this is not investment advice. Aleo doesn’t have a token live, but it will at some point. When that time comes: please do not look back at this piece as investment advice. I am a terrible trader. This is a sponsored piece. a16z, where I’m an advisor, is an investor in Aleo. I have no idea where Aleo Credits will be priced when trading starts. I’m just fascinated by the technology and the potential applications of zero-knowledge proofs. 
 K? Let’s get to it.
-Aleo: Can You Keep A Secret? 
+Aleo: Can You Keep A Secret?
 Imagine a Bizarro Internet that’s exactly like the internet you use today except for one detail: everything you do, send, or store on this Bizarro Internet is totally public. 
 When you buy a new pair of underwear on Amazon, your purchase is posted to a website that anyone with the desire and some basic skills can search.
 Your balance at Bank of America is right there, too, for anyone to see. 
@@ -79,10 +79,10 @@ I give him the two balls to hide behind his back. 
 He takes one ball out and shows it to me. 
 Then he puts this ball back behind his back, withdraws his hand again, shows me a ball and asks, “Did I switch the balls?” 
 If we repeat this game enough times, and if I answer correctly every time, then I will demonstrate to him that the balls are almost certainly two different colors. Importantly, here, I have proven this to him without revealing any other information. Perhaps frustratingly for him, he still doesn’t know which ball is red and which ball is green.
-For much, much more detail on Zero-Knowledge Proofs, including another explanation, an overview of potential applications, the riveting adventures of Howard and Alex, Aleo details including consensus, economics, and progress, how Aleo is commoditizing its complement, risks, regulation, and so much more… 
-Thanks as always to Dan for editing, to Alex, Howard, Daniel, Drew, and Ali for input on the piece, and to Jill for introducing me to the wonderful world of ZKPs. 
-That’s all for today! See you Friday for the most optimistic Weekly Dose yet, and on Monday for my last essay of 2022! 
-Thanks for reading, 
+For much, much more detail on Zero-Knowledge Proofs, including another explanation, an overview of potential applications, the riveting adventures of Howard and Alex, Aleo details including consensus, economics, and progress, how Aleo is commoditizing its complement, risks, regulation, and so much more…
+Thanks as always to Dan for editing, to Alex, Howard, Daniel, Drew, and Ali for input on the piece, and to Jill for introducing me to the wonderful world of ZKPs.
+That’s all for today! See you Friday for the most optimistic Weekly Dose yet, and on Monday for my last essay of 2022!
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPRGc0TkRFMk5UQXNJbWxoZENJNk1UWTNNRGt6T1RjeU1Dd2laWGh3SWpveE5qY3pOVE14TnpJd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAubzEtV25UakdTWWhtUFI3MTVJc0QwOFpaeVIwOWRRTGVWNU5tTVpDbkpDTSIsInAiOjg4ODQxNjUwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3MDkzOTcyMCwiZXhwIjoxNjczNTMxNzIwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.INoo-j6U1cgAjbgYR1l-sisDH3OVjnjwFf75jvxlkz8?

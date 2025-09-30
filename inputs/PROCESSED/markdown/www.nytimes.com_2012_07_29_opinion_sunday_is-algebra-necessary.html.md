@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • July 29, 2012 
+Unknown author • July 29, 2012
 
 ![nytimes.com]()
 

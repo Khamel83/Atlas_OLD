@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         You know the deal. AMC Entertainment Holdings Inc. had a meme stock that traded up a lot even as AMC’s business was struggling. AMC took adv
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Apes vs. APEs
-    
-  
+
+
 
 You   know the   deal. AMC Entertainment Holdings Inc. had a meme stock that traded up a lot even as AMC’s business was struggling. AMC took advantage of this dynamic to sell a lot of stock — so much stock, in fact, that it ran out. Its corporate charter authorizes 524 million common shares, and by last summer it had issued essentially all of them. 
 The obvious solution was for AMC to ask its shareholders to vote to amend the charter and authorize more shares. In 2021, AMC did that, but then withdrew the proposal in the face of shareholder … well, I am not sure what to call it. “Shareholder opposition,” perhaps. “Shareholder indifference,” maybe. The point is that AMC needed to get a vote of a majority of all of its common shares to approve the charter amendment. There were two problems. One is that its shareholders are mostly individual retail investors, and retail investors tend not to vote much
@@ -100,89 +100,89 @@ The common stock spiked to $7.61 while APE shares slipped to $2.05. …
 “The preliminary injunction hearing on April 27 extends the time that investors have to hold long APE/short AMC by at least a month and a half, given the horrifically high cost of borrow this is a painful outcome for arbitragers,” said Cabot Henderson, who focuses on merger arbitrage and special situations at JonesTrading.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Tilray
-    
-  
+
+
 
 Maybe a clearer situation is Tilray. Tilray Brands Inc. is a meme-y cannabis company (equity market capitalization $9.6 billion in June 2021, $1.7 billion yesterday) with, naturally, a very retail investor base. Tilray has had some trouble getting shareholders to vote to approve stuff, not because they don’t like the stuff but because they are retail shareholders and don’t vote. In 2021, it  had trouble getting shareholders to vote to approve a “cannabis megamerger.” Not that they don’t love a cannabis megamerger, but as Tilray’s CEO said:
 "It's hard to get those shareholders to show up and vote," Simon said. "You know, nobody has home phones anymore. No one answers their cellphone to an unknown number. When you mail a proxy to someone's house or apartment, it goes in the garbage."
@@ -201,20 +201,20 @@ The Series A Preferred Stock cannot vote independently, but instead must vote in
 The  buyer of the preferred stock is called Double Diamond Holdings Ltd. Basically the idea is that Tilray will give one friendly holder an extra 120 million votes, probably enough to pass the charter amendment, and then when the vote is done that friendly holder’s super-voting shares will poof into a smallish number of regular shares. Meanwhile the friendly holder will vote exactly the same way as the actual common shareholders — it’s just that the friendly holder will vote all its shares, while the common shareholders won’t. If 45% of the common votes yes and 5% votes no, then 90% of the super-voting shares will vote yes, which will help. Tilray is issuing super-voting stock, briefly, in order to get rid of its super-voting stock.
 This is basically Outcome 3 in my AMC scenarios: If the Tilray shareholders who bother to vote vote yes, then the proposal will pass, despite not getting a majority of the outstanding common shares. Delaware law requires a majority of all common shares to vote to approve a charter amendment, and Tilray — like AMC — has just opted out of that requirement with a weird trick. In AMC that’s controversial among the shareholders; in Tilray I expect it won’t be. (Again, they keep voting in favor of this stuff, to the extent they vote.) I’m not sure that means it’s legal — perhaps Delaware law means what it says, that you need a majority of all shares to approve a charter amendment, and this sort of gimmick is too cute? — but I’m not sure who would object.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Everything is securities fraud
-    
-  
+
+
 
 Is a train derailment  securities fraud?
 
@@ -226,11 +226,11 @@ Elsewhere,  Alison Frankel writes about the two top-earning shareholder class ac
 Bernstein Litowitz and Robbins Geller have profited handsomely from their longtime dominance, according to a comprehensive study, The Business of Securities Class Action Lawyering, posted earlier this month by law professors Stephen Choi of New York University, Jessica Erickson of the University of Richmond and Adam Pritchard of the University of Michigan. Choi, Erickson and Pritchard crunched the data, including attorneys’ fee awards, from all securities class actions filed in federal court between 2005 and 2018. Over that time frame, they estimated, Robbins Geller and Bernstein Litowitz were the top-earning firms: Robbins Geller garnered more than $1.6 billion in fees; Bernstein Litowitz earned an estimated $1.3 billion.
 Again, you can see why the lawyers like the everything-is-securities-fraud business.
 
-  
-    
+
+
       Come on
-    
-  
+
+
 
 Here is  a story about how the richest person in the world (again!) is annoyed that current artificial intelligence companies produce AIs that are too sensitive to humans, so he is starting a rival AI company to produce AIs that will … look, it does not actually say “murder us all” in the story, but I think you can see where this is heading:
 
@@ -241,126 +241,126 @@ To spearhead the effort, Musk has been recruiting Igor Babuschkin, a researcher 
 
 I mean if you saw a movie and a billionaire character was like “AI today is too nice, we need to make an AI with better reasoning abilities that is not afraid to face facts,” how would that movie end? Really! If the end of human life on earth is an Elon Musk-sponsored AI wiping out humanity while Musk himself hops on a rocket to Mars, will you be surprised? I am looking forward to writing that last week of Money Stuff. “Having a bit of AI existential angst today,” Musk  tweeted on Sunday, ah.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 As Wall Street Chokes on   Bad Buyout Loans, Rivals Seize Opening. Oaktree Capital moves into  leveraged buyout lending with $10bn fund. Goldman Sachs Kicks Off   Investor Day With Report Card on CEO Solomon. The   SPAC Fad Is Ending in a Pile of Bankruptcies and Fire Sales. Robinhood   Subpoenaed by SEC Over Brokerage’s Crypto Business. Visa, Mastercard  pause crypto push in wake of industry meltdown. Bath & Body Works Says Loeb Tried to Oust Director He Recommended. Salesforce Investors Watching for   Activist Influence on Earnings. Evergrande Fails to Win Creditors’ Support as Key Dates Loom. Tesla Investor Gerber to   Drop Bid for Board Seat at EV Maker. Billionaire Donates $1.9 Billion to Art Museum   Where He Lives.  
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Last time I said this, a bunch of people on Twitter said “well GameStop investors do!” This is true. GameStop Corp.’s most recent shareholder vote was its annual meeting last June, where shareholders voted to approve, among other things, an amendment to its charter to authorize more shares. Out of GameStop’s  76.1 million outstanding shares,  53.1 million voted to approve the amendment (and 3.8 million against), for about a 75% turnout. GameStop is *less* retail than AMC — as a crude guide, 43.6% of its shares show up on Bloomberg’s HDS page, while only 27% of AMC’s do — but still pretty retail. So, good job GameStop investors, I am proud of you.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

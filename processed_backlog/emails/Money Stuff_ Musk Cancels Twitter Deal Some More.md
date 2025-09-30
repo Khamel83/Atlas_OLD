@@ -7,67 +7,67 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What if Elon Musk had never made a hostile bid to buy Twitter Inc.? What if Twitter was just bopping along, being a public company, and then
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 What if Elon Musk had never made a hostile bid to buy Twitter Inc.? What if Twitter was just bopping along, being a public company, and then one day its former head of security, Peiter “Mudge” Zatko,  sent a bunch of regulators a whistle-blower letter saying that Twitter’s security was bad in various ways, that it failed to safeguard user data and was vulnerable to hackers and was generally sort of sloppy about stuff? Obviously some things would happen:
 	Regulators — the Federal Trade Commission, the Securities and Exchange Commission, etc. — would investigate. If Twitter’s security was bad in the ways that Zatko says, then perhaps there would be fines, or settlements requiring Twitter to change its practices. 	Politicians would hold hearings. Obviously politicians love to hold hearings about how social-media companies are bad at privacy or moderation, so they’d do that here. It seems unlikely that anything would come of this.	Perhaps there would be business consequences. Twitter users, disgusted by its lax security practices, might quit. Advertisers might stop buying ads. 	Given these things — investigations, potential fines, bad publicity, business consequences — there would definitely be shareholder lawsuits. Everything, I am always saying around here, is securities fraud: If a public company does a bad thing (bad information security practices, etc.), then shareholders can sue, saying “you did a bad thing but didn’t tell me about it, so I was tricked into buying stock, which is fraud.” 
@@ -87,63 +87,63 @@ I have my own view about which is more likely. But my point here is that Zatko�
 When Zatko’s complaint came out,  a Twitter spokesperson said that he “appears to be opportunistically seeking to inflict harm on Twitter, its customers, and its shareholders,” and there is an important sense in which that is true. In the normal case, if you read Zatko’s complaint and assumed that everything in it was (1) true and (2) as bad as Zatko thinks it is, you would not expect it to cost Twitter twenty billion dollars to clean it up. But because of the Musk situation, that is a possibility. The timing gives his complaint an unusual power to hurt Twitter.
 Obviously one possible outcome is something like “okay, in the real world, this complaint is at the absolute maximum a $1 billion problem, so Twitter will knock $1 billion off the purchase price and Musk will close the deal at $53 per share.” If Musk still wanted Twitter, and if this complaint was truly news to him, that is the sort of compromise that you’d expect them to reach. But Musk was already fighting to get out of the deal entirely, and there's no real chance of a compromise like that. Musk’s incentives are to make Zatko’s claims seem existential for Twitter, because that’s his path out of the deal. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Meme king
-    
-  
+
+
 
 The basic business of an activist investor is that you pick a public company, you buy a bunch of its stock, you announce your position, you say “I have a few suggestions for how this company could be run better,” you get the company to implement your suggestions (by persuasiveness, or public pressure, or proxy fight), the suggestions are in fact good, and the stock goes up. Your suggestions increase the long-term value of the company, which is good for the stock price today. You are a big shareholder, so you profit. When you are done — when the company has implemented your changes and the stock price reflects the increased long-term value — you sell your stock and collect, as it were, your paycheck for a job well done.
 Obviously it is possible to be bad at this. You might be bad at getting companies to implement your suggestions — you are not persuasive, you don’t win proxy fights, people don’t like you, etc. — or you might be good at getting them to implement your suggestions, but the suggestions are bad and make the stock go down. But let’s assume that some people are good at it. What that means is that, when they announce an activist position in a company’s stock, (1) they are likely to make changes to that company and (2) those changes are likely to make the stock go up. 
@@ -173,20 +173,20 @@ The main point that I want to make here is that it is not at all clear that bein
   [4]
  do it, like, four times? It is one thing to painstakingly build a track record of driving corporate improvements through activism, to the point that your investments can move a stock price, and then say “I do not want to undermine my credibility by dumping my stock before I have a chance to make improvements.” It is another thing to build a track record of people on Reddit calling themselves “apes” and piling into your stock trades for entertainment reasons. How long can you count on that lasting? If they’re buying your stock, you might as well sell it.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Getting paid not to drill oil
-    
-  
+
+
 
 The most interesting field of economics might be the economics of not doing things. The main way that people make money, in the world, is by doing things that other people want: drilling oil, brewing coffee, maintaining social media sites, writing newsletters. But there are a few lines of business where you can get paid for not doing things that you’d otherwise do. Blackmail, for instance, is a classic: “I will go around distributing these compromising photos of you, unless you pay me money, in which case I will do nothing.”  Coasean bargaining: “I will build a smelly polluting factory on my land next to yours, unless you pay me money not to, in which case I will leave it undeveloped.” Demand response in electric grids: “I will turn my lights on and use electricity, unless you pay me not to, in which case I will use less electricity.” And, in the modern world, all sorts of environmental credit schemes: “I will  chop down these trees, drill this oil, etc., unless you pay me not to, in which case I won’t do anything at all.”
 There are so many ways in which the economics here are unintuitive. Consider the oil market. There is some demand schedule for oil; people will use more of it at lower prices and less at higher prices. There is also a supply schedule: Some oil is cheaper to drill than other oil, so when oil prices are low only the cheapest-to-extract oil will get drilled, but when prices get high people will drill in more difficult environments because it becomes worth it. But then consider the market for not drilling oil. If you own a bunch of oil fields, and someone will pay you $5 per barrel not to drill oil, you should start your not-drilling in the most-expensive-to-drill places. “Good news,” you say, “I have decided not to drill in this field that costs $150 per barrel to drill, now pay me my $5.” You could expand on this theory. If you don’t own any oil fields, you could walk into the offices of some environmental-credits company and say “if you pay me $5 per barrel not to drill oil, I won’t go around buying oil fields and drilling them.”
@@ -202,11 +202,11 @@ But, after months of discussions, the partnership ran into problems. Carbonbase 
 
 Someone should really pay me not to drill for oil in my backyard. Is there oil under my backyard? I don’t know, but someone should pay me not to find out.
 
-  
-    
+
+
       Block-trade lawyer
-    
-  
+
+
 
 What  a terrible job:
 
@@ -217,15 +217,15 @@ It is the latest example of the fallout from the investigations by the Departmen
 We have   talked about the   block-trade probe   before. The equity syndicate desk is in the uncomfortable position of talking to (1) investors, about what stocks they would like to buy, and (2) public companies and big shareholders, about selling their stocks. Broadly speaking, if Morgan Stanley is buying a block of stock from a big seller after the close today and then re-selling it to its investor clients, the syndicate desk can’t go around calling those investor clients to say “Hey a block of XYZ stock is coming after the close, get ready.” That would be bad. But if it is chatting with those investor clients all day, can it say … “Busy day today guys”? “Stick around after the close today, we’ve got a fun one for you”? “How are you feeling about entertainment companies these days”? Can it drop some hints? Can it use tone and body language? Can the investors, who know the market well and have some idea of what blocks might come loose, make an informed guess about what the syndicate desk is talking about? Can the investors then position themselves by, for instance, dumping some XYZ stock during the afternoon and then buying it back at a discount after the close?
 Oh, I don’t know, I don’t want to give you legal advice. But if you’re the Morgan Stanley lawyer who covers the syndicate desk, you do have to give the syndicate desk legal advice. You have to give some sort of general answer to those questions. “You can talk to investors about broad sectors without disclosing the name of the company that you have a block for,” maybe, or whatever, I don’t know. You make some rules and you hand the rules to the syndicate desk and then, crucially, you do not listen to their phone calls. You want some gap between the abstract rules that you have made to keep the syndicate desk out of trouble, and the syndicate desk’s interpretation of those rules to get themselves into trouble. Now the lawyer has to sit there and listen to the calls! 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Exxon Escalates Dispute With Russia Over  Barred Exit From Giant Oil Project. Nasdaq  Board-Diversity Rule Takes Center Stage in Court Battle. Big US  mortgage lenders turn screws on smaller rivals as rates rise. Temasek to Lead $100 Million Funding for   Crypto Landlord Animoca. FTC Sues Idaho Company for Selling  Sensitive Tracking Data. Frustrated  Evergrande bondholders push own plan for debt restructuring. Shrinking  CDS committee sparks questions over US$9trn market's future. ‘At the Top Level’: Serena Williams Sets Her Sights on   Venture Capital After US Open. NBA Star Giannis Antetokounmpo Is Lending His Name to an   ETF. Thai   YouTuber Allegedly Cheats Forex Investors of $55 Million. Emotional support  alligator.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Ann Lipton points out on Twitter that Musk’s letter cites Section 4.11 of the merger agreement, which says that “As of the date of this Agreement, there is no suit, action or proceeding pending or, to the Knowledge of the Company, threatened in writing against the Company or any of its Subsidiaries, that would have a Company Material Adverse Effect.” The letter says: “It is likely the case—given the extensive information withheld from the Musk Parties detailed in the Zatko Complaint—that the representations set forth in Section 4.11 will be false as of the date of any potential closing of the transactions contemplated by the Merger Agreement, resulting in a failure of the closing condition set forth in Section 7.2(b).” But that’s not how the agreement works. Section 4.11 says that there is no relevant litigation as of the date of the merger agreement, that is, as of April 2022. Section 7.2(b) says that the representations have to be “true and correct as of the Closing Date (except to the extent such representations and warranties are expressly made as of a specific date, in which case such representations and warranties shall be so true and correct as of such specific date only).” The litigation rep is made as of the signing date only, so it does not have to be true at closing. Elon Musk can’t terminate the deal just because someone sues Twitter.
 
 
@@ -235,118 +235,118 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] The stock closed at $16.00 on Aug. 15, and he filed pre-open on the 16th. He bought his shares between January and February at prices ranging from about $13 to about $17, spending a total of $119.4 million on 7.78 million shares ($15.34 per share) plus another $1.8 million on options to buy 1.7 million shares. He sold the stock on Aug. 16 and 17 for prices ranging from about $18.68 to $29.22, and the options for prices of $5.34 to $8.62 per share, for total proceeds of about $178.1 million, or about $57 million more than he originally paid.
 
 
-  [4] Except 
+  [4] Except
 Elon Musk. Musk can apparently move asset prices as many times as he wants.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday. Also, Bloomberg is doing a survey of Money Stuff readers; pl
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday. Also, Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out if you haven’t yet. Thanks!
 
-  
-    
+
+
       Sculptor
-    
-  
+
+
 
 Sculptor Capital Management Inc. is a publicly traded hedge fund firm that has agreed to sell itself to Rithm Capital Corp., another investment manager, for $11.15 per share. Since Sculptor signed the Rithm deal in July, another bidder has emerged: a group of mostly hedge fund managers, led by Boaz Weinstein and including Marc Lasry and Bill Ackman, who want to buy Sculptor with their personal funds, and who put in a bid earlier this month for $12.25. So far, though, Sculptor has said no: Its board of directors is sticking with the $11.15 Rithm deal rather than taking, or even really discussing, the $12.25 Weinstein deal.
 We have   discussed this   several times in the   last two   weeks. Sculptor says that the Weinstein deal is too uncertain: It’s not clear that they have the money, and they might scare off Sculptor’s hedge fund clients, which would kill the deal. The Weinstein investors say … well, they don’t say much. Weinstein signed a nondisclosure agreement earlier in Sculptor’s sale process, preventing him from making public bids or other public statements about the deal, so most of what we know about his bid comes from Sculptor’s statements. But Dan Och, Sculptor’s estranged founder, does not have an NDA, and he has been kibbitzing publicly on the deal; his version of events is that Sculptor’s board prefers the Rithm deal because Rithm would keep Jimmy Levin, Sculptor’s current chief executive officer and chief investment officer (and Och’s bitterly estranged ex-protégé), to run Sculptor’s funds, while Weinstein would not. In Och’s telling, the board is too close to Levin, and is putting his interests over those of shareholders. (Och,   as we have discussed, has his own interests, which are not quite the same as those of public shareholders.)
@@ -109,37 +109,37 @@ How do you address this risk? A few possible answers:
 
 When we first talked about the Sculptor situation,   I began by saying that “there are not a lot of hostile takeovers of hedge funds.” This is why: If you run a hedge fund, and I run a hedge fund, presumably my clients want me to manage their money and your clients want you to manage their money. If I buy all the shares of your hedge fund management company and say to your clients “hey guys, I manage your money now,” they might say “no you don’t.” Sculptor’s clients are clients of the firm, but they are also clients of Jimmy Levin, and it’s not clear if they would go with the firm or with the guy. Sculptor’s board has obligations to get the best deal for its public shareholders, but that does require trying to figure out what the hedge fund clients want.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Private equity recruiting
-    
-  
+
+
 
 The private equity recruiting process is an unusually pure case of a prisoner’s dilemma. The main entry-level private equity job is an associate who starts at a PE firm after a two-year analyst program at an investment bank. Ideally, private equity firms would interview banking analysts toward the end of their two-year programs, when the analysts know some stuff and have some deal experience to discuss in their interviews. Then each firm would give its preferred candidates job offers, the candidates would take the best offers, and they’d start their private equity jobs like two weeks later when their banking jobs ended.
 But if every PE firm interviewed candidates two weeks before their banking analyst programs ended, one firm could get an advantage by interviewing them a week earlier: Candidates tend to be risk-averse and take all the interviews they can get, so all the best candidates will interview with you, and if you give them exploding offers some of them will say yes rather than wait a week to interview with other firms. But the other firms won’t let you get away with that: If you move your interviews up a week, so will they. And then someone will move their interviews up another week. And so on, until you are literally interviewing banking analysts before their analyst jobs start.
@@ -174,11 +174,11 @@ Ares Management, an alternative-assets firm with $378 billion under management, 
 
 Sure it’s expensive to spend two years training people internally instead of just letting a bank do it, but the advantage is you get to hire those people crucial months before everyone else does.
 
-  
-    
+
+
       Gabon
-    
-  
+
+
 
 A traditional risk for investors in emerging-market sovereign bonds is that a country might issue some bonds and then have a military coup, and the new rulers might decide not to pay off the bonds. A more modern risk is that the country might issue some green bonds, promising to do good environmental things with the proceeds, and the buyers of the bonds might be funds focused on environmental, social and governance issues. And then the country might have a military coup, and:
 	The new rulers might decide not to pay off the bonds, or	The new rulers might keep paying the bonds, but start doing bad environmental things, or	The new rulers might keep paying the bonds and doing green stuff, but if you are an ESG investor, owning the performing green bonds of a military junta does feel a bit less ESG-y than owning the performing green bonds of a country with a democratically elected government. Arguably you have to kick the bonds out of your ESG fund for governance reasons, even if they are still pretty green.
@@ -197,11 +197,11 @@ Technically Gabon’s bond is a “blue” bond (about ocean conservation) rathe
   [7]
  but in a world of green and blue bond investing I suppose those are the risks you worry about.
 
-  
-    
+
+
       Not everything is securities fraud
-    
-  
+
+
 
 Ugh okay here goes. Ben & Jerry’s Homemade Inc. is an ice cream company that was bought by Unilever Plc in 2000. Ben and Jerry, the founders of Ben & Jerry’s, had a strong sense of social mission, and as part of their sale to Unilever they negotiated that Ben & Jerry’s would retain an independent board of directors to weigh in on its social mission. Though Unilever would be in charge of the selling-ice-cream side of the business. In 2020, the Ben & Jerry’s board decided that in 2022 it would stop selling its ice cream in Israeli settlements in occupied Palestinian territories. Ben and Jerry announced this decision in 2021. People were angry about it, and Unilever’s stock fell on the announcement and “news of negative reactions by the Israeli Prime Minister and the states of Texas and Florida.” But Ben & Jerry’s board does not have much operational power, and Unilever more or less overruled it, deciding to sell the Ben & Jerry’s business in Israel to its Israeli licensee. So the thing that Ben and Jerry announced didn’t actually happen, and as far as I know you can still buy Ben & Jerry’s in Israeli settlements.
 Is that securities fraud? I mean:
@@ -211,19 +211,19 @@ On my  minimalist account of “everything is securities fraud,” I guess that 
 The plaintiffs alleged that Unilever should have alerted its shareholders that Ben & Jerry’s was set to make a decision that could cause a drop in the company’s value. But U.S. District Judge Lorna Schofield ruled that Unilever was not required to disclose the boycott when Ben & Jerry’s decided on it in July 2020, because Unilever retained operational control over whether to institute the boycott, which it did not do.
 Here is the opinion. My theory is that (1) every bad thing a public company does is securities fraud, and (2) everything that a public company does will strike someone, in these polarized times, as bad, so (3) everything that a public company does is securities fraud. But even that theory requires the company to do something.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 UBS Signals Most of   Credit Suisse Investment Bank to Shut. UBS to Keep Credit Suisse’s Swiss Business,   Retire Its Brand. UBS Flags Cost Cuts After $29 Billion   Credit Suisse Windfall. The Secret Sauce  Morgan Stanley’s CEO Is Leaving for His Successor. Goldman Sachs to Pay $5.5 Million Over  Audio Recording Failures During Pandemic. Fed Ramps Up Demands for   Corrective Actions by Regional Banks. A Tangled  Mess of Tech: JPMorgan’s Tall Task to Integrate First Republic. US borrowers seek to ease pain of higher yields with  secured debt.   Country Garden Downgraded by Moody’s as Default Pressure Mounts. Europe's Biggest Oil Company   Quietly Shelves a Radical Plan to Shrink Its Carbon Footprint. Investors Say No Thanks to  Gen-Z, Metaverse Funds. The Tropical Island With the Hot   Domain Name. Taylor Swift Announces an ‘Eras Tour’ Film and   AMC Shares Soar. Man pulled over for driving with massive  bull named Howdy Doody riding shotgun in Nebraska. DOJ, SEC Investigate Tesla Over  Secret Glass House Project.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Here I am mostly reading what the announcement *doesn’t* say: If the deal was still contingent on selling the CLO business, Sculptor would surely say so.
 
 
-  [2] What this announcement doesn’t say is whether there would be a “specific performance” provision in the merger agreement, which is conceptually distinct from a damages cap. It is possible — and 
+  [2] What this announcement doesn’t say is whether there would be a “specific performance” provision in the merger agreement, which is conceptually distinct from a damages cap. It is possible — and
 Musk did it in Twitter — to (1) cap damages for breach at some low percentage of deal value but (2) allow the seller to demand specific performance, so that the seller can sue the buyer to force it to close the entire deal. That seems to me to be a little odd and risky for a bunch of guys buying a company in their personal accounts, but (1) Musk did it and (2) it would make sense as a way for them to *overcome* the concern that they are just a bunch of guys buying a company in their personal accounts. But again the announcement just doesn’t discuss this, and Weinstein can’t.
 
 
@@ -242,48 +242,48 @@ Musk did it in Twitter — to (1) cap damages for breach at some low percentage 
   [7] The deal announcement quotes the head of the DFC saying that “the Gabon Blue Bond will generate nearly $125 million in financing for new marine conservation efforts over the next 15 years,” and I suppose you could have a system where the DFC insures those payments rather than Gabon’s actual conservation pledges. But if the Gabon junta just went around smashing reefs it’s hard to see how the DFC could stop them, or how paying cash to bondholders would help.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -294,46 +294,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cje4cq.5k67/fb303eda.gif" alt="" border="0" /></a>

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Oh sure whatever: Republican lawmakers in New Hampshire are seeking to make using ESG criteria in state funds a crime in the latest attack o
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG crime
-    
-  
+
+
 
 Oh   sure whatever:
 
@@ -85,37 +85,37 @@ I’m sorry, this is so stupid. “ESG” is essentially about considering cert
 But if you make it a crime for investors to consider certain financial risks then you get too much of those risks.
 In particular, I suspect, you get too much governance risk. If every investor tomorrow said “okay we don’t care about the environment,” most companies probably wouldn’t ramp up their pollution: Their executives probably don’t want to pollute unnecessarily, polluting probably wouldn’t help the bottom line, and many companies just sit at computers developing software and couldn’t pollute much if they wanted to. But if every investor tomorrow said “okay we don’t care about governance,” then, I mean, “governance” is just a way of saying “somebody makes sure that the CEO is doing a good job and doesn’t pay herself too much.” If the investors don’t care about that, then a lot of CEOs will be happy to give themselves raises and spend more time  on the corporate jet to their vacation homes.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       NDAs
-    
-  
+
+
 
 I’ve   said this before, but one of the great weird business opportunities in the US financial industry is that nondisclosure agreements are illegal, and you can get paid for reporting them to the US Securities and Exchange Commission. This is very counterintuitive, which I suppose makes it lucrative: If you find a nondisclosure agreement and send it to the SEC, maybe you’ll be the first to report it, so you can get paid. This is neither legal nor business advice but it sure is weird.
 Here’s how it works. The SEC has a rule,  Rule 240.21F-17, which is often called a “whistleblower protection” rule. The idea is that, if you work at a financial services firm and you witness securities fraud, the SEC wants you to come to them and report it. And Rule 240.21F-17 says that your employer can’t retaliate against you for reporting fraud to the SEC. Specifically, it says:
@@ -135,11 +135,11 @@ In a separate paragraph, the Release stated: “[the JPMS client] shall keep thi
 
 The clients were explicitly allowed to answer questions from the SEC, but not to go to the SEC themselves. JPMorgan “forced certain clients into the untenable position of choosing between receiving settlements or credits from the firm and reporting potential securities law violations to the SEC,” says Grewal, but I am not sure that’s right. If you signed this release then (1) you got the money from JPMorgan, (2) you could definitely still go to the SEC to report the violation, (3) JPMorgan couldn’t do anything about it (because of Rule 240.21F-17), and (4) now you could also go to the SEC, tell them “hey check out this nondisclosure clause,” and the SEC would sue and you could collect a whistleblower payment. The release was just an extra windfall for the clients, if they were sharp enough to notice it.
 
-  
-    
+
+
       Spirit
-    
-  
+
+
 
 We talked a lot last year about   the takeover fight over Sculptor Capital Management Inc. Basically:
 	Sculptor had a deal to sell itself to another asset management firm, Rithm Capital Corp., for cash.	It then got another, higher cash bid from a coalition of hedge fund managers, led by Boaz Weinstein, who wanted to buy Sculptor.	Sculptor’s board of directors said “look, we know the Weinstein bid looks higher, but we think that if we sign that deal it won’t actually close. Clients will flee, which will give Weinstein a way out of the deal, which he’ll take, and we’ll be left with nothing. And it will be crippling for the firm to sign a deal and lose it. We should stick with the lower, safer deal that we think will close.”	Sculptor shareholders largely did not believe this, the stock traded above the Rithm deal price, and there was pressure on the board to take the Weinstein deal.	Eventually Sculptor managed to get Rithm’s price up to a level that was competitive with Weinstein’s, it did some shenanigans to lock up the vote, and the Rithm deal closed.
@@ -161,11 +161,11 @@ For Spirit, the consequences appear dire. Its shares were cut in half Tuesday in
 
 Sometimes the board of directors really does know better.
 
-  
-    
+
+
       Fed losses
-    
-  
+
+
 
 A simple story that you could tell is that the banking system is in the business of borrowing short to lend long. There is a lot of natural demand for long-term loans (government deficits need financing, people need mortgages) and a lot of natural demand for places to park money that can be withdrawn at any time (people need checking accounts), but a mismatch between them. More people want to borrow long than lend long; more people want to lend short than borrow short.
 And so traditionally banks intermediate that; they borrow short to lend long. And that is a well-known risky business model, and there are various ways to mitigate that risk, and the most important is the lender of last resort: If banks have lots of long-term good loans funded with short-term deposits, and all the depositors ask for their money back, the central bank will lend cash to the banks to pay back their depositors.
@@ -202,14 +202,14 @@ The Fed’s deferred asset grew by $116.4 billion last year, bringing its cumula
 
 “Deferred asset” is a great term. The Fed is not a regular bank. If it has losses, that just means that it owes itself money, and it will eventually pay itself back. And it can hold that debt to maturity.
 
-  
-    
+
+
       “Structured equity”
-    
-  
+
+
 
 There are, these days, a lot of startups that used to be worth $1 billion and are now worth $500 million. Some of them raised money at $1 billion valuations, back in the good times, and now they need to raise money again. It is, for some combination of good and bad reasons, extremely undesirable for a startup that raised money at $1 billion to raise money again at $500 million. Therefore there is a business opportunity for a fund that will:
-	Give startups money at a $500 million valuation, but	
+	Give startups money at a $500 million valuation, but
 Say that it’s at a $1 billion valuation.
 
 This is called “structure,” or “structured equity.” Bloomberg’s Gillian Tan  reported Friday:
@@ -224,15 +224,15 @@ Investment firms are raising billions of dollars to buy stakes in venture capita
 The start-up secondary market, where investors and employees buy and sell tens of billions of dollars’ worth of shares in privately held companies, is becoming an increasingly important trading venue, in the absence of traditional ways of cashing out and given a slowdown in start-up funding.
 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Japan’s Market Roars Back to Life—With Old-Timers Leading the Way. Agencies’ Power Under Scrutiny in Supreme Court Arguments. Trading firm tries to halt $60mn shipment of  seized pigeon peas. Disney  criticises Nelson Peltz as it rejects activist board nominees. JPMorgan Sees Hacking Attempts on Systems Double to   45 Billion Per Day. Quantum Computing to Spark ‘Cybersecurity Armageddon,’ IBM Says. Fashion Giant Faces New IPO Hitch:  China’s Cybersecurity Police. Blackstone’s   Defaulted NYC Office Loan for Sale at 50% Discount. A Pandemic-Era  Tax Break Is Unraveling, and the Lawsuits Are Flying. Dimon Says   China Risk-Reward Equation Has ‘Changed Dramatically.’ PwC drops some US diversity goals to meet changed legal landscape. Verizon   Writes Off $5.8 Billion From Enterprise as Sales Decline. Electric Boat Startup   Navier Set to Ferry Stripe Staff to Work. Electric Car Owners Confront a Harsh Foe:  Cold Weather.   CFA Level II Pass Rate Stays at 44%, Just Below Historic Average. Your   Bonus Might Be Smaller This Year in Tighter Job Market. Remote Work   Doesn’t Seem to Affect Productivity, Fed Study Finds. Tycoons Make UK Appeal to   Unfreeze Private Jets and a Superyacht. Ex-Twitter Employees Turn Musk’s  Auctioned Relics Into Home Decor.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In the real world banks will often have long-term loans with floating interest rates, so this sentence is not quite right, but I am abstracting away and also mostly thinking about (1) mortgages (mostly fixed-rate in the US) and (2) Treasury bonds (also mostly fixed-rate), which are not usually called “loans” but you know what I mean. But throughout the text read “loans” to mean “long-term fixed-rate fixed-income assets, mainly Treasuries and mortgages.”
 
 
@@ -242,48 +242,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] We  talked in October about how global banks generally have had higher profits in the rising rate environment: Basically their deposit franchise is valuable, they *don’t* have to pay higher rates on lots of deposits, and they do in fact earn higher rates on many of their assets (floating-rate loans, new loans, trading, etc.) Though we also discussed the fact that Bank of America Corp. did worse than competitors “because BofA piled hundreds of billions of dollars into long-dated Treasuries and mortgage bonds at low rates that prevailed during the pandemic,” sort of hedging its expectation of making money when rates rose — which meant that it didn’t make that much when they did.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -294,46 +294,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck9f96.5jdw/d2df3261.gif" alt="" border="0" /></a>

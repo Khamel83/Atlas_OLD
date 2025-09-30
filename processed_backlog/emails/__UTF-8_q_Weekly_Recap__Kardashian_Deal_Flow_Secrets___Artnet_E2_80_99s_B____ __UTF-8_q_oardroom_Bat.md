@@ -22,7 +22,7 @@ brands. After years of wild successes and occasional flubs, are they finally rea
 
 Enjoy!
 
- 
+
 Arnet ( https://puck.news/who-will-win-the-battle-for-artnet/?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 The Artnet of the Deal ( https://puck.news/who-will-win-the-battle-for-artnet/?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
@@ -38,7 +38,7 @@ RACHEL STRUGATZ
 As entrepreneurs, the first family of Calabasas makes a lot of beauty bets, from Kylie Cosmetics to SKKN. Now, enough of them are starting to pay off—including the dark horse hit that is Kourtney’s supplement line—to raise the question: Are the Kardashian-Jenners finally reaching their business potential?
 
 swash dividerJoin ( https://puck.news/my-account/billing/?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
-Facebook ( https://facebook.com/puckdotnews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn 
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Twitter ( https://twitter.com/PuckNews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )Instagram ( https://instagram.com/puckdotnews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )LinkedIn
 ( https://linkedin.com/company/pucknews?utm_campaign=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_content=IC+Exclusive+Week+Review+-+SUBSCRIBERS+%281%2F26%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 
 You received this message because you signed up to receive emails from Puck.

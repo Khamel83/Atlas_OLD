@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" media="print" href="/static/browse/0.3.4/css/arXiv-print.css?v=20200611" />
   <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/browse_search.css" />
   <script language="javascript" src="/static/browse/0.3.4/js/accordion.js" /></script>
-  
+
   <link rel="canonical" href="https://arxiv.org/abs/1409.0473"/>
   <meta name="description" content="Abstract page for arXiv paper 1409.0473: Neural Machine Translation by Jointly Learning to Align and Translate"><meta property="og:type" content="website" />
 <meta property="og:site_name" content="arXiv.org" />
@@ -46,8 +46,8 @@
 </head>
 
 <body  class="with-cu-identity">
-  
-  
+
+
   <div class="flex-wrap-footer">
     <header>
       <a href="#content" class="is-sr-only">Skip to main content</a>
@@ -424,7 +424,7 @@ View a PDF of the paper titled Neural Machine Translation by Jointly Learning to
 <div class="columns is-mobile lab-row">
           <div class="column lab-switch">
             <label class="switch">
-              <input        
+              <input
                 id="catalyzex-toggle"
                 data-script-url="/static/browse/0.3.4/js/catalyzex.js"
                 type="checkbox" class="lab-toggle" aria-labelledby="label-for-cx">
@@ -452,7 +452,7 @@ View a PDF of the paper titled Neural Machine Translation by Jointly Learning to
             <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
           </div>
         </div>
-  
+
         <div class="columns is-mobile lab-row">
           <div class="column lab-switch">
             <label class="switch">

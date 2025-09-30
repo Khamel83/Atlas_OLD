@@ -12,7 +12,7 @@
 
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO Premium plugin v24.8 (Yoast SEO v24.8) - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://www.vice.com/en/article/the-online-hordes-of-the-far-right-versus-pornhub/" />
 	<meta property="og:locale" content="en_US" />
@@ -444,8 +444,8 @@ window.location.href = url.toString();
     domainKey: 'GgqPm0euZqC0SNVytjfNCPEreUlWs7i8LIH5',
     sw: '/wp-content/themes/vice-2024/pushly-sdk-worker.js',
   });
-  
-  
+
+
 document.addEventListener("DOMContentLoaded", function () {
   if (document.querySelector(".unlock-button")) {
     const pageKey = "reloaded_" + window.location.pathname;
@@ -496,7 +496,7 @@ document.body.className = document.body.className.replace('no-js','js');
 			data-component="language-picker"
 		>
 			+ English		</button>
-		
+
 	<button type="button" class="language-picker__button language-picker__button--close">
 		Close	</button>
 
@@ -887,7 +887,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/luis-prada/" title="Posts by Luis Prada" class="author url fn" rel="author">Luis Prada</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1904207 post type-post status-publish format-standard has-post-thumbnail hentry category-horoscopes category-life tag-astrology tag-daily-horoscopes tag-horoscopes tag-moon-phase tag-moon-phases tag-todays-moon-phase tag-zodiac tag-zodiac-signs sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img loading="lazy" width="300" height="157" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="Today&#039;s Moon Phase: September 15, 2025" style="width:100%;height:100%;object-fit:cover;" decoding="async" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Todays-Moon-Phase-September-15-2025.jpg?resize=600,314 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Dmitriy Danilov/Getty Imag</figcaption></figure>
 
@@ -899,7 +899,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/sammi-caramela/" title="Posts by Sammi Caramela" class="author url fn" rel="author">Sammi Caramela</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1903677 post type-post status-publish format-standard has-post-thumbnail hentry category-horoscopes tag-astrology tag-daily-horoscopes tag-horoscopes sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="169" src="https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg 1920w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=300,169 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=768,432 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=1024,576 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=1536,864 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=600,338 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/08/6_VIRGO_DAILY_7_1920x1080.jpg?resize=480,270 480w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Illustration by Reesa.</figcaption></figure>
 
@@ -911,7 +911,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906399 post type-post status-publish format-standard has-post-thumbnail hentry category-entertainment category-sports tag-rhea-ripley tag-wrestling tag-wwe sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="225" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg?resize=300,225 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg?resize=768,576 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg?resize=1024,768 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7259.jpeg?resize=600,450 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">WWE/Getty Images</figcaption></figure>
 
@@ -923,7 +923,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/haley-miller/" title="Posts by Haley Miller" class="author url fn" rel="author">Haley Miller</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1903609 post type-post status-publish format-standard has-post-thumbnail hentry sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="225" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg 4032w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=300,225 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=768,576 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=1024,768 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=1536,1152 1536w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=2048,1536 2048w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=600,450 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_5517.jpeg?resize=2000,1500 2000w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">Courtesy of author</figcaption></figure>
 
@@ -935,7 +935,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/veronica-booth/" title="Posts by Veronica Booth" class="author url fn" rel="author">Veronica Booth</a></p>
 </div>
 		</div>
-	
+
 	</li><li class="wp-block-post post-1906384 post type-post status-publish format-standard has-post-thumbnail hentry category-sports tag-aew tag-wrestling tag-wwe sp_language-en">
 	<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="300" height="169" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?resize=300,169 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?resize=768,432 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?resize=1024,576 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?resize=600,338 600w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/IMG_7203.jpeg?resize=480,270 480w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-block-post-featured-image__caption">WWE</figcaption></figure>
 
@@ -947,7 +947,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/haley-miller/" title="Posts by Haley Miller" class="author url fn" rel="author">Haley Miller</a></p>
 </div>
 		</div>
-	
+
 	</li></ul></div>
 </section>
 
@@ -977,7 +977,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1903817 post type-post status-publish format-standard has-post-thumbnail hentry category-health category-life category-news tag-health tag-life tag-news tag-pooping sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="536" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg?w=1024" class="attachment-large size-large wp-post-image" alt="7 Ways Your Pooping Habits Could Be Harming Your Health" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/7-Ways-Your-Pooping-Habits-Could-Be-Harming-Your-Health.jpg?resize=600,314 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">Seksan Mongkhonkhamsao/Getty Images</figcaption></figure>
 
@@ -989,7 +989,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1904063 post type-post status-publish format-standard has-post-thumbnail hentry category-life category-news tag-airplanes tag-aviation tag-life tag-news tag-planes sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="536" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg?w=1024" class="attachment-large size-large wp-post-image" alt="Engineers Are Pitching the Idea of a Crash-Proof Airplane" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Engineers-Are-Pitching-the-Idea-of-a-Crash-Proof-Airplane.jpg?resize=600,314 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">Stephan Zirwes/Getty Images</figcaption></figure>
 
@@ -1001,7 +1001,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 			</div>
-		
+
 		</li><li class="wp-block-post post-1903765 post type-post status-publish format-standard has-post-thumbnail hentry category-health category-life category-news tag-health tag-life tag-news tag-swallowing sp_language-en">
 		<figure style="aspect-ratio:16/9;" class="wp-block-post-featured-image"><img width="1024" height="536" src="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg?w=1024" class="attachment-large size-large wp-post-image" alt="Swallowing Wrong Can Be Dangerous—Here’s How to Avoid It" style="width:100%;height:100%;object-fit:cover;" decoding="async" loading="lazy" srcset="https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg 1200w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg?resize=300,157 300w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg?resize=768,402 768w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg?resize=1024,536 1024w, https://www.vice.com/wp-content/uploads/sites/2/2025/09/Swallowing-Wrong-Can-Be-Dangerous—Heres-How-to-Avoid-It.jpg?resize=600,314 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-block-post-featured-image__caption">Daniel A Lloyd/Getty Images</figcaption></figure>
 
@@ -1013,7 +1013,7 @@ document.body.className = document.body.className.replace('no-js','js');
 	By <a href="https://www.vice.com/en/contributor/ashley-fike/" title="Posts by Ashley Fike" class="author url fn" rel="author">Ashley Fike</a></p>
 </div>
 			</div>
-		
+
 		</li></ul></div>
 	</div>
 </section>
@@ -1336,7 +1336,7 @@ fbq('track', 'Purchase', eventData);
             localStorage.removeItem('cb_selected_plan_id_purchase_event');
             localStorage.removeItem('cb_selected_plan_name');
             localStorage.removeItem('cb_selected_plan_price');
-        } 
+        }
     }, 3000); // 3 sec wait is enough (avoid 5 sec delay)
 </script>
 
@@ -1439,7 +1439,7 @@ fbq('track', 'Purchase', eventData);
 // Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
-	
+
 </script>
 <script src="https://www.vice.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
 <script id="moment-js-after">

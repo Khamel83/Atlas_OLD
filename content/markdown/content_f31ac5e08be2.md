@@ -73,23 +73,23 @@
 <meta name="ncbi_cost_center" content="pubmed" />
 
 <!-- Logging params: Pinger custom -->
-  
+
     <meta name="ncbi_pdid" content="abstract" />
-  
+
     <meta name="log_op" content="retrieve" />
-  
+
     <meta name="uid" content="9542392" />
-  
+
     <meta name="ncbi_uid" content="9542392" />
-  
+
     <meta name="log_displayeduids" content="9542392" />
-  
+
     <meta name="log_source_db" content="pubmed" />
-  
+
     <meta name="log_icons_present" content="true" />
 
 <!-- Social meta tags for unfurling urls -->
-  
+
 <meta name="description" content="The rate of dental caries in developing countries is rising. Because more than 80 percent of the world&#x27;s children live in these countries, this alarming trend is of great concern from a public health standpoint. Currently, most dental care in developing nations consists of dental surgery in urban ar …"><meta name="keywords" content="pmid:9542392, S M Cirino, S Scantlebury, Adolescent, Adult, Animals, Bacterial Vaccines, Cariostatic Agents / administration &amp; dosage, Cariostatic Agents / therapeutic use, Child, Child, Preschool, Dental Care / economics, Dental Caries / epidemiology, Dental Caries / prevention &amp; control*, Dental Caries / therapy, Dental Materials, Dental Restoration, Permanent / economics, Dental Restoration, Permanent / methods, Developed Countries, Developing Countries* / statistics &amp; numerical data, Fluoridation, Fluorides / administration &amp; dosage, Fluorides / therapeutic use, Glass Ionomer Cements, Health Care Costs, Humans, Medically Underserved Area, Milk, Sodium Chloride, Dietary, Streptococcus mutans / immunology, Tooth Extraction, Urban Health Services, PubMed Abstract, NIH, NLM, NCBI, National Institutes of Health, National Center for Biotechnology Information, National Library of Medicine, MEDLINE"><meta name="robots" content="index,nofollow,noarchive"><meta property="og:title" content="Dental caries in developing countries. Preventive and restorative approaches to treatment - PubMed"><meta property="og:url" content="https://pubmed.ncbi.nlm.nih.gov/9542392/"><meta property="og:description" content="The rate of dental caries in developing countries is rising. Because more than 80 percent of the world&#x27;s children live in these countries, this alarming trend is of great concern from a public health standpoint. Currently, most dental care in developing nations consists of dental surgery in urban ar …"><meta property="og:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:image:secure_url" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"><meta property="og:type" content="website"><meta property="og:site_name" content="PubMed"><meta name="twitter:domain" content="pubmed.ncbi.nlm.nih.gov"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Dental caries in developing countries. Preventive and restorative approaches to treatment - PubMed"><meta name="twitter:url" content="https://pubmed.ncbi.nlm.nih.gov/9542392/"><meta name="twitter:description" content="The rate of dental caries in developing countries is rising. Because more than 80 percent of the world&#x27;s children live in these countries, this alarming trend is of great concern from a public health standpoint. Currently, most dental care in developing nations consists of dental surgery in urban ar …"><meta name="twitter:image" content="https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg">
 
 <!-- OpenSearch XML -->
@@ -101,22 +101,22 @@
   </noscript>
 
 <link rel="canonical" href="https://pubmed.ncbi.nlm.nih.gov/9542392/" />
-  
-  
-    
+
+
+
       <meta name="citation_journal_title" content="The New York state dental journal"/>
       <meta name="citation_journal_abbrev" content="N Y State Dent J"/>
       <meta name="citation_publisher" content="N Y State Dent J"/>
-      
+
         <meta name="citation_volume" content="64"/>
-      
-      
+
+
         <meta name="citation_issue" content="2"/>
-      
-      
+
+
         <meta name="citation_firstpage" content="32"/>
-      
-      
+
+
         <meta name="citation_lastpage" content="39"/>
 
 <meta
@@ -130,12 +130,12 @@
               name="citation_author"
               content="S M Cirino"
             >
-            
-              
+
+
                 <meta name="citation_author_institution" content="Columbia University School of Dental and Oral Surgery, USA."/>
-              
-            
-          
+
+
+
             <meta
               name="citation_author"
               content="S Scantlebury"
@@ -162,20 +162,20 @@
 <header class="heading" id="heading">
 
 <h1 class="heading-title">
-  
-    
-    
-    
-    
-      
+
+
+
+
+
+
   Dental caries in developing countries. Preventive and restorative approaches to treatment
 
 </h1>
 
 <div class="article-citation" style="display:inline-block;">
-  
+
     <span class="article-source">
-      
+
 <span class="journal" style="display:inline-block;">N Y State Dent J</span><span class="period">. </span><span class="cit">1998 Feb;64(2):32-9.</span>
 
 </span>
@@ -185,7 +185,7 @@
 <div class="email-authors">
 
 <div class="expanded-authors" id="full-view-expanded-authors">
-      
+
         <div class="authors">
           <h3 class="title">
             Authors
@@ -214,11 +214,11 @@
             Affiliation
           </h3>
           <ul class="item-list">
-            
+
               <li data-affiliation-id="affiliation-1"
                   id="affiliation-1"
               ><sup class="key">1</sup> Columbia University School of Dental and Oral Surgery, USA.</li>
-            
+
           </ul>
         </div>
 
@@ -227,13 +227,13 @@
 </div>
 
 <ul class="identifiers" id="full-view-identifiers">
-      
+
         <li>
           <span class="identifier pubmed">
   <span class="id-label">
-    
+
       PMID:
-    
+
   </span>
 
 <a class="id-link"
@@ -250,25 +250,25 @@
 </span>
 
 </li>
-      
+
     </ul>
 
 </header>
 
 <div class="abstract" id="abstract">
-    
+
       <h2 class="title">
         Abstract
-        
+
       </h2>
-      
-        
-          
+
+
+
             <div class="abstract-content selected"
                  id="eng-abstract">
 
 <p>
-      
+
       The rate of dental caries in developing countries is rising. Because more than 80 percent of the world's children live in these countries, this alarming trend is of great concern from a public health standpoint. Currently, most dental care in developing nations consists of dental surgery in urban areas. Decay is usually left untreated until it becomes so extensive and/or painful that extraction is the only option. Traditional approaches to treating carious lesions have met with marginal success. There is a need for widespread implementation of preventive strategies, which have proven extremely effective in industrialized nations. Also, promising new techniques and materials are being developed that are enabling dentists and dental personnel to make less costly treatment of dental caries more readily available to underserved populations.
     </p>
 

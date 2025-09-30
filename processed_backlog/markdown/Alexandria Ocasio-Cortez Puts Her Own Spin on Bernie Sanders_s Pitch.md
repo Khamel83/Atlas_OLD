@@ -12,7 +12,7 @@
 
 # nytimes.com
 
-Unknown author • March 20, 2025 
+Unknown author • March 20, 2025
 
 ![nytimes.com]()
 

@@ -124,7 +124,7 @@ its “Bird on a Flying Tourbillon” watch, which is in line with parent compan
 Female consumers are taking notice. They’re not yet collectors in the same way some male watch enthusiasts are—they’re more one or two and done, said Wallner—but with prices skyrocketing for other luxury items like handbags, they’re looking to watches, which have more longevity. Wallner pointed out that vintage ladies’ watches are also getting more popular. “I’m sure in April at
 the Watches and Wonders trade show in Geneva, there will be some femme-forward releases—smaller sizes, more gems maybe,” she said, “The watch world is really trying.”
 
- 
+
 
 Endnotes…
 -----------
@@ -194,7 +194,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVfOwZCl4wXqBi1TxcqnI=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

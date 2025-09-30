@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The shareholders of publicly traded hedge fund management firm Sculptor Capital Management Inc. have a choice between two options: Sculptor 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        The shareholders of publicly traded hedge fund management firm Sculptor Capital Management Inc. have a choice between two options: Sculptor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 The shareholders of publicly traded hedge fund management firm Sculptor Capital Management Inc. have a choice between two options:
 	Sculptor has signed a merger agreement to sell itself to Rithm Capital Corp. for $11.15 per share. It is asking shareholders to approve that deal. If they vote yes, then they will almost certainly get cashed out at $11.15 per share.
@@ -130,37 +130,37 @@ The consultant didn’t answer the question! Or, I mean, maybe it did, but Scu
 
 For some reason Sculptor won’t do that!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The Elon put
-    
-  
+
+
 
 This is  kind of a weird story:
 
@@ -179,11 +179,11 @@ Faced with the choice of (1) coming up with $1 billion to buy out Dorsey and (2)
 Really, though, how much is that put worth? Like if Twitter turns out to be worth  $20 per share, and Dorsey goes to Musk and says “okay please cash me out at $54.20 per share,” Musk can just … say no? I don’t actually know what sort of contractual arrangement Musk has with Dorsey, if it is a casual handshake or a written contract, but obviously Musk doesn’t care at all: His entire adventure with Twitter has been   one   long  proof of the  fact that he does not care about contracts, and if he doesn’t pay out Dorsey on this put then I guess Dorsey can get in line to sue him along with the Twitter   executives and   employees whom Musk fired without their contractual severance pay. Dorsey is  taking Musk’s credit risk on this put, and “Musk’s credit risk” means not just his ability to pay but, much more importantly, his willingness to pay. Elon Musk has vast quantities of money but even vaster quantities of unwillingness to pay.
 Also though if the put is valuable it’s kind of weird for Dorsey, as a director of Twitter, to get it? Every other Twitter shareholder either got cashed out at $54.20 or rolled their shares over with Musk; Dorsey alone, as a director approving the deal, got a personal side benefit (this put) worth hundreds of millions of dollars from Musk. As a fiduciary for the public shareholders it is strange for Dorsey to accept special personal benefits while approving the deal. Obviously this doesn’t matter very much as a practical matter, because Twitter shareholders should be (and are) thrilled to have been cashed out at $54.20; the deal was good for shareholders and Dorsey was right (from a shareholder value perspective) to approve it. But it does look bad.
 
-  
-    
+
+
       Search funds
-    
-  
+
+
 
 Harvard Business School probably teaches you the skills that you need to take over a local small business, run it successfully, maybe expand it a bit and then sell it for a profit. But if Harvard Business School was like “come spend two years and pay a zillion dollars so you can take over your local plumbing supply store,” no one would do it, even if that was in fact a lucrative proposition. It's too specific and unglamorous. What you want is for Harvard Business School to be like “get your MBA here so you can start a startup,” or “get your MBA here so you can do a cutting-edge financial thing.” But then the cutting-edge financial thing is taking over the local plumbing supply store, or “start a startup” comes with a little footnote that is like “by ‘start’ we mean ‘take over,’ and by ‘a startup’ we mean ‘the local plumbing supply store.’”
 We’ve  talked about  search funds before, they’re great, and here’s a good  Bloomberg News story about them:
@@ -196,11 +196,11 @@ It used to be that with a Harvard MBA you could jump right into the pest-control
 A surge in interest and investment more recently has propelled ETA to a much higher profile. That’s partly because interest in entrepreneurship picks up when job prospects dim for MBAs, as they have in 2023. Hiring has slowed in the consulting, finance and technology sectors that traditionally recruit most MBAs, and those who are getting hired are specialists in hot areas such as machine learning or data analytics, rather than generalist degree holders.
 As finance becomes more technical, financial employers are going to have less need for the skills that you stereotypically learn in an MBA program (accounting, corporate finance, marketing, networking, firm handshake, ski trips, etc.). “We just hire mathematicians, physicists, computer scientists with no background in finance and no connections with Wall Street,” says Peter Brown, the head of Renaissance Technologies, and he's not alone. Meanwhile those skills will still serve you well in acquiring, running and selling a plumbing supply store. 
 
-  
-    
+
+
       NAV loans
-    
-  
+
+
 
 One way to think about it is that a private equity firm is a conglomerate plus financial engineering. Traditionally, a conglomerate is a big company that owns lots of more-or-less unrelated businesses. Some of them will do well and others will do poorly, but the ones that are doing well can help support the ones that are doing poorly, and hopefully most will do well and the overall company will make money. Meanwhile the overall company is big and fairly stable (its bets are diversified), so it can borrow money cheaply, and it has talented managers who can make all of the component businesses work better.
 A private equity fund also buys lots of more-or-less unrelated businesses, some of which will do well and others poorly. The overall fund has talented managers who can supervise and optimize all of the businesses. But instead of borrowing money at the overall fund level, the fund keeps each of its unrelated businesses separate as a legal and financial matter: Each business has its own balance sheet and borrows its own money. And the businesses borrow a lot of money: Private equity companies tend to run at higher leverage than traditional public conglomerates.
@@ -221,11 +221,11 @@ Limited liability at the company level is an essential part of the private equit
   [11]
 : You borrow a lot at every company, and the ones that don’t work out you cut loose; their creditors take losses so you can protect the rest of your portfolio. But in practice you will be tempted not to cut any companies loose, to use the winners to prop up the losers and try to rescue them.
 
-  
-    
+
+
       Positional goods
-    
-  
+
+
 
 Let’s say that you are very, very, very good at getting high school students into elite colleges. If someone hands you a mediocre ninth grader, in three years you can hand them back a student with, say, a 50% chance of getting into Harvard. This is a service that a lot of people want, and that not a lot of people can provide. How should you price it? 
 One answer might be “charge a whole lot, and then sell it to as many people as can afford to pay.” Another answer might be “price discriminate as much as possible”: Get the parents’ financial information, charge the really rich ones $5 million, charge less rich ones less, and do some pro bono consulting for poor but worthy candidates.
@@ -237,15 +237,15 @@ By the way, there is an analogous story early in Michael Lewis’s Flash Boys. 
 All its creators knew was that the Wall Street people who wanted it wanted it very badly — and also wanted to find ways for others not to have it. In one of his first meetings with a big Wall Street firm, Spivey had told the firm’s boss the price of his line: $10.6 million plus costs if he paid up front, $20 million or so if he paid in installments. The boss said he’d like to go away and think about it. He returned with a single question: “Can you double the price?”
 Having a fast connection between New York and Chicago, or a good high school resume, is nothing. Having a faster connection between New York and Chicago, or a better high school resume, is everything. It is always good to be in a business where your customers beg you to take more money to work less.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 People are worried about   the basis trade. “There will be a lot of  down round IPOs.” Instacart’s Secret Deals With  Grocery Giants. Index ETFs  cost 2 basis points now. How long can the world’s   borrowers hold on as higher interest rates bite? “In the past month, Invesco, Goldman Sachs, Citigroup and TD Securities all recommended   the yuan as an attractive option for funding so-called carry trades as it weakens toward historical lows.” Billions of dollars in western profits  trapped in Russia. Peak  Pod. ‘There is no work to balance’: how shrinking budgets, Covid and AI shook up life in  consulting. AI Startup   Writer Raises $100 Million to Pen Corporate Content. Return to Office Brings   CEO Relationships Back to the Forefront. “The Joint Base sent a post on X, formerly known as Twitter, asking the public to call the base  if they found the aircraft.” A New Bar Will Test Whether   Mealworm Margaritas Sell in Singapore. “‘  When you’re a thought leader,’ he says, ‘you should have an open mind toward any opportunity where you could monetize that thought leadership.’” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Maybe that is a slight exaggeration — there are conditions to Rithm’s deal, including client consents — but let’s assume that it’s basically certain.
 
 
@@ -261,7 +261,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] The widespread assumption is that it’s Susquehanna.
 
 
-  [6] See pages 47 to 48 of the proxy: “The Special Committee convened a meeting on [Feb. 2] with representatives of its financial and legal advisors and J.P. Morgan present. At that meeting representatives of Latham & Watkins advised on the legal and contractual requirements for the Company to secure the consent of its clients in connection with a potential transaction. Representatives of Latham & Watkins discussed that the auction draft merger agreement would contain a condition to the buyer’s obligation to consummate the transaction that Company clients representing a threshold amount of revenue run rate have provided their consent to the transaction,5 and described to the Special Committee the range of customary percentage thresholds in asset management transactions of this nature. Representatives of Latham & Watkins noted that client consent conditions are customary in asset management transactions in which the potential acquiror is not proposing to materially change the investment strategy or team of key investment professionals at the Company. The Special Committee approved the framework of the client consent condition and then authorized Latham & Watkins to discuss the client consent condition (and the appropriate percentage threshold to be included) with the Company’s management and to obtain from the Company’s management additional information regarding the revenue run rate associated with current clients. The Company’s management assisted in this analysis and provided input on its expectations as to the achievability of the client consent condition at various thresholds. Upon further discussion, the Special Committee determined to propose an 80% threshold and the specific legal terms of the client consent condition were shared with potential acquirors on February 10, 2023.” 
+  [6] See pages 47 to 48 of the proxy: “The Special Committee convened a meeting on [Feb. 2] with representatives of its financial and legal advisors and J.P. Morgan present. At that meeting representatives of Latham & Watkins advised on the legal and contractual requirements for the Company to secure the consent of its clients in connection with a potential transaction. Representatives of Latham & Watkins discussed that the auction draft merger agreement would contain a condition to the buyer’s obligation to consummate the transaction that Company clients representing a threshold amount of revenue run rate have provided their consent to the transaction,5 and described to the Special Committee the range of customary percentage thresholds in asset management transactions of this nature. Representatives of Latham & Watkins noted that client consent conditions are customary in asset management transactions in which the potential acquiror is not proposing to materially change the investment strategy or team of key investment professionals at the Company. The Special Committee approved the framework of the client consent condition and then authorized Latham & Watkins to discuss the client consent condition (and the appropriate percentage threshold to be included) with the Company’s management and to obtain from the Company’s management additional information regarding the revenue run rate associated with current clients. The Company’s management assisted in this analysis and provided input on its expectations as to the achievability of the client consent condition at various thresholds. Upon further discussion, the Special Committee determined to propose an 80% threshold and the specific legal terms of the client consent condition were shared with potential acquirors on February 10, 2023.”
 
 
   [7] The letter is quoted on page 74 of the revised proxy statement, and the alterations in brackets are from the proxy, not from me.
@@ -270,7 +270,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Or, like, “we are experienced asset management consultants and know your biggest clients well, and we know they’d never stand for Boaz Weinstein,” or whatever.
 
 
-  [9] The companies can’t borrow against the fund’s credit, which is a disadvantage: The fund is more diversified and bigger than its individual companies, so it could finance itself more cheaply than those companies, but the companies all stand on their own credit-wise. Though the fact that they are owned by the private equity fund is generally helpful: The PE firm is a repeat player in the credit markets and so gets lots of attention from banks and lenders.   Unless it’s Apollo. 
+  [9] The companies can’t borrow against the fund’s credit, which is a disadvantage: The fund is more diversified and bigger than its individual companies, so it could finance itself more cheaply than those companies, but the companies all stand on their own credit-wise. Though the fact that they are owned by the private equity fund is generally helpful: The PE firm is a repeat player in the credit markets and so gets lots of attention from banks and lenders.   Unless it’s Apollo.
 
 
   [10] Hypothetical math. You have 10 businesses, each of which costs $100 to buy, and each of which will turn out to be worth either $60 or $150. If you borrow $80 to buy each one, then you have borrowed $800 and put up $200 of equity. If five work out and five don’t, then the five that work out each return $70 to the equity ($150, minus paying off $80 of debt), while the five that don’t each return zero (they borrowed $80 and are worth $60, so the creditors take a loss and the shareholders get nothing). That’s $350 total for the equity, a 75% return on the $200 investment. Whereas if you borrow $500 at the portfolio level and put up $500 of equity — *less* leverage, and *combined* leverage — then the five that don’t work out return $300 and the five that do return $750, for a total of $1,050; after paying off the debt you are left with $550, a 10% return on your $500 investment.
@@ -279,48 +279,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [11] A few years ago Elizabeth Warren pushed to get rid of limited liability for private equity: If a PE fund buys a company and it goes bankrupt, she argued, the fund should be responsible for its debts. This struck me at least as quite a radical proposal. But maybe not? The NAV loan to bail out a portfolio company that can’t refinance its own debt is kind of like assuming extra liability for that company’s debt at the fund level.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -331,46 +331,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjhyjl.5k68/b154485d.gif" alt="" border="0" /></a>

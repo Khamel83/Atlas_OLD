@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/web3-use-cases-the-future
 
-Welcome to the 929 newly Not Boring people who have joined us since Thursday! If you haven’t subscribed, join 134,453 smart, curious folks by subscribing here: 
+Welcome to the 929 newly Not Boring people who have joined us since Thursday! If you haven’t subscribed, join 134,453 smart, curious folks by subscribing here:
 🎧 Audio version will be released a little later — I was writing down to the wire!
 Today’s Not Boring is brought to you by… Mighty Networks [https://substack.com/redirect/0af7580e-eba3-4b93-b0d2-b588f4d45f47?u=16283549]
 There’s never been a better time to be great at building community online. The biggest challenge is the tools. Discord and Slack are great for some things, but not for building large communities that feel alive and intimate. Luckily, there’s a better way, one custom-built for communities: Mighty Networks [https://substack.com/redirect/0af7580e-eba3-4b93-b0d2-b588f4d45f47?u=16283549].
@@ -15,10 +15,10 @@ A Mighty Network is the best way to create communities, sell memberships, incorp
 Mighty's mission is to unlock the community dynamics that turn strangers into collaborators and friends. They originated the term Community Design™, have taught their unique framework for building a thriving community or membership to over 9,000 people, and are obsessed about what goes into making a community successful.  
 So go launch that community, or move yours to a better home, with a free Mighty trial.
 Hi friends 👋 ,
-Happy Monday! 
-On Thursday, I sent out Part I of a two-part series on web3 use cases, today and in the future. In today’s essay, we’ll focus on the future and discuss whether web3 will be worth the hype. 
-I’m having a blast with this debate, and it’s making more groundedly excited. 
-Let’s get to it. 
+Happy Monday!
+On Thursday, I sent out Part I of a two-part series on web3 use cases, today and in the future. In today’s essay, we’ll focus on the future and discuss whether web3 will be worth the hype.
+I’m having a blast with this debate, and it’s making more groundedly excited.
+Let’s get to it.
 Web3 Use Cases: The Future
 What’s the point of all of this? If web3 ends up becoming a big thing with a lot of users and new, valuable business models, so what? 
 On Thursday, I wrote about the web3 use cases that exist today [https://substack.com/redirect/d1c78ad9-308e-448f-be39-d39f08efde1f?u=16283549] to set a baseline:
@@ -86,10 +86,10 @@ There’s been an explosion in ReFi projects over the past year, but I’m keepi
 Read more about ReFi here:
 Decentralized Science. Another web3 category with physical world impact is Decentralized Science (DeSci). As Phas3 founder Sarah Hamburg wrote [https://substack.com/redirect/c2abf3ae-bf4d-42b9-954e-ef778ff3dc8d?u=16283549]: 
 Still in its infancy, DeSci lies at the intersection of two broader trends: 1) efforts within the scientific community to change how research is funded and knowledge is shared, and 2) efforts within the crypto-focused movement to shift ownership and value away from industry intermediaries.
-To learn more about the next few decades, next few years, challenges, and opportunities for web3… 
+To learn more about the next few decades, next few years, challenges, and opportunities for web3…
 Thanks to Dan [https://substack.com/redirect/0fb227e2-ac29-45d9-8d7a-439398674174?u=16283549] for editing!
 That’s all for today. We’ll be back on Thursday with our second installment of The Founder’s Letter.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOakV6TXpJMk16Z3NJbWxoZENJNk1UWTFOak16TkRrNE1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Ljk2Smh3MV9ST1VadVBGXzgteERPNTRqQjU0YV9VLW5pNXVtYlBlRlE1SkkiLCJwIjo2MTMzMjYzOCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTYzMzQ5ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.oe4sHGDFXS2wfOsctPFkXCa9gO2rYSx4bMO1-7KSfwA?

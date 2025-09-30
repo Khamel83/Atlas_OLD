@@ -98,7 +98,7 @@ Still, there are a few unanswered questions: How big is social video viewing, re
 
 ---
 
-### 
+###
 
 Thanks for reading The Mediator by Doug Shapiro! Subscribe for free to receive new posts and support my work.
 

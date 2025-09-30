@@ -119,7 +119,7 @@ window._nymPermutive = {
   window._nymPermutive.type = 'Tag page';
   window._nymPermutive.article.vertical = 'NYMag';
 </script>
-  
+
     <script type="application/ld+json">
       {
         "@context": "http://web.archive.org/web/20250117225235/http://schema.org",
@@ -244,7 +244,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -324,14 +324,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) permutive.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    permutive.identify(pid); 
-    if (isCountable) { 
+    permutive.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -341,7 +341,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"nymag","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -441,11 +441,11 @@ dataLayer.push({
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       (new Fingerprint2({excludeJsFonts: true, excludeFlashFonts: true, excludeCanvas: true, excludeWebGL: true})).get(function (fp) {
         var now = Date.now();
         id = fp + '.' + now;
@@ -875,7 +875,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1218,7 +1218,7 @@ userDetails.visitCount = getUserVisitCount();
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill="#111"/></svg>
 
 </span>
@@ -1285,7 +1285,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/975/705/ddd365a2b0af9a26d2c39d3437d599b094-washington-square-park.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="Washington Square Arch" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/975/705/ddd365a2b0af9a26d2c39d3437d599b094-washington-square-park.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://www.curbed.com/article/freaks-came-out-to-write-excerpt-robert-moses.html" class="link-text"><span class="headline">The <em>Village Voice</em> vs. Robert Moses</span></a><span class="teaser">The paper was editor Mary Perot Nichols’s weapon in the battle to save Washington Square Park.</span></div>
@@ -1313,7 +1313,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/b63/995/b66565f5c1a7693c4559d4081978090202-straight-line-crazy.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/b63/995/b66565f5c1a7693c4559d4081978090202-straight-line-crazy.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://www.vulture.com/2022/10/theater-review-straight-line-crazy-david-hare-ralph-fiennes-nyc.html" class="link-text"><span class="headline">A One-Dimensional Robert Moses in <em>Straight Line Crazy</em></span></a><span class="teaser">Ralph Fiennes stars in this talky, static retelling of Moses’s misdeeds.</span></div>
@@ -1341,7 +1341,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/193/5c9/b3e78d8676e2513c035d3b86d743c1a923-curbed-phone-treater.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/193/5c9/b3e78d8676e2513c035d3b86d743c1a923-curbed-phone-treater.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://www.curbed.com/2021/07/power-broker-caro-ebook-knopf-amazon.html" class="link-text"><span class="headline"><em>The Power Broker</em> Is Still Not Available As an E-Book. Except … It Is.</span></a><span class="teaser">“A myth,” says Robert Caro’s publisher. Yet, somehow, I just bought the Kindle edition.</span></div>
@@ -1372,7 +1372,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/469/970/b76b631c035b0516bd978bced55a6f46ec-bqe-rendering-1.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/469/970/b76b631c035b0516bd978bced55a6f46ec-bqe-rendering-1.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://nymag.com/intelligencer/2019/07/the-secret-story-of-the-brooklyn-heights-promenade.html" class="link-text"><span class="headline">The Brooklyn Heights Promenade Was a Robert Moses Head Fake</span></a><span class="teaser">The story goes that he wanted the BQE rammed through the Heights and settled for the Promenade. It’s not true.</span></div>
@@ -1400,7 +1400,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/496/150/0313e34164f9a2cd71256d0ff969794d8b-09-robert-moses-triborough.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs/496/150/0313e34164f9a2cd71256d0ff969794d8b-09-robert-moses-triborough.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://nymag.com/intelligencer/2016/09/can-a-game-get-you-to-finally-finish-the-power-broker.html" class="link-text"><span class="headline">Can a Game Convince You to Finally Finish <i>The Power Broker</i>?</span></a><span class="teaser">Robert Moses is back! In card-game form.</span></div>
@@ -1428,7 +1428,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgshttp://images.2x.rsquare-zoom.w103.jpg" width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgshttp://images.rsquare-zoom.w103.jpg" width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://www.grubstreet.com/2009/12/robert_moses_provides_evidence.html" class="link-text"><span class="headline">Robert Moses Provides Evidence in Tavern on the Green Case</span></a><span class="teaser">Details of the legal fight between the LeRoy family and the city. </span></div>
@@ -1456,7 +1456,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.2x.rsquare-zoom.w103." width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.rsquare-zoom.w103." width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://nymag.com/intelligencer/2009/03/radiation_ruins_softball_plans.html" class="link-text"><span class="headline">Radiation Ruins Softball Plans</span></a><span class="teaser">Who’s on third? Medical waste!</span></div>
@@ -1484,7 +1484,7 @@ userDetails.visitCount = getUserVisitCount();
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.2x.rsquare-zoom.w103." width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.rsquare-zoom.w103." width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://nymag.com/intelligencer/2007/02/doctoroff_gets_smacked_in_the.html" class="link-text"><span class="headline">Doctoroff Goes to Harlem, Gets Smacked</span></a><span class="teaser">
@@ -1511,7 +1511,7 @@ Dan Doctoroff, Bloomberg’s all-powerful development czar, very rarely has his 
       <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" srcset="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.2x.rsquare-zoom.w103." width="103" height="103">
       <img class="article-img" alt="" src="http://web.archive.org/web/20250117225235im_/https://pyxis.nymag.com/v1/imgs.rsquare-zoom.w103." width="103" height="103">
     </picture>
-    
+
   </div>
   <div class="main-article-content">
     <a href="http://web.archive.org/web/20250117225235/https://nymag.com/intelligencer/2007/01/spitzer_already_bored_of_takin_1.html" class="link-text"><span class="headline">Spitzer, Already Bored of Taking on Albany, to Take on Moses, Too?</span></a><span class="teaser">
@@ -1527,7 +1527,7 @@ The Spitzer administration seems poised to undo a former public official’s leg
           <div data-uri="/web/20250117225235oe_/https://nymag.com/tags/robert-moses/nymag.com/_components/sticky-ad/instances/tag-ad-top@published" data-editable="adComponent" class="sticky-ad ">
 
 <aside data-uri="nymag.com/_components/ad/instances/clgcrw8wx00053b6w5je7aa8p@published" class="ad vp-0-plus" data-name="" data-sizes="" data-label="" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </div>
@@ -1537,7 +1537,7 @@ The Spitzer administration seems poised to undo a former public official’s leg
 </div>
 
 <aside data-uri="nymag.com/_components/ad/instances/tagPageBottomLeaderboardDesktop@published" class="ad vp-1180-plus" data-name="/172968584/nym.Nymag/daily_intelligencer" data-sizes="728x90,728x91,970x90,970x91,970x250,970x252,1024x90,1024x91, 1100x350" data-label="BottomLeaderboard" data-site="NewYorkMagazine">
-  
+
 </aside>
 
 </main>
@@ -1949,7 +1949,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

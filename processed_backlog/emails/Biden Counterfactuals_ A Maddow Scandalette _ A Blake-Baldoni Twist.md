@@ -34,7 +34,7 @@ Check out these stories, and others, via the links below. And stick around for t
 P.S.: I’d like to quickly correct an error in last night’s issue of In the Room. In an item, we confused outgoing Washington Post opinion
 editor David Shipley with New York Times opinion editorial director David Leonhardt. Shipley is not going to the Times. (Although, to be honest, I wouldn’t be surprised if he ended up there one day.) It was an honest mistake and we regret the error.
 
- 
+
 
 FASHION
 FASHION
@@ -51,7 +51,7 @@ meanwhile…
 
 Sarah Shapiro dissects ( https://puck.news/can-madewells-sell-mom-jeans-to-actual-moms/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Madewell’s midlife malaise and captures ( https://puck.news/this-week-in-shopping-mitchells-lululemon-ballet-sneakers/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the key trends in her week in shopping.
 
- 
+
 
 ART MARKET
 ART MARKET
@@ -63,7 +63,7 @@ and…
 
 Julie Davich prepares ( https://puck.news/midseason-auction-report-mitchell-dubuffet-basquiat/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a modest midseason auction report.
 
- 
+
 
 HOLLYWOOD
 HOLLYWOOD
@@ -80,7 +80,7 @@ meanwhile…
 
 Eriq Gardner reveals ( https://puck.news/the-blake-lively-justin-baldoni-legal-blast-radius-widens/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the latest shoe to drop in the Baldoni-Lively psychodrama.
 
- 
+
 
 WALL STREET
 WALL STREET
@@ -88,7 +88,7 @@ WALL STREET
 Bill Cohan
 deciphers ( https://puck.news/bill-ackmans-second-try-to-build-his-own-berkshire-hathaway/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Bill Ackman’s new $900 million offer.
 
- 
+
 
 MEDIA
 MEDIA
@@ -100,7 +100,7 @@ and…
 
 John Ourand portrays ( https://puck.news/inside-the-mlb-espn-split/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the final days of the ESPN-MLB marriage.
 
- 
+
 
 SILICON VALLEY
 SILICON VALLEY
@@ -108,7 +108,7 @@ SILICON VALLEY
 Baratunde Thurston
 helms ( https://puck.news/private-conversation/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the second quarterly edition of The Puck Private Conversation, powered by Orchestra.
 
- 
+
 
 WASHINGTON
 WASHINGTON
@@ -126,7 +126,7 @@ meanwhile…
 Tara Palmeri chats ( https://puck.news/a-biden-family-insider-tells-all/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with a former top Biden aide, and Peter Hamby examines ( https://puck.news/what-swing-voters-think-of-musk-trump-and-the-economy/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
 Elon’s polling problems.
 
- 
+
 
 PODCASTS
 PODCASTS
@@ -166,7 +166,7 @@ That Be ( https://puck.news/podcast_episode/white-lotus-collabmania-nikes-woman-
 As a reminder, you can update your profile at any time to
 get more stories like these directly in your inbox. Click here ( https://puck.news/newsletters/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to customize your email settings.
 
- 
+
 
 And the Winner Is…
 --------------------
@@ -200,7 +200,7 @@ Tastes do change, of course. (Although, I have to say, for some reason I recentl
 Lauren Sherman’s fantastic Gucci Successorology & Burberry’s Mini Revival ( https://puck.news/daniel-lees-burberry-triumph-and-guccis-next-chapter/?utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Indeed, the industry’s biggest brands are enduring their own quiet evolution, too, away from singular star creative directors and in pursuit of safer, annual-recurring-revenue-friendly strategies that make them less immune to key man risk. The business of art and
 the art of business remain the story of our time, and something you should always expect to read about in Puck.
 
- 
+
 
 Have a great weekend,
 
@@ -217,7 +217,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Backst
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_backstory&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVUfQfi9PApj41XTi8J6A=&utm_campaign=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_content=The+Backstory+-+SUBSCRIBERS+%283%2F1%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St,
 New York, NY 10006

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Life insurance is, financially, a bet on your early death. If you buy a 20-year term life insurance policy with a $5 million death benefit a
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Insurance
-    
-  
+
+
 Life insurance is, financially, a bet on your early death. If you buy a 20-year term life insurance policy with a $5 million death benefit and premiums of $25,000 a year,
   [1]
  and you live for 21 more years, then you pay a total of $500,000 in premiums and get back $0 in benefits. If you buy that same policy and die the day after you buy it, you pay roughly $0 of premiums and get back $5 million of benefits. The earlier you die, the better you do. Financially. Only financially. Otherwise you’d prefer to die later.Of course the central problem is that, if the insurance policy does pay out the $5 million, you don’t get it. You’re dead; that is the prerequisite for getting the money. Somebody else gets it. Ordinarily that somebody else will be your heirs: your spouse, your children, whoever. You hope that they too will prefer that you die later, even if it means that they don’t get the $5 million,
@@ -80,84 +80,84 @@ There are nuances. Two important ones are: 	You can buy life insurance on yours
  She got the $150,000, the investor made the premium payments, and she signed a disclosure statement acknowledging that “a third party investor with an ‘economic interest’ in the death of Ms. Barotz could own any life insurance policies procured on Ms. Barotz's life through the Program.” That sort of says “we have an economic incentive to murder you”? Again, though: no murder!In 2011, Life Accumulation Trust III sold the policy to Financial Credit Investment, an Apollo entity. From the complaint:William Sullivan, an Apollo employee who served as the managing director of the FCI suite of funds between 2010 and at least 2019, indicated in trial testimony that “FCI is mainly focused on longevity mortality risk assets,” which are “most sensitive to the risk of people living longer or not . . . by buying life insurance policies that people no longer need anymore and would otherwise surrender back to the carrier.” …Because “FCI has a lot of capital put to work,” the suite of funds does not dabble in the individual policy market but, instead, “only purchase[s] portfolios of policies from existing investors ... that have already aggregated a portfolio,” otherwise referred to as the “tertiary market.” So Apollo allegedly bought life insurance policies in bulk, without necessarily knowing which were (1) legal valid normal life insurance policies whose holders eventually decided to sell them or (2) bad fake policies like this one. But then Barotz died, the policy paid out, the Apollo fund claimed the benefit, and Barotz’s estate sued for the money back, arguing that this was a bad fake insurance policy.
   [10]
 The investors argued that actually Barotz had done a fraud on them: She took the $150,000 to set up the policy for investors, and then her estate tried to get the money back: “Defendants raise arguments that Ms. Barotz was, purportedly, the sole driving force in the ‘fraudulent scheme’ to benefit herself and her family, and that her estate should not be able to benefit from Ms. Barotz's ‘unclean hands.’” It does seem a little odd that they paid her for the policy, they paid the premiums, and her estate gets to keep the money. But the court was not sympathetic to the investors’ arguments, and last year it awarded the money to her estate. Which is now suing Apollo to try to collect.What a weird market. There is just a lot of money sloshing around here: On a deal like this, the investor has to pay the insurance premiums, it has to pay the insured a 3% commission to get her to take out the policy, it has to pay the agent a commission for signing her up, and of course it has to pay lawyers and take the risk that the policy will be invalid. And yet there’s apparently still enough money in it to make it a good, securitizable investment. Who is selling all this underpriced life insurance?
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SocGen Delta One
-    
-  
+
+
 The basic idea of a delta one desk is that you are selling Thing X to a customer, and buying Thing Y from the market, and Thing X and Thing Y are exactly equivalent. Thus “delta one”: If you sell stock options, you hedge the options by trading stock, and the amount of stock you need to buy or sell — the “delta” of the option — changes over time as the stock price changes. But if you sell index futures contracts, you can hedge them by buying the stocks in the index (or an exchange-traded fund, etc.), and the ratio never changes: It’s always one-for-one, always a delta of one. You’re buying a thing at a low price and selling an equivalent thing at, ideally, a higher price.At some level this should be a fairly low-risk business: The stuff that you are long and the stuff that you are short exactly offset each other, so you shouldn’t make or lose money as the market moves. On the other hand, you are trying to make money, and the only way to make money is to take some risk. If you are not taking market risk — if all your trades are fully hedged — and you’re making money, then you’re taking some other, slightly more esoteric risk. You’re taking funding risk, or interest-rate risk. You’re taking the risk of the basis between Thing X and almost-but-not-quite-identical Thing Y. You’re writing one-day lookbacks into your swaps trades, and taking the legal and reputational risk that a regulator will fine you for tricking your customers. Or bigger risks. One of the great delta-one failures of recent years is when Archegos Capital Management did bazillions of dollars of equity total return swaps with big banks. Those banks fully hedged their stock-price risk — they were long a bazillion dollars of the underlying stock, and short an offsetting bazillion dollars of swaps to Archegos — but they were taking enormous credit risk to Archegos, and when Archegos blew up several of them lost money.But of course the great delta-one failure of recent years was Jérôme Kerviel’s rogue trading at Société Générale in 2007 and 2008. The risk that he took was even simpler: He’d buy Thing X for himself, and pretend to sell Thing Y as a perfect hedge. He was doing completely unhedged directional trades, and tricking the computer systems into thinking he was doing completely hedged trades. When the stuff he bought went up, this was good: It is easier to make money by buying a thing that goes up than it is to make money while being perfectly hedged. And then the stuff he bought went down and he lost $5.2 billon and went to prison.I do not have a fully developed theory of delta one roguishness, but it does seem to have a higher-than-usual incidence of roguishness. There is something about its technicality, about the discipline of making money by buying and selling almost-but-not-quite identical things, that might give people ideas. Especially at SocGen:A pair of traders in Hong Kong have left Societe Generale SA after the French bank discovered a batch of risky bets that went undetected by the firm’s risk-management systems, according to people familiar with the matter.Kavish Kataria, a trader on the bank’s Delta One desk, departed last year along with team head Ken Ng after an internal review of the transactions, said the people, asking not to be identified as the details are not public.While SocGen didn’t lose any money from the transactions, the trades could have cost the Paris-based lender hundreds of millions of dollars had an intense market downturn occurred, the people said. The lapse raised questions about risk management at one of Europe’s biggest banks.“Our strict control framework has allowed us to identify a one-off trading incident in 2023, which didn’t generate any impact and led to appropriate mending measures,” a SocGen spokesperson in Paris said in an emailed statement.A famous stylized fact about rogue traders is that you only hear about the ones who lose money. From this, you might reasonably conclude that (1) lots of traders take less-than-explicitly-authorized risks with their firms’ capital, (2) some of them make money and get promoted, possibly with a “good trade but stop taking unauthorized risks, you lovable scamp” warning, and (3) others lose money and get fired in disgrace. But here we have the rare case of traders getting in trouble for taking less-than-explicitly-authorized risks without losing money. Investment bank risk management is sophisticated enough, and taken seriously enough, that now you can get fired for theoretical losses as well as real ones. (Though if they had made hundreds of millions of dollars, instead of being flattish, I wonder if they’d still be there.)Also it’s not clear how delta one the actual trade was:Kataria had bet on volatility staying low across Indian stock-market indices, the people said, a strategy that involves dealing in options. SocGen’s risk managers failed to pick up on the trades because of a glitch related to their timing, the people said.I suppose if you’re an index trader you’re also allowed to buy index options. (Or not: “The person who made the trades in Hong Kong had not exceeded authorised trading amounts, but had placed bets on options contracts linked to Indian stock market indices that they had not been authorised to carry out.”) Also I must say that Indian stock options are having a moment now: First Jane Street Group was apparently making buckets of money trading Indian options, and now SocGen had a brush with losing hundreds of millions of dollars trading them.
-  
-    
+
+
       CZ
-    
-  
+
+
 “The richest person ever to do time in US federal prison” is an odd distinction, but it does seem only right that it would belong to a crypto mogul. The thing about crypto in 2024 is:	There is just a ton of illegality, ranging from the US Securities and Exchange Commission’s crackdown on all crypto as securities-law violations, to the US Department of Justice’s crackdown on crypto money laundering, to the widespread fraud involved in the collapse of so many crypto lending platforms in 2022. A lot of crypto moguls really are in custody!	The market is still pretty good, and people are somehow still making fortunes in crypto.It would just be weird and old-fashioned if the richest person in prison was, like, a Mafia boss or an arms merchant or a regular Ponzi schemer. So:It’s “better to ask for forgiveness than permission” when it comes to complying with the law, the billionaire founder of the Binance cryptocurrency exchange once told his team, according to the US government.Now it’s time for Changpeng “CZ” Zhao to ask for forgiveness, yet prosecutors aren’t exactly in the mood to grant it. In a court filing before his sentencing hearing on Tuesday, they cited the flippant attitude on display in this and other remarks as one of the reasons they’re recommending the court give him three years in prison — longer than what guidelines prescribe — following his guilty plea to violating anti-money laundering laws in November.Should a Seattle judge agree with prosecutors and order him jailed, Zhao would enter the history books as the richest person ever to do time in US federal lockup since his ownership of Binance — and an estimated $43 billion personal fortune tied to it — remain intact. His wealth is likely to grow even bigger as Binance’s business accelerates amid crypto’s latest bull run. I think that if the founder and until-a-minute-ago chief executive officer of a traditional financial firm was sent to prison for the actions of that firm, that would generally be, you know, bad for business. But in crypto it is not so obvious; it’s possible that a certain willingness to defy the US government — even at the cost of prison for a billionaire — is good branding for a crypto exchange. Binance’s explicit message, since settling with the Justice Department, has been that it is investing in compliance and is now a safer and more compliant exchange than most of its competitors. But it is possible that there are some customers to whom “hey our founder went to prison for facilitating money laundering” is an appealing message.Elsewhere: “FTX Millionaire Pays $1.5 Million for Gold Watch Recovered From Titanic,” perfect.
-  
-    
+
+
       McKinsey rap
-    
-  
+
+
 “McKinsey Seeks to Pump Up Partner Morale With Rap and Rock” is the ominous headline here, but to be fair the McKinsey partners were not the ones rapping:McKinsey & Co. sought to rally its partners with upbeat declarations and blasts of rock and rap music in Copenhagen earlier this month, attempting to boost morale during a tumultuous period for the giant consulting firm.Global Managing Partner Bob Sternfels told his fellow partners at the mid-April event that McKinsey is expecting a good 2024 after its challenges of the past 18 months. He called it a “turn the page” moment, a person familiar with the matter said. …The musical soundtrack included a selection of hits from pop artists including American rapper Eminem and singer Bob Marley. “Tubthumping” by former British rock bank Chumbawamba was also played, with its signature lyrics: “I get knocked down, but I get up again. You are never gonna keep me down.”Obviously if there is video of a sea of McKinsey consultants shouting along to Tubthumping I would like to see it.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Cocoa Plunges Most Ever With Trader Exodus Sparking Huge Moves. HSBC’s Noel Quinn Ends 37-Year CEO Dream With Surprise Departure. Office-Loan Defaults Near Historic Levels With Billions on the Line. A Drought of Treasury Bills Risks Muddying End of Fed’s Balance-Sheet Tightening. BOJ Accounts SuggestJapan Intervened Monday to Support Yen. Walmart Takes On Trader Joe’s and Whole Foods With New Premium Brand. Executive Flights on Corporate Jets Worth Millions More Than Reported. Mets celeb Seymour Weiner, age 97, has heard your jokes — and he loves them. Man who ate tub of cheese balls in NYC admits he nearly threw up. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-      
-    
-  
 
 
-  
-    
-      
-        
-          
-            
-              
-            
-          
-        
-      
-    
-  
 
 
-  
-    
-      
-        
-          
-        
-  [1] An insurance company’s online calculator gives me an estimate of $2,197 per month, or $26,364 per year, for a 20-year term life policy for a nonsmoking 60-year-old woman with a $5 million death benefit. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [1] An insurance company’s online calculator gives me an estimate of $2,197 per month, or $26,364 per year, for a 20-year term life policy for a nonsmoking 60-year-old woman with a $5 million death benefit.
 
 
   [2] For two reasons: Because they love you and want to have you around, but also because the most normal use case for term life insurance is that you are a middle-aged employed parent of minor children who rely on your income, and if you die they’ll get the insurance money but will lose the income. A great many life insurance customers really are worth more to their families, just *financially*, alive than dead. But not all of them.
@@ -187,48 +187,48 @@ Cocoa Plunges Most Ever With Trader Exodus Sparking Huge Moves. HSBC’s Noel Qu
   [10] To me, if it was a bad fake insurance policy, it seems like the right answer would be for the *insurance company* to get the money back. But that’s not how it works: “Section 2704(b) ‘directs that if a death benefit is paid under an insurance policy that lacks an insurable interest, the estate of the insured may recover the death benefit from the recipient,’” said the court, so “the Estate is entitled to the proceeds paid out to the Defendants from the Policy as a matter of public policy.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -239,46 +239,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckyq8d.64y9/017211ff.gif" alt="" border="0" /></a>

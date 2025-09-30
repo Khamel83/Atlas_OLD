@@ -12,7 +12,7 @@
 
 # mensjournal.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![mensjournal.com]()
 

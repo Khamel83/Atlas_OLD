@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         One possible way to think about large language models is that they are extremely good at being mediocre at a lot of white-collar jobs. Like,
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       AI consultants
-    
-  
+
+
 
 One possible way to think about large language models is that they are extremely good at being mediocre at a lot of white-collar jobs. Like, if you need someone to research some question about the market for a product or the accounting treatment of a situation or the taxation of a financial instrument, you can ask ChatGPT and it will quickly, cheaply and tirelessly find you an answer that is not necessarily inspired or brilliant, but that is workmanlike and sensible and straightforward and probably right, though sometimes wrong. If you hired a first-year analyst right out of college and asked her those questions and she gave you ChatGPT’s answers, you would not necessarily think “this person is brilliant and will eventually end up running this firm,” but you would find her useful. She’d make your life easier today, even if she’s not obviously on the partner track. You can give ChatGPT a lot of work, and it will do the work for you, and that will help, though you’ll have to give it clear instructions and check its work carefully.
 But what does that mean for the staffing and training of professional services firms? Like if your model is:
@@ -75,37 +75,37 @@ If the early experimentation pans out, it would mark a seismic shift for profess
 
 Maybe it’s fine? I suppose that in, like, 1890, junior investment bankers spent all their time calculating Ebitda with quill pens and abaci, and when Excel was invented everyone was like “but how will our analysts receive the training they need to become partners if the spreadsheet just does it for them,” and in fact there was huge growth in investment banking jobs and profits and modern investment bankers know way more about finance, though less about abaci. Still I am not sure that “well ChatGPT can do anything an analyst or associate would do, so let’s just put this 22-year-old in front of clients” is the right answer?
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG securitization
-    
-  
+
+
 
 My  main theory about environmental, social and governance investing is that there are some people — I am one of them — who just really like financial engineering. There is always some business that is on the cutting edge of financial engineering, that attracts a disproportionate number of the people who enjoy it. In  1985, or 2005 I guess, it was mortgage-backed securities. In 2023 it is, I mean probably a little bit private credit, but it is mostly ESG. There are whole new things to invest in — carbon credits, green bonds — that rely on novel and debatable accounting conventions, that can be packaged in new ways to create beneficial or absurd results, that add dizzying new forms of complexity to financial markets, that are  just fun. If you’re trading stocks and bonds, it has all been done before. If you’re trading being quiet around whales so they can store carbon,
   [1]
@@ -119,11 +119,11 @@ The creation of a "securitizable asset class in these kinds of investments, wher
 
 For a while, after 2008, if you said “originate-to-distribute” people would give you dirty looks. But now you can be the president of the World Bank and say “originate-to-distribute, but green” and it’s fine.
 
-  
-    
+
+
       Fake nickel
-    
-  
+
+
 
 I don’t know, here’s a trade:
 	You are a big commodity trading firm and you can borrow money cheaply from a bank, secured by commodity cargoes.	Another, smaller trading firm would like to borrow money from you, secured by its commodity cargoes.	It will pay you more than you pay the bank, so you collect a nice spread.	Your risk is that, if the borrower doesn’t pay you back, you still have to pay the bank back: You have the smaller trading firm’s credit risk. This risk is, of course, mitigated by the collateral: If the other firm doesn’t pay you back you can seize its commodity cargoes.
@@ -143,11 +143,11 @@ Trafigura has said it doesn’t believe that any of its employees were complicit
 
 The question is whether the shortcomings are of the form “we checked, but we missed that the nickel was actually rocks” or of the form “we preferred not to know whether the nickel was actually rocks.”
 
-  
-    
+
+
       Bad margin loan
-    
-  
+
+
 
 I don’t know, here’s a trade:
 	You go to a bank and say “I would like to buy $1 billion of bonds, but I don’t have $1 billion. Why don’t you lend me the $1 billion, and I’ll buy the bonds, and you can take the bonds as collateral.”	The bank is like “well okay how much of your own money are you proposing to put up?”	You are like “uh I’ve got like $200 in my checking account, but that’s not the point. The point is that you’ll have the bonds as collateral, so it’s fine.”	The bank is like “sure I guess, here’s $1 billion.”	You buy the bonds, the market moves against you, the bank’s collateral loses $100 million of value, the bank comes to you and says “hey you owe us the $100 million,” and you are like “well, like I said, I’ve got $200, you can have that.”
@@ -161,11 +161,11 @@ At the time of its collapse eight years ago, Invexstar had built up trading posi
 
 “Capital of less than £1 million” is not quite “$200 in my checking account,” but it’s pretty close! It’s closer to that than it is to Archegos. And if you give someone 1,250x leverage you are going to be lucky to get back pennies on the dollar. In fact, these banks didn’t; €500,000 on a $125 million claim is like half a penny on the dollar.
 
-  
-    
+
+
       Grayscale premia
-    
-  
+
+
 
 A lot of people, it turns out, want exposure to crypto prices without exposure to crypto infrastructure. Like: Bitcoin was created as sort of an alternative financial infrastructure, a new kind of money that dispenses with the need for banks and other intermediaries. But in fact Bitcoin is not a particularly good form of money (its value is volatile, it is not widely used for payments in a lot of places), but it is a very good sort of financial asset (its value has gone up a lot over the last 14 years, and also recently). So a lot of people want to own Bitcoin (because they think the price will go up) without believing in, or caring about, its underlying philosophy of decentralization and disintermediation. So they go to their (traditional) bank or (traditional) brokerage and say “buy me some Bitcoin.”
 And there are lots of products designed to satisfy that desire: Bitcoin futures and, soon, probably,  spot Bitcoin exchange-traded funds that let you buy exposure to Bitcoin without ever leaving the traditional financial system. Someone else will do the arbitrage for you, buying Bitcoins to sell you Bitcoin futures or ETFs, and you’ll just have a thing in your regular brokerage account that moves up and down with the price of Bitcoin.
@@ -183,11 +183,11 @@ To be clear, these Grayscale trusts are not ETFs, because you can’t create o
 Bitcoin is a popular financial asset, “digital gold,” a possible diversifier for retail and institutional investors. Filecoin is … the payment currency for a  peer-to-peer file storage system? Why would you buy it in a pink-sheet wrapper? The Grayscale Filecoin Trust is tiny (half a million dollars under management), but owning Filecoin that way is (1) less useful and (2) vastly more expensive than owning it directly. 
 One possible answer is of course “a lack of understanding”; again, this stuff is very small. I suppose another answer is, like, “crypto projects like Filecoin are good and valuable, and their tokens are sort of like stock in those projects, but the stock exchange for trading those stocks will be the regular stock exchange, not decentralized finance.” Last year it was almost plausible to think that the crypto financial system might consume the regular financial system, that in the future all the stocks will be tokenized. Now it’s more plausible to think the reverse, that the regular financial system will consume the crypto one, that in the future all tokens will be stock-ized.
 
-  
-    
+
+
       Ozempic is [good/bad] for business
-    
-  
+
+
 
 I have   written a   few   times about an imaginary drug, a “universal demand suppressant” that leaves its users so completely healthy, satisfied and fulfilled that they have no need for junk food or alcohol or fancy clothes or social media or anything else. Such a drug would be very good for the pharmaceutical company that makes it (people would pay a lot for the drug), but bad for every other company (demand for their products would collapse).
 This is just a fun thought experiment. It was loosely inspired by Ozempic and its competitors, appetite-suppressing drugs that seem to reduce consumption of food (and maybe alcohol and some other things); in particular it was inspired by food companies complaining that their profits will go down because Ozempic will reduce demand for their products. But Ozempic is not really a universal demand suppressant, and there are plausible arguments that it will increase overall demand: by lengthening lifespans, by making people more active, by freeing up money to spend on things other than food, etc. (Also airlines will save money if passengers weigh less, etc.) It would be very funny and cool if Ozempic, like, reduced people’s susceptibility to advertising,
@@ -202,63 +202,63 @@ Abbott Laboratories, which makes medical devices as well as Ensure shakes and po
 
 I feel like a funny General Mills product would be, like, “Ozempic Companion Lucky Charms,” which are just regular Lucky Charms but there are fewer of them in the box. Like in some ways the obvious companion snack food for Ozempic is just less snack food, which intuitively means lower revenues for the snack-food companies, but not necessarily.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Repo-Market Spikes Conjure Memories of September 2019 US Funding Turmoil. Nobody Wants to Be a   Bank Examiner Anymore. Moody’s Cuts  China Credit Outlook to Negative on Growing Debt Risks. Belarus debtholders dispute  frozen $800mn bond at Euroclear. Wells Fargo CEO Says   Fed Asset Cap Will Cause Pain, Eventually. CVS Plans to Overhaul  How Much Drugs Cost.   Pre-Hire Assignments Frustrate Job Applicants in Sluggish Market. SEC, FASB Take Closer Look at Companies’  Statement of Cash Flows. Broker to Billionaires to     Defend Trump Valuations at Fraud Trial. The Post claims that there’s a 90% off sale on  guaranteed Harvard admissions. “The pricey stuff, he said, can ‘stimulate every nerve in your hand.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] “Despite the drastic reduction in commercial whaling, whales still face significant life-threatening hazards, including ship strikes, entanglement in fishing nets, waterborne plastic waste, and noise pollution.”
 
 
   [2] As a writer of a free internet newsletter I of course do not really believe this.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjzzia.5k5r/761ea96b.gif" alt="" border="0" /></a>

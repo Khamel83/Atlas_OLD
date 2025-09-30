@@ -9,129 +9,129 @@
 
 
 
-  
-  
-    
-      
-        
-          
-            
-          
-        
-      
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow and next week on vacation. We’ll be back on Monday, Aug. 23.
-  
-    
+
+
       Op risk bonds
-    
-  
+
+
 Oh wow I had forgotten about  these bonds:Credit Suisse Group AG peddled a series of unusual bonds in recent years that gave the Swiss firm insurance against the equivalent of a banking earthquake. The owners of those securities are feeling some tremors.The $461 million of notes, which are rarely traded, were quoted at distressed levels last month, with a sliver of the issue selling at around 60 cents on the dollar. Traders at JPMorgan Chase & Co. recently offered to buy the junior tranche of the notes for around the same price, according to two people familiar with matter who asked not to be identified as the prices aren’t public.The bond was quoted at par as recently as March, but doubts have grown over whether the bank’s twin scandals tied to the collapses of Archegos Capital Management and Greensill Capital might trigger the insurance and wipe out the principal of the complex securities.Credit Suisse’s turbulent year is turning into a test case for the unique instruments issued to help reduce the capital the bank had to set aside to cover operational risk, a broad swath of potential dangers from blunders to fraud. These bonds are great. We have talked about them a  couple of  times over the years, long before the latest run of Credit Suisse scandals. The basic idea is that there is a category of ways that a bank might lose money that is called “operational risk.” This is a term that comes from bank capital regulation, which  requires banks to have enough capital to protect themselves against reasonably likely losses. (That is, they need to have enough shareholder money to absorb those losses, so that depositors aren’t on the hook.) Bank capital regulators say, well, a bank has a certain amount of loans, and some of the loans might go bad, so you need $X billion of capital against the loan book. And they say, well, the bank has a trading business, and it owns a bunch of stocks and bonds and derivatives, and some of those might go down, so you need $Y billion of capital against the trading book. And those are the main normal ways for banks to lose money.But there are also a whole bunch of other, less normal ways for banks to lose money, ways unrelated to their loans going bad or their trading assets going down. Sometimes a teller steals a bunch of money, or the bank pays a huge fine for ripping off clients, or a rogue trader loses money on bad trades, or the bank gets hacked. All of this stuff is sort of weird and miscellaneous and individually unlikely, but it does happen a lot. And so the regulators say that you need $Z billion of capital against “operational risk,” a catch-all term for weird stuff that can go wrong.[1]And then banks, and particularly Credit Suisse, are very much in the business of optimizing their capital requirements. And one important way to optimize capital requirements is by buying insurance. The idea is roughly:	There is some risk that capital regulators think is a big deal.	You don’t think it’s a big deal.	You can find other people, in the market, who don’t think it’s a big deal.	If you keep the risk, regulators will require you to have lots of expensive capital to protect against it.	But if you buy insurance against the risk, they won’t.	The insurance is cheap, because the sellers don’t think the risk is a big deal.It’s a simple arbitrage: It’s cheaper for you to buy third-party insurance against the risk (and reduce your capital requirements) than it is for you to self-insure against the risk by having the required capital. The market prices the risk cheaper than regulators do, so you insure it in the market.Credit Suisse loves these trades. For instance, regulators require Credit Suisse to have a bunch of capital against the counterparty credit risk of its derivatives portfolio. (It owns derivatives; if the derivatives go up but the people on the other side don’t pay what they owe, then Credit Suisse will lose money.) This seems like rather a niche risk that you couldn’t easily buy insurance against, but Credit Suisse found an amazing insurer: its own senior bankers. It paid a portion of their bonuses in bonds linked to this credit risk: If the derivatives counterparties’ credit was good, the bankers eventually got their full bonuses in cash with a nice interest rate; if the counterparties defaulted, the bankers ate the loss. Cool cool cool. This covered only a portion of the risk, though. Credit Suisse kept the first-loss piece (as is common in capital-relief trades), the bankers’ bonus pool took the mezzanine piece, and they found another counterparty to take the senior risk. (That trade, too, was amazing, because Credit Suisse ended up sort of writing the insurance to itself.)Anyway, another problem for Credit Suisse’s fun-loving capital optimizers was operational risk. It fit all of the requirements:	Bank capital regulators thought that operational risk was a big deal and Credit Suisse needed lots of capital against it.	Credit Suisse did not think it was a big deal.	It could find other people who also didn’t think this risk was a big deal.	So it bought insurance, from them, against the risk.Now of course it turns out that the risk was a big deal. That is, always, a potential problem with capital-relief trades, and hardly worth talking about. Sometimes people’s predictions are off.But there is another, subtler, problem with this trade. What even is this risk? Ordinary capital relief trades are, like, the bank has a bunch of bonds, and it thinks they won’t default, and it buys insurance from some counterparty that will pay off if the bonds default. This allows it to lower its capital requirements. And then if the bonds don’t default, as everyone expects, everyone is happy: The bank has successfully lowered its capital requirements (the insurance was cheaper than capital would have been), and the counterparty has gotten some free money. And if the bonds do default, everyone is sad: The bank probably eats the first loss, and the counterparty has a loss too. But that’s business; it happens. And it’s easy to tell if the bonds defaulted.Here, though, “operational risk” is just a random grab bag of things that can go wrong. The shorthand is that operational risk is a sort of residual category of “every dumb or criminal thing a bank might get up to,” but you can’t put that shorthand into a bond document.  Instead:The notes, issued in four parts, were modeled on so-called catastrophe bonds that insure against hurricanes and other natural disasters, and features an intricate structure and a prospectus that runs around 400 pages.The bonds sold in March 2020 -- the third such issuance tied to the bank since their debut in 2016 -- are among the world’s most complex and secretive, requiring investors to sign non-disclosure agreements, according to people familiar with the deal. They tempted investors with large coupons and a risk that was marketed as so small it was practically unthinkable.“This is probably a textbook case of a catastrophe bond being too complex to price and to market,” Marcos Alvarez, the head of insurance at DBRS Morningstar, said in an interview. “An insurance company would require five or six separate insurance contracts for these perils.” …The recent price turmoil has been triggered by confusion over whether Credit Suisse can draw on the insurance for operational failures, imposing heavy losses to bondholders. The notes cover a huge catalog of risks to the bank’s bottom line, making them almost indecipherable even to insurance experts.In some loose sense “operational risk” means “the bank loses a lot of money quickly by doing dumb things,” and both the Archegos Capital Management situation and the Greensill Capital situation seem like they might qualify. Archegos  resulted in a 165-page report by Credit Suisse’s lawyers about how dumb Credit Suisse had to be to lose $5.5 billion. With Greensill, Credit Suisse doesn’t seem to have lost any money yet, but its clients seem likely to lose a lot of money, and absolutely everyone involved is suing everybody else, so there’s a good chance that Credit Suisse will eventually pay a chunk of money to someone and that you can attribute that money to, broadly speaking, dumbness and badness.But the actual bonds don’t work like that; they have specific categories of dumbness and badness that can qualify as an operational-risk loss, and specific and finicky deductibles and limits for the insurance to kick in. The bonds define operational risk as “the risk of loss resulting from inadequate or failed internal processes, people and systems or from external events,” but not reputational risk, “loss of business opportunities following business interruption,” credit risk or market risk.[2] The definition covers 23 different categories of operational risk, including “losses resulting from activities/practices (including sales activities, service performance and the appropriateness of products) that either do not comply with regulatory or expected market and ethical standards” (possibly Greensill?) and “losses due to failures in transaction capture, execution and maintenance relating to transactions and transaction flows of a normal size; scope also covers events resulting in market and credit limit breaches” (possibly Archegos?[3]). And the way the deductibles and limits work, you need multiple events in multiple operational-risk categories to actually trigger the bonds.[4]So there is a good chance that the bonds won’t be triggered at all, and that the insurance Credit Suisse paid for will serve its narrow purpose — reducing capital requirements — but not actually pay out anything despite all the bad stuff that Credit Suisse got up to this year. But I guess nobody quite knows yet, because the bonds are insurance against miscellaneous bad stuff, and Credit Suisse sure did get up to a lot of that.
-  
-    
+
+
       Robinhood / Say
-    
-  
+
+
 I sat down to write something like “if you had asked me three years ago, I would have said that the future of investing would be more boring indexing, not YOLOing meme-stock calls on Robinhood.” But then it occurred to me that Bloomberg Markets magazine did ask me three years ago, and I did say that. Here is some amazingly wrong stuff that I wrote in 2018:At a high enough level, predicting the future of investing is easy. The future of investing is that people will spend less time and money on it and that it will work more efficiently and predictably. This is also the future of driving and the present of, like, dishwashing. The ideal future of most boring, stressful, specialized, and necessary activities is that someone will build a machine to do it for you so you don’t have to think about it anymore.It’s also fairly straightforward to describe exactly what this means. Mainly it means low-cost broadly diversified index funds: Why spend a lot of time picking stocks, or a lot of time and money hiring people to pick stocks for you, when you can just get the deepest wisdom of modern academic finance practically (or literally) for free? Or if that is not quite your thing, then you can get low-cost, factor-based quantitative funds that might outperform the index but that will also, probably, be cheap and efficient and predictable and backed by the latest research in academic finance. Also there will be an app on your phone that lets you manage this and that saves the right amount of money for you out of your paycheck, etc.Whoops! Or, I mean, not whoops, who knows. There are still big inflows to index funds, still lots of automation and robo-advising. But you would not exactly say that the theme of stock investing in 2021 is “you don’t have to think about it anymore.”No, the theme of stock investing in 2021 is more like “think about it really intensely all the time.” It is “wrap your whole identity up in your stocks.” In 2018, the trend seemed so clearly to be toward abstracting away from stocks: Investing was about owning the broad market, or perhaps picking a generic theme like “millennials” or “artificial intelligence” or “cannabis”; new intermediaries were springing up who would handle the messy details of translating that stuff into owning particular stocks.In 2021, people love the messy details. You don’t just own stocks, you go on message boards to discuss their businesses and management changes and short interest. You don’t just buy shares of a company whose products you like, you become a fan of that company and develop a weird parasocial relationship with its chief executive officer. And when that company holds an earnings call, you don’t rely on Wall Street analysts to ask questions. You get on that call and  you ask the questions yourself: Robinhood Markets Inc. plans to field questions from individual investors on its earnings call next week through a platform it just purchased.Retail investors can submit questions for Robinhood management through Say Technologies, a company it agreed to buy this week, the company said in a statement Wednesday. Robinhood reports second-quarter earnings on Aug. 18, its first such release as a publicly traded company. Investors can submit questions through Aug. 17.AMC Entertainment Holdings Inc.  did this earlier this week and it seems to have been fun for all involved. I feel like Robinhood is going to get more conspiracy-theory questions? But I guess it doesn’t have to read the bad ones on the call?Robinhood says that its mission is “to democratize finance for all,” and of course this fits with that mission. Direct access! Cut out the middlemen and ask companies questions yourself! A few years ago, I would have said that that is obviously unappealing: Why should you spend your time thinking of good questions to ask the executives of some brokerage firm, when you could just go live your life and leave the questioning to someone whose job it is to ask good questions on your behalf? Clearly that was wrong though. Chatting with corporate executives about their quarterly results is not just someone’s job, it is also many people’s hobby, and Robinhood is giving people what they want. Okay! 
-  
-    
+
+
       SPACman
-    
-  
+
+
 Oh man, speaking of people wrapping their whole identities up in their stocks and developing unhealthy parasocial relationships with their CEOs, here is a wild article about people who threw away all of their money on Bill Ackman’s special purpose acquisition company,  Pershing Square Tontine Holdings, for no particular reason. For instance, this “a 39-year-old software engineer who had saved $1.6 million over 20 years — ever since he began working at the age of 18”:Until 2020, he had socked all of it away in a Chase savings account because, he says, “I didn’t trust the stock market.” ...Last year, the software engineer — who works as an independent consultant — finally decided to take the plunge and put his money into the stock market, setting up an account at Fidelity. ...By last fall, friends were talking up Ackman’s SPAC. The software engineer decided it was the only stock he would buy, sinking the entire $1.6 million into it. “Ackman just sounded very confident. I trusted the guy. I thought he knew what he was doing,” he says.At first, the software engineer bought common stock, but later, he says, “like an amateur” he transferred shares into expensive, in-the-money call options with a strike price of $22 — well below the $30 where the stock was trading at the time. “I thought it was safe,” he says.The highest his account’s value ever reached was $2 million, but had those options worked out, he calculates he would have made almost $4 million.They expired worthless on July 16, a few days before Ackman announced the SEC had torpedoed his plans.“Everything is my fault,” the software engineer says. “It’s not Bill’s fault.”I mean, true? Bill Ackman didn’t tell you to put your whole life savings into call options on his SPAC. (In fact, he specifically told people not to: “What we don’t want people doing is speculating, buying short-dated options on our SPAC,” he said at a public event before announcing a deal.) I suppose that the stock market has always provided opportunities for compulsive gamblers, but it does feel like those opportunities are heightened these days. 
-  
-    
+
+
       Ryan Cohen
-    
-  
+
+
 Oh man, speaking of people wrapping their whole identities up in their stocks and developing unhealthy parasocial relationships with their, uh, chairman of the board in this case:Ryan Cohen rose to become chairman of GameStop Corp. with the verve of an old-school corporate raider. Wielding little more than a minority stake and a sharp tongue, Mr. Cohen pushed out GameStop’s executive team and installed longtime associates on the company’s board. The tactics made the co-founder of online pet store Chewy Inc. a favorite of the individual investors who sent GameStop’s stock on a roller-coaster this year; they call him “Papa Cohen.”If Mr. Cohen has made winning look easy thus far, it is far from clear what comes next. From his perch as chairman, he has to revamp GameStop’s business, if only to justify the stock’s remarkable run. The stock closed Wednesday around $159 per share, up more than eightfold this year, but far below the high of $483 it touched in January. The company has reported annual losses for three consecutive years. …Mr. Cohen’s swift accumulation of power at GameStop, orchestrated from his Florida beachfront apartment located halfway across the country from company headquarters, was the result of a series of previously unreported moves, people familiar with the matter said. Fueled in part by his popularity on social media, Mr. Cohen injected himself into company decision making, all but supplanting the CEO. Board members and executives who were deemed too slow to transform the company didn’t last long.Mr. Cohen’s takeover of GameStop is “the most audacious thing I’ve ever seen,” said Wedbush Securities analyst Michael Pachter. “How does a 12% shareholder take control of a company?”I don’t know, I don’t think it’s that weird? I feel like activists do this all the time? You get a chunk of shares and you go out to the other shareholders and say “this company is doing a bad job and I would like to install different people to do a better job.” If the shareholders agree with you, you “take over the company” in some loose sense. (Not an actual acquisition, but you get your people on the board, you replace the executives, the company tries to do your plan, etc.) I don’t think it was particularly hard to make the case that a mall-based video game retailer had problems, and Cohen’s prior success in online commerce made it plausible for him to make the case that he could solve them. And now he is a meme-stock chairman, “Papa Cohen,” etc., but I don’t think that his path to power at GameStop relied all that much on embracing the meme thing. He’s not  Adam Aron; he didn’t go on Reddit to be like “if you vote for my board slate we’re gonna accept Dogecoin at GameStop and make Harambe our mascot.” He was just like “video-game sales are moving online so let’s hire some Amazon executives to make us a better competitor in that business.” Just normal reasonable stuff you could pitch to a Wall Street analyst.On the other hand! Nothing stops an activist at another company from trying to run the meme-stock playbook. Buy some stock in a struggling company and, instead of going out and pitching your plans to  BlackRock and Vanguard, get on Reddit and say like “if my board slate is elected we’re gonna take XYZ Co. to the moon and squeeze those short sellers, rocket emoji rocket emoji rocket emoji, not a proxy solicitation, read my SEC filings for full disclosures.”[5] Draw a picture of an ape riding a rocket and slap it on your proxy statement. Call your activist fund Diamond Hands Capital LP.[6] Reddit retail investors can make stocks go up an arbitrary amount; can they also take over companies?
-  
-    
+
+
       The Poly hacker
-    
-  
+
+
 We  talked yesterday about how hackers stole about $600 million of cryptocurrency from a decentralized finance protocol called Poly Network, and then changed their mind and decided to give back the money. Or some of it. So far they have given back about $342 million. “Smart play,” someone said on Twitter; “stealing $600mm and returning $595mm make you look altruistic while just stealing $5mm makes you look like a jerk.”Exactly why the hackers decided to give back (some of?) the money is unclear. There is an argument that security researchers did a good enough job of identifying them that they’d have a hard time spending the stolen money and might get caught by law enforcement, so giving it back was the safest course. There is an argument that they are just nice? Here, however, is the hackers’ own explanation, in the form of a Q&A embedded in Ethereum transactions and tweeted by Tom Robinson of blockchain firm Elliptic:Q: WHY HACKING?A: FOR FUN :)Q: WHY POLY NETWORKA: CROSS CHAIN HACKING IS HOTQ: WHY TRANSFERING TOKENS?A: TO KEEP IT SAFE.WHEN SPOTTING THE BUG, I HAD A MIXED FEELING. ASK YOURSELF WHAT TO DO HAD YOU FACING SO MUCH FORTUNE. ASKING THE PROJECT TEAM POLITELY SO THAT THEY CAN FIX IT? ANYONE COULD BE THE TRAITOR GIVEN ONE BILLION! I CAN TRUST NOBODY! THE ONLY SOLUTION I CAN COME UP WITH IS SAYING IT IN A _TRUSTED_ ACCOUNT WHILE KEEPING MYSELF _ANONYMOUS_ AND _SAFE_.Obviously you do not have to believe this. I just want to point out that it’s … right? Like let’s say you noticed a bug in a popular crypto network that allows anyone to transfer all the money in the network to themselves. What would you do? How would you assume that bug got there?If you noticed a bug like that in the software of a bank, or the Federal Reserve, or Facebook, or whatever, one thing you could do is call up the company’s main number and say “I have found a bug.” Of course they might ignore you or not understand or not do anything; big institutions are not always nimble and clever. But if you managed to get on the phone with Jamie Dimon and tell him “hey there’s a bug in your software that lets anyone steal a trillion dollars of deposits,” you would not expect him to respond “oh sweet” and steal the money himself.Whereas with a crypto project, if you managed to get on the … Discord chat? ... with the … the stateless pseudonymous developer? ... who seems to … write most of its Medium posts? … and you said “hey there’s a bug in your software that lets anyone steal a billion dollars of user money,” and he responded “oh sweet I’m gonna steal it,” or for that matter “yes I put it there so that I could steal it and now I will,” you would not be that surprised. I don’t mean to cast any aspersions on Poly Network or anything; I just mean, as a general matter, a whole lot of crypto projects really are designed to steal all their users’ money. So if you found a bug like this, a thought process like “I am going to steal all the money myself so that no one else steals it, and then give it back once the bug is fixed, and maybe keep a few million dollars for my trouble” would not be totally unreasonable. I want to be clear that I am very skeptical that this was actually this hacker’s thought process. I just mean it’s a plausible funny thought process.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Private Equity Firms Are Cutting Out Banks and  Funding LBOs Themselves. Evergrande Went From China’s Biggest Developer to One of Its Worst Debtors. High-Speed Trading Firm Jump to Execute Retail Investors’ Stock Trades. Reddit value jumps to $10bn after new fundraising. Fired ICAP Broker Sued Firm for Millions, Or  So He Thought. Japan athlete to get nibbled gold medal replaced.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Wikipedia tells me that “Operational risk is ‘the risk of a change in value caused by the fact that actual losses, incurred for inadequate or failed internal processes, people and systems, or from external events (including legal risk), differ from the expected losses.’” But it also tells me that “operational risk was negatively defined in Basel I, namely that operational risk are all risks which are not market risk and not credit risk.” [2] I am quoting in this paragraph from an investor presentation that Credit Suisse used in marketing some of these bonds. The actual offering memos and contracts for the bonds appear to be very secret indeed.[3] In a sense Archegos seems like an obvious market-risk loss: Credit Suisse, in its ordinary business, trades stocks and derivatives; it lost money on the stock-and-derivatives portfolio it traded with Archegos; that’s market risk, not operational risk. But the postmortem report does say that Archegos went above various internal Credit Suisse risk limits and nobody did much about it, which is arguably an operational-risk issue.[4] Roughly speaking, each sort of operational-risk loss is capped at 3 billion or 3.5 billion Swiss francs; then you add up the capped losses and, if they are over 3.5 billion francs, the bonds are triggered. “With actual data 2001 — 2015,” says the marketing presentation, “no Credit Suisse historical operational loss would have triggered a payment under the insurance policy.” Credit Suisse has had a rough 2021, but I think it is fair to say that, say, 2008 was rougher.[5] This should go without saying but this is not legal advice, and when I say “nothing stops” an activist from doing this, I mean, there is a certain amount of proxy-solicitation regulation that might *slow you down*. If you read this and decide “hey this is a great idea” you should definitely consult your lawyer.[6] I have not googled to see if this name is taken, because every possible name is taken, and it would make me sad if this is a real boring fund.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cepxsi.5nyd/deed2f3d.gif" alt="" border="0" /></a>

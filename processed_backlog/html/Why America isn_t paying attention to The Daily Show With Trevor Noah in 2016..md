@@ -5,7 +5,7 @@
 
 Arts has moved! You can find [new stories here](https://slate.com/culture).
 
-![490454830](/content/dam/slate/articles/arts/television/2016/01/160121_trevorNoahDesk.jpg.CROP.promo-xlarge2.jpg "160121_trevorNoahDesk") 
+![490454830](/content/dam/slate/articles/arts/television/2016/01/160121_trevorNoahDesk.jpg.CROP.promo-xlarge2.jpg "160121_trevorNoahDesk")
 
 Trevor Noah took over *The Daily Show* in September.
 
@@ -41,7 +41,7 @@ Consider Noah’s coverage of Obama’s recent State of the Union, in which he e
 
 In the runup to Noah’s stewardship, *The Daily Show* announced that it would be moving away from its staple under Stewart: media criticism and, in particular, the relentless skewering of Stewart’s bête noir and raison d’etre, Fox News. This made sense. Stewart, with an assist from Stephen Colbert, had spent more than a decade slicing and dicing the cable news industry. His eviscerations were still widely popular with *The Daily Show* audience and the morning-after viral-video crowd, but they were old news, thanks in large part to Stewart’s own work. Now, instead of covering the coverage of the news, Noah covers the news itself, but this straightforward approach places *The Daily Show* in a crowded field full of people who are more experienced and engaged than Noah, including Colbert, John Oliver, Larry Wilmore, and soon enough, Samantha Bee.
 
-![490454832](/content/dam/slate/articles/arts/television/2016/01/160121_trevorNoahDesk2.jpg.CROP.promo-xlarge2.jpg "160121_trevorNoahDesk2") 
+![490454832](/content/dam/slate/articles/arts/television/2016/01/160121_trevorNoahDesk2.jpg.CROP.promo-xlarge2.jpg "160121_trevorNoahDesk2")
 
 Trevor Noahâs *Daily Show* is competing with a crowded late-night field.
 

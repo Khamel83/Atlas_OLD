@@ -101,7 +101,7 @@ But first…
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -259,7 +259,7 @@ international courts. I have to wonder if his neatly packaged case in New York, 
 compensation for Joe Shuster’s fundamental contributions as the co-creator of the character.”) He’s brokered numerous deals before, securing those producer credits on sequels to Beetlejuice, Bad Boys, and Predator. He also struck a significant deal ( https://www.reuters.com/legal/marvel-settles-with-four-artists-superhero-copyright-fight-2023-06-09/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Disney a couple years back when he seemed poised to
 disrupt the Marvel Cinematic Universe. If Zaslav decides it’s simpler to cut a small check and give him a nod in the end credits, would it really be so surprising to see this one wrapped up with a handshake between a studio and its longtime nemesis? Toberoff might even get invited to the premiere.
 
- 
+
 
 Thanks, Eriq. I’ll be back on Thursday evening. 
 
@@ -317,6 +317,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU1A2aGI1iPIlQV4WFVmc=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

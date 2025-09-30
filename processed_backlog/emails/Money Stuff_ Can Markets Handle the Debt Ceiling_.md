@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         For many, many, many purposes in financial markets, you have to post collateral. Most importantly, if you want to borrow money in some of th
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Ugh the debt ceiling
-    
-  
+
+
 
 For many, many, many purposes in financial markets, you have to post collateral. Most importantly, if you want to borrow money in some of the biggest lending markets, you put up some collateral and get the money; when you repay the money you get the collateral back. If you do certain derivatives trades, you have to post collateral to ensure that you are good for your obligations. If you want to sell a stock short, you borrow the stock and post collateral to secure your obligation to return it. If you are a   retail brokerage, your customers do trades today but actually hand over the money on Friday, and meanwhile you post collateral with a clearinghouse to guarantee their trades. The plumbing of global finance works through collateral: You and I can agree to do stuff in the future, without necessarily knowing each other well or trusting each other much, because we have posted collateral to ensure that we’re good for our promises.
 Often the way this works is that the collateral consists of some securities that you own,
@@ -106,37 +106,37 @@ I want to make a couple of points here:
 	I assume that they are basically correct not to be too worried about the plumbing. We have been having debt-ceiling crises every few years for ages now, and surely everyone has war-gamed this out over and over again. Financial markets are not full of idiots, and it would be annoying if this extremely predictable and predicted event brings down the global financial system through some technicality. 	That said, I assume that with, like, 85% confidence. There is a lot of stuff out there. Surely the biggest global banks and asset managers have gamed out how they will keep markets going in the event of a US default, but is there some smaller firm whose computers will say “Treasury price = $0” and cause chaos? Maybe!	If you work in some corner of financial plumbing that you think won’t work in the event of a default, please do let me know! Send me an email. Also, though, fix it? You still have a little bit of time, and you’ve had plenty of warning.	Wouldn’t it be so tiresome to work in financial plumbing at some big bank and have to go to all the meetings about this stuff? To have to build all the systems to deal with a US government default, just because the US government can never get its act together to get rid of the debt ceiling, and because debt-ceiling negotiations always have to go to the last second? Like imagine pulling the all-nighters at JPMorgan to prepare for this, scrambling to save the US government from the consequences of its own incompetence and malice, and meanwhile the Securities and Exchange Commission is fining because   sometimes you text your colleagues about work. Just pay your debts, come on.
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       SVB poaching
-    
-  
+
+
 
 Loosely speaking, Silicon Valley Bank consisted of:
 	Some bank deposits;	Some long-term US government bonds that lost a lot of value as interest rates went up; and	Strong customer relationships with top tech startups and venture capital firms.
@@ -152,11 +152,11 @@ David Sabow, who worked in a health-care and technology banking practice at SVB 
 
 Yes right if there’s an insolvent bank you want to acquire its profitability engine and leave its balance sheet behind.
 
-  
-    
+
+
       Patent sub-trolls
-    
-  
+
+
 
 If you invent a thing and patent it, and then somebody else makes a similar thing that infringes on your patent, you can sue them. For various reasons, this may be inconvenient for you, as an inventor: You may not have money to pay for lawyers, or you might be too busy inventing and making stuff to sue, etc.
 But you can sell your patents to somebody else. You can, for instance, sell your patent to somebody who is not in the business of inventing and making things, but who is in the business of acquiring patents and suing people who make things that allegedly infringe on the patents. This is a business that benefits from scale; the people in this business — sometimes called “non-practicing entities,” or more pejoratively “patent trolls” — will want to acquire lots of patents and sue a lot to maximize their returns.
@@ -175,11 +175,11 @@ The witnesses all testified that Mavexar created limited liability companies—n
 
 Why does no one ever approach me out of the blue to give me 10% of some patent litigation? I mean, to be fair, I wouldn’t believe them, and I’d probably write about it. Still. 
 
-  
-    
+
+
       Bitcoin conference
-    
-  
+
+
 
 Every year (every week?), there is a big Bitcoin conference in Miami, for some value of “every,” and of “big.” Obviously there was not a big Bitcoin conference in Miami in, like, 2006. Will there be a big Bitcoin conference in 2026? Probably? I don’t know. Now we are in a crypto winter, and 2023’s Bitcoin conferences are not as big or as cheerful as they were in 2021 or 2022, but they are still happening, and they are still very very Bitcoin-y. The Wall Street Journal  went to this year’s (this week’s?) conference and, while “organizers expected only half as many people to attend compared with last year,” it’s still full of stuff like this:
 
@@ -192,11 +192,11 @@ Not so bad, right? Last year there were two big tunas; this year there is one, s
 A satellite event called Sh*tcoin Conference, which celebrates non-bitcoin cryptocurrencies viewed as worthless by some bitcoin believers, ended up smaller after crypto exchange FTX imploded late last year. FTX was supposed to sponsor it before its bankruptcy, forcing the organizers to scale the schedule back considerably. Last year, the event was a two-day conference at the nightclub Mad Club Wynwood. This year, it was one evening at a co-working space in Wynwood called the LAB Miami. 
 FTX was going to sponsor the Sh*tcoin Conference! “Which celebrates non-bitcoin cryptocurrencies viewed as worthless by some bitcoin believers”! Also by some other people! One quick story of the collapse of FTX would be that it took all of its customers’ money and traded it for a pile of magic beans — “Samcoins” — of its own invention, which turned out to be worthless. And as it was doing that it was smirkingly agreeing to sponsor this conference? Everything in crypto is so on-the-nose.
 
-  
-    
+
+
       Paper money stuff
-    
-  
+
+
 
 On the one hand, bank deposits compete with money market funds and Treasury bills. If Treasury bills or money market funds pay 5% interest, and your bank account pays 0.01%, you might move your money out of the bank. For banks, this is bad, for reasons we have talked about extensively in recent months: Basically the business model of banking relies on paying low interest on deposits even as interest rates rise elsewhere, and if everyone starts taking their money out of banks to put it into Treasuries then the banks have problems.
 On the other hand, bank deposits compete with a pile of $20 bills under your mattress. For most people in the US, most of the time, bank accounts — which offer direct deposit, automatic bill payments, probably higher security than your mattress, and maybe even interest — are more attractive than bills under the mattress. But bills under the mattress have some advantages. There are some contexts where you can spend them more easily than bank money; some businesses only take cash and are not right next to an ATM. Plus if you are worried about your bank’s credit risk you might prefer the bills.
@@ -214,16 +214,16 @@ Steven Ferry carries in his wallet—in addition to cash—a supply of small car
 
 Just based on that description I bet you can make a pretty accurate sketch of his mustache.
 
-  
-    
-      Things happen
-    
-  
 
-Apollo’s Big Bet on Insurance Put to Test. JPMorgan Makes One of the Biggest Bets Ever on  Carbon Removal. Saudi Energy Minister Tells Oil Speculators to ‘Watch Out.’ Activist Investor Calls on Yelp to Explore Sale. Listed Private-Equity Firms Stress  Credit Role. Private equity groups sell stakes at discount on expectations valuations will stay low. Jamie Dimon Has 
+
+      Things happen
+
+
+
+Apollo’s Big Bet on Insurance Put to Test. JPMorgan Makes One of the Biggest Bets Ever on  Carbon Removal. Saudi Energy Minister Tells Oil Speculators to ‘Watch Out.’ Activist Investor Calls on Yelp to Explore Sale. Listed Private-Equity Firms Stress  Credit Role. Private equity groups sell stakes at discount on expectations valuations will stay low. Jamie Dimon Has
 No Plans to Step Down as JPMorgan CEO Anytime Soon. Startup Chiefs  Take a Pay Cut to Preserve Working Capital. Shareholder Activists Drag Companies Into U.S.  Culture Wars. US Congress: how investment funds became the new insider trading risk. Walgreens Settles Consumer Claims It Knew Theranos Was a Fraud. Emails, Chat Logs, Code and a Notebook: The Mountain of FTX Evidence. The Son of a Murdered Tycoon Who Grew Up to Become a Ponzi Scheme Fugitive. World’s Biggest Nuclear Plant May Stay Closed Due to Papers Left on Car Roof. Ron DeSantis will launch his presidential bid with Elon Musk. Blood boy.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] For some of these purposes, you can (or have to) put up *cash* as collateral for your obligations. For others (especially, borrowing cash), that would not make sense. Also in general the idea of “putting cash” somewhere, in modern finance,   is somewhat fraught: If you are posting cash with a bank, you can transfer cash into an account at that bank, but then you take their credit risk; if you are posting cash with a non-bank, you effectively give them a security interest in a bank account, and then both of you are taking the bank’s credit risk.
 
 
@@ -233,48 +233,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] Money market funds also invest in reverse repo, where they lend cash and get back longer-dated Treasuries as collateral: “Although a delayed coupon payment is less consequential from a risk perspective than a delayed principal payment, it is possible that MMF and other repo participants will begin excluding these from the lists of eligible collateral they are willing to accept, resulting in higher financing costs for these issues. Similarly, dealers may demand higher haircuts on bonds with coupons in June, which may also bias yields higher on these securities. But since the risk here is a delayed coupon and not the principal, the haircut increases may not be severe.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -285,46 +285,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cisqeg.5k66/ec0a60e4.gif" alt="" border="0" /></a>

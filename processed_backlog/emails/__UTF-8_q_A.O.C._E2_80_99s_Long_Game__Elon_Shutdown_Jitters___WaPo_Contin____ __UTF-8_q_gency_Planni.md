@@ -65,7 +65,7 @@ Byers’s In the Room email regarding the latest shoes to drop in the Washington
 Dylan Byers
 Dylan Byers
 
- 
+
 
 The Matt Murray Potential
 Surprise
@@ -164,7 +164,7 @@ speeches, Velázquez is often seated right behind her younger colleague, squarel
  
 
 But some members still live in fear of her megaphone, and the fundraising
-power she can throw behind primary challengers. While A.O.C.’s primary endorsements against colleagues are rare, they are potent—Henry Cuellar nearly lost reelection in 2022 to an A.O.C.-backed insurgent. Others still haven’t forgotten how she once took on the D.C.C.C. for playing hardball ( https://www.washingtonpost.com/politics/ocasio-cortez-other-house-freshmen-resist-new-incumbent-favoring-dccc-rule/2019/03/31/c54ae680-53b3-11e9-814f-e2f46684196e_story.html?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) against consultants who planned to work for candidates challenging sitting House Democrats. (In her Monday presentation before the steering committee, which makes leadership recommendations before the entire caucus votes on candidates, Ocasio-Cortez reportedly 
+power she can throw behind primary challengers. While A.O.C.’s primary endorsements against colleagues are rare, they are potent—Henry Cuellar nearly lost reelection in 2022 to an A.O.C.-backed insurgent. Others still haven’t forgotten how she once took on the D.C.C.C. for playing hardball ( https://www.washingtonpost.com/politics/ocasio-cortez-other-house-freshmen-resist-new-incumbent-favoring-dccc-rule/2019/03/31/c54ae680-53b3-11e9-814f-e2f46684196e_story.html?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) against consultants who planned to work for candidates challenging sitting House Democrats. (In her Monday presentation before the steering committee, which makes leadership recommendations before the entire caucus votes on candidates, Ocasio-Cortez reportedly
 ( https://www.politico.com/live-updates/2024/12/16/congress/aoc-makes-a-primary-pledge-00194638?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) signaled that she was reconsidering
 supporting challenges to colleagues.)  
 
@@ -231,6 +231,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT3M3qt9Px-RPzXt3I_k4=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

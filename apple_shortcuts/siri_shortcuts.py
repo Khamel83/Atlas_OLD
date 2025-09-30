@@ -61,7 +61,7 @@ class SiriShortcut:
         # Enhanced parameter validation
         if len(self.name) > 100:
             raise ValueError("Name must be 100 characters or less")
-        
+
         if len(self.phrase) > 200:
             raise ValueError("Phrase must be 200 characters or less")
 

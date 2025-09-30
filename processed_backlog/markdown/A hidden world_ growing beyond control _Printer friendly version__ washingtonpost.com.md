@@ -12,7 +12,7 @@
 
 # projects.washingtonpost.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![projects.washingtonpost.com]()
 

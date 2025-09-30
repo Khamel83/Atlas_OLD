@@ -8,10 +8,10 @@
 
 
 
-  
-  
+
+
   Money Stuff
-  
+
 body {
 width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: 0; padding: 0;
 }
@@ -26,94 +26,94 @@ text-decoration: none; color: #000000;
 }
 @media (prefers-color-scheme: dark) {
 }
-[data-ogsc] body {} 
+[data-ogsc] body {}
 
 
 
-  
-  
-    
-      
-        
-          
-            
-              
-                
-              
-            
-          
-        
-        
-          
-            
-          
-        
-      
-      
-      
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       The magical Elon money machineSo obviously  this is a story about  Elon Musk’s magic lamp that makes the price of Bitcoin go up and down:Bitcoin traded lower on Tuesday as prices pulled back from a double-digit percentage rally, stoked in part by Elon Musk’s effort to bolster the token’s green credentials on Twitter.The largest digital currency slipped as much as 6.5% to $36,494 in New York, following a 16% jump on Monday. The wider Bloomberg Galaxy Crypto Index and tokens including Ether also dropped.The Tesla Inc. CEO has roiled the token’s price this month, triggering a selloff by criticizing its energy profile and suspending Bitcoin payments. Heightened regulatory rhetoric on cryptocurrencies from China also pressured the sector.“If the market continues to see wild swings based on Elon Musk tweets, it’s going to be a big set back for this asset class,” said Matt Maley, chief market strategist for Miller Tabak + Co. “The fact that it sees such wild swings to the tweets from one person takes away the legitimacy of the asset class.”Fine, yes, in 2021 the main fact about Bitcoin is that Elon Musk decides whether its price goes up or down. Does that “take away the legitimacy of the asset class”? Man, look around; “legitimacy” is a weird thing to be worried about. I would say that it’s interesting to have a trillion-dollar asset class that is like “one guy will think of a number and your asset will be worth that number.” That really is a novel experiment in finance! I feel like we should give it some more time and see how it goes. But it strikes me that this is also a story about how environmental, social and governance (ESG) investing often works. In 2021 the other important fact about Bitcoin is that  miners use a lot of electricity to keep its ledger secure, and this fact has formed the pretext for a number of Musk’s recent tweets telling the price to go up or down:Pledges to make the industry more green have picked up since Musk’s criticisms. Several miners joined the Crypto Climate Accord, a private-sector initiative to decarbonize the crypto industry by 2030.Musk and Michael Saylor, another long-time Bitcoin booster, tweeted Monday that they had held a call with major North American miners, including Michael Novogratz’s Galaxy Digital and publicly traded Hut 8 Mining Corp., to discuss “energy usage transparency.”Saylor said the group agreed to form the Bitcoin Mining Council “to standardize energy reporting.”Musk and Saylor’s initiative to make Bitcoin “‘greener’ bodes well for ESG narrative and institutional adoption,” David Grider, strategist at Fundstrat Global Advisors LLC, wrote in a note.At the same time, it will take years for many of the largest miners to recalibrate where they source their energy.What does that mean? Well, consider that many big ESG funds invest in oil and gas companies. If you are interested in reducing the climate impact of your investments and investing only in environmentally sound companies, you can buy an ESG fund that buys the most environmentally friendly oil companies.[1] And then your clients will say “wait doesn’t drilling for oil contribute to climate change” and you will say “that’s not the point, the point is that the way these companies drill for oil is slightly better than the way those other companies drill for oil, and they have committed to become carbon-neutral in the far future.” That is important, because, for various reasons (particularly: to track broad indexes with minimum error), big ESG-focused investors often want to buy oil companies. If you can find a way to buy oil companies and call it ESG, there’s a good business there. And people have, and the way is:	Make the environmental impact of each oil company somehow legible and quantifiable.	Focus on the oil companies that are relatively better on these legible metrics: They contribute less to climate change than their peers, or at least they are reducing their climate impact over time.	Categorize oil companies as a sector that every investor needs exposure to, so that ESG funds  can say “we offer investors similar risk and returns that they would achieve in broad market indexes while including the highest ESG-rated companies in each sector.”Similarly here the trade is to make Bitcoin’s energy consumption and sources, and its climate impact, legible, by “standardizing energy reporting.” Then you (Tesla, institutional investors, etc.) buy Bitcoin. And then when people complain about Bitcoin’s environmental impact, now you have tools to reply. You can say things like “yes but we enforce rigorous energy usage transparency standards and only buy Bitcoins artisanally sourced from hydroelectric plants,”[2] or “sure Bitcoin uses a lot of energy but so does the S&P 500, and Bitcoin has reduced its use of coal power 2.7% this year,”[3] or whatever. You have transformed a vague and ominous problem — “it seems like Bitcoin maybe uses a lot of dirty electricity to make an abstract asset?” — into a peppy solution — “our investment in Bitcoin is helping make it cleaner.” The absolute problem persists — miners use a lot of electricity to mine Bitcoin — but you have turned the conversation to relative improvements in the problem.[4]Of course this only works if you accept the premise that Bitcoin is an important asset class, that an investor should be finding the cleanest way to buy Bitcoin rather than avoiding it altogether.[5] (“You almost never hear anyone complaining about how much electricity refrigerators use,” Joe Weisenthal wrote the other day, because everyone accepts that refrigeration is important.) If your policy is “we invest in every asset class in the most environmentally sensible way,” and someone comes to you and says “hey we have invented a new asset class, it is burning a ton of coal and keeping track of how much coal we’ve burned and paying each other for it,” your initial inclination might be to say “wait that's not an asset class, that’s just burning coal, we don’t want any of that at all.” But once it’s worth a trillion dollars, sure, you have to figure out the most environmentally friendly way to buy some.Bitcoin ETF-of-ETFsOne simple model of exchange-traded funds is that they are a way to invest without paying taxes until you’re done investing. Here’s how regular traditional investing works:	You have money that you don’t need now but will need in 20 years to pay for your kids’ college or whatever.	You buy some assets.	You change the assets from time to time: Some things go up and you sell them, or buy more; other things go down and you sell them, or buy more. You have a target allocation of X% to Thing A and Y% to Thing B and Z% to Thing C, but if Thing A goes up a lot compared to Things B and C then you will have more than X% of it and you’ll have to sell some. Also over time your target allocations might change, etc.	Every time you sell an asset for a profit, you pay taxes on the gains.	In 20 years you sell all of the assets, pay taxes on whatever gains you haven’t already paid taxes on, and use the money to pay for college or whatever.Step 4 is the bummer here: You keep paying taxes along the way, because you have taxable gains. It might feel, to you, like you don’t: From your perspective, you put in money in Step 1 and take it out in Step 5, and you only get to enjoy the gains in Step 5; any gains in Steps 3 and 4 are just part of the investing process, not income that you were planning to spend. But the tax law says that if you sell an asset for a gain you pay taxes on it, even if you are planning to reinvest and aren’t ready to pay for college or whatever yet.If you invest via mutual funds, instead of by buying stocks and bonds directly, the process is the same. In fact in some ways mutual funds are worse because they buy and sell stocks and bonds over time, not just to rebalance their portfolios but also to deal with redemptions by other investors, and their sales can incur taxes that you have to pay. If you invest via ETFs, though, it’s different. U.S. tax law allows ETFs to adjust their holdings without incurring any taxes. (This oversimplifies. We talked more about the mechanisms in the  “Heartbeats” section here; they involve “authorized participants” doing in-kind trades where they exchange the underlying assets for shares of the ETF in tax-exempt transactions.) So the way an ETF works is roughly:	You have money that you don’t need now but will need in 20 years to pay for your kids’ college or whatever.	You buy shares in an ETF, which holds some underlying assets.	The ETF changes the assets that it holds from time to time.	But you don’t pay taxes when that happens.	In 20 years you sell your ETF shares, pay taxes on any gains (what your ETF shares are worth minus what you paid for them), and use the money to pay for college or whatever.This is much neater. You pay taxes only at the end, when you have gains you can enjoy. I am somewhat exaggerating the benefits here, because most ETFs are specific to some asset class or sector. So you might buy a Stocks ETF and a Bonds ETF, and as stocks go up you will sell some of the Stocks ETF and buy more of the Bonds ETF, and that will incur taxes just as if you’d sold some stocks and bought some bonds. (On the other hand the Stocks ETF can get rid of some stocks and add other stocks without incurring taxes.)But in principle you could have an ETF that is like the Everything You’ll Ever Need ETF, and it does all of the rebalancing for you, without you ever paying taxes until you sell. In practice, you probably won’t find exactly the Everything You Specifically Will Ever Need to Pay for College in 20 Years ETF, but there are Giving You Some Target Allocation to Stocks and Bonds and Rebalancing Periodically ETFs that sort of gesture in this direction.It is kind of a weird feature of the ETF industry and the U.S. tax code that this works, but it does. I  once wrote:My view of the situation is not only that “an ETF is a mutual fund that doesn’t pay taxes,” but also that everyone accepts that. There just seems to be broad agreement among investors and regulators and policymakers that an ETF is supposed to be tax-efficient, that ETF investors get to defer capital gains until they sell their shares.Anyway. People want a Bitcoin ETF, a pot of investor money that will go out and buy Bitcoins. Why do they want this? Not for the tax efficiency; a Bitcoin ETF — a pot that buys Bitcoins — is not especially tax-efficient for its holders. (If you buy Bitcoin directly and it goes up, you pay taxes when you sell; the same is true if you buy shares of a Bitcoin ETF.) They want a Bitcoin ETF because, for a lot of investors, holding Bitcoins in the form of an ETF is nicer and safer and easier than  holding Bitcoins in the form of Bitcoins. You might trust the traditional financial system — your broker and the ETF provider and its custodian — to hang onto your Bitcoins more than you trust a Bitcoin exchange or your own ability to  remember your private key. You might prefer to trade on the stock exchange rather than on a Bitcoin exchange. Other people might disagree, of course, but it seems clear there is a lot of institutional and retail demand for this sort of thing.So people keep applying to list Bitcoin ETFs, and the U.S. Securities and Exchange Commission keeps saying “hmmm I dunno about that.” The SEC is skeptical of Bitcoin ETFs for reasons having to do with volatility and liquidity and transparency in the underlying markets. Meanwhile there is a U.S. exchange-listed thing that provides Bitcoin exposure, the Grayscale Bitcoin Trust, a closed-end fund that owns Bitcoin but does not have a standard ETF arbitrage mechanism and so often trades at a premium or discount to its net asset value. If you want to buy Bitcoin on a U.S. stock exchange, Grayscale is an approximate way to do it, and people do; it now has about $23.8 billion of assets under management.But what if you wanted a Bitcoin ETF specifically for tax efficiency? You might want to allocate 10% of your portfolio to Bitcoin. So you might go out and buy $100 of Bitcoin and $900 of stocks, or whatever. Then the next day Bitcoin doubles and stocks go up a bit and you have $200 of Bitcoin and $901 of stocks. Great news! But to get back to 10% you have to sell $90 of Bitcoin, at a profit, giving you a taxable gain. Now you have, say, $991 of stocks, $110 of Bitcoin, and a $30 tax bill. The next day Bitcoin falls by 50% and stocks go up a bit and you have $55 of Bitcoin and $992 of stocks. Now you have to sell some stocks (at a tiny gain) to buy more Bitcoin, and your tax bill goes up. Every wild swing of Bitcoin’s price — of which there are a lot — is a tax event for you if you are trying to remain balanced.Obviously lots of investors will not want to remain balanced, and if Bitcoin keeps going up they will be perfectly happy to have a growing allocation to Bitcoin until they cash out to buy Lamborghinis (and pay taxes). But part of the mainstream adoption and normalization of Bitcoin will be fitting it into the balanced-portfolio strategies of boring traditional investors. Plop the strategy into an ETF and the problem should go away.[6] Here is the proposed Simplify U.S. Equity PLUS GBTC ETF, and here is a description from Simplify’s chief strategist:By offering an exposure equal to 100% of U.S. Equities plus a 10% additional allocation to the underlying asset in the Grayscale Bitcoin Trust (GBTC), an advisor can select an allocation that matches the desired risk tolerance of clients while eliminating the need for the [advisor] to buy and sell the exposures to maintain a stable allocation to GBTC. Simplify manages the portfolio by rebalancing quarterly to maintain a more consistent risk profile in the client account; by doing so within an ETF structure, issues of tax calculation, withholding, and reporting are radically simplified for US investors. Given the much higher volatility of the Grayscale Bitcoin Trust versus the S&P500, this is not a trivial benefit ….It’s an S&P 500 index ETF plus some Grayscale, rebalanced quarterly. If you hear “Bitcoin ETF” and think “a way to buy Bitcoin on the stock exchange without the annoyance of direct Bitcoin investing or the tracking error of Grayscale,” this is not what you want: This thing is mostly not Bitcoin (it’s mostly an S&P 500 index fund), and to the extent it is Bitcoin it incorporates Grayscale’s tracking error.[7] On the other hand if you hear “Bitcoin ETF” and think “a way to invest in Bitcoin but without paying taxes along the way” then this is closer to what you want, because deep down that’s often what ETFs are. TaxisWe talk a surprising amount around here about the fact that, when investors and analysts talk to the managers of companies, their investment decisions and analyses are better. When a mutual fund manager meets with a company and then buys its stock, the stock is  more likely to go up than if she bought it without meeting with the company. Or, when a sell-side research analyst meets with a company and then issues an earnings forecast, that forecast is more likely to be right than if she issued it without meeting with the company. On the one hand, how could it not work this way? These people are busy professionals; they would not bother meeting with companies if it did not help with their work.[8] Companies are complicated; having a nuanced face-to-face discussion and being able to ask questions will add insight that you can’t get from public information. Both investing and corporate management are mostly about the future; you can learn more about the company’s future from talking to its managers about their plans than you can from its backward-looking financial statements and heavily lawyered public filings.On the other hand, how can it work this way? In the U.S., Regulation FD says that companies are not supposed to share material nonpublic information with analysts or investors unless they simultaneously disclose it publicly. Regulators pay a lot of lip service to the idea of a level playing field for investors, in which everyone has access to the same information at the same time. But some investors and analysts get to meet with the executives of public companies, and others don’t, and if those meetings are helpful then the playing field is not level. Also if those meetings are helpful then they are arguably illegal: “Helpful” arguably means the same thing as “material,” and if companies are giving out material information in these meetings then they’re breaking the rules.We  talked in March about a U.S. Securities and Exchange Commission enforcement action against AT&T Inc. for allegedly calling up sell-side research analysts and getting them to update their earnings forecasts. Talking to AT&T helped those analysts make better forecasts, exactly as you’d expect, but the SEC concluded it was illegal, as you might also expect. (AT&T disagreed.) Or I have  frequently  quoted Justice Sonia Sotomayor, during a Supreme Court argument about insider trading, saying “there’s regulations to stop that, talking to analysts.”So while it’s the most obvious thing in the world, hardly worthy of comment, that investors and analysts talk to companies and learn things, it is also a scandal, an awkward thing to say in polite company, something that the U.S. legal establishment can’t quite believe. So I’m always happy to mention empirical confirmations of this obvious fact.Here’s a fun one:This study constructs a novel measure that aims to capture face-to-face private communications between firm managers and sell-side analysts by mapping detailed, large-volume taxi trip records from New York City to the GPS coordinates of companies and brokerages. Consistent with earnings releases prompting needs for private communications, we observe that daily taxi ride volumes between companies and brokerages increase significantly around earnings announcement dates (EAD) and reach their peak on EAD. After controlling for an extensive set of fixed effects (firm-quarter, analyst, and year) and other potential confounding factors, we find that taxi rides undertaken around EAD are negatively associated with analysts’ earnings forecast errors in periods after EAD. Analysts having more taxi trips around EAD also issue more profitable recommendations after EAD (but these effects dissipate over longer horizons). Our results suggest that analysts may obtain a private source of information orthogonal to their pre-existing information from these in-person meetings, which may help them better understand the implications of current earnings signals for future earnings.That’s the abstract to “Inside the Black Box of Private Communications: Evidence From Taxi Ride Patterns Between Managers and Analysts in New York City,” by Stacey Choy and Ole-Kristian Hope of the University of Toronto’s Rotman School of Management. The New York Taxi and Limousine Commission releases data on taxi trips with a six-month lag. You can map where in New York sell-side research analysts work, and you can map the headquarters of the New York-based public companies that their brokerages cover, and you can count the taxi rides between the brokerages and the companies. The taxi rides increase around earnings:Consistent with earnings releases prompting a need for private communications, we find that ride volumes increase significantly around EAD and reach their peak on the day of the earnings announcement. The increase is economically meaningful; the weekly mean of ride volumes around EAD increases by 7.2% compared to four weeks before EAD. Moreover, consistent with taxi rides capturing sell-side analysts’ activities, we find that the magnitude of increases in ride volumes between a company and broker is significantly greater for brokers having analyst coverage of companies than for those without such coverage.And they are correlated with better earnings forecasts:Consistent with our prediction, we find that private meetings around EAD are significantly negatively associated with analysts’ earnings forecast errors issued in the post-EAD period. These findings are based on multivariate regressions that control for an extensive set of fixed effects, including firm-quarter, analyst, and year fixed effects, as well as a number of time-varying controls, making the possibility of correlated omitted variables less likely. The decreases are also economically meaningful; a one standard deviation increase in taxi ride volumes is associated with a 10% decrease in forecast errors for an average analyst. ...The inferences hold after controlling for information events around EAD, such as earnings surprises, earnings guidance, and 8-K filings, as well as analysts’ existing information set proxied by their prior forecast errors. Thus, taxi trips allow analysts to access a private source of information orthogonal to their pre-existing set of private and public information. I am not sure how many taxi rides you’d really need to talk to a company about its earnings release — I suspect the median and mode are zero, though I guess two is also possible — but the intuition checks out. And here is a gesture at Regulation FD:While managers have limited ability to convey material non-public information to analysts in private settings under Regulation Fair Disclosure (Reg FD), the unclear definition of materiality allows managers considerable leeway in helping analysts fill in their “mosaic view” of the companies (SEC 2000; Soltes 2018). Thus, private communications may improve the accuracy of analysts’ earnings forecasts and enhance the quality of their stock recommendations by providing analysts with likely non-material pieces of information that can become material, when taken together, within the context of other public and private information that they already have. For example, private communications around EAD could provide analysts with additional details and contexts into firm news and future developments, enabling them to better understand the implications of current earnings signals for future earnings.I don’t know what it could possibly mean to give analysts “likely non-material pieces of information that can become material, when taken together, within the context of other public and private information,” but a lot of securities lawyers think they know what it means so that’s good enough I guess.Congrats Deutsche Bank!Here’s  a Bloomberg story about how Deutsche Bank AG provided a lot of margin financing to a risky client, but demanded a reasonable amount of collateral, monitored the position closely and, when the client blew up, was able to get out of its positions without losing any money. There were a few scary days but ultimately it worked out.I think that this is a good story: If you don’t occasionally blow a client out and almost lose money on your margin financing, you are probably turning away business unnecessarily; if you almost lose money but don’t, that means that your risk management is well calibrated and your trading is smart. Good good. But you could imagine someone telling it as a bad story: Deutsche Bank almost lost a lot of money, it was taking a lot of risks, it had some scary days, if things had gone a little differently it would have lost money, etc. etc.But everything is relative. This is a good story, in Bloomberg’s telling, because: 	The Deutsche Bank of not all that long ago would have actually lost a bunch of money in embarrassing fashion, and	Several other banks did lose money in an embarrassing fashion on this same trade,   the blowup of Archegos Capital Management.So Deutsche Bank looks great compared to Credit Suisse Group AG, or compared to the old Deutsche Bank:So as Archegos’s collapse slammed rivals with more than $10 billion of losses, Deutsche Bank walked away without a scratch, reporting its highest profit in seven years. It was enough to stun longtime observers of the firm, which has spent the past decade-and-a-half stumbling from one crisis to the next. The escape added to a growing sense that [Chief Executive Officer Christian] Sewing may finally be moving Germany’s largest bank past its dysfunction of the last decade. …Deutsche Bank had run up an exposure worth several billions of dollars, according to people familiar with the matter. But it hadn’t lent as aggressively and its arrangement with Archegos allowed it to ask for more collateral to back up what looked like an increasingly imbalanced house of cards.The German bank had decided two years earlier to exit the business with hedge funds and family offices — known as prime brokerage — and was in the process of transferring its relationships to BNP Paribas SA. That gave Ashley Wilson, the head of the unit, and risk chief Stuart Lewis even more reason to keep things in check. The bank, which was conducting daily analyses of Archegos’s holdings, had noticed already in February that concentration risk was rising. In early March, it started to request more collateral, the people said, asking for anonymity discussing internal information. ...When it became clear on Friday that rivals were cutting their lifelines and getting out, Lewis got on a 20-minute call with his team, and the bank decided to liquidate. The firm’s traders sold most of the positions that Friday to multiple buyers including Marshall Wace, one of Europe’s largest hedge fund managers. The bank used direct sales, aiming to avoid spooking the markets. Within a few days, it recovered all of its money and even had some collateral left.It is so rare that a bank can take a victory lap for “we did not get blown up on a margin loan.” You are not supposed to get blown up on a margin loan! But when you have a history of getting blown up, and your competitors get blown up, and you don’t, then everyone will call to congratulate you and you’ll get a nice profile like “Deutsche Bank: Not Blown Up This Week.”Even better, Deutsche Bank is apparently taking a victory lap for not wiring $900 million to hedge funds by accident:Inside the bank, many still worry that the next accident is just around the corner. Last month, a lawyer representing Citigroup Inc. in a case related to its mistaken transfer of $900 million revealed that another unnamed bank had recently made a similar mistake. Only three years earlier, Deutsche Bank had erroneously transferred a much bigger sum to an outside account. Now, the first thought for many at the German lender, according to one executive, was: “Was it us?”  It was not! Nice work.Honestly it is good work. A basic problem in finance is that it is just as good to avoid a $1 billion loss as it is to make a $1 billion gain, but the rewards are so asymmetric. If you make a $1 billion gain, everyone will notice, you will have a $1 billion P&L, you will be a hero and you’ll get a big bonus. If you avoid a $1 billion loss, no one will notice because there won’t be a $1 billion loss.  Your P&L will be flat, you will be criticized for doing nothing (if you run a business that didn’t do the thing that would have caused the loss) or for getting in the way (if you are a risk manager who stopped the business from doing the thing that would have caused the loss), you will be scorned as uncommercial and you won’t get a bonus. It is rare for there to be a highly public counterfactual, a clear case of “this bank could have lost a billion dollars but did smart things and didn’t.” And it’s nice, for a bank, to pat itself — and its risk managers — on the back when that happens.Things happenIssuance of Bundles of Risky Loans Jumps to 16-Year High. Oil Majors Look to Fill Businesses’ Growing Appetite for Green Power. Fast-Cash  House Flippers Flood Poor Neighborhoods in U.S. Lordstown Motors Says It Needs to Raise Cash, Lowers Production Forecast. Goldman wins approval for wealth management deal in China. “The last thing Adrian wants to do is party.”If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Technically many of these funds buy the highest-*ESG*-rated oil companies, and those companies might get their high ESG ratings primarily from social and governance factors, but you get the idea.[2] I realize that this sort of Bitcoin provenance tracing doesn’t make a ton of sense, but part of my point is it doesn’t have to![3] I made up that number; the point is that you need some legibility about power usage and sources before you can even say things like this.[4] With Bitcoin there is another important move, which is to claim that Bitcoin actually moves the electric grid in the direction of cleaner energy. To some extent this is a version of the move I describe in the text, shifting from a bad conversation about absolute values to a good conversation about rates of change. It is also, though, a bolder factual claim, and it might be easier to say “well Bitcoin is getting a bit greener” than “well Bitcoin is making the world greener.”[5] If your “asset class” definition is “crypto” you might try to invest in cryptocurrencies that use less energy than Bitcoin (proof-of-stake, etc.), but in practice you have the problem that Bitcoin is very big and popular, so finding a way to invest in Bitcoin and call it clean is more desirable. [6] The mechanism is not literally “an ETF is a mutual fund that doesn’t pay taxes”; you need to find authorized participants to do the correct creation and redemption trades to avoid taxable events on rebalancing. One assumes that Simplify can.[7] “As Grayscale is a closed-end fund, if it is trading at a premium or a discount to NAV, Simplify will purchase a target exposure to the underlying cryptocurrency asset that matches the target allocation of the portfolio,” notes Simplify’s chief strategist. “This means that if Grayscale is trading at a discount to NAV, as it currently is, clients will purchase additional Bitcoin; if trading at a premium, exposure will be lower.”[8] You could have contrary theories. Sell-side analysts might meet with companies solely to befriend them so they can introduce investors to them (though you still need a theory for why the investors want to meet them). Investors might meet with companies solely because it’s more fun for them than sitting at a desk looking at spreadsheets, or because it helps them explain their investment process to their clients, or because it seems like it should help and they are deluded about how much it actually does. These are all essentially behavioral theories about *someone* acting irrationally, and you might expect them to be arbitraged away. And of course there are plenty of quanty investment firms that conclude that meeting with companies is a waste of time, at least for them.
-    
-  
 
 
-    
-      
+
+
+
+
         Follow Us
-        
-          
-        
-        
-          
-        
-        
-          
-        
-      
-      
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
           Get the newsletter
-        
-      
-    
 
 
-      
-      
-  
-    
+
+
+
+
+
+
+
        
-    
-    
-      
-    
-    
+
+
+
+
+
       Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
-    
-    
+
+
        
-    
-  
 
 
-        
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-    
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ce9hwi.5ofq/47e4c466.gif" alt="" border="0" /></a>

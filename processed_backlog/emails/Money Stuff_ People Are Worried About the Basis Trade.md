@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.A simple model of US Treasury bonds%3Cp%3EBoringly%2010-year%20Treasuries
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Basis trade
-    
-  
+
+
 
 A simple model of US Treasury bonds
   [1]
@@ -122,37 +122,37 @@ In all of the later configurations, the Fed sits somewhere behind the market: Wh
 Subsequent changes to market structure pushed substantial Treasury dealing further beyond the bank regulatory perimeter, leaving public finance increasingly dependent on high-frequency traders and hedge funds — “shadow dealers.” The near-money issued by these intermediaries proved highly unstable in 2020. Policy makers are now focused on reforming Treasury market structure so that Treasuries remain the world’s most liquid asset class. Successful reform likely requires a legal framework that, among other things, supports elastic intermediation capacity through balance sheets that can expand and contract as needed to meet market needs.
 Treasuries can never be a pure long-term buy-and-hold investment for everyone; somebody needs to be ready to buy and sell them. That somebody will need short-term funding, and that short-term funding will create risks, and the Fed will have to stand behind the market to sort out those risks.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Arm IPO
-    
-  
+
+
 
 The standard mechanism of the initial public offering is:
 	A company hires some banks to sell some shares to the public for the first time.	The banks and company get together and come up with some estimate of value and then go out and market the shares at some price range based around that estimate.	They go out to investors, pitch the company, and get orders at different prices.	The goal is to be “oversubscribed,” to have orders for many more shares than they are selling, so that there is demand for the shares once they start trading. The bankers want some investors not to get the shares that they asked for, so that they have to go out and buy them in the market the next day, so that the investors who did get shares have someone to sell to. They want a healthy market, with supply and demand.	The banks work for the company (they get paid a fee by the company), but they have mixed loyalties. The investors who buy the shares are also customers of the banks, often big customers who pay the banks a lot of fees and do a lot of trades with the banks. The banks want their corporate client to be happy, but they also want their investor clients to be happy.	This tension is the point of the IPO: Companies hire banks to do IPOs because the banks have relationships with investors, because the banks are in a web of favors and obligations with the investors that they can use to sell the shares. If the banks were not somewhat looking out for the investor clients, they would not be able to effectively sell the corporate client’s shares. “No conflict, no interest.”	Anyway, at the end of the process the banks come to the company and say, like, “we have gotten a lot of good orders, and we are three times oversubscribed at $53 per share, and five times oversubscribed at $52, and 10 times oversubscribed at $51, and 15 times oversubscribed at $50, so let’s price at $51.”	And then the client says “wait you said we have orders to buy three times the shares we are selling at $53 per share, and you want us to sell the shares at $51? Isn’t that leaving a lot of money on the table?”	And then the bankers say “you don’t understand how this works, it is in your long-term interests and also our long-term interests for the stock to trade well, for it to go up after this offering is complete, and so we want to make sure there’s enough demand. It would be a disaster if the stock dropped on the first day. You will be a long-term repeat user of the capital markets, you will come back to investors for money, you will pay your employees in stock, you want the stock to be attractive and trade up; you don’t want to take every last penny today at the expense of long-term investor relationships.”	This advice is basically not wrong, though it probably implies that investors have longer memories than they actually do.	The company is like “fine $51.”	The stock doubles the next day.
@@ -177,11 +177,11 @@ As well as retaining more than 90 per cent of a company that Son believes will u
 If you sell $5 billion of a $54 billion company and keep the other $49 billion so you can borrow against it later to raise cash, you care a lot more about the long-term value of the company than you do about maximizing today’s sale price.
 Byrne Hobart also  points out that “Arm has a long list of strategic investors in the chip industry who have committed to taking a stake in the company,” and that “a large chunk of [the shares sold in the IPO] will be locked up by these buyers.” This is probably good for the stock price (a lot of the big investors in the IPO won’t be selling the first day), which means that Son could probably get away with being more aggressive in pricing. On the other hand, it means that if he’s more aggressive in pricing he’s getting more money for SoftBank at the expense of Arm’s strategic customers. Ordinarily in an IPO, the banks have relationships with the investors and want to make the investors happy, but the issuer is less interested in that goal. Here Arm probably has stronger relationships with the investors than the banks do.
 
-  
-    
+
+
       Executive pay accounting
-    
-  
+
+
 
 If you are the board of directors of a small ambitious company that intends to disrupt and remake the whatever industry, but has not done so yet, probably the way you should pay your chief executive officer is (1) give her enough cash to pay her rent and (2) promise to make her very rich if the company actually works out. The exact mechanics of that promise are flexible, but one pretty standard approach is:
 	Give her a reasonable cash salary; and	Award her a huge slug of stock options, at the beginning of the journey to disrupting and remaking the industry, that will be worth, like, $5 billion if the company ends up being worth $50 billion. But if the company ends up being worth $0, they’ll be worth zero. And if the company just sort of muddles along doing okay but never really disrupts or remakes anything, they will also be worth zero: They will only pay off if the company gets really big. They are a stretch goal, a huge reward for huge success; they are not meant to reward the CEO comfortably for modest success, but to encourage her to take big swings.
@@ -209,11 +209,11 @@ Yes, right, he had a deal that would pay him a lot of money if he could get the 
 
 In some sense that is the disadvantage of paying your CEO like this: If she takes a big swing and misses and the stock falls rather than rising, she will give up, because there is no hope of achieving the milestones that you set for her. But in another, more accurate, sense that’s why you set the milestones! You wanted the company to take a big swing and disrupt its industry, and if it doesn’t work out you don’t want the CEO sitting around comfortably collecting a big check.
 
-  
-    
+
+
       Don’t put it in email
-    
-  
+
+
 
 One fact of antitrust law is that if you are an executive at a big company, or at a medium-sized company contemplating a merger, you will think things like “we need to grow our market share” or “we need to grind our competitors into dust,” but if you say stuff like that — particularly, if you say it in writing, in emails or memos or presentations — antitrust regulators might find it and sue to break up your company or stop the merger or whatever, and they will use your words to prove that you are doing anti-competitive things to become a monopoly. This is not intuitively obvious to you at all: You are just a normal competitive businessperson looking to do more business; surely trying to gain market share is good for competition, not bad. But there are forms of words, ways of expressing things, that look bad to antitrust regulators, and there are others that don’t, and most normal people don’t know which are which.
   [11]
@@ -231,15 +231,15 @@ During the trial, [Justice Department lawyer Kenneth] Dintzer pressed Varian on 
 It really is a hard problem to solve. One option is you hire the antitrust lawyers and they walk door to door, visiting every person’s office and having an in-person chat impressing on everyone the importance of using the good words and not the bad words. Maybe the antitrust lawyers, like, dress up in hooded robes and play terrifying sound effects and generally try to put on a memorable theatrical presentation (with nothing in writing!) to scare everyone into remembering not to use the bad words. People are gonna forget, and then you have to remind them, not in writing, never in writing. You show up at their office in the robe again, with a scythe, and you point a bony finger at them and in a booming desolate voice you shout “IT’S QUERY SHARE.” Still, even if you never put it in writing, the regulators could ask about it at trial.
 Really this stuff should be taught in college, so that every company can wash its hands of it. The last semester at Wharton everyone should have to take a class called Don’t Put It In Email that is just, like, “we know that when you go out into the world you will occasionally engage in legally ambiguous actions, here are some best practices for not getting in trouble over them, some forms of words and communications methods not to use and some others to use instead.” Then the college is responsible for the “don’t put it in email” instruction, but not for the legally ambiguous actions (Wharton is not starving Google’s competitors of oxygen), while the companies are responsible for the legally ambiguous actions but not for any trainings that look like evidence of a guilty conscience.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 How   Sam Bankman-Fried’s Elite Parents Enabled His Crypto Empire. Fund Giants Muscle In on the $1.5 Trillion   Private Credit Party. ‘Almost All Loans Are Bad’ — Why  Banks Aren’t Lending. After $16bn judgment, Burford’s next battle will be  making Argentina pay. Inside Exxon’s Strategy to  Downplay Climate Change. Goldman Sachs Fires Transaction Banking Chief Moorthy, Other Leaders Over   Lapses. Caesars Entertainment   Paid Millions to Hackers in Attack. X   Unlikely to Win Back Advertisers Before Holiday Season. X Corp. Agrees to Try to Settle Lawsuits Over   Mass Layoffs. Is Chainalysis blockchain tracing “  junk science”?  Gemini Earn Users Could Expect Nearly Full Recovery in Genesis Bankruptcy, DCG Says. Billionaire   Divorces Spur Crackdown by China’s Market Regulator. Golf Digest on weird trading in the stock of a  micro-cap putter company.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Boringly 10-year Treasuries are called “notes” and 20- and 30-years are called “bonds” but let’s not worry about that.
 
 
@@ -261,7 +261,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Obviously Black-Scholes doesn’t work this way but we don’t have to care about that.
 
 
-  [8] Come to think of it, that's 
+  [8] Come to think of it, that's
 the rough order of magnitude of Jimmy Levin’s pay at Sculptor Capital Management Inc. and Sculptor’s market cap, but that’s because publicly traded hedge fund companies really are odd.
 
 
@@ -274,48 +274,48 @@ the rough order of magnitude of Jimmy Levin’s pay at Sculptor Capital Manageme
   [11] I don’t really either, though I have at times in my life seen some lists. My vague impression is that a lot of words like “market share” are bad because a lot of  fights in antitrust are about market definition. The government will say that you are dominant in the market for social media, and   you will say “no we are a tiny fraction of the market for human interaction,” and you’ll argue about what the relevant market is. But if your employees were sending around memos like “we need to increase our market share, we’re currently 35% of social media and want to get to 40%,” then the government can say “see, that’s the correct market.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -326,46 +326,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjh4ge.66jr/56d7dec2.gif" alt="" border="0" /></a>

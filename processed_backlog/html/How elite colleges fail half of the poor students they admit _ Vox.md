@@ -154,7 +154,7 @@ And these problems are happening at the top universities in the country, at mult
 
 Professor and author Anthony Abraham Jack
 
-See More: 
+See More:
 
 * [Education](/web/20250108155244/https://www.vox.com/education)
 * [Life](/web/20250108155244/https://www.vox.com/life)

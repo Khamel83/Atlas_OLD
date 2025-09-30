@@ -12,14 +12,14 @@ Today’s Not Boring is brought to you by… Mercury [ https://substack.com/redi
 Mercury is banking engineered for startups. But they go beyond banking, providing the resources and connections startups need to become success stories. We’ve used Mercury at Not Boring since day 1…and frankly, it’s very rare I see a startup that doesn’t. The company just launched Mercury Raise [ https://substack.com/redirect/ecd0e634-c36a-4540-b038-da66b811c89d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: a comprehensive founder success platform built to remove roadblocks at every step of the startup journey. 
 Access: Get exclusive intros from Mercury to investors, experts, and other founders.
 Fundraising: Submit your deck and get in front of hundreds of active investors looking to invest in companies like yours.
-Community: Attend unfiltered conversations with industry vets and build relationships with other founders at similar stages. 
+Community: Attend unfiltered conversations with industry vets and build relationships with other founders at similar stages.
 Navigating this whole startup thing can be hard and lonely – but with Mercury Raise you don’t have to go it alone.
 Hi friends 👋,
 Happy Tuesday! Fun one today. 
-After starting its life as a controversial company for supporting the US military, Anduril has been proven prescient by the war in Ukraine, the growing threat of China, and its early ability to win contracts from the US and allied militaries. 
+After starting its life as a controversial company for supporting the US military, Anduril has been proven prescient by the war in Ukraine, the growing threat of China, and its early ability to win contracts from the US and allied militaries.
 As a result, the company’s story has been told in numerous newsletters, publications, and podcasts. I’ll put the links at the end, and I highly recommend reading and listening to any or all of them for the full Anduril story. But for today’s essay, I wanted to focus on one piece specifically: Anduril’s acquisitions. 
-Just six years old, Anduril has made a splash with five acquisitions since 2021. I wanted to understand why, and how, they do it. In the process, I learned a ton about the future of defense, Anduril’s ambitions to connect the old way of doing things with the new, and what it takes to build a generational Hard Startup. 
-Full disclosure: I’m an investor in Anduril through an SPV we put together for Not Boring Capital’s LPs, and a big fan of the company, but this isn’t a sponsored deep dive. After their most recent acquisition, I asked them to tell me about their M&A strategy, and I’m excited to share what I learned with you. 
+Just six years old, Anduril has made a splash with five acquisitions since 2021. I wanted to understand why, and how, they do it. In the process, I learned a ton about the future of defense, Anduril’s ambitions to connect the old way of doing things with the new, and what it takes to build a generational Hard Startup.
+Full disclosure: I’m an investor in Anduril through an SPV we put together for Not Boring Capital’s LPs, and a big fan of the company, but this isn’t a sponsored deep dive. After their most recent acquisition, I asked them to tell me about their M&A strategy, and I’m excited to share what I learned with you.
 Let’s get to it.
 Anduril: Acquiring Prime
 The best way to think about Anduril [ https://substack.com/redirect/75ea523d-6018-4a0a-954f-cb29f191870a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is through the series of nested bets the company is making. 
@@ -219,7 +219,7 @@ Palmer Luckey (The Logan Bartlett Show) [ https://substack.com/redirect/d1bae076
 Anduril: Building the Future of Defense (Business Breakdowns) [ https://substack.com/redirect/0890c1ea-6044-4886-8181-e9dcd8ff5220?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 Thanks to Dan [ https://substack.com/redirect/c5e6c88e-a01c-43b2-8e04-cf95d49711e2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing, and to Matthew, Adam [ https://substack.com/redirect/668fb073-2172-4322-ad73-26d3c0ce30cf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and Sofia for letting me see inside the Anduril M&A machine.
 That’s all for today. We’ll be back in your inbox with the Weekly Dose on Friday.
-Thanks for reading, 
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE0zTmpJd01EYzJMQ0pwWVhRaU9qRTJPVFl6TXpjNE5UZ3NJbVY0Y0NJNk1UWTVPRGt5T1RnMU9Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmVTS3BaSlF5YjBOck1pMDVSeWtHczF4bnQxaHZmLW5LM1R3SFdvNGNwWlkmZXhwaXJlcz0zNjVkIiwicCI6MTM3NjIwMDc2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY5NjMzNzg1OCwiZXhwIjoxNjk4OTI5ODU4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.alhj6bVy2THo4hflT11PLSoR3tfL_gKTDr2BK7cBRew?

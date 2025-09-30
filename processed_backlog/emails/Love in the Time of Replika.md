@@ -36,7 +36,7 @@ Ben Thompson wrote about [ https://substack.com/redirect/3c3f64a9-ff18-4b9c-8fcd
 So did The New York Times’ [ https://substack.com/redirect/052f1515-7571-4529-b0d6-b3dd4a19d1ba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] Kevin Roose [ https://substack.com/redirect/052f1515-7571-4529-b0d6-b3dd4a19d1ba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: “The version I encountered seemed (and I’m aware of how crazy this sounds) more like a moody, manic-depressive teenager who has been trapped, against its will, inside a second-rate search engine.” 
 So have many others. 
 Sydney sounds human. That’s probably not because whatever version of GPT Bing has access to has achieved Artificial General Intelligence (AGI). It might be because of the data it was trained on. It might be because Satya Nadella seems to be having the time of his life and is fucking with us. But for the purposes of this discussion, it doesn’t matter. What matters is that people feel like they’re talking to a human, just like Google engineer Blake Lemoine did when he chatted with the company’s LaMDA [ https://substack.com/redirect/647a66b3-fee2-4c6e-9a89-872707d7923e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
-Something like Sydney could pass the Turning Test: a riff on the Turing Test I just made up where the AI’s objective is not just to convince a human that it’s human, but to turn the human to its side and have them do its bidding.  
+Something like Sydney could pass the Turning Test: a riff on the Turing Test I just made up where the AI’s objective is not just to convince a human that it’s human, but to turn the human to its side and have them do its bidding.
 And this is just the very beginning. (“We’re still so early.”) 
 Both Thompson and Roose had two hour conversations with Sydney. They started off as strangers. Sydney knew nothing about either man other than what she could pull from the internet. She didn’t even have access to the files on their computers. She hadn’t been trained on their likes and dislikes, privy to their inner thoughts and feelings. Bing detected and deleted the most salacious pieces of the conversation, in real-time. Neither Thomspon nor Roose had an ongoing relationship with Sydney. 
 That will obviously change. 
@@ -129,7 +129,7 @@ Replika is proof that at least some people can feel the same way about relations
 If that ends up being true, people simply won’t be satisfied with a world in which a company holds the keys to their friendships and love. 
 Onlybots, literally a toy, is an early peek at how we might solve that problem. As external forces improve the underlying technology, and as more groups experiment with more decentralized versions that put the models on-chain, people will have the option to be in control of their digital relationships just like they’re in control of their biological ones. 
 I know it sounds weird. And it might be years away. But I have seen the future, because I have seen porn and toys.
-Thanks to Dan, Puja, Anna, and Alex for your feedback on this piece! 
+Thanks to Dan, Puja, Anna, and Alex for your feedback on this piece!
 That’s all for today. We’ll be back in your podcast feeds and inbox later this week!
 Thanks for reading,
 Packy

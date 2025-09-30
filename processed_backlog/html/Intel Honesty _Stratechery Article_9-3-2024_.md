@@ -7,8 +7,8 @@
 
 The best way to both save Intel and have leading edge manufacturing in the U.S. is to split the company, and for the U.S. government to pick up the bill via purchase guarantees.
 
-  
-  
+
+
 [View in browser](https://stratechery.com/2024/intel-honesty/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2ludGVsLWhvbmVzdHkvIl19LCJleHAiOjE3Mjc5NjI5MTEsImlhdCI6MTcyNTM3MDkxMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.sgJb3LYgr1koKcKyXa0CEl99IjWiEVGTVaBY8jAQdpZ0JBe8DplTn3I5sSE0WN313FCKySDt7qbNL-h2xVbnhL3hi_5rFoR9nDMgwSgDt3AwLAZV4WN1O6QxXKxw9SLRyDrFSGGCmiJzq2n8Z_C53B06lhNt_LPq2fEvSBQpXMk5Fz_dYyXXvJ3kIJ_MSQLE4uKtuAm8U9WV8SU4Jq3qnJY6Ryuo43_kgHh2rXqnZZ9JCw91uoO2FNzbA9YNJQpmQoYgkkYrxDWFsvwFnwBfgmDJVqdpyoJ_rxbKGwLLS3jbf1TNfcLUDXm83OiOh1kxpeuV9Mho52m-lbMsHNhHww)
 [![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
 
@@ -125,22 +125,22 @@ To summarize, there is no market-based reason for Intel Foundry to exist; thatâ€
 
 #### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
 
-  
 
-Subscription Information  
-  
 
-Member: Omar Zoheri  
-Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
-Plan type: Free  
-  
-  
-You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
-  
-[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
-[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyNzk2MjkxMSwiaWF0IjoxNzI1MzcwOTExLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.IqyJG2d447HWDTdHuoRudxG0yDJ1E16l60S9CR0hGa505zsIIQo9Z-rqPtqg5S_OFIkWdCki9JBUX_JapFDD7ypfxsOq5IiFDvVhjnOnsOv0EOLgz9cqs2ijl5qr4F_Rr9rSInLPrG6dfodscF6cJbPjYBByuWjojpuerTGdk6m3YXOVYcN06QW2D96J20zuOwhF2STCTGQXNCIu6Nn_BEsFkza8uMVNwffQQi3W-MDMac8lIp_67pHVEJ1pw4m44y-HZvaEi5PbL_0Ql6UwDY7XfOaqLqhPH48uhiMn0qzpjLyAYbR8IhEEjl_WD2jcbYG6k5zo5LMrjDECy2Uluw%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+Subscription Information
 
-  
+
+Member: Omar Zoheri
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)
+Plan type: Free
+
+
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).
+
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyNzk2MjkxMSwiaWF0IjoxNzI1MzcwOTExLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.IqyJG2d447HWDTdHuoRudxG0yDJ1E16l60S9CR0hGa505zsIIQo9Z-rqPtqg5S_OFIkWdCki9JBUX_JapFDD7ypfxsOq5IiFDvVhjnOnsOv0EOLgz9cqs2ijl5qr4F_Rr9rSInLPrG6dfodscF6cJbPjYBByuWjojpuerTGdk6m3YXOVYcN06QW2D96J20zuOwhF2STCTGQXNCIu6Nn_BEsFkza8uMVNwffQQi3W-MDMac8lIp_67pHVEJ1pw4m44y-HZvaEi5PbL_0Ql6UwDY7XfOaqLqhPH48uhiMn0qzpjLyAYbR8IhEEjl_WD2jcbYG6k5zo5LMrjDECy2Uluw%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.
+
+
 *Â© 2024
 [Stratechery LLC](https://www.stratechery.com),
 2093 Philadelphia Pike #9930, Claymont DE 19703*

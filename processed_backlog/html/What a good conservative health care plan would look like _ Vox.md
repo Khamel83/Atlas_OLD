@@ -89,7 +89,7 @@ The scandal is that the secretive process by which the BCRA was drafted did not 
 
 [The Big Idea](https://web.archive.org/web/20241207141440/http://vox.com/the-big-idea) is Vox’s home for smart discussion of the most important issues and ideas in politics, science, and culture — typically by outside contributors. If you have an idea for a piece, pitch us at [thebigidea@vox.com](https://web.archive.org/web/20241207141440/mailto:thebigidea@vox.com).
 
-See More: 
+See More:
 
 * [Politics](/web/20241207141440/https://www.vox.com/politics)
 * [The Big Idea](/web/20241207141440/https://www.vox.com/the-big-idea)

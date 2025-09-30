@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        So FTX was … illiquid but solvent? Absolutely wild: Cryptocurrency exchange FTX has amassed billions of dollars more than it needs to cover 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        So FTX was … illiquid but solvent? Absolutely wild: Cryptocurrency exchange FTX has amassed billions of dollars more than it needs to cover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       FTX
-    
-  
+
+
 
 So FTX was … illiquid but solvent? Absolutely wild:
 
@@ -101,37 +101,37 @@ Still, doesn’t this feel like a trade? Bankruptcy, for a crypto exchange, (1) 
  Eventually someone will figure out how to do it. Not getting arrested is an important component of the trade, and no one has cracked it yet.
 Finally: What about Sam Bankman-Fried? He got 25 years in prison for causing billions of dollars of losses to FTX’s customers. He argued for a lower sentence on the theory that there were no losses, which I think is wrong both factually (Bitcoin customers lost money) and legally (if you take customer money to buy yourself a house, and then the bankruptcy estate seizes the house, you still weren’t supposed to take the money). But more broadly, he argued from the moment FTX collapsed that it had a liquidity problem, not a solvency problem, that there was enough money there to pay back all the customers, if they would just give him another week or two to work things out. They didn’t. But John Ray had another 18 months to find the money, and he did.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       M&A lending
-    
-  
+
+
 
 A somewhat old-fashioned view of mergers and acquisitions would be:
 	Companies have long-term relationships with banks; each company has one or two banks with which it regularly does a lot of business.	When a company wants to buy another company, it needs to borrow money to pay for it, and it will go to its relationship bank for a loan.	The relationship bank will make the loan with its own money and hold it on its balance sheet.	Therefore, the relationship bank will care a lot about whether the acquisition is good: A good acquisition will make the company better, so it will be able to pay back the loan; a bad acquisition will make the company riskier, so the bank might lose money.	The relationship bank also knows the company well, and can make an informed judgment about whether the acquisition is likely to be good.
@@ -144,11 +144,11 @@ This paper examines corporate mergers and acquisitions (M&A) outcomes under lend
 To me the surprising result is that companies have relationship banks, and those banks scrutinize their mergers before agreeing to lend to them. But I suppose the actual result is that, when a bank fails a Fed stress test, it is more careful about what mergers it lends to.
 Also, there are two ways to fail a stress test: “The quantitative exercise ... evaluates whether [banks] maintain sufficient capital to continue operations throughout times of economic and financial market stress,” while “the qualitative assessment evaluates the capital planning process for the [banks] and looks into their risk management, internal controls, and governance practices.” Qiu and Wang’s “find that the negative effect of bank stress test failures on borrower M&A activities derives mostly from stress test failures based on the qualitative grounds.” Banks don’t get more conservative because they don’t have enough capital; they get more conservative because their supervisors say to them “hey you guys are reckless and undisciplined and need to pull it back a bit.” So they do.
 
-  
-    
+
+
       Gambling
-    
-  
+
+
 
 Last month at Business Insider, Emily Stewart had a good story on a central feature of modern retail financial markets, which I summarized as “young men like to gamble, and being the casino is generally a good business.” For instance, she wrote, “crypto is back again, and this time around, almost nobody is pretending the endeavor is about anything other than ‘number go up.’” I quibbled:
 Well, everyone is pretending. … That’s what’s so weird about all of this. If you are a meme-stock executive or a crypto venture capitalist or Robinhood, you can’t just go on TV and say “yes gambling is fun and legal and we are probabilistically charging people a market-clearing price for entertainment.” You have to talk about how your meme stock is the future of free speech or how crypto is the future of ownership or how retail options trading is the future of retirement savings. “This is all legitimate economic activity,” you have to say, because people are still not entirely used to the idea that gambling is legitimate economic activity.
@@ -166,11 +166,11 @@ Matthew Tuttle, CEO of Tuttle Capital Management who partnered with fund manager
 
 It’s fine, it’s fine, it’s fun to have fun, but you have to know how.
 
-  
-    
+
+
       Sports ownership
-    
-  
+
+
 
 Professional sports is a glamourous business, and people are willing to pay money to be associated with its glamour. Fans will pay money to go to games, television networks will pay money to broadcast games, companies will pay money to put their logos on uniforms, cities will pay money to build stadiums to attract teams, rich people will pay a premium to own teams, etc.; there are all sorts of ways to exchange money for glamour.
 Traditionally the players of the sport are the source of the glamour, and therefore much of the money flows from fans/television/sponsors to them. (Through the owners, who get a cut.) That’s why it’s “professional” sports, because the players get paid. Athletes who can do amazing things generate glamour, which they sell to fans.
@@ -192,17 +192,17 @@ A special NFL committee is meeting to examine the league’s ownership rules. Ta
 
 I am going to be very disappointed if, by 2027, the New York Jets do not have a quarterback on loan from Apollo.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 FDIC Investigation Finds Culture Rife With Sexual Harassment, Discrimination. Americans Are Racking Up ‘
 Phantom Debt’ That Wall Street Can’t Track. JPMorgan, Nomura Limit Segantii Exposure on Hong Kong Case. Deutsche Bank’s DWS inflated client asset inflows by billions of euros. R.F.K. Jr. Says Doctors Found a Dead Worm in His Brain.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Don’t take that number too seriously. Sam Bankman-Fried’s 
+
+  [1] Don’t take that number too seriously. Sam Bankman-Fried’s
 terrifying mid-November spreadsheet listed about $8.9 billion of liabilities. My $8 billion comes from the number for “Class 5A Dotcom Customer Entitlement Claims” on page 14 of the disclosure statement, representing customer assets on the main (FTX.com) exchange. There’s another $168 million of FTX.US customer claims, $642 million of “Digital Asset Loan Claims,” and various other business claims, plus billions more of government/tax claims.
 
 
@@ -227,48 +227,48 @@ terrifying mid-November spreadsheet listed about $8.9 billion of liabilities. My
   [8] My understanding is that ultimately the creditors got most or all of the excess there, but for a while it looked bad for them and good for the exchange’s founder and equity owner.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -279,46 +279,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl0tuc.5hsn/1121545c.gif" alt="" border="0" /></a>

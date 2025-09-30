@@ -15,7 +15,7 @@ Or search for something new:
 
 Search
 
-Search to find a office, self-service kiosk, and community partners. 
+Search to find a office, self-service kiosk, and community partners.
 
 
 

@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         There are different ways to buy a stock index. You can just pay cash to buy all the stocks in the index. You can buy an exchange-traded fund
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       One-day lookback
-    
-  
+
+
 
 There are different ways to buy a stock index. You can just pay cash to buy all the stocks in the index. You can buy an exchange-traded fund that holds all the stocks in the index. Or you can do an equity index swap: You sign a contract with a bank in which the bank promises to pay you the return on the index over some term. If the index is at 100 today, and you do a $10 million one-year swap with a bank, and then the index is at 108 in a year, then the bank pays you $800,000 (the index’s 8% return on the $10 million notional amount). If the index is at 93 in a year, you pay the bank $700,000.
 The swap is approximately like the bank lending you the $10 million to buy the index: You don’t put up the $10 million upfront,
@@ -112,37 +112,37 @@ And did not explain why it liked them so much:
 Furthermore, communications show that Goldman personnel believed that the less the clients understood about the economics of the same-day swaps, the more profit Goldman could make. As a Goldman trader told a Goldman salesperson, disclosing more detail about same-day swaps “makes it easier for them to squeeze us; we usually just say we have an axe.”
 The CFTC concludes that Goldman’s comparison of its T+0 prices to the standard T+1 mid-market price was misleading, and that all of this violated Goldman’s obligation “to communicate with counterparties in a fair and balanced manner based on principles of fair dealing and good faith.” Which, yes, fine. It is a bit of a gray area, but if you are a big bank swaps dealer, and you are smarter than your clients, you cannot abuse that advantage too much; this apparently went too far. 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       J&J
-    
-  
+
+
 
 Earlier this year, Johnson & Johnson’s baby-powder division was thrown out of bankruptcy court for not being bankrupt enough. What happened is that J&J sold baby powder with talc in it, and people started suing J&J, alleging that the talc caused cancer. J&J has always denied these claims, but it lost some of these cases and had to pay huge damages. More cases were coming, and to get out ahead of them, J&J decided to go to bankruptcy court. It used a  “Texas two-step” merger to separate out its talc liabilities into a new subsidiary called LTL Management LLC, and then had LTL file for bankruptcy.
 There are obvious benefits of this for J&J. For one thing, the bankruptcy filing would let J&J handle all of its talc claims in one case, instead of litigating against different plaintiffs in different courts. Also J&J presumably expected the result to be cheaper: Bankruptcy courts are in the business of working out negotiated plans to pay all similar claimants the same amount, while going to a bunch of jury trials in different courts ran the risk of getting a bunch of different multibillion-dollar verdicts. Juries sometimes award huge damages to send companies a message, while bankruptcy courts kind of don’t.
@@ -167,11 +167,11 @@ Here is the (new)  bankruptcy docket, and here is the “Debtor’s Statement Re
 These new financing arrangements resolve the concerns that led the Third Circuit to conclude the Debtor’s first chapter 11 case had to be dismissed. … Under the new financing arrangements, J&J’s support is only available in bankruptcy and only if approved by this Court. … As a result, J&J’s balance sheet and liquidity were no longer available to the Debtor before the filing of this second chapter 11 case. J&J’s support, which was always intended to facilitate, not frustrate, a bankruptcy filing by the Debtor now serves its intended purpose.
 Get it? LTL might not have enough money to pay all the talc claims, so it can file for bankruptcy, at which point (but no sooner!) J&J will give it enough money to pay all the talc claims. Unless LTL is kicked out of bankruptcy court again, in which case J&J won’t give it enough money to pay all the talc claims. It is both a clever response to the appeals court’s complaint — “you said LTL wasn’t bankrupt enough, so we made it more bankrupt” — and also a threat: “There is enough money to pay everyone, but only if you let us do it in bankruptcy.”
 
-  
-    
+
+
       Research
-    
-  
+
+
 
 A slight oversimplification of the rules is that in, in the US, it is illegal for brokers to charge clients money directly for investment research, while in the EU it is illegal for brokers not to charge clients money directly for investment research. In the US, brokers provide research for “free,” and clients compensate them for the research by doing trades with them and paying commissions for the trades. The EU dislikes the  potential conflicts of interest in that model,
   [7]
@@ -185,11 +185,11 @@ Banks have resisted investment adviser status because it would restrict them fro
 
 It is a strange little conflict? One way to read the situation is that the SEC doesn’t mind forcing brokers to register their research arms as investment advisers with fiduciary duties to the research customers. The SEC has historically been a little suspicious of sell-side investment research, and the main suspicion is that sometimes research analysts seem to  recommend stocks for reasons other than that they think the stocks will go up. (To  maintain corporate access, for instance, or historically to  win investment banking business.) It would be hard for the SEC to write new rules saying that research analysts are fiduciaries for the people who read their reports, but it’s possible that European regulators have done that work for the SEC.
 
-  
-    
+
+
       Oxy
-    
-  
+
+
 
 You could have a model of carbon emissions that goes like this:
 	As the world becomes more concerned about carbon emissions, it will become increasingly expensive, illegal, undesirable or impossible to drill, sell or use oil.	Unless we find some way to make all the carbon emissions disappear, in which case oil is fine.
@@ -204,15 +204,15 @@ Oil companies will have to find ways to remove as much carbon dioxide as they em
 
 In the abstract, it is a hard problem to get people to pay for clean air and low carbon emissions: Clean air and stable temperatures benefit everyone, and it’s hard to charge them all; there are free-rider problems. A lot of modern financial and regulatory engineering — emissions regulations, carbon-credit trading, ESG investing, etc. — goes into fixing this problem, putting a price on carbon emissions so that someone will pay for fixing them. Saying “we’re gonna ban oil companies unless oil companies find a way to capture carbon” is in some ways a simpler approach.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Collapse of SVB, Signature Bank Tests the FDIC’s  Executive Reserve Corps. Big US banks expected to report  deposit flight in upcoming earnings. Infinity Q Founder Velissaris Gets   15 Years in Prison for Asset-Value Fraud.   Elizabeth Holmes Will Have to Wait Out Her Appeal in Prison. Former Twitter Executives Sue Platform for  Unpaid Fees.   Winklevoss Twins Lend $100 Million to Their Gemini Crypto Platform. A Little-Known  Stablecoin Gets Big Help From World’s Largest Crypto Exchange. Citadel’s   Ken Griffin Gives $300 Million to Harvard University. “Mr. Christiansen says his farm has been met with  ridicule over his manure’s cost since the Goop mention.”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] You put up some margin, there are collateral terms, etc.; sometimes this   lands people in trouble but it doesn’t concern us here.
 
 
@@ -234,48 +234,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Roughly: When a fund company uses research and pays for it with commissions, the fund’s *clients* pay the commissions (trading costs are charged to the fund) but arguably the fund’s *managers* get the benefits of the research (it is part of their expenses of managing the fund). When the fund company has to pay for the research directly, either the management company eats the cost, or it explicitly and transparently passes it on to its customers.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -286,46 +286,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cij95y.5ind/dc02065c.gif" alt="" border="0" /></a>

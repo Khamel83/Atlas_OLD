@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        One extremely crude but sometimes useful rule of thumb is that a business is worth about 10 times as much as it made this year. If you have 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        One extremely crude but sometimes useful rule of thumb is that a business is worth about 10 times as much as it made this year. If you have
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Pilot
-    
-  
+
+
 
 One extremely crude but sometimes useful rule of thumb is that a business is worth about 10 times as much as it made this year. If you have a hardware store or a dental practice or a newsletter and it made $1 million this year, and you want to sell it to someone else, they should pay you about $10 million for it.
 Oh, I’m kidding! Not literally 10!
@@ -103,37 +103,37 @@ On information and belief, Haslam’s promised under-the-table bonuses to PTC’
 
 What you want is a price mechanism that is like “we’ll pay 10 times EBIT, but we will back out the effects of (1) accounting changes that Berkshire makes and (2) short-term earnings shenanigans that management does.” But it is hard to anticipate and write all of that. Just writing “10 times EBIT” is faster, but it can land you in court.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       “Market”
-    
-  
+
+
 
 In theory, every time one company does a merger with another company, or a private equity firm raises a fund from investors, or a private equity fund borrows money from lenders to do a leveraged buyout, the two sides could negotiate all the details of the merger or fund or loan from scratch. Sit down and think through the deal from first principles: What rights should each side have? Who should have to do what? What could go wrong, and who should bear the risk of each thing that could go wrong? Negotiate each of these points, and then write a contract in elegant prose that reflects your negotiation.
 This never really happens.
@@ -168,11 +168,11 @@ Investors say they are accused of collusion if they try to band together with pe
 
 One other way to influence what is “market” is to band together with peers, say by being the Institutional Limited Partners Association and publishing your own  model private equity fund agreement. “This term is in the model agreement so it must be right” is not quite the same sort of argument as “this term is market so it must be right,” but it has some appeal.
 
-  
-    
+
+
       Lina Khan
-    
-  
+
+
 
 An odd institutional dynamic in US regulation right now is:
 	The regulators — at the Federal Trade Commission and the Securities and Exchange Commission, at least — are unusually aggressive about asserting and expanding their power to regulate.	The courts — and in particular the US Supreme Court — are unusually skeptical of regulation and willing to cut back the power of regulators.
@@ -185,11 +185,11 @@ The concern is hardly misplaced. The past few years have generated several Supre
 
 An FTC that just did traditional FTC stuff might still be constrained by courts that are skeptical of regulation, but an FTC that tries to expand the possibilities of FTC regulation might end up significantly limiting it.
 
-  
-    
+
+
       Trading through it
-    
-  
+
+
 
 One thing that happens, when people get accused of insider trading, is that prosecutors say things like “this guy never traded stock options before, and then he just happened to buy a lot of options on this stock a week before it announced a merger.” Looks suspicious! If you are not an active trader, and you do some well-timed trades, juries are more likely to believe that you got an inside tip.
 On the other hand if you trade options 100 times a day, and some of them work out really well, you can be like “well yes that’s my job, I get a lot wrong but I get some big ones right, nothing suspicious about that.”
@@ -200,16 +200,16 @@ Since being charged by US federal prosecutors in July, the Tavistock Group found
 
 To be fair, Lewis is not actually accused of insider trading in those stocks;   he’s accused of tipping other people (“employees … friends and lovers,” including two of his private jet pilots) who then traded the stocks. Still “oh I have good ideas about those stocks all the time, sometimes I share them with my pilots, but that's never inside information” is I suppose a defense, so he might as well keep going.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Google  Loses Antitrust Case Brought by Epic Games. Goldman   Reshuffles Private Credit in Bid to Double Assets. SBF’s Lawyer Says Client Was   ‘Worst’ Witness He Has Ever Seen. BP Asks U.S. Regulator to Intervene in Escalating  Natural-Gas Feud. Goldman Trader Who Was   Paid $100 Million Since 2020 to Step Down. JPMorgan Is in a Fight Over Its Client’s   Lost $50 Million Fortune. EY Says It’s   Cutting US Jobs, Delaying Start Dates for New Hires. KKR hires bankers after approaches for its  song rights catalogue.  Christmas trees in NYC facing soaring prices — with one costing nearly $1.8K. What It’s Like Working in a Building Shaped Like a   Hot Dog. Vivek Ramaswamy caught on hot mic using bathroom during wild  Elon Musk, Alex Jones X livestream. The Year  Twitter Died. World  Excel Championships. Doritos   Nacho Cheese-Flavored Booze Has Just Become a Reality.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] In particular, the very most obvious earnings multiple is the price/earnings ratio of the S&P 500 Index, which is about 21 or so. So more than 10. 
+
+  [1] In particular, the very most obvious earnings multiple is the price/earnings ratio of the S&P 500 Index, which is about 21 or so. So more than 10.
 
 
   [2] Random anecdote: I occasionally write about how some people (celebrities,  private equity managers, doctors) earn some money each year, but can sometimes *capitalize* their earnings, turning themselves into a business and valuing that business at some multiple of cash flows. (And selling shares in that business.) Often, for illustrative purposes and to make the math easier, I will use 10 as the multiplier. So this year  I wrote: “Let’s say you are a doctor in private practice, you make $500,000 per year, and you have $800,000 in the bank. … If you sell 10% of your practice to a private equity firm, then they will pay you 10% of the present value of your future earnings. … If the private equity firm values your practice at 10 times earnings, then they pay you $500,000 for 10%.” A doctor emailed me to be like “is that your sense of the market multiple from recent transactions,” and I was like “no, I have no idea, I have never bought or sold a medical practice, 10 is just a convenient round number.” And he wrote back “well it’s pretty accurate.” Oh boy is this not any sort of market advice but there you go: 10.
@@ -224,54 +224,54 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] “Market,” as an adjective, is how this is ordinarily expressed by financiers and lawyers, though journalists’ editors don’t like it.
 
 
-  [6] In my career, I worked at a mergers-and-acquisitions law firm where people seemed to keep a lot of deals in their heads, and then at an investment bank where we kept a lot of databases. 
+  [6] In my career, I worked at a mergers-and-acquisitions law firm where people seemed to keep a lot of deals in their heads, and then at an investment bank where we kept a lot of databases.
 
 
   [7] See? The pension person said “insist they are market,” but the FT’s editors didn’t like it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -282,46 +282,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck1obg.5jdr/ffa2c45f.gif" alt="" border="0" /></a>

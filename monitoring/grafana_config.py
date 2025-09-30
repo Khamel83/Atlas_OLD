@@ -16,34 +16,34 @@ from helpers.bulletproof_process_manager import create_managed_process
 
 class GrafanaSetup:
     """Setup and configure Grafana monitoring system"""
-    
+
     def __init__(self):
         self.grafana_user = "grafana"
         self.grafana_group = "grafana"
         self.install_dir = "/opt/grafana"
         self.config_dir = "/etc/grafana"
         self.data_dir = "/var/lib/grafana"
-        
+
     def install_grafana(self):
         """Install Grafana server on OCI VM"""
         print("Installing Grafana server...")
-        
+
         # Add Grafana repository
         repo_content = """
 deb https://packages.grafana.com/oss/deb stable main
 """
-        
+
         with open("/tmp/grafana.list", "w") as f:
             f.write(repo_content)
-            
+
         process = create_managed_process([
-            "sudo", "mv", "/tmp/grafana.list", 
+            "sudo", "mv", "/tmp/grafana.list",
             "/etc/apt/sources.list.d/grafana.list"
         ], "move_grafana_list")
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         # Add Grafana GPG key
         get_key_process = create_managed_process([
             "wget", "-q", "-O", "-",
@@ -59,7 +59,7 @@ deb https://packages.grafana.com/oss/deb stable main
         add_key_stdout, add_key_stderr = add_key_process.communicate(input=key_stdout)
         if add_key_process.returncode != 0:
             raise subprocess.CalledProcessError(add_key_process.returncode, add_key_process.args, output=add_key_stdout, stderr=add_key_stderr)
-        
+
         # Update package list and install Grafana
         process = create_managed_process(["sudo", "apt-get", "update"], "apt_update")
         stdout, stderr = process.communicate()
@@ -69,20 +69,20 @@ deb https://packages.grafana.com/oss/deb stable main
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         print("✓ Grafana installed successfully")
-        
+
     def create_dashboards(self):
         """Create Atlas overview dashboard with key metrics"""
         print("Creating dashboards...")
-        
+
         # Create directory for dashboard JSON files
         dashboards_dir = f"{self.data_dir}/dashboards"
         process = create_managed_process(["sudo", "mkdir", "-p", dashboards_dir], "create_dashboards_dir")
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         # Atlas overview dashboard
         atlas_overview_dashboard = """
 {
@@ -155,10 +155,10 @@ deb https://packages.grafana.com/oss/deb stable main
   "overwrite": true
 }
 """
-        
+
         with open(f"{dashboards_dir}/atlas_overview.json", "w") as f:
             f.write(atlas_overview_dashboard)
-        
+
         # System health dashboard
         system_health_dashboard = """
 {
@@ -248,10 +248,10 @@ deb https://packages.grafana.com/oss/deb stable main
   "overwrite": true
 }
 """
-        
+
         with open(f"{dashboards_dir}/system_health.json", "w") as f:
             f.write(system_health_dashboard)
-        
+
         # Content processing dashboard
         content_processing_dashboard = """
 {
@@ -340,16 +340,16 @@ deb https://packages.grafana.com/oss/deb stable main
   "overwrite": true
 }
 """
-        
+
         with open(f"{dashboards_dir}/content_processing.json", "w") as f:
             f.write(content_processing_dashboard)
-        
+
         print("✓ Dashboards created successfully")
-        
+
     def configure_grafana(self):
         """Configure Grafana with basic settings"""
         print("Configuring Grafana...")
-        
+
         # Create Grafana configuration
         grafana_config = """
 ##################### Grafana Configuration Example #####################
@@ -663,59 +663,59 @@ server_url =
 # If the remote HTTP image renderer service runs on a different server than the Grafana server you may have to configure this to a URL where Grafana is reachable, e.g. http://grafana.domain/.
 callback_url =
 """
-        
+
         config_path = f"{self.config_dir}/grafana.ini"
         with open(config_path, "w") as f:
             f.write(grafana_config)
-            
+
         # Set permissions
         process = create_managed_process([
-            "sudo", "chown", "-R", 
+            "sudo", "chown", "-R",
             f"root:{self.grafana_group}",
             self.config_dir
         ], "chown_config_dir")
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         print("✓ Grafana configured successfully")
-        
+
     def setup_authentication(self):
         """Set up Grafana authentication with simple admin password"""
         print("Setting up authentication...")
-        
+
         # The admin password is set in the config file above
         # This is just a placeholder to indicate the task is complete
         print("✓ Authentication configured with default credentials")
         print("  NOTE: Please change the default admin password after first login!")
-        
+
     def create_systemd_service(self):
         """Configure Grafana systemd service"""
         print("Creating systemd service...")
-        
+
         # Enable and start Grafana service
         process = create_managed_process(["sudo", "systemctl", "enable", "grafana-server"], "enable_grafana_service")
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         print("✓ Systemd service created successfully")
-        
+
     def start_service(self):
         """Start Grafana service"""
         print("Starting service...")
-        
+
         process = create_managed_process(["sudo", "systemctl", "start", "grafana-server"], "start_grafana_service")
         stdout, stderr = process.communicate()
         if process.returncode != 0:
             raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
-        
+
         print("✓ Service started successfully")
-        
+
     def verify_installation(self):
         """Verify Grafana installation and configuration"""
         print("Verifying installation...")
-        
+
         # Check if service is running
         try:
             process = create_managed_process(
@@ -723,7 +723,7 @@ callback_url =
                 "check_grafana_status"
             )
             stdout, stderr = process.communicate()
-            
+
             if stdout.decode('utf-8').strip() == "active":
                 print("✓ Grafana service is running")
                 return True
@@ -738,26 +738,26 @@ callback_url =
 def main():
     """Main function to install and configure Grafana"""
     setup = GrafanaSetup()
-    
+
     try:
         # Install Grafana
         setup.install_grafana()
-        
+
         # Create dashboards
         setup.create_dashboards()
-        
+
         # Configure Grafana
         setup.configure_grafana()
-        
+
         # Setup authentication
         setup.setup_authentication()
-        
+
         # Create systemd service
         setup.create_systemd_service()
-        
+
         # Start service
         setup.start_service()
-        
+
         # Verify installation
         if setup.verify_installation():
             print("\n🎉 Grafana setup completed successfully!")
@@ -768,7 +768,7 @@ def main():
         else:
             print("\n❌ Grafana setup completed but service is not running properly")
             sys.exit(1)
-            
+
     except Exception as e:
         print(f"\n❌ Error during Grafana setup: {e}")
         sys.exit(1)

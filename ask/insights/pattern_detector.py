@@ -40,7 +40,7 @@ class Pattern:
     supporting_evidence: List[str]
     metadata: Dict[str, Any]
     detected_at: str
-    
+
     def __post_init__(self):
         if self.detected_at is None:
             self.detected_at = datetime.now().isoformat()
@@ -58,7 +58,7 @@ class Insight:
     supporting_patterns: List[str]
     actionable_suggestions: List[str]
     generated_at: str
-    
+
     def __post_init__(self):
         if self.generated_at is None:
             self.generated_at = datetime.now().isoformat()
@@ -72,7 +72,7 @@ class PatternAnalysisContext:
     min_confidence: float = 0.5
     include_weak_patterns: bool = False
     focus_areas: List[str] = None
-    
+
     def __post_init__(self):
         if self.pattern_types is None:
             self.pattern_types = ["temporal", "topical", "behavioral", "content", "relationship"]
@@ -83,7 +83,7 @@ class PatternAnalysisContext:
 class PatternDetector:
     """
     Comprehensive pattern detection system for Atlas.
-    
+
     Provides both advanced pattern detection and legacy tag analysis:
     - Temporal patterns (when content is consumed)
     - Topical patterns (what topics are trending)
@@ -92,13 +92,13 @@ class PatternDetector:
     - Relationship patterns (connections between content)
     - Legacy tag pattern analysis for backward compatibility
     """
-    
+
     def __init__(self, metadata_manager=None, config: Dict[str, Any] = None):
         """Initialize PatternDetector."""
         self.config = config or {}
         if not config and load_config:
             self.config = load_config()
-            
+
         # Support both direct injection and automatic initialization
         if metadata_manager:
             self.metadata_manager = metadata_manager
@@ -109,12 +109,12 @@ class PatternDetector:
                     self.metadata_manager = MetadataManager(self.config)
                 except Exception:
                     pass
-        
+
         # Legacy cache support
         self._cache = {}
         self._cache_timestamp = None
         self._cache_ttl = self.config.get("cache_ttl_seconds", 600)  # 10 minutes default
-        
+
         # Pattern detection thresholds
         self.thresholds = {
             "min_occurrences": 3,
@@ -122,7 +122,7 @@ class PatternDetector:
             "correlation_threshold": 0.6,
             "anomaly_threshold": 2.0,  # Standard deviations from mean
         }
-        
+
         # Time period mappings for analysis
         self.period_mapping = {
             "1w": 7,
@@ -132,33 +132,33 @@ class PatternDetector:
             "1y": 365,
             "all": None
         }
-    
+
     # ========================================
     # ADVANCED PATTERN DETECTION METHODS
     # ========================================
-    
+
     def detect_patterns(self, context: PatternAnalysisContext = None) -> List[Pattern]:
         """
         Detect patterns across all available data.
-        
+
         Args:
             context: Analysis context with pattern detection preferences
-            
+
         Returns:
             List of detected patterns ordered by confidence
         """
         if context is None:
             context = PatternAnalysisContext()
-            
+
         if not self.metadata_manager:
             return self._mock_detect_patterns(context)
-            
+
         try:
             # Get data for analysis
             content_data = self._get_content_for_analysis(context)
-            
+
             detected_patterns = []
-            
+
             # Detect different types of patterns
             for pattern_type in context.pattern_types:
                 if pattern_type == "temporal":
@@ -173,65 +173,65 @@ class PatternDetector:
                     patterns = self._detect_relationship_patterns(content_data, context)
                 else:
                     patterns = []
-                
+
                 detected_patterns.extend(patterns)
-            
+
             # Filter by confidence and sort
             filtered_patterns = [
-                p for p in detected_patterns 
+                p for p in detected_patterns
                 if p.confidence >= context.min_confidence
             ]
-            
+
             if not context.include_weak_patterns:
                 filtered_patterns = [p for p in filtered_patterns if p.strength >= 0.5]
-            
+
             filtered_patterns.sort(key=lambda x: x.confidence * x.strength, reverse=True)
-            
+
             return filtered_patterns
-            
+
         except Exception as e:
             print(f"Error detecting patterns: {e}")
             return self._mock_detect_patterns(context)
-    
+
     def generate_insights(self, patterns: List[Pattern] = None) -> List[Insight]:
         """Generate actionable insights from detected patterns."""
         if patterns is None:
             patterns = self.detect_patterns()
-        
+
         insights = []
-        
+
         # Group patterns by type for insight generation
         patterns_by_type = defaultdict(list)
         for pattern in patterns:
             patterns_by_type[pattern.pattern_type].append(pattern)
-        
+
         # Generate insights for each pattern type
         for pattern_type, type_patterns in patterns_by_type.items():
             type_insights = self._generate_insights_for_type(pattern_type, type_patterns)
             insights.extend(type_insights)
-        
+
         # Cross-pattern insights
         cross_insights = self._generate_cross_pattern_insights(patterns)
         insights.extend(cross_insights)
-        
+
         # Sort by confidence and impact
         insights.sort(key=lambda x: self._insight_priority_score(x), reverse=True)
-        
+
         return insights
-    
-    def analyze_trends(self, 
+
+    def analyze_trends(self,
                       focus_metric: str = "volume",
                       timeframe: str = "3m") -> Dict[str, Any]:
         """Analyze trends in content consumption."""
         if not self.metadata_manager:
             return {"error": "No metadata manager available"}
-            
+
         try:
             days = self.period_mapping.get(timeframe, 90)
             content_data = self._get_content_for_analysis(
                 PatternAnalysisContext(analysis_period=timeframe)
             )
-            
+
             if focus_metric == "volume":
                 return self._analyze_volume_trends(content_data, days)
             elif focus_metric == "topics":
@@ -240,28 +240,28 @@ class PatternDetector:
                 return self._analyze_source_trends(content_data, days)
             else:
                 return {"error": f"Unknown metric: {focus_metric}"}
-                
+
         except Exception as e:
             return {"error": f"Trend analysis failed: {e}"}
-    
+
     def get_pattern_summary(self) -> Dict[str, Any]:
         """Get a comprehensive summary of all detected patterns."""
         try:
             patterns = self.detect_patterns()
             insights = self.generate_insights(patterns)
-            
+
             # Pattern type distribution
             pattern_counts = Counter(p.pattern_type for p in patterns)
-            
+
             # Confidence distribution
             high_conf = len([p for p in patterns if p.confidence > 0.8])
             med_conf = len([p for p in patterns if 0.5 <= p.confidence <= 0.8])
             low_conf = len([p for p in patterns if p.confidence < 0.5])
-            
+
             # Insight distribution
             insight_types = Counter(i.insight_type for i in insights)
             impact_levels = Counter(i.impact_level for i in insights)
-            
+
             return {
                 "total_patterns": len(patterns),
                 "pattern_types": dict(pattern_counts),
@@ -283,14 +283,14 @@ class PatternDetector:
                 ],
                 "actionable_insights": len([i for i in insights if i.actionable_suggestions])
             }
-            
+
         except Exception as e:
             return {"error": f"Pattern summary failed: {e}"}
-    
+
     # ========================================
     # LEGACY TAG ANALYSIS METHODS (Backward Compatibility)
     # ========================================
-    
+
     def detect_tag_patterns(self, min_frequency=2):
         """
         Detect tag usage patterns and trends using new MetadataManager methods.
@@ -329,7 +329,7 @@ class PatternDetector:
             self._cache_timestamp = now
 
             return enhanced_patterns
-            
+
         except Exception as e:
             print(f"Error detecting tag patterns: {e}")
             return self._fallback_tag_patterns(min_frequency)
@@ -340,41 +340,41 @@ class PatternDetector:
             import sqlite3
             from urllib.parse import urlparse
             from collections import Counter
-            
+
             conn = sqlite3.connect('atlas.db')
             cursor = conn.cursor()
-            
+
             # Get top sources by domain
             cursor.execute("""
-                SELECT url, COUNT(*) as count 
-                FROM content 
-                WHERE url IS NOT NULL AND url != '' 
-                GROUP BY url 
-                ORDER BY count DESC 
+                SELECT url, COUNT(*) as count
+                FROM content
+                WHERE url IS NOT NULL AND url != ''
+                GROUP BY url
+                ORDER BY count DESC
                 LIMIT ?
             """, (n * 3,))  # Get more to process domains
-            
+
             domain_counter = Counter()
             for row in cursor.fetchall():
                 domain = urlparse(row[0]).netloc or "unknown"
                 domain_counter[domain] += row[1]
-            
+
             top_sources = domain_counter.most_common(n)
-            
+
             # Get content type patterns as "tags"
             cursor.execute("""
-                SELECT content_type, COUNT(*) as count 
-                FROM content 
-                GROUP BY content_type 
-                ORDER BY count DESC 
+                SELECT content_type, COUNT(*) as count
+                FROM content
+                GROUP BY content_type
+                ORDER BY count DESC
                 LIMIT ?
             """, (n,))
-            
+
             top_tags = [(row[0] or "unknown", row[1]) for row in cursor.fetchall()]
-            
+
             conn.close()
             return {"top_tags": top_tags, "top_sources": top_sources}
-            
+
         except Exception as e:
             print(f"Error finding patterns: {e}")
             return {"top_tags": [], "top_sources": []}
@@ -396,7 +396,7 @@ class PatternDetector:
             }
 
             return insights
-            
+
         except Exception as e:
             print(f"Error getting pattern insights: {e}")
             return {"error": f"Pattern insights failed: {e}"}
@@ -405,15 +405,15 @@ class PatternDetector:
         """Manually clear the pattern detection cache."""
         self._cache.clear()
         self._cache_timestamp = None
-    
+
     # ========================================
     # PATTERN DETECTION IMPLEMENTATION METHODS
     # ========================================
-    
+
     def _detect_temporal_patterns(self, content_data: List[Any], context: PatternAnalysisContext) -> List[Pattern]:
         """Detect patterns in timing of content consumption."""
         patterns = []
-        
+
         # Analyze by hour of day
         hourly_counts = defaultdict(int)
         for item in content_data:
@@ -424,17 +424,17 @@ class PatternDetector:
                     hourly_counts[dt.hour] += 1
             except Exception:
                 continue
-        
+
         if hourly_counts:
             # Find peak hours
             total_items = sum(hourly_counts.values())
             avg_per_hour = total_items / 24
             peak_hours = [hour for hour, count in hourly_counts.items() if count > avg_per_hour * 1.5]
-            
+
             if peak_hours:
                 confidence = min(0.9, len(peak_hours) / 24 * total_items / 50)
                 strength = max(hourly_counts.values()) / avg_per_hour if avg_per_hour > 0 else 0
-                
+
                 patterns.append(Pattern(
                     pattern_id=f"temporal_hourly_{datetime.now().strftime('%Y%m%d')}",
                     pattern_type="temporal",
@@ -445,13 +445,13 @@ class PatternDetector:
                     metadata={"peak_hours": peak_hours, "hourly_distribution": dict(hourly_counts)},
                     detected_at=datetime.now().isoformat()
                 ))
-        
+
         return patterns
-    
+
     def _detect_topical_patterns(self, content_data: List[Any], context: PatternAnalysisContext) -> List[Pattern]:
         """Detect patterns in content topics and tags."""
         patterns = []
-        
+
         # Analyze tag frequency and trends
         tag_counts = Counter()
         for item in content_data:
@@ -462,16 +462,16 @@ class PatternDetector:
                         tag_counts[tag.lower()] += 1
             except Exception:
                 continue
-        
+
         # Find popular topics
         total_items = len(content_data)
         popular_tags = [tag for tag, count in tag_counts.most_common(20) if count >= self.thresholds["min_occurrences"]]
-        
+
         for tag in popular_tags:
             if tag_counts[tag] / total_items > 0.1:  # Tag appears in >10% of content
                 confidence = min(0.9, tag_counts[tag] / total_items * 5)
                 strength = tag_counts[tag] / max(tag_counts.values())
-                
+
                 patterns.append(Pattern(
                     pattern_id=f"topical_{tag}_{datetime.now().strftime('%Y%m%d')}",
                     pattern_type="topical",
@@ -482,13 +482,13 @@ class PatternDetector:
                     metadata={"tag": tag, "frequency": tag_counts[tag], "percentage": tag_counts[tag]/total_items},
                     detected_at=datetime.now().isoformat()
                 ))
-        
+
         return patterns
-    
+
     def _detect_behavioral_patterns(self, content_data: List[Any], context: PatternAnalysisContext) -> List[Pattern]:
         """Detect patterns in user behavior and content engagement."""
         patterns = []
-        
+
         # Analyze content type preferences
         type_counts = Counter()
         for item in content_data:
@@ -499,14 +499,14 @@ class PatternDetector:
                 type_counts[content_type] += 1
             except Exception:
                 continue
-        
+
         total_items = len(content_data)
         if total_items > 0:
             for content_type, count in type_counts.most_common():
                 percentage = count / total_items
                 if percentage > 0.3:  # Represents >30% of content
                     confidence = min(0.9, percentage * 2)
-                    
+
                     patterns.append(Pattern(
                         pattern_id=f"behavioral_type_{content_type}_{datetime.now().strftime('%Y%m%d')}",
                         pattern_type="behavioral",
@@ -517,13 +517,13 @@ class PatternDetector:
                         metadata={"content_type": content_type, "count": count, "percentage": percentage},
                         detected_at=datetime.now().isoformat()
                     ))
-        
+
         return patterns
-    
+
     def _detect_content_patterns(self, content_data: List[Any], context: PatternAnalysisContext) -> List[Pattern]:
         """Detect patterns in content sources and types."""
         patterns = []
-        
+
         # Analyze source patterns
         source_counts = Counter()
         for item in content_data:
@@ -540,13 +540,13 @@ class PatternDetector:
                         source_counts[source] += 1
             except Exception:
                 continue
-        
+
         total_items = len(content_data)
         for source, count in source_counts.most_common(10):
             percentage = count / total_items
             if count >= self.thresholds["min_occurrences"] and percentage > 0.15:
                 confidence = min(0.9, percentage * 3)
-                
+
                 patterns.append(Pattern(
                     pattern_id=f"content_source_{source.replace('.', '_')}_{datetime.now().strftime('%Y%m%d')}",
                     pattern_type="content",
@@ -557,13 +557,13 @@ class PatternDetector:
                     metadata={"source": source, "count": count, "percentage": percentage},
                     detected_at=datetime.now().isoformat()
                 ))
-        
+
         return patterns
-    
+
     def _detect_relationship_patterns(self, content_data: List[Any], context: PatternAnalysisContext) -> List[Pattern]:
         """Detect patterns in relationships between content items."""
         patterns = []
-        
+
         # Analyze tag co-occurrence
         tag_pairs = Counter()
         for item in content_data:
@@ -577,20 +577,20 @@ class PatternDetector:
                                 tag_pairs[pair] += 1
             except Exception:
                 continue
-        
+
         # Find strong tag relationships
         for (tag1, tag2), count in tag_pairs.most_common(15):
             if count >= self.thresholds["min_occurrences"]:
                 # Calculate correlation strength
                 tag1_total = sum(1 for item in content_data if hasattr(item, 'tags') and tag1 in [t.lower() for t in item.tags])
                 tag2_total = sum(1 for item in content_data if hasattr(item, 'tags') and tag2 in [t.lower() for t in item.tags])
-                
+
                 if tag1_total > 0 and tag2_total > 0:
                     correlation = count / min(tag1_total, tag2_total)
-                    
+
                     if correlation >= self.thresholds["correlation_threshold"]:
                         confidence = min(0.9, correlation)
-                        
+
                         patterns.append(Pattern(
                             pattern_id=f"relationship_{tag1}_{tag2}_{datetime.now().strftime('%Y%m%d')}",
                             pattern_type="relationship",
@@ -601,37 +601,37 @@ class PatternDetector:
                             metadata={"tag1": tag1, "tag2": tag2, "co_occurrences": count, "correlation": correlation},
                             detected_at=datetime.now().isoformat()
                         ))
-        
+
         return patterns
-    
+
     # ========================================
     # LEGACY TAG ANALYSIS HELPER METHODS
     # ========================================
-    
+
     def _basic_tag_analysis(self, min_frequency: int) -> Dict[str, Any]:
         """Basic tag analysis fallback when MetadataManager doesn't have get_tag_patterns."""
         try:
             all_content = self.metadata_manager.get_all_metadata()
-            
+
             tag_counts = Counter()
             tag_cooccurrences = defaultdict(Counter)
-            
+
             for item in all_content:
                 tags = getattr(item, 'tags', [])
                 for tag in tags:
                     if tag:
                         tag_counts[tag.lower()] += 1
-                
+
                 # Co-occurrence analysis
                 for i, tag1 in enumerate(tags):
                     for tag2 in tags[i+1:]:
                         if tag1 and tag2:
                             tag_cooccurrences[tag1.lower()][tag2.lower()] += 1
                             tag_cooccurrences[tag2.lower()][tag1.lower()] += 1
-            
+
             # Filter by minimum frequency
             filtered_tags = {tag: count for tag, count in tag_counts.items() if count >= min_frequency}
-            
+
             return {
                 "tag_frequencies": filtered_tags,
                 "total_tags": len(filtered_tags),
@@ -640,28 +640,28 @@ class PatternDetector:
                 "trending_tags": [{"tag": tag, "frequency": count} for tag, count in tag_counts.most_common(10)],
                 "tag_source_analysis": {}
             }
-            
+
         except Exception as e:
             print(f"Error in basic tag analysis: {e}")
             return self._fallback_tag_patterns(min_frequency)
-    
+
     def _basic_source_analysis(self, n: int) -> List[Tuple[str, int]]:
         """Basic source analysis fallback."""
         try:
             all_content = self.metadata_manager.get_all_metadata()
             source_counts = Counter()
-            
+
             for item in all_content:
                 content_type = getattr(item, 'content_type', 'unknown')
                 if hasattr(content_type, 'value'):
                     content_type = content_type.value
                 source_counts[content_type] += 1
-            
+
             return source_counts.most_common(n)
-            
+
         except Exception:
             return [("article", 10), ("podcast", 5), ("video", 3)]
-    
+
     def _enhance_with_trends(self, patterns):
         """Enhance patterns with trend analysis over time."""
         enhanced = patterns.copy()
@@ -759,7 +759,7 @@ class PatternDetector:
             visualization["source_distribution"] = source_tags
 
             return visualization
-            
+
         except Exception as e:
             print(f"Error creating visualization data: {e}")
             return {"tag_frequency_chart": [], "co_occurrence_network": [], "tag_timeline": [], "source_distribution": []}
@@ -794,11 +794,11 @@ class PatternDetector:
                         })
 
             return alerts
-            
+
         except Exception as e:
             print(f"Error generating trending alerts: {e}")
             return []
-    
+
     def _fallback_tag_patterns(self, min_frequency: int) -> Dict[str, Any]:
         """Fallback tag patterns when analysis fails."""
         return {
@@ -817,19 +817,19 @@ class PatternDetector:
             },
             "alerts": []
         }
-    
+
     # ========================================
     # INSIGHT GENERATION METHODS
     # ========================================
-    
+
     def _generate_insights_for_type(self, pattern_type: str, patterns: List[Pattern]) -> List[Insight]:
         """Generate insights for a specific pattern type."""
         insights = []
-        
+
         if pattern_type == "temporal" and patterns:
             # Find the strongest temporal pattern
             strongest_pattern = max(patterns, key=lambda p: p.confidence * p.strength)
-            
+
             insights.append(Insight(
                 insight_id=f"temporal_optimization_{datetime.now().strftime('%Y%m%d')}",
                 title="Optimize Content Consumption Timing",
@@ -845,11 +845,11 @@ class PatternDetector:
                 ],
                 generated_at=datetime.now().isoformat()
             ))
-        
+
         elif pattern_type == "topical" and patterns:
             # Find trending topics
             strongest_trend = max(patterns, key=lambda p: p.strength)
-            
+
             insights.append(Insight(
                 insight_id=f"topic_trend_{datetime.now().strftime('%Y%m%d')}",
                 title="Topic Interest Pattern Detected",
@@ -865,17 +865,17 @@ class PatternDetector:
                 ],
                 generated_at=datetime.now().isoformat()
             ))
-        
+
         return insights
-    
+
     def _generate_cross_pattern_insights(self, patterns: List[Pattern]) -> List[Insight]:
         """Generate insights from relationships between different patterns."""
         insights = []
-        
+
         # Find patterns that reinforce each other
         temporal_patterns = [p for p in patterns if p.pattern_type == "temporal"]
         topical_patterns = [p for p in patterns if p.pattern_type == "topical"]
-        
+
         if temporal_patterns and topical_patterns:
             insights.append(Insight(
                 insight_id=f"cross_pattern_{datetime.now().strftime('%Y%m%d')}",
@@ -892,17 +892,17 @@ class PatternDetector:
                 ],
                 generated_at=datetime.now().isoformat()
             ))
-        
+
         return insights
-    
+
     # ========================================
     # TREND ANALYSIS METHODS
     # ========================================
-    
+
     def _analyze_volume_trends(self, content_data: List[Any], days: int) -> Dict[str, Any]:
         """Analyze volume trends over time."""
         daily_counts = defaultdict(int)
-        
+
         for item in content_data:
             try:
                 created_at = getattr(item, 'created_at', '')
@@ -912,29 +912,29 @@ class PatternDetector:
                     daily_counts[day_key] += 1
             except Exception:
                 continue
-        
+
         if len(daily_counts) < 7:
             return {"error": "Insufficient data for trend analysis"}
-        
+
         # Calculate trend
         dates = sorted(daily_counts.keys())
         counts = [daily_counts[date] for date in dates]
-        
+
         # Simple linear trend calculation
         n = len(counts)
         if n < 2:
             return {"error": "Insufficient data points"}
-            
+
         sum_x = sum(range(n))
         sum_y = sum(counts)
         sum_xy = sum(i * counts[i] for i in range(n))
         sum_x2 = sum(i * i for i in range(n))
-        
+
         denominator = n * sum_x2 - sum_x * sum_x
         slope = (n * sum_xy - sum_x * sum_y) / denominator if denominator != 0 else 0
-        
+
         trend_direction = "increasing" if slope > 0 else "decreasing" if slope < 0 else "stable"
-        
+
         return {
             "metric": "volume",
             "period": f"{days} days" if days else "all time",
@@ -945,39 +945,39 @@ class PatternDetector:
             "data_points": len(daily_counts),
             "timeline": dict(daily_counts)
         }
-    
+
     def _analyze_topic_trends(self, content_data: List[Any], days: int) -> Dict[str, Any]:
         """Analyze topic trends over time."""
         # Extract topics/tags and track their frequency over time
         topic_timeline = defaultdict(lambda: defaultdict(int))
-        
+
         for item in content_data:
             try:
                 created_at = getattr(item, 'created_at', '')
                 tags = getattr(item, 'tags', [])
-                
+
                 if created_at and tags:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     month_key = dt.strftime('%Y-%m')  # Group by month for better visualization
-                    
+
                     for tag in tags:
                         if tag:
                             topic_timeline[tag.lower()][month_key] += 1
             except Exception:
                 continue
-        
+
         # Calculate growth rates for each topic
         topic_growth = {}
         for topic, timeline in topic_timeline.items():
             if len(timeline) < 2:
                 continue
-                
+
             dates = sorted(timeline.keys())
             if len(dates) >= 2:
                 # Calculate growth rate between first and last period
                 first_count = timeline[dates[0]]
                 last_count = timeline[dates[-1]]
-                
+
                 if first_count > 0:
                     growth_rate = (last_count - first_count) / first_count * 100
                     topic_growth[topic] = {
@@ -986,11 +986,11 @@ class PatternDetector:
                         "last_period": {"date": dates[-1], "count": last_count},
                         "total_mentions": sum(timeline.values())
                     }
-        
+
         # Identify trending topics (positive growth) and declining topics (negative growth)
         trending_topics = {topic: data for topic, data in topic_growth.items() if data["growth_rate"] > 20}
         declining_topics = {topic: data for topic, data in topic_growth.items() if data["growth_rate"] < -20}
-        
+
         return {
             "metric": "topics",
             "period": f"{days} days" if days else "all time",
@@ -999,20 +999,20 @@ class PatternDetector:
             "total_topics": len(topic_timeline),
             "topic_timeline": dict(topic_timeline)
         }
-    
+
     def _analyze_source_trends(self, content_data: List[Any], days: int) -> Dict[str, Any]:
         """Analyze source trends over time."""
         source_timeline = defaultdict(lambda: defaultdict(int))
-        
+
         for item in content_data:
             try:
                 created_at = getattr(item, 'created_at', '')
                 source = getattr(item, 'source', '') or getattr(item, 'url', '')
-                
+
                 if created_at and source:
                     dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     month_key = dt.strftime('%Y-%m')
-                    
+
                     # Extract domain from URL
                     if '://' in source:
                         domain = source.split('://')[1].split('/')[0]
@@ -1020,22 +1020,22 @@ class PatternDetector:
                             domain = domain[4:]
                     else:
                         domain = source
-                    
+
                     source_timeline[domain][month_key] += 1
             except Exception:
                 continue
-        
+
         # Calculate growth rates for each source
         source_growth = {}
         for source, timeline in source_timeline.items():
             if len(timeline) < 2:
                 continue
-                
+
             dates = sorted(timeline.keys())
             if len(dates) >= 2:
                 first_count = timeline[dates[0]]
                 last_count = timeline[dates[-1]]
-                
+
                 if first_count > 0:
                     growth_rate = (last_count - first_count) / first_count * 100
                     source_growth[source] = {
@@ -1044,11 +1044,11 @@ class PatternDetector:
                         "last_period": {"date": dates[-1], "count": last_count},
                         "total_content": sum(timeline.values())
                     }
-        
+
         # Identify growing and declining sources
         growing_sources = {source: data for source, data in source_growth.items() if data["growth_rate"] > 20}
         declining_sources = {source: data for source, data in source_growth.items() if data["growth_rate"] < -20}
-        
+
         return {
             "metric": "sources",
             "period": f"{days} days" if days else "all time",
@@ -1057,24 +1057,24 @@ class PatternDetector:
             "total_sources": len(source_timeline),
             "source_timeline": dict(source_timeline)
         }
-    
+
     # ========================================
     # HELPER METHODS
     # ========================================
-    
+
     def _get_content_for_analysis(self, context: PatternAnalysisContext) -> List[Any]:
         """Get content data for analysis based on context."""
         if hasattr(self.metadata_manager, 'list_all_content'):
             all_content = self.metadata_manager.list_all_content()
         else:
             all_content = self.metadata_manager.get_all_metadata()
-        
+
         # Apply time filtering
         days = self.period_mapping.get(context.analysis_period)
         if days:
             cutoff_date = datetime.now() - timedelta(days=days)
             filtered_content = []
-            
+
             for item in all_content:
                 try:
                     created_at = getattr(item, 'created_at', '')
@@ -1084,20 +1084,20 @@ class PatternDetector:
                             filtered_content.append(item)
                 except Exception:
                     continue
-                    
+
             return filtered_content
-        
+
         return all_content
-    
+
     def _insight_priority_score(self, insight: Insight) -> float:
         """Calculate priority score for insight ranking."""
         impact_weights = {"high": 1.0, "medium": 0.7, "low": 0.4}
         impact_weight = impact_weights.get(insight.impact_level, 0.5)
-        
+
         actionable_bonus = 0.1 if insight.actionable_suggestions else 0
-        
+
         return insight.confidence * impact_weight + actionable_bonus
-    
+
     def _mock_detect_patterns(self, context: PatternAnalysisContext) -> List[Pattern]:
         """Mock pattern detection when metadata manager unavailable."""
         mock_patterns = [
@@ -1132,38 +1132,38 @@ class PatternDetector:
                 detected_at=datetime.now().isoformat()
             )
         ]
-        
+
         # Filter by requested pattern types
         filtered_patterns = [
-            p for p in mock_patterns 
-            if p.pattern_type in context.pattern_types and 
+            p for p in mock_patterns
+            if p.pattern_type in context.pattern_types and
                p.confidence >= context.min_confidence
         ]
-        
+
         return filtered_patterns
 
 
 if __name__ == "__main__":
     # Example usage
     detector = PatternDetector()
-    
+
     # Detect patterns
     print("Detected Patterns:")
     print("=" * 50)
     patterns = detector.detect_patterns()
-    
+
     for i, pattern in enumerate(patterns, 1):
         print(f"\n{i}. {pattern.description}")
         print(f"   Type: {pattern.pattern_type}")
         print(f"   Confidence: {pattern.confidence:.2f}")
         print(f"   Strength: {pattern.strength:.2f}")
         print(f"   Evidence: {'; '.join(pattern.supporting_evidence[:2])}")
-    
+
     # Generate insights
     print(f"\n\nGenerated Insights:")
     print("=" * 50)
     insights = detector.generate_insights(patterns)
-    
+
     for i, insight in enumerate(insights, 1):
         print(f"\n{i}. {insight.title}")
         print(f"   Type: {insight.insight_type}")
@@ -1172,14 +1172,14 @@ if __name__ == "__main__":
         print(f"   Description: {insight.description}")
         if insight.actionable_suggestions:
             print(f"   Suggestions: {'; '.join(insight.actionable_suggestions[:2])}")
-    
+
     # Legacy tag analysis
     print(f"\n\nLegacy Tag Analysis:")
     print("=" * 50)
     tag_patterns = detector.detect_tag_patterns(min_frequency=2)
     print(f"Total tags: {tag_patterns.get('total_tags', 0)}")
     print(f"Top tags: {list(tag_patterns.get('tag_frequencies', {}).items())[:5]}")
-    
+
     # Pattern summary
     print(f"\n\nPattern Summary:")
     print("=" * 50)

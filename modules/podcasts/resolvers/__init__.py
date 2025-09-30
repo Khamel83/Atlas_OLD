@@ -7,7 +7,7 @@ from .generic_html import GenericHTMLResolver
 
 __all__ = [
     'YouTubeTranscriptResolver',
-    'NetworkTranscriptResolver', 
+    'NetworkTranscriptResolver',
     'RSSLinkResolver',
     'GenericHTMLResolver'
 ]

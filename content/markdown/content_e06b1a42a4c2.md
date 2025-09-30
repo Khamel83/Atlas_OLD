@@ -100,8 +100,8 @@ FSATracker.init({"account":"741412", "endpoint":"https://analytics.formstack.com
           var s = document.getElementById('sleeknoteScript');
          s.parentNode.insertBefore(sleeknoteScriptTag, s);
      })();</script> <!-- End of Sleeknote script --></head><body class="wp-singular podcast-template-default single single-podcast postid-84097 wp-theme-80000hours sidebar-toc-enabled feature-flag--2021-08__sidebar-toc-on-sm-and-xs-viewports header-visible url--podcast__episodes__kevin-esvelt-stealth-wildfire-pandemics" > <a id="top" class="link-anchor"></a><div id="header" class="navbar-fixed-top"><header class="wrap-header banner navbar navbar-default" role="banner"><div class="container"><div class="row"><div class="col-sm-12 col-md-2 col-mobile-nav"><div class="container-mobile-nav"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" onClick="if (!window.__cfRLUnblockHandlers) return false; $('.toggleIcon').toggle()" data-cf-modified-183d68ff4fdb4307db4578ac-=""> <span class="sr-only">Toggle navigation</span><div class="navbar-toggle--hamburger toggleIcon"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></div><div class="navbar-toggle--hamburger toggleIcon" style="display: none;"> <span class="icon-x"></span> <span class="icon-x"></span></div> </button><form id="primarynav-searchform" role="search" method="get" action="/search/"
- class="visible-xs"> <label class="sr-only">Search for:</label> <!-- Include the tabindex property so that this element can be the event.relatedTarget 
- on Safari, for use in the below 'onblur' listener. 
+ class="visible-xs"> <label class="sr-only">Search for:</label> <!-- Include the tabindex property so that this element can be the event.relatedTarget
+ on Safari, for use in the below 'onblur' listener.
  Source: https://stackoverflow.com/questions/42764494/blur-event-relatedtarget-returns-null
  --><div tabindex="0" class="input-group" id="primarynav-searchinputgroup"> <input style="font-size:16px" type="search" name="q" id="primarynav-searchinput"
  class="no-autocomplete form-control" placeholder="Search"
@@ -111,7 +111,7 @@ FSATracker.init({"account":"741412", "endpoint":"https://analytics.formstack.com
               $('#secondarynav-searchinput').val($(this).val());
             });
 
-/** 
+/**
              * Note: The complexity of this IIFE comes from the fact that we're using the same
              * button for both focusing the input and submitting the search. If this logic
              * becomes problematic, it might be worth refactoring to make two separate buttons,
@@ -150,7 +150,7 @@ const searchForm = document.querySelector('#primarynav-searchform');
                 }
               });
 
-/** 
+/**
                * Add an event listener to handle submitting the search form (by focusing the input or
                * submitting the search).
                */
@@ -297,13 +297,13 @@ function toggleCollapseSmallScreen($this) {
         var secondaryNav = document.querySelector(".col-header-search .navigation-secondary");
 
 searchInput.addEventListener("focus", event => {secondaryNav.style.display = "none"});
-        searchInput.addEventListener("blur", 
+        searchInput.addEventListener("blur",
           // Wait .25 seconds for the shrinking animation of the search input
-          // to complete (this transition time is set in _header.less), then 
-          // appear. Appearing before the search input has shrunk causes the 
+          // to complete (this transition time is set in _header.less), then
+          // appear. Appearing before the search input has shrunk causes the
           // header bar to overflow onto two lines.
           event => setTimeout(function() {secondaryNav.style.display = "block"}, 250)
-        );  
+        );
       }());</script></div></div></div></div></div><div class="wrap" role="document"><main class="wrap" role="main"><style type="text/css">@media  {        .eightyk-header .featured-image  {
         background-image: url(https://80000hours.org/wp-content/uploads/2023/10/Gas-mask-2-Kev-E-1024x585.png);
       }
@@ -338,7 +338,7 @@ if (placeholders.length === 1) {
             var placeholder = placeholders[0];
             placeholder.outerHTML = "\n      <div class=\"socialcount-no-text tw--flex tw--gap-1 eightyk-social-buttons-no-text-list tw--flex-wrap no-print\" data-url=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\" data-counts=\"true\">\n        <div class=\"social-buttons__facebook facebook\"><a href=\"https:\/\/www.facebook.com\/sharer\/sharer.php?u=https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\" title=\"Share on Facebook\" data-80k-event-action=\"Clicked share on Facebook\" data-80k-event-label=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\"><span class=\"social-button-no-text social-button-facebook\"><span class=\"social-icon fab fa-facebook-f\"><\/span><\/span><span  class=\"count smaller capitalize\"><\/span><span class=\"sr-only\"> (opens in new window)<\/span><\/a><\/div>\n        <div class=\"social-buttons__twitter twitter\"><a href=\"https:\/\/twitter.com\/intent\/tweet?text=https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\" title=\"Share on Twitter\" data-80k-event-action=\"Clicked share on Twitter\" data-80k-event-label=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\"><span class=\"social-button-no-text social-button-twitter\"><span class=\"social-icon fab fa-twitter\"><\/span><\/span><span  class=\"count smaller capitalize\"><\/span><span class=\"sr-only\"> (opens in new window)<\/span><\/a><\/div>\n        <div class=\"social-buttons__linkedin linkedin\"><a href=\"https:\/\/www.linkedin.com\/shareArticle?mini=true&url=https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/&source=80000Hours\" title=\"Share on LinkedIn\" data-80k-event-action=\"Clicked share on LinkedIn\" data-80k-event-label=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\"><span class=\"social-button-no-text social-button-linkedin\"><span class=\"social-icon fab fa-linkedin-in\"><\/span><\/span><span class=\"sr-only\"> (opens in new window)<\/span><\/a><\/div>\n        <div class=\"social-buttons__email email\"><a href=\"mailto:?subject=From 80,000 Hours: Kevin Esvelt on cults that want to kill everyone, stealth vs wildfire pandemics, and how he felt inventing gene&nbsp;drives&amp;body=https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\" title=\"Share by email\"  data-80k-event-action=\"Clicked share by email\" data-80k-event-label=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\"  class=\"link--disable-default-tracking\"><span class=\"social-button-no-text social-button-email\"><span class=\"social-icon far fa-envelope\"><\/span><\/span><\/a><\/div><div class=\"social-buttons__print print\"><a href=\"#\" onclick=\"window.print(); return false;\" title=\"Print page\"  data-80k-event-action=\"Clicked print\" data-80k-event-label=\"https:\/\/80000hours.org\/podcast\/episodes\/kevin-esvelt-stealth-wildfire-pandemics\/\"><span class=\"social-button-no-text social-button-print\"><span class=\"social-icon fas fa-print\"><\/span><\/span><\/a><\/div><\/div>";
             var button_interactivity_script = document.createElement("script");
-            button_interactivity_script.textContent = 
+            button_interactivity_script.textContent =
         document.querySelector(".eightyk-social-no-text-button").addEventListener("click", function(event) {
           event.stopPropagation();
           var socialButtons = document.querySelector(".eightyk-social-buttons-no-text-list");
@@ -376,10 +376,10 @@ if (placeholders.length === 1) {
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
 
-// This code is modified from 
+// This code is modified from
           // https://stackoverflow.com/questions/14202943/lazy-loading-of-images-breaks-anchor-links
           $('html, body').animate(
-            { scrollTop: target.offset().top }, 
+            { scrollTop: target.offset().top },
             { duration: 1000,
               // At each animation step, check whether the target has moved.
               step: function( _, fx ) {
@@ -500,7 +500,7 @@ MediaQueryList.addEventListener( "change", (e) => {
  t3a-logo="false"
  link-to-timestamp-selector=".type-3-player__replace-timestamps-with-links"
  feedback-button="false"
- custom-css=" 
+ custom-css="
  .type-3-player.sticky {
  box-shadow: 0px -2px 10px 0px rgb(171 171 171 / 60%);
  z-index: 8000;
@@ -521,7 +521,7 @@ MediaQueryList.addEventListener( "change", (e) => {
  ></type-3-player><script type="183d68ff4fdb4307db4578ac-text/javascript">window.t3aAnalytics = function(eventType, event) {
         analytics.track(eventType, event);
         gtag("event", eventType, event);
-        if (typeof plausible === "function") { 
+        if (typeof plausible === "function") {
           plausible(eventType, {props: event});
         }
       }
@@ -576,7 +576,7 @@ MediaQueryList.addEventListener( "change", (e) => {
  t3a-logo="false"
  link-to-timestamp-selector=".type-3-player__replace-timestamps-with-links"
  feedback-button="false"
- custom-css=" 
+ custom-css="
  .type-3-player.sticky {
  box-shadow: 0px -2px 10px 0px rgb(171 171 171 / 60%);
  z-index: 8000;
@@ -597,7 +597,7 @@ MediaQueryList.addEventListener( "change", (e) => {
  ></type-3-player><script type="183d68ff4fdb4307db4578ac-text/javascript">window.t3aAnalytics = function(eventType, event) {
         analytics.track(eventType, event);
         gtag("event", eventType, event);
-        if (typeof plausible === "function") { 
+        if (typeof plausible === "function") {
           plausible(eventType, {props: event});
         }
       }

@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         We have talked a few times over the years about the mysterious Tesla Inc. lawyer whose court-mandated job is to review Elon Musk’s draft twe
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Is Elon Musk’s drug use securities fraud?
-    
-  
+
+
 
 We have   talked a few times over the years about the mysterious Tesla Inc. lawyer whose court-mandated job is to review Elon Musk’s draft tweets that might be material to Tesla shareholders. In theory, Musk has to show his tweets to this lawyer, and if the lawyer says “this is material and misleading,” Musk is supposed to not tweet it. In practice … really? Musk is a volatile and demanding boss who tweets impulsively at all hours and, what, you’re going to stop him? You’re not going to stop him. Terrible job. I don’t think anyone has  ever actually done it, and as far as I know whoever used to pretend to do it has stopped. 
 Anyway here’s a worse job:
@@ -84,37 +84,37 @@ I wish that was a risk factor in the annual report.
   [2]
  “We depend on the services of Elon Musk, our CEO and Technoking, and we are worried that he isn’t getting enough sleep, if you know what we mean. If he keeps staying up too late, that may impact our business and financial results.”
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Carta
-    
-  
+
+
 
 The paradigmatic 21st century business model is probably giving a product away for free, or at least below cost, in order to collect data that can be used for lucrative targeted advertising. This is how most email works, and basically all of social media, and it has become such a staple of modern business thought that companies like  WeWork and   MoviePass could go around being like “sure we charge people below our cost for office space or movie tickets, but see we collect data.”
 One problem with this model is that the better the data — the more intimate and valuable the information you collect about your customers — the more annoyed people will get if you use it. When the ads are too targeted, it’s creepy and people get angry.
@@ -147,11 +147,11 @@ We pay them about $10k a year for the cap table management but this transaction 
 
 Yes, right, the targeted advertising data from the shareholder list is just way, way, way more valuable than charging the customer directly for keeping the list.
 
-  
-    
+
+
       Spot Bitcoin ETFs
-    
-  
+
+
 
 One claim that you sometimes hear about crypto is that it gets rid of middlemen: Instead of relying on a bank to hold your money for you, you can hold it directly on the blockchain. But one reason that crypto is actually popular — a reason that it has gotten a lot of attention, and that a lot of people from the financial and tech industries have gotten into crypto — is that it is   insanely lucrative for middlemen. A lot (not all) of the basic products of traditional finance are old and well understood and heavily regulated and fiercely competitive; margins are low and bid/ask spreads are slim. Whereas crypto is relatively new and poorly understood and complicated and illiquid and you can charge 2% on every trade. Sam Bankman-Fried did not briefly become the world’s richest young person because crypto got rid of middlemen. Quite the opposite.
 Meanwhile it is probably a positive for crypto if it becomes mainstream, if it is widely adopted by ordinary investors and traditional institutions. That would lead to a lot of money flowing into crypto, which is probably good for the crypto middlemen. On the other hand it would probably lead to a collapse in margins for crypto middlemen: They got fat by charging 2% on every trade, but you can’t do that forever if the product becomes mainstream. Some middlemen may have trouble adapting.
@@ -167,11 +167,11 @@ Yeah look the fees for  keeping Bitcoins in a pot can be decomposed into: 
 
 But eventually, like, BlackRock will catch up, and then you probably can’t.
 
-  
-    
+
+
       Shale but green
-    
-  
+
+
 
 I feel like  this is a very solvable problem?
 
@@ -183,77 +183,77 @@ The Hamm Institute is one of a growing number of initiatives aiming to dispel ne
 Okay what you do is, you set up a new Institute for the Clean Renewable Energy of the Future, and you encourage students to major in Green Energy, and then the courses in the Green Energy major are about petroleum engineering? And then, at your shale company, you hire them, and you give them the job title Renewable Energy Technology Engineer. This is easy stuff.
 I write sometimes around here about the complex financial engineering sleight-of-hand that goes into some carbon credits and other green investing products. But I also write sometimes around here about the extremely simple financial engineering sleight-of-hand that goes into, like, taking an index fund and   putting "ESG” in the name, or taking an oil pipeline company and   putting the word “Green” in the name, or taking the World Coal Alliance and   putting “Future” and “Sustainable” in the name. This is not, I think, mostly deceptive, or at least it is not deceptive to its direct audience. The name matters! You are marketing something, but the thing you are marketing is perception; you are marketing to people who are marketing themselves as good people. They want to get well-paid jobs as petroleum engineers, and they want to tell their friends that they are majoring in Saving the Earth and then getting jobs in Renewable Energy Technology. Just call it that!
 
-  
-    
+
+
       Pilot
-    
-  
+
+
 
 We   talked last month about Berkshire Hathaway Inc.’s deal to buy Pilot Travel Centers, a truck-stop chain. Basically Berkshire bought a chunk of Pilot in 2017 for 10 times its earnings before interest and taxes (EBIT) that year, and agreed to buy the rest of it, over time, at the same multiple of whatever its EBIT ended up being. Berkshire had to buy the last 20% this month and, given the formulaic purchase price, both Berkshire and the former owners had incentives to manipulate EBIT. Berkshire, which owns 80% of Pilot and controls it as a corporate matter, allegedly manipulated its EBIT by changing its accounting method to increase its expenses. Jimmy Haslam, the former owner, who is still close to some of the executives, allegedly manipulated its EBIT by bribing Pilot’s managers to get contracts done early in uneconomical ways in order to juice 2023 earnings.
 They sued each other, but there was a deal to be done: Berkshire wanted to own Pilot, Pilot wanted to sell, and they even agreed on the price, expressed as a multiple of earnings. Presumably if you knew Pilot’s “real” earnings for 2023, you could just get a deal that made everyone happy. They went to court to figure out the real earnings, but court is not a good place to do that; probably Berkshire and Pilot have a better sense of the real earnings than a judge would. So  yesterday they settled:
 In separate statements on Sunday both companies said they had reached an agreement “to fully settle the Delaware litigation”, including “all claims and counterclaims”. Details of the settlement were not disclosed.
 If I were Berkshire I’d still be a little worried about all those executives who were allegedly taking bribes? I guess now their interests are aligned though.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Fed Pivot Will Dominate   Year of Rate Cuts. Forensic accountants  unable to identify bank account owner in Endeavour sacked CEO case. Boston Scientific to Purchase Medical Tech Firm   Axonics for $3.7 Billion. Investors Are Looking to   Share Buybacks to Keep US Stock Market Afloat. Largest US banks set to log sharp rise in  bad loans. Short Sellers See   Distress Emerging in Apartments as Borrowing Costs Surge. Argentina’s new government faces crucial test over  $16bn US judgment. Blackstone’s First Private Equity Fund for   Rich Individuals Gets $1.3 Billion. China’s Weight in Key   Emerging-Market Index Drops to Record Low. Currency Turmoil Returns in   Zimbabwe With Local Dollar Plunging 40% on Black Market. Why It’s So Hard for a Robot to  Straighten a Candle Wick. Taylor Swift’s  cat Olivia Benson has a higher net worth than Travis Kelce. 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] Right? Like if you email Elon Musk to say “we hear you use ketamine, LSD, cocaine, ecstasy and psychedelic mushrooms,” and his lawyer writes back to say he is “regularly and randomly drug tested at SpaceX and has never failed a test” — that’s just legalese for “lol yeah so many drugs,” right? Perhaps I am misinterpreting? Anyway “Spiro, who said he represents Tesla, added in response to detailed questions that ‘there are other false facts’ in this article but didn’t detail them.” 
+
+  [1] Right? Like if you email Elon Musk to say “we hear you use ketamine, LSD, cocaine, ecstasy and psychedelic mushrooms,” and his lawyer writes back to say he is “regularly and randomly drug tested at SpaceX and has never failed a test” — that’s just legalese for “lol yeah so many drugs,” right? Perhaps I am misinterpreting? Anyway “Spiro, who said he represents Tesla, added in response to detailed questions that ‘there are other false facts’ in this article but didn’t detail them.”
 
 
   [2] When we last   talked about widespread Silicon Valley drug use, last summer, I wrote: “Of course everything is securities fraud:  Tesla Inc.’s 10-K says things like ‘We are highly dependent on the services of Elon Musk, Technoking of Tesla and our Chief Executive Officer’ and discloses that ‘he does not devote his full time and attention to Tesla,’ but it does not mention ketamine. Probably someone is going to sue about that eventually.” Still true, and what will the board minutes say?
 
 
-  [3] Technically OpenAI doesn’t … quite …   have shareholders? Still its   shares trade. 
+  [3] Technically OpenAI doesn’t … quite …   have shareholders? Still its   shares trade.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -264,46 +264,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck79al.5je2/bcfbac77.gif" alt="" border="0" /></a>

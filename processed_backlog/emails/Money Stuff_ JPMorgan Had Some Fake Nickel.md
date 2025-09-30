@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         If you want to make batteries or cars, you might need nickel. If you buy some nickel from a nickel merchant, and she delivers it to you, and
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Notional nickel
-    
-  
+
+
 
 If you want to make batteries or cars, you might need nickel. If you buy some nickel from a nickel merchant, and she delivers it to you, and you open the box, and the box is full of rocks painted to look like nickel, you will be disappointed. You will not be able to make a battery or a car with a box of rocks.
 If you are in the business of building batteries or cars, you might want to hedge your exposure to global nickel prices by trading nickel futures on an exchange like the London Metal Exchange. Or if you are a hedge fund or bank with a view on commodity prices, you might want to trade nickel futures to express that view. These futures do not, in the first instance, involve any nickel. If you buy nickel futures, it is purely a financial trade: If the price of nickel goes up between now and when the futures expire, you get paid money; if it goes down, you pay money. You buy the nickel for the batteries or cars through normal industrial channels — your nickel merchant delivers nickel in the types and quantities you need — and the point of the futures is just to have a financial hedge to your cost of buying actual nickel.
@@ -82,37 +82,37 @@ And then one day a warehouse worker, like, stubbed his toe against JPMorgan’s 
   [3]
  But it’s all just a random accident? The purpose of JPMorgan’s nickel was not to be turned into batteries or cars, but to sit in a warehouse. It was doing a great job of that, until someone noticed!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Rule of law
-    
-  
+
+
 
 An uncontrolled bank failure is very bad for everyone. Banks are not generally constructed in such a way that they could withstand all their money fleeing at once: If there is a run and all the depositors take their money out at once, the bank will be forced to sell everything hastily and will probably end up without enough money to pay back the depositors, leaving other creditors and shareholders with nothing. At a big international bank that is active in the capital markets, this problem is probably worse: Derivatives counterparties and overnight lenders will flee, traders will bet against the bank’s positions, markets will be stressed and the bank will probably collapse rapidly and in a way that leaves too little value for everyone.
 If you are a national bank regulator and one of your biggest banks seems to be teetering on the edge of an uncontrolled failure, here are some things that are generally true:
@@ -163,11 +163,11 @@ Kern Alexander, a professor of law and finance at the University of Zurich, agre
 
 I guess. One can always find fault with these rescues, in part due to fog-of-war and hard-to-prove-the-counterfactual reasons and in part because, you know, why wouldn’t people panic in a crisis. But to me, the Credit Suisse rescue looks more or less like the standard playbook. Which doesn’t mean that it followed the rules and upheld the rule of law. That’s not how these things generally go.
 
-  
-    
+
+
       AT1s
-    
-  
+
+
 
 For example, I   wrote yesterday about how Credit Suisse’s additional tier 1 capital securities were zeroed by this deal, even as Credit Suisse’s shareholders got something (though not much). There are about 16 billion Swiss francs of AT1s outstanding, and their holders are very upset about this treatment and contemplating suing. The AT1s are, nominally, senior in the capital structure to the common stock, so it is weird for them to get nothing when the common gets something.
 The AT1s are basically bonds that pay interest, but there is a provision in the bonds saying that they get written down to zero if (1) Credit Suisse’s common equity tier 1 capital falls below 7% or (2) the Swiss regulators decide that zeroing them is necessary to keep Credit Suisse solvent.
@@ -191,11 +191,11 @@ Other banks, including BNP Paribas SA, BTIG, Jefferies Financial Group Inc., as 
 
 That’s basically a bet that you can get someone (a court, a government) to second-guess the Swiss authorities’ decision to zero the AT1. The market odds on that bet are between 20-to-1 and 50-to-1, so a long shot but not utterly hopeless.
 
-  
-    
+
+
       CCAs
-    
-  
+
+
 
 One charming thing about Credit Suisse in recent years is that it had a habit of paying its employees with its weirdest assets. It was happy to give its managing directors bonuses consisting of, like,  toxic mortgage assets, or   derivatives counterparty credit exposure. The idea was that, if Credit Suisse had stuff on its books that looked bad for regulatory capital, and that the market didn’t want, but that Credit Suisse thought was good, then it would give that stuff to its employees. This was clever both as a matter of aligning incentives (bankers would be more careful if they had to eat their own cooking in their personal accounts) and as a matter of dis-aligning incentives (the bankers, after all, were picking which bits of their cooking got jammed into their PAs, and might have   picked the good bits).
 But eventually this got a bit more standardized, so that instead of paying employees in whatever weird exposures it had lying around, Credit Suisse started paying part of their bonuses in one particular weird exposure. It was … oh no … it was additional tier 1 contingent capital securities! The things that got zeroed this weekend! Bad choice.
@@ -210,11 +210,11 @@ The lender stated in its annual report that the contingent capital awards carry 
 
 Yeah look, if I were the regulator (or UBS), I might prefer to zero the public-market AT1s but not the employee ones: The employee ones are fairly small, so zeroing them doesn’t conserve much capital, and the employees are going to be pretty demoralized right now, so giving them something seems helpful for the long-term future of the business. On the other hand, the holders of the public AT1s are already threatening legal action because they got zeroed while the shareholders got something, and they are going to be furious if Credit Suisse pays out the more-or-less identical employee AT1s and not them. Any banking rescue is going to involve some arbitrary distinctions, but that one seems tough.
 
-  
-    
+
+
       First Boston
-    
-  
+
+
 
  Oh well:
 
@@ -225,11 +225,11 @@ All this means Klein’s dream of leading a new investment bank under the revive
 When we last talked about the proposed First Boston carveout, good lord, six days ago,   I said that it “might be the most conflicted transaction I have ever seen. I just admire it?” It was an amazing piece of work, for Klein to be a Credit Suisse board member, to be put in charge of deciding what to do with the investment banking business, to decide the answer was to sell it to himself and also to buy his existing investment banking boutique, and for him to get Credit Suisse to agree that that was all fine.
 And now it is apparently falling apart for reasons that have nothing to do with its own audacity. Oh, I mean. It is possible that there is some characteristic of Credit Suisse that made it unusually likely to (1) do this First Boston deal, (2) have the   Archegos,   Greensill,   tuna-bond,   garden-party-spying, etc. scandals and (3) ultimately fail and be sold to UBS. Possibly the problem is that the overall level of audacity at Credit Suisse was too high, and eventually that caught up to it.
 
-  
-    
+
+
       Meanwhile in America
-    
-  
+
+
 
 The recent run of bank failures in the US have been smaller but less controlled than Credit Suisse, though still controlled enough: Silicon Valley Bank, Signature Bank and Silvergate Bank were all taken over by the Federal Deposit Insurance Corp. rather than being sold over a weekend to stronger banks like Credit Suisse was. Two possible reasons for that are:
 	Buying Credit Suisse at a slightly-above-zero equity value was a good deal for UBS, while buying those banks at slightly-above-zero equity values would not be good deals for a buyer, so nobody wanted to buy them; or	Rescuing Credit Suisse was enough of a priority for Swiss regulators that they were willing to combine their two largest banks into a single far-too-big-to-fail national champion, but rescuing SVB was not enough of a priority for US regulators that they were willing to let, like, JPMorgan Chase & Co. or Wells Fargo & Co. buy it and get much bigger.
@@ -252,22 +252,22 @@ The FDIC has taken over Silicon Valley Bank and is trying to sell it off, but it
 Meanwhile the holding company’s bondholders, who are in some rough hypothetical sense junior to the depositors, seem to be poised to get much of their money back, because the holding company had assets other than the bank. One of those assets was $2 billion in cash. But that cash was held at SVB, and the FDIC, as a rather understandable matter of rough justice, isn’t giving it back.
 And here is  a proposal from Jeffrey Gordon for “storage” bank accounts at Silicon Valley Bank, in which holders would own stock in the bank and forfeit that stock if they redeemed their deposits early. Make the depositors owners of the bank and maybe they won’t run on it.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Credit Suisse Tells Staff to  Go to Work as Somber Mood Sets In. Yellen Says US Will Intervene If Needed to   Protect Smaller Banks. FHLB  Issues $304 Billion in a Week as Banks Boost Liquidity. Biden Vetoes Bill for First Time to  Block Anti-ESG Measure. “If I was mugged, before I hit the ground,  I’d be thinking, ‘I’ve got 1,000 words on this for next week.’” 
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] We have   talked about this system before in the context of a weird lawsuit over the aluminum in LME warehouses. “Abstract Aluminum Space,” I called the warehouses.
 
 
   [2] To be clear, I’m making this up, I have no idea how the fraud was discovered and never want to find out, unless the real story is funnier than this one.
 
 
-  [3] I don’t know if they were? Is JPMorgan entitled to take out the rocks? Is it *required* to take out the rocks? “Hey JPMorgan you have 10 days to come pick up your rocks; if you don’t we’re gonna throw them through Jamie Dimon’s window”? If someone cracks open one of the rocks and there’s a diamond inside, does JPMorgan get the diamond? 
+  [3] I don’t know if they were? Is JPMorgan entitled to take out the rocks? Is it *required* to take out the rocks? “Hey JPMorgan you have 10 days to come pick up your rocks; if you don’t we’re gonna throw them through Jamie Dimon’s window”? If someone cracks open one of the rocks and there’s a diamond inside, does JPMorgan get the diamond?
 
 
   [4] The FT quotes the biggest shareholders, but   Bloomberg also notes that “Ethos Foundation, whose 246 pension fund members represent 1.9 million people with 370 billion swiss francs in assets, has threatened [legal action] over the issue of blocking shareholder votes.”
@@ -282,48 +282,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] See page 264 of  the 2021 annual report, which describes the features of the CCAs and who got them.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -334,46 +334,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ciejgy.5jeq/94d490f4.gif" alt="" border="0" /></a>

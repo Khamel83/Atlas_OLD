@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday. Unless ...Here’s a rough sketch of what an investment bank is. An invest
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday. Unless ...
 
-  
-    
+
+
       Second Boston
-    
-  
+
+
 
 Here’s a rough sketch of what an investment bank is. An investment bank is in the business of helping companies do financial things, particularly, helping companies raise money to do their business, and helping companies buy and sell other companies. So here are some things an investment bank might do:
 	The core of the business, in this sketch, is the advisory business, giving companies advice on mergers and acquisitions and capital raising. An investment banker might go to a company and say things like “here are some other companies you might buy” or “you should sell some bonds” or whatever.	An important adjunct to that business is actually doing the capital raises. If an advisory banker goes to a hot tech startup and says “we think you can do an initial public offering at a $20 billion valuation,” that’s nice, but then the startup might want to do the IPO. The bank will need salespeople who have phone numbers for big stock investors (mutual funds, hedge funds, etc.), and can call them up and say “hey you should buy this stock.” The advisory investment bankers have relationships with companies, but to do capital raises they need salespeople who have relationships with investors.	It’s nice to call investors every month or so to sell them a new IPO, but realistically the way to build (and profit from) relationships with investors is to help them buy and sell stocks and bonds every day. The investors want to buy and sell stocks and bonds and derivatives, so your salespeople build relationships with them and your traders take the other sides of those trades. And you end up with a huge business of trading stocks and bonds and derivatives for investors. This helps you do capital raisings for your corporate clients, but it also makes (and occasionally loses) a lot of money on its own. And at modern investment banks this business — “sales and trading” — has at times come to dominate the whole company, making more money and becoming more important than the advisory business. It is much riskier and more capital intensive than the advisory business, though. You need lots of money to trade the stocks and bonds and derivatives, whereas the advisory business can be done with a phone, a copy of Excel and some plane tickets. And so there are some investment banks — “boutiques” — that stick to advisory work and don’t have sales and trading businesses. If a company wants to sell bonds or do an IPO, it will probably have to hire a big full-service bank to do the actual selling, but it can still get advice from a boutique.	Another thing that a company might want from you is just money. If you advise a company on buying another company, and it needs to borrow money to pay for that company, you can advise it on issuing bonds — but if you can also just lend it the money yourself, that is good customer service. In general this business of “lending money to companies” is not a particularly investment banking business;   this is just regular banking, and lots of commercial banks do it. But if you’re a big full-service investment bank these days it is helpful to be attached to a commercial bank, so you can lend your clients money.	You’re doing all this stuff, helping companies buy and sell companies, helping investors buy and sell securities, so you develop some expertise in buying and selling companies and securities. Sometimes you will see a company or a security and think “I should buy this myself.” And so you develop merchant-banking (buying companies) and proprietary-trading (buying securities) businesses. (Or you raise funds from investors to do this, and build private equity or hedge fund businesses.)	You’re selling all these stocks and bonds to institutional investors in your sales and trading businesses, you feel like you know what stocks and bonds to buy, so you might set up businesses — asset management, wealth management, private banking — to manage clients’ money for them. Then you decide what stocks and bonds to buy for them, and they get the stocks and bonds and you get fees. 
@@ -93,63 +93,63 @@ Meanwhile, it will get rid of its advisory business, spinning it off into a bout
 The Investment Bank’s capital markets and advisory activities will – following a transition period – lead to the creation of CS First Boston, a firm with a partnership culture that we believe will be competitive and attractive to anchor investors, employees and entrepreneurial clients. Drawing on its rich heritage across advisory and capital markets, CS First Boston is expected to be more global and broader than boutiques, but more focused than bulge bracket players. The future CS First Boston envisions attracting third-party capital, as well as a preferred longterm partnership with the new Credit Suisse.
 “Markets will also support the newly created CS First Boston”: CS First Boston will mostly be in the advisory business, but if you are in that business it is helpful to have a sales and trading business — and CS First Boston will be able to use Credit Suisse’s. In general, there’s a reason people put all of these businesses together. It’s just that Credit Suisse now has more compelling reasons to take them apart.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Activism
-    
-  
+
+
 
 In a proxy fight, an activist shareholder tries to take over the board of directors of a public company, or at least get some of her directors on the board. And the existing board of directors — “management,” we call them — wants to stay on the board and keep her candidates off, and there is an election and all the shareholders get to vote. If the activist’s candidates get more votes, her directors get on the board, and they can try to make the company implement her plans.
   [2]
@@ -190,20 +190,20 @@ This discrepancy is particularly notable given that one of the Director Defendan
 
 Well, yes, it would be very annoying to disclose all this stuff, which is why only the activists have to do it.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon
-    
-  
+
+
 
 Look I am not personally a guy who would carry a bathroom sink into the offices of Twitter Inc. just so that I could tweet a video with the caption “Entering Twitter HQ — let that sink in!” To me, that seems like a lot of effort to go to to make a joke that has been made many times before on social media.
 That said, I am a guy who uses Twitter, and who recognizes that this is the sort of joke that people make on Twitter. So when Elon Musk tweeted that joke yesterday, my reaction was (1) a groan but also (2) “that’s the first time a Twitter user has ever been in that building.” My theory about Twitter has always been that no one who works at Twitter uses the product. Elon Musk absolutely uses the product. Elon Musk showed up for his first (negative-second?) day of work as Twitter’s …  Chief Twit? … and he planned his arrival around making a good tweet.
@@ -219,15 +219,15 @@ Mr. Musk late Tuesday sent a so-called borrowing notice to the banks that agreed
 We have  talked previously about Musk’s belief that “the most entertaining outcome is the most likely,” and I have given some suggestions for the most entertaining way for this to end. Arguably the main reason that Musk wanted to buy Twitter — and somehow also  the reason he gave for trying to get out of the deal — was that, as a hugely famous and rich public figure, he was beset by spam bots. Any time he tweeted, people or bots would post weird replies generally trying to dupe readers into sending cryptocurrency to the spammers. “I am doubling everyone’s money to give back to the community, send one Dogecoin to this address and I’ll send you back two,” the spammers would say, pretending to be Musk himself. That understandably irritated Musk, and now here we are.
 What I am saying here is that if Elon Musk’s banks were somehow duped into wiring $13 billion to a scammer, rather than into escrow to close this deal, that would be the funniest possible outcome here. I assign it a probability of zero, but if it somehow happened, I would enjoy it immensely. I bet so would Musk. It’s good content!
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Meta   Plummets 25% as Zuckerberg’s Plea for ‘Patience’ Falls Flat. Goldman Sachs’s  Marc Nachmann emerges as big winner in reshuffle. Andreessen Horowitz Went  All In on Crypto at the Worst Possible Time. Fidelity Says More Institutional Investors Are   Holding Crypto. Big Banks and  U.N. Green Finance Group Clash in Alliance. Danske Bank braced for  money-laundering fines of $2bn. Private Lending Takes Root in  Muni Market. Accounting Errors to  Cost Executives Their Bonuses Under SEC Rule. ESPN Sells Majority Stake in  X Games to Private-Equity Firm.   Hamptons Homes Sell Faster Than Ever Amid Inventory Squeeze. Spirit Halloween Is Not Amused by Your  Fake Costume Memes. Skechers Says Kanye West Escorted From Office After Showing Up Uninvited.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Robinhood Markets Inc. is a retail brokerage that has   taken some steps in this direction.
 
 
@@ -237,114 +237,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] By which I mean a bad tweet, of course, but the difference is paper thin.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

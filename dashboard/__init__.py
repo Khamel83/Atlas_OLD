@@ -13,6 +13,6 @@ from .visualization_generator import VisualizationGenerator
 
 __all__ = [
     "AnalyticsEngine",
-    "DashboardServer", 
+    "DashboardServer",
     "VisualizationGenerator"
 ]

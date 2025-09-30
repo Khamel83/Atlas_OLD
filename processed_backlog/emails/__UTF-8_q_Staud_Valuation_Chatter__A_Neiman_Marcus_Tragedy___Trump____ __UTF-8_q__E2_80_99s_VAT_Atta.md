@@ -31,7 +31,7 @@ Shapiro shares details on Staud’s latest fundraising round and the state of th
 Mentioned in this issue: Sarah Staudinger, George Augusto, Reformation, Ari Emanuel, Jeff
 Bezos, Lauren Sánchez, Staud Sport, Fendi, New Balance, Keds, Jon Zeiders, Elon Musk, Chris Burch, Trump, Neiman Marcus Downtown Dallas, and many, many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -113,7 +113,7 @@ on the size of his stake, only to say that he remains one of Staud’s largest i
 Indeed, WWD had the fundraising story only half right. The Staud round is already fully subscribed, I’ve heard, and my best guess is that they are headed toward a 3-4x revenue valuation, which could peg the company somewhere between $400 million-$500 million, and attempting to eventually scale to around $500 million in revenue before contemplating their next steps—a
 partnership with a strategic, an exit, etcetera. That said, I’ve heard that this round is composed largely of individual investors and family offices, which suggests that Staud wants to maintain creative control and strategic autonomy. Honestly, I would have been shocked if she wanted it any other way.
 
- 
+
 
 What
 We’re Reading… and Listening To…
@@ -152,7 +152,7 @@ The Throwing Fits boys interviewed Nikki
 At the Phoebe Philo Collection B preview this past October, the silvertone letter pins conjured memories of her famous Céline bamboo letter
 pendants. Turns out, per usual, Philo is tapping into something greater than herself. [Will Kahn’s Instagram ( https://www.instagram.com/p/DF8jw73pJQJ/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Some doctor dude spent hours at Disneyland recording the sneakers
 that thousands of different people were wearing, and thenranked them ( https://www.instagram.com/reel/DGA-1qnxWPZ/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in order of popularity. The results say everything about the state of performance sneakers.
@@ -212,6 +212,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVG3Nph2_5XYIzB2oX0hs=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

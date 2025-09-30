@@ -1,4 +1,4 @@
-# Supersapiens: Not Boring Memo 
+# Supersapiens: Not Boring Memo
 
 **From:** Not Boring <notboring@substack.com>
 **Date:** Thu, 4 Feb 2021 13:55:20 +0000
@@ -16,7 +16,7 @@ Stacker Studio is extending 20% off the first campaign and guaranteeing a minimu
 Hi friends 👋 ,
 Happy Monday! 
 Ankur Nagpal [https://email.mg2.substack.com/c/eJxFkE2OwyAMhU9TlhEYk5AFi9nMNSJ-nBQ1gYiQqXL7oe1II1m2LMt-fp-3lZZcLrPno7JXmuq1k0n0PFaqlQo7DypTDEb0oKXCkQWDQWilWTymuRBtNq6mlpPYfro1eltjTu8NzkGxuwGpZgcBQKMDqR0Ozvu5H9FaaWEUH117hkjJk6EfKldOxFZzr3U_bvLrBt8t6jO-Pup83lpn0-MsyS67XVk0wEFw4CikUgI70fHBoZxxIOJ6FiNKr7WSPddqGHGW4oZ8W6A7TndU6x-vo6yYlKvLJaaljR93u9H6HjRjU6vbmWK9JkrWrRQ-nusH3ZvCtFCi0pCGydYGTABiPwLn_Z_HBkWCGKRGYE055LaV_kV_AZ-GhF0], the founder of Teachable [https://email.mg2.substack.com/c/eJxFUEtuhTAMPM3LEuVLwiKLbnoNlI-B6EGCgmnF7Rsei0qWLXs0Hs0EhzCXetm9HEjuNuK1g83we6yACJWcB9QxRct6boSSA4lWRmaUIekYpwqwubRarCeQ_fRrCg5TyR8GpVyRxYJWbvK9C9qpgboBRDv4wNXEvBa9eHTdGRPkABZ-oF4lA1ntgrgfL_H14t-tEFxYnF-hC2VrO0mWU84op5IJpZjsWEe1l2KSGoCaiQ1SBGOU6KlRepCTYC9Jt5l3x-kPdOF9fyLV5oK-1JTnBr8Xt8H6AZqfsc3tzAmvEfKtHR-r-CT2MT_OkKG2JOPosOXEuJT9wCnt2WOtZSE408JITppyLI2V_0X_AJV8gLk], is one of the founders / early stage investors I respect the most. We’re co-investors in Composer [https://email.mg2.substack.com/c/eJxVkN1qxCAQRp9mvdvgb2IuvNibvoYYnWRlEw06acnb126gpSAjcpj5nOMdwpLLafZckfwUi-cOJsFXXQERCjkqFBuDYT3XQsmRBCMD00qTWO1cADYXV4PlALIf0xq9w5jTu4NSrsjTAHg5CKGpcLObej84KbRXIbSn4ny8ct0RIiQPBj6hnDkBWc0Tca838bjxj3ZSximXmJauHlNF51-dz1sD-wXvF71vsOV7I21s-380nHJGOZVMKMVkxzo6TFLMcgCgemajFF5rJXqq1TDKWbCbpNvC_6WQYn7jG3493QbrG7Slbbu3I0U8LSQ3rRAuH3hpfRuyCyQoTXewDptMxqXsR05pz679mzDB2SC05KQlh9y60l_oN1MBjyg] and Antara [https://email.mg2.substack.com/c/eJxVkM2OhCAQhJ9muI3hV_HAYS_7GqaFVskgGMTZ-PbLarKbTZrmUOlU1Weh4Jzyaba0F_KzhnJuaCJ-7QFLwUyOHfPgnWEt10LJnjgjHdNKE78PU0ZcwQdT8oFkO8bgLRSf4nVBKVdkMdbCRN3YMcUFdFKPYDuhHOPa9cB7fvvC4TxGiwbfmM8UkQSzlLLtD_Hx4J91Yipjyj7OzX6MewH7amxaq7DVB7FAhueCEMryjDXEG8P59LEWzLWlI95wyhnlVDKhFJMNa2g3SjHJDpHqifVSWK2VaKlWXS8nwR6SrjP_Z0ey-c1R5dcCK4ZLqO2H-q9H9OUcMMIY0N1gys33QjXMGPFKNECpVBmXsu05pS27QVRygrNOaMlJdXapXsU_02-DapJb], and he’s nice enough to send me the updates for his fund, A$AP Capital. Each one is full of more impressive companies than the last. 
-So when Ankur told me he had the perfect deal to do together, my ears perked up. He sent me the deck for Supersapiens [https://email.mg2.substack.com/c/eJxFkMtuhSAQhp_msKuB4SIuWHTTF2i6NiijhxwFA1jj25ejiyaTmWRuf_5vtAXnmE6zxVzIO_Xl3NAEPPKCpWAie8bUe2eYAs2l6IgzwjEtNfG5nxLiav1iStqRbPuw-NEWH8N1QSlI8jQT5UqAY8ICG6BDKR1VE22dUgC0xVvX7s5jGNHgL6YzBiSLeZay5Qf_fMBXjeM4mrxvmLLd6mpuxrjWNoaPn-9aiTdAgVGggnEpmWhYQ9tB8Em0iFRPrBN81FpyRbVsOzFx9hB0naF-HXKx4-v9kSQTYhli8mGu49fTrrhcg2qvr3Xdgy9nj8EOC7rbebkBXiz6GQOmCtb1tlRsDIRQHVCq2O20ouHAWq4FkKrsYr0K_6J_qKCFHg] and introduced me to the company’s founder and CEO, Phil Southerland. Once we spoke, it was an easy yes. Supersapiens is a product I’ve been waiting for for a decade. 
+So when Ankur told me he had the perfect deal to do together, my ears perked up. He sent me the deck for Supersapiens [https://email.mg2.substack.com/c/eJxFkMtuhSAQhp_msKuB4SIuWHTTF2i6NiijhxwFA1jj25ejiyaTmWRuf_5vtAXnmE6zxVzIO_Xl3NAEPPKCpWAie8bUe2eYAs2l6IgzwjEtNfG5nxLiav1iStqRbPuw-NEWH8N1QSlI8jQT5UqAY8ICG6BDKR1VE22dUgC0xVvX7s5jGNHgL6YzBiSLeZay5Qf_fMBXjeM4mrxvmLLd6mpuxrjWNoaPn-9aiTdAgVGggnEpmWhYQ9tB8Em0iFRPrBN81FpyRbVsOzFx9hB0naF-HXKx4-v9kSQTYhli8mGu49fTrrhcg2qvr3Xdgy9nj8EOC7rbebkBXiz6GQOmCtb1tlRsDIRQHVCq2O20ouHAWq4FkKrsYr0K_6J_qKCFHg] and introduced me to the company’s founder and CEO, Phil Southerland. Once we spoke, it was an easy yes. Supersapiens is a product I’ve been waiting for for a decade.
 We’re excited to bring you this deal, and an experiment on a new way for accredited investors to participate in the deal (hint: it involves no carry).
 Let’s get to it.
 Supersapiens: Not Boring Memo
@@ -84,7 +84,7 @@ Supersapiens has the market-leading CGM for non-diabetic athletes, but it’s go
 To learn more about Supersapiens and Cornered Resources:
 I am thrilled to have the opportunity to co-syndicate this deal alongside Ankur. If you’re an accredited investor and would like to learn more, you can apply to join the Not Boring Syndicate by clicking the button below. I’ll be sharing more details -- including deal terms and the deck -- over on AngelList.
 We want to try an experiment: accredited investors have the option to join Ankur’s syndicate and pay an annual subscription in place of the typical carry on this and future deals. He invests in some excellent deals, and is worth subscribing to:
-That’s all for this week. Enjoy the weekend, and I’ll see you on Monday! 
+That’s all for this week. Enjoy the weekend, and I’ll see you on Monday!
 Thanks for reading,
 Packy
 

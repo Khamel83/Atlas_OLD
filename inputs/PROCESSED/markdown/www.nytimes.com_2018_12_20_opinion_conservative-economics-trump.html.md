@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • December 20, 2018 
+Unknown author • December 20, 2018
 
 ![nytimes.com]()
 

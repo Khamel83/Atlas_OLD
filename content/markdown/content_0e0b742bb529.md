@@ -145,7 +145,7 @@
 			}
 		})(document);
 	</script>
-	
+
 <link rel="mask-icon" color="#296700" href="https://9to5google.com/wp-content/themes/ninetofive/dist/svg/9to5-clock.svg">
 	<meta name="google-adsense-platform-account" content="ca-host-pub-5506057612223327">
 		<script
@@ -252,7 +252,7 @@
 			}
 		})(document);
 	</script>
-	
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=id=GTM-THGGVXB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
@@ -446,7 +446,7 @@
 <li id="menu-item-190188" class="menu-item menu-item-type-taxonomy menu-item-object-ninetofive_featured menu-item-190188"><a href="https://9to5google.com/feature/videos/">Videos</a></li>
 </ul></nav>
 			<div class="header-bottom__icons">
-				
+
 	<nav id="nav-social-mobile" class="nav-social-mobile">
 		<ul id="menu-social" class="menu flex"><li id="nav-menu-item-560649" class="menu-item menu-item-type-custom menu-item-object-custom main-menu-item menu-item-depth-0"><a title="View 9to5 on Apple News" href="https://apple.news/TMzMaigopSFChmI1nDK60mg" class="menu-link main-menu-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-applenews"><path fill="currentColor" d="M407 512H105C47.103 512 0 464.897 0 407V105C0 47.103 47.103 0 105 0h302c57.897 0 105 47.103 105 105v302c0 57.897-47.103 105-105 105"/><path fill="currentColor" d="M407 0H256v512h151c57.897 0 105-47.103 105-105V105C512 47.103 464.897 0 407 0"/><path fill="#f2f2f2" d="M121 111v30H91v215c0 24.813 20.187 45 45 45h240c24.813 0 45-20.187 45-45V111z"/><path fill="#e5e5e5" d="M256 111v290h120c24.813 0 45-20.187 45-45V111z"/><path fill="currentColor" d="M311 229.787V171h-58.787zM209.787 171H181v28.787L282.212 301H311v-28.787zM181 242.213V301h58.787z"/><path fill="#e5e5e5" d="M121 141H91v215c0 19.555 12.541 36.228 30 42.42z"/><path fill="currentColor" d="M256 274.788 282.212 301H311v-28.787l-55-55zM256 171v3.787l55 55V171z"/></svg></a></li>
 <li id="nav-menu-item-560650" class="menu-item menu-item-type-custom menu-item-object-custom main-menu-item menu-item-depth-0"><a title="View 9to5 on SmartNews" href="https://b.smartnews.be/r/8GkJ3uZKPl1eorSk" class="menu-link main-menu-link"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="icon-smartnews"><path fill="currentColor" d="M13.611 16.481H4.167a.463.463 0 1 0 0 .926h9.444a.463.463 0 1 0 0-.926M13.611 12.963H4.167a.463.463 0 1 0 0 .926h9.444a.463.463 0 1 0 0-.926M13.611 9.815H4.167a.463.463 0 1 0 0 .926h9.444a.463.463 0 1 0 0-.926M25.833 20.37H17.13a.463.463 0 1 0 0 .926h8.703a.463.463 0 1 0 0-.926M25.833 23.519H17.13a.463.463 0 1 0 0 .926h8.703a.463.463 0 1 0 0-.926M25.185 9.444h-7.592c-.614 0-1.112.498-1.112 1.111v6.112c0 .613.498 1.11 1.112 1.11h7.592c.614 0 1.111-.497 1.111-1.11v-6.112c0-.613-.497-1.11-1.11-1.11M12.963 20H4.815c-.614 0-1.111.498-1.111 1.111v2.963c0 .614.497 1.111 1.11 1.111h8.149c.613 0 1.111-.497 1.111-1.11V21.11c0-.613-.498-1.111-1.111-1.111M1.01.634"/><path fill="currentColor" d="M28.519 27.222c0 .715-.582 1.296-1.297 1.296H2.778a1.3 1.3 0 0 1-1.297-1.296V5h27.037zM27.222 0H2.778A2.78 2.78 0 0 0 1.01.634 2.77 2.77 0 0 0 0 2.778v24.444a2.77 2.77 0 0 0 1.952 2.653c.26.081.538.125.826.125h24.444A2.78 2.78 0 0 0 30 27.222V2.778A2.78 2.78 0 0 0 27.222 0"/></svg></a></li>
@@ -518,7 +518,7 @@ window.nineto5ads.push(function() {
 				<ul class="article__meta-guides fs-xs">
 			<li class="meta__guide"><a href="https://9to5google.com/guides/google-pixel-10/">Google Pixel 10</a></li>
 		</ul>
-									<h1 class="h1">Google pulls the plug on Battery Share for Pixel 10 in favor of Qi2 magnets</h1>				
+									<h1 class="h1">Google pulls the plug on Battery Share for Pixel 10 in favor of Qi2 magnets</h1>
 				<div class="post-meta flex fs-sm">
 											<a class="plain author-image flex center" href="https://9to5google.com/author/nexusben1/">
 							<img alt='Avatar for Ben Schoon' src='https://secure.gravatar.com/avatar/59cb0e121a572a78cfc8040731068741887591b7ef93f5498a8d93310278c0f7?s=30&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/59cb0e121a572a78cfc8040731068741887591b7ef93f5498a8d93310278c0f7?s=60&#038;d=mm&#038;r=r 2x' class='avatar avatar-30 photo author-gravatar' height='30' width='30' decoding='async'/>						</a>
@@ -532,7 +532,7 @@ window.nineto5ads.push(function() {
 		<div id="river" class="river">
 			<div id="content" class="container flex-lg">
 				<div class="container med post-content">
-					
+
 <figure class="img-border featured-image">
 	<img width="1600" height="800" src="https://9to5google.com/wp-content/uploads/sites/4/2025/08/Pixelsnap-charger-on-PIxel-10-Pro.jpg?quality=82&amp;strip=all&amp;w=1600" class="skip-lazy wp-post-image" alt="" srcset="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/Pixelsnap-charger-on-PIxel-10-Pro.jpg?w=320&amp;quality=82&amp;strip=all&amp;ssl=1 320w, https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/Pixelsnap-charger-on-PIxel-10-Pro.jpg?w=640&amp;quality=82&amp;strip=all&amp;ssl=1 640w, https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/Pixelsnap-charger-on-PIxel-10-Pro.jpg?w=1024&amp;quality=82&amp;strip=all&amp;ssl=1 1024w, https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/Pixelsnap-charger-on-PIxel-10-Pro.jpg?w=1500&amp;quality=82&amp;strip=all&amp;ssl=1 1500w" decoding="async" fetchpriority="high" /></figure>
 
@@ -599,7 +599,7 @@ adSlotsConfig.push( {
 	<div class="ad-disclaimer-container"><p class="disclaimer-affiliate"><em>FTC: We use income earning auto affiliate links.</em> <a href="https://9to5mac.com/about/#affiliate">More.</a></p><a href="https://bit.ly/45JXR2v"><img class="alignnone size-medium wp-image-685657" src="https://9to5google.com/wp-content/uploads/sites/4/2025/08/08-19-Pixel-10-Series-Grip-Banner.png?w=700" alt="" width="700" height="140" /></a></div><div id="after_disclaimer_placement"><div class="visitor-promo" data-nosnippet="true">You’re reading 9to5Google — experts who break news about Google and its surrounding ecosystem, day after day. Be sure to check out <a href="http://9to5google.com/">our homepage</a> for all the latest news, and follow 9to5Google on <a href="http://twitter.com/9to5google">Twitter</a>, <a href="http://facebook.com/9to5google">Facebook</a>, and <a href="https://www.linkedin.com/company/9to5google.com/">LinkedIn</a> to stay in the loop. Don’t know where to start? Check out our <a href="https://9to5google.com/feature/exclusive/">exclusive stories</a>, <a href="https://9to5google.com/guides/reviews/">reviews</a>, <a href="https://9to5google.com/guides/how-to/">how-tos</a>, and <a href="https://www.youtube.com/9to5google">subscribe to our YouTube channel</a></div></div>				</div>
 
 <aside class="sidebar container xs">
-	
+
 <div class="featured-items">
 	<h2 attr-title="Featured">
 		Featured	</h2>
@@ -620,9 +620,9 @@ adSlotsConfig.push( {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5google.com/author/damien9to5/">
 			<img alt='Avatar for Damien Wilde' src='https://secure.gravatar.com/avatar/2f24d50b98ae551eda6ef27891a15e0b3470c84d6648bea984e581cd67b539ca?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/2f24d50b98ae551eda6ef27891a15e0b3470c84d6648bea984e581cd67b539ca?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5google.com/author/damien9to5/" title="Posts by Damien Wilde" rel="author">Damien Wilde</a></span>
-	
+
 	<span class="meta__post-date">Sep 9 2025</span>
 
 </div>
@@ -641,9 +641,9 @@ adSlotsConfig.push( {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5google.com/author/nexusben1/">
 			<img alt='Avatar for Ben Schoon' src='https://secure.gravatar.com/avatar/59cb0e121a572a78cfc8040731068741887591b7ef93f5498a8d93310278c0f7?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/59cb0e121a572a78cfc8040731068741887591b7ef93f5498a8d93310278c0f7?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5google.com/author/nexusben1/" title="Posts by Ben Schoon" rel="author">Ben Schoon</a></span>
-	
+
 	<span class="meta__post-date">Sep 10 2025</span>
 
 </div>
@@ -662,9 +662,9 @@ adSlotsConfig.push( {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5google.com/author/willsattelberg/">
 			<img alt='Avatar for Will Sattelberg' src='https://secure.gravatar.com/avatar/5c8c2c7d68f2f51e843cca4e966491741b958ed6cf5b7763dd27e1226dd696cc?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/5c8c2c7d68f2f51e843cca4e966491741b958ed6cf5b7763dd27e1226dd696cc?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5google.com/author/willsattelberg/" title="Posts by Will Sattelberg" rel="author">Will Sattelberg</a></span>
-	
+
 	<span class="meta__post-date">Sep 10 2025</span>
 
 </div>
@@ -683,9 +683,9 @@ adSlotsConfig.push( {
 <div class="post-meta flex">
 					<a class="author__image-link" href="https://9to5google.com/author/andrewromero/">
 			<img alt='Avatar for Andrew Romero' src='https://secure.gravatar.com/avatar/c26dbe2634f44e00e7da2041003e3476ba0fd3474413355077d759948c989a78?s=18&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/c26dbe2634f44e00e7da2041003e3476ba0fd3474413355077d759948c989a78?s=36&#038;d=mm&#038;r=r 2x' class='avatar avatar-18 photo author-gravatar' height='18' width='18' loading='lazy' decoding='async'/>		</a>
-			
+
 		<span class="author__link"><a href="https://9to5google.com/author/andrewromero/" title="Posts by Andrew Romero" rel="author">Andrew Romero</a></span>
-	
+
 	<span class="meta__post-date">Sep 11 2025</span>
 
 </div>
@@ -704,7 +704,7 @@ adSlotsConfig.push( {
 <div class="container med left">
 					<div class="article__youtube-video"><div class="youtube-video__content flex"><div class="icon-play-button"><span class="icon"></span></div><p style="text-align: center"><a href="https://www.youtube.com/c/9to5google?sub_confirmation=1"><i>Check out 9to5Google on YouTube for more news:</i></a></p></div><!-- youtube embed --><div class="fluid-width-video-wrapper wp-block-embed is-type-video"><iframe loading="lazy" title="Recent Videos" data-src="https://www.youtube.com/embed/r-Ux_ET70oo?playlist=1HkscTQFsn0,w5ule023z1c,Rlm0baHuKWI,56IGCuNp0Mw,ZwgABi-lIWo,P6gzbzHgKI0,yJrNh9O5n1A,FZH4o3T9M5g,AemsydKfcn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="1000" height="563"></iframe></div></div><div id="div-gpt-ad-1437016474156-0-685975" class="inlinead ad-container ad-container--river inline-wide-single mobile-and-desktop"></div>						<section id="comments">
 							<h2 attr-title="Comments">Comments</h2>
-							
+
 <!-- Comment script is enqueued in header.php to allow for faster loading. -->
 <div id="openweb-comments" aria-hidden="false">
 	<div
@@ -732,7 +732,7 @@ adSlotsConfig.push( {
 								</span>
 							</button>
 						</section><!-- #comments -->
-						
+
 <div class="related-guides">
 	<h2 attr-title="Guides"><span>Guides</span></h2>
 			<div class="related-guides__list flex-md">
@@ -747,7 +747,7 @@ adSlotsConfig.push( {
 					</a>
 				</div>
 					</div>
-	
+
 	</div>
 <div class="author-bio author-bio-container">
 	<h2 attr-title="Author"><span>Author</span></h2>
@@ -905,7 +905,7 @@ slot.classList.add( classAdded );
 googletag.pubads().setTargeting( 'post_ID', '685975' );
 				googletag.pubads().setTargeting( 'author', 'nexusben1' );
 									googletag.pubads().setTargeting( 'cat', ["google-pixel-10"] );
-					
+
 			googletag.pubads().setTargeting( 'page_type', 'post' );
 
 googletag.pubads().enableLazyLoad({

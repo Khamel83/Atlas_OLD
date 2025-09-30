@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         The normal way to own a share of a company’s profits is to buy its stock. If you find a company that you think is promising, and you want to
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       OpenAI ownership
-    
-  
+
+
 
 The normal way to own a share of a company’s profits is to buy its stock. If you find a company that you think is promising, and you want to give it some money to finance its operations in exchange for a share of its profits, you might buy, say, 10% of its stock, and then in some rough sense you own 10% of its future profits. Not in any very strict sense — the company gets the profits, and may or may not pay some or all of them out to you as dividends — but people do tend to think of a share of stock as a share in future profits.
 But while stock is the standard way to buy a share of a company’s profits, it is not the only way. Here’s another one: I buy 10% of the company’s stock, and then I write you a total return swap, a derivative contract saying that I’ll pay you $1 for every $1 that the stock goes up (and you’ll pay me $1 for every $1 it goes down). That way, you have economic exposure to the stock: You make money if it goes up and lose money if it goes down. But you don’t own the actual shares of stock, or some of the rights that attach to them. (You normally can’t vote for directors, for instance.) You have economic ownership of the stock, but you don’t actually own stock.
@@ -94,12 +94,12 @@ Sure. Ownership of a company consists mainly of being entitled to a share of p
 Also here is a small fun fact about this distinction. When I   wrote about OpenAI last month, I included this organizational chart from its own website:
 
 
-    
+
 
 I clipped that chart from the website myself, on Nov. 19, though I circled “Minority owner” in blue for this post. I went back to  the website yesterday to check, and found this slightly different chart:
 
 
-    
+
 
 See the difference? Again, I took the liberty of circling it in blue. I do not know the details of Microsoft’s contractual arrangement with OpenAI, or if they have changed since November. But in November, OpenAI’s website said that Microsoft was a “minority owner” of its capped-profit subsidiary. In December, when “it is important to note that Microsoft does not own any portion of OpenAI,” the website says it has a “minority economic interest.” You can see how people might confuse those things, since OpenAI did.
 One other thing I should say is that  here is a claim that OpenAI’s employees get a capped profit interest instead of stock (or stock options, or restricted stock units), because of its nonprofit structure, and that this profit interest gets better tax treatment, for them, than standard startup equity awards:
@@ -109,37 +109,37 @@ In contrast, with a traditional Restricted Stock Unit (RSU) that you’d see at 
 
 Regulatory arbitrage everywhere!
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elsewhere in AI economics
-    
-  
+
+
 
 Some complaints that you hear sometimes, or that I do anyway, are:
 	Index funds are “worse than Marxism”: By not choosing between companies, but just buying all of them, they sap the dynamism of financial capitalism and lead to an essentially socialist economy. 	Index funds are  bad for competition: If all of the public companies are owned by the same half-dozen big investment managers, then those managers won’t want the companies to compete with one another; they will just want to maximize the overall pool of corporate profits to benefit their joint owners. 	Index funds are bad for investors, for practical reasons: The S&P 500, the most important US stock index, is  heavily weighted to a few enormous tech companies that have had a remarkable run of growth recently, so you are not really getting much diversification from your index fund, and you are taking a lot of risk on those few companies. 	Index funds are socialism, and that’s great: We could nationalize index funds and give shares of them to everyone, and then we’ll have (1) ownership of the means of production by the masses and (2) good enough financial performance and innovation; after all, companies are largely owned by big diversified asset managers now and they still manage to innovate and compete. You get the egalitarian benefits of socialism, but also the economic benefits of modern financial capitalism. (“Index Funds Are A Proof Of Concept For Market Socialism,”  Matt Bruenig has argued.) I guess this one isn’t really a complaint.	Artificial intelligence will take over the world,   not necessarily in a “robots will kill us all to make  paper clips” way but in the sense that AI will be much better at most jobs than humans are, which will create enormous abundance and leisure time, but which will also put many humans out of work. The benefits of AI will accrue only to the plutocrats that own the robots, while the masses who are put out of work by the robots will be immiserated and have no source of income, so we need universal basic income to prevent misery and/or revolution. (This is, for instance, possibly Sam Altman’s view?) 
@@ -156,11 +156,11 @@ Nick Rubinstein, technology stock portfolio manager at Jennison Associates, is c
 
 Yeah I mean the possibilities are (1) AI takes over the world imminently, which is good for S&P 500 investors qua S&P 500 investors, or (2) it doesn’t, which is probably good for most S&P 500 investors qua professional knowledge workers whose jobs could get squeezed by AI. Owning Nvidia stock is a decent hedge to getting replaced by an Nvidia-powered robot!
 
-  
-    
+
+
       Cow burps
-    
-  
+
+
 
 The basic situation is that some processes on Earth release carbon into the atmosphere and accelerate climate change, while other processes on Earth capture or store carbon and reduce climate change. Burning jet fuel releases carbon, trees store carbon, etc. We would like less climate change, which means encouraging the processes that store carbon and reducing the ones that release carbon. There are various (voluntary and regulatory) systems for “carbon credits” or “carbon offsets,” the theory of which is roughly that people who engage in carbon-releasing processes can pay money to encourage other people to engage in carbon-storing processes to offset their emissions. Airlines in Europe can send money to forest conservationists who will protect trees in Africa, offsetting the carbon released by the airlines with the carbon stored by the trees.
 The   fundamental   questions in all of this are usually about baselines. One way to think about trees is “chopping down trees releases carbon, so it is carbon-emitting, while leaving the trees alone is neutral; maybe planting trees reduces climate change, but you can’t get credit for just leaving existing trees alone.” Another (far more common) way to think about trees is “the trees store carbon, so leaving the trees alone is carbon-reducing, so you can generate carbon credits by leaving trees alone.” Perhaps the question is what process you are measuring: The process of “being a tree” stores carbon and is good; the process of “cutting down trees” releases carbon and is bad.
@@ -174,11 +174,11 @@ Each credit would represent a metric tonne of emissions and would be met by impr
 Okay. Here is  the proposal, and I went directly to  the section on “Baseline scenario GHG [greenhouse gas] emissions,” which has a bunch of equations to quantify how much gas the cows were burping before the project started. Then you improve the diet, they burp less, you calculate how much they’re burping now, you subtract, and that difference is how much credit you can claim. You sell the burping reductions to like an oil-sands company to offset their emissions. Drilling up oil causes carbon emissions, and cows burping cause carbon emissions, but, through the magic of accounting, getting the cows to burp less offsets the oil drillers’ carbon emissions.
 What are the chances that there will be some sort of cow burp accounting scandal, where ranchers claim excessive credits by manipulating the inputs into the formulas? Not zero, right? Teach the cows to burp quietly so the carbon credit auditors don’t notice them? If I am writing about a cow burp accounting scandal here in 2026 that will be a life well lived.
 
-  
-    
+
+
       GameStop
-    
-  
+
+
 
 A long time ago, a skilled investor named Warren Buffett bought a lot of stock in a struggling textile manufacturer named Berkshire Hathaway Inc., thinking it was undervalued.
   [6]
@@ -194,25 +194,25 @@ The company did not hold a quarterly conference call with Wall Street analysts, 
 Oh, sure, I mean, that’s a standard thing to say about conglomerates. Investors who want to own Stock X can buy Stock X; there’s no need for GameStop to buy it for them. Investors who want a skilled professional to buy stocks for them can hire a skilled professional, or buy a mutual fund; there’s no need for them to let the chief executive officer of a video game retailer pick stocks for them, or to link his stock-picking portfolio to the performance of the video game stores.
 On the other hand, the point is not that shareholders have better options than investing in public equities through GameStop. The point is that GameStop … maybe … doesn’t? If you run GameStop and your diagnosis of the company’s problems is “we are a dying mall retailer of video games,” you might be tempted to diversify into letting your meme-stock chief executive officer YOLO your money on public stocks, whether or not that is strictly optimal as a matter of corporate financial theory. “If GameStop truly believes in the value of its shares, it should use its excess cash to buy back stock,” sure, but what if it doesn’t? What if the right model of GameStop is “wow, people threw a lot of money at us for mystifying reasons, but using the money to spruce up our mall stores would be crazy, let’s use it instead to pivot to, uh, whatever Ryan Cohen wants to buy”? 
 
-  
-    
+
+
       Hamas insider trading?
-    
-  
+
+
 
 We   talked last week about a  paper purporting to find evidence of insider trading in advance of the Oct. 7 Hamas attacks in Israel. I found it inconclusive. But here’s a  pretty thorough debunking by Alexandra Scaggs and Louis Ashworth at FT Alphaville, pointing out that the suspicious trades cited by the paper are all pretty small, and that the timing doesn’t actually look all that suspicious.
 More generally, if you knew in advance about the Oct. 7 attacks, there were many possible ways to trade it. You could short Israeli stocks on the Tel Aviv Stock Exchange, or trade options on those stocks, or short American depositary receipts on those stocks on US exchanges, or trade options on those ADRs, or short Israel-focused exchange-traded funds, or buy defense contractor stocks, or sell the Israeli shekel, or buy crude oil futures, or do any number of other things. Lots of asset prices would reasonably predictably move on news of a Hamas attack on Israel. 
 One thing this means is that, if a sophisticated trader was using inside information about Hamas attacks to make money, it would be hard to catch them. But another thing it means is that, if a sophisticated academic was trying to find evidence of such trades, it’s pretty easy! Just, like, think of all the ways that someone might hypothetically trade on inside information about the Oct. 7 attacks, and then see if there was any abnormal volume in any of them on any of the days leading up to the attacks. Odds are that there will be abnormal volume in some of them at some point — someone is always making a big bet on something — and then you’ve got yourself a good headline.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Citadel Hedge Fund Alum Raises $3.5 Billion for ‘Anti-Pod’ Multimanager Firm. Billionaire Steve Cohen Pushes   Point72 Deeper Into Macro Trading. Investor Group Launches $5.8 Billion Buyout  Bid for Macy’s. SEC Probes Investment Advisers’ Use of AI. Why  Treasury Auctions Have Wall Street on Edge. Rate Cut Pivot Can’t Come Soon Enough for   Debt-Strapped Companies. Central banks  prepare to rebuff investors over path of interest rates. You’re Better Off   Going All In on Stocks Than Bonds, New Research Finds. Law Firms Escalate  Talent War Even in Slower Economy. Cigna Calls Off Humana Pursuit, Plans Big Stock Buyback. Occidental to Buy Oil Driller   CrownRock in $12 Billion Deal. Brookfield chides US bank regulator for  ‘secret’ auction of housing loans. India’s NSE set to  take Hong Kong’s spot among world’s largest markets. Ex-Credit Suisse CEO   Thiam Seeks Key Ivory Coast Opposition Role.   AI-Powered Drive-Thru Is Actually Run Almost Entirely By Humans.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] There are various other derivatives with similar profiles (contracts for difference, put/call combos, penny-strike calls, forwards, etc.), and also derivatives (collars, variable share forwards, etc.) that give you *some* but not all of the economic exposure to the stock.
 
 
@@ -231,48 +231,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [6] Buffett describes some of this history in his  1985 shareholder letter. Some of it is  from Wikipedia.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -283,46 +283,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck1cmm.64zm/ca0eff6e.gif" alt="" border="0" /></a>

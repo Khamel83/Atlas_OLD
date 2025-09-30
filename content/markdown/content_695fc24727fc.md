@@ -67,17 +67,17 @@
 </head>
   <body class="no-main-overlap path-not-frontpage section-node content-full-page">
     <a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
-    
+
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    
-  
-  
+
+
+
 <a name="top" id="top"></a>
 
 <div class="region-utility">
     <div class="region-utility-inner">
       <nav role="navigation" aria-labelledby="block-utilitymenu-3-menu" id="block-utilitymenu-3" class="block menu--utility-menu">
-            
+
   <h2 class="visually-hidden block__title" id="block-utilitymenu-3-menu">Utility Menu</h2>
 
 <ul class="menu menu--top-level">
@@ -120,19 +120,19 @@
 
 <header class="region-header">
 	<div class="region-header-inner">
-		
+
         <a class="header-logo-link" href="/web/20250908045810/https://nlihc.org/" title="Home" rel="home">
       <img class="header-logo" src="/web/20250908045810im_/https://nlihc.org/themes/nlihc/logo.svg" alt="National Low Income Housing Coalition" width="250" height="85"/>
     </a>
   <div id="block-nlihc-gtranslate" class="block block-nlihc-gtranslate">
-  
-    
-      
+
+
+
 <div class="gtranslate_wrapper"></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":{"en":"usa","pt":"brazil","es":"mexico"},"wrapper_selector":".gtranslate_wrapper","url_structure":"none","custom_domains":null,"languages":["en","ar","zh-CN","fr","es"],"custom_css":""};</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', 'http://web.archive.org/web/20250908045810/https://cdn.gtranslate.net/widgets/latest/float.js');js.setAttribute('data-gt-orig-url', '/gap');js.setAttribute('data-gt-orig-domain', 'nlihc.org');document.body.appendChild(js);})();</script>
   </div>
 
 <div class="region-navigation-primary">
-    
+
 <div class="megamenu-block">
       <nav class="main navbar navbar-default navbar-we-mega-menu mobile-collapse hover-action menu--main" data-menu-name="main" data-block-theme="nlihc" data-style="Default" data-animation="None" data-delay="" data-duration="" data-autoarrow="" data-alwayshowsubmenu="" data-action="hover" data-mobile-collapse="0">
 	<ul class="we-mega-menu-ul nav nav-tabs">
@@ -143,7 +143,7 @@
     <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span3" data-element-type="we-mega-menu-col" data-width="3" data-block="policyprorities" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-policyprorities-menu" id="block-policyprorities" class="block menu--policy-prorities">
-            
+
   <h2 class="visually-hidden block__title" id="block-policyprorities-menu">Policy Priorities</h2>
 
 <ul class="menu menu--top-level">
@@ -185,7 +185,7 @@
 </div>
 <div class="we-mega-menu-col span2" data-element-type="we-mega-menu-col" data-width="2" data-block="projectscampaigns" data-blocktitle="1" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><h2>Projects &amp; Campaigns</h2><nav role="navigation" aria-labelledby="block-projectscampaigns-menu" id="block-projectscampaigns" class="block menu--projects-campaigns">
-            
+
   <h2 class="visually-hidden block__title" id="block-projectscampaigns-menu">Projects &amp; Campaigns</h2>
 
 <ul class="menu menu--top-level">
@@ -221,7 +221,7 @@
 </div>
 <div class="we-mega-menu-col span2" data-element-type="we-mega-menu-col" data-width="2" data-block="housingprograms" data-blocktitle="1" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><h2>Housing Programs</h2><nav role="navigation" aria-labelledby="block-housingprograms-menu" id="block-housingprograms" class="block menu--housing-programs">
-            
+
   <h2 class="visually-hidden block__title" id="block-housingprograms-menu">Housing Programs</h2>
 
 <ul class="menu menu--top-level">
@@ -254,7 +254,7 @@
 </div>
 <div class="we-mega-menu-col span2" data-element-type="we-mega-menu-col" data-width="2" data-block="publicationsresearch" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-publicationsresearch-menu" id="block-publicationsresearch" class="block menu--publications-research">
-            
+
   <h2 class="visually-hidden block__title" id="block-publicationsresearch-menu">Publications &amp; Research</h2>
 
 <ul class="menu menu--top-level">
@@ -296,7 +296,7 @@
 </div>
 <div class="we-mega-menu-col span2" data-element-type="we-mega-menu-col" data-width="2" data-block="whywecare" data-blocktitle="1" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><h2>Why We Care</h2><nav role="navigation" aria-labelledby="block-whywecare-menu" id="block-whywecare" class="block menu--why-we-care">
-            
+
   <h2 class="visually-hidden block__title" id="block-whywecare-menu">Why We Care</h2>
 
 <ul class="menu menu--top-level">
@@ -317,7 +317,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col" data-element-type="we-mega-menu-col">
   <ul class="nav nav-tabs subul">
-  
+
 </ul>
 </div>
 
@@ -325,7 +325,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col" data-element-type="we-mega-menu-col">
   <ul class="nav nav-tabs subul">
-  
+
 </ul>
 </div>
 
@@ -333,7 +333,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col" data-element-type="we-mega-menu-col">
   <ul class="nav nav-tabs subul">
-  
+
 </ul>
 </div>
 
@@ -341,7 +341,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col" data-element-type="we-mega-menu-col">
   <ul class="nav nav-tabs subul">
-  
+
 </ul>
 </div>
 
@@ -351,13 +351,13 @@
 </div>
 </li><li class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="82697875-0768-45c8-a322-09266b7b3eb0" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/housing-needs-by-state" target="">Housing Needs By State    </a>
-    
+
 </li><li class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="71b51951-9652-44da-8e3c-1b27f34a5241" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/take-action" target="">Take Action    </a>
-    
+
 </li><li class="we-mega-menu-li button" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="e735e6e9-f96b-4e82-b227-49d80b74b95c" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="button" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="http://web.archive.org/web/20250908045810/https://nlihc.org/donate" target="">Donate    </a>
-    
+
 </li>
 </ul>
 </nav>
@@ -370,7 +370,7 @@
 </div>
 
 <div id="navigation-mobile" class="region-navigation-mobile">
-    
+
 <div class="megamenu-block">
       <nav class="mobile-navigation navbar navbar-default navbar-we-mega-menu mobile-collapse click-action menu--main" data-menu-name="mobile-navigation" data-block-theme="nlihc" data-style="Default" data-animation="None" data-delay="" data-duration="" data-autoarrow="" data-alwayshowsubmenu="1" data-action="clicked" data-mobile-collapse="1">
 	<ul class="we-mega-menu-ul nav nav-tabs">
@@ -381,7 +381,7 @@
     <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="policyprioritiessidebar" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-policyprioritiessidebar-menu" id="block-policyprioritiessidebar" class="block menu--policy-priorities-sidebar">
-            
+
   <h2 class="visually-hidden block__title" id="block-policyprioritiessidebar-menu">Policy Priorities</h2>
 
 <ul class="menu menu--top-level">
@@ -423,7 +423,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="projectscampaignssidebar" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-projectscampaignssidebar-menu" id="block-projectscampaignssidebar" class="block menu--projects-campaigns-sidebar">
-      
+
   <h2 id="block-projectscampaignssidebar-menu" class="block__title">Projects &amp; Campaigns</h2>
 
 <ul class="menu menu--top-level">
@@ -465,7 +465,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="housingprograms" data-blocktitle="1" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><h2>Housing Programs</h2><nav role="navigation" aria-labelledby="block-housingprograms-menu" id="block-housingprograms" class="block menu--housing-programs">
-            
+
   <h2 class="visually-hidden block__title" id="block-housingprograms-menu">Housing Programs</h2>
 
 <ul class="menu menu--top-level">
@@ -501,7 +501,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="publicationsresearchmobile" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-publicationsresearchmobile-menu" id="block-publicationsresearchmobile" class="block menu--publications-research-mobil">
-            
+
   <h2 class="visually-hidden block__title" id="block-publicationsresearchmobile-menu">Publications &amp; Research Mobile</h2>
 
 <ul class="menu menu--top-level">
@@ -534,7 +534,7 @@
 <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="whywecare" data-blocktitle="1" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><h2>Why We Care</h2><nav role="navigation" aria-labelledby="block-whywecare-menu" id="block-whywecare" class="block menu--why-we-care">
-            
+
   <h2 class="visually-hidden block__title" id="block-whywecare-menu">Why We Care</h2>
 
 <ul class="menu menu--top-level">
@@ -557,16 +557,16 @@
 </div>
 </li><li class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" description="COVID-19 &amp; Housing/Homelessness" data-id="1b0750d9-714a-45c1-9898-4536d68c9c5c" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/housed" target="">HoUSed    </a>
-    
+
 </li><li class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="e5641302-5e84-41d7-8d7e-4138d8cd3dfa" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/housing-needs-by-state" target="">Housing Needs By State    </a>
-    
+
 </li><li class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="90ffc32d-c3f1-42ee-b592-1cb54877ebc4" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/take-action" target="">Take Action    </a>
-    
+
 </li><li class="we-mega-menu-li button" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="63c71300-4ab9-4f63-85f4-8b9318faa2db" data-submenu="0" data-hide-sub-when-collapse="" data-group="0" data-class="button" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/membership" target="">Become a Member    </a>
-    
+
 </li><li class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="8ffa3f53-c0cd-4bf0-bdaf-56fdfb87da27" data-submenu="1" data-hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
       <a class="we-mega-menu-li__link" title="" href="/web/20250908045810/https://nlihc.org/about" target="">About Us    </a>
     <div class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
@@ -574,7 +574,7 @@
     <div class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="1">
   <div class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="mobileaboutus" data-blocktitle="0" data-hidewhencollapse="" data-class="">
     <div class="type-of-block"><div class="block-inner"><nav role="navigation" aria-labelledby="block-mobileaboutus-menu" id="block-mobileaboutus" class="block menu--mobile-about-us">
-            
+
   <h2 class="visually-hidden block__title" id="block-mobileaboutus-menu">Mobile About Us</h2>
 
 <ul class="menu menu--top-level">
@@ -615,7 +615,7 @@
 </nav>
   </div>
 <nav role="navigation" aria-labelledby="block-mobileutilitynavigation-menu" id="block-mobileutilitynavigation" class="block menu--mobile-utility-navigation">
-            
+
   <h2 class="visually-hidden block__title" id="block-mobileutilitynavigation-menu">Mobile Utility Navigation</h2>
 
 <ul class="menu menu--top-level">
@@ -668,7 +668,7 @@
 
 <div class="region-content">
     <div data-drupal-messages-fallback class="hidden"></div><nav role="navigation" aria-labelledby="block-gap-menu" id="block-gap" class="block menu--gap">
-            
+
   <h2 class="visually-hidden block__title" id="block-gap-menu">Gap Section Menu</h2>
 
 <ul class="menu menu--top-level">
@@ -687,9 +687,9 @@
 <article data-history-node-id="11221" class="full-page">
 
 <div class="text-paragraph prose">
-    	
+
       <div class="text-paragraph__content">
-        
+
   <div class="button-group">
 <div class="button-stack">
 <a class="btn btn--blueDownload" download="" href="/web/20250908045810/https://nlihc.org/sites/default/files/gap/2025/gap-report_2025_english.pdf" target="_blank" rel="noopener">Full Report</a>
@@ -720,8 +720,8 @@
       </div>
 
 <div class="views-paragraph gap-map-legend">
-    	
-      
+
+
   <div class="views-paragraph__header">
     <h2>No State Has an Adequate Supply of Affordable Rental Housing for the Lowest-Income Renters</h2>
   </div>
@@ -753,9 +753,9 @@
 </div>
 
 <div class="views-paragraph gap-map">
-    	
-      
-      
+
+
+
   <div class="views-paragraph__view">
     <div class="views-element-container">
 
@@ -765,11 +765,11 @@
   </div>
 
 <div class="view view-gap-map view-id-gap_map view-display-id-map_landing js-view-dom-id-ea1d754d3ff61790829df58a3344af256a5c8cb9538e55cc061b42683828ffbc" id="text">
-    
-        
-            
+
+
+
           <div class="view-content">
-            <div class="state ID gap-popup"><div class="cost" data-cost="average">    
+            <div class="state ID gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Idaho</h3>
 <h4 class="gap-popup__amount">37,573</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -778,9 +778,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/id" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NV gap-popup"><div class="cost" data-cost="below">    
+    <div class="state NV gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Nevada</h3>
 <h4 class="gap-popup__amount">93,574</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -789,9 +789,9 @@
 <h4 class="gap-popup__amount">86%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nv" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state UT gap-popup"><div class="cost" data-cost="below">    
+    <div class="state UT gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Utah</h3>
 <h4 class="gap-popup__amount">68,715</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -800,9 +800,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ut" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state IL gap-popup"><div class="cost" data-cost="average">    
+    <div class="state IL gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Illinois</h3>
 <h4 class="gap-popup__amount">442,902</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -811,9 +811,9 @@
 <h4 class="gap-popup__amount">75%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/il" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NH gap-popup"><div class="cost" data-cost="average">    
+    <div class="state NH gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">New Hampshire</h3>
 <h4 class="gap-popup__amount">40,683</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -822,9 +822,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nh" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state VT gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state VT gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Vermont</h3>
 <h4 class="gap-popup__amount">20,551</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -833,9 +833,9 @@
 <h4 class="gap-popup__amount">72%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/vt" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state IN gap-popup"><div class="cost" data-cost="average">    
+    <div class="state IN gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Indiana</h3>
 <h4 class="gap-popup__amount">220,399</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -844,9 +844,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/in" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NJ gap-popup"><div class="cost" data-cost="average">    
+    <div class="state NJ gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">New Jersey</h3>
 <h4 class="gap-popup__amount">296,565</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -855,9 +855,9 @@
 <h4 class="gap-popup__amount">75%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nj" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state VA gap-popup"><div class="cost" data-cost="average">    
+    <div class="state VA gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Virginia</h3>
 <h4 class="gap-popup__amount">243,675</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -866,9 +866,9 @@
 <h4 class="gap-popup__amount">77%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/va" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state IA gap-popup"><div class="cost" data-cost="average">    
+    <div class="state IA gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Iowa</h3>
 <h4 class="gap-popup__amount">94,997</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -877,9 +877,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ia" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NM gap-popup"><div class="cost" data-cost="above">    
+    <div class="state NM gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">New Mexico</h3>
 <h4 class="gap-popup__amount">65,113</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -888,9 +888,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nm" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state WA gap-popup"><div class="cost" data-cost="below">    
+    <div class="state WA gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Washington</h3>
 <h4 class="gap-popup__amount">238,086</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -899,9 +899,9 @@
 <h4 class="gap-popup__amount">77%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/wa" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state AL gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state AL gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Alabama</h3>
 <h4 class="gap-popup__amount">173,399</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -910,9 +910,9 @@
 <h4 class="gap-popup__amount">69%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/al" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state KS gap-popup"><div class="cost" data-cost="average">    
+    <div class="state KS gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Kansas</h3>
 <h4 class="gap-popup__amount">84,547</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -921,9 +921,9 @@
 <h4 class="gap-popup__amount">72%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ks" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NY gap-popup"><div class="cost" data-cost="average">    
+    <div class="state NY gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">New York</h3>
 <h4 class="gap-popup__amount">981,949</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -932,9 +932,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ny" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state WV gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state WV gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">West Virginia</h3>
 <h4 class="gap-popup__amount">58,710</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -943,9 +943,9 @@
 <h4 class="gap-popup__amount">64%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/wv" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state AK gap-popup"><div class="cost" data-cost="average">    
+    <div class="state AK gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Alaska</h3>
 <h4 class="gap-popup__amount">21,598</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -954,9 +954,9 @@
 <h4 class="gap-popup__amount">63%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ak" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state KY gap-popup"><div class="cost" data-cost="above">    
+    <div class="state KY gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Kentucky</h3>
 <h4 class="gap-popup__amount">170,271</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -965,9 +965,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ky" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NC gap-popup"><div class="cost" data-cost="above">    
+    <div class="state NC gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">North Carolina</h3>
 <h4 class="gap-popup__amount">332,199</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -976,9 +976,9 @@
 <h4 class="gap-popup__amount">73%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nc" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state WI gap-popup"><div class="cost" data-cost="average">    
+    <div class="state WI gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Wisconsin</h3>
 <h4 class="gap-popup__amount">190,989</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -987,9 +987,9 @@
 <h4 class="gap-popup__amount">73%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/wi" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state AZ gap-popup"><div class="cost" data-cost="below">    
+    <div class="state AZ gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Arizona</h3>
 <h4 class="gap-popup__amount">183,275</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -998,9 +998,9 @@
 <h4 class="gap-popup__amount">81%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/az" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state LA gap-popup"><div class="cost" data-cost="above">    
+    <div class="state LA gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Louisiana</h3>
 <h4 class="gap-popup__amount">184,085</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1009,9 +1009,9 @@
 <h4 class="gap-popup__amount">73%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/la" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state ND gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state ND gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">North Dakota</h3>
 <h4 class="gap-popup__amount">29,415</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1020,9 +1020,9 @@
 <h4 class="gap-popup__amount">63%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/nd" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state WY gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state WY gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Wyoming</h3>
 <h4 class="gap-popup__amount">15,284</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1031,9 +1031,9 @@
 <h4 class="gap-popup__amount">62%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/wy" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state AR gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state AR gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Arkansas</h3>
 <h4 class="gap-popup__amount">104,834</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1042,9 +1042,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ar" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state ME gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state ME gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Maine</h3>
 <h4 class="gap-popup__amount">37,977</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1053,9 +1053,9 @@
 <h4 class="gap-popup__amount">65%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/me" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state OH gap-popup"><div class="cost" data-cost="average">    
+    <div class="state OH gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Ohio</h3>
 <h4 class="gap-popup__amount">438,108</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1064,9 +1064,9 @@
 <h4 class="gap-popup__amount">71%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/oh" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state CA gap-popup"><div class="cost" data-cost="below">    
+    <div class="state CA gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">California</h3>
 <h4 class="gap-popup__amount">1,288,946</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1075,9 +1075,9 @@
 <h4 class="gap-popup__amount">78%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ca" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MD gap-popup"><div class="cost" data-cost="average">    
+    <div class="state MD gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Maryland</h3>
 <h4 class="gap-popup__amount">196,936</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1086,9 +1086,9 @@
 <h4 class="gap-popup__amount">77%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/md" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state OK gap-popup"><div class="cost" data-cost="average">    
+    <div class="state OK gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Oklahoma</h3>
 <h4 class="gap-popup__amount">137,094</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1097,9 +1097,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ok" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state CO gap-popup"><div class="cost" data-cost="below">    
+    <div class="state CO gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Colorado</h3>
 <h4 class="gap-popup__amount">180,825</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1108,9 +1108,9 @@
 <h4 class="gap-popup__amount">79%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/co" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MA gap-popup"><div class="cost" data-cost="above">    
+    <div class="state MA gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Massachusetts</h3>
 <h4 class="gap-popup__amount">325,216</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1119,9 +1119,9 @@
 <h4 class="gap-popup__amount">63%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ma" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state OR gap-popup"><div class="cost" data-cost="below">    
+    <div class="state OR gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Oregon</h3>
 <h4 class="gap-popup__amount">145,659</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1130,9 +1130,9 @@
 <h4 class="gap-popup__amount">80%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/or" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state CT gap-popup"><div class="cost" data-cost="average">    
+    <div class="state CT gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Connecticut</h3>
 <h4 class="gap-popup__amount">141,158</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1141,9 +1141,9 @@
 <h4 class="gap-popup__amount">73%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ct" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MI gap-popup"><div class="cost" data-cost="average">    
+    <div class="state MI gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Michigan</h3>
 <h4 class="gap-popup__amount">303,691</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1152,9 +1152,9 @@
 <h4 class="gap-popup__amount">74%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/mi" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state PA gap-popup"><div class="cost" data-cost="average">    
+    <div class="state PA gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Pennsylvania</h3>
 <h4 class="gap-popup__amount">425,212</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1163,9 +1163,9 @@
 <h4 class="gap-popup__amount">71%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/pa" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state DE gap-popup"><div class="cost" data-cost="above">    
+    <div class="state DE gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Delaware</h3>
 <h4 class="gap-popup__amount">24,699</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1174,9 +1174,9 @@
 <h4 class="gap-popup__amount">70%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/de" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MN gap-popup"><div class="cost" data-cost="average">    
+    <div class="state MN gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Minnesota</h3>
 <h4 class="gap-popup__amount">165,790</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1185,9 +1185,9 @@
 <h4 class="gap-popup__amount">69%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/mn" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state RI gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state RI gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Rhode Island</h3>
 <h4 class="gap-popup__amount">46,341</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1196,9 +1196,9 @@
 <h4 class="gap-popup__amount">64%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ri" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state DC gap-popup"><div class="cost" data-cost="average">    
+    <div class="state DC gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">District of Columbia</h3>
 <h4 class="gap-popup__amount">54,788</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1207,9 +1207,9 @@
 <h4 class="gap-popup__amount">80%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/dc" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MS gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state MS gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">Mississippi</h3>
 <h4 class="gap-popup__amount">102,509</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1218,9 +1218,9 @@
 <h4 class="gap-popup__amount">66%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ms" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state SC gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state SC gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">South Carolina</h3>
 <h4 class="gap-popup__amount">149,631</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1229,9 +1229,9 @@
 <h4 class="gap-popup__amount">71%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/sc" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state FL gap-popup"><div class="cost" data-cost="below">    
+    <div class="state FL gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Florida</h3>
 <h4 class="gap-popup__amount">557,415</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1240,9 +1240,9 @@
 <h4 class="gap-popup__amount">82%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/fl" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MO gap-popup"><div class="cost" data-cost="above">    
+    <div class="state MO gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Missouri</h3>
 <h4 class="gap-popup__amount">183,939</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1251,9 +1251,9 @@
 <h4 class="gap-popup__amount">68%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/mo" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state SD gap-popup"><div class="cost" data-cost="highest">    
+    <div class="state SD gap-popup"><div class="cost" data-cost="highest">
 <h3 class="gap-popup__title">South Dakota</h3>
 <h4 class="gap-popup__amount">30,961</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1262,9 +1262,9 @@
 <h4 class="gap-popup__amount">64%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/sd" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state GA gap-popup"><div class="cost" data-cost="average">    
+    <div class="state GA gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Georgia</h3>
 <h4 class="gap-popup__amount">341,159</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1273,9 +1273,9 @@
 <h4 class="gap-popup__amount">75%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ga" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state MT gap-popup"><div class="cost" data-cost="above">    
+    <div class="state MT gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Montana</h3>
 <h4 class="gap-popup__amount">27,397</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1284,9 +1284,9 @@
 <h4 class="gap-popup__amount">65%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/mt" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state TN gap-popup"><div class="cost" data-cost="above">    
+    <div class="state TN gap-popup"><div class="cost" data-cost="above">
 <h3 class="gap-popup__title">Tennessee</h3>
 <h4 class="gap-popup__amount">221,466</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1295,9 +1295,9 @@
 <h4 class="gap-popup__amount">71%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/tn" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state HI gap-popup"><div class="cost" data-cost="average">    
+    <div class="state HI gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Hawaii</h3>
 <h4 class="gap-popup__amount">40,629</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1306,9 +1306,9 @@
 <h4 class="gap-popup__amount">71%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/hi" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state NE gap-popup"><div class="cost" data-cost="average">    
+    <div class="state NE gap-popup"><div class="cost" data-cost="average">
 <h3 class="gap-popup__title">Nebraska</h3>
 <h4 class="gap-popup__amount">59,088</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1317,9 +1317,9 @@
 <h4 class="gap-popup__amount">75%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/ne" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
-    <div class="state TX gap-popup"><div class="cost" data-cost="below">    
+    <div class="state TX gap-popup"><div class="cost" data-cost="below">
 <h3 class="gap-popup__title">Texas</h3>
 <h4 class="gap-popup__amount">887,927</h4>
 <p class="gap-popup__label">Number of extremely low income renter households</p>
@@ -1328,11 +1328,11 @@
 <h4 class="gap-popup__amount">81%</h4>
 <p class="gap-popup__label">Extremely low income renter households with severe cost burden</p>
 <p class="gap-popup__link"><a href="/web/20250908045810/https://nlihc.org/gap/state/tx" class="btn btn--blueFill">More info</a></p>
-<span class="arrow"><span></span></span>  
+<span class="arrow"><span></span></span>
 </div></div>
 
 </div>
-    
+
                       </div>
 </div></div>
 
@@ -1341,9 +1341,9 @@
 </div>
 
 <div class="views-paragraph">
-    	
-      
-      
+
+
+
   <div class="views-paragraph__view">
     <div class="views-element-container">
 <ul class="share-links">
@@ -1361,18 +1361,18 @@
 </div>
 
 <div class="text-paragraph prose">
-    	
+
       <div class="text-paragraph__content">
-        
+
   <h2>National Shortage of Affordable Rental Housing</h2><p>The U.S. has a shortage of 7.1 million rental homes affordable and available to renters with extremely low incomes – that is, incomes at or below either the federal poverty guideline or 30% of their area median income, whichever is greater. Only 35 affordable and available rental homes exist for every 100 extremely low-income renter households. Extremely low-income renters face a shortage in every state and major metropolitan area. Among states, the supply of affordable and available rental homes ranges from 17 affordable and available homes for every 100 extremely low-income renter households in Nevada to 62 in North Dakota. In 11 of the 50 largest metropolitan areas in the country, the absolute shortage of affordable and available homes for extremely low-income renters exceeds 100,000 units.</p>
 
 </div>
       </div>
 
 <div class="views-paragraph" id="summary-table">
-    	
-      
-      
+
+
+
   <div class="views-paragraph__view">
     <div class="views-element-container"><div class="js-view-dom-id-eee66bf6c4fa188e4555e6e652edd9f47c6021f7c025c59416af2c36fc7352e8 view-gap-summary-table">
 
@@ -1721,9 +1721,9 @@
       <img class="footer-logo" src="/web/20250908045810im_/https://nlihc.org/themes/nlihc/logo-reversed.svg" alt="National Low Income Housing Coalition" width="310" height="104" loading="lazy"/>
     </a>
   <div id="block-nlihc-footermissionstatement" class="block block-nlihc-footermissionstatement">
-  
-    
-      
+
+
+
   <p><span style="white-space:pre-wrap;">The National Low Income Housing Coalition is dedicated to achieving racially and socially equitable public policy that ensures people with the lowest incomes have quality homes that are accessible and affordable in communities of their choice.</span></p>
 
 </div>
@@ -1732,23 +1732,23 @@
 
 <div class="region-footer-second">
     <div id="block-nlihc-footergetnewsupdates" class="block block-nlihc-footergetnewsupdates">
-  
+
       <h2 class="block__title">Get News Updates</h2>
-    
-      
+
+
   <p>The latest advocacy updates, delivered to your inbox.</p><p><a class="button--primary" href="http://web.archive.org/web/20250908045810/https://nlihc.us4.list-manage.com/subscribe?u=e702259618becdc3f0451bd5d&amp;id=e090383b5e">Sign Up</a></p>
 
 </div>
 <div id="block-nlihc-footercontactus" class="block block-nlihc-footercontactus">
-  
+
       <h2 class="block__title">Contact Us</h2>
-    
-      
+
+
   <p><a class="button--primary" href="/web/20250908045810/https://nlihc.org/contact">Get in Touch</a></p>
 
 </div>
 <nav role="navigation" aria-labelledby="block-nlihc-social-menu" id="block-nlihc-social" class="block menu--social">
-      
+
   <h2 id="block-nlihc-social-menu" class="block__title">Follow Us</h2>
 
 <ul class="menu">
@@ -1775,10 +1775,10 @@
 
 <div class="region-footer-third">
     <div id="block-nlihc-footersupportourwork" class="block block-nlihc-footersupportourwork">
-  
+
       <h2 class="block__title">Help us do more!</h2>
-    
-      
+
+
   <p>Support socially just housing policy.</p><p><a class="button--secondary" href="/web/20250908045810/https://nlihc.org/donate" data-entity-type="node" data-entity-uuid="911f289b-bc5c-4fb7-b725-a5894b250415" data-entity-substitution="canonical" title="Donate">Donate</a></p>
 
 </div>
@@ -1788,7 +1788,7 @@
 </div>
       <div class="region-site-info">
     <nav role="navigation" aria-labelledby="block-nlihc-footer-menu" id="block-nlihc-footer" class="block menu--footer">
-            
+
   <h2 class="visually-hidden block__title" id="block-nlihc-footer-menu">Footer</h2>
 
 <ul class="menu menu--top-level">

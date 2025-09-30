@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out. Thanks!Daniel Och founded his hedge fund f
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out. Thanks!
 
-  
-    
+
+
       Sculptor
-    
-  
+
+
 
 Daniel Och founded his hedge fund firm, Och-Ziff Capital Management, in  1994.
   [1]
@@ -100,37 +100,37 @@ The only “legitimate” interest, the one that Sculptor’s board is supposed 
 Incidentally, a continuing oddity of this deal is that Weinstein and friends aren’t allowed to talk publicly about it: As we   have   discussed, Weinstein signed a nondisclosure agreement with Sculptor that prohibits him from making public bids or otherwise talking about the deal process. The Weinstein group has privately offered $12.25 per share, and the board has publicized that offer and said that it’s too uncertain, but Weinstein isn’t allowed to make his case publicly. It would be interesting to see Weinstein make the case that, you know, “$12.25 per share is more than $11.15 and I really can close the deal, so my offer is better for shareholders.” But he can’t.
 That’s part of why Och has been so public about criticizing the board and the sale process: He is allowed to, while the actual competing bidder is not. But, as the board says, his own interests are not quite the same as those of the shareholders.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Wells Fargo
-    
-  
+
+
 
 At a big bank — or other big financial firm, or other big company generally — most contracts are fulfilled by computer. Often the contracts are also negotiated by computer — if you open a credit card on a company’s website, probably no human negotiated its terms with you — but often they aren’t. Often the process is:
 	A human at the bank negotiates a contract (a mortgage, an exotic derivative, a corporate loan restructuring, whatever) with a human counterparty.	The human at the bank types the terms of the contract into the bank’s computer systems, or hands the contract to some other, lower-paid human at the bank to type them in.	The bank’s computer systems use the typed-in terms to make or collect the payments on the contract.	Probably someone keeps a copy of the actual contract somewhere to refer to in case of disputes or edge cases.
@@ -154,11 +154,11 @@ At the end of the account setup process, after the ASPs transferred the client i
 
 I assume that there were some (many?) examples of Wells Fargo financial advisers who made it a priority, upon getting back new-account-setup notifications for their new clients, to check the fee rates against their handwritten markups of the shelf agreement to make sure that they weren’t making too much money from those clients. But, unsurprisingly, there were some who didn’t.
 
-  
-    
+
+
       Free riding
-    
-  
+
+
 
 Roughly speaking, the way it works is that if you open a brokerage account online and say “hi I have sent you a $1 million check to buy so many stocks,” the broker will let you buy $200,000 worth of stocks right now, even before the check arrives. When I say it like that it doesn’t sound very smart. To be fair:
 	$200,000 is a lot less than $1 million, so if you did send the check it’s fine.	If you didn’t send the check, your stocks stay in the brokerage account, so the broker can just sell them and get most or all of its money back. You can’t sell the stocks and withdraw the money until your check clears.	If you didn’t send the check, you will probably get in trouble.
@@ -185,11 +185,11 @@ All five of Anthony’s deposits ultimately reversed for lack of funds in his as
 Good for him. He settled the case for a promise not to do it again and a fine to be determined later. Someone should hire him as a trader. He has all the important skills: creativity, ethical flexibility, the ability to pick stocks that go up. Also a sense of humor:
 When asked why he made the $1 million in unfunded deposits without having funds to cover the transactions, Anthony excused his conduct as “a joke” and said that he “never really thought of it as fraud.”
 
-  
-    
+
+
       Short swing
-    
-  
+
+
 
 One of the less important US insider trading rules is the “short swing profits” rule, Section 16(b) of the Exchange Act, which says that insiders of public companies aren’t supposed to make profits by rapidly trading in and out of their stock. Intuitively, if you’re the chief executive officer of a company and you know that earnings are going to be disappointing, you can’t sell all your stock the day before earnings and buy it back a week later; if you know that earnings are going to be good, you can’t buy more stock before earnings and sell it a week later. More specifically, the rule says that if you do a purchase and a sale of your company’s stock within six months of each other (in either order), and the purchase price is less than the sale price, you have to give up the profits to the company. There are various technicalities about what counts as a purchase or a sale or ownership — there is a whole industry of Section 16 lawyers — and this rule is one reason that activist investors tend to stay below 10% of their target companies: If they go over 10%, they become Section 16 insiders, and their trading is restricted. 
 Meanwhile, with actual CEOs it just doesn’t come up that much, because most CEOs are at least vaguely aware of the rule and anyway are not actively trading their stock all that frequently.
@@ -199,16 +199,16 @@ I suppose after almost doubling his three-digit investment on well-timed option
 Pursuant to Section 16 reporting requirements, the Form 4 reflects purchases and sales of the Issuer's Class A common stock and derivative securities that were made by the Reporting Person's adult son. The amount of profit realized by the applicable short-swing transactions is approximately $8,500 and has been paid to the Issuer, as required. The Reporting Person was recently notified of the transactions by his son, resulting in today's filing. 
 Arguably the core purpose of Section 16 really is to prevent corporate executives’ adult children from day-trading options on their parents’ companies going into earnings so, you know, great.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Colm Kelleher was always meant to become Europe’s most powerful banker. Visa, Mastercard Prepare to  Raise Credit-Card Fees. China Moves to Stabilize Finances of Troubled   Shadow Bank. Switzerland unveils  money laundering clampdown.   Tiger Cubs’ Wrong-Way Bets Cut Flow of Fresh Cash to a Trickle.  Genesis Creditors Forge New Chapter 11 Deal With Parent Digital Currency Group. Chicago TV Crew   Reporting on Robberies Is Robbed at Gunpoint. AI vs a  giraffe with no spots. Taser  hazing.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] I have slightly stylized the facts in these paragraphs for simplicity; in fact, as of Och-Ziff’s 2007 initial public offering, Och-Ziff had several different operating partnerships that it collectively referred to as the “Och-Ziff Operating Group,” and their names were OZ Management LP, OZ Advisors LP and OZ Advisors LL LP. 
+
+  [1] I have slightly stylized the facts in these paragraphs for simplicity; in fact, as of Och-Ziff’s 2007 initial public offering, Och-Ziff had several different operating partnerships that it collectively referred to as the “Och-Ziff Operating Group,” and their names were OZ Management LP, OZ Advisors LP and OZ Advisors LL LP.
 
 
   [2] That is wildly oversimplified; the more correct thing to say is that Och-Ziff would get to step up its basis in its assets by the fair value of the stock it issued, and then would be able to depreciate or amortize those assets to reduce its taxable income. The assets of a hedge fund firm are mostly goodwill, which is amortized over 15 years. Pages 196 and 197 of the IPO prospectus describe these transactions and their rationale in more detail.
@@ -217,48 +217,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [3] And those payments crystallize with, essentially, optimistic assumptions about the company's future taxable income (and thus ability to use deductions).
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -269,46 +269,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjduwi.5lpu/d866f8a5.gif" alt="" border="0" /></a>

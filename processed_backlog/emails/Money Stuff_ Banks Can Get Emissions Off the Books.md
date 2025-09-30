@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Ahh this is clever: A veteran of alternative investment management has started pitching a new type of securitization he says would allow ban
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Carbon risk transfer
-    
-  
+
+
 
 Ahh   this is clever:
 
@@ -88,37 +88,37 @@ It is interesting to think about pricing in the third case. Assume that a bank m
   [4]
  — I would probably be willing to take all of JPMorgan Chase & Co.’s carbon emissions off their hands, and put them on my balance sheet, for, you know, one basis point of notional value? I feel like that would probably be a nice payday for me and cost me nothing except some time and effort to review the documents, which I would enjoy.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       DWAC
-    
-  
+
+
 
 Last month, a New York state court found Donald Trump liable for a somewhat odd form of fraud. Over the years, Trump borrowed a lot of money from banks, and as part of these deals the banks wanted financial statements from him. Because he is Donald Trump, he delivered inflated vanity financial statements to the banks, and because he is Donald Trump, the banks ignored those financial statements. Everyone knew he was lying about his wealth, because he has very publicly done that for decades, but the banks were able to underwrite the loans without paying too much attention to his inflated estimates of his own net worth, and in fact the loans at issue in this case were paid back and the banks did fine.
   [5]
@@ -160,11 +160,11 @@ Mostly though it seems fitting. Trump was fined $454 million because of his habi
 “This is a meme stock, it’s not the type of thing where you bust out P/E ratios — you can throw that out the window,” said Matthew Tuttle, the chief executive and chief investment officer at Tuttle Capital Management. “DWAC has now become the de facto way to bet on or against Trump,” he added.
 The old world (“just making up your net worth based on your feelings is fraud”) is dying at the exact same time that the new one (“actually there’s a stock ticker for how Donald Trump feels and it has a market cap of several billion dollars”) is being born, and if he times it just right maybe he can use the new stock to pay the old fine.
 
-  
-    
+
+
       Evergrande
-    
-  
+
+
 
 China Evergrande Group is a Chinese real estate developer whose business model involved (1) selling apartments for cash up front and (2) then eventually building them. There are many attractions to this business model. In particular, in the early days, you feel rich: You have all this cash, from the apartments you sold, and you haven’t spent any of it to build the apartments.
 There are, however, obvious problems, or at least temptations. What if you take all that cash and spend it on executive salaries, or buying more land to build more apartments, or advertising to attract new buyers? Then, when you eventually get around to building the apartments that you already sold, you might find out that the cash is all gone and you can’t afford to build them. That would be bad! You would have to go out and borrow more money just to build the apartments you already sold. Or, of course, you could sell even more apartments, to raise the cash to build the ones that you previously sold, but that only kicks the can down the road: Where will you get the money to pay to build the apartments you’re selling now, if you use their purchase price to build the apartments you sold previously? The problem snowballs.
@@ -185,11 +185,11 @@ As the supervisor in charge, Hui used particularly “egregious” means, the re
 
 Obviously this is the sort of thing that a regulator will find interesting after Evergrande collapsed, though it is embarrassing for the regulator — and the auditors! — that they didn’t notice it before. But when Evergrande was pulling in all that cash, I guess everyone faced some temptations.
 
-  
-    
+
+
       Don’t call bribes candies
-    
-  
+
+
 
 One possibility is that bribing government officials is just routine in the world of global commodity trading. Here is a Bloomberg News story about a former Vitol Group trader named Javier Aguilar, who was convicted last month of bribing Ecuadorian officials, and it seems like it would have been bigger news if he had not bribed them:
 
@@ -213,27 +213,27 @@ It was not just Ecuadorian officials that Vitol bribed via Hanst. He sent money 
 
 Nobody’s going to read those messages and think you meant candies!
 
-  
-    
+
+
       Slorg didn’t burn Slerf
-    
-  
+
+
 
 Yesterday’s column discussed a crypto project called Slerf that accidentally lost $10 million of money from buyers in its presale after its anonymous developer hit the wrong button; that developer then apologized in an X Spaces session. I incorrectly attributed this mistake and apology to Slorg, another pseudonymous participant in the Space. It wasn’t Slorg, it was someone else; Slorg didn’t do anything wrong. Alas my all-time favorite Money Stuff headline, “Slorg Is Sorry He Burnt Slerf,” was incorrect, and I apologize to Mr. Slorg. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Japan Ends Era of Negative Rates With Few Clues on Further Hikes. Trading Floors Buzz With Excitement as BOJ Axes Negative Rates. Wall Street Bonuses Slump to 2019 Low After Dealmaking Drought. Russia’s Backdoor to the Global Banking System Is Slamming Shut. Realtors  Reckon With a Seismic Shift to How They Get Paid. “The buyer pool is made up of tech titans and ‘the nepo community.’” Pet  rocks.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] In modern deals, this is ordinarily a funded transaction in which the hedge fund puts up the money in advance, and the premium is paid in the form of a high interest rate on the hedge fund’s money.
 
 
-  [2] Right? Here is the facilitated emissions standard. What about something like: You take your oil-and-gas bankers, you put them in a separate spinoff, you give them enough control so that you don’t consolidate them, they get bookrunning credit for all your oil and gas deals, you take 80% or the fees as a dividend? Would that work? I dunno, someone had better be working on this. 
+  [2] Right? Here is the facilitated emissions standard. What about something like: You take your oil-and-gas bankers, you put them in a separate spinoff, you give them enough control so that you don’t consolidate them, they get bookrunning credit for all your oil and gas deals, you take 80% or the fees as a dividend? Would that work? I dunno, someone had better be working on this.
 
 
   [3] Presumably it becomes 10 tons of facilitated emissions, though perhaps there are some gaps.
@@ -263,48 +263,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [11] Last year, Evergrande “rejected” GMT’s conclusions that it “inflated revenue and profits for years” and was “never profitable.”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -315,46 +315,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckon2x.5ikx/a5d0a69d.gif" alt="" border="0" /></a>

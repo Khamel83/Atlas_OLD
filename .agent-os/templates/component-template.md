@@ -14,10 +14,10 @@ Brief description of what this component does and why it exists.
 class {ComponentName}:
     def __init__(self, config: Config):
         """Initialize component with configuration."""
-        
+
     def main_method(self, input_data: DataType) -> ReturnType:
         """Primary method description."""
-        
+
     def _private_method(self) -> None:
         """Internal helper method."""
 ```
@@ -38,7 +38,7 @@ COMPONENT_TIMEOUT=30
 ```python
 def test_{component_name}_basic_functionality():
     """Test basic component operation."""
-    
+
 def test_{component_name}_error_handling():
     """Test error scenarios."""
 ```

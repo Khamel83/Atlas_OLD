@@ -7,139 +7,139 @@
 
 
 
-  
-  
-    
-      
-        
-          
-            
-          
-        
-      
-
-
-        
-            
-                
-                    
-                
-            
-        
-    
 
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Does Elon Musk control Tesla?In 2016, Elon Musk was the chief executive officer, chairman of the board, chief product officer, co-founder[1] and largest shareholder of Tesla Inc. He was also the co-founder, chairman and largest shareholder of SolarCity Corp. He decided that Tesla, which makes electric cars, should acquire SolarCity, which installs home solar panels. So he “persistently”[2] raised the idea with Tesla’s board, which ignored him the first few times but eventually agreed that Tesla should buy SolarCity. Terms of a deal were negotiated, with Musk more or less recusing himself from the negotiations. Eventually an all-stock acquisition was announced and presented to Tesla’s and SolarCity’s shareholders; a majority of the independent (i.e., not Musk) shareholders approved the deal, and it closed in November 2016.There is an obvious conflict of interest when the CEO of a big public company wants that company to acquire another company that he owns, particularly where the target was maybe not in the greatest financial shape. (“By any measure, SolarCity was in the midst of a liquidity crisis” at the time, said a judge. “I don’t think SolarCity was financially troubled,” said Musk.) And so some Tesla shareholders are suing Musk in a court in Delaware (where Tesla, like most U.S. public companies, is incorporated), arguing that Tesla should not have bought SolarCity, that it overpaid, and that Musk should pay it back.The rules here are a little strange.[3] Oversimplifying quite a bit, the main rule is that, as a matter of theoretical Delaware corporate law, the board of directors runs the company and can decide what to do. If the CEO comes to the board and says “hey let’s do a transaction that benefits me personally,” the board can just say no. Or it can say yes, but if it says yes it is — again, oversimplifying quite a bit — generally assumed to be acting in the best interests of the company, not just doing the CEO a favor. The “business judgment rule” gives directors enormous discretion to make decisions for the company, as long as they do not themselves have a conflict of interest.In practice then there are always tons of arguments about whether they are conflicted, etc., and whether the business judgment rule should apply, but the point here is that the board is generally the decision-maker about mergers under Delaware law. So if you are mad about a merger, you sue the directors, and then you try to establish that they did something wrong. And in fact the disgruntled Tesla shareholders did sue the directors for violating their fiduciary duties, and they (other than Musk) “agreed to settle last year for a combined $60 million, paid by insurance,” while denying wrongdoing.But the disgruntled Tesla shareholders here aren't really mad at the board, they’re mad at Musk. They are suing him, too, for breach of fiduciary duty. You might intuitively think “you were the CEO, you did a conflicted merger, and it was bad” would be a good breach-of-fiduciary-duty case, but it doesn’t quite work that way, in part because as a theoretical matter the CEO didn’t do the merger, the board did. Instead, the shareholders are suing Musk for violating his fiduciary duty to them as a controlling shareholder. The rule under Delaware law is that, if someone owns 51% of the stock (or rather 51% of the voting power, as some companies have dual-class stocks), they have fiduciary duties not to exploit the other shareholders. After all, if you control the voting power of the stock, you can replace the board whenever you want, and you can make them do whatever you want. So the law gives you a duty not to use that power unfairly.And then there is a certain amount of vagueness where if someone owns like 45% of the stock but has lots of other power over the company — if he “exercises control over the business affairs of the corporation” — then he is considered a controlling shareholder and has fiduciary duties and can be sued for doing a merger that other shareholders don’t like. And there’s no particular precision about the number; maybe 40% is enough, depending on what other sorts of control he has. Maybe 22%.A rough, not quite accurate, but intuitive way to put it is that if Musk was just the CEO, chairman, co-founder and largest shareholder of Tesla and did a conflicted merger, you can't sue him for it because he worked for the board of directors and the board did the merger, but if he was the CEO, chairman, co-founder and controlling shareholder of Tesla and did a conflicted merger, you can sue him for it, because then the board worked for him.At the time of the SolarCity deal, Elon Musk owned 22.1% of Tesla’s stock. (It’s 17.7% now.) And now he is testifying in a trial in Delaware about whether he was the controlling shareholder of Tesla.  I guess it’s going well, I dunno:Elon Musk was cool but combative as he testified in a Delaware courtroom that Tesla Inc.’s more than $2 billion acquisition of SolarCity in 2016 wasn’t a bailout of the struggling solar provider.Musk said he “definitely” did not have any sway over the company’s board when it approved the SolarCity deal. The Tesla chief executive officer also denied vowing to retaliate against any director who voted against the acquisition and said he had no control over their compensation or board committee assignments. …Musk, during questioning by his attorney, said Tesla’s now-Chairwoman Robyn Denholm set the final price and deal terms for the SolarCity buyout.The Tesla board kept Musk updated on the basic progress of the deal, but he otherwise recused himself, Musk testified. He scoffed at the idea that he controlled Tesla’s shareholders.“I don’t think it’s possible to control” big institutional investors like Fidelity and T. Rowe Price, he said.It’s worth saying that the distinction here doesn’t make a ton of sense. There are some companies where the CEO owns 51% of the voting power and can just do whatever he wants, and there are other companies where the CEO owns 20% of the voting power, or less, and can just do whatever he wants. Tesla’s board is famously, ludicrously deferential to Musk. Musk’s brother is on the board. In 2018, after Musk did a little fun securities fraud on Twitter, the U.S. Securities and Exchange Commission ordered Tesla to get a more independent board and supervise Musk better; as a result Tesla now has an independent chairwoman, though I am not sure that much else has changed, and Musk is obviously un-supervisable.  Also:At one point, the self-described “Technoking” said he doesn’t want to be CEO of Tesla but felt he had no choice. “I tried hard not to be the CEO at Tesla, but I had to or it would die,” he testified. “I rather hate being a boss. I’m an engineer.” Musk has been the CEO of the company since 2008.If you are trying to prove that you don’t control Tesla's board, I’m not sure saying “I had to be the CEO or it would die” is helpful? Like you could imagine this dialogue:Musk: Let's buy SolarCity.Board: No that makes no sense.Musk: Okay I quit.Board: Wait you can’t quit, the company will die.Musk: Okay let's buy SolarCity.Board: …Musk: …Board: Fine.If you’ve got a wealthy impulsive CEO who is also the only person who could possibly lead the company, you have to let him do whatever he wants! Just as a matter of fiduciary responsibility to shareholders, I mean, the directors should prefer approving a terrible conflicted deal that they hate if the alternative is disappointing Musk and possibly losing him.But the point I want to stress here is that this is a matter of being a charismatic founder-CEO, not a controlling shareholder. The fact that Musk owns 18% or 22% of Tesla’s stock is not what gives him power over Tesla; what gives him power over Tesla is that he is the CEO and product architect and visionary and social media manager, and it would die without him, or so he and the board and let's face it the shareholders think. This has nothing to do with his shareholder voting power or his ability or inability, as a matter of technical corporate governance, to remove directors who disagree with him. It has to do with his personality, and his job as CEO, and the love that retail shareholders have for him, and the general backdrop that boards of directors of public tech companies tend to be very deferential to charismatic founder-CEOs regardless of how many shares they own. That is intuitively true, so you get a trial about whether Musk controlled Tesla’s board, but the law has not quite caught up with the intuitions, so the trial is technically about whether Musk was a controlling shareholder. It seems obvious to me that Elon Musk controls Tesla’s board, but somewhat unlikely that he is the controlling shareholder. I’m not sure what to do with that:The decision could have significant implications as corporate law grapples with the implications of all-powerful founder chief executives, particularly in the tech sector.“The case has the potential to provide more guidance not only to courts, but also to deal planners, as to the factors courts are likely to take into account when determining whether someone is a controller,” said Ann Lipton, law professor at Tulane University in New Orleans.Anyway Musk also testified about  how he uses Twitter:The Tesla Inc. chief executive officer, testifying under oath on Monday at a trial over the electric carmaker’s controversial 2016 acquisition of SolarCity, said he leans into his sense of humor to generate free publicity for the company. He cited his proclaiming himself “Technoking” earlier this year as an example.“If we are entertaining people, they would write stories about us and we don’t have to spend on advertising which would reduce the price of our cars,” Musk said Monday.“I do have a sense of humor,” Musk added. “I think I’m funny.”Look he’s not wrong. About the advertising I mean. General Motors spent $2.7 billion on advertising and promotion last year; Tesla’s marketing, promotional and advertising costs “were immaterial.” It sold fewer cars, fine, but there’s an argument that Musk’s Twitter is worth at least a billion dollars a year to Tesla in free publicity. Occasionally, due to light (but admittedly funny) securities fraud, it will cost Tesla a few tens of millions of dollars in  SEC fines, but that’s still a bargain.But I have argued that the main value of Musk’s Twitter, for Tesla, comes not in the product market but in the stock market. I  once wrote:What if the actual source of shareholder value, in 2021, is good tweets? Elon Musk built Tesla Inc. into a $600-plus-billion-dollar company partly, sure, by making a big bet on electric cars and then building good ones, but also by tweeting all the time, becoming a weird folk hero/villain and amassing an enormous following of retail investors who enthusiastically bid up the stock and finance Tesla’s projects. “Unchecked tweeting by Musk has made it easier for Tesla to secure financing than pretty much any company in history,” I wrote on Monday; it has also made his shareholders a lot of money. When people want to buy your stock, the stock goes up, creating shareholder value. When people want to buy your stock because you are funny and obnoxious on Twitter and they feel personally connected to you, the stock goes up, creating shareholder value, same as if they want to buy your stock because of expectations about future cash flows. Shareholder value is shareholder value.At least now, though perhaps not in 2016, the critical thing about Elon Musk’s Twitter is that it has made Tesla a $650 billion company that can raise as much money as it wants from Musk’s legions of online fans, which Tesla can then use to fund the development of electric cars. Or of rooftop solar panels I guess. Musk’s strange charisma creates all this value for Tesla; why shouldn’t he be able to share some of it with his other projects?Various ESG complaintsI don’t really understand  this anecdote?Tariq Fancy’s growing sense of unease and frustration with sustainable investing culminated on a private jet.The irony wasn’t lost on Fancy, BlackRock Inc.’s former chief investment officer for sustainable investing. He was traveling in Europe in March 2019 when he had a heated exchange with a sales colleague. Fancy and his team had just presented the money manager’s latest low-carbon funds to prospective clients, when one asked what impact those funds had on actually cutting emissions. Battling his own growing doubts on whether they had any effect, Fancy said that if enough of the funds were sold, it would create price signals that would eventually boost costs for high-carbon emitters. That would then prompt those companies to take action on cutting their carbon footprints, he said.While flying to another meeting, Fancy said the salesman rebuked him for going off script. The salesman, Fancy said, told him that he should have stuck to the talking points by simply saying the funds are a way for clients to contribute to the fight against climate change, even though there wasn’t an explanation of how. Like I guess this is what happened:Client: How does this low-carbon fund reduce emissions?Fancy: By raising the cost of capital of high-carbon emitters, leading them to shift to lower-emissions businesses.Client: Ah.But this is what the salesman wanted:Client: How does this low-carbon fund reduce emissions?Fancy: This low-carbon fund reduces emissions.Client: Right, but how?Fancy: This low-carbon fund reduces emissions.Or something? We  talked last week about two somewhat mutually exclusive theories of environmental, social and governance investing. One is the answer that Fancy gave to his client: “This low-carbon fund reduces emissions by raising the cost of capital of high-carbon emitters, leading them to shift to lower-emissions businesses.” This is an appealing theory because it makes some rough sense as a matter of economics. It has problems though. For one thing, you have to have a lot of low-carbon funds to meaningfully increase the cost of capital of high-emissions businesses; it’s not like any one fund manager — even at BlackRock — can point to coal companies that he put out of business just by refusing to buy their stock. For another thing, “raising the cost of capital of high-carbon emitters” means increasing the returns on their stocks, which implicitly means ”our ESG fund will get a lower return than a non-ESG fund, because we hope to raise the returns of non-ESG stocks.” This answers the client’s question — ”how does this fund reduce emissions?” — but not necessarily in the way that the client wants to hear: “We reduce emissions by giving you a lower return on your investments.” You can see why the salesman might have been mad.The other theory is: “This low-carbon fund profits from the coming long-term shift to clean energy, giving it a higher return than funds that foolishly invest in fossil-fuel assets that will be stranded when regulations and societal norms change.” That tells the client a good story — “you can do good and make money too” — but, you’ll notice, doesn’t answer the question. “How does this fund reduce emissions?” “It profits when governments move faster than expected to regulate emissions.” “Yes but how does the fund cause that to happen?” It doesn’t, really.There are other answers. “We buy a lot of stock in all of the biggest oil and gas companies, and then pressure them to reduce emissions using shareholder engagement and, if necessary, proxy fights” would be a pretty cool answer — it sort of  worked on Exxon Mobil Corp.? — but it is not an answer that most ESG funds are able to give. Your low-carbon fund does not buy concentrated positions in oil and gas companies! “Buy oil companies and destroy them from the inside” is an interesting ESG approach but not yet a popular one.Anyway Fancy is one of a bunch of former ESG investors who are skeptical:Whether investors are waging proxy fights against oil companies or divesting shares of high-carbon emitters, Fancy said such efforts aren’t enough to move the needle. Low carbon funds, for instance, are merely buying and selling shares of companies in the secondary market, and so have little impact on the companies themselves. If anything, private, long-term funds that invest in clean technologies are more likely to address climate change, he said.  “I’m clearly seeing inside the machine, and the market isn’t going to self-correct if there’s a market failure,” Fancy said. “Only regulation is going to solve that.”And:“The bigger problem than greenwash is greenwish,” Duncan Austin, a former partner at Al Gore’s Generation Investment Management, said, referring to greenwashing where environmental benefits are exaggerated or misrepresented. “The win-win belief at the heart of ESG has led to widespread wishful thinking that we’re making more progress on sustainability than we really are.”Elsewhere in ESG skepticism, here’s a story about how investors buy a lot of sovereign bonds from countries that do bad stuff:Egypt is a very popular holding among emerging market bond managers, even though president Abdel Fattah al-Sisi’s government holds tens of thousands of government critics in prison on politically-motivated charges, according to Human Rights Watch.Prominent holders of its bonds include BlackRock, AllianceBernstein and Crédit Agricole. ESG and human rights are important issues for all three, according to their websites. BlackRock and Crédit Agricole declined to comment. AllianceBernstein said no country it does business in “demonstrates policies, strategies and actions that are 100 per cent ideal or responsible”.Don't ask what the threshold is! If a country’s policies, strategies and actions are, like, 17% ideal or responsible, do you invest? Well, what are the yields?“We have a core responsibility to generate a return for investors, and a lot of the challenging ESG stories [countries ranking poorly on environmental or social measures] have the [highest] yields, which obviously creates a bias to invest,” says Timothy Ash, senior emerging market sovereign strategist at BlueBay.And here, from Mark Weidemaier and Mitu Gulati, is “(Why) Are ESG Sovereign Bonds (Such) Scams?” They point out that the prospectuses for many countries’ “sustainable bonds” or “green bonds” contain explicit language saying that they “do not establish enforceable contractual obligations” to actually do anything green. This makes sense: For a country, it is bad enough that investors can sue you if you borrow money and decide not to pay it back, but it’s a catastrophe if investors can sue you for not being green enough. No country wants that sort of meddling in sovereign political decisions. But investors do want green bonds, and are willing to accept lower yields on them. So the trick is to issue green bonds that contain promises to do green stuff, but that make those promises unenforceable. The investors get the promises they want; the governments get to do what they want.
 
 
-        
-            
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                            
-                        
-                        
-                            
-                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     Sponsored Content
-                                    
+
 For over 20 years, Selective Search Matchmakers have protected our clients’ time, privacy and preferences in their search for love. Customized searches that employ proven executive search methodologies have resulted in love for thousands of couples.
 
 Get started with a complimentary consultation.
 
                                     Selective Search LLC.
-                                
-                            
-                        
-                    
-                
-            
-        
-    
+
+
+
+
+
+
+
+
 
 Laws of TaxA good tax strategy is:	Buy things that go up a lot in value.	Never sell them.	If you need money to live on, borrow against the value of your appreciated assets.	Eventually you die, your heirs get a stepped-up basis, and they don’t have to pay taxes on the appreciation when they sell. (For instance to pay back your loans.)The hard part is really step 1 — you have to make investments that go up a lot — but after that the rest of this is a pretty standard application of the U.S. tax code. Here’s a Wall Street Journal article about the strategy, which is straightforwardly called “buy, borrow, die”:For borrowers, the calculation is clear: If an asset appreciates faster than the interest rate on the loan, they come out ahead. And under current law, investors and their heirs don’t pay income taxes unless their shares are sold. The assets may be subject to estate taxes, but heirs pay capital-gains taxes only when they sell and only on gains since the prior owner’s death. The more they can borrow, the longer they can hold appreciating assets. And the longer they hold, the bigger the tax savings.It mentions that this is controversial and might change:President Biden and congressional Democrats have taken aim at some of those rules, saying they amount to a giant escape hatch from the income-tax system for the richest Americans.The president’s tax plan would raise top capital-gains tax rates to 43.4% from 23.8% and make unrealized gains subject to capital-gains taxes at death after a $1 million per-person exemption.I mention from time to time around here Michael Graetz's  two laws of tax: “first, that it is always better to make more money than less money, and second, that it is always better to die later than sooner.” There are rare, odd exceptions. One is that, when the tax impact of death changes, it can be advantageous, for tax purposes, to die before the changes take effect. There’s a paper about “whether the timing of death is responsive to its tax consequences”; it finds “some evidence that there is a small death elasticity” around changes to the estate tax. Mostly that means that when the estate tax goes down, people live long enough to see the change, but it also sometimes means that when the estate tax goes up, people rush to die before the changes take effect. Is that because they are tax-optimizing their end-of-life decisions? Because their heirs are tax-optimizing their end-of-life decisions? Because the heirs are faking the date on the death certificate? I dunno. But if “buy, borrow, die” is a popular tax-avoidance strategy, and if it stops working at some fixed date in the future, I assume there will be a bit of a rush to die and complete the trade in time to keep its benefits.Long Prison SentenceFour years ago there was a vogue of companies “pivoting to blockchain.” The idea was that if you were a small and not very good public company, you could put out a press release saying “we’re gonna do some blockchain” and your stock would go up a lot. In general the companies doing this didn’t really know what a “blockchain” was, and it was all pretty much nonsense, but it’s nice to see your stock go up. Also of course if you are the chief executive officer of a small and not very good public company, you probably own a lot of stock in that company, and it probably isn’t worth very much. So you can put out a press release saying “ooh look a blockchain” and then sell your stock when the stock goes up.Long Island Iced Tea Corp. was a small and not very good public company four years ago. It made iced tea. (Not “Long Island iced tea,” which is a boozy mixed drink, but just iced tea. From Long Island I guess.) It decided to  pivot to blockchain and keep the “Long” part of its name. “Long Blockchain Corp.” was its new name. It announced that it was “shifting its primary corporate focus towards the exploration of and investment in opportunities that leverage the benefits of blockchain technology,” which meant absolutely nothing. But its blockchains would be long. Ooh look how long our blockchain is, the long blockchains are the best ones, blah blah blah. The stock was up 500% pre-open on the day they announced it. At no point did Long Whatever do anything blockchain-related; its stock was  delisted this February.Was this all on the up-and-up? Lol no, says the U.S. Securities and Exchange Commission, which charged three people with insider trading last week:According to the SEC's complaint, filed in the U.S. District Court for the Southern District of New York, Eric Watson, an undisclosed control person of Long Blockchain who helped drive this business change within the company and signed a confidentiality agreement not to disclose the company's business plans, tipped his friend and broker, Oliver Barret-Lindsay, of such plans, including by sharing with him a draft of the company's press release. Barret-Lindsay, in turn, allegedly passed the material nonpublic information on to his friend, Gannon Giguiere. Within hours of receiving this confidential information, Giguiere purchased 35,000 shares of Long Blockchain stock. According to the complaint, the company's stock price skyrocketed after the press release was issued, spiking more than 380% intraday.  Within two hours of the announcement, Giguiere sold his shares for over $160,000 in illicit profits.Here is the complaint. All three of these guys seem to have been different sorts of microcap hustlers. “At all relevant times, Giguiere owned and operated TheMoneyStreet.com (‘TMS’), a stock promotion website,” says the SEC. As for Lindsay:In and around 2017, Lindsay’s business model included organizing shell companies, finding suitable public companies for reverse mergers, executing reverse mergers with the shell companies, providing financing, and working with management on corporate development and news releases and other promotional efforts.Lindsay coordinated the new company’s press releases and, at the same time, accumulated the company’s stock and arranged for stock promotion. Through this process, Lindsay profited from the sale of stock, frequently at the expense of unsuspecting retail investors. And Watson:LTEA was formed in May 2015 through a merger between Long Island Brand Beverages and Cullen Agricultural Corp., a company owned and controlled by Watson. …In September 2017, Watson controlled more than 30% of LTEA’s common stock.At that time, Watson suggested to the Chairman of LTEA’s Board of Directors that the company shift its business from soft drink production to any of a number of possible other businesses, including blockchain-related ventures.Watson continued his pitch and, by December 2017, he had convinced the company to “pivot” from soft drink manufacture to blockchain-related business.On December 4, 2017, LTEA met with Company A, which, according to Watson, was seeking to enter the blockchain space. Watson introduced Company A to LTEA.Meanwhile, “Lindsay introduced Watson to Giguiere for the purpose of promoting LTEA on TMS.” But he “did very little promotionbecause he was instructed to pause any promotional efforts during the period that LTEA was considering and then preparing for its purported shift to blockchain technology.” From the SEC’s complaint, it seems like Watson wanted to do a regular old pump-and-dump on Long Island Iced Tea, and hired a stock tout to do it, but then paused that effort when he realized that pivoting to blockchain was an even better way to do a pump-and-dump. So he did the pivot to blockchain, but he allegedly kept his stock-tout friends up to speed on what was going on with the pivot, with the result that they allegedly bought a bunch of Long Island Iced Tea stock just before the announcement and sold a bunch of Long Blockchain stock right afterwards. Charming, all of them.Things happenJPMorgan’s Bankers Notch  Record Quarter on Merger Flurry. Goldman Dealmakers’  Bumper Quarter Counters Slump in Trading. How to Solve the Mystery of Falling Bond Yields. ByteDance Shelved IPO Intentions After Chinese Regulators Warned About Data Security. Bitcoin Miners Navigate Extreme World of  Crypto Power-Hunting. China’s Top Brokers Ask Bankers to Fly Coach and  Share Hotel Rooms. Governments World-Wide Gorge on Record Debt, Testing New Limits. Citi Debuts  No-Fee Stock Trading to Compete With JPMorgan, Robinhood. Google Fined $593 Million By  French Antitrust Agency. Rivals rush to take advantage of security crackdown on China’s Didi. Bitcoin has a low Sharpe ratio. Credit Suisse Has  Key Credit Rating Cut Over Twin Scandals. There’s a Massive  Arbitrage Opportunity in the Plastics Market. Space Jam NFTs. ‘6 p.m. is the new 8 p.m.’: Why early-bird dining is here to stay. Large goldfish. Dead Startup Toys. “Dinner and a show — if they can’t get live prey, then they need some dancing from a dead shrimp on a stick in their tank.”If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] He did not found Tesla. “Martin Eberhard and Marc Tarpenning, two Silicon Valley engineers, founded Tesla in 2003, with the goal of proving ‘that electric cars could be better than gasoline-powered cars,’” said a Delaware Chancery Court judge in 2018. Musk led the Series A financing in 2004, became chairman in 2004, pushed Eberhard out in 2007 and “appointed himself CEO in October 2008.” “Elon Musk co-founded and leads Tesla,” Tesla’s website says.[2] I am drawing again on the 2018 Chancery decision, and quoting here.[3] I have oversimplified them immensely. In particular there are rules about the “cleansing” value of a “majority-of-the-minority” vote: Where (as here) the company requires a vote of the independent shareholders (i.e. the Tesla shareholders who aren't Musk and friends) to approve the deal, and a majority of those shareholders approve, then courts will often treat the deal as presumptively fair, though there will be questions about how informed the vote was, etc. 
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cejt8r.5of4/db8f286a.gif" alt="" border="0" /></a>

@@ -43,7 +43,7 @@ This directory contains all authentication components for the Atlas system, incl
 3. **Session Manager Integration**:
    ```python
    from auth.session_manager import SessionManager
-   
+
    # In your Flask app
    session_manager = SessionManager(app)
    ```

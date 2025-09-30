@@ -46,7 +46,7 @@
 <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20240424164153/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  
+
     ttq.load('C8LMBRNI6F1M8B1VD1E0');
     ttq.page();
   }(window, document, 'ttq');
@@ -188,7 +188,7 @@ b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.load
       // Airbrake JS filters used to ignore noisy exceptions.
       if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
         f52.inputs.base.airbrakeJS.filters = function(notice) {
-          
+
         }
       }
     </script>
@@ -247,7 +247,7 @@ freestar.config.disabledProducts = {
     </header>
 
 <div id="flashNotificationRoot"></div>
-        
+
   <div id="mainContent" class="page-body-block" tabindex="0">
 
 <div class="blog">
@@ -342,11 +342,11 @@ freestar.config.disabledProducts = {
 <p>We were saddened and stunned to learn yesterday that <a href="http://web.archive.org/web/20240424164153/http://elenaparker.com/about/" target="_blank">Elena Parker</a>—Food52's videographer and correspondent on everything to do with film and food in the early, scrappy years—had passed away unexpectedly of a pulmonary embolism at the age of 30.</p>
               <p>We'd kept in touch with Elena over the years—last week, she and Merrill were <a href="http://web.archive.org/web/20240424164153/https://www.instagram.com/p/_AotLcPloX/" target="_blank">chatting on Instagram</a> after she visited our Holiday Market—and were thrilled to see her career take off. She'd finished her Master's from NYU's Interactive Telecommunications Program, and most recently, she was the Manager of Interactive Development at <a href="http://web.archive.org/web/20240424164153/http://campfirenyc.com/" target="_blank">Campfire</a> and an adjunct professor at NYU. She had <a href="http://web.archive.org/web/20240424164153/http://schedule.sxsw.com/2015/events/event_IAP40531" target="_blank">spoken at SXSW</a> earlier this year, and received her first feature film credit, as Co-Writer and Co-Producer of the HBO Documentary <a href="http://web.archive.org/web/20240424164153/http://www.hbo.com/documentaries/youth-knows-no-pain#/" target="_blank">Make Me Young: Youth Knows No Pain</a>. None of this surprised us.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticle"></div>
               <p>While Elena worked with us from 2010 to 2011, we were constantly impressed with her flexibility and grace in tackling any request we threw her way. When she signed up, it was to film and edit our weekly contest videos (like <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/1443-fig-and-blue-cheese-savouries">this one</a>), but soon she was helping us measure ingredients when we were running late, and accompanying Amanda &amp; Merrill all over the city—to shoot anything from our favorite <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/1997-how-to-make-cheese-biscuits">cheese biscuits</a> and <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2000-how-to-make-baked-doughnuts">baked doughnuts</a>, to an epic <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/1764-how-to-make-perfect-custard-part-1">5-part series on custard</a> with pastry chef Shuna Lydon, to a visit with <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2026-how-to-roast-coffee-at-home">a serious home coffee roaster</a> on the Upper West Side.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2482" data-type="post" data-layout="flag"></span>
 
@@ -370,7 +370,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2437" data-type="post" data-layout="flag"></span>
 
@@ -383,7 +383,7 @@ freestar.config.disabledProducts = {
       <div class="card__type"></div>
 
 <h3 class="card__heading" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article Click" data-ga-event-label="2437" data-ga-destination-url="/blog/2437-dinner-a-movie-some-like-it-hot">
-        Dinner &amp; a Movie: Some Like It Hot 
+        Dinner &amp; a Movie: Some Like It Hot
       </h3>
 
 <button type="button" class="card__cta btn btn--secondary" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article CTA Button Click">
@@ -394,7 +394,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2216" data-type="post" data-layout="flag"></span>
 
@@ -418,7 +418,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2539" data-type="post" data-layout="flag"></span>
 
@@ -446,11 +446,11 @@ freestar.config.disabledProducts = {
 <p>We heard about the movie-themed dinner parties Elena threw with her friends, and asked her to turn them into a column—one of our first, <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/search?q=%22dinner+and+a+movie%22">Dinner &amp; a Movie</a>. During Oscar season, she was the only person we knew who'd actually seen all the films, so we tapped Elena to produce both <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/1732-how-food52-does-oscars">recipes</a> and, in a visually delightful twist, <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2966-oscar-drinks-desserts-most-importantly-dresses">dress pairings</a>.</p><div class="product-well"><div class="product-well__label">Shop the Story</div><div id="relatedProductsRoot" data-show-article-cta="true"><div class="product-well__carousel-spacer"></div></div></div>
               <p>Elena's work built <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/search?q=%22this+week%27s+video%22+elena+parker">our library of technique videos</a> (you might have learned <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2875-how-to-fold">how to fold</a> and <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2695-how-to-roast-any-winter-squash">how to roast any winter squash</a> from her) and also gracefully <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2734-behind-the-scenes-of-food52-s-recipe-contests">documented our recipe contest system</a>, making it all look purposeful and interesting, despite a Google spreadsheet appearance. She even went in front of the camera to teach us—and aspiring bloggers and cooks everywhere—<a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/2798-how-to-make-your-own-cooking-videos">how to make cooking videos quickly and inexpensively</a>.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
               <p><a href="http://web.archive.org/web/20240424164153/http://elenaparker.com/portfolio/food52/" target="_blank">By her count</a>, Elena made over 110 videos for Food52 in the 18 months she worked with us. We are heartbroken at the loss of our talented friend, and hope that you'll join us remembering her. Start by reading our <a href="http://web.archive.org/web/20240424164153/https://food52.com/blog/1829-elena-parker-food52-videographer">2011 Q&amp;A</a> with her, then watch and cook from some of her favorite films below.</p>
-              
+
   <div class="content-gallery ">
 
 <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2169" data-type="post" data-layout="flag"></span>
 
@@ -474,7 +474,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2617" data-type="post" data-layout="flag"></span>
 
@@ -498,7 +498,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2060" data-type="post" data-layout="flag"></span>
 
@@ -522,7 +522,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="1914" data-type="post" data-layout="flag"></span>
 
@@ -546,7 +546,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2015" data-type="post" data-layout="flag"></span>
 
@@ -570,7 +570,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2386" data-type="post" data-layout="flag"></span>
 
@@ -594,7 +594,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2110" data-type="post" data-layout="flag"></span>
 
@@ -618,7 +618,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2583" data-type="post" data-layout="flag"></span>
 
@@ -631,7 +631,7 @@ freestar.config.disabledProducts = {
       <div class="card__type"></div>
 
 <h3 class="card__heading" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article Click" data-ga-event-label="2583" data-ga-destination-url="/blog/2583-dinner-a-movie-to-kill-a-mockingbird">
-        Dinner &amp; a Movie: To Kill a Mockingbird 
+        Dinner &amp; a Movie: To Kill a Mockingbird
       </h3>
 
 <button type="button" class="card__cta btn btn--secondary" data-ga-event="inPageInteraction" data-ga-event-action="Featured Article CTA Button Click">
@@ -642,7 +642,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2277" data-type="post" data-layout="flag"></span>
 
@@ -666,7 +666,7 @@ freestar.config.disabledProducts = {
 </div>
         </div>
         <div class="content-gallery__item">
-          
+
 <div class="card  card--cta-experiment  card--post">
   <span class="collectionWidgetRoot" data-id="2328" data-type="post" data-layout="flag"></span>
 
@@ -827,7 +827,7 @@ freestar.config.disabledProducts = {
 
 <div class="content__container">
     <div id="commentsRoot">
-      
+
 <section class="comments">
 
 <h3 class="comments__title">

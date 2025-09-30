@@ -27,7 +27,7 @@ def implement_block(block_num, spec_file):
             cwd="/home/ubuntu/dev/atlas"
         )
         stdout, stderr = process.communicate(timeout=30)
-        
+
         print(f"📤 Return code: {process.returncode}")
         print(f"📤 STDOUT:\n{stdout.decode('utf-8')}")
         if stderr:

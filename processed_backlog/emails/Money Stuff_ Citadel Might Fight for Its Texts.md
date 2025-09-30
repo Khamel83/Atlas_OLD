@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        The US Securities and Exchange Commission has a rule that, if you work in the financial industry, you are only allowed to communicate about 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+        The US Securities and Exchange Commission has a rule that, if you work in the financial industry, you are only allowed to communicate about
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Citadel cell phones
-    
-  
+
+
 
 The US Securities and Exchange Commission has a rule that, if you work in the financial industry, you are only allowed to communicate about work with your colleagues and customers using systems — like your firm email account or Bloomberg messaging — that your firm can archive and review. You are not allowed to use WhatsApp or Signal or iMessage or text messaging from your personal phone. Financial industry employees have to “conduct their communications about business matters within only official channels, and they must maintain and preserve those communications,” as SEC Chair Gary Gensler put it last year, when he fined 15 banks a total of $1.1 billion for using WhatsApp.
 This is a weird rule that the SEC has. For one thing, it is obviously not the rule. Gensler cannot possibly have meant that investment bankers and traders are only allowed to communicate about business using corporate email and Bloomberg messages and recorded phone lines; he is surely aware that sometimes a banker will turn to the colleague sitting next to her and say, aloud, “hey did you finish that pitch deck yet,” and that she will sometimes fly out to meet with a client in a conference room (or on a golf course) and talk business face to face. Plenty of business communication still occurs informally, in person, and it can’t be preserved until you get every employee into augmented reality goggles that record everything.
@@ -78,37 +78,37 @@ The Miami-based firm would be the first to fight the SEC over any allegations of
 
 Sure, good for them.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Sculptor
-    
-  
+
+
 
 The schematic math of the Sculptor Capital Management Inc. situation is:
 	Sculptor is a publicly traded asset manager with about $30 billion of assets under management, roughly half in collateralized loan obligations and the rest in hedge fund and real estate strategies.	Those $30 billion of client assets pay Sculptor fees of more than $400 million per year.	Of those fees, more than $300 million per year goes to Sculptor’s employees, with much of it concentrated among the senior people managing its funds. Its chief executive officer and chief investment officer, Jimmy Levin, made $49 million in 2022 and $146 million in 2021.
@@ -138,13 +138,13 @@ But why would the clients want to own the firm? I feel like the lesson of Sculpt
 
 You have to make money for the clients, you have to pay the investment managers, and the shareholders just get what’s left over. It makes total sense for Weinstein to want to buy and run Sculptor; it makes a bit less sense for anyone else to want to help him buy it as an outside passive investor. Though I guess Ackman, Lasry and Yass are in, which is an endorsement of the idea. Presumably they have to get paid too.
 
-  
-    
-      Binance
-    
-  
 
-Two key 
+
+      Binance
+
+
+
+Two key
 questions in crypto regulation are:
 	Will US regulators (and particularly the SEC) remain as hostile to crypto as they are right now, or will the US become more crypto-friendly through some combination of congressional legislation, court rulings that go against the SEC, personnel changes at regulators, etc.?	If the US does remain super hostile to crypto, will that be bad for crypto globally, or will it just mean that crypto becomes a non-US thing? In general, US regulators and prosecutors are very good at using the power of the US government and the reach of the dollar system to impose US decisions on global finance. If you are a   French bank providing financing to a Cuban company, and the US doesn’t like that, it will stop you. But crypto is different! Crypto is anonymous and borderless and irreversible and censorship-resistant; if the US decides to ban crypto then it can maybe (maybe) cut US citizens off from the joys of crypto, but it can’t interfere with crypto’s global growth. Or that is an idea anyway.
 
@@ -161,11 +161,11 @@ Pressure from the DOJ was partly responsible for [Binance co-founder Changpeng] 
 
 Can US regulators ban crypto trading in Russia? No? But, also, kind of?
 
-  
-    
+
+
       Late 13D filings
-    
-  
+
+
 
 Huh:
 
@@ -178,11 +178,11 @@ At this point I should submit a whistleblower claim.
   [2]
  I suppose Musk did not repeatedly file disclosure forms late, but on the other hand he definitely repeatedly violates SEC disclosure rules. I get why they would not want to bother enforcing the securities laws against him. He’s very annoying! And yet that is kind of the job.
 
-  
-    
+
+
       Volcano bond
-    
-  
+
+
 
 Back in 2021, the government of El Salvador hit on what  I thought was a  pretty good  idea, for 2021:
 	Issue a sovereign bond worth $50.	Buy $25 worth of Bitcoin.	Staple them together and sell the package — $50 of bond and $25 of Bitcoin — for $100.	On the blockchain! You could do stuff like that, if you did it on the blockchain.	Use some of the money to buy the Bitcoins that go into the package, some to buy more Bitcoins to gamble with El Salvador’s public treasury, and the rest to fund infrastructure projects.	Also there was a volcano involved? The volcano would generate energy to mine Bitcoins? Why not.
@@ -195,66 +195,66 @@ In other words, some joint venture will raise equity to fund wind and solar ener
 
 It is a little hard to believe that any of this was real, and of course in an important sense it wasn’t. 
 
-  
-    
-      Things happen
-    
-  
 
-OpenAI Seeks New Valuation of Up to $90 Billion in Sale of Existing Shares. UK regulator to launch review of private market valuations. China Puts   Evergrande’s Billionaire Founder Under Police Control.  Rising Loan Costs Are Hurting Riskier Companies.  McKinsey pays out another $230mn to settle opioid cases. DOJ Steps Up Probe of Credit Suisse and UBS Over 
-Sanctions Breaches. Jailed oligarch  accuses TPG of colluding with Kremlin to seize $14bn assets. Top-rated US companies turn to convertible bonds as rising interest rates bite. A $12 Million Request to Cover a 
-Crypto Scam Sank a Bank CEO. Katy Perry Refuses to Back Down in 
+
+      Things happen
+
+
+
+OpenAI Seeks New Valuation of Up to $90 Billion in Sale of Existing Shares. UK regulator to launch review of private market valuations. China Puts   Evergrande’s Billionaire Founder Under Police Control.  Rising Loan Costs Are Hurting Riskier Companies.  McKinsey pays out another $230mn to settle opioid cases. DOJ Steps Up Probe of Credit Suisse and UBS Over
+Sanctions Breaches. Jailed oligarch  accuses TPG of colluding with Kremlin to seize $14bn assets. Top-rated US companies turn to convertible bonds as rising interest rates bite. A $12 Million Request to Cover a
+Crypto Scam Sank a Bank CEO. Katy Perry Refuses to Back Down in
 Fight Over $15 Million Mansion. Disney quietly removes jizz from  Star Wars continuity. “Musk’s  gonzo realtime biographer Matt Levine ...”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] These numbers are a bit unfair, since a lot of that pay is in stock.
 
 
   [2] I kid; the SEC has actually asked Musk about this. I guess they were satisfied with his answers? Why?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -265,46 +265,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjk4f3.5lpr/b4c71c76.gif" alt="" border="0" /></a>

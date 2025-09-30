@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         On Jan. 20, Bed Bath & Beyond Inc. had about 117.3 million shares of common stock outstanding; the stock closed that day at $3.35 per share.
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Beyond bloodbath
-    
-  
+
+
 
 On Jan. 20, Bed Bath & Beyond Inc. had about  117.3 million shares of common stock outstanding; the stock closed that day at $3.35 per share. On March 27, it had about  428.1 million shares outstanding, at $0.7881 each. On April 10, it had  558.7 million shares outstanding, at $0.2961 each. Yesterday, April 23, when it   filed for bankruptcy, it had 739,056,836 shares outstanding.
   [1]
@@ -70,7 +70,7 @@ Here is Bed Bath’s  first-day declaration in the bankruptcy case, which descri
 
 	So someone had the bright idea of delaying things for a bit by selling tons and tons of stock to Bed Bath’s retail shareholders at whatever prices they’d pay. “Certain third-party investors expressed interest in providing the Debtors with substantial equity financing in light of the Company’s depressed share price and continued trading volatility. More specifically, the Debtors were approached by Hudson Bay Capital Management, LP” about a weird stock deal that we   discussed in   January; this ended up   raising about $360 million. After the Hudson Bay deal ran its course — basically, after Hudson Bay and Bed Bath drove the stock price from above $3 to below $1 by pounding out about 311 million shares to retail investors — Bed Bath and its brokers at B. Riley Securities Inc. sold another 311 million shares to retail investors, but at ever-declining prices, so they raised a lot less money. Still something, though.
 
-It was not enough, though, and ultimately this weekend Bed Bath & Beyond filed for 
+It was not enough, though, and ultimately this weekend Bed Bath & Beyond filed for
 exactly the sort of bankruptcy it was contemplating in January: Close all the stores, liquidate the inventory, hand whatever cash is left to the creditors. “The Debtors are committed to achieving the highest or otherwise best bid for some or all of the Debtors’ assets by marketing their assets pursuant to the Bidding Procedures, and, if necessary, conducting an auction for any of their assets,” the company says, but it has had like four months to find someone interested in buying the business, and if no one has shown up yet no one is going to. And: “The Debtors estimate that the aggregate net sales proceeds from all Sales will be approximately $718 million,” against about $1.8 billion of debt to pay off. Nonetheless:
 While the commencement of a full chain wind-down is necessitated by economic realities, Bed Bath & Beyond has and will continue to market their businesses as a going-concern, including the buybuy Baby business. Bed Bath & Beyond has pulled off long shot transactions several times in the last six months, so nobody should think Bed Bath & Beyond will not be able to do so again. To the contrary, Bed Bath & Beyond and its professionals will make every effort to salvage all or a portion of operations for the benefit of all stakeholders.
 I said above that the few hundred million dollars that Bed Bath raised by selling 622 million shares of stock since it started preparing for bankruptcy “was not enough” to solve its problems, but it’s actually a bit worse than that. Bed Bath’s bankruptcy filing tells a story in which the company got into a bad place due to a combination of pandemic/supply-chain issues and its own management mistakes; in particular, its former chief executive officer pushed private-label brands instead of the well-known brands that its customers wanted. Bed Bath realized its mistakes and began correcting them — that CEO “was excused on June 29, 2022” — but that takes money; “the Company needed real runway to turn around its inventory and liquidity position.”
@@ -100,37 +100,37 @@ No, this is the peak of meme stocks. Bed Bath & Beyond sold 50 million shares 
   [7]
  Bed Bath saw that its retail shareholders wanted to throw their money away, and that its sophisticated lenders wanted to get their money back, and realized that there was a trade to be done that would make everyone, temporarily, happy. So it did the trade. It’s amazing. The lawsuits are gonna be great.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Dual-class stock
-    
-  
+
+
 
 Most investors would prefer not to have dual-class stock. If a company has two classes of common stock, one of which has a lot of votes and is held by the founders and the other one of which has fewer votes and is sold to the public, then that’s bad, for you, as a big public shareholder. If you’re buying 5% of a company you’d like to get 5% of the votes, so that if you get dissatisfied with management you can push for change and they’ll have to listen to you.
 But it can be a little hard to insist on this preference. Most of the time, if things work out well or even adequately, your voting rights just won’t matter very much. If some hot tech company is looking to go public with dual-class stock so that its visionary founder can keep control forever, and you like the visionary founder, you will want to own the stock even with no voting rights, and if you insist on voting rights, the visionary founder can say “well I don’t need your money anyway, lots of other people want to invest.” There is a collective action problem: Most investors would like voting rights, but it’s not at the top of their list, so anyone who refuses to buy dual-class stock will end up missing out on a lot of hot deals.
@@ -146,11 +146,11 @@ The decision to revisit index eligibility criteria comes after a consultation pr
 
 In 2017, investors noisily complained that they were being forced to buy dual-class stocks, so S&P kicked the dual-class stocks out of the indexes. In 2022, investors noisily complained that they were being forced not to buy dual-class stocks, so S&P let them back in.
 
-  
-    
+
+
       Oil rigging
-    
-  
+
+
 
 I loved Liam Vaughan’s and Lucia Kassai’s   Bloomberg Businessweek story last week about corruption in Venezuelan oil auctions, in part because it is two almost entirely separate stories of corruption. For starters, there are the Venezuelan oil auctions. Venezuela’s state oil company, Petróleos de Venezuela SA, would sell various oil products in auctions, and big oil trading firms would hire a consulting firm named Helsinge, run by a guy named Francisco Morillo, to help them win the auctions. The way he allegedly helped them win was (1) he bribed PDVSA insiders to tell him about the other bids, (2) he shared those bids with his clients, (3) the clients topped those bids by a penny and (4) they paid him enough to cover the bribes with some profit for himself:
 
@@ -182,25 +182,25 @@ Anyway, elsewhere in euphemisms for bribes, here is the Economist  with a helpfu
 One approach is to talk about something other than money. Some officials, for example, like to keep citizens well abreast of their food and drink preferences. “I really want to drink a Nescafe,” declares an airport security guard six times as he frisks your correspondent in Burkina Faso. In Uganda traffic police find ways to mention their favourite soda. In South Africa such requests are so common that bribes for driving offences are known as “cold drink money”.
 I guess if you’re a cop at a traffic stop you can’t really ask for a consultancy fee.
 
-  
-    
+
+
       Succession
-    
-  
+
+
 
 I have occasionally tried to understand the capital structure, valuation, corporate governance and shareholder base of Waystar Royco, the Roy family’s publicly traded conglomerate on the TV show Succession, but I quickly find myself frustrated by some contradiction that doesn’t make much sense, and then I remind myself that it’s a TV show and nobody cares about the absolute verisimilitude of its corporate bits. (Who is on the Waystar Royco board? Why are there no independent directors? Who cares!) Anyway at FT Alphaville last week Louis Ashworth  gave it a go; he got farther than I ever have but he gave up too, and my advice is that it isn’t worth it. 
 
-  
-    
-      Things happen
-    
-  
 
-SVB’s new owner fights to rebuild brand and stem outflows. Moody’s Downgrades 11  Regional Banks, Including Zions, U.S. Bank, Western Alliance. New Wall Street ‘fear gauge’ to track short-term market swings. The  Crypto Detectives Are Cleaning Up. The Impending Fight for Private Equity  Buyout Lending. CME plays down  rival to LME nickel market. UK Aims to Avoid Repeat of Liz Truss’s Market Mayhem With 
-LDI Reforms. Partner pay at top US  law firms hit by dealmaking drought. J&J  Consumer-Health IPO Process to Kick Off Key Test for Moribund New-Issue Market. A   Schwab Divorce From Bank Could Unlock Value, JPMorgan Says. Gemini’s Plan for Derivatives Exchange Adds to 
+
+      Things happen
+
+
+
+SVB’s new owner fights to rebuild brand and stem outflows. Moody’s Downgrades 11  Regional Banks, Including Zions, U.S. Bank, Western Alliance. New Wall Street ‘fear gauge’ to track short-term market swings. The  Crypto Detectives Are Cleaning Up. The Impending Fight for Private Equity  Buyout Lending. CME plays down  rival to LME nickel market. UK Aims to Avoid Repeat of Liz Truss’s Market Mayhem With
+LDI Reforms. Partner pay at top US  law firms hit by dealmaking drought. J&J  Consumer-Health IPO Process to Kick Off Key Test for Moribund New-Issue Market. A   Schwab Divorce From Bank Could Unlock Value, JPMorgan Says. Gemini’s Plan for Derivatives Exchange Adds to
 Crypto’s Flight From the US. “The market considers the one-month bill a safe haven. … The three-month is  more in the crosshairs.” How Vanuatu allegedly lost its  mackerel rights — and fought back. “Afterward we had dinner at Bennigan's; on the menu chalkboard, under  Quiche of the Day, Jello [Biafra] scrawled ‘YOU.’”
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This number comes from  the company’s first-day declaration (PDF), Document 10 in the  bankruptcy docket.
 
 
@@ -222,48 +222,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [7] Bloomberg reports: “‘The idea that you can continually support your company even in the face of constant dilution of your investors just isn’t a long-term, viable corporate-finance strategy,’ said James Gellert, CEO of ratings firm Rapid Ratings. ‘Bed Bath & Beyond had a seeming disregard for common equity holders.’”
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -274,46 +274,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cim53n.5lq8/9e233be6.gif" alt="" border="0" /></a>

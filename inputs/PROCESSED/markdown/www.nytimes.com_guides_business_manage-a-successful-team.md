@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![nytimes.com]()
 

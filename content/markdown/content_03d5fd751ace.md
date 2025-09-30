@@ -62,7 +62,7 @@ var _gaq = _gaq || [];
 
 <div class="entry_header clearfix">
    <h1>The Turnaround Men</h1>
-   <div class="deck">A charismatic entrepreneur, an ex-con turned devout Christian, and the politicians who championed them.</div> 
+   <div class="deck">A charismatic entrepreneur, an ex-con turned devout Christian, and the politicians who championed them.</div>
    <ul class="detail_top_links">
      <li class="post_date">
      Mariah Blake     </li>

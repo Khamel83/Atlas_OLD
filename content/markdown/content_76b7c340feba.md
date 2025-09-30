@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Between Service and Survival</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >I quit medicine in 2019. And then the pandemic happened.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -900,14 +900,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="116"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf1umvp009ykvm3p8q1b923@published"
-  
+
 >It’s early Sunday morning at one of Los Angeles’ mass COVID-19 vaccination sites, and there’s already a problem. The list of volunteers was just distributed, but the job assignments failed to populate. Nobody knows who they’re supposed to be for the day. A flustered coordinator yells out, “Licensed professionals to the left! Unlicensed volunteers come to the right! Doctors, over here to the front!” I shuffle my way over to the bare spot of asphalt where the doctors are supposed to stand, and find myself in a group that includes a woman carrying a backpack designed to double as a chair and multiple people wearing hats with neck protection. There is an abundance of moisture-wicking material.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="38"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yevs001a3h6bflc2f8k1@published"
-  
+
 >“Let’s go around and introduce ourselves and our specialties,” one of the doctors says. I panic. I feel like a fraud calling myself a physician, so I turn away and pretend like I’m not part of their circle.</p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -926,7 +926,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="206"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf41001d3h6bjpg1u5s9@published"
-  
+
 >Technically, I’m a doctor. I graduated from medical school and have over $350,000 in student loan debt. But I quit my OB-GYN residency in late 2019, less than halfway in, meaning I’ll virtually never be employable practicing medicine. I chose this new, ambiguous identity for myself because practicing medicine had turned me into a version of myself that I hated: I snapped back at patients, I resented everyone around me, I once watched a dying woman sob and clocked it as an inconvenience. By the time I left, my actions felt like survival reflexes instead of conscious choices. Quite simply, I was burnt out, a casualty of a medical system that overtaxed its providers even before the pandemic. What’s more, I knew that if I ever recovered, there were endless opportunities for further moral injury and marrow-deep exhaustion around every turn. To keep pursuing life as a doctor was to try to build a life on a foundation of toothpicks, capable of being felled with a heavy sigh. As I left the hospital for the last time, just months before the first cases of an unexplainable pneumonia were detected in Wuhan, China, I was completely unaware of just how big a seismic wave I was escaping.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1005,7 +1005,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="205"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf58001e3h6bnnvm8j53@published"
-  
+
 >I spent the pandemic in the strange role of an outsider: a nonessential worker, a lay person, a civilian. I listened to my friends from medical school and residency vent about what it was like to watch hospitals already strained to the brink pushed into crisis mode. I read the headlines about <a href="https://www.nytimes.com/2020/07/08/health/coronavirus-masks-ppe-doc.html">inadequate protection for hospital staff</a>, the relentless heartbreak of the job that led <a href="https://www.nytimes.com/2020/07/11/nyregion/lorna-breen-suicide-coronavirus.html">at least one physician to die by suicide</a>, <a href="https://www.nytimes.com/2021/03/15/health/covid-medical-workers-deaths.html">health care workers having to decide between taking care of their patients or taking care of themselves</a>—all the problems that <a href="https://www.washingtonpost.com/national/health-science/what-ive-learned-from-my-tally-of-757-doctor-suicides/2018/01/12/b0ea9126-eb50-11e7-9f92-10a2203f6c8d_story.html">had existed in medicine</a> long before strands of RNA in crown-shaped capsules made their way around the globe, but now much, much worse. I felt guilty. There I was, chock full of years of education, degree in hand, unable to do anything of use except stay home and wash my hands. I tried to sign up to volunteer at testing sites, but they wanted full-time, weekslong commitments. Part of me felt like I should upend my life and enlist. But I had already found a full-time job working in medical education. Most of all, I had found a quiet contentment in my new post-doctor life, and I didn’t want to lose it.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1030,7 +1030,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="53"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf6a001f3h6bf81lktvb@published"
-  
+
 >Many months later, when mass vaccination becomes a reality, a doctor friend tells me they need licensed volunteers at the administration sites. Once I find the site to sign up, I open up the calendar and see an ocean of white, waiting for names of providers like me. I type my name in.</p>
 
 <div data-uri="slate.com/_components/slate-section-div/instances/cknf2yewd001b3h6bi09l321x@published" class="section-div"></div>
@@ -1039,7 +1039,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="166"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf75001g3h6byv41wxsq@published"
-  
+
 >As the day of my volunteer shift approaches, a familiar feeling creeps back into my body: dread. It is how I felt daily before the majority of my shifts as an OB-GYN resident (and especially if I was slated to work a 24-hour shift that often stretched out to almost 30, or before a string of night shifts when I lived like a vampire). I find myself engaging in old habits: The day before, I strictly monitor my activity, declaring to my fiancé that I cannot take a long walk because I need to preserve my energy. I meter out my hours before bed, counting back from when I have to wake up. I set out everything I will need in the morning: scrubs, compression socks, a jacket with my name embroidered on the breast with “M.D.” attached to the end, so that I can put them all on as fast as possible. Completing this ritual feels like being in the presence of an old enemy.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1118,7 +1118,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="154"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf85001h3h6bnmry3dl8@published"
-  
+
 >The morning of, I drive west on the freeway on a route I know well. It is early enough that I follow the moon all the way to the distribution site, watching it behind a pelt of clouds dyed pink. I park my car and watch two large tourist buses pull up behind me and lines of travel nurses spill out onto the asphalt. They’ve been contracted to work at these sites for a few months and are staying at a nearby hotel. I’m told via email before I show up that physicians can be assigned to the vaccine mixing, administration, or observation jobs. I secretly hope I get to do the mixing or administering—which involves actually giving people their shots—but after the whole assignment debacle, I’m assigned to observation. Later, I find out this is because a volunteer tried to steal some vials of vaccine, so now all volunteer physicians are automatically observers.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1143,7 +1143,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="99"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yf94001i3h6bj0ctd8mj@published"
-  
+
 >There are 18 lanes of cars being directed at the over 200 volunteers. Someone tells me there are 2,400 appointments scheduled for that day. The first stop is an entire parking lot away from where I’m standing, and I don’t see or know how patients are getting registered or vetted. The first thing I can see are metal storage containers that punctuate the spaces between lanes and people in full PPE running in and out of them wielding syringes. Once the vaccine is injected in each patient’s deltoid, they barrel their cars over to us doctors to be observed.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1168,7 +1168,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="107"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfa2001j3h6bpcb0zrrp@published"
-  
+
 >Our job is to signal to the drivers when to move their cars forward, ask them to turn off their engines, chat with them about how they’re feeling and whether or not they have any worrisome symptoms as they wait for the requisite 15 minutes after the vaccine is given. If we think that they’re having a severe adverse reaction, like their throat closing up, then we can inject some epinephrine and call an ambulance. If there’s nothing concerning, when each patient’s observation time is up, we are to clear them for departure by removing a piece of blue painter’s tape that was slapped onto their windshield.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1211,7 +1211,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="88"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfbd001k3h6baolxev79@published"
-  
+
 >“The most dangerous thing out here is the driving,” our group leader barks out. “Every day so far, there have been close calls, so don’t get hit by a car if you can help it.” I am a glorified parking attendant, complete with an orange vinyl reflective vest. But as I look around, the dread I have been feeling over the last 24 hours dissipates; in its place is excitement bundled up with warmth and gratitude. I can’t believe I’m finally here and that I get to help.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1254,21 +1254,21 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="151"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfcg001l3h6bf8nksfqa@published"
-  
+
 >Each driver’s side window I approach has a beaming face on the other side of it. “I’ve been waiting for this day for ages!” one man says. “This is the first vaccine I’ve ever gotten,” quips another, “and the most important,” he adds, nodding to himself. My favorite car is one with four nonagenarians, all beaming at me beneath masks and clear face shields, the thin, sunspotted skin around their eyes crinkling into an accordion that betrays the breadth of their smiles underneath. I congratulate each one as if they have just graduated from college. Even a mishap is amusing: One woman and I are doing a little celebratory dance when our supervisor’s words come back to haunt me. While we’re waving our arms up in the air, we both realize that her car is gliding forward. In all of her excitement, she has forgotten to put her car in park.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="8"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfef001m3h6bwkwkwse4@published"
-  
+
 >“Oops!” We both exclaim to each other, laughing.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="114"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfff001n3h6b0b8cl3g7@published"
-  
+
 >In that first hour of the day, each car holds another opportunity to see how medicine can bring joy and relief. The expanse of the parking lot I’m standing in, with its endless lines of snaking cars and hundreds of volunteers, is the closest I’ve come to holding the enormity of the pandemic in my mind at once. And, as has happened to me so many times before, I’m humbled by the role medicine plays in it all. Medicine seeks to heal our most basic needs, problems that begin as the cells of one body fight against the cells of another, devoid of intention, obedient only to the laws of physics and concentration gradients.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1319,7 +1319,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="169"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfg1001o3h6bxjyzrh31@published"
-  
+
 >I’m reminded of those early morning hours as a brand-new doctor in my first year of residency when I would pre-round, which means checking on all of the patients before the rest of the team. I’d knock on patients’ doors and apologize profusely for waking them before the sun came up. I indulged in the beautiful idiosyncrasies of how patients behaved at dawn: the woman with her hair propped up in a scrunchie who wanted to gossip about the hospital ghosts; the brand-new mother with a baby whose room was awash with fluorescent light as if it were the middle of the afternoon; the family keeping a close vigil at a bedside, watching the erratic rise and fall of their loved one’s chest with each waning breath. Those moments once felt sacred, like matins, the quiet prelude to a day of work. This was before I was so exhausted that I just barged in and dribbled out a small apology while silently thinking, <em>Just let me do my job.</em></p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1344,7 +1344,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="119"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfh1001p3h6bgplsra3x@published"
-  
+
 >At the vaccine distribution site, the day wears on, and when I think it’s time for lunch, it is only 10 a.m. As I walk back-and-forth between cars on the hot asphalt, I feel the pinch of skin above my mask begin to burn under the hot sun. I flex my calf muscles to stave off the dull ache that comes with standing for long stretches of time. I would do the same when I was in the operating room for hours at a time, skipping breakfast and lunch, leaning over open bodies, trying to tease out their cancer. Being at the vaccine site is nothing like residency, but it reminds me what bone-deep exhaustion used to feel like.</p>
 
 <div class="slate-ad ad--desktopOnly ad--inArticleBanner">
@@ -1387,7 +1387,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="37"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfhu001q3h6bbe59myn5@published"
-  
+
 >Then, there’s an encounter that reawakens a special brand of anger I haven’t felt since my time as a resident. It rears its head when I ask a man to turn off his car while he waits.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1430,28 +1430,28 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="29"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfir001r3h6b5qk1nb06@published"
-  
+
 >“Honey, this is a Tesla. Do you know what that is?” he says to me with one arm flopped out of the driver’s side window. “Teslas don’t turn off.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="45"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfl2001s3h6b98fkhty9@published"
-  
+
 >I want to snap back, “Yes, I know what a motherfucking Tesla is,” but the professional in me takes over: “I’m so sorry to cause an inconvenience,” I say instead, “but it’s the site’s policy to have all cars off while they wait in observation.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="32"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfmf001t3h6b88s58u3f@published"
-  
+
 >“I don’t know what you want me to do,” he drawls back to me, while lolling his head up to stare at his tinted solar roof. “I can’t turn it off, dear.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="119"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfng001u3h6bc99s5kcd@published"
-  
+
 >That’s when I feel the anger full-bore and, in its wake, all the resentments I collected over the years of my medical training. The years of swallowing condescension: by patients, attendings, co-residents. The cardiologist on the phone who asked me in a voice thick with annoyance, “Did you even go to medical school?” The patient who told me she was “waiting for the real surgeon” to show up because, as she clarified, “surgeons are men.” The humiliation of a patient mocking me with fake Chinese because I’m Asian, or of being verbally berated in front of a room full of peers by a senior attending. I tell myself I don’t have to deal with this kind of behavior anymore.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1494,21 +1494,21 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="32"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfoq001v3h6b2v3112j4@published"
-  
+
 >My impulse is to pull aside my orange parking attendant vest to reveal the “M.D.” after my name, embroidered on my jacket. I want to say, “Don’t you know I’m a doctor!”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="25"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfpq001w3h6bbp62o2xk@published"
-  
+
 >Instead, I roll my eyes behind my sunglasses. “I don’t care,” I say over my shoulder, as I walk away. “Just turn your car off.”</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="92"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfqm001x3h6bkygg5d3n@published"
-  
+
 >I hate the feeling of being annoyed at a patient, however briefly or superficially they are in my care, not just because it is unpleasant, but because it triggers a side of myself I wish didn’t exist. I pursued becoming a physician for many reasons, but I did it in large part because I thought becoming a doctor would help make me into the person I wanted to be: someone capable, caring, and smart. But instead, it made me into someone who was short-tempered and contemptuous. And now that self was back.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1551,21 +1551,21 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="102"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfrg001y3h6bc06gpobl@published"
-  
+
 >After my encounter with the Tesla, my tolerance for anything that slows down the observation line is threadbare. A friend from medical school is also volunteering that day, and over lunch, we do what we did as students and swap stories from the trenches. She tells me about a patient who wanted to be observed by us for an extended period of time because she claimed to have had an anaphylactic reaction to burgers, but only the ones from McDonald’s. She told my friend that she was sure it was just McDonald’s because she had gone back two more times to confirm.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="11"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yfvb001z3h6bfy8ksdbb@published"
-  
+
 >“People can be so dumb,” we say, and laugh and laugh.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="116"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yg0q00203h6bdzuawm2o@published"
-  
+
 >Then, I suddenly feel horrible for calling this woman dumb. She was just worried. She just wanted help, and we were the people around to give it. And if I really thought about it, her hamburger story was the kind of detail I loved getting to hear about. Part of the privilege of being a doctor was getting to peek into the nooks and crannies of lives I would never otherwise get to know. But as a resident, I had no time for stories; I only wanted the relevant facts. The peculiars of any patient’s narrative became secondary to whether or not the information they were giving me felt relevant to the next steps in management.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1626,7 +1626,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="181"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yg1o00213h6bto4ff9hk@published"
-  
+
 >I felt like if I lived with this kind of burnout for too long, those ugly impulses that were my mind’s coping mechanisms would ossify into personality traits. I worried if I kept calling patients dumb and stifling eye rolls as I talked them through a treatment plan, one day I would just assume <em>every</em> patient was dumb, and be permanently annoyed. But, to fix this accumulation of resentment and exhaustion, I was somehow supposed to make room in an already packed schedule to schedule more things like “taking time for myself,” “meditating,” and “healthy eating habits.” What’s more, even though we were all worked to capacity and <a href="https://www.aamc.org/news-insights/medical-school-enrollments-grow-residency-slots-haven-t-kept-pace">there is a doctor shortage</a>, resident numbers remain stagnant, further complicating asking for time off. For months, every time I met with the mental health counselor my supervisor urged me to see, I had to have an overworked colleague take over my shift during that hour. This haphazard attempt to keep myself together didn’t work. It simply wasn’t something I was able to accomplish by myself; it would require a complete, systemic overhaul.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1669,7 +1669,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="121"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yg2o00223h6bqruq7daq@published"
-  
+
 >On one of my last shifts as an OB-GYN resident, the departing doctor told me to keep an eye on a young patient with metastatic cervical cancer, who had recently been put on comfort care only. “I think she’s going to die tonight,” she said, slapping a pager into my palm. I wrote “WATCH” next to her name on my list of patients. The shift turned out to be a busy one. Between all the deliveries and standard labor checks, there was a steady trickle of patients who came into our triage area. I finally was sitting down to catch up on my notes when my pager went off for the millionth time. The page was from the cancer patient’s nurse.</p>
 
 <div class="slate-ad ad--box ad--desktopOnly">
@@ -1694,7 +1694,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="90"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yg3j00233h6b0be2w15l@published"
-  
+
 >“Please come.” The words flashed on the bright green background. As I was reading the message, I also noted the time stamp that blinked next to it. I only had an hour and change left before my shift was over. When I arrived at her room, I found her kneeling on the floor clutching an oxygen mask to her face, struggling to breathe as her back glistened with sweat. Two little tubes that drained urine straight from her kidneys emerged from her back, like the stumps of broken angel wings.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1719,21 +1719,21 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="13"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2ygcf00243h6bh5ptzsxj@published"
-  
+
 >I’d worked almost 100 hours that week, and all I felt was anger.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="15"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2yge100253h6bw51obsf0@published"
-  
+
 ><em>Please don’t die on my shift</em>, I pleaded internally. <em>I just want to go home</em>.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="59"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2ygh000263h6bqiawt3eq@published"
-  
+
 >I wasn’t thinking of her as a person; I was thinking of her as an inconvenience. In that moment, I hated myself so much. Crawling into bed that morning where my fiancé was still asleep, I buried my face in the pillow and blindly reached for his hand. “I don’t think I can be a doctor anymore,” I whispered.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1760,7 +1760,7 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="132"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2ygi600273h6bj54o9rkd@published"
-  
+
 >When I come home from the day of volunteering at the vaccine site, I feel like I did after a 24-hour shift. I sprawl on the couch and insist that we order delivery for dinner. I down half a bottle of wine. I shove cake in my mouth to drown out the exhaustion with the pleasure of my blood sugar spiking. I am over a year out from that moment in front of a dying patient, from deciding I’d be better off with my stethoscope as a mantel ornament rather than slung around my neck. All it took was one day in the field for the exhaustion and resentment to resurface. I cannot imagine how it’s possible that any of the doctors working through the pandemic aren’t exhausted and maybe resentful, too.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1820,7 +1820,7 @@ width="1560"
 <aside
   data-uri="slate.com/_components/in-article-recirc/instances/cknf1umvp009zkvm3kwr3y6zs@published"
   class="in-article-recirc"
-  
+
   data-via="article-inline_recirc-section-technology"
 >
     <h1 class="in-article-recirc__header">
@@ -1832,25 +1832,25 @@ width="1560"
     <ol class="in-article-recirc__list">
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/children-health-hospitals-treatment-chronic-pain.html" class="in-article-recirc__link">
-                        
+
             They Had a Mysterious Illness. Someone Finally Told Them It Was Real—and There Was a Cure. They Got Something Very Different.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/gen-z-tiktok-alcoholics-anonymous-sobriety.html" class="in-article-recirc__link">
-                        
+
             How Gen Z Is Rewriting the Rules of Sobriety
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/charlie-kirk-shooting-video-dead-violence-social-media.html" class="in-article-recirc__link">
-                        
+
             The Charlie Kirk Video Was Inescapable Online. It’s Proof of Something Dark.
           </a>
         </li>
         <li class="in-article-recirc__item">
           <a href="https://slate.com/technology/2025/09/hemmorhoids-phone-on-toilet-study.html" class="in-article-recirc__link">
-                        
+
             It Turns Out That Using Your Phone on the Toilet Could Leave You With a Pretty Painful Problem
           </a>
         </li>
@@ -1860,14 +1860,14 @@ width="1560"
   class="slate-paragraph slate-graf"
   data-word-count="164"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2ygix00283h6bg7494umm@published"
-  
+
 >I can’t tell you what being a health care provider in the last year has been like. That is not my story. But I can tell you what it was like before, when the strains of the system were just as large, but perhaps easier to ignore. I can tell you that even before hospitals were turning emergency departments into ICUs and calling up medical students to work the wards, being a health care provider came with hazards. The medical system as it stood even before the pandemic had no room for redundancy due to a massive physician shortage, strapped its providers with an almost insurmountable amount of debt, and, as the pandemic proved, didn’t have the infrastructure in place to care for those who provided the care. When I became a doctor again for just a day, I wasn’t prepared for all the reasons I left to return with such intensity; I thought their edges would have been dulled by time, not sharpened.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="58"
   data-uri="slate.com/_components/slate-paragraph/instances/cknf2ygjx00293h6bv0hx68cf@published"
-  
+
 >I can tell you that even as we read the news that life is returning to normal, it may be a long time before the doctors who were pushed past the brink are OK. Which raises the question: If a system can’t take care of its providers, can it really take care of any of us at <span class="slate-paragraph--tombstone">all?</span></p>
 
 <div
@@ -1955,7 +1955,7 @@ width="1560"
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1990,7 +1990,7 @@ width="1560"
   class="slate-adnode"
   data-adnode="technology/medical_examiner"
   data-uri="slate.com/_components/slate-adnode/instances/cknf1umv9009rkvm3x2t0gklm@published"
-  
+
 ></div>
 
 <script
@@ -2041,7 +2041,7 @@ width="1560"
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -2066,7 +2066,7 @@ width="1560"
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -2576,7 +2576,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

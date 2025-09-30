@@ -136,7 +136,7 @@ Here it is important to note, as the exhibition does so very well, that Friedric
 but by 1825 he had been denied the chair of landscape painting at the Dresden academy—a sinecure he would have coveted. His style would subsequently be eclipsed by that of the Dusseldorf Academy, which had a more direct influence on American landscape painting later in the century. Much of Friedrich’s work, which is now displayed in Germany or Russia, was forgotten and had to be rediscovered at various times, for purposes it’s doubtful that Friedrich would have supported. All of which is to say
 that the appeal of this kind of romanticism is recurring, but not long-lived. Or, maybe I should say, let’s hope it’s not long-lived this time.
 
- 
+
 
 Endnotes…
 -----------
@@ -201,6 +201,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU95Xd5d_zHrn9T-7c_wk=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F11%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

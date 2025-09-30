@@ -7,7 +7,7 @@
 
 Mounted on a Hydrascope telescopic crane, the camera captures Sebastian and Mia’s movie date.
 
-  
+
 
 ### American Cinematographer
 
@@ -27,17 +27,17 @@ Mounted on a Hydrascope telescopic crane, the camera captures Sebastian and Mia�
 * [Archive](/american-cinematographer/current-issue)
 * [español](/american-cinematographer/articles/espanol)
 
-*Unit photography by Dale Robinette. Additional photos by Linus Sandgren, FSF.   
+*Unit photography by Dale Robinette. Additional photos by Linus Sandgren, FSF.
 All images courtesy of Lionsgate.*
 
-  
+
 
 Both romantic comedy-drama and homage to the golden age of the Hollywood musical, writer-director Damien Chazelle's *La La Land* is rooted in the present, yet imbued with a timeless quality.
 
-  
+
 
 As it opens, Sebastian (Ryan Gosling) and Mia (Emma Stone) meet confrontationally in a Los Angeles traffic jam and go their separate ways, not realizing how much they have in common. They are two among thousands of young L.A. denizens struggling to make it in showbiz. He’s a frustrated jazz pianist, talented but committed to a traditional style that can't earn him a living. She’s a barista and wannabe actress who can’t get beyond soul-crushing auditions and an alienating Hollywood scene.
 
-  
-  
+
+
 ![](https://cdn.theasc.com/la-la-land-LLL_D29_05187_rgb_170415_012057.jpg)

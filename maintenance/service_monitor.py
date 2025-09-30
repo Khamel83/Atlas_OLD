@@ -71,7 +71,7 @@ def run_command(cmd, description=""):
 def check_service_status(service_name):
     """Check if a service is active"""
     try:
-        result = subprocess.run(["systemctl", "is-active", service_name], 
+        result = subprocess.run(["systemctl", "is-active", service_name],
                               capture_output=True, text=True)
         return result.stdout.strip() == "active"
     except:
@@ -80,7 +80,7 @@ def check_service_status(service_name):
 def check_process_running(process_name):
     """Check if a process is running"""
     try:
-        result = subprocess.run(["pgrep", "-f", process_name], 
+        result = subprocess.run(["pgrep", "-f", process_name],
                               capture_output=True, text=True)
         return result.returncode == 0
     except:
@@ -131,19 +131,19 @@ def send_email_alert(service_name, status):
     sender_email = os.environ.get('EMAIL_SENDER')
     sender_password = os.environ.get('EMAIL_PASSWORD')
     recipient_email = os.environ.get('EMAIL_RECIPIENT')
-    
+
     # Validate required environment variables
     if not all([sender_email, sender_password, recipient_email]):
         print("Email configuration not complete, skipping email alert")
         return False
-    
+
     try:
         # Create message
         msg = MIMEMultipart("alternative")
         msg["Subject"] = f"Atlas Service Alert: {service_name}"
         msg["From"] = sender_email
         msg["To"] = recipient_email
-        
+
         # Create text part
         text = f"""
 Atlas Service Alert
@@ -154,17 +154,17 @@ Time: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
 This is an automated message from your Atlas monitoring system.
 """
-        
+
         text_part = MIMEText(text, "plain")
         msg.attach(text_part)
-        
+
         # Send email
         context = ssl.create_default_context()
         with smtplib.SMTP(smtp_server, port) as server:
             server.starttls(context=context)
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, recipient_email, msg.as_string())
-        
+
         print(f"Email alert sent for service {service_name}")
         return True
     except Exception as e:
@@ -174,17 +174,17 @@ This is an automated message from your Atlas monitoring system.
 def log_service_status(service_name, status):
     """Log service status to file"""
     log_file = "/home/ubuntu/dev/atlas/logs/service_health.log"
-    
+
     # Create log directory if it doesn't exist
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
-    
+
     with open(log_file, "a") as f:
         f.write(f"{datetime.now()}: {service_name} - {status}\n")
 
 def check_atlas_services():
     """Check all Atlas services"""
     print("Checking Atlas services...")
-    
+
     # Define services to check
     services = {
         "atlas": {
@@ -208,29 +208,29 @@ def check_atlas_services():
             "description": "Web server"
         }
     }
-    
+
     results = {}
-    
+
     for service_name, service_info in services.items():
         print(f"\nChecking {service_name}...")
-        
+
         # Check service status
         if service_info["type"] == "systemd":
             is_active = check_service_status(service_name)
         else:
             is_active = check_process_running(service_name)
-        
+
         # Check port if specified
         port_open = True
         if "port" in service_info:
             port_open = check_port_open(service_info["port"])
-        
+
         # Determine overall status
         status = "healthy" if is_active and port_open else "unhealthy"
-        
+
         # Log status
         log_service_status(service_name, status)
-        
+
         # Store result
         results[service_name] = {
             "status": status,
@@ -238,25 +238,25 @@ def check_atlas_services():
             "port_open": port_open,
             "description": service_info["description"]
         }
-        
+
         print(f"  Status: {status}")
         print(f"  Active: {is_active}")
         print(f"  Port {service_info.get('port', 'N/A')} open: {port_open}")
-    
+
     return results
 
 def check_system_health():
     """Check overall system health"""
     print("\nChecking system health...")
-    
+
     # Check disk space
     disk_healthy = check_disk_space()
     print(f"  Disk space healthy: {disk_healthy}")
-    
+
     # Check memory usage
     memory_healthy = check_memory_usage()
     print(f"  Memory usage healthy: {memory_healthy}")
-    
+
     return {
         "disk_space": disk_healthy,
         "memory_usage": memory_healthy
@@ -265,9 +265,9 @@ def check_system_health():
 def restart_service(service_name):
     """Restart a service"""
     print(f"Restarting service: {service_name}")
-    
+
     try:
-        subprocess.run(["sudo", "systemctl", "restart", service_name], 
+        subprocess.run(["sudo", "systemctl", "restart", service_name],
                       check=True, capture_output=True)
         print(f"Service {service_name} restarted successfully")
         return True
@@ -279,32 +279,32 @@ def main():
     """Main health check function"""
     print("Starting Atlas service health check...")
     print("=" * 50)
-    
+
     # Check Atlas services
     service_results = check_atlas_services()
-    
+
     # Check system health
     system_results = check_system_health()
-    
+
     # Check for unhealthy services
     unhealthy_services = []
     for service_name, result in service_results.items():
         if result["status"] == "unhealthy":
             unhealthy_services.append(service_name)
-    
+
     # Handle unhealthy services
     if unhealthy_services:
         print("\n" + "=" * 50)
         print("UNHEALTHY SERVICES DETECTED:")
         print("=" * 50)
-        
+
         for service_name in unhealthy_services:
             result = service_results[service_name]
             print(f"\n{service_name}:")
             print(f"  Description: {result['description']}")
             print(f"  Active: {result['active']}")
             print(f"  Port open: {result['port_open']}")
-            
+
             # Attempt to restart service
             print(f"  Attempting to restart {service_name}...")
             if restart_service(service_name):
@@ -315,18 +315,18 @@ def main():
                 send_email_alert(service_name, "FAILED TO RESTART")
     else:
         print("\nAll services are healthy!")
-    
+
     # Print system health
     print("\n" + "=" * 50)
     print("SYSTEM HEALTH:")
     print("=" * 50)
     print(f"  Disk space: {'Healthy' if system_results['disk_space'] else 'Unhealthy'}")
     print(f"  Memory usage: {'Healthy' if system_results['memory_usage'] else 'Unhealthy'}")
-    
+
     # Log overall health check
     overall_status = "healthy" if not unhealthy_services else "unhealthy"
     log_service_status("SYSTEM", overall_status)
-    
+
     print("\nHealth check completed.")
     return len(unhealthy_services) == 0
 
@@ -425,29 +425,29 @@ from datetime import datetime
 def restart_service(service_name):
     """Restart a service"""
     print(f"Restarting service: {service_name}")
-    
+
     try:
         # Stop service
-        subprocess.run(["sudo", "systemctl", "stop", service_name], 
+        subprocess.run(["sudo", "systemctl", "stop", service_name],
                       check=True, capture_output=True)
         print(f"Service {service_name} stopped")
-        
+
         # Wait a moment
         import time
         time.sleep(2)
-        
+
         # Start service
-        subprocess.run(["sudo", "systemctl", "start", service_name], 
+        subprocess.run(["sudo", "systemctl", "start", service_name],
                       check=True, capture_output=True)
         print(f"Service {service_name} started")
-        
+
         # Log restart
         log_file = "/home/ubuntu/dev/atlas/logs/service_restarts.log"
         os.makedirs(os.path.dirname(log_file), exist_ok=True)
-        
+
         with open(log_file, "a") as f:
             f.write(f"{datetime.now()}: {service_name} restarted\n")
-        
+
         return True
     except subprocess.CalledProcessError as e:
         print(f"Error restarting service {service_name}: {e}")
@@ -456,37 +456,37 @@ def restart_service(service_name):
 def restart_all_services():
     """Restart all Atlas services"""
     print("Restarting all Atlas services...")
-    
+
     services = [
         "atlas",
         "prometheus",
         "grafana-server",
         "nginx"
     ]
-    
+
     results = []
-    
+
     for service in services:
         result = restart_service(service)
         results.append((service, result))
-    
+
     # Print summary
     print("\n" + "=" * 40)
     print("Restart Summary:")
     print("=" * 40)
-    
+
     all_success = True
     for service, success in results:
         status = "SUCCESS" if success else "FAILED"
         print(f"{service}: {status}")
         if not success:
             all_success = False
-    
+
     if all_success:
         print("\nAll services restarted successfully!")
     else:
         print("\nSome services failed to restart.")
-    
+
     return all_success
 
 def main():
@@ -534,35 +534,35 @@ class StatusHandler(BaseHTTPRequestHandler):
             self.send_status()
         else:
             self.send_404()
-    
+
     def send_status(self):
         """Send service status as JSON"""
         try:
             # Get service status
             status = self.get_service_status()
-            
+
             # Send response
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
-            
+
             response = json.dumps({
                 "timestamp": datetime.now().isoformat(),
                 "status": status
             })
-            
+
             self.wfile.write(response.encode('utf-8'))
-            
+
         except Exception as e:
             self.send_error(587, f"Error getting status: {str(e)}")
-    
+
     def send_404(self):
         """Send 404 Not Found response"""
         self.send_response(404)
         self.end_headers()
         self.wfile.write(b"Endpoint not found. Available: /status")
-    
+
     def get_service_status(self):
         """Get status of all services"""
         services = {
@@ -571,24 +571,24 @@ class StatusHandler(BaseHTTPRequestHandler):
             "grafana-server": {"type": "systemd"},
             "nginx": {"type": "systemd"}
         }
-        
+
         status = {}
-        
+
         for service_name, service_info in services.items():
             try:
                 if service_info["type"] == "systemd":
-                    result = subprocess.run(["systemctl", "is-active", service_name], 
+                    result = subprocess.run(["systemctl", "is-active", service_name],
                                           capture_output=True, text=True)
                     is_active = result.stdout.strip() == "active"
                 else:
-                    result = subprocess.run(["pgrep", "-f", service_name], 
+                    result = subprocess.run(["pgrep", "-f", service_name],
                                           capture_output=True, text=True)
                     is_active = result.returncode == 0
-                
+
                 status[service_name] = "running" if is_active else "stopped"
             except:
                 status[service_name] = "unknown"
-        
+
         return status
 
 def run_status_api(port=8080):

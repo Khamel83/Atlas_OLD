@@ -8,12 +8,12 @@
 View this post on the web at https://www.notboring.co/p/eight-sleep
 
 Welcome to the 317 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 230,707 smart, curious folks by subscribing here:
-Hi friends 👋 , 
-Happy Tuesday! It’s a sunny 80° here in Brooklyn, I got a great night’s sleep last night, and we’re back with another Deep Dive. Life is good. 
-Over the past couple of months, Eight Sleep [ https://substack.com/redirect/e736143a-d21f-4078-82c9-36fc7a017cf0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has been sponsoring Not Boring. It’s been one of my favorite sponsors to date because it’s the product that I use more than any other besides my laptop, and because it helps me sleep better, which makes everything else better. 
-In the regular sponsor slots, I’ve talked about the product itself, how the Pod 4 Ultra cools and elevates automatically to improve sleep and stop snoring. But what always fascinates me more than the product is the business around it. There have been plenty of incredible products that have disappeared because they didn’t make any economic sense.  
+Hi friends 👋 ,
+Happy Tuesday! It’s a sunny 80° here in Brooklyn, I got a great night’s sleep last night, and we’re back with another Deep Dive. Life is good.
+Over the past couple of months, Eight Sleep [ https://substack.com/redirect/e736143a-d21f-4078-82c9-36fc7a017cf0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has been sponsoring Not Boring. It’s been one of my favorite sponsors to date because it’s the product that I use more than any other besides my laptop, and because it helps me sleep better, which makes everything else better.
+In the regular sponsor slots, I’ve talked about the product itself, how the Pod 4 Ultra cools and elevates automatically to improve sleep and stop snoring. But what always fascinates me more than the product is the business around it. There have been plenty of incredible products that have disappeared because they didn’t make any economic sense.
 So I asked the Eight Sleep team to go deep on the business of Eight Sleep, and I learned more than I expected: how to build a consumer hardware company that won’t die and parlay that into a line of products that help people live longer and better. You can read our sponsored deep dive thought process here [ https://substack.com/redirect/461e34d8-50de-4986-81ef-f98f284a2d25?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
-Let’s get to it. 
+Let’s get to it.
 Eight Sleep [ https://substack.com/redirect/0b4e2eb9-533a-4f24-b38a-8a4387a9fdce?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
 (Click 👆 to read the full thing online)
 Here’s a thought experiment. 
@@ -268,9 +268,9 @@ There are many paths to solving big problems, and the path you choose depends on
 In some ways, it’s easier to build something really, really hard – like a reusable rocket [ https://substack.com/redirect/ace998d2-f406-45bb-8422-6a86b32ad2c8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], autonomous weapons systems [ https://substack.com/redirect/11920c4b-63cb-4909-a38b-bde95c2b3e2b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], or advanced nuclear reactors [ https://substack.com/redirect/fbcadf07-6553-4dee-a6c8-0906c130700a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] – knowing that you will be able to sell to a small number of really big buyers like the DoD or large businesses if you pull it off. And it almost seems more serious, more pure to take that approach. 
 But for certain problems, selling to consumers is the only way to get what you need. Base Power Company [ https://substack.com/redirect/57ac015f-0a92-476f-912a-d50bb644e8e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a great example: its batteries need to be located next to homes to have the maximum impact on the grid. Eight Sleep is another one: there’s no way to get the data it needs or make the impact it wants than to do the hard work of convincing people to buy your product. 
 That approach may lead people to underestimate you. I underestimated Eight Sleep, even though I’ve slept on the Pod every night for the past couple of years. But looking at where Eight Sleep sits today, and how hard it’s been to get to this point, I think it would be a mistake to underestimate what they can do in the future. 
-Thanks to Dan and Claude for editing, and to Matteo, Alexandra, David, and Delian for your insights! 
-That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday. 
-Thanks for reading, 
+Thanks to Dan and Claude for editing, and to Matteo, Alexandra, David, and Delian for your insights!
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
+Thanks for reading,
 Packy
 
 Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFEzTmpNMk5UYzVMQ0pwWVhRaU9qRTNNak0xTlRNek9EQXNJbVY0Y0NJNk1UYzFOVEE0T1RNNE1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkMwaTlmTGxwTmZMOV8ybnFEdWxGM1N6Y3E3QlBnekdTaWE4WHJFdG1TTGMiLCJwIjoxNDc2MzY1NzksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzIzNTUzMzgwLCJleHAiOjE3MjYxNDUzODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.-henMEPmXrRloauczaDhDhjfQ0GQmhzVwNRYA5wQdKU?

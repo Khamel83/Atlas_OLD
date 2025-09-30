@@ -7,68 +7,68 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: If you are Elon Musk, please stop reading this newsletter right now. You have like six companies to run! Get back to work.
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: If you are Elon Musk, please stop reading this newsletter right now. You have like six companies to run! Get back to work. For the rest of you: Money Stuff will be off tomorrow and Monday, back on Tuesday.
 
-  
-    
+
+
       Oh Elon: Where we are
-    
-  
+
+
 
 Let’s just do a roundup of Elon-Musk-buying-Twitter-Inc.-again news. First, technically,   the trial’s still on:
 
@@ -85,63 +85,63 @@ One notable deadline for resolving this was today, when Musk was supposed to ha
 Elon Musk won’t be showing up Thursday for a long-awaited deposition in Twitter Inc.’s lawsuit aimed at forcing him to go through with a $44 billion buyout of the company, according to people familiar with the matter. ... The deposition was scheduled to start at 9:30 a.m. at a law firm’s offices in Austin, Texas.
 The simplest reading of the situation is that he paid $44 billion to get out of having to do that deposition.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Oh Elon: Negotiating tactics
-    
-  
+
+
 
 The New York Times  reported last night that Musk had been trying to get the price down, but had no luck:
 
@@ -166,20 +166,20 @@ Twitter: We’re done when your check clears.
 
 Good for them! I   said yesterday that, given the strength of its legal position, Twitter could not really justify knocking more than a couple of bucks off the deal price. And given that that would require new shareholder approvals, delay closing and introduce new risks (what if he backed out of that deal?), it’s hardly worth it. Just stick to $54.20. Musk seems to have come around.
 
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Oh Elon: The Apollo thing
-    
-  
+
+
 
 When Musk signed his deal to buy Twitter, it was very important to Twitter that he had $46.5 billion of money lined up to pay for the purchase price, various closing costs, etc. This money   came from two places:
 	His banks, led by Morgan Stanley, committed to provide $13 billion of debt financing. 	Musk promised to provide the other $33.5 billion from his personal wealth.
@@ -220,11 +220,11 @@ People kind of lost their minds on Twitter about the Apollo news, because it so
 Apollo and Sixth Street both have large credit investing arms and it’s always possible that they could reemerge as investors later if banks syndicate Twitter buyout debt to investors.
 Apparently in May they were   talking about a 14% yield on the preferred stock. Now there is some chance that the banks are going to end up syndicating Twitter’s unsecured bonds at a yield somewhere north of that. 
 
-  
-    
+
+
       Oh Elon: etc.
-    
-  
+
+
 
 One thing that has come up, in the disputes leading up to the Musk/Twitter trial, is what exactly the relationship is between Musk (and his advisers) and Peiter “Mudge” Zatko, Twitter’s former head of security, who produced a whistleblower report that was   weirdly written to appeal to Musk’s interests. As part of that dispute,  the judge ordered Alex Spiro — one of Musk’s main litigators — to explain what he did with an email that he got on May 6 from an anonymous account that “purports to be from ‘a former Exec at Twitter leading teams directly involving Trust & Safety/Content Moderation’” and “offers Musk information on Twitter and suggests communicating ‘via alternate secure means.’” Presumably Twitter’s lawyers saw that Spiro got that email, thought “aha! Mudge contacted Musk’s team and then they took their discussions to Signal,” and demanded that Spiro explain himself.
 Yesterday he  filed an affidavit explaining himself and it is extremely relatable:
@@ -246,11 +246,11 @@ But “X, the everything app”? An American WeChat, a synergistic social-commer
 
 Yeah if Musk wants to be a comic-book superhero/villain, integrating payments into a text-based super-app does not have a ton of visual appeal.
 
-  
-    
+
+
       Bug bounty
-    
-  
+
+
 
 In so much of business, there are different ways to describe the same conduct, and the different descriptions have different legal implications. “I paid a bribe to a politician to get this government contract”: no, bad, don’t say that. “We do not have extensive contacts in that region, so I paid a consulting fee to a firm with deep local knowledge, and they were able to advise us on how to tailor our proposal effectively to the right decisionmakers”: Isn’t that so calm and boring and business-y? Don’t your eyes glaze over as you think “sure, yes, business, whatever”? Does it mean the same thing? Quite possibly!
 Or: “He blackmailed me, so I handed him a sack of cash”: bad. “He gave me a copy of his allegations as part of a confidential offer of settlement, and, without admitting or denying them, I decided to put the matter behind me by entering into a monetary settlement, which of course included a non-disclosure agreement”: Isn’t that so calm and boring and lawyer-y? Don’t you think “sure, yes, settlement, whatever”? Does it mean the same thing?   Quite possibly!
@@ -265,11 +265,11 @@ Sullivan’s defense was that Uber’s legal department and other managers were 
 
 I have not followed this closely but this seems like a harsh result. If nothing else, you want victims of hacks to be able to create some legal ambiguity. “We’ll pay you $100,000 and make it so that you are not criminals” is a better offer, from Uber to the hackers, than “we’ll pay you $100,000 and report this to the FBI.” It makes it more likely that Uber will get its data back, if it can make the hackers feel like good guys and promise that they won’t get prosecuted.
 
-  
-    
+
+
       Do Kwon: not atoning
-    
-  
+
+
 
 Do Kwon, the founder of the Terra blockchain, which vaporized tens of billions of dollars of investor money when its TerraUSD algorithmic stablecoin death-spiraled, remains “obviously on the run” (in the words of South Korean authorities) or “not on the run” (in his words), but he is committed to tweeting through it. Yesterday he tweeted some mean things about the South Korean government, including:
 
@@ -278,16 +278,16 @@ Reap what you sow - revolutions start from within.
 
 There was a time when this sort of rhetoric — about how crypto was a revolution, about how states and laws were obsolete, about how crypto was a force for freedom against the oppression of the state, about how crypto moguls like Kwon are the future and politicians are the past — was pretty common and triumphalist. And then Terra incinerated tens of billions of dollars that ordinary people entrusted to it! Come on! If you lost all your money on Terra and are nonetheless planning to take up arms in Do Kwon’s revolution, I would love to know why.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 The   Debt Deal That Shows How Ugly Things Are Getting for Lenders. One Big Option Trade Fueled S&P 500’s Midday Jump, Wells Fargo Says. Goldman Sachs pursues asset purchases in UK  pensions fire sale.  Ukraine Takes Unorthodox Pitch to Wall Street to Raise Billions in Debt. U.S. Looks to  Ease Venezuela Sanctions, Enabling Chevron to Pump Oil. ‘Someone will get hurt’: Investors and analysts warn on rising  market stress. LME   Blocks New Metal from Russia’s UMMC After UK Sanctions. Why Big Tech  shreds millions of storage devices it could reuse. Hamilton Lane Preps   Tokenized Funds to Draw Individual Investors. Liquid Death   Water Startup Valued at $700 Million. Not Now Sweetie, the  Linewives and Bucket Bunnies Are Fighting. Stressed  Wall Street execs flock to ‘ketamine clinic’ for IV therapy. Briton attempted  Mont Blanc climb wearing tracksuit. S.F. now has a fine-dining restaurant for dogs with  $75 tasting menu.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
-  [1] That is the amount of leverage his banks were willing to give him: He could borrow $12.5 billion by pledging $62.5 billion of Tesla stock, a 20% loan-to-value ratio. You can probably get like 50% LTV margin loans in your Robinhood account, but you are not borrowing billions of dollars, and you are not also the chief executive officer and largest shareholder of the company. 
+
+  [1] That is the amount of leverage his banks were willing to give him: He could borrow $12.5 billion by pledging $62.5 billion of Tesla stock, a 20% loan-to-value ratio. You can probably get like 50% LTV margin loans in your Robinhood account, but you are not borrowing billions of dollars, and you are not also the chief executive officer and largest shareholder of the company.
 
 
   [2] Don’t take that too seriously. I’m assuming a 15% coupon on the preferred, all paid in kind, mostly to get nice numbers though that’s the right ballpark; (1.15)^3 = 1.52. I say “if it’s worth at least $22 billion” because there’s $13 billion of debt ahead of the preferred stock, and the preferred is not going to get cashed out unless that debt is paid and there’s equity value left over. But the $22 billion number is not particularly exact or anything.
@@ -299,114 +299,114 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] “We wanted flying cars, we got 140 characters” is  Peter Thiel’s famous complaint that the modern tech industry is too focused on selling ads (like Twitter) and not focused enough on solving physical problems in the real world and/or doing cool sci-fi stuff (like Musk).
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

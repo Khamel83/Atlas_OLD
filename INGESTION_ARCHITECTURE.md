@@ -15,7 +15,7 @@ ANY URL SOURCE → helpers/unified_ingestion.py → worker_jobs table → proces
 
 **✅ ALWAYS USE THESE:**
 - `submit_url(url, priority, source)` - Single URL
-- `submit_urls(urls, priority, source)` - Bulk URLs  
+- `submit_urls(urls, priority, source)` - Bulk URLs
 - `get_ingestion_status()` - Queue status
 
 **❌ NEVER DO THIS:**
@@ -37,13 +37,13 @@ ANY URL SOURCE → helpers/unified_ingestion.py → worker_jobs table → proces
 ```
 helpers/
   unified_ingestion.py         ← MAIN INGESTION SYSTEM
-  
+
 api/routers/
   content.py                   ← submit-url endpoint uses unified_ingestion
-  
+
 api/
   main.py                      ← CSV processing uses unified_ingestion
-  
+
 web/
   app.py                       ← File uploads use unified_ingestion
 ```
@@ -97,7 +97,7 @@ async def submit_url_for_processing(submission: ContentSubmission):
 
 ### CSV Processing
 ```python
-# api/main.py  
+# api/main.py
 async def process_urls_batch(urls):
     from helpers.unified_ingestion import submit_urls
     job_ids = submit_urls(urls, priority=60, source="csv_upload")
@@ -150,15 +150,15 @@ print(f"Pending: {status['pending']}, Processing: {status['running']}")
 ### Database Queries
 ```sql
 -- Check queue status
-SELECT status, COUNT(*) FROM worker_jobs 
-WHERE type = 'url_processing' 
+SELECT status, COUNT(*) FROM worker_jobs
+WHERE type = 'url_processing'
 GROUP BY status;
 
 -- Recent submissions
-SELECT url, source, status, created_at 
-FROM worker_jobs 
-WHERE type = 'url_processing' 
-ORDER BY created_at DESC 
+SELECT url, source, status, created_at
+FROM worker_jobs
+WHERE type = 'url_processing'
+ORDER BY created_at DESC
 LIMIT 10;
 ```
 
@@ -167,17 +167,17 @@ LIMIT 10;
 ### If Queue Gets Stuck
 ```sql
 -- Reset stuck jobs (running > 1 hour)
-UPDATE worker_jobs 
-SET status = 'pending', assigned_worker = NULL 
-WHERE status = 'running' 
+UPDATE worker_jobs
+SET status = 'pending', assigned_worker = NULL
+WHERE status = 'running'
 AND assigned_at < datetime('now', '-1 hour');
 ```
 
 ### Clear Failed Jobs
 ```sql
 -- Remove old failed jobs
-DELETE FROM worker_jobs 
-WHERE status = 'failed' 
+DELETE FROM worker_jobs
+WHERE status = 'failed'
 AND created_at < datetime('now', '-7 days');
 ```
 
@@ -187,7 +187,7 @@ Before deploying ingestion changes:
 
 - [ ] All URLs go through unified_ingestion functions
 - [ ] No direct HTTP calls to submit-url
-- [ ] No temp file creation for URL processing  
+- [ ] No temp file creation for URL processing
 - [ ] Bulk processing uses submit_urls()
 - [ ] Queue status shows correct counts
 - [ ] Workers can process queued jobs
@@ -198,7 +198,7 @@ Before deploying ingestion changes:
 When this architecture changes:
 
 1. ✅ Update this file
-2. ✅ Update CLAUDE.md 
+2. ✅ Update CLAUDE.md
 3. ✅ Update README.md
 4. ✅ Update inline code comments
 5. ✅ Notify team members

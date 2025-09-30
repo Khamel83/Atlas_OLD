@@ -196,33 +196,33 @@ def root():
         <div class="container">
             <h1>🧠 Atlas</h1>
             <p class="subtitle">Your Personal AI Knowledge System</p>
-            
+
             <div class="dashboard-grid">
                 <a href="/mobile" class="dashboard-card">
                     <div class="dashboard-icon">📱</div>
                     <div class="dashboard-title">Mobile Dashboard</div>
                     <div class="dashboard-description">Touch-optimized interface with content management, search filters, and all cognitive features</div>
                 </a>
-                
+
                 <a href="/ask/html" class="dashboard-card">
                     <div class="dashboard-icon">🧠</div>
                     <div class="dashboard-title">Cognitive AI</div>
                     <div class="dashboard-description">6 AI-powered features: proactive surfacing, temporal analysis, Socratic questions, active recall</div>
                 </a>
-                
+
                 <a href="/system" class="dashboard-card">
                     <div class="dashboard-icon">📊</div>
                     <div class="dashboard-title">System Overview</div>
                     <div class="dashboard-description">Content statistics, recent activity, system health, and quick actions</div>
                 </a>
-                
+
                 <a href="/upload" class="dashboard-card">
                     <div class="dashboard-icon">📁</div>
                     <div class="dashboard-title">File Import</div>
                     <div class="dashboard-description">Upload and process files safely - CSV, JSON, TXT, ZIP archives with automatic content detection</div>
                 </a>
             </div>
-            
+
             <div class="quick-links">
                 <a href="/ask/proactive" class="quick-link">🔄 Proactive API</a>
                 <a href="/ask/temporal" class="quick-link">⏰ Temporal API</a>
@@ -561,38 +561,38 @@ async def ask_dashboard_post(
 
 # Mobile-optimized routes
 @app.get("/mobile", response_class=HTMLResponse)
-async def mobile_dashboard(request: Request, feature: str = "", search: str = "", 
+async def mobile_dashboard(request: Request, feature: str = "", search: str = "",
                           date_filter: str = "", type_filter: str = "", source_filter: str = ""):
     """Mobile-optimized cognitive dashboard."""
     data = None
     recent_content = None
-    
+
     if not ASK_AVAILABLE:
         return templates.TemplateResponse(
-            "mobile_dashboard.html", 
+            "mobile_dashboard.html",
             {"request": request, "feature": feature, "data": {"error": "Cognitive features not available"}}
         )
-    
+
     mgr = get_metadata_manager()
-    
+
     # Handle content browsing
     if feature == "browse" or not feature:
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Build WHERE conditions based on filters
         where_conditions = ["title IS NOT NULL AND title != ''"]
         params = []
-        
+
         if search:
             where_conditions.append("(title LIKE ? OR content LIKE ?)")
             params.extend([f'%{search}%', f'%{search}%'])
-        
+
         if type_filter:
             where_conditions.append("content_type LIKE ?")
             params.append(f'%{type_filter}%')
-        
+
         if date_filter:
             import datetime
             today = datetime.date.today()
@@ -611,53 +611,53 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
                 year_ago = today - datetime.timedelta(days=365)
                 where_conditions.append("DATE(created_at) >= ?")
                 params.append(year_ago.isoformat())
-        
+
         where_clause = " AND ".join(where_conditions)
-        
+
         cursor.execute(f"""
-            SELECT id, title, content, content_type, created_at 
-            FROM content 
+            SELECT id, title, content, content_type, created_at
+            FROM content
             WHERE {where_clause}
-            ORDER BY created_at DESC 
+            ORDER BY created_at DESC
             LIMIT 20
         """, params)
-        
+
         recent_content = [
             {
                 "id": row[0],
                 "title": row[1],
                 "content": row[2],
-                "content_type": row[3], 
+                "content_type": row[3],
                 "created_at": row[4]
             }
             for row in cursor.fetchall()
         ]
         conn.close()
-    
+
     # Handle cognitive features (same logic as desktop)
     elif feature == "proactive":
         # Get real old content that user might have forgotten
         import sqlite3
         import random
         from datetime import datetime, timedelta
-        
+
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Find content older than 2 days that user might want to revisit
         days_ago = (datetime.now() - timedelta(days=2)).isoformat()
         cursor.execute("""
             SELECT id, title, created_at, content_type
-            FROM content 
+            FROM content
             WHERE created_at < ? AND title IS NOT NULL AND title != ''
             ORDER BY RANDOM()
             LIMIT 10
         """, (days_ago,))
-        
+
         results = cursor.fetchall()
         conn.close()
-        
-        
+
+
         if results:
             data = {
                 "forgotten": [
@@ -689,26 +689,26 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
         # Get content from 1-4 weeks ago for spaced repetition review
         import sqlite3
         from datetime import datetime, timedelta
-        
+
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
-        # Find content from 1-3 days ago for review  
+
+        # Find content from 1-3 days ago for review
         start_date = (datetime.now() - timedelta(days=3)).isoformat()
         end_date = (datetime.now() - timedelta(days=1)).isoformat()
-        
+
         cursor.execute("""
             SELECT title, created_at, content_type, url
-            FROM content 
+            FROM content
             WHERE created_at BETWEEN ? AND ?
               AND title IS NOT NULL AND title != ''
             ORDER BY RANDOM()
             LIMIT 10
         """, (start_date, end_date))
-        
+
         results = cursor.fetchall()
         conn.close()
-        
+
         if results:
             data = {
                 "due_for_review": [
@@ -727,36 +727,36 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
         # Get real patterns from user's content
         import sqlite3
         from collections import Counter
-        
+
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Analyze content types
         cursor.execute("""
             SELECT content_type, COUNT(*) as count
-            FROM content 
+            FROM content
             WHERE content_type IS NOT NULL AND content_type != ''
             GROUP BY content_type
             ORDER BY count DESC
             LIMIT 10
         """)
         content_types = cursor.fetchall()
-        
+
         # Analyze domains from URLs
         cursor.execute("""
-            SELECT substr(url, instr(url, '://') + 3, 
-                         CASE WHEN instr(substr(url, instr(url, '://') + 3), '/') > 0 
+            SELECT substr(url, instr(url, '://') + 3,
+                         CASE WHEN instr(substr(url, instr(url, '://') + 3), '/') > 0
                               THEN instr(substr(url, instr(url, '://') + 3), '/') - 1
                               ELSE length(substr(url, instr(url, '://') + 3)) END) as domain,
                    COUNT(*) as count
-            FROM content 
+            FROM content
             WHERE url IS NOT NULL AND url LIKE 'http%'
             GROUP BY domain
             ORDER BY count DESC
             LIMIT 10
         """)
         sources = cursor.fetchall()
-        
+
         # Analyze creation patterns by day of week
         cursor.execute("""
             SELECT strftime('%w', created_at) as dow, COUNT(*) as count
@@ -766,24 +766,24 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
             ORDER BY count DESC
         """)
         day_patterns = cursor.fetchall()
-        
+
         conn.close()
-        
+
         # Convert day numbers to names
         days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
         day_stats = [(days[int(row[0])], row[1]) for row in day_patterns if row[0].isdigit()]
-        
+
         data = {
             "top_tags": [(f"{row[0]} ({row[1]} items)", row[1]) for row in content_types],
             "top_sources": [(row[0], row[1]) for row in sources if row[0]],
             "day_patterns": day_stats
         }
-    
+
     return templates.TemplateResponse(
-        "mobile_dashboard.html", 
+        "mobile_dashboard.html",
         {
-            "request": request, 
-            "feature": feature, 
+            "request": request,
+            "feature": feature,
             "data": data,
             "recent_content": recent_content,
             "search": search,
@@ -802,9 +802,9 @@ async def mobile_dashboard_post(request: Request, feature: str = Form(""), conte
         engine = QuestionEngine()
         questions = engine.generate_questions(content)
         data = {"questions": questions}
-    
+
     return templates.TemplateResponse(
-        "mobile_dashboard.html", 
+        "mobile_dashboard.html",
         {"request": request, "feature": feature, "data": data}
     )
 
@@ -817,12 +817,12 @@ async def delete_content(content_id: int):
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         cursor.execute("DELETE FROM content WHERE id = ?", (content_id,))
         if cursor.rowcount == 0:
             conn.close()
             return {"success": False, "error": "Content not found"}
-        
+
         conn.commit()
         conn.close()
         return {"success": True, "message": "Content deleted successfully"}
@@ -837,26 +837,26 @@ async def tag_content(content_id: int, tags: str = Form(...)):
         import json
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Check if content exists
         cursor.execute("SELECT tags FROM content WHERE id = ?", (content_id,))
         result = cursor.fetchone()
         if not result:
             conn.close()
             return {"success": False, "error": "Content not found"}
-        
+
         # Parse existing tags
         existing_tags = json.loads(result[0] or "[]")
         new_tags = [tag.strip() for tag in tags.split(",") if tag.strip()]
-        
+
         # Merge tags (avoid duplicates)
         all_tags = list(set(existing_tags + new_tags))
-        
-        cursor.execute("UPDATE content SET tags = ? WHERE id = ?", 
+
+        cursor.execute("UPDATE content SET tags = ? WHERE id = ?",
                       (json.dumps(all_tags), content_id))
         conn.commit()
         conn.close()
-        
+
         return {"success": True, "message": f"Tags added: {', '.join(new_tags)}", "tags": all_tags}
     except Exception as e:
         return {"success": False, "error": str(e)}
@@ -868,12 +868,12 @@ async def archive_content(content_id: int):
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         cursor.execute("UPDATE content SET archived = 1 WHERE id = ?", (content_id,))
         if cursor.rowcount == 0:
             conn.close()
             return {"success": False, "error": "Content not found"}
-        
+
         conn.commit()
         conn.close()
         return {"success": True, "message": "Content archived successfully"}
@@ -886,28 +886,28 @@ async def metrics():
     import sqlite3
     import psutil
     from datetime import datetime
-    
+
     try:
         # Database metrics
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Count total content items
         cursor.execute("SELECT COUNT(*) FROM content")
         total_content = cursor.fetchone()[0]
-        
+
         # Count recent content (last 24 hours)
         from datetime import timedelta
         yesterday = (datetime.now() - timedelta(days=1)).isoformat()
         cursor.execute("SELECT COUNT(*) FROM content WHERE created_at > ?", (yesterday,))
         recent_content = cursor.fetchone()[0]
-        
+
         conn.close()
-        
+
         # System metrics
         memory_info = psutil.virtual_memory()
         disk_info = psutil.disk_usage('/')
-        
+
         return {
             "timestamp": datetime.now().isoformat(),
             "service": "atlas-web",
@@ -923,7 +923,7 @@ async def metrics():
     except Exception as e:
         return {
             "timestamp": datetime.now().isoformat(),
-            "service": "atlas-web", 
+            "service": "atlas-web",
             "status": "unhealthy",
             "error": str(e)
         }
@@ -935,19 +935,19 @@ async def view_content(content_id: int):
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         cursor.execute("""
             SELECT id, title, content, url, content_type, created_at, quality_score, quality_issues
-            FROM content 
+            FROM content
             WHERE id = ?
         """, (content_id,))
-        
+
         row = cursor.fetchone()
         conn.close()
-        
+
         if not row:
             return "<h1>Content not found</h1>"
-        
+
         content_data = {
             'id': row[0],
             'title': row[1] or 'Untitled',
@@ -958,7 +958,7 @@ async def view_content(content_id: int):
             'quality_score': row[6] if row[6] is not None else 0.5,
             'quality_issues': row[7] or ''
         }
-        
+
         # Determine quality classification
         score = content_data['quality_score']
         if score < 0.2:
@@ -979,18 +979,18 @@ async def view_content(content_id: int):
             quality_color = '#16a34a'  # green
         else:
             quality_class = 'excellent'
-            quality_label = 'EXCELLENT'  
+            quality_label = 'EXCELLENT'
             quality_color = '#0d9488'  # teal
-        
+
         # Format content for better reading
         content = content_data['content']
         podcast_metadata = {}
-        
+
         if content_data['content_type'] == 'podcast':
             # Parse podcast metadata from content
             import re
             lines = content.split('\n')
-            
+
             for line in lines[:10]:  # Check first 10 lines for metadata
                 if line.startswith('Title: '):
                     podcast_metadata['show_title'] = line[7:].strip()
@@ -1000,21 +1000,21 @@ async def view_content(content_id: int):
                     podcast_metadata['published'] = line[11:].strip()
                 elif line.startswith('Summary: '):
                     podcast_metadata['summary'] = line[9:].strip()
-            
+
             # Skip metadata section and format transcript
             transcript_start = 0
             for i, line in enumerate(lines):
                 if line.strip() == '' and i > 5:  # First empty line after metadata
                     transcript_start = i + 1
                     break
-            
+
             transcript_content = '\n'.join(lines[transcript_start:])
             content = transcript_content.replace('\n\n', '<br><br>').replace('\n', '<br>')
         else:
             # For articles, preserve paragraphs
             paragraphs = content.split('\n\n')
             content = '<p>' + '</p><p>'.join([p.replace('\n', '<br>') for p in paragraphs if p.strip()]) + '</p>'
-        
+
         return f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -1082,14 +1082,14 @@ async def view_content(content_id: int):
             <div class="header">
                 <a href="/mobile" class="back-link">← Back to Atlas</a>
                 <h1>{podcast_metadata.get('show_title', content_data['title'])}</h1>
-                
+
                 <div class="quality-indicator">
                     <span class="quality-badge" style="background-color: {quality_color}; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">
                         {quality_label} ({content_data['quality_score']:.2f})
                     </span>
                     {f'<span style="margin-left: 10px; font-size: 12px; color: #666;">Issues: {content_data["quality_issues"]}</span>' if content_data['quality_issues'] else ''}
                 </div>
-                
+
                 <div class="meta">
                     {'<span class="transcript-marker">PODCAST TRANSCRIPT</span>' if content_data['content_type'] == 'podcast' else ''}
                     {f'<br><strong>Host:</strong> {podcast_metadata["author"]}' if podcast_metadata.get('author') else ''}
@@ -1097,7 +1097,7 @@ async def view_content(content_id: int):
                     {f'<br><strong>Summary:</strong> {podcast_metadata["summary"][:200]}{"..." if len(podcast_metadata.get("summary", "")) > 200 else ""}' if podcast_metadata.get('summary') else ''}
                     {f' • <a href="{content_data["url"]}" target="_blank">Original Source</a>' if content_data['url'] and not content_data['url'].startswith('inputs/') else ''}
                 </div>
-                
+
                 {'<div class="reprocess-actions" style="margin-top: 15px;">' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
                 {'<button onclick="reprocessContent()" style="background: #f59e0b; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-right: 10px;">🔄 Reprocess Content</button>' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
                 {'<button onclick="markAsStub()" style="background: #dc2626; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer;">🗑️ Mark as Stub</button>' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
@@ -1107,23 +1107,23 @@ async def view_content(content_id: int):
                 {content[:50000]}
                 {'<br><br><em>[Content truncated at 50,000 characters for performance]</em>' if len(content) > 50000 else ''}
             </div>
-            
+
             <script>
                 async function reprocessContent() {{
                     const contentId = {content_data['id']};
                     const button = event.target;
-                    
+
                     button.disabled = true;
                     button.textContent = '🔄 Processing...';
-                    
+
                     try {{
                         const response = await fetch(`/content/${{contentId}}/reprocess`, {{
                             method: 'POST',
                             headers: {{'Content-Type': 'application/json'}}
                         }});
-                        
+
                         const result = await response.json();
-                        
+
                         if (result.success) {{
                             button.textContent = '✅ Queued for Reprocessing';
                             button.style.background = '#16a34a';
@@ -1139,26 +1139,26 @@ async def view_content(content_id: int):
                         console.error('Request failed:', error);
                     }}
                 }}
-                
+
                 async function markAsStub() {{
                     const contentId = {content_data['id']};
                     const button = event.target;
-                    
+
                     if (!confirm('Mark this content as a stub? This will flag it as low quality.')) {{
                         return;
                     }}
-                    
+
                     button.disabled = true;
                     button.textContent = '🗑️ Marking...';
-                    
+
                     try {{
                         const response = await fetch(`/content/${{contentId}}/mark-stub`, {{
                             method: 'POST',
                             headers: {{'Content-Type': 'application/json'}}
                         }});
-                        
+
                         const result = await response.json();
-                        
+
                         if (result.success) {{
                             button.textContent = '✅ Marked as Stub';
                             button.style.background = '#16a34a';
@@ -1176,7 +1176,7 @@ async def view_content(content_id: int):
         </body>
         </html>
         """
-        
+
     except Exception as e:
         return f"<h1>Error loading content: {e}</h1>"
 
@@ -1187,77 +1187,77 @@ async def system_overview():
         import sqlite3
         from datetime import datetime, timedelta
         import psutil
-        
+
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Get content statistics
         cursor.execute("SELECT COUNT(*) FROM content")
         total_content = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM content WHERE content_type = 'podcast'")
         podcast_count = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM content WHERE (content_type IS NULL OR content_type = '')")
         article_count = cursor.fetchone()[0]
-        
+
         # Recent activity (last 7 days)
         week_ago = (datetime.now() - timedelta(days=7)).isoformat()
         cursor.execute("SELECT COUNT(*) FROM content WHERE created_at > ?", (week_ago,))
         recent_additions = cursor.fetchone()[0]
-        
+
         # Get latest additions with titles
         cursor.execute("""
-            SELECT title, created_at, content_type 
-            FROM content 
-            WHERE title IS NOT NULL AND title != '' 
-            ORDER BY created_at DESC 
+            SELECT title, created_at, content_type
+            FROM content
+            WHERE title IS NOT NULL AND title != ''
+            ORDER BY created_at DESC
             LIMIT 5
         """)
         latest_content = cursor.fetchall()
-        
+
         # Get quality breakdown instead of just content types
         cursor.execute("""
-            SELECT 
-                CASE 
+            SELECT
+                CASE
                     WHEN quality_score < 0.2 THEN 'Failed Content'
-                    WHEN quality_score < 0.4 THEN 'Stub Content' 
+                    WHEN quality_score < 0.4 THEN 'Stub Content'
                     WHEN quality_score < 0.6 THEN 'Low Quality'
                     WHEN quality_score < 0.8 THEN 'Good Content'
                     ELSE 'Excellent Content'
                 END as quality_display,
                 COUNT(*) as count
-            FROM content 
+            FROM content
             WHERE quality_score IS NOT NULL
-            GROUP BY 
-                CASE 
+            GROUP BY
+                CASE
                     WHEN quality_score < 0.2 THEN 1
-                    WHEN quality_score < 0.4 THEN 2 
+                    WHEN quality_score < 0.4 THEN 2
                     WHEN quality_score < 0.6 THEN 3
                     WHEN quality_score < 0.8 THEN 4
                     ELSE 5
                 END
-            ORDER BY 
-                CASE 
+            ORDER BY
+                CASE
                     WHEN quality_score < 0.2 THEN 1
-                    WHEN quality_score < 0.4 THEN 2 
+                    WHEN quality_score < 0.4 THEN 2
                     WHEN quality_score < 0.6 THEN 3
                     WHEN quality_score < 0.8 THEN 4
                     ELSE 5
                 END
         """)
         quality_breakdown = cursor.fetchall()
-        
+
         # Get most problematic items count
         cursor.execute("SELECT COUNT(*) FROM content WHERE quality_score < 0.4")
         problematic_count = cursor.fetchone()[0]
-        
+
         conn.close()
-        
+
         # System info
         memory_info = psutil.virtual_memory()
         disk_info = psutil.disk_usage('/')
-        
+
         return f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -1367,7 +1367,7 @@ async def system_overview():
                     <h1>📊 System Overview</h1>
                     <p><span class="health-indicator"></span>Atlas is running smoothly</p>
                 </div>
-                
+
                 <div class="stats-grid">
                     <div class="stat-card">
                         <div class="stat-number">{total_content:,}</div>
@@ -1390,13 +1390,13 @@ async def system_overview():
                         <div class="stat-label">Disk Usage</div>
                     </div>
                 </div>
-                
+
                 <div class="section">
                     <h2>⭐ Content Quality Breakdown</h2>
                     {''.join([f'<div class="breakdown-item"><span>{row[0]}</span><span>{row[1]:,}</span></div>' for row in quality_breakdown])}
                     {f'<div class="breakdown-item" style="border-top: 2px solid rgba(255,255,255,0.2); margin-top: 10px; padding-top: 10px;"><span><strong>Items Needing Attention</strong></span><span style="color: #f59e0b;"><strong>{problematic_count:,}</strong></span></div>' if problematic_count > 0 else ''}
                 </div>
-                
+
                 <div class="section">
                     <h2>🆕 Recently Added</h2>
                     {''.join([f'''
@@ -1406,7 +1406,7 @@ async def system_overview():
                     </div>
                     ''' for row in latest_content])}
                 </div>
-                
+
                 <div class="section">
                     <h2>🔗 Quick Actions</h2>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
@@ -1428,7 +1428,7 @@ async def system_overview():
         </body>
         </html>
         """
-        
+
     except Exception as e:
         return f"<h1>Error loading system overview: {e}</h1>"
 
@@ -1439,15 +1439,15 @@ async def reprocess_content(content_id: int):
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Get current content info
         cursor.execute("SELECT title, url, content_type FROM content WHERE id = ?", (content_id,))
         row = cursor.fetchone()
         if not row:
             return {"success": False, "error": "Content not found"}
-            
+
         title, url, content_type = row
-        
+
         # Mark as reprocessing
         cursor.execute(
             "UPDATE content SET quality_score = 0.0, quality_issues = 'reprocessing' WHERE id = ?",
@@ -1455,15 +1455,15 @@ async def reprocess_content(content_id: int):
         )
         conn.commit()
         conn.close()
-        
+
         # Use actual reprocessing pipeline
         try:
             sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
             from helpers.content_reprocessor import ContentReprocessor
-            
+
             reprocessor = ContentReprocessor()
             result = reprocessor.reprocess_item(content_id)
-            
+
             if result.success:
                 improvement = result.new_quality - result.old_quality
                 return {
@@ -1486,14 +1486,14 @@ async def reprocess_content(content_id: int):
                 "error": str(e),
                 "message": f"Error reprocessing content #{content_id}: {str(e)}"
             }
-        
+
         return {
-            "success": True, 
+            "success": True,
             "message": f"Content #{content_id} reprocessing completed",
             "content_id": content_id,
             "status": "queued"
         }
-        
+
     except Exception as e:
         return {"success": False, "error": str(e)}
 
@@ -1504,61 +1504,61 @@ async def get_reprocessing_status():
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         # Quality distribution
         cursor.execute("""
-            SELECT 
-                CASE 
+            SELECT
+                CASE
                     WHEN quality_score < 0.2 THEN 'Failed'
-                    WHEN quality_score < 0.4 THEN 'Stub' 
+                    WHEN quality_score < 0.4 THEN 'Stub'
                     WHEN quality_score < 0.6 THEN 'Low Quality'
                     WHEN quality_score < 0.8 THEN 'Good'
                     ELSE 'Excellent'
                 END as category,
                 COUNT(*) as count
-            FROM content 
+            FROM content
             WHERE quality_score IS NOT NULL AND quality_score > 0
             GROUP BY category
         """)
-        
+
         quality_dist = dict(cursor.fetchall())
-        
-        # Reprocessing stats  
+
+        # Reprocessing stats
         cursor.execute('SELECT COUNT(*) FROM content WHERE quality_issues = "reprocessing"')
         currently_processing = cursor.fetchone()[0]
-        
+
         cursor.execute('SELECT COUNT(*) FROM content WHERE quality_score < 0.4 AND quality_score > 0 AND quality_issues NOT LIKE "%reprocessing%"')
         remaining_problematic = cursor.fetchone()[0]
-        
+
         # Recent improvements
         cursor.execute("""
-            SELECT id, title, quality_score 
-            FROM content 
+            SELECT id, title, quality_score
+            FROM content
             WHERE quality_score BETWEEN 0.3 AND 0.8
             AND quality_issues NOT LIKE '%reprocessing%'
             AND updated_at > datetime('now', '-1 hour')
             ORDER BY updated_at DESC
             LIMIT 10
         """)
-        
+
         recent_improvements = [
             {"id": cid, "title": title[:60] + "..." if len(title) > 60 else title, "score": score}
             for cid, title, score in cursor.fetchall()
         ]
-        
+
         conn.close()
-        
+
         # Calculate progress
         original_problematic = 956  # From initial assessment
         processed = original_problematic - remaining_problematic - currently_processing
         progress_percentage = (processed / original_problematic) * 100 if original_problematic > 0 else 0
-        
+
         return {
             "status": "running" if currently_processing > 0 else "idle",
             "progress": {
                 "total_items": original_problematic,
                 "processed": processed,
-                "remaining": remaining_problematic, 
+                "remaining": remaining_problematic,
                 "currently_processing": currently_processing,
                 "percentage": round(progress_percentage, 1)
             },
@@ -1566,7 +1566,7 @@ async def get_reprocessing_status():
             "recent_improvements": recent_improvements,
             "summary": f"Processed {processed}/{original_problematic} items ({progress_percentage:.1f}% complete)"
         }
-        
+
     except Exception as e:
         return {"success": False, "error": str(e)}
 
@@ -1577,20 +1577,20 @@ async def mark_as_stub(content_id: int):
         import sqlite3
         conn = sqlite3.connect('atlas.db')
         cursor = conn.cursor()
-        
+
         cursor.execute(
             "UPDATE content SET quality_score = 0.1, quality_issues = 'marked_as_stub' WHERE id = ?",
             (content_id,)
         )
         conn.commit()
         conn.close()
-        
+
         return {
             "success": True,
             "message": f"Content #{content_id} marked as stub",
             "content_id": content_id
         }
-        
+
     except Exception as e:
         return {"success": False, "error": str(e)}
 
@@ -1599,36 +1599,36 @@ async def debug_proactive():
     """Debug proactive content surfacing."""
     import sqlite3
     from datetime import datetime, timedelta
-    
+
     days_ago = (datetime.now() - timedelta(days=2)).isoformat()
-    
+
     conn = sqlite3.connect('atlas.db')
     cursor = conn.cursor()
-    
+
     cursor.execute("SELECT COUNT(*) FROM content")
     total_count = cursor.fetchone()[0]
-    
+
     cursor.execute("SELECT COUNT(*) FROM content WHERE title IS NOT NULL AND title != ''")
     titled_count = cursor.fetchone()[0]
-    
+
     cursor.execute("SELECT COUNT(*) FROM content WHERE created_at < ?", (days_ago,))
     old_count = cursor.fetchone()[0]
-    
+
     cursor.execute("""
         SELECT title, created_at, content_type
-        FROM content 
+        FROM content
         WHERE created_at < ? AND title IS NOT NULL AND title != ''
         ORDER BY RANDOM()
         LIMIT 3
     """, (days_ago,))
-    
+
     sample_results = cursor.fetchall()
     conn.close()
-    
+
     return {
         "cutoff_date": days_ago,
         "total_content": total_count,
-        "with_titles": titled_count, 
+        "with_titles": titled_count,
         "older_than_cutoff": old_count,
         "sample_results": [{"title": r[0], "date": r[1], "type": r[2]} for r in sample_results]
     }
@@ -1644,35 +1644,35 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 def is_safe_file(filename: str, content: bytes) -> tuple[bool, str]:
     """Check if file is safe to process."""
     _, ext = os.path.splitext(filename.lower())
-    
+
     if ext not in ALLOWED_EXTENSIONS:
         return False, f"File extension '{ext}' not allowed. Allowed: {', '.join(ALLOWED_EXTENSIONS)}"
-    
+
     # Use python-magic to detect actual file type
     try:
         mime_type = magic.from_buffer(content, mime=True)
-        
+
         # Check for executable files
         if 'executable' in mime_type or 'application/x-' in mime_type:
             if mime_type not in ['application/x-zip-compressed', 'application/zip']:
                 return False, f"Potentially executable file detected: {mime_type}"
-        
+
         # Additional safety checks
         dangerous_patterns = [b'\x00', b'<?php', b'<script', b'#!/bin/']
         for pattern in dangerous_patterns:
             if pattern in content[:1024]:  # Check first 1KB
                 return False, "Potentially dangerous content detected"
-                
+
     except Exception as e:
         return False, f"Could not analyze file: {str(e)}"
-    
+
     return True, "File appears safe"
 
 def process_uploaded_file(filepath: str, filename: str) -> dict:
     """Process uploaded file based on type."""
     _, ext = os.path.splitext(filename.lower())
     results = {"filename": filename, "type": ext, "processed": False, "data": None, "error": None}
-    
+
     try:
         if ext == '.csv':
             import pandas as pd
@@ -1683,7 +1683,7 @@ def process_uploaded_file(filepath: str, filename: str) -> dict:
                 "sample": df.head(3).to_dict('records') if len(df) > 0 else []
             }
             results["processed"] = True
-            
+
         elif ext == '.json':
             import json
             with open(filepath, 'r', encoding='utf-8') as f:
@@ -1695,7 +1695,7 @@ def process_uploaded_file(filepath: str, filename: str) -> dict:
                 "sample": str(data)[:500] + "..." if len(str(data)) > 500 else str(data)
             }
             results["processed"] = True
-            
+
         elif ext in ['.txt', '.md', '.log']:
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -1705,7 +1705,7 @@ def process_uploaded_file(filepath: str, filename: str) -> dict:
                 "sample": content[:500] + "..." if len(content) > 500 else content
             }
             results["processed"] = True
-            
+
         elif ext == '.zip':
             with zipfile.ZipFile(filepath, 'r') as zip_ref:
                 file_list = zip_ref.namelist()
@@ -1715,10 +1715,10 @@ def process_uploaded_file(filepath: str, filename: str) -> dict:
                     "total_size": sum(info.file_size for info in zip_ref.filelist)
                 }
                 results["processed"] = True
-                
+
     except Exception as e:
         results["error"] = str(e)
-    
+
     return results
 
 @app.get("/upload", response_class=HTMLResponse)
@@ -1816,7 +1816,7 @@ def upload_form():
         <div class="container">
             <a href="/" class="back-link">← Back to Dashboard</a>
             <h1>📁 File Import</h1>
-            
+
             <div class="upload-card">
                 <h2>Upload File</h2>
                 <form action="/upload" method="post" enctype="multipart/form-data">
@@ -1829,7 +1829,7 @@ def upload_form():
                     </div>
                     <button type="submit" class="submit-btn">Upload & Process</button>
                 </form>
-                
+
                 <div class="allowed-files">
                     <strong>Allowed file types:</strong> TXT, CSV, JSON, MD, ZIP, LOG
                     <br>
@@ -1839,11 +1839,11 @@ def upload_form():
                 </div>
             </div>
         </div>
-        
+
         <script>
             const fileInput = document.getElementById('file');
             const label = document.querySelector('.file-input-label');
-            
+
             fileInput.addEventListener('change', function(e) {
                 const fileName = e.target.files[0]?.name || 'Choose File';
                 label.textContent = fileName;
@@ -1864,7 +1864,7 @@ async def upload_file(file: UploadFile = File(...)):
                 status_code=413,
                 content={"error": "File too large. Maximum size is 50MB."}
             )
-        
+
         # Check if file is safe
         is_safe, safety_msg = is_safe_file(file.filename, content)
         if not is_safe:
@@ -1872,28 +1872,28 @@ async def upload_file(file: UploadFile = File(...)):
                 status_code=400,
                 content={"error": f"File rejected: {safety_msg}"}
             )
-        
+
         # Save file
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         safe_filename = f"{timestamp}_{file.filename}"
         filepath = os.path.join(UPLOAD_DIR, safe_filename)
-        
+
         with open(filepath, 'wb') as f:
             f.write(content)
-        
+
         # Process file
         results = process_uploaded_file(filepath, file.filename)
-        
+
         # Generate HTML response
         status_color = "#4CAF50" if results["processed"] else "#f44336"
         status_text = "Success" if results["processed"] else "Error"
-        
+
         data_html = ""
         if results["processed"] and results["data"]:
             data_html = f"<pre>{json.dumps(results['data'], indent=2)}</pre>"
         elif results["error"]:
             data_html = f"<div style='color: #f44336;'>Error: {results['error']}</div>"
-        
+
         return HTMLResponse(f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -1954,24 +1954,24 @@ async def upload_file(file: UploadFile = File(...)):
         <body>
             <div class="container">
                 <h1>📁 Upload Results</h1>
-                
+
                 <div class="result-card">
                     <h2>File: {results['filename']}</h2>
                     <p><strong>Status:</strong> <span class="status">{status_text}</span></p>
                     <p><strong>Type:</strong> {results['type']}</p>
                     <p><strong>Safety Check:</strong> {safety_msg}</p>
-                    
+
                     <h3>Processing Results:</h3>
                     {data_html}
                 </div>
-                
+
                 <a href="/upload" class="back-link">← Upload Another File</a>
                 <a href="/" class="back-link">← Back to Dashboard</a>
             </div>
         </body>
         </html>
         """)
-        
+
     except Exception as e:
         return JSONResponse(
             status_code=500,

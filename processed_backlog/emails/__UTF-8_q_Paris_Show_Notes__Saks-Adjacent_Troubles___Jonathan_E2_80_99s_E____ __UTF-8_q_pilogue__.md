@@ -159,7 +159,7 @@ expectations. (Very Gen X for an old Millennial.) I loved his “normal” cloth
 It would, of course, be funny if this ended up being Demna’s final collection for Balenciaga. After a decade of making so-called abnormal clothes—ones that honored the house’s codes in ways the naked eye could not detect—he decided to
 nail the one thing no one expects of him. With all the Gucci speculation, his name has bubbled up of late. But that feels silly. I hope that, if Demna were to leave Balenciaga, he would once again do his own thing. His way of dressing, and being, is perennial. Remember that the name Vetements, the line he founded that put him on the map, translates to “clothes.”
 
- 
+
 
 What I’m Reading…
 ---------------------
@@ -177,7 +177,7 @@ hits stores on different days in different places, so I don’t want to tell you
 
 I always want to read Leandra’s take on the shows. [Cereal Aisle ( https://leandramcohen.substack.com/p/letter-of-rec-094-what-is-the-right?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… Correction: Nicholas Coleridge did not
 run Condé Nast International, he was only in charge of Britain. (Jonathan Newhouse was his boss, remember?) These guys really don’t seem to like each other! We need more fun fake battles.
@@ -204,6 +204,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVghQ8bVpbTmRJMMpSmB4=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

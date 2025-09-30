@@ -7,9 +7,9 @@
 
 # » Page not found
 
-Grantland Staff, Bill Barnwell, Ben Lindbergh, Brian Phillips • Unknown date 
+Grantland Staff, Bill Barnwell, Ben Lindbergh, Brian Phillips • Unknown date
 
 ![» Page not found](https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg)
 
-Hey, the page you’re looking for doesn’t seem to be working. Why not try: 
+Hey, the page you’re looking for doesn’t seem to be working. Why not try:
 

@@ -16,8 +16,8 @@ Investment Options: If you’re already investing in alts or want to allocate mo
 Plus, you can now also check out the new Alto Marketplace [ https://substack.com/redirect/4d65f7f5-6d13-4c4e-9d7e-e77cb233f6ee?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] – the premier destination for discoverability-driven securities investing. As we start off the New Year, make a good decision and learn more about Alto.
 (Of course, IRA rules and regulations apply, and you should seek advice from a tax professional when making investments. Alternative asset investments are inherently risky and are intended for sophisticated investors.)
 Hi friends 👋,
-I’ve become obsessed with a certain kind of company recently. This is my attempt to put a framework around the opportunity. 
-Let’s get to it. 
+I’ve become obsessed with a certain kind of company recently. This is my attempt to put a framework around the opportunity.
+Let’s get to it.
 Techno-Industrial Revolution
 We’re standing at the foot of a Techno-Industrial Revolution. 
 Progress shifted from atoms to bits and is now shifting to a combination of atoms and bits. 
@@ -109,7 +109,7 @@ I’m on the hunt for more examples – please send me your favorites – both t
 For the first time in a long time, tech companies have the opportunity to rebuild the world’s industrial base and tap into huge, existing pools of revenue at higher margins than incumbents can. Assuming the same revenue – a safe assumption, since revenue will likely grow with lower prices – structurally higher margins will create more valuable companies than the incumbent comps. 
 I suspect that in a decade or two, there will be dozens of trillion-dollar companies, and my bet is that many of them will be Techno-Industrials.
 Thanks to Dan [ https://substack.com/redirect/8f9ea9c2-bf34-41d8-b83d-1b6c64db4775?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing!
-That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday. 
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
 Thanks for reading,
 Packy
 

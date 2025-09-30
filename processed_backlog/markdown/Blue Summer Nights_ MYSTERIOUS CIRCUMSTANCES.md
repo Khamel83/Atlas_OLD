@@ -12,7 +12,7 @@
 
 # Page not found
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Page not found]()
 

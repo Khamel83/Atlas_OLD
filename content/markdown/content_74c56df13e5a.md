@@ -9,14 +9,14 @@
 
 <head>
     <meta charset="utf-8" />
-    
-        
+
+
 <meta name="description" content="Posted by Jason Wei and Yi Tay, Research Scientists, Google Research, Brain Team The field of natural language processing (NLP) has been revolution..."><meta name="keywords" content="NLP,Publications,Research"><link rel="canonical" href="https://research.google/blog/characterizing-emergent-phenomena-in-large-language-models/" /><meta property="og:title" content="Characterizing Emergent Phenomena in Large Language Models"><meta property="og:url" content="https://research.google/blog/characterizing-emergent-phenomena-in-large-language-models/"><meta property="og:description" content="Posted by Jason Wei and Yi Tay, Research Scientists, Google Research, Brain Team The field of natural language processing (NLP) has been revolution..."><meta property="og:image" content="https://storage.googleapis.com/gweb-research2023-media/images/825fe036e00e3833b7bb7962fcd1ab05-i.width-800.format-jpeg.jpg"><meta property="og:image:secure_url" content="https://storage.googleapis.com/gweb-research2023-media/images/825fe036e00e3833b7bb7962fcd1ab05-i.width-800.format-jpeg.jpg"><meta property="og:type" content="Website">
 
 <title>Characterizing Emergent Phenomena in Large Language Models</title>
-    
+
     <meta name="description" content="Posted by Jason Wei and Yi Tay, Research Scientists, Google Research, Brain Team The field of natural language processing (NLP) has been revolution..." />
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover"/>
 
 <link rel="icon" type="image/png" href="https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png">
@@ -126,24 +126,24 @@ dataLayer.push({
     class="glue-header__item  js-sub-nav-parent --parent"
     data-gt-primary="Who we are"
   >
-  
+
     <button
       class="glue-header__link js-sub-nav-target"
       aria-haspopup="true"
       aria-expanded="false"
-      
+
     >
-      
+
       <span class="">
         Who we are
-        
+
           <span class="icon icon--caret"></span>
-        
+
       </span>
-    
+
     </button>
-    
-    
+
+
       <div class="navigation__sub js-sub-nav" role="menu">
         <div class="navigation__sub__container">
           <div class="navigation__sub__mobile-heading">
@@ -158,23 +158,23 @@ dataLayer.push({
 
 <div class="navigation__sub--content" data-gt-secondary="Defining the technology of today and tomorrow.">
     <div class="navigation__sub__wrapper">
-        
+
             <div class="navigation__sub__heading">
                 <h2 class="headline-3">Defining the technology of today and tomorrow.</h2>
-                
+
             </div>
 
 <ul class="navigation__sub__columns">
 
 <li data-gt-secondary="Philosophy">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Philosophy
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">We strive to create an environment conducive to many different types of research across many different time scales and levels of risk.</p>
-        
+
             <a
             href="https://research.google/philosophy/"
             class="glue-inline-link js-drawer-link"
@@ -182,30 +182,30 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Philosophy</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/philosophy/" 
-                
+                href="https://research.google/philosophy/"
+
             >
                 Philosophy
             </a>
-        
+
     </div>
 </li>
 
 <li data-gt-secondary="People">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 People
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">Our researchers drive advancements in computer science through both fundamental and applied research.</p>
-        
+
             <a
             href="https://research.google/people/"
             class="glue-inline-link js-drawer-link"
@@ -213,18 +213,18 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our People</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/people/" 
-                
+                href="https://research.google/people/"
+
             >
                 People
             </a>
-        
+
     </div>
 </li>
 
@@ -235,31 +235,31 @@ dataLayer.push({
 </div>
         </div>
       </div>
-    
+
   </li>
 
 <li
     class="glue-header__item  js-sub-nav-parent --parent"
     data-gt-primary="Research areas"
   >
-  
+
     <button
       class="glue-header__link js-sub-nav-target"
       aria-haspopup="true"
       aria-expanded="false"
-      
+
     >
-      
+
       <span class="">
         Research areas
-        
+
           <span class="icon icon--caret"></span>
-        
+
       </span>
-    
+
     </button>
-    
-    
+
+
       <div class="navigation__sub js-sub-nav" role="menu">
         <div class="navigation__sub__container">
           <div class="navigation__sub__mobile-heading">
@@ -278,25 +278,25 @@ dataLayer.push({
 
 <li data-gt-secondary="Research areas">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">Research areas</h2>
 
 <ul>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/"
-                                
+
                             >
                                 Explore all research areas
                             </a>
-                        
+
                     </li>
-                
+
             </ul>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
         <button class="glue-header__link js-sub-nav-target" data-panel="nested" role="menuitem" aria-haspopup="true">
@@ -304,7 +304,7 @@ dataLayer.push({
         </button>
 
 <div class="navigation__nested-sub js-sub-nav-parent">
-            
+
               <div class="navigation__sub__mobile-heading">
                 <button class="glue-header__link js-sub-nav-close-mobile" role="menuitem" aria-haspopup="true">
                   <span class="sr-text">Back to</span>
@@ -314,143 +314,143 @@ dataLayer.push({
                 <hr/>
               </div>
               <ul>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Explore all research areas
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                 </ul>
-            
+
         </div>
     </div>
 </li>
 
 <li data-gt-secondary="Foundational ML &amp; Algorithms">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">Foundational ML &amp; Algorithms</h2>
 
 <ul>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/algorithms-and-theory/"
-                                
+
                             >
                                 Algorithms &amp; Theory
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/data-management/"
-                                
+
                             >
                                 Data Management
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/data-mining-and-modeling/"
-                                
+
                             >
                                 Data Mining &amp; Modeling
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/information-retrieval-and-the-web/"
-                                
+
                             >
                                 Information Retrieval &amp; the Web
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/machine-intelligence/"
-                                
+
                             >
                                 Machine Intelligence
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/machine-perception/"
-                                
+
                             >
                                 Machine Perception
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/machine-translation/"
-                                
+
                             >
                                 Machine Translation
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/natural-language-processing/"
-                                
+
                             >
                                 Natural Language Processing
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/speech-processing/"
-                                
+
                             >
                                 Speech Processing
                             </a>
-                        
+
                     </li>
-                
+
             </ul>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
         <button class="glue-header__link js-sub-nav-target" data-panel="nested" role="menuitem" aria-haspopup="true">
@@ -458,7 +458,7 @@ dataLayer.push({
         </button>
 
 <div class="navigation__nested-sub js-sub-nav-parent">
-            
+
               <div class="navigation__sub__mobile-heading">
                 <button class="glue-header__link js-sub-nav-close-mobile" role="menuitem" aria-haspopup="true">
                   <span class="sr-text">Back to</span>
@@ -468,247 +468,247 @@ dataLayer.push({
                 <hr/>
               </div>
               <ul>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/algorithms-and-theory/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Algorithms &amp; Theory
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/data-management/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Data Management
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/data-mining-and-modeling/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Data Mining &amp; Modeling
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/information-retrieval-and-the-web/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Information Retrieval &amp; the Web
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/machine-intelligence/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Machine Intelligence
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/machine-perception/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Machine Perception
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/machine-translation/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Machine Translation
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/natural-language-processing/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Natural Language Processing
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/speech-processing/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Speech Processing
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                 </ul>
-            
+
         </div>
     </div>
 </li>
 
 <li data-gt-secondary="Computing Systems &amp; Quantum AI">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">Computing Systems &amp; Quantum AI</h2>
 
 <ul>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/distributed-systems-and-parallel-computing/"
-                                
+
                             >
                                 Distributed Systems &amp; Parallel Computing
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/hardware-and-architecture/"
-                                
+
                             >
                                 Hardware &amp; Architecture
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/mobile-systems/"
-                                
+
                             >
                                 Mobile Systems
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/networking/"
-                                
+
                             >
                                 Networking
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/quantum-computing/"
-                                
+
                             >
                                 Quantum Computing
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/robotics/"
-                                
+
                             >
                                 Robotics
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/security-privacy-and-abuse-prevention/"
-                                
+
                             >
                                 Security, Privacy, &amp; Abuse Prevention
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/software-engineering/"
-                                
+
                             >
                                 Software Engineering
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/software-systems/"
-                                
+
                             >
                                 Software Systems
                             </a>
-                        
+
                     </li>
-                
+
             </ul>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
         <button class="glue-header__link js-sub-nav-target" data-panel="nested" role="menuitem" aria-haspopup="true">
@@ -716,7 +716,7 @@ dataLayer.push({
         </button>
 
 <div class="navigation__nested-sub js-sub-nav-parent">
-            
+
               <div class="navigation__sub__mobile-heading">
                 <button class="glue-header__link js-sub-nav-close-mobile" role="menuitem" aria-haspopup="true">
                   <span class="sr-text">Back to</span>
@@ -726,223 +726,223 @@ dataLayer.push({
                 <hr/>
               </div>
               <ul>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/distributed-systems-and-parallel-computing/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Distributed Systems &amp; Parallel Computing
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/hardware-and-architecture/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Hardware &amp; Architecture
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/mobile-systems/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Mobile Systems
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/networking/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Networking
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/quantum-computing/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Quantum Computing
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/robotics/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Robotics
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/security-privacy-and-abuse-prevention/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Security, Privacy, &amp; Abuse Prevention
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/software-engineering/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Software Engineering
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/software-systems/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Software Systems
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                 </ul>
-            
+
         </div>
     </div>
 </li>
 
 <li data-gt-secondary="Science, AI &amp; Society">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">Science, AI &amp; Society</h2>
 
 <ul>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/climate-and-sustainability/"
-                                
+
                             >
                                 Climate &amp; Sustainability
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/economics-and-electronic-commerce/"
-                                
+
                             >
                                 Economics &amp; Electronic Commerce
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/education-innovation/"
-                                
+
                             >
                                 Education Innovation
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/general-science/"
-                                
+
                             >
                                 General Science
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/health-bioscience/"
-                                
+
                             >
                                 Health &amp; Bioscience
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/human-computer-interaction-and-visualization/"
-                                
+
                             >
                                 Human-Computer Interaction and Visualization
                             </a>
-                        
+
                     </li>
-                
+
                     <li>
-                        
+
                             <a
                                 class="navigation__sub__columns__list-link caption js-drawer-link"
                                 href="https://research.google/research-areas/responsible-ai/"
-                                
+
                             >
                                 Responsible AI
                             </a>
-                        
+
                     </li>
-                
+
             </ul>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
         <button class="glue-header__link js-sub-nav-target" data-panel="nested" role="menuitem" aria-haspopup="true">
@@ -950,7 +950,7 @@ dataLayer.push({
         </button>
 
 <div class="navigation__nested-sub js-sub-nav-parent">
-            
+
               <div class="navigation__sub__mobile-heading">
                 <button class="glue-header__link js-sub-nav-close-mobile" role="menuitem" aria-haspopup="true">
                   <span class="sr-text">Back to</span>
@@ -960,100 +960,100 @@ dataLayer.push({
                 <hr/>
               </div>
               <ul>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/climate-and-sustainability/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Climate &amp; Sustainability
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/economics-and-electronic-commerce/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Economics &amp; Electronic Commerce
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/education-innovation/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Education Innovation
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/general-science/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     General Science
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/health-bioscience/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Health &amp; Bioscience
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/human-computer-interaction-and-visualization/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Human-Computer Interaction and Visualization
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                         <li role="menuitem">
-                            
+
                             <a href="https://research.google/research-areas/responsible-ai/"
                             class="navigation__sub__columns__mobile__link"
                             >
                                     Responsible AI
                                     <span>
-                                        
+
                                     </span>
                                 </a>
-                            
+
                         </li>
-                    
+
                 </ul>
-            
+
         </div>
     </div>
 </li>
@@ -1064,31 +1064,31 @@ dataLayer.push({
 </div></div>
         </div>
       </div>
-    
+
   </li>
 
 <li
     class="glue-header__item  js-sub-nav-parent --parent"
     data-gt-primary="Our work"
   >
-  
+
     <button
       class="glue-header__link js-sub-nav-target"
       aria-haspopup="true"
       aria-expanded="false"
-      
+
     >
-      
+
       <span class="">
         Our work
-        
+
           <span class="icon icon--caret"></span>
-        
+
       </span>
-    
+
     </button>
-    
-    
+
+
       <div class="navigation__sub js-sub-nav" role="menu">
         <div class="navigation__sub__container">
           <div class="navigation__sub__mobile-heading">
@@ -1108,13 +1108,13 @@ dataLayer.push({
 
 <li data-gt-secondary="Projects">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Projects
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">We regularly open-source projects with the broader research community and apply our developments to Google products.</p>
-        
+
             <a
             href="https://research.google/resources/our-projects/"
             class="glue-inline-link js-drawer-link"
@@ -1122,30 +1122,30 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Projects</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/resources/our-projects/" 
-                
+                href="https://research.google/resources/our-projects/"
+
             >
                 Projects
             </a>
-        
+
     </div>
 </li>
 
 <li data-gt-secondary="Publications">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Publications
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">Publishing our work allows us to share ideas and work collaboratively to advance the field of computer science.</p>
-        
+
             <a
             href="https://research.google/pubs/"
             class="glue-inline-link js-drawer-link"
@@ -1153,30 +1153,30 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Publications</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/pubs/" 
-                
+                href="https://research.google/pubs/"
+
             >
                 Publications
             </a>
-        
+
     </div>
 </li>
 
 <li data-gt-secondary="Resources">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Resources
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">We make products, tools, and datasets available to everyone with the goal of building a more collaborative ecosystem.</p>
-        
+
             <a
             href="https://research.google/resources/"
             class="glue-inline-link js-drawer-link"
@@ -1184,18 +1184,18 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Resources</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/resources/" 
-                
+                href="https://research.google/resources/"
+
             >
                 Resources
             </a>
-        
+
     </div>
 </li>
 
@@ -1206,31 +1206,31 @@ dataLayer.push({
 </div>
         </div>
       </div>
-    
+
   </li>
 
 <li
     class="glue-header__item  js-sub-nav-parent --parent"
     data-gt-primary="Programs &amp; events"
   >
-  
+
     <button
       class="glue-header__link js-sub-nav-target"
       aria-haspopup="true"
       aria-expanded="false"
-      
+
     >
-      
+
       <span class="">
         Programs &amp; events
-        
+
           <span class="icon icon--caret"></span>
-        
+
       </span>
-    
+
     </button>
-    
-    
+
+
       <div class="navigation__sub js-sub-nav" role="menu">
         <div class="navigation__sub__container">
           <div class="navigation__sub__mobile-heading">
@@ -1245,31 +1245,31 @@ dataLayer.push({
 
 <div class="navigation__sub--content" data-gt-secondary="Shaping the future, together.">
     <div class="navigation__sub__wrapper">
-        
+
             <div class="navigation__sub__heading">
                 <h2 class="headline-3">Shaping the future, together.</h2>
-                
+
                     <a
-                        href="https://research.google/programs-and-events/" 
-                        
+                        href="https://research.google/programs-and-events/"
+
                         class="js-drawer-link"
                         >
                         Collaborate with us
                     </a>
-                
+
             </div>
 
 <ul class="navigation__sub__columns">
 
 <li data-gt-secondary="Student programs">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Student programs
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">Supporting the next generation of researchers through a wide range of programming.</p>
-        
+
             <a
             href="https://research.google/programs-and-events/student-engagement/"
             class="glue-inline-link js-drawer-link"
@@ -1277,30 +1277,30 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Student programs</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/programs-and-events/student-engagement/" 
-                
+                href="https://research.google/programs-and-events/student-engagement/"
+
             >
                 Student programs
             </a>
-        
+
     </div>
 </li>
 
 <li data-gt-secondary="Faculty programs">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Faculty programs
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">Participating in the academic research community through meaningful engagement with university faculty.</p>
-        
+
             <a
             href="https://research.google/programs-and-events/faculty-engagement/"
             class="glue-inline-link js-drawer-link"
@@ -1308,30 +1308,30 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Faculty programs</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/programs-and-events/faculty-engagement/" 
-                
+                href="https://research.google/programs-and-events/faculty-engagement/"
+
             >
                 Faculty programs
             </a>
-        
+
     </div>
 </li>
 
 <li data-gt-secondary="Conferences &amp; events">
     <div class="navigation__sub__columns__desktop">
-        
+
             <h2 class="headline-6 navigation__sub__columns__heading">
                 Conferences &amp; events
             </h2>
-        
+
         <p class="navigation__sub__columns__description caption">Connecting with the broader research community through events is essential for creating progress in every aspect of our work.</p>
-        
+
             <a
             href="https://research.google/conferences-and-events/"
             class="glue-inline-link js-drawer-link"
@@ -1339,18 +1339,18 @@ dataLayer.push({
                 <span class="sr-text">Learn more about our Conferences &amp; events</span>
                 <span aria-hidden="true">Learn more</span>
             </a>
-        
+
     </div>
     <div class="navigation__sub__columns__mobile">
-        
+
             <a
                 class="glue-header__link"
-                href="https://research.google/conferences-and-events/" 
-                
+                href="https://research.google/conferences-and-events/"
+
             >
                 Conferences &amp; events
             </a>
-        
+
     </div>
 </li>
 
@@ -1364,65 +1364,65 @@ dataLayer.push({
                     Collaborate with us
                 </a>
             </div>
-        
+
     </div>
 </div>
 </div>
         </div>
       </div>
-    
+
   </li>
 
 <li
     class="glue-header__item  "
     data-gt-primary="Careers"
   >
-  
+
     <a
       class="glue-header__link "
       href="https://research.google/careers/"
-      
-      
+
+
     >
-    
+
       <span class="">
         Careers
-        
+
       </span>
-    
+
     </a>
-    
-    
+
+
   </li>
 
 <li
     class="glue-header__item  "
     data-gt-primary="Blog"
   >
-  
+
     <a
       class="glue-header__link "
       href="https://research.google/blog/"
-      
-      
+
+
     >
-    
+
       <span class="">
         Blog
-        
+
       </span>
-    
+
     </a>
-    
-    
+
+
   </li>
 
 </ul>
         </nav>
       </div>
       <!-- search (hide on search page) -->
-      
-      
+
+
       <div class="glue-header__search js-header-search">
         <div class="glue-header__search__input">
 
@@ -1459,7 +1459,7 @@ dataLayer.push({
 <span class="sr-text js-header-search-sr-text">Search</span>
         </button>
       </div>
-      
+
     </div>
   </div>
   <div class="glue-header__drawer-backdrop">
@@ -1474,37 +1474,37 @@ dataLayer.push({
 </header>
 
 <main id="page-content">
-        
+
 <div class="blog-detail-page --legacy " >
 
 <section class="basic-hero bhoig --theme-dark  --large-image" data-gt-id="basic_hero" data-gt-component-name="">
   <div class="glue-page">
     <div class="glue-grid">
       <div class="bhoig__image-wrapper glue-grid__col--span-4 glue-grid__col--span-5-md glue-grid__col--span-4-lg">
-      
-        
-        
-          
+
+
+
+
             <div class="bhoig__image-bg" style="">
-              
+
                 <picture>
                   <img src="https://storage.googleapis.com/gweb-research2023-media/original_images/825fe036e00e3833b7bb7962fcd1ab05-image1.png" alt="" class=""/>
                 </picture>
-              
+
             </div>
-        
-      
+
+
     </div>
 
 <div class="bhoig__breadcrumb-wrapper glue-grid__col--span-10 glue-grid__col--span-9-md glue-grid__col--span-10-lg">
 
 <nav class="glue-breadcrumbs" aria-label="Breadcrumbs">
-    
+
     <ol class="glue-breadcrumbs__list">
-        
-        
-        
-        
+
+
+
+
         <li class="glue-breadcrumbs__item">
             <a class="glue-breadcrumbs__link attribution" href="/">Home</a>
 
@@ -1513,9 +1513,9 @@ dataLayer.push({
 </svg>
 
 </li>
-        
-        
-        
+
+
+
         <li class="glue-breadcrumbs__item">
             <a class="glue-breadcrumbs__link attribution" href="/blog/">Blog</a>
 
@@ -1524,10 +1524,10 @@ dataLayer.push({
 </svg>
 
 </li>
-        
-        
+
+
     </ol>
-    
+
 </nav>
         </div>
 
@@ -1538,7 +1538,7 @@ dataLayer.push({
           </div>
 
 <div class="bhoig__cta glue-grid__col--span-8 glue-grid__col--span-7-md glue-grid__col--span-8-lg">
-          
+
         </div>
     </div>
   </div>
@@ -1547,20 +1547,20 @@ dataLayer.push({
 <div class="glue-page">
         <div class="glue-grid blog-detail-page__grid">
             <div class="glue-grid__col glue-grid__col--span-4-sm glue-grid__col--span-12-md  glue-grid__col--span-9-lg">
-                
-                
+
+
                 <div class="quicklinks-wrapper--mobile">
                     <div class="block-quick_links">
 
 <section class="quicklinks">
-    
+
         <h2 class="eyebrow">Quick links</h2>
         <ul class="quicklinks__list">
-            
-            
+
+
             <li class="quicklinks__item quicklinks__item--share js-quicklinks-share">
-                <button 
-                    class="quicklinks__share-button js-quicklinks-share__button" 
+                <button
+                    class="quicklinks__share-button js-quicklinks-share__button"
                     aria-expanded="false"
                     aria-controls="js-quicklinks-share__list">
                     <span class="icon icon--share"></span>
@@ -1635,16 +1635,16 @@ dataLayer.push({
   </div>
 </section>
             </li>
-            
+
         </ul>
-    
+
 </section>
 </div>
                 </div>
 
 <div class="blog-detail-wrapper js-gt-blog-detail-wrapper" data-gt-publish-date="20221110">
-                    
-                    
+
+
     <div class="rich-text --theme- --mode-" data-gt-id="rich_text" data-gt-component-name="">
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJoQyQGqe67BekuWDn30rdtn9W1Lf7RvMeUKtoK2aoYziWIDOMAitiRYViKdyK-KYexgbDxExs3rxw2v306JK-tyZLNd5_6Y5LanpyDux6oiH7NhExBXwPUnJnUnrHUyjF5Y9k_ekMu6y0ZUPNbbn7tkQ7NVOXTMz2w2-3oDs_Pj-Ll64LyB4tkWLVqQ/s732/image1.png" style="display: none;" />
@@ -1665,12 +1665,12 @@ In “<a href="https://openreview.net/forum?id=yzkSU5zdwD" target="_blank" rel="
 <h2>Emergent Prompted Tasks</h2>
 
 <p>
-First we discuss emergent abilities that may arise in prompted tasks. In such tasks, a pre-trained language model is given a prompt for a task framed as next word prediction, and it performs the task by completing the response. Without any further fine-tuning, language models can often perform tasks that were not seen during training. 
+First we discuss emergent abilities that may arise in prompted tasks. In such tasks, a pre-trained language model is given a prompt for a task framed as next word prediction, and it performs the task by completing the response. Without any further fine-tuning, language models can often perform tasks that were not seen during training.
 </p>
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigsk_RT3zBrzSTftNq6czTHYkv3izej5wCEhxNrjnoUrvIPt0aJLsV8s4zIgpnyoPysHobWFhHuzCU-B30AItGMAmYRMEWY_Pp--lLmQ6--oMMWrRciyDDv7qD1zf4Y--i7avr9EHv2nsz4Q7hHTY5-JeXFKHhbUttmVruMd8Py_fqCUtaAKCwHyOF_A/s1288/image2.png" target="_blank" rel="noopener noreferrer"><img border="0" data-original-height="341" data-original-width="1288" height="169" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigsk_RT3zBrzSTftNq6czTHYkv3izej5wCEhxNrjnoUrvIPt0aJLsV8s4zIgpnyoPysHobWFhHuzCU-B30AItGMAmYRMEWY_Pp--lLmQ6--oMMWrRciyDDv7qD1zf4Y--i7avr9EHv2nsz4Q7hHTY5-JeXFKHhbUttmVruMd8Py_fqCUtaAKCwHyOF_A/w640-h169/image2.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Example of few-shot prompting on movie review sentiment classification. The model is given one example of a task (classifying a movie review as positive or negative) and then performs the task on an unseen example.</td></tr></tbody></table>
 <p>
-We call a prompted task emergent when it unpredictably surges from random performance to above-random at a specific scale threshold. Below we show three examples of prompted tasks with emergent performance: <a href="https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/modified_arithmetic" target="_blank" rel="noopener noreferrer">multi-step arithmetic</a>, taking <a href="https://arxiv.org/abs/2009.03300" target="_blank" rel="noopener noreferrer">college-level exams</a>, and <a href="https://pilehvar.github.io/wic/" target="_blank" rel="noopener noreferrer">identifying the intended meaning of a word</a>. In each case, language models perform poorly with very little dependence on model size up to a threshold at which point their performance suddenly begins to excel. 
+We call a prompted task emergent when it unpredictably surges from random performance to above-random at a specific scale threshold. Below we show three examples of prompted tasks with emergent performance: <a href="https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/modified_arithmetic" target="_blank" rel="noopener noreferrer">multi-step arithmetic</a>, taking <a href="https://arxiv.org/abs/2009.03300" target="_blank" rel="noopener noreferrer">college-level exams</a>, and <a href="https://pilehvar.github.io/wic/" target="_blank" rel="noopener noreferrer">identifying the intended meaning of a word</a>. In each case, language models perform poorly with very little dependence on model size up to a threshold at which point their performance suddenly begins to excel.
 </p>
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl5PSqGGHMWNxwav2cdB6GaoiHCrKESFwkRXQ6VJmJxVGCjcuQhqJsey9EiCQW6WUKaHDaMCmYj9LGxZaVuU5DpHTh9-Wl0pRzlTybDC2WES0_jSjmyGHcHKku9XZECXceG1TCtH5DNocVj-0PQHTztf_5Zzo7Ijrj8jlT_kClaW72fxzj4-3SQOwtNQ/s1013/image4.png" target="_blank" rel="noopener noreferrer"><img border="0" data-original-height="487" data-original-width="1013" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl5PSqGGHMWNxwav2cdB6GaoiHCrKESFwkRXQ6VJmJxVGCjcuQhqJsey9EiCQW6WUKaHDaMCmYj9LGxZaVuU5DpHTh9-Wl0pRzlTybDC2WES0_jSjmyGHcHKku9XZECXceG1TCtH5DNocVj-0PQHTztf_5Zzo7Ijrj8jlT_kClaW72fxzj4-3SQOwtNQ/s16000/image4.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">The ability to perform multi-step arithmetic (<strong>left</strong>), succeed on college-level exams (<strong>middle</strong>), and identify the intended meaning of a word in context (<strong>right</strong>) all emerge only for models of sufficiently large scale. The models shown include <a href="https://arxiv.org/abs/2201.08239" target="_blank" rel="noopener noreferrer">LaMDA</a>, <a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer">GPT-3</a>, <a href="https://arxiv.org/abs/2112.11446" target="_blank" rel="noopener noreferrer">Gopher</a>, <a href="https://arxiv.org/abs/2203.15556" target="_blank" rel="noopener noreferrer">Chinchilla</a>, and <a href="https://arxiv.org/abs/2204.02311" target="_blank" rel="noopener noreferrer">PaLM</a>.</td></tr></tbody></table>
@@ -1705,7 +1705,7 @@ The empirical results of chain-of-thought prompting are shown below. For smaller
 The existence of emergent abilities has a range of implications. For example, because emergent few-shot prompted abilities and strategies are not explicitly encoded in pre-training, researchers may not know the full scope of few-shot prompted abilities of current language models. Moreover, the emergence of new abilities as a function of model scale raises the question of whether further scaling will potentially endow even larger models with new emergent abilities.
 </p>
 <p>
-Identifying emergent abilities in large language models is a first step in understanding such phenomena and their potential impact on future model capabilities. Why does scaling unlock emergent abilities? Because computational resources are expensive, can emergent abilities be unlocked via other methods without increased scaling (e.g., better model architectures or training techniques)? Will new real-world applications of language models become unlocked when certain abilities emerge? Analyzing and understanding the behaviors of language models, including emergent behaviors that arise from scaling, is an important research question as the field of NLP continues to grow. 
+Identifying emergent abilities in large language models is a first step in understanding such phenomena and their potential impact on future model capabilities. Why does scaling unlock emergent abilities? Because computational resources are expensive, can emergent abilities be unlocked via other methods without increased scaling (e.g., better model architectures or training techniques)? Will new real-world applications of language models become unlocked when certain abilities emerge? Analyzing and understanding the behaviors of language models, including emergent behaviors that arise from scaling, is an important research question as the field of NLP continues to grow.
 </p>
 <div style="line-height: 40%;">
     <br />
@@ -1721,37 +1721,37 @@ Identifying emergent abilities in large language models is a first step in under
 
 <section aria-label="List of footnotes" data-gt-id="footnotes" data-gt-component-name="Footnotes">
   <ol class="js-footnotes footnotes">
-    
+
   </ol>
 </section>
 
 <section class="blog-labels" data-gt-id="blog_labels" data-gt-component-name="Blog Labels">
     <ul class="blog-labels__list">
-        <span class="caption">Labels:</span> 
-        
+        <span class="caption">Labels:</span>
+
         <li class="caption">
             <a class="caption" href="/blog/label/conferences-events">Conferences &amp; Events</a>
-            
+
         </li>
-        
+
     </ul>
 </section>
 
 </div>
-            
+
                 <div class="glue-grid__col glue-grid__col--span-4-sm glue-grid__col--span-12-md glue-grid__col--span-3-lg">
                     <div class="quicklinks-wrapper--desktop quicklinks-wrapper--sticky">
                         <div class="block-quick_links">
 
 <section class="quicklinks">
-    
+
         <h2 class="eyebrow">Quick links</h2>
         <ul class="quicklinks__list">
-            
-            
+
+
             <li class="quicklinks__item quicklinks__item--share js-quicklinks-share">
-                <button 
-                    class="quicklinks__share-button js-quicklinks-share__button" 
+                <button
+                    class="quicklinks__share-button js-quicklinks-share__button"
                     aria-expanded="false"
                     aria-controls="js-quicklinks-share__list">
                     <span class="icon icon--share"></span>
@@ -1826,14 +1826,14 @@ Identifying emergent abilities in large language models is a first step in under
   </div>
 </section>
             </li>
-            
+
         </ul>
-    
+
 </section>
 </div>
                     </div>
                 </div>
-            
+
         </div>
     </div>
 
@@ -1845,7 +1845,7 @@ Identifying emergent abilities in large language models is a first step in under
         </div>
         <div class="glue-grid__col glue-grid__col--span-4-sm glue-grid__col--span-12-md glue-grid__col--span-9-lg">
             <ul class="card-stack--basic nested-glue-grid-override">
-                
+
                 <li class="glue-grid__col glue-grid__col--span-4-md glue-grid__col--span-4-sm">
 
 <a class="glue-card not-glue " href="/blog/codeclm-aligning-language-models-with-tailored-synthetic-data/" aria-label="" >
@@ -1853,14 +1853,14 @@ Identifying emergent abilities in large language models is a first step in under
 <div class="glue-card__inner">
 
 <div class="related-posts__image">
-    
-    
-    
+
+
+
     <img src="https://storage.googleapis.com/gweb-research2023-media/original_images/CodecLM1-Hero.png" alt="" />
 </div>
 
 <div class="glue-card__content --no-media">
-  
+
     <p class="glue-label glue-spacer-1-bottom">May 30, 2024</p>
 
 <span class="headline-5 js-gt-item-id">
@@ -1870,32 +1870,32 @@ Identifying emergent abilities in large language models is a first step in under
 </div>
 
 <ul class="glue-card__link-list">
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Conferences &amp; Events
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Machine Intelligence
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Natural Language Processing
-                    
+
                 </span>
             </li>
-        
+
     </ul>
 
 </div>
@@ -1903,7 +1903,7 @@ Identifying emergent abilities in large language models is a first step in under
 </a>
 
 </li>
-                
+
                 <li class="glue-grid__col glue-grid__col--span-4-md glue-grid__col--span-4-sm">
 
 <a class="glue-card not-glue " href="/blog/google-research-at-google-io-2024/" aria-label="" >
@@ -1911,14 +1911,14 @@ Identifying emergent abilities in large language models is a first step in under
 <div class="glue-card__inner">
 
 <div class="related-posts__image">
-    
-    
-    
+
+
+
     <img src="https://storage.googleapis.com/gweb-research2023-media/original_images/GRatIO2024-1-logo.png" alt="" />
 </div>
 
 <div class="glue-card__content --no-media">
-  
+
     <p class="glue-label glue-spacer-1-bottom">May 24, 2024</p>
 
 <span class="headline-5 js-gt-item-id">
@@ -1928,68 +1928,68 @@ Identifying emergent abilities in large language models is a first step in under
 </div>
 
 <ul class="glue-card__link-list">
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Conferences &amp; Events
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Generative AI
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Health &amp; Bioscience
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Machine Intelligence
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Product
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Quantum
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Responsible AI
-                    
+
                 </span>
             </li>
-        
+
     </ul>
 
 </div>
@@ -1997,7 +1997,7 @@ Identifying emergent abilities in large language models is a first step in under
 </a>
 
 </li>
-                
+
                 <li class="glue-grid__col glue-grid__col--span-4-md glue-grid__col--span-4-sm">
 
 <a class="glue-card not-glue " href="/blog/soar-new-algorithms-for-even-faster-vector-search-with-scann/" aria-label="" >
@@ -2005,14 +2005,14 @@ Identifying emergent abilities in large language models is a first step in under
 <div class="glue-card__inner">
 
 <div class="related-posts__image">
-    
-    
-    
+
+
+
     <img src="https://storage.googleapis.com/gweb-research2023-media/original_images/SOAR6-ResultsHero.png" alt="" />
 </div>
 
 <div class="glue-card__content --no-media">
-  
+
     <p class="glue-label glue-spacer-1-bottom">April 10, 2024</p>
 
 <span class="headline-5 js-gt-item-id">
@@ -2022,32 +2022,32 @@ Identifying emergent abilities in large language models is a first step in under
 </div>
 
 <ul class="glue-card__link-list">
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Algorithms &amp; Theory
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Conferences &amp; Events
-                    
+
                     <span class="glue-card__link-list__spacer">&#183;</span>
-                    
+
                 </span>
             </li>
-        
+
             <li class="glue-card__link-list__item">
                 <span class="not-glue caption">
                     Data Mining &amp; Modeling
-                    
+
                 </span>
             </li>
-        
+
     </ul>
 
 </div>
@@ -2055,7 +2055,7 @@ Identifying emergent abilities in large language models is a first step in under
 </a>
 
 </li>
-                
+
             </ul>
         </div>
     </div>
@@ -2066,7 +2066,7 @@ Identifying emergent abilities in large language models is a first step in under
 </main>
 
 <footer class="glue-footer">
-    
+
     <div class="glue-page">
         <section class="glue-social">
             <div class="glue-social__group glue-social--monochrome">
@@ -2075,7 +2075,7 @@ Identifying emergent abilities in large language models is a first step in under
                 </p>
                 <nav class="js-gt-follow-us-wrapper" aria-label="Social media links">
                     <ul class="glue-social__list" role="list">
-                        
+
                         <li class="glue-social__item">
                             <a class="glue-social__link"
                                 href="https://x.com/GoogleResearch"
@@ -2086,13 +2086,13 @@ Identifying emergent abilities in large language models is a first step in under
                             >
                                 <svg role="presentation" aria-hidden="true"
                                     class="glue-icon glue-icon--social glue-icon--24px">
-                                    
+
                                     <use href="/gr/static/assets/icons/twitter-x.svg#twitter-x"></use>
-                                    
+
                                 </svg>
                             </a>
                         </li>
-                        
+
                         <li class="glue-social__item">
                             <a class="glue-social__link"
                                 href="https://www.linkedin.com/showcase/googleresearch/"
@@ -2103,13 +2103,13 @@ Identifying emergent abilities in large language models is a first step in under
                             >
                                 <svg role="presentation" aria-hidden="true"
                                     class="glue-icon glue-icon--social glue-icon--24px">
-                                    
+
                                     <use href="/gr/static/assets/icons/glue-icons.svg#post-linkedin"></use>
-                                    
+
                                 </svg>
                             </a>
                         </li>
-                        
+
                         <li class="glue-social__item">
                             <a class="glue-social__link"
                                 href="https://www.youtube.com/c/GoogleResearch"
@@ -2120,13 +2120,13 @@ Identifying emergent abilities in large language models is a first step in under
                             >
                                 <svg role="presentation" aria-hidden="true"
                                     class="glue-icon glue-icon--social glue-icon--24px">
-                                    
+
                                     <use href="/gr/static/assets/icons/glue-icons.svg#video-youtube"></use>
-                                    
+
                                 </svg>
                             </a>
                         </li>
-                        
+
                         <li class="glue-social__item">
                             <a class="glue-social__link"
                                 href="https://github.com/google-research"
@@ -2137,20 +2137,20 @@ Identifying emergent abilities in large language models is a first step in under
                             >
                                 <svg role="presentation" aria-hidden="true"
                                     class="glue-icon glue-icon--social glue-icon--24px">
-                                    
+
                                     <use href="/gr/static/assets/icons/github.svg#github"></use>
-                                    
+
                                 </svg>
                             </a>
                         </li>
-                        
+
                     </ul>
                 </nav>
             </div>
         </section>
     </div>
     <div class="glue-fullbleed"></div>
-    
+
     <section class="glue-page">
         <nav class="glue-footer__global" aria-label="Footer resource links">
             <div class="glue-footer__logo">
@@ -2163,31 +2163,31 @@ Identifying emergent abilities in large language models is a first step in under
 </a>
             </div>
             <ul class="glue-footer__global-links glue-no-bullet js-gt-global-nav-wrapper" role="list">
-                
+
                 <li class="glue-footer__global-links-list-item" data-gt-primary="About Google">
                     <a class="glue-footer__link" href="https://about.google/" target="_blank" rel="noopener">
                         About Google
                     </a>
                 </li>
-                
+
                 <li class="glue-footer__global-links-list-item" data-gt-primary="Google Products">
                     <a class="glue-footer__link" href="https://about.google/intl/en/products/" target="_blank" rel="noopener">
                         Google Products
                     </a>
                 </li>
-                
+
                 <li class="glue-footer__global-links-list-item" data-gt-primary="Privacy">
                     <a class="glue-footer__link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">
                         Privacy
                     </a>
                 </li>
-                
+
                 <li class="glue-footer__global-links-list-item" data-gt-primary="Terms">
                     <a class="glue-footer__link" href="https://policies.google.com/terms" target="_blank" rel="noopener">
                         Terms
                     </a>
                 </li>
-                
+
             </ul>
             <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet" role="list">
                 <li class="glue-footer__global-links-list-item
@@ -2203,7 +2203,7 @@ Help
                 </li>
                 <li class="glue-footer__global-links-list-item
             glue-footer__global-links-list-item--extra">
-                    
+
                         <button
                             class="glue-footer__link google-feedback js-feedback-button"
                             href=""
@@ -2211,7 +2211,7 @@ Help
                         >
                             Submit feedback
                         </button>
-                    
+
                 </li>
             </ul>
         </nav>

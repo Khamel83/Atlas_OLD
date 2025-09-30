@@ -7,9 +7,9 @@
 
 # Dilbert.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Dilbert.com](https://img1.wsimg.com/isteam/ip/4afc2ae8-7966-4aad-b836-2fb8fdf91a48/dilbert-favicon-circle.png)
 
-We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data. 
+We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.
 

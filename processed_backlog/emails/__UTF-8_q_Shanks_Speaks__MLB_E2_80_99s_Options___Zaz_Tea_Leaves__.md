@@ -22,7 +22,7 @@ Marchand. (It’s almost Croizet Cuvée Leonie 1858 time, Andrew. I’ll ring th
 🚨🚨 Pod alert: MLS kicked off its season less than a week ago, the NWSL season starts in two weeks, and an America co-hosted World Cup is just 469 days away. So who better to get on the Varsity podcast than Roger Bennett, the A-list soccer analyst who runs the Men in Blazers Media Network. Also, I
 behoove you to check out my recent conversation ( https://puck.news/podcast_episode/the-mlb-espn-breakup-song/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with The Athletic’s Evan Drellich. We mulled the likelihood of an MLB labor war, Rob Manfred’s kitchen cabinet, and some ESPN kremlinology.
 
- 
+
 
 Player of the Week: Diana
 Taurasi
@@ -32,7 +32,7 @@ The soaring popularity of women’s sports has become a leitmotif of this
 private email since its inception a year ago. But before Caitlin Clark sold out arenas, set viewership records, and accumulated a small army of mainstream partnerships (State Farm, Nike, Gatorade, etcetera), there was Diana Taurasi, who retired earlier this week at age 42. During her two-decade pro career, the former UConn legend averaged 18.8 points, 4.2 assists, and 3.9 rebounds per game—while also playing in the EuroLeague and Russian League
 in her ostensible offseason. Her on-court success (three WNBA championships with the Phoenix Mercury, three NCAA championships with UConn, six Olympic gold medals, most recently at the Paris Games) and marketing popularity (deals with Nike, Coca-Cola, State Farm) helped set in motion the current trajectory.
 
- 
+
 
 Down to the J.V.: Woody
 Johnson
@@ -193,7 +193,7 @@ My first real job in
 sports was at the Indy 500 track. I was a summer intern for GTE Sports Marketing. (GTE was a phone company in Indiana and they had a sports marketing division.) I got to spend the first month at Indy when the sport was in its heyday. So, I have this connection. I just want to bring Fox’s assets to a sport that has had such an impact on my life. It is kind of just paying it forward a little bit. On Fox News this week, all the stations were in IndyCar promotion mode, having drivers on-air. We had
 an IndyCar on the street on Sixth Avenue in New York yesterday. Fingers crossed it makes a difference when we get the ratings on Tuesday.
 
- 
+
 
 From the Cheap Seats
 --------------------
@@ -209,7 +209,7 @@ On Ackerman’s contention that geography has kept the Big East from expanding t
 On The Varsity’s editorial calendar: “I hope you
 decide to dedicate one newsletter to the future of youth sports and the media component that surely will come with scale.” —An executive involved with youth sports
 
- 
+
 
 Have a great weekend,
 John
@@ -236,7 +236,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsit
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVSjqJ6wSo34jr9OV3Qlk=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

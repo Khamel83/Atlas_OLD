@@ -33,7 +33,7 @@
 <meta property="og:url" content="http://web.archive.org/web/20240410040902/https://journals.asm.org/doi/10.1128/iai.68.2.543-549.2000"/>
 
 <meta property="og:image" content="http://web.archive.org/web/20240410040902im_/https://journals.asm.org/cms/asset/ce86970b-dfff-4644-97f1-977e793e9ec1/default_cover.jpg"/>
-        
+
             <meta property="og:image:width" content="165"/>
             <meta property="og:image:height" content="214"/>
 
@@ -58,7 +58,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 <link rel="stylesheet" href="/web/20240410040902cs_/https://journals.asm.org/products/asmj/releasedAssets/css/build-a1e925179b7a9541dbad.css" media="all" id="build-style-sheet">
         <link rel="stylesheet" href="/web/20240410040902cs_/https://journals.asm.org/products/asmj/releasedAssets/css/print-a1e925179b7a9541dbad.css" media="print">
            <link rel="stylesheet" href="/web/20240410040902cs_/https://journals.asm.org/products/asmj/releasedAssets/css/build-article-a1e925179b7a9541dbad.css" media="all" id="article-style-sheet">
-    
+
         <script>
         try {
             document.documentElement.classList.add('js');
@@ -85,7 +85,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
     }
   }
   else if (urlLocation.includes('iai')) {
-    if(window.innerWidth > 531) { 
+    if(window.innerWidth > 531) {
       root.style.setProperty('--journal-image', 'url("/pb-assets/images/Homepage Header Images/header-iai-desktop-1702391439717.webp")');
     } else {
       root.style.setProperty('--journal-mobile-image', 'url("/pb-assets/images/Homepage Header Images/header-iai-mobile-1702391439727.webp")');
@@ -104,11 +104,11 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
      	googletag.defineSlot('/13678947/asm_leader-mob', [[728, 90], [320, 50]], 'div-gpt-ad-1594664599282-0').addService(googletag.pubads());
      	googletag.defineSlot('/13678947/asm_box', [[300, 600], [300, 250]], 'div-gpt-ad-1594664702378-0').addService(googletag.pubads());
   	googletag.pubads().enableSingleRequest();
-  	
-  		
+
+
   			googletag.pubads().setTargeting('asmjournals', 'iai');
-  		
-  	
+
+
   	googletag.enableServices();
   });
   googletag.cmd.push(function () {
@@ -128,9 +128,9 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 
 <script>
     var dataLayer = dataLayer ||[];
-    
+
     dataLayer.push({"event":"pageview","page_domain":"journals.asm.org","page_path":"/doi/10.1128/iai.68.2.543-549.2000","page_name":"Construction and Characterization of an Effector Strain of Streptococcus mutans for Replacement Therapy of Dental Caries | Infection and Immunity","page_type":"article","article_title":"Construction and Characterization of an Effector Strain of \u003ci\u003eStreptococcus mutans\u003c/i\u003e for Replacement Therapy of Dental Caries","article_type":"Research Article","article_category":"Bacterial Infections","article_doi":"10.1128/iai.68.2.543-549.2000","article_received_date":"26 August 1999","article_accepted_date":"28 October 1999","article_published_online_date":"01 February 2000","article_issue":"volume 68, issue 2","article_issue_date":"February 2000","journal":"Infection and Immunity","user_type":"Guest","basic_groups":["All users group","Unknown Users","Anonymous Users","All webcrawler users group","No Report Group","All group users group"],"smart_groups":["ASMJ Staff and Vendors","Indexers Crawlers and Aggregators","Institution- IP authentication"]});
-    
+
 </script>
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='http://web.archive.org/web/20240410040902/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MTLLM76');</script>
@@ -162,9 +162,9 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                     </div>
                     <input id="5a26c991-102b-4ded-a542-61c81c149bd5.email" class="email" type="text" name="email" value="" size="15"/>
                 </div>
-                
+
                     <div class="username-recaptcha-ajax"></div>
-                
+
                 <input class="button primary submit" type="submit" name="submit" value="Submit" disabled="disabled"/>
                 <div class="center">
                     <a href="#" class="cancel">Close</a>
@@ -192,7 +192,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
             </div></form>
         <div class="center">
             <a href="/web/20240410040902/https://journals.asm.org/action/showLogin" class="show-login">
-                
+
                 Returning user
             </a>
         </div>
@@ -231,13 +231,13 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 </div>
 <div id="pswd_info" class="pass-strength-popup js__pswd_info" style="display: none;">
     <h4 id="length">
-        
-            
-            
-                
+
+
+
+
                 Your password must have 8 characters or more and contain 3 of the following:
-            
-        
+
+
     </h4>
     <ul>
         <li id="letter" class="invalid">
@@ -255,7 +255,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
     </ul>
     <span class="strength">Too Short</span>
 </div>
-        
+
     </div>
     <input class="button primary submit" type="submit" value="Submit" disabled="disabled"/></form>
         </div>
@@ -291,63 +291,63 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                     <li class="tab__pane active" id="pane-m1x01" aria-labelledby="pane-m1x01con" role="tabpanel">
 
 <div class="login-form">
-    
+
     <form action="/web/20240410040902/https://journals.asm.org/action/doLogin" method="post"><input type="hidden" name="id" value="016a54f6-925d-4632-a5f6-22977f0dce11"/>
 
 <input type="hidden" name="redirectUri" value="/doi/10.1128/iai.68.2.543-549.2000"/>
 
 <input type="hidden" name="loginUri" value="/doi/10.1128/iai.68.2.543-549.2000"/>
-        
+
             <input type="hidden" name="popup" value="true"/>
 
 <div class="input-group">
         <div class="label ">
 
 <label for="login">Email*</label>
-                
-            
-            
+
+
+
         </div>
-        
-        
-            
-            
-                
-            
-        
+
+
+
+
+
+
+
         <div class="iconable__input"><input id="login" class="login" type="text" name="login" value="" size="15" placeholder="Enter your email address"/><div class="icon-mail"></div></div>
-        
+
                     <div class="actions">
-                        
+
                     </div>
-                
+
     </div>
 
 <div class="input-group">
         <div class="label ">
             <label for="password">Password*</label>
-            
+
         </div>
-        
-        
-            
-            
-                
-            
-        
+
+
+
+
+
+
+
         <div class="iconable__input"><input id="password" class="password" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password"/><div class="icon-lock"></div></div>
         <span class="password-eye-icon icon-eye hidden"></span>
-        
+
                     <div class="actions reset-password">
-                        
-                        
+
+
                         <i class="icon-lock"></i>
                         <span>
                             Forgot password?
                             Reset it <a href="/web/20240410040902/https://journals.asm.org/action/requestResetPassword" class="link show-request-reset-password uppercase styled-link">here</a>
                         </span>
                     </div>
-                
+
     </div>
 
 <div class="remember">
@@ -356,8 +356,8 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                 <span class="label-txt">Keep me logged in</span>
             </label>
         </div>
-        
-            
+
+
                 <div class="submit-section">
                     <input class="button submit primary" type="submit" name="submit" value="Login"/>
                     <span class="required-info">Fields with * are mandatory</span>
@@ -365,8 +365,8 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 
 <div class="login-tabs-footer">
             <div class="actions">
-                
-                
+
+
                 <span>
                     Don&apos;t have an account? Create one <a href="/web/20240410040902/https://journals.asm.org/action/registration" class="uppercase styled-link">here</a>
                 </span>
@@ -391,8 +391,8 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                             </div>
                             <div class="login-tabs-footer">
                                 <div class="actions">
-                                    
-                                    
+
+
                                     <span>
                                         Already have an account? Login <a href="/web/20240410040902/https://journals.asm.org/action/showLogin" class="uppercase styled-link">here</a>
                                     </span>
@@ -415,19 +415,19 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 <p class="sub">Enter your email address below and we will send you the reset instructions</p>
 <div class="message error"></div>
 <form action="/web/20240410040902/https://journals.asm.org/action/requestResetPassword" class="request-reset-password-form" method="post"><input type="hidden" name="requestResetPassword" value="true"/>
-    
+
     <div class="input-group">
         <div class="label">
             <label for="7660a830-973e-446c-89b4-6e6ce315b3e0.email">Email*</label>
         </div>
         <input id="7660a830-973e-446c-89b4-6e6ce315b3e0.email" class="email" type="text" name="email" value="" size="15" placeholder="Enter your email" autocorrect="off" spellcheck="false" autocapitalize="off"/>
     </div>
-    
-        
+
+
             <div class="password-recaptcha-ajax"></div>
 
 <input class="button primary submit" type="submit" name="submit" value="Submit" disabled="disabled"/></form>
-    
+
     <div class="center">
         <a href="#" class="cancel">Cancel</a>
     </div>
@@ -520,7 +520,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                 <li></li>
             </ul>
     </div>
-</div> 
+</div>
 <div class="header__logos">
 
 <a href="http://web.archive.org/web/20240410040902/https://asm.org/" title="to home link"><img id="" alt="asmj logo" src="/web/20240410040902im_/https://journals.asm.org/specs/products/asmj/releasedAssets/images/asm-white-56e1e27d3e34ef8531d8ee43631bc87f.svg" height="36" width="110" loading="eager"/></a>
@@ -529,18 +529,18 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 </div><div data-truncate="1" class="header__feed mx-3 js--truncate"></div><div class="header__attribution"></div><div class="header__cart">
 
 <div class="eCommerceCartIndicatorWidget">
-    
-        
-        
+
+
+
             <a href="/web/20240410040902/https://journals.asm.org/action/showCart?FlowID=1" id="cartLabel" class="quick-menu__item" aria-label="Shopping Cart">
                 <div class="cartLabel" title="Cart">
                     <i class="icon-shopping_cart" aria-hidden="true"></i>
                     <span class="filter-count filter-count-bubble shopping-cart hidden" data-id="cart-size">0</span>
-                        
+
                 </div>
             </a>
-        
-    
+
+
 </div>
 </div><div class="header__login">
 
@@ -554,7 +554,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
                     </a>
                     <div id="loginOptions" class="loginBar__login__options">
                         <a href="/web/20240410040902/https://journals.asm.org/action/ssostart?idp=https%3A%2F%2Flogin.asm.org%2Fidp%2Fshibboleth&amp;redirectUri=%2Fdoi%2F10.1128%2Fiai.68.2.543-549.2000">
-                            
+
                             <img src="/web/20240410040902im_/https://journals.asm.org/specs/products/asmj/releasedAssets/images/logo-textless-281a37742fcab9ae668cf131ab1e1c65.svg" class="mr-2">
                             <span>ASM Member Login</span>
                             <i class="icon-open_in_new" aria-hidden="true"></i>
@@ -599,25 +599,25 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
         <li role="menuitem" tabindex="-1" aria-label="PEER REVIEW PROCESS" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/peer-review-process?journal=iai"><span>PEER REVIEW PROCESS</span></a>
         </li>
-       
+
         <li role="menuitem" tabindex="-1" aria-label="TRANSFERRING" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/transferring?journal=iai"><span>TRANSFERRING</span></a>
         </li>
         <li role="menuitem" tabindex="-1" aria-label="ACCEPTED PAPERS" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/accepted-papers?journal=iai"><span>ACCEPTED PAPERS</span></a>
         </li>
-        
+
          <li role="menuitem" tabindex="-1" aria-label="OPEN ACCESS" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/open-access?journal=iai"><span>OPEN ACCESS</span></a>
         </li>
-        
+
         <li role="menuitem" tabindex="-1" aria-label="EDITORIAL POLICIES" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/editorial-policies?journal=iai"><span>EDITORIAL POLICIES</span></a>
         </li>
         <li role="menuitem" tabindex="-1" aria-label="PUBLISHING ETHICS" class="menu-item is--current">
             <a href="/web/20240410040902/https://journals.asm.org/publishing-ethics?journal=iai"><span>PUBLISHING ETHICS</span></a>
         </li>
-    </ul> 
+    </ul>
 </li><li role="menuitem" aria-haspopup="true" aria-label="ARTICLES" id="menu-item-pub_nav-3" class="dropdown menu-parent is--current"><a href="#" id="pub_nav-1" data-toggle="dropdown" class="dropdown__toggle"><span>ARTICLES</span><i aria-hidden="true" class="icon-triangle-bottom"></i></a><ul aria-labelledby="pub_nav-1" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="CURRENT ISSUE" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/toc/iai/current"><span>CURRENT ISSUE</span></a></li><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="LATEST ARTICLES" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/toc/iai/0/0"><span>LATEST ARTICLES</span></a></li><li role="menuitem" tabindex="-1" aria-label="COLLECTIONS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/collections"><span>COLLECTIONS</span></a></li><li role="menuitem" tabindex="-1" aria-label="ARCHIVE" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/loi/iai"><span>ARCHIVE</span></a></li></ul></li><li role="menuitem" aria-haspopup="true" aria-label="ABOUT THE JOURNAL" id="menu-item-pub_nav-4" class="dropdown menu-parent is--current"><a href="#" id="pub_nav-2" data-toggle="dropdown" class="dropdown__toggle"><span>ABOUT THE JOURNAL</span><i aria-hidden="true" class="icon-triangle-bottom"></i></a><ul aria-labelledby="pub_nav-2" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="ABOUT IAI" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/about"><span>ABOUT IAI</span></a></li><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="SUBMIT" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/submit"><span>SUBMIT</span></a></li><li role="menuitem" tabindex="-1" aria-label="SCOPE" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/scope"><span>SCOPE</span></a></li><li role="menuitem" tabindex="-1" aria-label="EDITORIAL BOARD" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/board-editors"><span>EDITORIAL BOARD</span></a></li><li role="menuitem" tabindex="-1" aria-label="FORMATTING" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/article-types"><span>FORMATTING</span></a></li><li role="menuitem" tabindex="-1" aria-label="SUBMISSION AND REVIEW PROCESS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/submission-review-process"><span>SUBMISSION AND REVIEW PROCESS</span></a></li><li role="menuitem" tabindex="-1" aria-label="EBM SUBMISSIONS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/ebm-submission"><span>EBM SUBMISSIONS</span></a></li><li role="menuitem" tabindex="-1" aria-label="FOR REVIEWERS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/reviewers"><span>FOR REVIEWERS</span></a></li><li role="menuitem" tabindex="-1" aria-label="FAQ" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/faq"><span>FAQ</span></a></li><li role="menuitem" tabindex="-1" aria-label="CONTACT US" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/journal/iai/contact-us"><span>CONTACT US</span></a></li></ul></li><li role="menuitem" aria-haspopup="true" aria-label="FOR SUBSCRIBERS" id="menu-item-pub_nav-5" class="dropdown menu-parent is--current"><a href="#" id="pub_nav-3" data-toggle="dropdown" class="dropdown__toggle"><span>FOR SUBSCRIBERS</span><i aria-hidden="true" class="icon-triangle-bottom"></i></a><ul aria-labelledby="pub_nav-3" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="MEMBERS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/members"><span>MEMBERS</span></a></li><li role="menuitem" tabindex="-1" class="dropdown menu-parent"></li><li role="menuitem" tabindex="-1" aria-label="INSTITUTIONS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/institutions"><span>INSTITUTIONS</span></a></li><li role="menuitem" tabindex="-1" aria-label="ALERTS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/action/showPreferences?menuTab=Alerts"><span>ALERTS</span></a></li><li role="menuitem" tabindex="-1" aria-label="RSS" class="dropdown menu-parent is--current"><a href="/web/20240410040902/https://journals.asm.org/asm-journals-rss-feeds"><span>RSS</span></a></li></ul></li></ul><span id="afterNav-x7y" tabindex="-1"></span></nav>
 </div><a href="#" data-show-target-id="search-overlay" class="hidden-lg search-trigger"><i title="Open Search Panel" class="icon-search"></i></a></div></header>
 
@@ -688,10 +688,10 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 <!-- list of articles -->
 <div class="articleList">
     <span class="citation-title">Citation</span>
-    
-    
-        
-            
+
+
+
+
                 <div class="clipboard"><span style="display: none;" class="tooltip">text copied</span>
                     <button title="" data-original-title="Copy to clipboard" class="clipboardBtn">Copy</button>
                 </div>
@@ -705,11 +705,11 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 <div class="doi-url">
                     <a href="http://web.archive.org/web/20240410040902/https://doi.org/10.1128/iai.68.2.543-549.2000" class="to-copy">https://doi.org/10.1128/iai.68.2.543-549.2000</a>
                 </div>
-            
-            
-            
-        
-    
+
+
+
+
+
 </div>
 </div>
     <div class="citation-download">
@@ -839,7 +839,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
     <li><a href="/web/20240410040902/https://journals.asm.org/about-asm-journals" target="_blank" rel="noopener">About Us</a></li>
     <li><a href="/web/20240410040902/https://journals.asm.org/asm-author-center" target="_blank" rel="noopener">Author Center</a></li>
     <li><a href="/web/20240410040902/https://journals.asm.org/permissions-reprints" target="_blank" rel="noopener">Permissions</a></li>
-    
+
     <li><a href="/web/20240410040902/https://journals.asm.org/collection" target="_blank" rel="noopener">ASM Journal Collections</a></li>
      <li><a href="/web/20240410040902/https://journals.asm.org/publishing-ethics" target="_blank" rel="noopener">Publishing Ethics</a></li>
     <li><a href="/web/20240410040902/https://journals.asm.org/migration-information" target="_blank" rel="noopener">Migration Information</a></li>
@@ -858,7 +858,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
     <li><a href="/web/20240410040902/https://journals.asm.org/asm-journals-rss-feeds" target="_blank" rel="noopener">RSS Feeds</a></li>
     <li><a href="/web/20240410040902/https://journals.asm.org/contact-us" target="_blank" rel="noopener">Contact Us</a></li>
     <li><a href="http://web.archive.org/web/20240410040902/https://connect.asm.org/ " target="_blank" rel="noopener">ASM Communities</a></li>
-    
+
 </ul>
 </div><div class="sitemap__column sitemap__column--other col-xs-12 ">
 
@@ -866,7 +866,7 @@ caries. Recombinant DNA methods were used to make theStreptococcus mutans superc
 <ul class="rlist footer__list">
     <li><a href="http://web.archive.org/web/20240410040902/https://asm.org/newsroom" target="_blank" rel="noopener">Press Releases</a></li>
     <li><a href="http://web.archive.org/web/20240410040902/https://asm.org/Browse-By-Content-Type/Policy-Statement" target="_blank" rel="noopener">Policy Statements</a></li>
-    
+
 </ul>
 </div></div></div><div class="footer__bottom row"><div class="col-xs-12"><div class="footer__copyright">
 

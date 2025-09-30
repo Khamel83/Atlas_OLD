@@ -37,7 +37,7 @@ here ( https://podcasts.apple.com/us/podcast/fashion-people/id1741589082?utm_cam
 Mentioned in this issue: Dior, Jonathan Anderson, Proenza Schouler, Jack McCollough, Lazaro
 Hernandez, Versace, Prada, Dario Vitale, L.A. wildfire relief, TikTok, Trump, LVMH, Sidney Toledano, Bernard Arnault, Maria Grazia Chiuri, Mel Ottenberg, Nick Cave (the other one), Dolce & Gabbana, Condé Nast, Susan Orlean, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -147,7 +147,7 @@ Grazia Chiuri, or Maria Grazia Chiuri and Kim Jones? Is Delphine Arnault staying
 Given the tremendous amount she has contributed to LVMH over the past seven years, I expect that Bernard Arnault will give Chiuri what she wants, and that the
 Rome resort show schedule for May will go on, with Anderson making his debut either at couture in July or ready-to-wear in October, head-to-head with Matthieu Blazy at Chanel. And remember, Fendi, which celebrates its 100th anniversary this year, is currently without a designer. It just so happens to be headquartered in Rome… Chiuri’s hometown. 
 
- 
+
 
 What I’m Reading… and Thinking About
 ----------------------------------------
@@ -182,7 +182,7 @@ Susan Orlean on moving to Los Angeles. (I promise you will not roll your eyes.)
 This investor guy, Scott Rudmann, is running an advertisement against this photo of him,
 Anna Wintour, Stella McCartney, Greta Gerwig, Sienna Miller, and Scarlett Johansson. Just an F.Y.I. [Instagram ( https://www.instagram.com/scottrudmann/p/DEk96vwsU2e/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 And finally… No jokes today. I love you and hope you, your
 friends, and your family are okay! 
@@ -238,6 +238,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUYbwggsT5oZNg3mKhnX0=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F13%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F10%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

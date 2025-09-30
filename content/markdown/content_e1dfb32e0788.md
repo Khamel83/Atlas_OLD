@@ -71,7 +71,7 @@ window._nymPermutive = {
 
 <!-- data-uri="www.vulture.com/_components/clay-meta-description/instances/cjdaokewl011kqay6l7reeb8s@published" -->
 <meta name="description" content="Music legend Quincy Jones on who he thinks killed JFK, the secret Michael Jackson, his relationship with the Trumps, and the problem with modern pop. A 2018 interview by David Marchese.">
-<meta name="twitter:description" content="The music legend talks like he has nothing to lose."> 
+<meta name="twitter:description" content="The music legend talks like he has nothing to lose.">
 <meta property="og:description" content="The music legend talks like he has nothing to lose.">
 
 <!-- data-uri="www.vulture.com/_components/meta-image/instances/cjdaokewm011lqay6gmmgr426@published" -->
@@ -240,7 +240,7 @@ function loadPermutive(userDetails) {
     u.newsletters = appMeta && appMeta.newsletter_subscriptions;
     u.eventMember = appMeta && appMeta.newsletter_subscriptions && appMeta.newsletter_subscriptions.filter(function(x){return x==='Vulture Insider'||x==='TheCut Councin';});
     u.isPrintSub = appMeta && appMeta.has_darwin_subscription;
-    window._nymPermutive = window._nymPermutive || {}; 
+    window._nymPermutive = window._nymPermutive || {};
     window._nymPermutive.user = {
       newsletters: u.newsletters||null,
       eventMember: u.eventMember||null,
@@ -320,14 +320,14 @@ return visitCount;
       body,
       isCountable = !_nymGtmPage.hasProduct && _nymGtmPage.featureTypes && (_nymGtmPage.pageType === 'Article' || _nymGtmPage.pageType === 'Video Page' || _nymGtmPage.pageType === 'Video');
     if (sid) pid.push({id: sid, tag: 'sailthruid'});
-    if (!cid) { 
+    if (!cid) {
       if (sid) window.permutive?.identify(pid);
       cb({});
       return;
     }
     pid.push({id: cid,tag: 'nymcid'});
-    window.permutive?.identify(pid); 
-    if (isCountable) { 
+    window.permutive?.identify(pid);
+    if (isCountable) {
       var fts = (_nymGtmPage.featureTypes || '').split(',').map(function(str){return str.trim();}).join(',').toLowerCase(),
         tagsData = (_nymGtmPage.tags || '').split(',').map(function(str){return str.trim();}),
         isMagazine = fts.includes('new york magazine story') || tagsData.includes('new york magazine'),
@@ -337,7 +337,7 @@ return visitCount;
       body = '{"type":"'+articleType+'","site":"vulture","pageid":"'+(_nymGtmPage.pageUri||'').split('/_pages/').pop()+'"}';
     }
     xhr.responseType = 'json';
-    xhr.timeout = 3000; 
+    xhr.timeout = 3000;
     xhr.ontimeout = cb.bind(this, {});
     xhr.onload = function() {
       let g = xhr.response && xhr.response.global,
@@ -442,11 +442,11 @@ const payload = {
       getUserProfileInfo()
     })
   } else {
-    getUserCount(function(userDetails) { 
+    getUserCount(function(userDetails) {
       userDetails.loyaltyLevel = getUserLoyaltyLevel();
 
 userDetails.visitCount = getUserVisitCount();
-      loadPermutive(userDetails); 
+      loadPermutive(userDetails);
       load(userDetails);
     })
   }
@@ -752,7 +752,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -1056,7 +1056,7 @@ nymYTApiReady = true;
 <h2 class="hidden-text">Search</h2>
           </span>
           <span class="active">
-            
+
             <svg aria-labelledby="nav-search-button-search-icon-pressed" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title id="nav-search-button-search-icon-pressed">Search</title><path d="M18.48,15.91A10.15,10.15,0,0,0,3,3V3A10.15,10.15,0,0,0,15.9,18.49l7,7a1.82,1.82,0,0,0,2.58-2.58ZM5.19,5.2a7,7,0,1,1-.06.06Z" fill='#111'/></svg>
 
 </span>
@@ -1120,7 +1120,7 @@ data-canonical-url="http://www.vulture.com/article/quincy-jones-in-conversation.
     <div class="lede-wrapper">
       <div class="primary-area">
         <div class="article-header-section rubric-nav">
-              
+
                 <a class="rubric rubric-in-conversation feature"
                   href="//www.vulture.com/tags/in-conversation/">in conversation</a>
         </div>
@@ -1199,7 +1199,7 @@ data-canonical-url="http://www.vulture.com/article/quincy-jones-in-conversation.
         </div>
   </header>
   <section class="body">
-    
+
     <div id="vulture-zephr-anchor" class="article-content feature" data-editable="content">
       <div class="lede-image-wrapper feature vertical">
           <div class="image-wrapper">
@@ -1448,7 +1448,7 @@ data-canonical-url="http://www.vulture.com/article/quincy-jones-in-conversation.
           </a>
         </li>
     </ul>
-      
+
       <a class="see-all-link"
         href="//www.vulture.com/tags/in-conversation"
         aria-label="See All from More Conversations">
@@ -1683,7 +1683,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 </div>
@@ -1798,7 +1798,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 <aside data-uri="www.vulture.com/_components/ad/instances/cjim278ye001qrnye99i4ut6r@published" class="ad vp-1180-plus"
@@ -1808,7 +1808,7 @@ const ldJsonScript = document.createElement('script');
   data-site="Vulture"
 
 >
-  
+
 </aside>
 
 </div>
@@ -2368,10 +2368,10 @@ const ldJsonScript = document.createElement('script');
 </template>
 
 <template data-template-id="branded-growl">
-        <aside 
+        <aside
   data-uri="www.vulture.com/_components/choreographer/instances/cl4j6iipp002q3b793b9c640q@published"
   id="branded-growl"
-  class="growl" 
+  class="growl"
   data-display-at-page-scroll-percentage=""}>
   <div class="modal hidden initial right-aligned">
     <button class="close dismiss-modal" aria-label="Close"></button>
@@ -2390,7 +2390,7 @@ const ldJsonScript = document.createElement('script');
   data-track-type="newsletter-signup"
 >
   <h2 data-editable="title" class="title">
-    
+
   </h2>
   <form method="get" action="/newsletter/subscribe/new/" class="form">
     <input
@@ -2895,37 +2895,37 @@ const ldJsonScript = document.createElement('script');
     </div>
 
 <ul class="primary-links">
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/tv" class="tv">
             <span class="link-text" aria-label="TV">TV</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/movies" class="movies">
             <span class="link-text" aria-label="Movies">Movies</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/comedy" class="comedy">
             <span class="link-text" aria-label="Comedy">Comedy</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/music" class="music">
             <span class="link-text" aria-label="Music">Music</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/books" class="books">
             <span class="link-text" aria-label="Books">Books</span>
           </a>
         </li>
-      
+
         <li class="primary-link">
           <a href="//www.vulture.com/streaming" class="whattostream">
             <span class="link-text" aria-label="What To Stream">What To Stream</span>
@@ -3021,7 +3021,7 @@ const ldJsonScript = document.createElement('script');
 </footer>
     <div class="foot" data-editable="foot" data-track-zone="foot">  <span data-uri="www.vulture.com/_components/affiliate-links/instances/vulture@published" class="affiliate-links"
    data-amazon="vulture-20"
-  
+
    data-excluded-hostnames="nymag.com,nymag.biz,nymetro.com,grubstreet.com,thecut.com,vulture.com,bedfordandbowery.com,vult.re,nym.ag,thecut.io,grb.st,shop-links.co,bam-x.com,trc.taboola.com"
 ></span>
 
@@ -3299,7 +3299,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

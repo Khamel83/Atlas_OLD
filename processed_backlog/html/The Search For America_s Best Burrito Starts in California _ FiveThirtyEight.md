@@ -100,84 +100,84 @@ This won’t be the last time you hear mention of El Castillito.
 
 ### California Region
 
-[**El Farolito**](http://www.yelp.com/biz/el-farolito-san-francisco-2) (No. 1 seed)  
-2779 Mission St.  
-San Francisco, CA 94110  
+[**El Farolito**](http://www.yelp.com/biz/el-farolito-san-francisco-2) (No. 1 seed)
+2779 Mission St.
+San Francisco, CA 94110
 VORB score:  **20.7**
 
-[**La Taqueria**](http://www.yelp.com/biz/la-taqueria-san-francisco-2) (No. 2 seed)  
-2889 Mission St.  
-San Francisco, CA 94110  
+[**La Taqueria**](http://www.yelp.com/biz/la-taqueria-san-francisco-2) (No. 2 seed)
+2889 Mission St.
+San Francisco, CA 94110
 VORB score:  **14.2**
 
-[**Lolita’s Taco Shop**](http://www.yelp.com/biz/lolitas-taco-shop-san-diego) (No. 3 seed)  
-7305 Clairemont Mesa Blvd.  
-San Diego, CA 92111  
+[**Lolita’s Taco Shop**](http://www.yelp.com/biz/lolitas-taco-shop-san-diego) (No. 3 seed)
+7305 Clairemont Mesa Blvd.
+San Diego, CA 92111
 VORB score:  **14.5**
 
-[**Manuel’s Original El Tepeyac Cafe**](http://www.yelp.com/biz/manuels-original-el-tepeyac-cafe-los-angeles) (No. 4 seed)  
-812 N Evergreen Ave.  
-Los Angeles, CA 90033  
+[**Manuel’s Original El Tepeyac Cafe**](http://www.yelp.com/biz/manuels-original-el-tepeyac-cafe-los-angeles) (No. 4 seed)
+812 N Evergreen Ave.
+Los Angeles, CA 90033
 VORB score:  **13.0**
 
-[**Al & Bea’s Mexican Food**](http://www.yelp.com/biz/al-and-beas-mexican-food-los-angeles)  
-2025 E 1st St.  
-Los Angeles, CA 90033  
+[**Al & Bea’s Mexican Food**](http://www.yelp.com/biz/al-and-beas-mexican-food-los-angeles)
+2025 E 1st St.
+Los Angeles, CA 90033
 VORB score:  **10.7**
 
-[**Athenian III**](http://www.yelp.com/biz/athenian-iii-buena-park)  
-8511 La Palma Ave.  
-Buena Park, CA 90620  
+[**Athenian III**](http://www.yelp.com/biz/athenian-iii-buena-park)
+8511 La Palma Ave.
+Buena Park, CA 90620
 VORB score:  **4.5**
 
-[**La Azteca Tortilleria**](http://www.yelp.com/biz/la-azteca-tortilleria-los-angeles)  
-4538 E Cesar E. Chavez Ave.  
-Los Angeles, CA 90022  
+[**La Azteca Tortilleria**](http://www.yelp.com/biz/la-azteca-tortilleria-los-angeles)
+4538 E Cesar E. Chavez Ave.
+Los Angeles, CA 90022
 VORB score:  **9.4**
 
-[**Chando’s Tacos**](http://www.yelp.com/biz/chandos-tacos-sacramento)  
-863 Arden Way  
-Sacramento, CA 95816  
+[**Chando’s Tacos**](http://www.yelp.com/biz/chandos-tacos-sacramento)
+863 Arden Way
+Sacramento, CA 95816
 VORB score:  **9.1**
 
-[**El Chato Taco Truck**](http://www.yelp.com/biz/el-chato-taco-truck-los-angeles-2)  
-5300 W Olympic Blvd.  
-Los Angeles, CA 90019  
+[**El Chato Taco Truck**](http://www.yelp.com/biz/el-chato-taco-truck-los-angeles-2)
+5300 W Olympic Blvd.
+Los Angeles, CA 90019
 VORB score:  **15.3**
 
-[**Dos Chinos**](http://www.yelp.com/biz/dos-chinos-costa-mesa)  
-Food truck, no fixed location  
-Costa Mesa, CA 92626  
+[**Dos Chinos**](http://www.yelp.com/biz/dos-chinos-costa-mesa)
+Food truck, no fixed location
+Costa Mesa, CA 92626
 VORB score:  **6.0**
 
-[**HRD Coffee Shop**](http://www.yelp.com/biz/hrd-coffee-shop-san-francisco-2)  
-521 3rd St.  
-San Francisco, CA 94107  
+[**HRD Coffee Shop**](http://www.yelp.com/biz/hrd-coffee-shop-san-francisco-2)
+521 3rd St.
+San Francisco, CA 94107
 VORB score:  **15.4**
 
-[**Lucha Libre Gourmet Taco Shop**](http://www.yelp.com/biz/lucha-libre-gourmet-taco-shop-san-diego)  
-1810 W Washington St.  
-San Diego, CA 92110  
+[**Lucha Libre Gourmet Taco Shop**](http://www.yelp.com/biz/lucha-libre-gourmet-taco-shop-san-diego)
+1810 W Washington St.
+San Diego, CA 92110
 VORB score:  **14.8**
 
-[**Rosa Maria’s Drive-In**](http://www.yelp.com/biz/rosa-marias-san-bernardino)  
-4202 N Sierra Way  
-San Bernardino, CA 92407  
+[**Rosa Maria’s Drive-In**](http://www.yelp.com/biz/rosa-marias-san-bernardino)
+4202 N Sierra Way
+San Bernardino, CA 92407
 VORB score:  **9.7**
 
-[**Spencer Makenzie’s Fish Company**](http://www.yelp.com/biz/spencer-makenzies-fish-company-ventura)  
-806 E Thompson Blvd.  
-Ventura, CA 93001  
+[**Spencer Makenzie’s Fish Company**](http://www.yelp.com/biz/spencer-makenzies-fish-company-ventura)
+806 E Thompson Blvd.
+Ventura, CA 93001
 VORB score:  **4.8**
 
-[**Taqueria Cancún**](http://www.yelp.com/biz/taqueria-canc%C3%BAn-san-francisco-5)  
-2288 Mission St.  
-San Francisco, CA 94110  
+[**Taqueria Cancún**](http://www.yelp.com/biz/taqueria-canc%C3%BAn-san-francisco-5)
+2288 Mission St.
+San Francisco, CA 94110
 VORB score:  **14.0**
 
-**El Zarape**  
-4642 Park Blvd.  
-San Diego, CA 92116  
+**El Zarape**
+4642 Park Blvd.
+San Diego, CA 92116
 VORB score:  **15.1**
 
 **CORRECTION (June 6, 5:45 p.m.):** An earlier version of this article inaccurately described the burrito served at La Taqueria in San Francisco, and by extension the Mission-style burrito, as containing rice. Not all Mission-style burritos incorporate rice, nor do La Taqueria’s.

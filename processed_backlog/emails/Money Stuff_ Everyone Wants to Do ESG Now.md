@@ -7,266 +7,266 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         ESG HR We talked a few weeks ago about the documentary-filmmaker son of a financial-services billionaire who hated working in financial serv
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ESG HR
-    
-  
+
+
 We talked a few weeks ago about the documentary-filmmaker son of a financial-services billionaire who hated working in financial services and loves alternative medicine and “archetypal astrology.” He now works as the head of environmental, social and governance affairs at his dad’s firm, Interactive Brokers Group Inc.  I wrote:Imagine being the deputy director of ESG at Interactive Brokers. Presumably you got hired based on your background doing ESG initiatives at major financial firms. Presumably you think of ESG as a real career path in finance, and you have spent your career building expertise in the theory and practice and complex accounting of ESG. But you’ve got to compete with financial-services heirs, and British-monarchy heirs for that matter. ESG is, somewhat paradoxically, an attractive area of finance for people who don’t care about finance but do like the money it provides.Broadly speaking you might expect there to be a lot of those people. Not so much ESG heirs, maybe, but people who don’t care much about finance and nonetheless want a job in financial services. You might assume that there are a lot of people who go to fancy colleges and have a vague desire to make the world a better place. As they approach graduation, they go to the career-services office and say “how can I save the world?” Career services says: “Well, you can go work at a nonprofit for a low salary, or you can go do environmental reporting at a big asset manager for a high salary.” (Or, they go to their parents, who work in finance, and say “I am going to save the world by working at a nonprofit,” and the parents say “well let’s not be too hasty, have you considered ESG investing? I could hook you up.”) And so there is a steady supply of people who don’t care about finance but who end up working in financial services in ESG roles.If this is your model, you might expect:	The ESG people will get paid less than the regular finance people at their firms, because there is a glut of them and their alternative is working at nonprofits for much less money; and 	There will be a certain amount of bad blood and suspicion between the ESG people (who hate finance and want to save the world) and the regular finance people (who like finance and, uh, sometimes get stereotyped as not caring so much about the world?).Here is a funny Financial Times article about the booming market for ESG specialists, which suggests that that model is basically correct, but that it is changing as ESG investing becomes hugely popular and it is hard to fill roles:In a CFA Institute analysis of 10,000 investment jobs advertised on LinkedIn, 6 per cent required sustainability skills, yet less than 1 per cent of the 1m investment professional profiles included in the study listed these skills on their profiles. ...As a consequence, pay gaps between ESG staff and other investment roles are closing fast. “[Hiring] used to be cheaper because sustainability was popular and everyone wanted to do it,” Ferguson said.Candidates are often fielding multiple offers that can be significantly above their current salary. Ruck Keene said that for recruiters: “It’s quite difficult to get people over the line. Nobody wants to lose their ESG specialist. We’re seeing compensation increases of 30 to 50 per cent.” …Education is another key factor. Though the CFA Institute started offering a certificate in ESG investing last year, few business schools currently have programmes that offer both financial and sustainability training to the same level. It’s still “pretty church and state”, said Robert Eccles, an expert on sustainability reporting and strategies at the University of Oxford. “Finance people think it’s all BS, sustainability people don’t know finance.”I think that one way to understand the proliferation of ESG reporting regimes, carbon credit trading systems, etc., is that adding a lot of rules and complexity to ESG makes it feel more like finance. Lots of people in financial services are not all that interested in, say, tax policy, but if you give them 1,000 pages of tax regulations they will be like “oh goody let’s find some trades!”Or you could think of the 2008 financial crisis as being driven, to some extent, by people asking themselves “what is the riskiest possible thing that I could construct that will nonetheless get a AAA rating from the credit ratings agencies?” “Buy things that yield a lot but are safe” is a reasonable, dull mandate for an investment manager, but “understand the ratings agency criteria for structured credit inside and out so that you can maximize yield subject to the constraint of achieving a AAA rating” is a fun puzzle.Similarly, if you take a stereotypical hedge fund manager and tell her “try to make money but also do good with your investments,” she will find that first mandate clear and exciting, and the second one vague and open-ended. But if you tell her “try to make money and here is a thicket of regulations about ESG reporting,” she will say “oh goody let’s find an arbitrage!” What is the  most complicated way to own oil companies and have a zero-carbon portfolio? If there are complex regulations to optimize, it just feels like a real finance job in a way that “make the world better” does not. Elsewhere:Companies will need to reveal detailed information about their greenhouse gas pollution under a new U.S. Securities and Exchange Commission plan, marking a major shift in how corporations must show they are dealing with climate change. For the first time ever, the agency plans to require businesses to outline the risks a warming planet poses to their operations when they file registration statements, annual reports or other documents. Some large companies will have to provide information on emissions they don’t make themselves, but come from other firms in their supply chain. …“Over the generations, the SEC has stepped in when there’s significant need for the disclosure of information relevant to investors’ decisions,” SEC Chair Gary Gensler said in a statement. “Today’s proposal would help issuers more efficiently and effectively disclose these risks.”The SEC would also require auditors or other experts to review the climate disclosures, which would be phased-in over time.Climate activists will likely cheer the agency’s decision to require larger companies to disclose some of their so-called Scope 3 emissions, which are generated by other firms in their supply chain or customers using their products. That information, which business groups say is very hard to quantify, wouldn’t be subject to an audit.Man is that going to create a lot of ESG jobs.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Block trade whale
-    
-  
+
+
 Traditionally, if you own a huge amount of a stock or a bond, and you want to sell it, you call up an investment bank and ask it for a bid. You could, in theory, call someone else. You could call BlackRock Inc., or some other big asset manager that owns lots of stocks and bonds, and see if they want to buy. But you normally call an investment bank, for roughly three reasons:	You have the bank’s phone number. The bank is in the business of covering you. Some salesperson at the bank talks to you frequently, takes you out to dinner and says “if you ever need anything, call me.” The bank is in the business of trading with you, which is not generally true of asset managers. If you call the bank and say “I need you to buy a ton of this stock,” the bank will try very hard to say yes, and feel like it has failed if it says no. If you call BlackRock and say “I need you to buy a ton of this stock,” BlackRock will say yes only if it actually wants the stock. It feels no sense of obligation. It is not in the business of trading with you.	The bank has other people’s phone numbers. If you want to sell a bunch of stock or bonds all at once, the bank will be able to turn around and sell it to other investors. The bank is in the business of distribution, of intermediating trades, of finding buyers for sellers and sellers for buyers. The bank will know who wants your stock, and so it will be in a good position to quote you a price.	The bank has money. If you don’t want to wait around for the bank to call a bunch of potential buyers, that’s fine; the bank can just buy your stock for its own account, give you the money now, and then try to resell it to all of its other customers over however long that takes. The bank intermediates trades in time; it takes risk on its balance sheet because it knows who to call.Traditionally these things go together. If the bank knows who’s buying and who’s selling, it is profitable for the bank to be in the middle, selling to the buyers and buying from the sellers for its own account and collecting the spread between them. (And vice versa: If you are in the business of making markets, buying stuff in the hopes of quickly flipping it at a profit, it is good to be in touch with lots of buyers and sellers.) But they are not necessarily connected. You could in theory have a business where you talk to a lot of buyers and sellers, and try to match them up with each other, but you never actually put any of your own money at risk buying from the sellers or selling to the buyers. (This is, for instance, how most banks’ mergers-and-acquisitions businesses work.[1])And the stereotype is that, since the 2008 financial crisis, banks have become more risk-averse with their own money, and regulators have limited their ability to commit money to trading. We have talked about this from time to time in the bond market: “People are worried about bond market liquidity,” I used to say a lot, because banks had stereotypically cut back on buying and selling bonds for their own accounts.Here is a good  Bloomberg News story about this phenomenon but in stocks. If you have a small amount of stock to sell, you do that electronically. But if you have a lot of stock to sell, you call a bank, because you have the bank’s phone number. Then the bank calls Frank Fu, because the bank has his phone number, and he has the money:When Frank Fu, a Cornell-educated engineer, opened his own hedge fund two years ago, he picked an unlikely niche for an introvert.His CaaS Capital Management would focus on block trading, one of the last bastions of old Wall Street, where big slugs of stock are sold through person-to-person negotiation, even cajoling, rather than electronic venues. Many practitioners are bro-y -- the type who played college football. For Friday happy hours, Fu’s colleagues unzip their CaaS puffer vests and break out chess boards in a conference room.Yet Fu, 39, soon managed to establish close ties with investment banks including Morgan Stanley, the juggernaut of the equities world. His pitch: CaaS would “partner” with them, positioning itself for preferential treatment. Prospective investors say CaaS has boasted to them of quickly becoming one of the biggest U.S. funds dedicated to block trading, getting a first look at deals and gaining entry to virtually every IPO in the country. In the firm’s first full year Fu posted a jaw-dropping 76% return. ...While a coterie of firms has said they, too, help banks with block trades, none has been more effusive than CaaS in making that its raison d’etre. Its name is an acronym for “Capital as a Service.” The firm had just over $650 million in assets under management at the end of February, but it’s been able to leverage that up, wielding somewhere around $5 billion in firepower so it’s able to pounce if banks need to unload stock. …Fu typically agrees to participate in about half the blocks he’s offered, making the decision based on the discount, his portfolio’s other holdings and computer models, CaaS told prospective investors. The firm typically carries about 200 blocks at a time, waiting anywhere from two days to five months, or longer, to unload them after purchase. As a good trading partner, Fu expects banks to send shares from hot IPOs his way. The context here is that regulators have been probing the block-trading business to see if anything nefarious is happening (mainly: banks maybe leaking block trades to hedge funds which then short the stock), and Fu is “said to be among more than a dozen industry executives whose communications are being scrutinized.”But note that this is sort of a post-crisis business, the business of providing liquidity to banks. It used to be that the banks provided the liquidity! (They still do, in the sense that they give Fu leverage! But that’s different.) It used to be that if you wanted someone to buy stock at a discount and work out of it over a few days or longer, the investment bank would just do that. “Capital as a service” would have been a reasonable description of a big investment bank. Now that is a service that someone provides to the banks, that the banks have to outsource. And if you provide it you can make 76% returns.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Nickel
-    
-  
+
+
 Last Thursday I proposed a simple model for nickel prices on the London Metal Exchange:	Nickel is worth some amount of money, say $30,000 per ton.[2]	For reasons of historical oopsies, nickel trading on the LME was suspended for a week, and reopened on Wednesday at a price of $48,078.	LME limited, in advance, how much the nickel price could drop each day. The limit was 5% last Wednesday, and it increased to 8% on Thursday.	Each of these drops would bring the LME nickel price to a number that was still much higher than $30,000, which is what nickel is worth.	Why would you pay more for nickel than it is worth?	So nickel would open for trading each day, drop by whatever the limit was, and close again. Some token amount of trading would get done in order to move the price down, but not much, since the prices kept being too high and could not fall to their natural level.	Eventually the prices will fall to the correct level and there will be trading again; I estimated this would happen roughly this Tuesday.	Isn’t this dumb?This model held up pretty well? Nickel fell 8% on Thursday, the daily limit, on virtually no trading. Then the LME increased the limit to 12% on Friday, and nickel fell by 12%, on virtually no trading. For today’s session, the LME increased the limit to 15%, and nickel promptly traded down 15%, for some reason causing the LME to cancel some more trades. The price is still wrong, but it is within shouting distance of the right price. Here’s  Bloomberg News:Nickel fell by the daily limit for a fourth straight session on the London Metal Exchange as prices continue to nosedive after spiking earlier this month in an unprecedented short squeeze.Futures fell by 15% to $31,380 a ton. in the biggest drop since 2015. That’s within reach of prices on the Shanghai Futures Exchange, and close to the $30,000 level that some traders have said would draw in buyers and allow the nickel market to start trading again in earnest. …“If we do not get a market to trade on, how will people move positions?” Malcolm Freeman, a director at Kingdom Futures, said in an emailed note. “With much of the trade standing aside and many fund managers exiting the metals, it is becoming hard to see where liquidity will come from in the short term.”While the market reopened on Wednesday, trading remained essentially frozen last week as the daily limits stopped prices from falling to a level where buyers were willing to bid. There were 103 lots of nickel, or 618 tons, traded by 8:02 on the LME on Monday. The market is still effectively closed, but it is ticking closer to being open. This Tuesday — tomorrow — still seems like a good guess for when nickel will be back.Meanwhile here is  another Bloomberg News story from last Friday:Goldman Sachs Group Inc. traders have been offering to trade nickel away from the London Metal Exchange, according to people familiar with the matter, at prices that imply a further sharp drop in prices.The bank has been offering to trade contracts in commodity index products, such as the S&P GSCI, whose constituents include nickel, the people said, implying a bid and offer for the nickel price. The bank’s proposals imply a bid for nickel at about $25,000 a ton, and an offer about $37,000 a ton, the people said, asking not to be named as the matter isn’t public. …The mid-point of Goldman’s bid and offer, $31,000 a ton, is roughly where some traders expect the market to unfreeze, Bloomberg reported earlier. If you are in the business of trading commodity index products, and nickel is in your index, and trading in nickel is either frozen (as it was until last Wednesday) or semi-frozen and at obviously wrong prices (as it was starting last Thursday), how do you set a price for your commodity index? The basic answer is that you use your best guess at the correct nickel price ($30,000-ish), and, since you might be wrong and can’t hedge your nickel exposure, you widen the bid-ask spread to compensate you for the risk.It helps if the index is mostly not nickel, though. Nickel represents roughly 1% of the GSCI; if your usual bid/ask spread on a GSCI product is 0.5%, and you almost double it to 0.9% because nickel is closed, then that translates to a 40% bid/ask spread on nickel, which is more or less what Goldman seems to be showing here.
-  
-    
+
+
       Vanguard taxes
-    
-  
+
+
 Generally the way U.S. tax law works is that if you buy stocks and they go up, you don’t have to pay any taxes until you sell. When you sell, you have to pay capital gains taxes.There are some exceptions. One exception is that if you buy stocks in your 401(k) tax-advantaged retirement account, and you sell them to buy other stocks in the 401(k), you don’t pay taxes; a 401(k) defers taxes until you take money out at retirement. Another exception is that if you buy shares in a mutual fund, and they go up, and you don’t sell, you might have to pay taxes anyway. A mutual fund pools your money with many other people’s money and buys a bunch of stocks for all of you. And if the mutual fund sells stocks, it incurs capital gains taxes, which it passes on to its holders. Roughly speaking what this means is that if you invest in a mutual fund, and it goes up, and you don’t sell, but other investors in the mutual fund do sell, then you have to pay taxes. (As do they.) One reason people like to invest in exchange-traded funds is that this rule is weird and the ETF business has found ways to avoid it. Generally speaking this is a small constant drag: You invest in a mutual fund with lots of other people, and every year some of them withdraw their money (to pay for retirement or to buy different mutual funds or whatever), and you have to pay some taxes on some of your gains. But if you invest in a mutual fund with 1,000 other people, and they all decide to withdraw from the mutual fund at the same time, then the mutual fund will have to sell almost all of its stocks, which means that you will have to pay taxes on almost all of your unrealized gains in the fund all at once, and you will be annoyed.Here’s a weird lawsuit against the Vanguard Group:Vanguard offers “set-it-and-forget-it” target date retirement funds. These funds are organized as a trust and managed by the same trustees. The investment strategy is based on a target retirement year, such as 2030 or 2050. Vanguard offers two tiers of target date funds: (1) funds for individuals and retirement plans with less than $100M (the “Retail Funds”); and (2) funds for retirement plans with over $100M (the “Institutional Funds”). The strategy and investments are the same, but the Institutional Funds charge lower management fees. ….Normally, target date funds don’t sell many assets, so capital gains distributions are minimal. But beginning in December of 2020, Vanguard itself caused an “elephant stampede” sell off from its Retail Funds. Vanguard chose to open its Institutional Funds (which hold the same assets as the Retail Funds) to all retirement plans with at least $5M, so that retirement plans invested in the Retail Funds could sell their shares and move over to cheaper, but otherwise identical, Institutional Funds. And this is what happened.To raise cash to redeem so many shares, the Retail Funds were forced to sell off as much as 15% of their assets (or even more). When these assets were sold, the Retail Funds recognized capital gains on the assets. The resulting capital gains distributions to investors were unprecedented (40 times previous levels). While this didn’t hurt retirement plans, it left taxable investors holding the tax bag. Vanguard had other, readily-available ways to lower costs for retirement plans without hurting its taxable investors. But it either did not even consider these options, or did not care about hurting its smaller, taxable investors. This was a gross violation of Vanguard’s fiduciary duties (among other legal duties).Much of the money in this fund was in corporate 401(k)s, which don’t care about incurring taxes. Some of it was in individual taxable accounts, which do care, and which did incur taxes when the corporate 401(k)s sold.Is that a reason to sue Vanguard? I don’t know. The maximal reading of this lawsuit is that a mutual fund has a fiduciary duty to its investors to minimize their taxes, and that if it does something that causes people to withdraw their money — if it raises fees or has a bad run of investing or a manager retires or it introduces a different, better mutual fund — then that is a violation of that duty. That seems a bit strong.
-  
-    
+
+
       A guru
-    
-  
+
+
 An exceptionally good financial-services scandal is the one currently going on at the National Stock Exchange of India, where the former chief executive officer, “Queen of the Bourse” Chitra Ramkrisha, has been accused of various misdeeds including “leaking confidential information for years to an unnamed spiritual guru living in the mountains” and relying on the guru’s advice in making decisions, including hiring and promoting her deputy Anand Subramanian. Here is  Bloomberg News:The drama intensified in February, when the Securities and Exchange Board of India released a 190-page regulatory order disclosing that Ramkrishna had sent sensitive information to an outsider described as a yogi in the Himalayas. In an interview for that report, Ramkrishna said the figure guided her hand as chief executive, a role she served in from 2013 to 2016. The yogi was non-corporeal, she said, but corresponded using the email address rigyajursama@outlook.com, which combines the names of three religious texts. Ramkrishna referred to the guru as “thee,” “swami ji” and “your lordship.” SEBI alleged that the yogi had turned Ramkrishna into a “puppet,” remotely controlling finances and steering promotions. In 2013, for instance, she hired Subramanian, though, SEBI said, he had no experience in capital markets. He was later promoted to chief operating officer at the advice of the yogi, according to the report. Employees said Subramanian had enormous influence. One Indian news outlet referred to him as a “modern-day Rasputin-like figure.”The identity of the yogi has become a key pressure point, dividing the country’s authorities and deepening the mystery of what happened behind closed doors. Among the most touted theories is that Subramanian was actually the yogi and that he had duped Ramkrishna, a conclusion made by Ernst & Young, which was hired by the exchange to investigate. SEBI contested that claim, writing in the 190-page order that there was still “no conclusive evidence” linking Subramanian to the email address.Here is the SEBI order, which includes this exchange with Ramkrishna:Question: Can   you   please   share   the   identity   of   the   email   id   holder 'rigyajursama@outlook.com'Noticee  no.  1 [Ramkrishna]: The  Siddha  Purusha/Yogi  is  a  Paramahansa  who  may be  largely dwelling in the Himalayan Ranges. I have met him on occasions in holy places. No locational co-ordinates are given.Question: Given the fact that the Siddha Purusha largely dwells in the Himalayan Ranges, kindly explain how He would have accessed emails and corresponded with you regularly.Noticee no. 1: To the best of my knowledge, their spiritual powers do not require them to have any such physical co-ordinates.Question: Can you please share when you met him and who introduced you to Him.Noticee  no.  1:  I met Him  for  the  first  time  on  the  banks  of  the  Ganges  nearly  20 years ago directly. Subsequently, over the years I have taken his guidance on many personal and professional matters. Along the way, since He would manifest at will and I did not have any locational co-ordinates I requested Him for a way in which I could seek His guidance whenever I felt the need. Accordingly, He gave me an id on which I could send my requests.I don’t know! I feel like there are traditional ways for non-corporeal spiritual entities to communicate with their faithful. Ambiguous signs and portents are pretty classic, for instance, as are dreams, interior voices, etc. An Outlook email address is much more convenient though! If your spiritual adviser just emails you to say who you should hire, that takes a lot of the guesswork out of it. Anyway somehow this scandal also involves a controversy about high-frequency traders co-locating their servers near the NSE’s matching engine.
-  
-    
+
+
       Things happen
-    
-  
+
+
 Cash Crunch Drives Wild Moves in Commodities. Margins of Up to 90% Give  Energy Firms That Mine Bitcoin an Edge. Warren Buffett to  Buy Alleghany for $11.6 Billion in Return to Dealmaking. How Chinese Shares Went Haywire: ‘The Market Is Completely Unstable.’ Russia  Default Fears Ease as Key Debt Payments Reach Investors. US banks take $4.6bn revenue hit from equity raising drought. Someone borrowed 5 Bored Apes to claim $1.1 million of APE tokens. Bored Ape’s New  ApeCoin Puts NFTs’ Power Problem on Display. Paris Hilton, Bored Apes and the Making of a Hollywood Crypto Clique. Goldman Sachs to Offer Over-the-Counter  Crypto Options Trading. Carson Block’s Latest Short Target Is a Columbia Law Professor. $87.50 for 3 Minutes: Inside the Hot Market for Videos of Idling Trucks. Rent-a-stranger: This Japanese man makes a living showing up and doing nothing. Ukrainian Snake Island soldier seeks trademark for iconic phrase, as major brand challenges grow in Russia. Plano City Council meeting rap. Worm shortage.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Well, sort of. Historically banks got into some amount of merchant banking and private equity work for basically these sorts of reasons, and of course banks do a lot of *lending* to finance M&A.[2] I used a higher range, $30,000 to $35,000, because I did not understand the nuances of the Shanghai nickel price. Here is  Bloomberg News today: “Nickel futures in Shanghai fell 6.4%  on Monday to 205,670 yuan per ton, or $32,316. Excluding the 13% value added tax that is charged on metal within China, that translates to about $28,500 on an LME-equivalent basis.”
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like Money Stuff? | 
 Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

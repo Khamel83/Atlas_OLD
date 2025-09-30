@@ -40,7 +40,7 @@ be held like a clutch. It’s perfect, has already sold out in toffee-colored su
 Mentioned in this issue: Violette Serrat, Violette_FR, Gucci Westman, Westman Atelier,
 Bobbi Brown, Brad Pitt, Sephora, Ulta Beauty, Isamaya Ffrench, Fara Homidi, François Nars, Hailey Bieber, LVMH, Estée Lauder, Heidi Merris, Pat McGrath, Versace, Donatella, John Idol, Neiman Marcus, the Nordstrom brothers, Catherine Bloom, and many more…
 
- 
+
 
 Three Things You Should Know…
 -------------------------------
@@ -145,7 +145,7 @@ feel like it was created for the purpose of scaling and flipping it to a strateg
 But whatever success Violette_FR finds is at least partly due to beauty consumers with less tolerance for gimmicks. “The consumer is getting smarter about what feels like a B.S. brand,” one investor told me, “and they’re moving toward brands that have a founder with a real
 reason to speak. That’s what the heart of what artistry brands are.”
 
- 
+
 
 What
 Rachel’s Reading… and Thinking About
@@ -164,7 +164,7 @@ yet-to-launch brand Pink Mountain Estate. [Instagram ( https://www.instagram.com
 Isamaya Ffrench’s backstage beauty looks—especially for Thom Browne, with whom she’s worked for many years—are always insane and I love it.
 [WWD ( https://wwd.com/beauty-industry-news/beauty-features/nyfw-fall-2025-beauty-trends-1236928951/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
 
- 
+
 
 Until tomorrow,
 
@@ -219,6 +219,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVIKehQw9bqbZfWe2x-dg=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

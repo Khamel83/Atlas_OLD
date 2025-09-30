@@ -12,7 +12,7 @@
 
 # 403 Forbidden
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![403 Forbidden]()
 

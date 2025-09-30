@@ -76,7 +76,7 @@ That said, Warren has never performed that well in Massachusetts. She ran behind
 
 **Correction** 6/14: An earlier version of this article misstated Warren’s role at the CFPB.
 
-See More: 
+See More:
 
 * [2020 Presidential Election](/web/20241014022830/https://www.vox.com/2020-presidential-election)
 * [Politics](/web/20241014022830/https://www.vox.com/politics)

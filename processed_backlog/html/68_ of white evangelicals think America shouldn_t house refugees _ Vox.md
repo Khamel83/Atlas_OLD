@@ -35,7 +35,7 @@ Such a conflation means that white evangelical Christians, already historically 
 
 And the line between white evangelical theology and GOP party platform is all but disappearing.
 
-See More: 
+See More:
 
 * [Life](/web/20241124093637/https://www.vox.com/life)
 * [Religion](/web/20241124093637/https://www.vox.com/religion)

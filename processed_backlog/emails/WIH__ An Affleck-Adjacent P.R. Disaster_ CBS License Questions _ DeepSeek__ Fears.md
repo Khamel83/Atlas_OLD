@@ -55,7 +55,7 @@ But first…
 Eriq Gardner
 Eriq Gardner
 
- 
+
 
 Tuesday Thoughts
 ----------------
@@ -184,7 +184,7 @@ Last year, the sprawling 11,000-square-foot home, which features a ballroom, mov
 gained notoriety ( https://patch.com/california/hollywood/squatters-trash-10m-hollywood-hills-mansion-anti-rich-graffiti?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) as a haven for squatters, complete with “fuck rich people” graffiti. Now Sitrick is primed to put the property up for sale at a moment when there’s no shortage of buyers, thanks to the city’s devastating wildfires. It could even become home to another Hollywood figure—hopefully one less worried about public
 perception.
 
- 
+
 
 Thanks, Eriq. I’ll be back in your inbox on Thursday night.
 
@@ -242,6 +242,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
 here ( https://puck.news/unsubscribe/?subscription=what_im_hearing_plus&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUr9c8OxEP6Rk5aAnI75g=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%281%2F28%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

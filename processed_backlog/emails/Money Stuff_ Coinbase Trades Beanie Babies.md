@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Programming note: Money Stuff will be off tomorrow, back on Monday.Let’s say you want to start an internet business, and you need money. Her
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       Beanie Babies
-    
-  
+
+
 
 Let’s say you want to start an internet business, and you need money. Here are two ways to raise the money:
 	You incorporate your business and sell stock. This is a pretty traditional way to raise money, and people know how it works. It has some downsides, for you. The main one is that you are giving up some control and ownership of your business: If you sell stock to outsiders, then you will have fiduciary duties to them, you will have to manage the company with their best interests in mind, they might get voting shares and board seats, and they will own a portion of the value of the business. Another downside is that you will be subject to securities regulation. If you sell stock to the public, in the US, the US Securities and Exchange Commission will make you register your offering and disclose a lot of stuff about your business. Even if you only sell stock to sophisticated venture capitalists, and thus avoid registration, you will still be subject to securities fraud rules: If you lie to investors to get them to buy your stock, the investors can sue you, or the SEC can.	You can sell crypto tokens that are in some way linked to your business. This is a pretty new way to raise money for a business, one that had a vogue in the late 2010s and early 2020s. But it is much less standardized than stock, and it is not even obvious what I mean by “crypto tokens that are in some way linked to your business.” Perhaps you start some internet business, you issue some crypto tokens, and you promise to use a portion of the revenue from your business to buy back some of those tokens and retire them, to “buy and burn” the tokens. Then if you make a lot of profits, you will buy a lot of tokens, so there will be demand for the tokens and they will be valuable. People buy the tokens today to speculate on your future profitability.
@@ -112,37 +112,37 @@ Trading and speculation were the first major use cases to take off in cryptocurr
 
 Now it’s Beanie Babies.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Climate risk vs. interest-rate risk
-    
-  
+
+
 
 An important meta-story that you could tell about financial markets over the past few years would be that, for a long time, interest rates were roughly zero, which means that discount rates were low: A dollar in the distant future was worth about as much as a dollar today. Therefore, investors ascribed a lot of value to very long-term stuff, and were not particularly concerned about short-term profitability. Low discount rates made speculative distant-future profits worth more and steady current profits worth less.
 And then interest rates went up rapidly starting in 2022, and everyone’s priorities shifted. A dollar today is now worth a lot more than a dollar in 10 years. People prioritize profits today over speculation in the future.
@@ -160,11 +160,11 @@ BlackRock reviews these priorities annually as it talks with thousands of compan
 There is a lot going on here, and it is reasonable to wonder— as the FT does — whether BlackRock’s shift from environmental concerns to high interest rates is about the political and marketing backlash to ESG. But you could take it on its own terms! In 2020, interest rates were zero, and BlackRock’s focus was on the long term. What was the biggest long-term risk to its portfolio? Arguably, climate change. So it went around  talking to companies about climate change. In 2024, interest rates are high, and the short term matters more, so BlackRock is going around talking to companies about interest-rate risk.
 I don’t know how AI fits into this model. For most of my life, “ooh artificial intelligence will change everything” has been a pretty long-term — like, science-fiction long-term — thing to think about. But I suppose now “how will you integrate large-language-model chatbots into your workflows” is an immediate question.
 
-  
-    
+
+
       Stressful AI
-    
-  
+
+
 
 Elsewhere in AI and the long run, this is just some   good schtick to run at Davos:
 
@@ -183,11 +183,11 @@ Also there is something asymmetric about how this pitch works on its listeners:
 
 In some, like, extremely non-effective-altruism sense, there is no downside to telling everyone “I’m starting a company that has a pretty good chance of killing us all.”
 
-  
-    
+
+
       Harvard
-    
-  
+
+
 
 Investment management firms can, if they want, consider two sorts of moral restrictions on their business:
 	They can choose their investments on moral criteria: They can invest their clients’ money only in good stuff, however they define that, and avoid investing in companies or projects that are evil or bad for the world. Versions of this are sometimes called “socially responsible investing,” or “ESG” (environmental, social and governance investing), though it depends on what you think is evil, and  there are right-wing versions too.	They can choose their investors on moral criteria: They can manage money only for good upstanding clients, and reject clients who are evil.
@@ -203,15 +203,15 @@ There was some internal discussion at the endowment about whether the university
 
 I also am not particularly worried that Harvard will lose allocations in future funds. “We’ll invest money for individual billionaires and controversial governments but we draw the line at Harvard” seems like a weird outcome. 
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Bobby Jain’s hedge fund launch falls short of $8bn-$10bn target. The $8.8 Trillion  Cash Pile That Has Stock-Market Bulls Salivating. A Former NSA Chief Caught   SPAC Fever, and Investors Got Burned. Firms pitch  inverse cryptocurrency funds after SEC’s bitcoin ETF approval. Binance Has Seen   Crypto Inflows Surge Since Its Historic Fine. Laundromats and VPNs: How  China’s Crypto Traders Are Evading the Rules. Sovereign-Wealth Giant Pursues Goldman Sachs, KPMG and Others Over  SVB Collapse. Lars Windhorst and Bruno Crastes: inside the most  mysterious and destructive friendship in high finance. Goldman Sachs Wants to Hire in   Wealth and Asset Management Units. The Downfall of   Diddy Inc. Schrodinger’s market: what the  quantum internet could mean for the financial system.  Citi Trader to Depart to Focus on   Children’s Books Charity. Guinness World Records  suspends ‘oldest dog ever' title for Portuguese canine during a review.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] This is much like how stock actually works: People buy stock in speculative companies hoping that one day the companies will be profitable and do lots of stock buybacks.
 
 
@@ -227,48 +227,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] You sometimes see claims that all of this can be instantiated in code, rather than external regulation: Crypto doesn't need rules other than the ones that are encoded in its smart contracts. There is, uh, not a ton of empirical evidence for this view.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -279,46 +279,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ck9omo.5k5l/2ecf9ae7.gif" alt="" border="0" /></a>

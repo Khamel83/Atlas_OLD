@@ -216,7 +216,7 @@ Block 15 extends Atlas with intelligent metadata discovery and code repository m
 - [ ] **Push to GitHub**: `git push origin feat/block-15-metadata-discovery`
 - [ ] **Update progress**: Document completed discovery features in commits
 
-### Documentation Updates  
+### Documentation Updates
 - [ ] **Update CLAUDE.md**: Add metadata discovery capabilities to system status
 - [ ] **Code documentation**: Document crawling algorithms and discovery logic
 - [ ] **API documentation**: Update docs for new discovery endpoints

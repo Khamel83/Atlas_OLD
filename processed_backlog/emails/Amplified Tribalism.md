@@ -7,7 +7,7 @@
 
 View this post on the web at https://www.notboring.co/p/amplified-tribalism
 
-Welcome to the 1,716 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 141,332 smart, curious folks by subscribing here: 
+Welcome to the 1,716 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 141,332 smart, curious folks by subscribing here:
 🎧 To listen to the audio edition, head over to Spotify [https://substack.com/redirect/8a8a7a1e-2da8-4a43-a4a9-e5f4cc4c6a41?u=16283549] or Apple Podcasts [https://substack.com/redirect/824c0f7c-7562-436d-afbb-12f3e9ab8dd1?u=16283549].
 This week’s Not Boring is brought to you by… Causal [https://substack.com/redirect/b4701745-b085-4568-80d1-b31e32208fc0?u=16283549]
 Our mission at Not Boring is to make the world more optimistic – but your business can’t make the world better without strong planning. That’s where Causal [https://substack.com/redirect/b4701745-b085-4568-80d1-b31e32208fc0?u=16283549] comes in.
@@ -18,10 +18,10 @@ Headcount + hiring plan [https://substack.com/redirect/9cc1d196-ab0a-46e4-8cac-6
 Profit & Loss + cash projection [https://substack.com/redirect/c7662178-e9ae-42dc-b0ef-9a6e94d73275?u=16283549]
 Employee compensation calculator [https://substack.com/redirect/bcc4e9f1-8d97-4df6-b11a-a812d8f559ee?u=16283549]
 They've put together detailed video walkthroughs for each model in their documentation [https://substack.com/redirect/b46c01a4-9c84-42cb-9ab7-94b9594d9cf9?u=16283549]. Use one of my templates above as a starting point, sign-up to and just play around, or win some brownie points with your finance/planning team by sending them the Not Boring Causal link [https://substack.com/redirect/b4701745-b085-4568-80d1-b31e32208fc0?u=16283549].
-Hi friends 👋, 
-Happy Monday! Hope you stayed cool this weekend. It was a balmy 95 here in Brooklyn; perfect weekend to stay inside and write. 
-Over the past few months, I’ve noticed a vibe shift online: the conversation seems to be getting more negative, aggressive, and polarized. Today’s piece is an attempt to unpack why so many people are talking past each other, why it’s damaging, and what to do about it. It’s not as upbeat as a lot of Not Boring pieces, but I think addressing this issue is crucial to unlocking progress.  
-Let’s get to it. 
+Hi friends 👋,
+Happy Monday! Hope you stayed cool this weekend. It was a balmy 95 here in Brooklyn; perfect weekend to stay inside and write.
+Over the past few months, I’ve noticed a vibe shift online: the conversation seems to be getting more negative, aggressive, and polarized. Today’s piece is an attempt to unpack why so many people are talking past each other, why it’s damaging, and what to do about it. It’s not as upbeat as a lot of Not Boring pieces, but I think addressing this issue is crucial to unlocking progress.
+Let’s get to it.
 Amplified Tribalism [https://substack.com/redirect/e6df4f8d-2c89-415a-a539-591e46b942a3?u=16283549]
 (Click this link 👆 to jump right to your browser)
 You won’t find many people who love the internet more than me. My whole career is based on the internet. I spend way too much time on Twitter. When people have criticized Twitter for being a dark place full of trolls and hate, I’ve defended it. “That’s not been my experience,” I’d retort, “Most of the interactions I have on Twitter are thoughtful and fun!” I wrote The Great Online Game [https://substack.com/redirect/c3e99ca9-af02-4c5c-b9f8-e3fc077795ed?u=16283549] and meant it. 
@@ -84,9 +84,9 @@ A mean tweet doesn’t kill anyone; it is an attempt to shame or punish someone 
 … This, I believe, is what happened to many of America’s key institutions in the mid-to-late 2010s. They got stupider en masse because social media instilled in their members a chronic fear of getting darted.
 He was referring specifically to institutions that lost their backbone – their willingness to stand up for their people in the face of social media heat and their acceptance of dissenting views internally – and became less effective, dumber, in the process. David Deutsch’s Principle of Optimism states that “All evils are caused by insufficient knowledge.” Pushing away knowledge to appease a mob is anti-optimistic.  
 Not Boring isn’t a newsletter about politics or America’s institutions. I’m writing this because the darts hit startups, too, and innovators more broadly.  
-To read about how amplified tribalism is impacting startups and depressing progress, and how we might get out of it… 
+To read about how amplified tribalism is impacting startups and depressing progress, and how we might get out of it…
 Thanks to Dan [https://substack.com/redirect/7af1f631-a557-4b71-93bc-f4d0d64e9061?u=16283549] and Puja for editing!
-Have a great week, and see you back here later this week. 
+Have a great week, and see you back here later this week.
 Thanks for reading,
 Packy
 

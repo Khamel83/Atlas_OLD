@@ -41,7 +41,7 @@ The auction is being run by Joopiter, Pharrell’s digital-first auction house, 
 Son of a Pharaoh. That sale made $5.25 million, with items purchased by Kim Kardashian, Drake, and Kid Cudi. Since then, Joopiter has staged 13 auctions, but the cadence and contents have been erratic. One month, it was merch related to the site’s past auctions, priced from $20 to $275; another, it was a single-lot auction of Pharrell’s Richard Mille watch, which sold for $375,000. Now staffed up and backed by Lightspeed Venture
 Partners, however, Joopiter plans to keep to a monthly schedule, combining celebrity curators with expanded offerings in postwar and contemporary art and design.
 
- 
+
 
 A
 Christie’s Old Masters Preview
@@ -70,7 +70,7 @@ There are also several works by
 sought-after painters such as Michael Sweerts, Pieter Claesz, and Caspar Netscher, not to mention some lovely small portraits by Gerard ter Borch II, Parmigianino, and Tiepolo. Finally, a very striking portrait by Élisabeth Vigée Le Brun is on offer for $120,000. It should be worth 10 times that amount. If you get up really, really close, you can see why the price is so
 good.
 
- 
+
 
 And
 Now… A Sotheby’s Old Masters Preview
@@ -173,7 +173,7 @@ a portrait of Margaret of Austria, painted around 1495 by the Master of the Magd
 Tavitian was diagnosed with cancer in fall 2019, and caught Covid while at the Maastricht fair in March 2020. He died of septic shock six weeks later, at a hospital in the Berkshires. When the Sotheby’s team was cataloging the collection, they came across an invoice from
 Alessandra Di Castro Antichità gallery for a pair of Italian neoclassical marble and gilt candlesticks ( https://www.sothebys.com/en/buy/auction/2025/the-vision-of-aso-o-tavitian-the-country-house/a-pair-of-italian-neoclassical-gilt-bronze-mounted-2?locale=en&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). They found them still packed in the box they had arrived in from Maastricht. 
 
- 
+
 
 Endnotes…
 -----------
@@ -245,6 +245,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU01pzPGUDVIAFHnlhxQw=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F4%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

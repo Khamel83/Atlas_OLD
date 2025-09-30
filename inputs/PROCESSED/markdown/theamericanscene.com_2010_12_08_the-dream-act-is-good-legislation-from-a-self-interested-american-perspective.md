@@ -7,7 +7,7 @@
 
 # theamericanscene.com
 
-Unknown author • December 08, 2010 
+Unknown author • December 08, 2010
 
 ![theamericanscene.com]()
 

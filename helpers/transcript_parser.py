@@ -463,17 +463,17 @@ def main():
     # Sample transcript text
     sample_text = """
     Lex Fridman: Welcome to another episode. Today I'm speaking with Elon Musk about AI and the future.
-    
+
     Elon Musk: Thanks for having me, Lex. AI is both exciting and terrifying.
-    
+
     Lex Fridman: What do you think is the biggest risk with artificial intelligence?
-    
+
     Elon Musk: I think the biggest risk is that we create something smarter than us and then we can't control it.
-    
+
     [1:23:45]
-    
+
     Lex Fridman: Speaking of control, let me ask you about neural interfaces and Neuralink.
-    
+
     Elon Musk: Neuralink is about creating a high-bandwidth interface between the human brain and computers.
     """
 

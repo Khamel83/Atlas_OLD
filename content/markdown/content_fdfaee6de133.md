@@ -112,7 +112,7 @@ This copy is for your personal, noncommercial use only. You can order presentati
 <h1><nyt_headline version="1.0" type=" ">Why a Budget Is Like a Diet â Ineffective</nyt_headline></h1>
 <nyt_byline>	<h6 class="byline">By <a href="http://web.archive.org/web/20130510045543/http://topics.nytimes.com/top/reference/timestopics/people/b/tara_siegel_bernard/index.html?inline=nyt-per" title="More Articles by Tara Siegel Bernard" class="meta-per">TARA SIEGEL BERNARD</a></h6>
 </nyt_byline>
- 
+
 <nyt_text>
 <div id="articleBody">
  <nyt_correction_top>
@@ -163,8 +163,8 @@ Just don&rsquo;t rely on doing it yourself. Arrange to have the money withdrawn 
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20130510045543im_/http://up.nytimes.com/?d=0/34/&amp;t=6&amp;s=0&amp;ui=0&amp;r=http%3a%2f%2fwww%2enytimes%2ecom%2f2011%2f01%2f02%2fweekinreview%2f02siegelbernard%2ehtml&amp;u=www%2enytimes%2ecom%2f2011%2f01%2f02%2fweekinreview%2f02siegelbernard%2ehtml%3fpagewanted%3dprint">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";
@@ -173,14 +173,14 @@ Just don&rsquo;t rely on doing it yourself. Arrange to have the money withdrawn 
         <noscript>
           <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://web.archive.org/web/20130510045543im_/http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
         </noscript>
-   
+
 </body>
 
 <!-- Start UPT call -->
 		<img height="1" width="3" border="0" src="http://web.archive.org/web/20130510045543im_/http://up.nytimes.com/?d=0/34/&amp;t=6&amp;s=0&amp;ui=0&amp;r=http%3a%2f%2fwww%2enytimes%2ecom%2f2011%2f01%2f02%2fweekinreview%2f02siegelbernard%2ehtml&amp;u=www%2enytimes%2ecom%2f2011%2f01%2f02%2fweekinreview%2f02siegelbernard%2ehtml%3fpagewanted%3dprint">
 		<!-- End UPT call -->
-	
-		
+
+
         <script language="JavaScript"><!--
           var dcsvid="0";
           var regstatus="non-registered";

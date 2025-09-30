@@ -7,7 +7,7 @@
  =UTF-8qitrust_Landscape=_Mon,_11_Nov_2024_17-02-29_+0000_1931c2d5d36c6184.eml
 **Processed:** 2025-08-24T19:13:13.585982
 
-Puck logo ( https://puck.news/?utm_campaign=Eriq+IC+Call+-+SUBSCRIBER+Upsell+%2811%2F11%2F24%29&utm_source=customer.io ) 
+Puck logo ( https://puck.news/?utm_campaign=Eriq+IC+Call+-+SUBSCRIBER+Upsell+%2811%2F11%2F24%29&utm_source=customer.io )
 Puck’s Inner Circle Call
 
 Tara + Peter IC ( https://puck.news/my-account/billing/?utm_campaign=Eriq+IC+Call+-+SUBSCRIBER+Upsell+%2811%2F11%2F24%29&utm_source=customer.io )Dear Reader,     

@@ -173,7 +173,7 @@ document.write(unescape('%3Cscript src="//web.archive.org/web/20150503012721/htt
 
 <body>
           <div id="leaderboard">
-        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads 
+        <div id="block-ec_ads-leaderboard_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="leaderboard-ad"><!-- Site: Commerce.  Zone: Business Finance articles | Print --> <div id="gpt_leaderboard_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_leaderboard_ad");  });
@@ -184,7 +184,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-subscription_ad" class="block block-ec_ads 
+<div id="block-ec_ads-subscription_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <div id="subslug-ad"><!-- Site: Commerce.  Zone: Business Finance articles | Print --> <div id="gpt_subscription_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_subscription_ad");  });
@@ -195,7 +195,7 @@ ec-ads-gpt">
 </noscript></div></div>  </div>
 </div>
 
-<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads 
+<div id="block-ec_ads-pencil_slug_ad" class="block block-ec_ads
 ec-ads-gpt">
     <div class="content clearfix">
     <!-- Site: Commerce.  Zone: Business Finance articles | Print --> <div id="gpt_pencil_slug_ad"><script type="text/javascript">  googletag.cmd.push(function() {      googletag.display("gpt_pencil_slug_ad");  });
@@ -207,7 +207,7 @@ ec-ads-gpt">
 </div>
 
 </div>
-        <a href="/web/20150503012721/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20150503012721im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>    
+        <a href="/web/20150503012721/http://www.economist.com/"><img class="mh-logo" width="170" height="85" src="//web.archive.org/web/20150503012721im_/http://cdn.static-economist.com/sites/all/themes/econfinal/images/svg/logo.svg" alt="The Economist"/></a>
 <article itemscope itemtype="http://schema.org/Article">
   <hgroup class="typog-content-header main-content-header">
     <h2 class="fly-title" itemprop="alternativeHeadline">Hedge funds</h2>
@@ -223,7 +223,7 @@ ec-ads-gpt">
 </span>
                       | <a href="/web/20150503012721/http://www.economist.com/printedition/2011-01-15" class="source">From the print edition</a>
             </aside>
-  
+
   <div class="main-content" itemprop="articleBody">
     <p>A WILDERNESS of mirrors is how Hugh Hendry of Eclectica Asset Management, a macro hedge fund, has described the uncertain investment landscape, quoting a poem by T.S. Eliot. For macro hedge funds, which bet on global economic trends by trading instruments of almost any description, the terrain is especially perplexing. They are confronted by sovereign defaults in Europe, China&#39;s boom, the risk of a double dip and state intervention in markets, not least quantitative easing in America.</p>
 <div class="content-image-float"><img itemprop="contentUrl" src="http://web.archive.org/web/20150503012721im_/http://media.economist.com/images/images-magazine/2011/01/15/fn/20110115_fnc001.gif" alt=" " title="" width="290" height="281"></div>
@@ -239,7 +239,7 @@ ec-ads-gpt">
   </article> <!-- /article -->
 
 <aside class="grid-10 grid-first">
-  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market 
+  <div id="block-ec_perfect_market-ec_pm_content_container" class="block block-ec_perfect_market
 ">
     <div class="content clearfix">
     <div id="ec-perfect-market-container-content"></div>  </div>

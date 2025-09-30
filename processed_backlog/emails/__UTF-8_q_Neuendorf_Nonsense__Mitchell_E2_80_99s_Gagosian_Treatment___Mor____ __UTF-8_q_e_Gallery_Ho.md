@@ -33,7 +33,7 @@ in the current environment, when the photography market has narrowed greatly, is
 * Inner Circle housekeeping: If you signed up for
 the Wall Power Inner Circle but are having trouble getting the full Inner Circle email, or cannot access the Inner Circle content on Puck’s website, please respond to this email and copy Fritz@puck.news ( Fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or contact Fritz directly. Please do get in touch, so we can resolve any problems. We want your reading experience to be as smooth and effortless as possible.
 
- 
+
 
 Gallery Hopping
 ---------------
@@ -159,7 +159,7 @@ nor any of the several other businesses that have tried to create scale in the a
 
 In fact, over the past decade, as we’ve discussed here more than once, the art market has remained flat or shrunk in real terms. That brutal fact has done more to break the dreams of digital dominance than even the Neuendorfs’ hubris.
 
- 
+
 
 Endnotes…
 -----------
@@ -173,7 +173,7 @@ If the financial illiteracy of the ex-wives of art dealers isn’t your thing, t
 which is also a variation on his book about the creative process,
 The Work of Art: How Something Comes from Nothing ( https://www.amazon.com/Work-Art-Something-Comes-Nothing/dp/059329758X/ref=sr_1_1?crid=1UO1SWWP2VT13&dib=eyJ2IjoiMSJ9.8wRWqmgKZTdDvxur_VHnaDwd7fqKwuYEsUxVwlZh1mpTejr8bGJCXUVcgZq_OarRjWiwOWBHA6AhEXdoYwNvb-E3rb1PilefpXpFO1_DvGFLyQTZg7oSSi2eTKna_u0tnF9Et_ndyDEcD1f9QHjZXuTsiihaIQIPCrXbqElCmXR-lvLzinTLjz9jlKC033jESPNdxuRBX9z8un_A4M4rSApuj2Mm2Yj6yWrBKOSthts.TSRkdWrgqNNHyf65yq0R4aiH2Rmct087H5n0KT1MY7k&dib_tag=se&keywords=adam+moss+the+work+of+art&qid=1740758034&sprefix=Adam+Moss%2Caps%2C72&sr=8-1&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 That’s all for today. Have a great weekend, everyone. We’ll be back with more
 on Sunday night. 
@@ -227,7 +227,7 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVTswXfcBCwiV0NMXr110=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%282%2F28%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%282%2F27%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
 10006

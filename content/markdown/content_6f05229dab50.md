@@ -187,7 +187,7 @@ window.slateCMP.TCF.resolve({gdprApplies: false});
 <!-- data-uri="slate.com/_components/scroll/instances/default@published" -->
 
 <script data-uri="slate.com/_components/analytics-js-loader/instances/general@published" class="analytics-js-loader"
-  
+
   data-amplitude-api-key="5a7cb616c0717cb7f4f0eee43d9f4e1c"
   data-amplitude-log-level="Error"
   data-amplitude-domain=".slate.com"
@@ -252,7 +252,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
   ></script>
 
 <script>
-    window.googletag = window.googletag || {}; 
+    window.googletag = window.googletag || {};
     window.googletag.cmd = window.googletag.cmd || [];
   </script>
 
@@ -281,7 +281,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <body class="layout-one-column ">
 
 <section class="top-ad">
-          
+
 <div class="slate-ad ad--desktopOnly ad--leaderboard">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -323,8 +323,8 @@ window.PARSELY.conversions.trackLeadCapture(event);
 <div class="layout-one-column__content">
       <header
   data-uri="slate.com/_components/masthead/instances/default@published"
-  
-  
+
+
   class="masthead"
   data-via="nav"
 >
@@ -378,7 +378,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#avatar"></use>
         </svg>
 
-<div class="dropdown dropdown--subtle widgets__dropdown" 
+<div class="dropdown dropdown--subtle widgets__dropdown"
       ><button class="dropdown__button" disabled>
         <span class="dropdown__label">Account</span>
         <svg
@@ -392,20 +392,20 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <a href="https://slate.com/account" class="dropdown__link js-account--account" hidden >
                   Account
 
 </a>
-  
+
     <a href="https://slate.com/sign-out" class="dropdown__link js-redirect-return js-account--sign-out" hidden >
                   Sign out
 
 </a>
-  
+
       </div>
     </div>
-    
+
         </span>
     </li>
   </ul>
@@ -490,7 +490,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           </a>
 
 <div class="mobile-sections__link">
-    <div class="dropdown dropdown--subtle theme-picker" 
+    <div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -504,7 +504,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -512,7 +512,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -520,7 +520,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -528,10 +528,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -545,7 +545,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
 
 <div class="mobile-sections__link js-account--subscribe" hidden>
@@ -588,7 +588,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
             <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#asterisk"></use>
           </svg>
             <a class="strapline__text" href="https://slate.com/life/2025/09/elizabeth-gilbert-rayya-elias-new-book-all-fours.html">
-              Sliding Down a Wormhole 
+              Sliding Down a Wormhole
             </a>
 
 <div class="strapline__search">
@@ -608,7 +608,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
     </label>
   </form>
 
-<div class="dropdown dropdown--subtle theme-picker" 
+<div class="dropdown dropdown--subtle theme-picker"
       ><button class="dropdown__button theme-picker__button" disabled>
         <span class="dropdown__label"></span>
         <svg
@@ -622,7 +622,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
         </svg>
       </button>
       <div class="dropdown__content">
-        
+
     <button  class="dropdown__link theme-picker__option"  data-value="light">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#light"></use>
@@ -630,7 +630,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Light
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="dark">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#dark"></use>
@@ -638,7 +638,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Dark
 
 </button>
-  
+
     <button  class="dropdown__link theme-picker__option"  data-value="auto">
       <svg width="16" height="16">
         <use href="https://slate.com/static/media/components/masthead/sprite.69d4587.svg#auto"></use>
@@ -646,10 +646,10 @@ window.PARSELY.conversions.trackLeadCapture(event);
       Auto
 
 </button>
-  
+
       </div>
     </div>
-    
+
       <script>
         try {
           var selected = localStorage.getItem('theme') || 'light';
@@ -663,7 +663,7 @@ window.PARSELY.conversions.trackLeadCapture(event);
           }
         } catch (e) {}
       </script>
-    
+
   </div>
       </div>
     </div>
@@ -696,7 +696,7 @@ article--right-rail
 
 <div
     class="article__fullbleed-header"
-    
+
   ></div>
 
 <header class="article__header">
@@ -711,7 +711,7 @@ article--right-rail
 <h1 itemprop="headline" class="article__hed article__hed--" >Will Comcast Destroy Net Neutrality?</h1>
 
 <h2 itemprop="alternativeHeadline"
-    class="article__dek" 
+    class="article__dek"
   >Parsing the latest battle over openness on the Internet.</h2>
 <div class="article__meta">
         <div class="article__byline" >
@@ -877,14 +877,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="91"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-1@published"
-  
+
 > You’re bored on a cold, rainy Sunday afternoon, so you settle onto your divan and call up a streaming movie on Netflix— <em> <a data-linktype="External" href="http://www.amazon.com/gp/product/B001OC6RZA?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001OC6RZA">Wallace and Gromit: A Matter of Loaf and Death</a></em>, say. What happens then? You might imagine that the film gets shuttled to your house from a server in Netflix’s California headquarters. If every Netflix customer accessed the same data center, however, it would get overwhelmed with streaming requests and the network along the way would likely become clogged with Netflix traffic. Your movie, meanwhile, would look glitchy and terrible.</p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="117"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-2@published"
-  
+
 >To avoid these problems, Netflix streams video in pretty much the same way that it sends you physical DVDs. The company keeps lots of different copies of the movie you want to stream in different parts of the country; when you press play, it tries to connect you to the closest version. This isn’t unusual—most big sites do something like this. To handle the logistics, they often employ the services of third-party firms known as <a data-linktype="External" href="http://en.wikipedia.org/wiki/Content_delivery_network">content delivery networks</a>, or CDNs. Netflix has long relied on Akamai, one of the largest CDNs, to deliver its movies. But early in November it announced that <a data-linktype="External" href="http://www.businesswire.com/news/home/20101111005421/en/Netflix-Signs-Multi-Year-Deal-Level-3-Streaming">it had signed a deal</a> with Level 3 Communications to become its new primary distributor. </p>
 
 <div data-uri="slate.com/_components/connatix/instances/default" class="ad--exco">
@@ -895,7 +895,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="172"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-3@published"
-  
+
 >Less than three weeks after this new arrangement kicked off, <a data-linktype="External" href="http://mediadecoder.blogs.nytimes.com/2010/11/29/netflix-partner-says-comcast-toll-threatens-online-video-delivery/">accusations started flying</a>. The trouble started when Level 3 began asking Internet service providers to give it more access to their networks so they could handle the influx of traffic expected to come from Netflix. In particular, Level 3 asked Comcast, the nation’s largest ISP, for 30 new “interconnection ports” at major points around Comcast’s network. Level 3 did not expect to pay Comcast for these new ports. As Level 3 saw it, the ports would be serving Comcast’s customers—if Comcast’s customers want to access Netflix movies, then it is Comcast’s responsibility to pay for the network capacity. Comcast believed otherwise. The company <a data-linktype="External" href="http://blog.comcast.com/2010/11/comcasts-letter-to-fcc-on-level-3.html">gave Level 3</a> six new interconnection ports for free. But it pointed out that every other content network that sends traffic down Comcast’s line pays fees for that right (including Akamai, Netflix’s other content network). This is standard on the Internet—content networks usually pay ISPs for interconnection. If Level 3 wanted more access, it would have to pay up. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -974,14 +974,14 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="135"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-4@published"
-  
+
 >So who’s got the stronger case? The answer depends on what you think about everyone’s favorite mind-numbingly abstruse tech topic, “<a data-linktype="External" href="http://en.wikipedia.org/wiki/Network_neutrality">network neutrality</a>.” The principle of net neutrality states that network providers like AT&T, Comcast, and Verizon should let customers access anything on the Internet that they want, using whatever devices they want (provided that they aren’t doing anything illegal). On Wednesday, FCC chairman Julius Genachowski <a data-linktype="External" href="http://www.openinternet.gov/speech-remarks-on-preserving-internet-freedom-and-openness.html">unveiled a set of proposed neutrality rules</a> that he argues will keep the Internet “free and open.” Neutrality advocates are critical of Genachowski’s rules, <a data-linktype="External" href="http://www.freepress.net/press-release/2010/12/1/fcc-peddling-fake-net-neutrality">saying</a> that his plan gives ISPs too much leeway to discriminate against certain traffic on their networks. They’d like him to push for far tougher standards, including a legal reclassification of broadband networks that will let the FCC punish ISPs that block content on their lines. </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="124"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-5@published"
-  
+
 >Those tougher rules aren’t coming anytime soon, though, and you only need to look at the Comcast-Level 3 case to understand why. The deeper you dig into the fight between these two Internet companies, the less clear it is who’s in the right. In the meantime, the FCC needs congressional support to impose tougher rules on the ISPs—and already, the incoming Republican committee chairs in the House are vowing to <a data-linktype="External" href="http://voices.washingtonpost.com/posttech/2010/12/fcc_republicans_say_they_oppos.html">prevent any new neutrality rules</a>. In order to overcome such opposition, network neutrality proponents will need a groundswell of public support—but the confusing details of the Comcast-Level 3 dispute aren’t likely to get many people fired up. With an ambiguous test case and an unsympathetic Congress, don’t hold your breath for tough, sweeping legislation.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1024,7 +1024,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="119"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-6@published"
-  
+
 >Why should we be pushing for tougher regulations in the first place? Neutrality advocates say ISPs have an incentive to double-charge—that is, in addition to charging <em>you</em> for monthly access to the Internet, a company like Comcast might also begin charging Netflix for access to you. That’s sort of like if the Post Office began asking both you and Netflix to buy a stamp for every DVD you get in the mail. Such a system would turn the Internet into something more like cable TV: If some Web companies have to pay to access your Internet line, then your connection might become dominated by content from companies with deep pockets—and your access to everything else would be greatly diminished.</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1049,7 +1049,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="73"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-7@published"
-  
+
 >At first blush, Comcast seems guilty of charging Netflix (via its distributor, Level 3) to send videos to Comcast customers (who’ve already paid Comcast for unfettered Internet access). Comcast’s actions are even more suspect when you consider that it is a direct competitor to Netflix. Easy, cheap streaming video might push people to cut their cable subscriptions, after all, so Comcast certainly has an incentive to make Netflix pay more for network access.</p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1074,7 +1074,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="155"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-8@published"
-  
+
 >But Comcast’s defense isn’t crazy. Level 3 is an unusual beast. In addition to serving as a content delivery network for companies like Netflix, Level 3 also operates one of the largest “<a data-linktype="External" href="http://en.wikipedia.org/wiki/Internet_backbone">Internet backbones</a>,” which you can think of as the major superhighways of the network. Internet backbones often connect to one another for free under so-called “<a data-linktype="External" href="http://en.wikipedia.org/wiki/Peering">peering agreements</a>.” The theory is that it’s usually mutually beneficial for two large networks on the Internet to connect to one another—customers of each network will be able to get to parts of the Internet that are covered by the rival’s backbone. As a result, Comcast and Level 3 have long had a peering relationship, and under that agreement they tend to send each other roughly equal amounts of traffic, with no money passing hands. But now, with the Netflix deal, Comcast says that Level 3 will send it five times more traffic than Comcast sends Level 3. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1135,7 +1135,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="97"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-9@published"
-  
+
 >When traffic between Internet companies gets so out of balance, Comcast says, they usually sign new agreements that involve some kind of payment. Comcast’s case is bolstered by the fact that Level 3 has demanded exactly the same kind of payments. In 2005, for example, Level 3 blocked Cogent, another network provider, because Cogent was “pushing a lot more traffic our way than we were their way,” a spokeswoman <a data-linktype="External" href="http://www.internetnews.com/infra/article.php/3554476">said at the time</a>. (Level 3 <a data-linktype="External" href="http://www.computerworld.com/s/article/105790/Level_3_Cogent_resolve_peering_dispute_renew_deal">eventually signed a new deal with Cogent</a> with strict rules on the amount of traffic that each side could send the other.)</p>
 
 <div class="slate-ad ad--inArticleBanner ad--desktopXl">
@@ -1160,7 +1160,7 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="71"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-10@published"
-  
+
 >Level 3 and its defenders say that its old dispute with Cogent has no bearing here, because that fight didn’t involve traffic that was being generated by end users; in this case, by contrast, Level 3’s increased traffic only comes about because Comcast’s subscribers will demand lots of Netflix movies. By asking Level 3 to pay for something Comcast’s subscribers want, Comcast is double-charging for content—a direct violation of network neutrality. </p>
 
 <div class="slate-ad ad--mobileOnly ad--inArticleBanner">
@@ -1185,21 +1185,21 @@ article--right-rail
   class="slate-paragraph slate-graf"
   data-word-count="105"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-11@published"
-  
+
 >If you’ve followed this argument so far, you deserve a medal. For everyone else, don’t worry: This is how network neutrality fights go. When you click to watch a streaming movie, you imagine that the path from Netflix to your home computer is relatively straightforward. What actually happens, though, involves a patchwork of regulation, custom, and long-standing formal and informal deals about how the Internet should work. The problem is that the Internet continues to evolve, and nobody—not content providers like Netflix, network companies like Level 3, ISPs like Comcast, or perhaps especially regulators and lawmakers—know what it’s going to look like in the future. </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="14"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-12@published"
-  
+
 >The upshot? Kiss network neutrality goodbye. Not the idea—just the push for tough regulation. </p>
 
 <p
   class="slate-paragraph slate-graf"
   data-word-count="14"
   data-uri="slate.com/_components/slate-paragraph/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-13@published"
-  
+
 ><em>Become a fan of <strong> <a data-linktype="External" href="http://www.facebook.com/Slate">Slate</a>  </strong>and  <a data-linktype="External" href="http://www.facebook.com/pages/Farhad-Manjoo/99928665447">Farhad Manjoo</a>  on Facebook. Follow us on <a data-linktype="External" href="http://www.twitter.com/Slate">Twitter</a>.</em></p>
 
 <div
@@ -1264,7 +1264,7 @@ article--right-rail
 
 </section>
 
-<div class="article__right-rail">   
+<div class="article__right-rail">
 <div class="slate-ad ad--desktopXl ad--rightRail">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1299,7 +1299,7 @@ article--right-rail
   class="slate-adnode"
   data-adnode="technology/technology"
   data-uri="slate.com/_components/slate-adnode/instances/cq-article-2a59e5fb98ad7d00b61da4ac4d1df6e5-component-2@published"
-  
+
 ></div>
 
 <script
@@ -1350,7 +1350,7 @@ article--right-rail
     </div>
 
 <section class="bottom-ad">
-        
+
 <div class="slate-ad ad--sticky-mobile ad--sticky-mobile-index ad--mobileOnly">
   <div class="slate-ad__label">
     <span class="border"></span>
@@ -1375,7 +1375,7 @@ article--right-rail
   class="global-footer"
   role="contentinfo"
   data-uri="slate.com/_components/global-footer/instances/default@published"
-  
+
 >
   <div class="global-footer__main">
     <div class="global-footer__main-content">
@@ -1885,7 +1885,7 @@ keyCode.isEventKey = function isEventKey(event, nameOrCode) {
       // check codes
       var foundNamedKey = codes[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }
-    
+
       // check aliases
       var foundNamedKey = aliases[nameOrCode.toLowerCase()]
       if (foundNamedKey) { return foundNamedKey === keyCode; }

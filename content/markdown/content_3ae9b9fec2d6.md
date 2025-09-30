@@ -684,11 +684,11 @@ color: #000000;
 .post-body blockquote {
 color: #000000;
 }
- 
+
 a:link {
 color: #000000;
 }
- 
+
 .post h3 a, .post h3 a:visited, .post h3 strong {
 color: #000000;
 }
@@ -699,7 +699,7 @@ color: #000000;
         color: #000000
 	margin-bottom: 20px;
 	overflow: hidden;
-	padding-bottom: 17px;	
+	padding-bottom: 17px;
 	word-wrap: break-word;
 	width: 100%;
         }
@@ -715,11 +715,11 @@ blockquote {
 #sidebar-wrapperL {
 	display: none;
 }
- 
+
 #sidebar-wrapper {
 	display: none;
 }
- 
+
 #footer {
 	display: none;
 }
@@ -898,7 +898,7 @@ Jourdon Anderson.</blockquote>
 </span>
 </div>
 <br/>
-Comments are now <a href="http://web.archive.org/web/20200304041245/http://www.lettersofnote.com/2011/06/and-thensilence.html">closed</a> on Letters of Note. <br/>Get in touch via <a href="http://web.archive.org/web/20200304041245/mailto:shaun@lettersofnote.com">email</a>, <a href="http://web.archive.org/web/20200304041245/http://www.twitter.com/lettersofnote">Twitter</a>, or post... <br/>Letters of Note, PO Box 322, Manchester, M21 3DL. 
+Comments are now <a href="http://web.archive.org/web/20200304041245/http://www.lettersofnote.com/2011/06/and-thensilence.html">closed</a> on Letters of Note. <br/>Get in touch via <a href="http://web.archive.org/web/20200304041245/mailto:shaun@lettersofnote.com">email</a>, <a href="http://web.archive.org/web/20200304041245/http://www.twitter.com/lettersofnote">Twitter</a>, or post... <br/>Letters of Note, PO Box 322, Manchester, M21 3DL.
 <br/>The bestselling Letters of Note books can be bought at <a href="http://web.archive.org/web/20200304041245/http://booksofnote.com/">Books of Note</a>.
 <br/>
 <br/>

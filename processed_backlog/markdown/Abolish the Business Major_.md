@@ -12,15 +12,15 @@
 
 # Just a moment...
 
-Unknown author • August 13, 2019 
+Unknown author • August 13, 2019
 
 ![Just a moment...]()
 
-www.chronicle.com  
-  
-Verify you are human by completing the action below.  
-  
-www.chronicle.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.chronicle.com to respond... 
+www.chronicle.com
+
+Verify you are human by completing the action below.
+
+www.chronicle.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.chronicle.com to respond...
 

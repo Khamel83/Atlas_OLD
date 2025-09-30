@@ -89,7 +89,7 @@ federal inquiry: the fact that 60 Minutes and Face the Nation each aired differe
  
 
 Owens’s remarks hardly calmed the waters at CBS, where employees are still quietly rebelling against
-owner Shari Redstone’s plan to settle the lawsuit that President Trump brought against the network over the interview. As I reported ( https://puck.news/shari-redstone-joins-fellow-moguls-paying-trump-to-go-away/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week, Shari has privately determined that a low-eight-figure gift to the Trump Presidential Library is a small price to pay to close her tortured $8 billion sale of Paramount. On the other hand, as I also noted, there’s no guarantee that Shari’s capitulation will buy any less scrutiny of the sale. (My partner Eriq Gardner offered a similar assessment 
+owner Shari Redstone’s plan to settle the lawsuit that President Trump brought against the network over the interview. As I reported ( https://puck.news/shari-redstone-joins-fellow-moguls-paying-trump-to-go-away/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week, Shari has privately determined that a low-eight-figure gift to the Trump Presidential Library is a small price to pay to close her tortured $8 billion sale of Paramount. On the other hand, as I also noted, there’s no guarantee that Shari’s capitulation will buy any less scrutiny of the sale. (My partner Eriq Gardner offered a similar assessment
 ( https://puck.news/newsletter_content/wih-supermans-kryptonite-sharis-magical-thinking-a-i-at-the-oscars-3/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) yesterday, with characteristic acuity.) Maybe that explains why she hasn’t settled yet, but my latest intel
 tells me she still wants to put this to bed.
 
@@ -177,6 +177,6 @@ Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Roo
 
 You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU2ODvsfSPDoi0KnQ6ZwY=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%282%2F5%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
 
- 
+
 
 Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

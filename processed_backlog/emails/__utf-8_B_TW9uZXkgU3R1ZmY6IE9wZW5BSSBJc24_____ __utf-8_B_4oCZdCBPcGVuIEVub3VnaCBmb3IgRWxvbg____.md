@@ -9,58 +9,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         I wrote yesterday about reports that the US Securities and Exchange Commission might be looking into whether OpenAI or its founder and chief
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Elon vs. OpenAI
-    
-  
+
+
 
 I wrote yesterday about reports that the US Securities and Exchange Commission might be looking into whether OpenAI or its founder and chief executive officer, Sam Altman, might have misled its investors. Late last year, OpenAI’s board briefly   fired Altman for not being “consistently candid,” and then reversed course and fired itself instead. So there is some reason to believe that somebody wasn’t candid about something.
 I had my doubts that it would rise to the level of securities fraud, though. For one thing, OpenAI is a  nonprofit organization, and even its for-profit subsidiary, OpenAI Global LLC, which has raised money from investors, isn’t all that for-profit. I wrote: 
@@ -118,37 +118,37 @@ But it turns out the investors were fine,
   [5]
  You might be skeptical about putting an $86 billion valuation on a nonprofit, but probably you should be even more skeptical that a business with an $86 billion valuation is a nonprofit.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       HBS Ponzi
-    
-  
+
+
 
 Oh man, I kind of wish I had  thought of this:
 
@@ -164,7 +164,7 @@ Also his pitch was wild:
 The OAG alleged that Artamonov lured clients by claiming that he could learn which investments Berkshire Hathaway would make ahead of the market by examining public state insurance filings. Artamonov boasted to his investors that it is like “having a private time machine” and “getting tomorrow’s newspaper today,” and projected returns of 500-1,000 percent. In reality, Artamonov used his investors’ money to buy short-term options that expired within days of purchase and appeared to have no relation to Berkshire Hathaway or its investment activities. Artamonov lost millions of investors’ funds by investing in these short-term options, but did not disclose the loss to his investors. To cover up the losses, Artamonov told the investors that it had been a “quiet” month and to just wait and see.
 “Berkshire Hathaway is required to publicly disclose its investments in state insurance filings before it discloses them in SEC filings, and I will read the insurance filings to make informed trades” is … wrong, sure, but it has the vague shape of something that could be true. But what about “… and those informed trades will generate projected returns of 1,000%”? What are they teaching kids at Harvard these days? I feel like if I were pitching a Ponzi scheme to the Harvard Business School alumni, I would be promoting fake returns of, like, 35% with a high Sharpe ratio. You know: good, but not obviously fake. But apparently “I have a time machine that gives me guaranteed 1,000% returns” works on Harvard MBAs too.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] The fifth bullet point is about a proposed open letter to the US government on AI safety and regulation, which the complaint says was eventually published in October 2015 “and signed by over eleven thousand individuals, including Mr. Musk, Stephen Hawking and Steve Wozniak.”
 
 
@@ -180,48 +180,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] This is subtly different from the case of donating to Harvard. Also, to be clear, Musk stopped donating in about 2020, before OpenAI’s valuation got *that* high.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -232,46 +232,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckk7ee.5htk/4707b6d3.gif" alt="" border="0" /></a>

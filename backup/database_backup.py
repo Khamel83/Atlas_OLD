@@ -101,21 +101,21 @@ pg_dump -U $DB_USER -d $DB_NAME > $BACKUP_FILE
 # Check if backup was successful
 if [ $? -eq 0 ]; then
     echo "Database backup created: $BACKUP_FILE"
-    
+
     # Compress backup
     gzip $BACKUP_FILE
     echo "Backup compressed: $COMPRESSED_FILE"
-    
+
     # Encrypt backup
     python3 /home/ubuntu/dev/atlas/backup/encrypt_backup.py $COMPRESSED_FILE
     echo "Backup encrypted: $ENCRYPTED_FILE"
-    
+
     # Remove uncompressed file
     rm -f $COMPRESSED_FILE
-    
+
     # Verify backup
     python3 /home/ubuntu/dev/atlas/backup/verify_backup.py $ENCRYPTED_FILE
-    
+
     echo "Backup completed successfully"
 else
     echo "Database backup failed"
@@ -154,10 +154,10 @@ def encrypt_file(file_path):
     except FileNotFoundError:
         print("Encryption key not found")
         return False
-    
+
     # Initialize Fernet cipher
     cipher = Fernet(key)
-    
+
     # Read file to encrypt
     try:
         with open(file_path, "rb") as file:
@@ -165,15 +165,15 @@ def encrypt_file(file_path):
     except FileNotFoundError:
         print(f"File not found: {file_path}")
         return False
-    
+
     # Encrypt data
     encrypted_data = cipher.encrypt(file_data)
-    
+
     # Write encrypted data
     encrypted_file_path = file_path + ".enc"
     with open(encrypted_file_path, "wb") as encrypted_file:
         encrypted_file.write(encrypted_data)
-    
+
     print(f"File encrypted: {encrypted_file_path}")
     return True
 
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: encrypt_backup.py <file_to_encrypt>")
         sys.exit(1)
-    
+
     file_path = sys.argv[1]
     if encrypt_file(file_path):
         # Remove original file after encryption
@@ -218,13 +218,13 @@ def verify_backup(file_path):
     if not os.path.exists(file_path):
         print(f"Backup file not found: {file_path}")
         return False
-    
+
     # Check file size
     file_size = os.path.getsize(file_path)
     if file_size == 0:
         print(f"Backup file is empty: {file_path}")
         return False
-    
+
     print(f"Backup file verified: {file_path} ({file_size} bytes)")
     return True
 
@@ -232,7 +232,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: verify_backup.py <backup_file>")
         sys.exit(1)
-    
+
     file_path = sys.argv[1]
     if verify_backup(file_path):
         sys.exit(0)

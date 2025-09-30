@@ -50,7 +50,7 @@
 		"@type":    "WebSite",
 		"name":     "ESPN",
 		"url":      "https://www.espn.com/"
-		
+
 	}
 </script>
 
@@ -115,15 +115,15 @@ if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/service-worker.js');
 			}
 		</script>
-	
+
 		<script src="https://a.espncdn.com/redesign/0.741.3/js/espn-head.js"></script>
-	    
+
 		<script>
 			if (espn && espn.geoRedirect){
 				espn.geoRedirect.run();
 			}
 		</script>
-	
+
 <script>
 	var espn = espn || {};
 	espn.isOneSite = false;
@@ -131,21 +131,21 @@ if ('serviceWorker' in navigator) {
 	espn.siteType = "full";
 	espn.anonymous_favorites = "true" === "true";
 	espn.isFantasycast = false;
-	
+
 	espn.absoluteNavLinks = false;
 	espn.useEPlus = true;
 	espn.hidePremiumBranding = false; // used in pof: hide e+ branding if non premium edition (SEWEB-22908)
 	espn.enableObscuredAdsSkipping = false;
-	
+
 	espn.enableInlinePlayback = true;
 	espn.enableInlinePPV = true;
 	espn.dcsOverride = '';
 	espn.cmsOverride = '';
 	espn.load_hl_cb_script = false;
 	espn.enableDmp = "true" === "true";
-	
+
 		espn.playabilitySource = "playbackId";
-	
+
 </script>
 <script src="https://a.espncdn.com/redesign/0.741.3/node_modules/espn-lazysizes/lazysizes.min.js" async></script>
 
@@ -217,7 +217,7 @@ espnAdsConfig.load = espnAdsConfig.load || {};
 
 // Load prebid.js for AppNexus
     (function() {
-        var d   = document, 
+        var d   = document,
             pbs = d.createElement('script'),
             target;
 
@@ -256,13 +256,13 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
 		<!-- abtest data object global -->
 		<script type="text/javascript">
 			var abtestData = {};
-			
+
 		</script>
 
 <div id="fb-root"></div>
 
 <div id="global-viewport"  data-behavior="global_nav_condensed global_nav_full"  class =" interior secondary">
-            
+
 <nav id="global-nav-mobile" data-loadtype="server"></nav>
 
 <div class="menu-overlay-primary"></div>
@@ -277,7 +277,7 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
     </button>
     <div class="wrap">
         <div class="scoreboard-content">
-            
+
             <div class="scoreboard-dropdown-wrapper scoreboard-menu">
                 <!-- mobile dropdown -->
                 <div class="league-nav-wrapper league-nav-mobile mobile-dropdown">
@@ -324,8 +324,8 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
         </div>
     </div>
 </section>
-				
-				
+
+
 <header id="global-header" class="espn-en user-account-management has-search has-wheretowatch">
     <div class="menu-overlay-secondary"></div>
 	<div class="container">
@@ -337,7 +337,7 @@ espn.ads.configPre = JSON.parse(JSON.stringify(espnAdsConfig));
 	</div>
 </div></li><li class="user" data-behavior="favorites_mgmt"></li><li id="scores-link"><a href="#" id="global-scoreboard-trigger" data-route="false">scores</a></ul>
 	</div>
-	
+
 <nav id="global-nav" data-loadtype="server">
 <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
 
@@ -470,11 +470,11 @@ var tcStatus = {"tcTwoLocked":false,"fantasyLocked":false,"tcLocked":false,"tcwL
 			topEventsId: 4379198,
 			topSoccerId: 15878776,
 			editionIndex: 'espn-en-frontpage-index',
-			
-			
-			
-			
-			
+
+
+
+
+
 		}
 	};
 
@@ -483,7 +483,7 @@ var tcStatus = {"tcTwoLocked":false,"fantasyLocked":false,"tcLocked":false,"tcwL
 <script type='text/javascript'>
 		jQuery.subscribe('espn.defer.end', function () {
 			espn.scoreboard.init(null, {
-				params : 
+				params :
 					{"type":"story","sportSection":"mens-college-basketball","indexTopics":{"supportedPubKeys":{"espn-es-co-soccer-index":true,"espnin-en-soccer-index":true,"espn-es-ar-frontpage-index":true,"espn-es-cl-soccer-index":true,"espnin-en-cricket-index":true,"espnuk-en-rugby-index":true,"espnau-en-frontpage-index":true,"espnuk-en-tennis-index":true,"espn-es-cl-frontpage-index":true,"espnuk-en-frontpage-index":true,"espn-en-ncaa-index":true,"espnin-en-frontpage-index":true,"espn-en-tennis-index":true,"espn-es-ar-rpm-index":true,"espn-es-mx-soccer-index":true,"espn-en-womenbb-index":true,"espnuk-en-cricket-index":true,"espnin-en-tennis-index":true,"espn-es-ve-soccer-index":true,"espn-es-ar-soccer-index":true,"espn-es-us-frontpage-index":true,"espn-es-ar-tennis-index":true,"espn-es-co-frontpage-index":true,"espn-es-us-other-sports-index":true,"espn-es-us-soccer-index":true,"espnau-en-rugby-index":true,"espnza-en-frontpage-index":true,"espnuk-en-soccer-index":true,"espn-en-frontpage-index":true,"17784479":true,"espn-es-ve-frontpage-index":true,"espn-es-mx-frontpage-index":true,"espn-es-ar-rugby-index":true,"espnza-en-soccer-index":true,"espn-en-rpm-index":true,"espn-en-frontpage-grant-test-index":true}}}
 			});
 		});
@@ -557,12 +557,12 @@ if (typeof s_omni === 'undefined') {
            espn.ads = espn.ads || {};
            espn.shellParams = espn.shellParams || {};
            espn.shellParams.excludeTVEProviders = false
-            
+
                 $.subscribe("espn.defer.ready", function() {
                     espn_ui.Helpers.watchProviders.initWatchAuth();
                 });
-            
-					
+
+
         </script>
 
 </body>

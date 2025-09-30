@@ -22,7 +22,7 @@ def parse_tasks(text):
     current_task = None
     in_yaml_block = False
     yaml_lines = []
-    
+
     for line in lines:
         # Check for task header
         m = HDR.match(line.strip())
@@ -46,29 +46,29 @@ def parse_tasks(text):
                         tasks.append(current_task)
                 except yaml.YAMLError:
                     pass  # Skip malformed YAML
-            
+
             # Start new task
             current_task = {
-                "id": m.group("id").strip(), 
+                "id": m.group("id").strip(),
                 "title": m.group("title").strip(),
                 "slug": slug(m.group("title"))
             }
             in_yaml_block = False
             yaml_lines = []
-        
+
         # Check for YAML block start
         elif line.strip() == "```yaml" and current_task:
             in_yaml_block = True
             yaml_lines = []
-        
+
         # Check for YAML block end
         elif line.strip() == "```" and in_yaml_block:
             in_yaml_block = False
-        
+
         # Collect YAML lines
         elif in_yaml_block:
             yaml_lines.append(line)
-    
+
     # Don't forget the last task
     if current_task and yaml_lines:
         try:
@@ -87,13 +87,13 @@ def parse_tasks(text):
                 tasks.append(current_task)
         except yaml.YAMLError:
             pass
-    
+
     return tasks
 
 def topo_ready(tasks):
     by_id = {t["id"]: t for t in tasks}
     done = {t["id"] for t in tasks if t.get("status", "todo") in STATUS_DONE}
-    
+
     # Find tasks that are ready (all dependencies done)
     runnable = []
     for t in tasks:
@@ -101,12 +101,12 @@ def topo_ready(tasks):
             deps = t.get("deps", [])
             if all(d in done for d in deps):
                 runnable.append(t)
-    
+
     # Sort by priority
     def score(t):
         prio = PRIO_ORDER.get(t.get("priority", "P2"), 2)
         return prio
-    
+
     runnable.sort(key=score)
     return runnable
 
@@ -118,35 +118,35 @@ def main():
     if not TASKS_MD.exists():
         print("tasks.md not found", file=sys.stderr)
         sys.exit(2)
-    
+
     tasks = parse_tasks(TASKS_MD.read_text(encoding="utf-8"))
-    
+
     if len(sys.argv) == 1 or sys.argv[1] in {"pick","next"}:
         n = int(sys.argv[2]) if len(sys.argv) > 2 else 1
         sel = pick(tasks, n=n)
         if not sel:
             print("NO-READY-TASK", file=sys.stderr)
             sys.exit(3)
-        
+
         # Return machine-friendly JSON for agents
         out = [{
-            "id": t["id"], 
-            "slug": t["slug"], 
+            "id": t["id"],
+            "slug": t["slug"],
             "title": t["title"],
             "priority": t.get("priority", "P2")
         } for t in sel]
         print(json.dumps(out))
-    
+
     elif sys.argv[1] == "list":
         out = [{
-            "id": t["id"], 
-            "title": t["title"], 
+            "id": t["id"],
+            "title": t["title"],
             "status": t.get("status", "todo"),
-            "deps": t.get("deps", []), 
+            "deps": t.get("deps", []),
             "priority": t.get("priority", "P2")
         } for t in tasks]
         print(json.dumps(out, indent=2))
-    
+
     else:
         print("Usage: next_task.py [pick [N]|list]", file=sys.stderr)
         sys.exit(2)

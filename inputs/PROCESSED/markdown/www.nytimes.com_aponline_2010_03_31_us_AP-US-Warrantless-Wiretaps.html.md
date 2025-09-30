@@ -7,7 +7,7 @@
 
 # nytimes.com
 
-Unknown author • March 31, 2010 
+Unknown author • March 31, 2010
 
 ![nytimes.com]()
 

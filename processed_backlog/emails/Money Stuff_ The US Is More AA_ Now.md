@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         What do you do with this information? Fitch Ratings … cut the US’s sovereign credit grade one level from AAA to AA+. The move comes just two
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       US AA+
-    
-  
+
+
 
 What do you do with   this information?
 
@@ -90,40 +90,40 @@ We do not believe there are any meaningful holders of Treasury securities who wi
 So nothing much should change on this downgrade; nobody can’t hold Treasuries just because they’re rated AA+. 
 Probably. I suppose it is possible that someone, somewhere has some trade on that says “Party A will post collateral to Party B consisting of government bonds rated AAA by at least two of the three big ratings agencies,” and they were posting $1 billion of US Treasury bonds because those were rated Aaa/AA+/AAA, but now Treasuries are rated Aaa/AA+/AA+ and they are scrambling to dump the $1 billion of Treasuries and replace them with $1 billion of, I guess, German bunds? A bit of a weird way to write a contract, really, but not absolutely outside the realm of possibility. If you have that trade, please email me! If you were allowed to hold Treasuries when they were rated AAA (by Fitch), but not now that they are rated AA+ (by Fitch), I would love to hear about it. But I don’t think there are a lot of those people out there.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       People are worried about bond market liquidity
-    
-  
+
+
 
 I used to use this section header all the time; it became a running joke around here in the mid-2010s. Back then, when I wrote “people are worried about bond market liquidity,” it was usually about one (or both) of two overlapping concerns:
-	
+
  Bonds were not liquid. In the olden days, the worry went, banks would commit their balance sheets to buy bonds from investors who wanted to sell them, but now banks are risk-averse and heavily regulated and are unwilling to buy bonds, so it is hard for real investors to sell bonds quickly without crashing the market.	Bond mutual funds and, particularly, bond  exchange-traded funds created an “ illusion of liquidity”: People could trade in and out of ETFs in milliseconds, giving them very liquid access to bond exposure, but if everyone wanted out of bond ETFs at once then the ETFs would have to sell their underlying bonds, which are far less liquid, and which would lead to problems.
 
 I was never all that excited about either of these worries, but people were really into them for a while, so I mentioned them a lot.
@@ -147,11 +147,11 @@ I  made a related point in June. We discussed the story of how Bill Gross, like,
 The big discovery in investment-grade credit in the 1970s was “bonds are liquid and fungible; let’s trade them to make more money.” The big discovery in investment-grade credit in the 2020s is “trading is overrated; we can make more money by doing our own structuring and getting paid for illiquidity.”
 The big (and controversial) discovery in high-yield credit in the 2010s was that if you package high-yield bonds into ETFs, they will trade more liquidly and become a more attractive product. The big discovery in high-yield credit in the 2020s is that if high-yield bonds trade more liquidly and become more attractive, they will pay less, and so you’ll have to go to private credit to get more illiquidity and more yield.
 
-  
-    
+
+
       Ruble arbitrage
-    
-  
+
+
 
 In its simplest form, “arbitrage” means buying something at a low price and selling the same thing, simultaneously, at a higher price, somewhere else. Buy a share of stock on the New York Stock Exchange, sell the same share for a penny more on Nasdaq, that's arbitrage.
 In a trivial sense a dollar is always worth more in the US than it is in Europe, and a euro is always worth more in Europe than it is in the US, just because you can buy a sandwich with dollars but not euros in the US and vice versa. And your bank or credit card company will do that arbitrage for you — selling you euros for dollars in Europe or vice versa — and make a little money, though that business is efficient and competitive enough that they probably won’t make much money.
@@ -173,11 +173,11 @@ Take May 20 last year. A trader in Kazakhstan might have bought $10 million from
 The service the banks were providing here is not quite sanctions evasion, but it is something related. If you want to dump your rubles for dollars, the ultimate buyer of those rubles is probably going to be a Russian bank, and for US companies dealing with a Russian bank is going to be at least a little awkward if not actually sanctioned. But dealing with a Wall Street bank who deals with an Armenian bank who deals with a Russian bank insulates you from most of the awkwardness. 
 To be clear, this is good! When Russia invaded Ukraine, there was a broad push (driven by sanctions but also public pressure) for US and European companies to get out of Russia. But this means getting rid of Russian assets — factories, bonds, rubles, etc. If US and European companies are broadly getting out of Russia, that means that they will mostly need to get rid of their Russian assets by selling them to Russians. But there was also a broad push for US and European companies not to deal with Russians. Those two demands — get out of Russia, don’t deal with Russia — were sort of incommensurable, but the financial system found a way to make it work.
 
-  
-    
+
+
       Binance.US
-    
-  
+
+
 
 I   have argued before that Binance, the world’s largest crypto exchange, is also the exchange with the best understanding of US crypto regulation. “We are operating as a fking unlicensed securities exchange in the USA bro,” Binance’s chief compliance officer told another Binance executive back in 2018, succinctly and accurately capturing the US Securities and Exchange Commission’s interpretation of the law. Every other crypto exchange that operates in the US is also operating as an unlicensed securities exchange, in the SEC’s (contested) view, but most of their compliance officers were less clear-eyed about it. Now Coinbase Global Inc. is in an existential fight with the SEC about whether it can operate at all, while Binance is in a … well, less existential fight with the SEC. It’s in a fight with the SEC about whether it can operate in the US, and about whether it will have to pay big fines, but it has lots of non-US business too. Binance saw where US crypto regulation was heading, and put most of its eggs in non-US baskets.
 Here is a  fun story from Aidan Ryan at the Information about how far Binance almost went in that direction:
@@ -194,11 +194,11 @@ I have questions about the corporate governance there?
 Anyway Zhao’s basic instinct here seems correct: If you are a crypto exchange and you have any US contact, US regulators will go after you, which means not only that they will try to get a lot of money from you and change how you do business, but also that they will paint you as essentially law-breakers. “A decent rule of thumb,” I   sometimes   say, “is that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes.” US regulators’ complaints against Binance are like 95% just “Binance operates a crypto exchange and we think that’s illegal in the US,” but they are 5% about wash trading and taking risks with customer money and other alleged actually bad stuff. The US lawsuits are bad public relations, and customer relations, and non-US regulatory relations, for Binance. It would probably have been better for Binance to get out of the US altogether.
 Elsewhere: “Crypto Is Illegal in China. Binance Does $90 Billion of Business There Anyway.” Sure! Look, if you are an international crypto exchange, you are going to break a few laws.
 
-  
-    
+
+
       Double insider trading
-    
-  
+
+
 
 Last year, the US Securities and Exchange Commission charged Charles Holzer with insider trading. Holzer manages a family office, and in 2018, when a private equity consortium was looking to buy Dun & Bradstreet Corp., one of the investors in the consortium pitched Holzer on investing. Dun & Bradstreet was a public company at the time, and the deal was not yet public, so the way this works is that the investor asked Holzer on a no-names basis if he might be interested in investing in the acquisition of a “leading publicly listed commercial data and analytics company.” He said yes, and they sent him a nondisclosure agreement, which he signed, promising not to disclose the deal or trade on it. Then they sent him an investment deck identifying the target and the price they were going to pay. Holzer agreed to invest in the deal, but before it was announced he also bought out-of-the-money call options on Dun & Bradstreet in his personal account, and made a profit when the deal was announced and the stock went up. Straightforwardly illegal,  the SEC sued him and  he settled by agreeing to pay about $870,000. 
 Today the SEC  came back for more:
@@ -210,15 +210,15 @@ The SEC alleges that Holzer used that information to purchase 23,000 shares of D
 Ahahaha he’s not really a serial insider trader, is he? He did all the insider trading at roughly the same time; you just caught it serially.
 I almost proposed a   Fifteenth Law of Insider Trading, “if you settle with the SEC over your insider trading, make sure you settle over all your insider trading,” but honestly I have no idea if that’s right. (Not legal advice! Consult a lawyer!) Like if the SEC comes in and says “we caught you insider trading those options, pay up,” and you say “oh, those options, you got me, here you go,” and later they find out that you also traded a bunch of stock offshore, they will not be pleased and will come back for more. But they might not find out! And if instead you say “the options? What about all that stock I traded in my offshore accounts,” they will not necessarily be thrilled with you either.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Do  Activists Beat the Market? To Catch a Trader: How   Banks Got Raided in Hunt for Tax Cheats. European  IPOs fall to lowest level since 2009. Inside the race to  lead EY after bungled break-up plan. NatWest Must Pay Banker It   Fired After Cancer Surgery. “ Bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry.” Bed Bath &  Beyond the Grave: The Home-Goods Retailer Is Back Online.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] When S&P downgraded the US in 2011, there was a rush to sell *stocks*, and to *buy* Treasuries, because the downgrade increased the market’s perception of risk, and Treasuries are the classic risk-off asset. There seems to be less of that here.   Bloomberg quotes Chris Harvey, head of equity strategy at Wells Fargo & Co.: “Fitch’s downgrade should not have a similar impact to S&P’s 2011 downgrade given the starkly different macro environments and other reasons. Heading into S&P’s Aug 2011 downgrade, markets were in ‘risk-off’ mode, with equities in a correction, credit spreads widening significantly, rates falling, and the GFC was still in the market’s collective conscience. Today, we have almost the opposite: IG credit spreads hit a YTD low of 112bps at month end, interest rates have been floating up, the SPX has returned 20% YTD, and many investors expect the Fed to cut rates by early 2024. As a result we believe any equity market pullback would be relatively short and shallow.”
 
 
@@ -234,48 +234,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [5] For what it’s worth,  the SEC complaint against Binance in June says that “BAM Trading, d/b/a Binance.US … is wholly owned by BAM Management,” and that “Zhao continues to own 81 percent of BAM Management” and controls it.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -286,46 +286,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj7ri4.5o0t/f0d091d4.gif" alt="" border="0" /></a>

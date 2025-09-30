@@ -112,11 +112,11 @@ In fact, I would argue that defining “virtual reality” to mean an immersive 
 
 True virtual reality shifts time like media, place like communications, and, crucially, does so with perfect availability and infinite capacity. In this view, virtual reality is AI, and AI is virtual reality. Hardware does matter — that has been the focus of this Article — but it matters as a means to an end, to enable an interactive experience without the constraints of human capacity or the friction of actual reality.
 
-* 
+*
 
 The experience wasn’t perfect, both from a usability standpoint, and from the overly verbose answers, delivered in ChatGPT’s sterile style; you can see the seeds of something very compelling though ↩︎ ( #rf1-11652 )
 
-* 
+*
 
 And startups like Character.AI ( https://beta.character.ai/ ) are reportedly doing extremely well ↩︎ ( #rf2-11652 )
 

@@ -7,59 +7,59 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
-        Programming note: Money Stuff will be off tomorrow, back on Monday.We have talked a few times recently about the US Securities and Exchange 
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
+
+
+
+
+
+
+
+
+
+        Programming note: Money Stuff will be off tomorrow, back on Monday.We have talked a few times recently about the US Securities and Exchange
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           Programming note: Money Stuff will be off tomorrow, back on Monday.
 
-  
-    
+
+
       When are tokens securities?
-    
-  
+
+
 
 We have  talked a few  times recently about the US Securities and Exchange Commission’s lawsuit against Ripple Labs Inc. Ripple is a company that is building a blockchain ecosystem; it created and sold a bunch of crypto tokens called XRP to fund that development. The SEC argued that this was a securities offering — Ripple sold quasi-stock in its project, for money, to build that project — while Ripple argued that it wasn’t. Last month, a federal judge in New York issued a split decision:
 	XRP itself is not a security: It is just a token, “little more than an alphanumeric cryptographic sequence.”	When Ripple sold XRP to institutional investors, directly, in negotiated transactions, that was a securities offering, because the institutional investors understood that they were investing money in Ripple’s project and hoped to profit from its efforts to increase the value of XRP.	When Ripple sold XRP to retail investors, in anonymous transactions on crypto exchanges, that was not a securities offering, because the retail investors didn’t know that they were buying directly from Ripple and might not have even read Ripple’s various public advertisements about how they would make the price of XRP go up.
@@ -84,37 +84,37 @@ I don’t know what to make of that. Judge Rakoff was deciding a motion to dismi
 
 What would that mean for crypto exchanges? The  action right now in SEC crypto enforcement is largely against exchanges, arguing that they are running illegal securities exchanges and should stop. But if the tokens themselves are not securities, does that mean that the exchanges are entirely off the hook? Or, if the issuances of “token plus totality of circumstances” are securities offerings, does that mean that when the tokens start trading they are trading along with the totality of their circumstances, and are thus securities? If you buy an XRP or a Luna (Terra’s token), are you just buying a digital token, or are you expecting “the profitability of the cryptoassets” from “the managerial and technical skills that would allow the [issuers] to maximize returns on the investors’ coins”? 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Bad trade
-    
-  
+
+
 
 Here’s a trade:
 	I am a widget producer, you are a widget user, and widgets trade in a liquid daily market with lots of buyers and sellers and pretty volatile prices.	We sign a contract saying that I can sell you anywhere between 0 and 100 widgets each day for a year, at my option: Each day, I pick a number between 0 and 100, and that’s how many widgets you buy from me that day.	The price you pay is $20 per widget, regardless of the market price that day.
@@ -147,11 +147,11 @@ The company didn’t break any rules. But “it looks like they are acting in ba
 
 I am sorry but you should have done a better job negotiating the subsidy deal! Put a line in the contract like “in any event you’ll always supply at least X megawatt-hours per day under this deal.” Or just have the contract be on a fixed notional amount rather than the amount actually supplied. But if you base the contract on how much electricity they actually supply, and let them decide how much to supply, then they will supply a lot when the contract is favorable to them and nothing when it is favorable to you.
 
-  
-    
+
+
       US AA+
-    
-  
+
+
 
 We  talked yesterday about Fitch Ratings’ decision to downgrade the US sovereign credit rating from AAA to AA+, joining Standard & Poor’s (which cut the US to AA+ in 2011) and breaking from Moody’s (which still has it at Aaa). My main reaction was, meh, whatever. Fitch’s downgrade does not add a lot of information to the market; perhaps someone bought Treasuries thinking they were a safe investment but changed her mind after seeing Fitch’s downgrade, but that would be pretty weird.
 And while there are some contexts in which investors are forced to sell bonds when they are downgraded — if you are an investment-grade manager and a bond goes from BBB- to BB+, it is no longer investment-grade and you might have to get rid of it
@@ -175,11 +175,11 @@ Fannie Mae and Freddie Mac benefit from implicit government support, Fitch said.
 And there are enormous categories of asset-backed securities that also benefit from implicit or explicit US government backing, backing that used to be AAA-rated and is now only AA+: agency mortgage-backed securities, for instance, and also student loans. Fitch put a bunch of AAA-rated student loan pools on “ratings watch negative” in June, after putting the US government on ratings watch in May, because those pools are largely guaranteed by the US Department of Education. That guarantee is now, to Fitch, worth a bit less than it used to be.
 I am not sure how much this matters either, but it is a bit more likely to matter. Somebody somewhere could be posting these securities as collateral in some trade that requires collateral rated AAA by two agencies, and might now have to substitute other collateral because of the downgrade. Treasuries are Treasuries; “most investment mandates and regulatory regimes refer to them specifically, rather than AAA-rated government debt.” But AAA-rated quasi-government-supported asset-backed-securities are, maybe, in some contexts, just AAA bonds. Or rather they were, and now they are not.
 
-  
-    
+
+
       Short selling
-    
-  
+
+
 
 We have talked from   time to   time around here about a corporate financing model that I first heard from  Joe Weisenthal: If you have found a way to make some product more cheaply than a big publicly traded incumbent manufacturer,
   [5]
@@ -201,11 +201,11 @@ In the event this plan was ruined not by securities laws but by Questcor buying 
 A few months later, the day before the kid was scheduled to wire over his $16 million and assume the distribution rights to Synacthen, Questcor swooped in and bid $135 million, plus a handful of potential bonuses the kid figured would more than double the sticker price. … [The kid’s] short position in Questcor, coupled with a host of other shorts in suspect drug companies that refused to shrivel promptly, was likely killing him. 
 Yeah just seems like a risky way to make a living. Anyway the kid in this anecdote was Martin Shkreli, which seems exactly right.
 
-  
-    
+
+
       Is Binance too big to jail?
-    
-  
+
+
 
 This is weird!
 
@@ -224,11 +224,11 @@ The first sort of exchange — this roughly fits Coinbase Global Inc. — is n
 
 Binance is obviously in the second category, in that it is a big derivatives exchange that lets customers make leveraged bets, but sometimes people seem confused about that risk. (“Don’t borrow if you run a crypto business. Don't use capital ‘efficiently.’ Have a large reserve,” tweeted Binance Chief Executive Officer Changpeng Zhao after the FTX collapse, adding “we have never taken on debt.”) The DOJ, though, seems concerned about it.
 
-  
-    
+
+
       VC interns
-    
-  
+
+
 
 Broadly speaking, a lot of financial-services businesses involve some mix of (1) sourcing deals, (2) evaluating deals and (3) executing deals. In Step 1, you build up a network of potential clients (counterparties investors, targets, whatever), cold-call them, meet with them, build a public profile so they call you, whatever. In Step 2, you look at the deals that are available to you, do the ones that you think will make you money and avoid the ones that will lose you money. In Step 3  you structure the investment and negotiate the contract and get the funding and the regulatory approvals and so forth.
 If you are a senior person at any sort of financial-services business you are probably good at all three of these elements of the job.
@@ -248,15 +248,15 @@ The ranking isn’t an automatic ticket to getting a job. It’s one of many dat
 
 They get ranked on how many cold calls they make! Also I love the idea of giving your interns a public ranking and telling them not to worry about it, what a great management technique, that’s how you keep them on their toes.
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
  Private Credit Funds Move From Mergers to Timeshares and Car Loans.  Goldman Sachs hit by senior departures as lower pay and overhaul take toll. Private Equity   Deal Drought Spurs Firms to Raise Cash Creatively.   SocGen CEO Krupa Hints He May Shrink Some Businesses in Revamp. How an Ex-Goldman Banker   Fought US Sanctions Over Russia — and Won. “When a legal claim against a  well-heeled defendant trades in single digits, it’s often worth taking a second look.” “How do we reorganise society and management in a world where skimming for content is something  everyone just does with their phone?” “On the bus, we sometimes have branch managers and loan officers and small business tellers, and we ask them, what can we do better. We give them  immunity and beer.” A  Stairway to Nowhere Sells for $32,000 in London.  Rejected underage drinker hires protesters to smear luxury NYC hotel with wild signs: suit.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] To be clear this is a made-up illustrative number.
 
 
@@ -290,48 +290,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [11] Sometimes banks partially reverse this by   hiring the young adult children of important clients as junior bankers, not because they are good at financial modeling but because they are (presumably) good at bringing in their parents’ business. But people get mad about this; it’s not how it’s supposed to work.
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -342,46 +342,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj81as.5kxm/bacbdc17.gif" alt="" border="0" /></a>

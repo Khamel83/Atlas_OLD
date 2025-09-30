@@ -12,11 +12,11 @@
 
 # 404: Page not found · pitchers & poets
 
-Unknown author • May 18, 2011 
+Unknown author • May 18, 2011
 
 ![404: Page not found · pitchers & poets](http://pitchersandpoets.com/public/apple-touch-icon.png)
 
-404: Page not found  
-  
-Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. Head back home to try finding it again. 
+404: Page not found
+
+Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. Head back home to try finding it again.
 

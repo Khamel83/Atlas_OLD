@@ -12,12 +12,12 @@ Today’s Not Boring is brought to you by… Tegus [ https://substack.com/redire
 If the name Tegus [ https://substack.com/redirect/83240fe6-4069-4bd1-a4f9-1949b07eb531?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] sounds familiar, it might be because you’ve been reading Not Boring and know that it’s my favorite way to get up to speed on a new industry from the insider perspective. It might also be because you read that just last week, AlphaSense acquired the company for $930 million. I told you their insights were valuable! 
 Tegus [ https://substack.com/redirect/83240fe6-4069-4bd1-a4f9-1949b07eb531?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is full of transcripts of conversations with insiders and executives in any industry you can think of. It boasts 75% of the world’s private market transcripts. For example, if you want the inside view on what’s happening in AI, without the hype, you can read expert perspectives on companies like OpenAI, Anthropic, and Mistral, plus a long tail of transcripts covering every topic you can imagine. 
 With Tegus [ https://substack.com/redirect/83240fe6-4069-4bd1-a4f9-1949b07eb531?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you gain access to the pulse of the private markets – with perspectives and detailed financials you won’t find anywhere else. There’s a reason the world’s best private market investors use Tegus, and as a smart, curious Not Boring reader, you can get access to the Tegus platform today:
-Hi friends 👋 , 
-Happy Tuesday and welcome back to Not Boring! Happy belated Father’s Day to all the Not Boring Dads out there. 
-Over the past couple of weeks, I’ve been thinking a lot about Leopold Aschenbrenner’s Situational Awareness [ https://substack.com/redirect/8e6df0f3-c09b-49a7-9003-9ff38a58503c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], in which he argues that just continuing to scale effective compute at the same pace AI labs have been scaling it will lead to AGI by 2027 and ASI soon thereafter. 
-A lot of people have taken the paper very seriously, many others have been quick to dismiss it, but I think there’s a very optimistic middle path that also happens to be the most likely. 
-This essay is about that path. 
-Let’s get to it. 
+Hi friends 👋 ,
+Happy Tuesday and welcome back to Not Boring! Happy belated Father’s Day to all the Not Boring Dads out there.
+Over the past couple of weeks, I’ve been thinking a lot about Leopold Aschenbrenner’s Situational Awareness [ https://substack.com/redirect/8e6df0f3-c09b-49a7-9003-9ff38a58503c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], in which he argues that just continuing to scale effective compute at the same pace AI labs have been scaling it will lead to AGI by 2027 and ASI soon thereafter.
+A lot of people have taken the paper very seriously, many others have been quick to dismiss it, but I think there’s a very optimistic middle path that also happens to be the most likely.
+This essay is about that path.
+Let’s get to it.
 The Goldilocks Zone
 Humans are astronomically lucky.
 That our planet, Earth, exists in what astronomers call a Goldilocks Zone – just the right distance from the Sun to be habitable – is one of a million factors that needed to go just-right for us to be here, monkeys on the precipice of creating thinking machines.
@@ -179,7 +179,7 @@ So bring on the models that can solve physics, that can reason on problems they�
 Let humans keep pushing the boundaries of new knowledge, pushing the frontiers of our ambitions, and set ever-greater goals to match our ever-more-capable tools. 
 I bet we’re going to look back on this period from 2071 the way people looked back on the discovery of oil in 1971. 
 And hey, it’s an easy bet to make: if I’m wrong, if AGI builds ASI that kills us all, you won’t be around to rub it in my face. Find me an AI clever enough to make that bet. 
-Thanks to my AI editor, Claude Opus, for giving me feedback when I asked it to. 
+Thanks to my AI editor, Claude Opus, for giving me feedback when I asked it to.
 That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
 Thanks for reading,
 Packy

@@ -12,15 +12,15 @@
 
 # Just a moment...
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![Just a moment...]()
 
-www.tabletmag.com  
-  
-Verify you are human by completing the action below.  
-  
-www.tabletmag.com needs to review the security of your connection before proceeding.  
-  
-Verification successful Waiting for www.tabletmag.com to respond... 
+www.tabletmag.com
+
+Verify you are human by completing the action below.
+
+www.tabletmag.com needs to review the security of your connection before proceeding.
+
+Verification successful Waiting for www.tabletmag.com to respond...
 

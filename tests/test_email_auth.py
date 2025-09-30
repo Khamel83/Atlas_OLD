@@ -15,10 +15,10 @@ from helpers.email_auth_manager import EmailAuthManager
 def test_email_auth():
     """Test the EmailAuthManager"""
     print("Testing Email Authentication Manager...")
-    
+
     # Initialize the auth manager
     auth_manager = EmailAuthManager()
-    
+
     # Check if already authenticated
     if auth_manager.is_authenticated():
         print("Already authenticated!")
@@ -31,7 +31,7 @@ def test_email_auth():
         except Exception as e:
             print(f"Authentication failed: {e}")
             return False
-    
+
     # Test the service
     try:
         profile = service.users().getProfile(userId='me').execute()

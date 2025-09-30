@@ -7,58 +7,58 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         Sometimes there are profitable trades, but not that often. Sometimes someone is looking to sell 100 widgets at $20 on the American Widget Ex
-      
-    
-  
-  
-    
-      
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       MEV spoof
-    
-  
+
+
 
 Sometimes there are profitable trades, but not that often. Sometimes someone is looking to sell 100 widgets at $20 on the American Widget Exchange, and someone else is looking to buy 100 widgets for $21 on the National Widget Exchange. And so you can buy on the AWE and sell on the NWE and make an instant $100 profit. But only one person can do that. Once you buy on the AWE and sell on the NWE, the window is closed.
 Who gets to do the trade? The most intuitive answer, in most cases, is “whoever does it first.” If you see the same thing trading for two different prices on two different exchanges, and I don’t, and you send in the orders to the exchanges before me, then you do the trade and I don’t. For most human-scale trades, this makes sense and is easy to administer and feels basically fair.
@@ -106,37 +106,37 @@ We have talked a few times about Avi Eisenberg, the crypto trader arrested (and 
 This is controversial, and a lot of people in and out of crypto have complaints of the form “look, if decentralized finance exchanges do not want to be subject to US regulation, why does the federal government need to protect them from market manipulators?” I am sympathetic to those complaints.
 But here! I mean! Ethereum and its decentralized exchanges have a market structure that is like “bots can look at your transactions and front-run them if that’s profitable.” And these guys, allegedly, front-ran the front-runners; they turned the market structure around so that they could get an early look at the front-running bots’ front-running transactions and front-run them instead. By hacking, sure, sure, it’s bad. But it leaves the Justice Department in the odd position of saying that the integrity of crypto front-running is important and must be defended.
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Rare sats
-    
-  
+
+
 
 Crudely speaking there are two sorts of crypto tokens. There are fungible tokens, like Bitcoin and Ether and Tether and Solana, which have approximately cash-like properties: If a thing costs two Bitcoins, it doesn’t matter which two Bitcoins you use to pay for it; any two Bitcoins are just as good as any other two Bitcoins. And there are nonfungible tokens, NFTs, like Bored Ape Yacht Club, which have approximately art-object-like properties: Each Bored Ape is different, and some — based on their rarity or aesthetics or provenance — are worth much more than others.
 Intuitively, fungible tokens are indistinguishable coins, while NFTs are unique images. But really neither of those things is true. Really they are both entries in detailed permanent transaction ledgers. An NFT, for example, isn’t the little drawing of the monkey; the NFT is simply a numbered entry in a ledger that points to the drawing of the monkey. I once wrote that “an NFT consists of a series of numbered tokens, and the thing that makes it an NFT is that it has a different number in its tokenId field from the other tokens in its series.” 
@@ -154,11 +154,11 @@ The other is that, while some Bitcoin enthusiasts value rare sats highly and wil
 [Bill] Restey is part of a small, tight-knit band of hunters trying to root out these rare sats, which are scattered across the bitcoin network. They do this by depositing batches of bitcoin with a crypto exchange, then withdrawing the same amount—a little like depositing cash with a bank teller and immediately taking it out again from the ATM outside. The coins they receive in return are not the same they deposited, giving them a fresh stash through which to sift. They rinse and repeat.
 If you deposit one Bitcoin on a crypto exchange and then withdraw it, you will get one Bitcoin. But you will not get the same Bitcoin you put in. The exchange will say “ehh Bitcoins are Bitcoins, it doesn’t matter.” But you might disagree.
 
-  
-    
+
+
       Super … users … ?
-    
-  
+
+
 
 Some companies post their earnings releases every quarter on their website with a URL format like “xyzcorp.com/investorrelations/earnings_2023q4.html.” And they put out a press release earlier saying, like, “we will release our first-quarter earnings after the close of trading at 4:05 p.m. on May 16.” And then at 4:05 p.m. they send the earnings release to the business wires. Ideally, also at 4:05 p.m., they upload the earnings to their website. But it is not absolutely unheard-of for a company to upload the earnings to the website a bit early, but not tell anyone until 4:05. And so it is not absolutely unheard-of for hedge fund analysts to figure out the URL format of a company’s earnings releases and point their browser to “xyzcorp.com/investorrelations/earnings_2024q1.html” at, like, 3:45 p.m. Most of the time, this turns up nothing. Occasionally, early earnings!
 I mean, I should say, this is a thing I have heard of. In 2024, it’s reasonably well-known, and many companies try not to post their earnings early on easily guessed web pages, so it’s not clear that it’s worth looking.
@@ -173,15 +173,15 @@ US stock-index futures jumped and Treasury yields fell immediately after media o
 
 Here is the statement, which is vague about what subset of files it was. Perhaps they were not the market-moving files. Or perhaps they were, and they sat on the website, but nobody was looking, because what were the chances they would have found something?
 
-  
-    
+
+
       Things happen
-    
-  
+
+
 
 Dow 40,000. With a BlackRock CEO, $9 Trillion Vanguard Braces for Turbulence. LME Warehouse Queue Returns After Jump in Aluminum Orders. Starwood’s $10bn property fund taps credit line as investors pull money. Warren Buffett’s Berkshire Reveals Its Mystery Stock: Chubb. Paramount: the takeover battle that could reshape Hollywood. Top-Ranking Lenders See Diminishing Recoveries in Bankruptcy. How Coinbase Is Seeking to Ease Crypto’s Credit Crunch. Europe’s Banks Find Breaking Up With Russia Is Hard to Do. Billionaire Frank McCourt Plans Bid for TikTok in U.S. ‘Finfluencers’ charged for promoting unauthorised trading scheme. Milei Targets Labor Law That’s Set to Hand Banker $10 Million Severance. Raccoon pitch invader caught with a trash can during Philadelphia Union-NYCFC match.
 If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
-        
+
   [1] Especially because crypto DEXes generally run mechanically so the price impact of a transaction is quite knowable.
 
 
@@ -194,7 +194,7 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [4] This trade relies on two sorts of exchanges, DeFi (decentralized finance) DEXes (decentralized exchanges) and CeFi (centralized finance) exchanges. The actual $25 million trade here has to happen *on the blockchain*, because that is where they are spoofing and tampering with transaction ordering; DEXes are where you trade crypto on the blockchain. But then getting the $25 million out requires a company that can wire money to your bank, and that is a centralized exchange. So he searched for CeFi exchanges to be the on -and off-ramp for the trade, which they did on decentralized exchanges.
 
 
-  [5] In fact they are charged with wire fraud, not with hacking under the CFAA, but it was probably reasonable to worry about getting charged with hacking too. But the lesson is probably that wire fraud is more general than CFAA hacking — everything is wire fraud! — so it’s the easier thing to charge. 
+  [5] In fact they are charged with wire fraud, not with hacking under the CFAA, but it was probably reasonable to worry about getting charged with hacking too. But the lesson is probably that wire fraud is more general than CFAA hacking — everything is wire fraud! — so it’s the easier thing to charge.
 
 
   [6] Of course, it is often used loosely to mean “using order book data to try to trade faster than someone else,” which is not traditional front-running and not a crime. And that’s mostly the meaning in the indictment here.
@@ -206,48 +206,48 @@ If you'd like to get Money Stuff in handy email form, right in your inbox, pl
   [8] Also there is, in the US, some risk that prosecutors might treat guessing URLs as illegal hacking? And thus, perhaps, also insider trading?
 
 
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
 
 
-  
-    
-      
-      
 
 
-  
-    
-      
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
@@ -258,46 +258,46 @@ Before it’s here, it’s on the Bloomberg Terminal. Find out more about how
 
 Want to sponsor this newsletter?  Get in touch here.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
+
+
           Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
+
+
+
+
+
+
+
+
+
+
+
                   |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
           Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
+
+
+
+
+
 
 
 <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl2tk4.5hsh/7a20d972.gif" alt="" border="0" /></a>

@@ -7,256 +7,256 @@
 
 
 
-  
-  
-    
-      
-        
-      
-    
-  
-  
-    
-      
+
+
+
+
+
+
+
+
+
+
+
         VoyagerLoosely speaking, there are two sorts of cryptocurrency platforms. There are centralized platforms, which are owned by shareholders (
-      
-    
-  
-  
-    
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-        
-          
-          
-        
-        
-          
-            
-          
-        
-      
-  
-    
-      
-        
-      
-    
-  
 
 
-      
-      
-    
-  
-  
-  
-    
-      
-        
-          
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Voyager
-    
-  
+
+
 Loosely speaking, there are two sorts of cryptocurrency platforms. There are centralized platforms, which are owned by shareholders (founders, employees, venture capitalists, etc.) and managed by managers. The managers set the policies and try to attract deposits (of money and cryptocurrency) from customers and then make decisions about how to invest those deposits. If the investments make money, the customers get paid some agreed-upon yield, and the platform (and its equity investors) keeps any profits that are left over. If the platform becomes popular and successful and widely used, and if its investments work out well, then its shareholders get rich. This is roughly how many traditional finance businesses work too.Then there are decentralized platforms. These are in some sense owned by their users (customers, depositors, borrowers, etc.), though generally that means that the users get a cryptocurrency token with some economic and governance rights rather than a share of equity. There might be some managers, but the holders of the governance tokens can replace them or change the platform’s policies. There is a Discord channel. If the platform is investing customer money, the customers, as holders of governance tokens, might get to vote on what to invest in, and the profits (or losses) of the investment flow directly to the customers. If the platform becomes popular and successful and widely used, and if its investments work out well, then its users — at least the early users, the ones with a lot of tokens — get rich. This form of organization is at least a somewhat new phenomenon, a genuine innovation of crypto.Don’t take those last two paragraphs too seriously; I am oversimplifying and abstracting a lot here. But I think that directionally there is something to this: There are manager-run shareholder-owned centralized platforms that interact with users as customers, and there are token-driven decentralized platforms that interact with users as customer-owners. At a similarly high level of abstraction, one way for a centralized platform to become a decentralized platform is by going bankrupt. Oops! Voyager Digital Ltd. is a New York-based, Toronto-listed cryptocurrency brokerage platform that blew itself up by lending hundreds of millions of dollars of customer money to troubled crypto hedge fund Three Arrows Capital. Last night it filed for Chapter 11 bankruptcy in New York and, while it doesn’t have enough money to pay back its customers, it does have some tokens to give them. From Voyager’s press release this morning:The proposed Plan of Reorganization ("Plan") would, upon implementation, resume account access and return value to customers. Under this Plan, which is subject to change given ongoing discussions with other parties, and requires Court approval, customers with crypto in their account(s) will receive in exchange a combination of the crypto in their account(s), proceeds from the 3AC recovery, common shares in the newly reorganized Company, and Voyager tokens. The plan contemplates an opportunity for customers to elect the proportion of common equity and crypto they will receive, subject to certain maximum thresholds.If you had 10 Bitcoins, or $10,000 of USDC stablecoins, in your Voyager account, you are, uh, you’re not getting those back. Voyager loaned 15,250 Bitcoins and $350 million of USDC to Three Arrows; those are gone. But you’ll get some of your cryptocurrency back. (Last week Voyager released some financial data as of June 30, showing at least $2.3 billion of assets, of which about $650 million is loans to Three Arrows; if everything else is money-good then customers should get back 72 cents on the dollar, though hoo boy is that not investment advice.[1]) And to make it up to you, you will also get:	Shares of stock in what’s left of Voyager, giving you the upside in its future business.	“Voyager tokens,”  which are “a digital currency issued and administered by the Company” that is “primarily issued in connection with the company’s loyalty and rewards program.” If you own Voyager tokens you can use them to “earn a variety of rewards and incentives, including higher referral bonuses, lower transaction fees, prioritized customer support, higher PIK Interest rates, and access to special events and investment opportunities.” Imagine! Imagine earning that referral bonus. Imagine calling your uncle to be like “hey I have all these loyalty tokens from a crypto exchange that just went bankrupt and lost my Bitcoin, you should sign up.” 	A share of Voyager’s claim against Three Arrows, which is   also in bankruptcy; presumably that bankruptcy process will eventually return some number of pennies on the dollar for Voyager’s loan, and you’ll get a share of that.You thought you were just a customer of Voyager, putting your crypto there to facilitate trading and earn yield. But now you are an owner of Voyager: You’ll get paid more if its investments work out, if it succeeds as a cryptocurrency trading platform, if it earns lots of fees because customers flock to trade on Voyager, etc. You’ve got equity shares, you’ve got loyalty tokens, you have a direct stake in its biggest and riskiest investment. You’re in decentralized finance now, congratulations.Look. I am being a bit stupid here. This is not, like, how DeFi works. Still I do think it’s funny that bankruptcy will turn Voyager’s customers into owners of its platform and of its biggest loan, and I think it does point to some interesting lessons about crypto. Here are three:	A lot of people don’t want this. The reason that centralized platforms like Voyager,   Celsius,   Babel,   Vauld, etc. appealed to users is that they offered a simple thing. “We’ll hold your crypto for you and pay you a yield” is a nice proposition, very much like what a bank does with your money. (Banks are more regulated and less reckless though.) It is legible and simple and feels safe, and some people want that. “You’ll deposit your crypto on our platform and then you can vote on how it is invested and get a share of the upside in individual loans while also earning tokens that pay you rewards based on trading fees that we earn” — that is also a thing, and some people want that, but it is a different thing. Even in crypto, the demand for a safe place to put your money and earn a defined yield is separate from, and possibly greater than, the demand for a platform where you can vote on risky investment decisions and share in the upside. Here is  a Voyager press release from three weeks ago: “Voyager differentiates itself through a straightforward, low-risk approach to lending and asset management by working with a select group of reputable counterparties, which are all vetted through extensive due diligence by its Risk Committee. The company does not participate in DeFi lending activities, algorithmic stablecoin staking and lending, or derivative assets, such as stETH. One of Voyager’s important objectives is to make crypto as simple and safe as possible for consumer use.” People want trusted intermediaries. They just sometimes trust the wrong ones. Voyager promised people the safe thing and ended up giving them, you know, tokens.[2]	Tokenomics only work on the way up.[3] “Tokenomics” is sort of   a way of saying that, if you make your customers your shareholders, then you can turn any sort of business   into a Ponzi scheme. (But in a good way?) People will become customers as a way to get tokens and speculate on the growth of the platform, so the platform will grow, so more people will join to speculate, etc., whether or not the underlying business is good. But it seems harder to do this with a declining business. Here, Voyager has blown up its customers, and to make it up to them it is giving them a share of its future business. There might not be any.	Actual DeFi platforms (except   Terra!) have mostly not blown up the way that Voyager et al. have, and there is a reason for that. Voyager et al. turned out to have been making a lot of unsecured or undersecured loans to crypto hedge funds (largely Three Arrows); DeFi platforms mostly make oversecured loans and, when they don’t get paid back,   automatically liquidate the collateral to preserve their capital. This is a sensible division of labor: It is easier to do oversecured lending through smart contracts, on the blockchain, with automatic liquidation, etc.; unsecured lending requires trust and due diligence and works better with some centralized decision-maker who can look the borrower in the eye.[4] The unsecured model is more economically meaningful, but in a downturn, the oversecured model tends to look better. I have been talking about Voyager’s own bankruptcy plan, which it filed with the court today and which “contemplates a standalone restructuring that the Company can effectuate without a sale or a strategic partner.” But things might still change; the plan is not final or even really what Voyager wants. Obviously it would be preferable, for Voyager’s customers, if someone just bought Voyager for, you know, $1 plus a promise to make customers whole. (That is more or less  what happened to BlockFi Inc. last week: FTX US, Sam Bankman-Fried’s crypto exchange, bought it for a small amount of money plus a larger credit facility that is subordinated to customer funds.)But nobody has offered to buy Voyager and make customers whole, and not for lack of trying. Here is a declaration from Voyager’s investment banker at Moelis & Co.:Beginning on or about June 20, 2022, Moelis initiated a dual-track marketing campaign to solicit interest in two general deal structures: (a) a sale of the Debtors’ entire business to either a financial sponsor or a strategic company in the cryptocurrency industry (a “Sale”) and (b) a capital raise whereby a third party (individually or as part of a consortium) would provide a capital infusion into the Debtors’ business enterprise (a “Financing,” and together with a Sale, a “Transaction”) to allow the Debtors to weather the current volatility in public equity markets, the decline in cryptocurrency prices, and dislocation in the cryptocurrency industry caused, in part, by the decline of 3AC and the collapse of the Terra Luna ecosystem. Among the deal structures considered for the Financing were additional debt facilities and the issuance of preferred equity in exchange for capital.To that end, Moelis reached out to 60 potential financial and strategic partners across the globe (collectively, the “Potential Counterparties”), including domestic and international strategic cryptocurrency-related businesses and private equity and other investment firms that currently have crypto-related investments and/or historical experience investing in the cryptocurrency industry. By July 5, 2022, over 20 of the Potential Counterparties had entered into confidentiality agreements with the Debtors. Parties who executed a confidentiality agreement received a copy of the Debtors’ investor presentation and access to a virtual data room containing thousands of pages with certain information regarding the Debtors’ business operations, finances, material contracts, tax information, and incorporation documents. In addition, parties that signed confidentiality agreements were offered the opportunity to participate in telephone conferences with the Debtors’ management team as well as to request additional due diligence information. They got one offer, but “the conditions precedent to the proposal and the pro forma capital structure contemplated thereunder were not achievable,” so, basically no offers. This is not exactly a surprise. If you have $100 of customer obligations and only $80 of cash and crypto to meet them, who is going to want to buy the company and make customers whole? The buyer would be making the customers whole out of its own pocket, and the only reason to do that would be if the buyer thinks that there’s a ton of future value in your platform. But your platform just went bankrupt and froze customer accounts. Maybe you’ll win customers back and become a valuable company again! But it sure seems risky.Voyager puts a brave face on this:The Debtors are facing a short-term “run on the bank” due to the downturn in the cryptocurrency industry generally and the default of a significant loan made to a third party. But the Debtors have a viable business and a plan for the future. As discussed in this Declaration, we worked tirelessly with our advisors over the last three weeks to develop a strategy that will position the Debtors for long-term success. ...To that end, and consistent with Voyager’s mission to serve its customers, this is not a “free-fall” filing without direction. On the contrary, Voyager has a path forward and a plan to swiftly bring these chapter 11 cases to an appropriate conclusion. … This process is designed to position Voyager for success in a turbulent market environment, allowing the Company to support go-forward operations and preserve the value of its customers’ assets. The Company’s primary focus has been, and always will be, its customers. The Company’s chapter 11 cases allow the Company to continue to meet its objectives by marketing the Company to third-party investors or effectuating a comprehensive restructuring transaction that will preserve the value of the business and operations. Voyager will move as swiftly as possible through these cases to maximize the value of its business and allow customers to fully use the Company’s platform. …The Plan effectively functions as a “stalking horse” proposal. The Company will continue discussions with strategic third-party investors to solicit interest in sponsoring the Plan or otherwise providing financing to Voyager in exchange for partial or full ownership of the reorganized Company. Yeah you know anything’s possible. A few other points. Alameda Research Ltd., Sam Bankman-Fried’s crypto hedge fund, is all over this case. It is Voyager’s second-largest debtor, owing $376.8 million to Voyager. (The largest is Three Arrows.) It is a big Voyager shareholder, with about 9.5% of Voyager’s stock as of June 23. And it is also a big creditor to Voyager, because it gave Voyager a $485 million  rescue financing last month. That $485 million was a line of credit (in dollars and Bitcoin), and only $75 million of it was drawn as of the bankruptcy. That $75 million will be zeroed in Voyager’s proposed bankruptcy plan; apparently Alameda agreed to subordinate its debt to Voyager’s customer claims. (It did the same in rescuing BlockFi.)Incidentally, I don’t know why Voyager didn’t draw the other $410 million of the credit line before filing for bankruptcy? Perhaps it did not meet the conditions to draw the money, I don’t know, but that money would go a long way toward filling the hole left by Three Arrows. (Voyager’s proposed bankruptcy plan would release all claims against Alameda.)Bankman-Fried has become sort of the John Pierpont Morgan, or perhaps the Federal Deposit Insurance Corp., of crypto, going around and rescuing troubled crypto firms in a way that more or less zeroes their shareholders but that preserves some value for customers. I said above that this is kind of a weird trade: Why make the customers of a failed crypto exchange whole out of your own pocket? What is the future value of a frozen crypto exchange? Particularly with Voyager, Alameda didn’t even buy the exchange (though it was a pre-bankruptcy shareholder); it just threw $75 million ($485 million?) of its own money in to help customers. But Alameda — and FTX, and Bankman-Fried — has bigger things to worry about. Alameda, FTX and Bankman-Fried are highly levered to the success and popularity of crypto. If Voyager fails and its customers are messily made whole, or whole-ish, then that is probably bad for the future business prospects of Voyager (people can just buy crypto using a different brokerage!), but it is good for the future prospects of crypto (people will buy crypto using a different brokerage!). If supposedly safe crypto brokerages keep failing and customers keep losing money, that is bad for the whole ecosystem; if your money isn’t safe with any crypto brokerage then you might just not buy crypto. A billionaire with a crypto exchange should be willing to spend some money to mitigate that.There is one more interesting group of Voyager creditors: people who recently put money into their Voyager accounts and who, after Voyager froze accounts, had the presence of mind to call their bank and say “wait, that transfer was fraudulent, give me my money back.” You can do that! Crypto transfers on the blockchain are irreversible, immutable blockchains, code is law, etc., but if your bank moves dollars out of your bank account you can try calling them up and asking them to reverse the transfer for fraud. The problem for Voyager is that customers sent it a bunch of money using ACH transfers from banks, and used that money to buy crypto, and then:	Crypto prices collapsed, and	So did Voyager.If you sent Voyager $40,000 to buy Bitcoin, and then Bitcoin fell to $20,000 and Voyager froze your account, you would rather have the $40,000 back than the Bitcoin, and you would certainly rather have the $40,000 back than a bankruptcy claim on Voyager that will be settled partly in Bitcoin and partly in Voyager tokens, bankruptcy claims against Three Arrows, etc. But Voyager is offering you that miscellaneous grab bag of bankruptcy claims. Whereas calling your bank up to say “hey this transfer was fraudulent, Voyager didn’t give me what they promised” might get you the $40,000 back. And you’re not even lying! Voyager did not really provide a great product, did it? Your bank will sympathize.Meanwhile though Voyager doesn’t have your $40,000; it spent the $40,000 to buy a Bitcoin for you, and then loaned the Bitcoin to Three Arrows, which didn’t give it back. Giving you the $40,000 back would be doubly disastrous: Voyager doesn’t have the Bitcoin, and the Bitcoin isn’t worth $40,000. Giving you the $40,000 would dramatically reduce the recovery for the rest of Voyager’s customers. So it’s asking the bankruptcy court to stop these chargebacks[5]:ACH transactions, while critical to the Debtors’ flow of funds, also leave the Debtors susceptible to fraudulent chargebacks by customers of the MC FBO Account (the “ACH Chargeback”). This occurs when customers utilize the Voyager platform to purchase cryptocurrency with payment for such cryptocurrency held by the MC FBO Account via ACH transfer; yet once the Debtors purchase the cryptocurrency, the customer asserts that such purchase was unauthorized and demands that MC Bank unilaterally reverse the ACH transfer. This practice is fraud, and harms the Debtors and their legitimate customers. The Debtors are in the process of assessing how many illegitimate transactions account holders have engaged in, particularly given the volatility of the cryptocurrency business in recent months.On July 1, 2022 (the “Freeze Date”), the Debtors halted their trading services and froze all withdrawals from the Voyager platform. If MC Bank were to continue honoring ACH Chargeback requests following the Freeze Date, the stability of the Debtors’ platform could be compromised as customers may fraudulently claim that valid ACH transfers were unauthorized and seek to withdraw such amounts from the MC FBO Account. Therefore, to protect against fraudulent reversals and ensure the stability of the platform during these chapter 11 cases, the Debtors request authority to prohibit MC Bank from honoring any withdrawals or ACH Chargeback requests from the MC FBO Account for a period of sixty (60) days after the Freeze Date while the Debtors work with MC Bank to confirm whether such requests are legitimate or fraudulent, and honor such legitimate requests accordingly.I dunno. This is correct, but unsatisfying. If you got customers to deposit money with your crypto brokerage by promising them “a straightforward, low-risk approach to lending and asset management” that will “make crypto as simple and safe as possible for consumer use,” and then you freeze their money and lose it, it’s a bit rich to accuse them of fraud for trying to get it back.
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-     
-       
-         
-       
-    
-  
-  
-    
-      
-      
-        
-          
-             
-               
-                 
-               
-            
-          
-        
-      
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       Vibes
-    
-  
+
+
 Here’s a little palate-cleanser after that:Dig into the depths of crypto Twitter, or more specifically NFT twitter, and a trend is emerging.More and more projects are hiring directors and chiefs of vibes.It's a new take on the classic roles that focus on corporate culture and customer experience. Director of vibes merges the two, while upping the ante for a perpetually online Web 3.0 audience.One of the first Web 3.0 startups to adopt this role is decentralized NFT protocol Fractional. Since then more projects have followed their lead, sometimes putting their own spin on the title."It has been crazy to see just people realizing that maybe there is a need for a role even though the title is silly at first glance," said Deeze, who is Fractional's director of vibes.Deeze, who declined to share his real name as he manages vibes pseudo-anonymously, previously operated in the NFT space as both a collector and trader before joining Fractional."My whole brand on Twitter at the time, and still is, was just being like this honest and authentic crypto NFT degenerate who learns in public and shares wins and losses and tries to give honest advice to the community," Deeze said.The worse the vibes are, the more important the job is. On the way up, the customers manage the vibes for you. On the way down you really have to work on the vibes.
-  
-    
-      
-        
-      
-    
-  
 
 
-  
-    
+
+
+
+
+
+
+
+
+
       Who controls Ben & Jerry’s?
-    
-  
+
+
 One very natural thing that can happen is:	You start a company. You are a passionate and visionary founder; the company is built in your image, and its success comes from following your philosophy. Perhaps it is even named after you.	It becomes very valuable.	You would like to sell your stock in the company for a ton of money, because money can be used for many things that you like (philanthropy, yachts, etc.).	But you would like to continue to control the company, because you care passionately about it but also because its value is dependent on your unique vision and you don’t want someone else to mess that up.Traditionally, ownership and control rights are connected: If you own 51% of the stock of the company, you can replace the board of directors and appoint the chief executive officer and generally tell the company what to do; if you sell that 51% to someone else then they get to do those things. But modern corporate finance is pretty flexible and there are ways around that. In particular, if you are a visionary founder and you want to take your company public, you can do it with dual-class stock, so you can sell a bunch of your stock and still keep control of the company. Snap Inc. even went public with   non-voting stock: The founders could get lots of cash for their company without giving up any control at all.In theory you could do even weirder things. You could sell 100% of the stock of the company to a single buyer, in a merger, and keep control anyway. Just write in the merger agreement “Buyer will own Company, but Seller will get to appoint its board of directors, who will continue to run the company.” A very weird thing to do! And no reason to think a buyer would agree. But I guess it’s theoretically possible, why not. Or you could slice it more finely: “Buyer will own Company and run it, but Seller will continue to appoint an independent board of directors, who will have final say over philosophical matters.” That way you get your money, and someone else takes over the problems of running the business day to day, but the company still has to follow your broad vision. It’s still your passion project, so the elements that you are passionate about preserving — the parts of your vision that made it so valuable — are still in your control.This doesn’t happen a lot or anything, but  it did happen with Ben & Jerry’s:Ben & Jerry’s sued its corporate parent, Unilever Plc, to block a deal that would allow its ice cream to be sold in the Israeli-occupied West Bank, claiming that would conflict with the company’s “core values.”The ice cream maker said Unilever’s decision to sell the Ben & Jerry’s brand and trademark rights in Israel to businessman Avi Zinger violates its 2000 acquisition agreement with the global food, home care and beauty products giant.“Ben & Jerry’s founders insisted on the inclusion of explicit language to ensure the brand’s integrity was not diluted,” following the sale to Unilever, setting up an independent board with authority to protect its brand, reputation and goodwill, the company said in the lawsuit, filed Tuesday in Manhattan federal court. Here is the complaint. In general it is very unusual for a subsidiary to sue its corporate parent, because the parent makes all decisions for the subsidiary and is not about to sue itself. But Ben & Jerry’s Homemade Inc. has an independent board of directors, and only two of its members are appointed by Unilever. (They voted not to sue.) Here is the 2000 merger agreement in which Unilever bought Ben & Jerry’s; Section 6.14 covers the independent board of directors, e.g.:The Company Board shall have primary responsibility for preserving and enhancing the objectives of the historical social mission of the Company as they may evolve from time to time consistent therewith (“Social Mission Priorities”). The Company Board shall work together with the CEO to integrate Social Mission Priorities into the business of the Surviving Corporation. ...The Company Board shall be the custodians of the Ben & Jerry’s-brand image and shall have primary responsibility for safeguarding the integrity of the essential elements of the Ben & Jerry’s brand-name (the “Essential Integrity of the Brand”). The Company Board shall work together with the CEO to provide that the business of the Surviving Corporation is conducted in a manner that preserves and enhances the Essential Integrity of the Brand. As part of this responsibility, the Company Board may prevent any action bythe CEO in the areas of new product introduction, the changing of product standards and specifications, the approval of the content of marketing materials and the licensing or other use of the Ben & Jerry’s trademark that, in each case, a majority of the Company Board reasonably determines to be inconsistent with the Essential Integrity of the Brand.And the board gets to more or less appoint itself: The majority of directors are “Class I Directors,” meaning the board as of the merger and their successors, and when a Class I director leaves then the other Class I directors appoint a successor. Unilever owns Ben & Jerry’s, but Ben (Cohen) and Jerry (Greenfield) and their friends still control it, or partly control it, or think they do anyway. They have sold the stock, but the voting rights they keep forever.
-  
-    
+
+
       Things happen
-    
-  
+
+
 US, Allies Discuss  Capping Russian Oil at $40-$60 a Barrel to Cut War Financing. Norilsk and Rusal in talks to forge $60bn Russian metals champion. FTX Presses for Crypto Derivatives Approval, Agitating Legacy Exchanges. Crypto Exchange Finds a New Source of Revenue: ‘ Inactivity Fee.’ French state to take full control of EDF. The  Cost of Sand Has Spiked 150% in Texas. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Caveats include: There are some assets on Voyager’s official March 31 balance sheets that don’t show up in the abbreviated June 30 numbers, so there might be more assets there. My calculation in the text assumes that 100% of Voyager’s assets are funded by customer deposits; in fact as of March 31 only 91.4% of assets were funded by customer deposits. I do think that 72 cents should be a *floor*, *assuming* that all the other assets are money-good. Except of course bankruptcy fees are expensive and might reduce that recovery. Also I am treating everything as being US dollar claims, though in reality you might allocate Bitcoins, USDC, etc., separately and holders of some cryptocurrencies might be made more whole (in the relevant crypto? in dollars?) than holders of others. Also that 72 cents on the dollar ascribes no value to the Three Arrows claim, since it is being parceled out to customers separately.[2] Of course *now* Voyager does not exactly emphasize its promises of safety. From its declaration in bankruptcy: “To provide customers with a yield on the assets they store with Voyager, Voyager loans out a portion of its cryptocurrency reserves to third parties. Voyager customers expressly acknowledge that Voyager may loan the customer’s deposited assets (which are pooled with all other retail investors’ deposited assets) to third parties when they agree to the Voyager customer agreement, a requirement to deposit assets on Voyager’s platform. Loans are typically made in the form of cryptocurrency to, among other things, facilitate the counterparty’s transactions or provide the counterparty with additional liquidity of a specific type of token.” [3] Byrne Hobart: “One of the great new anti-crypto arguments that's arisen recently is that crypto's go-to-market advantage is actually a disadvantage. One of the great points for token-based economics for systems with network effects is that owning the token gives early adopters a reason to hype the product, which improves the network effect and can, if calibrated well, bootstrap the entire business to being more valuable than it would have been otherwise. Which is great, if it works, but the downside is you don't know if you have product-market fit or just something people like to speculate with. This is not fully solvable—calculating customer lifetime value is never a solved problem—but given the liquidity of crypto, it means getting it wrong is more value-destructive than it otherwise would be.”[4] There are modest exceptions; Goldfinch is a decentralized unsecured lending platform.[5] MC Bank is Metropolitan Commercial Bank, which is Voyager’s bank; the “MC FBO Account” is the account at MC Bank maintained for the benefit of Voyager.
-        
-      
-    
-  
 
 
-  
-    
-        
-          
+
+
+
+
+
+
+
+
             Follow Us
-            
-              
-            
-            
-              
-            
-            
-              
-            
-          
-          
-          
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
               Get the newsletter
-            
-          
-        
-    
-  
-
-
-  
-    
-      
-      
-  
-    
-      
-        
-      
-    
-  
 
 
 
 
-  
-    
-      
-        
-        
-Like getting this newsletter? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like getting this newsletter?
 Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
 
 
 
 Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
 
-      
-    
-  
 
 
 
-        
+
+
+
+
            You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
-        
-        
-          Unsubscribe | Bloomberg.com | Contact Us
-        
-        
-          
-            
-              
-                
-                  
-                    
-                  
-                
-                
-                  |
-                
-                
-                  
-                    
-                  
-                
-              
-            
-          
-        
-        
-          Bloomberg L.P. 731 Lexington, New York, NY, 10022
-        
-      
-    
-  
-  
 
-  
-    
-      
-      
-      
-      
-      
-    
-  
+
+          Unsubscribe | Bloomberg.com | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+                  |
+
+
+
+
+
+
+
+
+
+
+
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

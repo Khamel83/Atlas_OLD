@@ -7,7 +7,7 @@
 
 # blogs.bulls.com
 
-Unknown author • Unknown date 
+Unknown author • Unknown date
 
 ![blogs.bulls.com]()
 
